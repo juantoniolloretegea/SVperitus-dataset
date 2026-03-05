@@ -240,7 +240,7 @@ Ningún script define reglas clínicas fuera del motor normativo Python.
 
 Este dataset forma parte de la serie «De SVcustos, el marco (framework) de intrusión, hasta SVperitus: agentes especializados», compuesta por 8 documentos:
 
-| Doc. | Contenido | Repositorio |
+| Doc. | Contenido | Código y datos |
 |---|---|---|
 | 1 | Marco conceptual y gramática algebraica SV | [Serie completa](https://www.itvia.online/de-svcustos-el-marco-framework-de-intrusion-hasta-svperitus-agentes-especializados) |
 | 2–6 | SVcustos SV(16,4) a SV(49,7) + par | [SVcustos-dataset](https://github.com/juantoniolloretegea/SVcustos-dataset) |
