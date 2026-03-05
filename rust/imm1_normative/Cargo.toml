@@ -1,0 +1,12 @@
+[package]
+name    = "imm1_normative"
+version = "0.1.0"
+edition = "2021"
+description = "Motor normativo SVperitus–IMMUNO-1 (port Rust — placeholder)"
+# TODO: implementar tras consolidar normative_engine.py v1.0
+
+[dependencies]
+serde      = { version = "1", features = ["derive"] }
+serde_json = "1"
+# serde_yaml para leer imm_n25.yaml (threshold, class_to_idx)
+serde_yaml = "0.9"
