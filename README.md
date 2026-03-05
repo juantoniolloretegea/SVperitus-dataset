@@ -47,7 +47,7 @@ Cada vector ternario se transforma en un polígono polar de 25 ejes. Los vértic
 
 Este repositorio es **hermano** de
 [SVcustos-dataset](https://github.com/juantoniolloretegea/SVcustos-dataset),
-que contiene los Documentos 2–6 de la serie (SVcustos n=16, 25, 36, 49 y
+que contiene el código y datos asociados a los Documentos 2–6 de la serie (SVcustos n=16, 25, 36, 49 y
 el par SV(36,6)+SV(9,3)). Ambos repositorios comparten la gramática
 algebraica SV y las convenciones visuales del polígono polar, pero son
 completamente independientes en código, datos y motor normativo.
@@ -55,7 +55,7 @@ completamente independientes en código, datos y motor normativo.
 | Aspecto | SVcustos-dataset | SVperitus-dataset |
 |---|---|---|
 | Dominio | Detección de intrusiones en dispositivos | Competencias clínicas (conocimiento experto) |
-| Documentos | 2–6 | 7 |
+| Docs. asociados | 2–6 | 7 |
 | Clases | INTRUSIÓN / INDETERMINADO / NORMAL | NO_APTO / INDETERMINADO / APTO |
 | Gramática SV | Compartida | Compartida |
 | Polígono polar | Compartido | Compartido |
