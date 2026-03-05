@@ -242,7 +242,7 @@ Este dataset forma parte de la serie «De SVcustos, el marco (framework) de intr
 
 | Doc. | Contenido | Repositorio |
 |---|---|---|
-| 1 | Marco conceptual y gramática algebraica SV | — |
+| 1 | Marco conceptual y gramática algebraica SV | [Serie completa](https://www.itvia.online/de-svcustos-el-marco-framework-de-intrusion-hasta-svperitus-agentes-especializados) |
 | 2–6 | SVcustos SV(16,4) a SV(49,7) + par | [SVcustos-dataset](https://github.com/juantoniolloretegea/SVcustos-dataset) |
 | **7** | **SVperitus–IMMUNO-1 (este repositorio)** | **SVperitus-dataset** |
 | 8 | Compilador SVcustos + SVperitus + Célula meta SV(9,3)-IA | — |
