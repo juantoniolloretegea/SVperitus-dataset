@@ -69,8 +69,7 @@ polygon_visual:
 # CAPA 4: Estado vacunal
 # CAPA 5: Profilaxis y seguimiento
 #
-# NOTA: Los criterios 0/1/U concretos de cada parámetro
-# se encuentran en generate_cases.py (motor normativo).
+# NOTA: Los criterios 0/1/U se definen en normative_engine.py; generate_cases.py los utiliza para crear casos sintéticos.
 # ----------------------------------------------------------
 layers:
   - id: 1
