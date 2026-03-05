@@ -35,13 +35,18 @@ dispositivos) hasta SVperitus (agentes de conocimiento experto):
 | **7** | **SVperitus–IMMUNO-1 — módulo demostrador (este documento)** |
 | 8 | Compilador SVcustos + SVperitus + Célula meta SV(9,3)-IA |
 
-Los Documentos 2–6 se encuentran en el repositorio canónico de SVcustos:
-https://github.com/juantoniolloretegea/SVcustos-dataset
+Los ocho documentos de la serie se publican en:
+https://www.itvia.online/de-svcustos-el-marco-framework-de-intrusion-hasta-svperitus-agentes-especializados
 
-El presente Documento 7 corresponde al primer módulo SVperitus, cuyo
-repositorio vive como **repositorio hermano** del anterior, sin modificarlo
-en ningún punto. Los dos repositorios comparten gramática algebraica y
-convenciones visuales, pero son completamente independientes en código y datos.
+El código y los datasets asociados a los Documentos 2–6 se encuentran en el
+repositorio [SVcustos-dataset](https://github.com/juantoniolloretegea/SVcustos-dataset).
+
+El presente Documento 7 corresponde al primer módulo SVperitus, cuyo código y
+datos se encuentran en el repositorio hermano
+[SVperitus-dataset](https://github.com/juantoniolloretegea/SVperitus-dataset),
+sin modificar SVcustos-dataset en ningún punto. Los dos repositorios comparten
+gramática algebraica y convenciones visuales, pero son completamente
+independientes en código y datos.
 
 ---
 
