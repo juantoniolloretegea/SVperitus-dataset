@@ -1,6 +1,7 @@
 # SVperitus — Motor Normativo en Rust
 
-> **Estado:** Paridad básica validada (108/108 tests).
+> **Estado:** Paridad técnica del prototipo Playground validada (108/108 tests).
+
 > Lógica clínica CONGELADA — no se modifica hasta cotejo adversarial médico.
 > Próximo paso: migración a workspace Cargo real con crates separados.
 
@@ -22,7 +23,7 @@ Serde tests:       2/2 passed
 TOTAL:           108/108 passed
 ```
 
-Verificado en Rust Playground (Stable 1.94.0, Edition 2024).
+Verificado en Rust Playground (Stable 1.94.0, Edition 2024). Esta verificación corresponde al entorno Playground; la migración al workspace Cargo definitivo es el siguiente paso.
 
 ## Qué demuestra
 
