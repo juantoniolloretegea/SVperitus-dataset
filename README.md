@@ -150,15 +150,12 @@ SVperitus-dataset/
 │
 ├── rust/
 │   ├── svperitus_playground_v03_final.rs  ← prototipo Playground verificado (108/108 tests)
-│   └── imm1_normative/       ← estructura Cargo (placeholder, se reemplazará)
-├── kotlin/                   ← cliente Kotlin en preparación (consumirá el motor normativo)
-│
-├── rust/
-│   ├── svperitus_playground_v03_final.rs  ← prototipo Playground verificado (108/108 tests)
 │   ├── imm1_normative/       ← estructura Cargo (placeholder, se reemplazará)
 │   └── wasm-demo/            ← demo Rust/WASM publicada en GitHub Pages
-├── samples/                  ← Muestras visuales (6 imágenes)
 │
+├── kotlin/                   ← cliente Kotlin en preparación (consumirá el motor normativo)
+│
+├── samples/                  ← Muestras visuales (6 imágenes)
 ├── docs/
 │   ├── Documento7_IMMUNO-1.md        ← especificación canónica
 │   └── Documento8_Compilador_…md     ← placeholder Doc 8
