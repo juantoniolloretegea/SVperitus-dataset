@@ -14,6 +14,59 @@
 | `wasm-demo/` | Demo web interactiva del motor Rust/WASM en navegador | Publicada |
 | `imm1_normative/` | Estructura Cargo placeholder (se reemplazará por workspace real) | Placeholder |
 
+## Ejecutarlo ya en Rust (sin instalar nada)
+
+Este directorio ofrece ahora **dos formas de ejecutar Rust**, según lo que el lector quiera comprobar.
+
+### Opción A — Rust Playground (verificación técnica)
+
+Use esta opción si quiere comprobar el motor normativo como archivo único y ver la salida de tests.
+
+**Pasos**
+1. Abra [Rust Playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2024)
+2. Copie el contenido de `svperitus_playground_v03_final.rs`
+3. Péguelo en el editor
+4. Pulse **Run**
+5. Verifique que la salida final muestre: `108/108 passed`
+
+**Qué hace esta opción**
+- Ejecuta el motor IMMUNO-1 en Rust como archivo único
+- Comprueba la paridad técnica del prototipo frente a Python
+- Verifica invariantes, tests globales, tests de frontera, serde y trazabilidad
+
+**Cuándo usarla**
+- Si quiere auditar el motor
+- Si quiere ver los tests
+- Si quiere comprobar la fidelidad técnica del port en Rust
+
+---
+
+### Opción B — Demo web Rust/WASM (uso interactivo)
+
+Use esta opción si quiere rellenar un formulario, obtener una clasificación global y ver el polígono polar directamente en el navegador.
+
+**Abrir demo**
+- [Demo Rust/WASM de IMMUNO-1](https://juantoniolloretegea.github.io/SVperitus-dataset/rust/wasm-demo/)
+
+**Qué hace esta opción**
+- Carga el motor Rust compilado a WebAssembly en el navegador
+- Recoge las respuestas del formulario
+- Las transforma en un caso evaluable de IMMUNO-1
+- Devuelve:
+  - vector ternario P01–P25,
+  - conteos `n0 / n1 / nU`,
+  - clase global `APTO / INDETERMINADO / NO_APTO`,
+  - representación visual en polígono polar
+
+**Cuándo usarla**
+- Si quiere ver Rust funcionando de forma interactiva
+- Si quiere probar la lógica con una interfaz visual
+- Si quiere enseñar el sistema sin entrar todavía en el código
+
+**Alcance**
+Esta demo es una interfaz pública del motor Rust en navegador.  
+No sustituye al motor canónico Python ni equivale a una validación clínica.
+
 ## Resultados de paridad (v0.3 final)
 
 ```
