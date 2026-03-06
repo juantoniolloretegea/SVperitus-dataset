@@ -37,7 +37,7 @@ jobs:
           gradle-version: current
 
       - name: Build Kotlin/JS client
-        run: gradle -p kotlin/imm1_client browserProductionWebpack
+        run: gradle -p kotlin/imm1_client browserDistribution
 
       - name: Prepare Pages artifact
         run: |
@@ -47,10 +47,13 @@ jobs:
             cp -R kotlin/imm1_client/build/dist/js/productionExecutable/. _site/
           elif [ -d "kotlin/imm1_client/build/distributions" ]; then
             cp -R kotlin/imm1_client/build/distributions/. _site/
+          elif [ -d "kotlin/imm1_client/build/processedResources/js/main" ]; then
+            cp -R kotlin/imm1_client/build/processedResources/js/main/. _site/
+            find kotlin/imm1_client/build -type f \( -name "*.js" -o -name "*.js.map" \) -exec cp {} _site/ \;
           else
             echo "No known Kotlin/JS output directory found."
             echo "Build tree:"
-            find kotlin/imm1_client/build -maxdepth 5 -print | sort
+            find kotlin/imm1_client/build -maxdepth 6 -print | sort
             exit 1
           fi
 
