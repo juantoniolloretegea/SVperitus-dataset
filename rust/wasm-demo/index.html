@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVperitus IMMUNO-1 — Motor Rust en tu navegador</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.9/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="module">
+        // Load the Rust WASM engine
+        try {
+            const wasm = await import('./pkg/svperitus_wasm.js');
+            await wasm.default();
+            window.__wasm = wasm;
+            window.__engine_status = 'rust';
+        } catch(e) {
+            window.__engine_status = 'error';
+            window.__engine_error = e.message;
+        }
+        window.dispatchEvent(new Event('engine-ready'));
+    </script>
+
+    <script type="text/babel">
+    const { useState, useMemo, useEffect } = React;
+
+    function App() {
+        const [engineStatus, setEngineStatus] = useState(window.__engine_status || 'loading');
+        const [engineError, setEngineError] = useState(window.__engine_error || '');
+
+        useEffect(() => {
+            const handler = () => {
+                setEngineStatus(window.__engine_status);
+                setEngineError(window.__engine_error || '');
+            };
+            window.addEventListener('engine-ready', handler);
+            return () => window.removeEventListener('engine-ready', handler);
+        }, []);
+
+        if (engineStatus === 'loading') {
+            return (
+                <div className="min-h-screen bg-slate-900 flex items-center justify-center">
+                    <div className="text-center">
+                        <div className="text-4xl mb-4">⚙️</div>
+                        <p className="text-white text-xl">Cargando motor Rust (WebAssembly)...</p>
+                        <p className="text-slate-400 mt-2">El código Rust se ejecuta directamente en tu navegador.</p>
+                    </div>
+                </div>
+            );
+        }
+
+        if (engineStatus === 'error') {
+            return (
+                <div className="min-h-screen bg-slate-50 p-6">
+                    <div className="max-w-2xl mx-auto mt-20">
+                        <div className="bg-white rounded-2xl shadow border p-8 text-center">
+                            <div className="text-5xl mb-4">🔧</div>
+                            <h1 className="text-2xl font-semibold">Motor WASM no disponible todavía</h1>
+                            <p className="mt-4 text-slate-600">
+                                El motor Rust necesita ser compilado a WebAssembly por GitHub Actions.
+                                Esto ocurre automáticamente cuando se sube el código fuente Rust.
+                            </p>
+                            <p className="mt-4 text-slate-500 text-sm">
+                                Si acabas de subir el código, espera unos minutos y recarga esta página.
+                            </p>
+                            <div className="mt-6 p-4 bg-slate-100 rounded-xl text-left text-sm text-slate-600">
+                                <p className="font-medium mb-2">Mientras tanto, puedes:</p>
+                                <ul className="list-disc pl-5 space-y-1">
+                                    <li><a href="../demo/" className="text-blue-600 underline">Usar la demo JavaScript</a> (misma lógica, motor diferente)</li>
+                                    <li>Verificar el Rust en <a href="https://play.rust-lang.org" className="text-blue-600 underline">Rust Playground</a> con el archivo <code>svperitus_playground_v03_final.rs</code></li>
+                                    <li>Revisar el <a href="https://github.com/juantoniolloretegea/SVperitus-dataset/actions" className="text-blue-600 underline">estado del build</a> en GitHub Actions</li>
+                                </ul>
+                            </div>
+                            {engineError && (
+                                <p className="mt-4 text-xs text-slate-400">Error técnico: {engineError}</p>
+                            )}
+                        </div>
+                    </div>
+                </div>
+            );
+        }
+
+        // Engine is ready — show the demo
+        return <RustDemo />;
+    }
+
+    function RustDemo() {
+        const ternaryOptions = [
+            { value: "0", label: "Sí / Adecuado" },
+            { value: "1", label: "No / Inadecuado" },
+            { value: "U", label: "No lo sabemos" },
+        ];
+
+        const parameters = [
+            { key: "P01", label: "Neutropenia" },
+            { key: "P02", label: "Linfopenia / depleción T" },
+            { key: "P03", label: "Hipogammaglobulinemia" },
+            { key: "P04", label: "Función esplénica" },
+            { key: "P05", label: "Barreras y catéteres" },
+            { key: "P06", label: "Fase de la neoplasia" },
+            { key: "P07", label: "Quimioterapia" },
+            { key: "P08", label: "Biológicos inmunosupresores" },
+            { key: "P09", label: "TPH / CAR-T" },
+            { key: "P10", label: "Corticoides sistémicos" },
+            { key: "P11", label: "Infecciones bacterianas graves" },
+            { key: "P12", label: "IFD previa" },
+            { key: "P13", label: "Virales crónicas / latentes" },
+            { key: "P14", label: "Colonización MDR" },
+            { key: "P15", label: "Exposición sanitaria" },
+            { key: "P16", label: "Vacuna gripe" },
+            { key: "P17", label: "Vacuna neumococo" },
+            { key: "P18", label: "Vacuna COVID-19" },
+            { key: "P19", label: "Vacuna hepatitis B" },
+            { key: "P20", label: "Otras vacunas" },
+            { key: "P21", label: "Profilaxis PJP" },
+            { key: "P22", label: "Profilaxis antiviral" },
+            { key: "P23", label: "Profilaxis antifúngica" },
+            { key: "P24", label: "Profilaxis antibacteriana" },
+            { key: "P25", label: "Plan de reevaluación" },
+        ];
+
+        const layerNames = [
+            "Capa 1 — Estado inmunitario basal",
+            "Capa 2 — Neoplasia y tratamiento",
+            "Capa 3 — Historia infecciosa",
+            "Capa 4 — Estado vacunal",
+            "Capa 5 — Profilaxis y seguimiento",
+        ];
+
+        const initialValues = Object.fromEntries(parameters.map((p) => [p.key, "U"]));
+        const [values, setValues] = useState(initialValues);
+        const [execTime, setExecTime] = useState(0);
+
+        const size = 420, cx = size/2, cy = size/2, baseR = 50, stepR = 45;
+        const maxR = baseR + 3 * stepR;
+        const radiusMap = { "0": 1, "1": 2, "U": 3 };
+
+        // Build case JSON and evaluate with Rust WASM
+        const result = useMemo(() => {
+            const caseData = {
+                anc: values.P01 === "0" ? 3000 : values.P01 === "1" ? 200 : null,
+                lymphocytes: values.P02 === "0" ? 1500 : values.P02 === "1" ? 100 : null,
+                igg: values.P03 === "0" ? 900 : values.P03 === "1" ? 250 : null,
+                spleen_intact: values.P04 === "U" ? null : values.P04 === "0",
+                barriers_intact: values.P05 === "U" ? null : values.P05 === "0",
+                neoplasia_phase: values.P06 === "0" ? "remission" : values.P06 === "1" ? "relapse" : null,
+                chemo_active: values.P07 === "U" ? null : values.P07 === "1",
+                biologic_type: values.P08 === "0" ? "none" : values.P08 === "1" ? "anti_cd20" : null,
+                tph_cart: values.P09 === "0" ? "none" : values.P09 === "1" ? "allo_tph" : null,
+                corticoid_mg: values.P10 === "0" ? 0.0 : values.P10 === "1" ? 40.0 : null,
+                severe_bacterial_12m: values.P11 === "U" ? null : values.P11 === "1",
+                prior_ifd: values.P12 === "U" ? null : values.P12 === "1",
+                chronic_viral: values.P13 === "0" ? "none" : values.P13 === "1" ? "active" : null,
+                mdr_colonization: values.P14 === "U" ? null : values.P14 === "1",
+                recent_healthcare: values.P15 === "U" ? null : values.P15 === "1",
+                flu_vaccine: values.P16 === "0" ? "current" : values.P16 === "1" ? "none" : null,
+                pneumo_vaccine: values.P17 === "0" ? "current" : values.P17 === "1" ? "none" : null,
+                covid_vaccine: values.P18 === "0" ? "current" : values.P18 === "1" ? "none" : null,
+                hepb_vaccine: values.P19 === "0" ? "immune" : values.P19 === "1" ? "non_immune" : null,
+                other_vaccines: values.P20 === "0" ? "complete" : values.P20 === "1" ? "incomplete" : null,
+                pjp_prophylaxis: values.P21 === "0" ? "adequate" : values.P21 === "1" ? "inadequate" : null,
+                antiviral_prophylaxis: values.P22 === "0" ? "adequate" : values.P22 === "1" ? "inadequate" : null,
+                antifungal_prophylaxis: values.P23 === "0" ? "adequate" : values.P23 === "1" ? "inadequate" : null,
+                antibacterial_prophylaxis: values.P24 === "0" ? "adequate" : values.P24 === "1" ? "inadequate" : null,
+                reevaluation_plan: values.P25 === "0" ? "structured" : values.P25 === "1" ? "absent" : null,
+            };
+
+            const t0 = performance.now();
+            const json = JSON.stringify(caseData);
+            const resultJson = window.__wasm.evaluate_immuno1(json);
+            const t1 = performance.now();
+            setExecTime((t1 - t0).toFixed(3));
+
+            return JSON.parse(resultJson);
+        }, [values]);
+
+        const polygonPoints = result.vector.map((v, idx) => {
+            const angle = -Math.PI / 2 + (idx * 2 * Math.PI) / 25;
+            const r = baseR + radiusMap[v] * stepR;
+            return {
+                x: cx + Math.cos(angle) * r, y: cy + Math.sin(angle) * r,
+                lx: cx + Math.cos(angle) * (maxR + 22), ly: cy + Math.sin(angle) * (maxR + 22),
+                value: v, key: parameters[idx].key,
+            };
+        });
+        const polygon = polygonPoints.map(p => `${p.x},${p.y}`).join(" ");
+
+        const tone = {
+            APTO: "bg-emerald-50 text-emerald-800 border-emerald-200",
+            INDETERMINADO: "bg-amber-50 text-amber-900 border-amber-200",
+            NO_APTO: "bg-rose-50 text-rose-800 border-rose-200",
+        };
+        const vTone = {
+            "0": "bg-emerald-100 text-emerald-800 border-emerald-200",
+            "1": "bg-rose-100 text-rose-800 border-rose-200",
+            "U": "bg-amber-100 text-amber-900 border-amber-200",
+        };
+
+        const reset = () => setValues(initialValues);
+        const setApto = () => { const n={...initialValues}; parameters.forEach((p,i)=>{n[p.key]=i<20?"0":"U"}); setValues(n); };
+        const setNoApto = () => { const n={...initialValues}; parameters.forEach((p,i)=>{n[p.key]=i<20?"1":"0"}); setValues(n); };
+
+        return (
+            <div className="min-h-screen bg-slate-50 text-slate-900 p-6">
+                <div className="max-w-7xl mx-auto space-y-6">
+                    <div className="bg-white rounded-2xl shadow-sm border p-6">
+                        <div className="flex items-start justify-between flex-wrap gap-3">
+                            <div>
+                                <h1 className="text-3xl font-semibold tracking-tight">SVperitus – IMMUNO-1</h1>
+                                <p className="mt-1 text-sm text-slate-500">Serie ISSN 2695-641X · CC BY-NC-ND 4.0 · J.A. Lloret Egea</p>
+                            </div>
+                            <div className="px-3 py-1.5 rounded-full border bg-orange-100 text-orange-800 border-orange-300 text-sm font-medium">
+                                🦀 Motor: Rust (WebAssembly) · {execTime} ms
+                            </div>
+                        </div>
+                        <div className="mt-3 rounded-xl border border-orange-200 bg-orange-50 p-3 text-sm text-orange-900">
+                            <b>Esto es Rust ejecutándose en tu navegador.</b> El mismo motor normativo que pasa 108/108 tests
+                            en el Playground, compilado a WebAssembly. No hay servidor: todo ocurre en tu máquina.
+                        </div>
+                        <div className="mt-4 rounded-xl border border-amber-200 bg-amber-50 p-3 text-sm text-amber-900">
+                            ⚠️ <b>Demostrador experimental.</b> No validado en datos reales. No usar para decisiones clínicas.
+                        </div>
+                        <div className="mt-4 grid md:grid-cols-2 gap-4 text-sm text-slate-700">
+                            <div className="rounded-xl border p-4 bg-slate-50">
+                                <p className="font-medium mb-2">Explicado de forma sencilla</p>
+                                <p>Cada respuesta se convierte en <b>0</b> (adecuado), <b>1</b> (inadecuado) o <b>U</b> (no lo sabemos).
+                                El motor Rust cuenta cuántos hay de cada uno. Con 19+ valores 1 → <b>NO_APTO</b>. Con 19+ valores 0 → <b>APTO</b>. Resto → <b>INDETERMINADO</b>.</p>
+                            </div>
+                            <div className="rounded-xl border p-4 bg-slate-50">
+                                <p className="font-medium mb-2">Controles rápidos</p>
+                                <div className="flex flex-wrap gap-2">
+                                    <button onClick={reset} className="px-3 py-2 rounded-xl bg-slate-900 text-white text-sm">Todo U</button>
+                                    <button onClick={setApto} className="px-3 py-2 rounded-xl border text-sm">Ejemplo APTO</button>
+                                    <button onClick={setNoApto} className="px-3 py-2 rounded-xl border text-sm">Ejemplo NO_APTO</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="grid xl:grid-cols-[1.2fr_0.8fr] gap-6">
+                        <div className="bg-white rounded-2xl shadow-sm border p-6">
+                            <h2 className="text-xl font-semibold mb-4">Formulario P01–P25</h2>
+                            {layerNames.map((ln, li) => (
+                                <div key={li} className="mb-6">
+                                    <h3 className="text-sm font-semibold text-slate-500 uppercase tracking-wide mb-3">{ln}</h3>
+                                    <div className="grid md:grid-cols-2 gap-3">
+                                        {parameters.slice(li*5, li*5+5).map(p => (
+                                            <div key={p.key} className="rounded-xl border p-3">
+                                                <div className="text-sm font-semibold text-slate-900">{p.key} — {p.label}</div>
+                                                <div className="grid gap-1.5 mt-2">
+                                                    {ternaryOptions.map(opt => (
+                                                        <label key={opt.value} className={`flex items-center gap-2 rounded-lg border px-3 py-1.5 cursor-pointer text-sm ${values[p.key]===opt.value?vTone[opt.value]:"border-slate-200 hover:bg-slate-50"}`}>
+                                                            <input type="radio" name={p.key} value={opt.value} checked={values[p.key]===opt.value}
+                                                                onChange={e=>setValues(prev=>({...prev,[p.key]:e.target.value}))} className="w-3.5 h-3.5"/>
+                                                            <span>{opt.label}</span>
+                                                        </label>
+                                                    ))}
+                                                </div>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+
+                        <div className="space-y-6">
+                            <div className="bg-white rounded-2xl shadow-sm border p-6">
+                                <div className="flex items-center justify-between mb-4">
+                                    <h2 className="text-xl font-semibold">Resultado global</h2>
+                                    <span className="px-2 py-1 rounded-full border bg-orange-100 text-orange-800 border-orange-300 text-xs font-medium">
+                                        🦀 Rust · {execTime} ms
+                                    </span>
+                                </div>
+                                <div className={`rounded-2xl border px-4 py-3 font-semibold text-lg text-center ${tone[result.global_class]}`}>
+                                    {result.global_class}
+                                </div>
+                                <div className="grid grid-cols-3 gap-3 mt-4 text-sm">
+                                    <div className="rounded-xl border p-3 bg-emerald-50 text-center">
+                                        <div className="text-emerald-600 text-xs">n₀</div>
+                                        <div className="text-2xl font-semibold text-emerald-800">{result.n0}</div>
+                                    </div>
+                                    <div className="rounded-xl border p-3 bg-rose-50 text-center">
+                                        <div className="text-rose-600 text-xs">n₁</div>
+                                        <div className="text-2xl font-semibold text-rose-800">{result.n1}</div>
+                                    </div>
+                                    <div className="rounded-xl border p-3 bg-amber-50 text-center">
+                                        <div className="text-amber-600 text-xs">nU</div>
+                                        <div className="text-2xl font-semibold text-amber-900">{result.nU}</div>
+                                    </div>
+                                </div>
+                                <p className="mt-3 text-xs text-slate-500 text-center">
+                                    T(25) = 19 · n₁ ≥ 19 → NO_APTO · n₀ ≥ 19 → APTO · resto → INDETERMINADO
+                                </p>
+                            </div>
+
+                            <div className="bg-white rounded-2xl shadow-sm border p-6">
+                                <h2 className="text-xl font-semibold mb-4">Polígono polar</h2>
+                                <svg viewBox={`0 0 ${size} ${size}`} className="w-full h-auto rounded-xl bg-[#0D1B2A]">
+                                    {[1,2,3].map(l=><circle key={l} cx={cx} cy={cy} r={baseR+l*stepR} fill="none" stroke="rgba(255,255,255,0.25)" strokeDasharray="5 5"/>)}
+                                    {polygonPoints.map((pt,i)=><line key={i} x1={cx} y1={cy} x2={pt.x} y2={pt.y} stroke="rgba(255,255,255,0.18)"/>)}
+                                    <polygon points={polygon} fill="rgba(201,168,76,0.25)" stroke="#C9A84C" strokeWidth="2.5"/>
+                                    {polygonPoints.map(pt=>(
+                                        <g key={pt.key}>
+                                            <circle cx={pt.x} cy={pt.y} r="4.5" fill={pt.value==="0"?"#22c55e":pt.value==="1"?"#ef4444":"#facc15"}/>
+                                            <text x={pt.lx} y={pt.ly} fill="white" fontSize="10" textAnchor="middle" dominantBaseline="middle">{pt.key}</text>
+                                        </g>
+                                    ))}
+                                </svg>
+                                <div className="mt-3 flex flex-wrap gap-2 text-xs justify-center">
+                                    <span className="px-2 py-1 rounded-full bg-emerald-100 text-emerald-800">● 0 = adecuado (r=1)</span>
+                                    <span className="px-2 py-1 rounded-full bg-rose-100 text-rose-800">● 1 = inadecuado (r=2)</span>
+                                    <span className="px-2 py-1 rounded-full bg-amber-100 text-amber-900">● U = desconocido (r=3)</span>
+                                </div>
+                            </div>
+
+                            <div className="bg-white rounded-2xl shadow-sm border p-6 text-xs text-slate-500">
+                                <p><b>Serie:</b> ISSN 2695-641X · <b>Repo:</b> <a href="https://github.com/juantoniolloretegea/SVperitus-dataset" className="underline">SVperitus-dataset</a></p>
+                                <p className="mt-1"><b>Motor:</b> Rust → WebAssembly · Paridad verificada: 108/108 tests · Demostrador experimental</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        );
+    }
+
+    ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+    </script>
+</body>
+</html>
