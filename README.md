@@ -153,7 +153,7 @@ SVperitus-dataset/
 │   ├── imm1_normative/       ← estructura Cargo (placeholder, se reemplazará)
 │   └── wasm-demo/            ← demo Rust/WASM publicada en GitHub Pages
 │
-├── kotlin/                   ← cliente Kotlin en preparación (consumirá el motor normativo)
+├── kotlin/                   ← cliente Kotlin activado (consume el motor normativo)
 │
 ├── samples/                  ← Muestras visuales (6 imágenes)
 ├── docs/
@@ -179,7 +179,7 @@ workspace Cargo real. Python sigue siendo la fuente canónica de verdad.
 Véase [rust/README.md](rust/README.md) para detalles y procedimiento de
 verificación.
 
-## Implementación Kotlin (cliente previsto)
+## Implementación Kotlin
 
 La línea Kotlin de SVperitus está concebida como **capa cliente e integradora**, no como una nueva fuente de verdad normativa. Su función será proporcionar una interfaz de uso —inicialmente web y, más adelante, potencialmente móvil o de escritorio— que consuma el motor normativo ya existente, preferentemente a través del port Rust/WASM.
 
@@ -187,9 +187,8 @@ En esta arquitectura:
 
 - **Python** sigue siendo la fuente canónica de verdad normativa,
 - **Rust** actúa como port técnico del motor,
-- **Kotlin** se reserva para la experiencia cliente, la estructuración de entrada y la presentación del resultado.
+- **Kotlin** Experiencia cliente, la estructuración de entrada y la presentación del resultado.
 
-Véase `kotlin/README.md` para el estado y la hoja de ruta de esta integración.
 ---
 
 ## Inicio rápido
