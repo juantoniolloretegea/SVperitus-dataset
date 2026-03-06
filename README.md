@@ -137,14 +137,14 @@ SVperitus-dataset/
 │
 ├── IMMUNO-1/
 │   ├── config/
-│   │   └── imm_n25.yaml     ← PUNTO ÚNICO DE VERDAD (n=25, T=19)
+│   │   └── imm_n25.yaml     ← configuración canónica (n=25, T=19)
 │   ├── normative_engine.py   ← motor canónico P01–P25
 │   ├── generate_cases.py     ← generador sintético (muestreo por rechazo)
 │   ├── generate_polygons.py  ← vectores → imágenes PNG 224×224
 │   ├── train_resnet.py       ← ResNet34 + remapeo canónico de índices
 │   └── evaluate.py           ← evaluación con orden canónico YAML
 │
-├── IMMUNO-2/                 ← spec P01–P25 completada (borrador 0, en revisión)
+├── IMMUNO-2/                 ← spec P01–P25 definida (borrador 0, en revisión)
 │
 ├── rust/
 │   ├── svperitus_playground_v03_final.rs  ← prototipo Playground verificado (108/108 tests)
