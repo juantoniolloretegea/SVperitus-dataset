@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVperitus – IMMUNO-1 Demo Interactiva</title>
+    <meta name="description" content="Demo interactiva del motor normativo IMMUNO-1: 25 parámetros ternarios, polígono polar y clasificación global.">
+    <meta name="author" content="Juan Antonio Lloret Egea (ORCID 0000-0002-6634-3351)">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.9/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Prevent FOUC */
+        #root { min-height: 100vh; }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+    const { useState, useMemo } = React;
+
+    function SVperitusImmuno1Demo() {
+        const ternaryOptions = [
+            { value: "0", label: "Sí / Adecuado" },
+            { value: "1", label: "No / Inadecuado" },
+            { value: "U", label: "No lo sabemos" },
+        ];
+
+        const parameters = [
+            { key: "P01", label: "Neutropenia" },
+            { key: "P02", label: "Linfopenia / depleción T" },
+            { key: "P03", label: "Hipogammaglobulinemia" },
+            { key: "P04", label: "Función esplénica" },
+            { key: "P05", label: "Barreras y catéteres" },
+            { key: "P06", label: "Fase de la neoplasia" },
+            { key: "P07", label: "Quimioterapia" },
+            { key: "P08", label: "Biológicos inmunosupresores" },
+            { key: "P09", label: "TPH / CAR-T" },
+            { key: "P10", label: "Corticoides sistémicos" },
+            { key: "P11", label: "Infecciones bacterianas graves" },
+            { key: "P12", label: "IFD previa" },
+            { key: "P13", label: "Virales crónicas / latentes" },
+            { key: "P14", label: "Colonización MDR" },
+            { key: "P15", label: "Exposición sanitaria" },
+            { key: "P16", label: "Vacuna gripe" },
+            { key: "P17", label: "Vacuna neumococo" },
+            { key: "P18", label: "Vacuna COVID-19" },
+            { key: "P19", label: "Vacuna hepatitis B" },
+            { key: "P20", label: "Otras vacunas" },
+            { key: "P21", label: "Profilaxis PJP" },
+            { key: "P22", label: "Profilaxis antiviral" },
+            { key: "P23", label: "Profilaxis antifúngica" },
+            { key: "P24", label: "Profilaxis antibacteriana" },
+            { key: "P25", label: "Plan de reevaluación" },
+        ];
+
+        const layerNames = [
+            "Capa 1 — Estado inmunitario basal",
+            "Capa 2 — Neoplasia y tratamiento",
+            "Capa 3 — Historia infecciosa",
+            "Capa 4 — Estado vacunal",
+            "Capa 5 — Profilaxis y seguimiento",
+        ];
+
+        const initialValues = Object.fromEntries(parameters.map((p) => [p.key, "U"]));
+        const [values, setValues] = useState(initialValues);
+
+        const radiusMap = { "0": 1, "1": 2, "U": 3 };
+        const threshold = 19;
+        const size = 420;
+        const cx = size / 2;
+        const cy = size / 2;
+        const baseRadius = 50;
+        const step = 45;
+        const maxRadius = baseRadius + 3 * step;
+
+        const result = useMemo(() => {
+            const vector = parameters.map((p) => values[p.key]);
+            const n0 = vector.filter((v) => v === "0").length;
+            const n1 = vector.filter((v) => v === "1").length;
+            const nU = vector.filter((v) => v === "U").length;
+            const globalClass = n1 >= threshold ? "NO_APTO" : n0 >= threshold ? "APTO" : "INDETERMINADO";
+            return { vector, n0, n1, nU, globalClass };
+        }, [values]);
+
+        const polygonPoints = useMemo(() => {
+            return parameters.map((p, idx) => {
+                const angle = -Math.PI / 2 + (idx * 2 * Math.PI) / parameters.length;
+                const r = baseRadius + radiusMap[values[p.key]] * step;
+                return {
+                    x: cx + Math.cos(angle) * r,
+                    y: cy + Math.sin(angle) * r,
+                    labelX: cx + Math.cos(angle) * (maxRadius + 22),
+                    labelY: cy + Math.sin(angle) * (maxRadius + 22),
+                    value: values[p.key],
+                    key: p.key,
+                };
+            });
+        }, [values]);
+
+        const polygon = polygonPoints.map((pt) => `${pt.x},${pt.y}`).join(" ");
+
+        const globalTone = {
+            APTO: "bg-emerald-50 text-emerald-800 border-emerald-200",
+            INDETERMINADO: "bg-amber-50 text-amber-900 border-amber-200",
+            NO_APTO: "bg-rose-50 text-rose-800 border-rose-200",
+        };
+
+        const valueTone = {
+            "0": "bg-emerald-100 text-emerald-800 border-emerald-200",
+            "1": "bg-rose-100 text-rose-800 border-rose-200",
+            "U": "bg-amber-100 text-amber-900 border-amber-200",
+        };
+
+        const resetExample = () => setValues(initialValues);
+        const setApto = () => {
+            const next = { ...initialValues };
+            parameters.forEach((p, i) => { next[p.key] = i < 20 ? "0" : "U"; });
+            setValues(next);
+        };
+        const setNoApto = () => {
+            const next = { ...initialValues };
+            parameters.forEach((p, i) => { next[p.key] = i < 20 ? "1" : "0"; });
+            setValues(next);
+        };
+
+        return (
+            <div className="min-h-screen bg-slate-50 text-slate-900 p-6">
+                <div className="max-w-7xl mx-auto space-y-6">
+                    {/* Header */}
+                    <div className="bg-white rounded-2xl shadow-sm border p-6">
+                        <h1 className="text-3xl font-semibold tracking-tight">SVperitus – IMMUNO-1</h1>
+                        <p className="mt-1 text-sm text-slate-500">
+                            Serie ISSN 2695-641X · CC BY-NC-ND 4.0 · J.A. Lloret Egea (ORCID 0000-0002-6634-3351)
+                        </p>
+                        <p className="mt-3 text-slate-700 leading-7">
+                            Demo interactiva del motor normativo IMMUNO-1. Formulario de 25 parámetros ternarios,
+                            resultado global con regla T(25)=19, y polígono polar en tiempo real.
+                        </p>
+                        <div className="mt-4 rounded-xl border border-amber-200 bg-amber-50 p-3 text-sm text-amber-900">
+                            ⚠️ <b>Demostrador experimental.</b> No validado en datos reales. No usar para decisiones clínicas.
+                        </div>
+                        <div className="mt-4 grid md:grid-cols-2 gap-4 text-sm text-slate-700">
+                            <div className="rounded-xl border p-4 bg-slate-50">
+                                <p className="font-medium mb-2">Explicado de forma sencilla</p>
+                                <p>
+                                    Cada respuesta se convierte en <b>0</b> (adecuado), <b>1</b> (inadecuado) o <b>U</b> (no lo sabemos).
+                                    El motor cuenta cuántos 0, 1 y U hay. Si hay 19+ valores 1 → <b>NO_APTO</b>.
+                                    Si hay 19+ valores 0 → <b>APTO</b>. Resto → <b>INDETERMINADO</b>.
+                                </p>
+                            </div>
+                            <div className="rounded-xl border p-4 bg-slate-50">
+                                <p className="font-medium mb-2">Controles rápidos</p>
+                                <div className="flex flex-wrap gap-2">
+                                    <button onClick={resetExample} className="px-3 py-2 rounded-xl bg-slate-900 text-white text-sm">Todo U</button>
+                                    <button onClick={setApto} className="px-3 py-2 rounded-xl border text-sm">Ejemplo APTO</button>
+                                    <button onClick={setNoApto} className="px-3 py-2 rounded-xl border text-sm">Ejemplo NO_APTO</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="grid xl:grid-cols-[1.2fr_0.8fr] gap-6">
+                        {/* Form */}
+                        <div className="bg-white rounded-2xl shadow-sm border p-6">
+                            <h2 className="text-xl font-semibold mb-4">Formulario P01–P25</h2>
+                            {layerNames.map((layerName, layerIdx) => (
+                                <div key={layerIdx} className="mb-6">
+                                    <h3 className="text-sm font-semibold text-slate-500 uppercase tracking-wide mb-3">{layerName}</h3>
+                                    <div className="grid md:grid-cols-2 gap-3">
+                                        {parameters.slice(layerIdx * 5, layerIdx * 5 + 5).map((p) => (
+                                            <div key={p.key} className="rounded-xl border p-3">
+                                                <div className="text-sm font-semibold text-slate-900">{p.key} — {p.label}</div>
+                                                <div className="grid gap-1.5 mt-2">
+                                                    {ternaryOptions.map((opt) => (
+                                                        <label key={opt.value} className={`flex items-center gap-2 rounded-lg border px-3 py-1.5 cursor-pointer text-sm ${values[p.key] === opt.value ? valueTone[opt.value] : "border-slate-200 hover:bg-slate-50"}`}>
+                                                            <input
+                                                                type="radio"
+                                                                name={p.key}
+                                                                value={opt.value}
+                                                                checked={values[p.key] === opt.value}
+                                                                onChange={(e) => setValues((prev) => ({ ...prev, [p.key]: e.target.value }))}
+                                                                className="w-3.5 h-3.5"
+                                                            />
+                                                            <span>{opt.label}</span>
+                                                        </label>
+                                                    ))}
+                                                </div>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+
+                        {/* Results + Polygon */}
+                        <div className="space-y-6">
+                            <div className="bg-white rounded-2xl shadow-sm border p-6">
+                                <h2 className="text-xl font-semibold mb-4">Resultado global</h2>
+                                <div className={`rounded-2xl border px-4 py-3 font-semibold text-lg text-center ${globalTone[result.globalClass]}`}>
+                                    {result.globalClass}
+                                </div>
+                                <div className="grid grid-cols-3 gap-3 mt-4 text-sm">
+                                    <div className="rounded-xl border p-3 bg-emerald-50 text-center">
+                                        <div className="text-emerald-600 text-xs">n₀ (adecuado)</div>
+                                        <div className="text-2xl font-semibold text-emerald-800">{result.n0}</div>
+                                    </div>
+                                    <div className="rounded-xl border p-3 bg-rose-50 text-center">
+                                        <div className="text-rose-600 text-xs">n₁ (inadecuado)</div>
+                                        <div className="text-2xl font-semibold text-rose-800">{result.n1}</div>
+                                    </div>
+                                    <div className="rounded-xl border p-3 bg-amber-50 text-center">
+                                        <div className="text-amber-600 text-xs">nU (desconocido)</div>
+                                        <div className="text-2xl font-semibold text-amber-900">{result.nU}</div>
+                                    </div>
+                                </div>
+                                <p className="mt-3 text-xs text-slate-500 text-center">
+                                    T(25) = ⌊7×25/9⌋ = 19 · n₁ ≥ 19 → NO_APTO · n₀ ≥ 19 → APTO · resto → INDETERMINADO
+                                </p>
+                            </div>
+
+                            <div className="bg-white rounded-2xl shadow-sm border p-6">
+                                <h2 className="text-xl font-semibold mb-4">Polígono polar</h2>
+                                <svg viewBox={`0 0 ${size} ${size}`} className="w-full h-auto rounded-xl bg-[#0D1B2A]">
+                                    {[1, 2, 3].map((lvl) => (
+                                        <circle key={lvl} cx={cx} cy={cy} r={baseRadius + lvl * step}
+                                            fill="none" stroke="rgba(255,255,255,0.25)" strokeDasharray="5 5" />
+                                    ))}
+                                    {polygonPoints.map((pt, idx) => (
+                                        <line key={idx} x1={cx} y1={cy} x2={pt.x} y2={pt.y}
+                                            stroke="rgba(255,255,255,0.18)" />
+                                    ))}
+                                    <polygon points={polygon} fill="rgba(201,168,76,0.25)" stroke="#C9A84C" strokeWidth="2.5" />
+                                    {polygonPoints.map((pt) => (
+                                        <g key={pt.key}>
+                                            <circle cx={pt.x} cy={pt.y} r="4.5"
+                                                fill={pt.value === "0" ? "#22c55e" : pt.value === "1" ? "#ef4444" : "#facc15"} />
+                                            <text x={pt.labelX} y={pt.labelY} fill="white" fontSize="10"
+                                                textAnchor="middle" dominantBaseline="middle">{pt.key}</text>
+                                        </g>
+                                    ))}
+                                </svg>
+                                <div className="mt-3 flex flex-wrap gap-2 text-xs justify-center">
+                                    <span className="px-2 py-1 rounded-full bg-emerald-100 text-emerald-800">● 0 = adecuado (radio 1)</span>
+                                    <span className="px-2 py-1 rounded-full bg-rose-100 text-rose-800">● 1 = inadecuado (radio 2)</span>
+                                    <span className="px-2 py-1 rounded-full bg-amber-100 text-amber-900">● U = desconocido (radio 3)</span>
+                                </div>
+                            </div>
+
+                            <div className="bg-white rounded-2xl shadow-sm border p-6 text-xs text-slate-500">
+                                <p><b>Serie:</b> «De SVcustos hasta SVperitus: agentes especializados» · ISSN 2695-641X</p>
+                                <p className="mt-1"><b>Repositorio:</b> <a href="https://github.com/juantoniolloretegea/SVperitus-dataset" className="underline">SVperitus-dataset</a></p>
+                                <p className="mt-1"><b>Estado:</b> Demostrador experimental · No validado en datos reales</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        );
+    }
+
+    ReactDOM.createRoot(document.getElementById("root")).render(<SVperitusImmuno1Demo />);
+    </script>
+</body>
+</html>
