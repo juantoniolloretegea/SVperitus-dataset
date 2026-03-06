@@ -26,7 +26,7 @@ Cada caso clínico se evalúa mediante un motor normativo de 25 parámetros
 (P01–P25), se representa como un polígono polar 224×224 px y se clasifica
 mediante una red neuronal convolucional (ResNet-34) que emula al motor.
 
-> 🎮 **[Prueba la demo interactiva](https://juantoniolloretegea.github.io/SVperitus-dataset/demo/)** — Entiende qué hace IMMUNO-1 sin instalar nada: 25 preguntas, un polígono polar en tiempo real y una clasificación global. Pensada para cualquier persona, no solo programadores.
+> 🎮 **[Prueba la demo interactiva](https://juantoniolloretegea.github.io/SVperitus-dataset/demo/)** — Entiende qué hace IMMUNO-1 sin instalar nada: 25 preguntas, un polígono polar en tiempo real y una clasificación global. Pensada para cualquier persona, no solo programadores..
 
 > ⚠️ **ADVERTENCIA CLÍNICA:** Este sistema no ha sido validado en datos
 > reales y no debe utilizarse para tomar decisiones clínicas. Es un
