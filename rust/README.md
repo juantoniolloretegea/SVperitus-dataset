@@ -64,6 +64,7 @@ Use esta opción si quiere rellenar un formulario, obtener una clasificación gl
 - Si quiere enseñar el sistema sin entrar todavía en el código
 
 **Alcance**
+
 Esta demo es una interfaz pública del motor Rust en navegador.
 No sustituye al motor canónico Python ni equivale a una validación clínica.
 
