@@ -64,7 +64,7 @@ Use esta opción si quiere rellenar un formulario, obtener una clasificación gl
 - Si quiere enseñar el sistema sin entrar todavía en el código
 
 **Alcance**
-Esta demo es una interfaz pública del motor Rust en navegador.  
+Esta demo es una interfaz pública del motor Rust en navegador.
 No sustituye al motor canónico Python ni equivale a una validación clínica.
 
 ## Resultados de paridad (v0.3 final)
@@ -84,10 +84,9 @@ Verificado en Rust Playground (Stable 1.94.0, Edition 2024). Esta verificación 
 - La regla T(25)=19 ha producido clasificaciones equivalentes entre Python y Rust en los tests ejecutados
 - Los 25 parámetros P01-P25 tienen tests de frontera en todos sus umbrales
 - La serialización JSON (`serde`) ha mostrado round-trip sin pérdida en los tests ejecutados
-- `explain()` produce una traza auditable por parámetro
 - El orden P01-P25 está blindado con test explícito
 - Las constantes algebraicas y clínicas están centralizadas
-- `explain()` produce traza auditable por parámetro
+- `explain()` produce una traza auditable por parámetro
 
 ## Cómo verificar
 
