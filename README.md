@@ -153,7 +153,7 @@ SVperitus-dataset/
 │   ├── imm1_normative/       ← estructura Cargo (placeholder, se reemplazará)
 │   └── wasm-demo/            ← demo Rust/WASM publicada en GitHub Pages
 │
-├── kotlin/                   ← cliente Kotlin activado (consume el motor normativo)
+├── kotlin/                   ← línea Kotlin activa; cliente inicial imm1_client ya publicado
 │
 ├── samples/                  ← Muestras visuales (6 imágenes)
 ├── docs/
@@ -179,15 +179,33 @@ workspace Cargo real. Python sigue siendo la fuente canónica de verdad.
 Véase [rust/README.md](rust/README.md) para detalles y procedimiento de
 verificación.
 
-## Implementación Kotlin
+## Implementación Kotlin (línea activa)
 
-La línea Kotlin de SVperitus está concebida como **capa cliente e integradora**, no como una nueva fuente de verdad normativa. Su función será proporcionar una interfaz de uso —inicialmente web y, más adelante, potencialmente móvil o de escritorio— que consuma el motor normativo ya existente, preferentemente a través del port Rust/WASM.
+La línea Kotlin de SVperitus se concibe como **capa cliente e integradora**, no como una nueva fuente de verdad normativa. Su función es proporcionar una interfaz de uso —inicialmente web y, más adelante, potencialmente móvil o de escritorio— que consuma el motor normativo ya existente, preferentemente a través del port Rust/WASM.
 
 En esta arquitectura:
 
 - **Python** sigue siendo la fuente canónica de verdad normativa,
 - **Rust** actúa como port técnico del motor,
-- **Kotlin** Experiencia cliente, la estructuración de entrada y la presentación del resultado.
+- **Kotlin** organiza la experiencia cliente, la estructuración de entrada y la presentación del resultado.
+
+### Estado actual de Kotlin
+
+La línea Kotlin ya no está en fase meramente prevista. En este momento dispone de:
+
+- un directorio propio `kotlin/`,
+- un cliente activo `kotlin/imm1_client/`,
+- compilación y despliegue mediante GitHub Actions,
+- y una ruta pública en GitHub Pages.
+
+Cliente publicado:
+**https://juantoniolloretegea.github.io/SVperitus-dataset/kotlin/imm1_client/**
+
+README de la línea Kotlin:
+**kotlin/README.md**
+
+README operativo del cliente:
+**kotlin/imm1_client/README.md**
 
 ---
 
