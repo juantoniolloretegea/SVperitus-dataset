@@ -151,7 +151,6 @@ SVperitus-dataset/
 ├── rust/
 │   ├── svperitus_playground_v03_final.rs  ← prototipo Playground verificado (108/108 tests)
 │   └── imm1_normative/       ← estructura Cargo (placeholder, se reemplazará)
-│
 ├── kotlin/                   ← Fase 3: cliente Kotlin (placeholder)
 │
 ├── demo/
