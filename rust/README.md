@@ -8,9 +8,10 @@
 
 ## Qué hay aquí
 
-| Archivo | Descripción | Estado |
-|---------|-------------|--------|
+| Archivo / ruta | Descripción | Estado |
+|---|---|---|
 | `svperitus_playground_v03_final.rs` | Motor IMMUNO-1 completo en Rust (archivo único, verificable en [Rust Playground](https://play.rust-lang.org)) | 108/108 tests |
+| `wasm-demo/` | Demo web interactiva del motor Rust/WASM en navegador | Publicada |
 | `imm1_normative/` | Estructura Cargo placeholder (se reemplazará por workspace real) | Placeholder |
 
 ## Resultados de paridad (v0.3 final)
