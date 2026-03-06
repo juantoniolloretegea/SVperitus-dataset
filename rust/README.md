@@ -83,18 +83,33 @@ Verificado en Rust Playground (Stable 1.94.0, Edition 2024). Esta verificación 
 - La semántica ternaria (0/1/U) ha mostrado equivalencia entre Python y Rust en los tests de paridad definidos
 - La regla T(25)=19 ha producido clasificaciones equivalentes entre Python y Rust en los tests ejecutados
 - Los 25 parámetros P01-P25 tienen tests de frontera en todos sus umbrales
-- La serialización JSON (serde) hace round-trip sin pérdida
+- La serialización JSON (`serde`) ha mostrado round-trip sin pérdida en los tests ejecutados
+- `explain()` produce una traza auditable por parámetro
 - El orden P01-P25 está blindado con test explícito
 - Las constantes algebraicas y clínicas están centralizadas
 - `explain()` produce traza auditable por parámetro
 
 ## Cómo verificar
 
-1. Abrir [play.rust-lang.org](https://play.rust-lang.org)
-2. Seleccionar Stable channel
+### Verificación técnica en Playground
+
+1. Abrir [Rust Playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2024)
+2. Seleccionar `stable`
 3. Copiar el contenido de `svperitus_playground_v03_final.rs`
-4. Pegar en el editor y pulsar Run
-5. Verificar: `108/108 passed`
+4. Pegar en el editor
+5. Pulsar **Run**
+6. Verificar la salida final: `108/108 passed`
+
+### Ejecución interactiva en navegador
+
+1. Abrir la [demo Rust/WASM de IMMUNO-1](https://juantoniolloretegea.github.io/SVperitus-dataset/rust/wasm-demo/)
+2. Rellenar el formulario
+3. Revisar:
+   - clasificación global,
+   - conteos `n0 / n1 / nU`,
+   - vector P01–P25,
+   - polígono polar
+4. Confirmar que el comportamiento es coherente con la lógica esperada de IMMUNO-1
 
 ## Principio rector (NO negociable)
 
