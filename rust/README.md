@@ -1,78 +1,80 @@
-# SVperitus IMMUNO-1 — Implementación Rust (prevista)
+# SVperitus — Motor Normativo en Rust
 
-> **Estado:** Planificado. Directorio reservado. No implementado todavía.
-> La implementación de referencia canónica es Python (`IMMUNO-1/normative_engine.py`).
-
----
-
-## Propósito
-
-Fase 2 de la hoja de ruta SVperitus–IMMUNO-1: implementación del motor
-normativo en **Rust** para uso en entornos de alto rendimiento, sistemas
-embebidos o contextos donde Python no es viable.
+> **Estado:** Paridad básica validada (108/108 tests).
+> Lógica clínica CONGELADA — no se modifica hasta cotejo adversarial médico.
+> Próximo paso: migración a workspace Cargo real con crates separados.
 
 ---
+
+## Qué hay aquí
+
+| Archivo | Descripción | Estado |
+|---------|-------------|--------|
+| `svperitus_playground_v03_final.rs` | Motor IMMUNO-1 completo en Rust (archivo único, verificable en [Rust Playground](https://play.rust-lang.org)) | 108/108 tests |
+| `imm1_normative/` | Estructura Cargo placeholder (se reemplazará por workspace real) | Placeholder |
+
+## Resultados de paridad (v0.3 final)
+
+```
+Global parity:     6/6 passed
+Boundary tests:  100/100 passed (all 25 parameters)
+Serde tests:       2/2 passed
+TOTAL:           108/108 passed
+```
+
+Verificado en Rust Playground (Stable 1.94.0, Edition 2024).
+
+## Qué demuestra
+
+- La semántica ternaria (0/1/U) es idéntica en Python y Rust
+- La regla T(25)=19 produce clasificaciones idénticas
+- Los 25 parámetros P01-P25 tienen tests de frontera en todos sus umbrales
+- La serialización JSON (serde) hace round-trip sin pérdida
+- El orden P01-P25 está blindado con test explícito
+- Las constantes algebraicas y clínicas están centralizadas
+- `explain()` produce traza auditable por parámetro
+
+## Cómo verificar
+
+1. Abrir [play.rust-lang.org](https://play.rust-lang.org)
+2. Seleccionar Stable channel
+3. Copiar el contenido de `svperitus_playground_v03_final.rs`
+4. Pegar en el editor y pulsar Run
+5. Verificar: `108/108 passed`
 
 ## Principio rector (NO negociable)
 
-> **Cualquier cambio en el motor normativo debe hacerse primero en el
-> documento formal y en `normative_engine.py` (Python).**
-> Rust es un port de la implementación Python, no una fuente de verdad.
-> No está autorizado a introducir reglas nuevas ni a modificar umbrales.
+> Python es la fuente de verdad normativa. Rust es un port fiel.
+> El port Rust NUNCA introduce criterio clínico nuevo.
+> Si Python y Rust discrepan, Python tiene razón.
 
----
+Cadena de autoridad:
 
-## Estructura prevista
+1. Documento formal
+2. `normative_engine.py` (Python)
+3. YAML de configuración
+4. Parity tests
+5. **Port Rust** (este directorio)
+
+## Arquitectura prevista (workspace Cargo)
+
+Cuando se migre del Playground a Cargo real:
 
 ```
 rust/
-└── imm1_normative/        ← crate Rust del motor normativo IMMUNO-1
-    ├── Cargo.toml
-    ├── src/
-    │   ├── lib.rs          ← funciones P01–P25 + aggregate()
-    │   ├── engine.rs       ← lógica normativa (port bit-a-bit de normative_engine.py)
-    │   └── config.rs       ← lectura de imm_n25.yaml (n, threshold, class_to_idx)
-    └── tests/
-        └── parity_tests.rs ← tests de paridad contra casos exportados desde Python
+├── Cargo.toml                    ← workspace
+├── svperitus-core/               ← invariantes compartidas (Ternary, classify, RADIUS_MAP)
+├── imm1-normative/               ← motor IMMUNO-1 (25 eval functions)
+├── imm2-normative/               ← motor IMMUNO-2 (futuro)
+└── parity-runner/                ← verificador de paridad JSON
 ```
 
----
-
-## Protocolo de equivalencia
-
-La implementación Rust debe superar un test de paridad que:
-
-1. Lea un conjunto de casos exportados desde Python en JSON
-   (`cases_parity_test.json`, generado con `normative_engine.explain()`).
-2. Evalúe cada caso con el motor Rust.
-3. Compare vector ternario y clase global con los valores de referencia Python.
-4. Exija **100% de coincidencia** (equivalencia bit-a-bit en los resultados
-   de clasificación ternaria).
-
----
-
-## Interfaz de entrada/salida prevista
-
-```rust
-// Entrada: caso clínico serializado como JSON
-// Salida:  vector ternario P01–P25 + clase global
-pub fn evaluate(case_json: &str) -> Result<EvaluationResult, EngineError>;
-
-pub struct EvaluationResult {
-    pub vector: [Ternary; 25],  // "0" | "1" | "U"
-    pub class:  GlobalClass,    // NoApto | Indeterminado | Apto
-    pub counts: Counts,         // n0, n1, nU
-}
-```
-
----
+`svperitus-core` es compartido por TODOS los módulos y NO se modifica
+al añadir módulos nuevos.
 
 ## Referencia cruzada
 
-- Motor normativo Python: `IMMUNO-1/normative_engine.py`
-- Configuración canónica: `IMMUNO-1/config/imm_n25.yaml`
-- Documento formal: `docs/Documento7_IMMUNO-1.md`
-
----
-
-*Este directorio se poblará en la Fase 2 de implementación.*
+- Motor Python IMMUNO-1: `IMMUNO-1/normative_engine.py`
+- Configuración: `IMMUNO-1/config/imm_n25.yaml`
+- Documento 7: `docs/Documento7_IMMUNO-1.md`
+- Spec IMMUNO-2: `IMMUNO-2/IMMUNO2_P01-P25_spec.md`
