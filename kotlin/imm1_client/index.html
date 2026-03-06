@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SVperitus — IMMUNO-1 Kotlin Client</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --panel: #111827;
+      --panel-2: #1f2937;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --accent: #c9a84c;
+      --ok: #22c55e;
+      --warn: #facc15;
+      --danger: #ef4444;
+      --border: #334155;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(180deg, #0b1220 0%, #0f172a 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 20px 60px;
+    }
+
+    .hero {
+      background: rgba(17, 24, 39, 0.9);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      font-size: 0.85rem;
+      color: var(--accent);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.15;
+    }
+
+    .lead {
+      color: var(--muted);
+      font-size: 1.05rem;
+      max-width: 850px;
+      margin-bottom: 22px;
+    }
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 22px;
+    }
+
+    .badge {
+      border: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.03);
+      color: var(--text);
+      border-radius: 999px;
+      padding: 8px 12px;
+      font-size: 0.92rem;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 8px;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      border-radius: 12px;
+      padding: 12px 18px;
+      font-weight: 700;
+      transition: transform 0.15s ease, opacity 0.15s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      opacity: 0.96;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #111827;
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin-top: 28px;
+    }
+
+    .card {
+      background: rgba(17, 24, 39, 0.9);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 22px;
+    }
+
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.2rem;
+    }
+
+    .card p, .card li {
+      color: var(--muted);
+    }
+
+    .card ul {
+      padding-left: 18px;
+      margin-bottom: 0;
+    }
+
+    .flow {
+      margin-top: 28px;
+      background: rgba(17, 24, 39, 0.9);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 24px;
+    }
+
+    .flow h2 {
+      margin-top: 0;
+    }
+
+    .flow-boxes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .flow-box {
+      background: var(--panel-2);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    .arrow {
+      text-align: center;
+      color: var(--accent);
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+
+    .footer-note {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    code {
+      background: rgba(255, 255, 255, 0.06);
+      padding: 2px 6px;
+      border-radius: 6px;
+      color: #f8fafc;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section class="hero">
+      <div class="eyebrow">SVperitus · Kotlin client path</div>
+      <h1>SVperitus — IMMUNO-1 Kotlin Client</h1>
+      <p class="lead">
+        Esta página marca el arranque público de la línea Kotlin de SVperitus. Su papel no es redefinir la lógica clínica,
+        sino ofrecer una <strong>capa cliente e integradora</strong> que, en fases posteriores, consumirá el motor
+        normativo ya existente en Rust/WASM para IMMUNO-1.
+      </p>
+
+      <div class="badges">
+        <span class="badge">Python = fuente canónica</span>
+        <span class="badge">Rust = motor evaluador</span>
+        <span class="badge">Kotlin = cliente e interfaz</span>
+      </div>
+
+      <div class="actions">
+        <a class="btn btn-primary" href="../../rust/wasm-demo/" target="_blank" rel="noopener noreferrer">
+          Abrir demo Rust/WASM
+        </a>
+        <a class="btn btn-secondary" href="./README.md" target="_blank" rel="noopener noreferrer">
+          Leer README de imm1_client
+        </a>
+        <a class="btn btn-secondary" href="../README.md" target="_blank" rel="noopener noreferrer">
+          Leer README de Kotlin
+        </a>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>Qué es</h2>
+        <p>
+          Un punto de entrada web para la futura implementación Kotlin de IMMUNO-1. Por ahora, esta página
+          deja fijado el propósito del cliente y enlaza al motor que ya funciona.
+        </p>
+      </article>
+
+      <article class="card">
+        <h2>Qué hará</h2>
+        <ul>
+          <li>Recoger la entrada del usuario mediante formulario</li>
+          <li>Estructurar el caso IMMUNO-1</li>
+          <li>Invocar el motor Rust/WASM</li>
+          <li>Mostrar el resultado y el polígono polar</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>Qué no hará</h2>
+        <ul>
+          <li>No redefinirá P01–P25</li>
+          <li>No modificará la semántica 0/1/U</li>
+          <li>No cambiará la regla <code>T(25)=19</code></li>
+          <li>No sustituirá a Python como fuente de verdad</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="flow">
+      <h2>Arquitectura lógica prevista</h2>
+      <div class="flow-boxes">
+        <div class="flow-box">Formulario Kotlin</div>
+        <div class="arrow">↓</div>
+        <div class="flow-box">Caso estructurado</div>
+        <div class="arrow">↓</div>
+        <div class="flow-box">Motor Rust/WASM</div>
+        <div class="arrow">↓</div>
+        <div class="flow-box">Resultado evaluado</div>
+        <div class="arrow">↓</div>
+        <div class="flow-box">Salida visual + polígono</div>
+      </div>
+
+      <p class="footer-note">
+        Estado actual: esta página es una <strong>landing operativa inicial</strong>. El siguiente paso será sustituirla
+        o ampliarla con una interfaz cliente más completa dentro de <code>kotlin/imm1_client/</code>.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
