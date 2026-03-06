@@ -1,7 +1,6 @@
 # SVperitus — Motor Normativo en Rust
 
 > **Estado:** Paridad técnica del prototipo Playground validada (108/108 tests).
-
 > Lógica clínica CONGELADA — no se modifica hasta cotejo adversarial médico.
 > Próximo paso: migración a workspace Cargo real con crates separados.
 
@@ -27,8 +26,8 @@ Verificado en Rust Playground (Stable 1.94.0, Edition 2024). Esta verificación 
 
 ## Qué demuestra
 
-- La semántica ternaria (0/1/U) es idéntica en Python y Rust
-- La regla T(25)=19 produce clasificaciones idénticas
+- La semántica ternaria (0/1/U) ha mostrado equivalencia entre Python y Rust en los tests de paridad definidos
+- La regla T(25)=19 ha producido clasificaciones equivalentes entre Python y Rust en los tests ejecutados
 - Los 25 parámetros P01-P25 tienen tests de frontera en todos sus umbrales
 - La serialización JSON (serde) hace round-trip sin pérdida
 - El orden P01-P25 está blindado con test explícito
@@ -70,8 +69,8 @@ rust/
 └── parity-runner/                ← verificador de paridad JSON
 ```
 
-`svperitus-core` es compartido por TODOS los módulos y NO se modifica
-al añadir módulos nuevos.
+`svperitus-core` es compartido por todos los módulos y sólo debe modificarse
+por decisión arquitectónica explícita.
 
 ## Referencia cruzada
 
