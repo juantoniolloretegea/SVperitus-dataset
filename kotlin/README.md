@@ -1,147 +1,99 @@
-# SVperitus — Cliente Kotlin
+# SVperitus — Línea Kotlin
 
-> **Estado:** cliente Kotlin/JS inicial ya publicado en GitHub Pages.  
+> **Estado:** línea Kotlin activa, con un primer cliente Kotlin/JS ya publicado en GitHub Pages.  
 > Kotlin se mantiene como **capa cliente e integradora**, no como nueva fuente de verdad normativa.  
-> Próximo paso: cerrar una comprobación visible y reproducible del ciclo **Kotlin → Rust/WASM** y evolucionar después hacia una interfaz propia más completa.
+> El cliente concreto de IMMUNO-1 vive en `imm1_client/`.
 
 ---
 
-## Qué hay aquí
+## Qué es este directorio
 
 Este directorio corresponde a la **línea Kotlin de SVperitus**.
 
-Su función no es redefinir la lógica clínica de IMMUNO-1 ni duplicar el motor normativo, sino proporcionar una **interfaz de uso** capaz de:
+Su función es servir como espacio padre para los clientes e integraciones Kotlin del proyecto, manteniendo una separación clara respecto de:
 
-- recoger o preparar la entrada del usuario,
-- estructurar el caso clínico,
-- invocar el motor normativo ya existente,
-- presentar el resultado de forma clara y auditable.
-
-En la arquitectura actual del proyecto:
-
-- **Python** sigue siendo la fuente canónica de verdad normativa,
-- **Rust** actúa como port técnico del motor,
-- **Kotlin** queda reservado para la experiencia cliente y la integración.
+- **Python**, que sigue siendo la fuente canónica de verdad normativa,
+- **Rust**, que actúa como port técnico y motor evaluador,
+- **Kotlin**, que organiza la experiencia de uso, la integración y la presentación.
 
 ---
 
-## Principio rector (NO negociable)
+## Qué no hace Kotlin
 
-> Kotlin no redefine P01–P25.  
-> Kotlin no introduce criterio clínico nuevo.  
-> Kotlin consume el motor normativo ya existente y presenta su salida.
+Kotlin no:
 
-Si Kotlin discrepa de Python o Rust, Kotlin no corrige la lógica:
-debe revisar la integración.
+- redefine P01–P25,
+- introduce criterio clínico nuevo,
+- sustituye a Python como autoridad normativa,
+- ni reemplaza a Rust como motor cuando el flujo depende de Rust/WASM.
 
----
-
-## Objetivo de esta línea Kotlin
-
-La meta es construir un cliente web —y, más adelante, potencialmente móvil o de escritorio— que permita:
-
-1. introducir o preparar un caso IMMUNO-1,
-2. enviarlo al motor normativo,
-3. recibir:
-   - vector P01–P25,
-   - conteos `n0 / n1 / nU`,
-   - clase global `APTO / INDETERMINADO / NO_APTO`,
-   - explicación del resultado,
-   - y representación visual en polígono polar.
+Si Kotlin discrepa de Python o Rust, el problema debe entenderse como un problema de integración, no de autoridad normativa.
 
 ---
 
-## Motor que consumirá Kotlin
+## Estado actual
 
-La línea Kotlin está pensada para consumir, preferentemente, el **motor Rust/WASM** ya existente en el proyecto.
+La línea Kotlin ya no está en fase meramente prevista o reservada.
 
-### Recursos ya disponibles
+A fecha actual, dispone de:
 
-- **Demo Rust/WASM de IMMUNO-1**  
-  https://juantoniolloretegea.github.io/SVperitus-dataset/rust/wasm-demo/
-
-- **Cliente Kotlin publicado**  
-  https://juantoniolloretegea.github.io/SVperitus-dataset/kotlin/imm1_client/
-
-- **README de Rust**  
-  ../rust/README.md
-
-- **Repositorio principal**  
-  ../README.md
-
----
-
-## Alcance actual
-
-En este momento, este directorio ya no está en fase meramente reservada.
-
-La línea Kotlin dispone de:
-
-- una primera estructura funcional,
+- un primer cliente `imm1_client/`,
 - una ruta pública en GitHub Pages,
 - compilación y despliegue mediante GitHub Actions,
-- y una primera presencia visible como cliente.
+- y una primera base visible para demostrar el papel de Kotlin como cliente.
 
-Todavía **no constituye una integración cerrada y completa del ciclo Kotlin → Rust/WASM con formulario clínico propio**, pero ya no debe describirse como una vía únicamente prevista o vacía.
-
----
-
-## Estado actual y siguiente hito
-
-El siguiente hito ya no es “crear la estructura mínima”, sino **cerrar una comprobación explícita y visible del ciclo Kotlin → Rust/WASM**, de modo que el usuario pueda verificar que:
-
-1. Kotlin recoge o prepara un caso,
-2. Kotlin invoca el motor Rust/WASM real,
-3. Rust devuelve la evaluación,
-4. y Kotlin muestra exactamente esa respuesta.
-
-Después de esa comprobación, el paso siguiente será evolucionar el cliente hacia una interfaz propia más completa, con formulario, salida estructurada y visualización integrada.
+Todavía no constituye una familia completa de clientes Kotlin ni una integración final cerrada en todos los frentes, pero sí un punto de partida funcional y público.
 
 ---
 
-## Arquitectura prevista
+## Subdirectorio activo
+
+### `imm1_client/`
+
+Contiene el primer cliente Kotlin/JS asociado a IMMUNO-1.
+
+Su papel es servir como interfaz visible alrededor del motor Rust/WASM ya existente, manteniendo la separación de funciones:
+
+- Kotlin prepara y muestra,
+- Rust evalúa,
+- Python sigue siendo la fuente canónica de verdad.
+
+**README operativo del cliente:**  
+`./imm1_client/README.md`
+
+**Cliente publicado:**  
+https://juantoniolloretegea.github.io/SVperitus-dataset/kotlin/imm1_client/
+
+---
+
+## Arquitectura de alto nivel
 
 ```text
-kotlin/
-└── imm1_client/
-    ├── README.md
-    ├── src/
-    │   └── ...
-    └── build/   (generado)
-```
-
-### Arquitectura lógica
-
-```text
-Formulario o caso preparado en Kotlin
-      ↓
-Caso estructurado (JSON / modelo equivalente)
-      ↓
+Usuario
+   ↓
+Cliente Kotlin
+   ↓
 Motor Rust/WASM
-      ↓
+   ↓
 Resultado evaluado
-      ↓
-Salida visual + polígono polar
+   ↓
+Presentación visual
 ```
 
 ---
 
-## Qué no hará Kotlin
+## Regla de oro
 
-Kotlin no será:
-
-- la fuente canónica de verdad,
-- un tercer motor normativo,
-- un lugar donde redefinir reglas clínicas,
-- ni una validación médica del sistema.
-
-Su papel es **cliente, integración y experiencia de uso**.
+> Kotlin organiza la experiencia de uso.  
+> Rust evalúa.  
+> Python sigue siendo la fuente canónica de verdad.
 
 ---
 
 ## Referencia cruzada
 
+- Línea Rust: `../rust/README.md`
+- Cliente activo: `./imm1_client/README.md`
 - Motor Python IMMUNO-1: `../IMMUNO-1/normative_engine.py`
 - Configuración: `../IMMUNO-1/config/imm_n25.yaml`
-- Línea Rust: `../rust/README.md`
 - Documento 7: `../docs/Documento7_IMMUNO-1.md`
