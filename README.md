@@ -34,12 +34,13 @@ mediante una red neuronal convolucional (ResNet-34) que emula al motor.
 
 ## Ejemplos de imágenes del dataset (n=25)
 
-Cada vector ternario se transforma en un polígono polar de 25 ejes. Los vértices se colorean por valor: 🔴 1 (riesgo / inadecuado) · 🟢 0 (adecuado) · 🟡 U (indeterminado). El estilo visual es idéntico para todas las clases — la CNN aprende del patrón geométrico, no del color de clase.
+Cada vector ternario se transforma en un polígono polar de 25 ejes. Los vértices se colorean por valor: 🔴 1 (riesgo / inadecuado) · 🟢 0 (adecuado) · 🟡 U (indeterminado). La CNN se entrena sobre un estilo visual homogéneo entre clases, de modo que la información discriminativa no dependa de un color global de clase sino de la geometría y disposición de los valores del vector.
 
 | NO_APTO (n₁ ≥ 19) | INDETERMINADO | APTO (n₀ ≥ 19) |
 |---|---|---|
-| ![](https://raw.githubusercontent.com/juantoniolloretegea/SVperitus-dataset/main/samples/sample_no_apto_1.png) | ![](https://raw.githubusercontent.com/juantoniolloretegea/SVperitus-dataset/main/samples/sample_indeterminado_1.png) | ![](https://raw.githubusercontent.com/juantoniolloretegea/SVperitus-dataset/main/samples/sample_apto_1.png) |
-| ![](https://raw.githubusercontent.com/juantoniolloretegea/SVperitus-dataset/main/samples/sample_no_apto_2.png) | ![](https://raw.githubusercontent.com/juantoniolloretegea/SVperitus-dataset/main/samples/sample_indeterminado_2.png) | ![](https://raw.githubusercontent.com/juantoniolloretegea/SVperitus-dataset/main/samples/sample_apto_2.png) |
+| ![NO_APTO 1](samples/NO_APTO_sample_1.png) | ![INDET 1](samples/INDETERMINADO_sample_1.png) | ![APTO 1](samples/APTO_sample_1.png) |
+| ![NO_APTO 2](samples/NO_APTO_sample_2.png) | ![INDET 2](samples/INDETERMINADO_sample_2.png) | ![APTO 2](samples/APTO_sample_2.png) |
+
 
 ---
 
@@ -60,6 +61,7 @@ completamente independientes en código, datos y motor normativo.
 | Gramática SV | Compartida | Compartida |
 | Polígono polar | Compartido | Compartido |
 | Código y datos | Independientes | Independientes |
+
 
 ---
 
@@ -99,7 +101,7 @@ Con:
 
 ### Reproducibilidad
 
-Toda la generación es determinista con `seed=42`. Ejecutar el pipeline en cualquier máquina con las mismas dependencias produce exactamente las mismas imágenes.
+La generación está diseñada para ser reproducible con `seed=42` y dependencias controladas. Ejecutar el pipeline en cualquier máquina con las mismas dependencias debería producir las mismas imágenes.
 
 ---
 
@@ -142,7 +144,7 @@ SVperitus-dataset/
 │   ├── train_resnet.py       ← ResNet34 + remapeo canónico de índices
 │   └── evaluate.py           ← evaluación con orden canónico YAML
 │
-├── IMMUNO-2/                 ← spec P01–P25 completada (borrador 0)
+├── IMMUNO-2/                 ← spec P01–P25 completada (borrador 0, en revisión)
 │
 ├── rust/
 │   ├── svperitus_playground_v03_final.rs  ← motor Rust verificado (108/108 tests)
@@ -165,29 +167,39 @@ SVperitus-dataset/
 
 ---
 
+## Implementación Rust (prototipo)
+
+Existe un port inicial del motor normativo de IMMUNO-1 en Rust con paridad
+técnica validada en [Rust Playground](https://play.rust-lang.org)
+(108/108 tests: 6 paridad global + 100 frontera en 25 parámetros + 2 serde).
+Python sigue siendo la fuente canónica de verdad. Véase
+[rust/README.md](rust/README.md) para detalles y procedimiento de verificación.
+
+---
+
 ## Inicio rápido
 
 ### 1. Instalar dependencias
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
 Para GPU (recomendado para entrenamiento):
 
-```bash
+```
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
 ```
 
 ### 2. Generar casos sintéticos
 
-```bash
+```
 python IMMUNO-1/generate_cases.py
 ```
 
 ### 3. Generar imágenes polares
 
-```bash
+```
 python IMMUNO-1/generate_polygons.py
 ```
 
@@ -211,13 +223,13 @@ IMMUNO-1/data/
 
 ### 4. Entrenar el modelo
 
-```bash
+```
 python IMMUNO-1/train_resnet.py --epochs 30 --batch-size 32
 ```
 
 ### 5. Evaluar
 
-```bash
+```
 python IMMUNO-1/evaluate.py --model IMMUNO-1/models/<modelo>.pth
 ```
 
@@ -248,13 +260,14 @@ Este dataset forma parte de la serie «De SVcustos, el marco (framework) de intr
 | **7** | **SVperitus–IMMUNO-1 (este repositorio)** | **SVperitus-dataset** |
 | 8 | Compilador SVcustos + SVperitus + Célula meta SV(9,3)-IA | — |
 
+
 ---
 
 ## Cita
 
 Si desea citar este repositorio en un trabajo académico, puede usar un esquema genérico como:
 
-```bibtex
+```
 @misc{lloret_svperitus_dataset,
   author       = {Lloret Egea, Juan Antonio},
   title        = {SVperitus-dataset: generación de imágenes polares ternarias
