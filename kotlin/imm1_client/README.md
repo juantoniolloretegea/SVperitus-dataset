@@ -1,19 +1,19 @@
 # SVperitus — IMMUNO-1 Kotlin Client
 
-> **Estado:** cliente inicial en preparación.
-> Este subdirectorio queda reservado para la primera implementación Kotlin de IMMUNO-1 como **capa de interfaz**, consumiendo el motor Rust/WASM ya existente.
+> **Estado:** cliente Kotlin/JS inicial ya publicado en GitHub Pages.  
+> Este subdirectorio contiene la primera implementación visible de IMMUNO-1 como **capa de interfaz**, organizada alrededor del motor Rust/WASM ya existente.
 
 ---
 
 ## Qué es
 
-`imm1_client/` será el primer cliente Kotlin de SVperitus para IMMUNO-1.
+`imm1_client/` es el primer cliente Kotlin de SVperitus para IMMUNO-1.
 
 Su objetivo es ofrecer una **interfaz de uso clara y estructurada** que permita:
 
-- introducir un caso mediante formulario,
+- introducir o preparar un caso,
 - transformarlo en un caso evaluable,
-- enviarlo al motor normativo,
+- invocar el motor normativo,
 - recibir la salida evaluada,
 - y mostrar el resultado de forma visual y auditable.
 
@@ -50,6 +50,9 @@ Este cliente está pensado para consumir, de forma preferente, el **motor Rust/W
 - **Demo Rust/WASM de IMMUNO-1**  
   https://juantoniolloretegea.github.io/SVperitus-dataset/rust/wasm-demo/
 
+- **Cliente Kotlin publicado**  
+  https://juantoniolloretegea.github.io/SVperitus-dataset/kotlin/imm1_client/
+
 - **README de Rust**  
   ../../rust/README.md
 
@@ -60,9 +63,9 @@ Este cliente está pensado para consumir, de forma preferente, el **motor Rust/W
 
 ## Objetivo funcional mínimo
 
-La primera versión de este cliente deberá permitir:
+La versión funcional de este cliente debe permitir:
 
-1. introducir valores mediante formulario,
+1. introducir o preparar valores de entrada,
 2. construir el caso estructurado,
 3. invocar el motor Rust/WASM,
 4. recibir:
@@ -70,7 +73,7 @@ La primera versión de este cliente deberá permitir:
    - conteos `n0 / n1 / nU`,
    - clase global `APTO / INDETERMINADO / NO_APTO`,
    - explicación del resultado,
-5. representar el polígono polar.
+5. representar o integrar el polígono polar.
 
 ---
 
@@ -79,7 +82,7 @@ La primera versión de este cliente deberá permitir:
 ```text
 UI Kotlin
    ↓
-Formulario IMMUNO-1
+Formulario o caso preparado
    ↓
 Caso estructurado
    ↓
@@ -92,36 +95,44 @@ Salida visual + polígono
 
 ---
 
-## Alcance inicial
+## Alcance actual
 
-La primera entrega de `imm1_client/` debe ser **mínima, clara y fiel**:
+En este momento, `imm1_client/` ya dispone de:
 
-- cliente web,
-- interfaz sencilla,
-- sin duplicar lógica,
-- sin tocar la semántica clínica,
-- y alineado con la demo Rust/WASM ya existente.
+- estructura mínima de proyecto Kotlin/JS,
+- compilación y despliegue mediante GitHub Actions,
+- ruta pública en GitHub Pages,
+- y una primera verificación visible de que Kotlin está activo como cliente.
+
+Todavía **no constituye una integración cerrada y completa del ciclo Kotlin → Rust/WASM con formulario clínico propio**, pero ya no está en fase meramente reservada o vacía.
 
 ---
 
-## Próximo hito técnico
+## Estado actual y siguiente hito
 
-Tras este README, el siguiente paso será crear la estructura mínima del cliente, previsiblemente con:
+El siguiente hito ya no es “crear la estructura mínima”, sino **cerrar una comprobación explícita y visible del ciclo Kotlin → Rust/WASM**, de modo que el usuario pueda verificar que:
+
+1. Kotlin recoge o prepara un caso,
+2. Kotlin invoca el motor Rust/WASM real,
+3. Rust devuelve la evaluación,
+4. y Kotlin muestra exactamente esa respuesta.
+
+Después de esa comprobación, el paso siguiente será evolucionar el cliente hacia una interfaz propia más completa, con formulario, salida estructurada y visualización integrada.
+
+---
+
+## Estructura mínima actual
 
 ```text
 imm1_client/
 ├── README.md
-├── src/
-│   └── ...
-└── build/   (generado)
+├── build.gradle.kts
+├── settings.gradle.kts
+├── gradle.properties
+├── index.html
+└── src/
+    └── ...
 ```
-
-y comenzar por una versión que reproduzca el flujo ya demostrado en la demo Rust/WASM:
-
-- entrada,
-- evaluación,
-- salida,
-- visualización.
 
 ---
 
