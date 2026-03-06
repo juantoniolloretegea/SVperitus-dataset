@@ -69,7 +69,7 @@ completamente independientes en código, datos y motor normativo.
 
 ### Imágenes neutrales
 
-Las imágenes de los polígonos polares usan un estilo visual neutro idéntico para todas las clases. La CNN debe aprender a clasificar a partir del patrón geométrico del polígono, no de colores de clase.
+Las imágenes de los polígonos polares usan un estilo visual neutro idéntico para todas las clases. El estilo visual global es homogéneo entre clases y la señal discriminativa no depende de un color global de clase sino de la geometría y de la disposición de los valores del vector.
 
 * **Fondo:** oscuro uniforme (#0D1B2A)
 * **Polígono:** contorno y relleno dorado (mismo para todas las clases)
@@ -101,7 +101,7 @@ Con:
 
 ### Reproducibilidad
 
-La generación está diseñada para ser reproducible con `seed=42` y dependencias controladas. Ejecutar el pipeline en cualquier máquina con las mismas dependencias debería producir las mismas imágenes.
+La generación está diseñada para ser reproducible con `seed=42` y dependencias controladas.
 
 ---
 
@@ -147,7 +147,7 @@ SVperitus-dataset/
 ├── IMMUNO-2/                 ← spec P01–P25 completada (borrador 0, en revisión)
 │
 ├── rust/
-│   ├── svperitus_playground_v03_final.rs  ← motor Rust verificado (108/108 tests)
+│   ├── svperitus_playground_v03_final.rs  ← prototipo Playground verificado (108/108 tests)
 │   └── imm1_normative/       ← estructura Cargo (placeholder, se reemplazará)
 │
 ├── kotlin/                   ← Fase 3: cliente Kotlin (placeholder)
@@ -167,13 +167,15 @@ SVperitus-dataset/
 
 ---
 
-## Implementación Rust (prototipo)
+## Implementación Rust (prototipo Playground)
 
 Existe un port inicial del motor normativo de IMMUNO-1 en Rust con paridad
 técnica validada en [Rust Playground](https://play.rust-lang.org)
 (108/108 tests: 6 paridad global + 100 frontera en 25 parámetros + 2 serde).
-Python sigue siendo la fuente canónica de verdad. Véase
-[rust/README.md](rust/README.md) para detalles y procedimiento de verificación.
+Se trata de un prototipo Playground; el siguiente paso es la migración al
+workspace Cargo real. Python sigue siendo la fuente canónica de verdad.
+Véase [rust/README.md](rust/README.md) para detalles y procedimiento de
+verificación.
 
 ---
 
