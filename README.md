@@ -142,10 +142,11 @@ SVperitus-dataset/
 │   ├── train_resnet.py       ← ResNet34 + remapeo canónico de índices
 │   └── evaluate.py           ← evaluación con orden canónico YAML
 │
-├── IMMUNO-2/                 ← módulo futuro (placeholder)
+├── IMMUNO-2/                 ← spec P01–P25 completada (borrador 0)
 │
 ├── rust/
-│   └── imm1_normative/       ← Fase 2: port Rust (placeholder)
+│   ├── svperitus_playground_v03_final.rs  ← motor Rust verificado (108/108 tests)
+│   └── imm1_normative/       ← estructura Cargo (placeholder, se reemplazará)
 │
 ├── kotlin/                   ← Fase 3: cliente Kotlin (placeholder)
 │
