@@ -89,9 +89,11 @@ kotlin/
     ├── src/
     │   └── ...
     └── build/   (generado)
+```
 
-## Arquitectura lógica
+### Arquitectura lógica
 
+```text
 Formulario Kotlin
       ↓
 Caso estructurado (JSON / modelo equivalente)
@@ -101,3 +103,4 @@ Motor Rust/WASM
 Resultado evaluado
       ↓
 Salida visual + polígono polar
+```
