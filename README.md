@@ -38,8 +38,8 @@ Cada vector ternario se transforma en un polígono polar de 25 ejes. Los vértic
 
 | NO_APTO (n₁ ≥ 19) | INDETERMINADO | APTO (n₀ ≥ 19) |
 |---|---|---|
-| ![NO_APTO 1](samples/sample_no_apto_1.png) | ![INDET 1](samples/sample_indeterminado_1.png) | ![APTO 1](samples/sample_apto_1.png) |
-| ![NO_APTO 2](samples/sample_no_apto_2.png) | ![INDET 2](samples/sample_indeterminado_2.png) | ![APTO 2](samples/sample_apto_2.png) |
+| ![NO_APTO 1](https://raw.githubusercontent.com/juantoniolloretegea/SVperitus-dataset/main/samples/sample_no_apto_1.png) | ![INDET 1](https://raw.githubusercontent.com/juantoniolloretegea/SVperitus-dataset/main/samples/sample_indeterminado_1.png) | ![APTO 1](https://raw.githubusercontent.com/juantoniolloretegea/SVperitus-dataset/main/samples/sample_apto_1.png) |
+| ![NO_APTO 2](https://raw.githubusercontent.com/juantoniolloretegea/SVperitus-dataset/main/samples/sample_no_apto_2.png) | ![INDET 2](https://raw.githubusercontent.com/juantoniolloretegea/SVperitus-dataset/main/samples/sample_indeterminado_2.png) | ![APTO 2](https://raw.githubusercontent.com/juantoniolloretegea/SVperitus-dataset/main/samples/sample_apto_2.png) |
 
 
 ---
