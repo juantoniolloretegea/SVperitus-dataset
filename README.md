@@ -191,7 +191,7 @@ En esta arquitectura:
 
 ### Estado actual de Kotlin
 
-La línea Kotlin ya no está en fase meramente prevista. En este momento dispone de:
+En este momento dispone de:
 
 - un directorio propio `kotlin/`,
 - un cliente activo `kotlin/imm1_client/`,
