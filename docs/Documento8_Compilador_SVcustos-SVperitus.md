@@ -1,9 +1,18 @@
-# Documento 8 — Compilador SVcustos + SVperitus + Célula Meta IA
+# Documento 8 — Compilador doctrinal y célula meta SV(9,3)-IA
 
-> **Estado:** Reservado. Se redactará tras consolidar el Documento 7.
+> **Estado:** Publicado. Release 2 disponible en PubPub (itvia.online).  
+> Release 3 en preparación (cerrará tensiones identificadas en revisión adversarial).
 
-Este documento integrará SVcustos y SVperitus en una visión unificada
-y presentará la **célula meta SV(9,3)-IA** de integridad del modelo de IA.
+Este documento integra SVcustos y SVperitus en una visión unificada
+y presenta la **célula meta SV(9,3)-IA** de integridad del modelo de IA.
+
+**Publicación:**  
+https://www.itvia.online/pub/compilador-doctrinal-y-celula-meta-sv93-ia/release/2
+
+**Serie:**  
+«De SVcustos, el marco (framework) de intrusión, hasta SVperitus: agentes especializados»  
+ISSN 2695-6411 · CC BY-NC-ND 4.0  
+Autor: Juan Antonio Lloret Egea · ORCID: 0000-0002-6634-3351
 
 Ver [Documento 7](./Documento7_IMMUNO-1.md) para el módulo prototipo IMMUNO-1.
 
@@ -30,5 +39,3 @@ Regla: T(9) = 7
 - n₁ ≥ 7 → **INTRUSIÓN** → confianza en el modelo **anulada**
 - n₀ ≥ 7 → **NORMAL** → modelo operable con normalidad
 - resto → **INDETERMINADO** → confianza suspendida, solo bajo supervisión reforzada
-
-*Documento en elaboración.*
