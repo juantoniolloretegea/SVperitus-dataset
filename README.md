@@ -213,7 +213,7 @@ En este momento dispone de:
 - compilación y despliegue mediante GitHub Actions,
 - y una ruta pública en GitHub Pages.
 
-El cliente Kotlin carga el módulo WASM directamente (sin iframe), construye un caso IMMUNO-1 de demostración, invoca `evaluate_immuno1()` del motor Rust real y muestra el resultado. Cumple los criterios Watson F.1–F.5 y H.1–H.6.
+El cliente Kotlin carga el módulo WASM directamente (sin iframe), construye un caso IMMUNO-1 de demostración, invoca `evaluate_immuno1()` del motor Rust real y muestra el resultado.
 
 Cliente publicado:
 **https://juantoniolloretegea.github.io/SVperitus-dataset/kotlin/imm1_client/**
