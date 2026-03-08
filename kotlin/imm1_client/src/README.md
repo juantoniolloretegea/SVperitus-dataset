@@ -4,7 +4,7 @@ Este directorio contiene el código fuente del cliente Kotlin de IMMUNO-1.
 
 ## Contenido actual
 
-- `main/kotlin/Main.kt` — Bridge Kotlin/JS → Rust/WASM (Watson F.1–F.5)
+- `main/kotlin/Main.kt` — Bridge Kotlin/JS → Rust/WASM
 - `main/resources/index.html` — Template HTML para build Gradle
 
 ## Función
