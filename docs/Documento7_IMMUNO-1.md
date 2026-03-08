@@ -10,7 +10,7 @@ hasta SVperitus: agentes especializados»*
 
 **Autor:** Juan Antonio Lloret Egea
 **ORCID:** [0000-0002-6634-3351](https://orcid.org/0000-0002-6634-3351)
-**ISSN:** 2695-641X
+**ISSN:** 2695-6411
 **Fecha:** 5 de marzo de 2026
 **Licencia:** CC BY-NC-ND 4.0
 **Repositorio SVperitus–IMMUNO-1:** repositorio hermano de
@@ -812,6 +812,6 @@ descrita en la Sección 10.1.
 ---
 
 *Documento 7 de la serie «De SVcustos, el marco (framework) de intrusión,
-hasta SVperitus: agentes especializados». ISSN 2695-641X.*
+hasta SVperitus: agentes especializados». ISSN 2695-6411.*
 
 *Juan Antonio Lloret Egea | ORCID 0000-0002-6634-3351 | CC BY-NC-ND 4.0*
