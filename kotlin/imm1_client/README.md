@@ -1,7 +1,6 @@
 # SVperitus — IMMUNO-1 Kotlin Client
 
-> **Estado:** integración mínima real Kotlin → Rust/WASM implementada y publicada en GitHub Pages.  
-> Cumple los criterios Watson F.1–F.5 y H.1–H.6.
+> **Estado:** integración mínima real Kotlin → Rust/WASM implementada y publicada en GitHub Pages.
 
 ---
 
@@ -61,24 +60,14 @@ El cliente carga directamente el motor Rust/WASM disponible en `../../rust/wasm-
 
 ---
 
-## Criterios Watson cumplidos
+## Qué demuestra este cliente
 
-### Implementación (F.1–F.5)
-
-- **F.1** Carga el módulo WASM real, inicializa, expone en `window.__wasm`
-- **F.2** Main.kt espera `engine-ready`, lee `window.__wasm`, habilita botones
-- **F.3** Caso fijo de demostración construido como JSON válido IMMUNO-1
-- **F.4** Llama `evaluate_immuno1(json)` del WASM real, parsea y muestra resultado
-- **F.5** Botones "Ejecutar caso demo" y "Mostrar engine_info()"
-
-### Aceptación (H.1–H.6)
-
-1. Cliente Kotlin carga y lo declara visualmente
-2. Motor WASM real se inicializa desde página Kotlin
-3. Kotlin llama realmente a `evaluate_immuno1()`
-4. Respuesta visible procede del motor Rust/WASM real (no mock)
-5. No se usa iframe como sustituto de integración
-6. Documentación alineada con estado real
+- Carga el módulo WASM real, lo inicializa y lo expone en `window.__wasm`
+- Main.kt espera a que el motor esté listo, habilita botones
+- Construye un caso fijo de demostración como JSON válido IMMUNO-1
+- Llama a `evaluate_immuno1(json)` del WASM real, parsea y muestra resultado
+- Botones "Ejecutar caso demo" y "Mostrar engine_info()"
+- No se usa iframe ni mock: la respuesta procede del motor Rust/WASM real
 
 ---
 
