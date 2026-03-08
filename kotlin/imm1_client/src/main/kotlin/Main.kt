@@ -5,7 +5,7 @@ import org.w3c.dom.HTMLElement
 
 // ═══════════════════════════════════════════════════════════════════
 // SVperitus — IMMUNO-1 Kotlin Client
-// Puente real Kotlin/JS → Rust/WASM (Watson F.1–F.5)
+// Puente real Kotlin/JS → Rust/WASM
 //
 // Este archivo NO contiene lógica normativa.
 // Kotlin construye el caso, llama al motor Rust/WASM real,
@@ -28,7 +28,7 @@ private fun engineStatus(): String =
 private fun engineError(): String =
     (js("window.__engine_error") as? String) ?: ""
 
-// ── Caso fijo de demostración (Watson F.3, opción A) ────────────
+// ── Caso fijo de demostración ────────────
 //
 // Paciente en remisión, buen recuento, vacunas parciales,
 // profilaxis incompleta → resultado esperado: INDETERMINADO.
@@ -89,7 +89,7 @@ private fun renderStatus(container: HTMLElement, status: String, error: String) 
         """.trimIndent()
     }
 
-    // Habilitar/deshabilitar botones según estado (Watson F.2)
+    // Habilitar/deshabilitar botones según estado
     val btnDemo = document.getElementById("btn-run-demo") as? HTMLButtonElement
     val btnInfo = document.getElementById("btn-engine-info") as? HTMLButtonElement
     val ready = status == "rust"
@@ -218,7 +218,7 @@ private fun renderEngineInfo(json: String) {
 fun main() {
     val root = document.getElementById("root") ?: return
 
-    // ── Construir interfaz (Watson F.5) ──
+    // ── Construir interfaz ──
     root.innerHTML = """
         <div style="max-width:800px;margin:0 auto;padding:32px 20px;font-family:system-ui,sans-serif;
                      color:#e5e7eb;line-height:1.6;">
@@ -284,7 +284,7 @@ fun main() {
         </div>
     """.trimIndent()
 
-    // ── Escuchar evento engine-ready (Watson F.2) ──
+    // ── Escuchar evento engine-ready ──
     val status = engineStatus()
     if (status != "loading") {
         renderStatus(root, status, engineError())
@@ -294,7 +294,7 @@ fun main() {
         renderStatus(root, engineStatus(), engineError())
     })
 
-    // ── Botón: ejecutar caso demo (Watson F.3 + F.4) ──
+    // ── Botón: ejecutar caso demo ──
     val btnDemo = document.getElementById("btn-run-demo") as? HTMLButtonElement
     btnDemo?.addEventListener("click", {
         val wasm = wasmModule()
@@ -302,7 +302,7 @@ fun main() {
 
         val caseJson = buildDemoCase()
 
-        // Llamada real al motor Rust/WASM (Watson F.4)
+        // Llamada real al motor Rust/WASM
         val t0 = js("performance.now()") as Double
         val resultJson = wasm.evaluate_immuno1(caseJson) as String
         val t1 = js("performance.now()") as Double
@@ -326,7 +326,7 @@ fun main() {
         }
     })
 
-    // ── Botón: engine_info() (Watson F.5) ──
+    // ── Botón: engine_info() ──
     val btnInfo = document.getElementById("btn-engine-info") as? HTMLButtonElement
     btnInfo?.addEventListener("click", {
         val wasm = wasmModule()
