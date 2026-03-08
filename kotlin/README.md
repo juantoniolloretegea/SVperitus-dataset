@@ -38,8 +38,7 @@ La línea Kotlin dispone de:
 - un primer cliente `imm1_client/`,
 - integración real contra el motor Rust/WASM (sin iframe, sin mock),
 - una ruta pública en GitHub Pages,
-- compilación y despliegue mediante GitHub Actions,
-- y cumplimiento de los criterios Watson F.1–F.5 y H.1–H.6.
+- compilación y despliegue mediante GitHub Actions.
 
 El cliente carga el módulo WASM directamente, construye un caso IMMUNO-1 de demostración, invoca `evaluate_immuno1()` del motor Rust real y muestra el resultado con `engine_info()`, vector P01–P25, conteos n0/n1/nU, clase global y JSON bruto.
 
