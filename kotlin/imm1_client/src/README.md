@@ -1,20 +1,25 @@
 # SVperitus — IMMUNO-1 Kotlin Client / src
 
-Este directorio queda reservado para el código fuente del primer cliente Kotlin de IMMUNO-1.
+Este directorio contiene el código fuente del cliente Kotlin de IMMUNO-1.
 
-## Función prevista
+## Contenido actual
 
-Aquí vivirá la implementación de la interfaz Kotlin encargada de:
+- `main/kotlin/Main.kt` — Bridge Kotlin/JS → Rust/WASM (Watson F.1–F.5)
+- `main/resources/index.html` — Template HTML para build Gradle
 
-- recoger la entrada del usuario,
-- estructurar el caso IMMUNO-1,
-- invocar el motor Rust/WASM,
-- recibir el resultado evaluado,
-- y mostrar la salida de forma clara y visual.
+## Función
+
+`Main.kt` implementa el puente real entre el cliente Kotlin y el motor Rust/WASM:
+
+1. Espera a que el motor WASM esté cargado (`engine-ready`)
+2. Construye un caso fijo de demostración como JSON válido IMMUNO-1
+3. Llama a `window.__wasm.evaluate_immuno1(json)` del motor Rust real
+4. Parsea y muestra la respuesta: clase global, conteos, vector, JSON bruto
+5. Expone `engine_info()` para verificación
 
 ## Principio de diseño
 
-La lógica clínica no se implementa aquí.
+La lógica clínica **no** se implementa aquí.
 
 `src/` no redefine:
 
@@ -23,33 +28,18 @@ La lógica clínica no se implementa aquí.
 - la regla T(25)=19,
 - ni la clasificación global.
 
-Todo eso pertenece al motor normativo ya existente.
-
-## Papel de este código
-
-El código de `src/` deberá encargarse de:
-
-1. la interfaz,
-2. la transformación de entrada,
-3. la llamada al motor,
-4. la recepción del resultado,
-5. la representación visual.
+Todo eso pertenece al motor normativo ya existente (Python → Rust/WASM).
 
 ## Flujo lógico
 
 ```text
-Formulario
+Main.kt (Kotlin/JS)
    ↓
-Caso estructurado
+Caso JSON de demostración
    ↓
-Motor Rust/WASM
+window.__wasm.evaluate_immuno1(json)
    ↓
-Resultado evaluado
+Resultado evaluado (JSON)
    ↓
-Presentación visual
+Presentación visual en DOM
 ```
-
-## Estado actual
-
-Por ahora, este directorio sólo fija la función de la futura implementación.
-El siguiente paso será añadir el primer archivo real del cliente.
