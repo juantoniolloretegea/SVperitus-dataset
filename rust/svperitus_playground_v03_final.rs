@@ -2,7 +2,7 @@
 // SVperitus — IMMUNO-1 Normative Engine (Rust) — v0.3 FINAL PLAYGROUND
 // Paste into https://play.rust-lang.org (Stable channel)
 //
-// Series: ISSN 2695-641X | CC BY-NC-ND 4.0
+// Series: ISSN 2695-6411 | CC BY-NC-ND 4.0
 // Author: Juan Antonio Lloret Egea (ORCID 0000-0002-6634-3351)
 //
 // STATUS: Paridad básica validada. NO versión final cerrada.
