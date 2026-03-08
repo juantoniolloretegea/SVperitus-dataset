@@ -11,7 +11,7 @@
 
 Documento 7 de la serie
 *«De SVcustos, el marco (framework) de intrusión, hasta SVperitus: agentes especializados»*
-**ISSN 2695-641X**
+**ISSN 2695-6411**
 
 ---
 
@@ -132,6 +132,11 @@ SVperitus-dataset/
 ├── requirements.txt          ← Dependencias Python
 ├── .gitignore                ← Excluye data/, models/, results/
 │
+├── .github/
+│   └── workflows/
+│       ├── build-wasm.yml                  ← compila Rust → WASM
+│       └── kotlin-imm1-client-pages.yml    ← build y deploy Kotlin/JS
+│
 ├── common/
 │   ├── __init__.py
 │   ├── polygons.py           ← draw_polar_polygon(), RADIUS_MAP
@@ -148,17 +153,27 @@ SVperitus-dataset/
 │
 ├── IMMUNO-2/                 ← spec P01–P25 definida (borrador 0, en revisión)
 │
+├── demo/
+│   └── index.html            ← demo JS interactiva (GitHub Pages)
+│
 ├── rust/
 │   ├── svperitus_playground_v03_final.rs  ← prototipo Playground verificado (108/108 tests)
-│   ├── imm1_normative/       ← estructura Cargo (placeholder, se reemplazará)
+│   ├── imm1_normative/       ← estructura Cargo (placeholder, no implementado)
+│   ├── wasm/
+│   │   └── src/lib.rs        ← MOTOR WASM REAL (P01–P25 completo)
 │   └── wasm-demo/            ← demo Rust/WASM publicada en GitHub Pages
+│       └── pkg/              ← binarios WASM compilados
 │
-├── kotlin/                   ← línea Kotlin activa; cliente inicial imm1_client ya publicado
+├── kotlin/
+│   └── imm1_client/          ← cliente Kotlin con puente real → Rust/WASM
+│       ├── index.html        ← integración directa (sin iframe)
+│       ├── build.gradle.kts  ← Kotlin/JS (IR)
+│       └── src/main/kotlin/Main.kt  ← bridge Kotlin → WASM
 │
 ├── samples/                  ← Muestras visuales (6 imágenes)
 ├── docs/
-│   ├── Documento7_IMMUNO-1.md        ← especificación canónica
-│   └── Documento8_Compilador_…md     ← placeholder Doc 8
+│   ├── Documento7_IMMUNO-1.md            ← especificación canónica
+│   └── Documento8_Compilador_…md         ← referencia a Doc 8 publicado
 │
 ├── data/                     ← (generado, no en git)
 ├── models/                   ← (generado, no en git)
@@ -194,9 +209,11 @@ En esta arquitectura:
 En este momento dispone de:
 
 - un directorio propio `kotlin/`,
-- un cliente activo `kotlin/imm1_client/`,
+- un cliente activo `kotlin/imm1_client/` con integración mínima real contra el motor Rust/WASM,
 - compilación y despliegue mediante GitHub Actions,
 - y una ruta pública en GitHub Pages.
+
+El cliente Kotlin carga el módulo WASM directamente (sin iframe), construye un caso IMMUNO-1 de demostración, invoca `evaluate_immuno1()` del motor Rust real y muestra el resultado. Cumple los criterios Watson F.1–F.5 y H.1–H.6.
 
 Cliente publicado:
 **https://juantoniolloretegea.github.io/SVperitus-dataset/kotlin/imm1_client/**
@@ -290,7 +307,7 @@ Este dataset forma parte de la serie «De SVcustos, el marco (framework) de intr
 | 1 | Marco conceptual y gramática algebraica SV | [Serie completa](https://www.itvia.online/de-svcustos-el-marco-framework-de-intrusion-hasta-svperitus-agentes-especializados) |
 | 2–6 | SVcustos SV(16,4) a SV(49,7) + par | [SVcustos-dataset](https://github.com/juantoniolloretegea/SVcustos-dataset) |
 | **7** | **SVperitus–IMMUNO-1 (este repositorio)** | **SVperitus-dataset** |
-| 8 | Compilador SVcustos + SVperitus + Célula meta SV(9,3)-IA | — |
+| 8 | Compilador SVcustos + SVperitus + Célula meta SV(9,3)-IA | **SVperitus-dataset** |
 
 
 ---
@@ -320,4 +337,4 @@ Si desea citar este repositorio en un trabajo académico, puede usar un esquema 
 ORCID: [0000-0002-6634-3351](https://orcid.org/0000-0002-6634-3351)
 
 Serie documental: «De SVcustos, el marco (framework) de intrusión, hasta SVperitus: agentes especializados»
-ISSN 2695-641X · CC BY-NC-ND 4.0
+ISSN 2695-6411 · CC BY-NC-ND 4.0
