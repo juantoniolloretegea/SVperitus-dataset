@@ -1,21 +1,21 @@
 # SVperitus — IMMUNO-1 Kotlin Client
 
-> **Estado:** cliente Kotlin/JS inicial ya publicado en GitHub Pages.  
-> Este subdirectorio contiene la primera implementación visible de IMMUNO-1 como **capa de interfaz**, organizada alrededor del motor Rust/WASM ya existente.
+> **Estado:** integración mínima real Kotlin → Rust/WASM implementada y publicada en GitHub Pages.  
+> Cumple los criterios Watson F.1–F.5 y H.1–H.6.
 
 ---
 
 ## Qué es
 
-`imm1_client/` es el primer cliente Kotlin de SVperitus para IMMUNO-1.
+`imm1_client/` es el cliente Kotlin de SVperitus para IMMUNO-1.
 
-Su objetivo es ofrecer una **interfaz de uso clara y estructurada** que permita:
+Demuestra **integración real** contra el motor Rust/WASM:
 
-- introducir o preparar un caso,
-- transformarlo en un caso evaluable,
-- invocar el motor normativo,
-- recibir la salida evaluada,
-- y mostrar el resultado de forma visual y auditable.
+- carga el módulo WASM directamente (sin iframe),
+- construye un caso IMMUNO-1 fijo de demostración,
+- invoca `evaluate_immuno1()` del motor Rust real,
+- muestra el resultado: clase global, conteos n0/n1/nU, vector P01–P25, JSON bruto,
+- expone `engine_info()` para verificar que el motor responde.
 
 ---
 
@@ -41,9 +41,9 @@ Kotlin sólo **consume** el motor ya existente.
 
 ---
 
-## Motor que consumirá
+## Motor que consume
 
-Este cliente está pensado para consumir, de forma preferente, el **motor Rust/WASM** ya disponible en el proyecto.
+El cliente carga directamente el motor Rust/WASM disponible en `../../rust/wasm-demo/pkg/svperitus_wasm.js`.
 
 ### Referencias directas
 
@@ -61,78 +61,86 @@ Este cliente está pensado para consumir, de forma preferente, el **motor Rust/W
 
 ---
 
-## Objetivo funcional mínimo
+## Criterios Watson cumplidos
 
-La versión funcional de este cliente debe permitir:
+### Implementación (F.1–F.5)
 
-1. introducir o preparar valores de entrada,
-2. construir el caso estructurado,
-3. invocar el motor Rust/WASM,
-4. recibir:
-   - vector P01–P25,
-   - conteos `n0 / n1 / nU`,
-   - clase global `APTO / INDETERMINADO / NO_APTO`,
-   - explicación del resultado,
-5. representar o integrar el polígono polar.
+- **F.1** Carga el módulo WASM real, inicializa, expone en `window.__wasm`
+- **F.2** Main.kt espera `engine-ready`, lee `window.__wasm`, habilita botones
+- **F.3** Caso fijo de demostración construido como JSON válido IMMUNO-1
+- **F.4** Llama `evaluate_immuno1(json)` del WASM real, parsea y muestra resultado
+- **F.5** Botones "Ejecutar caso demo" y "Mostrar engine_info()"
+
+### Aceptación (H.1–H.6)
+
+1. Cliente Kotlin carga y lo declara visualmente
+2. Motor WASM real se inicializa desde página Kotlin
+3. Kotlin llama realmente a `evaluate_immuno1()`
+4. Respuesta visible procede del motor Rust/WASM real (no mock)
+5. No se usa iframe como sustituto de integración
+6. Documentación alineada con estado real
 
 ---
 
-## Arquitectura lógica prevista
+## Caso demo
+
+El caso fijo de demostración es un paciente con:
+
+- Buen recuento (ANC 2000, linfocitos 1200, IgG 800)
+- Bazo y barreras intactos, remisión, sin quimio activa
+- Vacunación parcial (gripe al día, COVID ausente, neumococo sin dato)
+- Profilaxis mixta (PJP y antibacteriana adecuadas, antifúngica inadecuada)
+- Resultado esperado: **INDETERMINADO** (conteos mixtos n0/n1/nU > 0)
+
+Esto demuestra que la evaluación es real: un caso todo-0 o todo-1 sería trivial.
+
+---
+
+## Arquitectura lógica
 
 ```text
 UI Kotlin
    ↓
-Formulario o caso preparado
+Caso fijo de demostración (JSON)
    ↓
-Caso estructurado
+window.__wasm.evaluate_immuno1(json)
    ↓
-Motor Rust/WASM
+Resultado JSON del motor Rust/WASM
    ↓
-Resultado evaluado
-   ↓
-Salida visual + polígono
+Presentación visual (clase, conteos, vector, JSON bruto)
 ```
 
 ---
 
-## Alcance actual
+## Siguiente hito
 
-En este momento, `imm1_client/` ya dispone de:
-
-- estructura mínima de proyecto Kotlin/JS,
-- compilación y despliegue mediante GitHub Actions,
-- ruta pública en GitHub Pages,
-- y una primera verificación visible de que Kotlin está activo como cliente.
-
-Todavía **no constituye una integración cerrada y completa del ciclo Kotlin → Rust/WASM con formulario clínico propio**, pero ya no está en fase meramente reservada o vacía.
+El siguiente paso es evolucionar el cliente hacia una **interfaz propia con formulario P01–P25**, de modo que el usuario pueda modificar los 25 parámetros y ver el resultado en tiempo real, incluyendo polígono polar.
 
 ---
 
-## Estado actual y siguiente hito
-
-El siguiente hito ya no es “crear la estructura mínima”, sino **cerrar una comprobación explícita y visible del ciclo Kotlin → Rust/WASM**, de modo que el usuario pueda verificar que:
-
-1. Kotlin recoge o prepara un caso,
-2. Kotlin invoca el motor Rust/WASM real,
-3. Rust devuelve la evaluación,
-4. y Kotlin muestra exactamente esa respuesta.
-
-Después de esa comprobación, el paso siguiente será evolucionar el cliente hacia una interfaz propia más completa, con formulario, salida estructurada y visualización integrada.
-
----
-
-## Estructura mínima actual
+## Estructura
 
 ```text
 imm1_client/
-├── README.md
-├── build.gradle.kts
+├── README.md               ← Este archivo
+├── build.gradle.kts        ← Kotlin/JS (IR)
 ├── settings.gradle.kts
 ├── gradle.properties
-├── index.html
+├── index.html              ← Página publicada con puente WASM real
 └── src/
-    └── ...
+    ├── README.md
+    └── main/
+        ├── kotlin/Main.kt          ← Bridge Kotlin → WASM
+        └── resources/index.html     ← Template para build Gradle
 ```
+
+---
+
+## Fórmula pública
+
+**SÍ** se puede decir: "El cliente Kotlin inicial demuestra integración mínima real contra el motor Rust/WASM."
+
+**NO** se puede decir: que el cliente está completo, que `imm1_normative` es operativo, ni que la arquitectura final está cerrada.
 
 ---
 
