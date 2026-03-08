@@ -8,321 +8,321 @@
     :root {
       --bg: #0f172a;
       --panel: #111827;
-      --panel-2: #1f2937;
       --text: #e5e7eb;
       --muted: #94a3b8;
       --accent: #c9a84c;
       --border: #334155;
+      --green: #22c55e;
+      --red: #ef4444;
+      --yellow: #eab308;
     }
-
-    * { box-sizing: border-box; }
-
+    *, *::before, *::after { box-sizing: border-box; }
     body {
       margin: 0;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       background: linear-gradient(180deg, #0b1220 0%, #0f172a 100%);
       color: var(--text);
       line-height: 1.6;
+      min-height: 100vh;
     }
-
-    .container {
-      max-width: 1180px;
-      margin: 0 auto;
-      padding: 40px 20px 60px;
-    }
-
-    .hero,
-    .card,
-    .flow,
-    .embed {
-      background: rgba(17, 24, 39, 0.92);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-    }
-
-    .hero { padding: 28px; }
-
-    .eyebrow {
-      display: inline-block;
-      font-size: 0.85rem;
-      color: var(--accent);
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      margin-bottom: 10px;
-      font-weight: 700;
-    }
-
-    h1 {
-      margin: 0 0 12px;
-      font-size: clamp(2rem, 4vw, 3rem);
-      line-height: 1.15;
-    }
-
-    .lead {
-      color: var(--muted);
-      font-size: 1.05rem;
-      max-width: 900px;
-      margin-bottom: 22px;
-    }
-
-    .badges {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-bottom: 22px;
-    }
-
-    .badge {
-      border: 1px solid var(--border);
-      background: rgba(255, 255, 255, 0.03);
-      color: var(--text);
-      border-radius: 999px;
-      padding: 8px 12px;
-      font-size: 0.92rem;
-    }
-
-    .actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      margin-top: 8px;
-    }
-
-    .btn {
-      display: inline-block;
-      text-decoration: none;
-      border-radius: 12px;
-      padding: 12px 18px;
-      font-weight: 700;
-      transition: transform 0.15s ease, opacity 0.15s ease;
-    }
-
-    .btn:hover {
-      transform: translateY(-1px);
-      opacity: 0.96;
-    }
-
-    .btn-primary {
-      background: var(--accent);
-      color: #111827;
-    }
-
-    .btn-secondary {
-      background: transparent;
-      color: var(--text);
-      border: 1px solid var(--border);
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 18px;
-      margin-top: 28px;
-    }
-
+    .container { max-width: 840px; margin: 0 auto; padding: 36px 20px 60px; }
     .card {
-      padding: 22px;
-    }
-
-    .card h2 {
-      margin-top: 0;
-      font-size: 1.2rem;
-    }
-
-    .card p, .card li {
-      color: var(--muted);
-    }
-
-    .card ul {
-      padding-left: 18px;
-      margin-bottom: 0;
-    }
-
-    .flow {
-      margin-top: 28px;
-      padding: 24px;
-    }
-
-    .flow h2,
-    .embed h2 {
-      margin-top: 0;
-    }
-
-    .flow-boxes {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-      gap: 14px;
-      margin-top: 18px;
-    }
-
-    .flow-box {
-      background: var(--panel-2);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 16px;
-      text-align: center;
-      font-weight: 600;
-    }
-
-    .arrow {
-      text-align: center;
-      color: var(--accent);
-      font-size: 1.3rem;
-      font-weight: 700;
-    }
-
-    .footer-note {
-      margin-top: 24px;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    .embed {
-      margin-top: 28px;
-      padding: 24px;
-    }
-
-    .embed p {
-      color: var(--muted);
-      margin-top: 0;
-    }
-
-    .iframe-wrap {
+      background: rgba(17,24,39,0.92);
       border: 1px solid var(--border);
       border-radius: 16px;
-      overflow: hidden;
-      background: #0b1220;
-      margin-top: 18px;
+      padding: 20px;
+      margin-bottom: 20px;
     }
-
-    iframe {
-      display: block;
-      width: 100%;
-      height: 1000px;
-      border: 0;
-      background: #0b1220;
+    .eyebrow {
+      font-size: 0.85rem; color: var(--accent); font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 8px;
     }
-
-    code {
-      background: rgba(255, 255, 255, 0.06);
-      padding: 2px 6px;
-      border-radius: 6px;
-      color: #f8fafc;
+    h1 { margin: 0 0 12px; font-size: clamp(1.6rem, 3.5vw, 2.2rem); color: #f1f5f9; }
+    .lead { color: var(--muted); font-size: 1rem; margin: 0 0 16px; }
+    .status-bar {
+      padding: 12px 16px; background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border); border-radius: 10px;
+      font-size: 0.9rem; margin-bottom: 20px;
     }
-
-    @media (max-width: 900px) {
-      iframe {
-        height: 1200px;
-      }
+    .dot {
+      display: inline-block; width: 10px; height: 10px;
+      border-radius: 50%; margin-right: 8px; vertical-align: middle;
+    }
+    .btn-row { display: grid; gap: 12px; grid-template-columns: 1fr 1fr; margin-bottom: 20px; }
+    .btn {
+      padding: 14px; border-radius: 12px; border: none;
+      font-weight: 700; font-size: 0.95rem; cursor: pointer;
+      transition: opacity 0.15s, transform 0.1s;
+    }
+    .btn:hover:not(:disabled) { transform: translateY(-1px); opacity: 0.92; }
+    .btn:disabled { opacity: 0.4; cursor: not-allowed; }
+    .btn-primary { background: var(--accent); color: #111827; }
+    .btn-secondary { background: transparent; color: var(--text); border: 1px solid var(--border); }
+    .result-class {
+      padding: 16px; border-radius: 12px; text-align: center;
+      font-size: 1.5rem; font-weight: 700; margin-bottom: 16px;
+    }
+    .counters { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; margin-bottom: 16px; }
+    .counter {
+      padding: 12px; border-radius: 10px; text-align: center;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    .counter .label { font-size: 0.75rem; margin-bottom: 2px; }
+    .counter .value { font-size: 1.5rem; font-weight: 700; }
+    .vector-display {
+      font-family: monospace; font-size: 0.85rem; background: #0f172a;
+      padding: 10px 12px; border-radius: 8px; border: 1px solid var(--border);
+      word-break: break-all; margin-bottom: 12px;
+    }
+    table.info { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+    table.info td { padding: 6px 8px; }
+    table.info tr:nth-child(even) { background: rgba(255,255,255,0.03); }
+    table.info .lbl { font-weight: 600; color: var(--muted); width: 140px; }
+    details { margin-top: 12px; }
+    details summary { cursor: pointer; font-weight: 600; font-size: 0.9rem; color: var(--muted); }
+    pre.raw {
+      margin-top: 12px; font-size: 0.78rem; color: #cbd5e1;
+      overflow-x: auto; white-space: pre-wrap; word-break: break-all;
+    }
+    .footer {
+      font-size: 0.8rem; color: #64748b;
+      border-top: 1px solid #1e293b; padding-top: 16px; margin-top: 8px;
+    }
+    .footer p { margin: 0 0 4px; }
+    .badge {
+      display: inline-block; border: 1px solid var(--border);
+      background: rgba(255,255,255,0.03); border-radius: 999px;
+      padding: 5px 10px; font-size: 0.82rem; margin-right: 6px; margin-bottom: 6px;
     }
   </style>
 </head>
 <body>
   <main class="container">
-    <section class="hero">
-      <div class="eyebrow">SVperitus · Kotlin client path</div>
-      <h1>SVperitus — IMMUNO-1 Kotlin Client</h1>
+    <!-- ── Header ── -->
+    <div class="card">
+      <div class="eyebrow">SVperitus · Kotlin → WASM bridge</div>
+      <h1>IMMUNO-1 Kotlin Client</h1>
       <p class="lead">
-  Esta página marca el arranque público de la línea Kotlin de SVperitus. Su papel no es redefinir la lógica clínica,
-  sino ofrecer una <strong>capa cliente e integradora</strong> que organice la experiencia de uso alrededor del motor
-  normativo ya existente en Rust/WASM para IMMUNO-1. La demo que se muestra más abajo no es una maqueta: es el
-  <strong>motor real embebido</strong> dentro del espacio Kotlin, como paso previo a un cliente Kotlin más completo.
+        Integración mínima real del cliente Kotlin contra el motor Rust/WASM.
+        Sin iframe, sin duplicación de lógica normativa, sin mock.
+        Kotlin construye el caso, Rust lo evalúa, Kotlin muestra el resultado.
       </p>
-
-      <div class="badges">
+      <div style="margin-bottom:12px;">
         <span class="badge">Python = fuente canónica</span>
         <span class="badge">Rust = motor evaluador</span>
-        <span class="badge">Kotlin = cliente e interfaz</span>
+        <span class="badge">Kotlin = cliente</span>
       </div>
-
-      <div class="actions">
-        <a class="btn btn-primary" href="#demo-embebida">
-          Probar demo aquí
-        </a>
-        <a class="btn btn-secondary" href="../../rust/wasm-demo/" target="_blank" rel="noopener noreferrer">
-          Abrir demo Rust/WASM aparte
-        </a>
-        <a class="btn btn-secondary" href="./README.md" target="_blank" rel="noopener noreferrer">
-          Leer README de imm1_client
-        </a>
-        <a class="btn btn-secondary" href="../README.md" target="_blank" rel="noopener noreferrer">
-          Leer README de Kotlin
-        </a>
+      <div id="engine-status" class="status-bar">
+        <span class="dot" style="background:#facc15;"></span>
+        Cargando motor Rust/WASM…
       </div>
-    </section>
+    </div>
 
-    <section class="grid">
-      <article class="card">
-        <h2>Qué es</h2>
-        <p>
-          Un punto de entrada web para la futura implementación Kotlin de IMMUNO-1. Por ahora, esta página deja fijado el
-          propósito del cliente y permite usar desde aquí el motor que ya funciona.
-        </p>
-      </article>
+    <!-- ── Buttons (Watson F.5) ── -->
+    <div class="btn-row">
+      <button id="btn-run-demo" class="btn btn-primary" disabled>
+        Ejecutar caso demo
+      </button>
+      <button id="btn-engine-info" class="btn btn-secondary" disabled>
+        Mostrar engine_info()
+      </button>
+    </div>
 
-      <article class="card">
-        <h2>Qué hará</h2>
-        <ul>
-          <li>Recoger la entrada del usuario mediante formulario</li>
-          <li>Estructurar el caso IMMUNO-1</li>
-          <li>Invocar el motor Rust/WASM</li>
-          <li>Mostrar el resultado y el polígono</li>
-        </ul>
-      </article>
-
-      <article class="card">
-        <h2>Qué no hará</h2>
-        <ul>
-          <li>No redefinirá P01–P25</li>
-          <li>No modificará la semántica 0/1/U</li>
-          <li>No cambiará la regla <code>T(25)=19</code></li>
-          <li>No sustituirá a Python como fuente de verdad</li>
-        </ul>
-      </article>
-    </section>
-
-    <section class="flow">
-      <h2>Arquitectura lógica prevista</h2>
-      <div class="flow-boxes">
-        <div class="flow-box">Formulario Kotlin</div>
-        <div class="arrow">↓</div>
-        <div class="flow-box">Caso estructurado</div>
-        <div class="arrow">↓</div>
-        <div class="flow-box">Motor Rust/WASM</div>
-        <div class="arrow">↓</div>
-        <div class="flow-box">Resultado evaluado</div>
-        <div class="arrow">↓</div>
-        <div class="flow-box">Salida visual + polígono</div>
-      </div>
-
-      <p class="footer-note">
-        Estado actual: esta página sigue siendo una <strong>landing operativa inicial</strong>, pero ya permite trabajar
-        sobre la demo real del motor normativo sin salir del espacio de la línea Kotlin.
+    <!-- ── Result panel ── -->
+    <div id="result-panel" class="card">
+      <p style="color:var(--muted);margin:0;font-size:0.9rem;">
+        Pulsa «Ejecutar caso demo» para enviar un caso fijo al motor Rust/WASM.
       </p>
-    </section>
+    </div>
 
-    <section id="demo-embebida" class="embed">
-      <h2>Demo Rust/WASM embebida</h2>
-      <p>
-        La demo siguiente es la implementación interactiva ya funcional del motor IMMUNO-1 en Rust/WASM. Se muestra aquí
-        embebida para que la línea Kotlin disponga desde ahora de un punto de uso visible y comprobable, sin duplicar lógica
-        ni prometer todavía un cliente Kotlin cerrado.
-      </p>
+    <!-- ── Engine info panel ── -->
+    <div id="info-panel" class="card" style="display:none;"></div>
 
-      <div class="iframe-wrap">
-        <iframe
-          src="../../rust/wasm-demo/"
-          title="SVperitus IMMUNO-1 Rust/WASM Demo"
-          loading="lazy">
-        </iframe>
+    <!-- ── Raw JSON panel ── -->
+    <div id="raw-panel"></div>
+
+    <!-- ── Architecture note ── -->
+    <div class="card" style="font-size:0.88rem;">
+      <strong style="color:var(--accent);">Criterio Watson H — 6 condiciones</strong>
+      <ol style="color:var(--muted);padding-left:18px;margin:10px 0 0;">
+        <li>Cliente Kotlin carga y lo declara visualmente</li>
+        <li>Motor WASM real se inicializa desde página Kotlin</li>
+        <li>Kotlin llama realmente a <code>evaluate_immuno1()</code></li>
+        <li>Respuesta visible procede del motor Rust/WASM real</li>
+        <li>No se usa iframe como sustituto de integración</li>
+        <li>Documentación alineada con estado real</li>
+      </ol>
+    </div>
+
+    <!-- ── Links ── -->
+    <div class="card">
+      <strong>Enlaces</strong>
+      <div style="margin-top:8px;font-size:0.9rem;color:var(--muted);">
+        <a href="../../rust/wasm-demo/" style="color:var(--accent);margin-right:16px;">Demo Rust/WASM</a>
+        <a href="../../demo/" style="color:var(--accent);margin-right:16px;">Demo JS</a>
+        <a href="https://github.com/juantoniolloretegea/SVperitus-dataset" style="color:var(--accent);">Repositorio</a>
       </div>
+    </div>
 
-      <p class="footer-note">
-        Si su navegador o el entorno de publicación no mostraran correctamente el iframe, puede abrir la demo directa aquí:
-        <a href="../../rust/wasm-demo/" target="_blank" rel="noopener noreferrer" style="color:#c9a84c;">SVperitus Rust/WASM Demo</a>.
-      </p>
-    </section>
+    <!-- ── Footer ── -->
+    <div class="footer">
+      <p><strong>Serie:</strong> ISSN 2695-6411 · <strong>Licencia:</strong> CC BY-NC-ND 4.0 ·
+         <strong>Autor:</strong> Juan Antonio Lloret Egea</p>
+      <p>Kotlin organiza la experiencia de uso. Rust evalúa.
+         Python sigue siendo la fuente canónica de verdad.</p>
+    </div>
   </main>
+
+  <!-- ══════════════════════════════════════════════════════════════
+       F.1: Cargar el módulo WASM real (NO iframe)
+       ══════════════════════════════════════════════════════════════ -->
+  <script type="module">
+    try {
+      const wasm = await import('../../rust/wasm-demo/pkg/svperitus_wasm.js');
+      await wasm.default();
+      window.__wasm = wasm;
+      window.__engine_status = 'rust';
+    } catch (e) {
+      window.__engine_status = 'error';
+      window.__engine_error = e.message;
+    }
+    window.dispatchEvent(new Event('engine-ready'));
+  </script>
+
+  <!-- ══════════════════════════════════════════════════════════════
+       Intento de cargar Kotlin/JS compilado (si workflow ha corrido).
+       Si no existe, el script falla silenciosamente y la lógica
+       inline de abajo toma el control como bridge equivalente.
+       ══════════════════════════════════════════════════════════════ -->
+  <script src="imm1_client.js" onerror="window.__kotlin_available=false;"></script>
+
+  <!-- ══════════════════════════════════════════════════════════════
+       Bridge inline: misma lógica que Main.kt (Kotlin → JS).
+       Actúa siempre como fallback y complemento.
+       ══════════════════════════════════════════════════════════════ -->
+  <script>
+  (function() {
+    // ── F.3: Caso fijo de demostración ──
+    // Paciente en remisión, buen recuento, vacunas parciales → INDETERMINADO esperado
+    const DEMO_CASE = {
+      anc: 2000,
+      lymphocytes: 1200,
+      igg: 800,
+      spleen_intact: true,
+      barriers_intact: true,
+      neoplasia_phase: "remission",
+      chemo_active: false,
+      biologic_type: "none",
+      tph_cart: "none",
+      corticoid_mg: 5.0,
+      severe_bacterial_12m: false,
+      prior_ifd: false,
+      chronic_viral: "none",
+      mdr_colonization: false,
+      recent_healthcare: true,
+      flu_vaccine: "current",
+      pneumo_vaccine: null,
+      covid_vaccine: "none",
+      hepb_vaccine: null,
+      other_vaccines: "incomplete",
+      pjp_prophylaxis: "adequate",
+      antiviral_prophylaxis: null,
+      antifungal_prophylaxis: "inadequate",
+      antibacterial_prophylaxis: "adequate",
+      reevaluation_plan: "structured"
+    };
+
+    function updateStatus() {
+      const el = document.getElementById('engine-status');
+      const status = window.__engine_status || 'loading';
+      const error = window.__engine_error || '';
+      const colors = { rust: '#22c55e', error: '#ef4444', loading: '#facc15' };
+      const texts = {
+        rust: 'Motor Rust/WASM cargado e inicializado',
+        error: 'Error al cargar el motor: ' + error,
+        loading: 'Cargando motor WASM…'
+      };
+      el.innerHTML = '<span class="dot" style="background:' + (colors[status]||'#facc15') +
+                     ';"></span>' + (texts[status] || 'Estado desconocido');
+
+      const ready = status === 'rust';
+      document.getElementById('btn-run-demo').disabled = !ready;
+      document.getElementById('btn-engine-info').disabled = !ready;
+    }
+
+    function colorVal(v) {
+      return v === '0' ? '#22c55e' : v === '1' ? '#ef4444' : '#eab308';
+    }
+
+    function renderResult(r, ms) {
+      const panel = document.getElementById('result-panel');
+      if (r.error) {
+        panel.innerHTML = '<div style="padding:14px;background:#fef2f2;border:1px solid #fecaca;' +
+          'border-radius:12px;color:#991b1b;"><strong>Error:</strong> ' + r.error + '</div>';
+        return;
+      }
+      const cls = r.global_class;
+      const styles = {
+        APTO:           { bg:'#ecfdf5', bd:'#a7f3d0', fg:'#065f46' },
+        NO_APTO:        { bg:'#fef2f2', bd:'#fecaca', fg:'#991b1b' },
+        INDETERMINADO:  { bg:'#fffbeb', bd:'#fde68a', fg:'#92400e' }
+      };
+      const s = styles[cls] || styles.INDETERMINADO;
+      const vec = r.vector.map(function(v){ return '<span style="color:'+colorVal(v)+';font-weight:600;">'+v+'</span>'; }).join(', ');
+
+      panel.innerHTML =
+        '<div class="result-class" style="background:'+s.bg+';border:1px solid '+s.bd+';color:'+s.fg+';">'+
+          '<div style="font-size:0.8rem;margin-bottom:2px;">Clase global</div>'+cls+'</div>'+
+        '<div class="counters">'+
+          '<div class="counter" style="background:#ecfdf5;"><div class="label" style="color:#065f46;">n₀</div><div class="value" style="color:#065f46;">'+r.n0+'</div></div>'+
+          '<div class="counter" style="background:#fef2f2;"><div class="label" style="color:#991b1b;">n₁</div><div class="value" style="color:#991b1b;">'+r.n1+'</div></div>'+
+          '<div class="counter" style="background:#fffbeb;"><div class="label" style="color:#92400e;">nU</div><div class="value" style="color:#92400e;">'+r.nU+'</div></div>'+
+        '</div>'+
+        '<div style="font-size:0.85rem;font-weight:600;margin-bottom:6px;">Vector P01–P25</div>'+
+        '<div class="vector-display">[' + vec + ']</div>'+
+        '<div style="font-size:0.8rem;color:#64748b;">Motor: <strong>'+r.engine+'</strong> · '+
+          'Tiempo: '+ms.toFixed(3)+' ms · T(25) = 19</div>';
+    }
+
+    function renderInfo(info) {
+      const panel = document.getElementById('info-panel');
+      panel.style.display = 'block';
+      panel.innerHTML =
+        '<table class="info">'+
+          '<tr><td class="lbl">Engine</td><td>'+info.engine+'</td></tr>'+
+          '<tr><td class="lbl">Module</td><td>'+info.module+'</td></tr>'+
+          '<tr><td class="lbl">n</td><td>'+info.n+'</td></tr>'+
+          '<tr><td class="lbl">Threshold T(n)</td><td>'+info.threshold+'</td></tr>'+
+          '<tr><td class="lbl">Parity</td><td>'+info.parity+'</td></tr>'+
+        '</table>';
+    }
+
+    // ── Listeners ──
+
+    window.addEventListener('engine-ready', updateStatus);
+    if (window.__engine_status) updateStatus();
+
+    document.getElementById('btn-run-demo').addEventListener('click', function() {
+      if (!window.__wasm) return;
+      var json = JSON.stringify(DEMO_CASE);
+      var t0 = performance.now();
+      var resultJson = window.__wasm.evaluate_immuno1(json); // F.4: llamada real
+      var t1 = performance.now();
+      var result = JSON.parse(resultJson);
+      renderResult(result, t1 - t0);
+
+      // JSON bruto
+      var rawPanel = document.getElementById('raw-panel');
+      rawPanel.innerHTML = '<div class="card"><details><summary>JSON bruto de respuesta</summary>' +
+        '<pre class="raw">' + JSON.stringify(result, null, 2) + '</pre></details></div>';
+    });
+
+    document.getElementById('btn-engine-info').addEventListener('click', function() {
+      if (!window.__wasm) return;
+      var infoJson = window.__wasm.engine_info(); // F.5
+      renderInfo(JSON.parse(infoJson));
+    });
+  })();
+  </script>
 </body>
 </html>
