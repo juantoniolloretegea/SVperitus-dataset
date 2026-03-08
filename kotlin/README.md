@@ -1,6 +1,6 @@
 # SVperitus — Línea Kotlin
 
-> **Estado:** línea Kotlin activa, con un primer cliente Kotlin/JS ya publicado en GitHub Pages.  
+> **Estado:** cliente Kotlin con integración mínima real contra el motor Rust/WASM, publicado en GitHub Pages.  
 > Kotlin se mantiene como **capa cliente e integradora**, no como nueva fuente de verdad normativa.  
 > El cliente concreto de IMMUNO-1 vive en `imm1_client/`.
 
@@ -33,16 +33,17 @@ Si Kotlin discrepa de Python o Rust, el problema debe entenderse como un problem
 
 ## Estado actual
 
-La línea Kotlin ya no está en fase meramente prevista o reservada.
-
-A fecha actual, dispone de:
+La línea Kotlin dispone de:
 
 - un primer cliente `imm1_client/`,
+- integración real contra el motor Rust/WASM (sin iframe, sin mock),
 - una ruta pública en GitHub Pages,
 - compilación y despliegue mediante GitHub Actions,
-- y una primera base visible para demostrar el papel de Kotlin como cliente.
+- y cumplimiento de los criterios Watson F.1–F.5 y H.1–H.6.
 
-Todavía no constituye una familia completa de clientes Kotlin ni una integración final cerrada en todos los frentes, pero sí un punto de partida funcional y público.
+El cliente carga el módulo WASM directamente, construye un caso IMMUNO-1 de demostración, invoca `evaluate_immuno1()` del motor Rust real y muestra el resultado con `engine_info()`, vector P01–P25, conteos n0/n1/nU, clase global y JSON bruto.
+
+Todavía **no constituye** una familia completa de clientes Kotlin ni una integración final cerrada con formulario clínico propio, pero sí un puente real demostrable y verificable.
 
 ---
 
@@ -50,12 +51,11 @@ Todavía no constituye una familia completa de clientes Kotlin ni una integraci�
 
 ### `imm1_client/`
 
-Contiene el primer cliente Kotlin/JS asociado a IMMUNO-1.
+Contiene el cliente Kotlin/JS asociado a IMMUNO-1 con puente real al motor Rust/WASM.
 
-Su papel es servir como interfaz visible alrededor del motor Rust/WASM ya existente, manteniendo la separación de funciones:
-
-- Kotlin prepara y muestra,
-- Rust evalúa,
+- Kotlin construye el caso,
+- Rust lo evalúa,
+- Kotlin muestra el resultado,
 - Python sigue siendo la fuente canónica de verdad.
 
 **README operativo del cliente:**  
@@ -71,13 +71,13 @@ https://juantoniolloretegea.github.io/SVperitus-dataset/kotlin/imm1_client/
 ```text
 Usuario
    ↓
-Cliente Kotlin
+Cliente Kotlin (construye caso JSON)
    ↓
-Motor Rust/WASM
+Motor Rust/WASM (evaluate_immuno1)
    ↓
-Resultado evaluado
+Resultado evaluado (JSON)
    ↓
-Presentación visual
+Presentación visual (Kotlin)
 ```
 
 ---
