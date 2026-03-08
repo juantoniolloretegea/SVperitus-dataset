@@ -4,9 +4,40 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SVperitus — IMMUNO-1 Kotlin Client</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+      background: linear-gradient(180deg, #0b1220 0%, #0f172a 100%);
+      color: #e5e7eb;
+      min-height: 100vh;
+    }
+  </style>
 </head>
 <body>
-  <div id="root"></div>
+  <div id="root">
+    <div style="display:flex;align-items:center;justify-content:center;min-height:100vh;">
+      <p style="color:#94a3b8;">Cargando motor WASM y cliente Kotlin…</p>
+    </div>
+  </div>
+
+  <!-- F.1: Cargar el módulo WASM real desde rust/wasm-demo/pkg/ -->
+  <script type="module">
+    try {
+      // Ruta relativa desde kotlin/imm1_client/ hasta rust/wasm-demo/pkg/
+      const wasm = await import('../../rust/wasm-demo/pkg/svperitus_wasm.js');
+      await wasm.default();
+      window.__wasm = wasm;
+      window.__engine_status = 'rust';
+    } catch (e) {
+      window.__engine_status = 'error';
+      window.__engine_error = e.message;
+    }
+    window.dispatchEvent(new Event('engine-ready'));
+  </script>
+
+  <!-- Kotlin/JS compilado (generado por Gradle browserDistribution) -->
   <script src="imm1_client.js"></script>
 </body>
 </html>
