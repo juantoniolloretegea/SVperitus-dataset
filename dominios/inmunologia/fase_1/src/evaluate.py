@@ -12,7 +12,7 @@ Uso:
     python evaluate.py --model models/svperitus_imm1_resnet34_YYYYMMDD_HHMMSS.pth
 
 Autor: Juan Antonio Lloret Egea  |  ORCID: 0000-0002-6634-3351
-ISSN 2695-641X  |  CC BY-NC-ND 4.0
+ISSN 2695-6411  |  CC BY-NC-ND 4.0
 """
 
 import sys
