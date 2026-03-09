@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'rust/wasm/**'
+      - 'entornos/rust/wasm/**'
   workflow_dispatch:
 
 permissions:
@@ -26,14 +26,14 @@ jobs:
 
       - name: Build WASM
         run: |
-          cd rust/wasm
-          wasm-pack build --target web --out-dir ../wasm-demo/pkg --release
-          rm -f ../wasm-demo/pkg/.gitignore
-          rm -f ../wasm-demo/pkg/package.json
-          rm -f ../wasm-demo/pkg/*.d.ts
+          cd entornos/rust/wasm
+          wasm-pack build --target web --out-dir ../../../aplicaciones/demo_wasm/pkg --release
+          rm -f ../../../aplicaciones/demo_wasm/pkg/.gitignore
+          rm -f ../../../aplicaciones/demo_wasm/pkg/package.json
+          rm -f ../../../aplicaciones/demo_wasm/pkg/*.d.ts
 
       - name: Commit WASM build
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto-build: WASM engine compiled from rust/wasm/ source"
-          file_pattern: "rust/wasm-demo/pkg/*"
+          commit_message: "Auto-build: WASM engine compiled from entornos/rust/wasm/ source"
+          file_pattern: "aplicaciones/demo_wasm/pkg/*"

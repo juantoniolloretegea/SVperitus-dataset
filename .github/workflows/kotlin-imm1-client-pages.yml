@@ -4,7 +4,7 @@ on:
   push:
     branches: ["main"]
     paths:
-      - "kotlin/imm1_client/**"
+      - "entornos/kotlin/**"
       - ".github/workflows/kotlin-imm1-client-pages.yml"
   workflow_dispatch:
 
@@ -37,23 +37,23 @@ jobs:
           gradle-version: current
 
       - name: Build Kotlin/JS client
-        run: gradle -p kotlin/imm1_client browserDistribution
+        run: gradle -p entornos/kotlin browserDistribution
 
       - name: Prepare Pages artifact
         run: |
           mkdir -p _site
 
-          if [ -d "kotlin/imm1_client/build/dist/js/productionExecutable" ]; then
-            cp -R kotlin/imm1_client/build/dist/js/productionExecutable/. _site/
-          elif [ -d "kotlin/imm1_client/build/distributions" ]; then
-            cp -R kotlin/imm1_client/build/distributions/. _site/
-          elif [ -d "kotlin/imm1_client/build/processedResources/js/main" ]; then
-            cp -R kotlin/imm1_client/build/processedResources/js/main/. _site/
-            find kotlin/imm1_client/build -type f \( -name "*.js" -o -name "*.js.map" \) -exec cp {} _site/ \;
+          if [ -d "entornos/kotlin/build/dist/js/productionExecutable" ]; then
+            cp -R entornos/kotlin/build/dist/js/productionExecutable/. _site/
+          elif [ -d "entornos/kotlin/build/distributions" ]; then
+            cp -R entornos/kotlin/build/distributions/. _site/
+          elif [ -d "entornos/kotlin/build/processedResources/js/main" ]; then
+            cp -R entornos/kotlin/build/processedResources/js/main/. _site/
+            find entornos/kotlin/build -type f \( -name "*.js" -o -name "*.js.map" \) -exec cp {} _site/ \;
           else
             echo "No known Kotlin/JS output directory found."
             echo "Build tree:"
-            find kotlin/imm1_client/build -maxdepth 6 -print | sort
+            find entornos/kotlin/build -maxdepth 6 -print | sort
             exit 1
           fi
 
