@@ -14,9 +14,9 @@ El Sistema Vectorial SV evalúa situaciones complejas mediante una gramática te
 SVperitus-dataset/
 │
 ├── especificaciones/           Verdad normativa verificable
-│   ├── nucleo/                 Definiciones formales del SV
-│   ├── conformidad/            Tests de conformidad cruzada (C8)
-│   └── esquemas/               Contratos YAML, validación
+│   ├── nucleo/                 Invariantes formales del SV (42 verificaciones)
+│   ├── conformidad/            Tests de conformidad cruzada C8 (19 casos paridad)
+│   └── esquemas/               Contratos YAML (JSON Schema)
 │
 ├── dominios/                   Familias de dominio (Capa C)
 │   └── inmunologia/            Primer dominio disponible
@@ -24,7 +24,7 @@ SVperitus-dataset/
 │       ├── fase_2/             Célula IMMUNO-2: riesgo infeccioso en IS
 │       └── compositor/         Composición serie fase 1 → fase 2
 │
-├── comun/                      Núcleo formal compartido (Capa A)
+├── comun/                      Núcleo formal compartido (Capa A) + Γ(v)
 │
 ├── meta/                       Meta-célula SV(9,3)-IA (Capa A)
 │
@@ -35,7 +35,7 @@ SVperitus-dataset/
 │
 ├── aplicaciones/               Despliegue al usuario (Capa B)
 │   ├── demo_web/               Demo JavaScript
-│   ├── demo_wasm/              Demo Rust/WASM
+│   ├── demo_wasm/              Demo Rust/WASM + compositor interactivo
 │   ├── cliente_kotlin/         Formulario interactivo
 │   └── cuadernos/              Notebooks (futuro)
 │
@@ -50,8 +50,20 @@ SVperitus-dataset/
 
 ## Primer dominio disponible: inmunología clínica
 
-- **Fase 1 (IMMUNO-1):** evaluación de profilaxis antiinfecciosa en pacientes con inmunosupresión farmacológica. SV(25,5), T(25)=19. Motor normativo completo, port Rust, WASM, demo web.
-- **Fase 2 (IMMUNO-2):** evaluación de riesgo infeccioso en IS farmacológica no trasplante. SV(25,5), T(25)=19. Motor normativo, compositor serie, función de criticidad Γ(v), meta-célula SV(9,3)-IA.
+- **Fase 1 (IMMUNO-1):** evaluación de profilaxis antiinfecciosa en pacientes con inmunosupresión farmacológica. SV(25,5), T(25)=19. Motor normativo completo, port Rust, WASM, demo web. 108/108 tests de paridad. Publicado.
+- **Fase 2 (IMMUNO-2):** evaluación de riesgo infeccioso en IS farmacológica no trasplante. SV(25,5), T(25)=19. Motor normativo (93 tests), función de criticidad Γ(v) (52 tests), compositor serie (26 tests), meta-célula SV(9,3)-IA. Port Rust/WASM con 19/19 tests de paridad.
+- **Compositor serie:** IMMUNO-1 → P25 → IMMUNO-2. Demostración del mecanismo de composición de la gramática SV. Incluye autocrítica documentada.
+- **Función Γ(v) = m − μ:** clasifica la indeterminación en irreducible, fronteriza o resoluble. Matemática exacta, sin estadística.
+
+## Demos en vivo
+
+| Demo | Motor | URL |
+|---|---|---|
+| IMMUNO-1 interactivo | Rust/WASM | [Demo WASM](https://juantoniolloretegea.github.io/SVperitus-dataset/aplicaciones/demo_wasm/) |
+| Compositor IMMUNO-1 → IMMUNO-2 | Rust/WASM + JS (Γ) | [Compositor](https://juantoniolloretegea.github.io/SVperitus-dataset/aplicaciones/demo_wasm/compositor.html) |
+| Tests de paridad WASM vs Python | Rust/WASM | [19/19 tests](https://juantoniolloretegea.github.io/SVperitus-dataset/aplicaciones/demo_wasm/test_parity_wasm.html) |
+| IMMUNO-1 formulario Kotlin | JS + WASM | [Cliente Kotlin](https://juantoniolloretegea.github.io/SVperitus-dataset/aplicaciones/cliente_kotlin/) |
+| IMMUNO-1 demo JavaScript | JS puro | [Demo JS](https://juantoniolloretegea.github.io/SVperitus-dataset/aplicaciones/demo_web/) |
 
 ---
 
