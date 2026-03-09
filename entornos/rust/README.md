@@ -1,8 +1,6 @@
 # SVperitus — Motor Normativo en Rust
 
-> **Estado:** Paridad técnica del prototipo Playground validada (108/108 tests).
-> Lógica clínica CONGELADA — no se modifica hasta cotejo adversarial médico.
-> Próximo paso: migración a workspace Cargo real con crates separados.
+> **Estado:** IMMUNO-1 congelado (108/108 tests). IMMUNO-2, meta-célula y compositor portados y verificados (19/19 paridad WASM vs Python). Compilación a WASM automatizada por GitHub Actions.
 
 ---
 
@@ -10,140 +8,81 @@
 
 | Archivo / ruta | Descripción | Estado |
 |---|---|---|
-| `svperitus_playground_v03_final.rs` | Motor IMMUNO-1 completo en Rust (archivo único, verificable en [Rust Playground](https://play.rust-lang.org)) | 108/108 tests |
-| `wasm-demo/` | Demo web interactiva del motor Rust/WASM en navegador | Publicada |
-| `imm1_normative/` | Estructura Cargo placeholder (se reemplazará por workspace real) | Placeholder |
+| `wasm/src/lib.rs` | Motor unificado: IMMUNO-1 + IMMUNO-2 + meta-célula + compositor serie | Verificado |
+| `wasm/Cargo.toml` | Configuración del crate WASM (wasm-bindgen + serde) | Activo |
+| `svperitus_playground_v03_final.rs` | Motor IMMUNO-1 en archivo único (verificable en Rust Playground) | 108/108 tests |
+| `imm1_normative/` | Estructura Cargo placeholder (futuro workspace) | Placeholder |
 
-## Ejecutarlo ya en Rust (sin instalar nada)
+## Entry points WASM
 
-Este directorio ofrece ahora **dos formas de ejecutar Rust**, según lo que el lector quiera comprobar.
+El módulo `wasm/src/lib.rs` expone 6 funciones al navegador:
 
-### Opción A — Rust Playground (verificación técnica)
+| Función | Módulo | Entrada | Salida |
+|---|---|---|---|
+| `evaluate_immuno1(json)` | IMMUNO-1 | Caso clínico JSON | Vector + clase + traza |
+| `engine_info()` | IMMUNO-1 | — | Info del motor |
+| `evaluate_immuno2(json)` | IMMUNO-2 | Caso clínico JSON | Vector + clase + traza |
+| `meta_evaluate(json)` | Meta-célula | Estado del sistema JSON | Vector + clase + veto |
+| `compose(json1, json2, jsonM)` | Compositor | Tres JSON | Resultado combinado |
+| `engine_info_v2()` | Todos | — | Info completa |
 
-Use esta opción si quiere comprobar el motor normativo como archivo único y ver la salida de tests.
+`evaluate_immuno1()` y `engine_info()` son retrocompatibles: misma API, misma salida que antes del port de IMMUNO-2.
 
-**Pasos**
-1. Abra [Rust Playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2024)
-2. Copie el contenido de `svperitus_playground_v03_final.rs`
-3. Péguelo en el editor
-4. Pulse **Run**
-5. Verifique que la salida final muestre: `108/108 passed`
+## Verificación
 
-**Qué hace esta opción**
-- Ejecuta el motor IMMUNO-1 en Rust como archivo único
-- Comprueba la paridad técnica del prototipo frente a Python
-- Verifica invariantes, tests globales, tests de frontera, serde y trazabilidad
+### Paridad WASM vs Python (19 tests automáticos)
 
-**Cuándo usarla**
-- Si quiere auditar el motor
-- Si quiere ver los tests
-- Si quiere comprobar la fidelidad técnica del port en Rust
+Abrir en navegador: [Tests de paridad](https://juantoniolloretegea.github.io/SVperitus-dataset/aplicaciones/demo_wasm/test_parity_wasm.html)
 
----
+19 casos (13 IMMUNO-2 + 6 meta-célula) verificados contra los resultados del motor Python de referencia. Incluye casos de frontera para P08 (corticoides), P09 (duración IS), P10 (linfopenia + rituximab), P22 (IgG zona gris) y P25 (puente).
 
-### Opción B — Demo web Rust/WASM (uso interactivo)
-
-Use esta opción si quiere rellenar un formulario, obtener una clasificación global y ver el polígono polar directamente en el navegador.
-
-**Abrir demo**
-- [Demo Rust/WASM de IMMUNO-1](https://juantoniolloretegea.github.io/SVperitus-dataset/aplicaciones/demo_wasm/)
-
-**Qué hace esta opción**
-- Carga el motor Rust compilado a WebAssembly en el navegador
-- Recoge las respuestas del formulario
-- Las transforma en un caso evaluable de IMMUNO-1
-- Devuelve:
-  - vector ternario P01–P25,
-  - conteos `n0 / n1 / nU`,
-  - clase global `APTO / INDETERMINADO / NO_APTO`,
-  - representación visual en polígono polar
-
-**Cuándo usarla**
-- Si quiere ver Rust funcionando de forma interactiva
-- Si quiere probar la lógica con una interfaz visual
-- Si quiere enseñar el sistema sin entrar todavía en el código
-
-**Alcance**
-
-Esta demo es una interfaz pública del motor Rust en navegador.
-No sustituye al motor canónico Python ni equivale a una validación clínica.
-
-## Resultados de paridad (v0.3 final)
-
-```
-Global parity:     6/6 passed
-Boundary tests:  100/100 passed (all 25 parameters)
-Serde tests:       2/2 passed
-TOTAL:           108/108 passed
-```
-
-Verificado en Rust Playground (Stable 1.94.0, Edition 2024). Esta verificación corresponde al entorno Playground; la migración al workspace Cargo definitivo es el siguiente paso.
-
-## Qué demuestra
-
-- La semántica ternaria (0/1/U) ha mostrado equivalencia entre Python y Rust en los tests de paridad definidos
-- La regla T(25)=19 ha producido clasificaciones equivalentes entre Python y Rust en los tests ejecutados
-- Los 25 parámetros P01-P25 tienen tests de frontera en todos sus umbrales
-- La serialización JSON (`serde`) ha mostrado round-trip sin pérdida en los tests ejecutados
-- El orden P01-P25 está blindado con test explícito
-- Las constantes algebraicas y clínicas están centralizadas
-- `explain()` produce una traza auditable por parámetro
-
-## Cómo verificar
-
-### Verificación técnica en Playground
+### Playground IMMUNO-1 (108 tests)
 
 1. Abrir [Rust Playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2024)
-2. Seleccionar `stable`
-3. Copiar el contenido de `svperitus_playground_v03_final.rs`
-4. Pegar en el editor
-5. Pulsar **Run**
-6. Verificar la salida final: `108/108 passed`
+2. Copiar `svperitus_playground_v03_final.rs`
+3. Pulsar Run
+4. Verificar: `108/108 passed`
 
-### Ejecución interactiva en navegador
+## Demos en vivo
 
-1. Abrir la [demo Rust/WASM de IMMUNO-1](https://juantoniolloretegea.github.io/SVperitus-dataset/aplicaciones/demo_wasm/)
-2. Rellenar el formulario
-3. Revisar:
-   - clasificación global,
-   - conteos `n0 / n1 / nU`,
-   - vector P01–P25,
-   - polígono polar
-4. Confirmar que el comportamiento es coherente con la lógica esperada de IMMUNO-1
+| Demo | Descripción |
+|---|---|
+| [IMMUNO-1 interactivo](https://juantoniolloretegea.github.io/SVperitus-dataset/aplicaciones/demo_wasm/) | Formulario P01–P25, polígono polar, motor Rust/WASM |
+| [Compositor IMMUNO-1 → IMMUNO-2](https://juantoniolloretegea.github.io/SVperitus-dataset/aplicaciones/demo_wasm/compositor.html) | Dos células enlazadas + meta-célula + Γ(v) en JavaScript |
+| [Tests de paridad](https://juantoniolloretegea.github.io/SVperitus-dataset/aplicaciones/demo_wasm/test_parity_wasm.html) | 19/19 verificación automática WASM vs Python |
 
-## Principio rector (NO negociable)
+## Compilación
+
+La compilación de Rust a WASM está automatizada por GitHub Actions (`.github/workflows/build-wasm.yml`). Cada push a `entornos/rust/wasm/` dispara el build, que deposita los artefactos en `aplicaciones/demo_wasm/pkg/`.
+
+No es necesario compilar localmente.
+
+## Principio rector
 
 > Python es la fuente de verdad normativa. Rust es un port fiel.
-> El port Rust NUNCA introduce criterio clínico nuevo.
+> El port Rust no introduce criterio clínico nuevo.
 > Si Python y Rust discrepan, Python tiene razón.
 
 Cadena de autoridad:
 
-1. Documento formal
-2. `normative_engine.py` (Python)
+1. Documento formal publicado
+2. Motor normativo Python
 3. YAML de configuración
-4. Parity tests
-5. **Port Rust** (este directorio)
+4. Tests de paridad
+5. Port Rust (este directorio)
 
-## Arquitectura prevista (workspace Cargo)
+## Nota sobre Γ(v)
 
-Cuando se migre del Playground a Cargo real:
-
-```
-entornos/rust/
-├── Cargo.toml                    ← workspace
-├── svperitus-core/               ← invariantes compartidas (Ternary, classify, RADIUS_MAP)
-├── imm1-normative/               ← motor IMMUNO-1 (25 eval functions)
-├── imm2-normative/               ← motor IMMUNO-2 (futuro)
-└── parity-runner/                ← verificador de paridad JSON
-```
-
-`svperitus-core` es compartido por todos los módulos y sólo debe modificarse
-por decisión arquitectónica explícita.
+La función de criticidad Γ(v) no se porta a Rust. Se calcula en Python (referencia canónica) y en JavaScript (cliente web). Esta decisión responde al consenso de lenguajes: Γ se porta a compilado por criterio contextual (carga, latencia, despliegue), no por umbral fijo. Para n=25, la enumeración exacta se ejecuta en milisegundos en JavaScript.
 
 ## Referencia cruzada
 
 - Motor Python IMMUNO-1: `dominios/inmunologia/fase_1/src/normative_engine.py`
-- Configuración: `dominios/inmunologia/fase_1/config/imm_n25.yaml`
-- Documento 7: `documentos/serie/Documento7_IMMUNO-1.md`
-- Spec IMMUNO-2: `dominios/inmunologia/fase_2/IMMUNO2_P01-P25_spec.md`
+- Motor Python IMMUNO-2: `dominios/inmunologia/fase_2/src/normative_engine.py`
+- Compositor Python: `dominios/inmunologia/compositor/compose.py`
+- Meta-célula Python: `meta/meta_engine.py`
+- Γ(v) Python: `comun/gamma.py`
+- Configuración IMMUNO-1: `dominios/inmunologia/fase_1/config/imm_n25.yaml`
+- Configuración IMMUNO-2: `dominios/inmunologia/fase_2/config/imm2_n25.yaml`
+- Configuración meta-célula: `meta/config/meta_n9.yaml`
+- Tests de conformidad: `especificaciones/conformidad/`
