@@ -15,7 +15,7 @@ responsabilidad del módulo que llama a esta función; aquí
 solo se genera la imagen a partir del vector ternario.
 
 Autor: Juan Antonio Lloret Egea  |  ORCID: 0000-0002-6634-3351
-Serie: «De SVcustos a SVperitus»  |  ISSN 2695-641X  |  CC BY-NC-ND 4.0
+Serie: «De SVcustos a SVperitus»  |  ISSN 2695-6411  |  CC BY-NC-ND 4.0
 """
 
 import math
