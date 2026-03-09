@@ -1,0 +1,117 @@
+# ============================================================
+# SVperitus – Meta-célula SV(9,3)-IA  |  Configuración
+# ============================================================
+# Célula de integridad del sistema de IA.
+# No editable por el usuario. Determinada automáticamente.
+#
+# La meta-célula conserva la semántica de integridad heredada
+# de SVcustos: NORMAL = sistema íntegro, INTRUSIÓN = sistema
+# comprometido. Esta semántica es distinta de la semántica de
+# dominio (APTO/NO_APTO) porque la meta-célula no evalúa el
+# contenido clínico sino la validez del propio sistema.
+#
+#   NORMAL (meta)        → resultados de dominio válidos
+#   INTRUSIÓN (meta)     → resultados de dominio anulados
+#   INDETERMINADO (meta) → resultados bajo supervisión reforzada
+#
+# Autor: Juan Antonio Lloret Egea  |  ORCID: 0000-0002-6634-3351
+# ISSN 2695-6411  |  CC BY-NC-ND 4.0
+# ============================================================
+
+module: META-SV93-IA
+n: 9           # Tamaño de la célula: b=3, n=b²=9
+b: 3           # Lado del cuadrado de parámetros
+
+# ----------------------------------------------------------
+# Umbral de clasificación global
+#   T(n) = floor(7n/9) = floor(7*9/9) = floor(7) = 7
+# ----------------------------------------------------------
+threshold: 7
+
+# ----------------------------------------------------------
+# Clases de clasificación global (semántica de integridad)
+# ----------------------------------------------------------
+classes:
+  - INTRUSIÓN
+  - INDETERMINADO
+  - NORMAL
+
+class_to_idx:
+  INTRUSIÓN: 0
+  INDETERMINADO: 1
+  NORMAL: 2
+
+# ----------------------------------------------------------
+# Semántica ternaria (integridad del sistema, NO clínica)
+# ----------------------------------------------------------
+ternary_semantics:
+  "0": "Parámetro de integridad verificado y conforme"
+  "1": "Parámetro de integridad comprometido"
+  "U": "No verificable"
+
+# ----------------------------------------------------------
+# Convención visual del polígono polar
+# ----------------------------------------------------------
+polygon_visual:
+  radius_0: 1
+  radius_1: 2
+  radius_U: 3
+  background_color: "#0D1B2A"
+  polygon_color: "#F472B6"    # rosa — identidad de la meta-célula
+  vertex_colors:
+    "0": "#22C55E"
+    "1": "#EF4444"
+    "U": "#FACC15"
+  image_size: 224
+
+# ----------------------------------------------------------
+# Estructura de los 9 parámetros (3 capas × 3 parámetros)
+# ----------------------------------------------------------
+layers:
+  - id: 1
+    name: "Integridad del modelo"
+    parameters:
+      - id: M1
+        name: "Integridad de pesos"
+        field: weights_integrity
+        description: "Hash o firma de los pesos del modelo verificado"
+      - id: M2
+        name: "Procedencia del dataset"
+        field: dataset_provenance
+        description: "Trazabilidad y licencia del dataset verificadas"
+      - id: M3
+        name: "Control de accesos"
+        field: access_control
+        description: "Identidades y permisos gestionados correctamente"
+
+  - id: 2
+    name: "Seguridad operativa"
+    parameters:
+      - id: M4
+        name: "Tests adversariales"
+        field: adversarial_tests
+        description: "Robustez adversarial verificada"
+      - id: M5
+        name: "Telemetría"
+        field: telemetry_active
+        description: "Monitorización de inferencias activa"
+      - id: M6
+        name: "Aislamiento de entornos"
+        field: environment_isolation
+        description: "Separación dev/staging/producción verificada"
+
+  - id: 3
+    name: "Supervisión y cadena de suministro"
+    parameters:
+      - id: M7
+        name: "Logging inalterable"
+        field: immutable_logging
+        description: "Registro inmutable de operaciones activo"
+      - id: M8
+        name: "Supervisión humana"
+        field: human_oversight
+        description: "Circuitos de revisión humana activos"
+      - id: M9
+        name: "Cadena de suministro software"
+        field: supply_chain_integrity
+        description: "Integridad de dependencias verificada"
