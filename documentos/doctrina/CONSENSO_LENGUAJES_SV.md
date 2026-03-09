@@ -2,7 +2,7 @@
 
 **Autor:** Juan Antonio Lloret Egea · ORCID 0000-0002-6634-3351
 **Fecha:** 09/03/2026
-**Versión:** 1.0.0
+**Versión:** 1.1.0
 **Estado:** Documento doctrinal estable
 **Licencia:** CC BY-NC-ND 4.0
 **ISSN:** 2695-6411
@@ -159,11 +159,33 @@ Cuando la combinación de estos factores lo justifique, Γ se porta a lenguaje c
 
 ---
 
-## 7. Agenda técnica de convergencia documental
+## 7. Convergencia notacional entre documentos
 
-Los documentos doctrinales del Sistema Vectorial SV emplean notaciones que, en algunos puntos, difieren entre el texto fundacional y los documentos de implementación. Estas diferencias no son contradicciones: el texto fundacional es deliberadamente abierto y el de implementación es más concreto. Sin embargo, antes de su publicación conjunta deben converger en al menos cuatro puntos: la notación del operador de serie, el dominio formal de la función de evaluación χ, la notación del conteo de valores U, y el grado de concreción del rol estructural ρ.
+La versión 1.0.0 de este consenso identificaba cuatro puntos de divergencia notacional entre el texto fundacional y los documentos de implementación. Con la primera implementación del compositor, la meta-célula y la función Γ(v), la convergencia ha sido resuelta en los cuatro puntos.
 
-Esta convergencia se ejecutará como parte de la preparación editorial de la documentación definitiva.
+### 7.1. Operador de serie: σ_{k,φ}
+
+El paper fundacional (§7.8) define la composición en serie como σ_{k,φ}(Cⱼ, χᵢ(Cᵢ)), donde k es el parámetro puente y φ es el conector que traduce la salida de una célula al valor ternario del parámetro receptor.
+
+**Resolución:** en la implementación, k = P25 (índice 24 del vector de IMMUNO-2) y φ es el mapa de traducción {APTO → 0, NO_APTO → 1, INDETERMINADO → U}. La función `compose()` en Python y `compose()` en Rust/WASM instancian σ_{k,φ} con estos valores concretos. El operador abstracto del paper y la función concreta del código son compatibles: el paper define la forma general, el código la instancia para un dominio.
+
+### 7.2. Dominio de la función de evaluación χ
+
+El paper fundacional (§7.3) define χᵢ : Cᵢ → Ωᵢ sin especificar Ωᵢ más allá de «codominio de salida de la célula».
+
+**Resolución:** en la implementación, χᵢ se factoriza en dos pasos: `evaluate(case)` que produce el vector ternario, y `classify(vector)` que produce la clase global. El codominio Ωᵢ toma valores concretos según el dominio semántico de la célula: {APTO, NO_APTO, INDETERMINADO} para células clínicas, {NORMAL, INTRUSIÓN, INDETERMINADO} para la meta-célula de integridad. La factorización en dos pasos no contradice al paper — es una implementación legítima de la definición abstracta, coherente con la afirmación del §7.3 de que «χᵢ factoriza a través del vector interno y del motor normativo asociado».
+
+### 7.3. Conteo de valores U: Nᵤ, nᵤ y m
+
+El paper fundacional usa dos notaciones: Nᵤ (§5.1, mayúscula, coherente con N₀ y N₁) y nᵤ (§7.10, minúscula, al introducir Γ). Los documentos de implementación y la función `gamma.py` usan m(v).
+
+**Resolución:** se adopta la siguiente convención. En textos formales y en el paper fundacional, Nᵤ o nᵤ son equivalentes y se refieren al número de componentes con valor U. En código y documentos de implementación, m es el símbolo preferido por brevedad y porque evita la ambigüedad del subíndice. La equivalencia es: Nᵤ(v) = nᵤ(v) = m(v) = número de valores U en v. Ninguna de las tres notaciones es incorrecta; m se prefiere en el plano operativo.
+
+### 7.4. Rol estructural ρ y codificación visible ρ
+
+El paper fundacional usa el símbolo ρ en dos sentidos: como codificación visible ρ : {0, 1, U} → {1, 2, 3} que asigna radios al polígono (§4.1), y como ρᵢ, el rol estructural de la célula en la tupla composable Cᵢ = (vᵢ, Ωᵢ, κᵢ, ρᵢ) (§7.2).
+
+**Resolución:** se distinguen explícitamente. La codificación visible se implementa como RADIUS_MAP y no requiere más formalización: es un invariante constitutivo resuelto. El rol estructural ρᵢ toma valores concretos en la implementación del compositor: una célula puede ser «base» (IMMUNO-1, IMMUNO-2), «supervisora» (meta-célula, operador ▷) o «puente» (P25 como conector entre células). Estos valores no están formalizados como tipo enumerado en el código actual, pero están implícitos en la lógica del compositor y documentados en la arquitectura. La formalización explícita de ρᵢ como tipo queda abierta para cuando la composición multicelular lo exija.
 
 ---
 
@@ -186,4 +208,4 @@ Declarar esto abiertamente es coherente con el espíritu del Sistema Vectorial S
 7. TypeScript es recomendación seria para la capa web.
 8. La lista de lenguajes queda abierta, subordinada a C1–C8.
 9. Γ se porta a compilado por criterio contextual (carga, latencia, despliegue), no por umbral fijo.
-10. La convergencia notacional entre documentos se ejecuta antes de publicación conjunta.
+10. La convergencia notacional ha sido resuelta: σ_{k,φ} instanciado como compose(P25, φ), χᵢ factorizado como evaluate()+classify() con Ωᵢ concretos por dominio, m(v) adoptado como notación operativa de Nᵤ, y ρ diferenciado entre codificación visible (RADIUS_MAP) y rol estructural (base/supervisora/puente).
