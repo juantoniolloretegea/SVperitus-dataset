@@ -78,8 +78,7 @@ SVperitus-dataset/
 
 «De SVcustos, el marco (framework) de intrusión, hasta SVperitus: agentes especializados»
 
-- [Documento 7 — IMMUNO-1](https://www.itvia.online/pub/de-svcustos-hasta-svperitus-documento-7-immuno-1)
-- [Documento 8 — Compilador doctrinal y célula meta SV(9,3)-IA](https://www.itvia.online/pub/compilador-doctrinal-y-celula-meta-sv93-ia/release/2)
+- [Documento 7 — IMMUNO-1](https://www.itvia.online/pub/de-svcustos-el-marco-de-intrusion-hasta-svperitus-immuno-1--profilaxis-infecciosa-y-vacunacion--sv255/release/2)- [Documento 8 — Compilador doctrinal y célula meta SV(9,3)-IA](https://www.itvia.online/pub/compilador-doctrinal-y-celula-meta-sv93-ia/release/2)
 - [Fundamentos algebraico-semánticos del SV](https://www.itvia.online/pub/fundamentos-algebraico-semanticos-del-sistema-vectorial-sv/release/1)
 
 ---
