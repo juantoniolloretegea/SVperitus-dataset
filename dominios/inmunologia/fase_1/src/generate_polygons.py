@@ -19,7 +19,7 @@ Estructura de salida:
 Precondición: haber ejecutado generate_cases.py (datos en data/vectors/).
 
 Autor: Juan Antonio Lloret Egea  |  ORCID: 0000-0002-6634-3351
-ISSN 2695-641X  |  CC BY-NC-ND 4.0
+ISSN 2695-6411  |  CC BY-NC-ND 4.0
 """
 
 import sys
