@@ -1,7 +1,43 @@
 /* @ts-self-types="./svperitus_wasm.d.ts" */
 
 /**
- * Engine info
+ * Compositor serie: IMMUNO-1 → P25 → IMMUNO-2 + meta-célula.
+ * Inputs: three JSON strings. Output: combined JSON.
+ *
+ * El compositor evalúa IMMUNO-1, inyecta la clase global como P25
+ * de IMMUNO-2, evalúa IMMUNO-2 con el puente, y evalúa la meta-célula.
+ *
+ * Si la meta-célula devuelve INTRUSIÓN, system_status = "vetoed".
+ * Si INDETERMINADO, system_status = "supervised".
+ * Si NORMAL, system_status = "valid".
+ *
+ * Γ(v) NO se calcula aquí — se calcula en JavaScript en el cliente.
+ * @param {string} json_immuno1
+ * @param {string} json_immuno2
+ * @param {string} json_meta
+ * @returns {string}
+ */
+export function compose(json_immuno1, json_immuno2, json_meta) {
+    let deferred4_0;
+    let deferred4_1;
+    try {
+        const ptr0 = passStringToWasm0(json_immuno1, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+        const len0 = WASM_VECTOR_LEN;
+        const ptr1 = passStringToWasm0(json_immuno2, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+        const len1 = WASM_VECTOR_LEN;
+        const ptr2 = passStringToWasm0(json_meta, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+        const len2 = WASM_VECTOR_LEN;
+        const ret = wasm.compose(ptr0, len0, ptr1, len1, ptr2, len2);
+        deferred4_0 = ret[0];
+        deferred4_1 = ret[1];
+        return getStringFromWasm0(ret[0], ret[1]);
+    } finally {
+        wasm.__wbindgen_free(deferred4_0, deferred4_1, 1);
+    }
+}
+
+/**
+ * Engine info (IMMUNO-1)
  * @returns {string}
  */
 export function engine_info() {
@@ -18,7 +54,24 @@ export function engine_info() {
 }
 
 /**
- * Evaluate a clinical case. Input: JSON string. Output: JSON string.
+ * Extended engine info — returns info for all modules
+ * @returns {string}
+ */
+export function engine_info_v2() {
+    let deferred1_0;
+    let deferred1_1;
+    try {
+        const ret = wasm.engine_info_v2();
+        deferred1_0 = ret[0];
+        deferred1_1 = ret[1];
+        return getStringFromWasm0(ret[0], ret[1]);
+    } finally {
+        wasm.__wbindgen_free(deferred1_0, deferred1_1, 1);
+    }
+}
+
+/**
+ * Evaluate a clinical case (IMMUNO-1). Input: JSON. Output: JSON.
  * @param {string} json_input
  * @returns {string}
  */
@@ -29,6 +82,46 @@ export function evaluate_immuno1(json_input) {
         const ptr0 = passStringToWasm0(json_input, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
         const len0 = WASM_VECTOR_LEN;
         const ret = wasm.evaluate_immuno1(ptr0, len0);
+        deferred2_0 = ret[0];
+        deferred2_1 = ret[1];
+        return getStringFromWasm0(ret[0], ret[1]);
+    } finally {
+        wasm.__wbindgen_free(deferred2_0, deferred2_1, 1);
+    }
+}
+
+/**
+ * Evaluate a clinical case (IMMUNO-2). Input: JSON. Output: JSON.
+ * @param {string} json_input
+ * @returns {string}
+ */
+export function evaluate_immuno2(json_input) {
+    let deferred2_0;
+    let deferred2_1;
+    try {
+        const ptr0 = passStringToWasm0(json_input, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+        const len0 = WASM_VECTOR_LEN;
+        const ret = wasm.evaluate_immuno2(ptr0, len0);
+        deferred2_0 = ret[0];
+        deferred2_1 = ret[1];
+        return getStringFromWasm0(ret[0], ret[1]);
+    } finally {
+        wasm.__wbindgen_free(deferred2_0, deferred2_1, 1);
+    }
+}
+
+/**
+ * Evaluate meta-cell SV(9,3)-IA. Input: JSON. Output: JSON.
+ * @param {string} json_input
+ * @returns {string}
+ */
+export function meta_evaluate(json_input) {
+    let deferred2_0;
+    let deferred2_1;
+    try {
+        const ptr0 = passStringToWasm0(json_input, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+        const len0 = WASM_VECTOR_LEN;
+        const ret = wasm.meta_evaluate(ptr0, len0);
         deferred2_0 = ret[0];
         deferred2_1 = ret[1];
         return getStringFromWasm0(ret[0], ret[1]);
