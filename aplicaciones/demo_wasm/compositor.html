@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVperitus — Compositor IMMUNO-1 → IMMUNO-2</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.9/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'DM Sans', sans-serif; }
+        .font-mono { font-family: 'JetBrains Mono', monospace; }
+        .tab-active { border-bottom: 3px solid #c9a84c; color: #c9a84c; }
+        .tab-inactive { border-bottom: 3px solid transparent; color: #94a3b8; }
+        .tab-inactive:hover { color: #e2e8f0; }
+        .cell-imm1 { border-color: #38bdf8; }
+        .cell-imm2 { border-color: #a78bfa; }
+        .cell-meta { border-color: #f472b6; }
+        .bg-imm1 { background-color: rgba(56,189,248,0.1); }
+        .bg-imm2 { background-color: rgba(167,139,250,0.1); }
+        .bg-meta { background-color: rgba(244,114,182,0.1); }
+        @keyframes fadeIn { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+        .fade-in { animation: fadeIn 0.4s ease-out; }
+    </style>
+</head>
+<body class="bg-[#0a1628] text-slate-100">
+    <div id="root"></div>
+
+    <script type="module">
+        try {
+            const wasm = await import('./pkg/svperitus_wasm.js');
+            await wasm.default();
+            window.__wasm = wasm;
+            window.__engine_status = 'rust';
+        } catch(e) {
+            window.__engine_status = 'error';
+            window.__engine_error = e.message;
+        }
+        window.dispatchEvent(new Event('engine-ready'));
+    </script>
+
+    <script type="text/babel">
+    const { useState, useMemo, useEffect, useCallback } = React;
+
+    // ═══════════════════════════════════════════
+    //  CONSTANTS
+    // ═══════════════════════════════════════════
+    const COL = { apt:"#22c55e", notapt:"#ef4444", indet:"#facc15", bridge:"#c9a84c",
+                  imm1:"#38bdf8", imm2:"#a78bfa", meta:"#f472b6" };
+
+    const IMM1_PARAMS = [
+        {k:"P01",l:"Neutropenia"},{k:"P02",l:"Linfopenia T"},{k:"P03",l:"Hipogamma"},
+        {k:"P04",l:"Función esplénica"},{k:"P05",l:"Barreras/catéteres"},
+        {k:"P06",l:"Fase neoplasia"},{k:"P07",l:"Quimioterapia"},{k:"P08",l:"Biológicos IS"},
+        {k:"P09",l:"TPH/CAR-T"},{k:"P10",l:"Corticoides"},
+        {k:"P11",l:"Bacterianas graves"},{k:"P12",l:"IFD previa"},{k:"P13",l:"Virales crónicas"},
+        {k:"P14",l:"Colonización MDR"},{k:"P15",l:"Exposición sanitaria"},
+        {k:"P16",l:"Vac. gripe"},{k:"P17",l:"Vac. neumococo"},{k:"P18",l:"Vac. COVID"},
+        {k:"P19",l:"Vac. hepatitis B"},{k:"P20",l:"Otras vacunas"},
+        {k:"P21",l:"Prof. PJP"},{k:"P22",l:"Prof. antiviral"},{k:"P23",l:"Prof. antifúngica"},
+        {k:"P24",l:"Prof. antibacteriana"},{k:"P25",l:"Plan reevaluación"},
+    ];
+
+    const IMM2_PARAMS = [
+        {k:"P01",l:"Edad"},{k:"P02",l:"Comorbilidad cardio-renal"},{k:"P03",l:"Neumopatía crónica"},
+        {k:"P04",l:"Hepatopatía crónica"},{k:"P05",l:"Nutrición/fragilidad"},
+        {k:"P06",l:"Fármaco IS principal"},{k:"P07",l:"Combinación IS"},{k:"P08",l:"Corticoides"},
+        {k:"P09",l:"Duración IS"},{k:"P10",l:"Linfopenia"},
+        {k:"P11",l:"Piel/mucosas"},{k:"P12",l:"Catéter venoso central"},{k:"P13",l:"Prótesis"},
+        {k:"P14",l:"Cirugía mayor"},{k:"P15",l:"Esplenectomía"},
+        {k:"P16",l:"Hospitalización"},{k:"P17",l:"Colonización MDR"},{k:"P18",l:"Zona endémica TB"},
+        {k:"P19",l:"Exposición respiratoria"},{k:"P20",l:"Riesgo fúngico"},
+        {k:"P21",l:"Infecciones graves"},{k:"P22",l:"IgG sérica"},{k:"P23",l:"Escalada IS"},
+        {k:"P24",l:"Evaluación integral"},{k:"P25",l:"Puente IMMUNO-1"},
+    ];
+
+    const IMM1_LAYERS = ["Capa 1 — Estado inmunitario","Capa 2 — Neoplasia y tratamiento",
+        "Capa 3 — Historia infecciosa","Capa 4 — Estado vacunal","Capa 5 — Profilaxis"];
+    const IMM2_LAYERS = ["Capa 1 — Terreno basal","Capa 2 — Carga IS",
+        "Capa 3 — Barreras y dispositivos","Capa 4 — Exposición epidemiológica","Capa 5 — Protección y puente"];
+
+    // ═══════════════════════════════════════════
+    //  CASE BUILDERS (ternary → clinical JSON)
+    // ═══════════════════════════════════════════
+    function buildImm1Case(v) {
+        return {
+            anc: v.P01==="0"?3000:v.P01==="1"?200:null,
+            lymphocytes: v.P02==="0"?1500:v.P02==="1"?100:null,
+            igg: v.P03==="0"?900:v.P03==="1"?250:null,
+            spleen_intact: v.P04==="U"?null:v.P04==="0",
+            barriers_intact: v.P05==="U"?null:v.P05==="0",
+            neoplasia_phase: v.P06==="0"?"remission":v.P06==="1"?"relapse":null,
+            chemo_active: v.P07==="U"?null:v.P07==="1",
+            biologic_type: v.P08==="0"?"none":v.P08==="1"?"anti_cd20":null,
+            tph_cart: v.P09==="0"?"none":v.P09==="1"?"allo_tph":null,
+            corticoid_mg: v.P10==="0"?0.0:v.P10==="1"?40.0:null,
+            severe_bacterial_12m: v.P11==="U"?null:v.P11==="1",
+            prior_ifd: v.P12==="U"?null:v.P12==="1",
+            chronic_viral: v.P13==="0"?"none":v.P13==="1"?"active":null,
+            mdr_colonization: v.P14==="U"?null:v.P14==="1",
+            recent_healthcare: v.P15==="U"?null:v.P15==="1",
+            flu_vaccine: v.P16==="0"?"current":v.P16==="1"?"none":null,
+            pneumo_vaccine: v.P17==="0"?"current":v.P17==="1"?"none":null,
+            covid_vaccine: v.P18==="0"?"current":v.P18==="1"?"none":null,
+            hepb_vaccine: v.P19==="0"?"immune":v.P19==="1"?"non_immune":null,
+            other_vaccines: v.P20==="0"?"complete":v.P20==="1"?"incomplete":null,
+            pjp_prophylaxis: v.P21==="0"?"adequate":v.P21==="1"?"inadequate":null,
+            antiviral_prophylaxis: v.P22==="0"?"adequate":v.P22==="1"?"inadequate":null,
+            antifungal_prophylaxis: v.P23==="0"?"adequate":v.P23==="1"?"inadequate":null,
+            antibacterial_prophylaxis: v.P24==="0"?"adequate":v.P24==="1"?"inadequate":null,
+            reevaluation_plan: v.P25==="0"?"structured":v.P25==="1"?"absent":null,
+        };
+    }
+
+    function buildImm2Case(v) {
+        return {
+            age: v.P01==="0"?40:v.P01==="1"?70:null,
+            dm_complicated: v.P02==="0"?false:v.P02==="1"?true:null,
+            hba1c: v.P02==="0"?6.0:null, egfr: v.P02==="0"?90.0:null,
+            heart_failure_nyha:null, ischemic_heart_event_12m:null,
+            fev1_percent_predicted: v.P03==="0"?95.0:null,
+            ild_diagnosed: v.P03==="1"?true:null, bronchiectasis:null, respiratory_exacerbation_12m:null,
+            fibrosis_stage: v.P04==="0"?0:null, cirrhosis: v.P04==="1"?true:null,
+            hbv_chronic_active: v.P04==="0"?false:null, hcv_viremia:null,
+            bmi: v.P05==="0"?24.0:v.P05==="1"?16.0:null,
+            albumin: v.P05==="0"?4.0:null, frailty_fried:null,
+            main_is_drug: v.P06==="0"?"conventional":v.P06==="1"?"jaki":null,
+            is_combination: v.P07==="0"?"monotherapy":v.P07==="1"?"triple":null,
+            prednisone_mg_day: v.P08==="0"?5.0:v.P08==="1"?20.0:null,
+            prednisone_duration_weeks:null, recent_pulse_250mg:null,
+            is_duration_months: v.P09==="0"?3:v.P09==="1"?12:null,
+            line_changes: v.P09==="1"?2:null,
+            lymphocyte_abs: v.P10==="0"?1500.0:v.P10==="1"?300.0:null,
+            on_rituximab:null, on_jaki:null,
+            skin_mucosa_intact: v.P11==="U"?null:v.P11==="0",
+            central_venous_catheter: v.P12==="U"?null:v.P12==="1",
+            prosthesis_recent: v.P13==="0"?false:null, prosthesis_infected: v.P13==="1"?true:null,
+            major_surgery_30d: v.P14==="U"?null:v.P14==="1",
+            asplenic: v.P15==="U"?null:v.P15==="1",
+            hospitalization_48h_30d: v.P16==="U"?null:v.P16==="1",
+            mdr_colonization_12m: v.P17==="U"?null:v.P17==="1",
+            tb_endemic_exposure: v.P18==="0"?"low":v.P18==="1"?"high":null,
+            respiratory_exposure_4w: v.P19==="U"?null:v.P19==="1",
+            fungal_exposure: v.P20==="U"?null:v.P20==="1",
+            severe_infection_12m: v.P21==="U"?null:v.P21==="1",
+            igg_mg_dl: v.P22==="0"?800.0:v.P22==="1"?200.0:null,
+            is_escalation_3m: v.P23==="U"?null:v.P23==="1",
+            risk_eval_current: v.P24==="0"?"complete":v.P24==="1"?"absent":null,
+            immuno1_class: null, // compositor inyecta esto
+        };
+    }
+
+    // ═══════════════════════════════════════════
+    //  Γ(v) — JavaScript (NO en WASM)
+    // ═══════════════════════════════════════════
+    function calcGamma(vector, n, t) {
+        if (!n) n = vector.length;
+        if (!t) t = Math.floor(7*n/9);
+        const n0 = vector.filter(v=>v==="0").length;
+        const n1 = vector.filter(v=>v==="1").length;
+        const m  = vector.filter(v=>v==="U").length;
+        const d0 = t - n0, d1 = t - n1;
+        const mu = Math.min(d0, d1);
+        const gamma = m - mu;
+        let cls, interp;
+        if (gamma < 0) {
+            cls = "irreducible";
+            interp = `Ni resolviendo las ${m} U pendientes se alcanza clasificación. No se necesitan más pruebas; se necesita que cambien los parámetros conocidos.`;
+        } else if (gamma === 0) {
+            cls = "fronteriza";
+            interp = `Cada U es decisiva. Resolver cualquiera en sentido desfavorable cierra la puerta a clasificación definitiva.`;
+        } else {
+            const nearest = d0<=d1 ? "APTO" : "NO_APTO";
+            cls = "resoluble";
+            interp = `Puede permitirse hasta ${gamma} resultados desfavorables y aún alcanzar ${nearest}.`;
+        }
+        return { n0, n1, m, d0, d1, mu, gamma, cls, interp };
+    }
+
+    // ═══════════════════════════════════════════
+    //  POLAR POLYGON SVG
+    // ═══════════════════════════════════════════
+    function Polygon({ vector, size=300, color="#c9a84c", cellColor="#38bdf8", label="", classResult="" }) {
+        const n = vector.length;
+        const cx=size/2, cy=size/2, baseR=size*0.12, stepR=size*0.11, maxR=baseR+3*stepR;
+        const radiusMap={"0":1,"1":2,"U":3};
+        const fillColor = classResult==="APTO"||classResult==="NORMAL" ? "rgba(34,197,94,0.18)"
+            : classResult==="NO_APTO"||classResult==="INTRUSIÓN" ? "rgba(239,68,68,0.18)"
+            : "rgba(250,204,21,0.15)";
+
+        const pts = vector.map((v,i)=>{
+            const a = -Math.PI/2 + i*2*Math.PI/n;
+            const r = baseR + radiusMap[v]*stepR;
+            return {
+                x: cx+Math.cos(a)*r, y: cy+Math.sin(a)*r,
+                lx: cx+Math.cos(a)*(maxR+size*0.06), ly: cy+Math.sin(a)*(maxR+size*0.06),
+                v, key: `P${String(i+1).padStart(2,'0')}`
+            };
+        });
+        const poly = pts.map(p=>`${p.x},${p.y}`).join(" ");
+
+        // For meta-cell (n=9) use M labels
+        const getLabel = (i) => n===9 ? `M${i+1}` : `P${String(i+1).padStart(2,'0')}`;
+
+        return (
+            <div>
+                {label && <div className="text-center text-xs font-semibold mb-1 tracking-wide" style={{color:cellColor}}>{label}</div>}
+                <svg viewBox={`0 0 ${size} ${size}`} className="w-full h-auto rounded-xl" style={{background:"#0D1B2A"}}>
+                    {[1,2,3].map(l=><circle key={l} cx={cx} cy={cy} r={baseR+l*stepR} fill="none" stroke="rgba(255,255,255,0.2)" strokeDasharray="4 4"/>)}
+                    {pts.map((pt,i)=><line key={i} x1={cx} y1={cy} x2={pt.x} y2={pt.y} stroke="rgba(255,255,255,0.12)"/>)}
+                    <polygon points={poly} fill={fillColor} stroke={color} strokeWidth="2"/>
+                    {pts.map((pt,i)=>(
+                        <g key={i}>
+                            <circle cx={pt.x} cy={pt.y} r={n<=9?5:3.5} fill={pt.v==="0"?COL.apt:pt.v==="1"?COL.notapt:COL.indet}/>
+                            <text x={pt.lx} y={pt.ly} fill="white" fontSize={n<=9?11:8} fontWeight="bold" textAnchor="middle" dominantBaseline="middle" fontFamily="JetBrains Mono">{getLabel(i)}</text>
+                        </g>
+                    ))}
+                </svg>
+            </div>
+        );
+    }
+
+    // ═══════════════════════════════════════════
+    //  CLASS BADGE
+    // ═══════════════════════════════════════════
+    function ClassBadge({ cls, size="text-base" }) {
+        const bg = cls==="APTO"||cls==="NORMAL" ? "bg-emerald-900/40 border-emerald-500 text-emerald-300"
+            : cls==="NO_APTO"||cls==="INTRUSIÓN" ? "bg-red-900/40 border-red-500 text-red-300"
+            : "bg-amber-900/30 border-amber-500 text-amber-300";
+        return <div className={`rounded-lg border px-3 py-1.5 font-bold text-center font-mono ${size} ${bg}`}>{cls}</div>;
+    }
+
+    // ═══════════════════════════════════════════
+    //  COMPACT FORM (for IMMUNO-1 or IMMUNO-2)
+    // ═══════════════════════════════════════════
+    function CompactForm({ params, layers, values, onChange, lockedP25, cellColor, cellName }) {
+        const opts = [{v:"0",l:"0",c:"bg-emerald-700/60 border-emerald-500"},
+                      {v:"1",l:"1",c:"bg-red-700/60 border-red-500"},
+                      {v:"U",l:"U",c:"bg-amber-700/50 border-amber-500"}];
+        return (
+            <div className="space-y-3">
+                <div className="text-sm font-bold tracking-wide" style={{color:cellColor}}>{cellName}</div>
+                {layers.map((layer,li)=>(
+                    <div key={li}>
+                        <div className="text-[10px] font-semibold text-slate-400 uppercase tracking-wider mb-1">{layer}</div>
+                        <div className="space-y-1">
+                            {params.slice(li*5,li*5+5).map((p,pi)=>{
+                                const idx = li*5+pi;
+                                const isLocked = lockedP25 && idx===24;
+                                return (
+                                    <div key={p.k} className="flex items-center gap-2">
+                                        <span className="w-8 text-[10px] font-mono font-bold text-slate-400">{p.k}</span>
+                                        <span className="flex-1 text-xs text-slate-300 truncate" title={p.l}>{p.l}</span>
+                                        {isLocked ? (
+                                            <div className="flex gap-0.5">
+                                                <div className="w-7 h-6 rounded border text-[10px] font-mono font-bold flex items-center justify-center"
+                                                     style={{background:"rgba(201,168,76,0.3)",borderColor:"#c9a84c",color:"#c9a84c"}}>
+                                                    {values[p.k]}
+                                                </div>
+                                                <span className="text-[8px] text-amber-500 self-center ml-0.5">⛓</span>
+                                            </div>
+                                        ) : (
+                                            <div className="flex gap-0.5">
+                                                {opts.map(o=>(
+                                                    <button key={o.v} onClick={()=>onChange(p.k,o.v)}
+                                                        className={`w-7 h-6 rounded border text-[10px] font-mono font-bold transition-all
+                                                            ${values[p.k]===o.v ? o.c+" text-white" : "border-slate-600 text-slate-500 hover:border-slate-400"}`}>
+                                                        {o.l}
+                                                    </button>
+                                                ))}
+                                            </div>
+                                        )}
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    </div>
+                ))}
+            </div>
+        );
+    }
+
+    // ═══════════════════════════════════════════
+    //  GAMMA PANEL
+    // ═══════════════════════════════════════════
+    function GammaPanel({ vector, label, color }) {
+        const n0 = vector.filter(v=>v==="0").length;
+        const n1 = vector.filter(v=>v==="1").length;
+        const t = Math.floor(7*vector.length/9);
+        // Only show Γ for INDETERMINADO vectors
+        if (n1 >= t || n0 >= t) return null;
+        const g = calcGamma(vector);
+        const gColor = g.gamma < 0 ? "text-red-400" : g.gamma === 0 ? "text-amber-400" : "text-emerald-400";
+        const gLabel = g.gamma < 0 ? "Irreducible" : g.gamma === 0 ? "Fronteriza" : "Resoluble";
+        return (
+            <div className="rounded-lg border border-slate-600 p-3 text-xs" style={{borderLeftColor:color,borderLeftWidth:3}}>
+                <div className="flex items-center gap-2 mb-1">
+                    <span className="font-bold text-slate-300">{label}</span>
+                    <span className={`font-mono font-bold ${gColor}`}>Γ = {g.gamma}</span>
+                    <span className={`px-1.5 py-0.5 rounded text-[10px] font-bold ${gColor} bg-slate-800`}>{gLabel}</span>
+                </div>
+                <div className="text-slate-400 font-mono text-[10px] mb-1">
+                    m={g.m} · δ₀={g.d0} · δ₁={g.d1} · μ={g.mu}
+                </div>
+                <div className="text-slate-400">{g.interp}</div>
+            </div>
+        );
+    }
+
+    // ═══════════════════════════════════════════
+    //  ARCHITECTURE TAB
+    // ═══════════════════════════════════════════
+    function ArchitectureTab() {
+        return (
+            <div className="max-w-4xl mx-auto fade-in">
+                <div className="text-center mb-8">
+                    <h2 className="text-2xl font-bold text-slate-100">Arquitectura del Compositor Serie</h2>
+                    <p className="text-slate-400 mt-2 text-sm max-w-2xl mx-auto">
+                        El compositor enlaza dos células SV(25,5) de dominio inmunológico mediante un parámetro puente,
+                        bajo la supervisión de una meta-célula SV(9,3) de integridad del sistema.
+                    </p>
+                </div>
+                <svg viewBox="0 0 700 520" className="w-full h-auto">
+                    <defs>
+                        <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+                            <path d="M0,0 L10,5 L0,10 Z" fill="#c9a84c"/>
+                        </marker>
+                        <filter id="glow"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+                    </defs>
+                    <rect x="0" y="0" width="700" height="520" rx="16" fill="#0D1B2A"/>
+
+                    {/* Meta-célula */}
+                    <rect x="220" y="20" width="260" height="80" rx="12" fill="rgba(244,114,182,0.12)" stroke="#f472b6" strokeWidth="2"/>
+                    <text x="350" y="50" fill="#f472b6" fontSize="14" fontWeight="bold" textAnchor="middle" fontFamily="JetBrains Mono">Meta-célula SV(9,3)-IA</text>
+                    <text x="350" y="72" fill="#94a3b8" fontSize="11" textAnchor="middle">T(9)=7 · Integridad del sistema · Poder de veto</text>
+
+                    {/* Arrow meta → compositor */}
+                    <line x1="350" y1="100" x2="350" y2="148" stroke="#f472b6" strokeWidth="1.5" strokeDasharray="6 3"/>
+                    <text x="360" y="130" fill="#f472b6" fontSize="9" fontFamily="JetBrains Mono">▷ veto</text>
+
+                    {/* Compositor */}
+                    <rect x="150" y="150" width="400" height="70" rx="12" fill="rgba(201,168,76,0.12)" stroke="#c9a84c" strokeWidth="2"/>
+                    <text x="350" y="178" fill="#c9a84c" fontSize="14" fontWeight="bold" textAnchor="middle" fontFamily="JetBrains Mono">Compositor serie</text>
+                    <text x="350" y="198" fill="#94a3b8" fontSize="11" textAnchor="middle">IMMUNO-1 → P25 → IMMUNO-2 · σ(k,φ)</text>
+
+                    {/* Arrows compositor → cells */}
+                    <line x1="260" y1="220" x2="170" y2="288" stroke="#c9a84c" strokeWidth="1.5" markerEnd="url(#arrow)"/>
+                    <line x1="440" y1="220" x2="530" y2="288" stroke="#c9a84c" strokeWidth="1.5" markerEnd="url(#arrow)"/>
+
+                    {/* Bridge arrow */}
+                    <path d="M 280 370 Q 350 320 420 370" fill="none" stroke="#c9a84c" strokeWidth="2" strokeDasharray="6 3" markerEnd="url(#arrow)"/>
+                    <text x="350" y="338" fill="#c9a84c" fontSize="10" fontWeight="bold" textAnchor="middle" fontFamily="JetBrains Mono">P25 puente</text>
+
+                    {/* IMMUNO-1 */}
+                    <rect x="50" y="290" width="240" height="100" rx="12" fill="rgba(56,189,248,0.1)" stroke="#38bdf8" strokeWidth="2"/>
+                    <text x="170" y="320" fill="#38bdf8" fontSize="14" fontWeight="bold" textAnchor="middle" fontFamily="JetBrains Mono">IMMUNO-1</text>
+                    <text x="170" y="340" fill="#94a3b8" fontSize="10" textAnchor="middle">SV(25,5) · T(25)=19</text>
+                    <text x="170" y="358" fill="#94a3b8" fontSize="10" textAnchor="middle">Profilaxis antiinfecciosa</text>
+                    <text x="170" y="376" fill="#64748b" fontSize="9" textAnchor="middle">108/108 tests · Publicado</text>
+
+                    {/* IMMUNO-2 */}
+                    <rect x="410" y="290" width="240" height="100" rx="12" fill="rgba(167,139,250,0.1)" stroke="#a78bfa" strokeWidth="2"/>
+                    <text x="530" y="320" fill="#a78bfa" fontSize="14" fontWeight="bold" textAnchor="middle" fontFamily="JetBrains Mono">IMMUNO-2</text>
+                    <text x="530" y="340" fill="#94a3b8" fontSize="10" textAnchor="middle">SV(25,5) · T(25)=19</text>
+                    <text x="530" y="358" fill="#94a3b8" fontSize="10" textAnchor="middle">Riesgo infeccioso en IS</text>
+                    <text x="530" y="376" fill="#64748b" fontSize="9" textAnchor="middle">Conector experimental (P25)</text>
+
+                    {/* Gamma */}
+                    <rect x="200" y="420" width="300" height="70" rx="12" fill="rgba(250,204,21,0.08)" stroke="#facc15" strokeWidth="1.5" strokeDasharray="6 3"/>
+                    <text x="350" y="448" fill="#facc15" fontSize="13" fontWeight="bold" textAnchor="middle" fontFamily="JetBrains Mono">Γ(v) = m − μ</text>
+                    <text x="350" y="468" fill="#94a3b8" fontSize="10" textAnchor="middle">Criticidad de la indeterminación · Calculado en JavaScript</text>
+
+                    {/* Legend */}
+                    <circle cx="40" cy="480" r="5" fill="#22c55e"/><text x="52" y="484" fill="#94a3b8" fontSize="9">0 = Apto (r=1)</text>
+                    <circle cx="160" cy="480" r="5" fill="#ef4444"/><text x="172" y="484" fill="#94a3b8" fontSize="9">1 = No_Apto (r=2)</text>
+                    <circle cx="300" cy="480" r="5" fill="#facc15"/><text x="312" y="484" fill="#94a3b8" fontSize="9">U = Indeterminado (r=3)</text>
+                    <circle cx="465" cy="480" r="5" fill="#c9a84c"/><text x="477" y="484" fill="#94a3b8" fontSize="9">Puente compositor</text>
+                </svg>
+
+                <div className="mt-8 grid md:grid-cols-3 gap-4 text-sm">
+                    <div className="rounded-xl border border-slate-700 p-4 bg-slate-800/50">
+                        <div className="font-bold text-slate-200 mb-2">Composición en serie</div>
+                        <p className="text-slate-400 text-xs">La clase global de IMMUNO-1 se inyecta como P25 de IMMUNO-2: APTO→0, NO_APTO→1, INDETERMINADO→U. P25 es un conector experimental, no una validación clínica.</p>
+                    </div>
+                    <div className="rounded-xl border border-slate-700 p-4 bg-slate-800/50">
+                        <div className="font-bold text-slate-200 mb-2">Meta-célula de integridad</div>
+                        <p className="text-slate-400 text-xs">9 parámetros de integridad del sistema. Si n₁≥7 → INTRUSIÓN: se anulan los resultados clínicos. No editable por el usuario.</p>
+                    </div>
+                    <div className="rounded-xl border border-slate-700 p-4 bg-slate-800/50">
+                        <div className="font-bold text-slate-200 mb-2">Función Γ(v)</div>
+                        <p className="text-slate-400 text-xs">Clasifica la indeterminación en irreducible, fronteriza o resoluble. Matemática exacta. Sin estadística. Calculada en JavaScript, no en WASM.</p>
+                    </div>
+                </div>
+            </div>
+        );
+    }
+
+    // ═══════════════════════════════════════════
+    //  COMPOSITOR TAB
+    // ═══════════════════════════════════════════
+    function CompositorTab() {
+        const initV = (params) => Object.fromEntries(params.map(p=>[p.k,"U"]));
+        const [v1, setV1] = useState(initV(IMM1_PARAMS));
+        const [v2, setV2] = useState(initV(IMM2_PARAMS));
+        const [simIntrusion, setSimIntrusion] = useState(false);
+
+        const onV1 = useCallback((k,val) => setV1(prev=>({...prev,[k]:val})), []);
+        const onV2 = useCallback((k,val) => setV2(prev=>({...prev,[k]:val})), []);
+
+        // Build meta state based on simulation
+        const metaState = simIntrusion
+            ? {weights_integrity:false,dataset_provenance:false,access_control:false,adversarial_tests:false,
+               telemetry_active:false,environment_isolation:false,immutable_logging:false,human_oversight:true,supply_chain_integrity:true}
+            : {weights_integrity:true,dataset_provenance:true,access_control:true,adversarial_tests:true,
+               telemetry_active:true,environment_isolation:true,immutable_logging:true,human_oversight:true,supply_chain_integrity:true};
+
+        // ── Evaluate via WASM ──
+        const result = useMemo(() => {
+            if (!window.__wasm) return null;
+            try {
+                const json = window.__wasm.compose(
+                    JSON.stringify(buildImm1Case(v1)),
+                    JSON.stringify(buildImm2Case(v2)),
+                    JSON.stringify(metaState)
+                );
+                return JSON.parse(json);
+            } catch(e) { return {error: e.message}; }
+        }, [v1, v2, simIntrusion]);
+
+        if (!result) return <div className="text-center text-slate-400 py-12">Motor WASM no disponible</div>;
+        if (result.error) return <div className="text-center text-red-400 py-12">Error: {result.error}</div>;
+
+        const r1 = result.immuno1;
+        const r2 = result.immuno2;
+        const rm = result.meta;
+
+        // Update v2.P25 display based on bridge
+        const v2Display = {...v2, P25: r2.bridge_value};
+
+        // Quick presets
+        const resetAll = () => { setV1(initV(IMM1_PARAMS)); setV2(initV(IMM2_PARAMS)); setSimIntrusion(false); };
+        const presetApto = () => {
+            const a1 = {}; IMM1_PARAMS.forEach(p=>{a1[p.k]="0"});
+            const a2 = {}; IMM2_PARAMS.forEach(p=>{a2[p.k]="0"});
+            setV1(a1); setV2(a2); setSimIntrusion(false);
+        };
+
+        return (
+            <div className="fade-in">
+                {/* ── Status bar ── */}
+                <div className="rounded-xl border border-slate-700 bg-slate-800/60 p-4 mb-4">
+                    <div className="flex flex-wrap items-center justify-center gap-3 text-sm">
+                        <div className="flex items-center gap-2">
+                            <span className="font-mono font-bold" style={{color:COL.imm1}}>IMMUNO-1</span>
+                            <ClassBadge cls={r1.global_class} size="text-xs"/>
+                        </div>
+                        <span className="text-2xl" style={{color:COL.bridge}}>→</span>
+                        <div className="font-mono text-xs px-2 py-1 rounded border" style={{borderColor:COL.bridge,color:COL.bridge}}>
+                            P25 = {r2.bridge_value}
+                        </div>
+                        <span className="text-2xl" style={{color:COL.bridge}}>→</span>
+                        <div className="flex items-center gap-2">
+                            <span className="font-mono font-bold" style={{color:COL.imm2}}>IMMUNO-2</span>
+                            <ClassBadge cls={r2.global_class} size="text-xs"/>
+                        </div>
+                        <span className="text-slate-600 mx-2">|</span>
+                        <div className="flex items-center gap-2">
+                            <span className="font-mono font-bold" style={{color:COL.meta}}>META</span>
+                            <ClassBadge cls={rm.global_class} size="text-xs"/>
+                        </div>
+                        {rm.vetoed && <span className="text-red-400 font-bold text-xs animate-pulse">⛔ RESULTADOS ANULADOS</span>}
+                    </div>
+                    <div className="flex justify-center gap-2 mt-3">
+                        <button onClick={resetAll} className="px-3 py-1 rounded-lg bg-slate-700 text-slate-300 text-xs hover:bg-slate-600">Todo U</button>
+                        <button onClick={presetApto} className="px-3 py-1 rounded-lg bg-emerald-900/50 text-emerald-300 border border-emerald-700 text-xs hover:bg-emerald-900">Ejemplo APTO</button>
+                    </div>
+                </div>
+
+                <div className="grid lg:grid-cols-2 gap-4 mb-4">
+                    {/* ── IMMUNO-1 form ── */}
+                    <div className="rounded-xl border border-slate-700 bg-slate-800/40 p-4">
+                        <CompactForm params={IMM1_PARAMS} layers={IMM1_LAYERS} values={v1}
+                            onChange={onV1} cellColor={COL.imm1} cellName="IMMUNO-1 — Profilaxis antiinfecciosa"/>
+                    </div>
+                    {/* ── IMMUNO-2 form ── */}
+                    <div className="rounded-xl border border-slate-700 bg-slate-800/40 p-4">
+                        <CompactForm params={IMM2_PARAMS} layers={IMM2_LAYERS} values={v2Display}
+                            onChange={onV2} lockedP25={true} cellColor={COL.imm2} cellName="IMMUNO-2 — Riesgo infeccioso en IS"/>
+                    </div>
+                </div>
+
+                {/* ── Three polygons ── */}
+                <div className="grid grid-cols-3 gap-3 mb-4">
+                    <div className="rounded-xl border border-slate-700 bg-slate-800/40 p-3">
+                        <Polygon vector={r1.vector} size={300} color={COL.imm1} cellColor={COL.imm1}
+                            label="IMMUNO-1" classResult={r1.global_class}/>
+                        <div className="mt-2 text-center">
+                            <ClassBadge cls={r1.global_class} size="text-sm"/>
+                            <div className="text-[10px] font-mono text-slate-500 mt-1">n₀={r1.n0} · n₁={r1.n1} · nU={r1.nU}</div>
+                        </div>
+                    </div>
+                    <div className="rounded-xl border border-slate-700 bg-slate-800/40 p-3">
+                        <Polygon vector={r2.vector} size={300} color={COL.imm2} cellColor={COL.imm2}
+                            label="IMMUNO-2" classResult={r2.global_class}/>
+                        <div className="mt-2 text-center">
+                            <ClassBadge cls={r2.global_class} size="text-sm"/>
+                            <div className="text-[10px] font-mono text-slate-500 mt-1">n₀={r2.n0} · n₁={r2.n1} · nU={r2.nU} · P25={r2.bridge_value}</div>
+                        </div>
+                    </div>
+                    <div className="rounded-xl border border-slate-700 bg-slate-800/40 p-3">
+                        <Polygon vector={rm.vector} size={300} color={COL.meta} cellColor={COL.meta}
+                            label="META-CÉLULA" classResult={rm.global_class}/>
+                        <div className="mt-2 text-center">
+                            <ClassBadge cls={rm.global_class} size="text-sm"/>
+                            <div className="text-[10px] font-mono text-slate-500 mt-1">n₀={rm.n0} · n₁={rm.n1} · nU={rm.nU}</div>
+                        </div>
+                        <div className="mt-2">
+                            <button onClick={()=>setSimIntrusion(!simIntrusion)}
+                                className={`w-full text-xs py-1.5 rounded-lg border font-bold transition-all
+                                    ${simIntrusion
+                                        ? "bg-red-900/50 border-red-500 text-red-300 hover:bg-red-900/70"
+                                        : "bg-slate-700 border-slate-600 text-slate-300 hover:bg-slate-600"}`}>
+                                {simIntrusion ? "⛔ Intrusión simulada" : "Simular intrusión"}
+                            </button>
+                            <div className="text-[9px] text-slate-500 mt-1 text-center">
+                                Simulación. En producción, la meta-célula es automática.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* ── Γ Panel ── */}
+                <div className="rounded-xl border border-slate-700 bg-slate-800/40 p-4 space-y-2">
+                    <div className="text-sm font-bold text-slate-200 mb-2 font-mono">Γ(v) — Criticidad de la indeterminación</div>
+                    <GammaPanel vector={r1.vector} label="IMMUNO-1" color={COL.imm1}/>
+                    <GammaPanel vector={r2.vector} label="IMMUNO-2" color={COL.imm2}/>
+                    <GammaPanel vector={rm.vector} label="Meta-célula" color={COL.meta}/>
+                    {r1.global_class!=="INDETERMINADO" && r2.global_class!=="INDETERMINADO" && rm.global_class!=="INDETERMINADO" && (
+                        <div className="text-xs text-slate-500 text-center py-2">Ninguna célula está en INDETERMINADO — Γ no aplica.</div>
+                    )}
+                </div>
+
+                {/* ── Disclaimer ── */}
+                <div className="mt-4 rounded-xl border border-amber-800/50 bg-amber-900/20 p-3 text-xs text-amber-300/80 text-center">
+                    ⚠️ Demostrador experimental del mecanismo de composición. No validado en datos reales. No utilice este sistema para decisiones clínicas.
+                    La composición serie (P25) es un conector experimental, no una validación clínica de la dependencia entre profilaxis y riesgo infeccioso.
+                </div>
+            </div>
+        );
+    }
+
+    // ═══════════════════════════════════════════
+    //  APP
+    // ═══════════════════════════════════════════
+    function App() {
+        const [engineStatus, setEngineStatus] = useState(window.__engine_status || 'loading');
+        const [tab, setTab] = useState("compositor");
+
+        useEffect(() => {
+            const handler = () => setEngineStatus(window.__engine_status);
+            window.addEventListener('engine-ready', handler);
+            return () => window.removeEventListener('engine-ready', handler);
+        }, []);
+
+        if (engineStatus === 'loading') {
+            return (
+                <div className="min-h-screen flex items-center justify-center">
+                    <div className="text-center">
+                        <div className="text-4xl mb-4">⚙️</div>
+                        <p className="text-xl">Cargando motor Rust (WebAssembly)...</p>
+                        <p className="text-slate-400 mt-2 text-sm">El código se ejecuta localmente en su navegador.</p>
+                    </div>
+                </div>
+            );
+        }
+
+        if (engineStatus === 'error') {
+            return (
+                <div className="min-h-screen flex items-center justify-center p-6">
+                    <div className="max-w-md bg-slate-800 rounded-2xl border border-slate-700 p-8 text-center">
+                        <div className="text-4xl mb-4">🔧</div>
+                        <h1 className="text-xl font-bold">Motor WASM no disponible</h1>
+                        <p className="mt-3 text-sm text-slate-400">El motor Rust necesita ser compilado. Consulte GitHub Actions.</p>
+                    </div>
+                </div>
+            );
+        }
+
+        return (
+            <div className="min-h-screen">
+                {/* ── Header ── */}
+                <div className="border-b border-slate-800 bg-[#0d1628]">
+                    <div className="max-w-7xl mx-auto px-4 py-4">
+                        <div className="flex flex-wrap items-end justify-between gap-3">
+                            <div>
+                                <h1 className="text-xl font-bold tracking-tight">SVperitus — Compositor</h1>
+                                <p className="text-xs text-slate-500 mt-0.5">ISSN 2695-6411 · CC BY-NC-ND 4.0 · J.A. Lloret Egea · Motor Rust (WebAssembly)</p>
+                            </div>
+                            <div className="px-2.5 py-1 rounded-full border border-orange-700 bg-orange-900/30 text-orange-300 text-xs font-mono">
+                                🦀 WASM activo
+                            </div>
+                        </div>
+                        {/* ── Tabs ── */}
+                        <div className="flex gap-6 mt-4 text-sm font-semibold">
+                            <button onClick={()=>setTab("arquitectura")}
+                                className={`pb-2 transition-all ${tab==="arquitectura"?"tab-active":"tab-inactive"}`}>
+                                Arquitectura
+                            </button>
+                            <button onClick={()=>setTab("compositor")}
+                                className={`pb-2 transition-all ${tab==="compositor"?"tab-active":"tab-inactive"}`}>
+                                Compositor interactivo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                {/* ── Content ── */}
+                <div className="max-w-7xl mx-auto px-4 py-6">
+                    {tab === "arquitectura" ? <ArchitectureTab/> : <CompositorTab/>}
+                </div>
+            </div>
+        );
+    }
+
+    ReactDOM.createRoot(document.getElementById("root")).render(<App/>);
+    </script>
+</body>
+</html>
