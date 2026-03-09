@@ -4,7 +4,7 @@ comun/io_utils.py
 Utilidades de entrada/salida compartidas para todos los módulos SVperitus.
 
 Autor: Juan Antonio Lloret Egea  |  ORCID: 0000-0002-6634-3351
-Serie: «De SVcustos a SVperitus»  |  ISSN 2695-641X  |  CC BY-NC-ND 4.0
+Serie: «De SVcustos a SVperitus»  |  ISSN 2695-6411  |  CC BY-NC-ND 4.0
 """
 
 import json
