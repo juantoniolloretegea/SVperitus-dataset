@@ -1,0 +1,111 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/juantoniolloretegea/SVperitus-dataset/especificaciones/esquemas/cell_n25.schema.json",
+  "title": "Célula SV(25,5) — Esquema de configuración YAML",
+  "description": "Contrato que toda configuración YAML de una célula SV con n=25 (b=5) debe respetar. Fuente: Fundamentos algebraico-semánticos del SV, v1.0.0.",
+  "type": "object",
+  "required": ["module", "n", "b", "threshold", "classes", "class_to_idx", "ternary_semantics", "polygon_visual", "layers"],
+  "properties": {
+    "module": {
+      "type": "string",
+      "description": "Identificador del módulo (IMMUNO-1, IMMUNO-2, etc.)"
+    },
+    "n": {
+      "type": "integer",
+      "const": 25,
+      "description": "Tamaño de la célula. Debe ser b² = 25."
+    },
+    "b": {
+      "type": "integer",
+      "const": 5,
+      "description": "Lado del cuadrado. b² = n."
+    },
+    "threshold": {
+      "type": "integer",
+      "const": 19,
+      "description": "T(25) = floor(7*25/9) = 19. Invariante del marco."
+    },
+    "classes": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 3,
+      "maxItems": 3,
+      "description": "Exactamente tres clases. El orden puede variar según la semántica del dominio."
+    },
+    "class_to_idx": {
+      "type": "object",
+      "description": "Mapa clase → índice numérico.",
+      "minProperties": 3,
+      "maxProperties": 3
+    },
+    "ternary_semantics": {
+      "type": "object",
+      "required": ["0", "1", "U"],
+      "properties": {
+        "0": { "type": "string" },
+        "1": { "type": "string" },
+        "U": { "type": "string" }
+      },
+      "additionalProperties": false,
+      "description": "Significado de cada valor ternario en el dominio. Los tres símbolos son obligatorios."
+    },
+    "polygon_visual": {
+      "type": "object",
+      "required": ["radius_0", "radius_1", "radius_U"],
+      "properties": {
+        "radius_0": { "type": "integer", "const": 1 },
+        "radius_1": { "type": "integer", "const": 2 },
+        "radius_U": { "type": "integer", "const": 3 },
+        "background_color": { "type": "string" },
+        "polygon_color": { "type": "string" },
+        "vertex_colors": {
+          "type": "object",
+          "required": ["0", "1", "U"]
+        },
+        "image_size": { "type": "integer" }
+      },
+      "description": "Convención visual del polígono polar. Los radios 1/2/3 son invariantes del marco."
+    },
+    "layers": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "parameters"],
+        "properties": {
+          "id": { "type": "integer", "minimum": 1, "maximum": 5 },
+          "name": { "type": "string" },
+          "parameters": {
+            "type": "array",
+            "minItems": 5,
+            "maxItems": 5,
+            "items": {
+              "type": "object",
+              "required": ["id", "name"],
+              "properties": {
+                "id": { "type": "string", "pattern": "^P[0-2][0-9]$" },
+                "name": { "type": "string" },
+                "description": { "type": "string" }
+              }
+            }
+          }
+        }
+      },
+      "description": "5 capas × 5 parámetros = 25 parámetros. Estructura invariante para n=25."
+    },
+    "population": {
+      "type": "string",
+      "description": "Población diana del dominio clínico."
+    },
+    "dataset": {
+      "type": "object",
+      "description": "Parámetros de generación del dataset sintético."
+    },
+    "training": {
+      "type": "object",
+      "description": "Parámetros de entrenamiento de la CNN."
+    }
+  },
+  "additionalProperties": true
+}
