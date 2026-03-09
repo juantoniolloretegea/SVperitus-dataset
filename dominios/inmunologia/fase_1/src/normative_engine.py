@@ -17,7 +17,7 @@ REGLA DURA DE IMPLEMENTACIÓN
   Nunca se imputa "0" por defecto ante ausencia de datos.
 
 ESTADO DEL MOTOR
-  v0.1 — revisado y validado por Watson 400 / Juan Antonio Lloret Egea.
+  v0.1 — revisado y validado. Juan Antonio Lloret Egea.
   Abierto a revisión adversarial sobre casos tipo antes de generación
   de dataset sintético completo.
 ─────────────────────────────────────────────────────────────────────────────
