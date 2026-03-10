@@ -4,7 +4,7 @@ Repositorio marco de familias especializadas y de sus implementaciones contrasta
 
 El Sistema Vectorial SV evalúa situaciones complejas mediante una gramática ternaria estable: **0** (Apto), **1** (No_Apto), **U** (Indeterminado). A partir de un vector ternario se obtiene una clasificación determinista, una representación geométrica polar cerrada y, cuando procede, una capa de análisis algorítmico o de revisión experta.
 
-**Autoridad normativa:** [Fundamentos algebraico-semánticos del Sistema Vectorial SV](https://www.itvia.online/pub/fundamentos-algebraico-semanticos-del-sistema-vectorial-sv/release/1) — v1.0.0, Release 1.
+**Autoridad normativa:** [Fundamentos algebraico-semánticos del Sistema Vectorial SV](https://www.itvia.online/pub/fundamentos-algebraico-semanticos-del-sistema-vectorial-sv/release/3) — v1.0.0, Release 3.
 
 ---
 
@@ -80,7 +80,7 @@ SVperitus-dataset/
 
 - [Documento 7 — IMMUNO-1](https://www.itvia.online/pub/de-svcustos-el-marco-de-intrusion-hasta-svperitus-immuno-1--profilaxis-infecciosa-y-vacunacion--sv255/release/2)
 - [Documento 8 — Compilador doctrinal y célula meta SV(9,3)-IA](https://www.itvia.online/pub/compilador-doctrinal-y-celula-meta-sv93-ia/release/2)
-- [Fundamentos algebraico-semánticos del SV](https://www.itvia.online/pub/fundamentos-algebraico-semanticos-del-sistema-vectorial-sv/release/1)
+- [Fundamentos algebraico-semánticos del SV](https://www.itvia.online/pub/fundamentos-algebraico-semanticos-del-sistema-vectorial-sv/release/3)
 
 ---
 
