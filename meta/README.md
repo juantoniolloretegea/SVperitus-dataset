@@ -40,7 +40,7 @@ La meta-célula conserva la semántica de integridad heredada de SVcustos (el ma
 ## Referencia cruzada
 
 - Configuración: `config/meta_n9.yaml`
-- Motor Python: se sube junto con el motor de fase 2
+- Motor Python: `meta_engine.py`
 - Port Rust: incluido en `entornos/rust/wasm/src/lib.rs` (funciones `meta_evaluate()`)
 - Compositor: `dominios/inmunologia/compositor/`
 - Documento 8: `documentos/serie/`
