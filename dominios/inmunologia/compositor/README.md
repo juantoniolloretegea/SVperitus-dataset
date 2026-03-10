@@ -26,7 +26,7 @@ Líneas futuras: composición en paralelo para células sin dependencia directa,
 
 | Lenguaje | Archivo | Estado |
 |---|---|---|
-| Python | `compose.py` (pendiente de subir) | 26/26 tests |
+| Python | `compose.py` | 26/26 tests |
 | Rust/WASM | `entornos/rust/wasm/src/lib.rs` → `compose()` | 19/19 paridad |
 | Web interactiva | `aplicaciones/demo_wasm/compositor.html` | Publicada |
 
