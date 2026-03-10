@@ -6,7 +6,7 @@ Núcleo formal compartido entre todos los dominios del Agente Especializado.
 |---|---|---|
 | `polygons.py` | Generación del polígono polar (RADIUS_MAP invariante) | Activo |
 | `io_utils.py` | Utilidades de entrada/salida | Activo |
-| `gamma.py` | Función de criticidad Γ(v) = m − μ | Se incorpora junto con el motor de fase 2 |
+| `gamma.py` | Función de criticidad Γ(v) = m − μ | Activo |
 
 ## Función de criticidad Γ(v)
 
