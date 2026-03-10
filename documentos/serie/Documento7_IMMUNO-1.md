@@ -18,6 +18,10 @@ hasta SVperitus: agentes especializados»*
 
 ---
 
+**Nota del autor para esta edición.** Este documento se integra en el marco doctrinal ya cerrado del proyecto. La autoridad normativa suprema reside en *Fundamentos algebraico-semánticos del Sistema Vectorial SV* (Release 3). La *Guía práctica del conocimiento profundo y la crítica de la razón pura* y la *Declaración de Autoridad Normativa Suprema* actúan como documentos doctrinales subordinados y de encuadre. El presente Documento 7 mantiene su función de demostrador teórico-técnico del primer módulo SVperitus.
+
+---
+
 ## Posición en la serie
 
 Esta serie documental consta de ocho documentos que describen la evolución
@@ -36,7 +40,7 @@ dispositivos) hasta SVperitus (agentes de conocimiento experto):
 | 8 | Compilador SVcustos + SVperitus + Célula meta SV(9,3)-IA |
 
 Los ocho documentos de la serie se publican en:
-https://www.itvia.online/de-svcustos-el-marco-framework-de-intrusion-hasta-svperitus-agentes-especializados
+[https://www.itvia.online/de-svcustos-el-marco-framework-de-intrusion-hasta-svperitus-agentes-especializados](https://www.itvia.online/de-svcustos-el-marco-framework-de-intrusion-hasta-svperitus-agentes-especializados)
 
 El código y los datasets asociados a los Documentos 2–6 se encuentran en el
 repositorio [SVcustos-dataset](https://github.com/juantoniolloretegea/SVcustos-dataset).
@@ -152,7 +156,7 @@ el sustrato de conocimiento sobre el que se construye este demostrador.
 8. [Arquitectura del repositorio](#8-arquitectura-del-repositorio)
 9. [Estrategia multilenguaje: Python, Rust y Kotlin](#9-estrategia-multilenguaje-python-rust-y-kotlin)
 10. [Líneas futuras de investigación y desarrollo](#10-líneas-futuras-de-investigación-y-desarrollo)
-11. [Próximo documento: Documento 8](#11-próximo-documento-documento-8)
+11. [Continuidad del marco y cierre de la serie publicada](#11-continuidad-del-marco-y-cierre-de-la-serie-publicada)
 12. [Referencias](#12-referencias)
 
 ---
@@ -634,27 +638,42 @@ datos y motor normativo.
 ```
 SVperitus-dataset/
 │
-├── common/
+├── especificaciones/           Verdad normativa verificable
+│   ├── nucleo/                 Invariantes formales del SV
+│   ├── conformidad/            Tests de conformidad cruzada C8
+│   └── esquemas/               Contratos YAML (JSON Schema)
+│
+├── dominios/
+│   └── inmunologia/
+│       ├── fase_1/             ← IMMUNO-1 (este módulo)
+│       │   ├── config/imm_n25.yaml     ← PUNTO ÚNICO DE VERDAD
+│       │   └── src/normative_engine.py  ← motor canónico P01–P25
+│       ├── fase_2/             ← IMMUNO-2 (fase siguiente)
+│       └── compositor/         ← composición serie fase 1 → fase 2
+│
+├── comun/
 │   ├── polygons.py          ← draw_polar_polygon()
 │   │                           RADIUS_MAP: {"0":1.0, "1":2.0, "U":3.0}
-│   └── io_utils.py          ← load_config(), save/load_vectors_csv()
+│   ├── io_utils.py          ← load_config(), save/load_vectors_csv()
+│   └── gamma.py             ← función de criticidad Γ(v)
 │
-├── IMMUNO-1/
-│   ├── config/
-│   │   └── imm_n25.yaml     ← PUNTO ÚNICO DE VERDAD
-│   │                           n=25, threshold=19, class_to_idx
-│   ├── normative_engine.py  ← motor canónico P01–P25
-│   │                           evaluate_and_classify(), explain()
-│   ├── generate_cases.py    ← generador sintético (invoca al motor)
-│   ├── generate_polygons.py ← vectores → imágenes polares
-│   ├── train_resnet.py      ← ResNet34 + remapeo canónico
-│   └── evaluate.py          ← evaluación con orden canónico YAML
+├── meta/                    ← meta-célula SV(9,3)-IA
 │
-├── rust/imm1_normative/     ← Fase 2: port Rust (placeholder)
-├── kotlin/                  ← Fase 3: cliente Kotlin (placeholder)
-└── docs/
-    ├── Documento7_IMMUNO-1.md   ← este documento
-    └── Documento8_…             ← Compilador + Célula meta IA
+├── entornos/
+│   ├── python/              ← implementación de referencia
+│   ├── rust/                ← port verificable + WASM
+│   └── kotlin/              ← en observación
+│
+├── aplicaciones/
+│   ├── demo_web/            ← demo JavaScript
+│   ├── demo_wasm/           ← demo Rust/WASM + compositor interactivo
+│   └── cliente_kotlin/      ← formulario interactivo
+│
+├── documentos/
+│   ├── doctrina/            ← paper fundacional, consenso, declaración
+│   └── serie/               ← documentos publicados (7, 8)
+│
+└── muestras/                ← datos de ejemplo
 ```
 
 Las carpetas `data/`, `models/` y `results/` están excluidas del repositorio
@@ -664,24 +683,19 @@ Las carpetas `data/`, `models/` y `results/` están excluidas del repositorio
 
 ## 9. Estrategia multilenguaje: Python, Rust y Kotlin
 
-### Fase 1 — Python: implementación de referencia (estado actual)
+### Fase 1 — Python: implementación de referencia
 
 Motor normativo canónico en `normative_engine.py`. Pipeline completo y
 funcional. Python es y seguirá siendo la **fuente de verdad normativa**.
 Todo cambio en las reglas P01–P25 se hace aquí primero.
 
-### Fase 2 — Rust: port del motor normativo (planificada)
+### Fase 2 — Rust: port verificable y motor WASM
 
-El crate `rust/imm1_normative/` recibirá un caso clínico en JSON, evaluará
-P01–P25 y devolverá el vector ternario y la clase global, garantizando
-**equivalencia bit a bit** con Python en el conjunto de casos exportados
-con `engine.explain()`.
+El port Rust del motor normativo de IMMUNO-1 está implementado, compilado a WebAssembly y publicado. La demo interactiva y los tests de paridad están disponibles en la sección de aplicaciones del repositorio. La equivalencia con Python se verifica mediante la suite de conformidad cruzada. Rust porta además el motor de la fase siguiente de inmunología, el compositor serie y la meta-célula.
 
-### Fase 3 — Kotlin: capa de integración cliente (planificada)
+### Fase 3 — Kotlin: cliente web
 
-Capa de integración para aplicaciones móviles (Android/iOS vía KMP) u
-otros front-ends que consuman el motor vía API. **Kotlin no redefine la
-lógica P01–P25.**
+Un cliente web mínimo basado en Kotlin/JS está publicado como formulario interactivo que consume el motor Rust/WASM. Kotlin no redefine la lógica P01–P25 y permanece en observación conforme al consenso de lenguajes del proyecto, sin privilegio doctrinal.
 
 ### Principio de autoridad único
 
@@ -727,9 +741,7 @@ la validación de IMMUNO-1 n = 25.
 
 ### 10.4. Portabilidad a Rust y Kotlin
 
-Véase Sección 9. El objetivo es un motor normativo portable y auditable, con
-pruebas de paridad formales que garanticen la equivalencia entre
-implementaciones en cualquier entorno.
+Véase Sección 9. El motor normativo de IMMUNO-1 está portado a Rust, compilado a WebAssembly y verificado mediante tests de paridad formales. El cliente Kotlin consume el motor WASM sin redefinir la lógica normativa. La equivalencia entre implementaciones se garantiza por la suite de conformidad cruzada del proyecto.
 
 ### 10.5. Integración en la arquitectura SVperitus n = 625
 
@@ -740,10 +752,7 @@ existentes.
 
 ### 10.6. Célula meta de integridad del modelo de IA — SV(9,3)-IA
 
-El Documento 8 describirá una célula meta SV(9,3)-IA con 9 parámetros que
-vigilan el ciclo de vida del propio modelo de IA. IMMUNO-1 está diseñado para
-ser alojable bajo esta arquitectura de gobernanza. Véase la Sección 11 para
-una vista previa.
+El Documento 8, ya publicado, describe la célula meta SV(9,3)-IA con 9 parámetros que vigilan el ciclo de vida del propio modelo de IA. IMMUNO-1 está diseñado para ser alojable bajo esta arquitectura de gobernanza.
 
 ### 10.7. Vídeo demostrativo
 
@@ -752,41 +761,23 @@ casos y la lectura clínica del polígono con la convención de la Sección 6.1�
 se plantea como una fase posterior, una vez estabilizados el motor normativo
 y el repositorio.
 
+### 10.8. Proyección modular: transmisión intercelular tipada en el marco SV
+
+El presente módulo produce una clase global tipada — Apto, No Apto o Indeterminado — que, por su naturaleza ternaria y por su determinación mediante el motor normativo, es formalmente apta para ser inyectada como parámetro puente en una célula sucesora del marco SV.
+
+Este mecanismo corresponde al operador de sustitución σ_{k,φ} definido en los *Fundamentos algebraico-semánticos del Sistema Vectorial SV* (§7.8): la salida global de una célula se transporta hacia un parámetro concreto de otra célula mediante un conector φ que traduce la clase de origen al valor ternario del parámetro de destino, sin duplicar ni recontar la evaluación interna de la célula precedente.
+
+La consecuencia para el marco es significativa. El Sistema Vectorial SV no se limita a evaluar células aisladas: admite arquitecturas de células acopladas — en serie, en paralelo o en topologías dirigidas — regidas por una álgebra explícita de transmisión. En tales arquitecturas, cada célula conserva su autonomía normativa local de evaluación, pero su clase global puede alimentar a otras células como parámetro puente auditado y trazable. El conjunto resultante es potencialmente más expresivo que cualquier célula individual, y su resolución se rige por composición algebraica exacta, no por estadística, minería de datos ni delegación opaca en inteligencia artificial.
+
+El desarrollo de este patrón compositivo constituye una línea activa del proyecto. El proyecto cuenta ya con un caso interno en desarrollo en la fase siguiente de inmunología, donde la clase global de IMMUNO-1 se inyecta como parámetro puente en una célula sucesora. La formalización completa de la álgebra de transmisión intercelular — incluyendo topologías permitidas, reglas de prioridad entre señales heredadas y locales, y operadores de resolución de conflicto — se abordará en documentos posteriores de la serie.
+
 ---
 
-## 11. Próximo documento: Documento 8
+## 11. Continuidad del marco y cierre de la serie publicada
 
-El **Documento 8** cerrará la serie con dos contribuciones:
+El Documento 8, ya publicado, cierra la serie documental «De SVcustos, el marco de intrusión, hasta SVperitus: agentes especializados» mediante dos contribuciones: el compilador doctrinal del marco y la célula meta de integridad SV(9,3)-IA. A partir de ese cierre, el presente Documento 7 debe leerse dentro de la jerarquía doctrinal ya fijada por *Fundamentos algebraico-semánticos del Sistema Vectorial SV*, la *Guía práctica del conocimiento profundo y la crítica de la razón pura* y la *Declaración de Autoridad Normativa Suprema*.
 
-**Compilador SVcustos + SVperitus:** descripción formal del mecanismo de
-composición que permite combinar células SV de dominios distintos (detección
-de intrusiones + conocimiento experto clínico) bajo una gramática algebraica
-unificada.
-
-**Célula meta SV(9,3)-IA — integridad del modelo de IA:** una célula de
-conocimiento con n = 9 (b = 3, T(9) = 7) y 9 parámetros que vigilan el
-ciclo de vida del propio sistema de IA:
-
-| Pₖ | Parámetro |
-|---|---|
-| P1 | Integridad de pesos (hash/firma del modelo) |
-| P2 | Procedencia del dataset (trazabilidad y licencia) |
-| P3 | Control de accesos (identidades y permisos) |
-| P4 | Tests adversariales (robustez frente a entradas hostiles) |
-| P5 | Telemetría (monitorización de inferencias en producción) |
-| P6 | Aislamiento de entornos (dev / staging / producción) |
-| P7 | Logging inalterable (registro inmutable de predicciones) |
-| P8 | Supervisión humana (circuitos de revisión activos) |
-| P9 | Cadena de suministro software (integridad de dependencias) |
-
-Regla: T(9) = 7.
-
-- n₁ ≥ 7 → **INTRUSIÓN** → confianza en el modelo **anulada**
-- n₀ ≥ 7 → **NORMAL** → modelo operable con normalidad
-- resto → **INDETERMINADO** → confianza suspendida, solo bajo supervisión reforzada
-
-Esta célula meta es aplicable a cualquier módulo SVperitus, incluido IMMUNO-1,
-proporcionando una capa de gobernanza transversal a toda la arquitectura SV.
+Las líneas futuras abiertas por IMMUNO-1 incluyen, entre otras, la validación clínica externa del motor normativo, la ampliación a módulos especializados adicionales y la formalización de arquitecturas de composición entre células del marco SV.
 
 ---
 
