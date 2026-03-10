@@ -177,7 +177,7 @@ El paper fundacional (§7.3) define χᵢ : Cᵢ → Ωᵢ sin especificar Ωᵢ
 
 ### 7.3. Conteo de valores U: Nᵤ, nᵤ y m
 
-El paper fundacional usa dos notaciones: Nᵤ (§5.1, mayúscula, coherente con N₀ y N₁) y nᵤ (§7.10, minúscula, al introducir Γ). Los documentos de implementación y la función `gamma.py` usan m(v).
+El paper fundacional usa Nᵤ (mayúscula, coherente con N₀ y N₁) desde su Release 3. Los documentos de implementación y la función `gamma.py` usan m(v).
 
 **Resolución:** se adopta la siguiente convención. En textos formales y en el paper fundacional, Nᵤ o nᵤ son equivalentes y se refieren al número de componentes con valor U. En código y documentos de implementación, m es el símbolo preferido por brevedad y porque evita la ambigüedad del subíndice. La equivalencia es: Nᵤ(v) = nᵤ(v) = m(v) = número de valores U en v. Ninguna de las tres notaciones es incorrecta; m se prefiere en el plano operativo.
 
