@@ -7,7 +7,7 @@
 
 ## Edición vigente
 
-Esta ediciión (consolidación doctrinal definitiva):
+Esta edición (consolidación doctrinal definitiva):
 https://www.itvia.online/pub/compilador-doctrinal-y-celula-meta-sv93-ia/release/5
 
 ---
