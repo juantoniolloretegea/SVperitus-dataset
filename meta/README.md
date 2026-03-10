@@ -35,7 +35,7 @@ La meta-célula conserva la semántica de integridad heredada de SVcustos (el ma
 | Archivo | Descripción |
 |---|---|
 | `config/meta_n9.yaml` | Configuración YAML de la meta-célula |
-| `meta_engine.py` | Motor normativo Python (pendiente de subir) |
+| `meta_engine.py` | Motor normativo Python |
 
 ## Referencia cruzada
 
