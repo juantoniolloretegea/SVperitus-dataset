@@ -33,8 +33,8 @@ P25 es un conector experimental que demuestra el mecanismo de composición de la
 | Archivo | Descripción |
 |---|---|
 | `IMMUNO2_P01-P25_spec.md` | Especificación completa: 25 parámetros, 5 capas, criterios 0/1/U, referencias clínicas |
-| `config/imm2_n25.yaml` | Punto único de verdad (pendiente de subir) |
-| `src/normative_engine.py` | Motor normativo P01–P25 (pendiente de subir) |
+| `config/imm2_n25.yaml` | Punto único de verdad |
+| `src/normative_engine.py` | Motor normativo P01–P25 (93/93 tests) |
 
 ## Exclusiones
 
