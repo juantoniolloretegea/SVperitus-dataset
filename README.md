@@ -1,21 +1,22 @@
 # SVperitus-dataset — Agentes Especializados basados en el Sistema Vectorial SV
 
-Repositorio marco de familias especializadas y de sus implementaciones contrastables y conformes al marco.
+Repositorio marco de familias especializadas y de sus implementaciones contrastables y conformes al Sistema Vectorial SV.
 
 El Sistema Vectorial SV evalúa situaciones complejas mediante una gramática ternaria estable: **0** (Apto), **1** (No_Apto), **U** (Indeterminado). A partir de un vector ternario se obtiene una clasificación determinista, una representación geométrica polar cerrada y, cuando procede, una capa de análisis algorítmico o de revisión experta.
 
-**Autoridad normativa:** [Fundamentos algebraico-semánticos del Sistema Vectorial SV](https://www.itvia.online/pub/fundamentos-algebraico-semanticos-del-sistema-vectorial-sv/release/3) — v1.0.0, Release 3.
+**Autoridad normativa principal:** [Fundamentos algebraico-semánticos del Sistema Vectorial SV](https://www.itvia.online/pub/fundamentos-algebraico-semanticos-del-sistema-vectorial-sv/release/3)  
+**Colección pública de referencia:** [Álgebra de composición intercelular del Sistema Vectorial SV](https://www.itvia.online/algebra-de-composicion-intercelular-del-sistema-vectorial-sv)
 
 ---
 
 ## Estructura del repositorio
 
-```
+```text
 SVperitus-dataset/
 │
-├── especificaciones/           Verdad normativa verificable
-│   ├── nucleo/                 Invariantes formales del SV (42 verificaciones)
-│   ├── conformidad/            Tests de conformidad cruzada C8 (19 casos paridad)
+├── especificaciones/           Verdad normativa verificable y puentes de aplicación
+│   ├── nucleo/                 Invariantes formales del SV y referencias nucleares de aplicación
+│   ├── conformidad/            Tests de conformidad cruzada C8 (19 casos de paridad)
 │   └── esquemas/               Contratos YAML (JSON Schema)
 │
 ├── dominios/                   Familias de dominio (Capa C)
@@ -39,42 +40,71 @@ SVperitus-dataset/
 │   ├── cliente_kotlin/         Formulario interactivo
 │   └── cuadernos/              Notebooks (futuro)
 │
-├── documentos/                 Documentación + DOIs
-│   ├── doctrina/               Paper fundacional, Álgebra, Sentencia
-│   └── serie/                  Documentos publicados (7, 8, 9...)
+├── documentos/                 Documentación y publicaciones relacionadas
+│   ├── doctrina/               Paper fundacional, Álgebra, Guía y textos de encaje
+│   └── serie/                  Documentos publicados del programa SVperitus
 │
 └── muestras/                   Datos de ejemplo
 ```
 
 ---
 
+## Núcleo de aplicación subordinada
+
+El directorio `especificaciones/nucleo/` incorpora, además de los invariantes formales verificables, una pieza explícita de enlace con la publicación canónica sobre la U:
+
+- [referencia_u_sv_y_su_aplicacion_en_svperitus.md](./especificaciones/nucleo/referencia_u_sv_y_su_aplicacion_en_svperitus.md)
+
+Esta pieza tiene naturaleza de **nota puente de aplicación subordinada**. Su función es fijar cómo debe entenderse la U dentro del marco SVperitus, preservando la jerarquía normativa siguiente:
+
+1. publicación canónica en `itvia.online`;
+2. `SV-matematica-semantica` como repositorio padre doctrinal;
+3. la serie **Álgebra de composición intercelular del Sistema Vectorial SV**;
+4. *La guía práctica del conocimiento profundo y la crítica de la razón pura*;
+5. las presentes notas y referencias de aplicación a SVperitus.
+
+Por tanto, ningún archivo de este repositorio puede leerse como modificación lateral de la doctrina ni como fuente autónoma de verdad normativa.
+
+---
+
 ## Primer dominio disponible: inmunología clínica
 
-- **Fase 1 (IMMUNO-1):** evaluación de profilaxis antiinfecciosa en pacientes con inmunosupresión farmacológica. SV(25,5), T(25)=19. Motor normativo completo, port Rust, WASM, demo web. 108/108 tests de paridad. Publicado.
-- **Fase 2 (IMMUNO-2):** evaluación de riesgo infeccioso en IS farmacológica no trasplante. SV(25,5), T(25)=19. Motor normativo (93 tests), función de criticidad Γ(v) (52 tests), compositor serie (26 tests), meta-célula SV(9,3)-IA. Port Rust/WASM con 19/19 tests de paridad.
-- **Compositor serie:** IMMUNO-1 → P25 → IMMUNO-2. Demostración del mecanismo de composición de la gramática SV. Incluye autocrítica documentada.
-- **Función Γ(v) = m − μ:** clasifica la indeterminación en irreducible, fronteriza o resoluble. Matemática exacta, sin estadística.
+- **Fase 1 (IMMUNO-1):** evaluación de profilaxis antiinfecciosa en pacientes con inmunosupresión farmacológica. SV(25,5), T(25)=19. Motor normativo completo, port Rust, WASM, demo web y 108/108 tests de paridad. Publicado.
+- **Fase 2 (IMMUNO-2):** evaluación de riesgo infeccioso en inmunosupresión farmacológica no trasplante. SV(25,5), T(25)=19. Motor normativo, función de criticidad Γ(v), compositor serie y meta-célula SV(9,3)-IA. Port Rust/WASM con paridad verificada.
+- **Compositor serie:** IMMUNO-1 → P25 → IMMUNO-2. Demostración del mecanismo de composición de la gramática SV, con autocrítica documentada.
+- **Función Γ(v) = m − μ:** clasifica la indeterminación en irreducible, fronteriza o resoluble, dentro de una matemática exacta sin estadística.
+
+---
+
+## Regla de interpretación en SVperitus
+
+Dentro de este repositorio, la terna `{0,1,U}` debe entenderse siempre bajo estas condiciones:
+
+- la convención canónica de la terna permanece invariante;
+- la **U** no se degrada a probabilidad, nulidad o inferencia opaca;
+- la validación experta y el motor normativo del dominio prevalecen sobre cualquier automatismo;
+- las salidas del sistema deben mantener trazabilidad y auditabilidad.
+
+---
 
 ## Demos en vivo
 
-| Demo | Motor | URL |
-|---|---|---|
-| IMMUNO-1 interactivo | Rust/WASM | [Demo WASM](https://juantoniolloretegea.github.io/SVperitus-dataset/aplicaciones/demo_wasm/) |
-| Compositor IMMUNO-1 → IMMUNO-2 | Rust/WASM + JS (Γ) | [Compositor](https://juantoniolloretegea.github.io/SVperitus-dataset/aplicaciones/demo_wasm/compositor.html) |
-| Tests de paridad WASM vs Python | Rust/WASM | [19/19 tests](https://juantoniolloretegea.github.io/SVperitus-dataset/aplicaciones/demo_wasm/test_parity_wasm.html) |
-| IMMUNO-1 formulario Kotlin | JS + WASM | [Cliente Kotlin](https://juantoniolloretegea.github.io/SVperitus-dataset/aplicaciones/cliente_kotlin/) |
-| IMMUNO-1 demo JavaScript | JS puro | [Demo JS](https://juantoniolloretegea.github.io/SVperitus-dataset/aplicaciones/demo_web/) |
+- **IMMUNO-1 interactivo:** [Demo WASM](https://juantoniolloretegea.github.io/SVperitus-dataset/aplicaciones/demo_wasm/)
+- **Compositor IMMUNO-1 → IMMUNO-2:** [Compositor](https://juantoniolloretegea.github.io/SVperitus-dataset/aplicaciones/demo_wasm/compositor.html)
+- **Tests de paridad WASM vs Python:** [19/19 tests](https://juantoniolloretegea.github.io/SVperitus-dataset/aplicaciones/demo_wasm/test_parity_wasm.html)
+- **IMMUNO-1 formulario Kotlin:** [Cliente Kotlin](https://juantoniolloretegea.github.io/SVperitus-dataset/aplicaciones/cliente_kotlin/)
+- **IMMUNO-1 demo JavaScript:** [Demo JS](https://juantoniolloretegea.github.io/SVperitus-dataset/aplicaciones/demo_web/)
 
 ---
 
 ## Regla de oro
 
-> Ningún lenguaje ocupa el lugar semántico de una familia.
+> Ningún lenguaje ocupa el lugar semántico de una familia.  
 > Ninguna familia ocupa el lugar doctrinal del núcleo SVperitus.
 
 ---
 
-## Serie
+## Serie y referencias públicas
 
 «De SVcustos, el marco (framework) de intrusión, hasta SVperitus: agentes especializados»
 
@@ -82,15 +112,24 @@ SVperitus-dataset/
 - [Documento 8 — Compilador doctrinal y célula meta SV(9,3)-IA](https://www.itvia.online/pub/compilador-doctrinal-y-celula-meta-sv93-ia/release/5)
 - [Fundamentos algebraico-semánticos del SV](https://www.itvia.online/pub/fundamentos-algebraico-semanticos-del-sistema-vectorial-sv/release/3)
 - [La guía práctica del conocimiento profundo y la crítica de la razón pura](https://www.itvia.online/pub/la-guia-practica-del-conocimiento-profundoy-la-critica-de-la-razon-pura/release/2)
+- [Origen doctrinal, definición y alcance de la U en el Sistema Vectorial SV](https://www.itvia.online/pub/origen-doctrinal-definicion-y-alcance-de-la-u-en-el-sistema-vectorial-sv/release/1)
+- [Colección pública: Álgebra de composición intercelular del Sistema Vectorial SV](https://www.itvia.online/algebra-de-composicion-intercelular-del-sistema-vectorial-sv)
+
+---
+
+## Regla editorial
+
+Los documentos del sistema se publican canónicamente en `itvia.online`.
+Los repositorios contienen código, datos, artefactos de soporte y reflejos o puentes de aplicación. Por ello, este repositorio no sustituye la publicación canónica, sino que la acompaña dentro del entorno técnico y aplicado de SVperitus.
 
 ---
 
 ## Autor
 
-**Juan Antonio Lloret Egea**
+**Juan Antonio Lloret Egea**  
 ORCID: [0000-0002-6634-3351](https://orcid.org/0000-0002-6634-3351)
 
-**ISSN:** 2695-6411
+**ISSN:** 2695-6411  
 **Licencia:** CC BY-NC-ND 4.0
 
 ---
@@ -99,3 +138,5 @@ ORCID: [0000-0002-6634-3351](https://orcid.org/0000-0002-6634-3351)
 
 - SVcustos-dataset (Docs 2–6): https://github.com/juantoniolloretegea/SVcustos-dataset
 - SVperitus-dataset (Docs 7+): https://github.com/juantoniolloretegea/SVperitus-dataset
+- SV-matematica-semantica (repositorio padre doctrinal): https://github.com/juantoniolloretegea/SV-matematica-semantica
+- SV-lenguaje-de-computacion (derivación técnica del lenguaje SVP): https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion
