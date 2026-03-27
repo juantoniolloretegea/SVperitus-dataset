@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SVperitus — Monitor poligonal del Agente de Seguridad Estructural</title>
+  <style>
+    :root {
+      --bg: #0A1628;
+      --panel: #10203A;
+      --panel2: #122540;
+      --text: #E5EDF7;
+      --muted: #9DB0C8;
+      --gold: #C9A84C;
+      --green: #4CAF50;
+      --red: #F44336;
+      --amber: #FFC107;
+      --border: rgba(255,255,255,0.10);
+      --ring: rgba(255,255,255,0.16);
+    }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Inter, system-ui, sans-serif; background:var(--bg); color:var(--text); }
+    .wrap { max-width: 1480px; margin:0 auto; padding:24px; }
+    .hero { background: linear-gradient(135deg, rgba(201,168,76,0.15), rgba(255,255,255,0.04)); border:1px solid var(--border); border-radius: 24px; padding: 22px; margin-bottom: 18px; }
+    h1,h2,h3,p { margin-top:0; }
+    .muted { color: var(--muted); }
+    .selector { display:flex; flex-wrap:wrap; gap:10px; margin: 14px 0 18px; }
+    .selector button { background:var(--panel2); color:var(--text); border:1px solid var(--border); border-radius:999px; padding:10px 14px; cursor:pointer; }
+    .selector button.active { border-color:var(--gold); color:var(--gold); box-shadow: 0 0 0 1px rgba(201,168,76,0.25) inset; }
+    .summary { display:grid; grid-template-columns: 1.2fr 0.8fr; gap: 18px; margin-bottom: 18px; }
+    .card { background:var(--panel); border:1px solid var(--border); border-radius:20px; padding:16px; }
+    .meta-row { display:flex; flex-wrap:wrap; gap:8px; margin:8px 0 12px; }
+    .pill { display:inline-flex; align-items:center; gap:8px; border-radius:999px; border:1px solid var(--border); padding:6px 10px; font-size:0.92rem; }
+    .main-grid { display:grid; grid-template-columns: repeat(5, minmax(220px, 1fr)); gap:16px; }
+    .poly-card { background:rgba(255,255,255,0.03); border:1px solid var(--border); border-radius:18px; padding:14px; }
+    .poly-title { display:flex; justify-content:space-between; align-items:center; gap:8px; margin-bottom:10px; }
+    .badge { display:inline-block; padding:4px 10px; border-radius:999px; font-size:0.82rem; font-weight:800; border:1px solid transparent; color:#07131F; }
+    .badge.APTO { background:#4CAF50; border-color:#4CAF50; }
+    .badge.NO_APTO { background:#F44336; border-color:#F44336; }
+    .badge.INDETERMINADO { background:#FFC107; border-color:#FFC107; }
+    .counts { display:flex; gap:8px; flex-wrap:wrap; margin-top:10px; }
+    .count { font-size:0.80rem; border-radius:999px; padding:4px 8px; border:1px solid transparent; font-weight:700; color:#07131F; }
+    .count.zero { background:#4CAF50; border-color:#4CAF50; }
+    .count.one { background:#F44336; border-color:#F44336; }
+    .count.u { background:#FFC107; border-color:#FFC107; }
+    .tabs { display:flex; gap:10px; margin:18px 0 12px; flex-wrap:wrap; }
+    .tabs button { background:transparent; color:var(--muted); border:1px solid var(--border); border-radius:999px; padding:8px 12px; cursor:pointer; }
+    .tabs button.active { color:var(--gold); border-color:var(--gold); }
+    .tab-panel { display:none; }
+    .tab-panel.active { display:block; }
+    ul { margin: 8px 0 0 18px; }
+    .delta-grid { display:grid; grid-template-columns: 1fr 1fr; gap:16px; }
+    a { color:var(--gold); }
+    @media (max-width: 1220px) { .main-grid { grid-template-columns: repeat(2, minmax(220px,1fr)); } .summary,.delta-grid { grid-template-columns: 1fr; } }
+    @media (max-width: 720px) { .main-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <section class="hero">
+    <h1>Monitor poligonal del Agente especializado en Seguridad Estructural</h1>
+    <p class="muted">Parche 2A. La lectura abre con el <strong>polígono</strong>, no con la explicación. El cambio semántico lo decide el <strong>SUCESO</strong> en horizonte declarado. La fecha sólo localiza. El cierre final relevante sigue reservado al agente humano.</p>
+    <p><a href="./sucesos.html" target="_blank" rel="noopener noreferrer">Abrir ejemplos de SUCESOS reales de esta fase de diseño</a></p>
+  </section>
+
+  <div id="selector" class="selector"></div>
+
+  <section class="summary">
+    <article class="card">
+      <h2 id="title">—</h2>
+      <p id="desc" class="muted"></p>
+      <div id="meta" class="meta-row"></div>
+      <div id="alertsBrief"></div>
+    </article>
+    <article class="card">
+      <h2>Lectura breve del SUCESO</h2>
+      <div id="reading"></div>
+    </article>
+  </section>
+
+  <section class="card">
+    <h2>Polígonos del SUCESO actual</h2>
+    <div id="mainGrid" class="main-grid"></div>
+  </section>
+
+  <div class="tabs" id="tabs">
+    <button data-tab="delta" class="active">Delta</button>
+    <button data-tab="u">Razones de U</button>
+    <button data-tab="alerts">Alertas</button>
+    <button data-tab="sources">Evidencia</button>
+  </div>
+
+  <section id="tab-delta" class="card tab-panel active"><div id="deltaContainer"></div></section>
+  <section id="tab-u" class="card tab-panel"><div id="uContainer"></div></section>
+  <section id="tab-alerts" class="card tab-panel"><div id="alertsContainer"></div></section>
+  <section id="tab-sources" class="card tab-panel"><div id="sourcesContainer"></div></section>
+</div>
+
+<script>
+const SNAPSHOTS = [{"agent_id": "seguridad_estructural", "plane": "design", "cell_family": "seguridad_estructural", "phase_id": "seguridad-diseno-fase-base", "horizon_id": "H_DISENO_SEGURIDAD_2026_FASE_BASE", "fecha_observacion": "2026-03-26T20:00:00+01:00", "suceso": {"suceso_id": "S1", "suceso_tipo": "apertura_del_frente", "descripcion": "Delimitación inicial del agente de seguridad estructural como familia especializada de vigilancia y custodia del diseño."}, "cells": {"C_obj": ["0", "0", "0", "0", "0", "U", "U", "U", "U"], "C_base": ["0", "0", "0", "0", "0", "0", "0", "U", "U"], "C_diseno": ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "U", "U", "U", "U", "U", "U", "U", "U", "U", "U", "U", "U", "U", "U", "U", "U", "U", "U"]}, "classes": {"C_obj": "INDETERMINADO", "C_base": "APTO", "C_diseno": "INDETERMINADO", "S_suelo": "INDETERMINADO", "A_custodia": "INDETERMINADO"}, "alerts": [{"scope": "C_obj", "level": "U", "message": "Persisten objetivos todavía no cerrados materialmente en esta fase.", "positions": ["O6 Revisión del corpus SV aplicable", "O7 Base teórica suficiente", "O8 Laboratorios y verificaciones definidos", "O9 Integración con calidad y diseño reconocidos"]}, {"scope": "C_base", "level": "U", "message": "Persisten elementos de soporte técnico-operativo aún indeterminados.", "positions": ["B8 Espejos delgados y origen único", "B9 Ausencia de atajos opacos"]}, {"scope": "C_diseno", "level": "U", "message": "Persisten posiciones de diseño, documentación o artefacto todavía no resueltas.", "positions": ["D19", "D20", "D21", "D22", "D23", "D24", "D25", "D26", "D27", "D28", "D29", "D30", "D31", "D32", "D33", "D34", "D35", "D36"]}], "u_reasons": ["La U se conserva cuando la cadena captura → admisibilidad → transducción → parametrización no permite cierre fuerte legítimo.", "El tiempo no funda la reevaluación; sólo la localiza. El cambio semántico viene dado por SUCESO en horizonte declarado."], "sources": [{"repo": "SV-matematica-semantica", "kind": "documento_canónico", "path": "documentos/celulas_especializadas_sv/"}, {"repo": "SV-lenguaje-de-computacion", "kind": "calidad_y_diseño", "path": "docs/calidad/"}, {"repo": "SVperitus-dataset", "kind": "visualización_y_uso", "path": "aplicaciones/demo_wasm/compositor.html"}], "delta_from_previous": {"comparable": false, "reason": "Primer SUCESO declarado del horizonte."}, "human_override_required": true, "append_only": true}, {"agent_id": "seguridad_estructural", "plane": "design", "cell_family": "seguridad_estructural", "phase_id": "seguridad-diseno-reordenacion-suelo", "horizon_id": "H_DISENO_SEGURIDAD_2026_REORDENACION_SUELO", "fecha_observacion": "2026-03-27T09:00:00+01:00", "suceso": {"suceso_id": "S2", "suceso_tipo": "reconfiguracion_tipada", "descripcion": "Sustitución del antiguo primer piso externo por la célula de objetivos y renombrado del subsistema inferior como suelo tipado."}, "cells": {"C_obj": ["0", "0", "0", "0", "0", "0", "0", "U", "U"], "C_base": ["0", "0", "0", "0", "0", "0", "U", "U", "U"], "C_diseno": ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "U", "U", "U", "U", "U", "U", "U", "U", "U", "U", "U", "U"]}, "classes": {"C_obj": "APTO", "C_base": "INDETERMINADO", "C_diseno": "INDETERMINADO", "S_suelo": "INDETERMINADO", "A_custodia": "INDETERMINADO"}, "alerts": [{"scope": "C_obj", "level": "U", "message": "Persisten objetivos todavía no cerrados materialmente en esta fase.", "positions": ["O8 Laboratorios y verificaciones definidos", "O9 Integración con calidad y diseño reconocidos"]}, {"scope": "C_base", "level": "U", "message": "Persisten elementos de soporte técnico-operativo aún indeterminados.", "positions": ["B7 Registro de ejecución disponible", "B8 Espejos delgados y origen único", "B9 Ausencia de atajos opacos"]}, {"scope": "C_diseno", "level": "U", "message": "Persisten posiciones de diseño, documentación o artefacto todavía no resueltas.", "positions": ["D25", "D26", "D27", "D28", "D29", "D30", "D31", "D32", "D33", "D34", "D35", "D36"]}], "u_reasons": ["La U se conserva cuando la cadena captura → admisibilidad → transducción → parametrización no permite cierre fuerte legítimo.", "El tiempo no funda la reevaluación; sólo la localiza. El cambio semántico viene dado por SUCESO en horizonte declarado."], "sources": [{"repo": "SV-matematica-semantica", "kind": "documento_canónico", "path": "documentos/celulas_especializadas_sv/"}, {"repo": "SV-lenguaje-de-computacion", "kind": "calidad_y_diseño", "path": "docs/calidad/"}, {"repo": "SVperitus-dataset", "kind": "visualización_y_uso", "path": "aplicaciones/demo_wasm/compositor.html"}], "delta_from_previous": {"comparable": true, "previous_suceso_id": "S1", "changed_positions": {"C_obj": ["O6 Revisión del corpus SV aplicable", "O7 Base teórica suficiente"], "C_base": ["B7 Registro de ejecución disponible"], "C_diseno": ["D19", "D20", "D21", "D22", "D23", "D24"]}, "class_transition": {"C_obj": "INDETERMINADO -> APTO", "C_base": "APTO -> INDETERMINADO", "C_diseno": "INDETERMINADO -> INDETERMINADO", "S_suelo": "INDETERMINADO -> INDETERMINADO", "A_custodia": "INDETERMINADO -> INDETERMINADO"}}, "human_override_required": true, "append_only": true}, {"agent_id": "seguridad_estructural", "plane": "design", "cell_family": "seguridad_estructural", "phase_id": "seguridad-diseno-monitor-dual", "horizon_id": "H_DISENO_SEGURIDAD_2026_MONITOR_DUAL", "fecha_observacion": "2026-03-27T12:00:00+01:00", "suceso": {"suceso_id": "S3", "suceso_tipo": "habilitacion_de_monitorizacion", "descripcion": "Fijación del monitor dual diseño/uso, del eje por SUCESOS y de la exigencia de polígonos reales como interfaz primaria de seguimiento humano."}, "cells": {"C_obj": ["0", "0", "0", "0", "0", "0", "0", "0", "U"], "C_base": ["0", "0", "0", "0", "0", "0", "0", "U", "U"], "C_diseno": ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "U", "U", "U", "U", "U", "U", "U", "U", "U"]}, "classes": {"C_obj": "APTO", "C_base": "APTO", "C_diseno": "INDETERMINADO", "S_suelo": "APTO", "A_custodia": "INDETERMINADO"}, "alerts": [{"scope": "C_obj", "level": "U", "message": "Persisten objetivos todavía no cerrados materialmente en esta fase.", "positions": ["O9 Integración con calidad y diseño reconocidos"]}, {"scope": "C_base", "level": "U", "message": "Persisten elementos de soporte técnico-operativo aún indeterminados.", "positions": ["B8 Espejos delgados y origen único", "B9 Ausencia de atajos opacos"]}, {"scope": "C_diseno", "level": "U", "message": "Persisten posiciones de diseño, documentación o artefacto todavía no resueltas.", "positions": ["D28", "D29", "D30", "D31", "D32", "D33", "D34", "D35", "D36"]}], "u_reasons": ["La U se conserva cuando la cadena captura → admisibilidad → transducción → parametrización no permite cierre fuerte legítimo.", "El tiempo no funda la reevaluación; sólo la localiza. El cambio semántico viene dado por SUCESO en horizonte declarado."], "sources": [{"repo": "SV-matematica-semantica", "kind": "documento_canónico", "path": "documentos/celulas_especializadas_sv/"}, {"repo": "SV-lenguaje-de-computacion", "kind": "calidad_y_diseño", "path": "docs/calidad/"}, {"repo": "SVperitus-dataset", "kind": "visualización_y_uso", "path": "aplicaciones/demo_wasm/compositor.html"}], "delta_from_previous": {"comparable": true, "previous_suceso_id": "S2", "changed_positions": {"C_obj": ["O8 Laboratorios y verificaciones definidos"], "C_base": ["B7 Registro de ejecución disponible"], "C_diseno": ["D25", "D26", "D27"]}, "class_transition": {"C_obj": "APTO -> APTO", "C_base": "INDETERMINADO -> APTO", "C_diseno": "INDETERMINADO -> INDETERMINADO", "S_suelo": "INDETERMINADO -> APTO", "A_custodia": "INDETERMINADO -> INDETERMINADO"}}, "human_override_required": true, "append_only": true}];
+const COLORS = { '0':'#4CAF50', '1':'#F44336', 'U':'#FFC107' };
+const RADII = { '0':1, '1':2, 'U':3 };
+const BG = '#0D1B2A';
+const CLASS_STYLES = {
+  'APTO': { fill:'rgba(76,175,80,0.22)', stroke:'#4CAF50' },
+  'NO_APTO': { fill:'rgba(244,67,54,0.22)', stroke:'#F44336' },
+  'INDETERMINADO': { fill:'rgba(255,193,7,0.22)', stroke:'#FFC107' }
+};
+let snapshots = [];
+let current = 0;
+
+function countValues(vector) {
+  return { n0: vector.filter(v=>v==='0').length, n1: vector.filter(v=>v==='1').length, nU: vector.filter(v=>v==='U').length };
+}
+
+function buildSvg(vector, klass, {labels=true, large=false} = {}) {
+  const n = vector.length;
+  const size = large ? 320 : 260;
+  const cx = size / 2;
+  const cy = size / 2;
+  const baseR = size * 0.11;
+  const stepR = size * 0.095;
+  const maxR = baseR + 3 * stepR;
+  const pts = vector.map((v, i) => {
+    const angle = -Math.PI / 2 + i * 2 * Math.PI / n;
+    const radius = baseR + RADII[v] * stepR;
+    return {
+      x: cx + Math.cos(angle) * radius,
+      y: cy + Math.sin(angle) * radius,
+      lx: cx + Math.cos(angle) * (maxR + size * 0.06),
+      ly: cy + Math.sin(angle) * (maxR + size * 0.06),
+      v,
+      index: i + 1
+    };
+  });
+  const poly = pts.map(p => `${p.x},${p.y}`).join(' ');
+  const circles = [1,2,3].map(l => `<circle cx="${cx}" cy="${cy}" r="${baseR + l*stepR}" fill="none" stroke="rgba(255,255,255,0.18)" stroke-dasharray="5 5"/>`).join('');
+  const rays = pts.map(pt => `<line x1="${cx}" y1="${cy}" x2="${pt.x}" y2="${pt.y}" stroke="rgba(255,255,255,0.10)"/>`).join('');
+  const style = CLASS_STYLES[klass] || CLASS_STYLES['INDETERMINADO'];
+  const points = pts.map(pt => `<g><circle cx="${pt.x}" cy="${pt.y}" r="${n===36?4:5.5}" fill="${COLORS[pt.v]}"/>${labels ? `<text x="${pt.lx}" y="${pt.ly}" fill="white" font-size="${n===36?8:11}" font-family="monospace" text-anchor="middle" dominant-baseline="middle">${n===36 ? 'D'+String(pt.index).padStart(2,'0') : (n===9 ? 'P'+String(pt.index).padStart(2,'0') : String(pt.index))}</text>` : ''}</g>`).join('');
+  return `<svg viewBox="0 0 ${size} ${size}" style="width:100%;height:auto;background:${BG};border-radius:14px;">${circles}${rays}<polygon points="${poly}" fill="${style.fill}" stroke="${style.stroke}" stroke-width="2.4"/>${points}</svg>`;
+}
+
+function renderSelector() {
+  const selector = document.getElementById('selector');
+  selector.innerHTML = snapshots.map((s, idx) => `<button class="${idx===current?'active':''}" data-index="${idx}">${s.suceso.suceso_id} · ${s.phase_id}</button>`).join('');
+  selector.querySelectorAll('button').forEach(btn => btn.addEventListener('click', () => { current = Number(btn.dataset.index); render(); }));
+}
+
+function briefReading(snapshot) {
+  const c = snapshot.classes;
+  const alerts = snapshot.alerts.length;
+  const unresolved = snapshot.alerts.reduce((acc,a)=>acc + a.positions.length, 0);
+  return `El SUCESO ${snapshot.suceso.suceso_id} conserva un suelo ${c.S_suelo} y una custodia ${c.A_custodia}. Hay ${alerts} alerta(s) activas y ${unresolved} posición(es) todavía abiertas o indeterminadas. La decisión final relevante sigue reservada al agente humano.`;
+}
+
+function render() {
+  const s = snapshots[current];
+  document.getElementById('title').textContent = `${s.suceso.suceso_id} — ${s.phase_id}`;
+  document.getElementById('desc').textContent = s.suceso.descripcion;
+  document.getElementById('meta').innerHTML = [
+    `<span class="pill"><strong>Horizonte</strong> ${s.horizon_id}</span>`,
+    `<span class="pill"><strong>Plano</strong> ${s.plane}</span>`,
+    `<span class="pill"><strong>Tipo</strong> ${s.suceso.suceso_tipo}</span>`,
+    `<span class="pill"><strong>Fecha</strong> ${s.fecha_observacion || '—'}</span>`,
+    `<span class="pill"><strong>Estado final</strong> <span class="badge ${s.classes.A_custodia}">${s.classes.A_custodia}</span></span>`
+  ].join('');
+  const brief = s.alerts.length ? `<ul>${s.alerts.slice(0,3).map(a=>`<li><strong>${a.scope}</strong>: ${a.message}</li>`).join('')}</ul>` : '<p class="muted">Sin alertas activas.</p>';
+  document.getElementById('alertsBrief').innerHTML = brief;
+  document.getElementById('reading').innerHTML = `<p>${briefReading(s)}</p>`;
+
+  const cells = [
+    ['C_obj', s.cells.C_obj, s.classes.C_obj],
+    ['C_base', s.cells.C_base, s.classes.C_base],
+    ['C_diseno', s.cells.C_diseno, s.classes.C_diseno],
+    ['S_suelo', s.cells.C_obj.concat(s.cells.C_base), s.classes.S_suelo],
+    ['A_custodia', s.cells.C_obj.concat(s.cells.C_base).concat(s.cells.C_diseno), s.classes.A_custodia]
+  ];
+  document.getElementById('mainGrid').innerHTML = cells.map(([name, vector, klass]) => {
+    const counts = countValues(vector);
+    return `<article class="poly-card"><div class="poly-title"><strong>${name}</strong><span class="badge ${klass}">${klass}</span></div>${buildSvg(vector, klass, {labels: vector.length <= 9, large: name==='A_custodia'})}<div class="counts"><span class="count zero">0: ${counts.n0}</span><span class="count one">1: ${counts.n1}</span><span class="count u">U: ${counts.nU}</span></div></article>`;
+  }).join('');
+
+  const delta = s.delta_from_previous || { comparable:false, reason:'Sin delta.' };
+  if (!delta.comparable) {
+    document.getElementById('deltaContainer').innerHTML = `<p class="muted">${delta.reason || 'No procede comparación retrospectiva.'}</p>`;
+  } else {
+    const changed = Object.entries(delta.changed_positions || {}).map(([k,v]) => `<li><strong>${k}</strong>: ${v.length ? v.join(', ') : 'sin cambios declarados'}</li>`).join('');
+    const classes = Object.entries(delta.class_transition || {}).map(([k,v]) => `<li><strong>${k}</strong>: ${v}</li>`).join('');
+    document.getElementById('deltaContainer').innerHTML = `<div class="delta-grid"><div><h3>Posiciones modificadas</h3><ul>${changed}</ul></div><div><h3>Transiciones de clase</h3><ul>${classes}</ul></div></div>`;
+  }
+
+  document.getElementById('uContainer').innerHTML = `<ul>${s.u_reasons.map(r=>`<li>${r}</li>`).join('')}</ul>`;
+  document.getElementById('alertsContainer').innerHTML = s.alerts.length ? s.alerts.map(alert => `<article class="poly-card" style="margin-bottom:12px;"><div class="poly-title"><strong>${alert.scope}</strong><span class="badge INDETERMINADO">${alert.level}</span></div><div>${alert.message}</div><div class="muted" style="margin-top:8px;">${alert.positions.join(', ')}</div></article>`).join('') : '<p class="muted">Sin alertas activas.</p>';
+  document.getElementById('sourcesContainer').innerHTML = s.sources.length ? `<ul>${s.sources.map(src=>`<li><strong>${src.repo}</strong> · ${src.kind || 'fuente'} · <code>${src.path}</code></li>`).join('')}</ul>` : '<p class="muted">Sin fuentes declaradas.</p>';
+}
+
+function bindTabs() {
+  document.querySelectorAll('#tabs button').forEach(btn => btn.addEventListener('click', () => {
+    document.querySelectorAll('#tabs button').forEach(x => x.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(x => x.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+  }));
+}
+
+try {
+  snapshots = SNAPSHOTS;
+  renderSelector();
+  bindTabs();
+  render();
+} catch (err) {
+  document.body.innerHTML = `<div class="wrap"><section class="card"><h1>Error de carga</h1><p>${String(err)}</p></section></div>`;
+}
+</script>
+</body>
+</html>
