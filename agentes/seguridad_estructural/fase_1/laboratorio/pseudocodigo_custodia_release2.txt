@@ -1,0 +1,24 @@
+ORDER = { APTO < INDETERMINADO < NO_APTO }
+
+funcion threshold(n):
+    devolver ⌊ 7n / 9 ⌋
+
+funcion classify_cell(vector):
+    contar n0, n1, nU
+    t = threshold(longitud(vector))
+    si n1 ≥ t: devolver NO_APTO
+    si n0 ≥ t: devolver APTO
+    devolver INDETERMINADO
+
+funcion gate(left, right):
+    si left == NO_APTO o right == NO_APTO: devolver NO_APTO
+    si left == INDETERMINADO o right == INDETERMINADO: devolver INDETERMINADO
+    devolver APTO
+
+funcion evaluate_architecture(obj9, base9, dis36):
+    cls_obj = classify_cell(obj9)
+    cls_base = classify_cell(base9)
+    s_suelo = gate(cls_obj, cls_base)
+    cls_dis = classify_cell(dis36)
+    a_custodia = gate(cls_dis, s_suelo)
+    devolver clases, recuentos, umbrales y salidas de compuerta

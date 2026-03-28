@@ -1,0 +1,114 @@
+{
+  "caso_1_custodia_apta": {
+    "C_obj": {
+      "n": 9,
+      "n0": 9,
+      "n1": 0,
+      "nU": 0,
+      "threshold": 7,
+      "class": "APTO"
+    },
+    "C_base": {
+      "n": 9,
+      "n0": 9,
+      "n1": 0,
+      "nU": 0,
+      "threshold": 7,
+      "class": "APTO"
+    },
+    "S_suelo": "APTO",
+    "C_diseno": {
+      "n": 36,
+      "n0": 36,
+      "n1": 0,
+      "nU": 0,
+      "threshold": 28,
+      "class": "APTO"
+    },
+    "A_custodia": "APTO"
+  },
+  "caso_2_base_no_apta": {
+    "C_obj": {
+      "n": 9,
+      "n0": 9,
+      "n1": 0,
+      "nU": 0,
+      "threshold": 7,
+      "class": "APTO"
+    },
+    "C_base": {
+      "n": 9,
+      "n0": 0,
+      "n1": 9,
+      "nU": 0,
+      "threshold": 7,
+      "class": "NO_APTO"
+    },
+    "S_suelo": "NO_APTO",
+    "C_diseno": {
+      "n": 36,
+      "n0": 36,
+      "n1": 0,
+      "nU": 0,
+      "threshold": 28,
+      "class": "APTO"
+    },
+    "A_custodia": "NO_APTO"
+  },
+  "caso_3_diseno_indeterminado": {
+    "C_obj": {
+      "n": 9,
+      "n0": 9,
+      "n1": 0,
+      "nU": 0,
+      "threshold": 7,
+      "class": "APTO"
+    },
+    "C_base": {
+      "n": 9,
+      "n0": 9,
+      "n1": 0,
+      "nU": 0,
+      "threshold": 7,
+      "class": "APTO"
+    },
+    "S_suelo": "APTO",
+    "C_diseno": {
+      "n": 36,
+      "n0": 20,
+      "n1": 8,
+      "nU": 8,
+      "threshold": 28,
+      "class": "INDETERMINADO"
+    },
+    "A_custodia": "INDETERMINADO"
+  },
+  "caso_4_objetivos_indeterminados": {
+    "C_obj": {
+      "n": 9,
+      "n0": 6,
+      "n1": 0,
+      "nU": 3,
+      "threshold": 7,
+      "class": "INDETERMINADO"
+    },
+    "C_base": {
+      "n": 9,
+      "n0": 9,
+      "n1": 0,
+      "nU": 0,
+      "threshold": 7,
+      "class": "APTO"
+    },
+    "S_suelo": "INDETERMINADO",
+    "C_diseno": {
+      "n": 36,
+      "n0": 36,
+      "n1": 0,
+      "nU": 0,
+      "threshold": 28,
+      "class": "APTO"
+    },
+    "A_custodia": "INDETERMINADO"
+  }
+}

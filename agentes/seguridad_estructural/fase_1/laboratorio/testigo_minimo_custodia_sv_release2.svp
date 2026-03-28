@@ -1,0 +1,94 @@
+codomain K3 = { APTO, NO_APTO, INDETERMINADO };
+
+output_semantics SemK3 {
+  APTO -> "Clasificación fuerte favorable";
+  NO_APTO -> "Clasificación fuerte desfavorable";
+  INDETERMINADO -> "Sin clasificación fuerte";
+}
+
+cellspec C_OBJ {
+  b: 3;
+  codomain: K3;
+  semantics: SemK3;
+  role: Base;
+}
+
+cellspec C_BASE {
+  b: 3;
+  codomain: K3;
+  semantics: SemK3;
+  role: Base;
+}
+
+cellspec C_DIS {
+  b: 6;
+  codomain: K3;
+  semantics: SemK3;
+  role: Base;
+}
+
+cellstate S_OBJ {
+  spec: C_OBJ;
+  vector: [Zero, Zero, Zero, Zero, Zero, Zero, Zero, Zero, Zero];
+}
+
+cellstate S_BASE {
+  spec: C_BASE;
+  vector: [Zero, Zero, Zero, Zero, Zero, Zero, Zero, Zero, Zero];
+}
+
+cellstate S_DIS {
+  spec: C_DIS;
+  vector: [Zero, Zero, Zero, Zero, Zero, Zero, Zero, Zero, Zero, Zero, Zero, Zero,
+           Zero, Zero, Zero, Zero, Zero, Zero, Zero, Zero, Zero, Zero, Zero, Zero,
+           Zero, Zero, Zero, Zero, Zero, Zero, Zero, Zero, Zero, Zero, Zero, Zero];
+}
+
+admissibility_table TSUELO {
+  input_codomains: [K3, K3];
+  output_codomain: K3;
+  table: {
+    (APTO, APTO) -> APTO;
+    (APTO, NO_APTO) -> NO_APTO;
+    (APTO, INDETERMINADO) -> INDETERMINADO;
+    (NO_APTO, APTO) -> NO_APTO;
+    (NO_APTO, NO_APTO) -> NO_APTO;
+    (NO_APTO, INDETERMINADO) -> NO_APTO;
+    (INDETERMINADO, APTO) -> INDETERMINADO;
+    (INDETERMINADO, NO_APTO) -> NO_APTO;
+    (INDETERMINADO, INDETERMINADO) -> INDETERMINADO;
+  }
+}
+
+admissibility_table TCUST {
+  input_codomains: [K3, K3];
+  output_codomain: K3;
+  table: {
+    (APTO, APTO) -> APTO;
+    (APTO, NO_APTO) -> NO_APTO;
+    (APTO, INDETERMINADO) -> INDETERMINADO;
+    (NO_APTO, APTO) -> NO_APTO;
+    (NO_APTO, NO_APTO) -> NO_APTO;
+    (NO_APTO, INDETERMINADO) -> NO_APTO;
+    (INDETERMINADO, APTO) -> INDETERMINADO;
+    (INDETERMINADO, NO_APTO) -> NO_APTO;
+    (INDETERMINADO, INDETERMINADO) -> INDETERMINADO;
+  }
+}
+
+semantic_relation R_DECL {
+  kind: DeclaredRelation;
+}
+
+graph G_CUST {
+  nodes: [C_OBJ, C_BASE, C_DIS];
+  edges: [];
+  relation: R_DECL;
+  regime: Simple;
+}
+
+let E_OBJ = evaluate(S_OBJ);
+let E_BASE = evaluate(S_BASE);
+let G_SUELO = gate([E_OBJ, E_BASE], using: TSUELO);
+let E_DIS = evaluate(S_DIS);
+let G_FINAL = gate([E_DIS, G_SUELO], using: TCUST);
