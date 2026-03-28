@@ -6,33 +6,33 @@
   <title>Seguridad estructural — Fase I — Monitor poligonal</title>
   <style>
     :root {
-      --bg: #0A1628;
-      --panel: #10203A;
-      --panel2: #122540;
-      --text: #E5EDF7;
-      --muted: #9DB0C8;
-      --gold: #C9A84C;
-      --green: #4CAF50;
-      --red: #F44336;
-      --amber: #FFC107;
-      --border: rgba(255,255,255,0.10);
-      --ring: rgba(255,255,255,0.16);
+      --bg: #f2eadf;
+      --panel: #f7f0e6;
+      --panel2: #efe3d4;
+      --text: #171412;
+      --muted: #5a4d43;
+      --gold: #8e2f2a;
+      --green: #2e7d32;
+      --red: #8e2f2a;
+      --amber: #b78300;
+      --border: rgba(0,0,0,0.10);
+      --ring: rgba(142,47,42,0.16);
     }
     * { box-sizing: border-box; }
-    body { margin:0; font-family: Inter, system-ui, sans-serif; background:var(--bg); color:var(--text); }
+    body { margin:0; font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif; background:var(--bg); color:var(--text); }
     .wrap { max-width: 1480px; margin:0 auto; padding:24px; }
-    .hero { background: linear-gradient(135deg, rgba(201,168,76,0.15), rgba(255,255,255,0.04)); border:1px solid var(--border); border-radius: 24px; padding: 22px; margin-bottom: 18px; }
+    .hero { background: linear-gradient(135deg, rgba(142,47,42,0.08), rgba(255,255,255,0.30)); border:1px solid var(--border); border-left:6px solid var(--red); border-radius: 24px; padding: 22px; margin-bottom: 18px; }
     h1,h2,h3,p { margin-top:0; }
     .muted { color: var(--muted); }
     .selector { display:flex; flex-wrap:wrap; gap:10px; margin: 14px 0 18px; }
-    .selector button { background:var(--panel2); color:var(--text); border:1px solid var(--border); border-radius:999px; padding:10px 14px; cursor:pointer; }
+    .selector button { background:#fbf6ef; color:var(--text); border:1px solid var(--border); border-radius:999px; padding:10px 14px; cursor:pointer; font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; font-weight:700; }
     .selector button.active { border-color:var(--gold); color:var(--gold); box-shadow: 0 0 0 1px rgba(201,168,76,0.25) inset; }
     .summary { display:grid; grid-template-columns: 1.2fr 0.8fr; gap: 18px; margin-bottom: 18px; }
-    .card { background:var(--panel); border:1px solid var(--border); border-radius:20px; padding:16px; }
+    .card { background:var(--panel); border:1px solid var(--border); border-radius:20px; padding:16px; box-shadow:0 10px 24px rgba(60,40,20,.08);} 
     .meta-row { display:flex; flex-wrap:wrap; gap:8px; margin:8px 0 12px; }
     .pill { display:inline-flex; align-items:center; gap:8px; border-radius:999px; border:1px solid var(--border); padding:6px 10px; font-size:0.92rem; }
     .main-grid { display:grid; grid-template-columns: repeat(5, minmax(220px, 1fr)); gap:16px; }
-    .poly-card { background:rgba(255,255,255,0.03); border:1px solid var(--border); border-radius:18px; padding:14px; }
+    .poly-card { background:#fbf6ef; border:1px solid var(--border); border-radius:18px; padding:14px; }
     .poly-title { display:flex; justify-content:space-between; align-items:center; gap:8px; margin-bottom:10px; }
     .badge { display:inline-block; padding:4px 10px; border-radius:999px; font-size:0.82rem; font-weight:800; border:1px solid transparent; color:#07131F; }
     .badge.APTO { background:#4CAF50; border-color:#4CAF50; }
@@ -44,13 +44,13 @@
     .count.one { background:#F44336; border-color:#F44336; }
     .count.u { background:#FFC107; border-color:#FFC107; }
     .tabs { display:flex; gap:10px; margin:18px 0 12px; flex-wrap:wrap; }
-    .tabs button { background:transparent; color:var(--muted); border:1px solid var(--border); border-radius:999px; padding:8px 12px; cursor:pointer; }
+    .tabs button { background:#fbf6ef; color:var(--muted); border:1px solid var(--border); border-radius:999px; padding:8px 12px; cursor:pointer; font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; font-weight:700; }
     .tabs button.active { color:var(--gold); border-color:var(--gold); }
     .tab-panel { display:none; }
     .tab-panel.active { display:block; }
     ul { margin: 8px 0 0 18px; }
     .delta-grid { display:grid; grid-template-columns: 1fr 1fr; gap:16px; }
-    a { color:var(--gold); }
+    a { color:var(--gold); font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; font-weight:700; }
     @media (max-width: 1220px) { .main-grid { grid-template-columns: repeat(2, minmax(220px,1fr)); } .summary,.delta-grid { grid-template-columns: 1fr; } }
     @media (max-width: 720px) { .main-grid { grid-template-columns: 1fr; } }
   </style>
@@ -58,7 +58,7 @@
 <body>
 <div class="wrap">
   <section class="hero">
-    <h1>Monitor poligonal del Agente especializado en Seguridad Estructural</h1>
+    <p style="margin:0 0 10px"><a href="../index.html" style="text-decoration:none">← Volver a la subpuerta del agente</a></p><h1>Monitor poligonal del Agente especializado en Seguridad Estructural</h1>
     <p class="muted">Parche 2A. La lectura abre con el <strong>polígono</strong>, no con la explicación. El cambio semántico lo decide el <strong>SUCESO</strong> en horizonte declarado. La fecha sólo localiza. El cierre final relevante sigue reservado al agente humano.</p>
     <p><a href="./sucesos.html" target="_blank" rel="noopener noreferrer">Abrir ejemplos de SUCESOS reales de esta fase de diseño</a></p>
   </section>
