@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Seguridad estructural — Fase I — Lectura R³</title>
+<style>
+:root {
+  --bg:#041a3a; --panel:#0b2655; --panel2:#082048; --line:#284d82; --text:#eef6ff;
+  --muted:#b4c6e3; --green:#2ecc71; --red:#ff5c5c; --amber:#FFC107; --deep:#071830;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:linear-gradient(180deg,#03152f,#06224a);color:var(--text)}
+header{padding:24px 28px 18px;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;backdrop-filter:blur(6px);background:rgba(3,21,47,.92);z-index:5}
+h1{margin:0 0 10px;font-size:2rem}
+.lead{margin:0;color:var(--muted);font-size:1.05rem;line-height:1.45;max-width:1180px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.chip{border:1px solid rgba(255,255,255,.12);padding:10px 14px;border-radius:999px;background:rgba(255,255,255,.02);font-weight:700}
+main{padding:24px;display:grid;gap:18px}
+.panel{background:var(--panel);border:1px solid rgba(255,255,255,.08);border-radius:24px;padding:20px;box-shadow:0 10px 24px rgba(0,0,0,.18)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:12px}
+button.tab{background:var(--panel2);color:var(--text);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:10px 14px;font-weight:800;cursor:pointer}
+button.tab.active{outline:2px solid rgba(255,255,255,.12);background:#12366d}
+.grid{display:grid;gap:18px}
+.grid.main{grid-template-columns:minmax(650px,1.25fr) minmax(320px,.75fr)}
+.grid.orthos{grid-template-columns:repeat(3,1fr)}
+canvas{width:100%;background:var(--deep);border-radius:18px;border:1px solid rgba(255,255,255,.06);display:block}
+.section-title{font-size:1.65rem;margin:0 0 10px}
+.box{background:var(--panel2);border-radius:18px;padding:16px;border:1px solid rgba(255,255,255,.06)}
+.box h3{margin:0 0 8px}
+.controls{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:10px}
+label.control{display:grid;gap:6px;font-size:.95rem;color:var(--muted)}
+input[type=range]{width:100%}
+.metrics{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:12px}
+.metric{background:var(--panel2);border-radius:16px;padding:14px;border:1px solid rgba(255,255,255,.06)}
+.metric b{display:block;font-size:1.4rem;margin-top:6px}
+.state-pill{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:8px 12px;font-weight:800;border:1px solid rgba(255,255,255,.12)}
+.legend{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
+.legend span{display:inline-flex;align-items:center;gap:8px;color:var(--muted);font-weight:700}
+.dot{width:12px;height:12px;border-radius:50%;display:inline-block}
+.green{background:rgba(46,204,113,.97);color:#052d17}
+.red{background:rgba(255,92,92,.97);color:#350505}
+.amber{background:rgba(255,193,7,.97);color:#3a2900}
+.note{color:var(--muted);line-height:1.5}
+.small{font-size:.95rem}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media (max-width:1100px) {
+  .grid.main,.grid.orthos,.controls,.metrics,.two{grid-template-columns:1fr}
+  header{position:static}
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Parche 2C-R3c · corrección de encuadre y lectura espacial</h1>
+  <p class="lead">La matemática ya estaba en R³; el problema era visual. Esta versión corrige el <strong>encuadre</strong>, reduce el relleno tragón, hace explícitas las <strong>varillas verticales de U</strong> y añade <strong>mini-vistas ortográficas</strong>. La capa sigue siendo <strong>auxiliar y no soberana</strong>.</p>
+  <div class="chips">
+    <div class="chip">Autoencuadre por bounding box completa</div>
+    <div class="chip">0 y 1 en z = 0</div>
+    <div class="chip">U elevada a z = h</div>
+    <div class="chip">Menos masa rellena, más esqueleto geométrico</div>
+    <div class="chip">Serie discreta y trayectoria espacial separadas</div>
+  </div>
+</header>
+<main>
+  <section class="panel">
+    <div class="toolbar" id="eventTabs"></div>
+    <div class="grid main">
+      <div>
+        <h2 class="section-title" id="eventTitle"></h2>
+        <p id="eventDesc" class="lead" style="margin-bottom:14px"></p>
+        <canvas id="mainCanvas" width="1100" height="680"></canvas>
+        <div class="controls">
+          <label class="control">Yaw<input id="yaw" type="range" min="-180" max="180" value="-35"></label>
+          <label class="control">Pitch<input id="pitch" type="range" min="-85" max="85" value="24"></label>
+          <label class="control">Altura h de U<input id="heightU" type="range" min="0.8" max="3.2" step="0.1" value="2.0"></label>
+          <label class="control">Opacidad del relleno<input id="fillOpacity" type="range" min="0" max="30" step="1" value="8"></label>
+        </div>
+        <div class="metrics" id="metrics"></div>
+      </div>
+      <div class="grid" style="align-content:start">
+        <div class="box">
+          <h3>Lectura breve del SUCESO</h3>
+          <p id="readout"></p>
+          <div class="legend">
+            <span><i class="dot" style="background:var(--green)"></i>0 / APTO</span>
+            <span><i class="dot" style="background:var(--red)"></i>1 / NO_APTO</span>
+            <span><i class="dot" style="background:var(--amber)"></i>U / INDETERMINADO</span>
+          </div>
+        </div>
+        <div class="box">
+          <h3>Clase global y horizonte</h3>
+          <div id="statePill"></div>
+          <p style="margin-top:10px">Horizonte: <strong id="horizon"></strong></p>
+          <p class="small">Delta: <span id="delta"></span></p>
+        </div>
+        <div class="box">
+          <h3>Qué corrige esta versión</h3>
+          <ul class="note">
+            <li>La figura completa entra en cámara.</li>
+            <li>La U no queda escondida detrás del relleno.</li>
+            <li>La vista principal muestra base completa, elevación y varillas verticales.</li>
+            <li>Las mini-vistas ayudan al ojo experto a comprobar la elevación.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid orthos" style="margin-top:18px">
+      <div class="box">
+        <h3>Vista superior (XY)</h3>
+        <canvas id="topCanvas" width="360" height="280"></canvas>
+      </div>
+      <div class="box">
+        <h3>Vista frontal (XZ)</h3>
+        <canvas id="frontCanvas" width="360" height="280"></canvas>
+      </div>
+      <div class="box">
+        <h3>Vista lateral (YZ)</h3>
+        <canvas id="sideCanvas" width="360" height="280"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel two">
+    <div>
+      <h2 class="section-title">Serie discreta por SUCESOS</h2>
+      <canvas id="seriesChart" width="900" height="430"></canvas>
+      <p class="note">Aquí solo entran magnitudes discretas ya soportadas: <code>U/n</code>, <code>Δ(U/n)</code> y <code>Δ²(U/n)</code>.</p>
+    </div>
+    <div>
+      <h2 class="section-title">Trayectoria espacial auxiliar de la serie</h2>
+      <canvas id="seriesTrajectory" width="900" height="430"></canvas>
+      <p class="note">La trayectoria enlaza <code>S1 → S2 → S3</code> como serie de estados en un embedding auxiliar. Ayuda al experto; no decide clase ni resuelve por sí sola una U.</p>
+    </div>
+  </section>
+</main>
+<script>
+const DATA = {"metadata": {"title": "Parche 2C-R3c · corrección de encuadre y lectura espacial"}, "events": [{"id": "S1", "label": "seguridad-diseno-fase-base", "horizon": "H_DISENO_SEGURIDAD_2026_FASE_BASE", "class": "INDETERMINADO", "description": "Delimitación inicial del agente de seguridad estructural como familia especializada de vigilancia y custodia del diseño.", "vector": [1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1], "metrics": {"nU": 9, "Un": 0.25, "L2": 18.6907, "L3": 21.1839, "dL": 2.4932, "Ez": 35.28, "Cz": 0.7}, "delta": "Primer SUCESO del horizonte."}, {"id": "S2", "label": "seguridad-diseno-reordenacion-suelo", "horizon": "H_DISENO_SEGURIDAD_2026_REORDENACION_SUELO", "class": "INDETERMINADO", "description": "Sustitución del antiguo primer piso externo por la célula de objetivos y renombrado del subsistema inferior como suelo tipado.", "vector": [1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 2, 2, 2, 2, 2, 2, 1, 1, 1], "metrics": {"nU": 6, "Un": 0.1667, "L2": 17.1814, "L3": 18.304, "dL": 1.1226, "Ez": 23.52, "Cz": 0.4667}, "delta": "Reducción estructural de U y mejora del suelo tipado."}, {"id": "S3", "label": "seguridad-diseno-monitor-dual", "horizon": "H_DISENO_SEGURIDAD_2026_MONITOR_DUAL", "class": "INDETERMINADO", "description": "Fijación del monitor dual diseño/uso, del eje por SUCESOS y de la exigencia de polígonos reales como interfaz primaria de seguimiento humano.", "vector": [1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 2, 2, 2, 0, 0, 0, 0], "metrics": {"nU": 3, "Un": 0.0833, "L2": 15.982, "L3": 16.552, "dL": 0.57, "Ez": 11.76, "Cz": 0.2333}, "delta": "El suelo ya es APTO, pero la custodia final mantiene U legítimas de diseño."}]};
+const COLORS = {0:'#2ecc71',1:'#ff5c5c',2:'#FFC107'};
+const CLASS_STYLE = {'APTO':'green','NO_APTO':'red','INDETERMINADO':'amber'};
+let currentIndex = 0;
+const state = {yaw:-35*Math.PI/180, pitch:24*Math.PI/180, h:2.0, fillOpacity:0.08};
+
+function pointFor(i, value, zLift=0){
+  const n=36; const angle=-Math.PI/2 + (2*Math.PI*i/n);
+  const rho=value===0?1:(value===1?2:3);
+  return {x:rho*Math.cos(angle), y:rho*Math.sin(angle), z:zLift};
+}
+function countVals(vec){ const c={0:0,1:0,2:0}; vec.forEach(v=>c[v]++); return c; }
+function dominantValue(vec){ const c=countVals(vec); return c[2]>=Math.max(c[0],c[1])?2:(c[1]>c[0]?1:0); }
+
+function makeRot(yaw,pitch){
+  const cy=Math.cos(yaw), sy=Math.sin(yaw), cx=Math.cos(pitch), sx=Math.sin(pitch);
+  return function(p){
+    let x = p.x*cy + p.z*sy;
+    let z = -p.x*sy + p.z*cy;
+    let y = p.y;
+    let y2 = y*cx - z*sx;
+    let z2 = y*sx + z*cx;
+    return {x:x, y:y2, z:z2};
+  }
+}
+
+function projectPerspective(p, scale, ox, oy){
+  const cam = 9.5;
+  const f = scale / (cam - p.z);
+  return {x: ox + p.x*f, y: oy - p.y*f, depth: p.z};
+}
+
+function autoProject(points3d, canvasW, canvasH, perspective=true){
+  const margin = 44;
+  let best = null;
+  for(let scale=20; scale<220; scale+=0.5){
+    const pts = points3d.map(p => perspective?projectPerspective(p, scale, canvasW/2, canvasH/2):{x:canvasW/2+p.x*scale, y:canvasH/2-p.y*scale, depth:p.z});
+    const xs=pts.map(p=>p.x), ys=pts.map(p=>p.y);
+    const minx=Math.min(...xs), maxx=Math.max(...xs), miny=Math.min(...ys), maxy=Math.max(...ys);
+    if(minx>=margin && maxx<=canvasW-margin && miny>=margin && maxy<=canvasH-margin){
+      best = pts;
+    } else {
+      break;
+    }
+  }
+  if(best) return best;
+  // fallback minimal fit
+  const pts = points3d.map(p => perspective?projectPerspective(p, 40, canvasW/2, canvasH/2):{x:canvasW/2+p.x*40, y:canvasH/2-p.y*40, depth:p.z});
+  return pts;
+}
+
+function drawAxesPerspective(ctx, rot, w, h){
+  const axes = [
+    {a:{x:-3.8,y:0,z:0}, b:{x:3.8,y:0,z:0}, label:'X'},
+    {a:{x:0,y:-3.8,z:0}, b:{x:0,y:3.8,z:0}, label:'Y'},
+    {a:{x:0,y:0,z:0}, b:{x:0,y:0,z:3.2}, label:'Z'}
+  ];
+  const rotated = [];
+  axes.forEach(ax=>rotated.push(rot(ax.a), rot(ax.b)));
+  const projected = autoProject(rotated, w, h, true);
+  ctx.strokeStyle='rgba(180,198,227,.18)';
+  ctx.lineWidth=1.4;
+  ctx.fillStyle='rgba(180,198,227,.55)';
+  ctx.font='700 18px Inter, Arial';
+  for(let i=0;i<axes.length;i++){
+    const pa=projected[i*2], pb=projected[i*2+1];
+    ctx.beginPath(); ctx.moveTo(pa.x,pa.y); ctx.lineTo(pb.x,pb.y); ctx.stroke();
+    ctx.fillText(axes[i].label,pb.x+6,pb.y+2);
+  }
+}
+
+function drawMainEvent(ev){
+  const canvas=document.getElementById('mainCanvas');
+  const ctx=canvas.getContext('2d');
+  const w=canvas.width, h=canvas.height;
+  ctx.clearRect(0,0,w,h); ctx.fillStyle='#051734'; ctx.fillRect(0,0,w,h);
+  const rot = makeRot(state.yaw, state.pitch);
+  const basePts=[], topPts=[], allRot=[];
+  ev.vector.forEach((val,i)=>{
+    const base = pointFor(i,val,0);
+    const top = pointFor(i,val,val===2?state.h:0);
+    basePts.push(base); topPts.push(top);
+    allRot.push(rot(base)); allRot.push(rot(top));
+  });
+  // include axes in fitting
+  allRot.push(rot({x:-3.8,y:0,z:0}),rot({x:3.8,y:0,z:0}),rot({x:0,y:-3.8,z:0}),rot({x:0,y:3.8,z:0}),rot({x:0,y:0,z:0}),rot({x:0,y:0,z:3.2}));
+  const allProj = autoProject(allRot,w,h,true);
+  const eventProjBase=[], eventProjTop=[];
+  for(let i=0;i<ev.vector.length;i++){ eventProjBase.push(allProj[i*2]); eventProjTop.push(allProj[i*2+1]); }
+  // axes
+  const axStart = ev.vector.length*2;
+  ctx.strokeStyle='rgba(180,198,227,.16)'; ctx.lineWidth=1.2; ctx.fillStyle='rgba(180,198,227,.52)'; ctx.font='700 18px Inter, Arial';
+  for(let i=0;i<3;i++){ const pa=allProj[axStart+i*2], pb=allProj[axStart+i*2+1]; ctx.beginPath(); ctx.moveTo(pa.x,pa.y); ctx.lineTo(pb.x,pb.y); ctx.stroke(); ctx.fillText(['X','Y','Z'][i],pb.x+6,pb.y+2); }
+  // faint plane grid
+  const grid = [];
+  for(let k=-3;k<=3;k+=1){
+    grid.push([rot({x:-3,y:k,z:0}), rot({x:3,y:k,z:0})]);
+    grid.push([rot({x:k,y:-3,z:0}), rot({x:k,y:3,z:0})]);
+  }
+  const flatGrid = grid.flat();
+  const gridProj = autoProject(flatGrid,w,h,true);
+  ctx.strokeStyle='rgba(255,255,255,.06)';
+  ctx.lineWidth=1;
+  for(let i=0;i<grid.length;i++){ const pa=gridProj[i*2], pb=gridProj[i*2+1]; ctx.beginPath(); ctx.moveTo(pa.x,pa.y); ctx.lineTo(pb.x,pb.y); ctx.stroke(); }
+
+  // optional light fill of top polygon only
+  const dominant = dominantValue(ev.vector);
+  ctx.beginPath();
+  eventProjTop.forEach((p,i)=>{ if(i===0) ctx.moveTo(p.x,p.y); else ctx.lineTo(p.x,p.y); });
+  ctx.closePath();
+  const fills = {0:`rgba(46,204,113,${state.fillOpacity})`,1:`rgba(255,92,92,${state.fillOpacity})`,2:`rgba(255,193,7,${state.fillOpacity})`};
+  ctx.fillStyle=fills[dominant];
+  ctx.fill();
+  ctx.strokeStyle='rgba(255,255,255,.08)';
+  ctx.lineWidth=1;
+  ctx.stroke();
+
+  // base polygon as faint skeleton
+  ctx.strokeStyle='rgba(180,198,227,.20)'; ctx.lineWidth=1.5;
+  ctx.beginPath();
+  eventProjBase.forEach((p,i)=>{ if(i===0) ctx.moveTo(p.x,p.y); else ctx.lineTo(p.x,p.y); });
+  ctx.closePath(); ctx.stroke();
+
+  // verticals for U only
+  ctx.strokeStyle='rgba(255,193,7,.95)'; ctx.lineWidth=2.4;
+  ev.vector.forEach((val,i)=>{
+    if(val===2){
+      const pb=eventProjBase[i], pt=eventProjTop[i];
+      ctx.beginPath(); ctx.moveTo(pb.x,pb.y); ctx.lineTo(pt.x,pt.y); ctx.stroke();
+    }
+  });
+
+  // top outline
+  ctx.strokeStyle='#e8bc18'; ctx.lineWidth=2.8;
+  ctx.beginPath();
+  eventProjTop.forEach((p,i)=>{ if(i===0) ctx.moveTo(p.x,p.y); else ctx.lineTo(p.x,p.y); });
+  ctx.closePath(); ctx.stroke();
+
+  // points
+  ev.vector.forEach((val,i)=>{
+    const pb=eventProjBase[i], pt=eventProjTop[i];
+    if(val!==2) {
+      ctx.beginPath(); ctx.fillStyle=COLORS[val]; ctx.arc(pb.x,pb.y,7.5,0,Math.PI*2); ctx.fill(); ctx.strokeStyle='#072655'; ctx.lineWidth=2; ctx.stroke();
+    } else {
+      // base ghost
+      ctx.beginPath(); ctx.fillStyle='rgba(255,193,7,.25)'; ctx.arc(pb.x,pb.y,5.5,0,Math.PI*2); ctx.fill();
+      ctx.beginPath(); ctx.fillStyle=COLORS[val]; ctx.arc(pt.x,pt.y,8.5,0,Math.PI*2); ctx.fill(); ctx.strokeStyle='#072655'; ctx.lineWidth=2; ctx.stroke();
+    }
+  });
+
+  // annotate selected points
+  ctx.fillStyle='#eef6ff'; ctx.font='700 16px Inter, Arial';
+  [0,8,17,26,35].forEach(i=>{
+    const p = ev.vector[i]===2 ? eventProjTop[i] : eventProjBase[i];
+    ctx.fillText('P'+(i+1), p.x+8, p.y-6);
+  });
+}
+
+function drawOrtho(canvasId, ev, view){
+  const canvas=document.getElementById(canvasId), ctx=canvas.getContext('2d');
+  const w=canvas.width,h=canvas.height;
+  ctx.clearRect(0,0,w,h); ctx.fillStyle='#051734'; ctx.fillRect(0,0,w,h);
+  let pts = ev.vector.map((val,i)=>{
+    const p = pointFor(i,val,val===2?state.h:0);
+    if(view==='top') return {a:p.x,b:p.y,val,base:false};
+    if(view==='front') return {a:p.x,b:p.z,val,base:false,baseB:0};
+    return {a:p.y,b:p.z,val,base:false,baseB:0};
+  });
+  // fit
+  const margin=28;
+  const as=pts.map(p=>p.a), bs=pts.map(p=>p.b).concat([0]);
+  const minA=Math.min(...as), maxA=Math.max(...as), minB=Math.min(...bs), maxB=Math.max(...bs);
+  const scale=Math.min((w-2*margin)/(maxA-minA||1), (h-2*margin)/(maxB-minB||1))*0.9;
+  const ox = w/2 - ((minA+maxA)/2)*scale;
+  const oy = h/2 + ((minB+maxB)/2)*scale;
+  const P = p=>({x:ox+p.a*scale, y:oy-p.b*scale});
+  // axes
+  ctx.strokeStyle='rgba(180,198,227,.16)';
+  ctx.lineWidth=1.2;
+  const axisPairs = view==='top' ? [[{a:-3.5,b:0},{a:3.5,b:0}],[{a:0,b:-3.5},{a:0,b:3.5}]]
+                    : [[{a:-3.5,b:0},{a:3.5,b:0}],[{a:0,b:0},{a:0,b:state.h+0.8}]];
+  axisPairs.forEach(pair=>{ const p1=P(pair[0]), p2=P(pair[1]); ctx.beginPath(); ctx.moveTo(p1.x,p1.y); ctx.lineTo(p2.x,p2.y); ctx.stroke(); });
+  // base line for front/side
+  if(view!=='top'){
+    const p1=P({a:minA,b:0}), p2=P({a:maxA,b:0}); ctx.strokeStyle='rgba(255,255,255,.08)'; ctx.beginPath(); ctx.moveTo(p1.x,p1.y); ctx.lineTo(p2.x,p2.y); ctx.stroke();
+  }
+  // connect in order
+  ctx.strokeStyle='rgba(255,255,255,.12)'; ctx.lineWidth=1.2;
+  ctx.beginPath(); pts.forEach((p,i)=>{ const q=P(p); if(i===0) ctx.moveTo(q.x,q.y); else ctx.lineTo(q.x,q.y); }); ctx.closePath(); ctx.stroke();
+  // verticals for U on front/side
+  if(view!=='top'){
+    ctx.strokeStyle='rgba(255,193,7,.9)'; ctx.lineWidth=2;
+    pts.forEach((p,i)=>{ if(p.val===2){ const pb=P({a:p.a,b:0}), pt=P(p); ctx.beginPath(); ctx.moveTo(pb.x,pb.y); ctx.lineTo(pt.x,pt.y); ctx.stroke(); } });
+  }
+  // points
+  pts.forEach((p,i)=>{ const q=P(p); ctx.beginPath(); ctx.fillStyle=COLORS[p.val]; ctx.arc(q.x,q.y,p.val===2?7.5:6.5,0,Math.PI*2); ctx.fill(); ctx.strokeStyle='#072655'; ctx.lineWidth=2; ctx.stroke(); });
+}
+
+function updateEvent(ev){
+  document.getElementById('eventTitle').textContent = `${ev.id} · ${ev.label} · elevación corregida en R³`;
+  document.getElementById('eventDesc').textContent = ev.description;
+  document.getElementById('horizon').textContent = ev.horizon;
+  document.getElementById('delta').textContent = ev.delta;
+  const metrics=[['L₂','L2'],['L₃','L3'],['ΔL','dL'],['Ez','Ez'],['Cz','Cz']];
+  document.getElementById('metrics').innerHTML = metrics.map(([lab,key])=>`<div class="metric">${lab}<b>${ev.metrics[key]}</b></div>`).join('');
+  const pill = document.getElementById('statePill');
+  pill.innerHTML = `<span class="state-pill ${CLASS_STYLE[ev.class]}">${ev.class}</span>`;
+  const c = countVals(ev.vector);
+  document.getElementById('readout').innerHTML = `En ${ev.id}, la figura completa entra en cámara. Se observan <strong>${c[2]}</strong> posiciones U elevadas a <code>z = h</code>, con varillas verticales explícitas; <strong>${c[0]}</strong> posiciones aptas y <strong>${c[1]}</strong> no aptas permanecen en el plano base <code>z = 0</code>.`;
+}
+
+function buildTabs(){
+  const box=document.getElementById('eventTabs');
+  box.innerHTML='';
+  DATA.events.forEach((ev,i)=>{
+    const b=document.createElement('button');
+    b.className='tab'+(i===currentIndex?' active':'');
+    b.textContent = `${ev.id} · ${ev.label}`;
+    b.onclick=()=>{ currentIndex=i; buildTabs(); renderCurrent(); };
+    box.appendChild(b);
+  });
+}
+
+function drawSeriesChart(){
+  const canvas=document.getElementById('seriesChart'), ctx=canvas.getContext('2d');
+  const w=canvas.width,h=canvas.height; ctx.clearRect(0,0,w,h); ctx.fillStyle='#051734'; ctx.fillRect(0,0,w,h);
+  const margin={l:70,r:20,t:30,b:60}; const ys=DATA.events.map(ev=>ev.metrics.Un);
+  const d1=ys.map((v,i)=>i===0?null:(v-ys[i-1]));
+  const d2=d1.map((v,i)=>i<2?null:(v-d1[i-1]));
+  const all=ys.concat(d1.filter(v=>v!==null)).concat(d2.filter(v=>v!==null));
+  const ymin=Math.min(0,...all)-0.05, ymax=Math.max(...all)+0.08;
+  const X=i=>margin.l + i*(w-margin.l-margin.r)/(DATA.events.length-1||1);
+  const Y=v=>h-margin.b - (v-ymin)*(h-margin.t-margin.b)/(ymax-ymin||1);
+  ctx.strokeStyle='rgba(255,255,255,.18)'; ctx.lineWidth=1;
+  for(let k=0;k<=5;k++){ const y=margin.t+k*(h-margin.t-margin.b)/5; ctx.beginPath(); ctx.moveTo(margin.l,y); ctx.lineTo(w-margin.r,y); ctx.stroke(); }
+  ctx.strokeStyle='rgba(255,255,255,.22)'; ctx.beginPath(); ctx.moveTo(margin.l,margin.t); ctx.lineTo(margin.l,h-margin.b); ctx.lineTo(w-margin.r,h-margin.b); ctx.stroke();
+  const series=[{arr:ys,color:'#FFC107',label:'U/n'},{arr:d1,color:'#2ecc71',label:'Δ(U/n)'},{arr:d2,color:'#ff5c5c',label:'Δ²(U/n)'}];
+  series.forEach(s=>{ ctx.strokeStyle=s.color; ctx.lineWidth=3; let started=false; ctx.beginPath(); s.arr.forEach((v,i)=>{ if(v===null) return; const x=X(i), y=Y(v); if(!started){ctx.moveTo(x,y); started=true;} else ctx.lineTo(x,y); }); ctx.stroke(); s.arr.forEach((v,i)=>{ if(v===null) return; const x=X(i), y=Y(v); ctx.fillStyle=s.color; ctx.beginPath(); ctx.arc(x,y,5.5,0,Math.PI*2); ctx.fill(); }); });
+  ctx.fillStyle='#eef6ff'; ctx.font='700 26px Inter, Arial'; ctx.fillText('Serie discreta por SUCESOS · U/n, Δ y Δ²', margin.l, 24);
+  DATA.events.forEach((ev,i)=>{ const x=X(i); ctx.fillStyle='#eef6ff'; ctx.font='700 20px Inter, Arial'; ctx.fillText(ev.id, x-12, h-margin.b+30); });
+}
+
+function seriesStatePoint(ev, idx){
+  // embedding auxiliar de estado: x índice, y U/n, z Cz escalado
+  return {x:(idx-1)*2.2, y:(ev.metrics.Un-0.15)*8, z:ev.metrics.Cz*4};
+}
+function drawSeriesTrajectory(){
+  const canvas=document.getElementById('seriesTrajectory'), ctx=canvas.getContext('2d');
+  const w=canvas.width,h=canvas.height; ctx.clearRect(0,0,w,h); ctx.fillStyle='#051734'; ctx.fillRect(0,0,w,h);
+  const rot = makeRot(-35*Math.PI/180, 22*Math.PI/180);
+  const pts3=DATA.events.map((ev,i)=>rot(seriesStatePoint(ev,i)));
+  // add axes to fit
+  const all=pts3.concat([rot({x:-2.8,y:0,z:0}),rot({x:2.8,y:0,z:0}),rot({x:0,y:-2.5,z:0}),rot({x:0,y:2.5,z:0}),rot({x:0,y:0,z:0}),rot({x:0,y:0,z:2.5})]);
+  const proj=autoProject(all,w,h,true);
+  const pSeries=proj.slice(0,pts3.length);
+  const ax=pts3.length;
+  ctx.strokeStyle='rgba(180,198,227,.18)'; ctx.lineWidth=1.2; ctx.fillStyle='rgba(180,198,227,.55)'; ctx.font='700 16px Inter, Arial';
+  [['S','X'],['U/n','Y'],['Cz','Z']].forEach((lab,i)=>{ const p1=proj[ax+i*2], p2=proj[ax+i*2+1]; ctx.beginPath(); ctx.moveTo(p1.x,p1.y); ctx.lineTo(p2.x,p2.y); ctx.stroke(); ctx.fillText(lab[1], p2.x+6, p2.y+2); });
+  ctx.strokeStyle='#FFC107'; ctx.lineWidth=3.2;
+  ctx.beginPath(); pSeries.forEach((p,i)=>{ if(i===0) ctx.moveTo(p.x,p.y); else ctx.lineTo(p.x,p.y); }); ctx.stroke();
+  pSeries.forEach((p,i)=>{ ctx.beginPath(); ctx.fillStyle='#FFC107'; ctx.arc(p.x,p.y,8,0,Math.PI*2); ctx.fill(); ctx.strokeStyle='#072655'; ctx.lineWidth=2; ctx.stroke(); ctx.fillStyle='#eef6ff'; ctx.font='700 20px Inter, Arial'; ctx.fillText(DATA.events[i].id, p.x+10, p.y-8); });
+}
+
+function renderCurrent(){
+  const ev=DATA.events[currentIndex];
+  updateEvent(ev);
+  drawMainEvent(ev);
+  drawOrtho('topCanvas',ev,'top');
+  drawOrtho('frontCanvas',ev,'front');
+  drawOrtho('sideCanvas',ev,'side');
+  drawSeriesChart();
+  drawSeriesTrajectory();
+}
+
+['yaw','pitch','heightU','fillOpacity'].forEach(id=>document.getElementById(id).addEventListener('input',e=>{
+  if(id==='yaw') state.yaw=Number(e.target.value)*Math.PI/180;
+  if(id==='pitch') state.pitch=Number(e.target.value)*Math.PI/180;
+  if(id==='heightU') state.h=Number(e.target.value);
+  if(id==='fillOpacity') state.fillOpacity=Number(e.target.value)/100;
+  renderCurrent();
+}));
+
+buildTabs(); renderCurrent();
+</script>
+</body>
+</html>
