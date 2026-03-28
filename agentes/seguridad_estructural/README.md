@@ -1,26 +1,34 @@
-
 # Agente especializado en Seguridad Estructural
 
-Este agente concentra, en un único sujeto operativo, la vigilancia estructural del diseño y la habilitación de uso de células especializadas del Sistema Vectorial SV.
+## Estatuto
 
-## Dos planos
+Esta carpeta constituye la **sede canónica** del Agente especializado en Seguridad Estructural dentro de `SVperitus`.
 
-- **Plano de diseño**: custodia objetivos, base, artefactos, laboratorios, registros y cadena visible.
-- **Plano de uso**: ayuda al experto a leer estados reales y a explorar ramas simuladas sin reescribir la historia observada.
+Su estatuto correcto es doble:
 
-## Interfaz principal
+1. **agente especializado propio**, hoy en Fase I;
+2. **custodia basal obligatoria del diseño** para el nacimiento, faseado, estabilización y vigilancia de nuevos agentes y nuevas fases relevantes.
 
-La interfaz principal es **poligonal**. La lectura abre por polígonos reales y por SUCESOS declarados. La capa geométrica en R³, la serie discreta y el plano IA son ayudas subordinadas.
+## Publicación canónica vigente
 
-## Navegación operativa
+La referencia pública actual de este agente es:
 
-- `aplicaciones/agente_seguridad/index.html` — puerta estable del agente.
-- `aplicaciones/monitor_seguridad/index.html` — monitor principal.
-- `aplicaciones/monitor_seguridad/sucesos.html` — serie de SUCESOS.
-- `aplicaciones/monitor_seguridad_ia/index.html` — consulta trazable y simulación REAL/SIM.
-- `aplicaciones/agente_seguridad/r3.html` — lectura geométrica auxiliar.
-- `aplicaciones/agente_seguridad/evidencia.html` — objetivos, guardarraíles y deudas elevadas.
+**Célula especializada de seguridad estructural para la custodia del diseño, el DSL y los laboratorios del Sistema Vectorial SV — Release 2**
 
-## Límites
+## Alcance dentro del ecosistema
 
-El agente no decide soberanamente la clausura final relevante. La inteligencia artificial es una herramienta subordinada. Toda necesidad matemática o semántica no soportada por el carril superior debe elevarse como petición formal y no puede incorporarse por la puerta trasera.
+Esta sede no convierte a seguridad en soberanía del ecosistema. Su papel es otro:
+
+- custodiar diseño;
+- custodiar DSL;
+- custodiar laboratorios;
+- custodiar cadena visible de implementación;
+- y actuar como guardarraíl basal del diseño para el resto de agentes.
+
+## Estructura canónica abierta
+
+- `fase_1/`
+
+## Relación con artefactos actuales
+
+Mientras no se complete la migración material de los paquetes técnicos, las aplicaciones, demos, monitores y artefactos ya nacidos deben leerse como piezas relacionadas con este agente, aunque todavía no estén todas reubicadas bajo esta sede canónica.
