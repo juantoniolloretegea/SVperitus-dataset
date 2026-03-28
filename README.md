@@ -26,6 +26,27 @@ El Sistema Vectorial SV evalúa situaciones complejas mediante una gramática te
 
 ---
 
+## Patrón común emergente del agente especializado
+
+La evolución actual del ecosistema hace comparecer ya un **patrón común de agente especializado** que no debe confundirse con los parámetros propios de un dominio concreto.
+
+Ese patrón común incluye, cuando el grado de madurez del agente lo justifique:
+
+- desarrollo por fases;
+- publicación, laboratorio y figuras de fase;
+- artefactos adscritos a fase;
+- monitor poligonal principal;
+- lectura por SUCESOS;
+- plano IA trazable;
+- capa R³ auxiliar;
+- y evidencia o cierre de trazabilidad.
+
+> **Importante**
+> El plano IA trazable no se considera privilegio exclusivo del Agente especializado en Seguridad Estructural. Su aparición allí debe leerse como **primera implementación piloto** de un patrón que, tipado y subordinado, podrá generalizarse al resto de agentes del ecosistema.
+
+> **Pieza de referencia interna**
+> `especificaciones/patron_agente_especializado/README.md`
+
 
 > **Nota de orientación canónica**
 > La organización visible actual del repositorio conserva todavía trazas históricas en `dominios/`. La arquitectura canónica hacia la que se dirige `SVperitus` es, sin embargo, **agentes especializados → fases → artefactos → aplicaciones**. Por ello, las referencias actuales a `dominios/` deben leerse como estado transitorio del repositorio y no como taxonomía final del ecosistema.
@@ -35,10 +56,11 @@ El Sistema Vectorial SV evalúa situaciones complejas mediante una gramática te
 ```text
 SVperitus-dataset/
 │
-├── especificaciones/           Verdad normativa verificable y puentes de aplicación
+├── especificaciones/           Verdad normativa verificable, puentes de aplicación y patrón común emergente
 │   ├── nucleo/                 Invariantes formales del SV y referencias nucleares de aplicación
 │   ├── conformidad/            Tests de conformidad cruzada C8 (19 casos de paridad)
-│   └── esquemas/               Contratos YAML (JSON Schema)
+│   ├── esquemas/               Contratos YAML (JSON Schema)
+│   └── patron_agente_especializado/  Patrón común emergente del agente y de la capa IA trazable
 │
 ├── dominios/                   Familias de dominio (Capa C)
 │   └── inmunologia/            Primer dominio disponible
@@ -96,6 +118,17 @@ Por tanto, ningún archivo de este repositorio puede leerse como modificación l
 - **Función Γ(v) = m − μ:** clasifica la indeterminación en irreducible, fronteriza o resoluble, dentro de una matemática exacta sin estadística.
 
 ---
+
+## Capa IA trazable y regla de encaje
+
+La capa IA del agente especializado no constituye una autoridad independiente ni una vía para degradar la terna `{0,1,U}`. Su función es asistir al experto humano mediante consulta, simulación condicionada y devolución trazable.
+
+En consecuencia:
+
+- la historia `REAL` no se confunde con la rama `SIM`;
+- la simulación no funda por sí sola nuevo SUCESO real;
+- la IA no sustituye el motor normativo del dominio;
+- y ninguna interacción conversacional puede cerrar `U` al margen del álgebra, de la doctrina y del experto.
 
 ## Regla de interpretación en SVperitus
 
