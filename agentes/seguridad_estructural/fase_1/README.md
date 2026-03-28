@@ -48,3 +48,17 @@ La publicación pública vigente formaliza esta célula para custodiar:
 - y la trazabilidad de la resolución final.
 
 Por ello, esta fase no debe leerse como artefacto ornamental, sino como infraestructura basal del ecosistema aplicado.
+
+## Subpuerta de fase
+
+La entrada web local recomendada para lectura humana de esta fase es:
+
+- `artefactos_web/index.html`
+
+Esta subpuerta no sustituye a la publicación canónica ni al laboratorio. Su función es ordenar visualmente el acceso a los artefactos adscritos a la fase.
+
+## Gobierno visual de esta subpuerta
+
+La subpuerta local y los artefactos web de esta fase deben respetar la nota subordinada de gobierno visual y cromático fijada en:
+
+- `../../../especificaciones/custodia_basal_del_diseno/NOTA_DE_GOBIERNO_VISUAL_Y_CROMATICO_DE_SUBPUERTAS_DE_AGENTE.md`
