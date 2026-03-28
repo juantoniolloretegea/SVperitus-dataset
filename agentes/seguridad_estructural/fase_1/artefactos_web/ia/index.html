@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seguridad estructural — Fase I — Plano IA trazable</title>
+<style>
+:root{--bg:#071a3a;--panel:#0e274f;--panel2:#112d5c;--line:#294577;--text:#f4f7fb;--muted:#adc1e7;--ok:#2ecc71;--bad:#ff5a5f;--u:#FFC107}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#041329,#071a3a);color:var(--text);font-family:Inter,Segoe UI,Arial,sans-serif}
+header{padding:22px 28px 14px;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;background:rgba(7,26,58,.92);backdrop-filter: blur(6px);z-index:10}
+header h1{margin:0;font-size:40px}header p{margin:8px 0 0;color:var(--muted);max-width:1100px;line-height:1.45}
+main{padding:24px;display:grid;grid-template-columns:1.2fr .8fr;gap:18px}
+.panel{background:var(--panel);border:1px solid rgba(255,255,255,.08);border-radius:24px;padding:18px;box-shadow:0 10px 30px rgba(0,0,0,.18)}
+.chips{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}.chip{padding:10px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.12);color:#ffd25c;background:rgba(255,193,7,.08)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.small{font-size:14px;color:var(--muted)}
+.card{background:#0b2144;border:1px solid rgba(255,255,255,.06);border-radius:20px;padding:14px}
+.canvas-wrap{background:#081a36;border-radius:18px;padding:8px}
+.badge{display:inline-block;padding:6px 10px;border-radius:999px;font-weight:700;font-size:12px;letter-spacing:.03em}
+.badge.APTO{background:rgba(46,204,113,.18);color:#b5ffd3;border:1px solid rgba(46,204,113,.45)}
+.badge.NO_APTO{background:rgba(255,90,95,.18);color:#ffd0d2;border:1px solid rgba(255,90,95,.45)}
+.badge.INDETERMINADO{background:rgba(255,193,7,.18);color:#ffe6a3;border:1px solid rgba(255,193,7,.45)}
+.tabs{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}.tab{padding:10px 14px;border-radius:12px;border:1px solid rgba(255,255,255,.12);cursor:pointer;background:#0b2144;color:var(--text)}.tab.active{background:#17396f}
+.hidden{display:none}
+textarea{width:100%;min-height:110px;background:#071a3a;color:var(--text);border:1px solid var(--line);border-radius:16px;padding:14px;font:inherit}
+button{background:#163970;color:#fff;border:none;border-radius:14px;padding:12px 16px;font:inherit;font-weight:700;cursor:pointer}button.secondary{background:#0b2144;border:1px solid rgba(255,255,255,.12)}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}.resp{white-space:pre-wrap;line-height:1.5;background:#081a36;border-radius:16px;padding:14px;border:1px solid rgba(255,255,255,.06)}
+footer{padding:0 24px 24px;color:var(--muted)}
+@media(max-width:1100px){main{grid-template-columns:1fr}.grid3{grid-template-columns:1fr}.grid2{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Plano IA trazable · REAL / SIM</h1>
+  <p>El estado real se lee por polígonos y SUCESOS. La IA ayuda al experto en español con lectura estructurada, simulación hipotética separada y recomendación condicional. La historia real no se reescribe.</p>
+</header>
+<main>
+  <section class="panel">
+    <div class="chips">
+      <span class="chip" id="realChip">REAL/S1</span>
+      <span class="chip" id="simChip">SIM/A1</span>
+      <span class="chip" id="hChip">H_INMUNOLOGIA_USO_2026_SEGUIMIENTO_INICIAL</span>
+    </div>
+    <div class="tabs">
+      <div class="tab active" data-tab="real">Estado real</div>
+      <div class="tab" data-tab="sim">Rama simulada</div>
+      <div class="tab" data-tab="compare">Comparación</div>
+      <div class="tab" data-tab="ia">Consulta IA</div>
+    </div>
+
+    <div id="tab-real">
+      <div class="grid3">
+        <div class="card"><h3>REAL · IMMUNO-1 <span id="realImm1Class" class="badge"></span></h3><div class="canvas-wrap"><canvas id="realImm1" width="320" height="320"></canvas></div></div>
+        <div class="card"><h3>REAL · IMMUNO-2 <span id="realImm2Class" class="badge"></span></h3><div class="canvas-wrap"><canvas id="realImm2" width="320" height="320"></canvas></div></div>
+        <div class="card"><h3>REAL · COMPOSICIÓN <span id="realCompClass" class="badge"></span></h3><div class="resp" id="realSummary"></div></div>
+      </div>
+    </div>
+
+    <div id="tab-sim" class="hidden">
+      <div class="grid3">
+        <div class="card"><h3>SIM · IMMUNO-1 <span id="simImm1Class" class="badge"></span></h3><div class="canvas-wrap"><canvas id="simImm1" width="320" height="320"></canvas></div></div>
+        <div class="card"><h3>SIM · IMMUNO-2 <span id="simImm2Class" class="badge"></span></h3><div class="canvas-wrap"><canvas id="simImm2" width="320" height="320"></canvas></div></div>
+        <div class="card"><h3>SIM · COMPOSICIÓN <span id="simCompClass" class="badge"></span></h3><div class="resp" id="simSummary"></div></div>
+      </div>
+    </div>
+
+    <div id="tab-compare" class="hidden">
+      <div class="grid2">
+        <div class="card"><h3>Delta REAL → SIM</h3><div class="resp" id="deltaBox"></div></div>
+        <div class="card"><h3>Recomendación condicional</h3><div class="resp" id="pathBox"></div></div>
+      </div>
+    </div>
+
+    <div id="tab-ia" class="hidden">
+      <div class="card">
+        <h3>Consulta en español</h3>
+        <textarea id="queryInput">¿Qué pasaría si modifico esta vacuna?</textarea>
+        <div class="actions">
+          <button onclick="runQuery()">Consultar</button>
+          <button class="secondary" onclick="setPreset('¿Qué pasaría si modifico esta vacuna?')">Vacuna</button>
+          <button class="secondary" onclick="setPreset('¿Qué ocurriría si empeoran estos indicadores tumorales?')">Indicadores tumorales</button>
+          <button class="secondary" onclick="setPreset('¿Qué pasa si consigo cerrar parte de la U?')">Cerrar U</button>
+        </div>
+      </div>
+      <div class="grid2" style="margin-top:14px">
+        <div class="card"><h3>Respuesta IA</h3><div class="resp" id="iaResponse"></div></div>
+        <div class="card"><h3>Justificación y metadatos</h3><div class="resp" id="iaMeta"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <aside class="panel">
+    <h2 style="margin-top:0">Lectura del experto</h2>
+    <div class="resp" id="expertBox"></div>
+    <h3 style="margin-top:18px">Alertas activas</h3>
+    <div class="resp" id="alertsBox"></div>
+    <h3 style="margin-top:18px">Reglas duras</h3>
+    <div class="resp">• La historia real permanece append-only.
+• La rama simulada no funda por sí sola un nuevo SUCESO real.
+• La decisión final relevante sigue reservada al agente humano.
+• La IA devuelve lectura, justificación y metadatos; no verdad soberana.</div>
+  </aside>
+</main>
+<footer>
+  Vista local autosuficiente. Para despliegue normal, los mismos datos pueden ir separados en <code>data/</code> con origen único y espejos delgados.
+</footer>
+<script>
+const real = {"agent_id": "seguridad_estructural", "plane": "use", "cell_family": "inmunologia", "phase_id": "inmunologia-uso-seguimiento-inicial", "horizon_id": "H_INMUNOLOGIA_USO_2026_SEGUIMIENTO_INICIAL", "fecha_observacion": "2026-03-27T18:30:00+01:00", "suceso": {"suceso_id": "REAL/S1", "suceso_tipo": "estado_real_inicial", "descripcion": "Primer SUCESO real de seguimiento del caso inmunológico bajo custodia del agente de seguridad estructural."}, "cells": {"IMMUNO-1": [0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, "U", 0, 0], "IMMUNO-2": [0, 0, 0, 0, 0, 0, "U", "U", 1, 1, 0, 0, 0, "U", 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]}, "classes": {"IMMUNO-1": "APTO", "IMMUNO-2": "APTO", "COMPOSICION": "APTO", "SEGURIDAD_HABILITACION": "APTO"}, "alerts": [{"scope": "IMMUNO-1", "level": "1", "message": "Persisten señales de riesgo o conflicto en un subconjunto de posiciones del primer panel inmunológico.", "positions": ["P06", "P07", "P08", "P10", "P19"]}, {"scope": "IMMUNO-2", "level": "U", "message": "Persisten posiciones abiertas o insuficientemente determinadas en el segundo panel inmunológico.", "positions": ["P07", "P08", "P14"]}, {"scope": "COMPOSICION", "level": "U", "message": "La composición permanece abierta: el especialista conserva la clausura final.", "positions": ["PUENTE", "SALIDA"]}], "u_reasons": ["Las posiciones abiertas no pueden forzarse a 0 ni a 1 mientras la cadena de entrada no esté suficientemente determinada.", "La consulta devuelve lectura estructurada y reconstruible; no inferencia opaca."], "sources": [{"repo": "SVperitus-dataset", "kind": "dominio_inmunologia", "path": "dominios/inmunologia/"}, {"repo": "SV-lenguaje-de-computacion", "kind": "snapshot_y_reglas", "path": "src/monitor_diseno_seguridad/"}, {"repo": "SV-matematica-semantica", "kind": "sede_celulas", "path": "documentos/celulas_especializadas_sv/seguridad_estructural/"}], "human_override_required": true, "append_only": true};
+const scenarios = {"ajuste_vacuna": {"agent_id": "seguridad_estructural", "plane": "use", "cell_family": "inmunologia", "phase_id": "inmunologia-uso-simulacion", "horizon_id": "H_INMUNOLOGIA_USO_2026_SEGUIMIENTO_INICIAL", "fecha_observacion": "2026-03-27T18:30:00+01:00", "suceso": {"suceso_id": "SIM/A1", "suceso_tipo": "rama_simulada", "descripcion": "Rama simulada en la que un ajuste de pauta vacunal reduce posiciones abiertas y de conflicto sin reescribir el estado real."}, "branch_type": "SIM", "derived_from": "REAL/S1", "cells": {"IMMUNO-1": [0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0], "IMMUNO-2": [0, 0, 0, 0, 0, 0, 0, "U", 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]}, "classes": {"IMMUNO-1": "APTO", "IMMUNO-2": "APTO", "COMPOSICION": "APTO", "SEGURIDAD_HABILITACION": "APTO"}, "alerts": [{"scope": "SIM", "level": "INFO", "message": "La rama simulada mejora el contorno de IMMUNO-1 y reduce U en IMMUNO-2, pero la composición sigue abierta.", "positions": []}], "decision_paths": ["Mantener rama simulada abierta y pedir evidencia biológica adicional.", "Valorar cierre parcial de U si el siguiente SUCESO real confirma estabilización."], "ai_assessment": "La rama simulada mejora el contorno de IMMUNO-1 y reduce U en IMMUNO-2, pero la composición sigue abierta.", "human_override_required": true, "append_only": true, "not_history_rewrite": true}, "marcadores_tumorales": {"agent_id": "seguridad_estructural", "plane": "use", "cell_family": "inmunologia", "phase_id": "inmunologia-uso-simulacion", "horizon_id": "H_INMUNOLOGIA_USO_2026_SEGUIMIENTO_INICIAL", "fecha_observacion": "2026-03-27T18:30:00+01:00", "suceso": {"suceso_id": "SIM/A2", "suceso_tipo": "rama_simulada", "descripcion": "Rama simulada en la que aumentan posiciones rojas ligadas al riesgo y la composición cae a NO_APTO."}, "branch_type": "SIM", "derived_from": "REAL/S1", "cells": {"IMMUNO-1": [0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, "U", 0, 0], "IMMUNO-2": [0, 0, 0, 1, 1, 0, "U", "U", 1, 1, 0, 0, 0, "U", 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0]}, "classes": {"IMMUNO-1": "INDETERMINADO", "IMMUNO-2": "INDETERMINADO", "COMPOSICION": "INDETERMINADO", "SEGURIDAD_HABILITACION": "APTO"}, "alerts": [{"scope": "SIM", "level": "INFO", "message": "La rama simulada muestra dominancia roja y recomienda prudencia máxima: no debe confundirse con historia observada.", "positions": []}], "decision_paths": ["Abrir SUCESO real sólo si hay evidencia suficiente que confirme la deriva adversa.", "Escalar revisión experta y evitar cierre favorable de uso."], "ai_assessment": "La rama simulada muestra dominancia roja y recomienda prudencia máxima: no debe confundirse con historia observada.", "human_override_required": true, "append_only": true, "not_history_rewrite": true}, "cierre_u": {"agent_id": "seguridad_estructural", "plane": "use", "cell_family": "inmunologia", "phase_id": "inmunologia-uso-simulacion", "horizon_id": "H_INMUNOLOGIA_USO_2026_SEGUIMIENTO_INICIAL", "fecha_observacion": "2026-03-27T18:30:00+01:00", "suceso": {"suceso_id": "SIM/A3", "suceso_tipo": "rama_simulada", "descripcion": "Rama simulada en la que parte de la U se resuelve favorablemente, pero una zona crítica conserva apertura."}, "branch_type": "SIM", "derived_from": "REAL/S1", "cells": {"IMMUNO-1": [0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0], "IMMUNO-2": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, "U", 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]}, "classes": {"IMMUNO-1": "APTO", "IMMUNO-2": "APTO", "COMPOSICION": "APTO", "SEGURIDAD_HABILITACION": "APTO"}, "alerts": [{"scope": "SIM", "level": "INFO", "message": "La rama simulada reduce la U pero no la extingue; la decisión final sigue siendo humana.", "positions": []}], "decision_paths": ["Mantener vigilancia de la posición residual en U y no suponer cierre completo.", "Comparar sólo con SUCESOS del mismo horizonte y tipo."], "ai_assessment": "La rama simulada reduce la U pero no la extingue; la decisión final sigue siendo humana.", "human_override_required": true, "append_only": true, "not_history_rewrite": true}};
+const state = {scenarioKey:'ajuste_vacuna'};
+const COLORS = {0:'#2ecc71', 1:'#ff5a5f', U:'#FFC107'};
+const FILL = {APTO:'rgba(46,204,113,.18)', NO_APTO:'rgba(255,90,95,.18)', INDETERMINADO:'rgba(255,193,7,.18)'};
+
+function setPreset(v){ document.getElementById('queryInput').value=v; }
+function counts(vals){ return {n0:vals.filter(v=>v===0).length,n1:vals.filter(v=>v===1).length,nU:vals.filter(v=>v==='U').length}; }
+function radius(v){ return v===0?1:v===1?2:3; }
+function scenario(){ return scenarios[state.scenarioKey]; }
+function scenarioLabel(key){
+  return key==='ajuste_vacuna' ? 'ajuste de vacuna' : key==='marcadores_tumorales' ? 'empeoramiento de marcadores tumorales' : key==='cierre_u' ? 'cierre parcial de U' : key;
+}
+function drawPolygon(id, values, globalClass, labelPrefix='P'){
+  const cv=document.getElementById(id);
+  if(!cv) return;
+  const ctx=cv.getContext('2d');
+  const w=cv.width,h=cv.height,cx=w/2,cy=h/2,R=Math.min(w,h)*0.37;
+  ctx.clearRect(0,0,w,h);
+  ctx.fillStyle='#091a35'; ctx.fillRect(0,0,w,h);
+  ctx.strokeStyle='rgba(255,255,255,.08)'; ctx.lineWidth=1;
+  for(let i=1;i<=4;i++){ ctx.beginPath(); ctx.arc(cx,cy,R*i/4,0,Math.PI*2); ctx.stroke(); }
+  for(let i=0;i<values.length;i++){
+    const a=-Math.PI/2 + i*2*Math.PI/values.length;
+    ctx.beginPath(); ctx.moveTo(cx,cy); ctx.lineTo(cx+Math.cos(a)*R,cy+Math.sin(a)*R); ctx.stroke();
+  }
+  ctx.beginPath();
+  values.forEach((v,i)=>{
+    const a=-Math.PI/2 + i*2*Math.PI/values.length;
+    const r=R*(radius(v)/3);
+    const x=cx+Math.cos(a)*r, y=cy+Math.sin(a)*r;
+    if(i===0) ctx.moveTo(x,y); else ctx.lineTo(x,y);
+  });
+  ctx.closePath();
+  ctx.fillStyle=FILL[globalClass] || FILL.INDETERMINADO; ctx.fill();
+  ctx.strokeStyle=globalClass==='APTO'?COLORS[0]:globalClass==='NO_APTO'?COLORS[1]:COLORS.U; ctx.lineWidth=2; ctx.stroke();
+  values.forEach((v,i)=>{
+    const a=-Math.PI/2 + i*2*Math.PI/values.length;
+    const r=R*(radius(v)/3);
+    const x=cx+Math.cos(a)*r, y=cy+Math.sin(a)*r;
+    ctx.beginPath(); ctx.arc(x,y,4.5,0,Math.PI*2); ctx.fillStyle=COLORS[v]; ctx.fill();
+  });
+  ctx.fillStyle='#fff'; ctx.font='bold 12px Inter,Segoe UI,sans-serif';
+  values.forEach((v,i)=>{
+    if(i<12 || i>values.length-5){
+      const a=-Math.PI/2 + i*2*Math.PI/values.length;
+      const x=cx+Math.cos(a)*(R+18), y=cy+Math.sin(a)*(R+18);
+      ctx.fillText(labelPrefix+String(i+1).padStart(2,'0'),x-12,y+4);
+    }
+  });
+}
+function setBadge(elId, cl){ const el=document.getElementById(elId); if(!el) return; el.textContent=cl; el.className='badge '+cl; }
+function buildDelta(realObj, simObj){
+  const lines=[];
+  ['IMMUNO-1','IMMUNO-2'].forEach(name=>{
+    const rv=realObj.cells[name], sv=simObj.cells[name]; const changed=[];
+    for(let i=0;i<rv.length;i++){ if(rv[i]!==sv[i]) changed.push('P'+String(i+1).padStart(2,'0')+': '+rv[i]+'→'+sv[i]); }
+    lines.push(name+': '+(changed.length ? changed.join(', ') : 'sin cambio'));
+  });
+  lines.push(`COMPOSICIÓN: ${realObj.classes['COMPOSICION']} → ${simObj.classes['COMPOSICION']}`);
+  lines.push('La rama SIM es hipotética y no reescribe REAL/S1.');
+  return lines.join('\n');
+}
+function inferScenario(q){
+  q=q.toLowerCase();
+  if(q.includes('vacuna')) return 'ajuste_vacuna';
+  if(q.includes('tumoral')||q.includes('marcador')) return 'marcadores_tumorales';
+  if(q.includes('cerrar')||q.includes('indetermin')) return 'cierre_u';
+  return null;
+}
+function updateAll(){
+  const sim=scenario();
+  document.getElementById('realChip').textContent=real.suceso.suceso_id;
+  document.getElementById('simChip').textContent=sim.suceso.suceso_id;
+  document.getElementById('hChip').textContent=real.horizon_id;
+  drawPolygon('realImm1', real.cells['IMMUNO-1'], real.classes['IMMUNO-1']);
+  drawPolygon('realImm2', real.cells['IMMUNO-2'], real.classes['IMMUNO-2']);
+  drawPolygon('simImm1', sim.cells['IMMUNO-1'], sim.classes['IMMUNO-1']);
+  drawPolygon('simImm2', sim.cells['IMMUNO-2'], sim.classes['IMMUNO-2']);
+  setBadge('realImm1Class', real.classes['IMMUNO-1']);
+  setBadge('realImm2Class', real.classes['IMMUNO-2']);
+  setBadge('realCompClass', real.classes['COMPOSICION']);
+  setBadge('simImm1Class', sim.classes['IMMUNO-1']);
+  setBadge('simImm2Class', sim.classes['IMMUNO-2']);
+  setBadge('simCompClass', sim.classes['COMPOSICION']);
+  const c1=counts(real.cells['IMMUNO-1']), c2=counts(real.cells['IMMUNO-2']);
+  document.getElementById('realSummary').textContent = `SUCESO ${real.suceso.suceso_id} · IMMUNO-1=${real.classes['IMMUNO-1']} (n0=${c1.n0}, n1=${c1.n1}, nU=${c1.nU})\nIMMUNO-2=${real.classes['IMMUNO-2']} (n0=${c2.n0}, n1=${c2.n1}, nU=${c2.nU})\nCOMPOSICIÓN=${real.classes['COMPOSICION']} · HABILITACIÓN=${real.classes['SEGURIDAD_HABILITACION']}`;
+  const s1=counts(sim.cells['IMMUNO-1']), s2=counts(sim.cells['IMMUNO-2']);
+  document.getElementById('simSummary').textContent = `${sim.suceso.suceso_id} · ${sim.ai_assessment}\nIMMUNO-1=${sim.classes['IMMUNO-1']} (n0=${s1.n0}, n1=${s1.n1}, nU=${s1.nU})\nIMMUNO-2=${sim.classes['IMMUNO-2']} (n0=${s2.n0}, n1=${s2.n1}, nU=${s2.nU})\nCOMPOSICIÓN=${sim.classes['COMPOSICION']}`;
+  document.getElementById('deltaBox').textContent = buildDelta(real, sim);
+  document.getElementById('pathBox').textContent = sim.decision_paths.map(x=>'• '+x).join('\n');
+  document.getElementById('expertBox').textContent = `Estado real ${real.suceso.suceso_id}: la composición permanece ${real.classes['COMPOSICION']}. El especialista puede mirar los polígonos reales y decidir si el siguiente paso es conservar fase, abrir nuevo SUCESO o pedir más evidencia.\n\nRama simulada activa: ${sim.suceso.suceso_id} · ${scenarioLabel(state.scenarioKey)}.`;
+  document.getElementById('alertsBox').textContent = real.alerts.map(a=>`• [${a.scope}] ${a.message}`).join('\n');
+}
+function activateTab(name){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  const active=document.querySelector(`[data-tab="${name}"]`);
+  if(active) active.classList.add('active');
+  ['real','sim','compare','ia'].forEach(n=>document.getElementById('tab-'+n).classList.add('hidden'));
+  document.getElementById('tab-'+name).classList.remove('hidden');
+}
+function runQuery(){
+  const q=document.getElementById('queryInput').value.trim();
+  const scKey=inferScenario(q);
+  if(scKey){
+    state.scenarioKey=scKey;
+    updateAll();
+    const sim=scenario();
+    activateTab('ia');
+    document.getElementById('iaResponse').textContent = `Respuesta\n\n${sim.ai_assessment}\n\nCamino sugerido:\n${sim.decision_paths.map(x=>'• '+x).join('\n')}`;
+    document.getElementById('iaMeta').textContent = `Modo: simulación\nIdioma: es\nRama: ${sim.suceso.suceso_id}\nDeriva de: ${sim.derived_from}\nHorizonte: ${sim.horizon_id}\nNo reescritura histórica: ${sim.not_history_rewrite}`;
+  } else {
+    activateTab('ia');
+    document.getElementById('iaResponse').textContent = `Respuesta\n\nEstado real ${real.suceso.suceso_id}: IMMUNO-1=${real.classes['IMMUNO-1']}, IMMUNO-2=${real.classes['IMMUNO-2']}, COMPOSICIÓN=${real.classes['COMPOSICION']}. Persisten señales abiertas; la decisión final sigue siendo humana.`;
+    document.getElementById('iaMeta').textContent = `Modo: lectura\nIdioma: es\nSuceso: ${real.suceso.suceso_id}\nHorizonte: ${real.horizon_id}\nConsulta trazable: sí`;
+  }
+}
+
+document.querySelectorAll('.tab').forEach(tab=>{
+  tab.addEventListener('click', ()=> activateTab(tab.dataset.tab));
+});
+updateAll();
+runQuery();
+</script>
+</body>
+</html>
