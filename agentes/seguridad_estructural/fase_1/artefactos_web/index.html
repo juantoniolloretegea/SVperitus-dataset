@@ -1,11 +1,153 @@
-
 <!DOCTYPE html>
-<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Agente especializado en Seguridad Estructural — Fase I — Portal web</title>
-<style>:root{--bg:#0A1628;--panel:#10203A;--text:#E5EDF7;--muted:#9DB0C8;--gold:#C9A84C;--border:rgba(255,255,255,.1)}*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--text)}.wrap{max-width:1240px;margin:0 auto;padding:24px}.hero,.card{background:var(--panel);border:1px solid var(--border);border-radius:22px;padding:20px}.hero{margin-bottom:18px;background:linear-gradient(135deg,rgba(201,168,76,.14),rgba(255,255,255,.03))}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}.muted{color:var(--muted)}a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}</style></head>
-<body><div class="wrap"><section class="hero"><h1>Agente especializado en Seguridad Estructural — Fase I</h1><p class="muted">Portal canónico local de la Fase I. La interfaz principal sigue siendo poligonal. Las demás herramientas se distribuyen en subpáginas para conservar legibilidad, trazabilidad, jerarquía y custodia visible del diseño.</p></section><section class="grid">
-<article class="card"><h3>Monitor principal</h3><p class="muted">Polígono principal y lectura breve por SUCESO.</p><p><a href="./monitor/index.html">Abrir monitor</a></p></article>
-<article class="card"><h3>Serie de SUCESOS</h3><p class="muted">Cadena S1 → S2 → S3 y ejemplos reales de fase.</p><p><a href="./monitor/sucesos.html">Abrir serie</a></p></article>
-<article class="card"><h3>Plano IA</h3><p class="muted">Consulta trazable en español y ramas REAL/SIM.</p><p><a href="./ia/index.html">Abrir plano IA</a></p></article>
-<article class="card"><h3>Lectura R³</h3><p class="muted">Geometría auxiliar y elevación de U con encuadre corregido.</p><p><a href="./r3.html">Abrir lectura R³</a></p></article>
-<article class="card"><h3>Evidencia</h3><p class="muted">Objetivos, guardarraíles, compatibilidad y deudas elevadas.</p><p><a href="./evidencia.html">Abrir evidencia</a></p></article>
-</section></div></body></html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Agente especializado en Seguridad Estructural — Fase I — Subpuerta del agente</title>
+<style>
+:root{
+  --paper:#f2eadf;
+  --paper-2:#f7f0e6;
+  --ink:#171412;
+  --muted:#5a4d43;
+  --border:#d7c7b4;
+  --accent:#8e2f2a;
+  --accent-soft:#efe1da;
+  --ok:#2e7d32;
+  --bad:#b23a2d;
+  --u:#b78300;
+  --shadow:0 12px 28px rgba(60,40,20,.08);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  line-height:1.56;
+}
+.wrap{max-width:1240px;margin:0 auto;padding:22px}
+.hero,.card{
+  background:var(--paper-2);
+  border:1px solid var(--border);
+  border-radius:22px;
+  box-shadow:var(--shadow);
+}
+.hero{padding:24px 24px 20px;margin-bottom:18px}
+h1,h2,h3{margin:0 0 12px;color:var(--ink)}
+p{margin:0 0 12px}
+.muted{color:var(--muted)}
+.note{
+  margin-top:16px;
+  padding:14px 16px;
+  border:1px solid rgba(142,47,42,.24);
+  border-left:6px solid var(--accent);
+  border-radius:16px;
+  background:var(--accent-soft);
+}
+.pills{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 6px}
+.pill{
+  font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  display:inline-flex;align-items:center;gap:8px;
+  padding:9px 14px;border-radius:999px;
+  border:1px solid var(--border);
+  background:#fbf6ef;color:var(--ink);font-weight:700;
+}
+.pill.active{border-color:var(--accent);color:var(--accent);box-shadow:inset 0 0 0 1px rgba(142,47,42,.14)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.card{padding:18px}
+.card h3{padding-bottom:8px;border-bottom:2px solid rgba(142,47,42,.16)}
+.link{display:inline-flex;align-items:center;gap:8px;font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;font-weight:700;color:var(--accent);text-decoration:none}
+.link:hover{text-decoration:underline}
+.meta{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:18px 0}
+.list{margin:8px 0 0 18px}
+.small{font-size:.96rem}
+@media (max-width:800px){.wrap{padding:14px}.meta{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section class="hero">
+    <h1>Agente especializado en Seguridad Estructural — Fase I</h1>
+    <p class="muted">Subpuerta específica del agente. Su finalidad es ordenar para terceros el acceso humano a la célula de seguridad estructural, a sus capacidades presentes y a los artefactos ya disponibles, sin dispersar la lectura entre rutas técnicas heterogéneas.</p>
+    <div class="pills">
+      <span class="pill active">Custodia basal del diseño</span>
+      <span class="pill">DSL y laboratorios</span>
+      <span class="pill">SUCESOS y monitorización</span>
+      <span class="pill">IA trazable subordinada</span>
+      <span class="pill">R³ auxiliar no soberana</span>
+    </div>
+    <div class="note">
+      <strong>Estatuto actual.</strong> Esta fase debe leerse a la vez como agente especializado propio y como primera materialización de la custodia basal obligatoria del diseño dentro de <code>SVperitus</code>. La publicación canónica, el laboratorio, las figuras y la capa web local forman un mismo bloque legible y verificable.
+    </div>
+  </section>
+
+  <section class="meta">
+    <article class="card">
+      <h2>Qué hace hoy este agente</h2>
+      <ul class="list">
+        <li>custodia el diseño del frente y de sus artefactos;</li>
+        <li>vigila la coherencia entre manuscrito, repositorio, publicación, DSL y laboratorio;</li>
+        <li>abre lectura poligonal por SUCESOS con primacía humana;</li>
+        <li>ofrece plano IA trazable subordinado al álgebra y al experto;</li>
+        <li>mantiene R³ como ayuda geométrica auxiliar, no soberana.</li>
+      </ul>
+    </article>
+    <article class="card">
+      <h2>Límites vigentes</h2>
+      <ul class="list">
+        <li>no crea doctrina nueva;</li>
+        <li>no sustituye a <code>SV-matematica-semantica</code>;</li>
+        <li>no sustituye a <code>SV-lenguaje-de-computacion</code>;</li>
+        <li>no cierra <code>U</code> por automatismo conversacional, estadístico o técnico;</li>
+        <li>no convierte la capa web en autoridad soberana del frente.</li>
+      </ul>
+    </article>
+  </section>
+
+  <section class="grid">
+    <article class="card">
+      <h3>Monitor principal</h3>
+      <p class="small muted">Polígono principal y lectura breve por SUCESO. Es la interfaz primaria de seguimiento humano del frente.</p>
+      <p><a class="link" href="./monitor/index.html">Abrir monitor poligonal</a></p>
+    </article>
+
+    <article class="card">
+      <h3>Serie de SUCESOS</h3>
+      <p class="small muted">Cadena S1 → S2 → S3 con lectura histórica de diseño y cambios estructurales comparables.</p>
+      <p><a class="link" href="./monitor/sucesos.html">Abrir serie de SUCESOS</a></p>
+    </article>
+
+    <article class="card">
+      <h3>Plano IA trazable</h3>
+      <p class="small muted">Consulta en español, separación REAL / SIM, respuesta con justificación y metadatos, sin sustitución del experto.</p>
+      <p><a class="link" href="./ia/index.html">Abrir plano IA</a></p>
+    </article>
+
+    <article class="card">
+      <h3>Lectura R³</h3>
+      <p class="small muted">Carta geométrica auxiliar para auditoría estructural, elevación de U y control de encuadre.</p>
+      <p><a class="link" href="./r3.html">Abrir lectura R³</a></p>
+    </article>
+
+    <article class="card">
+      <h3>Evidencia, objetivos y deudas</h3>
+      <p class="small muted">Síntesis pública de objetivos primarios, guardarraíles, compatibilidad y deudas elevadas al carril superior.</p>
+      <p><a class="link" href="./evidencia.html">Abrir evidencia</a></p>
+    </article>
+  </section>
+
+  <section class="card" style="margin-top:18px">
+    <h2>Relación con el bloque técnico de fase</h2>
+    <p class="muted">Esta subpuerta no sustituye a la publicación canónica, a las figuras ni al laboratorio. Su misión es facilitar una entrada humana ordenada al mismo bloque técnico de Fase I, ya adscrito materialmente a:</p>
+    <ul class="list">
+      <li><code>../publicacion/</code></li>
+      <li><code>../figuras/</code></li>
+      <li><code>../laboratorio/</code></li>
+      <li><code>./</code> como sede local de artefactos web</li>
+    </ul>
+  </section>
+</div>
+</body>
+</html>
