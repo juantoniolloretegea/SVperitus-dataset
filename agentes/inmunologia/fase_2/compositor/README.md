@@ -1,8 +1,8 @@
 # Agente especializado en Inmunología — Fase II — Compositor
 
-## Estatuto
+Esta carpeta identifica canónicamente el compositor específico surgido del desarrollo de la **Fase II** del Agente especializado en Inmunología.
 
-Esta carpeta identifica canónicamente el **compositor específico** surgido del desarrollo de la **Fase II** del Agente especializado en Inmunología.
+## Estatuto
 
 No constituye:
 
@@ -17,20 +17,18 @@ Su función es articular, de forma visible y trazable, la composición serie ent
 - `IMMUNO-1`
 - y `IMMUNO-2`
 
- dentro del mismo Agente especializado en Inmunología.
-
-## Absorción material ya activa
-
-El archivo `compose.py` queda ya absorbido en esta sede canónica. La construcción y revisión de este artefacto debe hacerse desde aquí, no desde la capa histórica.
+dentro del mismo Agente especializado en Inmunología.
 
 ## Regla de lectura
 
 Este compositor debe leerse como:
 
-- **artefacto adscrito a la Fase II**;
+- artefacto adscrito a la Fase II;
 - nacido por necesidad real del desarrollo;
-- y sometido igualmente a la **custodia basal del diseño**.
+- y sometido igualmente a la custodia basal del diseño.
 
 ## Relación con la sede histórica actual
 
-`../../../../dominios/inmunologia/compositor/` conserva todavía el espejo histórico transitorio del frente.
+Hasta que se complete la migración material, este frente debe leerse en continuidad con:
+
+- `../../../../dominios/inmunologia/compositor/`
