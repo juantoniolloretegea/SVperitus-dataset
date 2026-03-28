@@ -36,3 +36,10 @@ Hasta que se complete la migración material, esta fase debe leerse en continuid
 ## Condición basal
 
 La consolidación de esta fase y de cualquier ampliación posterior debe permanecer bajo custodia basal del diseño.
+
+
+## Subpuerta de fase
+
+Para lectura web humana de esta fase, la sede canónica incorpora una entrada específica en:
+
+- `index.html`
