@@ -74,9 +74,9 @@ La organización visible actual del repositorio conserva todavía trazas histór
 
 **agentes especializados → fases → artefactos → aplicaciones**
 
-El paso presente no elimina todavía los materiales históricos ni reubica por la fuerza todos los artefactos existentes. Lo que hace es **abrir ya la sede canónica de agentes** para que el repositorio deje de depender sólo de la capa transitoria `dominios/`.
+La apertura de `agentes/` ya no es sólo nominal. La absorción material de seguridad estructural está iniciada y la de inmunología queda ahora también abierta en su sede canónica. El cascarón histórico `dominios/` debe leerse, desde este punto, como espejo transitorio y no como sede principal de construcción.
 
-### Sede canónica recién abierta
+### Sede canónica ya activa
 
 ```text
 SVperitus-dataset/
@@ -84,57 +84,52 @@ SVperitus-dataset/
 ├── agentes/ Sede canónica de agentes especializados
 │   ├── inmunologia/
 │   │   ├── fase_1/
+│   │   │   ├── publicacion/
+│   │   │   ├── config/
+│   │   │   └── src/
 │   │   └── fase_2/
+│   │       ├── publicacion/
+│   │       ├── config/
+│   │       ├── src/
 │   │       └── compositor/
 │   └── seguridad_estructural/
 │       └── fase_1/
 │
 ├── especificaciones/ Verdad normativa verificable, puentes de aplicación y patrón común emergente
-│   ├── nucleo/ Invariantes formales del SV y referencias nucleares de aplicación
-│   ├── conformidad/ Tests de conformidad cruzada C8 (19 casos de paridad)
-│   ├── esquemas/ Contratos YAML (JSON Schema)
-│   ├── patron_agente_especializado/ Patrón común emergente del agente y de la capa IA trazable
-│   └── custodia_basal_del_diseno/ Custodia basal obligatoria para agentes, fases y piezas sensibles
+│   ├── nucleo/
+│   ├── conformidad/
+│   ├── esquemas/
+│   ├── patron_agente_especializado/
+│   └── custodia_basal_del_diseno/
 │
-├── dominios/ Estado transitorio e histórico de lectura
-│   └── inmunologia/ Ubicación material heredada mientras no se complete la migración canónica
+├── dominios/ Espejo histórico transitorio mientras no se complete la retirada final
+│   └── inmunologia/
 │
-├── comun/ Núcleo formal compartido (Capa A) + Γ(v)
-├── meta/ Meta-célula SV(9,3)-IA (Capa A)
-├── entornos/ Implementaciones por lenguaje (Capa A+B)
-├── aplicaciones/ Despliegue al usuario (Capa B)
-├── documentos/ Documentación y publicaciones relacionadas
-└── muestras/ Datos de ejemplo
+├── comun/
+├── meta/
+├── entornos/
+├── aplicaciones/
+├── documentos/
+└── muestras/
 ```
 
 ## Agentes ya identificados en sede canónica
 
 ### Agente especializado en Inmunología
 
-Se abre ya su sede canónica en `agentes/inmunologia/`, organizada por fases.
+Su sede canónica en `agentes/inmunologia/` deja ya de ser sólo un mapa y pasa a absorber material propio del agente:
 
-- **Fase I:** corresponde al frente históricamente publicado como `IMMUNO-1`.
-- **Fase II:** corresponde al frente `IMMUNO-2`, materializado en repositorio y con publicación específica todavía pendiente.
-- **Compositor:** artefacto específico surgido del desarrollo de la Fase II; no constituye fase autónoma ni agente distinto.
+- **Fase I:** absorbe ya su configuración y su bloque principal de implementación Python, además de su referencia de publicación.
+- **Fase II:** absorbe ya especificación, configuración, motor normativo y compositor específico.
+- **Compositor:** queda adscrito a la Fase II y deja de depender sólo de la capa histórica.
 
-Mientras no se complete la migración material, el lector debe entender que la capa `dominios/inmunologia/` conserva todavía la ubicación histórica de trabajo.
+A partir de ahora, la construcción correcta del frente inmunológico debe hacerse en esta sede. `dominios/inmunologia/` queda como espejo histórico transitorio hasta la retirada final del cascarón antiguo.
 
 ### Agente especializado en Seguridad Estructural
 
-Se abre ya su sede canónica en `agentes/seguridad_estructural/`.
+Su sede canónica en `agentes/seguridad_estructural/` ya absorbe Fase I con publicación, figuras, laboratorio y subpuerta local del agente.
 
-- **Fase I:** corresponde al frente actualmente publicado como *Célula especializada de seguridad estructural para la custodia del diseño, el DSL y los laboratorios del Sistema Vectorial SV — Release 2*.
-- Esta Fase I debe leerse simultáneamente como:
-  - agente especializado propio;
-  - y primera materialización de la custodia basal obligatoria del diseño dentro de `SVperitus`.
-
-## Nota de orientación canónica
-
-Las referencias actuales a `dominios/` deben leerse como **estado transitorio del repositorio** y no como taxonomía final del ecosistema.
-
-La apertura de `agentes/` no implica todavía que todos los artefactos queden ya físicamente movidos. Implica que la lectura canónica correcta del repositorio ha dejado ya de ser ambigua.
-
-## Primer dominio disponible: inmunología clínica
+## Primer agente clínico disponible: inmunología
 
 - **Fase 1 (IMMUNO-1):** evaluación de profilaxis antiinfecciosa en pacientes con inmunosupresión farmacológica. `SV(25,5)`, `T(25)=19`. Motor normativo completo, port Rust, WASM, demo web y 108/108 tests de paridad. Publicado.
 - **Fase 2 (IMMUNO-2):** evaluación de riesgo infeccioso en inmunosupresión farmacológica no trasplante. `SV(25,5)`, `T(25)=19`. Motor normativo, función de criticidad `Γ(v)`, compositor serie y meta-célula `SV(9,3)-IA`. Port Rust/WASM con paridad verificada.
