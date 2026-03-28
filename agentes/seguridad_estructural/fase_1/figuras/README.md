@@ -2,9 +2,9 @@
 
 ## Función
 
-Esta carpeta absorbe las figuras actualmente disponibles del paquete técnico de la Release 2.
+Esta carpeta absorbe las figuras actualmente disponibles del paquete técnico de la Release 2 del Agente especializado en Seguridad Estructural.
 
-## Figuras presentes en este bloque
+## Figuras presentes en esta fase
 
 - `figura_01_arquitectura_pisos.svg`
 - `figura_02_celula_diseno_capas.svg`
@@ -13,9 +13,10 @@ Esta carpeta absorbe las figuras actualmente disponibles del paquete técnico de
 - `figura_05_actividad_uml_custodia.svg`
 - `figura_06_puertas_custodia.svg`
 - `figura_07_celulas_poligonales_sv.svg`
+- `figura_08_correspondencia_compuerta_sv.svg`
 
-## Nota de honestidad material
+## Criterio de lectura
 
-El manuscrito publicado cita también una **Figura 8** de correspondencia expositiva. Sin embargo, en el paquete material accesible y auditado en esta conversación no comparece todavía el fichero correspondiente.
+Estas figuras deben leerse en continuidad con el manuscrito autocontenido de la Fase I y con la publicación canónica vigente de la célula especializada de seguridad estructural.
 
-Por tanto, esta absorción no finge su existencia. La Figura 8 deberá añadirse en un bloque posterior cuando el activo material verificable esté disponible.
+Su función no es ornamental. Forman parte del bloque verificable de exposición, auditoría y laboratorio de la fase.
