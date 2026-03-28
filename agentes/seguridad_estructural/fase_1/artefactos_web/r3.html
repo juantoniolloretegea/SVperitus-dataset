@@ -6,35 +6,35 @@
 <title>Seguridad estructural — Fase I — Lectura R³</title>
 <style>
 :root {
-  --bg:#041a3a; --panel:#0b2655; --panel2:#082048; --line:#284d82; --text:#eef6ff;
-  --muted:#b4c6e3; --green:#2ecc71; --red:#ff5c5c; --amber:#FFC107; --deep:#071830;
+  --bg:#f2eadf; --panel:#f7f0e6; --panel2:#efe3d4; --line:#d7c7b4; --text:#171412;
+  --muted:#5a4d43; --green:#2e7d32; --red:#8e2f2a; --amber:#b78300; --deep:#1a1d23; --accent-soft:#efe1da;
 }
 *{box-sizing:border-box}
-body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:linear-gradient(180deg,#03152f,#06224a);color:var(--text)}
-header{padding:24px 28px 18px;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;backdrop-filter:blur(6px);background:rgba(3,21,47,.92);z-index:5}
+body{margin:0;font-family:ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;background:var(--bg);color:var(--text)}
+header{padding:24px 28px 18px;border-bottom:1px solid rgba(0,0,0,.08);position:sticky;top:0;backdrop-filter:blur(6px);background:rgba(247,240,230,.96);z-index:5}
 h1{margin:0 0 10px;font-size:2rem}
 .lead{margin:0;color:var(--muted);font-size:1.05rem;line-height:1.45;max-width:1180px}
 .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
-.chip{border:1px solid rgba(255,255,255,.12);padding:10px 14px;border-radius:999px;background:rgba(255,255,255,.02);font-weight:700}
+.chip{border:1px solid rgba(142,47,42,.22);padding:10px 14px;border-radius:999px;background:#fbf6ef;font-weight:700}
 main{padding:24px;display:grid;gap:18px}
-.panel{background:var(--panel);border:1px solid rgba(255,255,255,.08);border-radius:24px;padding:20px;box-shadow:0 10px 24px rgba(0,0,0,.18)}
+.panel{background:var(--panel);border:1px solid rgba(0,0,0,.08);border-radius:24px;padding:20px;box-shadow:0 10px 24px rgba(0,0,0,.18)}
 .toolbar{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:12px}
 button.tab{background:var(--panel2);color:var(--text);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:10px 14px;font-weight:800;cursor:pointer}
-button.tab.active{outline:2px solid rgba(255,255,255,.12);background:#12366d}
+button.tab.active{outline:2px solid rgba(142,47,42,.22);background:#12366d}
 .grid{display:grid;gap:18px}
 .grid.main{grid-template-columns:minmax(650px,1.25fr) minmax(320px,.75fr)}
 .grid.orthos{grid-template-columns:repeat(3,1fr)}
 canvas{width:100%;background:var(--deep);border-radius:18px;border:1px solid rgba(255,255,255,.06);display:block}
 .section-title{font-size:1.65rem;margin:0 0 10px}
-.box{background:var(--panel2);border-radius:18px;padding:16px;border:1px solid rgba(255,255,255,.06)}
+.box{background:var(--panel2);border-radius:18px;padding:16px;border:1px solid rgba(0,0,0,.08)}
 .box h3{margin:0 0 8px}
 .controls{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:10px}
 label.control{display:grid;gap:6px;font-size:.95rem;color:var(--muted)}
 input[type=range]{width:100%}
 .metrics{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:12px}
-.metric{background:var(--panel2);border-radius:16px;padding:14px;border:1px solid rgba(255,255,255,.06)}
+.metric{background:var(--panel2);border-radius:16px;padding:14px;border:1px solid rgba(0,0,0,.08)}
 .metric b{display:block;font-size:1.4rem;margin-top:6px}
-.state-pill{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:8px 12px;font-weight:800;border:1px solid rgba(255,255,255,.12)}
+.state-pill{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:8px 12px;font-weight:800;border:1px solid rgba(142,47,42,.22)}
 .legend{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
 .legend span{display:inline-flex;align-items:center;gap:8px;color:var(--muted);font-weight:700}
 .dot{width:12px;height:12px;border-radius:50%;display:inline-block}
@@ -54,7 +54,7 @@ input[type=range]{width:100%}
 <header>
   <h1>Parche 2C-R3c · corrección de encuadre y lectura espacial</h1>
   <p class="lead">La matemática ya estaba en R³; el problema era visual. Esta versión corrige el <strong>encuadre</strong>, reduce el relleno tragón, hace explícitas las <strong>varillas verticales de U</strong> y añade <strong>mini-vistas ortográficas</strong>. La capa sigue siendo <strong>auxiliar y no soberana</strong>.</p>
-  <div class="chips">
+  <div class="chips"><div class="chip"><a href="./index.html" style="color:inherit;text-decoration:none">Volver a la subpuerta</a></div>
     <div class="chip">Autoencuadre por bounding box completa</div>
     <div class="chip">0 y 1 en z = 0</div>
     <div class="chip">U elevada a z = h</div>
@@ -323,7 +323,7 @@ function drawOrtho(canvasId, ev, view){
     const p1=P({a:minA,b:0}), p2=P({a:maxA,b:0}); ctx.strokeStyle='rgba(255,255,255,.08)'; ctx.beginPath(); ctx.moveTo(p1.x,p1.y); ctx.lineTo(p2.x,p2.y); ctx.stroke();
   }
   // connect in order
-  ctx.strokeStyle='rgba(255,255,255,.12)'; ctx.lineWidth=1.2;
+  ctx.strokeStyle='rgba(142,47,42,.22)'; ctx.lineWidth=1.2;
   ctx.beginPath(); pts.forEach((p,i)=>{ const q=P(p); if(i===0) ctx.moveTo(q.x,q.y); else ctx.lineTo(q.x,q.y); }); ctx.closePath(); ctx.stroke();
   // verticals for U on front/side
   if(view!=='top'){
