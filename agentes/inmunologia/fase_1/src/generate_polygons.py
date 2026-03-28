@@ -2,7 +2,7 @@
 dominios/inmunologia/fase_1/src/generate_polygons.py
 ==============================
 Convierte vectores ternarios IMMUNO-1 (n=25) en imágenes de polígono polar
-organizadas en la estructura ImageFolder de PyTorch.
+organizadas en la estructura ImageFolder de PyTorch. 
 
 El orden y los nombres de las carpetas de salida se derivan de class_to_idx
 en imm_n25.yaml, garantizando coherencia con normative_engine.py y evaluate.py.
