@@ -4,7 +4,7 @@
 
 Esta carpeta constituye la **sede canónica** del Agente especializado en Inmunología dentro de `SVperitus`.
 
-No crea un agente nuevo distinto del que ya venía materializándose históricamente en `dominios/inmunologia/`. Su función es **reordenar la lectura** del frente inmunológico bajo la arquitectura correcta:
+No crea un agente nuevo distinto del que ya venía materializándose históricamente en `dominios/inmunologia/`. Su función es **reordenar y absorber materialmente** el frente inmunológico bajo la arquitectura correcta:
 
 **agente → fases → artefactos**
 
@@ -25,14 +25,27 @@ Toda nueva fase o artefacto sensible de este agente debe quedar bajo la **custod
 - `../../especificaciones/patron_agente_especializado/README.md`
 - `../../especificaciones/custodia_basal_del_diseno/README.md`
 
-## Estructura canónica abierta
+## Estructura canónica activa
 
 - `fase_1/`
+  - `publicacion/`
+  - `config/`
+  - `src/`
 - `fase_2/`
-- `fase_2/compositor/`
+  - `publicacion/`
+  - `config/`
+  - `src/`
+  - `compositor/`
+
+## Absorción material ya iniciada
+
+La sede canónica del agente ya absorbe material real del frente inmunológico:
+
+- en **Fase I**, la configuración `imm_n25.yaml` y el bloque principal de implementación Python;
+- en **Fase II**, la especificación de parámetros, la configuración `imm2_n25.yaml`, el motor normativo y el compositor específico.
+
+La construcción correcta del agente debe hacerse ya desde esta carpeta.
 
 ## Relación con la capa histórica
 
-Mientras no se complete la migración material del repositorio, la ruta `dominios/inmunologia/` conserva todavía la sede histórica de trabajo y de artefactos.
-
-La lectura correcta, sin embargo, pasa ya por esta carpeta.
+`dominios/inmunologia/` conserva todavía el espejo histórico del frente mientras no se complete la retirada final del cascarón antiguo. Pero su lectura correcta ya no es central: pasa a ser **espejo transitorio**, no sede principal.
