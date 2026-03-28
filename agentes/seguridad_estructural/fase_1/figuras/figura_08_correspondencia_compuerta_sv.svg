@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="960" viewBox="0 0 1200 960">
+<rect width="1200" height="900" fill="#ffffff"/>
+<rect x="8" y="8" width="1184" height="944" rx="24" fill="none" stroke="#1d4ed8" stroke-width="2" opacity="0.30"/>
+
+<defs>
+<marker id="arr" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto">
+  <path d="M0,0 L11,5.5 L0,11 z" fill="#b45309"/>
+</marker>
+</defs>
+
+<!-- TÍTULO -->
+<text x="600" y="46" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#111827">Figura 8. Correspondencia expositiva entre álgebra, tabla de resolución</text>
+<text x="600" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#111827">y diagrama funcional de compuerta SV</text>
+
+<!-- ===== TRES BLOQUES: izq=360px · central=462px · der=300px ===== -->
+<rect x="30"  y="146" width="360" height="756" rx="16" fill="#f8fafc" stroke="#1d4ed8"  stroke-width="2.5"/>
+<rect x="406" y="146" width="462" height="756" rx="16" fill="#f8fafc" stroke="#0f766e" stroke-width="2.5"/>
+<rect x="884" y="146" width="292" height="756" rx="16" fill="#f8fafc" stroke="#b45309" stroke-width="2.5"/>
+
+<!-- ======================================= -->
+<!-- BLOQUE IZQUIERDO — Forma algebraica    -->
+<!-- ======================================= -->
+<text x="210" y="296" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#1d4ed8">Forma algebraica</text>
+
+<!-- Nivel 1 -->
+<text x="52" y="334" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111827">Nivel 1 · suelo</text>
+<text x="52" y="358" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#374151">S_suelo = T_suelo(C_obj^9, C_base^9)</text>
+<text x="52" y="384" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#334155">Entradas: C_obj^9 y C_base^9</text>
+<text x="52" y="402" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#334155">Regla: 1 domina; U se conserva;</text>
+<text x="52" y="418" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#334155">0 sólo cierra si ambos son 0</text>
+
+<line x1="52" y1="438" x2="372" y2="438" stroke="#cbd5e1" stroke-width="1"/>
+
+<!-- Nivel 2 -->
+<text x="52" y="462" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111827">Nivel 2 · custodia final</text>
+<text x="52" y="486" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#374151">A_custodia = T_cust(</text>
+<text x="70" y="504" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#374151">C_diseno^36, S_suelo)</text>
+<text x="52" y="530" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#334155">Entradas: C_diseno^36 y S_suelo</text>
+<text x="52" y="548" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#334155">Regla: misma disciplina conservadora</text>
+<text x="52" y="564" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#334155">en el segundo piso</text>
+
+<line x1="52" y1="586" x2="372" y2="586" stroke="#cbd5e1" stroke-width="1"/>
+
+<!-- Lectura mínima -->
+<text x="52" y="612" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#1d4ed8">Lectura mínima</text>
+<text x="52" y="636" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#334155">• La composición no es monolítica.</text>
+<text x="52" y="656" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#334155">• La salida no blanquea entradas no aptas.</text>
+<text x="52" y="676" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#334155">• U no se clausura por atajo.</text>
+
+<line x1="52" y1="696" x2="372" y2="696" stroke="#cbd5e1" stroke-width="1"/>
+
+<!-- Nota arquitectura -->
+<text x="52" y="720" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#6b7280" font-style="italic">La arquitectura no es SV(54) monolítica:</text>
+<text x="52" y="738" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#6b7280" font-style="italic">es una composición visible por pisos.</text>
+
+<!-- ======================================= -->
+<!-- BLOQUE CENTRAL — Tabla                 -->
+<!-- ======================================= -->
+<text x="637" y="294" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0f766e">Tabla de resolución ternaria conservadora</text>
+<text x="637" y="318" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#334155">Misma disciplina conservadora — distinta función jerárquica por nivel</text>
+
+<!-- Tabla 4×4 completamente dentro del bloque central -->
+<!-- x: 420→856 (436px) · 4 cols: 90+115+115+116 -->
+<!-- y: 156→436 (280px) · 4 rows: 60+73+73+74 -->
+<line x1="420" y1="336" x2="856" y2="336" stroke="#0f766e" stroke-width="1.5"/>
+<line x1="420" y1="396" x2="856" y2="396" stroke="#0f766e" stroke-width="1.5"/>
+<line x1="420" y1="469" x2="856" y2="469" stroke="#0f766e" stroke-width="1.5"/>
+<line x1="420" y1="542" x2="856" y2="542" stroke="#0f766e" stroke-width="1.5"/>
+<line x1="420" y1="616" x2="856" y2="616" stroke="#0f766e" stroke-width="1.5"/>
+
+<line x1="420" y1="336" x2="420" y2="616" stroke="#0f766e" stroke-width="1.5"/>
+<line x1="510" y1="336" x2="510" y2="616" stroke="#0f766e" stroke-width="1.5"/>
+<line x1="625" y1="336" x2="625" y2="616" stroke="#0f766e" stroke-width="1.5"/>
+<line x1="740" y1="336" x2="740" y2="616" stroke="#0f766e" stroke-width="1.5"/>
+<line x1="856" y1="336" x2="856" y2="616" stroke="#0f766e" stroke-width="1.5"/>
+
+<!-- Header row fill -->
+<rect x="420" y="336" width="436" height="60" fill="#d1fae5" opacity="0.6"/>
+
+<!-- Header labels (row y-center=186) -->
+<!-- col0=465, col1=567, col2=682, col3=798 -->
+<text x="567" y="370" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#0f172a">APTO</text>
+<text x="682" y="370" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#0f172a">INDET.</text>
+<text x="798" y="364" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#0f172a">NO_</text>
+<text x="798" y="378" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#0f172a">APTO</text>
+
+<!-- Row 1 header (y-center=252): APTO -->
+<text x="465" y="436" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#0f172a">APTO</text>
+<!-- Row 1 data -->
+<text x="567" y="436" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#15803d">APTO</text>
+<text x="682" y="436" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#92400e">INDET.</text>
+<text x="798" y="429" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#b91c1c">NO_</text>
+<text x="798" y="443" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#b91c1c">APTO</text>
+
+<!-- Row 2 header (y-center=325): INDET. -->
+<text x="465" y="509" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#0f172a">INDET.</text>
+<!-- Row 2 data -->
+<text x="567" y="509" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#92400e">INDET.</text>
+<text x="682" y="509" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#92400e">INDET.</text>
+<text x="798" y="502" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#b91c1c">NO_</text>
+<text x="798" y="516" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#b91c1c">APTO</text>
+
+<!-- Row 3 header (y-center=399): NO_APTO -->
+<text x="465" y="575" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#0f172a">NO_</text>
+<text x="465" y="589" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#0f172a">APTO</text>
+<!-- Row 3 data -->
+<text x="567" y="575" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#b91c1c">NO_</text>
+<text x="567" y="589" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#b91c1c">APTO</text>
+<text x="682" y="575" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#b91c1c">NO_</text>
+<text x="682" y="589" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#b91c1c">APTO</text>
+<text x="798" y="575" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#b91c1c">NO_</text>
+<text x="798" y="589" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#b91c1c">APTO</text>
+
+<!-- Notas bajo tabla -->
+<text x="637" y="640" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#334155">APTO sólo si ambas entradas son aptas.</text>
+<text x="637" y="660" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#334155">NO_APTO domina si aparece en cualquiera de las entradas.</text>
+<text x="637" y="680" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#334155">INDETERMINADO se conserva cuando no existe cierre legítimo.</text>
+
+<text x="637" y="714" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#0f766e">Esta tabla no equivale a validación binaria.</text>
+<text x="637" y="734" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#334155">Es una tabla de resolución ternaria conservadora del SV.</text>
+
+<!-- ======================================= -->
+<!-- BLOQUE DERECHO — Diagrama funcional    -->
+<!-- ======================================= -->
+<text x="1030" y="294" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#b45309">Diagrama funcional</text>
+<text x="1030" y="316" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#b45309">por bloques</text>
+
+<!-- T_suelo box -->
+<rect x="948" y="368" width="96" height="44" rx="8" fill="#ffffff" stroke="#b45309" stroke-width="2.5"/>
+<text x="996" y="395" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111827">T_suelo</text>
+
+<!-- T_cust box — bajado para dar espacio al tramo S_suelo vertical -->
+<rect x="948" y="560" width="96" height="44" rx="8" fill="#ffffff" stroke="#b45309" stroke-width="2.5"/>
+<text x="996" y="587" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111827">T_cust</text>
+
+<!-- Entradas C_obj^9 y C_base^9 — entran por la izquierda de T_suelo -->
+<line x1="900" y1="380" x2="946" y2="380" stroke="#b45309" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="900" y1="398" x2="946" y2="398" stroke="#b45309" stroke-width="2" marker-end="url(#arr)"/>
+<text x="923" y="370" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827">C_obj^9</text>
+<text x="923" y="416" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827">C_base^9</text>
+
+<!-- S_suelo: flecha vertical DIRECTA de la base de T_suelo a la cima de T_cust -->
+<line x1="996" y1="412" x2="996" y2="558" stroke="#b45309" stroke-width="2.5" marker-end="url(#arr)"/>
+<!-- Etiqueta S_suelo a la derecha del tramo vertical, centrada -->
+<text x="1012" y="490" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827">S_suelo</text>
+
+<!-- C_diseno^36 entra por la izquierda de T_cust -->
+<line x1="900" y1="582" x2="946" y2="582" stroke="#b45309" stroke-width="2" marker-end="url(#arr)"/>
+<text x="923" y="600" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827">C_diseno^36</text>
+
+<!-- A_custodia sale por la DERECHA de T_cust — sin confusión con S_suelo -->
+<line x1="1044" y1="582" x2="1148" y2="582" stroke="#b45309" stroke-width="2.5" marker-end="url(#arr)"/>
+<text x="1096" y="600" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827">A_custodia</text>
+
+<!-- Notas texto inferior derecho -->
+<text x="1030" y="650" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#334155">El bloque superior no corrige</text>
+<text x="1030" y="668" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#334155">al inferior por intuición.</text>
+<text x="1030" y="694" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#334155">Sólo compone con regla visible</text>
+<text x="1030" y="712" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#334155">y salida trazable.</text>
+
+<!-- Separador y autoría -->
+<line x1="50" y1="868" x2="1150" y2="868" stroke="#cccccc" stroke-width="0.8"/>
+<text x="600" y="884" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#555555">Autor: Juan Antonio Lloret Egea | ORCID: 0000-0002-6634-3351 | Institución: Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | Publicación: IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Madrid, 27/03/2026</text>
+</svg>

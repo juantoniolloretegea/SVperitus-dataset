@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect width="1200" height="900" fill="#ffffff"/>
+<rect x="8" y="8" width="1184" height="884" rx="24" fill="none" stroke="#1d4ed8" stroke-width="2" opacity="0.30"/>
+<defs>
+<marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto">
+<path d="M0,0 L12,6 L0,12 z" fill="#1d4ed8"/>
+</marker>
+<linearGradient id="bgExt" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" stop-color="#eff6ff"/><stop offset="100%" stop-color="#dbeafe"/>
+</linearGradient>
+<linearGradient id="bgInt" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" stop-color="#f0f9ff"/><stop offset="100%" stop-color="#bae6fd"/>
+</linearGradient>
+<linearGradient id="bgDis" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" stop-color="#eef2ff"/><stop offset="100%" stop-color="#c7d2fe"/>
+</linearGradient>
+<linearGradient id="bgSeg" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" stop-color="#f0fdf4"/><stop offset="100%" stop-color="#bbf7d0"/>
+</linearGradient>
+<linearGradient id="bgFinal" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" stop-color="#1d4ed8"/><stop offset="100%" stop-color="#1e3a8a"/>
+</linearGradient>
+<filter id="sh" x="-5%" y="-5%" width="115%" height="120%">
+<feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#1d4ed8" flood-opacity="0.14"/>
+</filter>
+</defs>
+
+<text x="600" y="50" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#111827">Figura 1. Arquitectura de custodia A_custodia — composición por pisos</text>
+
+<rect x="60" y="100" width="240" height="160" rx="14" fill="url(#bgExt)" stroke="#1d4ed8" stroke-width="2" filter="url(#sh)"/>
+<text x="180" y="130" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#1d4ed8">C_obj&#x2079;</text>
+<text x="180" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">Célula de objetivos</text>
+<text x="180" y="168" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">del frente vigente</text>
+<text x="180" y="186" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6b7280">b = 3 · n = 9 posiciones</text>
+<text x="180" y="203" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6b7280">O1–O9: objetivos del suelo</text>
+<text x="180" y="220" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#1d4ed8" font-weight="600">T(9) = 7</text>
+<text x="180" y="238" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6b7280">necesidad y base teórica</text>
+
+<rect x="360" y="100" width="240" height="160" rx="14" fill="url(#bgInt)" stroke="#0284c7" stroke-width="2" filter="url(#sh)"/>
+<text x="480" y="130" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#0284c7">C_base&#x2079;</text>
+<text x="480" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">Célula de integridad</text>
+<text x="480" y="168" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">técnico-operativa</text>
+<text x="480" y="186" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6b7280">b = 3 · n = 9 posiciones</text>
+<text x="480" y="203" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6b7280">Q1–Q9: soporte, trazas y base</text>
+<text x="480" y="220" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#0284c7" font-weight="600">T(9) = 7</text>
+<text x="480" y="238" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6b7280">repositorio, herramientas y evidencias</text>
+
+<path d="M 180 260 L 180 300 L 335 332" stroke="#1d4ed8" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M 480 260 L 480 300 L 435 332" stroke="#0284c7" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+<rect x="295" y="298" width="220" height="72" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+<text x="405" y="328" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#16a34a">&#x2297; T_suelo</text>
+<text x="405" y="348" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#374151">compuerta conservadora del suelo</text>
+<text x="405" y="362" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#15803d">gate(C_obj, C_base)</text>
+
+<path d="M 405 370 L 405 422" stroke="#16a34a" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+
+<rect x="295" y="430" width="220" height="64" rx="12" fill="url(#bgSeg)" stroke="#16a34a" stroke-width="2" filter="url(#sh)"/>
+<text x="405" y="458" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#15803d">S_suelo</text>
+<text x="405" y="475" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#374151">subsistema de suelo</text>
+<text x="405" y="488" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#15803d" font-weight="600">APTO / INDETERMINADO / NO_APTO</text>
+
+<rect x="60" y="390" width="220" height="164" rx="14" fill="url(#bgDis)" stroke="#4f46e5" stroke-width="2.5" filter="url(#sh)"/>
+<text x="170" y="418" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#4f46e5">C_dise&#xF1;o&#xB3;&#x2076;</text>
+<text x="170" y="437" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">Célula de custodia del diseño,</text>
+<text x="170" y="454" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">el DSL y el laboratorio</text>
+<text x="170" y="471" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6b7280">b = 6 · n = 36 posiciones</text>
+<text x="170" y="487" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6b7280">Capas A–F · 6 posiciones c/u</text>
+<text x="170" y="503" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#4f46e5" font-weight="600">T(36) = 28</text>
+<text x="170" y="519" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6b7280">núcleo nuevo del trabajo</text>
+<text x="170" y="545" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#9ca3af" font-style="italic">piso 3 — sobre SVcustos</text>
+
+<path d="M 280 468 L 488 573" stroke="#4f46e5" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M 515 482 L 553 562" stroke="#16a34a" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+<rect x="476" y="562" width="220" height="70" rx="12" fill="#fef9c3" stroke="#b45309" stroke-width="2"/>
+<text x="586" y="592" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#b45309">&#x2297; T_cust</text>
+<text x="586" y="611" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#374151">compuerta conservadora final</text>
+<text x="586" y="625" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#b45309">gate(C_dise&#xF1;o, S_suelo)</text>
+
+<path d="M 586 632 L 586 686" stroke="#b45309" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+
+<rect x="386" y="694" width="400" height="74" rx="16" fill="url(#bgFinal)" filter="url(#sh)"/>
+<text x="586" y="728" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#ffffff">A_custodia</text>
+<text x="586" y="751" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#bfdbfe">APTO · INDETERMINADO · NO_APTO</text>
+
+<rect x="720" y="100" width="454" height="580" rx="14" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="947" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#111827">Principio de la compuerta conservadora</text>
+<line x1="740" y1="138" x2="1154" y2="138" stroke="#e2e8f0" stroke-width="1"/>
+<text x="740" y="160" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">Tanto T_seg como T_cust comparten la misma</text>
+<text x="740" y="176" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">disciplina: ningún nivel puede blanquear a otro.</text>
+<text x="740" y="204" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#15803d">&#x2713;  APTO</text>
+<text x="800" y="204" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">solo si ambas entradas son APTO</text>
+<text x="740" y="224" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#b45309">~  INDETERMINADO</text>
+<text x="874" y="224" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">si alguna es INDETERMINADO</text>
+<text x="874" y="240" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">y ninguna es NO_APTO</text>
+<text x="740" y="262" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#dc2626">&#x2717;  NO_APTO</text>
+<text x="820" y="262" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">si cualquier entrada es NO_APTO</text>
+<line x1="740" y1="278" x2="1154" y2="278" stroke="#e2e8f0" stroke-width="1"/>
+<text x="947" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#111827">Tres modos de degradación que se vigilanan</text>
+<text x="740" y="322" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">1. Apertura silenciosa de semántica no autorizada</text>
+<text x="758" y="338" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#6b7280">&#x2192; Capa A (anclaje doctrinal) de C_dise&#xF1;o&#xB3;&#x2076;</text>
+<text x="740" y="362" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">2. Separación doctrina / laboratorio / compilación</text>
+<text x="758" y="378" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#6b7280">&#x2192; Capas C, D, E de C_dise&#xF1;o&#xB3;&#x2076;</text>
+<text x="740" y="402" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">3. Sustitución de U legítima por falsa certeza</text>
+<text x="758" y="418" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#6b7280">&#x2192; Canon 10 + posición B4 de C_dise&#xF1;o&#xB3;&#x2076;</text>
+<line x1="740" y1="434" x2="1154" y2="434" stroke="#e2e8f0" stroke-width="1"/>
+<text x="947" y="456" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#111827">Posiciones totales del sistema</text>
+<text x="740" y="478" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">C_obj&#x2079; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; 9 posiciones</text>
+<text x="740" y="498" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">C_base&#x2079; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; 9 posiciones</text>
+<text x="740" y="518" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">C_dise&#xF1;o&#xB3;&#x2076; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; &#xB7; 36 posiciones</text>
+<line x1="740" y1="532" x2="1024" y2="532" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="740" y="552" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#1d4ed8">Total efectivo: 54 posiciones</text>
+<line x1="740" y1="566" x2="1154" y2="566" stroke="#e2e8f0" stroke-width="1"/>
+<text x="740" y="586" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#9ca3af" font-style="italic">La capa geométrica auxiliar en &#x211D;&#xB3; audita forma; no decide clase.</text>
+<text x="740" y="602" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#9ca3af" font-style="italic">La arquitectura no es SV(54) monolítica: es composición visible.</text>
+<text x="740" y="618" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#9ca3af" font-style="italic">La robustez del SV no se confía a un backend ciego,</text>
+<text x="740" y="634" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#9ca3af" font-style="italic">sino a álgebra visible, compuertas totales y conservación de U.</text>
+
+<line x1="50" y1="868" x2="1150" y2="868" stroke="#cccccc" stroke-width="0.8"/>
+<text x="600" y="884" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#555555">Autor: Juan Antonio Lloret Egea | ORCID: 0000-0002-6634-3351 | Institución: Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español&#x2122; (ITVIA) | Publicación: IA eñ&#x2122; – La Biblia de la IA&#x2122; | ISSN 2695-6411 | Madrid, 26/03/2026</text>
+</svg>

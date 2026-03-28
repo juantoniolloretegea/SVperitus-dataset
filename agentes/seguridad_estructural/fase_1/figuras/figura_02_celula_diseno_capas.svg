@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect width="1200" height="900" fill="#ffffff"/>
+<rect x="8" y="8" width="1184" height="884" rx="24" fill="none" stroke="#1d4ed8" stroke-width="2" opacity="0.30"/>
+
+<!-- Título -->
+<text x="600" y="48" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#111827">Figura 2. Célula de custodia del diseño C_diseño³⁶ — seis capas, treinta y seis posiciones</text>
+
+<!-- Encabezado -->
+<rect x="40" y="64" width="1120" height="50" rx="12" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+<text x="600" y="86" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#4f46e5">b = 6 · n = 36 · T(36) = 28 · Semántica: 0 = conforme · 1 = infracción · U = indeterminación honesta</text>
+<text x="600" y="104" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#374151">Cada posición es verificable por documento, repo, script, parser, render o salida de laboratorio. Canales declarados por capa.</text>
+
+<!-- ============ CAPA A ============ -->
+<rect x="40" y="124" width="170" height="100" rx="10" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+<text x="125" y="148" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#1d4ed8">A — Anclaje</text>
+<text x="125" y="163" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1d4ed8">doctrinal</text>
+<text x="125" y="182" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#374151">manuscrito · README</text>
+<text x="125" y="196" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#374151">front matter · bibliografía</text>
+<text x="125" y="212" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#6b7280">notas doctrinales</text>
+
+<rect x="220" y="124" width="960" height="100" rx="10" fill="#f8fafc" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="310" y="150" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">A1</tspan> Filiación doctrinal explícita</text>
+<text x="310" y="166" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">A2</tspan> Límite superior humano enunciado</text>
+<text x="310" y="182" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">A3</tspan> Alfabeto correcto · no degrada U</text>
+<text x="700" y="150" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">A4</tspan> Horizonte de sucesos declarado (→ VII.3)</text>
+<text x="700" y="166" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">A5</tspan> Estatuto textual correcto</text>
+<text x="700" y="182" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">A6</tspan> Bibliografía troncal suficiente</text>
+
+<!-- ============ CAPA B ============ -->
+<rect x="40" y="234" width="170" height="100" rx="10" fill="#cffafe" stroke="#0891b2" stroke-width="2"/>
+<text x="125" y="258" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#0891b2">B — Captura</text>
+<text x="125" y="273" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0891b2">y transducción</text>
+<text x="125" y="292" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#374151">código · tablas</text>
+<text x="125" y="306" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#374151">scripts · capturas</text>
+<text x="125" y="320" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#6b7280">especificación del parámetro</text>
+
+<rect x="220" y="234" width="960" height="100" rx="10" fill="#f8fafc" stroke="#0891b2" stroke-width="1.5"/>
+<text x="310" y="260" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">B1</tspan> Fuente material identificada</text>
+<text x="310" y="276" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">B2</tspan> Vía de acceso declarada</text>
+<text x="310" y="292" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">B3</tspan> Criterio ternario explícito (0 · 1 · U)</text>
+<text x="700" y="260" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">B4</tspan> No-aplica separado de U</text>
+<text x="700" y="276" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">B5</tspan> Umbral o tabla visible</text>
+<text x="700" y="292" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">B6</tspan> Repetibilidad local</text>
+
+<!-- ============ CAPA C ============ -->
+<rect x="40" y="344" width="170" height="100" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+<text x="125" y="368" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#16a34a">C — DSL</text>
+<text x="125" y="383" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#16a34a">y compilación</text>
+<text x="125" y="402" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#374151">.svp · IR · parser</text>
+<text x="125" y="416" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#374151">validator · lowering</text>
+<text x="125" y="430" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#6b7280">suite de conformidad</text>
+
+<rect x="220" y="344" width="960" height="100" rx="10" fill="#f8fafc" stroke="#16a34a" stroke-width="1.5"/>
+<text x="310" y="370" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">C1</tspan> Traducibilidad a SVP sin metalenguaje oculto</text>
+<text x="310" y="386" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">C2</tspan> Tipado visible: codominio, semántica, objetos</text>
+<text x="310" y="402" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">C3</tspan> Composición explícita</text>
+<text x="700" y="370" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">C4</tspan> Totalidad de tabla de compuerta</text>
+<text x="700" y="386" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">C5</tspan> Sin atajo opaco</text>
+<text x="700" y="402" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">C6</tspan> Validabilidad previa a ejecución</text>
+
+<!-- ============ CAPA D ============ -->
+<rect x="40" y="454" width="170" height="100" rx="10" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+<text x="125" y="478" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#ca8a04">D — Concordancia</text>
+<text x="125" y="493" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ca8a04">documental</text>
+<text x="125" y="512" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#374151">árbol de repo · README</text>
+<text x="125" y="526" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#374151">render · registros</text>
+<text x="125" y="540" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#6b7280">revisión de enlaces</text>
+
+<rect x="220" y="454" width="960" height="100" rx="10" fill="#f8fafc" stroke="#ca8a04" stroke-width="1.5"/>
+<text x="310" y="480" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">D1</tspan> Paridad repo–manuscrito</text>
+<text x="310" y="496" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">D2</tspan> Índices y README coherentes</text>
+<text x="310" y="512" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">D3</tspan> Referencias de figuras y laboratorios válidas</text>
+<text x="700" y="480" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">D4</tspan> Autoría y metadatos completos</text>
+<text x="700" y="496" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">D5</tspan> Estado declarado veraz</text>
+<text x="700" y="512" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">D6</tspan> Trazabilidad suficiente y visible</text>
+<text x="700" y="528" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#475569">sin artefactos decisivos no absorbidos</text>
+
+<!-- ============ CAPA E ============ -->
+<rect x="40" y="564" width="170" height="100" rx="10" fill="#fce7f3" stroke="#db2777" stroke-width="2"/>
+<text x="125" y="588" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#db2777">E — Laboratorio</text>
+<text x="125" y="603" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#db2777">y verificación</text>
+<text x="125" y="622" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#374151">scripts · notebook · CLI</text>
+<text x="125" y="636" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#374151">resultados serializados</text>
+<text x="125" y="650" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#6b7280">inspección estructural</text>
+
+<rect x="220" y="564" width="960" height="100" rx="10" fill="#f8fafc" stroke="#db2777" stroke-width="1.5"/>
+<text x="310" y="590" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">E1</tspan> Implementación de referencia existente</text>
+<text x="310" y="606" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">E2</tspan> Ejemplos canónicos: apto · no apto · indeterminado</text>
+<text x="310" y="622" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">E3</tspan> Casos adversariales</text>
+<text x="700" y="590" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">E4</tspan> Salida trazable: clases, recuentos, razones</text>
+<text x="700" y="606" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">E5</tspan> QA de presentación</text>
+<text x="700" y="622" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">E6</tspan> Persistencia de U cuando no hay base de cierre</text>
+
+<!-- ============ CAPA F ============ -->
+<rect x="40" y="674" width="170" height="100" rx="10" fill="#f3e8ff" stroke="#9333ea" stroke-width="2"/>
+<text x="125" y="698" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#9333ea">F — Despliegue</text>
+<text x="125" y="713" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#9333ea">y límites</text>
+<text x="125" y="732" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#374151">alcance · plataforma</text>
+<text x="125" y="746" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#374151">notas de despliegue</text>
+<text x="125" y="760" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#6b7280">especificación de alcance</text>
+
+<rect x="220" y="674" width="960" height="100" rx="10" fill="#f8fafc" stroke="#9333ea" stroke-width="1.5"/>
+<text x="310" y="700" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">F1</tspan> Dependencias externas declaradas</text>
+<text x="310" y="716" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">F2</tspan> Frontera jurídica y de uso</text>
+<text x="310" y="732" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">F3</tspan> No promesa de cobertura total</text>
+<text x="700" y="700" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">F4</tspan> Compatibilidad de soporte declarada</text>
+<text x="700" y="716" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">F5</tspan> Capa geométrica subordinada (ℝ³ audita; no decide)</text>
+<text x="700" y="732" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#111827"><tspan font-weight="700">F6</tspan> Salida legible por terceros especialistas</text>
+
+<!-- Separador y autoría -->
+<line x1="50" y1="868" x2="1150" y2="868" stroke="#cccccc" stroke-width="0.8"/>
+<text x="600" y="884" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#555555">Autor: Juan Antonio Lloret Egea | ORCID: 0000-0002-6634-3351 | Institución: Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | Publicación: IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Madrid, 26/03/2026</text>
+</svg>

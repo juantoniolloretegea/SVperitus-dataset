@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820">
+
+<rect width="1200" height="820" fill="#ffffff"/>
+<rect x="8" y="8" width="1184" height="804" rx="24" fill="none" stroke="#1d4ed8" stroke-width="2" opacity="0.30"/>
+<defs><marker id="arrow3" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#1d4ed8"/></marker></defs>
+<text x="600" y="48" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#111827">Figura 7. Células poligonales de objetivos, base y custodia</text>
+<text x="600" y="78" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#334155">Lenguaje visual compartido: el humano ve polígonos; la máquina clasifica las mismas posiciones.</text>
+<rect x="60" y="130" width="240" height="330" rx="18" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="180" y="164" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#1d4ed8">C_obj^9</text>
+<text x="180" y="188" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#334155">Objetivos del frente</text>
+<polygon points="180.0,212.0 230.1,230.2 256.8,276.5 247.5,329.0 206.7,363.3 153.3,363.3 112.5,329.0 103.2,276.5 129.9,230.2" fill="#ffffff" stroke="#1d4ed8" stroke-width="2.2"/>
+<circle cx="180.0" cy="212.0" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="230.1" cy="230.2" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="256.8" cy="276.5" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="247.5" cy="329.0" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="206.7" cy="363.3" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="153.3" cy="363.3" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="112.5" cy="329.0" r="6.5" fill="#b45309" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="103.2" cy="276.5" r="6.5" fill="#b45309" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="129.9" cy="230.2" r="6.5" fill="#b45309" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="180" cy="290" r="24" fill="#ffffff" stroke="#1d4ed8" stroke-width="1.8"/>
+<text x="180" y="295" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111827">INDET.</text>
+<text x="180" y="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#334155">0 = verde · U = ámbar · 1 = rojo</text>
+<text x="180" y="420" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#334155">n = 9 · T(9) = 7</text>
+<rect x="400" y="130" width="240" height="330" rx="18" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="520" y="164" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#0284c7">C_base^9</text>
+<text x="520" y="188" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#334155">Base técnico-operativa</text>
+<polygon points="520.0,212.0 570.1,230.2 596.8,276.5 587.5,329.0 546.7,363.3 493.3,363.3 452.5,329.0 443.2,276.5 469.9,230.2" fill="#ffffff" stroke="#0284c7" stroke-width="2.2"/>
+<circle cx="520.0" cy="212.0" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="570.1" cy="230.2" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="596.8" cy="276.5" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="587.5" cy="329.0" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="546.7" cy="363.3" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="493.3" cy="363.3" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="452.5" cy="329.0" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="443.2" cy="276.5" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="469.9" cy="230.2" r="6.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="520" cy="290" r="24" fill="#ffffff" stroke="#0284c7" stroke-width="1.8"/>
+<text x="520" y="295" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111827">APTO</text>
+<text x="520" y="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#334155">0 = verde · U = ámbar · 1 = rojo</text>
+<text x="520" y="420" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#334155">n = 9 · T(9) = 7</text>
+<rect x="740" y="130" width="240" height="330" rx="18" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="860" y="164" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#4f46e5">C_diseno^36</text>
+<text x="860" y="188" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#334155">Custodia del diseño</text>
+<polygon points="860.0,204.0 874.9,205.3 889.4,209.2 903.0,215.5 915.3,224.1 925.9,234.7 934.5,247.0 940.8,260.6 944.7,275.1 946.0,290.0 944.7,304.9 940.8,319.4 934.5,333.0 925.9,345.3 915.3,355.9 903.0,364.5 889.4,370.8 874.9,374.7 860.0,376.0 845.1,374.7 830.6,370.8 817.0,364.5 804.7,355.9 794.1,345.3 785.5,333.0 779.2,319.4 775.3,304.9 774.0,290.0 775.3,275.1 779.2,260.6 785.5,247.0 794.1,234.7 804.7,224.1 817.0,215.5 830.6,209.2 845.1,205.3" fill="#ffffff" stroke="#4f46e5" stroke-width="2.2"/>
+<circle cx="860.0" cy="204.0" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="874.9" cy="205.3" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="889.4" cy="209.2" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="903.0" cy="215.5" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="915.3" cy="224.1" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="925.9" cy="234.7" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="934.5" cy="247.0" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="940.8" cy="260.6" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="944.7" cy="275.1" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="946.0" cy="290.0" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="944.7" cy="304.9" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="940.8" cy="319.4" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="934.5" cy="333.0" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="925.9" cy="345.3" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="915.3" cy="355.9" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="903.0" cy="364.5" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="889.4" cy="370.8" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="874.9" cy="374.7" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="860.0" cy="376.0" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="845.1" cy="374.7" r="6.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="830.6" cy="370.8" r="6.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="817.0" cy="364.5" r="6.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="804.7" cy="355.9" r="6.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="794.1" cy="345.3" r="6.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="785.5" cy="333.0" r="6.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="779.2" cy="319.4" r="6.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="775.3" cy="304.9" r="6.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="774.0" cy="290.0" r="6.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="775.3" cy="275.1" r="6.5" fill="#b45309" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="779.2" cy="260.6" r="6.5" fill="#b45309" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="785.5" cy="247.0" r="6.5" fill="#b45309" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="794.1" cy="234.7" r="6.5" fill="#b45309" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="804.7" cy="224.1" r="6.5" fill="#b45309" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="817.0" cy="215.5" r="6.5" fill="#b45309" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="830.6" cy="209.2" r="6.5" fill="#b45309" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="845.1" cy="205.3" r="6.5" fill="#b45309" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="860" cy="290" r="24" fill="#ffffff" stroke="#4f46e5" stroke-width="1.8"/>
+<text x="860" y="295" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111827">INDET.</text>
+<text x="860" y="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#334155">0 = verde · U = ámbar · 1 = rojo</text>
+<text x="860" y="420" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#334155">n = 36 · T(36) = 28</text>
+<line x1="180" y1="500" x2="520" y2="500" stroke="#1d4ed8" stroke-width="0"/>
+<line x1="180" y1="480" x2="520" y2="620" stroke="#1d4ed8" stroke-width="2.5" marker-end="url(#arrow3)"/>
+<line x1="520" y1="480" x2="520" y2="620" stroke="#0284c7" stroke-width="2.5" marker-end="url(#arrow3)"/>
+<rect x="420" y="620" width="200" height="62" rx="14" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+<text x="520" y="650" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#15803d">S_suelo</text>
+<text x="520" y="670" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#334155">T_suelo(C_obj, C_base)</text>
+<line x1="620" y1="651" x2="780" y2="651" stroke="#1d4ed8" stroke-width="2.5" marker-end="url(#arrow3)"/>
+<line x1="860" y1="480" x2="860" y2="620" stroke="#4f46e5" stroke-width="2.5" marker-end="url(#arrow3)"/>
+<rect x="800" y="620" width="220" height="62" rx="14" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+<text x="910" y="650" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#92400e">A_custodia</text>
+<text x="910" y="670" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#334155">T_cust(C_diseno, S_suelo)</text>
+<rect x="80" y="705" width="1040" height="80" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="600" y="736" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#334155">La célula poligonal no sustituye al álgebra: la hace visible y auditiva para el lector.</text>
+<text x="600" y="760" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#334155">La misma posición que el humano ve en el polígono es la que el laboratorio clasifica en la tabla.</text>
+</svg>

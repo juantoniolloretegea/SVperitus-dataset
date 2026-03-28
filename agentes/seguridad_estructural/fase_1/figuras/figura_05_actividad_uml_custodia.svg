@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+
+<rect width="1200" height="800" fill="#ffffff"/>
+<rect x="8" y="8" width="1184" height="784" rx="24" fill="none" stroke="#1d4ed8" stroke-width="2" opacity="0.30"/>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#1d4ed8"/></marker></defs>
+<text x="600" y="48" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#111827">Figura 5. Actividad UML de la célula de custodia</text>
+<rect x="40" y="84" width="340" height="660" rx="18" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="210" y="116" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0f172a">Lectura material</text>
+<rect x="410" y="84" width="340" height="660" rx="18" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="580" y="116" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0f172a">Clasificación</text>
+<rect x="780" y="84" width="340" height="660" rx="18" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="950" y="116" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0f172a">Resolución y salida</text>
+<circle cx="210" cy="170" r="16" fill="#111827"/>
+<circle cx="950" cy="660" r="18" fill="#ffffff" stroke="#111827" stroke-width="4"/><circle cx="950" cy="660" r="10" fill="#111827"/>
+<rect x="100" y="210" width="220" height="56" rx="18" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+<text x="210.0" y="240" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#111827">Abrir HTML soberano, manuscrito,</text>
+<text x="210.0" y="257" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#111827">figuras y laboratorio</text>
+<rect x="470" y="150" width="220" height="56" rx="18" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+<text x="580.0" y="180" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#111827">Clasificar C_obj^9</text>
+<rect x="470" y="250" width="220" height="56" rx="18" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+<text x="580.0" y="280" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#111827">Clasificar C_base^9</text>
+<rect x="470" y="350" width="220" height="56" rx="18" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+<text x="580.0" y="380" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#111827">Clasificar C_diseno^36</text>
+<rect x="840" y="220" width="220" height="56" rx="18" fill="#fef9c3" stroke="#b45309" stroke-width="2"/>
+<text x="950.0" y="250" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#111827">Resolver T_suelo -> S_suelo</text>
+<rect x="840" y="340" width="220" height="56" rx="18" fill="#fef9c3" stroke="#b45309" stroke-width="2"/>
+<text x="950.0" y="370" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#111827">Resolver T_cust -> A_custodia</text>
+<rect x="840" y="460" width="220" height="56" rx="18" fill="#fef9c3" stroke="#b45309" stroke-width="2"/>
+<text x="950.0" y="490" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#111827">Emitir salida trazable y checklist</text>
+<line x1="210" y1="186" x2="210" y2="210" stroke="#1d4ed8" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="320" y1="238" x2="470" y2="178" stroke="#1d4ed8" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="580" y1="206" x2="580" y2="250" stroke="#1d4ed8" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="580" y1="306" x2="580" y2="350" stroke="#1d4ed8" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="690" y1="378" x2="840" y2="248" stroke="#1d4ed8" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="950" y1="276" x2="950" y2="340" stroke="#1d4ed8" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="950" y1="396" x2="950" y2="460" stroke="#1d4ed8" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="950" y1="516" x2="950" y2="642" stroke="#1d4ed8" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="120" y="320" width="180" height="110" rx="14" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="210" y="350" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#334155">Ninguna actividad crea</text>
+<text x="210" y="370" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#334155">semántica soberana.</text>
+<text x="210" y="390" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#334155">La clase final depende de</text>
+<text x="210" y="410" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#334155">tablas visibles y de la U.</text>
+</svg>
