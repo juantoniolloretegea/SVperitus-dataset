@@ -1,10 +1,23 @@
-# Fase I — artefactos web actualmente relacionados
+# Fase I — artefactos web absorbidos canónicamente
 
 ## Función
 
-Esta carpeta no duplica todavía los portales y monitores ya nacidos en `aplicaciones/`. Su función, en esta fase, es **absorberlos canónicamente por referencia visible** para que no queden huérfanos respecto del agente y de su Fase I.
+Esta carpeta aloja ya la **absorción canónica local** de la capa web surgida de la Fase I del Agente especializado en Seguridad Estructural.
 
-## Artefactos web actuales que deben leerse como piezas relacionadas con esta fase
+Su objetivo es que el portal del agente, su monitor, la serie de SUCESOS, la lectura R³, la evidencia y el plano IA puedan leerse desde la sede canónica de la fase y no sólo desde `aplicaciones/`.
+
+## Artefactos presentes en esta sede
+
+- `index.html` — portal del agente en sede canónica local.
+- `evidencia.html` — capa de evidencia y guardarraíles.
+- `r3.html` — lectura geométrica auxiliar en R³.
+- `monitor/index.html` — monitor poligonal principal.
+- `monitor/sucesos.html` — serie de SUCESOS y ejemplos de fase.
+- `ia/index.html` — plano IA trazable con ramas REAL/SIM.
+
+## Relación con las rutas históricas
+
+Las rutas históricas de `aplicaciones/` pueden conservarse todavía como **espejos transitorios** mientras no se cierre la migración final del repositorio:
 
 - `../../../aplicaciones/agente_seguridad/index.html`
 - `../../../aplicaciones/agente_seguridad/evidencia.html`
@@ -13,14 +26,12 @@ Esta carpeta no duplica todavía los portales y monitores ya nacidos en `aplicac
 - `../../../aplicaciones/monitor_seguridad/sucesos.html`
 - `../../../aplicaciones/monitor_seguridad_ia/index.html`
 
-## Regla de absorción canónica
+La lectura canónica correcta, sin embargo, pasa ya por esta carpeta.
 
-Mientras no se ejecute la migración física final, el **portal web del agente de seguridad**, su capa de evidencia, su lectura R³ y sus monitores deben leerse como:
+## Regla de absorción
 
-- artefactos adscritos a la Fase I del Agente especializado en Seguridad Estructural;
-- surgidos de la célula basal de seguridad;
-- y sometidos a la misma custodia estructural del diseño que la publicación, las figuras y el laboratorio.
+Estos artefactos deben leerse como:
 
-## Paso siguiente previsto
-
-En un bloque posterior, estas piezas deberán quedar ya enlazadas o reubicadas con política estable desde esta sede canónica, evitando que la lectura pública dependa sólo de `aplicaciones/`.
+- piezas adscritas a la Fase I del Agente especializado en Seguridad Estructural;
+- surgidas de la célula basal de seguridad;
+- y sometidas a la misma custodia estructural del diseño que la publicación, las figuras y el laboratorio.
