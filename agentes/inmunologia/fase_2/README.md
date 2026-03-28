@@ -34,3 +34,10 @@ Hasta que se complete la migración material, esta fase debe leerse en continuid
 ## Condición basal
 
 Toda evolución posterior de esta fase, de su compositor o de sus artefactos sensibles debe mantenerse bajo custodia basal del diseño.
+
+
+## Subpuerta de fase
+
+Para lectura web humana de esta fase, la sede canónica incorpora una entrada específica en:
+
+- `index.html`
