@@ -43,3 +43,11 @@ La absorción material ya abierta de la Fase I queda organizada mediante:
 - `fase_1/figuras/`
 - `fase_1/laboratorio/`
 - `fase_1/artefactos_web/`
+
+## Subpuerta actual del agente
+
+Mientras el agente permanezca sólo en **Fase I**, la entrada web local recomendada para terceros es:
+
+- `fase_1/artefactos_web/index.html`
+
+Esta subpuerta sirve como puerta específica del agente y deberá crecer con sus capacidades, artefactos y fases futuras.
