@@ -1,6 +1,23 @@
-# SVperitus-dataset — Agentes Especializados basados en el Sistema Vectorial SV
+# SVperitus-dataset — Agentes Especializados del Sistema Vectorial SV
 
 Repositorio marco de familias especializadas y de sus implementaciones contrastables y conformes al Sistema Vectorial SV.
+
+## Ecosistema SV — ubicación de esta sede
+
+**Función de la sede:** agentes especializados del ecosistema SV, organizados por fases de desarrollo, con sus artefactos, aplicaciones y piezas de uso contrastable.
+
+**Distribución vigente de sedes**
+- **Doctrina, jerarquía y puerta general del ecosistema:** `SV-matematica-semantica`
+- **Lenguaje, contrato técnico y sede operativa del manual SVP:** `SV-lenguaje-de-computacion`
+- **Origen observacional, datasets e intrusión:** `SVcustos-dataset`
+- **Agentes especializados, fases, artefactos y aplicaciones de uso:** `SVperitus-dataset`
+
+**Regla de no sustitución**  
+Este repositorio no sustituye ni la doctrina superior ni la sede técnica del lenguaje. Su función es alojar agentes especializados, su desarrollo por fases y sus superficies de uso.
+
+> **Remisión**
+> Para una vista general del ecosistema SV y de la relación entre sedes, consulte la puerta general materializada en `SV-matematica-semantica/docs/index.html`.
+
 
 El Sistema Vectorial SV evalúa situaciones complejas mediante una gramática ternaria estable: **0** (Apto), **1** (No_Apto), **U** (Indeterminado). A partir de un vector ternario se obtiene una clasificación determinista, una representación geométrica polar cerrada y, cuando procede, una capa de análisis algorítmico o de revisión experta.
 
@@ -8,6 +25,10 @@ El Sistema Vectorial SV evalúa situaciones complejas mediante una gramática te
 **Colección pública de referencia:** [Álgebra de composición intercelular del Sistema Vectorial SV](https://www.itvia.online/algebra-de-composicion-intercelular-del-sistema-vectorial-sv)
 
 ---
+
+
+> **Nota de orientación canónica**
+> La organización visible actual del repositorio conserva todavía trazas históricas en `dominios/`. La arquitectura canónica hacia la que se dirige `SVperitus` es, sin embargo, **agentes especializados → fases → artefactos → aplicaciones**. Por ello, las referencias actuales a `dominios/` deben leerse como estado transitorio del repositorio y no como taxonomía final del ecosistema.
 
 ## Estructura del repositorio
 
