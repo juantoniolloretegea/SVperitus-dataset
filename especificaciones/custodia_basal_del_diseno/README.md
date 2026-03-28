@@ -91,3 +91,11 @@ Debe comparecer con:
 - laboratorio;
 - rutas verificables;
 - y efectos reales sobre el modo en que nacen y se reorganizan los agentes especializados de `SVperitus`.
+
+## Gobierno visual de subpuertas de agente
+
+La custodia basal del diseño se extiende también al **gobierno visual y cromático** de las subpuertas de agente. Esa disciplina queda fijada en:
+
+- `NOTA_DE_GOBIERNO_VISUAL_Y_CROMATICO_DE_SUBPUERTAS_DE_AGENTE.md`
+
+Su función es impedir arbitrariedad estética, mantener contraste y legibilidad, y ayudar al lector humano a orientarse en agentes cada vez más complejos.
