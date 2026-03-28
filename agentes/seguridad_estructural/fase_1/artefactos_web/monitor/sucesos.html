@@ -5,31 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Seguridad estructural — Fase I — Serie de SUCESOS</title>
   <style>
-    :root { --bg:#0A1628; --panel:#10203A; --text:#E5EDF7; --muted:#9DB0C8; --gold:#C9A84C; --green:#4CAF50; --red:#F44336; --amber:#FFC107; --border:rgba(255,255,255,0.10); }
+    :root { --bg:#f2eadf; --panel:#f7f0e6; --text:#171412; --muted:#5a4d43; --gold:#8e2f2a; --green:#2e7d32; --red:#8e2f2a; --amber:#b78300; --border:rgba(0,0,0,0.10); }
     * { box-sizing:border-box; }
-    body { margin:0; font-family: Inter, system-ui, sans-serif; background:var(--bg); color:var(--text); }
+    body { margin:0; font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif; background:var(--bg); color:var(--text); }
     .wrap { max-width:1440px; margin:0 auto; padding:24px; }
-    .card { background:var(--panel); border:1px solid var(--border); border-radius:22px; padding:18px; margin-bottom:16px; }
+    .card { background:var(--panel); border:1px solid var(--border); border-radius:22px; padding:18px; margin-bottom:16px; box-shadow:0 10px 24px rgba(60,40,20,.08);} 
     .grid { display:grid; grid-template-columns: 1.2fr 0.8fr; gap:16px; }
     .poly-grid { display:grid; grid-template-columns: repeat(3, minmax(220px, 1fr)); gap:14px; }
-    .poly-card { background:rgba(255,255,255,0.03); border:1px solid var(--border); border-radius:18px; padding:12px; }
+    .poly-card { background:#fbf6ef; border:1px solid var(--border); border-radius:18px; padding:12px; }
     .pill { display:inline-flex; align-items:center; gap:6px; border-radius:999px; border:1px solid var(--border); padding:5px 10px; margin-right:6px; margin-bottom:8px; }
     .badge { display:inline-block; padding:4px 10px; border-radius:999px; font-size:0.82rem; font-weight:800; border:1px solid transparent; color:#07131F; }
     .badge.APTO { background:#4CAF50; border-color:#4CAF50; }
     .badge.NO_APTO { background:#F44336; border-color:#F44336; }
     .badge.INDETERMINADO { background:#FFC107; border-color:#FFC107; }
     .muted { color:var(--muted); }
-    a { color:var(--gold); }
+    a { color:var(--gold); font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; font-weight:700; }
     ul { margin:8px 0 0 18px; }
     @media (max-width: 1100px) { .grid, .poly-grid { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
 <div class="wrap">
-  <section class="card">
+  <section class="card" style="border-left:6px solid var(--red)">
     <h1>Ejemplos de SUCESOS reales de esta fase de diseño</h1>
     <p class="muted">El eje no es una cronología banal. Cada estado nace porque comparece un <strong>SUCESO</strong> admisible dentro de un horizonte declarado. Si nada cambia estructuralmente, no nace un nuevo SUCESO.</p>
-    <p><a href="./index.html">Volver al monitor poligonal</a></p>
+    <p><a href="../index.html">Volver a la subpuerta del agente</a> · <a href="./index.html">Abrir monitor poligonal</a></p>
   </section>
   <div id="content"></div>
 </div>
