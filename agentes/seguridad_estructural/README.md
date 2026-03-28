@@ -33,9 +33,11 @@ fase_1/
 
 ## Relación con artefactos actuales
 
-Mientras no se complete la migración material de todos los paquetes técnicos, las aplicaciones, demos, monitores y artefactos ya nacidos deben leerse como piezas relacionadas con este agente, aunque todavía no estén todas reubicadas físicamente bajo esta sede canónica.
+La absorción canónica de la Fase I ya comparece de forma material y visible en esta sede.
 
-La absorción canónica mínima de la Fase I ya queda abierta mediante:
+En particular, la capa web del agente deja de quedar sólo referida desde `aplicaciones/` y pasa a tener copia canónica local dentro de la fase, sin perjuicio de que los antiguos artefactos sigan existiendo todavía como espejos históricos mientras no se complete la migración final.
+
+La absorción material ya abierta de la Fase I queda organizada mediante:
 
 - `fase_1/publicacion/`
 - `fase_1/figuras/`
