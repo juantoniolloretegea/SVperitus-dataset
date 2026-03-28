@@ -2,12 +2,12 @@
 
 ## Estatuto
 
-Esta carpeta constituye la **sede canónica** del Agente especializado en Seguridad Estructural dentro de `SVperitus`.
+Esta carpeta constituye la sede canónica del Agente especializado en Seguridad Estructural dentro de `SVperitus`.
 
 Su estatuto correcto es doble:
 
-1. **agente especializado propio**, hoy en Fase I;
-2. **custodia basal obligatoria del diseño** para el nacimiento, faseado, estabilización y vigilancia de nuevos agentes y nuevas fases relevantes.
+1. agente especializado propio, hoy en Fase I;
+2. custodia basal obligatoria del diseño para el nacimiento, faseado, estabilización y vigilancia de nuevos agentes y nuevas fases relevantes.
 
 ## Publicación canónica vigente
 
@@ -27,8 +27,17 @@ Esta sede no convierte a seguridad en soberanía del ecosistema. Su papel es otr
 
 ## Estructura canónica abierta
 
-- `fase_1/`
+```text
+fase_1/
+```
 
 ## Relación con artefactos actuales
 
-Mientras no se complete la migración material de los paquetes técnicos, las aplicaciones, demos, monitores y artefactos ya nacidos deben leerse como piezas relacionadas con este agente, aunque todavía no estén todas reubicadas bajo esta sede canónica.
+Mientras no se complete la migración material de todos los paquetes técnicos, las aplicaciones, demos, monitores y artefactos ya nacidos deben leerse como piezas relacionadas con este agente, aunque todavía no estén todas reubicadas físicamente bajo esta sede canónica.
+
+La absorción canónica mínima de la Fase I ya queda abierta mediante:
+
+- `fase_1/publicacion/`
+- `fase_1/figuras/`
+- `fase_1/laboratorio/`
+- `fase_1/artefactos_web/`
