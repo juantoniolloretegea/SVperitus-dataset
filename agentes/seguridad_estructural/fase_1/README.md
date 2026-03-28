@@ -2,7 +2,7 @@
 
 ## Estatuto
 
-Esta carpeta representa la **Fase I** del Agente especializado en Seguridad Estructural.
+Esta carpeta representa la Fase I del Agente especializado en Seguridad Estructural.
 
 Corresponde al frente actualmente publicado como:
 
@@ -12,16 +12,15 @@ Corresponde al frente actualmente publicado como:
 
 La presente Fase I debe leerse simultáneamente:
 
-1. como **fase propia del agente especializado en seguridad estructural**;
-2. como **primera materialización de la custodia basal obligatoria del diseño** dentro de `SVperitus`.
+1. como fase propia del agente especializado en seguridad estructural;
+2. como primera materialización de la custodia basal obligatoria del diseño dentro de `SVperitus`.
 
-## Qué debe quedar adscrito a esta fase cuando se complete la migración material
+## Qué queda ya adscrito a esta fase
 
-- publicación de fase;
-- laboratorio de fase;
-- figuras de fase;
-- artefactos adscritos;
-- y piezas de uso contrastable surgidas de esta célula.
+- `publicacion/`
+- `figuras/`
+- `laboratorio/`
+- `artefactos_web/`
 
 ## Regla de gobierno
 
