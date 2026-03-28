@@ -17,7 +17,11 @@ Su función es articular, de forma visible y trazable, la composición serie ent
 - `IMMUNO-1`
 - y `IMMUNO-2`
 
-dentro del mismo Agente especializado en Inmunología.
+ dentro del mismo Agente especializado en Inmunología.
+
+## Absorción material ya activa
+
+El archivo `compose.py` queda ya absorbido en esta sede canónica. La construcción y revisión de este artefacto debe hacerse desde aquí, no desde la capa histórica.
 
 ## Regla de lectura
 
@@ -29,4 +33,4 @@ Este compositor debe leerse como:
 
 ## Relación con la sede histórica actual
 
-Hasta que se complete la migración material, este frente debe leerse en continuidad con `../../../../dominios/inmunologia/compositor/`.
+`../../../../dominios/inmunologia/compositor/` conserva todavía el espejo histórico transitorio del frente.
