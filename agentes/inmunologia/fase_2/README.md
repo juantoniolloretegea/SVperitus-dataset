@@ -1,7 +1,5 @@
 # Agente especializado en Inmunología — Fase II
 
-## Estatuto
-
 Esta carpeta representa la **Fase II** del Agente especializado en Inmunología.
 
 Su origen no es ornamental. Nace de necesidades detectadas tras la maduración posterior a `IMMUNO-1`, cuando el frente inmunológico exigió otras piezas, otras verificaciones y otra arquitectura de aplicación.
@@ -13,28 +11,26 @@ Su origen no es ornamental. Nace de necesidades detectadas tras la maduración p
 - **Configuración:** `SV(25,5)` con `T(25)=19`
 - **Estado actual:** materializada en repositorio y pendiente de publicación específica propia
 
-## Absorción material ya activa
-
-Esta fase absorbe ya, en su sede canónica:
-
-- `publicacion/README.md` como referencia local al estado editorial del frente;
-- `IMMUNO2_P01-P25_spec.md`;
-- `config/imm2_n25.yaml`;
-- `src/normative_engine.py`;
-- `compositor/compose.py`.
-
 ## Artefacto específico de esta fase
 
-La `Fase II` arrastra un artefacto propio:
+La Fase II arrastra un artefacto propio:
 
 - `compositor/`
 
 Ese compositor nace específicamente de esta fase y no debe leerse ni como fase autónoma ni como agente distinto.
 
+## Superficies de uso actualmente asociadas
+
+Mientras se completa la absorción material completa, esta fase comparece hoy en piezas ya vivas del repositorio, entre ellas:
+
+- `../../../aplicaciones/demo_wasm/compositor.html`
+
 ## Relación con la sede histórica actual
 
-`../../../dominios/inmunologia/fase_2/` conserva todavía el espejo histórico del frente mientras no se complete la retirada final. La construcción correcta de esta fase debe hacerse ya desde esta carpeta.
+Hasta que se complete la migración material, esta fase debe leerse en continuidad con:
+
+- `../../../dominios/inmunologia/fase_2/`
 
 ## Condición basal
 
-Toda evolución posterior de esta fase, de su compositor o de sus artefactos sensibles debe mantenerse bajo **custodia basal del diseño**.
+Toda evolución posterior de esta fase, de su compositor o de sus artefactos sensibles debe mantenerse bajo custodia basal del diseño.
