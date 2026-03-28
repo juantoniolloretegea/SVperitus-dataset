@@ -22,6 +22,15 @@ La presente Fase I debe leerse simultáneamente:
 - `laboratorio/`
 - `artefactos_web/`
 
+Dentro de `artefactos_web/` comparecen ya con copia canónica local:
+
+- el portal del agente;
+- la capa de evidencia;
+- la lectura R³;
+- el monitor principal;
+- la serie de SUCESOS;
+- y el plano IA.
+
 ## Regla de gobierno
 
 Ningún nuevo agente, ninguna nueva fase relevante y ningún artefacto sensible de laboratorio, compilación o despliegue deben consolidarse en `SVperitus` al margen de la custodia basal visible cuya primera materialización comparece en esta fase.
