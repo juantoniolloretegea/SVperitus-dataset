@@ -1,4 +1,4 @@
-# IMMUNO-2 — Especificación P01–P25 (Borrador 0)
+# IMMUNO-2 — Especificación P01–P25 (versión de trabajo)
 
 **Módulo:** IMMUNO-2 – Estratificación del riesgo de infección grave en adultos
 con inmunosupresión farmacológica sistémica no trasplante
@@ -16,8 +16,8 @@ con inmunosupresión farmacológica sistémica no trasplante
 - resto → INDETERMINADO
 
 **Fecha:** 2026-03-06
-**Estado:** Borrador para cotejo del Almirante. Capa 1 revisada en profundidad.
-Capas 2–5 con criterios preliminares, pendientes de cotejo individual.
+**Estado:** Versión de trabajo con revisión profunda de la Capa 1.
+Capas 2–5 con criterios iniciales pendientes de revisión especializada.
 
 ---
 
@@ -421,14 +421,13 @@ independientes pero coordinables en la célula meta n=625.
 | D6 | Esplenectomía en Capa 3: solapamiento aceptado con P04 IMMUNO-1 |
 | D7 | Hereda hoja de ruta Rust/Kotlin del Doc 7 |
 | D8 | case dict estructuralmente análogo al de IMMUNO-1 (JSON, funciones puras) |
-| D9 | Texto descriptivo del Almirante adoptado como descripción canónica |
+| D9 | Texto descriptivo de referencia adoptado como descripción canónica |
 
 ---
 
 ## Siguiente paso para el hilo que continúe
 
-1. Cotejo capa por capa con el Almirante (Capas 2–5 necesitan revisión
-   más fina de umbrales y referencias).
+1. Revisión capa por capa de umbrales y referencias (las Capas 2–5 requieren ajuste fino adicional).
 2. Motor normativo Python: normative_engine.py con eval_p01()...eval_p25().
 3. YAML: imm2_n25.yaml.
 4. Casos sintéticos de prueba (APTO limpio, NO_APTO extremo, INDETERMINADO).
