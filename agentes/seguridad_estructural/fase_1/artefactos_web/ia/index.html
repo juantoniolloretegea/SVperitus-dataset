@@ -91,7 +91,8 @@ h2 { margin: 0; font-size: 28px; line-height: 1.2; }
 .badge-state.noapto{background:#f7dede;color:#7d231f;border:1px solid #d38d8a}
 .badge-state.indeterminado{background:#f8ebc6;color:#7a5a00;border:1px solid #d2b66a}
 footer { border-top: 1px solid var(--line); background: rgba(255,250,244,0.9); margin-top: 22px; }
-.footer-line { max-width: 1280px; margin: 0 auto; padding: 12px 22px; font-size: 13px; color: var(--muted); white-space: nowrap; overflow-x: auto; }
+.footer-line { max-width: 1280px; margin: 0 auto; padding: 12px 22px 0; font-size: 13px; color: var(--muted); white-space: nowrap; overflow-x: auto; }
+.footer-meta { max-width: 1280px; margin: 0 auto; padding: 6px 22px 12px; font-size: 8px; line-height: 1.35; color: var(--muted); text-wrap: pretty; }
 @media (max-width: 1024px) {
   .layout { grid-template-columns: 1fr; }
   aside { position: static; }
@@ -150,10 +151,10 @@ button.ghost { background:#fffaf4; color:var(--text); border:1px solid var(--lin
       <span class="tag">Horizonte de uso subordinado</span>
       <h2>Comparación REAL / SIM</h2>
       <div class="tabs" role="tablist" aria-label="Comparación REAL y SIM">
-        <button type="button" class="tab-btn active" data-panel="real" id="tab-real" role="tab" aria-selected="true" aria-controls="panel-real">Estado real</button>
-        <button type="button" class="tab-btn" data-panel="sim" id="tab-sim" role="tab" aria-selected="false" aria-controls="panel-sim">Rama simulada</button>
-        <button type="button" class="tab-btn" data-panel="compare" id="tab-compare" role="tab" aria-selected="false" aria-controls="panel-compare">Comparación</button>
-        <button type="button" class="tab-btn" data-panel="query" id="tab-query" role="tab" aria-selected="false" aria-controls="panel-query">Consulta IA</button>
+        <button type="button" class="tab-btn active" data-panel="real" id="tab-real" role="tab" aria-selected="true" aria-controls="panel-real" onclick="return activatePanel('real')">Estado real</button>
+        <button type="button" class="tab-btn" data-panel="sim" id="tab-sim" role="tab" aria-selected="false" aria-controls="panel-sim" onclick="return activatePanel('sim')">Rama simulada</button>
+        <button type="button" class="tab-btn" data-panel="compare" id="tab-compare" role="tab" aria-selected="false" aria-controls="panel-compare" onclick="return activatePanel('compare')">Comparación</button>
+        <button type="button" class="tab-btn" data-panel="query" id="tab-query" role="tab" aria-selected="false" aria-controls="panel-query" onclick="return activatePanel('query')">Consulta IA</button>
       </div>
       <div class="active-view" aria-live="polite">
         <span class="k">Vista activa</span>
@@ -230,11 +231,14 @@ La custodia visible permanece abierta en el plano de diseño. El especialista pu
     </aside>
   </section>
 </div>
-<footer><div class="footer-line">Seguridad estructural · Fase I · IA trazable subordinada · versión publicada de esta web: 1.0</div></footer>
+<footer><div class="footer-line">Seguridad estructural · Fase I · IA trazable subordinada · versión publicada de esta web: 1.1</div>
+  <div class="footer-meta">Autor: Juan Antonio Lloret Egea | ORCID: 0000-0002-6634-3351 | Sello editorial: Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | Publicación: IA eñ™ – La Biblia de la IA™ | ISSN: 2695-6411 | Licencia: CC BY-NC-ND 4.0</div>
+</footer>
 <script>
 const tabs=[...document.querySelectorAll('.tab-btn')];
 const panelNames=['real','sim','compare','query'];
 const panelLabels={real:'Estado real', sim:'Rama simulada', compare:'Comparación', query:'Consulta IA'};
+function activatePanel(id) { showPanel(id, true); return false; }
 function showPanel(id, updateHash=true) {
   tabs.forEach((b)=>{
     const active = b.dataset.panel===id;
@@ -245,7 +249,8 @@ function showPanel(id, updateHash=true) {
     const panel=document.getElementById('panel-'+p);
     const active = p===id;
     panel.className = active ? 'panel-visible' : 'panel-hidden';
-    if (active) { panel.removeAttribute('hidden'); } else { panel.setAttribute('hidden','hidden'); }
+    panel.style.display = active ? 'block' : 'none';
+    if (active) { panel.removeAttribute('hidden'); panel.setAttribute('aria-hidden','false'); } else { panel.setAttribute('hidden','hidden'); panel.setAttribute('aria-hidden','true'); }
   });
   const label=document.getElementById('activeViewLabel');
   if (label) label.textContent = panelLabels[id] || id;
@@ -255,7 +260,8 @@ function showPanel(id, updateHash=true) {
   }
 }
 
-tabs.forEach((btn)=>btn.addEventListener('click',()=>showPanel(btn.dataset.panel)));
+tabs.forEach(function(btn){ btn.addEventListener('click', function(){ showPanel(btn.dataset.panel); }); });
+window.addEventListener('hashchange', function(){ const id = location.hash.replace('#',''); if (panelNames.includes(id)) showPanel(id, false); });
 
 function setQuery(text) { document.getElementById('query').value=text; }
 function runQuery() {
