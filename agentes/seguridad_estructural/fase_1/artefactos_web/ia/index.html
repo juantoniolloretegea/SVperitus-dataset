@@ -146,11 +146,11 @@ button.ghost { background:#fffaf4; color:var(--text); border:1px solid var(--lin
     <article class="card">
       <span class="tag">Horizonte de uso subordinado</span>
       <h2>Comparación REAL / SIM</h2>
-      <div class="tabs" role="tablist" aria-label="Comparación REAL / SIM">
-        <button class="tab-btn active" type="button" role="tab" aria-controls="panel-real" aria-selected="true" data-panel="real">Estado real</button>
-        <button class="tab-btn" type="button" role="tab" aria-controls="panel-sim" aria-selected="false" data-panel="sim">Rama simulada</button>
-        <button class="tab-btn" type="button" role="tab" aria-controls="panel-compare" aria-selected="false" data-panel="compare">Comparación</button>
-        <button class="tab-btn" type="button" role="tab" aria-controls="panel-query" aria-selected="false" data-panel="query">Consulta IA</button>
+      <div class="tabs">
+        <button class="tab-btn active" data-panel="real">Estado real</button>
+        <button class="tab-btn" data-panel="sim">Rama simulada</button>
+        <button class="tab-btn" data-panel="compare">Comparación</button>
+        <button class="tab-btn" data-panel="query">Consulta IA</button>
       </div>
       <div id="panel-real" class="panel-visible">
         <div class="metric-grid">
@@ -216,73 +216,31 @@ La custodia visible permanece abierta en el plano de diseño. El especialista pu
 </div>
 <footer><div class="footer-line">Seguridad estructural · Fase I · IA trazable subordinada · versión publicada de esta web: 1.0</div></footer>
 <script>
-const tabs = [...document.querySelectorAll('.tab-btn')];
-const panels = ['real', 'sim', 'compare', 'query'];
-
-function showPanel(id, updateHash = true) {
-  panels.forEach((panelId) => {
-    const panel = document.getElementById('panel-' + panelId);
-    const isActive = panelId === id;
-    if (!panel) return;
-    panel.classList.toggle('panel-visible', isActive);
-    panel.classList.toggle('panel-hidden', !isActive);
-    panel.hidden = !isActive;
-    panel.setAttribute('aria-hidden', String(!isActive));
+const tabs=[...document.querySelectorAll('.tab-btn')];
+function showPanel(id) {
+  tabs.forEach((b)=>b.classList.toggle('active', b.dataset.panel===id));
+  ['real','sim','compare','query'].forEach((p)=>{
+    document.getElementById('panel-'+p).className = p===id ? 'panel-visible' : 'panel-hidden';
   });
-
-  tabs.forEach((button) => {
-    const isActive = button.dataset.panel === id;
-    button.classList.toggle('active', isActive);
-    button.setAttribute('aria-selected', String(isActive));
-  });
-
-  const activeLabel = document.getElementById('active-view-label');
-  const activeButton = tabs.find((button) => button.dataset.panel === id);
-  if (activeLabel && activeButton) activeLabel.textContent = activeButton.textContent.trim();
-
-  if (updateHash && window.location.hash !== '#' + id) {
-    history.replaceState(null, '', '#' + id);
-  }
 }
-
-tabs.forEach((button) => {
-  button.addEventListener('click', () => showPanel(button.dataset.panel));
-});
-
-function setQuery(text) {
-  document.getElementById('query').value = text;
-}
-
+tabs.forEach((btn)=>btn.addEventListener('click',()=>showPanel(btn.dataset.panel)));
+function setQuery(text) { document.getElementById('query').value=text; }
 function runQuery() {
-  const q = document.getElementById('query').value.trim().toLowerCase();
-  let answer = '';
-  let meta = '';
-
-  if (q.includes('d28') || q.includes('cerr') || q.includes('diseño')) {
-    answer = 'Si las posiciones D28–D36 pasan a cierre fuerte legítimo con evidencia positiva, la rama simulada permite una lectura APTO del plano de diseño. Aun así, haría falta comparecencia de un nuevo SUCESO real para que ese cambio deje de ser hipotético.';
-    meta = 'Base: comparación REAL/SIM sobre S3 y A1.
-Límite: la simulación no sustituye observación verificable ni autoriza cierre real por sí sola.';
-  } else if (q.includes('suelo')) {
-    answer = 'Si el suelo técnico pierde aptitud, la fase deja de poder apoyarse en una base fiable de observación. El agente debería reabrir lectura del suelo antes de sostener cualquier cierre del diseño.';
-    meta = 'Base: regla de composición visible entre C_obj, C_base y C_diseño.
-Límite: la degradación del suelo exige nueva evidencia y, si procede, nuevo SUCESO.';
+  const q=document.getElementById('query').value.trim().toLowerCase();
+  let answer=''; let meta='';
+  if(q.includes('d28') || q.includes('cerr') || q.includes('diseño')) {
+    answer='Si las posiciones D28–D36 pasan a cierre fuerte legítimo con evidencia positiva, la rama simulada permite una lectura APTO del plano de diseño. Aun así, haría falta comparecencia de un nuevo SUCESO real para que ese cambio deje de ser hipotético.';
+    meta=`Base: comparación REAL/SIM sobre S3 y A1.\nLímite: la simulación no sustituye observación verificable ni autoriza cierre real por sí sola.`;
+  } else if(q.includes('suelo')) {
+    answer='Si el suelo técnico pierde aptitud, la fase deja de poder apoyarse en una base fiable de observación. El agente debería reabrir lectura del suelo antes de sostener cualquier cierre del diseño.';
+    meta=`Base: regla de composición visible entre C_obj, C_base y C_diseño.\nLímite: la degradación del suelo exige nueva evidencia y, si procede, nuevo SUCESO.`;
   } else {
-    answer = 'Sin nuevo SUCESO admisible no comparece cambio estructural efectivo. La fecha puede localizar; no funda por sí sola una nueva lectura.';
-    meta = 'Base: régimen por SUCESOS y horizonte declarado.
-Límite: la respuesta es de orientación estructurada, no de clausura soberana.';
+    answer='Sin nuevo SUCESO admisible no comparece cambio estructural efectivo. La fecha puede localizar; no funda por sí sola una nueva lectura.';
+    meta=`Base: régimen por SUCESOS y horizonte declarado.\nLímite: la respuesta es de orientación estructurada, no de clausura soberana.`;
   }
-
-  document.getElementById('response').textContent = answer;
-  document.getElementById('meta').textContent = meta;
+  document.getElementById('response').textContent=answer;
+  document.getElementById('meta').textContent=meta;
 }
-
-window.addEventListener('hashchange', () => {
-  const requested = window.location.hash.replace('#', '');
-  showPanel(panels.includes(requested) ? requested : 'real', false);
-});
-
-const requested = window.location.hash.replace('#', '');
-showPanel(panels.includes(requested) ? requested : 'real', false);
 runQuery();
 </script>
 </body>
