@@ -7,17 +7,11 @@ Esta carpeta constituye la sede canónica del Agente especializado en Seguridad 
 Su estatuto correcto es doble:
 
 1. agente especializado propio, hoy en Fase I;
-2. custodia basal obligatoria del diseño para el nacimiento, faseado, estabilización y vigilancia de nuevos agentes y nuevas fases relevantes.
-
-## Publicación canónica vigente
-
-La referencia pública actual de este agente es:
-
-**Célula especializada de seguridad estructural para la custodia del diseño, el DSL y los laboratorios del Sistema Vectorial SV — Release 2**
+2. custodia basal visible del diseño para el nacimiento, faseado, estabilización y vigilancia de nuevos agentes o nuevas fases relevantes.
 
 ## Alcance dentro del ecosistema
 
-Esta sede no convierte a seguridad en soberanía del ecosistema. Su papel es otro:
+Esta sede no introduce autoridad doctrinal nueva ni sustituye a otras sedes del ecosistema. Su función visible es otra:
 
 - custodiar diseño;
 - custodiar DSL;
@@ -28,26 +22,38 @@ Esta sede no convierte a seguridad en soberanía del ecosistema. Su papel es otr
 ## Estructura canónica abierta
 
 ```text
+index.html
 fase_1/
 ```
 
-## Relación con artefactos actuales
+## Puerta del agente
 
-La absorción canónica de la Fase I ya comparece de forma material y visible en esta sede.
+La entrada humana recomendada para terceros es:
 
-En particular, la capa web del agente deja de quedar sólo referida desde `aplicaciones/` y pasa a tener copia canónica local dentro de la fase, sin perjuicio de que los antiguos artefactos sigan existiendo todavía como espejos históricos mientras no se complete la migración final.
+- `index.html`
 
-La absorción material ya abierta de la Fase I queda organizada mediante:
+Esta puerta ordena el acceso al agente, fija su estatuto visible, presenta las fases abiertas y remite a artefactos, publicación, laboratorio y figuras sin dispersar la lectura entre rutas heterogéneas.
 
-- `fase_1/publicacion/`
-- `fase_1/figuras/`
-- `fase_1/laboratorio/`
-- `fase_1/artefactos_web/`
+## Fase visible actual
 
-## Subpuerta actual del agente
+La fase actualmente materializada es:
 
-Mientras el agente permanezca sólo en **Fase I**, la entrada web local recomendada para terceros es:
+- `fase_1/`
+
+Su puerta humana recomendada es:
+
+- `fase_1/index.html`
+
+Y su portal web local de detalle comparece en:
 
 - `fase_1/artefactos_web/index.html`
 
-Esta subpuerta sirve como puerta específica del agente y deberá crecer con sus capacidades, artefactos y fases futuras.
+## Publicación canónica vigente
+
+La referencia pública actual de este agente es:
+
+**Célula especializada de seguridad estructural para la custodia del diseño, el DSL y los laboratorios del Sistema Vectorial SV — Release 2**
+
+## Relación con artefactos históricos
+
+Los antiguos artefactos de `aplicaciones/agente_seguridad/`, `aplicaciones/monitor_seguridad/` y `aplicaciones/monitor_seguridad_ia/` pueden permanecer como espejos históricos o superficies de redirección, pero no constituyen ya la puerta canónica de lectura del agente.

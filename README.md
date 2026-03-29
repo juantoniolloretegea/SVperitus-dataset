@@ -1,58 +1,69 @@
-# SVperitus-dataset — Agentes Especializados del Sistema Vectorial SV
+# SVperitus-dataset
 
-Repositorio marco de familias especializadas y de sus implementaciones contrastables y conformes al Sistema Vectorial SV.
-
-**Función de la sede:** agentes especializados del ecosistema SV, organizados por fases de desarrollo, con sus artefactos, aplicaciones y piezas de uso contrastable.
+Repositorio de agentes especializados del Sistema Vectorial SV. Aloja el desarrollo por fases de cada agente, sus artefactos contrastables, sus superficies de uso y la memoria mínima de calidad aplicada de esta sede.
 
 ## Ecosistema SV — ubicación de esta sede
 
-### Distribución vigente de sedes
+**Función de la sede:** agentes especializados, fases, artefactos y aplicaciones de uso contrastable del ecosistema SV.
 
-- **Doctrina, jerarquía y puerta general del ecosistema:** `SV-matematica-semantica`
+**Distribución vigente de sedes**
+- **Doctrina, autoridad normativa y puerta general del ecosistema:** `SV-matematica-semantica`
 - **Lenguaje, contrato técnico y sede operativa del manual SVP:** `SV-lenguaje-de-computacion`
 - **Origen observacional, datasets e intrusión:** `SVcustos-dataset`
 - **Agentes especializados, fases, artefactos y aplicaciones de uso:** `SVperitus-dataset`
 
-### Regla de no sustitución
+**Regla de no sustitución**
+Este repositorio no sustituye ni la sede doctrinal ni la sede técnica del lenguaje. Su función es aplicada: organizar agentes con obligaciones y servicios diferenciados, sus fases, sus artefactos y sus aplicaciones de uso.
 
-Este repositorio no sustituye ni la doctrina superior ni la sede técnica del lenguaje. Su función es alojar agentes especializados, su desarrollo por fases y sus superficies de uso.
+> [!NOTE]
+> Para una vista general del ecosistema SV y de la relación entre sedes, consulte la puerta general del ecosistema materializada en `SV-matematica-semantica/docs/index.html`.
 
-### Remisión
+> [!NOTE]
+> Para entrar en esta sede desde una vista ordenada —con función de la sede, ruta de lectura y accesos humanos directos a agentes y fases— consulte la <a href="https://juantoniolloretegea.github.io/SVperitus-dataset/" target="_blank" rel="noopener noreferrer">página web de entrada y navegación de SVperitus-dataset</a>.
 
-Para una vista general del ecosistema SV y de la relación entre sedes, consulte la puerta general materializada en `SV-matematica-semantica/docs/index.html`.
+Autor: Juan Antonio Lloret Egea · ORCID 0000-0002-6634-3351  
+ISSN: 2695-6411  
+Licencia: CC BY-NC-ND 4.0
 
-## Accesos principales actuales a subpuertas de agente
+## Agentes y fases activas
 
-Mientras no exista todavía una puerta web general propia de `SVperitus`, la orientación humana principal del repositorio debe apoyarse ya en las subpuertas canónicas de sus agentes.
+| Pieza | Estatuto actual | Entrada humana recomendada |
+|---|---|---|
+| Agente especializado en Seguridad Estructural | Agente especializado propio y custodia basal visible del diseño | <a href="https://juantoniolloretegea.github.io/SVperitus-dataset/agentes/seguridad_estructural/" target="_blank" rel="noopener noreferrer">puerta del agente</a> |
+| Seguridad estructural — Fase I | Primera fase materializada del agente | <a href="https://juantoniolloretegea.github.io/SVperitus-dataset/agentes/seguridad_estructural/fase_1/" target="_blank" rel="noopener noreferrer">puerta de fase</a> |
+| Portal web local de Seguridad Fase I | Monitor, SUCESOS, IA trazable, R³ auxiliar y evidencia | <a href="https://juantoniolloretegea.github.io/SVperitus-dataset/agentes/seguridad_estructural/fase_1/artefactos_web/" target="_blank" rel="noopener noreferrer">portal web local</a> |
+| Agente especializado en Inmunología | Agente especializado con desarrollo por fases | <a href="https://juantoniolloretegea.github.io/SVperitus-dataset/agentes/inmunologia/" target="_blank" rel="noopener noreferrer">puerta del agente</a> |
 
-- **Agente especializado en Seguridad Estructural — Fase I:** <a href="https://juantoniolloretegea.github.io/SVperitus-dataset/agentes/seguridad_estructural/fase_1/artefactos_web/" target="_blank" rel="noopener noreferrer">subpuerta web del agente</a>
-- **Agente especializado en Inmunología:** <a href="https://juantoniolloretegea.github.io/SVperitus-dataset/agentes/inmunologia/" target="_blank" rel="noopener noreferrer">subpuerta web del agente</a>
+## Organización canónica de esta sede
 
-Estas subpuertas no sustituyen la jerarquía del ecosistema ni una futura puerta general propia de `SVperitus`, pero sí constituyen ya la vía de acceso humano recomendada para comprender el estado, las fases, los artefactos y las capacidades visibles de cada agente.
+La organización de referencia de `SVperitus-dataset` sigue el eje:
 
-## Marco de lectura
+```text
+agentes → fases → artefactos → aplicaciones
+```
 
-El Sistema Vectorial SV evalúa situaciones complejas mediante una gramática ternaria estable: `0` (Apto), `1` (No_Apto), `U` (Indeterminado). A partir de un vector ternario se obtiene una clasificación determinista, una representación geométrica polar cerrada y, cuando procede, una capa de análisis algorítmico o de revisión experta.
+Las superficies históricas conservadas en `aplicaciones/` no sustituyen las puertas canónicas alojadas en `agentes/`.
 
-- **Autoridad normativa principal:** *Fundamentos algebraico-semánticos del Sistema Vectorial SV*
-- **Colección pública de referencia:** *Álgebra de composición intercelular del Sistema Vectorial SV*
+## Agente de seguridad estructural — criterio de lectura
 
-## Control de calidad mínimo y remisión operativa
+La seguridad estructural no introduce soberanía nueva dentro del ecosistema SV. Su estatuto correcto es doble:
 
-`SVperitus` incorpora un bloque interno mínimo de calidad en `docs/calidad/` con una función estrictamente aplicada: fijar hitos, cierres, deuda local y actuaciones relevantes sin duplicar la maquinaria técnica del lenguaje.
+1. agente especializado propio, con obligaciones y servicios definidos;
+2. custodia basal visible del diseño para el nacimiento, faseado y estabilización de nuevos agentes o nuevas fases sensibles.
 
-Ese bloque mínimo no sustituye:
+Por ello, la lectura recomendada de su frente es:
 
-- la autoridad doctrinal de `SV-matematica-semantica`;
-- ni la sede logística fuerte de `SV-lenguaje-de-computacion/docs/calidad/`.
+1. `agentes/seguridad_estructural/index.html`
+2. `agentes/seguridad_estructural/fase_1/index.html`
+3. `agentes/seguridad_estructural/fase_1/artefactos_web/index.html`
 
-La distribución vigente queda así:
+## Marco de lectura del repositorio
 
-- `SV-matematica-semantica`: orientación superior, registro ligero y remisión entre sedes;
-- `SV-lenguaje-de-computacion`: control fuerte, trazabilidad técnica y gobierno operativo;
-- `SVperitus`: control interno mínimo, suficiente para agentes, fases, artefactos y deuda local.
+El Sistema Vectorial SV trabaja con una gramática ternaria estable: `0` (Apto), `1` (No_Apto) y `U` (Indeterminado). Los agentes especializados de esta sede no alteran esa base; la aplican en carriles tipados, con fases, artefactos y superficies de lectura humana o de apoyo técnico.
 
-Piezas internas de referencia del bloque mínimo:
+## Calidad mínima y remisión operativa
+
+La memoria mínima de calidad local de esta sede reside en:
 
 - `docs/calidad/README.md`
 - `docs/calidad/NOTA_DE_ALCANCE_DEL_CONTROL_DE_CALIDAD_EN_SVPERITUS_2026_03_28.md`
@@ -60,42 +71,21 @@ Piezas internas de referencia del bloque mínimo:
 - `docs/calidad/DEUDA_VIVA_MINIMA_SVPERITUS.csv`
 - `docs/calidad/REGISTRO_MINIMO_DE_ACTUACIONES_POR_BLOQUE_Y_SEDE_SVPERITUS.csv`
 
-## Patrón común emergente del agente especializado
+> **Regla de alcance**
+> El control mínimo local de `SVperitus` no desplaza la sede logística fuerte de calidad y trazabilidad técnica del ecosistema, que sigue residiendo en `SV-lenguaje-de-computacion/docs/calidad/`.
 
-La evolución actual del ecosistema hace comparecer ya un patrón común de agente especializado que no debe confundirse con los parámetros propios de un dominio concreto.
+## Estructura del repositorio
 
-Ese patrón común incluye, cuando el grado de madurez del agente lo justifique:
-
-- desarrollo por fases;
-- publicación, laboratorio y figuras de fase;
-- artefactos adscritos a fase;
-- monitor poligonal principal;
-- lectura por SUCESOS;
-- plano IA trazable;
-- capa R³ auxiliar;
-- y evidencia o cierre de trazabilidad.
-
-**Importante.** El plano IA trazable no se considera privilegio exclusivo del Agente especializado en Seguridad Estructural. Su aparición allí debe leerse como primera implementación piloto de un patrón que, tipado y subordinado, podrá generalizarse al resto de agentes del ecosistema.
-
-**Pieza de referencia interna:** `especificaciones/patron_agente_especializado/README.md`
-
-## Condición basal de custodia del diseño
-
-Dentro de `SVperitus`, la célula especializada de seguridad estructural no debe leerse sólo como un agente singular adicional. Su publicación vigente la formaliza para custodiar el diseño, el DSL, el laboratorio y la cadena visible de implementación del propio SV. Por ello, su estatuto correcto dentro del ecosistema de agentes es doble:
-
-1. **Agente especializado propio**, actualmente en Fase I.
-2. **Custodia basal obligatoria del diseño** para el nacimiento, faseado, estabilización y vigilancia de nuevos agentes y nuevas fases relevantes.
-
-Esto significa que ningún nuevo agente especializado ni ninguna fase relevante deben presentarse como maduros, fiables o estructuralmente conformes sin quedar sometidos, de forma visible, a esta custodia basal.
-
-Esta condición basal:
-
-- no sustituye a la doctrina superior;
-- no sustituye al lenguaje SV ni a su sede técnica;
-- no autoriza a la célula de seguridad a crear doctrina nueva;
-- pero sí actúa como guardarraíl obligatorio del diseño dentro del ecosistema de agentes.
-
-**Piezas de referencia interna:**
-
-- `especificaciones/patron_agente_especializado/README.md`
-- `especificaciones/custodia_basal_del_diseno/README.md`
+```text
+SVperitus-dataset/
+├── README.md
+├── index.html                       ← Puerta general propia de esta sede
+├── agentes/
+│   ├── seguridad_estructural/       ← Puerta del agente y fases visibles
+│   └── inmunologia/                 ← Puerta del agente y fases visibles
+├── aplicaciones/                    ← Superficies de uso y espejos históricos controlados
+├── documentos/                      ← Documentación transversal aplicada
+├── especificaciones/                ← Patrón común, custodia basal y piezas subordinadas
+├── docs/                            ← Calidad mínima local y soporte auxiliar
+└── entornos/                        ← Clientes y entornos de ejecución o ensayo
+```

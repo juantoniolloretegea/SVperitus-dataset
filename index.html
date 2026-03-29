@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Puerta general de SVperitus — agentes, fases y artefactos</title>
+<meta name="description" content="Puerta general de la sede aplicada SVperitus-dataset dentro del ecosistema SV." />
+<style>
+
+:root {
+  --bg: #f3ede3;
+  --card: #fbf6ee;
+  --soft: #efe6d9;
+  --line: #d3c4b1;
+  --text: #17130d;
+  --muted: #5b5043;
+  --accent: #8e2f2a;
+  --accent-soft: #efe1da;
+  --shadow: 0 10px 26px rgba(35, 24, 10, 0.07);
+  --radius: 18px;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.58;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: 1280px; margin: 0 auto; padding: 0 22px 40px; }
+header {
+  position: sticky; top: 0; z-index: 20; backdrop-filter: blur(8px);
+  background: rgba(243, 237, 227, 0.92); border-bottom: 1px solid var(--line);
+}
+.topbar {
+  display: grid; grid-template-columns: minmax(0,1fr) auto; column-gap: 18px; row-gap: 10px;
+  align-items: start; padding: 18px 22px; max-width: 1280px; margin: 0 auto;
+}
+.hero-copy { min-width: 0; display: contents; }
+.eyebrow { font-size: 12px; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+h1 { margin: 0; font-size: clamp(24px, 4vw, 40px); line-height: 1.12; }
+.lead { margin: 10px 0 0; color: var(--muted); max-width: none; grid-column: 1 / -1; }
+.hero-actions, .actions { display: flex; gap: 10px; }
+.hero-actions { flex-wrap: nowrap; align-items: flex-start; justify-content: flex-end; flex-shrink: 0; margin-left: 12px; grid-column: 2; grid-row: 1 / span 2; align-self: start; }
+.actions { flex-wrap: wrap; }
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 11px 15px;
+  border-radius: 14px; border: 1px solid var(--line); background: #fffaf4; color: var(--text);
+  box-shadow: var(--shadow); text-decoration: none; cursor: pointer; transition: transform .15s ease, background .15s ease;
+  font-size: 14px; white-space: nowrap; font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+}
+.btn:hover { transform: translateY(-1px); text-decoration: none; }
+.btn.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+.layout { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 24px; margin-top: 28px; }
+aside { position: sticky; top: 98px; align-self: start; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
+.menu { padding: 18px; }
+.menu h2 { margin: 0 0 12px; font-size: 18px; }
+.menu a { display: block; padding: 10px 12px; border-radius: 12px; color: var(--text); }
+.menu a:hover, .menu a.active { background: var(--soft); text-decoration: none; }
+main { display: grid; gap: 20px; }
+section { padding: 24px; }
+h2 { margin: 0; font-size: 28px; line-height: 1.2; }
+.muted { color: var(--muted); }
+.grid-3 { display: grid; gap: 14px; grid-template-columns: repeat(3, minmax(0,1fr)); margin-top: 18px; }
+.grid-2 { display: grid; gap: 14px; grid-template-columns: repeat(2, minmax(0,1fr)); margin-top: 18px; }
+.mini, .eco, .doc {
+  background: var(--soft); border: 1px solid var(--line); border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 12px;
+}
+.k, .tag { display: inline-flex; width: fit-content; border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; font-size: 12px; color: var(--muted); background: #fffaf4; }
+.doc h3, .eco h3 { margin: 0; font-size: 20px; line-height: 1.25; }
+.doc p, .eco p { margin: 0; color: var(--muted); }
+.eco ul, .doc ul { margin: 0 0 0 18px; padding: 0; color: var(--text); }
+.eco li, .doc li { margin: 8px 0; }
+.note {
+  margin-top: 16px; padding: 14px 16px; border: 1px solid rgba(142,47,42,.24); border-left: 6px solid var(--accent);
+  border-radius: 16px; background: var(--accent-soft);
+}
+.tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 10px; }
+.tab-btn {
+  border: 1px solid var(--line); background: #fffaf4; padding: 9px 12px; border-radius: 12px; cursor: pointer; font-size: 14px;
+  font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+}
+.tab-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+.badge-state { display:inline-flex; padding:6px 11px; border-radius:999px; font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif; font-weight:700; font-size:13px; }
+.badge-state.apto{background:#dff3e2;color:#1f5b2f;border:1px solid #8dcb97}
+.badge-state.noapto{background:#f7dede;color:#7d231f;border:1px solid #d38d8a}
+.badge-state.indeterminado{background:#f8ebc6;color:#7a5a00;border:1px solid #d2b66a}
+footer { border-top: 1px solid var(--line); background: rgba(255,250,244,0.9); margin-top: 22px; }
+.footer-line { max-width: 1280px; margin: 0 auto; padding: 12px 22px; font-size: 13px; color: var(--muted); white-space: nowrap; overflow-x: auto; }
+@media (max-width: 1024px) {
+  .layout { grid-template-columns: 1fr; }
+  aside { position: static; }
+  .grid-3 { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 720px) {
+  .topbar { grid-template-columns: 1fr; }
+  .hero-actions { grid-column: 1; grid-row: auto; flex-wrap: wrap; margin-left: 0; }
+  .grid-3, .grid-2 { grid-template-columns: 1fr; }
+  section { padding: 20px; }
+}
+
+.hero-badge { display:inline-flex; width:fit-content; border:1px solid rgba(142,47,42,.24); background:var(--accent-soft); color:var(--accent); padding:6px 10px; border-radius:999px; font-size:12px; font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; font-weight:700; margin-bottom:8px; }
+.doc-grid { display:grid; gap:14px; grid-template-columns: repeat(2, minmax(0,1fr)); margin-top: 18px; }
+@media (max-width:1024px) { .doc-grid { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="topbar">
+    <div class="hero-copy">
+      <div class="eyebrow">Puerta de entrada</div>
+      <h1>Puerta general de SVperitus</h1>
+      <p class="lead">Esta página ordena la entrada humana a la sede aplicada de agentes especializados del ecosistema SV. No sustituye README, publicaciones canónicas ni estatutos de agente; su función es reducir incertidumbre de navegación, fijar la ruta de lectura y distinguir con claridad agentes, fases, artefactos y aplicaciones.</p>
+    </div>
+    <div class="hero-actions">
+      <a class="btn primary" href="https://github.com/juantoniolloretegea/SVperitus-dataset" target="_blank" rel="noopener noreferrer">Abra el repositorio</a>
+      <a class="btn" href="https://juantoniolloretegea.github.io/SV-matematica-semantica/" target="_blank" rel="noopener noreferrer">Consulte la puerta doctrinal</a>
+    </div>
+  </div>
+</header>
+<div class="wrap">
+  <div class="layout">
+    <aside>
+      <div class="card menu">
+        <h2>Menú</h2>
+        <a href="#vision">Puerta general</a>
+        <a href="#sedes">Distribución entre sedes</a>
+        <a href="#ruta">Ruta de lectura</a>
+        <a href="#agentes">Agentes especializados</a>
+        <a href="#fases">Fases activas</a>
+        <a href="#artefactos">Artefactos y aplicaciones</a>
+        <a href="#accesos">Accesos rápidos</a>
+      </div>
+    </aside>
+    <main>
+      <section id="vision" class="card">
+        <div class="hero-badge">Sede aplicada del ecosistema SV</div>
+        <h2>Puerta general de SVperitus</h2>
+        <p class="muted">`SVperitus-dataset` aloja agentes especializados con obligaciones y servicios diferenciados. Su organización canónica sigue el eje <code>agentes → fases → artefactos → aplicaciones</code>. Esta puerta no crea autoridad nueva; orienta la entrada humana a la sede aplicada.</p>
+        <div class="actions" style="margin-top:18px;">
+          <a class="btn primary" href="https://github.com/juantoniolloretegea/SVperitus-dataset/blob/main/README.md" target="_blank" rel="noopener noreferrer">README raíz</a>
+          <a class="btn" href="./agentes/seguridad_estructural/" target="_blank" rel="noopener noreferrer">Seguridad estructural</a>
+          <a class="btn" href="./agentes/inmunologia/" target="_blank" rel="noopener noreferrer">Inmunología</a>
+          <a class="btn" href="https://juantoniolloretegea.github.io/SV-matematica-semantica/" target="_blank" rel="noopener noreferrer">Puerta doctrinal</a>
+        </div>
+        <div class="note"><strong>Regla de lectura.</strong> Las superficies históricas conservadas en <code>aplicaciones/</code> no deben leerse como puerta principal de agente. La entrada canónica arranca en <code>agentes/</code>.</div>
+      </section>
+
+      <section id="sedes" class="card">
+        <h2>Distribución entre sedes</h2>
+        <p class="muted">El ecosistema SV se distribuye por sedes complementarias. La autoridad doctrinal, la sede técnica, el origen observacional y la sede de agentes tienen funciones distintas y no se sustituyen entre sí.</p>
+        <div class="grid-2">
+          <article class="eco">
+            <h3>SV-matematica-semantica</h3>
+            <p>Sede doctrinal del ecosistema, puerta general y corpus de referencia.</p>
+            <div class="actions"><a class="btn primary" href="https://juantoniolloretegea.github.io/SV-matematica-semantica/" target="_blank" rel="noopener noreferrer">Puerta web</a><a class="btn" href="https://github.com/juantoniolloretegea/SV-matematica-semantica" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+          </article>
+          <article class="eco">
+            <h3>SV-lenguaje-de-computacion</h3>
+            <p>Sede técnica del lenguaje SV, manual SVP, contrato técnico y calidad logística fuerte.</p>
+            <div class="actions"><a class="btn primary" href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+          </article>
+          <article class="eco">
+            <h3>SVcustos-dataset</h3>
+            <p>Origen observacional e histórico del vector SVcustos → SVperitus.</p>
+            <div class="actions"><a class="btn primary" href="https://github.com/juantoniolloretegea/SVcustos-dataset" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+          </article>
+          <article class="eco">
+            <h3>SVperitus-dataset</h3>
+            <p>Sede aplicada de agentes especializados, desarrollo por fases y artefactos contrastables.</p>
+            <div class="actions"><a class="btn primary" href="https://github.com/juantoniolloretegea/SVperitus-dataset" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="ruta" class="card">
+        <h2>Ruta de lectura recomendada</h2>
+        <p class="muted">Para una entrada ordenada conviene avanzar por capas: primero la función de la sede, después el agente, luego la fase activa y solo entonces el portal web local o los artefactos de detalle.</p>
+        <div class="tabs" role="tablist" aria-label="Ruta de lectura">
+          <button class="tab-btn active" data-tab="r1">Paso 1</button>
+          <button class="tab-btn" data-tab="r2">Paso 2</button>
+          <button class="tab-btn" data-tab="r3">Paso 3</button>
+          <button class="tab-btn" data-tab="r4">Paso 4</button>
+        </div>
+        <div id="r1" class="tab-panel active"><p><strong>README raíz.</strong> Entre primero por la visión general del repositorio y su función dentro del ecosistema.</p><a class="btn" href="https://github.com/juantoniolloretegea/SVperitus-dataset/blob/main/README.md" target="_blank" rel="noopener noreferrer">Abra el README raíz</a></div>
+        <div id="r2" class="tab-panel"><p><strong>Agente.</strong> Elija el agente por el que quiere entrar. Seguridad estructural queda fijado como patrón común inicial de la sede.</p><a class="btn" href="./agentes/seguridad_estructural/" target="_blank" rel="noopener noreferrer">Abra Seguridad estructural</a></div>
+        <div id="r3" class="tab-panel"><p><strong>Fase activa.</strong> Dentro del agente, entre por la fase visible y su estatuto actual antes de abrir artefactos o aplicaciones.</p><a class="btn" href="./agentes/seguridad_estructural/fase_1/" target="_blank" rel="noopener noreferrer">Abra Seguridad — Fase I</a></div>
+        <div id="r4" class="tab-panel"><p><strong>Artefactos y vistas.</strong> Abra después el portal web local, el laboratorio, las figuras o la publicación según el tipo de consulta.</p><a class="btn" href="./agentes/seguridad_estructural/fase_1/artefactos_web/" target="_blank" rel="noopener noreferrer">Abra el portal web local</a></div>
+      </section>
+
+      <section id="agentes" class="card">
+        <h2>Agentes especializados</h2>
+        <p class="muted">Los agentes de esta sede no se ordenan por rango ontológico. Cada uno comparece con un estatuto propio, una función visible y servicios distintos dentro del ecosistema.</p>
+        <div class="doc-grid">
+          <article class="doc">
+            <span class="tag">Agente activo</span>
+            <h3>Seguridad estructural</h3>
+            <p>Agente especializado propio y primera materialización visible de la custodia basal del diseño dentro de `SVperitus`.</p>
+            <ul>
+              <li>fase visible: Fase I</li>
+              <li>portal web local ya adscrito a la fase</li>
+              <li>monitor, serie de SUCESOS, IA trazable, R³ auxiliar y evidencia</li>
+            </ul>
+            <div class="actions"><a class="btn primary" href="./agentes/seguridad_estructural/" target="_blank" rel="noopener noreferrer">Puerta del agente</a><a class="btn" href="./agentes/seguridad_estructural/fase_1/" target="_blank" rel="noopener noreferrer">Puerta de fase</a></div>
+          </article>
+          <article class="doc">
+            <span class="tag">Agente activo</span>
+            <h3>Inmunología</h3>
+            <p>Agente especializado clínico con desarrollo por fases y superficies de seguimiento y composición.</p>
+            <ul>
+              <li>fases visibles: Fase I y Fase II</li>
+              <li>compositor y demos adscritos a Fase II</li>
+              <li>puerta propia ya abierta</li>
+            </ul>
+            <div class="actions"><a class="btn primary" href="./agentes/inmunologia/" target="_blank" rel="noopener noreferrer">Puerta del agente</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="fases" class="card">
+        <h2>Fases activas</h2>
+        <p class="muted">La lectura canónica de esta sede entra por agente y sigue por fase. Las fases reúnen publicación, laboratorio, figuras, artefactos web y memoria mínima de trazabilidad.</p>
+        <div class="grid-3">
+          <article class="mini"><div class="k">Seguridad estructural</div><div><strong>Fase I</strong><br>Custodia basal del diseño, monitorización por SUCESOS y portal web local.</div></article>
+          <article class="mini"><div class="k">Inmunología</div><div><strong>Fase I</strong><br>Primera fase materializada del agente.</div></article>
+          <article class="mini"><div class="k">Inmunología</div><div><strong>Fase II</strong><br>Segunda fase materializada, con compositor adscrito.</div></article>
+        </div>
+      </section>
+
+      <section id="artefactos" class="card">
+        <h2>Artefactos y aplicaciones</h2>
+        <p class="muted">Los artefactos canónicos viven en la fase correspondiente. Las superficies de `aplicaciones/` pueden actuar como espejos históricos o superficies de uso, pero no sustituyen la puerta canónica de agente ni la puerta de fase.</p>
+        <div class="grid-2">
+          <article class="eco">
+            <h3>Portal web local de Seguridad Fase I</h3>
+            <p>Puerta humana de detalle para monitor, SUCESOS, IA trazable, R³ auxiliar y evidencia.</p>
+            <div class="actions"><a class="btn primary" href="./agentes/seguridad_estructural/fase_1/artefactos_web/" target="_blank" rel="noopener noreferrer">Abra el portal</a></div>
+          </article>
+          <article class="eco">
+            <h3>Aplicaciones y espejos</h3>
+            <p>Las superficies históricas de seguridad que permanecen en `aplicaciones/` deben leerse como espejos o puntos de redirección, no como puerta canónica de agente.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="accesos" class="card">
+        <h2>Accesos rápidos</h2>
+        <p class="muted">Entrada directa para quien ya conoce el ecosistema y necesita una navegación cómoda, con URLs claras y apertura separada cuando conviene.</p>
+        <div class="grid-3">
+          <div class="mini"><div class="k">Sede</div><div class="actions"><a class="btn" href="https://github.com/juantoniolloretegea/SVperitus-dataset" target="_blank" rel="noopener noreferrer">Repositorio</a><a class="btn" href="https://github.com/juantoniolloretegea/SVperitus-dataset/blob/main/README.md" target="_blank" rel="noopener noreferrer">README</a></div></div>
+          <div class="mini"><div class="k">Seguridad estructural</div><div class="actions"><a class="btn" href="./agentes/seguridad_estructural/" target="_blank" rel="noopener noreferrer">Agente</a><a class="btn" href="./agentes/seguridad_estructural/fase_1/" target="_blank" rel="noopener noreferrer">Fase I</a></div></div>
+          <div class="mini"><div class="k">Inmunología</div><div class="actions"><a class="btn" href="./agentes/inmunologia/" target="_blank" rel="noopener noreferrer">Agente</a></div></div>
+        </div>
+      </section>
+    </main>
+  </div>
+</div>
+<footer>
+  <div class="footer-line">Juan Antonio Lloret Egea © · ORCID 0000-0002-6634-3351 · ISSN 2695-6411 · CC BY-NC-ND 4.0 · ITVIA · Versión publicada de esta web: 1.0</div>
+</footer>
+<script>
+const tabButtons = document.querySelectorAll('.tab-btn');
+const panels = document.querySelectorAll('.tab-panel');
+tabButtons.forEach((btn) => {
+  btn.addEventListener('click', () => {
+    tabButtons.forEach((b) => b.classList.remove('active'));
+    panels.forEach((p) => p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById(btn.dataset.tab).classList.add('active');
+  });
+});
+const menuLinks = document.querySelectorAll('.menu a');
+const sections = [...document.querySelectorAll('main section')];
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      const id = entry.target.getAttribute('id');
+      menuLinks.forEach((a) => a.classList.toggle('active', a.getAttribute('href') === '#' + id));
+    }
+  });
+}, { threshold: 0.35 });
+sections.forEach((section) => observer.observe(section));
+</script>
+</body>
+</html>

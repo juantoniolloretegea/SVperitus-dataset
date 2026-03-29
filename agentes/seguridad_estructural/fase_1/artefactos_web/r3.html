@@ -1,74 +1,149 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Seguridad estructural — Fase I — Lectura R³</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Seguridad estructural — Fase I — lectura R³ auxiliar</title>
 <style>
+
 :root {
-  --bg:#f2eadf; --panel:#f7f0e6; --panel2:#efe3d4; --line:#d7c7b4; --text:#171412;
-  --muted:#5a4d43; --green:#2e7d32; --red:#8e2f2a; --amber:#b78300; --deep:#1a1d23; --accent-soft:#efe1da;
+  --bg: #f3ede3;
+  --card: #fbf6ee;
+  --soft: #efe6d9;
+  --line: #d3c4b1;
+  --text: #17130d;
+  --muted: #5b5043;
+  --accent: #8e2f2a;
+  --accent-soft: #efe1da;
+  --shadow: 0 10px 26px rgba(35, 24, 10, 0.07);
+  --radius: 18px;
 }
-*{box-sizing:border-box}
-body{margin:0;font-family:ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;background:var(--bg);color:var(--text)}
-header{padding:24px 28px 18px;border-bottom:1px solid rgba(0,0,0,.08);position:sticky;top:0;backdrop-filter:blur(6px);background:rgba(247,240,230,.96);z-index:5}
-h1{margin:0 0 10px;font-size:2rem}
-.lead{margin:0;color:var(--muted);font-size:1.05rem;line-height:1.45;max-width:1180px}
-.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
-.chip{border:1px solid rgba(142,47,42,.22);padding:10px 14px;border-radius:999px;background:#fbf6ef;font-weight:700}
-main{padding:24px;display:grid;gap:18px}
-.panel{background:var(--panel);border:1px solid rgba(0,0,0,.08);border-radius:24px;padding:20px;box-shadow:0 10px 24px rgba(0,0,0,.18)}
-.toolbar{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:12px}
-button.tab{background:var(--panel2);color:var(--text);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:10px 14px;font-weight:800;cursor:pointer}
-button.tab.active{outline:2px solid rgba(142,47,42,.22);background:#12366d}
-.grid{display:grid;gap:18px}
-.grid.main{grid-template-columns:minmax(650px,1.25fr) minmax(320px,.75fr)}
-.grid.orthos{grid-template-columns:repeat(3,1fr)}
-canvas{width:100%;background:var(--deep);border-radius:18px;border:1px solid rgba(255,255,255,.06);display:block}
-.section-title{font-size:1.65rem;margin:0 0 10px}
-.box{background:var(--panel2);border-radius:18px;padding:16px;border:1px solid rgba(0,0,0,.08)}
-.box h3{margin:0 0 8px}
-.controls{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:10px}
-label.control{display:grid;gap:6px;font-size:.95rem;color:var(--muted)}
-input[type=range]{width:100%}
-.metrics{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:12px}
-.metric{background:var(--panel2);border-radius:16px;padding:14px;border:1px solid rgba(0,0,0,.08)}
-.metric b{display:block;font-size:1.4rem;margin-top:6px}
-.state-pill{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:8px 12px;font-weight:800;border:1px solid rgba(142,47,42,.22)}
-.legend{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
-.legend span{display:inline-flex;align-items:center;gap:8px;color:var(--muted);font-weight:700}
-.dot{width:12px;height:12px;border-radius:50%;display:inline-block}
-.green{background:rgba(46,204,113,.97);color:#052d17}
-.red{background:rgba(255,92,92,.97);color:#350505}
-.amber{background:rgba(255,193,7,.97);color:#3a2900}
-.note{color:var(--muted);line-height:1.5}
-.small{font-size:.95rem}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-@media (max-width:1100px) {
-  .grid.main,.grid.orthos,.controls,.metrics,.two{grid-template-columns:1fr}
-  header{position:static}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.58;
 }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: 1280px; margin: 0 auto; padding: 0 22px 40px; }
+header {
+  position: sticky; top: 0; z-index: 20; backdrop-filter: blur(8px);
+  background: rgba(243, 237, 227, 0.92); border-bottom: 1px solid var(--line);
+}
+.topbar {
+  display: grid; grid-template-columns: minmax(0,1fr) auto; column-gap: 18px; row-gap: 10px;
+  align-items: start; padding: 18px 22px; max-width: 1280px; margin: 0 auto;
+}
+.hero-copy { min-width: 0; display: contents; }
+.eyebrow { font-size: 12px; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+h1 { margin: 0; font-size: clamp(24px, 4vw, 40px); line-height: 1.12; }
+.lead { margin: 10px 0 0; color: var(--muted); max-width: none; grid-column: 1 / -1; }
+.hero-actions, .actions { display: flex; gap: 10px; }
+.hero-actions { flex-wrap: nowrap; align-items: flex-start; justify-content: flex-end; flex-shrink: 0; margin-left: 12px; grid-column: 2; grid-row: 1 / span 2; align-self: start; }
+.actions { flex-wrap: wrap; }
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 11px 15px;
+  border-radius: 14px; border: 1px solid var(--line); background: #fffaf4; color: var(--text);
+  box-shadow: var(--shadow); text-decoration: none; cursor: pointer; transition: transform .15s ease, background .15s ease;
+  font-size: 14px; white-space: nowrap; font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+}
+.btn:hover { transform: translateY(-1px); text-decoration: none; }
+.btn.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+.layout { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 24px; margin-top: 28px; }
+aside { position: sticky; top: 98px; align-self: start; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
+.menu { padding: 18px; }
+.menu h2 { margin: 0 0 12px; font-size: 18px; }
+.menu a { display: block; padding: 10px 12px; border-radius: 12px; color: var(--text); }
+.menu a:hover, .menu a.active { background: var(--soft); text-decoration: none; }
+main { display: grid; gap: 20px; }
+section { padding: 24px; }
+h2 { margin: 0; font-size: 28px; line-height: 1.2; }
+.muted { color: var(--muted); }
+.grid-3 { display: grid; gap: 14px; grid-template-columns: repeat(3, minmax(0,1fr)); margin-top: 18px; }
+.grid-2 { display: grid; gap: 14px; grid-template-columns: repeat(2, minmax(0,1fr)); margin-top: 18px; }
+.mini, .eco, .doc {
+  background: var(--soft); border: 1px solid var(--line); border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 12px;
+}
+.k, .tag { display: inline-flex; width: fit-content; border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; font-size: 12px; color: var(--muted); background: #fffaf4; }
+.doc h3, .eco h3 { margin: 0; font-size: 20px; line-height: 1.25; }
+.doc p, .eco p { margin: 0; color: var(--muted); }
+.eco ul, .doc ul { margin: 0 0 0 18px; padding: 0; color: var(--text); }
+.eco li, .doc li { margin: 8px 0; }
+.note {
+  margin-top: 16px; padding: 14px 16px; border: 1px solid rgba(142,47,42,.24); border-left: 6px solid var(--accent);
+  border-radius: 16px; background: var(--accent-soft);
+}
+.tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 10px; }
+.tab-btn {
+  border: 1px solid var(--line); background: #fffaf4; padding: 9px 12px; border-radius: 12px; cursor: pointer; font-size: 14px;
+  font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+}
+.tab-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+.badge-state { display:inline-flex; padding:6px 11px; border-radius:999px; font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif; font-weight:700; font-size:13px; }
+.badge-state.apto{background:#dff3e2;color:#1f5b2f;border:1px solid #8dcb97}
+.badge-state.noapto{background:#f7dede;color:#7d231f;border:1px solid #d38d8a}
+.badge-state.indeterminado{background:#f8ebc6;color:#7a5a00;border:1px solid #d2b66a}
+footer { border-top: 1px solid var(--line); background: rgba(255,250,244,0.9); margin-top: 22px; }
+.footer-line { max-width: 1280px; margin: 0 auto; padding: 12px 22px; font-size: 13px; color: var(--muted); white-space: nowrap; overflow-x: auto; }
+@media (max-width: 1024px) {
+  .layout { grid-template-columns: 1fr; }
+  aside { position: static; }
+  .grid-3 { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 720px) {
+  .topbar { grid-template-columns: 1fr; }
+  .hero-actions { grid-column: 1; grid-row: auto; flex-wrap: wrap; margin-left: 0; }
+  .grid-3, .grid-2 { grid-template-columns: 1fr; }
+  section { padding: 20px; }
+}
+
+canvas { display:block; width:100%; height:auto; background:#0d1b2a; border-radius:18px; border:1px solid rgba(255,255,255,.12); }
+.toolbar, .controls, .metrics { display:flex; flex-wrap:wrap; gap:12px; margin-bottom:14px; }
+.tab { background:#fffaf4; color:var(--text); border:1px solid var(--line); border-radius:999px; padding:10px 14px; cursor:pointer; font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; font-weight:700; }
+.tab.active { background:var(--accent-soft); color:var(--accent); border-color:rgba(142,47,42,.35); }
+.control { display:flex; flex-direction:column; gap:6px; min-width:180px; font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; font-size:14px; color:var(--muted); }
+.control input{ width:100%; }
+.metrics .mini{ min-width:180px; }
+.two { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+@media (max-width:1100px) { .two { grid-template-columns:1fr; } }
 </style>
 </head>
 <body>
 <header>
-  <h1>Parche 2C-R3c · corrección de encuadre y lectura espacial</h1>
-  <p class="lead">La matemática ya estaba en R³; el problema era visual. Esta versión corrige el <strong>encuadre</strong>, reduce el relleno tragón, hace explícitas las <strong>varillas verticales de U</strong> y añade <strong>mini-vistas ortográficas</strong>. La capa sigue siendo <strong>auxiliar y no soberana</strong>.</p>
-  <div class="chips"><div class="chip"><a href="./index.html" style="color:inherit;text-decoration:none">Volver a la subpuerta</a></div>
-    <div class="chip">Autoencuadre por bounding box completa</div>
-    <div class="chip">0 y 1 en z = 0</div>
-    <div class="chip">U elevada a z = h</div>
-    <div class="chip">Menos masa rellena, más esqueleto geométrico</div>
-    <div class="chip">Serie discreta y trayectoria espacial separadas</div>
+  <div class="topbar">
+    <div class="hero-copy">
+      <div class="eyebrow">Seguridad estructural · Fase I</div>
+      <h1>Lectura R³ auxiliar</h1>
+      <p class="lead">La matemática ya comparece en R³; esta vista la hace legible para terceros. La capa espacial es auxiliar, no soberana: ayuda al ojo experto a comprobar la elevación de U, el encuadre y la serie discreta sin sustituir la clase ni la decisión final.</p>
+    </div>
+    <div class="hero-actions">
+      <a class="btn primary" href="./index.html" target="_blank" rel="noopener noreferrer">Portal web local</a>
+      <a class="btn" href="./monitor/" target="_blank" rel="noopener noreferrer">Monitor</a>
+    </div>
   </div>
 </header>
-<main>
-  <section class="panel">
+<div class="wrap">
+  <section class="card">
+    <div class="actions" style="margin-top:16px;">
+  <a class="btn" href="../index.html" target="_blank" rel="noopener noreferrer">Portal web local</a>
+  <a class="btn" href="../../index.html" target="_blank" rel="noopener noreferrer">Fase I</a>
+  <a class="btn" href="../../../index.html" target="_blank" rel="noopener noreferrer">Agente</a>
+</div>
+    <div class="note"><strong>Cómo leer esta vista.</strong> Los botones de la franja superior cambian de SUCESO. Los controles modifican el punto de vista o la altura auxiliar de U. La clase global y el horizonte siguen leyéndose como estado, no como navegación.</div>
+  </section>
+  <section class="card">
     <div class="toolbar" id="eventTabs"></div>
-    <div class="grid main">
+    <div class="two">
       <div>
-        <h2 class="section-title" id="eventTitle"></h2>
-        <p id="eventDesc" class="lead" style="margin-bottom:14px"></p>
+        <h2 id="eventTitle">SUCESO</h2>
+        <p id="eventDesc" class="muted"></p>
         <canvas id="mainCanvas" width="1100" height="680"></canvas>
         <div class="controls">
           <label class="control">Yaw<input id="yaw" type="range" min="-180" max="180" value="-35"></label>
@@ -78,65 +153,47 @@ input[type=range]{width:100%}
         </div>
         <div class="metrics" id="metrics"></div>
       </div>
-      <div class="grid" style="align-content:start">
-        <div class="box">
-          <h3>Lectura breve del SUCESO</h3>
+      <div class="grid-2" style="margin-top:0; align-content:start;">
+        <div class="card">
+          <h2 style="font-size:26px;">Lectura breve del SUCESO</h2>
           <p id="readout"></p>
-          <div class="legend">
-            <span><i class="dot" style="background:var(--green)"></i>0 / APTO</span>
-            <span><i class="dot" style="background:var(--red)"></i>1 / NO_APTO</span>
-            <span><i class="dot" style="background:var(--amber)"></i>U / INDETERMINADO</span>
+          <div class="actions" style="margin-top:12px;">
+            <span class="badge-state apto">0 / APTO</span>
+            <span class="badge-state noapto">1 / NO_APTO</span>
+            <span class="badge-state indeterminado">U / INDETERMINADO</span>
           </div>
         </div>
-        <div class="box">
-          <h3>Clase global y horizonte</h3>
+        <div class="card">
+          <h2 style="font-size:26px;">Clase global y horizonte</h2>
           <div id="statePill"></div>
           <p style="margin-top:10px">Horizonte: <strong id="horizon"></strong></p>
-          <p class="small">Delta: <span id="delta"></span></p>
+          <p class="muted">Delta: <span id="delta"></span></p>
         </div>
-        <div class="box">
-          <h3>Qué corrige esta versión</h3>
-          <ul class="note">
-            <li>La figura completa entra en cámara.</li>
-            <li>La U no queda escondida detrás del relleno.</li>
-            <li>La vista principal muestra base completa, elevación y varillas verticales.</li>
-            <li>Las mini-vistas ayudan al ojo experto a comprobar la elevación.</li>
+        <div class="card" style="grid-column:1/-1;">
+          <h2 style="font-size:26px;">Qué corrige esta vista</h2>
+          <ul>
+            <li>la figura completa entra en cámara;</li>
+            <li>la U no queda escondida tras masa rellena excesiva;</li>
+            <li>las varillas verticales y mini-vistas ortográficas ayudan a la lectura humana;</li>
+            <li>la serie discreta y la trayectoria espacial permanecen separadas.</li>
           </ul>
         </div>
       </div>
     </div>
-
-    <div class="grid orthos" style="margin-top:18px">
-      <div class="box">
-        <h3>Vista superior (XY)</h3>
-        <canvas id="topCanvas" width="360" height="280"></canvas>
-      </div>
-      <div class="box">
-        <h3>Vista frontal (XZ)</h3>
-        <canvas id="frontCanvas" width="360" height="280"></canvas>
-      </div>
-      <div class="box">
-        <h3>Vista lateral (YZ)</h3>
-        <canvas id="sideCanvas" width="360" height="280"></canvas>
-      </div>
+    <div class="grid-3" style="margin-top:18px;">
+      <div class="card"><h3>Vista superior (XY)</h3><canvas id="topCanvas" width="360" height="280"></canvas></div>
+      <div class="card"><h3>Vista frontal (XZ)</h3><canvas id="frontCanvas" width="360" height="280"></canvas></div>
+      <div class="card"><h3>Vista lateral (YZ)</h3><canvas id="sideCanvas" width="360" height="280"></canvas></div>
     </div>
   </section>
-
-  <section class="panel two">
-    <div>
-      <h2 class="section-title">Serie discreta por SUCESOS</h2>
-      <canvas id="seriesChart" width="900" height="430"></canvas>
-      <p class="note">Aquí solo entran magnitudes discretas ya soportadas: <code>U/n</code>, <code>Δ(U/n)</code> y <code>Δ²(U/n)</code>.</p>
-    </div>
-    <div>
-      <h2 class="section-title">Trayectoria espacial auxiliar de la serie</h2>
-      <canvas id="seriesTrajectory" width="900" height="430"></canvas>
-      <p class="note">La trayectoria enlaza <code>S1 → S2 → S3</code> como serie de estados en un embedding auxiliar. Ayuda al experto; no decide clase ni resuelve por sí sola una U.</p>
-    </div>
+  <section class="two">
+    <article class="card"><h2>Serie discreta por SUCESOS</h2><canvas id="seriesChart" width="900" height="430"></canvas><p class="muted">Aquí sólo entran magnitudes discretas ya soportadas: <code>U/n</code>, <code>Δ(U/n)</code> y <code>Δ²(U/n)</code>.</p></article>
+    <article class="card"><h2>Trayectoria espacial auxiliar de la serie</h2><canvas id="seriesTrajectory" width="900" height="430"></canvas><p class="muted">La trayectoria enlaza <code>S1 → S2 → S3</code> como serie de estados en un embedding auxiliar. Ayuda al experto; no decide clase ni resuelve por sí sola una U.</p></article>
   </section>
-</main>
+</div>
+<footer><div class="footer-line">Seguridad estructural · Fase I · lectura R³ auxiliar · versión publicada de esta web: 1.0</div></footer>
 <script>
-const DATA = {"metadata": {"title": "Parche 2C-R3c · corrección de encuadre y lectura espacial"}, "events": [{"id": "S1", "label": "seguridad-diseno-fase-base", "horizon": "H_DISENO_SEGURIDAD_2026_FASE_BASE", "class": "INDETERMINADO", "description": "Delimitación inicial del agente de seguridad estructural como familia especializada de vigilancia y custodia del diseño.", "vector": [1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1], "metrics": {"nU": 9, "Un": 0.25, "L2": 18.6907, "L3": 21.1839, "dL": 2.4932, "Ez": 35.28, "Cz": 0.7}, "delta": "Primer SUCESO del horizonte."}, {"id": "S2", "label": "seguridad-diseno-reordenacion-suelo", "horizon": "H_DISENO_SEGURIDAD_2026_REORDENACION_SUELO", "class": "INDETERMINADO", "description": "Sustitución del antiguo primer piso externo por la célula de objetivos y renombrado del subsistema inferior como suelo tipado.", "vector": [1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 2, 2, 2, 2, 2, 2, 1, 1, 1], "metrics": {"nU": 6, "Un": 0.1667, "L2": 17.1814, "L3": 18.304, "dL": 1.1226, "Ez": 23.52, "Cz": 0.4667}, "delta": "Reducción estructural de U y mejora del suelo tipado."}, {"id": "S3", "label": "seguridad-diseno-monitor-dual", "horizon": "H_DISENO_SEGURIDAD_2026_MONITOR_DUAL", "class": "INDETERMINADO", "description": "Fijación del monitor dual diseño/uso, del eje por SUCESOS y de la exigencia de polígonos reales como interfaz primaria de seguimiento humano.", "vector": [1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 2, 2, 2, 0, 0, 0, 0], "metrics": {"nU": 3, "Un": 0.0833, "L2": 15.982, "L3": 16.552, "dL": 0.57, "Ez": 11.76, "Cz": 0.2333}, "delta": "El suelo ya es APTO, pero la custodia final mantiene U legítimas de diseño."}]};
+const DATA = {"metadata": {"title": "Lectura R³ auxiliar de Seguridad estructural — Fase I"}, "events": [{"id": "S1", "label": "seguridad-diseno-fase-base", "horizon": "H_DISENO_SEGURIDAD_2026_FASE_BASE", "class": "INDETERMINADO", "description": "Delimitación inicial del agente de seguridad estructural como familia especializada de vigilancia y custodia del diseño.", "vector": [1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1], "metrics": {"nU": 9, "Un": 0.25, "L2": 18.6907, "L3": 21.1839, "dL": 2.4932, "Ez": 35.28, "Cz": 0.7}, "delta": "Primer SUCESO del horizonte."}, {"id": "S2", "label": "seguridad-diseno-reordenacion-suelo", "horizon": "H_DISENO_SEGURIDAD_2026_REORDENACION_SUELO", "class": "INDETERMINADO", "description": "Sustitución del antiguo primer piso externo por la célula de objetivos y renombrado del subsistema inferior como suelo tipado.", "vector": [1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 2, 2, 2, 2, 2, 2, 1, 1, 1], "metrics": {"nU": 6, "Un": 0.1667, "L2": 17.1814, "L3": 18.304, "dL": 1.1226, "Ez": 23.52, "Cz": 0.4667}, "delta": "Reducción estructural de U y mejora del suelo tipado."}, {"id": "S3", "label": "seguridad-diseno-monitor-dual", "horizon": "H_DISENO_SEGURIDAD_2026_MONITOR_DUAL", "class": "INDETERMINADO", "description": "Fijación del monitor dual diseño/uso, del eje por SUCESOS y de la exigencia de polígonos reales como interfaz primaria de seguimiento humano.", "vector": [1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 2, 2, 2, 0, 0, 0, 0], "metrics": {"nU": 3, "Un": 0.0833, "L2": 15.982, "L3": 16.552, "dL": 0.57, "Ez": 11.76, "Cz": 0.2333}, "delta": "El suelo ya es APTO, pero la custodia final mantiene U legítimas de diseño."}]};
 const COLORS = {0:'#2ecc71',1:'#ff5c5c',2:'#FFC107'};
 const CLASS_STYLE = {'APTO':'green','NO_APTO':'red','INDETERMINADO':'amber'};
 let currentIndex = 0;
