@@ -91,8 +91,7 @@ h2 { margin: 0; font-size: 28px; line-height: 1.2; }
 .badge-state.noapto{background:#f7dede;color:#7d231f;border:1px solid #d38d8a}
 .badge-state.indeterminado{background:#f8ebc6;color:#7a5a00;border:1px solid #d2b66a}
 footer { border-top: 1px solid var(--line); background: rgba(255,250,244,0.9); margin-top: 22px; }
-.footer-line { max-width: 1280px; margin: 0 auto; padding: 12px 22px 0; font-size: 13px; color: var(--muted); white-space: nowrap; overflow-x: auto; }
-.footer-meta { max-width: 1280px; margin: 0 auto; padding: 6px 22px 12px; font-size: 8px; line-height: 1.35; color: var(--muted); text-wrap: pretty; }
+.footer-line { max-width: 1280px; margin: 0 auto; padding: 12px 22px; font-size: 13px; color: var(--muted); white-space: nowrap; overflow-x: auto; }
 @media (max-width: 1024px) {
   .layout { grid-template-columns: 1fr; }
   aside { position: static; }
@@ -108,12 +107,9 @@ footer { border-top: 1px solid var(--line); background: rgba(255,250,244,0.9); m
 .two-col { display:grid; grid-template-columns:1.1fr .9fr; gap:18px; }
 .tabs { display:flex; gap:10px; flex-wrap:wrap; margin:14px 0; }
 .tabs button { background:#fffaf4; color:var(--text); border:1px solid var(--line); border-radius:12px; padding:10px 14px; cursor:pointer; font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; font-weight:700; }
-.tabs button.active { background:var(--accent); color:#fff; border-color:var(--accent); box-shadow: inset 0 0 0 1px rgba(255,255,255,.08); }
-.tabs button:focus-visible { outline: 3px solid rgba(142,47,42,.28); outline-offset: 2px; }
+.tabs button.active { background:var(--accent-soft); color:var(--accent); border-color:rgba(142,47,42,.35); }
 .panel-hidden { display:none; }
 .panel-visible { display:block; }
-.active-view { margin: 8px 0 0; display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
-.panel-title { margin:0 0 10px; font-size:22px; line-height:1.2; }
 .metric-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; margin-top:14px; }
 textarea { width:100%; min-height:120px; border:1px solid var(--line); border-radius:16px; padding:14px; background:#fffdf9; color:var(--text); font:inherit; }
 button.action { background:var(--accent); color:#fff; border:none; border-radius:14px; padding:11px 15px; cursor:pointer; font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; font-weight:700; }
@@ -150,18 +146,13 @@ button.ghost { background:#fffaf4; color:var(--text); border:1px solid var(--lin
     <article class="card">
       <span class="tag">Horizonte de uso subordinado</span>
       <h2>Comparación REAL / SIM</h2>
-      <div class="tabs" role="tablist" aria-label="Comparación REAL y SIM">
-        <button type="button" class="tab-btn active" data-panel="real" id="tab-real" role="tab" aria-selected="true" aria-controls="panel-real" onclick="return activatePanel('real')">Estado real</button>
-        <button type="button" class="tab-btn" data-panel="sim" id="tab-sim" role="tab" aria-selected="false" aria-controls="panel-sim" onclick="return activatePanel('sim')">Rama simulada</button>
-        <button type="button" class="tab-btn" data-panel="compare" id="tab-compare" role="tab" aria-selected="false" aria-controls="panel-compare" onclick="return activatePanel('compare')">Comparación</button>
-        <button type="button" class="tab-btn" data-panel="query" id="tab-query" role="tab" aria-selected="false" aria-controls="panel-query" onclick="return activatePanel('query')">Consulta IA</button>
+      <div class="tabs" role="tablist" aria-label="Comparación REAL / SIM">
+        <button class="tab-btn active" type="button" role="tab" aria-controls="panel-real" aria-selected="true" data-panel="real">Estado real</button>
+        <button class="tab-btn" type="button" role="tab" aria-controls="panel-sim" aria-selected="false" data-panel="sim">Rama simulada</button>
+        <button class="tab-btn" type="button" role="tab" aria-controls="panel-compare" aria-selected="false" data-panel="compare">Comparación</button>
+        <button class="tab-btn" type="button" role="tab" aria-controls="panel-query" aria-selected="false" data-panel="query">Consulta IA</button>
       </div>
-      <div class="active-view" aria-live="polite">
-        <span class="k">Vista activa</span>
-        <strong id="activeViewLabel">Estado real</strong>
-      </div>
-      <div id="panel-real" class="panel-visible" role="tabpanel" aria-labelledby="tab-real">
-        <h3 class="panel-title">Estado real</h3>
+      <div id="panel-real" class="panel-visible">
         <div class="metric-grid">
           <div class="mini"><div class="k">C_obj</div><div><span class="badge-state apto">APTO</span><br>Objetivos ya delimitados con cierre fuerte suficiente en esta fase.</div></div>
           <div class="mini"><div class="k">C_base</div><div><span class="badge-state apto">APTO</span><br>Suelo técnico ya apto para seguir observando sin cierre artificial.</div></div>
@@ -171,8 +162,7 @@ button.ghost { background:#fffaf4; color:var(--text); border:1px solid var(--lin
 
 La composición visible del frente permanece abierta en el plano de diseño. La lectura real no autoriza cierre artificial: el agente humano puede mantener fase, abrir nuevo SUCESO o pedir nueva evidencia.</div>
       </div>
-      <div id="panel-sim" class="panel-hidden" role="tabpanel" aria-labelledby="tab-sim" hidden>
-        <h3 class="panel-title">Rama simulada</h3>
+      <div id="panel-sim" class="panel-hidden">
         <div class="metric-grid">
           <div class="mini"><div class="k">C_obj</div><div><span class="badge-state apto">APTO</span><br>Se mantiene sin cambio respecto a la rama real.</div></div>
           <div class="mini"><div class="k">C_base</div><div><span class="badge-state apto">APTO</span><br>Se mantiene apto.</div></div>
@@ -182,14 +172,8 @@ La composición visible del frente permanece abierta en el plano de diseño. La 
 
 La rama simulada propone un cierre fuerte del plano de diseño si la evidencia adicional legitima clausurar las posiciones abiertas D28–D36. Esta rama no funda por sí sola un nuevo SUCESO real.</div>
       </div>
-      <div id="panel-compare" class="panel-hidden" role="tabpanel" aria-labelledby="tab-compare" hidden>
-        <h3 class="panel-title">Comparación estructurada</h3>
-        <div class="metric-grid">
-          <div class="mini"><div class="k">C_obj</div><div><span class="badge-state apto">Sin cambio</span><br>La rama simulada no altera los objetivos ya delimitados.</div></div>
-          <div class="mini"><div class="k">C_base</div><div><span class="badge-state apto">Sin cambio</span><br>El suelo técnico sigue apto en la rama real y en la simulada.</div></div>
-          <div class="mini"><div class="k">C_diseño</div><div><span class="badge-state indeterminado">Cambio hipotético</span><br>La simulación explora el paso de INDETERMINADO a APTO si comparece evidencia adicional legítima.</div></div>
-        </div>
-        <div class="resp" style="margin-top:14px;">Delta REAL → SIM
+      <div id="panel-compare" class="panel-hidden">
+        <div class="resp">Delta REAL → SIM
 
 - Sin cambio en C_obj.
 - Sin cambio en C_base.
@@ -198,8 +182,7 @@ La rama simulada propone un cierre fuerte del plano de diseño si la evidencia a
 
 Recomendación condicionada: no abrir cierre real hasta que la evidencia documental y material convierta la hipótesis en observación verificable.</div>
       </div>
-      <div id="panel-query" class="panel-hidden" role="tabpanel" aria-labelledby="tab-query" hidden>
-        <h3 class="panel-title">Consulta IA</h3>
+      <div id="panel-query" class="panel-hidden">
         <h3>Consulta en español</h3>
         <textarea id="query">¿Qué pasaría si cierro las posiciones D28–D36 con evidencia positiva?</textarea>
         <div class="actions" style="margin-top:12px;">
@@ -231,62 +214,75 @@ La custodia visible permanece abierta en el plano de diseño. El especialista pu
     </aside>
   </section>
 </div>
-<footer><div class="footer-line">Seguridad estructural · Fase I · IA trazable subordinada · versión publicada de esta web: 1.1</div>
-  <div class="footer-meta">Autor: Juan Antonio Lloret Egea | ORCID: 0000-0002-6634-3351 | Sello editorial: Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | Publicación: IA eñ™ – La Biblia de la IA™ | ISSN: 2695-6411 | Licencia: CC BY-NC-ND 4.0</div>
-</footer>
+<footer><div class="footer-line">Seguridad estructural · Fase I · IA trazable subordinada · versión publicada de esta web: 1.0</div></footer>
 <script>
-const tabs=[...document.querySelectorAll('.tab-btn')];
-const panelNames=['real','sim','compare','query'];
-const panelLabels={real:'Estado real', sim:'Rama simulada', compare:'Comparación', query:'Consulta IA'};
-function activatePanel(id) { showPanel(id, true); return false; }
-function showPanel(id, updateHash=true) {
-  tabs.forEach((b)=>{
-    const active = b.dataset.panel===id;
-    b.classList.toggle('active', active);
-    b.setAttribute('aria-selected', active ? 'true' : 'false');
+const tabs = [...document.querySelectorAll('.tab-btn')];
+const panels = ['real', 'sim', 'compare', 'query'];
+
+function showPanel(id, updateHash = true) {
+  panels.forEach((panelId) => {
+    const panel = document.getElementById('panel-' + panelId);
+    const isActive = panelId === id;
+    if (!panel) return;
+    panel.classList.toggle('panel-visible', isActive);
+    panel.classList.toggle('panel-hidden', !isActive);
+    panel.hidden = !isActive;
+    panel.setAttribute('aria-hidden', String(!isActive));
   });
-  panelNames.forEach((p)=>{
-    const panel=document.getElementById('panel-'+p);
-    const active = p===id;
-    panel.className = active ? 'panel-visible' : 'panel-hidden';
-    panel.style.display = active ? 'block' : 'none';
-    if (active) { panel.removeAttribute('hidden'); panel.setAttribute('aria-hidden','false'); } else { panel.setAttribute('hidden','hidden'); panel.setAttribute('aria-hidden','true'); }
+
+  tabs.forEach((button) => {
+    const isActive = button.dataset.panel === id;
+    button.classList.toggle('active', isActive);
+    button.setAttribute('aria-selected', String(isActive));
   });
-  const label=document.getElementById('activeViewLabel');
-  if (label) label.textContent = panelLabels[id] || id;
-  if (updateHash) {
-    const hash = '#'+id;
-    if (location.hash !== hash) history.replaceState(null, '', hash);
+
+  const activeLabel = document.getElementById('active-view-label');
+  const activeButton = tabs.find((button) => button.dataset.panel === id);
+  if (activeLabel && activeButton) activeLabel.textContent = activeButton.textContent.trim();
+
+  if (updateHash && window.location.hash !== '#' + id) {
+    history.replaceState(null, '', '#' + id);
   }
 }
 
-tabs.forEach(function(btn){ btn.addEventListener('click', function(){ showPanel(btn.dataset.panel); }); });
-window.addEventListener('hashchange', function(){ const id = location.hash.replace('#',''); if (panelNames.includes(id)) showPanel(id, false); });
+tabs.forEach((button) => {
+  button.addEventListener('click', () => showPanel(button.dataset.panel));
+});
 
-function setQuery(text) { document.getElementById('query').value=text; }
+function setQuery(text) {
+  document.getElementById('query').value = text;
+}
+
 function runQuery() {
-  const q=document.getElementById('query').value.trim().toLowerCase();
-  let answer=''; let meta='';
-  if(q.includes('d28') || q.includes('cerr') || q.includes('diseño')) {
-    answer='Si las posiciones D28–D36 pasan a cierre fuerte legítimo con evidencia positiva, la rama simulada permite una lectura APTO del plano de diseño. Aun así, haría falta comparecencia de un nuevo SUCESO real para que ese cambio deje de ser hipotético.';
-    meta='Base: comparación REAL/SIM sobre S3 y A1.
+  const q = document.getElementById('query').value.trim().toLowerCase();
+  let answer = '';
+  let meta = '';
+
+  if (q.includes('d28') || q.includes('cerr') || q.includes('diseño')) {
+    answer = 'Si las posiciones D28–D36 pasan a cierre fuerte legítimo con evidencia positiva, la rama simulada permite una lectura APTO del plano de diseño. Aun así, haría falta comparecencia de un nuevo SUCESO real para que ese cambio deje de ser hipotético.';
+    meta = 'Base: comparación REAL/SIM sobre S3 y A1.
 Límite: la simulación no sustituye observación verificable ni autoriza cierre real por sí sola.';
-  } else if(q.includes('suelo')) {
-    answer='Si el suelo técnico pierde aptitud, la fase deja de poder apoyarse en una base fiable de observación. El agente debería reabrir lectura del suelo antes de sostener cualquier cierre del diseño.';
-    meta='Base: regla de composición visible entre C_obj, C_base y C_diseño.
+  } else if (q.includes('suelo')) {
+    answer = 'Si el suelo técnico pierde aptitud, la fase deja de poder apoyarse en una base fiable de observación. El agente debería reabrir lectura del suelo antes de sostener cualquier cierre del diseño.';
+    meta = 'Base: regla de composición visible entre C_obj, C_base y C_diseño.
 Límite: la degradación del suelo exige nueva evidencia y, si procede, nuevo SUCESO.';
   } else {
-    answer='Sin nuevo SUCESO admisible no comparece cambio estructural efectivo. La fecha puede localizar; no funda por sí sola una nueva lectura.';
-    meta='Base: régimen por SUCESOS y horizonte declarado.
+    answer = 'Sin nuevo SUCESO admisible no comparece cambio estructural efectivo. La fecha puede localizar; no funda por sí sola una nueva lectura.';
+    meta = 'Base: régimen por SUCESOS y horizonte declarado.
 Límite: la respuesta es de orientación estructurada, no de clausura soberana.';
   }
-  document.getElementById('response').textContent=answer;
-  document.getElementById('meta').textContent=meta;
-  showPanel('query', false);
+
+  document.getElementById('response').textContent = answer;
+  document.getElementById('meta').textContent = meta;
 }
 
-const initial = panelNames.includes(location.hash.replace('#','')) ? location.hash.replace('#','') : 'real';
-showPanel(initial, false);
+window.addEventListener('hashchange', () => {
+  const requested = window.location.hash.replace('#', '');
+  showPanel(panels.includes(requested) ? requested : 'real', false);
+});
+
+const requested = window.location.hash.replace('#', '');
+showPanel(panels.includes(requested) ? requested : 'real', false);
 runQuery();
 </script>
 </body>
