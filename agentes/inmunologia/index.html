@@ -17,21 +17,37 @@
       --card:#fbf6ee;
       --shadow:0 10px 30px rgba(25,20,12,.08);
       --radius:18px;
-      --max:1120px;
+      --max:1180px;
     }
     *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
     body{
       margin:0;
       background:var(--sepia);
       color:var(--ink);
-      font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+      font-family:ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
       line-height:1.55;
     }
     a{color:inherit}
     .wrap{max-width:var(--max);margin:0 auto;padding:20px 18px 44px}
-    .crumbs{
-      font-size:.95rem;color:var(--muted);margin-bottom:14px
+    .topbar{display:flex;justify-content:space-between;align-items:flex-start;gap:18px;margin-bottom:14px}
+    .crumbs{font-size:.95rem;color:var(--muted);padding-top:4px}
+    .top-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}
+    .btn,.top-actions a,.hero-actions a,.quick-tabs a{
+      text-decoration:none;
+      padding:10px 14px;
+      border-radius:16px;
+      border:1px solid var(--line);
+      background:#fbf7f0;
+      box-shadow:0 1px 0 rgba(0,0,0,.02);
+      font-size:.98rem;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:8px;
     }
+    .btn-primary{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:700}
+    .btn-secondary{background:#fbf7f0;color:var(--ink)}
     .hero{
       background:linear-gradient(180deg,var(--card),var(--sepia-deep));
       border:1px solid var(--line);
@@ -52,95 +68,54 @@
       border-radius:999px;
       margin-bottom:10px;
     }
-    h1{
-      font-size:clamp(1.9rem,4vw,2.8rem);
-      margin:.1rem 0 .7rem;
-      line-height:1.1;
-    }
-    .lede{
-      font-size:1.08rem;
-      max-width:62rem;
-      margin:0 0 1rem;
-    }
-    .status{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-      gap:12px;
-      margin-top:18px;
-    }
-    .status article,.card{
-      background:rgba(255,255,255,.42);
-      border:1px solid var(--line);
-      border-radius:var(--radius);
-      padding:14px 16px;
-    }
+    h1{font-size:clamp(1.9rem,4vw,2.8rem);margin:.1rem 0 .7rem;line-height:1.1}
+    .lede{font-size:1.08rem;max-width:62rem;margin:0 0 1rem}
+    .hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0 0}
+    .status{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:18px}
+    .status article,.card{background:rgba(255,255,255,.42);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px}
     .status h3,.card h3{margin:.1rem 0 .35rem;font-size:1.05rem}
     .muted{color:var(--muted)}
-    nav.tabs{
-      display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 22px
-    }
-    .tab{
-      text-decoration:none;
-      padding:10px 14px;
-      border-radius:999px;
-      border:1px solid var(--line);
-      background:#fbf7f0;
-      box-shadow:0 1px 0 rgba(0,0,0,.02);
-      font-size:.98rem;
-    }
-    .tab.active{
-      border-color:var(--accent);
-      box-shadow:inset 0 -3px 0 var(--accent);
-      background:#f8f3ea;
-      font-weight:700;
-    }
-    .grid{
-      display:grid;
-      grid-template-columns:1.15fr .85fr;
-      gap:18px;
-    }
+    .layout{display:grid;grid-template-columns:280px minmax(0,1fr);gap:26px;margin-top:22px}
+    .side-menu{position:sticky;top:18px;align-self:start;background:rgba(255,255,255,.42);border:1px solid var(--line);border-radius:24px;padding:18px}
+    .side-menu h2{margin:0 0 12px;font-size:1.05rem}
+    .side-menu a{display:block;text-decoration:none;padding:11px 14px;border-radius:16px;margin-bottom:8px}
+    .side-menu a.active{background:var(--sepia-deep);font-weight:700}
     .stack{display:grid;gap:18px}
+    .card-section{scroll-margin-top:18px}
+    .pill{display:inline-block;padding:6px 10px;border:1px solid var(--line);border-radius:999px;font-size:.85rem;color:var(--muted);background:#fcf8f1;margin-bottom:10px}
+    .quick-tabs{display:flex;flex-wrap:wrap;gap:10px}
+    .quick-tabs a.active{border-color:var(--accent);background:var(--accent-soft);color:var(--ink);font-weight:700;box-shadow:inset 0 0 0 2px rgba(78,107,58,.2)}
     ul{margin:.4rem 0 0 1.2rem;padding:0}
     li+li{margin-top:.35rem}
-    .links a{
-      display:block;
-      text-decoration:none;
-      background:#fff9f0;
-      border:1px solid var(--line);
-      border-left:5px solid var(--accent);
-      border-radius:14px;
-      padding:12px 13px;
-      margin:10px 0 0;
-    }
+    .links a{display:block;text-decoration:none;background:#fff9f0;border:1px solid var(--line);border-left:5px solid var(--accent);border-radius:14px;padding:12px 13px;margin:10px 0 0}
     .links strong{display:block}
-    .note{
-      background:#faf5ea;
-      border:1px solid var(--line);
-      border-left:6px solid var(--accent);
-      border-radius:16px;
-      padding:14px 16px;
-      color:var(--muted);
-    }
-    footer{
-      margin-top:24px;
-      color:var(--muted);
-      font-size:.94rem;
-      text-align:center;
+    .note{background:#faf5ea;border:1px solid var(--line);border-left:6px solid var(--accent);border-radius:16px;padding:14px 16px;color:var(--muted)}
+    footer{margin-top:24px;color:var(--muted);font-size:.94rem;text-align:center}
+    .footer-meta{max-width:1180px;margin:6px auto 0;padding:0 22px 12px;font-size:8px;line-height:1.35;color:var(--muted);text-wrap:pretty}
+    @media (max-width:900px){
+      .layout{grid-template-columns:1fr}
+      .side-menu{position:static}
     }
     @media (max-width:800px){
-      .grid{grid-template-columns:1fr}
       .wrap{padding:14px 12px 32px}
       .hero{padding:18px 16px 14px}
-      nav.tabs{gap:8px}
-      .tab{width:100%;text-align:center}
+      .topbar{flex-direction:column}
+      .top-actions{justify-content:flex-start}
+      .btn,.top-actions a,.hero-actions a,.quick-tabs a{width:100%;text-align:center}
     }
   </style>
 </head>
 <body>
   <div class="wrap">
-    <div class="crumbs">SVperitus / agentes / inmunologia</div>
+    <div class="topbar">
+      <div class="crumbs">SVperitus / agentes / inmunologia</div>
+      <div class="top-actions">
+        <a class="btn btn-primary" href="https://github.com/juantoniolloretegea/SVperitus-dataset/blob/main/README.md" target="_blank" rel="noopener noreferrer">README raíz</a>
+        <a class="btn btn-secondary" href="../../index.html">Puerta general de SVperitus</a>
+      </div>
+    </div>
 
-    <section class="hero">
+    <section class="hero" id="puerta-del-agente">
       <span class="badge">Subpuerta del agente</span>
       <h1>Agente especializado en Inmunología</h1>
       <p class="lede">
@@ -148,6 +123,11 @@
         Su función es explicar qué hace hoy el agente, cómo se organiza por fases, qué artefactos vivos tiene
         y qué piezas siguen todavía en tránsito desde la capa histórica del repositorio.
       </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="./fase_1/index.html">Abra la Fase I</a>
+        <a class="btn btn-secondary" href="./fase_2/index.html">Abra la Fase II</a>
+        <a class="btn btn-secondary" href="https://github.com/juantoniolloretegea/SVperitus-dataset/blob/main/agentes/inmunologia/README.md" target="_blank" rel="noopener noreferrer">README del agente</a>
+      </div>
 
       <div class="status">
         <article>
@@ -169,29 +149,62 @@
       </div>
     </section>
 
-    <nav class="tabs" aria-label="Accesos del agente">
-      <a class="tab active" href="./index.html">Agente</a>
-      <a class="tab" href="../../aplicaciones/demo_wasm/index.html">IMMUNO-1 interactivo</a>
-      <a class="tab" href="../../aplicaciones/demo_wasm/compositor.html">Compositor</a>
-      <a class="tab" href="../../aplicaciones/demo_web/index.html">Demo JS</a>
-      <a class="tab" href="../../aplicaciones/cliente_kotlin/index.html">Cliente Kotlin</a>
-    </nav>
+    <div class="layout">
+      <aside class="side-menu" aria-label="Menú interno del agente">
+        <h2>Menú</h2>
+        <a class="active" href="#puerta-del-agente">Puerta del agente</a>
+        <a href="#estatuto">Estatuto</a>
+        <a href="#fases-visibles">Fases visibles</a>
+        <a href="#superficies-de-uso">Superficies de uso</a>
+        <a href="#custodia-basal">Custodia basal</a>
+        <a href="#sede-historica">Sede histórica</a>
+        <a href="#accesos-rapidos">Accesos rápidos</a>
+      </aside>
 
-    <div class="grid">
-      <section class="stack">
-        <article class="card">
-          <h3>Qué hace hoy el agente</h3>
-          <ul>
-            <li>organiza su lectura por fases y por artefactos adscritos;</li>
-            <li>preserva la verdad histórica del frente inmunológico;</li>
-            <li>expone superficies de uso ya vivas para revisión experta;</li>
-            <li>mantiene la terna <code>{0,1,U}</code> y su lectura no estadística;</li>
-            <li>permanece sometido a la custodia basal del diseño dentro de SVperitus.</li>
-          </ul>
-        </article>
+      <main class="stack">
+        <section class="card card-section" id="estatuto">
+          <span class="pill">Familia cromática reservada · verde sobrio</span>
+          <h2>Puerta del agente</h2>
+          <p class="lede" style="font-size:1rem;margin-bottom:.3rem">
+            El agente inmunológico comparece aquí como agente especializado con obligaciones y servicios propios dentro de la sede aplicada.
+            La lectura recomendada entra por esta puerta, continúa por sus fases y sólo después pasa a las superficies de uso contrastable.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="./fase_1/index.html">Abra la Fase I</a>
+            <a class="btn btn-secondary" href="./fase_2/index.html">Abra la Fase II</a>
+            <a class="btn btn-secondary" href="https://github.com/juantoniolloretegea/SVperitus-dataset/blob/main/agentes/inmunologia/README.md" target="_blank" rel="noopener noreferrer">README del agente</a>
+          </div>
+        </section>
 
-        <article class="card links">
-          <h3>Artefactos vivos actuales</h3>
+        <section class="card card-section" id="fases-visibles">
+          <h2>Fases visibles</h2>
+          <div class="status">
+            <article>
+              <h3>Fase I — IMMUNO-1</h3>
+              <p class="muted">Corresponde al frente históricamente publicado y sigue siendo la puerta más madura del agente.</p>
+              <p><a href="./fase_1/index.html">Entrada web de Fase I</a></p>
+            </article>
+            <article>
+              <h3>Fase II — IMMUNO-2</h3>
+              <p class="muted">Nace de necesidades detectadas después de IMMUNO-1 y arrastra ya configuración, motor y compositor.</p>
+              <p><a href="./fase_2/index.html">Entrada web de Fase II</a></p>
+            </article>
+          </div>
+        </section>
+
+        <section class="card card-section" id="superficies-de-uso">
+          <h2>Superficies de uso</h2>
+          <nav class="quick-tabs" aria-label="Accesos rápidos del agente">
+            <a class="active" href="./index.html">Agente</a>
+            <a href="../../aplicaciones/demo_wasm/index.html">IMMUNO-1 interactivo</a>
+            <a href="../../aplicaciones/demo_wasm/compositor.html">Compositor</a>
+            <a href="../../aplicaciones/demo_web/index.html">Demo JS</a>
+            <a href="../../aplicaciones/cliente_kotlin/index.html">Cliente Kotlin</a>
+          </nav>
+        </section>
+
+        <section class="card links card-section" id="accesos-rapidos">
+          <h2>Accesos rápidos</h2>
           <a href="../../aplicaciones/demo_wasm/index.html">
             <strong>IMMUNO-1 interactivo</strong>
             <span class="muted">Superficie WASM actualmente asociada a la Fase I.</span>
@@ -208,48 +221,31 @@
             <strong>Cliente Kotlin</strong>
             <span class="muted">Formulario interactivo del frente publicado.</span>
           </a>
-        </article>
+        </section>
 
-        <article class="note">
-          La presente subpuerta no sustituye ni la publicación canónica del frente ni el contenido técnico ya absorbido
-          en la sede del agente. Su función es editorial, orientadora y de comprensión humana.
-        </article>
-      </section>
-
-      <aside class="stack">
-        <article class="card">
-          <h3>Fase I — IMMUNO-1</h3>
-          <p class="muted">Corresponde al frente históricamente publicado y sigue siendo la puerta más madura del agente.</p>
-          <p><a href="./fase_1/index.html">Entrada web de Fase I</a></p>
-        </article>
-
-        <article class="card">
-          <h3>Fase II — IMMUNO-2</h3>
-          <p class="muted">Nace de necesidades detectadas después de IMMUNO-1 y arrastra ya configuración, motor y compositor.</p>
-          <p><a href="./fase_2/index.html">Entrada web de Fase II</a></p>
-        </article>
-
-        <article class="card">
-          <h3>Custodia basal del diseño</h3>
-          <p class="muted">
-            Ninguna fase nueva ni ningún artefacto sensible del agente debe consolidarse al margen de la custodia basal del diseño.
-          </p>
+        <section class="card card-section" id="custodia-basal">
+          <h2>Custodia basal</h2>
+          <p class="muted">Ninguna fase nueva ni ningún artefacto sensible del agente debe consolidarse al margen de la custodia basal del diseño.</p>
           <p><a href="https://github.com/juantoniolloretegea/SVperitus-dataset/blob/main/especificaciones/custodia_basal_del_diseno/README.md" target="_blank" rel="noopener noreferrer">Ver pieza de custodia basal</a></p>
-        </article>
+        </section>
 
-        <article class="card">
-          <h3>Relación con la capa histórica</h3>
-          <p class="muted">
-            Mientras no se complete la migración final, la capa histórica del frente sigue compareciendo en <code>dominios/inmunologia/</code>.
-          </p>
+        <section class="card card-section" id="sede-historica">
+          <h2>Sede histórica</h2>
+          <p class="muted">Mientras no se complete la migración final, la capa histórica del frente sigue compareciendo en <code>dominios/inmunologia/</code>.</p>
           <p><a href="../../dominios/inmunologia/">Sede histórica transitoria</a></p>
-        </article>
-      </aside>
+        </section>
+
+        <section class="note">
+          La presente subpuerta no sustituye ni la publicación canónica del frente ni el contenido técnico ya absorbido en la sede del agente.
+          Su función es editorial, orientadora y de comprensión humana.
+        </section>
+      </main>
     </div>
 
     <footer>
       Agente especializado en Inmunología · Subpuerta local en sede canónica · SVperitus
     </footer>
+    <div class="footer-meta">Autor: Juan Antonio Lloret Egea | ORCID: 0000-0002-6634-3351 | Sello editorial: Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | Publicación: IA eñ™ – La Biblia de la IA™ | ISSN: 2695-6411 | Licencia: CC BY-NC-ND 4.0</div>
   </div>
 </body>
 </html>
