@@ -19,8 +19,8 @@ REGLA DURA DE IMPLEMENTACIÓN
   Nunca se imputa "0" por defecto ante ausencia de datos.
 
 ESTADO DEL MOTOR
-  v0.1 — Capa 1 revisada en profundidad. Capas 2–5 con criterios
-  preliminares, pendientes de cotejo individual.
+  v0.1 — Capa 1 revisada en profundidad. Capas 2–5 en revisión
+  especializada.
   Abierto a revisión adversarial.
 
 POBLACIÓN DIANA
@@ -245,7 +245,7 @@ def P05(case: dict) -> Ternary:
 # ══════════════════════════════════════════════════════════════════════════════
 # CAPA 2 — CARGA Y TIPO DE INMUNOSUPRESIÓN (P06–P10)
 # Ref principal: ORAL Surveillance (NEJM 2022), Curtis 2012, Singh 2015
-# Estado: criterios preliminares, pendientes de cotejo
+# Estado: criterios iniciales en revisión especializada
 # ══════════════════════════════════════════════════════════════════════════════
 
 def P06(case: dict) -> Ternary:
@@ -394,7 +394,7 @@ def P10(case: dict) -> Ternary:
 # ══════════════════════════════════════════════════════════════════════════════
 # CAPA 3 — BARRERAS, DISPOSITIVOS Y ANATOMÍA CRÍTICA (P11–P15)
 # Ref principal: Fishman 2017, IDSA guidelines
-# Estado: criterios preliminares, pendientes de cotejo
+# Estado: criterios iniciales en revisión especializada
 # ══════════════════════════════════════════════════════════════════════════════
 
 def P11(case: dict) -> Ternary:
@@ -501,7 +501,7 @@ def P15(case: dict) -> Ternary:
 # ══════════════════════════════════════════════════════════════════════════════
 # CAPA 4 — EXPOSICIÓN EPIDEMIOLÓGICA DOCUMENTABLE (P16–P20)
 # Ref principal: Fishman 2017, IDSA 2024 AMR guidance, EULAR 2022
-# Estado: criterios preliminares, pendientes de cotejo
+# Estado: criterios iniciales en revisión especializada
 # ══════════════════════════════════════════════════════════════════════════════
 
 def P16(case: dict) -> Ternary:
@@ -602,7 +602,7 @@ def P20(case: dict) -> Ternary:
 
 # ══════════════════════════════════════════════════════════════════════════════
 # CAPA 5 — PROTECCIÓN RESIDUAL, HISTORIA INFECCIOSA Y PUENTE IMMUNO-1 (P21–P25)
-# Estado: criterios preliminares, pendientes de cotejo
+# Estado: criterios iniciales en revisión especializada
 # ══════════════════════════════════════════════════════════════════════════════
 
 def P21(case: dict) -> Ternary:
