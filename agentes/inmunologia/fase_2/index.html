@@ -1,98 +1,388 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Agente especializado en Inmunología — Fase II — SVperitus</title>
-  <meta name="description" content="Entrada web de la Fase II del Agente especializado en Inmunología dentro de SVperitus." />
-  <style>
-    :root{
-      --sepia:#f5efe3;
-      --sepia-deep:#efe4d1;
-      --ink:#17130d;
-      --muted:#4e4538;
-      --accent:#4e6b3a;
-      --accent-soft:#dfe7d5;
-      --line:#cbbda6;
-      --card:#fbf6ee;
-      --shadow:0 10px 30px rgba(25,20,12,.08);
-      --radius:18px;
-      --max:1120px;
-    }
-    *{box-sizing:border-box}
-    body{margin:0;background:var(--sepia);color:var(--ink);font-family:ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;line-height:1.55}
-    a{color:inherit}
-    .wrap{max-width:var(--max);margin:0 auto;padding:20px 18px 44px}
-    .crumbs{font-size:.95rem;color:var(--muted);margin-bottom:14px}
-    .hero{background:linear-gradient(180deg,var(--card),var(--sepia-deep));border:1px solid var(--line);border-left:8px solid var(--accent);border-radius:24px;box-shadow:var(--shadow);padding:22px 22px 18px}
-    .badge{display:inline-block;font-size:.83rem;letter-spacing:.03em;text-transform:uppercase;color:var(--accent);background:var(--accent-soft);border:1px solid rgba(78,107,58,.25);padding:6px 10px;border-radius:999px;margin-bottom:10px}
-    h1{font-size:clamp(1.9rem,4vw,2.8rem);margin:.1rem 0 .7rem;line-height:1.1}
-    .lede{font-size:1.08rem;max-width:62rem;margin:0 0 1rem}
-    .status{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:18px}
-    .status article,.card{background:rgba(255,255,255,.42);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px}
-    .status h3,.card h3{margin:.1rem 0 .35rem;font-size:1.05rem}
-    .muted{color:var(--muted)}
-    nav.tabs{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 22px}
-    .tab{text-decoration:none;padding:10px 14px;border-radius:999px;border:1px solid var(--line);background:#fbf7f0;box-shadow:0 1px 0 rgba(0,0,0,.02);font-size:.98rem}
-    .tab.active{border-color:var(--accent);box-shadow:inset 0 -3px 0 var(--accent);background:#f8f3ea;font-weight:700}
-    .grid{display:grid;grid-template-columns:1.15fr .85fr;gap:18px}
-    .stack{display:grid;gap:18px}
-    ul{margin:.4rem 0 0 1.2rem;padding:0}
-    li+li{margin-top:.35rem}
-    .links a{display:block;text-decoration:none;background:#fff9f0;border:1px solid var(--line);border-left:5px solid var(--accent);border-radius:14px;padding:12px 13px;margin:10px 0 0}
-    .links strong{display:block}
-    .note{background:#faf5ea;border:1px solid var(--line);border-left:6px solid var(--accent);border-radius:16px;padding:14px 16px;color:var(--muted)}
-    code{background:#f0e7d8;padding:.1rem .35rem;border-radius:6px}
-    footer{margin-top:24px;color:var(--muted);font-size:.94rem;text-align:center}
-    @media (max-width:800px){.grid{grid-template-columns:1fr}.wrap{padding:14px 12px 32px}.hero{padding:18px 16px 14px}nav.tabs{gap:8px}.tab{width:100%;text-align:center}}
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Agente especializado en Inmunología — Fase II — SVperitus</title>
+<style>
+:root {
+  --bg: #f3ede3;
+  --card: #fbf6ee;
+  --text: #20170f;
+  --muted: #5e4b39;
+  --line: #d2c2ab;
+  --soft: #efe7da;
+  --accent: #57783b;
+  --accent-soft: #dbe6cf;
+  --shadow: 0 10px 24px rgba(46, 34, 21, 0.08);
+  --radius: 22px;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: ui-serif, Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.55;
+}
+a { color: #6b4321; text-decoration: none; }
+a:hover { text-decoration: underline; }
+code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .95em; }
+.wrap {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 22px 40px;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  backdrop-filter: blur(10px);
+  background: rgba(243,237,227,0.92);
+  border-bottom: 1px solid var(--line);
+}
+.topbar {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 18px;
+  padding: 18px 22px;
+  max-width: 1280px;
+  margin: 0 auto;
+  align-items: start;
+}
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+h1 {
+  margin: 0;
+  font-size: clamp(24px, 4vw, 38px);
+  line-height: 1.12;
+}
+.lead {
+  margin: 10px 0 0;
+  color: var(--muted);
+  max-width: 980px;
+}
+.hero-actions, .actions {
+  display: flex;
+  gap: 10px;
+}
+.hero-actions {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.actions { flex-wrap: wrap; }
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 11px 15px;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: #fffaf3;
+  color: var(--text);
+  box-shadow: var(--shadow);
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.btn:hover { text-decoration: none; transform: translateY(-1px); }
+.btn.primary {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+.layout {
+  display: grid;
+  grid-template-columns: 280px minmax(0,1fr);
+  gap: 24px;
+  margin-top: 28px;
+}
+aside {
+  position: sticky;
+  top: 98px;
+  align-self: start;
+}
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.menu { padding: 18px; }
+.menu h2 { margin: 0 0 12px; font-size: 18px; }
+.menu a {
+  display: block;
+  padding: 10px 12px;
+  border-radius: 12px;
+  color: var(--text);
+}
+.menu a:hover, .menu a.active {
+  background: var(--soft);
+  text-decoration: none;
+}
+main { display: grid; gap: 20px; }
+section { padding: 24px; }
+h2 {
+  margin: 0;
+  font-size: clamp(22px, 3vw, 28px);
+  line-height: 1.18;
+}
+h3 { margin: 0 0 10px; font-size: 22px; line-height: 1.2; }
+.muted { color: var(--muted); }
+.kicker {
+  display: inline-flex;
+  width: fit-content;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-size: 13px;
+  color: var(--muted);
+  background: #fffaf3;
+  margin-bottom: 14px;
+}
+.grid-2 {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 18px;
+}
+.grid-4 {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 18px;
+}
+.mini {
+  background: var(--soft);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 16px;
+}
+.mini .k {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 7px;
+}
+.note {
+  padding: 16px 18px;
+  border-left: 6px solid var(--accent);
+  border: 1px solid rgba(87,120,59,0.22);
+  border-radius: 18px;
+  background: var(--accent-soft);
+}
+.list {
+  margin: 10px 0 0 20px;
+  padding: 0;
+}
+.list li { margin: 8px 0; }
+.asset-list {
+  display:grid;
+  gap:10px;
+  margin-top:12px;
+}
+.asset {
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--soft);
+}
+.asset-title { font-weight: 700; margin-bottom: 4px; }
+.footer-main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 12px 22px 4px;
+  font-size: 13px;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow-x: auto;
+  border-top: 1px solid var(--line);
+}
+.footer-meta {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 22px 12px;
+  font-size: 8px;
+  line-height: 1.35;
+  color: var(--muted);
+  text-wrap: pretty;
+}
+@media (max-width: 1024px) {
+  .layout { grid-template-columns: 1fr; }
+  aside { position: static; }
+  .grid-4 { grid-template-columns: repeat(2, minmax(0,1fr)); }
+}
+@media (max-width: 760px) {
+  .topbar { grid-template-columns: 1fr; }
+  .hero-actions { justify-content: flex-start; }
+  .grid-2, .grid-4 { grid-template-columns: 1fr; }
+  section { padding: 20px; }
+}
 </style>
 </head>
 <body>
-  <div class="wrap">
-    <div class="crumbs">SVperitus / agentes / inmunologia / fase_2</div>
-    <section class="hero">
-      <span class="badge">Entrada web de fase</span>
+<header>
+  <div class="topbar">
+    <div>
+      <div class="eyebrow">Puerta de fase</div>
       <h1>Agente especializado en Inmunología — Fase II</h1>
-      <p class="lede">Esta entrada resume la Fase II del frente inmunológico de SVperitus. Su función es explicar por qué comparece esta fase, qué material ya ha absorbido la sede canónica y cómo se relaciona con el compositor y con la capa histórica todavía no retirada.</p>
-      <div class="status">
-        <article><h3>Nombre histórico</h3><p class="muted"><strong>IMMUNO-2</strong></p></article>
-        <article><h3>Objeto</h3><p class="muted">Riesgo infeccioso en inmunosupresión farmacológica no trasplante.</p></article>
-        <article><h3>Configuración</h3><p class="muted"><code>SV(25,5)</code> con <code>T(25)=19</code>.</p></article>
-        <article><h3>Estado</h3><p class="muted">Materializada en repositorio y pendiente de publicación específica propia.</p></article>
-      </div>
-    </section>
-    <nav class="tabs" aria-label="Accesos de fase">
-      <a class="tab" href="../index.html">Agente</a>
-      <a class="tab" href="../fase_1/index.html">Fase I</a>
-      <a class="tab active" href="./index.html">Fase II</a>
-      <a class="tab" href="https://github.com/juantoniolloretegea/SVperitus-dataset/blob/main/agentes/inmunologia/fase_2/compositor/README.md" target="_blank" rel="noopener noreferrer">Compositor</a>
-      <a class="tab" href="../../../aplicaciones/demo_wasm/compositor.html">Compositor web</a>
-    </nav>
-    <div class="grid">
-      <section class="stack">
-        <article class="card">
-          <h3>Qué representa esta fase</h3>
-          <ul>
-            <li>nace de necesidades detectadas tras la maduración posterior a <code>IMMUNO-1</code>;</li>
-            <li>no es una prolongación ornamental, sino un frente propio del mismo agente;</li>
-            <li>arrastra un artefacto específico: el compositor;</li>
-            <li>permanece bajo custodia basal del diseño.</li>
-          </ul>
-        </article>
-        <article class="card links">
-          <h3>Artefactos vivos actualmente asociados</h3>
-          <a href="../../../aplicaciones/demo_wasm/compositor.html"><strong>Compositor serie IMMUNO-1 → IMMUNO-2</strong><span class="muted">Superficie web asociada hoy a la Fase II.</span></a>
-          <a href="https://github.com/juantoniolloretegea/SVperitus-dataset/blob/main/agentes/inmunologia/fase_2/compositor/README.md" target="_blank" rel="noopener noreferrer"><strong>Compositor como artefacto de fase</strong><span class="muted">Lectura canónica del compositor desde la sede del agente.</span></a>
-        </article>
-        <article class="note">La Fase II no debe leerse como agente nuevo, ni como fase empresarial separada, ni como módulo autónomo. Su estatuto correcto es el de fase del mismo agente inmunológico.</article>
-      </section>
-      <aside class="stack">
-        <article class="card"><h3>Material ya absorbido</h3><ul><li><code>publicacion/README.md</code></li><li><code>IMMUNO2_P01-P25_spec.md</code></li><li><code>config/imm2_n25.yaml</code></li><li><code>src/normative_engine.py</code></li><li><code>compositor/compose.py</code></li></ul></article>
-        <article class="card"><h3>Relación con la capa histórica</h3><p class="muted">Mientras no se complete la retirada del cascarón histórico, la continuidad material del frente sigue compareciendo también en <code>dominios/inmunologia/fase_2/</code>.</p></article>
-        <article class="card"><h3>Custodia basal</h3><p class="muted">Toda evolución posterior de esta fase, de su compositor o de sus artefactos sensibles debe mantenerse bajo custodia basal del diseño.</p></article>
-      </aside>
+      <p class="lead">Esta página ordena la lectura humana de la Fase II del frente inmunológico de SVperitus. Su función es fijar estatuto, relación con el compositor y continuidad con la capa histórica desde la sede canónica del agente.</p>
     </div>
-    <footer>Agente especializado en Inmunología · Fase II · Entrada web local en sede canónica</footer>
+    <div class="hero-actions">
+      <a class="btn" href="../index.html">Puerta del agente</a>
+      <a class="btn" href="../../../index.html">Puerta general de SVperitus</a>
+    </div>
   </div>
+</header>
+
+<div class="wrap">
+  <div class="layout">
+    <aside>
+      <div class="card menu">
+        <h2>Fase II</h2>
+        <a href="#vision">Fase II</a>
+        <a href="#estatuto">Estatuto actual</a>
+        <a href="#representa">Qué representa esta fase</a>
+        <a href="#superficies">Artefactos vivos</a>
+        <a href="#historica">Relación histórica</a>
+        <a href="#custodia">Custodia basal</a>
+        <a href="#accesos">Accesos rápidos</a>
+      </div>
+    </aside>
+
+    <main>
+      <section id="vision" class="card">
+        <div class="kicker">Fase materializada</div>
+        <h2>Qué hace hoy esta fase</h2>
+        <p class="muted">La Fase II debe leerse como segunda fase materializada del mismo agente inmunológico. Comparece por necesidades detectadas tras IMMUNO-1 y arrastra como artefacto específico al compositor.</p>
+        <div class="actions" style="margin-top:18px;">
+          
+<a class="btn primary" href="https://github.com/juantoniolloretegea/SVperitus-dataset/blob/main/agentes/inmunologia/fase_2/README.md" target="_blank" rel="noopener noreferrer">README de fase</a>
+<a class="btn" href="../../../aplicaciones/demo_wasm/compositor.html">Compositor web</a>
+<a class="btn" href="https://github.com/juantoniolloretegea/SVperitus-dataset/tree/main/agentes/inmunologia/fase_2/compositor" target="_blank" rel="noopener noreferrer">GitHub compositor</a>
+<a class="btn" href="../fase_1/index.html">Fase I</a>
+
+        </div>
+        <div class="grid-4">
+          
+<div class="mini"><div class="k">Nombre histórico</div><div>IMMUNO-2</div></div>
+<div class="mini"><div class="k">Objeto</div><div>Riesgo infeccioso en inmunosupresión farmacológica no trasplante.</div></div>
+<div class="mini"><div class="k">Configuración</div><div><code>SV(25,5)</code> con <code>T(25)=19</code>.</div></div>
+<div class="mini"><div class="k">Estado</div><div>Materializada en repositorio y pendiente de publicación específica propia.</div></div>
+
+        </div>
+      </section>
+
+      <section id="estatuto" class="card">
+        <h2>Estatuto actual</h2>
+        <div class="grid-2">
+          <div class="mini">
+            <div class="k">Lectura de agente</div>
+            <div>La Fase II no debe leerse como agente nuevo, ni como fase empresarial separada, ni como módulo autónomo.</div>
+          </div>
+          <div class="mini">
+            <div class="k">Lectura basal</div>
+            <div>Toda evolución posterior de esta fase, de su compositor o de sus artefactos sensibles debe mantenerse bajo custodia basal del diseño.</div>
+          </div>
+        </div>
+        <div class="note" style="margin-top:18px;">
+          <strong>Regla de alcance.</strong> Esta entrada web explica por qué comparece esta fase, qué material ya ha absorbido la sede canónica y cómo se relaciona con el compositor y con la capa histórica todavía no retirada.
+        </div>
+      </section>
+
+      <section id="representa" class="card">
+        <h2>Qué representa esta fase</h2>
+        <ul class="list">
+          <li>nace de necesidades detectadas tras la maduración posterior a <code>IMMUNO-1</code>;</li>
+<li>no es una prolongación ornamental, sino un frente propio del mismo agente;</li>
+<li>arrastra un artefacto específico: el compositor;</li>
+<li>permanece bajo custodia basal del diseño.</li>
+        </ul>
+      </section>
+
+      <section id="superficies" class="card">
+        <h2>Artefactos vivos actualmente asociados</h2>
+        <div class="grid-2">
+          <article class="mini">
+  <h3>Compositor serie IMMUNO-1 → IMMUNO-2</h3>
+  <p class="muted" style="margin:0;">Superficie web asociada hoy a la Fase II.</p>
+  <div class="actions" style="margin-top:18px;"><a class="btn primary" href="../../../aplicaciones/demo_wasm/compositor.html">Abrir</a></div>
+</article>
+<article class="mini">
+  <h3>Compositor como artefacto de fase</h3>
+  <p class="muted" style="margin:0;">Lectura canónica del compositor desde la sede del agente.</p>
+  <div class="actions" style="margin-top:18px;"><a class="btn" href="https://github.com/juantoniolloretegea/SVperitus-dataset/tree/main/agentes/inmunologia/fase_2/compositor" target="_blank" rel="noopener noreferrer">GitHub compositor</a></div>
+</article>
+<article class="mini">
+  <h3>Puerta de Fase I</h3>
+  <p class="muted" style="margin:0;">Acceso directo a la primera fase materializada del mismo agente.</p>
+  <div class="actions" style="margin-top:18px;"><a class="btn" href="../fase_1/index.html">Abrir Fase I</a></div>
+</article>
+<article class="mini">
+  <h3>Puerta del agente</h3>
+  <p class="muted" style="margin:0;">Retorno a la puerta general del frente inmunológico dentro de la sede aplicada.</p>
+  <div class="actions" style="margin-top:18px;"><a class="btn" href="../index.html">Abrir agente</a></div>
+</article>
+        </div>
+      </section>
+
+      <section id="historica" class="card">
+        <h2>Relación con la capa histórica</h2>
+        <p class="muted">Mientras no se complete la retirada del cascarón histórico, la continuidad material del frente sigue compareciendo también en <code>dominios/inmunologia/</code>.</p>
+        <div class="actions" style="margin-top:18px;">
+          <a class="btn" href="../../../dominios/inmunologia/index.html">Abrir señal histórica</a>
+        </div>
+      </section>
+
+      <section id="custodia" class="card">
+        <h2>Custodia basal</h2>
+        <p class="muted">Toda evolución posterior de esta fase, de su compositor o de sus artefactos sensibles debe mantenerse bajo custodia basal del diseño.</p>
+        <div class="actions" style="margin-top:18px;">
+          <a class="btn primary" href="https://github.com/juantoniolloretegea/SVperitus-dataset/blob/main/especificaciones/custodia_basal_del_diseno/README.md" target="_blank" rel="noopener noreferrer">Ver pieza de custodia basal</a>
+        </div>
+      </section>
+
+      <section id="accesos" class="card">
+        <h2>Accesos rápidos</h2>
+        <div class="grid-2">
+          <div class="mini">
+  <div class="k">Fase</div>
+  <div class="actions"><a class="btn" href="../index.html">Agente</a><a class="btn" href="../fase_1/index.html">Fase I</a><a class="btn primary" href="./index.html">Fase II</a></div>
+</div>
+<div class="mini">
+  <div class="k">Artefactos</div>
+  <div class="actions"><a class="btn" href="../../../aplicaciones/demo_wasm/compositor.html">Compositor web</a><a class="btn" href="https://github.com/juantoniolloretegea/SVperitus-dataset/tree/main/agentes/inmunologia/fase_2/compositor" target="_blank" rel="noopener noreferrer">GitHub compositor</a></div>
+</div>
+        </div>
+      </section>
+    </main>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-main">Agente especializado en Inmunología · Fase II · Entrada web local en sede canónica</div>
+  <div class="footer-meta">Autor: Juan Antonio Lloret Egea | ORCID: 0000-0002-6634-3351 | Sello editorial: Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | Publicación: IA eñ™ – La Biblia de la IA™ | ISSN: 2695-6411 | Licencia: CC BY-NC-ND 4.0</div>
+</footer>
+
+<script>
+const menuLinks = document.querySelectorAll('.menu a');
+const sections = [...document.querySelectorAll('main section')];
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      const id = entry.target.getAttribute('id');
+      menuLinks.forEach((a) => a.classList.toggle('active', a.getAttribute('href') === '#' + id));
+    }
+  });
+}, { threshold: 0.35 });
+sections.forEach((section) => observer.observe(section));
+</script>
 </body>
 </html>
