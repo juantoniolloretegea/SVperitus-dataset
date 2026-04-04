@@ -1,5 +1,18 @@
 # Control de calidad mínimo de SVperitus
 
+**Fecha y Versión: V.1 del conjunto**  
+**Fecha:** 4 de abril de 2026  
+**Versión del conjunto:** V.1 del conjunto  
+**Autor del corpus:** Juan Antonio Lloret Egea  
+**ORCID:** 0000-0002-6634-3351  
+**Institución:** ITVIA — IA eñ™  
+**ISSN:** 2695-6411  
+**Licencia:** CC BY-NC-ND 4.0  
+**Titularidad y autoría:** © Juan Antonio Lloret Egea, 2026. Este conjunto se distribuye con atribución explícita de autoría y bajo la licencia indicada, sin autorización para apropiación de la paternidad intelectual del Sistema Vectorial SV.  
+
+---
+
+
 Este bloque reúne los instrumentos mínimos de control interno de `SVperitus`.
 
 Su finalidad es dejar trazabilidad local, suficiente y sobria del estado de agentes, fases, artefactos, cierres y deuda del repositorio, sin duplicar la logística técnica de `SV-lenguaje-de-computacion` ni desplazar la autoridad doctrinal de `SV-matematica-semantica`.

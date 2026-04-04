@@ -806,3 +806,45 @@ descrita en la Sección 10.1.
 hasta SVperitus: agentes especializados». ISSN 2695-6411.*
 
 *Juan Antonio Lloret Egea | ORCID 0000-0002-6634-3351 | CC BY-NC-ND 4.0*
+
+---
+
+## Apéndice A — Lección Watson aplicada a IMMUNO-1
+
+### A.1 Objeto
+
+Este apéndice registra formalmente las lecciones del caso IBM Watson for Oncology y su aplicación directa al diseño del motor normativo IMMUNO-1. No modifica el corpus algebraico del SV. Su función es doctrinal y preventiva.
+
+### A.2 El caso IBM Watson for Oncology / MSKCC
+
+IBM Watson for Oncology fue entrenado en colaboración con Memorial Sloan Kettering Cancer Center (MSKCC). Documentos internos de IBM revelaron que el sistema emitió recomendaciones de tratamiento oncológico "inseguras e incorrectas", incluida la recomendación de bevacizumab a un paciente con cáncer de pulmón y riesgo alto de hemorragia severa —contraindicación establecida en las guías NCCN. El sistema invirtió 62 millones de dólares sin llegar a tratar un solo paciente en producción real.
+
+**Fuentes:**
+- Schmidt C. MD Anderson Breaks With IBM Watson. J Natl Cancer Inst. 2017;109(5):djx113. DOI:10.1093/jnci/djx113
+- Strickland E. How IBM Watson Overpromised and Underdelivered. IEEE Spectrum. 2019;56(4):24–31. DOI:10.1109/MSPEC.2019.8910661
+
+**Mecanismo causal:** entrenamiento con casos sintéticos de un grupo restringido de médicos, sin representatividad real, sin guías actualizadas, sin mecanismo de incertidumbre honesta, y con producción de recomendaciones de tratamiento como si fuera autoridad clínica.
+
+### A.3 Inversiones estructurales en IMMUNO-1
+
+| Fallo Watson | Inversión IMMUNO-1 |
+|---|---|
+| Recomendaba tratamientos | κ₃ clasifica el vector; nunca prescribe |
+| Entrenado con casos sintéticos sesgados | Reglas P01–P25 derivadas de guías ECIL, ESCMID, IDSA |
+| Sin incertidumbre honesta | U algebraicamente forzada; regla dura: campo ausente → U, nunca 0 por defecto |
+| Caja negra no auditable | Motor determinista; 25 funciones documentadas con partición explícita |
+| Sustituía al médico | Soberanía clínica estructural; prótesis cognitiva auxiliar por definición explícita |
+| NLP sobre notas desestructuradas | Observables declarados explícitamente; sin extracción de narrativa libre |
+
+### A.4 Relación con el pack de garantías del ecosistema
+
+El documento completo de análisis de fallos documentados, con todos los casos (Epic Sepsis Model, sesgo racial, COVID models, underdiagnosis bias) y referencias bibliográficas verificadas, se encuentra en:
+
+`SV-motor-main/docs/arquitectura/11_lecciones_de_fallos_documentados_y_garantias_del_sv.md`
+
+y en el pack garante:
+
+`SV-motor-main/docs/arquitectura/12_pack_garante_sv_ia_y_garantias_globales.md`
+
+*Apéndice A incorporado el 4 de abril de 2026. DV-PERITUS-001 CERRADA.*  
+*Juan Antonio Lloret Egea | ORCID: 0000-0002-6634-3351 | ITVIA — IA eñ™ | ISSN: 2695-6411*

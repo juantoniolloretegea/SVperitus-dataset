@@ -179,7 +179,8 @@ dataset:
 # Parámetros de entrenamiento (ResNet34)
 # ----------------------------------------------------------
 training:
-  architecture: resnet34
+  architecture: convnext_tiny
+  historical_baseline: resnet34
   pretrained: true
   epochs: 30
   batch_size: 32

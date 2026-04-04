@@ -9,10 +9,10 @@ Uso:
 Ajusta sys.path para que los tests de especificaciones/conformidad/
 encuentren los módulos distribuidos por el repositorio:
 
-    normative_engine  ← dominios/inmunologia/fase_2/src/
+    normative_engine  ← agentes/inmunologia/fase_2/src/
     gamma             ← comun/
     meta_engine       ← meta/
-    compose           ← dominios/inmunologia/compositor/
+    compose           ← agentes/inmunologia/fase_2/compositor/
 
 Autor: Juan Antonio Lloret Egea · ORCID 0000-0002-6634-3351
 ISSN 2695-6411 · CC BY-NC-ND 4.0
@@ -27,10 +27,10 @@ import traceback
 ROOT = os.path.dirname(os.path.abspath(__file__))
 
 PATHS = [
-    os.path.join(ROOT, "dominios", "inmunologia", "fase_2", "src"),
+    os.path.join(ROOT, "agentes", "inmunologia", "fase_2", "src"),
     os.path.join(ROOT, "comun"),
     os.path.join(ROOT, "meta"),
-    os.path.join(ROOT, "dominios", "inmunologia", "compositor"),
+    os.path.join(ROOT, "agentes", "inmunologia", "fase_2", "compositor"),
     os.path.join(ROOT, "especificaciones", "conformidad"),
 ]
 
@@ -46,10 +46,10 @@ print()
 
 modules_ok = True
 for mod_name, expected_path in [
-    ("normative_engine", "dominios/inmunologia/fase_2/src/"),
+    ("normative_engine", "agentes/inmunologia/fase_2/src/"),
     ("gamma", "comun/"),
     ("meta_engine", "meta/"),
-    ("compose", "dominios/inmunologia/compositor/"),
+    ("compose", "agentes/inmunologia/fase_2/compositor/"),
 ]:
     try:
         m = importlib.import_module(mod_name)

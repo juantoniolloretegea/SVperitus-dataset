@@ -1,5 +1,18 @@
 # Meta-célula SV(9,3)-IA
 
+**Fecha y Versión: V.1 del conjunto**  
+**Fecha:** 4 de abril de 2026  
+**Versión del conjunto:** V.1 del conjunto  
+**Autor del corpus:** Juan Antonio Lloret Egea  
+**ORCID:** 0000-0002-6634-3351  
+**Institución:** ITVIA — IA eñ™  
+**ISSN:** 2695-6411  
+**Licencia:** CC BY-NC-ND 4.0  
+**Titularidad y autoría:** © Juan Antonio Lloret Egea, 2026. Este conjunto se distribuye con atribución explícita de autoría y bajo la licencia indicada, sin autorización para apropiación de la paternidad intelectual del Sistema Vectorial SV.  
+
+---
+
+
 Célula de integridad del sistema de inteligencia artificial. 9 parámetros (3 capas × 3). T(9) = 7.
 
 No editable por el usuario. Determinada automáticamente por el sistema en producción. En el demostrador web existe un botón de simulación de intrusión con fines didácticos.
