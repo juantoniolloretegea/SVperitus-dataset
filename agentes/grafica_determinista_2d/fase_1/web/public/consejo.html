@@ -102,7 +102,7 @@ const PNAMES={P01:'Modo operativo',P02:'Tipo de fuente',P03:'Integridad de entra
   P24:'Pureza de frontera',P25:'Reproducibilidad laboratorial'};
 
 // ── Estado global ────────────────────────────────────────────────────────────
-let DATA=null, EXP=null, OVERRIDES=[];
+let DATA=null, EXP=null, OVERRIDES=[], REGISTERED=new Set();
 
 // ── Carga ────────────────────────────────────────────────────────────────────
 window.addEventListener('load',()=>{
@@ -350,11 +350,13 @@ function renderPkTable(){
         '<button class="kb'+(cur==='1'?' a1':'')+'" onclick="tgl('+idx+',\'1\')">1</button>'+
       '</div></td>'+
       '<td>'+
-        (isCrit
-          ? (changed
-              ? '<button class="ovr-btn" onclick="registerOverride('+idx+')">&#10003; Registrar override</button>'
-              : '<button class="ovr-btn" disabled style="opacity:.4" title="Modifique el valor de exploración para activar">Registrar override</button>')
-          : '<span style="font-size:.68rem;color:#ced4da">—</span>')+
+        (changed
+          ? (REGISTERED.has(idx+'|'+cur)
+              ? '<button class="ovr-btn" disabled style="opacity:.35" title="Override ya registrado para este valor">&#10003; Registrado</button>'
+              : '<button class="ovr-btn" onclick="registerOverride('+idx+')">&#10003; Registrar override</button>')
+          : (isCrit
+              ? '<button class="ovr-btn" disabled style="opacity:.35" title="Modifique el valor para activar">Registrar override</button>'
+              : '<span style="font-size:.68rem;color:#ced4da">—</span>'))+
       '</td>';
     tbody.appendChild(tr);
   });
@@ -363,6 +365,11 @@ function renderPkTable(){
 // ── Toggle exploración ───────────────────────────────────────────────────────
 function tgl(idx,val){
   if(EXP[idx].value_k3===val)return;
+  // Limpiar registro previo para este índice si el valor cambia
+  // (el experto puede cambiar de opinión y registrar el nuevo valor)
+  for(const k of [...REGISTERED]){
+    if(k.startsWith(idx+'|')) REGISTERED.delete(k);
+  }
   EXP[idx]={...EXP[idx],value_k3:val};
   renderPolys(); updateDictLive(); renderPkTable();
 }
@@ -373,7 +380,7 @@ function registerOverride(idx){
   const orig=DATA.frame[idx].value_k3;
   const newVal=EXP[idx].value_k3;
   if(orig===newVal)return;
-  if(orig==='0'){alert('Solo se puede registrar override en parámetros críticos (original ≠ 0).'); return;}
+
 
   const dictOrig=dictamen(DATA.frame);
   const dictNew=dictamen(EXP);
@@ -396,6 +403,7 @@ function registerOverride(idx){
     nota:'Override soberano documentado. '+(cambiaDict?'CAMBIO DE DICTAMEN: '+dictOrig+' → '+dictNew+'. ':'')+'Fase 1: registro documental. Aplicación de override: Fase 2.'
   };
   OVERRIDES.push(evt);
+  REGISTERED.add(idx+'|'+newVal);  // bloquear re-registro del mismo cambio
   appendBanco(evt);
   renderPkTable();
 }
