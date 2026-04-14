@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Consejo del Agente 2D · AE-GD2-SV · Fase 1</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#f0f4f8;color:#1a2535;font-size:14px}
+header{background:#0f3460;color:#fff;padding:1rem 2rem;border-bottom:3px solid #e94560}
+header h1{font-size:1.15rem;font-weight:700}
+header .meta{font-size:.75rem;opacity:.7;margin-top:.25rem}
+.aviso{background:#fff3cd;border-left:4px solid #ffc107;padding:.7rem 1.2rem;margin:.8rem 1.5rem;border-radius:4px;font-size:.8rem;line-height:1.5}
+.aviso strong{color:#856404}
+main{display:grid;grid-template-columns:1fr 1fr;gap:1rem;padding:.8rem 1.5rem 2rem;max-width:1400px;margin:0 auto}
+.card{background:#fff;border-radius:8px;padding:1rem 1.2rem;box-shadow:0 2px 6px rgba(0,0,0,.07)}
+.card.wide{grid-column:1/-1}
+.card.azul{border-left:4px solid #0f3460}
+h2{font-size:.9rem;font-weight:700;color:#0f3460;margin-bottom:.7rem;padding-bottom:.3rem;border-bottom:1px solid #e9ecef}
+h3{font-size:.8rem;font-weight:600;color:#495057;margin:.6rem 0 .3rem}
+/* Métricas */
+.mg{display:grid;grid-template-columns:repeat(3,1fr);gap:.4rem;margin:.5rem 0}
+.mb{background:#f8f9fa;border-radius:5px;padding:.5rem .6rem;text-align:center}
+.mb .v{font-size:1.1rem;font-weight:700;color:#0f3460;font-family:monospace}
+.mb .l{font-size:.65rem;color:#6c757d;margin-top:.1rem}
+/* Dictamen */
+.dict{display:inline-block;padding:.25rem .8rem;border-radius:16px;font-weight:700;font-size:.85rem;margin:.3rem 0}
+.dict.apto{background:#d4edda;color:#155724}
+.dict.noapto{background:#f8d7da;color:#721c24}
+.dict.indet{background:#fff3cd;color:#856404}
+/* Consejo texto */
+.consejo p{margin-bottom:.6rem;font-size:.85rem;line-height:1.65}
+.consejo .mat{font-family:monospace;background:#f1f3f5;padding:.05rem .3rem;border-radius:3px;font-size:.82rem}
+.consejo .limite{color:#6c757d;font-style:italic;font-size:.78rem;border-top:1px solid #e9ecef;margin-top:.6rem;padding-top:.6rem}
+/* R3 invariante */
+.inv{background:#e8f4fd;border:1px solid #bee5eb;border-radius:5px;padding:.5rem .8rem;margin:.5rem 0;font-size:.78rem}
+.inv strong{color:#0c5460}
+/* Polígonos */
+.polys{display:flex;gap:1.5rem;flex-wrap:wrap;justify-content:center;margin:.5rem 0}
+.polys>div{text-align:center}
+/* Tabla Pk */
+table{width:100%;border-collapse:collapse;font-size:.8rem}
+th{background:#f1f3f5;padding:.4rem .5rem;text-align:left;font-weight:600;border-bottom:2px solid #dee2e6}
+td{padding:.35rem .5rem;border-bottom:1px solid #f1f3f5;vertical-align:middle}
+tr:hover td{background:#f8f9fa}
+.k3b{display:inline-flex;gap:.2rem}
+.kb{padding:.15rem .45rem;border:1px solid #dee2e6;background:#fff;border-radius:3px;cursor:pointer;font-size:.72rem;font-weight:600;transition:background .1s}
+.kb.a0{background:#4CAF50;color:#fff;border-color:#388e3c}
+.kb.a1{background:#F44336;color:#fff;border-color:#c62828}
+.kb.aU{background:#FFC107;color:#333;border-color:#f9a825}
+.kb:hover{filter:brightness(.92)}
+.orig-val{display:inline-block;padding:.15rem .4rem;border-radius:3px;font-weight:700;font-size:.75rem}
+.ov0{background:#4CAF50;color:#fff}.ov1{background:#F44336;color:#fff}.ovU{background:#FFC107;color:#333}
+/* Override btn */
+.ovr-btn{padding:.2rem .6rem;background:#0f3460;color:#fff;border:none;border-radius:3px;cursor:pointer;font-size:.72rem;font-weight:600}
+.ovr-btn:disabled{background:#adb5bd;cursor:default}
+.ovr-btn:not(:disabled):hover{background:#1a4a7a}
+/* Banco */
+.banco{background:#1a2535;color:#a8d8a8;font-family:monospace;font-size:.72rem;padding:.7rem;border-radius:5px;max-height:160px;overflow-y:auto;margin-top:.6rem}
+.banco-row{padding:.1rem 0;border-bottom:1px solid #2d3a4a}
+.badge{display:inline-block;padding:.1rem .4rem;border-radius:8px;font-size:.65rem;font-weight:600}
+.bc{background:#f8d7da;color:#721c24}
+.bdict{color:#ffcc00}
+/* Dominio */
+.dominio{background:#f8f9fa;border:1px dashed #dee2e6;border-radius:5px;padding:.7rem 1rem;color:#6c757d;font-style:italic;font-size:.8rem;margin-top:.5rem}
+</style>
+</head>
+<body>
+<header>
+  <h1>Consejo del Agente 2D · AE-GD2-SV · Fase 1</h1>
+  <div class="meta" id="run-meta">Cargando...</div>
+</header>
+<div class="aviso">
+  <strong>Instrucción de frontera — soberanía humana (Estatuto §5, FTD §VII):</strong>
+  Este panel expone el análisis estructural-matemático del Agente 2D.
+  La interpretación semántica de dominio es responsabilidad exclusiva del experto soberano.
+  La exploración en el polígono interactivo es silenciosa.
+  Solo el experto puede registrar un override informado explícitamente —
+  acto tipado como <code>registrar_override_humano_informado</code> en el universo de sucesos del agente.
+</div>
+
+<main id="main-content">
+  <div class="card"><p style="color:#adb5bd;font-style:italic;text-align:center;padding:2rem">Cargando datos del run...</p></div>
+</main>
+
+<footer style="text-align:center;padding:.8rem;font-size:.7rem;color:#adb5bd;border-top:1px solid #dee2e6;margin-top:1rem">
+  Autor: Juan Antonio Lloret Egea · ORCID: 0000-0002-6634-3351 · ITVIA · IA eñ™ — La Biblia de la IA™ · ISSN 2695-6411 · CC BY-NC-ND 4.0 · Madrid, 14/04/2026
+</footer>
+
+<script>
+// ── Constantes ───────────────────────────────────────────────────────────────
+const H=2.2, RHO={'0':1,'1':2,'U':3};
+const ZFN=s=>s==='U'?H:0;
+const PNAMES={P01:'Modo operativo',P02:'Tipo de fuente',P03:'Integridad de entrada',
+  P04:'Localidad y cuarentena',P05:'Perfil de ejecución',P06:'Clase de figura',
+  P07:'Dominio declarado',P08:'Dimensiones del lienzo',P09:'Salidas requeridas',
+  P10:'Restricciones duras',P11:'Política de título',P12:'Política de footer',
+  P13:'Sistema de paneles',P14:'Sistema de nodos',P15:'Sistema de aristas',
+  P16:'No colisión texto-texto',P17:'Respiración vertical',P18:'Respiración horizontal',
+  P19:'Densidad compositiva',P20:'Canonicidad del SVG',P21:'Trazabilidad append-only',
+  P22:'Confirmación humana soberana',P23:'Coherencia del bundle',
+  P24:'Pureza de frontera',P25:'Reproducibilidad laboratorial'};
+
+// ── Estado global ────────────────────────────────────────────────────────────
+let DATA=null, EXP=null, OVERRIDES=[];
+
+// ── Carga ────────────────────────────────────────────────────────────────────
+window.addEventListener('load',()=>{
+  try{
+    const raw=localStorage.getItem('ae_gd2_sv_consejo');
+    if(!raw){showNoData();return;}
+    DATA=JSON.parse(raw);
+    EXP=DATA.frame.map(p=>({...p}));
+    renderAll();
+  }catch(e){
+    document.getElementById('main-content').innerHTML=
+      '<div class="card wide"><p style="color:red;padding:2rem">Error al cargar: '+e.message+'</p></div>';
+  }
+});
+
+function showNoData(){
+  document.getElementById('main-content').innerHTML=
+    '<div class="card wide"><p style="color:#adb5bd;text-align:center;padding:3rem;font-style:italic">'+
+    'Sin datos de run. Ejecute el agente en el panel principal y vuelva aquí.</p></div>';
+}
+
+// ── Matemáticas ──────────────────────────────────────────────────────────────
+function r3(cell,h){
+  h=h||H; const n=cell.length;
+  const rho=i=>RHO[cell[i].value_k3]||1, z=i=>ZFN(cell[i].value_k3);
+  const th=i=>2*Math.PI*i/n;
+  let L2=0,L3=0,Er=0,sz2=0,kv=0;
+  for(let i=0;i<n;i++){
+    const j=(i+1)%n;
+    const dx=rho(j)*Math.cos(th(j))-rho(i)*Math.cos(th(i));
+    const dy=rho(j)*Math.sin(th(j))-rho(i)*Math.sin(th(i));
+    const dz=z(j)-z(i);
+    L2+=Math.sqrt(dx*dx+dy*dy); L3+=Math.sqrt(dx*dx+dy*dy+dz*dz);
+    const dr=rho(j)-rho(i); Er+=dr*dr; sz2+=z(i)*z(i);
+    if(z(i)!==z(j)) kv++;
+  }
+  return{L2:+L2.toFixed(3),L3:+L3.toFixed(3),dL:+(L3-L2).toFixed(3),
+    Cz:+Math.sqrt(sz2/n).toFixed(3),Erho:+Er.toFixed(3),Ez:+(kv*h*h).toFixed(3),
+    kv,n0:cell.filter(p=>p.value_k3==='0').length,
+    n1:cell.filter(p=>p.value_k3==='1').length,
+    nU:cell.filter(p=>p.value_k3==='U').length};
+}
+
+function dictamen(cell){
+  const T=19;
+  const n0=cell.filter(p=>p.value_k3==='0').length;
+  const n1=cell.filter(p=>p.value_k3==='1').length;
+  if(n1>=T)return'NO APTO'; if(n0>=T)return'APTO'; return'INDETERMINADO';
+}
+
+function dc(d){return d==='APTO'?'apto':d==='NO APTO'?'noapto':'indet';}
+
+// ── SVG polígono ─────────────────────────────────────────────────────────────
+function polySvg(cell,sz){
+  sz=sz||300; const cx=sz/2,cy=sz/2,r0=sz*0.37,n=cell.length;
+  const pts=[],labs=[],cir=[];
+  for(let i=0;i<n;i++){
+    const a=-Math.PI/2+2*Math.PI*i/n;
+    const mul=cell[i].value_k3==='0'?0.75:cell[i].value_k3==='1'?1:0.88;
+    const r=r0*mul,x=cx+r*Math.cos(a),y=cy+r*Math.sin(a);
+    pts.push(x.toFixed(1)+','+y.toFixed(1));
+    const lx=cx+(r0+18)*Math.cos(a),ly=cy+(r0+18)*Math.sin(a);
+    labs.push('<text x="'+lx.toFixed(1)+'" y="'+ly.toFixed(1)+
+      '" font-size="8.5" text-anchor="middle" fill="#555">'+cell[i].param_id+'</text>');
+    const f=cell[i].value_k3==='0'?'#4CAF50':cell[i].value_k3==='1'?'#F44336':'#FFC107';
+    cir.push('<circle cx="'+x.toFixed(1)+'" cy="'+y.toFixed(1)+
+      '" r="3.5" fill="'+f+'" stroke="#fff" stroke-width="1"/>');
+  }
+  return'<svg viewBox="0 0 '+sz+' '+sz+'" xmlns="http://www.w3.org/2000/svg" style="max-width:'+sz+'px">'+
+    '<polygon points="'+pts.join(' ')+'" fill="#edf3f8" stroke="#0f5889" stroke-width="1.5"/>'+
+    labs.join('')+cir.join('')+'</svg>';
+}
+
+// ── Helpers HTML ─────────────────────────────────────────────────────────────
+function mb(v,l){return'<div class="mb"><div class="v">'+v+'</div><div class="l">'+l+'</div></div>';}
+
+function r3block(r){
+  return'<div class="mg">'+
+    mb(r.L2,'L₂ longitud plana')+mb(r.L3,'L₃ longitud espacial')+mb(r.dL,'ΔL exceso elevación')+
+    mb(r.Cz,'Cz defecto coplanaridad')+mb(r.Erho,'Eρ energía radial')+mb(r.Ez,'Ez = k(v)·h²')+
+    '</div>'+
+    '<div style="font-size:.72rem;color:#6c757d;margin:.3rem 0">k(v)='+r.kv+
+    '  n₀='+r.n0+'  n₁='+r.n1+'  nᵤ='+r.nU+'  h='+H+'</div>';
+}
+
+// ── Consejo natural ──────────────────────────────────────────────────────────
+function counsel(data,rf){
+  const mb=data.metrics.before,ma=data.metrics.after;
+  const tr=data.correction_trace||[];
+  const rg=r3(data.gob);
+  const lines=[];
+  const grad0=mb.gradient?mb.gradient.map(v=>Math.abs(v)).reduce((a,b)=>Math.max(a,b),0).toFixed(3):'?';
+  const gradA=ma.gradient?ma.gradient.map(v=>Math.abs(v)).reduce((a,b)=>Math.max(a,b),0).toFixed(3):'?';
+  lines.push('<p><strong>Corrector factual:</strong> '+tr.length+' paso(s). '+
+    'Gradiente máximo: <span class="mat">'+grad0+'</span> → <span class="mat">'+gradA+'</span>. '+
+    (gradA==='0.000'?'<strong>Convergencia exacta.</strong>':'Convergencia parcial.')+'</p>');
+  lines.push('<p><strong>Curvatura:</strong> <span class="mat">'+mb.curvature+'</span> → '+
+    '<span class="mat">'+ma.curvature+'</span>. '+
+    (ma.curvature===0?'Sin oscilación tras corrección.':'Curvatura residual — variación entre pasos.')+'</p>');
+  lines.push('<p><strong>Residual modal:</strong> <span class="mat">'+mb.residual+'</span> → '+
+    '<span class="mat">'+ma.residual+'</span>. '+
+    (ma.residual===0?'Sin indeterminación acumulada en el subespacio de calidad.':
+     'Residual '+ma.residual+' — queda indeterminación en el subespacio.')+'</p>');
+  lines.push('<p><strong>Carta R3 — frame:</strong> '+
+    'L₂=<span class="mat">'+rf.L2+'</span>  L₃=<span class="mat">'+rf.L3+'</span>  '+
+    'ΔL=<span class="mat">'+rf.dL+'</span>  Ez=<span class="mat">'+rf.Ez+'</span> (k(v)='+rf.kv+'). '+
+    (rf.kv===0?'Vector completamente determinado.':
+     rf.kv<=2?'Distribución compacta de U ('+rf.nU+' Us, '+rf.kv+' transición(es)).':
+     'Distribución dispersa de U — mayor energía vertical (k(v)='+rf.kv+')')+'</p>');
+  const T=19,hapto=Math.max(0,T-rf.n0),hnoapto=Math.max(0,T-rf.n1);
+  if(data.dictamen.global==='INDETERMINADO'){
+    lines.push('<p><strong>Frontera APTO:</strong> faltan <span class="mat">'+hapto+
+      '</span> parámetros en 0 para alcanzar APTO (umbral T='+T+'/25). '+
+      'Faltan <span class="mat">'+hnoapto+'</span> en 1 para cruzar a NO APTO.</p>');
+  }
+  lines.push('<p class="limite">El Agente 2D lee geometría estructural. '+
+    'Ez=k(v)·h² es invariante exacto bajo variación de h (Lloret Egea, ITVIA, 16/03/2026). '+
+    'La interpretación de dominio pertenece al experto soberano.</p>');
+  return lines.join('');
+}
+
+// ── Renderizado completo ─────────────────────────────────────────────────────
+function renderAll(){
+  if(!DATA)return;
+  const d=DATA;
+  document.getElementById('run-meta').textContent=
+    'Run ID: '+d.run_id+' · Dictamen global: '+d.dictamen.global+
+    ' · Base: '+d.dictamen.base+' · Corregido: '+d.dictamen.corregido;
+
+  const rf=d.r3frame||r3(d.frame);
+  const rg=d.r3_gob||r3(d.gob);
+  const dc_g=dc(d.dictamen.global);
+  const mb_=d.metrics.before,ma_=d.metrics.after;
+
+  const html=`
+  <div class="card">
+    <h2>Estado de la célula</h2>
+    <span class="dict ${dc_g}">${d.dictamen.global}</span>
+    <div class="mg" style="margin-top:.5rem">
+      ${mb(rf.n0,'n₀ conforme')}${mb(rf.n1,'n₁ no apto')}${mb(rf.nU,'nᵤ indet.')}
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Corrector factual</h2>
+    <div class="mg">
+      ${mb((mb_.gradient||[0]).map(v=>v.toFixed(1)).join(' '),'∇ antes')}
+      ${mb((ma_.gradient||[0]).map(v=>v.toFixed(1)).join(' '),'∇ después')}
+      ${mb(mb_.curvature+'→'+ma_.curvature,'κ antes/después')}
+      ${mb(mb_.residual+'→'+ma_.residual,'res antes/después')}
+      ${mb(mb_.modal_first_mode+'→'+ma_.modal_first_mode,'m₁ antes/después')}
+      ${mb((d.correction_trace||[]).length,'pasos corrector')}
+    </div>
+  </div>
+
+  <div class="card wide">
+    <h2>Carta R3 (Φ₃) — carta espacial afín auxiliar · Ez=k(v)·h²</h2>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem">
+      <div><h3>Frame (C_frame^25)</h3>${r3block(rf)}</div>
+      <div><h3>Gob (C_gob^25)</h3>${r3block(rg)}</div>
+    </div>
+    <div class="inv"><strong>Invariante exacto:</strong>
+      Ez = k(v)·h² = ${rf.kv}·${H}² = <strong>${rf.Ez}</strong>.
+      El orden relativo entre vectores según Ez es independiente de h
+      (resultado exacto, no empírico · Lloret Egea, ITVIA, ISSN 2695-6411, 16/03/2026).
+    </div>
+  </div>
+
+  <div class="card wide azul">
+    <h2>Consejo del Agente 2D — análisis estructural matemático</h2>
+    <div class="consejo">${counsel(d,rf)}</div>
+    <div class="dominio">
+      <strong>Interpretación semántica de dominio: responsabilidad exclusiva del experto soberano.</strong><br>
+      El Agente 2D no accede al significado de dominio de los parámetros.
+      Lo que P03=U implica en un caso de inmunología, o lo que P07=1 significa en
+      ingeniería estructural, requiere la lectura experta del dominio específico.
+    </div>
+  </div>
+
+  <div class="card wide">
+    <h2>Exploración soberana — polígono interactivo</h2>
+    <p style="font-size:.75rem;color:#6c757d;margin-bottom:.6rem">
+      La exploración es silenciosa (no genera sucesos en el banco).
+      Solo el experto puede registrar un override soberano informado
+      (<code>registrar_override_humano_informado</code>),
+      y únicamente sobre parámetros críticos (valor original ≠ 0).
+    </p>
+    <div id="dict-live" style="margin-bottom:.6rem"></div>
+    <div class="polys">
+      <div><h3>Original</h3><div id="poly-orig"></div></div>
+      <div><h3>Exploración</h3><div id="poly-exp"></div></div>
+    </div>
+    <h3 style="margin-top:.8rem">Tabla de parámetros</h3>
+    <div style="overflow-x:auto">
+      <table><thead><tr>
+        <th>Pos</th><th>ID</th><th>Nombre</th>
+        <th>Original</th><th>Exploración</th>
+        <th>Override soberano</th>
+      </tr></thead>
+      <tbody id="pk-tbody"></tbody></table>
+    </div>
+    <h3 style="margin-top:.8rem">Banco de sucesos — overrides soberanos registrados</h3>
+    <div class="banco" id="banco">
+      <div style="color:#6c757d;font-style:italic">Sin overrides registrados.</div>
+    </div>
+  </div>`;
+
+  document.getElementById('main-content').innerHTML=html;
+  renderPolys(); renderPkTable(); updateDictLive();
+}
+
+// ── Polígonos ────────────────────────────────────────────────────────────────
+function renderPolys(){
+  document.getElementById('poly-orig').innerHTML=polySvg(DATA.frame);
+  document.getElementById('poly-exp').innerHTML=polySvg(EXP);
+}
+
+function updateDictLive(){
+  const d=dictamen(EXP);
+  document.getElementById('dict-live').innerHTML=
+    'Dictamen de exploración: <span class="dict '+dc(d)+'">'+d+'</span>'+
+    ' (n₀='+EXP.filter(p=>p.value_k3==='0').length+
+    ' n₁='+EXP.filter(p=>p.value_k3==='1').length+
+    ' nᵤ='+EXP.filter(p=>p.value_k3==='U').length+')';
+}
+
+// ── Tabla Pk ─────────────────────────────────────────────────────────────────
+function renderPkTable(){
+  const tbody=document.getElementById('pk-tbody');
+  if(!tbody)return;
+  tbody.innerHTML='';
+  DATA.frame.forEach((row,idx)=>{
+    const orig=row.value_k3, cur=EXP[idx].value_k3;
+    const isCrit=orig!=='0';
+    const changed=cur!==orig;
+    const tr=document.createElement('tr');
+    tr.innerHTML=
+      '<td>'+row.position+'</td>'+
+      '<td style="font-family:monospace">'+row.param_id+'</td>'+
+      '<td>'+(PNAMES[row.param_id]||row.name||row.param_id)+'</td>'+
+      '<td><span class="orig-val ov'+orig+'">'+orig+'</span></td>'+
+      '<td><div class="k3b">'+
+        '<button class="kb'+(cur==='0'?' a0':'')+'" onclick="tgl('+idx+',\'0\')">0</button>'+
+        '<button class="kb'+(cur==='U'?' aU':'')+'" onclick="tgl('+idx+',\'U\')">U</button>'+
+        '<button class="kb'+(cur==='1'?' a1':'')+'" onclick="tgl('+idx+',\'1\')">1</button>'+
+      '</div></td>'+
+      '<td>'+
+        (isCrit && changed
+          ? '<button class="ovr-btn" onclick="registerOverride('+idx+')">Registrar override</button>'
+          : isCrit
+            ? '<span style="font-size:.7rem;color:#adb5bd">Explorar para registrar</span>'
+            : '<span style="font-size:.7rem;color:#dee2e6">Base 0</span>')+
+      '</td>';
+    tbody.appendChild(tr);
+  });
+}
+
+// ── Toggle exploración ───────────────────────────────────────────────────────
+function tgl(idx,val){
+  if(EXP[idx].value_k3===val)return;
+  EXP[idx]={...EXP[idx],value_k3:val};
+  renderPolys(); updateDictLive(); renderPkTable();
+}
+
+// ── Override soberano informado ──────────────────────────────────────────────
+// Único tipo de suceso humano en el universo del AE-GD2-SV (FTD §VII)
+function registerOverride(idx){
+  const orig=DATA.frame[idx].value_k3;
+  const newVal=EXP[idx].value_k3;
+  if(orig===newVal)return;
+  if(orig==='0'){alert('Solo se puede registrar override en parámetros críticos (original ≠ 0).'); return;}
+
+  const dictOrig=dictamen(DATA.frame);
+  const dictNew=dictamen(EXP);
+  const cambiaDict=dictOrig!==dictNew;
+
+  const evt={
+    event_id:'GD2-OVR-'+Date.now().toString(36).toUpperCase(),
+    event_type:'registrar_override_humano_informado',   // tipo fijo del universo AE-GD2-SV
+    run_id:DATA.run_id,
+    param_id:DATA.frame[idx].param_id,
+    valor_original:orig,
+    valor_override:newVal,
+    es_parametro_critico:true,
+    dictamen_original:dictOrig,
+    dictamen_con_override:dictNew,
+    cambio_dictamen:cambiaDict,
+    r3_kv_pre:r3(DATA.frame).kv,
+    r3_kv_post:r3(EXP).kv,
+    timestamp_utc:new Date().toISOString(),
+    nota:'Override soberano documentado. '+(cambiaDict?'CAMBIO DE DICTAMEN: '+dictOrig+' → '+dictNew+'. ':'')+'Fase 1: registro documental. Aplicación de override: Fase 2.'
+  };
+  OVERRIDES.push(evt);
+  appendBanco(evt);
+  renderPkTable();
+}
+
+function appendBanco(evt){
+  const el=document.getElementById('banco');
+  if(OVERRIDES.length===1)el.innerHTML='';
+  const div=document.createElement('div');
+  div.className='banco-row';
+  div.innerHTML=
+    evt.timestamp_utc.slice(11,19)+
+    ' · <strong>'+evt.event_type+'</strong>'+
+    ' · '+evt.param_id+': <span class="orig-val ov'+evt.valor_original+'">'+evt.valor_original+'</span>'+
+    ' → <span class="orig-val ov'+evt.valor_override+'">'+evt.valor_override+'</span>'+
+    (evt.cambio_dictamen?' · <span class="bdict">'+evt.dictamen_original+' → '+evt.dictamen_con_override+'</span>':'');
+  el.appendChild(div);
+  el.scrollTop=el.scrollHeight;
+}
+</script>
+</body>
+</html>
