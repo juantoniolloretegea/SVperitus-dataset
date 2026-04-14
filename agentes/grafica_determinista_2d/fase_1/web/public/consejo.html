@@ -36,7 +36,7 @@ h3{font-size:.8rem;font-weight:600;color:#495057;margin:.6rem 0 .3rem}
 .inv{background:#e8f4fd;border:1px solid #bee5eb;border-radius:5px;padding:.5rem .8rem;margin:.5rem 0;font-size:.78rem}
 .inv strong{color:#0c5460}
 /* Polígonos */
-.polys{display:flex;gap:1.5rem;flex-wrap:wrap;justify-content:center;margin:.5rem 0}
+.polys{display:flex;gap:2.5rem;flex-wrap:wrap;justify-content:center;margin:.8rem 0;align-items:flex-start}
 .polys>div{text-align:center}
 /* Tabla Pk */
 table{width:100%;border-collapse:collapse;font-size:.8rem}
@@ -157,7 +157,7 @@ function dc(d){return d==='APTO'?'apto':d==='NO APTO'?'noapto':'indet';}
 
 // ── SVG polígono ─────────────────────────────────────────────────────────────
 function polySvg(cell,sz){
-  sz=sz||300; const cx=sz/2,cy=sz/2,r0=sz*0.37,n=cell.length;
+  sz=sz||460; const cx=sz/2,cy=sz/2,r0=sz*0.37,n=cell.length;
   const pts=[],labs=[],cir=[];
   for(let i=0;i<n;i++){
     const a=-Math.PI/2+2*Math.PI*i/n;
@@ -291,9 +291,9 @@ function renderAll(){
       y únicamente sobre parámetros críticos (valor original ≠ 0).
     </p>
     <div id="dict-live" style="margin-bottom:.6rem"></div>
-    <div class="polys">
-      <div><h3>Original</h3><div id="poly-orig"></div></div>
-      <div><h3>Exploración</h3><div id="poly-exp"></div></div>
+    <div class="polys" style="align-items:flex-start">
+      <div style="text-align:center"><h3 style="margin-bottom:.4rem">Original (frame)</h3><div id="poly-orig"></div></div>
+      <div style="text-align:center"><h3 style="margin-bottom:.4rem">Exploración activa</h3><div id="poly-exp"></div></div>
     </div>
     <h3 style="margin-top:.8rem">Tabla de parámetros</h3>
     <div style="overflow-x:auto">
@@ -316,8 +316,8 @@ function renderAll(){
 
 // ── Polígonos ────────────────────────────────────────────────────────────────
 function renderPolys(){
-  document.getElementById('poly-orig').innerHTML=polySvg(DATA.frame);
-  document.getElementById('poly-exp').innerHTML=polySvg(EXP);
+  document.getElementById('poly-orig').innerHTML=polySvg(DATA.frame,460);
+  document.getElementById('poly-exp').innerHTML=polySvg(EXP,460);
 }
 
 function updateDictLive(){
