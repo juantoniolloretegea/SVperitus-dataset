@@ -1,0 +1,21 @@
+{
+  "mode": "correct",
+  "figure_kind": "flow",
+  "goal": "Corregir colisiones simples y producir auditoría poligonal.",
+  "dimensions": {
+    "w": 1200,
+    "h": 800,
+    "unit": "px"
+  },
+  "outputs": [
+    "html",
+    "json",
+    "csv",
+    "svg",
+    "zip"
+  ],
+  "constraints_hard": [
+    "Mantener footer",
+    "No tocar semántica del caso"
+  ]
+}

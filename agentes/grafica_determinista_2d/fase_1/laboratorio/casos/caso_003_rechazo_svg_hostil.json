@@ -1,0 +1,5 @@
+{
+  "mode": "correct",
+  "malicious": true,
+  "reason": "SVG con script o foreignObject"
+}

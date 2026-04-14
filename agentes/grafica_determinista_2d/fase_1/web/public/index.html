@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AE-GD2-SV · Panel interactivo SV–Usuario</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>Panel interactivo SV–Usuario</h1>
+    <p class="lead">Agente Especializado en Gráfica Determinista 2D del Sistema Vectorial SV · Fase 1</p>
+  </header>
+
+  <main class="grid">
+    <section class="card">
+      <h2>Entrada custodiada</h2>
+      <div class="form-grid">
+        <label>Modo
+          <select id="mode"><option value="correct">corregir</option><option value="create">crear</option></select>
+        </label>
+        <label>Clase de figura
+          <select id="figureKind"><option value="flow">flujo</option><option value="cartesian">panel cartesiano</option><option value="cover">portada</option><option value="hybrid">mixto</option></select>
+        </label>
+        <label>Ancho<input id="width" type="number" value="1200"></label>
+        <label>Alto<input id="height" type="number" value="800"></label>
+        <label>Archivo local<input id="fileInput" type="file" accept=".png,.jpg,.jpeg,.svg"></label>
+      </div>
+      <label>Contexto en lenguaje natural
+        <textarea id="nlNote" rows="4" placeholder="Describa lo que quiere crear o corregir."></textarea>
+      </label>
+      <label>Restricciones duras (una por línea)
+        <textarea id="hardRules" rows="3" placeholder="No tocar footer
+Mantener título completo"></textarea>
+      </label>
+      <div class="button-row">
+        <button id="runBtn">Ejecutar</button>
+        <button id="downloadBtn" disabled>Descargar ZIP</button>
+      </div>
+      <div id="stateBox" class="state-box">IDLE</div>
+      <ul id="stateLog" class="compact-list"></ul>
+    </section>
+
+    <section class="card">
+      <h2>Secuencia soberana</h2>
+      <div id="sequence" class="sequence"></div>
+      <h3>Detalle del suceso</h3>
+      <pre id="sequenceDetail" class="mono small"></pre>
+    </section>
+
+    <section class="card">
+      <h2>Polígonos</h2>
+      <div class="polygons">
+        <div>
+          <h3>C_frame^25</h3>
+          <div id="frameSvg"></div>
+        </div>
+        <div>
+          <h3>C_gob^25</h3>
+          <div id="gobSvg"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Parámetros críticos</h2>
+      <div class="table-wrap"><table id="paramTable"><thead><tr><th>Pos</th><th>ID</th><th>Nombre</th><th>Valor</th><th>Justificación</th></tr></thead><tbody></tbody></table></div>
+    </section>
+
+    <section class="card wide">
+      <h2>Auditoría y bundle</h2>
+      <div id="auditSummary" class="summary"></div>
+      <details>
+        <summary>Informe JSON</summary>
+        <pre id="auditJson" class="mono"></pre>
+      </details>
+      <details>
+        <summary>Banco técnico</summary>
+        <pre id="eventJson" class="mono"></pre>
+      </details>
+    </section>
+  </main>
+
+  <footer>
+    <p>Autor: Juan Antonio Lloret Egea · ORCID: 0000-0002-6634-3351 · ITVIA · IA eñ™ — La Biblia de la IA™ · ISSN 2695-6411 · CC BY-NC-ND 4.0 · Madrid, 14/04/2026</p>
+  </footer>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

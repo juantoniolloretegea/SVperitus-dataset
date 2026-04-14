@@ -1,0 +1,8 @@
+[project]
+name = "ae-gd2-sv"
+version = "0.1.0"
+description = "Referencia Python mínima del AE-GD2-SV Fase 1"
+requires-python = ">=3.10"
+
+[project.scripts]
+ae-gd2-sv = "ae_gd2_sv.cli:main"

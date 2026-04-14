@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AuditReport",
+  "type": "object",
+  "required": [
+    "run_id",
+    "sovereign_sequence",
+    "dictamen_global",
+    "critical_parameters",
+    "artifacts"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "sovereign_sequence": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "dictamen_global": {
+      "type": "string"
+    },
+    "critical_parameters": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "artifacts": {
+      "type": "object"
+    }
+  }
+}

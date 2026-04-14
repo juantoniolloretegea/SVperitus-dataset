@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GraphicIntentConfirmed",
+  "allOf": [
+    {
+      "$ref": "graphic_intent_draft.schema.json"
+    }
+  ],
+  "type": "object",
+  "required": [
+    "confirmed_by_user",
+    "confirmed_at"
+  ],
+  "properties": {
+    "confirmed_by_user": {
+      "const": true
+    },
+    "confirmed_at": {
+      "type": "string"
+    }
+  }
+}

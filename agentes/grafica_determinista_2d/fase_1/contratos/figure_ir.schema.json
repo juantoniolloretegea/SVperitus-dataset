@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FigureIR",
+  "type": "object",
+  "required": [
+    "meta",
+    "canvas",
+    "critical_parameters"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object"
+    },
+    "canvas": {
+      "type": "object"
+    },
+    "critical_parameters": {
+      "type": "array",
+      "minItems": 25,
+      "maxItems": 25,
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

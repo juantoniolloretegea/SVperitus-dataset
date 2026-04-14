@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EventLogEntry",
+  "type": "object",
+  "required": [
+    "event_id",
+    "event_type",
+    "timestamp_utc",
+    "event_status"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "parent_event_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "event_type": {
+      "type": "string"
+    },
+    "timestamp_utc": {
+      "type": "string"
+    },
+    "event_status": {
+      "type": "string"
+    },
+    "dictamen_k3": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

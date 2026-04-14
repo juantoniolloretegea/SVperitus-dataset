@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GraphicIntentDraft",
+  "type": "object",
+  "required": [
+    "request_id",
+    "mode",
+    "figure_kind",
+    "goal",
+    "dimensions",
+    "outputs",
+    "unresolved"
+  ],
+  "properties": {
+    "request_id": {
+      "type": "string"
+    },
+    "mode": {
+      "enum": [
+        "create",
+        "correct"
+      ]
+    },
+    "figure_kind": {
+      "type": "string"
+    },
+    "goal": {
+      "type": "string"
+    },
+    "dimensions": {
+      "type": "object"
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "constraints_hard": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "preserve": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "modify": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unresolved": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

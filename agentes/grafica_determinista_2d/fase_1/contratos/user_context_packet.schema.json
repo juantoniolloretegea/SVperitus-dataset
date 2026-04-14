@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UserContextPacket",
+  "type": "object",
+  "required": [
+    "structured_form",
+    "natural_language_note",
+    "local_annotations"
+  ],
+  "properties": {
+    "structured_form": {
+      "type": "object"
+    },
+    "natural_language_note": {
+      "type": "string"
+    },
+    "local_image_name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "local_annotations": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

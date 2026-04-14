@@ -1,0 +1,32 @@
+name: pages-ae-gd2-sv
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'agentes/grafica_determinista_2d/fase_1/web/public/**'
+      - '.github/workflows/pages-ae-gd2-sv.yml'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare Pages artifact
+        run: |
+          mkdir -p _site/agentes/grafica_determinista_2d/fase_1
+          cp -R agentes/grafica_determinista_2d/fase_1/web/public/* _site/agentes/grafica_determinista_2d/fase_1/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
