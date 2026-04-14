@@ -434,7 +434,7 @@ async function run(){ ui.downloadBtn.disabled=true; ui.stateLog.innerHTML=''; se
     let svgAnalysis = null;
     if(fileMeta && fileMeta.type === 'image/svg+xml' && fileMeta.text && draft.modify && draft.modify.length){
       setState('SVG_ANALISIS', 'Analizando estructura SVG...');
-      svgAnalysis = analyzeSvg(fileMeta.text, draft.modify);
+      svgAnalysis = analyzeSvg(fileMeta.text, draft.modify); window._svgAnalysis = svgAnalysis;
       const msg = svgAnalysis.proposals.length > 0
         ? svgAnalysis.proposals.length + ' problema(s) detectado(s) — propuestas pendientes de confirmación humana'
         : 'Sin problemas detectados';
@@ -449,11 +449,10 @@ async function run(){ ui.downloadBtn.disabled=true; ui.stateLog.innerHTML=''; se
         (p.opciones||[]).forEach(op=>{
           const w=op.aviso?'<em style="color:#856404"> '+op.aviso+'</em>':'';
           const par=JSON.stringify(op.parametros).replace(/"/g,'').replace(/[{}]/g,'').replace(/,/g,' · ');
-          const ejecutable = op.id==='O1'||op.id==='O2';
+                    const ejecutable = op.id==='O1'||op.id==='O2';
+          const pIdx = (window._svgAnalysis&&window._svgAnalysis.proposals)?window._svgAnalysis.proposals.indexOf(p):0;
           const btnAplicar = ejecutable
-            ? '<button onclick="applySvgOption(\'' + svgAnalysis.proposals.indexOf(p) + '\',\'' + op.id + '\')"'
-              + ' style="margin-left:.5rem;padding:.15rem .6rem;background:#0f3460;color:#fff;border:none;border-radius:3px;cursor:pointer;font-size:.75rem">'
-              + 'Aplicar esta opci\u00f3n</button>'
+            ? '<button onclick="applySvgOption('+pIdx+',\''+op.id+'\')" style="margin-left:.5rem;padding:.15rem .6rem;background:#0f3460;color:#fff;border:none;border-radius:3px;cursor:pointer;font-size:.75rem">Aplicar esta opción</button>'
             : '';
           pH+='<p style="margin-left:.8rem;margin-bottom:.2rem"><strong>'+op.id+'</strong> — '+op.accion+': <code>'+par+'</code>'+w+btnAplicar+'</p>';
         });
@@ -471,8 +470,11 @@ ui.runBtn.addEventListener('click',run); ui.downloadBtn.addEventListener('click'
 
 // Aplicar opción SVG seleccionada por el soberano humano
 window.applySvgOption = async function(propIdx, opcionId){
-  const p = svgAnalysis && svgAnalysis.proposals[parseInt(propIdx)];
-  if(!p || !currentFileMeta || !currentFileMeta.text) return;
+  const _analysis = window._svgAnalysis;
+  const p = _analysis && _analysis.proposals[parseInt(propIdx)];
+  if(!p || !currentFileMeta || !currentFileMeta.text){
+    alert('Datos de análisis no disponibles. Vuelva a ejecutar el agente.'); return;
+  }
   const proposal = {...p, opcion_elegida: opcionId};
   const result = correctSvg(proposal, currentFileMeta.text);
   if(!result.ok){
