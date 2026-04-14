@@ -6,7 +6,7 @@ from .report import write_bundle
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description='AE-GD2-SV Fase 1 · CLI B1 banco y bundle')
+    parser = argparse.ArgumentParser(description='AE-GD2-SV Fase 1 · CLI B2 corrector factual')
     parser.add_argument('--mode', default='correct', choices=['correct','create'])
     parser.add_argument('--outdir', default='ae_gd2_sv_bundle')
     args = parser.parse_args()
@@ -21,4 +21,6 @@ def main() -> None:
 
     print(f"Bundle escrito en {out_dir}")
     print(f"ZIP escrito en {zip_path}")
+    print(f"Dictamen base: {report['base_dictamen']}")
+    print(f"Dictamen corregido: {report['corrected_dictamen']}")
     print(f"Dictamen global: {report['dictamen_global']}")
