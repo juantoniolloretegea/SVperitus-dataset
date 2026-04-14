@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded',function(){
       document.getElementById('consejoBtn').disabled=false;
   }catch(e){}
 });
+let currentFileMeta=null, correctedSvgData=null;
 const MAX_FILE_BYTES = 8 * 1024 * 1024;
 let current = null;
 const ui = {
@@ -155,11 +156,24 @@ async function quarantineFile(file){
   setState('HASH_AND_PACKET'); return { name:file?.name??null, type:file?.type??null, size:file?.size??0, text, hash:stableHash(`${file?.name||'none'}|${file?.size||0}|${text}`) };
 }
 
+// Fill semántico del polígono según predominancia K3
+function polyFillColor(cell){
+  const n=cell.length,
+        n0=cell.filter(p=>p.value_k3==='0').length,
+        n1=cell.filter(p=>p.value_k3==='1').length,
+        nU=cell.filter(p=>p.value_k3==='U').length;
+  if(n1>=19) return 'rgba(244,67,54,0.15)';
+  if(n0>=19) return 'rgba(76,175,80,0.15)';
+  const r0=n0/n,r1=n1/n,rU=nU/n;
+  if(r0>=r1&&r0>=rU) return `rgba(76,175,80,${(0.04+r0*0.18).toFixed(2)})`;
+  if(r1>=r0&&r1>=rU) return `rgba(244,67,54,${(0.04+r1*0.18).toFixed(2)})`;
+  return `rgba(255,193,7,${(0.04+rU*0.18).toFixed(2)})`;
+}
 function polygonSvg(title, cell){
   // C4b: viewBox mínimo = 155 chars × 0.55 × fs9 = 767px + 2×40px margen = 847 → 860px; cx=430
   const cx=430, cy=260, r0=140; const n=cell.length; const points=[]; const labels=[]; const fills=[];
   for(let i=0;i<n;i++){ const ang = -Math.PI/2 + (2*Math.PI*i/n); const mul = cell[i].value_k3==='0'?0.75:cell[i].value_k3==='1'?1:0.88; const r=r0*mul; const x=cx+r*Math.cos(ang), y=cy+r*Math.sin(ang); points.push(`${x.toFixed(1)},${y.toFixed(1)}`); const lx=cx+(r0+24)*Math.cos(ang), ly=cy+(r0+24)*Math.sin(ang); labels.push(`<text x="${lx.toFixed(1)}" y="${ly.toFixed(1)}" font-size="10" text-anchor="middle">${cell[i].param_id}</text>`); const fill=cell[i].value_k3==='0'?'#4CAF50':cell[i].value_k3==='1'?'#F44336':'#FFC107'; fills.push(`<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="4" fill="${fill}" stroke="#666"/>`); }
-  return `<svg viewBox="0 0 860 560" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="1" width="858" height="558" rx="10" fill="white" stroke="#d7dbdd"/><text x="430" y="28" text-anchor="middle" font-size="16" font-weight="700">${title}</text><text x="430" y="48" text-anchor="middle" font-size="11">AE-GD2-SV · Panel interactivo SV–Usuario</text><polygon points="${points.join(' ')}" fill="#edf3f8" stroke="#0f5889" stroke-width="2"/>${labels.join('')}${fills.join('')}<rect x="180" y="505" width="10" height="10" fill="#4CAF50"/><text x="194" y="514" font-size="9">0 = conforme</text><rect x="360" y="505" width="10" height="10" fill="#FFC107"/><text x="374" y="514" font-size="9">U = indeterminado</text><rect x="560" y="505" width="10" height="10" fill="#F44336"/><text x="574" y="514" font-size="9">1 = no apto</text><text x="430" y="536" text-anchor="middle" font-size="9">Autor: Juan Antonio Lloret Egea · ORCID: 0000-0002-6634-3351 · ITVIA · IA eñ™ — La Biblia de la IA™ · ISSN 2695-6411 · CC BY-NC-ND 4.0 · Madrid, 14/04/2026</text></svg>`;
+  return `<svg viewBox="0 0 860 560" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="1" width="858" height="558" rx="10" fill="white" stroke="#d7dbdd"/><text x="430" y="28" text-anchor="middle" font-size="16" font-weight="700">${title}</text><text x="430" y="48" text-anchor="middle" font-size="11">AE-GD2-SV · Panel interactivo SV–Usuario</text><polygon points="${points.join(' ')}" fill="${polyFillColor(cell)}" stroke="#0f5889" stroke-width="2"/>${labels.join('')}${fills.join('')}<rect x="180" y="505" width="10" height="10" fill="#4CAF50"/><text x="194" y="514" font-size="9">0 = conforme</text><rect x="360" y="505" width="10" height="10" fill="#FFC107"/><text x="374" y="514" font-size="9">U = indeterminado</text><rect x="560" y="505" width="10" height="10" fill="#F44336"/><text x="574" y="514" font-size="9">1 = no apto</text><text x="430" y="536" text-anchor="middle" font-size="9">Autor: Juan Antonio Lloret Egea · ORCID: 0000-0002-6634-3351 · ITVIA · IA eñ™ — La Biblia de la IA™ · ISSN 2695-6411 · CC BY-NC-ND 4.0 · Madrid, 14/04/2026</text></svg>`;
 }
 function renderSequence(sequence){ ui.sequence.innerHTML=''; sequence.forEach((item,idx)=>{ const btn=document.createElement('button'); btn.textContent=item.sovereign_id; btn.onclick=()=> ui.sequenceDetail.textContent = JSON.stringify(item,null,2); if(idx===sequence.length-1) btn.click(); ui.sequence.appendChild(btn); }); }
 function renderParams(frame,gob){ ui.paramTable.innerHTML=''; frame.forEach((row,idx)=>{ const tr=document.createElement('tr'); tr.innerHTML=`<td>${row.position}</td><td>${row.param_id}</td><td>${row.name}</td><td>${row.value_k3} / ${gob[idx].value_k3}</td><td>${row.justification}</td>`; ui.paramTable.appendChild(tr); }); }
@@ -205,6 +219,70 @@ function computeR3Metrics(cell, h) {
   return { L2:+L2.toFixed(3), L3:+L3.toFixed(3), dL:+(L3-L2).toFixed(3),
            Cz:+Math.sqrt(sumZ2/n).toFixed(3), Erho:+Erho.toFixed(3),
            Ez:+(kv*h*h).toFixed(3), kv, h, n0, n1, nU };
+}
+
+
+// ── Corrector SVG ejecutable (C5b exec) ──────────────────────────────────────
+// El agente aplica SOLO la opción que el humano soberano ha confirmado explícitamente.
+// Opera únicamente sobre atributos estructurales del footer (font-size, posición y).
+// No modifica el contenido semántico del texto. No toca ninguna otra región del SVG.
+function correctSvg(proposal, svgText){
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(svgText, 'image/svg+xml');
+  const choice = proposal.opciones.find(o=>o.id===proposal.opcion_elegida);
+  if(!choice) return {ok:false, reason:'opcion_no_encontrada'};
+  
+  // Localizar el elemento <text> problemático por su contenido (coincidencia parcial)
+  const allTexts = Array.from(doc.querySelectorAll('text'));
+  let target = null;
+  for(const t of allTexts){
+    const txt = (t.textContent||'').trim();
+    if(txt.length > 80) { target = t; break; }  // el texto más largo es el footer
+  }
+  if(!target) return {ok:false, reason:'elemento_no_encontrado'};
+
+  const orig = (target.textContent||'').trim();
+
+  if(choice.id==='O1'){
+    // Reducir font-size
+    const fs = choice.parametros.font_size_propuesto;
+    target.setAttribute('font-size', String(fs));
+    const diff = {op:'set_attr', elem:'text[footer]',
+                  attr:'font-size', antes: choice.parametros.font_size_actual, despues: fs};
+    const xs = new XMLSerializer();
+    return {ok:true, svg:xs.serializeToString(doc), diff};
+  }
+
+  if(choice.id==='O2'){
+    // Dividir en dos líneas: modificar textContent de target y añadir segundo <text>
+    const corte = choice.parametros.posicion_corte_caracter;
+    const line1 = orig.substring(0, corte).trim();
+    const line2 = orig.substring(corte).trim();
+    const yOrig = parseFloat(target.getAttribute('y') || '0');
+    const fs    = parseFloat(target.getAttribute('font-size') || '9');
+    const lineH = fs + 3;  // interlineado conservador
+
+    target.textContent = line1;
+    const t2 = target.cloneNode(false);
+    t2.textContent = line2;
+    t2.setAttribute('y', String(yOrig + lineH));
+    target.parentNode.insertBefore(t2, target.nextSibling);
+
+    // Expandir el viewBox para acomodar la línea extra
+    const vb = doc.documentElement.getAttribute('viewBox');
+    if(vb){
+      const [vx,vy,vw,vh] = vb.split(' ').map(Number);
+      doc.documentElement.setAttribute('viewBox', `${vx} ${vy} ${vw} ${vh+lineH}`);
+      doc.documentElement.setAttribute('height', String(parseFloat(doc.documentElement.getAttribute('height')||vh)+lineH));
+    }
+    const diff = {op:'split_line', elem:'text[footer]',
+                  corte, line1_chars:line1.length, line2_chars:line2.length,
+                  viewBox_ampliado: lineH + 'px'};
+    const xs = new XMLSerializer();
+    return {ok:true, svg:xs.serializeToString(doc), diff};
+  }
+
+  return {ok:false, reason:'opcion_O3_requiere_accion_humana'};
 }
 
 // ── C5b: analizador estructural de SVG ─────────────────────────────────────
@@ -351,7 +429,7 @@ function analyzeSvg(svgText, modifyTargets) {
   return { proposals, k3, notes };
 }
 
-async function run(){ ui.downloadBtn.disabled=true; ui.stateLog.innerHTML=''; setState('IDLE'); document.body.classList.remove('run-done'); try{ const file=ui.fileInput.files[0]||null; const fileMeta=await quarantineFile(file); const packet=buildUserContextPacket(fileMeta); setState('PACKET_READY'); const draft=buildDraft(packet); setState('DRAFT_READY'); if(draft.unresolved && draft.unresolved.length){ ui.sequenceDetail.textContent = JSON.stringify(draft, null, 2); setState('INTERNAL_REJECT', draft.unresolved.join(' | ')); ui.auditSummary.innerHTML = '<strong>Rechazado por contradicción de intención.</strong>'; ui.auditJson.textContent = JSON.stringify({ packet, draft, error:'intent_conflict' }, null, 2); return; } const confirmed=confirmDraft(draft); setState('CONFIRMED');
+async function run(){ ui.downloadBtn.disabled=true; ui.stateLog.innerHTML=''; setState('IDLE'); document.body.classList.remove('run-done'); try{ const file=ui.fileInput.files[0]||null; const fileMeta=await quarantineFile(file); currentFileMeta=fileMeta; const packet=buildUserContextPacket(fileMeta); setState('PACKET_READY'); const draft=buildDraft(packet); setState('DRAFT_READY'); if(draft.unresolved && draft.unresolved.length){ ui.sequenceDetail.textContent = JSON.stringify(draft, null, 2); setState('INTERNAL_REJECT', draft.unresolved.join(' | ')); ui.auditSummary.innerHTML = '<strong>Rechazado por contradicción de intención.</strong>'; ui.auditJson.textContent = JSON.stringify({ packet, draft, error:'intent_conflict' }, null, 2); return; } const confirmed=confirmDraft(draft); setState('CONFIRMED');
     // C5b: analizar SVG de entrada — solo detecta y propone, nunca ejecuta
     let svgAnalysis = null;
     if(fileMeta && fileMeta.type === 'image/svg+xml' && fileMeta.text && draft.modify && draft.modify.length){
@@ -371,7 +449,13 @@ async function run(){ ui.downloadBtn.disabled=true; ui.stateLog.innerHTML=''; se
         (p.opciones||[]).forEach(op=>{
           const w=op.aviso?'<em style="color:#856404"> '+op.aviso+'</em>':'';
           const par=JSON.stringify(op.parametros).replace(/"/g,'').replace(/[{}]/g,'').replace(/,/g,' · ');
-          pH+='<p style="margin-left:.8rem;margin-bottom:.2rem"><strong>'+op.id+'</strong> — '+op.accion+': <code>'+par+'</code>'+w+'</p>';
+          const ejecutable = op.id==='O1'||op.id==='O2';
+          const btnAplicar = ejecutable
+            ? '<button onclick="applySvgOption(\'' + svgAnalysis.proposals.indexOf(p) + '\',\'' + op.id + '\')"'
+              + ' style="margin-left:.5rem;padding:.15rem .6rem;background:#0f3460;color:#fff;border:none;border-radius:3px;cursor:pointer;font-size:.75rem">'
+              + 'Aplicar esta opci\u00f3n</button>'
+            : '';
+          pH+='<p style="margin-left:.8rem;margin-bottom:.2rem"><strong>'+op.id+'</strong> — '+op.accion+': <code>'+par+'</code>'+w+btnAplicar+'</p>';
         });
         pH+='<p style="font-size:.75rem;color:#6c757d;margin-top:.3rem;font-style:italic">'+p.limite_agente+'</p>';
       });
@@ -383,3 +467,43 @@ async function run(){ ui.downloadBtn.disabled=true; ui.stateLog.innerHTML=''; se
 function downloadBundle(){ if(!current) return; const files=[ {name:'01_informe_usuario/informe_auditoria.html',content:current.reportHtml},
     ...(current.svgProposals ? [{name:'01_informe_usuario/correction_proposals.json', content:current.svgProposals}] : []), {name:'01_informe_usuario/resumen_ejecutivo.json',content:JSON.stringify(current.report,null,2)}, {name:'01_informe_usuario/critical_parameters.csv',content:current.criticalCsv}, {name:'01_informe_usuario/frame25.svg',content:current.frameSvg}, {name:'01_informe_usuario/gob25.svg',content:current.gobSvg}, {name:'01_informe_usuario/frame25.csv',content:current.frameCsv}, {name:'01_informe_usuario/gob25.csv',content:current.gobCsv}, {name:'02_paquete_tecnico/audit_report.json',content:JSON.stringify(current.report,null,2)}, {name:'02_paquete_tecnico/event_bank/events.jsonl',content:current.eventsJsonl}, {name:'02_paquete_tecnico/event_bank/event_index.json',content:JSON.stringify(current.eventIndex,null,2)}, {name:'02_paquete_tecnico/event_bank/events_flat.csv',content:current.eventsFlatCsv}, {name:'02_paquete_tecnico/event_bank/index_by_param.csv',content:current.indexByParamCsv}, {name:'02_paquete_tecnico/event_bank/index_by_type.csv',content:current.indexByTypeCsv}, {name:'02_paquete_tecnico/event_bank/sovereign_sequence.csv',content:current.seqCsv}, {name:'02_paquete_tecnico/logs/quarantine_log.jsonl',content:current.quarantineLog}, {name:'02_paquete_tecnico/logs/validator_log.jsonl',content:current.validatorLog}, {name:'02_paquete_tecnico/logs/execution_log.jsonl',content:current.eventsJsonl} ]; downloadBlob(`ae_gd2_sv_${current.report.run_id}.zip`, buildZip(files)); }
 ui.runBtn.addEventListener('click',run); ui.downloadBtn.addEventListener('click',downloadBundle);
+
+
+// Aplicar opción SVG seleccionada por el soberano humano
+window.applySvgOption = async function(propIdx, opcionId){
+  const p = svgAnalysis && svgAnalysis.proposals[parseInt(propIdx)];
+  if(!p || !currentFileMeta || !currentFileMeta.text) return;
+  const proposal = {...p, opcion_elegida: opcionId};
+  const result = correctSvg(proposal, currentFileMeta.text);
+  if(!result.ok){
+    alert('El agente no puede aplicar esta opción: ' + result.reason); return;
+  }
+  // Guardar figura corregida en el bundle y regenerar ZIP
+  correctedSvgData = {svg: result.svg, diff: result.diff, opcion: opcionId};
+  setState('SVG_CORREGIDO', 'Figura corregida con opción ' + opcionId + ' — descargue el bundle actualizado');
+  ui.downloadBtn.disabled = false;
+  document.body.classList.add('run-done');
+  // Disparar regeneración del bundle con la figura corregida incluida
+  await rebuildBundleWithCorrection();
+};
+
+
+async function rebuildBundleWithCorrection(){
+  if(!correctedSvgData || !window._lastBuildArgs) return;
+  const {files, report} = window._lastBuildArgs;
+  // Añadir la figura corregida al bundle
+  files['01_informe_usuario/figura_corregida.svg'] = correctedSvgData.svg;
+  files['01_informe_usuario/diff_corrector.json'] = JSON.stringify({
+    opcion_aplicada: correctedSvgData.opcion,
+    diff: correctedSvgData.diff,
+    agente: 'AE-GD2-SV', fase: 'Fase 1',
+    evento: 'corregir_figura_desde_imagen_local',
+    timestamp_utc: new Date().toISOString()
+  }, null, 2);
+  // Actualizar correction_scope en el informe
+  if(report) report.correction_scope = 'SVG_CORREGIDO — figura_corregida.svg incluida en bundle';
+  const blob = await buildZip(files);
+  const url = URL.createObjectURL(blob);
+  ui.downloadBtn.onclick = ()=>{ const a=document.createElement('a'); a.href=url;
+    a.download='ae_gd2_sv_'+window._lastRunId+'.zip'; a.click(); };
+}
