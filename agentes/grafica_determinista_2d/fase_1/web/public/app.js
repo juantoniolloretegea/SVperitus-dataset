@@ -54,7 +54,7 @@ function buildFrame(confirmed, fileMeta){
 function qualityValues(frame){ return frame.filter(p=>QUALITY_PARAM_IDS.has(p.param_id)).map(p=>p.value_k3==='0'?0:p.value_k3==='U'?0.5:1); }
 function factualMetrics(frame, iteration=0){
   const q = qualityValues(frame);
-  const gradient = q.map((v,i)=> +(i<q.length-1 ? v : v - (q[i-1]||0)).toFixed(4));
+  const gradient = q.map((_,i)=> +((i>0 ? q[i] - q[i-1] : q[0]).toFixed(4)));
   const jacobian_diag = q.map(v=> +v.toFixed(4));
   const curvature = +((gradient.slice(1).reduce((a,v,i)=>a + Math.abs(v - gradient[i]),0))/Math.max(1, gradient.length-1)).toFixed(4);
   const residual = +(q.reduce((a,b)=>a+b,0)).toFixed(4);
@@ -63,7 +63,7 @@ function factualMetrics(frame, iteration=0){
 function clone(o){ return JSON.parse(JSON.stringify(o)); }
 function applyFactualCorrector(frame){
   const current = clone(frame); const trace=[]; let prevResidual = null; let step=0;
-  while(step<3){
+  while(step<QUALITY_PARAM_IDS.size){
     const metrics = factualMetrics(current, step); const changed=[];
     if(prevResidual !== null && metrics.residual >= prevResidual){ trace.push({ step, action:'stop', reason:'residual_non_decreasing', metrics, changed_params:changed }); break; }
     for(const p of current){ if(QUALITY_PARAM_IDS.has(p.param_id) && p.value_k3 === 'U'){ p.value_k3='0'; p.justification='corrección factual por gradiente/jacobiano y residual modal decreciente'; changed.push(p.param_id); break; } }

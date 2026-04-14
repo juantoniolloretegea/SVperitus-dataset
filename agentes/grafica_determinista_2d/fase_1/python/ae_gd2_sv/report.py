@@ -56,7 +56,7 @@ def dictamen(cell: Iterable[Parameter]) -> str:
 
 def rows_to_csv(rows: list[dict], columns: list[str]) -> str:
     buf = io.StringIO()
-    writer = csv.DictWriter(buf, fieldnames=columns)
+    writer = csv.DictWriter(buf, fieldnames=columns, extrasaction='ignore')
     writer.writeheader()
     writer.writerows(rows)
     return buf.getvalue()
@@ -78,7 +78,7 @@ def quality_vector(frame: list[Parameter]) -> list[float]:
 
 def factual_metrics(frame: list[Parameter], iteration: int = 0) -> dict:
     q = quality_vector(frame)
-    gradient = [round((val if i < len(q)-1 else q[i] - (q[i-1] if i else 0.0)), 4) for i, val in enumerate(q)]
+    gradient = [round((q[i] - q[i-1]) if i > 0 else q[0], 4) for i in range(len(q))]
     jacobian_diag = [round(v, 4) for v in q]
     curvature = round(sum(abs(gradient[i] - gradient[i-1]) for i in range(1, len(gradient))) / max(1, len(gradient)-1), 4)
     modal_first_mode = round(sum(q), 4)
@@ -102,7 +102,7 @@ def factual_metrics(frame: list[Parameter], iteration: int = 0) -> dict:
     }
 
 
-def apply_factual_corrector(frame: list[Parameter], max_iter: int = 3) -> tuple[list[Parameter], list[dict]]:
+def apply_factual_corrector(frame: list[Parameter], max_iter: int = len(QUALITY_PARAM_IDS)) -> tuple[list[Parameter], list[dict]]:
     current = [Parameter(**asdict(p)) for p in frame]
     trace: list[dict] = []
     previous_residual = None
@@ -251,7 +251,7 @@ def write_bundle(out_dir: Path, mode: str = 'correct') -> dict:
     (out_dir / 'sovereign_sequence.csv').write_text(sovereign_sequence_csv(report['sovereign_sequence']), encoding='utf-8')
     (out_dir / 'events.jsonl').write_text(events_jsonl(events), encoding='utf-8')
     (out_dir / 'event_index.json').write_text(json.dumps(index, ensure_ascii=False, indent=2), encoding='utf-8')
-    (out_dir / 'events_flat.csv').write_text(rows_to_csv(events, ['event_id','parent_event_id','run_id','event_type','dictamen_k3','timestamp_utc']), encoding='utf-8')
+    (out_dir / 'events_flat.csv').write_text(rows_to_csv(events, ['event_id','parent_event_id','run_id','event_type','dictamen_k3','timestamp_utc','affected_params']), encoding='utf-8')
     (out_dir / 'index_by_param.csv').write_text(index_by_param_csv(index), encoding='utf-8')
     (out_dir / 'index_by_type.csv').write_text(index_by_type_csv(index), encoding='utf-8')
     (out_dir / 'quarantine_log.jsonl').write_text(json.dumps({'state':'PACKET_READY','timestamp_utc':'2026-04-14T00:00:00Z'}, ensure_ascii=False) + '\n', encoding='utf-8')
