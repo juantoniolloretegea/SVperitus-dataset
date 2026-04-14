@@ -1,26 +1,24 @@
 from __future__ import annotations
 import argparse
-import json
 from pathlib import Path
-from .report import build_report, to_csv, Parameter
+import zipfile
+from .report import write_bundle
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description='AE-GD2-SV Fase 1 · CLI endurecida (Inyección A)')
-    parser.add_argument('--mode', default='correct', choices=['correct', 'create'])
-    parser.add_argument('--out', default='report.json')
+    parser = argparse.ArgumentParser(description='AE-GD2-SV Fase 1 · CLI B1 banco y bundle')
+    parser.add_argument('--mode', default='correct', choices=['correct','create'])
+    parser.add_argument('--outdir', default='ae_gd2_sv_bundle')
     args = parser.parse_args()
 
-    report = build_report(args.mode)
-    out = Path(args.out)
-    out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
+    out_dir = Path(args.outdir)
+    report = write_bundle(out_dir, args.mode)
+    zip_path = out_dir.with_suffix('.zip')
+    with zipfile.ZipFile(zip_path, 'w', compression=zipfile.ZIP_DEFLATED) as zf:
+        for path in sorted(out_dir.iterdir()):
+            if path.is_file():
+                zf.write(path, arcname=path.name)
 
-    params = [Parameter(**p) for p in report['critical_parameters']]
-    out.with_name(out.stem + '_critical_parameters.csv').write_text(to_csv(params), encoding='utf-8')
-    sovereign = report['sovereign_sequence']
-    sovereign_csv = 'sovereign_id,epsilon_id,label,dictamen_k3\n' + '\n'.join(
-        f"{row['sovereign_id']},{row['epsilon_id']},{row['label']},{row['dictamen_k3']}" for row in sovereign
-    )
-    out.with_name(out.stem + '_sovereign_sequence.csv').write_text(sovereign_csv, encoding='utf-8')
-    print(f'Reporte escrito en {out}')
-    print('CSV de parámetros y secuencia soberana emitidos.')
+    print(f"Bundle escrito en {out_dir}")
+    print(f"ZIP escrito en {zip_path}")
+    print(f"Dictamen global: {report['dictamen_global']}")
