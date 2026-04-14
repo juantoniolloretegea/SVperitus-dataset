@@ -1,4 +1,3 @@
-
 const PARAM_NAMES = [
   'Modo operativo','Tipo de fuente','Integridad de entrada','Localidad y cuarentena','Perfil de ejecución',
   'Clase de figura','Dominio declarado','Dimensiones del lienzo','Salidas requeridas','Restricciones duras',
@@ -28,8 +27,12 @@ const ui = {
   frameSvg: document.getElementById('frameSvg'),
   gobSvg: document.getElementById('gobSvg'),
   paramTable: document.querySelector('#paramTable tbody'),
+  diffMetrics: document.getElementById('diffMetrics'),
+  modalMetrics: document.getElementById('modalMetrics'),
+  metroMetrics: document.getElementById('metroMetrics'),
   auditSummary: document.getElementById('auditSummary'),
   auditJson: document.getElementById('auditJson'),
+  sovereignJson: document.getElementById('sovereignJson'),
   eventJson: document.getElementById('eventJson')
 };
 
@@ -40,13 +43,14 @@ const db = (() => {
   async function open() {
     if (connection) return connection;
     connection = await new Promise((resolve, reject) => {
-      const req = indexedDB.open(NAME, 1);
+      const req = indexedDB.open(NAME, 2);
       req.onupgradeneeded = () => {
         const db = req.result;
         if (!db.objectStoreNames.contains(STORE)) {
           const store = db.createObjectStore(STORE, { keyPath: 'event_id' });
           store.createIndex('run_id', 'run_id', { unique: false });
           store.createIndex('event_type', 'event_type', { unique: false });
+          store.createIndex('sovereign_id', 'sovereign_id', { unique: false });
         }
       };
       req.onsuccess = () => resolve(req.result);
@@ -67,17 +71,7 @@ const db = (() => {
 })();
 
 function nowIso() { return new Date().toISOString(); }
-function setState(state, note='') {
-  ui.stateBox.textContent = note ? `${state} — ${note}` : state;
-  const li = document.createElement('li');
-  li.textContent = `${new Date().toLocaleTimeString()} · ${state}${note ? ' · ' + note : ''}`;
-  ui.stateLog.appendChild(li);
-}
-
-function hardRulesArray() {
-  return ui.hardRules.value.split(/\n+/).map(s => s.trim()).filter(Boolean);
-}
-
+function makeId(prefix) { return `${prefix}-${Date.now()}-${Math.random().toString(16).slice(2,8)}`; }
 function stableHash(text) {
   let h = 2166136261;
   for (let i = 0; i < text.length; i++) {
@@ -86,14 +80,16 @@ function stableHash(text) {
   }
   return 'h' + (h >>> 0).toString(16).padStart(8, '0');
 }
-
-function makeId(prefix) {
-  return `${prefix}-${Date.now()}-${Math.random().toString(16).slice(2,8)}`;
+function setState(state, note='') {
+  ui.stateBox.textContent = note ? `${state} — ${note}` : state;
+  const li = document.createElement('li');
+  li.textContent = `${new Date().toLocaleTimeString()} · ${state}${note ? ' · ' + note : ''}`;
+  ui.stateLog.appendChild(li);
 }
-
-function k3FromIndex(i, seed) {
-  return K3[(seed + i) % 3];
+function hardRulesArray() {
+  return ui.hardRules.value.split(/\n+/).map(s => s.trim()).filter(Boolean);
 }
+function k3ToAux(v) { return v === '0' ? 0 : v === '1' ? 1 : 0.5; }
 
 function buildUserContextPacket(fileMeta) {
   return {
@@ -107,15 +103,13 @@ function buildUserContextPacket(fileMeta) {
     },
     natural_language_note: ui.nlNote.value.trim(),
     local_image_name: fileMeta?.name ?? null,
+    local_image_hash: fileMeta?.hash ?? null,
     local_annotations: []
   };
 }
-
 function buildDraft(packet) {
   const unresolved = [];
-  if (!packet.natural_language_note && packet.structured_form.mode === 'correct') {
-    unresolved.push('Contexto libre ausente');
-  }
+  if (!packet.natural_language_note && packet.structured_form.mode === 'correct') unresolved.push('Contexto libre ausente');
   return {
     request_id: makeId('GD2-REQ'),
     mode: packet.structured_form.mode,
@@ -126,25 +120,24 @@ function buildDraft(packet) {
     constraints_hard: packet.structured_form.hard_rules,
     preserve: packet.structured_form.mode === 'correct' ? ['estructura_general','footer'] : [],
     modify: packet.structured_form.mode === 'correct' ? ['colisiones_texto','margenes','paneles'] : ['composicion_base'],
-    unresolved
+    unresolved,
+    speech_acts: ['declarar_objetivo','declarar_restriccion','solicitar_confirmacion']
   };
 }
-
 function confirmDraft(draft) {
-  return {
-    ...draft,
-    confirmed_by_user: true,
-    confirmed_at: nowIso()
-  };
+  return { ...draft, confirmed_by_user: true, confirmed_at: nowIso() };
 }
 
 function frame25(confirmed, fileMeta) {
   const seed = (stableHash(JSON.stringify(confirmed)).length + (fileMeta?.size ?? 0)) % 7;
-  const params = PARAM_NAMES.map((name, idx) => {
-    let value = k3FromIndex(idx, seed);
+  return PARAM_NAMES.map((name, idx) => {
+    let value = K3[(seed + idx) % 3];
     if (idx === 0) value = '0';
     if (idx === 1) value = fileMeta ? '0' : (confirmed.mode === 'create' ? '0' : 'U');
     if (idx === 2) value = fileMeta ? '0' : '0';
+    if (idx === 3) value = '0';
+    if (idx === 7) value = (confirmed.dimensions.w > MAX_DIMENSION || confirmed.dimensions.h > MAX_DIMENSION) ? '1' : '0';
+    if (idx === 20) value = '0';
     if (idx === 21) value = '0';
     if (idx === 23) value = confirmed.unresolved.length ? 'U' : '0';
     return {
@@ -155,24 +148,20 @@ function frame25(confirmed, fileMeta) {
       justification: value === '0' ? 'conformidad suficiente' : value === '1' ? 'infracción material' : 'indeterminación controlada'
     };
   });
-  return params;
 }
-
-function gob25(frame, sequenceLength) {
-  return frame.map((row, idx) => {
+function gob25(frame) {
+  return frame.map((row) => {
     let value = row.value_k3;
-    if (['P16','P17','P18','P19','P20'].includes(row.param_id) && sequenceLength < 3) value = row.value_k3 === '0' ? 'U' : row.value_k3;
+    if (['P16','P17','P18','P19','P20'].includes(row.param_id) && row.value_k3 === '0') value = 'U';
     if (row.param_id === 'P24' && row.value_k3 === 'U') value = 'U';
     return { ...row, value_k3: value, justification: `supervisión de ${row.param_id}` };
   });
 }
-
 function dictamenFromCell(cell) {
   if (cell.some(p => p.value_k3 === '1')) return 'NO APTO';
   if (cell.some(p => p.value_k3 === 'U')) return 'INDETERMINADO';
   return 'APTO';
 }
-
 function polygonSvg(title, cell) {
   const cx = 260, cy = 260, r0 = 140;
   const points = [];
@@ -192,284 +181,200 @@ function polygonSvg(title, cell) {
     const fill = cell[i].value_k3 === '0' ? '#d5f5e3' : cell[i].value_k3 === '1' ? '#fadbd8' : '#fcf3cf';
     fills.push(`<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="4" fill="${fill}" stroke="#666"/>`);
   }
-  return `<svg viewBox="0 0 520 560" xmlns="http://www.w3.org/2000/svg">
-    <rect x="1" y="1" width="518" height="558" rx="10" fill="white" stroke="#d7dbdd"/>
-    <text x="260" y="28" text-anchor="middle" font-size="16" font-weight="700">${title}</text>
-    <text x="260" y="48" text-anchor="middle" font-size="11">AE-GD2-SV · Panel interactivo SV–Usuario</text>
-    <polygon points="${points.join(' ')}" fill="#edf3f8" stroke="#0f5889" stroke-width="2"/>
-    ${labels.join('')}
-    ${fills.join('')}
-    <text x="260" y="540" text-anchor="middle" font-size="9">Autor: Juan Antonio Lloret Egea · ORCID: 0000-0002-6634-3351 · ITVIA · IA eñ™ — La Biblia de la IA™ · ISSN 2695-6411 · CC BY-NC-ND 4.0 · Madrid, 14/04/2026</text>
-  </svg>`;
+  return `<svg viewBox="0 0 520 560" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="1" width="518" height="558" rx="10" fill="white" stroke="#d7dbdd"/><text x="260" y="28" text-anchor="middle" font-size="16" font-weight="700">${title}</text><text x="260" y="48" text-anchor="middle" font-size="11">AE-GD2-SV · Panel interactivo SV–Usuario</text><polygon points="${points.join(' ')}" fill="#edf3f8" stroke="#0f5889" stroke-width="2"/>${labels.join('')}${fills.join('')}<text x="260" y="540" text-anchor="middle" font-size="9">Autor: Juan Antonio Lloret Egea · ORCID: 0000-0002-6634-3351 · ITVIA · IA eñ™ — La Biblia de la IA™ · ISSN 2695-6411 · CC BY-NC-ND 4.0 · Madrid, 14/04/2026</text></svg>`;
 }
 
-function buildSovereignSequence(confirmed, frame, gob) {
-  const s0 = { sovereign_id: 'S0', epsilon_id: 'ε0', label: 'Frame inicial declarado', dictamen_k3: 'INDETERMINADO' };
-  const s1 = { sovereign_id: 'S1', epsilon_id: 'ε1', label: 'Entrada admitida tras cuarentena', dictamen_k3: dictamenFromCell(frame) };
-  const s2 = { sovereign_id: 'S2', epsilon_id: 'ε2', label: 'Intención confirmada por el usuario', dictamen_k3: dictamenFromCell(frame) };
-  const s3 = { sovereign_id: 'S3', epsilon_id: 'ε3', label: 'Auditoría poligonal y dictamen', dictamen_k3: dictamenFromCell(gob) };
-  return [s0,s1,s2,s3];
+function buildSovereignSequence(packet, draft, confirmed, frame, gob) {
+  return [
+    { sovereign_id: 'S0', epsilon_id: 'ε0', label: 'Frame inicial declarado', dictamen_k3: 'INDETERMINADO', source: 'declaracion' },
+    { sovereign_id: 'S1', epsilon_id: 'ε1', label: 'Entrada admitida tras cuarentena local', dictamen_k3: dictamenFromCell(frame), source: packet.local_image_name || 'sin archivo' },
+    { sovereign_id: 'S2', epsilon_id: 'ε2', label: 'Intención tipada en borrador', dictamen_k3: draft.unresolved.length ? 'INDETERMINADO' : dictamenFromCell(frame), source: draft.request_id },
+    { sovereign_id: 'S3', epsilon_id: 'ε3', label: 'Intención confirmada por el usuario', dictamen_k3: dictamenFromCell(frame), source: confirmed.confirmed_at },
+    { sovereign_id: 'S4', epsilon_id: 'ε4', label: 'Auditoría poligonal y dictamen de exposición', dictamen_k3: dictamenFromCell(gob), source: 'panel' }
+  ];
 }
 
 function buildEvent(type, runId, parentId=null, dictamen=null, extras={}) {
-  return {
-    event_id: makeId('GD2-EVT'),
-    parent_event_id: parentId,
-    run_id: runId,
-    session_id: 'LOCAL-SESSION',
-    event_type: type,
-    event_status: 'done',
-    dictamen_k3: dictamen,
-    timestamp_utc: nowIso(),
-    ...extras
-  };
+  return { event_id: makeId('GD2-EVT'), parent_event_id: parentId, run_id: runId, session_id: 'LOCAL-SESSION', event_type: type, event_status: 'done', dictamen_k3: dictamen, timestamp_utc: nowIso(), ...extras };
 }
-
 async function quarantineFile(file) {
-  setState('FILE_SELECTED', file ? file.name : 'sin archivo');
-  if (!file && ui.mode.value === 'correct') {
-    throw new Error('Modo corregir requiere archivo local o cambie a crear.');
-  }
-  setState('TYPE_CHECK');
+  const quarantineLog = [];
+  const push = (state, note='') => { quarantineLog.push({ state, note, timestamp_utc: nowIso() }); setState(state, note); };
+  push('FILE_SELECTED', file ? file.name : 'sin archivo');
+  if (!file && ui.mode.value === 'correct') throw Object.assign(new Error('Modo corregir requiere archivo local o cambie a crear.'), { quarantineLog });
+  push('TYPE_CHECK');
   if (file && !['image/png','image/jpeg','image/svg+xml'].includes(file.type)) {
-    setState('REJECTED_TYPE', file.type || 'tipo desconocido');
-    throw new Error('Tipo de archivo no admitido.');
+    push('REJECTED_TYPE', file.type || 'tipo desconocido');
+    throw Object.assign(new Error('Tipo de archivo no admitido.'), { quarantineLog });
   }
-  setState('LIMITS_CHECK');
+  push('LIMITS_CHECK');
   if (file && file.size > MAX_FILE_BYTES) {
-    setState('REJECTED_LIMITS', `máximo ${MAX_FILE_BYTES} bytes`);
-    throw new Error('Archivo fuera de límites.');
+    push('REJECTED_LIMITS', `máximo ${MAX_FILE_BYTES} bytes`);
+    throw Object.assign(new Error('Archivo fuera de límites.'), { quarantineLog });
   }
-  setState('SANITIZE_LOCAL');
+  push('SANITIZE_LOCAL');
   let text = '';
   if (file && file.type === 'image/svg+xml') {
     text = await file.text();
     if (/<script|onload=|onerror=|foreignObject/i.test(text)) {
-      setState('REJECTED_SANITIZE', 'SVG hostil');
-      throw new Error('SVG rechazado por sanitización local.');
+      push('REJECTED_SANITIZE', 'SVG hostil');
+      throw Object.assign(new Error('SVG rechazado por sanitización local.'), { quarantineLog });
     }
   }
-  setState('HASH_AND_PACKET');
-  return {
-    name: file?.name ?? null,
-    type: file?.type ?? null,
-    size: file?.size ?? 0,
-    text,
-    hash: stableHash(`${file?.name || 'none'}|${file?.size || 0}|${text}`)
-  };
+  push('HASH_AND_PACKET');
+  return { meta: { name: file?.name ?? null, type: file?.type ?? null, size: file?.size ?? 0, text, hash: stableHash(`${file?.name || 'none'}|${file?.size || 0}|${text}`) }, quarantineLog };
 }
 
+function computeDifferentialMetrics(frame, gob) {
+  const values = frame.map(x => k3ToAux(x.value_k3));
+  const grad = values.slice(1).map((v, i) => +(v - values[i]).toFixed(3));
+  const absGrad = grad.map(Math.abs);
+  const norm1 = +absGrad.reduce((a,b) => a+b, 0).toFixed(3);
+  const jacobianDiag = values.map((v, i) => +((v + k3ToAux(gob[i].value_k3)) / 2).toFixed(3));
+  const curvature = grad.length > 1 ? +grad.slice(1).map((v,i)=>Math.abs(v-grad[i])).reduce((a,b)=>a+b,0).toFixed(3) : 0;
+  return { sensitivity_pointwise: values, gradient: grad, jacobian_diag: jacobianDiag, jacobian_norm_l1: norm1, curvature };
+}
+function computeModalMetrics(frame) {
+  const x = frame.map(p => k3ToAux(p.value_k3));
+  const N = x.length;
+  const modes = [];
+  for (let k = 0; k < 5; k++) {
+    let re = 0, im = 0;
+    for (let n = 0; n < N; n++) {
+      const ang = (2 * Math.PI * k * n) / N;
+      re += x[n] * Math.cos(ang);
+      im -= x[n] * Math.sin(ang);
+    }
+    const amp = Math.sqrt(re*re + im*im) / N;
+    modes.push({ k, amplitude: +amp.toFixed(4) });
+  }
+  const totalEnergy = +x.reduce((a,b)=>a+b*b,0).toFixed(4);
+  const kept = modes.slice(0,3).reduce((a,m)=>a+m.amplitude*m.amplitude,0);
+  const residual = +(Math.max(totalEnergy - kept, 0)).toFixed(4);
+  return { first_modes: modes, total_energy: totalEnergy, residual_trunc_k2: residual };
+}
+function computeMetrology(confirmed) {
+  const width = confirmed.dimensions.w;
+  const height = confirmed.dimensions.h;
+  const ufe = 8;
+  return {
+    primitive: 'UFE',
+    base_unit_px: ufe,
+    width_ufe: +(width / ufe).toFixed(2),
+    height_ufe: +(height / ufe).toFixed(2),
+    margin_ufe: 6,
+    minimum_spacing_ufe: 2,
+    title_band_ufe: 8
+  };
+}
 function renderSequence(sequence) {
   ui.sequence.innerHTML = '';
   sequence.forEach((item, idx) => {
     const btn = document.createElement('button');
-    btn.textContent = `${item.sovereign_id}`;
-    btn.onclick = () => {
-      ui.sequenceDetail.textContent = JSON.stringify(item, null, 2);
-    };
-    if (idx === sequence.length - 1) btn.click();
+    btn.textContent = item.sovereign_id;
+    btn.onclick = () => { ui.sequenceDetail.textContent = JSON.stringify(item, null, 2); };
     ui.sequence.appendChild(btn);
+    if (idx === sequence.length - 1) btn.click();
   });
 }
-
 function renderParams(frame, gob) {
   ui.paramTable.innerHTML = '';
   frame.forEach((row, idx) => {
     const tr = document.createElement('tr');
-    const gov = gob[idx].value_k3;
-    tr.innerHTML = `<td>${row.position}</td><td>${row.param_id}</td><td>${row.name}</td><td>${row.value_k3} / ${gov}</td><td>${row.justification}</td>`;
+    tr.innerHTML = `<td>${row.position}</td><td>${row.param_id}</td><td>${row.name}</td><td>${row.value_k3} / ${gob[idx].value_k3}</td><td>${row.justification}</td>`;
     ui.paramTable.appendChild(tr);
   });
 }
-
 function toCsv(rows, columns) {
-  const esc = (v) => {
-    const s = String(v ?? '');
-    return /[",\n]/.test(s) ? `"${s.replace(/"/g,'""')}"` : s;
-  };
-  const head = columns.join(',');
-  const body = rows.map(row => columns.map(c => esc(row[c])).join(','));
-  return [head, ...body].join('\n');
+  const esc = (v) => { const s = String(v ?? ''); return /[",\n]/.test(s) ? `"${s.replace(/"/g,'""')}"` : s; };
+  return [columns.join(','), ...rows.map(row => columns.map(c => esc(row[c])).join(','))].join('\n');
 }
-
 function makeHtmlReport(report, frameSvg, gobSvg) {
   const rows = report.critical_parameters.map(p => `<tr><td>${p.position}</td><td>${p.param_id}</td><td>${p.name}</td><td>${p.value_k3}</td><td>${p.justification}</td></tr>`).join('');
   const sovereign = report.sovereign_sequence.map(s => `<li><strong>${s.sovereign_id}</strong> · ${s.epsilon_id} · ${s.label} · ${s.dictamen_k3}</li>`).join('');
-  return `<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Informe de auditoría AE-GD2-SV</title><style>body{font-family:Georgia,serif;margin:24px;color:#17202a}h1,h2{color:#0f5889}table{border-collapse:collapse;width:100%}th,td{border:1px solid #d7dbdd;padding:6px 8px}th{background:#eef3f7}svg{width:100%;max-width:520px}.row{display:flex;gap:16px;flex-wrap:wrap}.card{border:1px solid #d7dbdd;padding:12px;border-radius:12px;margin-bottom:16px}</style></head><body><h1>Informe de auditoría — AE-GD2-SV</h1><p><strong>Run ID:</strong> ${report.run_id} · <strong>Dictamen global:</strong> ${report.dictamen_global}</p><div class="card"><h2>Trayectoria soberana</h2><ol>${sovereign}</ol></div><div class="row"><div class="card">${frameSvg}</div><div class="card">${gobSvg}</div></div><div class="card"><h2>Parámetros críticos</h2><table><thead><tr><th>Pos</th><th>ID</th><th>Nombre</th><th>Valor</th><th>Justificación</th></tr></thead><tbody>${rows}</tbody></table></div><p>Autor: Juan Antonio Lloret Egea · ORCID: 0000-0002-6634-3351 · Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) · IA eñ™ — La Biblia de la IA™ · ISSN 2695-6411 · Licencia: CC BY-NC-ND 4.0 · Madrid, 14/04/2026</p></body></html>`;
+  return `<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Informe de auditoría AE-GD2-SV</title><style>body{font-family:Georgia,serif;margin:24px;color:#17202a}h1,h2{color:#0f5889}table{border-collapse:collapse;width:100%}th,td{border:1px solid #d7dbdd;padding:6px 8px}th{background:#eef3f7}svg{width:100%;max-width:520px}.row{display:flex;gap:16px;flex-wrap:wrap}.card{border:1px solid #d7dbdd;padding:12px;border-radius:12px;margin-bottom:16px}</style></head><body><h1>Informe de auditoría — AE-GD2-SV</h1><p><strong>Run ID:</strong> ${report.run_id} · <strong>Dictamen global:</strong> ${report.dictamen_global}</p><div class="card"><h2>Trayectoria soberana</h2><ol>${sovereign}</ol></div><div class="row"><div class="card">${frameSvg}</div><div class="card">${gobSvg}</div></div><div class="card"><h2>Parámetros críticos</h2><table><thead><tr><th>Pos</th><th>ID</th><th>Nombre</th><th>Valor</th><th>Justificación</th></tr></thead><tbody>${rows}</tbody></table></div><div class="card"><h2>Métricas auxiliares</h2><pre>${JSON.stringify(report.auxiliary_metrics, null, 2)}</pre></div><p>Autor: Juan Antonio Lloret Egea · ORCID: 0000-0002-6634-3351 · Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) · IA eñ™ — La Biblia de la IA™ · ISSN 2695-6411 · Licencia: CC BY-NC-ND 4.0 · Madrid, 14/04/2026</p></body></html>`;
 }
-
 function downloadBlob(name, blob) {
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = name;
-  a.click();
-  setTimeout(() => URL.revokeObjectURL(url), 500);
+  const url = URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = name; a.click(); setTimeout(() => URL.revokeObjectURL(url), 500);
 }
-
-function textBlob(text, type='text/plain;charset=utf-8') {
-  return new Blob([text], { type });
-}
-
 function crc32(buf) {
-  let table = crc32.table;
-  if (!table) {
-    table = new Uint32Array(256);
-    for (let i = 0; i < 256; i++) {
-      let c = i;
-      for (let k = 0; k < 8; k++) c = c & 1 ? 0xEDB88320 ^ (c >>> 1) : c >>> 1;
-      table[i] = c >>> 0;
-    }
-    crc32.table = table;
-  }
-  let crc = 0xFFFFFFFF;
-  for (const b of buf) crc = table[(crc ^ b) & 0xFF] ^ (crc >>> 8);
-  return (crc ^ 0xFFFFFFFF) >>> 0;
+  let table = crc32.table; if (!table) { table = new Uint32Array(256); for (let i=0;i<256;i++){ let c=i; for(let k=0;k<8;k++) c = c&1 ? 0xEDB88320 ^ (c>>>1) : c>>>1; table[i]=c>>>0;} crc32.table = table; }
+  let crc = 0xFFFFFFFF; for (const b of buf) crc = table[(crc ^ b) & 0xFF] ^ (crc >>> 8); return (crc ^ 0xFFFFFFFF) >>> 0;
 }
-
 function buildZip(files) {
-  const encoder = new TextEncoder();
-  const localParts = [];
-  const centralParts = [];
-  let offset = 0;
+  const encoder = new TextEncoder(); const localParts = []; const centralParts = []; let offset = 0;
   files.forEach((file) => {
-    const nameBytes = encoder.encode(file.name);
-    const data = typeof file.content === 'string' ? encoder.encode(file.content) : file.content;
-    const crc = crc32(data);
-    const local = new Uint8Array(30 + nameBytes.length + data.length);
-    const dv = new DataView(local.buffer);
-    dv.setUint32(0, 0x04034b50, true);
-    dv.setUint16(4, 20, true);
-    dv.setUint16(6, 0, true);
-    dv.setUint16(8, 0, true);
-    dv.setUint16(10, 0, true);
-    dv.setUint16(12, 0, true);
-    dv.setUint32(14, crc, true);
-    dv.setUint32(18, data.length, true);
-    dv.setUint32(22, data.length, true);
-    dv.setUint16(26, nameBytes.length, true);
-    dv.setUint16(28, 0, true);
-    local.set(nameBytes, 30);
-    local.set(data, 30 + nameBytes.length);
-    localParts.push(local);
-
-    const central = new Uint8Array(46 + nameBytes.length);
-    const cv = new DataView(central.buffer);
-    cv.setUint32(0, 0x02014b50, true);
-    cv.setUint16(4, 20, true);
-    cv.setUint16(6, 20, true);
-    cv.setUint16(8, 0, true);
-    cv.setUint16(10, 0, true);
-    cv.setUint16(12, 0, true);
-    cv.setUint16(14, 0, true);
-    cv.setUint32(16, crc, true);
-    cv.setUint32(20, data.length, true);
-    cv.setUint32(24, data.length, true);
-    cv.setUint16(28, nameBytes.length, true);
-    cv.setUint16(30, 0, true);
-    cv.setUint16(32, 0, true);
-    cv.setUint16(34, 0, true);
-    cv.setUint16(36, 0, true);
-    cv.setUint32(38, 0, true);
-    cv.setUint32(42, offset, true);
-    central.set(nameBytes, 46);
-    centralParts.push(central);
-    offset += local.length;
+    const nameBytes = encoder.encode(file.name); const data = typeof file.content === 'string' ? encoder.encode(file.content) : file.content; const crc = crc32(data);
+    const local = new Uint8Array(30 + nameBytes.length + data.length); const dv = new DataView(local.buffer);
+    dv.setUint32(0, 0x04034b50, true); dv.setUint16(4, 20, true); dv.setUint16(6, 0, true); dv.setUint16(8, 0, true); dv.setUint16(10, 0, true); dv.setUint16(12, 0, true); dv.setUint32(14, crc, true); dv.setUint32(18, data.length, true); dv.setUint32(22, data.length, true); dv.setUint16(26, nameBytes.length, true); dv.setUint16(28, 0, true); local.set(nameBytes, 30); local.set(data, 30 + nameBytes.length); localParts.push(local);
+    const central = new Uint8Array(46 + nameBytes.length); const cv = new DataView(central.buffer);
+    cv.setUint32(0, 0x02014b50, true); cv.setUint16(4, 20, true); cv.setUint16(6, 20, true); cv.setUint16(8, 0, true); cv.setUint16(10, 0, true); cv.setUint16(12, 0, true); cv.setUint16(14, 0, true); cv.setUint32(16, crc, true); cv.setUint32(20, data.length, true); cv.setUint32(24, data.length, true); cv.setUint16(28, nameBytes.length, true); cv.setUint16(30, 0, true); cv.setUint16(32, 0, true); cv.setUint16(34, 0, true); cv.setUint16(36, 0, true); cv.setUint32(38, 0, true); cv.setUint32(42, offset, true); central.set(nameBytes, 46); centralParts.push(central); offset += local.length;
   });
-  const centralSize = centralParts.reduce((a, p) => a + p.length, 0);
-  const end = new Uint8Array(22);
-  const ev = new DataView(end.buffer);
-  ev.setUint32(0, 0x06054b50, true);
-  ev.setUint16(8, files.length, true);
-  ev.setUint16(10, files.length, true);
-  ev.setUint32(12, centralSize, true);
-  ev.setUint32(16, offset, true);
-  return new Blob([...localParts, ...centralParts, end], { type: 'application/zip' });
+  const centralSize = centralParts.reduce((a, p) => a + p.length, 0); const end = new Uint8Array(22); const ev = new DataView(end.buffer); ev.setUint32(0, 0x06054b50, true); ev.setUint16(8, files.length, true); ev.setUint16(10, files.length, true); ev.setUint32(12, centralSize, true); ev.setUint32(16, offset, true); return new Blob([...localParts, ...centralParts, end], { type: 'application/zip' });
 }
 
 async function run() {
-  ui.downloadBtn.disabled = true;
-  ui.stateLog.innerHTML = '';
-  setState('IDLE');
+  ui.downloadBtn.disabled = true; ui.stateLog.innerHTML = ''; setState('IDLE');
   try {
     const file = ui.fileInput.files[0] || null;
-    const fileMeta = await quarantineFile(file);
-    const packet = buildUserContextPacket(fileMeta);
-    setState('PACKET_READY');
-    const draft = buildDraft(packet);
-    setState('DRAFT_READY', draft.unresolved.length ? 'con U controlada' : 'sin U');
-    const confirmed = confirmDraft(draft);
-    setState('CONFIRMED');
-    const runId = makeId('GD2-RUN');
+    const q = await quarantineFile(file); const fileMeta = q.meta;
+    const packet = buildUserContextPacket(fileMeta); setState('PACKET_READY');
+    const draft = buildDraft(packet); setState('DRAFT_READY', draft.unresolved.length ? 'con U controlada' : 'sin U');
+    const confirmed = confirmDraft(draft); setState('CONFIRMED');
     const frame = frame25(confirmed, fileMeta);
-    const sequenceLength = 4;
-    const gob = gob25(frame, sequenceLength);
-    const sequence = buildSovereignSequence(confirmed, frame, gob);
+    const gob = gob25(frame);
+    const diff = computeDifferentialMetrics(frame, gob);
+    const modal = computeModalMetrics(frame);
+    const metro = computeMetrology(confirmed);
+    const sequence = buildSovereignSequence(packet, draft, confirmed, frame, gob);
     const frameSvg = polygonSvg('C_frame^25', frame);
     const gobSvg = polygonSvg('C_gob^25', gob);
     const dictamenGlobal = dictamenFromCell(gob);
-    const events = [];
-    let parent = null;
+    const exposureGate = dictamenGlobal === 'NO APTO' ? 'NO EXPONIBLE' : (dictamenGlobal === 'INDETERMINADO' ? 'EXPOSICION_CON_U' : 'EXPONIBLE');
+    const runId = makeId('GD2-RUN');
+    const events = []; let parent = null;
     const addEvent = async (type, dictamen, extras={}) => {
-      const ev = buildEvent(type, runId, parent, dictamen, extras);
-      parent = ev.event_id;
-      events.push(ev);
-      try { await db.put(ev); } catch { /* degradación silenciosa evitada en reporte */ }
+      const ev = buildEvent(type, runId, parent, dictamen, extras); parent = ev.event_id; events.push(ev); try { await db.put(ev); } catch {};
     };
-    await addEvent('create_user_context_packet', null, { packet_hash: stableHash(JSON.stringify(packet)) });
+    for (const s of sequence) await addEvent('sovereign_transition', s.dictamen_k3, { sovereign_id: s.sovereign_id, epsilon_id: s.epsilon_id, label: s.label });
+    await addEvent('build_user_context_packet', null, { packet_hash: stableHash(JSON.stringify(packet)) });
     await addEvent('translate_to_draft', null, { draft_hash: stableHash(JSON.stringify(draft)) });
     await addEvent('confirm_intent', null, { confirmed_hash: stableHash(JSON.stringify(confirmed)) });
-    await addEvent('compose_frame25', dictamenFromCell(frame));
-    await addEvent('compose_gob25', dictamenGlobal);
-    await addEvent('build_audit_report', dictamenGlobal);
+    await addEvent('compute_differential_metrics', dictamenGlobal, { gradient_norm: diff.jacobian_norm_l1 });
+    await addEvent('compute_modal_metrics', dictamenGlobal, { residual_trunc_k2: modal.residual_trunc_k2 });
+    await addEvent('compute_metrology', dictamenGlobal, { primitive: metro.primitive });
+    await addEvent('exposure_gate', dictamenGlobal, { exposure_gate: exposureGate });
+    await addEvent('export_bundle_ready', dictamenGlobal);
 
-    const report = {
-      run_id: runId,
-      dictamen_global: dictamenGlobal,
-      sovereign_sequence: sequence,
-      critical_parameters: frame,
-      artifacts: {
-        frame_svg: 'frame25.svg',
-        gob_svg: 'gob25.svg',
-        events: 'events.jsonl',
-        event_index: 'event_index.json',
-        critical_parameters_csv: 'critical_parameters.csv'
-      },
-      exposure_gate: dictamenGlobal === 'NO APTO' ? 'NO EXPONIBLE' : (dictamenGlobal === 'INDETERMINADO' ? 'EXPOSICION_CON_U' : 'EXPONIBLE'),
-      packet,
-      draft,
-      confirmed
-    };
+    const report = { run_id: runId, dictamen_global: dictamenGlobal, exposure_gate: exposureGate, sovereign_sequence: sequence, critical_parameters: frame, auxiliary_metrics: { differential: diff, modal, metrology: metro }, packet, draft, confirmed };
     const eventIndex = {
       by_event_id: Object.fromEntries(events.map((e, i) => [e.event_id, i])),
       by_run_id: { [runId]: events.map((_, i) => i) },
-      by_event_type: events.reduce((acc, e, i) => ((acc[e.event_type] ||= []).push(i), acc), {})
+      by_event_type: events.reduce((acc, e, i) => ((acc[e.event_type] ||= []).push(i), acc), {}),
+      by_param: frame.reduce((acc, p) => ((acc[p.param_id] ||= []).push(events.length - 1), acc), {})
     };
     const criticalCsv = toCsv(frame, ['position','param_id','name','value_k3','justification']);
     const frameCsv = toCsv(frame.map(r => ({ position: r.position, param_id: r.param_id, value_k3: r.value_k3, label: r.name })), ['position','param_id','value_k3','label']);
     const gobCsv = toCsv(gob.map(r => ({ position: r.position, param_id: r.param_id, value_k3: r.value_k3, label: r.name })), ['position','param_id','value_k3','label']);
+    const sovereignCsv = toCsv(sequence, ['sovereign_id','epsilon_id','label','dictamen_k3','source']);
     const eventsFlatCsv = toCsv(events, ['event_id','parent_event_id','run_id','event_type','dictamen_k3','timestamp_utc']);
+    const indexByTypeCsv = toCsv(Object.entries(eventIndex.by_event_type).map(([event_type, positions]) => ({ event_type, count: positions.length, last_index: positions[positions.length-1] })), ['event_type','count','last_index']);
+    const indexByParamCsv = toCsv(frame.map(p => ({ param_id: p.param_id, value_k3: p.value_k3, justification: p.justification })), ['param_id','value_k3','justification']);
     const eventsJsonl = events.map(e => JSON.stringify(e)).join('\n');
+    const quarantineJsonl = q.quarantineLog.map(e => JSON.stringify(e)).join('\n');
+    const validatorLogJsonl = [JSON.stringify({ timestamp_utc: nowIso(), result: dictamenGlobal, exposure_gate: exposureGate, gradient_norm: diff.jacobian_norm_l1 })].join('\n');
     const reportHtml = makeHtmlReport(report, frameSvg, gobSvg);
 
-    ui.frameSvg.innerHTML = frameSvg;
-    ui.gobSvg.innerHTML = gobSvg;
-    renderSequence(sequence);
-    renderParams(frame, gob);
-    ui.auditSummary.innerHTML = `<p><strong>Run ID:</strong> ${runId}</p><p><strong>Dictamen global:</strong> ${dictamenGlobal}</p><p><strong>Exposición:</strong> ${report.exposure_gate}</p>`;
-    ui.auditJson.textContent = JSON.stringify(report, null, 2);
-    ui.eventJson.textContent = JSON.stringify({ events, eventIndex }, null, 2);
-    current = { report, reportHtml, frameSvg, gobSvg, criticalCsv, frameCsv, gobCsv, eventsFlatCsv, eventsJsonl, eventIndex };
-    ui.downloadBtn.disabled = false;
-    setState('EXPORT_READY');
+    ui.frameSvg.innerHTML = frameSvg; ui.gobSvg.innerHTML = gobSvg; renderSequence(sequence); renderParams(frame, gob);
+    ui.diffMetrics.textContent = JSON.stringify(diff, null, 2); ui.modalMetrics.textContent = JSON.stringify(modal, null, 2); ui.metroMetrics.textContent = JSON.stringify(metro, null, 2);
+    ui.auditSummary.innerHTML = `<p><strong>Run ID:</strong> ${runId}</p><p><strong>Dictamen global:</strong> ${dictamenGlobal}</p><p><strong>Exposición:</strong> ${exposureGate}</p><p><strong>Gradiente ‖J‖₁:</strong> ${diff.jacobian_norm_l1}</p><p><strong>Residual truncado K2:</strong> ${modal.residual_trunc_k2}</p>`;
+    ui.auditJson.textContent = JSON.stringify(report, null, 2); ui.sovereignJson.textContent = JSON.stringify(sequence, null, 2); ui.eventJson.textContent = JSON.stringify({ events, eventIndex }, null, 2);
+    current = { report, reportHtml, frameSvg, gobSvg, criticalCsv, frameCsv, gobCsv, sovereignCsv, eventsFlatCsv, indexByTypeCsv, indexByParamCsv, eventsJsonl, eventIndex, quarantineJsonl, validatorLogJsonl };
+    ui.downloadBtn.disabled = false; setState('EXPORT_READY');
   } catch (err) {
-    setState('INTERNAL_REJECT', err.message);
-    ui.auditSummary.innerHTML = `<p><strong>Rechazo:</strong> ${err.message}</p>`;
-    ui.auditJson.textContent = '';
-    ui.eventJson.textContent = '';
+    setState('INTERNAL_REJECT', err.message); ui.auditSummary.innerHTML = `<p><strong>Rechazo:</strong> ${err.message}</p>`; ui.auditJson.textContent = ''; ui.sovereignJson.textContent = ''; ui.eventJson.textContent = '';
   }
 }
-
 function downloadBundle() {
   if (!current) return;
   const files = [
@@ -480,16 +385,21 @@ function downloadBundle() {
     { name: '01_informe_usuario/gob25.svg', content: current.gobSvg },
     { name: '01_informe_usuario/frame25.csv', content: current.frameCsv },
     { name: '01_informe_usuario/gob25.csv', content: current.gobCsv },
+    { name: '01_informe_usuario/sovereign_sequence.csv', content: current.sovereignCsv },
     { name: '02_paquete_tecnico/figure_ir.json', content: JSON.stringify({ critical_parameters: current.report.critical_parameters, meta: { run_id: current.report.run_id }, canvas: current.report.confirmed.dimensions }, null, 2) },
     { name: '02_paquete_tecnico/audit_report.json', content: JSON.stringify(current.report, null, 2) },
+    { name: '02_paquete_tecnico/sovereign_sequence/sovereign_sequence.json', content: JSON.stringify(current.report.sovereign_sequence, null, 2) },
+    { name: '02_paquete_tecnico/sovereign_sequence/sovereign_sequence.csv', content: current.sovereignCsv },
     { name: '02_paquete_tecnico/event_bank/events.jsonl', content: current.eventsJsonl },
     { name: '02_paquete_tecnico/event_bank/event_index.json', content: JSON.stringify(current.eventIndex, null, 2) },
     { name: '02_paquete_tecnico/event_bank/events_flat.csv', content: current.eventsFlatCsv },
+    { name: '02_paquete_tecnico/event_bank/index_by_type.csv', content: current.indexByTypeCsv },
+    { name: '02_paquete_tecnico/event_bank/index_by_param.csv', content: current.indexByParamCsv },
+    { name: '02_paquete_tecnico/logs/quarantine_log.jsonl', content: current.quarantineJsonl },
+    { name: '02_paquete_tecnico/logs/validator_log.jsonl', content: current.validatorLogJsonl },
     { name: '02_paquete_tecnico/logs/execution_log.jsonl', content: current.eventsJsonl }
   ];
-  const blob = buildZip(files);
-  downloadBlob(`ae_gd2_sv_${current.report.run_id}.zip`, blob);
+  const blob = buildZip(files); downloadBlob(`ae_gd2_sv_${current.report.run_id}.zip`, blob);
 }
-
 ui.runBtn.addEventListener('click', run);
 ui.downloadBtn.addEventListener('click', downloadBundle);

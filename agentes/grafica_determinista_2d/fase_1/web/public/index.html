@@ -10,6 +10,7 @@
   <header>
     <h1>Panel interactivo SV–Usuario</h1>
     <p class="lead">Agente Especializado en Gráfica Determinista 2D del Sistema Vectorial SV · Fase 1</p>
+    <p class="sublead">Inyección A · secuencia soberana, banco doble, métricas diferenciales, modales y metrológicas auxiliares.</p>
   </header>
 
   <main class="grid">
@@ -30,8 +31,7 @@
         <textarea id="nlNote" rows="4" placeholder="Describa lo que quiere crear o corregir."></textarea>
       </label>
       <label>Restricciones duras (una por línea)
-        <textarea id="hardRules" rows="3" placeholder="No tocar footer
-Mantener título completo"></textarea>
+        <textarea id="hardRules" rows="3" placeholder="No tocar footer&#10;Mantener título completo"></textarea>
       </label>
       <div class="button-row">
         <button id="runBtn">Ejecutar</button>
@@ -48,8 +48,8 @@ Mantener título completo"></textarea>
       <pre id="sequenceDetail" class="mono small"></pre>
     </section>
 
-    <section class="card">
-      <h2>Polígonos</h2>
+    <section class="card wide">
+      <h2>Polígonos y cambios</h2>
       <div class="polygons">
         <div>
           <h3>C_frame^25</h3>
@@ -64,15 +64,37 @@ Mantener título completo"></textarea>
 
     <section class="card">
       <h2>Parámetros críticos</h2>
-      <div class="table-wrap"><table id="paramTable"><thead><tr><th>Pos</th><th>ID</th><th>Nombre</th><th>Valor</th><th>Justificación</th></tr></thead><tbody></tbody></table></div>
+      <div class="table-wrap"><table id="paramTable"><thead><tr><th>Pos</th><th>ID</th><th>Nombre</th><th>Frame / Gob</th><th>Justificación</th></tr></thead><tbody></tbody></table></div>
+    </section>
+
+    <section class="card">
+      <h2>Métricas auxiliares</h2>
+      <div class="metrics-grid">
+        <div>
+          <h3>Diferencial factual</h3>
+          <pre id="diffMetrics" class="mono small"></pre>
+        </div>
+        <div>
+          <h3>Modal / residual</h3>
+          <pre id="modalMetrics" class="mono small"></pre>
+        </div>
+        <div>
+          <h3>Metrología factual</h3>
+          <pre id="metroMetrics" class="mono small"></pre>
+        </div>
+      </div>
     </section>
 
     <section class="card wide">
-      <h2>Auditoría y bundle</h2>
+      <h2>Auditoría y banco</h2>
       <div id="auditSummary" class="summary"></div>
       <details>
         <summary>Informe JSON</summary>
         <pre id="auditJson" class="mono"></pre>
+      </details>
+      <details>
+        <summary>Secuencia soberana</summary>
+        <pre id="sovereignJson" class="mono"></pre>
       </details>
       <details>
         <summary>Banco técnico</summary>

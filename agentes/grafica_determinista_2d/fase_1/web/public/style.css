@@ -9,7 +9,8 @@
 * { box-sizing: border-box; }
 body { margin: 0; font-family: Georgia, 'Times New Roman', serif; background: var(--bg); color: var(--ink); }
 header, footer { max-width: 1280px; margin: 0 auto; padding: 20px; }
-.lead { color: var(--muted); margin-top: 0; }
+.lead { color: var(--muted); margin-top: 0; margin-bottom: 4px; }
+.sublead { color: var(--muted); margin-top: 0; }
 .grid { max-width: 1280px; margin: 0 auto; padding: 0 20px 24px; display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 16px; }
 .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px; box-shadow: 0 2px 8px rgba(0,0,0,.04); }
 .card.wide { grid-column: 1 / -1; }
@@ -19,7 +20,7 @@ input, select, textarea, button { width: 100%; font: inherit; padding: 10px; bor
 textarea { resize: vertical; }
 button { cursor: pointer; background: var(--accent); color: white; border: 1px solid var(--accent); width: auto; }
 button[disabled] { opacity: .45; cursor: not-allowed; }
-.button-row { display: flex; gap: 10px; margin: 10px 0 14px; }
+.button-row { display: flex; gap: 10px; margin: 10px 0 14px; flex-wrap: wrap; }
 .state-box { padding: 12px; background: #eef4fa; border: 1px solid #cfe0ef; border-radius: 10px; font-weight: 600; }
 .compact-list { margin: 10px 0 0; padding-left: 18px; color: var(--muted); }
 .sequence { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
@@ -27,6 +28,7 @@ button[disabled] { opacity: .45; cursor: not-allowed; }
 .mono { font-family: Consolas, monospace; white-space: pre-wrap; word-break: break-word; }
 .small { font-size: 13px; }
 .polygons { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 12px; }
+.metrics-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 12px; }
 .table-wrap { overflow: auto; }
 table { width: 100%; border-collapse: collapse; font-size: 14px; }
 th, td { border: 1px solid var(--line); padding: 6px 8px; vertical-align: top; }
@@ -38,4 +40,5 @@ footer { color: var(--muted); font-size: 13px; }
   .grid { grid-template-columns: 1fr; }
   .polygons { grid-template-columns: 1fr; }
   .form-grid { grid-template-columns: 1fr; }
+  .metrics-grid { grid-template-columns: 1fr; }
 }

@@ -5,6 +5,9 @@ on:
   push:
     paths:
       - 'agentes/grafica_determinista_2d/fase_1/web/public/**'
+      - 'agentes/grafica_determinista_2d/fase_1/COMPATIBILIDAD_NAVEGADORES.md'
+      - 'agentes/grafica_determinista_2d/fase_1/MAQUINA_ESTADOS_CUARENTENA.md'
+      - 'agentes/grafica_determinista_2d/fase_1/README.md'
       - '.github/workflows/pages-ae-gd2-sv.yml'
 
 permissions:
