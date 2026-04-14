@@ -36,7 +36,7 @@ h3{font-size:.8rem;font-weight:600;color:#495057;margin:.6rem 0 .3rem}
 .inv{background:#e8f4fd;border:1px solid #bee5eb;border-radius:5px;padding:.5rem .8rem;margin:.5rem 0;font-size:.78rem}
 .inv strong{color:#0c5460}
 /* Polígonos */
-.polys{display:flex;gap:2.5rem;flex-wrap:wrap;justify-content:center;margin:.8rem 0;align-items:flex-start}
+.polys{display:flex;gap:2rem;flex-wrap:nowrap;justify-content:center;margin:1rem 0;align-items:flex-start;overflow-x:auto;padding-bottom:.5rem}
 .polys>div{text-align:center}
 /* Tabla Pk */
 table{width:100%;border-collapse:collapse;font-size:.8rem}
@@ -157,7 +157,7 @@ function dc(d){return d==='APTO'?'apto':d==='NO APTO'?'noapto':'indet';}
 
 // ── SVG polígono ─────────────────────────────────────────────────────────────
 function polySvg(cell,sz){
-  sz=sz||460; const cx=sz/2,cy=sz/2,r0=sz*0.37,n=cell.length;
+  sz=sz||500; const cx=sz/2,cy=sz/2,r0=sz*0.37,n=cell.length;
   const pts=[],labs=[],cir=[];
   for(let i=0;i<n;i++){
     const a=-Math.PI/2+2*Math.PI*i/n;
@@ -171,7 +171,7 @@ function polySvg(cell,sz){
     cir.push('<circle cx="'+x.toFixed(1)+'" cy="'+y.toFixed(1)+
       '" r="3.5" fill="'+f+'" stroke="#fff" stroke-width="1"/>');
   }
-  return'<svg viewBox="0 0 '+sz+' '+sz+'" xmlns="http://www.w3.org/2000/svg" style="max-width:'+sz+'px">'+
+  return'<svg viewBox="0 0 '+sz+' '+sz+'" xmlns="http://www.w3.org/2000/svg" style="width:'+sz+'px;height:'+sz+'px;display:block">'+
     '<polygon points="'+pts.join(' ')+'" fill="#edf3f8" stroke="#0f5889" stroke-width="1.5"/>'+
     labs.join('')+cir.join('')+'</svg>';
 }
@@ -291,16 +291,16 @@ function renderAll(){
       y únicamente sobre parámetros críticos (valor original ≠ 0).
     </p>
     <div id="dict-live" style="margin-bottom:.6rem"></div>
-    <div class="polys" style="align-items:flex-start">
-      <div style="text-align:center"><h3 style="margin-bottom:.4rem">Original (frame)</h3><div id="poly-orig"></div></div>
-      <div style="text-align:center"><h3 style="margin-bottom:.4rem">Exploración activa</h3><div id="poly-exp"></div></div>
+    <div class="polys">
+      <div><h3>Original</h3><div id="poly-orig"></div></div>
+      <div><h3>Exploración</h3><div id="poly-exp"></div></div>
     </div>
     <h3 style="margin-top:.8rem">Tabla de parámetros</h3>
     <div style="overflow-x:auto">
       <table><thead><tr>
         <th>Pos</th><th>ID</th><th>Nombre</th>
         <th>Original</th><th>Exploración</th>
-        <th>Override soberano</th>
+        <th>Override soberano<br><span style="font-weight:400;font-size:.62rem;color:#adb5bd">Modifique exploración, luego registre</span></th>
       </tr></thead>
       <tbody id="pk-tbody"></tbody></table>
     </div>
@@ -316,8 +316,8 @@ function renderAll(){
 
 // ── Polígonos ────────────────────────────────────────────────────────────────
 function renderPolys(){
-  document.getElementById('poly-orig').innerHTML=polySvg(DATA.frame,460);
-  document.getElementById('poly-exp').innerHTML=polySvg(EXP,460);
+  document.getElementById('poly-orig').innerHTML=polySvg(DATA.frame,500);
+  document.getElementById('poly-exp').innerHTML=polySvg(EXP,500);
 }
 
 function updateDictLive(){
@@ -350,11 +350,11 @@ function renderPkTable(){
         '<button class="kb'+(cur==='1'?' a1':'')+'" onclick="tgl('+idx+',\'1\')">1</button>'+
       '</div></td>'+
       '<td>'+
-        (isCrit && changed
-          ? '<button class="ovr-btn" onclick="registerOverride('+idx+')">Registrar override</button>'
-          : isCrit
-            ? '<span style="font-size:.7rem;color:#adb5bd">Explorar para registrar</span>'
-            : '<span style="font-size:.7rem;color:#dee2e6">Base 0</span>')+
+        (isCrit
+          ? (changed
+              ? '<button class="ovr-btn" onclick="registerOverride('+idx+')">&#10003; Registrar override</button>'
+              : '<button class="ovr-btn" disabled style="opacity:.4" title="Modifique el valor de exploración para activar">Registrar override</button>')
+          : '<span style="font-size:.68rem;color:#ced4da">—</span>')+
       '</td>';
     tbody.appendChild(tr);
   });

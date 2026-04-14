@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AE-GD2-SV · Panel interactivo SV–Usuario</title>
   <link rel="stylesheet" href="./style.css">
+<style>body:not(.run-done) .result-section{display:none}</style>
 </head>
 <body>
   <header>
@@ -14,7 +15,7 @@
   </header>
 
   <main class="grid">
-    <section class="card">
+    <section class="card result-section">
       <h2>Entrada custodiada</h2>
       <div class="form-grid">
         <label>Modo
@@ -43,14 +44,14 @@
       <ul id="stateLog" class="compact-list"></ul>
     </section>
 
-    <section class="card">
+    <section class="card result-section">
       <h2>Secuencia soberana</h2>
       <div id="sequence" class="sequence"></div>
       <h3>Detalle del suceso</h3>
       <pre id="sequenceDetail" class="mono small"></pre>
     </section>
 
-    <section class="card wide">
+    <section class="card wide result-section">
       <h2>Polígonos y cambios</h2>
       <div class="polygons">
         <div>
@@ -87,7 +88,7 @@
       </div>
     </section>
 
-    <section class="card wide">
+    <section class="card wide result-section">
       <h2>Auditoría y banco</h2>
       <div id="auditSummary" class="summary"></div>
       <details>

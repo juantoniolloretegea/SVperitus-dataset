@@ -8,33 +8,49 @@ El soberano es el humano. El agente detecta, mide y presenta opciones acotadas.
 Ninguna opción se aplica sin confirmación humana explícita.
 Esta inyección no ejecuta ninguna corrección bajo ninguna circunstancia.
 
-## Lo que hace
-Cuando el usuario sube un archivo SVG en modo `corregir`:
-1. Parsea el SVG (DOMParser — no modifica el original)
-2. Detecta problemas en las regiones de `draft.modify`
-3. Para cada problema calcula tres opciones concretas con sus parámetros exactos
-4. Muestra las propuestas en el panel de auditoría
-5. Incluye `correction_proposals.json` en el bundle
+## Declaración de separación de canales — situación de Fase 1
 
-## Las tres opciones para footer con overflow horizontal
-- **O1** Reducir font-size: calcula el valor exacto necesario. Avisa si queda por debajo del mínimo legible (7px).
-- **O2** Dividir en dos líneas: calcula el punto de corte en límite de palabra más próximo a la mitad.
-- **O3** Reformular el texto: calcula el máximo de caracteres permitidos. **El agente no puede ejecutar esta opción** — requiere decisión humana sobre el contenido.
+El sistema opera con dos canales distintos que coexisten en Fase 1 sin estar conectados:
 
-## Límite declarado
-> Si la corrección necesaria no está entre estas tres opciones,
-> el AE-GD2-SV en Fase 1 no puede llevarla a cabo.
+**Canal 1 — intención en lenguaje natural:**
+El campo "Contexto en lenguaje natural" + "Restricciones duras" alimentan a `parseIntent`,
+que evalúa la coherencia de la intención sobre el dominio gráfico-semántico de la figura.
+Este canal opera sobre el SIGNIFICADO de la corrección solicitada.
+
+**Canal 2 — análisis estructural del artefacto SVG (C5b):**
+Cuando el archivo de entrada es un SVG, `analyzeSvg` detecta problemas técnicos
+en la geometría del artefacto (overflow de texto, márgenes insuficientes) y ofrece
+tres opciones acotadas para resolverlos. Este canal opera sobre la ESTRUCTURA TÉCNICA
+del fichero SVG, no sobre la intención semántica del usuario.
+
+**Separación deliberada:**
+Los dos canales actúan sobre objetos distintos y no se alimentan mutuamente en Fase 1.
+La conexión entre ellos (ejecutar la opción estructural elegida sobre el artefacto real,
+verificarla contra el contrato de intención) es arquitectura de Fase 2, ya diseñada en
+`diseno_c4/05_capas_no_destructivas/` y `diseno_c4/07_acoplamiento_herramienta/`.
+
+Esta separación no viola el SV porque ambos canales son honestos sobre su alcance:
+el Canal 1 produce un informe de intención; el Canal 2 produce propuestas estructurales.
+Ninguno de los dos produce una imagen corregida — eso es Fase 2.
+
+**Lo que el corrector hace**
+- Detecta overflow horizontal: `text.length × C5B_CHAR_FACTOR × font-size > viewBox_width`
+- Calcula opciones O1 (reducir font-size), O2 (dividir línea), O3 (reformular — solo humano)
+- Produce `correction_proposals.json` en el bundle y accordion visible en el panel
+- NO modifica el SVG de entrada bajo ninguna circunstancia
+
+**Lo que el corrector NO hace**
+- No modifica el contenido del texto (solo atributos estructurales)
+- No ejecuta ninguna de las opciones propuestas
+- No conecta con el canal de intención libre
+- No produce imagen corregida
 
 ## Factor heurístico declarado
-`C5B_CHAR_FACTOR = 0.55` (char_width ≈ 0.55 × font-size, sans-serif)
-No es medida exacta. P25 (Reproducibilidad laboratorial) permanece en U.
+`C5B_CHAR_FACTOR = 0.55` (estimación sans-serif). P25=U (Reproducibilidad laboratorial).
 
-## Salidas añadidas al bundle
-- `01_informe_usuario/correction_proposals.json` — propuestas estructuradas con el
-  campo `"invariante": "Ninguna propuesta ha sido ejecutada. El soberano decide."`
+## Límite declarado
+Si la corrección necesaria no está entre las tres opciones propuestas,
+el AE-GD2-SV en Fase 1 no puede llevarla a cabo.
 
 ## Archivos afectados
 - `web/public/app.js` — función `analyzeSvg()` + integración en `run()`
-
-## Para archivos PNG/JPG
-El AVISO_ALCANCE de C5a sigue activo. C5b solo opera sobre SVG.
