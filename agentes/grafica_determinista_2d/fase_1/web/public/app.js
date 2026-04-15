@@ -7,13 +7,38 @@ const PARAM_NAMES = [
 ];
 const K3 = ['0','1','U'];
 const QUALITY_PARAM_IDS = new Set(['P16','P17','P18','P19','P20']);
+function updateEjecutarBtn(){
+  const modo=(document.getElementById('modeSelect')||{}).value||'correct';
+  const btn=document.getElementById('runBtn');
+  if(!btn) return;
+  btn.disabled=(modo==='correct'&&!fileLoaded);
+  btn.title=btn.disabled?'Seleccione un archivo para corregir':'';
+}
+function clearState(){
+  window._svgAnalysis=null; correctedSvgData=null; window._lastBuildArgs=null;
+  try{ localStorage.removeItem('ae_gd2_sv_consejo'); }catch(e){}
+  const cb=document.getElementById('consejoBtn'); if(cb) cb.disabled=true;
+}
 document.addEventListener('DOMContentLoaded',function(){
-  try{ const d=localStorage.getItem('ae_gd2_sv_consejo');
-    if(d && document.getElementById('consejoBtn'))
-      document.getElementById('consejoBtn').disabled=false;
+  try{
+    const d=localStorage.getItem('ae_gd2_sv_consejo');
+    const cb=document.getElementById('consejoBtn'); if(cb) cb.disabled=!d;
   }catch(e){}
+  updateEjecutarBtn();
+  const fi=document.getElementById('fileInput');
+  if(fi) fi.addEventListener('change',function(){
+    fileLoaded=fi.files.length>0; updateEjecutarBtn();
+  });
+  const ms=document.getElementById('modeSelect');
+  if(ms) ms.addEventListener('change',function(){
+    if(ms.value!=='correct') fileLoaded=false;
+    updateEjecutarBtn();
+  });
 });
+
 let currentFileMeta=null, correctedSvgData=null;
+let fileLoaded=false;
+
 const MAX_FILE_BYTES = 8 * 1024 * 1024;
 let current = null;
 const ui = {
@@ -226,7 +251,7 @@ function computeR3Metrics(cell, h) {
 // El agente aplica SOLO la opción que el humano soberano ha confirmado explícitamente.
 // Opera únicamente sobre atributos estructurales del footer (font-size, posición y).
 // No modifica el contenido semántico del texto. No toca ninguna otra región del SVG.
-function correctSvg(proposal, svgText){
+function correctSvg(proposal, svgText, propIdx){
   const parser = new DOMParser();
   const doc = parser.parseFromString(svgText, 'image/svg+xml');
   const choice = proposal.opciones.find(o=>o.id===proposal.opcion_elegida);
@@ -282,7 +307,20 @@ function correctSvg(proposal, svgText){
     return {ok:true, svg:xs.serializeToString(doc), diff};
   }
 
-  return {ok:false, reason:'opcion_O3_requiere_accion_humana'};
+  if(choice.id==='O3'){
+    const ta=document.getElementById('o3t_'+parseInt(propIdx||0));
+    const nuevoTexto=ta?ta.value.trim():'';
+    if(!nuevoTexto) return {ok:false, reason:'O3: escriba el texto reformulado antes de aplicar'};
+    const allT=Array.from(doc.querySelectorAll('text'));
+    let tgt=null; for(const t of allT){if((t.textContent||'').trim().length>80){tgt=t;break;}}
+    if(!tgt) return {ok:false, reason:'elemento_footer_no_encontrado'};
+    const orig=(tgt.textContent||'').trim();
+    tgt.textContent=nuevoTexto;
+    return {ok:true, svg:new XMLSerializer().serializeToString(doc),
+            diff:{op:'replace_text',elem:'text[footer]',antes:orig,despues:nuevoTexto}};
+  }
+  return {ok:false, reason:'opcion_no_reconocida'};
+
 }
 
 // ── C5b: analizador estructural de SVG ─────────────────────────────────────
@@ -430,7 +468,14 @@ function analyzeSvg(svgText, modifyTargets) {
   return { proposals, k3, notes };
 }
 
-async function run(){ ui.downloadBtn.disabled=true; ui.stateLog.innerHTML=''; setState('IDLE'); document.body.classList.remove('run-done'); try{ const file=ui.fileInput.files[0]||null; const fileMeta=await quarantineFile(file); currentFileMeta=fileMeta; const packet=buildUserContextPacket(fileMeta); setState('PACKET_READY'); const draft=buildDraft(packet); setState('DRAFT_READY'); if(draft.unresolved && draft.unresolved.length){ ui.sequenceDetail.textContent = JSON.stringify(draft, null, 2); setState('INTERNAL_REJECT', draft.unresolved.join(' | ')); ui.auditSummary.innerHTML = '<strong>Rechazado por contradicción de intención.</strong>'; ui.auditJson.textContent = JSON.stringify({ packet, draft, error:'intent_conflict' }, null, 2); return; } const confirmed=confirmDraft(draft); setState('CONFIRMED');
+async function run(){
+  const _modo=(document.getElementById('modeSelect')||{}).value||'correct';
+  if(_modo==='correct'&&!fileLoaded){
+    setState('RECHAZADO','Seleccione un archivo antes de ejecutar en modo corregir');
+    return;
+  }
+  clearState();
+  ui.downloadBtn.disabled=true; ui.stateLog.innerHTML=''; setState('IDLE'); document.body.classList.remove('run-done'); try{ const file=ui.fileInput.files[0]||null; const fileMeta=await quarantineFile(file); currentFileMeta=fileMeta; const packet=buildUserContextPacket(fileMeta); setState('PACKET_READY'); const draft=buildDraft(packet); setState('DRAFT_READY'); if(draft.unresolved && draft.unresolved.length){ ui.sequenceDetail.textContent = JSON.stringify(draft, null, 2); setState('INTERNAL_REJECT', draft.unresolved.join(' | ')); ui.auditSummary.innerHTML = '<strong>Rechazado por contradicción de intención.</strong>'; ui.auditJson.textContent = JSON.stringify({ packet, draft, error:'intent_conflict' }, null, 2); return; } const confirmed=confirmDraft(draft); setState('CONFIRMED');
     // C5b: analizar SVG de entrada — solo detecta y propone, nunca ejecuta
     let svgAnalysis = null;
     if(fileMeta && fileMeta.type === 'image/svg+xml' && fileMeta.text && draft.modify && draft.modify.length){
@@ -450,12 +495,27 @@ async function run(){ ui.downloadBtn.disabled=true; ui.stateLog.innerHTML=''; se
         (p.opciones||[]).forEach(op=>{
           const w=op.aviso?'<em style="color:#856404"> '+op.aviso+'</em>':'';
           const par=JSON.stringify(op.parametros).replace(/"/g,'').replace(/[{}]/g,'').replace(/,/g,' · ');
-                    const ejecutable = op.id==='O1'||op.id==='O2';
-          const pIdx = (window._svgAnalysis&&window._svgAnalysis.proposals)?window._svgAnalysis.proposals.indexOf(p):0;
-          const btnAplicar = ejecutable
-            ? '<button onclick="applySvgOption('+pIdx+',\''+op.id+'\')" style="margin-left:.5rem;padding:.15rem .6rem;background:#0f3460;color:#fff;border:none;border-radius:3px;cursor:pointer;font-size:.75rem">Aplicar esta opción</button>'
-            : '';
-          pH+='<p style="margin-left:.8rem;margin-bottom:.2rem"><strong>'+op.id+'</strong> — '+op.accion+': <code>'+par+'</code>'+w+btnAplicar+'</p>';
+                    let btnAplicar = '';
+          if(op.id==='O1'||op.id==='O2'){
+            const pIdx2=(window._svgAnalysis&&window._svgAnalysis.proposals)?window._svgAnalysis.proposals.indexOf(p):0;
+            btnAplicar='<button onclick="applySvgOption('+pIdx2+',\''+op.id+'\')" '
+              +'style="margin-left:.5rem;padding:.15rem .6rem;background:#0f3460;color:#fff;'
+              +'border:none;border-radius:3px;cursor:pointer;font-size:.75rem">'
+              +'Aplicar esta opción</button>';
+          } else if(op.id==='O3'){
+            const pIdx2=(window._svgAnalysis&&window._svgAnalysis.proposals)?window._svgAnalysis.proposals.indexOf(p):0;
+            const mxC=op.parametros&&op.parametros.chars_maximos_para_ajuste?op.parametros.chars_maximos_para_ajuste:105;
+            btnAplicar='<div style="margin-top:.4rem">'
+              +'<textarea id="o3t_'+pIdx2+'" maxlength="'+mxC+'" rows="2" '
+              +'style="width:98%;font-size:.8rem;border:1px solid #dee2e6;'
+              +'border-radius:3px;padding:.3rem;resize:vertical" '
+              +'placeholder="≤'+mxC+' caracteres..."></textarea>'
+              +'<button onclick="applySvgOption('+pIdx2+',\'O3\')" '
+              +'style="margin-top:.2rem;padding:.15rem .6rem;background:#1d6a3a;color:#fff;'
+              +'border:none;border-radius:3px;cursor:pointer;font-size:.75rem">'
+              +'Aplicar texto soberano</button></div>';
+          }
+                    pH+='<p style="margin-left:.8rem;margin-bottom:.2rem"><strong>'+op.id+'</strong> — '+op.accion+': <code>'+par+'</code>'+w+btnAplicar+'</p>';
         });
         pH+='<p style="font-size:.75rem;color:#6c757d;margin-top:.3rem;font-style:italic">'+p.limite_agente+'</p>';
       });
@@ -477,7 +537,7 @@ window.applySvgOption = async function(propIdx, opcionId){
     alert('Datos de análisis no disponibles. Vuelva a ejecutar el agente.'); return;
   }
   const proposal = {...p, opcion_elegida: opcionId};
-  const result = correctSvg(proposal, currentFileMeta.text);
+  const result = correctSvg(proposal, currentFileMeta.text, propIdx);
   if(!result.ok){
     alert('El agente no puede aplicar esta opción: ' + result.reason); return;
   }
