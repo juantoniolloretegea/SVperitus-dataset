@@ -20,10 +20,11 @@ function clearState(){
   const cb=document.getElementById('consejoBtn'); if(cb) cb.disabled=true;
 }
 document.addEventListener('DOMContentLoaded',function(){
-  try{
-    const d=localStorage.getItem('ae_gd2_sv_consejo');
-    const cb=document.getElementById('consejoBtn'); if(cb) cb.disabled=!d;
-  }catch(e){}
+  // Sesión limpia: borrar siempre datos del run anterior
+  try{ localStorage.removeItem('ae_gd2_sv_consejo'); }catch(e){}
+  // consejoBtn siempre desactivado hasta EXPORT_READY
+  const cb=document.getElementById('consejoBtn');
+  if(cb) cb.disabled=true;
   updateEjecutarBtn();
   const fi=document.getElementById('fileInput');
   if(fi) fi.addEventListener('change',function(){
@@ -543,7 +544,8 @@ window.applySvgOption = async function(propIdx, opcionId){
   }
   // Guardar figura corregida en el bundle y regenerar ZIP
   correctedSvgData = {svg: result.svg, diff: result.diff, opcion: opcionId};
-  setState('SVG_CORREGIDO', 'Figura corregida con opción ' + opcionId + ' — descargue el bundle actualizado');
+  setState('SVG_CORREGIDO', 'Figura corregida con opción ' + opcionId
+    + ' — figura_corregida.svg en el bundle. Descargue el ZIP actualizado.');
   ui.downloadBtn.disabled = false;
   document.body.classList.add('run-done');
   // Disparar regeneración del bundle con la figura corregida incluida
@@ -552,7 +554,9 @@ window.applySvgOption = async function(propIdx, opcionId){
 
 
 async function rebuildBundleWithCorrection(){
-  if(!correctedSvgData || !window._lastBuildArgs) return;
+  if(!correctedSvgData || !window._lastBuildArgs){
+    console.warn('rebuildBundle: faltan datos'); return;
+  }
   const {files, report} = window._lastBuildArgs;
   // Añadir la figura corregida al bundle
   files['01_informe_usuario/figura_corregida.svg'] = correctedSvgData.svg;
