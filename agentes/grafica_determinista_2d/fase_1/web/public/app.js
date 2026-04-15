@@ -338,88 +338,89 @@ function analyzeSvg(svgText, modifyTargets) {
   }
 
   // ── Análisis de footer ────────────────────────────────────────────────────
-  if (modifyTargets.includes('footer')) {
-    const allTexts = [...doc.querySelectorAll('text')];
-    const footerEls = allTexts.filter(el => parseFloat(el.getAttribute('y')||0) > vbH * 0.75);
+  // Canal C5b — análisis estructural independiente del canal NL (INYECCION_C5b)
+  // Corre siempre para archivos SVG, sin filtrar por modifyTargets
+  const allTexts = [...doc.querySelectorAll('text')];
+  const footerEls = allTexts.filter(el => parseFloat(el.getAttribute('y')||0) > vbH * 0.75);
 
-    for (const el of footerEls) {
-      const fs  = parseFloat(el.getAttribute('font-size') || 12);
-      const txt = (el.textContent || '').trim();
-      if (!txt) continue;
+  for (const el of footerEls) {
+    const fs  = parseFloat(el.getAttribute('font-size') || 12);
+    const txt = (el.textContent || '').trim();
+    if (!txt) continue;
 
-      const estW    = txt.length * C5B_CHAR_FACTOR * fs;
-      const needsW  = Math.ceil(estW + 2 * C5B_MARGIN_PX);
-      const overflow = needsW > vbW;
-      const yEl      = parseFloat(el.getAttribute('y') || 0);
-      const tooLow   = (vbH - yEl) < C5B_BOTTOM_MIN;
+    const estW    = txt.length * C5B_CHAR_FACTOR * fs;
+    const needsW  = Math.ceil(estW + 2 * C5B_MARGIN_PX);
+    const overflow = needsW > vbW;
+    const yEl      = parseFloat(el.getAttribute('y') || 0);
+    const tooLow   = (vbH - yEl) < C5B_BOTTOM_MIN;
 
-      if (!overflow && !tooLow) continue;
+    if (!overflow && !tooLow) continue;
 
-      // Calcular propuestas concretas
-      const maxCharsAllowed = Math.floor((vbW - 2 * C5B_MARGIN_PX) / (C5B_CHAR_FACTOR * fs));
-      const fsSuggested     = Math.max(C5B_MIN_READABLE,
-                                Math.floor((vbW - 2 * C5B_MARGIN_PX) / (txt.length * C5B_CHAR_FACTOR)));
-      const splitPos        = _nearestWordBoundary(txt, Math.floor(txt.length / 2));
-      const line1Preview    = txt.slice(0, splitPos).trim();
-      const line2Preview    = txt.slice(splitPos).trim();
+    // Calcular propuestas concretas
+    const maxCharsAllowed = Math.floor((vbW - 2 * C5B_MARGIN_PX) / (C5B_CHAR_FACTOR * fs));
+    const fsSuggested     = Math.max(C5B_MIN_READABLE,
+                              Math.floor((vbW - 2 * C5B_MARGIN_PX) / (txt.length * C5B_CHAR_FACTOR)));
+    const splitPos        = _nearestWordBoundary(txt, Math.floor(txt.length / 2));
+    const line1Preview    = txt.slice(0, splitPos).trim();
+    const line2Preview    = txt.slice(splitPos).trim();
 
-      const opciones = [];
+    const opciones = [];
 
-      if (overflow) {
-        opciones.push({
-          id: 'O1',
-          accion: 'Reducir tamaño de texto',
-          parametros: { font_size_actual: fs, font_size_propuesto: fsSuggested },
-          aviso: fsSuggested < C5B_MIN_READABLE
-            ? 'font-size resultante (' + fsSuggested + 'px) por debajo del mínimo legible recomendado (' + C5B_MIN_READABLE + 'px). Opción no recomendada.'
-            : null,
-          ejecutable_agente_fase_1: false,
-          requiere_accion_humana: false
-        });
-        opciones.push({
-          id: 'O2',
-          accion: 'Dividir la línea en dos',
-          parametros: {
-            posicion_corte_caracter: splitPos,
-            linea_1_preview: line1Preview,
-            linea_2_preview: line2Preview
-          },
-          aviso: 'Punto de corte propuesto: límite de palabra más próximo a la mitad del texto. El humano debe validar que el corte es semánticamente adecuado.',
-          ejecutable_agente_fase_1: false,
-          requiere_accion_humana: false
-        });
-        opciones.push({
-          id: 'O3',
-          accion: 'Reformular el texto (requiere acción humana — agente no puede ejecutar)',
-          parametros: {
-            chars_actuales: txt.length,
-            chars_maximos_para_ajuste: maxCharsAllowed,
-            exceso_chars: txt.length - maxCharsAllowed
-          },
-          aviso: 'El agente no puede modificar el contenido del texto. El humano debe reformular la atribución a menos de ' + maxCharsAllowed + ' caracteres.',
-          ejecutable_agente_fase_1: false,
-          requiere_accion_humana: true
-        });
-      }
-
-      proposals.push({
-        region: 'footer',
-        problema: overflow ? 'desbordamiento_horizontal' : 'margen_inferior_insuficiente',
-        medicion: {
-          texto_chars: txt.length,
-          font_size: fs,
-          anchura_estimada_px: Math.round(estW),
-          viewbox_width_px: vbW,
-          desbordamiento_px: overflow ? Math.max(0, Math.round(needsW - vbW)) : 0,
-          margen_inferior_px: tooLow ? Math.round(vbH - yEl) : null,
-          factor_heuristico: C5B_CHAR_FACTOR,
-          nota_factor: 'Estimación estadística. No es medida exacta (requeriría render real). P25=U.'
+    if (overflow) {
+      opciones.push({
+        id: 'O1',
+        accion: 'Reducir tamaño de texto',
+        parametros: { font_size_actual: fs, font_size_propuesto: fsSuggested },
+        aviso: fsSuggested < C5B_MIN_READABLE
+          ? 'font-size resultante (' + fsSuggested + 'px) por debajo del mínimo legible recomendado (' + C5B_MIN_READABLE + 'px). Opción no recomendada.'
+          : null,
+        ejecutable_agente_fase_1: false,
+        requiere_accion_humana: false
+      });
+      opciones.push({
+        id: 'O2',
+        accion: 'Dividir la línea en dos',
+        parametros: {
+          posicion_corte_caracter: splitPos,
+          linea_1_preview: line1Preview,
+          linea_2_preview: line2Preview
         },
-        opciones,
-        limite_agente: 'Si la corrección necesaria no está entre estas opciones, el AE-GD2-SV en Fase 1 no puede llevarla a cabo.'
+        aviso: 'Punto de corte propuesto: límite de palabra más próximo a la mitad del texto. El humano debe validar que el corte es semánticamente adecuado.',
+        ejecutable_agente_fase_1: false,
+        requiere_accion_humana: false
+      });
+      opciones.push({
+        id: 'O3',
+        accion: 'Reformular el texto (requiere acción humana — agente no puede ejecutar)',
+        parametros: {
+          chars_actuales: txt.length,
+          chars_maximos_para_ajuste: maxCharsAllowed,
+          exceso_chars: txt.length - maxCharsAllowed
+        },
+        aviso: 'El agente no puede modificar el contenido del texto. El humano debe reformular la atribución a menos de ' + maxCharsAllowed + ' caracteres.',
+        ejecutable_agente_fase_1: false,
+        requiere_accion_humana: true
       });
     }
+
+    proposals.push({
+      region: 'footer',
+      problema: overflow ? 'desbordamiento_horizontal' : 'margen_inferior_insuficiente',
+      medicion: {
+        texto_chars: txt.length,
+        font_size: fs,
+        anchura_estimada_px: Math.round(estW),
+        viewbox_width_px: vbW,
+        desbordamiento_px: overflow ? Math.max(0, Math.round(needsW - vbW)) : 0,
+        margen_inferior_px: tooLow ? Math.round(vbH - yEl) : null,
+        factor_heuristico: C5B_CHAR_FACTOR,
+        nota_factor: 'Estimación estadística. No es medida exacta (requeriría render real). P25=U.'
+      },
+      opciones,
+      limite_agente: 'Si la corrección necesaria no está entre estas opciones, el AE-GD2-SV en Fase 1 no puede llevarla a cabo.'
+    });
   }
+
 
   const k3 = proposals.length > 0 ? '1' : (proposals.length === 0 ? '0' : 'U');
   const notes = proposals.length > 0
@@ -441,7 +442,7 @@ async function run(){ ui.downloadBtn.disabled=true; ui.stateLog.innerHTML=''; se
       setState('SVG_ANALISIS_COMPLETO', msg);
     } const runId=makeId('GD2-RUN'); const baseFrame=buildFrame(confirmed,fileMeta); const corrected = applyFactualCorrector(baseFrame); const frame=corrected.corrected; const gob=buildGob(frame); const sequence=buildSequence(baseFrame, frame, gob, corrected.trace);
     const r3frame=computeR3Metrics(frame); const r3gob=computeR3Metrics(gob); const frameSvg=polygonSvg('C_frame^25', frame); const gobSvg=polygonSvg('C_gob^25', gob); const baseDictamen=dictamenFromCell(baseFrame); const correctedDictamen=dictamenFromCell(frame); const dictamenGlobal=dictamenFromCell(gob); const events = [{event_id:makeId('GD2-EVT'), parent_event_id:null, run_id:runId, event_type:'create_user_context_packet', dictamen_k3:null, timestamp_utc:nowIso(), affected_params:['P01','P02','P03']},{event_id:makeId('GD2-EVT'), parent_event_id:null, run_id:runId, event_type:'translate_to_draft', dictamen_k3:null, timestamp_utc:nowIso(), affected_params:['P06','P08','P10']},{event_id:makeId('GD2-EVT'), parent_event_id:null, run_id:runId, event_type:'confirm_intent', dictamen_k3:baseDictamen, timestamp_utc:nowIso(), affected_params:['P21','P22']}]; corrected.trace.forEach(step=>events.push({event_id:makeId('GD2-EVT'), parent_event_id:events[events.length-1].event_id, run_id:runId, event_type:'factual_corrector_step', dictamen_k3:correctedDictamen, timestamp_utc:nowIso(), affected_params:step.changed_params})); events.push({event_id:makeId('GD2-EVT'), parent_event_id:events[events.length-1].event_id, run_id:runId, event_type:'build_audit_report', dictamen_k3:dictamenGlobal, timestamp_utc:nowIso(), affected_params:['P23','P24','P25']}); const eventIndex={ by_event_id:Object.fromEntries(events.map((e,i)=>[e.event_id,i])), by_run_id:{[runId]:events.map((_,i)=>i)}, by_event_type:events.reduce((acc,e,i)=>((acc[e.event_type] ||= []).push(i), acc),{}), by_param:events.reduce((acc,e,i)=>{ (e.affected_params||[]).forEach(p=>((acc[p] ||= []).push(i))); return acc; },{})}; const report={ run_id:runId, base_dictamen:baseDictamen, corrected_dictamen:correctedDictamen, dictamen_global:dictamenGlobal, sovereign_sequence:sequence, correction_trace:corrected.trace, critical_parameters:frame, metrics:{ before:factualMetrics(baseFrame,0), after:factualMetrics(frame, corrected.trace.length) }, exposure_gate:dictamenGlobal==='NO APTO'?'NO EXPONIBLE':(dictamenGlobal==='INDETERMINADO'?'EXPOSICION_CON_U':'EXPONIBLE'), r3_frame:r3frame, r3_gob:r3gob,
-        svg_analysis: svgAnalysis ? { k3: svgAnalysis.k3, notes: svgAnalysis.notes, proposals_count: svgAnalysis.proposals.length } : null, correction_scope:fileMeta&&['image/png','image/jpeg'].includes(fileMeta.type||'')?'INFORME_ESPECIFICADO — imagen raster no procesada; executor externo requerido (Fase 2)':fileMeta&&(fileMeta.type||'').includes('svg')?'SVG_ANALIZADO — propuestas pendientes de confirmación humana (ver correction_proposals.json)':'CREACION — sin imagen de entrada', packet,draft,confirmed }; const criticalCsv=toCsv(frame,['position','param_id','name','value_k3','justification']); const frameCsv=toCsv(frame.map(r=>({position:r.position,param_id:r.param_id,value_k3:r.value_k3,label:r.name})),['position','param_id','value_k3','label']); const gobCsv=toCsv(gob.map(r=>({position:r.position,param_id:r.param_id,value_k3:r.value_k3,label:r.name})),['position','param_id','value_k3','label']); const seqCsv=toCsv(sequence,['sovereign_id','epsilon_id','label','dictamen_k3']); const eventsFlatCsv=toCsv(events.map(e=>({...e,affected_params:(e.affected_params||[]).join(';')})),['event_id','parent_event_id','run_id','event_type','dictamen_k3','timestamp_utc','affected_params']); const indexByParamCsv=toCsv(Object.entries(eventIndex.by_param).map(([param_id,idxs])=>({param_id,event_count:idxs.length,last_position:idxs[idxs.length-1]})),['param_id','event_count','last_position']); const indexByTypeCsv=toCsv(Object.entries(eventIndex.by_event_type).map(([event_type,idxs])=>({event_type,count:idxs.length,last_position:idxs[idxs.length-1]})),['event_type','count','last_position']); const eventsJsonl=events.map(e=>JSON.stringify(e)).join('\n'); const quarantineLog=JSON.stringify({state:'PACKET_READY',timestamp_utc:nowIso(),file:fileMeta?.name??null})+'\n'; const validatorLog=JSON.stringify({state:'VALIDATED',dictamen_k3:dictamenGlobal,timestamp_utc:nowIso()})+'\n'; const reportHtml=makeHtmlReport(report, frameSvg, gobSvg); ui.frameSvg.innerHTML=frameSvg; ui.gobSvg.innerHTML=gobSvg; renderSequence(sequence); renderParams(frame,gob); let svgPropsHtml='';
+        svg_analysis: svgAnalysis ? { k3: svgAnalysis.k3, notes: svgAnalysis.notes, proposals_count: svgAnalysis.proposals.length } : null, correction_scope:fileMeta&&['image/png','image/jpeg'].includes(fileMeta.type||'')?'INFORME_ESPECIFICADO — imagen raster no procesada; executor externo requerido (Fase 2)':fileMeta&&(fileMeta.type||'').includes('svg')?(svgAnalysis&&svgAnalysis.proposals.length>0?'SVG_ANALIZADO — propuestas pendientes de confirmación humana (ver correction_proposals.json)':'SVG_ANALIZADO — sin correcciones estructurales necesarias'):'CREACION — sin imagen de entrada', packet,draft,confirmed }; const criticalCsv=toCsv(frame,['position','param_id','name','value_k3','justification']); const frameCsv=toCsv(frame.map(r=>({position:r.position,param_id:r.param_id,value_k3:r.value_k3,label:r.name})),['position','param_id','value_k3','label']); const gobCsv=toCsv(gob.map(r=>({position:r.position,param_id:r.param_id,value_k3:r.value_k3,label:r.name})),['position','param_id','value_k3','label']); const seqCsv=toCsv(sequence,['sovereign_id','epsilon_id','label','dictamen_k3']); const eventsFlatCsv=toCsv(events.map(e=>({...e,affected_params:(e.affected_params||[]).join(';')})),['event_id','parent_event_id','run_id','event_type','dictamen_k3','timestamp_utc','affected_params']); const indexByParamCsv=toCsv(Object.entries(eventIndex.by_param).map(([param_id,idxs])=>({param_id,event_count:idxs.length,last_position:idxs[idxs.length-1]})),['param_id','event_count','last_position']); const indexByTypeCsv=toCsv(Object.entries(eventIndex.by_event_type).map(([event_type,idxs])=>({event_type,count:idxs.length,last_position:idxs[idxs.length-1]})),['event_type','count','last_position']); const eventsJsonl=events.map(e=>JSON.stringify(e)).join('\n'); const quarantineLog=JSON.stringify({state:'PACKET_READY',timestamp_utc:nowIso(),file:fileMeta?.name??null})+'\n'; const validatorLog=JSON.stringify({state:'VALIDATED',dictamen_k3:dictamenGlobal,timestamp_utc:nowIso()})+'\n'; const reportHtml=makeHtmlReport(report, frameSvg, gobSvg); ui.frameSvg.innerHTML=frameSvg; ui.gobSvg.innerHTML=gobSvg; renderSequence(sequence); renderParams(frame,gob); let svgPropsHtml='';
     if(svgAnalysis&&svgAnalysis.proposals.length>0){
       let pH='<details style="margin-top:.5rem;border:1px solid #dee2e6;border-radius:6px;padding:.5rem .8rem">'+'<summary style="font-weight:700;cursor:pointer;color:#0f3460">&#128270; Análisis SVG — '+svgAnalysis.proposals.length+' problema(s). Propuestas acotadas del agente.</summary><div style="margin-top:.5rem;font-size:.83rem">';
       svgAnalysis.proposals.forEach(p=>{
