@@ -7,12 +7,49 @@ const PARAM_NAMES = [
 ];
 const K3 = ['0','1','U'];
 const QUALITY_PARAM_IDS = new Set(['P16','P17','P18','P19','P20']);
+
+function savePreAnalisis(file){
+  // Guarda datos mínimos en localStorage para que consejo.html
+  // muestre el estado PRE_RUN al activarse en paralelo con Ejecutar
+  try{
+    const isSvg=(file.type||'').includes('svg') || file.name.endsWith('.svg');
+    const preData={
+      pre_run:true,
+      run_id:'PRE-'+Date.now(),
+      file_name:file.name,
+      file_type:file.type,
+      file_size:file.size,
+      is_svg:isSvg,
+      estado:'CARGA_DETECTADA',
+      mensaje:'Archivo cargado. Ejecute el agente para análisis completo.',
+      // Célula vacía (todo U): los valores K3 reales los calcula run()
+      frame: Array.from({length:25},(_,i)=>({
+        position:i+1,
+        param_id:'P'+(i+1<10?'0':'')+(i+1),
+        value_k3:'U'
+      }))
+    };
+    localStorage.setItem('ae_gd2_sv_consejo',JSON.stringify(preData));
+  }catch(e){ console.warn('savePreAnalisis:',e); }
+}
+
 function updateEjecutarBtn(){
   const modo=(document.getElementById('modeSelect')||{}).value||'correct';
   const btn=document.getElementById('runBtn');
-  if(!btn) return;
-  btn.disabled=(modo==='correct'&&!fileLoaded);
-  btn.title=btn.disabled?'Seleccione un archivo para corregir':'';
+  const cb=document.getElementById('consejoBtn');
+  const fs=document.getElementById('file-section');
+  const esCorregir=(modo==='correct'||modo==='corregir');
+  // Visibilidad de la sección de archivo
+  if(fs) fs.style.display=esCorregir?'':'none';
+  // Botón Ejecutar
+  if(btn){
+    btn.disabled=(esCorregir&&!fileLoaded);
+    btn.title=btn.disabled?'Seleccione un archivo para corregir':'';
+  }
+  // Botón Consejo: activo en paralelo con Ejecutar (misma condición)
+  // En crear: siempre activo (no necesita archivo)
+  // En corregir: activo cuando hay archivo cargado
+  if(cb) cb.disabled=(esCorregir&&!fileLoaded);
 }
 function clearState(){
   window._svgAnalysis=null; correctedSvgData=null; window._lastBuildArgs=null;
@@ -28,7 +65,10 @@ document.addEventListener('DOMContentLoaded',function(){
   updateEjecutarBtn();
   const fi=document.getElementById('fileInput');
   if(fi) fi.addEventListener('change',function(){
-    fileLoaded=fi.files.length>0; updateEjecutarBtn();
+    fileLoaded=fi.files.length>0;
+    updateEjecutarBtn();
+    if(fileLoaded) savePreAnalisis(fi.files[0]);
+    else{ try{localStorage.removeItem('ae_gd2_sv_consejo');}catch(e){} }
   });
   const ms=document.getElementById('modeSelect');
   if(ms) ms.addEventListener('change',function(){
@@ -43,7 +83,7 @@ let fileLoaded=false;
 const MAX_FILE_BYTES = 8 * 1024 * 1024;
 let current = null;
 const ui = {
-  mode: document.getElementById('mode'),
+  mode: document.getElementById('modeSelect'),
   figureKind: document.getElementById('figureKind'),
   width: document.getElementById('width'),
   height: document.getElementById('height'),

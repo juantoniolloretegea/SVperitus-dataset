@@ -239,6 +239,23 @@ function counsel(data,rf){
 // ── Renderizado completo ─────────────────────────────────────────────────────
 function renderAll(){
   if(!DATA)return;
+  // Estado PRE_RUN: archivo cargado pero run aún no ejecutado
+  if(DATA.pre_run){
+    document.getElementById('run-meta').textContent=
+      'Archivo cargado: '+DATA.file_name+' ('
+      +(DATA.is_svg?'SVG':'raster')+')';
+    document.getElementById('main-content').innerHTML=
+      '<div class="card wide" style="padding:2rem;text-align:center">'
+      +'<h2 style="color:#0f3460;margin-bottom:1rem">Archivo detectado — análisis pendiente</h2>'
+      +'<p style="color:#6c757d;font-size:.9rem">'
+      +DATA.mensaje
+      +'</p><p style="margin-top:1rem;font-size:.8rem;color:#adb5bd">'
+      +'Tipo: '+DATA.file_type+' &nbsp;·&nbsp; Tamaño: '
+      +(DATA.file_size/1024).toFixed(1)+'KB'
+      +'</p></div>';
+    return;
+  }
+
   const d=DATA;
   document.getElementById('run-meta').textContent=
     'Run ID: '+d.run_id+' · Dictamen global: '+d.dictamen.global+
