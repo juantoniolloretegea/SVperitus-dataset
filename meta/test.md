@@ -32,16 +32,15 @@ Cuando $k = m$, el determinante $\det(J_{SV})$ define el **índice escalar de se
 
 ### 14.1.3. Transformación bajo cambio factual admisible
 
-**Proposición 14.1.1.** *Sea $\Phi: \Xi_{SV} \to \Xi'_{SV}$ un cambio factual admisible con matriz factual $M^a{}_c$. El jacobiano factual transforma según*
+**Proposición 14.1.1.** Sea $`\Phi: \Xi_{SV} \to \Xi'_{SV}`$ un cambio factual admisible con matriz factual $`M^a{}_c`$. El jacobiano factual transforma según
 
 $$
 (J'_{SV})^a{}_b \;=\; M^a{}_c \cdot (J_{SV})^c{}_b,
 $$
 
-*y su determinante según $\det(J'_{SV}) = \det(M) \cdot \det(J_{SV})$.*
+y su determinante según $`\det(J'_{SV}) = \det(M) \cdot \det(J_{SV})`$.
 
-*Demostración.* Por la regla de la cadena factual aplicada al cambio $\Phi$ sobre el dominio admisible, $q'^a = M^a{}_c\, q^c$, y la derivación $\partial^{SV}_{\theta_b}$ actúa linealmente sobre $q'^a$ con coeficiente $M^a{}_c$ independiente del parámetro. La invariancia del parámetro $\theta$ bajo $\Phi$ (por la definición de cambio factual admisible) garantiza la forma de transformación matricial indicada. El determinante se sigue de la multiplicatividad canónica. Q.E.D.
-
+**Demostración.** Por la regla de la cadena factual aplicada al cambio $`\Phi`$ sobre el dominio admisible, $`q'^a = M^a{}_c\, q^c`$, y la derivación $`\partial^{SV}_{\theta_b}`$ actúa linealmente sobre $`q'^a`$ con coeficiente $`M^a{}_c`$ independiente del parámetro. La invariancia del parámetro $`\theta`$ bajo $`\Phi`$ —por la definición de cambio factual admisible— garantiza la forma de transformación matricial indicada. El determinante se sigue de la multiplicatividad canónica. Q.E.D.
 ### 14.1.4. Régimen regular y régimen singular
 
 Se define como **régimen factual regular** el subdominio de $\Theta_{SV}$ donde $\det(J_{SV}) \neq 0$, y como **régimen factual singular** el subconjunto donde $\det(J_{SV}) = 0$. En régimen regular, toda magnitud factual admite reconstrucción local a partir de $k$ derivaciones factuales independientes; en régimen singular, la reconstrucción exige activación del criterio absoluto de frontera del §14.2.
