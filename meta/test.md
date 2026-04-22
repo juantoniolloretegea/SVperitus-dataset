@@ -73,7 +73,7 @@ y su estatuto se mantiene íntegramente en el interior del conjunto electromagn�
 
 ### 3.1. Flujo factual
 
-El flujo factual Phi<sub>SV</sub>(F; B) de un campo factual F a través de una frontera factual orientada B = sum<sub>j</sub> σ<sub>j</sub> B<sub>j</sub> se define como
+El flujo factual Φ<sub>SV</sub>(F; B) de un campo factual F a través de una frontera factual orientada B = sum<sub>j</sub> σ<sub>j</sub> B<sub>j</sub> se define como
 
 ```math
 \Phi_{SV}(\mathcal{F}; B) = \sum_j \sigma_j \langle\mathcal{F}(B_j), n_{B_j}\rangle_{SV} \omega(B_j),
@@ -99,7 +99,7 @@ con ∂<sub>i</sub><sup>SV</sup> la derivada parcial posicional factual respecto
 
 ### 3.3. Rotor factual
 
-Sobre un ciclo factual orientado Gamma^∘learrowleft, la circulación factual se define por
+Sobre un ciclo factual orientado Γ<sup>↺</sup>, la circulación factual se define por
 
 ```math
 \mathfrak{C}_{\Gamma^\circlearrowleft}(\mathcal{F}) = \sum_j \varepsilon_j \mathcal{F}(\Gamma_j) \omega(\Gamma_j), \qquad \varepsilon_j \in \{-1, +1\},
@@ -196,7 +196,7 @@ La reducción estructural absoluta del sistema electromagnético de primer orden
 
 ### 3.8. Forma maestra integral del conjunto electromagnético factual
 
-Sobre un volumen factual compatible V<sub>SV</sub> y una superficie factual orientada Σ con borde Gamma^∘learrowleft, la reducción estructural integral del conjunto se resume en
+Sobre un volumen factual compatible V<sub>SV</sub> y una superficie factual orientada Σ con borde Γ<sup>↺</sup>, la reducción estructural integral del conjunto se resume en
 
 ```math
 \boxed{ \mathbb{I}_{SV}(\mathbb{X}_{SV};\mathbb{Y}_{SV}) = 0, }
@@ -647,7 +647,7 @@ sobre toda frontera factual cerrada. Esta identidad, válida sobre cualquier vol
 
 ### 6.3. Forma integral de la ley de Faraday factual
 
-Aplicando el teorema de Stokes–SV del apartado 3.3 a la ley diferencial de 4.4, sobre una superficie factual orientada Σ con frontera ∂Σ = Gamma^∘learrowleft, se obtiene
+Aplicando el teorema de Stokes–SV del apartado 3.3 a la ley diferencial de 4.4, sobre una superficie factual orientada Σ con frontera ∂Σ = Γ<sup>↺</sup>, se obtiene
 
 ```math
 \mathfrak{C}_{\Gamma^\circlearrowleft}(E) = - \iint^{SV}_{\Sigma} \partial_\nu^{SV} B.
@@ -880,7 +880,7 @@ La velocidad factual de propagación así definida es compatible con la absorci�
 
 La ecuación de onda factual del apartado 9.2 no inaugura un régimen ajeno al corpus; reabsorbe, en forma de segundo orden, la ecuación factual ya fijada en el estudio de Fourier factual y propagación sobre ciclo y trayectoria poligonal (Lloret Egea, 2026d). Bajo medio homogéneo factual, ausencia de corriente externa y compatibilidad modal de las transformadas cíclicas, la proyección modal del conjunto maestro satisface exactamente la misma ley de propagación.
 
-**Teorema 9.5.1 (coincidencia exacta de la reducción de primer orden con el régimen modal factual).** La proyección cíclica factual del conjunto electromagnético de primer orden sobre cualquier modo admisible kappa coincide exactamente con la ecuación de onda factual ya establecida en el corpus.
+**Teorema 9.5.1 (coincidencia exacta de la reducción de primer orden con el régimen modal factual).** La proyección cíclica factual del conjunto electromagnético de primer orden sobre cualquier modo admisible κ coincide exactamente con la ecuación de onda factual ya establecida en el corpus.
 
 *Demostración.* Aplicando la transformada cíclica factual canónica a la ecuación de onda del apartado 9.2 y usando la linealidad, separabilidad e invertibilidad factual de las transformadas absolutas (Lloret Egea, 2026a, §XXIV.6; Lloret Egea, 2026k, §10.4), el operador ∂_ν<sup>SV (2)</sup> y el operador Rot<sub>SV</sub>∘Rot<sub>SV</sub> se proyectan modo a modo sobre el núcleo cíclico e<sub>κ</sub><sup>SV</sup>. El resultado es exactamente la forma modal ya fijada en el tratamiento de Fourier factual. No emerge ningún término nuevo, porque toda la estructura del segundo orden procede por derivación directa del conjunto de primer orden y no por adición externa. Q.E.D.
 
@@ -888,7 +888,7 @@ La ecuación de onda factual del apartado 9.2 no inaugura un régimen ajeno al c
 
 El pilar cíclico-modal factual del electromagnetismo (Lloret Egea, 2026d) dejó constancia explícita, en su dictamen de cierre, de que su resultado constituía un núcleo inicial deliberadamente declarado: *cierre no equivalente todavía a una teoría electromagnética factual completa del SV, sino establecimiento riguroso de su núcleo inicial más fértil, reproducible y doctrinalmente legítimo* (Lloret Egea, 2026d, §XVI). La reducción estructural absoluta ejecutada en el presente documento asume esta declaración como anclaje y procede a su superación explícita por articulación con el sistema factual de primer orden.
 
-La operación de superación se realiza sobre una bisagra absoluta entre descomposición modal cíclica y acoplamiento pleno de primer orden. El pilar cíclico-modal suministra, por descomposición modal sobre ciclos canónicos, la representación de los campos factuales como combinaciones absolutas de núcleos cíclicos e<sup> SV</sup><sub>kappa</sub> indexados por frecuencia modal kappa (Lloret Egea, 2026a, §XXIV.6.2; Lloret Egea, 2026d, §III). El sistema factual de primer orden acopla estas descomposiciones modales a través de las cuatro ecuaciones factuales en régimen pleno, no solo en el vacío factual ni solo en régimen cíclico. La articulación operatoria explícita es la siguiente: aplicando la transformada cíclica factual a cada campo del sistema del apartado 4.1,
+La operación de superación se realiza sobre una bisagra absoluta entre descomposición modal cíclica y acoplamiento pleno de primer orden. El pilar cíclico-modal suministra, por descomposición modal sobre ciclos canónicos, la representación de los campos factuales como combinaciones absolutas de núcleos cíclicos e<sup> SV</sup><sub>κ</sub> indexados por frecuencia modal κ (Lloret Egea, 2026a, §XXIV.6.2; Lloret Egea, 2026d, §III). El sistema factual de primer orden acopla estas descomposiciones modales a través de las cuatro ecuaciones factuales en régimen pleno, no solo en el vacío factual ni solo en régimen cíclico. La articulación operatoria explícita es la siguiente: aplicando la transformada cíclica factual a cada campo del sistema del apartado 4.1,
 
 ```math
 E = \sum_\kappa E_\kappa e^{ SV}_\kappa, \qquad B = \sum_\kappa B_\kappa e^{ SV}_\kappa, \qquad H = \sum_\kappa H_\kappa e^{ SV}_\kappa, \qquad D = \sum_\kappa D_\kappa e^{ SV}_\kappa,
@@ -1406,7 +1406,7 @@ El desarrollo se organiza en cuatro piezas: núcleo local absoluto (§14.1 a §1
 
 ### 14.1.1. Definición canónica
 
-Sea q: Ξ<sub>SV</sub> → R<sup>k</sup> una magnitud factual vectorial admisible dependiente del parámetro admisible θ ∈ Θ<sub>SV</sub> subset R<sup>m</sup> del régimen. El **jacobiano factual de sensibilidad de régimen** se define como la matriz k × m de componentes
+Sea q: Ξ<sub>SV</sub> → R<sup>k</sup> una magnitud factual vectorial admisible dependiente del parámetro admisible θ ∈ Θ<sub>SV</sub> ⊂ R<sup>m</sup> del régimen. El **jacobiano factual de sensibilidad de régimen** se define como la matriz k × m de componentes
 
 ```math
 (J_{SV})^a{}_b(q,\theta) := \partial^{SV}_{\theta_b} q^a,
@@ -1420,7 +1420,7 @@ Cuando k = m, el determinante det(J<sub>SV</sub>) define el **índice escalar de
 
 ### 14.1.3. Transformación bajo cambio factual admisible
 
-**Proposición 14.1.1.** *Sea Phi: Ξ<sub>SV</sub> → Ξ'_SV un cambio factual admisible con matriz factual M<sup>a</sup><sub>c</sub>. El jacobiano factual transforma según*
+**Proposición 14.1.1.** *Sea Φ: Ξ<sub>SV</sub> → Ξ'_SV un cambio factual admisible con matriz factual M<sup>a</sup><sub>c</sub>. El jacobiano factual transforma según*
 
 ```math
 (J'_{SV})^a{}_b = M^a{}_c \cdot (J_{SV})^c{}_b,
@@ -1428,7 +1428,7 @@ Cuando k = m, el determinante det(J<sub>SV</sub>) define el **índice escalar de
 
 *y su determinante según det(J'_SV) = det(M) · det(J<sub>SV</sub>).*
 
-*Demostración.* Por la regla de la cadena factual aplicada al cambio Phi sobre el dominio admisible, q'^a = M<sup>a</sup><sub>c</sub> q<sup>c</sup>, y la derivación ∂<sup>SV</sup>_θ<sub>b</sub> actúa linealmente sobre q'^a con coeficiente M<sup>a</sup><sub>c</sub> independiente del parámetro. La invariancia del parámetro θ bajo Phi (por la definición de cambio factual admisible) garantiza la forma de transformación matricial indicada. El determinante se sigue de la multiplicatividad canónica. Q.E.D.
+*Demostración.* Por la regla de la cadena factual aplicada al cambio Φ sobre el dominio admisible, q'^a = M<sup>a</sup><sub>c</sub> q<sup>c</sup>, y la derivación ∂<sup>SV</sup>_θ<sub>b</sub> actúa linealmente sobre q'^a con coeficiente M<sup>a</sup><sub>c</sub> independiente del parámetro. La invariancia del parámetro θ bajo Φ (por la definición de cambio factual admisible) garantiza la forma de transformación matricial indicada. El determinante se sigue de la multiplicatividad canónica. Q.E.D.
 
 ### 14.1.4. Régimen regular y régimen singular
 
@@ -1746,7 +1746,7 @@ Q.E.D.
 
 *donde ∈t<sup>SV</sup>_∂ S es la circulación factual sobre ∂ S, ∈t<sup>SV</sup><sub>S</sub> es la integral de superficie factual sobre S, dell<sup>SV</sup> es el elemento admisible de línea y dS<sup>SV</sup> es el elemento admisible de superficie, conforme al cosido metrológico absoluto del corpus.*
 
-*Demostración.* Sobre cada celda admisible C<sub>k</sub> subset S, se fija la base posicional e<sup>SV,(k)</sup><sub>i</sub> en la que los operadores factuales son locales. Por la Proposición 14.6.3 y la definición integral factual,
+*Demostración.* Sobre cada celda admisible C<sub>k</sub> ⊂ S, se fija la base posicional e<sup>SV,(k)</sup><sub>i</sub> en la que los operadores factuales son locales. Por la Proposición 14.6.3 y la definición integral factual,
 
 ```math
 \int^{SV}_{C_k} \text{Rot}_{SV}(F) \cdot d\mathbf{S}^{SV} = \int^{SV}_{C_k} \tfrac{1}{2} \varepsilon^{SV,ijk} \Omega^{SV}_{jk}(F) n^{SV}_i dS^{SV}.
@@ -1768,7 +1768,7 @@ La suma sobre todas las celdas admisibles que recubren S cancela las contribucio
 \text{Rot}_{SV}(\text{Rot}_{SV} F) = \nabla^{SV} \text{Div}_{SV}(F) - \Delta^{SV} F,
 ```
 
-*con Delta<sup>SV</sup> := Div<sub>SV</sub>∘∇<sup>SV</sup> el laplaciano factual absoluto.*
+*con Δ<sup>SV</sup> := Div<sub>SV</sub>∘∇<sup>SV</sup> el laplaciano factual absoluto.*
 
 *Demostración.* Por aplicación de la Proposición 14.4.1 al doble rotor componente a componente,
 
@@ -2246,7 +2246,7 @@ La componente 𝔽<sub>SV</sub> del operador maestro absoluto 𝔼<sub>SV</sub> 
 
 ### 14.11.2. Definición operativa
 
-**Definición 14.11.1.** Sea Ω un dominio admisible con frontera ∂Ω y q magnitud factual definida sobre Ω subset Ξ<sub>SV</sub>. Se define la **componente 𝔽<sub>SV</sub> del operador maestro absoluto** como
+**Definición 14.11.1.** Sea Ω un dominio admisible con frontera ∂Ω y q magnitud factual definida sobre Ω ⊂ Ξ<sub>SV</sub>. Se define la **componente 𝔽<sub>SV</sub> del operador maestro absoluto** como
 
 ```math
 \mathbb{F}_{SV}(q) := \mathbb{1}_{\det(J_{SV})=0}\left[ B_{\partial\Omega}^{SV}(q) - \mathcal{R}^f_{SV}(q) \right],
@@ -2256,7 +2256,7 @@ donde B<sub>∂Ω</sub><sup>SV</sup>(q) es el balance factual de frontera (funda
 
 ### 14.11.3. Clausura factual admisible
 
-**Definición 14.11.2.** La **clausura factual admisible** mathsfCl<sub>SV</sub> del régimen es el conjunto de configuraciones (q, Ω) que satisfacen:
+**Definición 14.11.2.** La **clausura factual admisible** Cl<sub>SV</sub> del régimen es el conjunto de configuraciones (q, Ω) que satisfacen:
 
 - (C1) q es campo factual admisible en el sentido de la Definición 14.7.2;
 - (C2) Ω es dominio factual admisible con frontera ∂Ω que admite descomposición en interfaces factuales ∂ C<sub>k,l</sub> del mosaico absoluto;
@@ -2264,7 +2264,7 @@ donde B<sub>∂Ω</sub><sup>SV</sup>(q) es el balance factual de frontera (funda
 
 ### 14.11.4. Teorema bicondicional absoluto
 
-**Teorema 14.11.3 (bicondicional absoluto de compatibilidad interfacial).** *Bajo clausura factual admisible mathsfCl<sub>SV</sub>,*
+**Teorema 14.11.3 (bicondicional absoluto de compatibilidad interfacial).** *Bajo clausura factual admisible Cl<sub>SV</sub>,*
 
 ```math
 \mathbb{F}_{SV}(q) = 0 \quad\Longleftrightarrow\quad \text{compatibilidad interfacial factual local absoluta.}
@@ -2272,11 +2272,11 @@ donde B<sub>∂Ω</sub><sup>SV</sup>(q) es el balance factual de frontera (funda
 
 *Demostración (implicación directa).* Supóngase 𝔽<sub>SV</sub>(q) = 0. Por la Definición 14.11.1, 𝔽<sub>SV</sub>(q) = 0 admite dos casos disjuntos: (i) det(J<sub>SV</sub>) ≠ 0, caso en el cual el indicador anula y la condición se satisface sobre régimen regular trivialmente; (ii) det(J<sub>SV</sub>) = 0, caso en el cual B<sub>∂Ω</sub><sup>SV</sup>(q) = 𝓡<sup>f</sup><sub>SV</sub>(q), es decir, la contribución de borde del balance factual se reabsorbe exactamente en la reconfiguración absoluta. En ambos casos, la compatibilidad interfacial factual local absoluta queda garantizada.
 
-*Demostración (implicación recíproca).* Supóngase compatibilidad interfacial factual local absoluta. Bajo clausura admisible mathsfCl<sub>SV</sub> y por la caracterización geométrica del Teorema 14.8.6, la compatibilidad interfacial coincide con la ausencia de residual de balance sobre ∂Ω: en régimen regular (det(J<sub>SV</sub>) ≠ 0), el indicador absoluto anula y 𝔽<sub>SV</sub>(q) = 0 · [·s] = 0; en régimen de frontera activa (det(J<sub>SV</sub>) = 0), la compatibilidad exige B<sub>∂Ω</sub><sup>SV</sup>(q) = 𝓡<sup>f</sup><sub>SV</sub>(q), por lo que 𝔽<sub>SV</sub>(q) = 1 · 0 = 0. En ambos casos, 𝔽<sub>SV</sub>(q) = 0. Q.E.D.
+*Demostración (implicación recíproca).* Supóngase compatibilidad interfacial factual local absoluta. Bajo clausura admisible Cl<sub>SV</sub> y por la caracterización geométrica del Teorema 14.8.6, la compatibilidad interfacial coincide con la ausencia de residual de balance sobre ∂Ω: en régimen regular (det(J<sub>SV</sub>) ≠ 0), el indicador absoluto anula y 𝔽<sub>SV</sub>(q) = 0 · [·s] = 0; en régimen de frontera activa (det(J<sub>SV</sub>) = 0), la compatibilidad exige B<sub>∂Ω</sub><sup>SV</sup>(q) = 𝓡<sup>f</sup><sub>SV</sub>(q), por lo que 𝔽<sub>SV</sub>(q) = 1 · 0 = 0. En ambos casos, 𝔽<sub>SV</sub>(q) = 0. Q.E.D.
 
 ### 14.11.5. Consecuencia de equivalencia con la tercera componente de 𝔼<sub>SV</sub>
 
-**Corolario 14.11.4.** *La componente 𝔽<sub>SV</sub> del operador maestro absoluto es algebraicamente equivalente a la anulación local de la compatibilidad interfacial factual bajo clausura admisible. En particular, 𝔽<sub>SV</sub>(q) = 0 es condición necesaria y suficiente, bajo mathsfCl<sub>SV</sub>, para que q sea admisible como componente interfacial del sistema absoluto 𝔼<sub>SV</sub>(q) = 0.*
+**Corolario 14.11.4.** *La componente 𝔽<sub>SV</sub> del operador maestro absoluto es algebraicamente equivalente a la anulación local de la compatibilidad interfacial factual bajo clausura admisible. En particular, 𝔽<sub>SV</sub>(q) = 0 es condición necesaria y suficiente, bajo Cl<sub>SV</sub>, para que q sea admisible como componente interfacial del sistema absoluto 𝔼<sub>SV</sub>(q) = 0.*
 
 *Demostración.* Consecuencia directa del Teorema 14.11.3 y de la definición operativa de 𝔼<sub>SV</sub> como conjunción de componentes 𝕄<sub>SV</sub>, 𝕂<sub>SV</sub>, 𝔽<sub>SV</sub>. Q.E.D.
 
@@ -2298,7 +2298,7 @@ Compatibilidad interfacial verificada.
 \mathbb{F}_{SV}(q) = 1 \cdot (7{,}2 - 6{,}5) = 0{,}7 \neq 0.
 ```
 
-Compatibilidad interfacial violada; configuración fuera de clausura admisible. Los tres contrastes confirman ambas direcciones del bicondicional bajo mathsfCl<sub>SV</sub>.
+Compatibilidad interfacial violada; configuración fuera de clausura admisible. Los tres contrastes confirman ambas direcciones del bicondicional bajo Cl<sub>SV</sub>.
 
 ---
 ## Desarrollo profundo
@@ -2376,7 +2376,7 @@ Sobre mosaico SV(3,9) con dos celdas C<sub>1</sub>, C<sub>2</sub> separadas por 
 
 **Interior de C<sub>1</sub>.** Base uniforme, ortotropía global local. R<sup>SV</sup><sub>C</sub><sub>1</sub>(X, Y) Z = 0. Scal<sup>SV</sup><sub>C</sub><sub>1</sub> = 0. Anulación interior confirmada.
 
-**Sobre la interfaz ∂ C<sub>1,2</sub>.** Sobre trayectoria transversal con parámetro tau donde θ(tau) = θ · 1<sub>tau ≥ 0</sub>, la derivada factual del cambio de base ∂<sup>SV</sup><sub>tau</sub> Λ<sup>(1,2)</sup> presenta discontinuidad localizada en tau = 0. La componente R<sup>SV</sup><sub>1212</sub> evaluada mediante los símbolos factuales de Christoffel derivados de Λ<sup>(1,2)</sup> produce valor no nulo localizado en tau = 0, absorbido por 𝓡<sup>f</sup><sub>SV</sub> según el Teorema 14.8.6. La primera evaluación (interior) confirma el Teorema 14.12.6; la segunda (interfaz) confirma el Teorema 14.12.8.
+**Sobre la interfaz ∂ C<sub>1,2</sub>.** Sobre trayectoria transversal con parámetro τ donde θ(τ) = θ · 1<sub>τ ≥ 0</sub>, la derivada factual del cambio de base ∂<sup>SV</sup><sub>τ</sub> Λ<sup>(1,2)</sup> presenta discontinuidad localizada en τ = 0. La componente R<sup>SV</sup><sub>1212</sub> evaluada mediante los símbolos factuales de Christoffel derivados de Λ<sup>(1,2)</sup> produce valor no nulo localizado en τ = 0, absorbido por 𝓡<sup>f</sup><sub>SV</sub> según el Teorema 14.8.6. La primera evaluación (interior) confirma el Teorema 14.12.6; la segunda (interfaz) confirma el Teorema 14.12.8.
 
 ---
 
@@ -2464,7 +2464,7 @@ con ⟨ F<sup>SV</sup>, F<sup>SV</sup>⟩<sub>SV</sub> := F<sup>SV</sup><sub>μ�
 
 ### 14.14.2. Acción factual
 
-**Definición 14.14.2.** Sobre dominio factual admisible Ω subset Ξ<sub>SV</sub>, la **acción factual** es
+**Definición 14.14.2.** Sobre dominio factual admisible Ω ⊂ Ξ<sub>SV</sub>, la **acción factual** es
 
 ```math
 \mathcal{A}_{SV}[A^{SV}] := \sum_{\nu_j \in \Omega} \omega(\nu_j)\cdot\mathcal{L}_{SV}(\nu_j).
@@ -2576,7 +2576,7 @@ El término ∇<sup>SV</sup>(ρ<sub>ext</sub>/ε<sub>SV</sub>) aparece por la id
 \mu_{SV} \varepsilon_{SV} \partial_\nu^{SV,(2)} E + \mu_{SV} \sigma_{SV} \partial_\nu^{SV} E - \Delta^{SV} E = 0,
 ```
 
-*con Delta<sup>SV</sup> := Div<sub>SV</sub> ∇<sup>SV</sup> el laplaciano factual absoluto.*
+*con Δ<sup>SV</sup> := Div<sub>SV</sub> ∇<sup>SV</sup> el laplaciano factual absoluto.*
 
 ### 14.15.3. Régimen de vacío factual
 
@@ -2606,7 +2606,7 @@ La longitud de onda factual tiene dimensión UFE (Unidad Factual de Extensión) 
 E(\nu_0, x) = E_0(x), \qquad \partial_\nu^{SV} E(\nu_0, x) = E_1(x),
 ```
 
-con E<sub>0</sub>, E<sub>1</sub> campos factuales admisibles sobre el dominio espacial Ω subset Ξ<sub>SV</sub>, compatibles con las ecuaciones factuales de Gauss.
+con E<sub>0</sub>, E<sub>1</sub> campos factuales admisibles sobre el dominio espacial Ω ⊂ Ξ<sub>SV</sub>, compatibles con las ecuaciones factuales de Gauss.
 
 ### 14.15.6. Teorema de existencia y unicidad
 
@@ -2626,7 +2626,7 @@ con E<sub>0</sub>, E<sub>1</sub> campos factuales admisibles sobre el dominio es
 \partial_\nu^{SV,(2)} E - v_{SV}^2 \Delta^{SV} E = -\pi^2 E - (1)(-\pi^2 E) = 0.
 ```
 
-Ecuación en vacío satisfecha exactamente. lambda<sub>SV</sub> = v<sub>SV</sub>· (2pi/ω) = 1 · 2 = 2.
+Ecuación en vacío satisfecha exactamente. λ<sub>SV</sub> = v<sub>SV</sub>· (2pi/ω) = 1 · 2 = 2.
 
 **Régimen conductor.** σ<sub>SV</sub> = 0,1, ε<sub>0</sub> = μ<sub>0</sub> = 1. Modo E(ν, x) = E<sub>0</sub> e<sup>-α ν</sup>cos(k x - ω ν) con α = μ<sub>0</sub> σ<sub>SV</sub>/2 = 0,05, k = pi, ω = sqrtpi<sup>2</sup> - 0,05<sup>2</sup> approx 3,1412:
 
@@ -2829,7 +2829,7 @@ El operador U<sub>SV</sub> conforma la articulación polimodal de los operadores
 
 ### 14.19.2. Clase admisible de configuraciones
 
-**Definición 14.19.1.** La **clase admisible de configuraciones factuales** ℳ<sup>adm</sup><sub>SV</sub> es el conjunto de pares (q, Ω) con q magnitud factual admisible sobre Ω subseteq Ξ<sub>SV</sub>, compatibles con las prohibiciones constitutivas, el cosido metrológico absoluto y la clausura factual mathsfCl<sub>SV</sub> del §14.11.3.
+**Definición 14.19.1.** La **clase admisible de configuraciones factuales** ℳ<sup>adm</sup><sub>SV</sub> es el conjunto de pares (q, Ω) con q magnitud factual admisible sobre Ω ⊆ Ξ<sub>SV</sub>, compatibles con las prohibiciones constitutivas, el cosido metrológico absoluto y la clausura factual Cl<sub>SV</sub> del §14.11.3.
 
 ### 14.19.3. Tipado canónico de compuertas
 
@@ -2949,7 +2949,7 @@ Por la Definición 14.19.5 con C<sub>SV</sub> = 0: U<sub>SV</sub>[q, Ω] = U sob
 
 Por la Definición 14.19.5 con C<sub>SV</sub> = 1: U<sub>SV</sub>[q, Ω] = Comp<sup>poly</sup><sub>SV</sub>(𝕄<sub>SV</sub>, 𝕂<sub>SV</sub>; q, Ω), composición activa de las componentes de primer orden y de clausura. Correcto operativamente: el operador orquesta la composición polimodal cuando las cuatro compuertas canónicas coinciden.
 
-**Configuración con compuerta de orientación inconsistente.** Misma interfaz con Λ<sup>(1,2)</sup> incompatible con la orientación absoluta del mosaico. Evaluación: c<sub>Λ</sub> = 0. Compuerta global C<sub>SV</sub> = 0. Por la Definición 14.19.5: U<sub>SV</sub>[q, Ω] = U por fallo de la compuerta de orientación. Configuración fuera de clausura mathsfCl<sub>SV</sub>. Correcto operativamente: las compuertas filtran configuraciones no admisibles sin forzar continuidad espuria.
+**Configuración con compuerta de orientación inconsistente.** Misma interfaz con Λ<sup>(1,2)</sup> incompatible con la orientación absoluta del mosaico. Evaluación: c<sub>Λ</sub> = 0. Compuerta global C<sub>SV</sub> = 0. Por la Definición 14.19.5: U<sub>SV</sub>[q, Ω] = U por fallo de la compuerta de orientación. Configuración fuera de clausura Cl<sub>SV</sub>. Correcto operativamente: las compuertas filtran configuraciones no admisibles sin forzar continuidad espuria.
 
 ---
 
@@ -2995,7 +2995,7 @@ La presente sección consigna los bancos visibles del anexo en forma canónica *
 
 **Cálculo.** (∂_ν<sup>SV(2)</sup> q)(j) = q<sub>j+2</sub> - 2q<sub>j+1</sub> + q<sub>j</sub> para j = 0, 1, 4, 8: valores 1, 1, 1, 1. (∂_ν<sup>SV(3)</sup> q)(0) = q<sub>3</sub> - 3q<sub>2</sub> + 3q<sub>1</sub> - q<sub>0</sub> = 6 - 9 + 3 - 0 = 0.
 
-**Salida.** ∂_ν<sup>SV(2)</sup> q equiv 1 sobre la trayectoria; ∂_ν<sup>SV(3)</sup> q equiv 0.
+**Salida.** ∂_ν<sup>SV(2)</sup> q ≡ 1 sobre la trayectoria; ∂_ν<sup>SV(3)</sup> q ≡ 0.
 
 **Dictamen.** Coincidencia exacta con la Proposición 14.9.4 (anulación sobre polinomios factuales de grado menor que k). Iteración de segunda derivada de suceso verificada.
 
@@ -3027,13 +3027,13 @@ La presente sección consigna los bancos visibles del anexo en forma canónica *
 
 **Salida.** (a) y (b): compatibilidad interfacial; (c): incompatibilidad cuantificable.
 
-**Dictamen.** El bicondicional del Teorema 14.11.3 se verifica en las dos direcciones. La configuración (c) queda fuera de clausura admisible mathsfCl<sub>SV</sub>.
+**Dictamen.** El bicondicional del Teorema 14.11.3 se verifica en las dos direcciones. La configuración (c) queda fuera de clausura admisible Cl<sub>SV</sub>.
 
 ### 14.20.9. Banco B-08: curvatura factual sobre interfaz
 
 **Datos.** Dos celdas C<sub>1</sub>, C<sub>2</sub> con bases relacionadas por rotación absoluta Λ<sup>(1,2)</sup> de ángulo θ = pi/6.
 
-**Cálculo.** Interior de C<sub>1</sub>: base uniforme, ∂<sub>i</sub> ∂<sub>j</sub> - ∂<sub>j</sub> ∂<sub>i</sub> = 0, curvatura R<sup>SV</sup><sub>C</sub><sub>1</sub> = 0, Scal<sup>SV</sup><sub>C</sub><sub>1</sub> = 0. Interfaz ∂ C<sub>1,2</sub>: Λ<sup>(1,2)</sup> = ( cosθ, sinθ, 0 ; -sinθ, cosθ, 0 ; 0, 0, 1 ), det(Λ) = 1, ∂<sup>SV</sup><sub>tau</sub> Λ<sup>(1,2)</sup> con discontinuidad localizada en tau = 0.
+**Cálculo.** Interior de C<sub>1</sub>: base uniforme, ∂<sub>i</sub> ∂<sub>j</sub> - ∂<sub>j</sub> ∂<sub>i</sub> = 0, curvatura R<sup>SV</sup><sub>C</sub><sub>1</sub> = 0, Scal<sup>SV</sup><sub>C</sub><sub>1</sub> = 0. Interfaz ∂ C<sub>1,2</sub>: Λ<sup>(1,2)</sup> = ( cosθ, sinθ, 0 ; -sinθ, cosθ, 0 ; 0, 0, 1 ), det(Λ) = 1, ∂<sup>SV</sup><sub>τ</sub> Λ<sup>(1,2)</sup> con discontinuidad localizada en τ = 0.
 
 **Salida.** Componente R<sup>SV,l</sup><sub>1212</sub> no nula localizada sobre interfaz, absorbida por 𝓡<sup>f</sup><sub>SV</sub> a través del factor Λ<sup>(1,2)</sup> según Teorema 14.3.5.
 
@@ -3073,7 +3073,7 @@ La presente sección consigna los bancos visibles del anexo en forma canónica *
 
 **Datos.** Tres escenarios: (a) interior regular; (b) interfaz activa con balance compatible; (c) interfaz con Λ<sup>(1,2)</sup> inconsistente.
 
-**Cálculo.** (a): c<sub>∂Ω</sub> = 0 Rightarrow C<sub>SV</sub> = 0 Rightarrow U<sub>SV</sub> = 𝔽<sub>SV</sub> = 0. (b): C<sub>SV</sub> = 1 Rightarrow U<sub>SV</sub> = Comp<sup>poly</sup><sub>SV</sub>(𝕄<sub>SV</sub>, 𝕂<sub>SV</sub>). (c): c<sub>Λ</sub> = 0 Rightarrow C<sub>SV</sub> = 0 Rightarrow U<sub>SV</sub> = 𝔽<sub>SV</sub> ≠ 0.
+**Cálculo.** (a): c<sub>∂Ω</sub> = 0 ⇒ C<sub>SV</sub> = 0 ⇒ U<sub>SV</sub> = 𝔽<sub>SV</sub> = 0. (b): C<sub>SV</sub> = 1 ⇒ U<sub>SV</sub> = Comp<sup>poly</sup><sub>SV</sub>(𝕄<sub>SV</sub>, 𝕂<sub>SV</sub>). (c): c<sub>Λ</sub> = 0 ⇒ C<sub>SV</sub> = 0 ⇒ U<sub>SV</sub> = 𝔽<sub>SV</sub> ≠ 0.
 
 **Salida.** Tres salidas distintas según compuertas; ningún caso trivializa el operador.
 
@@ -3091,7 +3091,7 @@ La presente sección consigna los bancos visibles del anexo en forma canónica *
 |---|---|---|
 | Objeto estructural sin metrología propia | Construcción algebraica auxiliar que hereda su dimensión de los operandos | ε<sup>SV</sup><sub>ijk</sub>, ×<sub>SV</sub>, 1<sub>det(J<sub>SV</sub>)=0</sub>, c_*, C<sub>SV</sub>, Comp<sup>poly</sup><sub>SV</sub> |
 | Operador con metrología inducida | Operador cuya dimensión se deriva del cosido metrológico del §5.6 del cuerpo sin dimensión independiente | ∂_ν<sup>SV</sup>, ∂<sup>SV</sup><sub>i</sub>, Div<sub>SV</sub>, Rot<sub>SV</sub>, ⟨·,·⟩<sub>SV</sub>, ∇<sup>SV</sup>, 𝓡<sup>f</sup><sub>SV</sub>, 𝓡<sup>f,(k)</sup><sub>SV</sub>, U<sub>SV</sub>, γ<sub>SV</sub> |
-| Magnitud factual con dimensión absoluta explícita | Objeto con dimensión canónica en UE_MFC, UFE, UFM, UFC o derivadas | J<sub>SV</sub> (UE_MFC/parámetro), u<sub>SV</sub> (UFE·UFM), T<sup>SV</sup><sub>μν</sub>, L<sub>SV</sub>, lambda<sub>SV</sub> (UFE), 𝔽<sub>SV</sub> (heredada de B<sub>∂Ω</sub><sup>SV</sup>) |
+| Magnitud factual con dimensión absoluta explícita | Objeto con dimensión canónica en UE_MFC, UFE, UFM, UFC o derivadas | J<sub>SV</sub> (UE_MFC/parámetro), u<sub>SV</sub> (UFE·UFM), T<sup>SV</sup><sub>μν</sub>, L<sub>SV</sub>, λ<sub>SV</sub> (UFE), 𝔽<sub>SV</sub> (heredada de B<sub>∂Ω</sub><sup>SV</sup>) |
 
 ### 14.21.2. Tabla 14.21.2. Operadores algebraicos absolutos del anexo
 
@@ -3108,11 +3108,11 @@ La presente sección consigna los bancos visibles del anexo en forma canónica *
 | Autoadjunción factual | §14.8 | Propiedad de constitutivos absolutos |
 | ∂_ν<sup>SV(k)</sup> | §14.9 | Iteración canónica del operador de suceso |
 | Régimen separable | §14.10 | Subdominio admisible (S1) + (S2) |
-| 𝔽<sub>SV</sub> | §14.11 | Componente absoluta de frontera (bicondicional bajo mathsfCl<sub>SV</sub>) |
+| 𝔽<sub>SV</sub> | §14.11 | Componente absoluta de frontera (bicondicional bajo Cl<sub>SV</sub>) |
 | ∇<sup>SV</sup>, R<sup>SV</sup>, Ric<sup>SV</sup>, Scal<sup>SV</sup> | §14.12 | Conexión factual y curvatura factual |
 | T<sup>SV</sup><sub>μν</sub> | §14.13 | Tensor factual de energía-momento |
 | L<sub>SV</sub>, A<sub>SV</sub> | §14.14 | Densidad lagrangiana y acción factuales |
-| Ecuación de onda factual, lambda<sub>SV</sub> | §14.15 | Onda electromagnética y longitud factual |
+| Ecuación de onda factual, λ<sub>SV</sub> | §14.15 | Onda electromagnética y longitud factual |
 | OpFact<sub>SV</sub> | §14.16 | Categoría absoluta de operadores factuales admisibles |
 | 𝒟<sub>SV</sub><sup>-1</sup> | §14.17 | Diccionario inverso factual-clásico |
 | γ<sub>SV</sub> | §14.18 | Aplicación de geometrización factual |
