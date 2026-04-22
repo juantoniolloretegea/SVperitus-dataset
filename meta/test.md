@@ -107,9 +107,9 @@ con ∂<sub>i</sub><sup>SV</sup> la derivada parcial posicional factual respecto
 
 Sobre un ciclo factual orientado Gamma^∘learrowleft, la circulación factual se define por
 
-$$
+```math
 \mathfrak{C}_{\Gamma^\circlearrowleft}(\mathcal{F}) = \sum_j \varepsilon_j \mathcal{F}(\Gamma_j) \omega(\Gamma_j), \qquad \varepsilon_j \in \{-1, +1\},
-$$
+```
 
 y el rotor factual, en forma posicional antisimétrica,
 
@@ -246,9 +246,9 @@ La anulación del determinante no opera como indicio lateral ni como criterio me
 
 El operador exacto de reconfiguración factual heredado (Lloret Egea, 2026k, §13.2),
 
-$$
+```math
 \boxed{ \mathcal{R}^{f}_{SV} = \mathbf{1}_{\{\det(J_{SV})=0\}} \Lambda B_{\text{reg}}, }
-$$
+```
 
 comparece en el conjunto electromagnético factual del SV como respuesta estructural interna a la activación de frontera detectada por el criterio anterior. Su estatuto es absoluto: bajo las cinco condiciones de anulación en régimen regular, dependencia exclusiva del criterio de frontera, compatibilidad con estabilidad y balance, invariancia de orientación global y orden algebraico irreductible, el operador 𝓡<sup>f</sup>_SV es la única factorización escalar local compatible con el dominio electromagnético factual (Lloret Egea, 2026k, teorema 13.2.1). El criterio absoluto de frontera factual se establece en §14.2 del anexo. El operador exacto de reconfiguración factual 𝓡<sup>f</sup>_SV se fija en §14.3 del anexo. 
 
@@ -304,13 +304,13 @@ J - \sigma_{SV}(E) - J_{\text{ext}}
 \end{pmatrix},
 $$
 
-$$
+```math
 \mathbb{F}_{SV}(J_{SV}) := 
 \begin{pmatrix}
 \mathbf{1}_{\{\det(J_{SV})=0\}}\cdot\bigl(\partial\Omega\ \text{activa}\bigr) \\
 \mathcal{R}^{f}_{SV} - \mathbf{1}_{\{\det(J_{SV})=0\}} \Lambda B_{\text{reg}}
 \end{pmatrix}.
-$$
+```
 
 La anulación simultánea de las tres componentes 𝕄<sub>SV</sub>, 𝕂<sub>SV</sub> y 𝔽<sub>SV</sub> constituye, dentro del SV, la condición necesaria y suficiente para que un régimen electromagnético factual sea absoluto en sentido absoluto.
 
@@ -803,15 +803,15 @@ $$
 
 válida por compatibilidad factual del producto vectorial con el rotor (Lloret Egea, 2026a, §XXIV.5.4), se obtiene
 
-$$
+```math
 - \mathrm{Div}_{SV}(S_{SV}) = \langle E, \partial_\nu^{SV} D\rangle_{SV} + \langle H, \partial_\nu^{SV} B\rangle_{SV} + \langle E, J\rangle_{SV}.
-$$
+```
 
 Reescribiendo los dos primeros términos del segundo miembro mediante ∂_ν<sup>SV</sup> u<sub>SV</sub> = ⟨ E, ∂_ν<sup>SV</sup> D⟩<sub>SV</sub> + ⟨ H, ∂_ν<sup>SV</sup> B⟩<sub>SV</sub>, válida por la simetría factual de los operadores constitutivos, resulta
 
-$$
+```math
 - \mathrm{Div}_{SV}(S_{SV}) = \partial_\nu^{SV} u_{SV} + \langle E, J\rangle_{SV},
-$$
+```
 
 que, reordenada, produce la identidad anunciada. Q.E.D.
 
@@ -1170,9 +1170,9 @@ $$
 
 y balance factual local B<sub>reg</sub> = 0,13, el operador exacto de reconfiguración factual vale
 
-$$
+```math
 \mathcal{R}^{f}_{SV} = \mathbf{1}_{\{\det(J_{SV})=0\}} \Lambda B_{\text{reg}} = 1 \cdot 0{,}769230\ldots \cdot 0{,}13 = 0{,}10.
-$$
+```
 
 Con ello queda exhibida la coherencia algebraica entre la pérdida de invertibilidad local del jacobiano factual de sensibilidad de régimen, la activación de la frontera factual y el valor efectivo del operador de reconfiguración factual como respuesta interna absoluta del conjunto electromagnético.
 
@@ -1481,9 +1481,9 @@ $$
 
 Se define la función indicadora absoluta
 
-$$
+```math
 \mathbb{1}_{\det(J_{SV})=0}(\theta) := \begin{cases} 1 & \text{si } \det(J_{SV}(\theta)) = 0, \\ 0 & \text{en otro caso.} \end{cases}
-$$
+```
 
 Esta función constituye el objeto booleano fundamental de la componente 𝔽<sub>SV</sub> del operador maestro, fijada en §14.11.
 
@@ -1557,9 +1557,9 @@ Bajo indicador activo 1<sub>det(J<sub>SV</sub>)=0</sub> = 1 y operador de regula
 
 Sea e<sup>SV</sup>_i_i=1^3 la base posicional admisible del mosaico SV(3,9) sobre Σ<sub>canal</sub>. El **tensor factual completamente antisimétrico de orden tres** es el objeto ε<sup>SV</sup>_ijk cuyas componentes, en la base ortonormal admisible, toman los valores
 
-$$
+```math
 \varepsilon^{SV}_{ijk} = \begin{cases} +1 & \text{si } (i,j,k) \text{ es permutación par de } (1,2,3), \\ -1 & \text{si } (i,j,k) \text{ es permutación impar de } (1,2,3), \\ 0 & \text{en otro caso.} \end{cases}
-$$
+```
 
 La orientación factual queda fijada por el signo +1 sobre la terna canónica ordenada (1,2,3) de la base admisible.
 
@@ -1989,9 +1989,9 @@ Aplicación análoga al término magnético y división por 2 conducen al enunci
 
 **Definición 14.8.4.** El mosaico factual SV(3,9), dotado de base posicional admisible y del operador exacto de reconfiguración 𝓡<sup>f</sup><sub>SV</sub> del §14.3, satisface **ortotropía factual local** si, sobre cada celda admisible C<sub>k</sub> del mosaico, existe una base posicional e<sup>SV,(k)</sup>_i en la cual las parciales posicionales factuales mixtas conmutan:
 
-$$
+```math
 \partial^{SV,(k)}_i \partial^{SV,(k)}_j = \partial^{SV,(k)}_j \partial^{SV,(k)}_i \qquad \text{para todos los } i, j \in \{1, 2, 3\}.
-$$
+```
 
 ### 14.8.5. Anulación local de la divergencia del rotor
 
@@ -2842,9 +2842,9 @@ El operador U<sub>SV</sub> conforma la articulación polimodal de los operadores
 
 **Definición 14.19.2.** Las **compuertas factuales canónicas** son aplicaciones
 
-$$
+```math
 \mathfrak{c}_{*} : \mathcal{M}^{\text{adm}}_{SV} \longrightarrow \{0, 1\},
-$$
+```
 
 con criterio de paso algebraicamente cerrado. Las cuatro compuertas canónicas se fijan así:
 
@@ -2890,17 +2890,17 @@ La relación de Comp<sup>poly</sup>_SV con la firma general Comp del corpus (com
 
 **Definición 14.19.5.** El **operador de conformación polimodal factual** U<sub>SV</sub> se define como la aplicación
 
-$$
+```math
 \mathfrak{U}_{SV}: \mathcal{M}^{\text{adm}}_{SV} \longrightarrow \mathcal{O}_{SV} \sqcup \{U\},
-$$
+```
 
-$$
+```math
 \mathfrak{U}_{SV}[q, \Omega] := 
 \begin{cases}
 \mathrm{Comp}^{\mathrm{poly}}_{SV}\bigl(\mathbb{M}_{SV}, \mathbb{K}_{SV}; q, \Omega\bigr), & \text{si } \mathfrak{C}_{SV}(q, \Omega)=1,\\
 U, & \text{si } \mathfrak{C}_{SV}(q, \Omega)=0.
 \end{cases}
-$$
+```
 
 donde 𝕄<sub>SV</sub> es la componente absoluta de las ecuaciones de primer orden y 𝕂<sub>SV</sub> la componente de clausura.
 
