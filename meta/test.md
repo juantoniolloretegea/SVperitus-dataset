@@ -1,9 +1,5 @@
 # Reducción estructural absoluta de Maxwell en el Sistema Vectorial SV y ecuación única de la física factual electromagnética — con desarrollo algebraico del operador maestro absoluto 𝔼<sub>SV</sub>
 
-**© 2026. Todos los derechos reservados**.
-
-**Juan Antonio Lloret Egea** | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) | IA eñ™ — La Biblia de la IA™ | **ISSN 2695-6411** | **Licencia CC BY-NC-ND 4.0** | Madrid, abril de 2026.
-
 ---
 
 ## Índice
@@ -15,9 +11,7 @@
 ---
 
 
-**© 2026. Todos los derechos reservados**. 
-
-**Juan Antonio Lloret Egea** | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) | IA eñ™ — La Biblia de la IA™ | **ISSN 2695-6411** | **Licencia CC BY-NC-ND 4.0** | Madrid, 20/04/2026 | **Advertencia**: Esta publicación está protegida por **CEDRO** y su aplicación en el campo de la Física, así como cualquier forma de explotación, reproducción o uso por parte de empresas, queda sujeta al copyright del autor y a los términos de la licencia indicada; la reproducción, distribución, comunicación pública o transformación de esta obra solo puede ser realizada con la autorización de sus titulares, salvo excepción prevista por la ley, y cualquier uso comercial sin autorización expresa queda prohibido y supeditado estrictamente al licenciamiento permitido. 
+**© 2026. Todos los derechos reservados**. **Juan Antonio Lloret Egea** | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) | IA eñ™ — La Biblia de la IA™ | **ISSN 2695-6411** | **Licencia CC BY-NC-ND 4.0** | Madrid, 20/04/2026 | **Advertencia**: Esta publicación está protegida por **CEDRO** y su aplicación en el campo de la Física, así como cualquier forma de explotación, reproducción o uso por parte de empresas, queda sujeta al copyright del autor y a los términos de la licencia indicada; la reproducción, distribución, comunicación pública o transformación de esta obra solo puede ser realizada con la autorización de sus titulares, salvo excepción prevista por la ley, y cualquier uso comercial sin autorización expresa queda prohibido y supeditado estrictamente al licenciamiento permitido. 
 
 **Warning**: This publication is protected by **CEDRO**. Its application in the field of Physics, as well as any form of exploitation, reproduction, or use by corporate entities, is strictly subject to the author’s copyright and the terms of the license indicated; any reproduction, distribution, public communication, or transformation of this work requires authorization from the rightsholders, except as provided by law, and any commercial use without express written consent is prohibited and strictly subject to permitted licensing.
 
@@ -1605,7 +1599,7 @@ Coincidencia exacta con el Corolario 14.4.2.
 Contracción triple:
 
 ```math
-\varepsilon^{SV}_{ijk} \varepsilon^{SV,ijk} = (+1)^2 + (+1)^2 + (+1)^2 + (-1)^2 + (-1)^2 + (-1)^2 = 6.
+\varepsilon^{SV}_{ijk} \varepsilon^{SV,ijk} = (+1)<sup>2</sup> + (+1)<sup>2</sup> + (+1)<sup>2</sup> + (-1)<sup>2</sup> + (-1)<sup>2</sup> + (-1)<sup>2</sup> = 6.
 ```
 
 Coincidencia con el Corolario 14.4.3.
@@ -2028,7 +2022,7 @@ E_0 = (0, 0), \qquad E_1 = (1, 1), \qquad E_2 = (2, 1), \qquad \partial_\nu^{SV}
 \varepsilon_{SV}^{(A)} = \begin{pmatrix} 2 & 0 \\ 0 & 3 \end{pmatrix}.
 ```
 
-D<sub>j</sub> = ε<sub>SV</sub>^(A) E<sub>j</sub> produce D<sub>0</sub> = (0, 0), D<sub>1</sub> = (2, 3), D<sub>2</sub> = (4, 3), ∂_ν<sup>SV</sup> D(1) = (2, 0).
+D<sub>j</sub> = ε<sub>SV</sub><sup>(A)</sup> E<sub>j</sub> produce D<sub>0</sub> = (0, 0), D<sub>1</sub> = (2, 3), D<sub>2</sub> = (4, 3), ∂_ν<sup>SV</sup> D(1) = (2, 0).
 
 Densidades factuales:
 
@@ -2052,7 +2046,7 @@ Ambos miembros coinciden exactamente: el Corolario 14.8.3 se verifica sobre cons
 \varepsilon_{SV}^{(B)} = \begin{pmatrix} 2 & 0{,}5 \\ -0{,}5 & 3 \end{pmatrix}.
 ```
 
-D<sub>j</sub> = ε<sub>SV</sub>^(B) E<sub>j</sub> produce D<sub>0</sub> = (0, 0), D<sub>1</sub> = (2,5, 2,5), D<sub>2</sub> = (4,5, 2), ∂_ν<sup>SV</sup> D(1) = (2, -0,5).
+D<sub>j</sub> = ε<sub>SV</sub><sup>(B)</sup> E<sub>j</sub> produce D<sub>0</sub> = (0, 0), D<sub>1</sub> = (2,5, 2,5), D<sub>2</sub> = (4,5, 2), ∂_ν<sup>SV</sup> D(1) = (2, -0,5).
 
 u<sub>SV</sub>(1) = (1)/(2)(2,5 + 2,5) = 2,5, u<sub>SV</sub>(2) = (1)/(2)(9 + 2) = 5,5, ∂_ν<sup>SV</sup> u<sub>SV</sub>(1) = 3.
 
@@ -2913,9 +2907,9 @@ donde 𝕄<sub>SV</sub> es la componente absoluta de las ecuaciones de primer or
 
 **Teorema 14.19.7.** *La jerarquía 𝓡<sup>f,(k)</sup><sub>SV</sub> es estable bajo composición absoluta: para todo par k<sub>1</sub>, k<sub>2</sub> ≥ 1,*
 
-```math
-\mathcal{R}^{f,(k_{1})}_{SV} \circ \mathcal{R}^{f,(k_{2})}_{SV} = \mathcal{R}^{f,(k_{1} + k_{2})}_{SV}.
-```
+<p align="center">
+𝓡<sup>f,(k<sub>1</sub>)</sup><sub>SV</sub> ∘ 𝓡<sup>f,(k<sub>2</sub>)</sup><sub>SV</sub> = 𝓡<sup>f,(k<sub>1</sub>+k<sub>2</sub>)</sup><sub>SV</sub>.
+</p>
 
 *Demostración.* Por la Definición 14.19.6 aplicada inductivamente sobre el orden compositivo. Q.E.D.
 
@@ -2969,7 +2963,7 @@ La presente sección consigna los bancos visibles del anexo en forma canónica *
 
 **Datos.** Magnitud factual q(θ) = (θ<sub>1</sub><sup>2</sup> + θ<sub>2</sub>, θ<sub>1</sub>θ<sub>2</sub>) sobre parámetro admisible θ = (θ<sub>1</sub>, θ<sub>2</sub>).
 
-**Cálculo.** J<sub>SV</sub>(q,θ) = beginpmatrix 2θ<sub>1</sub> & 1 \ θ<sub>2</sub> & θ<sub>1</sub> endpmatrix, det(J<sub>SV</sub>) = 2θ<sub>1</sub><sup>2</sup> - θ<sub>2</sub>.
+**Cálculo.** J<sub>SV</sub>(q,θ) = ( 2θ<sub>1</sub>, 1 ; θ<sub>2</sub>, θ<sub>1</sub> ), det(J<sub>SV</sub>) = 2θ<sub>1</sub><sup>2</sup> - θ<sub>2</sub>.
 
 **Salida.** En θ = (1, 1): det = 1, régimen regular. En θ = (1, 2): det = 0, régimen singular.
 
@@ -2979,7 +2973,7 @@ La presente sección consigna los bancos visibles del anexo en forma canónica *
 
 **Datos.** Base ortonormal admisible (e<sup>SV</sup><sub>1</sub>, e<sup>SV</sup><sub>2</sub>, e<sup>SV</sup><sub>3</sub>), componentes ε<sup>SV</sup><sub>123</sub> = +1.
 
-**Cálculo.** Contracción triple: ε<sup>SV</sup><sub>ijk</sub> ε<sup>SV,ijk</sup> = (+1)^2 + (+1)^2 + (+1)^2 + (-1)^2 + (-1)^2 + (-1)^2 = 6.
+**Cálculo.** Contracción triple: ε<sup>SV</sup><sub>ijk</sub> ε<sup>SV,ijk</sup> = (+1)<sup>2</sup> + (+1)<sup>2</sup> + (+1)<sup>2</sup> + (-1)<sup>2</sup> + (-1)<sup>2</sup> + (-1)<sup>2</sup> = 6.
 
 **Salida.** Valor 6.
 
@@ -3017,7 +3011,7 @@ La presente sección consigna los bancos visibles del anexo en forma canónica *
 
 ### 14.20.7. Banco B-06: balance de Leibniz factual
 
-**Datos.** Trayectoria de tres sucesos, peso ω = 1, dimensión posicional n = 2, E<sub>0</sub> = (0,0), E<sub>1</sub> = (1,1), E<sub>2</sub> = (2,1), ∂_ν<sup>SV</sup> E(0) = (1,1), ∂_ν<sup>SV</sup> E(1) = (1,0). Dos constitutivos: (a) ε<sub>SV</sub>^(A) = diag(2,3) autoadjunto; (b) ε<sub>SV</sub>^(B) = beginpmatrix 2 & 0,5 \ -0,5 & 3 endpmatrix no autoadjunto.
+**Datos.** Trayectoria de tres sucesos, peso ω = 1, dimensión posicional n = 2, E<sub>0</sub> = (0,0), E<sub>1</sub> = (1,1), E<sub>2</sub> = (2,1), ∂_ν<sup>SV</sup> E(0) = (1,1), ∂_ν<sup>SV</sup> E(1) = (1,0). Dos constitutivos: (a) ε<sub>SV</sub><sup>(A)</sup> = diag(2,3) autoadjunto; (b) ε<sub>SV</sub><sup>(B)</sup> = ( 2, 0,5 ; -0,5, 3 ) no autoadjunto.
 
 **Cálculo.** (a): u<sub>SV</sub>(1) = 2,5, u<sub>SV</sub>(2) = 5,5, ∂_ν<sup>SV</sup> u<sub>SV</sub>(1) = 3. Por Corolario 14.8.3: 3. (b): u<sub>SV</sub>(1) = 2,5, u<sub>SV</sub>(2) = 5,5, ∂_ν<sup>SV</sup> u<sub>SV</sub>(1) = 3. Por Corolario 14.8.3: 2,5.
 
@@ -3039,7 +3033,7 @@ La presente sección consigna los bancos visibles del anexo en forma canónica *
 
 **Datos.** Dos celdas C<sub>1</sub>, C<sub>2</sub> con bases relacionadas por rotación absoluta Λ<sup>(1,2)</sup> de ángulo θ = pi/6.
 
-**Cálculo.** Interior de C<sub>1</sub>: base uniforme, ∂<sub>i</sub> ∂<sub>j</sub> - ∂<sub>j</sub> ∂<sub>i</sub> = 0, curvatura R<sup>SV</sup><sub>C</sub><sub>1</sub> = 0, Scal<sup>SV</sup><sub>C</sub><sub>1</sub> = 0. Interfaz ∂ C<sub>1,2</sub>: Λ<sup>(1,2)</sup> = beginpmatrixcosθ & sinθ & 0 \ -sinθ & cosθ & 0 \ 0 & 0 & 1endpmatrix, det(Λ) = 1, ∂<sup>SV</sup><sub>tau</sub> Λ<sup>(1,2)</sup> con discontinuidad localizada en tau = 0.
+**Cálculo.** Interior de C<sub>1</sub>: base uniforme, ∂<sub>i</sub> ∂<sub>j</sub> - ∂<sub>j</sub> ∂<sub>i</sub> = 0, curvatura R<sup>SV</sup><sub>C</sub><sub>1</sub> = 0, Scal<sup>SV</sup><sub>C</sub><sub>1</sub> = 0. Interfaz ∂ C<sub>1,2</sub>: Λ<sup>(1,2)</sup> = ( cosθ, sinθ, 0 ; -sinθ, cosθ, 0 ; 0, 0, 1 ), det(Λ) = 1, ∂<sup>SV</sup><sub>tau</sub> Λ<sup>(1,2)</sup> con discontinuidad localizada en tau = 0.
 
 **Salida.** Componente R<sup>SV,l</sup><sub>1212</sub> no nula localizada sobre interfaz, absorbida por 𝓡<sup>f</sup><sub>SV</sub> a través del factor Λ<sup>(1,2)</sup> según Teorema 14.3.5.
 
