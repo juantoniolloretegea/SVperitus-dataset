@@ -6,7 +6,8 @@
 
 1. Reducción estructural absoluta de Maxwell en el Sistema Vectorial SV y ecuación única de la física factual electromagnética (apartados 1 a 13).
 2. Desarrollo algebraico del operador maestro absoluto 𝔼<sub>SV</sub> (apartado 14, §14.1 a §14.21).
-3. Referencias.
+3. [Infraestructura laboratorial reproducible en GitHub](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/ecuacion-factual-maxwell).
+4. Referencias.
 
 ---
 
@@ -3176,6 +3177,57 @@ El desarrollo algebraico del anexo cierra el aparato operatorio del régimen ele
 Las veintiún secciones del anexo, los teoremas absolutos con demostración cerrada, los doce bancos visibles en forma canónica *datos / cálculo / salida / dictamen* y las tablas de síntesis constituyen el aparato operatorio del régimen dentro de la categoría OpFact<sub>SV</sub> de operadores factuales admisibles. La unicidad representacional del Teorema 14.16.2 y la irreducibilidad algebraica del Teorema 14.16.3 aseguran que 𝔼<sub>SV</sub> constituye el desenlace final algebraico del régimen. La reconstrucción inversa del Teorema 14.17.8 garantiza la compatibilidad plena con la formulación clásica de Maxwell bajo el diccionario absoluto 𝒟<sub>SV</sub> y su inversa formal 𝒟<sub>SV</sub><sup>-1</sup>.
 
 ---
+
+## Infraestructura laboratorial reproducible en GitHub
+
+La presente publicación dispone de una infraestructura laboratorial autocontenida que permite reejecutar, sin instalación adicional y con trazabilidad completa, el recorrido visible de consistencia del bloque electromagnético factual del SV sobre la célula SV(3,9). El paquete implementa, en forma ejecutable, las veintiún verificaciones positivas exigidas por el plan de verificación material y los quince ataques negativos canónicos que fuerzan falsación local y previenen pases silenciosos. El dictamen reproducible del estado actual es **APTO**: los veintiún bancos positivos se superan sin discrepancia numérica, vectorial ni dimensional, y los quince ataques negativos quedan detectados con el código canónico de error prescrito.
+
+Esta infraestructura no se aloja en el cuerpo de esta publicación. Se mantiene en el repositorio público del Sistema Vectorial SV para facilitar su consulta, descarga y reejecución. Los enlaces siguientes apuntan directamente a la versión oficial de los recursos.
+
+### Paquete completo
+
+- 📁 [ecuacion-factual-maxwell/](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/ecuacion-factual-maxwell) — raíz del paquete con todo el aparato laboratorial.
+
+### Documentación del paquete
+
+- 📄 [README del paquete](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/ecuacion-factual-maxwell/README.md) — descripción general, contenido y criterio de dictamen.
+- 📄 [README de laboratorios](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/ecuacion-factual-maxwell/laboratorios/README.md) — descripción operativa de los bancos y casos negativos.
+- 📄 [Plan de verificación material](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/ecuacion-factual-maxwell/tests/PLAN_VERIFICACION.md) — contrato material: veintiún bancos positivos obligatorios y quince ataques negativos obligatorios.
+
+### Runners ejecutables
+
+- 🐍 [runner_maestro.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/ecuacion-factual-maxwell/runners/runner_maestro.py) — ejecución completa del paquete: 21 bancos positivos + 15 ataques negativos. Salida `[APTO] / [NO APTO]`.
+- 🐍 [runner_rapido.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/ecuacion-factual-maxwell/runners/runner_rapido.py) — subset crítico del núcleo del laboratorio para verificación mínima.
+- 📁 [runners/](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/ecuacion-factual-maxwell/runners) — carpeta completa de runners.
+
+### Datos de entrada
+
+- 📁 [laboratorios/datos/](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/ecuacion-factual-maxwell/laboratorios/datos) — carpeta de datos.
+- 📄 [caso_control_svtresnueve.json](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/ecuacion-factual-maxwell/laboratorios/datos/caso_control_svtresnueve.json) — caso positivo de control con los veintiún bancos sobre la célula SV(3,9).
+- 📄 [casos_negativos.json](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/ecuacion-factual-maxwell/laboratorios/datos/casos_negativos.json) — quince ataques negativos con sus códigos canónicos de error esperados.
+
+### Módulo verificador
+
+- 🐍 [verificador_maxwell_sv.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/ecuacion-factual-maxwell/laboratorios/modulo/verificador_maxwell_sv.py) — núcleo de verificación, validación estructural y escritura de resultados.
+- 📁 [laboratorios/modulo/](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/ecuacion-factual-maxwell/laboratorios/modulo) — carpeta del módulo.
+
+### Resultados reproducibles de la última ejecución
+
+- 📁 [laboratorios/resultados/](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/ecuacion-factual-maxwell/laboratorios/resultados) — carpeta de resultados.
+- 📄 [runner_maestro_resumen.md](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/ecuacion-factual-maxwell/laboratorios/resultados/runner_maestro_resumen.md) — resumen humano-legible con tablas de bancos y dictamen final.
+- 📄 [runner_maestro.json](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/ecuacion-factual-maxwell/laboratorios/resultados/runner_maestro.json) — salida completa estructurada del runner maestro.
+- 📄 [runner_rapido.json](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/ecuacion-factual-maxwell/laboratorios/resultados/runner_rapido.json) — salida estructurada del runner rápido.
+
+### Catálogo de errores e incidencias
+
+- 📁 [errores/](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/ecuacion-factual-maxwell/errores) — carpeta de errores.
+- 📄 [CATALOGO_ERRORES_EJECUCION.md](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/ecuacion-factual-maxwell/errores/CATALOGO_ERRORES_EJECUCION.md) — catálogo canónico de códigos `MAXWELL001`–`MAXWELL018` y su semántica.
+- 📄 [catalogo_errores_ejecucion.csv](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/ecuacion-factual-maxwell/errores/catalogo_errores_ejecucion.csv) — versión tabular del catálogo.
+- 📄 [ERRORES.md](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/ecuacion-factual-maxwell/errores/ERRORES.md) — historial local de incidencias detectadas y corregidas.
+
+### Criterio de aptitud
+
+El conjunto se considera **APTO** si y sólo si concurren simultáneamente estas cuatro condiciones: se verifican exactamente los veintiún bancos positivos exigidos; todos los bancos positivos pasan sin discrepancia numérica, vectorial ni dimensional; los quince ataques negativos fallan de la forma esperada y quedan detectados por su código canónico; ningún runner produce pase silencioso, omisión de banco, mutación no aplicada o sustitución tácita de un fallo por aproximación no declarada. El estado actual del paquete satisface las cuatro condiciones.
 
 ---
 
