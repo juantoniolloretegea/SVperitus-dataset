@@ -2914,7 +2914,7 @@ donde 𝕄<sub>SV</sub> es la componente absoluta de las ecuaciones de primer or
 **Teorema 14.19.7.** *La jerarquía 𝓡<sup>f,(k)</sup><sub>SV</sub> es estable bajo composición absoluta: para todo par k<sub>1</sub>, k<sub>2</sub> ≥ 1,*
 
 ```math
-\mathcal{R}^{f,(k_1)}_{SV} \circ \mathcal{R}^{f,(k_2)}_{SV} = \mathcal{R}^{f,(k_1 + k_2)}_{SV}.
+\mathcal{R}^{f,(k_{1})}_{SV} \circ \mathcal{R}^{f,(k_{2})}_{SV} = \mathcal{R}^{f,(k_{1} + k_{2})}_{SV}.
 ```
 
 *Demostración.* Por la Definición 14.19.6 aplicada inductivamente sobre el orden compositivo. Q.E.D.
