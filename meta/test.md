@@ -56,13 +56,7 @@ donde $`\mathbb{M}_{SV}`$ es la componente absoluta de las ecuaciones de primer 
 - $`\mathcal{R}^{f,(1)}_{SV} := \mathcal{R}^{f}_{SV}`$.
 - $`\mathcal{R}^{f,(k+1)}_{SV} := \mathcal{R}^{f,(k)}_{SV} \circ \mathcal{R}^{f}_{SV}`$, para todo $`k \ge 1`$.
 
-**Teorema 14.19.7.** La jerarquía $`\mathcal{R}^{f,(k)}_{SV}`$ es estable bajo composición absoluta: para todo par $`k_1, k_2 \ge 1`$,
-
-$$
-\mathcal{R}^{f,(k_1)}_{SV} \circ \mathcal{R}^{f,(k_2)}_{SV}
-=
-\mathcal{R}^{f,(k_1+k_2)}_{SV}.
-$$
+**Teorema 14.19.7.** La jerarquía $`\mathcal{R}^{f,(k)}_{SV}`$ es estable bajo composición absoluta: para todo par $`k_1, k_2 \ge 1`$, se cumple $`\mathcal{R}^{f,(k_1)}_{SV} \circ \mathcal{R}^{f,(k_2)}_{SV} = \mathcal{R}^{f,(k_1+k_2)}_{SV}`$.
 
 *Demostración.* La igualdad se obtiene por aplicación inductiva directa de la Definición 14.19.6 sobre el orden compositivo. Q.E.D.
 
