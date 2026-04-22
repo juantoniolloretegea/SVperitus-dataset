@@ -1,9 +1,9 @@
 ## §14. Desarrollo algebraico del operador maestro absoluto $`\mathbb{E}_{SV}`$
 
-El presente desarrollo algebraico consolida el aparato operatorio del régimen electromagnético factual del Sistema Vectorial SV sobre el régimen canalizado de propagación $`\Sigma_{\text{canal}}`$, quinto eslabón de la cadena fundacional absoluta del corpus,
+El presente desarrollo algebraico consolida el aparato operatorio del régimen electromagnético factual del Sistema Vectorial SV sobre el régimen canalizado de propagación $`\Sigma_{\mathrm{canal}}`$, quinto eslabón de la cadena fundacional absoluta del corpus,
 
 $$
-\Omega_{\text{pre}} \xrightarrow{\Pi_3^H} K_3^n \xrightarrow{\varepsilon} \Xi_{SV} \xrightarrow{\mathfrak{K}_{SV}} \Sigma_{\text{conc}} \xrightarrow{\mathfrak{H}_{SV}} \Sigma_{\text{canal}} \xrightarrow{\mathfrak{T}_{SV}} \{m_0,\,\chi_\alpha,\,U\},
+\Omega_{\mathrm{pre}} \xrightarrow{\Pi_3^H} K_3^n \xrightarrow{\varepsilon} \Xi_{SV} \xrightarrow{\mathfrak{K}_{SV}} \Sigma_{\mathrm{conc}} \xrightarrow{\mathfrak{H}_{SV}} \Sigma_{\mathrm{canal}} \xrightarrow{\mathfrak{T}_{SV}} \{m_0,\,\chi_\alpha,\,U\},
 $$
 
 fijada en el §3.2 del documento *Fundamentos operatorios absolutos del electromagnetismo factual en el Sistema Vectorial SV* (Lloret Egea, 2026j, §1). Las magnitudes factuales se realizan como aplicaciones $`q: \Xi_{SV} \to \mathbb{R}`$ sobre el dominio canónico geometrizado $`\Xi_{SV}`$, conforme al estatuto operatorio del mencionado §3.2.
@@ -32,7 +32,7 @@ Cuando $`k = m`$, el determinante $`\det(J_{SV})`$ define el **índice escalar d
 
 ### 14.1.3. Transformación bajo cambio factual admisible
 
-**Proposición 14.1.1.** *Sea $`\Phi: \Xi_{SV} \to \Xi'_{SV}`$ un cambio factual admisible con matriz factual $`M^a{}_c`$. El jacobiano factual transforma según*
+**Proposición 14.1.1.** Sea $`\Phi: \Xi_{SV} \to \Xi'_{SV}`$ un cambio factual admisible con matriz factual $`M^a{}_c`$. El jacobiano factual transforma según
 
 $$
 (J'_{SV})^a{}_b \;=\; M^a{}_c \cdot (J_{SV})^c{}_b,
@@ -40,7 +40,7 @@ $$
 
 *y su determinante según $`\det(J'_{SV}) = \det(M) \cdot \det(J_{SV})`$.*
 
-*Demostración.* Por la regla de la cadena factual aplicada al cambio $`\Phi`$ sobre el dominio admisible, $`q'^a = M^a{}_c\, q^c`$, y la derivación $`\partial^{SV}_{\theta_b}`$ actúa linealmente sobre $`q'^a`$ con coeficiente $`M^a{}_c`$ independiente del parámetro. La invariancia del parámetro $`\theta`$ bajo $`\Phi`$ (por la definición de cambio factual admisible) garantiza la forma de transformación matricial indicada. El determinante se sigue de la multiplicatividad canónica. Q.E.D.
+**Demostración.** Por la regla de la cadena factual aplicada al cambio $`\Phi`$ sobre el dominio admisible, $`q'^a = M^a{}_c\, q^c`$, y la derivación $`\partial^{SV}_{\theta_b}`$ actúa linealmente sobre $`q'^a`$ con coeficiente $`M^a{}_c`$ independiente del parámetro. La invariancia del parámetro $`\theta`$ bajo $`\Phi`$ (por la definición de cambio factual admisible) garantiza la forma de transformación matricial indicada. El determinante se sigue de la multiplicatividad canónica. Q.E.D.
 
 ### 14.1.4. Régimen regular y régimen singular
 
@@ -72,15 +72,15 @@ La activación de frontera es propiedad intrínseca del régimen, derivada de la
 
 ### 14.2.2. Complementariedad regular-frontera
 
-**Proposición 14.2.2.** *El conjunto de configuraciones admisibles $`\Theta_{SV}`$ se descompone disjuntamente en régimen regular $`\Theta^{\text{reg}}_{SV}`$ y régimen de frontera $`\Theta^{\partial}_{SV}`$:*
+**Proposición 14.2.2.** El conjunto de configuraciones admisibles $`\Theta_{SV}`$ se descompone disjuntamente en régimen regular $`\Theta^{\mathrm{reg}}_{SV}`$ y régimen de frontera $`\Theta^{\partial}_{SV}`$:
 
 $$
-\Theta_{SV} \;=\; \Theta^{\text{reg}}_{SV} \;\sqcup\; \Theta^{\partial}_{SV},
+\Theta_{SV} \;=\; \Theta^{\mathrm{reg}}_{SV} \;\sqcup\; \Theta^{\partial}_{SV},
 $$
 
-*con $`\Theta^{\text{reg}}_{SV} = \{\theta \in \Theta_{SV} \,|\, \det(J_{SV}(\theta)) \neq 0\}`$ y $`\Theta^{\partial}_{SV} = \{\theta \in \Theta_{SV} \,|\, \det(J_{SV}(\theta)) = 0\}`$.*
+con $`\Theta^{\mathrm{reg}}_{SV} = \{\theta \in \Theta_{SV} \,|\, \det(J_{SV}(\theta)) \neq 0\}`$ y $`\Theta^{\partial}_{SV} = \{\theta \in \Theta_{SV} \,|\, \det(J_{SV}(\theta)) = 0\}`$.
 
-*Demostración.* La descomposición es consecuencia directa del principio del tercio excluso aplicado al predicado $`\det(J_{SV}) = 0`$ sobre el dominio admisible. Q.E.D.
+**Demostración.** La descomposición es consecuencia directa del principio del tercio excluso aplicado al predicado $`\det(J_{SV}) = 0`$ sobre el dominio admisible. Q.E.D.
 
 ### 14.2.3. Indicador absoluto de frontera
 
@@ -111,30 +111,30 @@ lo que distingue cuantitativamente el régimen regular del régimen de frontera 
 **Definición 14.3.1.** El **operador exacto de reconfiguración factual** es la aplicación
 
 $$
-\mathcal{R}^f_{SV} \;:=\; \mathbb{1}_{\det(J_{SV})=0} \cdot \Lambda \cdot B_{\text{reg}},
+\mathcal{R}^f_{SV} \;:=\; \mathbb{1}_{\det(J_{SV})=0} \cdot \Lambda \cdot B_{\mathrm{reg}},
 $$
 
-donde $`\Lambda`$ es el factor de absorción interfacial factual (definido a continuación) y $`B_{\text{reg}}`$ es el operador de regularización absoluta que preserva la clase factual admisible bajo reconfiguración de frontera.
+donde $`\Lambda`$ es el factor de absorción interfacial factual (definido a continuación) y $`B_{\mathrm{reg}}`$ es el operador de regularización absoluta que preserva la clase factual admisible bajo reconfiguración de frontera.
 
 ### 14.3.2. Factor de absorción interfacial
 
 Sea $`\partial C_{k,l}`$ la interfaz factual entre dos celdas admisibles $`C_k`$ y $`C_l`$ del mosaico, con bases posicionales $`\{e^{SV,(k)}_i\}`$ y $`\{e^{SV,(l)}_i\}`$ relacionadas por cambio factual $`M^{(k,l)}`$. El **factor de absorción interfacial factual** se define como el endomorfismo factual
 
 $$
-\Lambda^{(k,l)} \;:=\; M^{(k,l)} \cdot P^{\text{tan}}_{\partial C_{k,l}} + P^{\text{norm}}_{\partial C_{k,l}},
+\Lambda^{(k,l)} \;:=\; M^{(k,l)} \cdot P^{\mathrm{tan}}_{\partial C_{k,l}} + P^{\mathrm{norm}}_{\partial C_{k,l}},
 $$
 
-donde $`P^{\text{tan}}`$ y $`P^{\text{norm}}`$ son los proyectores factuales tangencial y normal a la interfaz, respectivamente.
+donde $`P^{\mathrm{tan}}`$ y $`P^{\mathrm{norm}}`$ son los proyectores factuales tangencial y normal a la interfaz, respectivamente.
 
 ### 14.3.3. Propiedades canónicas del operador
 
-**Proposición 14.3.2 (acción sobre régimen regular).** *En régimen factual regular, $`\mathcal{R}^f_{SV}`$ anula: $`\mathcal{R}^f_{SV}(q) = 0`$ para toda magnitud factual admisible $`q`$.*
+**Proposición 14.3.2 (acción sobre régimen regular).** En régimen factual regular, $`\mathcal{R}^f_{SV}`$ anula: $`\mathcal{R}^f_{SV}(q) = 0`$ para toda magnitud factual admisible $`q`$.
 
-*Demostración.* En régimen regular, $`\det(J_{SV}) \neq 0`$, por tanto $`\mathbb{1}_{\det(J_{SV})=0} = 0`$, y el producto que define $`\mathcal{R}^f_{SV}`$ se anula. Q.E.D.
+**Demostración.** En régimen regular, $`\det(J_{SV}) \neq 0`$, por tanto $`\mathbb{1}_{\det(J_{SV})=0} = 0`$, y el producto que define $`\mathcal{R}^f_{SV}`$ se anula. Q.E.D.
 
-**Proposición 14.3.3 (preservación de clase admisible).** *Sobre régimen factual de frontera, $`\mathcal{R}^f_{SV}`$ preserva la clase factual admisible: para toda magnitud $`q`$ admisible, $`\mathcal{R}^f_{SV}(q)`$ es admisible.*
+**Proposición 14.3.3 (preservación de clase admisible).** Sobre régimen factual de frontera, $`\mathcal{R}^f_{SV}`$ preserva la clase factual admisible: para toda magnitud $`q`$ admisible, $`\mathcal{R}^f_{SV}(q)`$ es admisible.
 
-*Demostración.* El factor $`\Lambda`$ es endomorfismo lineal de la estructura interfacial y respeta la descomposición tangencial-normal; $`B_{\text{reg}}`$ es operador de regularización factual que, por construcción, devuelve aplicaciones admisibles bajo toda entrada admisible. La composición preserva la propiedad. Q.E.D.
+**Demostración.** El factor $`\Lambda`$ es endomorfismo lineal de la estructura interfacial y respeta la descomposición tangencial-normal; $`B_{\mathrm{reg}}`$ es operador de regularización factual que, por construcción, devuelve aplicaciones admisibles bajo toda entrada admisible. La composición preserva la propiedad. Q.E.D.
 
 ### 14.3.4. Verificación visible sobre interfaz factual
 
@@ -150,7 +150,7 @@ $$
 \Lambda^{(1,2)}(q) = (\cos(\pi/6),\, -\sin(\pi/6),\, 0) \approx (0{,}866,\, -0{,}500,\, 0).
 $$
 
-Bajo indicador activo $`\mathbb{1}_{\det(J_{SV})=0} = 1`$ y operador de regularización $`B_{\text{reg}} = \text{Id}`$ (configuración regular en la interfaz misma), $`\mathcal{R}^f_{SV}(q) = (0{,}866,\, -0{,}500,\, 0)`$. En el interior de $`C_1`$, el indicador se anula y $`\mathcal{R}^f_{SV}(q) = (0, 0, 0)`$.
+Bajo indicador activo $`\mathbb{1}_{\det(J_{SV})=0} = 1`$ y operador de regularización $`B_{\mathrm{reg}} = \mathrm{Id}`$ (configuración regular en la interfaz misma), $`\mathcal{R}^f_{SV}(q) = (0{,}866,\, -0{,}500,\, 0)`$. En el interior de $`C_1`$, el indicador se anula y $`\mathcal{R}^f_{SV}(q) = (0, 0, 0)`$.
 
 ---
 
@@ -160,7 +160,7 @@ Bajo indicador activo $`\mathbb{1}_{\det(J_{SV})=0} = 1`$ y operador de regulari
 
 ### 14.4.1. Definición canónica
 
-Sea $`\{e^{SV}_i\}_{i=1}^{3}`$ la base posicional admisible del mosaico $`SV(3,9)`$ sobre $`\Sigma_{\text{canal}}`$. El **tensor factual completamente antisimétrico de orden tres** es el objeto $`\varepsilon^{SV}_{ijk}`$ cuyas componentes, en la base ortonormal admisible, toman los valores
+Sea $`\{e^{SV}_i\}_{i=1}^{3}`$ la base posicional admisible del mosaico $`SV(3,9)`$ sobre $`\Sigma_{\mathrm{canal}}`$. El **tensor factual completamente antisimétrico de orden tres** es el objeto $`\varepsilon^{SV}_{ijk}`$ cuyas componentes, en la base ortonormal admisible, toman los valores
 
 $$
 \varepsilon^{SV}_{ijk} \;=\; \begin{cases} +1 & \text{si } (i,j,k) \text{ es permutación par de } (1,2,3), \\ -1 & \text{si } (i,j,k) \text{ es permutación impar de } (1,2,3), \\ 0 & \text{en otro caso.} \end{cases}
@@ -180,17 +180,17 @@ Sobre cambios de base que preservan la orientación factual ($`\det(M) = +1`$), 
 
 ### 14.4.3. Identidad algebraica fundamental
 
-**Proposición 14.4.1.** *Sobre la base tridimensional del mosaico absoluto, para todo par de ternas de índices admisibles,*
+**Proposición 14.4.1.** Sobre la base tridimensional del mosaico absoluto, para todo par de ternas de índices admisibles,
 
 $$
 \varepsilon^{SV}_{ijk}\, \varepsilon^{SV,ilm} \;=\; \delta^{l}_{j}\,\delta^{m}_{k} \;-\; \delta^{m}_{j}\,\delta^{l}_{k}.
 $$
 
-*Demostración.* Por antisimetría completa, la suma $`\sum_i \varepsilon^{SV}_{ijk}\,\varepsilon^{SV,ilm}`$ anula todo sumando en que $`j=k`$ o $`l=m`$. Para $`j\neq k`$ y $`l\neq m`$, la suma sobre $`i`$ admite exactamente un término no nulo, correspondiente al único valor de $`i`$ que completa la terna ordenada admisible. El signo resultante coincide con la paridad de la permutación $`(j,k) \mapsto (l,m)`$: $`+1`$ si $`(l,m)=(j,k)`$, $`-1`$ si $`(l,m)=(k,j)`$. Esta alternancia reproduce exactamente la forma $`\delta^l_j\delta^m_k - \delta^m_j\delta^l_k`$. Q.E.D.
+**Demostración.** Por antisimetría completa, la suma $`\sum_i \varepsilon^{SV}_{ijk}\,\varepsilon^{SV,ilm}`$ anula todo sumando en que $`j=k`$ o $`l=m`$. Para $`j\neq k`$ y $`l\neq m`$, la suma sobre $`i`$ admite exactamente un término no nulo, correspondiente al único valor de $`i`$ que completa la terna ordenada admisible. El signo resultante coincide con la paridad de la permutación $`(j,k) \mapsto (l,m)`$: $`+1`$ si $`(l,m)=(j,k)`$, $`-1`$ si $`(l,m)=(k,j)`$. Esta alternancia reproduce exactamente la forma $`\delta^l_j\delta^m_k - \delta^m_j\delta^l_k`$. Q.E.D.
 
-**Corolario 14.4.2.** *La contracción doble se evalúa a $`\varepsilon^{SV}_{ijk}\,\varepsilon^{SV,ijm} = 2\,\delta^m_k`$.*
+**Corolario 14.4.2.** La contracción doble se evalúa a $`\varepsilon^{SV}_{ijk}\,\varepsilon^{SV,ijm} = 2\,\delta^m_k`$.
 
-**Corolario 14.4.3.** *La contracción triple se evalúa a $`\varepsilon^{SV}_{ijk}\,\varepsilon^{SV,ijk} = 6`$.*
+**Corolario 14.4.3.** La contracción triple se evalúa a $`\varepsilon^{SV}_{ijk}\,\varepsilon^{SV,ijk} = 6`$.
 
 ### 14.4.4. Verificación visible de contracciones
 
@@ -250,30 +250,30 @@ Este operador extrae la componente tangencial factual del campo $`F`$ sobre $`\p
 
 ### 14.5.4. Identidad de Poynting factual
 
-**Teorema 14.5.4.** *Para todo par de campos vectoriales factuales $`F, G`$ admisibles en régimen separable,*
+**Teorema 14.5.4.** Para todo par de campos vectoriales factuales $`F, G`$ admisibles en régimen separable,
 
 $$
-\text{Div}_{SV}(F \times_{SV} G) \;=\; \langle G, \text{Rot}_{SV}(F)\rangle_{SV} \;-\; \langle F, \text{Rot}_{SV}(G)\rangle_{SV},
+\mathrm{Div}_{SV}(F \times_{SV} G) \;=\; \langle G, \mathrm{Rot}_{SV}(F)\rangle_{SV} \;-\; \langle F, \mathrm{Rot}_{SV}(G)\rangle_{SV},
 $$
 
-*con $`\langle\cdot,\cdot\rangle_{SV}`$ el bracket factual del §14.7 y $`\text{Rot}_{SV}`$ el rotor factual del §14.6.*
+con $`\langle\cdot,\cdot\rangle_{SV}`$ el bracket factual del §14.7 y $`\mathrm{Rot}_{SV}`$ el rotor factual del §14.6.
 
-*Demostración.* Por la definición de $`\times_{SV}`$ y la regla de Leibniz factual para la divergencia factual,
+**Demostración.** Por la definición de $`\times_{SV}`$ y la regla de Leibniz factual para la divergencia factual,
 
 $$
-\text{Div}_{SV}(F \times_{SV} G) = \partial^{SV}_i\,(\varepsilon^{SV,ijk}\, F_j\, G_k) = \varepsilon^{SV,ijk}\,(\partial^{SV}_i F_j)\, G_k + \varepsilon^{SV,ijk}\, F_j\,(\partial^{SV}_i G_k).
+\mathrm{Div}_{SV}(F \times_{SV} G) = \partial^{SV}_i\,(\varepsilon^{SV,ijk}\, F_j\, G_k) = \varepsilon^{SV,ijk}\,(\partial^{SV}_i F_j)\, G_k + \varepsilon^{SV,ijk}\, F_j\,(\partial^{SV}_i G_k).
 $$
 
 Por antisimetría tensorial del símbolo $`\varepsilon^{SV}`$ en los índices $`(i,j)`$,
 
 $$
-\varepsilon^{SV,ijk}\,(\partial^{SV}_i F_j)\, G_k = -\varepsilon^{SV,jik}\,(\partial^{SV}_i F_j)\, G_k = -(\text{Rot}_{SV}\, F)^k\, G_k = -\langle G, \text{Rot}_{SV}(F)\rangle_{SV}.
+\varepsilon^{SV,ijk}\,(\partial^{SV}_i F_j)\, G_k = -\varepsilon^{SV,jik}\,(\partial^{SV}_i F_j)\, G_k = -(\mathrm{Rot}_{SV}\, F)^k\, G_k = -\langle G, \mathrm{Rot}_{SV}(F)\rangle_{SV}.
 $$
 
 Análogamente, por antisimetría tensorial en $`(i,k)`$,
 
 $$
-\varepsilon^{SV,ijk}\, F_j\,(\partial^{SV}_i G_k) = \langle F, \text{Rot}_{SV}(G)\rangle_{SV}.
+\varepsilon^{SV,ijk}\, F_j\,(\partial^{SV}_i G_k) = \langle F, \mathrm{Rot}_{SV}(G)\rangle_{SV}.
 $$
 
 Sumando ambos términos se obtiene el enunciado. Q.E.D.
@@ -298,18 +298,18 @@ $$
 
 Por tanto $`S_{SV} := E \times_{SV} H = (0,\, 0,\, 6\,x_3^2)`$.
 
-Divergencia factual: $`\text{Div}_{SV}(S_{SV}) = \partial^{SV}_3\,(6\,x_3^2) = 12\,x_3`$.
+Divergencia factual: $`\mathrm{Div}_{SV}(S_{SV}) = \partial^{SV}_3\,(6\,x_3^2) = 12\,x_3`$.
 
 Rotor factual de $`E`$ y $`H`$:
 
 $$
-(\text{Rot}_{SV}\, E)^2 = \varepsilon^{SV,231}\,\partial^{SV}_3\, E_1 = (+1)\cdot 2 = 2, \qquad (\text{Rot}_{SV}\, H)^1 = (-1)\cdot 3 = -3.
+(\mathrm{Rot}_{SV}\, E)^2 = \varepsilon^{SV,231}\,\partial^{SV}_3\, E_1 = (+1)\cdot 2 = 2, \qquad (\mathrm{Rot}_{SV}\, H)^1 = (-1)\cdot 3 = -3.
 $$
 
 Segundo miembro del Teorema 14.5.4:
 
 $$
-\langle H, \text{Rot}_{SV}\, E\rangle_{SV} - \langle E, \text{Rot}_{SV}\, H\rangle_{SV} = (3x_3)(2) - (2x_3)(-3) = 6x_3 + 6x_3 = 12\,x_3.
+\langle H, \mathrm{Rot}_{SV}\, E\rangle_{SV} - \langle E, \mathrm{Rot}_{SV}\, H\rangle_{SV} = (3x_3)(2) - (2x_3)(-3) = 6x_3 + 6x_3 = 12\,x_3.
 $$
 
 Ambos miembros coinciden exactamente en el valor $`12\,x_3`$.
@@ -320,10 +320,10 @@ Ambos miembros coinciden exactamente en el valor $`12\,x_3`$.
 
 ### 14.6.1. Definición del rotor factual
 
-**Definición 14.6.1.** Sea $`F`$ un campo vectorial factual admisible sobre base tridimensional del mosaico. El **rotor factual** $`\text{Rot}_{SV}(F)`$ es el campo vectorial factual de componentes
+**Definición 14.6.1.** Sea $`F`$ un campo vectorial factual admisible sobre base tridimensional del mosaico. El **rotor factual** $`\mathrm{Rot}_{SV}(F)`$ es el campo vectorial factual de componentes
 
 $$
-(\text{Rot}_{SV}\, F)^i \;:=\; \varepsilon^{SV,ijk}\, \partial^{SV}_j\, F_k.
+(\mathrm{Rot}_{SV}\, F)^i \;:=\; \varepsilon^{SV,ijk}\, \partial^{SV}_j\, F_k.
 $$
 
 ### 14.6.2. Propiedades canónicas
@@ -331,16 +331,16 @@ $$
 **Proposición 14.6.2 (linealidad factual).** El rotor factual es lineal: para escalares factuales $`\alpha, \beta`$ y campos admisibles $`F, G`$,
 
 $$
-\text{Rot}_{SV}(\alpha F + \beta G) \;=\; \alpha\,\text{Rot}_{SV}(F) + \beta\,\text{Rot}_{SV}(G).
+\mathrm{Rot}_{SV}(\alpha F + \beta G) \;=\; \alpha\,\mathrm{Rot}_{SV}(F) + \beta\,\mathrm{Rot}_{SV}(G).
 $$
 
 **Proposición 14.6.3 (tensor antisimétrico asociado).** El rotor factual admite expresión equivalente como dual de Hodge factual del tensor antisimétrico de parciales factuales:
 
 $$
-\Omega^{SV}_{jk}(F) \;:=\; \partial^{SV}_j F_k - \partial^{SV}_k F_j, \qquad (\text{Rot}_{SV}\, F)^i \;=\; \tfrac{1}{2}\,\varepsilon^{SV,ijk}\,\Omega^{SV}_{jk}(F).
+\Omega^{SV}_{jk}(F) \;:=\; \partial^{SV}_j F_k - \partial^{SV}_k F_j, \qquad (\mathrm{Rot}_{SV}\, F)^i \;=\; \tfrac{1}{2}\,\varepsilon^{SV,ijk}\,\Omega^{SV}_{jk}(F).
 $$
 
-*Demostración.* Por antisimetría de $`\varepsilon^{SV,ijk}`$ en $`(j,k)`$,
+**Demostración.** Por antisimetría de $`\varepsilon^{SV,ijk}`$ en $`(j,k)`$,
 
 $$
 \varepsilon^{SV,ijk}\,\partial^{SV}_j F_k = \tfrac{1}{2}\,\varepsilon^{SV,ijk}\,(\partial^{SV}_j F_k - \partial^{SV}_k F_j) = \tfrac{1}{2}\,\varepsilon^{SV,ijk}\,\Omega^{SV}_{jk}(F).
@@ -350,48 +350,48 @@ Q.E.D.
 
 ### 14.6.3. Teorema de Stokes factual
 
-**Teorema 14.6.4 (Stokes factual).** *Sea $`S`$ una superficie factual admisible con frontera $`\partial S`$ orientada, y $`F`$ un campo vectorial factual admisible. Entonces*
+**Teorema 14.6.4 (Stokes factual).** Sea $`S`$ una superficie factual admisible con frontera $`\partial S`$ orientada, y $`F`$ un campo vectorial factual admisible. Entonces
 
 $$
-\int^{SV}_{\partial S} F \cdot d\ell^{SV} \;=\; \int^{SV}_{S} \text{Rot}_{SV}(F) \cdot d\mathbf{S}^{SV},
+\int^{SV}_{\partial S} F \cdot d\ell^{SV} \;=\; \int^{SV}_{S} \mathrm{Rot}_{SV}(F) \cdot d\mathbf{S}^{SV},
 $$
 
-*donde $`\int^{SV}_{\partial S}`$ es la circulación factual sobre $`\partial S`$, $`\int^{SV}_{S}`$ es la integral de superficie factual sobre $`S`$, $`d\ell^{SV}`$ es el elemento admisible de línea y $`d\mathbf{S}^{SV}`$ es el elemento admisible de superficie, conforme al cosido metrológico absoluto del corpus.*
+donde $`\int^{SV}_{\partial S}`$ es la circulación factual sobre $`\partial S`$, $`\int^{SV}_{S}`$ es la integral de superficie factual sobre $`S`$, $`d\ell^{SV}`$ es el elemento admisible de línea y $`d\mathbf{S}^{SV}`$ es el elemento admisible de superficie, conforme al cosido metrológico absoluto del corpus.
 
-*Demostración.* Sobre cada celda admisible $`C_k \subset S`$, se fija la base posicional $`\{e^{SV,(k)}_i\}`$ en la que los operadores factuales son locales. Por la Proposición 14.6.3 y la definición integral factual,
+**Demostración.** Sobre cada celda admisible $`C_k \subset S`$, se fija la base posicional $`\{e^{SV,(k)}_i\}`$ en la que los operadores factuales son locales. Por la Proposición 14.6.3 y la definición integral factual,
 
 $$
-\int^{SV}_{C_k} \text{Rot}_{SV}(F) \cdot d\mathbf{S}^{SV} = \int^{SV}_{C_k} \tfrac{1}{2}\,\varepsilon^{SV,ijk}\,\Omega^{SV}_{jk}(F)\,n^{SV}_i\, dS^{SV}.
+\int^{SV}_{C_k} \mathrm{Rot}_{SV}(F) \cdot d\mathbf{S}^{SV} = \int^{SV}_{C_k} \tfrac{1}{2}\,\varepsilon^{SV,ijk}\,\Omega^{SV}_{jk}(F)\,n^{SV}_i\, dS^{SV}.
 $$
 
 Aplicando el balance absoluto de frontera factual (fundamentos §7.4) sobre $`\partial C_k`$, se obtiene
 
 $$
-\int^{SV}_{C_k} \text{Rot}_{SV}(F) \cdot d\mathbf{S}^{SV} = \oint^{SV}_{\partial C_k} F \cdot d\ell^{SV}.
+\int^{SV}_{C_k} \mathrm{Rot}_{SV}(F) \cdot d\mathbf{S}^{SV} = \oint^{SV}_{\partial C_k} F \cdot d\ell^{SV}.
 $$
 
 La suma sobre todas las celdas admisibles que recubren $`S`$ cancela las contribuciones de fronteras interiores (por antisimetría de orientación en interfaces internas) y deja únicamente la circulación sobre $`\partial S`$. Q.E.D.
 
 ### 14.6.4. Identidad de rotor del rotor
 
-**Teorema 14.6.5.** *Sobre régimen separable con ortotropía factual local (Definición 14.8.4),*
+**Teorema 14.6.5.** Sobre régimen separable con ortotropía factual local (Definición 14.8.4),
 
 $$
-\text{Rot}_{SV}(\text{Rot}_{SV}\, F) \;=\; \nabla^{SV}\,\text{Div}_{SV}(F) \;-\; \Delta^{SV}\, F,
+\mathrm{Rot}_{SV}(\mathrm{Rot}_{SV}\, F) \;=\; \nabla^{SV}\,\mathrm{Div}_{SV}(F) \;-\; \Delta^{SV}\, F,
 $$
 
-*con $`\Delta^{SV} := \text{Div}_{SV}\circ\nabla^{SV}`$ el laplaciano factual absoluto.*
+con $`\Delta^{SV} := \mathrm{Div}_{SV}\circ\nabla^{SV}`$ el laplaciano factual absoluto.
 
-*Demostración.* Por aplicación de la Proposición 14.4.1 al doble rotor componente a componente,
+**Demostración.** Por aplicación de la Proposición 14.4.1 al doble rotor componente a componente,
 
 $$
-(\text{Rot}_{SV}\,\text{Rot}_{SV}\, F)^i = \varepsilon^{SV,ijk}\,\partial^{SV}_j\,(\text{Rot}_{SV}\, F)_k = \varepsilon^{SV,ijk}\,\partial^{SV}_j\,(\varepsilon^{SV,klm}\,\partial^{SV}_l\, F_m).
+(\mathrm{Rot}_{SV}\,\mathrm{Rot}_{SV}\, F)^i = \varepsilon^{SV,ijk}\,\partial^{SV}_j\,(\mathrm{Rot}_{SV}\, F)_k = \varepsilon^{SV,ijk}\,\partial^{SV}_j\,(\varepsilon^{SV,klm}\,\partial^{SV}_l\, F_m).
 $$
 
 Usando la identidad $`\varepsilon^{SV,ijk}\,\varepsilon^{SV,klm} = \delta^i_l \delta^j_m - \delta^i_m \delta^j_l`$ y la conmutación de parciales posicionales bajo ortotropía local (Definición 14.8.4),
 
 $$
-= \partial^{SV}_j\,\partial^{SV}_i\, F_j - \partial^{SV}_j\,\partial^{SV}_j\, F_i = \partial^{SV}_i\,(\partial^{SV}_j\, F_j) - \Delta^{SV}\, F_i = (\nabla^{SV}\,\text{Div}_{SV}\, F)^i - (\Delta^{SV}\, F)^i.
+= \partial^{SV}_j\,\partial^{SV}_i\, F_j - \partial^{SV}_j\,\partial^{SV}_j\, F_i = \partial^{SV}_i\,(\partial^{SV}_j\, F_j) - \Delta^{SV}\, F_i = (\nabla^{SV}\,\mathrm{Div}_{SV}\, F)^i - (\Delta^{SV}\, F)^i.
 $$
 
 Q.E.D.
@@ -403,13 +403,13 @@ Sobre disco admisible $`S`$ de radio factual $`R = 1`$ en el plano $`(e^{SV}_1, 
 Rotor factual:
 
 $$
-(\text{Rot}_{SV}\, F)^3 = \partial^{SV}_1 F_2 - \partial^{SV}_2 F_1 = 1 - (-1) = 2.
+(\mathrm{Rot}_{SV}\, F)^3 = \partial^{SV}_1 F_2 - \partial^{SV}_2 F_1 = 1 - (-1) = 2.
 $$
 
 Integral de superficie factual:
 
 $$
-\int^{SV}_S \text{Rot}_{SV}(F) \cdot d\mathbf{S}^{SV} = 2 \cdot \pi R^2 = 2\pi.
+\int^{SV}_S \mathrm{Rot}_{SV}(F) \cdot d\mathbf{S}^{SV} = 2 \cdot \pi R^2 = 2\pi.
 $$
 
 Circulación factual sobre $`\partial S`$:
@@ -452,7 +452,7 @@ y análogamente en el segundo argumento.
 
 - (A1) *Linealidad factual:* compatibilidad con combinaciones factuales absolutas sobre el codominio.
 
-- (A2) *Clausura factual:* preservación de la clase bajo aplicación de los operadores absolutos $`\partial_\nu^{SV}, \partial^{SV}_i, \text{Div}_{SV}, \text{Rot}_{SV}, \varepsilon_{SV}, \mu_{SV}, \sigma_{SV}`$.
+- (A2) *Clausura factual:* preservación de la clase bajo aplicación de los operadores absolutos $`\partial_\nu^{SV}, \partial^{SV}_i, \mathrm{Div}_{SV}, \mathrm{Rot}_{SV}, \varepsilon_{SV}, \mu_{SV}, \sigma_{SV}`$.
 
 - (A3) *Compatibilidad con refinamiento factual:* estabilidad bajo subdivisión admisible del mosaico absoluto.
 
@@ -462,13 +462,13 @@ El bracket $`\langle\cdot,\cdot\rangle_{SV}`$ queda bien definido y cumple (B1)�
 
 ### 14.7.4. Identidad de polarización factual
 
-**Teorema 14.7.3.** *Para todo par de campos admisibles $`F, G`$,*
+**Teorema 14.7.3.** Para todo par de campos admisibles $`F, G`$,
 
 $$
 \langle F, G\rangle_{SV} \;=\; \tfrac{1}{4}\!\left[\langle F+G, F+G\rangle_{SV} - \langle F-G, F-G\rangle_{SV}\right].
 $$
 
-*Demostración.* Desarrollando por bilinealidad (B1) y simetría (B2),
+**Demostración.** Desarrollando por bilinealidad (B1) y simetría (B2),
 
 $$
 \langle F+G, F+G\rangle_{SV} = \langle F,F\rangle_{SV} + 2\,\langle F,G\rangle_{SV} + \langle G,G\rangle_{SV},
@@ -482,13 +482,13 @@ La diferencia dividida por $`4`$ recupera $`\langle F,G\rangle_{SV}`$. Q.E.D.
 
 ### 14.7.5. Regla de Leibniz factual bajo $`\partial_\nu^{SV}`$
 
-**Teorema 14.7.4.** *Sobre régimen separable (Definición 14.10.1), para todo par admisible $`F, G`$,*
+**Teorema 14.7.4.** Sobre régimen separable (Definición 14.10.1), para todo par admisible $`F, G`$,
 
 $$
 \partial_\nu^{SV}\langle F, G\rangle_{SV} \;=\; \langle \partial_\nu^{SV} F, G\rangle_{SV} + \langle F, \partial_\nu^{SV} G\rangle_{SV} + \omega(\nu)\,\langle \partial_\nu^{SV} F, \partial_\nu^{SV} G\rangle_{SV}.
 $$
 
-*Demostración.* Por la definición de $`\partial_\nu^{SV}`$ del corpus de fundamentos §5.2,
+**Demostración.** Por la definición de $`\partial_\nu^{SV}`$ del corpus de fundamentos §5.2,
 
 $$
 \partial_\nu^{SV}\langle F, G\rangle_{SV}(j) = \frac{\langle F_{j+1}, G_{j+1}\rangle_{SV} - \langle F_j, G_j\rangle_{SV}}{\omega(\nu_j)}.
@@ -504,7 +504,7 @@ Dividiendo por $`\omega(\nu_j)`$ se obtiene el enunciado. Q.E.D.
 
 ### 14.7.6. Densidad factual de energía electromagnética
 
-**Teorema 14.7.5.** *En régimen electromagnético factual admisible con operadores constitutivos $`\varepsilon_{SV}, \mu_{SV}`$ no negativos y factualmente autoadjuntos (Teorema 14.8.2), la densidad factual*
+**Teorema 14.7.5.** En régimen electromagnético factual admisible con operadores constitutivos $`\varepsilon_{SV}, \mu_{SV}`$ no negativos y factualmente autoadjuntos (Teorema 14.8.2), la densidad factual
 
 $$
 u_{SV} \;:=\; \tfrac{1}{2}\bigl(\langle E, D\rangle_{SV} + \langle H, B\rangle_{SV}\bigr), \qquad D = \varepsilon_{SV} E, \; B = \mu_{SV} H,
@@ -512,7 +512,7 @@ $$
 
 *es no negativa: $`u_{SV} \geq 0`$, con igualdad si y solo si $`E`$ y $`H`$ son factualmente nulos.*
 
-*Demostración.* Por autoadjunción factual de $`\varepsilon_{SV}`$ y no-negatividad, $`\langle E, \varepsilon_{SV} E\rangle_{SV} \geq 0`$. Análogamente $`\langle H, \mu_{SV} H\rangle_{SV} \geq 0`$. La suma con factor $`1/2`$ preserva la no-negatividad. La igualdad $`u_{SV} = 0`$ exige $`\langle E, \varepsilon_{SV} E\rangle_{SV} = 0`$ y $`\langle H, \mu_{SV} H\rangle_{SV} = 0`$, que por (B4) implica $`E = 0`$ y $`H = 0`$ factualmente. Q.E.D.
+**Demostración.** Por autoadjunción factual de $`\varepsilon_{SV}`$ y no-negatividad, $`\langle E, \varepsilon_{SV} E\rangle_{SV} \geq 0`$. Análogamente $`\langle H, \mu_{SV} H\rangle_{SV} \geq 0`$. La suma con factor $`1/2`$ preserva la no-negatividad. La igualdad $`u_{SV} = 0`$ exige $`\langle E, \varepsilon_{SV} E\rangle_{SV} = 0`$ y $`\langle H, \mu_{SV} H\rangle_{SV} = 0`$, que por (B4) implica $`E = 0`$ y $`H = 0`$ factualmente. Q.E.D.
 
 ### 14.7.7. Verificación visible del bracket factual
 
@@ -552,9 +552,9 @@ $$
 
 ### 14.8.2. Autoadjunción de los operadores constitutivos
 
-**Teorema 14.8.2.** *Los operadores constitutivos factuales $`\varepsilon_{SV}, \mu_{SV}, \sigma_{SV}`$ del régimen lineal admisible, caracterizados por la simetría factual absoluta heredada del cosido metrológico absoluto, son factualmente autoadjuntos.*
+**Teorema 14.8.2.** Los operadores constitutivos factuales $`\varepsilon_{SV}, \mu_{SV}, \sigma_{SV}`$ del régimen lineal admisible, caracterizados por la simetría factual absoluta heredada del cosido metrológico absoluto, son factualmente autoadjuntos.
 
-*Demostración.* En la realización admisible sobre $`\mathbb{R}^3`$, el operador $`\varepsilon_{SV}`$ se representa por un tensor constitutivo $`(\varepsilon_{SV})^i{}_j`$ cuya simetría factual absoluta es $`(\varepsilon_{SV})^i{}_j = (\varepsilon_{SV})^j{}_i`$. Por bilinealidad del bracket,
+**Demostración.** En la realización admisible sobre $`\mathbb{R}^3`$, el operador $`\varepsilon_{SV}`$ se representa por un tensor constitutivo $`(\varepsilon_{SV})^i{}_j`$ cuya simetría factual absoluta es $`(\varepsilon_{SV})^i{}_j = (\varepsilon_{SV})^j{}_i`$. Por bilinealidad del bracket,
 
 $$
 \langle u, \varepsilon_{SV}\, v\rangle_{SV} = \sum_{i,j} u_i\,(\varepsilon_{SV})^i{}_j\, v^j = \sum_{i,j} (\varepsilon_{SV})^j{}_i\, u_i\, v^j = \langle \varepsilon_{SV}\, u, v\rangle_{SV},
@@ -564,13 +564,13 @@ donde la segunda igualdad usa la simetría factual absoluta. Demostraciones aná
 
 ### 14.8.3. Corolario de Leibniz factual para la densidad electromagnética
 
-**Corolario 14.8.3.** *Sobre régimen separable con constitutivos autoadjuntos,*
+**Corolario 14.8.3.** Sobre régimen separable con constitutivos autoadjuntos,
 
 $$
 \partial_\nu^{SV}\, u_{SV}(j) \;=\; \langle E_j, \partial_\nu^{SV} D\rangle_{SV} + \langle H_j, \partial_\nu^{SV} B\rangle_{SV} + \tfrac{\omega(\nu_j)}{2}\!\left[\langle \partial_\nu^{SV} E, \partial_\nu^{SV} D\rangle_{SV} + \langle \partial_\nu^{SV} H, \partial_\nu^{SV} B\rangle_{SV}\right].
 $$
 
-*Demostración.* Aplicando el Teorema 14.7.4 a $`\langle E, D\rangle_{SV}`$,
+**Demostración.** Aplicando el Teorema 14.7.4 a $`\langle E, D\rangle_{SV}`$,
 
 $$
 \partial_\nu^{SV}\langle E, D\rangle_{SV} = \langle \partial_\nu^{SV} E, D\rangle_{SV} + \langle E, \partial_\nu^{SV} D\rangle_{SV} + \omega(\nu)\,\langle \partial_\nu^{SV} E, \partial_\nu^{SV} D\rangle_{SV}.
@@ -600,25 +600,25 @@ $$
 
 ### 14.8.5. Anulación local de la divergencia del rotor
 
-**Teorema 14.8.5.** *Sobre régimen separable con ortotropía factual local, en cada celda admisible $`C_k`$,*
+**Teorema 14.8.5.** Sobre régimen separable con ortotropía factual local, en cada celda admisible $`C_k`$,
 
 $$
-\text{Div}_{SV}\circ\text{Rot}_{SV} \;=\; 0.
+\mathrm{Div}_{SV}\circ\mathrm{Rot}_{SV} \;=\; 0.
 $$
 
-*Demostración.* Por la Definición 14.6.1,
+**Demostración.** Por la Definición 14.6.1,
 
 $$
-(\text{Div}_{SV}\, \text{Rot}_{SV}\, F) = \partial^{SV}_i\,(\varepsilon^{SV,ijk}\,\partial^{SV}_j F_k) = \varepsilon^{SV,ijk}\,\partial^{SV}_i\,\partial^{SV}_j F_k.
+(\mathrm{Div}_{SV}\, \mathrm{Rot}_{SV}\, F) = \partial^{SV}_i\,(\varepsilon^{SV,ijk}\,\partial^{SV}_j F_k) = \varepsilon^{SV,ijk}\,\partial^{SV}_i\,\partial^{SV}_j F_k.
 $$
 
 Por ortotropía factual local, $`\partial^{SV}_i\,\partial^{SV}_j = \partial^{SV}_j\,\partial^{SV}_i`$: el doble operador posicional es simétrico en $`(i,j)`$. Por antisimetría tensorial de $`\varepsilon^{SV}`$ en $`(i,j)`$, la contracción de un tensor simétrico con uno antisimétrico en los mismos dos índices se anula. Q.E.D.
 
 ### 14.8.6. Identificación geométrica del criterio absoluto de frontera
 
-**Teorema 14.8.6.** *La activación del criterio absoluto de frontera $`\det(J_{SV}) = 0`$ coincide con la activación del cambio de carta factual entre celdas del mosaico $`SV(3,9)`$.*
+**Teorema 14.8.6.** La activación del criterio absoluto de frontera $`\det(J_{SV}) = 0`$ coincide con la activación del cambio de carta factual entre celdas del mosaico $`SV(3,9)`$.
 
-*Demostración.* Sobre interfaz $`\partial C_{k,l}`$ con bases posicionales distintas, la coherencia geométrica del mosaico exige absorción del cambio de base mediante $`\Lambda^{(k,l)}`$ (§14.3.2), operación que activa $`\mathcal{R}^f_{SV}`$ cuando el determinante del jacobiano factual de sensibilidad se anula. Fuera de las interfaces, las bases son localmente coincidentes y $`\det(J_{SV}) \neq 0`$; en las interfaces con cambio de base factual no trivial, $`\det(J_{SV}) = 0`$. La correspondencia es biyectiva. Q.E.D.
+**Demostración.** Sobre interfaz $`\partial C_{k,l}`$ con bases posicionales distintas, la coherencia geométrica del mosaico exige absorción del cambio de base mediante $`\Lambda^{(k,l)}`$ (§14.3.2), operación que activa $`\mathcal{R}^f_{SV}`$ cuando el determinante del jacobiano factual de sensibilidad se anula. Fuera de las interfaces, las bases son localmente coincidentes y $`\det(J_{SV}) \neq 0`$; en las interfaces con cambio de base factual no trivial, $`\det(J_{SV}) = 0`$. La correspondencia es biyectiva. Q.E.D.
 
 ### 14.8.7. Verificación visible del balance de Leibniz factual
 
@@ -682,17 +682,17 @@ $$
 \partial_\nu^{SV(k)} \;:=\; \underbrace{\partial_\nu^{SV} \circ \partial_\nu^{SV} \circ \cdots \circ \partial_\nu^{SV}}_{k \text{ veces}}, \qquad k \in \mathbb{N}, \; k \geq 1.
 $$
 
-Por convención, $`\partial_\nu^{SV(0)} = \text{Id}`$ y $`\partial_\nu^{SV(1)} = \partial_\nu^{SV}`$. El operador $`\partial_\nu^{SV(k)}`$ evaluado en $`\nu_j`$ involucra los valores $`q_j, q_{j+1}, \ldots, q_{j+k}`$ con pesos factuales $`\omega(\nu_j), \omega(\nu_{j+1}), \ldots, \omega(\nu_{j+k-1})`$.
+Por convención, $`\partial_\nu^{SV(0)} = \mathrm{Id}`$ y $`\partial_\nu^{SV(1)} = \partial_\nu^{SV}`$. El operador $`\partial_\nu^{SV(k)}`$ evaluado en $`\nu_j`$ involucra los valores $`q_j, q_{j+1}, \ldots, q_{j+k}`$ con pesos factuales $`\omega(\nu_j), \omega(\nu_{j+1}), \ldots, \omega(\nu_{j+k-1})`$.
 
 ### 14.9.2. Forma cerrada en régimen de pesos uniformes
 
-**Proposición 14.9.1.** *Para $`\omega`$ constante y $`k = 2`$,*
+**Proposición 14.9.1.** Para $`\omega`$ constante y $`k = 2`$,
 
 $$
 (\partial_\nu^{SV(2)}\, q)(j) \;=\; \frac{q_{j+2} - 2\, q_{j+1} + q_j}{\omega^2}.
 $$
 
-*Demostración.* Por aplicación directa,
+**Demostración.** Por aplicación directa,
 
 $$
 (\partial_\nu^{SV(2)}\, q)(j) = \partial_\nu^{SV}\!\left(\frac{q_{j+1}-q_j}{\omega}\right) = \frac{1}{\omega}\!\left(\frac{q_{j+2}-q_{j+1}}{\omega} - \frac{q_{j+1}-q_j}{\omega}\right) = \frac{q_{j+2}-2\,q_{j+1}+q_j}{\omega^2}.
@@ -700,13 +700,13 @@ $$
 
 Q.E.D.
 
-**Proposición 14.9.2.** *Para $`\omega`$ constante y $`k`$ arbitrario,*
+**Proposición 14.9.2.** Para $`\omega`$ constante y $`k`$ arbitrario,
 
 $$
 (\partial_\nu^{SV(k)}\, q)(j) \;=\; \frac{1}{\omega^k}\,\sum_{m=0}^{k}\,(-1)^{k-m}\,\binom{k}{m}\,q_{j+m}.
 $$
 
-*Demostración.* Por inducción sobre $`k`$. El caso base $`k = 1`$ es la definición. El paso inductivo se obtiene aplicando $`\partial_\nu^{SV}`$ a la forma correspondiente a $`k`$ y usando la identidad de Pascal $`\binom{k}{m-1} + \binom{k}{m} = \binom{k+1}{m}`$. Q.E.D.
+**Demostración.** Por inducción sobre $`k`$. El caso base $`k = 1`$ es la definición. El paso inductivo se obtiene aplicando $`\partial_\nu^{SV}`$ a la forma correspondiente a $`k`$ y usando la identidad de Pascal $`\binom{k}{m-1} + \binom{k}{m} = \binom{k+1}{m}`$. Q.E.D.
 
 ### 14.9.3. Forma general en régimen de pesos variables
 
@@ -732,7 +732,7 @@ $$
 \partial_\nu^{SV(k)}\, p \;\equiv\; 0 \quad \text{para todo } k > d.
 $$
 
-*Demostración.* Para $`p(\nu) = \nu^d`$, la suma binomial de la Proposición 14.9.2 evalúa la $`k`$-ésima diferencia finita de una potencia de grado $`d`$, nula para $`k > d`$ por $`\sum_{m=0}^{k}(-1)^{k-m}\binom{k}{m}m^d = 0`$ para $`k > d`$. La Proposición 14.9.3 extiende el resultado a polinomios generales. Q.E.D.
+**Demostración.** Para $`p(\nu) = \nu^d`$, la suma binomial de la Proposición 14.9.2 evalúa la $`k`$-ésima diferencia finita de una potencia de grado $`d`$, nula para $`k > d`$ por $`\sum_{m=0}^{k}(-1)^{k-m}\binom{k}{m}m^d = 0`$ para $`k > d`$. La Proposición 14.9.3 extiende el resultado a polinomios generales. Q.E.D.
 
 ### 14.9.5. Verificación visible sobre trayectoria canónica
 
@@ -774,77 +774,77 @@ Anulación exacta, conforme a la Proposición 14.9.4.
 
 ### 14.10.2. Conmutadores suceso-posición
 
-**Teorema 14.10.2.** *Sobre régimen separable, los operadores $`\partial_\nu^{SV}`$ y $`\text{Div}_{SV}`$ conmutan:*
+**Teorema 14.10.2.** Sobre régimen separable, los operadores $`\partial_\nu^{SV}`$ y $`\mathrm{Div}_{SV}`$ conmutan:
 
 $$
-[\partial_\nu^{SV},\, \text{Div}_{SV}] \;=\; 0.
+[\partial_\nu^{SV},\, \mathrm{Div}_{SV}] \;=\; 0.
 $$
 
-*Demostración.* Sea $`F`$ campo vectorial factual admisible. Por las definiciones de $`\partial_\nu^{SV}`$ y $`\text{Div}_{SV}`$,
+**Demostración.** Sea $`F`$ campo vectorial factual admisible. Por las definiciones de $`\partial_\nu^{SV}`$ y $`\mathrm{Div}_{SV}`$,
 
 $$
-(\partial_\nu^{SV}\, \text{Div}_{SV}\, F)(j) = \frac{1}{\omega(\nu_j)}\!\left[\sum_i \partial^{SV}_i F^i_{j+1} - \sum_i \partial^{SV}_i F^i_{j}\right].
+(\partial_\nu^{SV}\, \mathrm{Div}_{SV}\, F)(j) = \frac{1}{\omega(\nu_j)}\!\left[\sum_i \partial^{SV}_i F^i_{j+1} - \sum_i \partial^{SV}_i F^i_{j}\right].
 $$
 
 Bajo (S1), $`\omega(\nu_j)`$ es independiente de la posición:
 
 $$
-= \sum_i \partial^{SV}_i\!\left[\frac{F^i_{j+1} - F^i_{j}}{\omega(\nu_j)}\right] = (\text{Div}_{SV}\, \partial_\nu^{SV}\, F)(j).
+= \sum_i \partial^{SV}_i\!\left[\frac{F^i_{j+1} - F^i_{j}}{\omega(\nu_j)}\right] = (\mathrm{Div}_{SV}\, \partial_\nu^{SV}\, F)(j).
 $$
 
 Bajo (S2), $`\partial^{SV}_i`$ es idéntico en $`\nu_j`$ y en $`\nu_{j+1}`$. Q.E.D.
 
-**Teorema 14.10.3.** *Sobre régimen separable, $`\partial_\nu^{SV}`$ y $`\text{Rot}_{SV}`$ conmutan:*
+**Teorema 14.10.3.** Sobre régimen separable, $`\partial_\nu^{SV}`$ y $`\mathrm{Rot}_{SV}`$ conmutan:
 
 $$
-[\partial_\nu^{SV},\, \text{Rot}_{SV}] \;=\; 0.
+[\partial_\nu^{SV},\, \mathrm{Rot}_{SV}] \;=\; 0.
 $$
 
-*Demostración.* Análoga al Teorema 14.10.2, con $`\varepsilon^{SV,ijk}`$ y $`\partial^{SV}_j`$ independientes del índice de suceso bajo (S1) y (S2). Q.E.D.
+**Demostración.** Análoga al Teorema 14.10.2, con $`\varepsilon^{SV,ijk}`$ y $`\partial^{SV}_j`$ independientes del índice de suceso bajo (S1) y (S2). Q.E.D.
 
 ### 14.10.3. Conmutadores con operadores constitutivos
 
-**Teorema 14.10.4.** *Sobre régimen separable con operadores constitutivos $`\varepsilon_{SV}, \mu_{SV}`$ independientes del índice de suceso,*
+**Teorema 14.10.4.** Sobre régimen separable con operadores constitutivos $`\varepsilon_{SV}, \mu_{SV}`$ independientes del índice de suceso,
 
 $$
-[\varepsilon_{SV},\, \partial_\nu^{SV}] \;=\; 0, \qquad [\mu_{SV},\, \text{Rot}_{SV}] \;=\; 0.
+[\varepsilon_{SV},\, \partial_\nu^{SV}] \;=\; 0, \qquad [\mu_{SV},\, \mathrm{Rot}_{SV}] \;=\; 0.
 $$
 
-*Demostración.* Bajo independencia de $`\varepsilon_{SV}`$ respecto de $`\nu`$, la acción sobre $`E_{j+1}`$ y sobre $`E_j`$ responde a una misma regla factual:
+**Demostración.** Bajo independencia de $`\varepsilon_{SV}`$ respecto de $`\nu`$, la acción sobre $`E_{j+1}`$ y sobre $`E_j`$ responde a una misma regla factual:
 
 $$
 (\varepsilon_{SV}\, \partial_\nu^{SV}\, E)(j) = \frac{\varepsilon_{SV}\, E_{j+1} - \varepsilon_{SV}\, E_j}{\omega(\nu_j)} = (\partial_\nu^{SV}\,\varepsilon_{SV}\, E)(j).
 $$
 
-Análogamente para $`[\mu_{SV}, \text{Rot}_{SV}]`$ bajo (S2). Q.E.D.
+Análogamente para $`[\mu_{SV}, \mathrm{Rot}_{SV}]`$ bajo (S2). Q.E.D.
 
 ### 14.10.4. Aplicación a la conservación factual de la carga
 
-**Corolario 14.10.5.** *La conmutación $`\partial_\nu^{SV}\,\text{Div}_{SV}\, D = \text{Div}_{SV}\,\partial_\nu^{SV}\, D`$, necesaria para la conservación factual de la carga, queda acreditada por el Teorema 14.10.2 bajo régimen separable.*
+**Corolario 14.10.5.** La conmutación $`\partial_\nu^{SV}\,\mathrm{Div}_{SV}\, D = \mathrm{Div}_{SV}\,\partial_\nu^{SV}\, D`$, necesaria para la conservación factual de la carga, queda acreditada por el Teorema 14.10.2 bajo régimen separable.
 
 ### 14.10.5. Verificación visible del conmutador
 
 Sobre trayectoria de cinco sucesos con dominio posicional unidimensional $`x \in \{0, 1, 2, 3, 4\}`$ y campo factual $`q_j(x) = j \cdot x`$.
 
-**Configuración separable.** $`\omega = 1`$ constante, $`\text{Div}_{SV}\, q(x) := q(x+1) - q(x)`$.
+**Configuración separable.** $`\omega = 1`$ constante, $`\mathrm{Div}_{SV}\, q(x) := q(x+1) - q(x)`$.
 
 $$
-\text{Div}_{SV}\, q_j(x) = j, \qquad \partial_\nu^{SV}\, q(j, x) = x.
+\mathrm{Div}_{SV}\, q_j(x) = j, \qquad \partial_\nu^{SV}\, q(j, x) = x.
 $$
 
 $$
-\partial_\nu^{SV}(\text{Div}_{SV}\, q)(j, x) = 1, \qquad \text{Div}_{SV}(\partial_\nu^{SV}\, q)(j, x) = 1.
+\partial_\nu^{SV}(\mathrm{Div}_{SV}\, q)(j, x) = 1, \qquad \mathrm{Div}_{SV}(\partial_\nu^{SV}\, q)(j, x) = 1.
 $$
 
-Conmutador exactamente nulo: $`[\partial_\nu^{SV}, \text{Div}_{SV}]\, q = 1 - 1 = 0`$.
+Conmutador exactamente nulo: $`[\partial_\nu^{SV}, \mathrm{Div}_{SV}]\, q = 1 - 1 = 0`$.
 
 **Configuración con peso variable.** $`\omega(\nu_j, x) = 1 + 0{,}1\,x`$ (viola (S1)), mismo campo $`q_j(x) = j \cdot x`$.
 
 $$
-\partial_\nu^{SV}(\text{Div}_{SV}\, q)(j, 0) = \frac{1}{1{,}0} = 1, \qquad \text{Div}_{SV}(\partial_\nu^{SV}\, q)(j, 0) = \frac{1}{1{,}1} - 0 = 0{,}9091.
+\partial_\nu^{SV}(\mathrm{Div}_{SV}\, q)(j, 0) = \frac{1}{1{,}0} = 1, \qquad \mathrm{Div}_{SV}(\partial_\nu^{SV}\, q)(j, 0) = \frac{1}{1{,}1} - 0 = 0{,}9091.
 $$
 
-Conmutador no nulo: $`[\partial_\nu^{SV}, \text{Div}_{SV}]\, q(j, 0) = 1 - 0{,}9091 = 0{,}0909`$.
+Conmutador no nulo: $`[\partial_\nu^{SV}, \mathrm{Div}_{SV}]\, q(j, 0) = 1 - 0{,}9091 = 0{,}0909`$.
 
 En $`x = 3`$, conmutador $`= 0{,}2198`$. La violación de (S1) produce desacoplo cuantitativamente proporcional al gradiente posicional del peso factual.
 
@@ -876,7 +876,7 @@ donde $`B_{\partial\Omega}^{SV}(q)`$ es el balance factual de frontera (fundamen
 
 ### 14.11.4. Teorema bicondicional absoluto
 
-**Teorema 14.11.3 (bicondicional absoluto de compatibilidad interfacial).** *Bajo clausura factual admisible $`\mathsf{Cl}_{SV}`$,*
+**Teorema 14.11.3 (bicondicional absoluto de compatibilidad interfacial).** Bajo clausura factual admisible $`\mathsf{Cl}_{SV}`$,
 
 $$
 \mathbb{F}_{SV}(q) \;=\; 0 \quad\Longleftrightarrow\quad \text{compatibilidad interfacial factual local absoluta.}
@@ -888,9 +888,9 @@ $$
 
 ### 14.11.5. Consecuencia de equivalencia con la tercera componente de $`\mathbb{E}_{SV}`$
 
-**Corolario 14.11.4.** *La componente $`\mathbb{F}_{SV}`$ del operador maestro absoluto es algebraicamente equivalente a la anulación local de la compatibilidad interfacial factual bajo clausura admisible. En particular, $`\mathbb{F}_{SV}(q) = 0`$ es condición necesaria y suficiente, bajo $`\mathsf{Cl}_{SV}`$, para que $`q`$ sea admisible como componente interfacial del sistema absoluto $`\mathbb{E}_{SV}(q) = 0`$.*
+**Corolario 14.11.4.** La componente $`\mathbb{F}_{SV}`$ del operador maestro absoluto es algebraicamente equivalente a la anulación local de la compatibilidad interfacial factual bajo clausura admisible. En particular, $`\mathbb{F}_{SV}(q) = 0`$ es condición necesaria y suficiente, bajo $`\mathsf{Cl}_{SV}`$, para que $`q`$ sea admisible como componente interfacial del sistema absoluto $`\mathbb{E}_{SV}(q) = 0`$.
 
-*Demostración.* Consecuencia directa del Teorema 14.11.3 y de la definición operativa de $`\mathbb{E}_{SV}`$ como conjunción de componentes $`\mathbb{M}_{SV}, \mathbb{K}_{SV}, \mathbb{F}_{SV}`$. Q.E.D.
+**Demostración.** Consecuencia directa del Teorema 14.11.3 y de la definición operativa de $`\mathbb{E}_{SV}`$ como conjunción de componentes $`\mathbb{M}_{SV}, \mathbb{K}_{SV}, \mathbb{F}_{SV}`$. Q.E.D.
 
 ### 14.11.6. Verificación visible del bicondicional
 
@@ -919,7 +919,7 @@ Compatibilidad interfacial violada; configuración fuera de clausura admisible. 
 
 ### 14.12.1. Definición de conexión factual
 
-**Definición 14.12.1.** Sobre el régimen canalizado $`\Sigma_{\text{canal}}`$ con base posicional admisible, la **conexión factual absoluta** $`\nabla^{SV}`$ es el operador que, para cada par de campos factuales admisibles $`(X, Y)`$, produce un tercer campo factual $`\nabla^{SV}_X Y`$ satisfaciendo:
+**Definición 14.12.1.** Sobre el régimen canalizado $`\Sigma_{\mathrm{canal}}`$ con base posicional admisible, la **conexión factual absoluta** $`\nabla^{SV}`$ es el operador que, para cada par de campos factuales admisibles $`(X, Y)`$, produce un tercer campo factual $`\nabla^{SV}_X Y`$ satisfaciendo:
 
 - (N1) *Linealidad factual en el primer argumento:* $`\nabla^{SV}_{\alpha X + \beta X'} Y = \alpha\,\nabla^{SV}_X Y + \beta\,\nabla^{SV}_{X'} Y`$.
 - (N2) *Regla de Leibniz factual en el segundo argumento:* $`\nabla^{SV}_X (f\,Y) = X(f)\,Y + f\,\nabla^{SV}_X Y`$ para toda función factual $`f: \Xi_{SV} \to \mathbb{R}`$.
@@ -956,7 +956,7 @@ La notación $`\mathrm{Scal}^{SV}`$ distingue tipográficamente al escalar del t
 
 ### 14.12.5. Identidades factuales de Bianchi
 
-**Teorema 14.12.5 (identidades de Bianchi factuales).** *Sobre régimen factual admisible,*
+**Teorema 14.12.5 (identidades de Bianchi factuales).** Sobre régimen factual admisible,
 
 $$
 \mathbf{R}^{SV}(X, Y)\,Z + \mathbf{R}^{SV}(Y, Z)\,X + \mathbf{R}^{SV}(Z, X)\,Y \;=\; 0,
@@ -966,21 +966,21 @@ $$
 (\nabla^{SV}_U \mathbf{R}^{SV})(X, Y)\,Z + (\nabla^{SV}_X \mathbf{R}^{SV})(Y, U)\,Z + (\nabla^{SV}_Y \mathbf{R}^{SV})(U, X)\,Z \;=\; 0.
 $$
 
-*Demostración.* La primera identidad es consecuencia directa de (N4) y de la Definición 14.12.2, por simetrización cíclica de los tres conmutadores $`[X,Y]_{SV}, [Y,Z]_{SV}, [Z,X]_{SV}`$. La segunda es consecuencia de la derivación covariante del tensor de curvatura bajo (N2) y la regla de Leibniz factual. Q.E.D.
+**Demostración.** La primera identidad es consecuencia directa de (N4) y de la Definición 14.12.2, por simetrización cíclica de los tres conmutadores $`[X,Y]_{SV}, [Y,Z]_{SV}, [Z,X]_{SV}`$. La segunda es consecuencia de la derivación covariante del tensor de curvatura bajo (N2) y la regla de Leibniz factual. Q.E.D.
 
 ### 14.12.6. Anulación en régimen separable con ortotropía global
 
-**Teorema 14.12.6.** *Sobre régimen electromagnético factual admisible separable con ortotropía factual global, $`\mathbf{R}^{SV}(X, Y)\,Z = 0`$.*
+**Teorema 14.12.6.** Sobre régimen electromagnético factual admisible separable con ortotropía factual global, $`\mathbf{R}^{SV}(X, Y)\,Z = 0`$.
 
-*Demostración.* Bajo separabilidad (S1) y (S2) y ortotropía global, la base posicional $`\{e^{SV}_i\}`$ es uniforme sobre el mosaico entero, y las derivaciones factuales parciales conmutan: $`\partial^{SV}_i\,\partial^{SV}_j = \partial^{SV}_j\,\partial^{SV}_i`$ sobre $`\Xi_{SV}`$. Por (N4) y la expresión de $`\nabla^{SV}`$ en base uniforme, $`\nabla^{SV}_X\,\nabla^{SV}_Y = \nabla^{SV}_Y\,\nabla^{SV}_X`$ y $`[X, Y]_{SV} = 0`$. Por tanto $`\mathbf{R}^{SV}(X, Y)\,Z = 0`$. Q.E.D.
+**Demostración.** Bajo separabilidad (S1) y (S2) y ortotropía global, la base posicional $`\{e^{SV}_i\}`$ es uniforme sobre el mosaico entero, y las derivaciones factuales parciales conmutan: $`\partial^{SV}_i\,\partial^{SV}_j = \partial^{SV}_j\,\partial^{SV}_i`$ sobre $`\Xi_{SV}`$. Por (N4) y la expresión de $`\nabla^{SV}`$ en base uniforme, $`\nabla^{SV}_X\,\nabla^{SV}_Y = \nabla^{SV}_Y\,\nabla^{SV}_X`$ y $`[X, Y]_{SV} = 0`$. Por tanto $`\mathbf{R}^{SV}(X, Y)\,Z = 0`$. Q.E.D.
 
-**Corolario 14.12.7.** *Bajo las hipótesis del Teorema 14.12.6, $`\mathrm{Ric}^{SV}_{ij} = 0`$ y $`\mathrm{Scal}^{SV} = 0`$.*
+**Corolario 14.12.7.** Bajo las hipótesis del Teorema 14.12.6, $`\mathrm{Ric}^{SV}_{ij} = 0`$ y $`\mathrm{Scal}^{SV} = 0`$.
 
 ### 14.12.7. Activación no nula sobre frontera factual
 
-**Teorema 14.12.8.** *Sobre interfaz $`\partial C_{k,l}`$ donde la ortotropía factual global se rompe y la ortotropía es sólo local (Definición 14.8.4), el tensor de curvatura factual presenta componentes no nulas cuantificables por el cambio de base $`\Lambda^{(k,l)}`$ del §14.3.*
+**Teorema 14.12.8.** Sobre interfaz $`\partial C_{k,l}`$ donde la ortotropía factual global se rompe y la ortotropía es sólo local (Definición 14.8.4), el tensor de curvatura factual presenta componentes no nulas cuantificables por el cambio de base $`\Lambda^{(k,l)}`$ del §14.3.
 
-*Demostración.* Fuera de la interfaz, la ortotropía local garantiza $`\mathbf{R}^{SV}_{C_k} = 0`$ por el Teorema 14.12.6 restringido a la celda. Sobre $`\partial C_{k,l}`$, el paso entre las bases admisibles introduce una discontinuidad en la conexión factual cuantificada por la derivada del cambio de base $`\partial^{SV}_j \Lambda^{(k,l)}`$. Esta derivada alimenta componentes no triviales de $`\mathbf{R}^{SV}`$ sobre la interfaz, absorbidas por $`\mathcal{R}^f_{SV}`$ mediante el factor $`\Lambda^{(k,l)}`$. Q.E.D.
+**Demostración.** Fuera de la interfaz, la ortotropía local garantiza $`\mathbf{R}^{SV}_{C_k} = 0`$ por el Teorema 14.12.6 restringido a la celda. Sobre $`\partial C_{k,l}`$, el paso entre las bases admisibles introduce una discontinuidad en la conexión factual cuantificada por la derivada del cambio de base $`\partial^{SV}_j \Lambda^{(k,l)}`$. Esta derivada alimenta componentes no triviales de $`\mathbf{R}^{SV}`$ sobre la interfaz, absorbidas por $`\mathcal{R}^f_{SV}`$ mediante el factor $`\Lambda^{(k,l)}`$. Q.E.D.
 
 ### 14.12.8. Verificación visible de la curvatura factual
 
@@ -996,7 +996,7 @@ Sobre mosaico $`SV(3,9)`$ con dos celdas $`C_1, C_2`$ separadas por interfaz $`\
 
 ### 14.13.1. Construcción como objeto tensorial unificado
 
-**Definición 14.13.1.** Sobre el régimen canalizado $`\Sigma_{\text{canal}}`$, el **tensor factual de energía-momento** $`T^{SV}_{\mu\nu}`$ es el tensor simétrico de segundo orden con componentes
+**Definición 14.13.1.** Sobre el régimen canalizado $`\Sigma_{\mathrm{canal}}`$, el **tensor factual de energía-momento** $`T^{SV}_{\mu\nu}`$ es el tensor simétrico de segundo orden con componentes
 
 $$
 T^{SV}_{00} \;:=\; u_{SV} \;=\; \tfrac{1}{2}\bigl(\langle E, D\rangle_{SV} + \langle H, B\rangle_{SV}\bigr),
@@ -1022,21 +1022,21 @@ Las componentes de $`T^{SV}_{\mu\nu}`$ tienen estatuto operatorio fijado:
 
 ### 14.13.3. Balance covariante factual
 
-**Teorema 14.13.2.** *Sobre régimen separable con constitutivos autoadjuntos, el tensor factual de energía-momento satisface el balance covariante absoluto*
+**Teorema 14.13.2.** Sobre régimen separable con constitutivos autoadjuntos, el tensor factual de energía-momento satisface el balance covariante absoluto
 
 $$
 \partial_\nu^{SV}\, T^{SV}_{\mu\nu} \;=\; -\,\langle J, F^{SV}_{\mu\nu}\rangle_{SV},
 $$
 
-*donde $`F^{SV}_{\mu\nu}`$ es el tensor factual de campo electromagnético unificado y $`J`$ es la densidad factual de corriente.*
+donde $`F^{SV}_{\mu\nu}`$ es el tensor factual de campo electromagnético unificado y $`J`$ es la densidad factual de corriente.
 
-*Demostración.* Para $`\mu = 0`$, la componente es el Corolario 14.8.3 extendido mediante la identidad de Poynting del Teorema 14.5.4 aplicada a la divergencia espacial, cerrada con la ley factual de Ampère-Maxwell que introduce $`-\langle J, E\rangle_{SV}`$ por acoplamiento con la corriente. Para $`\mu = i`$ espacial, la componente es el balance factual de momento lineal electromagnético, obtenido por aplicación de $`\partial_\nu^{SV}`$ al tensor de esfuerzos y uso de los Teoremas 14.10.2, 14.10.3 y las ecuaciones factuales de Faraday y Ampère-Maxwell. La autoadjunción de los constitutivos (Teorema 14.8.2) garantiza la simetría $`T^{SV}_{\mu\nu} = T^{SV}_{\nu\mu}`$ y el cierre del balance. Q.E.D.
+**Demostración.** Para $`\mu = 0`$, la componente es el Corolario 14.8.3 extendido mediante la identidad de Poynting del Teorema 14.5.4 aplicada a la divergencia espacial, cerrada con la ley factual de Ampère-Maxwell que introduce $`-\langle J, E\rangle_{SV}`$ por acoplamiento con la corriente. Para $`\mu = i`$ espacial, la componente es el balance factual de momento lineal electromagnético, obtenido por aplicación de $`\partial_\nu^{SV}`$ al tensor de esfuerzos y uso de los Teoremas 14.10.2, 14.10.3 y las ecuaciones factuales de Faraday y Ampère-Maxwell. La autoadjunción de los constitutivos (Teorema 14.8.2) garantiza la simetría $`T^{SV}_{\mu\nu} = T^{SV}_{\nu\mu}`$ y el cierre del balance. Q.E.D.
 
 ### 14.13.4. Invariancia bajo transformadas canónicas
 
-**Teorema 14.13.3.** *El tensor $`T^{SV}_{\mu\nu}`$ es invariante bajo las cuatro transformadas canónicas de trayectoria: traslación de suceso, reindexación admisible, cambio de base posicional con $`\det(M) = \pm 1`$ y refinamiento admisible de malla.*
+**Teorema 14.13.3.** El tensor $`T^{SV}_{\mu\nu}`$ es invariante bajo las cuatro transformadas canónicas de trayectoria: traslación de suceso, reindexación admisible, cambio de base posicional con $`\det(M) = \pm 1`$ y refinamiento admisible de malla.
 
-*Demostración.* La traslación de suceso preserva $`\partial_\nu^{SV}`$; la reindexación admisible preserva la orientación factual; el cambio de base transforma covariantemente cada componente; el refinamiento preserva la clausura factual por (A3). La composición preserva la forma del tensor y de su balance. Q.E.D.
+**Demostración.** La traslación de suceso preserva $`\partial_\nu^{SV}`$; la reindexación admisible preserva la orientación factual; el cambio de base transforma covariantemente cada componente; el refinamiento preserva la clausura factual por (A3). La composición preserva la forma del tensor y de su balance. Q.E.D.
 
 ### 14.13.5. Verificación visible del balance en vacío
 
@@ -1084,7 +1084,7 @@ $$
 
 ### 14.14.3. Euler-Lagrange factual
 
-**Teorema 14.14.3.** *La anulación de la variación factual de $`\mathcal{A}_{SV}`$ respecto de $`A^{SV}`$, bajo condiciones de frontera factual fijas, produce la ecuación factual*
+**Teorema 14.14.3.** La anulación de la variación factual de $`\mathcal{A}_{SV}`$ respecto de $`A^{SV}`$, bajo condiciones de frontera factual fijas, produce la ecuación factual
 
 $$
 \partial^{SV}_\mu\, F^{SV,\mu\nu} \;=\; J^\nu,
@@ -1092,7 +1092,7 @@ $$
 
 *correspondiente a la componente $`\mathbb{M}_{SV}`$ del operador maestro absoluto $`\mathbb{E}_{SV}`$.*
 
-*Demostración.* La variación $`\delta\mathcal{A}_{SV}[A^{SV}] = 0`$ con $`\delta A^{SV}_\mu`$ arbitrario en el interior y nulo en $`\partial\Omega`$ produce, por la regla de Leibniz factual absoluta,
+**Demostración.** La variación $`\delta\mathcal{A}_{SV}[A^{SV}] = 0`$ con $`\delta A^{SV}_\mu`$ arbitrario en el interior y nulo en $`\partial\Omega`$ produce, por la regla de Leibniz factual absoluta,
 
 $$
 \delta\mathcal{L}_{SV} = -\tfrac{1}{2}\langle F^{SV}, \delta F^{SV}\rangle_{SV} - \langle \delta A^{SV}, J\rangle_{SV},
@@ -1108,15 +1108,15 @@ La anulación para toda variación admisible produce la ecuación enunciada. Q.E
 
 ### 14.14.4. Constitutivas factuales como ligaduras
 
-**Teorema 14.14.4.** *Las relaciones constitutivas factuales $`D = \varepsilon_{SV} E`$ y $`B = \mu_{SV} H`$ emergen del principio variacional como ecuaciones de ligadura entre los campos duales, con $`\varepsilon_{SV}`$ y $`\mu_{SV}`$ como multiplicadores tensoriales factuales absolutos.*
+**Teorema 14.14.4.** Las relaciones constitutivas factuales $`D = \varepsilon_{SV} E`$ y $`B = \mu_{SV} H`$ emergen del principio variacional como ecuaciones de ligadura entre los campos duales, con $`\varepsilon_{SV}`$ y $`\mu_{SV}`$ como multiplicadores tensoriales factuales absolutos.
 
-*Demostración.* Añadiendo a la densidad lagrangiana los términos de ligadura $`\mathcal{L}^{\text{lig}}_{SV} = \Lambda^\varepsilon_{ij}(D^i - \varepsilon_{SV}^{ij} E_j) + \Lambda^\mu_{ij}(B^i - \mu_{SV}^{ij} H_j)`$ con multiplicadores $`\Lambda^\varepsilon, \Lambda^\mu`$, la variación respecto de $`\Lambda`$ reproduce las constitutivas, y la variación respecto de $`(D, B)`$ identifica $`\Lambda^\varepsilon, \Lambda^\mu`$ con los operadores constitutivos absolutos. La autoadjunción (Teorema 14.8.2) garantiza la consistencia. Q.E.D.
+**Demostración.** Añadiendo a la densidad lagrangiana los términos de ligadura $`\mathcal{L}^{\mathrm{lig}}_{SV} = \Lambda^\varepsilon_{ij}(D^i - \varepsilon_{SV}^{ij} E_j) + \Lambda^\mu_{ij}(B^i - \mu_{SV}^{ij} H_j)`$ con multiplicadores $`\Lambda^\varepsilon, \Lambda^\mu`$, la variación respecto de $`\Lambda`$ reproduce las constitutivas, y la variación respecto de $`(D, B)`$ identifica $`\Lambda^\varepsilon, \Lambda^\mu`$ con los operadores constitutivos absolutos. La autoadjunción (Teorema 14.8.2) garantiza la consistencia. Q.E.D.
 
 ### 14.14.5. Criterio de frontera como anulación variacional de borde
 
-**Teorema 14.14.5.** *La componente $`\mathbb{F}_{SV}`$ emerge del principio variacional como condición de anulación de la variación de $`\mathcal{A}_{SV}`$ sobre frontera factual activa.*
+**Teorema 14.14.5.** La componente $`\mathbb{F}_{SV}`$ emerge del principio variacional como condición de anulación de la variación de $`\mathcal{A}_{SV}`$ sobre frontera factual activa.
 
-*Demostración.* Sin imposición previa de borde fijo, la variación factual incorpora términos de frontera
+**Demostración.** Sin imposición previa de borde fijo, la variación factual incorpora términos de frontera
 
 $$
 \delta\mathcal{A}_{SV}\big|_{\partial\Omega} \;=\; \sum_{\nu_j \in \partial\Omega}\,\omega(\nu_j)\!\left[B^{SV}_{\partial\Omega}(\delta A^{SV}) - \mathcal{R}^f_{SV}(\delta A^{SV})\right].
@@ -1152,60 +1152,60 @@ Ecuación de componente $`\nu = 2`$ satisfecha exactamente. Verificación análo
 
 ### 14.15.1. Derivación de la onda general
 
-**Teorema 14.15.1.** *Sobre régimen electromagnético factual admisible separable con constitutivos $`\varepsilon_{SV}, \mu_{SV}, \sigma_{SV}`$ autoadjuntos y conductividad factual no nula, el campo eléctrico factual $`E`$ satisface la ecuación factual general de onda*
+**Teorema 14.15.1.** Sobre régimen electromagnético factual admisible separable con constitutivos $`\varepsilon_{SV}, \mu_{SV}, \sigma_{SV}`$ autoadjuntos y conductividad factual no nula, el campo eléctrico factual $`E`$ satisface la ecuación factual general de onda
 
 $$
-\mu_{SV}\,\varepsilon_{SV}\,\partial_\nu^{SV(2)}\, E \;+\; \mu_{SV}\,\sigma_{SV}\,\partial_\nu^{SV}\, E \;-\; \text{Rot}_{SV}\,\text{Rot}_{SV}\, E \;=\; -\mu_{SV}\,\partial_\nu^{SV}\, J_{\text{ext}} - \nabla^{SV}(\rho_{\text{ext}}/\varepsilon_{SV}),
+\mu_{SV}\,\varepsilon_{SV}\,\partial_\nu^{SV(2)}\, E \;+\; \mu_{SV}\,\sigma_{SV}\,\partial_\nu^{SV}\, E \;-\; \mathrm{Rot}_{SV}\,\mathrm{Rot}_{SV}\, E \;=\; -\mu_{SV}\,\partial_\nu^{SV}\, J_{\mathrm{ext}} - \nabla^{SV}(\rho_{\mathrm{ext}}/\varepsilon_{SV}),
 $$
 
-*donde $`J_{\text{ext}}`$ y $`\rho_{\text{ext}}`$ son las fuentes factuales externas admisibles.*
+donde $`J_{\mathrm{ext}}`$ y $`\rho_{\mathrm{ext}}`$ son las fuentes factuales externas admisibles.
 
-*Demostración.* Partiendo de la ley factual de Faraday, $`\text{Rot}_{SV}\, E = -\partial_\nu^{SV}\, B`$, se aplica $`\text{Rot}_{SV}`$ a ambos miembros:
-
-$$
-\text{Rot}_{SV}\,\text{Rot}_{SV}\, E = -\text{Rot}_{SV}\,\partial_\nu^{SV}\, B.
-$$
-
-Por el Teorema 14.10.3 y la constitutiva $`B = \mu_{SV}\, H`$ con $`\mu_{SV}`$ autoadjunto y conmutante con $`\text{Rot}_{SV}`$ bajo el Teorema 14.10.4,
+**Demostración.** Partiendo de la ley factual de Faraday, $`\mathrm{Rot}_{SV}\, E = -\partial_\nu^{SV}\, B`$, se aplica $`\mathrm{Rot}_{SV}`$ a ambos miembros:
 
 $$
-\text{Rot}_{SV}\,\partial_\nu^{SV}\, B = \partial_\nu^{SV}\,\text{Rot}_{SV}\, B = \mu_{SV}\,\partial_\nu^{SV}\,\text{Rot}_{SV}\, H.
+\mathrm{Rot}_{SV}\,\mathrm{Rot}_{SV}\, E = -\mathrm{Rot}_{SV}\,\partial_\nu^{SV}\, B.
 $$
 
-Por la ley factual de Ampère-Maxwell, $`\text{Rot}_{SV}\, H = J_{\text{cond}} + \partial_\nu^{SV}\, D + J_{\text{ext}}`$ con $`J_{\text{cond}} = \sigma_{SV}\, E`$ y $`D = \varepsilon_{SV}\, E`$. Sustituyendo,
+Por el Teorema 14.10.3 y la constitutiva $`B = \mu_{SV}\, H`$ con $`\mu_{SV}`$ autoadjunto y conmutante con $`\mathrm{Rot}_{SV}`$ bajo el Teorema 14.10.4,
 
 $$
-\text{Rot}_{SV}\,\text{Rot}_{SV}\, E = -\mu_{SV}\,\sigma_{SV}\,\partial_\nu^{SV}\, E - \mu_{SV}\,\varepsilon_{SV}\,\partial_\nu^{SV(2)}\, E - \mu_{SV}\,\partial_\nu^{SV}\, J_{\text{ext}}.
+\mathrm{Rot}_{SV}\,\partial_\nu^{SV}\, B = \partial_\nu^{SV}\,\mathrm{Rot}_{SV}\, B = \mu_{SV}\,\partial_\nu^{SV}\,\mathrm{Rot}_{SV}\, H.
 $$
 
-El término $`\nabla^{SV}(\rho_{\text{ext}}/\varepsilon_{SV})`$ aparece por la identidad vectorial factual del Teorema 14.6.5 combinada con la ley factual de Gauss eléctrica $`\text{Div}_{SV}\, D = \rho_{\text{ext}}`$. Reorganizando se obtiene el enunciado. Q.E.D.
+Por la ley factual de Ampère-Maxwell, $`\mathrm{Rot}_{SV}\, H = J_{\mathrm{cond}} + \partial_\nu^{SV}\, D + J_{\mathrm{ext}}`$ con $`J_{\mathrm{cond}} = \sigma_{SV}\, E`$ y $`D = \varepsilon_{SV}\, E`$. Sustituyendo,
+
+$$
+\mathrm{Rot}_{SV}\,\mathrm{Rot}_{SV}\, E = -\mu_{SV}\,\sigma_{SV}\,\partial_\nu^{SV}\, E - \mu_{SV}\,\varepsilon_{SV}\,\partial_\nu^{SV(2)}\, E - \mu_{SV}\,\partial_\nu^{SV}\, J_{\mathrm{ext}}.
+$$
+
+El término $`\nabla^{SV}(\rho_{\mathrm{ext}}/\varepsilon_{SV})`$ aparece por la identidad vectorial factual del Teorema 14.6.5 combinada con la ley factual de Gauss eléctrica $`\mathrm{Div}_{SV}\, D = \rho_{\mathrm{ext}}`$. Reorganizando se obtiene el enunciado. Q.E.D.
 
 ### 14.15.2. Régimen conductor sin fuentes externas
 
-**Corolario 14.15.2 (ecuación factual de telégrafo).** *En régimen conductor con $`J_{\text{ext}} = 0`$, $`\rho_{\text{ext}} = 0`$,*
+**Corolario 14.15.2 (ecuación factual de telégrafo).** En régimen conductor con $`J_{\mathrm{ext}} = 0`$, $`\rho_{\mathrm{ext}} = 0`$,
 
 $$
 \mu_{SV}\,\varepsilon_{SV}\,\partial_\nu^{SV(2)}\, E \;+\; \mu_{SV}\,\sigma_{SV}\,\partial_\nu^{SV}\, E \;-\; \Delta^{SV}\, E \;=\; 0,
 $$
 
-*con $`\Delta^{SV} := \text{Div}_{SV}\,\nabla^{SV}`$ el laplaciano factual absoluto.*
+con $`\Delta^{SV} := \mathrm{Div}_{SV}\,\nabla^{SV}`$ el laplaciano factual absoluto.
 
 ### 14.15.3. Régimen de vacío factual
 
-**Corolario 14.15.3 (onda en vacío factual).** *En régimen de vacío factual ($`\sigma_{SV} = 0`$, $`J_{\text{ext}} = 0`$, $`\rho_{\text{ext}} = 0`$),*
+**Corolario 14.15.3 (onda en vacío factual).** En régimen de vacío factual ($`\sigma_{SV} = 0`$, $`J_{\mathrm{ext}} = 0`$, $`\rho_{\mathrm{ext}} = 0`$),
 
 $$
 \partial_\nu^{SV(2)}\, E \;-\; v_{SV}^2\,\Delta^{SV}\, E \;=\; 0,
 $$
 
-*con $`v_{SV} := 1/\sqrt{\mu_{SV}\,\varepsilon_{SV}}`$ la velocidad factual absoluta de propagación.*
+con $`v_{SV} := 1/\sqrt{\mu_{SV}\,\varepsilon_{SV}}`$ la velocidad factual absoluta de propagación.
 
 ### 14.15.4. Longitud de onda factual
 
-**Definición 14.15.4.** Para un modo factual admisible con velocidad de propagación $`v_{SV}`$ y período factual cíclico $`T^{\text{ciclo}}_{SV}`$ (inverso factual de la frecuencia modal absoluta), la **longitud de onda factual** es
+**Definición 14.15.4.** Para un modo factual admisible con velocidad de propagación $`v_{SV}`$ y período factual cíclico $`T^{\mathrm{ciclo}}_{SV}`$ (inverso factual de la frecuencia modal absoluta), la **longitud de onda factual** es
 
 $$
-\lambda_{SV} \;:=\; v_{SV}\cdot T^{\text{ciclo}}_{SV}.
+\lambda_{SV} \;:=\; v_{SV}\cdot T^{\mathrm{ciclo}}_{SV}.
 $$
 
 La longitud de onda factual tiene dimensión UFE (Unidad Factual de Extensión) conforme al cosido metrológico absoluto.
@@ -1222,13 +1222,13 @@ con $`E_0, E_1`$ campos factuales admisibles sobre el dominio espacial $`\Omega 
 
 ### 14.15.6. Teorema de existencia y unicidad
 
-**Teorema 14.15.6.** *Dadas condiciones iniciales factuales $`E_0, E_1`$ admisibles y condiciones de frontera factual compatibles con $`\mathbb{F}_{SV}(E) = 0`$, la ecuación factual de onda general admite solución única $`E: \Sigma_{\text{canal}} \to \mathbb{R}^3`$ en la clase admisible.*
+**Teorema 14.15.6.** Dadas condiciones iniciales factuales $`E_0, E_1`$ admisibles y condiciones de frontera factual compatibles con $`\mathbb{F}_{SV}(E) = 0`$, la ecuación factual de onda general admite solución única $`E: \Sigma_{\mathrm{canal}} \to \mathbb{R}^3`$ en la clase admisible.
 
-*Demostración.* Por separación de variables absoluta sobre régimen separable (S1) y (S2), y por completitud del espacio de modos factuales admisibles bajo el bracket $`\langle\cdot,\cdot\rangle_{SV}`$, la ecuación se reduce a un sistema infinito desacoplado de ecuaciones factuales de segundo orden en $`\nu`$ para cada modo posicional. La existencia y unicidad de cada modo se sigue de la teoría estándar aplicada a la iteración $`\partial_\nu^{SV(2)}`$ de la Proposición 14.9.1, lineal con coeficientes fijos bajo (S1) y (S2). La superposición absoluta de modos reconstruye la solución completa. Q.E.D.
+**Demostración.** Por separación de variables absoluta sobre régimen separable (S1) y (S2), y por completitud del espacio de modos factuales admisibles bajo el bracket $`\langle\cdot,\cdot\rangle_{SV}`$, la ecuación se reduce a un sistema infinito desacoplado de ecuaciones factuales de segundo orden en $`\nu`$ para cada modo posicional. La existencia y unicidad de cada modo se sigue de la teoría estándar aplicada a la iteración $`\partial_\nu^{SV(2)}`$ de la Proposición 14.9.1, lineal con coeficientes fijos bajo (S1) y (S2). La superposición absoluta de modos reconstruye la solución completa. Q.E.D.
 
 ### 14.15.7. Verificación visible sobre los tres regímenes
 
-**Régimen de vacío factual.** $`\varepsilon_0 = \mu_0 = 1`$, $`\sigma = 0`$, $`J_{\text{ext}} = 0`$, $`\rho_{\text{ext}} = 0`$. Modo $`E(\nu, x) = E_0\,\cos(k\,x - \omega\,\nu)`$ con $`E_0 = 1`$, $`k = \pi`$, $`\omega = \pi`$:
+**Régimen de vacío factual.** $`\varepsilon_0 = \mu_0 = 1`$, $`\sigma = 0`$, $`J_{\mathrm{ext}} = 0`$, $`\rho_{\mathrm{ext}} = 0`$. Modo $`E(\nu, x) = E_0\,\cos(k\,x - \omega\,\nu)`$ con $`E_0 = 1`$, $`k = \pi`$, $`\omega = \pi`$:
 
 $$
 \partial_\nu^{SV(2)}\, E = -\pi^2\, E, \qquad \Delta^{SV}\, E = -\pi^2\, E.
@@ -1248,7 +1248,7 @@ $$
 
 satisfecha con discrepancia $`\omega - \pi \approx 10^{-4}`$, compatible con baja conductividad.
 
-**Régimen con fuentes externas.** $`J_{\text{ext}}(\nu, x) = J_0\,\sin(k\,x - \omega\,\nu)`$, $`J_0 = 0{,}1`$. El término fuente $`-\mu_{SV}\,\partial_\nu^{SV}\,J_{\text{ext}}`$ acopla al modo homogéneo; la solución completa es superposición absoluta de modo libre más modo forzado. Balance factual verificado término a término.
+**Régimen con fuentes externas.** $`J_{\mathrm{ext}}(\nu, x) = J_0\,\sin(k\,x - \omega\,\nu)`$, $`J_0 = 0{,}1`$. El término fuente $`-\mu_{SV}\,\partial_\nu^{SV}\,J_{\mathrm{ext}}`$ acopla al modo homogéneo; la solución completa es superposición absoluta de modo libre más modo forzado. Balance factual verificado término a término.
 
 ---
 
@@ -1265,27 +1265,27 @@ satisfecha con discrepancia $`\omega - \pi \approx 10^{-4}`$, compatible con baj
 
 ### 14.16.2. Teorema de unicidad representacional
 
-**Teorema 14.16.2.** *Dentro de la categoría $`\mathbf{OpFact}_{SV}`$, el operador maestro absoluto $`\mathbb{E}_{SV}`$ con componentes $`\mathbb{M}_{SV}, \mathbb{K}_{SV}, \mathbb{F}_{SV}`$ admite una única representación módulo reordenamiento trivial de las componentes y reetiquetado admisible de los campos.*
+**Teorema 14.16.2.** Dentro de la categoría $`\mathbf{OpFact}_{SV}`$, el operador maestro absoluto $`\mathbb{E}_{SV}`$ con componentes $`\mathbb{M}_{SV}, \mathbb{K}_{SV}, \mathbb{F}_{SV}`$ admite una única representación módulo reordenamiento trivial de las componentes y reetiquetado admisible de los campos.
 
-*Demostración.* Sea $`\mathbb{E}'_{SV}`$ un operador factual en $`\mathbf{OpFact}_{SV}`$ que codifica el régimen electromagnético factual completo. Por (O4), $`\mathbb{E}'_{SV}`$ actúa sobre la clase admisible. Por (O3), la covariancia bajo las cuatro transformadas canónicas restringe su forma a combinaciones admisibles de los operadores absolutos $`\partial_\nu^{SV}, \partial^{SV}_i, \text{Div}_{SV}, \text{Rot}_{SV}, \varepsilon_{SV}, \mu_{SV}, \sigma_{SV}`$. Por (O2), el cosido metrológico fija los coeficientes en unidades absolutas hasta escalares adimensionales. Por (O1), las prohibiciones constitutivas eliminan componentes espurias. Las cuatro ecuaciones factuales del régimen agotan las combinaciones compatibles con las cuatro restricciones simultáneas. Cualquier $`\mathbb{E}'_{SV}`$ en la categoría contiene estas cuatro ecuaciones como componentes, con las relaciones constitutivas como ligaduras y el criterio de frontera $`\mathbb{F}_{SV}`$ como componente activa. Las libertades residuales son el orden de agrupamiento (reordenamiento trivial) y la nomenclatura de los campos (reetiquetado admisible). Q.E.D.
+**Demostración.** Sea $`\mathbb{E}'_{SV}`$ un operador factual en $`\mathbf{OpFact}_{SV}`$ que codifica el régimen electromagnético factual completo. Por (O4), $`\mathbb{E}'_{SV}`$ actúa sobre la clase admisible. Por (O3), la covariancia bajo las cuatro transformadas canónicas restringe su forma a combinaciones admisibles de los operadores absolutos $`\partial_\nu^{SV}, \partial^{SV}_i, \mathrm{Div}_{SV}, \mathrm{Rot}_{SV}, \varepsilon_{SV}, \mu_{SV}, \sigma_{SV}`$. Por (O2), el cosido metrológico fija los coeficientes en unidades absolutas hasta escalares adimensionales. Por (O1), las prohibiciones constitutivas eliminan componentes espurias. Las cuatro ecuaciones factuales del régimen agotan las combinaciones compatibles con las cuatro restricciones simultáneas. Cualquier $`\mathbb{E}'_{SV}`$ en la categoría contiene estas cuatro ecuaciones como componentes, con las relaciones constitutivas como ligaduras y el criterio de frontera $`\mathbb{F}_{SV}`$ como componente activa. Las libertades residuales son el orden de agrupamiento (reordenamiento trivial) y la nomenclatura de los campos (reetiquetado admisible). Q.E.D.
 
 ### 14.16.3. Teorema de irreducibilidad algebraica
 
-**Teorema 14.16.3.** *El operador maestro absoluto $`\mathbb{E}_{SV}`$ es algebraicamente irreducible en $`\mathbf{OpFact}_{SV}`$: no admite factorización no trivial como composición de operadores factuales admisibles de complejidad estrictamente menor.*
+**Teorema 14.16.3.** El operador maestro absoluto $`\mathbb{E}_{SV}`$ es algebraicamente irreducible en $`\mathbf{OpFact}_{SV}`$: no admite factorización no trivial como composición de operadores factuales admisibles de complejidad estrictamente menor.
 
-*Demostración.* Supóngase $`\mathbb{E}_{SV} = \mathbb{A} \circ \mathbb{B}`$ con $`\mathbb{A}, \mathbb{B} \in \mathbf{OpFact}_{SV}`$ de complejidad estrictamente menor. Por (O4), $`\mathbb{A}`$ y $`\mathbb{B}`$ preservan la clase admisible. Por (O3), son covariantes bajo las cuatro transformadas canónicas. El producto $`\mathbb{A} \circ \mathbb{B}`$ debe generar las cuatro ecuaciones factuales, las tres relaciones constitutivas y el criterio de frontera, todos independientes por el Teorema 14.16.2. Un operador $`\mathbb{A}`$ de complejidad estrictamente menor no genera por composición todas estas componentes sin que $`\mathbb{B}`$ aporte información equivalente a la de $`\mathbb{E}_{SV}`$ completo, contradicción con la hipótesis de complejidad estrictamente menor de $`\mathbb{B}`$. Por tanto, la factorización no trivial supuesta no existe. Q.E.D.
+**Demostración.** Supóngase $`\mathbb{E}_{SV} = \mathbb{A} \circ \mathbb{B}`$ con $`\mathbb{A}, \mathbb{B} \in \mathbf{OpFact}_{SV}`$ de complejidad estrictamente menor. Por (O4), $`\mathbb{A}`$ y $`\mathbb{B}`$ preservan la clase admisible. Por (O3), son covariantes bajo las cuatro transformadas canónicas. El producto $`\mathbb{A} \circ \mathbb{B}`$ debe generar las cuatro ecuaciones factuales, las tres relaciones constitutivas y el criterio de frontera, todos independientes por el Teorema 14.16.2. Un operador $`\mathbb{A}`$ de complejidad estrictamente menor no genera por composición todas estas componentes sin que $`\mathbb{B}`$ aporte información equivalente a la de $`\mathbb{E}_{SV}`$ completo, contradicción con la hipótesis de complejidad estrictamente menor de $`\mathbb{B}`$. Por tanto, la factorización no trivial supuesta no existe. Q.E.D.
 
 ### 14.16.4. Corolario de cierre algebraico
 
-**Corolario 14.16.4.** *El operador maestro absoluto $`\mathbb{E}_{SV}`$ constituye el desenlace final algebraico del régimen electromagnético factual: ninguna reducción posterior dentro de $`\mathbf{OpFact}_{SV}`$ es posible sin violación de al menos una de las cuatro condiciones (O1), (O2), (O3), (O4).*
+**Corolario 14.16.4.** El operador maestro absoluto $`\mathbb{E}_{SV}`$ constituye el desenlace final algebraico del régimen electromagnético factual: ninguna reducción posterior dentro de $`\mathbf{OpFact}_{SV}`$ es posible sin violación de al menos una de las cuatro condiciones (O1), (O2), (O3), (O4).
 
 ### 14.16.5. Verificación visible de irreducibilidad
 
-**Intento uno.** Supóngase $`\mathbb{E}_{SV} = \mathbb{A}_{\text{grad}} \circ \mathbb{B}_{\text{tiempo}}`$ con $`\mathbb{A}_{\text{grad}}`$ gradiente factual y $`\mathbb{B}_{\text{tiempo}}`$ evolución temporal clásica. $`\mathbb{B}_{\text{tiempo}}`$ introduce tiempo absoluto como parámetro primario, violando (O1). Factorización no admisible.
+**Intento uno.** Supóngase $`\mathbb{E}_{SV} = \mathbb{A}_{\mathrm{grad}} \circ \mathbb{B}_{\text{tiempo}}`$ con $`\mathbb{A}_{\mathrm{grad}}`$ gradiente factual y $`\mathbb{B}_{\text{tiempo}}`$ evolución temporal clásica. $`\mathbb{B}_{\text{tiempo}}`$ introduce tiempo absoluto como parámetro primario, violando (O1). Factorización no admisible.
 
-**Intento dos.** Supóngase $`\mathbb{E}_{SV} = \mathbb{C}_{\text{prob}} \circ \mathbb{D}_{\text{const}}`$ con $`\mathbb{C}_{\text{prob}}`$ operador de ponderación probabilística. $`\mathbb{C}_{\text{prob}}`$ introduce probabilidad fundante, violando (O1). No admisible.
+**Intento dos.** Supóngase $`\mathbb{E}_{SV} = \mathbb{C}_{\text{prob}} \circ \mathbb{D}_{\mathrm{const}}`$ con $`\mathbb{C}_{\text{prob}}`$ operador de ponderación probabilística. $`\mathbb{C}_{\text{prob}}`$ introduce probabilidad fundante, violando (O1). No admisible.
 
-**Intento tres.** Supóngase $`\mathbb{E}_{SV} = \mathbb{G}_{\text{ext}} \circ \mathbb{H}_{\text{sol}}`$ con $`\mathbb{G}_{\text{ext}}`$ operador de cambio a coordenadas externas. $`\mathbb{G}_{\text{ext}}`$ introduce coordenadas externas como base ontológica, violando (O1). No admisible.
+**Intento tres.** Supóngase $`\mathbb{E}_{SV} = \mathbb{G}_{\mathrm{ext}} \circ \mathbb{H}_{\mathrm{sol}}`$ con $`\mathbb{G}_{\mathrm{ext}}`$ operador de cambio a coordenadas externas. $`\mathbb{G}_{\mathrm{ext}}`$ introduce coordenadas externas como base ontológica, violando (O1). No admisible.
 
 Tres intentos, tres rupturas categoriales. La irreducibilidad algebraica del Teorema 14.16.3 queda confirmada por ausencia de factorizaciones no triviales en $`\mathbf{OpFact}_{SV}`$.
 
@@ -1299,37 +1299,37 @@ Tres intentos, tres rupturas categoriales. La irreducibilidad algebraica del Teo
 
 ### 14.17.2. Reconstrucción de Gauss eléctrica clásica
 
-**Teorema 14.17.2.** *La componente factual $`\text{Div}_{SV}\, D = \rho_{\text{ext}}`$ se reconstruye bajo $`\mathcal{D}_{SV}^{-1}`$ como $`\nabla \cdot \mathbf{D} = \rho_f`$.*
+**Teorema 14.17.2.** La componente factual $`\mathrm{Div}_{SV}\, D = \rho_{\mathrm{ext}}`$ se reconstruye bajo $`\mathcal{D}_{SV}^{-1}`$ como $`\nabla \cdot \mathbf{D} = \rho_f`$.
 
-*Demostración.* El operador $`\text{Div}_{SV}`$ se traduce al operador clásico $`\nabla \cdot`$ por preservación de la regla de Leibniz y del cosido metrológico. La magnitud $`D`$ corresponde al campo clásico de desplazamiento eléctrico (UFC/UFE²). La fuente $`\rho_{\text{ext}}`$ corresponde a la densidad clásica de carga libre $`\rho_f`$. Q.E.D.
+**Demostración.** El operador $`\mathrm{Div}_{SV}`$ se traduce al operador clásico $`\nabla \cdot`$ por preservación de la regla de Leibniz y del cosido metrológico. La magnitud $`D`$ corresponde al campo clásico de desplazamiento eléctrico (UFC/UFE²). La fuente $`\rho_{\mathrm{ext}}`$ corresponde a la densidad clásica de carga libre $`\rho_f`$. Q.E.D.
 
 ### 14.17.3. Reconstrucción de Gauss magnética
 
-**Teorema 14.17.3.** *$`\text{Div}_{SV}\, B = 0`$ se reconstruye bajo $`\mathcal{D}_{SV}^{-1}`$ como $`\nabla \cdot \mathbf{B} = 0`$.*
+**Teorema 14.17.3.** $`\mathrm{Div}_{SV}\, B = 0`$ se reconstruye bajo $`\mathcal{D}_{SV}^{-1}`$ como $`\nabla \cdot \mathbf{B} = 0`$.
 
-*Demostración.* Análoga al Teorema 14.17.2, con $`B`$ factual traduciéndose al campo clásico $`\mathbf{B}`$ (UFM/UFE²) y miembro derecho nulo preservado. Q.E.D.
+**Demostración.** Análoga al Teorema 14.17.2, con $`B`$ factual traduciéndose al campo clásico $`\mathbf{B}`$ (UFM/UFE²) y miembro derecho nulo preservado. Q.E.D.
 
 ### 14.17.4. Reconstrucción de Faraday clásica
 
-**Teorema 14.17.4.** *$`\text{Rot}_{SV}\, E = -\partial_\nu^{SV}\, B`$ se reconstruye como $`\nabla \times \mathbf{E} = -\partial \mathbf{B}/\partial t`$.*
+**Teorema 14.17.4.** $`\mathrm{Rot}_{SV}\, E = -\partial_\nu^{SV}\, B`$ se reconstruye como $`\nabla \times \mathbf{E} = -\partial \mathbf{B}/\partial t`$.
 
-*Demostración.* $`\text{Rot}_{SV}`$ se traduce al operador clásico $`\nabla \times`$ por preservación de la antisimetría tensorial. $`\partial_\nu^{SV}`$, bajo la correspondencia del cosido metrológico con $`dt = \omega(\nu)`$ en unidades absolutas, se traduce a la derivada temporal clásica. Q.E.D.
+**Demostración.** $`\mathrm{Rot}_{SV}`$ se traduce al operador clásico $`\nabla \times`$ por preservación de la antisimetría tensorial. $`\partial_\nu^{SV}`$, bajo la correspondencia del cosido metrológico con $`dt = \omega(\nu)`$ en unidades absolutas, se traduce a la derivada temporal clásica. Q.E.D.
 
 ### 14.17.5. Reconstrucción de Ampère-Maxwell clásica
 
-**Teorema 14.17.5.** *$`\text{Rot}_{SV}\, H = J_{\text{cond}} + \partial_\nu^{SV}\, D + J_{\text{ext}}`$ se reconstruye como $`\nabla \times \mathbf{H} = \mathbf{J}_f + \partial \mathbf{D}/\partial t`$.*
+**Teorema 14.17.5.** $`\mathrm{Rot}_{SV}\, H = J_{\mathrm{cond}} + \partial_\nu^{SV}\, D + J_{\mathrm{ext}}`$ se reconstruye como $`\nabla \times \mathbf{H} = \mathbf{J}_f + \partial \mathbf{D}/\partial t`$.
 
-*Demostración.* Por traducción análoga e identificación de la corriente total $`J_{\text{cond}} + J_{\text{ext}}`$ con $`\mathbf{J}_f`$. Q.E.D.
+**Demostración.** Por traducción análoga e identificación de la corriente total $`J_{\mathrm{cond}} + J_{\mathrm{ext}}`$ con $`\mathbf{J}_f`$. Q.E.D.
 
 ### 14.17.6. Reconstrucción de constitutivas
 
-**Teorema 14.17.6.** *Las tres constitutivas factuales $`D = \varepsilon_{SV} E`$, $`B = \mu_{SV} H`$, $`J_{\text{cond}} = \sigma_{SV} E`$ se reconstruyen como $`\mathbf{D} = \varepsilon\, \mathbf{E}`$, $`\mathbf{B} = \mu\, \mathbf{H}`$, $`\mathbf{J}_c = \sigma\, \mathbf{E}`$.*
+**Teorema 14.17.6.** Las tres constitutivas factuales $`D = \varepsilon_{SV} E`$, $`B = \mu_{SV} H`$, $`J_{\mathrm{cond}} = \sigma_{SV} E`$ se reconstruyen como $`\mathbf{D} = \varepsilon\, \mathbf{E}`$, $`\mathbf{B} = \mu\, \mathbf{H}`$, $`\mathbf{J}_c = \sigma\, \mathbf{E}`$.
 
-*Demostración.* Por traducción directa, preservando la autoadjunción del Teorema 14.8.2 que se corresponde con la simetría clásica. Q.E.D.
+**Demostración.** Por traducción directa, preservando la autoadjunción del Teorema 14.8.2 que se corresponde con la simetría clásica. Q.E.D.
 
 ### 14.17.7. Reconstrucción de contorno clásico
 
-**Teorema 14.17.7.** *La componente factual $`\mathbb{F}_{SV} = 0`$ se reconstruye bajo $`\mathcal{D}_{SV}^{-1}`$ como las condiciones clásicas*
+**Teorema 14.17.7.** La componente factual $`\mathbb{F}_{SV} = 0`$ se reconstruye bajo $`\mathcal{D}_{SV}^{-1}`$ como las condiciones clásicas
 
 $$
 \mathbf{n} \times (\mathbf{E}_2 - \mathbf{E}_1) = \mathbf{0}, \qquad \mathbf{n} \times (\mathbf{H}_2 - \mathbf{H}_1) = \mathbf{K}_f,
@@ -1339,17 +1339,17 @@ $$
 \mathbf{n} \cdot (\mathbf{D}_2 - \mathbf{D}_1) = \sigma_f, \qquad \mathbf{n} \cdot (\mathbf{B}_2 - \mathbf{B}_1) = 0.
 $$
 
-*Demostración.* Por traducción del producto tangencial factual del §14.5.3 y del balance de frontera factual a sus contrapartes clásicas, preservando el criterio de anulación $`\mathbb{F}_{SV}(q) = 0`$ como conjunción de las cuatro condiciones clásicas. Q.E.D.
+**Demostración.** Por traducción del producto tangencial factual del §14.5.3 y del balance de frontera factual a sus contrapartes clásicas, preservando el criterio de anulación $`\mathbb{F}_{SV}(q) = 0`$ como conjunción de las cuatro condiciones clásicas. Q.E.D.
 
 ### 14.17.8. Teorema de reconstrucción completa
 
-**Teorema 14.17.8.** *$`\mathcal{D}_{SV}^{-1}`$ aplicado componente a componente al operador maestro absoluto $`\mathbb{E}_{SV} = 0`$ reconstruye íntegramente el conjunto clásico:*
+**Teorema 14.17.8.** $`\mathcal{D}_{SV}^{-1}`$ aplicado componente a componente al operador maestro absoluto $`\mathbb{E}_{SV} = 0`$ reconstruye íntegramente el conjunto clásico:
 
 - *cuatro ecuaciones de primer orden (Gauss eléctrica, Gauss magnética, Faraday, Ampère-Maxwell);*
 - *tres relaciones constitutivas ($`\varepsilon`$, $`\mu`$, $`\sigma`$);*
 - *cuatro condiciones de contorno clásicas en interfaz.*
 
-*Demostración.* Por los Teoremas 14.17.2 a 14.17.7, cada componente factual se traduce unívocamente a su contraparte clásica. La reconstrucción es completa porque las componentes factuales agotan el contenido del conjunto clásico, según el Teorema 14.16.2. La reconstrucción es reversible porque $`\mathcal{D}_{SV}`$ y $`\mathcal{D}_{SV}^{-1}`$ son mutuamente inversas. Q.E.D.
+**Demostración.** Por los Teoremas 14.17.2 a 14.17.7, cada componente factual se traduce unívocamente a su contraparte clásica. La reconstrucción es completa porque las componentes factuales agotan el contenido del conjunto clásico, según el Teorema 14.16.2. La reconstrucción es reversible porque $`\mathcal{D}_{SV}`$ y $`\mathcal{D}_{SV}^{-1}`$ son mutuamente inversas. Q.E.D.
 
 ---
 ## Aplicaciones
@@ -1358,7 +1358,7 @@ $$
 
 ### 14.18.1. Precedencia y estatuto
 
-La aplicación $`\gamma_{SV}`$ no funda el dominio canónico absoluto del aparato, sino que transporta representaciones admisibles hacia $`\Xi_{SV}`$ preservando la estructura de los operadores ya fijados. El estatuto operatorio del dominio $`\Xi_{SV}`$ se consigna en el §3.2 del documento de fundamentos operatorios (Lloret Egea, 2026k, §3.2) como eslabón de la cadena fundacional $`\Omega_{\text{pre}} \to K_3^n \xrightarrow{\varepsilon} \Xi_{SV} \to \Sigma_{\text{conc}} \to \Sigma_{\text{canal}} \to \{m_0, \chi_\alpha, U\}`$. La presente sección formaliza algebraicamente la aplicación $`\varepsilon`$ de esa cadena, bajo la denominación $`\gamma_{SV}`$ para evitar colisión tipográfica con el operador constitutivo eléctrico $`\varepsilon_{SV}`$ y con el tensor factual antisimétrico $`\varepsilon^{SV}_{ijk}`$.
+La aplicación $`\gamma_{SV}`$ no funda el dominio canónico absoluto del aparato, sino que transporta representaciones admisibles hacia $`\Xi_{SV}`$ preservando la estructura de los operadores ya fijados. El estatuto operatorio del dominio $`\Xi_{SV}`$ se consigna en el §3.2 del documento de fundamentos operatorios (Lloret Egea, 2026k, §3.2) como eslabón de la cadena fundacional $`\Omega_{\mathrm{pre}} \to K_3^n \xrightarrow{\varepsilon} \Xi_{SV} \to \Sigma_{\mathrm{conc}} \to \Sigma_{\mathrm{canal}} \to \{m_0, \chi_\alpha, U\}`$. La presente sección formaliza algebraicamente la aplicación $`\varepsilon`$ de esa cadena, bajo la denominación $`\gamma_{SV}`$ para evitar colisión tipográfica con el operador constitutivo eléctrico $`\varepsilon_{SV}`$ y con el tensor factual antisimétrico $`\varepsilon^{SV}_{ijk}`$.
 
 ### 14.18.2. Definición
 
@@ -1381,25 +1381,25 @@ La aplicación $`\gamma_{SV}`$ satisface:
 
 ### 14.18.4. Consistencia con el aparato operatorio
 
-**Teorema 14.18.2 (consistencia con operadores absolutos).** *Los operadores absolutos $`\partial_\nu^{SV}, \partial^{SV}_i, \text{Div}_{SV}, \text{Rot}_{SV}, \varepsilon_{SV}, \mu_{SV}, \sigma_{SV}`$ definidos sobre $`\Xi_{SV}`$ admiten pullback bien definido a través de $`\gamma_{SV}`$ a operadores correspondientes sobre $`K_3^n`$, compatibles con la estructura ternaria absoluta.*
+**Teorema 14.18.2 (consistencia con operadores absolutos).** Los operadores absolutos $`\partial_\nu^{SV}, \partial^{SV}_i, \mathrm{Div}_{SV}, \mathrm{Rot}_{SV}, \varepsilon_{SV}, \mu_{SV}, \sigma_{SV}`$ definidos sobre $`\Xi_{SV}`$ admiten pullback bien definido a través de $`\gamma_{SV}`$ a operadores correspondientes sobre $`K_3^n`$, compatibles con la estructura ternaria absoluta.
 
-*Demostración.* Por (G1) y (G4), la composición $`\gamma_{SV}^{*}\,L := L \circ \gamma_{SV}`$ está bien definida y es única para cada operador $`L`$ sobre $`\Xi_{SV}`$. Por (G2) y (G3), el pullback preserva la codificación visible del §4.1 y el refinamiento factual. La linealidad factual se transporta por linealidad de la composición. Q.E.D.
+**Demostración.** Por (G1) y (G4), la composición $`\gamma_{SV}^{*}\,L := L \circ \gamma_{SV}`$ está bien definida y es única para cada operador $`L`$ sobre $`\Xi_{SV}`$. Por (G2) y (G3), el pullback preserva la codificación visible del §4.1 y el refinamiento factual. La linealidad factual se transporta por linealidad de la composición. Q.E.D.
 
-**Teorema 14.18.3 (consistencia con régimen separable).** *Las hipótesis (S1) y (S2) del régimen separable (§14.10) son invariantes bajo $`\gamma_{SV}`$: si una configuración sobre $`\Xi_{SV}`$ las satisface, la configuración correspondiente bajo $`\gamma_{SV}^{-1}`$ hereda las mismas propiedades estructurales.*
+**Teorema 14.18.3 (consistencia con régimen separable).** Las hipótesis (S1) y (S2) del régimen separable (§14.10) son invariantes bajo $`\gamma_{SV}`$: si una configuración sobre $`\Xi_{SV}`$ las satisface, la configuración correspondiente bajo $`\gamma_{SV}^{-1}`$ hereda las mismas propiedades estructurales.
 
-*Demostración.* (S1) exige independencia posicional del peso $`\omega(\nu_j)`$. Por (G2), $`\gamma_{SV}`$ no introduce dependencia posicional adicional; la independencia se preserva. (S2) exige estabilidad de la base admisible y la métrica; por (G3) y (G4), $`\gamma_{SV}`$ transporta bases admisibles sin alteración de la estructura métrica heredada del cosido metrológico del §5.6 del cuerpo. Q.E.D.
+**Demostración.** (S1) exige independencia posicional del peso $`\omega(\nu_j)`$. Por (G2), $`\gamma_{SV}`$ no introduce dependencia posicional adicional; la independencia se preserva. (S2) exige estabilidad de la base admisible y la métrica; por (G3) y (G4), $`\gamma_{SV}`$ transporta bases admisibles sin alteración de la estructura métrica heredada del cosido metrológico del §5.6 del cuerpo. Q.E.D.
 
 ### 14.18.5. Consistencia del bracket factual bajo $`\gamma_{SV}`$
 
-**Teorema 14.18.4.** *El bracket factual absoluto $`\langle\cdot,\cdot\rangle_{SV}`$ del §14.7 admite formulación equivalente por composición con $`\gamma_{SV}`$: para todo par de campos admisibles $`F, G: \Xi_{SV} \to \mathbb{R}^3`$,*
+**Teorema 14.18.4.** El bracket factual absoluto $`\langle\cdot,\cdot\rangle_{SV}`$ del §14.7 admite formulación equivalente por composición con $`\gamma_{SV}`$: para todo par de campos admisibles $`F, G: \Xi_{SV} \to \mathbb{R}^3`$,
 
 $$
 \langle F, G\rangle_{SV} \;=\; \sum_{s \in K_3^n}\,\rho(s)\cdot (F \circ \gamma_{SV})(s)\cdot (G \circ \gamma_{SV})(s),
 $$
 
-*con la suma absoluta extendida sobre el mosaico ternario y el producto punto aplicado componente a componente sobre $`\mathbb{R}^3`$.*
+con la suma absoluta extendida sobre el mosaico ternario y el producto punto aplicado componente a componente sobre $`\mathbb{R}^3`$.
 
-*Demostración.* Por (G1), $`(F \circ \gamma_{SV}): K_3^n \to \mathbb{R}^3`$ está bien definida. Bilinealidad, simetría y no-negatividad se preservan trivialmente por composición dado que la estructura bilineal reside en $`\mathbb{R}^3`$. La no-degeneración se preserva por (G4): si $`\gamma_{SV}(s) \neq 0`$ para todo $`s`$ no nulo, entonces $`(F \circ \gamma_{SV})(s) = 0`$ para todo $`s`$ implica $`F = 0`$ factualmente. Q.E.D.
+**Demostración.** Por (G1), $`(F \circ \gamma_{SV}): K_3^n \to \mathbb{R}^3`$ está bien definida. Bilinealidad, simetría y no-negatividad se preservan trivialmente por composición dado que la estructura bilineal reside en $`\mathbb{R}^3`$. La no-degeneración se preserva por (G4): si $`\gamma_{SV}(s) \neq 0`$ para todo $`s`$ no nulo, entonces $`(F \circ \gamma_{SV})(s) = 0`$ para todo $`s`$ implica $`F = 0`$ factualmente. Q.E.D.
 
 ### 14.18.6. Cláusula de precedencia
 
@@ -1437,23 +1437,23 @@ La evaluación por la forma del §14.7 sobre los tres puntos de $`\Xi_{SV}`$ ima
 
 ### 14.19.1. Estatuto categorial
 
-El operador $`\mathfrak{U}_{SV}`$ conforma la articulación polimodal de los operadores absolutos del anexo sobre régimen admisible general. Su función es soportar la composición controlada de los operadores $`J_{SV}`$, $`\mathcal{R}^f_{SV}`$, $`\partial^{SV}_i`$, $`\partial_\nu^{SV(k)}`$, $`\text{Div}_{SV}`$, $`\text{Rot}_{SV}`$, $`\times_{SV}`$, $`\langle\cdot,\cdot\rangle_{SV}`$, $`\nabla^{SV}`$ y las componentes del operador maestro $`\mathbb{M}_{SV}`$, $`\mathbb{K}_{SV}`$, $`\mathbb{F}_{SV}`$, sobre configuraciones admisibles fijadas por compuertas factuales tipadas.
+El operador $`\mathfrak{U}_{SV}`$ conforma la articulación polimodal de los operadores absolutos del anexo sobre régimen admisible general. Su función es soportar la composición controlada de los operadores $`J_{SV}`$, $`\mathcal{R}^f_{SV}`$, $`\partial^{SV}_i`$, $`\partial_\nu^{SV(k)}`$, $`\mathrm{Div}_{SV}`$, $`\mathrm{Rot}_{SV}`$, $`\times_{SV}`$, $`\langle\cdot,\cdot\rangle_{SV}`$, $`\nabla^{SV}`$ y las componentes del operador maestro $`\mathbb{M}_{SV}`$, $`\mathbb{K}_{SV}`$, $`\mathbb{F}_{SV}`$, sobre configuraciones admisibles fijadas por compuertas factuales tipadas.
 
 ### 14.19.2. Clase admisible de configuraciones
 
-**Definición 14.19.1.** La **clase admisible de configuraciones factuales** $`\mathcal{M}^{\text{adm}}_{SV}`$ es el conjunto de pares $`(q, \Omega)`$ con $`q`$ magnitud factual admisible sobre $`\Omega \subseteq \Xi_{SV}`$, compatibles con las prohibiciones constitutivas, el cosido metrológico absoluto y la clausura factual $`\mathsf{Cl}_{SV}`$ del §14.11.3.
+**Definición 14.19.1.** La **clase admisible de configuraciones factuales** $`\mathcal{M}^{\mathrm{adm}}_{SV}`$ es el conjunto de pares $`(q, \Omega)`$ con $`q`$ magnitud factual admisible sobre $`\Omega \subseteq \Xi_{SV}`$, compatibles con las prohibiciones constitutivas, el cosido metrológico absoluto y la clausura factual $`\mathsf{Cl}_{SV}`$ del §14.11.3.
 
 ### 14.19.3. Tipado canónico de compuertas
 
 **Definición 14.19.2.** Las **compuertas factuales canónicas** son aplicaciones
 
 $$
-\mathfrak{c}_* : \mathcal{M}^{\text{adm}}_{SV} \longrightarrow \{0, 1\},
+\mathfrak{c}_* : \mathcal{M}^{\mathrm{adm}}_{SV} \longrightarrow \{0, 1\},
 $$
 
 con criterio de paso algebraicamente cerrado. Las cuatro compuertas canónicas se fijan así:
 
-- $`\mathfrak{c}_{\text{sep}}(q, \Omega) = 1`$ si y solo si $`(q, \Omega)`$ satisface las hipótesis (S1) y (S2) del régimen separable (§14.10); $`0`$ en otro caso.
+- $`\mathfrak{c}_{\mathrm{sep}}(q, \Omega) = 1`$ si y solo si $`(q, \Omega)`$ satisface las hipótesis (S1) y (S2) del régimen separable (§14.10); $`0`$ en otro caso.
 
 - $`\mathfrak{c}_{\partial\Omega}(q, \Omega) = 1`$ si y solo si $`\det(J_{SV}) = 0`$ sobre $`\partial\Omega`$, es decir, si la frontera factual está activa (§14.2); $`0`$ en otro caso.
 
@@ -1463,10 +1463,10 @@ con criterio de paso algebraicamente cerrado. Las cuatro compuertas canónicas s
 
 ### 14.19.4. Compuerta global
 
-**Definición 14.19.3.** La **compuerta global absoluta** $`\mathfrak{C}_{SV}: \mathcal{M}^{\text{adm}}_{SV} \to \{0, 1\}`$ se define como conjunción absoluta de las cuatro compuertas canónicas:
+**Definición 14.19.3.** La **compuerta global absoluta** $`\mathfrak{C}_{SV}: \mathcal{M}^{\mathrm{adm}}_{SV} \to \{0, 1\}`$ se define como conjunción absoluta de las cuatro compuertas canónicas:
 
 $$
-\mathfrak{C}_{SV}(q, \Omega) \;:=\; \mathfrak{c}_{\text{sep}}(q, \Omega) \cdot \mathfrak{c}_{\partial\Omega}(q, \Omega) \cdot \mathfrak{c}_{\Lambda}(q, \Omega) \cdot \mathfrak{c}_{R}(q, \Omega).
+\mathfrak{C}_{SV}(q, \Omega) \;:=\; \mathfrak{c}_{\mathrm{sep}}(q, \Omega) \cdot \mathfrak{c}_{\partial\Omega}(q, \Omega) \cdot \mathfrak{c}_{\Lambda}(q, \Omega) \cdot \mathfrak{c}_{R}(q, \Omega).
 $$
 
 El producto en $`\{0,1\}`$ coincide con la conjunción absoluta: $`\mathfrak{C}_{SV} = 1`$ si y solo si las cuatro compuertas canónicas evalúan simultáneamente a $`1`$.
@@ -1476,7 +1476,7 @@ El producto en $`\{0,1\}`$ coincide con la conjunción absoluta: $`\mathfrak{C}_
 **Definición 14.19.4.** Sea $`\mathcal{O}_{SV}`$ la colección de operadores absolutos del anexo enumerados en §14.19.1. El **núcleo compositivo polimodal factual** $`\operatorname{Comp}^{\mathrm{poly}}_{SV}`$ es la operación
 
 $$
-\operatorname{Comp}^{\mathrm{poly}}_{SV}: \mathcal{O}_{SV} \times \mathcal{O}_{SV} \times \mathcal{M}^{\text{adm}}_{SV} \longrightarrow \mathcal{O}_{SV}
+\operatorname{Comp}^{\mathrm{poly}}_{SV}: \mathcal{O}_{SV} \times \mathcal{O}_{SV} \times \mathcal{M}^{\mathrm{adm}}_{SV} \longrightarrow \mathcal{O}_{SV}
 $$
 
 que, a cada par ordenado $`(L_1, L_2)`$ de operadores absolutos y cada configuración admisible $`(q, \Omega)`$, asigna el operador compuesto $`\operatorname{Comp}^{\mathrm{poly}}_{SV}(L_1, L_2; q, \Omega) \in \mathcal{O}_{SV}`$ definido por las cuatro condiciones siguientes:
@@ -1489,7 +1489,7 @@ que, a cada par ordenado $`(L_1, L_2)`$ de operadores absolutos y cada configura
 
 - **Equivalencia de salida.** Dos composiciones $`\operatorname{Comp}^{\mathrm{poly}}_{SV}(L_1, L_2; q, \Omega)`$ y $`\operatorname{Comp}^{\mathrm{poly}}_{SV}(L_1', L_2'; q, \Omega)`$ son equivalentes si y solo si producen la misma salida funcional sobre cada elemento admisible de la intersección de sus dominios, módulo aplicación de $`\mathcal{R}^f_{SV}`$ en las interfaces factuales activas.
 
-La relación de $`\operatorname{Comp}^{\mathrm{poly}}_{SV}`$ con la firma general $`\operatorname{Comp}`$ del corpus (composición genérica de operadores sobre $`\Xi_{SV}`$) es la siguiente: $`\operatorname{Comp}^{\mathrm{poly}}_{SV}`$ es la restricción especializada de $`\operatorname{Comp}`$ al subdominio admisible $`\mathcal{M}^{\text{adm}}_{SV}`$ bajo control de las compuertas canónicas.
+La relación de $`\operatorname{Comp}^{\mathrm{poly}}_{SV}`$ con la firma general $`\operatorname{Comp}`$ del corpus (composición genérica de operadores sobre $`\Xi_{SV}`$) es la siguiente: $`\operatorname{Comp}^{\mathrm{poly}}_{SV}`$ es la restricción especializada de $`\operatorname{Comp}`$ al subdominio admisible $`\mathcal{M}^{\mathrm{adm}}_{SV}`$ bajo control de las compuertas canónicas.
 
 ### 14.19.6. Definición operativa de $`\mathfrak{U}_{SV}`$
 
@@ -1509,47 +1509,47 @@ $$
 \mathcal{R}^{f,(1)}_{SV} := \mathcal{R}^f_{SV}, \qquad \mathcal{R}^{f,(k+1)}_{SV} := \mathcal{R}^{f,(k)}_{SV} \circ \mathcal{R}^f_{SV}, \quad k \geq 1.
 $$
 
-**Teorema 14.19.7.** *La jerarquía $`\mathcal{R}^{f,(k)}_{SV}`$ es estable bajo composición absoluta: para todo par $`k_1, k_2 \geq 1`$,*
+**Teorema 14.19.7.** La jerarquía $`\mathcal{R}^{f,(k)}_{SV}`$ es estable bajo composición absoluta: para todo par $`k_1, k_2 \geq 1`$,
 
 $$
 \mathcal{R}^{f,(k_1)}_{SV} \circ \mathcal{R}^{f,(k_2)}_{SV} \;=\; \mathcal{R}^{f,(k_1 + k_2)}_{SV}.
 $$
 
-*Demostración.* Por la Definición 14.19.6 aplicada inductivamente sobre el orden compositivo. Q.E.D.
+**Demostración.** Por la Definición 14.19.6 aplicada inductivamente sobre el orden compositivo. Q.E.D.
 
 ### 14.19.8. Teorema de existencia tipada
 
-**Teorema 14.19.8 (existencia tipada de $`\mathfrak{U}_{SV}`$).** *Para toda configuración $`(q, \Omega) \in \mathcal{M}^{\text{adm}}_{SV}`$, el operador $`\mathfrak{U}_{SV}[q, \Omega]`$ está bien definido, es único, y evalúa a un operador admisible de $`\mathcal{O}_{SV}`$.*
+**Teorema 14.19.8 (existencia tipada de $`\mathfrak{U}_{SV}`$).** Para toda configuración $`(q, \Omega) \in \mathcal{M}^{\mathrm{adm}}_{SV}`$, el operador $`\mathfrak{U}_{SV}[q, \Omega]`$ está bien definido, es único, y evalúa a un operador admisible de $`\mathcal{O}_{SV}`$.
 
-*Demostración.* Por la Definición 14.19.3, $`\mathfrak{C}_{SV}(q, \Omega) \in \{0, 1\}`$. Caso $`\mathfrak{C}_{SV} = 1`$: el operador reduce a $`\operatorname{Comp}^{\mathrm{poly}}_{SV}(\mathbb{M}_{SV}, \mathbb{K}_{SV}; q, \Omega)`$, que es admisible por la Definición 14.19.4 (dominio preciso y regla de composición). Caso $`\mathfrak{C}_{SV} = 0`$: el operador reduce a $`\mathbb{F}_{SV}(q)`$, admisible por §14.11. En ambos casos, $`\mathfrak{U}_{SV}[q, \Omega]`$ es único por unicidad de $`\mathfrak{C}_{SV}`$ y de $`\operatorname{Comp}^{\mathrm{poly}}_{SV}`$. Q.E.D.
+**Demostración.** Por la Definición 14.19.3, $`\mathfrak{C}_{SV}(q, \Omega) \in \{0, 1\}`$. Caso $`\mathfrak{C}_{SV} = 1`$: el operador reduce a $`\operatorname{Comp}^{\mathrm{poly}}_{SV}(\mathbb{M}_{SV}, \mathbb{K}_{SV}; q, \Omega)`$, que es admisible por la Definición 14.19.4 (dominio preciso y regla de composición). Caso $`\mathfrak{C}_{SV} = 0`$: el operador reduce a $`\mathbb{F}_{SV}(q)`$, admisible por §14.11. En ambos casos, $`\mathfrak{U}_{SV}[q, \Omega]`$ es único por unicidad de $`\mathfrak{C}_{SV}`$ y de $`\operatorname{Comp}^{\mathrm{poly}}_{SV}`$. Q.E.D.
 
 ### 14.19.9. Teorema de no identidad de suceso
 
-**Teorema 14.19.9.** *Para configuraciones admisibles con $`\mathfrak{C}_{SV} = 1`$, el operador $`\mathfrak{U}_{SV}`$ no introduce identificación extrínseca entre sucesos distintos del índice factual $`\nu`$.*
+**Teorema 14.19.9.** Para configuraciones admisibles con $`\mathfrak{C}_{SV} = 1`$, el operador $`\mathfrak{U}_{SV}`$ no introduce identificación extrínseca entre sucesos distintos del índice factual $`\nu`$.
 
-*Demostración.* La composición $`\operatorname{Comp}^{\mathrm{poly}}_{SV}(\mathbb{M}_{SV}, \mathbb{K}_{SV}; q, \Omega)`$ opera sobre el índice de suceso $`\nu_j`$ por aplicación de $`\partial_\nu^{SV}`$ y $`\partial_\nu^{SV(k)}`$, que son operadores locales en el índice. Ninguno de los operadores absolutos de $`\mathcal{O}_{SV}`$ identifica sucesos $`\nu_j \neq \nu_l`$ por construcción: la diferencia factual conserva la distinción ordinal absoluta. Q.E.D.
+**Demostración.** La composición $`\operatorname{Comp}^{\mathrm{poly}}_{SV}(\mathbb{M}_{SV}, \mathbb{K}_{SV}; q, \Omega)`$ opera sobre el índice de suceso $`\nu_j`$ por aplicación de $`\partial_\nu^{SV}`$ y $`\partial_\nu^{SV(k)}`$, que son operadores locales en el índice. Ninguno de los operadores absolutos de $`\mathcal{O}_{SV}`$ identifica sucesos $`\nu_j \neq \nu_l`$ por construcción: la diferencia factual conserva la distinción ordinal absoluta. Q.E.D.
 
 ### 14.19.10. Teorema de no colapso escalar
 
-**Teorema 14.19.10.** *$`\mathfrak{U}_{SV}[q, \Omega]`$ no colapsa a escalar trivial bajo régimen admisible con $`\mathfrak{C}_{SV} = 1`$: su salida conserva el tipo tensorial de los operadores compuestos.*
+**Teorema 14.19.10.** $`\mathfrak{U}_{SV}[q, \Omega]`$ no colapsa a escalar trivial bajo régimen admisible con $`\mathfrak{C}_{SV} = 1`$: su salida conserva el tipo tensorial de los operadores compuestos.
 
-*Demostración.* La composición $`\operatorname{Comp}^{\mathrm{poly}}_{SV}(L_1, L_2; q, \Omega)`$ preserva el tipo tensorial máximo de los operandos por regla de composición funcional. Si $`L_1`$ tiene rango tensorial $`r_1`$ y $`L_2`$ rango $`r_2`$, la composición tiene rango al menos $`\max(r_1 - 1, r_2 - 1)`$ tras contracción de un índice. Para $`L_1 = \mathbb{M}_{SV}`$ (rango conjunto $`\geq 2`$) y $`L_2 = \mathbb{K}_{SV}`$ (rango conjunto $`\geq 1`$), el rango resultante es estrictamente positivo, excluyendo colapso escalar. Q.E.D.
+**Demostración.** La composición $`\operatorname{Comp}^{\mathrm{poly}}_{SV}(L_1, L_2; q, \Omega)`$ preserva el tipo tensorial máximo de los operandos por regla de composición funcional. Si $`L_1`$ tiene rango tensorial $`r_1`$ y $`L_2`$ rango $`r_2`$, la composición tiene rango al menos $`\max(r_1 - 1, r_2 - 1)`$ tras contracción de un índice. Para $`L_1 = \mathbb{M}_{SV}`$ (rango conjunto $`\geq 2`$) y $`L_2 = \mathbb{K}_{SV}`$ (rango conjunto $`\geq 1`$), el rango resultante es estrictamente positivo, excluyendo colapso escalar. Q.E.D.
 
 ### 14.19.11. Teorema de posterioridad transductiva
 
-**Teorema 14.19.11.** *La acción de $`\mathfrak{U}_{SV}`$ es posterior a la activación transductiva del régimen: $`\mathfrak{U}_{SV}[q, \Omega]`$ opera sobre configuraciones $`(q, \Omega)`$ ya constituidas sobre $`\Sigma_{\text{canal}}`$, sin intervenir en la cadena fundacional $`\Omega_{\text{pre}} \to K_3^n \to \Xi_{SV}`$ anterior.*
+**Teorema 14.19.11.** La acción de $`\mathfrak{U}_{SV}`$ es posterior a la activación transductiva del régimen: $`\mathfrak{U}_{SV}[q, \Omega]`$ opera sobre configuraciones $`(q, \Omega)`$ ya constituidas sobre $`\Sigma_{\mathrm{canal}}`$, sin intervenir en la cadena fundacional $`\Omega_{\mathrm{pre}} \to K_3^n \to \Xi_{SV}`$ anterior.
 
-*Demostración.* Por el dominio de definición fijado en la Definición 14.19.1, $`\mathcal{M}^{\text{adm}}_{SV}`$ exige que $`(q, \Omega)`$ sea compatible con las prohibiciones constitutivas y con el cosido metrológico absoluto, lo cual presupone que la cadena fundacional ya ha sido recorrida hasta $`\Sigma_{\text{canal}}`$. Ningún término de la Definición 14.19.5 actúa sobre $`\Omega_{\text{pre}}`$ ni sobre $`K_3^n`$ independientemente; la acción se ejerce exclusivamente a través de operadores absolutos cuyo dominio operativo es posterior a la geometrización. Q.E.D.
+**Demostración.** Por el dominio de definición fijado en la Definición 14.19.1, $`\mathcal{M}^{\mathrm{adm}}_{SV}`$ exige que $`(q, \Omega)`$ sea compatible con las prohibiciones constitutivas y con el cosido metrológico absoluto, lo cual presupone que la cadena fundacional ya ha sido recorrida hasta $`\Sigma_{\mathrm{canal}}`$. Ningún término de la Definición 14.19.5 actúa sobre $`\Omega_{\mathrm{pre}}`$ ni sobre $`K_3^n`$ independientemente; la acción se ejerce exclusivamente a través de operadores absolutos cuyo dominio operativo es posterior a la geometrización. Q.E.D.
 
 ### 14.19.12. Verificación visible del operador $`\mathfrak{U}_{SV}`$
 
 **Configuración admisible con compuerta global $`\mathfrak{C}_{SV} = 1`$.** Sobre celda admisible del mosaico $`SV(3,9)`$ con $`q = E = (2x_3, 0, 0)`$, $`\Omega`$ dominio regular con $`\det(J_{SV}) = 1`$, peso uniforme $`\omega = 1`$, constitutivo diagonal autoadjunto.
 
-Evaluación de compuertas: $`\mathfrak{c}_{\text{sep}} = 1`$ (régimen separable), $`\mathfrak{c}_{\partial\Omega} = 0`$ (frontera no activa sobre el interior), $`\mathfrak{c}_{\Lambda} = 1`$ (orientación consistente), $`\mathfrak{c}_{R} = 1`$ (balance compatible). Compuerta global: $`\mathfrak{C}_{SV} = 1 \cdot 0 \cdot 1 \cdot 1 = 0`$ sobre el interior.
+Evaluación de compuertas: $`\mathfrak{c}_{\mathrm{sep}} = 1`$ (régimen separable), $`\mathfrak{c}_{\partial\Omega} = 0`$ (frontera no activa sobre el interior), $`\mathfrak{c}_{\Lambda} = 1`$ (orientación consistente), $`\mathfrak{c}_{R} = 1`$ (balance compatible). Compuerta global: $`\mathfrak{C}_{SV} = 1 \cdot 0 \cdot 1 \cdot 1 = 0`$ sobre el interior.
 
 Por la Definición 14.19.5 con $`\mathfrak{C}_{SV} = 0`$: $`\mathfrak{U}_{SV}[q, \Omega] = \mathbb{F}_{SV}(q) = \mathbb{1}_{\det(J_{SV})=0}[\cdots] = 0`$ sobre el interior. Correcto operativamente: el operador colapsa a la componente de frontera cuando no hay activación polimodal sobre el interior.
 
-**Configuración admisible con frontera activa.** Sobre interfaz $`\partial C_{1,2}`$ con $`\det(J_{SV}) = 0`$. Evaluación: $`\mathfrak{c}_{\text{sep}} = 1`$, $`\mathfrak{c}_{\partial\Omega} = 1`$, $`\mathfrak{c}_{\Lambda} = 1`$, $`\mathfrak{c}_{R} = 1`$ (balance $`B_{\partial\Omega}^{SV} = \mathcal{R}^f_{SV} = 7{,}2`$). Compuerta global $`\mathfrak{C}_{SV} = 1`$.
+**Configuración admisible con frontera activa.** Sobre interfaz $`\partial C_{1,2}`$ con $`\det(J_{SV}) = 0`$. Evaluación: $`\mathfrak{c}_{\mathrm{sep}} = 1`$, $`\mathfrak{c}_{\partial\Omega} = 1`$, $`\mathfrak{c}_{\Lambda} = 1`$, $`\mathfrak{c}_{R} = 1`$ (balance $`B_{\partial\Omega}^{SV} = \mathcal{R}^f_{SV} = 7{,}2`$). Compuerta global $`\mathfrak{C}_{SV} = 1`$.
 
 Por la Definición 14.19.5 con $`\mathfrak{C}_{SV} = 1`$: $`\mathfrak{U}_{SV}[q, \Omega] = \operatorname{Comp}^{\mathrm{poly}}_{SV}(\mathbb{M}_{SV}, \mathbb{K}_{SV}; q, \Omega)`$, composición activa de las componentes de primer orden y de clausura. Correcto operativamente: el operador orquesta la composición polimodal cuando las cuatro compuertas canónicas coinciden.
 
@@ -1587,11 +1587,11 @@ La presente sección consigna los bancos visibles del anexo en forma canónica *
 
 **Datos.** Campos $`E(x_1, x_2, x_3) = (2x_3, 0, 0)`$, $`H(x_1, x_2, x_3) = (0, 3x_3, 0)`$. Evaluación en $`x_3 = 1`$.
 
-**Cálculo.** $`S_{SV} = E \times_{SV} H = (0, 0, 6x_3^2)`$. $`\text{Div}_{SV}(S_{SV}) = 12x_3`$. $`\langle H, \text{Rot}_{SV}\,E\rangle_{SV} = 6x_3`$. $`\langle E, \text{Rot}_{SV}\,H\rangle_{SV} = -6x_3`$.
+**Cálculo.** $`S_{SV} = E \times_{SV} H = (0, 0, 6x_3^2)`$. $`\mathrm{Div}_{SV}(S_{SV}) = 12x_3`$. $`\langle H, \mathrm{Rot}_{SV}\,E\rangle_{SV} = 6x_3`$. $`\langle E, \mathrm{Rot}_{SV}\,H\rangle_{SV} = -6x_3`$.
 
-**Salida.** $`\langle H, \text{Rot}_{SV}\,E\rangle_{SV} - \langle E, \text{Rot}_{SV}\,H\rangle_{SV} = 6x_3 - (-6x_3) = 12x_3`$.
+**Salida.** $`\langle H, \mathrm{Rot}_{SV}\,E\rangle_{SV} - \langle E, \mathrm{Rot}_{SV}\,H\rangle_{SV} = 6x_3 - (-6x_3) = 12x_3`$.
 
-**Dictamen.** Igualdad exacta entre $`\text{Div}_{SV}(S_{SV})`$ y la forma del segundo miembro del Teorema 14.5.4. Identidad de Poynting factual verificada sobre configuración admisible.
+**Dictamen.** Igualdad exacta entre $`\mathrm{Div}_{SV}(S_{SV})`$ y la forma del segundo miembro del Teorema 14.5.4. Identidad de Poynting factual verificada sobre configuración admisible.
 
 ### 14.20.5. Banco B-04: iteración $`\partial_\nu^{SV(2)}`$
 
@@ -1607,15 +1607,15 @@ La presente sección consigna los bancos visibles del anexo en forma canónica *
 
 **Datos.** Campo $`q_j(x) = j \cdot x`$ sobre trayectoria de cinco sucesos, dominio posicional $`x \in \{0, 1, 2, 3, 4\}`$. Dos configuraciones: (a) peso $`\omega = 1`$ constante; (b) peso $`\omega(\nu_j, x) = 1 + 0{,}1 x`$.
 
-**Cálculo.** Configuración (a): $`\partial_\nu^{SV}(\text{Div}_{SV}\,q)(j, x) = 1`$, $`\text{Div}_{SV}(\partial_\nu^{SV}\,q)(j, x) = 1`$. Configuración (b), $`x = 0`$: $`\partial_\nu^{SV}(\text{Div}_{SV}\,q) = 1`$, $`\text{Div}_{SV}(\partial_\nu^{SV}\,q) = 0{,}9091`$.
+**Cálculo.** Configuración (a): $`\partial_\nu^{SV}(\mathrm{Div}_{SV}\,q)(j, x) = 1`$, $`\mathrm{Div}_{SV}(\partial_\nu^{SV}\,q)(j, x) = 1`$. Configuración (b), $`x = 0`$: $`\partial_\nu^{SV}(\mathrm{Div}_{SV}\,q) = 1`$, $`\mathrm{Div}_{SV}(\partial_\nu^{SV}\,q) = 0{,}9091`$.
 
-**Salida.** Configuración (a): $`[\partial_\nu^{SV}, \text{Div}_{SV}]\,q = 0`$. Configuración (b), $`x = 0`$: conmutador $`= 0{,}0909 \neq 0`$.
+**Salida.** Configuración (a): $`[\partial_\nu^{SV}, \mathrm{Div}_{SV}]\,q = 0`$. Configuración (b), $`x = 0`$: conmutador $`= 0{,}0909 \neq 0`$.
 
 **Dictamen.** En régimen separable (a) los operadores conmutan exactamente (Teorema 14.10.2). En régimen con peso posicionalmente variable (b) la hipótesis (S1) se viola y el conmutador es no nulo cuantificable. Contraste confirma que el régimen separable es condición estructural, no ornamento.
 
 ### 14.20.7. Banco B-06: balance de Leibniz factual
 
-**Datos.** Trayectoria de tres sucesos, peso $`\omega = 1`$, dimensión posicional $`n = 2`$, $`E_0 = (0,0)`$, $`E_1 = (1,1)`$, $`E_2 = (2,1)`$, $`\partial_\nu^{SV}\,E(0) = (1,1)`$, $`\partial_\nu^{SV}\,E(1) = (1,0)`$. Dos constitutivos: (a) $`\varepsilon_{SV}^{(A)} = \text{diag}(2,3)`$ autoadjunto; (b) $`\varepsilon_{SV}^{(B)} = \begin{pmatrix} 2 & 0{,}5 \\ -0{,}5 & 3 \end{pmatrix}`$ no autoadjunto.
+**Datos.** Trayectoria de tres sucesos, peso $`\omega = 1`$, dimensión posicional $`n = 2`$, $`E_0 = (0,0)`$, $`E_1 = (1,1)`$, $`E_2 = (2,1)`$, $`\partial_\nu^{SV}\,E(0) = (1,1)`$, $`\partial_\nu^{SV}\,E(1) = (1,0)`$. Dos constitutivos: (a) $`\varepsilon_{SV}^{(A)} = \mathrm{diag}(2,3)`$ autoadjunto; (b) $`\varepsilon_{SV}^{(B)} = \begin{pmatrix} 2 & 0{,}5 \\ -0{,}5 & 3 \end{pmatrix}`$ no autoadjunto.
 
 **Cálculo.** (a): $`u_{SV}(1) = 2{,}5`$, $`u_{SV}(2) = 5{,}5`$, $`\partial_\nu^{SV}\,u_{SV}(1) = 3`$. Por Corolario 14.8.3: $`3`$. (b): $`u_{SV}(1) = 2{,}5`$, $`u_{SV}(2) = 5{,}5`$, $`\partial_\nu^{SV}\,u_{SV}(1) = 3`$. Por Corolario 14.8.3: $`2{,}5`$.
 
@@ -1694,7 +1694,7 @@ La presente sección consigna los bancos visibles del anexo en forma canónica *
 | Clase metrológica | Definición | Objetos pertenecientes |
 |---|---|---|
 | Objeto estructural sin metrología propia | Construcción algebraica auxiliar que hereda su dimensión de los operandos | $`\varepsilon^{SV}_{ijk}`$, $`\times_{SV}`$, $`\mathbb{1}_{\det(J_{SV})=0}`$, $`\mathfrak{c}_*`$, $`\mathfrak{C}_{SV}`$, $`\operatorname{Comp}^{\mathrm{poly}}_{SV}`$ |
-| Operador con metrología inducida | Operador cuya dimensión se deriva del cosido metrológico del §5.6 del cuerpo sin dimensión independiente | $`\partial_\nu^{SV}`$, $`\partial^{SV}_i`$, $`\text{Div}_{SV}`$, $`\text{Rot}_{SV}`$, $`\langle\cdot,\cdot\rangle_{SV}`$, $`\nabla^{SV}`$, $`\mathcal{R}^f_{SV}`$, $`\mathcal{R}^{f,(k)}_{SV}`$, $`\mathfrak{U}_{SV}`$, $`\gamma_{SV}`$ |
+| Operador con metrología inducida | Operador cuya dimensión se deriva del cosido metrológico del §5.6 del cuerpo sin dimensión independiente | $`\partial_\nu^{SV}`$, $`\partial^{SV}_i`$, $`\mathrm{Div}_{SV}`$, $`\mathrm{Rot}_{SV}`$, $`\langle\cdot,\cdot\rangle_{SV}`$, $`\nabla^{SV}`$, $`\mathcal{R}^f_{SV}`$, $`\mathcal{R}^{f,(k)}_{SV}`$, $`\mathfrak{U}_{SV}`$, $`\gamma_{SV}`$ |
 | Magnitud factual con dimensión absoluta explícita | Objeto con dimensión canónica en UE_MFC, UFE, UFM, UFC o derivadas | $`J_{SV}`$ (UE_MFC/parámetro), $`u_{SV}`$ (UFE·UFM), $`T^{SV}_{\mu\nu}`$, $`\mathcal{L}_{SV}`$, $`\lambda_{SV}`$ (UFE), $`\mathbb{F}_{SV}`$ (heredada de $`B_{\partial\Omega}^{SV}`$) |
 
 ### 14.21.2. Tabla 14.21.2. Operadores algebraicos absolutos del anexo
@@ -1707,7 +1707,7 @@ La presente sección consigna los bancos visibles del anexo en forma canónica *
 | $`\mathcal{R}^f_{SV}`$ | §14.3 | Operador exacto de reconfiguración factual |
 | $`\varepsilon^{SV}_{ijk}`$ | §14.4 | Tensor factual completamente antisimétrico de orden 3 |
 | $`\times_{SV}`$ | §14.5 | Producto vectorial factual |
-| $`\text{Rot}_{SV}`$ | §14.6 | Rotor factual |
+| $`\mathrm{Rot}_{SV}`$ | §14.6 | Rotor factual |
 | $`\langle\cdot,\cdot\rangle_{SV}`$ | §14.7 | Bracket factual absoluto |
 | Autoadjunción factual | §14.8 | Propiedad de constitutivos absolutos |
 | $`\partial_\nu^{SV(k)}`$ | §14.9 | Iteración canónica del operador de suceso |
@@ -1735,10 +1735,10 @@ La presente sección consigna los bancos visibles del anexo en forma canónica *
 | 14.7.4 | §14.7 | Regla de Leibniz factual bajo $`\partial_\nu^{SV}`$ |
 | 14.7.5 | §14.7 | No negatividad de la densidad electromagnética factual |
 | 14.8.2 | §14.8 | Autoadjunción de los operadores constitutivos |
-| 14.8.5 | §14.8 | Anulación local de $`\text{Div}_{SV}\circ\text{Rot}_{SV}`$ |
+| 14.8.5 | §14.8 | Anulación local de $`\mathrm{Div}_{SV}\circ\mathrm{Rot}_{SV}`$ |
 | 14.9.1 | §14.9 | Forma cerrada de $`\partial_\nu^{SV(k)}`$ en pesos uniformes |
 | 14.9.4 | §14.9 | Anulación de $`\partial_\nu^{SV(k)}`$ sobre polinomios de grado $`< k`$ |
-| 14.10.2 | §14.10 | Conmutación de $`\partial_\nu^{SV}`$ con $`\text{Div}_{SV}`$ y $`\text{Rot}_{SV}`$ en régimen separable |
+| 14.10.2 | §14.10 | Conmutación de $`\partial_\nu^{SV}`$ con $`\mathrm{Div}_{SV}`$ y $`\mathrm{Rot}_{SV}`$ en régimen separable |
 | 14.11.3 | §14.11 | Bicondicional absoluto de compatibilidad interfacial |
 | 14.12.5 | §14.12 | Identidades de Bianchi factuales |
 | 14.12.6 | §14.12 | Anulación de curvatura en régimen separable global |
@@ -1775,7 +1775,7 @@ La presente sección consigna los bancos visibles del anexo en forma canónica *
 
 ### 14.21.5. Estatuto de cierre
 
-El desarrollo algebraico del anexo cierra el aparato operatorio del régimen electromagnético factual del Sistema Vectorial SV sobre el régimen canalizado de propagación $`\Sigma_{\text{canal}}`$. La cadena fundacional $`\Omega_{\text{pre}} \to K_3^n \to \Xi_{SV} \to \Sigma_{\text{conc}} \to \Sigma_{\text{canal}} \to \{m_0, \chi_\alpha, U\}`$ queda operativamente soportada, con la aplicación de geometrización $`\gamma_{SV}`$ formalizada algebraicamente y con el operador de conformación polimodal $`\mathfrak{U}_{SV}`$ orquestando la composición controlada de los operadores absolutos bajo compuertas canónicas tipadas.
+El desarrollo algebraico del anexo cierra el aparato operatorio del régimen electromagnético factual del Sistema Vectorial SV sobre el régimen canalizado de propagación $`\Sigma_{\mathrm{canal}}`$. La cadena fundacional $`\Omega_{\mathrm{pre}} \to K_3^n \to \Xi_{SV} \to \Sigma_{\mathrm{conc}} \to \Sigma_{\mathrm{canal}} \to \{m_0, \chi_\alpha, U\}`$ queda operativamente soportada, con la aplicación de geometrización $`\gamma_{SV}`$ formalizada algebraicamente y con el operador de conformación polimodal $`\mathfrak{U}_{SV}`$ orquestando la composición controlada de los operadores absolutos bajo compuertas canónicas tipadas.
 
 Las veintiún secciones del anexo, los teoremas absolutos con demostración cerrada, los doce bancos visibles en forma canónica *datos / cálculo / salida / dictamen* y las tablas de síntesis constituyen el aparato operatorio del régimen dentro de la categoría $`\mathbf{OpFact}_{SV}`$ de operadores factuales admisibles. La unicidad representacional del Teorema 14.16.2 y la irreducibilidad algebraica del Teorema 14.16.3 aseguran que $`\mathbb{E}_{SV}`$ constituye el desenlace final algebraico del régimen. La reconstrucción inversa del Teorema 14.17.8 garantiza la compatibilidad plena con la formulación clásica de Maxwell bajo el diccionario absoluto $`\mathcal{D}_{SV}`$ y su inversa formal $`\mathcal{D}_{SV}^{-1}`$.
 
