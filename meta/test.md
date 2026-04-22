@@ -7,8 +7,6 @@ El operador $`\mathfrak{U}_{SV}`$ conforma la articulación polimodal de los ope
 
 **Definición 14.19.1.** La clase admisible de configuraciones factuales $`\mathcal{M}^{\mathrm{adm}}_{SV}`$ es el conjunto de pares $`(q,\Omega)`$ con $`q`$ magnitud factual admisible sobre $`\Omega \subseteq \Xi_{SV}`$, compatibles con las prohibiciones constitutivas, el cosido metrológico absoluto y la clausura factual $`\mathsf{Cl}_{SV}`$ del §14.11.3.
 
-### 14.19.3. Tipado canónico de compuertas
-
 **Definición 14.19.2.** Las compuertas factuales canónicas son aplicaciones
 
 $$
