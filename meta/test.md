@@ -1,4 +1,14 @@
-La relación de Comp^poly_SV con la firma general Comp del corpus, entendida como composición genérica de operadores sobre Ξ_SV, es la siguiente: Comp^poly_SV es la restricción especializada de Comp al subdominio admisible M^adm_SV bajo control de las compuertas canónicas.
+### 14.19.4. Compuerta global
+
+**Definición 14.19.3.** La compuerta global absoluta $`\mathfrak{C}_{SV}`$: $`\mathcal{M}^{\mathrm{adm}}_{SV} \to \{0,1\}`$ se define como conjunción absoluta de las cuatro compuertas canónicas:
+
+$$
+\mathfrak{C}_{SV}(q,\Omega)
+\;:=\;
+c_{\mathrm{sep}}(q,\Omega)\cdot c_{\partial\Omega}(q,\Omega)\cdot c_{\Lambda}(q,\Omega)\cdot c_{R}(q,\Omega).
+$$
+
+El producto en $`\{0,1\}`$ coincide con la conjunción absoluta: $`\mathfrak{C}_{SV}=1`$ si y solo si las cuatro compuertas canónicas evalúan simultáneamente a $`1`$.
 ### 14.19.5. Núcleo compositivo Comp^poly_SV
 
 **Definición 14.19.4.** Sea $`\mathcal{O}_{SV}`$ la colección de operadores absolutos del anexo enumerados en §14.19.1. El núcleo compositivo polimodal factual $`\mathrm{Comp}^{\mathrm{poly}}_{SV}`$ es la operación
