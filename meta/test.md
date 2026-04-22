@@ -1,3 +1,4 @@
+La relación de Comp^poly_SV con la firma general Comp del corpus, entendida como composición genérica de operadores sobre Ξ_SV, es la siguiente: Comp^poly_SV es la restricción especializada de Comp al subdominio admisible M^adm_SV bajo control de las compuertas canónicas.
 ### 14.19.5. Núcleo compositivo Comp^poly_SV
 
 **Definición 14.19.4.** Sea $`\mathcal{O}_{SV}`$ la colección de operadores absolutos del anexo enumerados en §14.19.1. El núcleo compositivo polimodal factual $`\mathrm{Comp}^{\mathrm{poly}}_{SV}`$ es la operación
