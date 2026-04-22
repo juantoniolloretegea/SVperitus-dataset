@@ -1,3 +1,24 @@
+### 14.19.2. Clase admisible de configuraciones
+
+**Definición 14.19.1.** La clase admisible de configuraciones factuales $`\mathcal{M}^{\mathrm{adm}}_{SV}`$ es el conjunto de pares $`(q,\Omega)`$ con $`q`$ magnitud factual admisible sobre $`\Omega \subseteq \Xi_{SV}`$, compatibles con las prohibiciones constitutivas, el cosido metrológico absoluto y la clausura factual $`\mathsf{Cl}_{SV}`$ del §14.11.3.
+
+### 14.19.3. Tipado canónico de compuertas
+
+**Definición 14.19.2.** Las compuertas factuales canónicas son aplicaciones
+
+$$
+c_{\ast}:\mathcal{M}^{\mathrm{adm}}_{SV}\longrightarrow \{0,1\},
+$$
+
+con criterio de paso algebraicamente cerrado. Las cuatro compuertas canónicas se fijan así:
+
+- $`c_{\mathrm{sep}}(q,\Omega)=1`$ si y solo si $`(q,\Omega)`$ satisface las hipótesis $`(\mathrm{S}1)`$ y $`(\mathrm{S}2)`$ del régimen separable (§14.10); $`0`$ en otro caso.
+
+- $`c_{\partial\Omega}(q,\Omega)=1`$ si y solo si $`\det(J_{SV})=0`$ sobre $`\partial\Omega`$, es decir, si la frontera factual está activa (§14.2); $`0`$ en otro caso.
+
+- $`c_{\Lambda}(q,\Omega)=1`$ si y solo si el factor de cambio factual $`\Lambda^{(k,l)}`$ entre celdas admisibles es consistente con la orientación factual del mosaico (§14.3); $`0`$ en otro caso.
+
+- $`c_{R}(q,\Omega)=1`$ si y solo si el operador exacto de reconfiguración $`\mathcal{R}^{f}_{SV}`$ opera con balance compatible sobre $`(q,\Omega)`$ en el sentido del §14.3; $`0`$ en otro caso.
 ### 14.19.4. Compuerta global
 
 **Definición 14.19.3.** La compuerta global absoluta $`\mathfrak{C}_{SV}`$: $`\mathcal{M}^{\mathrm{adm}}_{SV} \to \{0,1\}`$ se define como conjunción absoluta de las cuatro compuertas canónicas:
