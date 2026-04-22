@@ -127,13 +127,13 @@ donde $P^{\text{tan}}$ y $P^{\text{norm}}$ son los proyectores factuales tangenc
 
 ### 14.3.3. Propiedades canónicas del operador
 
-**Proposición 14.3.2 (acción sobre régimen regular).** *En régimen factual regular, $\mathcal{R}^f_{SV}$ anula: $\mathcal{R}^f_{SV}(q) = 0$ para toda magnitud factual admisible $q$.*
+**Proposición 14.3.2 (acción sobre régimen regular).** En régimen factual regular, $`\mathcal{R}^{f}_{\perp,SV}`$ anula toda magnitud factual admisible. En particular, para toda magnitud factual admisible $`q`$, se cumple $`\mathcal{R}^{f}_{\perp,SV}(q)=0`$.
 
-*Demostración.* En régimen regular, $\det(J_{SV}) \neq 0$, por tanto $\mathbb{1}_{\det(J_{SV})=0} = 0$, y el producto que define $\mathcal{R}^f_{SV}$ se anula. Q.E.D.
+**Demostración.** En régimen regular, $`\det(J_{SV})\neq 0`$, por tanto $`\mathbf{1}_{\{\det(J_{SV})=0\}}=0`$, y el producto que define $`\mathcal{R}^{f}_{SV}`$ se anula. Q.E.D.
 
-**Proposición 14.3.3 (preservación de clase admisible).** *Sobre régimen factual de frontera, $\mathcal{R}^f_{SV}$ preserva la clase factual admisible: para toda magnitud $q$ admisible, $\mathcal{R}^f_{SV}(q)$ es admisible.*
+**Proposición 14.3.3 (preservación de clase admisible).** Sobre régimen factual de frontera, $`\mathcal{R}^{f}_{\perp,SV}`$ preserva la clase factual admisible. En consecuencia, para toda magnitud factual admisible $`q`$, la imagen $`\mathcal{R}^{f}_{\perp,SV}(q)`$ es admisible.
 
-*Demostración.* El factor $\Lambda$ es endomorfismo lineal de la estructura interfacial y respeta la descomposición tangencial-normal; $B_{\text{reg}}$ es operador de regularización factual que, por construcción, devuelve aplicaciones admisibles bajo toda entrada admisible. La composición preserva la propiedad. Q.E.D.
+**Demostración.** El factor $`\Lambda`$ es endomorfismo lineal de la estructura interfacial y respeta la descomposición tangencial-normal; $`B_{\mathrm{reg}}`$ es operador de regularización factual que, por construcción, devuelve aplicaciones admisibles bajo toda entrada admisible. La composición preserva la propiedad. Q.E.D.
 
 ### 14.3.4. Verificación visible sobre interfaz factual
 
