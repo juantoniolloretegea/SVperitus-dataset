@@ -2920,13 +2920,10 @@ La relación de Comp<sup>poly</sup><sub>SV</sub> con la firma general Comp del c
 \mathfrak{U}_{SV}: \mathcal{M}^{\text{adm}}_{SV} \longrightarrow \mathcal{O}_{SV} \sqcup \{U\},
 ```
 
-```math
-\mathfrak{U}_{SV}[q, \Omega] := 
-\begin{cases}
-\mathrm{Comp}^{\mathrm{poly}}_{SV}\bigl(\mathbb{M}_{SV}, \mathbb{K}_{SV}; q, \Omega\bigr), & \text{si } \mathfrak{C}_{SV}(q, \Omega)=1,\\
-U, & \text{si } \mathfrak{C}_{SV}(q, \Omega)=0.
-\end{cases}
-```
+<p align="center">
+𝔘<sub>SV</sub>[q, Ω] &nbsp;=&nbsp; Comp<sup>poly</sup><sub>SV</sub>(𝕄<sub>SV</sub>, 𝕂<sub>SV</sub>; q, Ω) &nbsp;&nbsp; cuando &nbsp; ℭ<sub>SV</sub>(q, Ω) = 1,<br>
+𝔘<sub>SV</sub>[q, Ω] &nbsp;=&nbsp; U &nbsp;&nbsp; cuando &nbsp; ℭ<sub>SV</sub>(q, Ω) = 0.
+</p>
 
 donde 𝕄<sub>SV</sub> es la componente absoluta de las ecuaciones de primer orden y 𝕂<sub>SV</sub> la componente de clausura.
 
@@ -2934,9 +2931,9 @@ donde 𝕄<sub>SV</sub> es la componente absoluta de las ecuaciones de primer or
 
 **Definición 14.19.6.** La **jerarquía absoluta de operadores de reconfiguración factual** se define inductivamente como
 
-```math
-\mathcal{R}^{f,(1)}_{SV} := \mathcal{R}^f_{SV}, \qquad \mathcal{R}^{f,(k+1)}_{SV} := \mathcal{R}^{f,(k)}_{SV} \circ \mathcal{R}^f_{SV}, \quad k \geq 1.
-```
+<p align="center">
+𝓡<sup>f,(1)</sup><sub>SV</sub> &nbsp;:=&nbsp; 𝓡<sup>f</sup><sub>SV</sub>, &nbsp;&nbsp;&nbsp; 𝓡<sup>f,(k+1)</sup><sub>SV</sub> &nbsp;:=&nbsp; 𝓡<sup>f,(k)</sup><sub>SV</sub> ∘ 𝓡<sup>f</sup><sub>SV</sub>, &nbsp;&nbsp; k ≥ 1.
+</p>
 
 **Teorema 14.19.7.** *La jerarquía 𝓡<sup>f,(k)</sup><sub>SV</sub> es estable bajo composición absoluta: para todo par k<sub>1</sub>, k<sub>2</sub> ≥ 1,*
 
