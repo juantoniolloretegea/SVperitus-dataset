@@ -1,1043 +1,808 @@
-# Fuerza, trabajo, calor, entalpía, temperatura, principios y fundamentos de la termodinámica y la correlación entre ellos en el SV
+# Fórmula factual única absoluta del dominio termodinámico en el Sistema Vectorial SV: fibrado soberano Ω<sub>SV</sub>, ecuación escalar nula y absorción absoluta de trabajo, calor, fuerza, temperatura y entalpía
 
-**© 2026. Todos los derechos reservados.** | **Juan Antonio Lloret Egea** | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) | IA eñ™ — La Biblia de la IA™ | ISSN 2695-6411 | Licencia CC BY-NC-ND 4.0 | Madrid, 23/04/2026
+**© 2026. Todos los derechos reservados.** | **DOI** [por asignar] | **Juan Antonio Lloret Egea** | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) | IA eñ™ — La Biblia de la IA™ | **ISSN 2695-6411** | **Licencia CC BY-NC-ND 4.0** | Madrid, 23/04/2026 |
+
+**Advertencia**: Esta publicación está protegida por **CEDRO** y su aplicación en el campo de la Física, así como cualquier forma de explotación, reproducción o uso por parte de empresas, queda sujeta al copyright del autor y a los términos de la licencia indicada; la reproducción, distribución, comunicación pública o transformación de esta obra solo puede ser realizada con la autorización de sus titulares, salvo excepción prevista por la ley, y cualquier uso comercial sin autorización expresa queda prohibido y supeditado estrictamente al licenciamiento permitido.
+
+**Warning**: This publication is protected by **CEDRO**. Its application in the field of Physics, as well as any form of exploitation, reproduction, or use by corporate entities, is strictly subject to the author's copyright and the terms of the license indicated; any reproduction, distribution, public communication, or transformation of this work requires authorization from the rightsholders, except as provided by law, and any commercial use without express written consent is prohibited and strictly subject to permitted licensing.
 
 ---
 
 ## Resumen
 
-Se fija el dominio termodinámico factual del Sistema Vectorial SV como un régimen algebraico de sucesos, no temporal, trazable y auditable, cerrado por una única ecuación escalar nula. La construcción desciende hasta el sustrato preternario de pares admisibles $(\alpha_i,\beta_i)$, levanta sobre él la aritmética factual de activación y clausura, recorre la cadena canónica de irreversibilidad factual
-$$
-H_{pre}\to H_{K_3}\to H_{\Xi}\to H_{\Sigma_c}\to H_{\Sigma_k}\to H_{SV},
-$$
-y organiza, con aparato operatorio heredado del corpus, un contenido factual total $\mathcal{C}^{tot}_{SV}$ cuya variación se descompone en trabajo factual, calor factual y contribución factual asociada a $U$. La fuerza factual se fija como combinación tipológicamente coherente de gradiente, rotor vectorial dualizado y corrección jacobiana; el empuje factual, como funcional de contorno de la fuerza; la temperatura factual, como cociente termométrico soberano entre variación interior y variación entrópica en pasos residuales; y la entalpía factual, como correlación exacta interior–frontera del contenido total. El documento demuestra positividad, descomposición diferencial, irreversibilidad, equivalencia estructural del cierre escalar, no redundancia de defectos, minimalidad del conjunto de cierres y unicidad fuerte de la ecuación absoluta dentro de la clase de cierres escalares no negativos del dominio.
+Se establece, con rango absoluto, la **fórmula factual única** del dominio termodinámico del Sistema Vectorial SV: un fibrado soberano Ω<sub>SV</sub> sobre el espacio canónico de trayectorias admisibles del corpus, con cinco componentes absolutas —acumulación factual 𝒜<sub>SV</sub>, entropía factual ℋ<sub>SV</sub>, jacobiano factual 𝒥<sub>Γ,SV</sub>, residual factual ℛ<sub>Γ</sub> y frontera factual ℬ<sub>∂,SV</sub>— cuya sección define, por las seis proyecciones canónicas π<sub>W</sub>, π<sub>Q</sub>, π<sub>U</sub>, π<sub>F</sub>, π<sub>Θ</sub>, π<sub>Λ</sub>, las magnitudes derivadas del régimen: trabajo factual, calor factual, componente U-indicada de no clausura, fuerza factual, temperatura factual y entalpía factual, absorbidas absolutamente por el fibrado y sin primacía propia. La fórmula única absoluta del dominio se fija en forma escalar nula
 
-**Palabras clave:** Sistema Vectorial SV; termodinámica factual; sucesos; irreversibilidad estructural; trabajo factual; calor factual; fuerza factual; empuje factual; temperatura factual; entalpía factual; ecuación única; jacobiano; rotor vectorial; frontera factual.
+```math
+\mathsf{E}^{thermo}_{SV}(\Gamma,n) \;:=\; \mathfrak{D}_\Gamma\boldsymbol{\Omega}_{SV}(\Gamma,n) \cdot \mathsf{G}_{SV} \;=\; 0,
+```
 
----
+categorialmente isomorfa a la ecuación única electromagnética 𝔼<sub>SV</sub>(𝕏<sub>SV</sub>; 𝕐<sub>SV</sub>; ℂ<sub>SV</sub>; J<sub>SV</sub>) = 0 del corpus Maxwell factual. El aparato se apoya exclusivamente en objetos canónicos absolutos del corpus: operador derivada de suceso 𝔇<sub>Γ</sub>, acumulaciones A<sub>i</sub>(n), C<sub>i</sub>(n), M<sub>i</sub>(n), indicadores absolutos a<sub>i</sub>(k), χ<sub>i</sub>(k), disciplina append-only, Lema 5.5 de no retorno preternario, Lema 7.3 de honestidad coordenada, cadena fundacional absoluta Ω<sub>pre</sub> → Π<sub>3</sub><sup>H</sup> → K<sub>3</sub><sup>n</sup> → ε → Ξ<sub>SV</sub> → 𝔎<sub>SV</sub> → Σ<sub>conc</sub> → 𝔥<sub>SV</sub> → Σ<sub>canal</sub> → 𝔗<sub>SV</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U}, cadena entrópica absoluta de seis estratos H<sub>pre</sub> → H<sub>K<sub>3</sub></sub> → H<sub>Ξ</sub> → H<sub>Σ<sub>c</sub></sub> → H<sub>Σ<sub>k</sub></sub> → H<sub>SV</sub>, y pilar metrológico absoluto UFE/UFM/UFC/UFT/UFCE/UE_MFC. Se demuestran con rango absoluto: identidad canónica de balance, irreversibilidad factual absoluta, unicidad absoluta de la sección soberana, independencia lineal absoluta de las proyecciones, inyectividad absoluta del fibrado bajo append-only, absorción absoluta de toda magnitud termodinámica con contrapartida factual, irreducibilidad escalar absoluta de la temperatura factual, irreducibilidad absoluta de la fuerza factual a gradiente puro, isomorfía arquitectónica absoluta con Maxwell factual, y consistencia absoluta del dominio sobre la célula canónica SV(3,9). El régimen queda cerrado con rango absoluto, con verificación dimensional absoluta contra el pilar metrológico y absorción límite absoluta de la termodinámica clásica como caso frontera regular.
 
 ## Abstract
 
-The factual thermodynamic domain of the Sistema Vectorial SV is fixed as an event-based, non-temporal, traceable and auditable algebraic regime, closed by a single scalar null equation. The construction descends to the preternary substrate of admissible pairs $(\alpha_i,\beta_i)$, builds on it the factual arithmetic of activation and closure, crosses the canonical factual irreversibility chain
-$$
-H_{pre}\to H_{K_3}\to H_{\Xi}\to H_{\Sigma_c}\to H_{\Sigma_k}\to H_{SV},
-$$
-and organizes, through operatorial material already admitted in the corpus, a total factual content $\mathcal{C}^{tot}_{SV}$ whose variation splits into factual work, factual heat and the factual contribution associated with $U$. Factual force is fixed as a typologically coherent combination of gradient, dualized vector rotor and Jacobian correction; factual thrust as the boundary functional of force; factual temperature as the sovereign thermometric quotient between inner variation and entropic variation in residual steps; and factual enthalpy as the exact interior–boundary correlation of total content. The document proves positivity, differential decomposition, irreversibility, structural equivalence of scalar closure, non-redundancy of defects, minimality of the closure set and strong uniqueness of the absolute equation within the class of non-negative scalar closures of the domain.
+The **absolute single factual formula** of the thermodynamic domain of the Sistema Vectorial SV is established with absolute rank: a sovereign fibre bundle Ω<sub>SV</sub> over the canonical space of admissible trajectories of the corpus, with five absolute components —factual accumulation 𝒜<sub>SV</sub>, factual entropy ℋ<sub>SV</sub>, factual Jacobian 𝒥<sub>Γ,SV</sub>, factual residual ℛ<sub>Γ</sub> and factual boundary ℬ<sub>∂,SV</sub>— whose section defines, through the six canonical projections π<sub>W</sub>, π<sub>Q</sub>, π<sub>U</sub>, π<sub>F</sub>, π<sub>Θ</sub>, π<sub>Λ</sub>, the derived magnitudes of the regime: factual work, factual heat, U-indexed non-closure component, factual force, factual temperature and factual enthalpy, absolutely absorbed by the bundle and without primacy of their own. The absolute single formula of the domain is fixed in null-scalar form 𝖤<sup>thermo</sup><sub>SV</sub> = 𝔇<sub>Γ</sub>Ω<sub>SV</sub>·𝖦<sub>SV</sub> = 0, categorially isomorphic to the single electromagnetic equation 𝔼<sub>SV</sub> = 0 of the Maxwell-factual corpus. The apparatus relies exclusively on absolute canonical objects of the corpus: event-derivative operator 𝔇<sub>Γ</sub>, accumulations A<sub>i</sub>(n), C<sub>i</sub>(n), M<sub>i</sub>(n), absolute indicators a<sub>i</sub>(k), χ<sub>i</sub>(k), append-only discipline, Lemmas 5.5 and 7.3 of Lloret Egea (2026j), absolute foundational chain, absolute six-stratum entropic chain, and absolute metrological pillar UFE/UFM/UFC/UFT/UFCE/UE_MFC. Proven with absolute rank: canonical balance identity, absolute factual irreversibility, absolute uniqueness of the sovereign section, absolute linear independence of projections, absolute injectivity of the bundle under append-only, absolute absorption of every thermodynamic magnitude with factual counterpart, absolute scalar irreducibility of factual temperature, absolute irreducibility of factual force to pure gradient, absolute architectural isomorphy with Maxwell factual, and absolute consistency of the domain over the SV(3,9) canonical cell. The regime is closed with absolute rank, with absolute dimensional verification against the metrological pillar and absolute limit absorption of classical thermodynamics as a regular frontier case.
+
+**Palabras clave**: Sistema Vectorial SV; fórmula factual única absoluta; dominio termodinámico factual; fibrado soberano; proyecciones canónicas absolutas; ecuación escalar nula; acumulación factual; entropía factual absoluta; jacobiano factual; residual factual; frontera factual; append-only; célula canónica SV(3,9); pilar metrológico absoluto; UFE; UFM; UFT.
+
+**Keywords**: Vectorial System SV; absolute single factual formula; factual thermodynamic domain; sovereign fibre bundle; absolute canonical projections; null-scalar equation; factual accumulation; absolute factual entropy; factual Jacobian; factual residual; factual boundary; append-only; SV(3,9) canonical cell; absolute metrological pillar; UFE; UFM; UFT.
 
 ---
 
-## 1. Estatuto del dominio y disciplina constitutiva
+## 1. Tesis absoluta
 
-### 1.1. Objeto exacto
+El dominio termodinámico del Sistema Vectorial SV admite cierre algebraico absoluto bajo una **única sección soberana** Ω<sub>SV</sub> de un **fibrado canónico absoluto** sobre el espacio de trayectorias admisibles del corpus. Toda magnitud termodinámica con contrapartida factual —trabajo, calor, fuerza, temperatura, entalpía, no clausura proyectada— se obtiene como **proyección canónica absoluta** de esa sección. Ninguna de ellas conserva estatuto de primitiva. La ley del dominio queda fijada en una única forma escalar nula 𝖤<sup>thermo</sup><sub>SV</sub> = 0, categorialmente isomorfa a la ecuación única electromagnética 𝔼<sub>SV</sub> = 0 del Maxwell factual.
 
-El presente documento trata el dominio termodinámico factual del Sistema Vectorial SV en rango de cierre algebraico interno fuerte. No comenta la termodinámica heredada ni la recubre con léxico nuevo. Su objeto es construir una ley única del dominio y hacer que trabajo, calor, fuerza, empuje, temperatura y entalpía comparezcan sólo como magnitudes derivadas o como lecturas proyectivas del régimen factual soberano.
-
-### 1.2. Prohibiciones constitutivas
-
-El dominio queda sometido, sin excepción, a las siguientes prohibiciones:
-
-1. prohibición de tiempo soberano como fundamento;
-2. prohibición de probabilidad como criterio de verdad;
-3. prohibición de estadística como sustituto de clausura;
-4. prohibición de inferencia opaca y de heurística no declarada;
-5. prohibición de cuarto polo semántico ajeno a $K_3$;
-6. prohibición de repropósito silencioso de operadores ya fijados por el corpus;
-7. prohibición de introducir herramienta clásica de mayor potencia allí donde el aparato factual del SV ya sea suficiente.
-
-Estas prohibiciones no son advertencias metodológicas. Son condiciones constitutivas del dominio.
-
-### 1.3. Criterio de aceptación de magnitudes físicas
-
-Una magnitud sólo será admitida aquí como magnitud factual del SV si satisface simultáneamente las cinco condiciones siguientes:
-
-1. descenso controlado al sustrato preternario;
-2. compatibilidad explícita con la terna canónica y con el estatuto de $U$;
-3. variación expresable por sucesos y no por cronología soberana;
-4. cierre mediante operadores ya autorizados del corpus o derivados explícitos de ellos;
-5. proyección clásica, cuando exista, sólo como lectura externa y nunca como fundamento constitutivo.
-
-### 1.4. Objetivo de cierre
-
-La meta del documento es demostrar que existe una única fórmula soberana del dominio termodinámico factual y que toda magnitud física central del dominio comparece como proyección, cociente, funcional o consecuencia de esa única fórmula.
+El presente documento fija, con rango absoluto, la construcción de Ω<sub>SV</sub>, la fórmula factual única 𝖤<sup>thermo</sup><sub>SV</sub> = 0, las seis proyecciones canónicas absolutas con su fórmula explícita, el aparato de teoremas absolutos que demuestra balance, irreversibilidad, unicidad, absorción e isomorfía, y la consistencia absoluta del dominio sobre la célula canónica SV(3, 9). Los estratos del corpus SV sobre los que el aparato se levanta quedan enumerados en §3 con referencia explícita a su ubicación en Lloret Egea (2026a–m). El pilar metrológico absoluto del corpus (Lloret Egea, 2026c) suministra la base dimensional del régimen.
 
 ---
 
-## 2. Sustrato semántico y suelo preternario
+## 2. Disciplina absoluta del dominio
 
-### 2.1. Terna canónica
+### 2.1. Prohibiciones canónicas absolutas
 
-La terna canónica del sistema es
-$$
-K_3=\{0,1,U\}.
-$$
+El dominio termodinámico factual queda sometido sin excepción a las siguientes prohibiciones absolutas del corpus (Lloret Egea, 2026a, Parte I; 2026b, Parte I; 2026j, §2):
 
-El símbolo $U$ conserva su estatuto de indeterminación honesta. No equivale a probabilidad, no equivale a déficit instrumental banal y no autoriza clausura favorable por plausibilidad.
+**P.1.** Prohibición absoluta de tiempo soberano. Toda derivación se ejerce sobre el índice factual de suceso ν<sub>j</sub> mediante el operador 𝔇<sub>Γ</sub>.
 
-### 2.2. Pares admisibles y variables primeras
+**P.2.** Prohibición absoluta de probabilidad fundante. Ninguna magnitud del dominio se construye como esperanza, varianza o función de medida de probabilidad.
 
-El suelo del dominio es el sistema de pares admisibles
-$$
-(\alpha_i,\beta_i).
-$$
+**P.3.** Prohibición absoluta de estadística como sustituto de clausura. La indeterminación se codifica exclusivamente mediante U como tercer polo canónico de K<sub>3</sub>.
 
-Sobre cada par admisible se definen el sesgo polar factual y la activación factual local por
-$$
-\delta_i:=\beta_i-\alpha_i,
+**P.4.** Prohibición absoluta de coordenada externa. El espacio, cuando comparece, es factual: frontera, volumen y superficie quedan definidos por los operadores Φ<sub>SV</sub>, Div<sub>SV</sub>, ∬<sup>SV</sup>, ∭<sup>SV</sup> del corpus EM factual (Lloret Egea, 2026e, 2026k).
+
+**P.5.** Prohibición absoluta de inferencia opaca. Todo paso del aparato es trazable en ambas direcciones al estrato preternario de pares admisibles (α<sub>i</sub>, β<sub>i</sub>) (Lloret Egea, 2026j, §2).
+
+**P.6.** Prohibición absoluta de cuarto polo semántico. K<sub>3</sub> = {0, 1, U} es la única terna canónica admisible. Ninguna componente del dominio introduce un cuarto elemento con estatuto de primitiva (Lloret Egea, 2026a, §III; Lloret Egea, 2026m, §1 delimitación negativa 3).
+
+### 2.2. Principio absoluto de economía operatoria
+
+**Principio.** Toda magnitud, operador o identidad del dominio se construye por composición de objetos canónicos absolutos del corpus ya cerrados. Un objeto nuevo se declara como definición absoluta con fórmula operacional explícita y con traza absoluta al estrato preternario.
+
+### 2.3. Append-only y honestidad coordenada
+
+**Append-only** (Lloret Egea, 2026j, §5; Lema 5.5). Sobre Γ = (S<sub>0</sub>, S<sub>1</sub>, …, S<sub>m</sub>), ninguna coordenada proyectada por Π<sub>3</sub><sup>H</sup> se reclasifica como preternaria dentro de la misma Γ.
+
+**Honestidad coordenada** (Lloret Egea, 2026j, §7; Lema 7.3). Ninguna coordenada proyectada como U por insuficiencia de base se reinterpreta como clausura determinada sin nueva base compatible declarada.
+
+### 2.4. Convención notacional absoluta
+
+Las magnitudes termodinámicas del dominio se denotan con los símbolos:
+
+| Magnitud | Símbolo |
+|---|---|
+| Trabajo factual | 𝒲<sub>SV</sub> |
+| Calor factual | 𝒬<sub>SV</sub> |
+| No clausura proyectada | 𝒰<sub>SV</sub> |
+| Fuerza factual | 𝓕<sub>SV</sub> |
+| Temperatura factual | Θ<sub>SV</sub> |
+| Entalpía factual | Λ<sub>SV</sub> |
+
+Los símbolos 𝔗<sub>SV</sub> (transmutación, operador terminal de la cadena fundacional), 𝔥<sub>SV</sub> (canal, operador de la cadena fundacional), 𝔎<sub>SV</sub> (concentración) y ε (inmersión K<sub>3</sub><sup>n</sup> → Ξ<sub>SV</sub>) se respetan como objetos absolutos del corpus sin reasignación glífica. El símbolo 𝒰<sub>SV</sub> denota proyección canónica sobre el tercer polo absoluto U de K<sub>3</sub> (§6.4; Teorema 8.5).
+
+---
+
+## 3. Suelo formal absoluto heredado del corpus
+
+### 3.1. Estrato preternario
+
+Una posición preternaria absoluta es el triple
+
+```math
+\xi_i = (i,\alpha_i,\beta_i),\qquad \alpha_i,\beta_i \in \mathbb{R}_{\geq 0},\qquad \alpha_i+\beta_i > 0,
+```
+
+con manifestación factual absoluta ρ<sub>i</sub> := α<sub>i</sub> + β<sub>i</sub> y separación polar absoluta δ<sub>i</sub> := β<sub>i</sub> − α<sub>i</sub> (Lloret Egea, 2026j, §2). El dominio preternario es Ω<sub>pre</sub> ⊂ Ω<sub>comp</sub>. El par preternario admisible absoluto en el suceso k es (α<sub>i</sub>(k), β<sub>i</sub>(k)) ∈ 𝒫<sup>adm</sup><sub>i</sub>(k), por Definición 3.2 del documento de entropía factual (Lloret Egea, 2026m).
+
+### 3.2. Indicadores canónicos absolutos y acumulaciones factuales absolutas
+
+De Lloret Egea (2026j, §3) se heredan con rango absoluto:
+
+```math
+a_i(k) := |\beta_i(k)-\alpha_i(k)|,\qquad \chi_i(k) \in \{0,1,U\}.
+```
+
+a<sub>i</sub>(k) es el espesor absoluto de activación local; χ<sub>i</sub>(k) es el indicador ternario canónico absoluto de clausura. Las acumulaciones factuales absolutas son
+
+```math
+A_i(n) := \sum_{k=0}^{n-1}\frac{a_i(k)+a_i(k+1)}{2}\,\Delta\varepsilon_k,
 \qquad
- a_i:=|\delta_i|.
-$$
+C_i(n) := \sum_{k=1}^{n}\mathbf{1}[\chi_i(k)=0],
+```
 
-A partir de la trayectoria factual se introducen, para cada posición $i$ y paso $k$, la activación local $a_i(k)\ge 0$, la clausura local $\chi_i(k)\in\{0,1\}$ y la lectura polar $\rho_i(S_k)\in[0,1]$.
-
-### 2.3. Acumulación, clausura y reconstrucción del par
-
-Se definen la acumulación factual de apertura, la clausura binaria acumulada, el espesor factual y el sesgo polar acumulado por
-$$
-A_i(n):=\sum_{k=0}^{n-1}\frac{a_i(k)+a_i(k+1)}{2}\,\Delta\varepsilon_k,
-$$
-$$
-C_i(n):=\sum_{k=1}^{n}\chi_i(k),
-$$
-$$
-M_i(n):=A_i(n)+C_i(n),
-$$
-$$
-B_i(n):=\sum_{k=1}^{n}\chi_i(k)\,\bigl(2\rho_i(S_k)-1\bigr),
-$$
-donde $\Delta\varepsilon_k>0$ es el incremento factual básico del paso $k$.
-
-Se reconstruyen entonces los pares por
-$$
-\alpha_i(n):=\frac{M_i(n)-B_i(n)}{2},
+```math
+M_i(n) := A_i(n) + C_i(n),
 \qquad
-\beta_i(n):=\frac{M_i(n)+B_i(n)}{2}.
-$$
+B_i(n) := \sum_{k=1}^{n}\mathbf{1}[\chi_i(k)=1].
+```
 
-### 2.4. Teorema de prioridad preternaria
+Δε<sub>k</sub> es el peso canónico absoluto de suceso (Lloret Egea, 2026a, §III.3.1): no negativo, no dependiente de tiempo soberano.
 
-**Teorema 2.4.1.** Ninguna magnitud central del dominio termodinámico factual precede a $(\alpha_i,\beta_i)$.
+**Identidad absoluta de partición ternaria.** Para todo k y todo i,
 
-**Demostración.** Toda pieza central del dominio comparece o bien como construcción directa sobre $(\delta_i,a_i)$ y sobre las acumulaciones $A_i,C_i,M_i,B_i$, o bien como estrato de una cadena factual derivada de ese suelo, o bien como componente o proyección del régimen termodinámico construido sobre dicha cadena. En ningún caso aparece un objeto con prioridad ontológica superior al par admisible. Luego el suelo preternario precede a toda magnitud central del dominio. Q.E.D.
+```math
+\mathbf{1}[\chi_i(k)=0] + \mathbf{1}[\chi_i(k)=1] + \mathbf{1}[\chi_i(k)=U] \equiv 1.
+```
 
-### 2.5. Persistencia factual de $U$
+Esta identidad se usa sistemáticamente en las demostraciones absolutas de §8.
 
-Para una trayectoria factual admisible $\Gamma=(S_0,S_1,\dots,S_n)$, sea $\chi_\Gamma(k)\in K_3$ la lectura ternaria del paso $k$. Se introducen los indicadores ternarios
-$$
-\mathbf{1}_1(k),\qquad \mathbf{1}_0(k),\qquad \mathbf{1}_U(k),
-$$
-caracterizados por
-$$
-\mathbf{1}_1(k)+\mathbf{1}_0(k)+\mathbf{1}_U(k)=1.
-$$
+### 3.3. Cadena fundacional absoluta
 
-Se define la proporción factual ponderada de $U$ por
-$$
-\rho_U(\Gamma,n):=
-\frac{\sum_{k=1}^{n}\mathbf{1}_U(k)\,\omega(\nu_k)}
-     {\sum_{k=1}^{n}\omega(\nu_k)},
-$$
-y el espesor factual acumulado de $U$ por
-$$
-\mathcal{S}_U(\Gamma,n):=
-\sum_{k=1}^{n}\mathbf{1}_U(k)\,a(k),
+Del documento de origen preternario (Lloret Egea, 2026j, §15.1):
+
+```math
+\Omega_{pre} \xrightarrow{\;\Pi_3^H\;} K_3^n \xrightarrow{\;\varepsilon\;} \Xi_{SV} \xrightarrow{\;\mathfrak{K}_{SV}\;} \Sigma_{conc} \xrightarrow{\;\mathfrak{h}_{SV}\;} \Sigma_{canal} \xrightarrow{\;\mathfrak{T}_{SV}\;} \{m_0,\chi_\alpha,U\}.
+```
+
+### 3.4. Cadena entrópica absoluta de seis estratos
+
+Del documento de entropía factual (Lloret Egea, 2026m, §8.1), sobre la misma trayectoria admisible Γ:
+
+```math
+H_{pre}(\Gamma,n),\; H_{K_3}(\Gamma,n),\; H_\Xi(\Gamma,n),\; H_{\Sigma_c}(\Gamma,n),\; H_{\Sigma_k}(\Gamma,n),\; H_{SV}(\Gamma,n).
+```
+
+La monotonía absoluta se propaga por la cadena de Teoremas 4.5, 5.4, 6.3, 7.5, 8.2 del mismo documento. El Teorema 8.2 establece con rango absoluto
+
+```math
+\Gamma\text{ admisible}\;\Longrightarrow\; H_{SV}(\Gamma,n+1) \geq H_{SV}(\Gamma,n),\quad \forall n\geq 0.
+```
+
+En el presente documento se designa 𝓗<sub>SV</sub>(Γ, n) := H<sub>SV</sub>(Γ, n). La cadena entrópica absoluta se emplea íntegra, sobre los seis estratos.
+
+### 3.5. Operador derivada de suceso absoluto 𝔇<sub>Γ</sub>
+
+De Lloret Egea (2026a, §X):
+
+```math
+\mathfrak{D}_\Gamma f(n) := f(n+1) - f(n).
+```
+
+Lineal, no anticipativo, única derivación admisible absoluta del régimen factual SV.
+
+### 3.6. Aparato operatorio electromagnético factual absoluto
+
+De Lloret Egea (2026e, 2026k) se heredan con rango absoluto:
+
+- flujo factual absoluto Φ<sub>SV</sub>(F; B) sobre frontera factual orientada B;
+- divergencia factual absoluta Div<sub>SV</sub>(F; C) con forma de balance Div<sub>SV</sub>(F; C)·ω(C) = Φ<sub>SV</sub>(F; ∂C) − ℐ<sub>res</sub>(F; C);
+- circulación factual absoluta 𝔠<sub>Γ↺</sub>(F);
+- rotor factual absoluto Ω<sup>SV</sup><sub>ij</sub>(F) = ∂<sup>SV</sup><sub>i</sub> F<sup>j</sup> − ∂<sup>SV</sup><sub>j</sub> F<sup>i</sup> como 2-forma antisimétrica, con dualización de Hodge absoluta ⋆d sobre SV(3, n) para representación vectorial;
+- integrales factuales absolutas ∬<sup>SV</sup>, ∭<sup>SV</sup>;
+- jacobiano factual absoluto de sensibilidad 𝒥<sub>Γ,SV</sub>(n);
+- criterio absoluto de frontera y operador exacto de reconfiguración.
+
+### 3.7. Residual factual absoluto y frontera factual absoluta
+
+- **Residual factual absoluto** ℛ<sub>Γ</sub>(n). De Lloret Egea (2026m, §7) y del corpus EM (Lloret Egea, 2026e, §§6-8). Absorbe el contenido factual proyectado como U y no clausurado.
+- **Frontera factual absoluta** ℬ<sub>∂,SV</sub>(Γ, n). Del teorema absoluto de balance Gauss–SV (Lloret Egea, 2026e, §9; 2026k, §7).
+
+### 3.8. Pilar metrológico absoluto
+
+Del documento de primitivos metrológicos (Lloret Egea, 2026c):
+
+| Unidad absoluta | Magnitud |
+|---|---|
+| UE_MFC | Tiempo (ciclo) |
+| UFE | Extensión (longitud) |
+| UFM | Masa |
+| UFC | Corriente |
+| UFT | Temperatura |
+| UFCE | Cantidad de entidad |
+
+### 3.9. Célula canónica absoluta SV(3, 9)
+
+Del corpus (Lloret Egea, 2026a, §XXIV.11; 2026k, §13): triple anillo de nueve coordenadas factuales absolutas, base de dimensión 3, trayectoria poligonal de 9 vértices. Caso canónico absoluto de verificación del aparato del SV.
+
+---
+## 4. Construcción absoluta del fibrado termodinámico factual Ω<sub>SV</sub>
+
+### 4.1. Base absoluta del fibrado
+
+Sea 𝒯<sub>adm</sub> el espacio absoluto de trayectorias admisibles del corpus SV (append-only, honestidad coordenada, Lemas 5.5 y 7.3 de Lloret Egea, 2026j). La base canónica absoluta del fibrado termodinámico factual es
+
+```math
+\mathcal{B}^{thermo}_{SV} := \mathcal{T}_{adm} \times \mathbb{N}_0.
+```
+
+### 4.2. Fibra canónica absoluta
+
+**Definición 4.2 (fibra canónica absoluta).** La fibra sobre (Γ, n) es el espacio vectorial factual absoluto
+
+```math
+\mathcal{F}_{(\Gamma,n)} := \mathcal{A}_{SV}(\Gamma,n) \oplus \mathcal{H}_{SV}(\Gamma,n) \oplus \mathcal{J}_{\Gamma,SV}(n) \oplus \mathcal{R}_\Gamma(n) \oplus \mathcal{B}_{\partial,SV}(\Gamma,n),
+```
+
+con:
+
+**𝒜<sub>SV</sub> — Acumulación factual absoluta.**
+
+```math
+\mathcal{A}_{SV}(\Gamma,n) := \sum_i M_i(n) = \sum_i [A_i(n) + C_i(n)].
+```
+
+El sumatorio es sobre las coordenadas activas absolutas del dominio factual SV(3, n).
+
+**𝓗<sub>SV</sub> — Entropía factual absoluta.** 𝓗<sub>SV</sub>(Γ, n) := H<sub>SV</sub>(Γ, n), por Teorema 8.2 de Lloret Egea (2026m, §8.1), agregación absoluta sobre la cadena entrópica absoluta completa.
+
+**𝒥<sub>Γ,SV</sub> — Jacobiano factual absoluto de sensibilidad.** Lloret Egea (2026e, §14; 2026k, §5).
+
+**ℛ<sub>Γ</sub> — Residual factual absoluto.**
+
+```math
+\mathcal{R}_\Gamma(n) := \sum_i \mathbf{1}[\chi_i(k)=U] \cdot \text{contribución}^{abs}_i(n),
+```
+
+con contribución<sup>abs</sup><sub>i</sub>(n) heredada con rango absoluto de Lloret Egea (2026m, §7).
+
+**ℬ<sub>∂,SV</sub> — Frontera factual absoluta.**
+
+```math
+\mathcal{B}_{\partial,SV}(\Gamma,n) := \Phi_{SV}(F_{\Gamma,n}; \partial C_{\Gamma,n}),
+```
+
+con F<sub>Γ,n</sub> campo factual absoluto asociado a Γ y C<sub>Γ,n</sub> volumen factual absoluto activo. ⊕ es suma directa como espacio vectorial factual absoluto sobre K<sub>3</sub><sup>n</sup>.
+
+### 4.3. Sección soberana absoluta Ω<sub>SV</sub>
+
+**Definición 4.3 (sección soberana absoluta).** La sección soberana absoluta del dominio termodinámico factual es
+
+```math
+\boldsymbol{\Omega}_{SV} : \mathcal{B}^{thermo}_{SV} \longrightarrow \bigsqcup_{(\Gamma,n)} \mathcal{F}_{(\Gamma,n)},
+```
+
+```math
+\boldsymbol{\Omega}_{SV}(\Gamma,n) := \bigl(\mathcal{A}_{SV}(\Gamma,n),\; \mathcal{H}_{SV}(\Gamma,n),\; \mathcal{J}_{\Gamma,SV}(n),\; \mathcal{R}_\Gamma(n),\; \mathcal{B}_{\partial,SV}(\Gamma,n)\bigr).
+```
+
+Ω<sub>SV</sub> es la **fórmula fibrosa absoluta** del dominio: el único objeto estructural cuyas componentes, por proyección canónica absoluta (§6), generan todas las magnitudes termodinámicas del régimen.
+
+### 4.4. Trazabilidad preternaria absoluta del fibrado
+
+**Teorema 4.4 (trazabilidad preternaria absoluta).** *Toda componente de Ω<sub>SV</sub> traza con rango absoluto al estrato preternario.*
+
+*Prueba absoluta.*
+- 𝒜<sub>SV</sub> traza absolutamente por las acumulaciones A<sub>i</sub>, C<sub>i</sub>, construidas desde los indicadores absolutos a<sub>i</sub>(k) y χ<sub>i</sub>(k), derivados de las posiciones preternarias ξ<sub>i</sub> = (i, α<sub>i</sub>, β<sub>i</sub>) (Lloret Egea, 2026j, §3).
+- 𝓗<sub>SV</sub> traza absolutamente por la cadena entrópica absoluta H<sub>pre</sub> → ⋯ → H<sub>SV</sub> (Lloret Egea, 2026m, §8.1), cuyo primer estrato H<sub>pre</sub> queda definido directamente sobre Ω<sub>pre</sub>.
+- 𝒥<sub>Γ,SV</sub> traza absolutamente por su construcción sobre derivadas factuales absolutas ancladas al par preternario (Lloret Egea, 2026e, §14).
+- ℛ<sub>Γ</sub> traza absolutamente vía el indicador 𝟙[χ<sub>i</sub>=U], que a su vez traza a la compuerta absoluta Π<sub>3</sub><sup>H</sup> (Lloret Egea, 2026j, §7).
+- ℬ<sub>∂,SV</sub> traza absolutamente por Φ<sub>SV</sub> construido desde coordenadas factuales que trazan a ξ<sub>i</sub>.
+
+Luego toda componente de Ω<sub>SV</sub> traza absolutamente al estrato preternario. ∎
+
+---
+
+## 5. Fórmula factual única absoluta del dominio
+
+### 5.1. Generador absoluto de balance factual
+
+**Definición 5.1 (generador absoluto de balance).** El generador absoluto de balance factual es el covector constante
+
+```math
+\mathsf{G}_{SV} := (1, 0, 0, 0, 0) - (\pi_W^* + \pi_Q^* + \pi_U^*)
+```
+
+sobre la fibra 𝒜 ⊕ 𝓗 ⊕ 𝒥 ⊕ ℛ ⊕ ℬ, donde π<sub>W</sub>*, π<sub>Q</sub>*, π<sub>U</sub>* son los covectores duales absolutos a las proyecciones π<sub>W</sub>, π<sub>Q</sub>, π<sub>U</sub> de §6.
+
+### 5.2. Fórmula factual única absoluta
+
+**Definición 5.2 (fórmula factual única absoluta).** La fórmula única absoluta del dominio termodinámico factual del Sistema Vectorial SV es
+
+```math
+\boxed{\;\mathsf{E}^{thermo}_{SV}(\Gamma,n) \;:=\; \mathfrak{D}_\Gamma\boldsymbol{\Omega}_{SV}(\Gamma,n) \cdot \mathsf{G}_{SV} \;=\; 0.\;}
+```
+
+Escalar nula. Única. Absoluta. Isomorfa categorialmente a 𝔼<sub>SV</sub>(𝕏<sub>SV</sub>; 𝕐<sub>SV</sub>; ℂ<sub>SV</sub>; J<sub>SV</sub>) = 0 del Maxwell factual (Lloret Egea, 2026k, §10).
+
+### 5.3. Régimen absoluto fuerte
+
+El régimen absoluto fuerte del dominio queda fijado por la conjunción
+
+```math
+\mathsf{E}^{thermo}_{SV}(\Gamma,n) = 0 \;\wedge\; \mathfrak{D}_\Gamma\mathcal{H}_{SV}(\Gamma,n) \geq 0,
+```
+
+con la primera cláusula fijando balance absoluto factual total y la segunda fijando irreversibilidad estructural factual absoluta heredada del Teorema 8.2 de Lloret Egea (2026m). Ambas son consecuencias algebraicas absolutas (no axiomas) del régimen (§8.1 y §8.3).
+
+---
+
+## 6. Proyecciones canónicas absolutas
+
+### 6.1. Partición absoluta ternaria de la activación
+
+Sobre el indicador absoluto a<sub>i</sub>(k), la partición absoluta ternaria canónica descompone
+
+```math
+a_i(k) = a_i^W(k) + a_i^Q(k) + a_i^U(k),
+```
+
+con
+
+```math
+a_i^W(k) := a_i(k) \cdot \mathbf{1}[\chi_i(k)=0],
+\quad
+a_i^Q(k) := a_i(k) \cdot \mathbf{1}[\chi_i(k)=1],
+\quad
+a_i^U(k) := a_i(k) \cdot \mathbf{1}[\chi_i(k)=U].
+```
+
+Esta descomposición es absolutamente exhaustiva y absolutamente disjunta por la identidad absoluta de partición ternaria del §3.2. No existe cuarto canal por ternariedad absoluta de K<sub>3</sub>.
+
+### 6.2. Proyección absoluta π<sub>W</sub> — Trabajo factual absoluto
+
+```math
+\pi_W(\boldsymbol{\Omega}_{SV})(\Gamma,n) := \mathfrak{D}_\Gamma \sum_i A_i^W(n),
 \qquad
- a(k):=\sum_i a_i(k).
-$$
+A_i^W(n) := \sum_{k=0}^{n-1} \frac{a_i^W(k)+a_i^W(k+1)}{2}\,\Delta\varepsilon_k.
+```
 
-### 2.6. Teorema de no supremacía de $U$
+```math
+\mathcal{W}_{SV}(\Gamma,n) := \pi_W(\boldsymbol{\Omega}_{SV})(\Gamma,n).
+```
 
-**Teorema 2.6.1.** La persistencia factual de $U$ no implica supremacía ontológica de $U$.
+### 6.3. Proyección absoluta π<sub>Q</sub> — Calor factual absoluto
 
-**Demostración.** La frecuencia de aparición de $U$ en el plano ternario es una propiedad de la lectura inducida sobre la trayectoria, no del rango ontológico del estado que se lee. El suelo del sistema sigue siendo preternario, porque la lectura ternaria sólo nace después de los pares admisibles y de su activación factual. Luego una $\rho_U$ alta puede describir persistencia factual de no clausura, pero no convierte a $U$ en principio originario del dominio. Q.E.D.
-
----
-
-## 3. Trayectoria factual y aritmética diferencial del dominio
-
-### 3.1. Derivada de suceso soberana
-
-Sea $\nu_k$ el índice factual del suceso $S_{k-1}\to S_k$ y sea $\omega(\nu_k)>0$ su peso factual. Para toda magnitud factual discreta $X(\Gamma,k)$ se define la derivada de suceso ponderada por
-$$
-\mathfrak{D}_{\Gamma}X(\Gamma,k)
-:=
-\frac{X(\Gamma,k)-X(\Gamma,k-1)}{\omega(\nu_k)},
+```math
+\pi_Q(\boldsymbol{\Omega}_{SV})(\Gamma,n) := \mathfrak{D}_\Gamma \sum_i A_i^Q(n),
 \qquad
-k\ge 1.
-$$
+A_i^Q(n) := \sum_{k=0}^{n-1} \frac{a_i^Q(k)+a_i^Q(k+1)}{2}\,\Delta\varepsilon_k.
+```
 
-La acumulación factual hasta el índice $n$ queda fijada por
-$$
-\Delta_{\Gamma}X(\Gamma,n)
-:=
-\sum_{k=1}^{n}\omega(\nu_k)\,\mathfrak{D}_{\Gamma}X(\Gamma,k).
-$$
+```math
+\mathcal{Q}_{SV}(\Gamma,n) := \pi_Q(\boldsymbol{\Omega}_{SV})(\Gamma,n).
+```
 
-### 3.2. Lemas estructurales de la derivada de suceso
+### 6.4. Proyección absoluta π<sub>U</sub> — No clausura proyectada absoluta
 
-**Lema 3.2.1 (linealidad).** Para escalares $\lambda,\mu$ y magnitudes factuales $X,Y$,
-$$
-\mathfrak{D}_{\Gamma}(\lambda X+\mu Y)
-=
-\lambda \mathfrak{D}_{\Gamma}X+\mu \mathfrak{D}_{\Gamma}Y.
-$$
-
-**Demostración.** Inmediata por linealidad de la resta y por división por el mismo peso factual $\omega(\nu_k)$. Q.E.D.
-
-**Lema 3.2.2 (telescopía ponderada).**
-$$
-\Delta_{\Gamma}X(\Gamma,n)=X(\Gamma,n)-X(\Gamma,0).
-$$
-
-**Demostración.** Se sustituye la definición de $\mathfrak{D}_{\Gamma}$ en la suma acumulativa, se cancelan los factores $\omega(\nu_k)$ y la suma resultante telescopa. Q.E.D.
-
-### 3.3. Proyecciones diferenciales canónicas
-
-Sobre cualquier magnitud factual $X$ se definen las proyecciones diferenciales
-$$
-\mathfrak{D}_{\Gamma}^{dir}X(\Gamma,n)
-:=
-\sum_{k=1}^{n}\mathbf{1}_1(k)\,\omega(\nu_k)\,\mathfrak{D}_{\Gamma}X(\Gamma,k),
-$$
-$$
-\mathfrak{D}_{\Gamma}^{res}X(\Gamma,n)
-:=
-\sum_{k=1}^{n}\mathbf{1}_0(k)\,\omega(\nu_k)\,\mathfrak{D}_{\Gamma}X(\Gamma,k),
-$$
-$$
-\mathfrak{D}_{\Gamma}^{U}X(\Gamma,n)
-:=
-\sum_{k=1}^{n}\mathbf{1}_U(k)\,\omega(\nu_k)\,\mathfrak{D}_{\Gamma}X(\Gamma,k).
-$$
-
-### 3.4. Teorema de descomposición factual total
-
-**Teorema 3.4.1.** Para toda magnitud factual $X$,
-$$
-\Delta_{\Gamma}X
-=
-\mathfrak{D}_{\Gamma}^{dir}X
-+
-\mathfrak{D}_{\Gamma}^{res}X
-+
-\mathfrak{D}_{\Gamma}^{U}X.
-$$
-
-**Demostración.** Se sustituye la identidad ternaria $\mathbf{1}_1+\mathbf{1}_0+\mathbf{1}_U=1$ en cada paso de la suma acumulativa. La exclusión mutua de indicadores impide solapamiento. Luego el incremento total se descompone de manera exhaustiva y no solapada en sus tres proyecciones canónicas. Q.E.D.
-
-### 3.5. Corolario de cierre diferencial
-
-Las proyecciones directriz, residual y de indeterminación honesta no son operadores ornamentales. Son la aritmética diferencial mínima del dominio. Sin ellas, no puede definirse con legitimidad ni trabajo factual, ni calor factual, ni lectura factual de no clausura.
-
----
-
-## 4. Cadena factual canónica de irreversibilidad
-
-### 4.1. Cadena estratificada completa
-
-La cadena factual canónica de irreversibilidad del dominio se fija por
-$$
-(\alpha_i,\beta_i)
-\longrightarrow
-(\delta_i,a_i)
-\longrightarrow
-H_{pre}
-\longrightarrow
-H_{K_3}
-\longrightarrow
-H_{\Xi}
-\longrightarrow
-H_{\Sigma_c}
-\longrightarrow
-H_{\Sigma_k}
-\longrightarrow
-H_{SV}.
-$$
-
-### 4.2. Dispersión factual preternaria
-
-Se define
-$$
-H_{pre}(\Gamma,n):=
-\sum_{i=1}^{N}\bigl[A_i(n)+V_i(\delta,n)\bigr],
-$$
-donde
-$$
-V_i(\delta,n):=\sum_{k=0}^{\min(n,k_i^*)-1}|\delta_i(k+1)-\delta_i(k)|.
-$$
-
-### 4.3. Transporte ternario inducido
-
-Sea $\tau:K_3\to\mathbb{R}_{\ge 0}$ una lectura compatible con el corpus. Se define
-$$
-H_{K_3}(\Gamma,n):=
-\sum_{i=1}^{N}\sum_{k=0}^{n-1}\mathbf{1}[v_i(k)\neq v_i(k+1)]\,\tau(v_i(k+1)).
-$$
-
-### 4.4. Enriquecimiento canónico
-
-Se fija
-$$
-H_{\Xi}(\Gamma,n)
-=
-H_{K_3}(\Gamma,n)
-+
-\|J_{\Gamma}(n)\|_1
-+
-R_{\Gamma}(n).
-$$
-
-### 4.5. Concentración y canalización
-
-Se adoptan las reorganizaciones canónicas
-$$
-H_{\Sigma_c}(\Gamma,n)
-:=
-H_{\Xi}(\Gamma,n)+\sum_{\mathcal{C}\in\mathfrak{C}^{adm}_{\Sigma_{conc}}}\mathcal{C}(\Gamma,n),
-$$
-$$
-H_{\Sigma_k}(\Gamma,n)
-:=
-H_{\Sigma_c}(\Gamma,n)+\sum_{\mathcal{C}\in\mathfrak{C}^{adm}_{\Sigma_{canal}}}\mathcal{C}(\Gamma,n).
-$$
-
-### 4.6. Entropía factual final
-
-La forma final de irreversibilidad factual queda dada por
-$$
-H_{SV}(\Gamma,n)
-:=
-H_{\Sigma_k}(\Gamma,n)+\sum_{\mathcal{C}\in\mathfrak{C}^{adm}_{trans}}\mathcal{C}(\Gamma,n).
-$$
-
-### 4.7. Teorema de absorción estratificada
-
-**Teorema 4.7.1.** $H_{SV}$ absorbe ordenadamente la cadena factual previa sin colapsar sus estratos.
-
-**Demostración.** $H_{pre}$ recoge activación previa; $H_{K_3}$ la transporta al plano ternario; $H_{\Xi}$ añade sensibilidad y residualidad; $H_{\Sigma_c}$ y $H_{\Sigma_k}$ reorganizan concentración y canalización; el estrato final añade sólo contribuciones admisibles de transmutación. Si $H_{SV}$ no absorbiera esos estratos como pisos sucesivos, el cierre del dominio sería un salto no auditable. Luego $H_{SV}$ es absorción factual estratificada. Q.E.D.
-
-### 4.8. Lema de incremento preternario no negativo
-
-**Lema 4.8.1.** Para toda trayectoria admisible y todo $n\ge 1$,
-$$
-\Delta_{\Gamma}H_{pre}(\Gamma,n)\ge 0.
-$$
-
-**Demostración.** $A_i(n)$ es suma de términos no negativos y $V_i(\delta,n)$ es suma de valores absolutos. Luego cada sumando de $H_{pre}$ es no decreciente. Q.E.D.
-
-### 4.9. Lema de enriquecimiento compatible
-
-**Lema 4.9.1.** Si $R_{\Gamma}(n)\ge 0$ y $\|J_{\Gamma}(n)\|_1\ge 0$, entonces
-$$
-\Delta_{\Gamma}H_{\Xi}(\Gamma,n)\ge 0.
-$$
-
-**Demostración.** $H_{\Xi}$ es suma de tres términos no negativos y no retractivos a lo largo de la trayectoria. Q.E.D.
-
-### 4.10. Teorema de irreversibilidad factual
-
-**Teorema 4.10.1.** Para toda trayectoria factual admisible $\Gamma$ y cualesquiera $n_2\ge n_1$, se cumple
-$$
-H_{SV}(\Gamma,n_2)\ge H_{SV}(\Gamma,n_1).
-$$
-
-**Demostración.** Por los Lemas 4.8.1 y 4.9.1, la cadena factual acumula incrementos no negativos al menos hasta $H_{\Xi}$. Las contribuciones admisibles de concentración, canalización y transmutación son no negativas por construcción del corpus. Luego el estrato final no puede decrecer sobre una trayectoria admisible. Q.E.D.
-
-### 4.11. Corolario diferencial de irreversibilidad
-
-Para todo $n\ge 1$ se tiene
-$$
-\Delta_{\Gamma}H_{SV}(\Gamma,n)\ge 0.
-$$
-
----
-
-## 5. Aparato operatorio heredado del SV
-
-### 5.1. Estatuto
-
-El dominio termodinámico factual no repropone flujo, divergencia, gradiente, rotor, jacobiano ni frontera. Los adopta como cuerpo operatorio heredado y vinculante del corpus soberano.
-
-### 5.2. Fórmulas canónicas heredadas
-
-Se fijan para uso del dominio:
-$$
-\Phi_{SV}(F;B)
-=
-\sum_j \sigma_j\,\langle F(B_j),n_{B_j}\rangle_{SV}\,\omega(B_j),
-$$
-$$
-Div_{SV}(F;C)\,\omega(C)
-=
-\Phi_{SV}(F;\partial C)-\mathcal{I}_{res}(F;C),
-$$
-$$
-\iint_{\Sigma}^{SV} F\cdot n
-=
-\sum_j \sigma_j\,\langle F(B_j),n_{B_j}\rangle_{SV}\,\omega(B_j),
-$$
-$$
-\iiint_{V}^{SV} g
-=
-\sum_{\ell} g(C_{\ell})\,\omega(C_{\ell}).
-$$
-
-### 5.3. Gradiente, rotor y jacobiano
-
-Se trabaja en un rango tridimensional auxiliar de auditoría $\mathbb{R}^3$. Para un potencial escalar $\phi$ y un campo $F=(F^1,F^2,F^3)$:
-$$
-\nabla^{SV}\phi=(\partial_1^{SV}\phi,\partial_2^{SV}\phi,\partial_3^{SV}\phi).
-$$
-
-El rotor 2-forma se define por
-$$
-\Omega^{SV}_{ij}(F):=\partial_i^{SV}F^j-\partial_j^{SV}F^i,
-$$
-y su dual vectorial por
-$$
-Rot^{vec}_{SV}F
-=
-\left(
-\frac12\sum_{i,j}\varepsilon_{1ij}\Omega^{SV}_{ij}(F),
-\frac12\sum_{i,j}\varepsilon_{2ij}\Omega^{SV}_{ij}(F),
-\frac12\sum_{i,j}\varepsilon_{3ij}\Omega^{SV}_{ij}(F)
-\right).
-$$
-
-El jacobiano factual estructural es
-$$
-J_{SV}(q,\theta):=\left(\frac{\partial q^i}{\partial \theta_j}\right)_{i,j},
+```math
+\pi_U(\boldsymbol{\Omega}_{SV})(\Gamma,n) := \mathfrak{D}_\Gamma \sum_i A_i^U(n),
 \qquad
-\|J_{SV}\|_1:=\sum_{i,j}\left|\frac{\partial q^i}{\partial \theta_j}\right|.
-$$
+A_i^U(n) := \sum_{k=0}^{n-1} \frac{a_i^U(k)+a_i^U(k+1)}{2}\,\Delta\varepsilon_k.
+```
 
-### 5.4. Teorema de suficiencia operatoria interna
+```math
+\mathcal{U}_{SV}(\Gamma,n) := \pi_U(\boldsymbol{\Omega}_{SV})(\Gamma,n).
+```
 
-**Teorema 5.4.1.** El aparato anterior es suficiente para cerrar el dominio termodinámico factual sin introducir herramientas clásicas constitutivas de mayor potencia.
+𝒰<sub>SV</sub> es proyección canónica absoluta sobre el tercer polo absoluto U de K<sub>3</sub>. No introduce cuarto polo (Teorema 8.5).
 
-**Demostración.** El dominio exige balance de contenido, frontera, residualidad, gradiente, rotor vectorial y sensibilidad jacobiana. Todas esas piezas comparecen ya en el cuerpo operatorio heredado. Luego no procede introducir aparato externo más potente como fundamento. Q.E.D.
+### 6.5. Proyección absoluta π<sub>F</sub> — Fuerza factual absoluta
 
----
+```math
+\pi_F(\boldsymbol{\Omega}_{SV})(\Gamma,n) := -\nabla^{SV}\varphi_\Omega(\Gamma,n) + \star d\,\mathcal{A}^{vec}_\Omega(\Gamma,n) + \mathcal{J}_{\Gamma,SV}(n) \cdot \hat{e}_\Gamma,
+```
 
-## 6. Régimen termodinámico factual y magnitudes madre
+con:
+- φ<sub>Ω</sub>(Γ, n) := ⟨𝒜<sub>SV</sub>(Γ, n), ℬ<sub>∂,SV</sub>(Γ, n)⟩<sub>SV</sub>, contracción canónica absoluta;
+- 𝒜<sup>vec</sup><sub>Ω</sub>(Γ, n) potencial vectorial factual absoluto (Lloret Egea, 2026k, §6);
+- ⋆d dualización absoluta de Hodge factual sobre SV(3, n);
+- ê<sub>Γ</sub> versor canónico absoluto de la trayectoria.
 
-### 6.1. Contenido interior, frontera y contenido total
+```math
+\boldsymbol{\mathcal{F}}_{SV}(\Gamma,n) := \pi_F(\boldsymbol{\Omega}_{SV})(\Gamma,n).
+```
 
-Se define el contenido interior como integral factual discreta sobre una partición de celdas $C_{\ell}$:
-$$
-\mathcal{C}^{int}_{SV}(\Gamma,n)
-:=
-\sum_{\ell} c_{\ell}(\Gamma,n)\,\omega(C_{\ell}).
-$$
+### 6.6. Proyección absoluta π<sub>Θ</sub> — Temperatura factual absoluta
 
-Se define el contenido de frontera sobre una partición de caras $B_j$ orientadas:
-$$
-\mathcal{B}_{\partial,SV}(\Gamma,n)
-:=
-\sum_{j}\sigma_j\,b_j(\Gamma,n)\,\omega(B_j),
+**Definición 6.6 (temperatura factual absoluta).** Sobre el régimen absoluto donde 𝔇<sub>Γ</sub>𝓗<sub>SV</sub>(Γ, n) > 0,
+
+```math
+\pi_\Theta(\boldsymbol{\Omega}_{SV})(\Gamma,n) := \mathrm{UFT}\!\left(\frac{\mathfrak{D}_\Gamma \mathcal{Q}_{SV}(\Gamma,n)}{\mathfrak{D}_\Gamma \mathcal{H}_{SV}(\Gamma,n)}\right).
+```
+
+UFT es el primitivo metrológico absoluto de temperatura (Lloret Egea, 2026c).
+
+```math
+\Theta_{SV}(\Gamma,n) := \pi_\Theta(\boldsymbol{\Omega}_{SV})(\Gamma,n).
+```
+
+Esta fórmula es el análogo factual absoluto directo de T = δQ/dS. En el límite de transformación reversible clásica, Θ<sub>SV</sub> coincide con la temperatura termodinámica canónica (§11.1).
+
+**Observación 6.6.** Θ<sub>SV</sub> depende simultáneamente, a través de 𝓗<sub>SV</sub>, de todo el contenido de la cadena entrópica absoluta (𝒥<sub>Γ,SV</sub>, ℛ<sub>Γ</sub> incluidos por construcción de H<sub>Ξ</sub> en Lloret Egea, 2026m, §§6–7). No se reduce a función de 𝓗<sub>SV</sub> sola; Teorema 8.6.
+
+### 6.7. Proyección absoluta π<sub>Λ</sub> — Entalpía factual absoluta
+
+```math
+\pi_\Lambda(\boldsymbol{\Omega}_{SV})(\Gamma,n) := \mathcal{A}_{SV}(\Gamma,n) + \mathcal{B}_{\partial,SV}(\Gamma,n),
 \qquad
-\sigma_j\in\{-1,+1\}.
-$$
+\Lambda_{SV}(\Gamma,n) := \pi_\Lambda(\boldsymbol{\Omega}_{SV})(\Gamma,n).
+```
 
-El contenido total es
-$$
-\mathcal{C}^{tot}_{SV}(\Gamma,n):=\mathcal{C}^{int}_{SV}(\Gamma,n)+\mathcal{B}_{\partial,SV}(\Gamma,n).
-$$
+### 6.8. Tabla absoluta de proyecciones
 
-### 6.2. Ley de fuerza factual
+| Proyección absoluta | Magnitud | Fórmula absoluta | Dimensión absoluta |
+|---|---|---|---|
+| π<sub>W</sub> | Trabajo 𝒲<sub>SV</sub> | 𝔇<sub>Γ</sub>∑<sub>i</sub> A<sub>i</sub><sup>W</sup>(n) | UFM·UFE²/UE_MFC² |
+| π<sub>Q</sub> | Calor 𝒬<sub>SV</sub> | 𝔇<sub>Γ</sub>∑<sub>i</sub> A<sub>i</sub><sup>Q</sup>(n) | UFM·UFE²/UE_MFC² |
+| π<sub>U</sub> | No clausura 𝒰<sub>SV</sub> | 𝔇<sub>Γ</sub>∑<sub>i</sub> A<sub>i</sub><sup>U</sup>(n) | UFM·UFE²/UE_MFC² |
+| π<sub>F</sub> | Fuerza 𝓕<sub>SV</sub> | −∇<sup>SV</sup>φ<sub>Ω</sub> + ⋆d𝒜<sup>vec</sup><sub>Ω</sub> + 𝒥·ê | UFM·UFE/UE_MFC² |
+| π<sub>Θ</sub> | Temperatura Θ<sub>SV</sub> | UFT(𝔇<sub>Γ</sub>𝒬/𝔇<sub>Γ</sub>𝓗) | UFT |
+| π<sub>Λ</sub> | Entalpía Λ<sub>SV</sub> | 𝒜<sub>SV</sub> + ℬ<sub>∂,SV</sub> | UFM·UFE²/UE_MFC² |
 
-Sea el potencial escalar factual
-$$
-\phi_{SV}(\Gamma,n):=\mathcal{C}^{tot}_{SV}(\Gamma,n),
-$$
-y el potencial vectorial mínimo
-$$
-\Psi_{SV}(\Gamma,n):=\mathcal{B}_{\partial,SV}(\Gamma,n)\,e_3,
-\qquad e_3=(0,0,1).
-$$
+---
+## 7. Propiedades algebraicas absolutas del fibrado
 
-Sea la velocidad factual
-$$
-v_{SV}(\Gamma,k):=\frac{x_{SV}(\Gamma,k)-x_{SV}(\Gamma,k-1)}{\omega(\nu_{k-1})}.
-$$
+### 7.1. Linealidad absoluta de 𝔇<sub>Γ</sub> sobre Ω<sub>SV</sub>
 
-La corrección jacobiana de fuerza se define por
-$$
-J^{for}_{SV}(\Gamma,k):=J_{\Gamma}(k)\,v_{SV}(\Gamma,k).
-$$
+**Lema 7.1 (linealidad absoluta).** *𝔇<sub>Γ</sub> actúa componente a componente sobre la sección Ω<sub>SV</sub>:*
 
-La ley constitutiva de fuerza del dominio es
-$$
-F_{SV}(\Gamma,k)
-:=
--\nabla^{SV}\phi_{SV}(\Gamma,k)
-+
-Rot^{vec}_{SV}\Psi_{SV}(\Gamma,k)
-+
-J^{for}_{SV}(\Gamma,k).
-$$
+```math
+\mathfrak{D}_\Gamma\boldsymbol{\Omega}_{SV}(\Gamma,n) = \bigl(\mathfrak{D}_\Gamma\mathcal{A}_{SV},\; \mathfrak{D}_\Gamma\mathcal{H}_{SV},\; \mathfrak{D}_\Gamma\mathcal{J}_{\Gamma,SV},\; \mathfrak{D}_\Gamma\mathcal{R}_\Gamma,\; \mathfrak{D}_\Gamma\mathcal{B}_{\partial,SV}\bigr).
+```
 
-### 6.3. Empuje factual
+*Prueba absoluta.* 𝔇<sub>Γ</sub> es lineal por Lloret Egea (2026a, §X). La fibra es suma directa absoluta de espacios vectoriales factuales sobre K<sub>3</sub><sup>n</sup>. La acción de un operador lineal absoluto sobre suma directa absoluta es componente a componente por definición absoluta de suma directa. ∎
 
-El empuje factual es el funcional de contorno del campo de fuerza:
-$$
-P^{emp}_{SV}(\Gamma,k):=
-\sum_{j}\sigma_j\,\langle F_{SV}(B_j,k),n_{B_j}\rangle_{SV}\,\omega(B_j).
-$$
+### 7.2. Descomposición exhaustiva absoluta de la acumulación
 
-### 6.4. Trabajo factual
+**Lema 7.2 (descomposición absoluta).** *Para toda Γ admisible y todo n ≥ 0,*
 
-El trabajo factual acumulado hasta $n$ se define por integral curvilínea factual restringida a los pasos directrices:
-$$
-W_{SV}(\Gamma,n)
-:=
-\sum_{k=1}^{n}\mathbf{1}_1(k)\,\langle F_{SV}(\Gamma,k),x_{SV}(\Gamma,k)-x_{SV}(\Gamma,k-1)\rangle_{SV}.
-$$
+```math
+\mathcal{A}_{SV}(\Gamma,n) = \mathcal{A}^W_{SV}(\Gamma,n) + \mathcal{A}^Q_{SV}(\Gamma,n) + \mathcal{A}^U_{SV}(\Gamma,n),
+```
 
-### 6.5. Temperatura factual y calor factual
+*con 𝒜<sup>W</sup><sub>SV</sub> := ∑<sub>i</sub> A<sub>i</sub><sup>W</sup>(n), 𝒜<sup>Q</sup><sub>SV</sub> := ∑<sub>i</sub> A<sub>i</sub><sup>Q</sup>(n) + ∑<sub>i</sub> C<sub>i</sub>(n), 𝒜<sup>U</sup><sub>SV</sub> := ∑<sub>i</sub> A<sub>i</sub><sup>U</sup>(n).*
 
-Se introduce la constante metrológica exacta de escala $k_B>0$. La lectura termométrica factual queda fijada, en los pasos con $\mathbf{1}_0(k)=1$ y $\Delta_{\Gamma}H_{SV}(\Gamma,k)>0$, por
-$$
-\Theta_{SV}(\Gamma,k)
-:=
-\frac{\Delta_{\Gamma}\mathcal{C}^{int}_{SV}(\Gamma,k)}{k_B\,\Delta_{\Gamma}H_{SV}(\Gamma,k)}.
-$$
+*Prueba absoluta.* Por §6.1, a<sub>i</sub>(k) = a<sub>i</sub><sup>W</sup>(k) + a<sub>i</sub><sup>Q</sup>(k) + a<sub>i</sub><sup>U</sup>(k) para todo k, i. Por linealidad absoluta del sumatorio trapezoidal, A<sub>i</sub>(n) = A<sub>i</sub><sup>W</sup>(n) + A<sub>i</sub><sup>Q</sup>(n) + A<sub>i</sub><sup>U</sup>(n). Sumando sobre i (finita absoluta por SV(3, n)):
 
-Con esta lectura, el calor factual acumulado es
-$$
-Q_{SV}(\Gamma,n)
-:=
-\sum_{k=1}^{n}\mathbf{1}_0(k)\,k_B\,\Theta_{SV}(\Gamma,k)\,\Delta_{\Gamma}H_{SV}(\Gamma,k).
-$$
+```math
+\sum_i A_i(n) = \sum_i A_i^W(n) + \sum_i A_i^Q(n) + \sum_i A_i^U(n).
+```
 
-### 6.6. Componente factual asociada a $U$
+Como 𝒜<sub>SV</sub> = ∑<sub>i</sub> M<sub>i</sub>(n) = ∑<sub>i</sub>[A<sub>i</sub>(n) + C<sub>i</sub>(n)], y C<sub>i</sub>(n) := ∑<sub>k</sub> 𝟙[χ<sub>i</sub>(k)=0] se absorbe absolutamente en el canal W por definición absoluta del indicador de clausura en 0, queda la descomposición 𝒜<sub>SV</sub> = 𝒜<sup>W</sup><sub>SV</sub> + 𝒜<sup>Q</sup><sub>SV</sub> + 𝒜<sup>U</sup><sub>SV</sub>. ∎
 
-La contribución factual asociada a $U$ se define por
-$$
-\mathcal{U}_{SV}(\Gamma,n)
-:=
-\sum_{k=1}^{n}\mathbf{1}_U(k)\,k_B\,\Theta_{SV}(\Gamma,k)\,\Delta_{\Gamma}H_{SV}(\Gamma,k).
-$$
+### 7.3. Independencia lineal absoluta de las proyecciones
 
-### 6.7. Entalpía factual
+**Proposición 7.3 (independencia lineal absoluta).** *Las seis proyecciones canónicas absolutas {π<sub>W</sub>, π<sub>Q</sub>, π<sub>U</sub>, π<sub>F</sub>, π<sub>Θ</sub>, π<sub>Λ</sub>} son linealmente independientes absolutas sobre la fibra.*
 
-La entalpía factual se define por
-$$
-\Lambda_{SV}(\Gamma,n):=\mathcal{C}^{int}_{SV}(\Gamma,n)+\mathcal{B}_{\partial,SV}(\Gamma,n).
-$$
+*Prueba absoluta por contraste de contradicción.* Supóngase que existen escalares c<sub>W</sub>, c<sub>Q</sub>, c<sub>U</sub>, c<sub>F</sub>, c<sub>Θ</sub>, c<sub>Λ</sub> no todos nulos tales que para toda sección 𝐯 de la fibra ∑<sub>j</sub> c<sub>j</sub> π<sub>j</sub>(𝐯) = 0. Se evalúa sobre seis secciones factuales absolutas {𝐯<sub>1</sub>, …, 𝐯<sub>6</sub>}, cada una con única componente no nula en uno de los cinco ejes de la fibra más un sexto con dos componentes no nulas (necesario para saturar π<sub>Θ</sub> cuyo denominador requiere 𝓗 ≠ 0 constante). La matriz absoluta de evaluaciones (6 × 6) tiene rango absoluto 6 por construcción canónica absoluta: π<sub>W</sub>, π<sub>Q</sub>, π<sub>U</sub> extraen los tres canales disjuntos de 𝒜<sup>W</sup>, 𝒜<sup>Q</sup>, 𝒜<sup>U</sup>; π<sub>F</sub> captura el potencial vectorial absoluto y el jacobiano absoluto, ausentes en las tres primeras; π<sub>Θ</sub> es cociente absoluto con 𝓗<sub>SV</sub> en denominador; π<sub>Λ</sub> es la suma 𝒜<sub>SV</sub> + ℬ<sub>∂,SV</sub>, cuya dependencia en ℬ<sub>∂,SV</sub> no comparece en ninguna de las otras cinco. Luego la única solución absoluta es c<sub>W</sub> = ⋯ = c<sub>Λ</sub> = 0, contradiciendo la hipótesis. ∎
 
-### 6.8. Teorema de no primitividad
+### 7.4. Inyectividad absoluta de Ω<sub>SV</sub> bajo append-only
 
-**Teorema 6.8.1.** $W_{SV}$, $Q_{SV}$, $F_{SV}$, $P^{emp}_{SV}$, $\Theta_{SV}$ y $\Lambda_{SV}$ no poseen estatuto primitivo independiente.
+**Proposición 7.4 (inyectividad absoluta).** *Sean Γ, Γ' trayectorias admisibles. Si Ω<sub>SV</sub>(Γ, n) = Ω<sub>SV</sub>(Γ', n) para todo n ≥ 0, entonces Γ = Γ' como trayectoria admisible.*
 
-**Demostración.** $W_{SV}$ se define por el campo de fuerza y la geometría factual de trayectoria; $Q_{SV}$ por cociente termométrico y variación entrópica residual; $\mathcal{U}_{SV}$ por la misma identidad en pasos $U$; $P^{emp}_{SV}$ es funcional de contorno del campo de fuerza; $\Theta_{SV}$ es lectura cociente del régimen residual; y $\Lambda_{SV}$ es suma exacta interior–frontera. Luego ninguna de esas magnitudes es primitiva. Q.E.D.
+*Prueba absoluta.* La igualdad absoluta componente a componente implica A<sub>i</sub>(n) = A'<sub>i</sub>(n) para todo i, n, luego a<sub>i</sub>(k) = a'<sub>i</sub>(k) para todo k (inyectividad absoluta de la suma trapezoidal bajo Δε<sub>k</sub> > 0). La igualdad C<sub>i</sub>(n) = C'<sub>i</sub>(n) impone χ<sub>i</sub>(k) = χ'<sub>i</sub>(k) para todo k. Por Lema 5.5 de Lloret Egea (2026j), Γ queda determinada absolutamente por la secuencia (a<sub>i</sub>, χ<sub>i</sub>). Luego Γ = Γ'. ∎
 
 ---
 
-## 7. Ecuación absoluta del dominio
+## 8. Teoremas absolutos del dominio
 
-### 7.1. Defectos elementales
+### 8.1. Teorema absoluto de identidad canónica de balance
 
-Se definen los defectos elementales:
+**Teorema 8.1 (balance canónico absoluto).** *Para toda Γ admisible y todo n ≥ 0,*
 
-1. **Defecto de balance**
-$$
-\delta_{bal}(\Gamma,n)
-:=
-\Delta_{\Gamma}\mathcal{C}^{tot}_{SV}(\Gamma,n)-W_{SV}(\Gamma,n)-Q_{SV}(\Gamma,n)-\mathcal{U}_{SV}(\Gamma,n).
-$$
+```math
+\boxed{\;\mathfrak{D}_\Gamma\mathcal{A}_{SV}(\Gamma,n) = \mathcal{W}_{SV}(\Gamma,n) + \mathcal{Q}_{SV}(\Gamma,n) + \mathcal{U}_{SV}(\Gamma,n).\;}
+```
 
-2. **Defecto de irreversibilidad**
-$$
-\Delta_{irr}(\Gamma,n):=\sum_{k=1}^{n}\left(\min\{0,\Delta_{\Gamma}H_{SV}(\Gamma,k)\}\right)^2.
-$$
+*Prueba absoluta.* Por Lema 7.2, 𝒜<sub>SV</sub> = 𝒜<sup>W</sup><sub>SV</sub> + 𝒜<sup>Q</sup><sub>SV</sub> + 𝒜<sup>U</sup><sub>SV</sub>. Aplicando 𝔇<sub>Γ</sub> y por linealidad absoluta (Lema 7.1): 𝔇<sub>Γ</sub>𝒜<sub>SV</sub> = 𝔇<sub>Γ</sub>𝒜<sup>W</sup> + 𝔇<sub>Γ</sub>𝒜<sup>Q</sup> + 𝔇<sub>Γ</sub>𝒜<sup>U</sup>. Por Definiciones 6.2, 6.3, 6.4, los tres términos son absolutamente 𝒲<sub>SV</sub>, 𝒬<sub>SV</sub>, 𝒰<sub>SV</sub>. ∎
 
-3. **Defecto de fuerza**
-$$
-\delta_{F}(\Gamma,k)
-:=
-F_{SV}(\Gamma,k)+\nabla^{SV}\phi_{SV}(\Gamma,k)-Rot^{vec}_{SV}\Psi_{SV}(\Gamma,k)-J^{for}_{SV}(\Gamma,k),
-$$
-$$
-\Delta_{F}(\Gamma,n):=\sum_{k=1}^{n}\|\delta_F(\Gamma,k)\|_2^2.
-$$
+**Contraste absoluto de contradicción.** Un cuarto término X independiente con 𝔇<sub>Γ</sub>𝒜 = 𝒲 + 𝒬 + 𝒰 + X, X ≢ 0, requeriría un cuarto canal de a<sub>i</sub>(k), contradiciendo la identidad absoluta de partición ternaria del §3.2 y violando P.6. Luego X ≡ 0 absolutamente. ∎∎
 
-4. **Defecto de empuje**
-$$
-\Delta_{emp}(\Gamma,n):=\sum_{k=1}^{n}\left(P^{emp}_{SV}(\Gamma,k)-\sum_j\sigma_j\langle F_{SV}(B_j,k),n_{B_j}\rangle_{SV}\,\omega(B_j)\right)^2.
-$$
+### 8.2. Teorema absoluto de irreversibilidad factual
 
-5. **Defecto termométrico**
-$$
-\Delta_{\Theta}(\Gamma,n):=\sum_{k=1}^{n}\mathbf{1}_0(k)\left(k_B\Theta_{SV}(\Gamma,k)\Delta_{\Gamma}H_{SV}(\Gamma,k)-\Delta_{\Gamma}\mathcal{C}^{int}_{SV}(\Gamma,k)\right)^2.
-$$
+**Teorema 8.2 (irreversibilidad factual absoluta).** *Para toda Γ admisible y todo n ≥ 0,*
 
-6. **Defecto entálpico**
-$$
-\delta_{\Lambda}(\Gamma,n):=\Lambda_{SV}(\Gamma,n)-\left(\mathcal{C}^{int}_{SV}(\Gamma,n)+\mathcal{B}_{\partial,SV}(\Gamma,n)\right).
-$$
+```math
+\boxed{\;\mathfrak{D}_\Gamma\mathcal{H}_{SV}(\Gamma,n) \geq 0.\;}
+```
 
-### 7.2. Defecto factual total
+*Prueba absoluta.* 𝓗<sub>SV</sub>(Γ, n) := H<sub>SV</sub>(Γ, n). El Teorema 8.2 absoluto del documento de entropía factual (Lloret Egea, 2026m) establece H<sub>SV</sub>(Γ, n+1) ≥ H<sub>SV</sub>(Γ, n). Luego 𝔇<sub>Γ</sub>𝓗<sub>SV</sub>(Γ, n) = 𝓗<sub>SV</sub>(Γ, n+1) − 𝓗<sub>SV</sub>(Γ, n) ≥ 0. ∎
 
-Se define
-$$
-\mathbb{T}^{thermo}_{SV}(\Gamma,n):=
-|\delta_{bal}(\Gamma,n)|^2
-+
-\Delta_{irr}(\Gamma,n)
-+
-\Delta_F(\Gamma,n)
-+
-\Delta_{emp}(\Gamma,n)
-+
-\Delta_{\Theta}(\Gamma,n)
-+
-|\delta_{\Lambda}(\Gamma,n)|^2.
-$$
+### 8.3. Teorema absoluto de equivalencia con la fórmula única
 
-### 7.3. Ecuación única
+**Teorema 8.3 (equivalencia absoluta).** *La fórmula factual única absoluta 𝖤<sup>thermo</sup><sub>SV</sub>(Γ, n) = 0 es equivalente absoluta a la identidad canónica de balance del Teorema 8.1.*
 
-La ecuación absoluta del dominio es
-$$
-\boxed{\mathbb{T}^{thermo}_{SV}(\Gamma,n)=0 }.
-$$
+*Prueba absoluta.* Por Definición 5.1 y Lema 7.1:
 
-### 7.4. Positividad estructural
+```math
+\mathsf{E}^{thermo}_{SV}(\Gamma,n) = \mathfrak{D}_\Gamma\mathcal{A}_{SV} - \mathcal{W}_{SV} - \mathcal{Q}_{SV} - \mathcal{U}_{SV}.
+```
 
-**Lema 7.4.1.** Para todo $(\Gamma,n)$ se cumple
-$$
-\mathbb{T}^{thermo}_{SV}(\Gamma,n)\ge 0.
-$$
+Por Teorema 8.1, esta expresión es absolutamente nula sobre toda Γ admisible. Recíprocamente, exigir 𝖤<sup>thermo</sup><sub>SV</sub> = 0 como condición absoluta del régimen restituye la identidad. Equivalencia absoluta. ∎
 
-**Demostración.** Cada sumando del defecto factual total es un cuadrado o suma de cuadrados. Q.E.D.
+### 8.4. Teorema absoluto de unicidad de la sección soberana
 
-### 7.5. Nulidad componente a componente
+**Teorema 8.4 (unicidad absoluta).** *Toda sección Ω'<sub>SV</sub> : 𝒯<sub>adm</sub> × ℕ<sub>0</sub> → ⊔𝓕 que satisfaga:*
 
-**Teorema 7.5.1.** Se tiene $\mathbb{T}^{thermo}_{SV}(\Gamma,n)=0$ si y sólo si se anulan simultáneamente
-$$
-\delta_{bal}=0,\quad
-\Delta_{irr}=0,\quad
-\Delta_F=0,\quad
-\Delta_{emp}=0,\quad
-\Delta_{\Theta}=0,\quad
-\delta_{\Lambda}=0.
-$$
+*(i) Ω'<sub>SV</sub>(Γ, 0) = Ω<sub>SV</sub>(Γ, 0) para toda Γ admisible (condición basal preternaria absoluta);*
 
-**Demostración.** Por el Lema 7.4.1, una suma de no negativos es cero si y sólo si cada término es cero. Q.E.D.
+*(ii) 𝖤<sup>thermo</sup><sub>SV</sub>[Ω'<sub>SV</sub>](Γ, n) = 0 para toda Γ admisible y todo n ≥ 0 (cumplimiento absoluto de la fórmula única);*
 
-### 7.6. Primer principio factual
+*(iii) toda componente de Ω'<sub>SV</sub> traza absolutamente al estrato preternario (P.5),*
 
-**Corolario 7.6.1.** Si $\mathbb{T}^{thermo}_{SV}(\Gamma,n)=0$, entonces
-$$
-\Delta_{\Gamma}\mathcal{C}^{tot}_{SV}(\Gamma,n)=W_{SV}(\Gamma,n)+Q_{SV}(\Gamma,n)+\mathcal{U}_{SV}(\Gamma,n).
-$$
+*coincide absolutamente con Ω<sub>SV</sub> sobre toda Γ admisible y todo n ≥ 0.*
 
-### 7.7. No tautologicidad del balance
+*Prueba absoluta.* Sea 𝛅(Γ, n) := Ω'<sub>SV</sub>(Γ, n) − Ω<sub>SV</sub>(Γ, n). Por (i), 𝛅(Γ, 0) = 0. Por linealidad absoluta y (ii), 𝔇<sub>Γ</sub>𝛅(Γ, n)·𝖦<sub>SV</sub> = 0. Por (iii) y Teorema 4.4, cada componente de 𝛅 traza absolutamente a (α<sub>i</sub>, β<sub>i</sub>). Estos valores están ya declarados en Γ por append-only (Lema 5.5, 2026j); cualquier 𝛅 ≠ 0 en n > 0 requeriría reescritura absoluta de (α<sub>i</sub>, β<sub>i</sub>), contradiciendo append-only absoluto. Alternativamente, por Proposición 7.4, Ω<sub>SV</sub> determina Γ absolutamente; cualquier Ω'<sub>SV</sub> distinta definiría Γ' ≠ Γ, contradiciendo la hipótesis. Luego 𝛅 ≡ 0 absolutamente. ∎
 
-**Proposición 7.7.1.** La igualdad de balance $\delta_{bal}=0$ no es identidad por definición.
+### 8.5. Teorema absoluto de no cuarto polo
 
-**Demostración.** $W_{SV}$ es un funcional curvilíneo del campo $F_{SV}$ y de la geometría de trayectoria; $Q_{SV}$ y $\mathcal{U}_{SV}$ son productos termométricos sobre subclases disjuntas de pasos; ninguno se define como mera proyección trivial de $\Delta_{\Gamma}\mathcal{C}^{tot}_{SV}$. Luego $\delta_{bal}=0$ impone una restricción efectiva y no una identidad vacía. Q.E.D.
+**Teorema 8.5 (no cuarto polo absoluto).** *La proyección absoluta π<sub>U</sub> y la magnitud 𝒰<sub>SV</sub> no introducen cuarto polo semántico. K<sub>3</sub> = {0, 1, U} permanece absolutamente íntegra.*
 
-### 7.8. Unicidad termométrica en régimen residual
+*Prueba absoluta.* 𝒰<sub>SV</sub> := 𝔇<sub>Γ</sub>∑<sub>i</sub> A<sub>i</sub><sup>U</sup>(n), con A<sub>i</sub><sup>U</sup> definida sobre el indicador absoluto 𝟙[χ<sub>i</sub>(k) = U] del tercer polo canónico absoluto U. La identidad absoluta 𝟙[χ<sub>i</sub>=0] + 𝟙[χ<sub>i</sub>=1] + 𝟙[χ<sub>i</sub>=U] ≡ 1 no admite cuarto sumando absoluto. 𝒰<sub>SV</sub> es función absoluta del tercer polo canónico; la letra 𝒰 es símbolo notacional absoluto, y el objeto algebraico es proyección sobre U. ∎
 
-**Teorema 7.8.1.** Para un paso $k$ con $\mathbf{1}_0(k)=1$ y $\Delta_{\Gamma}H_{SV}(\Gamma,k)>0$, la identidad
-$$
-k_B\,\Theta_{SV}(\Gamma,k)\,\Delta_{\Gamma}H_{SV}(\Gamma,k)=\Delta_{\Gamma}\mathcal{C}^{int}_{SV}(\Gamma,k)
-$$
-determina $\Theta_{SV}(\Gamma,k)$ de manera única.
+**Contraste absoluto de contradicción.** Un cuarto polo exigiría χ<sub>i</sub>(k) ∉ {0, 1, U}, contradiciendo la definición canónica absoluta de χ<sub>i</sub> en Lloret Egea (2026j, §3). ∎∎
 
-**Demostración.** Es una ecuación lineal en la incógnita $\Theta_{SV}(\Gamma,k)$ con coeficiente $k_B\Delta_{\Gamma}H_{SV}(\Gamma,k)>0$. Q.E.D.
+### 8.6. Teorema absoluto de irreducibilidad escalar de Θ<sub>SV</sub>
 
-### 7.9. Compatibilidad arquitectónica
+**Teorema 8.6 (irreducibilidad escalar absoluta de Θ<sub>SV</sub>).** *No existe función escalar absoluta f : ℝ → 𝕌<sub>UFT</sub> tal que Θ<sub>SV</sub>(Γ, n) = f(𝓗<sub>SV</sub>(Γ, n)) sobre el dominio general.*
 
-**Teorema 7.9.1.** La forma $\mathbb{T}^{thermo}_{SV}=0$ es compatible con la arquitectura de ecuación única ya asentada en el corpus.
+*Prueba absoluta por contraste de contradicción.* Supóngase que existe tal f. Considérense dos trayectorias admisibles Γ<sub>1</sub>, Γ<sub>2</sub> y un índice n tales que 𝓗<sub>SV</sub>(Γ<sub>1</sub>, n) = 𝓗<sub>SV</sub>(Γ<sub>2</sub>, n) y 𝔇<sub>Γ</sub>𝓗<sub>SV</sub>(Γ<sub>1</sub>, n) = 𝔇<sub>Γ</sub>𝓗<sub>SV</sub>(Γ<sub>2</sub>, n) > 0, pero con **distinto canal Q**: 𝔇<sub>Γ</sub>𝒬<sub>SV</sub>(Γ<sub>1</sub>, n) ≠ 𝔇<sub>Γ</sub>𝒬<sub>SV</sub>(Γ<sub>2</sub>, n). Tales Γ<sub>1</sub>, Γ<sub>2</sub> existen absolutamente: las partición ternaria absoluta admite redistribuir a<sub>i</sub>(k) entre W y Q manteniendo a<sub>i</sub><sup>U</sup> y el agregado entrópico invariantes (Lloret Egea, 2026m, §§6–7, donde 𝓗<sub>SV</sub> absorbe J y R pero no fija canal Q). Por Definición 6.6:
 
-**Demostración.** La ecuación es escalar nula, no temporal, organizada sobre defectos constitutivos no negativos y cerrada por nulidad componente a componente. Esa forma es compatible con la familia de cierres soberanos del corpus. Q.E.D.
+```math
+\Theta_{SV}(\Gamma_1, n) = \mathrm{UFT}\!\left(\frac{\mathfrak{D}_\Gamma\mathcal{Q}_{SV}(\Gamma_1, n)}{\mathfrak{D}_\Gamma\mathcal{H}_{SV}(\Gamma_1, n)}\right) \neq \mathrm{UFT}\!\left(\frac{\mathfrak{D}_\Gamma\mathcal{Q}_{SV}(\Gamma_2, n)}{\mathfrak{D}_\Gamma\mathcal{H}_{SV}(\Gamma_2, n)}\right) = \Theta_{SV}(\Gamma_2, n).
+```
 
-### 7.10. Unicidad fuerte
+Por hipótesis f(𝓗(Γ<sub>1</sub>, n)) = f(𝓗(Γ<sub>2</sub>, n)) dado 𝓗(Γ<sub>1</sub>, n) = 𝓗(Γ<sub>2</sub>, n), luego Θ(Γ<sub>1</sub>) = Θ(Γ<sub>2</sub>), contradiciendo la desigualdad absoluta anterior. ∎
 
-Sea $\mathcal{P}$ la clase de condiciones de cierre del dominio que
-(i) se expresan como ecuaciones escalar–nulas sobre $(\Gamma,n)$,
-(ii) se construyen como suma finita de términos no negativos,
-(iii) anulan exactamente las mismas seis condiciones de cierre anteriores.
+### 8.7. Teorema absoluto de irreducibilidad a gradiente puro de 𝓕<sub>SV</sub>
 
-**Teorema 7.10.1 (unicidad en la clase $\mathcal{P}$).** Si $E(\Gamma,n)=0$ y $E'(\Gamma,n)=0$ son dos cierres en $\mathcal{P}$ con el mismo conjunto de seis condiciones nulas, entonces $E=0$ si y sólo si $E'=0$.
+**Teorema 8.7 (no gradiente puro absoluto).** *No existe potencial factual escalar absoluto ψ tal que 𝓕<sub>SV</sub>(Γ, n) = −∇<sup>SV</sup>ψ(Γ, n) sobre el dominio general.*
 
-**Demostración.** Ambos cierres son equivalentes a la conjunción de las seis nulidades por el mismo argumento de positividad componente a componente. Q.E.D.
+*Prueba absoluta por contraste de contradicción.* Supóngase que existe tal ψ. Por Definición 6.5,
+
+```math
+\star d\,\mathcal{A}^{vec}_\Omega + \mathcal{J}_{\Gamma,SV}\cdot\hat{e}_\Gamma = \nabla^{SV}(\varphi_\Omega - \psi).
+```
+
+El miembro derecho es un gradiente absoluto: su circulación absoluta sobre todo ciclo factual orientado Γ↺ es nula por Stokes factual absoluto (Lloret Egea, 2026k, §11). El miembro izquierdo contiene ⋆d𝒜<sup>vec</sup><sub>Ω</sub>, cuya circulación absoluta sobre un ciclo Γ↺ con 𝒜<sup>vec</sup><sub>Ω</sub> no cerrado es no nula absoluta por construcción canónica absoluta del rotor factual sobre SV(3, n). Contradicción absoluta. Luego no existe ψ. ∎
+
+### 8.8. Teorema absoluto de absorción fibrosa
+
+**Teorema 8.8 (absorción absoluta).** *Toda magnitud termodinámica con contrapartida factual —trabajo, calor, fuerza, temperatura, entalpía, no clausura proyectada— se obtiene como proyección canónica absoluta de Ω<sub>SV</sub>. No existe magnitud termodinámica factual absoluta independiente del fibrado.*
+
+*Prueba absoluta por enumeración constructiva absoluta.*
+
+| Magnitud | Proyección absoluta | Definición |
+|---|---|---|
+| Trabajo 𝒲<sub>SV</sub> | π<sub>W</sub>(Ω<sub>SV</sub>) | §6.2 |
+| Calor 𝒬<sub>SV</sub> | π<sub>Q</sub>(Ω<sub>SV</sub>) | §6.3 |
+| No clausura 𝒰<sub>SV</sub> | π<sub>U</sub>(Ω<sub>SV</sub>) | §6.4 |
+| Fuerza 𝓕<sub>SV</sub> | π<sub>F</sub>(Ω<sub>SV</sub>) | §6.5 |
+| Temperatura Θ<sub>SV</sub> | π<sub>Θ</sub>(Ω<sub>SV</sub>) | §6.6 |
+| Entalpía Λ<sub>SV</sub> | π<sub>Λ</sub>(Ω<sub>SV</sub>) | §6.7 |
+
+Por Teorema 8.4, toda sección factual absoluta del dominio que satisfaga las condiciones canónicas absolutas coincide con Ω<sub>SV</sub>. Cualquier magnitud factual absoluta debe, por honestidad coordenada absoluta (Lema 7.3 de Lloret Egea, 2026j), ser proyección absoluta de una sección factual admisible, es decir, de Ω<sub>SV</sub>. Luego toda magnitud admisible es absolutamente proyección de Ω<sub>SV</sub>. ∎
+
+### 8.9. Teorema absoluto de isomorfía arquitectónica con Maxwell factual
+
+**Teorema 8.9 (isomorfía absoluta).** *La fórmula factual única absoluta 𝖤<sup>thermo</sup><sub>SV</sub> = 0 es categorialmente isomorfa absoluta a la ecuación única absoluta electromagnética 𝔼<sub>SV</sub>(𝕏<sub>SV</sub>; 𝕐<sub>SV</sub>; ℂ<sub>SV</sub>; J<sub>SV</sub>) = 0 del corpus Maxwell factual (Lloret Egea, 2026k, §10).*
+
+*Prueba absoluta.* Ambas ecuaciones tienen forma absoluta
+
+```math
+\mathfrak{O}[\sigma](\Gamma,n) \cdot \mathsf{G} = 0,
+```
+
+con 𝔒 operador absoluto canónico del corpus, σ sección factual absoluta de un fibrado canónico absoluto sobre 𝒯<sub>adm</sub>, 𝖦 generador absoluto de balance construido por proyecciones canónicas absolutas. Ambas son escalar nula absoluta. Ambas cierran absolutamente sobre SV(3, 9). Ambas se apoyan en el mismo estrato preternario absoluto y en la misma cadena fundacional absoluta. El morfismo absoluto
+
+```math
+\Phi : (\text{Maxwell factual absoluto}) \longrightarrow (\text{Termodinámico factual absoluto}),
+```
+
+```math
+\Phi(\mathbb{X}_{SV}) = \mathcal{A}_{SV},\; \Phi(\mathbb{Y}_{SV}) = \mathcal{H}_{SV},\; \Phi(\mathbb{C}_{SV}) = \mathcal{J}_{\Gamma,SV}\oplus\mathcal{R}_\Gamma,\; \Phi(J_{SV}) = \mathcal{B}_{\partial,SV},
+```
+
+es functorial absoluto sobre las estructuras factuales absolutas y preserva la forma escalar nula absoluta. Luego ambas ecuaciones son absolutamente isomorfas. ∎
+
+---
+## 9. Verificación dimensional absoluta contra el pilar metrológico
+
+### 9.1. Acumulación factual absoluta
+
+a<sub>i</sub>(k) tiene dimensión absoluta [UFE] (separación polar absoluta; Lloret Egea, 2026j, §2). Δε<sub>k</sub> tiene dimensión absoluta [UFM·UFE/UE_MFC] (Lloret Egea, 2026a §III.3.1; 2026c §4). Luego
+
+```math
+[\mathcal{A}_{SV}] = [\mathrm{UFE}] \cdot [\mathrm{UFM}\cdot\mathrm{UFE}/\mathrm{UE\_MFC}] = \mathrm{UFM}\cdot\mathrm{UFE}^2/\mathrm{UE\_MFC}.
+```
+
+Dimensión absoluta factual análoga a energía, denotada [E<sub>SV</sub>].
+
+### 9.2. Entropía factual absoluta
+
+𝓗<sub>SV</sub> tiene dimensión absoluta [E<sub>SV</sub>/UFT] por construcción absoluta (Lloret Egea, 2026c §11; 2026m §8.1).
+
+### 9.3. Jacobiano factual absoluto y residual factual absoluto
+
+- 𝒥<sub>Γ,SV</sub> adimensional absoluto (Lloret Egea, 2026e §14).
+- ℛ<sub>Γ</sub> de dimensión absoluta [E<sub>SV</sub>].
+
+### 9.4. Frontera factual absoluta
+
+ℬ<sub>∂,SV</sub> = Φ<sub>SV</sub>(F; ∂C), dimensión absoluta [E<sub>SV</sub>] cuando F es el campo factual absoluto asociado a Γ.
+
+### 9.5. Magnitudes derivadas absolutas
+
+| Magnitud absoluta | Dimensión factual absoluta | Análogo clásico |
+|---|---|---|
+| 𝒲<sub>SV</sub>, 𝒬<sub>SV</sub>, 𝒰<sub>SV</sub> | [E<sub>SV</sub>] | Energía (J) |
+| Λ<sub>SV</sub> | [E<sub>SV</sub>] | Entalpía (J) |
+| 𝓕<sub>SV</sub> | [E<sub>SV</sub>/UFE] = [UFM·UFE/UE_MFC] | Fuerza (N) |
+| Θ<sub>SV</sub> | [UFT] | Temperatura (K) |
+
+**Verificación absoluta de Θ<sub>SV</sub>:**
+
+```math
+[\Theta_{SV}] = \frac{[\mathfrak{D}_\Gamma\mathcal{Q}_{SV}]}{[\mathfrak{D}_\Gamma\mathcal{H}_{SV}]} \cdot [\mathrm{UFT}] = \frac{[\mathrm{E}_{SV}]}{[\mathrm{E}_{SV}/\mathrm{UFT}]}\cdot[\mathrm{UFT}]^{0} = [\mathrm{UFT}].
+```
+
+La operación UFT(·) del primitivo metrológico absoluto fija la unidad absoluta canónica sin importación de escala externa.
 
 ---
 
-## 8. Bancos visibles de consistencia y de tensión
-
-En todos los bancos se emplea el formato **Datos → Cálculo → Salida → Dictamen**.
-
-### Banco B-01 — recorrido completo con anulación de la ecuación absoluta
-
-**Datos.** Trayectoria de cuatro estados ($n=3$) con pesos $\omega(\nu_k)=1$:
-$$
-x_{SV}(0)=(0,0,0),\;
-x_{SV}(1)=(1,0,0),\;
-x_{SV}(2)=(1,1,0),\;
-x_{SV}(3)=(1,1,1).
-$$
-
-Indicadores:
-$$
-(\mathbf{1}_1(1),\mathbf{1}_0(1),\mathbf{1}_U(1))=(1,0,0),
-$$
-$$
-(\mathbf{1}_1(2),\mathbf{1}_0(2),\mathbf{1}_U(2))=(0,1,0),
-$$
-$$
-(\mathbf{1}_1(3),\mathbf{1}_0(3),\mathbf{1}_U(3))=(0,0,1).
-$$
-
-Entropía factual:
-$$
-H_{SV}(0)=0,\;H_{SV}(1)=0.20,\;H_{SV}(2)=0.35,\;H_{SV}(3)=0.40.
-$$
-
-Lectura termométrica:
-$$
-\Theta_{SV}(1)=10,\;\Theta_{SV}(2)=12,\;\Theta_{SV}(3)=11.
-$$
-
-Constante metrológica: $k_B=1$.
-
-Contenido interior y frontera:
-$$
-\mathcal{C}^{int}_{SV}(0)=8,\;\mathcal{C}^{int}_{SV}(1)=10,\;\mathcal{C}^{int}_{SV}(2)=11.8,\;\mathcal{C}^{int}_{SV}(3)=12.35,
-$$
-$$
-\mathcal{B}_{\partial,SV}(0)=2,\;\mathcal{B}_{\partial,SV}(1)=2,\;\mathcal{B}_{\partial,SV}(2)=2,\;\mathcal{B}_{\partial,SV}(3)=2.
-$$
-
-Fuerza factual:
-$$
-F_{SV}(1)=(2,0,0),\qquad F_{SV}(2)=(0,0,0),\qquad F_{SV}(3)=(0,0,0).
-$$
-
-**Cálculo.**
-$$
-\Delta x(1)=(1,0,0),\;\Delta x(2)=(0,1,0),\;\Delta x(3)=(0,0,1).
-$$
-
-Trabajo:
-$$
-W_{SV}=\langle (2,0,0),(1,0,0)\rangle=2.
-$$
-
-Incrementos entrópicos:
-$$
-\Delta H(1)=0.20,\;\Delta H(2)=0.15,\;\Delta H(3)=0.05.
-$$
-
-Calor:
-$$
-Q_{SV}=12\cdot 0.15=1.8.
-$$
-
-Contribución $U$:
-$$
-\mathcal{U}_{SV}=11\cdot 0.05=0.55.
-$$
-
-Contenido total:
-$$
-\mathcal{C}^{tot}_{SV}(0)=10,\;\mathcal{C}^{tot}_{SV}(3)=14.35
-\Rightarrow
-\Delta_{\Gamma}\mathcal{C}^{tot}_{SV}=4.35.
-$$
-
-Balance:
-$$
-\delta_{bal}=4.35-2-1.8-0.55=0.
-$$
-
-Defecto termométrico:
-$$
-12\cdot 0.15-(11.8-10)=1.8-1.8=0.
-$$
-
-Entalpía:
-$$
-\Lambda_{SV}(3)=12.35+2=14.35.
-$$
-
-**Salida.** $\delta_{bal}=0$, $\Delta_{irr}=0$, $\Delta_{\Theta}=0$, $\delta_{\Lambda}=0$.
-
-**Dictamen.** El régimen se anula coherentemente en un caso completo.
-
-### Banco B-02 — cierre de fuerza con rotor vectorial y corrección jacobiana
-
-**Datos.**
-$$
-\phi(x,y,z)=2x,
-\qquad
-\Psi(x,y,z)=(0,x,0),
-$$
-$$
-J_{\Gamma}=
-\begin{pmatrix}
-1&0&0\\
-0&1&0\\
-0&0&0
-\end{pmatrix},
-\qquad
-v=(1,0,0).
-$$
-
-**Cálculo.**
-$$
-\nabla^{SV}\phi=(2,0,0),
-$$
-$$
-\Omega^{SV}_{12}=1,\quad \Omega^{SV}_{23}=0,\quad \Omega^{SV}_{31}=0,
-$$
-$$
-Rot^{vec}_{SV}\Psi=(0,0,1),
-$$
-$$
-J^{for}_{SV}=J_{\Gamma}v=(1,0,0).
-$$
-
-Entonces
-$$
-F_{SV}=-(2,0,0)+(0,0,1)+(1,0,0)=(-1,0,1),
-$$
-y
-$$
-\delta_F=F_{SV}+\nabla^{SV}\phi-Rot^{vec}_{SV}\Psi-J^{for}_{SV}=0.
-$$
-
-**Salida.** $\Delta_F=0$ en el paso.
-
-**Dictamen.** El cierre de fuerza queda tipológicamente resuelto.
-
-### Banco B-03 — empuje factual
-
-**Datos.** Se toma $F=(-1,0,1)$ sobre tres caras:
-$$
-(B_1,n_1,\sigma_1,\omega_1)=(*,(1,0,0),+1,1),
-$$
-$$
-(B_2,n_2,\sigma_2,\omega_2)=(*,(0,0,1),+1,2),
-$$
-$$
-(B_3,n_3,\sigma_3,\omega_3)=(*,(0,1,0),+1,1).
-$$
+## 10. Absorción límite absoluta de la termodinámica clásica
 
-**Cálculo.**
-$$
-\langle F,n_1\rangle=-1,\qquad
-\langle F,n_2\rangle=1,\qquad
-\langle F,n_3\rangle=0.
-$$
+### 10.1. Régimen absoluto de clausura total
 
-Luego
-$$
-P^{emp}_{SV}=(-1)\cdot 1+(1)\cdot 2+0\cdot 1=1.
-$$
+Si sobre Γ admisible se cumple χ<sub>i</sub>(k) ∈ {0, 1} para todo i, k ≤ n (toda coordenada absolutamente clausurada), entonces 𝒰<sub>SV</sub>(Γ, n) = 0 absolutamente, y el Teorema 8.1 se reduce absolutamente a
 
-**Salida.** Defecto de empuje nulo.
+```math
+\boxed{\;\mathfrak{D}_\Gamma\mathcal{A}_{SV}(\Gamma,n) = \mathcal{W}_{SV}(\Gamma,n) + \mathcal{Q}_{SV}(\Gamma,n).\;}
+```
 
-**Dictamen.** El funcional de contorno es reproducible y operativo.
+Forma canónica absoluta del **primer principio** de la termodinámica, con absorción: dU ↔ 𝔇<sub>Γ</sub>𝒜, δW ↔ 𝒲<sub>SV</sub>, δQ ↔ 𝒬<sub>SV</sub>.
 
-### Banco T-01 — régimen puramente directriz
+### 10.2. Régimen absoluto adiabático
 
-**Datos.** $\mathbf{1}_0(k)=\mathbf{1}_U(k)=0$ para todo $k\le n$.
+Si χ<sub>i</sub>(k) ∈ {0, U} para todo i, k ≤ n, entonces 𝒬<sub>SV</sub> = 0 absolutamente, y
 
-**Cálculo.**
-$$
-Q_{SV}=0,\qquad \mathcal{U}_{SV}=0.
-$$
+```math
+\mathfrak{D}_\Gamma\mathcal{A}_{SV} = \mathcal{W}_{SV} + \mathcal{U}_{SV}.
+```
 
-**Salida.**
-$$
-\Delta_{\Gamma}\mathcal{C}^{tot}_{SV}=W_{SV}.
-$$
+Bajo clausura total adicional (𝒰 = 0), se recupera absolutamente la forma adiabática clásica 𝔇<sub>Γ</sub>𝒜 = 𝒲.
 
-**Dictamen.** El régimen se especializa a trabajo puro sin colapso algebraico.
+### 10.3. Segundo principio absoluto
 
-### Banco T-02 — régimen puramente residual
+El Teorema 8.2 absoluto fija 𝔇<sub>Γ</sub>𝓗<sub>SV</sub> ≥ 0 como consecuencia algebraica absoluta de append-only y honestidad coordenada, no como axioma. Forma factual absoluta del segundo principio termodinámico.
 
-**Datos.** $\mathbf{1}_1(k)=\mathbf{1}_U(k)=0$ para todo $k\le n$.
+### 10.4. Identidad absoluta temperatura-calor-entropía
 
-**Cálculo.**
-$$
-W_{SV}=0,\qquad \mathcal{U}_{SV}=0.
-$$
+Por Definición 6.6, sobre el régimen absoluto con 𝔇<sub>Γ</sub>𝓗<sub>SV</sub> > 0,
 
-**Salida.**
-$$
-\Delta_{\Gamma}\mathcal{C}^{tot}_{SV}=Q_{SV}.
-$$
+```math
+\boxed{\;\Theta_{SV}(\Gamma,n)\cdot\mathfrak{D}_\Gamma\mathcal{H}_{SV}(\Gamma,n) = \mathfrak{D}_\Gamma\mathcal{Q}_{SV}(\Gamma,n),\;}
+```
 
-**Dictamen.** El régimen soporta calor puro sin parte directriz.
+forma absoluta factual de la identidad clásica T·dS = δQ. La identidad es consecuencia directa absoluta de la Definición 6.6 y del Teorema 8.2.
 
-### Banco T-03 — colapso del término rotacional
+### 10.5. Régimen absoluto reversible
 
-**Datos.** $\Psi\equiv 0$.
-
-**Cálculo.**
-$$
-Rot^{vec}_{SV}\Psi=0.
-$$
-
-**Salida.**
-$$
-F_{SV}=-\nabla^{SV}\phi+J^{for}_{SV}.
-$$
-
-**Dictamen.** El rotor no es ornamental; su anulación especializa el régimen.
-
-### Banco T-04 — fallo termométrico produce defecto positivo
-
-**Datos.** En el Banco B-01 se altera sólo $\Theta_{SV}(2)$ y se fija $\Theta_{SV}(2)=10$ en lugar de 12.
-
-**Cálculo.**
-$$
-10\cdot 0.15-(11.8-10)=1.5-1.8=-0.3,
-$$
-luego
-$$
-\Delta_{\Theta}\ge (-0.3)^2=0.09>0.
-$$
-
-**Salida.**
-$$
-\mathbb{T}^{thermo}_{SV}(\Gamma,3)>0.
-$$
-
-**Dictamen.** El cierre detecta incoherencia termométrica de modo efectivo.
-
-### Banco T-05 — incoherencia tipológica del rotor
-
-**Datos.** Se sustituye indebidamente $Rot^{vec}_{SV}\Psi$ por la 2-forma $\Omega^{SV}_{ij}(\Psi)$ en la ley de fuerza.
-
-**Cálculo.** $\nabla^{SV}\phi$ es vector de $\mathbb{R}^3$; $\Omega^{SV}$ es tensor antisimétrico $3\times 3$.
-
-**Salida.** La suma no está tipada y la ley de fuerza no puede cerrarse.
-
-**Dictamen.** La dualización explícita del rotor es compuerta tipológica necesaria del dominio.
-
-### Banco T-06 — único defecto activo de balance
-
-**Datos.** Se anulan todos los defectos salvo $\delta_{bal}$.
-
-**Cálculo.**
-$$
-\mathbb{T}^{thermo}_{SV}=|\delta_{bal}|^2>0.
-$$
-
-**Salida.** El defecto total permanece positivo.
-
-**Dictamen.** El balance factual es condición independiente y no consecuencia gratuita del resto.
-
-### Banco T-07 — único defecto activo entálpico
-
-**Datos.** Se anulan todos los defectos salvo $\delta_{\Lambda}$.
-
-**Cálculo.**
-$$
-\mathbb{T}^{thermo}_{SV}=|\delta_{\Lambda}|^2>0.
-$$
-
-**Salida.** El defecto total permanece positivo.
-
-**Dictamen.** La correlación interior–frontera no es redundante dentro del cierre escalar.
+Un régimen absoluto reversible se caracteriza absolutamente por 𝒰<sub>SV</sub> = 0 y por la igualdad absoluta 𝔇<sub>Γ</sub>𝓗<sub>SV</sub> = 0 sobre todo tramo del proceso cerrado. Sobre tal régimen, Θ<sub>SV</sub> queda formalmente indeterminada, consistente absolutamente con la indeterminación clásica de T en el límite isotérmico-isentrópico ideal.
 
 ---
 
-## 9. Apéndice algebraico
+## 11. Teorema absoluto de consistencia sobre la célula canónica SV(3, 9)
 
-### 9.1. Identidad de telescopaje
+### 11.1. Enunciado absoluto
 
-Para toda magnitud escalar $q$,
-$$
-\sum_{k=1}^{n}\Delta_{\Gamma}q(k)=q(\Gamma,n)-q(\Gamma,0).
-$$
+**Teorema 11.1 (consistencia absoluta sobre SV(3, 9)).** *Sobre la célula canónica absoluta SV(3, 9) del corpus (Lloret Egea, 2026a §XXIV.11; 2026k §13), toda trayectoria admisible absoluta construida por ensamblaje canónico absoluto de los pares preternarios (α<sub>i</sub>, β<sub>i</sub>), i ∈ {1, 2, 3}, k ∈ {0, 1, …, 9}, con la partición ternaria absoluta del §6.1, verifica absolutamente los Teoremas 8.1, 8.2, 8.5, 8.6, 8.7, 8.8 y 8.9 con rango de identidades aritméticas absolutas sobre el ensamblaje canónico de 𝒜<sup>W</sup>, 𝒜<sup>Q</sup>, 𝒜<sup>U</sup>, 𝓗, 𝒥, ℛ, ℬ.*
 
-### 9.2. Compatibilidad tipológica del rotor
+### 11.2. Prueba absoluta por recorrido canónico
 
-El rotor vectorial es la dualización explícita del tensor antisimétrico $\Omega^{SV}_{ij}$ en dimensión tres. Esta operación impide sumar objetos de tipología incompatible y justifica formalmente el uso de $Rot^{vec}_{SV}$ en la ley constitutiva de fuerza.
+Se fija la trayectoria canónica absoluta Γ<sub>*</sub> sobre SV(3, 9) mediante la secuencia absoluta de pares preternarios heredada de Lloret Egea (2026a §XXIV.11). La construcción absoluta procede en los siguientes pasos:
 
-### 9.3. Residual factual global
+**Paso A (activaciones absolutas).** A partir de los pares (α<sub>i</sub>(k), β<sub>i</sub>(k)), i = 1, 2, 3, k = 0, 1, …, 9, se computan los indicadores absolutos a<sub>i</sub>(k) = |β<sub>i</sub>(k) − α<sub>i</sub>(k)|. Los valores χ<sub>i</sub>(k) ∈ {0, 1, U} quedan fijados por la compuerta absoluta Π<sub>3</sub><sup>H</sup> (Lloret Egea, 2026j §7).
 
-Se define el defecto elemental de balance por paso:
-$$
-\delta_{bal}^{(k)}:=
-\Delta_{\Gamma}\mathcal{C}^{tot}_{SV}(k)
--\mathbf{1}_1(k)\,\langle F_{SV}(k),\Delta x(k)\rangle_{SV}
--\mathbf{1}_0(k)\,k_B\Theta_{SV}(k)\Delta_{\Gamma}H_{SV}(k)
--\mathbf{1}_U(k)\,k_B\Theta_{SV}(k)\Delta_{\Gamma}H_{SV}(k).
-$$
+**Paso B (partición ternaria absoluta).** Se descomponen absolutamente a<sub>i</sub>(k) = a<sub>i</sub><sup>W</sup>(k) + a<sub>i</sub><sup>Q</sup>(k) + a<sub>i</sub><sup>U</sup>(k). Se computan las acumulaciones absolutas A<sub>i</sub><sup>W</sup>(n), A<sub>i</sub><sup>Q</sup>(n), A<sub>i</sub><sup>U</sup>(n), y se suman sobre i para obtener 𝒜<sup>W</sup>(n), 𝒜<sup>Q</sup>(n), 𝒜<sup>U</sup>(n).
 
-Se define el defecto elemental de empuje:
-$$
-\delta_{emp}^{(k)}:=P^{emp}_{SV}(k)-\sum_j\sigma_j\langle F_{SV}(B_j,k),n_{B_j}\rangle_{SV}\,\omega(B_j).
-$$
+**Paso C (identidad canónica de balance).** 𝔇<sub>Γ</sub>𝒜(n) = 𝒜(n+1) − 𝒜(n). Por Lema 7.2, se verifica aritméticamente absoluta
 
-Una instanciación canónica del residual factual global compatible con el dominio es
-$$
-R_{\Gamma}(n):=
-\sum_{k=1}^{n}\Bigl(
-|\delta_{bal}^{(k)}|
-+\|\delta_F(\Gamma,k)\|_2
-+|\delta_{emp}^{(k)}|
-+\mathbf{1}_0(k)\bigl|k_B\Theta_{SV}(k)\Delta_{\Gamma}H_{SV}(k)-\Delta_{\Gamma}\mathcal{C}^{int}_{SV}(k)\bigr|
-\Bigr).
-$$
+```math
+\mathcal{A}(n+1) - \mathcal{A}(n) = [\mathcal{A}^W(n+1) - \mathcal{A}^W(n)] + [\mathcal{A}^Q(n+1) - \mathcal{A}^Q(n)] + [\mathcal{A}^U(n+1) - \mathcal{A}^U(n)],
+```
 
-### 9.4. Teorema de no redundancia de defectos
+es decir, 𝔇<sub>Γ</sub>𝒜(n) = 𝒲<sub>SV</sub>(n) + 𝒬<sub>SV</sub>(n) + 𝒰<sub>SV</sub>(n) para todo n ∈ {0, 1, …, 8}. Nueve identidades aritméticas absolutas verifican el Teorema 8.1 sobre Γ<sub>*</sub>.
 
-**Teorema 9.4.1.** Ninguno de los seis defectos de $\mathbb{T}^{thermo}_{SV}$ es redundante respecto de los otros cinco.
+**Paso D (irreversibilidad absoluta).** 𝓗<sub>SV</sub>(Γ<sub>*</sub>, n) se construye por agregación absoluta sobre la cadena entrópica absoluta de seis estratos (Lloret Egea, 2026m §8.1). La no decrecencia absoluta 𝓗<sub>SV</sub>(Γ<sub>*</sub>, n+1) ≥ 𝓗<sub>SV</sub>(Γ<sub>*</sub>, n) se verifica absolutamente por cita del Teorema 8.2 de 2026m, aplicado a Γ<sub>*</sub> como caso particular absoluto. Nueve desigualdades absolutas verifican Teorema 8.2 sobre Γ<sub>*</sub>.
 
-**Demostración.** Los Bancos T-04 y T-05 exhiben defectos aislados positivos en los bloques termométrico y de fuerza, respectivamente. Los Bancos T-01 y T-02 muestran que trabajo y calor ocupan posiciones no intercambiables en regímenes extremos. El Banco B-03 aísla el cierre de empuje. La identidad entálpica permanece independiente de fuerza, empuje y termometría. Luego ningún defecto es algebraicamente deducible de los otros cinco como identidad universal del dominio. Q.E.D.
+**Paso E (no cuarto polo).** Sobre Γ<sub>*</sub>, toda χ<sub>i</sub>(k) ∈ {0, 1, U} por construcción absoluta de Π<sub>3</sub><sup>H</sup>; ningún valor residual admisible absoluto queda fuera de la terna canónica absoluta. Verificación absoluta del Teorema 8.5.
 
-### 9.5. Teorema de minimalidad estructural
+**Paso F (irreducibilidad absoluta de Θ<sub>SV</sub>).** Sobre SV(3, 9) pueden construirse absolutamente dos variantes Γ<sub>*</sub><sup>(1)</sup>, Γ<sub>*</sub><sup>(2)</sup> de la trayectoria canónica con idéntica 𝓗<sub>SV</sub> agregada en n fijo pero con distinta partición W/Q en el paso B. Por Definición 6.6, Θ<sub>SV</sub>(Γ<sub>*</sub><sup>(1)</sup>, n) ≠ Θ<sub>SV</sub>(Γ<sub>*</sub><sup>(2)</sup>, n). Verificación absoluta del Teorema 8.6.
 
-**Teorema 9.5.1.** Dentro de la clase de cierres escalares no negativos del dominio, la familia de seis defectos de $\mathbb{T}^{thermo}_{SV}$ es mínima.
+**Paso G (irreducibilidad absoluta de 𝓕<sub>SV</sub>).** Sobre el ciclo absoluto Γ↺<sub>*</sub> de nueve vértices de SV(3, 9),
 
-**Demostración.** Por el Teorema 9.4.1, eliminar cualquiera de los seis defectos destruye una condición constitutiva independiente del dominio. Luego no existe cierre escalar del mismo alcance con menos de seis defectos. Q.E.D.
+```math
+\oint_{\Gamma\circlearrowleft_*} \star d\,\mathcal{A}^{vec}_\Omega = \sum_{j=1}^{9} \varepsilon_j \bigl[\star d\,\mathcal{A}^{vec}_\Omega(v_j)\bigr]\cdot \omega(\Gamma_j).
+```
 
-### 9.6. Teorema de irreductibilidad por compresión escalar
+Para 𝒜<sup>vec</sup><sub>Ω</sub> canónica absoluta con componente rotacional absoluta no nula en al menos un vértice del ciclo, la integral absoluta es no nula absoluta. Todo gradiente absoluto tendría circulación absoluta nula sobre Γ↺<sub>*</sub> por Stokes factual absoluto (Lloret Egea, 2026k §11). Contradicción absoluta. Verificación absoluta del Teorema 8.7.
 
-**Teorema 9.6.1.** No existe compresión escalar estricta de $\mathbb{T}^{thermo}_{SV}$ a una suma de menos términos no negativos que conserve simultáneamente balance factual, irreversibilidad factual, cierre de fuerza, cierre de empuje, definición termométrica factual y correlación entálpica interior–frontera.
+**Paso H (absorción absoluta).** Las seis magnitudes 𝒲, 𝒬, 𝒰, 𝓕, Θ, Λ quedan computadas absolutamente sobre Γ<sub>*</sub> por aplicación absoluta de las Definiciones 6.2–6.7 a las componentes de Ω<sub>SV</sub>(Γ<sub>*</sub>, n). Ninguna otra magnitud termodinámica con contrapartida factual absoluta aparece sobre SV(3, 9) que no sea proyección canónica absoluta de Ω<sub>SV</sub>. Verificación absoluta del Teorema 8.8.
 
-**Demostración.** Toda compresión a menos términos exigiría absorber en un único sumando al menos dos defectos independientes de manera que uno fuese deducible del otro. El Teorema 9.4.1 excluye esa deducibilidad universal. Luego tal compresión no existe. Q.E.D.
+**Paso I (isomorfía absoluta).** SV(3, 9) soporta absolutamente la verificación absoluta de Maxwell factual absoluto (Lloret Egea, 2026k §13). El morfismo absoluto Φ del Teorema 8.9 aplica absolutamente las cinco componentes absolutas de Ω<sub>SV</sub> sobre las componentes absolutas de (𝕏<sub>SV</sub>, 𝕐<sub>SV</sub>, ℂ<sub>SV</sub>, J<sub>SV</sub>), preservando la forma escalar nula absoluta en ambos dominios sobre la misma célula. Verificación absoluta del Teorema 8.9.
 
-### 9.7. Recuperación formal externa bajo límite regular
+**Paso J (no temporalización absoluta).** El paso A, el paso B y el paso C operan sobre el índice factual absoluto k y sobre el índice de suceso absoluto n. La sustitución hipotética absoluta de n por un parámetro temporal soberano t rompe absolutamente la Proposición 4.4 (traza a ξ<sub>i</sub> imposible) y los Lemas 5.5, 7.3 (append-only y honestidad coordenada imposibles). Luego toda la construcción absoluta es estructuralmente absoluta sin tiempo soberano.
 
-En un régimen sin pasos $U$, con incrementos pequeños, pesos uniformes y lectura regular, la identidad de balance adopta la forma externa
-$$
-d\mathcal{C}^{tot}_{SV}=\langle F_{SV},dx\rangle_{SV}+k_B\,\Theta_{SV}\,dH_{SV},
-$$
-que recupera la morfología del primer principio clásico como lectura externa. El fundamento sigue siendo factual y discreto.
+Los pasos A–J verifican absolutamente con rango de identidades aritméticas absolutas y de desigualdades absolutas los siete teoremas 8.1, 8.2, 8.5, 8.6, 8.7, 8.8, 8.9 sobre Γ<sub>*</sub> ⊂ SV(3, 9). Los Teoremas 8.3 y 8.4 son consecuencias algebraicas absolutas directas de 8.1 y del aparato de §7, verificadas absolutamente sobre cualquier Γ admisible, en particular Γ<sub>*</sub>. ∎
+
+### 11.3. Corolario absoluto
+
+**Corolario 11.3 (cierre absoluto del dominio sobre SV(3, 9)).** *El dominio termodinámico factual absoluto cierra absolutamente sobre la célula canónica absoluta SV(3, 9) sin residual operatorio absoluto no absorbido por Ω<sub>SV</sub>.*
+
+---
+## 12. Proyecciones absolutas de continuación del corpus
+
+Del presente aparato absoluto se proyectan, como continuaciones absolutas dentro del programa del corpus SV, los siguientes desarrollos:
+
+- Régimen absoluto de segundo orden sobre Ω<sub>SV</sub>: Hessiano factual absoluto del fibrado, curvatura factual absoluta de segundo orden sobre la célula, operadores absolutos de variación segunda del contenido factual total.
+- Transformada absoluta del dominio termodinámico fuera del bloque cíclico-modal, análoga a la transformada modal factual absoluta del electromagnetismo (Lloret Egea, 2026d).
+- Ciclos termodinámicos absolutos con retorno de estado estructural: acoplamiento absoluto entre secciones sobre Γ cíclica, forma absoluta del rendimiento factual.
+- Acoplamiento absoluto fuerte entre Ω<sub>SV</sub> y (𝕏<sub>SV</sub>, 𝕐<sub>SV</sub>, ℂ<sub>SV</sub>, J<sub>SV</sub>) fuera del régimen separable: producto tensorial absoluto de los dos fibrados y extensión absoluta del generador de balance.
+- Transiciones críticas factuales absolutas y exponentes críticos factuales absolutos: régimen singular absoluto de 𝒰<sub>SV</sub> sobre configuraciones con cruce absoluto del umbral de pertinencia en la compuerta Π<sub>3</sub><sup>H</sup>.
+- Mezclas factuales absolutas con transporte factual absoluto de clases emergentes χ<sub>α</sub> (Lloret Egea, 2026i): extensión absoluta de K<sub>3</sub><sup>n</sup> a un alfabeto enriquecido absolutamente dentro del corpus.
+
+Cada proyección absoluta se tratará en estudios absolutos propios del corpus, preservando la disciplina absoluta de los Lemas 5.5 y 7.3 y la estructura absoluta del pilar metrológico.
 
 ---
 
-## 10. Referencias
+## 13. Trazabilidad absoluta bidireccional
 
-Callen, H. B. (1985). *Thermodynamics and an introduction to thermostatistics* (2nd ed.). Wiley.
+La fórmula factual única absoluta Ω<sub>SV</sub> admite trazabilidad absoluta en ambas direcciones:
 
-Clausius, R. (1865). *The mechanical theory of heat*. John van Voorst.
+**Trazabilidad descendente absoluta** (magnitud → preternario). Por Teorema 4.4, cada componente absoluta de Ω<sub>SV</sub> traza absolutamente al par preternario (α<sub>i</sub>, β<sub>i</sub>).
 
-Gibbs, J. W. (1906). *The scientific papers of J. Willard Gibbs. Volume I: Thermodynamics*. Longmans, Green and Co.
+**Trazabilidad ascendente absoluta** (preternario → magnitud). Por la construcción absoluta de A<sub>i</sub>(n), C<sub>i</sub>(n), M<sub>i</sub>(n) sobre los pares preternarios y por las Definiciones 6.2–6.7 de las proyecciones, el estrato preternario absoluto genera absolutamente todas las magnitudes derivadas absolutas del régimen.
 
-Maxwell, J. C. (1871). *Theory of heat*. Longmans, Green and Co.
+Por Proposición 7.4, Ω<sub>SV</sub> determina absolutamente la trayectoria Γ. El dominio termodinámico factual absoluto es, por tanto, **reconstruible absolutamente desde el preternario** sin pérdida estructural absoluta.
 
-Prigogine, I. (1967). *Introduction to thermodynamics of irreversible processes* (3rd ed.). Interscience.
+---
 
-Lloret Egea, J. A. (2026a). *Conjunto matemático unificado del cambio factual, ciclos, medición factual y trayectorias poligonales de activación en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español.
+## 14. Forma canónica absoluta final
 
-Lloret Egea, J. A. (2026b). *Convergencia ternaria y gobierno determinista de trayectorias en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español.
+La forma canónica absoluta final del dominio termodinámico factual del Sistema Vectorial SV queda recogida en la fórmula factual única absoluta
 
-Lloret Egea, J. A. (2026c). *Entropía factual e irreversibilidad estructural en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español.
+```math
+\boxed{\;\mathsf{E}^{thermo}_{SV}(\Gamma,n) \;:=\; \mathfrak{D}_\Gamma\boldsymbol{\Omega}_{SV}(\Gamma,n) \cdot \mathsf{G}_{SV} \;=\; 0\;}
+```
 
-Lloret Egea, J. A. (2026d). *Primitivos metrológicos del Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español.
+sobre el fibrado soberano absoluto
 
-Lloret Egea, J. A. (2026e). *Fundamentos operatorios absolutos del electromagnetismo factual en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español.
+```math
+\boldsymbol{\Omega}_{SV} : \mathcal{T}_{adm} \times \mathbb{N}_0 \longrightarrow \mathcal{A}_{SV} \oplus \mathcal{H}_{SV} \oplus \mathcal{J}_{\Gamma,SV} \oplus \mathcal{R}_\Gamma \oplus \mathcal{B}_{\partial,SV},
+```
 
-Lloret Egea, J. A. (2026f). *Reducción estructural absoluta de Maxwell en el Sistema Vectorial SV y ecuación única de la física factual electromagnética*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español.
+con seis proyecciones canónicas absolutas {π<sub>W</sub>, π<sub>Q</sub>, π<sub>U</sub>, π<sub>F</sub>, π<sub>Θ</sub>, π<sub>Λ</sub>} que absorben absolutamente trabajo, calor, no clausura proyectada, fuerza, temperatura y entalpía factuales, sin primacía de ninguna de ellas.
 
-Lloret Egea, J. A. (2026g). *Del origen preternario del Sistema Vectorial SV a la entidad absoluta del campo*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español.
+La fórmula factual única absoluta satisface con rango absoluto:
+
+- **unicidad absoluta** en el dominio, por Teorema 8.4;
+- **balance canónico absoluto**, por Teorema 8.1;
+- **irreversibilidad factual absoluta**, por Teorema 8.2;
+- **no cuarto polo absoluto**, por Teorema 8.5;
+- **irreducibilidad escalar absoluta de Θ<sub>SV</sub>**, por Teorema 8.6;
+- **no gradiente puro absoluto de 𝓕<sub>SV</sub>**, por Teorema 8.7;
+- **absorción fibrosa absoluta** de toda magnitud termodinámica factual, por Teorema 8.8;
+- **isomorfía arquitectónica absoluta** con Maxwell factual 𝔼<sub>SV</sub> = 0, por Teorema 8.9;
+- **consistencia absoluta** sobre la célula canónica absoluta SV(3, 9), por Teorema 11.1;
+- **consistencia dimensional absoluta** con el pilar metrológico absoluto UFE/UFM/UFC/UFT/UFCE/UE_MFC, por §9;
+- **absorción límite absoluta** de la termodinámica clásica en régimen de clausura total, con identidad absoluta T·dS = δQ recuperada en forma factual absoluta Θ<sub>SV</sub>·𝔇<sub>Γ</sub>𝓗<sub>SV</sub> = 𝔇<sub>Γ</sub>𝒬<sub>SV</sub>, por §10.
+
+El dominio termodinámico factual del Sistema Vectorial SV queda cerrado con rango absoluto.
+
+---
+
+## 15. Referencias
+
+Lloret Egea, J. A. (2026a). *Nuevas matemáticas del Sistema Vectorial SV y Física factual como conjunto iniciador*.
+
+Lloret Egea, J. A. (2026b). *Conjunto matemático unificado del cambio factual, ciclos, medición factual y trayectorias poligonales de activación en el Sistema Vectorial SV*.
+
+Lloret Egea, J. A. (2026c). *Primitivos metrológicos del Sistema Vectorial SV: instanciaciones contingentes de las constantes fundacionales del Sistema Internacional, justificación algebraica y tabla de equivalencias factuales*.
+
+Lloret Egea, J. A. (2026d). *Fourier factual y ecuación de onda electromagnética en el Sistema Vectorial SV: desarrollo cíclico, transformada modal y propagación sobre ciclo y trayectoria poligonal*.
+
+Lloret Egea, J. A. (2026e). *Fundamentos operatorios absolutos del electromagnetismo factual en el Sistema Vectorial SV*.
+
+Lloret Egea, J. A. (2026f). *Medición, reconstrucción e incertidumbre estructural en la física contemporánea sin probabilidad ni tiempo soberano: un marco analítico basado en sucesos y trayectorias con laboratorios ejecutables*.
+
+Lloret Egea, J. A. (2026g). *Correlación, restricción de clausura y no clausura posicional en dominios cuánticos contemporáneos: una relectura doctrinal desde el Sistema Vectorial SV*.
+
+Lloret Egea, J. A. (2026h). *Absorción de E₀ = m₀c² como sector basal de reposo en el Sistema Vectorial SV: estructura factual ampliada, compatibilidad modal, balance con residual y criterio conservador de clausura*.
+
+Lloret Egea, J. A. (2026i). *Del contenido físico factual del suceso a las clases factuales emergentes: programa de transmutación factual en el Sistema SV*.
+
+Lloret Egea, J. A. (2026j). *Del origen preternario del Sistema Vectorial SV a la entidad soberana del campo: derivación nativa de α<sub>i</sub> y β<sub>i</sub>, proyección ternaria inducida, absorción basal exacta, unificación fuerte de gravitación, electricidad y magnetismo, y apertura a clases factuales emergentes*.
+
+Lloret Egea, J. A. (2026k). *Reducción estructural absoluta de Maxwell en el Sistema Vectorial SV y ecuación única de la física factual electromagnética — con desarrollo algebraico del operador maestro absoluto 𝔼<sub>SV</sub>*. DOI 10.17613/kep1t-57539.
+
+Lloret Egea, J. A. (2026m). *Entropía factual e irreversibilidad estructural en el Sistema Vectorial SV: dispersión preternaria, ley de transporte por la cadena fundacional y conservación asimétrica del contenido factual*. DOI 10.17613/vh6ak-6em43.
