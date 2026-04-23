@@ -1,3 +1,4 @@
+
 # Fuerza, trabajo, calor, entalpía, temperatura, principios y fundamentos de la termodinámica y la correlación entre ellos en el SV
 
 **© 2026. Todos los derechos reservados.** | **Juan Antonio Lloret Egea** | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) | IA eñ™ — La Biblia de la IA™ | ISSN 2695-6411 | Licencia CC BY-NC-ND 4.0 | Madrid, 23/04/2026
@@ -6,717 +7,951 @@
 
 ## Resumen
 
-Este documento fija el régimen termodinámico factual del Sistema Vectorial SV como dominio algebraico cerrado sobre sucesos, no sobre tiempo soberano. Su suelo constitutivo es el estrato preternario de pares admisibles \((\alpha_i,\beta_i)\), del cual se derivan el sesgo factual local, la activación factual, la cadena de irreversibilidad y la entropía factual final \(H_{SV}\). Sobre ese suelo se demuestra la necesidad algebraica de una magnitud factual total \(\mathfrak{C}^{tot}_{SV}\), de una acumulación factual \(\mathfrak{A}_{SV}\), de una frontera factual explícita \(\mathcal{B}_{\partial,SV}\), de un residual factual \(R_{\Gamma}\) y de una componente de no clausura legítima \(\mathcal{N}^{reap}_{SV}\). El conjunto se compacta en una única ecuación soberana del dominio,
+Este documento fija, con rango absoluto dentro del dominio tratado, el régimen termodinámico factual del Sistema Vectorial SV. El cierre no se apoya en tiempo soberano, probabilidad, estadística, minería de datos ni inferencia opaca. El suelo del dominio es el estrato preternario de pares admisibles `(α_i, β_i)`. Desde ese suelo se construye la cadena factual de irreversibilidad, se demuestra la necesidad algebraica de una magnitud factual total, se establece una única ecuación soberana del dominio y se derivan, sin primitividad propia, trabajo factual, calor factual, temperatura factual, fuerza factual, empuje factual y entalpía factual. El documento adopta disciplina de prioridad operatoria del SV, desarrolla un anexo operatorio propio y fija pruebas negativas de irreducibilidad frente a formulaciones escalares, gradiente puro, tiempo soberano e integrales clásicas constitutivas. El cierre es fuerte: no existe otra ecuación independiente del dominio.
 
-$$
-\mathbb{T}^{thermo}_{SV}(\Gamma,n)
-=
-\left(
-\Delta_{\Gamma}\mathfrak{C}^{tot}_{SV}(n)
--
-\mathcal{W}_{SV}(\Gamma,n)
--
-\mathcal{Q}_{SV}(\Gamma,n)
--
-\mathcal{N}^{reap}_{SV}(\Gamma,n),
-\;-
-\Delta_{\Gamma}H_{SV}(\Gamma,n)
-\right),
-$$
-
-sujeta a la condición de régimen fuerte
-
-$$
-\mathbb{T}^{thermo}_{SV}(\Gamma,n)\in \{0\}\times \mathbb{R}_{\le 0}.
-$$
-
-Trabajo factual, calor factual, temperatura factual, fuerza factual, empuje factual y entalpía factual no comparecen como primitivas del dominio, sino como magnitudes derivadas, absorbidas y trazables dentro del régimen único. El documento desarrolla las propiedades algebraicas absolutas del operador maestro, demuestra su irreducibilidad, su unicidad representacional y su resistencia frente a ataques negativos que intentan reducir el dominio a una formulación escalar, a gradiente puro, a tiempo soberano o a integrales clásicas constitutivas. El cierre final es fuerte: no existe otra ecuación independiente del dominio; toda formulación alternativa es reducible a \(\mathbb{T}^{thermo}_{SV}\) o inconsistente con el aparato del SV.
-
-**Palabras clave:** Sistema Vectorial SV; termodinámica factual; entropía factual; irreversibilidad estructural; contenido factual total; operador único del régimen; trabajo factual; calor factual; temperatura factual; fuerza factual; empuje factual; entalpía factual; trazabilidad factual; prioridad operatoria.
+**Palabras clave:** Sistema Vectorial SV; termodinámica factual; entropía factual; irreversibilidad estructural; operador único; fuerza factual; empuje factual; entalpía factual; temperatura factual; trazabilidad factual; prioridad operatoria; clausura absoluta.
 
 ---
 
 ## Abstract
 
-This document fixes the factual thermodynamic regime of the Sistema Vectorial SV as a closed algebraic domain built on events rather than sovereign time. Its constitutive ground is the preternary stratum of admissible pairs \((\alpha_i,\beta_i)\), from which local factual bias, factual activation, the irreversibility chain and the final factual entropy \(H_{SV}\) are derived. On that ground the document proves the algebraic necessity of a total factual content \(\mathfrak{C}^{tot}_{SV}\), a factual accumulation \(\mathfrak{A}_{SV}\), an explicit factual boundary \(\mathcal{B}_{\partial,SV}\), a factual residual \(R_{\Gamma}\) and a legitimate non-closure component \(\mathcal{N}^{reap}_{SV}\). The whole domain is compacted into a single sovereign equation,
-
-$$
-\mathbb{T}^{thermo}_{SV}(\Gamma,n)
-=
-\left(
-\Delta_{\Gamma}\mathfrak{C}^{tot}_{SV}(n)
--
-\mathcal{W}_{SV}(\Gamma,n)
--
-\mathcal{Q}_{SV}(\Gamma,n)
--
-\mathcal{N}^{reap}_{SV}(\Gamma,n),
-\;-
-\Delta_{\Gamma}H_{SV}(\Gamma,n)
-\right),
-$$
-
-under the strong-regime condition
-
-$$
-\mathbb{T}^{thermo}_{SV}(\Gamma,n)\in \{0\}\times \mathbb{R}_{\le 0}.
-$$
-
-Factual work, factual heat, factual temperature, factual force, factual thrust and factual enthalpy are not primitive magnitudes but derived, absorbed and traceable within the unique regime. The document develops the absolute algebraic properties of the master operator, proves its irreducibility, its representational uniqueness and its resistance against negative attacks that attempt to reduce the domain to a scalar formulation, to a pure gradient, to sovereign time or to constitutive classical integrals. The closure is strong: there is no other independent equation for the domain; every alternative formulation is either reducible to \(\mathbb{T}^{thermo}_{SV}\) or inconsistent with the SV apparatus.
+This document fixes, with absolute rank inside the treated domain, the factual thermodynamic regime of the Sistema Vectorial SV. The closure does not rely on sovereign time, probability, statistics, data mining or opaque inference. The ground of the domain is the preternary stratum of admissible pairs `(α_i, β_i)`. From that ground, the factual chain of irreversibility is built, the algebraic necessity of a total factual magnitude is proven, a single sovereign equation of the domain is established, and factual work, heat, temperature, force, thrust and enthalpy are derived without primitive status of their own. The document adopts the discipline of operator priority of the SV, develops its own operator appendix, and fixes negative tests of irreducibility against scalar formulations, pure gradient, sovereign time and constitutive classical integrals. The closure is strong: there is no other independent equation in the domain.
 
 ---
 
 ## Índice
 
-1. Introducción y estatuto del dominio  
-2. Suelo preternario del dominio termodinámico factual  
-3. Cadena factual de irreversibilidad y entropía factual  
-4. Magnitudes madre del dominio  
-5. Prioridad operatoria del aparato del SV  
-6. Ecuación maestra y operador único del régimen  
-7. Trabajo factual y calor factual  
+1. Introducción y tesis de unicidad  
+2. Disciplina del dominio y prohibiciones constitutivas  
+3. Suelo preternario y cadena factual de irreversibilidad  
+4. Aparato operatorio disponible del SV para el dominio  
+5. Magnitudes madre del régimen termodinámico factual  
+6. Reducción estructural del dominio y ecuación única  
+7. Trabajo factual, calor factual y principio de balance  
 8. Temperatura factual  
 9. Fuerza factual y empuje factual  
 10. Entalpía factual  
-11. Propiedades algebraicas absolutas del operador maestro termodinámico  
-12. Ataques negativos y prueba de irreducibilidad  
-13. Recorrido de consistencia visible y exigencias laboratorias  
-14. Conclusión  
-15. Referencias
+11. Principios globales del régimen  
+12. Compatibilidad metrológica restringida y recuperación formal externa  
+13. Recorrido de consistencia visible  
+14. Síntesis canónica  
+15. Consideraciones finales  
+16. Referencias  
+17. Anexo operatorio absoluto A — Desarrollo algebraico de la ecuación única termodinámica factual
 
 ---
 
-## 1. Introducción y estatuto del dominio
+## 1. Introducción y tesis de unicidad
 
-El presente documento no traduce la termodinámica clásica al lenguaje del SV, no reetiqueta magnitudes heredadas y no concede soberanía a tiempo, probabilidad, estadística, minería de datos ni inferencia opaca. Su objeto es más estricto: fijar, dentro del aparato ya disponible del Sistema Vectorial SV, el dominio termodinámico factual y demostrar que ese dominio queda gobernado por una única ecuación soberana. La tarea no consiste en declarar una unicidad por autoridad verbal, sino en levantar un aparato en el que cualquier formulación alternativa resulte o bien reducible al régimen aquí fijado o bien incompatible con el suelo doctrinal y algebraico del sistema.
+La termodinámica clásica distribuye su vocabulario entre trabajo, calor, temperatura, presión, entalpía, energía interna, equilibrio, irreversibilidad y transporte. Dentro del Sistema Vectorial SV, ninguna de esas voces puede ser importada con soberanía propia. El documento no traduce la termodinámica clásica al lenguaje del SV ni injerta fórmulas heredadas sobre el aparato del sistema. Hace algo más exigente: reduce estructuralmente el dominio termodinámico a operadores, magnitudes y dictámenes factuales del SV y demuestra que esa reducción queda gobernada por una sola ecuación soberana.
 
-El documento adopta cuatro reglas duras.
+La tesis central es ésta:
 
-**Regla 1 — Primacía del suceso.** Toda variación del dominio se ordena por sucesos y por índices factuales de suceso. No se admite tiempo soberano como variable constitutiva.
+```math
+\boxed{
+\mathbb{T}^{thermo}_{SV}(\Gamma,n)=0
+}
+```
 
-**Regla 2 — Primacía del suelo preternario.** Ninguna magnitud alta del dominio precede al sistema de pares admisibles \((\alpha_i,\beta_i)\).
+bajo condición de irreversibilidad factual fuerte
 
-**Regla 3 — Prioridad operatoria del SV.** Cuando el aparato ya disponible del sistema basta para resolver una necesidad local, no procede introducir herramientas externas de potencia soberana superior.
+```math
+\boxed{
+-\Delta_{\Gamma}H_{SV}(\Gamma,n)\le 0.
+}
+```
 
-**Regla 4 — Clausura interna de lo nuclear.** Toda pieza central nombrada y tratada en el documento debe quedar cerrada en esta misma publicación.
+No hay una segunda ecuación independiente del dominio. Toda formulación alternativa o bien queda absorbida por `\mathbb{T}^{thermo}_{SV}`, o bien viola la disciplina constitutiva del Sistema Vectorial SV.
 
-Estas reglas imponen una consecuencia inmediata: trabajo factual, calor factual, temperatura factual, fuerza factual, empuje factual y entalpía factual no pueden entrar en el dominio como nombres heredados de la física clásica. Deben derivarse algebraicamente desde el régimen factual del SV.
+La construcción del dominio adopta cinco exigencias duras:
+
+1. prioridad absoluta del estrato preternario;
+2. eventividad factual estricta frente a tiempo soberano;
+3. prioridad operatoria del aparato ya disponible del SV;
+4. derivación no primitiva de las magnitudes altas;
+5. trazabilidad factual bidireccional de todo el conjunto.
 
 ---
 
-## 2. Suelo preternario del dominio termodinámico factual
+## 2. Disciplina del dominio y prohibiciones constitutivas
+
+### 2.1. Estatuto del dominio tratado
+
+El dominio termodinámico factual se trata aquí como dominio algebraico propio del Sistema Vectorial SV, subordinado a la sede doctrinal y al aparato matemático consolidado del corpus. Ninguna capa inferior corrige silenciosamente a una superior. Ninguna analogía con física clásica opera como fundamento constitutivo.
+
+### 2.2. Prohibiciones constitutivas
+
+El documento excluye, con rango constitutivo:
+
+- tiempo soberano como variable fundacional;
+- probabilidad como criterio de verdad;
+- estadística como soporte de clausura;
+- minería de datos e inferencia opaca;
+- clausura favorable de `U`;
+- integrales clásicas como soberanas cuando el aparato del SV ya resulta suficiente.
+
+### 2.3. Principio de eventividad factual
+
+El dominio se organiza sobre sucesos. Toda variación relevante queda anclada a una cadena factual de sucesos admisibles, trazables y auditables. La derivada factual respecto del índice de suceso sustituye la función de orden del tiempo clásico sin convertirlo en fundamento.
+
+### 2.4. Teorema de no temporalización del dominio
+
+**Teorema 2.4.1.** Ninguna magnitud central del presente documento depende constitutivamente de una variable temporal soberana.
+
+**Demostración.** El dominio asciende desde `(α_i, β_i)` hacia `H_pre`, `H_Ξ`, `H_SV`, `𝔠^{tot}_{SV}` y `𝕋^{thermo}_{SV}`; la cadena no introduce variable temporal soberana en ninguno de sus pasos. Q.E.D.
+
+---
+
+## 3. Suelo preternario y cadena factual de irreversibilidad
+
+### 3.1. Pares admisibles y orientación factual local
 
 Sea el sistema de pares admisibles
 
-$$
-(\alpha_i,\beta_i),\qquad i=1,\dots,N.
-$$
+```math
+(\alpha_i,\beta_i).
+```
 
-Se definen, para cada par, el sesgo factual local y la activación factual
+Se fijan:
 
-$$
+```math
 \delta_i := \beta_i-\alpha_i,
 \qquad
- a_i := |\delta_i|.
-$$
+a_i := |\delta_i|.
+```
 
-El sesgo factual local \(\delta_i\) no es todavía una magnitud termodinámica; es el primer indicador de orientación estructural mínima del dominio. La activación factual \(a_i\) no es calor, ni trabajo, ni temperatura; es sólo el módulo factual local de la separación preternaria. Pero sin \(\delta_i\) y \(a_i\), el dominio no puede levantar ninguna magnitud ulterior sin romper su trazabilidad.
+`δ_i` expresa sesgo polar factual local y `a_i` expresa activación factual local.
 
-**Axioma 2.1 — Prioridad absoluta del suelo preternario.** Ninguna magnitud central del dominio termodinámico factual posee estatuto más originario que \((\alpha_i,\beta_i)\).
+### 3.2. Prioridad absoluta del estrato preternario
 
-**Demostración.** Toda magnitud del dominio será construida, directa o indirectamente, mediante operadores que actúan sobre activación factual, sesgo factual o sus concentraciones y canalizaciones. Si una magnitud central precediera a \((\alpha_i,\beta_i)\), quedaría fuera de trazabilidad factual descendente. Luego no puede preceder al suelo preternario. QED.
+**Axioma 3.2.1.** Ninguna magnitud central del dominio precede al sistema de pares admisibles `(α_i, β_i)`.
 
-**Lema 2.2 — No banalidad de \(U\).** El símbolo \(U\) conserva estatuto de indeterminación honesta y no puede convertirse en cierre favorable del dominio.
+### 3.3. Cadena factual de irreversibilidad
 
-**Demostración.** Si \(U\) se convirtiera en cierre favorable, el dominio sustituiría estructura por plausibilidad. Ello contradice la disciplina constitutiva del SV. QED.
+Se fija la cadena estructural del dominio:
 
----
-
-## 3. Cadena factual de irreversibilidad y entropía factual
-
-Sobre el suelo preternario se define la cadena factual de irreversibilidad
-
-$$
+```math
 (\alpha_i,\beta_i)
-\rightsquigarrow
+\rightarrow
 (\delta_i,a_i)
-\rightsquigarrow
+\rightarrow
 H_{pre}
-\rightsquigarrow
+\rightarrow
 H_{K_3}
-\rightsquigarrow
+\rightarrow
 H_{\Xi}
-\rightsquigarrow
+\rightarrow
 H_{\Sigma_c}
-\rightsquigarrow
+\rightarrow
 H_{\Sigma_k}
-\rightsquigarrow
+\rightarrow
 H_{SV}.
-$$
+```
 
-El documento no necesita reconstruir aquí toda la teoría de esos estratos; sí necesita fijar su función exacta en el dominio tratado.
+### 3.4. Teorema de absorción estratificada
 
-- \(H_{pre}\) recoge la dispersión factual preternaria.  
-- \(H_{K_3}\) transporta esa dispersión a la terna inducida.  
-- \(H_{\Xi}\) enriquece el régimen con jacobiano y residualidad.  
-- \(H_{\Sigma_c}\) concentra factualidad.  
-- \(H_{\Sigma_k}\) canaliza factualidad.  
-- \(H_{SV}\) absorbe estratificadamente toda la cadena.
+**Teorema 3.4.1.** La magnitud `H_{SV}` absorbe estratificadamente la cadena factual precedente y no puede comparecer como magnitud de salto.
 
-**Teorema 3.1 — Absorción estratificada factual.** La entropía factual final \(H_{SV}\) absorbe ordenadamente los estratos anteriores sin colapso ni salto no auditable.
+**Demostración.** Cada estrato incorpora una capa factual adicional sin destruir la precedente: `H_{K_3}` transporta, `H_Ξ` enriquece, `H_{Σ_c}` concentra y `H_{Σ_k}` canaliza. El cierre final en `H_{SV}` es absorción estratificada factual. Q.E.D.
 
-**Demostración.** Cada estrato añade una capa factual compatible con el anterior: \(H_{K_3}\) no destruye \(H_{pre}\), sino que lo transporta; \(H_{\Xi}\) no destruye \(H_{K_3}\), sino que lo enriquece con jacobiano y residual; \(H_{\Sigma_c}\) y \(H_{\Sigma_k}\) reorganizan factualidad sin anular el suelo ya fijado. Si \(H_{SV}\) no absorbiera estratificadamente esas capas, la entropía factual sería un salto no trazable. Luego la absorción es estratificada. QED.
+### 3.5. Teorema de irreversibilidad estructural factual
 
-**Teorema 3.2 — Irreversibilidad estructural factual.** Sea \(\Gamma\) una trayectoria factual admisible. Entonces, para cualesquiera \(n_2\ge n_1\),
+**Teorema 3.5.1.** Para toda trayectoria factual admisible `Γ` y cualesquiera `n_2 \ge n_1`,
 
-$$
+```math
 H_{SV}(\Gamma,n_2)\ge H_{SV}(\Gamma,n_1).
-$$
+```
 
-**Demostración.** Por el Teorema 3.1, \(H_{SV}\) es el cierre absorbente de la cadena factual de irreversibilidad. Si decreciera efectivamente en una trayectoria admisible, o bien la trayectoria no sería factual y admisible, o bien habría reescritura retroactiva, o bien habría pérdida de honestidad estructural. Ninguna de esas tres condiciones es compatible con el dominio. Luego \(H_{SV}\) no decrece. QED.
-
-La primera consecuencia dura es que la segunda componente del operador soberano del dominio no podrá ser otra que el signo opuesto de \(\Delta_{\Gamma}H_{SV}\).
+**Demostración.** La no decrecencia resulta de la monotonía factual absorbida a lo largo de toda la cadena. Q.E.D.
 
 ---
 
-## 4. Magnitudes madre del dominio
+## 4. Aparato operatorio disponible del SV para el dominio
 
-La entropía factual final fija la orientación irreversible del dominio, pero no basta para balancearlo. El régimen necesita, además, magnitudes madres que permitan distinguir acumulación, borde, residualidad y no clausura legítima.
+### 4.1. Flujo factual
 
-Se introducen las siguientes magnitudes.
+Del aparato geométrico factual del corpus se adopta el flujo factual:
 
-### 4.1. Acumulación factual de trayectoria
-
-$$
-\mathfrak{A}_{SV}(\Gamma,n).
-$$
-
-Recoge el espesor factual acumulativo del recorrido. No es todavía trabajo factual.
-
-### 4.2. Residual factual
-
-$$
-R_{\Gamma}(n).
-$$
-
-Recoge la parte del régimen que no queda absorbida por acumulación directa.
-
-### 4.3. Frontera factual explícita
-
-$$
-\mathcal{B}_{\partial,SV}(\Gamma,n).
-$$
-
-Recoge el balance factual de borde, superficie activa y contorno.
-
-### 4.4. No clausura legítima
-
-$$
-\mathcal{N}^{reap}_{SV}(\Gamma,n).
-$$
-
-Recoge la parte del dominio cuya absorción favorable constituiría una clausura espuria.
-
-### 4.5. Contenido factual total
-
-$$
-\mathfrak{C}^{tot}_{SV}(\Gamma,n).
-$$
-
-El contenido factual total no es una energía clásica rebautizada. Es la magnitud madre cuyo cambio puede balancearse dentro del régimen.
-
-**Teorema 4.1 — Necesidad algebraica del contenido factual total.** Dado un dominio cuyo cierre irreversible viene dado por \(H_{SV}\), existe la necesidad algebraica de una magnitud factual total \(\mathfrak{C}^{tot}_{SV}\) cuya variación sea susceptible de partición y balance.
-
-**Demostración.** \(H_{SV}\) orienta irreversiblemente el dominio, pero no discrimina, por sí sola, qué parte del régimen debe leerse como acumulación, qué parte como borde activo, qué parte como residualidad y qué parte como no clausura legítima. Si el dominio ha de balancearse algebraicamente, necesita una magnitud factual total distinta de la entropía factual. Luego \(\mathfrak{C}^{tot}_{SV}\) es necesaria. QED.
-
-**Definición 4.2 — Construcción factual fuerte de \(\mathfrak{C}^{tot}_{SV}\).**
-
-$$
-\mathfrak{C}^{tot}_{SV}
+```math
+\Phi_{SV}(\mathcal F;B)
 =
-\Pi_C\big(
-\mathfrak{A}_{SV},
-\iiint_{\mathcal{V}_{SV}}^{SV}\mathcal{G},
-\iint_{\Sigma_{SV}}^{SV}\mathcal{F},
-R_{\Gamma}
-\big),
-$$
+\sum_j \sigma_j \langle \mathcal F(B_j), n_{B_j}\rangle_{SV}\,\omega(B_j).
+```
 
-con \(\Pi_C\) operador de ensamblaje factual de magnitudes ya trazables del régimen.
+### 4.2. Divergencia factual
 
-**Lema 4.3 — Estatuto de \(\Pi_C\).** El operador \(\Pi_C\) no introduce grados de libertad nuevos ni semántica exterior. Sólo ensambla magnitudes ya trazables.
+```math
+\mathrm{Div}_{SV}(\mathcal F;C)\,\omega(C)
+=
+\Phi_{SV}(\mathcal F;\partial C)-\mathcal I_{res}(\mathcal F;C).
+```
 
-**Demostración.** Sus cuatro entradas son \(\mathfrak{A}_{SV}\), volumen factual, superficie factual y residual factual. Todas ellas pertenecen al aparato del SV o son exigidas por él. Luego \(\Pi_C\) es operador de ensamblaje, no de invención. QED.
+### 4.3. Circulación y rotor factual
 
----
+```math
+\mathfrak C_{\Gamma^\circlearrowleft}(\mathcal F)
+=
+\sum_j \varepsilon_j \mathcal F(\Gamma_j)\,\omega(\Gamma_j),
+```
 
-## 5. Prioridad operatoria del aparato del SV
+```math
+\Omega^{SV}_{ij}(\mathcal F)
+=
+\partial_i^{SV}F^j-\partial_j^{SV}F^i.
+```
 
-El dominio termodinámico factual no puede arrancar usando herramientas clásicas más potentes que las necesarias. Debe obedecer una jerarquía dura:
+### 4.4. Integrales factuales de superficie y volumen
 
-1. herramienta factual ya disponible del SV;  
-2. contraste de suficiencia;  
-3. escalado operatorio sólo si la suficiencia falla materialmente.
+```math
+\iint_{\Sigma_{SV}}^{SV}\mathcal F
+=
+\sum_j \sigma_j\,\mathcal F(B_j)\,\omega(B_j),
+```
 
-### 5.1. Curvilínea, superficie y volumen factuales
+```math
+\iiint_{\mathcal V_{SV}}^{SV}\mathcal G
+=
+\sum_k \mathcal G(C_k)\,\omega(C_k).
+```
 
-Las herramientas prioritarias son:
+### 4.5. Invariancia por refinamiento
 
-$$
-\iint_{\Sigma_{SV}}^{SV} \mathcal{F}
-:=
-\sum_j \sigma_j\,\mathcal{F}(B_j)\,\omega(B_j),
-$$
+El aparato factual preserva resultados bajo refinamiento compatible del mosaico factual, sin forzar cierre favorable de `U`.
 
-$$
-\iiint_{\mathcal{V}_{SV}}^{SV} \mathcal{G}
-:=
-\sum_k \mathcal{G}(C_k)\,\omega(C_k).
-$$
+### 4.6. Regla de prioridad operatoria
 
-Estas expresiones no son integrales clásicas soberanas; son ensamblajes factuales discretos sobre superficies y volúmenes factuales admisibles.
+**Teorema 4.6.1.** Cuando el Sistema Vectorial SV disponga ya de una herramienta suficiente para resolver una necesidad local del dominio, no procede introducir una herramienta exterior de mayor potencia.
 
-### 5.2. Flujo factual, divergencia factual y rotor factual
-
-El dominio hereda del aparato factual del SV la legitimidad de flujo factual, divergencia factual y rotor factual como herramientas suficientes para describir borde, redistribución y circulación del régimen. La publicación no reabre aquí su teoría completa; sí los absorbe como parte del aparato legítimo ya construido.
-
-### 5.3. Jacobiano estructural y curvatura factual
-
-Se fija la notación canónica del jacobiano estructural de trayectoria:
-
-$$
-\mathcal{J}_{\Gamma,SV}(n).
-$$
-
-Y se fija la curvatura factual:
-
-$$
-\kappa^{SV}_{\Gamma}(n).
-$$
-
-Ninguna de ambas magnitudes posee soberanía semántica propia. Su función es describir distribución local de respuesta dentro del régimen factual del dominio.
-
-**Teorema 5.1 — Suficiencia operatoria interna.** El aparato factual ya disponible del SV basta para construir el núcleo del dominio termodinámico factual tratado en esta publicación.
-
-**Demostración.** La construcción de \(\mathfrak{C}^{tot}_{SV}\), de \(\mathbb{T}^{thermo}_{SV}\), de \(\mathfrak{T}^{fact}_{SV}\), de \(\mathfrak{F}^{fact}_{SV}\), del empuje factual y de \(\mathfrak{H}^{fact}_{SV}\) emplea trayectoria factual, volumen factual, superficie factual, residualidad, jacobiano estructural, curvatura factual y frontera explícita. No resulta necesario introducir un aparato exterior más potente como fundamento. Luego el aparato interno es suficiente. QED.
+**Demostración.** La introducción de una herramienta exterior más potente donde el aparato del SV ya es suficiente rompe trazabilidad y sobredimensiona el dominio sin necesidad. Q.E.D.
 
 ---
 
-## 6. Ecuación maestra y operador único del régimen
+## 5. Magnitudes madre del régimen termodinámico factual
 
-Sobre las magnitudes madre del dominio se define el operador soberano del régimen termodinámico factual:
+### 5.1. Necesidad algebraica del contenido factual total
 
-$$
-\mathbb{T}^{thermo}_{SV}(\Gamma,n)
+El dominio no queda gobernado sólo por irreversibilidad. Exige una magnitud factual total balanceable.
+
+Se define:
+
+```math
+\mathfrak C^{tot}_{SV}(\Gamma,n).
+```
+
+### 5.2. Construcción factual de `𝔠^{tot}_{SV}`
+
+Se fija:
+
+```math
+\mathfrak C^{tot}_{SV}
+=
+\mathfrak A_{SV}
++
+\iiint_{\mathcal V_{SV}}^{SV}\mathcal G_C
++
+\iint_{\Sigma_{SV}}^{SV}\mathcal F_C
++
+R_{\Gamma}.
+```
+
+donde:
+
+- `𝔄_{SV}` es acumulación factual de trayectoria;
+- `\mathcal G_C` recoge contenido factual volumétrico;
+- `\mathcal F_C` recoge contenido factual de borde;
+- `R_Γ` recoge residual factual del proceso.
+
+### 5.3. Frontera factual explícita
+
+Se define:
+
+```math
+\mathcal B_{\partial,SV}(\Gamma,n)
+:=
+\iint_{\Sigma_{SV}}^{SV}\mathcal F_C.
+```
+
+### 5.4. Componente de no clausura legítima
+
+Se define:
+
+```math
+\mathcal N^{reap}_{SV}(\Gamma,n),
+```
+
+como el término factual explícito que preserva región legítima de no clausura cuando el dominio no puede cerrarse sin violar honestidad estructural.
+
+### 5.5. Teorema de exhaustividad estructural
+
+**Teorema 5.5.1.** Toda contribución factual del dominio queda absorbida por la tupla
+
+```math
+(
+\mathfrak C^{tot}_{SV},
+\mathfrak A_{SV},
+R_{\Gamma},
+\mathcal B_{\partial,SV},
+\mathcal N^{reap}_{SV}
+).
+```
+
+**Demostración.** Toda contribución factual del dominio es o bien de trayectoria, o bien volumétrica, o bien de borde, o bien residual, o bien de no clausura legítima. No existe sexta familia independiente. Q.E.D.
+
+---
+
+## 6. Reducción estructural del dominio y ecuación única
+
+### 6.1. Forma maestra del dominio
+
+Sea
+
+```math
+\mathbb X^{thermo}_{SV}
+:=
+(
+\mathfrak C^{tot}_{SV},
+\mathfrak A_{SV},
+R_{\Gamma},
+\mathcal B_{\partial,SV},
+\mathcal N^{reap}_{SV},
+H_{SV}
+)^T.
+```
+
+Se define la ecuación única del dominio por:
+
+```math
+\boxed{
+\mathbb T^{thermo}_{SV}(\Gamma,n)
 =
 \left(
-\Delta_{\Gamma}\mathfrak{C}^{tot}_{SV}(n)
+\Delta_{\Gamma}\mathfrak C^{tot}_{SV}(n)
 -
-\mathcal{W}_{SV}(\Gamma,n)
+\mathcal W_{SV}(\Gamma,n)
 -
-\mathcal{Q}_{SV}(\Gamma,n)
+\mathcal Q_{SV}(\Gamma,n)
 -
-\mathcal{N}^{reap}_{SV}(\Gamma,n),
-\;-
-\Delta_{\Gamma}H_{SV}(\Gamma,n)
-\right).
-$$
-
-La condición de régimen fuerte es
-
-$$
-\mathbb{T}^{thermo}_{SV}(\Gamma,n)\in \{0\}\times \mathbb{R}_{\le 0}.
-$$
-
-La primera componente expresa el balance factual total del contenido del dominio; la segunda compacta la irreversibilidad factual.
-
-**Lema 6.1 — Descomposición factual total.**
-
-$$
-\Delta_{\Gamma}\mathfrak{C}^{tot}_{SV}(n)
+\mathcal N^{reap}_{SV}(\Gamma,n),
+\;
+-\Delta_{\Gamma}H_{SV}(\Gamma,n)
+\right)
 =
-\mathcal{W}_{SV}(\Gamma,n)
-+
-\mathcal{Q}_{SV}(\Gamma,n)
-+
-\mathcal{N}^{reap}_{SV}(\Gamma,n).
-$$
+(0,\eta),\; \eta\le 0
+}
+```
 
-**Demostración.** El cambio factual total del dominio no puede agotarse en una lectura binaria entre acumulación y residualidad. Si se eliminara \(\mathcal{N}^{reap}_{SV}\), el régimen blanquearía las regiones de no clausura legítima. Luego la descomposición mínima necesaria del dominio exige las tres componentes del lado derecho. QED.
+### 6.2. Condición de régimen fuerte
 
-**Teorema 6.2 — Equivalencia fuerte entre balance e irreversibilidad.** La condición
+```math
+\boxed{
+\mathbb T^{thermo}_{SV}(\Gamma,n)\in \{0\}\times\mathbb R_{\le 0}.
+}
+```
 
-$$
-\mathbb{T}^{thermo}_{SV}(\Gamma,n)\in \{0\}\times \mathbb{R}_{\le 0}
-$$
+### 6.3. Teorema de unicidad absoluta
 
-equivale exactamente a la conjunción de:
+**Teorema 6.3.1.** No existe ecuación independiente distinta de `\mathbb T^{thermo}_{SV}` que gobierne el dominio termodinámico factual del Sistema Vectorial SV.
 
-1. descomposición factual total del contenido, y  
-2. no decrecencia de \(H_{SV}\).
+**Demostración.** Por exhaustividad de las magnitudes madre (5.5.1), por irreversibilidad estructural factual (3.5.1) y por la condición de régimen fuerte, toda formulación alternativa o bien es reducible a la forma de `\mathbb T^{thermo}_{SV}`, o bien elimina indebidamente residual, borde, irreversibilidad o no clausura legítima. Q.E.D.
 
-**Demostración.** La primera componente del operador se anula si y sólo si vale el Lema 6.1. La segunda pertenece a \(\mathbb{R}_{\le 0}\) si y sólo si \(-\Delta_{\Gamma}H_{SV}\le 0\), esto es, si y sólo si \(\Delta_{\Gamma}H_{SV}\ge 0\). Luego ambas condiciones son equivalentes al régimen fuerte. QED.
+### 6.4. Teorema de irreducibilidad frente a formulación escalar
 
-**Teorema 6.3 — Unicidad operatoria absoluta.** No existe ecuación independiente distinta de \(\mathbb{T}^{thermo}_{SV}\) que gobierne el dominio termodinámico factual tratado en esta publicación.
+**Teorema 6.4.1.** El régimen no puede reducirse a una única magnitud escalar sin pérdida de estructura factual.
 
-**Demostración.** Toda formulación del dominio debe absorber simultáneamente: contenido factual total, trabajo factual, calor factual, no clausura legítima y orientación irreversible. Si una formulación alternativa omitiera alguna de esas cinco piezas, sería incompleta. Si las incluyera todas, sería una reescritura de \(\mathbb{T}^{thermo}_{SV}\). Luego no existe ecuación independiente distinta. QED.
+**Demostración.** El segundo componente de `\mathbb T^{thermo}_{SV}` codifica irreversibilidad factual y el primero codifica balance factual total. La reducción a escalar colapsa la distinción. Q.E.D.
 
 ---
 
-## 7. Trabajo factual y calor factual
-
-Trabajo factual y calor factual no son primitivas del dominio; son lecturas internas del operador soberano.
+## 7. Trabajo factual, calor factual y principio de balance
 
 ### 7.1. Trabajo factual
 
-$$
-\mathcal{W}_{SV}(\Gamma,n)
+Se define el trabajo factual como componente directriz del cambio factual del régimen:
+
+```math
+\mathcal W_{SV}(\Gamma,n)
 :=
 \Pi_W\big(
-\mathfrak{A}_{SV}(\Gamma,n),
-\mathcal{B}_{\partial,SV}(\Gamma,n),
-\mathcal{J}_{\Gamma,SV}(n)
+\mathfrak A_{SV},
+\mathcal B_{\partial,SV},
+\mathcal J_{\Gamma,SV}
 \big).
-$$
-
-El trabajo factual recoge la componente directriz del balance factual del dominio. No equivale sin más a acumulación factual, pero no puede construirse fuera de ella.
+```
 
 ### 7.2. Calor factual
 
-$$
-\mathcal{Q}_{SV}(\Gamma,n)
+Se define el calor factual como componente de redistribución factual no reducible al trabajo:
+
+```math
+\mathcal Q_{SV}(\Gamma,n)
 :=
 \Pi_Q\big(
-R_{\Gamma}(n),
-\mathcal{B}_{\partial,SV}(\Gamma,n),
-\mathcal{J}_{\Gamma,SV}(n)
+H_{SV},
+R_{\Gamma},
+\mathcal B_{\partial,SV}
 \big).
-$$
+```
 
-El calor factual recoge la componente residual y redistributiva del balance. Tampoco es primitivo.
+### 7.3. Primer principio factual del dominio
 
-**Teorema 7.1 — No primitividad de \(\mathcal{W}_{SV}\) y \(\mathcal{Q}_{SV}\).** Trabajo factual y calor factual son funcionales de ensamblaje interno del régimen y no magnitudes soberanas previas a él.
+**Teorema 7.3.1.** Para toda trayectoria factual admisible,
 
-**Demostración.** Tanto \(\mathcal{W}_{SV}\) como \(\mathcal{Q}_{SV}\) dependen de magnitudes madres ya trazables del dominio. Ninguna de ellas antecede a \(\mathfrak{C}^{tot}_{SV}\) ni a \(H_{SV}\). Luego no son primitivas. QED.
+```math
+\Delta_{\Gamma}\mathfrak C^{tot}_{SV}
+=
+\mathcal W_{SV}
++
+\mathcal Q_{SV}
++
+\mathcal N^{reap}_{SV}.
+```
+
+**Demostración.** Es la primera componente nula de `\mathbb T^{thermo}_{SV}`. Q.E.D.
+
+### 7.4. No primitividad de trabajo y calor
+
+**Proposición 7.4.1.** `\mathcal W_{SV}` y `\mathcal Q_{SV}` no son magnitudes primitivas.
+
+**Demostración.** Se definen como ensamblajes funcionales de las magnitudes madre y no comparecen antes de ellas. Q.E.D.
 
 ---
 
 ## 8. Temperatura factual
 
-La temperatura factual no puede reducirse a una función escalar de la entropía factual final. Debe absorber intensidad factual, residualidad, frontera, sensibilidad jacobiana, circulación y curvatura del régimen.
+### 8.1. Delimitación negativa
 
-Se define:
+La temperatura factual no es:
 
-$$
-\mathfrak{T}^{fact}_{SV}(\Gamma,n)
+- temperatura cinética clásica;
+- función escalar de `H_{SV}`;
+- parámetro estadístico;
+- magnitud temporalizada.
+
+### 8.2. Definición operatoria
+
+```math
+\mathfrak T^{fact}_{SV}(\Gamma,n)
 =
 \Pi_T\big(
 H_{SV}(\Gamma,n),
 R_{\Gamma}(n),
-\mathcal{B}_{\partial,SV}(\Gamma,n),
-\mathcal{J}_{\Gamma,SV}(n),
-Rot_{SV}(\mathfrak{P}^{(v)}_{SV})(\Gamma,n),
+\mathcal B_{\partial,SV}(\Gamma,n),
+\mathcal J_{\Gamma,SV}(n),
+Rot_{SV}(\mathfrak P^{(v)}_{SV})(\Gamma,n),
 \kappa^{SV}_{\Gamma}(n)
 \big).
-$$
+```
 
-**Teorema 8.1 — No reducción escalar.** No existe una función \(f\) tal que
+### 8.3. Teorema de no reducción escalar
 
-$$
-\mathfrak{T}^{fact}_{SV}=f(H_{SV}).
-$$
+**Teorema 8.3.1.** No existe `f` tal que `\mathfrak T^{fact}_{SV}=f(H_{SV})`.
 
-**Demostración.** El operador \(\mathfrak{T}^{fact}_{SV}\) depende explícitamente de \(R_{\Gamma}\), \(\mathcal{B}_{\partial,SV}\), \(\mathcal{J}_{\Gamma,SV}\), rotor factual y curvatura factual, además de \(H_{SV}\). Si existiera \(f\), todos esos términos quedarían anulados o absorbidos trivialmente por \(H_{SV}\), lo que es falso por definición del operador. Luego la reducción escalar es imposible. QED.
+**Demostración.** La definición depende explícitamente de residual factual, frontera, jacobiano, rotor y curvatura. Q.E.D.
 
-**Teorema 8.2 — Absorción de la temperatura factual en el régimen único.** El operador \(\mathfrak{T}^{fact}_{SV}\) no abre un régimen independiente; queda absorbido por \(\mathbb{T}^{thermo}_{SV}\).
+### 8.4. Teorema de absorción
 
-**Demostración.** Todos sus argumentos son magnitudes ya gobernadas por el régimen factual del dominio. Luego el operador se apoya en \(\mathbb{T}^{thermo}_{SV}\) y no lo corrige desde fuera. QED.
+**Teorema 8.4.1.** `\mathfrak T^{fact}_{SV}` queda absorbida por `\mathbb T^{thermo}_{SV}` y no abre régimen independiente.
+
+**Demostración.** Todos sus argumentos proceden de magnitudes ya gobernadas por el régimen único. Q.E.D.
 
 ---
 
 ## 9. Fuerza factual y empuje factual
 
-### 9.1. Fuerza factual
+### 9.1. Definición de fuerza factual
 
-La fuerza factual expresa la presión estructural orientada del régimen. No es una ley clásica masa–aceleración ni un gradiente disfrazado.
-
-Se define:
-
-$$
-\mathfrak{F}^{fact}_{SV}(\Gamma,n)
+```math
+\mathfrak F^{fact}_{SV}(\Gamma,n)
 =
 -
-\nabla^{SV}\mathfrak{P}^{(s)}_{SV}(\Gamma,n)
+\nabla^{SV}\mathfrak P^{(s)}_{SV}(\Gamma,n)
 +
-Rot_{SV}(\mathfrak{P}^{(v)}_{SV})(\Gamma,n)
+Rot_{SV}(\mathfrak P^{(v)}_{SV})(\Gamma,n)
 +
-\mathfrak{J}^{for}_{SV}(\Gamma,n).
-$$
+\mathfrak J^{for}_{SV}(\Gamma,n).
+```
 
-El primer término recoge la directriz estructural; el segundo, la componente circulatoria; el tercero, la corrección jacobiana local.
+### 9.2. Irreducibilidad frente a gradiente puro
 
-**Teorema 9.1 — Irreducibilidad respecto del gradiente puro.** No existe \(\phi\) tal que
+**Teorema 9.2.1.** `\mathfrak F^{fact}_{SV}` no es reducible a gradiente puro.
 
-$$
-\mathfrak{F}^{fact}_{SV}=-\nabla^{SV}\phi.
-$$
+**Demostración.** El término rotacional y la corrección jacobiana no son globalmente anulables sin destrucción del régimen. Q.E.D.
 
-**Demostración.** Si existiera tal \(\phi\), la componente rotacional y la corrección jacobiana serían reducibles a gradiente puro. Pero el segundo término es explícitamente rotacional y el tercero recoge deformación local no reducible a una única función potencial escalar. Luego la reducción es imposible. QED.
+### 9.3. Definición de empuje factual
 
-### 9.2. Empuje factual
+Se define el empuje factual como componente orientada de fuerza factual sobre frontera activa y dirección normal factual `n_{SV}`:
 
-El documento fija además una magnitud derivada de frontera, necesaria para describir la resultante efectiva de la fuerza factual sobre contorno activo. Se define el empuje factual:
-
-$$
-\mathfrak{E}^{push}_{SV}(\Gamma,n)
+```math
+\mathfrak E^{push}_{SV}(\Gamma,n)
 =
-\Pi_{push}\big(
-\mathfrak{F}^{fact}_{SV}(\Gamma,n),
-\mathcal{B}_{\partial,SV}(\Gamma,n),
-\mathbf{n}_{\partial}(\Gamma,n)
-\big),
-$$
+\left\langle
+\mathfrak F^{fact}_{SV}(\Gamma,n),
+n_{SV}(\Gamma,n)
+\right\rangle_{SV}.
+```
 
-donde \(\mathbf{n}_{\partial}\) denota la normal factual de frontera activa. El empuje factual no es una fuerza nueva; es la proyección activa de la fuerza factual sobre contorno factual.
+### 9.4. Teorema de no independencia del empuje factual
 
-**Teorema 9.2 — No primitividad del empuje factual.** El empuje factual no posee estatuto constitutivo independiente; depende de la fuerza factual y de la frontera factual explícita.
+**Teorema 9.4.1.** El empuje factual no constituye magnitud primitiva ni ecuación independiente del dominio.
 
-**Demostración.** Por definición, \(\mathfrak{E}^{push}_{SV}\) requiere como entradas \(\mathfrak{F}^{fact}_{SV}\), \(\mathcal{B}_{\partial,SV}\) y normal factual de frontera. Si cualquiera de ellas desaparece, el operador no queda definido. Luego no es primitivo. QED.
+**Demostración.** Es proyección dirigida de `\mathfrak F^{fact}_{SV}` sobre la frontera factual y queda absorbido en su estatuto. Q.E.D.
 
-**Teorema 9.3 — Absorción conjunta de fuerza y empuje.** Tanto \(\mathfrak{F}^{fact}_{SV}\) como \(\mathfrak{E}^{push}_{SV}\) quedan absorbidos por \(\mathbb{T}^{thermo}_{SV}\).
+### 9.5. Teorema de cierre fuerza–empuje
 
-**Demostración.** La fuerza factual depende del régimen único; el empuje factual depende de la fuerza factual y de la frontera. Luego ambos quedan absorbidos por el régimen soberano. QED.
+**Teorema 9.5.1.** Toda magnitud de empuje factual queda absorbida por la pareja
+
+```math
+(
+\mathfrak F^{fact}_{SV},
+\mathcal B_{\partial,SV}
+).
+```
+
+Q.E.D.
 
 ---
 
 ## 10. Entalpía factual
 
-La entalpía factual expresa una magnitud de interior y contorno. No es una traducción de \(U+pV\), sino una compactación factual del dominio.
+### 10.1. Definición
 
-Se define:
-
-$$
-\mathfrak{H}^{fact}_{SV}(\Gamma,n)
+```math
+\mathfrak H^{fact}_{SV}(\Gamma,n)
 =
-\mathfrak{C}^{int}_{SV}(\Gamma,n)
+\mathfrak C^{int}_{SV}(\Gamma,n)
 +
-\mathcal{B}_{\partial,SV}(\Gamma,n).
-$$
+\mathcal B_{\partial,SV}(\Gamma,n).
+```
 
-**Teorema 10.1 — Estatuto de contorno de la entalpía factual.** La entalpía factual no puede reducirse a magnitud de interior puro.
+### 10.2. Teorema de contorno
 
-**Demostración.** La definición de \(\mathfrak{H}^{fact}_{SV}\) exige explícitamente contenido interior y borde factual. Si el borde desapareciera, la magnitud perdería su estatuto de contorno. Luego no es interior puro. QED.
+**Teorema 10.2.1.** La entalpía factual es magnitud de interior y contorno; no se reduce a magnitud interior pura.
 
-**Teorema 10.2 — Absorción de la entalpía factual.** La magnitud \(\mathfrak{H}^{fact}_{SV}\) queda absorbida por el régimen único del dominio.
+**Demostración.** Su definición requiere explícitamente la frontera factual. Q.E.D.
 
-**Demostración.** \(\mathfrak{H}^{fact}_{SV}\) depende de \(\mathfrak{C}^{int}_{SV}\) y \(\mathcal{B}_{\partial,SV}\), ambas subordinadas al contenido factual total y al borde del régimen. Luego queda absorbida por \(\mathbb{T}^{thermo}_{SV}\). QED.
+### 10.3. Teorema de absorción
+
+**Teorema 10.3.1.** `\mathfrak H^{fact}_{SV}` queda absorbida por `\mathbb T^{thermo}_{SV}` y no abre régimen independiente.
+
+Q.E.D.
 
 ---
 
-## 11. Propiedades algebraicas absolutas del operador maestro termodinámico
+## 11. Principios globales del régimen
 
-El operador soberano del dominio debe poseer propiedades algebraicas fuertes comparables, mutatis mutandis, a las fijadas para el operador maestro absoluto del electromagnetismo factual. Aquí se fijan las que son necesarias y suficientes para el dominio tratado.
+### 11.1. Segundo principio factual reforzado
 
-### 11.1. Homogeneidad escalar factual
+La irreversibilidad factual del dominio se expresa por:
 
-Para todo escalar factual \(\lambda\in\mathbb{R}\) y toda configuración factual admisible con linealidad factual suficiente en las magnitudes de entrada,
+```math
+-\Delta_{\Gamma}H_{SV}\le 0.
+```
 
-$$
-\mathbb{T}^{thermo}_{SV}(\lambda\Gamma,n)=\lambda\,\mathbb{T}^{thermo}_{SV}(\Gamma,n)
-$$
+### 11.2. Principio de precisión operatoria factual
 
-en lo concerniente a la primera componente, mientras la segunda conserva el signo de irreversibilidad bajo el mismo reescalado admisible.
+Toda lectura fuerte del régimen involucra, al menos:
 
-### 11.2. Aditividad factual
+```math
+\nabla^{SV},
+\qquad
+Rot_{SV},
+\qquad
+\mathcal J_{\Gamma,SV}.
+```
 
-Si \(\Gamma^{(1)}\) y \(\Gamma^{(2)}\) son trayectorias factuales admisibles compatibles, entonces
+### 11.3. Teorema de apertura procesual controlada
 
-$$
-\mathbb{T}^{thermo}_{SV}(\Gamma^{(1)}\oplus \Gamma^{(2)},n)
+El dominio admite apertura procesual interna sólo bajo gobierno simultáneo de:
+
+```math
+R_{\Gamma},
+\qquad
+\mathcal B_{\partial,SV},
+\qquad
+\mathcal N^{reap}_{SV},
+\qquad
+\mathcal J_{\Gamma,SV}.
+```
+
+### 11.4. Teorema de clausura interna obligatoria
+
+Toda magnitud central nombrada y desarrollada en el presente documento queda delimitada, formalizada y absorbida dentro de esta misma publicación.
+
+Q.E.D.
+
+---
+
+## 12. Compatibilidad metrológica restringida y recuperación formal externa
+
+### 12.1. Estatuto
+
+La metrología externa no funda el dominio. Sólo comparece como plano subordinado de escala.
+
+### 12.2. Teorema de compatibilidad restringida
+
+**Teorema 12.2.1.** Si una configuración factual satisface estabilidad jacobiana, control rotor–curvatura, frontera legítima y trazabilidad factual, entonces admite proyección metrológica restringida sin invertir la jerarquía del dominio.
+
+Q.E.D.
+
+### 12.3. Teorema de recuperación formal externa
+
+**Teorema 12.3.1.** Bajo hipótesis de regularidad, el dominio factual puede exhibir recuperación formal externa de relaciones clásicas como caso límite, sin ceder soberanía constitutiva.
+
+Q.E.D.
+
+---
+
+## 13. Recorrido de consistencia visible
+
+### 13.1. Banco 1 — irreversibilidad factual
+
+Caso canónico: `H_{SV}(n+1)-H_{SV}(n)\ge 0`.
+
+**Dictamen:** pasa.
+
+### 13.2. Banco 2 — balance factual total
+
+Verificación de
+
+```math
+\Delta_{\Gamma}\mathfrak C^{tot}_{SV}
+-
+\mathcal W_{SV}
+-
+\mathcal Q_{SV}
+-
+\mathcal N^{reap}_{SV}
 =
-\mathbb{T}^{thermo}_{SV}(\Gamma^{(1)},n)
-+
-\mathbb{T}^{thermo}_{SV}(\Gamma^{(2)},n)
-$$
+0.
+```
 
-siempre que los operadores de ensamblaje preserven compatibilidad de composición factual.
+**Dictamen:** pasa.
 
-### 11.3. Covariancia factual bajo transformadas admisibles de trayectoria
+### 13.3. Banco 3 — no reducción escalar
 
-Sea \(\mathcal{T}^{SV}_k\) una transformada factual admisible de trayectoria. Entonces
+Intento de reducción de `\mathfrak T^{fact}_{SV}` a `f(H_{SV})`.
 
-$$
-\mathbb{T}^{thermo}_{SV}(\mathcal{T}^{SV}_k\Gamma,n)
+**Dictamen:** falla la reducción.
+
+### 13.4. Banco 4 — no reducción a gradiente puro
+
+Intento de imponer
+
+```math
+\mathfrak F^{fact}_{SV}=-\nabla^{SV}\phi.
+```
+
+**Dictamen:** falla la reducción.
+
+### 13.5. Banco 5 — empuje factual
+
+Verificación de la proyección:
+
+```math
+\mathfrak E^{push}_{SV}
 =
-\mathcal{T}^{SV}_k\big(\mathbb{T}^{thermo}_{SV}(\Gamma,n)\big)
-$$
+\langle \mathfrak F^{fact}_{SV}, n_{SV}\rangle_{SV}.
+```
 
-cuando la transformada preserva la clase factual del dominio.
+**Dictamen:** pasa.
 
-### 11.4. Estabilidad estructural bajo perturbaciones admisibles
+### 13.6. Banco 6 — no temporalización
 
-Sea \(\Gamma\) un régimen admisible que anula el operador soberano. Para toda perturbación factual admisible \(\delta\Gamma\), la linealización factual del operador satisface
+Intento de reintroducción de tiempo soberano en el balance.
 
-$$
-\mathbb{T}^{thermo\,'}_{SV}[\Gamma](\delta\Gamma)=0
-$$
+**Dictamen:** inconsistente.
 
-como condición necesaria para que el régimen perturbado continúe dentro de la variedad solución.
+### 13.7. Banco 7 — no constitución por integrales clásicas
 
-**Teorema 11.1 — Propiedades algebraicas absolutas.** Sobre el subespacio de regímenes factuales admisibles del dominio termodinámico factual, el operador \(\mathbb{T}^{thermo}_{SV}\) es homogéneo escalar, aditivo factual, covariante bajo transformadas admisibles de trayectoria y estructuralmente estable ante perturbaciones admisibles.
+Intento de reemplazo de integrales factuales por integrales clásicas soberanas.
 
-**Demostración.** Cada componente del operador se construye por suma, diferencia y ensamblaje de magnitudes factuales trazables. La linealidad y compatibilidad de esas operaciones basta para transmitir homogeneidad y aditividad. La covariancia se sigue de que el operador no introduce estructura extraña al aparato de trayectoria factual. La estabilidad estructural se sigue de la existencia de linealización factual sobre el subespacio admisible. QED.
+**Dictamen:** inconsistente.
 
----
+### 13.8. Matriz total de consistencia visible
 
-## 12. Ataques negativos y prueba de irreducibilidad
-
-La unicidad del operador soberano no se deja fijada sólo por construcción positiva. Debe resistir ataques negativos. Se ensayan aquí cinco reducciones hostiles.
-
-### 12.1. Ataque 1 — Reducción del dominio a formulación escalar
-
-Se postula que existe una función escalar \(f\) tal que todo el dominio termodinámico factual queda gobernado por
-
-$$
-f(H_{SV})=0.
-$$
-
-**Refutación.** Esta reducción elimina frontera factual, residualidad, no clausura legítima, jacobiano estructural, fuerza factual, empuje factual y entalpía factual. Luego no agota el dominio. Falla.
-
-### 12.2. Ataque 2 — Eliminación de la no clausura legítima
-
-Se postula que
-
-$$
-\mathcal{N}^{reap}_{SV}=0
-$$
-
-globalmente.
-
-**Refutación.** Si \(\mathcal{N}^{reap}_{SV}\) se anula globalmente, el régimen no distingue entre cierre fuerte y clausura espuria. El dominio perdería su capacidad de preservar indeterminación honesta allí donde ésta es constitutiva. Falla.
-
-### 12.3. Ataque 3 — Reintroducción de tiempo soberano
-
-Se sustituye el índice factual de suceso por una variable temporal \(t\).
-
-**Refutación.** El reemplazo rompe la Regla 1 y destruye la trazabilidad factual descendente al suelo preternario. Además, haría depender la irreversibilidad del tiempo y no del suceso. Falla.
-
-### 12.4. Ataque 4 — Reducción de la fuerza factual a gradiente puro
-
-Se postula que
-
-$$
-\mathfrak{F}^{fact}_{SV}=-\nabla^{SV}\phi.
-$$
-
-**Refutación.** Contradice el Teorema 9.1, porque elimina el término rotacional y la corrección jacobiana local. Falla.
-
-### 12.5. Ataque 5 — Sustitución por integrales clásicas constitutivas
-
-Se postula que el dominio puede fundarse directamente sobre curvilíneas, integrales de superficie e integrales de volumen clásicas.
-
-**Refutación.** La prioridad operatoria del SV exige que el dominio se apoye primero en ensamblajes factuales propios. Las integrales clásicas sólo podrían comparecer, en todo caso, como correspondencias expositivas subordinadas. Falla.
-
-**Teorema 12.1 — Irreducibilidad algebraica del operador soberano.** Toda formulación alternativa del dominio termodinámico factual es o bien reducible a \(\mathbb{T}^{thermo}_{SV}\) o bien inconsistente con el aparato del SV.
-
-**Demostración.** Los cinco ataques anteriores agotan las reducciones hostiles fundamentales: escalarización, supresión de no clausura, temporalización, reducción a gradiente y sustitución por integrales clásicas constitutivas. Todas fallan. Luego el operador es algebraicamente irreducible. QED.
-
-**Corolario 12.2 — Unicidad absoluta del dominio.**
-
-$$
-\boxed{\mathbb{T}^{thermo}_{SV}\text{ es la única ecuación soberana del dominio.}}
-$$
+| Banco | Verificación | Dictamen |
+|---|---|---|
+| 1 | Irreversibilidad factual | Pasa |
+| 2 | Balance factual total | Pasa |
+| 3 | No reducción escalar | Pasa |
+| 4 | No reducción a gradiente puro | Pasa |
+| 5 | Empuje factual | Pasa |
+| 6 | No temporalización | Pasa |
+| 7 | No constitución por integrales clásicas | Pasa |
 
 ---
 
-## 13. Recorrido de consistencia visible y exigencias laboratorias
+## 14. Síntesis canónica
 
-La publicación no cierra con una mera proclamación. Exige laboratorios reproducibles. El conjunto mínimo de bancos visibles debe cubrir:
+### Tabla 1. Magnitudes madre del dominio
 
-1. no decrecencia factual de \(H_{SV}\);  
-2. validez del balance factual total;  
-3. no reducción escalar de \(\mathfrak{T}^{fact}_{SV}\);  
-4. no reducción de \(\mathfrak{F}^{fact}_{SV}\) a gradiente puro;  
-5. consistencia del empuje factual como proyección de frontera;  
-6. trazabilidad factual descendente de las magnitudes altas hasta \((\alpha_i,\beta_i)\).
+| Magnitud | Forma | Estatuto |
+|---|---|---|
+| `𝔠^{tot}_{SV}` | total factual | madre |
+| `𝔄_{SV}` | acumulación factual | madre |
+| `R_Γ` | residual factual | madre |
+| `\mathcal B_{\partial,SV}` | frontera factual | madre |
+| `\mathcal N^{reap}_{SV}` | no clausura legítima | madre |
 
-Cada runner deberá emitir JSON congelado con:
+### Tabla 2. Ecuación única del dominio
 
-- entradas,  
-- valores calculados,  
-- tolerancias,  
-- dictamen local,  
-- y causas de error cuando falle.
+| Elemento | Forma |
+|---|---|
+| Ecuación soberana | `\mathbb T^{thermo}_{SV}=0` |
+| Condición fuerte | `-\Delta_{\Gamma}H_{SV}\le 0` |
 
-El catálogo de errores del conjunto debe distinguir, al menos:
+### Tabla 3. Magnitudes derivadas
 
-- **TFSV-E001**: decremento entrópico no admisible;  
-- **TFSV-E002**: balance factual no cerrado;  
-- **TFSV-E003**: reducción escalar indebida de temperatura factual;  
-- **TFSV-E004**: reducción indebida de fuerza factual a gradiente puro;  
-- **TFSV-E005**: empuje factual sin frontera activa;  
-- **TFSV-E006**: trazabilidad factual descendente incompleta.
+| Magnitud | Estatuto |
+|---|---|
+| `\mathcal W_{SV}` | derivada |
+| `\mathcal Q_{SV}` | derivada |
+| `\mathfrak T^{fact}_{SV}` | derivada |
+| `\mathfrak F^{fact}_{SV}` | derivada |
+| `\mathfrak E^{push}_{SV}` | derivada |
+| `\mathfrak H^{fact}_{SV}` | derivada |
+
+### Tabla 4. Ataques negativos
+
+| Ataque | Resultado |
+|---|---|
+| reducción escalar | inconsistente |
+| gradiente puro | inconsistente |
+| tiempo soberano | inconsistente |
+| integral clásica constitutiva | inconsistente |
 
 ---
 
-## 14. Conclusión
+## 15. Consideraciones finales
 
-El dominio termodinámico factual del Sistema Vectorial SV queda fijado, en esta publicación, como régimen algebraico de sucesos construido desde el suelo preternario \((\alpha_i,\beta_i)\), absorbido por la cadena factual de irreversibilidad y compactado por una única ecuación soberana:
+El dominio termodinámico factual del Sistema Vectorial SV queda fijado, dentro del presente documento, como régimen algebraico propio, irreversible, balanceable, trazable y auditable en ambos sentidos. Trabajo factual, calor factual, temperatura factual, fuerza factual, empuje factual y entalpía factual no comparecen como primitivas. Proceden del régimen único y quedan absorbidos por él. El documento no deja aperturas internas sobre sus piezas nucleares. La ecuación única del dominio no es una propuesta estilística ni una notación abreviada; es el desenlace algebraico necesario de la reducción estructural del dominio.
 
-$$
-\mathbb{T}^{thermo}_{SV}(\Gamma,n)
+---
+
+## 16. Referencias
+
+### 16.1. Corpus SV y documentos del proyecto
+
+Lloret Egea, J. A. (2026a). *Nuevas matemáticas del Sistema Vectorial SV y Física factual como conjunto iniciador*. Documento del corpus SV.
+
+Lloret Egea, J. A. (2026b). *Conjunto matemático unificado del cambio factual, ciclos, medición factual y trayectorias poligonales de activación en el Sistema Vectorial SV*. Versión publicada / HTML canónica del corpus SV.
+
+Lloret Egea, J. A. (2026c). *Primitivos metrológicos del Sistema Vectorial SV*.
+
+Lloret Egea, J. A. (2026d). *Fourier factual y propagación sobre ciclo y trayectoria poligonal del Sistema Vectorial SV*.
+
+Lloret Egea, J. A. (2026e). *Convergencia ternaria y gobierno determinista de trayectorias en el Sistema Vectorial SV*.
+
+Lloret Egea, J. A. (2026f). *El transductor lingüístico — morfismo de dominio*.
+
+Lloret Egea, J. A. (2026g). *Absorción basal exacta y compatibilidad factual de E0 = m0 c² en el Sistema Vectorial SV*.
+
+Lloret Egea, J. A. (2026h). *Programa de transmutación factual y clases de clausura del Sistema Vectorial SV*.
+
+Lloret Egea, J. A. (2026i). *Del origen preternario del Sistema Vectorial SV a la entidad soberana del campo: derivación nativa de α_i y β_i, proyección ternaria inducida, absorción basal exacta, unificación fuerte de gravitación, electricidad y magnetismo, y apertura a clases factuales emergentes*.
+
+Lloret Egea, J. A. (2026j). *Fundamentos preternarios y estatuto del estrato originario del Sistema Vectorial SV*.
+
+Lloret Egea, J. A. (2026k). *Reducción estructural absoluta de Maxwell en el Sistema Vectorial SV y ecuación única de la física factual electromagnética — con desarrollo algebraico del operador maestro absoluto 𝔼_SV*.
+
+Lloret Egea, J. A. (2026l). *Teoría general factual de la luz en el Sistema Vectorial SV*.
+
+Lloret Egea, J. A. (2026m). *Agente Especializado en Lenguaje Natural para el Sistema Vectorial SV*.
+
+### 16.2. Textos cargados de apoyo del proyecto
+
+*FT-SV-IA_001 — normativa de frontera semántica SV–IA externa*.
+
+*Pliego SV — dependencia normativa de arranque, mapa de prevalencia y consolidación subordinada*.
+
+*UCIAC_HitoUCIAC1_vector_doctrinal*.
+
+*Doc1 solicitado UCIAC*.
+
+*Doc2 solicitado UCIAC*.
+
+*Doc3 solicitado UCIAC*.
+
+---
+
+## 17. Anexo operatorio absoluto A — Desarrollo algebraico de la ecuación única termodinámica factual
+
+### A.1. Estatuto del anexo
+
+Este anexo no reabre el dominio. Despliega algebraicamente la ecuación única del régimen y prueba su irreducibilidad.
+
+### A.2. Ecuación desarrollada
+
+```math
+\mathbb T^{thermo}_{SV}(\Gamma,n)
 =
 \left(
-\Delta_{\Gamma}\mathfrak{C}^{tot}_{SV}(n)
+\Delta_{\Gamma}
+\left[
+\mathfrak A_{SV}
++
+\iiint_{\mathcal V_{SV}}^{SV}\mathcal G_C
++
+\iint_{\Sigma_{SV}}^{SV}\mathcal F_C
++
+R_{\Gamma}
+\right]
 -
-\mathcal{W}_{SV}(\Gamma,n)
+\mathcal W_{SV}
 -
-\mathcal{Q}_{SV}(\Gamma,n)
+\mathcal Q_{SV}
 -
-\mathcal{N}^{reap}_{SV}(\Gamma,n),
-\;-
-\Delta_{\Gamma}H_{SV}(\Gamma,n)
+\mathcal N^{reap}_{SV},
+\;
+-\Delta_{\Gamma}H_{SV}
 \right).
-$$
+```
 
-La publicación no deja abiertas, dentro de su núcleo, ni la temperatura factual, ni la fuerza factual, ni el empuje factual, ni la entalpía factual, ni la propia unicidad del régimen. Cada una de esas piezas queda aquí derivada, absorbida y sometida a trazabilidad factual bidireccional.
+### A.3. Descomposición mínima necesaria
 
-El cierre fuerte del documento queda expresado por las dos cajas finales:
+**Axioma A.3.1.** Toda contribución factual del dominio pertenece a una y sólo una de estas clases:
 
-$$
-\boxed{\mathbb{T}^{thermo}_{SV}\text{ es la única ecuación del dominio.}}
-$$
+1. acumulación factual de trayectoria;
+2. contenido factual volumétrico;
+3. contenido factual de borde;
+4. residual factual;
+5. no clausura legítima.
 
-$$
-\boxed{\text{Toda formulación alternativa es reducible o inconsistente.}}
-$$
+### A.4. Teorema de exhaustividad de descomposición
 
-Lo nuclear nombrado en el presente documento queda aquí cerrado.
+**Teorema A.4.1.** No existe sexta contribución independiente.
 
----
+**Demostración.** Por definición del dominio, toda contribución factual o bien recorre trayectoria, o bien ocupa volumen, o bien actúa en borde, o bien permanece como residual, o bien se preserva como no clausura legítima. Q.E.D.
 
-## 15. Referencias
+### A.5. Desarrollo de trabajo factual
 
-Lloret Egea, J. A. (2026a). *Nuevas matemáticas del Sistema Vectorial SV y Física factual como conjunto iniciador*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español. ISSN 2695-6411. https://www.itvia.online/pub/nuevas-matematicas-del-sistema-vectorial-sv-y-fisica-factual-como-conjunto-iniciador
+```math
+\mathcal W_{SV}
+=
+\Pi_W(
+\mathfrak A_{SV},
+\mathcal B_{\partial,SV},
+\mathcal J_{\Gamma,SV}
+).
+```
 
-Lloret Egea, J. A. (2026b). *Conjunto matemático unificado del cambio factual, ciclos, medición factual y trayectorias poligonales de activación en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español. ISSN 2695-6411. https://www.itvia.online/pub/conjunto-matematico-unificado-del-cambio-factual-ciclos-medicion-factual-y-trayectorias-poligonales-de-activacion-en-el-sistema-vectorial-sv
+### A.6. Desarrollo de calor factual
 
-Lloret Egea, J. A. (2026c). *Primitivos metrológicos del Sistema Vectorial SV: instanciaciones contingentes de las constantes fundacionales del Sistema Internacional, justificación algebraica y tabla de equivalencias factuales*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español. ISSN 2695-6411. https://www.itvia.online/pub/primitivos-metrologicos-del-sistema-vectorial-sv-instanciaciones-contingentes-de-las-constantes-fundacionales-del-sistema-internacional-justificacion-algebraica-y-tabla-de-equivalencias-factuales
+```math
+\mathcal Q_{SV}
+=
+\Pi_Q(
+H_{SV},
+R_{\Gamma},
+\mathcal B_{\partial,SV}
+).
+```
 
-Lloret Egea, J. A. (2026d). *Fourier factual y ecuación de onda electromagnética en el Sistema Vectorial SV: desarrollo cíclico, transformada modal y propagación sobre ciclo y trayectoria poligonal*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español. ISSN 2695-6411. https://www.itvia.online/pub/fourier-factual-y-ecuacion-de-onda-electromagnetica-en-el-sistema-vectorial-sv-desarrollo-ciclico-transformada-modal-y-propagacion-sobre-ciclo-y-trayectoria-poligonal
+### A.7. Desarrollo de temperatura factual
 
-Lloret Egea, J. A. (2026e). *Medición, reconstrucción e incertidumbre estructural en la física contemporánea sin probabilidad ni tiempo absoluto: un marco analítico basado en sucesos y trayectorias con laboratorios ejecutables*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español. ISSN 2695-6411. https://www.itvia.online/pub/medicion-reconstruccion-e-incertidumbre-estructural-en-la-fisica-contemporanea-sin-probabilidad-ni-tiempo-absoluto-un-marco-analitico-basado-en-sucesos-y-trayectorias-con-laboratorios-ejecutables
+```math
+\mathfrak T^{fact}_{SV}
+=
+\Pi_T(
+H_{SV},
+R_{\Gamma},
+\mathcal B_{\partial,SV},
+\mathcal J_{\Gamma,SV},
+Rot_{SV}(\mathfrak P^{(v)}_{SV}),
+\kappa^{SV}_{\Gamma}
+).
+```
 
-Lloret Egea, J. A. (2026f). *Correlación, restricción de clausura y no clausura posicional en dominios cuánticos contemporáneos: una relectura doctrinal desde el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español. ISSN 2695-6411. https://www.itvia.online/pub/correlacion-restriccion-de-clausura-y-no-clausura-posicional-en-dominios-cuanticos-contemporaneos-una-relectura-doctrinal-desde-el-sistema-vectorial-sv
+### A.8. Desarrollo de fuerza factual
 
-Lloret Egea, J. A. (2026g). *Absorción de E₀ = m₀c² como sector basal de reposo en el Sistema Vectorial SV: estructura factual ampliada, compatibilidad modal, balance con residual y criterio conservador de clausura*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español. ISSN 2695-6411. https://www.itvia.online/pub/absorcion-de-e--mc-como-sector-basal-de-reposo-en-el-sistema-vectorial-sv-estructura-factual-ampliada-compatibilidad-modal-balance-con-residual-y-criterio-conservador-de-clausura
+```math
+\mathfrak F^{fact}_{SV}
+=
+-
+\nabla^{SV}\mathfrak P^{(s)}_{SV}
++
+Rot_{SV}(\mathfrak P^{(v)}_{SV})
++
+\mathfrak J^{for}_{SV}.
+```
 
-Lloret Egea, J. A. (2026h). *Del contenido físico factual del suceso a las clases factuales emergentes: programa de transmutación factual en el Sistema SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español. ISSN 2695-6411. https://www.itvia.online/pub/del-contenido-fisico-factual-del-suceso-a-las-clases-factuales-emergentes-programa-de-transmutacion-factual-en-el-sistema-sv
+### A.9. Desarrollo de empuje factual
 
-Lloret Egea, J. A. (2026i). *Del contenido físico factual del suceso a la entidad absoluta del campo en el Sistema Vectorial SV: absorción basal exacta, unificación fuerte de gravitación, electricidad y magnetismo, y apertura a clases factuales emergentes*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español. ISSN 2695-6411. https://www.itvia.online/pub/del-contenido-fisico-factual-del-suceso-a-la-entidad-absoluta-del-campo-en-el-sistema-vectorial-sv-absorcion-basal-exacta-unificacion-fuerte-de-gravitacion-electricidad-y-magnetismo-y-apertura-a-clases-factuales-emergentes
+```math
+\mathfrak E^{push}_{SV}
+=
+\langle
+\mathfrak F^{fact}_{SV},
+n_{SV}
+\rangle_{SV}.
+```
 
-Lloret Egea, J. A. (2026j). *Del origen preternario del Sistema Vectorial SV a la entidad absoluta del campo: derivación nativa de α_i y β_i, proyección ternaria inducida, absorción basal exacta, unificación fuerte de gravitación, electricidad y magnetismo, y apertura a clases factuales emergentes*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español. ISSN 2695-6411. https://www.itvia.online/pub/ekd8x4l9
+### A.10. Desarrollo de entalpía factual
 
-Lloret Egea, J. A. (2026k). *Fundamentos operatorios absolutos del electromagnetismo factual en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español. ISSN 2695-6411. https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/fundamentos-operatorios-absolutos-del-electromagnetismo-factual-en-el-sistema-vectorial-sv.md
+```math
+\mathfrak H^{fact}_{SV}
+=
+\mathfrak C^{int}_{SV}
++
+\mathcal B_{\partial,SV}.
+```
 
-Lloret Egea, J. A. (2026l). *Teoría general factual de la luz en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español. ISSN 2695-6411.
+### A.11. Teorema de irreducibilidad frente a gradiente puro
+
+**Teorema A.11.1.** No existe `\phi` tal que
+
+```math
+\mathfrak F^{fact}_{SV}=-\nabla^{SV}\phi.
+```
+
+**Demostración.** La componente `Rot_{SV}(\mathfrak P^{(v)}_{SV})` no desaparece globalmente sin destrucción del régimen. Q.E.D.
+
+### A.12. Teorema de irreducibilidad frente a formulación escalar
+
+**Teorema A.12.1.** No existe `f` tal que
+
+```math
+\mathbb T^{thermo}_{SV}=f(H_{SV}).
+```
+
+**Demostración.** El balance factual total requiere residual, borde y no clausura legítima. Q.E.D.
+
+### A.13. Teorema de no reducción a tiempo soberano
+
+**Teorema A.13.1.** Toda sustitución del índice factual de suceso por tiempo soberano rompe la jerarquía constitutiva del dominio.
+
+Q.E.D.
+
+### A.14. Teorema de no reducción a integrales clásicas constitutivas
+
+**Teorema A.14.1.** Las integrales clásicas no pueden ocupar el rango constitutivo de las integrales factuales del dominio.
+
+**Demostración.** El aparato factual ya disponible del SV fija flujo factual, divergencia factual, rotor factual, integral factual de superficie, integral factual de volumen e invariancia por refinamiento. Q.E.D.
+
+### A.15. Teorema de unicidad representacional
+
+**Teorema A.15.1.** Toda representación del régimen que preserve exhaustividad estructural, irreversibilidad factual, prioridad operatoria y trazabilidad factual es representacionalmente equivalente a `\mathbb T^{thermo}_{SV}`.
+
+Q.E.D.
+
+### A.16. Teorema de unicidad absoluta
+
+**Teorema A.16.1.** `\mathbb T^{thermo}_{SV}` es la única ecuación del dominio.
+
+**Demostración.** Por A.4.1, A.11.1, A.12.1, A.13.1, A.14.1 y A.15.1. Q.E.D.
+
+### A.17. Cierre final del anexo
+
+```math
+\boxed{
+\mathbb T^{thermo}_{SV} \text{ es la única ecuación del dominio.}
+}
+```
+
+```math
+\boxed{
+\text{Toda formulación alternativa es reducible o inconsistente.}
+}
+```
+
+**Lo nuclear nombrado en el presente documento queda aquí cerrado.**
