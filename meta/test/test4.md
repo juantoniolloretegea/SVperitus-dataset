@@ -1,91 +1,60 @@
-
-# Fuerza, trabajo, calor, entalpía, temperatura, principios y fundamentos de la termodinámica factual del Sistema Vectorial SV
+# Fuerza, trabajo, calor, entalpía, temperatura, principios y fundamentos de la termodinámica y la correlación entre ellos en el SV
 
 ## Resumen
 
-El presente documento reconstruye de inicio a fin el dominio termodinámico factual del Sistema Vectorial SV con rango de cierre algebraico interno fuerte, bajo una disciplina explícita de adversarial, descenso al sustrato preternario, preservación estricta de `U` e integración no ornamental con el aparato operatorio ya asentado en el corpus. El texto se organiza como una pirámide de clausura: en la base comparece el suelo preternario de pares admisibles; sobre él se levantan la trayectoria factual, la aritmética diferencial por suceso y la cadena estratificada de irreversibilidad; sobre ese conjunto se injerta el cuerpo operatorio heredado del SV; y, por encima, se construyen el fibrado termodinámico factual, la magnitud madre de contenido, las proyecciones de trabajo, calor, fuerza, empuje, temperatura y entalpía, y la ecuación absoluta del dominio como anulación de un defecto factual total.
+Se construye el dominio termodinámico factual del Sistema Vectorial SV como un régimen algebraico de sucesos, no temporal, trazable en ambos sentidos y cerrado por una única ecuación absoluta. El cierre parte del sustrato preternario de pares admisibles, atraviesa la cadena factual canónica de irreversibilidad y fija, sobre ese suelo, un fibrado termodinámico factual cuyas proyecciones recuperan trabajo, calor, fuerza, empuje, temperatura y entalpía como magnitudes derivadas. El documento determina explícitamente la aritmética diferencial factual del dominio, la descomposición ternaria de incrementos, la acumulación factual, el contenido factual interior, el contenido factual total, la lectura factual de no clausura bajo la clase canónica `U`, la fuerza factual como combinación cerrada de gradiente, rotor vectorial y corrección jacobiana, el empuje factual como funcional de contorno, la temperatura factual como lectura metrológica soberana y la entalpía factual como descomposición interior–contorno del contenido total. La fórmula absoluta del dominio se presenta como anulación de un defecto factual total no negativo. Su nulidad equivale simultáneamente al balance factual del contenido, a la no decrecencia de la entropía factual, al cierre de fuerza y empuje, a la definición termométrica factual y a la descomposición entálpica. El resultado es una formulación única, fibrosa por proyecciones, compatible con la disciplina semántica del SV y con la arquitectura de ecuación única ya asentada en otros dominios del corpus.
 
-El documento afronta de manera expresa la pregunta adversarial que no puede eludirse: si fuerza, trabajo, calor, entalpía y temperatura quedan aquí genuinamente definidos desde el SV, o si sólo se recubre con léxico SV un mapeo heredado desde la física clásica. La respuesta no se da por consigna, sino por criterio. Una magnitud sólo puede ser reconocida como factual del SV si admite descenso controlado al preternario, si su lectura ternaria preserva el estatuto de `U`, si su variación se expresa por sucesos y no por tiempo soberano, si su forma cierra con el aparato operatorio soberano ya admitido y si su proyección clásica comparece sólo como lectura externa, nunca como fundamento constitutivo. Bajo ese criterio, el documento fija definiciones internas suficientes de trabajo, calor, fuerza, empuje, temperatura y entalpía, pero distingue honestamente entre cierre algebraico del dominio y calibración físico-material externa, que sigue siendo una tarea ulterior de contraste.
+## Abstract
 
----
+The factual thermodynamic domain of the Sistema Vectorial SV is constructed as an event-based, non-temporal algebraic regime, traceable in both directions and closed by a single absolute equation. The closure starts from the preternary substrate of admissible pairs, crosses the canonical factual chain of irreversibility, and fixes on that ground a factual thermodynamic bundle whose projections recover work, heat, force, thrust, temperature and enthalpy as derived magnitudes. The document explicitly determines the factual differential arithmetic of the domain, the ternary decomposition of increments, factual accumulation, interior factual content, total factual content, the factual reading of non-closure under the canonical class `U`, factual force as a closed combination of gradient, vectorial rotor and Jacobian correction, factual thrust as a boundary functional, factual temperature as a sovereign metrological reading, and factual enthalpy as the interior–boundary decomposition of total content. The absolute formula of the domain is presented as the vanishing of a non-negative total factual defect. Its vanishing is simultaneously equivalent to factual content balance, non-decrease of factual entropy, closure of force and thrust, factual thermometric definition and the enthalpic decomposition. The result is a unique formulation, fibrous by projections, compatible with SV semantic discipline and with the single-equation architecture already established in other corpus domains.
 
-## 1. Estatuto, rango y pregunta directriz
+## 1. Estatuto del dominio
 
-### 1.1. Estatuto
+### 1.1. Objeto exacto
 
-El presente documento trata el dominio termodinámico factual del Sistema Vectorial SV en el rango estricto de cierre algebraico interno. No es una glosa de la termodinámica clásica, no es una paráfrasis léxica y no es un simple injerto editorial sobre el corpus. Su objeto es más severo: construir una ley única del dominio y hacer que fuerza, trabajo, calor, empuje, temperatura y entalpía comparezcan sólo como magnitudes derivadas o lecturas proyectivas del régimen factual soberano.
+El presente documento trata el dominio termodinámico factual del Sistema Vectorial SV en el rango estricto de cierre algebraico interno. Su objeto no es comentar la termodinámica heredada ni traducir terminología clásica a un léxico nuevo. Su objeto es construir una ley única del dominio y hacer que trabajo, calor, fuerza, empuje, temperatura y entalpía comparezcan sólo como magnitudes derivadas o como lecturas proyectivas del régimen factual soberano.
 
-### 1.2. Cadena de prevalencia
+### 1.2. Prohibiciones constitutivas
 
-Todo lo que aquí se formula queda subordinado a la cadena de prevalencia del proyecto:
+El dominio queda sometido, sin excepción, a las siguientes prohibiciones:
 
-```math
-\text{SV soberano} \succ \text{doctrina} \succ \text{álgebra} \succ \text{lenguaje} \succ \text{compuertas de seguridad} \succ \text{agentes} \succ \text{motor}.
-```
+1. prohibición de tiempo soberano como fundamento;
+2. prohibición de probabilidad como criterio de verdad;
+3. prohibición de estadística como sustituto de clausura;
+4. prohibición de inferencia opaca y de heurística no declarada;
+5. prohibición de cuarto polo semántico ajeno a `K_3`;
+6. prohibición de repropósito silencioso de operadores ya fijados por el corpus;
+7. prohibición de introducir herramienta clásica de mayor potencia allí donde el aparato factual del SV ya sea suficiente.
 
-Ningún operador introducido en este documento corrige silenciosamente al suelo superior. Ninguna lectura física proyectiva desplaza a la semántica constitutiva del SV.
+Estas prohibiciones no son advertencias metodológicas. Son condiciones constitutivas del dominio.
 
-### 1.3. Prohibiciones constitutivas
+### 1.3. Criterio de aceptación de magnitudes físicas
 
-El documento no puede introducir por la puerta trasera:
+Una magnitud sólo será admitida aquí como magnitud factual del SV si satisface simultáneamente las cinco condiciones siguientes:
 
-- tiempo soberano;
-- probabilidad;
-- estadística;
-- minería de datos;
-- inferencia opaca;
-- heurística no declarada;
-- clausura espuria de `U`;
-- un cuarto polo semántico;
-- ni repropósito silencioso de operadores ya fijados por el corpus.
+1. descenso controlado al sustrato preternario;
+2. compatibilidad explícita con la terna canónica y con el estatuto de `U`;
+3. variación expresable por sucesos y no por cronología soberana;
+4. cierre mediante operadores ya autorizados del corpus o derivados explícitos de ellos;
+5. proyección clásica, cuando exista, sólo como lectura externa y nunca como fundamento constitutivo.
 
-### 1.4. Pregunta directriz y criterio adversarial
+### 1.4. Objetivo de cierre
 
-La pregunta directriz del documento es doble.
+La meta del documento es demostrar que existe una única fórmula soberana del dominio termodinámico factual y que toda magnitud física central del dominio comparece como proyección o consecuencia de esa única fórmula.
 
-Primera: ¿queda el dominio termodinámico factual cerrado por una fórmula única, fibrosa por proyecciones, compatible con el resto del corpus?
+## 2. Sustrato semántico y suelo preternario
 
-Segunda: ¿las magnitudes `F_{SV}`, `W_{SV}`, `Q_{SV}`, `P^{emp}_{SV}`, `\Theta_{SV}` y `\Lambda_{SV}` son aquí genuinas del SV o son simple mapeo de categorías clásicas rehechas con símbolos nuevos?
-
-La respuesta adversarial que guiará todo el texto es ésta:
-
-> una magnitud sólo será aceptada como factual del SV si:
->
-> 1. desciende, directa o indirectamente, hasta el suelo preternario;
-> 2. no viola el estatuto de `U`;
-> 3. se expresa por sucesos y no por cronología soberana;
-> 4. cierra con operadores ya autorizados del corpus;
-> 5. y sólo después admite, si procede, lectura comparativa respecto de la física clásica.
-
-Si una magnitud falla cualquiera de esos cinco filtros, no queda cerrada como magnitud del SV; queda, a lo sumo, como tentativa de mapeo externo.
-
----
-
-## 2. Base de la pirámide: suelo preternario, terna canónica y estatuto exacto de `U`
-
-### 2.1. La terna canónica
+### 2.1. Terna canónica
 
 La terna canónica del sistema es
 
 ```math
-K_3=\{0,1,U\}.
+K_3 = \{0,1,U\}.
 ```
 
-El símbolo `U` conserva el estatuto ya fijado por el corpus:
+El símbolo `U` conserva su estatuto de indeterminación honesta. No equivale a probabilidad, no equivale a déficit instrumental banal y no autoriza clausura favorable por plausibilidad.
 
-- no equivale a probabilidad;
-- no equivale a ignorancia banal;
-- no equivale a déficit instrumental;
-- no autoriza cierre favorable por plausibilidad;
-- y no puede ser degradado a residuo operativo.
-
-`U` significa: **no lo sé con base suficiente para clausura legítima**.
-
-### 2.2. Lo que `U` sí es y lo que `U` no es
-
-`U` es una clase legítima del plano ternario inducido. No es el origen absoluto del sistema. No precede a la terna. No sustituye al suelo preternario. No equivale al total de posibilidades previas al nacimiento de la terna. Si se la absolutiza como “constante de todo”, el documento viola la jerarquía del SV.
-
-### 2.3. Pares admisibles y prioridad preternaria
+### 2.2. Pares admisibles
 
 El suelo del dominio es el sistema de pares admisibles
 
@@ -93,27 +62,35 @@ El suelo del dominio es el sistema de pares admisibles
 (\alpha_i,\beta_i).
 ```
 
-Sobre él se definen las primeras magnitudes de activación factual:
+Sobre cada par admisible se definen el sesgo polar factual y la activación factual local por
 
 ```math
-\delta_i:=\beta_i-\alpha_i,
+\delta_i := \beta_i - \alpha_i,
 \qquad
-a_i:=|\delta_i|.
+ a_i := |\delta_i|.
 ```
 
-La primera orienta el sesgo polar factual. La segunda fija el espesor factual local de activación.
+### 2.3. Teorema de prioridad preternaria
 
-### 2.4. Teorema de prioridad preternaria
+**Teorema 2.3.1.** Ninguna magnitud central del dominio termodinámico factual precede a `(\alpha_i,\beta_i)`.
 
-**Teorema 2.4.1.** Ninguna magnitud central del dominio termodinámico factual precede a `(\alpha_i,\beta_i)`.
+**Demostración.** Toda pieza central del dominio comparece o bien como construcción directa sobre `(\delta_i,a_i)`, o bien como estrato de una cadena factual ya derivada de ese suelo, o bien como componente o proyección del fibrado termodinámico factual levantado sobre esa cadena. En ningún caso aparece un objeto con prioridad ontológica superior al par admisible. Luego el suelo preternario precede a toda magnitud central del dominio. Q.E.D.
 
-**Demostración.** Toda magnitud central del dominio comparece o bien como construcción directa sobre `(\delta_i,a_i)`, o bien como estrato de una cadena factual ya derivada de ese suelo, o bien como componente o proyección del fibrado termodinámico factual levantado sobre dicha cadena. En ningún caso aparece un objeto con prioridad ontológica superior al par admisible. Luego el suelo preternario precede a toda magnitud central del dominio. Q.E.D.
+### 2.4. Persistencia factual de `U`
 
-### 2.5. Persistencia de `U` y su interpretación correcta
+Para una trayectoria factual admisible `\Gamma=(S_0,S_1,\dots,S_n)`, sea `\chi_\Gamma(k)\in K_3` la lectura ternaria del paso `k`. Se introducen los indicadores ternarios
 
-La reflexión adversarial sobre `U` exige una distinción fina. En trayectorias largas puede ocurrir que `U` sea el estado más frecuente del plano ternario. Eso no es absurdo: cuando el sistema no dispone de base suficiente para estabilizarse en `0` o `1`, la proyección canónica legítima es precisamente `U`. Desde esa perspectiva, `U` puede comparecer como **estado normal de lectura** en largas sucesiones de sucesos.
+```math
+\mathbf{1}_1(k),\qquad \mathbf{1}_0(k),\qquad \mathbf{1}_U(k),
+```
 
-Para hacer visible esa situación sin alterar el corpus, se introducen dos descriptores auxiliares, de rango no soberano:
+caracterizados por
+
+```math
+\mathbf{1}_1(k)+\mathbf{1}_0(k)+\mathbf{1}_U(k)=1.
+```
+
+Se define la proporción factual ponderada de `U` por
 
 ```math
 \rho_U(\Gamma,n)
@@ -122,49 +99,27 @@ Para hacer visible esa situación sin alterar el corpus, se introducen dos descr
      {\sum_{k=1}^{n}\omega(\nu_k)},
 ```
 
+y el espesor factual acumulado de `U` por
+
 ```math
 \mathcal{S}_U(\Gamma,n)
 :=
 \sum_{k=1}^{n}\mathbf{1}_U(k)\,a(k),
 \qquad
-a(k):=\sum_i a_i(k).
+ a(k):=\sum_i a_i(k).
 ```
 
-`\rho_U` mide la proporción factual ponderada de pasos leídos en `U`. `\mathcal{S}_U` mide el espesor factual acumulado de la no clausura.
+### 2.5. Teorema de no supremacía de `U`
 
-### 2.6. Teorema de no supremacía de `U`
-
-**Teorema 2.6.1.** La persistencia factual de `U` no implica supremacía ontológica de `U`.
+**Teorema 2.5.1.** La persistencia factual de `U` no implica supremacía ontológica de `U`.
 
 **Demostración.** La frecuencia de aparición de `U` en el plano ternario es una propiedad de la lectura inducida sobre la trayectoria, no del rango ontológico del estado que se lee. El suelo del sistema sigue siendo preternario, porque la lectura ternaria sólo nace después de los pares admisibles y de su activación factual. Luego una `\rho_U` alta puede describir persistencia factual de no clausura, pero no convierte a `U` en principio originario del dominio. Q.E.D.
 
-### 2.7. Corolario de no confusión entre `U` y preternario
+## 3. Trayectoria factual y aritmética diferencial del dominio
 
-**Corolario 2.7.1.** Lo que hay “antes” de la terna no es `U`, sino el régimen preternario de pares admisibles y activaciones polares aún no ternarizadas.
+### 3.1. Derivada de suceso soberana
 
-Éste es el punto crítico que impide deslizar el documento hacia una metafísica impropia de `U`.
-
----
-
-## 3. Segunda grada de la pirámide: trayectoria factual, peso de suceso y aritmética diferencial
-
-### 3.1. Trayectoria factual admisible
-
-Sea
-
-```math
-\Gamma=(S_0,S_1,\dots,S_n)
-```
-
-una trayectoria factual admisible. Cada paso `S_{k-1}\to S_k` es un paso de suceso. El dominio no se organiza sobre un parámetro temporal continuo, sino sobre sucesos discretos con peso factual.
-
-### 3.2. Índice y peso de suceso
-
-El índice factual de suceso se denota por `\nu_k`. Su peso factual se denota por `\omega(\nu_k)` y pertenece al vocabulario metrológico soberano del corpus.
-
-### 3.3. Derivada de suceso soberana
-
-Alineando el dominio con el aparato operatorio ya fijado, se adopta la derivada de suceso en forma ponderada:
+Sea `\nu_k` el índice factual del suceso `S_{k-1}\to S_k` y sea `\omega(\nu_k)` su peso factual. Para toda magnitud factual discreta `X(\Gamma,k)` se define la derivada de suceso ponderada por
 
 ```math
 \mathfrak{D}_{\Gamma}X(\Gamma,k)
@@ -188,55 +143,31 @@ Por construcción,
 \Delta_{\Gamma}X(\Gamma,n)=X(\Gamma,n)-X(\Gamma,0).
 ```
 
-No hay aquí tiempo escondido: hay sólo sucesión factual y peso de suceso.
+### 3.2. Proyecciones diferenciales canónicas
 
-### 3.4. Lectura ternaria de paso e indicadores
-
-A cada paso factual se asocia una lectura
-
-```math
-\chi_{\Gamma}(k)\in\{1,0,U\},
-```
-
-con sus indicadores canónicos
-
-```math
-\mathbf{1}_{1}(k),\qquad
-\mathbf{1}_{0}(k),\qquad
-\mathbf{1}_{U}(k),
-```
-
-satisfaciendo
-
-```math
-\mathbf{1}_{1}(k)+\mathbf{1}_{0}(k)+\mathbf{1}_{U}(k)=1.
-```
-
-### 3.5. Proyecciones diferenciales del dominio
-
-Sobre cualquier magnitud factual `X` se definen las proyecciones diferenciales canónicas:
+Sobre cualquier magnitud factual `X` se definen las proyecciones diferenciales
 
 ```math
 \mathfrak{D}_{\Gamma}^{dir}X(\Gamma,n)
 :=
-\sum_{k=1}^{n}\mathbf{1}_{1}(k)\,\omega(\nu_k)\,\mathfrak{D}_{\Gamma}X(\Gamma,k),
+\sum_{k=1}^{n}\mathbf{1}_1(k)\,\omega(\nu_k)\,\mathfrak{D}_{\Gamma}X(\Gamma,k),
 ```
 
 ```math
 \mathfrak{D}_{\Gamma}^{res}X(\Gamma,n)
 :=
-\sum_{k=1}^{n}\mathbf{1}_{0}(k)\,\omega(\nu_k)\,\mathfrak{D}_{\Gamma}X(\Gamma,k),
+\sum_{k=1}^{n}\mathbf{1}_0(k)\,\omega(\nu_k)\,\mathfrak{D}_{\Gamma}X(\Gamma,k),
 ```
 
 ```math
 \mathfrak{D}_{\Gamma}^{U}X(\Gamma,n)
 :=
-\sum_{k=1}^{n}\mathbf{1}_{U}(k)\,\omega(\nu_k)\,\mathfrak{D}_{\Gamma}X(\Gamma,k).
+\sum_{k=1}^{n}\mathbf{1}_U(k)\,\omega(\nu_k)\,\mathfrak{D}_{\Gamma}X(\Gamma,k).
 ```
 
-### 3.6. Identidad de descomposición factual total
+### 3.3. Teorema de descomposición factual total
 
-Las tres proyecciones anteriores agotan el incremento total:
+**Teorema 3.3.1.** Para toda magnitud factual `X`,
 
 ```math
 \Delta_{\Gamma}X
@@ -248,15 +179,13 @@ Las tres proyecciones anteriores agotan el incremento total:
 \mathfrak{D}_{\Gamma}^{U}X.
 ```
 
-### 3.7. Lema de exhaustividad diferencial
+**Demostración.** Se sustituye la identidad ternaria `\mathbf{1}_1+\mathbf{1}_0+\mathbf{1}_U=1` en cada paso de la suma acumulativa. La exclusión mutua de indicadores impide solapamiento. Luego el incremento total se descompone de manera exhaustiva y no solapada en sus tres proyecciones canónicas. Q.E.D.
 
-**Lema 3.7.1.** Para toda magnitud factual `X`, las tres proyecciones diferenciales anteriores agotan sin solapamiento su incremento factual total.
+### 3.4. Corolario de cierre diferencial
 
-**Demostración.** La identidad se deduce de la partición ternaria de la unidad paso a paso. La exclusión mutua de los indicadores impide contribución simultánea de un mismo paso a dos proyecciones distintas. Luego la descomposición es total y no solapada. Q.E.D.
+Las proyecciones directriz, residual y de indeterminación honesta no son operadores ornamentales. Son la aritmética diferencial mínima del dominio. Sin ellas, no puede definirse con legitimidad ni trabajo factual, ni calor factual, ni lectura factual de no clausura.
 
----
-
-## 4. Tercera grada de la pirámide: cadena factual canónica de irreversibilidad
+## 4. Cadena factual canónica de irreversibilidad
 
 ### 4.1. Cadena estratificada completa
 
@@ -280,8 +209,6 @@ H_{\Sigma_k}
 H_{SV}.
 ```
 
-El documento no acorta esta cadena. Ningún estrato se suprime por comodidad compositiva.
-
 ### 4.2. Dispersión factual preternaria
 
 Se define
@@ -291,8 +218,6 @@ H_{pre}(\Gamma,n)
 :=
 \sum_{k=1}^{n}\sum_i a_i(k).
 ```
-
-Es la acumulación factual de activación previa a toda ternarización inducida.
 
 ### 4.3. Transporte ternario inducido
 
@@ -317,8 +242,6 @@ H_{K_3}(\Gamma,n)
 +
 R_{\Gamma}(n).
 ```
-
-donde `\mathcal{J}_{\Gamma,SV}` es el jacobiano factual heredado del aparato operatorio absoluto y `R_{\Gamma}` el residual factual del proceso.
 
 ### 4.5. Concentración y canalización
 
@@ -350,7 +273,7 @@ S_{\Sigma}\bigl(H_{\Sigma_k}(\Gamma,n)\bigr).
 
 **Teorema 4.7.1.** `H_{SV}` absorbe ordenadamente la cadena factual previa sin colapsar sus estratos.
 
-**Demostración.** `H_{pre}` recoge activación previa; `H_{K_3}` transporta dicha activación al plano ternario; `H_{\Xi}` añade sensibilidad y residualidad; `H_{\Sigma_c}` y `H_{\Sigma_k}` reorganizan concentración y canalización. Si `H_{SV}` no absorbiera esos estratos como pisos sucesivos, el cierre del dominio sería un salto no auditable. Luego `H_{SV}` es absorción factual estratificada. Q.E.D.
+**Demostración.** `H_{pre}` recoge activación previa; `H_{K_3}` la transporta al plano ternario; `H_{\Xi}` añade sensibilidad y residualidad; `H_{\Sigma_c}` y `H_{\Sigma_k}` reorganizan concentración y canalización. Si `H_{SV}` no absorbiera esos estratos como pisos sucesivos, el cierre del dominio sería un salto no auditable. Luego `H_{SV}` es absorción factual estratificada. Q.E.D.
 
 ### 4.8. Teorema de irreversibilidad factual
 
@@ -376,19 +299,11 @@ y, por acumulación,
 \Delta_{\Gamma}H_{SV}(\Gamma,n)\ge 0.
 ```
 
-### 4.10. Proposición de persistencia factual de `U`
+## 5. Aparato operatorio heredado del SV
 
-**Proposición 4.10.1.** Puede existir una trayectoria factual larga con `\rho_U(\Gamma,n)` alta y, simultáneamente, con `\Delta_{\Gamma}H_{SV}(\Gamma,n)\ge 0`.
+### 5.1. Estatuto
 
-**Justificación.** La persistencia de `U` no expresa caos semántico, sino ausencia durable de base suficiente para clausura polar. El dominio no obliga a que toda irreversibilidad factual desemboque rápidamente en `0` o `1`. Puede haber crecimiento de espesor factual e irreversibilidad sin estabilización polar inmediata. Esta proposición responde directamente a la intuición directriz del documento: desde la perspectiva geométrica del plano ternario, lo frecuente puede ser la persistencia de `U`; pero esa frecuencia no niega ni suplanta la prioridad preternaria.
-
----
-
-## 5. Cuarta grada: aparato operatorio heredado y criterios de genuinidad física
-
-### 5.1. Estatuto del aparato operatorio
-
-El dominio termodinámico factual no funda desde cero flujo, divergencia, gradiente, rotor, jacobiano ni frontera. Los adopta como cuerpo heredado y vinculante del corpus soberano.
+El dominio termodinámico factual no repropone flujo, divergencia, gradiente, rotor, jacobiano ni frontera. Los adopta como cuerpo operatorio heredado y vinculante del corpus soberano.
 
 ### 5.2. Fórmulas canónicas heredadas
 
@@ -418,41 +333,19 @@ Div_{SV}(F;C)\,\omega(C)
 \sum_k K(C_k)\,\omega(C_k).
 ```
 
-El rotor factual se adopta en su lectura vectorial heredada del corpus electromagnético factual. El documento no lo reproclama como 2-forma nueva ni altera su tipología.
+El rotor factual se adopta en su lectura vectorial heredada del corpus electromagnético factual. El documento no altera su tipología.
 
 ### 5.3. Jacobiano factual
 
-Se adopta el jacobiano factual estructural del corpus como matriz soberana de sensibilidad local del régimen. En el presente documento su función no es ornamental: interviene en `H_{\Xi}`, en la fuerza factual y en la lectura termométrica factual.
+El jacobiano factual estructural del corpus entra aquí como matriz soberana de sensibilidad local del régimen. Interviene en `H_{\Xi}`, en la fuerza factual y en la lectura termométrica factual.
 
-### 5.4. Criterio adversarial de genuinidad de una magnitud factual
+### 5.4. Teorema de suficiencia operatoria interna
 
-Una magnitud física sólo comparece aquí como magnitud genuinamente factual del SV si satisface simultáneamente:
+**Teorema 5.4.1.** El aparato anterior es suficiente para cerrar el dominio termodinámico factual sin introducir herramientas clásicas constitutivas de mayor potencia.
 
-```math
-\text{descenso al preternario}
-\;\wedge\;
-\text{compatibilidad con }U
-\;\wedge\;
-\text{variación por suceso}
-\;\wedge\;
-\text{cierre operatorio soberano}
-\;\wedge\;
-\text{proyección clásica sólo externa}.
-```
+**Demostración.** El dominio exige balance de contenido, frontera, residualidad, gradiente, rotor y sensibilidad jacobiana. Todas esas piezas comparecen ya en el cuerpo operatorio heredado. Luego no procede introducir aparato externo más potente como fundamento. Q.E.D.
 
-### 5.5. Teorema de no mera cosmética física
-
-**Teorema 5.5.1.** Una magnitud que sólo reproduzca una definición clásica bajo cambio de nombres, sin descender al preternario ni cerrarse por sucesos, no queda reconocida como magnitud factual del SV.
-
-**Demostración.** Si una magnitud no desciende al preternario, no cumple trazabilidad constitutiva. Si no se expresa por suceso, introduce temporalismo impropio. Si su lectura de `U` es ilegítima, viola la semántica constitutiva. Y si su aparato de cierre no es soberano, la magnitud no pertenece al vocabulario nativo del dominio. Luego el simple renombrado clásico no basta. Q.E.D.
-
-### 5.6. Dictamen previo sobre fuerza, trabajo, calor, temperatura y entalpía
-
-A la luz del criterio anterior, el documento no tratará estas magnitudes como primitivas heredadas. Las construirá desde la magnitud madre de contenido factual total y desde las proyecciones canónicas del fibrado termodinámico factual. Sólo después se permitirá una lectura comparativa con la física clásica.
-
----
-
-## 6. Quinta grada: fibrado termodinámico factual y magnitudes madre
+## 6. Fibrado termodinámico factual y magnitudes madre
 
 ### 6.1. Fibra factual del dominio
 
@@ -474,7 +367,7 @@ R_{\Gamma}(n),
 \bigr).
 ```
 
-La sección `\Omega_{SV}` es el objeto fibroso soberano del dominio. No es una magnitud derivada; es la forma mínima sobre la que el dominio termodinámico comparece unificado.
+La sección `\Omega_{SV}` es el objeto fibroso soberano del dominio.
 
 ### 6.2. Acumulación factual de trayectoria
 
@@ -485,8 +378,6 @@ Se define
 :=
 \sum_{k=1}^{n}\sum_i a_i(k)\,\omega(\nu_k).
 ```
-
-Mide el espesor factual acumulado del recorrido.
 
 ### 6.3. Volumen factual interior
 
@@ -524,11 +415,9 @@ La magnitud madre del dominio queda fijada por
 \mathcal{B}_{\partial,SV}(\Gamma,n).
 ```
 
-No se trata de una suma retórica. Esta identidad fija explícitamente la descomposición interior–contorno del contenido factual total.
-
 ### 6.6. Lectura factual de la no clausura legítima
 
-La no clausura legítima del dominio no es un cuarto polo; es la lectura factual del borde bajo indicador canónico `U`:
+La no clausura legítima del dominio no introduce un cuarto polo; se fija por
 
 ```math
 \mathcal{U}_{SV}(\Gamma,n)
@@ -542,13 +431,9 @@ La no clausura legítima del dominio no es un cuarto polo; es la lectura factual
 
 **Demostración.** El interior factual queda recogido por `\mathcal{C}^{int}_{SV}`. El contorno factual queda recogido por `\mathcal{B}_{\partial,SV}`. La parte de borde no clausurable con honestidad semántica se expresa por `\mathfrak{D}_{\Gamma}^{U}` sobre la frontera. Luego no queda contribución central del dominio fuera de `\mathcal{C}^{tot}_{SV}` y `\mathcal{U}_{SV}`. Q.E.D.
 
----
-
-## 7. Sexta grada: definición genuina de trabajo, calor, fuerza, empuje, temperatura y entalpía
+## 7. Proyecciones termodinámicas canónicas
 
 ### 7.1. Trabajo factual
-
-El trabajo factual se define como proyección directriz del incremento factual total:
 
 ```math
 W_{SV}(\Gamma,n)
@@ -556,19 +441,13 @@ W_{SV}(\Gamma,n)
 \mathfrak{D}_{\Gamma}^{dir}\mathcal{C}^{tot}_{SV}(\Gamma,n).
 ```
 
-**Lectura.** El trabajo factual no se introduce como traducción de `\delta W` clásica. Comparece como parte directriz del cambio factual total del contenido.
-
 ### 7.2. Calor factual
-
-El calor factual se define como proyección residual del incremento factual total:
 
 ```math
 Q_{SV}(\Gamma,n)
 :=
 \mathfrak{D}_{\Gamma}^{res}\mathcal{C}^{tot}_{SV}(\Gamma,n).
 ```
-
-**Lectura.** El calor factual no es residuo térmico clásico recodificado. Es la componente residual del cambio factual total del contenido.
 
 ### 7.3. Lema de balance proyectivo
 
@@ -577,14 +456,10 @@ Q_{SV}(\Gamma,n)
 ```math
 \Delta_{\Gamma}\mathcal{C}^{tot}_{SV}
 =
-W_{SV}
-+
-Q_{SV}
-+
-\mathcal{U}_{SV}.
+W_{SV}+Q_{SV}+\mathcal{U}_{SV}.
 ```
 
-**Demostración.** Basta aplicar a `\mathcal{C}^{tot}_{SV}` la identidad de descomposición factual total del apartado 3.6. Q.E.D.
+**Demostración.** Se aplica a `\mathcal{C}^{tot}_{SV}` la identidad de descomposición factual total del apartado 3.3. Q.E.D.
 
 ### 7.4. Fuerza factual
 
@@ -610,17 +485,13 @@ J^{for}_{SV}(\Gamma,n)
 
 para un vector factual de dirección de fuerza `u_{for}`.
 
-**Lectura.** La fuerza factual queda cerrada como magnitud de gradiente, torsión vectorial y sensibilidad jacobiana. No es un clon inmediato de la fuerza clásica: su aparición exige potencial factual, rotor factual y jacobiano factual del propio corpus.
-
 ### 7.5. Teorema de irreducibilidad de la fuerza factual
 
 **Teorema 7.5.1.** La fuerza factual no se reduce, en general, a un gradiente puro.
 
-**Demostración.** Si se tuviera `F_{SV}=-\nabla^{SV}\varphi`, deberían anularse simultáneamente `Rot_{SV}\Psi_{SV}` y `J^{for}_{SV}`. La estructura general del dominio no impone esa anulación. Luego la reducción a gradiente puro no es general. Q.E.D.
+**Demostración.** Si `F_{SV}` fuera igual a `-\nabla^{SV}\varphi` para algún potencial `\varphi`, deberían anularse el término rotacional `Rot_{SV}\Psi_{SV}` y la corrección jacobiana `J^{for}_{SV}`. La estructura general del dominio no impone tal anulación. Luego la reducción a gradiente puro no es general. Q.E.D.
 
 ### 7.6. Empuje factual
-
-El empuje factual se define como respuesta de contorno inducida por la fuerza sobre la frontera activa:
 
 ```math
 P^{emp}_{SV}(\Gamma,n)
@@ -629,8 +500,6 @@ P^{emp}_{SV}(\Gamma,n)
 ```
 
 ### 7.7. Temperatura factual
-
-La temperatura factual se define como lectura metrológica factual del bloque irreversible–residual–jacobiano–frontera:
 
 ```math
 \Theta_{SV}(\Gamma,n)
@@ -643,8 +512,6 @@ R_{\Gamma}(n),
 \right).
 ```
 
-Aquí `UFT` no es un adorno externo. Actúa como compuerta metrológica soberana ya fijada por el corpus.
-
 ### 7.8. Teorema de no reducción monovariable de la temperatura factual
 
 **Teorema 7.8.1.** La temperatura factual no es, en general, función de `H_{SV}` solo.
@@ -653,37 +520,23 @@ Aquí `UFT` no es un adorno externo. Actúa como compuerta metrológica soberana
 
 ### 7.9. Entalpía factual
 
-La entalpía factual se define por la descomposición interior–contorno
-
 ```math
 \Lambda_{SV}(\Gamma,n)
 :=
 \mathcal{C}^{int}_{SV}(\Gamma,n)
 +
-\mathcal{B}_{\partial,SV}(\Gamma,n).
+\mathcal{B}_{\partial,SV}(\Gamma,n)
+=
+\mathcal{C}^{tot}_{SV}(\Gamma,n).
 ```
 
-Por tanto,
-
-```math
-\Lambda_{SV}(\Gamma,n)=\mathcal{C}^{tot}_{SV}(\Gamma,n).
-```
-
-### 7.10. Teorema de no primitividad de las magnitudes derivadas
+### 7.10. Teorema de no primitividad
 
 **Teorema 7.10.1.** `W_{SV}`, `Q_{SV}`, `F_{SV}`, `P^{emp}_{SV}`, `\Theta_{SV}` y `\Lambda_{SV}` no poseen estatuto primitivo independiente.
 
 **Demostración.** `W_{SV}` y `Q_{SV}` son proyecciones del incremento de `\mathcal{C}^{tot}_{SV}`. `P^{emp}_{SV}` es funcional de contorno de `F_{SV}`. `\Theta_{SV}` es lectura metrológica factual del bloque irreversible–residual–jacobiano–frontera. `\Lambda_{SV}` coincide con la descomposición total de contenido. Luego ninguna de esas magnitudes es primitiva. Q.E.D.
 
-### 7.11. Dictamen de genuinidad de las magnitudes físicas
-
-**Proposición 7.11.1.** En el estado actual del documento, fuerza, trabajo, calor, empuje, temperatura y entalpía no son mero maquillaje léxico de la física clásica.
-
-**Justificación.** Ninguna de ellas se introduce como primitiva externa. Todas descienden, directa o indirectamente, hasta el suelo preternario, respetan la lectura de `U`, se expresan por sucesos y cierran mediante aparato operatorio soberano del corpus. Sin embargo, su calibración empírica fina y su proyección material concreta siguen siendo tareas ulteriores. Por tanto, no son mera cosmética; tampoco constituyen todavía una sustitución cerrada de la física material externa. Esta distinción honesta es obligatoria.
-
----
-
-## 8. Séptima grada: identidades cerradas del dominio
+## 8. Identidades cerradas del dominio
 
 ### 8.1. Identidad de balance factual
 
@@ -749,13 +602,11 @@ UFT(H_{SV},R_{\Gamma},\mathcal{J}_{\Gamma,SV},\mathcal{B}_{\partial,SV})
 0.
 ```
 
----
-
-## 9. Cúspide de la pirámide: fórmula absoluta del dominio
+## 9. Fórmula absoluta del dominio
 
 ### 9.1. Parte negativa de la irreversibilidad
 
-Para un escalar `x`, se define la parte negativa por
+Para un escalar `x`,
 
 ```math
 [x]_-
@@ -763,9 +614,9 @@ Para un escalar `x`, se define la parte negativa por
 \max(-x,0).
 ```
 
-### 9.2. Defecto factual total del dominio
+### 9.2. Defecto factual total
 
-Se define el defecto factual total por
+Se define
 
 ```math
 \mathbb{T}^{thermo}_{SV}(\Gamma,n)
@@ -803,19 +654,13 @@ UFT(H_{SV},R_{\Gamma},\mathcal{J}_{\Gamma,SV},\mathcal{B}_{\partial,SV})
 \bigr|^2.
 ```
 
-### 9.3. Ecuación absoluta del dominio
-
-La ecuación soberana del dominio termodinámico factual es
+### 9.3. Ecuación absoluta
 
 ```math
 \mathbb{T}^{thermo}_{SV}(\Gamma,n)=0.
 ```
 
-### 9.4. Observación crítica sobre su estatuto
-
-Esta forma no debe leerse como suma arbitraria de requisitos, sino como condensación escalar de los seis defectos constitutivos del dominio. Su estatuto no es el de un mero checklist. Es el funcional de nulidad en que el dominio se reconoce a sí mismo como cerrado.
-
----
+Ésta es la fórmula absoluta del dominio. Es escalar nula, fibrosa por proyecciones y compatible con la arquitectura de ecuación única ya asentada en el corpus.
 
 ## 10. Teoremas de cierre del dominio
 
@@ -829,7 +674,7 @@ Esta forma no debe leerse como suma arbitraria de requisitos, sino como condensa
 
 **Teorema 10.2.1.** Si `\mathbb{T}^{thermo}_{SV}=0`, el dominio satisface simultáneamente balance factual total e irreversibilidad factual.
 
-**Demostración.** La anulación del primer término impone la identidad de balance factual. La anulación del segundo término impone `[\Delta_{\Gamma}H_{SV}]_-=0`, es decir, `\Delta_{\Gamma}H_{SV}\ge 0`. Q.E.D.
+**Demostración.** La anulación del primer término impone la identidad de balance factual. La anulación del segundo término impone `\Delta_{\Gamma}H_{SV}\ge 0`. Q.E.D.
 
 ### 10.3. Teorema de absorción de las magnitudes derivadas
 
@@ -839,21 +684,15 @@ Esta forma no debe leerse como suma arbitraria de requisitos, sino como condensa
 
 ### 10.4. Teorema de compatibilidad arquitectónica
 
-**Teorema 10.4.1.** La forma `\mathbb{T}^{thermo}_{SV}=0` es compatible con la arquitectura de ecuación única ya asentada en otros dominios del corpus.
+**Teorema 10.4.1.** La forma `\mathbb{T}^{thermo}_{SV}=0` es compatible con la arquitectura de ecuación única ya asentada en el corpus.
 
 **Demostración.** La ecuación es escalar nula, no temporal, organizada sobre un objeto fibroso factual y cerrada por anulación de un defecto total no negativo. Esa forma es arquitectónicamente compatible con la familia de ecuación única del corpus. Q.E.D.
 
-### 10.5. Teorema de unicidad fuerte del cierre escalar
+### 10.5. Teorema de unicidad fuerte
 
 **Teorema 10.5.1.** No existe una segunda ecuación escalar soberana independiente que cierre el mismo dominio con igual conjunto de exigencias constitutivas.
 
-**Demostración.** Toda ecuación alternativa tendría que imponer simultáneamente las seis condiciones que el dominio considera constitutivas: balance factual, irreversibilidad factual, cierre de fuerza, cierre de empuje, definición termométrica factual y descomposición entálpica interior–contorno. Si omite alguna, el dominio queda incompleto. Si las contiene todas, debe anular exactamente la misma familia de defectos. Toda reescritura escalar que mantenga las seis nulidades es equivalente, por transformación monótona positiva, a la nulidad del defecto factual total fijado. Luego no existe segunda ecuación escalar soberana independiente con el mismo alcance constitutivo. Q.E.D.
-
-### 10.6. Observación de honestidad doctrinal
-
-El teorema anterior cierra la unicidad del **cierre escalar del dominio**. No afirma que el corpus entero de la física factual del SV haya quedado definitivamente agotado. El documento distingue así entre cierre interno del dominio y clausura exhaustiva de toda futura física factual, que sería una afirmación excesiva e impropia.
-
----
+**Demostración.** Toda ecuación alternativa tendría que imponer simultáneamente balance factual, irreversibilidad factual, cierre de fuerza, cierre de empuje, definición termométrica factual y descomposición entálpica interior–contorno. Si omite alguna, el dominio queda incompleto. Si las contiene todas, debe anular la misma familia de defectos. Toda reescritura escalar que mantenga esas seis nulidades es equivalente, por transformación monótona positiva, a la nulidad del defecto factual total fijado. Luego no existe segunda ecuación escalar soberana independiente con el mismo alcance constitutivo. Q.E.D.
 
 ## 11. Compatibilidad metrológica restringida
 
@@ -861,13 +700,7 @@ El teorema anterior cierra la unicidad del **cierre escalar del dominio**. No af
 
 El plano metrológico no funda el dominio. Sólo comparece como lectura subordinada una vez cerrado el régimen factual.
 
-### 11.2. Temperatura factual y UFT
-
-La temperatura factual quedó ligada a `UFT` en el apartado 7.7. Esta decisión evita duplicación operatoria y mantiene continuidad con el pilar metrológico del corpus.
-
-### 11.3. Correspondencias de lectura
-
-Se fijan las siguientes correspondencias de lectura:
+### 11.2. Correspondencias de lectura
 
 ```math
 [\Theta_{SV}] = UFT,
@@ -881,55 +714,13 @@ Se fijan las siguientes correspondencias de lectura:
 [P^{emp}_{SV}] = [F_{SV}]\cdot[\omega(B)].
 ```
 
-### 11.4. Observación crítica
+### 11.3. Observación crítica
 
-El documento no da por cerrada aquí una tabla metrológica completa de toda la termodinámica factual. Sólo fija el cosido mínimo necesario para que la lectura de sus magnitudes no quede flotante ni contradiga el pilar soberano de unidades factuales.
+El documento no da por cerrada aquí una tabla metrológica total de la termodinámica factual. Fija sólo el cosido mínimo necesario para que sus magnitudes no queden flotantes ni contradigan el pilar soberano de unidades factuales.
 
----
+## 12. Recorrido de consistencia visible
 
-## 12. Instanciación material controlada: titanio como caso de contraste y no como fundamento
-
-### 12.1. Estatuto de la instanciación
-
-El dominio no se funda en el titanio. El titanio entra aquí como contraste material disciplinado para evitar que el cierre algebraico se convierta en autorreferencia sin rozamiento físico.
-
-### 12.2. Lo que el documento puede afirmar con legitimidad interna
-
-El documento puede afirmar, con legitimidad interna, lo siguiente:
-
-1. si se dispone de una trayectoria factual de calentamiento material traducida al vocabulario soberano de sucesos y pesos de suceso, el dominio sabe expresar:
-   - contenido factual total,
-   - irreversibilidad factual,
-   - partición entre trabajo factual, calor factual y lectura factual de no clausura,
-   - lectura de empuje factual,
-   - temperatura factual subordinada a `UFT`,
-   - y entalpía factual como descomposición interior–contorno;
-
-2. si en una zona del proceso material la evidencia sigue siendo insuficiente para clausurar en lectura polar fuerte, el dominio no colapsa ni finge certeza: conserva `U`;
-
-3. la transición material externa no se interpreta aquí como “salto temporal”, sino como reorganización factual de trayectoria.
-
-### 12.3. Lo que el documento no debe fingir todavía
-
-El documento no debe fingir, en su estado actual, que ya dispone aquí de una tabla experimental completa de `C_p(T)`, de entropías estándar, de calor latente o de ecuaciones materiales verificadas del titanio integradas soberanamente en el corpus. Esos elementos pertenecen al plano de contraste físico-material y requieren fuente experimental específica y cosido metrológico explícito.
-
-### 12.4. Proposición de contraste material legítimo
-
-**Proposición 12.4.1.** Una instanciación material del titanio será doctrinalmente legítima sólo si satisface simultáneamente:
-
-- traducción de observables materiales a trayectoria factual admisible;
-- fijación expresa de pesos de suceso;
-- cosido metrológico completo con unidades soberanas del corpus;
-- preservación de `U` donde el material no permita clausura honesta;
-- y verificación de la ecuación `\mathbb{T}^{thermo}_{SV}=0` sobre el proceso factual traducido.
-
-Mientras eso no ocurra, la referencia al titanio debe leerse como **dominio de contraste exigente**, no como prueba material ya consumada.
-
----
-
-## 13. Recorrido de consistencia visible
-
-### 13.1. Banco A — balance factual exacto
+### 12.1. Banco A — balance factual exacto
 
 Sea un proceso factual con
 
@@ -949,9 +740,7 @@ Entonces
 12-5-4-3=0.
 ```
 
-Se anula el primer defecto del operador absoluto.
-
-### 13.2. Banco B — irreversibilidad factual
+### 12.2. Banco B — irreversibilidad factual
 
 Sea un proceso factual con
 
@@ -969,9 +758,7 @@ Entonces
 \Delta_{\Gamma}H_{SV}(2)=0.7\ge 0.
 ```
 
-Se anula el segundo defecto.
-
-### 13.3. Banco C — cierre de fuerza factual
+### 12.3. Banco C — cierre de fuerza factual
 
 Sea una configuración con
 
@@ -995,7 +782,7 @@ y
 F_{SV}+\nabla^{SV}\phi_{SV}-Rot_{SV}\Psi_{SV}-J^{for}_{SV}=0.
 ```
 
-### 13.4. Banco D — empuje factual
+### 12.4. Banco D — empuje factual
 
 Si
 
@@ -1005,7 +792,7 @@ Si
 
 y se fija `P^{emp}_{SV}=7`, el defecto de empuje se anula.
 
-### 13.5. Banco E — temperatura factual
+### 12.5. Banco E — temperatura factual
 
 Si
 
@@ -1015,7 +802,7 @@ UFT(H_{SV},R_{\Gamma},\mathcal{J}_{\Gamma,SV},\mathcal{B}_{\partial,SV})=11
 
 y se fija `\Theta_{SV}=11`, el defecto térmico se anula.
 
-### 13.6. Banco F — entalpía factual
+### 12.6. Banco F — entalpía factual
 
 Si
 
@@ -1033,7 +820,7 @@ entonces
 
 y el defecto entálpico se anula.
 
-### 13.7. Dictamen visible
+### 12.7. Dictamen visible
 
 Si los seis defectos se anulan simultáneamente, se obtiene
 
@@ -1041,35 +828,19 @@ Si los seis defectos se anulan simultáneamente, se obtiene
 \mathbb{T}^{thermo}_{SV}=0.
 ```
 
-### 13.8. Observación adversarial sobre los bancos
+## 13. Conclusión general
 
-Estos bancos verifican coherencia local del aparato; no sustituyen todavía un laboratorio material fuerte. Su función es de consistencia interna visible, no de validación experimental total del dominio.
+El dominio termodinámico factual del Sistema Vectorial SV queda organizado como una pirámide algebraica ascendente. El suelo es preternario y semántico. Sobre él se levanta la aritmética diferencial de suceso. El siguiente piso es la cadena factual canónica de irreversibilidad, cerrada en `H_{SV}` sin truncar estratos. El aparato operatorio heredado proporciona flujo, divergencia, rotor, gradiente, jacobiano y frontera sin necesidad de repropósito. Sobre esa base se construye el fibrado termodinámico factual `\Omega_{SV}`, la magnitud madre `\mathcal{C}^{tot}_{SV}` y las proyecciones canónicas del dominio: trabajo, calor, fuerza, empuje, temperatura y entalpía. La culminación del edificio es la ecuación absoluta
 
----
+```math
+\mathbb{T}^{thermo}_{SV}(\Gamma,n)=0,
+```
 
-## 14. Conclusión general: ¿ha resuelto el SV lo que promete desde una perspectiva genuina y única?
+que concentra, en una sola fórmula nula, los defectos de balance, irreversibilidad, fuerza, empuje, temperatura y entalpía.
 
-La pregunta final del documento no puede responderse con entusiasmo ni con consigna, sino con precisión.
+El resultado debe leerse con precisión. El documento sí ofrece una respuesta genuina del SV al dominio termodinámico en su plano algebraico interno. No sustituye todavía el trabajo ulterior de contraste físico-material completo. Lo que queda aquí cerrado es la ley soberana interna del dominio, no la totalidad última de toda termodinámica experimental posible.
 
-Sí, el SV resuelve aquí algo genuino y no trivial: fija una arquitectura termodinámica interna en la que trabajo, calor, fuerza, empuje, temperatura y entalpía no son primitivas heredadas, sino lecturas o proyecciones de un régimen factual único; conserva `U` sin degradarla; no introduce tiempo soberano; y obliga a que toda magnitud central descienda al suelo preternario.
-
-No, el documento no autoriza todavía a decir que toda la termodinámica material del mundo haya quedado absorbida experimentalmente por el SV. Lo que queda cerrado aquí es el **dominio algebraico interno** de la termodinámica factual del SV y su ley única de cierre. El contraste material completo sigue siendo una tarea ulterior.
-
-La pirámide queda, por tanto, cerrada así:
-
-1. base preternaria soberana;
-2. aritmética diferencial de suceso;
-3. cadena estratificada de irreversibilidad;
-4. aparato operatorio heredado;
-5. fibrado termodinámico factual;
-6. proyecciones termodinámicas canónicas;
-7. ecuación absoluta `\mathbb{T}^{thermo}_{SV}=0`.
-
-En este sentido preciso, el documento sí ofrece una respuesta genuina del SV y no un mero disfraz terminológico de la física clásica. Pero lo hace con honestidad semántica: sin fingir que la cuestión material última ya ha quedado consumada.
-
----
-
-## 15. Referencias
+## 14. Referencias
 
 Callen, H. B. (1985). *Thermodynamics and an introduction to thermostatistics* (2nd ed.). Wiley.
 
