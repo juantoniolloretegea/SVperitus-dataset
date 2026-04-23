@@ -1,1166 +1,854 @@
 # Fuerza, trabajo, calor, entalpía, temperatura, principios y fundamentos de la termodinámica y la correlación entre ellos en el SV
 
+**© 2026. Todos los derechos reservados.** | **Juan Antonio Lloret Egea** | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) | IA eñ™ — La Biblia de la IA™ | ISSN 2695-6411 | Licencia CC BY-NC-ND 4.0 | Madrid, 23/04/2026
+
+---
+
 ## Resumen
 
-Se construye el dominio termodinámico factual del Sistema Vectorial SV como un régimen algebraico de sucesos, no temporal, trazable en ambos sentidos y cerrado por una única ecuación absoluta. El cierre parte del sustrato preternario de pares admisibles, atraviesa la cadena factual canónica de irreversibilidad y fija, sobre ese suelo, un fibrado termodinámico factual cuyas proyecciones recuperan trabajo, calor, fuerza, empuje, temperatura y entalpía como magnitudes derivadas. El documento determina explícitamente la aritmética diferencial factual del dominio, la descomposición ternaria de incrementos, la acumulación factual, el contenido factual interior, el contenido factual total, la lectura factual de no clausura bajo la clase canónica `U`, la fuerza factual como combinación cerrada de gradiente, rotor vectorial y corrección jacobiana, el empuje factual como funcional de contorno, la temperatura factual como lectura metrológica soberana y la entalpía factual como descomposición interior–contorno del contenido total. La fórmula absoluta del dominio se presenta como anulación de un defecto factual total no negativo. Su nulidad equivale simultáneamente al balance factual del contenido, a la no decrecencia de la entropía factual, al cierre de fuerza y empuje, a la definición termométrica factual y a la descomposición entálpica. El resultado es una formulación única, fibrosa por proyecciones, compatible con la disciplina semántica del SV y con la arquitectura de ecuación única ya asentada en otros dominios del corpus.
+Se fija el dominio termodinámico factual del Sistema Vectorial SV como un régimen **de sucesos** (no temporal), **trazable** y **auditable**, cerrado por una **única ecuación escalar nula**. El cierre se construye desde el sustrato preternario $(\alpha_i,\beta_i)$, atraviesa la cadena canónica de irreversibilidad factual
+$$
+H_{pre}\;\to\;H_{K_3}\;\to\;H_\Xi\;\to\;H_{\Sigma_c}\;\to\;H_{\Sigma_k}\;\to\;H_{SV},
+$$
+y levanta, sobre ese suelo, un régimen operativo donde trabajo, calor, fuerza, empuje, temperatura y entalpía comparecen como magnitudes **definidas operacionalmente** y cosidas a un aparato de derivadas de suceso, gradiente, rotor vectorial, jacobiano y operadores de frontera. La fórmula absoluta se expresa como un defecto factual total $\mathbb{T}^{thermo}_{SV}(\Gamma,n)\ge 0$ cuya nulidad equivale simultáneamente al balance factual del contenido, a la irreversibilidad, al cierre constitutivo de fuerza y empuje, a la lectura termométrica en unidad factual de temperatura y a la correlación entálpica interior–frontera. No se introduce tiempo soberano, probabilidad, estadística, heurística no declarada ni cuarto polo semántico.
+
+**Palabras clave:** Sistema Vectorial SV; termodinámica factual; sucesos; irreversibilidad estructural; trabajo factual; calor factual; fuerza factual; empuje factual; temperatura factual; entalpía factual; ecuación única; jacobiano; rotor vectorial; frontera factual.
+
+---
 
 ## Abstract
 
-The factual thermodynamic domain of the Sistema Vectorial SV is constructed as an event-based, non-temporal algebraic regime, traceable in both directions and closed by a single absolute equation. The closure starts from the preternary substrate of admissible pairs, crosses the canonical factual chain of irreversibility, and fixes on that ground a factual thermodynamic bundle whose projections recover work, heat, force, thrust, temperature and enthalpy as derived magnitudes. The document explicitly determines the factual differential arithmetic of the domain, the ternary decomposition of increments, factual accumulation, interior factual content, total factual content, the factual reading of non-closure under the canonical class `U`, factual force as a closed combination of gradient, vectorial rotor and Jacobian correction, factual thrust as a boundary functional, factual temperature as a sovereign metrological reading, and factual enthalpy as the interior–boundary decomposition of total content. The absolute formula of the domain is presented as the vanishing of a non-negative total factual defect. Its vanishing is simultaneously equivalent to factual content balance, non-decrease of factual entropy, closure of force and thrust, factual thermometric definition and the enthalpic decomposition. The result is a unique formulation, fibrous by projections, compatible with SV semantic discipline and with the single-equation architecture already established in other corpus domains.
+The factual thermodynamic domain of the Sistema Vectorial SV is fixed as an **event-based** (non-temporal), **traceable** and **auditable** regime, closed by a **single scalar null equation**. The closure starts from the preternary substrate $(\alpha_i,\beta_i)$, crosses the canonical irreversibility chain
+$$
+H_{pre}\to H_{K_3}\to H_\Xi\to H_{\Sigma_c}\to H_{\Sigma_k}\to H_{SV},
+$$
+and builds an operational regime where work, heat, force, thrust, temperature and enthalpy appear as **operationally defined** magnitudes tied to event-derivatives, gradient, vector rotor, Jacobian and boundary operators. The absolute formula is expressed as a non-negative total factual defect $\mathbb{T}^{thermo}_{SV}(\Gamma,n)$ whose vanishing is equivalent to content balance, irreversibility, constitutive closure of force and thrust, thermometric reading in the factual temperature unit, and the enthalpic interior–boundary correlation. No sovereign time, probability, statistics, undeclared heuristics or a fourth semantic pole is introduced.
 
-## 1. Estatuto del dominio
+---
 
-### 1.1. Objeto exacto
+## 1. Estatuto del dominio y disciplina constitutiva
 
-El presente documento trata el dominio termodinámico factual del Sistema Vectorial SV en el rango estricto de cierre algebraico interno. Su objeto no es comentar la termodinámica heredada ni traducir terminología clásica a un léxico nuevo. Su objeto es construir una ley única del dominio y hacer que trabajo, calor, fuerza, empuje, temperatura y entalpía comparezcan sólo como magnitudes derivadas o como lecturas proyectivas del régimen factual soberano.
+### 1.1. Variable canónica y rechazo del tiempo
 
-### 1.2. Prohibiciones constitutivas
+La variable independiente canónica del dominio es el **índice de suceso**. Una trayectoria factual admisible es una sucesión
 
-El dominio queda sometido, sin excepción, a las siguientes prohibiciones:
+$$
+\Gamma = (S_0,S_1,\ldots,S_n),
+\qquad n\in\mathbb{N}_0,
+$$
 
-1. prohibición de tiempo soberano como fundamento;
-2. prohibición de probabilidad como criterio de verdad;
-3. prohibición de estadística como sustituto de clausura;
-4. prohibición de inferencia opaca y de heurística no declarada;
-5. prohibición de cuarto polo semántico ajeno a `K_3`;
-6. prohibición de repropósito silencioso de operadores ya fijados por el corpus;
-7. prohibición de introducir herramienta clásica de mayor potencia allí donde el aparato factual del SV ya sea suficiente.
+con pesos factuales $\omega(\nu_k)>0$ asociados a cada paso $k$. No se introduce parámetro temporal soberano.
 
-Estas prohibiciones no son advertencias metodológicas. Son condiciones constitutivas del dominio.
+### 1.2. Terna canónica y preservación de U
 
-### 1.3. Criterio de aceptación de magnitudes físicas
+El sistema se rige por la terna canónica
 
-Una magnitud sólo será admitida aquí como magnitud factual del SV si satisface simultáneamente las cinco condiciones siguientes:
+$$
+K_3=\{0,1,U\},
+$$
 
-1. descenso controlado al sustrato preternario;
-2. compatibilidad explícita con la terna canónica y con el estatuto de `U`;
-3. variación expresable por sucesos y no por cronología soberana;
-4. cierre mediante operadores ya autorizados del corpus o derivados explícitos de ellos;
-5. proyección clásica, cuando exista, sólo como lectura externa y nunca como fundamento constitutivo.
+donde $U$ denota **indeterminación honesta** (no cuantitativa, no probabilista). Para cada paso $k$ se consideran las funciones indicadoras ternarias
 
-### 1.4. Objetivo de cierre
-
-La meta del documento es demostrar que existe una única fórmula soberana del dominio termodinámico factual y que toda magnitud física central del dominio comparece como proyección o consecuencia de esa única fórmula.
-
-## 2. Sustrato semántico y suelo preternario
-
-### 2.1. Terna canónica
-
-La terna canónica del sistema es
-
-```math
-K_3 = \{0,1,U\}.
-```
-
-El símbolo `U` conserva su estatuto de indeterminación honesta. No equivale a probabilidad, no equivale a déficit instrumental banal y no autoriza clausura favorable por plausibilidad.
-
-### 2.2. Pares admisibles
-
-El suelo del dominio es el sistema de pares admisibles
-
-```math
-(\alpha_i,\beta_i).
-```
-
-Sobre cada par admisible se definen el sesgo polar factual y la activación factual local por
-
-```math
-\delta_i := \beta_i - \alpha_i,
+$$
+\mathbf{1}_0(k),\ \mathbf{1}_1(k),\ \mathbf{1}_U(k)\in\{0,1\},
 \qquad
-a_i := |\delta_i|.
-```
+\mathbf{1}_0(k)+\mathbf{1}_1(k)+\mathbf{1}_U(k)=1.
+$$
 
-### 2.3. Teorema de prioridad preternaria
+---
 
-**Teorema 2.3.1.** Ninguna magnitud central del dominio termodinámico factual precede a `(\alpha_i,\beta_i)`.
+## 2. Sustrato preternario: pares admisibles y derivación de variables
 
-**Demostración.** Toda pieza central del dominio comparece o bien como construcción directa sobre `(\delta_i,a_i)`, o bien como estrato de una cadena factual ya derivada de ese suelo, o bien como componente o proyección del fibrado termodinámico factual levantado sobre esa cadena. En ningún caso aparece un objeto con prioridad ontológica superior al par admisible. Luego el suelo preternario precede a toda magnitud central del dominio. Q.E.D.
+Sea $N$ el número de posiciones preternarias activas. Para cada $i\in\{1,\ldots,N\}$ y cada paso $k$ se consideran pares $(\alpha_i(k),\beta_i(k))$ con sesgo polar
 
-### 2.4. Persistencia factual de `U`
+$$
+\delta_i(k):=\beta_i(k)-\alpha_i(k).
+$$
 
-Para una trayectoria factual admisible `\Gamma=(S_0,S_1,\dots,S_n)`, sea `\chi_\Gamma(k)\in K_3` la lectura ternaria del paso `k`. Se introducen los indicadores ternarios
+Se define la acumulación factual de apertura y la clausura binaria por:
 
-```math
-\mathbf{1}_1(k),\qquad \mathbf{1}_0(k),\qquad \mathbf{1}_U(k),
-```
-
-caracterizados por
-
-```math
-\mathbf{1}_1(k)+\mathbf{1}_0(k)+\mathbf{1}_U(k)=1.
-```
-
-Se define la proporción factual ponderada de `U` por
-
-```math
-\rho_U(\Gamma,n)
-:=
-\frac{\sum_{k=1}^{n}\mathbf{1}_U(k)\,\omega(\nu_k)}
-     {\sum_{k=1}^{n}\omega(\nu_k)},
-```
-
-y el espesor factual acumulado de `U` por
-
-```math
-\mathcal{S}_U(\Gamma,n)
-:=
-\sum_{k=1}^{n}\mathbf{1}_U(k)\,a(k),
+$$
+A_i(n) := \sum_{k=0}^{n-1} \frac{a_i(k) + a_i(k+1)}{2}\,\Delta\varepsilon_k,
 \qquad
-a(k):=\sum_i a_i(k).
-```
+C_i(n) := \sum_{k=1}^{n} \chi_i(k)\in\{0,1\},
+$$
 
-### 2.5. Teorema de no supremacía de `U`
+donde $a_i(k)\ge 0$ es la activación factual de la posición $i$, $\Delta\varepsilon_k>0$ el incremento factual básico del paso $k$ y $\chi_i(k)\in\{0,1\}$ el indicador de clausura local.
 
-**Teorema 2.5.1.** La persistencia factual de `U` no implica supremacía ontológica de `U`.
+Se define el espesor factual y el sesgo polar acumulado por:
 
-**Demostración.** La frecuencia de aparición de `U` en el plano ternario es una propiedad de la lectura inducida sobre la trayectoria, no del rango ontológico del estado que se lee. El suelo del sistema sigue siendo preternario, porque la lectura ternaria sólo nace después de los pares admisibles y de su activación factual. Luego una `\rho_U` alta puede describir persistencia factual de no clausura, pero no convierte a `U` en principio originario del dominio. Q.E.D.
-
-## 3. Trayectoria factual y aritmética diferencial del dominio
-
-### 3.1. Derivada de suceso soberana
-
-Sea `\nu_k` el índice factual del suceso `S_{k-1}\to S_k` y sea `\omega(\nu_k)` su peso factual. Para toda magnitud factual discreta `X(\Gamma,k)` se define la derivada de suceso ponderada por
-
-```math
-\mathfrak{D}_{\Gamma}X(\Gamma,k)
-:=
-\frac{X(\Gamma,k)-X(\Gamma,k-1)}{\omega(\nu_k)},
+$$
+M_i(n):=A_i(n)+C_i(n),
 \qquad
-k\ge 1.
-```
+B_i(n):=\sum_{k=1}^{n}\chi_i(k)\,\bigl(2\rho_i(S_k)-1\bigr),
+$$
 
-La acumulación factual hasta el índice `n` queda fijada por
+y se reconstruyen los pares por:
 
-```math
-\Delta_{\Gamma}X(\Gamma,n)
+$$
+\alpha_i(n):=\frac{M_i(n)-B_i(n)}{2},
+\qquad
+\beta_i(n):=\frac{M_i(n)+B_i(n)}{2}.
+$$
+
+Estas identidades fijan la trazabilidad descendente (desde magnitudes agregadas a $(\alpha_i,\beta_i)$) y ascendente (desde $(\alpha_i,\beta_i)$ a magnitudes agregadas).
+
+---
+
+## 3. Cadena entrópica canónica e irreversibilidad
+
+### 3.1. Variación total preternaria
+
+Sea $k_i^*$ el paso de activación de la posición $i$. La variación total preternaria del sesgo polar es:
+
+$$
+V_i(\delta,n) := \sum_{k=0}^{\min(n,k_i^*)-1}\bigl|\delta_i(k+1)-\delta_i(k)\bigr|.
+$$
+
+### 3.2. Dispersión preternaria
+
+La dispersión factual preternaria es:
+
+$$
+H_{pre}(\Gamma,n):=\sum_{i=1}^N\bigl[A_i(n)+V_i(\delta,n)\bigr].
+$$
+
+**Proposición 3.2.1 (positividad).** $H_{pre}(\Gamma,n)\ge 0$ para toda $\Gamma$ admisible y todo $n$.
+
+*Demostración.* $A_i(n)$ es suma de términos no negativos; $V_i(\delta,n)$ es suma de valores absolutos. Q.E.D.
+
+### 3.3. Dispersión ternaria inducida
+
+Sea $v_i(k)\in\{0,1,U\}$ la proyección ternaria inducida de la posición $i$ al paso $k$ y $\rho$ la codificación visible $\rho(0)=1,\rho(1)=2,\rho(U)=3$. La dispersión ternaria inducida es:
+
+$$
+H_{K_3}(\Gamma,n) := \sum_{i=1}^{N}\sum_{k=0}^{n-1}\mathbf{1}\!\left[v_i(k)\neq v_i(k+1)\right]\cdot\rho\!\left(v_i(k+1)\right).
+$$
+
+### 3.4. Dispersión canónica factual
+
+Sea el descriptor factual compuesto $\Xi_{SV}(\Gamma)\sim(A_\Gamma,B_\Gamma,\|J_\Gamma\|_1,R_\Gamma)$, con $A_\Gamma=\sum_iA_i(n)$, $B_\Gamma=\sum_iB_i(n)$ y $J_\Gamma$ el jacobiano estructural (definido en §4). La dispersión canónica factual es:
+
+$$
+H_\Xi(\Gamma,n):=A_\Gamma(n)+V_\Gamma(B,n)+\|J_\Gamma(n)\|_1+R_\Gamma(n),
+$$
+
+donde $V_\Gamma(B,n):=\sum_i V_i(\delta,n)$ y $R_\Gamma(n)$ es el residual factual global acumulado hasta $n$.
+
+### 3.5. Dispersión en concentración, canalización y final
+
+Sean $\mathfrak{C}^{adm}_{\Sigma_{conc}}$, $\mathfrak{C}^{adm}_{\Sigma_{canal}}$ y $\mathfrak{C}^{adm}_{trans}$ familias admisibles de contribuciones estructurales propias de cada estrato. Se definen:
+
+$$
+H_{\Sigma_c}(\Gamma,n):=H_\Xi(\Gamma,n)+\sum_{\mathcal{C}\in\mathfrak{C}^{adm}_{\Sigma_{conc}}}\mathcal{C}(\Gamma,n),
+$$
+
+$$
+H_{\Sigma_k}(\Gamma,n):=H_{\Sigma_c}(\Gamma,n)+\sum_{\mathcal{C}\in\mathfrak{C}^{adm}_{\Sigma_{canal}}}\mathcal{C}(\Gamma,n),
+$$
+
+$$
+H_{SV}(\Gamma,n):=H_{fin}(\Gamma,n):=H_{\Sigma_k}(\Gamma,n)+\sum_{\mathcal{C}\in\mathfrak{C}^{adm}_{trans}}\mathcal{C}(\Gamma,n).
+$$
+
+### 3.6. Teorema de irreversibilidad
+
+**Teorema 3.6.1 (irreversibilidad factual).** Para toda trayectoria admisible $\Gamma$ y todo $n\ge 0$:
+
+$$
+\Delta_\Gamma H_{SV}(\Gamma,n)\ge 0.
+$$
+
+*Demostración.* La cadena de dispersión se construye como agregación de contribuciones no negativas sobre estratos, y su monotonía se transporta por la cadena canónica. Q.E.D.
+
+---
+
+## 4. Operadores diferenciales y geométricos del dominio
+
+### 4.1. Derivada de suceso y diferencia factual
+
+Para una magnitud escalar $q(\Gamma,k)$ se define el incremento elemental y la derivada de suceso:
+
+$$
+\Delta_\Gamma q(k):=q(\Gamma,k)-q(\Gamma,k-1),
+\qquad
+\partial_\nu^{SV} q(k):=\frac{q(\Gamma,k)-q(\Gamma,k-1)}{\omega(\nu_{k-1})}.
+$$
+
+Se define el incremento agregado hasta $n$ por:
+
+$$
+\Delta_\Gamma q(\Gamma,n):=q(\Gamma,n)-q(\Gamma,0)=\sum_{k=1}^n \Delta_\Gamma q(k).
+$$
+
+### 4.2. Gradiente, rotor vectorial y divergencia (rango tridimensional)
+
+Se trabaja con un rango tridimensional auxiliar de auditoría $\mathbb{R}^3$ compatible con la célula canónica. Para un potencial escalar $\phi$ y un campo vectorial $F=(F^1,F^2,F^3)$ se definen:
+
+$$
+\nabla^{SV}\phi:=\bigl(\partial_1^{SV}\phi,\partial_2^{SV}\phi,\partial_3^{SV}\phi\bigr),
+$$
+
+$$
+\Omega^{SV}_{ij}(F):=\partial_i^{SV}F^j-\partial_j^{SV}F^i\quad (i,j\in\{1,2,3\}),
+$$
+
+y el rotor vectorial se define por dualización explícita mediante el símbolo de Levi-Civita $\varepsilon_{kij}$:
+
+$$
+Rot^{vec}_{SV}F
 :=
-\sum_{k=1}^{n}\omega(\nu_k)\,\mathfrak{D}_{\Gamma}X(\Gamma,k).
-```
+\left(
+\frac{1}{2}\sum_{i,j}\varepsilon_{1ij}\Omega^{SV}_{ij}(F),
+\frac{1}{2}\sum_{i,j}\varepsilon_{2ij}\Omega^{SV}_{ij}(F),
+\frac{1}{2}\sum_{i,j}\varepsilon_{3ij}\Omega^{SV}_{ij}(F)
+\right).
+$$
 
-Por construcción,
+La divergencia factual es:
 
-```math
-\Delta_{\Gamma}X(\Gamma,n)=X(\Gamma,n)-X(\Gamma,0).
-```
+$$
+Div_{SV}F:=\partial_1^{SV}F^1+\partial_2^{SV}F^2+\partial_3^{SV}F^3-\mathcal{I}_{res}(F),
+$$
 
-### 3.2. Lemas estructurales de la derivada de suceso
+donde $\mathcal{I}_{res}$ recoge contribuciones internas de fuente, sumidero o residual estructural (no probabilista).
 
-**Lema 3.2.1 (linealidad).** Para escalares `\lambda,\mu` y magnitudes factuales `X,Y`,
+### 4.3. Jacobiano estructural
 
-```math
-\mathfrak{D}_{\Gamma}(\lambda X+\mu Y)
-=
-\lambda \mathfrak{D}_{\Gamma}X+\mu \mathfrak{D}_{\Gamma}Y.
-```
+Sea $q:\mathbb{R}^m\to\mathbb{R}^m$ un observable vectorial del dominio (o una parametrización local del estado). Su jacobiano factual se define por:
 
-**Demostración.** Inmediata por la linealidad de la resta y por la división por el mismo peso factual `\omega(\nu_k)`. Q.E.D.
+$$
+J_{SV}(q,\theta):=\left(\frac{\partial q^i}{\partial \theta_j}\right)_{i,j},
+\qquad
+\|J_{SV}\|_1:=\sum_{i,j}\left|\frac{\partial q^i}{\partial \theta_j}\right|.
+$$
 
-**Lema 3.2.2 (telescopía ponderada).**
+En una trayectoria $\Gamma$ se fija un observable $q_\Gamma$ y se escribe $J_\Gamma(n):=J_{SV}(q_\Gamma,\theta(n))$.
 
-```math
-\Delta_{\Gamma}X(\Gamma,n)=X(\Gamma,n)-X(\Gamma,0).
-```
+### 4.4. Integrales factuales de línea, superficie y volumen
 
-**Demostración.** Se sustituye la definición de `\mathfrak{D}_{\Gamma}` en la suma acumulativa, se cancelan los factores `\omega(\nu_k)` y la suma resultante telescopa. Q.E.D.
+Sea una curva factual orientada $\Gamma^{\circlearrowleft}$ particionada en tramos $\Gamma_j$ con signos $\varepsilon_j\in\{-1,+1\}$ y pesos $\omega(\Gamma_j)$. La integral curvilínea factual de un campo $F$ se define por:
 
-### 3.3. Proyecciones diferenciales canónicas
-
-Sobre cualquier magnitud factual `X` se definen las proyecciones diferenciales
-
-```math
-\mathfrak{D}_{\Gamma}^{dir}X(\Gamma,n)
+$$
+\int_{\Gamma}^{SV} \langle F,dx\rangle_{SV}
 :=
-\sum_{k=1}^{n}\mathbf{1}_1(k)\,\omega(\nu_k)\,\mathfrak{D}_{\Gamma}X(\Gamma,k),
-```
+\sum_j \varepsilon_j \,\langle F(\Gamma_j),\,\Delta x(\Gamma_j)\rangle_{SV}\,\omega(\Gamma_j).
+$$
 
-```math
-\mathfrak{D}_{\Gamma}^{res}X(\Gamma,n)
+Sea una superficie factual orientada $\Sigma$ particionada en caras $B_j$ con orientación $\sigma_j$ y pesos $\omega(B_j)$. La integral de superficie factual de la componente normal de $F$ es:
+
+$$
+\iint_{\Sigma}^{SV} F\cdot n \;:=\; \sum_j \sigma_j\,\langle F(B_j),n_{B_j}\rangle_{SV}\,\omega(B_j).
+$$
+
+Sea un volumen factual $V$ particionado en celdas $C_\ell$ con pesos $\omega(C_\ell)$. La integral de volumen factual de un escalar $g$ es:
+
+$$
+\iiint_{V}^{SV} g \;:=\; \sum_\ell g(C_\ell)\,\omega(C_\ell).
+$$
+
+Estas integrales son **operadores de ensamblaje determinista** (no probabilistas) y constituyen el soporte algebraico de los funcionales de trabajo (línea) y empuje (superficie) utilizados en el dominio termodinámico.
+
+
+
+---
+
+## 5. Magnitudes termodinámicas factuales: definiciones operacionales
+
+### 5.1. Contenido interior, frontera y contenido total
+
+Se define el contenido interior como integral factual discreta sobre una partición de celdas $C_\ell$:
+
+$$
+\mathcal{C}^{int}_{SV}(\Gamma,n)
 :=
-\sum_{k=1}^{n}\mathbf{1}_0(k)\,\omega(\nu_k)\,\mathfrak{D}_{\Gamma}X(\Gamma,k),
-```
+\sum_{\ell}\,c_\ell(\Gamma,n)\,\omega(C_\ell),
+$$
 
-```math
-\mathfrak{D}_{\Gamma}^{U}X(\Gamma,n)
-:=
-\sum_{k=1}^{n}\mathbf{1}_U(k)\,\omega(\nu_k)\,\mathfrak{D}_{\Gamma}X(\Gamma,k).
-```
+y el contenido de frontera sobre una partición de caras $B_j$ orientadas:
 
-### 3.4. Teorema de descomposición factual total
-
-**Teorema 3.4.1.** Para toda magnitud factual `X`,
-
-```math
-\Delta_{\Gamma}X
-=
-\mathfrak{D}_{\Gamma}^{dir}X
-+
-\mathfrak{D}_{\Gamma}^{res}X
-+
-\mathfrak{D}_{\Gamma}^{U}X.
-```
-
-**Demostración.** Se sustituye la identidad ternaria `\mathbf{1}_1+\mathbf{1}_0+\mathbf{1}_U=1` en cada paso de la suma acumulativa. La exclusión mutua de indicadores impide solapamiento. Luego el incremento total se descompone de manera exhaustiva y no solapada en sus tres proyecciones canónicas. Q.E.D.
-
-### 3.5. Corolario de cierre diferencial
-
-Las proyecciones directriz, residual y de indeterminación honesta no son operadores ornamentales. Son la aritmética diferencial mínima del dominio. Sin ellas, no puede definirse con legitimidad ni trabajo factual, ni calor factual, ni lectura factual de no clausura.
-
-## 4. Cadena factual canónica de irreversibilidad
-
-### 4.1. Cadena estratificada completa
-
-La cadena factual canónica de irreversibilidad del dominio se fija por
-
-```math
-(\alpha_i,\beta_i)
-\longrightarrow
-(\delta_i,a_i)
-\longrightarrow
-H_{pre}
-\longrightarrow
-H_{K_3}
-\longrightarrow
-H_{\Xi}
-\longrightarrow
-H_{\Sigma_c}
-\longrightarrow
-H_{\Sigma_k}
-\longrightarrow
-H_{SV}.
-```
-
-### 4.2. Dispersión factual preternaria
-
-Se define
-
-```math
-H_{pre}(\Gamma,n)
-:=
-\sum_{k=1}^{n}\sum_i a_i(k).
-```
-
-### 4.3. Transporte ternario inducido
-
-Sea `\tau:K_3\to\mathbb{R}_{\ge 0}` una lectura compatible con el corpus. Se define
-
-```math
-H_{K_3}(\Gamma,n)
-:=
-\sum_{k=1}^{n}\sum_i \tau\bigl(\chi_i(k)\bigr)\,a_i(k).
-```
-
-### 4.4. Enriquecimiento canónico
-
-Se fija
-
-```math
-H_{\Xi}(\Gamma,n)
-=
-H_{K_3}(\Gamma,n)
-+
-\|\mathcal{J}_{\Gamma,SV}(n)\|_1
-+
-R_{\Gamma}(n).
-```
-
-### 4.5. Concentración y canalización
-
-Se adoptan las reorganizaciones canónicas
-
-```math
-H_{\Sigma_c}(\Gamma,n)
-:=
-C_{\Sigma}\bigl(H_{\Xi}(\Gamma,n)\bigr),
-```
-
-```math
-H_{\Sigma_k}(\Gamma,n)
-:=
-K_{\Sigma}\bigl(H_{\Sigma_c}(\Gamma,n)\bigr).
-```
-
-### 4.6. Entropía factual final
-
-La forma final de irreversibilidad factual queda dada por
-
-```math
-H_{SV}(\Gamma,n)
-:=
-S_{\Sigma}\bigl(H_{\Sigma_k}(\Gamma,n)\bigr).
-```
-
-### 4.7. Teorema de absorción estratificada
-
-**Teorema 4.7.1.** `H_{SV}` absorbe ordenadamente la cadena factual previa sin colapsar sus estratos.
-
-**Demostración.** `H_{pre}` recoge activación previa; `H_{K_3}` la transporta al plano ternario; `H_{\Xi}` añade sensibilidad y residualidad; `H_{\Sigma_c}` y `H_{\Sigma_k}` reorganizan concentración y canalización. Si `H_{SV}` no absorbiera esos estratos como pisos sucesivos, el cierre del dominio sería un salto no auditable. Luego `H_{SV}` es absorción factual estratificada. Q.E.D.
-
-### 4.8. Lema de incremento preternario no negativo
-
-**Lema 4.8.1.** Para toda trayectoria admisible y todo `n\ge 1`,
-
-```math
-\mathfrak{D}_{\Gamma}H_{pre}(\Gamma,n)\ge 0.
-```
-
-**Demostración.** Cada paso añade una suma de activaciones absolutas `a_i(n)\ge 0`. Luego el incremento por suceso de `H_{pre}` no puede ser negativo. Q.E.D.
-
-### 4.9. Lema de transporte no decremental
-
-**Lema 4.9.1.** Si `\tau(K_3)\subset \mathbb{R}_{\ge 0}`, entonces el transporte ternario inducido no destruye la no negatividad incremental:
-
-```math
-\mathfrak{D}_{\Gamma}H_{K_3}(\Gamma,n)\ge 0.
-```
-
-**Demostración.** Cada término `\tau(\chi_i(n))\,a_i(n)` es producto de dos cantidades no negativas. Luego la suma incremental es no negativa. Q.E.D.
-
-### 4.10. Lema de enriquecimiento compatible
-
-**Lema 4.10.1.** Si `\|\mathcal{J}_{\Gamma,SV}(n)\|_1\ge 0` y `R_{\Gamma}(n)\ge 0`, entonces
-
-```math
-\mathfrak{D}_{\Gamma}H_{\Xi}(\Gamma,n)\ge 0.
-```
-
-**Demostración.** El incremento de `H_{\Xi}` es suma de tres contribuciones no negativas: la de `H_{K_3}`, la del jacobiano factual en norma `\ell_1` y la del residual factual. Luego el incremento total es no negativo. Q.E.D.
-
-### 4.11. Teorema de irreversibilidad factual
-
-**Teorema 4.11.1.** Para toda trayectoria factual admisible `\Gamma` y cualesquiera `n_2\ge n_1`, se cumple
-
-```math
-H_{SV}(\Gamma,n_2)\ge H_{SV}(\Gamma,n_1).
-```
-
-**Demostración.** Por los Lemas 4.8.1, 4.9.1 y 4.10.1, la cadena factual acumula incrementos no negativos hasta `H_{\Xi}`. Los operadores canónicos `C_{\Sigma}`, `K_{\Sigma}` y `S_{\Sigma}` son absorbentes y no retractivos sobre el contenido factual ya incorporado. Luego la composición completa desde `H_{pre}` hasta `H_{SV}` no puede decrecer sobre una trayectoria admisible. Q.E.D.
-
-### 4.12. Corolario diferencial de irreversibilidad
-
-Para todo `n\ge 1` se tiene
-
-```math
-\mathfrak{D}_{\Gamma}H_{SV}(\Gamma,n)\ge 0
-```
-
-y, por acumulación,
-
-```math
-\Delta_{\Gamma}H_{SV}(\Gamma,n)\ge 0.
-```
-
-## 5. Aparato operatorio heredado del SV
-
-### 5.1. Estatuto
-
-El dominio termodinámico factual no repropone flujo, divergencia, gradiente, rotor, jacobiano ni frontera. Los adopta como cuerpo operatorio heredado y vinculante del corpus soberano.
-
-### 5.2. Fórmulas canónicas heredadas
-
-Se fijan para uso del dominio:
-
-```math
-\Phi_{SV}(F;B)
-=
-\sum_j \sigma_j\,\langle F(B_j),n_{B_j}\rangle_{SV}\,\omega(B_j),
-```
-
-```math
-Div_{SV}(F;C)\,\omega(C)
-=
-\Phi_{SV}(F;\partial C)-\mathcal{I}_{res}(F;C),
-```
-
-```math
-\iint^{SV}_{\Sigma_{SV}} G
-=
-\sum_j \sigma_j\,G(B_j)\,\omega(B_j),
-```
-
-```math
-\iiint^{SV}_{\mathcal{V}_{SV}} K
-=
-\sum_k K(C_k)\,\omega(C_k).
-```
-
-El rotor factual se adopta en su lectura vectorial heredada del corpus electromagnético factual. El documento no altera su tipología.
-
-### 5.3. Jacobiano factual
-
-El jacobiano factual estructural del corpus entra aquí como matriz soberana de sensibilidad local del régimen. Interviene en `H_{\Xi}`, en la fuerza factual y en la lectura termométrica factual.
-
-### 5.4. Teorema de suficiencia operatoria interna
-
-**Teorema 5.4.1.** El aparato anterior es suficiente para cerrar el dominio termodinámico factual sin introducir herramientas clásicas constitutivas de mayor potencia.
-
-**Demostración.** El dominio exige balance de contenido, frontera, residualidad, gradiente, rotor y sensibilidad jacobiana. Todas esas piezas comparecen ya en el cuerpo operatorio heredado. Luego no procede introducir aparato externo más potente como fundamento. Q.E.D.
-
-## 6. Fibrado termodinámico factual y magnitudes madre
-
-### 6.1. Fibra factual del dominio
-
-Sobre cada par `(\Gamma,n)` se define la fibra factual del dominio por
-
-```math
-\mathcal{F}_{thermo}(\Gamma,n)
-=
-\mathbb{R}^5
-\ni
-\Omega_{SV}(\Gamma,n)
-=
-\bigl(
-\mathcal{A}_{SV}(\Gamma,n),
-H_{SV}(\Gamma,n),
-\mathcal{J}_{\Gamma,SV}(n),
-R_{\Gamma}(n),
+$$
 \mathcal{B}_{\partial,SV}(\Gamma,n)
-\bigr).
-```
-
-La sección `\Omega_{SV}` es el objeto fibroso soberano del dominio.
-
-### 6.2. Acumulación factual de trayectoria
-
-Se define
-
-```math
-\mathcal{A}_{SV}(\Gamma,n)
 :=
-\sum_{k=1}^{n}\sum_i a_i(k)\,\omega(\nu_k).
-```
+\sum_{j}\sigma_j\,b_j(\Gamma,n)\,\omega(B_j),
+\qquad
+\sigma_j\in\{-1,+1\}.
+$$
 
-### 6.3. Volumen factual interior
+El contenido total es:
 
-Sea `K_{int}` un campo factual interior del dominio. Se define
+$$
+\mathcal{C}^{tot}_{SV}(\Gamma,n):=\mathcal{C}^{int}_{SV}(\Gamma,n)+\mathcal{B}_{\partial,SV}(\Gamma,n).
+$$
 
-```math
-V^{int}_{SV}(\Gamma,n)
+### 5.2. Fuerza factual y corrección jacobiana
+
+Se define el potencial escalar factual por lectura directa del contenido total:
+
+$$
+\phi_{SV}(\Gamma,n):=\mathcal{C}^{tot}_{SV}(\Gamma,n).
+$$
+
+Se fija un potencial vectorial mínimo derivado de la frontera:
+
+$$
+\Psi_{SV}(\Gamma,n):=\mathcal{B}_{\partial,SV}(\Gamma,n)\,e_3,
+\qquad
+e_3=(0,0,1).
+$$
+
+Sea $x_{SV}(\Gamma,k)\in\mathbb{R}^3$ la representación auxiliar del estado $S_k$. La velocidad factual (no temporal) es:
+
+$$
+v_{SV}(\Gamma,k):=\frac{x_{SV}(\Gamma,k)-x_{SV}(\Gamma,k-1)}{\omega(\nu_{k-1})}.
+$$
+
+La corrección jacobiana de fuerza se define por:
+
+$$
+J^{for}_{SV}(\Gamma,k):=J_\Gamma(k)\,v_{SV}(\Gamma,k).
+$$
+
+La **ley constitutiva de fuerza** del dominio fija:
+
+$$
+F_{SV}(\Gamma,k)
 :=
-\iiint^{SV}_{\mathcal{V}_{SV}(\Gamma,n)} K_{int}.
-```
-
-### 6.4. Contenido factual interior
-
-Se define
-
-```math
-\mathcal{C}^{int}_{SV}(\Gamma,n)
-:=
-\mathcal{A}_{SV}(\Gamma,n)
+-\nabla^{SV}\phi_{SV}(\Gamma,k)
 +
-V^{int}_{SV}(\Gamma,n)
+Rot^{vec}_{SV}\Psi_{SV}(\Gamma,k)
 +
-R_{\Gamma}(n).
-```
+J^{for}_{SV}(\Gamma,k).
+$$
 
-### 6.5. Contenido factual total
+Esta expresión es algebraica, no probabilista y no temporal; la contribución rotacional se controla por el rotor vectorial explícito y la contribución sensible por el jacobiano.
 
-La magnitud madre del dominio queda fijada por
+### 5.3. Empuje factual
 
-```math
-\mathcal{C}^{tot}_{SV}(\Gamma,n)
-:=
-\mathcal{C}^{int}_{SV}(\Gamma,n)
-+
-\mathcal{B}_{\partial,SV}(\Gamma,n).
-```
+El empuje factual se define como funcional de contorno del campo de fuerza:
 
-### 6.6. Lectura factual de la no clausura legítima
+$$
+P^{emp}_{SV}(\Gamma,k):=
+\sum_{j}\sigma_j\,\langle F_{SV}(B_j,k),n_{B_j}\rangle_{SV}\,\omega(B_j),
+$$
 
-La no clausura legítima del dominio no introduce un cuarto polo; se fija por
+con $n_{B_j}$ normal factual unitaria y $\langle\cdot,\cdot\rangle_{SV}$ producto interno compatible.
 
-```math
-\mathcal{U}_{SV}(\Gamma,n)
-:=
-\mathfrak{D}_{\Gamma}^{U}\mathcal{B}_{\partial,SV}(\Gamma,n).
-```
+### 5.4. Trabajo factual, calor factual y componente U
 
-### 6.7. Teorema de exhaustividad estructural
+El trabajo factual acumulado hasta $n$ es:
 
-**Teorema 6.7.1.** Toda contribución factual central del dominio termodinámico queda absorbida en `\mathcal{C}^{tot}_{SV}` y en la lectura `\mathcal{U}_{SV}` de la no clausura bajo `U`.
-
-**Demostración.** El interior factual queda recogido por `\mathcal{C}^{int}_{SV}`. El contorno factual queda recogido por `\mathcal{B}_{\partial,SV}`. La parte de borde no clausurable con honestidad semántica se expresa por `\mathfrak{D}_{\Gamma}^{U}` sobre la frontera. Luego no queda contribución central del dominio fuera de `\mathcal{C}^{tot}_{SV}` y `\mathcal{U}_{SV}`. Q.E.D.
-
-## 7. Proyecciones termodinámicas canónicas
-
-### 7.1. Trabajo factual
-
-```math
+$$
 W_{SV}(\Gamma,n)
 :=
-\mathfrak{D}_{\Gamma}^{dir}\mathcal{C}^{tot}_{SV}(\Gamma,n).
-```
+\sum_{k=1}^{n}\mathbf{1}_1(k)\,\langle F_{SV}(\Gamma,k),\,x_{SV}(\Gamma,k)-x_{SV}(\Gamma,k-1)\rangle_{SV}.
+$$
 
-### 7.2. Calor factual
 
-```math
+
+Equivalencia operatoria (integral curvilínea). Definiendo el funcional de línea factual de §4.4 sobre la trayectoria,
+$$
+W_{SV}(\Gamma,n)=\int_{\Gamma_{[0,n]}}^{SV}\mathbf{1}_1\,\langle F_{SV},dx\rangle_{SV},
+$$
+lo cual se reduce exactamente al sumatorio anterior al tomar $\Delta x(\Gamma_k)=x_{SV}(k)-x_{SV}(k-1)$ y pesos $\omega(\nu_{k-1})$.
+
+Se introduce la constante metrológica $k_B>0$ como factor exacto de escala energía–temperatura (sin importar mecánica estadística al fundamento). La lectura termométrica se fija por la identidad algebraica local:
+
+$$
+k_B\,\Theta_{SV}(\Gamma,k)\,\Delta_\Gamma H_{SV}(\Gamma,k)=\Delta_\Gamma\mathcal{C}^{int}_{SV}(\Gamma,k)
+\quad\text{para los pasos con }\mathbf{1}_0(k)=1.
+$$
+
+El calor factual acumulado hasta $n$ es:
+
+$$
 Q_{SV}(\Gamma,n)
 :=
-\mathfrak{D}_{\Gamma}^{res}\mathcal{C}^{tot}_{SV}(\Gamma,n).
-```
+\sum_{k=1}^{n}\mathbf{1}_0(k)\,k_B\,\Theta_{SV}(\Gamma,k)\,\Delta_\Gamma H_{SV}(\Gamma,k).
+$$
 
-### 7.3. Lema de balance proyectivo
+La contribución asociada a $U$ se define por:
 
-**Lema 7.3.1.**
-
-```math
-\Delta_{\Gamma}\mathcal{C}^{tot}_{SV}
-=
-W_{SV}+Q_{SV}+\mathcal{U}_{SV}.
-```
-
-**Demostración.** Se aplica a `\mathcal{C}^{tot}_{SV}` la identidad de descomposición factual total del apartado 3.4. Q.E.D.
-
-### 7.4. Fuerza factual
-
-Sea `\phi_{SV}` un potencial factual escalar y `\Psi_{SV}` un potencial factual vectorial del dominio. Se define
-
-```math
-F_{SV}(\Gamma,n)
+$$
+\mathcal{U}_{SV}(\Gamma,n)
 :=
--\nabla^{SV}\phi_{SV}(\Gamma,n)
+\sum_{k=1}^{n}\mathbf{1}_U(k)\,k_B\,\Theta_{SV}(\Gamma,k)\,\Delta_\Gamma H_{SV}(\Gamma,k).
+$$
+
+Estas definiciones establecen un balance de primer principio sin tiempo y con preservación explícita de $U$.
+
+### 5.5. Entalpía factual
+
+Se define la entalpía factual como correlación interior–frontera del contenido:
+
+$$
+\Lambda_{SV}(\Gamma,n):=\mathcal{C}^{int}_{SV}(\Gamma,n)+\mathcal{B}_{\partial,SV}(\Gamma,n).
+$$
+
+---
+
+## 6. Ecuación absoluta del dominio: defecto factual total
+
+### 6.1. Defectos elementales
+
+Se definen los defectos elementales (todos con dimensión homogénea por construcción metrológica):
+
+1. **Defecto de balance:**
+$$
+\delta_{bal}(\Gamma,n):=\Delta_\Gamma\mathcal{C}^{tot}_{SV}(\Gamma,n)-W_{SV}(\Gamma,n)-Q_{SV}(\Gamma,n)-\mathcal{U}_{SV}(\Gamma,n).
+$$
+
+2. **Defecto de irreversibilidad (parte negativa):**
+$$
+\Delta_{irr}(\Gamma,n):=\sum_{k=1}^n\left(\min\{0,\Delta_\Gamma H_{SV}(\Gamma,k)\}\right)^2.
+$$
+
+3. **Defecto de fuerza (cierre constitutivo):**
+$$
+\delta_{F}(\Gamma,k):=
+F_{SV}(\Gamma,k)
++\nabla^{SV}\phi_{SV}(\Gamma,k)
+-Rot^{vec}_{SV}\Psi_{SV}(\Gamma,k)
+-J^{for}_{SV}(\Gamma,k),
+$$
+y su acumulado cuadrático:
+$$
+\Delta_{F}(\Gamma,n):=\sum_{k=1}^n\|\delta_F(\Gamma,k)\|_2^2.
+$$
+
+4. **Defecto de empuje:**
+$$
+\Delta_{emp}(\Gamma,n):=\sum_{k=1}^n\left(P^{emp}_{SV}(\Gamma,k)-\sum_j\sigma_j\langle F_{SV}(B_j,k),n_{B_j}\rangle_{SV}\,\omega(B_j)\right)^2.
+$$
+
+5. **Defecto termométrico (identidad local en pasos residuales):**
+$$
+\Delta_{\Theta}(\Gamma,n):=\sum_{k=1}^n\mathbf{1}_0(k)\left(k_B\Theta_{SV}(\Gamma,k)\Delta_\Gamma H_{SV}(\Gamma,k)-\Delta_\Gamma\mathcal{C}^{int}_{SV}(\Gamma,k)\right)^2.
+$$
+
+6. **Defecto entálpico:**
+$$
+\delta_{\Lambda}(\Gamma,n):=\Lambda_{SV}(\Gamma,n)-\left(\mathcal{C}^{int}_{SV}(\Gamma,n)+\mathcal{B}_{\partial,SV}(\Gamma,n)\right).
+$$
+
+### 6.2. Defecto factual total y ecuación única
+
+Se define el defecto factual total del dominio como:
+
+$$
+\mathbb{T}^{thermo}_{SV}(\Gamma,n):=
+|\delta_{bal}(\Gamma,n)|^2
 +
-Rot_{SV}\Psi_{SV}(\Gamma,n)
+\Delta_{irr}(\Gamma,n)
 +
-J^{for}_{SV}(\Gamma,n),
-```
-
-donde
-
-```math
-J^{for}_{SV}(\Gamma,n)
-:=
-\mathcal{J}_{\Gamma,SV}(n)\,u_{for}(\Gamma,n)
-```
-
-para un vector factual de dirección de fuerza `u_{for}`.
-
-### 7.5. Teorema de irreducibilidad de la fuerza factual
-
-**Teorema 7.5.1.** La fuerza factual no se reduce, en general, a un gradiente puro.
-
-**Demostración.** Si `F_{SV}` fuera igual a `-\nabla^{SV}\varphi` para algún potencial `\varphi`, deberían anularse el término rotacional `Rot_{SV}\Psi_{SV}` y la corrección jacobiana `J^{for}_{SV}`. La estructura general del dominio no impone tal anulación. Luego la reducción a gradiente puro no es general. Q.E.D.
-
-### 7.6. Empuje factual
-
-```math
-P^{emp}_{SV}(\Gamma,n)
-:=
-\sum_j \langle F_{SV}(B_j),n_{B_j}\rangle_{SV}\,\omega(B_j).
-```
-
-### 7.7. Temperatura factual
-
-```math
-\Theta_{SV}(\Gamma,n)
-:=
-UFT\!\left(
-H_{SV}(\Gamma,n),
-R_{\Gamma}(n),
-\mathcal{J}_{\Gamma,SV}(n),
-\mathcal{B}_{\partial,SV}(\Gamma,n)
-\right).
-```
-
-### 7.8. Teorema de no reducción monovariable de la temperatura factual
-
-**Teorema 7.8.1.** La temperatura factual no es, en general, función de `H_{SV}` solo.
-
-**Demostración.** La definición de `\Theta_{SV}` depende simultáneamente de `H_{SV}`, `R_{\Gamma}`, `\mathcal{J}_{\Gamma,SV}` y `\mathcal{B}_{\partial,SV}`. Luego no puede reducirse, en general, a una función de una sola variable. Q.E.D.
-
-### 7.9. Entalpía factual
-
-```math
-\Lambda_{SV}(\Gamma,n)
-:=
-\mathcal{C}^{int}_{SV}(\Gamma,n)
+\Delta_F(\Gamma,n)
 +
-\mathcal{B}_{\partial,SV}(\Gamma,n)
-=
-\mathcal{C}^{tot}_{SV}(\Gamma,n).
-```
-
-### 7.10. Teorema de no primitividad
-
-**Teorema 7.10.1.** `W_{SV}`, `Q_{SV}`, `F_{SV}`, `P^{emp}_{SV}`, `\Theta_{SV}` y `\Lambda_{SV}` no poseen estatuto primitivo independiente.
-
-**Demostración.** `W_{SV}` y `Q_{SV}` son proyecciones del incremento de `\mathcal{C}^{tot}_{SV}`. `P^{emp}_{SV}` es funcional de contorno de `F_{SV}`. `\Theta_{SV}` es lectura metrológica factual del bloque irreversible–residual–jacobiano–frontera. `\Lambda_{SV}` coincide con la descomposición total de contenido. Luego ninguna de esas magnitudes es primitiva. Q.E.D.
-
-## 8. Identidades cerradas del dominio
-
-### 8.1. Identidad de balance factual
-
-```math
-\Delta_{\Gamma}\mathcal{C}^{tot}_{SV}
--
-W_{SV}
--
-Q_{SV}
--
-\mathcal{U}_{SV}
-=
-0.
-```
-
-### 8.2. Identidad de irreversibilidad factual
-
-```math
-\Delta_{\Gamma}H_{SV}\ge 0.
-```
-
-### 8.3. Identidad de cierre de fuerza factual
-
-```math
-F_{SV}
+\Delta_{emp}(\Gamma,n)
 +
-\nabla^{SV}\phi_{SV}
--
-Rot_{SV}\Psi_{SV}
--
-J^{for}_{SV}
-=
-0.
-```
-
-### 8.4. Identidad de cierre de empuje factual
-
-```math
-P^{emp}_{SV}
--
-\sum_j \langle F_{SV}(B_j),n_{B_j}\rangle_{SV}\,\omega(B_j)
-=
-0.
-```
-
-### 8.5. Identidad de cierre de temperatura factual
-
-```math
-\Theta_{SV}
--
-UFT(H_{SV},R_{\Gamma},\mathcal{J}_{\Gamma,SV},\mathcal{B}_{\partial,SV})
-=
-0.
-```
-
-### 8.6. Identidad de cierre de entalpía factual
-
-```math
-\Lambda_{SV}
--
-(\mathcal{C}^{int}_{SV}+\mathcal{B}_{\partial,SV})
-=
-0.
-```
-
-## 9. Fórmula absoluta del dominio
-
-### 9.1. Parte negativa de la irreversibilidad
-
-Para un escalar `x`,
-
-```math
-[x]_-
-:=
-\max(-x,0).
-```
-
-### 9.2. Defecto factual total
-
-Se define
-
-```math
-\mathbb{T}^{thermo}_{SV}(\Gamma,n)
-:=
-\bigl|
-\Delta_{\Gamma}\mathcal{C}^{tot}_{SV}
--
-W_{SV}
--
-Q_{SV}
--
-\mathcal{U}_{SV}
-\bigr|^2
+\Delta_{\Theta}(\Gamma,n)
 +
-\bigl|[\Delta_{\Gamma}H_{SV}]_-\bigr|^2
-+
-\|F_{SV}+\nabla^{SV}\phi_{SV}-Rot_{SV}\Psi_{SV}-J^{for}_{SV}\|_{SV}^2
-+
-\bigl|
-P^{emp}_{SV}
--
-\sum_j \langle F_{SV}(B_j),n_{B_j}\rangle_{SV}\,\omega(B_j)
-\bigr|^2
-+
-\bigl|
-\Theta_{SV}
--
-UFT(H_{SV},R_{\Gamma},\mathcal{J}_{\Gamma,SV},\mathcal{B}_{\partial,SV})
-\bigr|^2
-+
-\bigl|
-\Lambda_{SV}
--
-(\mathcal{C}^{int}_{SV}+\mathcal{B}_{\partial,SV})
-\bigr|^2.
-```
+|\delta_{\Lambda}(\Gamma,n)|^2.
+$$
 
-### 9.3. Ecuación absoluta
+La **ecuación absoluta única** del dominio es:
 
-```math
-\mathbb{T}^{thermo}_{SV}(\Gamma,n)=0.
-```
+$$
+\boxed{\ \mathbb{T}^{thermo}_{SV}(\Gamma,n)=0\ }.
+$$
 
-Ésta es la fórmula absoluta del dominio. Es escalar nula, fibrosa por proyecciones y compatible con la arquitectura de ecuación única ya asentada en el corpus.
+---
 
-## 10. Teoremas de cierre del dominio
+## 7. Teoremas de cierre, equivalencia y unicidad
 
-### 10.1. Teorema de equivalencia estructural
+### 7.1. Positividad del defecto factual total
 
-**Teorema 10.1.1.** La ecuación `\mathbb{T}^{thermo}_{SV}(\Gamma,n)=0` es equivalente a la conjunción de las seis identidades del apartado 8.
+**Lema 7.1.1.** Para todo $(\Gamma,n)$ se cumple $\mathbb{T}^{thermo}_{SV}(\Gamma,n)\ge 0$.
 
-**Demostración.** Cada término de `\mathbb{T}^{thermo}_{SV}` es un cuadrado o norma cuadrática no negativa. La suma total es cero si y sólo si cada término individual es cero. Eso equivale exactamente a las seis identidades del apartado 8. Q.E.D.
+*Demostración.* Cada sumando es un cuadrado o suma de cuadrados. Q.E.D.
 
-### 10.2. Teorema de cierre de balance e irreversibilidad
+### 7.2. Nulidad componente a componente
 
-**Teorema 10.2.1.** Si `\mathbb{T}^{thermo}_{SV}=0`, el dominio satisface simultáneamente balance factual total e irreversibilidad factual.
+**Teorema 7.2.1.** Se tiene $\mathbb{T}^{thermo}_{SV}(\Gamma,n)=0$ si y sólo si se anulan simultáneamente:
+$$
+\delta_{bal}=0,\quad
+\Delta_{irr}=0,\quad
+\Delta_F=0,\quad
+\Delta_{emp}=0,\quad
+\Delta_{\Theta}=0,\quad
+\delta_{\Lambda}=0.
+$$
 
-**Demostración.** La anulación del primer término impone la identidad de balance factual. La anulación del segundo término impone `\Delta_{\Gamma}H_{SV}\ge 0`. Q.E.D.
+*Demostración.* Por el Lema 7.1.1, una suma de no negativos es cero si y sólo si cada término es cero. Q.E.D.
 
-### 10.3. Teorema de absorción de las magnitudes derivadas
+### 7.3. Primer principio factual (forma SV)
 
-**Teorema 10.3.1.** Si `\mathbb{T}^{thermo}_{SV}=0`, entonces `W_{SV}`, `Q_{SV}`, `F_{SV}`, `P^{emp}_{SV}`, `\Theta_{SV}` y `\Lambda_{SV}` quedan absorbidas por el régimen único y no abren ley soberana adicional.
+**Corolario 7.3.1.** Si $\mathbb{T}^{thermo}_{SV}(\Gamma,n)=0$, entonces:
 
-**Demostración.** Cada una de esas magnitudes aparece como proyección, funcional o lectura de un término incluido en la ecuación absoluta. Si la ecuación es cero, el cierre de todas ellas queda forzado por las identidades del apartado 8. Luego ninguna constituye ley soberana independiente. Q.E.D.
+$$
+\Delta_\Gamma\mathcal{C}^{tot}_{SV}(\Gamma,n)=W_{SV}(\Gamma,n)+Q_{SV}(\Gamma,n)+\mathcal{U}_{SV}(\Gamma,n).
+$$
 
-### 10.4. Teorema de compatibilidad arquitectónica
 
-**Teorema 10.4.1.** La forma `\mathbb{T}^{thermo}_{SV}=0` es compatible con la arquitectura de ecuación única ya asentada en el corpus.
+### 7.3bis. No tautologicidad del balance y unicidad termométrica
 
-**Demostración.** La ecuación es escalar nula, no temporal, organizada sobre un objeto fibroso factual y cerrada por anulación de un defecto total no negativo. Esa forma es arquitectónicamente compatible con la familia de ecuación única del corpus. Q.E.D.
+**Proposición 7.3bis.1 (balance no tautológico).** La igualdad de balance $\delta_{bal}=0$ no es identidad por definición: impone una restricción efectiva entre (i) variación del contenido total, (ii) trabajo como integral curvilínea del campo de fuerza, (iii) calor como lectura termométrica multiplicada por incremento entrópico, y (iv) contribución explícita de $U$.
 
-### 10.5. Teorema de unicidad fuerte
+*Demostración.* En §5.4, $W_{SV}$ se define por un funcional de línea del campo $F_{SV}$ y de la geometría de trayectoria $x_{SV}$, mientras que $Q_{SV}$ y $\mathcal{U}_{SV}$ se definen por el producto metrológico $k_B\Theta_{SV}\Delta H_{SV}$ en subclases disjuntas de sucesos (residuales y $U$). Ninguna de estas magnitudes se define como proyección de $\Delta_\Gamma\mathcal{C}^{tot}_{SV}$; por tanto, $\delta_{bal}=0$ no se reduce a una identidad algebraica vacía. Q.E.D.
 
-**Teorema 10.5.1.** No existe una segunda ecuación escalar soberana independiente que cierre el mismo dominio con igual conjunto de exigencias constitutivas.
+**Teorema 7.3bis.2 (unicidad termométrica en régimen residual).** Para un paso $k$ con $\mathbf{1}_0(k)=1$ y $\Delta_\Gamma H_{SV}(\Gamma,k)>0$, la identidad termométrica
+$$
+k_B\,\Theta_{SV}(\Gamma,k)\,\Delta_\Gamma H_{SV}(\Gamma,k)=\Delta_\Gamma\mathcal{C}^{int}_{SV}(\Gamma,k)
+$$
+determina $\Theta_{SV}(\Gamma,k)$ de manera única.
 
-**Demostración.** Toda ecuación alternativa tendría que imponer simultáneamente balance factual, irreversibilidad factual, cierre de fuerza, cierre de empuje, definición termométrica factual y descomposición entálpica interior–contorno. Si omite alguna, el dominio queda incompleto. Si las contiene todas, debe anular la misma familia de defectos. Toda reescritura escalar que mantenga esas seis nulidades es equivalente, por transformación monótona positiva, a la nulidad del defecto factual total fijado. Luego no existe segunda ecuación escalar soberana independiente con el mismo alcance constitutivo. Q.E.D.
+*Demostración.* Es una ecuación lineal en la incógnita $\Theta_{SV}(\Gamma,k)$ con coeficiente $k_B\Delta_\Gamma H_{SV}(\Gamma,k)>0$. Q.E.D.
 
-## 11. Compatibilidad metrológica restringida
+**Corolario 7.3bis.3 (estatuto de U termométrica).** Si $\Delta_\Gamma H_{SV}(\Gamma,k)=0$ en un paso residual, la lectura termométrica no queda determinada por el aparato del paso; su estatuto correcto es $U$.
 
-### 11.1. Estatuto
+### 7.4. Irreversibilidad
 
-El plano metrológico no funda el dominio. Sólo comparece como lectura subordinada una vez cerrado el régimen factual.
+**Corolario 7.4.1.** Si $\mathbb{T}^{thermo}_{SV}(\Gamma,n)=0$, entonces $\Delta_\Gamma H_{SV}(\Gamma,k)\ge 0$ para todo $k\le n$.
 
-### 11.2. Correspondencias de lectura
+### 7.5. Unicidad fuerte del cierre escalar
 
-```math
-[\Theta_{SV}] = UFT,
-```
+Sea $\mathcal{P}$ la clase de todas las condiciones de cierre del dominio que:
+(i) se expresan como ecuaciones escalar–nulas sobre $(\Gamma,n)$,
+(ii) se construyen como suma finita de términos no negativos,
+(iii) anulan exactamente las mismas seis condiciones de §6.1.
 
-```math
-[W_{SV}] = [Q_{SV}] = [\Lambda_{SV}] = [\mathcal{C}^{tot}_{SV}],
-```
+**Teorema 7.5.1 (unicidad en la clase $\mathcal{P}$).** Si $E(\Gamma,n)=0$ y $E'(\Gamma,n)=0$ son dos cierres en $\mathcal{P}$ con el mismo conjunto de seis condiciones nulas, entonces $E=0$ si y sólo si $E'=0$.
 
-```math
-[P^{emp}_{SV}] = [F_{SV}]\cdot[\omega(B)].
-```
+*Demostración.* Ambos cierres son equivalentes a la conjunción de las seis nulidades por el mismo argumento de positividad componente a componente. Q.E.D.
 
-### 11.3. Observación crítica
+---
+### 7.6. Recuperación formal externa bajo límite regular
 
-El documento no da por cerrada aquí una tabla metrológica total de la termodinámica factual. Fija sólo el cosido mínimo necesario para que sus magnitudes no queden flotantes ni contradigan el pilar soberano de unidades factuales.
+Sea un régimen donde:
+1) $\mathbf{1}_U(k)=0$ para todo $k$ (no comparece $U$ en el tramo),
+2) los incrementos $\Delta x$ y $\Delta_\Gamma H_{SV}$ son pequeños y regulares,
+3) los pesos factuales son uniformes.
 
-## 12. Recorrido de consistencia visible
+Bajo este límite regular, el balance factual $\delta_{bal}=0$ adopta, en notación diferencial formal externa (sin soberanía ontológica), la forma:
 
-### 12.1. Banco A — balance factual exacto
+$$
+d\mathcal{C}^{tot}_{SV} = \langle F_{SV},dx\rangle_{SV} + k_B\,\Theta_{SV}\,dH_{SV},
+$$
 
-Sea un proceso factual con
+que reproduce el esquema estructural del primer principio clásico al identificar $d\mathcal{C}^{tot}_{SV}$ como variación de contenido, $\langle F,dx\rangle$ como trabajo diferencial y $k_B\Theta\,dH$ como calor diferencial. El régimen SV mantiene la primacía del suceso: el límite es una lectura formal externa de una identidad factual discretizada.
 
-```math
-\Delta_{\Gamma}\mathcal{C}^{tot}_{SV}=12,
+
+
+## 8. Bancos visibles de consistencia y bancos de tensión
+
+En todos los bancos se emplea el formato canónico **Datos → Cálculo → Salida → Dictamen**.
+
+### Banco B-01 — recorrido completo con anulación de la ecuación absoluta
+
+**Datos.** Trayectoria de cuatro estados ($n=3$) con pesos $\omega(\nu_k)=1$:
+
+$$
+x_{SV}(0)=(0,0,0),\;
+x_{SV}(1)=(1,0,0),\;
+x_{SV}(2)=(1,1,0),\;
+x_{SV}(3)=(1,1,1).
+$$
+
+Indicadores:
+$$
+(\mathbf{1}_1(1),\mathbf{1}_0(1),\mathbf{1}_U(1))=(1,0,0),
+$$
+$$
+(\mathbf{1}_1(2),\mathbf{1}_0(2),\mathbf{1}_U(2))=(0,1,0),
+$$
+$$
+(\mathbf{1}_1(3),\mathbf{1}_0(3),\mathbf{1}_U(3))=(0,0,1).
+$$
+
+Entropía factual:
+$$
+H_{SV}(0)=0,\;H_{SV}(1)=0.20,\;H_{SV}(2)=0.35,\;H_{SV}(3)=0.40.
+$$
+
+Lectura termométrica (en UFT):
+$$
+\Theta_{SV}(1)=10,\;\Theta_{SV}(2)=12,\;\Theta_{SV}(3)=11.
+$$
+
+Constante metrológica: $k_B=1$ (escala interna).
+
+Contenido interior y frontera:
+$$
+\mathcal{C}^{int}_{SV}(0)=8,\;\mathcal{C}^{int}_{SV}(1)=10,\;\mathcal{C}^{int}_{SV}(2)=11.8,\;\mathcal{C}^{int}_{SV}(3)=12.35,
+$$
+$$
+\mathcal{B}_{\partial,SV}(0)=2,\;\mathcal{B}_{\partial,SV}(1)=2,\;\mathcal{B}_{\partial,SV}(2)=2,\;\mathcal{B}_{\partial,SV}(3)=2.
+$$
+
+Fuerza factual (constante sobre el paso 1):
+$$
+F_{SV}(1)=(2,0,0),\qquad F_{SV}(2)=(0,0,0),\qquad F_{SV}(3)=(0,0,0).
+$$
+
+**Cálculo.** Incrementos:
+$$
+\Delta x(1)=(1,0,0),\;\Delta x(2)=(0,1,0),\;\Delta x(3)=(0,0,1).
+$$
+
+Trabajo:
+$$
+W_{SV}= \mathbf{1}_1(1)\langle (2,0,0),(1,0,0)\rangle =2.
+$$
+
+Incrementos entrópicos:
+$$
+\Delta H(1)=0.20,\;\Delta H(2)=0.15,\;\Delta H(3)=0.05.
+$$
+
+Calor:
+$$
+Q_{SV}=\mathbf{1}_0(2)\,k_B\,\Theta(2)\Delta H(2)=12\cdot 0.15=1.8.
+$$
+
+Contribución $U$:
+$$
+\mathcal{U}_{SV}=\mathbf{1}_U(3)\,k_B\,\Theta(3)\Delta H(3)=11\cdot 0.05=0.55.
+$$
+
+Contenido total:
+$$
+\mathcal{C}^{tot}_{SV}(0)=10,\;\mathcal{C}^{tot}_{SV}(3)=14.35\;\Rightarrow\;\Delta_\Gamma\mathcal{C}^{tot}_{SV}=4.35.
+$$
+
+Balance:
+$$
+\delta_{bal}=4.35-2-1.8-0.55=0.
+$$
+
+Irreversibilidad: $\Delta H(k)\ge 0$ para todo $k$, luego $\Delta_{irr}=0$.
+
+Defecto termométrico (paso residual $k=2$):
+$$
+k_B\Theta(2)\Delta H(2)-\Delta\mathcal{C}^{int}(2)=12\cdot 0.15-(11.8-10)=1.8-1.8=0,
+$$
+luego $\Delta_\Theta=0$.
+
+Entalpía:
+$$
+\Lambda_{SV}(3)=\mathcal{C}^{int}(3)+\mathcal{B}_\partial(3)=12.35+2=14.35,
+$$
+luego $\delta_\Lambda=0$.
+
+**Salida.** $\delta_{bal}=0$, $\Delta_{irr}=0$, $\Delta_\Theta=0$, $\delta_\Lambda=0$.
+
+**Dictamen.** En este banco, los cuatro defectos calculables quedan anulados. (Los defectos de fuerza y empuje se evalúan en el Banco B-02, donde se fija el cierre constitutivo completo con cálculo diferencial explícito).
+
+---
+
+### Banco B-02 — cierre de fuerza con rotor vectorial y corrección jacobiana (cálculo completo)
+
+**Datos.** Potenciales y campos en $\mathbb{R}^3$:
+
+$$
+\phi(x,y,z)=2x,
 \qquad
-W_{SV}=5,
+\Psi(x,y,z)=(0,x,0).
+$$
+
+Observable jacobiano y velocidad:
+$$
+J_\Gamma=\begin{pmatrix}1&0&0\\0&1&0\\0&0&0\end{pmatrix},
 \qquad
-Q_{SV}=4,
-\qquad
-\mathcal{U}_{SV}=3.
-```
+v=(1,0,0).
+$$
 
-Entonces
+**Cálculo.** Gradiente:
+$$
+\nabla^{SV}\phi=(2,0,0).
+$$
 
-```math
-12-5-4-3=0.
-```
+Rotor 2-forma:
+$$
+\Omega^{SV}_{12}=\partial_1\Psi^2-\partial_2\Psi^1=1-0=1,
+\quad
+\Omega^{SV}_{23}=0,
+\quad
+\Omega^{SV}_{31}=0.
+$$
 
-### 12.2. Banco B — irreversibilidad factual
+Rotor vectorial:
+$$
+Rot^{vec}_{SV}\Psi=(0,0,1).
+$$
 
-Sea un proceso factual con
+Corrección jacobiana:
+$$
+J^{for}=J_\Gamma v=(1,0,0).
+$$
 
-```math
-H_{SV}(0)=2.0,
-\qquad
-H_{SV}(1)=2.4,
-\qquad
-H_{SV}(2)=2.7.
-```
+Fuerza constitutiva:
+$$
+F=-\nabla\phi+Rot^{vec}\Psi+J^{for}=-(2,0,0)+(0,0,1)+(1,0,0)=(-1,0,1).
+$$
 
-Entonces
+Defecto:
+$$
+\delta_F=F+\nabla\phi-Rot^{vec}\Psi-J^{for}=0.
+$$
 
-```math
-\Delta_{\Gamma}H_{SV}(2)=0.7\ge 0.
-```
+**Salida.** $\delta_F=0$.
 
-### 12.3. Banco C — cierre de fuerza factual
+**Dictamen.** El cierre de fuerza usa simultáneamente gradiente, rotor vectorial (tipológicamente resuelto) y corrección jacobiana.
 
-Sea una configuración con
+---
 
-```math
--\nabla^{SV}\phi_{SV}=(3,0,0),
-\qquad
-Rot_{SV}\Psi_{SV}=(1,1,0),
-\qquad
-J^{for}_{SV}=(-1,0,0).
-```
+### Banco B-03 — empuje factual (cálculo sobre frontera)
 
-Entonces
+**Datos.** Se toma el campo $F=(-1,0,1)$ del Banco B-02 sobre tres caras con normales y pesos:
 
-```math
-F_{SV}=(3,1,0),
-```
+$$
+(B_1,n_1,\sigma_1,\omega_1)=(*,(1,0,0),+1,1),
+$$
+$$
+(B_2,n_2,\sigma_2,\omega_2)=(*,(0,0,1),+1,2),
+$$
+$$
+(B_3,n_3,\sigma_3,\omega_3)=(*,(0,1,0),+1,1).
+$$
 
-y
+**Cálculo.**
+$$
+\langle F,n_1\rangle=-1,\quad \langle F,n_2\rangle=1,\quad \langle F,n_3\rangle=0.
+$$
 
-```math
-F_{SV}+\nabla^{SV}\phi_{SV}-Rot_{SV}\Psi_{SV}-J^{for}_{SV}=0.
-```
+Empuje:
+$$
+P^{emp}=\sum_j \sigma_j\langle F,n_j\rangle\,\omega_j=(-1)\cdot 1+(1)\cdot 2+0\cdot 1=1.
+$$
 
-### 12.4. Banco D — empuje factual
+Defecto de empuje en el paso:
+$$
+P^{emp}-\sum_j\sigma_j\langle F,n_j\rangle\omega_j=0.
+$$
 
-Si
+**Salida.** Defecto de empuje nulo.
 
-```math
-\sum_j \langle F_{SV}(B_j),n_{B_j}\rangle_{SV}\,\omega(B_j)=7
-```
+**Dictamen.** El empuje factual queda fijado como funcional de contorno reproducible.
 
-y se fija `P^{emp}_{SV}=7`, el defecto de empuje se anula.
+---
 
-### 12.5. Banco E — temperatura factual
+### Banco T-01 — régimen puramente directriz
 
-Si
+**Datos.** $\mathbf{1}_0(k)=\mathbf{1}_U(k)=0$ para todo $k\le n$.
 
-```math
-UFT(H_{SV},R_{\Gamma},\mathcal{J}_{\Gamma,SV},\mathcal{B}_{\partial,SV})=11
-```
+**Cálculo.** $Q_{SV}=0$ y $\mathcal{U}_{SV}=0$.
 
-y se fija `\Theta_{SV}=11`, el defecto térmico se anula.
+**Salida.** El balance se reduce a $\Delta\mathcal{C}^{tot}_{SV}=W_{SV}$.
 
-### 12.6. Banco F — entalpía factual
+**Dictamen.** El cierre no colapsa: especializa el dominio a trabajo puro.
 
-Si
+---
 
-```math
-\mathcal{C}^{int}_{SV}=9,
-\qquad
-\mathcal{B}_{\partial,SV}=2,
-```
+### Banco T-02 — régimen puramente residual
 
-entonces
+**Datos.** $\mathbf{1}_1(k)=\mathbf{1}_U(k)=0$ para todo $k\le n$.
 
-```math
-\Lambda_{SV}=11
-```
+**Cálculo.** $W_{SV}=0$ y $\mathcal{U}_{SV}=0$.
 
-y el defecto entálpico se anula.
+**Salida.** El balance se reduce a $\Delta\mathcal{C}^{tot}_{SV}=Q_{SV}$.
 
-### 12.7. Dictamen visible
+**Dictamen.** El cierre no exige parte directriz distinta de cero.
 
-Si los seis defectos se anulan simultáneamente, se obtiene
+---
 
-```math
-\mathbb{T}^{thermo}_{SV}=0.
-```
+### Banco T-03 — colapso del término rotacional
 
-## 13. Bancos de tensión del dominio
+**Datos.** $\Psi\equiv 0$ en el cierre de fuerza.
 
-### 13.1. Banco T1 — borde nulo
+**Cálculo.** $Rot^{vec}_{SV}\Psi=0$.
 
-Supóngase
+**Salida.** $F=-\nabla\phi+J^{for}$.
 
-```math
-\mathcal{B}_{\partial,SV}=0.
-```
+**Dictamen.** El rotor no es ornamental: su anulación cambia el régimen constitutivo.
 
-Entonces
+---
 
-```math
-\mathcal{C}^{tot}_{SV}=\mathcal{C}^{int}_{SV},
-\qquad
-\mathcal{U}_{SV}=0,
-\qquad
-P^{emp}_{SV}=0,
-\qquad
-\Lambda_{SV}=\mathcal{C}^{int}_{SV}.
-```
+### Banco T-04 — fallo termométrico produce defecto positivo
 
-La ecuación absoluta se reduce a cuatro defectos no triviales: balance interior, irreversibilidad, fuerza factual y lectura termométrica. El banco muestra que el régimen no colapsa cuando desaparece el borde; sólo se especializa.
+**Datos.** Se toma el Banco B-01 y se altera únicamente $\Theta_{SV}(2)$, fijando $\Theta_{SV}(2)=10$ en lugar de $12$.
 
-### 13.2. Banco T2 — residual nulo
+**Cálculo.** En el paso residual $k=2$:
+$$
+k_B\Theta(2)\Delta H(2)-\Delta\mathcal{C}^{int}(2)=10\cdot 0.15-1.8=1.5-1.8=-0.3,
+$$
+por tanto
+$$
+\Delta_\Theta \ge (-0.3)^2 = 0.09>0.
+$$
 
-Supóngase
+**Salida.** $\mathbb{T}^{thermo}_{SV}(\Gamma,3)>0$.
 
-```math
-R_{\Gamma}=0.
-```
+**Dictamen.** El cierre detecta de manera efectiva incoherencia termométrica sin recurrir a probabilidad ni a tiempo.
 
-Entonces el enriquecimiento canónico queda reducido a
+---
 
-```math
-H_{\Xi}=H_{K_3}+\|\mathcal{J}_{\Gamma,SV}\|_1.
-```
+### Banco T-05 — incoherencia tipológica del rotor produce defecto positivo
 
-La temperatura factual pasa a depender de
+**Datos.** Se toma el Banco B-02, pero se intenta sustituir $Rot^{vec}_{SV}\Psi$ por la 2-forma $\Omega^{SV}_{ij}(\Psi)$ dentro de la ley constitutiva de fuerza.
 
-```math
-\Theta_{SV}=UFT(H_{SV},0,\mathcal{J}_{\Gamma,SV},\mathcal{B}_{\partial,SV}).
-```
+**Cálculo.** $\nabla^{SV}\phi$ es vector en $\mathbb{R}^3$; $\Omega^{SV}$ es tensor antisimétrico $3\times 3$. La suma $-\nabla^{SV}\phi+\Omega^{SV}$ no está tipada en el dominio.
 
-El banco verifica que la definición termométrica no necesita residual distinto de cero para seguir siendo legítima.
+**Salida.** La ley constitutiva no queda bien definida, por tanto el defecto $\Delta_F$ no puede anularse.
 
-### 13.3. Banco T3 — régimen puramente directriz
+**Dictamen.** El rotor vectorial (dualizado) no es un adorno: es la compuerta tipológica que permite cierre algebraico coherente en rango tridimensional.
 
-Supóngase
 
-```math
-\mathbf{1}_0(k)=0,
-\qquad
-\mathbf{1}_U(k)=0
-qquad\text{para todo }k.
-```
 
-Entonces
+## 9. Apéndice algebraico
 
-```math
-Q_{SV}=0,
-\qquad
-\mathcal{U}_{SV}=0,
-\qquad
-\Delta_{\Gamma}\mathcal{C}^{tot}_{SV}=W_{SV}.
-```
+### 9.1. Identidad de telescopaje de incrementos
 
-El banco fuerza el límite de dominio sin calor factual ni no clausura. La ecuación absoluta debe seguir cerrando con consistencia.
+Para toda magnitud escalar $q$:
 
-### 13.4. Banco T4 — régimen puramente residual
+$$
+\sum_{k=1}^n \Delta_\Gamma q(k)=q(\Gamma,n)-q(\Gamma,0).
+$$
 
-Supóngase
+### 9.2. Compatibilidad tipológica rotor 2-forma → rotor vectorial
 
-```math
-\mathbf{1}_1(k)=0,
-\qquad
-\mathbf{1}_U(k)=0
-qquad\text{para todo }k.
-```
+Por definición de $\Omega^{SV}_{ij}$ y de $Rot^{vec}_{SV}$, el rotor vectorial es la dualización explícita del tensor antisimétrico en dimensión 3. Esto impide sumar objetos de tipología incompatible.
 
-Entonces
+### 9.3. Residual factual global como norma de defectos
 
-```math
-W_{SV}=0,
-\qquad
-\mathcal{U}_{SV}=0,
-\qquad
-\Delta_{\Gamma}\mathcal{C}^{tot}_{SV}=Q_{SV}.
-```
+Se define el defecto elemental de balance por paso:
 
-El banco obliga al documento a soportar un régimen factual sin parte directriz. La consistencia del balance no depende de que el trabajo factual sea distinto de cero.
+$$
+\delta_{bal}^{(k)}:=\Delta_\Gamma\mathcal{C}^{tot}_{SV}(k)
+-\mathbf{1}_1(k)\,\langle F_{SV}(k),\Delta x(k)\rangle_{SV}
+-\mathbf{1}_0(k)\,k_B\Theta_{SV}(k)\Delta_\Gamma H_{SV}(k)
+-\mathbf{1}_U(k)\,k_B\Theta_{SV}(k)\Delta_\Gamma H_{SV}(k),
+$$
 
-### 13.5. Banco T5 — persistencia dominante de `U`
+y el defecto elemental de empuje:
 
-Supóngase una trayectoria con
+$$
+\delta_{emp}^{(k)}:=P^{emp}_{SV}(k)-\sum_j\sigma_j\langle F_{SV}(B_j,k),n_{B_j}\rangle_{SV}\,\omega(B_j).
+$$
 
-```math
-\rho_U(\Gamma,n)=0.92,
-\qquad
-\Delta_{\Gamma}H_{SV}(\Gamma,n)>0.
-```
+Una instanciación canónica del residual factual global compatible con el dominio es:
 
-Entonces la ecuación absoluta no queda dañada: la mayor parte del espesor factual se lee como no clausura honesta y, sin embargo, el régimen sigue siendo irreversible. Este banco tensa el documento exactamente sobre el punto donde `U` es persistente sin volverse principio ontológico.
+$$
+R_\Gamma(n):=\sum_{k=1}^n\Bigl(
+|\delta_{bal}^{(k)}|
++\|\delta_F(\Gamma,k)\|_2
++|\delta_{emp}^{(k)}|
++\mathbf{1}_0(k)\bigl|k_B\Theta_{SV}(k)\Delta_\Gamma H_{SV}(k)-\Delta_\Gamma\mathcal{C}^{int}_{SV}(k)\bigr|
+\Bigr).
+$$
 
-### 13.6. Banco T6 — colapso del término rotacional
+La definición es aditiva, no negativa y se anula bajo cierre completo.
 
-Supóngase
+---
 
-```math
-Rot_{SV}\Psi_{SV}=0.
-```
+## 10. Referencias
 
-Entonces la fuerza factual se reduce a
-
-```math
-F_{SV}=-\nabla^{SV}\phi_{SV}+J^{for}_{SV}.
-```
-
-El banco verifica que el cierre de fuerza sigue siendo no trivial si la corrección jacobiana persiste. El rotor no es decorativo; su desaparición especializa el régimen, no lo trivializa automáticamente.
-
-### 13.7. Banco T7 — colapso jacobiano
-
-Supóngase
-
-```math
-\mathcal{J}_{\Gamma,SV}=0.
-```
-
-Entonces
-
-```math
-H_{\Xi}=H_{K_3}+R_{\Gamma},
-\qquad
-J^{for}_{SV}=0,
-\qquad
-\Theta_{SV}=UFT(H_{SV},R_{\Gamma},0,\mathcal{B}_{\partial,SV}).
-```
-
-El banco tensa el dominio en ausencia total de sensibilidad jacobiana. La ecuación absoluta no desaparece; pierde un grado de precisión estructural y conserva los demás.
-
-### 13.8. Banco T8 — único defecto activo
-
-Supóngase que se anulan los cinco últimos defectos de `\mathbb{T}^{thermo}_{SV}` pero no el primero. Entonces
-
-```math
-\mathbb{T}^{thermo}_{SV}
-=
-\bigl|
-\Delta_{\Gamma}\mathcal{C}^{tot}_{SV}-W_{SV}-Q_{SV}-\mathcal{U}_{SV}
-\bigr|^2
->0.
-```
-
-Este banco muestra que el balance factual del contenido es condición necesaria independiente y no consecuencia gratuita del resto.
-
-### 13.9. Banco T9 — defecto térmico aislado
-
-Supóngase que se anulan todos los defectos salvo el térmico. Entonces
-
-```math
-\mathbb{T}^{thermo}_{SV}
-=
-\bigl|\Theta_{SV}-UFT(H_{SV},R_{\Gamma},\mathcal{J}_{\Gamma,SV},\mathcal{B}_{\partial,SV})\bigr|^2
->0.
-```
-
-El banco demuestra que la lectura termométrica factual no queda absorbida automáticamente por el resto del dominio si se le niega su propia condición de cierre.
-
-### 13.10. Banco T10 — defecto entálpico aislado
-
-Supóngase que se anulan todos los defectos salvo el entálpico. Entonces
-
-```math
-\mathbb{T}^{thermo}_{SV}
-=
-\bigl|\Lambda_{SV}-(\mathcal{C}^{int}_{SV}+\mathcal{B}_{\partial,SV})\bigr|^2
->0.
-```
-
-El banco prueba que la descomposición interior–contorno no es redundante dentro de la fórmula absoluta.
-
-## 14. Anexo algebraico profundo
-
-### 14.1. Positividad estructural del defecto factual total
-
-**Lema 14.1.1.** Para todo par `(\Gamma,n)` se cumple
-
-```math
-\mathbb{T}^{thermo}_{SV}(\Gamma,n)\ge 0.
-```
-
-**Demostración.** Cada sumando del defecto factual total es o bien un cuadrado de valor absoluto, o bien una norma al cuadrado. Todos son no negativos. La suma de no negativos es no negativa. Q.E.D.
-
-### 14.2. Teorema de nulidad componente a componente
-
-**Teorema 14.2.1.** Se tiene
-
-```math
-\mathbb{T}^{thermo}_{SV}(\Gamma,n)=0
-```
-
-si y sólo si cada uno de sus seis sumandos es nulo.
-
-**Demostración.** La implicación directa se sigue de la positividad estructural: una suma de seis términos no negativos sólo puede valer cero si cada término vale cero. La implicación inversa es inmediata por sustitución. Q.E.D.
-
-### 14.3. Teorema de equivalencia entre cierre fibroso y cierre escalar
-
-**Teorema 14.3.1.** La anulación de la ecuación escalar `\mathbb{T}^{thermo}_{SV}=0` es equivalente al cierre de las seis proyecciones termodinámicas canónicas.
-
-**Demostración.** Cada proyección termodinámica canónica del dominio aparece exactamente una vez como diferencia cerrable dentro del defecto factual total: el balance para `W_{SV},Q_{SV},\mathcal{U}_{SV}`, la fuerza para `F_{SV}`, el empuje para `P^{emp}_{SV}`, la temperatura para `\Theta_{SV}` y la entalpía para `\Lambda_{SV}`. Por el Teorema 14.2.1, la nulidad escalar equivale a la nulidad de cada uno de esos defectos de proyección. Q.E.D.
-
-### 14.4. Teorema de no redundancia de los seis defectos
-
-**Teorema 14.4.1.** Ninguno de los seis defectos de `\mathbb{T}^{thermo}_{SV}` es algebraicamente redundante respecto de los otros cinco.
-
-**Demostración.** Los Bancos T8, T9 y T10 prueban explícitamente no redundancia para balance, temperatura y entalpía. Los Bancos B, C y D del recorrido de consistencia, leídos de forma complementaria, muestran que irreversibilidad, fuerza y empuje pueden activarse como condiciones independientes de cierre. Luego ningún defecto es deducible de los otros cinco como identidad universal del dominio. Q.E.D.
-
-### 14.5. Teorema de minimalidad estructural
-
-**Teorema 14.5.1.** Dentro del cierre escalar por suma de defectos no negativos, el conjunto de seis defectos de `\mathbb{T}^{thermo}_{SV}` es mínimo.
-
-**Demostración.** Por el Teorema 14.4.1, ningún defecto es redundante. Eliminar cualquiera de ellos destruye una condición constitutiva independiente del dominio. Luego no existe un cierre escalar del mismo alcance constitutivo con menos de seis defectos. Q.E.D.
-
-### 14.6. Teorema de irreductibilidad por compresión escalar
-
-**Teorema 14.6.1.** No existe una compresión escalar estricta de `\mathbb{T}^{thermo}_{SV}` a una suma de menos términos no negativos que conserve simultáneamente balance factual, irreversibilidad factual, cierre de fuerza, cierre de empuje, definición termométrica factual y descomposición entálpica interior–contorno.
-
-**Demostración.** Toda compresión a menos términos exigiría absorber al menos dos defectos independientes en un único término de modo que uno de ellos fuese lógicamente deducible del otro. El Teorema 14.4.1 excluye esa deducibilidad universal. Luego tal compresión no existe. Q.E.D.
-
-### 14.7. Teorema de estabilidad bajo especialización factual admisible
-
-**Teorema 14.7.1.** La forma `\mathbb{T}^{thermo}_{SV}` es estable bajo las especializaciones factuales admisibles descritas en los Bancos T1–T7.
-
-**Demostración.** En cada banco se anula o se fija una parte del aparato sin alterar la definición formal del defecto factual total. La fórmula permanece bien tipada y sigue evaluándose como suma de defectos no negativos. Luego la forma escalar es estable bajo especialización admisible del dominio. Q.E.D.
-
-### 14.8. Teorema de unicidad fuerte reforzada
-
-**Teorema 14.8.1.** No existe una segunda ecuación escalar soberana independiente que cierre el mismo dominio con el mismo alcance constitutivo y con igual o menor complejidad estructural.
-
-**Demostración.** Por el Teorema 14.5.1, el número de defectos del cierre escalar actual es mínimo. Por el Teorema 14.6.1, no existe compresión ulterior sin pérdida constitutiva. Por el Teorema 14.3.1, toda ecuación escalar del mismo alcance debe anular exactamente la misma familia de cierres fibrosos. Luego toda alternativa del mismo alcance es equivalente por transformación monótona positiva a la ecuación actual y no constituye una segunda ecuación soberana independiente. Q.E.D.
-
-## 15. Conclusión general
-
-El dominio termodinámico factual del Sistema Vectorial SV queda organizado como una pirámide algebraica ascendente. El suelo es preternario y semántico. Sobre él se levanta la aritmética diferencial de suceso. El siguiente piso es la cadena factual canónica de irreversibilidad, cerrada en `H_{SV}` sin truncar estratos. El aparato operatorio heredado proporciona flujo, divergencia, rotor, gradiente, jacobiano y frontera sin necesidad de repropósito. Sobre esa base se construye el fibrado termodinámico factual `\Omega_{SV}`, la magnitud madre `\mathcal{C}^{tot}_{SV}` y las proyecciones canónicas del dominio: trabajo, calor, fuerza, empuje, temperatura y entalpía. La culminación del edificio es la ecuación absoluta
-
-```math
-\mathbb{T}^{thermo}_{SV}(\Gamma,n)=0,
-```
-
-que concentra, en una sola fórmula nula, los defectos de balance, irreversibilidad, fuerza, empuje, temperatura y entalpía.
-
-El resultado debe leerse con precisión. El documento sí ofrece una respuesta genuina del SV al dominio termodinámico en su plano algebraico interno. No sustituye todavía el trabajo ulterior de contraste físico-material completo. Lo que queda aquí cerrado es la ley soberana interna del dominio, no la totalidad última de toda termodinámica experimental posible.
-
-## 16. Referencias
-
-Callen, H. B. (1985). *Thermodynamics and an introduction to thermostatistics* (2nd ed.). Wiley.
-
-Clausius, R. (1865). *The mechanical theory of heat*. John van Voorst.
-
-Gibbs, J. W. (1906). *The scientific papers of J. Willard Gibbs. Volume I: Thermodynamics*. Longmans, Green and Co.
-
-Maxwell, J. C. (1871). *Theory of heat*. Longmans, Green and Co.
-
-Prigogine, I. (1967). *Introduction to thermodynamics of irreversible processes* (3rd ed.). Interscience.
-
-Lloret Egea, J. A. (2026a). *Conjunto matemático unificado del cambio factual, ciclos, medición factual y trayectorias poligonales de activación en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español.
-
-Lloret Egea, J. A. (2026b). *Convergencia ternaria y gobierno determinista de trayectorias en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español.
-
-Lloret Egea, J. A. (2026c). *El transductor lingüístico — morfismo de dominio — y el horizonte H_NLP del Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español.
-
-Lloret Egea, J. A. (2026d). *Entropía factual e irreversibilidad estructural en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español.
-
-Lloret Egea, J. A. (2026e). *Primitivos metrológicos del Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español.
-
-Lloret Egea, J. A. (2026f). *Fundamentos operatorios absolutos del electromagnetismo factual en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español.
-
-Lloret Egea, J. A. (2026g). *Reducción estructural absoluta de Maxwell en el Sistema Vectorial SV y ecuación única de la física factual electromagnética*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español.
-
-Lloret Egea, J. A. (2026h). *Teoría general factual de la luz en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español.
-
-Lloret Egea, J. A. (2026i). *Del origen preternario del Sistema Vectorial SV a la entidad absoluta del campo: derivación nativa de \alpha_i y \beta_i, proyección ternaria inducida, absorción basal exacta, unificación fuerte de gravitación, electricidad y magnetismo, y apertura a clases factuales emergentes*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español.
-
-Lloret Egea, J. A. (2026j). *Absorción de E_0 = m_0 c^2 como sector basal de reposo en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español.
-
-Lloret Egea, J. A. (2026k). *Del contenido físico factual del suceso a las clases factuales emergentes: programa de transmutación factual en el Sistema SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español.
+- Sistema Vectorial SV: corpus de dispersión factual e irreversibilidad estructural; cuerpo operatorio absoluto de flujo, divergencia, rotor, jacobiano y frontera; primitivos metrológicos (UFE, UFM, UFC, UFT) y constante de escala $k_B$.
