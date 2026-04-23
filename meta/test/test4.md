@@ -67,7 +67,7 @@ Sobre cada par admisible se definen el sesgo polar factual y la activación fact
 ```math
 \delta_i := \beta_i - \alpha_i,
 \qquad
- a_i := |\delta_i|.
+a_i := |\delta_i|.
 ```
 
 ### 2.3. Teorema de prioridad preternaria
@@ -106,7 +106,7 @@ y el espesor factual acumulado de `U` por
 :=
 \sum_{k=1}^{n}\mathbf{1}_U(k)\,a(k),
 \qquad
- a(k):=\sum_i a_i(k).
+a(k):=\sum_i a_i(k).
 ```
 
 ### 2.5. Teorema de no supremacía de `U`
@@ -143,7 +143,27 @@ Por construcción,
 \Delta_{\Gamma}X(\Gamma,n)=X(\Gamma,n)-X(\Gamma,0).
 ```
 
-### 3.2. Proyecciones diferenciales canónicas
+### 3.2. Lemas estructurales de la derivada de suceso
+
+**Lema 3.2.1 (linealidad).** Para escalares `\lambda,\mu` y magnitudes factuales `X,Y`,
+
+```math
+\mathfrak{D}_{\Gamma}(\lambda X+\mu Y)
+=
+\lambda \mathfrak{D}_{\Gamma}X+\mu \mathfrak{D}_{\Gamma}Y.
+```
+
+**Demostración.** Inmediata por la linealidad de la resta y por la división por el mismo peso factual `\omega(\nu_k)`. Q.E.D.
+
+**Lema 3.2.2 (telescopía ponderada).**
+
+```math
+\Delta_{\Gamma}X(\Gamma,n)=X(\Gamma,n)-X(\Gamma,0).
+```
+
+**Demostración.** Se sustituye la definición de `\mathfrak{D}_{\Gamma}` en la suma acumulativa, se cancelan los factores `\omega(\nu_k)` y la suma resultante telescopa. Q.E.D.
+
+### 3.3. Proyecciones diferenciales canónicas
 
 Sobre cualquier magnitud factual `X` se definen las proyecciones diferenciales
 
@@ -165,9 +185,9 @@ Sobre cualquier magnitud factual `X` se definen las proyecciones diferenciales
 \sum_{k=1}^{n}\mathbf{1}_U(k)\,\omega(\nu_k)\,\mathfrak{D}_{\Gamma}X(\Gamma,k).
 ```
 
-### 3.3. Teorema de descomposición factual total
+### 3.4. Teorema de descomposición factual total
 
-**Teorema 3.3.1.** Para toda magnitud factual `X`,
+**Teorema 3.4.1.** Para toda magnitud factual `X`,
 
 ```math
 \Delta_{\Gamma}X
@@ -181,7 +201,7 @@ Sobre cualquier magnitud factual `X` se definen las proyecciones diferenciales
 
 **Demostración.** Se sustituye la identidad ternaria `\mathbf{1}_1+\mathbf{1}_0+\mathbf{1}_U=1` en cada paso de la suma acumulativa. La exclusión mutua de indicadores impide solapamiento. Luego el incremento total se descompone de manera exhaustiva y no solapada en sus tres proyecciones canónicas. Q.E.D.
 
-### 3.4. Corolario de cierre diferencial
+### 3.5. Corolario de cierre diferencial
 
 Las proyecciones directriz, residual y de indeterminación honesta no son operadores ornamentales. Son la aritmética diferencial mínima del dominio. Sin ellas, no puede definirse con legitimidad ni trabajo factual, ni calor factual, ni lectura factual de no clausura.
 
@@ -275,17 +295,47 @@ S_{\Sigma}\bigl(H_{\Sigma_k}(\Gamma,n)\bigr).
 
 **Demostración.** `H_{pre}` recoge activación previa; `H_{K_3}` la transporta al plano ternario; `H_{\Xi}` añade sensibilidad y residualidad; `H_{\Sigma_c}` y `H_{\Sigma_k}` reorganizan concentración y canalización. Si `H_{SV}` no absorbiera esos estratos como pisos sucesivos, el cierre del dominio sería un salto no auditable. Luego `H_{SV}` es absorción factual estratificada. Q.E.D.
 
-### 4.8. Teorema de irreversibilidad factual
+### 4.8. Lema de incremento preternario no negativo
 
-**Teorema 4.8.1.** Para toda trayectoria factual admisible `\Gamma` y cualesquiera `n_2\ge n_1`, se cumple
+**Lema 4.8.1.** Para toda trayectoria admisible y todo `n\ge 1`,
+
+```math
+\mathfrak{D}_{\Gamma}H_{pre}(\Gamma,n)\ge 0.
+```
+
+**Demostración.** Cada paso añade una suma de activaciones absolutas `a_i(n)\ge 0`. Luego el incremento por suceso de `H_{pre}` no puede ser negativo. Q.E.D.
+
+### 4.9. Lema de transporte no decremental
+
+**Lema 4.9.1.** Si `\tau(K_3)\subset \mathbb{R}_{\ge 0}`, entonces el transporte ternario inducido no destruye la no negatividad incremental:
+
+```math
+\mathfrak{D}_{\Gamma}H_{K_3}(\Gamma,n)\ge 0.
+```
+
+**Demostración.** Cada término `\tau(\chi_i(n))\,a_i(n)` es producto de dos cantidades no negativas. Luego la suma incremental es no negativa. Q.E.D.
+
+### 4.10. Lema de enriquecimiento compatible
+
+**Lema 4.10.1.** Si `\|\mathcal{J}_{\Gamma,SV}(n)\|_1\ge 0` y `R_{\Gamma}(n)\ge 0`, entonces
+
+```math
+\mathfrak{D}_{\Gamma}H_{\Xi}(\Gamma,n)\ge 0.
+```
+
+**Demostración.** El incremento de `H_{\Xi}` es suma de tres contribuciones no negativas: la de `H_{K_3}`, la del jacobiano factual en norma `\ell_1` y la del residual factual. Luego el incremento total es no negativo. Q.E.D.
+
+### 4.11. Teorema de irreversibilidad factual
+
+**Teorema 4.11.1.** Para toda trayectoria factual admisible `\Gamma` y cualesquiera `n_2\ge n_1`, se cumple
 
 ```math
 H_{SV}(\Gamma,n_2)\ge H_{SV}(\Gamma,n_1).
 ```
 
-**Demostración.** La cadena completa está construida como sucesión de acumulaciones y reorganizaciones no retractivas sobre información factual ya incorporada. La disciplina append-only del suceso excluye borrado efectivo de activación ya absorbida. En consecuencia, el estrato final no puede decrecer sobre una trayectoria admisible. Q.E.D.
+**Demostración.** Por los Lemas 4.8.1, 4.9.1 y 4.10.1, la cadena factual acumula incrementos no negativos hasta `H_{\Xi}`. Los operadores canónicos `C_{\Sigma}`, `K_{\Sigma}` y `S_{\Sigma}` son absorbentes y no retractivos sobre el contenido factual ya incorporado. Luego la composición completa desde `H_{pre}` hasta `H_{SV}` no puede decrecer sobre una trayectoria admisible. Q.E.D.
 
-### 4.9. Corolario diferencial de irreversibilidad
+### 4.12. Corolario diferencial de irreversibilidad
 
 Para todo `n\ge 1` se tiene
 
@@ -459,7 +509,7 @@ Q_{SV}(\Gamma,n)
 W_{SV}+Q_{SV}+\mathcal{U}_{SV}.
 ```
 
-**Demostración.** Se aplica a `\mathcal{C}^{tot}_{SV}` la identidad de descomposición factual total del apartado 3.3. Q.E.D.
+**Demostración.** Se aplica a `\mathcal{C}^{tot}_{SV}` la identidad de descomposición factual total del apartado 3.4. Q.E.D.
 
 ### 7.4. Fuerza factual
 
@@ -828,7 +878,248 @@ Si los seis defectos se anulan simultáneamente, se obtiene
 \mathbb{T}^{thermo}_{SV}=0.
 ```
 
-## 13. Conclusión general
+## 13. Bancos de tensión del dominio
+
+### 13.1. Banco T1 — borde nulo
+
+Supóngase
+
+```math
+\mathcal{B}_{\partial,SV}=0.
+```
+
+Entonces
+
+```math
+\mathcal{C}^{tot}_{SV}=\mathcal{C}^{int}_{SV},
+\qquad
+\mathcal{U}_{SV}=0,
+\qquad
+P^{emp}_{SV}=0,
+\qquad
+\Lambda_{SV}=\mathcal{C}^{int}_{SV}.
+```
+
+La ecuación absoluta se reduce a cuatro defectos no triviales: balance interior, irreversibilidad, fuerza factual y lectura termométrica. El banco muestra que el régimen no colapsa cuando desaparece el borde; sólo se especializa.
+
+### 13.2. Banco T2 — residual nulo
+
+Supóngase
+
+```math
+R_{\Gamma}=0.
+```
+
+Entonces el enriquecimiento canónico queda reducido a
+
+```math
+H_{\Xi}=H_{K_3}+\|\mathcal{J}_{\Gamma,SV}\|_1.
+```
+
+La temperatura factual pasa a depender de
+
+```math
+\Theta_{SV}=UFT(H_{SV},0,\mathcal{J}_{\Gamma,SV},\mathcal{B}_{\partial,SV}).
+```
+
+El banco verifica que la definición termométrica no necesita residual distinto de cero para seguir siendo legítima.
+
+### 13.3. Banco T3 — régimen puramente directriz
+
+Supóngase
+
+```math
+\mathbf{1}_0(k)=0,
+\qquad
+\mathbf{1}_U(k)=0
+qquad\text{para todo }k.
+```
+
+Entonces
+
+```math
+Q_{SV}=0,
+\qquad
+\mathcal{U}_{SV}=0,
+\qquad
+\Delta_{\Gamma}\mathcal{C}^{tot}_{SV}=W_{SV}.
+```
+
+El banco fuerza el límite de dominio sin calor factual ni no clausura. La ecuación absoluta debe seguir cerrando con consistencia.
+
+### 13.4. Banco T4 — régimen puramente residual
+
+Supóngase
+
+```math
+\mathbf{1}_1(k)=0,
+\qquad
+\mathbf{1}_U(k)=0
+qquad\text{para todo }k.
+```
+
+Entonces
+
+```math
+W_{SV}=0,
+\qquad
+\mathcal{U}_{SV}=0,
+\qquad
+\Delta_{\Gamma}\mathcal{C}^{tot}_{SV}=Q_{SV}.
+```
+
+El banco obliga al documento a soportar un régimen factual sin parte directriz. La consistencia del balance no depende de que el trabajo factual sea distinto de cero.
+
+### 13.5. Banco T5 — persistencia dominante de `U`
+
+Supóngase una trayectoria con
+
+```math
+\rho_U(\Gamma,n)=0.92,
+\qquad
+\Delta_{\Gamma}H_{SV}(\Gamma,n)>0.
+```
+
+Entonces la ecuación absoluta no queda dañada: la mayor parte del espesor factual se lee como no clausura honesta y, sin embargo, el régimen sigue siendo irreversible. Este banco tensa el documento exactamente sobre el punto donde `U` es persistente sin volverse principio ontológico.
+
+### 13.6. Banco T6 — colapso del término rotacional
+
+Supóngase
+
+```math
+Rot_{SV}\Psi_{SV}=0.
+```
+
+Entonces la fuerza factual se reduce a
+
+```math
+F_{SV}=-\nabla^{SV}\phi_{SV}+J^{for}_{SV}.
+```
+
+El banco verifica que el cierre de fuerza sigue siendo no trivial si la corrección jacobiana persiste. El rotor no es decorativo; su desaparición especializa el régimen, no lo trivializa automáticamente.
+
+### 13.7. Banco T7 — colapso jacobiano
+
+Supóngase
+
+```math
+\mathcal{J}_{\Gamma,SV}=0.
+```
+
+Entonces
+
+```math
+H_{\Xi}=H_{K_3}+R_{\Gamma},
+\qquad
+J^{for}_{SV}=0,
+\qquad
+\Theta_{SV}=UFT(H_{SV},R_{\Gamma},0,\mathcal{B}_{\partial,SV}).
+```
+
+El banco tensa el dominio en ausencia total de sensibilidad jacobiana. La ecuación absoluta no desaparece; pierde un grado de precisión estructural y conserva los demás.
+
+### 13.8. Banco T8 — único defecto activo
+
+Supóngase que se anulan los cinco últimos defectos de `\mathbb{T}^{thermo}_{SV}` pero no el primero. Entonces
+
+```math
+\mathbb{T}^{thermo}_{SV}
+=
+\bigl|
+\Delta_{\Gamma}\mathcal{C}^{tot}_{SV}-W_{SV}-Q_{SV}-\mathcal{U}_{SV}
+\bigr|^2
+>0.
+```
+
+Este banco muestra que el balance factual del contenido es condición necesaria independiente y no consecuencia gratuita del resto.
+
+### 13.9. Banco T9 — defecto térmico aislado
+
+Supóngase que se anulan todos los defectos salvo el térmico. Entonces
+
+```math
+\mathbb{T}^{thermo}_{SV}
+=
+\bigl|\Theta_{SV}-UFT(H_{SV},R_{\Gamma},\mathcal{J}_{\Gamma,SV},\mathcal{B}_{\partial,SV})\bigr|^2
+>0.
+```
+
+El banco demuestra que la lectura termométrica factual no queda absorbida automáticamente por el resto del dominio si se le niega su propia condición de cierre.
+
+### 13.10. Banco T10 — defecto entálpico aislado
+
+Supóngase que se anulan todos los defectos salvo el entálpico. Entonces
+
+```math
+\mathbb{T}^{thermo}_{SV}
+=
+\bigl|\Lambda_{SV}-(\mathcal{C}^{int}_{SV}+\mathcal{B}_{\partial,SV})\bigr|^2
+>0.
+```
+
+El banco prueba que la descomposición interior–contorno no es redundante dentro de la fórmula absoluta.
+
+## 14. Anexo algebraico profundo
+
+### 14.1. Positividad estructural del defecto factual total
+
+**Lema 14.1.1.** Para todo par `(\Gamma,n)` se cumple
+
+```math
+\mathbb{T}^{thermo}_{SV}(\Gamma,n)\ge 0.
+```
+
+**Demostración.** Cada sumando del defecto factual total es o bien un cuadrado de valor absoluto, o bien una norma al cuadrado. Todos son no negativos. La suma de no negativos es no negativa. Q.E.D.
+
+### 14.2. Teorema de nulidad componente a componente
+
+**Teorema 14.2.1.** Se tiene
+
+```math
+\mathbb{T}^{thermo}_{SV}(\Gamma,n)=0
+```
+
+si y sólo si cada uno de sus seis sumandos es nulo.
+
+**Demostración.** La implicación directa se sigue de la positividad estructural: una suma de seis términos no negativos sólo puede valer cero si cada término vale cero. La implicación inversa es inmediata por sustitución. Q.E.D.
+
+### 14.3. Teorema de equivalencia entre cierre fibroso y cierre escalar
+
+**Teorema 14.3.1.** La anulación de la ecuación escalar `\mathbb{T}^{thermo}_{SV}=0` es equivalente al cierre de las seis proyecciones termodinámicas canónicas.
+
+**Demostración.** Cada proyección termodinámica canónica del dominio aparece exactamente una vez como diferencia cerrable dentro del defecto factual total: el balance para `W_{SV},Q_{SV},\mathcal{U}_{SV}`, la fuerza para `F_{SV}`, el empuje para `P^{emp}_{SV}`, la temperatura para `\Theta_{SV}` y la entalpía para `\Lambda_{SV}`. Por el Teorema 14.2.1, la nulidad escalar equivale a la nulidad de cada uno de esos defectos de proyección. Q.E.D.
+
+### 14.4. Teorema de no redundancia de los seis defectos
+
+**Teorema 14.4.1.** Ninguno de los seis defectos de `\mathbb{T}^{thermo}_{SV}` es algebraicamente redundante respecto de los otros cinco.
+
+**Demostración.** Los Bancos T8, T9 y T10 prueban explícitamente no redundancia para balance, temperatura y entalpía. Los Bancos B, C y D del recorrido de consistencia, leídos de forma complementaria, muestran que irreversibilidad, fuerza y empuje pueden activarse como condiciones independientes de cierre. Luego ningún defecto es deducible de los otros cinco como identidad universal del dominio. Q.E.D.
+
+### 14.5. Teorema de minimalidad estructural
+
+**Teorema 14.5.1.** Dentro del cierre escalar por suma de defectos no negativos, el conjunto de seis defectos de `\mathbb{T}^{thermo}_{SV}` es mínimo.
+
+**Demostración.** Por el Teorema 14.4.1, ningún defecto es redundante. Eliminar cualquiera de ellos destruye una condición constitutiva independiente del dominio. Luego no existe un cierre escalar del mismo alcance constitutivo con menos de seis defectos. Q.E.D.
+
+### 14.6. Teorema de irreductibilidad por compresión escalar
+
+**Teorema 14.6.1.** No existe una compresión escalar estricta de `\mathbb{T}^{thermo}_{SV}` a una suma de menos términos no negativos que conserve simultáneamente balance factual, irreversibilidad factual, cierre de fuerza, cierre de empuje, definición termométrica factual y descomposición entálpica interior–contorno.
+
+**Demostración.** Toda compresión a menos términos exigiría absorber al menos dos defectos independientes en un único término de modo que uno de ellos fuese lógicamente deducible del otro. El Teorema 14.4.1 excluye esa deducibilidad universal. Luego tal compresión no existe. Q.E.D.
+
+### 14.7. Teorema de estabilidad bajo especialización factual admisible
+
+**Teorema 14.7.1.** La forma `\mathbb{T}^{thermo}_{SV}` es estable bajo las especializaciones factuales admisibles descritas en los Bancos T1–T7.
+
+**Demostración.** En cada banco se anula o se fija una parte del aparato sin alterar la definición formal del defecto factual total. La fórmula permanece bien tipada y sigue evaluándose como suma de defectos no negativos. Luego la forma escalar es estable bajo especialización admisible del dominio. Q.E.D.
+
+### 14.8. Teorema de unicidad fuerte reforzada
+
+**Teorema 14.8.1.** No existe una segunda ecuación escalar soberana independiente que cierre el mismo dominio con el mismo alcance constitutivo y con igual o menor complejidad estructural.
+
+**Demostración.** Por el Teorema 14.5.1, el número de defectos del cierre escalar actual es mínimo. Por el Teorema 14.6.1, no existe compresión ulterior sin pérdida constitutiva. Por el Teorema 14.3.1, toda ecuación escalar del mismo alcance debe anular exactamente la misma familia de cierres fibrosos. Luego toda alternativa del mismo alcance es equivalente por transformación monótona positiva a la ecuación actual y no constituye una segunda ecuación soberana independiente. Q.E.D.
+
+## 15. Conclusión general
 
 El dominio termodinámico factual del Sistema Vectorial SV queda organizado como una pirámide algebraica ascendente. El suelo es preternario y semántico. Sobre él se levanta la aritmética diferencial de suceso. El siguiente piso es la cadena factual canónica de irreversibilidad, cerrada en `H_{SV}` sin truncar estratos. El aparato operatorio heredado proporciona flujo, divergencia, rotor, gradiente, jacobiano y frontera sin necesidad de repropósito. Sobre esa base se construye el fibrado termodinámico factual `\Omega_{SV}`, la magnitud madre `\mathcal{C}^{tot}_{SV}` y las proyecciones canónicas del dominio: trabajo, calor, fuerza, empuje, temperatura y entalpía. La culminación del edificio es la ecuación absoluta
 
@@ -840,7 +1131,7 @@ que concentra, en una sola fórmula nula, los defectos de balance, irreversibili
 
 El resultado debe leerse con precisión. El documento sí ofrece una respuesta genuina del SV al dominio termodinámico en su plano algebraico interno. No sustituye todavía el trabajo ulterior de contraste físico-material completo. Lo que queda aquí cerrado es la ley soberana interna del dominio, no la totalidad última de toda termodinámica experimental posible.
 
-## 14. Referencias
+## 16. Referencias
 
 Callen, H. B. (1985). *Thermodynamics and an introduction to thermostatistics* (2nd ed.). Wiley.
 
