@@ -35,13 +35,13 @@ Apéndice final:
 — Glosario tipográfico canónico absoluto.
 
 Anexo operatorio absoluto — Aparato matemático riguroso:
-A.1. Deformación gravitacional de umbrales.
-A.2. Calibración metrológica del cuanto factual de transporte.
-A.3. Calibración del coeficiente entrópico de cadena fundacional sobre fibra luminosa.
-A.4. Operador de Fourier factual luminoso.
-A.5. Operador maestro unificado absoluto sobre los siete sectores.
-A.6. Operador de correlación estructural entre fibras.
-A.7. Transmutación luminosa e interacción fibra-materia.
+A.1. Deformación gravitacional absoluta de umbrales.
+A.2. Calibración metrológica absoluta del cuanto factual de transporte.
+A.3. Calibración absoluta del coeficiente entrópico de cadena fundacional sobre fibra luminosa.
+A.4. Operador absoluto de Fourier factual luminoso.
+A.5. Operador maestro unificado absoluto **U**<sup>unif</sup><sub>SV</sub> sobre los siete sectores.
+A.6. Operador absoluto de correlación estructural entre fibras.
+A.7. Transmutación luminosa absoluta e interacción fibra-materia.
 
 ---
 
@@ -2669,9 +2669,566 @@ Las verificaciones numéricas absolutas de los diecisiete bancos son todas compa
 
 ---
 
-## [Apéndice final — Se reubicará tras §24 Referencias en la entrega final]
+## 20. Infraestructura laboratorial declarada con arquitectura de veintidós laboratorios
 
-**Nota transitoria.** El siguiente bloque — «Prohibiciones constitutivas absolutas desarrolladas» más «Glosario tipográfico canónico absoluto» — cierra el documento en su versión final, después de §24 Referencias. Aparece aquí porque la presente primera entrega cubre el cuerpo hasta §9; el apéndice final se reubicará estructuralmente en la versión consolidada al cierre del documento. Ya está redactado con su forma definitiva para que la revisión doctrinal pueda operar sobre él desde ahora.
+### 20.1. Estatuto canónico absoluto de la infraestructura laboratorial
+
+El Sistema Vectorial SV exige absolutamente que toda teoría general factual absoluta declarada canónicamente disponga absolutamente de una **infraestructura laboratorial** explícita: arquitectura declarada absoluta de laboratorios ejecutables absolutos que materialicen absolutamente cada componente operatoria absoluta del aparato formal en código reproducible absoluto. La infraestructura laboratorial absoluta no es ornamento académico heredado: es **cierre canónico absoluto** del aparato, análogo estructural absoluto al criterio absoluto de falsación del §17, y constituye absolutamente la prueba estructural absoluta de que el aparato es íntegramente computable absoluto sobre arquitecturas ternarias factuales del corpus.
+
+La presente sección declara absolutamente la **arquitectura canónica absoluta de veintidós laboratorios** para el régimen luminoso factual absoluto, etiquetados canónicamente L-LUZ-01 a L-LUZ-22, cubriendo absolutamente los siete sectores canónicos del aparato (sustrato preternario, activación y transporte, objeto fibroso y proyecciones, operador maestro **L**<sub>SV</sub>, reducciones canónicas, aparato NM-TPA, bancos visibles). Cada laboratorio absoluto se declara con su nombre canónico, su módulo fundamental, su inventario de operadores, su entrada absoluta, su salida absoluta y el conjunto absoluto de tests estructurales absolutos que garantizan absolutamente su corrección estructural.
+
+La implementación efectiva absoluta de los veintidós laboratorios — archivo `sv_core_luz.py` con todos los operadores canónicos, veintidós scripts `lab_L-LUZ-XX.py` con sus tests, runner `run_labs_luz.py`, catálogo de ataques adversariales negativos `lab_attacks_luz.py`, catálogo canónico de pruebas `catalogo_luz.md` con identificadores LUZ001-LUZxxx — **no forma parte del presente documento `.md`**: es fase canónica específica posterior absoluta que operará absolutamente tras la aprobación canónica del documento textual y su depósito con DOI asignado. El presente §20 **declara absolutamente la arquitectura canónica** de esa fase laboratorial futura con rango canónico absoluto, fijando absolutamente su estructura y contrato operatorio absoluto.
+
+### 20.2. Arquitectura canónica absoluta de los veintidós laboratorios
+
+**L-LUZ-01 — Laboratorio absoluto del vacío factual preternario.** Módulo fundamental absoluto: definición operatoria absoluta del vacío factual absoluto 𝒱<sub>SV</sub> como potencialidad preternaria no activada absoluta (§2). Inventario absoluto: constructor absoluto del dominio preternario Ω<sub>pre</sub> sobre Σ = {0, 1, U}, verificador absoluto de admisibilidad de configuración vacía, lector absoluto de pares polares (α, β) iniciales. Entrada absoluta: datum estructural absoluto de cardinalidad y alfabeto. Salida absoluta: objeto 𝒱<sub>SV</sub> con estructura absoluta certificada. Tests absolutos: verificación absoluta de degenerancia (0, 0) sobre todas las posiciones absolutas, no existencia de activaciones previas absolutas, integridad combinatoria absoluta del alfabeto Σ.
+
+**L-LUZ-02 — Laboratorio absoluto de activación Π<sub>3</sub><sup>H</sup>.** Módulo fundamental absoluto: implementación absoluta de la activación honesta canónica absoluta Π<sub>3</sub><sup>H</sup> del corpus (Lloret Egea, 2026j). Inventario absoluto: operador absoluto Π<sub>3</sub><sup>H</sup> con trazabilidad completa absoluta, verificador absoluto de honestidad coordenada (Lema 7.3), certificador absoluto de no retorno preternario (Lema 5.5). Entrada absoluta: par polar inicial (α<sub>i</sub>, β<sub>i</sub>) y configuración de umbral 𝓛<sub>i</sub>. Salida absoluta: activación efectiva absoluta con registro de cruce k<sub>i</sub><sup>*</sup> o indeterminación U honesta. Tests absolutos: verificación de Lemas 5.5 y 7.3 sobre 10⁶ configuraciones aleatorias admisibles absolutas, reproducibilidad absoluta sobre configuraciones idénticas.
+
+**L-LUZ-03 — Laboratorio absoluto de energía factual y cuanto h<sub>SV</sub>.** Módulo fundamental absoluto: cálculo absoluto de la energía factual absoluta **E**<sub>SV</sub>(Γ, n) sobre trayectorias admisibles (§3) y verificación absoluta de la invariancia canónica absoluta de h<sub>SV</sub>. Inventario absoluto: acumulador absoluto de energía sobre ordinal ν, calculador absoluto de cuanto canónico sobre 10⁶ configuraciones distintas, verificador absoluto de independencia de trayectoria. Entrada absoluta: fibra luminosa factual absoluta admisible. Salida absoluta: energía acumulada absoluta más certificado absoluto de invariancia h<sub>SV</sub>. Tests absolutos: unicidad del cuanto sobre configuraciones disjuntas absolutas, aditividad absoluta sobre composiciones admisibles.
+
+**L-LUZ-04 — Laboratorio absoluto de ruptura de conservación y suceso cero ε<sub>0</sub>.** Módulo fundamental absoluto: verificación absoluta de las tres propiedades del Teorema 3bis.1 sobre ruptura estructural absoluta del principio heredado de conservación. Inventario absoluto: generador absoluto de sucesos de clase G, calculador absoluto de ΔE, verificador absoluto de no factorizabilidad absoluta, clasificador absoluto canónico en A, N, G (Definición 3bis.3). Entrada absoluta: configuración preternaria y suceso candidato absoluto. Salida absoluta: clase canónica absoluta A/N/G con certificado estructural absoluto. Tests absolutos: monotonía estricta absoluta sobre sucesos G, apertura desde vacuidad en ε<sub>0</sub>, no factorizabilidad absoluta verificada sobre 10⁴ casos.
+
+**L-LUZ-05 — Laboratorio absoluto de materia factual y aparato TPA.** Módulo fundamental absoluto: aplicación absoluta del aparato TPA del corpus (2026b) sobre fibras luminosas factuales admisibles. Inventario absoluto: implementación absoluta de las identidades O1, O2, O3, clasificador morfológico absoluto en las doce clases Σ<sub>1</sub>-Σ<sub>12</sub>, calculador absoluto de dictamen final en {m<sub>0</sub>, χ<sub>α</sub>, U}. Entrada absoluta: trayectoria T admisible absoluta. Salida absoluta: dictamen absoluto y clase morfológica. Tests absolutos: satisfacción absoluta de O1-O2-O3 sobre 10⁵ trayectorias aleatorias admisibles, coherencia absoluta de clasificación morfológica con la secuencia de signos M.
+
+**L-LUZ-06 — Laboratorio absoluto de gravedad factual y deformación de umbrales.** Módulo fundamental absoluto: implementación absoluta del factor Φ(G, 𝒢<sub>J</sub>, dist) de la Definición 14.1 y verificación absoluta de los tres benchmarks B-LUZ-01, B-LUZ-02, B-LUZ-03. Inventario absoluto: operador absoluto **U**<sup>gr</sup><sub>SV</sub>, calculador absoluto de desviación angular 4GM/(c²b), verificador absoluto de redshift Pound-Rebka y retardo Shapiro. Entrada absoluta: fibra absoluta y región 𝒞 con M<sub>mat</sub>>0. Salida absoluta: trayectoria canalizada absoluta con umbrales deformados. Tests absolutos: reproducción numérica absoluta de los tres benchmarks dentro de 5% de error, preservación absoluta de P.3.
+
+**L-LUZ-07 — Laboratorio absoluto de los siete campos factuales coexistentes.** Módulo fundamental absoluto: implementación absoluta simultánea de los siete campos factuales coexistentes absolutos del §6 (eléctrico, magnético, gravitatorio, TPA, convergencia ternaria, espectral, topológico). Inventario absoluto: siete evaluadores absolutos, uno por campo, con compatibilidad mutua absoluta verificada. Entrada absoluta: fibra luminosa factual absoluta admisible. Salida absoluta: tupla absoluta de siete lecturas canónicas. Tests absolutos: operatividad simultánea absoluta de los siete campos sobre 10⁵ fibras, coherencia absoluta estructural entre campos.
+
+**L-LUZ-08 — Laboratorio absoluto del objeto fibroso y las quince proyecciones canónicas.** Módulo fundamental absoluto: implementación absoluta de las quince proyecciones canónicas absolutas P1-P15 (§7.3, §7.3bis) y del Teorema 7.1 de unidad proyectiva. Inventario absoluto: quince operadores absolutos de proyección (π<sub>ω</sub>, π<sub>κ</sub>, π<sub>𝒞</sub>, π<sub>𝒯</sub>, π<sub>ℰ</sub>, π<sub>𝒟</sub>, π<sub>NLP</sub>, π<sub>H</sub>, π<sub>gr</sub>, π<sub>coh</sub>, π<sub>pol</sub>, π<sub>ℱ</sub>, π<sub>trs</sub>, π<sub>Γ</sub>, π<sub>corr</sub>), verificador absoluto de compatibilidad mutua, comprobador absoluto del isomorfismo factual absoluto ≃<sub>SV</sub> entre fibras. Entrada absoluta: fibra admisible absoluta. Salida absoluta: tupla absoluta de quince lecturas estructuralmente independientes. Tests absolutos: operatividad simultánea absoluta, no redundancia absoluta, reconstructibilidad absoluta salvo isomorfismo sobre 10⁴ fibras aleatorias.
+
+**L-LUZ-09 — Laboratorio absoluto del algoritmo de búsqueda A1-A5 para proyecciones P<sub>n+1</sub>.** Módulo fundamental absoluto: implementación absoluta del algoritmo absoluto A1-A5 (§7.3bis) para canonización absoluta de proyecciones adicionales con n ≥ 15. Inventario absoluto: identificador absoluto de operador fuente (A1), constructor absoluto de π<sub>n+1</sub> (A2), verificador absoluto de independencia estructural (A3), verificador absoluto de compatibilidad mutua (A4), auditor absoluto de conformidad con P.1-P.6 (A5). Entrada absoluta: operador candidato absoluto ω del corpus. Salida absoluta: canonización absoluta o rechazo absoluto de π<sub>n+1</sub>. Tests absolutos: rechazo correcto absoluto de candidatas redundantes, aceptación correcta absoluta de candidatas legítimas sobre operadores canónicos adicionales del corpus.
+
+**L-LUZ-10 — Laboratorio absoluto del conjunto de 44 operadores del aparato.** Módulo fundamental absoluto: implementación absoluta del conjunto canónico absoluto de los cuarenta y cuatro operadores del §8 (24 heredados del corpus clase A, 12 propios del régimen luminoso clase B, 8 emergentes del cruce clase B-emergente). Inventario absoluto: cuarenta y cuatro operadores absolutos con firma canónica absoluta, dominios y codominios estructuralmente explícitos. Entrada absoluta: fibra absoluta y magnitudes absolutas asociadas. Salida absoluta: magnitudes absolutas estructuralmente derivadas. Tests absolutos: verificación absoluta de firma canónica, no redundancia absoluta del principio absoluto de economía operatoria.
+
+**L-LUZ-11 — Laboratorio absoluto de la ecuación única **L**<sub>SV</sub> = 0.** Módulo fundamental absoluto: implementación absoluta del operador maestro **L**<sub>SV</sub> con sus quince sumandos absolutos **L**<sub>SV</sub><sup>(s)</sup> (§9). Inventario absoluto: evaluador absoluto de cada sumando, verificador absoluto de anulación simultánea absoluta, comprobador absoluto de los trece invariantes absolutos I1-I13 del Teorema 9.1. Entrada absoluta: fibra absoluta y configuración absoluta de umbrales deformados. Salida absoluta: valor absoluto **L**<sub>SV</sub>(Φ<sup>L</sup>) más certificado absoluto de invariantes. Tests absolutos: **L**<sub>SV</sub> = 0 ⟺ I1 ∧ … ∧ I13 sobre 10⁵ fibras aleatorias admisibles.
+
+**L-LUZ-12 — Laboratorio absoluto de propiedades algebraicas de **L**<sub>SV</sub>.** Módulo fundamental absoluto: verificación absoluta de las cuatro propiedades algebraicas absolutas del operador maestro (§10): homogeneidad, aditividad, covariancia bajo las cuatro transformadas 𝒯<sub>gate</sub>/𝒯<sub>shift</sub>/𝒯<sub>par</sub>/𝒯<sub>rec</sub>, estabilidad estructural. Inventario absoluto: cuatro verificadores absolutos, uno por propiedad. Entrada absoluta: fibras absolutas y perturbaciones admisibles. Salida absoluta: certificado absoluto de cumplimiento de cada propiedad. Tests absolutos: homogeneidad sobre 10⁴ reescalados, aditividad sobre 10⁴ composiciones admisibles, covariancia bajo cada transformada, robustez absoluta bajo 10⁴ perturbaciones admisibles.
+
+**L-LUZ-13 — Laboratorio absoluto de reducción a Maxwell factual.** Módulo fundamental absoluto: implementación absoluta del Teorema 11.1 con herencia íntegra absoluta del diccionario de 18 correspondencias del §11.2. Inventario absoluto: evaluador absoluto de la proyección de campo π<sub>𝒞</sub>, verificador absoluto de 𝔼<sub>SV</sub> = 0, aplicador absoluto de la compuerta metrológica ℘<sub>SV</sub> para recuperación absoluta de las cuatro ecuaciones de Maxwell heredadas. Entrada absoluta: fibra absoluta con **L**<sub>SV</sub>(Φ<sup>L</sup>) = 0. Salida absoluta: configuración electromagnética absoluta más ecuaciones de Maxwell clásicas recuperadas. Tests absolutos: reducción exacta absoluta sobre 10⁴ fibras, recuperación absoluta de la ecuación de onda c<sub>SV</sub> = (ε<sub>SV</sub>μ<sub>SV</sub>)<sup>-1/2</sup>.
+
+**L-LUZ-14 — Laboratorio absoluto de emergencia Planck E = h·ν.** Módulo fundamental absoluto: verificación absoluta del Teorema 12.1 con demostración computacional absoluta de que la relación Planck emerge estructuralmente desde **L**<sub>SV</sub><sup>(5)</sup> = 0 sin postulado externo. Inventario absoluto: calculador absoluto de energía transportada, contador absoluto de activaciones, aplicador absoluto de calibración ℘<sub>SV</sub> para recuperación absoluta de E = h·ν heredada. Entrada absoluta: fibra luminosa factual absoluta. Salida absoluta: par (E, ν) más certificado absoluto de emergencia. Tests absolutos: reproducción absoluta de valores CODATA de h sobre fibras calibradas, verificación absoluta de Corolario 12.2 de imposibilidad sub-cuántico.
+
+**L-LUZ-15 — Laboratorio absoluto de disolución proyectiva de la dualidad.** Módulo fundamental absoluto: verificación absoluta del Teorema 13.1 con reinterpretación estructural absoluta del experimento de doble rendija. Inventario absoluto: simulador absoluto de fibra luminosa sobre doble rendija, evaluador absoluto simultáneo de π<sub>ω</sub> y π<sub>κ</sub>, generador absoluto de patrón de interferencia más cuantos discretos. Entrada absoluta: configuración experimental de doble rendija. Salida absoluta: patrón absoluto compatible con dualidad heredada sin invocar complementariedad. Tests absolutos: reproducción absoluta del patrón clásico de Young, reproducción absoluta del conteo discreto de fotones sobre la misma configuración.
+
+**L-LUZ-16 — Laboratorio absoluto de criterio de falsación.** Módulo fundamental absoluto: implementación absoluta de los seis criterios absolutos F.1-F.6 del §17 como operadores absolutos verificadores 𝔙<sub>1</sub>-𝔙<sub>6</sub>. Inventario absoluto: seis auditores absolutos, uno por criterio, con salida lógica absoluta booleana. Entrada absoluta: fibra candidata absoluta y configuración absoluta del marco. Salida absoluta: certificado absoluto de no-falsación o identificación absoluta del criterio violado. Tests absolutos: detección absoluta de violación F.1 sobre fibras construidas con **L**<sub>SV</sub><sup>(s)</sup> ≠ 0; detección absoluta de cuanto alterativo sobre F.2; detección absoluta de transporte sub-cuántico sobre F.3; detección absoluta de incompatibilidad Maxwell sobre F.4; detección absoluta de violación O1/O2/O3 sobre F.5; detección absoluta de violación P.1-P.6 sobre F.6.
+
+**L-LUZ-17 — Laboratorio absoluto del recorrido de consistencia SV(3,9).** Módulo fundamental absoluto: implementación absoluta del recorrido del §18 sobre la célula canónica SV(3, 9). Inventario absoluto: generador absoluto de frames S<sub>k</sub> ∈ Σ<sup>9</sup>, calculador absoluto del observable φ, verificador absoluto dimensional absoluto sobre las 26 magnitudes canónicas, ejecutor absoluto del recorrido ejemplar. Entrada absoluta: célula SV(3, 9). Salida absoluta: tabla absoluta de distribución P(φ=k) más verificación dimensional absoluta completa. Tests absolutos: exhaustividad absoluta sobre 3⁹ frames, consistencia absoluta dimensional sobre las 26 magnitudes, satisfacción absoluta de O1-O2-O3 sobre la fibra ejemplar.
+
+**L-LUZ-18 — Laboratorio absoluto de los diecisiete bancos visibles.** Módulo fundamental absoluto: implementación absoluta de los diecisiete bancos absolutos B-LUZ-01 a B-LUZ-17 del §19 con cálculo numérico absoluto reproducible. Inventario absoluto: diecisiete evaluadores absolutos, uno por banco, con salida absoluta numérica. Entrada absoluta: constantes fundamentales CODATA. Salida absoluta: tabla absoluta de resultados con comparación experimental. Tests absolutos: reproducción absoluta de cada valor del §19.2 dentro de margen declarado; identidad absoluta exacta en los bancos calibratorios.
+
+**L-LUZ-19 — Laboratorio absoluto del transductor NLP 𝓘<sub>NLP</sub>.** Módulo fundamental absoluto: implementación absoluta del transductor lingüístico canónico absoluto del corpus (Lloret Egea, 2026b) aplicado sobre fibras luminosas factuales con paquete observacional declarado. Inventario absoluto: tokenizador absoluto sobre Σ<sup>3</sup><sup>9</sup>, productor absoluto de célula mínima K<sub>3</sub><sup>9</sup>, clasificador absoluto de horizonte. Entrada absoluta: paquete observacional absoluto ω<sub>A</sub> asociado a fibra. Salida absoluta: célula mínima K<sub>3</sub><sup>9</sup> más clasificador absoluto. Tests absolutos: reproducibilidad absoluta sobre paquetes idénticos, consistencia absoluta con la célula SV(3, 9) canónica.
+
+**L-LUZ-20 — Laboratorio absoluto de coherencia, polarización y correlación estructural.** Módulo fundamental absoluto: implementación absoluta de los operadores absolutos B.7 (coherencia), B.6 (polarización), B.16 (correlación estructural) y sus proyecciones asociadas absolutas π<sub>coh</sub>, π<sub>pol</sub>, π<sub>corr</sub>. Inventario absoluto: evaluador absoluto de coherencia estructural absoluta entre hebras, calculador absoluto de residuales polares, comprobador absoluto de correlación estructural sobre pares de fibras compartidas. Entrada absoluta: fibra absoluta o par de fibras. Salida absoluta: magnitudes absolutas de coherencia, polarización, correlación. Tests absolutos: reproducción absoluta de Brewster y Young (B-LUZ-14, B-LUZ-15), verificación absoluta de correlación estructural absoluta no reducible absolutamente a entrelazamiento cuántico heredado.
+
+**L-LUZ-21 — Laboratorio absoluto de transmutación y emergencia de clases χ<sub>α</sub>.** Módulo fundamental absoluto: implementación absoluta del operador B.17 de transmutación luminosa absoluta y del clasificador absoluto Γ<sub>ℋ</sub> del corpus (2026c). Inventario absoluto: detector absoluto de clases emergentes χ<sub>α</sub>, aplicador absoluto de transmutación absoluta sobre fibras candidatas absolutas. Entrada absoluta: fibra absoluta con dictamen U honesto. Salida absoluta: clase emergente absoluta identificada o certificado absoluto de indeterminación legítima honesta. Tests absolutos: correcta identificación absoluta de clases emergentes sobre sucesos de clase G, preservación absoluta de U legítima honesta sobre sucesos indeterminados.
+
+**L-LUZ-22 — Laboratorio absoluto del operador maestro unificado **U**<sup>unif</sup><sub>SV</sub> sobre siete sectores.** Módulo fundamental absoluto: **antesala canónica absoluta** del régimen unificado absoluto del campo (§22). Implementación absoluta de la pieza operatoria absoluta que articula los siete sectores canónicos (eléctrico, magnético, gravitatorio, TPA, convergencia ternaria, espectral, topológico) sobre el operador maestro candidato absoluto **U**<sup>unif</sup><sub>SV</sub>. Inventario absoluto: compositor absoluto de los siete campos, evaluador absoluto de la ecuación candidata **U**<sup>unif</sup><sub>SV</sub> = 0, verificador absoluto de compatibilidad absoluta con **L**<sub>SV</sub> = 0 en régimen luminoso. Entrada absoluta: configuración absoluta de los siete sectores. Salida absoluta: valor absoluto **U**<sup>unif</sup><sub>SV</sub> más certificado absoluto de reducción al régimen luminoso bajo condición luminosa. Tests absolutos: reducción absoluta correcta sobre fibras luminosas admisibles; coherencia absoluta con el bloque Maxwell factual y con el programa de la Teoría general de sucesos generadores y de los protocampos unificados.
+
+### 20.3. Matriz canónica absoluta de cobertura de laboratorios
+
+La matriz canónica absoluta de cobertura establece absolutamente qué sector del aparato cubre cada laboratorio:
+
+| Sector del aparato | Laboratorios que lo cubren absolutamente |
+|---|---|
+| Sustrato preternario y vacío | L-LUZ-01 |
+| Activación Π<sub>3</sub><sup>H</sup> y honestidad | L-LUZ-02 |
+| Energía factual y cuanto h<sub>SV</sub> | L-LUZ-03, L-LUZ-14 |
+| Ruptura conservación y ε<sub>0</sub> | L-LUZ-04 |
+| Materia factual y aparato TPA | L-LUZ-05, L-LUZ-21 |
+| Gravedad factual y umbrales | L-LUZ-06 |
+| Siete campos coexistentes | L-LUZ-07 |
+| Objeto fibroso y 15 proyecciones | L-LUZ-08, L-LUZ-09, L-LUZ-19, L-LUZ-20 |
+| 44 operadores del aparato | L-LUZ-10 |
+| Ecuación única **L**<sub>SV</sub> = 0 | L-LUZ-11, L-LUZ-12 |
+| Reducción Maxwell factual | L-LUZ-13 |
+| Disolución dualidad | L-LUZ-15 |
+| Falsación | L-LUZ-16 |
+| Consistencia SV(3,9) | L-LUZ-17 |
+| Bancos visibles | L-LUZ-18 |
+| Antesala régimen unificado | L-LUZ-22 |
+
+**Proposición 20.1 (Cobertura absoluta estructural completa).** La arquitectura canónica absoluta de veintidós laboratorios L-LUZ-01 a L-LUZ-22 cubre absolutamente **todos los sectores canónicos absolutos** del aparato luminoso factual declarado en el presente documento, sin omisión estructural absoluta y sin redundancia absoluta entre laboratorios.
+
+*Demostración.* Se verifica absolutamente por la matriz de cobertura absoluta del §20.3 que cada sector canónico absoluto tiene al menos un laboratorio asignado absolutamente; y se verifica absolutamente por la declaración de módulo fundamental absoluto de cada laboratorio que ninguno duplica absolutamente la función operatoria absoluta de otro (principio de economía operatoria, §8.1). La Proposición 7.1 garantiza absolutamente la no redundancia absoluta de las proyecciones canónicas entre laboratorios L-LUZ-08, L-LUZ-19, L-LUZ-20; los Teoremas 9.1 y 10.5 garantizan absolutamente la no redundancia absoluta entre L-LUZ-11 y L-LUZ-12. Q.E.D.
+
+### 20.4. Contrato operatorio absoluto de la implementación futura
+
+Cuando se proceda absolutamente a la fase laboratorial efectiva posterior al presente documento, la implementación absoluta seguirá el contrato canónico absoluto de cinco piezas:
+
+(i) **`sv_core_luz.py`**: módulo central absoluto con los 44 operadores canónicos absolutos implementados absolutamente sobre aritmética ternaria del corpus (sin probabilidad fundante, sin tiempo soberano, sin geometría soberana);
+
+(ii) **`lab_L-LUZ-XX.py`**: veintidós scripts ejecutables absolutos, uno por laboratorio, con tests estructurales absolutos declarados en el §20.2;
+
+(iii) **`run_labs_luz.py`**: runner canónico absoluto que ejecuta absolutamente los veintidós laboratorios en orden canónico y emite absolutamente un informe estructural absoluto consolidado de resultados;
+
+(iv) **`lab_attacks_luz.py`**: catálogo absoluto de ataques adversariales negativos (≥ 15) construidos absolutamente para violar intencionalmente cada uno de los seis criterios absolutos de falsación del §17 y verificar absolutamente que el aparato los detecta correctamente absolutamente;
+
+(v) **`catalogo_luz.md`**: catálogo canónico absoluto de todas las pruebas absolutas con identificadores canónicos LUZ001-LUZxxx, trazabilidad absoluta a teoremas, corolarios y proposiciones del documento.
+
+**Observación 20.1 (Rango canónico absoluto de la fase laboratorial).** La fase laboratorial absoluta constituirá absolutamente el cierre canónico absoluto del régimen luminoso factual, análogamente al patrón canónico absoluto del bloque Maxwell factual (Lloret Egea, 2026k, §23 con su arquitectura laboratorial absoluta y catálogo MXW001-MXW203). No se trata absolutamente de validación empírica heredada clásica: es demostración estructural absoluta absoluta de computabilidad canónica absoluta del aparato completo sobre arquitecturas ternarias del corpus.
+
+---
+
+
+---
+
+## 21. Tablas canónicas finales
+
+### 21.1. Tabla canónica absoluta de los veintidós teoremas del documento
+
+| # | Teorema | Sección | Contenido absoluto |
+|---|---|---|---|
+| 1 | Teorema 3.1 | §3.6 | Unicidad estructural absoluta del cuanto h<sub>SV</sub> |
+| 2 | Teorema 3.2 | §3.6 | Homogeneidad absoluta de la energía factual |
+| 3 | Teorema 3.3 | §3.6 | Emergencia absoluta de la relación Planck E = h·ν |
+| 4 | Teorema 3bis.1 | §3bis.3 | Ruptura factual absoluta del principio heredado de conservación |
+| 5 | Teorema 3bis.2 | §3bis.4 | Caracterización absoluta canónica de sucesos de clase G |
+| 6 | Teorema 4.1 | §4.3 | Materia factual absoluta como dictamen m<sub>0</sub> del aparato TPA |
+| 7 | Teorema 5.1 | §5.3 | Curvatura factual absoluta si y sólo si masa factual acumulada |
+| 8 | Teorema 6.1 | §6.4 | Coexistencia absoluta simultánea de los siete campos factuales |
+| 9 | Teorema 7.1 | §7.4 | Unidad proyectiva absoluta del objeto fibroso con quince proyecciones |
+| 10 | Teorema 9.1 | §9.6 | Clausura canónica absoluta con trece invariantes I1-I13 |
+| 11 | Teorema 10.1 | §10.2 | Homogeneidad factual absoluta de **L**<sub>SV</sub> |
+| 12 | Teorema 10.2 | §10.3 | Aditividad absoluta de **L**<sub>SV</sub> bajo disjunción |
+| 13 | Teorema 10.3 | §10.4 | Covariancia factual absoluta bajo cuatro transformadas canónicas |
+| 14 | Teorema 10.4 | §10.5 | Estabilidad estructural absoluta bajo perturbaciones admisibles |
+| 15 | Teorema 10.5 | §10.6 | Unicidad representacional absoluta en OpFact<sub>SV,L</sub> |
+| 16 | Teorema 11.1 | §11.3 | Reducción absoluta a Maxwell factual con diccionario íntegro |
+| 17 | Teorema 12.1 | §12.2 | Emergencia absoluta factual de Planck desde **L**<sub>SV</sub> = 0 |
+| 18 | Teorema 13.1 | §13.2 | Disolución proyectiva absoluta de la dualidad onda-corpúsculo |
+| 19 | Teorema 14.1 | §14.3 | Curvatura gravitacional factual absoluta con factor Φ explícito |
+| 20 | Teorema 15.1 | §15.1 | Reducción absoluta al régimen TPA con identidades O1, O2, O3 |
+| 21 | Teorema 16.1 | §16.1 | Unicidad global absoluta del régimen luminoso factual |
+| 22 | Teorema 7.1 extendido | §7.4 | Reconstructibilidad absoluta salvo isomorfismo factual absoluto |
+
+### 21.2. Tabla canónica absoluta de los corolarios
+
+| # | Corolario | Sección | Contenido absoluto |
+|---|---|---|---|
+| 1 | Corolario 3bis.1 | §3bis.3 | ε<sub>0</sub> como caso límite absoluto de suceso generador |
+| 2 | Corolario 5.1 | §5.3 | Reducción absoluta de la curvatura factual a relatividad general |
+| 3 | Corolario 6.1 | §6.4 | Acoplamiento absoluto estructural de los siete campos |
+| 4 | Corolario 7.1 | §7.5 | Disolución estructural absoluta de la dualidad onda-corpúsculo |
+| 5 | Corolario 9.1 | §9.6 | Ecuación única factual como condición necesaria y suficiente |
+| 6 | Corolario 10.1 | §10.5 | Robustez estructural absoluta del régimen luminoso |
+| 7 | Corolario 11.1 | §11.4 | Ecuación de onda electromagnética absoluta recuperada |
+| 8 | Corolario 11.2 | §11.4 | Velocidad factual absoluta c<sub>SV</sub> como identidad derivada |
+| 9 | Corolario 11.3 | §11.4 | Cierre electromagnético como compuerta necesaria no suficiente |
+| 10 | Corolario 12.1 | §12.3 | Cuantización factual absoluta obligatoria |
+| 11 | Corolario 12.2 | §12.3 | Imposibilidad absoluta de transporte luminoso sub-cuántico |
+| 12 | Corolario 13.1 | §13.3 | Reinterpretación absoluta del experimento de doble rendija |
+| 13 | Corolario 14.1 | §14.4 | Compatibilidad empírica absoluta con benchmarks gravitacionales |
+| 14 | Corolario 15.1 | §15.2 | Fibra luminosa absoluta como trayectoria admisible NM-TPA |
+| 15 | Corolario 15.2 | §15.2 | Clasificación morfológica absoluta en doce clases Σ<sub>1</sub>-Σ<sub>12</sub> |
+
+### 21.3. Tabla canónica absoluta de las proposiciones
+
+| # | Proposición | Sección | Contenido absoluto |
+|---|---|---|---|
+| 1 | Proposición 3.1 | §3.6 | Recuperación absoluta de la energía basal E<sub>0</sub> = m<sub>0</sub>·c<sub>SV</sub>² |
+| 2 | Proposición 3.2 | §3.6 | Aditividad absoluta de energía sobre trayectorias disjuntas |
+| 3 | Proposición 5.1 | §5.3 | Deformación absoluta de umbrales como operador canónico |
+| 4 | Proposición 6.1 | §6.4 | Simultaneidad absoluta de los siete campos sobre fibra admisible |
+| 5 | Proposición 7.1 | §7.3bis | Operatividad simultánea absoluta de las quince proyecciones |
+| 6 | Proposición 9.1 | §9.6 | Correspondencia uno a uno entre sumandos e invariantes |
+| 7 | Proposición 17.1 | §17.3 | Independencia absoluta de los seis criterios de falsación |
+| 8 | Proposición 19.1 | §19.4 | Compatibilidad empírica absoluta global del régimen luminoso |
+| 9 | Proposición 20.1 | §20.3 | Cobertura absoluta estructural completa de los 22 laboratorios |
+
+### 21.4. Tabla canónica absoluta del objeto fibroso y sus quince proyecciones
+
+| # | Proyección | Símbolo | Objeto extraído | Operador fuente |
+|---|---|---|---|---|
+| P1 | Ondulatoria | π<sub>ω</sub> | Perfil polar continuo sobre [0, k<sub>i</sub><sup>*</sup>) | Hebra directa, §7.3 |
+| P2 | Corpuscular | π<sub>κ</sub> | Activaciones discretas Π<sub>3</sub><sup>H</sup> | Hebra directa, A.1 |
+| P3 | De campo | π<sub>𝒞</sub> | Configuración Maxwell factual | Campos 1-2, A.3 |
+| P4 | Topológica | π<sub>𝒯</sub> | Residuos Res<sub>k</sub> y holonomía h<sub>Γ</sub> | Campo 7, A.6 |
+| P5 | Espectral | π<sub>ℰ</sub> | Función generatriz G(λ) | Campo 6, A.12 |
+| P6 | De dictamen | π<sub>𝒟</sub> | Dictamen en {m<sub>0</sub>, χ<sub>α</sub>, U} | A.5 TPA |
+| P7 | NLP | π<sub>NLP</sub> | Célula mínima en K<sub>3</sub><sup>9</sup> | A.23 transductor |
+| P8 | Entrópica | π<sub>H</sub> | Entropía factual H<sub>SV</sub>(Γ, n) | B.11, 2026l |
+| P9 | Gravitacional | π<sub>gr</sub> | Par (G(ν), 𝒢<sub>J</sub>(ν)) | Campo 3, A.24 |
+| P10 | De coherencia | π<sub>coh</sub> | Coherencia estructural interna | B.7 |
+| P11 | De polarización | π<sub>pol</sub> | Residuales polares {δ<sub>i</sub><sup>res</sup>} | B.6 |
+| P12 | De Fourier factual | π<sub>ℱ</sub> | Coeficientes modales SV(3,9) | B.19, 2026d |
+| P13 | De transmutación | π<sub>trs</sub> | Potencial de clases χ<sub>α</sub> | B.17, 2026h |
+| P14 | De criticidad | π<sub>Γ</sub> | Perfil Γ(ξ<sub>i</sub>) | A.21 |
+| P15 | De correlación estructural | π<sub>corr</sub> | Correlación 𝔈<sup>corr</sup><sub>SV</sub> | B.16 |
+
+### 21.5. Tabla canónica absoluta de los siete campos factuales coexistentes
+
+| # | Campo | Magnitud primaria | Operador canónico |
+|---|---|---|---|
+| 1 | Eléctrico factual | 𝕏<sub>SV</sub> = (D, B, E, H)<sup>T</sup> | 𝔼<sub>SV</sub> del bloque Maxwell |
+| 2 | Magnético factual | Componente 𝕐<sub>SV</sub> con ρ=0 | 𝔼<sub>SV</sub> del bloque Maxwell |
+| 3 | Gravitatorio factual | Par (G(ν), 𝒢<sub>J</sub>(ν)) | Proposición 9 del corpus (2026a) |
+| 4 | TPA | Trayectoria T con (φ, m<sub>k</sub>) | Aparato TPA (2026b) |
+| 5 | Convergencia ternaria | Clasificador Γ<sub>ℋ</sub> | Lloret Egea (2026c) |
+| 6 | Espectral | Función generatriz G(λ) | Plano IV del corpus (2026a) |
+| 7 | Topológico | Mosaico M y residuos Res<sub>k</sub> | Plano V del corpus (2026a) |
+
+### 21.6. Tabla canónica absoluta de los quince sumandos de la ecuación única
+
+| # | Sumando | Magnitud | Invariante |
+|---|---|---|---|
+| 1 | **L**<sub>SV</sub><sup>(1)</sup> | Generación preternaria | I1 (admisibilidad de Γ y ξ) |
+| 2 | **L**<sub>SV</sub><sup>(2)</sup> | Transducción honesta | I2 (honestidad coordenada, Lema 7.3) |
+| 3 | **L**<sub>SV</sub><sup>(3)</sup> | Modalidad proyectiva (15+) | I4 (operatividad proyectiva) |
+| 4 | **L**<sub>SV</sub><sup>(4)</sup> | Recorrido fibroso sobre mosaico | I3 (append-only) |
+| 5 | **L**<sub>SV</sub><sup>(5)</sup> | Cuantización factual absoluta | I7 (E = h·ν) |
+| 6 | **L**<sub>SV</sub><sup>(6)</sup> | Residualidad polar | I5 (perfil polar consistente) |
+| 7 | **L**<sub>SV</sub><sup>(7)</sup> | Coherencia estructural interna | I8 (coherencia hebras) |
+| 8 | **L**<sub>SV</sub><sup>(8)</sup> | Compatibilidad basal-fibrosa | I9 (compatibilidad basal) |
+| 9 | **L**<sub>SV</sub><sup>(9)</sup> | Deformación gravitacional umbrales | I11 (curvatura factual) |
+| 10 | **L**<sub>SV</sub><sup>(10)</sup> | Recorrido estructural sucesos | I13 (clasificador Γ<sub>ℋ</sub>) |
+| 11 | **L**<sub>SV</sub><sup>(11)</sup> | Coherencia entrópica | I10 (entropía coherente) |
+| 12 | **L**<sub>SV</sub><sup>(12)</sup> | Cierre electromagnético absoluto | I6 (𝔼<sub>SV</sub> = 0) |
+| 13 | **L**<sub>SV</sub><sup>(13)</sup> | Identidad O1 sobre celdas | I12 (identidades TPA, parte O1) |
+| 14 | **L**<sub>SV</sub><sup>(14)</sup> | Identidad O2 Gauss-SV | I12 (identidades TPA, parte O2) |
+| 15 | **L**<sub>SV</sub><sup>(15)</sup> | Continuidad interfacial de frontera | I12 (identidades TPA, parte O3 heredada) |
+
+### 21.7. Tabla canónica absoluta de los diecisiete bancos visibles
+
+| Banco | Sector | Valor calculado absoluto | Valor heredado canónico | Compatibilidad |
+|---|---|---|---|---|
+| B-LUZ-01 | Desviación solar | 1,75″ | 1,75″ VLBI | ✓ |
+| B-LUZ-02 | Pound-Rebka | 2,46·10⁻¹⁵ | 2,56·10⁻¹⁵ | ✓ (4%) |
+| B-LUZ-03 | Shapiro | 250 μs | 250 μs Cassini | ✓ |
+| B-LUZ-04 | h<sub>SV</sub> | 6,626·10⁻³⁴ J·s | h CODATA | ✓ (exacto) |
+| B-LUZ-05 | c<sub>SV</sub> | 2,998·10⁸ m/s | c CODATA | ✓ (exacto) |
+| B-LUZ-06 | Fotón 550 nm | 2,25 eV | 2,25 eV | ✓ |
+| B-LUZ-07 | Espectro visible | 1,65–3,26 eV | 1,65–3,26 eV | ✓ |
+| B-LUZ-08 | Wien 6000 K | λ<sub>max</sub>=483 nm | 483 nm | ✓ |
+| B-LUZ-09 | Φ<sub>Na</sub> fotoeléctrico | 2,30 eV | 2,28 eV NIST | ✓ (<1%) |
+| B-LUZ-10 | λ<sub>C</sub> Compton | 2,426·10⁻¹² m | CODATA | ✓ (exacto) |
+| B-LUZ-11 | Hubble 100 Mpc | z=0,023 | z≈0,023 | ✓ |
+| B-LUZ-12 | He-Ne láser | 1,96 eV | 1,96 eV | ✓ |
+| B-LUZ-13 | Sincrotrón 1 GeV | ω<sub>c</sub>=3,37·10¹⁷ | compatible | ✓ |
+| B-LUZ-14 | Brewster vidrio | 56,31° | 56,3° | ✓ |
+| B-LUZ-15 | Young doble rendija | Δy=2,53 mm | compatible | ✓ |
+| B-LUZ-16 | Coherencia láser | 180 000 km | 10⁵-10⁶ km | ✓ |
+| B-LUZ-17 | Rayleigh violeta/rojo | factor 15,16 | color azul cielo | ✓ |
+
+### 21.8. Tabla canónica absoluta de los veintidós laboratorios
+
+| # | Laboratorio | Sector cubierto |
+|---|---|---|
+| L-LUZ-01 | Vacío factual preternario | Sustrato y vacío |
+| L-LUZ-02 | Activación Π<sub>3</sub><sup>H</sup> | Transducción honesta |
+| L-LUZ-03 | Energía factual y h<sub>SV</sub> | Energía y cuanto |
+| L-LUZ-04 | Ruptura conservación y ε<sub>0</sub> | Sucesos de clase G |
+| L-LUZ-05 | Materia factual y aparato TPA | Aparato TPA |
+| L-LUZ-06 | Gravedad factual y umbrales | Gravedad factual |
+| L-LUZ-07 | Siete campos coexistentes | Campos simultáneos |
+| L-LUZ-08 | Objeto fibroso y 15 proyecciones | Fibra y proyecciones |
+| L-LUZ-09 | Algoritmo A1-A5 | Canonización de P<sub>n+1</sub> |
+| L-LUZ-10 | 44 operadores del aparato | Operadores canónicos |
+| L-LUZ-11 | Ecuación única **L**<sub>SV</sub> = 0 | Operador maestro |
+| L-LUZ-12 | Propiedades algebraicas | Algebra de **L**<sub>SV</sub> |
+| L-LUZ-13 | Reducción Maxwell factual | Reducción electromagnética |
+| L-LUZ-14 | Emergencia Planck | Emergencia E=hν |
+| L-LUZ-15 | Disolución dualidad | Reinterpretación Young |
+| L-LUZ-16 | Criterio de falsación | Seis criterios F.1-F.6 |
+| L-LUZ-17 | Consistencia SV(3,9) | Recorrido dimensional |
+| L-LUZ-18 | Diecisiete bancos visibles | Compatibilidad empírica |
+| L-LUZ-19 | Transductor 𝓘<sub>NLP</sub> | Proyección NLP |
+| L-LUZ-20 | Coherencia-polarización-correlación | Operadores B.6, B.7, B.16 |
+| L-LUZ-21 | Transmutación y clases χ<sub>α</sub> | Operador B.17 |
+| L-LUZ-22 | Antesala unificado **U**<sup>unif</sup><sub>SV</sub> | Siete sectores articulados |
+
+---
+
+
+---
+
+## 22. Conclusiones y antesala del régimen unificado absoluto del campo
+
+### 22.1. Conclusiones canónicas absolutas del régimen luminoso factual
+
+El presente documento ha establecido absolutamente la **teoría general factual absoluta de la luz** dentro del Sistema Vectorial SV, con las siguientes conclusiones canónicas absolutas:
+
+**Primera.** La luz factual absoluta es un **objeto fibroso primario absoluto** Φ<sup>L</sup><sub>SV</sub>, no una oscilación ondulatoria ni un corpúsculo material. Su estructura absoluta descansa absolutamente sobre hebras de activación admisibles sobre el sustrato preternario Ω<sub>pre</sub> del corpus.
+
+**Segunda.** La luz factual absoluta admite absolutamente **quince proyecciones canónicas** (P1-P15) operativas simultáneamente sobre toda fibra admisible, y familia absolutamente abierta por encima de P15 gobernada por el algoritmo canónico absoluto de búsqueda A1-A5.
+
+**Tercera.** La energía factual absoluta transportada por la luz factual se cuantifica estructuralmente absoluta en unidades del cuanto factual h<sub>SV</sub>, **único absoluto** por Teorema 3.1 y **derivado absolutamente** (no postulado) de la unicidad canónica absoluta de Π<sub>3</sub><sup>H</sup>.
+
+**Cuarta.** La relación absoluta E = h·ν de Planck **emerge absolutamente como teorema** (Teorema 12.1), no como postulado heredado. Bajo compuerta metrológica absoluta ℘<sub>SV</sub> recupera absolutamente la forma heredada clásica con h CODATA.
+
+**Quinta.** La dualidad onda-corpúsculo heredada **queda absolutamente disuelta** (Teorema 13.1) como artefacto histórico absoluto: onda y corpúsculo son absolutamente dos proyecciones P1 y P2 entre las quince canónicas absolutas, sin rango absoluto ontológico privilegiado.
+
+**Sexta.** La curvatura gravitacional factual absoluta de la luz se construye absolutamente como deformación absoluta del umbral 𝓛<sub>i</sub> mediante factor Φ = 1 − 2G·𝒢<sub>J</sub>/dist (Definición 14.1), reproduciendo absolutamente los tres benchmarks heredados canónicos (desviación solar 1,75″, Pound-Rebka, Shapiro) **sin invocar absolutamente espacio-tiempo soberano**.
+
+**Séptima.** La ecuación única factual absoluta **L**<sub>SV</sub>(Φ<sup>L</sup>; {𝓛<sub>i</sub><sup>(gr)</sup>}) = 0 condensa absolutamente el régimen luminoso completo sobre quince sumandos y trece invariantes (Teorema 9.1). Sus propiedades algebraicas absolutas (homogeneidad, aditividad, covariancia, estabilidad) y su unicidad representacional absoluta (Teorema 10.5) la sitúan absolutamente en la categoría canónica absoluta OpFact<sub>SV,L</sub> como objeto canónico absoluto único.
+
+**Octava.** La reducción absoluta al bloque Maxwell factual (Teorema 11.1) hereda íntegro absolutamente el diccionario absoluto de 18 correspondencias canónicas de 2026k. El régimen luminoso factual absoluto es **más rico estructuralmente** que el bloque electromagnético: Maxwell factual absoluto es **compuerta necesaria absoluta** del régimen luminoso, no condición suficiente.
+
+**Novena.** El aparato canónico absoluto TPA del corpus (2026b) se articula absolutamente sobre fibras luminosas factuales (Teorema 15.1) satisfaciendo absolutamente las identidades canónicas absolutas O1, O2, O3. Toda fibra luminosa factual admisible admite absolutamente clasificación morfológica absoluta en las doce clases Σ<sub>1</sub>-Σ<sub>12</sub>.
+
+**Décima.** El régimen luminoso factual absoluto es **único globalmente absoluto** (Teorema 16.1) en los cuatro sentidos estructurales absolutos: representacional, estructural, canónico y proyectivo salvo isomorfismo.
+
+**Undécima.** La teoría declarada es **falsable estructuralmente absoluta** mediante seis criterios absolutos independientes F.1-F.6 (§17), fijando así absolutamente la disciplina canónica absoluta del corpus SV.
+
+**Duodécima.** La teoría es **dimensionalmente consistente** sobre la célula canónica absoluta SV(3, 9) (§18), con las 26 magnitudes canónicas verificadas absolutamente contra el pilar metrológico (UE_MFC, UFE, UFM, UFC).
+
+**Decimotercera.** La teoría es **empíricamente compatible absoluta** con los diecisiete bancos visibles B-LUZ-01 a B-LUZ-17 (§19), con desviación absoluta máxima ≤ 4%.
+
+**Decimocuarta.** La teoría dispone absolutamente de **arquitectura canónica absoluta** de veintidós laboratorios ejecutables (§20), cubriendo absolutamente sin redundancia los sectores canónicos absolutos del aparato.
+
+### 22.2. Antesala canónica absoluta del régimen unificado absoluto del campo
+
+El presente documento abre canónicamente absoluto la **antesala absoluta del régimen unificado absoluto del campo** del Sistema Vectorial SV. El régimen unificado absoluto — gobernado absolutamente por la ecuación candidata absoluta **U**<sup>unif</sup><sub>SV</sub>(Φ<sup>1</sup>, …, Φ<sup>7</sup>; {𝒮<sub>k</sub>}) = 0 sobre los siete sectores absolutos canónicos coexistentes (eléctrico, magnético, gravitatorio, TPA, convergencia ternaria, espectral, topológico) — es programa canónico absoluto de rango superior absoluto al presente documento, cuya construcción rigurosa queda canónicamente declarada como **cuestión abierta canónica absoluta del corpus** pendiente de publicación específica futura.
+
+Las piezas operatorias absolutas sobre las que descansa absolutamente la antesala del régimen unificado ya están declaradas en el presente documento:
+
+- **Los siete campos factuales coexistentes absolutos** del §6, articulados absolutamente por la Proposición 6.1 de simultaneidad.
+- **El operador maestro unificado absoluto sobre fibra luminosa** **M**<sup>L</sup><sub>SV</sub> del §8 (B.3), que compuerta absolutamente los siete campos sobre la fibra luminosa.
+- **La compatibilidad absoluta entre **L**<sub>SV</sub> = 0 (luz) y 𝔼<sub>SV</sub> = 0 (bloque Maxwell)** establecida absolutamente por el Teorema 11.1 de reducción.
+- **El laboratorio L-LUZ-22** declarado en el §20, con su contrato operatorio absoluto para implementación futura de **U**<sup>unif</sup><sub>SV</sub>.
+- **El programa canónico absoluto de la Teoría general de sucesos generadores y de los protocampos unificados**, declarado con rango canónico absoluto en los Destacados del §3bis y §7.3bis, que proporciona absolutamente el suelo operatorio canónico absoluto sobre el que la unificación absoluta de los siete sectores habrá de construirse rigurosamente en publicación canónica específica futura.
+
+**Proposición 22.1 (Antesala absoluta del régimen unificado absoluto).** El régimen luminoso factual absoluto declarado canónicamente en el presente documento constituye absolutamente **compuerta canónica absoluta del régimen unificado absoluto del campo** sobre los siete sectores coexistentes del corpus. La ecuación candidata **U**<sup>unif</sup><sub>SV</sub> = 0 del régimen unificado reducirá absolutamente al régimen luminoso **L**<sub>SV</sub> = 0 sobre fibras luminosas admisibles, y al régimen electromagnético 𝔼<sub>SV</sub> = 0 sobre configuraciones electromagnéticas admisibles.
+
+*Demostración.* Esquemática absoluta. Por Teorema 11.1, toda fibra luminosa absoluta con **L**<sub>SV</sub>(Φ<sup>L</sup>) = 0 satisface absolutamente 𝔼<sub>SV</sub>(π<sub>𝒞</sub>(Φ<sup>L</sup>)) = 0 sobre su proyección de campo. Por Teorema 7.1, la fibra queda absolutamente determinada salvo isomorfismo por sus quince proyecciones canónicas, que incluyen absolutamente π<sub>𝒞</sub> (campo) y π<sub>gr</sub> (gravitacional). Al componer absolutamente sobre los siete campos coexistentes factuales (Teorema 6.1), la ecuación **U**<sup>unif</sup><sub>SV</sub> = 0 del régimen unificado, una vez construida rigurosamente en publicación canónica futura, admitirá absolutamente reducción canónica al régimen luminoso y al régimen electromagnético por la misma mecánica estructural absoluta que **L**<sub>SV</sub> admite absolutamente reducción a 𝔼<sub>SV</sub>. Q.E.D.
+
+### 22.3. Compromiso canónico absoluto con la disciplina del corpus
+
+El presente documento cumple absolutamente con los cinco compromisos canónicos absolutos de la disciplina del corpus Sistema Vectorial SV:
+
+(i) **Autocontención absoluta**: todas las definiciones canónicas de los operadores heredados del corpus se replican absolutamente en el texto, con cita a la fuente canónica.
+
+(ii) **Respeto absoluto de las seis prohibiciones P.1-P.6**: las prohibiciones constitutivas absolutas del aparato se invocan absolutamente de modo explícito, se respetan absolutamente sin excepción, y el §17 criterio de falsación las protege absolutamente contra violación estructural absoluta.
+
+(iii) **Rigor absoluto Maxwell factual**: cada teorema canónico absoluto se demuestra absolutamente a grano canónico absoluto con pasos explícitos absolutos numerados y cierre Q.E.D.
+
+(iv) **Compatibilidad empírica absoluta**: los diecisiete bancos visibles B-LUZ-01 a B-LUZ-17 del §19 reproducen absolutamente los benchmarks heredados canónicos con desviación máxima absoluta ≤ 4%.
+
+(v) **Computabilidad canónica absoluta**: la arquitectura absoluta de veintidós laboratorios del §20 declara absolutamente que el aparato es íntegramente computable canónico absoluto sobre arquitecturas ternarias del corpus.
+
+**Observación 22.1 (Rango canónico absoluto del presente documento).** El presente documento constituye canónicamente absoluto la **cuarta publicación canónica absoluta de rango operatorio completo** del corpus SV sobre sectores físicos, tras (2026k) Maxwell factual absoluto, (2026l) termodinámica factual absoluta y (2026j) origen preternario absoluto. Se incorpora canónicamente absolutamente al corpus con rango canónico absoluto pleno, y abre absolutamente la antesala canónica absoluta de la publicación canónica absoluta futura sobre el régimen unificado absoluto del campo sobre los siete sectores canónicos coexistentes.
+
+---
+
+
+---
+
+## 23. Explicación de la naturaleza factual de la luz para un niño de diez años
+
+Hola. Te voy a contar lo que es la luz, y te lo voy a contar sin decirte ninguna mentira, aunque para entenderlo bien del todo necesites crecer un poco más.
+
+Mira. Casi todos los libros de ciencia que hay en la biblioteca te van a decir que la luz es una onda. Como las olas del mar, pero de otra cosa. Y otros libros te van a decir que la luz está hecha de pedacitos pequeños que se llaman fotones, como si fueran granos de arena muy muy pequeños que viajan por el aire. Y luego los libros más modernos te dicen que es las dos cosas a la vez y que eso es raro, que los físicos llevan cien años discutiéndolo y que nadie lo entiende del todo.
+
+Pues bueno. Yo no te voy a decir eso. Yo te voy a decir la verdad. La luz no es una onda. La luz tampoco es un montón de granos de arena. La luz es una tercera cosa. Una cosa para la que todavía no tenemos un nombre bonito en el lenguaje normal, así que la vamos a llamar **fibra**, porque se parece un poco a las fibras de un ovillo de lana.
+
+Imagínate un ovillo de lana muy pequeñito. Tan pequeñito que no lo puedes ver. Ese ovillo tiene muchas fibras, muchas hebras, y cada hebra es como una cuerdecita con dos extremos. En un extremo la cuerdecita está dormida. En el otro extremo la cuerdecita se despierta de golpe, hace «¡pop!» y suelta un poquito de energía. Ese poquito de energía que suelta al despertarse es siempre el mismo, siempre. Se llama **cuanto**. Es como si la luz sólo supiera dar propinas de la misma cantidad exacta, nunca de más ni de menos.
+
+Ahora viene lo divertido. Cuando la luz pasa por delante de tus ojos o por delante de un aparato de medir, tú puedes mirarla de quince maneras distintas. **Quince maneras**. Te lo digo así, con el número, para que no se te olvide. Cada manera de mirarla te enseña un aspecto distinto. Si la miras de la primera manera, parece una onda, con crestas y valles como las olas del mar. Si la miras de la segunda manera, parece un montón de pedacitos que llegan uno por uno, «pop, pop, pop». Si la miras de la tercera manera, ves campos eléctricos y magnéticos. Si la miras de la cuarta manera, ves un caminito que hace por el espacio. Y así hasta quince.
+
+Las quince miradas son todas verdad. Ninguna está mintiendo. Lo que pasa es que **la luz no es ninguna de ellas por separado**. La luz es la fibra completa, que tiene estas quince sombras distintas. Los físicos antiguos sólo sabían mirarla de dos maneras — como onda y como pedacito — y se pasaron cien años diciendo que era raro que fuera las dos cosas a la vez. No era raro. Lo que era raro era que sólo supieran mirarla de dos maneras cuando en realidad hay quince.
+
+¿Y por qué se desvía la luz cerca del Sol? Muy fácil. El Sol tiene mucha masa, muchísima, y esa masa hace que unos umbrales especiales que tiene la luz — como unos escalones por donde se despierta — se doblen un poquito. Como cuando pones una bola de plomo encima de una cama y la cama se hunde. Los escalones doblados hacen que el caminito de la fibra se curve un poquito, y por eso parece que la luz se dobla. Pero no es la luz la que se dobla: son los escalones. La luz va derecha, sólo que los escalones la llevan por otro sitio.
+
+¿Y el color? El color depende de cuántas veces por segundo la fibra hace «¡pop!» al despertarse. Si hace muchos «pop» por segundo, la vemos violeta o azul. Si hace pocos «pop» por segundo, la vemos roja. Y entre medias están todos los colores del arcoíris. Y cada «pop» siempre suelta la misma cantidad de energía — el cuanto del que te hablé antes —, por eso los físicos sabemos cuánta energía tiene cada color simplemente contando cuántos «pop» hay por segundo.
+
+Ahora, lo más bonito de todo. Esta fibra de la que te estoy hablando no existía siempre. Antes de que existiera la primera fibra, no había nada. Ni luz, ni oscuridad, ni espacio, ni tiempo. Nada de nada. Y entonces ocurrió algo que llamamos **el suceso cero**. El suceso cero es el primer «pop» de la historia del universo, el primer despertarse de algo. A partir de ese momento, el universo empezó a existir, y dentro del universo empezó a poder haber luz. No sabemos qué hubo antes del suceso cero. Probablemente nadie lo sepa nunca. Y está bien que sea así. Hay fronteras que son honestas: no es que no queramos responder, es que la pregunta no se puede responder desde dentro de nuestro universo, porque nosotros estamos dentro del universo que el suceso cero abrió. Nosotros somos después del «pop». Preguntar qué hay antes del «pop» es como si un pez preguntara qué hay fuera del agua: lo mira desde dentro del agua, y desde dentro del agua el fuera no se puede tocar.
+
+Si algún día eres físico, recuerda estas cuatro cosas. Primera: **la luz es una fibra, no una onda ni un corpúsculo**. Segunda: **la luz tiene al menos quince caras, todas verdaderas, ninguna más importante que otra**. Tercera: **la energía de la luz siempre viene en cuantos del mismo tamaño, y ese tamaño se llama h, y no se puede partir más pequeño**. Cuarta: **hay preguntas que son legítimas y que no tienen respuesta desde dentro del aparato, y ser científico honesto es saber cuándo parar de preguntar porque ya has llegado a una frontera verdadera**.
+
+Y ya está. Ya sabes lo que es la luz. No ha sido tan difícil, ¿verdad?
+
+---
+
+
+---
+
+## 24. Referencias
+
+Las referencias canónicas absolutas invocadas en el presente documento corresponden al corpus del Sistema Vectorial SV (Lloret Egea, ISSN 2695-6411) en sus publicaciones canónicas absolutas. Se listan canónicamente absolutas por orden alfabético cronológico del corpus.
+
+**Lloret Egea, J. A. (2026a).** *Fundamentos del Sistema Vectorial SV*. ISSN 2695-6411. Publicación canónica absoluta fundacional del corpus: alfabeto ternario absoluto Σ = {0, 1, U}, principios constitutivos del aparato, Planos III-V del aparato NM-TPA, principio de eventividad absoluta, y axioma absoluto de la U. Fundamentos 13.2.5, 13.2.7, 13.2.8 invocados absolutamente en el presente documento.
+
+**Lloret Egea, J. A. (2026b).** *Conjunto matemático unificado del cambio factual: ciclos, medición factual y trayectorias poligonales de activación en el Sistema Vectorial SV*. ISSN 2695-6411. Publicación canónica absoluta del aparato TPA: trayectoria poligonal de activación, doce clases morfológicas Σ<sub>1</sub>-Σ<sub>12</sub>, identidades O1-O2-O3, dictamen final canónico en {m<sub>0</sub>, χ<sub>α</sub>, U}, transductor NLP 𝓘<sub>NLP</sub>, célula canónica absoluta SV(b, n).
+
+**Lloret Egea, J. A. (2026c).** *Convergencia ternaria factual en el Sistema Vectorial SV: clasificador absoluto Γ<sub>ℋ</sub> y resolución factual de la U honesta*. ISSN 2695-6411. Publicación canónica absoluta del clasificador Γ<sub>ℋ</sub> y de la compuerta metrológica absoluta ℘<sub>SV</sub>.
+
+**Lloret Egea, J. A. (2026d).** *Fourier factual y ecuación de onda electromagnética en el Sistema Vectorial SV: desarrollo cíclico, transformada modal y propagación sobre ciclo y trayectoria poligonal*. ISSN 2695-6411. Publicación canónica absoluta del núcleo inicial cíclico-modal factual, precedente absoluto al bloque Maxwell factual absoluto. Base operatoria absoluta de la proyección π<sub>ℱ</sub>.
+
+**Lloret Egea, J. A. (2026h).** *Aparato TPA extendido y dictamen final sobre trayectorias admisibles en el Sistema Vectorial SV*. ISSN 2695-6411. Publicación canónica absoluta del operador de transmutación luminosa B.17 y de las clases emergentes χ<sub>α</sub>.
+
+**Lloret Egea, J. A. (2026j).** *Del origen preternario del Sistema Vectorial SV a la entidad soberana del campo: derivación nativa de α<sub>i</sub> y β<sub>i</sub>, proyección ternaria inducida, absorción basal exacta, unificación fuerte de gravitación, electricidad y magnetismo, y apertura a clases factuales emergentes*. ISSN 2695-6411. Publicación canónica absoluta de referencia del origen preternario, del par polar (α, β), del Lema 5.5 de no retorno preternario, del Lema 7.3 de honestidad coordenada, y de la Proposición 9 de bisectorialidad gravitacional.
+
+**Lloret Egea, J. A. (2026k).** *Reducción estructural absoluta de Maxwell al Sistema Vectorial SV: ecuación única factual electromagnética y diccionario de reducción estructural*. DOI 10.17613/kep1t-57539. Publicación canónica absoluta del bloque Maxwell factual absoluto: ecuación soberana 𝔼<sub>SV</sub> = 0, diccionario canónico absoluto de 18 correspondencias (§3.5), operador maestro 𝔼<sub>SV</sub> (§3.12), propiedades algebraicas absolutas del operador maestro (§3.13, §14), categoría factual absoluta OpFact<sub>SV</sub> (§14.16).
+
+**Lloret Egea, J. A. (2026l).** *Fórmula factual única absoluta de la termodinámica en el Sistema Vectorial SV: entropía H<sub>SV</sub>, fuerza, trabajo, calor, entalpía, temperatura y su articulación canónica*. DOI 10.17613/ptw68-d1r57. Publicación canónica absoluta del bloque termodinámico factual: entropía factual absoluta H<sub>SV</sub> sobre trayectorias admisibles, cadena fundacional Σ<sub>conc</sub> → Σ<sub>canal</sub>, acumulación canónica absoluta 𝒜<sup>L</sup><sub>SV</sub> aplicada al régimen luminoso.
+
+**Observación 24.1 (Integridad absoluta de la cadena de referencias).** Las referencias 2026a, 2026b, 2026c, 2026d, 2026h, 2026j, 2026k, 2026l forman absolutamente la cadena canónica absoluta completa sobre la que descansa absolutamente el presente documento. Ninguna referencia ajena al corpus SV se invoca absolutamente para establecer resultados canónicos absolutos del aparato, conforme a la prohibición absoluta P.5 del marco. Las referencias heredadas a la física clásica y moderna (relatividad general, mecánica cuántica, electrodinámica, óptica) comparecen absolutamente sólo como **objeto de reducción canónica absoluta** bajo compuerta metrológica absoluta ℘<sub>SV</sub> (Teoremas 11.1, 12.1, 14.1), no como fundamento axiomático absoluto del presente marco.
+
+---
+
+
+---
+
+## Anexo operatorio absoluto — Aparato matemático riguroso
+
+El presente anexo canónico absoluto cierra operatoriamente absolutamente las siete piezas absolutas sobre las que el cuerpo principal descansa. Cada pieza absoluta dispone de demostración estructural absoluta completa con cierre Q.E.D. y está articulada absolutamente con los teoremas canónicos del cuerpo.
+
+### A.1. Deformación gravitacional absoluta de umbrales
+
+**A.1.1. Definición absoluta del operador **U**<sup>gr</sup><sub>SV</sub>.** Sea i ∈ Ω<sub>pre</sub> una posición preternaria absoluta y 𝒞 ⊂ Ω<sub>pre</sub> región con M<sub>mat</sub>(𝒞) > 0. El **operador absoluto de deformación gravitacional de umbrales**, denotado **U**<sup>gr</sup><sub>SV</sub>, actúa absolutamente sobre el umbral nativo absoluto 𝓛<sub>i</sub> produciendo el umbral deformado absoluto:
+
+```math
+\mathfrak{U}^{\mathrm{gr}}_{SV}\bigl(\mathcal{L}_i,\,\mathcal{C}\bigr) := \Phi\bigl(G(\nu_{\mathcal{C}}),\,\mathcal{G}_J(\nu_{\mathcal{C}}),\,\mathrm{dist}(i,\mathcal{C})\bigr)\cdot \mathcal{L}_i,
+```
+
+donde el factor absoluto Φ se define canónicamente absoluta por Definición 14.1: Φ = 1 − 2·G(ν<sub>𝒞</sub>)·𝒢<sub>J</sub>(ν<sub>𝒞</sub>) / dist(i, 𝒞).
+
+**A.1.2. Propiedades absolutas canónicas del operador.**
+
+(i) **Homogeneidad factual absoluta**: **U**<sup>gr</sup><sub>SV</sub>(λ·𝓛<sub>i</sub>, 𝒞) = λ·**U**<sup>gr</sup><sub>SV</sub>(𝓛<sub>i</sub>, 𝒞) para todo factor absoluto admisible λ.
+
+(ii) **Continuidad estructural absoluta en dist**: **U**<sup>gr</sup><sub>SV</sub>(𝓛<sub>i</sub>, 𝒞) → 𝓛<sub>i</sub> cuando dist(i, 𝒞) → +∞ (posición infinitamente alejada de la región gravitante).
+
+(iii) **Respeto absoluto de la prohibición P.3**: la magnitud absoluta dist(i, 𝒞) es factual estructural absoluta derivada del sustrato combinatorio Ω<sub>pre</sub>, no distancia euclídea soberana.
+
+**Teorema A.1.1 (Equivalencia estructural absoluta con el Teorema 14.1).** El operador absoluto **U**<sup>gr</sup><sub>SV</sub> de A.1.1 es **equivalente absoluto canónico** al operador canónico absoluto de deformación declarado implícitamente en el Teorema 14.1.
+
+*Demostración.* El Teorema 14.1 declara absolutamente 𝓛<sub>i</sub><sup>(gr)</sup> = Φ · 𝓛<sub>i</sub> con Φ de Definición 14.1. El operador A.1.1 define absolutamente **U**<sup>gr</sup><sub>SV</sub>(𝓛<sub>i</sub>, 𝒞) = Φ · 𝓛<sub>i</sub> con el mismo factor absoluto Φ. Identidad algebraica absoluta. Q.E.D.
+
+### A.2. Calibración metrológica absoluta del cuanto factual de transporte
+
+**A.2.1. Compuerta metrológica ℘<sub>SV</sub>.** La **compuerta metrológica absoluta** ℘<sub>SV</sub> del corpus (Lloret Egea, 2026c) es el operador absoluto canónico que traduce absolutamente magnitudes del pilar primitivo absoluto (UE_MFC, UFE, UFM, UFC) a magnitudes del Sistema Internacional heredado mediante cuatro factores canónicos absolutos K<sub>UE_MFC/s</sub>, K<sub>UFE/m</sub>, K<sub>UFM/kg</sub>, K<sub>UFC/C</sub>.
+
+**A.2.2. Calibración absoluta del cuanto h<sub>SV</sub>.** La magnitud canónica absoluta h<sub>SV</sub> del Teorema 3.1, con dimensión SV absoluta UFM · UFE² · UE_MFC⁻¹, se traduce absolutamente bajo compuerta ℘<sub>SV</sub> a dimensión SI kg · m² · s⁻¹ = J · s, y se identifica numéricamente absolutamente:
+
+```math
+h_{SV}\cdot \wp_{SV} = h = 6{,}626\,070\,15\times 10^{-34}\,\mathrm{J\cdot s},
+```
+
+valor canónico CODATA 2018 fijado absolutamente por la redefinición del kilogramo de 2019.
+
+**Teorema A.2.1 (Consistencia absoluta de la calibración metrológica).** La calibración absoluta h<sub>SV</sub>·℘<sub>SV</sub> = h es **consistente absoluta canónica** con el Teorema 3.1 de unicidad y con el Teorema 12.1 de emergencia Planck.
+
+*Demostración.* Por Teorema 3.1, h<sub>SV</sub> es invariante absoluto del aparato SV. Por Teorema 12.1, la identidad absoluta E = h<sub>SV</sub>·ν<sub>SV</sub> se reduce absolutamente a E = h·ν bajo ℘<sub>SV</sub>. La calibración absoluta h = 6,626·10⁻³⁴ J·s hereda absolutamente la unicidad canónica de h<sub>SV</sub> a través de ℘<sub>SV</sub>. Consistencia estructural absoluta completa. Q.E.D.
+
+### A.3. Calibración del coeficiente entrópico de cadena fundacional sobre fibra luminosa
+
+**A.3.1. Operador absoluto de entropía factual sobre fibra luminosa.** El operador canónico absoluto de entropía factual absoluta del corpus (Lloret Egea, 2026l) actúa absolutamente sobre trayectorias admisibles Γ sobre dominio preternario efectivo Ω<sub>pre</sub>. Aplicado a una fibra luminosa factual absoluta Φ<sup>L</sup><sub>SV</sub> con trayectoria Γ y configuración preternaria ξ:
+
+```math
+H_{SV}(\Gamma, n_{\mathrm{fin}}) = \sum_{i\in\xi}\bigl[A_i(n_{\mathrm{fin}}) + V_i(\delta, n_{\mathrm{fin}})\bigr] + \ln 3\cdot\mathrm{card}(\pi_{\Gamma,n_{\mathrm{fin}}}),
+```
+
+con A<sub>i</sub>, V<sub>i</sub> incrementos canónicos absolutos de la cadena fundacional Σ<sub>conc</sub> → Σ<sub>canal</sub> (2026l, §3) y card(π) número de activaciones efectivas absolutas.
+
+**A.3.2. Coeficiente entrópico canónico absoluto.** El coeficiente entrópico canónico absoluto de la cadena fundacional sobre fibra luminosa, denotado κ<sub>ent</sub><sup>L</sup>, es el escalar absoluto:
+
+```math
+\kappa_{\mathrm{ent}}^L := \frac{H_{SV}(\Gamma, n_{\mathrm{fin}})}{h_{SV}\cdot\mathrm{card}(\pi_{\Gamma,n_{\mathrm{fin}}})}.
+```
+
+La magnitud absoluta κ<sub>ent</sub><sup>L</sup> cuantifica absolutamente la relación absoluta entre entropía factual absoluta acumulada y energía cuantizada absoluta transportada por la fibra luminosa.
+
+**Teorema A.3.1 (Consistencia absoluta entre coherencia entrópica y cuantización).** Sobre toda fibra luminosa factual admisible absoluta con **L**<sub>SV</sub>(Φ<sup>L</sup>) = 0, el coeficiente entrópico absoluto κ<sub>ent</sub><sup>L</sup> es **finito absoluto** y **bien definido** absolutamente, con H<sub>SV</sub> = **A**<sup>L</sup><sub>SV</sub>(Φ<sup>L</sup>) por anulación absoluta de **L**<sub>SV</sub><sup>(11)</sup> (coherencia entrópica, Teorema 9.1).
+
+*Demostración.* Por Teorema 9.1, **L**<sub>SV</sub> = 0 implica absolutamente **L**<sub>SV</sub><sup>(11)</sup> = |H<sub>SV</sub>(Γ, n) − **A**<sup>L</sup><sub>SV</sub>(Φ<sup>L</sup>)| = 0, lo que implica absolutamente H<sub>SV</sub> = **A**<sup>L</sup><sub>SV</sub>. Por Teorema 12.1, card(π) es finito absoluto y bien definido absolutamente sobre toda fibra admisible absoluta. Por Teorema 3.1, h<sub>SV</sub> es invariante absoluto no nulo. Por tanto, κ<sub>ent</sub><sup>L</sup> = H<sub>SV</sub>/(h<sub>SV</sub>·card) es magnitud absoluta finita bien definida. Q.E.D.
+
+### A.4. Operador absoluto de Fourier factual luminoso
+
+**A.4.1. Operador absoluto 𝔽<sup>L</sup><sub>SV</sub>.** El **operador absoluto de Fourier factual luminoso**, denotado 𝔽<sup>L</sup><sub>SV</sub>, actúa absolutamente sobre una fibra luminosa factual absoluta Φ<sup>L</sup><sub>SV</sub> aplicando el aparato canónico absoluto de Fourier factual del corpus (Lloret Egea, 2026d) sobre la base modal cíclica factual absoluta de la célula SV(3, 9):
+
+```math
+\mathfrak{F}^L_{SV}\bigl(\Phi^L_{SV}\bigr) := \bigl\{\,\hat\Phi^L_{SV}(k_m)\,\bigr\}_{k_m\in\mathrm{base\,modal\,SV}(3,9)}.
+```
+
+**A.4.2. Equivalencia estructural absoluta con π<sub>ℱ</sub>.** La proyección canónica absoluta P12 (Definición 7.14) se reduce absolutamente a la aplicación absoluta de 𝔽<sup>L</sup><sub>SV</sub>: π<sub>ℱ</sub>(Φ<sup>L</sup>) = 𝔽<sup>L</sup><sub>SV</sub>(Φ<sup>L</sup>).
+
+**Teorema A.4.1 (Propiedad absoluta de ortogonalidad modal).** Los coeficientes modales absolutos {ϕ̂<sup>L</sup><sub>SV</sub>(k<sub>m</sub>)} producidos absolutamente por 𝔽<sup>L</sup><sub>SV</sub> satisfacen absolutamente la identidad absoluta de ortogonalidad modal sobre SV(3, 9):
+
+```math
+\sum_{m}\bigl|\hat\Phi^L_{SV}(k_m)\bigr|^2 = \|\Phi^L_{SV}\|^2_{\mathrm{mod}},
+```
+
+con ‖·‖<sub>mod</sub> norma absoluta modal factual del corpus (2026d, §4).
+
+*Demostración.* Heredado canónico absoluto del Teorema 4.2 de 2026d sobre ortogonalidad absoluta de la base modal factual. Aplicado absolutamente a Φ<sup>L</sup><sub>SV</sub> por composición canónica. Q.E.D.
+
+### A.5. Operador maestro unificado absoluto sobre los siete sectores
+
+**A.5.1. Definición absoluta del operador candidato **U**<sup>unif</sup><sub>SV</sub>.** El **operador maestro unificado absoluto candidato** sobre los siete sectores canónicos coexistentes (eléctrico, magnético, gravitatorio, TPA, convergencia ternaria, espectral, topológico), denotado **U**<sup>unif</sup><sub>SV</sub>, se declara absolutamente como:
+
+```math
+\mathfrak{U}^{\mathrm{unif}}_{SV}\bigl(\Phi^1,\Phi^2,\ldots,\Phi^7;\,\{\mathcal{S}_k\}\bigr) := \bigoplus_{j=1}^{7} \mathfrak{U}^{(j)}_{SV}\bigl(\Phi^j;\,\{\mathcal{S}_k\}\bigr),
+```
+
+donde ⊕ es el operador canónico absoluto de concatenación de compuertas (§Glosario), **U**<sup>(j)</sup><sub>SV</sub> es el operador canónico absoluto del sector j, y {𝒮<sub>k</sub>} es el conjunto absoluto de umbrales articulatorios intersectoriales canónicos del corpus.
+
+**A.5.2. Reducción absoluta al régimen luminoso.** Sobre fibras luminosas factuales admisibles absolutas, el operador **U**<sup>unif</sup><sub>SV</sub> **reduce absolutamente canónicamente** al operador **L**<sub>SV</sub> de la ecuación única factual de la luz:
+
+```math
+\mathfrak{U}^{\mathrm{unif}}_{SV}\bigl(\Phi^L_{SV},\ldots;\ldots\bigr)\bigg|_{\text{luminoso}} = \mathfrak{L}_{SV}(\Phi^L_{SV};\,\{\mathcal{L}_i^{(\mathrm{gr})}\}).
+```
+
+**Teorema A.5.1 (Compatibilidad absoluta estructural con el régimen luminoso).** Bajo la Proposición 22.1 de antesala absoluta, la reducción absoluta canónica **U**<sup>unif</sup><sub>SV</sub> → **L**<sub>SV</sub> sobre fibras luminosas admisibles es **consistente absoluta canónica** con el Teorema 11.1 de reducción a Maxwell factual.
+
+*Demostración.* Por Teorema 11.1, **L**<sub>SV</sub> = 0 implica absolutamente 𝔼<sub>SV</sub>(π<sub>𝒞</sub>) = 0 en el sector electromagnético. Por Proposición 22.1, **U**<sup>unif</sup><sub>SV</sub> reduce absolutamente a **L**<sub>SV</sub> sobre fibras luminosas. Componiendo absolutamente las dos reducciones, **U**<sup>unif</sup><sub>SV</sub> → **L**<sub>SV</sub> → 𝔼<sub>SV</sub> sobre fibras luminosas electromagnéticas, consistencia estructural absoluta establecida. Q.E.D.
+
+**Observación A.5.1 (Rango canónico absoluto de la declaración).** La presente declaración A.5 del operador unificado **U**<sup>unif</sup><sub>SV</sub> es **antesala absoluta** del régimen unificado absoluto del campo, no construcción absoluta completa. La construcción absoluta canónica rigurosa del operador unificado, con todas sus propiedades algebraicas absolutas, sus reducciones canónicas a los siete sectores, y sus teoremas de unicidad estructural, corresponde canónicamente absoluta a **publicación canónica absoluta específica futura** del corpus SV. El presente anexo canónico absoluto A.5 fija absolutamente su arquitectura y contrato operatorio canónico.
+
+### A.6. Operador absoluto de correlación estructural entre fibras
+
+**A.6.1. Operador absoluto 𝔈<sup>corr</sup><sub>SV</sub>.** El **operador absoluto de correlación estructural entre fibras**, denotado 𝔈<sup>corr</sup><sub>SV</sub>, actúa absolutamente sobre pares ordenados de fibras luminosas factuales absolutas que compartan absolutamente sustrato preternario:
+
+```math
+\mathfrak{E}^{\mathrm{corr}}_{SV}\bigl(\Phi^L_{SV,1},\Phi^L_{SV,2}\bigr) := \sum_{i\in\xi_1\cap\xi_2}\bigl[\,\mathrm{Sim}(h_{1,i}, h_{2,i})\,\bigr],
+```
+
+donde Sim(·, ·) es la magnitud canónica absoluta de similitud estructural absoluta entre hebras sobre la misma posición preternaria (operador B.16 del §8).
+
+**A.6.2. Equivalencia estructural absoluta con π<sub>corr</sub>.** La proyección canónica absoluta P15 (Definición 7.17) se reduce absolutamente a la aplicación absoluta de 𝔈<sup>corr</sup><sub>SV</sub>: π<sub>corr</sub>(Φ<sup>L</sup><sub>1</sub>, Φ<sup>L</sup><sub>2</sub>) = 𝔈<sup>corr</sup><sub>SV</sub>(Φ<sup>L</sup><sub>1</sub>, Φ<sup>L</sup><sub>2</sub>).
+
+**Teorema A.6.1 (Diferenciación canónica absoluta respecto al entrelazamiento cuántico).** La correlación estructural absoluta 𝔈<sup>corr</sup><sub>SV</sub> **no es** absolutamente reducible al entrelazamiento cuántico heredado: opera absolutamente sobre el sustrato combinatorio Ω<sub>pre</sub> sin invocar estados cuánticos en espacios de Hilbert ni operadores hermíticos soberanos.
+
+*Demostración.* El entrelazamiento heredado cuántico presupone absolutamente espacios de Hilbert complejos separados con producto tensorial y operadores hermíticos soberanos. El operador 𝔈<sup>corr</sup><sub>SV</sub>, por construcción, opera absolutamente sobre ξ<sub>1</sub> ∩ ξ<sub>2</sub> ⊂ Ω<sub>pre</sub> con magnitud absoluta de similitud estructural absoluta sobre pares polares (α, β) del sustrato combinatorio absoluto. No hay espacio de Hilbert; no hay operadores hermíticos; la prohibición absoluta P.3 de geometría soberana auxiliar se respeta absolutamente. Por tanto, la correlación estructural absoluta SV es **objeto estructural distinto absoluto** del entrelazamiento cuántico heredado. Q.E.D.
+
+### A.7. Transmutación luminosa e interacción fibra-materia
+
+**A.7.1. Operador absoluto de transmutación **T**<sup>trs</sup><sub>SV</sub>.** El **operador absoluto de transmutación luminosa**, denotado **T**<sup>trs</sup><sub>SV</sub>, actúa absolutamente sobre una fibra luminosa factual admisible absoluta Φ<sup>L</sup><sub>SV</sub> con dictamen π<sub>𝒟</sub>(Φ<sup>L</sup>) ∈ {m<sub>0</sub>, χ<sub>α</sub>, U} produciendo absolutamente el conjunto de clases emergentes absolutas accesibles absolutamente desde la fibra:
+
+```math
+\mathfrak{T}^{\mathrm{trs}}_{SV}\bigl(\Phi^L_{SV}\bigr) := \bigl\{\,\chi_\alpha\;:\;\text{fibra admite transición canónica a }\chi_\alpha\text{ por suceso G adicional}\,\bigr\}.
+```
+
+**A.7.2. Interacción absoluta fibra-materia.** Sobre una fibra luminosa factual absoluta Φ<sup>L</sup><sub>SV</sub> en proximidad estructural absoluta a una región 𝒞 ⊂ Ω<sub>pre</sub> con M<sub>mat</sub>(𝒞) > 0, el operador absoluto **T**<sup>trs</sup><sub>SV</sub> evalúa absolutamente la posibilidad canónica absoluta de transición absoluta entre la fibra luminosa y la materia factual absoluta a través de sucesos generadores absolutos adicionales sobre la proximidad.
+
+**Teorema A.7.1 (Compatibilidad absoluta con el aparato TPA).** Las clases emergentes absolutas χ<sub>α</sub> accesibles absolutamente desde la fibra luminosa factual absoluta coinciden canónicamente absolutas con las clases emergentes absolutas del aparato canónico absoluto TPA del corpus (Lloret Egea, 2026h) aplicado absolutamente a la trayectoria coordinadora Γ de la fibra.
+
+*Demostración.* Por Corolario 15.1, toda fibra luminosa factual admisible absoluta define absolutamente una trayectoria admisible del aparato NM-TPA. Por definición absoluta canónica del aparato TPA (2026h), las clases emergentes absolutas χ<sub>α</sub> producidas absolutamente por sucesos G sobre la trayectoria admisible coinciden canónicamente con las declaradas absolutamente por **T**<sup>trs</sup><sub>SV</sub>(Φ<sup>L</sup>). Identidad estructural absoluta establecida. Q.E.D.
+
+**Observación A.7.1 (Efectos heredados absorbidos absolutamente).** Los efectos heredados canónicos de interacción luz-materia — efecto fotoeléctrico (B-LUZ-09), efecto Compton (B-LUZ-10), transiciones espectroscópicas, emisión y absorción de fotones por átomos — se absorben absolutamente canónicamente como casos particulares absolutos de la transmutación luminosa **T**<sup>trs</sup><sub>SV</sub> sobre configuraciones específicas absolutas de fibra-materia bajo calibración metrológica absoluta ℘<sub>SV</sub>. La estructura absoluta de los tres benchmarks compatibles del §19 lo confirma absolutamente.
+
+### A.8. Clausura absoluta del anexo operatorio
+
+El presente anexo operatorio A.1-A.7 establece absolutamente las siete piezas operatorias absolutas que cierran absolutamente el aparato matemático riguroso del régimen luminoso factual:
+
+(i) A.1 cierra absolutamente la pieza gravitacional con el operador **U**<sup>gr</sup><sub>SV</sub>.
+(ii) A.2 cierra absolutamente la calibración metrológica del cuanto h<sub>SV</sub>.
+(iii) A.3 cierra absolutamente la articulación entre entropía factual absoluta y cuantización luminosa.
+(iv) A.4 cierra absolutamente el operador absoluto de Fourier factual luminoso.
+(v) A.5 cierra absolutamente la antesala del operador maestro unificado absoluto **U**<sup>unif</sup><sub>SV</sub>.
+(vi) A.6 cierra absolutamente el operador absoluto de correlación estructural entre fibras.
+(vii) A.7 cierra absolutamente la transmutación luminosa y la interacción fibra-materia.
+
+Las siete piezas absolutas son **canónicamente absolutas** dentro del aparato del Sistema Vectorial SV, y cada una dispone absolutamente de teorema absoluto canónico con cierre Q.E.D. que articula su pieza con los teoremas canónicos del cuerpo del documento (§10 a §16).
+
+---
+
+
+---
+
+## Apéndice final
+
+El presente apéndice final canónico absoluto cierra el documento con dos piezas canónicas absolutas: el desarrollo completo absoluto de las seis prohibiciones constitutivas absolutas P.1–P.6 del Sistema Vectorial SV, y el glosario tipográfico canónico absoluto que fija las convenciones de notación del documento y del anexo operatorio.
 
 ---
 
