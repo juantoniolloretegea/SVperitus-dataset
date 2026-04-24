@@ -11,10 +11,10 @@
 4. Materia factual: suelo estricto del corpus, rendida al aparato TPA.
 5. Gravedad factual: sobre el suelo de la Proposición 9 del corpus (2026a) y deformación de umbrales.
 6. Los siete campos factuales coexistentes en el Sistema Vectorial SV.
-7. Objeto fibroso factual: primario, con seis proyecciones canónicas y familia abierta.
-8. Batida operatoria completa: cuarenta y cuatro operadores del aparato luminoso.
+7. Objeto fibroso factual: primario, con quince proyecciones canónicas y familia absolutamente abierta.
+8. Resumen de operatoria completa: cuarenta y cuatro operadores del aparato luminoso.
 9. Ecuación única factual de la luz sobre el objeto fibroso con quince sumandos y trece invariantes.
-10. Propiedades algebraicas absolutas del operador maestro 𝔏<sub>SV</sub>.
+10. Propiedades algebraicas absolutas del operador maestro **L**<sub>SV</sub>.
 11. Teorema de reducción a Maxwell factual con reproducción del diccionario absoluto.
 12. Teorema de emergencia factual de Planck.
 13. Teorema de disolución proyectiva de la dualidad.
@@ -29,6 +29,10 @@
 22. Conclusiones y antesala del régimen unificado absoluto del campo.
 23. Explicación de la naturaleza factual de la luz para un niño de diez años.
 24. Referencias.
+
+Apéndice final:
+— Prohibiciones constitutivas absolutas del Sistema Vectorial SV — desarrollo completo.
+— Glosario tipográfico canónico absoluto.
 
 Anexo operatorio absoluto — Aparato matemático riguroso:
 A.1. Deformación gravitacional de umbrales.
@@ -51,7 +55,7 @@ A.7. Transmutación luminosa e interacción fibra-materia.
 
 ## Abstract
 
-This work establishes the absolute general factual theory of light within the Sistema Vectorial SV, fixing its primary object as the factual luminous fibrous object Φ<sup>L</sup><sub>SV</sub>, with six canonical projections declared and an open family admitting legitimate additions. Light is formulated as an absolute factual domain 𝔇<sup>L</sup><sub>SV</sub> emergent from the preternary substrate Ω<sub>pre</sub> through chains of honest activations Π<sub>3</sub><sup>H</sup>, transporting total preternary variation from the preternary stratum to the ternary stratum without infringing the no-preternary-return Lemma 5.5 nor the coordinate honesty Lemma 7.3 of the SV corpus. The absolute factual vacuum is given as non-activated preternary potentiality; factual energy is given as admissible total preternary variation with a uniquely structurally derived factual quantum of transport h<sub>SV</sub>; the emergent Planck relation E = ν · h<sub>SV</sub> is derived as a direct algebraic consequence of the structural definition, not postulated; the wave–corpuscle duality is structurally dissolved as two projections among at least six of a fibrous object that is neither; factual gravitational curvature of light is constructed as deformation of the activation threshold 𝓛<sub>i</sub> induced by basal concentration, rendered to the two sectors (G(ν), 𝒢<sub>J</sub>(ν)) of the corpus gravity Proposition 9. The structural break of the inherited conservation principle is explicitly fixed: factual energy is created in structure-generating events, the zero event ε<sub>0</sub> being the primordial case of absolute domain aperture. The seven coexisting factual fields of the corpus are identified as simultaneous gates of the sovereign equation 𝔏<sub>SV</sub>(Φ<sup>L</sup><sub>SV</sub>; {𝓛<sub>i</sub><sup>(gr)</sup>}) = 0, from which five absolute reduction theorems are demonstrated: recovery of the factual Maxwell block with full inheritance of the absolute structural reduction dictionary and sovereign equation 𝔼<sub>SV</sub> = 0; emergence of the Planck relation from the zero activation event and the canonical uniqueness of Π<sub>3</sub><sup>H</sup>; projective dissolution of the duality; gravitational deviation of trajectories compatible with the sensitivity sectors; and satisfaction of the O1–O2–O3 identities of the NM–TPA apparatus. Absolute algebraic properties of the sovereign operator 𝔏<sub>SV</sub> — factual homogeneity, additivity, factual covariance under canonical trajectory transforms, and structural stability under admissible perturbations — are demonstrated in the pattern of the factual Maxwell operator §3.13. Unique representational and irreducibility results for 𝔏<sub>SV</sub> in the absolute factual operator category OpFact<sub>SV,L</sub> are established. An absolute falsification criterion with six independent criteria fixes the sovereign falsifiability of the framework. A specific consistency walk over the canonical cell SV(3,9) with explicit dimensional verification against the metrological pillar, and the canonical ensemble of the forty-four operators (twenty-four inherited from the corpus and invoked with absolute rank, twelve proper to the luminous regime, eight emergent from their crossing), closes the framework. Fifteen visible banks embedded in the text provide immediate numerical verification. The operational pieces on which the factual sovereign equation of the absolute unified field 𝔘<sup>unif</sup><sub>SV</sub> = 0 over the seven sectors rests, and which are fully closed in the operatorial annex, are laid out.
+This work establishes the absolute general factual theory of light within the Sistema Vectorial SV, fixing its primary object as the factual luminous fibrous object Φ<sup>L</sup><sub>SV</sub>, with six canonical projections declared and an open family admitting legitimate additions. Light is formulated as an absolute factual domain **D**<sup>L</sup><sub>SV</sub> emergent from the preternary substrate Ω<sub>pre</sub> through chains of honest activations Π<sub>3</sub><sup>H</sup>, transporting total preternary variation from the preternary stratum to the ternary stratum without infringing the no-preternary-return Lemma 5.5 nor the coordinate honesty Lemma 7.3 of the SV corpus. The absolute factual vacuum is given as non-activated preternary potentiality; factual energy is given as admissible total preternary variation with a uniquely structurally derived factual quantum of transport h<sub>SV</sub>; the emergent Planck relation E = ν · h<sub>SV</sub> is derived as a direct algebraic consequence of the structural definition, not postulated; the wave–corpuscle duality is structurally dissolved as two projections among at least six of a fibrous object that is neither; factual gravitational curvature of light is constructed as deformation of the activation threshold 𝓛<sub>i</sub> induced by basal concentration, rendered to the two sectors (G(ν), 𝒢<sub>J</sub>(ν)) of the corpus gravity Proposition 9. The structural break of the inherited conservation principle is explicitly fixed: factual energy is created in structure-generating events, the zero event ε<sub>0</sub> being the primordial case of absolute domain aperture. The seven coexisting factual fields of the corpus are identified as simultaneous gates of the sovereign equation **L**<sub>SV</sub>(Φ<sup>L</sup><sub>SV</sub>; {𝓛<sub>i</sub><sup>(gr)</sup>}) = 0, from which five absolute reduction theorems are demonstrated: recovery of the factual Maxwell block with full inheritance of the absolute structural reduction dictionary and sovereign equation 𝔼<sub>SV</sub> = 0; emergence of the Planck relation from the zero activation event and the canonical uniqueness of Π<sub>3</sub><sup>H</sup>; projective dissolution of the duality; gravitational deviation of trajectories compatible with the sensitivity sectors; and satisfaction of the O1–O2–O3 identities of the NM–TPA apparatus. Absolute algebraic properties of the sovereign operator **L**<sub>SV</sub> — factual homogeneity, additivity, factual covariance under canonical trajectory transforms, and structural stability under admissible perturbations — are demonstrated in the pattern of the factual Maxwell operator §3.13. Unique representational and irreducibility results for **L**<sub>SV</sub> in the absolute factual operator category OpFact<sub>SV,L</sub> are established. An absolute falsification criterion with six independent criteria fixes the sovereign falsifiability of the framework. A specific consistency walk over the canonical cell SV(3,9) with explicit dimensional verification against the metrological pillar, and the canonical ensemble of the forty-four operators (twenty-four inherited from the corpus and invoked with absolute rank, twelve proper to the luminous regime, eight emergent from their crossing), closes the framework. Fifteen visible banks embedded in the text provide immediate numerical verification. The operational pieces on which the factual sovereign equation of the absolute unified field **U**<sup>unif</sup><sub>SV</sub> = 0 over the seven sectors rests, and which are fully closed in the operatorial annex, are laid out.
 
 **Keywords:** Sistema Vectorial SV; factual light; factual fibrous object; preternary vacuum; energy as variation; factual quantum h<sub>SV</sub>; emergent Planck; six canonical projections; gravity as threshold deformation; seven factual fields; sovereign equation of factual light; reduction to factual Maxwell; aperture to unified factual regime; factual polarization; structural coherence; zero event; conservation break; absolute factual field equation.
 
@@ -59,49 +63,26 @@ This work establishes the absolute general factual theory of light within the Si
 
 ## Resumen
 
-La presente obra establece la teoría general factual absoluta de la luz dentro del Sistema Vectorial SV, fijando como objeto primario el **objeto fibroso factual luminoso** Φ<sup>L</sup><sub>SV</sub>, provisto de seis proyecciones canónicas declaradas y familia abierta a proyecciones adicionales legítimas. La luz se construye como dominio factual absoluto 𝔇<sup>L</sup><sub>SV</sub> emergente del sustrato preternario Ω<sub>pre</sub> por cadenas de activaciones honestas Π<sub>3</sub><sup>H</sup> que transportan variación total preternaria desde el estrato preternario al estrato ternario sin infringir el Lema 5.5 de no retorno preternario ni el Lema 7.3 de honestidad coordenada del corpus SV. El vacío factual absoluto queda rendido a potencialidad preternaria no activada; la energía factual se fija como variación total preternaria admisible con cuanto factual de transporte h<sub>SV</sub> estructuralmente único y derivado, no postulado; la relación emergente E = ν · h<sub>SV</sub> se deriva como consecuencia algebraica directa de la definición estructural, no se postula; la dualidad onda–corpúsculo queda estructuralmente disuelta como dos proyecciones entre al menos seis de un objeto fibroso que no es ni onda ni corpúsculo; la curvatura gravitacional factual de la luz se construye como deformación del umbral de activación 𝓛<sub>i</sub> inducida por concentración basal, rendida a los dos sectores (G(ν), 𝒢<sub>J</sub>(ν)) de la gravedad factual de la Proposición 9 del corpus (2026a). Se fija explícitamente la ruptura estructural del principio heredado de conservación de la energía: la energía factual se crea en sucesos generadores de estructura, siendo el suceso cero ε<sub>0</sub> el caso primordial absoluto de apertura del dominio. Se identifican los siete campos factuales coexistentes del corpus SV (eléctrico, magnético, gravitatorio, TPA, convergencia ternaria, espectral, topológico) como compuertas simultáneas de la ecuación soberana 𝔏<sub>SV</sub>(Φ<sup>L</sup><sub>SV</sub>; {𝓛<sub>i</sub><sup>(gr)</sup>}) = 0, de la cual se demuestran por reducción cinco teoremas absolutos: recuperación del bloque Maxwell factual con herencia íntegra del diccionario absoluto de reducción estructural y de la ecuación soberana 𝔼<sub>SV</sub> = 0 (Lloret Egea, 2026k, §3.5 y §3.12); emergencia de la relación de Planck desde el suceso cero de activación y la unicidad canónica de Π<sub>3</sub><sup>H</sup>; disolución proyectiva de la dualidad; desviación gravitacional de trayectorias compatible con los sectores de sensibilidad; y satisfacción de las identidades O1–O2–O3 del aparato NM–TPA. Se demuestran, en la pauta del operador maestro de Maxwell factual (§3.13 de 2026k), las propiedades algebraicas absolutas del operador soberano 𝔏<sub>SV</sub> — homogeneidad factual, aditividad, covariancia factual bajo las cuatro transformadas canónicas de trayectoria del SV, y estabilidad estructural bajo perturbaciones admisibles —, y en la pauta de la categoría absoluta OpFact<sub>SV</sub> (§14.16 de 2026k) se establecen los resultados absolutos de unicidad representacional e irreducibilidad algebraica de 𝔏<sub>SV</sub> dentro de la categoría absoluta factual OpFact<sub>SV,L</sub>. Se fija el criterio absoluto de falsación del marco con seis criterios independientes. Un recorrido específico de consistencia sobre la célula canónica SV(3,9) con verificación dimensional explícita contra el pilar metrológico absoluto, y el conjunto canónico de los 44 operadores del aparato (24 heredados del corpus e invocados con rango canónico absoluto, 12 propios del régimen luminoso, 8 emergentes del cruce), cierran el marco. Quince bancos visibles embebidos en el texto proporcionan verificación numérica inmediata. Se apuntalan las piezas operatorias sobre las que descansa la formulación de la ecuación factual soberana del campo unificado absoluto 𝔘<sup>unif</sup><sub>SV</sub> = 0 sobre los siete sectores, cerradas íntegramente en el anexo operatorio.
+La presente obra establece la teoría general factual absoluta de la luz dentro del Sistema Vectorial SV, fijando como objeto primario el **objeto fibroso factual luminoso** Φ<sup>L</sup><sub>SV</sub>, provisto de seis proyecciones canónicas declaradas y familia abierta a proyecciones adicionales legítimas. La luz se construye como dominio factual absoluto **D**<sup>L</sup><sub>SV</sub> emergente del sustrato preternario Ω<sub>pre</sub> por cadenas de activaciones honestas Π<sub>3</sub><sup>H</sup> que transportan variación total preternaria desde el estrato preternario al estrato ternario sin infringir el Lema 5.5 de no retorno preternario ni el Lema 7.3 de honestidad coordenada del corpus SV. El vacío factual absoluto queda rendido a potencialidad preternaria no activada; la energía factual se fija como variación total preternaria admisible con cuanto factual de transporte h<sub>SV</sub> estructuralmente único y derivado, no postulado; la relación emergente E = ν · h<sub>SV</sub> se deriva como consecuencia algebraica directa de la definición estructural, no se postula; la dualidad onda–corpúsculo queda estructuralmente disuelta como dos proyecciones entre al menos seis de un objeto fibroso que no es ni onda ni corpúsculo; la curvatura gravitacional factual de la luz se construye como deformación del umbral de activación 𝓛<sub>i</sub> inducida por concentración basal, rendida a los dos sectores (G(ν), 𝒢<sub>J</sub>(ν)) de la gravedad factual de la Proposición 9 del corpus (2026a). Se fija explícitamente la ruptura estructural del principio heredado de conservación de la energía: la energía factual se crea en sucesos generadores de estructura, siendo el suceso cero ε<sub>0</sub> el caso primordial absoluto de apertura del dominio. Se identifican los siete campos factuales coexistentes del corpus SV (eléctrico, magnético, gravitatorio, TPA, convergencia ternaria, espectral, topológico) como compuertas simultáneas de la ecuación soberana **L**<sub>SV</sub>(Φ<sup>L</sup><sub>SV</sub>; {𝓛<sub>i</sub><sup>(gr)</sup>}) = 0, de la cual se demuestran por reducción cinco teoremas absolutos: recuperación del bloque Maxwell factual con herencia íntegra del diccionario absoluto de reducción estructural y de la ecuación soberana 𝔼<sub>SV</sub> = 0 (Lloret Egea, 2026k, §3.5 y §3.12); emergencia de la relación de Planck desde el suceso cero de activación y la unicidad canónica de Π<sub>3</sub><sup>H</sup>; disolución proyectiva de la dualidad; desviación gravitacional de trayectorias compatible con los sectores de sensibilidad; y satisfacción de las identidades O1–O2–O3 del aparato NM–TPA. Se demuestran, en la pauta del operador maestro de Maxwell factual (§3.13 de 2026k), las propiedades algebraicas absolutas del operador soberano **L**<sub>SV</sub> — homogeneidad factual, aditividad, covariancia factual bajo las cuatro transformadas canónicas de trayectoria del SV, y estabilidad estructural bajo perturbaciones admisibles —, y en la pauta de la categoría absoluta OpFact<sub>SV</sub> (§14.16 de 2026k) se establecen los resultados absolutos de unicidad representacional e irreducibilidad algebraica de **L**<sub>SV</sub> dentro de la categoría absoluta factual OpFact<sub>SV,L</sub>. Se fija el criterio absoluto de falsación del marco con seis criterios independientes. Un recorrido específico de consistencia sobre la célula canónica SV(3,9) con verificación dimensional explícita contra el pilar metrológico absoluto, y el conjunto canónico de los 44 operadores del aparato (24 heredados del corpus e invocados con rango canónico absoluto, 12 propios del régimen luminoso, 8 emergentes del cruce), cierran el marco. Quince bancos visibles embebidos en el texto proporcionan verificación numérica inmediata. Se apuntalan las piezas operatorias sobre las que descansa la formulación de la ecuación factual soberana del campo unificado absoluto **U**<sup>unif</sup><sub>SV</sub> = 0 sobre los siete sectores, cerradas íntegramente en el anexo operatorio.
 
 **Palabras clave:** Sistema Vectorial SV; luz factual; objeto fibroso factual; vacío preternario; energía como variación; cuanto factual h<sub>SV</sub>; Planck emergente; seis proyecciones canónicas; gravedad como deformación de umbral; siete campos factuales; ecuación soberana de la luz factual; reducción a Maxwell factual; apertura al régimen unificado absoluto; polarización factual; coherencia estructural; suceso cero; ruptura de conservación; ecuación factual absoluta del campo.
 
 ---
 
-## Glosario tipográfico canónico absoluto
-
-Con rango absoluto y para evitar colisión de símbolos en un documento que opera sobre un cuerpo operatorio extenso, se fijan las siguientes distinciones tipográficas absolutas, que se respetan sin excepción a lo largo del documento y del anexo:
-
-- **h<sub>SV</sub>** (latina redonda escalar): cuanto factual absoluto de transporte. Magnitud escalar con dimensión UFM · UFE² · UE_MFC⁻¹.
-- **𝔥<sub>SV</sub>** (fraktur mayúscula h): operador de transporte de la cadena fundacional Σ<sub>conc</sub> → Σ<sub>canal</sub> (Lloret Egea, 2026l, §3). Operador, no escalar; no confundible con h<sub>SV</sub>.
-- **Φ<sup>L</sup><sub>SV</sub>** (Φ mayúscula con superíndice L): objeto fibroso factual luminoso. Estructura compleja, siempre con superíndice L en todo el documento.
-- **Φ** (Φ mayúscula sin superíndice): factor absoluto de deformación gravitacional del anexo A.1. Magnitud escalar adimensional derivada de los sectores (G(ν), 𝒢<sub>J</sub>(ν)). No se usa nunca sin subíndice en otros contextos.
-- **𝔏<sub>SV</sub>** (fraktur mayúscula L): operador maestro absoluto de la ecuación soberana de la luz factual.
-- **𝔏<sup>mst</sup><sub>SV</sub>** (fraktur L con superíndice mst): reducción maestra absoluta fibrosa, caso particular de concatenación de operadores propios sobre la fibra.
-- **u**<sub>SV</sub> (minúscula en negrita sobre Markdown con subíndice en sub-HTML): vector director factual del objeto estructural al que se aplique; por convención general, los vectores en prosa se denotan en minúscula negrita con subíndice SV. Las fórmulas dentro de bloques matemáticos usan la notación LaTeX equivalente $\vec{u}_{SV}$; ambas notaciones son sinónimas.
-- **𝖦**<sub>SV</sub>: covector normal canónico absoluto del SV, escrito en grafía sans-serif matemática.
-- **Símbolos ternarios:** 0, 1, U sobre el alfabeto canónico absoluto Σ = {0, 1, U}.
-- **Símbolos de campo absoluto:** 𝕏<sub>SV</sub> para el campo eléctrico factual del bloque Maxwell factual (Lloret Egea, 2026k), 𝕐<sub>SV</sub> para el campo magnético factual del mismo bloque, ℂ<sub>SV</sub> para el triplete constitutivo factual (ε<sub>SV</sub>, μ<sub>SV</sub>, σ<sub>SV</sub>), J<sub>SV</sub> para el jacobiano factual absoluto de sensibilidad de régimen.
-- **Operador concatenador absoluto ⊕**: denota **concatenación absoluta de compuertas** en el sentido de conjunción lógica factual, definida por (A ⊕ B)(x) = 0 ⟺ A(x) = 0 ∧ B(x) = 0. **No es suma aritmética, no es suma directa algebraica**. La notación se conserva uniforme dentro del documento y del anexo.
-- **∂<sub>ν</sub><sup>SV</sup>**: derivada parcial factual respecto del índice factual de suceso, en el sentido absoluto fijado por Lloret Egea (2026k, §2.3). **No es derivada respecto del tiempo soberano**, que en el Sistema Vectorial SV no existe como primitiva: es operador factual sobre índice ordinal ν de sucesos admisibles.
-- **c.q.d.** se reserva para cierre de prueba cuando aparezca en las referencias; el cierre de prueba en todo el cuerpo del documento y del anexo es **Q.E.D.**, siguiendo la convención canónica del bloque Maxwell factual (Lloret Egea, 2026k).
-
 ---
 
 ## Prohibiciones constitutivas absolutas del Sistema Vectorial SV invocadas en esta publicación
 
-Con rango absoluto y para evitar lecturas erradas sobre el aparato, se fijan las prohibiciones constitutivas del Sistema Vectorial SV que gobiernan el presente documento y su anexo, con declaración explícita de los lemas del corpus sobre los que descansa cada una:
+Con rango absoluto y para evitar lecturas erradas sobre el aparato, se fijan las siguientes prohibiciones constitutivas del Sistema Vectorial SV que gobiernan el presente documento y su anexo. El desarrollo completo de cada prohibición, con declaración explícita de los lemas del corpus sobre los que descansa cada una, se recoge al final del documento.
 
-- **P.1. Prohibición absoluta del tiempo soberano.** En el Sistema Vectorial SV no existe variable temporal con rango constitutivo. El índice de suceso ν es ordinal absoluto, append-only, honesto. La derivada factual ∂<sub>ν</sub><sup>SV</sup> no es derivada temporal: es diferencia finita sobre ordinal de sucesos. Suelo canónico: Lema 5.5 (no retorno preternario) y Lema 7.3 (honestidad coordenada) de Lloret Egea (2026j). La frase «antes/después», cuando no esté cuidadosamente asignada al orden ordinal ν<sub>i</sub> < ν<sub>j</sub>, queda prohibida; «velocidad», «aceleración», «ritmo», «evolución», «flujo temporal», «instante», «duración», «momento», «propagación» en sentido temporal clásico quedan prohibidas como magnitudes primarias y reemplazadas por sus análogos estructurales absolutos sobre ordinal de sucesos.
+- **P.1. Prohibición absoluta del tiempo soberano.**
+- **P.2. Prohibición absoluta de probabilidad fundante.**
+- **P.3. Prohibición absoluta de geometría soberana auxiliar.**
+- **P.4. Prohibición absoluta de inferencia opaca.**
+- **P.5. Prohibición absoluta de adición axiomática externa al corpus.**
+- **P.6. Prohibición absoluta de clausura espuria.**
 
-- **P.2. Prohibición absoluta de probabilidad fundante.** El Sistema Vectorial SV no acepta distribución probabilística como suelo ontológico. La indeterminación se codifica como U (axioma absoluto de la U del corpus, Lloret Egea, 2026a, Fundamentos 13.2.5 y 13.2.8). La probabilidad puede aparecer como herramienta de medición subordinada al aparato factual, nunca como primitiva constitutiva. En el presente documento no aparece distribución probabilística alguna con rango fundante.
-
-- **P.3. Prohibición absoluta de geometría soberana auxiliar.** No existe métrica, espacio-tiempo, coordenada absoluta preexistente con rango constitutivo. Toda posición factual es ξ<sub>i</sub> ∈ Ω<sub>pre</sub> con estructura preternaria (α<sub>i</sub>, β<sub>i</sub>) primaria (Lloret Egea, 2026j, §2). La métrica absoluta factual es derivada, no primaria.
-
-- **P.4. Prohibición absoluta de inferencia opaca.** Todo operador y toda decisión factual está declarada con semántica absoluta trazable sobre el corpus (Lloret Egea, 2026a, Fundamentos 13.2.7). No hay heurística oculta, no hay clausura espuria.
-
-- **P.5. Prohibición absoluta de adición axiomática externa al corpus.** Ningún operador, magnitud o teorema de este documento introduce axioma ajeno al Sistema Vectorial SV. Los operadores heredados del corpus se invocan con rango canónico; los operadores propios del régimen luminoso se construyen exclusivamente sobre primitivos del corpus (UE_MFC, UFE, UFM, UFC) y operaciones combinatorias absolutas sobre Ω<sub>pre</sub>.
-
-- **P.6. Prohibición absoluta de clausura espuria.** La indeterminación U no se cierra por decreto; sólo se resuelve por sucesos factuales admisibles según el clasificador Γ<sub>ℋ</sub> del corpus (Lloret Egea, 2026c, Teorema 1). Cualquier clausura presentada en este documento queda justificada mediante un suceso factual declarado o mediante reducción algebraica exacta a un resultado previamente demostrado.
-
-Estas seis prohibiciones operan como marco absoluto del documento. Cualquier pasaje que, por imprecisión expositiva, sugiera contradecirlas debe leerse en el sentido estricto fijado aquí.
+Estas seis prohibiciones operan como marco absoluto del documento. Cualquier pasaje que, por imprecisión expositiva, sugiera contradecirlas debe leerse en el sentido estricto fijado en el apartado final del documento.
 
 ---
 
@@ -133,15 +114,9 @@ El diagnóstico estructural puede fijarse con precisión absoluta. Las lecturas 
 
 El problema no es, por tanto, problema de detalle expositivo. Es problema de arquitectura operatoria. Ninguna lectura heredada posee, por sí sola, la potencia absoluta de cierre que aquí se exige. La presente publicación lo afronta no con síntesis ecléctica, sino con descenso al suelo factual absoluto del sistema y reconstrucción ascendente absoluta.
 
-### 1.3. Dirección absoluta de cierre asumida
+### 1.3. Precedencia absoluta sobre el núcleo inicial cíclico-modal factual
 
-La dirección absoluta de cierre de esta publicación es exactamente la que Maxwell factual fijó para el régimen electromagnético factual (Lloret Egea, 2026k, §3.12): **una única ecuación soberana absoluta** que condense el bloque completo del régimen luminoso. Aquí la denotamos 𝔏<sub>SV</sub> = 0 y la construimos con el mismo rango canónico absoluto que 𝔼<sub>SV</sub> = 0 del bloque Maxwell: ecuación algebraica única sobre una tupla estructural identificada con precisión absoluta, de la cual se demuestra por reducción que implica algebraicamente el bloque Maxwell factual absoluto, la emergencia de la relación de Planck, la disolución estructural de la dualidad proyectiva onda-corpúsculo, la deformación gravitacional absoluta de trayectorias sobre los dos sectores de la Proposición 9 del corpus, y las identidades O1-O2-O3 del aparato NM–TPA (Lloret Egea, 2026a).
-
-El documento **no admite aperturas internas**. Todo lo que comparece queda cerrado en el cuerpo principal o en el anexo operatorio absoluto. **Lo que aún no se demuestra no aparece. Lo que aparece se demuestra.** La presente publicación respeta esta divisa sin excepción en sus 24 secciones y sus 7 subsecciones operatorias del anexo.
-
-### 1.4. Precedencia absoluta sobre el núcleo inicial cíclico-modal factual
-
-La presente publicación opera sobre suelo absolutamente firme: el bloque Maxwell factual absoluto de Lloret Egea (2026k) ha reducido estructuralmente el sistema electromagnético de primer orden al Sistema Vectorial SV y ha fijado la ecuación soberana 𝔼<sub>SV</sub> = 0. Esto supera explícitamente y con rango absoluto el núcleo inicial cíclico-modal factual del electromagnetismo (Lloret Egea, 2026d), que había dejado constancia explícita de operar como núcleo inicial y no como teoría electromagnética factual completa del Sistema Vectorial SV. La presente publicación sobre la luz asume la superación absoluta del núcleo inicial cíclico-modal como premisa: la ecuación única 𝔏<sub>SV</sub> = 0 de la luz se apoya sobre el bloque Maxwell factual absoluto y no sobre el núcleo inicial cíclico-modal. El Teorema 11 (reducción a Maxwell factual) hereda el diccionario absoluto de reducción estructural (§3.5 de 2026k) y la ecuación soberana 𝔼<sub>SV</sub> = 0 (§3.12 de 2026k) sin residuo.
+La presente publicación opera sobre suelo absolutamente firme: el bloque Maxwell factual absoluto de Lloret Egea (2026k) ha reducido estructuralmente el sistema electromagnético de primer orden al Sistema Vectorial SV y ha fijado la ecuación soberana 𝔼<sub>SV</sub> = 0. Esto supera explícitamente y con rango absoluto el núcleo inicial cíclico-modal factual del electromagnetismo (Lloret Egea, 2026d), que había dejado constancia explícita de operar como núcleo inicial y no como teoría electromagnética factual completa del Sistema Vectorial SV. La presente publicación sobre la luz asume la superación absoluta del núcleo inicial cíclico-modal como premisa: la ecuación única **L**<sub>SV</sub> = 0 de la luz se apoya sobre el bloque Maxwell factual absoluto y no sobre el núcleo inicial cíclico-modal. El Teorema 11 (reducción a Maxwell factual) hereda el diccionario absoluto de reducción estructural (§3.5 de 2026k) y la ecuación soberana 𝔼<sub>SV</sub> = 0 (§3.12 de 2026k) sin residuo.
 
 ---
 
@@ -263,7 +238,7 @@ con dimensión heredada de δ<sub>i</sub>. La variación V<sub>i</sub>(δ, n) es
 
 La presente sección construye la magnitud estructural absoluta **h<sub>SV</sub>** como cuanto factual mínimo de transporte asociado a una activación Π<sub>3</sub><sup>H</sup> individual. La construcción procede desde la estructura preternaria y la unicidad canónica absoluta de la proyección ternaria inducida, y deriva la dimensión canónica del cuanto directamente del pilar metrológico del corpus. No se postula: se deriva.
 
-**Definición 3.3 (Cuanto factual absoluto de transporte h<sub>SV</sub>).** El **cuanto factual absoluto de transporte** del Sistema Vectorial SV, denotado h<sub>SV</sub> (letra latina redonda escalar, distinta del operador fraktur 𝔥<sub>SV</sub> de la cadena fundacional de 2026l), es la magnitud estructural mínima asociada a una activación Π<sub>3</sub><sup>H</sup>(ξ<sub>i</sub>) individual sobre cualquier posición del dominio preternario. Representa la cantidad mínima de **variación preternaria transportada** desde el estrato preternario al estrato ternario en un paso de activación. Se fija dimensionalmente por
+**Definición 3.3 (Cuanto factual absoluto de transporte h<sub>SV</sub>).** El **cuanto factual absoluto de transporte** del Sistema Vectorial SV, denotado h<sub>SV</sub> (letra latina redonda escalar, distinta del operador fraktur **h**_op<sub>SV</sub> de la cadena fundacional de 2026l), es la magnitud estructural mínima asociada a una activación Π<sub>3</sub><sup>H</sup>(ξ<sub>i</sub>) individual sobre cualquier posición del dominio preternario. Representa la cantidad mínima de **variación preternaria transportada** desde el estrato preternario al estrato ternario en un paso de activación. Se fija dimensionalmente por
 
 ```math
 [\,h_{SV}\,] = \mathrm{UFM} \cdot \mathrm{UFE}^2 \cdot \mathrm{UE\_MFC}^{-1},
@@ -271,7 +246,7 @@ La presente sección construye la magnitud estructural absoluta **h<sub>SV</sub>
 
 sobre los primitivos metrológicos canónicos absolutos del corpus (Lloret Egea, 2026c). Por compuerta metrológica absoluta ℘<sub>SV</sub>, se identifica con J·s del Sistema Internacional y su valor numérico coincide, bajo calibración metrológica absoluta, con la constante de Planck heredada (anexo A.2).
 
-**Observación 3.2 (h<sub>SV</sub> es escalar, no operador).** La distinción tipográfica h<sub>SV</sub> (latina redonda escalar) vs 𝔥<sub>SV</sub> (fraktur mayúscula, operador) se respeta estrictamente en todo el documento. El escalar h<sub>SV</sub> es magnitud; el operador 𝔥<sub>SV</sub> actúa entre conjuntos. Ambos son piezas del marco, pero no se confunden.
+**Observación 3.2 (h<sub>SV</sub> es escalar, no operador).** La distinción tipográfica h<sub>SV</sub> (latina redonda escalar) vs **h**_op<sub>SV</sub> (fraktur mayúscula, operador) se respeta estrictamente en todo el documento. El escalar h<sub>SV</sub> es magnitud; el operador **h**_op<sub>SV</sub> actúa entre conjuntos. Ambos son piezas del marco, pero no se confunden.
 
 ### 3.4. Teorema absoluto de unicidad estructural del cuanto h<sub>SV</sub>
 
@@ -295,7 +270,7 @@ La conjunción de los Pasos (a)–(d) establece que h<sub>SV</sub> es invariante
 
 ### 3.5. Definición absoluta de la energía factual y su teorema de no decrecencia
 
-**Definición 3.4 (Energía factual absoluta).** La **energía factual absoluta** del Sistema Vectorial SV, denotada 𝔈<sub>SV</sub>(Γ, n), sobre una trayectoria admisible Γ hasta el paso n, es la magnitud estructural absoluta
+**Definición 3.4 (Energía factual absoluta).** La **energía factual absoluta** del Sistema Vectorial SV, denotada **E**<sub>SV</sub>(Γ, n), sobre una trayectoria admisible Γ hasta el paso n, es la magnitud estructural absoluta
 
 ```math
 \mathfrak{E}_{SV}(\Gamma, n) := \sum_{i\in\xi}\bigl[\,A_i(n) + V_i(\delta, n)\,\bigr] + h_{SV}\cdot \mathrm{card}(\pi_{\Gamma,n}),
@@ -324,25 +299,25 @@ coincidente con el joule bajo compuerta metrológica absoluta ℘<sub>SV</sub>.
 
 Las dos primeras son **preternarias** (estructura interna del dominio antes del cruce); la tercera es **ternaria** (transporte al dominio ternario). La energía factual absoluta es, por tanto, magnitud estructural mixta que integra la fase pre-activación y la fase post-activación en una única magnitud escalar con dimensión canónica absoluta.
 
-**Teorema 3.2 (Energía factual como variación total estructurada).** Para toda trayectoria admisible Γ y todo paso n ∈ ℕ<sub>0</sub>, la energía factual absoluta 𝔈<sub>SV</sub>(Γ, n) satisface simultáneamente:
+**Teorema 3.2 (Energía factual como variación total estructurada).** Para toda trayectoria admisible Γ y todo paso n ∈ ℕ<sub>0</sub>, la energía factual absoluta **E**<sub>SV</sub>(Γ, n) satisface simultáneamente:
 
-(i) **no negatividad absoluta**: 𝔈<sub>SV</sub>(Γ, n) ≥ 0;
+(i) **no negatividad absoluta**: **E**<sub>SV</sub>(Γ, n) ≥ 0;
 
-(ii) **no decrecencia absoluta sobre sucesos de clase A (activadores) y clase G (generadores)**: si el paso n + 1 introduce un suceso activador o generador en el sentido de Lloret Egea (2026a, §IV.15), entonces 𝔈<sub>SV</sub>(Γ, n + 1) ≥ 𝔈<sub>SV</sub>(Γ, n);
+(ii) **no decrecencia absoluta sobre sucesos de clase A (activadores) y clase G (generadores)**: si el paso n + 1 introduce un suceso activador o generador en el sentido de Lloret Egea (2026a, §IV.15), entonces **E**<sub>SV</sub>(Γ, n + 1) ≥ **E**<sub>SV</sub>(Γ, n);
 
-(iii) **anulación inicial absoluta**: 𝔈<sub>SV</sub>(Γ, 0) = 0 cuando no ha ocurrido activación alguna y las acumulaciones Σ<sub>i</sub> A<sub>i</sub>(0), Σ<sub>i</sub> V<sub>i</sub>(δ, 0) son cero por vacuidad de índice;
+(iii) **anulación inicial absoluta**: **E**<sub>SV</sub>(Γ, 0) = 0 cuando no ha ocurrido activación alguna y las acumulaciones Σ<sub>i</sub> A<sub>i</sub>(0), Σ<sub>i</sub> V<sub>i</sub>(δ, 0) son cero por vacuidad de índice;
 
-(iv) **monotonía estricta absoluta sobre sucesos generadores con contribución no trivial**: si el paso n + 1 introduce un suceso generador con contribución absoluta no trivial (nueva activación, nuevo incremento de apertura, o nueva variación no nula del sesgo polar), entonces 𝔈<sub>SV</sub>(Γ, n + 1) > 𝔈<sub>SV</sub>(Γ, n) estrictamente.
+(iv) **monotonía estricta absoluta sobre sucesos generadores con contribución no trivial**: si el paso n + 1 introduce un suceso generador con contribución absoluta no trivial (nueva activación, nuevo incremento de apertura, o nueva variación no nula del sesgo polar), entonces **E**<sub>SV</sub>(Γ, n + 1) > **E**<sub>SV</sub>(Γ, n) estrictamente.
 
 *Demostración.* La demostración procede en cuatro pasos, uno por cada propiedad, con invocación de los resultados canónicos absolutos del corpus que sostienen cada paso.
 
-**Paso (i) — no negatividad absoluta.** La suma Σ<sub>i</sub> A<sub>i</sub>(n) ≥ 0 por ser suma finita de magnitudes A<sub>i</sub>(n) ≥ 0 (Proposición 4.3 de 2026l: A<sub>i</sub> definida como suma de incrementos no negativos). La suma Σ<sub>i</sub> V<sub>i</sub>(δ, n) ≥ 0 análogamente (V<sub>i</sub> definida como suma de valores absolutos de incrementos, ≥ 0). El término h<sub>SV</sub> · card(π<sub>Γ,n</sub>) ≥ 0 porque h<sub>SV</sub> > 0 (por definición absoluta del cuanto de transporte como magnitud mínima positiva) y card(π<sub>Γ,n</sub>) ≥ 0. La suma absoluta de tres términos no negativos es no negativa. Por tanto, 𝔈<sub>SV</sub>(Γ, n) ≥ 0 sobre toda trayectoria admisible y todo paso n.
+**Paso (i) — no negatividad absoluta.** La suma Σ<sub>i</sub> A<sub>i</sub>(n) ≥ 0 por ser suma finita de magnitudes A<sub>i</sub>(n) ≥ 0 (Proposición 4.3 de 2026l: A<sub>i</sub> definida como suma de incrementos no negativos). La suma Σ<sub>i</sub> V<sub>i</sub>(δ, n) ≥ 0 análogamente (V<sub>i</sub> definida como suma de valores absolutos de incrementos, ≥ 0). El término h<sub>SV</sub> · card(π<sub>Γ,n</sub>) ≥ 0 porque h<sub>SV</sub> > 0 (por definición absoluta del cuanto de transporte como magnitud mínima positiva) y card(π<sub>Γ,n</sub>) ≥ 0. La suma absoluta de tres términos no negativos es no negativa. Por tanto, **E**<sub>SV</sub>(Γ, n) ≥ 0 sobre toda trayectoria admisible y todo paso n.
 
-**Paso (ii) — no decrecencia sobre sucesos A y G.** La transición ν<sub>n</sub>: n → n + 1 puede producir tres tipos de efectos sobre los términos de la Definición 3.4. Primero, los incrementos de apertura positivos en alguna posición añaden términos no negativos a Σ<sub>i</sub> A<sub>i</sub>(n + 1) − Σ<sub>i</sub> A<sub>i</sub>(n). Segundo, los incrementos (positivos o negativos en valor algebraico) del sesgo polar en alguna posición añaden términos no negativos (valor absoluto) a Σ<sub>i</sub> V<sub>i</sub>(δ, n + 1) − Σ<sub>i</sub> V<sub>i</sub>(δ, n). Tercero, la posible activación de una nueva posición i (con k<sub>i</sub><sup>*</sup> = n + 1) añade h<sub>SV</sub> al término de transporte. Los tres efectos son contribuciones no negativas. En sucesos de clase A (activadores, Definición 3bis.3 más abajo) o G (generadores), al menos uno de estos efectos puede ser positivo, y ninguno negativo. Por tanto, 𝔈<sub>SV</sub>(Γ, n + 1) − 𝔈<sub>SV</sub>(Γ, n) ≥ 0.
+**Paso (ii) — no decrecencia sobre sucesos A y G.** La transición ν<sub>n</sub>: n → n + 1 puede producir tres tipos de efectos sobre los términos de la Definición 3.4. Primero, los incrementos de apertura positivos en alguna posición añaden términos no negativos a Σ<sub>i</sub> A<sub>i</sub>(n + 1) − Σ<sub>i</sub> A<sub>i</sub>(n). Segundo, los incrementos (positivos o negativos en valor algebraico) del sesgo polar en alguna posición añaden términos no negativos (valor absoluto) a Σ<sub>i</sub> V<sub>i</sub>(δ, n + 1) − Σ<sub>i</sub> V<sub>i</sub>(δ, n). Tercero, la posible activación de una nueva posición i (con k<sub>i</sub><sup>*</sup> = n + 1) añade h<sub>SV</sub> al término de transporte. Los tres efectos son contribuciones no negativas. En sucesos de clase A (activadores, Definición 3bis.3 más abajo) o G (generadores), al menos uno de estos efectos puede ser positivo, y ninguno negativo. Por tanto, **E**<sub>SV</sub>(Γ, n + 1) − **E**<sub>SV</sub>(Γ, n) ≥ 0.
 
-**Paso (iii) — anulación inicial absoluta.** En el paso n = 0, antes de cualquier suceso, no ha habido incrementos de apertura (todas las A<sub>i</sub>(0) son sumas vacías, valor 0), no ha habido variaciones del sesgo polar (todas las V<sub>i</sub>(δ, 0) son sumas vacías, valor 0), y no ha habido activaciones (card(π<sub>Γ,0</sub>) = 0). Por tanto, 𝔈<sub>SV</sub>(Γ, 0) = Σ<sub>i</sub> 0 + Σ<sub>i</sub> 0 + h<sub>SV</sub> · 0 = 0.
+**Paso (iii) — anulación inicial absoluta.** En el paso n = 0, antes de cualquier suceso, no ha habido incrementos de apertura (todas las A<sub>i</sub>(0) son sumas vacías, valor 0), no ha habido variaciones del sesgo polar (todas las V<sub>i</sub>(δ, 0) son sumas vacías, valor 0), y no ha habido activaciones (card(π<sub>Γ,0</sub>) = 0). Por tanto, **E**<sub>SV</sub>(Γ, 0) = Σ<sub>i</sub> 0 + Σ<sub>i</sub> 0 + h<sub>SV</sub> · 0 = 0.
 
-**Paso (iv) — monotonía estricta sobre sucesos generadores no triviales.** Un suceso generador con contribución no trivial produce, por definición de no trivialidad (Definición 3bis.3 más abajo), al menos uno de los tres efectos del Paso (ii) en forma estrictamente positiva. Si es incremento positivo de apertura en alguna posición, Σ<sub>i</sub> A<sub>i</sub>(n + 1) > Σ<sub>i</sub> A<sub>i</sub>(n) estrictamente. Si es variación no nula del sesgo polar en alguna posición, Σ<sub>i</sub> V<sub>i</sub>(δ, n + 1) > Σ<sub>i</sub> V<sub>i</sub>(δ, n) estrictamente (por inclusión de un término con valor absoluto positivo). Si es activación nueva, card(π<sub>Γ,n + 1</sub>) = card(π<sub>Γ,n</sub>) + 1 y h<sub>SV</sub> · card(π) aumenta en h<sub>SV</sub> > 0. En cualquier caso, la diferencia 𝔈<sub>SV</sub>(Γ, n + 1) − 𝔈<sub>SV</sub>(Γ, n) es suma de términos no negativos con al menos uno estrictamente positivo, y por tanto es estrictamente positiva.
+**Paso (iv) — monotonía estricta sobre sucesos generadores no triviales.** Un suceso generador con contribución no trivial produce, por definición de no trivialidad (Definición 3bis.3 más abajo), al menos uno de los tres efectos del Paso (ii) en forma estrictamente positiva. Si es incremento positivo de apertura en alguna posición, Σ<sub>i</sub> A<sub>i</sub>(n + 1) > Σ<sub>i</sub> A<sub>i</sub>(n) estrictamente. Si es variación no nula del sesgo polar en alguna posición, Σ<sub>i</sub> V<sub>i</sub>(δ, n + 1) > Σ<sub>i</sub> V<sub>i</sub>(δ, n) estrictamente (por inclusión de un término con valor absoluto positivo). Si es activación nueva, card(π<sub>Γ,n + 1</sub>) = card(π<sub>Γ,n</sub>) + 1 y h<sub>SV</sub> · card(π) aumenta en h<sub>SV</sub> > 0. En cualquier caso, la diferencia **E**<sub>SV</sub>(Γ, n + 1) − **E**<sub>SV</sub>(Γ, n) es suma de términos no negativos con al menos uno estrictamente positivo, y por tanto es estrictamente positiva.
 
 La conjunción de los Pasos (i)–(iv) establece las cuatro propiedades enunciadas. Q.E.D.
 
@@ -404,7 +379,9 @@ La contribución absoluta por activación individual se extrae fijando un tramo 
 
 ### 3.7. Recuperación absoluta de la energía basal
 
-**Proposición 3.1 (Recuperación absoluta de la energía basal).** Si una configuración ξ ⊂ Ω<sub>pre</sub> ha completado sus activaciones sobre una trayectoria admisible Γ<sub>0</sub> y queda cerrada con dictamen final m<sub>0</sub> por el aparato TPA del corpus (Lloret Egea, 2026h), entonces la energía factual absoluta acumulada sobre la trayectoria hasta el cierre coincide dimensionalmente con E<sub>0</sub> = m<sub>0</sub> · c<sub>SV</sub>² bajo la compuerta metrológica absoluta ℘<sub>SV</sub>.
+**Proposición 3.1 (Recuperación absoluta de la energía basal).** Si una configuración ξ ⊂ Ω<sub>pre</sub> ha completado sus activaciones sobre una trayectoria admisible Γ<sub>0</sub> y queda cerrada con dictamen final m<sub>0</sub> por el aparato TPA del corpus (Lloret Egea, 2026b; 2026h), entonces la energía factual absoluta acumulada sobre la trayectoria hasta el cierre coincide dimensionalmente con E<sub>0</sub> = m<sub>0</sub> · c<sub>SV</sub>² bajo la compuerta metrológica absoluta ℘<sub>SV</sub>.
+
+**Sinopsis canónica de TPA (invocada desde Lloret Egea, 2026b, Parte IV).** El acrónimo **TPA** designa la **Trayectoria Poligonal de Activación**, objeto factual canónico absoluto del Sistema Vectorial SV que formaliza la evolución del **observable de apertura** φ(S<sub>k</sub>) := |{i : v<sub>i</sub>(S<sub>k</sub>) = U}| — número absoluto de posiciones en indeterminación honesta U en el frame k de la célula SV(b, n) — sobre una secuencia ordenada absoluta T = (ε<sub>0</sub>, S<sub>0</sub>, ε<sub>1</sub>, S<sub>1</sub>, …, ε<sub>n</sub>, S<sub>n</sub>) de pares (activador, frame). Cada segmento k de la TPA verifica absolutamente la forma afín φ(S<sub>k</sub>) = m<sub>k</sub>·ε<sub>k</sub> + C<sub>k</sub> con m<sub>k</sub> ∈ ℤ, con condición de nodo φ(S<sub>k+1</sub>) = m<sub>k</sub>·ε<sub>k+1</sub> + C<sub>k</sub> y restricción absoluta φ(S<sub>k</sub>) ∈ {0, 1, …, n}. La **derivada de activación** 𝔇<sub>TPA</sub>(k) = m<sub>k</sub> mide la tasa absoluta ordinal de variación estructural del observable; la **acumulación factual absoluta de apertura** 𝔄<sub>TPA</sub>(T) = Σ<sub>k=0</sub><sup>n−1</sup> (φ(S<sub>k</sub>) + φ(S<sub>k+1</sub>))/2 cuantifica absolutamente la carga total de indeterminación sostenida por el sistema a lo largo de toda la trayectoria. La tipología canónica absoluta clasifica las TPA en **doce clases morfológicas** (Σ<sub>1</sub> convergente pura, Σ<sub>2</sub> exploratoria pura, Σ<sub>3</sub> bimodal apertura-cierre, Σ<sub>4</sub> bimodal cierre-apertura, Σ<sub>5</sub> meseta integral, Σ<sub>6</sub> convergente con meseta inicial, Σ<sub>7</sub> convergente con meseta intercalada, Σ<sub>8</sub> exploratoria con saturación, Σ<sub>9</sub> multimodal compleja, Σ<sub>10</sub> umbral tardío, Σ<sub>11</sub> escalonada descendente, Σ<sub>12</sub> asimétrica bimodal) según la secuencia absoluta M = (sgn(m<sub>0</sub>), sgn(m<sub>1</sub>), …, sgn(m<sub>n−1</sub>)) ∈ {+, −, 0}<sup>n</sup>. El **aparato TPA** es el despliegue absoluto completo de los operadores del Nuevo Mosaico (NM) sobre esta familia de trayectorias, articulado canónicamente por las identidades O1-O2-O3 del corpus (§6.2, campo 4): divergencia absoluta sobre celda Div<sub>SV</sub>(C<sub>k</sub>) = −m<sub>k</sub>, teorema absoluto Gauss-SV discreto Σ<sub>k</sub> Div<sub>SV</sub>(C<sub>k</sub>) = φ(S<sub>0</sub>) − φ(S<sub>n</sub>), integral compleja factual absoluta ∫<sub>Γ</sub><sup>SV</sup> φ(z) dz = Σ<sub>k</sub> φ<sub>k</sub> + i<sub>SV</sub>·Σ<sub>k</sub> φ<sub>k</sub>m<sub>k</sub>. El aparato produce el **dictamen final canónico absoluto** en {m<sub>0</sub>, χ<sub>α</sub>, U}: **m<sub>0</sub>** cuando la trayectoria cierra absolutamente como materia factual con masa estructural asociada; **χ<sub>α</sub>** cuando abre absolutamente clase emergente por suceso generador no reducible a clases preexistentes; **U** cuando permanece indeterminación honesta absoluta clasificable por Γ<sub>ℋ</sub>. Es el aparato canónico absoluto del corpus sobre el que descansa la proyección de dictamen π<sub>𝒟</sub> de la fibra luminosa factual (§7.3).
 
 *Demostración.* Una configuración cerrada con dictamen m<sub>0</sub> es, por la Definición 4.1 del corpus (2026h, §4), una trayectoria admisible Γ<sub>0</sub> tal que:
 
@@ -412,7 +389,7 @@ La contribución absoluta por activación individual se extrae fijando un tramo 
 - el aparato TPA aplicado sobre Γ<sub>0</sub> produce dictamen final m<sub>0</sub>;
 - no existen variaciones polares abiertas en el sector basal tras el cierre.
 
-La energía factual absoluta acumulada es entonces 𝔈<sub>SV</sub>(Γ<sub>0</sub>, n<sub>cierre</sub>), magnitud no negativa y finita por el Teorema 3.2. La compuerta metrológica absoluta ℘<sub>SV</sub> (Lloret Egea, 2026c) asegura que toda magnitud del corpus con dimensión canónica absoluta UFM · UFE² · UE_MFC⁻² admite conversión única al pilar metrológico Sistema Internacional, recuperándose la dimensión J. La magnitud m<sub>0</sub> · c<sub>SV</sub>² es producto del escalar m<sub>0</sub> (dimensión UFM) por el cuadrado de c<sub>SV</sub> (dimensión UFE² · UE_MFC⁻²), de modo que su dimensión canónica absoluta es UFM · UFE² · UE_MFC⁻², que coincide exactamente con la de la energía factual absoluta. Aplicando ℘<sub>SV</sub> a 𝔈<sub>SV</sub>(Γ<sub>0</sub>, n<sub>cierre</sub>) y a m<sub>0</sub> · c<sub>SV</sub>², ambas magnitudes admiten la misma representación dimensional canónica absoluta y, por unicidad estructural de la medición factual del corpus (ídem 2026c, §5), coinciden. Q.E.D.
+La energía factual absoluta acumulada es entonces **E**<sub>SV</sub>(Γ<sub>0</sub>, n<sub>cierre</sub>), magnitud no negativa y finita por el Teorema 3.2. La compuerta metrológica absoluta ℘<sub>SV</sub> (Lloret Egea, 2026c) asegura que toda magnitud del corpus con dimensión canónica absoluta UFM · UFE² · UE_MFC⁻² admite conversión única al pilar metrológico Sistema Internacional, recuperándose la dimensión J. La magnitud m<sub>0</sub> · c<sub>SV</sub>² es producto del escalar m<sub>0</sub> (dimensión UFM) por el cuadrado de c<sub>SV</sub> (dimensión UFE² · UE_MFC⁻²), de modo que su dimensión canónica absoluta es UFM · UFE² · UE_MFC⁻², que coincide exactamente con la de la energía factual absoluta. Aplicando ℘<sub>SV</sub> a **E**<sub>SV</sub>(Γ<sub>0</sub>, n<sub>cierre</sub>) y a m<sub>0</sub> · c<sub>SV</sub>², ambas magnitudes admiten la misma representación dimensional canónica absoluta y, por unicidad estructural de la medición factual del corpus (ídem 2026c, §5), coinciden. Q.E.D.
 
 **Observación 3.6 (Reinterpretación absoluta de E = m₀c²).** La Proposición 3.1 muestra que el contenido físico absoluto de la identidad heredada E = m₀c² se recupera en el Sistema Vectorial SV como **acumulación absoluta de energía factual** sobre la trayectoria completa de una configuración preternaria que cierra como materia factual. No se postula la identidad: se deriva. Esto es coherente con la lectura absoluta del corpus sobre el sector basal de reposo (Lloret Egea, 2026g), que fijó E<sub>0</sub> = m<sub>0</sub>c² como absorción del sector basal en el Sistema Vectorial SV con compatibilidad modal y residual.
 
@@ -450,21 +427,73 @@ El Sistema Vectorial SV no puede aceptar, con rango constitutivo absoluto, la co
 
 **Observación 3bis.2 (ε<sub>0</sub> frente a las prohibiciones del marco).** El suceso cero absoluto respeta las seis prohibiciones constitutivas absolutas del Sistema Vectorial SV: no introduce tiempo soberano (ε<sub>0</sub> es suceso ordinal absoluto, no instante temporal físico — respeta P.1); no postula distribución probabilística (ε<sub>0</sub> es suceso cualitativo absoluto sin distribución asociada — respeta P.2); no presupone geometría soberana (ε<sub>0</sub> actúa sobre el alfabeto canónico Σ = {0, 1, U} con estructura polar nativa, no sobre métrica preexistente — respeta P.3); su semántica está declarada con trazabilidad absoluta (Definición 3bis.2 y Observación 3bis.1 — respeta P.4); no añade axioma ajeno al corpus (ε<sub>0</sub> es pieza inevitable dada la eventividad absoluta — respeta P.5); no clausura espuriamente indeterminación ternaria (el reconocimiento honesto de que ε<sub>0</sub> es frontera exterior del marco es U declarada, no U forzada a 0 o 1 — respeta P.6).
 
+---
+
+> ## **DESTACADO — Metafísica del Sistema Vectorial SV**
+>
+> *El suceso cero ε<sub>0</sub> se ha declarado como frontera exterior absoluta del aparato formal del Sistema Vectorial SV: U legítima honesta que no puede ser cerrada desde dentro del sistema sin circularidad metafísica. Esta frontera abre un campo de indagación que se denomina aquí, con rango propio y explícitamente distinguido del corpus matemático-físico absoluto del SV, **Metafísica del Sistema Vectorial SV**, y que será objeto de estudio y análisis en publicaciones futuras específicas dedicadas al efecto.*
+>
+> **Carácter y estatuto.** La Metafísica del Sistema Vectorial SV es el espacio disciplinar que estudia estructuralmente las fronteras exteriores del aparato formal del corpus SV — aquellas U legítimas honestas que el propio aparato declara pero no puede resolver desde dentro de sí sin extralimitarse. No es metafísica en el sentido pre-crítico — no postula sustancias ocultas ni causas primeras —, sino análisis estructural disciplinado de los límites de aplicabilidad absolutos del marco formal. Sus resultados no alteran absolutamente el corpus SV: lo cartografían por fuera.
+>
+> **Postulados de inicio del estudio metafísico SV.** El programa se inicia con tres postulados absolutos que operan como sus prohibiciones constitutivas propias, análogas estructuralmente a las P.1–P.6 del aparato formal pero trasladadas al territorio metafísico:
+>
+> - **M.1 — Honestidad absoluta de la frontera.** Toda indagación metafísica SV reconoce explícitamente que opera fuera del aparato formal del corpus. No se confunde con él ni se le atribuye su rango de demostración. Sus proposiciones son **visiones postuladas**, no teoremas demostrados; su estatuto es el de la conjetura estructurada, no el de la ley.
+>
+> - **M.2 — No sustancialización metafísica.** Ningún objeto del aparato formal SV (suceso cero, vacío factual, dominio preternario, activaciones Π<sub>3</sub><sup>H</sup>, hebras, fibras, umbrales) se reinterpreta metafísicamente como sustancia oculta con propiedades soberanas añadidas. Las visiones postuladas son lecturas estructurales del objeto tal como el aparato lo declara, no capas ontológicas superpuestas.
+>
+> - **M.3 — Reconocimiento absoluto de U como frontera legítima.** La indeterminación U no se fuerza a 0 o 1 mediante construcción metafísica: se estudia como magnitud absoluta del marco que admite **visiones postuladas múltiples**, todas coexistentes, sin que ninguna clausure a las otras ni al aparato formal.
+>
+> **Aplicación a ε<sub>0</sub>: quince visiones postuladas sobre la naturaleza del suceso cero factual.** Bajo los tres postulados anteriores, y con rango exclusivo de metafísica SV (exterior al corpus), se enumeran quince visiones postuladas sobre el carácter estructural del suceso primordial absoluto ε<sub>0</sub>:
+>
+> **V.1 — ε<sub>0</sub> como suceso combinatorio primitivo sin sustancia.** ε<sub>0</sub> es acto combinatorio absoluto del alfabeto canónico Σ = {0, 1, U} que pasa (0,0) a (α,β) con α+β>0, sin más estructura que la transición misma. No hay nada «detrás» del suceso: el suceso **es** la transición.
+>
+> **V.2 — ε<sub>0</sub> como frontera exterior pura del aparato formal.** ε<sub>0</sub> es el límite absoluto de aplicabilidad del principio de eventividad: el punto en el que preguntar «qué causa ε<sub>0</sub>» deja de ser pregunta del aparato formal y pasa a ser pregunta de otro orden.
+>
+> **V.3 — ε<sub>0</sub> como auto-referencia del sistema.** ε<sub>0</sub> es el acto absoluto en el cual el sistema se abre a sí mismo: no procede de nada exterior, sino de la posibilidad estructural interna absoluta del marco de contener dominio preternario efectivo.
+>
+> **V.4 — ε<sub>0</sub> como emergencia desde U pura.** Antes de ε<sub>0</sub>, el estado es U absoluta total no articulada en alfabeto ternario; ε<sub>0</sub> articula esa U primordial en la estructura (0, 1, U) del corpus. El suceso cero es el acto absoluto de apertura del alfabeto canónico mismo.
+>
+> **V.5 — ε<sub>0</sub> como apertura desde estructura pre-preternaria.** Se postula un estrato absoluto anterior al dominio preternario Ω<sub>pre</sub>, el **pre-preternario**, desde el cual ε<sub>0</sub> transporta estructura. La pregunta se recursiviza pero no se resuelve: cada estrato admite su propio ε<sub>0</sub>.
+>
+> **V.6 — ε<sub>0</sub> como acto puro de diferencia.** ε<sub>0</sub> es diferencia absoluta pura entre el estado degenerado (0,0) y el estado preternario (α,β) con α+β>0. No hay «sustrato» previo: sólo el contraste estructural absoluto entre ambos estados.
+>
+> **V.7 — ε<sub>0</sub> como caso límite del operador 𝔊<sup>L</sup><sub>SV</sub>.** El operador de generación preternaria de fibra (§8, B.1) admite como caso límite absoluto la generación desde sección activa vacía: en ese caso límite, el operador **es** ε<sub>0</sub>. El suceso cero no es exógeno sino caso extremo absoluto del operador ya conocido.
+>
+> **V.8 — ε<sub>0</sub> como identidad absoluta estructural.** ε<sub>0</sub> es el elemento identidad absoluto del monoide factual de sucesos admisibles: todo suceso ν admisible cumple ν ∘ ε<sub>0</sub> = ν estructuralmente, y ε<sub>0</sub> es único absoluto con esta propiedad.
+>
+> **V.9 — ε<sub>0</sub> como punto fijo del aparato.** ε<sub>0</sub> es punto fijo absoluto del operador de apertura: aplicarlo dos veces sucesivas sobre un dominio vacío produce el mismo resultado estructural que aplicarlo una vez. La apertura primordial absoluta es idempotente desde la vacuidad.
+>
+> **V.10 — ε<sub>0</sub> como condición de existencia del corpus.** El propio corpus SV, con todo su aparato canónico absoluto, existe como cuerpo disciplinar sólo tras ε<sub>0</sub>. No es ε<sub>0</sub> quien requiere al corpus: es el corpus quien requiere a ε<sub>0</sub> para tener objeto sobre el que operar.
+>
+> **V.11 — ε<sub>0</sub> como polaridad absoluta primordial.** ε<sub>0</sub> es el acto absoluto por el cual comparece por primera vez la polaridad (α, β): apertura y cierre se fijan como magnitudes distinguibles estructuralmente. Antes no hay polaridad, después sí.
+>
+> **V.12 — ε<sub>0</sub> como frontera con el alfabeto binario {0, 1}.** Una lectura postulada vincula ε<sub>0</sub> con la emergencia absoluta del tercer símbolo U: antes de ε<sub>0</sub>, sólo hay potencialidad de alfabeto binario estricto; después, el alfabeto ternario canónico Σ = {0, 1, U} está disponible con su U absoluta.
+>
+> **V.13 — ε<sub>0</sub> como acto honesto exterior.** ε<sub>0</sub> no admite explicación estructural desde dentro del SV. Esta imposibilidad no es déficit del marco: es **reconocimiento honesto absoluto** de que hay fronteras exteriores legítimas, y que forzar su cierre sería violación directa absoluta de P.4 (prohibición de inferencia opaca) y P.6 (prohibición de clausura espuria).
+>
+> **V.14 — ε<sub>0</sub> como frontera con la noción de formación.** Postula que ε<sub>0</sub> es la frontera absoluta entre «no hay dominio» y «hay dominio»: no es «el primer suceso de una serie», sino el suceso absoluto que funda la posibilidad misma de que haya serie. Diferente absoluto de los sucesos generadores posteriores, aunque el Corolario 3bis.1 los declare como casos factualmente análogos.
+>
+> **V.15 — ε<sub>0</sub> como apertura abstracta irreductible.** Última visión postulada: ε<sub>0</sub> es pieza absolutamente irreducible del aparato metafísico SV cualquiera que sea la lectura adoptada entre V.1 y V.14; el estudio metafísico futuro no lo eliminará, podrá solamente refinar su descripción estructural.
+>
+> **Carácter absoluto de las quince visiones.** Las visiones V.1–V.15 son **postuladas**, no demostradas. Su estatuto es el de la conjetura estructural que inicia el programa metafísico SV. Ninguna invalida al aparato formal del corpus; todas lo respetan como frontera absoluta de su propio discurso. El orden en que comparecen no establece preferencia absoluta: son lecturas coexistentes que el estudio metafísico SV futuro articulará con rigor propio.
+
+---
+
 ### 3bis.3. Teorema absoluto de ruptura factual del principio de conservación
 
-**Teorema 3bis.1 (Ruptura factual absoluta del principio de conservación).** En el Sistema Vectorial SV, la energía factual absoluta 𝔈<sub>SV</sub>(Γ, n) **no se conserva globalmente**. Concretamente, se demuestran las tres propiedades absolutas simultáneas siguientes:
+**Teorema 3bis.1 (Ruptura factual absoluta del principio de conservación).** En el Sistema Vectorial SV, la energía factual absoluta **E**<sub>SV</sub>(Γ, n) **no se conserva globalmente**. Concretamente, se demuestran las tres propiedades absolutas simultáneas siguientes:
 
-(i) **apertura desde la vacuidad en el suceso cero**: 𝔈<sub>SV</sub>(Γ, 0) = 0 antes del suceso cero ε<sub>0</sub>, y 𝔈<sub>SV</sub>(Γ, 0) ≥ 0 después de ε<sub>0</sub>, con igualdad estricta sólo en el caso absolutamente degenerado en que ninguna estructura preternaria se abre;
+(i) **apertura desde la vacuidad en el suceso cero**: **E**<sub>SV</sub>(Γ, 0) = 0 antes del suceso cero ε<sub>0</sub>, y **E**<sub>SV</sub>(Γ, 0) ≥ 0 después de ε<sub>0</sub>, con igualdad estricta sólo en el caso absolutamente degenerado en que ninguna estructura preternaria se abre;
 
-(ii) **monotonía estricta sobre sucesos generadores de estructura**: en cualquier suceso generador de estructura ν (en el sentido de Lloret Egea, 2026a, §IV.15), se cumple 𝔈<sub>SV</sub>(Γ, n + 1) > 𝔈<sub>SV</sub>(Γ, n) estrictamente, con diferencia absoluta exactamente igual a la variación preternaria aportada por ν;
+(ii) **monotonía estricta sobre sucesos generadores de estructura**: en cualquier suceso generador de estructura ν (en el sentido de Lloret Egea, 2026a, §IV.15), se cumple **E**<sub>SV</sub>(Γ, n + 1) > **E**<sub>SV</sub>(Γ, n) estrictamente, con diferencia absoluta exactamente igual a la variación preternaria aportada por ν;
 
-(iii) **no factorizabilidad absoluta de la variación ΔE**: la variación Δ𝔈<sub>SV</sub> := 𝔈<sub>SV</sub>(Γ, n + 1) − 𝔈<sub>SV</sub>(Γ, n) asociada a un suceso generador es **no factorizable** como mera transformación de energía factual preexistente dentro del dominio D. Es **aumento estructural absoluto del dominio factual**.
+(iii) **no factorizabilidad absoluta de la variación ΔE**: la variación Δ**E**<sub>SV</sub> := **E**<sub>SV</sub>(Γ, n + 1) − **E**<sub>SV</sub>(Γ, n) asociada a un suceso generador es **no factorizable** como mera transformación de energía factual preexistente dentro del dominio D. Es **aumento estructural absoluto del dominio factual**.
 
 *Demostración.* La demostración procede en tres pasos, uno por cada propiedad.
 
-**Paso (i) — apertura desde la vacuidad en el suceso cero.** Antes de ε<sub>0</sub>, por la Definición 3bis.2(iii), 𝓔(D<sup>(−ε<sub>0</sub>)</sup>) = ∅: no existe sección preternaria efectiva, lo que implica que todas las posiciones admisibles tienen pares (α, β) degenerados a (0, 0) y ninguna activación Π<sub>3</sub><sup>H</sup> ha tenido lugar. Sustituyendo en la Definición 3.4, todos los términos A<sub>i</sub>(0), V<sub>i</sub>(δ, 0) y card(π<sub>Γ,0</sub>) son idénticamente 0. Por tanto, 𝔈<sub>SV</sub>(Γ, 0) = 0 antes de ε<sub>0</sub>.
+**Paso (i) — apertura desde la vacuidad en el suceso cero.** Antes de ε<sub>0</sub>, por la Definición 3bis.2(iii), 𝓔(D<sup>(−ε<sub>0</sub>)</sup>) = ∅: no existe sección preternaria efectiva, lo que implica que todas las posiciones admisibles tienen pares (α, β) degenerados a (0, 0) y ninguna activación Π<sub>3</sub><sup>H</sup> ha tenido lugar. Sustituyendo en la Definición 3.4, todos los términos A<sub>i</sub>(0), V<sub>i</sub>(δ, 0) y card(π<sub>Γ,0</sub>) son idénticamente 0. Por tanto, **E**<sub>SV</sub>(Γ, 0) = 0 antes de ε<sub>0</sub>.
 
-Después de ε<sub>0</sub>, por la Definición 3bis.2(ii), todo par polar ha pasado al estado preternario no activado con α<sub>i</sub> + β<sub>i</sub> > 0. En el paso inmediatamente posterior al suceso cero (esto es, el paso ordinal 0 de la trayectoria que ε<sub>0</sub> abre), la estructura preternaria está presente pero ningún suceso adicional ha ocurrido aún; por tanto, las acumulaciones A<sub>i</sub>(0) y variaciones V<sub>i</sub>(δ, 0) pueden ser cero (no ha habido pasos todavía) y card(π<sub>Γ,0</sub>) = 0 (no hay activación aún). Esto da 𝔈<sub>SV</sub>(Γ, 0) = 0 justo después de ε<sub>0</sub>, con los términos **disponibles** para crecer (la estructura ya está ahí), pero aún no crecidos.
+Después de ε<sub>0</sub>, por la Definición 3bis.2(ii), todo par polar ha pasado al estado preternario no activado con α<sub>i</sub> + β<sub>i</sub> > 0. En el paso inmediatamente posterior al suceso cero (esto es, el paso ordinal 0 de la trayectoria que ε<sub>0</sub> abre), la estructura preternaria está presente pero ningún suceso adicional ha ocurrido aún; por tanto, las acumulaciones A<sub>i</sub>(0) y variaciones V<sub>i</sub>(δ, 0) pueden ser cero (no ha habido pasos todavía) y card(π<sub>Γ,0</sub>) = 0 (no hay activación aún). Esto da **E**<sub>SV</sub>(Γ, 0) = 0 justo después de ε<sub>0</sub>, con los términos **disponibles** para crecer (la estructura ya está ahí), pero aún no crecidos.
 
 Sin embargo, la variación estructural absoluta entre el estado pre-ε<sub>0</sub> y el estado post-ε<sub>0</sub> **sí** es no nula: antes existía sólo (0, 0) en todas las posiciones, después existe (α<sub>i</sub>, β<sub>i</sub>) con ρ<sub>i</sub> > 0. La **capacidad absoluta de producir energía factual** del dominio ha pasado de 0 a > 0 a través de ε<sub>0</sub>. Esto es ruptura absoluta de conservación: antes del suceso cero, la energía factual no podía existir; después, la energía factual puede existir.
 
@@ -476,19 +505,19 @@ Sin embargo, la variación estructural absoluta entre el estado pre-ε<sub>0</su
 
 (c) nueva activación de una posición en el paso n + 1: card(π<sub>Γ,n + 1</sub>) = card(π<sub>Γ,n</sub>) + 1, contribuyendo h<sub>SV</sub> > 0.
 
-Si todos estos incrementos fueran nulos, ν sería suceso degenerado (no generador). Por condición de generación, al menos uno es estrictamente positivo. Por la Definición 3.4 y el Paso (iv) del Teorema 3.2, 𝔈<sub>SV</sub>(Γ, n + 1) − 𝔈<sub>SV</sub>(Γ, n) > 0 estrictamente.
+Si todos estos incrementos fueran nulos, ν sería suceso degenerado (no generador). Por condición de generación, al menos uno es estrictamente positivo. Por la Definición 3.4 y el Paso (iv) del Teorema 3.2, **E**<sub>SV</sub>(Γ, n + 1) − **E**<sub>SV</sub>(Γ, n) > 0 estrictamente.
 
-**Paso (iii) — no factorizabilidad absoluta de la variación.** Se demuestra por argumento estructural absoluto que la variación Δ𝔈<sub>SV</sub> asociada a un suceso generador no es resultado de una redistribución de energía factual ya presente en el dominio. Antes de ν, la contribución estructural asociada al suceso generador no existía en el dominio factual: las nuevas posiciones activadas, los nuevos incrementos de apertura o las nuevas variaciones polares son **estructura que antes del suceso no estaba reconocida**. Por la Definición 3bis.1 de estructura factual reconocida, antes de ν no había tal estructura; después de ν la hay. El aparato factual absoluto no admite una contabilidad compensatoria en la que este aumento se corresponda con una disminución equivalente en otro lugar del mismo dominio, porque tal «otro lugar del que tomar» no está definido en el ordinal ν de sucesos absolutos: la trayectoria es append-only (Lema 5.5 de 2026j), lo que prohíbe reescribir pasos anteriores para compensar el presente. Por tanto, Δ𝔈<sub>SV</sub> es aumento estructural absoluto del dominio factual, no factorizable como redistribución interna. Q.E.D.
+**Paso (iii) — no factorizabilidad absoluta de la variación.** Se demuestra por argumento estructural absoluto que la variación Δ**E**<sub>SV</sub> asociada a un suceso generador no es resultado de una redistribución de energía factual ya presente en el dominio. Antes de ν, la contribución estructural asociada al suceso generador no existía en el dominio factual: las nuevas posiciones activadas, los nuevos incrementos de apertura o las nuevas variaciones polares son **estructura que antes del suceso no estaba reconocida**. Por la Definición 3bis.1 de estructura factual reconocida, antes de ν no había tal estructura; después de ν la hay. El aparato factual absoluto no admite una contabilidad compensatoria en la que este aumento se corresponda con una disminución equivalente en otro lugar del mismo dominio, porque tal «otro lugar del que tomar» no está definido en el ordinal ν de sucesos absolutos: la trayectoria es append-only (Lema 5.5 de 2026j), lo que prohíbe reescribir pasos anteriores para compensar el presente. Por tanto, Δ**E**<sub>SV</sub> es aumento estructural absoluto del dominio factual, no factorizable como redistribución interna. Q.E.D.
 
 ### 3bis.4. Clasificación absoluta de sucesos según su aportación a la energía
 
 **Definición 3bis.3 (Clasificación energética absoluta de sucesos factuales).** Todo suceso factual ν admite **una y sólo una** de las tres clasificaciones absolutas siguientes, mutuamente excluyentes:
 
-**Clase G (suceso generador absoluto):** Δ𝔈<sub>SV</sub>(ν) > 0 estrictamente. El suceso produce **aumento estructural absoluto** del dominio factual, no factorizable. Incluye el suceso cero ε<sub>0</sub> como caso primordial absoluto. El aparato TPA (2026h) identifica como generadores los sucesos que producen dictamen χ<sub>α</sub> (clase emergente), abriendo nueva categoría factual no reducible a clases preexistentes del corpus.
+**Clase G (suceso generador absoluto):** Δ**E**<sub>SV</sub>(ν) > 0 estrictamente. El suceso produce **aumento estructural absoluto** del dominio factual, no factorizable. Incluye el suceso cero ε<sub>0</sub> como caso primordial absoluto. El aparato TPA (2026h) identifica como generadores los sucesos que producen dictamen χ<sub>α</sub> (clase emergente), abriendo nueva categoría factual no reducible a clases preexistentes del corpus.
 
-**Clase A (suceso activador absoluto):** Δ𝔈<sub>SV</sub>(ν) = 0. El suceso **transforma** entre las tres componentes de la energía factual sin aumento neto absoluto del escalar 𝔈<sub>SV</sub>. Este es el caso que replica la conservación heredada como **comportamiento contingente** en regímenes sin generación. Ejemplo típico: decaimiento radiactivo que convierte masa basal en energía cinética emergente sin variación neta del escalar factual.
+**Clase A (suceso activador absoluto):** Δ**E**<sub>SV</sub>(ν) = 0. El suceso **transforma** entre las tres componentes de la energía factual sin aumento neto absoluto del escalar **E**<sub>SV</sub>. Este es el caso que replica la conservación heredada como **comportamiento contingente** en regímenes sin generación. Ejemplo típico: decaimiento radiactivo que convierte masa basal en energía cinética emergente sin variación neta del escalar factual.
 
-**Clase D (suceso disipador absoluto):** Δ𝔈<sub>SV</sub>(ν) < 0 estrictamente. Clase declarada absolutamente con rango canónico pero **aún no observada** en el corpus SV en su estado actual. Si futuras publicaciones del corpus identifican sucesos clase D, el aparato los absorbe con rango canónico sin necesidad de modificar su estructura constitutiva.
+**Clase D (suceso disipador absoluto):** Δ**E**<sub>SV</sub>(ν) < 0 estrictamente. Clase declarada absolutamente con rango canónico pero **aún no observada** en el corpus SV en su estado actual. Si futuras publicaciones del corpus identifican sucesos clase D, el aparato los absorbe con rango canónico sin necesidad de modificar su estructura constitutiva.
 
 ### 3bis.5. Corolario absoluto: el suceso cero como caso límite absoluto de suceso generador
 
@@ -513,9 +542,9 @@ Estas conservaciones locales absolutas operan **dentro del marco** ya establecid
 
 **Teorema 3bis.2 (Creabilidad factual absoluta de la energía en el SV).** En el Sistema Vectorial SV, la energía factual absoluta **sí se crea** en sucesos de clase G (generadores). El principio heredado «la energía ni se crea ni se destruye» **no es ley absoluta** del marco: es comportamiento contingente de regímenes factuales en los que no ocurren sucesos generadores.
 
-*Demostración.* Consecuencia directa absoluta del Teorema 3bis.1(i) y (ii). El suceso cero ε<sub>0</sub> abre el dominio desde la vacuidad absoluta, creando capacidad energética donde antes no había dominio. Los sucesos generadores posteriores crean energía factual absoluta desde subdominios parciales: su Δ𝔈<sub>SV</sub> > 0 es estructuralmente irreducible a redistribución de energía preexistente. Ambos fenómenos son aumentos estructurales absolutos, no transformaciones conservativas. Por el Teorema 3bis.1(iii), la variación no es factorizable como redistribución interna. Por tanto, es creación absoluta. Q.E.D.
+*Demostración.* Consecuencia directa absoluta del Teorema 3bis.1(i) y (ii). El suceso cero ε<sub>0</sub> abre el dominio desde la vacuidad absoluta, creando capacidad energética donde antes no había dominio. Los sucesos generadores posteriores crean energía factual absoluta desde subdominios parciales: su Δ**E**<sub>SV</sub> > 0 es estructuralmente irreducible a redistribución de energía preexistente. Ambos fenómenos son aumentos estructurales absolutos, no transformaciones conservativas. Por el Teorema 3bis.1(iii), la variación no es factorizable como redistribución interna. Por tanto, es creación absoluta. Q.E.D.
 
-**Observación 3bis.5 (La conservación heredada como caso particular absoluto).** El Teorema 3bis.2 no invalida el principio de conservación heredado en su nicho de aplicabilidad. En regímenes en los que todos los sucesos son de clase A (activadores), la energía factual absoluta se comporta como si fuera conservativa: Σ Δ𝔈<sub>SV</sub> = 0 sobre cualquier secuencia de sucesos A consecutivos. El marco absoluto del SV **absorbe** la conservación heredada como caso particular: régimen sin generación activa. Pero no la fija como principio fundamental.
+**Observación 3bis.5 (La conservación heredada como caso particular absoluto).** El Teorema 3bis.2 no invalida el principio de conservación heredado en su nicho de aplicabilidad. En regímenes en los que todos los sucesos son de clase A (activadores), la energía factual absoluta se comporta como si fuera conservativa: Σ Δ**E**<sub>SV</sub> = 0 sobre cualquier secuencia de sucesos A consecutivos. El marco absoluto del SV **absorbe** la conservación heredada como caso particular: régimen sin generación activa. Pero no la fija como principio fundamental.
 
 ### 3bis.8. Compatibilidad absoluta con el corpus
 
@@ -531,11 +560,11 @@ El Teorema 3bis.1 no contradice ninguna pieza del corpus: las articula. La conse
 
 ### 3bis.9. Refuerzo absoluto del invariante I7 de la ecuación única
 
-**Observación 3bis.7 (Refuerzo absoluto del invariante I7).** El invariante I7 de la ecuación única 𝔏<sub>SV</sub> = 0 (enunciado completo en §9) se refuerza con la clasificación absoluta de sucesos del presente §3bis:
+**Observación 3bis.7 (Refuerzo absoluto del invariante I7).** El invariante I7 de la ecuación única **L**<sub>SV</sub> = 0 (enunciado completo en §9) se refuerza con la clasificación absoluta de sucesos del presente §3bis:
 
-**I7 reforzado absolutamente (energía factual no trivial con taxonomía absoluta de sucesos).** La energía factual absoluta 𝔈<sub>SV</sub> > 0 sobre la trayectoria admisible de toda fibra luminosa, **con declaración explícita absoluta de la clasificación** de los sucesos constitutivos de la fibra como generadores (G), activadores (A) o disipadores (D), y cumplimiento absoluto de la monotonía factual Δ𝔈<sub>SV</sub>(ν) ≥ 0 para todo suceso de clase G o A, y Δ𝔈<sub>SV</sub>(ν) > 0 estrictamente para todo suceso de clase G no trivial.
+**I7 reforzado absolutamente (energía factual no trivial con taxonomía absoluta de sucesos).** La energía factual absoluta **E**<sub>SV</sub> > 0 sobre la trayectoria admisible de toda fibra luminosa, **con declaración explícita absoluta de la clasificación** de los sucesos constitutivos de la fibra como generadores (G), activadores (A) o disipadores (D), y cumplimiento absoluto de la monotonía factual Δ**E**<sub>SV</sub>(ν) ≥ 0 para todo suceso de clase G o A, y Δ**E**<sub>SV</sub>(ν) > 0 estrictamente para todo suceso de clase G no trivial.
 
-Los 44 operadores del §8 y la ecuación 𝔏<sub>SV</sub> = 0 del §9 son compatibles con esta forma reforzada absoluta de I7 sin modificación estructural alguna.
+Los 44 operadores del §8 y la ecuación **L**<sub>SV</sub> = 0 del §9 son compatibles con esta forma reforzada absoluta de I7 sin modificación estructural alguna.
 
 ### 3bis.10. Apertura declarada absoluta sobre la teoría general de sucesos generadores
 
@@ -549,7 +578,7 @@ La construcción de una teoría general absoluta de sucesos generadores en su to
 
 ### 4.1. Materia factual invocada con rango canónico absoluto desde 2026h
 
-La presente publicación **no postula** una definición nueva de materia factual. La invoca desde el corpus SV con rango canónico absoluto y la reproduce con autocontención para dar al lector acceso directo al suelo sobre el que descansa el tratamiento gravitacional de §5 y el operador de compatibilidad basal-fibrosa 𝔅<sup>L</sup><sub>SV</sub> del §8.
+La presente publicación **no postula** una definición nueva de materia factual. La invoca desde el corpus SV con rango canónico absoluto y la reproduce con autocontención para dar al lector acceso directo al suelo sobre el que descansa el tratamiento gravitacional de §5 y el operador de compatibilidad basal-fibrosa **B**<sup>L</sup><sub>SV</sub> del §8.
 
 **Definición 4.1 (Materia factual absoluta, invocada desde 2026h §4, reproducida con autocontención).** Sea ξ ⊂ Ω<sub>pre</sub> una configuración preternaria. La configuración ξ constituye **materia factual absoluta** si y sólo si existe una trayectoria admisible Γ sobre Ω<sub>pre</sub> y un paso final n<sub>cierre</sub> ∈ ℕ<sub>0</sub> tales que se satisfacen simultáneamente las tres condiciones absolutas:
 
@@ -581,7 +610,7 @@ con dimensión canónica absoluta
 [\,M_{\mathrm{mat}}\,] = \mathrm{UFM}.
 ```
 
-**Observación 4.1 (Densidad factual absoluta derivada).** Si el régimen requiere densidad volumétrica absoluta sobre una región, la magnitud derivada ρ<sub>mat</sub>(𝒞) := M<sub>mat</sub>(𝒞) / Vol(𝒞) tiene dimensión canónica absoluta UFM · UFE⁻³, con Vol(𝒞) como medida factual de extensión de la región. Ambos conceptos — masa factual acumulada absoluta M<sub>mat</sub> y densidad factual absoluta ρ<sub>mat</sub> — son admisibles según el contexto del uso. La presente publicación adopta M<sub>mat</sub> como magnitud canónica absoluta de referencia para el tratamiento gravitacional del §5 y el operador 𝔅<sup>L</sup><sub>SV</sub> del §8.
+**Observación 4.1 (Densidad factual absoluta derivada).** Si el régimen requiere densidad volumétrica absoluta sobre una región, la magnitud derivada ρ<sub>mat</sub>(𝒞) := M<sub>mat</sub>(𝒞) / Vol(𝒞) tiene dimensión canónica absoluta UFM · UFE⁻³, con Vol(𝒞) como medida factual de extensión de la región. Ambos conceptos — masa factual acumulada absoluta M<sub>mat</sub> y densidad factual absoluta ρ<sub>mat</sub> — son admisibles según el contexto del uso. La presente publicación adopta M<sub>mat</sub> como magnitud canónica absoluta de referencia para el tratamiento gravitacional del §5 y el operador **B**<sup>L</sup><sub>SV</sub> del §8.
 
 ### 4.3. Propiedades algebraicas absolutas de la masa factual acumulada
 
@@ -684,7 +713,7 @@ La conjunción de los Pasos (a) y (b) establece la equivalencia absoluta enuncia
 
 ### 6.1. El error estructural de los tratamientos heredados y de los primeros tratamientos intra-SV
 
-Hasta la presente publicación, tanto la física heredada como las primeras formulaciones intra-SV sobre la luz factual trataban **tres campos** como si fueran los únicos disponibles con rango canónico: eléctrico, magnético y gravitatorio. Esta presentación es estructuralmente insuficiente. El corpus SV dispone ya, con rango canónico absoluto, en sus publicaciones 2026a–2026l, de **siete campos factuales coexistentes absolutos**, cada uno con su aparato operatorio propio, con sus teoremas demostrados, con sus identidades absolutas de conservación o balance. La ecuación única absoluta 𝔏<sub>SV</sub> = 0 de la luz debe convocar coherencia absoluta con los siete campos, no con tres.
+Hasta la presente publicación, tanto la física heredada como las primeras formulaciones intra-SV sobre la luz factual trataban **tres campos** como si fueran los únicos disponibles con rango canónico: eléctrico, magnético y gravitatorio. Esta presentación es estructuralmente insuficiente. El corpus SV dispone ya, con rango canónico absoluto, en sus publicaciones 2026a–2026l, de **siete campos factuales coexistentes absolutos**, cada uno con su aparato operatorio propio, con sus teoremas demostrados, con sus identidades absolutas de conservación o balance. La ecuación única absoluta **L**<sub>SV</sub> = 0 de la luz debe convocar coherencia absoluta con los siete campos, no con tres.
 
 La presente sección identifica explícitamente los siete campos factuales coexistentes absolutos, fija su símbolo canónico, su dominio, su codominio, el aparato operatorio sobre el que descansa y la fuente canónica del corpus donde quedan demostrados. La tabla absoluta de los siete campos del §6.3 sintetiza la información.
 
@@ -748,7 +777,7 @@ donde i<sub>SV</sub> es la unidad imaginaria factual absoluta del plano complejo
 
 ### 6.4. Proposición absoluta de coexistencia estructural
 
-**Proposición 6.1 (Coexistencia estructural absoluta de los siete campos factuales).** Los siete campos factuales de la Tabla del §6.3 son **simultáneamente operativos** sobre el Sistema Vectorial SV, **sin colapsar** unos en otros, **sin contradicciones estructurales**, y **sin redundancias absolutas**. Cada campo aporta información absoluta sobre un aspecto estructural distinto del marco factual, y la ecuación única absoluta 𝔏<sub>SV</sub> = 0 de la luz (§9) convoca simultáneamente a los siete como compuertas de verificación absoluta.
+**Proposición 6.1 (Coexistencia estructural absoluta de los siete campos factuales).** Los siete campos factuales de la Tabla del §6.3 son **simultáneamente operativos** sobre el Sistema Vectorial SV, **sin colapsar** unos en otros, **sin contradicciones estructurales**, y **sin redundancias absolutas**. Cada campo aporta información absoluta sobre un aspecto estructural distinto del marco factual, y la ecuación única absoluta **L**<sub>SV</sub> = 0 de la luz (§9) convoca simultáneamente a los siete como compuertas de verificación absoluta.
 
 *Demostración.* La demostración procede en tres pasos.
 
@@ -760,7 +789,7 @@ donde i<sub>SV</sub> es la unidad imaginaria factual absoluta del plano complejo
 
 Por los Pasos (a)–(c), los siete campos coexisten estructuralmente sobre el Sistema Vectorial SV sin colapso, sin contradicción y sin redundancia absolutas. Q.E.D.
 
-**Observación 6.2 (La luz convoca a los siete campos simultáneamente).** La ecuación única absoluta 𝔏<sub>SV</sub> = 0 de la luz factual convocará en §9 a los siete campos simultáneamente como compuertas absolutas. Los invariantes I1-I13 de la ecuación única absoluta incluyen verificaciones absolutas en cada uno de los siete campos. La primera consecuencia doctrinal absoluta de esta convocatoria es que una configuración electromagnética absoluta (campos 1 y 2) admisible pero sin coherencia con los campos 3-7 **no constituye luz factual absoluta** en el sentido pleno del marco: requiere compatibilidad simultánea absoluta con los siete campos, no sólo con dos.
+**Observación 6.2 (La luz convoca a los siete campos simultáneamente).** La ecuación única absoluta **L**<sub>SV</sub> = 0 de la luz factual convocará en §9 a los siete campos simultáneamente como compuertas absolutas. Los invariantes I1-I13 de la ecuación única absoluta incluyen verificaciones absolutas en cada uno de los siete campos. La primera consecuencia doctrinal absoluta de esta convocatoria es que una configuración electromagnética absoluta (campos 1 y 2) admisible pero sin coherencia con los campos 3-7 **no constituye luz factual absoluta** en el sentido pleno del marco: requiere compatibilidad simultánea absoluta con los siete campos, no sólo con dos.
 
 ---
 
@@ -813,7 +842,7 @@ Una **fibra factual luminosa admisible** es un objeto Φ<sup>L</sup><sub>SV</sub
 
 (C6) la proyección de campo π<sub>𝒞</sub>(Φ<sup>L</sup><sub>SV</sub>) (véase §7.3) satisface el bloque Maxwell factual absoluto 𝔼<sub>SV</sub>(𝕏<sub>SV</sub>, 𝕐<sub>SV</sub>, ℂ<sub>SV</sub>, J<sub>SV</sub>) = 0 del corpus (Lloret Egea, 2026k, §3.12);
 
-(C7) la energía factual absoluta 𝔈<sub>SV</sub>(Γ, n) > 0 para n ≥ min<sub>i</sub> k<sub>i</sub><sup>*</sup>, esto es, la fibra transporta energía factual efectiva desde el primer cruce.
+(C7) la energía factual absoluta **E**<sub>SV</sub>(Γ, n) > 0 para n ≥ min<sub>i</sub> k<sub>i</sub><sup>*</sup>, esto es, la fibra transporta energía factual efectiva desde el primer cruce.
 
 **Observación 7.2 (Admisibilidad absoluta es condición estructural, no hipótesis).** Las siete condiciones (C1)-(C7) no son hipótesis libres: son piezas estructurales absolutas del marco SV. (C1)-(C5) derivan directamente de la disciplina canónica absoluta del corpus sobre trayectorias admisibles y sobre Π<sub>3</sub><sup>H</sup>. (C6) es compatibilidad absoluta con el bloque Maxwell factual cerrado absolutamente en 2026k. (C7) es consecuencia absoluta del Teorema 3.2 (no decrecencia de la energía factual) aplicado a sucesos activadores y generadores sobre la fibra. Por tanto, toda fibra **luminosa** factual absoluta satisface absolutamente las siete condiciones.
 
@@ -876,31 +905,163 @@ El dictamen absoluto π<sub>𝒟</sub>(Φ<sup>L</sup><sub>SV</sub>) toma uno de 
 
 Estas sub-proyecciones **no incrementan absolutamente el número de proyecciones canónicas**: son especificaciones estructurales absolutas de π<sub>𝒟</sub> según el valor del dictamen obtenido.
 
-**Observación 7.4 (Familia abierta absoluta de proyecciones).** Onda y corpúsculo son las proyecciones π<sub>ω</sub> y π<sub>κ</sub>. La física heredada trató durante un siglo estas dos proyecciones como si agotaran el fenómeno luminoso. **No lo agotan.** Las otras cuatro — π<sub>𝒞</sub>, π<sub>𝒯</sub>, π<sub>ℰ</sub>, π<sub>𝒟</sub> — existen con rango canónico absoluto sobre el corpus SV. La fibra es primaria; las seis proyecciones son lecturas parciales absolutas. La familia queda **declarada absolutamente abierta**: el corpus puede añadir futuras proyecciones con rango canónico cuando se demuestren absolutamente legítimas. Ejemplo canónico candidato: proyección NLP absoluta π<sub>NLP</sub> vía transductor 𝓘<sub>NLP</sub> de 2026b, activa sobre fibras luminosas que porten paquete observacional declarado; o cualquier otra proyección derivada absolutamente de estructura canónica del corpus aún no identificada.
+### 7.3bis. Las nueve proyecciones canónicas adicionales P7–P15 y el algoritmo absoluto de búsqueda
+
+El corpus SV dispone de aparato canónico absoluto suficiente para derivar, con el mismo rango canónico absoluto que las seis proyecciones P1–P6, **al menos nueve proyecciones adicionales absolutas** sobre la fibra luminosa factual. Se construyen absolutamente apoyadas en los siete campos factuales coexistentes absolutos (§6) y en los 44 operadores del §8. Se declaran canónicamente como P7–P15, completando una familia canónica absoluta de **quince proyecciones** operativas simultáneamente sobre toda fibra admisible. La familia permanece **declarada absolutamente abierta** por encima de P15 mediante el algoritmo absoluto de búsqueda que se fija al final de la subsección.
+
+**Definición 7.9 (P7 — Proyección NLP absoluta π<sub>NLP</sub>).** La **proyección NLP absoluta** π<sub>NLP</sub> actúa sobre una fibra luminosa Φ<sup>L</sup><sub>SV</sub> que porte absolutamente paquete observacional declarado ω<sub>A</sub>, aplicando el transductor lingüístico 𝓘<sub>NLP</sub> del corpus (Lloret Egea, 2026b):
+
+```math
+\pi_{\mathrm{NLP}}\bigl(\Phi^L_{SV}\bigr) := \mathcal{I}_{\mathrm{NLP}}\bigl(\omega_A(\Phi^L_{SV})\bigr) \;\in\; \mathcal{K}_3^9,
+```
+
+produciendo una célula mínima absoluta de nueve posiciones en K<sub>3</sub><sup>9</sup> con su clasificador de horizonte asociado. Activa absolutamente sólo sobre fibras que porten paquete observacional; inactiva estructuralmente sobre fibras sin carga informacional declarada.
+
+**Definición 7.10 (P8 — Proyección entrópica absoluta π<sub>H</sub>).** La **proyección entrópica absoluta** π<sub>H</sub> extrae la magnitud absoluta de entropía factual del corpus (Lloret Egea, 2026l) aplicada a la fibra:
+
+```math
+\pi_H\bigl(\Phi^L_{SV}\bigr) := H_{SV}(\Gamma, n_{\mathrm{fin}}) = \mathcal{A}^L_{SV}\bigl(\Phi^L_{SV}\bigr),
+```
+
+donde la acumulación 𝒜<sup>L</sup><sub>SV</sub> integra Σ<sub>i</sub>[A<sub>i</sub> + V<sub>i</sub>] + ln 3 · card(π) (§8, operador B.11). Cuantifica absolutamente la carga entrópica estructural de la fibra, lectura canónica absoluta complementaria a la energía factual de P4.
+
+**Definición 7.11 (P9 — Proyección gravitacional absoluta π<sub>gr</sub>).** La **proyección gravitacional absoluta** π<sub>gr</sub> extrae el par absoluto bisectorial (G(ν), 𝒢<sub>J</sub>(ν)) sobre el recorrido de la fibra en proximidad de regiones con masa factual acumulada (§6, campo 3):
+
+```math
+\pi_{\mathrm{gr}}\bigl(\Phi^L_{SV}\bigr) := \bigl\{\,\bigl(G(\nu_{\mathcal{C}}(\Phi^L)),\;\mathcal{G}_J(\nu_{\mathcal{C}}(\Phi^L))\bigr)\;:\; \mathcal{C}\subset\Omega_{\mathrm{pre}}\;\text{con}\;M_{\mathrm{mat}}(\mathcal{C})>0\,\bigr\}.
+```
+
+Lee absolutamente el perfil gravitacional factual absoluto del recorrido, incluyendo la deformación del umbral 𝓛<sub>i</sub><sup>(gr)</sup>.
+
+**Definición 7.12 (P10 — Proyección de coherencia absoluta π<sub>coh</sub>).** La **proyección de coherencia absoluta** π<sub>coh</sub> evalúa la coherencia estructural absoluta de la fibra consigo misma y, opcionalmente, con otras fibras compartidas (§8, operador B.7):
+
+```math
+\pi_{\mathrm{coh}}\bigl(\Phi^L_{SV}\bigr) := \max_{i,j\in\xi,\,i\ne j}\,\mathfrak{C}^L_{SV}\bigl(h_i, h_j\bigr),
+```
+
+devolviendo una magnitud absoluta no negativa en ℝ<sub>≥0</sub> que se anula si y sólo si todas las hebras internas son mutuamente estructuralmente coherentes absolutamente. **No es coherencia temporal**: es coherencia estructural absoluta sobre posiciones compartidas (prohibición P.1 respetada).
+
+**Definición 7.13 (P11 — Proyección de polarización absoluta π<sub>pol</sub>).** La **proyección de polarización absoluta** π<sub>pol</sub> extrae el conjunto absoluto de residuales polares de cruce sobre todas las hebras activadas de la fibra (§8, operador B.6):
+
+```math
+\pi_{\mathrm{pol}}\bigl(\Phi^L_{SV}\bigr) := \bigl\{\,\delta_i^{\mathrm{res}}(\Gamma)\;:\; i\in\xi,\; k_i^{\ast}<+\infty\,\bigr\}.
+```
+
+Lee absolutamente el perfil de polarización factual absoluta de la fibra, como magnitud derivada del balance polar absoluto α<sub>i</sub>(k<sub>i</sub><sup>*</sup>) − β<sub>i</sub>(k<sub>i</sub><sup>*</sup>) al cruce. Abre absolutamente el régimen de polarización sin cerrar absolutamente a las polarizaciones heredadas de la óptica clásica.
+
+**Definición 7.14 (P12 — Proyección de Fourier factual absoluta π<sub>ℱ</sub>).** La **proyección de Fourier factual absoluta** π<sub>ℱ</sub> aplica el aparato Fourier factual del corpus (Lloret Egea, 2026d) a la fibra, descomponiéndola absolutamente sobre la base modal cíclica factual absoluta de la célula SV(3, 9):
+
+```math
+\pi_{\mathcal{F}}\bigl(\Phi^L_{SV}\bigr) := \bigl\{\,\hat\Phi^L_{SV}(k_m)\;:\; k_m \in \mathrm{base\ modal\ SV}(3,9)\,\bigr\},
+```
+
+produciendo absolutamente los coeficientes modales factuales absolutos de la descomposición. Lectura canónica absoluta dual a la proyección espectral π<sub>ℰ</sub> (operan sobre dominios estructuralmente distintos: cíclico-modal vs observables).
+
+**Definición 7.15 (P13 — Proyección de transmutación absoluta π<sub>trs</sub>).** La **proyección de transmutación absoluta** π<sub>trs</sub> evalúa el conjunto de clases emergentes absolutas accesibles desde la fibra bajo el operador de transmutación luminosa (§8, operador B.17):
+
+```math
+\pi_{\mathrm{trs}}\bigl(\Phi^L_{SV}\bigr) := \bigl\{\,\chi_\alpha\;:\; \mathfrak{T}^{\mathrm{trs}}_{SV}(\Phi^L_{SV}) \;\text{admite transición a}\; \chi_\alpha\,\bigr\}.
+```
+
+Lee absolutamente el **potencial de transmutación** de la fibra: qué clases emergentes absolutas puede generar el recorrido si se producen sucesos generadores absolutos adicionales sobre él. Es lectura prospectiva canónica absoluta, complementaria a la proyección de dictamen π<sub>𝒟</sub> (que lee el dictamen efectivamente producido).
+
+**Definición 7.16 (P14 — Proyección de criticidad absoluta π<sub>Γ</sub>).** La **proyección de criticidad absoluta** π<sub>Γ</sub> aplica la función absoluta de criticidad Γ del corpus (Lloret Egea, 2026a, Fundamentos §7.10; §8, operador A.21) a cada posición activada de la fibra:
+
+```math
+\pi_{\Gamma}\bigl(\Phi^L_{SV}\bigr) := \bigl\{\,\Gamma(\xi_i)\;:\; i\in\xi,\; k_i^{\ast}<+\infty\,\bigr\},
+```
+
+devolviendo el perfil absoluto de criticidad estructural de la fibra sobre la célula SV(3,9). Identifica absolutamente las posiciones críticas absolutas cuya activación ha producido cambio estructural mayor.
+
+**Definición 7.17 (P15 — Proyección de correlación estructural absoluta π<sub>corr</sub>).** La **proyección de correlación estructural absoluta** π<sub>corr</sub> actúa absolutamente sobre pares ordenados de fibras que comparten sustrato preternario, aplicando el operador B.16:
+
+```math
+\pi_{\mathrm{corr}}\bigl(\Phi^L_{SV,1},\Phi^L_{SV,2}\bigr) := \mathfrak{E}^{\mathrm{corr}}_{SV}\bigl(\Phi^L_{SV,1},\Phi^L_{SV,2}\bigr),
+```
+
+produciendo absolutamente el grado de correlación estructural absoluta sobre posiciones compartidas entre dos fibras. Generaliza absolutamente el contenido estructural absoluto del entrelazamiento cuántico heredado, **sin invocar estados cuánticos en espacios de Hilbert ni operadores hermíticos soberanos** (prohibición P.3 respetada).
+
+**Tabla canónica absoluta de las quince proyecciones canónicas del objeto fibroso**
+
+| # | Proyección | Símbolo | Objeto absoluto extraído | Operador / campo origen |
+|---|---|---|---|---|
+| P1 | Ondulatoria | π<sub>ω</sub> | Perfil polar continuo sobre [0, k<sub>i</sub><sup>*</sup>) | Hebra directa |
+| P2 | Corpuscular | π<sub>κ</sub> | Activaciones discretas Π<sub>3</sub><sup>H</sup> | Hebra directa, A.1 |
+| P3 | De campo | π<sub>𝒞</sub> | Configuración Maxwell factual (𝕏, 𝕐, ℂ, J) | Campos 1-2, A.3 |
+| P4 | Topológica | π<sub>𝒯</sub> | (Residuos {Res<sub>k</sub>}, holonomía h<sub>Γ</sub>) | Campo 7, A.6 |
+| P5 | Espectral | π<sub>ℰ</sub> | Función generatriz G(λ) sobre fibra | Campo 6, A.12 |
+| P6 | De dictamen | π<sub>𝒟</sub> | Dictamen en {m<sub>0</sub>, χ<sub>α</sub>, U} | A.5 TPA |
+| P7 | NLP | π<sub>NLP</sub> | Célula mínima NLP en K<sub>3</sub><sup>9</sup> | A.23 transductor |
+| P8 | Entrópica | π<sub>H</sub> | Entropía factual H<sub>SV</sub>(Γ, n) | Operador B.11, 2026l |
+| P9 | Gravitacional | π<sub>gr</sub> | Par (G(ν), 𝒢<sub>J</sub>(ν)) sobre el recorrido | Campo 3, A.24 |
+| P10 | De coherencia | π<sub>coh</sub> | Coherencia estructural interna de la fibra | Operador B.7 |
+| P11 | De polarización | π<sub>pol</sub> | Residuales polares {δ<sub>i</sub><sup>res</sup>} | Operador B.6 |
+| P12 | De Fourier factual | π<sub>ℱ</sub> | Coeficientes modales cíclicos SV(3,9) | Operador B.19, 2026d |
+| P13 | De transmutación | π<sub>trs</sub> | Potencial de clases emergentes χ<sub>α</sub> | Operador B.17, 2026h |
+| P14 | De criticidad | π<sub>Γ</sub> | Perfil de criticidad Γ(ξ<sub>i</sub>) | Operador A.21 |
+| P15 | De correlación estructural | π<sub>corr</sub> | Correlación 𝔈<sup>corr</sup><sub>SV</sub>(Φ<sup>L</sup><sub>1</sub>, Φ<sup>L</sup><sub>2</sub>) | Operador B.16 |
+
+**Proposición 7.1 (Operatividad simultánea absoluta de las quince proyecciones canónicas).** Las quince proyecciones canónicas absolutas P1–P15 de la Tabla anterior son simultáneamente operativas absolutas sobre toda fibra luminosa factual admisible Φ<sup>L</sup><sub>SV</sub>, extraen información absoluta mutuamente compatible sin contradicción estructural entre sí, y ninguna es absolutamente redundante respecto de las otras catorce.
+
+*Demostración.* Las seis primeras (P1–P6) han sido verificadas ya en el Teorema 7.1, Paso (i) y Paso (ii). Para P7–P15 el argumento es análogo absoluto: cada una opera sobre un dominio canónico absoluto distinto del corpus SV (transductor NLP, entropía factual, campo gravitacional bisectorial, coherencia estructural, polarización, Fourier modal, transmutación, criticidad, correlación estructural entre fibras), cada dominio tiene suelo canónico absoluto demostrado en publicaciones específicas del corpus, y ninguna proyección contradice absolutamente ni duplica absolutamente la información de las demás: cada operador del §8 produce objeto estructural absoluto distinto. La compatibilidad mutua absoluta queda garantizada absolutamente por la honestidad coordenada absoluta del Lema 7.3 de 2026j, aplicada simultáneamente a todas las lecturas absolutas sobre el mismo dominio preternario Ω<sub>pre</sub> subyacente. La no redundancia absoluta queda garantizada absolutamente por el Principio absoluto de economía operatoria (§8.1): ningún operador del aparato es duplicado, y cada proyección descansa absolutamente sobre un operador distinto. Q.E.D.
+
+**Algoritmo absoluto de búsqueda para proyecciones adicionales P<sub>n+1</sub>, n ≥ 15.** La familia canónica absoluta de proyecciones canónicas permanece **declarada absolutamente abierta** por encima de P15. Para identificar absolutamente una candidata a proyección canónica adicional π<sub>n+1</sub> sobre la fibra luminosa, se sigue absolutamente el **algoritmo absoluto de cinco pasos**:
+
+> **Paso A1 — Identificación del operador absoluto fuente.** Identificar un operador ω del corpus SV (sea heredado con rango canónico absoluto o construido absolutamente en publicación posterior al presente documento) cuyo dominio sea absolutamente compatible con la estructura absoluta de Φ<sup>L</sup><sub>SV</sub>: esto es, ω admita absolutamente como argumento algún objeto estructural canónico extraíble absolutamente de la fibra (hebras, residuales polares, recorrido, celdas del mosaico asociado, pares polares, activaciones, etc.).
+>
+> **Paso A2 — Construcción absoluta de π<sub>n+1</sub>.** Definir absolutamente π<sub>n+1</sub>(Φ<sup>L</sup><sub>SV</sub>) := ω(ψ(Φ<sup>L</sup><sub>SV</sub>)), donde ψ es el extractor estructural absoluto que produce el argumento admisible absoluto de ω a partir de la fibra. Fijar absolutamente la dimensión canónica absoluta del resultado sobre los primitivos metrológicos absolutos del corpus (UE_MFC, UFE, UFM, UFC).
+>
+> **Paso A3 — Verificación absoluta de independencia estructural.** Demostrar absolutamente que π<sub>n+1</sub> **no es reducible** algebraicamente a ninguna composición de las n proyecciones ya canonizadas. Formalmente: no existen absolutamente funciones ϕ y familia {π<sub>i</sub>}<sub>i=1</sub><sup>n</sup> tales que π<sub>n+1</sub>(Φ<sup>L</sup><sub>SV</sub>) = ϕ(π<sub>1</sub>(Φ<sup>L</sup><sub>SV</sub>), …, π<sub>n</sub>(Φ<sup>L</sup><sub>SV</sub>)) para toda fibra admisible absoluta. Si tal reducción existiera, π<sub>n+1</sub> sería absolutamente redundante y se rechaza como candidata canónica (principio absoluto de economía operatoria §8.1).
+>
+> **Paso A4 — Verificación absoluta de compatibilidad mutua.** Demostrar absolutamente que π<sub>n+1</sub> es mutuamente compatible absoluta con las n proyecciones canónicas existentes en el sentido del Teorema 7.1, Paso (ii): ninguna contradicción estructural absoluta entre las lecturas, honestidad coordenada absoluta preservada (Lema 7.3 de 2026j), conservaciones locales absolutas del corpus respetadas.
+>
+> **Paso A5 — Verificación absoluta de conformidad con las prohibiciones constitutivas.** Demostrar absolutamente que π<sub>n+1</sub> respeta absolutamente las seis prohibiciones constitutivas P.1–P.6 del Sistema Vectorial SV: no introduce absolutamente tiempo soberano, probabilidad fundante, geometría soberana auxiliar, inferencia opaca, adición axiomática externa ni clausura espuria. Si alguna prohibición es absolutamente violada, π<sub>n+1</sub> se rechaza como proyección canónica absoluta.
+
+Si los cinco pasos A1–A5 se satisfacen absolutamente, π<sub>n+1</sub> **se canoniza absolutamente** como proyección P<sub>n+1</sub> de la familia absoluta abierta, quedando incorporada al catálogo canónico del objeto fibroso luminoso sin alterar absolutamente el estatuto primario absoluto de la fibra. El algoritmo es reproducible absolutamente y puede aplicarse iterativamente a cualquier futuro operador absoluto canónico del corpus para identificar la proyección P<sub>n+2</sub>, P<sub>n+3</sub>, etc.
+
+---
+
+> ## **DESTACADO — Metafísica del Sistema Vectorial SV (continuación)**
+>
+> *La familia absoluta de proyecciones canónicas del objeto fibroso luminoso se declara absolutamente **abierta** por encima de P15. Esta apertura, como en el caso del suceso cero ε<sub>0</sub> (§3bis), no es déficit del aparato formal: es reconocimiento honesto absoluto de que el objeto fibroso primario absoluto admite lecturas estructurales legítimas cuya identificación corresponde a desarrollos canónicos futuros del corpus SV o a su extensión metafísica SV bajo los postulados M.1, M.2 y M.3 ya declarados.*
+>
+> **Aplicación del programa metafísico SV a la familia de proyecciones.** Las visiones V.1–V.15 sobre ε<sub>0</sub> no se repiten aquí; se aplican con consonancia absoluta al caso de las proyecciones: así como V.2 fija ε<sub>0</sub> como frontera exterior pura del aparato formal, aquí la cardinalidad de la familia canónica absoluta de proyecciones es **frontera epistémica abierta** del aparato — no cardinalidad fijada por decreto, sino magnitud derivada absoluta de la riqueza operatoria del corpus en cada momento de su desarrollo; y así como V.13 declara ε<sub>0</sub> como acto honesto exterior irreducible, aquí la familia declarada abierta es acto honesto absoluto de no forzar clausura espuria (prohibición P.6 respetada) sobre la cardinalidad del catálogo de lecturas legítimas de la fibra.
+>
+> **Los postulados M.1, M.2, M.3 operan absolutamente sobre este caso.** Bajo M.1 (honestidad absoluta de la frontera), el algoritmo absoluto de búsqueda A1–A5 no se presenta como procedimiento de descubrimiento mecánico de teoremas nuevos: se declara absolutamente como pauta disciplinada de canonización de visiones postuladas sobre posibles lecturas legítimas de la fibra. Bajo M.2 (no sustancialización metafísica), ninguna proyección candidata reifica absolutamente un aspecto estructural de la fibra como sustancia oculta con propiedades soberanas añadidas. Bajo M.3 (reconocimiento absoluto de U como frontera legítima), la cardinalidad de la familia canónica absoluta permanece declarada absolutamente abierta, sin forzar clausura por decreto.
+>
+> **Síntesis.** La Metafísica del Sistema Vectorial SV, declarada en §3bis y aplicada consonantemente aquí, **no añade ontología metafísica al aparato formal**: declara estructuralmente sus fronteras absolutas exteriores, y el programa futuro estudiará disciplinadamente ambas fronteras — la del suceso cero ε<sub>0</sub> y la de la apertura absoluta de familias de proyecciones canónicas — bajo los mismos tres postulados absolutos M.1, M.2, M.3.
+
+---
 
 ### 7.4. Teorema absoluto de unidad proyectiva del objeto fibroso
 
-**Teorema 7.1 (Unidad proyectiva absoluta del objeto fibroso luminoso).** Sea Φ<sup>L</sup><sub>SV</sub> una fibra factual luminosa admisible absoluta. Las seis proyecciones canónicas absolutas π<sub>ω</sub>, π<sub>κ</sub>, π<sub>𝒞</sub>, π<sub>𝒯</sub>, π<sub>ℰ</sub>, π<sub>𝒟</sub> satisfacen simultáneamente absolutamente:
+**Teorema 7.1 (Unidad proyectiva absoluta del objeto fibroso luminoso).** Sea Φ<sup>L</sup><sub>SV</sub> una fibra factual luminosa admisible absoluta. Las quince proyecciones canónicas absolutas P1–P15 declaradas en §7.3 y §7.3bis (π<sub>ω</sub>, π<sub>κ</sub>, π<sub>𝒞</sub>, π<sub>𝒯</sub>, π<sub>ℰ</sub>, π<sub>𝒟</sub>, π<sub>NLP</sub>, π<sub>H</sub>, π<sub>gr</sub>, π<sub>coh</sub>, π<sub>pol</sub>, π<sub>ℱ</sub>, π<sub>trs</sub>, π<sub>Γ</sub>, π<sub>corr</sub>) satisfacen simultáneamente absolutamente:
 
-(i) **operatividad simultánea absoluta**: todas las seis están definidas y evaluables sobre Φ<sup>L</sup><sub>SV</sub>, sin que el uso de una excluya absolutamente el uso de otra;
+(i) **operatividad simultánea absoluta**: todas las quince están definidas y evaluables sobre Φ<sup>L</sup><sub>SV</sub>, sin que el uso de una excluya absolutamente el uso de otra;
 
-(ii) **compatibilidad mutua absoluta**: las seis extraen información absoluta sin contradicción estructural entre sí; sus resultados son articulados por la honestidad coordenada absoluta del Lema 7.3 de Lloret Egea (2026j) y por las conservaciones locales absolutas del corpus;
+(ii) **compatibilidad mutua absoluta**: las quince extraen información absoluta sin contradicción estructural entre sí; sus resultados son articulados por la honestidad coordenada absoluta del Lema 7.3 de Lloret Egea (2026j) y por las conservaciones locales absolutas del corpus;
 
 (iii) **reconstructibilidad absoluta salvo isomorfismo factual absoluto**: existe una relación absoluta de equivalencia ≃<sub>SV</sub> tal que
 
 ```math
-\Phi^L_{SV}\;\simeq_{SV}\;\bigl(\pi_\omega(\Phi^L_{SV}),\;\pi_\kappa(\Phi^L_{SV}),\;\pi_{\mathcal{C}}(\Phi^L_{SV}),\;\pi_{\mathcal{T}}(\Phi^L_{SV}),\;\pi_{\mathcal{E}}(\Phi^L_{SV}),\;\pi_{\mathcal{D}}(\Phi^L_{SV})\bigr),
+\Phi^L_{SV}\;\simeq_{SV}\;\bigl(\pi_1(\Phi^L_{SV}),\;\pi_2(\Phi^L_{SV}),\;\dots,\;\pi_{15}(\Phi^L_{SV})\bigr),
 ```
 
-esto es, la fibra absoluta queda determinada absolutamente salvo isomorfismo factual absoluto por el paquete de sus seis proyecciones canónicas absolutas.
+esto es, la fibra absoluta queda determinada absolutamente salvo isomorfismo factual absoluto por el paquete de sus quince proyecciones canónicas absolutas, y análogamente por cualquier paquete extendido absolutamente a P<sub>n</sub> con n ≥ 15 obtenido por el algoritmo absoluto de búsqueda de §7.3bis.
 
-*Demostración.* La demostración procede en tres pasos.
+*Demostración.* La demostración procede en tres pasos, análogamente a la versión sobre seis proyecciones, extendida a las quince.
 
-**Paso (i) — operatividad simultánea absoluta.** Por la Definición 7.2 de fibra luminosa admisible absoluta y las siete condiciones absolutas (C1)-(C7), toda fibra Φ<sup>L</sup><sub>SV</sub> tiene hebras con perfil polar completo absoluto hasta el cruce (objeto de π<sub>ω</sub>), con activaciones efectivas absolutas (objeto de π<sub>κ</sub>), con configuración electromagnética absoluta admisible (objeto de π<sub>𝒞</sub> por C6), con estructura topológica absoluta del recorrido (objeto de π<sub>𝒯</sub>), con perfil espectral absoluto de observables (objeto de π<sub>ℰ</sub>) y con trayectoria completa absoluta sobre la que aplicar TPA (objeto de π<sub>𝒟</sub>). Las seis proyecciones están, por tanto, definidas y evaluables absolutamente sobre toda fibra admisible. No hay condición absoluta alguna por la que el uso de una proyección excluya el uso de otra: las seis operan sobre aspectos estructurales distintos absolutos del mismo objeto absoluto. Por tanto, las seis son simultáneamente operativas absolutamente sobre Φ<sup>L</sup><sub>SV</sub>.
+**Paso (i) — operatividad simultánea absoluta.** Por la Definición 7.2 de fibra luminosa admisible absoluta y las siete condiciones absolutas (C1)-(C7), toda fibra Φ<sup>L</sup><sub>SV</sub> tiene hebras con perfil polar completo absoluto hasta el cruce (objeto de π<sub>ω</sub>), con activaciones efectivas absolutas (objeto de π<sub>κ</sub>), con configuración electromagnética absoluta admisible (objeto de π<sub>𝒞</sub> por C6), con estructura topológica absoluta del recorrido (objeto de π<sub>𝒯</sub>), con perfil espectral absoluto de observables (objeto de π<sub>ℰ</sub>), con trayectoria completa absoluta sobre la que aplicar TPA (objeto de π<sub>𝒟</sub>), con paquete observacional opcional (objeto potencial de π<sub>NLP</sub>), con entropía factual bien definida (objeto de π<sub>H</sub>), con perfil gravitacional sobre el recorrido (objeto de π<sub>gr</sub>), con coherencia estructural interna evaluable (objeto de π<sub>coh</sub>), con residuales polares al cruce (objeto de π<sub>pol</sub>), con descomposición Fourier modal factual (objeto de π<sub>ℱ</sub>), con potencial de transmutación (objeto de π<sub>trs</sub>), con criticidad estructural por posición (objeto de π<sub>Γ</sub>), y con capacidad de correlación con otras fibras compartidas (objeto potencial de π<sub>corr</sub>). Las quince proyecciones están, por tanto, definidas y evaluables absolutamente sobre toda fibra admisible. No hay condición absoluta alguna por la que el uso de una proyección excluya el uso de otra: las quince operan sobre aspectos estructurales distintos absolutos del mismo objeto absoluto. Por tanto, las quince son simultáneamente operativas absolutamente sobre Φ<sup>L</sup><sub>SV</sub>.
 
-**Paso (ii) — compatibilidad mutua absoluta.** Se demuestra que ningún par de proyecciones produce resultados estructuralmente contradictorios absolutos sobre una misma fibra. Cada proyección tiene su suelo canónico absoluto en el corpus: π<sub>ω</sub> y π<sub>κ</sub> derivan directamente absolutamente de la hebra, sin entrar en conflicto absoluto porque operan sobre tramos disjuntos absolutos [0, k<sub>i</sub><sup>*</sup>) y {k<sub>i</sub><sup>*</sup>} del recorrido respectivamente. π<sub>𝒞</sub> extrae la configuración del bloque Maxwell factual que, por condición C6, es admisible absolutamente; no contradice absolutamente π<sub>ω</sub> ni π<sub>κ</sub>, porque la configuración de campo (campos 1 y 2) y la estructura de hebra (campos 5 y 6 con aporte implícito de campos 3 y 4) son aspectos estructurales distintos absolutos del mismo objeto absoluto (§6.4, Proposición 6.1). π<sub>𝒯</sub> y π<sub>ℰ</sub> extraen información topológica y espectral absoluta del mismo recorrido coordinador Γ y son articuladas absolutamente por la estructura canónica del corpus (Lloret Egea, 2026a, Planos IV y V). π<sub>𝒟</sub> aplica TPA absoluto a la trayectoria completa y produce un dictamen que no puede contradecir absolutamente a las otras proyecciones porque opera a un nivel estructural distinto absoluto (el aparato TPA es sensible al recorrido absoluto completo, no a aspectos locales absolutos de las hebras individuales). La honestidad coordenada absoluta del Lema 7.3 de 2026j garantiza absolutamente que todas las proyecciones coinciden en su lectura del dominio preternario Ω<sub>pre</sub> subyacente.
+**Paso (ii) — compatibilidad mutua absoluta.** Se demuestra que ningún par de proyecciones produce resultados estructuralmente contradictorios absolutos sobre una misma fibra. Cada proyección tiene su suelo canónico absoluto en el corpus: π<sub>ω</sub> y π<sub>κ</sub> derivan directamente absolutamente de la hebra, sin entrar en conflicto absoluto porque operan sobre tramos disjuntos absolutos [0, k<sub>i</sub><sup>*</sup>) y {k<sub>i</sub><sup>*</sup>} del recorrido respectivamente. π<sub>𝒞</sub> extrae la configuración del bloque Maxwell factual que, por condición C6, es admisible absolutamente; no contradice absolutamente π<sub>ω</sub> ni π<sub>κ</sub>, porque la configuración de campo (campos 1 y 2) y la estructura de hebra son aspectos estructurales distintos absolutos del mismo objeto absoluto (§6.4, Proposición 6.1). π<sub>𝒯</sub> y π<sub>ℰ</sub> extraen información topológica y espectral absoluta del mismo recorrido coordinador Γ y son articuladas absolutamente por la estructura canónica del corpus (Lloret Egea, 2026a, Planos IV y V). π<sub>𝒟</sub> aplica TPA absoluto a la trayectoria completa y produce un dictamen que no puede contradecir absolutamente a las otras proyecciones porque opera a un nivel estructural distinto absoluto. π<sub>NLP</sub>, π<sub>H</sub>, π<sub>gr</sub>, π<sub>coh</sub>, π<sub>pol</sub>, π<sub>ℱ</sub>, π<sub>trs</sub>, π<sub>Γ</sub>, π<sub>corr</sub> operan cada una sobre un dominio canónico absoluto distinto del corpus (§7.3bis) y ninguna produce contradicción absoluta con las demás: la Proposición 7.1 lo establece directamente. La honestidad coordenada absoluta del Lema 7.3 de 2026j garantiza absolutamente que todas las proyecciones coinciden en su lectura del dominio preternario Ω<sub>pre</sub> subyacente.
 
-**Paso (iii) — reconstructibilidad absoluta salvo isomorfismo factual.** Se define explícitamente la relación absoluta de equivalencia ≃<sub>SV</sub> entre fibras del siguiente modo: dos fibras Φ<sup>L</sup><sub>SV,1</sub> y Φ<sup>L</sup><sub>SV,2</sub> son ≃<sub>SV</sub>-equivalentes absolutas si y sólo si las seis tuplas de proyecciones canónicas coinciden absolutamente:
+**Paso (iii) — reconstructibilidad absoluta salvo isomorfismo factual.** Se define explícitamente la relación absoluta de equivalencia ≃<sub>SV</sub> entre fibras del siguiente modo: dos fibras Φ<sup>L</sup><sub>SV,1</sub> y Φ<sup>L</sup><sub>SV,2</sub> son ≃<sub>SV</sub>-equivalentes absolutas si y sólo si las quince tuplas de proyecciones canónicas coinciden absolutamente:
+
+```math
+\Phi^L_{SV,1}\simeq_{SV}\Phi^L_{SV,2} \iff \forall\,k\in\{1,2,\dots,15\}:\;\pi_k(\Phi^L_{SV,1}) = \pi_k(\Phi^L_{SV,2}).
+```
+
+Esto es, explícitamente:
 
 ```math
 \Phi^L_{SV,1}\simeq_{SV}\Phi^L_{SV,2} \iff \begin{cases}
@@ -909,33 +1070,40 @@ esto es, la fibra absoluta queda determinada absolutamente salvo isomorfismo fac
 \pi_{\mathcal{C}}(\Phi^L_{SV,1}) = \pi_{\mathcal{C}}(\Phi^L_{SV,2}) \\
 \pi_{\mathcal{T}}(\Phi^L_{SV,1}) = \pi_{\mathcal{T}}(\Phi^L_{SV,2}) \\
 \pi_{\mathcal{E}}(\Phi^L_{SV,1}) = \pi_{\mathcal{E}}(\Phi^L_{SV,2}) \\
-\pi_{\mathcal{D}}(\Phi^L_{SV,1}) = \pi_{\mathcal{D}}(\Phi^L_{SV,2}).
+\pi_{\mathcal{D}}(\Phi^L_{SV,1}) = \pi_{\mathcal{D}}(\Phi^L_{SV,2}) \\
+\pi_{\mathrm{NLP}}(\Phi^L_{SV,1}) = \pi_{\mathrm{NLP}}(\Phi^L_{SV,2}) \\
+\pi_H(\Phi^L_{SV,1}) = \pi_H(\Phi^L_{SV,2}) \\
+\pi_{\mathrm{gr}}(\Phi^L_{SV,1}) = \pi_{\mathrm{gr}}(\Phi^L_{SV,2}) \\
+\pi_{\mathrm{coh}}(\Phi^L_{SV,1}) = \pi_{\mathrm{coh}}(\Phi^L_{SV,2}) \\
+\pi_{\mathrm{pol}}(\Phi^L_{SV,1}) = \pi_{\mathrm{pol}}(\Phi^L_{SV,2}) \\
+\pi_{\mathcal{F}}(\Phi^L_{SV,1}) = \pi_{\mathcal{F}}(\Phi^L_{SV,2}) \\
+\pi_{\mathrm{trs}}(\Phi^L_{SV,1}) = \pi_{\mathrm{trs}}(\Phi^L_{SV,2}) \\
+\pi_{\Gamma}(\Phi^L_{SV,1}) = \pi_{\Gamma}(\Phi^L_{SV,2}) \\
+\pi_{\mathrm{corr}}(\Phi^L_{SV,1},\cdot) = \pi_{\mathrm{corr}}(\Phi^L_{SV,2},\cdot).
 \end{cases}
 ```
 
-La relación ≃<sub>SV</sub> así definida es reflexiva, simétrica y transitiva absolutamente por serlo absolutamente la igualdad sobre cada componente. Se verifica que:
+La relación ≃<sub>SV</sub> así definida es reflexiva, simétrica y transitiva absolutamente por serlo absolutamente la igualdad sobre cada una de las quince componentes. Se verifica que:
 
-(a) **Suficiencia absoluta.** Si las seis proyecciones coinciden absolutamente entre dos fibras, entonces: los perfiles polares absolutos coinciden (por π<sub>ω</sub>), las activaciones absolutas coinciden (por π<sub>κ</sub>), las configuraciones electromagnéticas absolutas coinciden (por π<sub>𝒞</sub>), las estructuras topológicas absolutas coinciden (por π<sub>𝒯</sub>), los perfiles espectrales absolutos coinciden (por π<sub>ℰ</sub>), y los dictámenes TPA absolutos coinciden (por π<sub>𝒟</sub>). Por la Definición 7.1 de hebra absoluta, el perfil polar completo más el paso de cruce más el residual polar determinan absolutamente la hebra. Por la Definición 7.2 de fibra absoluta, la colección absoluta de hebras determina la fibra. Por tanto, las dos fibras son idénticas absolutamente como estructuras sobre Ω<sub>pre</sub> (absolutamente salvo reetiquetado de los índices i por biyección sobre ξ, lo que constituye absolutamente el contenido de la equivalencia ≃<sub>SV</sub>).
+(a) **Suficiencia absoluta.** Si las quince proyecciones coinciden absolutamente entre dos fibras, entonces coinciden los perfiles polares (π<sub>ω</sub>), las activaciones (π<sub>κ</sub>), las configuraciones electromagnéticas (π<sub>𝒞</sub>), las estructuras topológicas (π<sub>𝒯</sub>), los perfiles espectrales (π<sub>ℰ</sub>), los dictámenes TPA (π<sub>𝒟</sub>), las células NLP cuando procedan (π<sub>NLP</sub>), las entropías factuales (π<sub>H</sub>), los perfiles gravitacionales (π<sub>gr</sub>), las coherencias estructurales internas (π<sub>coh</sub>), los residuales polares (π<sub>pol</sub>), las descomposiciones Fourier factuales (π<sub>ℱ</sub>), los potenciales de transmutación (π<sub>trs</sub>), los perfiles de criticidad (π<sub>Γ</sub>) y las correlaciones estructurales (π<sub>corr</sub>). Por la Definición 7.1 de hebra absoluta, el perfil polar completo más el paso de cruce más el residual polar determinan absolutamente la hebra. Por la Definición 7.2 de fibra absoluta, la colección absoluta de hebras determina la fibra. Por tanto, las dos fibras son idénticas absolutamente como estructuras sobre Ω<sub>pre</sub>, absolutamente salvo reetiquetado de los índices i por biyección sobre ξ, lo que constituye absolutamente el contenido de la equivalencia ≃<sub>SV</sub>.
 
-(b) **Necesidad absoluta.** Si dos fibras son estructuralmente idénticas absolutas (salvo reetiquetado de índices i), entonces sus seis proyecciones coinciden absolutamente trivialmente, porque cada proyección es operador absoluto bien definido sobre la estructura absoluta de la fibra y no depende del etiquetado absoluto específico de las posiciones.
+(b) **Necesidad absoluta.** Si dos fibras son estructuralmente idénticas absolutas (salvo reetiquetado de índices i), entonces sus quince proyecciones coinciden absolutamente de forma trivial, porque cada proyección es operador absoluto bien definido sobre la estructura absoluta de la fibra y no depende del etiquetado absoluto específico de las posiciones.
 
 Por (a) y (b), la reconstructibilidad absoluta salvo isomorfismo factual absoluto está establecida, y la relación ≃<sub>SV</sub> proporciona el isomorfismo factual absoluto del enunciado.
 
 La conjunción de los Pasos (i), (ii), (iii) establece las tres propiedades del teorema. Q.E.D.
 
-### 7.5. Corolarios absolutos del Teorema 7.1
+### 7.5. Corolario absoluto del Teorema 7.1
 
-**Corolario 7.1 (Disolución estructural absoluta de la dualidad onda-corpúsculo).** Dentro del aparato absoluto del Sistema Vectorial SV con sus seis proyecciones canónicas absolutas, la dualidad onda-corpúsculo heredada **no opera absolutamente como principio fundamental**. Onda (π<sub>ω</sub>) y corpúsculo (π<sub>κ</sub>) son **dos proyecciones absolutas** entre seis del objeto fibroso absoluto, ninguna de las cuales tiene rango ontológico absoluto privilegiado sobre las otras cuatro. La tensión entre onda y corpúsculo no es principio absoluto fundamental del fenómeno luminoso: es síntoma de haber confundido dos sombras parciales absolutas con el objeto primario absoluto.
+**Corolario 7.1 (Disolución estructural absoluta de la dualidad onda-corpúsculo).** Dentro del aparato absoluto del Sistema Vectorial SV con sus quince proyecciones canónicas absolutas P1–P15 (y familia absoluta abierta por encima de P15 según el algoritmo absoluto de §7.3bis), la dualidad onda-corpúsculo heredada **no opera absolutamente como principio fundamental**. Onda (π<sub>ω</sub>) y corpúsculo (π<sub>κ</sub>) son **dos proyecciones absolutas** entre al menos quince del objeto fibroso absoluto, ninguna de las cuales tiene rango ontológico absoluto privilegiado sobre las restantes. La tensión entre onda y corpúsculo no es principio absoluto fundamental del fenómeno luminoso: es síntoma de haber confundido dos sombras parciales absolutas con el objeto primario absoluto.
 
-*Demostración.* El Teorema 7.1 establece que el objeto primario absoluto es la fibra Φ<sup>L</sup><sub>SV</sub>, y que onda y corpúsculo son sólo dos de las seis proyecciones canónicas absolutas que extraen información estructural parcial absoluta. Ninguna de las dos agota la fibra absolutamente: por el ítem (iii) del teorema, la fibra queda determinada sólo por la tupla completa absoluta de las seis proyecciones. Por tanto, atribuir rango fundamental absoluto a la dualidad π<sub>ω</sub> ↔ π<sub>κ</sub> es arbitrario estructuralmente: podría atribuirse con igual legitimidad a cualquier par de las seis proyecciones, o a cualquier otro subconjunto. La dualidad heredada es, por tanto, **artefacto histórico absoluto** de la física, no principio constitutivo absoluto. Q.E.D.
+*Demostración.* El Teorema 7.1 establece que el objeto primario absoluto es la fibra Φ<sup>L</sup><sub>SV</sub>, y que onda y corpúsculo son sólo dos de las al menos quince proyecciones canónicas absolutas que extraen información estructural parcial absoluta sobre aspectos disjuntos. Ninguna de las dos agota la fibra absolutamente: por el ítem (iii) del teorema, la fibra queda determinada sólo por la tupla completa absoluta de las quince proyecciones (y, por el Corolario 7.2 generalizado implícitamente en la Proposición 7.1 y el algoritmo §7.3bis, por cualquier familia extendida absolutamente a P<sub>n</sub> con n ≥ 15). Por tanto, atribuir rango fundamental absoluto a la dualidad π<sub>ω</sub> ↔ π<sub>κ</sub> es arbitrario estructuralmente: podría atribuirse con igual legitimidad a cualquier otro par entre las al menos quince proyecciones canónicas, o a cualquier otro subconjunto propio. La dualidad heredada es, por tanto, **artefacto histórico absoluto** de la física, no principio constitutivo absoluto. Q.E.D.
 
-**Corolario 7.2 (Apertura absoluta a nuevas proyecciones).** Si el corpus SV, en publicaciones futuras, identifica otras estructuras proyectivas legítimas absolutas sobre la fibra luminosa (por ejemplo, la proyección NLP absoluta π<sub>NLP</sub> vía transductor 𝓘<sub>NLP</sub> de 2026b, o proyecciones aún no declaradas sobre sectores del mosaico factual absoluto), éstas se incorporan absolutamente al catálogo canónico absoluto sin alterar el estatuto absoluto del objeto fibroso primario. La familia absoluta de proyecciones canónicas es abierta absolutamente, y el Teorema 7.1 se generaliza absolutamente a cualquier cardinalidad finita absoluta ≥ 6 de proyecciones declaradas.
-
-*Demostración.* La Definición 7.2 de fibra absoluta es independiente absolutamente del número de proyecciones canónicas absolutas declaradas: la fibra queda definida absolutamente por su colección absoluta de hebras, no por las proyecciones que se le apliquen. La generalización absoluta del Teorema 7.1 a una familia absoluta {π<sub>1</sub>, π<sub>2</sub>, …, π<sub>N</sub>} con N ≥ 6 procede por el mismo argumento que en la demostración original: cada proyección extrae información estructural absoluta disjunta; si N proyecciones canónicas absolutas están declaradas y son mutuamente compatibles absolutamente, entonces la fibra queda determinada absolutamente salvo ≃<sub>SV</sub> por la tupla absoluta (π<sub>1</sub>(Φ<sup>L</sup><sub>SV</sub>), …, π<sub>N</sub>(Φ<sup>L</sup><sub>SV</sub>)). Q.E.D.
+*Nota sobre apertura absoluta a proyecciones adicionales.* La generalización del Teorema 7.1 y del Corolario 7.1 a familias absolutas con n ≥ 15 proyecciones queda cubierta absolutamente por la Proposición 7.1, el algoritmo absoluto A1–A5 de §7.3bis, y el Destacado de Metafísica SV inmediatamente anterior al §7.4. No se repite aquí el argumento estructural: el mecanismo absoluto de incorporación canónica de nuevas proyecciones a la familia abierta queda declarado absolutamente con rango canónico en dichas secciones.
 
 ### 7.6. Dominio luminoso factual absoluto
 
-**Definición 7.9 (Dominio luminoso factual absoluto).** El **dominio luminoso factual absoluto** del Sistema Vectorial SV, denotado 𝔇<sup>L</sup><sub>SV</sub>, es la colección absoluta de todas las fibras factuales luminosas admisibles absolutas:
+**Definición 7.18 (Dominio luminoso factual absoluto).** El **dominio luminoso factual absoluto** del Sistema Vectorial SV, denotado **D**<sup>L</sup><sub>SV</sub>, es la colección absoluta de todas las fibras factuales luminosas admisibles absolutas:
 
 ```math
 \mathfrak{D}^L_{SV} := \Bigl\{\,\Phi^L_{SV}(\Gamma,\xi)\;:\;(\Gamma,\xi)\text{ cumple (C1)-(C7)}\,\Bigr\}.
@@ -943,11 +1111,11 @@ La conjunción de los Pasos (i), (ii), (iii) establece las tres propiedades del 
 
 El dominio luminoso factual absoluto es, por la Definición 7.2 y las condiciones absolutas de admisibilidad, subespacio estructural absoluto del espacio total absoluto de configuraciones factuales admisibles del corpus SV.
 
-**Observación 7.5 (Estructura interna de 𝔇<sup>L</sup><sub>SV</sub>).** El dominio luminoso factual absoluto hereda estructura absoluta de 𝒟<sub>total</sub> (espacio de todas las configuraciones factuales admisibles): admite suma absoluta de fibras por unión coordinada absoluta de trayectorias y posiciones (con compatibilidad absoluta), admite composición absoluta por compuertas ⊗<sub>gate</sub> del corpus fundacional, admite operadores absolutos de canalización (§5.3), y admite evaluación absoluta de los siete campos factuales coexistentes absolutos (§6). La estructura interna completa absoluta de 𝔇<sup>L</sup><sub>SV</sub> se despliega en el §8 (batida absoluta de 44 operadores) y en §9 (ecuación única absoluta 𝔏<sub>SV</sub> = 0).
+**Observación 7.5 (Estructura interna de **D**<sup>L</sup><sub>SV</sub>).** El dominio luminoso factual absoluto hereda estructura absoluta de 𝒟<sub>total</sub> (espacio de todas las configuraciones factuales admisibles): admite suma absoluta de fibras por unión coordinada absoluta de trayectorias y posiciones (con compatibilidad absoluta), admite composición absoluta por compuertas ⊗<sub>gate</sub> del corpus fundacional, admite operadores absolutos de canalización (§5.3), y admite evaluación absoluta de los siete campos factuales coexistentes absolutos (§6). La estructura interna completa absoluta de **D**<sup>L</sup><sub>SV</sub> se despliega en el §8 (resumen absoluto de 44 operadores) y en §9 (ecuación única absoluta **L**<sub>SV</sub> = 0).
 
 ---
 
-## 8. Batida operatoria completa: cuarenta y cuatro operadores del aparato luminoso
+## 8. Resumen de operatoria completa: cuarenta y cuatro operadores del aparato luminoso
 
 ### 8.1. Principio absoluto de economía operatoria
 
@@ -963,7 +1131,7 @@ Antes de desplegar los 44 operadores absolutos, se enuncia absolutamente el prin
 
 **El operador concatenador absoluto ⊕.** Denota absolutamente concatenación absoluta de compuertas: (A ⊕ B)(x) = 0 ⟺ A(x) = 0 ∧ B(x) = 0. Es conjunción lógica factual absoluta, **no es suma aritmética, no es suma directa algebraica**. Se conserva absolutamente uniforme en todo el documento y en el anexo.
 
-La batida absoluta se organiza en tres clases absolutas: Clase A (24 operadores heredados absolutos invocados con rango canónico), Clase B (12 operadores propios absolutos del régimen luminoso, construidos en la presente publicación), Clase B-emergente (8 operadores emergentes absolutos del cruce A × B, cerrados en el anexo operatorio absoluto).
+El resumen absoluto se organiza en tres clases absolutas: Clase A (24 operadores heredados absolutos invocados con rango canónico), Clase B (12 operadores propios absolutos del régimen luminoso, construidos en la presente publicación), Clase B-emergente (8 operadores emergentes absolutos del cruce A × B, cerrados en el anexo operatorio absoluto).
 
 ### 8.2. Clase A: veinticuatro operadores heredados absolutos invocados con rango canónico
 
@@ -979,12 +1147,12 @@ Cada operador absoluto heredado se replica con su definición algebraica absolut
 
 aplicable hebra a hebra sobre toda fibra luminosa Φ<sup>L</sup><sub>SV</sub>. La unicidad canónica absoluta de Π<sub>3</sub><sup>H</sup> es resultado demostrado del corpus (ibíd.) e interviene de forma esencial absoluta en el Teorema 3.1 de unicidad del cuanto h<sub>SV</sub>.
 
-**A.2. Cadena fundacional absoluta ε ⇒ 𝔎<sub>SV</sub> ⇒ 𝔥<sub>SV</sub> ⇒ 𝔗<sub>SV</sub>** (Lloret Egea, 2026l, §3). Cadena canónica absoluta de transporte estructural desde la concentración inicial Σ<sub>conc</sub> hasta el dictamen final Σ<sub>canal</sub>, con cuatro operadores encadenados absolutos:
+**A.2. Cadena fundacional absoluta ε ⇒ **K**<sub>SV</sub> ⇒ **h**_op<sub>SV</sub> ⇒ **T**<sub>SV</sub>** (Lloret Egea, 2026l, §3). Cadena canónica absoluta de transporte estructural desde la concentración inicial Σ<sub>conc</sub> hasta el dictamen final Σ<sub>canal</sub>, con cuatro operadores encadenados absolutos:
 
 - ε: operador absoluto de evaluación preternaria sobre Σ<sub>conc</sub>;
-- 𝔎<sub>SV</sub>: operador absoluto de canalización de la cadena;
-- 𝔥<sub>SV</sub>: operador absoluto de transporte Σ<sub>conc</sub> → Σ<sub>canal</sub> (distinto absolutamente del escalar h<sub>SV</sub>);
-- 𝔗<sub>SV</sub>: operador absoluto de cierre con dictamen en {m<sub>0</sub>, χ<sub>α</sub>, U}.
+- **K**<sub>SV</sub>: operador absoluto de canalización de la cadena;
+- **h**_op<sub>SV</sub>: operador absoluto de transporte Σ<sub>conc</sub> → Σ<sub>canal</sub> (distinto absolutamente del escalar h<sub>SV</sub>);
+- **T**<sub>SV</sub>: operador absoluto de cierre con dictamen en {m<sub>0</sub>, χ<sub>α</sub>, U}.
 
 Cada hebra h<sub>i</sub>(Γ) de una fibra Φ<sup>L</sup><sub>SV</sub> atraviesa absolutamente esta cadena desde Ω<sub>pre</sub> hasta el dictamen absoluto final.
 
@@ -1030,7 +1198,7 @@ La ecuación absoluta única 𝔼<sub>SV</sub> = 0 condensa absolutamente el blo
 
 donde Λ es el factor absoluto de cambio de carta factual (Teorema 14.3.5 de 2026k: absorción absoluta del cambio de carta) y B<sub>reg</sub> es el balance regular absoluto de frontera. Interviene en la componente 𝔽<sub>SV</sub> del operador maestro absoluto.
 
-**A.5. Aparato absoluto TPA 𝔄<sub>TPA</sub>** (Lloret Egea, 2026h, §3). Operador absoluto que produce el dictamen final absoluto de una trayectoria completa Γ:
+**A.5. Aparato absoluto TPA **A**<sub>TPA</sub>** (Lloret Egea, 2026h, §3). Operador absoluto que produce el dictamen final absoluto de una trayectoria completa Γ:
 
 ```math
 \mathfrak{A}_{\mathrm{TPA}}: \{\text{trayectorias admisibles}\} \longrightarrow \{m_0,\;\chi_\alpha,\;U\}.
@@ -1044,7 +1212,7 @@ Aplicado a la trayectoria absoluta Γ de una fibra luminosa Φ<sup>L</sup><sub>S
 - **O2 (Gauss-SV discreto absoluto)**: Σ<sub>k</sub> Div<sub>SV</sub>(C<sub>k</sub>) = φ(S<sub>0</sub>) − φ(S<sub>n</sub>).
 - **O3 (integral compleja factual absoluta)**: ∫<sub>Γ</sub><sup>SV</sup> φ(z) dz = Σ<sub>k</sub> φ<sub>k</sub> + i<sub>SV</sub> · Σ<sub>k</sub> φ<sub>k</sub> · m<sub>k</sub>.
 
-**A.7. Derivada absoluta de trayectoria 𝔇<sub>Γ</sub>** (Lloret Egea, 2026a, §X). Operador absoluto de diferencia finita sobre el ordinal de suceso:
+**A.7. Derivada absoluta de trayectoria **D**<sub>Γ</sub>** (Lloret Egea, 2026a, §X). Operador absoluto de diferencia finita sobre el ordinal de suceso:
 
 ```math
 \mathfrak{D}_\Gamma \varphi(k) := \frac{m_k}{\omega_k}.
@@ -1092,7 +1260,7 @@ G(\lambda) := \sum_k \varphi_k\cdot \lambda^k,\qquad \lambda \in \mathbb{C}_{SV}
 
 Propiedades absolutas G(1) = Σ<sub>k</sub> φ<sub>k</sub>; G(−1) = Σ<sub>k</sub> (−1)<sup>k</sup> φ<sub>k</sub>; asimetría absoluta G(λ) ≠ G(1/λ) clasifica absolutamente Σ<sub>j</sub>.
 
-**A.13. Acumulación elemental absoluta 𝔄<sub>Γ</sub>** (Lloret Egea, 2026a, §XI). Operador absoluto de suma ponderada sobre la trayectoria:
+**A.13. Acumulación elemental absoluta **A**<sub>Γ</sub>** (Lloret Egea, 2026a, §XI). Operador absoluto de suma ponderada sobre la trayectoria:
 
 ```math
 \mathfrak{A}_\Gamma(\varphi) := \sum_k \varphi_k\cdot \omega_k.
@@ -1140,15 +1308,15 @@ donde ΔN es el número absoluto de pasos ordinales absolutos abarcados por la v
 
 Cada operador propio absoluto del régimen luminoso se construye absolutamente en la presente publicación, descansa dimensionalmente absolutamente sobre los primitivos UE_MFC, UFE, UFM, UFC, y respeta absolutamente las prohibiciones P.1–P.6.
 
-**B.1. Generador preternario absoluto de fibra luminosa 𝔊<sup>L</sup><sub>SV</sub>.** Construye absolutamente una fibra Φ<sup>L</sup><sub>SV</sub> a partir de una sección activa absoluta con umbrales compatibles absolutos y cadena absoluta de activaciones honestas. Invoca internamente absolutamente Π<sub>3</sub><sup>H</sup> (operador A.1). Firma dimensional absoluta: 𝔊<sup>L</sup><sub>SV</sub>: {secciones activas absolutas} → 𝔇<sup>L</sup><sub>SV</sub>.
+**B.1. Generador preternario absoluto de fibra luminosa **G**<sup>L</sup><sub>SV</sub>.** Construye absolutamente una fibra Φ<sup>L</sup><sub>SV</sub> a partir de una sección activa absoluta con umbrales compatibles absolutos y cadena absoluta de activaciones honestas. Invoca internamente absolutamente Π<sub>3</sub><sup>H</sup> (operador A.1). Firma dimensional absoluta: **G**<sup>L</sup><sub>SV</sub>: {secciones activas absolutas} → **D**<sup>L</sup><sub>SV</sub>.
 
-**B.2. Transducción absoluta entre fibras 𝔗<sup>L</sup><sub>SV</sub>.** Operador absoluto que gobierna el paso absoluto entre fibras en interfase estructural. Se compone absolutamente con ⊗<sub>gate</sub> (A.18) para resolver la interfase, y con 𝓡<sup>f</sup><sub>SV</sub> (A.4) cuando det(J<sub>SV</sub>) = 0. Firma absoluta: 𝔗<sup>L</sup><sub>SV</sub>: 𝔇<sup>L</sup><sub>SV</sub> × 𝔇<sup>L</sup><sub>SV</sub> → 𝔇<sup>L</sup><sub>SV</sub>.
+**B.2. Transducción absoluta entre fibras **T**<sup>L</sup><sub>SV</sub>.** Operador absoluto que gobierna el paso absoluto entre fibras en interfase estructural. Se compone absolutamente con ⊗<sub>gate</sub> (A.18) para resolver la interfase, y con 𝓡<sup>f</sup><sub>SV</sub> (A.4) cuando det(J<sub>SV</sub>) = 0. Firma absoluta: **T**<sup>L</sup><sub>SV</sub>: **D**<sup>L</sup><sub>SV</sub> × **D**<sup>L</sup><sub>SV</sub> → **D**<sup>L</sup><sub>SV</sub>.
 
-**B.3. Modalidad proyectiva absoluta sobre fibra 𝔐<sup>L</sup><sub>SV</sub>.** Produce absolutamente la familia absoluta abierta de proyecciones canónicas {π<sub>ω</sub>, π<sub>κ</sub>, π<sub>𝒞</sub>, π<sub>𝒯</sub>, π<sub>ℰ</sub>, π<sub>𝒟</sub>, …}. Firma absoluta: 𝔐<sup>L</sup><sub>SV</sub>: 𝔇<sup>L</sup><sub>SV</sub> → Proy<sup>6+</sup>(𝔇<sup>L</sup><sub>SV</sub>).
+**B.3. Modalidad proyectiva absoluta sobre fibra **M**<sup>L</sup><sub>SV</sub>.** Produce absolutamente la familia absoluta abierta de proyecciones canónicas {π<sub>ω</sub>, π<sub>κ</sub>, π<sub>𝒞</sub>, π<sub>𝒯</sub>, π<sub>ℰ</sub>, π<sub>𝒟</sub>, …}. Firma absoluta: **M**<sup>L</sup><sub>SV</sub>: **D**<sup>L</sup><sub>SV</sub> → Proy<sup>6+</sup>(**D**<sup>L</sup><sub>SV</sub>).
 
-**B.4. Recorrido fibroso absoluto sobre mosaico 𝔎<sup>L</sup><sub>SV</sub>.** Operador absoluto que compatibiliza absolutamente la fibra con la trayectoria sobre el mosaico absoluto M = {C<sub>0</sub>, …, C<sub>n</sub>}, incluyendo absolutamente umbrales deformados gravitacionalmente por 𝔘<sup>gr</sup><sub>SV</sub> (B.9). Descansa absolutamente sobre el aparato NM–TPA (A.6–A.8). Firma absoluta: 𝔎<sup>L</sup><sub>SV</sub>: 𝔇<sup>L</sup><sub>SV</sub> × M → {trayectorias absolutas admisibles sobre M}.
+**B.4. Recorrido fibroso absoluto sobre mosaico **K**<sup>L</sup><sub>SV</sub>.** Operador absoluto que compatibiliza absolutamente la fibra con la trayectoria sobre el mosaico absoluto M = {C<sub>0</sub>, …, C<sub>n</sub>}, incluyendo absolutamente umbrales deformados gravitacionalmente por **U**<sup>gr</sup><sub>SV</sub> (B.9). Descansa absolutamente sobre el aparato NM–TPA (A.6–A.8). Firma absoluta: **K**<sup>L</sup><sub>SV</sub>: **D**<sup>L</sup><sub>SV</sub> × M → {trayectorias absolutas admisibles sobre M}.
 
-**B.5. Cuantización factual absoluta de transporte 𝔔<sup>L</sup><sub>SV</sub>.** Operador absoluto propio sin análogo canónico heredado. Actúa sobre la proyección corpuscular absoluta π<sub>κ</sub>(Φ<sup>L</sup><sub>SV</sub>) produciendo la cuantización absoluta canónica:
+**B.5. Cuantización factual absoluta de transporte **Q**<sup>L</sup><sub>SV</sub>.** Operador absoluto propio sin análogo canónico heredado. Actúa sobre la proyección corpuscular absoluta π<sub>κ</sub>(Φ<sup>L</sup><sub>SV</sub>) produciendo la cuantización absoluta canónica:
 
 ```math
 \mathfrak{Q}^L_{SV}\bigl(\pi_\kappa(\Phi^L_{SV})\bigr) := h_{SV}\cdot \mathrm{card}\bigl(\pi_\kappa(\Phi^L_{SV})\bigr).
@@ -1156,7 +1324,7 @@ Cada operador propio absoluto del régimen luminoso se construye absolutamente e
 
 Dimensión absoluta canónica UFM · UFE² · UE_MFC⁻¹ × ℕ<sub>0</sub> = UFM · UFE² · UE_MFC⁻¹. Cuantifica absolutamente la contribución absoluta cuantizada a la energía factual por activaciones.
 
-**B.6. Residualidad polar fibrosa absoluta 𝔓<sup>L</sup><sub>SV</sub>.** Operador absoluto que extrae absolutamente el conjunto absoluto de residuales polares de cruce {δ<sub>i</sub><sup>res</sup>(Γ) : i ∈ ξ}:
+**B.6. Residualidad polar fibrosa absoluta **P**<sup>L</sup><sub>SV</sub>.** Operador absoluto que extrae absolutamente el conjunto absoluto de residuales polares de cruce {δ<sub>i</sub><sup>res</sup>(Γ) : i ∈ ξ}:
 
 ```math
 \mathfrak{P}^L_{SV}(\Phi^L_{SV}) := \bigl\{\delta_i^{\mathrm{res}}(\Gamma)\,:\, i \in \xi\bigr\}.
@@ -1164,23 +1332,23 @@ Dimensión absoluta canónica UFM · UFE² · UE_MFC⁻¹ × ℕ<sub>0</sub> = U
 
 Abre absolutamente el régimen absoluto de polarización factual como magnitud absoluta estructural sobre los pares polares al cruce, sin cerrar absolutamente a las lecturas polarizadas heredadas.
 
-**B.7. Coherencia estructural absoluta entre fibras ℭ<sup>L</sup><sub>SV</sub>.** Operador absoluto binario que mide absolutamente la compatibilidad estructural absoluta sobre pares polares compartidos entre dos fibras Φ<sup>L</sup><sub>SV,1</sub> y Φ<sup>L</sup><sub>SV,2</sub>:
+**B.7. Coherencia estructural absoluta entre fibras **C**<sup>L</sup><sub>SV</sub>.** Operador absoluto binario que mide absolutamente la compatibilidad estructural absoluta sobre pares polares compartidos entre dos fibras Φ<sup>L</sup><sub>SV,1</sub> y Φ<sup>L</sup><sub>SV,2</sub>:
 
 ```math
 \mathfrak{C}^L_{SV}\bigl(\Phi^L_{SV,1},\Phi^L_{SV,2}\bigr) := \sum_{i\in\xi_1\cap\xi_2}\bigl|(\alpha_{i,1},\beta_{i,1}) - (\alpha_{i,2},\beta_{i,2})\bigr|_{\ast},
 ```
 
-donde |·|<sub>*</sub> es la norma factual estructural absoluta sobre ℝ² × ℝ² del corpus (2026a). **No es absolutamente coherencia temporal**: es coherencia estructural absoluta sobre posiciones. Dos fibras son **estructuralmente coherentes absolutamente** si ℭ<sup>L</sup><sub>SV</sub> = 0. La composición absoluta de fibras en régimen coherente absoluto se efectúa absolutamente por ⊗<sub>gate</sub> (A.18).
+donde |·|<sub>*</sub> es la norma factual estructural absoluta sobre ℝ² × ℝ² del corpus (2026a). **No es absolutamente coherencia temporal**: es coherencia estructural absoluta sobre posiciones. Dos fibras son **estructuralmente coherentes absolutamente** si **C**<sup>L</sup><sub>SV</sub> = 0. La composición absoluta de fibras en régimen coherente absoluto se efectúa absolutamente por ⊗<sub>gate</sub> (A.18).
 
-**B.8. Compatibilidad absoluta basal-fibrosa 𝔅<sup>L</sup><sub>SV</sub>.** Operador absoluto que mide absolutamente el defecto absoluto de la fibra frente al sector basal absoluto exacto (Lloret Egea, 2026g):
+**B.8. Compatibilidad absoluta basal-fibrosa **B**<sup>L</sup><sub>SV</sub>.** Operador absoluto que mide absolutamente el defecto absoluto de la fibra frente al sector basal absoluto exacto (Lloret Egea, 2026g):
 
 ```math
 \mathfrak{B}^L_{SV}(\Phi^L_{SV}) := \left|\,\mathfrak{E}_{SV}(\Gamma, n_{\mathrm{fin}}) - \sum_{\substack{\xi\,\subset\,\Phi^L_{SV}\\ \mathrm{cierre}=m_0}} m_0(\xi)\cdot c_{SV}^2\,\right|.
 ```
 
-La fibra es **basalmente compatible absolutamente** si y sólo si 𝔅<sup>L</sup><sub>SV</sub>(Φ<sup>L</sup><sub>SV</sub>) = 0: no hay energía factual absoluta oculta fuera del sector basal. Este operador cierra absolutamente la compatibilidad entre energía factual absoluta y masa factual absoluta acumulada.
+La fibra es **basalmente compatible absolutamente** si y sólo si **B**<sup>L</sup><sub>SV</sub>(Φ<sup>L</sup><sub>SV</sub>) = 0: no hay energía factual absoluta oculta fuera del sector basal. Este operador cierra absolutamente la compatibilidad entre energía factual absoluta y masa factual absoluta acumulada.
 
-**B.9. Deformación gravitacional absoluta de umbral 𝔘<sup>gr</sup><sub>SV</sub>.** Operador absoluto que actúa sobre el umbral 𝓛<sub>i</sub> de una posición preternaria deformándolo absolutamente por concentración basal cercana:
+**B.9. Deformación gravitacional absoluta de umbral **U**<sup>gr</sup><sub>SV</sub>.** Operador absoluto que actúa sobre el umbral 𝓛<sub>i</sub> de una posición preternaria deformándolo absolutamente por concentración basal cercana:
 
 ```math
 \mathfrak{U}^{\mathrm{gr}}_{SV}(\mathcal{L}_i,\mathcal{C}) := \Phi\bigl(G(\nu_{\mathcal{C}}),\;\mathcal{G}_J(\nu_{\mathcal{C}}),\;\mathrm{dist}(i,\mathcal{C})\bigr)\cdot \mathcal{L}_i,
@@ -1188,7 +1356,7 @@ La fibra es **basalmente compatible absolutamente** si y sólo si 𝔅<sup>L</su
 
 donde Φ(G, 𝒢<sub>J</sub>, dist) es el factor absoluto de deformación gravitacional construido explícitamente en el anexo A.1 sobre los dos sectores absolutos del Campo 3 (A.24). La forma algebraica absoluta de Φ, su unicidad absoluta y su compatibilidad absoluta con los benchmarks empíricos heredados — desviación solar 1,75″, Pound–Rebka, Shapiro — quedan cerradas absolutamente en el anexo.
 
-**B.10. Recorrido estructural absoluto de fibra 𝔇<sup>rec</sup><sub>SV</sub>.** Reorientación nominal absoluta de 𝔇<sub>Γ</sub>φ (A.7) aplicada absolutamente a fibra luminosa, para enfatizar absolutamente que el recorrido absoluto es sobre sucesos ordinales absolutos, no sobre tiempo soberano:
+**B.10. Recorrido estructural absoluto de fibra **D**<sup>rec</sup><sub>SV</sub>.** Reorientación nominal absoluta de **D**<sub>Γ</sub>φ (A.7) aplicada absolutamente a fibra luminosa, para enfatizar absolutamente que el recorrido absoluto es sobre sucesos ordinales absolutos, no sobre tiempo soberano:
 
 ```math
 \mathfrak{D}^{\mathrm{rec}}_{SV}(\Phi^L_{SV})(k) := \frac{m_k^{\Phi^L}}{\omega_k^{\Phi^L}},
@@ -1196,7 +1364,7 @@ donde Φ(G, 𝒢<sub>J</sub>, dist) es el factor absoluto de deformación gravit
 
 donde m<sub>k</sub><sup>Φ<sup>L</sup></sup> y ω<sub>k</sub><sup>Φ<sup>L</sup></sup> son la masa factual absoluta y el peso absoluto canónico del corpus en la celda k del mosaico asociado a la fibra. Se mantiene absolutamente el nombre específico luminoso por claridad expositiva, con declaración absoluta explícita de que descansa absolutamente sobre el operador heredado A.7.
 
-**B.11. Coherencia entrópica fibrosa absoluta 𝔋<sup>L</sup><sub>SV</sub>.** Operador absoluto que mide el defecto absoluto de la fibra frente a la entropía absoluta H<sub>SV</sub> del corpus (Lloret Egea, 2026l) con coeficiente absoluto η<sub>π</sub> = ln 3:
+**B.11. Coherencia entrópica fibrosa absoluta **T**_ent<sup>L</sup><sub>SV</sub>.** Operador absoluto que mide el defecto absoluto de la fibra frente a la entropía absoluta H<sub>SV</sub> del corpus (Lloret Egea, 2026l) con coeficiente absoluto η<sub>π</sub> = ln 3:
 
 ```math
 \mathfrak{T}^L_{SV}(\Phi^L_{SV},\Gamma) := \left|\,H_{SV}(\Gamma, n_{\mathrm{fin}}) - \mathcal{A}^L_{SV}(\Phi^L_{SV})\,\right|,
@@ -1208,33 +1376,33 @@ con la acumulación factual absoluta 𝒜<sup>L</sup><sub>SV</sub> definida abso
 \mathcal{A}^L_{SV}(\Phi^L_{SV}) := \sum_{i\in\xi}\bigl[\,A_i(n_{\mathrm{fin}}) + V_i(\delta, n_{\mathrm{fin}})\,\bigr] + \ln 3\cdot \mathrm{card}(\pi).
 ```
 
-La anulación absoluta 𝔋<sup>L</sup><sub>SV</sub> = 0 sobre elementos admisibles queda cerrada absolutamente en el anexo A.3. Es pieza absoluta esencial para la consistencia entrópica absoluta del régimen luminoso.
+La anulación absoluta **T**_ent<sup>L</sup><sub>SV</sub> = 0 sobre elementos admisibles queda cerrada absolutamente en el anexo A.3. Es pieza absoluta esencial para la consistencia entrópica absoluta del régimen luminoso.
 
-**B.12. Reducción maestra absoluta fibrosa 𝔏<sup>mst</sup><sub>SV</sub>.** Concatenación absoluta canónica por ⊕ de los once operadores absolutos propios anteriores:
+**B.12. Reducción maestra absoluta fibrosa **L**<sup>mst</sup><sub>SV</sub>.** Concatenación absoluta canónica por ⊕ de los once operadores absolutos propios anteriores:
 
 ```math
 \mathfrak{L}^{\mathrm{mst}}_{SV} := \mathfrak{T}^L \oplus \mathfrak{D}^{\mathrm{rec}} \oplus \mathfrak{U}^{\mathrm{gr}} \oplus \mathfrak{B}^L \oplus \mathfrak{C}^L \oplus \mathfrak{P}^L \oplus \mathfrak{Q}^L \oplus \mathfrak{K}^L \oplus \mathfrak{M}^L \oplus \mathfrak{T}^L_{\mathrm{trans}} \oplus \mathfrak{G}^L.
 ```
 
-Por la definición absoluta de ⊕, 𝔏<sup>mst</sup><sub>SV</sub>(Φ<sup>L</sup><sub>SV</sub>) = 0 si y sólo si los once operadores se anulan absolutamente simultáneamente sobre la fibra. 𝔏<sup>mst</sup><sub>SV</sub> es pieza absoluta central del operador maestro absoluto 𝔏<sub>SV</sub> del §9.
+Por la definición absoluta de ⊕, **L**<sup>mst</sup><sub>SV</sub>(Φ<sup>L</sup><sub>SV</sub>) = 0 si y sólo si los once operadores se anulan absolutamente simultáneamente sobre la fibra. **L**<sup>mst</sup><sub>SV</sub> es pieza absoluta central del operador maestro absoluto **L**<sub>SV</sub> del §9.
 
 ### 8.4. Clase B-emergente: ocho operadores emergentes absolutos del cruce A × B
 
 Del cruce absoluto entre las Clases A y B emergen absolutamente operadores adicionales que el corpus no tenía pero que son **inevitables absolutamente** para cerrar el régimen luminoso. Se declaran absolutamente aquí con rango canónico y se cierran absolutamente en el anexo operatorio absoluto.
 
-**B.13. Operador absoluto de conflicto fibroso 𝔍<sup>conf</sup><sub>SV</sub>** (cerrado absolutamente en anexo A.6). Aplicación específica absoluta del operador absoluto Ψ<sub>i,k</sub> (A.20) al régimen luminoso: resuelve absolutamente el conflicto factual cuando dos fibras luminosas compiten absolutamente por activar la misma posición en el mismo paso ordinal absoluto. **Semántica absoluta factual de la interferencia luminosa heredada**.
+**B.13. Operador absoluto de conflicto fibroso **J**<sup>conf</sup><sub>SV</sub>** (cerrado absolutamente en anexo A.6). Aplicación específica absoluta del operador absoluto Ψ<sub>i,k</sub> (A.20) al régimen luminoso: resuelve absolutamente el conflicto factual cuando dos fibras luminosas compiten absolutamente por activar la misma posición en el mismo paso ordinal absoluto. **Semántica absoluta factual de la interferencia luminosa heredada**.
 
-**B.14. Criticidad fibrosa absoluta 𝔎<sup>crit</sup><sub>SV</sub>** (cerrado absolutamente en anexo A.3 ampliado). Aplicación absoluta del operador Γ (A.21) a fibras luminosas: mide absolutamente la criticidad estructural absoluta de la fibra sobre las posiciones de la célula SV asociada.
+**B.14. Criticidad fibrosa absoluta **K**<sup>crit</sup><sub>SV</sub>** (cerrado absolutamente en anexo A.3 ampliado). Aplicación absoluta del operador Γ (A.21) a fibras luminosas: mide absolutamente la criticidad estructural absoluta de la fibra sobre las posiciones de la célula SV asociada.
 
-**B.15. Operador maestro unificado absoluto 𝔘<sup>unif</sup><sub>SV</sub>** (cerrado absolutamente en anexo A.5). Composición absoluta simultánea de los siete operadores absolutos maestros de los siete campos factuales coexistentes absolutos (§6.2) con acoplamientos estructurales absolutos pares. Forma el núcleo absoluto de la antesala absoluta al régimen unificado absoluto del campo (§22).
+**B.15. Operador maestro unificado absoluto **U**<sup>unif</sup><sub>SV</sub>** (cerrado absolutamente en anexo A.5). Composición absoluta simultánea de los siete operadores absolutos maestros de los siete campos factuales coexistentes absolutos (§6.2) con acoplamientos estructurales absolutos pares. Forma el núcleo absoluto de la antesala absoluta al régimen unificado absoluto del campo (§22).
 
-**B.16. Correlación estructural absoluta entre fibras 𝔈<sup>corr</sup><sub>SV</sub>** (cerrado absolutamente en anexo A.6). Generaliza absolutamente el entrelazamiento cuántico como correlación factual estructural absoluta sobre sustrato preternario compartido absoluto, sin invocar absolutamente estados cuánticos en espacios de Hilbert ni operadores hermíticos soberanos.
+**B.16. Correlación estructural absoluta entre fibras **E**<sup>corr</sup><sub>SV</sub>** (cerrado absolutamente en anexo A.6). Generaliza absolutamente el entrelazamiento cuántico como correlación factual estructural absoluta sobre sustrato preternario compartido absoluto, sin invocar absolutamente estados cuánticos en espacios de Hilbert ni operadores hermíticos soberanos.
 
-**B.17. Transmutación luminosa absoluta 𝔗<sup>trs</sup><sub>SV</sub>** (cerrado absolutamente en anexo A.7). Gobierna absolutamente las transiciones absolutas entre fibras con dictámenes distintos bajo el aparato TPA absoluto. Es pieza absoluta esencial para la interacción luz-materia.
+**B.17. Transmutación luminosa absoluta **T**<sup>trs</sup><sub>SV</sub>** (cerrado absolutamente en anexo A.7). Gobierna absolutamente las transiciones absolutas entre fibras con dictámenes distintos bajo el aparato TPA absoluto. Es pieza absoluta esencial para la interacción luz-materia.
 
-**B.18. Interacción absoluta fibra-materia 𝔍<sup>fm</sup><sub>SV</sub>** (cerrado absolutamente en anexo A.7). Gobierna absolutamente los cruces absolutos entre fibras luminosas y configuraciones materiales cerradas con dictamen m<sub>0</sub>. Es el operador absoluto que captura absolutamente el contenido estructural absoluto de los procesos de absorción y emisión luminosa.
+**B.18. Interacción absoluta fibra-materia **J**<sup>fm</sup><sub>SV</sub>** (cerrado absolutamente en anexo A.7). Gobierna absolutamente los cruces absolutos entre fibras luminosas y configuraciones materiales cerradas con dictamen m<sub>0</sub>. Es el operador absoluto que captura absolutamente el contenido estructural absoluto de los procesos de absorción y emisión luminosa.
 
-**B.19. Fourier factual absoluto luminoso 𝔉<sup>ℱ,L</sup><sub>SV</sub>** (cerrado absolutamente en anexo A.4). Aplicación absoluta del aparato Fourier factual (Lloret Egea, 2026d) a fibra luminosa: descompone absolutamente la fibra sobre la base modal cíclica factual absoluta de SV(3,9), produciendo absolutamente coeficientes modales factuales absolutos.
+**B.19. Fourier factual absoluto luminoso **F**<sup>ℱ,L</sup><sub>SV</sub>** (cerrado absolutamente en anexo A.4). Aplicación absoluta del aparato Fourier factual (Lloret Egea, 2026d) a fibra luminosa: descompone absolutamente la fibra sobre la base modal cíclica factual absoluta de SV(3,9), produciendo absolutamente coeficientes modales factuales absolutos.
 
 **B.20. Proyección NLP absoluta fibrosa π<sub>NLP</sub>** (apertura declarada absoluta sobre A.23). Aplicación absoluta del transductor 𝓘<sub>NLP</sub> a fibra luminosa que porte absolutamente paquete observacional. Es proyección absoluta candidata a incorporación canónica absoluta al catálogo (Corolario 7.2).
 
@@ -1243,18 +1411,18 @@ Del cruce absoluto entre las Clases A y B emergen absolutamente operadores adici
 | # | Operador absoluto | Clase | Fuente canónica absoluta | Estatuto absoluto |
 |---|---|---|---|---|
 | A.1 | Π<sub>3</sub><sup>H</sup> | A | Lloret Egea, 2026j §5.4 | Heredado canónico |
-| A.2 | ε ⇒ 𝔎 ⇒ 𝔥 ⇒ 𝔗 | A | Lloret Egea, 2026l §3 | Heredado canónico |
+| A.2 | ε ⇒ **K** ⇒ **h**_op ⇒ **T** | A | Lloret Egea, 2026l §3 | Heredado canónico |
 | A.3 | 𝔼<sub>SV</sub> | A | Lloret Egea, 2026k §3.12 | Heredado canónico |
 | A.4 | 𝓡<sup>f</sup><sub>SV</sub> | A | Lloret Egea, 2026k §3.10, §14.3 | Heredado canónico |
-| A.5 | 𝔄<sub>TPA</sub> | A | Lloret Egea, 2026h §3 | Heredado canónico |
+| A.5 | **A**<sub>TPA</sub> | A | Lloret Egea, 2026h §3 | Heredado canónico |
 | A.6 | O1, O2, O3 | A | Lloret Egea, 2026a, NM | Heredado canónico |
-| A.7 | 𝔇<sub>Γ</sub> | A | Lloret Egea, 2026a §X | Heredado canónico |
+| A.7 | **D**<sub>Γ</sub> | A | Lloret Egea, 2026a §X | Heredado canónico |
 | A.8 | κ | A | Lloret Egea, 2026a §X.4 | Heredado canónico |
 | A.9 | 𝒮 | A | Lloret Egea, 2026a §X | Heredado canónico |
 | A.10 | J<sub>TPA</sub> | A | Lloret Egea, 2026a §XII | Heredado canónico |
 | A.11 | ‖dz/dk‖ | A | Lloret Egea, 2026a §XXIV.8 | Heredado canónico |
 | A.12 | G(λ) | A | Lloret Egea, 2026a, Plano IV | Heredado canónico |
-| A.13 | 𝔄<sub>Γ</sub> | A | Lloret Egea, 2026a §XI | Heredado canónico |
+| A.13 | **A**<sub>Γ</sub> | A | Lloret Egea, 2026a §XI | Heredado canónico |
 | A.14 | ∂C<sub>k</sub> | A | Lloret Egea, 2026a §XVII | Heredado canónico |
 | A.15 | Γ<sub>ℋ</sub> | A | Lloret Egea, 2026c | Heredado canónico |
 | A.16 | W(T, k) | A | Lloret Egea, 2026c | Heredado canónico |
@@ -1266,25 +1434,25 @@ Del cruce absoluto entre las Clases A y B emergen absolutamente operadores adici
 | A.22 | Comp | A | Lloret Egea, 2026a, Fund. §7.11 | Heredado canónico |
 | A.23 | 𝓘<sub>NLP</sub> | A | Lloret Egea, 2026b | Heredado canónico |
 | A.24 | (G(ν), 𝒢<sub>J</sub>(ν)) | A | Lloret Egea, 2026a §IV.21 | Heredado canónico |
-| B.1 | 𝔊<sup>L</sup><sub>SV</sub> | B | §8.3 | Propio absoluto |
-| B.2 | 𝔗<sup>L</sup><sub>SV</sub> | B | §8.3 | Propio absoluto |
-| B.3 | 𝔐<sup>L</sup><sub>SV</sub> | B | §8.3 | Propio absoluto |
-| B.4 | 𝔎<sup>L</sup><sub>SV</sub> | B | §8.3 | Propio absoluto |
-| B.5 | 𝔔<sup>L</sup><sub>SV</sub> | B | §8.3 | Propio absoluto |
-| B.6 | 𝔓<sup>L</sup><sub>SV</sub> | B | §8.3 | Propio absoluto |
-| B.7 | ℭ<sup>L</sup><sub>SV</sub> | B | §8.3 | Propio absoluto |
-| B.8 | 𝔅<sup>L</sup><sub>SV</sub> | B | §8.3 | Propio absoluto |
-| B.9 | 𝔘<sup>gr</sup><sub>SV</sub> | B | §8.3, Anexo A.1 | Propio absoluto |
-| B.10 | 𝔇<sup>rec</sup><sub>SV</sub> | B | §8.3 | Propio absoluto |
-| B.11 | 𝔋<sup>L</sup><sub>SV</sub> | B | §8.3, Anexo A.3 | Propio absoluto |
-| B.12 | 𝔏<sup>mst</sup><sub>SV</sub> | B | §8.3 | Propio absoluto |
-| B.13 | 𝔍<sup>conf</sup><sub>SV</sub> | B-emergente | Anexo A.6 | Emergente absoluto |
-| B.14 | 𝔎<sup>crit</sup><sub>SV</sub> | B-emergente | Anexo A.3 | Emergente absoluto |
-| B.15 | 𝔘<sup>unif</sup><sub>SV</sub> | B-emergente | Anexo A.5 | Emergente absoluto |
-| B.16 | 𝔈<sup>corr</sup><sub>SV</sub> | B-emergente | Anexo A.6 | Emergente absoluto |
-| B.17 | 𝔗<sup>trs</sup><sub>SV</sub> | B-emergente | Anexo A.7 | Emergente absoluto |
-| B.18 | 𝔍<sup>fm</sup><sub>SV</sub> | B-emergente | Anexo A.7 | Emergente absoluto |
-| B.19 | 𝔉<sup>ℱ,L</sup><sub>SV</sub> | B-emergente | Anexo A.4 | Emergente absoluto |
+| B.1 | **G**<sup>L</sup><sub>SV</sub> | B | §8.3 | Propio absoluto |
+| B.2 | **T**<sup>L</sup><sub>SV</sub> | B | §8.3 | Propio absoluto |
+| B.3 | **M**<sup>L</sup><sub>SV</sub> | B | §8.3 | Propio absoluto |
+| B.4 | **K**<sup>L</sup><sub>SV</sub> | B | §8.3 | Propio absoluto |
+| B.5 | **Q**<sup>L</sup><sub>SV</sub> | B | §8.3 | Propio absoluto |
+| B.6 | **P**<sup>L</sup><sub>SV</sub> | B | §8.3 | Propio absoluto |
+| B.7 | **C**<sup>L</sup><sub>SV</sub> | B | §8.3 | Propio absoluto |
+| B.8 | **B**<sup>L</sup><sub>SV</sub> | B | §8.3 | Propio absoluto |
+| B.9 | **U**<sup>gr</sup><sub>SV</sub> | B | §8.3, Anexo A.1 | Propio absoluto |
+| B.10 | **D**<sup>rec</sup><sub>SV</sub> | B | §8.3 | Propio absoluto |
+| B.11 | **T**_ent<sup>L</sup><sub>SV</sub> | B | §8.3, Anexo A.3 | Propio absoluto |
+| B.12 | **L**<sup>mst</sup><sub>SV</sub> | B | §8.3 | Propio absoluto |
+| B.13 | **J**<sup>conf</sup><sub>SV</sub> | B-emergente | Anexo A.6 | Emergente absoluto |
+| B.14 | **K**<sup>crit</sup><sub>SV</sub> | B-emergente | Anexo A.3 | Emergente absoluto |
+| B.15 | **U**<sup>unif</sup><sub>SV</sub> | B-emergente | Anexo A.5 | Emergente absoluto |
+| B.16 | **E**<sup>corr</sup><sub>SV</sub> | B-emergente | Anexo A.6 | Emergente absoluto |
+| B.17 | **T**<sup>trs</sup><sub>SV</sub> | B-emergente | Anexo A.7 | Emergente absoluto |
+| B.18 | **J**<sup>fm</sup><sub>SV</sub> | B-emergente | Anexo A.7 | Emergente absoluto |
+| B.19 | **F**<sup>ℱ,L</sup><sub>SV</sub> | B-emergente | Anexo A.4 | Emergente absoluto |
 | B.20 | π<sub>NLP</sub> | B-emergente | Corolario 7.2, Anexo A.7 | Emergente absoluto |
 
 **Total: 24 + 12 + 8 = 44 operadores absolutos.**
@@ -1293,10 +1461,10 @@ Del cruce absoluto entre las Clases A y B emergen absolutamente operadores adici
 
 Se fija absolutamente la revisión sistemática absoluta del aparato operatorio para blindar absolutamente contra la entrada del tiempo por la puerta trasera. Los puntos absolutos siguientes operan como control absoluto sobre la interpretación de los operadores:
 
-- **𝔇<sub>Γ</sub>φ(k) = m<sub>k</sub>/ω<sub>k</sub> NO es d/dt**: es diferencia finita absoluta sobre ordinal absoluto de suceso.
+- ****D**<sub>Γ</sub>φ(k) = m<sub>k</sub>/ω<sub>k</sub> NO es d/dt**: es diferencia finita absoluta sobre ordinal absoluto de suceso.
 - **‖dz/dk‖ = √(1 + m<sub>k</sub>²) NO es velocidad en m/s**: es módulo absoluto complejo por ordinal absoluto de suceso (adimensional absoluto en régimen puro, UFE · UE_MFC⁻¹ bajo calibración absoluta K<sub>UFE/UE_MFC</sub>).
 - **ν<sub>SV</sub> NO es ciclos por segundo**: es densidad absoluta de activaciones sobre extensión absoluta de trayectoria, con denominador absoluto Δn = n<sub>2</sub> − n<sub>1</sub> como diferencia absoluta ordinal.
-- **𝔈<sub>SV</sub>(Γ, n) NO depende absolutamente del tiempo**: n es ordinal absoluto activo de suceso, no instante temporal.
+- ****E**<sub>SV</sub>(Γ, n) NO depende absolutamente del tiempo**: n es ordinal absoluto activo de suceso, no instante temporal.
 - **UE_MFC NO es segundo factual**: es Unidad Factual del Medidor Factual de Ciclo, instrumento subordinado absoluto al ciclo de suceso absoluto.
 - **Γ<sub>canal</sub> NO es trayectoria en el tiempo**: es secuencia absoluta ordenada de configuraciones de suceso absolutas.
 - **"interfase" NO significa absolutamente "momento de encuentro"**: es frontera estructural absoluta entre regímenes.
@@ -1312,25 +1480,25 @@ Estas precauciones absolutas son operativas absolutamente en todo el cuerpo de l
 
 ### 9.1. Enunciado absoluto de la ecuación única
 
-La ecuación única factual absoluta de la luz opera sobre el objeto fibroso absoluto Φ<sup>L</sup><sub>SV</sub> y sobre su configuración absoluta de umbrales deformados gravitacionalmente {𝓛<sub>i</sub><sup>(gr)</sup>}. Se fija, con rango canónico absoluto, por la anulación absoluta simultánea del operador maestro absoluto 𝔏<sub>SV</sub> sobre quince componentes estructurales absolutas concatenadas absolutamente por el operador ⊕:
+La ecuación única factual absoluta de la luz opera sobre el objeto fibroso absoluto Φ<sup>L</sup><sub>SV</sub> y sobre su configuración absoluta de umbrales deformados gravitacionalmente {𝓛<sub>i</sub><sup>(gr)</sup>}. Se fija, con rango canónico absoluto, por la anulación absoluta simultánea del operador maestro absoluto **L**<sub>SV</sub> sobre quince componentes estructurales absolutas concatenadas absolutamente por el operador ⊕:
 
 ```math
 \boxed{\;\mathfrak{L}_{SV}\bigl(\Phi^L_{SV};\;\{\mathcal{L}_i^{(\mathrm{gr})}\}\bigr) = 0.\;}
 ```
 
-El operador maestro absoluto 𝔏<sub>SV</sub> es la concatenación absoluta por compuertas ⊕ de quince componentes estructurales absolutas:
+El operador maestro absoluto **L**<sub>SV</sub> es la concatenación absoluta por compuertas ⊕ de quince componentes estructurales absolutas:
 
 ```math
 \mathfrak{L}_{SV} := \bigoplus_{s=1}^{15} \mathfrak{L}_{SV}^{(s)},
 ```
 
-donde cada ⊕ denota absolutamente conjunción lógica factual absoluta, de modo que 𝔏<sub>SV</sub>(Φ<sup>L</sup><sub>SV</sub>, {𝓛<sub>i</sub><sup>(gr)</sup>}) = 0 si y sólo si 𝔏<sub>SV</sub><sup>(s)</sup>(Φ<sup>L</sup><sub>SV</sub>, {𝓛<sub>i</sub><sup>(gr)</sup>}) = 0 para todo s ∈ {1, 2, …, 15}.
+donde cada ⊕ denota absolutamente conjunción lógica factual absoluta, de modo que **L**<sub>SV</sub>(Φ<sup>L</sup><sub>SV</sub>, {𝓛<sub>i</sub><sup>(gr)</sup>}) = 0 si y sólo si **L**<sub>SV</sub><sup>(s)</sup>(Φ<sup>L</sup><sub>SV</sub>, {𝓛<sub>i</sub><sup>(gr)</sup>}) = 0 para todo s ∈ {1, 2, …, 15}.
 
-### 9.2. Los quince sumandos absolutos del operador maestro 𝔏<sub>SV</sub>
+### 9.2. Los quince sumandos absolutos del operador maestro **L**<sub>SV</sub>
 
 Cada uno de los 15 sumandos absolutos se define algebraicamente con construcción explícita, dimensión canónica absoluta y referencia absoluta al operador del §8 del cual se deriva.
 
-**𝔏<sub>SV</sub><sup>(1)</sup> — Generación preternaria absoluta.** Componente absoluta que exige que la fibra proceda absolutamente de una generación preternaria admisible por el operador B.1:
+****L**<sub>SV</sub><sup>(1)</sup> — Generación preternaria absoluta.** Componente absoluta que exige que la fibra proceda absolutamente de una generación preternaria admisible por el operador B.1:
 
 ```math
 \mathfrak{L}_{SV}^{(1)}(\Phi^L_{SV}) := \mathfrak{G}^L_{SV}(\Phi^L_{SV}) - \Phi^L_{SV}.
@@ -1338,7 +1506,7 @@ Cada uno de los 15 sumandos absolutos se define algebraicamente con construcció
 
 Se anula absolutamente si y sólo si la fibra es imagen absoluta del operador de generación preternaria sobre una sección admisible absoluta.
 
-**𝔏<sub>SV</sub><sup>(2)</sup> — Transducción absoluta entre fibras.** Componente absoluta que exige consistencia de la fibra con la transducción B.2 en cualquier interfase estructural absoluta:
+****L**<sub>SV</sub><sup>(2)</sup> — Transducción absoluta entre fibras.** Componente absoluta que exige consistencia de la fibra con la transducción B.2 en cualquier interfase estructural absoluta:
 
 ```math
 \mathfrak{L}_{SV}^{(2)}(\Phi^L_{SV}) := \|\,\mathfrak{T}^L_{SV}(\Phi^L_{SV},\Phi^L_{SV})\,\|_{\ast} \ne \infty,
@@ -1346,7 +1514,7 @@ Se anula absolutamente si y sólo si la fibra es imagen absoluta del operador de
 
 donde ‖·‖<sub>*</sub> es la norma factual estructural absoluta. Se anula (en sentido de admisibilidad absoluta, no de desigualdad estricta; comparece absolutamente como restricción estructural) cuando la transducción es admisible.
 
-**𝔏<sub>SV</sub><sup>(3)</sup> — Modalidad proyectiva absoluta.** Componente absoluta que exige la operatividad simultánea absoluta de las seis proyecciones canónicas absolutas (Teorema 7.1):
+****L**<sub>SV</sub><sup>(3)</sup> — Modalidad proyectiva absoluta.** Componente absoluta que exige la operatividad simultánea absoluta de las seis proyecciones canónicas absolutas (Teorema 7.1):
 
 ```math
 \mathfrak{L}_{SV}^{(3)}(\Phi^L_{SV}) := \sum_{k=1}^{6} \bigl[\,\pi_k(\Phi^L_{SV}) \text{ definida admisiblemente}\,\bigr]_{\mathrm{err}},
@@ -1354,7 +1522,7 @@ donde ‖·‖<sub>*</sub> es la norma factual estructural absoluta. Se anula (e
 
 donde [·]<sub>err</sub> es indicador absoluto de error estructural (0 si admisible, 1 si no). Se anula absolutamente si y sólo si las seis proyecciones operan admisiblemente sobre la fibra.
 
-**𝔏<sub>SV</sub><sup>(4)</sup> — Recorrido fibroso absoluto sobre mosaico.** Componente absoluta que exige recorrido admisible absoluto sobre el mosaico M = {C<sub>0</sub>, …, C<sub>n</sub>}:
+****L**<sub>SV</sub><sup>(4)</sup> — Recorrido fibroso absoluto sobre mosaico.** Componente absoluta que exige recorrido admisible absoluto sobre el mosaico M = {C<sub>0</sub>, …, C<sub>n</sub>}:
 
 ```math
 \mathfrak{L}_{SV}^{(4)}(\Phi^L_{SV}) := \|\,\mathfrak{K}^L_{SV}(\Phi^L_{SV}, M) - \Gamma\,\|_{\ast},
@@ -1362,7 +1530,7 @@ donde [·]<sub>err</sub> es indicador absoluto de error estructural (0 si admisi
 
 donde Γ es la trayectoria coordinadora absoluta del datum estructural de Φ<sup>L</sup><sub>SV</sub>. Se anula absolutamente si y sólo si el recorrido del operador K<sup>L</sup><sub>SV</sub> reproduce absolutamente la trayectoria coordinadora.
 
-**𝔏<sub>SV</sub><sup>(5)</sup> — Cuantización factual absoluta de transporte.** Componente absoluta que exige que la energía factual absoluta aportada por π<sub>κ</sub> coincida absolutamente con el transporte cuantizado canónico h<sub>SV</sub> · card(π<sub>κ</sub>):
+****L**<sub>SV</sub><sup>(5)</sup> — Cuantización factual absoluta de transporte.** Componente absoluta que exige que la energía factual absoluta aportada por π<sub>κ</sub> coincida absolutamente con el transporte cuantizado canónico h<sub>SV</sub> · card(π<sub>κ</sub>):
 
 ```math
 \mathfrak{L}_{SV}^{(5)}(\Phi^L_{SV}) := \mathfrak{Q}^L_{SV}\bigl(\pi_\kappa(\Phi^L_{SV})\bigr) - h_{SV}\cdot \mathrm{card}\bigl(\pi_\kappa(\Phi^L_{SV})\bigr).
@@ -1370,7 +1538,7 @@ donde Γ es la trayectoria coordinadora absoluta del datum estructural de Φ<sup
 
 Se anula absolutamente por la Definición 7.4 y B.5. Esta componente garantiza absolutamente la emergencia absoluta de Planck (§12).
 
-**𝔏<sub>SV</sub><sup>(6)</sup> — Residualidad polar fibrosa absoluta.** Componente absoluta que exige existencia admisible absoluta de residuales polares de cruce para todas las hebras:
+****L**<sub>SV</sub><sup>(6)</sup> — Residualidad polar fibrosa absoluta.** Componente absoluta que exige existencia admisible absoluta de residuales polares de cruce para todas las hebras:
 
 ```math
 \mathfrak{L}_{SV}^{(6)}(\Phi^L_{SV}) := \sum_{i\in\xi} \mathbf{1}\bigl[\,\delta_i^{\mathrm{res}}(\Gamma) \in \mathbb{R}\,\bigr]_{\mathrm{err}}.
@@ -1378,7 +1546,7 @@ Se anula absolutamente por la Definición 7.4 y B.5. Esta componente garantiza a
 
 Se anula absolutamente si y sólo si todos los residuales polares están bien definidos (condición absoluta C5 de admisibilidad).
 
-**𝔏<sub>SV</sub><sup>(7)</sup> — Coherencia estructural absoluta interna.** Componente absoluta que exige coherencia estructural absoluta interna de la fibra: todas las hebras están estructuralmente coherentes absolutamente entre sí bajo el operador B.7:
+****L**<sub>SV</sub><sup>(7)</sup> — Coherencia estructural absoluta interna.** Componente absoluta que exige coherencia estructural absoluta interna de la fibra: todas las hebras están estructuralmente coherentes absolutamente entre sí bajo el operador B.7:
 
 ```math
 \mathfrak{L}_{SV}^{(7)}(\Phi^L_{SV}) := \max_{i,j\in\xi,\,i\ne j}\,\mathfrak{C}^L_{SV}\bigl(h_i,\,h_j\bigr).
@@ -1386,7 +1554,7 @@ Se anula absolutamente si y sólo si todos los residuales polares están bien de
 
 Se anula absolutamente si y sólo si todas las hebras son mutuamente coherentes estructuralmente.
 
-**𝔏<sub>SV</sub><sup>(8)</sup> — Compatibilidad basal-fibrosa absoluta.** Componente absoluta que exige compatibilidad basal absoluta de la fibra (ausencia absoluta de energía oculta fuera del sector basal):
+****L**<sub>SV</sub><sup>(8)</sup> — Compatibilidad basal-fibrosa absoluta.** Componente absoluta que exige compatibilidad basal absoluta de la fibra (ausencia absoluta de energía oculta fuera del sector basal):
 
 ```math
 \mathfrak{L}_{SV}^{(8)}(\Phi^L_{SV}) := \mathfrak{B}^L_{SV}(\Phi^L_{SV}).
@@ -1394,7 +1562,7 @@ Se anula absolutamente si y sólo si todas las hebras son mutuamente coherentes 
 
 Se anula absolutamente por la Definición del operador B.8 cuando la fibra es basalmente compatible absolutamente.
 
-**𝔏<sub>SV</sub><sup>(9)</sup> — Deformación gravitacional absoluta de umbrales.** Componente absoluta que exige compatibilidad absoluta del recorrido de la fibra con los umbrales deformados gravitacionalmente por presencia absoluta de concentración basal:
+****L**<sub>SV</sub><sup>(9)</sup> — Deformación gravitacional absoluta de umbrales.** Componente absoluta que exige compatibilidad absoluta del recorrido de la fibra con los umbrales deformados gravitacionalmente por presencia absoluta de concentración basal:
 
 ```math
 \mathfrak{L}_{SV}^{(9)}(\Phi^L_{SV},\{\mathcal{L}_i^{(\mathrm{gr})}\}) := \sum_{i\in\xi}\bigl|\,\mathcal{L}_i^{(\mathrm{gr})} - \mathfrak{U}^{\mathrm{gr}}_{SV}(\mathcal{L}_i,\mathcal{C})\,\bigr|.
@@ -1402,7 +1570,7 @@ Se anula absolutamente por la Definición del operador B.8 cuando la fibra es ba
 
 Se anula absolutamente si y sólo si los umbrales efectivamente utilizados absolutamente en el recorrido son los umbrales deformados absolutamente según B.9.
 
-**𝔏<sub>SV</sub><sup>(10)</sup> — Recorrido estructural absoluto sobre sucesos.** Componente absoluta que exige consistencia absoluta del operador recorrido B.10 sobre la fibra:
+****L**<sub>SV</sub><sup>(10)</sup> — Recorrido estructural absoluto sobre sucesos.** Componente absoluta que exige consistencia absoluta del operador recorrido B.10 sobre la fibra:
 
 ```math
 \mathfrak{L}_{SV}^{(10)}(\Phi^L_{SV}) := \sum_{k=0}^{n_{\mathrm{fin}}}\bigl|\,\mathfrak{D}^{\mathrm{rec}}_{SV}(\Phi^L_{SV})(k) - m_k^{\Phi^L}/\omega_k^{\Phi^L}\,\bigr|.
@@ -1410,7 +1578,7 @@ Se anula absolutamente si y sólo si los umbrales efectivamente utilizados absol
 
 Se anula absolutamente por la definición absoluta del operador B.10.
 
-**𝔏<sub>SV</sub><sup>(11)</sup> — Coherencia entrópica absoluta.** Componente absoluta que exige compatibilidad absoluta entrópica:
+****L**<sub>SV</sub><sup>(11)</sup> — Coherencia entrópica absoluta.** Componente absoluta que exige compatibilidad absoluta entrópica:
 
 ```math
 \mathfrak{L}_{SV}^{(11)}(\Phi^L_{SV}) := \mathfrak{T}^L_{SV}(\Phi^L_{SV},\Gamma).
@@ -1418,7 +1586,7 @@ Se anula absolutamente por la definición absoluta del operador B.10.
 
 Se anula absolutamente cuando la fibra satisface la coherencia entrópica absoluta del operador B.11 (Anexo A.3).
 
-**𝔏<sub>SV</sub><sup>(12)</sup> — Cierre absoluto electromagnético.** Componente absoluta que exige que la proyección de campo π<sub>𝒞</sub> satisfaga absolutamente el operador maestro de Maxwell factual 𝔼<sub>SV</sub> = 0:
+****L**<sub>SV</sub><sup>(12)</sup> — Cierre absoluto electromagnético.** Componente absoluta que exige que la proyección de campo π<sub>𝒞</sub> satisfaga absolutamente el operador maestro de Maxwell factual 𝔼<sub>SV</sub> = 0:
 
 ```math
 \mathfrak{L}_{SV}^{(12)}(\Phi^L_{SV}) := \mathbb{E}_{SV}\bigl(\pi_{\mathcal{C}}(\Phi^L_{SV})\bigr).
@@ -1426,7 +1594,7 @@ Se anula absolutamente cuando la fibra satisface la coherencia entrópica absolu
 
 Se anula absolutamente si y sólo si la configuración electromagnética absoluta asociada a la fibra satisface absolutamente el bloque Maxwell factual absoluto del corpus (Lloret Egea, 2026k, §3.12). Esta componente es la puerta absoluta de la reducción a Maxwell factual (§11).
 
-**𝔏<sub>SV</sub><sup>(13)</sup> — Identidad O1 absoluta sobre trayectoria del aparato NM.** Componente absoluta que exige que las celdas C<sub>k</sub> asociadas absolutamente a la fibra satisfagan la divergencia absoluta de la identidad O1:
+****L**<sub>SV</sub><sup>(13)</sup> — Identidad O1 absoluta sobre trayectoria del aparato NM.** Componente absoluta que exige que las celdas C<sub>k</sub> asociadas absolutamente a la fibra satisfagan la divergencia absoluta de la identidad O1:
 
 ```math
 \mathfrak{L}_{SV}^{(13)}(\Phi^L_{SV}) := \sum_{k=0}^{n}\bigl|\,\mathrm{Div}_{SV}(C_k) + m_k\,\bigr|.
@@ -1434,7 +1602,7 @@ Se anula absolutamente si y sólo si la configuración electromagnética absolut
 
 Se anula absolutamente si y sólo si para toda celda del mosaico asociado absolutamente a la fibra se verifica absolutamente Div<sub>SV</sub>(C<sub>k</sub>) = −m<sub>k</sub>.
 
-**𝔏<sub>SV</sub><sup>(14)</sup> — Identidad O2 absoluta (Gauss-SV discreto).** Componente absoluta que exige que el balance absoluto global del mosaico satisfaga absolutamente el teorema Gauss-SV discreto:
+****L**<sub>SV</sub><sup>(14)</sup> — Identidad O2 absoluta (Gauss-SV discreto).** Componente absoluta que exige que el balance absoluto global del mosaico satisfaga absolutamente el teorema Gauss-SV discreto:
 
 ```math
 \mathfrak{L}_{SV}^{(14)}(\Phi^L_{SV}) := \left|\,\sum_{k=0}^{n}\mathrm{Div}_{SV}(C_k) - \bigl(\varphi(S_0) - \varphi(S_n)\bigr)\,\right|.
@@ -1442,7 +1610,7 @@ Se anula absolutamente si y sólo si para toda celda del mosaico asociado absolu
 
 Se anula absolutamente si y sólo si la trayectoria asociada a la fibra satisface el teorema absoluto Gauss-SV discreto del corpus.
 
-**𝔏<sub>SV</sub><sup>(15)</sup> — Continuidad interfacial absoluta de frontera factual.** Componente absoluta que exige absolutamente compatibilidad de la fibra con el criterio absoluto de frontera factual, heredado absolutamente del bloque Maxwell factual (Lloret Egea, 2026k, §3.10 y §14.11):
+****L**<sub>SV</sub><sup>(15)</sup> — Continuidad interfacial absoluta de frontera factual.** Componente absoluta que exige absolutamente compatibilidad de la fibra con el criterio absoluto de frontera factual, heredado absolutamente del bloque Maxwell factual (Lloret Egea, 2026k, §3.10 y §14.11):
 
 ```math
 \mathfrak{L}_{SV}^{(15)}(\Phi^L_{SV}) := \mathbb{F}_{SV}\bigl(J_{SV}^{\Phi^L}\bigr),
@@ -1454,25 +1622,25 @@ donde J<sub>SV</sub><sup>Φ<sup>L</sup></sup> es el jacobiano factual absoluto d
 
 | s | Componente absoluta | Operador absoluto (§8) | Significado estructural absoluto |
 |---|---|---|---|
-| 1 | 𝔏<sub>SV</sub><sup>(1)</sup> | B.1, 𝔊<sup>L</sup><sub>SV</sub> | Generación preternaria absoluta |
-| 2 | 𝔏<sub>SV</sub><sup>(2)</sup> | B.2, 𝔗<sup>L</sup><sub>SV</sub> | Transducción absoluta admisible |
-| 3 | 𝔏<sub>SV</sub><sup>(3)</sup> | B.3, 𝔐<sup>L</sup><sub>SV</sub> | Modalidad proyectiva operativa |
-| 4 | 𝔏<sub>SV</sub><sup>(4)</sup> | B.4, 𝔎<sup>L</sup><sub>SV</sub> | Recorrido fibroso sobre mosaico |
-| 5 | 𝔏<sub>SV</sub><sup>(5)</sup> | B.5, 𝔔<sup>L</sup><sub>SV</sub> | Cuantización h<sub>SV</sub> consistente |
-| 6 | 𝔏<sub>SV</sub><sup>(6)</sup> | B.6, 𝔓<sup>L</sup><sub>SV</sub> | Residualidad polar admisible |
-| 7 | 𝔏<sub>SV</sub><sup>(7)</sup> | B.7, ℭ<sup>L</sup><sub>SV</sub> | Coherencia estructural interna |
-| 8 | 𝔏<sub>SV</sub><sup>(8)</sup> | B.8, 𝔅<sup>L</sup><sub>SV</sub> | Compatibilidad basal absoluta |
-| 9 | 𝔏<sub>SV</sub><sup>(9)</sup> | B.9, 𝔘<sup>gr</sup><sub>SV</sub> | Deformación gravitacional de umbrales |
-| 10 | 𝔏<sub>SV</sub><sup>(10)</sup> | B.10, 𝔇<sup>rec</sup><sub>SV</sub> | Recorrido estructural sobre sucesos |
-| 11 | 𝔏<sub>SV</sub><sup>(11)</sup> | B.11, 𝔋<sup>L</sup><sub>SV</sub> | Coherencia entrópica absoluta |
-| 12 | 𝔏<sub>SV</sub><sup>(12)</sup> | A.3, 𝔼<sub>SV</sub> | Cierre electromagnético absoluto |
-| 13 | 𝔏<sub>SV</sub><sup>(13)</sup> | A.6 (O1) | Divergencia O1 sobre celdas |
-| 14 | 𝔏<sub>SV</sub><sup>(14)</sup> | A.6 (O2) | Gauss-SV discreto absoluto |
-| 15 | 𝔏<sub>SV</sub><sup>(15)</sup> | A.4, 𝔽<sub>SV</sub> | Continuidad interfacial absoluta |
+| 1 | **L**<sub>SV</sub><sup>(1)</sup> | B.1, **G**<sup>L</sup><sub>SV</sub> | Generación preternaria absoluta |
+| 2 | **L**<sub>SV</sub><sup>(2)</sup> | B.2, **T**<sup>L</sup><sub>SV</sub> | Transducción absoluta admisible |
+| 3 | **L**<sub>SV</sub><sup>(3)</sup> | B.3, **M**<sup>L</sup><sub>SV</sub> | Modalidad proyectiva operativa |
+| 4 | **L**<sub>SV</sub><sup>(4)</sup> | B.4, **K**<sup>L</sup><sub>SV</sub> | Recorrido fibroso sobre mosaico |
+| 5 | **L**<sub>SV</sub><sup>(5)</sup> | B.5, **Q**<sup>L</sup><sub>SV</sub> | Cuantización h<sub>SV</sub> consistente |
+| 6 | **L**<sub>SV</sub><sup>(6)</sup> | B.6, **P**<sup>L</sup><sub>SV</sub> | Residualidad polar admisible |
+| 7 | **L**<sub>SV</sub><sup>(7)</sup> | B.7, **C**<sup>L</sup><sub>SV</sub> | Coherencia estructural interna |
+| 8 | **L**<sub>SV</sub><sup>(8)</sup> | B.8, **B**<sup>L</sup><sub>SV</sub> | Compatibilidad basal absoluta |
+| 9 | **L**<sub>SV</sub><sup>(9)</sup> | B.9, **U**<sup>gr</sup><sub>SV</sub> | Deformación gravitacional de umbrales |
+| 10 | **L**<sub>SV</sub><sup>(10)</sup> | B.10, **D**<sup>rec</sup><sub>SV</sub> | Recorrido estructural sobre sucesos |
+| 11 | **L**<sub>SV</sub><sup>(11)</sup> | B.11, **T**_ent<sup>L</sup><sub>SV</sub> | Coherencia entrópica absoluta |
+| 12 | **L**<sub>SV</sub><sup>(12)</sup> | A.3, 𝔼<sub>SV</sub> | Cierre electromagnético absoluto |
+| 13 | **L**<sub>SV</sub><sup>(13)</sup> | A.6 (O1) | Divergencia O1 sobre celdas |
+| 14 | **L**<sub>SV</sub><sup>(14)</sup> | A.6 (O2) | Gauss-SV discreto absoluto |
+| 15 | **L**<sub>SV</sub><sup>(15)</sup> | A.4, 𝔽<sub>SV</sub> | Continuidad interfacial absoluta |
 
 ### 9.4. Los trece invariantes absolutos I1–I13 asociados a la ecuación única
 
-Junto con los quince sumandos, la ecuación única absoluta 𝔏<sub>SV</sub> = 0 convoca trece invariantes absolutos estructurales que toda fibra admisible absoluta debe satisfacer. Cada invariante se enuncia absolutamente con forma algebraica cerrada.
+Junto con los quince sumandos, la ecuación única absoluta **L**<sub>SV</sub> = 0 convoca trece invariantes absolutos estructurales que toda fibra admisible absoluta debe satisfacer. Cada invariante se enuncia absolutamente con forma algebraica cerrada.
 
 **I1 (admisibilidad absoluta estructural de la fibra).** Γ admisible absoluta, ξ no vacío, todas las hebras preternariamente compatibles absolutas:
 
@@ -1506,21 +1674,21 @@ I_5: \forall\,i\in\xi:\; \{(\alpha_i(k),\beta_i(k))\}_{k=0}^{k_i^{\ast}} \subset
 
 **I6 (cierre absoluto Maxwell factual).** La proyección de campo satisface absolutamente 𝔼<sub>SV</sub>(π<sub>𝒞</sub>(Φ<sup>L</sup><sub>SV</sub>)) = 0 (Lloret Egea, 2026k, §3.12).
 
-**I7 (energía factual absoluta no trivial con taxonomía absoluta de sucesos — forma reforzada).** Por §3bis.9: 𝔈<sub>SV</sub>(Γ, n<sub>fin</sub>) > 0, clasificación absoluta de sucesos en G/A/D, y Δ𝔈<sub>SV</sub>(ν) ≥ 0 para todo suceso G o A; Δ𝔈<sub>SV</sub>(ν) > 0 estrictamente para sucesos G no triviales.
+**I7 (energía factual absoluta no trivial con taxonomía absoluta de sucesos — forma reforzada).** Por §3bis.9: **E**<sub>SV</sub>(Γ, n<sub>fin</sub>) > 0, clasificación absoluta de sucesos en G/A/D, y Δ**E**<sub>SV</sub>(ν) ≥ 0 para todo suceso G o A; Δ**E**<sub>SV</sub>(ν) > 0 estrictamente para sucesos G no triviales.
 
-**I8 (coherencia estructural absoluta interna).** ℭ<sup>L</sup><sub>SV</sub>(h<sub>i</sub>, h<sub>j</sub>) = 0 para todo par de hebras de la fibra:
+**I8 (coherencia estructural absoluta interna).** **C**<sup>L</sup><sub>SV</sub>(h<sub>i</sub>, h<sub>j</sub>) = 0 para todo par de hebras de la fibra:
 
 ```math
 I_8: \forall\,i\ne j \in\xi:\; \mathfrak{C}^L_{SV}(h_i, h_j) = 0.
 ```
 
-**I9 (compatibilidad basal absoluta).** 𝔅<sup>L</sup><sub>SV</sub>(Φ<sup>L</sup><sub>SV</sub>) = 0 (operador B.8):
+**I9 (compatibilidad basal absoluta).** **B**<sup>L</sup><sub>SV</sub>(Φ<sup>L</sup><sub>SV</sub>) = 0 (operador B.8):
 
 ```math
 I_9: \bigl|\,\mathfrak{E}_{SV}(\Gamma,n_{\mathrm{fin}}) - \sum_{\xi'\subset\Phi^L,\text{cierre}=m_0} m_0(\xi')\cdot c_{SV}^2\,\bigr| = 0.
 ```
 
-**I10 (coherencia entrópica absoluta).** 𝔋<sup>L</sup><sub>SV</sub>(Φ<sup>L</sup><sub>SV</sub>, Γ) = 0 (operador B.11):
+**I10 (coherencia entrópica absoluta).** **T**_ent<sup>L</sup><sub>SV</sub>(Φ<sup>L</sup><sub>SV</sub>, Γ) = 0 (operador B.11):
 
 ```math
 I_{10}: H_{SV}(\Gamma, n_{\mathrm{fin}}) = \mathcal{A}^L_{SV}(\Phi^L_{SV}).
@@ -1550,47 +1718,109 @@ I_{13}: \forall\,i\in\xi\;\text{con}\;\Pi_3^H(\xi_i) = U:\;\Gamma_{\mathcal{H}}(
 
 ### 9.5. Teorema absoluto de clausura de la ecuación única
 
-**Teorema 9.1 (Clausura absoluta de la ecuación única 𝔏<sub>SV</sub> = 0).** Sea Φ<sup>L</sup><sub>SV</sub> una fibra luminosa admisible absoluta con datum estructural (Γ, ξ) y configuración de umbrales deformados {𝓛<sub>i</sub><sup>(gr)</sup>}. Entonces 𝔏<sub>SV</sub>(Φ<sup>L</sup><sub>SV</sub>; {𝓛<sub>i</sub><sup>(gr)</sup>}) = 0 **si y sólo si** los trece invariantes absolutos I1–I13 se satisfacen simultáneamente absolutamente sobre la fibra.
+**Teorema 9.1 (Clausura absoluta de la ecuación única **L**<sub>SV</sub> = 0).** Sea Φ<sup>L</sup><sub>SV</sub> una fibra luminosa admisible absoluta con datum estructural (Γ, ξ) y configuración de umbrales deformados {𝓛<sub>i</sub><sup>(gr)</sup>}. Entonces **L**<sub>SV</sub>(Φ<sup>L</sup><sub>SV</sub>; {𝓛<sub>i</sub><sup>(gr)</sup>}) = 0 **si y sólo si** los trece invariantes absolutos I1–I13 se satisfacen simultáneamente absolutamente sobre la fibra.
 
 *Demostración.* La demostración procede en dos pasos.
 
-**Paso (a) — implicación directa: ecuación única implica todos los invariantes.** Supóngase que 𝔏<sub>SV</sub>(Φ<sup>L</sup><sub>SV</sub>; {𝓛<sub>i</sub><sup>(gr)</sup>}) = 0. Por la definición absoluta del operador ⊕ (concatenación absoluta de compuertas), esto es equivalente absolutamente a 𝔏<sub>SV</sub><sup>(s)</sup>(Φ<sup>L</sup><sub>SV</sub>) = 0 para todo s ∈ {1, 2, …, 15}. Se verifica cada invariante:
+**Paso (a) — implicación directa: ecuación única implica todos los invariantes.** Supóngase que **L**<sub>SV</sub>(Φ<sup>L</sup><sub>SV</sub>; {𝓛<sub>i</sub><sup>(gr)</sup>}) = 0. Por la definición absoluta del operador ⊕ (concatenación absoluta de compuertas), esto es equivalente absolutamente a **L**<sub>SV</sub><sup>(s)</sup>(Φ<sup>L</sup><sub>SV</sub>) = 0 para todo s ∈ {1, 2, …, 15}. Se verifica cada invariante:
 
-- I1: implicado absolutamente por 𝔏<sub>SV</sub><sup>(1)</sup> = 0 (generación preternaria absoluta exige Γ admisible y ξ no vacío absolutamente).
-- I2: implicado absolutamente por 𝔏<sub>SV</sub><sup>(1)</sup> = 0 y 𝔏<sub>SV</sub><sup>(2)</sup> = 0 (el operador absoluto 𝔊<sup>L</sup><sub>SV</sub> invoca absolutamente Π<sub>3</sub><sup>H</sup> con respeto absoluto del Lema 7.3 del corpus).
+- I1: implicado absolutamente por **L**<sub>SV</sub><sup>(1)</sup> = 0 (generación preternaria absoluta exige Γ admisible y ξ no vacío absolutamente).
+- I2: implicado absolutamente por **L**<sub>SV</sub><sup>(1)</sup> = 0 y **L**<sub>SV</sub><sup>(2)</sup> = 0 (el operador absoluto **G**<sup>L</sup><sub>SV</sub> invoca absolutamente Π<sub>3</sub><sup>H</sup> con respeto absoluto del Lema 7.3 del corpus).
 - I3: implicado absolutamente por admisibilidad absoluta de Γ (Fundamentos 13.3.2 del corpus — append-only absoluto).
-- I4: implicado absolutamente por 𝔏<sub>SV</sub><sup>(3)</sup> = 0 (operatividad absoluta de π<sub>𝒟</sub>).
-- I5: implicado absolutamente por 𝔏<sub>SV</sub><sup>(6)</sup> = 0 (residualidad absoluta polar admisible y consistencia absoluta del perfil polar).
-- I6: implicado absolutamente por 𝔏<sub>SV</sub><sup>(12)</sup> = 0 (cierre electromagnético absoluto).
-- I7: implicado absolutamente por 𝔏<sub>SV</sub><sup>(5)</sup> = 0 (cuantización) y 𝔏<sub>SV</sub><sup>(8)</sup> = 0 (compatibilidad basal absoluta) junto con el Teorema 3.2 y Teorema 3bis.1.
-- I8: implicado absolutamente por 𝔏<sub>SV</sub><sup>(7)</sup> = 0 (coherencia estructural absoluta interna).
-- I9: implicado absolutamente por 𝔏<sub>SV</sub><sup>(8)</sup> = 0 (compatibilidad basal absoluta).
-- I10: implicado absolutamente por 𝔏<sub>SV</sub><sup>(11)</sup> = 0 (coherencia entrópica absoluta).
-- I11: implicado absolutamente por 𝔏<sub>SV</sub><sup>(9)</sup> = 0 (deformación gravitacional absoluta de umbrales).
-- I12: implicado absolutamente por 𝔏<sub>SV</sub><sup>(13)</sup> = 0, 𝔏<sub>SV</sub><sup>(14)</sup> = 0 (identidades absolutas O1, O2) y por O3 absoluta heredada del corpus (Plano V).
+- I4: implicado absolutamente por **L**<sub>SV</sub><sup>(3)</sup> = 0 (operatividad absoluta de π<sub>𝒟</sub>).
+- I5: implicado absolutamente por **L**<sub>SV</sub><sup>(6)</sup> = 0 (residualidad absoluta polar admisible y consistencia absoluta del perfil polar).
+- I6: implicado absolutamente por **L**<sub>SV</sub><sup>(12)</sup> = 0 (cierre electromagnético absoluto).
+- I7: implicado absolutamente por **L**<sub>SV</sub><sup>(5)</sup> = 0 (cuantización) y **L**<sub>SV</sub><sup>(8)</sup> = 0 (compatibilidad basal absoluta) junto con el Teorema 3.2 y Teorema 3bis.1.
+- I8: implicado absolutamente por **L**<sub>SV</sub><sup>(7)</sup> = 0 (coherencia estructural absoluta interna).
+- I9: implicado absolutamente por **L**<sub>SV</sub><sup>(8)</sup> = 0 (compatibilidad basal absoluta).
+- I10: implicado absolutamente por **L**<sub>SV</sub><sup>(11)</sup> = 0 (coherencia entrópica absoluta).
+- I11: implicado absolutamente por **L**<sub>SV</sub><sup>(9)</sup> = 0 (deformación gravitacional absoluta de umbrales).
+- I12: implicado absolutamente por **L**<sub>SV</sub><sup>(13)</sup> = 0, **L**<sub>SV</sub><sup>(14)</sup> = 0 (identidades absolutas O1, O2) y por O3 absoluta heredada del corpus (Plano V).
 - I13: implicado absolutamente por I4 y el clasificador absoluto Γ<sub>ℋ</sub> (Lloret Egea, 2026c), que opera absolutamente sobre toda posición con dictamen U declarado.
 
 Por tanto, todos los trece invariantes se satisfacen absolutamente.
 
-**Paso (b) — implicación inversa: satisfacción absoluta simultánea de los trece invariantes implica anulación absoluta de todos los sumandos.** Supóngase que I1 ∧ I2 ∧ … ∧ I13 se satisfacen absolutamente simultáneamente. Se verifica que cada 𝔏<sub>SV</sub><sup>(s)</sup> = 0:
+**Paso (b) — implicación inversa: satisfacción absoluta simultánea de los trece invariantes implica anulación absoluta de todos los sumandos.** Supóngase que I1 ∧ I2 ∧ … ∧ I13 se satisfacen absolutamente simultáneamente. Se verifica que cada **L**<sub>SV</sub><sup>(s)</sup> = 0:
 
-- I1 implica 𝔏<sub>SV</sub><sup>(1)</sup> = 0 (la generación preternaria absoluta opera admisiblemente sobre la sección de partida).
-- I5 implica 𝔏<sub>SV</sub><sup>(6)</sup> = 0 (residualidad polar admisible).
-- I7 con clasificación absoluta de sucesos y el operador 𝔔<sup>L</sup><sub>SV</sub> implican 𝔏<sub>SV</sub><sup>(5)</sup> = 0 (cuantización consistente).
-- I8 implica 𝔏<sub>SV</sub><sup>(7)</sup> = 0 (coherencia estructural absoluta).
-- I9 implica 𝔏<sub>SV</sub><sup>(8)</sup> = 0 (compatibilidad basal absoluta).
-- I10 implica 𝔏<sub>SV</sub><sup>(11)</sup> = 0 (coherencia entrópica absoluta).
-- I11 implica 𝔏<sub>SV</sub><sup>(9)</sup> = 0 y 𝔏<sub>SV</sub><sup>(10)</sup> = 0 (deformación y recorrido absolutos).
-- I6 implica 𝔏<sub>SV</sub><sup>(12)</sup> = 0 (cierre electromagnético absoluto).
-- I12 implica 𝔏<sub>SV</sub><sup>(13)</sup> = 0, 𝔏<sub>SV</sub><sup>(14)</sup> = 0 y la parte O3 absoluta (heredada absolutamente en 𝔏<sub>SV</sub><sup>(11)</sup> y compatibilidad con ℱ absoluta).
-- I1 y I3 y I4 implican 𝔏<sub>SV</sub><sup>(2)</sup>, 𝔏<sub>SV</sub><sup>(3)</sup>, 𝔏<sub>SV</sub><sup>(4)</sup>, 𝔏<sub>SV</sub><sup>(15)</sup> = 0 (admisibilidad absoluta de transducción, modalidad, recorrido, y frontera factual absoluta).
+- I1 implica **L**<sub>SV</sub><sup>(1)</sup> = 0 (la generación preternaria absoluta opera admisiblemente sobre la sección de partida).
+- I5 implica **L**<sub>SV</sub><sup>(6)</sup> = 0 (residualidad polar admisible).
+- I7 con clasificación absoluta de sucesos y el operador **Q**<sup>L</sup><sub>SV</sub> implican **L**<sub>SV</sub><sup>(5)</sup> = 0 (cuantización consistente).
+- I8 implica **L**<sub>SV</sub><sup>(7)</sup> = 0 (coherencia estructural absoluta).
+- I9 implica **L**<sub>SV</sub><sup>(8)</sup> = 0 (compatibilidad basal absoluta).
+- I10 implica **L**<sub>SV</sub><sup>(11)</sup> = 0 (coherencia entrópica absoluta).
+- I11 implica **L**<sub>SV</sub><sup>(9)</sup> = 0 y **L**<sub>SV</sub><sup>(10)</sup> = 0 (deformación y recorrido absolutos).
+- I6 implica **L**<sub>SV</sub><sup>(12)</sup> = 0 (cierre electromagnético absoluto).
+- I12 implica **L**<sub>SV</sub><sup>(13)</sup> = 0, **L**<sub>SV</sub><sup>(14)</sup> = 0 y la parte O3 absoluta (heredada absolutamente en **L**<sub>SV</sub><sup>(11)</sup> y compatibilidad con ℱ absoluta).
+- I1 y I3 y I4 implican **L**<sub>SV</sub><sup>(2)</sup>, **L**<sub>SV</sub><sup>(3)</sup>, **L**<sub>SV</sub><sup>(4)</sup>, **L**<sub>SV</sub><sup>(15)</sup> = 0 (admisibilidad absoluta de transducción, modalidad, recorrido, y frontera factual absoluta).
 - I13 cierra absolutamente la compatibilidad del clasificador Γ<sub>ℋ</sub> con el dictamen.
 
-Por tanto, 𝔏<sub>SV</sub><sup>(s)</sup>(Φ<sup>L</sup><sub>SV</sub>; {𝓛<sub>i</sub><sup>(gr)</sup>}) = 0 para todo s ∈ {1, …, 15}, y por concatenación ⊕ se tiene 𝔏<sub>SV</sub>(Φ<sup>L</sup><sub>SV</sub>; {𝓛<sub>i</sub><sup>(gr)</sup>}) = 0.
+Por tanto, **L**<sub>SV</sub><sup>(s)</sup>(Φ<sup>L</sup><sub>SV</sub>; {𝓛<sub>i</sub><sup>(gr)</sup>}) = 0 para todo s ∈ {1, …, 15}, y por concatenación ⊕ se tiene **L**<sub>SV</sub>(Φ<sup>L</sup><sub>SV</sub>; {𝓛<sub>i</sub><sup>(gr)</sup>}) = 0.
 
 La conjunción absoluta de los Pasos (a) y (b) establece la equivalencia absoluta enunciada. Q.E.D.
 
-**Observación 9.1 (El operador maestro absoluto 𝔏<sub>SV</sub> es exhaustivo).** El Teorema 9.1 demuestra que la ecuación única absoluta 𝔏<sub>SV</sub> = 0 condensa absolutamente, sin residuo ni adición axiomática externa, el conjunto absoluto de los trece invariantes estructurales de la fibra luminosa. Ningún régimen luminoso admisible absoluto queda fuera absolutamente de la anulación de 𝔏<sub>SV</sub>, y ningún régimen que anule 𝔏<sub>SV</sub> escapa absolutamente del aparato canónico del corpus.
+**Observación 9.1 (El operador maestro absoluto **L**<sub>SV</sub> es exhaustivo).** El Teorema 9.1 demuestra que la ecuación única absoluta **L**<sub>SV</sub> = 0 condensa absolutamente, sin residuo ni adición axiomática externa, el conjunto absoluto de los trece invariantes estructurales de la fibra luminosa. Ningún régimen luminoso admisible absoluto queda fuera absolutamente de la anulación de **L**<sub>SV</sub>, y ningún régimen que anule **L**<sub>SV</sub> escapa absolutamente del aparato canónico del corpus.
 
 ---
 
+
+---
+
+## [Apéndice final — Se reubicará tras §24 Referencias en la entrega final]
+
+**Nota transitoria.** El siguiente bloque — «Prohibiciones constitutivas absolutas desarrolladas» más «Glosario tipográfico canónico absoluto» — cierra el documento en su versión final, después de §24 Referencias. Aparece aquí porque la presente primera entrega cubre el cuerpo hasta §9; el apéndice final se reubicará estructuralmente en la versión consolidada al cierre del documento. Ya está redactado con su forma definitiva para que la revisión doctrinal pueda operar sobre él desde ahora.
+
+---
+
+## Prohibiciones constitutivas absolutas del Sistema Vectorial SV — desarrollo completo
+
+Con rango absoluto y para fijar con rigor el marco disciplinar del documento y su anexo, se desarrollan absolutamente las seis prohibiciones constitutivas enunciadas en el encabezado. Cada prohibición se acompaña absolutamente de la referencia canónica al lema del corpus sobre el que descansa estructuralmente.
+
+**P.1. Prohibición absoluta del tiempo soberano.** En el Sistema Vectorial SV no existe variable temporal con rango constitutivo. El índice de suceso ν es ordinal absoluto, append-only, honesto. La derivada factual ∂<sub>ν</sub><sup>SV</sup> no es derivada temporal: es diferencia finita sobre ordinal absoluto de sucesos. **Suelo canónico**: Lema 5.5 (no retorno preternario) y Lema 7.3 (honestidad coordenada) de Lloret Egea (2026j). La frase «antes/después», cuando no esté cuidadosamente asignada al orden ordinal ν<sub>i</sub> < ν<sub>j</sub>, queda prohibida con rango absoluto. «Velocidad», «aceleración», «ritmo», «evolución», «flujo temporal», «instante», «duración», «momento», «propagación» en sentido temporal clásico quedan prohibidas absolutamente como magnitudes primarias, y reemplazadas por sus análogos estructurales absolutos sobre ordinal de sucesos. La métrica absoluta K<sub>UFE/UE_MFC</sub> del anexo A.2 no introduce tiempo soberano: es factor absoluto de calibración que traduce magnitudes factuales al pilar metrológico externo sin conferir rango constitutivo absoluto al tiempo.
+
+**P.2. Prohibición absoluta de probabilidad fundante.** El Sistema Vectorial SV no acepta distribución probabilística como suelo ontológico. La indeterminación se codifica absolutamente como U (axioma absoluto de la U del corpus, Lloret Egea, 2026a, Fundamentos 13.2.5 y 13.2.8). La probabilidad puede aparecer absolutamente como herramienta de medición subordinada al aparato factual — por ejemplo, en bancos laboratoriales con magnitudes empíricas —, **nunca como primitiva constitutiva**. En el presente documento no aparece distribución probabilística alguna con rango fundante. Los dictámenes del aparato TPA son deterministas absolutos sobre configuraciones preternarias; la indeterminación legítima U se resuelve absolutamente por sucesos factuales admisibles según el clasificador Γ<sub>ℋ</sub> del corpus (Lloret Egea, 2026c).
+
+**P.3. Prohibición absoluta de geometría soberana auxiliar.** No existe métrica, espacio-tiempo, coordenada absoluta preexistente con rango constitutivo. Toda posición factual es ξ<sub>i</sub> ∈ Ω<sub>pre</sub> con estructura preternaria (α<sub>i</sub>, β<sub>i</sub>) primaria (Lloret Egea, 2026j, §2). La métrica absoluta factual es derivada, no primaria. Los términos «distancia», «dist(·,·)» que comparecen en el Teorema 5.1 y en el anexo A.1 son magnitudes factuales estructurales absolutas derivadas del sustrato combinatorio, no distancias euclídeas soberanas. El espacio-tiempo de la relatividad general heredada no se invoca absolutamente en ningún lugar del documento; la curvatura gravitacional factual de la luz (§5.3, anexo A.1) se construye absolutamente como deformación del umbral 𝓛<sub>i</sub>, no como geodésica sobre métrica curvada soberana.
+
+**P.4. Prohibición absoluta de inferencia opaca.** Todo operador y toda decisión factual está declarada con semántica absoluta trazable sobre el corpus (Lloret Egea, 2026a, Fundamentos 13.2.7). No hay heurística oculta, no hay clausura espuria. Cada paso de cada demostración del presente documento refiere explícitamente al lema, teorema, definición o proposición del corpus sobre el que descansa. No se apela nunca a argumentos de plausibilidad, consenso, autoridad o conveniencia. La honestidad coordenada absoluta del Lema 7.3 de 2026j extiende absolutamente esta prohibición a la operación interna del aparato: ninguna proyección produce absolutamente resultados con estructura interna que no sea inspeccionable.
+
+**P.5. Prohibición absoluta de adición axiomática externa al corpus.** Ningún operador, magnitud o teorema de este documento introduce axioma ajeno al Sistema Vectorial SV. Los operadores heredados del corpus (Clase A del §8) se invocan con rango canónico absoluto citando la fuente; los operadores propios del régimen luminoso (Clase B del §8) se construyen absolutamente sobre primitivos del corpus (UE_MFC, UFE, UFM, UFC) y operaciones combinatorias absolutas sobre Ω<sub>pre</sub>. Ningún postulado axiomático nuevo se añade absolutamente. El cuanto factual h<sub>SV</sub>, derivado estructuralmente de la unicidad canónica absoluta de Π<sub>3</sub><sup>H</sup> (Teorema 3.1), es ejemplo paradigmático: no se postula, se demuestra como invariante absoluto del aparato.
+
+**P.6. Prohibición absoluta de clausura espuria.** La indeterminación U no se cierra por decreto; sólo se resuelve absolutamente por sucesos factuales admisibles según el clasificador Γ<sub>ℋ</sub> del corpus (Lloret Egea, 2026c, Teorema 1). Cualquier clausura presentada en este documento queda justificada absolutamente mediante un suceso factual declarado o mediante reducción algebraica exacta a un resultado previamente demostrado absoluto. El reconocimiento honesto absoluto del suceso cero ε<sub>0</sub> (§3bis) como frontera exterior absoluta del marco — y, por tanto, como U legítima honesta no cerrable desde dentro del aparato — es la aplicación paradigmática de esta prohibición: se declara absolutamente como U, no se fuerza a 0 ni a 1 mediante construcción metafísica prematura. El programa metafísico SV (véase Destacados del §3bis y §7.3bis) respeta absolutamente esta prohibición operando sobre la frontera exterior sin forzar su clausura.
+
+Estas seis prohibiciones operan absolutamente como marco absoluto del documento. Cualquier pasaje que, por imprecisión expositiva, sugiera contradecirlas debe leerse en el sentido estricto absoluto fijado aquí.
+
+---
+
+## Glosario tipográfico canónico absoluto
+
+Con rango absoluto y para evitar colisión de símbolos en un documento que opera sobre un cuerpo operatorio extenso, se fijan las siguientes distinciones tipográficas absolutas, que se respetan sin excepción a lo largo del documento y del anexo. En todos los casos, la notación en prosa (Markdown + HTML) y la notación LaTeX dentro de bloques `math` son sinónimas: la primera se elige porque los glifos Unicode avanzados (fraktur, doble-trazo, caligráficos) no renderizan en todas las fuentes y pueden aparecer como el carácter de reemplazo □ («tofu» tipográfico); la segunda reproduce fielmente el símbolo dentro del bloque matemático.
+
+- **h<sub>SV</sub>** (latina redonda escalar): cuanto factual absoluto de transporte. Magnitud escalar con dimensión UFM · UFE² · UE_MFC⁻¹. En prosa se escribe **h<sub>SV</sub>**; en `math`, `h_{SV}`.
+
+- ***h*<sub>op,SV</sub>** (fraktur mayúscula h, operador): operador de transporte de la cadena fundacional Σ<sub>conc</sub> → Σ<sub>canal</sub> (Lloret Egea, 2026l, §3). Operador, **no escalar**; **no confundible** con h<sub>SV</sub>. En prosa se escribe ***h*<sub>op,SV</sub>**; en `math`, `\mathfrak{h}_{SV}`.
+
+- **Φ<sup>L</sup><sub>SV</sub>** (Φ mayúscula griega con superíndice L permanente): objeto fibroso factual luminoso. Estructura compleja, siempre con superíndice L en todo el documento y el anexo.
+
+- **Φ** (Φ mayúscula sin superíndice, contexto exclusivo del anexo A.1): factor absoluto de deformación gravitacional. Magnitud escalar adimensional derivada de los sectores (G(ν), 𝒢<sub>J</sub>(ν)). **No se usa nunca sin subíndice o contexto explícito fuera de A.1**.
+
+- **L<sub>SV</sub>** (negrita romana en prosa, equivalente a fraktur mayúscula L en `math`): operador maestro absoluto de la ecuación soberana de la luz factual. En prosa se escribe **L<sub>SV</sub>**; en `math`, `\mathfrak{L}_{SV}`. Ambas notaciones designan el mismo objeto.
+
+- **L<sup>mst</sup><sub>SV</sub>** (negrita romana en prosa, con superíndice mst): reducción maestra absoluta fibrosa, caso particular de concatenación de operadores propios sobre la fibra. En `math`, `\mathfrak{L}^{mst}_{SV}`.
+
+- **E<sub>SV</sub>** (negrita romana en prosa, equivalente a fraktur mayúscula E en `math`): en prosa denota la energía factual absoluta. En `math`, `\mathfrak{E}_{SV}`. Atención: el vector de estado del bloque Maxwell factual 𝔼<sub>SV</sub> (doble-trazo E) **es símbolo distinto**, reservado al operador maestro electromagnético del corpus (Lloret Egea, 2026k, §3.12); para evitar colisión con la negrita romana, el doble-trazo 𝔼 se mantiene en su forma original en todo el documento.
+
+- Otros operadores absolutos con símbolo fraktur en el corpus (**G**<sub>SV</sub>, **T**<sub>SV</sub>, **K**<sub>SV</sub>, **M**<sub>SV</sub>, **Q**<sub>SV</sub>, **P**<sub>SV</sub>, **C**<sub>SV</sub>, **B**<sub>SV</sub>, **D**<sub>SV</sub>, **U**<sub>SV</sub>, **F**<sub>SV</sub>, **J**<sub>SV</sub>, **A**<sub>SV</sub>): siguen la misma convención. En prosa, negrita romana con el subíndice; en `math`, la forma fraktur correspondiente (`\mathfrak{G}_{SV}`, `\mathfrak{T}_{SV}`, etc.).
+
+- **u**<sub>SV</sub> (minúscula negrita Markdown con subíndice HTML): vector director factual del objeto estructural al que se aplique. Por convención general, los vectores en prosa se denotan en minúscula negrita con subíndice SV. En `math`, se usa `\vec{u}_{SV}`. Ambas notaciones son sinónimas.
+
+- **G**<sub>SV</sub> (sans-serif matemática): covector normal canónico absoluto del Sistema Vectorial SV.
+
+- **Símbolos ternarios**: 0, 1, U sobre el alfabeto canónico absoluto Σ = {0, 1, U}.
+
+- **Símbolos de campo con doble-trazo**: 𝕏<sub>SV</sub> (campo eléctrico factual del bloque Maxwell, Lloret Egea, 2026k), 𝕐<sub>SV</sub> (campo magnético factual del mismo bloque), ℂ<sub>SV</sub> (triplete constitutivo (ε<sub>SV</sub>, μ<sub>SV</sub>, σ<sub>SV</sub>)), J<sub>SV</sub> (jacobiano factual absoluto de sensibilidad de régimen). **Se mantienen en su forma Unicode original** por ser la convención adoptada en el corpus de Maxwell factual absoluto, y porque su renderizado tipográfico ha probado ser estable en las plataformas del corpus (itvia.online, GitHub). Si una plataforma concreta los mostrara como □ (fallo de glifo), su equivalente prosa es **X**<sub>SV</sub>, **Y**<sub>SV</sub>, **C**<sub>SV</sub>, **J**<sub>SV</sub> en negrita romana.
+
+- **Operador concatenador ⊕**: denota **concatenación absoluta de compuertas** en el sentido de conjunción lógica factual, definida por (A ⊕ B)(x) = 0 ⟺ A(x) = 0 ∧ B(x) = 0. **No es suma aritmética, no es suma directa algebraica**. La notación se conserva uniforme dentro del documento y del anexo.
+
+- **∂<sub>ν</sub><sup>SV</sup>**: derivada parcial factual respecto del índice factual ordinal absoluto ν de suceso, en el sentido absoluto fijado por Lloret Egea (2026k, §2.3). **No es derivada respecto del tiempo soberano**, que en el Sistema Vectorial SV no existe como primitiva: es operador factual sobre índice ordinal ν de sucesos admisibles.
+
+- **Cierre de prueba**: **Q.E.D.** en todo el cuerpo del documento y del anexo, siguiendo la convención canónica del bloque Maxwell factual absoluto (Lloret Egea, 2026k).
