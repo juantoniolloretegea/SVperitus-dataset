@@ -5,27 +5,11 @@
 ### Tratado canónico absoluto del origen estructural del cambio factual
 
 ---
+**© 2026. Todos los derechos reservados.** | **DOI** [10.17613/1z7c0-mqb40](https://doi.org/10.17613/1z7c0-mqb40) | **Juan Antonio Lloret Egea** | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) | IA eñ™ — La Biblia de la IA™ | **ISSN 2695-6411** | **Licencia CC BY-NC-ND 4.0** | Madrid, 24/04/2026 |
 
-**Autor:** Juan Antonio Lloret Egea
+**Advertencia:** Esta publicación está protegida por **CEDRO** y su aplicación en el campo de la Física, así como cualquier forma de explotación, reproducción o uso por parte de empresas, queda sujeta al copyright del autor y a los términos de la licencia indicada; la reproducción, distribución, comunicación pública o transformación de esta obra sólo puede ser realizada con la autorización de sus titulares, salvo excepción prevista por la ley, y cualquier uso comercial sin autorización expresa queda prohibido y estrictamente supeditado al licenciamiento permitido.
 
-**ORCID:** 0000-0002-6634-3351
-
-**Sello editorial:** Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA)
-
-**Publicación:** IA eñ™ — La Biblia de la IA™
-
-**ISSN:** 2695-6411
-
-**Licencia:** CC BY-NC-ND 4.0
-
-**Versión:** 1 — Release canónico absoluto
-
-**Lugar y fecha de cierre editorial:** Madrid, 25 de abril de 2026
-
-**Rango del documento:** publicación canónica del corpus del Sistema Vectorial SV con rango fundacional superior absoluto. La presente obra constituye el tratado canónico de la teoría general del origen estructural del cambio factual, prometida con rango canónico en el destacado de §3bis.2 del documento *Teoría general factual de la luz en el Sistema Vectorial SV* (Lloret Egea, 2026m, depósito Humanities Commons con DOI 10.17613/1z7c0-mqb40). Su rango es superior al de cualquier régimen sectorial del corpus, pues opera en el estrato fundacional sobre el que aquellos se asientan.
-
-**Herramienta asistente:** Claude (Anthropic), instrumento de rigor deductivo, cotejo estructural y verificación formal, sin autoría ni coautoría sobre el contenido.
-
+**Warning:** This publication is protected by **CEDRO**. Its application in the field of Physics, as well as any form of exploitation, reproduction, or use by corporate entities, is strictly subject to the author's copyright and the terms of the license indicated; any reproduction, distribution, public communication, or transformation of this work requires authorization from the rightsholders, except as provided by law, and any commercial use without express written consent is prohibited and strictly subject to permitted licensing.
 **Disciplina rectora absoluta:** ninguna afirmación se eleva a rango canónico sin demostración formal completa, banco numérico de verificación, criterio de falsación explícito y trazabilidad íntegra al corpus existente. Esta disciplina es soberana sobre el documento y no admite excepción.
 
 ---
