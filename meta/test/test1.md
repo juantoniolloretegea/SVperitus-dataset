@@ -2445,7 +2445,3 @@ El presente documento absoluto, **«Teoría general de sucesos generadores y de 
 **Q.E.D. canónico absoluto absoluto del aparato absoluto general absoluto canónico absoluto.**
 
 ---
-
-*Juan Antonio Lloret Egea*  
-*ITVIA Madrid — ISSN 2695-6411 — ORCID 0000-0002-6634-3351*  
-*Sábado, 25 de abril de 2026*
