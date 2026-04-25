@@ -67,14 +67,6 @@ entonces ningún camino que suprima ε<sub>0</sub>, F<sub>0</sub>, Ω<sub>pre</s
 
 ---
 
-**© 2026. Todos los derechos reservados.** | **DOI** [pendiente de asignación] | **Juan Antonio Lloret Egea** | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) | IA eñ™ — La Biblia de la IA™ | **ISSN 2695-6411** | **Licencia CC BY-NC-ND 4.0** | Madrid, [fecha de depósito] |
-
-**Advertencia:** Esta publicación está protegida por **CEDRO** y su aplicación en el campo de la Física, así como cualquier forma de explotación, reproducción o uso por parte de empresas, queda sujeta al copyright del autor y a los términos de la licencia indicada; la reproducción, distribución, comunicación pública o transformación de esta obra sólo puede ser realizada con la autorización de sus titulares, salvo excepción prevista por la ley, y cualquier uso comercial sin autorización expresa queda prohibido y estrictamente supeditado al licenciamiento permitido.
-
-**Warning:** This publication is protected by **CEDRO**. Its application in the field of Physics, as well as any form of exploitation, reproduction, or use by corporate entities, is strictly subject to the author's copyright and the terms of the license indicated; any reproduction, distribution, public communication, or transformation of this work requires authorization from the rightsholders, except as provided by law, and any commercial use without express written consent is prohibited and strictly subject to permitted licensing.
-
----
-
 ## Índice
 
 Punto de entrada absoluto. Teorema 0.1 (Unicidad estructural condicionada del tránsito ε<sub>0</sub> – F<sub>0</sub> – U para la emergencia de sucesos generadores y protocampos).
