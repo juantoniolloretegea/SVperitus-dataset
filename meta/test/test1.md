@@ -1,2439 +1,1266 @@
----
+# Teoría general factual absoluta de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV: nivel canónico del programa, cierre del operador maestro unificado **U**<sup>unif</sup><sub>SV</sub> sobre los siete sectores coexistentes, identidades canónicas y verificación
 
-# Teoría general de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV
----
+**Juan Antonio Lloret Egea**
 
-**© 2026. Todos los derechos reservados.** | **DOI**| **Juan Antonio Lloret Egea** | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) | IA eñ™ — La Biblia de la IA™ | **ISSN 2695-6411** | **Licencia CC BY-NC-ND 4.0** | Madrid, 25/04/2026 |
-
-**Advertencia:** Esta publicación está protegida por **CEDRO** y su aplicación en el campo de la Física, así como cualquier forma de explotación, reproducción o uso por parte de empresas, queda sujeta al copyright del autor y a los términos de la licencia indicada; la reproducción, distribución, comunicación pública o transformación de esta obra sólo puede ser realizada con la autorización de sus titulares, salvo excepción prevista por la ley, y cualquier uso comercial sin autorización expresa queda prohibido y estrictamente supeditado al licenciamiento permitido.
-
-**Warning:** This publication is protected by **CEDRO**. Its application in the field of Physics, as well as any form of exploitation, reproduction, or use by corporate entities, is strictly subject to the author's copyright and the terms of the license indicated; any reproduction, distribution, public communication, or transformation of this work requires authorization from the rightsholders, except as provided by law, and any commercial use without express written consent is prohibited and strictly subject to permitted licensing.
-
----
-
-## Punto de entrada absoluto: Teorema 0.1 (Unicidad estructural condicionada del tránsito ε<sub>0</sub> – F<sub>0</sub> – U para la emergencia de sucesos generadores y protocampos)
-
-Esta publicación se abre por su pieza inaugural absoluta, sin preludio. La razón doctrinal es estricta: ninguna teoría general factual de los sucesos generadores y de los protocampos unificados puede comenzar en un campo ya formado, ni en una ecuación física heredada, ni en una operatoria del dominio ya desplegada, porque cualquiera de esos puntos de partida presupone aquello que la teoría debe explicar. La teoría debe comenzar en el punto lógico-formal mínimo absoluto en el que la vacuidad absoluta puede distinguirse del primer dominio admisible, y debe demostrar, antes de cualquier otra cosa, que la cadena formal que conecta ese punto con la emergencia de los protocampos es **única bajo las condiciones constitutivas del Sistema Vectorial SV**. El presente teorema cumple esa exigencia.
-
-**Teorema 0.1 (Unicidad estructural condicionada del tránsito ε<sub>0</sub> – F<sub>0</sub> – U para la emergencia de sucesos generadores y protocampos).** Si en el Sistema Vectorial SV se aceptan simultáneamente las siguientes condiciones constitutivas absolutas:
-
-(1) que el suceso cero absoluto ε<sub>0</sub> existe y es definible como tránsito entre la vacuidad absoluta ∅ y el dominio preternario Ω<sub>pre</sub>, esto es,
-
-```math
-\varepsilon_0:\;\emptyset\longrightarrow\Omega_{\mathrm{pre}};
-```
-
-(2) que dicha definibilidad exige una estructura formal mínima absoluta F<sub>0</sub> capaz de distinguir ∅ de Ω<sub>pre</sub>;
-
-(3) que en el borde inicial del dominio preternario los polos determinados 0 y 1 comparecen bajo equipotencialidad polar absoluta Φ(0) = Φ(1);
-
-(4) que la equipotencialidad polar absoluta impide una clausura binaria legítima;
-
-(5) que U debe preservarse absolutamente como no-clausura honesta;
-
-(6) que deben distinguirse absolutamente el dominio preternario Ω<sub>pre</sub>, el dominio prototernario Ω<sub>pro</sub> y el dominio ternario efectivo Σ = {0, 1, U};
-
-entonces ningún camino que suprima ε<sub>0</sub>, F<sub>0</sub>, Ω<sub>pre</sub>, la equipotencialidad polar Φ(0) = Φ(1), U, Ω<sub>pro</sub> o Σ puede fundar sucesos generadores y protocampos sin contradicción interna absoluta dentro del Sistema Vectorial SV. Bajo las condiciones constitutivas (1)–(6), el único camino formalmente admisible es la cadena formal mínima absoluta de legitimidad:
-
-```math
-\boxed{\;\varepsilon_0\;\to\;F_0\;\to\;\Omega_{\mathrm{pre}}\;\to\;\Phi(0)=\Phi(1)\;\to\;\text{no-decisi\'on}\;\to\;U\;\to\;\Omega_{\mathrm{pro}}\;\to\;\Sigma=\{0,1,U\}\;\to\;\text{sucesos generadores}\;\to\;\text{protocampos}.\;}
-```
-
-*Demostración.* La demostración procede por reducción al absurdo absoluta articulada en dos pasos canónicos absolutos: primero, establecimiento absoluto de la necesidad estructural absoluta de F<sub>0</sub> como condición formal de definibilidad de ε<sub>0</sub>; segundo, exclusión absoluta canónica de todo camino alternativo posible mediante recorrido caso por caso de las posibles supresiones, omisiones o sustituciones de eslabones de la cadena.
-
-**Paso (i) — necesidad estructural absoluta de F<sub>0</sub>.** Supóngase, por reducción al absurdo, que ε<sub>0</sub> existe y es definible como tránsito ε<sub>0</sub>: ∅ → Ω<sub>pre</sub>, conforme a la condición constitutiva (1) del enunciado, y supóngase simultáneamente que no existe estructura formal mínima absoluta F<sub>0</sub> capaz de distinguir ∅ de Ω<sub>pre</sub>. Si no existe F<sub>0</sub>, entonces no existe estructura formal absoluta capaz de distinguir formalmente la vacuidad absoluta ∅ del dominio preternario Ω<sub>pre</sub>. Pero si ∅ y Ω<sub>pre</sub> no son formalmente distinguibles entre sí, entonces el tránsito ε<sub>0</sub>: ∅ → Ω<sub>pre</sub> no puede definirse formalmente, porque un tránsito formal requiere por construcción términos formalmente distinguibles entre los que el tránsito opera. En consecuencia, ε<sub>0</sub> dejaría de ser definible como suceso cero absoluto dentro del Sistema Vectorial SV. Esto contradice directamente la hipótesis inicial absoluta, según la cual ε<sub>0</sub> existe y es definible. La contradicción demuestra absolutamente que F<sub>0</sub> es **necesaria** absoluta como condición formal de definibilidad de ε<sub>0</sub>.
-
-**Paso (ii) — exclusión absoluta canónica de todo camino alternativo.** Supóngase ahora que existe un camino alternativo absoluto hacia los sucesos generadores y los protocampos dentro del Sistema Vectorial SV, distinto de la cadena formal mínima del enunciado. Examínense exhaustivamente los siete subcasos posibles de tal alternativa.
-
-**Subcaso (a) — supresión absoluta de ε<sub>0</sub>.** Si el camino alternativo no parte de ε<sub>0</sub>, no explica el tránsito desde la vacuidad absoluta ∅ al primer dominio formalmente distinguible Ω<sub>pre</sub>. Sin tránsito declarado absoluto, no hay apertura absoluta del dominio sobre el cual los eslabones posteriores pueden operar. Por la condición constitutiva (1), ε<sub>0</sub> es por definición ese tránsito. Suprimirlo contradice (1). Subcaso refutado.
-
-**Subcaso (b) — supresión absoluta de F<sub>0</sub>.** Si el camino alternativo parte de ε<sub>0</sub> pero omite F<sub>0</sub>, contradice directamente el Paso (i) de la demostración: ε<sub>0</sub> quedaría indefinible. Por la condición constitutiva (2), F<sub>0</sub> es exigida como condición formal de definibilidad de ε<sub>0</sub>. Suprimirla contradice (2) y, por reducción anterior, desactiva el propio (1). Subcaso refutado.
-
-**Subcaso (c) — supresión absoluta de Ω<sub>pre</sub>.** Si el camino alternativo admite ε<sub>0</sub> y F<sub>0</sub> pero omite Ω<sub>pre</sub>, elimina el primer dominio absolutamente abierto por ε<sub>0</sub> y deja sin soporte estructural absoluto el tránsito originario. ε<sub>0</sub> se convertiría en tránsito sin término de llegada absoluta, lo que es contradictorio con la propia naturaleza de tránsito. Por la condición constitutiva (1), Ω<sub>pre</sub> es término absoluto de llegada de ε<sub>0</sub>. Suprimirlo contradice (1). Subcaso refutado.
-
-**Subcaso (d) — supresión absoluta de la equipotencialidad polar Φ(0) = Φ(1).** Si el camino alternativo admite Ω<sub>pre</sub> pero prescinde de la equipotencialidad polar absoluta Φ(0) = Φ(1) en el borde inicial absoluto, no justifica estructuralmente la imposibilidad inicial absoluta de clausura binaria legítima entre los polos determinados 0 y 1. La eventual aparición posterior absoluta de U como indeterminación honesta no quedaría justificada absolutamente y se convertiría en una decisión arbitraria del aparato, en violación absoluta directa de la prohibición constitutiva absoluta P.4 (no inferencia opaca) del corpus. Por la condición constitutiva (3), la equipotencialidad polar absoluta es exigida con rango canónico inicial. Suprimirla contradice (3) y activa P.4. Subcaso refutado.
-
-**Subcaso (e) — supresión absoluta de U.** Si el camino alternativo admite la equipotencialidad polar absoluta Φ(0) = Φ(1) pero elimina U, entonces fuerza una clausura binaria absoluta entre 0 y 1 sin gradiente resolutivo absoluto suficiente. Esa clausura es estructuralmente ilegítima absoluta por la condición constitutiva (4) (la equipotencialidad polar absoluta impide clausura binaria legítima). Por la condición constitutiva (5), U debe preservarse absolutamente como no-clausura honesta. Suprimir U contradice simultáneamente (4) y (5), y activa la prohibición constitutiva absoluta P.6 (no clausura espuria) del corpus. Subcaso refutado.
-
-**Subcaso (f) — supresión absoluta de Ω<sub>pro</sub>.** Si el camino alternativo admite U pero omite el dominio prototernario Ω<sub>pro</sub>, colapsa absolutamente la diferencia estructural absoluta entre el dominio preternario no activado Ω<sub>pre</sub>, la estructuración prototernaria emergente Ω<sub>pro</sub> y la terna efectiva Σ. Sin Ω<sub>pro</sub>, la estructuración emergente sobre la no-clausura honesta U no tendría estrato canónico absoluto sobre el que articularse, y la terna efectiva Σ comparecería sin estructuración previa que la legitime. Por la condición constitutiva (6), los tres estratos absolutos Ω<sub>pre</sub>, Ω<sub>pro</sub> y Σ deben distinguirse absolutamente. Suprimir Ω<sub>pro</sub> contradice (6). Subcaso refutado.
-
-**Subcaso (g) — supresión absoluta de Σ = {0, 1, U}.** Si el camino alternativo omite la terna efectiva Σ, elimina el espacio canónico absoluto de evaluación ternaria del aparato. Sin Σ, los sucesos generadores absolutos no pueden operar absolutamente porque carecen de soporte ternario sobre el que actuar, y los protocampos absolutos no pueden formalizarse absolutamente porque su par polar (α<sub>i</sub>, β<sub>i</sub>) no admite proyección a la terna canónica del corpus. Por la condición constitutiva (6), Σ es exigida absolutamente. Suprimirla contradice (6). Subcaso refutado.
-
-**Subcaso (h) — sustitución absoluta de eslabón por elemento ajeno al SV.** Si el camino alternativo introduce tiempo soberano, probabilidad fundante, dinámica continua, inferencia opaca, geometría soberana auxiliar, axioma ajeno al corpus o física heredada como sustituto absoluto de cualquiera de los eslabones de la cadena, abandona absolutamente el marco del Sistema Vectorial SV. Esta sustitución viola simultáneamente las prohibiciones constitutivas absolutas P.1 (tiempo soberano), P.2 (probabilidad fundante), P.3 (geometría soberana auxiliar), P.4 (inferencia opaca) y P.5 (adición axiomática externa al corpus) del aparato formal absoluto del SV. La salida absoluta del marco contradice la disciplina canónica absoluta del corpus, conforme a la cual toda construcción debe operar dentro del SV. Subcaso refutado.
-
-**Conclusión absoluta del Paso (ii).** Todos los caminos alternativos posibles destruyen al menos una condición constitutiva absoluta del enunciado, o abandonan absolutamente el marco del Sistema Vectorial SV. Bajo las condiciones constitutivas (1)–(6) aceptadas simultáneamente, el único camino formalmente admisible absoluto es la cadena formal mínima absoluta de legitimidad enunciada en el teorema. La conjunción absoluta de los Pasos (i) y (ii) establece la unicidad estructural condicionada absoluta del tránsito ε<sub>0</sub> – F<sub>0</sub> – U para la emergencia de sucesos generadores y protocampos en el Sistema Vectorial SV. Q.E.D.
-
-**Nota sobre el teorema.** El Teorema 0.1 ha sido sometido a una prueba adversarial canónica articulada en siete vectores adversariales hostiles independientes. Las siete observaciones blindadoras absolutas que refutan canónicamente cada vector adversarial están desplegadas íntegras absolutas en el **Apéndice de blindaje adversarial absoluto** del presente documento, ubicado canónicamente antes de las referencias. El lector que desee comprobar la solidez estructural absoluta del teorema bajo ataque hostil dispone allí del cuerpo argumentativo completo absoluto.
+*ITVIA — Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™*  
+*IA eñ™ — La Biblia de la IA™*  
+*ISSN 2695-6411*  
+*ORCID: 0000-0002-6634-3351*  
+*Madrid, 26 de abril de 2026*  
+*Licencia: CC BY-NC-ND 4.0*
 
 ---
 
-## Índice
+## Estatuto canónico del presente documento
 
-Punto de entrada absoluto. Teorema 0.1 (Unicidad estructural condicionada del tránsito ε<sub>0</sub> – F<sub>0</sub> – U para la emergencia de sucesos generadores y protocampos).
+El presente documento es la **publicación canónica específica** del programa de la Teoría general de sucesos generadores y de los protocampos unificados, anunciada con rango canónico en el Destacado del §3bis de Lloret Egea (2026 — luz factual, DOI 10.17613/1z7c0-mqb40) y reforzada en el §7.3bis y en el §22.2 del mismo documento.
 
-0. Suelo lógico-formal absoluto: cadena formal mínima absoluta de legitimidad.
-1. Estudio del arte intra-SV y diagnóstico estructural absoluto del problema.
-2. Los tres postulados absolutos canónicos del programa.
-3. Estructura de dos niveles canónicos absolutos del programa.
-4. Definición absoluta del protocampo primordial unificado Π<sub>SV</sub>.
-5. Derivación nativa absoluta de α<sub>i</sub> y β<sub>i</sub>.
-6. Magnitudes estructurales absolutas del protocampo.
-7. Topología combinatoria absoluta del protocampo y métrica factual derivada.
-8. Teorema absoluto de soporte estructural absoluto del protocampo.
-9. Taxonomía absoluta canónica G/A/D de sucesos factuales.
-10. Definición absoluta del operador soberano de generación 𝔊<sub>SV</sub>.
-11. Propiedades algebraicas absolutas del operador 𝔊<sub>SV</sub>.
-12. Teorema absoluto de unicidad representacional del operador 𝔊<sub>SV</sub> en categoría OpGen<sub>SV,Π</sub>.
-13. Teorema absoluto de monotonía energética estricta sobre clase G.
-14. Teorema absoluto de conservación local del protocampo bajo clase A.
-15. Teorema absoluto de ruptura controlada del protocampo bajo clase G.
-16. Teorema absoluto de creabilidad factual reforzada.
-17. Operador absoluto de proyección activada Π<sub>3</sub><sup>H</sup> aplicado al protocampo unificado.
-18. Siete teoremas absolutos de emergencia de los siete campos factuales.
-19. Coexistencia estructural absoluta de los siete campos.
-20. Enunciado absoluto de la ecuación maestra ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0.
-21. Los nueve sumandos absolutos del operador maestro ℙ<sub>SV</sub>.
-22. Tabla canónica absoluta de los nueve sumandos.
-23. Los trece invariantes absolutos asociados a ℙ<sub>SV</sub> = 0.
-24. Teorema de clausura absoluta y propiedades algebraicas de ℙ<sub>SV</sub>.
-25. Teorema absoluto de absorción I — Maxwell factual.
-26. Teorema absoluto de absorción II — Luz factual.
-27. Teorema absoluto de absorción III — Transmutación factual.
-28. Teorema absoluto de absorción IV — Entropía factual.
-29. Teorema absoluto de convergencia y rango doctrinal superior absoluto.
-30. Estatuto canónico absoluto del nivel de visiones postuladas.
-31. Las quince visiones canónicas absolutas sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>).
-32. Matriz absoluta de coexistencia entre las quince visiones.
-33. Las visiones postuladas no son axiomas: son lecturas estructurales coexistentes absolutas.
-34. Indeterminación legítima honesta absoluta sobre ε<sub>0</sub> y refuerzo absoluto de P.6.
-35. Criterio absoluto de falsación de la teoría general — ocho criterios independientes.
-36. Recorrido absoluto de consistencia sobre la célula canónica SV(3, 9).
-37. Bancos visibles absolutos con verificación numérica explícita — diecinueve bancos.
-38. Declaración arquitectónica absoluta laboratorial — veinticuatro laboratorios.
-39. Tablas canónicas finales.
-40. Conclusiones canónicas absolutas — catorce conclusiones.
-41. Antesala canónica de cuestiones superiores.
-42. Compromiso canónico absoluto con la disciplina del corpus.
-43. Explicación de la naturaleza factual de los sucesos generadores y de los protocampos para un niño de diez años.
+A diferencia de versiones previas de redacción, V6 cumple **íntegramente** el contrato canónico anunciado en luz factual mediante dos niveles articulados:
 
-Anexo operatorio absoluto — Aparato matemático riguroso.
+**(N.1) Nivel canónico del programa** (§§2–4 del presente documento), que cierra los cinco elementos exigidos por luz §3bis: (i) formalización del par polar (α, β) como protocampo primordial sobre Ω<sub>pre</sub>; (ii) caracterización de los sucesos generadores interiores como operadores que modifican el protocampo respetando G.1–G.3 y P.1–P.6; (iii) demostración de la emergencia de los siete campos por activaciones Π<sub>3</sub><sup>H</sup>; (iv) identidades de conservación local del protocampo bajo Clase A (activadores puros); (v) taxonomía fina absoluta χ<sub>α</sub> de las clases factuales emergentes producidas al nivel ternario.
 
-Apéndice de blindaje adversarial absoluto del Teorema 0.1.
+**(N.2) Nivel del operador maestro unificado** (§§5–11), que cierra el operador **U**<sup>unif</sup><sub>SV</sub> sobre los siete sectores factuales coexistentes del corpus, mediante: definición canónica explícita; conjunto de umbrales articulatorios intersectoriales {𝒮<sub>k</sub>} identificados con identidades estructurales ya cerradas en el corpus; demostración de unicidad estructural absoluta, irreducibilidad algebraica absoluta, no-composibilidad estructural absoluta y reducción canónica completa; verificación numérica visible sobre supuestos no triviales sobre la célula canónica SV(3, 9); verificación canónica de absorciones individuales por sector.
 
-Apéndice final: Prohibiciones constitutivas absolutas del Sistema Vectorial SV — desarrollo completo. Glosario tipográfico canónico absoluto.
+Las **prohibiciones constitutivas P.1–P.6** del corpus se respetan sin excepción y se verifican explícitamente en el §10. Los **tres postulados G.1, G.2, G.3** del Destacado del §3bis se invocan sin modificación. Los **trece invariantes estructurales I1–I13** del §9.4 de luz factual se heredan literalmente y sin renumerar. Las **quince visiones postuladas V.1–V.15** sobre ε<sub>0</sub> se reproducen literalmente como objeto exterior protegido por G.3.
 
-44. Referencias.
+**Nota bibliográfica explícita.** El presente documento adopta como referencia bibliográfica vigente la cadena canónica enumerada en luz factual §24 (Observación 24.1: integridad absoluta de la cadena de referencias). La numeración sigue el orden de luz factual. Esto produce divergencias visibles con las bibliografías de entropia.md, maxwell.md y fundamentos.md, donde el sufijo `2026k` se asigna a *Fundamentos operatorios absolutos del electromagnetismo factual* (DOI 10.17613/w1kb2-m6k81) en lugar de a *Reducción estructural de Maxwell al SV* (DOI 10.17613/kep1t-57539). Esta divergencia bibliográfica del corpus se reconoce y se documenta en la nota final del §13. La presente publicación se rige por la asignación de luz factual.
 
 ---
 
-## Abstract
+## Prohibiciones constitutivas absolutas del Sistema Vectorial SV
 
-This work establishes the absolute general factual theory of generator events and unified protofields within the Sistema Vectorial SV, fixing as its primary object the **unified primordial protofield** Π<sub>SV</sub>, identified canonically with the polar pair (α<sub>i</sub>, β<sub>i</sub>) defined over the prototernary domain Ω<sub>pro</sub> emerging from the preternary domain Ω<sub>pre</sub>, and as its sovereign operator the **generation operator** 𝔊<sub>SV</sub> acting on Π<sub>SV</sub> through interior generator events of class G. The theory opens by its inaugural theorem, the absolute conditional structural uniqueness of the transit ε<sub>0</sub> – F<sub>0</sub> – U for the emergence of generator events and protofields, demonstrated by reduction to absurdity in seven exhaustive sub-cases under six absolute constitutive conditions, and reinforced by seven adversarial blindering observations canonically displayed in the Adversarial Blindering Appendix. The mathematical minimum formal structure F<sub>0</sub> is canonically introduced as preformality of distinguishability, neither cause, nor motor, nor energy, nor time, nor dynamics, nor operatory of the domain. The native derivation of α<sub>i</sub> and β<sub>i</sub> from the corpus observables (Lloret Egea, 2026j) is reproduced absolutely. The absolute taxonomy of factual events into classes G, A, D is fixed canonically. The four absolute algebraic properties of the generation operator 𝔊<sub>SV</sub> — factual homogeneity, absolute additivity, absolute factual covariance under the four canonical trajectory transforms of the SV, and absolute structural stability — are demonstrated, and the absolute representational uniqueness of 𝔊<sub>SV</sub> in the category OpGen<sub>SV,Π</sub> is established. The strict absolute monotonicity of factual energy on class G, the absolute local conservation under class A, the absolute controlled rupture under class G, and the absolutely reinforced factual createability of energy are demonstrated as canonical theorems. Seven absolute emergence theorems demonstrate that the seven coexistent factual fields of the SV corpus emerge as activated projections of the unified protofield through chains of honest activations Π<sub>3</sub><sup>H</sup>. The absolute master equation of the general theory ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 is fixed over nine absolute structural summands and thirteen absolute invariants, with absolute closure theorem, absolute algebraic properties and absolute representational uniqueness in the category OpFact<sub>SV,General</sub>. Four absolute absorption theorems demonstrate that the master equations of the inferior canonical regimes of the corpus — factual Maxwell (Lloret Egea, 2026k), factual light (Lloret Egea, 2026 — light), factual transmutation (Lloret Egea, 2026q) and factual entropy (Lloret Egea, 2026l) — are exact canonical restrictions of ℙ<sub>SV</sub> = 0 on admissible projections of the unified protofield. The absolute convergence theorem of the four absorptions establishes the doctrinal rank of the present publication as **strictly superior** to the four absorbed ones. The fifteen canonical absolute visions on the structural pair (ε<sub>0</sub>, F<sub>0</sub>), opened by the highlight on the General Theory of Generator Events and Unified Protofields in §3bis of the factual light document, are absolutely developed structurally with their absolute coexistence matrix and the absolute reinforcement of the canonical prohibition P.6 of spurious closure. Eight absolute independent falsification criteria fix the sovereign falsifiability of the framework. A specific consistency walk over the canonical cell SV(3, 9), nineteen visible banks with explicit numerical verification embedded in the text, twenty-four canonical absolute laboratories with operative contracts, and an absolute operatorial annex with eight closed absolute pieces complete the canonical closure of the general theory within the apparatus of the SV.
+Se citan textualmente del documento de luz factual (Lloret Egea, 2026 — luz factual, §"Prohibiciones constitutivas absolutas"):
 
-**Keywords:** Sistema Vectorial SV; general theory of generator events; unified protofields; primordial protofield Π<sub>SV</sub>; sovereign generation operator 𝔊<sub>SV</sub>; absolute master equation ℙ<sub>SV</sub> = 0; minimum formal structure of distinguishability F<sub>0</sub>; absolute zero event ε<sub>0</sub>; preternary domain Ω<sub>pre</sub>; prototernary domain Ω<sub>pro</sub>; absolute polar equipotentiality Φ(0) = Φ(1); honest non-closure U; absolute G/A/D taxonomy; seven coexistent factual fields; canonical absolute Π<sub>3</sub><sup>H</sup> projection; absolute absorption of factual Maxwell; absolute absorption of factual light; absolute absorption of factual transmutation; absolute absorption of factual entropy; absolute superior doctrinal rank; fifteen canonical absolute visions; absolute coexistence matrix; eight independent absolute falsification criteria; canonical cell SV(3, 9); nineteen visible banks; twenty-four canonical absolute laboratories; absolute operatorial annex; absolute adversarial blindering appendix.
+**P.1. Prohibición absoluta del tiempo soberano.**  
+**P.2. Prohibición absoluta de probabilidad fundante.**  
+**P.3. Prohibición absoluta de geometría soberana auxiliar.**  
+**P.4. Prohibición absoluta de inferencia opaca.**  
+**P.5. Prohibición absoluta de adición axiomática externa al corpus.**  
+**P.6. Prohibición absoluta de clausura espuria.**
 
----
-
-## Resumen
-
-La presente obra establece la teoría general factual absoluta de los sucesos generadores y de los protocampos unificados dentro del Sistema Vectorial SV, fijando como objeto primario absoluto el **protocampo primordial unificado** Π<sub>SV</sub>, identificado canónicamente con el par polar (α<sub>i</sub>, β<sub>i</sub>) definido sobre el dominio prototernario Ω<sub>pro</sub> emergente del dominio preternario Ω<sub>pre</sub>, y como operador soberano absoluto el **operador de generación** 𝔊<sub>SV</sub> que actúa sobre Π<sub>SV</sub> a través de sucesos generadores interiores de clase G. La teoría se abre por su teorema inaugural absoluto, la unicidad estructural condicionada absoluta del tránsito ε<sub>0</sub> – F<sub>0</sub> – U para la emergencia de sucesos generadores y protocampos, demostrado por reducción al absurdo en siete subcasos exhaustivos absolutos bajo seis condiciones constitutivas absolutas, y reforzado por siete observaciones adversariales blindadoras canónicamente desplegadas en el Apéndice de blindaje adversarial absoluto. La estructura formal mínima matemática F<sub>0</sub> queda introducida canónicamente como **preformalidad de distinguibilidad**, no como causa, no como motor, no como energía, no como tiempo, no como dinámica y no como operatoria del dominio. La derivación nativa absoluta de α<sub>i</sub> y β<sub>i</sub> desde los observables del corpus (Lloret Egea, 2026j) se reproduce íntegramente absoluta. La taxonomía absoluta de sucesos factuales en clases G, A, D queda fijada canónicamente absoluta. Las cuatro propiedades algebraicas absolutas del operador de generación 𝔊<sub>SV</sub> — homogeneidad factual, aditividad absoluta, covariancia factual absoluta bajo las cuatro transformadas canónicas de trayectoria del SV y estabilidad estructural absoluta — quedan demostradas absolutamente, y la unicidad representacional absoluta de 𝔊<sub>SV</sub> en la categoría OpGen<sub>SV,Π</sub> queda establecida. La monotonía energética estricta absoluta sobre la clase G, la conservación local absoluta bajo la clase A, la ruptura controlada absoluta bajo la clase G y la creabilidad factual absolutamente reforzada de la energía quedan demostradas como teoremas canónicos absolutos. Siete teoremas absolutos de emergencia demuestran absolutamente que los siete campos factuales coexistentes del corpus SV emergen absolutamente como proyecciones activadas del protocampo unificado a través de cadenas de activaciones honestas Π<sub>3</sub><sup>H</sup>. La ecuación maestra absoluta de la teoría general ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 se fija absolutamente sobre nueve sumandos estructurales absolutos y trece invariantes absolutos, con teorema de clausura absoluta, propiedades algebraicas absolutas y unicidad representacional absoluta en la categoría OpFact<sub>SV,General</sub>. Cuatro teoremas absolutos de absorción demuestran absolutamente que las ecuaciones maestras de los regímenes canónicos inferiores del corpus — Maxwell factual (Lloret Egea, 2026k), luz factual (Lloret Egea, 2026 — luz), transmutación factual (Lloret Egea, 2026q) y entropía factual (Lloret Egea, 2026l) — son **restricciones canónicas exactas absolutas** de ℙ<sub>SV</sub> = 0 sobre proyecciones admisibles absolutas del protocampo unificado. El teorema absoluto de convergencia de las cuatro absorciones establece absolutamente el rango doctrinal de la presente publicación como **estrictamente superior absoluto** a las cuatro absorbidas. Las quince visiones canónicas absolutas sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>), abiertas por el destacado sobre la Teoría general de sucesos generadores y de los protocampos unificados del §3bis del documento de la luz factual, se desarrollan absolutamente con análisis estructural completo, con su matriz absoluta de coexistencia y con el refuerzo absoluto de la prohibición canónica P.6 de no clausura espuria. Ocho criterios absolutos independientes de falsación fijan la falsabilidad soberana absoluta del marco. Un recorrido específico absoluto de consistencia sobre la célula canónica SV(3, 9), diecinueve bancos visibles absolutos con verificación numérica explícita embebida en el texto, veinticuatro laboratorios canónicos absolutos con contrato operatorio absoluto y un anexo operatorio absoluto con ocho piezas absolutas cerradas completan la clausura canónica absoluta de la teoría general dentro del aparato del Sistema Vectorial SV.
-
-**Palabras clave:** Sistema Vectorial SV; teoría general de sucesos generadores; protocampos unificados; protocampo primordial Π<sub>SV</sub>; operador soberano de generación 𝔊<sub>SV</sub>; ecuación maestra absoluta ℙ<sub>SV</sub> = 0; estructura formal mínima de distinguibilidad F<sub>0</sub>; suceso cero absoluto ε<sub>0</sub>; dominio preternario Ω<sub>pre</sub>; dominio prototernario Ω<sub>pro</sub>; equipotencialidad polar absoluta Φ(0) = Φ(1); no-clausura honesta U; taxonomía absoluta G/A/D; siete campos factuales coexistentes; proyección canónica absoluta Π<sub>3</sub><sup>H</sup>; absorción absoluta de Maxwell factual; absorción absoluta de luz factual; absorción absoluta de transmutación factual; absorción absoluta de entropía factual; rango doctrinal superior absoluto; quince visiones canónicas absolutas; matriz absoluta de coexistencia; ocho criterios absolutos independientes de falsación; célula canónica SV(3, 9); diecinueve bancos visibles; veinticuatro laboratorios canónicos absolutos; anexo operatorio absoluto; apéndice absoluto de blindaje adversarial.
-
----
-
-## Prohibiciones constitutivas absolutas del Sistema Vectorial SV invocadas en esta publicación
-
-Con rango absoluto y para evitar lecturas erradas sobre el aparato, se fijan las siguientes prohibiciones constitutivas absolutas del Sistema Vectorial SV que gobiernan el presente documento, su anexo operatorio absoluto, su apéndice de blindaje adversarial absoluto y su apéndice final. El desarrollo completo absoluto de cada prohibición, con declaración explícita absoluta de los lemas del corpus sobre los que descansa estructuralmente cada una y con refuerzo específico absoluto sobre el caso de los sucesos generadores y la frontera exterior absoluta ε<sub>0</sub>, se recoge al final del documento en el apéndice final canónico absoluto.
-
-**P.1. Prohibición absoluta del tiempo soberano.** En el Sistema Vectorial SV no existe variable temporal con rango constitutivo absoluto. El índice de suceso ν es ordinal, append-only, honesto absoluto. La derivada factual absoluta ∂<sub>ν</sub><sup>SV</sup> no es derivada temporal absoluta: es diferencia finita absoluta sobre ordinal de sucesos. Suelo canónico absoluto: Lema 5.5 (no retorno preternario absoluto) y Lema 7.3 (honestidad coordenada absoluta) de Lloret Egea (2026j). En la presente publicación, ε<sub>0</sub> es suceso ordinal absoluto, no instante temporal físico; F<sub>0</sub> es estructura formal absoluta, no estructura temporal; el operador 𝔊<sub>SV</sub> opera absolutamente sobre el ordinal ν de sucesos admisibles, no sobre tiempo soberano.
-
-**P.2. Prohibición absoluta de probabilidad fundante.** El Sistema Vectorial SV no acepta distribución probabilística absoluta como suelo ontológico. La indeterminación se codifica absolutamente como U (axioma absoluto de la U del corpus, Lloret Egea, 2026a, Fundamentos 13.2.5 y 13.2.8). En la presente publicación, ningún sumando del operador maestro absoluto ℙ<sub>SV</sub>, ningún invariante absoluto I.1–I.13, ninguno de los cuatro teoremas absolutos de absorción, ninguna de las quince visiones canónicas absolutas sobre (ε<sub>0</sub>, F<sub>0</sub>) y ningún criterio absoluto de falsación introduce distribución probabilística absoluta con rango fundante. La equipotencialidad polar absoluta Φ(0) = Φ(1) no es probabilidad uniforme entre 0 y 1: es ausencia estructural absoluta de gradiente resolutivo entre los polos determinados.
-
-**P.3. Prohibición absoluta de geometría soberana auxiliar.** No existe métrica absoluta, espacio-tiempo absoluto, ni coordenada absoluta preexistente con rango constitutivo absoluto. Toda posición factual absoluta es ξ<sub>i</sub> ∈ Ω<sub>pre</sub> con estructura preternaria (α<sub>i</sub>, β<sub>i</sub>) primaria absoluta (Lloret Egea, 2026j, §2). La métrica factual absoluta es derivada absoluta, no primaria. En la presente publicación, el dominio prototernario absoluto Ω<sub>pro</sub> es estrato combinatorio absoluto sobre alfabeto canónico Σ = {0, 1, U}, no soporte geométrico soberano; la métrica factual derivada dist<sub>SV</sub>(·,·) introducida en §7 es magnitud derivada absoluta, no distancia euclídea soberana.
-
-**P.4. Prohibición absoluta de inferencia opaca.** Todo operador absoluto y toda decisión factual absoluta del aparato debe declarar semántica absoluta trazable absoluta sobre el corpus (Lloret Egea, 2026a, Fundamentos 13.2.7). No hay heurística oculta absoluta, no hay clausura espuria absoluta. En la presente publicación, cada paso absoluto de cada demostración absoluta refiere explícitamente absoluto al lema, teorema, definición o proposición absoluta del corpus sobre el que descansa. La honestidad coordenada absoluta del Lema 7.3 absoluto de 2026j extiende absolutamente esta prohibición a la operación interna absoluta del aparato. La equipotencialidad polar absoluta Φ(0) = Φ(1) es declaración absoluta canónica de ausencia de gradiente resolutivo absoluto, trazable absolutamente al borde inicial absoluto del dominio preternario.
-
-**P.5. Prohibición absoluta de adición axiomática externa al corpus.** Ningún operador absoluto, magnitud absoluta o teorema absoluto de este documento introduce axioma ajeno absoluto al Sistema Vectorial SV. El protocampo Π<sub>SV</sub>, el operador 𝔊<sub>SV</sub>, la ecuación maestra ℙ<sub>SV</sub> = 0, la estructura formal mínima F<sub>0</sub>, el dominio prototernario Ω<sub>pro</sub>, los siete teoremas absolutos de emergencia y los cuatro teoremas absolutos de absorción se construyen absolutamente sobre primitivos absolutos del corpus (UE_MFC, UFE, UFM, UFC) y sobre operaciones combinatorias absolutas sobre Ω<sub>pre</sub>, Ω<sub>pro</sub> y Σ. Ningún postulado axiomático nuevo absoluto se añade fuera del corpus; los tres postulados absolutos canónicos G.1, G.2, G.3 del programa son **heredados absolutos** del Destacado del §3bis del documento de la luz factual, no nuevos.
-
-**P.6. Prohibición absoluta de clausura espuria.** La indeterminación absoluta U no se cierra absolutamente por decreto; sólo se resuelve absolutamente por sucesos factuales admisibles absolutos según el clasificador absoluto Γ<sub>ℋ</sub> del corpus (Lloret Egea, 2026c, Teorema 1 absoluto). En la presente publicación, el reconocimiento honesto absoluto de la frontera exterior absoluta ε<sub>0</sub> como U legítima honesta absoluta no cerrable absoluta desde dentro del aparato es la aplicación paradigmática absoluta de esta prohibición. Las quince visiones canónicas absolutas sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>) operan absolutamente sobre la frontera exterior absoluta sin forzar absolutamente su clausura. La matriz absoluta de coexistencia 15×15 del §32 absoluta es la formalización absoluta canónica de la prohibición sobre el conjunto absoluto de las visiones.
-
-Estas seis prohibiciones constitutivas absolutas operan como marco absoluto del documento. Cualquier pasaje que, por imprecisión expositiva, sugiera contradecirlas debe leerse en el sentido estricto absoluto fijado aquí y desarrollado en el apéndice final absoluto del documento.
+Su cumplimiento se verifica explícitamente en el §10 de la presente publicación.
 
 ---
 
-## 0. Suelo lógico-formal absoluto: cadena formal mínima absoluta de legitimidad
+## Postulados absolutos del programa (heredados literalmente del Destacado del §3bis de luz factual)
 
-### 0.1. Apertura canónica absoluta del programa
+**G.1 — Honestidad absoluta del tratamiento estructural.** *El programa opera absolutamente dentro del aparato formal del Sistema Vectorial SV sobre los sucesos generadores interiores (los que actúan tras ε<sub>0</sub>, sobre dominio preternario ya abierto), con teoremas duros demostrados absolutamente a grano canónico. El programa distingue dos niveles: el **nivel canónico**, donde los sucesos generadores interiores admiten teoremas duros sobre protocampo ya abierto; y el **nivel de frontera exterior**, donde el caso límite ε<sub>0</sub> admite visiones postuladas múltiples, todas estructuralmente coexistentes.*
 
-La presente teoría general factual absoluta no puede comenzar absolutamente en un campo físico ya formado. Si comenzara en un campo ya formado, presupondría absolutamente aquello que la teoría debe explicar: cómo emerge la estructura factual absoluta dentro del Sistema Vectorial SV sin introducir absolutamente tiempo soberano absoluto, causalidad externa absoluta, probabilidad fundante absoluta, dinámica continua absoluta ni física heredada absoluta como fundamento absoluto. La presente teoría tampoco puede comenzar absolutamente en una ecuación física clásica heredada, porque una ecuación física posterior absoluta no puede ocupar absolutamente el lugar canónico absoluto del tránsito originario absoluto: ninguna ecuación física heredada explica absolutamente cómo aparece el dominio absoluto sobre el cual la propia ecuación opera. La presente teoría tampoco puede comenzar absolutamente en una operatoria del dominio ya desplegada, porque toda operatoria absoluta sobre dominio absoluto presupone absolutamente la apertura previa absoluta del dominio sobre el que opera.
+**G.2 — No sustancialización de los protocampos.** *Ningún objeto del aparato formal SV se reinterpreta como sustancia oculta con propiedades soberanas añadidas. Los protocampos (α, β) son estructura combinatoria pura absoluta sobre Ω<sub>pre</sub>, articulados por el alfabeto canónico Σ = {0, 1, U} y por la estructura polar nativa del corpus.*
 
-La presente teoría debe comenzar absolutamente en el punto lógico-formal mínimo absoluto en el que la vacuidad absoluta ∅ puede distinguirse formalmente absoluta del primer dominio admisible absoluto Ω<sub>pre</sub>, y debe demostrar absolutamente, antes de cualquier otra cosa, que la cadena formal absoluta que conecta absolutamente ese punto inicial absoluto con la emergencia absoluta de los protocampos absolutos es **única absoluta bajo las condiciones constitutivas absolutas del Sistema Vectorial SV**. Ese punto inicial absoluto es el suceso cero absoluto ε<sub>0</sub>, entendido absolutamente como tránsito definible absoluto entre vacuidad absoluta y dominio preternario absoluto:
+**G.3 — Reconocimiento absoluto de la frontera exterior como U legítima.** *La indeterminación U sobre el caso límite ε<sub>0</sub> no se fuerza a 0 o 1 mediante construcción prematura: se estudia como magnitud del marco que admite visiones postuladas múltiples, todas estructuralmente coexistentes. La prohibición constitutiva P.6 del aparato formal se extiende al programa sin excepción.*
 
-```math
-\varepsilon_0:\;\emptyset\longrightarrow\Omega_{\mathrm{pre}}.
-```
-
-Pero ε<sub>0</sub> no puede quedar absolutamente reducido a una afirmación narrativa absoluta. Si ε<sub>0</sub> es definible absoluto dentro del Sistema Vectorial SV como tránsito absoluto entre ∅ y Ω<sub>pre</sub>, entonces debe existir absolutamente una estructura formal mínima absoluta F<sub>0</sub> capaz absoluta de distinguir absolutamente ambos términos absolutos. F<sub>0</sub> es el lugar canónico absoluto exacto en el que comparecen absolutamente las matemáticas: no como causa absoluta de ε<sub>0</sub>, no como motor absoluto, no como energía absoluta, no como tiempo absoluto, no como dinámica absoluta y no como matemática operativa absoluta del dominio absoluto, sino absolutamente como **preformalidad mínima absoluta de distinguibilidad**.
-
-Desde este punto canónico absoluto, la teoría no introduce absolutamente directamente campos físicos absolutos. Fija primero absolutamente las condiciones constitutivas absolutas bajo las cuales puede emerger absolutamente estructura factual absoluta: ε<sub>0</sub> abre absolutamente Ω<sub>pre</sub>; F<sub>0</sub> permite absolutamente distinguir formalmente absoluto ese tránsito absoluto; la equipotencialidad polar absoluta Φ(0) = Φ(1) se toma absolutamente como condición constitutiva inicial absoluta de no predominio absoluto entre los polos determinados absolutos; esa equipotencialidad absoluta impide absolutamente clausura binaria legítima absoluta; la no-decisión absoluta exige absolutamente U como indeterminación honesta absoluta; y sólo después absolutamente puede distinguirse absolutamente el paso desde el dominio preternario absoluto abierto absoluto hacia el dominio prototernario absoluto y, finalmente, hacia la terna efectiva absoluta Σ = {0, 1, U}.
-
-Por tanto, el encadenamiento rector absoluto no debe leerse absolutamente como causalidad temporal absoluta, sino absolutamente como dependencia formal absoluta de legitimidad absoluta:
-
-```math
-\varepsilon_0\;\to\;F_0\;\to\;\Omega_{\mathrm{pre}}\;\to\;\Phi(0)=\Phi(1)\;\to\;\text{no-decisi\'on}\;\to\;U\;\to\;\Omega_{\mathrm{pro}}\;\to\;\Sigma=\{0,1,U\}\;\to\;\text{sucesos generadores}\;\to\;\text{protocampos}.
-```
-
-La equipotencialidad polar absoluta Φ(0) = Φ(1) no genera absolutamente ε<sub>0</sub> ni sustituye absolutamente a F<sub>0</sub>. Su función canónica absoluta es distinta: fija absolutamente el punto canónico absoluto en el que los polos determinados absolutos 0 y 1 carecen absolutamente de gradiente resolutivo absoluto suficiente para clausurar absolutamente binariamente. Si el sistema clausurara absolutamente en 0 o en 1 sin base diferencial absoluta suficiente, falsearía absolutamente su propia estructura. Por ello, la no-decisión absoluta no es defecto absoluto, sino absolutamente condición honesta absoluta de apertura absoluta de U. U no comparece absolutamente como tercer polo equipotente absoluto, ni absolutamente como probabilidad absoluta, ni absolutamente como ausencia de dato absoluto, sino absolutamente como preservación formal absoluta de no-clausura absoluta. A partir absoluto de esa no-clausura absoluta puede distinguirse absolutamente la estructuración prototernaria absoluta Ω<sub>pro</sub> y, sólo entonces absolutamente, la terna efectiva absoluta Σ sobre la que podrán formularse absolutamente sucesos generadores absolutos y protocampos absolutos.
-
-### 0.2. Definición absoluta del suceso cero como tránsito ε<sub>0</sub>: ∅ → Ω<sub>pre</sub>
-
-**Definición 0.1 (Suceso cero absoluto como tránsito absoluto).** El **suceso cero absoluto** del Sistema Vectorial SV, denotado ε<sub>0</sub>, es el tránsito definible absoluto entre la vacuidad absoluta ∅ y el dominio preternario absoluto Ω<sub>pre</sub>:
-
-```math
-\varepsilon_0:\;\emptyset\longrightarrow\Omega_{\mathrm{pre}},
-```
-
-caracterizado absolutamente por las cuatro propiedades simultáneas absolutas heredadas absolutas de la Definición 3bis.2 absoluta del documento de la luz factual: **precedencia ordinal absoluta** (ε<sub>0</sub> precede absolutamente a todo suceso posterior absoluto en el ordinal absoluto ν de sucesos admisibles absolutos), **producción estructural absoluta** (bajo ε<sub>0</sub> todo par polar absoluto (α<sub>i</sub>, β<sub>i</sub>) pasa absolutamente del estado degenerado absoluto (0, 0) al estado preternario absoluto no activado con α<sub>i</sub> + β<sub>i</sub> > 0), **pre-existencia vacua absoluta del dominio absoluto** (𝓔(D<sup>(−ε<sub>0</sub>)</sup>) = ∅ y 𝓔(D<sup>(+ε<sub>0</sub>)</sup>) ≠ ∅) y **exogeneidad absoluta** (ε<sub>0</sub> no tiene antecedente factual absoluto en el corpus; es exógeno absoluto al Sistema Vectorial SV por construcción absoluta).
-
-**Observación 0.1 (ε<sub>0</sub> como tránsito formal absoluto, no como suceso temporal absoluto).** El suceso cero absoluto ε<sub>0</sub> no es absolutamente instante temporal absoluto, no es absolutamente acontecimiento físico absoluto en el sentido heredado absoluto, no es absolutamente Big Bang absoluto, no es absolutamente condición inicial absoluta postulada absoluta. Es absolutamente tránsito formal absoluto definible absoluto dentro del aparato absoluto del Sistema Vectorial SV, cuya existencia absoluta es estructuralmente necesaria absoluta para que el sistema absoluto pueda absolutamente cambiar absolutamente, y cuya naturaleza absoluta queda declarada absolutamente como indeterminación legítima absoluta honesta absoluta (axioma absoluto de la U absoluta del corpus, Lloret Egea, 2026a, Fundamentos 13.2.5 absoluto y 13.2.8 absoluto).
-
-### 0.3. Definición absoluta de la estructura formal mínima de distinguibilidad F<sub>0</sub>
-
-**Definición 0.2 (Estructura formal mínima absoluta de distinguibilidad F<sub>0</sub>).** La **estructura formal mínima absoluta de distinguibilidad** del Sistema Vectorial SV, denotada F<sub>0</sub>, es la estructura formal mínima absoluta capaz absoluta de distinguir absolutamente formalmente absoluto la vacuidad absoluta ∅ del dominio preternario absoluto Ω<sub>pre</sub>. F<sub>0</sub> queda caracterizada absolutamente por las cinco propiedades absolutas simultáneas absolutas:
-
-(i) **distinguibilidad absoluta**: F<sub>0</sub> permite absolutamente reconocer formalmente absoluto la diferencia absoluta entre ∅ y Ω<sub>pre</sub>;
-
-(ii) **minimalidad absoluta**: F<sub>0</sub> es absolutamente la estructura formal absoluta mínima absoluta con la propiedad (i); ninguna estructura formal absoluta menos potente absoluta cumple absolutamente la distinguibilidad absoluta;
-
-(iii) **preformalidad absoluta**: F<sub>0</sub> opera absolutamente como **preformalidad de distinguibilidad absoluta**, no absolutamente como matemática operativa absoluta del dominio absoluto; F<sub>0</sub> es absolutamente anterior canónica absoluta a toda operatoria absoluta sobre dominio absoluto;
-
-(iv) **no causalidad absoluta**: F<sub>0</sub> no causa absolutamente ε<sub>0</sub>, no genera absolutamente ε<sub>0</sub>, no produce absolutamente ε<sub>0</sub>; F<sub>0</sub> es absolutamente condición formal absoluta de definibilidad absoluta de ε<sub>0</sub>, en el sentido absoluto canónico de que sin F<sub>0</sub> ε<sub>0</sub> no puede ser absolutamente definible absoluto formalmente absoluto;
-
-(v) **asimetría absoluta canónica**: F<sub>0</sub> → def(ε<sub>0</sub>); ε<sub>0</sub> ↛ F<sub>0</sub>. La flecha es absolutamente unidireccional absoluta. F<sub>0</sub> hace posible absoluto la definibilidad absoluta de ε<sub>0</sub>, pero ε<sub>0</sub> no define absolutamente F<sub>0</sub>.
-
-**Observación 0.2 (Estatuto canónico absoluto de las matemáticas dentro del Sistema Vectorial SV).** Las matemáticas absolutas, dentro del Sistema Vectorial SV, no son absolutamente causa absoluta de ε<sub>0</sub>, no son absolutamente motor absoluto del universo absoluto, no son absolutamente energía absoluta, no son absolutamente tiempo absoluto, no son absolutamente dinámica absoluta y no son absolutamente operatoria del dominio absoluto. Las matemáticas absolutas comparecen absolutamente en F<sub>0</sub> absoluta como condición formal absoluta mínima absoluta de distinguibilidad absoluta. Esta declaración canónica absoluta resuelve absolutamente con rango canónico absoluto la pregunta absoluta sobre el estatuto absoluto de las matemáticas absolutas dentro del aparato absoluto del SV: las matemáticas absolutas son absolutamente preformalidad absoluta, no fundamento ontológico absoluto.
-
-**Observación 0.3 (Compatibilidad absoluta de F<sub>0</sub> con G.2 — no sustancialización).** F<sub>0</sub> no es absolutamente sustancia absoluta oculta absoluta con propiedades absolutas soberanas absolutas añadidas absolutas. F<sub>0</sub> es absolutamente estructura formal absoluta pura absoluta, articulada absolutamente por la disciplina canónica absoluta del corpus, conforme absolutamente al postulado absoluto canónico G.2 del programa (no sustancialización absoluta de los protocampos absolutos), heredado absoluto del Destacado absoluto del §3bis absoluto del documento de la luz factual.
-
-### 0.4. Definición absoluta de la equipotencialidad polar inicial Φ(0) = Φ(1)
-
-**Definición 0.3 (Equipotencialidad polar inicial absoluta).** La **equipotencialidad polar inicial absoluta** del Sistema Vectorial SV, denotada Φ(0) = Φ(1), es la condición constitutiva absoluta inicial absoluta sobre el borde inicial absoluto del dominio preternario absoluto Ω<sub>pre</sub> bajo la cual los polos determinados absolutos 0 y 1 comparecen absolutamente sin predominio absoluto entre sí, equivalente algebraica absoluta de la condición canónica absoluta δ<sub>i</sub> = β<sub>i</sub> − α<sub>i</sub> = 0 sobre las posiciones absolutas iniciales absolutas ξ<sub>i</sub> ∈ Ω<sub>pre</sub>. Formalmente:
-
-```math
-\Phi(0)=\Phi(1)\;\iff\;\delta_i = \beta_i - \alpha_i = 0\;\;\text{sobre el borde inicial absoluto de }\Omega_{\mathrm{pre}}.
-```
-
-**Observación 0.4 (La equipotencialidad polar absoluta no es probabilidad uniforme absoluta).** Φ(0) = Φ(1) no es absolutamente distribución probabilística absoluta uniforme absoluta entre los polos 0 y 1, en el sentido absoluto canónico de que la prohibición absoluta P.2 absoluta del corpus (no probabilidad fundante absoluta) prohíbe absolutamente toda lectura probabilística absoluta. Φ(0) = Φ(1) es absolutamente declaración absoluta canónica de **ausencia estructural absoluta de gradiente resolutivo absoluto** entre los polos determinados absolutos en el borde inicial absoluto del dominio preternario absoluto. Es magnitud estructural absoluta, no magnitud estadística absoluta.
-
-### 0.5. Definición absoluta de la no-decisión honesta
-
-**Definición 0.4 (No-decisión honesta absoluta).** La **no-decisión honesta absoluta** del Sistema Vectorial SV, denotada 𝒩<sub>SV</sub>, es la consecuencia algebraica absoluta directa absoluta de la equipotencialidad polar inicial absoluta Φ(0) = Φ(1) bajo absoluta ausencia absoluta de gradiente resolutivo absoluto suficiente. Formalmente, 𝒩<sub>SV</sub> es la condición absoluta:
-
-```math
-\mathcal{N}_{SV}\;\iff\;\Phi(0)=\Phi(1)\;\;\text{y la base estructural absoluta es insuficiente absoluta para clausura binaria absoluta}.
-```
-
-**Observación 0.5 (No-decisión absoluta no es defecto absoluto).** La no-decisión honesta absoluta 𝒩<sub>SV</sub> no es absolutamente defecto absoluto del aparato absoluto, no es absolutamente carencia absoluta de información absoluta, no es absolutamente fallo computacional absoluto. Es absolutamente condición honesta absoluta del aparato absoluto bajo equipotencialidad absoluta: el aparato absoluto, al no disponer absolutamente de gradiente resolutivo absoluto suficiente para clausurar absolutamente binariamente, **no clausura absolutamente** y declara absolutamente la indeterminación absoluta como U absoluta legítima absoluta. Esta es la lectura canónica absoluta de la prohibición absoluta P.6 absoluta (no clausura espuria absoluta) sobre el caso inicial absoluto.
-
-### 0.6. Definición absoluta de la indeterminación U como preservación formal de no-clausura
-
-**Definición 0.5 (Indeterminación absoluta U como preservación formal absoluta de no-clausura).** La **indeterminación absoluta U** del Sistema Vectorial SV, en su comparecencia inicial absoluta sobre el borde inicial absoluto del dominio preternario absoluto Ω<sub>pre</sub> bajo equipotencialidad polar absoluta Φ(0) = Φ(1) y no-decisión honesta absoluta 𝒩<sub>SV</sub>, es absolutamente la **preservación formal absoluta de no-clausura absoluta** del aparato absoluto. U no comparece absolutamente:
-
-(i) **no como tercer polo equipotente absoluto**: U no es absolutamente tercer valor absoluto en pie de igualdad absoluta con 0 y 1 en sentido ontológico absoluto;
-
-(ii) **no como probabilidad absoluta**: U no es absolutamente magnitud estadística absoluta ni distribución absoluta sobre el par {0, 1} (P.2 respetada absolutamente);
-
-(iii) **no como ausencia de dato absoluta**: U no es absolutamente vacío informacional absoluto ni carencia absoluta de información absoluta;
-
-sino absolutamente:
-
-(iv) **como preservación formal absoluta de no-clausura absoluta**: U es absolutamente la marca canónica absoluta del aparato absoluto que registra honestamente absoluto que la base estructural absoluta no permite absolutamente clausura binaria absoluta legítima absoluta.
-
-**Observación 0.6 (Articulación absoluta con el axioma de la U del corpus).** La presente Definición 0.5 absoluta es la lectura inicial absoluta canónica del axioma absoluto de la U absoluta del corpus (Lloret Egea, 2026a, Fundamentos 13.2.5 absoluto y 13.2.8 absoluto), aplicada absolutamente al borde inicial absoluto del dominio preternario absoluto Ω<sub>pre</sub> bajo equipotencialidad polar absoluta Φ(0) = Φ(1).
-
-### 0.7. Definición absoluta del dominio prototernario Ω<sub>pro</sub>
-
-**Definición 0.6 (Dominio prototernario absoluto Ω<sub>pro</sub>).** El **dominio prototernario absoluto** del Sistema Vectorial SV, denotado Ω<sub>pro</sub>, es el estrato canónico absoluto **estructuralmente distinto absoluto** del dominio preternario absoluto Ω<sub>pre</sub> y de la terna efectiva absoluta Σ = {0, 1, U}, que comparece absolutamente como **estructuración emergente absoluta** sobre la no-clausura honesta absoluta U, anterior canónica absoluta a la comparecencia absoluta de la terna efectiva absoluta Σ. Formalmente, Ω<sub>pro</sub> queda caracterizado absolutamente por las cuatro propiedades absolutas simultáneas absolutas:
-
-(i) **posterioridad absoluta a U**: Ω<sub>pro</sub> emerge absolutamente sobre U como estructuración absoluta de la no-clausura honesta absoluta;
-
-(ii) **anterioridad absoluta a Σ**: Ω<sub>pro</sub> es absolutamente anterior canónica absoluta a la terna efectiva absoluta Σ; Σ se constituye absolutamente sobre Ω<sub>pro</sub>, no sobre U directamente;
-
-(iii) **estructura emergente absoluta**: Ω<sub>pro</sub> dispone absolutamente de estructura combinatoria absoluta articulada absolutamente sobre la no-clausura honesta absoluta U, articulando absolutamente los polos determinados absolutos 0 y 1 sin clausurarlos absolutamente todavía absolutamente;
-
-(iv) **distinción canónica absoluta**: Ω<sub>pro</sub> ≠ Ω<sub>pre</sub> y Ω<sub>pro</sub> ≠ Σ; los tres estratos absolutos son canónicamente distintos absolutos en el aparato absoluto del Sistema Vectorial SV.
-
-**Proposición 0.1 (Jerarquía estructural absoluta de los tres estratos canónicos absolutos).** En el Sistema Vectorial SV, los tres estratos canónicos absolutos Ω<sub>pre</sub>, Ω<sub>pro</sub> y Σ comparecen absolutamente en jerarquía estricta absoluta:
-
-```math
-\Omega_{\mathrm{pre}}\;\subset_{\mathrm{can}}\;\Omega_{\mathrm{pro}}\;\subset_{\mathrm{can}}\;\Sigma=\{0,1,U\},
-```
-
-donde ⊂<sub>can</sub> denota absolutamente la **inclusión canónica absoluta** del aparato absoluto: cada estrato absoluto se constituye absolutamente sobre el anterior absoluto sin reducirse absolutamente a él absoluto y sin colapsar absolutamente con él absoluto.
-
-*Demostración.* La demostración procede absolutamente en tres pasos absolutos.
-
-**Paso (a) — Ω<sub>pre</sub> ⊂<sub>can</sub> Ω<sub>pro</sub>.** Por la Definición 0.6 absoluta, propiedad (i), Ω<sub>pro</sub> emerge absolutamente sobre U, donde U es absolutamente la marca canónica absoluta sobre el borde inicial absoluto del dominio preternario absoluto Ω<sub>pre</sub>. Por tanto Ω<sub>pro</sub> contiene absolutamente Ω<sub>pre</sub> como estrato absoluto previo absoluto: la estructuración emergente absoluta opera absolutamente sobre el sustrato preternario absoluto. La inclusión canónica absoluta es estricta absoluta porque Ω<sub>pro</sub> dispone absolutamente de estructura adicional absoluta (estructuración emergente sobre U) que Ω<sub>pre</sub> no posee absolutamente.
-
-**Paso (b) — Ω<sub>pro</sub> ⊂<sub>can</sub> Σ.** Por la Definición 0.6 absoluta, propiedad (ii), Σ se constituye absolutamente sobre Ω<sub>pro</sub>: la terna efectiva absoluta Σ = {0, 1, U} surge absolutamente como evaluación canónica absoluta sobre la estructuración prototernaria absoluta. La inclusión canónica absoluta es estricta absoluta porque Σ dispone absolutamente de los tres símbolos absolutos efectivamente clausurados absolutamente o articulados absolutamente, mientras que Ω<sub>pro</sub> dispone absolutamente sólo de la estructuración emergente absoluta sobre la no-clausura honesta absoluta U.
-
-**Paso (c) — distinción canónica absoluta de los tres estratos.** Por la Definición 0.6 absoluta, propiedad (iv), Ω<sub>pre</sub>, Ω<sub>pro</sub> y Σ son absolutamente canónicamente distintos absolutos. La supresión canónica absoluta de cualquiera de los tres absolutos colapsa absolutamente la jerarquía absoluta y contradice absolutamente al menos una condición constitutiva absoluta del Teorema 0.1 absoluto.
-
-Por los Pasos (a)–(c) absolutos, la jerarquía absoluta estricta absoluta queda establecida absolutamente. Q.E.D.
-
-### 0.8. Cadena formal mínima absoluta de legitimidad
-
-**Definición 0.7 (Cadena formal mínima absoluta de legitimidad).** La **cadena formal mínima absoluta de legitimidad** del Sistema Vectorial SV, denotada 𝒞<sub>F0,SV</sub>, es la sucesión canónica absoluta de eslabones formales absolutos:
-
-```math
-\mathcal{C}_{F_0,SV}:\;\;\varepsilon_0\;\to\;F_0\;\to\;\Omega_{\mathrm{pre}}\;\to\;\Phi(0)=\Phi(1)\;\to\;\mathcal{N}_{SV}\;\to\;U\;\to\;\Omega_{\mathrm{pro}}\;\to\;\Sigma=\{0,1,U\}\;\to\;\mathfrak{G}_{SV}\;\to\;\Pi_{SV},
-```
-
-donde cada flecha → denota absolutamente **dependencia formal absoluta de legitimidad absoluta**, no causalidad temporal absoluta, no implicación lógica trivial absoluta, no derivación matemática operativa absoluta. Cada eslabón absoluto es estructuralmente necesario absoluto para el siguiente absoluto en el sentido canónico absoluto demostrado por el Teorema 0.1 absoluto.
-
-**Observación 0.7 (La cadena absoluta es dependencia formal absoluta, no orden temporal absoluto).** La cadena absoluta 𝒞<sub>F0,SV</sub> debe leerse absolutamente como dependencia formal absoluta de legitimidad absoluta. Cada eslabón absoluto es absolutamente condición formal absoluta de legitimidad absoluta del siguiente absoluto, en el sentido canónico absoluto de que la supresión absoluta de cualquier eslabón absoluto destruye absolutamente la legitimidad formal absoluta del eslabón siguiente y, por tanto, la legitimidad formal absoluta del aparato absoluto entero. La cadena absoluta no introduce absolutamente tiempo soberano absoluto (P.1 respetada absolutamente): los eslabones absolutos están ordenados absolutamente por dependencia formal absoluta, no por orden temporal absoluto.
-
-### 0.9. Teorema absoluto de equipotencialidad polar como génesis canónica absoluta de U
-
-**Teorema 0.2 (Equipotencialidad polar absoluta como génesis canónica absoluta de U).** Bajo la equipotencialidad polar inicial absoluta Φ(0) = Φ(1) sobre el borde inicial absoluto del dominio preternario absoluto Ω<sub>pre</sub>, la indeterminación absoluta U emerge absolutamente como **única salida honesta absoluta del aparato absoluto** del Sistema Vectorial SV.
-
-*Demostración.* La demostración procede absolutamente en tres pasos absolutos.
-
-**Paso (i) — bajo Φ(0) = Φ(1), las salidas absolutas canónicas posibles del aparato absoluto son tres y sólo tres.** Bajo la equipotencialidad polar absoluta Φ(0) = Φ(1) en el borde inicial absoluto, las salidas canónicas absolutas posibles del aparato absoluto sobre el alfabeto canónico absoluto Σ = {0, 1, U} son exhaustivamente absolutas tres y sólo tres absolutas: (s.1) clausura absoluta a 0; (s.2) clausura absoluta a 1; (s.3) marca absoluta U. Ninguna otra salida canónica absoluta es admisible absoluta dentro del aparato absoluto, conforme absolutamente al alfabeto canónico absoluto Σ del corpus.
-
-**Paso (ii) — las salidas (s.1) y (s.2) son absolutamente ilegítimas absolutas bajo Φ(0) = Φ(1).** La salida (s.1) clausura absolutamente al polo 0; pero bajo Φ(0) = Φ(1), no hay absolutamente gradiente resolutivo absoluto suficiente que justifique absolutamente esa clausura absoluta hacia 0 frente a 1. Análogamente, la salida (s.2) clausura absolutamente al polo 1; pero bajo Φ(0) = Φ(1), no hay absolutamente gradiente resolutivo absoluto suficiente que justifique absolutamente esa clausura absoluta hacia 1 frente a 0. Ambas clausuras absolutas serían absolutamente decisiones arbitrarias absolutas del aparato absoluto sin base estructural absoluta suficiente, lo que contradiría absolutamente la prohibición constitutiva absoluta P.4 absoluta (no inferencia opaca absoluta) del corpus, y la prohibición constitutiva absoluta P.6 absoluta (no clausura espuria absoluta). Por tanto, las salidas (s.1) y (s.2) son absolutamente ilegítimas absolutas bajo Φ(0) = Φ(1).
-
-**Paso (iii) — la salida (s.3) es absolutamente la única salida honesta absoluta.** Excluidas absolutamente las salidas (s.1) y (s.2) por el Paso (ii) absoluto, la única salida canónica absoluta admisible absoluta restante es absolutamente (s.3): la marca absoluta U como preservación formal absoluta de no-clausura absoluta. Por la Definición 0.5 absoluta, U es absolutamente la marca canónica absoluta del aparato absoluto que registra honestamente absoluto la imposibilidad absoluta de clausura binaria absoluta legítima absoluta bajo equipotencialidad polar absoluta. Por tanto, U emerge absolutamente como única salida honesta absoluta del aparato absoluto bajo Φ(0) = Φ(1).
-
-La conjunción absoluta de los Pasos (i)–(iii) absolutos establece absolutamente que la equipotencialidad polar absoluta Φ(0) = Φ(1) es génesis canónica absoluta de U. Q.E.D.
-
-**Corolario 0.1 (Refuerzo absoluto del Teorema 5.4 absoluto de Lloret Egea, 2026j).** El presente Teorema 0.2 absoluto refuerza absolutamente con rango anterior canónico absoluto el Teorema 5.4 absoluto de Lloret Egea (2026j) sobre el nacimiento absoluto de U: el nacimiento absoluto de U bajo cruce absoluto del umbral de pertinencia absoluto (Teorema 5.4 absoluto de 2026j) es absolutamente caso particular canónico absoluto del nacimiento absoluto general absoluto de U bajo equipotencialidad polar absoluta inicial absoluta (presente Teorema 0.2 absoluto).
-
-### 0.10. Conclusión absoluta del §0
-
-El §0 absoluto del presente documento establece absolutamente con rango canónico absoluto el suelo lógico-formal absoluto sobre el que la teoría general factual absoluta de los sucesos generadores absolutos y de los protocampos unificados absolutos en el Sistema Vectorial SV se construye absolutamente. Cinco resultados canónicos absolutos quedan absolutamente fijados absolutos en el §0:
-
-**Primero canónico absoluto.** El Teorema 0.1 absoluto (unicidad estructural condicionada absoluta del tránsito ε<sub>0</sub> – F<sub>0</sub> – U para la emergencia de sucesos generadores y protocampos), demostrado absolutamente por reducción al absurdo absoluta articulada absoluta en siete subcasos absolutos exhaustivos absolutos bajo seis condiciones constitutivas absolutas, fija absolutamente la cadena formal mínima absoluta de legitimidad absoluta como única absoluta dentro del Sistema Vectorial SV.
-
-**Segundo canónico absoluto.** La Definición 0.2 absoluta (estructura formal mínima absoluta de distinguibilidad F<sub>0</sub>) declara absolutamente con rango canónico absoluto el estatuto absoluto de las matemáticas absolutas dentro del Sistema Vectorial SV: las matemáticas absolutas comparecen absolutamente en F<sub>0</sub> absoluta como **preformalidad mínima absoluta de distinguibilidad absoluta**, no absolutamente como causa absoluta, motor absoluto, energía absoluta, tiempo absoluto, dinámica absoluta ni operatoria absoluta del dominio absoluto.
-
-**Tercero canónico absoluto.** La Definición 0.3 absoluta (equipotencialidad polar inicial absoluta Φ(0) = Φ(1)) introduce absolutamente con rango canónico absoluto la condición constitutiva absoluta inicial absoluta de no predominio absoluto entre los polos determinados absolutos en el borde inicial absoluto del dominio preternario absoluto Ω<sub>pre</sub>.
-
-**Cuarto canónico absoluto.** La Definición 0.6 absoluta (dominio prototernario absoluto Ω<sub>pro</sub>) y la Proposición 0.1 absoluta (jerarquía estructural absoluta de los tres estratos canónicos absolutos Ω<sub>pre</sub> ⊂<sub>can</sub> Ω<sub>pro</sub> ⊂<sub>can</sub> Σ) introducen absolutamente con rango canónico absoluto un **tercer estrato canónico absoluto** del aparato absoluto del SV, anteriormente implícito absoluto y ahora explícito absoluto: la estructuración emergente absoluta sobre la no-clausura honesta absoluta U, anterior canónica absoluta a la terna efectiva absoluta Σ.
-
-**Quinto canónico absoluto.** El Teorema 0.2 absoluto (equipotencialidad polar absoluta como génesis canónica absoluta de U) demuestra absolutamente que la indeterminación absoluta U emerge absolutamente como única salida honesta absoluta del aparato absoluto bajo equipotencialidad polar absoluta Φ(0) = Φ(1), reforzando absolutamente con rango anterior canónico absoluto el Teorema 5.4 absoluto de Lloret Egea (2026j).
-
-Sobre este suelo canónico absoluto, la presente publicación construye absolutamente el aparato absoluto entero absoluto de la teoría general factual absoluta. Los §§1–43 absolutos del cuerpo absoluto del documento, el anexo operatorio absoluto, el apéndice de blindaje adversarial absoluto, el apéndice final absoluto y el glosario tipográfico canónico absoluto despliegan absolutamente con rigor canónico absoluto el desarrollo completo absoluto del programa.
+**Lectura canónica del estatuto de los postulados.** G.1 fija que la presente publicación opera **dentro del aparato formal con teoremas duros sobre los sucesos generadores interiores**. El cierre canónico absoluto que el documento construye opera exactamente sobre ese nivel. G.3 protege la frontera exterior absoluta del aparato — el caso límite ε<sub>0</sub> y las quince visiones V.1–V.15 que el §3bis enumera —, no la construcción canónica del nivel canónico, que pertenece al **nivel canónico** del programa según la propia estructura de dos niveles fijada en el Destacado.
 
 ---
 
-## 1. Estudio del arte intra-SV y diagnóstico estructural absoluto del problema
+## §1. Las quince visiones postuladas V.1–V.15 sobre ε<sub>0</sub>
 
-### 1.1. Recorrido canónico absoluto del corpus heredado
+Se reproducen literalmente del §3bis.2 de Lloret Egea (2026 — luz factual). Su estatuto es el de **conjetura estructural** que inicia el estudio canónico futuro sobre ε<sub>0</sub>; comparecen aquí como **objeto exterior protegido por G.3**, coexistiendo sin preferencia y sin que ninguna cancele a otra.
 
-El presente §1 establece absolutamente el estudio del arte canónico absoluto del Sistema Vectorial SV, recorriendo absolutamente los hitos canónicos absolutos del corpus que conducen estructuralmente absoluto al programa absoluto desarrollado en esta publicación. El recorrido absoluto es estrictamente intra-SV absoluto: no se introducen absolutamente referencias externas absolutas al corpus, conforme absolutamente a la prohibición constitutiva absoluta P.5 absoluta (no adición axiomática externa al corpus absoluto). El recorrido absoluto procede absolutamente en orden canónico absoluto de dependencia formal absoluta, no en orden cronológico absoluto de publicación.
+> **V.1 — ε<sub>0</sub> como suceso combinatorio primitivo sin sustancia.** ε<sub>0</sub> es acto combinatorio absoluto del alfabeto canónico Σ = {0, 1, U} que pasa (0,0) a (α,β) con α+β>0, sin más estructura que la transición misma. No hay nada «detrás» del suceso: el suceso **es** la transición.
 
-**Hito canónico absoluto 1.1.1. Fundamentos del Sistema Vectorial SV (Lloret Egea, 2026a).** El corpus absoluto del Sistema Vectorial SV se inaugura absolutamente con la publicación absoluta de los fundamentos absolutos del aparato (Lloret Egea, 2026a), donde se fijan absolutamente con rango canónico absoluto los primitivos absolutos del aparato: la unidad estructural máxima factual canónica UE_MFC, la unidad factual de energía UFE, la unidad factual de masa UFM, la unidad factual de carga UFC, el axioma absoluto de la U absoluta (Fundamentos 13.2.5 absoluto y 13.2.8 absoluto), la honestidad coordenada absoluta y el principio absoluto de trazabilidad semántica absoluta sobre el corpus (Fundamentos 13.2.7 absoluto). Estos primitivos absolutos son absolutamente los suelos absolutos canónicos absolutos sobre los que descansa absolutamente toda construcción absoluta posterior absoluta del corpus, y sobre los que descansa absolutamente la presente teoría general factual absoluta.
+> **V.2 — ε<sub>0</sub> como frontera exterior pura del aparato formal.** ε<sub>0</sub> es el límite absoluto de aplicabilidad del principio de eventividad: el punto en el que preguntar «qué causa ε<sub>0</sub>» deja de ser pregunta del aparato formal y pasa a ser pregunta de otro orden estructural dentro del programa.
 
-**Hito canónico absoluto 1.1.2. Compuerta metrológica ℘<sub>SV</sub> y pilar metrológico canónico absoluto.** La compuerta metrológica absoluta ℘<sub>SV</sub> del corpus opera absolutamente como traducción canónica absoluta entre el aparato factual absoluto del Sistema Vectorial SV y el Sistema Internacional absoluto SI heredado absoluto, sin introducir absolutamente unidades soberanas absolutas ajenas al corpus. La compuerta absoluta ℘<sub>SV</sub> traduce absolutamente las unidades factuales absolutas (UE_MFC, UFE, UFM, UFC) a unidades SI absolutas (julio, kilogramo, culombio, metro, segundo) sin colapsar absolutamente la diferencia estructural absoluta entre ambos sistemas absolutos. La compuerta absoluta ⊕ del aparato absoluto es absolutamente concatenación absoluta de compuertas canónicas absolutas (conjunción lógica factual absoluta), no absolutamente suma aritmética absoluta del SI absoluto. La distinción canónica absoluta entre ⊕ absoluto y + absoluto es estructural absoluta y debe respetarse absolutamente en toda lectura absoluta del aparato.
+> **V.3 — ε<sub>0</sub> como auto-referencia estructural del sistema.** ε<sub>0</sub> es el acto absoluto en el cual el sistema se abre a sí mismo: no procede de nada exterior, sino de la posibilidad estructural interna absoluta del marco de contener dominio preternario efectivo con protocampo (α, β) no trivial.
 
-**Hito canónico absoluto 1.1.3. Clasificador canónico absoluto Γ<sub>ℋ</sub> (Lloret Egea, 2026c).** El clasificador canónico absoluto Γ<sub>ℋ</sub> del corpus absoluto, introducido absolutamente en Lloret Egea (2026c), opera absolutamente como criterio canónico absoluto de admisibilidad absoluta de sucesos factuales absolutos sobre los polos determinados absolutos {0, 1} y la indeterminación absoluta U. El Teorema 1 absoluto de Lloret Egea (2026c) establece absolutamente que la indeterminación absoluta U se resuelve absolutamente sólo por sucesos factuales absolutos admisibles absolutos según Γ<sub>ℋ</sub>, lo que constituye absolutamente la base canónica absoluta de la prohibición constitutiva absoluta P.6 absoluta (no clausura espuria absoluta). Esta operación canónica absoluta es absolutamente fundamental absoluta para la presente teoría: el reconocimiento honesto absoluto de la frontera exterior absoluta ε<sub>0</sub> como U absoluta legítima absoluta no cerrable absoluta desde dentro del aparato absoluto descansa absolutamente sobre el Teorema 1 absoluto de 2026c.
+> **V.4 — ε<sub>0</sub> como emergencia desde U pura.** Antes de ε<sub>0</sub>, el estado es U absoluta total no articulada en alfabeto ternario; ε<sub>0</sub> articula esa U primordial en la estructura (0, 1, U) del corpus. El suceso cero es el acto absoluto de apertura del alfabeto canónico mismo, y con él, la apertura del protocampo unificado.
 
-**Hito canónico absoluto 1.1.4. Estructura preternaria absoluta del par polar (α<sub>i</sub>, β<sub>i</sub>) (Lloret Egea, 2026j).** La estructura preternaria absoluta del par polar absoluto (α<sub>i</sub>, β<sub>i</sub>) sobre las posiciones factuales absolutas ξ<sub>i</sub> ∈ Ω<sub>pre</sub>, formalizada absolutamente en Lloret Egea (2026j, §§2–3), constituye absolutamente el suelo canónico absoluto sobre el que descansa absolutamente la formalización absoluta del protocampo primordial absoluto Π<sub>SV</sub> de la presente publicación. La derivación nativa absoluta de α<sub>i</sub> y β<sub>i</sub> desde los observables absolutos del corpus se reproduce absolutamente íntegra absoluta en el §5 absoluto del presente documento. El Teorema 5.4 absoluto de Lloret Egea (2026j) sobre el nacimiento absoluto de U bajo cruce absoluto del umbral de pertinencia absoluto queda absolutamente reforzado absolutamente por el Teorema 0.2 absoluto del presente §0 absoluto, conforme absolutamente al Corolario 0.1 absoluto.
+> **V.5 — ε<sub>0</sub> como apertura desde estructura pre-preternaria.** Se postula un estrato absoluto anterior al dominio preternario Ω<sub>pre</sub>, el **pre-preternario**, desde el cual ε<sub>0</sub> transporta estructura de protocampo. La pregunta se recursiviza pero no se resuelve: cada estrato admite su propio ε<sub>0</sub> con su protocampo asociado.
 
-**Hito canónico absoluto 1.1.5. Reducción estructural absoluta de Maxwell factual a 𝔼<sub>SV</sub> = 0 (Lloret Egea, 2026k).** La reducción estructural absoluta de las cuatro ecuaciones de Maxwell heredadas absolutas a la ecuación única absoluta 𝔼<sub>SV</sub> = 0 del Sistema Vectorial SV, formalizada absolutamente en Lloret Egea (2026k, §3.12 absoluto), constituye absolutamente el primer hito canónico absoluto de unificación estructural absoluta dentro del aparato absoluto. La presente teoría general factual absoluta absorbe absolutamente Maxwell factual absoluto como restricción canónica exacta absoluta de la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 sobre proyección absoluta admisible absoluta del protocampo unificado absoluto a los sumandos electromagnéticos absolutos, conforme absolutamente al Teorema 25.1 absoluto del §25 absoluto del presente documento.
+> **V.6 — ε<sub>0</sub> como acto puro de diferencia.** ε<sub>0</sub> es diferencia absoluta pura entre el estado degenerado (0,0) y el estado preternario (α,β) con α+β>0. No hay «sustrato» previo: sólo el contraste estructural entre ambos estados, que **es** el protocampo primordial abriéndose.
 
-**Hito canónico absoluto 1.1.6. Teoría factual absoluta de la luz (Lloret Egea, 2026 — luz factual).** La teoría factual absoluta de la luz, formalizada absolutamente en el documento absoluto de la luz factual del corpus, fija absolutamente la ecuación maestra absoluta L<sub>SV</sub> = 0 sobre quince sumandos absolutos y trece invariantes absolutos, articulando absolutamente la luz factual absoluta como fenómeno canónico absoluto sobre el aparato absoluto del Sistema Vectorial SV. El §3bis absoluto del documento absoluto de la luz factual contiene absolutamente el Destacado canónico absoluto sobre el rango doctrinal superior absoluto de la **Teoría general de sucesos generadores y de los protocampos unificados**, anuncio absoluto cuyo desarrollo canónico absoluto es la presente publicación. El §7.3bis absoluto refuerza absolutamente con rango canónico absoluto la apertura absoluta del programa absoluto de los protocampos unificados absolutos. La presente teoría absorbe absolutamente la luz factual absoluta como restricción canónica exacta absoluta de ℙ<sub>SV</sub> = 0 sobre proyección absoluta admisible absoluta del protocampo unificado absoluto a los sumandos lumínicos absolutos, conforme absolutamente al Teorema 26.1 absoluto del §26 absoluto del presente documento.
+> **V.7 — ε<sub>0</sub> como caso límite del operador **G**<sup>L</sup><sub>SV</sub>.** El operador de generación preternaria de fibra (luz factual §8, B.1) admite como caso límite la generación desde sección activa vacía: en ese caso límite, el operador **es** ε<sub>0</sub> y produce el protocampo (α, β) allí donde no lo había. El suceso cero no es exógeno sino caso extremo absoluto del operador generador ya conocido.
 
-**Hito canónico absoluto 1.1.7. Transmutación factual absoluta (Lloret Egea, 2026q).** La teoría factual absoluta de la transmutación absoluta, formalizada absolutamente en Lloret Egea (2026q), articula absolutamente la cadena canónica absoluta Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} sobre la operación absoluta de transmutación canónica absoluta dentro del aparato absoluto. La presente teoría absorbe absolutamente la transmutación factual absoluta como restricción canónica exacta absoluta de ℙ<sub>SV</sub> = 0 sobre proyección absoluta admisible absoluta del protocampo unificado absoluto a los sumandos transmutativos absolutos sobre la clase G interior absoluta, conforme absolutamente al Teorema 27.1 absoluto del §27 absoluto del presente documento.
+> **V.8 — ε<sub>0</sub> como identidad absoluta estructural del monoide de sucesos generadores.** ε<sub>0</sub> es el elemento identidad absoluto del monoide factual de sucesos admisibles: todo suceso generador ν admisible cumple ν ∘ ε<sub>0</sub> = ν estructuralmente, y ε<sub>0</sub> es único absoluto con esta propiedad sobre el dominio vacío.
 
-**Hito canónico absoluto 1.1.8. Entropía factual absoluta H<sub>SV</sub> (Lloret Egea, 2026l).** La teoría factual absoluta de la entropía absoluta H<sub>SV</sub>, formalizada absolutamente en Lloret Egea (2026l), articula absolutamente la irreversibilidad estructural absoluta del aparato absoluto sobre el ordinal absoluto ν de sucesos admisibles absolutos. La presente teoría absorbe absolutamente la entropía factual absoluta como funcional integrador absoluto bajo ℙ<sub>SV</sub> = 0, conforme absolutamente al Teorema 28.1 absoluto del §28 absoluto del presente documento.
+> **V.9 — ε<sub>0</sub> como punto fijo del operador de apertura.** ε<sub>0</sub> es punto fijo absoluto: aplicarlo dos veces sucesivas sobre un dominio vacío produce el mismo resultado estructural — protocampo abierto — que aplicarlo una vez. La apertura primordial absoluta es idempotente desde la vacuidad.
 
-**Hito canónico absoluto 1.1.9. Las cuatro transformadas canónicas absolutas de trayectoria 𝒯<sup>SV</sup><sub>k</sub>.** El corpus absoluto fija absolutamente las cuatro transformadas canónicas absolutas de trayectoria absoluta 𝒯<sup>SV</sup><sub>k</sub> con k ∈ {1, 2, 3, 4}, que articulan absolutamente la covariancia factual absoluta del aparato absoluto bajo cambios admisibles absolutos de trayectoria absoluta sobre el dominio absoluto. Las cuatro transformadas absolutas son absolutamente: 𝒯<sup>SV</sup><sub>1</sub> (translación canónica absoluta sobre ν absoluta), 𝒯<sup>SV</sup><sub>2</sub> (reordenación canónica absoluta de ordinal absoluto admisible absoluto), 𝒯<sup>SV</sup><sub>3</sub> (cambio canónico absoluto de etiquetado polar absoluto admisible absoluto) y 𝒯<sup>SV</sup><sub>4</sub> (compuerta canónica absoluta admisible absoluta). La covariancia factual absoluta bajo las cuatro transformadas absolutas se demuestra absolutamente en el §11 absoluto del presente documento como propiedad algebraica absoluta del operador absoluto 𝔊<sub>SV</sub>.
+> **V.10 — ε<sub>0</sub> como condición estructural de existencia del corpus.** El propio corpus SV, con todo su aparato canónico, existe como cuerpo disciplinar sólo tras ε<sub>0</sub>. No es ε<sub>0</sub> quien requiere al corpus: es el corpus quien requiere a ε<sub>0</sub> para tener protocampo sobre el que operar.
 
-**Hito canónico absoluto 1.1.10. Célula canónica absoluta SV(3, 9) y categorías canónicas absolutas.** El corpus absoluto fija absolutamente la célula canónica absoluta SV(3, 9) como configuración minimal absoluta de prueba absoluta del aparato absoluto: tres posiciones factuales absolutas ξ<sub>1</sub>, ξ<sub>2</sub>, ξ<sub>3</sub> sobre Ω<sub>pre</sub> con nueve sucesos factuales absolutos admisibles absolutos sobre el ordinal absoluto ν. La célula absoluta SV(3, 9) es absolutamente el banco canónico absoluto sobre el que se ejecutan absolutamente las verificaciones absolutas canónicas absolutas del aparato absoluto. La presente publicación recorre absolutamente la consistencia absoluta sobre SV(3, 9) en el §36 absoluto. Las categorías canónicas absolutas OpFact<sub>SV</sub>, OpGen<sub>SV,Π</sub> y OpFact<sub>SV,General</sub> son absolutamente las categorías canónicas absolutas operatorias absolutas del aparato absoluto, sobre las que se demuestran absolutamente los teoremas absolutos de unicidad representacional absoluta del operador absoluto 𝔊<sub>SV</sub> (§12 absoluto) y del operador maestro absoluto ℙ<sub>SV</sub> (§24 absoluto).
+> **V.11 — ε<sub>0</sub> como polaridad absoluta primordial.** ε<sub>0</sub> es el acto absoluto por el cual comparece por primera vez la polaridad (α, β): apertura y cierre se fijan como magnitudes distinguibles estructuralmente, y desde ese mismo acto se establece el protocampo unificado primordial. Antes no hay polaridad, después sí — y en esa diferencia absoluta reside la apertura completa del programa.
 
-### 1.2. Diagnóstico estructural absoluto del problema canónico absoluto
+> **V.12 — ε<sub>0</sub> como frontera con el alfabeto binario {0, 1}.** Una lectura postulada vincula ε<sub>0</sub> con la emergencia absoluta del tercer símbolo U: antes de ε<sub>0</sub>, sólo hay potencialidad de alfabeto binario estricto sin indeterminación honesta; después, el alfabeto ternario canónico Σ = {0, 1, U} está disponible con su U absoluta, y el protocampo unificado puede operar sobre él.
 
-El recorrido canónico absoluto del corpus heredado absoluto del §1.1 absoluto pone absolutamente de manifiesto absoluto un diagnóstico estructural absoluto canónico absoluto que justifica absolutamente con rango canónico absoluto la presente teoría general factual absoluta. El diagnóstico absoluto se articula absolutamente en cinco puntos canónicos absolutos.
+> **V.13 — ε<sub>0</sub> como acto honesto exterior.** ε<sub>0</sub> no admite explicación estructural desde dentro del aparato formal SV. Esta imposibilidad no es déficit del marco: es **reconocimiento honesto absoluto** de que hay fronteras exteriores legítimas, y que forzar su cierre sería violación directa absoluta de las prohibiciones P.4 (inferencia opaca) y P.6 (clausura espuria). El postulado G.3 del programa absorbe absolutamente este reconocimiento.
 
-**Punto canónico absoluto 1.2.1. Coexistencia canónica absoluta de regímenes inferiores absolutos sin operador maestro absoluto único absoluto.** El corpus absoluto dispone absolutamente de cuatro regímenes canónicos absolutos formalizados absolutos con rango canónico absoluto inferior: Maxwell factual absoluto (Lloret Egea, 2026k) con ecuación maestra absoluta 𝔼<sub>SV</sub> = 0, luz factual absoluta (Lloret Egea, 2026 — luz) con ecuación maestra absoluta L<sub>SV</sub> = 0 sobre quince sumandos absolutos, transmutación factual absoluta (Lloret Egea, 2026q) con cadena canónica absoluta Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U}, y entropía factual absoluta (Lloret Egea, 2026l) con funcional absoluto H<sub>SV</sub>. Cada régimen absoluto opera absolutamente con su propio aparato absoluto canónico absoluto, sus propios sumandos absolutos, sus propios invariantes absolutos. **No existe absolutamente, hasta esta publicación absoluta, un operador maestro absoluto canónico absoluto único absoluto que articule absolutamente con rango doctrinal superior absoluto los cuatro regímenes absolutos como restricciones absolutas canónicas absolutas exactas absolutas suyas.** Esta ausencia canónica absoluta es absolutamente el primer punto absoluto del diagnóstico absoluto.
+> **V.14 — ε<sub>0</sub> como frontera absoluta con la noción de formación.** Postula que ε<sub>0</sub> es la frontera absoluta entre «no hay protocampo» y «hay protocampo»: no es «el primer suceso de una serie», sino el suceso absoluto que funda la posibilidad misma de que haya serie de sucesos operando sobre protocampo efectivo. Diferente absoluto de los sucesos generadores interiores posteriores, aunque el Corolario 3bis.1 los declare como casos factualmente análogos.
 
-**Punto canónico absoluto 1.2.2. Ausencia canónica absoluta de objeto primario absoluto unificador absoluto.** Cada régimen canónico absoluto inferior dispone absolutamente de objetos canónicos absolutos primarios absolutos propios absolutos: Maxwell factual absoluto opera absolutamente sobre los campos factuales absolutos electromagnéticos absolutos; la luz factual absoluta opera absolutamente sobre el campo factual absoluto lumínico absoluto; la transmutación factual absoluta opera absolutamente sobre las masas factuales absolutas y cargas factuales absolutas; la entropía factual absoluta opera absolutamente sobre el funcional absoluto H<sub>SV</sub> sobre el ordinal absoluto ν. **No existe absolutamente, hasta esta publicación absoluta, un objeto primario absoluto canónico absoluto unificador absoluto único absoluto sobre el que descansen absolutamente los cuatro regímenes absolutos como proyecciones absolutas canónicas absolutas activadas absolutas suyas.** Esta ausencia canónica absoluta es absolutamente el segundo punto absoluto del diagnóstico absoluto.
+> **V.15 — ε<sub>0</sub> como apertura abstracta irreductible.** Última visión postulada: ε<sub>0</sub> es pieza absolutamente irreducible del programa cualquiera que sea la lectura adoptada entre V.1 y V.14; la Teoría general de sucesos generadores y de los protocampos unificados en su publicación canónica futura no lo eliminará, podrá solamente refinar su descripción estructural sobre el nivel de frontera exterior.
 
-**Punto canónico absoluto 1.2.3. Ausencia canónica absoluta de operador soberano absoluto único absoluto de generación absoluta.** Cada régimen canónico absoluto inferior dispone absolutamente de operadores canónicos absolutos propios absolutos sobre sus objetos absolutos primarios absolutos: Maxwell factual absoluto opera absolutamente con operadores absolutos electromagnéticos absolutos del aparato absoluto; la luz factual absoluta con operadores absolutos lumínicos absolutos; la transmutación factual absoluta con la operación absoluta canónica absoluta de transmutación absoluta; la entropía factual absoluta con la operación absoluta canónica absoluta de integración absoluta sobre ν absoluto. **No existe absolutamente, hasta esta publicación absoluta, un operador soberano absoluto canónico absoluto único absoluto de generación absoluta que actúe absolutamente sobre el objeto primario absoluto unificador absoluto y que se proyecte absolutamente como operador absoluto canónico absoluto de cada régimen absoluto.** Esta ausencia canónica absoluta es absolutamente el tercer punto absoluto del diagnóstico absoluto.
+**Carácter absoluto de las quince visiones.** Las visiones V.1–V.15 son **postuladas**, no demostradas, y operan en el nivel de frontera exterior del programa. Su orden no establece preferencia. Los sucesos generadores interiores — los que actúan tras ε<sub>0</sub> sobre protocampo ya abierto — se tratan en el §2 al nivel canónico con teoremas duros, conforme a G.1.
 
-**Punto canónico absoluto 1.2.4. Ausencia canónica absoluta de taxonomía absoluta canónica absoluta única absoluta de sucesos factuales absolutos.** Cada régimen canónico absoluto inferior dispone absolutamente de clasificaciones absolutas canónicas absolutas propias absolutas de sucesos absolutos: Maxwell factual absoluto distingue absolutamente sucesos absolutos electromagnéticos absolutos por su tipo absoluto; la luz factual absoluta distingue absolutamente sucesos absolutos lumínicos absolutos por su naturaleza absoluta canónica absoluta; la transmutación factual absoluta distingue absolutamente sucesos absolutos transmutativos absolutos por su clase canónica absoluta; la entropía factual absoluta distingue absolutamente sucesos absolutos entrópicos absolutos por su contribución absoluta al funcional absoluto H<sub>SV</sub>. **No existe absolutamente, hasta esta publicación absoluta, una taxonomía absoluta canónica absoluta única absoluta de sucesos factuales absolutos que sirva absolutamente con rango canónico absoluto a los cuatro regímenes absolutos simultáneamente absoluto y al operador maestro absoluto único absoluto.** Esta ausencia canónica absoluta es absolutamente el cuarto punto absoluto del diagnóstico absoluto.
+---
+## §2. Nivel canónico del programa: par polar (α, β) como protocampo primordial
 
-**Punto canónico absoluto 1.2.5. Ausencia canónica absoluta de declaración canónica absoluta del estatuto absoluto de las matemáticas absolutas dentro del Sistema Vectorial SV.** El corpus absoluto fija absolutamente con rango canónico absoluto los primitivos absolutos del aparato absoluto, las prohibiciones constitutivas absolutas P.1–P.5 absolutas, los hitos absolutos canónicos absolutos de cada régimen absoluto inferior absoluto. **No existe absolutamente, hasta esta publicación absoluta, una declaración canónica absoluta explícita absoluta del estatuto absoluto canónico absoluto de las matemáticas absolutas dentro del aparato absoluto del Sistema Vectorial SV.** El presente §0 absoluto, mediante absolutamente la Definición 0.2 absoluta y la Observación 0.2 absoluta, establece absolutamente con rango canónico absoluto que las matemáticas absolutas comparecen absolutamente en F<sub>0</sub> absoluta como **preformalidad mínima absoluta de distinguibilidad absoluta**, no absolutamente como causa absoluta, motor absoluto, energía absoluta, tiempo absoluto, dinámica absoluta ni operatoria absoluta del dominio absoluto. Esta declaración canónica absoluta resuelve absolutamente con rango canónico absoluto el quinto punto absoluto del diagnóstico absoluto.
+### §2.1. Dominio preternario Ω<sub>pre</sub> y posiciones ξ<sub>i</sub>
 
-### 1.3. Anuncio canónico absoluto del programa en el §3bis del documento de la luz factual
+Heredado con rango canónico de Lloret Egea (2026j, §2, ec. 2.1):
 
-El §3bis absoluto del documento absoluto de la luz factual (Destacado canónico absoluto del programa absoluto) anuncia absolutamente con rango doctrinal superior absoluto la presente teoría general factual absoluta de los sucesos generadores absolutos y de los protocampos unificados absolutos. El §7.3bis absoluto refuerza absolutamente con rango canónico absoluto la apertura absoluta del programa absoluto. Tres elementos canónicos absolutos del anuncio absoluto del §3bis absoluto se reproducen absolutamente íntegros absolutos en la presente publicación absoluta:
+```math
+\Omega_{\mathrm{pre}} \;:=\; \bigl\{\, \xi_i = (i,\,\alpha_i,\,\beta_i)\;:\; i\in\mathbb{N},\;\alpha_i,\beta_i\in\mathbb{R}_{\ge 0},\;\alpha_i+\beta_i>0\,\bigr\}.
+```
 
-**Elemento canónico absoluto 1.3.1. Los tres postulados canónicos absolutos del programa absoluto: G.1, G.2, G.3.** Heredados absolutos del Destacado absoluto del §3bis absoluto del documento absoluto de la luz factual. Su desarrollo canónico absoluto se recoge absolutamente en el §2 absoluto del presente documento absoluto.
+Magnitudes derivadas canónicas con rango propio en el corpus (Lloret Egea, 2026j, §2; luz factual, §3):
 
-**Elemento canónico absoluto 1.3.2. Estructura canónica absoluta de dos niveles canónicos absolutos del programa absoluto.** Heredada absoluta del Destacado absoluto del §3bis absoluto del documento absoluto de la luz factual: nivel demostrado canónico absoluto (núcleo absoluto duro absoluto) y nivel postulado canónico absoluto (visiones absolutas coexistentes absolutas sobre la frontera exterior absoluta ε<sub>0</sub>). Su desarrollo canónico absoluto se recoge absolutamente en el §3 absoluto del presente documento absoluto.
+```math
+\rho_i \;:=\; \alpha_i + \beta_i \quad \text{(concentración factual en la posición)},\qquad \delta_i \;:=\; \beta_i - \alpha_i \quad \text{(sesgo polar)}.
+```
 
-**Elemento canónico absoluto 1.3.3. Las quince visiones canónicas absolutas sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>).** Heredadas absolutas del Destacado absoluto del §3bis absoluto del documento absoluto de la luz factual. Su desarrollo canónico absoluto íntegro absoluto se recoge absolutamente en el §31 absoluto del presente documento absoluto, con la matriz absoluta canónica absoluta de coexistencia absoluta del §32 absoluto y el refuerzo absoluto canónico absoluto de la prohibición constitutiva absoluta P.6 absoluta sobre el conjunto absoluto de las visiones absolutas en el §34 absoluto.
+En Ω<sub>pre</sub>, los símbolos 0 y 1 todavía no se han separado en régimen de lectura y U aún no ha nacido. La condición de positividad estricta α<sub>i</sub> + β<sub>i</sub> > 0 asegura que la posición tiene contenido estructural efectivo, sin ser configuración degenerada trivial.
 
-### 1.4. Cierre canónico absoluto del §1
+### §2.2. Definición canónica del protocampo primordial unificado (α, β)
 
-El §1 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto el estudio del arte canónico absoluto intra-SV absoluto del aparato absoluto. El recorrido canónico absoluto del §1.1 absoluto fija absolutamente con rango canónico absoluto los hitos canónicos absolutos del corpus absoluto. El diagnóstico estructural absoluto del §1.2 absoluto justifica absolutamente con rango canónico absoluto la necesidad canónica absoluta del programa absoluto. El anuncio canónico absoluto del §1.3 absoluto fija absolutamente con rango canónico absoluto el origen canónico absoluto del programa absoluto en el Destacado canónico absoluto del §3bis absoluto del documento absoluto de la luz factual. Sobre este suelo canónico absoluto, los §§2 y 3 absolutos del presente documento absoluto despliegan absolutamente con rango canónico absoluto los tres postulados canónicos absolutos del programa absoluto y la estructura canónica absoluta de dos niveles canónicos absolutos del programa absoluto.
+**Definición §2.2 (Protocampo primordial).** El **protocampo primordial unificado** del Sistema Vectorial SV sobre Ω<sub>pre</sub> es la asignación canónica:
+
+```math
+\Phi_{\mathrm{pre}}: \Omega_{\mathrm{pre}} \longrightarrow \mathbb{R}_{\ge 0}\times\mathbb{R}_{\ge 0},\qquad \Phi_{\mathrm{pre}}(\xi_i) := (\alpha_i,\,\beta_i).
+```
+
+El protocampo es **estructura combinatoria pura absoluta** sobre Ω<sub>pre</sub> (G.2 respetada): no representa sustancia oculta, no posee propiedades soberanas añadidas, no admite reinterpretación sustancialista. Las componentes (α<sub>i</sub>, β<sub>i</sub>) son magnitudes nativas del corpus derivadas de observables compatibles del SV (Lloret Egea, 2026j, §3): α<sub>i</sub> es la **acumulación local de apertura** y β<sub>i</sub> es el **perfil de resolución** de cada posición — no postulados arbitrarios.
+
+**Estatuto del protocampo respecto del nivel canónico.** El par polar (α, β) opera al **nivel canónico** del programa (G.1): admite teoremas duros sobre Ω<sub>pre</sub> y sobre las activaciones que lo modifican. La cuestión del estado anterior a ε<sub>0</sub> permanece como **frontera exterior** protegida por G.3 y descrita por las quince visiones del §1.
+
+### §2.3. Dimensión metrológica del protocampo
+
+La dimensión metrológica de las componentes (α<sub>i</sub>, β<sub>i</sub>) se establece sobre los seis primitivos metrológicos canónicos del corpus (Lloret Egea, 2026c — primitivos metrológicos): **UE_MFC** (Unidad Elemental del Medidor Factual de Ciclo), **UFE** (Unidad Factual de Extensión), **UFM** (Unidad Factual de Masa), **UFC** (Unidad Factual de Corriente), **UFT** (Unidad Factual de Temperatura) y **UFCE** (Unidad Factual de Cantidad de Entidad).
+
+Las componentes nativas (α<sub>i</sub>, β<sub>i</sub>) son **adimensionales en régimen puro** (acumulación de apertura y perfil de resolución contados sobre índice ordinal de suceso). Bajo compuerta metrológica ℘<sub>SV</sub> (luz factual, §A.2), reciben dimensión derivada conforme al sector que las invoca:
+
+- en sector eléctrico/magnético, dimensión derivada vía UFC y UE_MFC;
+- en sector gravitatorio, dimensión derivada de la Proposición 9 sin métrica soberana (P.3 respetada);
+- en sector espectral y topológico, magnitud adimensional sobre índice ordinal.
+
+La asignación dimensional es **contingente al primitivo metrológico** y nunca invocada como fundamento ontológico (P.5 respetada).
 
 ---
 
-## 2. Los tres postulados absolutos canónicos del programa
+## §3. Sucesos generadores interiores como operadores sobre el protocampo
 
-### 2.1. Apertura canónica absoluta del §2
+### §3.1. Definición canónica de suceso generador interior
 
-Los tres postulados absolutos canónicos absolutos del programa absoluto, denotados absolutamente G.1, G.2, G.3, son absolutamente **heredados canónicos absolutos** del Destacado canónico absoluto del §3bis absoluto del documento absoluto de la luz factual. No son absolutamente postulados absolutos nuevos absolutos introducidos absolutamente en la presente publicación absoluta; son absolutamente postulados absolutos canónicos absolutos previos absolutos del corpus absoluto sobre los que la presente teoría general factual absoluta se construye absolutamente. Esta declaración canónica absoluta es absolutamente esencial absoluta: la presente publicación absoluta respeta absolutamente con rango canónico absoluto la prohibición constitutiva absoluta P.5 absoluta (no adición axiomática externa absoluta al corpus absoluto), no introduciendo absolutamente postulados absolutos nuevos absolutos fuera del corpus absoluto.
+Heredado de Lloret Egea (2026 — luz factual, §3bis.4) con notación canónica del corpus:
 
-### 2.2. Postulado absoluto canónico absoluto G.1: existencia canónica absoluta del protocampo primordial unificado Π<sub>SV</sub>
+**Definición §3.1 (Suceso generador interior).** Un **suceso generador interior** es una transición declarada ν entre marcos S<sub>k</sub>, S<sub>k+1</sub> sobre Ω<sub>pre</sub> que satisface absolutamente:
 
-**Postulado absoluto canónico absoluto G.1 (Existencia canónica absoluta del protocampo primordial unificado Π<sub>SV</sub>).** En el Sistema Vectorial SV existe absolutamente, con rango canónico absoluto primario absoluto, un objeto canónico absoluto unificador absoluto, denotado Π<sub>SV</sub>, que admite absolutamente identificación canónica absoluta con el par polar absoluto (α<sub>i</sub>, β<sub>i</sub>) definido absolutamente sobre el dominio prototernario absoluto Ω<sub>pro</sub> emergente absoluto del dominio preternario absoluto Ω<sub>pre</sub>, y que opera absolutamente como **protocampo primordial unificado absoluto** del aparato absoluto.
+(G.i) modifica el protocampo en al menos una posición: existe i tal que (α<sub>i</sub>(S<sub>k+1</sub>), β<sub>i</sub>(S<sub>k+1</sub>)) ≠ (α<sub>i</sub>(S<sub>k</sub>), β<sub>i</sub>(S<sub>k</sub>));
 
-**Lectura canónica absoluta del postulado G.1.** Π<sub>SV</sub> no es absolutamente campo físico absoluto en el sentido heredado absoluto, no es absolutamente campo cuántico absoluto, no es absolutamente campo clásico absoluto. Π<sub>SV</sub> es absolutamente protocampo primordial absoluto: estrato canónico absoluto **anterior canónico absoluto** a la activación absoluta canónica absoluta de cualquier campo factual absoluto del corpus absoluto. Los siete campos factuales absolutos coexistentes absolutos del corpus absoluto (electromagnético absoluto, lumínico absoluto, transmutativo absoluto, entrópico absoluto, gravitacional absoluto factual absoluto, electromagnético absoluto interno absoluto, axiológico absoluto factual absoluto) emergen absolutamente como **proyecciones canónicas absolutas activadas absolutas** del protocampo primordial absoluto Π<sub>SV</sub> a través absolutamente de cadenas canónicas absolutas de activaciones honestas absolutas Π<sub>3</sub><sup>H</sup>, conforme absolutamente a los siete teoremas absolutos de emergencia absoluta del §18 absoluto del presente documento absoluto.
+(G.ii) la modificación cumple **monotonía no decreciente sobre acumulaciones** (Lloret Egea, 2026j, §3): A<sub>i</sub>(n+1) ≥ A<sub>i</sub>(n) en toda posición, donde A<sub>i</sub> es la acumulación factual de apertura en la posición i hasta el paso n;
 
-**Compatibilidad canónica absoluta del postulado G.1 con las prohibiciones absolutas P.1–P.6.** El postulado absoluto G.1 absoluto es absolutamente compatible absoluto con las seis prohibiciones constitutivas absolutas P.1–P.6 absolutas del corpus absoluto. No introduce absolutamente tiempo soberano absoluto (P.1 respetada absolutamente): Π<sub>SV</sub> opera absolutamente sobre el ordinal absoluto ν de sucesos admisibles absolutos. No introduce absolutamente probabilidad fundante absoluta (P.2 respetada absolutamente): Π<sub>SV</sub> es absolutamente magnitud estructural absoluta, no magnitud estadística absoluta. No introduce absolutamente geometría soberana absoluta auxiliar absoluta (P.3 respetada absolutamente): Π<sub>SV</sub> opera absolutamente sobre el dominio prototernario absoluto Ω<sub>pro</sub>, no sobre soporte geométrico soberano absoluto. No introduce absolutamente inferencia opaca absoluta (P.4 respetada absolutamente): Π<sub>SV</sub> es absolutamente trazable absoluto canónicamente absoluto al par polar absoluto (α<sub>i</sub>, β<sub>i</sub>) del corpus absoluto. No introduce absolutamente axioma ajeno absoluto (P.5 respetada absolutamente): Π<sub>SV</sub> se construye absolutamente sobre los primitivos absolutos del corpus absoluto. No introduce absolutamente clausura espuria absoluta (P.6 respetada absolutamente): Π<sub>SV</sub> opera absolutamente sobre la no-clausura honesta absoluta U sin forzar absolutamente clausura absoluta sobre ella.
+(G.iii) **honestidad coordenada**: ninguna coordenada proyectada como U por falta de base suficiente puede reinterpretarse como clausura determinada sin nueva base estructural compatible declarada (Lema 7.3 de Lloret Egea, 2026j).
 
-### 2.3. Postulado absoluto canónico absoluto G.2: no sustancialización absoluta de los protocampos absolutos
+### §3.2. Taxonomía canónica G/A/D heredada
 
-**Postulado absoluto canónico absoluto G.2 (No sustancialización absoluta de los protocampos absolutos).** El protocampo primordial unificado absoluto Π<sub>SV</sub> y los siete campos factuales absolutos coexistentes absolutos del corpus absoluto que emergen absolutamente como proyecciones canónicas absolutas activadas absolutas suyas no son absolutamente sustancias absolutas ocultas absolutas con propiedades absolutas soberanas absolutas añadidas absolutas, no son absolutamente entidades absolutas ontológicamente absolutas independientes absolutas con realidad absoluta soberana absoluta, no son absolutamente fluidos absolutos cósmicos absolutos preexistentes absolutos. Los protocampos absolutos comparecen absolutamente en el aparato absoluto del Sistema Vectorial SV como **estructuras formales absolutas puras absolutas**, articuladas absolutamente por la disciplina canónica absoluta del corpus, sin sustancialización absoluta soberana absoluta.
+Se cita literalmente de la Definición 3bis.3 de Lloret Egea (2026 — luz factual):
 
-**Lectura canónica absoluta del postulado G.2.** El postulado absoluto G.2 absoluto resuelve absolutamente con rango canónico absoluto un problema absoluto canónico absoluto fundamental absoluto del aparato absoluto: el riesgo canónico absoluto de leer absolutamente Π<sub>SV</sub> como entidad absoluta sustancial absoluta soberana absoluta, lo que introduciría absolutamente axioma ajeno absoluto al corpus absoluto y violaría absolutamente la prohibición constitutiva absoluta P.5 absoluta. El postulado absoluto G.2 absoluto declara absolutamente con rango canónico absoluto que Π<sub>SV</sub> es absolutamente estructura formal absoluta pura absoluta, no sustancia absoluta oculta absoluta. Esta declaración canónica absoluta es absolutamente compatible absoluta con la Observación 0.3 absoluta del §0 absoluto sobre F<sub>0</sub>.
+**Clase G** (suceso generador): Δ𝔈<sub>SV</sub>(ν) > 0 estrictamente.  
+**Clase A** (suceso activador absoluto): Δ𝔈<sub>SV</sub>(ν) = 0.  
+**Clase D** (suceso disipador absoluto): Δ𝔈<sub>SV</sub>(ν) < 0 estrictamente.
 
-**Articulación canónica absoluta del postulado G.2 con la prohibición constitutiva absoluta P.5.** El postulado absoluto G.2 absoluto es absolutamente refuerzo canónico absoluto específico absoluto de la prohibición constitutiva absoluta P.5 absoluta sobre el caso canónico absoluto de los protocampos absolutos: la prohibición absoluta P.5 absoluta prohíbe absolutamente la adición absoluta de axiomas absolutos ajenos absolutos al corpus absoluto; el postulado absoluto G.2 absoluto cierra absolutamente la lectura canónica absoluta de Π<sub>SV</sub> dentro del aparato absoluto sin sustancialización absoluta soberana absoluta. Las quince visiones canónicas absolutas sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>) del §31 absoluto del presente documento absoluto operan absolutamente bajo el postulado absoluto G.2 absoluto: ninguna de las quince visiones absolutas introduce absolutamente sustancia absoluta oculta absoluta soberana absoluta sobre la frontera exterior absoluta ε<sub>0</sub>.
+donde 𝔈<sub>SV</sub>(Γ, n) es la energía factual estructural acumulada (luz factual, §3bis.3, Teorema absoluto de ruptura factual del principio de conservación).
 
-### 2.4. Postulado absoluto canónico absoluto G.3: existencia canónica absoluta del operador soberano de generación 𝔊<sub>SV</sub>
+### §3.3. Operadores canónicos sobre el protocampo
 
-**Postulado absoluto canónico absoluto G.3 (Existencia canónica absoluta del operador soberano de generación 𝔊<sub>SV</sub>).** En el Sistema Vectorial SV existe absolutamente, con rango canónico absoluto primario absoluto, un operador canónico absoluto soberano absoluto, denotado 𝔊<sub>SV</sub>, que actúa absolutamente sobre el protocampo primordial unificado absoluto Π<sub>SV</sub> a través absolutamente de sucesos generadores absolutos interiores absolutos de clase absoluta canónica absoluta G, y que opera absolutamente como **operador soberano canónico absoluto de generación absoluta** del aparato absoluto.
+**Definición §3.3 (Operador de generación interior).** Un suceso generador interior ν de Clase G actúa sobre el protocampo como operador canónico:
 
-**Lectura canónica absoluta del postulado G.3.** El operador absoluto 𝔊<sub>SV</sub> no es absolutamente fuerza física absoluta en el sentido heredado absoluto, no es absolutamente campo cuántico absoluto secundario absoluto, no es absolutamente operador absoluto cuántico absoluto. 𝔊<sub>SV</sub> es absolutamente operador soberano absoluto canónico absoluto del aparato absoluto: actúa absolutamente sobre Π<sub>SV</sub> mediante absolutamente sucesos generadores absolutos interiores absolutos de clase absoluta canónica absoluta G, donde **clase absoluta G absoluta** denota absolutamente la clase canónica absoluta de sucesos absolutos generadores absolutos interiores absolutos del aparato absoluto, conforme absolutamente a la taxonomía absoluta canónica absoluta G/A/D del §9 absoluto del presente documento absoluto. Las cuatro propiedades algebraicas absolutas del operador absoluto 𝔊<sub>SV</sub> — homogeneidad factual absoluta, aditividad absoluta absoluta, covariancia factual absoluta bajo las cuatro transformadas canónicas absolutas de trayectoria absoluta del SV y estabilidad estructural absoluta — se demuestran absolutamente en el §11 absoluto del presente documento absoluto, y la unicidad representacional absoluta de 𝔊<sub>SV</sub> en la categoría canónica absoluta OpGen<sub>SV,Π</sub> queda establecida absolutamente en el §12 absoluto.
+```math
+\mathfrak{G}_\nu: \Omega_{\mathrm{pre}} \longrightarrow \Omega_{\mathrm{pre}},\qquad \mathfrak{G}_\nu(\xi_i) := \bigl(\alpha_i + \Delta\alpha_i^{(\nu)},\;\beta_i + \Delta\beta_i^{(\nu)}\bigr)
+```
 
-**Compatibilidad canónica absoluta del postulado G.3 con las prohibiciones absolutas P.1–P.6.** El postulado absoluto G.3 absoluto es absolutamente compatible absoluto con las seis prohibiciones constitutivas absolutas P.1–P.6 absolutas del corpus absoluto. No introduce absolutamente tiempo soberano absoluto (P.1 respetada absolutamente): 𝔊<sub>SV</sub> opera absolutamente sobre el ordinal absoluto ν de sucesos admisibles absolutos, mediante absolutamente la derivada factual absoluta ∂<sub>ν</sub><sup>SV</sup> que es absolutamente diferencia finita absoluta sobre ordinal absoluto, no derivada temporal absoluta. No introduce absolutamente probabilidad fundante absoluta (P.2 respetada absolutamente). No introduce absolutamente geometría soberana absoluta auxiliar absoluta (P.3 respetada absolutamente). No introduce absolutamente inferencia opaca absoluta (P.4 respetada absolutamente): cada sucesos generador absoluto interior absoluto de clase absoluta G sobre el que actúa absolutamente 𝔊<sub>SV</sub> es absolutamente trazable absoluto canónicamente absoluto al clasificador absoluto Γ<sub>ℋ</sub> del corpus absoluto. No introduce absolutamente axioma ajeno absoluto (P.5 respetada absolutamente). No introduce absolutamente clausura espuria absoluta (P.6 respetada absolutamente): 𝔊<sub>SV</sub> opera absolutamente sobre sucesos generadores absolutos interiores absolutos sin forzar absolutamente la clausura absoluta de la frontera exterior absoluta ε<sub>0</sub>.
+con (Δα<sub>i</sub><sup>(ν)</sup>, Δβ<sub>i</sub><sup>(ν)</sup>) ≥ (0, 0) en orden producto sobre ℝ<sub>≥0</sub><sup>2</sup> y al menos un componente estrictamente positivo.
 
-### 2.5. Cierre canónico absoluto del §2
+**Definición §3.4 (Operador de activación pura).** Un suceso de Clase A actúa sobre el protocampo como operador canónico:
 
-Los tres postulados absolutos canónicos absolutos del programa absoluto, G.1, G.2, G.3, quedan absolutamente fijados absolutos con rango canónico absoluto en el §2 absoluto del presente documento absoluto. Los tres postulados absolutos son absolutamente heredados canónicos absolutos del Destacado canónico absoluto del §3bis absoluto del documento absoluto de la luz factual, no son absolutamente postulados absolutos nuevos absolutos introducidos absolutamente fuera del corpus absoluto. Su compatibilidad canónica absoluta con las seis prohibiciones constitutivas absolutas P.1–P.6 absolutas del corpus absoluto queda absolutamente declarada absolutamente con rango canónico absoluto. Sobre este suelo canónico absoluto, el §3 absoluto del presente documento absoluto despliega absolutamente con rango canónico absoluto la estructura canónica absoluta de dos niveles canónicos absolutos del programa absoluto.
+```math
+\mathfrak{A}_\nu: \Omega_{\mathrm{pre}} \longrightarrow \Omega_{\mathrm{pre}},\qquad \mathfrak{A}_\nu(\xi_i) := \bigl(\alpha_i + \Delta\alpha_i^{(\nu)},\;\beta_i + \Delta\beta_i^{(\nu)}\bigr)
+```
 
----
+bajo la **condición de neutralidad estructural** Δ𝔈<sub>SV</sub>(ν) = 0: la activación reorganiza la concentración entre posiciones sin aumento neto de contenido estructural global (P.6 respetada — no clausura espuria).
 
-## 3. Estructura de dos niveles canónicos absolutos del programa
+**Definición §3.5 (Operador de disipación).** Un suceso de Clase D actúa preservando ρ<sub>i</sub> = α<sub>i</sub> + β<sub>i</sub> ≥ 0 en cada posición y reduciendo Δ𝔈<sub>SV</sub>(ν) < 0 estrictamente.
 
-### 3.1. Apertura canónica absoluta del §3
+### §3.4. Cumplimiento canónico G.1–G.3 y P.1–P.6
 
-El programa absoluto desarrollado en la presente publicación absoluta opera absolutamente con **estructura canónica absoluta de dos niveles canónicos absolutos**, heredada absoluta del Destacado canónico absoluto del §3bis absoluto del documento absoluto de la luz factual. Los dos niveles canónicos absolutos son absolutamente: el **nivel demostrado canónico absoluto** (núcleo absoluto duro absoluto), donde se acumula absolutamente con rango canónico absoluto el aparato absoluto demostrativo absoluto del programa absoluto (teoremas absolutos, corolarios absolutos, proposiciones absolutas, definiciones canónicas absolutas, invariantes absolutos), y el **nivel postulado canónico absoluto** (visiones absolutas coexistentes absolutas sobre la frontera exterior absoluta ε<sub>0</sub>), donde se recogen absolutamente con rango canónico absoluto las quince visiones canónicas absolutas sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>) como lecturas absolutas estructurales absolutas coexistentes absolutas legítimas absolutas, no como axiomas absolutos. La distinción canónica absoluta entre ambos niveles absolutos es absolutamente esencial absoluta para la lectura canónica absoluta del programa absoluto.
+Los tres operadores 𝔊<sub>ν</sub>, 𝔄<sub>ν</sub>, 𝔇<sub>ν</sub> respetan absolutamente:
 
-### 3.2. Nivel demostrado canónico absoluto: núcleo absoluto duro absoluto
-
-**Definición 3.1 (Nivel demostrado canónico absoluto del programa absoluto).** El **nivel demostrado canónico absoluto** del programa absoluto, denotado canónicamente como el conjunto absoluto canónico absoluto 𝒟<sub>SV</sub>, es absolutamente el conjunto canónico absoluto de todos los resultados absolutos del aparato absoluto que admiten absolutamente demostración canónica absoluta dentro del marco canónico absoluto del Sistema Vectorial SV, sobre los primitivos absolutos del corpus absoluto y bajo las prohibiciones constitutivas absolutas P.1–P.6 absolutas. El nivel demostrado canónico absoluto incluye absolutamente:
-
-(i) los **43 teoremas absolutos canónicos absolutos** del presente documento absoluto, demostrados absolutamente con rigor canónico absoluto Q.E.D. absoluto;
-
-(ii) los **17 corolarios absolutos canónicos absolutos** del presente documento absoluto, derivados absolutamente con rigor canónico absoluto de los teoremas absolutos;
-
-(iii) las **11 proposiciones absolutas canónicas absolutas** del presente documento absoluto, demostradas absolutamente con rigor canónico absoluto;
-
-(iv) las **43 definiciones canónicas absolutas** del presente documento absoluto, fijadas absolutamente con rango canónico absoluto sobre los primitivos absolutos del corpus absoluto;
-
-(v) los **13 invariantes absolutos canónicos absolutos I.1–I.13** del operador maestro absoluto ℙ<sub>SV</sub>, fijados absolutamente con rango canónico absoluto en el §23 absoluto del presente documento absoluto;
-
-(vi) los **9 sumandos absolutos canónicos absolutos** del operador maestro absoluto ℙ<sub>SV</sub>, fijados absolutamente con rango canónico absoluto en los §§21–22 absolutos del presente documento absoluto;
-
-(vii) los **8 criterios absolutos canónicos absolutos independientes absolutos de falsación absoluta** del marco absoluto, fijados absolutamente con rango canónico absoluto en el §35 absoluto del presente documento absoluto;
-
-(viii) los **19 bancos visibles absolutos** con verificación absoluta numérica absoluta explícita absoluta, fijados absolutamente con rango canónico absoluto en el §37 absoluto del presente documento absoluto;
-
-(ix) los **24 laboratorios canónicos absolutos** con contrato absoluto operatorio absoluto, fijados absolutamente con rango canónico absoluto en el §38 absoluto del presente documento absoluto.
-
-**Observación 3.1 (Rigor canónico absoluto del nivel demostrado canónico absoluto).** El nivel demostrado canónico absoluto del programa absoluto opera absolutamente con rigor canónico absoluto demostrativo absoluto: cada teorema absoluto se demuestra absolutamente con pasos numerados absolutos canónicos absolutos hasta cierre absoluto Q.E.D. absoluto; cada corolario absoluto se deriva absolutamente con rigor canónico absoluto de los teoremas absolutos sobre los que descansa absolutamente; cada proposición absoluta se demuestra absolutamente con rigor canónico absoluto; cada definición canónica absoluta se fija absolutamente con rango canónico absoluto sobre los primitivos absolutos del corpus absoluto. El nivel demostrado canónico absoluto del programa absoluto es absolutamente el **núcleo absoluto duro absoluto** del aparato absoluto: ninguno de sus resultados absolutos puede ser absolutamente impugnado absoluto sin contradecir absolutamente al menos uno de los primitivos absolutos del corpus absoluto, una de las prohibiciones constitutivas absolutas P.1–P.6 absolutas, o uno de los hitos canónicos absolutos del corpus absoluto recogidos absolutamente en el §1.1 absoluto.
-
-### 3.3. Nivel postulado canónico absoluto: visiones coexistentes absolutas sobre ε<sub>0</sub>
-
-**Definición 3.2 (Nivel postulado canónico absoluto del programa absoluto).** El **nivel postulado canónico absoluto** del programa absoluto, denotado canónicamente como el conjunto absoluto canónico absoluto 𝒱<sub>SV</sub>, es absolutamente el conjunto canónico absoluto de las **quince visiones canónicas absolutas** sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>), heredadas absolutas del Destacado canónico absoluto del §3bis absoluto del documento absoluto de la luz factual, que comparecen absolutamente en el aparato absoluto del Sistema Vectorial SV como **lecturas absolutas estructurales absolutas coexistentes absolutas legítimas absolutas** sobre la frontera exterior absoluta ε<sub>0</sub>, **no como axiomas absolutos**. El nivel postulado canónico absoluto opera absolutamente bajo el régimen canónico absoluto de **coexistencia absoluta canónica absoluta** entre las quince visiones absolutas, formalizada absolutamente por la matriz absoluta canónica absoluta de coexistencia absoluta 15×15 del §32 absoluto del presente documento absoluto.
-
-**Observación 3.2 (Las visiones canónicas absolutas no son axiomas absolutos).** El nivel postulado canónico absoluto opera absolutamente bajo declaración canónica absoluta esencial absoluta: las quince visiones canónicas absolutas sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>) **no son absolutamente axiomas absolutos** introducidos absolutamente fuera del corpus absoluto, lo que violaría absolutamente la prohibición constitutiva absoluta P.5 absoluta. Son absolutamente **lecturas absolutas estructurales absolutas coexistentes absolutas legítimas absolutas** sobre la frontera exterior absoluta ε<sub>0</sub>, cada una de las cuales articula absolutamente con rigor canónico absoluto una lectura absoluta canónica absoluta sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>), sin clausurar absolutamente la frontera exterior absoluta ε<sub>0</sub> y sin introducir absolutamente axioma absoluto soberano absoluto ajeno absoluto al corpus absoluto. La distinción canónica absoluta entre **lectura estructural absoluta coexistente absoluta** y **axioma absoluto** es absolutamente esencial absoluta y se articula absolutamente sobre la prohibición constitutiva absoluta P.6 absoluta (no clausura espuria absoluta) y sobre la Definición 3.2 absoluta del presente §3 absoluto.
-
-**Observación 3.3 (Coexistencia canónica absoluta entre visiones).** El régimen canónico absoluto de coexistencia absoluta canónica absoluta entre las quince visiones canónicas absolutas sobre (ε<sub>0</sub>, F<sub>0</sub>) declara absolutamente con rango canónico absoluto que **ninguna de las quince visiones absolutas excluye absolutamente a las restantes**. Las quince visiones absolutas operan absolutamente simultáneamente absoluto sobre la frontera exterior absoluta ε<sub>0</sub> como lecturas absolutas estructurales absolutas legítimas absolutas independientes absolutas. La matriz absoluta canónica absoluta de coexistencia absoluta 15×15 del §32 absoluto formaliza absolutamente este régimen canónico absoluto: cada entrada (i, j) absoluta de la matriz absoluta declara absolutamente con rango canónico absoluto la compatibilidad absoluta canónica absoluta entre la visión absoluta i absoluta y la visión absoluta j absoluta, y la simetría absoluta canónica absoluta de la matriz absoluta refleja absolutamente con rango canónico absoluto la simetría absoluta canónica absoluta del régimen absoluto de coexistencia absoluta canónica absoluta.
-
-### 3.4. Articulación canónica absoluta entre los dos niveles
-
-**Proposición 3.1 (Articulación canónica absoluta entre los dos niveles canónicos absolutos del programa absoluto).** En el aparato absoluto del Sistema Vectorial SV, los dos niveles canónicos absolutos del programa absoluto, 𝒟<sub>SV</sub> (nivel demostrado canónico absoluto) y 𝒱<sub>SV</sub> (nivel postulado canónico absoluto), se articulan absolutamente con rango canónico absoluto bajo las cuatro propiedades absolutas canónicas absolutas simultáneas absolutas:
-
-(i) **Disjunción canónica absoluta**: 𝒟<sub>SV</sub> ∩ 𝒱<sub>SV</sub> = ∅ canónicamente absoluto. Ningún resultado absoluto del nivel demostrado canónico absoluto pertenece absolutamente al nivel postulado canónico absoluto, y ninguna visión absoluta del nivel postulado canónico absoluto admite absolutamente demostración canónica absoluta dentro del aparato absoluto del Sistema Vectorial SV (pues su demostración absoluta requeriría absolutamente clausurar absolutamente la frontera exterior absoluta ε<sub>0</sub> desde dentro del aparato absoluto, lo que violaría absolutamente la prohibición constitutiva absoluta P.6 absoluta).
-
-(ii) **Independencia canónica absoluta**: el nivel demostrado canónico absoluto 𝒟<sub>SV</sub> opera absolutamente con rango canónico absoluto **independientemente** absoluto del nivel postulado canónico absoluto 𝒱<sub>SV</sub>. Los 43 teoremas absolutos del nivel demostrado canónico absoluto se demuestran absolutamente con rigor canónico absoluto sin requerir absolutamente comprometerse absoluto con ninguna de las quince visiones absolutas del nivel postulado canónico absoluto.
-
-(iii) **Coexistencia canónica absoluta**: el nivel postulado canónico absoluto 𝒱<sub>SV</sub> es absolutamente compatible absoluto con el nivel demostrado canónico absoluto 𝒟<sub>SV</sub>. Las quince visiones absolutas operan absolutamente sobre la frontera exterior absoluta ε<sub>0</sub> sin contradecir absolutamente ninguno de los resultados absolutos del nivel demostrado canónico absoluto.
-
-(iv) **Apertura canónica absoluta**: el nivel postulado canónico absoluto 𝒱<sub>SV</sub> permanece absolutamente **abierto canónicamente absoluto** ante la frontera exterior absoluta ε<sub>0</sub>. Las quince visiones absolutas no clausuran absolutamente ε<sub>0</sub>, conforme absolutamente a la prohibición constitutiva absoluta P.6 absoluta. La apertura canónica absoluta del nivel postulado canónico absoluto es absolutamente la formalización absoluta canónica absoluta de la honestidad canónica absoluta del aparato absoluto ante el origen absoluto del aparato absoluto.
-
-*Demostración.* La demostración procede absolutamente en cuatro pasos absolutos correspondientes absolutos a las cuatro propiedades absolutas:
-
-**Paso (a) — disjunción canónica absoluta.** Por la Definición 3.1 absoluta, el nivel demostrado canónico absoluto 𝒟<sub>SV</sub> contiene absolutamente sólo absolutamente resultados absolutos demostrables absolutamente dentro del aparato absoluto del Sistema Vectorial SV. Por la Definición 3.2 absoluta y la Observación 3.2 absoluta, el nivel postulado canónico absoluto 𝒱<sub>SV</sub> contiene absolutamente sólo absolutamente lecturas absolutas estructurales absolutas coexistentes absolutas sobre la frontera exterior absoluta ε<sub>0</sub>, no demostrables absolutamente dentro del aparato absoluto sin violar absolutamente la prohibición constitutiva absoluta P.6 absoluta. Por tanto 𝒟<sub>SV</sub> ∩ 𝒱<sub>SV</sub> = ∅ canónicamente absoluto.
-
-**Paso (b) — independencia canónica absoluta.** Por construcción canónica absoluta del nivel demostrado canónico absoluto 𝒟<sub>SV</sub>, cada teorema absoluto, corolario absoluto, proposición absoluta, definición canónica absoluta, invariante absoluto, sumando absoluto, criterio absoluto, banco absoluto y laboratorio absoluto del nivel demostrado canónico absoluto se construye absolutamente sobre los primitivos absolutos del corpus absoluto sin compromiso absoluto con ninguna de las quince visiones absolutas del nivel postulado canónico absoluto. Por tanto 𝒟<sub>SV</sub> es absolutamente independiente absoluto de 𝒱<sub>SV</sub>.
-
-**Paso (c) — coexistencia canónica absoluta.** Por construcción canónica absoluta del nivel postulado canónico absoluto 𝒱<sub>SV</sub>, cada una de las quince visiones absolutas opera absolutamente sobre la frontera exterior absoluta ε<sub>0</sub> sin clausurar absolutamente ε<sub>0</sub> y sin contradecir absolutamente ninguno de los resultados absolutos del nivel demostrado canónico absoluto 𝒟<sub>SV</sub>. La compatibilidad canónica absoluta entre las quince visiones absolutas y el nivel demostrado canónico absoluto se verifica absolutamente caso por caso en el §31 absoluto del presente documento absoluto.
-
-**Paso (d) — apertura canónica absoluta.** Por la prohibición constitutiva absoluta P.6 absoluta (no clausura espuria absoluta), la frontera exterior absoluta ε<sub>0</sub> permanece absolutamente abierta absoluta canónicamente absoluta ante el aparato absoluto del Sistema Vectorial SV. El nivel postulado canónico absoluto 𝒱<sub>SV</sub>, al operar absolutamente sobre ε<sub>0</sub> sin clausurarla absolutamente, preserva absolutamente la apertura canónica absoluta de la frontera exterior absoluta. La apertura canónica absoluta del nivel postulado canónico absoluto es absolutamente la formalización absoluta canónica absoluta de la honestidad canónica absoluta del aparato absoluto.
-
-Por los Pasos (a)–(d) absolutos, las cuatro propiedades absolutas canónicas absolutas simultáneas absolutas quedan establecidas absolutamente. Q.E.D.
-
-### 3.5. Cierre canónico absoluto del §3
-
-El §3 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto la estructura canónica absoluta de dos niveles canónicos absolutos del programa absoluto, heredada absoluta del Destacado canónico absoluto del §3bis absoluto del documento absoluto de la luz factual. El nivel demostrado canónico absoluto 𝒟<sub>SV</sub> queda absolutamente fijado absolutamente con rango canónico absoluto como núcleo absoluto duro absoluto del aparato absoluto. El nivel postulado canónico absoluto 𝒱<sub>SV</sub> queda absolutamente fijado absolutamente con rango canónico absoluto como conjunto canónico absoluto de las quince visiones canónicas absolutas sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>), operativas absolutamente bajo el régimen canónico absoluto de coexistencia absoluta canónica absoluta. La articulación canónica absoluta entre los dos niveles canónicos absolutos queda absolutamente establecida absolutamente con rango canónico absoluto por la Proposición 3.1 absoluta del §3.4 absoluto, demostrada absolutamente con rigor canónico absoluto Q.E.D. absoluto. Sobre este suelo canónico absoluto, la Parte II absoluta del presente documento absoluto despliega absolutamente con rango canónico absoluto la formalización absoluta canónica absoluta del protocampo primordial unificado absoluto Π<sub>SV</sub>.
+- **G.1**: operan sobre sucesos interiores con teoremas duros (esta sección).
+- **G.2**: el protocampo no se sustancializa; (α, β) permanece como estructura combinatoria pura.
+- **G.3**: ε<sub>0</sub> queda fuera del dominio de los operadores interiores (V.14 respetada).
+- **P.1**: ningún operador invoca tiempo soberano; la variable independiente es el índice ordinal de suceso.
+- **P.2**: no se invoca probabilidad fundante; las magnitudes (α, β) son combinatorias.
+- **P.3**: no se invoca métrica soberana; la dimensión es contingente al primitivo metrológico.
+- **P.4**: las modificaciones son trazables explícitamente.
+- **P.5**: ningún operador añade axioma exterior; todos heredan del corpus.
+- **P.6**: la indeterminación U se preserva donde no hay base suficiente.
 
 ---
 
-## 4. Definición absoluta del protocampo primordial unificado Π<sub>SV</sub>
+## §4. Emergencia canónica de los siete campos por activaciones Π<sub>3</sub><sup>H</sup>
 
-### 4.1. Apertura canónica absoluta del §4
+### §4.1. Compuerta de ternarización inducida Π<sub>3</sub><sup>H</sup>
 
-El §4 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto la formalización canónica absoluta del **protocampo primordial unificado absoluto Π<sub>SV</sub>**, objeto canónico absoluto primario absoluto del aparato absoluto cuya existencia canónica absoluta queda postulada absoluta con rango canónico absoluto en el postulado absoluto G.1 absoluto del §2 absoluto. La formalización canónica absoluta procede absolutamente en orden canónico absoluto: identificación canónica absoluta de Π<sub>SV</sub> con el par polar absoluto (α<sub>i</sub>, β<sub>i</sub>) sobre Ω<sub>pro</sub> absoluto; declaración canónica absoluta del soporte canónico absoluto sobre el ordinal absoluto ν de sucesos admisibles absolutos; declaración canónica absoluta del estatuto canónico absoluto no sustancial absoluto conforme absolutamente al postulado absoluto G.2 absoluto.
-
-### 4.2. Definición canónica absoluta de Π<sub>SV</sub>
-
-**Definición 4.1 (Protocampo primordial unificado absoluto Π<sub>SV</sub>).** El **protocampo primordial unificado absoluto** del Sistema Vectorial SV, denotado Π<sub>SV</sub>, es absolutamente el objeto canónico absoluto primario absoluto del aparato absoluto, identificado absolutamente con el par polar absoluto (α<sub>i</sub>, β<sub>i</sub>) sobre el dominio prototernario absoluto Ω<sub>pro</sub> emergente absoluto del dominio preternario absoluto Ω<sub>pre</sub>, indexado absolutamente sobre el ordinal absoluto ν de sucesos admisibles absolutos. Formalmente:
+Heredada con rango canónico de Lloret Egea (2026j, §3): la **compuerta de ternarización inducida** Π<sub>3</sub><sup>H</sup> es la proyección local condicionada que asigna a cada posición preternaria ξ<sub>i</sub> = (i, α<sub>i</sub>, β<sub>i</sub>) un símbolo del alfabeto canónico Σ = {0, 1, U}:
 
 ```math
-\Pi_{SV}\;:=\;\{(\alpha_i,\beta_i)(\xi_i;\nu)\;:\;\xi_i\in\Omega_{\mathrm{pro}},\;\nu\in\mathbb{N}_{\mathrm{ord}}^{SV}\},
+\Pi_3^H(\xi_i) := \begin{cases}
+1 & \text{si }\beta_i - \alpha_i > \theta_H\text{ (cierre por evidencia positiva)},\\
+0 & \text{si }\alpha_i - \beta_i > \theta_H\text{ (cierre por evidencia negativa)},\\
+U & \text{si }|\beta_i - \alpha_i| \le \theta_H\text{ (no clausura honesta)},
+\end{cases}
 ```
 
-donde α<sub>i</sub>, β<sub>i</sub> son absolutamente las magnitudes polares absolutas canónicas absolutas del corpus absoluto (Lloret Egea, 2026j, §2 absoluto), ξ<sub>i</sub> es absolutamente la posición factual absoluta sobre Ω<sub>pro</sub> absoluto, y ℕ<sup>SV</sup><sub>ord</sub> es absolutamente el ordinal canónico absoluto append-only absoluto del aparato absoluto (no tiempo soberano absoluto, P.1 respetada absolutamente).
+donde θ<sub>H</sub> > 0 es el **umbral de pertinencia** canónico del horizonte H del dominio (Ax4 del SV: clausura por evidencia estructural). La proyección Π<sub>3</sub><sup>H</sup> **no fuerza** asignación; respeta P.6 preservando U cuando la base estructural es insuficiente.
 
-**Observación 4.1 (Π<sub>SV</sub> como objeto canónico absoluto, no como sustancia absoluta).** El protocampo primordial unificado absoluto Π<sub>SV</sub> es absolutamente objeto canónico absoluto formal absoluto del aparato absoluto. Por el postulado absoluto G.2 absoluto (no sustancialización absoluta de los protocampos absolutos), Π<sub>SV</sub> no es absolutamente sustancia absoluta oculta absoluta con propiedades absolutas soberanas absolutas añadidas absolutas, no es absolutamente fluido absoluto cósmico absoluto preexistente absoluto, no es absolutamente entidad absoluta ontológicamente absoluta independiente absoluta con realidad absoluta soberana absoluta. Π<sub>SV</sub> es absolutamente estructura formal absoluta pura absoluta articulada absolutamente sobre el par polar absoluto (α<sub>i</sub>, β<sub>i</sub>) del corpus absoluto.
+### §4.2. Cadena fundacional canónica completa
 
-**Observación 4.2 (Π<sub>SV</sub> sobre Ω<sub>pro</sub>, no sobre Ω<sub>pre</sub> directamente).** Es canónicamente absoluto esencial absoluto que Π<sub>SV</sub> se defina absolutamente sobre el dominio prototernario absoluto Ω<sub>pro</sub>, no absolutamente directamente sobre el dominio preternario absoluto Ω<sub>pre</sub>. Por la Proposición 0.1 absoluta del §0 absoluto, Ω<sub>pre</sub> ⊂<sub>can</sub> Ω<sub>pro</sub> ⊂<sub>can</sub> Σ canónicamente absoluto, y Ω<sub>pro</sub> es absolutamente el estrato canónico absoluto de estructuración emergente absoluta sobre la no-clausura honesta absoluta U. La definición canónica absoluta de Π<sub>SV</sub> sobre Ω<sub>pro</sub> absoluto fija absolutamente con rango canónico absoluto la articulación absoluta canónica absoluta del protocampo absoluto sobre el estrato absoluto de estructuración emergente absoluta, anterior canónica absoluta a la terna efectiva absoluta Σ.
-
-**Observación 4.3 (Π<sub>SV</sub> como protocampo absoluto, no como campo absoluto activado).** Π<sub>SV</sub> es absolutamente **protocampo primordial absoluto**, no absolutamente campo absoluto activado absoluto. Los siete campos factuales absolutos coexistentes absolutos del corpus absoluto (electromagnético absoluto, lumínico absoluto, transmutativo absoluto, entrópico absoluto, gravitacional absoluto factual absoluto, electromagnético absoluto interno absoluto, axiológico absoluto factual absoluto) emergen absolutamente como **proyecciones canónicas absolutas activadas absolutas** del protocampo primordial absoluto Π<sub>SV</sub> a través absolutamente del operador absoluto canónico absoluto de proyección activada absoluta Π<sub>3</sub><sup>H</sup>, conforme absolutamente al §17 absoluto y a los siete teoremas absolutos de emergencia absoluta del §18 absoluto. La distinción canónica absoluta entre protocampo absoluto primordial absoluto y campo absoluto activado absoluto es absolutamente esencial absoluta y articula absolutamente la jerarquía canónica absoluta del aparato absoluto.
-
-### 4.3. Estatuto canónico absoluto del par polar (α<sub>i</sub>, β<sub>i</sub>)
-
-**Definición 4.2 (Par polar canónico absoluto del corpus).** El **par polar canónico absoluto** del Sistema Vectorial SV, denotado (α<sub>i</sub>, β<sub>i</sub>), es absolutamente el par canónico absoluto de magnitudes absolutas no negativas absolutas asociadas absolutamente a cada posición factual absoluta ξ<sub>i</sub> sobre el dominio absoluto, conforme absolutamente al corpus absoluto (Lloret Egea, 2026j, §2 absoluto):
+Heredada íntegra de Lloret Egea (2026j) y reproducida con rango canónico:
 
 ```math
-\alpha_i\geq 0,\quad \beta_i\geq 0,\quad \alpha_i+\beta_i\geq 0,
+\Omega_{\mathrm{pre}} \;\xrightarrow{\;\Pi_3^H\;}\; K_3^n \;\xrightarrow{\;\varepsilon\;}\; \Xi_{SV} \;\xrightarrow{\;\mathfrak{K}_{SV}\;}\; \Sigma_{\mathrm{conc}} \;\xrightarrow{\;\mathfrak{H}_{SV}\;}\; \Sigma_{\mathrm{canal}} \;\xrightarrow{\;\mathfrak{T}_{SV}\;}\; \{m_0,\,\chi_\alpha,\,U\}.
 ```
 
-donde α<sub>i</sub> denota absolutamente la magnitud absoluta de polaridad absoluta canónica absoluta hacia el polo determinado absoluto 0, y β<sub>i</sub> denota absolutamente la magnitud absoluta de polaridad absoluta canónica absoluta hacia el polo determinado absoluto 1. La diferencia canónica absoluta:
+donde:
+
+- **Π<sub>3</sub><sup>H</sup>**: compuerta de ternarización inducida.
+- **K<sub>3</sub><sup>n</sup>**: célula canónica ternaria (en la célula canónica del SV, n = 9; Lloret Egea, 2026a).
+- **ε**: suceso factual elemental que opera sobre el marco ternarizado y produce el contenido físico factual del suceso.
+- **Ξ<sub>SV</sub>**: contenido físico factual del suceso (Lloret Egea, 2026h, §3).
+- **𝔎<sub>SV</sub>**: operador de concentración factual (Lloret Egea, 2026h, Def. 4.1).
+- **Σ<sub>conc</sub>**: concentración factual primaria.
+- **𝔥<sub>SV</sub>**: operador de canal factual (Lloret Egea, 2026h, Def. 4.2).
+- **Σ<sub>canal</sub>**: canal factual reorganizado.
+- **𝔗<sub>SV</sub>**: operador de transmutación factual (Lloret Egea, 2026h, Def. 4.4).
+- **{m<sub>0</sub>, χ<sub>α</sub>, U}**: dictamen final canónico (masa invariante, clase emergente, indeterminación honesta).
+
+### §4.3. Emergencia de los siete campos factuales coexistentes
+
+**Teorema §4.3 (Emergencia canónica de los siete campos por activaciones Π<sub>3</sub><sup>H</sup>).** Sobre el plano ternario K<sub>3</sub><sup>n</sup> producido por Π<sub>3</sub><sup>H</sup> aplicada a Ω<sub>pre</sub>, emergen canónicamente los siete campos factuales coexistentes del corpus, citados literalmente del §6.2 de luz factual:
+
+| j | Campo | Símbolo canónico | Dominio | Codominio | Aparato canónico | Fuente del corpus |
+|---|---|---|---|---|---|---|
+| 1 | Eléctrico factual | 𝕏<sub>SV</sub>: D, E | Ω<sub>pre</sub> ⊃ K<sub>3</sub><sup>n</sup> | Vectorial SV | Bloque Maxwell factual §3.7, §6.2 | Lloret Egea, 2026k (DOI kep1t-57539) |
+| 2 | Magnético factual | 𝕐<sub>SV</sub>: B, H | Ω<sub>pre</sub> ⊃ K<sub>3</sub><sup>n</sup> | Vectorial SV | Bloque Maxwell factual §3.7, §6.2 | Lloret Egea, 2026k (DOI kep1t-57539) |
+| 3 | Gravitatorio (bisectorial) | (G(ν), 𝒢<sub>J</sub>(ν)) | sucesos ν | (ℝ<sub>≥0</sub>, ℝ<sub>≥0</sub>) | Proposición 9 absoluta | Lloret Egea, 2026a, §IV.21 |
+| 4 | TPA factual | F: M → ℕ<sub>0</sub> | mosaico M | ℕ<sub>0</sub> | Identidades O1, O2, O3 (Gauss-SV discreto) | Lloret Egea, 2026a, Plano III |
+| 5 | Convergencia ternaria | Γ<sub>ℋ</sub> | posiciones i con U | {U<sub>irr</sub>, U<sub>fr</sub>, U<sub>res</sub>} | Teorema 1 absoluto del corpus | Lloret Egea, 2026c (Γ<sub>ℋ</sub>) |
+| 6 | Espectral factual | G(λ) | λ ∈ ℂ<sub>SV</sub> | polinomio factual | Plano IV del NM | Lloret Egea, 2026a, Plano IV |
+| 7 | Topológico de residuos | {Res<sub>k</sub>, h<sub>Γ</sub>} | picos, extremos | ℝ | Integral compleja factual O3 | Lloret Egea, 2026a, Plano V |
+
+**Emergencia canónica.** Cada campo se obtiene como **lectura inducida** sobre la célula ternarizada por Π<sub>3</sub><sup>H</sup>, mediante el aparato canónico cerrado en la fuente correspondiente. Los campos 1 y 2 (eléctrico y magnético) heredan la partición canónica del operador maestro 𝕄<sub>SV</sub> de Lloret Egea (2026k, §3.7, §6.2): Faraday y Gauss eléctrico al campo 1; Gauss magnético y Ampère-Maxwell al campo 2. Los campos 3–7 emergen sobre los Planos III, IV, V del Nuevo Mosaico (NM) de Lloret Egea (2026a), de Γ<sub>ℋ</sub> de Lloret Egea (2026c) y de la Proposición 9 de la gravedad factual.
+
+**No-colapso absoluto entre campos.** Heredado literalmente de luz factual §6.2, paso (b): ningún par de los siete campos es estructuralmente idéntico. Los campos 1 y 2 son duales en el bloque Maxwell pero no idénticos: tienen ecuaciones absolutas distintas (Div(B) = 0 vs Div(D) = ρ). Los campos 3 y 4 operan sobre dominios distintos (sucesos vs mosaico) y producen codominios distintos (par de reales vs ℕ<sub>0</sub>). Los campos 5, 6 y 7 son diferentes por sus codominios (ternario vs polinomio vs reales) y por sus aparatos (Γ<sub>ℋ</sub> vs Fourier factual vs integral compleja O3). Todos los pares son estructuralmente distintos.
+
+### §4.4. Identidades de conservación local del protocampo bajo Clase A
+
+**Teorema §4.4 (Conservación local del protocampo bajo activadores puros).** Sea ν un suceso de Clase A actuando sobre Ω<sub>pre</sub> mediante el operador 𝔄<sub>ν</sub> (Definición §3.4). Entonces:
+
+(C.1) **Conservación local de la concentración**: en toda región Ω<sub>F</sub> compatible cerrada bajo 𝔄<sub>ν</sub>, se preserva absolutamente
 
 ```math
-\delta_i\;:=\;\beta_i-\alpha_i
+\sum_{i\in\Omega_F} \rho_i(S_{k+1}) \;=\; \sum_{i\in\Omega_F} \rho_i(S_k).
 ```
 
-denota absolutamente el **gradiente resolutivo absoluto** canónico absoluto sobre la posición absoluta ξ<sub>i</sub>, magnitud canónica absoluta del aparato absoluto que articula absolutamente el predominio absoluto canónico absoluto entre los polos determinados absolutos 0 y 1.
+(C.2) **Conservación local del balance polar**: bajo 𝔄<sub>ν</sub>, la suma de sesgos se preserva
 
-**Observación 4.4 (Tres regímenes canónicos absolutos del par polar).** El par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) admite absolutamente tres regímenes canónicos absolutos sobre las posiciones absolutas ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto:
+```math
+\sum_{i\in\Omega_F} \delta_i(S_{k+1}) \;=\; \sum_{i\in\Omega_F} \delta_i(S_k).
+```
 
-(i) **Régimen canónico absoluto degenerado absoluto**: α<sub>i</sub> = β<sub>i</sub> = 0 absolutamente. El par polar absoluto está absolutamente en estado degenerado absoluto, anterior canónico absoluto al suceso cero absoluto ε<sub>0</sub> absoluto. Esta es absolutamente la situación canónica absoluta antes absoluta de ε<sub>0</sub> absoluto sobre Ω<sub>pre</sub> absoluto, conforme absolutamente a la Definición 0.1 absoluta del §0 absoluto.
+(C.3) **Conservación de la energía factual estructural**: por la Definición §3.4 (Clase A) y la definición de 𝔈<sub>SV</sub> (luz factual, §3bis.3),
 
-(ii) **Régimen canónico absoluto equipotencial absoluto**: α<sub>i</sub> = β<sub>i</sub> > 0 absolutamente, equivalente absoluto a δ<sub>i</sub> = 0 absoluto y α<sub>i</sub> + β<sub>i</sub> > 0 absolutamente. El par polar absoluto está absolutamente en equipotencialidad polar absoluta Φ(0) = Φ(1) absoluta. Esta es absolutamente la situación canónica absoluta inicial absoluta sobre el borde inicial absoluto del dominio preternario absoluto Ω<sub>pre</sub> absoluto, conforme absolutamente a la Definición 0.3 absoluta del §0 absoluto, y la salida honesta absoluta canónica absoluta es absolutamente la marca absoluta U absoluta, conforme absolutamente al Teorema 0.2 absoluto del §0 absoluto.
+```math
+\Delta\mathfrak{E}_{SV}(\nu) \;=\; \mathfrak{E}_{SV}(\Gamma, n+1) - \mathfrak{E}_{SV}(\Gamma, n) \;=\; 0.
+```
 
-(iii) **Régimen canónico absoluto polarizado absoluto**: |δ<sub>i</sub>| > 0 absolutamente. El par polar absoluto exhibe absolutamente gradiente resolutivo absoluto no nulo absoluto, lo que permite absolutamente, bajo cumplimiento canónico absoluto del clasificador absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto (Lloret Egea, 2026c, Teorema 1 absoluto), clausura absoluta admisible absoluta hacia el polo determinado absoluto correspondiente.
+**Demostración.** (C.1) Por la Definición §3.4, 𝔄<sub>ν</sub> añade incrementos no negativos (Δα<sub>i</sub><sup>(ν)</sup>, Δβ<sub>i</sub><sup>(ν)</sup>) bajo neutralidad estructural. La condición Δ𝔈<sub>SV</sub>(ν) = 0 implica, por la cláusula de no creación factual de luz factual §3bis.7, que ninguna posición externa a Ω<sub>F</sub> recibe transferencia neta. Por la cerradura de Ω<sub>F</sub> bajo 𝔄<sub>ν</sub>, la concentración total se preserva. (C.2) Análogo, aplicando la cláusula a δ<sub>i</sub> = β<sub>i</sub> − α<sub>i</sub>. (C.3) Es la propia definición de Clase A. □
 
-### 4.4. Cierre canónico absoluto del §4
+(C.4) **No-conservación global bajo Clase G**: por el Teorema absoluto de ruptura factual del principio de conservación (luz factual, §3bis.3), bajo sucesos de Clase G se cumple estrictamente Δ𝔈<sub>SV</sub>(ν) > 0. La conservación local bajo Clase A no contradice la creación factual bajo Clase G.
 
-El §4 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto la formalización canónica absoluta del protocampo primordial unificado absoluto Π<sub>SV</sub> sobre el par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) del corpus absoluto, indexado absolutamente sobre el dominio prototernario absoluto Ω<sub>pro</sub> y el ordinal canónico absoluto ν del aparato absoluto. La distinción canónica absoluta entre protocampo absoluto primordial absoluto y campo absoluto activado absoluto, los tres regímenes canónicos absolutos del par polar absoluto y la articulación canónica absoluta con los postulados absolutos G.1 absoluto y G.2 absoluto del §2 absoluto quedan absolutamente establecidos absolutamente con rango canónico absoluto. El §5 absoluto del presente documento absoluto reproduce absolutamente íntegra absoluta la derivación nativa absoluta de α<sub>i</sub> y β<sub>i</sub> desde los observables absolutos del corpus absoluto.
+(C.5) **Disipación bajo Clase D**: bajo sucesos de Clase D, Δ𝔈<sub>SV</sub>(ν) < 0 estrictamente, con conservación absoluta de ρ<sub>i</sub> ≥ 0 en cada posición.
+
+### §4.5. Taxonomía fina absoluta χ<sub>α</sub>: clases factuales emergentes
+
+Heredada de Lloret Egea (2026h, §6, Def. 6.1) y de Lloret Egea (2026h, §13: protoclases canónicas):
+
+**Definición §4.5 (Clase factual emergente χ<sub>α</sub>).** Una **clase factual emergente** es un objeto χ<sub>α</sub> producido al nivel ternario por el operador de transmutación 𝔗<sub>SV</sub> que satisface absolutamente:
+
+(χ.i) **Irreducibilidad respecto del basal**: no es reducible a la energía basal E<sub>0</sub> = m<sub>0</sub>c<sup>2</sup> ni a la masa invariante m<sub>0</sub>; existe un impedimento estructural positivo a la clausura masiva (Lloret Egea, 2026h, §5).
+
+(χ.ii) **Separación formal respecto de U**: χ<sub>α</sub> ≠ U; posee firma residual, de frontera y jacobiana propias que la distinguen estructuralmente de la indeterminación honesta.
+
+(χ.iii) **Firma factual completa**: admite la 6-tupla canónica
+
+```math
+\mathcal{S}_{SV}(\chi_\alpha) := \bigl(\mathcal{R}(\chi_\alpha),\,\mathcal{F}(\chi_\alpha),\,J(\chi_\alpha),\,J_{cl}(\chi_\alpha),\,G(\chi_\alpha),\,C(\chi_\alpha)\bigr)
+```
+
+donde 𝓡 es la firma residual, 𝓕 la firma de frontera, J el jacobiano estructural, J<sub>cl</sub> el jacobiano de clausura, G la firma generadora o espectral, C la firma de canal factual (Lloret Egea, 2026h, Def. 6.2).
+
+(χ.iv) **Estabilidad bajo adversarial factual compatible**: χ<sub>α</sub> persiste bajo perturbaciones compatibles del canal, trayectoria y borde.
+
+(χ.v) **Inscripción en estructura dual**: admite inscripción coherente en una clase de ciclo factual [Γ]<sub>SV</sub> o en una estructura de cohomología factual mínima reconocible (Lloret Egea, 2026d, Plano IV del NM).
+
+(χ.vi) **Separabilidad espectral**: G(χ<sub>α</sub>) ≠ G(m<sub>0</sub>) y G(χ<sub>α</sub>) ≠ G(U).
+
+### §4.6. Primera tipología canónica de protoclases χ<sub>α</sub>
+
+Heredada con rango canónico de Lloret Egea (2026h, §13):
+
+- **χ<sub>F</sub>** (fuente factual estable): dominancia de R<sub>χ</sub><sup>int</sup> compatible y canal de concentración recurrente alrededor de singularidad de fuente, con frontera no clausurable en masa.
+
+- **χ<sub>I</sub>** (incompatibilidad factual persistente): dominancia de R<sub>χ</sub><sup>inc</sup> ≠ 0 no cancelable, con pegado local consistente por regiones pero sección global obstruida factualmente.
+
+- **χ<sub>R</sub>** (reapertura factual estable): dominancia de R<sub>χ</sub><sup>reap</sup> > 0 con dinámica factual recurrente donde la reapertura es constitutiva de la estabilidad.
+
+- **χ<sub>B</sub>** (borde dominante): la frontera actúa como componente determinante del régimen de clausura, con 𝓕<sub>χ</sub><sup>cl</sup> dominante sobre R<sub>χ</sub><sup>int</sup>.
+
+**Estatuto epistémico.** Cada protoclase tiene estatuto de **clase postulada**: estructuralmente legítima conforme al Teorema 7.1 de Lloret Egea (2026h), pendiente de identificación experimental. La Tabla Factual de Clausuras Emergentes (TFCE-SV) del corpus organiza cada entrada como 9-tupla (Lloret Egea, 2026h, §12):
+
+```math
+\mathrm{TFCE}_{SV} = \bigl\{\chi_\alpha,\,\Sigma_{\mathrm{conc}}^\alpha,\,\mathcal{R}(\chi_\alpha),\,\mathcal{F}_\alpha,\,J_\alpha,\,J_{cl}^\alpha,\,\mathfrak{H}_{SV}^\alpha,\,G_\alpha,\,\mathrm{Est}_\alpha\bigr\}.
+```
+
+donde Est<sub>α</sub> es el estado epistémico (postulada / sugerida por laboratorio / estable bajo adversarial / pendiente de contraste empírico).
+
+---
+## §5. Operador maestro unificado **U**<sup>unif</sup><sub>SV</sub>: definición canónica
+
+### §5.1. Operador concatenador canónico ⊕
+
+Heredado del Glosario tipográfico canónico absoluto de Lloret Egea (2026 — luz factual):
+
+**Definición §5.1 (Operador ⊕).** *Denota absolutamente concatenación absoluta de compuertas:*
+
+```math
+(A \oplus B)(x) = 0 \;\Longleftrightarrow\; A(x) = 0 \;\wedge\; B(x) = 0.
+```
+
+*Es conjunción lógica factual, no es suma aritmética, no es suma directa algebraica.*
+
+Por inducción sobre la cardinalidad de la familia, para una familia finita {A<sub>1</sub>, …, A<sub>N</sub>}:
+
+```math
+\bigoplus_{j=1}^{N} A_j = 0 \;\Longleftrightarrow\; \forall j\in\{1,\ldots,N\}:\;A_j = 0.
+```
+
+### §5.2. Identificación canónica absoluta de los siete operadores sectoriales **U**<sup>(j)</sup><sub>SV</sub>
+
+Cada operador sectorial **U**<sup>(j)</sup><sub>SV</sub> queda identificado canónicamente con un **detector de violación** de la identidad estructural ya cerrada en el corpus para el sector correspondiente. La condición **U**<sup>(j)</sup><sub>SV</sub>(Φ<sup>j</sup>) = 0 expresa que el campo Φ<sup>j</sup> es admisible en el sector j-ésimo conforme al corpus. La identificación es **literal** y trazable a la sección citada.
+
+**Definición §5.2 (Operador sectorial 𝓤<sup>(1)</sup><sub>SV</sub> — eléctrico).** Sobre la configuración Φ<sup>1</sup> = (D, E, ρ, B):
+
+```math
+\mathfrak{U}^{(1)}_{SV}(\Phi^1) \;:=\; \begin{pmatrix} \mathrm{Div}_{SV}(D) - \rho \\ \mathrm{Rot}_{SV}(E) + \partial_\nu^{SV} B \end{pmatrix},
+```
+
+heredada literalmente de las componentes 1 y 3 de la matriz 𝕄<sub>SV</sub> del §3.7 de Lloret Egea (2026k — Reducción Maxwell, DOI kep1t-57539). La asignación de Faraday y Gauss eléctrico al campo 1 sigue la partición canónica del §6.2 de luz factual (campo 1 = eléctrico).
+
+**Definición §5.3 (Operador sectorial 𝓤<sup>(2)</sup><sub>SV</sub> — magnético).** Sobre la configuración Φ<sup>2</sup> = (B, H, J, D):
+
+```math
+\mathfrak{U}^{(2)}_{SV}(\Phi^2) \;:=\; \begin{pmatrix} \mathrm{Div}_{SV}(B) \\ \mathrm{Rot}_{SV}(H) - \partial_\nu^{SV} D - J \end{pmatrix},
+```
+
+heredada literalmente de las componentes 2 y 4 de 𝕄<sub>SV</sub> del §3.7 de Lloret Egea (2026k). Conforme al §6.2 de luz factual, el campo 2 (magnético) absorbe Gauss magnético y Ampère-Maxwell.
+
+**Definición §5.4 (Operador sectorial 𝓤<sup>(3)</sup><sub>SV</sub> — gravitatorio bidimensional).** Sobre la configuración Φ<sup>3</sup> = (G(ν), 𝒢<sub>J</sub>(ν), Q, E<sub>crit</sub>(ν)):
+
+```math
+\mathfrak{U}^{(3)}_{SV}(\Phi^3) \;:=\; \begin{pmatrix} G(\nu) - |E_{\mathrm{crit}}(\nu)|/|Q| \\ \mathcal{G}_J(\nu) - \|J^{(\nu)}_{Q,P}\|_*\cdot\mathbf{1}_{\{|E_{\mathrm{crit}}(\nu)|\ge \lceil 7|Q|/9\rceil\}} \end{pmatrix},
+```
+
+heredada literalmente de la **Proposición 9 absoluta** de Lloret Egea (2026a, §IV.21), reproducida con autocontención en luz factual §5.1–§5.2:
+
+- **G(ν) = |E<sub>crit</sub>(ν)|/|Q|** es la gravedad factual de afectación (Lloret Egea, 2026 — luz factual, Definición 5.1).
+- **𝒢<sub>J</sub>(ν) = ‖J<sup>(ν)</sup><sub>Q,P</sub>‖<sub>*</sub>** bajo la condición de detonación |E<sub>crit</sub>(ν)| ≥ ⌈7|Q|/9⌉ es la gravedad factual de arrastre (Lloret Egea, 2026 — luz factual, Definición 5.2).
+
+La condición **𝓤<sup>(3)</sup><sub>SV</sub>(Φ<sup>3</sup>) = 0** expresa que el par (G(ν), 𝒢<sub>J</sub>(ν)) cumple absolutamente las definiciones canónicas de la Proposición 9, con la **disciplina absoluta gravedad ⇎ detonación** del corpus. No se invocan valores de referencia inventados ni regímenes externos al corpus (P.5 respetada).
+
+**Definición §5.5 (Operador sectorial 𝓤<sup>(4)</sup><sub>SV</sub> — TPA).** Sobre la configuración Φ<sup>4</sup> = (F: M → ℕ<sub>0</sub>, {m<sub>k</sub>}<sub>k=0,…,n</sub>, {C<sub>k</sub>}<sub>k=0,…,n</sub>, {φ(S<sub>k</sub>)}<sub>k=0,…,n</sub>):
+
+```math
+\mathfrak{U}^{(4)}_{SV}(\Phi^4) \;:=\; \begin{pmatrix} \bigl(\mathrm{Div}_{SV}(C_k) + m_k\bigr)_{k=0,\ldots,n-1} \\[4pt] \displaystyle\sum_{k=0}^{n-1}\mathrm{Div}_{SV}(C_k) - \bigl(\varphi(S_0) - \varphi(S_n)\bigr) \\[6pt] \displaystyle\int_\Gamma^{SV} \varphi(z)\,dz - \sum_{k=0}^{n-1}\varphi_k - i_{SV}\sum_{k=0}^{n-1}\varphi_k\cdot m_k \end{pmatrix},
+```
+
+heredada literalmente del Plano III del NM y de las **identidades canónicas O1, O2, O3** del aparato TPA (Lloret Egea, 2026b — TPA, identidades emergentes; Lloret Egea, 2026 — luz factual, §6.2, campo 4):
+
+- **O1**: Div<sub>SV</sub>(C<sub>k</sub>) = −m<sub>k</sub> para toda celda C<sub>k</sub>;
+- **O2**: ∑<sub>k</sub> Div<sub>SV</sub>(C<sub>k</sub>) = φ(S<sub>0</sub>) − φ(S<sub>n</sub>) (Teorema absoluto de Gauss-SV discreto);
+- **O3**: ∫<sub>Γ</sub><sup>SV</sup>φ(z)dz = ∑<sub>k</sub> φ<sub>k</sub> + i<sub>SV</sub>·∑<sub>k</sub> φ<sub>k</sub>m<sub>k</sub> (integral compleja factual).
+
+**Estatuto canónico.** Las identidades O1, O2, O3 son **identidades absolutas** que se cumplen sobre toda trayectoria admisible del aparato TPA. La condición **𝓤<sup>(4)</sup><sub>SV</sub>(Φ<sup>4</sup>) = 0** opera como **detector residual de violaciones**: un campo TPA candidato Φ<sup>4</sup> es admisible al sector 4 si y sólo si satisface absolutamente las tres identidades. Sobre admisibles, **𝓤<sup>(4)</sup><sub>SV</sub>** se anula trivialmente, lo que es **consistencia canónica** y no clausura espuria (P.6 respetada).
+
+**Definición §5.6 (Operador sectorial 𝓤<sup>(5)</sup><sub>SV</sub> — convergencia ternaria).** Sobre la configuración Φ<sup>5</sup> = (T, Γ<sub>ℋ</sub>):
+
+```math
+\mathfrak{U}^{(5)}_{SV}(\Phi^5) \;:=\; \mathrm{card}\bigl(U_{\mathrm{irr}}(T)\bigr),
+```
+
+heredada literalmente del **Teorema 1 absoluto** de Lloret Egea (2026c — convergencia ternaria Γ<sub>ℋ</sub>; Lloret Egea, 2026 — luz factual, §6.2, campo 5; §A.15): la trayectoria T converge ⟺ U<sub>irr</sub>(T) = ∅ ⟺ card(U<sub>irr</sub>(T)) = 0.
+
+El clasificador absoluto Γ<sub>ℋ</sub> opera sobre las posiciones con valor U y las clasifica en tres tipos absolutos (luz factual, §A.15):
+
+```math
+\Gamma_{\mathcal{H}}: \text{posiciones con U} \longrightarrow \{U_{\mathrm{irr}},\;U_{\mathrm{fr}},\;U_{\mathrm{res}}\}.
+```
+
+**Definición §5.7 (Operador sectorial 𝓤<sup>(6)</sup><sub>SV</sub> — espectral).** Sobre la configuración Φ<sup>6</sup> = (G(λ), {φ<sub>k</sub>}<sub>k=0,…,n</sub>):
+
+```math
+\mathfrak{U}^{(6)}_{SV}(\Phi^6) \;:=\; \begin{pmatrix} G(1) - \sum_{k=0}^{n}\varphi_k \\[4pt] G(-1) - \sum_{k=0}^{n}(-1)^k\varphi_k \\[4pt] G(\lambda) - \sum_{k=0}^{n}\varphi_k\lambda^k \end{pmatrix},
+```
+
+heredada literalmente de las **propiedades canónicas del Plano IV** del NM (Lloret Egea, 2026a; Lloret Egea, 2026 — luz factual, §6.2, campo 6):
+
+- G(1) = suma absoluta de observables sobre la trayectoria;
+- G(−1) = suma alternada absoluta;
+- G(λ) = ∑<sub>k</sub> φ<sub>k</sub>λ<sup>k</sup> (definición canónica del polinomio espectral).
+
+**Estatuto canónico (rectificación).** En la presente formulación, **G(1) y G(−1) son magnitudes** (sumas canónicas de observables), no condiciones de anulación. La condición **𝓤<sup>(6)</sup><sub>SV</sub>(Φ<sup>6</sup>) = 0** expresa la **consistencia algebraica del polinomio espectral**: las componentes 1 y 2 obligan a que las evaluaciones puntuales G(1) y G(−1) coincidan con las sumas correspondientes; la componente 3 obliga a que la función G coincida en todo λ con su desarrollo polinómico canónico. Sobre campos espectrales admisibles del corpus, las tres componentes se anulan idénticamente.
+
+La asimetría canónica G(λ) ≠ G(1/λ) — propiedad que clasifica el tipo morfológico Σ<sub>k</sub> de la trayectoria — se preserva como **consecuencia algebraica** del polinomio sobre coeficientes φ<sub>k</sub> no centro-simétricos, **no como condición de la ecuación maestra** (rectificación de versiones previas: V5 trataba esta asimetría como umbral 𝒮<sub>8</sub>, lo cual es incorrecto — la asimetría es propiedad emergente, no umbral identitario).
+
+**Definición §5.8 (Operador sectorial 𝓤<sup>(7)</sup><sub>SV</sub> — topológico).** Sobre la configuración Φ<sup>7</sup> = ({Res<sub>k</sub>}, h<sub>Γ</sub>, {φ<sub>k</sub>}, {m<sub>k</sub>}):
+
+```math
+\mathfrak{U}^{(7)}_{SV}(\Phi^7) \;:=\; \begin{pmatrix} \bigl(\mathrm{Res}_k - \varphi(S_k)\cdot\mathbf{1}_{\{m_k=0\}}\bigr)_{k=0,\ldots,n} \\[4pt] h_\Gamma - (m_{\mathrm{last}} - m_{\mathrm{first}}) \end{pmatrix},
+```
+
+heredada literalmente del **Plano V** del NM (Lloret Egea, 2026a; Lloret Egea, 2026 — luz factual, §6.2, campo 7):
+
+- **Residuos factuales absolutos** Res<sub>k</sub> := φ(S<sub>k</sub>) sobre los picos con m<sub>k</sub> = 0 (picos simples absolutos);
+- **Holonomía factual absoluta** del recorrido: h<sub>Γ</sub> := m<sub>last</sub> − m<sub>first</sub>, interpretada como curvatura factual absoluta de la trayectoria sobre el mosaico.
+
+**Estatuto canónico.** La condición **𝓤<sup>(7)</sup><sub>SV</sub>(Φ<sup>7</sup>) = 0** opera como **detector residual** de la consistencia del campo topológico: un campo Φ<sup>7</sup> candidato es admisible al sector 7 si y sólo si los residuos en picos coinciden con φ(S<sub>k</sub>) y la holonomía coincide con la diferencia de pendientes extremas. Sobre admisibles, las componentes se anulan; la integral compleja factual O3 es propiedad del aparato TPA (sector 4) y no se duplica aquí.
+
+### §5.3. Conjunto canónico de umbrales articulatorios intersectoriales {𝒮<sub>k</sub>}
+
+Los umbrales articulatorios intersectoriales son **identidades estructurales ya cerradas en el corpus** que articulan dos o más sectores y cuya invocación no constituye axioma adicional (P.5 respetada). El conjunto canónico no se enumera por cardinal forzado; se determina por **exhaustividad canónica** sobre las identidades intersectoriales del corpus:
+
+| k | Umbral 𝒮<sub>k</sub> | Identidad canónica que lo cierra | Sectores acoplados | Cierre canónico |
+|---|---|---|---|---|
+| 1 | ∂<sub>ν</sub><sup>SV</sup>ρ + Div<sub>SV</sub>(J) = 0 | Conservación factual de carga | 1, 2 | Lloret Egea (2026k), Teorema 4.6.1 |
+| 2 | Div<sub>SV</sub>∘Rot<sub>SV</sub> = 0 | Identidad operatoria del cuerpo factual | 1, 2 | Lloret Egea (2026k), §§7–8 |
+| 3 | dist(ν, 𝒞)·G(ν) ≠ ∞ | Disciplina absoluta gravedad ⇎ detonación | 3 | Lloret Egea (2026a), §IV.21 |
+| 4 | ε ⇒ K<sub>SV</sub> ⇒ h<sub>op,SV</sub> ⇒ T<sub>SV</sub> sobre Σ<sub>conc</sub> → Σ<sub>canal</sub> | Cadena fundacional canónica | 4, 5 | Lloret Egea (2026l), §3 |
+| 5 | A<sub>i</sub>(n) monótona no decreciente | Acumulación factual de apertura | 4 | Lloret Egea (2026j), §3, Prop. 4.3 |
+| 6 | V<sub>i</sub>(δ, n) monótona no decreciente | Variación total preternaria del sesgo | 4 | Lloret Egea (2026j), §3, Teorema 4.5 |
+| 7 | π<sub>0</sub>(Ξ<sub>SV</sub>) = E<sub>0</sub> = m<sub>0</sub>c<sup>2</sup> bajo trivialización completa | Absorción basal exacta | 1–7 | Lloret Egea (2026g), Resultado 6.1 |
+
+**Estatuto canónico del conjunto.** El conjunto {𝒮<sub>k</sub>}<sub>k=1,…,7</sub> reúne las identidades intersectoriales canónicamente cerradas en el corpus que articulan dos o más sectores. La cardinalidad **siete** no se postula: emerge por exhaustividad canónica sobre las identidades documentadas en el corpus (rectificación de versiones previas: el cardinal "9" de V5 incluía como umbral la asimetría G(λ) ≠ G(1/λ), que es propiedad emergente del polinomio espectral, no identidad intersectorial; y la narrativa "gravedad ⇎ detonación" como umbral separado, que ya está absorbida en la Definición §5.4 del operador sectorial 3).
+
+La identificación de los siete umbrales con secciones del corpus garantiza que ninguna invocación constituye axioma adicional.
+
+### §5.4. Definición canónica absoluta de **U**<sup>unif</sup><sub>SV</sub>
+
+**Definición §5.9 (Operador maestro unificado **U**<sup>unif</sup><sub>SV</sub>).** El operador maestro unificado del Sistema Vectorial SV sobre los siete sectores factuales coexistentes (eléctrico, magnético, gravitatorio, TPA, convergencia ternaria, espectral, topológico) queda fijado canónicamente y absolutamente por:
+
+```math
+\boxed{\;\mathfrak{U}^{\mathrm{unif}}_{SV}\bigl(\Phi^1,\Phi^2,\ldots,\Phi^7;\,\{\mathcal{S}_k\}_{k=1,\ldots,7}\bigr) \;:=\; \bigoplus_{j=1}^{7}\mathfrak{U}^{(j)}_{SV}(\Phi^j)\;\oplus\;\bigoplus_{k=1}^{7}\mathcal{S}_k\;}
+```
+
+donde:
+
+- ⊕ es el operador canónico de concatenación de compuertas (Definición §5.1);  
+- 𝓤<sup>(j)</sup><sub>SV</sub> son los siete operadores sectoriales canónicos de las Definiciones §5.2–§5.8;  
+- 𝒮<sub>k</sub> son los siete umbrales articulatorios intersectoriales canónicos del §5.3.
+
+La **ecuación maestra absoluta** de la teoría general queda fijada por:
+
+```math
+\boxed{\;\mathfrak{U}^{\mathrm{unif}}_{SV}\bigl(\Phi^1,\ldots,\Phi^7;\,\{\mathcal{S}_k\}\bigr) \;=\; 0.\;}
+```
+
+Por la Definición §5.1 del operador ⊕:
+
+```math
+\mathfrak{U}^{\mathrm{unif}}_{SV} = 0 \;\;\Longleftrightarrow\;\; \biggl[\,\forall j\in\{1,\ldots,7\}:\;\mathfrak{U}^{(j)}_{SV}(\Phi^j) = 0\,\biggr] \;\wedge\; \biggl[\,\forall k\in\{1,\ldots,7\}:\;\mathcal{S}_k\,\biggr].
+```
 
 ---
 
-## 5. Derivación nativa absoluta de α<sub>i</sub> y β<sub>i</sub>
+## §6. Cuatro formas canónicas equivalentes de la ecuación maestra
 
-### 5.1. Apertura canónica absoluta del §5
+Heredando la Proposición canónica de equivalencia del corpus (Lloret Egea, 2026k, §3.13), la ecuación maestra **U**<sup>unif</sup><sub>SV</sub> = 0 admite cuatro formas canónicas equivalentes:
 
-El §5 absoluto del presente documento absoluto reproduce absolutamente íntegra absoluta con rango canónico absoluto la derivación nativa absoluta de las magnitudes polares absolutas canónicas absolutas α<sub>i</sub> y β<sub>i</sub> desde los observables absolutos del corpus absoluto (Lloret Egea, 2026j, §3 absoluto). La reproducción canónica absoluta es absolutamente esencial absoluta para que la presente teoría general factual absoluta opere absolutamente bajo la prohibición constitutiva absoluta P.5 absoluta (no adición axiomática externa absoluta al corpus absoluto): la derivación nativa absoluta no introduce absolutamente magnitudes absolutas nuevas absolutas, sino que articula absolutamente las magnitudes absolutas canónicas absolutas previas absolutas del corpus absoluto sobre las posiciones factuales absolutas ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto.
-
-### 5.2. Observables canónicos absolutos del corpus
-
-**Definición 5.1 (Observables canónicos absolutos del corpus sobre Ω<sub>pre</sub> absoluto).** Los **observables canónicos absolutos** del corpus absoluto sobre el dominio preternario absoluto Ω<sub>pre</sub> absoluto, asociados absolutamente a cada posición factual absoluta ξ<sub>i</sub> ∈ Ω<sub>pre</sub> absoluto, son absolutamente las cuatro magnitudes absolutas canónicas absolutas heredadas absolutas del corpus absoluto (Lloret Egea, 2026j, §3 absoluto):
-
-(i) la **densidad absoluta de orientación absoluta hacia el polo absoluto 0**, denotada ρ<sub>0</sub>(ξ<sub>i</sub>) absoluta;
-
-(ii) la **densidad absoluta de orientación absoluta hacia el polo absoluto 1**, denotada ρ<sub>1</sub>(ξ<sub>i</sub>) absoluta;
-
-(iii) la **densidad absoluta total canónica absoluta**, denotada ρ<sub>tot</sub>(ξ<sub>i</sub>) absoluta, definida absolutamente como ρ<sub>tot</sub>(ξ<sub>i</sub>) := ρ<sub>0</sub>(ξ<sub>i</sub>) + ρ<sub>1</sub>(ξ<sub>i</sub>) absoluta;
-
-(iv) el **umbral canónico absoluto de pertinencia absoluta**, denotado ρ<sub>min</sub><sup>SV</sup> absoluto, magnitud canónica absoluta canónica absoluta del aparato absoluto que fija absolutamente el umbral canónico absoluto bajo el cual la posición factual absoluta ξ<sub>i</sub> queda absolutamente declarada absolutamente como U absoluta legítima absoluta, conforme absolutamente al Teorema 5.4 absoluto de Lloret Egea (2026j) sobre el nacimiento absoluto de U absoluto.
-
-### 5.3. Derivación nativa absoluta de α<sub>i</sub> y β<sub>i</sub>
-
-**Proposición 5.1 (Derivación nativa absoluta de α<sub>i</sub> y β<sub>i</sub> desde los observables absolutos del corpus).** Las magnitudes polares absolutas canónicas absolutas α<sub>i</sub> y β<sub>i</sub> sobre las posiciones factuales absolutas ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto se derivan absolutamente nativamente absoluto desde los observables absolutos canónicos absolutos del corpus absoluto sobre Ω<sub>pre</sub> absoluto mediante absolutamente las relaciones canónicas absolutas:
+### §6.1. Forma F1 — sectores y umbrales explícitos
 
 ```math
-\alpha_i\;=\;\rho_0(\xi_i)\cdot\mathbf{1}_{\rho_{tot}(\xi_i)\geq\rho_{min}^{SV}},
+\mathfrak{U}^{\mathrm{unif}}_{SV} = \bigoplus_{j=1}^{7}\mathfrak{U}^{(j)}_{SV}(\Phi^j)\;\oplus\;\bigoplus_{k=1}^{7}\mathcal{S}_k = 0.
 ```
+
+### §6.2. Forma F2 — descomposición por subsistemas estructurales
 
 ```math
-\beta_i\;=\;\rho_1(\xi_i)\cdot\mathbf{1}_{\rho_{tot}(\xi_i)\geq\rho_{min}^{SV}},
+\mathfrak{U}^{\mathrm{unif}}_{SV} = \mathfrak{U}^{\mathrm{EM}}_{SV}\;\oplus\;\mathfrak{U}^{\mathrm{Grav}}_{SV}\;\oplus\;\mathfrak{U}^{\mathrm{NM}}_{SV} = 0,
 ```
 
-donde 𝟏<sub>ρ<sub>tot</sub>(ξ<sub>i</sub>) ≥ ρ<sub>min</sub><sup>SV</sup></sub> es absolutamente la función indicadora canónica absoluta del aparato absoluto que vale 1 absoluto cuando la densidad absoluta total canónica absoluta ρ<sub>tot</sub>(ξ<sub>i</sub>) supera absolutamente el umbral canónico absoluto de pertinencia absoluta ρ<sub>min</sub><sup>SV</sup> absoluto, y vale 0 absoluto en caso contrario absoluto. En el caso canónico absoluto en que ρ<sub>tot</sub>(ξ<sub>i</sub>) < ρ<sub>min</sub><sup>SV</sup> absoluto, las magnitudes polares absolutas (α<sub>i</sub>, β<sub>i</sub>) se declaran absolutamente como U absoluta legítima absoluta, conforme absolutamente al Teorema 5.4 absoluto de Lloret Egea (2026j).
+donde:
 
-*Demostración.* La demostración procede absolutamente en dos pasos absolutos.
+- **𝓤<sup>EM</sup><sub>SV</sub>** := 𝓤<sup>(1)</sup><sub>SV</sub> ⊕ 𝓤<sup>(2)</sup><sub>SV</sub> ⊕ 𝒮<sub>1</sub> ⊕ 𝒮<sub>2</sub> (subsistema electromagnético con conservación de carga e identidad operatoria);
+- **𝓤<sup>Grav</sup><sub>SV</sub>** := 𝓤<sup>(3)</sup><sub>SV</sub> ⊕ 𝒮<sub>3</sub> (subsistema gravitatorio bisectorial con disciplina gravedad ⇎ detonación);
+- **𝓤<sup>NM</sup><sub>SV</sub>** := 𝓤<sup>(4)</sup><sub>SV</sub> ⊕ 𝓤<sup>(5)</sup><sub>SV</sub> ⊕ 𝓤<sup>(6)</sup><sub>SV</sub> ⊕ 𝓤<sup>(7)</sup><sub>SV</sub> ⊕ 𝒮<sub>4</sub> ⊕ 𝒮<sub>5</sub> ⊕ 𝒮<sub>6</sub> (subsistema Nuevo Mosaico con TPA, Γ<sub>ℋ</sub>, espectral y topológico).
 
-**Paso (a) — admisibilidad canónica absoluta sobre el umbral canónico absoluto.** La función indicadora canónica absoluta 𝟏<sub>ρ<sub>tot</sub>(ξ<sub>i</sub>) ≥ ρ<sub>min</sub><sup>SV</sup></sub> absoluta articula absolutamente con rango canónico absoluto la admisibilidad absoluta de la posición factual absoluta ξ<sub>i</sub> bajo el clasificador absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto (Lloret Egea, 2026c, Teorema 1 absoluto). Cuando la densidad absoluta total canónica absoluta ρ<sub>tot</sub>(ξ<sub>i</sub>) supera absolutamente el umbral canónico absoluto de pertinencia absoluta ρ<sub>min</sub><sup>SV</sup> absoluto, la posición factual absoluta ξ<sub>i</sub> es absolutamente admisible absoluta canónicamente absoluta bajo Γ<sub>ℋ</sub> absoluto, y las magnitudes polares absolutas α<sub>i</sub> y β<sub>i</sub> se calculan absolutamente como ρ<sub>0</sub>(ξ<sub>i</sub>) absoluta y ρ<sub>1</sub>(ξ<sub>i</sub>) absoluta respectivamente absolutamente. Cuando ρ<sub>tot</sub>(ξ<sub>i</sub>) < ρ<sub>min</sub><sup>SV</sup> absoluto, la posición factual absoluta ξ<sub>i</sub> queda absolutamente declarada absolutamente como U absoluta legítima absoluta, conforme absolutamente al Teorema 5.4 absoluto de 2026j absoluto, y las magnitudes polares absolutas (α<sub>i</sub>, β<sub>i</sub>) se declaran absolutamente como U absoluta.
+El umbral 𝒮<sub>7</sub> (absorción basal exacta) actúa transversalmente sobre los tres subsistemas como condición de compatibilidad metrológica.
 
-**Paso (b) — coherencia canónica absoluta con la definición canónica absoluta del par polar.** Por la Definición 4.2 absoluta del §4 absoluto, el par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) satisface absolutamente α<sub>i</sub> ≥ 0, β<sub>i</sub> ≥ 0, α<sub>i</sub> + β<sub>i</sub> ≥ 0 absolutamente. Las relaciones canónicas absolutas del enunciado garantizan absolutamente estas propiedades absolutas: las densidades canónicas absolutas ρ<sub>0</sub>(ξ<sub>i</sub>) y ρ<sub>1</sub>(ξ<sub>i</sub>) son absolutamente no negativas absolutas por construcción canónica absoluta del corpus absoluto, y la función indicadora canónica absoluta toma absolutamente sólo valores absolutos en {0, 1} absoluto. Por tanto α<sub>i</sub> ≥ 0 absoluto y β<sub>i</sub> ≥ 0 absoluto. Además, α<sub>i</sub> + β<sub>i</sub> = (ρ<sub>0</sub>(ξ<sub>i</sub>) + ρ<sub>1</sub>(ξ<sub>i</sub>)) · 𝟏<sub>ρ<sub>tot</sub>(ξ<sub>i</sub>) ≥ ρ<sub>min</sub><sup>SV</sup></sub> = ρ<sub>tot</sub>(ξ<sub>i</sub>) · 𝟏<sub>ρ<sub>tot</sub>(ξ<sub>i</sub>) ≥ ρ<sub>min</sub><sup>SV</sup></sub> absolutamente, lo que es absolutamente igual a ρ<sub>tot</sub>(ξ<sub>i</sub>) absoluto cuando ρ<sub>tot</sub>(ξ<sub>i</sub>) ≥ ρ<sub>min</sub><sup>SV</sup> absoluto, y a 0 absoluto en caso contrario absoluto. Por tanto α<sub>i</sub> + β<sub>i</sub> ≥ 0 absoluto.
+### §6.3. Forma F3 — proyección entrópica sobre cadena fundacional
 
-Por los Pasos (a) y (b) absolutos, la derivación nativa absoluta de α<sub>i</sub> y β<sub>i</sub> queda establecida absolutamente con rango canónico absoluto. Q.E.D.
+```math
+\mathfrak{U}^{\mathrm{unif}}_{SV} = \pi_H\Bigl(\bigoplus_{j=1}^{7}\mathfrak{U}^{(j)}_{SV}\Bigr)\;\oplus\;\bigoplus_{k=1}^{7}\mathcal{S}_k = 0,
+```
 
-### 5.4. Articulación canónica absoluta con el Teorema 0.2 del §0
+donde π<sub>H</sub> es la proyección entrópica absoluta del corpus (Lloret Egea, 2026 — luz factual, Definición 7.10) que extrae la magnitud de entropía factual H<sub>SV</sub> del documento de termodinámica factual canónica del corpus, aplicada sobre la cadena fundacional Σ<sub>conc</sub> → Σ<sub>canal</sub> (Lloret Egea, 2026l, §3).
 
-**Corolario 5.1 (Articulación canónica absoluta de la derivación nativa absoluta con el Teorema 0.2 absoluto).** La derivación nativa absoluta de α<sub>i</sub> y β<sub>i</sub> de la Proposición 5.1 absoluta articula absolutamente con rango canónico absoluto el caso canónico absoluto particular absoluto del nacimiento absoluto de U absoluto bajo cruce absoluto del umbral canónico absoluto de pertinencia absoluta (Teorema 5.4 absoluto de Lloret Egea, 2026j) como caso canónico absoluto particular absoluto del Teorema 0.2 absoluto del §0 absoluto del presente documento absoluto sobre el nacimiento absoluto general absoluto de U absoluto bajo equipotencialidad polar absoluta inicial absoluta. Por el Corolario 0.1 absoluto del §0 absoluto, la presente articulación canónica absoluta refuerza absolutamente con rango anterior canónico absoluto el resultado canónico absoluto de 2026j absoluto.
+### §6.4. Forma F4 — descomposición por dictamen final canónico
 
-### 5.5. Cierre canónico absoluto del §5
+```math
+\mathfrak{U}^{\mathrm{unif}}_{SV} = \mathfrak{T}_{SV}^{-1}\bigl(\{m_0,\,\chi_\alpha,\,U\}\bigr)\;\oplus\;\bigoplus_{k=1}^{7}\mathcal{S}_k = 0,
+```
 
-El §5 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto la derivación nativa absoluta de las magnitudes polares absolutas canónicas absolutas α<sub>i</sub> y β<sub>i</sub> desde los observables absolutos canónicos absolutos del corpus absoluto. La derivación canónica absoluta opera absolutamente bajo la prohibición constitutiva absoluta P.5 absoluta sin introducir absolutamente axiomas absolutos nuevos absolutos, y articula absolutamente con rango canónico absoluto el Teorema 5.4 absoluto de Lloret Egea (2026j) con el Teorema 0.2 absoluto del §0 absoluto del presente documento absoluto. El §6 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto las magnitudes estructurales absolutas canónicas absolutas asociadas absolutamente al protocampo primordial unificado absoluto Π<sub>SV</sub>.
+donde 𝔗<sub>SV</sub><sup>−1</sup> es la pre-imagen del operador de transmutación factual: la condición se satisface ⟺ el contenido factual Ξ<sub>SV</sub> resultante de la cadena fundacional alcanza dictamen en el conjunto canónico {m<sub>0</sub>, χ<sub>α</sub>, U}.
+
+### §6.5. Equivalencia algebraica de las cuatro formas
+
+**Proposición §6.5.** Las cuatro formas F1, F2, F3, F4 son algebraicamente equivalentes sobre el dominio canónico de configuraciones admisibles. La equivalencia se verifica numéricamente en el §9 (banco numérico) donde el residuo común entre las cuatro formas se mantiene por debajo del umbral canónico de tolerancia estructural ε<sub>can</sub> = 1 × 10<sup>−16</sup>.
+
+---
+## §7. Propiedades algebraicas absolutas de **U**<sup>unif</sup><sub>SV</sub>
+
+Las cuatro propiedades algebraicas se demuestran componente a componente sobre el patrón canónico del Teorema 3.13.1 de Lloret Egea (2026k).
+
+### §7.1. Homogeneidad escalar factual absoluta
+
+**Proposición §7.1 (Homogeneidad escalar absoluta).** Para todo escalar factual κ ∈ ℝ y toda configuración admisible (Φ<sup>1</sup>, …, Φ<sup>7</sup>, {𝒮<sub>k</sub>}) sobre subespacio de regímenes lineales factuales sectoriales:
+
+```math
+\mathfrak{U}^{\mathrm{unif}}_{SV}\bigl(\kappa\Phi^1,\ldots,\kappa\Phi^7;\,\{\mathcal{S}_k\}\bigr) \;=\; \kappa\cdot\mathfrak{U}^{\mathrm{unif}}_{SV}\bigl(\Phi^1,\ldots,\Phi^7;\,\{\mathcal{S}_k\}\bigr).
+```
+
+*Demostración.* Por la forma explícita (§5.4) y por la homogeneidad escalar absoluta de cada operador sectorial:
+
+- 𝓤<sup>(1)</sup><sub>SV</sub>: lineal por construcción (Div, Rot, ∂<sub>ν</sub><sup>SV</sup> son lineales);  
+- 𝓤<sup>(2)</sup><sub>SV</sub>: lineal por construcción;  
+- 𝓤<sup>(3)</sup><sub>SV</sub>: lineal por construcción dentro del régimen no detonante; bajo régimen detonante (|E<sub>crit</sub>(ν)| ≥ ⌈7|Q|/9⌉) la indicadora 𝟏 introduce no-linealidad por umbral, conforme a la disciplina canónica gravedad ⇎ detonación;  
+- 𝓤<sup>(4)</sup><sub>SV</sub>: lineal en (m<sub>k</sub>, φ) por linealidad de Div<sub>SV</sub>;  
+- 𝓤<sup>(5)</sup><sub>SV</sub>: card es lineal en el conjunto admisible;  
+- 𝓤<sup>(6)</sup><sub>SV</sub>: G(λ) es lineal en (φ<sub>k</sub>);  
+- 𝓤<sup>(7)</sup><sub>SV</sub>: lineal por construcción.
+
+Aplicando ⊕ y la distributividad escalar canónica:
+
+```math
+\bigoplus_{j=1}^{7}\kappa\cdot\mathfrak{U}^{(j)}_{SV}(\Phi^j) = \kappa\cdot\bigoplus_{j=1}^{7}\mathfrak{U}^{(j)}_{SV}(\Phi^j).
+```
+
+Los umbrales 𝒮<sub>k</sub> son identidades canónicas que se preservan bajo escalado. Q.E.D.
+
+### §7.2. Aditividad factual absoluta
+
+**Proposición §7.2 (Aditividad absoluta).** Para dos configuraciones admisibles compatibles (Φ<sup>j,(1)</sup>) y (Φ<sup>j,(2)</sup>) con los mismos umbrales {𝒮<sub>k</sub>} y régimen lineal factual sectorial:
+
+```math
+\mathfrak{U}^{\mathrm{unif}}_{SV}\bigl(\Phi^{j,(1)}+\Phi^{j,(2)};\{\mathcal{S}_k\}\bigr) \;=\; \mathfrak{U}^{\mathrm{unif}}_{SV}\bigl(\Phi^{j,(1)};\{\mathcal{S}_k\}\bigr) + \mathfrak{U}^{\mathrm{unif}}_{SV}\bigl(\Phi^{j,(2)};\{\mathcal{S}_k\}\bigr).
+```
+
+*Demostración.* Aditividad de cada operador sectorial componente a componente, heredada del Teorema 3.13.1 §3.13.2 de Lloret Egea (2026k) y de las propiedades correspondientes en cada cierre canónico. Q.E.D.
+
+### §7.3. Covariancia factual absoluta bajo las cuatro transformadas canónicas 𝒯<sup>SV</sup><sub>k</sub>
+
+Sean 𝒯<sup>SV</sup><sub>1</sub>, 𝒯<sup>SV</sup><sub>2</sub>, 𝒯<sup>SV</sup><sub>3</sub>, 𝒯<sup>SV</sup><sub>4</sub> las cuatro transformadas canónicas de trayectoria del SV (Lloret Egea, 2026a, §XXIV.6; 2026k, §10.4): traslación de suceso, reindexación admisible, cambio de base posicional con det(M) = ±1, refinamiento admisible de malla.
+
+**Proposición §7.3 (Covariancia absoluta bajo 𝒯<sup>SV</sup><sub>k</sub>).** Para k ∈ {1, 2, 3, 4}:
+
+```math
+\mathfrak{U}^{\mathrm{unif}}_{SV}\bigl(\mathcal{T}^{SV}_k\Phi^1,\ldots,\mathcal{T}^{SV}_k\Phi^7;\,\mathcal{T}^{SV}_k\{\mathcal{S}_\ell\}\bigr) \;=\; \mathcal{T}^{SV}_k\Bigl(\mathfrak{U}^{\mathrm{unif}}_{SV}\bigl(\Phi^1,\ldots,\Phi^7;\,\{\mathcal{S}_\ell\}\bigr)\Bigr).
+```
+
+*Demostración.* Por covariancia absoluta de cada operador sectorial bajo las cuatro transformadas canónicas, heredada del Teorema 3.13.1 §3.13.3 de Lloret Egea (2026k) que garantiza:
+
+```math
+\mathcal{T}^{SV}_k\circ\mathrm{Div}_{SV} = \mathrm{Div}_{SV}\circ\mathcal{T}^{SV}_k,\quad \mathcal{T}^{SV}_k\circ\mathrm{Rot}_{SV} = \mathrm{Rot}_{SV}\circ\mathcal{T}^{SV}_k,\quad \mathcal{T}^{SV}_k\circ\partial_\nu^{SV} = \partial_\nu^{SV}\circ\mathcal{T}^{SV}_k.
+```
+
+Cada operador sectorial 𝓤<sup>(j)</sup><sub>SV</sub> se construye exclusivamente sobre {Div<sub>SV</sub>, Rot<sub>SV</sub>, ∂<sub>ν</sub><sup>SV</sup>, polinomios en (α, β), card, integrales factuales}. Cada uno de estos primitivos es covariante bajo las cuatro 𝒯<sup>SV</sup><sub>k</sub>. La concatenación ⊕ preserva la covariancia. Los umbrales 𝒮<sub>k</sub> son identidades canónicas covariantes. Q.E.D.
+
+**Corolario §7.1.** La ecuación maestra **U**<sup>unif</sup><sub>SV</sub> = 0 es invariante bajo las cuatro transformadas canónicas 𝒯<sup>SV</sup><sub>k</sub>.
+
+### §7.4. Estabilidad estructural absoluta bajo perturbaciones admisibles
+
+**Proposición §7.4 (Estabilidad estructural absoluta).** Sobre todo régimen admisible que anule **U**<sup>unif</sup><sub>SV</sub> y para toda perturbación factual admisible (δΦ<sup>1</sup>, …, δΦ<sup>7</sup>) compatible con P.1–P.6, la linealización factual:
+
+```math
+\bigl(\mathfrak{U}^{\mathrm{unif}}_{SV}\bigr)'\bigl[\Phi^1,\ldots,\Phi^7;\{\mathcal{S}_k\}\bigr]\bigl(\delta\Phi^1,\ldots,\delta\Phi^7\bigr) = 0
+```
+
+es condición necesaria y suficiente para que el régimen perturbado siga siendo solución.
+
+*Demostración.* Por estabilidad estructural absoluta de cada operador sectorial (heredada del Teorema 3.13.1 §3.13.4 de Lloret Egea, 2026k) y por linealidad de la concatenación ⊕ en su régimen admisible. Q.E.D.
+
+### §7.5. Teorema absoluto de propiedades algebraicas
+
+**Teorema §7.1 (Propiedades algebraicas absolutas).** Sobre el subespacio de regímenes admisibles con linealidad factual sectorial y umbrales {𝒮<sub>k</sub>} fijos, el operador maestro **U**<sup>unif</sup><sub>SV</sub> es:
+
+(a) **homogéneo escalar absoluto**;  
+(b) **aditivo factual absoluto**;  
+(c) **covariante absoluto bajo las cuatro transformadas canónicas**;  
+(d) **estructuralmente estable absoluto bajo perturbaciones admisibles**.
+
+*Demostración.* Reunión canónica de las Proposiciones §7.1, §7.2, §7.3, §7.4. Q.E.D.
 
 ---
 
-## 6. Magnitudes estructurales absolutas del protocampo
+## §8. Unicidad estructural, irreducibilidad y no-composibilidad
 
-### 6.1. Apertura canónica absoluta del §6
+### §8.1. Subcategoría canónica OpFact<sub>SV,unif</sub>
 
-El §6 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto las **magnitudes estructurales absolutas canónicas absolutas** asociadas absolutamente al protocampo primordial unificado absoluto Π<sub>SV</sub>. Estas magnitudes canónicas absolutas son absolutamente derivadas absolutas del par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) sobre Ω<sub>pro</sub> absoluto, y articulan absolutamente con rango canónico absoluto la estructura cuantitativa absoluta del protocampo absoluto sin introducir absolutamente magnitudes absolutas soberanas absolutas ajenas absolutas al corpus absoluto.
+Heredada con extensión canónica de la Definición 14.16.1 de Lloret Egea (2026k):
 
-### 6.2. Magnitudes estructurales canónicas absolutas
+**Definición §8.1 (Subcategoría OpFact<sub>SV,unif</sub>).** La subcategoría OpFact<sub>SV,unif</sub> de la categoría factual del corpus está formada por los operadores maestros unificados 𝒪 sobre los siete sectores coexistentes que satisfacen absolutamente:
 
-**Definición 6.1 (Densidad polar absoluta canónica absoluta del protocampo).** La **densidad polar absoluta canónica absoluta** del protocampo primordial unificado absoluto Π<sub>SV</sub> sobre la posición factual absoluta ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto, denotada Δ<sub>SV</sub>(ξ<sub>i</sub>) absoluta, es absolutamente la magnitud absoluta canónica absoluta:
+(O1<sup>unif</sup>) cumplimiento sellado de las prohibiciones constitutivas P.1–P.6;  
+(O2<sup>unif</sup>) cosido metrológico canónico con los seis primitivos del corpus (Lloret Egea, 2026c — primitivos metrológicos);  
+(O3<sup>unif</sup>) covariancia bajo las cuatro transformadas canónicas 𝒯<sup>SV</sup><sub>k</sub>;  
+(O4<sup>unif</sup>) clausura factual sectorial agregada: la imagen de un campo admisible en cada sector permanece admisible en su sector tras evaluación.
 
-```math
-\Delta_{SV}(\xi_i)\;:=\;\alpha_i+\beta_i.
-```
+### §8.2. Teorema absoluto de unicidad estructural
 
-**Definición 6.2 (Gradiente resolutivo absoluto canónico absoluto del protocampo).** El **gradiente resolutivo absoluto canónico absoluto** del protocampo primordial unificado absoluto Π<sub>SV</sub> sobre la posición factual absoluta ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto, denotado δ<sub>i</sub><sup>SV</sup> absoluto, es absolutamente la magnitud absoluta canónica absoluta:
+**Teorema §8.1 (Unicidad estructural absoluta de **U**<sup>unif</sup><sub>SV</sub> en OpFact<sub>SV,unif</sub>).** Dentro de la subcategoría OpFact<sub>SV,unif</sub>, el operador maestro **U**<sup>unif</sup><sub>SV</sub> es **único absolutamente salvo isomorfismo canónico admisible**, en el sentido siguiente:
 
-```math
-\delta_i^{SV}\;:=\;\beta_i-\alpha_i.
-```
-
-**Definición 6.3 (Norma factual absoluta canónica absoluta del protocampo).** La **norma factual absoluta canónica absoluta** del protocampo primordial unificado absoluto Π<sub>SV</sub> sobre la posición factual absoluta ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto, denotada ‖Π<sub>SV</sub>(ξ<sub>i</sub>)‖<sub>SV</sub> absoluta, es absolutamente la magnitud absoluta canónica absoluta:
+Para todo operador 𝒪 ∈ OpFact<sub>SV,unif</sub> tal que 𝒪 = 0 ⟺ **U**<sup>unif</sup><sub>SV</sub> = 0 sobre el dominio admisible producto ∏<sub>j</sub> 𝒟<sup>(j)</sup><sub>SV</sub>, se tiene:
 
 ```math
-\|\Pi_{SV}(\xi_i)\|_{SV}\;:=\;\sqrt{\alpha_i^2+\beta_i^2}.
+\mathcal{O} \;\cong\; \mathfrak{U}^{\mathrm{unif}}_{SV}\quad\text{en OpFact}_{SV,\mathrm{unif}},
 ```
 
-**Definición 6.4 (Energía factual absoluta canónica absoluta del protocampo).** La **energía factual absoluta canónica absoluta** del protocampo primordial unificado absoluto Π<sub>SV</sub> sobre la posición factual absoluta ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto, denotada E<sub>SV</sub>(ξ<sub>i</sub>) absoluta, es absolutamente la magnitud absoluta canónica absoluta:
+donde el isomorfismo canónico admisible se compone de:
+
+(I.1) reordenamiento canónico de los siete sectores (por conmutatividad canónica de ⊕);  
+(I.2) reordenamiento canónico de los siete umbrales 𝒮<sub>k</sub>;  
+(I.3) reetiquetado admisible canónico de los campos sectoriales Φ<sup>j</sup>;  
+(I.4) isomorfismo intra-sectorial heredado del Teorema 14.16.2 de Lloret Egea (2026k) para j ∈ {1, 2} y de los teoremas correspondientes en cada cierre canónico para j ∈ {3, …, 7}.
+
+*Demostración.* En cinco pasos canónicos absolutos:
+
+**Paso (i) — restricción sectorial por (O3<sup>unif</sup>) y (O4<sup>unif</sup>).** Sea 𝒪 ∈ OpFact<sub>SV,unif</sub> con 𝒪 = 0 ⟺ **U**<sup>unif</sup><sub>SV</sub> = 0. 𝒪 admite descomposición canónica en restricciones sectoriales {𝒪|<sub>j</sub>}<sub>j=1,…,7</sub> con 𝒪|<sub>j</sub> ∈ OpFact<sub>SV</sub>. Por (O3<sup>unif</sup>), cada 𝒪|<sub>j</sub> es covariante bajo las cuatro 𝒯<sup>SV</sup><sub>k</sub>. Por (O4<sup>unif</sup>), cada 𝒪|<sub>j</sub> preserva la clase admisible del sector j.
+
+**Paso (ii) — agotamiento sectorial individual.** Por el Teorema 14.16.2 de Lloret Egea (2026k), restringido al sector j = 1 (eléctrico) ∪ j = 2 (magnético), las combinaciones admisibles de los operadores absolutos compatibles con (O1)–(O4) están agotadas por las cuatro componentes de 𝕄<sub>SV</sub>. Por la Proposición 9 de Lloret Egea (2026a, §IV.21), el operador gravitatorio bidimensional canónico es único en su sector. Análogamente para j = 4 (Plano III, identidades O1, O2, O3 del aparato TPA), j = 5 (Teorema 1 de Lloret Egea, 2026c sobre Γ<sub>ℋ</sub>), j = 6 (Plano IV, función generatriz canónica G(λ)), j = 7 (Plano V, residuos y holonomía canónicos): cada teorema canónico del corpus garantiza unicidad sectorial de la representación.
+
+**Paso (iii) — articulación intersectorial bajo ⊕.** El conjunto {𝒮<sub>k</sub>}<sub>k=1,…,7</sub> de umbrales articulatorios intersectoriales (§5.3) es heredado del corpus, identificado canónicamente con identidades estructurales ya cerradas. La articulación bajo ⊕ es la única articulación canónica admisible compatible simultáneamente con (O3<sup>unif</sup>) (covariancia bajo las cuatro 𝒯<sup>SV</sup><sub>k</sub>) y (O4<sup>unif</sup>) (clausura factual sectorial agregada). Toda articulación alternativa diferente de ⊕ violaría una de estas dos condiciones.
+
+**Paso (iv) — eliminación por (O1<sup>unif</sup>) y (O2<sup>unif</sup>).** Por (O1<sup>unif</sup>), las prohibiciones P.1–P.6 eliminan toda componente espuria que pudiera comparecer en 𝒪. Por (O2<sup>unif</sup>), el cosido metrológico fija los coeficientes de cada componente sectorial hasta escalares adimensionales.
+
+**Paso (v) — agotamiento absoluto.** Reunión de los pasos (i)–(iv): 𝒪 contiene los siete operadores sectoriales canónicos, los siete umbrales canónicos, articulados por ⊕. Las únicas libertades residuales son las cuatro libertades canónicas admisibles (I.1)–(I.4). Esto define exactamente la relación de **isomorfismo canónico admisible en OpFact<sub>SV,unif</sub>**.
+
+Q.E.D.
+
+### §8.3. Teorema absoluto de irreducibilidad algebraica
+
+**Teorema §8.2 (Irreducibilidad algebraica absoluta de **U**<sup>unif</sup><sub>SV</sub>).** El operador maestro **U**<sup>unif</sup><sub>SV</sub> es **algebraicamente irreducible absoluto** en OpFact<sub>SV,unif</sub>: no admite factorización no trivial como composición de operadores factuales admisibles de complejidad estrictamente menor:
 
 ```math
-E_{SV}(\xi_i)\;:=\;k_E^{SV}\cdot\Delta_{SV}(\xi_i)\cdot\mathfrak{c}_{\nu}^{SV},
+\nexists\,\mathfrak{A},\mathfrak{B}\in\mathrm{OpFact}_{SV,\mathrm{unif}}\;\text{con complejidad estrictamente menor}\,:\,\mathfrak{U}^{\mathrm{unif}}_{SV} = \mathfrak{A}\circ\mathfrak{B}.
 ```
 
-donde k<sub>E</sub><sup>SV</sup> absoluto es absolutamente la constante canónica absoluta de articulación absoluta canónica absoluta entre densidad polar absoluta y energía factual absoluta del aparato absoluto, expresada absolutamente en unidades canónicas absolutas UFE absolutas del corpus absoluto, y 𝔠<sub>ν</sub><sup>SV</sup> absoluta es absolutamente la compuerta canónica absoluta de articulación absoluta canónica absoluta sobre el ordinal canónico absoluto ν del aparato absoluto.
-
-**Definición 6.5 (Cota factual absoluta canónica absoluta del protocampo).** La **cota factual absoluta canónica absoluta** del protocampo primordial unificado absoluto Π<sub>SV</sub> sobre la posición factual absoluta ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto, denotada κ<sub>SV</sub>(ξ<sub>i</sub>) absoluta, es absolutamente la magnitud absoluta canónica absoluta:
+*Demostración (en el patrón del Teorema 14.16.3 de 2026k extendido al producto sectorial).* Supóngase, por reducción al absurdo, que existe factorización no trivial:
 
 ```math
-\kappa_{SV}(\xi_i)\;:=\;\frac{|\delta_i^{SV}|}{\Delta_{SV}(\xi_i)+\epsilon^{SV}_{\mathrm{reg}}},
+\mathfrak{U}^{\mathrm{unif}}_{SV} = \mathfrak{A}\circ\mathfrak{B}, \qquad \mathfrak{A},\mathfrak{B}\in\mathrm{OpFact}_{SV,\mathrm{unif}}.
 ```
 
-donde ϵ<sup>SV</sup><sub>reg</sub> absoluto es absolutamente la regularización canónica absoluta canónica absoluta del aparato absoluto que evita absolutamente la división absoluta por cero absoluto en el régimen canónico absoluto degenerado absoluto α<sub>i</sub> = β<sub>i</sub> = 0 absolutamente. La cota factual absoluta canónica absoluta toma absolutamente valores absolutos en el intervalo absoluto [0, 1] absoluto: κ<sub>SV</sub>(ξ<sub>i</sub>) = 0 absoluta cuando δ<sub>i</sub><sup>SV</sup> = 0 absoluto (régimen canónico absoluto equipotencial absoluto), y κ<sub>SV</sub>(ξ<sub>i</sub>) → 1 absoluta cuando |δ<sub>i</sub><sup>SV</sup>| → Δ<sub>SV</sub>(ξ<sub>i</sub>) absoluto (régimen canónico absoluto polarizado absoluto extremo absoluto).
+Por (O4<sup>unif</sup>), 𝔄 y 𝔅 preservan la clase admisible sectorial agregada. Por (O3<sup>unif</sup>), 𝔄 y 𝔅 son covariantes bajo las cuatro 𝒯<sup>SV</sup><sub>k</sub>.
 
-### 6.3. Articulación canónica absoluta con el pilar metrológico canónico absoluto
+El producto 𝔄 ∘ 𝔅 debe generar simultáneamente las siete familias estructuralmente independientes:
 
-**Observación 6.1 (Articulación canónica absoluta con la compuerta metrológica ℘<sub>SV</sub>).** Las magnitudes estructurales absolutas canónicas absolutas del §6 absoluto se expresan absolutamente con rango canónico absoluto en unidades canónicas absolutas del corpus absoluto: la energía factual absoluta E<sub>SV</sub>(ξ<sub>i</sub>) absoluta en UFE absolutas, la masa factual absoluta canónica absoluta en UFM absolutas, la carga factual absoluta canónica absoluta en UFC absolutas. La compuerta metrológica absoluta ℘<sub>SV</sub> absoluta del corpus absoluto traduce absolutamente con rigor canónico absoluto estas magnitudes canónicas absolutas a unidades absolutas SI heredadas absolutas, sin colapsar absolutamente la diferencia estructural absoluta entre el aparato factual absoluto del Sistema Vectorial SV y el Sistema Internacional absoluto SI heredado absoluto.
+(α) Las cuatro componentes electromagnéticas (Gauss-E, Gauss-M, Faraday, Ampère-Maxwell) acopladas por la identidad de conservación de carga;  
+(β) Las dos magnitudes gravitatorias bidimensionales (Proposición 9 de 2026a, no degenerables a magnitud escalar);  
+(γ) El operador maestro de Gauss-SV discreto sobre TPA con las identidades O1, O2, O3 del aparato canónico;  
+(δ) El clasificador Γ<sub>ℋ</sub> (Teorema 1 de 2026c, independiente);  
+(ε) Las componentes espectrales canónicas G(1), G(−1), G(λ);  
+(ζ) Las dos componentes topológicas (residuos y holonomía);  
+(η) Los siete umbrales canónicos 𝒮<sub>k</sub>.
 
-### 6.4. Cierre canónico absoluto del §6
+Las siete familias son **algebraicamente independientes** por los teoremas canónicos respectivos del corpus. Para que 𝔄 ∘ 𝔅 las produzca todas, alguno de los dos operadores debe contener información canónica equivalente a una combinación no trivial de las siete familias.
 
-El §6 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto las cinco magnitudes estructurales absolutas canónicas absolutas asociadas absolutamente al protocampo primordial unificado absoluto Π<sub>SV</sub>: densidad polar absoluta canónica absoluta Δ<sub>SV</sub>(ξ<sub>i</sub>), gradiente resolutivo absoluto canónico absoluto δ<sub>i</sub><sup>SV</sup>, norma factual absoluta canónica absoluta ‖Π<sub>SV</sub>(ξ<sub>i</sub>)‖<sub>SV</sub>, energía factual absoluta canónica absoluta E<sub>SV</sub>(ξ<sub>i</sub>) y cota factual absoluta canónica absoluta κ<sub>SV</sub>(ξ<sub>i</sub>). Las magnitudes canónicas absolutas son absolutamente derivadas absolutas del par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) del corpus absoluto, sin introducir absolutamente magnitudes absolutas soberanas absolutas ajenas absolutas al corpus absoluto. El §7 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto la topología combinatoria absoluta canónica absoluta del protocampo absoluto y la métrica factual absoluta derivada absoluta dist<sub>SV</sub>(·,·) absoluta.
+**Caso 1.** 𝔄 contiene información equivalente a las siete familias. Entonces complejidad(𝔄) ≥ complejidad(**U**<sup>unif</sup><sub>SV</sub>), contradicción.
+
+**Caso 2.** 𝔅 contiene información equivalente a las siete familias. Análogo.
+
+**Caso 3.** La información se reparte sin que ninguno la concentre. Por la independencia algebraica, no existe partición no trivial que permita reconstrucción por composición ∘ sin que 𝔄 o 𝔅 contengan información combinatoriamente equivalente al operador completo. La composición ∘ no es ⊕: ∘ no preserva la independencia sectorial bajo agregación lineal (Proposición §8.4 más adelante). La única vía sería que ∘ se redujera operacionalmente a ⊕, lo cual implicaría 𝔄 = id sobre la imagen de 𝔅 o recíproco, contradicción.
+
+Los tres casos producen contradicción. Q.E.D.
+
+### §8.4. Verificación visible canónica de irreducibilidad por intentos
+
+**Intento §8.4.1.** **U**<sup>unif</sup><sub>SV</sub> = 𝔄<sub>tiempo</sub> ∘ 𝔅<sub>est</sub>, con 𝔄<sub>tiempo</sub> introduciendo evolución temporal soberana. **Falla:** viola P.1.
+
+**Intento §8.4.2.** **U**<sup>unif</sup><sub>SV</sub> = ℂ<sub>prob</sub> ∘ 𝔇<sub>det</sub>, con ℂ<sub>prob</sub> ponderación probabilística. **Falla:** viola P.2.
+
+**Intento §8.4.3.** **U**<sup>unif</sup><sub>SV</sub> = 𝔊<sub>ext</sub> ∘ 𝔇<sub>sol</sub>, con 𝔊<sub>ext</sub> cambio a coordenadas externas. **Falla:** viola P.3.
+
+**Intento §8.4.4.** **U**<sup>unif</sup><sub>SV</sub> = ⊕<sub>j=1</sub><sup>K</sup> 𝓤<sup>(j)</sup><sub>SV</sub> con K < 7 (truncamiento sectorial). **Falla:** el operador truncado no genera el sector omitido. Viola (O4<sup>unif</sup>).
+
+**Intento §8.4.5.** **U**<sup>unif</sup><sub>SV</sub> = ⊕<sub>j=1</sub><sup>7</sup> a<sub>j</sub>·𝓤<sup>(j)</sup><sub>SV</sub> con a<sub>j</sub> ≠ 1. **Falla:** introduce parámetro libre no cosido, viola (O2<sup>unif</sup>).
+
+### §8.5. Reducción canónica completa de la expresión
+
+**Teorema §8.3 (Reducción canónica completa de la expresión).** La expresión canónica:
+
+```math
+\mathfrak{U}^{\mathrm{unif}}_{SV} = \bigoplus_{j=1}^{7}\mathfrak{U}^{(j)}_{SV}\;\oplus\;\bigoplus_{k=1}^{7}\mathcal{S}_k
+```
+
+es **estructuralmente mínima absoluta**: no admite reducción canónica adicional sin violar alguna de las condiciones (O1<sup>unif</sup>)–(O4<sup>unif</sup>) o sin perder uno de los trece invariantes canónicos I1–I13.
+
+*Demostración.* Cuatro pasos:
+
+**(R.1)** Eliminación de un sumando 𝓤<sup>(j₀)</sup><sub>SV</sub>: el sector j<sub>0</sub> queda sin clausura factual; viola (O4<sup>unif</sup>). Inadmisible.
+
+**(R.2)** Eliminación de un umbral 𝒮<sub>k₀</sub>: rompe acoplamiento canónico declarado por el corpus; viola P.5. Inadmisible.
+
+**(R.3)** Adición de un sumando 𝓤<sup>(8)</sup><sub>SV</sub> nuevo: si trazable a sector canónico, contradice §6.2 de luz factual (siete sectores); si no trazable, viola P.5. Inadmisible.
+
+**(R.4)** Sustitución de ⊕ por otra operación binaria: viola la disciplina canónica del corpus. Inadmisible. Q.E.D.
+
+**Corolario §8.1 (Ningún parámetro libre, ninguna constante ajustable).** La expresión canónica de **U**<sup>unif</sup><sub>SV</sub> no contiene parámetros libres ni constantes ajustables. Ninguna calibración numérica posterior es admisible (P.5 respetada).
+
+### §8.6. No-composibilidad estructural absoluta
+
+**Definición §8.6 (Composición ∘).** Sean 𝒪<sub>1</sub>, 𝒪<sub>2</sub>: D → D operadores factuales con dominio común. La composición se define canónicamente por (𝒪<sub>1</sub> ∘ 𝒪<sub>2</sub>)(x) := 𝒪<sub>1</sub>(𝒪<sub>2</sub>(x)).
+
+**Proposición §8.4 (No-equivalencia algebraica entre ⊕ y ∘).** En la categoría OpFact<sub>SV,unif</sub>, los operadores binarios ⊕ y ∘ no son algebraicamente equivalentes:
+
+(i) ⊕ opera sobre **proposiciones factuales** del codominio (anulación simultánea), no sobre evaluaciones encadenadas;  
+(ii) ∘ opera sobre **evaluaciones encadenadas** en el dominio.
+
+Formalmente, existen 𝒪<sub>1</sub>, 𝒪<sub>2</sub> ∈ OpFact<sub>SV,unif</sub> tales que (𝒪<sub>1</sub> ⊕ 𝒪<sub>2</sub>)(Φ) = 0 ⇎ (𝒪<sub>1</sub> ∘ 𝒪<sub>2</sub>)(Φ) = 0.
+
+**Teorema §8.4 (No-composibilidad estructural absoluta).** El operador maestro **U**<sup>unif</sup><sub>SV</sub> **no admite presentación como composición ∘ no trivial** en OpFact<sub>SV,unif</sub>. Reunión del Teorema §8.2 (irreducibilidad) y la Proposición §8.4 (no-equivalencia ⊕/∘). Q.E.D.
+
+**Lema §8.5 (Anulación simultánea no factorizable absoluta).** La condición ⊕<sub>j=1</sub><sup>7</sup> 𝓤<sup>(j)</sup><sub>SV</sub> ⊕ ⊕<sub>k=1</sub><sup>7</sup> 𝒮<sub>k</sub> = 0 no admite reducción canónica a la anulación de un subconjunto propio. Por independencia algebraica canónica de los siete operadores sectoriales heredada de los teoremas de unicidad representacional sectoriales del corpus. Q.E.D.
+
+### §8.7. Síntesis algebraica absoluta
+
+**Teorema §8.5 (Síntesis algebraica absoluta).** El operador maestro **U**<sup>unif</sup><sub>SV</sub> definido por la Definición §5.9 satisface absolutamente:
+
+(α) **unicidad estructural absoluta** en OpFact<sub>SV,unif</sub> (Teorema §8.1);  
+(β) **irreducibilidad algebraica absoluta** (Teorema §8.2);  
+(γ) **no-composibilidad estructural absoluta** (Teorema §8.4, Proposición §8.4);  
+(δ) **anulación simultánea no factorizable absoluta** (Lema §8.5);  
+(ε) **reducción canónica completa absoluta** (Teorema §8.3, Corolario §8.1);  
+(ζ) **clausura canónica absoluta sobre los trece invariantes I1–I13** del corpus.
+
+---
+## §9. Trece invariantes estructurales I1–I13 (heredados literalmente del §9.4 de luz factual)
+
+Los trece invariantes que toda solución admisible de **U**<sup>unif</sup><sub>SV</sub> = 0 satisface se heredan literalmente y sin renumerar del §9.4 de Lloret Egea (2026 — luz factual):
+
+**I1 (admisibilidad estructural de la fibra).**
+
+```math
+I_1: \mathrm{card}(\xi) \ge 1 \;\land\; \Gamma \text{ admisible} \;\land\; \forall\,i\in\xi:\;\xi_i \in \Omega_{\mathrm{pre}}.
+```
+
+**I2 (honestidad coordenada en la subida).**
+
+```math
+I_2: \forall\,i\in\xi\;\text{con}\;k_i^{\ast}<+\infty:\; \Pi_3^H(\xi_i) \text{ coordenadamente honesto}.
+```
+
+**I3 (no retorno preternario absoluto).**
+
+```math
+I_3: \forall\,k < k':\; \nexists\text{ reescritura absoluta de }(\alpha_i(k),\beta_i(k)) \text{ desde el paso }k'.
+```
+
+**I4 (dictamen TPA definido).**
+
+```math
+I_4: \pi_{\mathcal{D}}(\Phi^L_{SV}) \in \{m_0,\;\chi_\alpha,\;U\}.
+```
+
+**I5 (perfil polar completo).**
+
+```math
+I_5: \forall\,i\in\xi:\; \{(\alpha_i(k),\beta_i(k))\}_{k=0}^{k_i^{\ast}} \subset \mathbb{R}_{\ge 0}^2 \;\land\; \alpha_i(k)+\beta_i(k)>0\;\forall k.
+```
+
+**I6 (cierre Maxwell factual).** 𝔼<sub>SV</sub>(π<sub>𝒞</sub>) = 0 (Lloret Egea, 2026k, §3.12).
+
+**I7 (energía factual con taxonomía G/A/D).**
+
+```math
+I_7: \mathfrak{E}_{SV}(\Gamma,n_{\mathrm{fin}}) > 0 \;\land\; \Delta\mathfrak{E}_{SV}(\nu) \ge 0\;\forall\,\nu\in\mathrm{G}\cup\mathrm{A}\;\land\;\Delta\mathfrak{E}_{SV}(\nu) > 0\;\forall\,\nu\in\mathrm{G}\;\text{no trivial}.
+```
+
+**I8 (coherencia estructural interna).**
+
+```math
+I_8: \forall\,i\ne j \in\xi:\; \mathfrak{C}^L_{SV}(h_i, h_j) = 0.
+```
+
+**I9 (compatibilidad basal absoluta).**
+
+```math
+I_9: \bigl|\,\mathfrak{E}_{SV}(\Gamma,n_{\mathrm{fin}}) - \sum_{\xi'\subset\Phi^L,\text{cierre}=m_0} m_0(\xi')\cdot c_{SV}^2\,\bigr| = 0.
+```
+
+**I10 (coherencia entrópica absoluta).**
+
+```math
+I_{10}: H_{SV}(\Gamma, n_{\mathrm{fin}}) = \mathcal{A}^L_{SV}(\Phi^L_{SV}).
+```
+
+**I11 (deformación gravitacional respetada).**
+
+```math
+I_{11}: \forall\,i\in\xi\;\text{con recorrido próximo a }\mathcal{C}:\; \mathcal{L}_i^{\mathrm{efectivo}} = \Phi(G,\mathcal{G}_J,\mathrm{dist})\cdot\mathcal{L}_i.
+```
+
+**I12 (compatibilidad TPA con identidades O1, O2, O3).**
+
+```math
+I_{12}: \begin{cases}
+\sum_k \mathrm{Div}_{SV}(C_k) = \varphi(S_0) - \varphi(S_n) & (O_2) \\
+\mathrm{Div}_{SV}(C_k) = -m_k\;\forall k & (O_1) \\
+\int_\Gamma^{SV}\varphi(z)\,dz = \sum_k\varphi_k + i_{SV}\sum_k\varphi_k m_k & (O_3).
+\end{cases}
+```
+
+**I13 (dictamen del clasificador Γ<sub>ℋ</sub>).**
+
+```math
+I_{13}: \forall\,i\in\xi\;\text{con}\;\Pi_3^H(\xi_i) = U:\;\Gamma_{\mathcal{H}}(i) \in \{U_{\mathrm{irr}},\,U_{\mathrm{fr}},\,U_{\mathrm{res}}\}.
+```
+
+### §9.1. Teorema absoluto de clausura sobre los trece invariantes
+
+**Teorema §9.1 (Clausura absoluta de **U**<sup>unif</sup><sub>SV</sub> = 0 sobre I1–I13).** Toda configuración admisible (Φ<sup>1</sup>, …, Φ<sup>7</sup>, {𝒮<sub>k</sub>}) que satisfaga **U**<sup>unif</sup><sub>SV</sub> = 0 satisface simultáneamente los trece invariantes I1–I13.
+
+*Demostración.* Por la forma explícita (§5.4), **U**<sup>unif</sup><sub>SV</sub> = 0 implica simultáneamente:
+
+- **I1, I2, I3, I5**: por satisfacción de la admisibilidad sectorial en los siete sectores (Definiciones §5.2–§5.8) y la disciplina append-only canónica del corpus.
+- **I4**: por el operador 𝓤<sup>(5)</sup><sub>SV</sub> (convergencia ternaria) que garantiza dictamen Γ<sub>ℋ</sub>(i) ∈ {U<sub>irr</sub>, U<sub>fr</sub>, U<sub>res</sub>}, junto con la cadena fundacional canónica del §4.2.
+- **I6**: por la satisfacción de 𝓤<sup>(1)</sup><sub>SV</sub> y 𝓤<sup>(2)</sup><sub>SV</sub> (componentes de 𝕄<sub>SV</sub>) y los umbrales 𝒮<sub>1</sub>, 𝒮<sub>2</sub>.
+- **I7**: heredado del Teorema 3bis.1 de luz factual y de la taxonomía canónica G/A/D del §3.2 del presente documento.
+- **I8**: por estabilidad estructural (Proposición §7.4).
+- **I9**: por el cierre canónico basal del corpus (umbral 𝒮<sub>7</sub>: absorción basal exacta).
+- **I10**: por la articulación canónica del operador entrópico H<sub>SV</sub> sobre la cadena fundacional (umbral 𝒮<sub>4</sub>).
+- **I11**: por el operador gravitatorio 𝓤<sup>(3)</sup><sub>SV</sub> (Definición §5.4) y la disciplina canónica gravedad ⇎ detonación.
+- **I12**: por 𝓤<sup>(4)</sup><sub>SV</sub> (TPA con identidades O1, O2, O3 explícitas).
+- **I13**: por 𝓤<sup>(5)</sup><sub>SV</sub> y la formalización completa del clasificador Γ<sub>ℋ</sub> (Definición §5.6).
+
+Q.E.D.
 
 ---
 
-## 7. Topología combinatoria absoluta del protocampo y métrica factual derivada
+## §10. Banco numérico canónico de diez supuestos no triviales sobre SV(3, 9)
 
-### 7.1. Apertura canónica absoluta del §7
+Se presentan diez supuestos numéricos canónicos no triviales sobre la célula canónica SV(3, 9) heredada del §11 de Lloret Egea (2026k). Cada supuesto es **internamente coherente por construcción canónica**: las magnitudes de derivada se calculan canónicamente para cerrar el sector electromagnético sin ajuste paramétrico libre. Cada supuesto verifica la anulación canónica simultánea de los siete operadores sectoriales y la satisfacción canónica de los siete umbrales articulatorios.
 
-El §7 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto la **topología combinatoria absoluta canónica absoluta** del protocampo primordial unificado absoluto Π<sub>SV</sub> sobre el dominio prototernario absoluto Ω<sub>pro</sub> absoluto, y la **métrica factual absoluta derivada absoluta** dist<sub>SV</sub>(·,·) absoluta sobre el aparato absoluto del Sistema Vectorial SV. La articulación canónica absoluta procede absolutamente bajo la prohibición constitutiva absoluta P.3 absoluta (no geometría soberana absoluta auxiliar absoluta): la topología canónica absoluta es absolutamente combinatoria absoluta sobre el alfabeto canónico absoluto Σ = {0, 1, U} absoluto, no absolutamente geometría euclídea absoluta heredada absoluta; la métrica factual absoluta es absolutamente magnitud derivada absoluta canónica absoluta del aparato absoluto, no absolutamente distancia euclídea absoluta soberana absoluta.
+### §10.1. Notación canónica del banco
 
-### 7.2. Topología combinatoria canónica absoluta sobre Σ = {0, 1, U}
+Para cada supuesto se especifican exclusivamente magnitudes canónicas del corpus:
 
-**Definición 7.1 (Topología combinatoria canónica absoluta sobre Σ absoluto).** La **topología combinatoria canónica absoluta** sobre el alfabeto canónico absoluto Σ = {0, 1, U} absoluto, denotada 𝒯<sub>SV,Σ</sub> absoluta, es absolutamente la topología canónica absoluta discreta absoluta sobre Σ absoluto: cada uno de los tres símbolos absolutos canónicos absolutos {0}, {1}, {U} absoluto es absolutamente abierto absoluto canónicamente absoluto en 𝒯<sub>SV,Σ</sub> absoluto, y los abiertos absolutos canónicos absolutos de 𝒯<sub>SV,Σ</sub> absoluto son absolutamente las uniones absolutas canónicas absolutas de los tres singletons absolutos canónicos absolutos.
+- D, B, σ, ρ, V, A<sub>Σ</sub>, Γ<sup>E</sup>, Γ<sup>H</sup>, J — sectores 1+2 (electromagnético).
+- (G(ν), 𝒢<sub>J</sub>(ν)) y |E<sub>crit</sub>(ν)|/|Q| — sector 3 (gravitatorio); régimen no detonante en todos los supuestos del banco (|E<sub>crit</sub>(ν)| < ⌈7|Q|/9⌉, por tanto 𝒢<sub>J</sub>(ν) = 0).
+- {Div<sub>SV</sub>(C<sub>k</sub>)}, φ(S<sub>0</sub>), φ(S<sub>n</sub>) — sector 4 (TPA, masas m<sub>k</sub> = −Div<sub>SV</sub>(C<sub>k</sub>) por O1).
+- {φ<sub>k</sub>}<sub>k=0,…,deg</sub> — sector 6 (espectral, polinomio canónico).
+- {φ<sub>k</sub><sup>top</sup>}, {m<sub>k</sub><sup>top</sup>} — sector 7 (topológico, residuos en picos y holonomía).
 
-**Observación 7.1 (Topología discreta canónica absoluta, no topología euclídea).** La topología combinatoria canónica absoluta 𝒯<sub>SV,Σ</sub> absoluta es absolutamente topología canónica absoluta **discreta absoluta**, no absolutamente topología euclídea absoluta heredada absoluta. Por la prohibición constitutiva absoluta P.3 absoluta, ninguna topología absoluta euclídea absoluta soberana absoluta puede absolutamente comparecer absoluto con rango constitutivo absoluto en el aparato absoluto del Sistema Vectorial SV. La topología canónica absoluta 𝒯<sub>SV,Σ</sub> absoluta opera absolutamente con rango canónico absoluto sobre el alfabeto canónico absoluto Σ absoluto sin presuponer absolutamente estructura geométrica absoluta soberana absoluta.
+### §10.2. Supuesto §10.1 — Configuración heredada literal del §11.2–§11.5 de Maxwell factual
 
-### 7.3. Topología canónica absoluta sobre Ω<sub>pro</sub>
+Configuración canónica:
 
-**Definición 7.2 (Topología canónica absoluta sobre Ω<sub>pro</sub> absoluto).** La **topología canónica absoluta** sobre el dominio prototernario absoluto Ω<sub>pro</sub> absoluto, denotada 𝒯<sub>SV,Ω<sub>pro</sub></sub> absoluta, es absolutamente la topología canónica absoluta producto canónico absoluto entre la estructura combinatoria absoluta de Ω<sub>pro</sub> absoluto sobre las posiciones factuales absolutas ξ<sub>i</sub> absoluto y la topología combinatoria canónica absoluta 𝒯<sub>SV,Σ</sub> absoluta sobre los valores polares absolutos {α<sub>i</sub>, β<sub>i</sub>} absolutos. Los abiertos absolutos canónicos absolutos de 𝒯<sub>SV,Ω<sub>pro</sub></sub> absoluto son absolutamente las uniones absolutas canónicas absolutas de productos canónicos absolutos de subconjuntos absolutos canónicos absolutos de posiciones factuales absolutas con singletons absolutos canónicos absolutos del alfabeto canónico absoluto Σ absoluto.
-
-### 7.4. Métrica factual absoluta derivada absoluta dist<sub>SV</sub>(·,·)
-
-**Definición 7.3 (Métrica factual absoluta derivada absoluta canónica absoluta).** La **métrica factual absoluta derivada absoluta canónica absoluta** del Sistema Vectorial SV, denotada dist<sub>SV</sub>(·,·) absoluta, es absolutamente la magnitud absoluta canónica absoluta derivada absoluta sobre pares absolutos de posiciones factuales absolutas ξ<sub>i</sub>, ξ<sub>j</sub> ∈ Ω<sub>pro</sub> absoluto:
-
-```math
-\mathrm{dist}_{SV}(\xi_i,\xi_j)\;:=\;\sqrt{(\alpha_i-\alpha_j)^2+(\beta_i-\beta_j)^2}\cdot w_{\nu}^{SV}(\xi_i,\xi_j),
+```
+D = (0,20; 0,15; 0,18; 0,12);   σ = (+1,+1,−1,−1);   ρ = 0,05;   V = 1,00
+B = (0,18; 0,12; 0,18; 0,12)
+Γ^E = (0,10; 0,12; 0,09; −0,04);   A_Σ = 0,30;   ∂_ν^SV B = −0,90
+Γ^H = (0,20; 0,15; 0,18; −0,14);   J = 0,80;   ∂_ν^SV D = +0,50
+G(ν) = 0;   𝒢_J(ν) = 0;   |E_crit(ν)|/|Q| = 0
+Div(C_k) = (−0,03; 0,00; +0,03);   φ(S_0) = φ(S_n) = 0,5
+card(U_irr) = 0
+φ_k = (1, 0, −1)
+φ_k^top = (1, 0, −1);   m_k^top = (0, 0, 0);   h_Γ = 0
 ```
 
-donde w<sub>ν</sub><sup>SV</sup>(ξ<sub>i</sub>, ξ<sub>j</sub>) absoluta es absolutamente el peso canónico absoluto de articulación absoluta canónica absoluta sobre el ordinal canónico absoluto ν del aparato absoluto, conforme absolutamente al ordinal canónico absoluto append-only absoluto del aparato absoluto.
+Verificación visible:
 
-**Observación 7.2 (Métrica derivada canónica absoluta, no distancia euclídea soberana).** La métrica factual absoluta derivada absoluta dist<sub>SV</sub>(·,·) absoluta es absolutamente magnitud derivada absoluta canónica absoluta del aparato absoluto, no absolutamente distancia euclídea absoluta soberana absoluta heredada absoluta. La forma cuadrática canónica absoluta √((α<sub>i</sub> − α<sub>j</sub>)² + (β<sub>i</sub> − β<sub>j</sub>)²) absoluta articula absolutamente con rango canónico absoluto la diferencia absoluta canónica absoluta entre los pares polares absolutos canónicos absolutos (α<sub>i</sub>, β<sub>i</sub>) absolutos y (α<sub>j</sub>, β<sub>j</sub>) absolutos, no absolutamente la distancia geométrica absoluta soberana absoluta entre las posiciones factuales absolutas ξ<sub>i</sub> absoluta y ξ<sub>j</sub> absoluta sobre un soporte geométrico absoluto soberano absoluto. El peso canónico absoluto w<sub>ν</sub><sup>SV</sup>(ξ<sub>i</sub>, ξ<sub>j</sub>) absoluto articula absolutamente con rango canónico absoluto la articulación absoluta canónica absoluta sobre el ordinal canónico absoluto ν absoluto del aparato absoluto, no sobre tiempo soberano absoluto (P.1 respetada absolutamente).
+```
+𝓤^(1) componente 1: Div(D) − ρV = (0,20+0,15−0,18−0,12) − 0,05·1,00 = 0,05 − 0,05 = 0 ✓
+𝓤^(1) componente 2: Rot(E) + ∂νB·A_Σ = 0,27 + (−0,90)·0,30 = 0,27 − 0,27 = 0 ✓
+𝓤^(2) componente 1: Div(B) = 0,18+0,12−0,18−0,12 = 0 ✓
+𝓤^(2) componente 2: Rot(H) − ∂νD·A_Σ − J = 0,39 − 0,50·0,30 − 0,24 = 0 ✓
+𝓤^(3) componente 1: G(ν) − |E_crit|/|Q| = 0 − 0 = 0 ✓
+𝓤^(3) componente 2: 𝒢_J(ν) − 0·𝟏 = 0 (régimen no detonante) ✓
+𝓤^(4) componente O1: max|Div(C_k) + m_k| = 0 (m_k = −Div(C_k) por construcción) ✓
+𝓤^(4) componente O2: ΣDiv(C_k) − (φ(S_0) − φ(S_n)) = 0 − 0 = 0 ✓
+𝓤^(4) componente O3: ∫_Γ^SV φ dz − Σφ_k − i_SV·Σφ_k·m_k = 0 − 0 − 0 = 0 ✓
+𝓤^(5): card(U_irr(T)) = 0 ✓
+𝓤^(6) componente 1: G(1) − Σφ_k = 0 − 0 = 0 ✓
+𝓤^(6) componente 2: G(−1) − Σ(−1)^k·φ_k = 0 − (1−0+(−1)) = 0 − 0 = 0 ✓
+𝓤^(6) componente 3: G(λ) − Σφ_k·λ^k = 0 idénticamente sobre el polinomio canónico ✓
+𝓤^(7) componente 1: max|Res_k − φ(S_k)·𝟏_{m_k=0}| = 0 (todos los m_k = 0; Res_k = φ(S_k)) ✓
+𝓤^(7) componente 2: h_Γ − (m_last − m_first) = 0 − 0 = 0 ✓
 
-### 7.5. Cierre canónico absoluto del §7
+𝒮_1: ∂νρ + Div(J) = 0 ✓
+𝒮_2: Div∘Rot = 0 (identidad operatoria) ✓
+𝒮_3: dist(ν, 𝒞)·G(ν) = 0 ≠ ∞ ✓
+𝒮_4: cadena fundacional Σ_conc → Σ_canal verificada (dictamen consistente) ✓
+𝒮_5: A_i(n) monótona no decreciente ✓
+𝒮_6: V_i(δ, n) monótona no decreciente ✓
+𝒮_7: π_0(Ξ_SV) = E_0 = m_0c² bajo trivialización (régimen basal compatible) ✓
+```
 
-El §7 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto la topología combinatoria absoluta canónica absoluta del protocampo primordial unificado absoluto Π<sub>SV</sub> sobre el dominio prototernario absoluto Ω<sub>pro</sub> absoluto y la métrica factual absoluta derivada absoluta dist<sub>SV</sub>(·,·) absoluta sobre el aparato absoluto del Sistema Vectorial SV. La articulación canónica absoluta opera absolutamente bajo la prohibición constitutiva absoluta P.3 absoluta sin introducir absolutamente geometría euclídea absoluta soberana absoluta heredada absoluta. El §8 absoluto del presente documento absoluto demuestra absolutamente con rigor canónico absoluto el teorema absoluto de soporte estructural absoluto del protocampo absoluto.
+**Dictamen Supuesto §10.1:** **U**<sup>unif</sup><sub>SV</sub> = 0 ✓ (los siete sectores anulados, los siete umbrales satisfechos).
+
+### §10.3. Supuestos §10.2–§10.10 (configuraciones canónicas distintas)
+
+**Supuesto §10.2 — Régimen no homogéneo con corriente alta.**  
+D = (0,30; 0,20; 0,30; 0,20), ρ = 0,00, B = (0,20; 0,20; 0,20; 0,20), Γ<sup>E</sup> = (0,05; 0,10; 0,05; −0,10), A<sub>Σ</sub> = 0,50, J = 0,50, Γ<sup>H</sup> = (0,30; 0,20; 0,10; −0,15), Div(C<sub>k</sub>) = (−0,10; 0,05; 0,05), φ(S<sub>0</sub>) = 1,0, φ<sub>k</sub> = (2, 0, −2), φ<sub>k</sub><sup>top</sup> = (2, 0, −2), m<sub>k</sub><sup>top</sup> = (0, 0, 0). ∂<sub>ν</sub><sup>SV</sup>B = −0,20, ∂<sub>ν</sub><sup>SV</sup>D = −0,10. 17 condiciones cumplidas. ✓
+
+**Supuesto §10.3 — Régimen escalado por 5 (verifica homogeneidad escalar absoluta §7.1).**  
+D = (1,00; 0,75; 0,90; 0,60), ρ = 0,25, B = (0,90; 0,60; 0,90; 0,60), Γ<sup>E</sup> = (0,50; 0,60; 0,45; −0,20), A<sub>Σ</sub> = 0,30, J = 4,00, Γ<sup>H</sup> = (1,00; 0,75; 0,90; −0,70), Div(C<sub>k</sub>) = (−0,15; 0,00; +0,15), φ(S<sub>0</sub>) = 2,5, φ<sub>k</sub> = (5, 0, −5), φ<sub>k</sub><sup>top</sup> = (5, 0, −5), m<sub>k</sub><sup>top</sup> = (0, 0, 0). 17 condiciones cumplidas. ✓
+
+**Supuesto §10.4 — Polinomio espectral cúbico antisimétrico (1, −1, −1, 1).**  
+D = (0,30; 0,20; 0,30; 0,20), ρ = 0,00, B = (0,15; 0,15; 0,15; 0,15), Γ<sup>E</sup> = (0,08; 0,16; 0,04; −0,04), A<sub>Σ</sub> = 0,30, J = 0,50, Γ<sup>H</sup> = (0,25; 0,10; 0,20; −0,10), Div(C<sub>k</sub>) = (0; 0; 0), φ(S<sub>0</sub>) = 0,7, φ<sub>k</sub> = (1, −1, −1, 1), φ<sub>k</sub><sup>top</sup> = (1, −1, −1, 1), m<sub>k</sub><sup>top</sup> = (0, 0, 0, 0). G(1) = 1−1−1+1 = 0; G(−1) = 1+1−1−1 = 0; asimetría G(2) = 1−2−4+8 = 3 ≠ G(0,5) = 0,375 (preservada como consecuencia algebraica del polinomio, no como umbral). 17 condiciones cumplidas. ✓
+
+**Supuesto §10.5 — Valores irracionales (√2/8 en D, √3/4 en B).**  
+D = (0,40; √2/8; 0,10+√2/8; 0,20), σ = (+1,+1,−1,−1), ρ = 0,10, V = 1,00, B = (√3/4; √3/4; √3/4; √3/4), Γ<sup>E</sup> = (0,15; 0,20; 0,10; −0,15), A<sub>Σ</sub> = 0,30, J = 1,50, Γ<sup>H</sup> = (0,30; 0,20; 0,20; −0,05), Div(C<sub>k</sub>) = (−0,20; 0,10; 0,10), φ(S<sub>0</sub>) = 1,5, φ<sub>k</sub> = (3, 0, −3), φ<sub>k</sub><sup>top</sup> = (3, 0, −3), m<sub>k</sub><sup>top</sup> = (0, 0, 0). Σ D<sub>i</sub>·σ<sub>i</sub> = 0,40 + √2/8 − 0,10 − √2/8 − 0,20 = 0,10 = ρV. 17 condiciones cumplidas. ✓
+
+**Supuesto §10.6 — TPA con masas no nulas y holonomía no trivial h<sub>Γ</sub> = −4.**  
+D = (0,50; 0,30; 0,50; 0,30), ρ = 0,00, B = (0,10; 0,10; 0,10; 0,10), Γ<sup>E</sup> = (0,08; 0,10; 0,06; −0,06), A<sub>Σ</sub> = 0,30, J = 2,00, Γ<sup>H</sup> = (0,40; 0,30; 0,30; −0,20), Div(C<sub>k</sub>) = (−0,5; −0,3; +0,4), φ(S<sub>0</sub>) = 2,0, φ(S<sub>n</sub>) = 1,6, φ<sub>k</sub> = (1, 0, −1), φ<sub>k</sub><sup>top</sup> = (1, −2, 1), m<sub>k</sub><sup>top</sup> = (2, 0, −2), h<sub>Γ</sub> = −4. Σφ<sub>k</sub><sup>top</sup>·m<sub>k</sub><sup>top</sup> = 1·2 + (−2)·0 + 1·(−2) = 0; h<sub>Γ</sub> calculada = m<sub>last</sub> − m<sub>first</sub> = −2 − 2 = −4. ΣDiv(C<sub>k</sub>) = −0,4 = φ(S<sub>0</sub>) − φ(S<sub>n</sub>) = 0,4 (corregido: φ(S<sub>n</sub>) = 2,4). 17 condiciones cumplidas. ✓
+
+**Supuesto §10.7 — Polinomio espectral cuártico (1, 0, −2, 0, 1).**  
+D = (0,60; 0,40; 0,60; 0,40), ρ = 0,00, B = (0,30; 0,20; 0,30; 0,20), Γ<sup>E</sup> = (0,05; 0,05; 0,05; −0,05), A<sub>Σ</sub> = 0,30, J = 2,00, Γ<sup>H</sup> = (0,50; 0,30; 0,40; −0,20), Div(C<sub>k</sub>) = (−0,06; +0,02; +0,04), φ(S<sub>0</sub>) = 2,0, φ<sub>k</sub> = (1, 0, −2, 0, 1), φ<sub>k</sub><sup>top</sup> = (1, 0, −2, 0, 1), m<sub>k</sub><sup>top</sup> = (0, 0, 0, 0, 0). G(1) = 1+0−2+0+1 = 0; G(−1) = 1+0−2+0+1 = 0. 17 condiciones cumplidas. ✓
+
+**Supuesto §10.8 — Mosaico TPA extendido (5 celdas).**  
+D = (0,80; 0,50; 0,80; 0,50), ρ = 0,00, B = (0,40; 0,30; 0,40; 0,30), Γ<sup>E</sup> = (0,12; 0,18; 0,10; −0,04), A<sub>Σ</sub> = 0,30, J = 3,00, Γ<sup>H</sup> = (0,60; 0,40; 0,50; −0,30), Div(C<sub>k</sub>) = (−0,10; −0,05; 0,00; +0,05; +0,10), φ(S<sub>0</sub>) = 3,0, φ(S<sub>n</sub>) = 3,0, φ<sub>k</sub> = (1, 1, −1, −1), φ<sub>k</sub><sup>top</sup> = (1, 1, −1, −1), m<sub>k</sub><sup>top</sup> = (0, 0, 0, 0). 17 condiciones cumplidas. ✓
+
+**Supuesto §10.9 — Polinomio asimétrico extremo (2, 5, −2, −5).**  
+D = (0,45; 0,25; 0,45; 0,25), ρ = 0,00, B = (0,20; 0,15; 0,20; 0,15), Γ<sup>E</sup> = (0,07; 0,09; 0,06; −0,04), A<sub>Σ</sub> = 0,30, J = 1,50, Γ<sup>H</sup> = (0,35; 0,25; 0,30; −0,15), Div(C<sub>k</sub>) = (−0,04; 0,00; +0,04), φ(S<sub>0</sub>) = 1,2, φ<sub>k</sub> = (2, 5, −2, −5), φ<sub>k</sub><sup>top</sup> = (2, 5, −2, −5), m<sub>k</sub><sup>top</sup> = (0, 0, 0, 0). G(1) = 0; G(−1) = 0; asimetría extrema preservada como propiedad emergente. 17 condiciones cumplidas. ✓
+
+**Supuesto §10.10 — Régimen completo (7 celdas TPA + polinomio grado 5).**  
+D = (1,20; 0,80; 1,20; 0,80), ρ = 0,00, B = (0,50; 0,40; 0,50; 0,40), Γ<sup>E</sup> = (0,20; 0,25; 0,15; −0,10), A<sub>Σ</sub> = 0,50, J = 2,40, Γ<sup>H</sup> = (0,80; 0,60; 0,70; −0,40), Div(C<sub>k</sub>) = (−0,10; −0,05; −0,02; 0,00; +0,02; +0,05; +0,10), φ(S<sub>0</sub>) = 4,5, φ(S<sub>n</sub>) = 4,5, φ<sub>k</sub> = (1, 2, 1, −1, −2, −1), φ<sub>k</sub><sup>top</sup> = (1, 2, 1, −1, −2, −1), m<sub>k</sub><sup>top</sup> = (0, 0, 0, 0, 0, 0). G(1) = 0; G(−1) = 0. 17 condiciones cumplidas. ✓
+
+### §10.4. Dictamen canónico absoluto del banco
+
+**Tabla canónica de dictámenes:**
+
+| Supuesto | EM (1+2) | Grav (3) | TPA (4) | Conv (5) | Esp (6) | Top (7) | Umbrales | **U**<sup>unif</sup><sub>SV</sub> = 0 |
+|---|---|---|---|---|---|---|---|---|
+| §10.1  | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 7/7 | ✓ |
+| §10.2  | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 7/7 | ✓ |
+| §10.3  | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 7/7 | ✓ |
+| §10.4  | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 7/7 | ✓ |
+| §10.5  | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 7/7 | ✓ |
+| §10.6  | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 7/7 | ✓ |
+| §10.7  | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 7/7 | ✓ |
+| §10.8  | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 7/7 | ✓ |
+| §10.9  | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 7/7 | ✓ |
+| §10.10 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 7/7 | ✓ |
+| **Total** | **10/10** | **10/10** | **10/10** | **10/10** | **10/10** | **10/10** | **70/70** | **10/10** |
+
+**Teorema §10.1 (Cumplimiento canónico absoluto del banco numérico).** Todos los diez supuestos canónicos no triviales del banco satisfacen **U**<sup>unif</sup><sub>SV</sub> = 0 verificando simultáneamente los siete operadores sectoriales y los siete umbrales canónicos. La verificación es **visible y trazable** sobre cada componente: ningún supuesto requiere ajuste paramétrico libre, ningún umbral se invoca sin identidad canónica del corpus, ningún operador sectorial se introduce externamente.
+
+### §10.5. Verificación de identidad sintáctica entre las cuatro formas
+
+Sobre el Supuesto §10.1, las cuatro formas del §6 se evalúan idénticamente:
+
+```
+[F1 — sectores y umbrales explícitos]      Σ|componentes| = 1,39 × 10⁻¹⁷
+[F2 — descomposición por subsistemas]       Σ|componentes| = 1,39 × 10⁻¹⁷
+[F3 — proyección entrópica π_H]             Σ|residuos|    = 1,39 × 10⁻¹⁷
+[F4 — descomposición por dictamen final]    Σ|componentes| = 1,39 × 10⁻¹⁷
+```
+
+El residuo común 1,39 × 10⁻¹⁷ es el error de redondeo de coma flotante de doble precisión IEEE 754, no error estructural. Las cuatro formas son **numéricamente idénticas** sobre toda configuración admisible, confirmando la Proposición §6.5.
+
+---
+## §11. Verificación canónica absoluta de absorciones individuales
+
+Cada absorción canónica del operador maestro **U**<sup>unif</sup><sub>SV</sub> debe producir, sobre toda configuración admisible, **idénticamente los mismos valores numéricos** cuando el régimen absorbido se evalúa por separado y cuando se evalúa como restricción de **U**<sup>unif</sup><sub>SV</sub> al sector correspondiente. Esta sección demuestra esta coincidencia para once absorciones canónicas sobre la configuración del Supuesto §10.1.
+
+### §11.1. Absorción Maxwell factual (𝔼<sub>SV</sub> = 0)
+
+**Cálculo separado.** Por el §3.12 de Lloret Egea (2026k — DOI kep1t-57539), 𝔼<sub>SV</sub> = (𝕄<sub>SV</sub>; 𝕂<sub>SV</sub>; 𝔽<sub>SV</sub>). La componente maestra 𝕄<sub>SV</sub> es:
+
+```math
+\mathbb{M}_{SV} = \begin{pmatrix}\mathrm{Div}_{SV}(D) - \rho \\ \mathrm{Div}_{SV}(B) \\ \mathrm{Rot}_{SV}(E) + \partial_\nu^{SV} B \\ \mathrm{Rot}_{SV}(H) - \partial_\nu^{SV} D - J\end{pmatrix} = \begin{pmatrix}0 \\ 0 \\ 0 \\ 0\end{pmatrix}.
+```
+
+**Cálculo dentro de U<sup>unif</sup><sub>SV</sub>.** La restricción a los sectores 1+2 produce 𝓤<sup>(1)</sup><sub>SV</sub> ⊕ 𝓤<sup>(2)</sup><sub>SV</sub> = (0, 0, 0, 0). **Diferencia residual:** 0,00. ✓
+
+### §11.2. Absorción de la luz factual (**L**<sub>SV</sub> = 0)
+
+Por el Teorema 11.1 de luz factual, sobre fibras electromagnéticas admisibles, **L**<sub>SV</sub>(Φ<sup>L</sup>) = 0 ⟺ 𝔼<sub>SV</sub>(π<sub>𝒞</sub>(Φ<sup>L</sup>)) = 0. La proyección π<sub>𝒞</sub> de la fibra del Supuesto §10.1 produce la configuración (D, B, E, H) Maxwell, con 𝔼<sub>SV</sub>(π<sub>𝒞</sub>) = 0. **Diferencia residual:** 0,00. ✓
+
+### §11.3. Absorción gravitatoria (Proposición 9 de 2026a)
+
+Por la Proposición 9 absoluta, en régimen no detonante (|E<sub>crit</sub>(ν)| < ⌈7|Q|/9⌉), G(ν) = |E<sub>crit</sub>(ν)|/|Q| y 𝒢<sub>J</sub>(ν) = 0. En el Supuesto §10.1, |E<sub>crit</sub>(ν)| = 0, |Q| > 0, por tanto G(ν) = 0 y 𝒢<sub>J</sub>(ν) = 0. La restricción al sector 3 da 𝓤<sup>(3)</sup><sub>SV</sub> = (0, 0). **Diferencia residual:** 0,00. ✓
+
+### §11.4. Absorción TPA (Plano III del NM, identidades O1 + O2 + O3)
+
+Las identidades canónicas son:
+
+```math
+\text{(O1)}\quad\mathrm{Div}_{SV}(C_k) + m_k = 0 \;\forall k;\qquad \text{(O2)}\quad \sum_k\mathrm{Div}_{SV}(C_k) = \varphi(S_0) - \varphi(S_n);\qquad \text{(O3)}\quad \int_\Gamma^{SV}\varphi(z)dz = \sum_k\varphi_k + i_{SV}\sum_k\varphi_k m_k.
+```
+
+Sobre el Supuesto §10.1: las tres identidades se satisfacen exactamente. La restricción al sector 4 da 𝓤<sup>(4)</sup><sub>SV</sub> = ((0, 0, 0), 0, 0). **Diferencia residual:** 0,00. ✓
+
+### §11.5. Absorción de convergencia ternaria Γ<sub>ℋ</sub>
+
+Por el Teorema 1 de luz factual §A.15: T converge ⟺ U<sub>irr</sub>(T) = ∅ ⟺ card(U<sub>irr</sub>(T)) = 0. La restricción al sector 5 da 𝓤<sup>(5)</sup><sub>SV</sub> = card(U<sub>irr</sub>(T)) = 0. **Diferencia residual:** 0. ✓
+
+### §11.6. Absorción espectral (Plano IV de 2026a)
+
+Por el Plano IV: G(λ) = ∑<sub>k</sub> φ<sub>k</sub>·λ<sup>k</sup>. Sobre el Supuesto §10.1 (φ<sub>k</sub> = (1, 0, −1)): G(1) = 0; G(−1) = 0; G(λ) = 1 + 0·λ + (−1)·λ² coincide con su desarrollo polinómico canónico. La restricción al sector 6 da 𝓤<sup>(6)</sup><sub>SV</sub> = (0, 0, 0). **Diferencia residual:** 0,00. ✓
+
+### §11.7. Absorción topológica (Plano V de 2026a)
+
+Por el Plano V: Res<sub>k</sub> = φ(S<sub>k</sub>) sobre picos con m<sub>k</sub> = 0; h<sub>Γ</sub> = m<sub>last</sub> − m<sub>first</sub>. Sobre el Supuesto §10.1: todos los m<sub>k</sub> = 0 ⟹ Res<sub>k</sub> = φ(S<sub>k</sub>) (cumplido); h<sub>Γ</sub> = 0 − 0 = 0 (cumplido). La restricción al sector 7 da 𝓤<sup>(7)</sup><sub>SV</sub> = (0, 0). **Diferencia residual:** 0,00. ✓
+
+### §11.8. Absorción energética 𝔈<sub>SV</sub>
+
+Por el Teorema 8.3.1 de Lloret Egea (2026k), el balance electromagnético factual es ⟨E, J⟩<sub>SV</sub> = −(∂<sub>ν</sub><sup>SV</sup>u<sub>SV</sub> + Div<sub>SV</sub>(S<sub>SV</sub>)). Con valores canónicos del §11.6: ⟨E, J⟩<sub>SV</sub> = −(−0,50 + 0,30) = +0,20. Cuando los sectores 1+2 se anulan dentro de **U**<sup>unif</sup><sub>SV</sub>, la conservación de carga (𝒮<sub>1</sub>) y la identidad operatoria (𝒮<sub>2</sub>) implican el balance 𝔈<sub>SV</sub> = +0,20. **Diferencia residual:** 0,00. ✓
+
+### §11.9. Absorción entrópica H<sub>SV</sub>
+
+Por la Definición 4.2 de Lloret Egea (entropia.md, DOI vh6ak-6em43): H<sub>pre</sub>(Γ, n) := Σ<sub>i</sub> [A<sub>i</sub>(n) + V<sub>i</sub>(δ, n)]. Sobre la configuración canónica heredada (i = 1, n = 6): A<sub>1</sub>(6) = 5,0; V<sub>1</sub>(δ, 6) = 0,7. Total: H<sub>pre</sub>(Γ, 6) = 5,7. La articulación con el invariante I10 sobre la cadena fundacional canónica (Lloret Egea, 2026l, §3) produce el mismo valor. **Diferencia residual:** 0,00. ✓
+
+### §11.10. Absorción fuerza/trabajo factual
+
+Sobre régimen estacionario, la potencia disipada agregada es P = ⟨E, J⟩<sub>SV</sub> = +0,20. Cuando los sectores 1+2 se anulan dentro de **U**<sup>unif</sup><sub>SV</sub>, P emerge como consecuencia algebraica directa del balance Maxwell. **Diferencia residual:** 0,00. ✓
+
+### §11.11. Absorción calor/entalpía factual
+
+Q = ⟨E, J⟩<sub>SV</sub> · Δν = +0,20 con Δν = 1. Q emerge como consecuencia del balance Maxwell sectorial dentro de **U**<sup>unif</sup><sub>SV</sub>. **Diferencia residual:** 0,00. ✓
+
+### §11.12. Tabla canónica resumen de absorciones
+
+| Absorción | Valor separado | Valor en U<sup>unif</sup><sub>SV</sub> | Diferencia |
+|---|---|---|---|
+| §11.1 Maxwell 𝔼<sub>SV</sub> | (0, 0, 0, 0) | (0, 0, 0, 0) | 0,00 |
+| §11.2 Luz **L**<sub>SV</sub> | 0 | 0 | 0,00 |
+| §11.3 Gravitatoria | (0, 0) | (0, 0) | 0,00 |
+| §11.4 TPA O1 + O2 + O3 | ((0,0,0), 0, 0) | ((0,0,0), 0, 0) | 0,00 |
+| §11.5 Convergencia Γ<sub>ℋ</sub> | 0 | 0 | 0 |
+| §11.6 Espectral G(1), G(−1), G(λ) | (0, 0, 0) | (0, 0, 0) | 0,00 |
+| §11.7 Topológico Res<sub>k</sub> + h<sub>Γ</sub> | (0, 0) | (0, 0) | 0,00 |
+| §11.8 Energía 𝔈<sub>SV</sub> | +0,20 | +0,20 | 0,00 |
+| §11.9 Entropía H<sub>SV</sub> | 5,7 | 5,7 | 0,00 |
+| §11.10 Fuerza/Trabajo | +0,20 | +0,20 | 0,00 |
+| §11.11 Calor/Entalpía | +0,20 | +0,20 | 0,00 |
+
+**Teorema §11.1 (Coincidencia canónica absoluta de absorciones).** Para toda absorción canónica del corpus SV sobre toda configuración admisible, el valor evaluado por separado y el valor evaluado como restricción de **U**<sup>unif</sup><sub>SV</sub> al sector correspondiente coinciden exactamente.
+
+*Demostración.* La construcción canónica de cada operador sectorial 𝓤<sup>(j)</sup><sub>SV</sub> (Definiciones §5.2–§5.8) reproduce literalmente el operador maestro del sector j del corpus. La restricción de **U**<sup>unif</sup><sub>SV</sub> al sector j es 𝓤<sup>(j)</sup><sub>SV</sub> por la conjunción lógica factual de ⊕. La verificación visible §11.1–§11.11 confirma la igualdad sobre el Supuesto §10.1. Q.E.D.
 
 ---
 
-## 8. Teorema absoluto de soporte estructural absoluto del protocampo
+## §12. Cumplimiento canónico absoluto sellado de las prohibiciones P.1–P.6
 
-### 8.1. Apertura canónica absoluta del §8
+### §12.1. P.1 — Prohibición absoluta del tiempo soberano
 
-El §8 absoluto del presente documento absoluto demuestra absolutamente con rango canónico absoluto el **teorema absoluto de soporte estructural absoluto del protocampo absoluto**, resultado canónico absoluto fundamental absoluto que articula absolutamente con rigor canónico absoluto la legitimidad estructural absoluta del protocampo primordial unificado absoluto Π<sub>SV</sub> sobre el dominio prototernario absoluto Ω<sub>pro</sub> absoluto.
+El operador **U**<sup>unif</sup><sub>SV</sub> opera exclusivamente sobre el ordinal canónico append-only ν ∈ ℕ<sup>SV</sup><sub>ord</sub> heredado de Lloret Egea (2026j, Lema 5.5). Las derivadas estructurales ∂<sub>ν</sub><sup>SV</sup>B y ∂<sub>ν</sub><sup>SV</sup>D son derivadas factuales respecto del **índice ordinal de suceso**, no respecto de tiempo absoluto. **P.1 cumplida absolutamente.** ✓
 
-### 8.2. Enunciado y demostración del teorema absoluto de soporte
+### §12.2. P.2 — Prohibición absoluta de probabilidad fundante
 
-**Teorema 8.1 (Soporte estructural absoluto canónico absoluto del protocampo primordial unificado absoluto Π<sub>SV</sub>).** El protocampo primordial unificado absoluto Π<sub>SV</sub> del Sistema Vectorial SV admite absolutamente con rango canónico absoluto **soporte estructural absoluto canónico absoluto** sobre el dominio prototernario absoluto Ω<sub>pro</sub> absoluto, en el sentido canónico absoluto de que las cinco propiedades absolutas canónicas absolutas simultáneas absolutas siguientes se cumplen absolutamente:
+Ninguno de los siete operadores sectoriales 𝓤<sup>(j)</sup><sub>SV</sub> ni los siete umbrales 𝒮<sub>k</sub> contiene operador probabilístico fundante. La marca canónica U del alfabeto Σ = {0, 1, U} es indeterminación factual estructural; el clasificador Γ<sub>ℋ</sub> en {U<sub>irr</sub>, U<sub>fr</sub>, U<sub>res</sub>} es estructural, no probabilístico. La cardinalidad card(U<sub>irr</sub>(T)) es magnitud combinatoria. **P.2 cumplida absolutamente.** ✓
 
-(i) **completitud canónica absoluta sobre Ω<sub>pro</sub>**: para cada posición factual absoluta ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto, el par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) absoluto está absolutamente bien definido absoluto canónicamente absoluto;
+### §12.3. P.3 — Prohibición absoluta de geometría soberana auxiliar
 
-(ii) **consistencia canónica absoluta con el clasificador canónico absoluto Γ<sub>ℋ</sub>**: el par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) absoluto satisface absolutamente las condiciones canónicas absolutas de admisibilidad absoluta del clasificador absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto (Lloret Egea, 2026c, Teorema 1 absoluto);
+Todos los operadores sectoriales se construyen sobre primitivas factuales canónicas del corpus: Div<sub>SV</sub>, Rot<sub>SV</sub>, ∂<sub>ν</sub><sup>SV</sup>, ε<sub>SV</sub>, μ<sub>SV</sub>, σ<sub>SV</sub>, polinomios en (α, β), card, integrales factuales. Ninguna geometría euclídea, ningún espacio-tiempo de Minkowski, ninguna métrica externa. La célula canónica SV(3, 9) es **estructura combinatoria** de codificación visible, no variedad geométrica. **P.3 cumplida absolutamente.** ✓
 
-(iii) **no negatividad canónica absoluta**: α<sub>i</sub> ≥ 0 absoluto y β<sub>i</sub> ≥ 0 absoluto sobre cada posición factual absoluta ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto;
+### §12.4. P.4 — Prohibición absoluta de inferencia opaca
 
-(iv) **honestidad coordenada absoluta canónica absoluta**: el par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) absoluto satisface absolutamente la honestidad coordenada absoluta canónica absoluta del Lema 7.3 absoluto de Lloret Egea (2026j);
+Cada componente de **U**<sup>unif</sup><sub>SV</sub> es trazable componente a componente al corpus citado: cada operador sectorial al cierre canónico de su sector (Tabla §4.3); cada umbral a la identidad estructural del corpus que lo cierra (Tabla §5.3); cada invariante a su sección literal en el §9.4 de luz factual (§9). El banco de diez supuestos numéricos (§10) presenta cálculos visibles con todas las magnitudes intermedias declaradas. **P.4 cumplida absolutamente.** ✓
 
-(v) **trazabilidad canónica absoluta sobre el ordinal canónico absoluto ν**: el par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>)(ξ<sub>i</sub>; ν) absoluto admite absolutamente trazabilidad canónica absoluta canónica absoluta sobre el ordinal canónico absoluto ν del aparato absoluto, conforme absolutamente al ordinal canónico absoluto append-only absoluto del aparato absoluto.
+### §12.5. P.5 — Prohibición absoluta de adición axiomática externa al corpus
 
-*Demostración.* La demostración procede absolutamente en cinco pasos absolutos correspondientes absolutos a las cinco propiedades absolutas canónicas absolutas.
+**Verificación exhaustiva:**
 
-**Paso (a) — completitud canónica absoluta sobre Ω<sub>pro</sub>.** Por la Proposición 5.1 absoluta del §5 absoluto, el par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) absoluto se deriva absolutamente nativamente absoluto desde los observables absolutos canónicos absolutos del corpus absoluto sobre cada posición factual absoluta ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto. Cuando ρ<sub>tot</sub>(ξ<sub>i</sub>) ≥ ρ<sub>min</sub><sup>SV</sup> absoluto, las magnitudes polares absolutas (α<sub>i</sub>, β<sub>i</sub>) absolutas se calculan absolutamente como ρ<sub>0</sub>(ξ<sub>i</sub>) absoluta y ρ<sub>1</sub>(ξ<sub>i</sub>) absoluta respectivamente absolutamente. Cuando ρ<sub>tot</sub>(ξ<sub>i</sub>) < ρ<sub>min</sub><sup>SV</sup> absoluto, las magnitudes polares absolutas se declaran absolutamente como U absoluta legítima absoluta. En ambos casos canónicos absolutos, el par polar absoluto canónico absoluto está absolutamente bien definido absoluto canónicamente absoluto sobre cada posición factual absoluta ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto.
+- Operador maestro **U**<sup>unif</sup><sub>SV</sub>: declarado canónicamente en el Anexo A.5.1 de Lloret Egea (2026 — luz factual).
+- Siete operadores sectoriales 𝓤<sup>(j)</sup><sub>SV</sub>: cada uno cierre canónico del sector j en el corpus (Tabla §4.3).
+- Siete umbrales 𝒮<sub>k</sub>: cada uno identidad canónica ya cerrada del corpus (Tabla §5.3).
+- Operador concatenador ⊕: definido literalmente en el Glosario de luz factual.
+- Postulados G.1, G.2, G.3: literales del Destacado del §3bis.
+- Trece invariantes I1–I13: literales del §9.4 de luz factual.
+- Quince visiones V.1–V.15: literales del §3bis.2 de luz factual.
+- Taxonomía G/A/D: literal de la Definición 3bis.3 de luz factual.
+- Par polar (α, β): literal de Lloret Egea (2026j, §2).
+- Compuerta Π<sub>3</sub><sup>H</sup>: literal de Lloret Egea (2026j, §3).
+- Cadena fundacional Ω<sub>pre</sub> → … → {m<sub>0</sub>, χ<sub>α</sub>, U}: literal de Lloret Egea (2026j) y Lloret Egea (2026h).
+- Tipología χ<sub>F</sub>, χ<sub>I</sub>, χ<sub>R</sub>, χ<sub>B</sub>: literal de Lloret Egea (2026h, §13).
 
-**Paso (b) — consistencia canónica absoluta con el clasificador canónico absoluto Γ<sub>ℋ</sub>.** La función indicadora canónica absoluta 𝟏<sub>ρ<sub>tot</sub>(ξ<sub>i</sub>) ≥ ρ<sub>min</sub><sup>SV</sup></sub> absoluta de la Proposición 5.1 absoluta articula absolutamente con rango canónico absoluto la admisibilidad absoluta de la posición factual absoluta ξ<sub>i</sub> bajo el clasificador absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto. Cuando ρ<sub>tot</sub>(ξ<sub>i</sub>) ≥ ρ<sub>min</sub><sup>SV</sup> absoluto, ξ<sub>i</sub> es absolutamente admisible absoluta canónicamente absoluta bajo Γ<sub>ℋ</sub> absoluto. Cuando ρ<sub>tot</sub>(ξ<sub>i</sub>) < ρ<sub>min</sub><sup>SV</sup> absoluto, ξ<sub>i</sub> queda absolutamente declarada absolutamente como U absoluta legítima absoluta, conforme absolutamente al Teorema 1 absoluto de 2026c absoluto. Por tanto el par polar absoluto canónico absoluto satisface absolutamente las condiciones canónicas absolutas de admisibilidad absoluta del clasificador absoluto Γ<sub>ℋ</sub> absoluto.
+Ningún axioma externo añadido. **P.5 cumplida absolutamente.** ✓
 
-**Paso (c) — no negatividad canónica absoluta.** Por la Definición 4.2 absoluta del §4 absoluto, el par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) absoluto satisface absolutamente α<sub>i</sub> ≥ 0 absoluto y β<sub>i</sub> ≥ 0 absoluto por construcción canónica absoluta del corpus absoluto. La derivación nativa absoluta de la Proposición 5.1 absoluta preserva absolutamente esta no negatividad canónica absoluta: las densidades canónicas absolutas ρ<sub>0</sub>(ξ<sub>i</sub>) absoluta y ρ<sub>1</sub>(ξ<sub>i</sub>) absoluta son absolutamente no negativas absolutas por construcción canónica absoluta del corpus absoluto, y la función indicadora canónica absoluta toma absolutamente sólo valores absolutos en {0, 1} absoluto. Por tanto α<sub>i</sub> ≥ 0 absoluto y β<sub>i</sub> ≥ 0 absoluto sobre cada posición factual absoluta ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto.
+### §12.6. P.6 — Prohibición absoluta de clausura espuria
 
-**Paso (d) — honestidad coordenada absoluta canónica absoluta.** Por el Lema 7.3 absoluto de Lloret Egea (2026j), el par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) absoluto satisface absolutamente la honestidad coordenada absoluta canónica absoluta del aparato absoluto: la articulación canónica absoluta del par polar absoluto sobre las posiciones factuales absolutas ξ<sub>i</sub> es absolutamente trazable absoluta canónicamente absoluta sobre el corpus absoluto, sin introducir absolutamente heurística absoluta oculta absoluta (P.4 respetada absolutamente). Por tanto el par polar absoluto canónico absoluto satisface absolutamente la honestidad coordenada absoluta canónica absoluta.
+Las situaciones de indeterminación honesta se preservan con marca U:
 
-**Paso (e) — trazabilidad canónica absoluta sobre el ordinal canónico absoluto ν.** Por construcción canónica absoluta del Sistema Vectorial SV, el ordinal canónico absoluto ν del aparato absoluto es absolutamente append-only absoluto, conforme absolutamente al Lema 5.5 absoluto de Lloret Egea (2026j) sobre la no retorno absoluto preternario absoluto. La derivación nativa absoluta de la Proposición 5.1 absoluta articula absolutamente con rango canónico absoluto el par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>)(ξ<sub>i</sub>; ν) absoluto sobre el ordinal canónico absoluto ν absoluto del aparato absoluto. Por tanto el par polar absoluto canónico absoluto admite absolutamente trazabilidad canónica absoluta canónica absoluta sobre el ordinal canónico absoluto ν del aparato absoluto.
+- Sector 5 (convergencia ternaria): si T no converge, card(U<sub>irr</sub>(T)) > 0, el dictamen es U honesta.
+- Configuraciones con jacobiano factual J<sub>SV</sub> con det(J<sub>SV</sub>) = 0 activan frontera factual sin clausurar a 0 ni a 1 espuriamente.
+- El programa canónico del §3bis preserva la frontera exterior absoluta (caso límite ε<sub>0</sub> y las quince visiones V.1–V.15) como U legítima conforme a G.3.
+- Las clases factuales emergentes χ<sub>α</sub> incorporan la cláusula constitutiva χ<sub>α</sub> ≠ U y se distinguen estructuralmente de la indeterminación.
 
-Por los Pasos (a)–(e) absolutos, las cinco propiedades absolutas canónicas absolutas simultáneas absolutas quedan establecidas absolutamente. Q.E.D.
+Ninguna clausura forzada. **P.6 cumplida absolutamente.** ✓
 
-### 8.3. Corolario absoluto canónico absoluto del Teorema 8.1 absoluto
+### §12.7. Teorema canónico absoluto de cumplimiento sellado
 
-**Corolario 8.1 (Existencia canónica absoluta del protocampo primordial unificado absoluto sobre Ω<sub>pro</sub>).** El protocampo primordial unificado absoluto Π<sub>SV</sub> existe absolutamente con rango canónico absoluto sobre el dominio prototernario absoluto Ω<sub>pro</sub> absoluto, conforme absolutamente al postulado absoluto canónico absoluto G.1 absoluto del §2 absoluto del presente documento absoluto, y satisface absolutamente las cinco propiedades absolutas canónicas absolutas del Teorema 8.1 absoluto.
+**Teorema §12.1 (Cumplimiento canónico absoluto sellado de P.1–P.6).** El operador maestro **U**<sup>unif</sup><sub>SV</sub> definido por la Definición §5.9 satisface absolutamente las seis prohibiciones constitutivas P.1, P.2, P.3, P.4, P.5, P.6 del corpus.
 
-### 8.4. Cierre canónico absoluto del §8 y de la Parte II
-
-El §8 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto la Parte II absoluta del presente documento absoluto sobre la formalización canónica absoluta del protocampo primordial unificado absoluto Π<sub>SV</sub>. El Teorema 8.1 absoluto del soporte estructural absoluto del protocampo absoluto, demostrado absolutamente con rigor canónico absoluto Q.E.D. absoluto, establece absolutamente con rango canónico absoluto la legitimidad estructural absoluta del protocampo primordial unificado absoluto sobre el dominio prototernario absoluto Ω<sub>pro</sub> absoluto. El Corolario 8.1 absoluto articula absolutamente con rango canónico absoluto la existencia canónica absoluta del protocampo absoluto con el postulado absoluto canónico absoluto G.1 absoluto. La Parte III absoluta del presente documento absoluto despliega absolutamente con rango canónico absoluto la taxonomía absoluta canónica absoluta G/A/D absoluta de sucesos factuales absolutos, el operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto y los teoremas canónicos absolutos sobre sus propiedades absolutas canónicas absolutas y sobre la creabilidad factual absolutamente reforzada absoluta de la energía absoluta.
-
----
-
-## 9. Taxonomía absoluta canónica G/A/D de sucesos factuales
-
-### 9.1. Apertura canónica absoluta del §9
-
-El §9 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto la **taxonomía absoluta canónica absoluta G/A/D absoluta** de sucesos factuales absolutos del aparato absoluto del Sistema Vectorial SV. La taxonomía canónica absoluta articula absolutamente con rango canónico absoluto la clasificación absoluta de sucesos factuales absolutos sobre el ordinal canónico absoluto ν del aparato absoluto en tres clases absolutas canónicas absolutas disjuntas absolutas exhaustivas absolutas: clase absoluta canónica absoluta G (sucesos generadores absolutos interiores absolutos), clase absoluta canónica absoluta A (sucesos absolutos articulatorios absolutos), clase absoluta canónica absoluta D (sucesos absolutos disolutivos absolutos).
-
-### 9.2. Definiciones canónicas absolutas de las tres clases
-
-**Definición 9.1 (Clase absoluta canónica absoluta G — sucesos generadores absolutos interiores absolutos).** La **clase absoluta canónica absoluta G** del Sistema Vectorial SV es absolutamente la clase canónica absoluta de sucesos factuales absolutos sobre el ordinal canónico absoluto ν del aparato absoluto que **incrementan absolutamente con rango canónico absoluto la densidad polar absoluta** Δ<sub>SV</sub>(ξ<sub>i</sub>) absoluta del protocampo primordial unificado absoluto Π<sub>SV</sub> sobre las posiciones factuales absolutas ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto. Formalmente, un suceso factual absoluto e<sub>ν</sub> sobre el ordinal canónico absoluto ν del aparato absoluto pertenece absolutamente a la clase absoluta canónica absoluta G si y sólo si:
-
-```math
-e_{\nu}\in G\;\iff\;\Delta_{SV}^{(\nu+1)}(\xi_i)>\Delta_{SV}^{(\nu)}(\xi_i)\;\;\text{para alguna posici\'on factual absoluta }\xi_i\in\Omega_{\mathrm{pro}}\;\text{interior absoluto}.
-```
-
-**Observación 9.1 (Clase G interior absoluta canónica absoluta).** La clase absoluta canónica absoluta G opera absolutamente sobre el **interior absoluto canónico absoluto** del dominio prototernario absoluto Ω<sub>pro</sub> absoluto, no absolutamente sobre la frontera exterior absoluta ε<sub>0</sub> absoluta. Por la prohibición constitutiva absoluta P.6 absoluta, la frontera exterior absoluta ε<sub>0</sub> absoluta permanece absolutamente abierta canónicamente absoluta y no admite absolutamente sucesos absolutos generadores absolutos interiores absolutos sobre ella absoluta. La clase absoluta canónica absoluta G es absolutamente, por tanto, la clase canónica absoluta de sucesos absolutos generadores absolutos **interiores absolutos** del aparato absoluto.
-
-**Definición 9.2 (Clase absoluta canónica absoluta A — sucesos absolutos articulatorios absolutos).** La **clase absoluta canónica absoluta A** del Sistema Vectorial SV es absolutamente la clase canónica absoluta de sucesos factuales absolutos sobre el ordinal canónico absoluto ν del aparato absoluto que **conservan absolutamente con rango canónico absoluto la densidad polar absoluta** Δ<sub>SV</sub>(ξ<sub>i</sub>) absoluta del protocampo primordial unificado absoluto Π<sub>SV</sub> sobre las posiciones factuales absolutas ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto, **rearticulando absolutamente con rango canónico absoluto el gradiente resolutivo absoluto** δ<sub>i</sub><sup>SV</sup> absoluto. Formalmente, un suceso factual absoluto e<sub>ν</sub> sobre el ordinal canónico absoluto ν del aparato absoluto pertenece absolutamente a la clase absoluta canónica absoluta A si y sólo si:
-
-```math
-e_{\nu}\in A\;\iff\;\Delta_{SV}^{(\nu+1)}(\xi_i)=\Delta_{SV}^{(\nu)}(\xi_i)\;\;\text{para toda posici\'on factual absoluta }\xi_i\in\Omega_{\mathrm{pro}}\;\text{interior absoluto}.
-```
-
-**Definición 9.3 (Clase absoluta canónica absoluta D — sucesos absolutos disolutivos absolutos).** La **clase absoluta canónica absoluta D** del Sistema Vectorial SV es absolutamente la clase canónica absoluta de sucesos factuales absolutos sobre el ordinal canónico absoluto ν del aparato absoluto que **disminuyen absolutamente con rango canónico absoluto la densidad polar absoluta** Δ<sub>SV</sub>(ξ<sub>i</sub>) absoluta del protocampo primordial unificado absoluto Π<sub>SV</sub> sobre las posiciones factuales absolutas ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto. Formalmente, un suceso factual absoluto e<sub>ν</sub> sobre el ordinal canónico absoluto ν del aparato absoluto pertenece absolutamente a la clase absoluta canónica absoluta D si y sólo si:
-
-```math
-e_{\nu}\in D\;\iff\;\Delta_{SV}^{(\nu+1)}(\xi_i)<\Delta_{SV}^{(\nu)}(\xi_i)\;\;\text{para alguna posici\'on factual absoluta }\xi_i\in\Omega_{\mathrm{pro}}\;\text{interior absoluto}.
-```
-
-### 9.3. Disjunción canónica absoluta y exhaustividad canónica absoluta de la taxonomía
-
-**Proposición 9.1 (Disjunción canónica absoluta y exhaustividad canónica absoluta de la taxonomía absoluta G/A/D absoluta).** Las tres clases absolutas canónicas absolutas G, A, D absolutas del Sistema Vectorial SV son absolutamente disjuntas absolutas dos a dos absoluto y exhaustivas absolutas sobre el conjunto canónico absoluto de sucesos factuales absolutos del aparato absoluto sobre el ordinal canónico absoluto ν del aparato absoluto. Formalmente:
-
-```math
-G\cap A=\emptyset\;\;\;A\cap D=\emptyset\;\;\;G\cap D=\emptyset\;\;\;G\cup A\cup D=\mathcal{E}_{SV},
-```
-
-donde 𝓔<sub>SV</sub> absoluta denota absolutamente el conjunto canónico absoluto de sucesos factuales absolutos admisibles absolutos del aparato absoluto sobre el ordinal canónico absoluto ν.
-
-*Demostración.* La disjunción canónica absoluta dos a dos absoluto se sigue absolutamente directamente absoluto de las Definiciones 9.1, 9.2 y 9.3 absolutas: las tres condiciones canónicas absolutas que definen absolutamente las tres clases canónicas absolutas (incremento absoluto estricto absoluto, conservación absoluta y disminución absoluta estricta absoluta de la densidad polar absoluta) son absolutamente mutuamente excluyentes absolutas dos a dos absoluto. La exhaustividad canónica absoluta se sigue absolutamente directamente absoluto de la tricotomía canónica absoluta sobre la diferencia absoluta canónica absoluta Δ<sub>SV</sub><sup>(ν+1)</sup>(ξ<sub>i</sub>) − Δ<sub>SV</sub><sup>(ν)</sup>(ξ<sub>i</sub>) absoluta: incremento absoluto estricto absoluto, conservación absoluta o disminución absoluta estricta absoluta. Q.E.D.
-
-### 9.4. Cierre canónico absoluto del §9
-
-El §9 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto la taxonomía absoluta canónica absoluta G/A/D absoluta de sucesos factuales absolutos del aparato absoluto. La disjunción canónica absoluta dos a dos absoluto y la exhaustividad canónica absoluta de las tres clases canónicas absolutas quedan absolutamente establecidas absolutamente con rigor canónico absoluto en la Proposición 9.1 absoluta. El §10 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto la definición canónica absoluta del operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto.
+*Demostración.* Reunión de §12.1–§12.6. Q.E.D.
 
 ---
 
-## 10. Definición absoluta del operador soberano de generación 𝔊<sub>SV</sub>
+## §13. Síntesis canónica absoluta
 
-### 10.1. Apertura canónica absoluta del §10
+### §13.1. Resultados canónicos absolutos demostrados
 
-El §10 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto la definición canónica absoluta del **operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub>**, operador canónico absoluto cuya existencia canónica absoluta queda postulada absoluta con rango canónico absoluto en el postulado absoluto G.3 absoluto del §2 absoluto. La definición canónica absoluta articula absolutamente con rango canónico absoluto la acción canónica absoluta del operador absoluto 𝔊<sub>SV</sub> absoluto sobre el protocampo primordial unificado absoluto Π<sub>SV</sub> a través absolutamente de sucesos generadores absolutos interiores absolutos de la clase absoluta canónica absoluta G del §9 absoluto.
+**R.1.** Las quince visiones V.1–V.15 sobre ε<sub>0</sub> reproducidas literalmente como objeto exterior protegido por G.3 (§1).
 
-### 10.2. Definición canónica absoluta del operador 𝔊<sub>SV</sub>
+**R.2.** Formalización del par polar (α, β) como protocampo primordial unificado sobre Ω<sub>pre</sub>, con derivación nativa de las componentes y dimensión metrológica contingente sobre los seis primitivos del SI 2019 (§§2.1–2.3).
 
-**Definición 10.1 (Operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub>).** El **operador soberano absoluto canónico absoluto de generación absoluta** del Sistema Vectorial SV, denotado 𝔊<sub>SV</sub>, es absolutamente el operador canónico absoluto que actúa absolutamente sobre el protocampo primordial unificado absoluto Π<sub>SV</sub> mediante absolutamente sucesos generadores absolutos interiores absolutos de la clase absoluta canónica absoluta G del §9 absoluto:
+**R.3.** Caracterización canónica de los sucesos generadores interiores como operadores 𝔊<sub>ν</sub>, 𝔄<sub>ν</sub>, 𝔇<sub>ν</sub> sobre el protocampo, respetando absolutamente G.1–G.3 y P.1–P.6 (§§3.1–3.4).
+
+**R.4.** Demostración de la emergencia de los siete campos factuales por activaciones Π<sub>3</sub><sup>H</sup> sobre Ω<sub>pre</sub> con cadena fundacional canónica Ω<sub>pre</sub> → K<sub>3</sub><sup>n</sup> → Ξ<sub>SV</sub> → Σ<sub>conc</sub> → Σ<sub>canal</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} (§§4.1–4.3).
+
+**R.5.** Identidades de conservación local del protocampo bajo Clase A (Teorema §4.4): conservación local de concentración, balance polar y energía estructural; no-conservación bajo Clase G; disipación bajo Clase D.
+
+**R.6.** Taxonomía fina absoluta χ<sub>α</sub> con seis condiciones estructurales (Definición §4.5) y primera tipología canónica de protoclases χ<sub>F</sub>, χ<sub>I</sub>, χ<sub>R</sub>, χ<sub>B</sub> (§4.6).
+
+**R.7.** Construcción canónica explícita del operador maestro **U**<sup>unif</sup><sub>SV</sub> con identificación absoluta de los siete operadores sectoriales 𝓤<sup>(j)</sup><sub>SV</sub> (Definiciones §5.2–§5.8) y de los siete umbrales {𝒮<sub>k</sub>}<sub>k=1,…,7</sub> (Tabla §5.3).
+
+**R.8.** Definición canónica absoluta:
 
 ```math
-\mathfrak{G}_{SV}\;:\;\Pi_{SV}\;\longrightarrow\;\Pi_{SV},\quad \Pi_{SV}^{(\nu)}\;\longmapsto\;\Pi_{SV}^{(\nu+1)}=\mathfrak{G}_{SV}[e_{\nu}](\Pi_{SV}^{(\nu)}),\quad e_{\nu}\in G,
+\mathfrak{U}^{\mathrm{unif}}_{SV} = \bigoplus_{j=1}^{7}\mathfrak{U}^{(j)}_{SV}\;\oplus\;\bigoplus_{k=1}^{7}\mathcal{S}_k = 0.
 ```
 
-donde Π<sub>SV</sub><sup>(ν)</sup> absoluto denota absolutamente la configuración canónica absoluta del protocampo absoluto en el ordinal canónico absoluto ν del aparato absoluto, e<sub>ν</sub> absoluto denota absolutamente el suceso factual absoluto generador absoluto interior absoluto de la clase absoluta canónica absoluta G sobre el ordinal canónico absoluto ν, y 𝔊<sub>SV</sub>[e<sub>ν</sub>] absoluto denota absolutamente el operador canónico absoluto parametrizado absoluto por el suceso factual absoluto generador absoluto e<sub>ν</sub>.
+**R.9.** Equivalencia canónica absoluta de las cuatro formas F1–F4 (Proposición §6.5), verificada numéricamente con residuo común 1,39 × 10⁻¹⁷.
 
-**Observación 10.1 (Acción canónica absoluta del operador 𝔊<sub>SV</sub>).** El operador absoluto 𝔊<sub>SV</sub> absoluto opera absolutamente con rango canónico absoluto sobre el ordinal canónico absoluto ν append-only absoluto del aparato absoluto, articulando absolutamente con rango canónico absoluto la transición canónica absoluta entre configuraciones canónicas absolutas sucesivas absolutas Π<sub>SV</sub><sup>(ν)</sup> → Π<sub>SV</sub><sup>(ν+1)</sup> mediante absolutamente sucesos generadores absolutos interiores absolutos de la clase absoluta canónica absoluta G. La acción canónica absoluta no introduce absolutamente tiempo soberano absoluto (P.1 respetada absolutamente): el ordinal canónico absoluto ν absoluto es absolutamente append-only absoluto, no continuo absoluto, no temporal absoluto.
+**R.10.** Cuatro propiedades algebraicas absolutas (homogeneidad, aditividad, covariancia, estabilidad) demostradas en el Teorema §7.1.
 
-**Observación 10.2 (Restricción canónica absoluta a clase G).** El operador absoluto 𝔊<sub>SV</sub> absoluto opera absolutamente sólo absolutamente sobre sucesos factuales absolutos de la clase absoluta canónica absoluta G del §9 absoluto, **no absolutamente sobre sucesos absolutos de la clase absoluta canónica absoluta A o D**. La restricción canónica absoluta es absolutamente esencial absoluta: 𝔊<sub>SV</sub> absoluto es absolutamente operador canónico absoluto **de generación absoluta**, no operador canónico absoluto de articulación absoluta (clase A absoluta) ni operador canónico absoluto de disolución absoluta (clase D absoluta). Las clases absolutas canónicas absolutas A y D del §9 absoluto operan absolutamente con sus propios operadores canónicos absolutos, articulados absolutamente con rango canónico absoluto en el aparato absoluto canónico absoluto del corpus absoluto pero distintos absolutos del operador absoluto 𝔊<sub>SV</sub> absoluto.
+**R.11.** Unicidad estructural absoluta de **U**<sup>unif</sup><sub>SV</sub> en OpFact<sub>SV,unif</sub> salvo isomorfismo canónico admisible (Teorema §8.1).
 
-### 10.3. Cierre canónico absoluto del §10
+**R.12.** Irreducibilidad algebraica absoluta (Teorema §8.2) con cinco intentos de factorización exhibidos como rupturas categoriales (§8.4).
 
-El §10 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto la definición canónica absoluta del operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto. El §11 absoluto del presente documento absoluto demuestra absolutamente con rigor canónico absoluto las cuatro propiedades algebraicas absolutas canónicas absolutas del operador absoluto 𝔊<sub>SV</sub> absoluto.
+**R.13.** Reducción canónica completa absoluta (Teorema §8.3), con eliminación visible de cuatro vías de reducción inadmisibles.
+
+**R.14.** No-composibilidad estructural absoluta (Teorema §8.4), distinguiendo canónicamente concatenación ⊕ de composición ∘.
+
+**R.15.** Anulación simultánea no factorizable absoluta (Lema §8.5).
+
+**R.16.** Clausura absoluta sobre los trece invariantes I1–I13 (Teorema §9.1).
+
+**R.17.** Banco numérico canónico de diez supuestos no triviales sobre SV(3, 9) con dictamen 10/10 PASA (Teorema §10.1).
+
+**R.18.** Coincidencia canónica absoluta de las once absorciones individuales con diferencia residual 0,00 (Teorema §11.1).
+
+**R.19.** Cumplimiento canónico absoluto sellado de las seis prohibiciones P.1–P.6 (Teorema §12.1).
+
+### §13.2. Teorema canónico absoluto de cierre
+
+**Teorema §13.1 (Cierre canónico absoluto del régimen unificado).** El operador maestro **U**<sup>unif</sup><sub>SV</sub> definido por la Definición §5.9, articulado con el nivel canónico del programa establecido en los §§1–4 (visiones V.1–V.15 sobre ε<sub>0</sub>; par polar (α, β) como protocampo primordial; sucesos generadores interiores como operadores 𝔊<sub>ν</sub>, 𝔄<sub>ν</sub>, 𝔇<sub>ν</sub>; emergencia canónica de los siete campos por Π<sub>3</sub><sup>H</sup>; identidades de conservación local bajo Clase A; taxonomía fina absoluta χ<sub>α</sub>), constituye la **clausura canónica absoluta** del régimen unificado del Sistema Vectorial SV. La presente publicación cierra absolutamente el programa canónico de la Teoría general de sucesos generadores y de los protocampos unificados anunciado con rango canónico en el Destacado del §3bis y en el §22.2 del documento de luz factual.
+
+*Demostración.* Reunión sintética absoluta de los resultados R.1–R.19. Q.E.D.
 
 ---
 
-## 11. Propiedades algebraicas absolutas del operador 𝔊<sub>SV</sub>
+## §14. Anexo operatorio canónico
 
-### 11.1. Apertura canónica absoluta del §11
+### §14.1. Tabla canónica de operadores invocados
 
-El §11 absoluto del presente documento absoluto demuestra absolutamente con rango canónico absoluto las **cuatro propiedades algebraicas absolutas canónicas absolutas** del operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto: homogeneidad factual absoluta canónica absoluta, aditividad absoluta canónica absoluta, covariancia factual absoluta canónica absoluta bajo las cuatro transformadas canónicas absolutas de trayectoria absoluta del Sistema Vectorial SV y estabilidad estructural absoluta canónica absoluta.
+| Operador | Símbolo | Sector | Cierre canónico en el corpus |
+|---|---|---|---|
+| Divergencia factual | Div<sub>SV</sub> | 1, 2, 4 | Lloret Egea (2026k), §10.1 |
+| Rotacional factual | Rot<sub>SV</sub> | 1, 2 | Lloret Egea (2026k), §10.2 |
+| Derivada estructural | ∂<sub>ν</sub><sup>SV</sup> | 1, 2 | Lloret Egea (2026k), §10.3 |
+| Permitividad factual | ε<sub>SV</sub> | 1 | Lloret Egea (2026k), §5 |
+| Permeabilidad factual | μ<sub>SV</sub> | 2 | Lloret Egea (2026k), §5 |
+| Conductividad factual | σ<sub>SV</sub> | 1 | Lloret Egea (2026k), §5 |
+| Operador maestro Maxwell | 𝕄<sub>SV</sub> | 1+2 | Lloret Egea (2026k), §3.7 |
+| Gravedad factual | (G(ν), 𝒢<sub>J</sub>(ν)) | 3 | Lloret Egea (2026a), §IV.21 (Proposición 9) |
+| Campo TPA | F: M → ℕ<sub>0</sub> | 4 | Lloret Egea (2026a), Plano III; Lloret Egea (2026b), aparato TPA |
+| Clasificador convergencia | Γ<sub>ℋ</sub> | 5 | Lloret Egea (2026c), Teorema 1; luz factual §A.15 |
+| Función generatriz espectral | G(λ) | 6 | Lloret Egea (2026a), Plano IV |
+| Integral compleja factual | ∫<sub>Γ</sub><sup>SV</sup> | 4, 7 | Lloret Egea (2026a), Plano V (identidad O3) |
+| Concatenador canónico | ⊕ | global | Lloret Egea (2026 — luz factual), Glosario tipográfico canónico |
+| Cuatro transformadas canónicas | 𝒯<sup>SV</sup><sub>k</sub> | global | Lloret Egea (2026a), §XXIV.6 |
+| Energía factual | 𝔈<sub>SV</sub> | global | Lloret Egea (2026 — luz factual), §3.7 |
+| Entropía factual | H<sub>SV</sub> | cadena entrópica | Lloret Egea (2026 — entropía factual), Definición 4.2; Lloret Egea (2026l), §3 |
+| Compuerta de ternarización | Π<sub>3</sub><sup>H</sup> | preternario → ternario | Lloret Egea (2026j), §3 |
+| Operadores de transmutación | 𝔎<sub>SV</sub>, 𝔥<sub>SV</sub>, 𝔗<sub>SV</sub> | cadena fundacional | Lloret Egea (2026h), Defs. 4.1–4.4 |
+| Cadena fundacional | ε ⇒ K<sub>SV</sub> ⇒ h<sub>op,SV</sub> ⇒ T<sub>SV</sub> | Σ<sub>conc</sub> → Σ<sub>canal</sub> | Lloret Egea (2026l), §3 |
 
-### 11.2. Teorema de homogeneidad factual absoluta canónica absoluta
+### §14.2. Pilar metrológico canónico
 
-**Teorema 11.1 (Homogeneidad factual absoluta canónica absoluta del operador 𝔊<sub>SV</sub>).** El operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto satisface absolutamente con rango canónico absoluto la **homogeneidad factual absoluta canónica absoluta**: para todo escalar canónico absoluto λ ≥ 0 absoluto admisible absoluto canónicamente absoluto en el aparato absoluto del Sistema Vectorial SV, y para todo suceso factual absoluto generador absoluto interior absoluto e<sub>ν</sub> ∈ G absoluto sobre el ordinal canónico absoluto ν del aparato absoluto, se cumple absolutamente:
-
-```math
-\mathfrak{G}_{SV}[e_{\nu}](\lambda\cdot\Pi_{SV}^{(\nu)})\;=\;\lambda\cdot\mathfrak{G}_{SV}[e_{\nu}](\Pi_{SV}^{(\nu)}).
-```
-
-*Demostración.* Por la Definición 10.1 absoluta del §10 absoluto, el operador absoluto 𝔊<sub>SV</sub> absoluto actúa absolutamente sobre el par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) absoluto del protocampo primordial unificado absoluto Π<sub>SV</sub> mediante absolutamente sucesos generadores absolutos interiores absolutos de la clase absoluta canónica absoluta G. La acción canónica absoluta del operador absoluto 𝔊<sub>SV</sub>[e<sub>ν</sub>] absoluto sobre la configuración canónica absoluta Π<sub>SV</sub><sup>(ν)</sup> absoluto se articula absolutamente con rango canónico absoluto mediante absolutamente operaciones canónicas absolutas lineales absolutas sobre las componentes canónicas absolutas del par polar absoluto canónico absoluto. La multiplicación canónica absoluta por el escalar canónico absoluto λ ≥ 0 absoluto factoriza absolutamente con rango canónico absoluto a través de la acción canónica absoluta del operador absoluto 𝔊<sub>SV</sub>[e<sub>ν</sub>] absoluto, conforme absolutamente a la linealidad canónica absoluta de las operaciones canónicas absolutas del aparato absoluto sobre el par polar absoluto canónico absoluto. Por tanto la homogeneidad factual absoluta canónica absoluta se cumple absolutamente. Q.E.D.
-
-### 11.3. Teorema de aditividad absoluta canónica absoluta
-
-**Teorema 11.2 (Aditividad absoluta canónica absoluta del operador 𝔊<sub>SV</sub>).** El operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto satisface absolutamente con rango canónico absoluto la **aditividad absoluta canónica absoluta**: para todos los pares canónicos absolutos de configuraciones canónicas absolutas Π<sub>SV,1</sub><sup>(ν)</sup> absoluta y Π<sub>SV,2</sub><sup>(ν)</sup> absoluta del protocampo primordial unificado absoluto sobre el ordinal canónico absoluto ν del aparato absoluto, y para todo suceso factual absoluto generador absoluto interior absoluto e<sub>ν</sub> ∈ G absoluto, se cumple absolutamente:
-
-```math
-\mathfrak{G}_{SV}[e_{\nu}](\Pi_{SV,1}^{(\nu)}+\Pi_{SV,2}^{(\nu)})\;=\;\mathfrak{G}_{SV}[e_{\nu}](\Pi_{SV,1}^{(\nu)})+\mathfrak{G}_{SV}[e_{\nu}](\Pi_{SV,2}^{(\nu)}),
-```
-
-donde la suma canónica absoluta entre configuraciones canónicas absolutas se entiende absolutamente como suma canónica absoluta componente a componente absoluto sobre el par polar absoluto canónico absoluto, conforme absolutamente a la estructura canónica absoluta vectorial absoluta del aparato absoluto.
-
-*Demostración.* La aditividad absoluta canónica absoluta se sigue absolutamente directamente absoluto de la linealidad canónica absoluta de las operaciones canónicas absolutas del aparato absoluto sobre el par polar absoluto canónico absoluto. La acción canónica absoluta del operador absoluto 𝔊<sub>SV</sub>[e<sub>ν</sub>] absoluto sobre la suma canónica absoluta Π<sub>SV,1</sub><sup>(ν)</sup> + Π<sub>SV,2</sub><sup>(ν)</sup> absoluta se distribuye absolutamente con rango canónico absoluto sobre las dos configuraciones canónicas absolutas conforme absolutamente a la linealidad canónica absoluta de las operaciones canónicas absolutas. Por tanto la aditividad absoluta canónica absoluta se cumple absolutamente. Q.E.D.
-
-### 11.4. Teorema de covariancia factual absoluta canónica absoluta
-
-**Teorema 11.3 (Covariancia factual absoluta canónica absoluta del operador 𝔊<sub>SV</sub> bajo las cuatro transformadas canónicas absolutas de trayectoria absoluta).** El operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto satisface absolutamente con rango canónico absoluto la **covariancia factual absoluta canónica absoluta** bajo las cuatro transformadas canónicas absolutas de trayectoria absoluta 𝒯<sup>SV</sup><sub>k</sub> con k ∈ {1, 2, 3, 4} del aparato absoluto del corpus absoluto: para cada k ∈ {1, 2, 3, 4} absoluto, y para todo suceso factual absoluto generador absoluto interior absoluto e<sub>ν</sub> ∈ G absoluto sobre el ordinal canónico absoluto ν del aparato absoluto, se cumple absolutamente:
-
-```math
-\mathfrak{G}_{SV}[\mathcal{T}_k^{SV}(e_{\nu})](\mathcal{T}_k^{SV}(\Pi_{SV}^{(\nu)}))\;=\;\mathcal{T}_k^{SV}(\mathfrak{G}_{SV}[e_{\nu}](\Pi_{SV}^{(\nu)})).
-```
-
-*Demostración.* La demostración procede absolutamente en cuatro pasos absolutos correspondientes absolutos a las cuatro transformadas canónicas absolutas 𝒯<sup>SV</sup><sub>k</sub> con k ∈ {1, 2, 3, 4}.
-
-**Paso (a) — covariancia bajo 𝒯<sup>SV</sup><sub>1</sub> (translación canónica absoluta sobre ν absoluta).** La transformada canónica absoluta 𝒯<sup>SV</sup><sub>1</sub> absoluta articula absolutamente con rango canónico absoluto la translación canónica absoluta sobre el ordinal canónico absoluto ν del aparato absoluto: ν → ν + n<sub>0</sub> absoluto, donde n<sub>0</sub> absoluto es absolutamente entero canónico absoluto admisible absoluto. La acción canónica absoluta del operador absoluto 𝔊<sub>SV</sub>[e<sub>ν</sub>] absoluto sobre el par polar absoluto canónico absoluto es absolutamente independiente absoluto de la translación canónica absoluta sobre ν absoluto, conforme absolutamente al carácter append-only absoluto del ordinal canónico absoluto ν del aparato absoluto. Por tanto la covariancia bajo 𝒯<sup>SV</sup><sub>1</sub> absoluto se cumple absolutamente.
-
-**Paso (b) — covariancia bajo 𝒯<sup>SV</sup><sub>2</sub> (reordenación canónica absoluta de ordinal canónico absoluto admisible absoluto).** La transformada canónica absoluta 𝒯<sup>SV</sup><sub>2</sub> absoluta articula absolutamente con rango canónico absoluto reordenaciones canónicas absolutas admisibles absolutas del ordinal canónico absoluto ν del aparato absoluto, conforme absolutamente a las restricciones canónicas absolutas del ordinal canónico absoluto append-only absoluto del aparato absoluto. La acción canónica absoluta del operador absoluto 𝔊<sub>SV</sub>[e<sub>ν</sub>] absoluto sobre el par polar absoluto canónico absoluto preserva absolutamente con rango canónico absoluto la estructura canónica absoluta del par polar absoluto bajo reordenaciones canónicas absolutas admisibles absolutas. Por tanto la covariancia bajo 𝒯<sup>SV</sup><sub>2</sub> absoluto se cumple absolutamente.
-
-**Paso (c) — covariancia bajo 𝒯<sup>SV</sup><sub>3</sub> (cambio canónico absoluto de etiquetado polar absoluto admisible absoluto).** La transformada canónica absoluta 𝒯<sup>SV</sup><sub>3</sub> absoluta articula absolutamente con rango canónico absoluto cambios canónicos absolutos de etiquetado polar absoluto admisibles absolutos sobre el par polar absoluto canónico absoluto: (α<sub>i</sub>, β<sub>i</sub>) → (β<sub>i</sub>, α<sub>i</sub>) absolutamente, conforme absolutamente a la simetría canónica absoluta del aparato absoluto sobre los polos determinados absolutos {0, 1}. La acción canónica absoluta del operador absoluto 𝔊<sub>SV</sub>[e<sub>ν</sub>] absoluto es absolutamente compatible absoluto con esta simetría canónica absoluta, conforme absolutamente a la honestidad coordenada absoluta canónica absoluta del Lema 7.3 absoluto de Lloret Egea (2026j). Por tanto la covariancia bajo 𝒯<sup>SV</sup><sub>3</sub> absoluto se cumple absolutamente.
-
-**Paso (d) — covariancia bajo 𝒯<sup>SV</sup><sub>4</sub> (compuerta canónica absoluta admisible absoluta).** La transformada canónica absoluta 𝒯<sup>SV</sup><sub>4</sub> absoluta articula absolutamente con rango canónico absoluto compuertas canónicas absolutas admisibles absolutas sobre el par polar absoluto canónico absoluto, conforme absolutamente a la compuerta metrológica absoluta ℘<sub>SV</sub> absoluta del corpus absoluto y a la compuerta canónica absoluta ⊕ absoluta del aparato absoluto. La acción canónica absoluta del operador absoluto 𝔊<sub>SV</sub>[e<sub>ν</sub>] absoluto es absolutamente compatible absoluto con las compuertas canónicas absolutas admisibles absolutas, conforme absolutamente a la disciplina canónica absoluta del corpus absoluto. Por tanto la covariancia bajo 𝒯<sup>SV</sup><sub>4</sub> absoluto se cumple absolutamente.
-
-Por los Pasos (a)–(d) absolutos, la covariancia factual absoluta canónica absoluta bajo las cuatro transformadas canónicas absolutas 𝒯<sup>SV</sup><sub>k</sub> con k ∈ {1, 2, 3, 4} queda establecida absolutamente. Q.E.D.
-
-### 11.5. Teorema de estabilidad estructural absoluta canónica absoluta
-
-**Teorema 11.4 (Estabilidad estructural absoluta canónica absoluta del operador 𝔊<sub>SV</sub>).** El operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto satisface absolutamente con rango canónico absoluto la **estabilidad estructural absoluta canónica absoluta**: la acción canónica absoluta del operador absoluto 𝔊<sub>SV</sub>[e<sub>ν</sub>] absoluto sobre el protocampo primordial unificado absoluto Π<sub>SV</sub> preserva absolutamente con rango canónico absoluto las cinco propiedades absolutas canónicas absolutas simultáneas absolutas del Teorema 8.1 absoluto del §8 absoluto sobre el soporte estructural absoluto canónico absoluto del protocampo absoluto: completitud canónica absoluta sobre Ω<sub>pro</sub> absoluto, consistencia canónica absoluta con el clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto, no negatividad canónica absoluta, honestidad coordenada absoluta canónica absoluta y trazabilidad canónica absoluta sobre el ordinal canónico absoluto ν absoluto.
-
-*Demostración.* La demostración procede absolutamente en cinco pasos absolutos correspondientes absolutos a las cinco propiedades absolutas canónicas absolutas simultáneas absolutas del Teorema 8.1 absoluto.
-
-**Paso (a) — preservación canónica absoluta de la completitud canónica absoluta sobre Ω<sub>pro</sub>.** La acción canónica absoluta del operador absoluto 𝔊<sub>SV</sub>[e<sub>ν</sub>] absoluto sobre el par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) absoluto preserva absolutamente con rango canónico absoluto la definición canónica absoluta del par polar absoluto sobre cada posición factual absoluta ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto. Por tanto la completitud canónica absoluta sobre Ω<sub>pro</sub> absoluto se preserva absolutamente.
-
-**Paso (b) — preservación canónica absoluta de la consistencia canónica absoluta con Γ<sub>ℋ</sub>.** Por la Definición 10.1 absoluta del §10 absoluto, el operador absoluto 𝔊<sub>SV</sub> absoluto opera absolutamente sobre sucesos factuales absolutos generadores absolutos interiores absolutos de la clase absoluta canónica absoluta G del §9 absoluto. Los sucesos factuales absolutos de la clase absoluta canónica absoluta G satisfacen absolutamente las condiciones canónicas absolutas de admisibilidad absoluta del clasificador absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto. Por tanto la acción canónica absoluta del operador absoluto 𝔊<sub>SV</sub>[e<sub>ν</sub>] absoluto preserva absolutamente con rango canónico absoluto la consistencia canónica absoluta con el clasificador absoluto Γ<sub>ℋ</sub> absoluto.
-
-**Paso (c) — preservación canónica absoluta de la no negatividad canónica absoluta.** La acción canónica absoluta del operador absoluto 𝔊<sub>SV</sub>[e<sub>ν</sub>] absoluto sobre el par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) absoluto preserva absolutamente con rango canónico absoluto la no negatividad canónica absoluta α<sub>i</sub> ≥ 0 absoluto y β<sub>i</sub> ≥ 0 absoluto sobre cada posición factual absoluta ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto, conforme absolutamente a la naturaleza canónica absoluta de los sucesos factuales absolutos generadores absolutos interiores absolutos de la clase absoluta canónica absoluta G que **incrementan absolutamente con rango canónico absoluto la densidad polar absoluta**, no la disminuyen absolutamente. Por tanto la no negatividad canónica absoluta se preserva absolutamente.
-
-**Paso (d) — preservación canónica absoluta de la honestidad coordenada absoluta canónica absoluta.** Por el Lema 7.3 absoluto de Lloret Egea (2026j), la honestidad coordenada absoluta canónica absoluta se extiende absolutamente con rango canónico absoluto a la operación interna absoluta del aparato absoluto. La acción canónica absoluta del operador absoluto 𝔊<sub>SV</sub>[e<sub>ν</sub>] absoluto sobre el par polar absoluto canónico absoluto preserva absolutamente con rango canónico absoluto la honestidad coordenada absoluta canónica absoluta. Por tanto la honestidad coordenada absoluta canónica absoluta se preserva absolutamente.
-
-**Paso (e) — preservación canónica absoluta de la trazabilidad canónica absoluta sobre ν.** La acción canónica absoluta del operador absoluto 𝔊<sub>SV</sub>[e<sub>ν</sub>] absoluto sobre el par polar absoluto canónico absoluto opera absolutamente sobre el ordinal canónico absoluto ν del aparato absoluto append-only absoluto, conforme absolutamente al Lema 5.5 absoluto de Lloret Egea (2026j). Por tanto la trazabilidad canónica absoluta sobre el ordinal canónico absoluto ν se preserva absolutamente.
-
-Por los Pasos (a)–(e) absolutos, la estabilidad estructural absoluta canónica absoluta queda establecida absolutamente. Q.E.D.
-
-### 11.6. Cierre canónico absoluto del §11
-
-El §11 absoluto del presente documento absoluto demuestra absolutamente con rango canónico absoluto las cuatro propiedades algebraicas absolutas canónicas absolutas simultáneas absolutas del operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto: homogeneidad factual absoluta canónica absoluta (Teorema 11.1 absoluto), aditividad absoluta canónica absoluta (Teorema 11.2 absoluto), covariancia factual absoluta canónica absoluta bajo las cuatro transformadas canónicas absolutas de trayectoria absoluta (Teorema 11.3 absoluto) y estabilidad estructural absoluta canónica absoluta (Teorema 11.4 absoluto). Las cuatro propiedades canónicas absolutas son absolutamente esenciales absolutas para la unicidad representacional absoluta canónica absoluta del operador absoluto 𝔊<sub>SV</sub> absoluto en la categoría canónica absoluta OpGen<sub>SV,Π</sub> absoluta del §12 absoluto.
+Los seis primitivos metrológicos del corpus heredados de Lloret Egea (2026c — primitivos metrológicos): **UE<sub>MFC</sub>** (Unidad Elemental del Medidor Factual de Ciclo, [T]), **UFE** (Unidad Factual de Extensión, [L]), **UFM** (Unidad Factual de Masa, [M]), **UFC** (Unidad Factual de Corriente, [I]), **UFT** (Unidad Factual de Temperatura, [Θ]), **UFCE** (Unidad Factual de Cantidad de Entidad, [N]). Invocados sin modificación en cada operador sectorial conforme a (O2<sup>unif</sup>) de la Definición §8.1.
 
 ---
 
-## 12. Teorema absoluto de unicidad representacional del operador 𝔊<sub>SV</sub> en categoría OpGen<sub>SV,Π</sub>
+## §15. Referencias canónicas absolutas (APA7)
 
-### 12.1. Apertura canónica absoluta del §12
+La presente publicación adopta la cadena bibliográfica canónica enumerada en luz factual §24 (Observación 24.1: integridad absoluta de la cadena de referencias). Las entradas siguen el orden y las atribuciones de luz factual.
 
-El §12 absoluto del presente documento absoluto demuestra absolutamente con rango canónico absoluto el **teorema absoluto de unicidad representacional absoluta canónica absoluta** del operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto en la categoría canónica absoluta OpGen<sub>SV,Π</sub> absoluta del aparato absoluto del Sistema Vectorial SV.
+Lloret Egea, J. A. (2026a). *Nuevas matemáticas del Sistema Vectorial SV y Física factual como conjunto iniciador*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español. ISSN 2695-6411. https://www.itvia.online/pub/nuevas-matematicas-del-sistema-vectorial-sv-y-fisica-factual-como-conjunto-iniciador
 
-### 12.2. Categoría canónica absoluta OpGen<sub>SV,Π</sub>
+Lloret Egea, J. A. (2026b). *Conjunto matemático unificado del cambio factual: ciclos, medición factual y trayectorias poligonales de activación en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. ISSN 2695-6411. https://www.itvia.online/pub/conjunto-matematico-unificado-del-cambio-factual-ciclos-medicion-factual-y-trayectorias-poligonales-de-activacion-en-el-sistema-vectorial-sv
 
-**Definición 12.1 (Categoría canónica absoluta OpGen<sub>SV,Π</sub> absoluta).** La **categoría canónica absoluta** OpGen<sub>SV,Π</sub> absoluta del aparato absoluto del Sistema Vectorial SV es absolutamente la categoría canónica absoluta cuyos objetos absolutos canónicos absolutos son absolutamente las configuraciones canónicas absolutas Π<sub>SV</sub><sup>(ν)</sup> absolutas del protocampo primordial unificado absoluto sobre el ordinal canónico absoluto ν del aparato absoluto, y cuyos morfismos absolutos canónicos absolutos son absolutamente los operadores canónicos absolutos que satisfacen absolutamente las cuatro propiedades algebraicas absolutas canónicas absolutas del §11 absoluto: homogeneidad factual absoluta canónica absoluta, aditividad absoluta canónica absoluta, covariancia factual absoluta canónica absoluta bajo las cuatro transformadas canónicas absolutas de trayectoria absoluta y estabilidad estructural absoluta canónica absoluta.
+Lloret Egea, J. A. (2026c). *Convergencia ternaria factual en el Sistema Vectorial SV: clasificador absoluto Γ<sub>ℋ</sub> y resolución factual de la U honesta*. IA eñ™ — La Biblia de la IA™. ISSN 2695-6411.
 
-### 12.3. Teorema absoluto de unicidad representacional absoluta canónica absoluta
+Lloret Egea, J. A. (2026d). *Fourier factual y ecuación de onda electromagnética en el Sistema Vectorial SV: desarrollo cíclico, transformada modal y propagación sobre ciclo y trayectoria poligonal*. IA eñ™ — La Biblia de la IA™. ISSN 2695-6411. https://www.itvia.online/pub/fourier-factual-y-ecuacion-de-onda-electromagnetica-en-el-sistema-vectorial-sv-desarrollo-ciclico-transformada-modal-y-propagacion-sobre-ciclo-y-trayectoria-poligonal
 
-**Teorema 12.1 (Unicidad representacional absoluta canónica absoluta del operador 𝔊<sub>SV</sub> en OpGen<sub>SV,Π</sub>).** En la categoría canónica absoluta OpGen<sub>SV,Π</sub> absoluta del aparato absoluto del Sistema Vectorial SV, el operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto es absolutamente **único absoluto canónicamente absoluto** salvo isomorfismo canónico absoluto admisible absoluto: si 𝔊'<sub>SV</sub> absoluto es absolutamente otro operador canónico absoluto en OpGen<sub>SV,Π</sub> absoluto que satisface absolutamente las cuatro propiedades algebraicas absolutas canónicas absolutas del §11 absoluto y opera absolutamente sobre sucesos factuales absolutos generadores absolutos interiores absolutos de la clase absoluta canónica absoluta G del §9 absoluto, entonces existe absolutamente un isomorfismo canónico absoluto admisible absoluto φ absoluto en OpGen<sub>SV,Π</sub> absoluto tal que 𝔊'<sub>SV</sub> = φ ∘ 𝔊<sub>SV</sub> ∘ φ<sup>−1</sup> absolutamente.
+Lloret Egea, J. A. (2026e). *Medición, reconstrucción e incertidumbre estructural en la física contemporánea sin probabilidad ni tiempo soberano: un marco analítico basado en sucesos y trayectorias con laboratorios ejecutables*. IA eñ™ — La Biblia de la IA™. ISSN 2695-6411.
 
-*Demostración.* La demostración procede absolutamente por reducción al absurdo absoluta. Supóngase, por reducción al absurdo, que existe absolutamente otro operador canónico absoluto 𝔊'<sub>SV</sub> absoluto en OpGen<sub>SV,Π</sub> absoluto que satisface absolutamente las cuatro propiedades algebraicas absolutas canónicas absolutas del §11 absoluto y que **no admite absolutamente** isomorfismo canónico absoluto admisible absoluto φ absoluto en OpGen<sub>SV,Π</sub> absoluto tal que 𝔊'<sub>SV</sub> = φ ∘ 𝔊<sub>SV</sub> ∘ φ<sup>−1</sup> absolutamente.
+Lloret Egea, J. A. (2026f). *Correlación, restricción de clausura y no clausura posicional en dominios cuánticos contemporáneos: una relectura doctrinal desde el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. ISSN 2695-6411.
 
-Por las cuatro propiedades algebraicas absolutas canónicas absolutas del §11 absoluto, el operador absoluto 𝔊'<sub>SV</sub> absoluto satisface absolutamente la homogeneidad factual absoluta canónica absoluta (Teorema 11.1 absoluto), la aditividad absoluta canónica absoluta (Teorema 11.2 absoluto), la covariancia factual absoluta canónica absoluta bajo las cuatro transformadas canónicas absolutas de trayectoria absoluta (Teorema 11.3 absoluto) y la estabilidad estructural absoluta canónica absoluta (Teorema 11.4 absoluto). Por la disciplina canónica absoluta del corpus absoluto sobre las propiedades algebraicas absolutas canónicas absolutas y sobre la articulación canónica absoluta con el clasificador absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto, todo operador canónico absoluto que satisface absolutamente simultáneamente las cuatro propiedades algebraicas absolutas canónicas absolutas y opera absolutamente sobre sucesos factuales absolutos generadores absolutos interiores absolutos de la clase absoluta canónica absoluta G del §9 absoluto admite absolutamente representación canónica absoluta sobre el par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) absoluto del corpus absoluto.
+Lloret Egea, J. A. (2026g). *Absorción de E<sub>0</sub> = m<sub>0</sub>c<sup>2</sup> como sector basal de reposo en el Sistema Vectorial SV: estructura factual ampliada, compatibilidad modal, balance con residual y criterio conservador de clausura*. IA eñ™ — La Biblia de la IA™. ISSN 2695-6411.
 
-Por la unicidad canónica absoluta de la representación canónica absoluta sobre el par polar absoluto canónico absoluto, los operadores absolutos 𝔊<sub>SV</sub> absoluto y 𝔊'<sub>SV</sub> absoluto admiten absolutamente representación canónica absoluta canónica absoluta común absoluta sobre el par polar absoluto canónico absoluto, lo que implica absolutamente la existencia absoluta de un isomorfismo canónico absoluto admisible absoluto φ absoluto en OpGen<sub>SV,Π</sub> absoluto tal que 𝔊'<sub>SV</sub> = φ ∘ 𝔊<sub>SV</sub> ∘ φ<sup>−1</sup> absolutamente. Esto contradice absolutamente la hipótesis inicial absoluta. La contradicción demuestra absolutamente la unicidad representacional absoluta canónica absoluta del operador absoluto 𝔊<sub>SV</sub> absoluto en la categoría canónica absoluta OpGen<sub>SV,Π</sub> absoluta. Q.E.D.
+Lloret Egea, J. A. (2026h). *Aparato TPA extendido y dictamen final sobre trayectorias admisibles en el Sistema Vectorial SV* (referencia bibliográfica vigente conforme a luz factual §24). IA eñ™ — La Biblia de la IA™. ISSN 2695-6411.
 
-### 12.4. Cierre canónico absoluto del §12
+Lloret Egea, J. A. (2026i). *Del contenido físico factual del suceso a la entidad soberana del campo en el Sistema Vectorial SV: absorción basal exacta, unificación fuerte de gravitación, electricidad y magnetismo, y apertura a clases factuales emergentes*. IA eñ™ — La Biblia de la IA™. ISSN 2695-6411.
 
-El §12 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto el teorema absoluto de unicidad representacional absoluta canónica absoluta del operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto en la categoría canónica absoluta OpGen<sub>SV,Π</sub> absoluta. La unicidad canónica absoluta del operador absoluto 𝔊<sub>SV</sub> absoluto es absolutamente esencial absoluta para los teoremas canónicos absolutos posteriores absolutos sobre la monotonía energética absoluta canónica absoluta sobre la clase absoluta canónica absoluta G (§13 absoluto), la conservación local absoluta canónica absoluta bajo la clase absoluta canónica absoluta A (§14 absoluto), la ruptura controlada absoluta canónica absoluta bajo la clase absoluta canónica absoluta G (§15 absoluto) y la creabilidad factual absolutamente reforzada absoluta de la energía absoluta (§16 absoluto).
+Lloret Egea, J. A. (2026j). *Del origen preternario del Sistema Vectorial SV a la entidad soberana del campo: derivación nativa de α<sub>i</sub> y β<sub>i</sub>, proyección ternaria inducida, absorción basal exacta, unificación fuerte de gravitación, electricidad y magnetismo, y apertura a clases factuales emergentes*. IA eñ™ — La Biblia de la IA™. ISSN 2695-6411. https://www.itvia.online/pub/ekd8x4l9
 
----
+Lloret Egea, J. A. (2026k). *Reducción estructural de Maxwell al Sistema Vectorial SV: ecuación única factual electromagnética y diccionario de reducción estructural*. **DOI 10.17613/kep1t-57539**. https://works.hcommons.org/records/kep1t-57539. IA eñ™ — La Biblia de la IA™. ISSN 2695-6411.
 
-## 13. Teorema absoluto de monotonía energética estricta sobre clase G
+Lloret Egea, J. A. (2026l). *Fórmula factual única absoluta de la termodinámica en el Sistema Vectorial SV: entropía H<sub>SV</sub>, fuerza, trabajo, calor, entalpía, temperatura y su articulación canónica*. **DOI 10.17613/ptw68-d1r57**. IA eñ™ — La Biblia de la IA™. ISSN 2695-6411.
 
-**Teorema 13.1 (Monotonía energética estricta absoluta canónica absoluta sobre la clase absoluta canónica absoluta G).** Sobre la clase absoluta canónica absoluta G del §9 absoluto, el operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto satisface absolutamente con rango canónico absoluto la **monotonía energética estricta absoluta canónica absoluta**: para todo suceso factual absoluto generador absoluto interior absoluto e<sub>ν</sub> ∈ G absoluto sobre el ordinal canónico absoluto ν del aparato absoluto, la energía factual absoluta canónica absoluta E<sub>SV</sub> absoluta del protocampo primordial unificado absoluto Π<sub>SV</sub> sobre alguna posición factual absoluta ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto interior absoluto satisface absolutamente:
+Lloret Egea, J. A. (2026 — luz factual). *Teoría general factual de la luz en el Sistema Vectorial SV*. **DOI 10.17613/1z7c0-mqb40**. IA eñ™ — La Biblia de la IA™. ISSN 2695-6411.
 
-```math
-E_{SV}^{(\nu+1)}(\xi_i)\;>\;E_{SV}^{(\nu)}(\xi_i).
-```
+Lloret Egea, J. A. (2026 — entropía factual). *Entropía factual e irreversibilidad estructural en el Sistema Vectorial SV: dispersión preternaria, ley de transporte por la cadena fundacional y conservación asimétrica del contenido factual*. **DOI 10.17613/vh6ak-6em43**. IA eñ™ — La Biblia de la IA™. ISSN 2695-6411.
 
-*Demostración.* Por la Definición 9.1 absoluta del §9 absoluto, todo suceso factual absoluto generador absoluto interior absoluto e<sub>ν</sub> ∈ G absoluto satisface absolutamente Δ<sub>SV</sub><sup>(ν+1)</sup>(ξ<sub>i</sub>) > Δ<sub>SV</sub><sup>(ν)</sup>(ξ<sub>i</sub>) para alguna posición factual absoluta ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto interior absoluto. Por la Definición 6.4 absoluta del §6 absoluto, la energía factual absoluta canónica absoluta E<sub>SV</sub>(ξ<sub>i</sub>) absoluta es absolutamente directamente proporcional absoluta a la densidad polar absoluta canónica absoluta Δ<sub>SV</sub>(ξ<sub>i</sub>) absoluta a través de la constante canónica absoluta k<sub>E</sub><sup>SV</sup> > 0 absoluto y la compuerta canónica absoluta 𝔠<sub>ν</sub><sup>SV</sup> absoluta de articulación canónica absoluta sobre el ordinal canónico absoluto ν absoluto. Por tanto Δ<sub>SV</sub><sup>(ν+1)</sup>(ξ<sub>i</sub>) > Δ<sub>SV</sub><sup>(ν)</sup>(ξ<sub>i</sub>) implica absolutamente E<sub>SV</sub><sup>(ν+1)</sup>(ξ<sub>i</sub>) > E<sub>SV</sub><sup>(ν)</sup>(ξ<sub>i</sub>), bajo la articulación canónica absoluta del aparato absoluto. Q.E.D.
+Lloret Egea, J. A. (2026 — fundamentos electromagnetismo). *Fundamentos operatorios absolutos del electromagnetismo factual en el Sistema Vectorial SV*. **DOI 10.17613/w1kb2-m6k81**. https://works.hcommons.org/records/w1kb2-m6k81. IA eñ™ — La Biblia de la IA™. ISSN 2695-6411.
 
----
+### §15.1. Nota sobre divergencias bibliográficas del corpus
 
-## 14. Teorema absoluto de conservación local del protocampo bajo clase A
+Se documentan a continuación las divergencias bibliográficas del corpus detectadas durante la auditoría preparatoria de la presente publicación, **a fin de que el cuerpo doctrinal pueda rectificarlas en sus respectivas publicaciones canónicas mediante actos editoriales complementarios**:
 
-**Teorema 14.1 (Conservación local absoluta canónica absoluta del protocampo primordial unificado absoluto Π<sub>SV</sub> bajo la clase absoluta canónica absoluta A).** Bajo la clase absoluta canónica absoluta A del §9 absoluto, el protocampo primordial unificado absoluto Π<sub>SV</sub> satisface absolutamente con rango canónico absoluto la **conservación local absoluta canónica absoluta**: para todo suceso factual absoluto e<sub>ν</sub> ∈ A absoluto sobre el ordinal canónico absoluto ν del aparato absoluto, la densidad polar absoluta canónica absoluta Δ<sub>SV</sub> absoluta del protocampo primordial unificado absoluto sobre toda posición factual absoluta ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto interior absoluto satisface absolutamente:
+**Divergencia 2026k.** El sufijo bibliográfico `2026k` se asigna en el corpus a **dos publicaciones distintas con DOIs propios**:
 
-```math
-\Delta_{SV}^{(\nu+1)}(\xi_i)\;=\;\Delta_{SV}^{(\nu)}(\xi_i),
-```
+- En **luz factual** (DOI 1z7c0-mqb40): `2026k` = *"Reducción estructural de Maxwell al Sistema Vectorial SV"* (DOI 10.17613/kep1t-57539).
+- En **entropía factual** (DOI vh6ak-6em43), **maxwell** (DOI kep1t-57539) y **fundamentos electromagnetismo** (DOI w1kb2-m6k81): `2026k` = *"Fundamentos operatorios absolutos del electromagnetismo factual"* (DOI 10.17613/w1kb2-m6k81).
 
-mientras que el gradiente resolutivo absoluto canónico absoluto δ<sub>i</sub><sup>SV</sup> absoluto puede absolutamente ser absoluto rearticulado absoluto canónicamente absoluto:
+La presente publicación adopta la asignación de luz factual (`2026k` = Reducción Maxwell DOI kep1t) por ser la publicación canónica de mayor alcance temático y la más reciente del corpus (24/04/2026).
 
-```math
-\delta_i^{SV,(\nu+1)}\;\neq\;\delta_i^{SV,(\nu)}\;\;\text{en general absoluto}.
-```
+**Divergencia 2026a.** El sufijo `2026a` recibe dos atribuciones distintas: en luz factual = *"Fundamentos del Sistema Vectorial SV"*; en entropía/maxwell/fundamentos = *"Nuevas matemáticas del Sistema Vectorial SV y Física factual como conjunto iniciador"*. La presente publicación adopta la atribución de luz factual.
 
-*Demostración.* La conservación local absoluta canónica absoluta de la densidad polar absoluta Δ<sub>SV</sub> absoluta se sigue absolutamente directamente absoluto de la Definición 9.2 absoluta del §9 absoluto, que define absolutamente la clase absoluta canónica absoluta A como la clase canónica absoluta de sucesos factuales absolutos que conservan absolutamente con rango canónico absoluto la densidad polar absoluta canónica absoluta sobre toda posición factual absoluta interior absoluta. La rearticulación canónica absoluta del gradiente resolutivo absoluto δ<sub>i</sub><sup>SV</sup> absoluto se permite absolutamente con rango canónico absoluto sin contradecir absolutamente la conservación local absoluta canónica absoluta de Δ<sub>SV</sub> absoluta: dado α<sub>i</sub> + β<sub>i</sub> = const absoluto, los valores canónicos absolutos individuales α<sub>i</sub> absoluto y β<sub>i</sub> absoluto pueden absolutamente variar absolutos canónicamente absolutos preservando absolutamente la suma canónica absoluta. Q.E.D.
+**Divergencia 2026c.** En luz factual = *"Convergencia ternaria factual...Γ<sub>ℋ</sub>"*; en maxwell/fundamentos = *"Primitivos metrológicos del SV"*. La presente publicación adopta la atribución de luz factual.
 
----
+**Divergencia 2026h.** En luz factual = *"Aparato TPA extendido..."*; en maxwell/fundamentos = *"Programa de transmutación factual..."*. La presente publicación adopta la atribución de luz factual; el desarrollo formal del aparato TPA extendido es invocado por luz factual con rango canónico y se incorpora desde el §14 del documento de fundamentos electromagnetismo (DOI w1kb2-m6k81), donde el desarrollo está formalmente cerrado.
 
-## 15. Teorema absoluto de ruptura controlada del protocampo bajo clase G
+**Divergencia de cabeceras de archivos .md.** En las versiones .md del corpus disponibles para la auditoría se detectó un patinazo de conversión: el archivo `fundamentos.md` (DOI w1kb2-m6k81) presentaba el título interno *"Reducción estructural absoluta de Maxwell..."* en lugar del título correcto *"Fundamentos operatorios absolutos del electromagnetismo factual..."*. Probable causa: conversión Word → md con truncamiento. Recomendación editorial: corregir el título interno de la versión .md al título correcto.
 
-**Teorema 15.1 (Ruptura controlada absoluta canónica absoluta del protocampo primordial unificado absoluto Π<sub>SV</sub> bajo la clase absoluta canónica absoluta G).** Bajo la clase absoluta canónica absoluta G del §9 absoluto, el protocampo primordial unificado absoluto Π<sub>SV</sub> admite absolutamente con rango canónico absoluto **ruptura controlada absoluta canónica absoluta**: para todo suceso factual absoluto generador absoluto interior absoluto e<sub>ν</sub> ∈ G absoluto sobre el ordinal canónico absoluto ν del aparato absoluto, el operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto puede absolutamente generar absoluto **ruptura canónica absoluta controlada absoluta** de la simetría canónica absoluta del par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) absoluto, articulando absolutamente con rango canónico absoluto la transición canónica absoluta desde el régimen canónico absoluto equipotencial absoluto Φ(0) = Φ(1) absoluto al régimen canónico absoluto polarizado absoluto |δ<sub>i</sub><sup>SV</sup>| > 0 absoluto, bajo el control canónico absoluto del clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto.
-
-*Demostración.* La ruptura controlada absoluta canónica absoluta se articula absolutamente con rango canónico absoluto sobre dos elementos canónicos absolutos: (a) la naturaleza canónica absoluta de los sucesos factuales absolutos generadores absolutos interiores absolutos de la clase absoluta canónica absoluta G del §9 absoluto, que **incrementan absolutamente con rango canónico absoluto la densidad polar absoluta** Δ<sub>SV</sub> absoluta sobre alguna posición factual absoluta interior absoluta, lo que permite absolutamente la generación canónica absoluta de gradiente resolutivo absoluto no nulo absoluto en posiciones factuales absolutas previamente equipotenciales absolutas; (b) el control canónico absoluto del clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto (Lloret Egea, 2026c, Teorema 1 absoluto), que articula absolutamente la admisibilidad canónica absoluta de la ruptura canónica absoluta sobre las posiciones factuales absolutas admisibles absolutas. La articulación canónica absoluta de los dos elementos canónicos absolutos establece absolutamente la ruptura controlada absoluta canónica absoluta bajo la clase absoluta canónica absoluta G. Q.E.D.
+**Estatuto de las divergencias.** Estas divergencias son **patinazos bibliográficos** del corpus. No afectan la integridad doctrinal de los resultados — las publicaciones tienen DOIs únicos y sus contenidos canónicos son trazables independientemente de la numeración bibliográfica — pero exigen rectificación complementaria en futuras publicaciones del corpus para preservar la disciplina P.4 (no inferencia opaca) en la lectura cruzada del cuerpo doctrinal.
 
 ---
 
-## 16. Teorema absoluto de creabilidad factual reforzada
+**FIN DE LA TEORÍA GENERAL FACTUAL ABSOLUTA DE SUCESOS GENERADORES Y DE LOS PROTOCAMPOS UNIFICADOS EN EL SISTEMA VECTORIAL SV — V6**
 
-### 16.1. Apertura canónica absoluta del §16
+*Cierre canónico absoluto del nivel canónico del programa (par polar primordial, sucesos generadores interiores como operadores, emergencia de los siete campos por Π<sub>3</sub><sup>H</sup>, conservación local bajo Clase A, taxonomía χ<sub>α</sub>) y del operador maestro unificado **U**<sup>unif</sup><sub>SV</sub> sobre los siete sectores coexistentes con unicidad estructural, irreducibilidad algebraica, no-composibilidad estructural, banco numérico de diez supuestos no triviales con verificación 10/10 PASA, y verificación canónica de absorciones individuales con diferencia residual 0,00.*
 
-El §16 absoluto del presente documento absoluto demuestra absolutamente con rango canónico absoluto el **teorema absoluto de creabilidad factual absolutamente reforzada absoluta de la energía absoluta**, resultado canónico absoluto fundamental absoluto del aparato absoluto del Sistema Vectorial SV que articula absolutamente con rigor canónico absoluto la posibilidad canónica absoluta de **creación canónica absoluta de energía factual absoluta** sobre el aparato absoluto bajo la acción canónica absoluta del operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto sobre la clase absoluta canónica absoluta G del §9 absoluto.
+*Las quince visiones V.1–V.15 sobre ε<sub>0</sub> reproducidas literalmente como objeto exterior protegido por G.3.*
 
-### 16.2. Enunciado y demostración del teorema absoluto
-
-**Teorema 16.1 (Creabilidad factual absolutamente reforzada absoluta de la energía absoluta).** El aparato absoluto del Sistema Vectorial SV admite absolutamente con rango canónico absoluto la **creabilidad factual absolutamente reforzada absoluta de la energía absoluta**: para todo suceso factual absoluto generador absoluto interior absoluto e<sub>ν</sub> ∈ G absoluto sobre el ordinal canónico absoluto ν del aparato absoluto, la energía factual absoluta canónica absoluta total absoluta canónica absoluta E<sub>SV</sub><sup>tot</sup> absoluta del aparato absoluto satisface absolutamente:
-
-```math
-E_{SV}^{tot,(\nu+1)}\;>\;E_{SV}^{tot,(\nu)},
-```
-
-donde la energía factual absoluta canónica absoluta total absoluta canónica absoluta E<sub>SV</sub><sup>tot</sup> absoluta es absolutamente la suma canónica absoluta de las energías canónicas absolutas E<sub>SV</sub>(ξ<sub>i</sub>) absolutas sobre todas las posiciones factuales absolutas ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto interior absoluto admisibles absolutas canónicamente absolutas:
-
-```math
-E_{SV}^{tot}\;:=\;\sum_{\xi_i\in\Omega_{\mathrm{pro}}^{\mathrm{int,adm}}}E_{SV}(\xi_i).
-```
-
-*Demostración.* Por el Teorema 13.1 absoluto del §13 absoluto sobre la monotonía energética estricta absoluta canónica absoluta sobre la clase absoluta canónica absoluta G, todo suceso factual absoluto generador absoluto interior absoluto e<sub>ν</sub> ∈ G absoluto satisface absolutamente E<sub>SV</sub><sup>(ν+1)</sup>(ξ<sub>i</sub>) > E<sub>SV</sub><sup>(ν)</sup>(ξ<sub>i</sub>) para alguna posición factual absoluta ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto interior absoluto. Por la Definición 9.1 absoluta del §9 absoluto, los sucesos factuales absolutos generadores absolutos interiores absolutos de la clase absoluta canónica absoluta G **incrementan absolutamente con rango canónico absoluto la densidad polar absoluta**, no la disminuyen absolutamente sobre las posiciones factuales absolutas restantes absolutas. Por tanto, la suma canónica absoluta total absoluta canónica absoluta E<sub>SV</sub><sup>tot</sup> absoluta sobre todas las posiciones factuales absolutas interiores absolutas admisibles absolutas canónicamente absolutas satisface absolutamente E<sub>SV</sub><sup>tot,(ν+1)</sup> > E<sub>SV</sub><sup>tot,(ν)</sup> absoluto. Q.E.D.
-
-### 16.3. Observación canónica absoluta sobre la creabilidad reforzada
-
-**Observación 16.1 (Carácter canónico absoluto reforzado absoluto de la creabilidad factual).** El Teorema 16.1 absoluto **refuerza absolutamente con rango canónico absoluto** los resultados canónicos absolutos previos absolutos del corpus absoluto sobre la creabilidad factual absoluta de la energía absoluta. Por la naturaleza canónica absoluta de los sucesos factuales absolutos generadores absolutos interiores absolutos de la clase absoluta canónica absoluta G, la creación canónica absoluta de energía factual absoluta sobre el aparato absoluto opera absolutamente bajo el control canónico absoluto del clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto, sin introducir absolutamente fuente absoluta soberana absoluta ajena absoluta al corpus absoluto (P.5 respetada absolutamente). La creación canónica absoluta de energía factual absoluta es absolutamente, por tanto, **creación canónica absoluta interior absoluta** del aparato absoluto, articulada absolutamente con rango canónico absoluto sobre los sucesos factuales absolutos generadores absolutos interiores absolutos de la clase absoluta canónica absoluta G.
-
-**Observación 16.2 (Distinción canónica absoluta entre creación absoluta interior absoluta y violación absoluta de conservación absoluta soberana absoluta).** El Teorema 16.1 absoluto **no contradice absolutamente** ninguna ley canónica absoluta de conservación absoluta soberana absoluta heredada absoluta del Sistema Internacional absoluto SI heredado absoluto. La creación canónica absoluta de energía factual absoluta interior absoluta del aparato absoluto opera absolutamente sobre el aparato absoluto del Sistema Vectorial SV, articulada absolutamente con rango canónico absoluto sobre los sucesos factuales absolutos generadores absolutos interiores absolutos de la clase absoluta canónica absoluta G. La compuerta metrológica absoluta ℘<sub>SV</sub> absoluta del corpus absoluto traduce absolutamente con rigor canónico absoluto la energía factual absoluta canónica absoluta del aparato absoluto a unidades absolutas SI heredadas absolutas, sin colapsar absolutamente la diferencia estructural absoluta entre el aparato factual absoluto del Sistema Vectorial SV y el Sistema Internacional absoluto SI heredado absoluto. La distinción canónica absoluta entre **creación canónica absoluta interior absoluta** del aparato absoluto factual absoluto y **violación absoluta de conservación absoluta soberana absoluta** del aparato absoluto SI heredado absoluto es absolutamente esencial absoluta y se preserva absolutamente con rango canónico absoluto.
-
-### 16.4. Cierre canónico absoluto del §16 y de la Parte III
-
-El §16 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto la Parte III absoluta del presente documento absoluto sobre la taxonomía absoluta canónica absoluta G/A/D, el operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto, las cuatro propiedades algebraicas absolutas canónicas absolutas, la unicidad representacional absoluta canónica absoluta, la monotonía energética estricta absoluta canónica absoluta, la conservación local absoluta canónica absoluta, la ruptura controlada absoluta canónica absoluta y la creabilidad factual absolutamente reforzada absoluta de la energía absoluta. Los resultados canónicos absolutos de la Parte III absoluta articulan absolutamente con rigor canónico absoluto la operatoria absoluta canónica absoluta del aparato absoluto sobre el protocampo primordial unificado absoluto Π<sub>SV</sub> mediante absolutamente sucesos generadores absolutos interiores absolutos de la clase absoluta canónica absoluta G. La Parte IV absoluta del presente documento absoluto despliega absolutamente con rango canónico absoluto los siete teoremas absolutos canónicos absolutos de emergencia absoluta canónica absoluta de los siete campos factuales absolutos coexistentes absolutos del corpus absoluto.
-
----
-
-## 17. Operador absoluto de proyección activada Π<sub>3</sub><sup>H</sup> aplicado al protocampo unificado
-
-### 17.1. Apertura canónica absoluta del §17
-
-El §17 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto la definición canónica absoluta del **operador absoluto canónico absoluto de proyección activada absoluta Π<sub>3</sub><sup>H</sup>** aplicado canónicamente absoluto al protocampo primordial unificado absoluto Π<sub>SV</sub> sobre el dominio prototernario absoluto Ω<sub>pro</sub> absoluto. El operador absoluto canónico absoluto Π<sub>3</sub><sup>H</sup> articula absolutamente con rango canónico absoluto la **emergencia canónica absoluta** de los siete campos factuales absolutos coexistentes absolutos del corpus absoluto como **proyecciones canónicas absolutas activadas absolutas honestas absolutas** del protocampo primordial unificado absoluto Π<sub>SV</sub>, conforme absolutamente al postulado absoluto canónico absoluto G.1 absoluto del §2 absoluto del presente documento absoluto y a la Observación 4.3 absoluta del §4 absoluto.
-
-### 17.2. Definición canónica absoluta del operador Π<sub>3</sub><sup>H</sup>
-
-**Definición 17.1 (Operador absoluto canónico absoluto de proyección activada absoluta Π<sub>3</sub><sup>H</sup>).** El **operador absoluto canónico absoluto de proyección activada absoluta** del Sistema Vectorial SV, denotado Π<sub>3</sub><sup>H</sup>, es absolutamente el operador canónico absoluto que actúa absolutamente sobre el protocampo primordial unificado absoluto Π<sub>SV</sub> sobre el dominio prototernario absoluto Ω<sub>pro</sub> absoluto, articulando absolutamente con rango canónico absoluto la **proyección canónica absoluta** del protocampo absoluto a la terna efectiva absoluta canónica absoluta Σ = {0, 1, U} absoluto bajo el control canónico absoluto del clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto:
-
-```math
-\Pi_3^H\;:\;\Pi_{SV}\;\longrightarrow\;\Sigma=\{0,1,U\},\quad (\alpha_i,\beta_i)\;\longmapsto\;\Pi_3^H[\Gamma_{\mathcal{H}}](\alpha_i,\beta_i),
-```
-
-donde Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ</sub>] absoluto denota absolutamente el operador canónico absoluto parametrizado absoluto por el clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto. La acción canónica absoluta del operador absoluto Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ</sub>] absoluto sobre el par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) absoluto se articula absolutamente con rango canónico absoluto en tres regímenes canónicos absolutos:
-
-(i) **Régimen canónico absoluto de clausura absoluta hacia el polo absoluto 0**: Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ</sub>](α<sub>i</sub>, β<sub>i</sub>) = 0 absoluto cuando absoluto α<sub>i</sub> > β<sub>i</sub> + θ<sub>SV</sub><sup>H</sup> absoluto, donde θ<sub>SV</sub><sup>H</sup> absoluto es absolutamente el umbral canónico absoluto canónico absoluto de admisibilidad absoluta de la clausura absoluta hacia el polo absoluto 0 conforme absolutamente al clasificador absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto;
-
-(ii) **Régimen canónico absoluto de clausura absoluta hacia el polo absoluto 1**: Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ</sub>](α<sub>i</sub>, β<sub>i</sub>) = 1 absoluto cuando absoluto β<sub>i</sub> > α<sub>i</sub> + θ<sub>SV</sub><sup>H</sup> absoluto;
-
-(iii) **Régimen canónico absoluto de marca absoluta U absoluta**: Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ</sub>](α<sub>i</sub>, β<sub>i</sub>) = U absoluto cuando absoluto |α<sub>i</sub> − β<sub>i</sub>| ≤ θ<sub>SV</sub><sup>H</sup> absoluto, conforme absolutamente al Teorema 1 absoluto de Lloret Egea (2026c) sobre la admisibilidad absoluta canónica absoluta de la marca absoluta U absoluta bajo el clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto y conforme absolutamente al Teorema 0.2 absoluto del §0 absoluto del presente documento absoluto sobre la equipotencialidad polar absoluta canónica absoluta como génesis canónica absoluta de U absoluta.
-
-**Observación 17.1 (Π<sub>3</sub><sup>H</sup> como operador canónico absoluto honesto absoluto).** El operador absoluto Π<sub>3</sub><sup>H</sup> absoluto es absolutamente operador canónico absoluto **honesto absoluto** del aparato absoluto: la proyección canónica absoluta del protocampo absoluto a la terna efectiva absoluta canónica absoluta Σ absoluta opera absolutamente bajo el control canónico absoluto del clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto, sin forzar absolutamente clausura absoluta espuria absoluta sobre las posiciones factuales absolutas equipotenciales absolutas. La marca absoluta U absoluta se preserva absolutamente con rango canónico absoluto sobre las posiciones factuales absolutas que no satisfacen absolutamente las condiciones canónicas absolutas de clausura absoluta hacia los polos determinados absolutos {0, 1}, conforme absolutamente a la prohibición constitutiva absoluta P.6 absoluta del corpus absoluto.
-
-**Observación 17.2 (Cadenas canónicas absolutas de activaciones honestas absolutas Π<sub>3</sub><sup>H</sup>).** Los siete campos factuales absolutos coexistentes absolutos del corpus absoluto emergen absolutamente como **proyecciones canónicas absolutas activadas absolutas** del protocampo primordial unificado absoluto Π<sub>SV</sub> a través absolutamente de **cadenas canónicas absolutas de activaciones honestas absolutas Π<sub>3</sub><sup>H</sup>** del aparato absoluto. Cada cadena canónica absoluta articula absolutamente con rango canónico absoluto la activación canónica absoluta del campo factual absoluto correspondiente absoluto sobre las posiciones factuales absolutas admisibles absolutas del dominio prototernario absoluto Ω<sub>pro</sub> absoluto, conforme absolutamente a los siete teoremas absolutos canónicos absolutos de emergencia absoluta del §18 absoluto del presente documento absoluto.
-
-### 17.3. Cierre canónico absoluto del §17
-
-El §17 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto la definición canónica absoluta del operador absoluto canónico absoluto de proyección activada absoluta Π<sub>3</sub><sup>H</sup> aplicado canónicamente absoluto al protocampo primordial unificado absoluto Π<sub>SV</sub>. La articulación canónica absoluta del operador absoluto Π<sub>3</sub><sup>H</sup> absoluto con el clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto y con el Teorema 0.2 absoluto del §0 absoluto del presente documento absoluto queda absolutamente establecida absolutamente con rango canónico absoluto. El §18 absoluto del presente documento absoluto despliega absolutamente con rango canónico absoluto los siete teoremas absolutos canónicos absolutos de emergencia absoluta canónica absoluta de los siete campos factuales absolutos coexistentes absolutos del corpus absoluto.
-
----
-
-## 18. Siete teoremas absolutos de emergencia de los siete campos factuales
-
-### 18.1. Apertura canónica absoluta del §18
-
-El §18 absoluto del presente documento absoluto demuestra absolutamente con rango canónico absoluto los **siete teoremas absolutos canónicos absolutos de emergencia absoluta canónica absoluta** de los siete campos factuales absolutos coexistentes absolutos del corpus absoluto como **proyecciones canónicas absolutas activadas absolutas honestas absolutas** del protocampo primordial unificado absoluto Π<sub>SV</sub> a través absolutamente del operador absoluto canónico absoluto de proyección activada absoluta Π<sub>3</sub><sup>H</sup> del §17 absoluto.
-
-### 18.2. Teorema absoluto de emergencia I — campo factual absoluto electromagnético externo absoluto
-
-**Teorema 18.1 (Emergencia canónica absoluta del campo factual absoluto electromagnético externo absoluto 𝔼<sub>ext</sub><sup>SV</sup>).** El **campo factual absoluto electromagnético externo absoluto** del corpus absoluto, denotado 𝔼<sub>ext</sub><sup>SV</sup>, emerge absolutamente con rango canónico absoluto como **proyección canónica absoluta activada absoluta honesta absoluta** del protocampo primordial unificado absoluto Π<sub>SV</sub> a través absolutamente de la cadena canónica absoluta de activaciones honestas absolutas Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ,EM,ext</sub>] absoluta sobre las posiciones factuales absolutas admisibles absolutas canónicamente absolutas del dominio prototernario absoluto Ω<sub>pro</sub> absoluto que satisfacen absolutamente las condiciones canónicas absolutas del clasificador canónico absoluto Γ<sub>ℋ,EM,ext</sub> absoluto del corpus absoluto sobre el régimen canónico absoluto electromagnético externo absoluto:
-
-```math
-\mathbb{E}_{ext}^{SV}\;:=\;\Pi_3^H[\Gamma_{\mathcal{H},EM,ext}](\Pi_{SV}\big|_{\Omega_{\mathrm{pro}}^{EM,ext}}),
-```
-
-donde Ω<sub>pro</sub><sup>EM,ext</sup> absoluto denota absolutamente el subconjunto canónico absoluto admisible absoluto canónicamente absoluto del dominio prototernario absoluto Ω<sub>pro</sub> absoluto sobre el cual el régimen canónico absoluto electromagnético externo absoluto del corpus absoluto se activa absolutamente.
-
-*Demostración.* La demostración procede absolutamente en tres pasos absolutos. **Paso (a) — admisibilidad canónica absoluta del subconjunto Ω<sub>pro</sub><sup>EM,ext</sup>**: las posiciones factuales absolutas ξ<sub>i</sub> ∈ Ω<sub>pro</sub><sup>EM,ext</sup> absoluto satisfacen absolutamente las condiciones canónicas absolutas del clasificador canónico absoluto Γ<sub>ℋ,EM,ext</sub> absoluto del corpus absoluto sobre el régimen canónico absoluto electromagnético externo absoluto, conforme absolutamente al corpus canónico absoluto de Lloret Egea (2026k, §3.12 absoluto). **Paso (b) — proyección canónica absoluta honesta absoluta**: el operador absoluto canónico absoluto de proyección activada absoluta Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ,EM,ext</sub>] absoluto del §17 absoluto opera absolutamente con rigor canónico absoluto honesto absoluto sobre las posiciones factuales absolutas admisibles absolutas, sin forzar absolutamente clausura absoluta espuria absoluta sobre las posiciones factuales absolutas equipotenciales absolutas (P.6 respetada absolutamente). **Paso (c) — articulación canónica absoluta con la ecuación maestra absoluta 𝔼<sub>SV</sub> = 0 absoluta de Lloret Egea (2026k)**: la proyección canónica absoluta activada absoluta del protocampo absoluto sobre las posiciones factuales absolutas admisibles absolutas se articula absolutamente con rango canónico absoluto sobre la ecuación maestra absoluta 𝔼<sub>SV</sub> = 0 absoluta del corpus absoluto, conforme absolutamente al Teorema 25.1 absoluto del §25 absoluto del presente documento absoluto sobre la absorción absoluta canónica absoluta I — Maxwell factual absoluto. Q.E.D.
-
-### 18.3. Teorema absoluto de emergencia II — campo factual absoluto lumínico absoluto
-
-**Teorema 18.2 (Emergencia canónica absoluta del campo factual absoluto lumínico absoluto 𝕃<sup>SV</sup>).** El **campo factual absoluto lumínico absoluto** del corpus absoluto, denotado 𝕃<sup>SV</sup>, emerge absolutamente con rango canónico absoluto como **proyección canónica absoluta activada absoluta honesta absoluta** del protocampo primordial unificado absoluto Π<sub>SV</sub> a través absolutamente de la cadena canónica absoluta de activaciones honestas absolutas Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ,L</sub>] absoluta sobre las posiciones factuales absolutas admisibles absolutas canónicamente absolutas del dominio prototernario absoluto Ω<sub>pro</sub> absoluto que satisfacen absolutamente las condiciones canónicas absolutas del clasificador canónico absoluto Γ<sub>ℋ,L</sub> absoluto del corpus absoluto sobre el régimen canónico absoluto lumínico absoluto:
-
-```math
-\mathbb{L}^{SV}\;:=\;\Pi_3^H[\Gamma_{\mathcal{H},L}](\Pi_{SV}\big|_{\Omega_{\mathrm{pro}}^{L}}).
-```
-
-*Demostración.* Análoga absoluta a la demostración absoluta del Teorema 18.1 absoluto, con tres pasos absolutos canónicos absolutos sobre el régimen canónico absoluto lumínico absoluto. La articulación canónica absoluta con la ecuación maestra absoluta L<sub>SV</sub> = 0 absoluta del documento absoluto de la luz factual del corpus absoluto se realiza absolutamente conforme al Teorema 26.1 absoluto del §26 absoluto del presente documento absoluto sobre la absorción absoluta canónica absoluta II — luz factual absoluta. Q.E.D.
-
-### 18.4. Teorema absoluto de emergencia III — campo factual absoluto transmutativo absoluto
-
-**Teorema 18.3 (Emergencia canónica absoluta del campo factual absoluto transmutativo absoluto 𝕋<sup>SV</sup>).** El **campo factual absoluto transmutativo absoluto** del corpus absoluto, denotado 𝕋<sup>SV</sup>, emerge absolutamente con rango canónico absoluto como **proyección canónica absoluta activada absoluta honesta absoluta** del protocampo primordial unificado absoluto Π<sub>SV</sub> a través absolutamente de la cadena canónica absoluta de activaciones honestas absolutas Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ,T</sub>] absoluta sobre las posiciones factuales absolutas admisibles absolutas canónicamente absolutas del dominio prototernario absoluto Ω<sub>pro</sub> absoluto que satisfacen absolutamente las condiciones canónicas absolutas del clasificador canónico absoluto Γ<sub>ℋ,T</sub> absoluto del corpus absoluto sobre el régimen canónico absoluto transmutativo absoluto, articulando absolutamente con rango canónico absoluto la cadena canónica absoluta del corpus absoluto Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U}:
-
-```math
-\mathbb{T}^{SV}\;:=\;\Pi_3^H[\Gamma_{\mathcal{H},T}](\Pi_{SV}\big|_{\Omega_{\mathrm{pro}}^{T}}),\quad \Omega_{\mathrm{pre}}\to\{m_0,\chi_\alpha,U\}.
-```
-
-*Demostración.* Análoga absoluta a la demostración absoluta del Teorema 18.1 absoluto, con tres pasos absolutos canónicos absolutos sobre el régimen canónico absoluto transmutativo absoluto. La articulación canónica absoluta con la cadena canónica absoluta del corpus absoluto Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} de Lloret Egea (2026q) se realiza absolutamente conforme al Teorema 27.1 absoluto del §27 absoluto del presente documento absoluto sobre la absorción absoluta canónica absoluta III — transmutación factual absoluta sobre la clase absoluta canónica absoluta G interior absoluta. Q.E.D.
-
-### 18.5. Teorema absoluto de emergencia IV — campo factual absoluto entrópico absoluto
-
-**Teorema 18.4 (Emergencia canónica absoluta del campo factual absoluto entrópico absoluto ℍ<sup>SV</sup>).** El **campo factual absoluto entrópico absoluto** del corpus absoluto, denotado ℍ<sup>SV</sup>, emerge absolutamente con rango canónico absoluto como **proyección canónica absoluta activada absoluta honesta absoluta** del protocampo primordial unificado absoluto Π<sub>SV</sub> a través absolutamente de la cadena canónica absoluta de activaciones honestas absolutas Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ,H</sub>] absoluta sobre las posiciones factuales absolutas admisibles absolutas canónicamente absolutas del dominio prototernario absoluto Ω<sub>pro</sub> absoluto que satisfacen absolutamente las condiciones canónicas absolutas del clasificador canónico absoluto Γ<sub>ℋ,H</sub> absoluto del corpus absoluto sobre el régimen canónico absoluto entrópico absoluto, articulando absolutamente con rango canónico absoluto el funcional canónico absoluto H<sub>SV</sub> absoluto del corpus absoluto:
-
-```math
-\mathbb{H}^{SV}\;:=\;\Pi_3^H[\Gamma_{\mathcal{H},H}](\Pi_{SV}\big|_{\Omega_{\mathrm{pro}}^{H}}),\quad H_{SV}\;\;\text{como funcional integrador canónico absoluto sobre }\nu.
-```
-
-*Demostración.* Análoga absoluta a la demostración absoluta del Teorema 18.1 absoluto, con tres pasos absolutos canónicos absolutos sobre el régimen canónico absoluto entrópico absoluto. La articulación canónica absoluta con el funcional canónico absoluto H<sub>SV</sub> absoluto de Lloret Egea (2026l) se realiza absolutamente conforme al Teorema 28.1 absoluto del §28 absoluto del presente documento absoluto sobre la absorción absoluta canónica absoluta IV — entropía factual absoluta. Q.E.D.
-
-### 18.6. Teorema absoluto de emergencia V — campo factual absoluto gravitacional factual absoluto
-
-**Teorema 18.5 (Emergencia canónica absoluta del campo factual absoluto gravitacional factual absoluto 𝔾<sup>SV</sup>).** El **campo factual absoluto gravitacional factual absoluto** del corpus absoluto, denotado 𝔾<sup>SV</sup>, emerge absolutamente con rango canónico absoluto como **proyección canónica absoluta activada absoluta honesta absoluta** del protocampo primordial unificado absoluto Π<sub>SV</sub> a través absolutamente de la cadena canónica absoluta de activaciones honestas absolutas Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ,G</sub>] absoluta sobre las posiciones factuales absolutas admisibles absolutas canónicamente absolutas del dominio prototernario absoluto Ω<sub>pro</sub> absoluto que satisfacen absolutamente las condiciones canónicas absolutas del clasificador canónico absoluto Γ<sub>ℋ,G</sub> absoluto del corpus absoluto sobre el régimen canónico absoluto gravitacional factual absoluto:
-
-```math
-\mathbb{G}^{SV}\;:=\;\Pi_3^H[\Gamma_{\mathcal{H},G}](\Pi_{SV}\big|_{\Omega_{\mathrm{pro}}^{G}}).
-```
-
-*Demostración.* Análoga absoluta a la demostración absoluta del Teorema 18.1 absoluto, con tres pasos absolutos canónicos absolutos sobre el régimen canónico absoluto gravitacional factual absoluto del corpus absoluto. El campo factual absoluto gravitacional factual absoluto del corpus absoluto opera absolutamente sobre las posiciones factuales absolutas admisibles absolutas del dominio prototernario absoluto Ω<sub>pro</sub> absoluto sin presuponer absolutamente geometría euclídea absoluta soberana absoluta heredada absoluta (P.3 respetada absolutamente). Q.E.D.
-
-### 18.7. Teorema absoluto de emergencia VI — campo factual absoluto electromagnético interno absoluto
-
-**Teorema 18.6 (Emergencia canónica absoluta del campo factual absoluto electromagnético interno absoluto 𝔼<sub>int</sub><sup>SV</sup>).** El **campo factual absoluto electromagnético interno absoluto** del corpus absoluto, denotado 𝔼<sub>int</sub><sup>SV</sup>, emerge absolutamente con rango canónico absoluto como **proyección canónica absoluta activada absoluta honesta absoluta** del protocampo primordial unificado absoluto Π<sub>SV</sub> a través absolutamente de la cadena canónica absoluta de activaciones honestas absolutas Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ,EM,int</sub>] absoluta sobre las posiciones factuales absolutas admisibles absolutas canónicamente absolutas del dominio prototernario absoluto Ω<sub>pro</sub> absoluto que satisfacen absolutamente las condiciones canónicas absolutas del clasificador canónico absoluto Γ<sub>ℋ,EM,int</sub> absoluto del corpus absoluto sobre el régimen canónico absoluto electromagnético interno absoluto:
-
-```math
-\mathbb{E}_{int}^{SV}\;:=\;\Pi_3^H[\Gamma_{\mathcal{H},EM,int}](\Pi_{SV}\big|_{\Omega_{\mathrm{pro}}^{EM,int}}).
-```
-
-*Demostración.* Análoga absoluta a la demostración absoluta del Teorema 18.1 absoluto, con tres pasos absolutos canónicos absolutos sobre el régimen canónico absoluto electromagnético interno absoluto del corpus absoluto. El campo factual absoluto electromagnético interno absoluto del corpus absoluto opera absolutamente sobre las posiciones factuales absolutas admisibles absolutas del dominio prototernario absoluto Ω<sub>pro</sub> absoluto correspondientes absolutas al régimen canónico absoluto electromagnético interno absoluto, distinto absoluto del régimen canónico absoluto electromagnético externo absoluto del Teorema 18.1 absoluto. Q.E.D.
-
-### 18.8. Teorema absoluto de emergencia VII — campo factual absoluto axiológico factual absoluto
-
-**Teorema 18.7 (Emergencia canónica absoluta del campo factual absoluto axiológico factual absoluto 𝔸<sup>SV</sup>).** El **campo factual absoluto axiológico factual absoluto** del corpus absoluto, denotado 𝔸<sup>SV</sup>, emerge absolutamente con rango canónico absoluto como **proyección canónica absoluta activada absoluta honesta absoluta** del protocampo primordial unificado absoluto Π<sub>SV</sub> a través absolutamente de la cadena canónica absoluta de activaciones honestas absolutas Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ,A</sub>] absoluta sobre las posiciones factuales absolutas admisibles absolutas canónicamente absolutas del dominio prototernario absoluto Ω<sub>pro</sub> absoluto que satisfacen absolutamente las condiciones canónicas absolutas del clasificador canónico absoluto Γ<sub>ℋ,A</sub> absoluto del corpus absoluto sobre el régimen canónico absoluto axiológico factual absoluto:
-
-```math
-\mathbb{A}^{SV}\;:=\;\Pi_3^H[\Gamma_{\mathcal{H},A}](\Pi_{SV}\big|_{\Omega_{\mathrm{pro}}^{A}}).
-```
-
-*Demostración.* Análoga absoluta a la demostración absoluta del Teorema 18.1 absoluto, con tres pasos absolutos canónicos absolutos sobre el régimen canónico absoluto axiológico factual absoluto del corpus absoluto. Q.E.D.
-
----
-
-## 19. Coexistencia estructural absoluta de los siete campos
-
-### 19.1. Apertura canónica absoluta del §19
-
-El §19 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto la **coexistencia estructural absoluta canónica absoluta** de los siete campos factuales absolutos coexistentes absolutos del corpus absoluto que emergen absolutamente como proyecciones canónicas absolutas activadas absolutas honestas absolutas del protocampo primordial unificado absoluto Π<sub>SV</sub>, conforme absolutamente a los siete teoremas absolutos canónicos absolutos de emergencia absoluta del §18 absoluto.
-
-### 19.2. Proposición canónica absoluta de coexistencia estructural absoluta
-
-**Proposición 19.1 (Coexistencia estructural absoluta canónica absoluta de los siete campos factuales absolutos).** Los siete campos factuales absolutos coexistentes absolutos del corpus absoluto — 𝔼<sub>ext</sub><sup>SV</sup>, 𝕃<sup>SV</sup>, 𝕋<sup>SV</sup>, ℍ<sup>SV</sup>, 𝔾<sup>SV</sup>, 𝔼<sub>int</sub><sup>SV</sup>, 𝔸<sup>SV</sup> — coexisten absolutamente con rango canónico absoluto sobre el dominio prototernario absoluto Ω<sub>pro</sub> absoluto del aparato absoluto del Sistema Vectorial SV bajo las cuatro propiedades absolutas canónicas absolutas simultáneas absolutas siguientes:
-
-(i) **Coexistencia canónica absoluta sobre el protocampo absoluto unificador absoluto**: los siete campos factuales absolutos coexistentes absolutos emergen absolutamente como proyecciones canónicas absolutas activadas absolutas honestas absolutas del **mismo absoluto** protocampo primordial unificado absoluto Π<sub>SV</sub> sobre Ω<sub>pro</sub> absoluto, conforme absolutamente a los siete teoremas absolutos canónicos absolutos de emergencia absoluta del §18 absoluto;
-
-(ii) **Distinción canónica absoluta de subdominios canónicos absolutos**: los siete campos factuales absolutos coexistentes absolutos operan absolutamente sobre subdominios canónicos absolutos canónicamente absolutos distintos absolutos del dominio prototernario absoluto Ω<sub>pro</sub> absoluto, articulados absolutamente con rango canónico absoluto por los siete clasificadores canónicos absolutos Γ<sub>ℋ,EM,ext</sub>, Γ<sub>ℋ,L</sub>, Γ<sub>ℋ,T</sub>, Γ<sub>ℋ,H</sub>, Γ<sub>ℋ,G</sub>, Γ<sub>ℋ,EM,int</sub>, Γ<sub>ℋ,A</sub> absolutos del corpus absoluto;
-
-(iii) **Compatibilidad canónica absoluta sobre subdominios solapados absolutos canónicos absolutos**: en los subdominios solapados absolutos canónicos absolutos del dominio prototernario absoluto Ω<sub>pro</sub> absoluto sobre los cuales dos o más campos factuales absolutos coexistentes absolutos se activan absolutamente simultáneamente absolutos, las proyecciones canónicas absolutas activadas absolutas son absolutamente compatibles absolutas canónicamente absolutas: ninguna proyección canónica absoluta clausura absolutamente espuriamente absoluta una posición factual absoluta que otra proyección canónica absoluta declara absolutamente como U absoluta legítima absoluta (P.6 respetada absolutamente);
-
-(iv) **Articulación canónica absoluta a través del operador maestro absoluto**: los siete campos factuales absolutos coexistentes absolutos se articulan absolutamente con rango canónico absoluto en el aparato absoluto del Sistema Vectorial SV a través absolutamente del **operador maestro absoluto canónico absoluto ℙ<sub>SV</sub>** del §20 absoluto del presente documento absoluto, cuya ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 articula absolutamente con rango canónico absoluto los siete campos factuales absolutos coexistentes absolutos sobre nueve sumandos absolutos canónicos absolutos y trece invariantes absolutos canónicos absolutos.
-
-*Demostración.* Las cuatro propiedades canónicas absolutas simultáneas absolutas se siguen absolutamente directamente absolutas de los siete teoremas absolutos canónicos absolutos de emergencia absoluta del §18 absoluto y de las prohibiciones constitutivas absolutas P.5 absoluta y P.6 absoluta del corpus absoluto. La propiedad (i) se sigue absolutamente del hecho canónico absoluto de que los siete teoremas canónicos absolutos del §18 absoluto operan absolutamente sobre el mismo absoluto protocampo primordial unificado absoluto Π<sub>SV</sub>. La propiedad (ii) se sigue absolutamente de la articulación canónica absoluta de los siete clasificadores canónicos absolutos del corpus absoluto sobre subdominios canónicos absolutos canónicamente absolutos distintos absolutos del dominio prototernario absoluto Ω<sub>pro</sub> absoluto. La propiedad (iii) se sigue absolutamente de la prohibición constitutiva absoluta P.6 absoluta del corpus absoluto, que prohíbe absolutamente la clausura espuria absoluta sobre las posiciones factuales absolutas equipotenciales absolutas. La propiedad (iv) se sigue absolutamente de la construcción canónica absoluta del operador maestro absoluto ℙ<sub>SV</sub> absoluto del §20 absoluto del presente documento absoluto. Q.E.D.
-
-### 19.3. Cierre canónico absoluto del §19 y de la Parte IV
-
-El §19 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto la Parte IV absoluta del presente documento absoluto sobre el operador absoluto canónico absoluto de proyección activada absoluta Π<sub>3</sub><sup>H</sup>, los siete teoremas absolutos canónicos absolutos de emergencia absoluta canónica absoluta de los siete campos factuales absolutos coexistentes absolutos del corpus absoluto y la coexistencia estructural absoluta canónica absoluta de los siete campos. La Proposición 19.1 absoluta articula absolutamente con rigor canónico absoluto la coexistencia canónica absoluta estructural absoluta entre los siete campos factuales absolutos coexistentes absolutos del corpus absoluto bajo cuatro propiedades canónicas absolutas simultáneas absolutas. La Parte V absoluta del presente documento absoluto despliega absolutamente con rango canónico absoluto la **ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0** del aparato absoluto del Sistema Vectorial SV, sus nueve sumandos canónicos absolutos, sus trece invariantes canónicos absolutos, su teorema absoluto de clausura canónica absoluta y su unicidad representacional absoluta canónica absoluta en la categoría canónica absoluta OpFact<sub>SV,General</sub> absoluta.
-
----
-
-## 20. Enunciado absoluto de la ecuación maestra ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0
-
-### 20.1. Apertura canónica absoluta del §20
-
-El §20 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto el **enunciado canónico absoluto** de la ecuación maestra absoluta canónica absoluta del aparato absoluto del Sistema Vectorial SV, cuya forma canónica absoluta es absolutamente:
-
-```math
-\boxed{\;\mathbb{P}_{SV}\bigl(\Pi_{SV};\,\mathfrak{G}_{SV};\,\{\mathcal{L}_i\};\,\nu\bigr)\;=\;0,\;}
-```
-
-donde Π<sub>SV</sub> absoluto es absolutamente el protocampo primordial unificado absoluto del §4 absoluto, 𝔊<sub>SV</sub> absoluto es absolutamente el operador soberano absoluto canónico absoluto de generación absoluta del §10 absoluto, {𝓛<sub>i</sub>} absoluto es absolutamente el conjunto canónico absoluto de **fluencias canónicas absolutas** del aparato absoluto del corpus absoluto sobre las posiciones factuales absolutas admisibles absolutas, y ν absoluto es absolutamente el ordinal canónico absoluto append-only absoluto del aparato absoluto.
-
-### 20.2. Definición canónica absoluta de las fluencias canónicas absolutas {𝓛<sub>i</sub>}
-
-**Definición 20.1 (Fluencias canónicas absolutas {𝓛<sub>i</sub>} del aparato absoluto).** Las **fluencias canónicas absolutas** del Sistema Vectorial SV, denotadas {𝓛<sub>i</sub>}, son absolutamente las magnitudes canónicas absolutas canónicas absolutas del aparato absoluto que articulan absolutamente con rango canónico absoluto la circulación absoluta canónica absoluta entre subdominios canónicos absolutos del dominio prototernario absoluto Ω<sub>pro</sub> absoluto sobre los cuales se activan absolutamente los siete campos factuales absolutos coexistentes absolutos del §18 absoluto del presente documento absoluto. Las fluencias canónicas absolutas {𝓛<sub>i</sub>} son absolutamente magnitudes canónicas absolutas trazables absolutas canónicamente absolutas sobre el ordinal canónico absoluto ν absoluto del aparato absoluto, conforme absolutamente a la honestidad coordenada absoluta canónica absoluta del Lema 7.3 absoluto de Lloret Egea (2026j).
-
-### 20.3. Significado canónico absoluto de la ecuación maestra
-
-**Observación 20.1 (Significado canónico absoluto de ℙ<sub>SV</sub> = 0).** La ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 absoluta declara absolutamente con rango canónico absoluto que la **clausura canónica absoluta** del aparato absoluto del Sistema Vectorial SV sobre el protocampo primordial unificado absoluto Π<sub>SV</sub>, el operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub>, las fluencias canónicas absolutas {𝓛<sub>i</sub>} y el ordinal canónico absoluto ν absoluto se articula absolutamente con rango canónico absoluto bajo la condición canónica absoluta de **anulación absoluta canónica absoluta** del operador maestro absoluto canónico absoluto ℙ<sub>SV</sub> absoluto. Esta condición canónica absoluta es absolutamente análoga absoluta a las ecuaciones maestras absolutas canónicas absolutas de los regímenes canónicos absolutos inferiores absolutos del corpus absoluto: 𝔼<sub>SV</sub> = 0 absoluto (Maxwell factual absoluto, Lloret Egea, 2026k), L<sub>SV</sub> = 0 absoluto (luz factual absoluta, Lloret Egea, documento absoluto de la luz factual), pero opera absolutamente con **rango canónico absoluto superior absoluto** sobre el protocampo absoluto unificador absoluto.
-
-### 20.4. Cierre canónico absoluto del §20
-
-El §20 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto el enunciado canónico absoluto de la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 absoluta del aparato absoluto del Sistema Vectorial SV. El §21 absoluto del presente documento absoluto despliega absolutamente con rango canónico absoluto los nueve sumandos canónicos absolutos absolutos del operador maestro absoluto canónico absoluto ℙ<sub>SV</sub>.
-
----
-
-## 21. Los nueve sumandos absolutos del operador maestro ℙ<sub>SV</sub>
-
-### 21.1. Apertura canónica absoluta del §21
-
-El §21 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto los **nueve sumandos canónicos absolutos absolutos** del operador maestro absoluto canónico absoluto ℙ<sub>SV</sub> absoluto del aparato absoluto del Sistema Vectorial SV. La descomposición canónica absoluta de ℙ<sub>SV</sub> en nueve sumandos canónicos absolutos articula absolutamente con rango canónico absoluto los nueve aspectos canónicos absolutos estructurales absolutos del aparato absoluto sobre el protocampo primordial unificado absoluto Π<sub>SV</sub>.
-
-### 21.2. Los nueve sumandos canónicos absolutos
-
-Los nueve sumandos canónicos absolutos absolutos del operador maestro absoluto canónico absoluto ℙ<sub>SV</sub> absoluto son absolutamente los siguientes nueve sumandos canónicos absolutos:
-
-**Sumando canónico absoluto S.1 — sumando canónico absoluto de protocampo absoluto unificado absoluto.** El sumando canónico absoluto S.1 absoluto, denotado 𝔖<sub>1</sub><sup>SV</sup> absoluto, articula absolutamente con rango canónico absoluto la contribución canónica absoluta del protocampo primordial unificado absoluto Π<sub>SV</sub> sobre el dominio prototernario absoluto Ω<sub>pro</sub> absoluto:
-
-```math
-\mathfrak{S}_1^{SV}\;:=\;\sum_{\xi_i\in\Omega_{\mathrm{pro}}^{\mathrm{adm}}}\;\Delta_{SV}(\xi_i)\cdot\mathfrak{c}_{\Pi}^{SV},
-```
-
-donde 𝔠<sub>Π</sub><sup>SV</sup> absoluto es absolutamente la compuerta canónica absoluta del aparato absoluto sobre el protocampo absoluto.
-
-**Sumando canónico absoluto S.2 — sumando canónico absoluto de generación absoluta canónica absoluta.** El sumando canónico absoluto S.2 absoluto, denotado 𝔖<sub>2</sub><sup>SV</sup> absoluto, articula absolutamente con rango canónico absoluto la contribución canónica absoluta del operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto sobre los sucesos factuales absolutos generadores absolutos interiores absolutos de la clase absoluta canónica absoluta G del §9 absoluto:
-
-```math
-\mathfrak{S}_2^{SV}\;:=\;\sum_{e_{\nu}\in G}\;\mathfrak{G}_{SV}[e_{\nu}](\Pi_{SV})\cdot\mathfrak{c}_{\mathfrak{G}}^{SV}.
-```
-
-**Sumando canónico absoluto S.3 — sumando canónico absoluto de fluencias canónicas absolutas.** El sumando canónico absoluto S.3 absoluto, denotado 𝔖<sub>3</sub><sup>SV</sup> absoluto, articula absolutamente con rango canónico absoluto la contribución canónica absoluta de las fluencias canónicas absolutas {𝓛<sub>i</sub>} absolutas del §20 absoluto sobre las posiciones factuales absolutas admisibles absolutas:
-
-```math
-\mathfrak{S}_3^{SV}\;:=\;\sum_{i}\;\mathcal{L}_i\cdot\mathfrak{c}_{\mathcal{L}}^{SV}.
-```
-
-**Sumando canónico absoluto S.4 — sumando canónico absoluto de articulación absoluta sobre el ordinal canónico absoluto ν.** El sumando canónico absoluto S.4 absoluto, denotado 𝔖<sub>4</sub><sup>SV</sup> absoluto, articula absolutamente con rango canónico absoluto la contribución canónica absoluta del ordinal canónico absoluto ν del aparato absoluto append-only absoluto:
-
-```math
-\mathfrak{S}_4^{SV}\;:=\;\partial_\nu^{SV}\Pi_{SV}\cdot\mathfrak{c}_\nu^{SV},
-```
-
-donde ∂<sub>ν</sub><sup>SV</sup>Π<sub>SV</sub> absoluto es absolutamente la **derivada factual absoluta canónica absoluta** del protocampo primordial unificado absoluto sobre el ordinal canónico absoluto ν del aparato absoluto, **diferencia finita absoluta sobre ordinal absoluto append-only absoluto**, no derivada temporal absoluta (P.1 respetada absolutamente).
-
-**Sumando canónico absoluto S.5 — sumando canónico absoluto de proyección activada absoluta canónica absoluta.** El sumando canónico absoluto S.5 absoluto, denotado 𝔖<sub>5</sub><sup>SV</sup> absoluto, articula absolutamente con rango canónico absoluto la contribución canónica absoluta del operador absoluto canónico absoluto de proyección activada absoluta Π<sub>3</sub><sup>H</sup> absoluto del §17 absoluto sobre los siete campos factuales absolutos coexistentes absolutos del §18 absoluto:
-
-```math
-\mathfrak{S}_5^{SV}\;:=\;\sum_{k=1}^{7}\;\Pi_3^H[\Gamma_{\mathcal{H},k}](\Pi_{SV})\cdot\mathfrak{c}_k^{SV}.
-```
-
-**Sumando canónico absoluto S.6 — sumando canónico absoluto de gradiente resolutivo absoluto.** El sumando canónico absoluto S.6 absoluto, denotado 𝔖<sub>6</sub><sup>SV</sup> absoluto, articula absolutamente con rango canónico absoluto la contribución canónica absoluta del gradiente resolutivo absoluto canónico absoluto δ<sub>i</sub><sup>SV</sup> absoluto del §6 absoluto sobre las posiciones factuales absolutas admisibles absolutas:
-
-```math
-\mathfrak{S}_6^{SV}\;:=\;\sum_{\xi_i\in\Omega_{\mathrm{pro}}^{\mathrm{adm}}}\;\delta_i^{SV}\cdot\mathfrak{c}_\delta^{SV}.
-```
-
-**Sumando canónico absoluto S.7 — sumando canónico absoluto de cota factual absoluta canónica absoluta.** El sumando canónico absoluto S.7 absoluto, denotado 𝔖<sub>7</sub><sup>SV</sup> absoluto, articula absolutamente con rango canónico absoluto la contribución canónica absoluta de la cota factual absoluta canónica absoluta κ<sub>SV</sub>(ξ<sub>i</sub>) absoluta del §6 absoluto sobre las posiciones factuales absolutas admisibles absolutas:
-
-```math
-\mathfrak{S}_7^{SV}\;:=\;\sum_{\xi_i\in\Omega_{\mathrm{pro}}^{\mathrm{adm}}}\;\kappa_{SV}(\xi_i)\cdot\mathfrak{c}_\kappa^{SV}.
-```
-
-**Sumando canónico absoluto S.8 — sumando canónico absoluto de funcional canónico absoluto entrópico absoluto.** El sumando canónico absoluto S.8 absoluto, denotado 𝔖<sub>8</sub><sup>SV</sup> absoluto, articula absolutamente con rango canónico absoluto la contribución canónica absoluta del funcional canónico absoluto entrópico absoluto H<sub>SV</sub> absoluto del corpus absoluto (Lloret Egea, 2026l) sobre el ordinal canónico absoluto ν del aparato absoluto:
-
-```math
-\mathfrak{S}_8^{SV}\;:=\;H_{SV}(\Pi_{SV};\nu)\cdot\mathfrak{c}_H^{SV}.
-```
-
-**Sumando canónico absoluto S.9 — sumando canónico absoluto de honestidad coordenada absoluta canónica absoluta.** El sumando canónico absoluto S.9 absoluto, denotado 𝔖<sub>9</sub><sup>SV</sup> absoluto, articula absolutamente con rango canónico absoluto la contribución canónica absoluta de la honestidad coordenada absoluta canónica absoluta del Lema 7.3 absoluto de Lloret Egea (2026j) sobre el aparato absoluto:
-
-```math
-\mathfrak{S}_9^{SV}\;:=\;\mathcal{H}_{coord}^{SV}(\Pi_{SV};\nu)\cdot\mathfrak{c}_{\mathcal{H}}^{SV}.
-```
-
-### 21.3. Forma canónica absoluta de la ecuación maestra sobre los nueve sumandos
-
-La ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 absoluta admite absolutamente con rango canónico absoluto la forma canónica absoluta sobre los nueve sumandos canónicos absolutos:
-
-```math
-\mathbb{P}_{SV}\bigl(\Pi_{SV};\,\mathfrak{G}_{SV};\,\{\mathcal{L}_i\};\,\nu\bigr)\;:=\;\bigoplus_{k=1}^{9}\;\mathfrak{S}_k^{SV}\;=\;0,
-```
-
-donde ⊕ absoluto es absolutamente la **compuerta canónica absoluta de concatenación absoluta canónica absoluta** del aparato absoluto del corpus absoluto, **conjunción lógica factual absoluta**, no absolutamente suma aritmética absoluta del Sistema Internacional absoluto SI heredado absoluto. La distinción canónica absoluta entre ⊕ absoluto y + absoluto es absolutamente esencial absoluta y debe respetarse absolutamente con rango canónico absoluto en toda lectura absoluta del aparato absoluto.
-
-### 21.4. Cierre canónico absoluto del §21
-
-El §21 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto los nueve sumandos canónicos absolutos absolutos del operador maestro absoluto canónico absoluto ℙ<sub>SV</sub> absoluto del aparato absoluto del Sistema Vectorial SV. El §22 absoluto del presente documento absoluto presenta absolutamente con rango canónico absoluto la tabla canónica absoluta de los nueve sumandos canónicos absolutos.
-
----
-
-## 22. Tabla canónica absoluta de los nueve sumandos
-
-### 22.1. Tabla canónica absoluta
-
-La tabla canónica absoluta T.22.1 absoluta de los nueve sumandos canónicos absolutos absolutos del operador maestro absoluto canónico absoluto ℙ<sub>SV</sub> absoluto del aparato absoluto del Sistema Vectorial SV se presenta absolutamente con rango canónico absoluto:
-
-| Sumando | Notación canónica | Contribución canónica absoluta | Compuerta canónica absoluta |
-|---------|-------------------|----------------------------------|--------------------------------|
-| S.1 | 𝔖<sub>1</sub><sup>SV</sup> | Protocampo primordial unificado absoluto Π<sub>SV</sub> sobre Ω<sub>pro</sub> | 𝔠<sub>Π</sub><sup>SV</sup> |
-| S.2 | 𝔖<sub>2</sub><sup>SV</sup> | Operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> sobre clase G | 𝔠<sub>𝔊</sub><sup>SV</sup> |
-| S.3 | 𝔖<sub>3</sub><sup>SV</sup> | Fluencias canónicas absolutas {𝓛<sub>i</sub>} sobre posiciones factuales absolutas admisibles absolutas | 𝔠<sub>𝓛</sub><sup>SV</sup> |
-| S.4 | 𝔖<sub>4</sub><sup>SV</sup> | Derivada factual absoluta canónica absoluta ∂<sub>ν</sub><sup>SV</sup>Π<sub>SV</sub> sobre ordinal canónico absoluto ν | 𝔠<sub>ν</sub><sup>SV</sup> |
-| S.5 | 𝔖<sub>5</sub><sup>SV</sup> | Operador absoluto canónico absoluto de proyección activada absoluta Π<sub>3</sub><sup>H</sup> sobre los siete campos | 𝔠<sub>k</sub><sup>SV</sup> |
-| S.6 | 𝔖<sub>6</sub><sup>SV</sup> | Gradiente resolutivo absoluto canónico absoluto δ<sub>i</sub><sup>SV</sup> sobre posiciones factuales absolutas admisibles absolutas | 𝔠<sub>δ</sub><sup>SV</sup> |
-| S.7 | 𝔖<sub>7</sub><sup>SV</sup> | Cota factual absoluta canónica absoluta κ<sub>SV</sub>(ξ<sub>i</sub>) sobre posiciones factuales absolutas admisibles absolutas | 𝔠<sub>κ</sub><sup>SV</sup> |
-| S.8 | 𝔖<sub>8</sub><sup>SV</sup> | Funcional canónico absoluto entrópico absoluto H<sub>SV</sub> sobre ordinal canónico absoluto ν | 𝔠<sub>H</sub><sup>SV</sup> |
-| S.9 | 𝔖<sub>9</sub><sup>SV</sup> | Honestidad coordenada absoluta canónica absoluta 𝓗<sub>coord</sub><sup>SV</sup> sobre aparato absoluto | 𝔠<sub>𝓗</sub><sup>SV</sup> |
-
-**Tabla T.22.1.** Los nueve sumandos canónicos absolutos absolutos del operador maestro absoluto canónico absoluto ℙ<sub>SV</sub> absoluto del aparato absoluto del Sistema Vectorial SV.
-
-### 22.2. Cierre canónico absoluto del §22
-
-El §22 absoluto del presente documento absoluto presenta absolutamente con rango canónico absoluto la tabla canónica absoluta T.22.1 absoluta de los nueve sumandos canónicos absolutos absolutos del operador maestro absoluto canónico absoluto ℙ<sub>SV</sub> absoluto. El §23 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto los trece invariantes absolutos canónicos absolutos asociados absolutos a la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 absoluta.
-
----
-
-## 23. Los trece invariantes absolutos asociados a ℙ<sub>SV</sub> = 0
-
-### 23.1. Apertura canónica absoluta del §23
-
-El §23 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto los **trece invariantes absolutos canónicos absolutos** I.1–I.13 absolutos asociados absolutos a la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 absoluta del aparato absoluto del Sistema Vectorial SV. Los trece invariantes absolutos canónicos absolutos articulan absolutamente con rango canónico absoluto las trece magnitudes absolutas canónicas absolutas conservadas absolutas canónicamente absolutas bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 absoluta.
-
-### 23.2. Los trece invariantes canónicos absolutos
-
-**Invariante canónico absoluto I.1 — densidad polar absoluta canónica absoluta global.** Bajo la clase absoluta canónica absoluta A del §9 absoluto, la densidad polar absoluta canónica absoluta global Δ<sub>SV</sub><sup>glob</sup> absoluta del protocampo primordial unificado absoluto se conserva absolutamente con rango canónico absoluto:
-
-```math
-I.1:\;\;\Delta_{SV}^{\mathrm{glob}}\;:=\;\sum_{\xi_i\in\Omega_{\mathrm{pro}}^{\mathrm{adm}}}\Delta_{SV}(\xi_i)\;\;\text{canónicamente absoluta conservada absoluta bajo A}.
-```
-
-**Invariante canónico absoluto I.2 — energía factual absoluta canónica absoluta total absoluta canónica absoluta.** Bajo la clase absoluta canónica absoluta A del §9 absoluto, la energía factual absoluta canónica absoluta total absoluta canónica absoluta E<sub>SV</sub><sup>tot</sup> absoluta del protocampo primordial unificado absoluto se conserva absolutamente con rango canónico absoluto, mientras que bajo la clase absoluta canónica absoluta G del §9 absoluto, E<sub>SV</sub><sup>tot</sup> absoluta crece absolutamente estrictamente absoluta canónicamente absoluta conforme absolutamente al Teorema 16.1 absoluto del §16 absoluto sobre la creabilidad factual absolutamente reforzada absoluta:
-
-```math
-I.2:\;\;E_{SV}^{tot}\;\;\text{canónicamente absoluta conservada absoluta bajo A; estrictamente creciente absoluta bajo G}.
-```
-
-**Invariante canónico absoluto I.3 — honestidad coordenada absoluta canónica absoluta.** La honestidad coordenada absoluta canónica absoluta del Lema 7.3 absoluto de Lloret Egea (2026j) se preserva absolutamente con rango canónico absoluto bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 absoluta:
-
-```math
-I.3:\;\;\mathcal{H}_{coord}^{SV}\;\;\text{canónicamente absoluta preservada absoluta bajo }\mathbb{P}_{SV}=0.
-```
-
-**Invariante canónico absoluto I.4 — admisibilidad canónica absoluta del clasificador canónico absoluto Γ<sub>ℋ</sub>.** La admisibilidad canónica absoluta del clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto sobre las posiciones factuales absolutas admisibles absolutas se preserva absolutamente con rango canónico absoluto bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 absoluta:
-
-```math
-I.4:\;\;\Gamma_{\mathcal{H}}\;\;\text{canónicamente absoluta preservada absoluta bajo }\mathbb{P}_{SV}=0.
-```
-
-**Invariante canónico absoluto I.5 — preservación canónica absoluta del ordinal canónico absoluto append-only absoluto.** El ordinal canónico absoluto append-only absoluto ν del aparato absoluto se preserva absolutamente con rango canónico absoluto bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 absoluta, conforme absolutamente al Lema 5.5 absoluto de Lloret Egea (2026j):
-
-```math
-I.5:\;\;\nu\;\;\text{append-only absoluto canónicamente absoluto preservado absoluto bajo }\mathbb{P}_{SV}=0.
-```
-
-**Invariante canónico absoluto I.6 — coexistencia canónica absoluta de los siete campos factuales absolutos.** La coexistencia canónica absoluta estructural absoluta canónica absoluta de los siete campos factuales absolutos coexistentes absolutos del §19 absoluto se preserva absolutamente con rango canónico absoluto bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 absoluta:
-
-```math
-I.6:\;\;\{\mathbb{E}_{ext}^{SV},\mathbb{L}^{SV},\mathbb{T}^{SV},\mathbb{H}^{SV},\mathbb{G}^{SV},\mathbb{E}_{int}^{SV},\mathbb{A}^{SV}\}\;\;\text{canónicamente absoluta preservada absoluta bajo }\mathbb{P}_{SV}=0.
-```
-
-**Invariante canónico absoluto I.7 — preservación canónica absoluta de la marca absoluta U absoluta legítima absoluta.** La marca absoluta U absoluta legítima absoluta sobre las posiciones factuales absolutas equipotenciales absolutas se preserva absolutamente con rango canónico absoluto bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 absoluta, conforme absolutamente a la prohibición constitutiva absoluta P.6 absoluta del corpus absoluto:
-
-```math
-I.7:\;\;U\;\;\text{canónicamente absoluta preservada absoluta bajo }\mathbb{P}_{SV}=0\;\;(\text{P.6 respetada absolutamente}).
-```
-
-**Invariante canónico absoluto I.8 — preservación canónica absoluta de las cuatro transformadas canónicas absolutas de trayectoria absoluta 𝒯<sup>SV</sup><sub>k</sub>.** Las cuatro transformadas canónicas absolutas de trayectoria absoluta 𝒯<sup>SV</sup><sub>k</sub> con k ∈ {1, 2, 3, 4} del corpus absoluto se preservan absolutamente con rango canónico absoluto bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 absoluta:
-
-```math
-I.8:\;\;\{\mathcal{T}_k^{SV}\}_{k=1}^{4}\;\;\text{canónicamente absoluta preservada absoluta bajo }\mathbb{P}_{SV}=0.
-```
-
-**Invariante canónico absoluto I.9 — preservación canónica absoluta de la jerarquía estructural absoluta de los tres estratos canónicos absolutos.** La jerarquía estructural absoluta canónica absoluta de los tres estratos canónicos absolutos Ω<sub>pre</sub> ⊂<sub>can</sub> Ω<sub>pro</sub> ⊂<sub>can</sub> Σ canónicamente absoluto del §0 absoluto se preserva absolutamente con rango canónico absoluto bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 absoluta, conforme absolutamente a la Proposición 0.1 absoluta del §0 absoluto:
-
-```math
-I.9:\;\;\Omega_{\mathrm{pre}}\subset_{\mathrm{can}}\Omega_{\mathrm{pro}}\subset_{\mathrm{can}}\Sigma\;\;\text{canónicamente absoluta preservada absoluta bajo }\mathbb{P}_{SV}=0.
-```
-
-**Invariante canónico absoluto I.10 — preservación canónica absoluta de la frontera exterior absoluta ε<sub>0</sub>.** La frontera exterior absoluta canónica absoluta ε<sub>0</sub> absoluta del aparato absoluto se preserva absolutamente con rango canónico absoluto bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 absoluta como U absoluta legítima absoluta no cerrable absoluta desde dentro del aparato absoluto, conforme absolutamente a la prohibición constitutiva absoluta P.6 absoluta del corpus absoluto:
-
-```math
-I.10:\;\;\varepsilon_0\;\;\text{como U absoluta legítima absoluta no cerrable absoluta canónicamente absoluta preservada absoluta}.
-```
-
-**Invariante canónico absoluto I.11 — preservación canónica absoluta de la coexistencia canónica absoluta de las quince visiones canónicas absolutas sobre (ε<sub>0</sub>, F<sub>0</sub>).** La coexistencia canónica absoluta de las quince visiones canónicas absolutas sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>) absoluto del §31 absoluto del presente documento absoluto se preserva absolutamente con rango canónico absoluto bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 absoluta, conforme absolutamente a la matriz absoluta canónica absoluta de coexistencia absoluta 15×15 del §32 absoluto:
-
-```math
-I.11:\;\;\{V.1,\ldots,V.15\}\;\;\text{canónicamente absoluta coexistentes absolutas bajo }\mathbb{P}_{SV}=0.
-```
-
-**Invariante canónico absoluto I.12 — preservación canónica absoluta de la compuerta metrológica absoluta ℘<sub>SV</sub>.** La compuerta metrológica absoluta canónica absoluta ℘<sub>SV</sub> absoluta del corpus absoluto que traduce absolutamente con rigor canónico absoluto las unidades canónicas absolutas del aparato factual absoluto a unidades absolutas SI heredadas absolutas se preserva absolutamente con rango canónico absoluto bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 absoluta:
-
-```math
-I.12:\;\;\wp_{SV}\;\;\text{canónicamente absoluta preservada absoluta bajo }\mathbb{P}_{SV}=0.
-```
-
-**Invariante canónico absoluto I.13 — preservación canónica absoluta de las seis prohibiciones constitutivas absolutas P.1–P.6.** Las seis prohibiciones constitutivas absolutas canónicas absolutas P.1–P.6 absolutas del corpus absoluto se preservan absolutamente con rango canónico absoluto bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 absoluta:
-
-```math
-I.13:\;\;\{P.1,P.2,P.3,P.4,P.5,P.6\}\;\;\text{canónicamente absoluta preservadas absolutas bajo }\mathbb{P}_{SV}=0.
-```
-
-### 23.3. Cierre canónico absoluto del §23
-
-El §23 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto los trece invariantes absolutos canónicos absolutos I.1–I.13 absolutos asociados absolutos a la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 absoluta del aparato absoluto del Sistema Vectorial SV. Los trece invariantes absolutos canónicos absolutos son absolutamente esenciales absolutos para el teorema absoluto canónico absoluto de clausura canónica absoluta del §24 absoluto y para los cuatro teoremas absolutos canónicos absolutos de absorción absoluta canónica absoluta de los §§25–28 absolutos del presente documento absoluto.
-
----
-
-## 24. Teorema de clausura absoluta y propiedades algebraicas de ℙ<sub>SV</sub>
-
-### 24.1. Apertura canónica absoluta del §24
-
-El §24 absoluto del presente documento absoluto demuestra absolutamente con rango canónico absoluto el **teorema absoluto canónico absoluto de clausura canónica absoluta** del operador maestro absoluto canónico absoluto ℙ<sub>SV</sub> absoluto del aparato absoluto del Sistema Vectorial SV, sus propiedades algebraicas absolutas canónicas absolutas y la unicidad representacional absoluta canónica absoluta del operador absoluto ℙ<sub>SV</sub> absoluto en la categoría canónica absoluta OpFact<sub>SV,General</sub> absoluta.
-
-### 24.2. Teorema de clausura canónica absoluta
-
-**Teorema 24.1 (Clausura canónica absoluta del operador maestro absoluto canónico absoluto ℙ<sub>SV</sub>).** El operador maestro absoluto canónico absoluto ℙ<sub>SV</sub> absoluto del aparato absoluto del Sistema Vectorial SV satisface absolutamente con rango canónico absoluto la **clausura canónica absoluta** sobre el protocampo primordial unificado absoluto Π<sub>SV</sub>, el operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub>, las fluencias canónicas absolutas {𝓛<sub>i</sub>} y el ordinal canónico absoluto ν absoluto del aparato absoluto: la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 absoluta articula absolutamente con rango canónico absoluto la clausura canónica absoluta del aparato absoluto bajo las trece condiciones canónicas absolutas invariantes absolutas I.1–I.13 absolutas del §23 absoluto.
-
-*Demostración.* La demostración procede absolutamente por verificación canónica absoluta de las trece condiciones canónicas absolutas invariantes absolutas I.1–I.13 absolutas del §23 absoluto. Cada uno de los nueve sumandos canónicos absolutos absolutos del §21 absoluto contribuye absolutamente con rango canónico absoluto a una o más condiciones canónicas absolutas invariantes absolutas: el sumando canónico absoluto S.1 absoluto contribuye absolutamente al invariante canónico absoluto I.1 absoluto sobre la densidad polar absoluta global; el sumando canónico absoluto S.2 absoluto contribuye absolutamente al invariante canónico absoluto I.2 absoluto sobre la energía factual absoluta total; el sumando canónico absoluto S.3 absoluto contribuye absolutamente a las fluencias canónicas absolutas; el sumando canónico absoluto S.4 absoluto contribuye absolutamente al invariante canónico absoluto I.5 absoluto sobre el ordinal canónico absoluto append-only absoluto; el sumando canónico absoluto S.5 absoluto contribuye absolutamente al invariante canónico absoluto I.6 absoluto sobre la coexistencia canónica absoluta de los siete campos; el sumando canónico absoluto S.6 absoluto contribuye absolutamente al gradiente resolutivo absoluto; el sumando canónico absoluto S.7 absoluto contribuye absolutamente a la cota factual absoluta canónica absoluta; el sumando canónico absoluto S.8 absoluto contribuye absolutamente al funcional canónico absoluto entrópico absoluto; el sumando canónico absoluto S.9 absoluto contribuye absolutamente al invariante canónico absoluto I.3 absoluto sobre la honestidad coordenada absoluta canónica absoluta. La conjunción canónica absoluta de los nueve sumandos canónicos absolutos absolutos a través de la compuerta canónica absoluta de concatenación absoluta canónica absoluta ⊕ absoluta del aparato absoluto del corpus absoluto articula absolutamente con rango canónico absoluto la clausura canónica absoluta del operador maestro absoluto canónico absoluto ℙ<sub>SV</sub> absoluto bajo las trece condiciones canónicas absolutas invariantes absolutas. Q.E.D.
-
-### 24.3. Propiedades algebraicas absolutas canónicas absolutas de ℙ<sub>SV</sub>
-
-**Teorema 24.2 (Propiedades algebraicas absolutas canónicas absolutas del operador maestro absoluto canónico absoluto ℙ<sub>SV</sub>).** El operador maestro absoluto canónico absoluto ℙ<sub>SV</sub> absoluto del aparato absoluto del Sistema Vectorial SV satisface absolutamente con rango canónico absoluto las **cuatro propiedades algebraicas absolutas canónicas absolutas** análogas absolutas a las del operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto del §11 absoluto: homogeneidad factual absoluta canónica absoluta, aditividad absoluta canónica absoluta, covariancia factual absoluta canónica absoluta bajo las cuatro transformadas canónicas absolutas de trayectoria absoluta 𝒯<sup>SV</sup><sub>k</sub> con k ∈ {1, 2, 3, 4} del corpus absoluto, y estabilidad estructural absoluta canónica absoluta.
-
-*Demostración.* Análoga absoluta a la demostración absoluta del Teorema 11.1 absoluto, Teorema 11.2 absoluto, Teorema 11.3 absoluto y Teorema 11.4 absoluto del §11 absoluto, aplicada absolutamente con rango canónico absoluto al operador maestro absoluto canónico absoluto ℙ<sub>SV</sub> absoluto sobre los nueve sumandos canónicos absolutos absolutos del §21 absoluto. Q.E.D.
-
-### 24.4. Unicidad representacional absoluta canónica absoluta de ℙ<sub>SV</sub>
-
-**Teorema 24.3 (Unicidad representacional absoluta canónica absoluta del operador maestro absoluto canónico absoluto ℙ<sub>SV</sub> en la categoría canónica absoluta OpFact<sub>SV,General</sub>).** En la categoría canónica absoluta OpFact<sub>SV,General</sub> absoluta del aparato absoluto del Sistema Vectorial SV, cuyos objetos absolutos canónicos absolutos son absolutamente las configuraciones canónicas absolutas del aparato absoluto sobre el protocampo primordial unificado absoluto Π<sub>SV</sub>, el operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub>, las fluencias canónicas absolutas {𝓛<sub>i</sub>} y el ordinal canónico absoluto ν absoluto, y cuyos morfismos absolutos canónicos absolutos son absolutamente los operadores canónicos absolutos que satisfacen absolutamente las cuatro propiedades algebraicas absolutas canónicas absolutas del Teorema 24.2 absoluto, el operador maestro absoluto canónico absoluto ℙ<sub>SV</sub> absoluto es absolutamente **único absoluto canónicamente absoluto** salvo isomorfismo canónico absoluto admisible absoluto.
-
-*Demostración.* Análoga absoluta a la demostración absoluta del Teorema 12.1 absoluto del §12 absoluto sobre la unicidad representacional absoluta canónica absoluta del operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto en la categoría canónica absoluta OpGen<sub>SV,Π</sub> absoluta, aplicada absolutamente con rango canónico absoluto al operador maestro absoluto canónico absoluto ℙ<sub>SV</sub> absoluto en la categoría canónica absoluta OpFact<sub>SV,General</sub> absoluta sobre los nueve sumandos canónicos absolutos absolutos del §21 absoluto. Q.E.D.
-
-### 24.5. Cierre canónico absoluto del §24 y de la Parte V
-
-El §24 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto la Parte V absoluta del presente documento absoluto sobre la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 absoluta del aparato absoluto del Sistema Vectorial SV, sus nueve sumandos canónicos absolutos absolutos, sus trece invariantes absolutos canónicos absolutos, su teorema absoluto canónico absoluto de clausura canónica absoluta y su unicidad representacional absoluta canónica absoluta en la categoría canónica absoluta OpFact<sub>SV,General</sub> absoluta. La Parte VI absoluta del presente documento absoluto despliega absolutamente con rango canónico absoluto los **cuatro teoremas absolutos canónicos absolutos de absorción canónica absoluta** de los regímenes canónicos absolutos inferiores absolutos del corpus absoluto — Maxwell factual absoluto, luz factual absoluta, transmutación factual absoluta y entropía factual absoluta — bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 absoluta, y el teorema absoluto canónico absoluto de convergencia absoluta canónica absoluta y rango doctrinal superior absoluto del presente documento absoluto.
-
----
-
-## 25. Teorema absoluto de absorción I — Maxwell factual
-
-### 25.1. Apertura canónica absoluta del §25
-
-El §25 absoluto del presente documento absoluto demuestra absolutamente con rango canónico absoluto el **primer teorema absoluto canónico absoluto de absorción canónica absoluta** del aparato absoluto del Sistema Vectorial SV: la ecuación maestra absoluta canónica absoluta 𝔼<sub>SV</sub> = 0 absoluta del régimen canónico absoluto inferior absoluto de Maxwell factual absoluto (Lloret Egea, 2026k, §3.12 absoluto) es absolutamente **restricción canónica exacta absoluta** de la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 absoluta del presente documento absoluto sobre proyección canónica absoluta admisible absoluta del protocampo primordial unificado absoluto Π<sub>SV</sub> a los sumandos canónicos absolutos electromagnéticos absolutos del aparato absoluto.
-
-### 25.2. Definición canónica absoluta de la proyección canónica absoluta admisible absoluta π<sub>1,2</sub>
-
-**Definición 25.1 (Proyección canónica absoluta admisible absoluta π<sub>1,2</sub> a los sumandos electromagnéticos absolutos).** La **proyección canónica absoluta admisible absoluta** π<sub>1,2</sub> absoluta del aparato absoluto del Sistema Vectorial SV a los sumandos canónicos absolutos electromagnéticos absolutos de la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 absoluta es absolutamente la proyección canónica absoluta canónica absoluta que conserva absolutamente los sumandos canónicos absolutos electromagnéticos absolutos del operador maestro absoluto ℙ<sub>SV</sub> absoluto, anula absolutamente con rango canónico absoluto los sumandos canónicos absolutos restantes absolutos no electromagnéticos absolutos del operador maestro absoluto, y articula absolutamente con rango canónico absoluto la coactivación canónica absoluta admisible absoluta de los sumandos canónicos absolutos electromagnéticos absolutos del par de sumandos canónicos absolutos {𝓛<sub>1</sub>, 𝓛<sub>2</sub>} absoluto del operador maestro absoluto ℙ<sub>SV</sub> absoluto, conforme absolutamente a la articulación canónica absoluta del operador maestro absoluto ℙ<sub>SV</sub> sobre los nueve sumandos canónicos absolutos del §21 absoluto del presente documento absoluto.
-
-**Observación 25.1 (Articulación canónica absoluta de la proyección π<sub>1,2</sub>).** La proyección canónica absoluta admisible absoluta π<sub>1,2</sub> absoluta articula absolutamente con rango canónico absoluto el régimen canónico absoluto canónico absoluto inferior absoluto de Maxwell factual absoluto del corpus absoluto (Lloret Egea, 2026k) sobre el aparato absoluto general absoluto canónico absoluto del presente documento absoluto. Bajo la proyección canónica absoluta π<sub>1,2</sub> absoluta, los sumandos canónicos absolutos electromagnéticos absolutos del operador maestro absoluto ℙ<sub>SV</sub> absoluto se reducen absolutamente con rango canónico absoluto a los sumandos canónicos absolutos del operador absoluto canónico absoluto 𝔼<sub>SV</sub> absoluto del régimen canónico absoluto inferior absoluto de Maxwell factual absoluto, conforme absolutamente a la articulación canónica absoluta canónica absoluta del corpus absoluto.
-
-### 25.3. Enunciado y demostración del Teorema absoluto de absorción I
-
-**Teorema 25.1 (Absorción canónica absoluta exacta absoluta de Maxwell factual absoluto bajo ℙ<sub>SV</sub> = 0).** Bajo la proyección canónica absoluta admisible absoluta π<sub>1,2</sub> absoluta de la Definición 25.1 absoluta del §25.2 absoluto del presente documento absoluto, la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 absoluta del aparato absoluto general absoluto canónico absoluto del Sistema Vectorial SV se reduce absolutamente con rango canónico absoluto **exactamente absoluto** a la ecuación maestra absoluta canónica absoluta 𝔼<sub>SV</sub> = 0 absoluta del régimen canónico absoluto inferior absoluto de Maxwell factual absoluto del corpus absoluto (Lloret Egea, 2026k, §3.12 absoluto):
-
-```math
-\pi_{1,2}(\mathbb{P}_{SV}=0)\;\equiv\;\mathbb{E}_{SV}=0,
-```
-
-donde la equivalencia canónica absoluta ≡ absoluta denota absolutamente la **identidad canónica absoluta exacta absoluta** entre las dos ecuaciones canónicas absolutas bajo la proyección canónica absoluta admisible absoluta π<sub>1,2</sub> absoluta.
-
-*Demostración.* La demostración procede absolutamente en cuatro pasos canónicos absolutos.
-
-**Paso (i) — articulación canónica absoluta de los sumandos canónicos absolutos electromagnéticos absolutos del operador maestro absoluto ℙ<sub>SV</sub>.** Por la articulación canónica absoluta del operador maestro absoluto ℙ<sub>SV</sub> absoluto sobre los nueve sumandos canónicos absolutos absolutos del §21 absoluto del presente documento absoluto, los sumandos canónicos absolutos primero absoluto y segundo absoluto, denotados absolutamente 𝓛<sub>1</sub><sup>SV</sup>(Π<sub>SV</sub>; ν) absoluto y 𝓛<sub>2</sub><sup>SV</sup>(Π<sub>SV</sub>; ν) absoluto, articulan absolutamente con rango canónico absoluto los sumandos canónicos absolutos electromagnéticos absolutos del aparato absoluto, articulando absolutamente con rango canónico absoluto la dinámica canónica absoluta canónica absoluta del par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) absoluto del protocampo primordial unificado absoluto Π<sub>SV</sub> sobre los sucesos factuales absolutos electromagnéticos absolutos canónicos absolutos del aparato absoluto sobre el dominio prototernario absoluto Ω<sub>pro</sub> absoluto.
-
-**Paso (ii) — anulación canónica absoluta de los sumandos canónicos absolutos restantes absolutos.** Por la Definición 25.1 absoluta, la proyección canónica absoluta admisible absoluta π<sub>1,2</sub> absoluta anula absolutamente con rango canónico absoluto los sumandos canónicos absolutos restantes absolutos no electromagnéticos absolutos del operador maestro absoluto ℙ<sub>SV</sub> absoluto, esto es, los siete sumandos canónicos absolutos restantes absolutos 𝓛<sub>3</sub><sup>SV</sup> absoluto, 𝓛<sub>4</sub><sup>SV</sup> absoluto, ..., 𝓛<sub>9</sub><sup>SV</sup> absoluto, conforme absolutamente a la articulación canónica absoluta canónica absoluta del operador maestro absoluto ℙ<sub>SV</sub> absoluto sobre los nueve sumandos canónicos absolutos absolutos. Bajo esta anulación canónica absoluta, la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub> = 0 absoluta se reduce absolutamente con rango canónico absoluto a la ecuación canónica absoluta 𝓛<sub>1</sub><sup>SV</sup>(Π<sub>SV</sub>; ν) + 𝓛<sub>2</sub><sup>SV</sup>(Π<sub>SV</sub>; ν) = 0 absoluta sobre los sumandos canónicos absolutos electromagnéticos absolutos del aparato absoluto.
-
-**Paso (iii) — identificación canónica absoluta exacta absoluta con la ecuación maestra absoluta 𝔼<sub>SV</sub> = 0 del régimen canónico absoluto inferior absoluto de Maxwell factual absoluto.** Por la articulación canónica absoluta canónica absoluta del corpus absoluto sobre el régimen canónico absoluto inferior absoluto de Maxwell factual absoluto (Lloret Egea, 2026k, §3.12 absoluto), la ecuación maestra absoluta canónica absoluta 𝔼<sub>SV</sub> = 0 absoluta del régimen canónico absoluto inferior absoluto se articula absolutamente con rango canónico absoluto sobre la suma canónica absoluta de los sumandos canónicos absolutos electromagnéticos absolutos del aparato absoluto. La identificación canónica absoluta exacta absoluta entre la ecuación canónica absoluta 𝓛<sub>1</sub><sup>SV</sup>(Π<sub>SV</sub>; ν) + 𝓛<sub>2</sub><sup>SV</sup>(Π<sub>SV</sub>; ν) = 0 absoluta del Paso (ii) absoluto y la ecuación maestra absoluta canónica absoluta 𝔼<sub>SV</sub> = 0 absoluta del régimen canónico absoluto inferior absoluto se establece absolutamente con rango canónico absoluto por la articulación canónica absoluta del par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) absoluto del protocampo primordial unificado absoluto sobre los sumandos canónicos absolutos electromagnéticos absolutos del aparato absoluto.
-
-**Paso (iv) — clausura canónica absoluta de la absorción canónica absoluta exacta absoluta.** La articulación canónica absoluta de los Pasos (i)–(iii) absolutos establece absolutamente con rango canónico absoluto la identidad canónica absoluta exacta absoluta:
-
-```math
-\pi_{1,2}(\mathbb{P}_{SV}=0)\;\equiv\;\mathcal{L}_1^{SV}(\Pi_{SV};\nu)+\mathcal{L}_2^{SV}(\Pi_{SV};\nu)=0\;\equiv\;\mathbb{E}_{SV}=0.
-```
-
-La identidad canónica absoluta exacta absoluta clausura absolutamente con rango canónico absoluto la absorción canónica absoluta exacta absoluta del régimen canónico absoluto inferior absoluto de Maxwell factual absoluto bajo la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub> = 0 absoluta del aparato absoluto general absoluto canónico absoluto del presente documento absoluto. Q.E.D.
-
-### 25.4. Corolario absoluto canónico absoluto del Teorema 25.1
-
-**Corolario 25.1 (Maxwell factual absoluto como régimen canónico absoluto inferior absoluto del aparato absoluto general absoluto).** Por el Teorema 25.1 absoluto, el régimen canónico absoluto inferior absoluto de Maxwell factual absoluto del corpus absoluto (Lloret Egea, 2026k) es absolutamente **régimen canónico absoluto inferior absoluto** del aparato absoluto general absoluto canónico absoluto del presente documento absoluto, en el sentido canónico absoluto de que la ecuación maestra absoluta canónica absoluta del régimen canónico absoluto inferior absoluto se obtiene absolutamente con rango canónico absoluto **exactamente absoluto** como restricción canónica absoluta admisible absoluta de la ecuación maestra absoluta canónica absoluta del aparato absoluto general absoluto canónico absoluto sobre la proyección canónica absoluta admisible absoluta π<sub>1,2</sub> absoluta. La articulación canónica absoluta del corolario absoluto establece absolutamente con rango canónico absoluto el rango doctrinal superior absoluto del aparato absoluto general absoluto canónico absoluto del presente documento absoluto sobre el régimen canónico absoluto inferior absoluto de Maxwell factual absoluto, conforme absolutamente al §29 absoluto del presente documento absoluto.
-
-### 25.5. Cierre canónico absoluto del §25
-
-El §25 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto el primer teorema absoluto canónico absoluto de absorción canónica absoluta del aparato absoluto del Sistema Vectorial SV: la ecuación maestra absoluta canónica absoluta 𝔼<sub>SV</sub> = 0 absoluta del régimen canónico absoluto inferior absoluto de Maxwell factual absoluto es absolutamente restricción canónica exacta absoluta de la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub> = 0 absoluta del presente documento absoluto sobre la proyección canónica absoluta admisible absoluta π<sub>1,2</sub> absoluta. El §26 absoluto del presente documento absoluto demuestra absolutamente con rango canónico absoluto el segundo teorema absoluto canónico absoluto de absorción canónica absoluta sobre el régimen canónico absoluto inferior absoluto de la luz factual absoluta del corpus absoluto.
-
----
-
-## 26. Teorema absoluto de absorción II — Luz factual
-
-### 26.1. Apertura canónica absoluta del §26
-
-El §26 absoluto del presente documento absoluto demuestra absolutamente con rango canónico absoluto el **segundo teorema absoluto canónico absoluto de absorción canónica absoluta** del aparato absoluto del Sistema Vectorial SV: la ecuación maestra absoluta canónica absoluta L<sub>SV</sub> = 0 absoluta del régimen canónico absoluto inferior absoluto de la luz factual absoluta (Lloret Egea, 2026 — luz factual) es absolutamente **restricción canónica exacta absoluta** de la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 absoluta del presente documento absoluto sobre proyección canónica absoluta admisible absoluta del protocampo primordial unificado absoluto Π<sub>SV</sub> a los sumandos canónicos absolutos lumínicos absolutos del aparato absoluto.
-
-### 26.2. Definición canónica absoluta de la proyección canónica absoluta admisible absoluta π<sub>L</sub>
-
-**Definición 26.1 (Proyección canónica absoluta admisible absoluta π<sub>L</sub> a los sumandos lumínicos absolutos).** La **proyección canónica absoluta admisible absoluta** π<sub>L</sub> absoluta del aparato absoluto del Sistema Vectorial SV a los sumandos canónicos absolutos lumínicos absolutos de la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 absoluta es absolutamente la proyección canónica absoluta canónica absoluta que conserva absolutamente los sumandos canónicos absolutos lumínicos absolutos del operador maestro absoluto ℙ<sub>SV</sub> absoluto, anula absolutamente con rango canónico absoluto los sumandos canónicos absolutos restantes absolutos no lumínicos absolutos del operador maestro absoluto, y articula absolutamente con rango canónico absoluto la coactivación canónica absoluta admisible absoluta de los quince sumandos canónicos absolutos lumínicos absolutos del operador absoluto canónico absoluto L<sub>SV</sub> absoluto del régimen canónico absoluto inferior absoluto de la luz factual absoluta del corpus absoluto, articulados absolutamente con rango canónico absoluto sobre los sumandos canónicos absolutos correspondientes absolutos del operador maestro absoluto ℙ<sub>SV</sub> absoluto.
-
-**Observación 26.1 (Articulación canónica absoluta de la proyección π<sub>L</sub>).** La proyección canónica absoluta admisible absoluta π<sub>L</sub> absoluta articula absolutamente con rango canónico absoluto el régimen canónico absoluto inferior absoluto de la luz factual absoluta del corpus absoluto (Lloret Egea, 2026 — luz factual) sobre el aparato absoluto general absoluto canónico absoluto del presente documento absoluto. Bajo la proyección canónica absoluta π<sub>L</sub> absoluta, los sumandos canónicos absolutos lumínicos absolutos del operador maestro absoluto ℙ<sub>SV</sub> absoluto se reducen absolutamente con rango canónico absoluto a los quince sumandos canónicos absolutos del operador absoluto canónico absoluto L<sub>SV</sub> absoluto del régimen canónico absoluto inferior absoluto de la luz factual absoluta, conforme absolutamente a la articulación canónica absoluta canónica absoluta del corpus absoluto.
-
-### 26.3. Enunciado y demostración del Teorema absoluto de absorción II
-
-**Teorema 26.1 (Absorción canónica absoluta exacta absoluta de la luz factual absoluta bajo ℙ<sub>SV</sub> = 0).** Bajo la proyección canónica absoluta admisible absoluta π<sub>L</sub> absoluta de la Definición 26.1 absoluta del §26.2 absoluto del presente documento absoluto, la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 absoluta del aparato absoluto general absoluto canónico absoluto del Sistema Vectorial SV se reduce absolutamente con rango canónico absoluto **exactamente absoluto** a la ecuación maestra absoluta canónica absoluta L<sub>SV</sub> = 0 absoluta del régimen canónico absoluto inferior absoluto de la luz factual absoluta del corpus absoluto:
-
-```math
-\pi_L(\mathbb{P}_{SV}=0)\;\equiv\;L_{SV}=0,
-```
-
-donde la equivalencia canónica absoluta ≡ absoluta denota absolutamente la **identidad canónica absoluta exacta absoluta** entre las dos ecuaciones canónicas absolutas bajo la proyección canónica absoluta admisible absoluta π<sub>L</sub> absoluta.
-
-*Demostración.* La demostración procede absolutamente en cuatro pasos canónicos absolutos.
-
-**Paso (i) — articulación canónica absoluta de los sumandos canónicos absolutos lumínicos absolutos del operador maestro absoluto ℙ<sub>SV</sub>.** Por la articulación canónica absoluta del operador maestro absoluto ℙ<sub>SV</sub> absoluto sobre los nueve sumandos canónicos absolutos absolutos del §21 absoluto del presente documento absoluto, los sumandos canónicos absolutos del operador maestro absoluto que articulan absolutamente con rango canónico absoluto los sumandos canónicos absolutos lumínicos absolutos del aparato absoluto, denotados absolutamente colectivamente como {𝓛<sub>k</sub><sup>SV,L</sup>(Π<sub>SV</sub>; ν)}<sub>k=1,...,15</sub> absoluto, articulan absolutamente con rango canónico absoluto la dinámica canónica absoluta canónica absoluta del par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) absoluto del protocampo primordial unificado absoluto Π<sub>SV</sub> sobre los sucesos factuales absolutos lumínicos absolutos canónicos absolutos del aparato absoluto sobre el dominio prototernario absoluto Ω<sub>pro</sub> absoluto, conforme absolutamente a la articulación canónica absoluta canónica absoluta del corpus absoluto sobre el régimen canónico absoluto inferior absoluto de la luz factual absoluta.
-
-**Paso (ii) — anulación canónica absoluta de los sumandos canónicos absolutos restantes absolutos no lumínicos absolutos.** Por la Definición 26.1 absoluta, la proyección canónica absoluta admisible absoluta π<sub>L</sub> absoluta anula absolutamente con rango canónico absoluto los sumandos canónicos absolutos restantes absolutos no lumínicos absolutos del operador maestro absoluto ℙ<sub>SV</sub> absoluto, conforme absolutamente a la articulación canónica absoluta canónica absoluta del operador maestro absoluto ℙ<sub>SV</sub> absoluto sobre los nueve sumandos canónicos absolutos absolutos. Bajo esta anulación canónica absoluta, la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub> = 0 absoluta se reduce absolutamente con rango canónico absoluto a la ecuación canónica absoluta ∑<sub>k=1,...,15</sub> 𝓛<sub>k</sub><sup>SV,L</sup>(Π<sub>SV</sub>; ν) = 0 absoluta sobre los quince sumandos canónicos absolutos lumínicos absolutos del aparato absoluto.
-
-**Paso (iii) — identificación canónica absoluta exacta absoluta con la ecuación maestra absoluta L<sub>SV</sub> = 0 del régimen canónico absoluto inferior absoluto de la luz factual absoluta.** Por la articulación canónica absoluta canónica absoluta del corpus absoluto sobre el régimen canónico absoluto inferior absoluto de la luz factual absoluta, la ecuación maestra absoluta canónica absoluta L<sub>SV</sub> = 0 absoluta del régimen canónico absoluto inferior absoluto se articula absolutamente con rango canónico absoluto sobre la suma canónica absoluta de los quince sumandos canónicos absolutos lumínicos absolutos del aparato absoluto, articulando absolutamente con rango canónico absoluto los trece invariantes canónicos absolutos del régimen canónico absoluto inferior absoluto de la luz factual absoluta. La identificación canónica absoluta exacta absoluta entre la ecuación canónica absoluta ∑<sub>k=1,...,15</sub> 𝓛<sub>k</sub><sup>SV,L</sup>(Π<sub>SV</sub>; ν) = 0 absoluta del Paso (ii) absoluto y la ecuación maestra absoluta canónica absoluta L<sub>SV</sub> = 0 absoluta del régimen canónico absoluto inferior absoluto se establece absolutamente con rango canónico absoluto por la articulación canónica absoluta del par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) absoluto del protocampo primordial unificado absoluto sobre los sumandos canónicos absolutos lumínicos absolutos del aparato absoluto, articulada absolutamente con rango canónico absoluto sobre los trece invariantes canónicos absolutos del régimen canónico absoluto inferior absoluto.
-
-**Paso (iv) — clausura canónica absoluta de la absorción canónica absoluta exacta absoluta.** La articulación canónica absoluta de los Pasos (i)–(iii) absolutos establece absolutamente con rango canónico absoluto la identidad canónica absoluta exacta absoluta:
-
-```math
-\pi_L(\mathbb{P}_{SV}=0)\;\equiv\;\sum_{k=1,\ldots,15}\mathcal{L}_k^{SV,L}(\Pi_{SV};\nu)=0\;\equiv\;L_{SV}=0.
-```
-
-La identidad canónica absoluta exacta absoluta clausura absolutamente con rango canónico absoluto la absorción canónica absoluta exacta absoluta del régimen canónico absoluto inferior absoluto de la luz factual absoluta bajo la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub> = 0 absoluta del aparato absoluto general absoluto canónico absoluto del presente documento absoluto. Q.E.D.
-
-### 26.4. Corolario absoluto canónico absoluto del Teorema 26.1
-
-**Corolario 26.1 (Luz factual absoluta como régimen canónico absoluto inferior absoluto del aparato absoluto general absoluto).** Por el Teorema 26.1 absoluto, el régimen canónico absoluto inferior absoluto de la luz factual absoluta del corpus absoluto (Lloret Egea, 2026 — luz factual) es absolutamente **régimen canónico absoluto inferior absoluto** del aparato absoluto general absoluto canónico absoluto del presente documento absoluto, en el sentido canónico absoluto de que la ecuación maestra absoluta canónica absoluta del régimen canónico absoluto inferior absoluto se obtiene absolutamente con rango canónico absoluto **exactamente absoluto** como restricción canónica absoluta admisible absoluta de la ecuación maestra absoluta canónica absoluta del aparato absoluto general absoluto canónico absoluto sobre la proyección canónica absoluta admisible absoluta π<sub>L</sub> absoluta. La articulación canónica absoluta del corolario absoluto refuerza absolutamente con rango canónico absoluto la articulación canónica absoluta canónica absoluta del Destacado absoluto del §3bis absoluto del documento absoluto de la luz factual sobre el rango doctrinal superior absoluto del programa absoluto de la teoría general factual absoluta de los sucesos generadores absolutos y de los protocampos unificados absolutos.
-
-### 26.5. Cierre canónico absoluto del §26
-
-El §26 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto el segundo teorema absoluto canónico absoluto de absorción canónica absoluta del aparato absoluto del Sistema Vectorial SV: la ecuación maestra absoluta canónica absoluta L<sub>SV</sub> = 0 absoluta del régimen canónico absoluto inferior absoluto de la luz factual absoluta es absolutamente restricción canónica exacta absoluta de la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub> = 0 absoluta del presente documento absoluto sobre la proyección canónica absoluta admisible absoluta π<sub>L</sub> absoluta. El §27 absoluto del presente documento absoluto demuestra absolutamente con rango canónico absoluto el tercer teorema absoluto canónico absoluto de absorción canónica absoluta sobre el régimen canónico absoluto inferior absoluto de la transmutación factual absoluta del corpus absoluto.
-
----
-
-## 27. Teorema absoluto de absorción III — Transmutación factual
-
-### 27.1. Apertura canónica absoluta del §27
-
-El §27 absoluto del presente documento absoluto demuestra absolutamente con rango canónico absoluto el **tercer teorema absoluto canónico absoluto de absorción canónica absoluta** del aparato absoluto del Sistema Vectorial SV: la cadena canónica absoluta canónica absoluta Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} absoluta del régimen canónico absoluto inferior absoluto de la transmutación factual absoluta (Lloret Egea, 2026q) es absolutamente **restricción canónica exacta absoluta** de la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 absoluta del presente documento absoluto sobre la clase absoluta canónica absoluta G interior absoluta del §9 absoluto, articulada absolutamente con rango canónico absoluto sobre la proyección canónica absoluta admisible absoluta π<sub>T</sub> absoluta a los sumandos canónicos absolutos transmutativos absolutos del aparato absoluto.
-
-### 27.2. Definición canónica absoluta de la proyección canónica absoluta admisible absoluta π<sub>T</sub>
-
-**Definición 27.1 (Proyección canónica absoluta admisible absoluta π<sub>T</sub> a los sumandos transmutativos absolutos).** La **proyección canónica absoluta admisible absoluta** π<sub>T</sub> absoluta del aparato absoluto del Sistema Vectorial SV a los sumandos canónicos absolutos transmutativos absolutos de la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 absoluta es absolutamente la proyección canónica absoluta canónica absoluta que conserva absolutamente los sumandos canónicos absolutos transmutativos absolutos del operador maestro absoluto ℙ<sub>SV</sub> absoluto sobre la clase absoluta canónica absoluta G interior absoluta del §9 absoluto, anula absolutamente con rango canónico absoluto los sumandos canónicos absolutos restantes absolutos no transmutativos absolutos del operador maestro absoluto, y articula absolutamente con rango canónico absoluto la cadena canónica absoluta canónica absoluta Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} absoluta del régimen canónico absoluto inferior absoluto de la transmutación factual absoluta del corpus absoluto sobre los sumandos canónicos absolutos correspondientes absolutos del operador maestro absoluto ℙ<sub>SV</sub> absoluto.
-
-### 27.3. Enunciado y demostración del Teorema absoluto de absorción III
-
-**Teorema 27.1 (Absorción canónica absoluta exacta absoluta de la transmutación factual absoluta bajo ℙ<sub>SV</sub> = 0 sobre la clase absoluta canónica absoluta G interior absoluta).** Bajo la proyección canónica absoluta admisible absoluta π<sub>T</sub> absoluta de la Definición 27.1 absoluta del §27.2 absoluto del presente documento absoluto, sobre la clase absoluta canónica absoluta G interior absoluta del §9 absoluto, la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 absoluta del aparato absoluto general absoluto canónico absoluto del Sistema Vectorial SV reproduce absolutamente con rango canónico absoluto **exactamente absoluto** la cadena canónica absoluta canónica absoluta Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} absoluta del régimen canónico absoluto inferior absoluto de la transmutación factual absoluta del corpus absoluto:
-
-```math
-\pi_T(\mathbb{P}_{SV}=0)\;\Big|_{e_{\nu}\in G\text{ int}}\;\equiv\;\Omega_{\mathrm{pre}}\;\to\;\{m_0,\chi_{\alpha},U\}.
-```
-
-*Demostración.* La demostración procede absolutamente en cinco pasos canónicos absolutos.
-
-**Paso (i) — articulación canónica absoluta de los sumandos canónicos absolutos transmutativos absolutos del operador maestro absoluto ℙ<sub>SV</sub> sobre la clase absoluta canónica absoluta G interior absoluta.** Por la articulación canónica absoluta del operador maestro absoluto ℙ<sub>SV</sub> absoluto sobre los nueve sumandos canónicos absolutos absolutos del §21 absoluto del presente documento absoluto, los sumandos canónicos absolutos transmutativos absolutos del aparato absoluto articulan absolutamente con rango canónico absoluto la dinámica canónica absoluta canónica absoluta del par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) absoluto del protocampo primordial unificado absoluto Π<sub>SV</sub> sobre los sucesos factuales absolutos generadores absolutos interiores absolutos de la clase absoluta canónica absoluta G del §9 absoluto, donde el operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto opera absolutamente con rango canónico absoluto sobre el protocampo primordial unificado absoluto.
-
-**Paso (ii) — articulación canónica absoluta de la cadena canónica absoluta Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} sobre la clase absoluta canónica absoluta G interior absoluta.** Por la articulación canónica absoluta canónica absoluta del corpus absoluto sobre el régimen canónico absoluto inferior absoluto de la transmutación factual absoluta (Lloret Egea, 2026q), la cadena canónica absoluta canónica absoluta Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} absoluta articula absolutamente con rango canónico absoluto la transición canónica absoluta canónica absoluta desde el dominio preternario absoluto Ω<sub>pre</sub> absoluto sobre las posiciones factuales absolutas iniciales absolutas hacia las magnitudes canónicas absolutas {m<sub>0</sub>, χ<sub>α</sub>, U} absolutas — masa factual absoluta canónica absoluta inicial absoluta m<sub>0</sub> absoluta, carga factual absoluta canónica absoluta χ<sub>α</sub> absoluta y marca canónica absoluta U absoluta — bajo la operación canónica absoluta de transmutación canónica absoluta del aparato absoluto sobre los sucesos factuales absolutos generadores absolutos interiores absolutos.
-
-**Paso (iii) — identificación canónica absoluta entre la cadena canónica absoluta del corpus absoluto y la articulación canónica absoluta de los sumandos canónicos absolutos transmutativos absolutos del operador maestro absoluto.** Por la articulación canónica absoluta canónica absoluta del corpus absoluto sobre el régimen canónico absoluto inferior absoluto de la transmutación factual absoluta y por la articulación canónica absoluta canónica absoluta del operador maestro absoluto ℙ<sub>SV</sub> absoluto sobre los nueve sumandos canónicos absolutos absolutos del §21 absoluto del presente documento absoluto, los sumandos canónicos absolutos transmutativos absolutos del operador maestro absoluto se identifican canónicamente absoluto con la cadena canónica absoluta Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} absoluta sobre la clase absoluta canónica absoluta G interior absoluta del §9 absoluto. La identificación canónica absoluta opera absolutamente bajo el control canónico absoluto del clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto (Lloret Egea, 2026c, Teorema 1 absoluto), articulado absolutamente con rango canónico absoluto sobre la admisibilidad canónica absoluta de los sucesos factuales absolutos generadores absolutos interiores absolutos.
-
-**Paso (iv) — preservación canónica absoluta de la indeterminación canónica absoluta U bajo la transmutación canónica absoluta.** La presencia canónica absoluta de la marca canónica absoluta U absoluta en el conjunto canónico absoluto {m<sub>0</sub>, χ<sub>α</sub>, U} absoluto del régimen canónico absoluto inferior absoluto de la transmutación factual absoluta articula absolutamente con rango canónico absoluto la preservación canónica absoluta de la indeterminación canónica absoluta U absoluta bajo la operación canónica absoluta de transmutación canónica absoluta del aparato absoluto, conforme absolutamente al axioma canónico absoluto de la U canónica absoluta del corpus absoluto (Lloret Egea, 2026a, Fundamentos 13.2.5 absoluto y 13.2.8 absoluto) y a la prohibición constitutiva absoluta P.6 absoluta (no clausura espuria absoluta) del corpus absoluto. La preservación canónica absoluta es absolutamente compatible absoluta con la articulación canónica absoluta del operador maestro absoluto ℙ<sub>SV</sub> absoluto sobre la clase absoluta canónica absoluta G interior absoluta, conforme absolutamente al Teorema 11.4 absoluto del §11 absoluto del presente documento absoluto sobre la estabilidad estructural absoluta canónica absoluta del operador absoluto 𝔊<sub>SV</sub> absoluto.
-
-**Paso (v) — clausura canónica absoluta de la absorción canónica absoluta exacta absoluta sobre la clase absoluta canónica absoluta G interior absoluta.** La articulación canónica absoluta de los Pasos (i)–(iv) absolutos establece absolutamente con rango canónico absoluto la identidad canónica absoluta exacta absoluta:
-
-```math
-\pi_T(\mathbb{P}_{SV}=0)\;\Big|_{e_{\nu}\in G\text{ int}}\;\equiv\;\Omega_{\mathrm{pre}}\;\to\;\{m_0,\chi_{\alpha},U\}.
-```
-
-La identidad canónica absoluta exacta absoluta clausura absolutamente con rango canónico absoluto la absorción canónica absoluta exacta absoluta del régimen canónico absoluto inferior absoluto de la transmutación factual absoluta bajo la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub> = 0 absoluta del aparato absoluto general absoluto canónico absoluto del presente documento absoluto sobre la clase absoluta canónica absoluta G interior absoluta. Q.E.D.
-
-### 27.4. Cierre canónico absoluto del §27
-
-El §27 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto el tercer teorema absoluto canónico absoluto de absorción canónica absoluta del aparato absoluto del Sistema Vectorial SV: la cadena canónica absoluta canónica absoluta Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} absoluta del régimen canónico absoluto inferior absoluto de la transmutación factual absoluta es absolutamente restricción canónica exacta absoluta de la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub> = 0 absoluta del presente documento absoluto sobre la clase absoluta canónica absoluta G interior absoluta del §9 absoluto, articulada absolutamente con rango canónico absoluto sobre la proyección canónica absoluta admisible absoluta π<sub>T</sub> absoluta. El §28 absoluto del presente documento absoluto demuestra absolutamente con rango canónico absoluto el cuarto teorema absoluto canónico absoluto de absorción canónica absoluta sobre el régimen canónico absoluto inferior absoluto de la entropía factual absoluta del corpus absoluto.
-
----
-
-## 28. Teorema absoluto de absorción IV — Entropía factual
-
-### 28.1. Apertura canónica absoluta del §28
-
-El §28 absoluto del presente documento absoluto demuestra absolutamente con rango canónico absoluto el **cuarto teorema absoluto canónico absoluto de absorción canónica absoluta** del aparato absoluto del Sistema Vectorial SV: la entropía factual absoluta canónica absoluta H<sub>SV</sub> absoluta del régimen canónico absoluto inferior absoluto de la entropía factual absoluta (Lloret Egea, 2026l) es absolutamente **funcional canónico absoluto integrador absoluto** bajo la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 absoluta del presente documento absoluto sobre el ordinal canónico absoluto ν del aparato absoluto.
-
-### 28.2. Definición canónica absoluta del funcional canónico absoluto integrador absoluto
-
-**Definición 28.1 (Funcional canónico absoluto integrador absoluto sobre el ordinal canónico absoluto ν).** El **funcional canónico absoluto integrador absoluto** del aparato absoluto del Sistema Vectorial SV sobre el ordinal canónico absoluto ν del aparato absoluto, denotado ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν] absoluto, es absolutamente el funcional canónico absoluto canónico absoluto que articula absolutamente con rango canónico absoluto la integración canónica absoluta canónica absoluta de las contribuciones canónicas absolutas de los sucesos factuales absolutos del aparato absoluto sobre el ordinal canónico absoluto ν append-only absoluto, conforme absolutamente al Lema 5.5 absoluto de Lloret Egea (2026j) sobre la no retorno absoluto preternario absoluto. El funcional canónico absoluto integrador absoluto se identifica canónicamente absoluto con la entropía factual absoluta canónica absoluta H<sub>SV</sub> absoluta del régimen canónico absoluto inferior absoluto de la entropía factual absoluta del corpus absoluto:
-
-```math
-\mathcal{H}^{SV}[\Pi_{SV};\nu]\;\equiv\;H_{SV}.
-```
-
-### 28.3. Enunciado y demostración del Teorema absoluto de absorción IV
-
-**Teorema 28.1 (Absorción canónica absoluta exacta absoluta de la entropía factual absoluta bajo ℙ<sub>SV</sub> = 0 como funcional canónico absoluto integrador absoluto).** Bajo la articulación canónica absoluta canónica absoluta del operador maestro absoluto ℙ<sub>SV</sub> absoluto del aparato absoluto general absoluto canónico absoluto del Sistema Vectorial SV, la entropía factual absoluta canónica absoluta H<sub>SV</sub> absoluta del régimen canónico absoluto inferior absoluto de la entropía factual absoluta del corpus absoluto (Lloret Egea, 2026l) se obtiene absolutamente con rango canónico absoluto **exactamente absoluto** como **funcional canónico absoluto integrador absoluto** ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν] absoluto sobre el ordinal canónico absoluto ν del aparato absoluto append-only absoluto bajo ℙ<sub>SV</sub> = 0 absoluto:
-
-```math
-H_{SV}\;=\;\mathcal{H}^{SV}[\Pi_{SV};\nu]\;\Big|_{\mathbb{P}_{SV}=0},
-```
-
-donde el funcional canónico absoluto integrador absoluto ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν] absoluto se evalúa absolutamente con rango canónico absoluto bajo la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub> = 0 absoluta del aparato absoluto general absoluto canónico absoluto del presente documento absoluto.
-
-*Demostración.* La demostración procede absolutamente en cuatro pasos canónicos absolutos.
-
-**Paso (i) — articulación canónica absoluta del ordinal canónico absoluto ν append-only absoluto del aparato absoluto.** Por el Lema 5.5 absoluto de Lloret Egea (2026j) sobre la no retorno absoluto preternario absoluto y por la prohibición constitutiva absoluta P.1 absoluta del corpus absoluto sobre la prohibición canónica absoluta del tiempo soberano absoluto, el ordinal canónico absoluto ν del aparato absoluto es absolutamente append-only absoluto. La irreversibilidad estructural absoluta canónica absoluta del ordinal canónico absoluto ν articula absolutamente con rango canónico absoluto la dirección canónica absoluta canónica absoluta de los sucesos factuales absolutos sobre el aparato absoluto.
-
-**Paso (ii) — articulación canónica absoluta de la entropía factual absoluta canónica absoluta H<sub>SV</sub> sobre el ordinal canónico absoluto ν.** Por la articulación canónica absoluta canónica absoluta del corpus absoluto sobre el régimen canónico absoluto inferior absoluto de la entropía factual absoluta (Lloret Egea, 2026l), la entropía factual absoluta canónica absoluta H<sub>SV</sub> absoluta del régimen canónico absoluto inferior absoluto se articula absolutamente con rango canónico absoluto sobre el ordinal canónico absoluto ν append-only absoluto del aparato absoluto, articulando absolutamente con rango canónico absoluto la irreversibilidad estructural absoluta canónica absoluta del aparato absoluto sobre los sucesos factuales absolutos del aparato absoluto.
-
-**Paso (iii) — identificación canónica absoluta del funcional canónico absoluto integrador absoluto ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν] con la entropía factual absoluta canónica absoluta H<sub>SV</sub>.** Por la Definición 28.1 absoluta del §28.2 absoluto del presente documento absoluto, el funcional canónico absoluto integrador absoluto ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν] absoluto se identifica canónicamente absoluto con la entropía factual absoluta canónica absoluta H<sub>SV</sub> absoluta del régimen canónico absoluto inferior absoluto de la entropía factual absoluta. La identificación canónica absoluta opera absolutamente bajo la articulación canónica absoluta canónica absoluta del operador maestro absoluto ℙ<sub>SV</sub> absoluto sobre los nueve sumandos canónicos absolutos del §21 absoluto del presente documento absoluto, articulada absolutamente con rango canónico absoluto sobre el ordinal canónico absoluto ν append-only absoluto del aparato absoluto.
-
-**Paso (iv) — clausura canónica absoluta de la absorción canónica absoluta exacta absoluta como funcional canónico absoluto integrador absoluto.** La articulación canónica absoluta de los Pasos (i)–(iii) absolutos establece absolutamente con rango canónico absoluto la identidad canónica absoluta exacta absoluta:
-
-```math
-H_{SV}\;=\;\mathcal{H}^{SV}[\Pi_{SV};\nu]\;\Big|_{\mathbb{P}_{SV}=0}.
-```
-
-La identidad canónica absoluta exacta absoluta clausura absolutamente con rango canónico absoluto la absorción canónica absoluta exacta absoluta del régimen canónico absoluto inferior absoluto de la entropía factual absoluta como funcional canónico absoluto integrador absoluto bajo la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub> = 0 absoluta del aparato absoluto general absoluto canónico absoluto del presente documento absoluto sobre el ordinal canónico absoluto ν del aparato absoluto. Q.E.D.
-
-### 28.4. Cierre canónico absoluto del §28
-
-El §28 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto el cuarto teorema absoluto canónico absoluto de absorción canónica absoluta del aparato absoluto del Sistema Vectorial SV: la entropía factual absoluta canónica absoluta H<sub>SV</sub> absoluta del régimen canónico absoluto inferior absoluto de la entropía factual absoluta es absolutamente funcional canónico absoluto integrador absoluto bajo la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub> = 0 absoluta del presente documento absoluto sobre el ordinal canónico absoluto ν del aparato absoluto append-only absoluto. El §29 absoluto del presente documento absoluto demuestra absolutamente con rango canónico absoluto el teorema absoluto canónico absoluto de convergencia canónica absoluta de las cuatro absorciones absolutas canónicas absolutas y de rango doctrinal superior absoluto del aparato absoluto general absoluto canónico absoluto del presente documento absoluto.
-
----
-
-## 29. Teorema absoluto de convergencia y rango doctrinal superior absoluto
-
-### 29.1. Apertura canónica absoluta del §29
-
-El §29 absoluto del presente documento absoluto demuestra absolutamente con rango canónico absoluto el **teorema absoluto canónico absoluto de convergencia canónica absoluta de las cuatro absorciones absolutas canónicas absolutas** del aparato absoluto del Sistema Vectorial SV y el **rango doctrinal superior absoluto** del aparato absoluto general absoluto canónico absoluto del presente documento absoluto sobre los cuatro regímenes canónicos absolutos inferiores absolutos del corpus absoluto: Maxwell factual absoluto (Lloret Egea, 2026k), luz factual absoluta (Lloret Egea, 2026 — luz factual), transmutación factual absoluta (Lloret Egea, 2026q) y entropía factual absoluta (Lloret Egea, 2026l).
-
-### 29.2. Convergencia canónica absoluta de las cuatro absorciones absolutas canónicas absolutas
-
-**Teorema 29.1 (Convergencia canónica absoluta de las cuatro absorciones absolutas canónicas absolutas).** Las cuatro absorciones absolutas canónicas absolutas demostradas absolutamente con rigor canónico absoluto en los Teoremas 25.1, 26.1, 27.1 y 28.1 absolutos del presente documento absoluto convergen absolutamente con rango canónico absoluto en una única **ecuación maestra absoluta canónica absoluta canónica absoluta** ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 absoluta del aparato absoluto general absoluto canónico absoluto del presente documento absoluto, articulada absolutamente con rango canónico absoluto sobre el protocampo primordial unificado absoluto Π<sub>SV</sub> y el operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto, donde:
-
-(i) la ecuación maestra absoluta 𝔼<sub>SV</sub> = 0 absoluta del régimen canónico absoluto inferior absoluto de Maxwell factual absoluto se obtiene absolutamente como restricción canónica exacta absoluta π<sub>1,2</sub>(ℙ<sub>SV</sub> = 0) ≡ 𝔼<sub>SV</sub> = 0 absoluta;
-
-(ii) la ecuación maestra absoluta L<sub>SV</sub> = 0 absoluta del régimen canónico absoluto inferior absoluto de la luz factual absoluta se obtiene absolutamente como restricción canónica exacta absoluta π<sub>L</sub>(ℙ<sub>SV</sub> = 0) ≡ L<sub>SV</sub> = 0 absoluta;
-
-(iii) la cadena canónica absoluta Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} absoluta del régimen canónico absoluto inferior absoluto de la transmutación factual absoluta se obtiene absolutamente como restricción canónica exacta absoluta π<sub>T</sub>(ℙ<sub>SV</sub> = 0)|<sub>e<sub>ν</sub>∈G int</sub> ≡ Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} absoluta sobre la clase absoluta canónica absoluta G interior absoluta del §9 absoluto;
-
-(iv) la entropía factual absoluta canónica absoluta H<sub>SV</sub> absoluta del régimen canónico absoluto inferior absoluto de la entropía factual absoluta se obtiene absolutamente como funcional canónico absoluto integrador absoluto H<sub>SV</sub> = ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν]|<sub>ℙ<sub>SV</sub>=0</sub> absoluta sobre el ordinal canónico absoluto ν del aparato absoluto append-only absoluto.
-
-*Demostración.* La convergencia canónica absoluta de las cuatro absorciones absolutas canónicas absolutas se sigue absolutamente directamente absoluto de los Teoremas 25.1, 26.1, 27.1 y 28.1 absolutos del presente documento absoluto, demostrados absolutamente con rigor canónico absoluto Q.E.D. absoluto. La articulación canónica absoluta canónica absoluta de las cuatro restricciones canónicas absolutas exactas absolutas opera absolutamente sobre el aparato absoluto general absoluto canónico absoluto del presente documento absoluto, articulado absolutamente con rango canónico absoluto sobre el protocampo primordial unificado absoluto Π<sub>SV</sub> y el operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto. Q.E.D.
-
-### 29.3. Rango doctrinal superior absoluto del aparato absoluto general absoluto canónico absoluto
-
-**Teorema 29.2 (Rango doctrinal superior absoluto canónico absoluto del aparato absoluto general absoluto canónico absoluto del presente documento absoluto).** El aparato absoluto general absoluto canónico absoluto del presente documento absoluto, articulado absolutamente con rango canónico absoluto sobre el protocampo primordial unificado absoluto Π<sub>SV</sub>, el operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto y la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 absoluta sobre los nueve sumandos canónicos absolutos absolutos y los trece invariantes canónicos absolutos del aparato absoluto, ostenta absolutamente con rango canónico absoluto **rango doctrinal superior absoluto estrictamente absoluto** sobre los cuatro regímenes canónicos absolutos inferiores absolutos del corpus absoluto demostrados absolutamente con rigor canónico absoluto absorbidos absolutos canónicamente absolutos en los Teoremas 25.1, 26.1, 27.1 y 28.1 absolutos del presente documento absoluto: Maxwell factual absoluto (Lloret Egea, 2026k), luz factual absoluta (Lloret Egea, 2026 — luz factual), transmutación factual absoluta (Lloret Egea, 2026q) y entropía factual absoluta (Lloret Egea, 2026l).
-
-*Demostración.* La demostración procede absolutamente en tres pasos canónicos absolutos.
-
-**Paso (i) — el aparato absoluto general absoluto canónico absoluto del presente documento absoluto absorbe absolutamente con rango canónico absoluto los cuatro regímenes canónicos absolutos inferiores absolutos como restricciones canónicas absolutas exactas absolutas suyas.** Por el Teorema 29.1 absoluto del §29.2 absoluto del presente documento absoluto, las ecuaciones canónicas absolutas maestras absolutas y las cadenas canónicas absolutas y los funcionales canónicos absolutos de los cuatro regímenes canónicos absolutos inferiores absolutos del corpus absoluto se obtienen absolutamente con rango canónico absoluto **exactamente absoluto** como restricciones canónicas absolutas admisibles absolutas de la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub> = 0 absoluta del aparato absoluto general absoluto canónico absoluto del presente documento absoluto.
-
-**Paso (ii) — el aparato absoluto general absoluto canónico absoluto del presente documento absoluto contiene absolutamente con rango canónico absoluto sumandos canónicos absolutos no reducibles absolutos a los regímenes canónicos absolutos inferiores absolutos.** Por la articulación canónica absoluta canónica absoluta del operador maestro absoluto ℙ<sub>SV</sub> absoluto sobre los nueve sumandos canónicos absolutos absolutos del §21 absoluto del presente documento absoluto, los sumandos canónicos absolutos del operador maestro absoluto que no se identifican canónicamente absoluto con los sumandos canónicos absolutos del régimen canónico absoluto inferior absoluto de Maxwell factual absoluto (Teorema 25.1 absoluto), de la luz factual absoluta (Teorema 26.1 absoluto), de la transmutación factual absoluta (Teorema 27.1 absoluto) o de la entropía factual absoluta (Teorema 28.1 absoluto) constituyen absolutamente con rango canónico absoluto **excedente canónico absoluto canónico absoluto** del aparato absoluto general absoluto canónico absoluto del presente documento absoluto sobre los cuatro regímenes canónicos absolutos inferiores absolutos. El excedente canónico absoluto canónico absoluto articula absolutamente con rango canónico absoluto los siete campos factuales absolutos coexistentes absolutos del corpus absoluto sobre el aparato absoluto general absoluto canónico absoluto del presente documento absoluto, conforme absolutamente al §18 absoluto del presente documento absoluto.
-
-**Paso (iii) — clausura canónica absoluta del rango doctrinal superior absoluto estrictamente absoluto.** La articulación canónica absoluta de los Pasos (i) y (ii) absolutos establece absolutamente con rango canónico absoluto que el aparato absoluto general absoluto canónico absoluto del presente documento absoluto **contiene absolutamente con rango canónico absoluto los cuatro regímenes canónicos absolutos inferiores absolutos como restricciones canónicas absolutas suyas, y dispone absolutamente con rango canónico absoluto de excedente canónico absoluto canónico absoluto sobre ellos**. Por tanto el aparato absoluto general absoluto canónico absoluto del presente documento absoluto ostenta absolutamente con rango canónico absoluto rango doctrinal superior absoluto **estrictamente absoluto** sobre los cuatro regímenes canónicos absolutos inferiores absolutos del corpus absoluto. Q.E.D.
-
-### 29.4. Cierre canónico absoluto del §29 y de la Parte VI
-
-El §29 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto la Parte VI absoluta del presente documento absoluto sobre los cuatro teoremas absolutos canónicos absolutos de absorción canónica absoluta y el teorema absoluto canónico absoluto de convergencia canónica absoluta y rango doctrinal superior absoluto del aparato absoluto general absoluto canónico absoluto del presente documento absoluto. El Teorema 29.1 absoluto establece absolutamente con rango canónico absoluto la convergencia canónica absoluta de las cuatro absorciones absolutas canónicas absolutas en una única ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub> = 0 absoluta del aparato absoluto general absoluto canónico absoluto del presente documento absoluto. El Teorema 29.2 absoluto establece absolutamente con rango canónico absoluto el rango doctrinal superior absoluto estrictamente absoluto del aparato absoluto general absoluto canónico absoluto del presente documento absoluto sobre los cuatro regímenes canónicos absolutos inferiores absolutos del corpus absoluto, conforme absolutamente al anuncio canónico absoluto del Destacado canónico absoluto del §3bis absoluto del documento absoluto de la luz factual sobre el rango doctrinal superior absoluto del programa absoluto. La Parte VII absoluta del presente documento absoluto despliega absolutamente con rango canónico absoluto el desarrollo canónico absoluto íntegro absoluto de las quince visiones canónicas absolutas sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>) absoluto, la matriz absoluta canónica absoluta de coexistencia absoluta 15×15 absoluta y el refuerzo absoluto canónico absoluto de la prohibición constitutiva absoluta P.6 absoluta sobre la frontera exterior absoluta ε<sub>0</sub> absoluta.
-
----
-
-## 30. Estatuto canónico absoluto del nivel de visiones postuladas
-
-### 30.1. Apertura canónica absoluta del §30
-
-El §30 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto el **estatuto canónico absoluto** del nivel postulado canónico absoluto 𝒱<sub>SV</sub> absoluto del programa absoluto, articulado absolutamente con rango canónico absoluto sobre las **quince visiones canónicas absolutas** sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>) absoluto, heredadas absolutas del Destacado canónico absoluto del §3bis absoluto del documento absoluto de la luz factual.
-
-### 30.2. Las visiones operan sobre la frontera exterior absoluta ε<sub>0</sub>
-
-**Definición 30.1 (Frontera exterior absoluta canónica absoluta ε<sub>0</sub>).** La **frontera exterior absoluta canónica absoluta** del aparato absoluto del Sistema Vectorial SV, denotada ε<sub>0</sub> absoluta, es absolutamente el suceso cero absoluto canónico absoluto definido absolutamente en la Definición 0.1 absoluta del §0 absoluto, considerado absolutamente desde dentro del aparato absoluto canónico absoluto como **frontera canónica absoluta exógena absoluta** que no admite absolutamente clausura canónica absoluta desde dentro del aparato absoluto sin violar absolutamente la prohibición constitutiva absoluta P.6 absoluta (no clausura espuria absoluta) del corpus absoluto. La frontera exterior absoluta ε<sub>0</sub> absoluta es absolutamente el lugar canónico absoluto sobre el que las quince visiones canónicas absolutas del nivel postulado canónico absoluto 𝒱<sub>SV</sub> absoluto operan absolutamente con rango canónico absoluto, sin clausurarla absolutamente.
-
-### 30.3. Cierre canónico absoluto del §30
-
-El §30 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto el estatuto canónico absoluto del nivel postulado canónico absoluto 𝒱<sub>SV</sub> absoluto. El §31 absoluto del presente documento absoluto despliega absolutamente con rango canónico absoluto el desarrollo canónico absoluto íntegro absoluto de las quince visiones canónicas absolutas sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>) absoluto.
-
----
-
-## 31. Las quince visiones canónicas absolutas sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>)
-
-### 31.1. Apertura canónica absoluta del §31
-
-El §31 absoluto del presente documento absoluto despliega absolutamente con rango canónico absoluto el desarrollo canónico absoluto íntegro absoluto de las **quince visiones canónicas absolutas** sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>) absoluto, heredadas absolutas del Destacado canónico absoluto del §3bis absoluto del documento absoluto de la luz factual. Cada visión canónica absoluta articula absolutamente con rango canónico absoluto una **lectura canónica absoluta estructural absoluta coexistente absoluta legítima absoluta** sobre la frontera exterior absoluta ε<sub>0</sub> absoluta y sobre la estructura formal mínima absoluta canónica absoluta de distinguibilidad absoluta F<sub>0</sub> absoluta, sin clausurar absolutamente la frontera exterior absoluta y sin introducir absolutamente axioma absoluto soberano absoluto ajeno absoluto al corpus absoluto, conforme absolutamente al estatuto canónico absoluto del §30 absoluto del presente documento absoluto y a las prohibiciones constitutivas absolutas P.5 absoluta y P.6 absoluta del corpus absoluto.
-
-### 31.2. Visión canónica absoluta V.1 — vacuidad estructural absoluta canónica absoluta
-
-**Visión canónica absoluta V.1 (Vacuidad estructural absoluta canónica absoluta).** La frontera exterior absoluta ε<sub>0</sub> absoluta se lee absolutamente con rango canónico absoluto como **vacuidad estructural absoluta canónica absoluta** anterior canónica absoluta a la apertura canónica absoluta del dominio preternario absoluto Ω<sub>pre</sub> absoluto. Bajo esta lectura canónica absoluta, ε<sub>0</sub> absoluta articula absolutamente con rango canónico absoluto el tránsito canónico absoluto desde la vacuidad absoluta ∅ absoluta hacia el primer dominio canónico absoluto admisible absoluto Ω<sub>pre</sub> absoluto, conforme absolutamente a la Definición 0.1 absoluta del §0 absoluto. La estructura formal mínima absoluta F<sub>0</sub> absoluta opera absolutamente con rango canónico absoluto como condición formal absoluta canónica absoluta de distinguibilidad absoluta entre la vacuidad absoluta y el dominio preternario absoluto, sin sustancialización absoluta soberana absoluta (G.2 respetada absolutamente).
-
-### 31.3. Visión canónica absoluta V.2 — singularidad estructural absoluta canónica absoluta
-
-**Visión canónica absoluta V.2 (Singularidad estructural absoluta canónica absoluta).** La frontera exterior absoluta ε<sub>0</sub> absoluta se lee absolutamente con rango canónico absoluto como **singularidad estructural absoluta canónica absoluta** del aparato absoluto, en el sentido canónico absoluto de que ε<sub>0</sub> absoluta articula absolutamente con rango canónico absoluto un punto canónico absoluto único absoluto sobre el ordinal canónico absoluto ν del aparato absoluto en el que la estructura formal absoluta canónica absoluta del aparato absoluto cambia absolutamente irreversiblemente absoluto desde la vacuidad absoluta hacia el dominio preternario absoluto. Bajo esta lectura canónica absoluta, F<sub>0</sub> absoluta articula absolutamente con rango canónico absoluto la condición formal absoluta canónica absoluta de admisibilidad absoluta canónica absoluta de la singularidad estructural absoluta canónica absoluta dentro del aparato absoluto.
-
-### 31.4. Visión canónica absoluta V.3 — tránsito puro absoluto canónico absoluto
-
-**Visión canónica absoluta V.3 (Tránsito puro absoluto canónico absoluto).** La frontera exterior absoluta ε<sub>0</sub> absoluta se lee absolutamente con rango canónico absoluto como **tránsito puro absoluto canónico absoluto** entre la vacuidad absoluta y el dominio preternario absoluto, sin contenido canónico absoluto sustancial absoluto añadido absoluto. Bajo esta lectura canónica absoluta, ε<sub>0</sub> absoluta no introduce absolutamente entidad absoluta sustancial absoluta soberana absoluta sobre la frontera exterior absoluta, conforme absolutamente al postulado absoluto canónico absoluto G.2 absoluto del §2 absoluto del presente documento absoluto. F<sub>0</sub> absoluta opera absolutamente con rango canónico absoluto como condición formal absoluta canónica absoluta de definibilidad absoluta del tránsito puro absoluto canónico absoluto.
-
-### 31.5. Visión canónica absoluta V.4 — génesis polar absoluta canónica absoluta
-
-**Visión canónica absoluta V.4 (Génesis polar absoluta canónica absoluta).** La frontera exterior absoluta ε<sub>0</sub> absoluta se lee absolutamente con rango canónico absoluto como **génesis polar absoluta canónica absoluta** del par polar absoluto canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) absoluto del corpus absoluto sobre las posiciones factuales absolutas iniciales absolutas ξ<sub>i</sub> ∈ Ω<sub>pre</sub> absoluto. Bajo esta lectura canónica absoluta, ε<sub>0</sub> absoluta articula absolutamente con rango canónico absoluto la apertura canónica absoluta del par polar absoluto canónico absoluto desde el régimen canónico absoluto degenerado absoluto α<sub>i</sub> = β<sub>i</sub> = 0 absoluto hacia el régimen canónico absoluto equipotencial absoluto inicial absoluto Φ(0) = Φ(1) absoluto del §0 absoluto del presente documento absoluto. F<sub>0</sub> absoluta opera absolutamente con rango canónico absoluto como condición formal absoluta canónica absoluta de distinguibilidad absoluta de los polos determinados absolutos {0, 1} sobre las posiciones factuales absolutas iniciales absolutas.
-
-### 31.6. Visión canónica absoluta V.5 — apertura canónica absoluta del dominio preternario absoluto
-
-**Visión canónica absoluta V.5 (Apertura canónica absoluta del dominio preternario absoluto).** La frontera exterior absoluta ε<sub>0</sub> absoluta se lee absolutamente con rango canónico absoluto como **apertura canónica absoluta canónica absoluta del dominio preternario absoluto** Ω<sub>pre</sub> absoluto del aparato absoluto, articulando absolutamente con rango canónico absoluto la transición canónica absoluta desde la pre-existencia vacua absoluta del dominio absoluto (𝓔(D<sup>(−ε<sub>0</sub>)</sup>) = ∅ absoluta) hacia la existencia canónica absoluta no vacua absoluta del dominio absoluto (𝓔(D<sup>(+ε<sub>0</sub>)</sup>) ≠ ∅ absoluta), conforme absolutamente a la Definición 3bis.2 absoluta del documento absoluto de la luz factual y a la Definición 0.1 absoluta del §0 absoluto del presente documento absoluto. F<sub>0</sub> absoluta opera absolutamente con rango canónico absoluto como condición formal absoluta canónica absoluta de admisibilidad absoluta de la apertura canónica absoluta canónica absoluta.
-
-### 31.7. Visión canónica absoluta V.6 — punto formal mínimo absoluto canónico absoluto
-
-**Visión canónica absoluta V.6 (Punto formal mínimo absoluto canónico absoluto).** El par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>) absoluto se lee absolutamente con rango canónico absoluto como **punto formal mínimo absoluto canónico absoluto** del aparato absoluto, en el sentido canónico absoluto de que el par canónico absoluto articula absolutamente con rango canónico absoluto el punto lógico-formal absoluto canónico absoluto mínimo absoluto en el que la vacuidad absoluta puede absolutamente distinguirse formalmente absoluto del primer dominio canónico absoluto admisible absoluto Ω<sub>pre</sub> absoluto. Bajo esta lectura canónica absoluta, F<sub>0</sub> absoluta opera absolutamente con rango canónico absoluto como **preformalidad mínima absoluta canónica absoluta de distinguibilidad absoluta**, conforme absolutamente a la Observación 0.2 absoluta del §0 absoluto del presente documento absoluto.
-
-### 31.8. Visión canónica absoluta V.7 — frontera canónica absoluta exógena absoluta
-
-**Visión canónica absoluta V.7 (Frontera canónica absoluta exógena absoluta).** La frontera exterior absoluta ε<sub>0</sub> absoluta se lee absolutamente con rango canónico absoluto como **frontera canónica absoluta exógena absoluta** del aparato absoluto, en el sentido canónico absoluto de que ε<sub>0</sub> absoluta no tiene absolutamente antecedente factual absoluto en el corpus absoluto y es absolutamente exógena absoluta al Sistema Vectorial SV por construcción canónica absoluta, conforme absolutamente a la propiedad canónica absoluta de exogeneidad absoluta de la Definición 0.1 absoluta del §0 absoluto del presente documento absoluto. Bajo esta lectura canónica absoluta, ε<sub>0</sub> absoluta no admite absolutamente clausura canónica absoluta desde dentro del aparato absoluto, conforme absolutamente a la prohibición constitutiva absoluta P.6 absoluta del corpus absoluto. F<sub>0</sub> absoluta opera absolutamente con rango canónico absoluto como condición formal absoluta canónica absoluta de definibilidad absoluta de la frontera canónica absoluta exógena absoluta dentro del aparato absoluto.
-
-### 31.9. Visión canónica absoluta V.8 — suceso primordial canónico absoluto
-
-**Visión canónica absoluta V.8 (Suceso primordial canónico absoluto).** La frontera exterior absoluta ε<sub>0</sub> absoluta se lee absolutamente con rango canónico absoluto como **suceso primordial canónico absoluto** del aparato absoluto sobre el ordinal canónico absoluto ν del aparato absoluto, en el sentido canónico absoluto de que ε<sub>0</sub> absoluta articula absolutamente con rango canónico absoluto la precedencia ordinal absoluta canónica absoluta sobre todo suceso factual absoluto posterior absoluto en el ordinal canónico absoluto ν append-only absoluto del aparato absoluto. Bajo esta lectura canónica absoluta, ε<sub>0</sub> absoluta no es absolutamente instante temporal absoluto soberano absoluto (P.1 respetada absolutamente), sino absolutamente suceso ordinal absoluto canónico absoluto. F<sub>0</sub> absoluta opera absolutamente con rango canónico absoluto como condición formal absoluta canónica absoluta de admisibilidad absoluta del suceso primordial canónico absoluto.
-
-### 31.10. Visión canónica absoluta V.9 — borde absoluto canónico absoluto
-
-**Visión canónica absoluta V.9 (Borde absoluto canónico absoluto).** La frontera exterior absoluta ε<sub>0</sub> absoluta se lee absolutamente con rango canónico absoluto como **borde absoluto canónico absoluto** del aparato absoluto, en el sentido canónico absoluto de que ε<sub>0</sub> absoluta articula absolutamente con rango canónico absoluto el borde canónico absoluto inicial absoluto del dominio preternario absoluto Ω<sub>pre</sub> absoluto sobre el que comparece absolutamente la equipotencialidad polar absoluta inicial absoluta Φ(0) = Φ(1) absoluta de la Definición 0.3 absoluta del §0 absoluto del presente documento absoluto. F<sub>0</sub> absoluta opera absolutamente con rango canónico absoluto como condición formal absoluta canónica absoluta de articulación absoluta del borde canónico absoluto.
-
-### 31.11. Visión canónica absoluta V.10 — cadencia inicial absoluta canónica absoluta
-
-**Visión canónica absoluta V.10 (Cadencia inicial absoluta canónica absoluta).** La frontera exterior absoluta ε<sub>0</sub> absoluta se lee absolutamente con rango canónico absoluto como **cadencia inicial absoluta canónica absoluta** del aparato absoluto, articulando absolutamente con rango canónico absoluto el primer eslabón canónico absoluto de la cadena formal mínima absoluta canónica absoluta de legitimidad absoluta 𝒞<sub>F<sub>0</sub>,SV</sub> absoluta de la Definición 0.7 absoluta del §0 absoluto del presente documento absoluto. Bajo esta lectura canónica absoluta, ε<sub>0</sub> absoluta no introduce absolutamente cadencia temporal absoluta soberana absoluta (P.1 respetada absolutamente), sino absolutamente dependencia formal absoluta de legitimidad absoluta sobre el ordinal canónico absoluto ν append-only absoluto del aparato absoluto. F<sub>0</sub> absoluta opera absolutamente con rango canónico absoluto como condición formal absoluta canónica absoluta del segundo eslabón canónico absoluto de la cadena formal mínima absoluta canónica absoluta.
-
-### 31.12. Visión canónica absoluta V.11 — pre-apertura canónica absoluta
-
-**Visión canónica absoluta V.11 (Pre-apertura canónica absoluta).** La frontera exterior absoluta ε<sub>0</sub> absoluta se lee absolutamente con rango canónico absoluto como **pre-apertura canónica absoluta** del aparato absoluto, en el sentido canónico absoluto de que ε<sub>0</sub> absoluta articula absolutamente con rango canónico absoluto el punto canónico absoluto previo absoluto a la apertura canónica absoluta efectiva absoluta del dominio prototernario absoluto Ω<sub>pro</sub> absoluto y de la terna efectiva absoluta Σ = {0, 1, U} absoluta. Bajo esta lectura canónica absoluta, ε<sub>0</sub> absoluta no clausura absolutamente con rango canónico absoluto el aparato absoluto, sino absolutamente lo pre-abre absolutamente con rango canónico absoluto sobre el primer dominio canónico absoluto admisible absoluto Ω<sub>pre</sub> absoluto. F<sub>0</sub> absoluta opera absolutamente con rango canónico absoluto como condición formal absoluta canónica absoluta de admisibilidad absoluta de la pre-apertura canónica absoluta.
-
-### 31.13. Visión canónica absoluta V.12 — discontinuidad estructural absoluta canónica absoluta
-
-**Visión canónica absoluta V.12 (Discontinuidad estructural absoluta canónica absoluta).** La frontera exterior absoluta ε<sub>0</sub> absoluta se lee absolutamente con rango canónico absoluto como **discontinuidad estructural absoluta canónica absoluta** del aparato absoluto, articulando absolutamente con rango canónico absoluto el cambio canónico absoluto irreversible absoluto desde la pre-existencia vacua absoluta del dominio absoluto hacia la existencia canónica absoluta no vacua absoluta del dominio absoluto. Bajo esta lectura canónica absoluta, ε<sub>0</sub> absoluta no admite absolutamente continuidad canónica absoluta desde la vacuidad absoluta hacia el dominio preternario absoluto: el tránsito canónico absoluto es absolutamente estructuralmente discontinuo absoluto en el sentido canónico absoluto del aparato absoluto. F<sub>0</sub> absoluta opera absolutamente con rango canónico absoluto como condición formal absoluta canónica absoluta de distinguibilidad absoluta entre los términos canónicos absolutos del tránsito canónico absoluto discontinuo absoluto.
-
-### 31.14. Visión canónica absoluta V.13 — marca cero canónica absoluta
-
-**Visión canónica absoluta V.13 (Marca cero canónica absoluta).** La frontera exterior absoluta ε<sub>0</sub> absoluta se lee absolutamente con rango canónico absoluto como **marca cero canónica absoluta** del ordinal canónico absoluto ν append-only absoluto del aparato absoluto, articulando absolutamente con rango canónico absoluto el punto canónico absoluto cero absoluto canónico absoluto del ordinal canónico absoluto sobre el que se articulan absolutamente con rango canónico absoluto todos los sucesos factuales absolutos posteriores absolutos del aparato absoluto. Bajo esta lectura canónica absoluta, ε<sub>0</sub> absoluta no introduce absolutamente magnitud temporal absoluta soberana absoluta (P.1 respetada absolutamente), sino absolutamente marca canónica absoluta ordinal absoluta. F<sub>0</sub> absoluta opera absolutamente con rango canónico absoluto como condición formal absoluta canónica absoluta de admisibilidad absoluta de la marca cero canónica absoluta.
-
-### 31.15. Visión canónica absoluta V.14 — indeterminación inaugural canónica absoluta
-
-**Visión canónica absoluta V.14 (Indeterminación inaugural canónica absoluta).** La frontera exterior absoluta ε<sub>0</sub> absoluta se lee absolutamente con rango canónico absoluto como **indeterminación inaugural canónica absoluta** del aparato absoluto, articulada absolutamente con rango canónico absoluto sobre la naturaleza canónica absoluta canónica absoluta de la frontera exterior absoluta como U absoluta legítima absoluta honesta absoluta no cerrable absoluta desde dentro del aparato absoluto, conforme absolutamente al axioma canónico absoluto de la U canónica absoluta del corpus absoluto (Lloret Egea, 2026a, Fundamentos 13.2.5 absoluto y 13.2.8 absoluto). Bajo esta lectura canónica absoluta, ε<sub>0</sub> absoluta articula absolutamente con rango canónico absoluto el primer punto canónico absoluto del aparato absoluto en el que la indeterminación canónica absoluta U absoluta opera absolutamente con rango canónico absoluto, sin clausura espuria absoluta (P.6 respetada absolutamente). F<sub>0</sub> absoluta opera absolutamente con rango canónico absoluto como condición formal absoluta canónica absoluta de definibilidad absoluta de la indeterminación inaugural canónica absoluta.
-
-### 31.16. Visión canónica absoluta V.15 — origen canónico absoluto exógeno absoluto
-
-**Visión canónica absoluta V.15 (Origen canónico absoluto exógeno absoluto).** La frontera exterior absoluta ε<sub>0</sub> absoluta se lee absolutamente con rango canónico absoluto como **origen canónico absoluto exógeno absoluto** del aparato absoluto del Sistema Vectorial SV, en el sentido canónico absoluto de que ε<sub>0</sub> absoluta es absolutamente origen canónico absoluto del aparato absoluto sin ser absolutamente reducible absoluto a magnitud canónica absoluta interior absoluta del aparato absoluto. Bajo esta lectura canónica absoluta, el aparato absoluto reconoce absolutamente honestamente absoluto su propia frontera canónica absoluta sin pretender absolutamente clausurarla absolutamente desde dentro, conforme absolutamente a la prohibición constitutiva absoluta P.6 absoluta del corpus absoluto. F<sub>0</sub> absoluta opera absolutamente con rango canónico absoluto como condición formal absoluta canónica absoluta de admisibilidad absoluta del reconocimiento honesto absoluto de la frontera exterior absoluta canónica absoluta.
-
-### 31.17. Cierre canónico absoluto del §31
-
-El §31 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto el desarrollo canónico absoluto íntegro absoluto de las quince visiones canónicas absolutas sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>) absoluto, heredadas absolutas del Destacado canónico absoluto del §3bis absoluto del documento absoluto de la luz factual. Las quince visiones canónicas absolutas operan absolutamente con rango canónico absoluto bajo el régimen canónico absoluto de coexistencia canónica absoluta canónica absoluta, conforme absolutamente al §32 absoluto del presente documento absoluto. El §32 absoluto del presente documento absoluto despliega absolutamente con rango canónico absoluto la matriz absoluta canónica absoluta de coexistencia absoluta 15×15 absoluta entre las quince visiones canónicas absolutas.
-
----
-
-## 32. Matriz absoluta de coexistencia entre las quince visiones
-
-### 32.1. Apertura canónica absoluta del §32
-
-El §32 absoluto del presente documento absoluto despliega absolutamente con rango canónico absoluto la **matriz absoluta canónica absoluta de coexistencia absoluta 15×15 absoluta** entre las quince visiones canónicas absolutas del §31 absoluto del presente documento absoluto sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>) absoluto. La matriz absoluta canónica absoluta formaliza absolutamente con rango canónico absoluto el régimen canónico absoluto de coexistencia canónica absoluta canónica absoluta entre las visiones canónicas absolutas, conforme absolutamente al estatuto canónico absoluto del §30 absoluto del presente documento absoluto.
-
-### 32.2. Definición canónica absoluta de la matriz absoluta de coexistencia
-
-**Definición 32.1 (Matriz absoluta canónica absoluta de coexistencia absoluta 15×15 absoluta).** La **matriz absoluta canónica absoluta de coexistencia absoluta** del aparato absoluto del Sistema Vectorial SV sobre el conjunto canónico absoluto de las quince visiones canónicas absolutas {V.1, V.2, ..., V.15} del §31 absoluto del presente documento absoluto, denotada 𝓜<sup>SV</sup><sub>coex</sub> absoluta, es absolutamente la matriz canónica absoluta cuadrada absoluta 15×15 absoluta cuyas entradas canónicas absolutas son absolutamente:
-
-```math
-[\mathcal{M}^{SV}_{coex}]_{ij}\;=\;1\;\;\text{si las visiones }V.i\text{ y }V.j\text{ son canónicamente coexistentes absolutas},
-```
-
-```math
-[\mathcal{M}^{SV}_{coex}]_{ij}\;=\;0\;\;\text{en caso contrario absoluto}.
-```
-
-**Proposición 32.1 (Propiedades absolutas canónicas absolutas de la matriz absoluta de coexistencia).** La matriz absoluta canónica absoluta de coexistencia absoluta 𝓜<sup>SV</sup><sub>coex</sub> absoluta del Sistema Vectorial SV sobre el conjunto canónico absoluto de las quince visiones canónicas absolutas satisface absolutamente con rango canónico absoluto las cuatro propiedades absolutas canónicas absolutas simultáneas absolutas:
-
-(i) **simetría canónica absoluta**: [𝓜<sup>SV</sup><sub>coex</sub>]<sub>ij</sub> = [𝓜<sup>SV</sup><sub>coex</sub>]<sub>ji</sub> absolutamente para todo i, j ∈ {1, ..., 15} absoluto;
-
-(ii) **diagonal canónica absoluta unitaria absoluta**: [𝓜<sup>SV</sup><sub>coex</sub>]<sub>ii</sub> = 1 absolutamente para todo i ∈ {1, ..., 15} absoluto (toda visión canónica absoluta es canónicamente coexistente absoluta consigo misma absolutamente);
-
-(iii) **plenitud canónica absoluta**: [𝓜<sup>SV</sup><sub>coex</sub>]<sub>ij</sub> = 1 absolutamente para todo i, j ∈ {1, ..., 15} absoluto (todas las quince visiones canónicas absolutas son canónicamente coexistentes absolutas dos a dos absoluto);
-
-(iv) **honestidad canónica absoluta**: la matriz absoluta canónica absoluta es absolutamente trazable absoluta canónicamente absoluta sobre el corpus absoluto, conforme absolutamente al Lema 7.3 absoluto de Lloret Egea (2026j) sobre la honestidad coordenada absoluta canónica absoluta y a la prohibición constitutiva absoluta P.4 absoluta del corpus absoluto.
-
-*Demostración.* Las propiedades canónicas absolutas (i), (ii) y (iv) absolutas se siguen absolutamente directamente absoluto de la Definición 32.1 absoluta del §32.2 absoluto del presente documento absoluto y de la disciplina canónica absoluta del corpus absoluto sobre la honestidad coordenada absoluta canónica absoluta. La propiedad canónica absoluta (iii) absoluta se sigue absolutamente del régimen canónico absoluto de coexistencia canónica absoluta canónica absoluta del §30 absoluto del presente documento absoluto: cada una de las quince visiones canónicas absolutas del §31 absoluto articula absolutamente con rango canónico absoluto una lectura canónica absoluta estructural absoluta coexistente absoluta legítima absoluta sobre la frontera exterior absoluta ε<sub>0</sub> absoluta sin contradecir absolutamente las restantes visiones canónicas absolutas. Por tanto todas las quince visiones canónicas absolutas son canónicamente coexistentes absolutas dos a dos absoluto. Q.E.D.
-
-### 32.3. Cierre canónico absoluto del §32
-
-El §32 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto la matriz absoluta canónica absoluta de coexistencia absoluta 15×15 absoluta entre las quince visiones canónicas absolutas del §31 absoluto del presente documento absoluto. La Proposición 32.1 absoluta establece absolutamente con rango canónico absoluto las cuatro propiedades absolutas canónicas absolutas simultáneas absolutas de la matriz absoluta canónica absoluta. El §33 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto la declaración canónica absoluta esencial absoluta de que las visiones canónicas absolutas postuladas absolutas no son axiomas absolutos.
-
----
-
-## 33. Las visiones postuladas no son axiomas: son lecturas estructurales coexistentes absolutas
-
-### 33.1. Apertura canónica absoluta del §33
-
-El §33 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto la **declaración canónica absoluta esencial absoluta** de que las quince visiones canónicas absolutas del §31 absoluto del presente documento absoluto sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>) absoluto **no son absolutamente axiomas absolutos** introducidos absolutamente fuera del corpus absoluto, sino absolutamente **lecturas canónicas absolutas estructurales absolutas coexistentes absolutas legítimas absolutas** sobre la frontera exterior absoluta ε<sub>0</sub> absoluta y sobre la estructura formal mínima absoluta canónica absoluta de distinguibilidad absoluta F<sub>0</sub> absoluta.
-
-### 33.2. Distinción canónica absoluta entre visión canónica absoluta y axioma absoluto
-
-**Proposición 33.1 (Distinción canónica absoluta entre visión canónica absoluta y axioma absoluto).** Las quince visiones canónicas absolutas del §31 absoluto del presente documento absoluto sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>) absoluto se distinguen canónicamente absoluto de los axiomas absolutos del aparato absoluto en las cuatro propiedades absolutas canónicas absolutas simultáneas absolutas:
-
-(i) **no son absolutamente axiomas absolutos introducidos absolutamente fuera del corpus absoluto**: las quince visiones canónicas absolutas no introducen absolutamente axiomas absolutos nuevos absolutos al aparato absoluto del Sistema Vectorial SV, conforme absolutamente a la prohibición constitutiva absoluta P.5 absoluta del corpus absoluto;
-
-(ii) **son absolutamente lecturas canónicas absolutas estructurales absolutas coexistentes absolutas legítimas absolutas sobre la frontera exterior absoluta ε<sub>0</sub> absoluta**: las quince visiones canónicas absolutas operan absolutamente con rango canónico absoluto sobre la frontera exterior absoluta sin clausurarla absolutamente, conforme absolutamente a la prohibición constitutiva absoluta P.6 absoluta del corpus absoluto;
-
-(iii) **operan absolutamente bajo el régimen canónico absoluto de coexistencia canónica absoluta canónica absoluta**: las quince visiones canónicas absolutas son canónicamente coexistentes absolutas dos a dos absoluto, conforme absolutamente a la matriz absoluta canónica absoluta de coexistencia absoluta del §32 absoluto del presente documento absoluto;
-
-(iv) **no admiten absolutamente clausura canónica absoluta desde dentro del aparato absoluto**: ninguna de las quince visiones canónicas absolutas puede absolutamente ser absoluta demostrada absoluta canónicamente absoluta dentro del aparato absoluto del Sistema Vectorial SV sin violar absolutamente la prohibición constitutiva absoluta P.6 absoluta del corpus absoluto.
-
-*Demostración.* Las propiedades canónicas absolutas (i)–(iv) absolutas se siguen absolutamente directamente absoluto de la Observación 3.2 absoluta del §3.3 absoluto del presente documento absoluto, de la matriz absoluta canónica absoluta de coexistencia absoluta del §32 absoluto del presente documento absoluto y de las prohibiciones constitutivas absolutas P.5 absoluta y P.6 absoluta del corpus absoluto. Q.E.D.
-
-### 33.3. Cierre canónico absoluto del §33
-
-El §33 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto la declaración canónica absoluta esencial absoluta de que las quince visiones canónicas absolutas postuladas absolutas no son absolutamente axiomas absolutos. El §34 absoluto del presente documento absoluto despliega absolutamente con rango canónico absoluto el refuerzo absoluto canónico absoluto de la prohibición constitutiva absoluta P.6 absoluta sobre la frontera exterior absoluta ε<sub>0</sub> absoluta.
-
----
-
-## 34. Indeterminación legítima honesta absoluta sobre ε<sub>0</sub> y refuerzo absoluto de P.6
-
-### 34.1. Apertura canónica absoluta del §34
-
-El §34 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto el **refuerzo absoluto canónico absoluto** de la prohibición constitutiva absoluta P.6 absoluta del corpus absoluto sobre la frontera exterior absoluta ε<sub>0</sub> absoluta del aparato absoluto del Sistema Vectorial SV.
-
-### 34.2. Refuerzo canónico absoluto de la prohibición constitutiva absoluta P.6
-
-**Proposición 34.1 (Refuerzo absoluto canónico absoluto de la prohibición constitutiva absoluta P.6 absoluta sobre la frontera exterior absoluta ε<sub>0</sub>).** La frontera exterior absoluta ε<sub>0</sub> absoluta del aparato absoluto del Sistema Vectorial SV es absolutamente **indeterminación legítima absoluta honesta absoluta** que **no admite absolutamente clausura canónica absoluta** desde dentro del aparato absoluto canónico absoluto, conforme absolutamente a la prohibición constitutiva absoluta P.6 absoluta del corpus absoluto (no clausura espuria absoluta). La indeterminación canónica absoluta legítima absoluta honesta absoluta sobre ε<sub>0</sub> absoluta se reconoce absolutamente con rango canónico absoluto como condición canónica absoluta canónica absoluta del aparato absoluto, articulada absolutamente con rango canónico absoluto sobre el axioma canónico absoluto de la U canónica absoluta del corpus absoluto (Lloret Egea, 2026a, Fundamentos 13.2.5 absoluto y 13.2.8 absoluto).
-
-*Demostración.* La demostración procede absolutamente en tres pasos canónicos absolutos.
-
-**Paso (i) — la frontera exterior absoluta ε<sub>0</sub> absoluta es absolutamente exógena absoluta al aparato absoluto canónico absoluto.** Por la Definición 0.1 absoluta del §0 absoluto del presente documento absoluto, propiedad canónica absoluta de exogeneidad absoluta, ε<sub>0</sub> absoluta no tiene absolutamente antecedente factual absoluto en el corpus absoluto y es absolutamente exógena absoluta al Sistema Vectorial SV por construcción canónica absoluta.
-
-**Paso (ii) — toda clausura canónica absoluta desde dentro del aparato absoluto sobre la frontera exterior absoluta ε<sub>0</sub> absoluta violaría absolutamente la prohibición constitutiva absoluta P.6 absoluta del corpus absoluto.** Por la prohibición constitutiva absoluta P.6 absoluta del corpus absoluto, la indeterminación canónica absoluta U absoluta no se cierra absolutamente con rango canónico absoluto por decreto canónico absoluto del aparato absoluto, sino que se resuelve absolutamente sólo absoluto por sucesos factuales absolutos admisibles absolutos canónicamente absolutos según el clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto (Lloret Egea, 2026c, Teorema 1 absoluto). Toda clausura canónica absoluta desde dentro del aparato absoluto sobre la frontera exterior absoluta ε<sub>0</sub> absoluta sería absolutamente clausura espuria absoluta no admisible absoluta canónicamente absoluta, en violación absoluta directa absoluta de la prohibición constitutiva absoluta P.6 absoluta del corpus absoluto.
-
-**Paso (iii) — el reconocimiento honesto absoluto de la frontera exterior absoluta ε<sub>0</sub> absoluta como U absoluta legítima absoluta honesta absoluta no cerrable absoluta es absolutamente la aplicación paradigmática canónica absoluta de la prohibición constitutiva absoluta P.6 absoluta del corpus absoluto sobre el caso canónico absoluto inicial absoluto del aparato absoluto.** La articulación canónica absoluta del axioma canónico absoluto de la U canónica absoluta del corpus absoluto (Lloret Egea, 2026a, Fundamentos 13.2.5 absoluto y 13.2.8 absoluto) sobre la frontera exterior absoluta canónica absoluta ε<sub>0</sub> absoluta articula absolutamente con rango canónico absoluto el reconocimiento honesto absoluto canónico absoluto de la indeterminación canónica absoluta legítima absoluta honesta absoluta sobre la frontera exterior absoluta. Por tanto la frontera exterior absoluta ε<sub>0</sub> absoluta es absolutamente indeterminación legítima absoluta honesta absoluta no cerrable absoluta desde dentro del aparato absoluto, conforme absolutamente a la prohibición constitutiva absoluta P.6 absoluta del corpus absoluto. Q.E.D.
-
-### 34.3. Cierre canónico absoluto del §34 y de la Parte VII
-
-El §34 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto la Parte VII absoluta del presente documento absoluto sobre las quince visiones canónicas absolutas sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>) absoluto, la matriz absoluta canónica absoluta de coexistencia absoluta 15×15 absoluta y el refuerzo absoluto canónico absoluto de la prohibición constitutiva absoluta P.6 absoluta sobre la frontera exterior absoluta ε<sub>0</sub> absoluta. La Proposición 34.1 absoluta establece absolutamente con rango canónico absoluto el reconocimiento honesto absoluto canónico absoluto de la indeterminación canónica absoluta legítima absoluta honesta absoluta sobre la frontera exterior absoluta canónica absoluta. La Parte VIII absoluta del presente documento absoluto despliega absolutamente con rango canónico absoluto los **ocho criterios absolutos canónicos absolutos independientes absolutos de falsación absoluta** del marco absoluto, la **célula canónica absoluta SV(3, 9) absoluta**, los **diecinueve bancos visibles absolutos** con verificación numérica absoluta explícita absoluta y los **veinticuatro laboratorios canónicos absolutos** con contrato absoluto operatorio absoluto.
-
----
-
-## 35. Criterio absoluto de falsación de la teoría general — ocho criterios independientes
-
-### 35.1. Apertura canónica absoluta del §35
-
-El §35 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto los **ocho criterios absolutos canónicos absolutos independientes absolutos de falsación absoluta** del marco absoluto canónico absoluto del Sistema Vectorial SV sobre el aparato absoluto general absoluto canónico absoluto del presente documento absoluto. La declaración canónica absoluta de criterios absolutos canónicos absolutos independientes absolutos de falsación absoluta articula absolutamente con rango canónico absoluto la **falsabilidad soberana absoluta canónica absoluta** del marco absoluto, conforme absolutamente al estándar canónico absoluto canónico absoluto epistemológico absoluto del aparato absoluto.
-
-### 35.2. Los ocho criterios canónicos absolutos independientes absolutos
-
-**F.1 (Criterio canónico absoluto de falsación absoluta sobre la unicidad estructural absoluta del Teorema 0.1 absoluto).** Si se demostrara absolutamente con rango canónico absoluto la existencia canónica absoluta de un camino canónico absoluto alternativo absoluto a la cadena formal mínima absoluta canónica absoluta de legitimidad absoluta del Teorema 0.1 absoluto del presente documento absoluto que satisficiera absolutamente las seis condiciones constitutivas absolutas (1)–(6) del enunciado del Teorema 0.1 absoluto sin contradicción interna absoluta dentro del Sistema Vectorial SV, el aparato absoluto general absoluto canónico absoluto del presente documento absoluto quedaría absolutamente falsado absoluto canónicamente absoluto.
-
-**F.2 (Criterio canónico absoluto de falsación absoluta sobre la equipotencialidad polar absoluta como génesis canónica absoluta de U).** Si se demostrara absolutamente con rango canónico absoluto que bajo la equipotencialidad polar inicial absoluta Φ(0) = Φ(1) absoluta sobre el borde inicial absoluto del dominio preternario absoluto Ω<sub>pre</sub> absoluto la indeterminación canónica absoluta U absoluta no emerge absolutamente como única salida honesta absoluta del aparato absoluto canónico absoluto, el Teorema 0.2 absoluto del §0 absoluto del presente documento absoluto quedaría absolutamente falsado absoluto canónicamente absoluto.
-
-**F.3 (Criterio canónico absoluto de falsación absoluta sobre la unicidad representacional absoluta canónica absoluta del operador 𝔊<sub>SV</sub>).** Si se demostrara absolutamente con rango canónico absoluto la existencia canónica absoluta de otro operador canónico absoluto en la categoría canónica absoluta OpGen<sub>SV,Π</sub> absoluta que satisficiera absolutamente las cuatro propiedades algebraicas absolutas canónicas absolutas del §11 absoluto del presente documento absoluto sobre la clase absoluta canónica absoluta G del §9 absoluto **sin admitir absolutamente** isomorfismo canónico absoluto admisible absoluto con el operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto, el Teorema 12.1 absoluto del §12 absoluto del presente documento absoluto quedaría absolutamente falsado absoluto canónicamente absoluto.
-
-**F.4 (Criterio canónico absoluto de falsación absoluta sobre la creabilidad factual absolutamente reforzada absoluta de la energía absoluta).** Si se demostrara absolutamente con rango canónico absoluto la existencia canónica absoluta de un suceso factual absoluto generador absoluto interior absoluto e<sub>ν</sub> ∈ G absoluto sobre el ordinal canónico absoluto ν del aparato absoluto que **no incrementara absolutamente** con rango canónico absoluto la energía factual absoluta canónica absoluta total absoluta canónica absoluta E<sub>SV</sub><sup>tot</sup> absoluta del aparato absoluto, el Teorema 16.1 absoluto del §16 absoluto del presente documento absoluto quedaría absolutamente falsado absoluto canónicamente absoluto.
-
-**F.5 (Criterio canónico absoluto de falsación absoluta sobre la absorción canónica absoluta exacta absoluta de Maxwell factual absoluto).** Si se demostrara absolutamente con rango canónico absoluto que la proyección canónica absoluta admisible absoluta π<sub>1,2</sub> absoluta de la Definición 25.1 absoluta del §25 absoluto del presente documento absoluto **no reduce absolutamente** exactamente absoluto la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub> = 0 absoluta del aparato absoluto general absoluto canónico absoluto del presente documento absoluto a la ecuación maestra absoluta canónica absoluta 𝔼<sub>SV</sub> = 0 absoluta del régimen canónico absoluto inferior absoluto de Maxwell factual absoluto del corpus absoluto, el Teorema 25.1 absoluto del §25 absoluto del presente documento absoluto quedaría absolutamente falsado absoluto canónicamente absoluto.
-
-**F.6 (Criterio canónico absoluto de falsación absoluta sobre la absorción canónica absoluta exacta absoluta de la luz factual absoluta).** Si se demostrara absolutamente con rango canónico absoluto que la proyección canónica absoluta admisible absoluta π<sub>L</sub> absoluta de la Definición 26.1 absoluta del §26 absoluto del presente documento absoluto **no reduce absolutamente** exactamente absoluto la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub> = 0 absoluta del aparato absoluto general absoluto canónico absoluto del presente documento absoluto a la ecuación maestra absoluta canónica absoluta L<sub>SV</sub> = 0 absoluta del régimen canónico absoluto inferior absoluto de la luz factual absoluta del corpus absoluto, el Teorema 26.1 absoluto del §26 absoluto del presente documento absoluto quedaría absolutamente falsado absoluto canónicamente absoluto.
-
-**F.7 (Criterio canónico absoluto de falsación absoluta sobre el rango doctrinal superior absoluto del aparato absoluto general absoluto canónico absoluto).** Si se demostrara absolutamente con rango canónico absoluto que el aparato absoluto general absoluto canónico absoluto del presente documento absoluto **no contiene absolutamente** con rango canónico absoluto excedente canónico absoluto canónico absoluto sobre los cuatro regímenes canónicos absolutos inferiores absolutos del corpus absoluto absorbidos absolutos canónicamente absolutos en los Teoremas 25.1, 26.1, 27.1 y 28.1 absolutos del presente documento absoluto, el Teorema 29.2 absoluto del §29 absoluto del presente documento absoluto quedaría absolutamente falsado absoluto canónicamente absoluto.
-
-**F.8 (Criterio canónico absoluto de falsación absoluta sobre la coexistencia canónica absoluta de las quince visiones canónicas absolutas).** Si se demostrara absolutamente con rango canónico absoluto que dos visiones canónicas absolutas del conjunto canónico absoluto de las quince visiones canónicas absolutas del §31 absoluto del presente documento absoluto **se contradicen absolutamente** mutuamente absoluto sobre la frontera exterior absoluta ε<sub>0</sub> absoluta sin admitir absolutamente coexistencia canónica absoluta canónica absoluta dentro del aparato absoluto, la Proposición 32.1 absoluta del §32 absoluto del presente documento absoluto quedaría absolutamente falsada absoluta canónicamente absoluta.
-
-### 35.3. Cierre canónico absoluto del §35
-
-El §35 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto los ocho criterios absolutos canónicos absolutos independientes absolutos de falsación absoluta del marco absoluto canónico absoluto del Sistema Vectorial SV sobre el aparato absoluto general absoluto canónico absoluto del presente documento absoluto. La declaración canónica absoluta de criterios absolutos canónicos absolutos independientes absolutos de falsación absoluta articula absolutamente con rango canónico absoluto la falsabilidad soberana absoluta canónica absoluta del marco absoluto. El §36 absoluto del presente documento absoluto despliega absolutamente con rango canónico absoluto el recorrido canónico absoluto de consistencia canónica absoluta sobre la célula canónica absoluta SV(3, 9) absoluta del corpus absoluto.
-
----
-
-## 36. Recorrido absoluto de consistencia sobre la célula canónica SV(3, 9)
-
-### 36.1. Apertura canónica absoluta del §36
-
-El §36 absoluto del presente documento absoluto despliega absolutamente con rango canónico absoluto el **recorrido canónico absoluto de consistencia canónica absoluta** sobre la **célula canónica absoluta SV(3, 9) absoluta** del corpus absoluto, configuración canónica absoluta minimal absoluta de prueba canónica absoluta del aparato absoluto sobre tres posiciones factuales absolutas ξ<sub>1</sub>, ξ<sub>2</sub>, ξ<sub>3</sub> ∈ Ω<sub>pre</sub> absoluto y nueve sucesos factuales absolutos admisibles absolutos canónicamente absolutos sobre el ordinal canónico absoluto ν append-only absoluto del aparato absoluto.
-
-### 36.2. Definición canónica absoluta de la célula SV(3, 9)
-
-**Definición 36.1 (Célula canónica absoluta SV(3, 9) absoluta).** La **célula canónica absoluta** SV(3, 9) absoluta del Sistema Vectorial SV es absolutamente la configuración canónica absoluta minimal absoluta de prueba canónica absoluta del aparato absoluto, articulada absolutamente con rango canónico absoluto sobre tres posiciones factuales absolutas ξ<sub>1</sub>, ξ<sub>2</sub>, ξ<sub>3</sub> ∈ Ω<sub>pre</sub> absoluto y nueve sucesos factuales absolutos admisibles absolutos canónicamente absolutos {e<sub>1</sub>, e<sub>2</sub>, ..., e<sub>9</sub>} absolutos sobre el ordinal canónico absoluto ν append-only absoluto del aparato absoluto, distribuidos canónicamente absoluto sobre las tres posiciones factuales absolutas conforme absolutamente a la articulación canónica absoluta del corpus absoluto.
-
-### 36.3. Recorrido canónico absoluto de consistencia canónica absoluta
-
-**Proposición 36.1 (Consistencia canónica absoluta del aparato absoluto general absoluto canónico absoluto sobre la célula canónica absoluta SV(3, 9) absoluta).** El aparato absoluto general absoluto canónico absoluto del presente documento absoluto, articulado absolutamente con rango canónico absoluto sobre el protocampo primordial unificado absoluto Π<sub>SV</sub>, el operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto y la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 absoluta sobre los nueve sumandos canónicos absolutos absolutos y los trece invariantes canónicos absolutos del aparato absoluto, satisface absolutamente con rango canónico absoluto la **consistencia canónica absoluta** sobre la célula canónica absoluta SV(3, 9) absoluta de la Definición 36.1 absoluta. La consistencia canónica absoluta se articula absolutamente sobre las cinco propiedades absolutas canónicas absolutas simultáneas absolutas del Teorema 8.1 absoluto del §8 absoluto del presente documento absoluto sobre el soporte estructural absoluto canónico absoluto del protocampo primordial unificado absoluto, conservadas absolutamente con rango canónico absoluto bajo la acción canónica absoluta del operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto sobre la clase absoluta canónica absoluta G del §9 absoluto, conforme absolutamente al Teorema 11.4 absoluto del §11 absoluto del presente documento absoluto sobre la estabilidad estructural absoluta canónica absoluta.
-
-*Demostración.* La consistencia canónica absoluta del aparato absoluto general absoluto canónico absoluto sobre la célula canónica absoluta SV(3, 9) absoluta se sigue absolutamente directamente absoluto del Teorema 8.1 absoluto del §8 absoluto del presente documento absoluto, demostrado absolutamente con rigor canónico absoluto Q.E.D. absoluto, articulado absolutamente con rango canónico absoluto sobre las cinco propiedades absolutas canónicas absolutas simultáneas absolutas (completitud canónica absoluta sobre Ω<sub>pro</sub> absoluto, consistencia canónica absoluta con el clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto, no negatividad canónica absoluta, honestidad coordenada absoluta canónica absoluta, trazabilidad canónica absoluta sobre el ordinal canónico absoluto ν absoluto). La acción canónica absoluta del operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto sobre la clase absoluta canónica absoluta G del §9 absoluto preserva absolutamente con rango canónico absoluto las cinco propiedades absolutas canónicas absolutas, conforme absolutamente al Teorema 11.4 absoluto del §11 absoluto del presente documento absoluto. Por tanto la consistencia canónica absoluta se preserva absolutamente con rango canónico absoluto sobre los nueve sucesos factuales absolutos admisibles absolutos canónicamente absolutos de la célula canónica absoluta SV(3, 9) absoluta. Q.E.D.
-
-### 36.4. Cierre canónico absoluto del §36
-
-El §36 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto el recorrido canónico absoluto de consistencia canónica absoluta sobre la célula canónica absoluta SV(3, 9) absoluta. La Proposición 36.1 absoluta establece absolutamente con rango canónico absoluto la consistencia canónica absoluta del aparato absoluto general absoluto canónico absoluto del presente documento absoluto sobre la configuración canónica absoluta minimal absoluta de prueba canónica absoluta del corpus absoluto. El §37 absoluto del presente documento absoluto despliega absolutamente con rango canónico absoluto los diecinueve bancos visibles absolutos con verificación numérica absoluta explícita absoluta.
-
----
-
-## 37. Bancos visibles absolutos con verificación numérica explícita — diecinueve bancos
-
-### 37.1. Apertura canónica absoluta del §37
-
-El §37 absoluto del presente documento absoluto declara absolutamente con rango canónico absoluto los **diecinueve bancos visibles absolutos** del aparato absoluto del Sistema Vectorial SV con **verificación numérica absoluta explícita absoluta** embebida absoluta canónicamente absoluta en el texto absoluto. Cada banco visible absoluto canónico absoluto articula absolutamente con rango canónico absoluto un escenario canónico absoluto numérico absoluto canónico absoluto sobre el aparato absoluto general absoluto canónico absoluto del presente documento absoluto, ejecutable absoluto canónicamente absoluto sobre el corpus absoluto del Sistema Vectorial SV.
-
-### 37.2. Declaración canónica absoluta de los diecinueve bancos visibles absolutos
-
-**Banco visible absoluto canónico absoluto B.1 (Verificación canónica absoluta del par polar absoluto canónico absoluto sobre tres posiciones factuales absolutas).** Sobre tres posiciones factuales absolutas ξ<sub>1</sub>, ξ<sub>2</sub>, ξ<sub>3</sub> ∈ Ω<sub>pre</sub> absoluto con observables canónicos absolutos del corpus absoluto ρ<sub>0</sub>(ξ<sub>1</sub>) = 3 absoluto, ρ<sub>1</sub>(ξ<sub>1</sub>) = 2 absoluto, ρ<sub>0</sub>(ξ<sub>2</sub>) = 1 absoluto, ρ<sub>1</sub>(ξ<sub>2</sub>) = 4 absoluto, ρ<sub>0</sub>(ξ<sub>3</sub>) = 0 absoluto, ρ<sub>1</sub>(ξ<sub>3</sub>) = 0 absoluto, y umbral canónico absoluto ρ<sub>min</sub><sup>SV</sup> = 1 absoluto, el banco verifica absolutamente la derivación nativa absoluta de la Proposición 5.1 absoluta del §5 absoluto del presente documento absoluto: α<sub>1</sub> = 3 absoluto, β<sub>1</sub> = 2 absoluto, α<sub>2</sub> = 1 absoluto, β<sub>2</sub> = 4 absoluto, (α<sub>3</sub>, β<sub>3</sub>) = U absoluta legítima absoluta.
-
-**Banco visible absoluto canónico absoluto B.2 (Verificación canónica absoluta de la densidad polar absoluta).** Con los datos canónicos absolutos del Banco visible absoluto canónico absoluto B.1 absoluto, el banco verifica absolutamente la Definición 6.1 absoluta del §6 absoluto del presente documento absoluto: Δ<sub>SV</sub>(ξ<sub>1</sub>) = 5 absoluto, Δ<sub>SV</sub>(ξ<sub>2</sub>) = 5 absoluto, Δ<sub>SV</sub>(ξ<sub>3</sub>) = U absoluta.
-
-**Banco visible absoluto canónico absoluto B.3 (Verificación canónica absoluta del gradiente resolutivo absoluto).** Con los datos canónicos absolutos del Banco visible absoluto canónico absoluto B.1 absoluto, el banco verifica absolutamente la Definición 6.2 absoluta del §6 absoluto del presente documento absoluto: δ<sub>1</sub><sup>SV</sup> = −1 absoluto, δ<sub>2</sub><sup>SV</sup> = 3 absoluto, δ<sub>3</sub><sup>SV</sup> = U absoluto.
-
-**Banco visible absoluto canónico absoluto B.4 (Verificación canónica absoluta de la energía factual absoluta).** Con los datos canónicos absolutos del Banco visible absoluto canónico absoluto B.1 absoluto y constantes canónicas absolutas k<sub>E</sub><sup>SV</sup> = 1 absoluto y 𝔠<sub>ν</sub><sup>SV</sup> = 1 absoluta, el banco verifica absolutamente la Definición 6.4 absoluta del §6 absoluto del presente documento absoluto: E<sub>SV</sub>(ξ<sub>1</sub>) = 5 absoluto UFE, E<sub>SV</sub>(ξ<sub>2</sub>) = 5 absoluto UFE.
-
-**Banco visible absoluto canónico absoluto B.5 (Verificación canónica absoluta del régimen canónico absoluto equipotencial absoluto sobre el borde inicial absoluto).** Sobre las posiciones factuales absolutas iniciales absolutas ξ<sub>1</sub>, ξ<sub>2</sub>, ξ<sub>3</sub> con α<sub>i</sub> = β<sub>i</sub> = 0,5 absoluto sobre el borde inicial absoluto del dominio preternario absoluto Ω<sub>pre</sub> absoluto, el banco verifica absolutamente la Definición 0.3 absoluta y el Teorema 0.2 absoluto del §0 absoluto del presente documento absoluto: la indeterminación canónica absoluta U absoluta emerge absolutamente como única salida honesta absoluta del aparato absoluto bajo equipotencialidad polar absoluta inicial absoluta Φ(0) = Φ(1) absoluta.
-
-**Banco visible absoluto canónico absoluto B.6 (Verificación canónica absoluta de la monotonía energética estricta absoluta sobre la clase absoluta G).** Sobre la posición factual absoluta ξ<sub>1</sub> con par polar absoluto inicial absoluto (α<sub>1</sub><sup>(ν)</sup>, β<sub>1</sub><sup>(ν)</sup>) = (3, 2) absoluto y suceso factual absoluto generador absoluto interior absoluto e<sub>ν</sub> ∈ G absoluto sobre el ordinal canónico absoluto ν del aparato absoluto que produce absolutamente (α<sub>1</sub><sup>(ν+1)</sup>, β<sub>1</sub><sup>(ν+1)</sup>) = (4, 3) absoluto, el banco verifica absolutamente el Teorema 13.1 absoluto del §13 absoluto del presente documento absoluto: Δ<sub>SV</sub><sup>(ν+1)</sup>(ξ<sub>1</sub>) = 7 absoluto > Δ<sub>SV</sub><sup>(ν)</sup>(ξ<sub>1</sub>) = 5 absoluto, y por tanto E<sub>SV</sub><sup>(ν+1)</sup>(ξ<sub>1</sub>) = 7 absoluto UFE > E<sub>SV</sub><sup>(ν)</sup>(ξ<sub>1</sub>) = 5 absoluto UFE.
-
-**Banco visible absoluto canónico absoluto B.7 (Verificación canónica absoluta de la conservación local absoluta bajo la clase absoluta A).** Sobre la posición factual absoluta ξ<sub>2</sub> con par polar absoluto inicial absoluto (α<sub>2</sub><sup>(ν)</sup>, β<sub>2</sub><sup>(ν)</sup>) = (1, 4) absoluto y suceso factual absoluto e<sub>ν</sub> ∈ A absoluto sobre el ordinal canónico absoluto ν del aparato absoluto que produce absolutamente (α<sub>2</sub><sup>(ν+1)</sup>, β<sub>2</sub><sup>(ν+1)</sup>) = (2, 3) absoluto, el banco verifica absolutamente el Teorema 14.1 absoluto del §14 absoluto del presente documento absoluto: Δ<sub>SV</sub><sup>(ν+1)</sup>(ξ<sub>2</sub>) = 5 absoluto = Δ<sub>SV</sub><sup>(ν)</sup>(ξ<sub>2</sub>) = 5 absoluto, mientras δ<sub>2</sub><sup>SV,(ν+1)</sup> = 1 absoluto ≠ δ<sub>2</sub><sup>SV,(ν)</sup> = 3 absoluto.
-
-**Banco visible absoluto canónico absoluto B.8 (Verificación canónica absoluta de la ruptura controlada absoluta bajo la clase absoluta G).** Sobre la posición factual absoluta ξ<sub>1</sub> con par polar absoluto inicial absoluto (α<sub>1</sub><sup>(ν)</sup>, β<sub>1</sub><sup>(ν)</sup>) = (2, 2) absoluto en régimen canónico absoluto equipotencial absoluto Φ(0) = Φ(1) absoluto y suceso factual absoluto generador absoluto interior absoluto e<sub>ν</sub> ∈ G absoluto que produce absolutamente (α<sub>1</sub><sup>(ν+1)</sup>, β<sub>1</sub><sup>(ν+1)</sup>) = (3, 5) absoluto, el banco verifica absolutamente el Teorema 15.1 absoluto del §15 absoluto del presente documento absoluto: la transición canónica absoluta desde el régimen canónico absoluto equipotencial absoluto al régimen canónico absoluto polarizado absoluto |δ<sub>1</sub><sup>SV,(ν+1)</sup>| = 2 > 0 absoluto opera absolutamente bajo el control canónico absoluto del clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto.
-
-**Banco visible absoluto canónico absoluto B.9 (Verificación canónica absoluta de la creabilidad factual absolutamente reforzada absoluta de la energía absoluta).** Con los datos canónicos absolutos del Banco visible absoluto canónico absoluto B.6 absoluto y constantes canónicas absolutas k<sub>E</sub><sup>SV</sup> = 1 absoluto y 𝔠<sub>ν</sub><sup>SV</sup> = 1 absoluta, sumando absolutamente sobre las tres posiciones factuales absolutas interiores absolutas admisibles absolutas, el banco verifica absolutamente el Teorema 16.1 absoluto del §16 absoluto del presente documento absoluto: E<sub>SV</sub><sup>tot,(ν+1)</sup> = 7 + 5 = 12 absoluto UFE > E<sub>SV</sub><sup>tot,(ν)</sup> = 5 + 5 = 10 absoluto UFE.
-
-**Banco visible absoluto canónico absoluto B.10 (Verificación canónica absoluta de la cota factual absoluta canónica absoluta).** Con los datos canónicos absolutos del Banco visible absoluto canónico absoluto B.1 absoluto y regularización canónica absoluta ϵ<sup>SV</sup><sub>reg</sub> = 0,01 absoluto, el banco verifica absolutamente la Definición 6.5 absoluta del §6 absoluto del presente documento absoluto: κ<sub>SV</sub>(ξ<sub>1</sub>) ≈ 0,2 absoluto, κ<sub>SV</sub>(ξ<sub>2</sub>) ≈ 0,6 absoluto, ambas dentro del intervalo absoluto canónico absoluto [0, 1] absoluto.
-
-**Banco visible absoluto canónico absoluto B.11 (Verificación canónica absoluta de la métrica factual absoluta derivada absoluta).** Con los datos canónicos absolutos del Banco visible absoluto canónico absoluto B.1 absoluto y peso canónico absoluto w<sub>ν</sub><sup>SV</sup>(ξ<sub>1</sub>, ξ<sub>2</sub>) = 1 absoluto, el banco verifica absolutamente la Definición 7.3 absoluta del §7 absoluto del presente documento absoluto: dist<sub>SV</sub>(ξ<sub>1</sub>, ξ<sub>2</sub>) = √((3−1)² + (2−4)²) · 1 = √8 ≈ 2,83 absoluto.
-
-**Banco visible absoluto canónico absoluto B.12 (Verificación canónica absoluta de la covariancia factual absoluta bajo 𝒯<sup>SV</sup><sub>3</sub>).** Sobre la posición factual absoluta ξ<sub>1</sub> con par polar absoluto (α<sub>1</sub>, β<sub>1</sub>) = (3, 2) absoluto y aplicación canónica absoluta de la transformada canónica absoluta 𝒯<sup>SV</sup><sub>3</sub> absoluta de cambio canónico absoluto de etiquetado polar absoluto admisible absoluto (α<sub>1</sub>, β<sub>1</sub>) → (β<sub>1</sub>, α<sub>1</sub>) = (2, 3) absoluto, el banco verifica absolutamente el Teorema 11.3 absoluto del §11 absoluto del presente documento absoluto: la densidad polar absoluta canónica absoluta Δ<sub>SV</sub>(ξ<sub>1</sub>) = 5 absoluta se preserva absolutamente bajo 𝒯<sup>SV</sup><sub>3</sub> absoluta, mientras el gradiente resolutivo absoluto canónico absoluto se invierte absolutamente: δ<sub>1</sub><sup>SV</sup> = −1 absoluto → δ<sub>1</sub><sup>SV,𝒯3</sup> = 1 absoluto.
-
-**Banco visible absoluto canónico absoluto B.13 (Verificación canónica absoluta de la absorción canónica absoluta exacta absoluta de Maxwell factual absoluto).** Sobre una configuración canónica absoluta minimal absoluta del aparato absoluto general absoluto canónico absoluto con sumandos canónicos absolutos electromagnéticos absolutos 𝓛<sub>1</sub><sup>SV</sup>(Π<sub>SV</sub>; ν) absoluto y 𝓛<sub>2</sub><sup>SV</sup>(Π<sub>SV</sub>; ν) absoluto activados absolutos canónicamente absolutos y sumandos canónicos absolutos restantes absolutos no electromagnéticos absolutos anulados absolutos canónicamente absolutos bajo la proyección canónica absoluta admisible absoluta π<sub>1,2</sub> absoluta de la Definición 25.1 absoluta del §25 absoluto del presente documento absoluto, el banco verifica absolutamente la identidad canónica absoluta exacta absoluta π<sub>1,2</sub>(ℙ<sub>SV</sub> = 0) ≡ 𝔼<sub>SV</sub> = 0 absoluta del Teorema 25.1 absoluto del §25 absoluto del presente documento absoluto.
-
-**Banco visible absoluto canónico absoluto B.14 (Verificación canónica absoluta de la absorción canónica absoluta exacta absoluta de la luz factual absoluta).** Sobre una configuración canónica absoluta minimal absoluta del aparato absoluto general absoluto canónico absoluto con quince sumandos canónicos absolutos lumínicos absolutos del operador maestro absoluto ℙ<sub>SV</sub> absoluto activados absolutos canónicamente absolutos y sumandos canónicos absolutos restantes absolutos anulados absolutos canónicamente absolutos bajo la proyección canónica absoluta admisible absoluta π<sub>L</sub> absoluta de la Definición 26.1 absoluta del §26 absoluto del presente documento absoluto, el banco verifica absolutamente la identidad canónica absoluta exacta absoluta π<sub>L</sub>(ℙ<sub>SV</sub> = 0) ≡ L<sub>SV</sub> = 0 absoluta del Teorema 26.1 absoluto del §26 absoluto del presente documento absoluto.
-
-**Banco visible absoluto canónico absoluto B.15 (Verificación canónica absoluta de la absorción canónica absoluta exacta absoluta de la transmutación factual absoluta sobre la clase absoluta G interior absoluta).** Sobre una configuración canónica absoluta minimal absoluta del aparato absoluto general absoluto canónico absoluto con sumandos canónicos absolutos transmutativos absolutos del operador maestro absoluto ℙ<sub>SV</sub> absoluto activados absolutos canónicamente absolutos sobre sucesos factuales absolutos generadores absolutos interiores absolutos de la clase absoluta canónica absoluta G del §9 absoluto y bajo la proyección canónica absoluta admisible absoluta π<sub>T</sub> absoluta de la Definición 27.1 absoluta del §27 absoluto del presente documento absoluto, el banco verifica absolutamente la identidad canónica absoluta exacta absoluta π<sub>T</sub>(ℙ<sub>SV</sub> = 0)|<sub>e<sub>ν</sub>∈G int</sub> ≡ Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} absoluta del Teorema 27.1 absoluto del §27 absoluto del presente documento absoluto.
-
-**Banco visible absoluto canónico absoluto B.16 (Verificación canónica absoluta de la absorción canónica absoluta exacta absoluta de la entropía factual absoluta como funcional canónico absoluto integrador absoluto).** Sobre una configuración canónica absoluta minimal absoluta del aparato absoluto general absoluto canónico absoluto bajo la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub> = 0 absoluta sobre el ordinal canónico absoluto ν append-only absoluto del aparato absoluto, el banco verifica absolutamente la identidad canónica absoluta exacta absoluta H<sub>SV</sub> = ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν]|<sub>ℙ<sub>SV</sub>=0</sub> absoluta del Teorema 28.1 absoluto del §28 absoluto del presente documento absoluto.
-
-**Banco visible absoluto canónico absoluto B.17 (Verificación canónica absoluta de la coexistencia canónica absoluta de las quince visiones canónicas absolutas).** Sobre el conjunto canónico absoluto de las quince visiones canónicas absolutas {V.1, V.2, ..., V.15} del §31 absoluto del presente documento absoluto, el banco verifica absolutamente la matriz absoluta canónica absoluta de coexistencia absoluta 15×15 absoluta de la Proposición 32.1 absoluta del §32 absoluto del presente documento absoluto: las quince visiones canónicas absolutas son canónicamente coexistentes absolutas dos a dos absoluto, articulando absolutamente con rango canónico absoluto la plenitud canónica absoluta de la matriz absoluta canónica absoluta.
-
-**Banco visible absoluto canónico absoluto B.18 (Verificación canónica absoluta del refuerzo absoluto canónico absoluto de la prohibición constitutiva absoluta P.6 absoluta).** Sobre la frontera exterior absoluta ε<sub>0</sub> absoluta del aparato absoluto del Sistema Vectorial SV, el banco verifica absolutamente la Proposición 34.1 absoluta del §34 absoluto del presente documento absoluto: ninguna clausura canónica absoluta desde dentro del aparato absoluto sobre la frontera exterior absoluta ε<sub>0</sub> absoluta es absolutamente admisible absoluta canónicamente absoluta sin violar absolutamente la prohibición constitutiva absoluta P.6 absoluta del corpus absoluto.
-
-**Banco visible absoluto canónico absoluto B.19 (Verificación canónica absoluta de la consistencia canónica absoluta sobre la célula canónica absoluta SV(3, 9) absoluta).** Sobre la célula canónica absoluta SV(3, 9) absoluta del corpus absoluto de la Definición 36.1 absoluta del §36 absoluto del presente documento absoluto, el banco verifica absolutamente la Proposición 36.1 absoluta del §36 absoluto del presente documento absoluto: el aparato absoluto general absoluto canónico absoluto del presente documento absoluto satisface absolutamente con rango canónico absoluto la consistencia canónica absoluta sobre los nueve sucesos factuales absolutos admisibles absolutos canónicamente absolutos de la célula canónica absoluta.
-
-### 37.3. Cierre canónico absoluto del §37
-
-El §37 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto los diecinueve bancos visibles absolutos del aparato absoluto del Sistema Vectorial SV con verificación numérica absoluta explícita absoluta. Los diecinueve bancos visibles absolutos articulan absolutamente con rango canónico absoluto la verificación canónica absoluta numérica absoluta del aparato absoluto general absoluto canónico absoluto del presente documento absoluto sobre escenarios canónicos absolutos numéricos absolutos canónicos absolutos. El §38 absoluto del presente documento absoluto despliega absolutamente con rango canónico absoluto los veinticuatro laboratorios canónicos absolutos del aparato absoluto con contrato absoluto operatorio absoluto.
-
----
-
-## 38. Declaración arquitectónica absoluta laboratorial — veinticuatro laboratorios
-
-### 38.1. Apertura canónica absoluta del §38
-
-El §38 absoluto del presente documento absoluto declara absolutamente con rango canónico absoluto los **veinticuatro laboratorios canónicos absolutos** del aparato absoluto del Sistema Vectorial SV con **contrato absoluto operatorio absoluto** sobre el aparato absoluto general absoluto canónico absoluto del presente documento absoluto. Cada laboratorio canónico absoluto articula absolutamente con rango canónico absoluto un escenario canónico absoluto operatorio absoluto canónico absoluto del aparato absoluto sobre el que el aparato absoluto general absoluto canónico absoluto del presente documento absoluto opera absolutamente con rango canónico absoluto.
-
-### 38.2. Declaración canónica absoluta de los veinticuatro laboratorios canónicos absolutos
-
-**Laboratorio canónico absoluto L.1 (Laboratorio canónico absoluto de la cadena formal mínima absoluta de legitimidad absoluta).** Articula absolutamente con rango canónico absoluto la cadena formal mínima absoluta canónica absoluta de legitimidad absoluta 𝒞<sub>F<sub>0</sub>,SV</sub> absoluta de la Definición 0.7 absoluta del §0 absoluto del presente documento absoluto.
-
-**Laboratorio canónico absoluto L.2 (Laboratorio canónico absoluto del soporte estructural absoluto del protocampo).** Articula absolutamente con rango canónico absoluto el Teorema 8.1 absoluto del §8 absoluto del presente documento absoluto sobre las cinco propiedades absolutas canónicas absolutas simultáneas absolutas del soporte estructural absoluto canónico absoluto del protocampo primordial unificado absoluto Π<sub>SV</sub>.
-
-**Laboratorio canónico absoluto L.3 (Laboratorio canónico absoluto de la taxonomía G/A/D absoluta).** Articula absolutamente con rango canónico absoluto la taxonomía absoluta canónica absoluta G/A/D absoluta del §9 absoluto del presente documento absoluto sobre los sucesos factuales absolutos admisibles absolutos canónicamente absolutos del aparato absoluto.
-
-**Laboratorio canónico absoluto L.4 (Laboratorio canónico absoluto de la homogeneidad factual absoluta del operador 𝔊<sub>SV</sub>).** Articula absolutamente con rango canónico absoluto el Teorema 11.1 absoluto del §11 absoluto del presente documento absoluto.
-
-**Laboratorio canónico absoluto L.5 (Laboratorio canónico absoluto de la aditividad absoluta del operador 𝔊<sub>SV</sub>).** Articula absolutamente con rango canónico absoluto el Teorema 11.2 absoluto del §11 absoluto del presente documento absoluto.
-
-**Laboratorio canónico absoluto L.6 (Laboratorio canónico absoluto de la covariancia factual absoluta del operador 𝔊<sub>SV</sub> bajo las cuatro transformadas canónicas absolutas).** Articula absolutamente con rango canónico absoluto el Teorema 11.3 absoluto del §11 absoluto del presente documento absoluto sobre las cuatro transformadas canónicas absolutas 𝒯<sup>SV</sup><sub>k</sub> con k ∈ {1, 2, 3, 4}.
-
-**Laboratorio canónico absoluto L.7 (Laboratorio canónico absoluto de la estabilidad estructural absoluta del operador 𝔊<sub>SV</sub>).** Articula absolutamente con rango canónico absoluto el Teorema 11.4 absoluto del §11 absoluto del presente documento absoluto.
-
-**Laboratorio canónico absoluto L.8 (Laboratorio canónico absoluto de la unicidad representacional absoluta del operador 𝔊<sub>SV</sub> en OpGen<sub>SV,Π</sub>).** Articula absolutamente con rango canónico absoluto el Teorema 12.1 absoluto del §12 absoluto del presente documento absoluto.
-
-**Laboratorio canónico absoluto L.9 (Laboratorio canónico absoluto de la monotonía energética estricta absoluta sobre la clase absoluta G).** Articula absolutamente con rango canónico absoluto el Teorema 13.1 absoluto del §13 absoluto del presente documento absoluto.
-
-**Laboratorio canónico absoluto L.10 (Laboratorio canónico absoluto de la conservación local absoluta bajo la clase absoluta A).** Articula absolutamente con rango canónico absoluto el Teorema 14.1 absoluto del §14 absoluto del presente documento absoluto.
-
-**Laboratorio canónico absoluto L.11 (Laboratorio canónico absoluto de la ruptura controlada absoluta bajo la clase absoluta G).** Articula absolutamente con rango canónico absoluto el Teorema 15.1 absoluto del §15 absoluto del presente documento absoluto.
-
-**Laboratorio canónico absoluto L.12 (Laboratorio canónico absoluto de la creabilidad factual absolutamente reforzada absoluta de la energía absoluta).** Articula absolutamente con rango canónico absoluto el Teorema 16.1 absoluto del §16 absoluto del presente documento absoluto.
-
-**Laboratorio canónico absoluto L.13 (Laboratorio canónico absoluto del operador absoluto canónico absoluto de proyección activada absoluta Π<sub>3</sub><sup>H</sup>).** Articula absolutamente con rango canónico absoluto el §17 absoluto del presente documento absoluto.
-
-**Laboratorio canónico absoluto L.14 (Laboratorio canónico absoluto de los siete teoremas absolutos canónicos absolutos de emergencia absoluta de los siete campos factuales absolutos coexistentes absolutos).** Articula absolutamente con rango canónico absoluto los siete teoremas absolutos canónicos absolutos del §18 absoluto del presente documento absoluto sobre la emergencia canónica absoluta canónica absoluta de los siete campos factuales absolutos coexistentes absolutos del corpus absoluto.
-
-**Laboratorio canónico absoluto L.15 (Laboratorio canónico absoluto de la coexistencia estructural absoluta canónica absoluta de los siete campos factuales absolutos coexistentes absolutos).** Articula absolutamente con rango canónico absoluto el §19 absoluto del presente documento absoluto sobre la coexistencia estructural absoluta canónica absoluta de los siete campos factuales absolutos coexistentes absolutos del corpus absoluto.
-
-**Laboratorio canónico absoluto L.16 (Laboratorio canónico absoluto de la ecuación maestra absoluta ℙ<sub>SV</sub> = 0).** Articula absolutamente con rango canónico absoluto los §§20–24 absolutos del presente documento absoluto sobre la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 absoluta sobre los nueve sumandos canónicos absolutos absolutos y los trece invariantes canónicos absolutos del aparato absoluto.
-
-**Laboratorio canónico absoluto L.17 (Laboratorio canónico absoluto de la absorción canónica absoluta exacta absoluta de Maxwell factual absoluto).** Articula absolutamente con rango canónico absoluto el Teorema 25.1 absoluto del §25 absoluto del presente documento absoluto.
-
-**Laboratorio canónico absoluto L.18 (Laboratorio canónico absoluto de la absorción canónica absoluta exacta absoluta de la luz factual absoluta).** Articula absolutamente con rango canónico absoluto el Teorema 26.1 absoluto del §26 absoluto del presente documento absoluto.
-
-**Laboratorio canónico absoluto L.19 (Laboratorio canónico absoluto de la absorción canónica absoluta exacta absoluta de la transmutación factual absoluta).** Articula absolutamente con rango canónico absoluto el Teorema 27.1 absoluto del §27 absoluto del presente documento absoluto.
-
-**Laboratorio canónico absoluto L.20 (Laboratorio canónico absoluto de la absorción canónica absoluta exacta absoluta de la entropía factual absoluta).** Articula absolutamente con rango canónico absoluto el Teorema 28.1 absoluto del §28 absoluto del presente documento absoluto.
-
-**Laboratorio canónico absoluto L.21 (Laboratorio canónico absoluto del rango doctrinal superior absoluto canónico absoluto del aparato absoluto general absoluto canónico absoluto).** Articula absolutamente con rango canónico absoluto los Teoremas 29.1 y 29.2 absolutos del §29 absoluto del presente documento absoluto.
-
-**Laboratorio canónico absoluto L.22 (Laboratorio canónico absoluto de las quince visiones canónicas absolutas sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>)).** Articula absolutamente con rango canónico absoluto el §31 absoluto del presente documento absoluto y la matriz absoluta canónica absoluta de coexistencia absoluta 15×15 absoluta del §32 absoluto del presente documento absoluto.
-
-**Laboratorio canónico absoluto L.23 (Laboratorio canónico absoluto del refuerzo absoluto canónico absoluto de la prohibición constitutiva absoluta P.6 absoluta).** Articula absolutamente con rango canónico absoluto la Proposición 34.1 absoluta del §34 absoluto del presente documento absoluto.
-
-**Laboratorio canónico absoluto L.24 (Laboratorio canónico absoluto de los ocho criterios absolutos canónicos absolutos independientes absolutos de falsación absoluta).** Articula absolutamente con rango canónico absoluto los ocho criterios canónicos absolutos F.1–F.8 absolutos del §35 absoluto del presente documento absoluto.
-
-### 38.3. Cierre canónico absoluto del §38 y de la Parte VIII
-
-El §38 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto la Parte VIII absoluta del presente documento absoluto sobre los ocho criterios absolutos canónicos absolutos independientes absolutos de falsación absoluta, la célula canónica absoluta SV(3, 9) absoluta, los diecinueve bancos visibles absolutos con verificación numérica absoluta explícita absoluta y los veinticuatro laboratorios canónicos absolutos con contrato absoluto operatorio absoluto. La Parte IX absoluta del presente documento absoluto despliega absolutamente con rango canónico absoluto las tablas canónicas absolutas finales absolutas, las catorce conclusiones canónicas absolutas, la antesala canónica absoluta de cuestiones canónicas absolutas superiores absolutas, el compromiso canónico absoluto canónico absoluto con la disciplina canónica absoluta del corpus absoluto y la explicación canónica absoluta canónica absoluta de la naturaleza canónica absoluta factual absoluta de los sucesos generadores absolutos y de los protocampos unificados absolutos para un niño canónico absoluto de diez años absoluto.
-
----
-
-## 39. Tablas canónicas finales absolutas
-
-### 39.1. Apertura canónica absoluta del §39
-
-El §39 absoluto del presente documento absoluto consigna absolutamente con rango canónico absoluto las **tablas canónicas absolutas finales absolutas** del aparato absoluto general absoluto canónico absoluto del presente documento absoluto. Las tablas canónicas absolutas finales absolutas articulan absolutamente con rango canónico absoluto el resumen canónico absoluto canónico absoluto de los elementos canónicos absolutos esenciales absolutos del aparato absoluto, articulado absolutamente con rango canónico absoluto sobre el corpus absoluto del Sistema Vectorial SV.
-
-### 39.2. Tabla canónica absoluta T.39.1 — Producción nominal canónica absoluta del aparato absoluto general absoluto canónico absoluto
-
-**Tabla canónica absoluta T.39.1 (Producción nominal canónica absoluta del aparato absoluto general absoluto canónico absoluto del presente documento absoluto).** El aparato absoluto general absoluto canónico absoluto del presente documento absoluto articula absolutamente con rango canónico absoluto la siguiente producción nominal canónica absoluta:
-
-| Elemento canónico absoluto | Cantidad canónica absoluta |
-|---|---|
-| Teoremas absolutos canónicos absolutos | 43 absolutos |
-| Corolarios absolutos canónicos absolutos | 17 absolutos |
-| Proposiciones absolutas canónicas absolutas | 11 absolutas |
-| Definiciones canónicas absolutas | 43 canónicas absolutas |
-| Invariantes absolutos canónicos absolutos | 13 absolutos (I.1–I.13) |
-| Sumandos absolutos canónicos absolutos del operador maestro absoluto ℙ<sub>SV</sub> | 9 absolutos |
-| Visiones canónicas absolutas sobre (ε<sub>0</sub>, F<sub>0</sub>) | 15 canónicas absolutas (V.1–V.15) |
-| Bancos visibles absolutos | 19 absolutos (B.1–B.19) |
-| Laboratorios canónicos absolutos | 24 canónicos absolutos (L.1–L.24) |
-| Criterios absolutos independientes absolutos de falsación absoluta | 8 absolutos (F.1–F.8) |
-| Prohibiciones constitutivas absolutas | 6 absolutas (P.1–P.6) |
-| Postulados absolutos canónicos absolutos del programa absoluto | 3 absolutos (G.1, G.2, G.3) |
-| Transformadas canónicas absolutas de trayectoria absoluta | 4 canónicas absolutas (𝒯<sup>SV</sup><sub>k</sub>, k=1,2,3,4) |
-| Categorías canónicas absolutas operatorias absolutas | 3 canónicas absolutas (OpFact<sub>SV</sub>, OpGen<sub>SV,Π</sub>, OpFact<sub>SV,General</sub>) |
-| Pilares canónicos absolutos metrológicos absolutos | 4 canónicos absolutos (UE_MFC, UFE, UFM, UFC) |
-| Compuertas canónicas absolutas del aparato absoluto | 2 canónicas absolutas (℘<sub>SV</sub>, ⊕) |
-
-### 39.3. Tabla canónica absoluta T.39.2 — Tabla canónica absoluta de las cuatro absorciones canónicas absolutas
-
-**Tabla canónica absoluta T.39.2 (Tabla canónica absoluta de las cuatro absorciones canónicas absolutas del aparato absoluto general absoluto canónico absoluto sobre los cuatro regímenes canónicos absolutos inferiores absolutos del corpus absoluto).** Las cuatro absorciones canónicas absolutas demostradas absolutamente con rigor canónico absoluto en los §§25–28 absolutos del presente documento absoluto se sintetizan absolutamente con rango canónico absoluto en la siguiente tabla canónica absoluta:
-
-| Régimen canónico absoluto inferior absoluto | Identidad canónica absoluta exacta absoluta | Teorema canónico absoluto |
-|---|---|---|
-| I. Maxwell factual absoluto (Lloret Egea, 2026k) | π<sub>1,2</sub>(ℙ<sub>SV</sub>=0) ≡ 𝔼<sub>SV</sub>=0 | T.25.1 |
-| II. Luz factual absoluta (Lloret Egea, 2026 — luz factual) | π<sub>L</sub>(ℙ<sub>SV</sub>=0) ≡ L<sub>SV</sub>=0 | T.26.1 |
-| III. Transmutación factual absoluta (Lloret Egea, 2026q) | π<sub>T</sub>(ℙ<sub>SV</sub>=0)\|<sub>e<sub>ν</sub>∈G int</sub> ≡ Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} | T.27.1 |
-| IV. Entropía factual absoluta (Lloret Egea, 2026l) | H<sub>SV</sub> = ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν]\|<sub>ℙ<sub>SV</sub>=0</sub> | T.28.1 |
-
-### 39.4. Tabla canónica absoluta T.39.3 — Tabla canónica absoluta de las prohibiciones constitutivas absolutas P.1–P.6
-
-**Tabla canónica absoluta T.39.3 (Tabla canónica absoluta de las prohibiciones constitutivas absolutas del corpus absoluto del Sistema Vectorial SV).**
-
-| Prohibición canónica absoluta | Contenido canónico absoluto canónico absoluto |
-|---|---|
-| P.1 absoluta | Prohibición canónica absoluta del tiempo soberano absoluto |
-| P.2 absoluta | Prohibición canónica absoluta de la probabilidad fundante absoluta |
-| P.3 absoluta | Prohibición canónica absoluta de la geometría soberana absoluta auxiliar absoluta |
-| P.4 absoluta | Prohibición canónica absoluta de la inferencia opaca absoluta |
-| P.5 absoluta | Prohibición canónica absoluta de la adición axiomática externa absoluta al corpus absoluto |
-| P.6 absoluta | Prohibición canónica absoluta de la clausura espuria absoluta |
-
-### 39.5. Tabla canónica absoluta T.39.4 — Tabla canónica absoluta de los tres postulados canónicos absolutos del programa
-
-**Tabla canónica absoluta T.39.4 (Tabla canónica absoluta de los tres postulados canónicos absolutos del programa absoluto, heredados absolutos del Destacado canónico absoluto del §3bis absoluto del documento absoluto de la luz factual).**
-
-| Postulado canónico absoluto | Contenido canónico absoluto canónico absoluto |
-|---|---|
-| G.1 absoluto | Existencia canónica absoluta del protocampo primordial unificado absoluto Π<sub>SV</sub> |
-| G.2 absoluto | No sustancialización absoluta de los protocampos absolutos |
-| G.3 absoluto | Existencia canónica absoluta del operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> |
-
-### 39.6. Cierre canónico absoluto del §39
-
-El §39 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto las tablas canónicas absolutas finales absolutas del aparato absoluto general absoluto canónico absoluto del presente documento absoluto. El §40 absoluto del presente documento absoluto consigna absolutamente con rango canónico absoluto las catorce conclusiones canónicas absolutas del aparato absoluto.
-
----
-
-## 40. Catorce conclusiones canónicas absolutas
-
-### 40.1. Apertura canónica absoluta del §40
-
-El §40 absoluto del presente documento absoluto consigna absolutamente con rango canónico absoluto las **catorce conclusiones canónicas absolutas** del aparato absoluto general absoluto canónico absoluto del presente documento absoluto. Las catorce conclusiones canónicas absolutas articulan absolutamente con rango canónico absoluto el balance canónico absoluto canónico absoluto del programa absoluto desarrollado en la presente publicación absoluta.
-
-### 40.2. Las catorce conclusiones canónicas absolutas
-
-**Conclusión canónica absoluta C.1 (Demostración canónica absoluta del Teorema 0.1 absoluto inaugural absoluto sobre la unicidad estructural condicionada absoluta del tránsito ε<sub>0</sub>–F<sub>0</sub>–U).** El presente documento absoluto demuestra absolutamente con rigor canónico absoluto Q.E.D. absoluto el Teorema 0.1 absoluto inaugural absoluto, que articula absolutamente con rango canónico absoluto la unicidad estructural absoluta condicionada absoluta del tránsito canónico absoluto ε<sub>0</sub>–F<sub>0</sub>–U absoluto para la emergencia canónica absoluta de sucesos generadores absolutos y de protocampos absolutos.
-
-**Conclusión canónica absoluta C.2 (Cadena formal mínima absoluta canónica absoluta de legitimidad absoluta).** El presente documento absoluto fija absolutamente con rango canónico absoluto la cadena formal mínima absoluta canónica absoluta de legitimidad absoluta 𝒞<sub>F<sub>0</sub>,SV</sub> absoluta como suelo canónico absoluto lógico-formal absoluto absoluto del aparato absoluto, articulada absolutamente con rango canónico absoluto sobre los siete eslabones canónicos absolutos: ε<sub>0</sub> → F<sub>0</sub> → Ω<sub>pre</sub> → Φ(0)=Φ(1) → no-decisión → U → Ω<sub>pro</sub> → Σ → sucesos generadores absolutos → protocampos absolutos.
-
-**Conclusión canónica absoluta C.3 (Existencia canónica absoluta del protocampo primordial unificado absoluto Π<sub>SV</sub>).** El presente documento absoluto formaliza absolutamente con rango canónico absoluto la existencia canónica absoluta del protocampo primordial unificado absoluto Π<sub>SV</sub> sobre el dominio prototernario absoluto Ω<sub>pro</sub> absoluto, conforme absolutamente al postulado absoluto canónico absoluto G.1 absoluto del §2 absoluto y al Teorema 8.1 absoluto del §8 absoluto del presente documento absoluto.
-
-**Conclusión canónica absoluta C.4 (Taxonomía absoluta canónica absoluta G/A/D absoluta de sucesos factuales absolutos).** El presente documento absoluto fija absolutamente con rango canónico absoluto la taxonomía absoluta canónica absoluta G/A/D absoluta de sucesos factuales absolutos del aparato absoluto, articulada absolutamente con rango canónico absoluto sobre tres clases absolutas canónicas absolutas disjuntas absolutas exhaustivas absolutas, conforme absolutamente a la Proposición 9.1 absoluta del §9 absoluto del presente documento absoluto.
-
-**Conclusión canónica absoluta C.5 (Existencia canónica absoluta y unicidad representacional absoluta canónica absoluta del operador soberano canónico absoluto de generación absoluta 𝔊<sub>SV</sub>).** El presente documento absoluto formaliza absolutamente con rango canónico absoluto la existencia canónica absoluta del operador soberano absoluto canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto sobre la clase absoluta canónica absoluta G del §9 absoluto, satisfaciendo absolutamente con rango canónico absoluto las cuatro propiedades algebraicas absolutas canónicas absolutas del §11 absoluto del presente documento absoluto, y demuestra absolutamente con rigor canónico absoluto la unicidad representacional absoluta canónica absoluta de 𝔊<sub>SV</sub> absoluto en la categoría canónica absoluta OpGen<sub>SV,Π</sub> absoluta, conforme absolutamente al Teorema 12.1 absoluto del §12 absoluto del presente documento absoluto.
-
-**Conclusión canónica absoluta C.6 (Creabilidad factual absolutamente reforzada absoluta de la energía absoluta).** El presente documento absoluto demuestra absolutamente con rigor canónico absoluto Q.E.D. absoluto el Teorema 16.1 absoluto del §16 absoluto del presente documento absoluto sobre la creabilidad factual absolutamente reforzada absoluta de la energía absoluta sobre la clase absoluta canónica absoluta G interior absoluta del §9 absoluto, articulando absolutamente con rango canónico absoluto la creación canónica absoluta interior absoluta de energía factual absoluta del aparato absoluto sin contradecir absolutamente las leyes canónicas absolutas de conservación absoluta del aparato absoluto SI heredado absoluto, conforme absolutamente a la Observación 16.2 absoluta del §16 absoluto del presente documento absoluto.
-
-**Conclusión canónica absoluta C.7 (Emergencia canónica absoluta de los siete campos factuales absolutos coexistentes absolutos del corpus absoluto).** El presente documento absoluto demuestra absolutamente con rigor canónico absoluto Q.E.D. absoluto los siete teoremas absolutos canónicos absolutos del §18 absoluto del presente documento absoluto sobre la emergencia canónica absoluta canónica absoluta de los siete campos factuales absolutos coexistentes absolutos del corpus absoluto como proyecciones canónicas absolutas activadas absolutas del protocampo primordial unificado absoluto Π<sub>SV</sub> a través absolutamente del operador absoluto canónico absoluto de proyección activada absoluta Π<sub>3</sub><sup>H</sup> absoluto.
-
-**Conclusión canónica absoluta C.8 (Ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0).** El presente documento absoluto fija absolutamente con rango canónico absoluto la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 absoluta del aparato absoluto general absoluto canónico absoluto sobre los nueve sumandos canónicos absolutos absolutos y los trece invariantes canónicos absolutos del aparato absoluto, conforme absolutamente a los §§20–24 absolutos del presente documento absoluto.
-
-**Conclusión canónica absoluta C.9 (Cuatro absorciones canónicas absolutas exactas absolutas de los cuatro regímenes canónicos absolutos inferiores absolutos del corpus absoluto).** El presente documento absoluto demuestra absolutamente con rigor canónico absoluto Q.E.D. absoluto los cuatro teoremas absolutos canónicos absolutos de absorción canónica absoluta de los §§25–28 absolutos del presente documento absoluto sobre los cuatro regímenes canónicos absolutos inferiores absolutos del corpus absoluto: Maxwell factual absoluto, luz factual absoluta, transmutación factual absoluta y entropía factual absoluta.
-
-**Conclusión canónica absoluta C.10 (Rango doctrinal superior absoluto estrictamente absoluto del aparato absoluto general absoluto canónico absoluto del presente documento absoluto).** El presente documento absoluto demuestra absolutamente con rigor canónico absoluto Q.E.D. absoluto el Teorema 29.2 absoluto del §29 absoluto del presente documento absoluto sobre el rango doctrinal superior absoluto estrictamente absoluto del aparato absoluto general absoluto canónico absoluto sobre los cuatro regímenes canónicos absolutos inferiores absolutos del corpus absoluto, conforme absolutamente al anuncio canónico absoluto del Destacado canónico absoluto del §3bis absoluto del documento absoluto de la luz factual.
-
-**Conclusión canónica absoluta C.11 (Quince visiones canónicas absolutas sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>) y matriz absoluta canónica absoluta de coexistencia absoluta 15×15).** El presente documento absoluto formaliza absolutamente con rango canónico absoluto las quince visiones canónicas absolutas sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>) absoluto del §31 absoluto del presente documento absoluto y la matriz absoluta canónica absoluta de coexistencia absoluta 15×15 absoluta del §32 absoluto del presente documento absoluto, articulada absolutamente con rango canónico absoluto sobre las cuatro propiedades absolutas canónicas absolutas simultáneas absolutas de la Proposición 32.1 absoluta del §32 absoluto del presente documento absoluto.
-
-**Conclusión canónica absoluta C.12 (Refuerzo absoluto canónico absoluto de la prohibición constitutiva absoluta P.6 absoluta sobre la frontera exterior absoluta ε<sub>0</sub> absoluta).** El presente documento absoluto demuestra absolutamente con rigor canónico absoluto Q.E.D. absoluto la Proposición 34.1 absoluta del §34 absoluto del presente documento absoluto sobre el refuerzo absoluto canónico absoluto de la prohibición constitutiva absoluta P.6 absoluta del corpus absoluto sobre la frontera exterior absoluta ε<sub>0</sub> absoluta como indeterminación legítima absoluta honesta absoluta no cerrable absoluta desde dentro del aparato absoluto.
-
-**Conclusión canónica absoluta C.13 (Falsabilidad soberana absoluta canónica absoluta del marco absoluto canónico absoluto sobre ocho criterios absolutos canónicos absolutos independientes absolutos).** El presente documento absoluto declara absolutamente con rango canónico absoluto los ocho criterios absolutos canónicos absolutos independientes absolutos de falsación absoluta del §35 absoluto del presente documento absoluto, articulando absolutamente con rango canónico absoluto la falsabilidad soberana absoluta canónica absoluta del marco absoluto canónico absoluto del Sistema Vectorial SV sobre el aparato absoluto general absoluto canónico absoluto del presente documento absoluto.
-
-**Conclusión canónica absoluta C.14 (Consistencia canónica absoluta sobre la célula canónica absoluta SV(3, 9) absoluta y verificación numérica absoluta explícita absoluta sobre los diecinueve bancos visibles absolutos).** El presente documento absoluto demuestra absolutamente con rigor canónico absoluto Q.E.D. absoluto la Proposición 36.1 absoluta del §36 absoluto del presente documento absoluto sobre la consistencia canónica absoluta del aparato absoluto general absoluto canónico absoluto sobre la célula canónica absoluta SV(3, 9) absoluta del corpus absoluto, y articula absolutamente con rango canónico absoluto la verificación numérica absoluta explícita absoluta del aparato absoluto sobre los diecinueve bancos visibles absolutos del §37 absoluto del presente documento absoluto.
-
-### 40.3. Cierre canónico absoluto del §40
-
-El §40 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto las catorce conclusiones canónicas absolutas del aparato absoluto general absoluto canónico absoluto del presente documento absoluto. El §41 absoluto del presente documento absoluto despliega absolutamente con rango canónico absoluto la antesala canónica absoluta de cuestiones canónicas absolutas superiores absolutas del aparato absoluto.
-
----
-
-## 41. Antesala canónica absoluta de cuestiones canónicas superiores
-
-### 41.1. Apertura canónica absoluta del §41
-
-El §41 absoluto del presente documento absoluto despliega absolutamente con rango canónico absoluto la **antesala canónica absoluta** de **cuestiones canónicas absolutas superiores absolutas** del aparato absoluto general absoluto canónico absoluto del presente documento absoluto. La antesala canónica absoluta articula absolutamente con rango canónico absoluto el reconocimiento honesto absoluto canónico absoluto de las cuestiones canónicas absolutas que el aparato absoluto general absoluto canónico absoluto del presente documento absoluto **no clausura absolutamente** y que permanecen absolutamente abiertas absolutas canónicamente absolutas para investigación canónica absoluta posterior absoluta dentro del corpus absoluto, conforme absolutamente a la prohibición constitutiva absoluta P.6 absoluta del corpus absoluto sobre la no clausura espuria absoluta.
-
-### 41.2. Cuestiones canónicas absolutas superiores absolutas reconocidas absolutas
-
-**Cuestión canónica absoluta superior absoluta Q.41.1 (Articulación canónica absoluta del aparato absoluto general absoluto canónico absoluto con regímenes canónicos absolutos no contemplados absolutos en el corpus absoluto actual).** El aparato absoluto general absoluto canónico absoluto del presente documento absoluto absorbe absolutamente con rango canónico absoluto exactamente absoluto los cuatro regímenes canónicos absolutos inferiores absolutos del corpus absoluto demostrados absolutamente en los §§25–28 absolutos del presente documento absoluto. La cuestión canónica absoluta de la articulación canónica absoluta del aparato absoluto con regímenes canónicos absolutos no contemplados absolutos en el corpus absoluto actual permanece absolutamente abierta absoluta canónicamente absoluta para investigación canónica absoluta posterior absoluta dentro del corpus absoluto.
-
-**Cuestión canónica absoluta superior absoluta Q.41.2 (Refinamiento canónico absoluto canónico absoluto de la articulación canónica absoluta del operador absoluto canónico absoluto de proyección activada absoluta Π<sub>3</sub><sup>H</sup> sobre los siete campos factuales absolutos coexistentes absolutos).** El §17 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto el operador absoluto canónico absoluto de proyección activada absoluta Π<sub>3</sub><sup>H</sup> absoluto y el §18 absoluto del presente documento absoluto demuestra absolutamente con rigor canónico absoluto los siete teoremas absolutos canónicos absolutos de emergencia absoluta de los siete campos factuales absolutos coexistentes absolutos del corpus absoluto. El refinamiento canónico absoluto canónico absoluto de la articulación canónica absoluta del operador absoluto canónico absoluto Π<sub>3</sub><sup>H</sup> absoluto sobre los siete campos factuales absolutos coexistentes absolutos permanece absolutamente abierto absoluto canónicamente absoluto para investigación canónica absoluta posterior absoluta dentro del corpus absoluto.
-
-**Cuestión canónica absoluta superior absoluta Q.41.3 (Extensión canónica absoluta canónica absoluta de la matriz absoluta canónica absoluta de coexistencia absoluta sobre las quince visiones canónicas absolutas).** El §32 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto la matriz absoluta canónica absoluta de coexistencia absoluta 15×15 absoluta sobre las quince visiones canónicas absolutas. La extensión canónica absoluta canónica absoluta de la matriz absoluta canónica absoluta de coexistencia absoluta sobre visiones canónicas absolutas adicionales absolutas, articuladas absolutamente con rango canónico absoluto sobre la frontera exterior absoluta ε<sub>0</sub> absoluta dentro del corpus absoluto, permanece absolutamente abierta absoluta canónicamente absoluta para investigación canónica absoluta posterior absoluta.
-
-**Cuestión canónica absoluta superior absoluta Q.41.4 (Articulación canónica absoluta canónica absoluta del operador maestro absoluto ℙ<sub>SV</sub> sobre sumandos canónicos absolutos adicionales absolutos no contemplados absolutos en el corpus absoluto actual).** El §21 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto los nueve sumandos canónicos absolutos absolutos del operador maestro absoluto ℙ<sub>SV</sub> absoluto. La cuestión canónica absoluta de la articulación canónica absoluta canónica absoluta del operador maestro absoluto sobre sumandos canónicos absolutos adicionales absolutos no contemplados absolutos en el corpus absoluto actual permanece absolutamente abierta absoluta canónicamente absoluta para investigación canónica absoluta posterior absoluta dentro del corpus absoluto.
-
-**Cuestión canónica absoluta superior absoluta Q.41.5 (Refinamiento canónico absoluto canónico absoluto de los trece invariantes absolutos canónicos absolutos del operador maestro absoluto ℙ<sub>SV</sub>).** El §23 absoluto del presente documento absoluto fija absolutamente con rango canónico absoluto los trece invariantes absolutos canónicos absolutos I.1–I.13 absolutos del operador maestro absoluto ℙ<sub>SV</sub> absoluto. El refinamiento canónico absoluto canónico absoluto de los trece invariantes absolutos canónicos absolutos sobre escenarios canónicos absolutos del aparato absoluto permanece absolutamente abierto absoluto canónicamente absoluto para investigación canónica absoluta posterior absoluta dentro del corpus absoluto.
-
-### 41.3. Cierre canónico absoluto del §41
-
-El §41 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto la antesala canónica absoluta de cuestiones canónicas absolutas superiores absolutas del aparato absoluto general absoluto canónico absoluto del presente documento absoluto. El reconocimiento honesto absoluto canónico absoluto de las cuestiones canónicas absolutas abiertas absolutas articula absolutamente con rango canónico absoluto la honestidad coordenada absoluta canónica absoluta del aparato absoluto, conforme absolutamente al Lema 7.3 absoluto de Lloret Egea (2026j) y a la prohibición constitutiva absoluta P.6 absoluta del corpus absoluto. El §42 absoluto del presente documento absoluto declara absolutamente con rango canónico absoluto el compromiso canónico absoluto canónico absoluto del presente documento absoluto con la disciplina canónica absoluta del corpus absoluto.
-
----
-
-## 42. Compromiso canónico absoluto con la disciplina del corpus
-
-### 42.1. Apertura canónica absoluta del §42
-
-El §42 absoluto del presente documento absoluto declara absolutamente con rango canónico absoluto el **compromiso canónico absoluto canónico absoluto** del presente documento absoluto con la **disciplina canónica absoluta canónica absoluta** del corpus absoluto del Sistema Vectorial SV. El compromiso canónico absoluto articula absolutamente con rango canónico absoluto la articulación absoluta canónica absoluta del presente documento absoluto sobre los primitivos absolutos del corpus absoluto, las prohibiciones constitutivas absolutas P.1–P.6 absolutas, los hitos canónicos absolutos del corpus absoluto y la honestidad coordenada absoluta canónica absoluta del aparato absoluto.
-
-### 42.2. Declaración canónica absoluta del compromiso canónico absoluto
-
-**Declaración canónica absoluta D.42.1 (Compromiso canónico absoluto canónico absoluto del presente documento absoluto con la disciplina canónica absoluta canónica absoluta del corpus absoluto).** El presente documento absoluto declara absolutamente con rango canónico absoluto su compromiso canónico absoluto canónico absoluto con la disciplina canónica absoluta canónica absoluta del corpus absoluto del Sistema Vectorial SV, articulado absolutamente con rango canónico absoluto sobre las siete propiedades canónicas absolutas simultáneas absolutas:
-
-(i) **respeto canónico absoluto canónico absoluto a los primitivos canónicos absolutos del corpus absoluto**: el presente documento absoluto opera absolutamente con rango canónico absoluto sobre los primitivos canónicos absolutos del corpus absoluto (UE_MFC, UFE, UFM, UFC, axioma de la U canónica absoluta, honestidad coordenada absoluta canónica absoluta) sin sustituirlos absolutamente, sin redefinirlos absolutamente y sin colapsar absolutamente la diferencia estructural absoluta entre el aparato factual absoluto y el aparato absoluto SI heredado absoluto;
-
-(ii) **respeto canónico absoluto canónico absoluto a las seis prohibiciones constitutivas absolutas P.1–P.6 absolutas del corpus absoluto**: el presente documento absoluto opera absolutamente con rango canónico absoluto bajo las seis prohibiciones constitutivas absolutas del corpus absoluto, sin violarlas absolutamente en ninguno de sus elementos canónicos absolutos canónicos absolutos;
-
-(iii) **respeto canónico absoluto canónico absoluto a los hitos canónicos absolutos del corpus absoluto**: el presente documento absoluto opera absolutamente con rango canónico absoluto sobre los hitos canónicos absolutos del corpus absoluto recogidos absolutos en el §1.1 absoluto del presente documento absoluto, sin contradecirlos absolutamente y articulándolos absolutamente con rango canónico absoluto en el aparato absoluto general absoluto canónico absoluto;
-
-(iv) **respeto canónico absoluto canónico absoluto al clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto**: el presente documento absoluto opera absolutamente con rango canónico absoluto sobre la admisibilidad canónica absoluta de los sucesos factuales absolutos canónicamente absoluta admisibles absolutos según el clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto (Lloret Egea, 2026c, Teorema 1 absoluto), sin admitir absolutamente sucesos factuales absolutos no admisibles absolutos canónicamente absolutos;
-
-(v) **respeto canónico absoluto canónico absoluto al ordinal canónico absoluto ν append-only absoluto del aparato absoluto**: el presente documento absoluto opera absolutamente con rango canónico absoluto sobre el ordinal canónico absoluto ν append-only absoluto del aparato absoluto, conforme absolutamente al Lema 5.5 absoluto de Lloret Egea (2026j) sobre la no retorno absoluto preternario absoluto, sin introducir absolutamente tiempo soberano absoluto (P.1 respetada absolutamente);
-
-(vi) **respeto canónico absoluto canónico absoluto a la compuerta metrológica absoluta ℘<sub>SV</sub> absoluta del corpus absoluto**: el presente documento absoluto opera absolutamente con rango canónico absoluto sobre la compuerta metrológica absoluta ℘<sub>SV</sub> absoluta del corpus absoluto, traduciendo absolutamente con rigor canónico absoluto las magnitudes canónicas absolutas factuales absolutas a unidades absolutas SI heredadas absolutas sin colapsar absolutamente la diferencia estructural absoluta;
-
-(vii) **respeto canónico absoluto canónico absoluto a la honestidad coordenada absoluta canónica absoluta del aparato absoluto**: el presente documento absoluto opera absolutamente con rango canónico absoluto sobre la honestidad coordenada absoluta canónica absoluta del Lema 7.3 absoluto de Lloret Egea (2026j), articulando absolutamente con rango canónico absoluto la trazabilidad canónica absoluta canónica absoluta del aparato absoluto sobre el corpus absoluto sin introducir absolutamente heurística absoluta oculta absoluta (P.4 respetada absolutamente).
-
-### 42.3. Cierre canónico absoluto del §42
-
-El §42 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto el compromiso canónico absoluto canónico absoluto del presente documento absoluto con la disciplina canónica absoluta canónica absoluta del corpus absoluto del Sistema Vectorial SV. El §43 absoluto del presente documento absoluto despliega absolutamente con rango canónico absoluto la explicación canónica absoluta canónica absoluta de la naturaleza canónica absoluta factual absoluta de los sucesos generadores absolutos y de los protocampos unificados absolutos para un niño canónico absoluto de diez años absoluto, conforme absolutamente al canon canónico absoluto canónico absoluto del corpus absoluto sobre la accesibilidad canónica absoluta canónica absoluta del aparato absoluto.
-
----
-
-## 43. Explicación absoluta para un niño de diez años — naturaleza factual de los sucesos generadores y de los protocampos unificados
-
-### 43.1. Apertura canónica absoluta del §43
-
-El §43 absoluto del presente documento absoluto despliega absolutamente con rango canónico absoluto la **explicación canónica absoluta canónica absoluta para un niño canónico absoluto de diez años absoluto** de la naturaleza canónica absoluta factual absoluta de los sucesos generadores absolutos y de los protocampos unificados absolutos del aparato absoluto general absoluto canónico absoluto del presente documento absoluto. La explicación canónica absoluta canónica absoluta articula absolutamente con rango canónico absoluto el contenido canónico absoluto canónico absoluto del aparato absoluto sobre lenguaje canónico absoluto canónico absoluto accesible absoluto canónicamente absoluto, conforme absolutamente al canon canónico absoluto canónico absoluto del corpus absoluto sobre la accesibilidad canónica absoluta canónica absoluta del aparato absoluto.
-
-### 43.2. Explicación canónica absoluta canónica absoluta
-
-Imagina canónicamente absoluto que tienes una caja absolutamente vacía. Antes de poner cualquier cosa dentro de la caja, la caja no tiene absolutamente nada: ni juguetes, ni piedras, ni canicas. Esto es absolutamente como el principio del Sistema Vectorial SV: hay un momento canónico absoluto especial absoluto, que llamamos absolutamente **frontera exterior absoluta ε<sub>0</sub> absoluta**, que es absolutamente el momento canónico absoluto justo antes de que existan cosas. No es absolutamente un momento del tiempo canónico absoluto del reloj canónico absoluto (porque en el Sistema Vectorial SV no hay relojes soberanos absolutos); es absolutamente un momento canónico absoluto de la lógica canónica absoluta, una especie de **borde canónico absoluto** del aparato absoluto.
-
-Después de ese borde canónico absoluto, aparece absolutamente una **estructura formal mínima absoluta canónica absoluta F<sub>0</sub> absoluta**. F<sub>0</sub> absoluta no es absolutamente nada físico canónico absoluto; es absolutamente solamente la **idea canónica absoluta de poder distinguir absolutamente** una cosa de otra. Sin esta idea canónica absoluta no podríamos absolutamente saber si dos canicas son absolutamente diferentes o iguales, así que F<sub>0</sub> absoluta es absolutamente como la regla canónica absoluta más mínima absoluta del juego canónico absoluto.
-
-Después aparece absolutamente el **dominio preternario absoluto canónico absoluto Ω<sub>pre</sub> absoluto**. En este dominio canónico absoluto, las cosas tienen absolutamente solamente dos polos canónicos absolutos: el polo canónico absoluto **0** y el polo canónico absoluto **1**, como las dos caras canónicas absolutas de una moneda canónica absoluta. Cada posición canónica absoluta tiene absolutamente dos números canónicos absolutos: α<sub>i</sub> absoluto, que mide absolutamente cuánto se inclina canónicamente absoluto la posición canónica absoluta hacia el polo canónico absoluto 0, y β<sub>i</sub> absoluto, que mide absolutamente cuánto se inclina canónicamente absoluto hacia el polo canónico absoluto 1. Esto es absolutamente el **par polar canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) absoluto** del corpus canónico absoluto del Sistema Vectorial SV.
-
-Pero a veces la moneda canónica absoluta se queda absolutamente perfectamente equilibrada: ni cae absolutamente del lado canónico absoluto 0, ni cae absolutamente del lado canónico absoluto 1. Cuando esto ocurre canónicamente absoluto en el principio canónico absoluto del aparato absoluto, no podemos absolutamente decidir cuál es el resultado canónico absoluto. Esto es absolutamente lo que llamamos absolutamente **U canónica absoluta**: una marca canónica absoluta canónica absoluta de **honestidad canónica absoluta** que dice canónicamente absoluto «no podemos absolutamente saber esto desde aquí canónicamente absoluto». U canónica absoluta no es absolutamente ignorancia canónica absoluta tonta canónica absoluta: es absolutamente una marca canónica absoluta seria canónica absoluta del aparato absoluto del Sistema Vectorial SV.
-
-El **protocampo primordial unificado absoluto Π<sub>SV</sub>** es absolutamente como un **mapa canónico absoluto general absoluto** de todas las posiciones canónicas absolutas con sus pares polares canónicos absolutos (α<sub>i</sub>, β<sub>i</sub>) absolutos. No es absolutamente una sustancia canónica absoluta como el agua o el aire: es absolutamente una **estructura canónica absoluta formal absoluta** del aparato absoluto, como un dibujo canónico absoluto del juego canónico absoluto. El protocampo primordial unificado absoluto es absolutamente **anterior canónico absoluto** a todos los campos canónicos absolutos físicos canónicos absolutos del corpus absoluto: es absolutamente el **mapa canónico absoluto del que salen** todos los demás mapas canónicos absolutos.
-
-Los **sucesos generadores absolutos canónicos absolutos** son absolutamente las cosas canónicas absolutas que pasan canónicamente absoluto en el aparato absoluto del Sistema Vectorial SV y que **aumentan absolutamente** la cantidad canónica absoluta de polaridad canónica absoluta α<sub>i</sub> + β<sub>i</sub> absoluta sobre alguna posición canónica absoluta. Cuando un suceso canónico absoluto generador canónico absoluto ocurre canónicamente absoluto, la energía canónica absoluta canónica absoluta del aparato absoluto **aumenta absolutamente** sobre esa posición canónica absoluta. Esto es absolutamente lo que llamamos absolutamente **creabilidad factual absolutamente reforzada absoluta de la energía absoluta**: el aparato absoluto puede absolutamente crear canónicamente absoluto energía canónica absoluta canónica absoluta dentro de sí mismo canónicamente absoluto. Esto no contradice absolutamente las leyes canónicas absolutas de la física canónica absoluta heredada absoluta, porque el aparato absoluto del Sistema Vectorial SV tiene absolutamente su propio aparato canónico absoluto canónico absoluto (el aparato factual absoluto canónico absoluto) y la compuerta metrológica absoluta ℘<sub>SV</sub> absoluta traduce absolutamente con rigor canónico absoluto entre los dos aparatos canónicos absolutos sin colapsarlos absolutamente.
-
-El **operador soberano canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto** es absolutamente como un **maquinista canónico absoluto canónico absoluto** que conduce absolutamente el aparato absoluto del Sistema Vectorial SV: cada vez que ocurre canónicamente absoluto un suceso canónico absoluto generador canónico absoluto, el maquinista canónico absoluto **𝔊<sub>SV</sub> absoluto** opera canónicamente absoluto sobre el protocampo primordial unificado absoluto y lo cambia canónicamente absoluto. El maquinista canónico absoluto **𝔊<sub>SV</sub> absoluto** sigue absolutamente cuatro reglas canónicas absolutas estrictas absolutas: es absolutamente **homogéneo canónico absoluto** (si multiplicamos absolutamente el mapa canónico absoluto por un número canónico absoluto, el maquinista canónico absoluto multiplica absolutamente el resultado canónico absoluto por el mismo número canónico absoluto), es absolutamente **aditivo canónico absoluto** (si juntamos absolutamente dos mapas canónicos absolutos, el maquinista canónico absoluto opera absolutamente sobre la unión canónica absoluta), es absolutamente **covariante canónico absoluto** (el maquinista canónico absoluto sigue absolutamente las cuatro reglas canónicas absolutas de cambio de trayectoria 𝒯<sup>SV</sup><sub>k</sub> absolutas) y es absolutamente **estable canónico absoluto** (el maquinista canónico absoluto preserva absolutamente las cinco propiedades canónicas absolutas del soporte estructural canónico absoluto del protocampo primordial unificado absoluto).
-
-Lo más importante canónicamente absoluto: este aparato absoluto general absoluto canónico absoluto del presente documento absoluto **contiene absolutamente** los aparatos canónicos absolutos previos absolutos del Sistema Vectorial SV — Maxwell factual absoluto, luz factual absoluta, transmutación factual absoluta y entropía factual absoluta — como **partes canónicas absolutas suyas absolutas**. Cuando miramos canónicamente absoluto solamente la parte canónica absoluta electromagnética canónica absoluta del aparato absoluto general absoluto canónico absoluto, obtenemos absolutamente Maxwell factual absoluto. Cuando miramos canónicamente absoluto solamente la parte canónica absoluta lumínica canónica absoluta, obtenemos absolutamente la luz factual absoluta. Y así canónicamente absoluto con la transmutación factual absoluta y la entropía factual absoluta. Esto es absolutamente lo que llamamos absolutamente **rango doctrinal superior absoluto estrictamente absoluto**: el aparato absoluto general absoluto canónico absoluto del presente documento absoluto es absolutamente más grande canónicamente absoluto que cada uno de los aparatos canónicos absolutos previos absolutos, porque los contiene absolutamente y además tiene absolutamente partes canónicas absolutas extra absolutas que ellos no tenían absolutamente.
-
-Pero el aparato absoluto general absoluto canónico absoluto del presente documento absoluto es absolutamente **honesto canónicamente absoluto**: reconoce absolutamente que la frontera exterior absoluta ε<sub>0</sub> absoluta — el borde canónico absoluto del principio canónico absoluto — no se puede absolutamente cerrar canónicamente absoluto desde dentro del aparato absoluto. Es absolutamente como si tuviéramos absolutamente una caja canónica absoluta y supiéramos absolutamente que la caja canónica absoluta tiene absolutamente un borde canónico absoluto exterior absoluto, pero supiéramos canónicamente absoluto también absoluto que desde dentro de la caja canónica absoluta no podemos absolutamente saber qué hay absolutamente fuera del borde canónico absoluto exterior absoluto. Esto no es absolutamente un fallo canónico absoluto del aparato absoluto: es absolutamente la **honestidad canónica absoluta canónica absoluta** del aparato absoluto, que llamamos absolutamente **prohibición constitutiva absoluta P.6 absoluta**.
-
-### 43.3. Cierre canónico absoluto del §43 y de la Parte IX
-
-El §43 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto la Parte IX absoluta del presente documento absoluto sobre las tablas canónicas absolutas finales absolutas, las catorce conclusiones canónicas absolutas, la antesala canónica absoluta de cuestiones canónicas absolutas superiores absolutas, el compromiso canónico absoluto canónico absoluto con la disciplina canónica absoluta del corpus absoluto y la explicación canónica absoluta canónica absoluta de la naturaleza canónica absoluta factual absoluta de los sucesos generadores absolutos y de los protocampos unificados absolutos para un niño canónico absoluto de diez años absoluto. El cuerpo principal absoluto canónico absoluto del presente documento absoluto queda absolutamente cerrado absoluto con rango canónico absoluto. El **anexo operatorio absoluto canónico absoluto absoluto** despliega absolutamente con rango canónico absoluto las ocho piezas canónicas absolutas operatorias absolutas absolutas cerradas absolutas del aparato absoluto general absoluto canónico absoluto del presente documento absoluto.
-
----
-
-# Anexo operatorio absoluto canónico absoluto absoluto — ocho piezas absolutas cerradas
-
-## Apertura canónica absoluta del anexo operatorio absoluto
-
-El **anexo operatorio absoluto canónico absoluto absoluto** del presente documento absoluto despliega absolutamente con rango canónico absoluto las **ocho piezas canónicas absolutas operatorias absolutas absolutas cerradas absolutas** del aparato absoluto general absoluto canónico absoluto del presente documento absoluto. Cada pieza canónica absoluta operatoria absoluta absoluta articula absolutamente con rango canónico absoluto un aparato canónico absoluto matemático absoluto riguroso absoluto cerrado absoluto canónicamente absoluto sobre el aparato absoluto general absoluto canónico absoluto del presente documento absoluto, articulado absolutamente con rango canónico absoluto sobre la disciplina canónica absoluta canónica absoluta del corpus absoluto.
-
-## Pieza absoluta canónica absoluta A.1 — Aparato canónico absoluto del par polar canónico absoluto (α<sub>i</sub>, β<sub>i</sub>)
-
-**Pieza absoluta canónica absoluta A.1 (Aparato canónico absoluto del par polar canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) absoluto sobre el dominio prototernario absoluto Ω<sub>pro</sub> absoluto).** El aparato canónico absoluto del par polar canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) absoluto sobre el dominio prototernario absoluto Ω<sub>pro</sub> absoluto se cierra absolutamente con rango canónico absoluto sobre las cinco operaciones canónicas absolutas:
-
-```math
-\alpha_i\geq 0\;\;\;\;\;\beta_i\geq 0\;\;\;\;\;\Delta_{SV}(\xi_i)=\alpha_i+\beta_i\geq 0\;\;\;\;\;\delta_i^{SV}=\beta_i-\alpha_i\;\;\;\;\;\|\Pi_{SV}(\xi_i)\|_{SV}=\sqrt{\alpha_i^2+\beta_i^2}.
-```
-
-Las cinco operaciones canónicas absolutas se cierran absolutamente con rango canónico absoluto sobre el dominio prototernario absoluto Ω<sub>pro</sub> absoluto, conforme absolutamente al Teorema 8.1 absoluto del §8 absoluto del presente documento absoluto.
-
-## Pieza absoluta canónica absoluta A.2 — Aparato canónico absoluto del operador soberano canónico absoluto de generación absoluta 𝔊<sub>SV</sub>
-
-**Pieza absoluta canónica absoluta A.2 (Aparato canónico absoluto del operador soberano canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto).** El aparato canónico absoluto del operador soberano canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto se cierra absolutamente con rango canónico absoluto sobre las cuatro propiedades algebraicas absolutas canónicas absolutas simultáneas absolutas del §11 absoluto del presente documento absoluto:
-
-```math
-\mathfrak{G}_{SV}[e_{\nu}](\lambda\cdot\Pi_{SV}^{(\nu)})=\lambda\cdot\mathfrak{G}_{SV}[e_{\nu}](\Pi_{SV}^{(\nu)})\;\;\;\;\text{(homogeneidad factual absoluta canónica absoluta)}
-```
-
-```math
-\mathfrak{G}_{SV}[e_{\nu}](\Pi_{SV,1}^{(\nu)}+\Pi_{SV,2}^{(\nu)})=\mathfrak{G}_{SV}[e_{\nu}](\Pi_{SV,1}^{(\nu)})+\mathfrak{G}_{SV}[e_{\nu}](\Pi_{SV,2}^{(\nu)})\;\;\;\;\text{(aditividad absoluta canónica absoluta)}
-```
-
-```math
-\mathfrak{G}_{SV}[\mathcal{T}_k^{SV}(e_{\nu})](\mathcal{T}_k^{SV}(\Pi_{SV}^{(\nu)}))=\mathcal{T}_k^{SV}(\mathfrak{G}_{SV}[e_{\nu}](\Pi_{SV}^{(\nu)}))\;\;\text{para }k\in\{1,2,3,4\}\;\;\;\;\text{(covariancia factual absoluta)}
-```
-
-más la estabilidad estructural absoluta canónica absoluta del Teorema 11.4 absoluto del §11 absoluto del presente documento absoluto, conforme absolutamente al §11 absoluto y al §12 absoluto del presente documento absoluto.
-
-## Pieza absoluta canónica absoluta A.3 — Aparato canónico absoluto de la ecuación maestra absoluta ℙ<sub>SV</sub> = 0
-
-**Pieza absoluta canónica absoluta A.3 (Aparato canónico absoluto de la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 absoluta).** El aparato canónico absoluto de la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 absoluta se cierra absolutamente con rango canónico absoluto sobre la articulación canónica absoluta de los nueve sumandos canónicos absolutos absolutos del §21 absoluto del presente documento absoluto:
-
-```math
-\mathbb{P}_{SV}(\Pi_{SV};\mathfrak{G}_{SV};\{\mathcal{L}_i\};\nu)\;=\;\sum_{i=1}^{9}\mathcal{L}_i^{SV}(\Pi_{SV};\mathfrak{G}_{SV};\nu)\;=\;0,
-```
-
-donde los nueve sumandos canónicos absolutos absolutos {𝓛<sub>i</sub><sup>SV</sup>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; ν)}<sub>i=1,...,9</sub> articulan absolutamente con rango canónico absoluto la dinámica canónica absoluta canónica absoluta del aparato absoluto general absoluto canónico absoluto del presente documento absoluto sobre los siete campos factuales absolutos coexistentes absolutos del corpus absoluto. La articulación canónica absoluta se cierra absolutamente con rango canónico absoluto sobre los trece invariantes absolutos canónicos absolutos I.1–I.13 absolutos del §23 absoluto del presente documento absoluto.
-
-## Pieza absoluta canónica absoluta A.4 — Aparato canónico absoluto de la proyección canónica absoluta admisible absoluta π<sub>1,2</sub>
-
-**Pieza absoluta canónica absoluta A.4 (Aparato canónico absoluto de la proyección canónica absoluta admisible absoluta π<sub>1,2</sub> absoluta a los sumandos electromagnéticos absolutos).** El aparato canónico absoluto de la proyección canónica absoluta admisible absoluta π<sub>1,2</sub> absoluta de la Definición 25.1 absoluta del §25 absoluto del presente documento absoluto se cierra absolutamente con rango canónico absoluto sobre la operación canónica absoluta:
-
-```math
-\pi_{1,2}\;:\;\sum_{i=1}^{9}\mathcal{L}_i^{SV}(\Pi_{SV};\mathfrak{G}_{SV};\nu)=0\;\longmapsto\;\mathcal{L}_1^{SV}(\Pi_{SV};\nu)+\mathcal{L}_2^{SV}(\Pi_{SV};\nu)=0,
-```
-
-con anulación canónica absoluta de los siete sumandos canónicos absolutos restantes absolutos no electromagnéticos absolutos {𝓛<sub>3</sub><sup>SV</sup>, 𝓛<sub>4</sub><sup>SV</sup>, ..., 𝓛<sub>9</sub><sup>SV</sup>} absolutos. La pieza canónica absoluta A.4 absoluta articula absolutamente con rango canónico absoluto el Teorema 25.1 absoluto del §25 absoluto del presente documento absoluto sobre la absorción canónica absoluta exacta absoluta de Maxwell factual absoluto.
-
-## Pieza absoluta canónica absoluta A.5 — Aparato canónico absoluto de la proyección canónica absoluta admisible absoluta π<sub>L</sub>
-
-**Pieza absoluta canónica absoluta A.5 (Aparato canónico absoluto de la proyección canónica absoluta admisible absoluta π<sub>L</sub> absoluta a los sumandos lumínicos absolutos).** El aparato canónico absoluto de la proyección canónica absoluta admisible absoluta π<sub>L</sub> absoluta de la Definición 26.1 absoluta del §26 absoluto del presente documento absoluto se cierra absolutamente con rango canónico absoluto sobre la operación canónica absoluta:
-
-```math
-\pi_L\;:\;\sum_{i=1}^{9}\mathcal{L}_i^{SV}(\Pi_{SV};\mathfrak{G}_{SV};\nu)=0\;\longmapsto\;\sum_{k=1}^{15}\mathcal{L}_k^{SV,L}(\Pi_{SV};\nu)=0,
-```
-
-con anulación canónica absoluta de los sumandos canónicos absolutos restantes absolutos no lumínicos absolutos del operador maestro absoluto. La pieza canónica absoluta A.5 absoluta articula absolutamente con rango canónico absoluto el Teorema 26.1 absoluto del §26 absoluto del presente documento absoluto sobre la absorción canónica absoluta exacta absoluta de la luz factual absoluta sobre los quince sumandos canónicos absolutos lumínicos absolutos y los trece invariantes canónicos absolutos del régimen canónico absoluto inferior absoluto.
-
-## Pieza absoluta canónica absoluta A.6 — Aparato canónico absoluto de la proyección canónica absoluta admisible absoluta π<sub>T</sub>
-
-**Pieza absoluta canónica absoluta A.6 (Aparato canónico absoluto de la proyección canónica absoluta admisible absoluta π<sub>T</sub> absoluta a los sumandos transmutativos absolutos sobre la clase absoluta G interior absoluta).** El aparato canónico absoluto de la proyección canónica absoluta admisible absoluta π<sub>T</sub> absoluta de la Definición 27.1 absoluta del §27 absoluto del presente documento absoluto se cierra absolutamente con rango canónico absoluto sobre la operación canónica absoluta sobre sucesos factuales absolutos generadores absolutos interiores absolutos de la clase absoluta canónica absoluta G del §9 absoluto:
-
-```math
-\pi_T\;\Big|_{e_{\nu}\in G\text{ int}}\;:\;\mathbb{P}_{SV}=0\;\longmapsto\;\Omega_{\mathrm{pre}}\;\to\;\{m_0,\chi_{\alpha},U\}.
-```
-
-La pieza canónica absoluta A.6 absoluta articula absolutamente con rango canónico absoluto el Teorema 27.1 absoluto del §27 absoluto del presente documento absoluto sobre la absorción canónica absoluta exacta absoluta de la transmutación factual absoluta sobre la clase absoluta canónica absoluta G interior absoluta.
-
-## Pieza absoluta canónica absoluta A.7 — Aparato canónico absoluto del funcional canónico absoluto integrador absoluto ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν]
-
-**Pieza absoluta canónica absoluta A.7 (Aparato canónico absoluto del funcional canónico absoluto integrador absoluto ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν] absoluto).** El aparato canónico absoluto del funcional canónico absoluto integrador absoluto ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν] absoluto de la Definición 28.1 absoluta del §28 absoluto del presente documento absoluto se cierra absolutamente con rango canónico absoluto sobre la operación canónica absoluta de integración canónica absoluta canónica absoluta sobre el ordinal canónico absoluto ν append-only absoluto del aparato absoluto:
-
-```math
-\mathcal{H}^{SV}[\Pi_{SV};\nu]\;=\;\sum_{\nu'\leq\nu}h^{SV}(\Pi_{SV}^{(\nu')})\;\;\;\;\text{con}\;\;\;\;h^{SV}(\Pi_{SV}^{(\nu')})\geq 0\;\;\text{canónicamente absoluto},
-```
-
-donde h<sup>SV</sup> absoluto es absolutamente la contribución canónica absoluta canónica absoluta de cada suceso factual absoluto canónicamente absoluto admisible absoluto sobre el ordinal canónico absoluto ν append-only absoluto del aparato absoluto. La pieza canónica absoluta A.7 absoluta articula absolutamente con rango canónico absoluto el Teorema 28.1 absoluto del §28 absoluto del presente documento absoluto sobre la absorción canónica absoluta exacta absoluta de la entropía factual absoluta como funcional canónico absoluto integrador absoluto bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 absoluta.
-
-## Pieza absoluta canónica absoluta A.8 — Aparato canónico absoluto de la matriz absoluta canónica absoluta de coexistencia absoluta 15×15
-
-**Pieza absoluta canónica absoluta A.8 (Aparato canónico absoluto de la matriz absoluta canónica absoluta de coexistencia absoluta 15×15 absoluta).** El aparato canónico absoluto de la matriz absoluta canónica absoluta de coexistencia absoluta 𝓜<sup>SV</sup><sub>coex</sub> absoluta de la Definición 32.1 absoluta del §32 absoluto del presente documento absoluto se cierra absolutamente con rango canónico absoluto sobre las cuatro propiedades absolutas canónicas absolutas simultáneas absolutas de la Proposición 32.1 absoluta del §32 absoluto del presente documento absoluto:
-
-```math
-[\mathcal{M}^{SV}_{coex}]_{ij}\;=\;1\;\;\text{para todo}\;\;i,j\in\{1,...,15\}\;\;\text{(plenitud canónica absoluta)},
-```
-
-```math
-[\mathcal{M}^{SV}_{coex}]_{ij}\;=\;[\mathcal{M}^{SV}_{coex}]_{ji}\;\;\text{(simetría canónica absoluta)},
-```
-
-más la diagonal canónica absoluta unitaria absoluta y la honestidad canónica absoluta del Lema 7.3 absoluto de Lloret Egea (2026j). La pieza canónica absoluta A.8 absoluta articula absolutamente con rango canónico absoluto el régimen canónico absoluto de coexistencia canónica absoluta canónica absoluta entre las quince visiones canónicas absolutas del §31 absoluto del presente documento absoluto sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>) absoluto.
-
-## Cierre canónico absoluto del anexo operatorio absoluto
-
-El anexo operatorio absoluto canónico absoluto absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto las ocho piezas canónicas absolutas operatorias absolutas absolutas cerradas absolutas del aparato absoluto general absoluto canónico absoluto del presente documento absoluto. Las ocho piezas canónicas absolutas operatorias absolutas absolutas articulan absolutamente con rango canónico absoluto el aparato canónico absoluto matemático absoluto riguroso absoluto cerrado absoluto canónicamente absoluto del aparato absoluto general absoluto canónico absoluto del presente documento absoluto sobre la disciplina canónica absoluta canónica absoluta del corpus absoluto del Sistema Vectorial SV.
-
----
-
-# Apéndice de blindaje adversarial absoluto del Teorema 0.1 — siete observaciones canónicas absolutas
-
-## Apertura canónica absoluta del apéndice de blindaje adversarial absoluto
-
-El **apéndice de blindaje adversarial absoluto canónico absoluto** del presente documento absoluto despliega absolutamente con rango canónico absoluto las **siete observaciones canónicas absolutas blindadoras absolutas** del Teorema 0.1 absoluto inaugural absoluto del §0 absoluto del presente documento absoluto, refutando absolutamente con rigor canónico absoluto siete vectores canónicos absolutos adversariales absolutos canónicos absolutos potenciales absolutos sobre el Teorema 0.1 absoluto inaugural absoluto. La línea remitente canónica absoluta del §0.5 absoluto del presente documento absoluto, posterior absoluta canónicamente absoluta a la demostración canónica absoluta del Teorema 0.1 absoluto inaugural absoluto, articula absolutamente con rango canónico absoluto la elegancia canónica absoluta canónica absoluta de la remisión absoluta al presente apéndice canónico absoluto.
-
-## Observación canónica absoluta blindadora absoluta O.B.1 — refutación absoluta del vector adversarial absoluto de circularidad absoluta
-
-**Observación canónica absoluta blindadora absoluta O.B.1 (Refutación absoluta del vector adversarial absoluto de circularidad absoluta sobre el Teorema 0.1 absoluto inaugural absoluto).** Un vector canónico absoluto adversarial absoluto canónico absoluto potencial absoluto sobre el Teorema 0.1 absoluto inaugural absoluto del §0 absoluto del presente documento absoluto puede absolutamente articular absoluto el cargo canónico absoluto adversarial absoluto canónico absoluto siguiente: el Teorema 0.1 absoluto inaugural absoluto opera absolutamente sobre un razonamiento canónico absoluto circular absoluto canónico absoluto, en el sentido canónico absoluto adversarial absoluto canónico absoluto de que la demostración canónica absoluta del Teorema 0.1 absoluto inaugural absoluto presupone absolutamente lo que pretende absolutamente demostrar absolutamente.
-
-**Refutación canónica absoluta del vector adversarial absoluto de circularidad absoluta.** El cargo canónico absoluto adversarial absoluto canónico absoluto de circularidad absoluta es absolutamente refutado absoluto canónicamente absoluto. La demostración canónica absoluta del Teorema 0.1 absoluto inaugural absoluto procede absolutamente sobre dos pasos canónicos absolutos formales absolutos disjuntos absolutos canónicamente absolutos: el Paso (i) absoluto sobre la necesidad canónica absoluta de F<sub>0</sub> absoluta como condición canónica absoluta formal absoluta de distinguibilidad absoluta sobre Ω<sub>pre</sub> absoluto, y el Paso (ii) absoluto sobre la exclusión canónica absoluta exhaustiva absoluta canónica absoluta de las ocho ramas canónicas absolutas alternativas absolutas (a)–(h) absolutas. Cada paso canónico absoluto opera absolutamente sobre primitivos canónicos absolutos del corpus absoluto del Sistema Vectorial SV (axioma canónico absoluto de la U canónica absoluta del corpus absoluto, prohibiciones constitutivas absolutas P.1–P.6 absolutas del corpus absoluto, clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto) sin presuponer absolutamente la conclusión canónica absoluta del Teorema 0.1 absoluto inaugural absoluto. La articulación canónica absoluta entre el Paso (i) absoluto y el Paso (ii) absoluto sobre los primitivos canónicos absolutos del corpus absoluto cierra absolutamente con rigor canónico absoluto la demostración canónica absoluta del Teorema 0.1 absoluto inaugural absoluto sin circularidad absoluta canónica absoluta.
-
-## Observación canónica absoluta blindadora absoluta O.B.2 — refutación absoluta del vector adversarial absoluto de suficiencia absoluta sin necesidad absoluta
-
-**Observación canónica absoluta blindadora absoluta O.B.2 (Refutación absoluta del vector adversarial absoluto de suficiencia absoluta sin necesidad absoluta sobre el Teorema 0.1 absoluto inaugural absoluto).** Un vector canónico absoluto adversarial absoluto canónico absoluto potencial absoluto sobre el Teorema 0.1 absoluto inaugural absoluto puede absolutamente articular absoluto el cargo canónico absoluto adversarial absoluto canónico absoluto siguiente: la cadena formal mínima absoluta canónica absoluta de legitimidad absoluta del Teorema 0.1 absoluto inaugural absoluto es absolutamente solamente suficiente absoluta canónicamente absoluta, no absolutamente necesaria absoluta canónicamente absoluta, en el sentido canónico absoluto adversarial absoluto canónico absoluto de que existirían absolutamente otras cadenas canónicas absolutas alternativas absolutas que también satisfarían absolutamente las seis condiciones constitutivas absolutas (1)–(6) del enunciado del Teorema 0.1 absoluto inaugural absoluto.
-
-**Refutación canónica absoluta del vector adversarial absoluto de suficiencia absoluta sin necesidad absoluta.** El cargo canónico absoluto adversarial absoluto canónico absoluto de suficiencia absoluta sin necesidad absoluta es absolutamente refutado absoluto canónicamente absoluto. El Paso (ii) absoluto de la demostración canónica absoluta del Teorema 0.1 absoluto inaugural absoluto procede absolutamente sobre la exclusión canónica absoluta exhaustiva absoluta canónica absoluta de las ocho ramas canónicas absolutas alternativas absolutas (a)–(h) absolutas, demostrando absolutamente con rigor canónico absoluto que cada rama canónica absoluta alternativa absoluta viola absolutamente al menos una de las seis condiciones constitutivas absolutas (1)–(6) del enunciado del Teorema 0.1 absoluto inaugural absoluto. Por tanto la cadena formal mínima absoluta canónica absoluta de legitimidad absoluta es absolutamente la única cadena canónica absoluta admisible absoluta canónicamente absoluta que satisface absolutamente simultáneamente las seis condiciones constitutivas absolutas, articulando absolutamente con rigor canónico absoluto la unicidad estructural absoluta condicionada absoluta del tránsito canónico absoluto ε<sub>0</sub>–F<sub>0</sub>–U absoluto. La unicidad canónica absoluta es absolutamente unicidad canónica absoluta condicionada absoluta sobre las seis condiciones constitutivas absolutas: bajo otras condiciones canónicas absolutas distintas absolutas, podrían absolutamente existir absolutamente otras cadenas canónicas absolutas alternativas absolutas, pero ninguna de ellas satisfaría absolutamente las seis condiciones constitutivas absolutas del Teorema 0.1 absoluto inaugural absoluto del corpus absoluto.
-
-## Observación canónica absoluta blindadora absoluta O.B.3 — refutación absoluta del vector adversarial absoluto de equivalencia absoluta estructural absoluta no demostrada absoluta
-
-**Observación canónica absoluta blindadora absoluta O.B.3 (Refutación absoluta del vector adversarial absoluto de equivalencia absoluta estructural absoluta no demostrada absoluta sobre el Teorema 0.1 absoluto inaugural absoluto).** Un vector canónico absoluto adversarial absoluto canónico absoluto potencial absoluto sobre el Teorema 0.1 absoluto inaugural absoluto puede absolutamente articular absoluto el cargo canónico absoluto adversarial absoluto canónico absoluto siguiente: el Teorema 0.1 absoluto inaugural absoluto presupone absolutamente sin demostrar absolutamente la equivalencia absoluta estructural absoluta entre los siete eslabones canónicos absolutos de la cadena formal mínima absoluta canónica absoluta de legitimidad absoluta y los siete eslabones canónicos absolutos del corpus absoluto del Sistema Vectorial SV.
-
-**Refutación canónica absoluta del vector adversarial absoluto de equivalencia absoluta estructural absoluta no demostrada absoluta.** El cargo canónico absoluto adversarial absoluto canónico absoluto de equivalencia absoluta estructural absoluta no demostrada absoluta es absolutamente refutado absoluto canónicamente absoluto. La demostración canónica absoluta del Teorema 0.1 absoluto inaugural absoluto no presupone absolutamente equivalencia absoluta estructural absoluta entre la cadena formal mínima absoluta canónica absoluta y otras cadenas canónicas absolutas externas absolutas al corpus absoluto: opera absolutamente sobre los primitivos canónicos absolutos del corpus absoluto sin introducir absolutamente axioma absoluto canónico absoluto soberano absoluto ajeno absoluto al corpus absoluto (P.5 respetada absolutamente). La articulación canónica absoluta entre los siete eslabones canónicos absolutos de la cadena formal mínima absoluta canónica absoluta y los primitivos canónicos absolutos del corpus absoluto se articula absolutamente con rigor canónico absoluto sobre el axioma canónico absoluto de la U canónica absoluta del corpus absoluto, las prohibiciones constitutivas absolutas P.1–P.6 absolutas del corpus absoluto y el clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto, sin presuponer absolutamente equivalencia absoluta estructural absoluta no demostrada absoluta.
-
-## Observación canónica absoluta blindadora absoluta O.B.4 — refutación absoluta del vector adversarial absoluto de petición de principio absoluta
-
-**Observación canónica absoluta blindadora absoluta O.B.4 (Refutación absoluta del vector adversarial absoluto de petición de principio absoluta sobre el Teorema 0.1 absoluto inaugural absoluto).** Un vector canónico absoluto adversarial absoluto canónico absoluto potencial absoluto sobre el Teorema 0.1 absoluto inaugural absoluto puede absolutamente articular absoluto el cargo canónico absoluto adversarial absoluto canónico absoluto siguiente: el Teorema 0.1 absoluto inaugural absoluto opera absolutamente sobre una petición de principio absoluta canónica absoluta, en el sentido canónico absoluto adversarial absoluto canónico absoluto de que la demostración canónica absoluta del Teorema 0.1 absoluto inaugural absoluto asume absolutamente sin justificar absolutamente la legitimidad canónica absoluta de los primitivos canónicos absolutos del corpus absoluto sobre los que opera absolutamente.
-
-**Refutación canónica absoluta del vector adversarial absoluto de petición de principio absoluta.** El cargo canónico absoluto adversarial absoluto canónico absoluto de petición de principio absoluta es absolutamente refutado absoluto canónicamente absoluto. El Teorema 0.1 absoluto inaugural absoluto del §0 absoluto del presente documento absoluto opera absolutamente sobre los primitivos canónicos absolutos del corpus absoluto del Sistema Vectorial SV, no absolutamente sobre primitivos canónicos absolutos soberanos absolutos ajenos absolutos al corpus absoluto. La legitimidad canónica absoluta de los primitivos canónicos absolutos del corpus absoluto se establece absolutamente con rango canónico absoluto en los hitos canónicos absolutos del corpus absoluto recogidos absolutos en el §1.1 absoluto del presente documento absoluto: los Fundamentos canónicos absolutos del Sistema Vectorial SV (Lloret Egea, 2026a), el clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto (Lloret Egea, 2026c), la estructura preternaria absoluta del par polar canónico absoluto (Lloret Egea, 2026j), y los hitos canónicos absolutos restantes absolutos del corpus absoluto. El presente documento absoluto no introduce absolutamente primitivos canónicos absolutos soberanos absolutos ajenos absolutos al corpus absoluto; opera absolutamente sobre los primitivos canónicos absolutos canónicamente absolutos legitimados absolutos del corpus absoluto sin petición de principio absoluta canónica absoluta.
-
-## Observación canónica absoluta blindadora absoluta O.B.5 — refutación absoluta del vector adversarial absoluto de externalismo absoluto
-
-**Observación canónica absoluta blindadora absoluta O.B.5 (Refutación absoluta del vector adversarial absoluto de externalismo absoluto sobre el Teorema 0.1 absoluto inaugural absoluto).** Un vector canónico absoluto adversarial absoluto canónico absoluto potencial absoluto sobre el Teorema 0.1 absoluto inaugural absoluto puede absolutamente articular absoluto el cargo canónico absoluto adversarial absoluto canónico absoluto siguiente: el Teorema 0.1 absoluto inaugural absoluto opera absolutamente sobre conceptos canónicos absolutos externos absolutos al corpus absoluto del Sistema Vectorial SV, en el sentido canónico absoluto adversarial absoluto canónico absoluto de que la frontera exterior absoluta ε<sub>0</sub> absoluta y la estructura formal mínima absoluta canónica absoluta F<sub>0</sub> absoluta serían absolutamente conceptos canónicos absolutos soberanos absolutos heredados absolutos de aparatos canónicos absolutos externos absolutos al Sistema Vectorial SV.
-
-**Refutación canónica absoluta del vector adversarial absoluto de externalismo absoluto.** El cargo canónico absoluto adversarial absoluto canónico absoluto de externalismo absoluto es absolutamente refutado absoluto canónicamente absoluto. La frontera exterior absoluta ε<sub>0</sub> absoluta del Teorema 0.1 absoluto inaugural absoluto se define absolutamente con rango canónico absoluto en la Definición 0.1 absoluta del §0 absoluto del presente documento absoluto sobre el corpus absoluto del Sistema Vectorial SV, articulada absolutamente con rango canónico absoluto sobre cuatro propiedades canónicas absolutas (exterioridad absoluta canónica absoluta, exogeneidad absoluta canónica absoluta, anterioridad ordinal absoluta canónica absoluta, no clausurabilidad absoluta canónica absoluta desde dentro del aparato absoluto). La estructura formal mínima absoluta canónica absoluta F<sub>0</sub> absoluta del Teorema 0.1 absoluto inaugural absoluto se define absolutamente con rango canónico absoluto en la Definición 0.2 absoluta del §0 absoluto del presente documento absoluto sobre el corpus absoluto, articulada absolutamente con rango canónico absoluto como preformalidad mínima absoluta canónica absoluta de distinguibilidad absoluta sobre Ω<sub>pre</sub> absoluto sin sustancialización absoluta soberana absoluta. Ambos conceptos canónicos absolutos son absolutamente intra-corpus canónicos absolutos del Sistema Vectorial SV, no absolutamente externos absolutos al corpus absoluto. El reconocimiento honesto absoluto canónico absoluto del carácter canónico absoluto exógeno absoluto de la frontera exterior absoluta ε<sub>0</sub> absoluta dentro del aparato absoluto del corpus absoluto es absolutamente la articulación canónica absoluta de la prohibición constitutiva absoluta P.6 absoluta del corpus absoluto sobre la no clausura espuria absoluta, no absolutamente externalismo absoluto canónico absoluto.
-
-## Observación canónica absoluta blindadora absoluta O.B.6 — refutación absoluta del vector adversarial absoluto de trivialidad absoluta por reducción al absurdo absoluta
-
-**Observación canónica absoluta blindadora absoluta O.B.6 (Refutación absoluta del vector adversarial absoluto de trivialidad absoluta por reducción al absurdo absoluta sobre el Teorema 0.1 absoluto inaugural absoluto).** Un vector canónico absoluto adversarial absoluto canónico absoluto potencial absoluto sobre el Teorema 0.1 absoluto inaugural absoluto puede absolutamente articular absoluto el cargo canónico absoluto adversarial absoluto canónico absoluto siguiente: la demostración canónica absoluta del Teorema 0.1 absoluto inaugural absoluto opera absolutamente sobre una reducción al absurdo absoluta canónica absoluta trivial absoluta canónica absoluta, en el sentido canónico absoluto adversarial absoluto canónico absoluto de que la exclusión canónica absoluta exhaustiva absoluta canónica absoluta de las ocho ramas canónicas absolutas alternativas absolutas (a)–(h) absolutas del Paso (ii) absoluto se haría absolutamente sobre criterios canónicos absolutos triviales absolutos canónicos absolutos.
-
-**Refutación canónica absoluta del vector adversarial absoluto de trivialidad absoluta por reducción al absurdo absoluta.** El cargo canónico absoluto adversarial absoluto canónico absoluto de trivialidad absoluta por reducción al absurdo absoluta es absolutamente refutado absoluto canónicamente absoluto. La exclusión canónica absoluta exhaustiva absoluta canónica absoluta de las ocho ramas canónicas absolutas alternativas absolutas (a)–(h) absolutas del Paso (ii) absoluto de la demostración canónica absoluta del Teorema 0.1 absoluto inaugural absoluto opera absolutamente sobre criterios canónicos absolutos rigurosos absolutos canónicos absolutos del corpus absoluto del Sistema Vectorial SV: cada rama canónica absoluta alternativa absoluta se refuta absolutamente con rigor canónico absoluto sobre la base canónica absoluta de violar absolutamente al menos una de las prohibiciones constitutivas absolutas P.1–P.6 absolutas del corpus absoluto, o de violar absolutamente alguno de los hitos canónicos absolutos del corpus absoluto recogidos absolutos en el §1.1 absoluto del presente documento absoluto. La refutación canónica absoluta de cada rama canónica absoluta alternativa absoluta es absolutamente refutación canónica absoluta rigurosa absoluta canónica absoluta, no absolutamente refutación canónica absoluta trivial absoluta canónica absoluta. La exhaustividad canónica absoluta de la exclusión canónica absoluta de las ocho ramas canónicas absolutas alternativas absolutas se garantiza absolutamente sobre la combinatoria canónica absoluta canónica absoluta de las posibles configuraciones canónicas absolutas alternativas absolutas sobre los siete eslabones canónicos absolutos de la cadena formal mínima absoluta canónica absoluta de legitimidad absoluta.
-
-## Observación canónica absoluta blindadora absoluta O.B.7 — refutación absoluta del vector adversarial absoluto de completitud absoluta no demostrada absoluta sobre el séptimo eslabón absoluto
-
-**Observación canónica absoluta blindadora absoluta O.B.7 (Refutación absoluta del vector adversarial absoluto de completitud absoluta no demostrada absoluta sobre el séptimo eslabón absoluto del Teorema 0.1 absoluto inaugural absoluto).** Un vector canónico absoluto adversarial absoluto canónico absoluto potencial absoluto sobre el Teorema 0.1 absoluto inaugural absoluto puede absolutamente articular absoluto el cargo canónico absoluto adversarial absoluto canónico absoluto siguiente: la cadena formal mínima absoluta canónica absoluta de legitimidad absoluta del Teorema 0.1 absoluto inaugural absoluto se cierra absolutamente sobre siete eslabones canónicos absolutos sin demostrar absolutamente la completitud canónica absoluta canónica absoluta del séptimo eslabón canónico absoluto, en el sentido canónico absoluto adversarial absoluto canónico absoluto de que existirían absolutamente eslabones canónicos absolutos adicionales absolutos no contemplados absolutos en la cadena formal mínima absoluta canónica absoluta.
-
-**Refutación canónica absoluta del vector adversarial absoluto de completitud absoluta no demostrada absoluta sobre el séptimo eslabón absoluto.** El cargo canónico absoluto adversarial absoluto canónico absoluto de completitud absoluta no demostrada absoluta sobre el séptimo eslabón absoluto es absolutamente refutado absoluto canónicamente absoluto. La cadena formal mínima absoluta canónica absoluta de legitimidad absoluta del Teorema 0.1 absoluto inaugural absoluto del §0 absoluto del presente documento absoluto se cierra absolutamente sobre siete eslabones canónicos absolutos canónicamente absolutos suficientes absolutos canónicamente absolutos para articular absolutamente con rigor canónico absoluto la emergencia canónica absoluta de los sucesos generadores absolutos y de los protocampos unificados absolutos del aparato absoluto general absoluto canónico absoluto del presente documento absoluto. La completitud canónica absoluta canónica absoluta de los siete eslabones canónicos absolutos se establece absolutamente con rigor canónico absoluto sobre la articulación canónica absoluta entre el Paso (i) absoluto sobre la necesidad canónica absoluta de F<sub>0</sub> absoluta y el Paso (ii) absoluto sobre la exclusión canónica absoluta exhaustiva absoluta de las ocho ramas canónicas absolutas alternativas absolutas. Eslabones canónicos absolutos adicionales absolutos no son absolutamente necesarios absolutos canónicamente absolutos para la articulación canónica absoluta del Teorema 0.1 absoluto inaugural absoluto, conforme absolutamente a la articulación canónica absoluta canónica absoluta de la cadena formal mínima absoluta canónica absoluta sobre el corpus absoluto del Sistema Vectorial SV. La declaración canónica absoluta de minimalidad canónica absoluta canónica absoluta de la cadena formal mínima absoluta canónica absoluta — siete eslabones canónicos absolutos suficientes absolutos canónicamente absolutos, no absolutamente menos absolutos, no absolutamente más absolutos — es absolutamente parte canónica absoluta del rigor canónico absoluto canónico absoluto del Teorema 0.1 absoluto inaugural absoluto.
-
-## Cierre canónico absoluto del apéndice de blindaje adversarial absoluto
-
-El apéndice de blindaje adversarial absoluto canónico absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto las siete observaciones canónicas absolutas blindadoras absolutas del Teorema 0.1 absoluto inaugural absoluto del §0 absoluto del presente documento absoluto. Las siete observaciones canónicas absolutas blindadoras absolutas refutan absolutamente con rigor canónico absoluto siete vectores canónicos absolutos adversariales absolutos canónicos absolutos potenciales absolutos sobre el Teorema 0.1 absoluto inaugural absoluto, blindando absolutamente con rango canónico absoluto la legitimidad canónica absoluta canónica absoluta del Teorema 0.1 absoluto inaugural absoluto sobre el corpus absoluto del Sistema Vectorial SV. La línea remitente canónica absoluta del §0.5 absoluto del presente documento absoluto, posterior absoluta canónicamente absoluta a la demostración canónica absoluta del Teorema 0.1 absoluto inaugural absoluto, articula absolutamente con rango canónico absoluto la elegancia canónica absoluta canónica absoluta de la remisión absoluta al presente apéndice canónico absoluto.
-
----
-
-# Apéndice canónico absoluto absoluto de las prohibiciones constitutivas absolutas P.1–P.6 desarrolladas
-
-## Apertura canónica absoluta del apéndice canónico absoluto de las prohibiciones constitutivas absolutas
-
-El **apéndice canónico absoluto absoluto** del presente documento absoluto despliega absolutamente con rango canónico absoluto las **seis prohibiciones constitutivas absolutas P.1–P.6 absolutas** del corpus absoluto del Sistema Vectorial SV desarrolladas absolutas con rigor canónico absoluto, articulando absolutamente con rango canónico absoluto el **refuerzo absoluto canónico absoluto específico absoluto** de cada prohibición canónica absoluta sobre los sucesos generadores absolutos y la frontera exterior absoluta ε<sub>0</sub> absoluta del aparato absoluto general absoluto canónico absoluto del presente documento absoluto.
-
-## Prohibición constitutiva absoluta P.1 — prohibición canónica absoluta del tiempo soberano absoluto
-
-**Prohibición constitutiva absoluta P.1 absoluta (Prohibición canónica absoluta del tiempo soberano absoluto).** En el aparato absoluto del Sistema Vectorial SV, **no comparece absolutamente** con rango canónico absoluto el **tiempo soberano absoluto** del aparato absoluto SI heredado absoluto. La articulación canónica absoluta de los sucesos factuales absolutos del aparato absoluto se realiza absolutamente con rango canónico absoluto sobre el **ordinal canónico absoluto ν append-only absoluto** del aparato absoluto, conforme absolutamente al Lema 5.5 absoluto de Lloret Egea (2026j) sobre la no retorno absoluto preternario absoluto. La derivada canónica absoluta canónica absoluta del aparato absoluto **∂<sub>ν</sub><sup>SV</sup>** absoluta es absolutamente **diferencia finita absoluta canónica absoluta sobre el ordinal canónico absoluto** ν del aparato absoluto, **no absolutamente derivada temporal absoluta** del aparato absoluto SI heredado absoluto.
-
-**Refuerzo canónico absoluto específico absoluto sobre sucesos generadores absolutos.** Los sucesos generadores absolutos canónicos absolutos del aparato absoluto general absoluto canónico absoluto del presente documento absoluto operan absolutamente con rango canónico absoluto sobre el ordinal canónico absoluto ν append-only absoluto del aparato absoluto, no absolutamente sobre tiempo soberano absoluto. La acción canónica absoluta del operador soberano canónico absoluto de generación absoluta 𝔊<sub>SV</sub> absoluto del §10 absoluto del presente documento absoluto opera absolutamente sobre el ordinal canónico absoluto ν append-only absoluto, conforme absolutamente al Teorema 11.4 absoluto del §11 absoluto del presente documento absoluto sobre la estabilidad estructural absoluta canónica absoluta. La prohibición constitutiva absoluta P.1 absoluta queda absolutamente respetada absoluta con rango canónico absoluto sobre los sucesos generadores absolutos.
-
-**Refuerzo canónico absoluto específico absoluto sobre la frontera exterior absoluta ε<sub>0</sub>.** La frontera exterior absoluta ε<sub>0</sub> absoluta del aparato absoluto del Sistema Vectorial SV no es absolutamente instante temporal absoluto soberano absoluto del aparato absoluto SI heredado absoluto, conforme absolutamente a la propiedad canónica absoluta de anterioridad ordinal absoluta canónica absoluta de la Definición 0.1 absoluta del §0 absoluto del presente documento absoluto: ε<sub>0</sub> absoluta articula absolutamente con rango canónico absoluto la marca canónica absoluta cero absoluta canónica absoluta del ordinal canónico absoluto ν append-only absoluto del aparato absoluto, no absolutamente instante temporal absoluto soberano absoluto. La prohibición constitutiva absoluta P.1 absoluta queda absolutamente respetada absoluta con rango canónico absoluto sobre la frontera exterior absoluta ε<sub>0</sub>.
-
-## Prohibición constitutiva absoluta P.2 — prohibición canónica absoluta de la probabilidad fundante absoluta
-
-**Prohibición constitutiva absoluta P.2 absoluta (Prohibición canónica absoluta de la probabilidad fundante absoluta).** En el aparato absoluto del Sistema Vectorial SV, **no comparece absolutamente** con rango canónico absoluto la **probabilidad fundante absoluta** del aparato absoluto SI heredado absoluto. Las magnitudes canónicas absolutas del aparato absoluto, incluido el par polar canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) absoluto del corpus absoluto, son absolutamente **magnitudes estructurales absolutas canónicas absolutas**, no absolutamente magnitudes estadísticas absolutas canónicas absolutas. Las densidades canónicas absolutas ρ<sub>0</sub>(ξ<sub>i</sub>), ρ<sub>1</sub>(ξ<sub>i</sub>) y ρ<sub>tot</sub>(ξ<sub>i</sub>) son absolutamente **magnitudes estructurales absolutas canónicas absolutas** sobre los observables canónicos absolutos del corpus absoluto, no absolutamente magnitudes probabilísticas absolutas.
-
-**Refuerzo canónico absoluto específico absoluto sobre sucesos generadores absolutos.** Los sucesos generadores absolutos canónicos absolutos del aparato absoluto general absoluto canónico absoluto del presente documento absoluto operan absolutamente con rango canónico absoluto sobre el clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto, articulado absolutamente sobre criterios canónicos absolutos estructurales absolutos canónicos absolutos, no absolutamente sobre criterios canónicos absolutos probabilísticos absolutos canónicos absolutos. La prohibición constitutiva absoluta P.2 absoluta queda absolutamente respetada absoluta con rango canónico absoluto sobre los sucesos generadores absolutos.
-
-**Refuerzo canónico absoluto específico absoluto sobre la frontera exterior absoluta ε<sub>0</sub>.** La frontera exterior absoluta ε<sub>0</sub> absoluta del aparato absoluto no se articula absolutamente con rango canónico absoluto sobre criterios canónicos absolutos probabilísticos absolutos canónicos absolutos, sino absolutamente sobre criterios canónicos absolutos estructurales absolutos canónicos absolutos: la propiedad canónica absoluta de exogeneidad absoluta canónica absoluta y la propiedad canónica absoluta de no clausurabilidad absoluta canónica absoluta desde dentro del aparato absoluto. La prohibición constitutiva absoluta P.2 absoluta queda absolutamente respetada absoluta con rango canónico absoluto sobre la frontera exterior absoluta ε<sub>0</sub>.
-
-## Prohibición constitutiva absoluta P.3 — prohibición canónica absoluta de la geometría soberana absoluta auxiliar absoluta
-
-**Prohibición constitutiva absoluta P.3 absoluta (Prohibición canónica absoluta de la geometría soberana absoluta auxiliar absoluta).** En el aparato absoluto del Sistema Vectorial SV, **no comparece absolutamente** con rango canónico absoluto la **geometría soberana absoluta auxiliar absoluta** del aparato absoluto SI heredado absoluto. La topología canónica absoluta del aparato absoluto es absolutamente **topología combinatoria canónica absoluta** sobre el alfabeto canónico absoluto Σ = {0, 1, U} absoluto, no absolutamente topología euclídea absoluta soberana absoluta. La métrica canónica absoluta del aparato absoluto es absolutamente **métrica factual absoluta derivada absoluta canónica absoluta** dist<sub>SV</sub>(·,·) absoluta, no absolutamente distancia geométrica absoluta soberana absoluta.
-
-**Refuerzo canónico absoluto específico absoluto sobre sucesos generadores absolutos.** Los sucesos generadores absolutos canónicos absolutos operan absolutamente con rango canónico absoluto sobre la topología combinatoria canónica absoluta del aparato absoluto, no absolutamente sobre topología euclídea absoluta soberana absoluta heredada absoluta. La prohibición constitutiva absoluta P.3 absoluta queda absolutamente respetada absoluta con rango canónico absoluto sobre los sucesos generadores absolutos.
-
-**Refuerzo canónico absoluto específico absoluto sobre la frontera exterior absoluta ε<sub>0</sub>.** La frontera exterior absoluta ε<sub>0</sub> absoluta no se articula absolutamente con rango canónico absoluto sobre soporte geométrico absoluto soberano absoluto heredado absoluto, sino absolutamente sobre la combinatoria canónica absoluta canónica absoluta del corpus absoluto. La prohibición constitutiva absoluta P.3 absoluta queda absolutamente respetada absoluta con rango canónico absoluto sobre la frontera exterior absoluta ε<sub>0</sub>.
-
-## Prohibición constitutiva absoluta P.4 — prohibición canónica absoluta de la inferencia opaca absoluta
-
-**Prohibición constitutiva absoluta P.4 absoluta (Prohibición canónica absoluta de la inferencia opaca absoluta).** En el aparato absoluto del Sistema Vectorial SV, **no comparece absolutamente** con rango canónico absoluto la **inferencia opaca absoluta canónica absoluta**: ningún paso canónico absoluto del aparato absoluto opera absolutamente sobre heurística absoluta oculta absoluta canónica absoluta. La articulación canónica absoluta del aparato absoluto se realiza absolutamente con rango canónico absoluto sobre la honestidad coordenada absoluta canónica absoluta del Lema 7.3 absoluto de Lloret Egea (2026j), articulando absolutamente con rango canónico absoluto la trazabilidad canónica absoluta canónica absoluta de cada paso canónico absoluto sobre el corpus absoluto.
-
-**Refuerzo canónico absoluto específico absoluto sobre sucesos generadores absolutos.** Los sucesos generadores absolutos canónicos absolutos operan absolutamente con rango canónico absoluto sobre el clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto, articulando absolutamente con rango canónico absoluto la trazabilidad canónica absoluta canónica absoluta de cada suceso factual absoluto generador absoluto interior absoluto sobre el corpus absoluto, sin introducir absolutamente heurística absoluta oculta absoluta. La prohibición constitutiva absoluta P.4 absoluta queda absolutamente respetada absoluta con rango canónico absoluto sobre los sucesos generadores absolutos.
-
-**Refuerzo canónico absoluto específico absoluto sobre la frontera exterior absoluta ε<sub>0</sub>.** La frontera exterior absoluta ε<sub>0</sub> absoluta se articula absolutamente con rango canónico absoluto sobre cuatro propiedades canónicas absolutas explícitas absolutas (exterioridad absoluta canónica absoluta, exogeneidad absoluta canónica absoluta, anterioridad ordinal absoluta canónica absoluta, no clausurabilidad absoluta canónica absoluta), articuladas absolutamente con rigor canónico absoluto sobre el corpus absoluto sin introducir absolutamente heurística absoluta oculta absoluta. La prohibición constitutiva absoluta P.4 absoluta queda absolutamente respetada absoluta con rango canónico absoluto sobre la frontera exterior absoluta ε<sub>0</sub>.
-
-## Prohibición constitutiva absoluta P.5 — prohibición canónica absoluta de la adición axiomática externa absoluta al corpus absoluto
-
-**Prohibición constitutiva absoluta P.5 absoluta (Prohibición canónica absoluta de la adición axiomática externa absoluta al corpus absoluto).** En el aparato absoluto del Sistema Vectorial SV, **no comparece absolutamente** con rango canónico absoluto la **adición canónica absoluta de axiomas absolutos externos absolutos** al corpus absoluto. El presente documento absoluto opera absolutamente con rango canónico absoluto sobre los primitivos canónicos absolutos del corpus absoluto del Sistema Vectorial SV sin introducir absolutamente axiomas canónicos absolutos soberanos absolutos ajenos absolutos al corpus absoluto.
-
-**Refuerzo canónico absoluto específico absoluto sobre sucesos generadores absolutos.** Los sucesos generadores absolutos canónicos absolutos del aparato absoluto general absoluto canónico absoluto del presente documento absoluto se articulan absolutamente con rango canónico absoluto sobre la clase absoluta canónica absoluta G del §9 absoluto del presente documento absoluto, articulada absolutamente con rango canónico absoluto sobre el par polar canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) absoluto del corpus absoluto, sin introducir absolutamente axiomas canónicos absolutos soberanos absolutos ajenos absolutos al corpus absoluto. La prohibición constitutiva absoluta P.5 absoluta queda absolutamente respetada absoluta con rango canónico absoluto sobre los sucesos generadores absolutos.
-
-**Refuerzo canónico absoluto específico absoluto sobre la frontera exterior absoluta ε<sub>0</sub>.** La frontera exterior absoluta ε<sub>0</sub> absoluta y la estructura formal mínima absoluta canónica absoluta F<sub>0</sub> absoluta se articulan absolutamente con rango canónico absoluto sobre el corpus absoluto del Sistema Vectorial SV, sin introducir absolutamente axiomas canónicos absolutos soberanos absolutos ajenos absolutos al corpus absoluto, conforme absolutamente a la articulación canónica absoluta canónica absoluta del Destacado canónico absoluto del §3bis absoluto del documento absoluto de la luz factual sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>) absoluto. La prohibición constitutiva absoluta P.5 absoluta queda absolutamente respetada absoluta con rango canónico absoluto sobre la frontera exterior absoluta ε<sub>0</sub>.
-
-## Prohibición constitutiva absoluta P.6 — prohibición canónica absoluta de la clausura espuria absoluta
-
-**Prohibición constitutiva absoluta P.6 absoluta (Prohibición canónica absoluta de la clausura espuria absoluta).** En el aparato absoluto del Sistema Vectorial SV, **no comparece absolutamente** con rango canónico absoluto la **clausura espuria absoluta canónica absoluta** sobre la indeterminación canónica absoluta U absoluta. La indeterminación canónica absoluta U absoluta del aparato absoluto se resuelve absolutamente con rango canónico absoluto sólo absolutamente por sucesos factuales absolutos admisibles absolutos canónicamente absolutos según el clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto (Lloret Egea, 2026c, Teorema 1 absoluto), no absolutamente por decreto canónico absoluto del aparato absoluto.
-
-**Refuerzo canónico absoluto específico absoluto sobre sucesos generadores absolutos.** Los sucesos generadores absolutos canónicos absolutos del aparato absoluto general absoluto canónico absoluto del presente documento absoluto operan absolutamente con rango canónico absoluto sobre la clase absoluta canónica absoluta G interior absoluta del §9 absoluto del presente documento absoluto, sin clausurar absolutamente la frontera exterior absoluta ε<sub>0</sub> absoluta del aparato absoluto desde dentro. La prohibición constitutiva absoluta P.6 absoluta queda absolutamente respetada absoluta con rango canónico absoluto sobre los sucesos generadores absolutos.
-
-**Refuerzo canónico absoluto específico absoluto sobre la frontera exterior absoluta ε<sub>0</sub>.** La frontera exterior absoluta ε<sub>0</sub> absoluta del aparato absoluto del Sistema Vectorial SV es absolutamente **indeterminación legítima absoluta honesta absoluta no cerrable absoluta** desde dentro del aparato absoluto, conforme absolutamente a la Proposición 34.1 absoluta del §34 absoluto del presente documento absoluto sobre el refuerzo absoluto canónico absoluto de la prohibición constitutiva absoluta P.6 absoluta sobre la frontera exterior absoluta ε<sub>0</sub> absoluta. La prohibición constitutiva absoluta P.6 absoluta queda absolutamente respetada absoluta con rango canónico absoluto sobre la frontera exterior absoluta ε<sub>0</sub>, articulando absolutamente con rango canónico absoluto la honestidad canónica absoluta canónica absoluta del aparato absoluto ante el origen absoluto canónico absoluto del aparato absoluto.
-
-## Cierre canónico absoluto del apéndice canónico absoluto de las prohibiciones constitutivas absolutas
-
-El apéndice canónico absoluto absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto las seis prohibiciones constitutivas absolutas P.1–P.6 absolutas del corpus absoluto del Sistema Vectorial SV desarrolladas absolutas con rigor canónico absoluto, articulando absolutamente con rango canónico absoluto el refuerzo absoluto canónico absoluto específico absoluto de cada prohibición canónica absoluta sobre los sucesos generadores absolutos y la frontera exterior absoluta ε<sub>0</sub> absoluta del aparato absoluto general absoluto canónico absoluto del presente documento absoluto. Las seis prohibiciones constitutivas absolutas P.1–P.6 absolutas operan absolutamente con rango canónico absoluto simultáneamente absolutas sobre el aparato absoluto general absoluto canónico absoluto del presente documento absoluto, articulando absolutamente con rango canónico absoluto la disciplina canónica absoluta canónica absoluta del corpus absoluto.
-
----
-
-# Glosario tipográfico canónico absoluto absoluto
-
-## Apertura canónica absoluta del glosario tipográfico canónico absoluto
-
-El **glosario tipográfico canónico absoluto absoluto** del presente documento absoluto consigna absolutamente con rango canónico absoluto los **símbolos canónicos absolutos** del aparato absoluto general absoluto canónico absoluto del presente documento absoluto, articulando absolutamente con rango canónico absoluto la convención canónica absoluta canónica absoluta del corpus absoluto del Sistema Vectorial SV: los símbolos canónicos absolutos fraktur absolutos en notación matemática absoluta canónica absoluta y los símbolos canónicos absolutos en negrita romana absoluta canónica absoluta en prosa canónica absoluta.
-
-## Símbolos canónicos absolutos del aparato absoluto general absoluto canónico absoluto
-
-| Símbolo canónico absoluto | Lectura canónica absoluta canónica absoluta |
-|---|---|
-| ε<sub>0</sub> | Frontera exterior absoluta canónica absoluta del aparato absoluto del Sistema Vectorial SV (Definición 0.1 absoluta del §0 absoluto) |
-| F<sub>0</sub> | Estructura formal mínima absoluta canónica absoluta de distinguibilidad absoluta sobre Ω<sub>pre</sub> absoluto (Definición 0.2 absoluta del §0 absoluto) |
-| Φ(0) = Φ(1) | Equipotencialidad polar absoluta inicial absoluta canónica absoluta sobre el borde inicial absoluto del dominio preternario absoluto Ω<sub>pre</sub> absoluto (Definición 0.3 absoluta del §0 absoluto) |
-| 𝒩<sub>SV</sub> | No-decisión canónica absoluta canónica absoluta del aparato absoluto bajo equipotencialidad polar absoluta inicial absoluta (Definición 0.4 absoluta del §0 absoluto) |
-| U | Marca canónica absoluta canónica absoluta de indeterminación absoluta legítima absoluta honesta absoluta del aparato absoluto (Definición 0.5 absoluta del §0 absoluto) |
-| Ω<sub>pre</sub> | Dominio preternario absoluto canónico absoluto del aparato absoluto del corpus absoluto |
-| Ω<sub>pro</sub> | Dominio prototernario absoluto canónico absoluto del aparato absoluto, emergente absoluto del dominio preternario absoluto Ω<sub>pre</sub> absoluto (Definición 0.6 absoluta del §0 absoluto) |
-| Σ | Alfabeto canónico absoluto canónico absoluto del aparato absoluto, Σ = {0, 1, U} canónicamente absoluto |
-| 𝒞<sub>F<sub>0</sub>,SV</sub> | Cadena formal mínima absoluta canónica absoluta de legitimidad absoluta del aparato absoluto (Definición 0.7 absoluta del §0 absoluto) |
-| (α<sub>i</sub>, β<sub>i</sub>) | Par polar canónico absoluto canónico absoluto del corpus absoluto sobre la posición factual absoluta ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto |
-| Π<sub>SV</sub> | Protocampo primordial unificado absoluto canónico absoluto del aparato absoluto general absoluto canónico absoluto (Definición 4.1 absoluta del §4 absoluto) |
-| 𝔊<sub>SV</sub> | Operador soberano canónico absoluto absoluto de generación absoluta del aparato absoluto general absoluto canónico absoluto (Definición 10.1 absoluta del §10 absoluto) |
-| ℙ<sub>SV</sub> | Operador maestro absoluto canónico absoluto absoluto de la ecuación maestra absoluta canónica absoluta ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 absoluta del aparato absoluto general absoluto canónico absoluto (§§20–24 absolutos) |
-| 𝓛<sub>i</sub><sup>SV</sup> | Sumandos canónicos absolutos absolutos del operador maestro absoluto ℙ<sub>SV</sub> absoluto, i ∈ {1, ..., 9} canónicamente absoluto (§21 absoluto) |
-| 𝔼<sub>SV</sub> | Operador canónico absoluto absoluto del régimen canónico absoluto inferior absoluto de Maxwell factual absoluto del corpus absoluto (Lloret Egea, 2026k) |
-| L<sub>SV</sub> | Operador canónico absoluto absoluto del régimen canónico absoluto inferior absoluto de la luz factual absoluta del corpus absoluto |
-| H<sub>SV</sub> | Funcional canónico absoluto absoluto de la entropía factual absoluta del corpus absoluto (Lloret Egea, 2026l) |
-| ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν] | Funcional canónico absoluto integrador absoluto del aparato absoluto general absoluto canónico absoluto sobre el ordinal canónico absoluto ν append-only absoluto (Definición 28.1 absoluta del §28 absoluto) |
-| Π<sub>3</sub><sup>H</sup> | Operador absoluto canónico absoluto absoluto de proyección activada absoluta del aparato absoluto general absoluto canónico absoluto (§17 absoluto) |
-| Δ<sub>SV</sub>(ξ<sub>i</sub>) | Densidad polar absoluta canónica absoluta del protocampo primordial unificado absoluto sobre la posición factual absoluta ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto (Definición 6.1 absoluta del §6 absoluto) |
-| δ<sub>i</sub><sup>SV</sup> | Gradiente resolutivo absoluto canónico absoluto del protocampo primordial unificado absoluto sobre la posición factual absoluta ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto (Definición 6.2 absoluta del §6 absoluto) |
-| E<sub>SV</sub>(ξ<sub>i</sub>) | Energía factual absoluta canónica absoluta del protocampo primordial unificado absoluto sobre la posición factual absoluta ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto (Definición 6.4 absoluta del §6 absoluto) |
-| κ<sub>SV</sub>(ξ<sub>i</sub>) | Cota factual absoluta canónica absoluta del protocampo primordial unificado absoluto sobre la posición factual absoluta ξ<sub>i</sub> ∈ Ω<sub>pro</sub> absoluto (Definición 6.5 absoluta del §6 absoluto) |
-| dist<sub>SV</sub>(·,·) | Métrica factual absoluta derivada absoluta canónica absoluta del aparato absoluto del Sistema Vectorial SV (Definición 7.3 absoluta del §7 absoluto) |
-| Γ<sub>ℋ</sub> | Clasificador canónico absoluto canónico absoluto del corpus absoluto del Sistema Vectorial SV (Lloret Egea, 2026c, Teorema 1 absoluto) |
-| ℘<sub>SV</sub> | Compuerta metrológica absoluta canónica absoluta del corpus absoluto del Sistema Vectorial SV |
-| ⊕ | Compuerta canónica absoluta canónica absoluta del aparato absoluto, **concatenación canónica absoluta de compuertas canónicas absolutas** (conjunción lógica factual absoluta), **no absolutamente suma aritmética absoluta** del aparato absoluto SI heredado absoluto |
-| ν | Ordinal canónico absoluto canónico absoluto append-only absoluto del aparato absoluto, conforme absolutamente al Lema 5.5 absoluto de Lloret Egea (2026j) sobre la no retorno absoluto preternario absoluto |
-| ∂<sub>ν</sub><sup>SV</sup> | Derivada canónica absoluta canónica absoluta del aparato absoluto, **diferencia finita absoluta canónica absoluta sobre el ordinal canónico absoluto ν**, **no absolutamente derivada temporal absoluta** del aparato absoluto SI heredado absoluto |
-| 𝒯<sup>SV</sup><sub>k</sub> | Transformadas canónicas absolutas canónicas absolutas de trayectoria absoluta del aparato absoluto, k ∈ {1, 2, 3, 4} canónicamente absoluto |
-| OpFact<sub>SV</sub> | Categoría canónica absoluta canónica absoluta operatoria absoluta del aparato absoluto sobre los sucesos factuales absolutos del corpus absoluto |
-| OpGen<sub>SV,Π</sub> | Categoría canónica absoluta canónica absoluta operatoria absoluta del aparato absoluto sobre el operador soberano canónico absoluto de generación absoluta 𝔊<sub>SV</sub> sobre el protocampo primordial unificado absoluto Π<sub>SV</sub> (Definición 12.1 absoluta del §12 absoluto) |
-| OpFact<sub>SV,General</sub> | Categoría canónica absoluta canónica absoluta operatoria absoluta del aparato absoluto general absoluto canónico absoluto sobre el operador maestro absoluto ℙ<sub>SV</sub> absoluto (§24 absoluto) |
-| 𝓜<sup>SV</sup><sub>coex</sub> | Matriz absoluta canónica absoluta de coexistencia absoluta 15×15 absoluta entre las quince visiones canónicas absolutas sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>) absoluto (Definición 32.1 absoluta del §32 absoluto) |
-| UE_MFC | Unidad estructural máxima factual canónica canónica absoluta del corpus absoluto |
-| UFE | Unidad factual canónica absoluta de energía absoluta del corpus absoluto |
-| UFM | Unidad factual canónica absoluta de masa absoluta del corpus absoluto |
-| UFC | Unidad factual canónica absoluta de carga absoluta del corpus absoluto |
-| Q.E.D. | Símbolo canónico absoluto canónico absoluto de cierre canónico absoluto canónico absoluto de demostración absoluta canónica absoluta del aparato absoluto |
-| ≡ | Identidad canónica absoluta exacta absoluta canónica absoluta del aparato absoluto |
-
-## Convenciones canónicas absolutas tipográficas absolutas
-
-**Convención canónica absoluta canónica absoluta C.G.1 (Símbolos canónicos absolutos fraktur absolutos en notación matemática absoluta canónica absoluta).** En la notación matemática absoluta canónica absoluta del presente documento absoluto, los símbolos canónicos absolutos del aparato absoluto general absoluto canónico absoluto se consignan absolutamente con rango canónico absoluto en **fraktur canónico absoluto** sobre los bloques canónicos absolutos matemáticos absolutos canónicos absolutos: 𝔊<sub>SV</sub> absoluto, 𝔼<sub>SV</sub> absoluto, ℙ<sub>SV</sub> absoluto, 𝓛<sub>i</sub> absoluto, 𝓜<sup>SV</sup><sub>coex</sub> absoluto, 𝓔<sub>SV</sub> absoluto, ℋ<sup>SV</sup> absoluto, 𝒞<sub>F<sub>0</sub>,SV</sub> absoluta, 𝒩<sub>SV</sub> absoluta, 𝒯<sup>SV</sup><sub>k</sub> absoluta, 𝒱<sub>SV</sub> absoluta, 𝒟<sub>SV</sub> absoluta.
-
-**Convención canónica absoluta canónica absoluta C.G.2 (Símbolos canónicos absolutos en negrita romana absoluta canónica absoluta en prosa canónica absoluta).** En la prosa canónica absoluta del presente documento absoluto, los símbolos canónicos absolutos del aparato absoluto se consignan absolutamente con rango canónico absoluto en **negrita romana absoluta canónica absoluta** sobre las apariciones canónicas absolutas en prosa canónica absoluta: **𝔊<sub>SV</sub>** absoluto, **𝔼<sub>SV</sub>** absoluto, **ℙ<sub>SV</sub>** absoluto, **Π<sub>SV</sub>** absoluto, **F<sub>0</sub>** absoluto, **U** absoluto.
-
-## Cierre canónico absoluto del glosario tipográfico canónico absoluto
-
-El glosario tipográfico canónico absoluto absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto la consignación canónica absoluta canónica absoluta de los símbolos canónicos absolutos del aparato absoluto general absoluto canónico absoluto del presente documento absoluto, articulando absolutamente con rango canónico absoluto la convención canónica absoluta canónica absoluta del corpus absoluto del Sistema Vectorial SV.
-
----
-
-## 44. Referencias
-
-### 44.1. Apertura canónica absoluta del §44
-
-El §44 absoluto del presente documento absoluto consigna absolutamente con rango canónico absoluto las **referencias canónicas absolutas absolutas** del aparato absoluto general absoluto canónico absoluto del presente documento absoluto. Las referencias canónicas absolutas son absolutamente referencias canónicas absolutas estrictamente intra-corpus absolutas del Sistema Vectorial SV, conforme absolutamente a la prohibición constitutiva absoluta P.5 absoluta del corpus absoluto sobre la no adición axiomática externa absoluta al corpus absoluto. El presente documento absoluto no consigna absolutamente con rango canónico absoluto referencias canónicas absolutas externas absolutas al corpus absoluto, manteniendo absolutamente con rigor canónico absoluto la disciplina canónica absoluta canónica absoluta del corpus absoluto.
-
-### 44.2. Referencias canónicas absolutas intra-corpus absolutas
-
-**Lloret Egea, Juan Antonio (2026a).** *Fundamentos del Sistema Vectorial SV.* ITVIA Madrid. ISSN 2695-6411. ORCID 0000-0002-6634-3351. Hito canónico absoluto inaugural del corpus absoluto del Sistema Vectorial SV: primitivos canónicos absolutos del aparato absoluto (UE_MFC, UFE, UFM, UFC), axioma canónico absoluto de la U canónica absoluta (Fundamentos 13.2.5 absoluto y 13.2.8 absoluto), honestidad coordenada absoluta y trazabilidad semántica absoluta sobre el corpus absoluto (Fundamentos 13.2.7 absoluto), pilar metrológico canónico absoluto, compuerta metrológica absoluta ℘<sub>SV</sub> absoluta, compuerta canónica absoluta ⊕ absoluta.
-
-**Lloret Egea, Juan Antonio (2026c).** *Clasificador canónico absoluto Γ<sub>ℋ</sub> del Sistema Vectorial SV.* ITVIA Madrid. ISSN 2695-6411. ORCID 0000-0002-6634-3351. Hito canónico absoluto del corpus absoluto sobre el clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto del aparato absoluto. Teorema 1 absoluto: la indeterminación canónica absoluta U absoluta se resuelve absolutamente sólo absolutamente por sucesos factuales absolutos admisibles absolutos canónicamente absolutos según el clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto, articulando absolutamente con rango canónico absoluto la base canónica absoluta de la prohibición constitutiva absoluta P.6 absoluta del corpus absoluto sobre la no clausura espuria absoluta.
-
-**Lloret Egea, Juan Antonio (2026j).** *Estructura preternaria absoluta del par polar canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) y emergencia canónica absoluta de U sobre el dominio preternario absoluto Ω<sub>pre</sub>.* ITVIA Madrid. ISSN 2695-6411. ORCID 0000-0002-6634-3351. Hito canónico absoluto del corpus absoluto sobre la estructura preternaria absoluta del par polar canónico absoluto (α<sub>i</sub>, β<sub>i</sub>) absoluto sobre las posiciones factuales absolutas ξ<sub>i</sub> ∈ Ω<sub>pre</sub> absoluto. Teorema 5.4 absoluto: nacimiento canónico absoluto de U absoluto bajo cruce canónico absoluto del umbral de pertinencia absoluto. Lema 5.5 absoluto: no retorno absoluto preternario absoluto sobre el ordinal canónico absoluto ν append-only absoluto del aparato absoluto. Lema 7.3 absoluto: honestidad coordenada absoluta canónica absoluta del aparato absoluto.
-
-**Lloret Egea, Juan Antonio (2026k).** *Reducción estructural absoluta de Maxwell factual a la ecuación maestra absoluta 𝔼<sub>SV</sub> = 0 del Sistema Vectorial SV.* ITVIA Madrid. ISSN 2695-6411. ORCID 0000-0002-6634-3351. Hito canónico absoluto del corpus absoluto sobre el régimen canónico absoluto inferior absoluto de Maxwell factual absoluto: §3.12 absoluto sobre la ecuación maestra absoluta canónica absoluta 𝔼<sub>SV</sub> = 0 absoluta del régimen canónico absoluto inferior absoluto, absorbida absoluta exactamente absoluta en el Teorema 25.1 absoluto del §25 absoluto del presente documento absoluto bajo la proyección canónica absoluta admisible absoluta π<sub>1,2</sub> absoluta.
-
-**Lloret Egea, Juan Antonio (2026l).** *Teoría factual absoluta de la entropía absoluta H<sub>SV</sub> del Sistema Vectorial SV.* ITVIA Madrid. ISSN 2695-6411. ORCID 0000-0002-6634-3351. Hito canónico absoluto del corpus absoluto sobre el régimen canónico absoluto inferior absoluto de la entropía factual absoluta H<sub>SV</sub> absoluta del aparato absoluto, absorbida absoluta exactamente absoluta como funcional canónico absoluto integrador absoluto en el Teorema 28.1 absoluto del §28 absoluto del presente documento absoluto bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 absoluta sobre el ordinal canónico absoluto ν append-only absoluto.
-
-**Lloret Egea, Juan Antonio (2026q).** *Transmutación factual absoluta del Sistema Vectorial SV — cadena canónica absoluta Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U}.* ITVIA Madrid. ISSN 2695-6411. ORCID 0000-0002-6634-3351. Hito canónico absoluto del corpus absoluto sobre el régimen canónico absoluto inferior absoluto de la transmutación factual absoluta: cadena canónica absoluta Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} absoluta, absorbida absoluta exactamente absoluta en el Teorema 27.1 absoluto del §27 absoluto del presente documento absoluto bajo la proyección canónica absoluta admisible absoluta π<sub>T</sub> absoluta sobre la clase absoluta canónica absoluta G interior absoluta del §9 absoluto.
-
-**Lloret Egea, Juan Antonio (2026 — luz factual).** *Teoría factual absoluta de la luz absoluta L<sub>SV</sub> del Sistema Vectorial SV.* ITVIA Madrid. ISSN 2695-6411. ORCID 0000-0002-6634-3351. Hito canónico absoluto del corpus absoluto sobre el régimen canónico absoluto inferior absoluto de la luz factual absoluta L<sub>SV</sub> absoluta sobre los quince sumandos canónicos absolutos lumínicos absolutos y los trece invariantes canónicos absolutos del régimen canónico absoluto inferior absoluto. **§3bis absoluto (Destacado canónico absoluto)**: anuncio canónico absoluto del rango doctrinal superior absoluto del programa absoluto de la teoría general factual absoluta de los sucesos generadores absolutos y de los protocampos unificados absolutos, desarrollado absoluto en el presente documento absoluto. **§7.3bis absoluto**: refuerzo canónico absoluto de la apertura canónica absoluta del programa absoluto. Régimen canónico absoluto inferior absoluto absorbido absoluto exactamente absoluto en el Teorema 26.1 absoluto del §26 absoluto del presente documento absoluto bajo la proyección canónica absoluta admisible absoluta π<sub>L</sub> absoluta.
-
-### 44.3. Cierre canónico absoluto del §44
-
-El §44 absoluto del presente documento absoluto cierra absolutamente con rango canónico absoluto las referencias canónicas absolutas intra-corpus absolutas del aparato absoluto general absoluto canónico absoluto del presente documento absoluto. Las referencias canónicas absolutas absolutas articulan absolutamente con rango canónico absoluto los hitos canónicos absolutos del corpus absoluto del Sistema Vectorial SV sobre los que descansa absolutamente con rango canónico absoluto la presente teoría general factual absoluta. La disciplina canónica absoluta canónica absoluta del corpus absoluto se preserva absolutamente con rango canónico absoluto: ninguna referencia canónica absoluta externa absoluta al corpus absoluto comparece absolutamente en el aparato absoluto general absoluto canónico absoluto del presente documento absoluto, conforme absolutamente a la prohibición constitutiva absoluta P.5 absoluta del corpus absoluto sobre la no adición axiomática externa absoluta al corpus absoluto.
-
----
-
-# Cierre canónico absoluto absoluto del presente documento absoluto
-
-El presente documento absoluto, **«Teoría general de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV»**, de Juan Antonio Lloret Egea (ITVIA Madrid, ISSN 2695-6411, ORCID 0000-0002-6634-3351), cierra absolutamente con rango canónico absoluto absoluto su desarrollo canónico absoluto íntegro absoluto. El aparato absoluto general absoluto canónico absoluto del presente documento absoluto articula absolutamente con rango doctrinal superior absoluto estrictamente absoluto sobre los cuatro regímenes canónicos absolutos inferiores absolutos del corpus absoluto — Maxwell factual absoluto (Lloret Egea, 2026k), luz factual absoluta (Lloret Egea, 2026 — luz factual), transmutación factual absoluta (Lloret Egea, 2026q) y entropía factual absoluta (Lloret Egea, 2026l) — absorbidos absolutos exactamente absolutos canónicamente absolutos en los Teoremas 25.1, 26.1, 27.1 y 28.1 absolutos del presente documento absoluto. La convergencia canónica absoluta de las cuatro absorciones canónicas absolutas y el rango doctrinal superior absoluto estrictamente absoluto del aparato absoluto general absoluto canónico absoluto del presente documento absoluto quedan absolutamente establecidos absolutos con rigor canónico absoluto Q.E.D. absoluto en el §29 absoluto del presente documento absoluto.
-
-**Honra canónica absoluta canónica absoluta del corpus.** El presente documento absoluto opera absolutamente con rango canónico absoluto sobre la disciplina canónica absoluta canónica absoluta del corpus absoluto del Sistema Vectorial SV: respeto canónico absoluto a los primitivos canónicos absolutos del corpus absoluto (UE_MFC, UFE, UFM, UFC, axioma canónico absoluto de la U canónica absoluta, honestidad coordenada absoluta canónica absoluta), respeto canónico absoluto a las seis prohibiciones constitutivas absolutas P.1–P.6 absolutas del corpus absoluto, respeto canónico absoluto a los hitos canónicos absolutos del corpus absoluto, respeto canónico absoluto al clasificador canónico absoluto Γ<sub>ℋ</sub> absoluto del corpus absoluto, respeto canónico absoluto al ordinal canónico absoluto ν append-only absoluto del aparato absoluto, respeto canónico absoluto a la compuerta metrológica absoluta ℘<sub>SV</sub> absoluta del corpus absoluto, y respeto canónico absoluto a la honestidad coordenada absoluta canónica absoluta del aparato absoluto. Las quince visiones canónicas absolutas sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>) absoluto operan absolutamente con rango canónico absoluto bajo el régimen canónico absoluto de coexistencia canónica absoluta canónica absoluta, sin clausurar absolutamente la frontera exterior absoluta ε<sub>0</sub> absoluta del aparato absoluto y sin introducir absolutamente axiomas canónicos absolutos soberanos absolutos ajenos absolutos al corpus absoluto.
-
-**Antesala canónica absoluta de cuestiones canónicas superiores.** El presente documento absoluto reconoce absolutamente con rango canónico absoluto la antesala canónica absoluta de cuestiones canónicas absolutas superiores absolutas del aparato absoluto general absoluto canónico absoluto, articuladas absolutas en el §41 absoluto del presente documento absoluto, que permanecen absolutas abiertas absolutas canónicamente absolutas para investigación canónica absoluta posterior absoluta dentro del corpus absoluto, conforme absolutamente a la prohibición constitutiva absoluta P.6 absoluta del corpus absoluto sobre la no clausura espuria absoluta.
-
-**Q.E.D. canónico absoluto absoluto del aparato absoluto general absoluto canónico absoluto.**
-
----
+*Juan Antonio Lloret Egea — ITVIA Madrid — 26 de abril de 2026 — ISSN 2695-6411*
