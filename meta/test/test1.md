@@ -1,5 +1,3 @@
-> *Fórmula Universal, Absoluta, compacta y suelo doctrina de toda la física y matemática del SV.*
-
 # Teoría general de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV
 
 © 2026. Todos los derechos reservados. | DOI: | Juan Antonio Lloret Egea | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) | IA eñ™ — La Biblia de la IA™ | ISSN 2695-6411 | Licencia CC BY-NC-ND 4.0 | Madrid, 26/04/2026 |
@@ -9,7 +7,89 @@
 **Warning:** This publication is protected by CEDRO. Its application in the field of Physics, as well as any form of exploitation, reproduction, or use by corporate entities, is strictly subject to the author's copyright and the terms of the license indicated; any reproduction, distribution, public communication, or transformation of this work requires authorization from the rightsholders, except as provided by law, and any commercial use without express written consent is prohibited and strictly subject to permitted licensing.
 
 ---
+> *Fórmula Universal, Absoluta, compacta y suelo doctrina de toda la física y matemática del SV.*
+## Fórmula absoluta del Sistema Vectorial SV y sus formas canónicas equivalentes
 
+### Forma canónica única (Definición §K.7)
+
+```math
+\boxed{\;\mathfrak{F}_{SV}\bigl(\Phi^{1},\ldots,\Phi^{7};\,\{\mathcal{S}_k\};\,\mathbf{G}^{**}_{SV}\bigr) \;:=\; \bigoplus_{j=1}^{7}\,\mathfrak{U}^{(j)}_{SV}\bigl(\Phi^{j}\bigr) \;\oplus\; \bigoplus_{k=1}^{7}\,\mathcal{S}_{k} \;\oplus\; \Delta_{SV}\bigl(\mathbf{G}^{**}_{SV}\bigr) \;=\; 0.\;}
+```
+
+### Equivalencia canónica con el subaparato (§K.9)
+
+```math
+\mathfrak{F}_{SV} \;=\; 0 \;\;\Longleftrightarrow\;\; \mathfrak{U}^{\mathrm{unif}}_{SV} \;=\; 0 \;\wedge\; \Delta_{SV}\bigl(\mathbf{G}^{**}_{SV}\bigr) \;=\; 0.
+```
+
+### Subaparato canónico (Definición §11.9)
+
+```math
+\mathfrak{U}^{\mathrm{unif}}_{SV} \;=\; \mathfrak{F}_{SV}\big|_{\Delta_{SV} \equiv 0} \;=\; \bigoplus_{j=1}^{7}\,\mathfrak{U}^{(j)}_{SV}\bigl(\Phi^{j}\bigr) \;\oplus\; \bigoplus_{k=1}^{7}\,\mathcal{S}_{k}.
+```
+
+```math
+\mathfrak{U}^{\mathrm{unif}}_{SV} \;=\; 0 \;\;\Longleftrightarrow\;\; \biggl[\,\forall j\in\{1,\ldots,7\}:\;\mathfrak{U}^{(j)}_{SV}(\Phi^j) = 0\,\biggr] \;\wedge\; \biggl[\,\forall k\in\{1,\ldots,7\}:\;\mathcal{S}_k\,\biggr].
+```
+
+### Cuatro formas canónicas equivalentes del subaparato (§13)
+
+#### Forma F1 — sectores y umbrales explícitos
+
+```math
+\mathfrak{U}^{\mathrm{unif}}_{SV} \;=\; \bigoplus_{j=1}^{7}\,\mathfrak{U}^{(j)}_{SV}(\Phi^{j}) \;\oplus\; \bigoplus_{k=1}^{7}\,\mathcal{S}_{k} \;=\; 0.
+```
+
+#### Forma F2 — descomposición por subsistemas estructurales
+
+```math
+\mathfrak{U}^{\mathrm{unif}}_{SV} \;=\; \mathfrak{U}^{\mathrm{EM}}_{SV} \;\oplus\; \mathfrak{U}^{\mathrm{Grav}}_{SV} \;\oplus\; \mathfrak{U}^{\mathrm{NM}}_{SV} \;=\; 0,
+```
+
+con:
+
+- 𝓤^EM_SV := 𝓤⁽¹⁾_SV ⊕ 𝓤⁽²⁾_SV ⊕ 𝒮₁ ⊕ 𝒮₂;
+- 𝓤^Grav_SV := 𝓤⁽³⁾_SV ⊕ 𝒮₃;
+- 𝓤^NM_SV := 𝓤⁽⁴⁾_SV ⊕ 𝓤⁽⁵⁾_SV ⊕ 𝓤⁽⁶⁾_SV ⊕ 𝓤⁽⁷⁾_SV ⊕ 𝒮₄ ⊕ 𝒮₅ ⊕ 𝒮₆.
+
+La identidad 𝒮₇ (absorción basal exacta) opera transversalmente sobre los tres subsistemas como condición de compatibilidad metrológica.
+
+#### Forma F3 — proyección entrópica sobre cadena fundacional
+
+```math
+\mathfrak{U}^{\mathrm{unif}}_{SV} \;=\; \pi_{H}\!\Bigl(\bigoplus_{j=1}^{7}\mathfrak{U}^{(j)}_{SV}\Bigr) \;\oplus\; \bigoplus_{k=1}^{7}\,\mathcal{S}_{k} \;=\; 0,
+```
+
+donde π_H es la proyección entrópica canónica del corpus (Lloret Egea, 2026 — luz factual, Definición 7.10) que extrae la magnitud de entropía factual H_SV aplicada sobre la cadena fundacional Σ_conc → Σ_canal (Lloret Egea, 2026l, §3).
+
+#### Forma F4 — descomposición por dictamen final canónico
+
+```math
+\mathfrak{U}^{\mathrm{unif}}_{SV} \;=\; \mathfrak{T}_{SV}^{-1}\bigl(\{m_{0},\,\chi_{\alpha},\,U\}\bigr) \;\oplus\; \bigoplus_{k=1}^{7}\,\mathcal{S}_{k} \;=\; 0,
+```
+
+donde 𝔗_SV⁻¹ es la pre-imagen del operador de transmutación factual: la condición se satisface si y sólo si el contenido factual Ξ_SV resultante de la cadena fundacional alcanza dictamen en el conjunto canónico {m₀, χ_α, U}.
+
+### Componentes canónicas de la fórmula absoluta
+
+- **Operador concatenador ⊕** — conjunción lógica factual sobre el espacio canónico de compuertas (Definición §11.1, cláusulas C.1 y C.2), heredado del Glosario tipográfico canónico de Lloret Egea (2026 — luz factual).
+- **𝓤⁽¹⁾_SV** — operador sectorial eléctrico (Definición §11.2): Div_SV(D) − ρV = 0; Rot_SV(E) + ∂_ν^SV B · A_Σ = 0.
+- **𝓤⁽²⁾_SV** — operador sectorial magnético (Definición §11.3): Div_SV(B) = 0; Rot_SV(H) − ∂_ν^SV D · A_Σ − J · A_Σ = 0.
+- **𝓤⁽³⁾_SV** — operador sectorial gravitatorio bisectorial (Definición §11.4): G(ν) − |E_crit(ν)|/|Q| = 0; 𝒢_J(ν) − ‖J^(ν)_{Q,P}‖_∗ · 𝟏_{detonante} = 0.
+- **𝓤⁽⁴⁾_SV** — operador sectorial TPA (Definición §11.5): Div_SV(C_k) + m_k = 0 ∀k; ΣDiv_SV(C_k) − (φ(S_0) − φ(S_n)) = 0.
+- **𝓤⁽⁵⁾_SV** — operador sectorial de convergencia ternaria (Definición §11.6): card(U_irr(T)) = 0.
+- **𝓤⁽⁶⁾_SV** — operador sectorial espectral (Definición §11.7): G(1) − Σφ_k = 0; G(−1) − Σ(−1)^k φ_k = 0; G(λ) − Σφ_k λ^k = 0 ∀λ.
+- **𝓤⁽⁷⁾_SV** — operador sectorial topológico con O3 (Definición §11.8): Res_k − φ(S_k)·𝟏_{m_k=0} = 0 ∀k; h_Γ − (m_{n−1} − m_0) = 0; ∫_Γ^SV φ dz − Σφ_k − i_SV·Σφ_k m_k = 0.
+- **𝒮₁** — conservación factual de carga: ∂_ν^SV ρ + Div_SV(J) = 0.
+- **𝒮₂** — identidad operatoria del cuerpo factual: Div_SV ∘ Rot_SV = 0.
+- **𝒮₃** — disciplina canónica gravedad ⇎ detonación: dist(ν, 𝒞)·G(ν) ≠ ∞.
+- **𝒮₄** — transporte canónico de la cadena fundacional: Ξ_SV → 𝔎_SV → Σ_conc → 𝔥_SV → Σ_canal → 𝔗_SV → {m₀, χ_α, U}.
+- **𝒮₅** — acumulación factual de apertura: A_i(n) := Σ máx(Δα_i, 0) monótona no decreciente.
+- **𝒮₆** — variación total preternaria del sesgo polar: V_i(δ, n) := Σ |Δδ_i| monótona no decreciente.
+- **𝒮₇** — absorción basal exacta: π₀(Ξ_SV) = E₀ = m₀·c² bajo trivialización completa.
+- **G**_SV** — morfismo dictamen ternario canónico G**_SV : T_SV → K_3 = {0, **1**, U}, definido por G**_SV = Adm ∘ Rec (Definiciones §K.3–§K.5).
+- **Δ_SV(G**_SV)** — compuerta canónica de buena definición del morfismo dictamen (Definición §K.6): Δ_SV(G**_SV)(T) := 0 si G**_SV(T) ∈ K_3; **1** si G**_SV(T) ∉ K_3.
+---
 ## Estatuto canónico
 
 La presente teoría se abre sobre una cuestión primaria: cómo puede comparecer estructura en el Sistema Vectorial SV sin introducir tiempo soberano, causalidad externa, probabilidad, dinámica continua ni física heredada como fundamento. La respuesta no puede comenzar en un campo ya formado, porque eso presupondría precisamente aquello que debe explicarse. Tampoco puede comenzar en una ecuación física clásica, porque una ecuación posterior no puede ocupar el lugar del tránsito originario. Debe comenzar en el punto lógico-formal mínimo en el que la vacuidad puede distinguirse del primer dominio admisible.
