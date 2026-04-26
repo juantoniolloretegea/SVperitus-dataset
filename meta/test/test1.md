@@ -7,7 +7,7 @@
 **Warning:** This publication is protected by CEDRO. Its application in the field of Physics, as well as any form of exploitation, reproduction, or use by corporate entities, is strictly subject to the author's copyright and the terms of the license indicated; any reproduction, distribution, public communication, or transformation of this work requires authorization from the rightsholders, except as provided by law, and any commercial use without express written consent is prohibited and strictly subject to permitted licensing.
 
 ---
-> *Fórmula Universal, Absoluta, compacta y suelo doctrina de toda la física y matemática del SV.*
+> *Fórmula Universal, Absoluta, compacta y suelo doctrina de toda la física y matemática del SV.* Versión: V.1
 ## Fórmula absoluta del Sistema Vectorial SV y sus formas canónicas equivalentes
 
 ### Forma canónica única (Definición §K.7)
@@ -2859,14 +2859,6 @@ La pieza algebraica canónicamente única del Sistema Vectorial SV es 𝔉_SV de
 *Demostración.* La unicidad estricta de **U**ᵘⁿⁱᶠ_SV bajo la fijación canónica completa (N.1)–(N.4) se sigue del Teorema §15.2. La unicidad estricta de la compuerta Δ_SV(G**_SV) se sigue del Teorema §K.1 bajo la fijación canónica de Rec y Adm. La unicidad de la articulación ⊕ entre las quince componentes canónicas en una pieza algebraica única se sigue del Lema §15.7 (unicidad de la articulación ⊕). Las cinco condiciones (C1)–(C5) se siguen del estatuto canónico §K.9 por construcción canónica explícita. Q.E.D.
 
 **Corolario §K.1 (Estatuto canónico de la fórmula maestra).** 𝔉_SV es la pieza algebraica canónica del Sistema Vectorial SV: Universal sobre el régimen factual, canónicamente cerrada, compacta como mínima cardinalidad estructural posible, y suelo doctrina canónico de toda la física y matemática del Sistema Vectorial SV.
-
----
-
-## Nota de versión V.1
-
-Esta versión V.1 nace como derivada necesaria dentro del marco del desarrollo de una Inteligencia Artificial trazable, subordinada al ser humano y garante en el cumplimiento de los marcos que el Sistema Vectorial SV pretende y necesita. Esta publicación no concluye aquí, sino que se inicia para aportar el conocimiento absoluto que el Sistema Vectorial SV pueda estabilizar por sí mismo. Es necesidad, en opinión de este autor, proponer a la física actual una revisión sobre este marco denominado «Matemática y Física Factual contemporánea del SV», cuyo principio rector es tan sencillo como la frase atribuida a Albert Einstein: *«Todo debe hacerse tan simple como sea posible, pero no más simple».*
-
-*Version note V.1 — This version V.1 emerges as a necessary derivation within the framework of developing a traceable Artificial Intelligence, subordinated to the human being and faithful in fulfilling the frameworks that the Sistema Vectorial SV proposes and requires. This publication does not conclude here; it begins, contributing the absolute knowledge that the Sistema Vectorial SV may stabilize on its own. It is necessary, in this author's opinion, to propose to current physics a review of this framework named "Contemporary Factual Mathematics and Physics of the SV", whose guiding principle is as simple as the phrase attributed to Albert Einstein:* «Everything should be made as simple as possible, but no simpler».
 
 ---
 
