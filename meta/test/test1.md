@@ -2,22 +2,11 @@
 
 # Teoría general de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV
 
-**Juan Antonio Lloret Egea**
+© 2026. Todos los derechos reservados. | DOI: | Juan Antonio Lloret Egea | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) | IA eñ™ — La Biblia de la IA™ | ISSN 2695-6411 | Licencia CC BY-NC-ND 4.0 | Madrid, 26/04/2026 |
 
-*ITVIA — Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™*  
-*IA eñ™ — La Biblia de la IA™*  
-*ISSN 2695-6411*  
-*ORCID: 0000-0002-6634-3351*  
-*Madrid, 26 de abril de 2026*  
-*Licencia: CC BY-NC-ND 4.0*
+**Advertencia:** Esta publicación está protegida por CEDRO y su aplicación en el campo de la Física, así como cualquier forma de explotación, reproducción o uso por parte de empresas, queda sujeta al copyright del autor y a los términos de la licencia indicada; la reproducción, distribución, comunicación pública o transformación de esta obra sólo puede ser realizada con la autorización de sus titulares, salvo excepción prevista por la ley, y cualquier uso comercial sin autorización expresa queda prohibido y estrictamente supeditado al licenciamiento permitido.
 
----
-
-## Nota de versión V.1
-
-Esta versión V.1 nace como derivada necesaria dentro del marco del desarrollo de una Inteligencia Artificial trazable, subordinada al ser humano y garante en el cumplimiento de los marcos que el Sistema Vectorial SV pretende y necesita. Esta publicación no concluye aquí, sino que se inicia para aportar el conocimiento absoluto que el Sistema Vectorial SV pueda estabilizar por sí mismo. Es necesidad, en opinión de este autor, proponer a la física actual una revisión sobre este marco denominado «Matemática y Física Factual contemporánea del SV», cuyo principio rector es tan sencillo como la frase atribuida a Albert Einstein: *«Todo debe hacerse tan simple como sea posible, pero no más simple».*
-
-*Version note V.1 — This version V.1 emerges as a necessary derivation within the framework of developing a traceable Artificial Intelligence, subordinated to the human being and faithful in fulfilling the frameworks that the Sistema Vectorial SV proposes and requires. This publication does not conclude here; it begins, contributing the absolute knowledge that the Sistema Vectorial SV may stabilize on its own. It is necessary, in this author's opinion, to propose to current physics a review of this framework named "Contemporary Factual Mathematics and Physics of the SV", whose guiding principle is as simple as the phrase attributed to Albert Einstein:* «Everything should be made as simple as possible, but no simpler».
+**Warning:** This publication is protected by CEDRO. Its application in the field of Physics, as well as any form of exploitation, reproduction, or use by corporate entities, is strictly subject to the author's copyright and the terms of the license indicated; any reproduction, distribution, public communication, or transformation of this work requires authorization from the rightsholders, except as provided by law, and any commercial use without express written consent is prohibited and strictly subject to permitted licensing.
 
 ---
 
@@ -1397,17 +1386,18 @@ monótona no decreciente
 
 | Sup. | Tipología | EM (1+2) | Grav (3) | TPA (4) | Conv (5) | Esp (6) | Top (7+O3) | 𝒮_1 | 𝒮_2 | 𝒮_3 | 𝒮_4 dictamen | 𝒮_5 | 𝒮_6 | 𝒮_7 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| §17.1 | Σ_6 | | | | | | | | | | m_0 = 3 | | | E_0 = 3c² |
-| §17.2 | Σ_5 | | | | | | | | | | U | | | vacuo |
-| §17.3 | Σ_2 | | | | | | | | | | χ_α | | | sobre χ_α |
-| §17.4 | Σ_3 | | | | | | | | | | m_0 = 4 | | | E_0 = 4c² |
-| §17.5 | Σ_4 | | | | | | | | | | χ_α | | | sobre χ_α |
-| §17.6 | Σ_1 | | | | | | | | | | m_0 = 2 | | | E_0 = 2c² |
-| §17.7 | Σ_8 | | | | | | | | | | χ_α | | | sobre χ_α |
-| §17.8 | Σ_7 | | | | | | | | | | m_0 = 7 | | | E_0 = 7c² |
-| §17.9 | Σ_10 | | | | | | | | | | χ_α | | | sobre χ_α |
-| §17.10 | Σ_9 | | | | | | | | | | U | | | vacuo |
-| **Total** | **verificado** | **verificado** | **verificado** | **verificado** | **verificado** | **verificado** | **verificado** | **verificado** | **verificado** | **verificado** | — | **verificado** | **verificado** | **verificado** |
+| §17.1 | Σ_6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | m_0 = 3 | 0 | 0 | E_0 = 3c² |
+| §17.2 | Σ_5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | U | 0 | 0 | vacuo |
+| §17.3 | Σ_2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | χ_α | 0 | 0 | sobre χ_α |
+| §17.4 | Σ_3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | m_0 = 4 | 0 | 0 | E_0 = 4c² |
+| §17.5 | Σ_4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | χ_α | 0 | 0 | sobre χ_α |
+| §17.6 | Σ_1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | m_0 = 2 | 0 | 0 | E_0 = 2c² |
+| §17.7 | Σ_8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | χ_α | 0 | 0 | sobre χ_α |
+| §17.8 | Σ_7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | m_0 = 7 | 0 | 0 | E_0 = 7c² |
+| §17.9 | Σ_10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | χ_α | 0 | 0 | sobre χ_α |
+| §17.10 | Σ_9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | U | 0 | 0 | vacuo |
+
+**Lectura canónica de la tabla.** Las doce columnas operatorias (EM, Grav, TPA, Conv, Esp, Top, 𝒮_1, 𝒮_2, 𝒮_3, 𝒮_5, 𝒮_6) se anulan canónicamente sobre los diez supuestos: cada componente operatorio del subaparato **U**ᵘⁿⁱᶠ_SV evaluada sobre la configuración admisible respectiva produce el valor canónico cero. La columna 𝒮_4 dictamen reporta el dictamen final canónico de la cadena fundacional sobre cada tipología (m_0 ∈ ℕ, χ_α emergente clausurable, U honesta sostenida). La columna 𝒮_7 reporta la absorción basal cruzada (E_0 = m_0·c² en supuestos con clausura masiva, vacuo en U-puro, sobre χ_α en clases emergentes). La verificación numérica componente a componente está documentada en las subsecciones §17.2–§17.11; la consolidación por suma absoluta de componentes |𝓤⁽ʲ⁾_i| produce 0,000… sobre cada supuesto, conforme al §17.13.
 
 **Teorema §17.1 (Cumplimiento canónico del banco numérico).** Los diez supuestos del banco satisfacen **U**ᵘⁿⁱᶠ_SV = 0 con verificación trazable componente a componente sobre los siete operadores sectoriales y las siete identidades intersectoriales. Las trayectorias TPA respetan m_k ∈ ℤ y φ(S_k) ∈ {0, …, 9}; las identidades O1 y O2 se cumplen estructuralmente por suma telescópica; la integral compleja factual O3 queda absorbida por el sector 7 conforme a la asignación canónica de luz factual §6.2; las diez configuraciones electromagnéticas son distintas y cierran independientemente las cuatro identidades de Maxwell factual; los datos preternarios garantizan la monotonía no decreciente de A_i(n) y V_i(δ, n) por construcción canónica; los contenidos factuales Ξ_SV declarados producen dictamen final canónico ∈ {m_0, χ_α, U} con E_0 = m_0·c² verificado en los cuatro supuestos con clausura masiva.
 
@@ -1594,6 +1584,20 @@ Las situaciones de indeterminación honesta se preservan con marca U:
 **Teorema §20.1 (Coherencia integral del régimen unificado).** El operador maestro **U**ᵘⁿⁱᶠ_SV definido por la Definición §11.9, articulado con el nivel canónico interior establecido en los §§2–7 (teorema de unicidad estructural condicionada del tránsito ε₀–F₀–U; F₀ como preformalidad mínima; cadena fundacional como dependencia formal de legitimidad; par polar (α, β) como protocampo primordial; sucesos generadores como operadores; compuerta Π_3^H), constituye la **construcción rigurosa que cierra el contrato canónico anunciado por luz factual §22.2** sobre la ecuación candidata **U**ᵘⁿⁱᶠ_SV. La construcción opera al nivel canónico del programa conforme a G.1, preservando la frontera exterior (ε₀ y las visiones V.1–V.15) conforme a G.3.
 
 *Demostración.* Reunión sintética de los resultados R.1–R.21. Q.E.D.
+
+**Corolario §20.1 (Cadena canónica de tres planos del Sistema Vectorial SV).** El régimen del Sistema Vectorial SV se articula canónicamente en tres planos encadenados por implicación estructural directa:
+
+```math
+\text{Plano fundacional} \;\Longrightarrow\; \text{Plano algebraico} \;\Longrightarrow\; \text{Plano factual}
+```
+
+donde:
+
+- **Plano fundacional** comprende la cadena F₀ ⊢ Def_SV(ε₀); ε₀ : ∅ → Ω_pre → protocampos (α, β) → sucesos generadores → compuerta Π_3^H, cerrada en los §§3–7 con el Teorema §2.1 de unicidad estructural condicionada.
+- **Plano algebraico** comprende los siete operadores sectoriales 𝓤⁽ʲ⁾_SV, las siete identidades intersectoriales {𝒮_k}, el operador concatenador ⊕ con cláusulas C.1 y C.2, el morfismo dictamen ternario G**_SV = Adm ∘ Rec, y la fórmula maestra unificada 𝔉_SV en pieza algebraica única, cerrados en los §§11–15 y el Anexo §K.
+- **Plano factual** comprende los siete sectores primarios coexistentes (eléctrico, magnético, gravitatorio bisectorial, TPA, convergencia ternaria, espectral, topológico), los veinte campos del catálogo, las once absorciones canónicas, los trece invariantes, la verificación numérica del banco §17, todos cerrados por las publicaciones del corpus con DOI.
+
+*Demostración del Corolario §20.1.* La implicación Plano fundacional ⇒ Plano algebraico está cerrada por la cadena fundacional canónica del §4 que produce los operadores como sucesos generadores sobre el dominio preternario abierto por ε₀, junto con el Teorema §2.1 que fija la unicidad del tránsito; los siete operadores sectoriales 𝓤⁽ʲ⁾_SV operan canónicamente sobre los protocampos (α, β) emergidos del plano fundacional. La implicación Plano algebraico ⇒ Plano factual está cerrada por la articulación canónica de cada operador sectorial con el cierre canónico de su sector en el corpus (Teorema §A.1, articulación canónica completa) y por la verificación numérica del banco §17 sobre la célula canónica SV(b, n). La cadena de tres planos cierra canónicamente el régimen factual del Sistema Vectorial SV sin solución de continuidad estructural. Q.E.D.
 
 ---
 
@@ -1919,7 +1923,7 @@ La fórmula **U**ᵘⁿⁱᶠ_SV = 0, considerada como entidad canónica del cor
 
 ### §C.4. Estatuto canónico de la fórmula
 
-**Declaración canónica.** La Fórmula Universal Absoluta 𝔉_SV es canónica y falsable simultáneamente. La falsabilidad operativa bajo los seis criterios F1–F6 del §C es propiedad canónica intrínseca de la canonicidad del Sistema Vectorial SV, no concesión exterior ni debilitamiento de la pretensión canónica:
+**Declaración canónica.** La Fórmula Universal Absoluta 𝔉_SV es canónica y falsable simultáneamente. La falsabilidad operativa bajo los seis criterios F1–F6 del §C es propiedad canónica intrínseca de la canonicidad del Sistema Vectorial SV, no concesión exterior ni debilitamiento de la canonicidad declarada:
 
 (α) **Canonicidad del Sistema Vectorial SV.** La fórmula 𝔉_SV es canónica sobre el SV: opera sobre los siete sectores primarios coexistentes con cardinalidad cerrada por la Proposición 6.1 de luz factual §6.2; sobre las siete identidades intersectoriales canónicamente cerradas; sobre la discrepancia canónica del morfismo dictamen ternario, que es cero por el Teorema §K.1. La igualdad 𝔉_SV : ⊕…⊕ Δ_SV = 0 es la pieza canónica en una pieza algebraica única (§K.9).
 
@@ -2027,6 +2031,8 @@ Sobre cada supuesto, sumando las contribuciones de las nueve posiciones (datos p
 **Teorema §E.1 (Coincidencia canónica cruzada de absorciones).** Para cada una de las once absorciones canónicas del corpus SV y para cada uno de los diez supuestos del banco numérico canónico depurado del §17, el valor evaluado por separado y el valor evaluado como restricción de **U**ᵘⁿⁱᶠ_SV al sector correspondiente coinciden exactamente con diferencia residual cero.
 
 *Demostración.* Por la Tabla §E.1, las 110 celdas (11 absorciones × 10 supuestos) presentan diferencia residual 0,00. La construcción canónica de cada operador sectorial 𝓤⁽ʲ⁾_SV reproduce literalmente el operador maestro del sector j del corpus. La conjunción lógica factual ⊕ del §11.1 garantiza que la restricción de **U**ᵘⁿⁱᶠ_SV al sector j coincide con 𝓤⁽ʲ⁾_SV evaluado sobre la configuración del supuesto. La verificación numérica sobre los diez supuestos confirma la coincidencia. Los valores cuantitativos de las absorciones energéticas con identidad de Poynting verificada (∂_ν^SV u_SV + Div_SV(S_SV) + ⟨E, J⟩_SV = 0 con residuo 0,000000 sobre los diez supuestos) se exhiben en la Tabla §I.1 del §I.1, con funciones canónicas explícitas trazables aplicadas sobre los datos EM del banco. Q.E.D.
+
+**Estatuto canónico de la trazabilidad por publicación con DOI.** Cada absorción canónica del Teorema §E.1 está cerrada en su publicación de origen del corpus con DOI explícito: §18.1 Maxwell factual (Lloret Egea, 2026k, DOI 10.17613/kep1t-57539, §3.7); §18.2 luz factual (Lloret Egea, 2026 — luz factual, DOI 10.17613/1z7c0-mqb40, Anexo A.5); §18.3 gravedad factual (Lloret Egea, 2026a, §IV.21); §18.4 TPA (Lloret Egea, 2026a, Plano III); §18.5 Γ_ℋ (Lloret Egea, 2026c, Teorema 1); §18.6 espectral (Lloret Egea, 2026a, Plano IV); §18.7 topológico+O3 (Lloret Egea, 2026a, Plano V); §18.8 𝔈_SV energía factual (Lloret Egea, 2026k, §11.6); §18.9 H_SV entropía factual (Lloret Egea, 2026 — entropía factual, DOI 10.17613/vh6ak-6em43); §18.10 trabajo factual (Lloret Egea, 2026l, DOI 10.17613/ptw68-d1r57, §3); §18.11 calor factual (Lloret Egea, 2026l, DOI 10.17613/ptw68-d1r57, §3). La verificación canónica de cada absorción es heredada literalmente del cierre canónico de su publicación de origen; la prohibición constitutiva P.5 del corpus proscribe la reintroducción axiomática de cada cierre dentro del documento. La articulación canónica del documento opera por invocación trazable de cada DOI, no por reescritura interna.
 
 ---
 
@@ -2600,7 +2606,13 @@ El operador Rec extrae la información estructural canónicamente cerrada de T s
 
 ### §K.4. Mecanismo canónico de admisibilidad Adm
 
-**Definición §K.4 (Admisibilidad canónica Adm sobre Rec(T)).** Sobre el contenido reconstruido Rec(T), la admisibilidad canónica Adm aplica las condiciones canónicas de la Proposición 5.1 de Lloret Egea (2026h, ec. (4.5)) para evaluar la legitimidad de cada dictamen ternario:
+**Definición §K.4 (Admisibilidad canónica Adm sobre Rec(T)).** La admisibilidad canónica Adm es la función total
+
+```math
+\mathrm{Adm}: \mathrm{Rec}(T_{SV}) \longrightarrow K_3, \qquad \mathrm{Rec}(T) \longmapsto \mathrm{Adm}(\mathrm{Rec}(T)) \in \{0,\,1,\,U\},
+```
+
+definida canónicamente por disjunción exhaustiva mutuamente excluyente sobre las tres regiones canónicas Θ_m, Θ_χ, Θ_U fijadas por la Proposición 11.3 de Lloret Egea (2026h). Sobre el contenido reconstruido Rec(T), Adm aplica las condiciones canónicas de la Proposición 5.1 de Lloret Egea (2026h, ec. (4.5)) para evaluar la legitimidad de cada dictamen ternario:
 
 ```math
 \mathrm{Adm}(\mathrm{Rec}(T)) := \bigl(\mathrm{Adm}_0,\, \mathrm{Adm}_1,\, \mathrm{Adm}_U\bigr)
@@ -2649,6 +2661,10 @@ La unicidad estricta se sigue de:
 (v) **Unicidad estricta de Adm bajo disjunción canónica.** Las condiciones canónicas de admisibilidad están fijadas por la Proposición 5.1 de Lloret Egea (2026h) y por la disjunción Θ_m, Θ_χ, Θ_U. Bajo esta disjunción exhaustiva, los predicados ternarios Adm_0, Adm_1, Adm_U son únicos sobre Rec(T_SV).
 
 (vi) **Unicidad estricta de G**_SV.** G**_SV = Adm ∘ Rec es composición de funciones únicas estrictas, luego es función única estricta sobre T_SV. Q.E.D.
+
+**Corolario §K.1.bis (Unicidad estricta de la factorización canónica).** Bajo la fijación canónica de Rec (heredada literalmente del Plano III de Lloret Egea, 2026a, sobre los seis elementos canónicos del aparato TPA) y la fijación canónica de Adm (heredada literalmente de la Proposición 5.1 de Lloret Egea, 2026h, sobre la disjunción exhaustiva Θ_m, Θ_χ, Θ_U), la factorización G**_SV = Adm ∘ Rec es la única factorización canónica del morfismo dictamen ternario sobre T_SV. Toda factorización G' = Adm' ∘ Rec' que pretenda morfismo dictamen ternario canónico sobre T_SV con codominio K_3 conforme al Axioma Ax2 del corpus produce, bajo la fijación canónica heredada del corpus, isomorfismo canónico con G**_SV.
+
+*Demostración.* Por (iv), Rec es estrictamente único sobre T_SV bajo fijación canónica heredada del Plano III. Por (v), Adm es estrictamente único sobre Rec(T_SV) bajo disjunción canónica heredada de la Proposición 5.1. Por composición canónica, la factorización Adm ∘ Rec es estrictamente única sobre T_SV. Toda otra factorización G' = Adm' ∘ Rec' que respete la fijación canónica del corpus tiene Rec' = Rec por unicidad de Rec, y Adm' = Adm por unicidad de Adm, luego G' = G**_SV. Q.E.D.
 
 ### §K.7. Compatibilidad canónica con la fórmula maestra **U**ᵘⁿⁱᶠ_SV = 0
 
@@ -2702,6 +2718,8 @@ Los dos dictámenes son canónicamente compatibles vía esta correspondencia; G*
 ```
 
 La compuerta Δ_SV(G**_SV) es **función canónica del aparato** del mismo tipo que las once absorciones canónicas del §18: devuelve 0 sobre toda configuración admisible donde el morfismo dictamen produce valor en K_3, y devuelve 𝟏 cuando el morfismo dictamen produciría valor fuera de K_3. Por el Teorema §K.1 (buena definición canónica de G**_SV sobre T_SV), Δ_SV(G**_SV)(T) = 0 para toda T ∈ T_SV. Bajo la Definición §11.1 del operador ⊕, la compuerta Δ_SV(G**_SV) es operando válido para ⊕: la condición Δ_SV(G**_SV) = 0 expresa canónicamente que el morfismo dictamen está bien definido sobre toda trayectoria admisible.
+
+**Semántica canónica de Δ_SV.** La compuerta Δ_SV mide canónicamente la **buena definición** del morfismo G**_SV: Δ_SV(G**_SV)(T) = 0 si y sólo si G**_SV(T) ∈ K_3 = {0, **1**, U}, esto es, si el morfismo asigna a T un valor canónico cualquiera del codominio ternario (clausura masiva 0, clausura masiva **1**, o indeterminación honesta U). Δ_SV no mide admisibilidad pura: el dictamen U sobre trayectorias canónicamente indeterminadas es propiedad canónica protegida por el postulado G.3 del corpus, y produce Δ_SV(G**_SV) = 0 con el mismo estatuto canónico que los dictámenes 0 y **1**. La fórmula 𝔉_SV = 0 cubre canónicamente las tres clases de dictamen sin colapsar U a 0 ni a **1**.
 
 **Definición §K.7 (Fórmula maestra unificada del Sistema Vectorial SV).** La fórmula maestra unificada del SV, denotada 𝔉_SV, se fija canónicamente por la siguiente igualdad algebraica:
 
@@ -2763,6 +2781,12 @@ La pieza algebraica canónicamente única del Sistema Vectorial SV es 𝔉_SV de
 **Corolario §K.1 (Estatuto canónico de la fórmula maestra).** 𝔉_SV es la pieza algebraica canónica del Sistema Vectorial SV: Universal sobre el régimen factual, canónicamente cerrada, compacta como mínima cardinalidad estructural posible, y suelo doctrina canónico de toda la física y matemática del Sistema Vectorial SV.
 
 ---
+
+## Nota de versión V.1
+
+Esta versión V.1 nace como derivada necesaria dentro del marco del desarrollo de una Inteligencia Artificial trazable, subordinada al ser humano y garante en el cumplimiento de los marcos que el Sistema Vectorial SV pretende y necesita. Esta publicación no concluye aquí, sino que se inicia para aportar el conocimiento absoluto que el Sistema Vectorial SV pueda estabilizar por sí mismo. Es necesidad, en opinión de este autor, proponer a la física actual una revisión sobre este marco denominado «Matemática y Física Factual contemporánea del SV», cuyo principio rector es tan sencillo como la frase atribuida a Albert Einstein: *«Todo debe hacerse tan simple como sea posible, pero no más simple».*
+
+*Version note V.1 — This version V.1 emerges as a necessary derivation within the framework of developing a traceable Artificial Intelligence, subordinated to the human being and faithful in fulfilling the frameworks that the Sistema Vectorial SV proposes and requires. This publication does not conclude here; it begins, contributing the absolute knowledge that the Sistema Vectorial SV may stabilize on its own. It is necessary, in this author's opinion, to propose to current physics a review of this framework named "Contemporary Factual Mathematics and Physics of the SV", whose guiding principle is as simple as the phrase attributed to Albert Einstein:* «Everything should be made as simple as possible, but no simpler».
 
 ---
 
