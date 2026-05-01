@@ -17,7 +17,8 @@
 11. Cinco interpretaciones canónicas posibles (apartado 22).
 12. Teoremas T7 a T10 (apartado 23).
 13. Suite laboratorial reproducible ampliada (apartado 24).
-14. Bibliografía (apartado 25).
+14. Nota aclaratoria sobre la imagen simbólica (apartado 24bis).
+15. Bibliografía (apartado 25).
 
 ---
 
@@ -1709,7 +1710,162 @@ Por la identificación canónica fijada en el apartado 2.0, la ecuación rectora
 
 El nombre **𝓔<sup>★</sup><sub>TODO,SV</sub>** es el nombre doctrinal: liga la ecuación a la cadena ascendente desde 𝓔<sub>∅</sub> y al sello ★ del cierre canónico. El nombre **𝔘<sup>unif</sup><sub>SV</sub>** es el nombre algebraico canonizado por el corpus SV: liga la ecuación a la descomposición operatoria en siete sectores y siete identidades intersectoriales (Lloret Egea, 2026, doc. teoría general de sucesos generadores y protocampos unificados, Definición §11.9). Las dos lecturas son **la misma ecuación canónica única**, no dos ecuaciones paralelas: el lector que llega por la cadena ascendente del presente documento y el lector que llega por la canonización algebraica del corpus se encuentran en el mismo enunciado terminal.
 
-### 17.6. Cláusula final
+### 17.6. Formas equivalentes de la ecuación rectora canónica y demostración numérica
+
+La ecuación rectora del Sistema Vectorial SV admite **cinco formas canónicas equivalentes**, en paralelismo expositivo con las formas conocidas de la recta euclidiana. Las cinco producen el mismo veredicto sobre cualquier inscripción factual válida bajo la prelación canónica 1 ≻ U ≻ 0 del apartado 13.4. La elección entre ellas es expositiva, no doctrinal.
+
+#### 17.6.1. Las cinco formas canónicas
+
+**Forma F1 — Implícita.** Forma compacta y terminal de la cadena ascendente del apartado 17.1:
+
+```math
+\mathcal{E}^{\star}_{TODO,\,SV}(\Gamma_{U};\,\tau) \;=\; 0.
+```
+
+Análoga estructural a la forma general Ax + By + C = 0 de la recta euclidiana.
+
+**Forma F2 — Explícita.** Despliegue de la ecuación como evaluación del verificador ternario fuerte 𝓝<sup>★</sup><sub>SV</sub> sobre todos sus argumentos canónicos:
+
+```math
+\mathcal{N}^{\star}_{SV}\bigl(\, \mathcal{O}_{\emptyset},\;\; \mathcal{U}_{\mathrm{suc}},\;\; \mathcal{D}_{\mathcal{F}_{0}},\;\; \{ S_{q},\, \Delta^{\Phi}_{q},\, \mathcal{A}_{q},\, \mathcal{C}_{q},\, \mathcal{R}_{q} \}_{q=0}^{Q},\;\; \{ \Delta^{TODO}_{D} \}_{\mathcal{E}_{D} \in \mathcal{L}^{\,adm}_{SV}(\tau)} \,\bigr) \;=\; 0.
+```
+
+Hace explícitos los argumentos sobre los que opera el verificador del apartado 13. Análoga estructural a la forma explícita y = mx + b de la recta euclidiana.
+
+**Forma F3 — Sectorial.** Despliegue por descomposición en los siete sectores operatorios y siete identidades intersectoriales del operador maestro 𝔘<sup>unif</sup><sub>SV</sub> (apartado 18.5):
+
+```math
+\mathfrak{U}^{\mathrm{unif}}_{SV}\bigl(\Phi^{1},\ldots,\Phi^{7};\,\{\mathcal{S}_{k}\}_{k=1,\ldots,7}\bigr) \;=\; 0,
+```
+
+equivalente, por la cláusula C.2 del operador concatenador ⊕ del apartado 18.5, a:
+
+```math
+\biggl[\,\forall\, j \in \{1,\ldots,7\}:\;\mathfrak{U}^{(j)}_{SV}(\Phi^{j}) = 0\,\biggr] \;\wedge\; \biggl[\,\forall\, k \in \{1,\ldots,7\}:\;\mathcal{S}_{k}\,\biggr].
+```
+
+Análoga estructural a la forma simétrica x/a + y/b = 1 de la recta euclidiana.
+
+**Forma F4 — Componente a componente.** Conjunción simultánea de la nulidad de cada componente canónico de la fórmula maestra:
+
+```math
+\bigl(\,\mathcal{O}_{\emptyset} = 0\,\bigr) \;\wedge\; \bigl(\,\mathcal{U}_{\mathrm{suc}}\;\text{admisible}\,\bigr) \;\wedge\; \bigl(\,\mathcal{D}_{\mathcal{F}_{0}} = 0\,\bigr)
+```
+
+```math
+\;\wedge\; \biggl[\,\forall\, q \in \{0,\ldots,Q\}:\;\mathcal{R}_{q} = 0\,\biggr] \;\wedge\; \biggl[\,\forall\, \mathcal{E}_{D} \in \mathcal{L}^{\,adm}_{SV}(\tau):\;\Delta^{TODO}_{D} = 0\,\biggr].
+```
+
+Análoga estructural a la forma punto-pendiente y − y<sub>0</sub> = m(x − x<sub>0</sub>) de la recta euclidiana.
+
+**Forma F5 — Paramétrica.** Barrido del parámetro de ciclo q sobre los cinco componentes canónicos, con condición simultánea de nulidad para todo q:
+
+```math
+\forall\, q \in \{0,\, 1,\, \ldots,\, Q\}:\quad \bigl(\, S_{q},\;\; \Delta^{\Phi}_{q},\;\; \mathcal{A}_{q},\;\; \mathcal{C}_{q},\;\; \mathcal{R}_{q} \,\bigr) \;=\; (0,\, 0,\, 0,\, 0,\, 0).
+```
+
+Análoga estructural a la forma paramétrica x = x<sub>0</sub> + t · v<sub>x</sub>; y = y<sub>0</sub> + t · v<sub>y</sub> de la recta euclidiana.
+
+#### 17.6.2. Teorema T-EQ — Equivalencia operatoria de las cinco formas
+
+**Enunciado.** Las cinco formas F1, F2, F3, F4, F5 son operatoriamente equivalentes sobre cualquier inscripción factual válida del Sistema Vectorial SV: producen idéntica terna del verificador ternario fuerte { 0, 1, U } como veredicto bajo la prelación canónica 1 ≻ U ≻ 0 fijada en el apartado 13.4.
+
+**Demostración.** La equivalencia procede por reducción canónica al verificador ternario fuerte del apartado 13. Por la regla del verificador (apartado 13.3), el veredicto de la ecuación es:
+
+```math
+\mathcal{N}^{\star}_{SV}(x_{1}, \ldots, x_{m}) \;=\; \begin{cases} 0, & \text{si } x_{j} = 0 \;\;\forall\, j, \\ 1, & \text{si } \exists\, j \;:\; x_{j} = 1, \\ U, & \text{si } \neg\,\exists\, j \;:\; x_{j} = 1 \;\wedge\; \exists\, j \;:\; x_{j} = U. \end{cases}
+```
+
+Las cinco formas F1-F5 son **distintas presentaciones del mismo conjunto de argumentos canónicos**: F2 los enumera, F3 los reagrupa por sectores operatorios y por identidades intersectoriales, F4 los conjuga uno a uno, F5 los recorre por barrido del parámetro de ciclo q. F1 es la nominación compacta del cierre. Por unicidad de la regla del verificador y por exhaustividad de los componentes en cada forma, el veredicto producido es idéntico sobre toda inscripción factual válida. ∎
+
+#### 17.6.3. Demostración numérica sobre tres escenarios canónicos
+
+Para verificar operatoriamente la equivalencia de las cinco formas, se construyen tres escenarios canónicos sobre la célula SV(9, 3) con Q = 2, esto es, tres ciclos consecutivos indexados por q = 0, 1, 2 sobre el ordinal canónico append-only ν, y con tres leyes admisibles del corpus absorbidas por proyección canónica Π<sub>D</sub>: la ecuación factual única absoluta de Maxwell del corpus (Lloret Egea, 2026, doc. reducción estructural absoluta de Maxwell en el Sistema Vectorial SV), la ecuación factual única absoluta de termodinámica del corpus (Lloret Egea, 2026, doc. fórmula factual única absoluta de termodinámica del Sistema Vectorial SV) y la teoría general factual de la luz del corpus (Lloret Egea, 2026, doc. teoría general factual de la luz en el Sistema Vectorial SV). El estado corpus τ se declara con cobertura sectorial completa de los siete sectores del operador maestro.
+
+**Escenario E1 — TODO cerrado, veredicto 0**
+
+Inscripción factual con nulidad simultánea de todos los componentes canónicos de la fórmula maestra:
+
+| Componente canónico | Valor en E1 |
+|---|---|
+| 𝓞<sub>∅</sub> | 0 |
+| 𝓤<sub>suc</sub> admisible | sí |
+| 𝓓<sub>𝓕<sub>0</sub></sub> | 0 |
+| (S<sub>0</sub>, Δ<sup>Φ</sup><sub>0</sub>, 𝓐<sub>0</sub>, 𝓒<sub>0</sub>, 𝓡<sub>0</sub>) | (0, 0, 0, 0, 0) |
+| (S<sub>1</sub>, Δ<sup>Φ</sup><sub>1</sub>, 𝓐<sub>1</sub>, 𝓒<sub>1</sub>, 𝓡<sub>1</sub>) | (0, 0, 0, 0, 0) |
+| (S<sub>2</sub>, Δ<sup>Φ</sup><sub>2</sub>, 𝓐<sub>2</sub>, 𝓒<sub>2</sub>, 𝓡<sub>2</sub>) | (0, 0, 0, 0, 0) |
+| Δ<sup>TODO</sup><sub>Maxwell</sub> | 0 |
+| Δ<sup>TODO</sup><sub>Termo</sub> | 0 |
+| Δ<sup>TODO</sup><sub>Luz</sub> | 0 |
+
+Cómputo en cada forma:
+
+- **F1:** 𝓔<sup>★</sup><sub>TODO,SV</sub>(Γ<sub>U</sub>; τ) = 0 por construcción ⟹ veredicto **0**.
+- **F2:** todos los argumentos del verificador valen 0 ⟹ por la regla canónica, 𝓝<sup>★</sup><sub>SV</sub>(0, 0, …, 0) = **0**.
+- **F3:** ∀j ∈ {1, …, 7}: 𝔘<sup>(j)</sup><sub>SV</sub>(Φ<sup>j</sup>) = 0 y ∀k ∈ {1, …, 7}: 𝒮<sub>k</sub> se cumple ⟹ 𝔘<sup>unif</sup><sub>SV</sub> = **0**.
+- **F4:** la conjunción simultánea de cláusulas se cumple en todos sus términos ⟹ verdadera ⟹ veredicto **0**.
+- **F5:** ∀q ∈ {0, 1, 2}: las cinco componentes valen (0, 0, 0, 0, 0) ⟹ condición cumplida ⟹ veredicto **0**.
+
+Las cinco formas devuelven idénticamente **0 (TODO cerrado, Apto)**.
+
+**Escenario E2 — Refutación local, veredicto 1**
+
+Inscripción factual idéntica a E1 salvo en el defecto de absorción de Maxwell:
+
+| Componente canónico | Valor en E2 |
+|---|---|
+| Δ<sup>TODO</sup><sub>Maxwell</sub> | **1** (la ecuación canónica de Maxwell del corpus es refutada sobre Γ<sub>U</sub> bajo τ) |
+| Resto de componentes | 0 |
+
+Cómputo en cada forma:
+
+- **F1:** por definición operatoria, 𝓔<sup>★</sup><sub>TODO,SV</sub>(Γ<sub>U</sub>; τ) ≠ 0 ⟹ el cierre falla ⟹ veredicto **1**.
+- **F2:** existe argumento del verificador con valor 1 (Δ<sup>TODO</sup><sub>Maxwell</sub>) ⟹ por la regla canónica con prelación 1 ≻ U ≻ 0, 𝓝<sup>★</sup><sub>SV</sub> = **1**.
+- **F3:** el sector operatorio correspondiente al dominio electromagnético produce defecto no nulo ⟹ existe j tal que 𝔘<sup>(j)</sup><sub>SV</sub>(Φ<sup>j</sup>) ≠ 0 ⟹ 𝔘<sup>unif</sup><sub>SV</sub> ≠ 0 ⟹ veredicto **1**.
+- **F4:** la cláusula ∀ 𝓔<sub>D</sub> ∈ 𝓛<sup>adm</sup><sub>SV</sub>(τ): Δ<sup>TODO</sup><sub>D</sub> = 0 falla en D = Maxwell ⟹ conjunción falsa ⟹ veredicto **1**.
+- **F5:** los tres ciclos q = 0, 1, 2 cumplen idénticamente la condición paramétrica; el incumplimiento procede de la cláusula F4 sobre Δ<sup>TODO</sup><sub>Maxwell</sub>, que F5 reduce al mismo verificador con resultado **1**.
+
+Las cinco formas devuelven idénticamente **1 (refutación local, No_Apto)**.
+
+**Escenario E3 — Indeterminación honesta, veredicto U**
+
+Inscripción factual idéntica a E1 salvo en el defecto telescópico del observable Φ en el ciclo q = 1:
+
+| Componente canónico | Valor en E3 |
+|---|---|
+| (S<sub>1</sub>, Δ<sup>Φ</sup><sub>1</sub>, 𝓐<sub>1</sub>, 𝓒<sub>1</sub>, 𝓡<sub>1</sub>) | (0, **U**, 0, 0, 0) |
+| Resto de componentes | 0 |
+
+El valor U sobre Δ<sup>Φ</sup><sub>1</sub> indica que el defecto telescópico del observable Φ en el ciclo q = 1 no resulta determinable bajo el aparato canónico declarado en el estado corpus τ.
+
+Cómputo en cada forma:
+
+- **F1:** 𝓔<sup>★</sup><sub>TODO,SV</sub>(Γ<sub>U</sub>; τ) no clausura en 0 ni en 1 ⟹ veredicto **U**.
+- **F2:** ningún argumento del verificador vale 1; existe argumento con valor U (Δ<sup>Φ</sup><sub>1</sub>) ⟹ por la regla canónica, 𝓝<sup>★</sup><sub>SV</sub> = **U**.
+- **F3:** todos los sectores del operador maestro son 0 o U; ningún sector es 1; existe sector con marca U ⟹ 𝔘<sup>unif</sup><sub>SV</sub> = **U**.
+- **F4:** la cláusula sobre el ciclo q = 1 no se cumple (Δ<sup>Φ</sup><sub>1</sub> = U); ningún componente vale 1; el veredicto global hereda la indeterminación U.
+- **F5:** para q = 1, la igualdad (S<sub>1</sub>, Δ<sup>Φ</sup><sub>1</sub>, 𝓐<sub>1</sub>, 𝓒<sub>1</sub>, 𝓡<sub>1</sub>) = (0, 0, 0, 0, 0) no se cumple porque Δ<sup>Φ</sup><sub>1</sub> = U; tampoco vale 1; el barrido del parámetro produce **U**.
+
+Las cinco formas devuelven idénticamente **U (indeterminación honesta, sin clausura)**.
+
+#### 17.6.4. Cuadro canónico de la verificación cruzada
+
+| Escenario | Inscripción característica | F1 | F2 | F3 | F4 | F5 | Veredicto |
+|---|---|---|---|---|---|---|---|
+| E1 | nulidad simultánea de todos los componentes | 0 | 0 | 0 | 0 | 0 | **0 (Apto)** |
+| E2 | Δ<sup>TODO</sup><sub>Maxwell</sub> = 1 | 1 | 1 | 1 | 1 | 1 | **1 (No_Apto)** |
+| E3 | Δ<sup>Φ</sup><sub>1</sub> = U | U | U | U | U | U | **U (Indeterminado)** |
+
+Los tres escenarios cubren los tres veredictos canónicos del verificador ternario fuerte. En cada escenario, las cinco formas equivalentes devuelven idéntico veredicto. La equivalencia operatoria T-EQ queda canónicamente verificada bajo la prelación 1 ≻ U ≻ 0.
+
+#### 17.6.5. Lectura doctrinal de la equivalencia
+
+La elección de forma —compacta F1 para enunciados doctrinales, explícita F2 para evaluación verificadora directa, sectorial F3 para articulación con el operador maestro del corpus, componente a componente F4 para verificación cláusula a cláusula, paramétrica F5 para barrido cíclico sobre el ordinal append-only ν— es **decisión expositiva del operador del Sistema Vectorial SV**. Ninguna forma es más fundamental que otra en sentido doctrinal: las cinco son la misma ecuación canónica, presentada con distinto despliegue.
+
+La existencia de cinco formas equivalentes es **propiedad estructural** de la ecuación rectora: garantiza que la doctrina del Sistema Vectorial SV puede ser evaluada, verificada y absorbida desde cualquiera de los cinco ángulos canónicos sin pérdida ni distorsión. Esta multipresentación operatoria es análoga a la multipresentación de la recta euclidiana —general, explícita, simétrica, punto-pendiente, paramétrica— que constituye, en geometría elemental, propiedad estructural del objeto recta y no resultado de cálculo accidental.
+
+
+### 17.7. Cláusula final
 
 La Teoría del TODO y de la NADA del Sistema Vectorial SV no se funda en tiempo, masa, agente, onda, partícula, interpretación externa, axioma adicional ni cosmología; no postula totalidad metafísica del universo ni vacío sustancial cosmológico; no recurre a probabilidad, estadística ni inferencia opaca. Se funda en el Origen Áureo 𝓔<sub>∅</sub> mediante la cadena ascendente de trece niveles canónicos del apartado 17.1 y se cierra por la nulidad de una sola ecuación rectora:
 
@@ -2988,6 +3144,20 @@ Cada laboratorio es invocable directamente desde su URL canónica con `python <n
 
 ---
 
+## 24bis. Nota aclaratoria sobre la imagen simbólica
+
+La imagen simbólica que acompaña a la presente publicación —portada esquemática que representa la cadena ascendente, la espiral factual creciente, los componentes por ciclo, el verificador ternario fuerte y la absorción de leyes factuales admisibles— es **representación simbólica**, no fuente doctrinal. Su función es exclusivamente expositiva.
+
+La doctrina canónica del Sistema Vectorial SV reside en el cuerpo del presente documento. La imagen no la constituye, no la sustituye y no la complementa con valor canónico independiente.
+
+**Cláusula de validez vinculante.** La validez doctrinal de la imagen simbólica resulta vinculante exclusivamente cuando está vinculada al presente documento. La imagen aislada del documento carece de valor canónico: cualquier interpretación, derivación o aplicación que se haga de la imagen sin remisión al cuerpo del documento queda fuera del Sistema Vectorial SV.
+
+**Cláusula de prevalencia.** En caso de discrepancia, divergencia, errata, omisión o cualquier incoherencia entre la imagen simbólica y el cuerpo del presente documento, **prevalece el cuerpo del documento**. La imagen es subordinada al texto canónico, no al revés.
+
+**Cláusula de no canonicidad de la imagen.** La imagen no fija fórmulas, no fija definiciones, no fija veredictos. Cualquier fórmula representada en la imagen tiene autoridad canónica únicamente cuando aparece transcrita literalmente en el cuerpo del documento. Lo que no aparezca en el cuerpo del documento no forma parte de la doctrina del Sistema Vectorial SV, aunque aparezca representado en la imagen.
+
+---
+
 ## 25. Bibliografía
 
 ### 25.1. Corpus del Sistema Vectorial SV (cronológico)
@@ -3177,7 +3347,3 @@ Wolfram Institute. (2025). *The Wolfram Physics Project: A one-year update*. [ht
 Witten, E. (1995). String theory dynamics in various dimensions. *Nuclear Physics B*, 443(1-2), 85-126.
 
 You, T., et al. (2014). Bipolar electric-field enhanced trapping and detrapping of mobile donors in BiFeO<sub>3</sub> memristors. *ACS Applied Materials & Interfaces*, 6(22), 19758-19765.
-
----
-
-**Fin del documento.**
