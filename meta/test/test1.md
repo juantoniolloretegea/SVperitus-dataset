@@ -128,7 +128,7 @@ El Sistema Vectorial SV se inscribe en la línea axiomatizadora del sexto proble
 
 ### 1.9. Posición de la presente publicación
 
-La presente publicación no propone una alternativa empírica a las teorías de la física de altas energías, ni pretende competir experimentalmente con la cromodinámica cuántica o la cosmología observacional. Su objeto es **doctrinal y estructural**: fija la Teoría del TODO y de la NADA del Sistema Vectorial SV como ecuación canónica única de nulidad conjunta sobre el Universo de Sucesos del sistema, refundada sobre el corpus SV del suceso admisible y sobre el aparato heredado de la distancia factual fibrosa, la célula configuracional, las magnitudes de cierre y el verificador ternario fuerte. Se inscribe en la tradición de axiomatización de Hilbert, contrasta con las posiciones probabilísticas, temporalistas y geometrizantes de las teorías de la unificación contemporáneas, y se articula como cadena ascendente de subordinación operatoria estructuralmente cerrada en un único enunciado terminal.
+La presente publicación no propone una alternativa empírica a las teorías de la física de altas energías, ni pretende competir experimentalmente con la cromodinámica cuántica o la cosmología observacional. Su objeto es **doctrinal y estructural**: fija la Teoría del TODO y de la NADA del Sistema Vectorial SV como ecuación canónica única de nulidad conjunta sobre el Universo de Sucesos del sistema, refundada sobre el corpus SV del suceso admisible (Lloret Egea, 2026, doc. teoría rigurosa del suceso admisible) y articulada mediante objetos formalizados en el presente documento: la distancia factual fibrosa, la célula configuracional K<sub>3</sub><sup>n</sup>, las magnitudes de cierre (μ, λ) y el verificador ternario fuerte 𝓝<sup>★</sup><sub>SV</sub>. Se inscribe en la tradición de axiomatización de Hilbert, contrasta con las posiciones probabilísticas, temporalistas y geometrizantes de las teorías de la unificación contemporáneas, y se articula como cadena ascendente de subordinación operatoria estructuralmente cerrada en un único enunciado terminal.
 
 ---
 ## 1bis. Naturaleza factual del frame en el Sistema Vectorial SV
@@ -829,7 +829,7 @@ El **Origen Áureo de la Teoría del TODO** se denota 𝓔<sub>∅</sub> y se de
 
 ### 3.2. Determinación canónica por las cinco negaciones
 
-𝓔<sub>∅</sub> queda íntegramente determinado por las cinco negaciones explícitas transcritas literalmente del cuadro **ORIGEN ÁUREO** del documento canónico.
+𝓔<sub>∅</sub> queda íntegramente determinado por las cinco negaciones explícitas declaradas a continuación como definición interna de la presente publicación.
 
 **No es suceso. No es sustancia. No es entidad. No es mecanismo. No es origen físico.**
 
@@ -901,7 +901,7 @@ Comprende toda entidad S que cumple simultáneamente la cláusula Suceso<sub>SV<
 
 ### 5.2. Caracterización doctrinal
 
-𝕌<sup>SV</sup><sub>suc</sub> es la **Totalidad máxima de sucesos formulables del SV**. Queda determinada por dos condiciones canónicas inexcusables, transcritas literalmente del cuadro **UNIVERSO DE SUCESOS** del documento canónico.
+𝕌<sup>SV</sup><sub>suc</sub> es la **Totalidad máxima de sucesos formulables del SV**. Queda determinada por dos condiciones canónicas inexcusables enunciadas a continuación como definición interna de la presente publicación.
 
 **No cerrado por axiomas adicionales.**
 
@@ -1450,7 +1450,7 @@ Para cada ley admisible 𝓔<sub>D</sub> ∈ 𝓛<sup>adm</sup><sub>SV</sub>(τ)
 
 La absorción de la ley 𝓔<sub>D</sub> se realiza por **proyección canónica Π<sub>D</sub> desde la trayectoria universal declarada Γ<sub>U</sub>, hacia el dominio D**. El indicador δ<sub>SV</sub> devuelve 0 si y sólo si la ley admisible queda satisfecha exactamente sobre la proyección.
 
-La absorción se rige por las cláusulas canónicas transcritas literalmente del cuadro **ABSORCIÓN DE LEYES FACTUALES ADMISIBLES** del documento canónico.
+La absorción se rige por las cláusulas canónicas declaradas a continuación, que articulan operatoriamente la subordinación de cada ley admisible 𝓔<sub>D</sub> ∈ 𝓛<sup>adm</sup><sub>SV</sub>(τ) a la ecuación rectora 𝓔<sup>★</sup><sub>TODO,SV</sub>.
 
 **Sin pesos, sin tolerancias, sin probabilidad.**
 
@@ -1627,29 +1627,100 @@ La cadena ascendente del Sistema Vectorial SV sube exactamente del Origen Áureo
 \;\longrightarrow\; \{ S_{q},\, \Delta^{\Phi}_{q},\, \mathcal{A}_{q},\, \mathcal{C}_{q},\, \mathcal{R}_{q} \} \;\longrightarrow\; \zeta_{SV},\, \delta_{SV} \;\longrightarrow\; \mathcal{N}^{\star}_{SV} \;\longrightarrow\; \Delta^{TODO}_{D} \;\longrightarrow\; \mathcal{E}^{\star}_{TODO,\,SV} = 0.
 ```
 
-### 17.2. Cierre doctrinal de la Teoría del TODO
+### 17.2. Naturaleza canónica del TODO en el Sistema Vectorial SV
 
-La Teoría del TODO cierra cuando el verificador ternario fuerte devuelve 0 sobre todos los defectos canónicos del Sistema Vectorial SV en el estado corpus τ. Por el teorema T6 esto exige la nulidad simultánea de los cinco bloques de defectos del verificador.
+El TODO del Sistema Vectorial SV no es totalidad ontológica universal en sentido cosmológico. El SV no se pronuncia sobre cosmologías, no postula universos físicos antecedentes ni consecuentes, no afirma ni niega la existencia metafísica de la totalidad de lo que hay. El TODO del SV es **totalidad operatoria estructuralmente cerrada**: la totalidad de los sucesos formulables del Sistema Vectorial SV bajo el aparato canónico declarado en el estado corpus τ.
 
-### 17.3. Identificación canónica de la Teoría de la NADA admisible
+Tres condiciones canónicas delimitan exactamente el TODO del SV.
 
-La Teoría de la NADA admisible queda integrada por dos lecturas internas a la propia ecuación rectora. La primera es el rango mínimo sin contenido 𝓔<sub>∅</sub> del Origen Áureo del apartado 3.4. La segunda es el cierre interno sin resto exterior (μ, λ) = (0, 0) de la frontera común de colapso cíclico del apartado 10.6:
+**Condición C<sub>T</sub>1 — Acotación por el Universo de Sucesos formulables.** El TODO no se extiende sobre sucesos arbitrarios ni sobre cualquier configuración concebible: opera estrictamente sobre el Universo de Sucesos formulables 𝕌<sup>SV</sup><sub>suc</sub> definido en el apartado 6, esto es, la totalidad máxima de sucesos que satisfacen pertenencia operatoria al alfabeto canónico Σ y formulabilidad legítima sobre la célula admisible. Un suceso que no admita inscripción factual sobre la célula no entra en el TODO del SV.
+
+**Condición C<sub>T</sub>2 — Cierre por nulidad simultánea.** El TODO cierra cuando la ecuación rectora se anula:
+
+```math
+\mathcal{E}^{\star}_{TODO,\,SV}(\Gamma_{U};\,\tau) \;=\; 0,
+```
+
+equivalente, por la cláusula C.2 del operador concatenador ⊕ del apartado 18.5, a la nulidad **simultánea** de los siete operadores sectoriales y al cumplimiento simultáneo de las siete identidades intersectoriales del operador maestro:
+
+```math
+\mathfrak{U}^{\mathrm{unif}}_{SV} \;=\; 0 \;\;\Longleftrightarrow\;\; \biggl[\,\forall\, j \in \{1,\ldots,7\}:\;\mathfrak{U}^{(j)}_{SV}(\Phi^{j}) = 0\,\biggr] \;\wedge\; \biggl[\,\forall\, k \in \{1,\ldots,7\}:\;\mathcal{S}_{k}\,\biggr].
+```
+
+La condición no admite parcialidad: el TODO no cierra cuando seis sectores de siete se anulan, ni cuando seis identidades de siete se satisfacen. La nulidad es estricta, simultánea y sin tolerancia.
+
+**Condición C<sub>T</sub>3 — Articulación por subordinación operatoria estricta.** El TODO está articulado por la cadena ascendente de trece niveles canónicos del apartado 17.1, desde 𝓔<sub>∅</sub> hasta 𝓔<sup>★</sup><sub>TODO,SV</sub> = 0. Cada nivel subordina al anterior en sentido operatorio, no cronológico: la subida no es despliegue temporal sino **dependencia estructural de legitimidad**. Cada eslabón requiere al anterior como condición de su propia definibilidad.
+
+**Lectura canónica del lector.** Cuando la ecuación rectora devuelve 0 sobre una trayectoria universal Γ<sub>U</sub> bajo estado corpus τ, el TODO del SV ha cerrado sobre esa trayectoria. Cuando devuelve 1, el TODO queda refutado localmente. Cuando devuelve U, el TODO queda en estado de no clausura honesta: el sistema rehúsa declarar el cierre y rehúsa declarar la refutación, conservando la marca canónica de indeterminación.
+
+### 17.3. Naturaleza canónica de la NADA admisible en el Sistema Vectorial SV
+
+La NADA admisible del Sistema Vectorial SV no es vacío sustancial, no es ausencia ontológica, no es la *Nichts* heideggeriana del cuestionamiento metafísico originario, no es el "universo de la nada" como vacío cuántico fluctuante de la cosmología contemporánea (Krauss, 2012), no es el no-ser absoluto del idealismo dialéctico hegeliano. La NADA admisible del SV es **lectura interna a la propia ecuación rectora**, no entidad autónoma exterior. No precede al ser ni le sobrevive: es **estado interno del aparato canónico**.
+
+Dos modos canónicos articulan exactamente la NADA admisible del SV.
+
+**Modo M<sub>N</sub>1 — La NADA antes del despliegue: 𝓔<sub>∅</sub> como rango mínimo sin contenido.** El primer modo es 𝓔<sub>∅</sub>, el Origen Áureo del apartado 3, definido operatoriamente por las cinco negaciones explícitas declaradas como definición interna de la presente publicación: no es suceso, no es sustancia, no es entidad, no es mecanismo, no es origen físico. 𝓔<sub>∅</sub> es la **condición previa al despliegue** del aparato canónico: el rango mínimo sin contenido positivo desde el cual la cadena ascendente arranca. No es "el vacío" porque no es ni siquiera entidad: es ausencia operatoria de inscripción factual.
+
+**Modo M<sub>N</sub>2 — La NADA después del cierre: (μ, λ) = (0, 0) como cierre interno sin resto exterior.** El segundo modo es la frontera común de colapso cíclico (μ, λ) = (0, 0) del apartado 10, donde la magnitud de cierre interno μ y la magnitud de borde λ se anulan simultáneamente. Es la **condición posterior al cierre cíclico**: el cierre interno sin resto exterior formulable. Cuando ambas magnitudes alcanzan cero al mismo tiempo, el ciclo q ha cerrado sin que quede contenido factual residual fuera del horizonte. No es "el vacío" tampoco porque no es ausencia: es **clausura operatoria sin remanente**.
+
+**Equivalencia funcional canónica de los dos modos.** Por el Teorema T2 del apartado 13, los dos modos son **funcionalmente equivalentes** sobre el aparato canónico:
 
 ```math
 \mathrm{NADA}_{\,adm}(SV) \;\equiv\; \bigl\{\, \mathcal{E}_{\emptyset},\;\; (\mu,\lambda) = (0,0) \,\bigr\}.
 ```
 
-Por el teorema T2 las dos lecturas son funcionalmente equivalentes. Ningún elemento adicional al expresado en la cadena ascendente entra en la doctrina.
+Funcionalmente equivalentes significa que ambos producen el mismo estado canónico sobre el verificador 𝓝<sup>★</sup><sub>SV</sub>: ambos generan defecto cero sobre el bloque correspondiente del verificador, ambos clausuran su lectura sin resto y ambos quedan registrados con marca 0 en el alfabeto canónico Σ. La equivalencia no es identidad simbólica —𝓔<sub>∅</sub> y (μ, λ) = (0, 0) son objetos sintácticamente distintos— sino **identidad operatoria**: lo que el verificador hace con ambos es exactamente lo mismo.
 
-### 17.4. Cláusula final
+**Lectura canónica del lector.** La NADA del SV no es exterioridad cuya existencia sostener o negar; es estructura interna del aparato cuya función es delimitar dos extremos canónicos —el comienzo y el cierre— de la trayectoria operatoria. Ningún tercer modo es admisible: cualquier formulación de "nada" que no corresponda a 𝓔<sub>∅</sub> ni a (μ, λ) = (0, 0) queda fuera de la doctrina del SV.
 
-La Teoría del TODO y de la NADA del Sistema Vectorial SV no se funda en tiempo, masa, agente, onda, partícula, interpretación externa, axioma adicional ni cosmología; se funda en 𝓔<sub>∅</sub> y se cierra por:
+### 17.4. Integración del TODO y la NADA bajo una sola ecuación rectora
+
+La novedad doctrinal del Sistema Vectorial SV frente a la tradición filosófica que opone el ser y el no-ser, la totalidad y el vacío, lo positivo y lo negativo, es que el SV **no produce dos teorías paralelas** —una del TODO, otra de la NADA—. Produce **una sola ecuación rectora** que las integra:
 
 ```math
 \boxed{ \;\mathcal{E}^{\star}_{TODO,\,SV}(\Gamma_{U};\,\tau) \;=\; 0.\; }
 ```
 
+La aparente dualidad entre TODO y NADA se disuelve operatoriamente. Cuando esta ecuación se anula, **simultáneamente**:
+
+(a) el TODO ha cerrado: la totalidad operatoria del SV sobre la trayectoria Γ<sub>U</sub> queda canónicamente clausurada con veredicto 0;
+
+(b) la NADA admisible queda declarada en sus dos modos canónicamente equivalentes: 𝓔<sub>∅</sub> como estado de partida sin contenido y (μ, λ) = (0, 0) como estado de cierre sin resto.
+
+Las dos lecturas no son fases sucesivas de un proceso ni instancias separables del mismo hecho: son **caras simultáneas** del mismo cierre operatorio. El TODO y la NADA no se postulan como entidades paralelas que el documento debe articular después; **emergen conjuntamente** como lecturas internas a la ecuación rectora cuando ésta se anula.
+
+**Tabla canónica de la integración.**
+
+| Lectura del cierre | Modo canónico | Localización en la cadena |
+|---|---|---|
+| TODO operatorio cerrado | 𝓔<sup>★</sup><sub>TODO,SV</sub>(Γ<sub>U</sub>; τ) = 0 | nivel 13 (terminal de la cadena ascendente) |
+| NADA admisible — modo M<sub>N</sub>1 | 𝓔<sub>∅</sub> | nivel 1 (origen de la cadena ascendente) |
+| NADA admisible — modo M<sub>N</sub>2 | (μ, λ) = (0, 0) | nivel 8 (frontera común de colapso cíclico) |
+
+Los tres puntos —los dos extremos de la cadena y la frontera común intermedia— se anulan **simultáneamente** cuando la ecuación rectora cierra. La integración es estructural, no narrativa.
+
+### 17.5. Identificación canónica con el operador maestro 𝔘<sup>unif</sup><sub>SV</sub>
+
+Por la identificación canónica fijada en el apartado 2.0, la ecuación rectora se nombra indistintamente bajo dos nombres complementarios:
+
+```math
+\mathcal{E}^{\star}_{TODO,\,SV}(\Gamma_{U};\,\tau) \;\equiv\; \mathfrak{U}^{\mathrm{unif}}_{SV}\bigl(\Phi^{1},\ldots,\Phi^{7};\,\{\mathcal{S}_{k}\}_{k=1,\ldots,7}\bigr).
+```
+
+El nombre **𝓔<sup>★</sup><sub>TODO,SV</sub>** es el nombre doctrinal: liga la ecuación a la cadena ascendente desde 𝓔<sub>∅</sub> y al sello ★ del cierre canónico. El nombre **𝔘<sup>unif</sup><sub>SV</sub>** es el nombre algebraico canonizado por el corpus SV: liga la ecuación a la descomposición operatoria en siete sectores y siete identidades intersectoriales (Lloret Egea, 2026, doc. teoría general de sucesos generadores y protocampos unificados, Definición §11.9). Las dos lecturas son **la misma ecuación canónica única**, no dos ecuaciones paralelas: el lector que llega por la cadena ascendente del presente documento y el lector que llega por la canonización algebraica del corpus se encuentran en el mismo enunciado terminal.
+
+### 17.6. Cláusula final
+
+La Teoría del TODO y de la NADA del Sistema Vectorial SV no se funda en tiempo, masa, agente, onda, partícula, interpretación externa, axioma adicional ni cosmología; no postula totalidad metafísica del universo ni vacío sustancial cosmológico; no recurre a probabilidad, estadística ni inferencia opaca. Se funda en el Origen Áureo 𝓔<sub>∅</sub> mediante la cadena ascendente de trece niveles canónicos del apartado 17.1 y se cierra por la nulidad de una sola ecuación rectora:
+
+```math
+\boxed{ \;\mathcal{E}^{\star}_{TODO,\,SV}(\Gamma_{U};\,\tau) \;=\; 0.\; }
+```
+
+Bajo esta ecuación, el TODO operatorio del SV y la NADA admisible del SV en sus dos modos canónicos quedan integrados sin segunda fórmula y sin postulado adicional.
+
 ---
+
 ## 18. Mapa de subordinación operatoria del corpus del Sistema Vectorial SV
 
 La presente publicación absorbe doctrinalmente todo el corpus del Sistema Vectorial SV. Esto exige declarar explícitamente la **subordinación operatoria** de cada doctrina absorbida bajo la ecuación rectora 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub> = 0 fijada en el apartado 2.0.
@@ -2831,7 +2902,7 @@ Implementa la regla por casos del operador ζ<sub>SV</sub> sobre el dominio exte
 
 **Laboratorio 8 — `lab08_verificador_ternario_fuerte.py`** (secciones 13.3-13.5)
 
-Construye la **tabla exhaustiva** de las 27 entradas del verificador 𝓝<sup>★</sup><sub>SV</sub> para m = 3 (Tabla 13.5.1) y verifica que la distribución estadística es 1 entrada con salida 0, 19 entradas con salida 1 y 7 entradas con salida U. Criterio de aptitud: coincidencia exacta con la tabla del documento.
+Construye la **tabla exhaustiva** de las 27 entradas del verificador 𝓝<sup>★</sup><sub>SV</sub> para m = 3 (Tabla 13.5.1) y verifica que el cardinal canónico de salidas es 1 entrada con salida 0, 19 entradas con salida 1 y 7 entradas con salida U. Criterio de aptitud: coincidencia exacta con la tabla del documento.
 
 **Laboratorio 9 — `lab09_absorcion_canonica.py`** (sección 14)
 
