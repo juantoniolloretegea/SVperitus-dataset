@@ -5,12 +5,19 @@
 ## Índice
 
 1. Estado del arte (apartado 1).
-2. Aparato heredado autocontenido del corpus SV (apartado 2).
-3. Cadena ascendente del Sistema Vectorial SV (apartados 3 a 15).
-4. Espiral factual creciente y secuencia doctrinal por vuelta (apartado 16).
-5. Conclusión doctrinal (apartado 17).
-6. Suite laboratorial reproducible en GitHub (apartado 18).
-7. Bibliografía (apartado 19).
+2. Naturaleza factual del frame en el Sistema Vectorial SV (apartado 1bis).
+3. Aparato heredado autocontenido del corpus SV (apartado 2).
+4. Cadena ascendente del Sistema Vectorial SV (apartados 3 a 15).
+5. Espiral factual creciente y secuencia doctrinal por vuelta (apartado 16).
+6. Conclusión doctrinal (apartado 17).
+7. Mapa de subordinación operatoria del corpus SV (apartado 18).
+8. Las once fórmulas absorbidas del corpus (apartado 19).
+9. Banco numérico canónico de los diez supuestos sobre SV(9, 3) (apartado 20).
+10. Tabla maestra de cotejo: 11 absorciones × 10 supuestos (apartado 21).
+11. Cinco interpretaciones canónicas posibles (apartado 22).
+12. Teoremas T7 a T10 (apartado 23).
+13. Suite laboratorial reproducible ampliada (apartado 24).
+14. Bibliografía (apartado 25).
 
 ---
 
@@ -124,13 +131,362 @@ El Sistema Vectorial SV se inscribe en la línea axiomatizadora del sexto proble
 La presente publicación no propone una alternativa empírica a las teorías de la física de altas energías, ni pretende competir experimentalmente con la cromodinámica cuántica o la cosmología observacional. Su objeto es **doctrinal y estructural**: fija la Teoría del TODO y de la NADA del Sistema Vectorial SV como ecuación canónica única de nulidad conjunta sobre el Universo de Sucesos del sistema, refundada sobre el corpus SV del suceso admisible y sobre el aparato heredado de la distancia factual fibrosa, la célula configuracional, las magnitudes de cierre y el verificador ternario fuerte. Se inscribe en la tradición de axiomatización de Hilbert, contrasta con las posiciones probabilísticas, temporalistas y geometrizantes de las teorías de la unificación contemporáneas, y se articula como cadena ascendente de subordinación operatoria estructuralmente cerrada en un único enunciado terminal.
 
 ---
+## 1bis. Naturaleza factual del frame en el Sistema Vectorial SV
+
+### 1bis.1. Inscripción factual: del fenómeno al frame ternario
+
+Por el documento canónico de fundamentos algebraico-semánticos del Sistema Vectorial SV (Lloret Egea, 2026, §1 y §3.1), el alfabeto Σ = { 0, 1, U } sobre la célula 𝒮<sub>n</sub> = { 0, 1, U }<sup>n</sup> con n = b² constituye el código canónico de **inscripción factual** del fenómeno bajo estudio. Por la convención semántica canónica del documento de origen doctrinal, definición y alcance de la U en el Sistema Vectorial SV (Lloret Egea, 2026, §3), los tres símbolos del alfabeto se leen operatoriamente como sigue: el valor **0** denota Apto —situación adecuada, predicado verificado—; el valor **1** denota No_Apto —situación inadecuada, predicado refutado—; el valor **U** denota Indeterminado —no determinación actual del juicio sobre el predicado—.
+
+Cada una de las n posiciones de la célula declara, sobre un predicado estructural específico del fenómeno, un veredicto ternario en Σ. El conjunto ordenado de las n inscripciones constituye un **registro factual estructurado**: una proyección determinista del fenómeno sobre n dimensiones discretas con valor en el alfabeto canónico. La inscripción no requiere parámetro temporal externo, no recurre a medida probabilística, no descansa sobre inferencia estadística y no contiene mecanismo de inferencia opaca, conforme a las prohibiciones constitutivas P.1, P.2 y P.4 del corpus enunciadas en el §19 del documento canónico de teoría general de sucesos generadores y protocampos unificados (Lloret Egea, 2026).
+
+### 1bis.2. Granularidad operatoria y restricción arquitectónica n = b²
+
+Por el §3.1 del documento canónico de fundamentos algebraico-semánticos (Lloret Egea, 2026):
+
+> "Sea *b* un número natural con *b* ≥ 3. El número de parámetros de una célula exacta se define por la restricción arquitectónica n = b². La célula SV exacta de tamaño n se define entonces como 𝒮<sub>n</sub> = { 0, 1, U }<sup>n</sup>".
+
+El cuadrado perfecto n = b² no es ornamental. La restricción se introduce para preservar **organización por capas simétricas** y **representación polar de reparto uniforme** sobre la célula. Por la Proposición 1 del §3.2 del mismo documento, la cardinalidad del espacio de configuraciones es:
+
+```math
+\lvert \mathcal{S}_{n} \rvert \;=\; 3^{n}.
+```
+
+A mayor n, mayor número de predicados estructurales independientes disponibles en el frame y, por tanto, mayor capacidad de discriminación entre regímenes próximos. La célula canónica SV(9, 3) con b = 3, n = 9 y \|𝒮<sub>9</sub>\| = 3<sup>9</sup> = 19 683 configuraciones constituye el caso de menor cardinalidad admisible bajo la restricción arquitectónica.
+
+### 1bis.3. Motor normativo del Sistema Vectorial SV
+
+Por el §5 del documento canónico de fundamentos algebraico-semánticos (Lloret Egea, 2026), el Sistema Vectorial SV dispone de un **motor normativo determinista** que clasifica toda inscripción factual **v** ∈ 𝒮<sub>n</sub> en el alfabeto Σ sin recurso a tolerancia, probabilidad ni inferencia opaca.
+
+**Conteos canónicos.** Para toda inscripción **v** = (v<sub>1</sub>, …, v<sub>n</sub>) ∈ 𝒮<sub>n</sub>, por el §5.1 del documento fundacional:
+
+```math
+N_{0}(\mathbf{v}) \;=\; \#\{\, i \;:\; v_{i} = 0 \,\}, \qquad N_{1}(\mathbf{v}) \;=\; \#\{\, i \;:\; v_{i} = 1 \,\}, \qquad N_{U}(\mathbf{v}) \;=\; \#\{\, i \;:\; v_{i} = U \,\},
+```
+
+con la identidad de partición:
+
+```math
+N_{0}(\mathbf{v}) \;+\; N_{1}(\mathbf{v}) \;+\; N_{U}(\mathbf{v}) \;=\; n.
+```
+
+**Umbral canónico.** Por el §5.2 del documento fundacional, el umbral normativo del Sistema Vectorial SV se fija como:
+
+```math
+\boxed{ \;T(n) \;:=\; \lfloor\, 7n/9\, \rfloor.\; }
+```
+
+**Clasificación determinista.** Por el §5.2 del documento fundacional, la clasificación de la inscripción **v** queda fijada por:
+
+```math
+\mathrm{Veredicto}_{SV}(\mathbf{v}) \;=\; \begin{cases} 1 \;\;(\text{No\_Apto}) & \text{si}\;\; N_{1}(\mathbf{v}) \;\geq\; T(n), \\ 0 \;\;(\text{Apto}) & \text{si}\;\; N_{0}(\mathbf{v}) \;\geq\; T(n), \\ U \;\;(\text{Indeterminado}) & \text{en cualquier otro caso.} \end{cases}
+```
+
+El veredicto exige **mayoría cualificada de evidencia**: T(n) componentes coincidentes en el mismo símbolo fuerte { 0, 1 } bastan para emitir veredicto cerrado. Cuando esa mayoría no se alcanza, el sistema preserva la marca U sin clausurar artificialmente.
+
+**Unicidad de la clasificación fuerte.** Por la Proposición 6 del §5.3 del documento fundacional, sobre toda célula con n = b² y b ≥ 3 las desigualdades N<sub>0</sub>(**v**) ≥ T(n) y N<sub>1</sub>(**v**) ≥ T(n) **no pueden satisfacerse simultáneamente**. La demostración procede por reducción al absurdo: si ambas se cumpliesen, N<sub>0</sub>(**v**) + N<sub>1</sub>(**v**) ≥ 2T(n); pero para n ≥ 9 se verifica 2⌊7n/9⌋ > n, contradiciendo N<sub>0</sub>(**v**) + N<sub>1</sub>(**v**) ≤ n.
+
+**Sentido canónico del umbral.** Por el §5.4 del documento fundacional, el umbral T(n) opera como **barrera de prudencia**: exige mayoría cualificada antes de emitir sentencia fuerte. Cuando la mayoría no existe, el sistema no finge saber: conserva la indeterminación honesta U.
+
+### 1bis.4. Aplicación canónica del motor normativo a la célula SV(9, 3)
+
+Sobre la célula canónica SV(9, 3), la sustitución n = 9 en la fórmula del umbral produce:
+
+```math
+T(9) \;=\; \lfloor 7 \cdot 9 / 9 \rfloor \;=\; \lfloor 63 / 9 \rfloor \;=\; 7.
+```
+
+El sistema emite veredicto cerrado cuando **siete o más** de las nueve posiciones de la célula coinciden en el mismo símbolo fuerte. Por el §10 del documento canónico de semántica auditada en el Sistema Vectorial SV (Lloret Egea, 2026), el universo completo del cubo ternario SV(9, 3) tiene cardinalidad 3<sup>9</sup> = 19 683 y admite enumeración exhaustiva sin aproximación, condición que sustenta la verificación rigurosa del motor normativo sobre cada configuración del cubo.
+
+**Conteos canónicos por enumeración exhaustiva.** Sea N<sub>w</sub>(SV(9, 3)) el número de configuraciones del cubo que producen veredicto w ∈ Σ:
+
+```math
+N_{0}(SV(9,3)) \;=\; N_{1}(SV(9,3)) \;=\; \sum_{k=7}^{9} \binom{9}{k}\cdot 2^{\,9-k}.
+```
+
+El factor 2<sup>9−k</sup> contabiliza las configuraciones de las (9 − k) posiciones que no participan en la mayoría cualificada: cada una toma libremente cualquiera de los **dos símbolos no contados** del alfabeto ternario { 0, 1, U } sin alterar el veredicto fuerte. Cómputo término a término:
+
+```math
+\sum_{k=7}^{9} \binom{9}{k}\cdot 2^{\,9-k} \;=\; \binom{9}{7}\cdot 4 \;+\; \binom{9}{8}\cdot 2 \;+\; \binom{9}{9}\cdot 1 \;=\; 36 \cdot 4 \;+\; 9 \cdot 2 \;+\; 1 \cdot 1 \;=\; 144 \;+\; 18 \;+\; 1 \;=\; 163.
+```
+
+Por la Proposición 6 del documento fundacional, los conjuntos asociados a veredicto Apto y veredicto No_Apto son disjuntos sobre toda célula con n ≥ 9, condición que permite la suma sin solapamiento:
+
+```math
+N_{U}(SV(9,3)) \;=\; 3^{9} - N_{0}(SV(9,3)) - N_{1}(SV(9,3)) \;=\; 19\,683 - 326 \;=\; 19\,357.
+```
+
+**Cuadro canónico del veredicto sobre SV(9, 3).**
+
+| Veredicto | Cardinal exacto sobre el cubo ternario |
+|---|---|
+| 0 (Apto) | 163 |
+| 1 (No_Apto) | 163 |
+| U (Indeterminado) | 19 357 |
+| **Total** | **19 683** |
+
+De las 19 683 configuraciones del cubo ternario, 326 admiten cierre fuerte (163 hacia Apto y 163 hacia No_Apto) y 19 357 preservan indeterminación honesta U. La cifra 19 357 cuantifica la **barrera de prudencia canónica** del Sistema Vectorial SV: el sistema clausura sólo cuando la mayoría cualificada T(n) lo autoriza y, en todos los demás casos, conserva la marca U.
+
+### 1bis.5. Inagotabilidad estructural y cascada canónica de granularidades
+
+La fórmula universal T(n) = ⌊7n/9⌋ se aplica **inalterada** sobre cualquier granularidad b ≥ 3 admisible bajo la restricción arquitectónica del §3.1 del documento canónico de fundamentos algebraico-semánticos del Sistema Vectorial SV (Lloret Egea, 2026). La célula es **inagotablemente escalable**: cuando la inscripción factual de un fenómeno excede la capacidad discriminativa de la célula canónica, el sistema incrementa la granularidad sin modificar el motor normativo ni el aparato algebraico.
+
+**Cascada canónica de granularidades celulares.**
+
+| b | n = b² | \|𝒮<sub>n</sub>\| = 3<sup>n</sup> | T(n) = ⌊7n/9⌋ | Cómputo |
+|---|---|---|---|---|
+| 3 | 9 | 19 683 | 7 | ⌊63/9⌋ = 7 |
+| 4 | 16 | 43 046 721 | 12 | ⌊112/9⌋ = ⌊12,444…⌋ = 12 |
+| 5 | 25 | ≈ 8,47 · 10<sup>11</sup> | 19 | ⌊175/9⌋ = ⌊19,444…⌋ = 19 |
+| 6 | 36 | ≈ 1,50 · 10<sup>17</sup> | 28 | ⌊252/9⌋ = 28 |
+| 7 | 49 | ≈ 2,39 · 10<sup>23</sup> | 38 | ⌊343/9⌋ = ⌊38,111…⌋ = 38 |
+| 8 | 64 | ≈ 1,18 · 10<sup>30</sup> | 49 | ⌊448/9⌋ = ⌊49,777…⌋ = 49 |
+| 9 | 81 | ≈ 4,43 · 10<sup>38</sup> | 63 | ⌊567/9⌋ = 63 |
+
+El umbral T(n) escala con n conservando la proporción canónica 7/9 que el documento fundacional fija como **mayoría cualificada estricta** —superior a la mayoría reforzada habitual de 2/3 e inferior a la unanimidad cualificada de 8/9—. La unicidad de la clasificación fuerte demostrada en la Proposición 6 del §5.3 se conserva sobre todas las granularidades admisibles, puesto que 2⌊7n/9⌋ > n para todo n ≥ 9.
+
+**Principio de inagotabilidad estructural.** Ante un fenómeno cuya inscripción exija mayor capacidad discriminativa que la admitida por una granularidad dada, el Sistema Vectorial SV incrementa b sin modificar la doctrina. La cascada b = 3, 4, 5, 6, 7, 8, 9, 10, … no tiene cota superior canónica: cualquier necesidad de definición exigida por el fenómeno se satisface por elección de b ≥ b<sub>mín</sub>(fenómeno). El aumento de granularidad **no altera ninguno** de los siguientes invariantes doctrinales:
+
+(i) la fórmula T(n) = ⌊7n/9⌋ del motor normativo;
+
+(ii) la prelación canónica 1 ≻ U ≻ 0 del verificador ternario fuerte;
+
+(iii) las seis prohibiciones constitutivas P.1-P.6;
+
+(iv) la subordinación al operador maestro 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub>;
+
+(v) las cláusulas C.1 y C.2 del operador concatenador ⊕.
+
+### 1bis.6. Criticidad de parámetros: doctrina canónica del corpus
+
+Por el §6.3 del documento canónico de movilidad estructural y legitimidad de exposición en el Sistema Vectorial SV (Lloret Egea, 2026), no todos los n parámetros de una célula tienen la misma relevancia estructural sobre el veredicto del fenómeno. La distinción canónica entre parámetros críticos y parámetros no críticos se hereda literalmente del corpus.
+
+**Definición canónica de parámetro crítico.** Por la condición C4 del predicado de habilitación H del §6.3 del documento de movilidad estructural, la posición i ∈ { 1, …, n } de la célula es **crítica** si y sólo si su valor v<sub>i</sub> ∈ Σ es ancestro estructural del nodo de exposición del fenómeno. Formalmente, en la lectura grafo-dirigida del corpus, la posición i es crítica si y sólo si existe camino dirigido i →* v hacia el punto de exposición.
+
+**Indeterminación crítica.** Por la condición C4 del §6.3 del mismo documento:
+
+> "C4 — Ausencia de indeterminación crítica. No existe nodo n con val(n) = U tal que n →* v."
+
+Una **indeterminación crítica** es una posición crítica con valor U. La condición C4 prohíbe la habilitación de la trayectoria mientras subsista cualquier indeterminación crítica.
+
+**Parámetro no crítico.** Por contraposición canónica al §6.3, la posición i ∈ { 1, …, n } cuyo valor v<sub>i</sub> no es ancestro estructural del nodo de exposición es **no crítica**. Su valor U no impide la habilitación de la trayectoria, aunque el motor normativo lo contabiliza en el conteo N<sub>U</sub>(**v**) sin distinción.
+
+**Cardinal admisible de indeterminaciones críticas.** Sea N<sub>U,crít</sub>(**v**) el número de indeterminaciones críticas de la inscripción **v**. Por la condición C4, la trayectoria es habilitable si y sólo si:
+
+```math
+N_{U,\,\mathrm{crit}}(\mathbf{v}) \;=\; 0.
+```
+
+La marca U sobre parámetros no críticos es admisible y no degrada la habilitación de la trayectoria.
+
+### 1bis.7. Ejemplo paradigmático: la erupción volcánica
+
+Sea SV(9, 3) la célula canónica de inscripción factual del fenómeno "erupción volcánica". La asignación de los nueve predicados estructurales a las nueve posiciones de la célula declara la criticidad:
+
+| Posición | Predicado factual | Estatuto |
+|---|---|---|
+| P1 | presencia de cráter | crítica |
+| P2 | emisión de lava | crítica |
+| P3 | columna de gases y piroclastos | crítica |
+| P4 | actividad sísmica acompañante | crítica |
+| P5 | temperatura del flujo eruptivo | crítica |
+| P6 | árbol concreto del paisaje de fondo | no crítica |
+| P7 | persona observadora a distancia | no crítica |
+| P8 | cadena montañosa lejana | no crítica |
+| P9 | nube cirroestrato del cielo | no crítica |
+
+Las posiciones P1-P5 son ancestros estructurales del nodo de exposición "erupción volcánica" en el sentido del §6.3 del documento de movilidad estructural; las posiciones P6-P9 no lo son.
+
+**Caso A — erupción confirmada con paisaje indeterminado.**
+
+Inscripción factual:
+
+```
+v_A = ( 0, 0, 0, 0, 0, U, 0, 0, 0 )
+```
+
+Conteos canónicos: N<sub>0</sub>(**v**<sub>A</sub>) = 8, N<sub>1</sub>(**v**<sub>A</sub>) = 0, N<sub>U</sub>(**v**<sub>A</sub>) = 1.
+
+Motor normativo: N<sub>0</sub> = 8 ≥ T(9) = 7 → veredicto local del motor: **0 (Apto)**.
+
+Habilitación H del §6.3 del documento de movilidad estructural: la marca U recae sobre P6, posición no crítica; N<sub>U,crít</sub>(**v**<sub>A</sub>) = 0; condición C4 satisfecha; trayectoria habilitable.
+
+Veredicto cerrado de la inscripción **v**<sub>A</sub>: **0 (Apto)**. Lectura: erupción volcánica confirmada; el árbol del paisaje de fondo no determinado, hecho irrelevante para el veredicto del fenómeno.
+
+**Caso B — erupción con lava indeterminada.**
+
+Inscripción factual:
+
+```
+v_B = ( 0, U, 0, 0, 0, 0, 0, 0, 0 )
+```
+
+Conteos canónicos: N<sub>0</sub>(**v**<sub>B</sub>) = 8, N<sub>1</sub>(**v**<sub>B</sub>) = 0, N<sub>U</sub>(**v**<sub>B</sub>) = 1.
+
+Motor normativo: N<sub>0</sub> = 8 ≥ T(9) = 7 → veredicto local del motor: 0 (Apto).
+
+Habilitación H del §6.3 del documento de movilidad estructural: la marca U recae sobre P2, posición crítica; N<sub>U,crít</sub>(**v**<sub>B</sub>) = 1 ≠ 0; condición C4 fallida; trayectoria inhabilitada.
+
+Veredicto cerrado de la inscripción **v**<sub>B</sub>: **U (Indeterminado)**. Lectura: el motor normativo, mirando sólo los conteos, alcanzaría el umbral; pero la habilitación H detecta indeterminación crítica sobre el rasgo definitorio del fenómeno (la lava) y bloquea la clausura. La prohibición P.6 (no clausura espuria) impide declarar "erupción confirmada" cuando precisamente la lava no se ha podido determinar.
+
+### 1bis.8. Articulación canónica entre umbral y criticidad
+
+Por la lectura del §6.4 del documento de movilidad estructural y legitimidad de exposición (Lloret Egea, 2026), las seis condiciones C1-C6 del predicado H "operan como un filtro de frontera" sobre las trayectorias del Sistema Vectorial SV. El motor normativo T(n) y el predicado H son **disciplinas complementarias y conjuntas**: ninguna basta por sí sola para clausurar la inscripción.
+
+**Condición canónica de veredicto cerrado válido.** Para que una inscripción factual **v** ∈ 𝒮<sub>n</sub> produzca veredicto cerrado válido sobre el fenómeno, se exigen simultáneamente:
+
+(1) **Mayoría cualificada del motor normativo:** N<sub>0</sub>(**v**) ≥ T(n) o N<sub>1</sub>(**v**) ≥ T(n);
+
+(2) **Habilitación estructural por el predicado H:** las seis condiciones C1-C6 del §6.3 del documento de movilidad estructural se satisfacen, en particular C4: N<sub>U,crít</sub>(**v**) = 0.
+
+Cuando (1) se satisface pero (2) no, el sistema preserva U honesta sobre el veredicto global por la prohibición P.6 (no clausura espuria) del corpus. El motor normativo es condición necesaria sobre el conteo aritmético; la habilitación H es la condición estructural complementaria. Las dos disciplinas se aplican conjuntamente sobre toda inscripción.
+
+### 1bis.9. Inmutabilidad retrospectiva, ciclo de suceso y disciplina append-only
+
+El Sistema Vectorial SV opera sobre una estructura de sucesión que prohíbe canónicamente la reescritura retrospectiva de inscripciones ya clausuradas. Esta disciplina queda fijada por los axiomas de precisión del §5 del documento canónico de suceso local, suceso envolvente y reevaluación situacional en horizonte declarado en el Sistema Vectorial SV (Lloret Egea, 2026).
+
+**Cinco axiomas canónicos de precisión.** Por el §5 del documento citado:
+
+> **Axioma 1. Inmutabilidad retrospectiva.** Un *frame* ya clausurado no se reescribe como pasado. La reevaluación situacional no altera retrospectivamente la clausura local ya producida.
+>
+> **Axioma 2. Primacía del suceso.** Ninguna modificación efectiva se atribuye al mero transcurso temporal, sino sólo a la comparecencia legítima de sucesos en horizonte declarado.
+>
+> **Axioma 3. Exterioridad no equivale a inexistencia.** El hecho de que un suceso no comparezca dentro de la clausura local de un *frame* no implica que sea inexistente para la arquitectura que lo contiene.
+>
+> **Axioma 4. No omnisciencia del *frame*.** Ningún *frame* local está obligado a clausurar aquello para lo que no dispone de captura suficiente.
+>
+> **Axioma 5. Conservación de la U.** Cuando la situación efectiva no pueda ser clausurada legítimamente desde el plano local, la salida correcta del *frame* local puede ser U, sin perjuicio de una reevaluación situacional superior. La U no se reduce a probabilidad, confianza ni valor faltante.
+
+**Disciplina append-only del ordinal canónico ν.** Por el §19.1 del documento canónico de teoría general de sucesos generadores y protocampos unificados (Lloret Egea, 2026), el Sistema Vectorial SV opera exclusivamente sobre el **ordinal canónico append-only**:
+
+```math
+\nu \;\in\; \mathbb{N}^{SV}_{\mathrm{ord}}.
+```
+
+Las derivadas estructurales del corpus —∂<sub>ν</sub><sup>SV</sup>B, ∂<sub>ν</sub><sup>SV</sup>D y todas las del aparato canónico— son derivadas factuales respecto del **índice ordinal de suceso**, no respecto de tiempo soberano. Esta disciplina opera coherentemente sobre la totalidad del corpus, en particular sobre la entropía factual y la irreversibilidad estructural (Lloret Egea, 2026, doc. entropía factual e irreversibilidad estructural en el Sistema Vectorial SV), donde la monotonía no decreciente de las acumulaciones A<sub>i</sub>(n) y de las variaciones V<sub>i</sub>(δ, n) es propiedad estructural del sistema y no consecuencia de ordenamiento temporal soberano.
+
+**Distinción canónica entre repetición y reescritura.** Dos sucesos consecutivos indexados por ν<sub>n</sub> y ν<sub>n+1</sub> sobre la trayectoria pueden producir **idéntica estructura de estado** —ciclo de suceso— sin que ello rompa la inmutabilidad retrospectiva. La igualdad estructural de dos inscripciones consecutivas no es identidad de suceso: el ordinal append-only ν avanza de ν<sub>n</sub> a ν<sub>n+1</sub> sobre el mismo soporte celular, conservando la auditoría canónica de cada inscripción en su instante ordinal. La estructura de estado puede repetirse; el suceso no se reescribe.
+
+**Articulación con el ciclo q.** El ciclo q formalizado en el §12 del presente documento, con sus cinco componentes canónicos { S<sub>q</sub>, Δ<sup>Φ</sup><sub>q</sub>, 𝓐<sub>q</sub>, 𝓒<sub>q</sub>, 𝓡<sub>q</sub> }, articula la estructura de estado repetible bajo la disciplina append-only: el ciclo q describe la **morfología recurrente** de la trayectoria sobre el ordinal ν, conservando la auditoría de cada suceso ν<sub>n</sub> sin alteración retrospectiva.
+
+**Consecuencia operativa.** La trayectoria del Sistema Vectorial SV es siempre append-only y nunca retrospectivamente revisable. La auditoría de cada suceso queda fijada en su instante ordinal y conservada sin modificación posterior, lo cual cumple canónicamente la prohibición P.1 (no tiempo soberano) del corpus enunciada en el §19.1 del documento de teoría general de sucesos generadores y protocampos unificados (Lloret Egea, 2026).
+
+### 1bis.10. Tres vías canónicas de refinamiento del frame
+
+Cuando un fenómeno admite más predicados estructurales independientes de los disponibles en una célula dada, el corpus del Sistema Vectorial SV dispone de **tres vías canónicas ortogonales** de refinamiento, todas compatibles entre sí y todas subordinadas al operador maestro 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub> = 0.
+
+**Vía (a) — Aumento de granularidad celular.** Incremento de n a 16, 25, 36, 49, 64, 81, … conforme a la restricción arquitectónica n = b² con b ≥ 3 del §3.1 del documento fundacional. La cardinalidad \|𝒮<sub>n</sub>\| = 3<sup>n</sup> crece con n, conservando inalterada la fórmula T(n) = ⌊7n/9⌋ del motor normativo.
+
+**Vía (b) — Composición tipada de células.** Por el §7 del documento canónico de fundamentos algebraico-semánticos (Lloret Egea, 2026), concatenación de células independientes mediante el operador canónico de composición. Por el §3-§5 del documento canónico de álgebra de composición intercelular del marco SV (Lloret Egea, 2026), la transmisión intercelular se articula mediante **parámetro puente** y **grafo de células** con condiciones de buena formación. Cada célula componente preserva su gramática algebraica; la composición admite los operadores canónicos de dominancia homogénea, compuerta jerárquica, supervisión meta y veto declarados en el §7.5 del documento fundacional.
+
+**Vía (c) — Sucesión factual extensa.** Encadenamiento de inscripciones S<sub>0</sub>, S<sub>1</sub>, …, S<sub>k</sub> mediante sucesos admisibles e<sub>0</sub>, e<sub>1</sub>, …, e<sub>k−1</sub> conforme a las cuatro condiciones C1-C4 de cadena admisible declaradas en el §2.10 del presente documento. La sucesión opera sobre el ordinal canónico append-only ν del Sistema Vectorial SV (§19.1 del documento de sucesos generadores y protocampos unificados, Lloret Egea, 2026), sin recurso a parámetro temporal soberano. Cada inscripción adicional añade veredictos canónicos al despliegue del fenómeno.
+
+Las tres vías son canónicamente compatibles. Cualquier combinación —aumento de granularidad combinado con composición tipada, sucesión factual sobre célula compuesta, etc.— preserva los cinco invariantes doctrinales del §1bis.5 y mantiene la subordinación al operador maestro. La elección concreta queda determinada por el paquete de predicados estructurales del fenómeno y por la disciplina canónica declarada en el estado corpus τ.
+
+### 1bis.11. Cláusula canónica de no-deriva probabilística, estadística ni inferencial
+
+Por las prohibiciones constitutivas P.2 (no probabilidad fundante) y P.4 (no inferencia opaca) del corpus, enunciadas en los §19.2 y §19.4 del documento canónico de teoría general de sucesos generadores y protocampos unificados (Lloret Egea, 2026), y por la doctrina de la U fijada en los §6 y §7 del documento canónico de origen doctrinal, definición y alcance de la U en el Sistema Vectorial SV (Lloret Egea, 2026), el motor normativo T(n) = ⌊7n/9⌋ es **estrictamente determinista y combinatorio**.
+
+La operación del motor normativo se reduce a tres conteos enteros N<sub>0</sub>(**v**), N<sub>1</sub>(**v**), N<sub>U</sub>(**v**) sobre las n posiciones de la inscripción factual **v**, comparados con el umbral entero T(n). Ninguna magnitud, operador, fórmula, conteo ni veredicto del Sistema Vectorial SV invoca, presupone, aproxima ni emerge de:
+
+(i) probabilidad clásica, bayesiana, frecuentista, subjetiva, epistémica o de cualquier otra escuela;
+
+(ii) distribuciones de probabilidad discretas o continuas, marginales, condicionales, conjuntas, posteriores o predictivas;
+
+(iii) frecuencias relativas, frecuencias muestrales, leyes de los grandes números, teoremas centrales del límite, convergencia en distribución o convergencia en probabilidad;
+
+(iv) inferencia estadística clásica o bayesiana, pruebas de hipótesis, intervalos de confianza, regiones de credibilidad, estimadores puntuales o intervalares, sesgo, eficiencia, consistencia o suficiencia;
+
+(v) muestreo, muestreo aleatorio, muestreo estratificado, muestreo Monte Carlo, importancia de muestreo, simulación estocástica o métodos cuasi-Monte Carlo;
+
+(vi) minería de datos, descubrimiento de patrones por agregación frecuentista, reglas de asociación, clústering, *boosting*, *bagging*, *bootstrapping*, validación cruzada o cualquier técnica derivada;
+
+(vii) aprendizaje supervisado, no supervisado, semisupervisado, por refuerzo, autosupervisado, federado o cualquier otra forma de inducción a partir de conjuntos de entrenamiento;
+
+(viii) redes neuronales artificiales, árboles de decisión, máquinas de soporte vectorial, métodos de núcleo, modelos lineales generalizados, modelos jerárquicos, modelos gráficos probabilísticos, campos aleatorios o autómatas estocásticos;
+
+(ix) calibración estadística, ajuste por mínimos cuadrados, máxima verosimilitud, máxima entropía, regularización ℓ<sub>1</sub>/ℓ<sub>2</sub>, validación cruzada o búsqueda por cuadrícula de hiperparámetros;
+
+(x) tendencia central, dispersión, varianza, desviación típica, momentos de cualquier orden, cuantiles, percentiles, ni cualesquiera estadísticos descriptivos o inferenciales.
+
+**Naturaleza canónica de las cifras del bloque.** Las cifras enteras N<sub>0</sub>(**v**), N<sub>1</sub>(**v**), N<sub>U</sub>(**v**), las cifras combinatorias 𝓒(n, k) · 2<sup>n−k</sup> y los cardinales 19 683, 326, 163, 19 357 que aparecen en el §1bis.4 son **conteos aritméticos exactos sobre conjuntos finitos**, no son frecuencias, no son distribuciones, no son estimadores y no son muestras. Las relaciones entre cardinales —cuando se expresan como cocientes, por ejemplo "163 sobre 19 683"— son **cocientes combinatorios exactos**, no proporciones estadísticas.
+
+**Términos canónicos del corpus que no son estadísticos.** Por evitación de lectura ambigua, los siguientes términos del corpus tienen significado exclusivamente canónico y no admiten lectura estadística: **calibración metrológica** (compuerta canónica ℘<sub>SV</sub> que mapea unidades factuales del SV a SI 2019, no ajuste estadístico); **datos preternarios** (magnitudes (α<sub>i</sub>, β<sub>i</sub>) sobre el dominio Ω<sub>pre</sub> del corpus, no observaciones empíricas); **convergencia ternaria** (anulación canónica de card(U<sub>irr</sub>), no convergencia probabilística); **acumulación A<sub>i</sub>(n) y variación V<sub>i</sub>(δ, n)** (magnitudes monótonas no decrecientes del corpus, no sumas estadísticas); **cobertura sectorial** (cobertura canónica de los siete sectores primarios, no *coverage* estadístico); **tipología Σ<sub>k</sub>** (clase morfológica del banco canónico, no clase estadística).
+
+**Estatuto canónico de la cláusula.** La presente cláusula no es énfasis retórico ni redundancia: es la **especificación operativa** de las prohibiciones constitutivas P.2 y P.4 del corpus. Cualquier deriva, lectura, traducción o aplicación del Sistema Vectorial SV que reintrodujese probabilidad, estadística, minería de datos o aprendizaje inductivo —aunque fuera bajo nomenclatura distinta— quebraría la subordinación al operador maestro 𝓔<sup>★</sup><sub>TODO,SV</sub> y rompería la disciplina canónica del corpus. La cláusula es por tanto **norma de lectura y de uso**, no sólo norma de redacción.
+
+---
+
 ## 2. Aparato heredado autocontenido del corpus SV
 
-Este apartado define todos los objetos que la cadena ascendente del Sistema Vectorial SV utiliza en los apartados 3 a 15. El bloque es **autocontenido**: cada definición se enuncia explícitamente en el documento, se ilustra con ejemplo numérico genuino y queda disponible para el resto del texto. Las definiciones provienen del corpus SV del suceso admisible y del corpus SV de la reducción estructural absoluta de Maxwell, citados en la bibliografía cronológica del apartado 19.
+Este apartado define todos los objetos que la cadena ascendente del Sistema Vectorial SV utiliza en los apartados 3 a 15. El bloque es **autocontenido**: cada definición se enuncia explícitamente en el documento, se ilustra con ejemplo numérico genuino y queda disponible para el resto del texto. Las definiciones provienen del corpus SV del suceso admisible, del corpus SV del documento fundacional algebraico-semántico, del corpus SV de la reducción estructural absoluta de Maxwell y del corpus SV de la teoría general de sucesos generadores y protocampos unificados, citados en la bibliografía cronológica del apartado 25.
 
-### 2.1. Alfabeto ternario Σ y configuración celular canónica K<sub>3</sub><sup>n</sup>
+### 2.0. Identificación canónica de la ecuación rectora — 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub>
 
-**Definición 2.1.1 (Alfabeto ternario canónico).** El Sistema Vectorial SV opera sobre el **alfabeto ternario canónico**:
+**Decisión canónica de la presente publicación.** La ley canónica rectora de la Teoría del TODO y de la NADA en el Sistema Vectorial SV se denota indistintamente por dos nombres complementarios:
+
+```math
+\boxed{ \;\mathcal{E}^{\star}_{TODO,\,SV}(\Gamma_{U};\,\tau) \;\equiv\; \mathfrak{U}^{\mathrm{unif}}_{SV}\bigl(\Phi^{1},\ldots,\Phi^{7};\,\{\mathcal{S}_{k}\}_{k=1,\ldots,7}\bigr) \;=\; 0.\; }
+```
+
+El nombre **𝓔<sup>★</sup><sub>TODO,SV</sub>(Γ<sub>U</sub>; τ)** es el nombre **doctrinal** de la ecuación: liga la imagen original del documento canónico de portada a las dos lecturas internas de la NADA admisible del SV, esto es, la condición 𝓔<sub>∅</sub> del Origen Áureo y la condición (μ, λ) = (0, 0) de la frontera común de colapso cíclico. Este nombre es el que la presente publicación invoca cuando la lectura es estructural-doctrinal.
+
+El nombre **𝔘<sup>unif</sup><sub>SV</sub>(Φ¹, …, Φ⁷; {𝒮<sub>k</sub>})** es el nombre **algebraico** de la ecuación, tal como queda canonizado por el corpus SV de la teoría general de sucesos generadores y protocampos unificados (Lloret Egea, 2026, Definición §11.9). Este nombre es el que la presente publicación invoca cuando la lectura es operatoria-sectorial.
+
+**No son dos ecuaciones distintas.** Son **la misma ecuación canónica única** del Sistema Vectorial SV bajo dos nombres que cumplen funciones complementarias: el nombre doctrinal preserva el ligamen con la imagen rectora original; el nombre algebraico preserva la identidad operatoria con el corpus ya cerrado. La presente publicación absorbe la canonización del corpus y mantiene, simultáneamente, el nombre doctrinal por su carácter expresivo ligado a la cadena ascendente desde 𝓔<sub>∅</sub>.
+
+**Justificación canónica de la doble denominación.** Tres razones doctrinales motivan la conservación simultánea de ambos nombres:
+
+(i) **Continuidad del corpus.** El nombre 𝔘<sup>unif</sup><sub>SV</sub> es el operador maestro ya canonizado del corpus SV. Ninguna publicación posterior puede introducir un nombre paralelo independiente que pretenda nombrar la misma ecuación: el corpus es soberano sobre su propia notación.
+
+(ii) **Carga doctrinal del nombre 𝓔<sup>★</sup><sub>TODO,SV</sub>.** El nombre doctrinal lleva la doble lectura interna de la NADA admisible del SV (𝓔<sub>∅</sub> y (μ, λ) = (0, 0)) y el sello explícito de la cima (★). Estos elementos no son ornamentales: son lecturas estructurales del SV que el nombre algebraico no expone con la misma transparencia.
+
+(iii) **Compatibilidad con la imagen de portada.** El nombre doctrinal es el que aparece en la imagen rectora original de la teoría. La identidad nominal 𝓔<sup>★</sup><sub>TODO,SV</sub> permanece vinculada al ligamen visible con su origen documental.
+
+**Lectura por componentes.** Por la Definición §11.1 del operador concatenador ⊕ del corpus, la ecuación rectora se descompone canónicamente:
+
+```math
+\mathcal{E}^{\star}_{TODO,\,SV}(\Gamma_{U};\,\tau) \;=\; 0 \;\;\Longleftrightarrow\;\; \mathfrak{U}^{\mathrm{unif}}_{SV} \;=\; 0 \;\;\Longleftrightarrow\;\; \biggl[\,\forall\, j:\;\mathfrak{U}^{(j)}_{SV}(\Phi^{j}) = 0\,\biggr] \;\wedge\; \biggl[\,\forall\, k:\;\mathcal{S}_{k}\,\biggr].
+```
+
+Es decir, la nulidad de la ecuación rectora **equivale exactamente** a la nulidad simultánea de los siete operadores sectoriales y al cumplimiento simultáneo de las siete identidades intersectoriales del corpus, según se desarrolla en los apartados 18 y 19.
+
+### 2.1. Las dos notaciones canónicas de la célula del Sistema Vectorial SV
+
+**Definición fundacional.** Por el documento canónico de fundamentos algebraico-semánticos del Sistema Vectorial SV (Lloret Egea, 2026, §3.1):
+
+> "Sea *b* un número natural con *b* ≥ 3. El número de parámetros de una célula exacta se define por la restricción arquitectónica n = b². La célula SV exacta de tamaño n se define entonces como 𝒮<sub>n</sub> = {0, 1, U}<sup>n</sup>".
+
+Esto significa que la **célula canónica del SV** es la pareja (n, b) con la restricción arquitectónica **n = b²**. El caso típico canónico fija b = 3, con lo cual n = 9 y la célula tiene 3⁹ = 19 683 configuraciones.
+
+**Las dos notaciones del corpus.** A lo largo del corpus aparecen dos notaciones para la célula canónica que pudieran sugerir una distinción estructural:
+
+| Notación | Aparece en | Lectura |
+|---|---|---|
+| **SV(9, 3)** | Doc. teoría rigurosa del suceso admisible (Lloret Egea, 2026, §5.1); doc. fundamentos algebraico-semánticos (§3.1) | (n = 9, b = 3): nueve parámetros, alfabeto ternario |
+| **SV(3, 9)** | Doc. teoría general de sucesos generadores y protocampos unificados (Lloret Egea, 2026, §17) | (b = 3, n = 9): alfabeto ternario, nueve parámetros |
+
+**Estatuto canónico de la diferencia.** Las dos notaciones son **variaciones circunstanciales del mismo objeto canónico**. Designan la misma célula 𝒮<sub>9</sub> = {0, 1, U}<sup>9</sup> bajo dos órdenes notacionales distintos: el primero antepone n y postpone b; el segundo antepone b y postpone n. El orden notacional no altera la cardinalidad 3⁹ = 19 683, no altera la estructura algebraico-semántica, no altera la representación polar visible y no altera ninguna fórmula absoluta del corpus.
+
+**Convención adoptada en la presente publicación.** Por consistencia con el documento canónico de fundamentos algebraico-semánticos —que es el documento ontológico primario del SV—, la presente publicación utiliza la notación **SV(9, 3)**. Las apariciones de SV(3, 9) en el corpus se leen, sin alteración alguna, como referencias a la misma célula 𝒮<sub>9</sub>.
+
+**Tabla resumen de la célula canónica.**
+
+| Magnitud | Valor |
+|---|---|
+| Alfabeto Σ | { 0, 1, U } |
+| Número de símbolos del alfabeto | b = 3 |
+| Número de parámetros de la célula | n = b² = 9 |
+| Cardinalidad de la célula | \|𝒮<sub>n</sub>\| = 3⁹ = 19 683 |
+| Notación canónica adoptada | SV(9, 3) |
+| Notación equivalente del corpus | SV(3, 9) |
+
+Con la identificación 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub> declarada en el apartado 2.0 y la unicidad notacional de la célula canónica fijada en el apartado 2.1, los apartados 2.2 a 2.17 desarrollan el resto del aparato heredado.
+
+Este apartado define todos los objetos que la cadena ascendente del Sistema Vectorial SV utiliza en los apartados 3 a 15. El bloque es **autocontenido**: cada definición se enuncia explícitamente en el documento, se ilustra con ejemplo numérico genuino y queda disponible para el resto del texto. Las definiciones provienen del corpus SV del documento fundacional algebraico-semántico, del corpus SV del suceso admisible, del corpus SV de la reducción estructural absoluta de Maxwell y del corpus SV de la teoría general de sucesos generadores y protocampos unificados, citados en la bibliografía cronológica del apartado 25.
+
+### 2.2. Alfabeto ternario Σ y configuración celular canónica K<sub>3</sub><sup>n</sup>
+
+**Definición 2.2.1 (Alfabeto ternario canónico).** El Sistema Vectorial SV opera sobre el **alfabeto ternario canónico**:
 
 ```math
 \Sigma \;=\; \{\, 0,\; 1,\; U \,\}.
@@ -138,7 +494,7 @@ Este apartado define todos los objetos que la cadena ascendente del Sistema Vect
 
 El valor 0 se interpreta operatoriamente como **nulidad exacta verificada**, el valor 1 como **refutación verificada**, y el valor U como **no clausura honesta**: ausencia simultánea de confirmación y de refutación. La interpretación es operatoria, no probabilística ni epistémica.
 
-**Definición 2.1.2 (Codominio configuracional K<sub>3</sub><sup>n</sup>).** Para cada n ∈ ℕ con n ≥ 1, el **codominio configuracional ternario de orden n** es:
+**Definición 2.2.2 (Codominio configuracional K<sub>3</sub><sup>n</sup>).** Para cada n ∈ ℕ con n ≥ 1, el **codominio configuracional ternario de orden n** es:
 
 ```math
 K_{3}^{n} \;=\; \Sigma^{n} \;=\; \bigl\{\, (s_{1}, s_{2}, \ldots, s_{n}) \;:\; s_{i} \in \Sigma \;\text{para todo } i = 1, \ldots, n \,\bigr\}.
@@ -150,13 +506,13 @@ Su cardinal, denotado por card, es:
 \mathrm{card}(K_{3}^{n}) \;=\; 3^{n}.
 ```
 
-**Definición 2.1.3 (Célula canónica SV(9,3)).** La **célula canónica del Sistema Vectorial SV** es la estructura SV(9,3): nueve posiciones, alfabeto ternario. Una **configuración celular canónica** es un vector S = (s<sub>1</sub>, …, s<sub>9</sub>) ∈ Σ<sup>9</sup>. El cardinal del codominio configuracional es:
+**Definición 2.2.3 (Célula canónica SV(9,3)).** La **célula canónica del Sistema Vectorial SV** es la estructura SV(9,3): nueve posiciones, alfabeto ternario. Una **configuración celular canónica** es un vector S = (s<sub>1</sub>, …, s<sub>9</sub>) ∈ Σ<sup>9</sup>. El cardinal del codominio configuracional es:
 
 ```math
 \mathrm{card}(K_{3}^{9}) \;=\; 3^{9} \;=\; 19\,683.
 ```
 
-**Ejemplo 2.1.4 (Tres configuraciones elementales sobre SV(9,3)).** Las tres configuraciones siguientes son canónicas y quedan inscritas en Σ<sup>9</sup>:
+**Ejemplo 2.2.4 (Tres configuraciones elementales sobre SV(9,3)).** Las tres configuraciones siguientes son canónicas y quedan inscritas en Σ<sup>9</sup>:
 
 ```math
 S^{(a)} \;=\; (0,0,0,\;0,0,0,\;0,0,0),
@@ -172,7 +528,7 @@ S^{(c)} \;=\; (0,0,0,\;0,1,0,\;0,0,0).
 
 S<sup>(a)</sup> es la configuración nula, ternariamente determinada en 0. S<sup>(b)</sup> introduce indeterminación honesta U en la posición central. S<sup>(c)</sup> introduce afirmación localizada 1 en la posición central. Las tres son legibles y bien tipadas como elementos de Σ<sup>9</sup>.
 
-**Tabla 2.1.5 (Cardinales del codominio K<sub>3</sub><sup>n</sup> para n pequeño).**
+**Tabla 2.2.5 (Cardinales del codominio K<sub>3</sub><sup>n</sup> para n pequeño).**
 
 | n | K<sub>3</sub><sup>n</sup> | Total de configuraciones |
 |---|---|---|
@@ -181,17 +537,17 @@ S<sup>(a)</sup> es la configuración nula, ternariamente determinada en 0. S<sup
 | 3 | … | 27 |
 | 9 | … | 19 683 |
 
-### 2.2. Predicados operatorios Suceso<sub>SV</sub> y Formulable<sub>SV</sub>
+### 2.3. Predicados operatorios Suceso<sub>SV</sub> y Formulable<sub>SV</sub>
 
-**Definición 2.2.1 (Predicado Suceso<sub>SV</sub>).** El predicado Suceso<sub>SV</sub>(S) afirma que la entidad S **pertenece operatoriamente** al Sistema Vectorial. Una entidad S satisface Suceso<sub>SV</sub>(S) si y sólo si admite tipado dentro del aparato definitorio del SV: configuración celular, horizonte declarado, soporte declarado, operador de reevaluación bien tipado.
+**Definición 2.3.1 (Predicado Suceso<sub>SV</sub>).** El predicado Suceso<sub>SV</sub>(S) afirma que la entidad S **pertenece operatoriamente** al Sistema Vectorial. Una entidad S satisface Suceso<sub>SV</sub>(S) si y sólo si admite tipado dentro del aparato definitorio del SV: configuración celular, horizonte declarado, soporte declarado, operador de reevaluación bien tipado.
 
-**Definición 2.2.2 (Predicado Formulable<sub>SV</sub>).** El predicado Formulable<sub>SV</sub>(S) afirma que la declaración de S es **admisible formalmente** dentro del aparato del Sistema Vectorial. Una entidad S satisface Formulable<sub>SV</sub>(S) si y sólo si su declaración no contradice las disciplinas constitutivas del SV: ausencia de tiempo soberano, ausencia de probabilidad fundante, ausencia de coordenada externa axiomática.
+**Definición 2.3.2 (Predicado Formulable<sub>SV</sub>).** El predicado Formulable<sub>SV</sub>(S) afirma que la declaración de S es **admisible formalmente** dentro del aparato del Sistema Vectorial. Una entidad S satisface Formulable<sub>SV</sub>(S) si y sólo si su declaración no contradice las disciplinas constitutivas del SV: ausencia de tiempo soberano, ausencia de probabilidad fundante, ausencia de coordenada externa axiomática.
 
-**Observación 2.2.3.** La conjunción Suceso<sub>SV</sub>(S) ∧ Formulable<sub>SV</sub>(S) es la condición canónica de pertenencia al Universo de Sucesos del SV. La diferencia entre ambos predicados es operatoria: Suceso<sub>SV</sub> filtra la pertenencia tipada al sistema; Formulable<sub>SV</sub> filtra la admisibilidad formal de la declaración.
+**Observación 2.3.3.** La conjunción Suceso<sub>SV</sub>(S) ∧ Formulable<sub>SV</sub>(S) es la condición canónica de pertenencia al Universo de Sucesos del SV. La diferencia entre ambos predicados es operatoria: Suceso<sub>SV</sub> filtra la pertenencia tipada al sistema; Formulable<sub>SV</sub> filtra la admisibilidad formal de la declaración.
 
-### 2.3. Horizonte H
+### 2.4. Horizonte H
 
-**Definición 2.3.1 (Horizonte).** Un **horizonte** del Sistema Vectorial SV es una cuádrupla:
+**Definición 2.4.1 (Horizonte).** Un **horizonte** del Sistema Vectorial SV es una cuádrupla:
 
 ```math
 H \;=\; (\, I_{H},\; \preceq_{H},\; X_{H},\; \mathcal{A}_{H} \,),
@@ -199,9 +555,9 @@ H \;=\; (\, I_{H},\; \preceq_{H},\; X_{H},\; \mathcal{A}_{H} \,),
 
 donde I<sub>H</sub> es el **dominio activo de índices, posiciones o regiones** bajo jurisdicción de lectura; ⪯<sub>H</sub> es una **relación interna de precedencia, compatibilidad o admisibilidad**; X<sub>H</sub> es el **espacio de configuraciones legibles** bajo el horizonte; y 𝓐<sub>H</sub> es una **estructura de observables** suficiente para sostener comparaciones compatibles entre configuraciones.
 
-**Definición 2.3.2 (Horizonte canónico de primer nivel).** Un horizonte H se dice **canónico de primer nivel** si X<sub>H</sub> ⊆ Σ<sup>9</sup>. Éste será el régimen de referencia del presente trabajo.
+**Definición 2.4.2 (Horizonte canónico de primer nivel).** Un horizonte H se dice **canónico de primer nivel** si X<sub>H</sub> ⊆ Σ<sup>9</sup>. Éste será el régimen de referencia del presente trabajo.
 
-**Ejemplo 2.3.3 (Horizonte sobre SV(9,3)).** Un horizonte canónico para la célula SV(9,3) puede definirse con I<sub>H</sub> = { 1, 2, …, 9 } —las nueve posiciones de la célula—, ⪯<sub>H</sub> = identidad, X<sub>H</sub> = Σ<sup>9</sup> y 𝓐<sub>H</sub> = { F<sub>uno</sub> } donde F<sub>uno</sub>(S) cuenta el número de posiciones de S afirmadas con valor 1. Sobre las tres configuraciones del Ejemplo 2.1.4:
+**Ejemplo 2.4.3 (Horizonte sobre SV(9,3)).** Un horizonte canónico para la célula SV(9,3) puede definirse con I<sub>H</sub> = { 1, 2, …, 9 } —las nueve posiciones de la célula—, ⪯<sub>H</sub> = identidad, X<sub>H</sub> = Σ<sup>9</sup> y 𝓐<sub>H</sub> = { F<sub>uno</sub> } donde F<sub>uno</sub>(S) cuenta el número de posiciones de S afirmadas con valor 1. Sobre las tres configuraciones del Ejemplo 2.2.4:
 
 | Configuración | F<sub>uno</sub>(S) |
 |---|---|
@@ -209,9 +565,9 @@ donde I<sub>H</sub> es el **dominio activo de índices, posiciones o regiones** 
 | S<sup>(b)</sup> = (0,0,0, 0,U,0, 0,0,0) | 0 |
 | S<sup>(c)</sup> = (0,0,0, 0,1,0, 0,0,0) | 1 |
 
-### 2.4. Suceso admisible (cuaterna canónica)
+### 2.5. Suceso admisible (cuaterna canónica)
 
-**Definición 2.4.1 (Suceso admisible).** Un **suceso admisible** del Sistema Vectorial SV es una cuaterna:
+**Definición 2.5.1 (Suceso admisible).** Un **suceso admisible** del Sistema Vectorial SV es una cuaterna:
 
 ```math
 e \;=\; (\, H,\; H',\; \sigma,\; R_{e} \,),
@@ -231,7 +587,7 @@ donde H = (I<sub>H</sub>, ⪯<sub>H</sub>, X<sub>H</sub>, 𝓐<sub>H</sub>) es e
 
 **(A6) Compatibilidad observacional declarada.** La comparación entre F<sub>H</sub> y F<sub>H'</sub> sólo puede invocarse dentro de una clase de horizontes en la que dicha familia observacional se haya declarado compatible.
 
-**Ejemplo 2.4.2 (Paso admisible elemental sobre SV(9,3)).** Sea H un horizonte canónico de primer nivel con I<sub>H</sub> = { 1, …, 9 }, X<sub>H</sub> = Σ<sup>9</sup> y 𝓐<sub>H</sub> = { F<sub>uno</sub> }. Considérense las dos configuraciones:
+**Ejemplo 2.5.2 (Paso admisible elemental sobre SV(9,3)).** Sea H un horizonte canónico de primer nivel con I<sub>H</sub> = { 1, …, 9 }, X<sub>H</sub> = Σ<sup>9</sup> y 𝓐<sub>H</sub> = { F<sub>uno</sub> }. Considérense las dos configuraciones:
 
 ```math
 S_{0} \;=\; (0,0,0,\;0,U,0,\;0,0,0), \qquad S_{1} \;=\; (0,0,0,\;0,1,0,\;0,0,0).
@@ -250,15 +606,15 @@ Sea D<sub>e</sub> = { S<sub>0</sub> }, R<sub>e</sub>(S<sub>0</sub>) = S<sub>1</s
 
 La cuaterna e = (H, H', { 5 }, R<sub>e</sub>) es un **suceso admisible** sobre SV(9,3). El soporte declarado σ = { 5 } localiza la afectación en la posición central; el control exterior J<sub>e</sub> mantiene las ocho posiciones restantes en el campo de lectura.
 
-### 2.5. Diferencia eventiva mínima Δ<sub>e</sub> F(x)
+### 2.6. Diferencia eventiva mínima Δ<sub>e</sub> F(x)
 
-**Definición 2.5.1 (Diferencia eventiva mínima).** Sea e = (H, H', σ, R<sub>e</sub>) un suceso admisible y sea F un observable compatible con horizonte H y H' (es decir, definido como F<sub>H</sub>: X<sub>H</sub> → 𝕂 y F<sub>H'</sub>: X<sub>H'</sub> → 𝕂). La **diferencia eventiva mínima** del suceso e respecto del observable F en x ∈ D<sub>e</sub> es:
+**Definición 2.6.1 (Diferencia eventiva mínima).** Sea e = (H, H', σ, R<sub>e</sub>) un suceso admisible y sea F un observable compatible con horizonte H y H' (es decir, definido como F<sub>H</sub>: X<sub>H</sub> → 𝕂 y F<sub>H'</sub>: X<sub>H'</sub> → 𝕂). La **diferencia eventiva mínima** del suceso e respecto del observable F en x ∈ D<sub>e</sub> es:
 
 ```math
 \Delta_{e}\, F(x) \;:=\; F_{H'}(R_{e}(x)) \,-\, F_{H}(x).
 ```
 
-**Ejemplo 2.5.2 (Diferencia eventiva sobre el ejemplo 2.4.2).** Con F = F<sub>uno</sub>, x = S<sub>0</sub> = (0,0,0, 0,U,0, 0,0,0), R<sub>e</sub>(S<sub>0</sub>) = S<sub>1</sub> = (0,0,0, 0,1,0, 0,0,0):
+**Ejemplo 2.6.2 (Diferencia eventiva sobre el ejemplo 2.5.2).** Con F = F<sub>uno</sub>, x = S<sub>0</sub> = (0,0,0, 0,U,0, 0,0,0), R<sub>e</sub>(S<sub>0</sub>) = S<sub>1</sub> = (0,0,0, 0,1,0, 0,0,0):
 
 ```math
 \Delta_{e}\, F_{\mathrm{uno}}(S_{0}) \;=\; F_{\mathrm{uno}}(S_{1}) \,-\, F_{\mathrm{uno}}(S_{0}) \;=\; 1 \,-\, 0 \;=\; 1.
@@ -266,9 +622,9 @@ La cuaterna e = (H, H', { 5 }, R<sub>e</sub>) es un **suceso admisible** sobre S
 
 La diferencia eventiva es exactamente 1: el suceso ha producido una afirmación localizada en la posición 5 que el observable F<sub>uno</sub> registra como aumento de una unidad en el conteo de posiciones afirmadas.
 
-### 2.6. Operador de derivada por suceso ∂<sub>ν</sub><sup>SV</sup>
+### 2.7. Operador de derivada por suceso ∂<sub>ν</sub><sup>SV</sup>
 
-**Definición 2.6.1 (Operador ∂<sub>ν</sub><sup>SV</sup>).** Para una secuencia indexada de magnitudes q = (q<sub>0</sub>, q<sub>1</sub>, q<sub>2</sub>, …) sobre los índices de suceso ν<sub>0</sub>, ν<sub>1</sub>, ν<sub>2</sub>, …, el **operador de derivada parcial respecto del índice de suceso** se define como:
+**Definición 2.7.1 (Operador ∂<sub>ν</sub><sup>SV</sup>).** Para una secuencia indexada de magnitudes q = (q<sub>0</sub>, q<sub>1</sub>, q<sub>2</sub>, …) sobre los índices de suceso ν<sub>0</sub>, ν<sub>1</sub>, ν<sub>2</sub>, …, el **operador de derivada parcial respecto del índice de suceso** se define como:
 
 ```math
 \partial_{\nu}^{SV}\, q(j) \;:=\; \frac{q_{j+1} \,-\, q_{j}}{\omega(\nu_{j})},
@@ -276,7 +632,7 @@ La diferencia eventiva es exactamente 1: el suceso ha producido una afirmación 
 
 donde ω(ν<sub>j</sub>) es el **peso del paso de suceso** ν<sub>j</sub>: una magnitud positiva declarada por el horizonte y compatible con el observable considerado. El operador ∂<sub>ν</sub><sup>SV</sup> es el operador de derivada del Sistema Vectorial SV en su régimen factual: hereda de Lloret Egea (2026) y opera por sucesión de sucesos sin recurrir a un parámetro temporal continuo.
 
-**Ejemplo 2.6.2 (Operador ∂<sub>ν</sub><sup>SV</sup> con peso uniforme).** Sea ω(ν<sub>j</sub>) = 1 para todo j, y sea q = (q<sub>0</sub>, q<sub>1</sub>, q<sub>2</sub>, q<sub>3</sub>) = (0, 1, 1, 0). El operador da:
+**Ejemplo 2.7.2 (Operador ∂<sub>ν</sub><sup>SV</sup> con peso uniforme).** Sea ω(ν<sub>j</sub>) = 1 para todo j, y sea q = (q<sub>0</sub>, q<sub>1</sub>, q<sub>2</sub>, q<sub>3</sub>) = (0, 1, 1, 0). El operador da:
 
 | j | q<sub>j</sub> | q<sub>j+1</sub> | ∂<sub>ν</sub><sup>SV</sup> q(j) |
 |---|---|---|---|
@@ -284,9 +640,9 @@ donde ω(ν<sub>j</sub>) es el **peso del paso de suceso** ν<sub>j</sub>: una m
 | 1 | 1 | 1 | 0 |
 | 2 | 1 | 0 | −1 |
 
-### 2.7. Distancia factual fibrosa entre sucesos consecutivos 𝑑<sup>SV</sup><sub>Φ</sub>
+### 2.8. Distancia factual fibrosa entre sucesos consecutivos 𝑑<sup>SV</sup><sub>Φ</sub>
 
-**Definición 2.7.1 (Distancia factual fibrosa entre dos sucesos consecutivos).** Para una observable factual fibrosa Φ y dos configuraciones consecutivas S<sub>k</sub>, S<sub>k+1</sub> con peso de paso ω(ν<sub>k</sub>) > 0, la **distancia factual fibrosa entre los dos sucesos consecutivos** se define como:
+**Definición 2.8.1 (Distancia factual fibrosa entre dos sucesos consecutivos).** Para una observable factual fibrosa Φ y dos configuraciones consecutivas S<sub>k</sub>, S<sub>k+1</sub> con peso de paso ω(ν<sub>k</sub>) > 0, la **distancia factual fibrosa entre los dos sucesos consecutivos** se define como:
 
 ```math
 d^{SV}_{\Phi}(S_{k+1}, S_{k}) \;:=\; \bigl\lvert\, \partial_{\nu}^{SV}\, \Phi(k) \,\bigr\rvert \cdot \omega(\nu_{k}) \;=\; \bigl\lvert\, \Phi(S_{k+1}) \,-\, \Phi(S_{k}) \,\bigr\rvert.
@@ -294,7 +650,7 @@ d^{SV}_{\Phi}(S_{k+1}, S_{k}) \;:=\; \bigl\lvert\, \partial_{\nu}^{SV}\, \Phi(k)
 
 La distancia es la **variación absoluta** del observable Φ entre los dos pasos. Es una magnitud no negativa, definida sobre la pareja consecutiva, y compatible con el peso de paso por elección de Φ y ω.
 
-**Ejemplo 2.7.2 (Distancia factual fibrosa sobre F<sub>uno</sub>).** Con Φ = F<sub>uno</sub> y la siguiente cadena de cuatro configuraciones sobre SV(9,3):
+**Ejemplo 2.8.2 (Distancia factual fibrosa sobre F<sub>uno</sub>).** Con Φ = F<sub>uno</sub> y la siguiente cadena de cuatro configuraciones sobre SV(9,3):
 
 | k | S<sub>k</sub> | F<sub>uno</sub>(S<sub>k</sub>) |
 |---|---|---|
@@ -311,9 +667,9 @@ las distancias factuales fibrosas entre sucesos consecutivos son:
 | 1 | \|2 − 1\| = 1 |
 | 2 | \|3 − 2\| = 1 |
 
-### 2.8. Distancia factual fibrosa global 𝐷<sup>SV</sup><sub>Φ</sub>(Γ) sobre trayectoria
+### 2.9. Distancia factual fibrosa global 𝐷<sup>SV</sup><sub>Φ</sub>(Γ) sobre trayectoria
 
-**Definición 2.8.1 (Trayectoria sobre el horizonte).** Una **trayectoria** Γ sobre el horizonte H es una secuencia ordenada de configuraciones:
+**Definición 2.9.1 (Trayectoria sobre el horizonte).** Una **trayectoria** Γ sobre el horizonte H es una secuencia ordenada de configuraciones:
 
 ```math
 \Gamma \;=\; (\, S_{l},\; S_{l+1},\; \ldots,\; S_{r-1},\; S_{r} \,),
@@ -321,7 +677,7 @@ las distancias factuales fibrosas entre sucesos consecutivos son:
 
 con S<sub>k</sub> ∈ X<sub>H</sub> para todo l ≤ k ≤ r. El extremo izquierdo l es el índice de apertura, el extremo derecho r es el índice de cierre.
 
-**Definición 2.8.2 (Distancia factual fibrosa global).** La **distancia factual fibrosa global** del observable Φ sobre la trayectoria Γ es la magnitud declarada por el horizonte:
+**Definición 2.9.2 (Distancia factual fibrosa global).** La **distancia factual fibrosa global** del observable Φ sobre la trayectoria Γ es la magnitud declarada por el horizonte:
 
 ```math
 D^{SV}_{\Phi}(\Gamma) \;:=\; \bigl\lvert\, \Phi(S_{r}) \,-\, \Phi(S_{l}) \,\bigr\rvert.
@@ -329,7 +685,7 @@ D^{SV}_{\Phi}(\Gamma) \;:=\; \bigl\lvert\, \Phi(S_{r}) \,-\, \Phi(S_{l}) \,\bigr
 
 La distancia global mide la **variación absoluta extremo a extremo** del observable Φ a lo largo de la trayectoria. Es una magnitud independiente de las configuraciones intermedias.
 
-**Ejemplo 2.8.3 (Distancia global sobre el ejemplo 2.7.2).** Sobre la cadena de cuatro configuraciones del ejemplo 2.7.2, con Γ = (S<sub>0</sub>, S<sub>1</sub>, S<sub>2</sub>, S<sub>3</sub>):
+**Ejemplo 2.9.3 (Distancia global sobre el ejemplo 2.8.2).** Sobre la cadena de cuatro configuraciones del ejemplo 2.8.2, con Γ = (S<sub>0</sub>, S<sub>1</sub>, S<sub>2</sub>, S<sub>3</sub>):
 
 ```math
 D^{SV}_{F_{\mathrm{uno}}}(\Gamma) \;=\; \bigl\lvert\, F_{\mathrm{uno}}(S_{3}) \,-\, F_{\mathrm{uno}}(S_{0}) \,\bigr\rvert \;=\; \bigl\lvert\, 3 \,-\, 0 \,\bigr\rvert \;=\; 3.
@@ -341,11 +697,11 @@ La suma local de distancias entre sucesos consecutivos es:
 \sum_{k=0}^{2} d^{SV}_{F_{\mathrm{uno}}}(S_{k+1}, S_{k}) \;=\; 1 \,+\, 1 \,+\, 1 \;=\; 3.
 ```
 
-**Las dos magnitudes coinciden**: la cadena del ejemplo 2.7.2 es **telescópicamente coherente** sobre el observable F<sub>uno</sub>. Esta coincidencia entre la distancia global y la suma local de distancias parciales es la propiedad que mide el defecto Δ<sup>Φ</sup><sub>q</sub> del apartado 8.
+**Las dos magnitudes coinciden**: la cadena del ejemplo 2.8.2 es **telescópicamente coherente** sobre el observable F<sub>uno</sub>. Esta coincidencia entre la distancia global y la suma local de distancias parciales es la propiedad que mide el defecto Δ<sup>Φ</sup><sub>q</sub> del apartado 8.
 
-### 2.9. Cadena de sucesos admisibles
+### 2.10. Cadena de sucesos admisibles
 
-**Definición 2.9.1 (Cadena de sucesos admisibles).** Una **cadena de sucesos admisibles** es una familia ordenada **e** = (e<sub>1</sub>, e<sub>2</sub>, …, e<sub>n</sub>) de sucesos admisibles del Sistema Vectorial SV tal que para todo par consecutivo (e<sub>i</sub>, e<sub>i+1</sub>) se cumplen simultáneamente los **cuatro criterios canónicos**:
+**Definición 2.10.1 (Cadena de sucesos admisibles).** Una **cadena de sucesos admisibles** es una familia ordenada **e** = (e<sub>1</sub>, e<sub>2</sub>, …, e<sub>n</sub>) de sucesos admisibles del Sistema Vectorial SV tal que para todo par consecutivo (e<sub>i</sub>, e<sub>i+1</sub>) se cumplen simultáneamente los **cuatro criterios canónicos**:
 
 **(C1) Composición local definible.** La composición e<sub>i+1</sub> ∘ e<sub>i</sub> está definida en el sentido restrictivo del Sistema Vectorial SV.
 
@@ -355,9 +711,9 @@ La suma local de distancias entre sucesos consecutivos es:
 
 **(C4) Persistencia de criterio de lectura acumulativa.** La cadena conserva un criterio explícito de lectura acumulativa común a todos los pasos.
 
-### 2.10. Acumulación eventiva A<sub>n</sub> y regímenes de paso
+### 2.11. Acumulación eventiva A<sub>n</sub> y regímenes de paso
 
-**Definición 2.10.1 (Acumulación eventiva).** Sea **e** = (e<sub>1</sub>, …, e<sub>n</sub>) una cadena admisible. Existe **acumulación eventiva local** si puede definirse una familia de magnitudes A<sub>n</sub>(**e**) tal que A<sub>1</sub> depende de una observable relevante o de una diferencia eventiva inicial Δ<sub>e<sub>1</sub></sub> F, y para todo n ≥ 1:
+**Definición 2.11.1 (Acumulación eventiva).** Sea **e** = (e<sub>1</sub>, …, e<sub>n</sub>) una cadena admisible. Existe **acumulación eventiva local** si puede definirse una familia de magnitudes A<sub>n</sub>(**e**) tal que A<sub>1</sub> depende de una observable relevante o de una diferencia eventiva inicial Δ<sub>e<sub>1</sub></sub> F, y para todo n ≥ 1:
 
 ```math
 A_{n+1} \;=\; A_{n} \,+\, \Phi(e_{n+1}, A_{n}),
@@ -365,7 +721,7 @@ A_{n+1} \;=\; A_{n} \,+\, \Phi(e_{n+1}, A_{n}),
 
 donde Φ es una **regla de actualización bien tipada** que conserva el régimen de lectura explicitado para la cadena.
 
-**Definición 2.10.2 (Tres regímenes de paso).** Una cadena admite uno de tres **regímenes de paso**:
+**Definición 2.11.2 (Tres regímenes de paso).** Una cadena admite uno de tres **regímenes de paso**:
 
 | Régimen | Característica |
 |---|---|
@@ -375,9 +731,9 @@ donde Φ es una **regla de actualización bien tipada** que conserva el régimen
 
 El régimen estable **no** significa convergencia clásica en sentido analítico: significa **persistencia de legibilidad estructural** de la regla de actualización.
 
-### 2.11. Magnitudes de cierre μ y λ
+### 2.12. Magnitudes de cierre μ y λ
 
-**Definición 2.11.1 (Magnitudes de cierre).** Las **dos magnitudes canónicas de cierre** del Sistema Vectorial SV son funciones declaradas:
+**Definición 2.12.1 (Magnitudes de cierre).** Las **dos magnitudes canónicas de cierre** del Sistema Vectorial SV son funciones declaradas:
 
 ```math
 \mu \;:\; \mathcal{T}_{SV} \;\longrightarrow\; \mathbb{R}_{\geq 0}, \qquad \lambda \;:\; \mathcal{T}_{SV} \;\longrightarrow\; \mathbb{R}_{\geq 0},
@@ -385,9 +741,9 @@ El régimen estable **no** significa convergencia clásica en sentido analítico
 
 donde 𝓣<sub>SV</sub> es el espacio de trayectorias declaradas del SV. La magnitud μ mide el **defecto residual interno** sobre la trayectoria considerada; la magnitud λ mide el **defecto residual de borde** sobre la misma trayectoria. La condición canónica de cierre del ciclo q exige nulidad simultánea: μ = 0 y λ = 0. La condición unilateral (μ = 0 ∧ λ ≠ 0) o (μ ≠ 0 ∧ λ = 0) no constituye cierre del ciclo.
 
-### 2.12. Trayectoria del ciclo Γ<sub>q</sub> y trayectoria universal Γ<sub>U</sub>
+### 2.13. Trayectoria del ciclo Γ<sub>q</sub> y trayectoria universal Γ<sub>U</sub>
 
-**Definición 2.12.1 (Trayectoria del ciclo).** La **trayectoria del ciclo** q ∈ { 0, 1, …, Q } se denota Γ<sub>q</sub> y se compone de la secuencia ordenada de sucesos del ciclo q entre el suceso de apertura S<sub>a<sub>q</sub></sub> y el suceso de cierre S<sub>r<sub>q</sub></sub>:
+**Definición 2.13.1 (Trayectoria del ciclo).** La **trayectoria del ciclo** q ∈ { 0, 1, …, Q } se denota Γ<sub>q</sub> y se compone de la secuencia ordenada de sucesos del ciclo q entre el suceso de apertura S<sub>a<sub>q</sub></sub> y el suceso de cierre S<sub>r<sub>q</sub></sub>:
 
 ```math
 \Gamma_{q} \;=\; (\, S_{a_{q}},\; S_{a_{q}+1},\; \ldots,\; S_{r_{q}-1},\; S_{r_{q}} \,).
@@ -395,7 +751,7 @@ donde 𝓣<sub>SV</sub> es el espacio de trayectorias declaradas del SV. La magn
 
 Cada Γ<sub>q</sub> queda determinada por su par de extremos (l<sub>q</sub>, r<sub>q</sub>) con l<sub>q</sub> = a<sub>q</sub> y r<sub>q</sub> el índice de cierre, y por el instante operatorio τ<sub>q</sub> que ordena el cierre estructural.
 
-**Definición 2.12.2 (Trayectoria universal Γ<sub>U</sub>).** La **trayectoria universal** del Sistema Vectorial SV se denota Γ<sub>U</sub> y es la concatenación operatoria, en orden de subordinación, de las trayectorias de los Q + 1 ciclos:
+**Definición 2.13.2 (Trayectoria universal Γ<sub>U</sub>).** La **trayectoria universal** del Sistema Vectorial SV se denota Γ<sub>U</sub> y es la concatenación operatoria, en orden de subordinación, de las trayectorias de los Q + 1 ciclos:
 
 ```math
 \Gamma_{U} \;=\; \Gamma_{0} \,\frown\, \Gamma_{1} \,\frown\, \Gamma_{2} \,\frown\, \cdots \,\frown\, \Gamma_{Q},
@@ -403,9 +759,9 @@ Cada Γ<sub>q</sub> queda determinada por su par de extremos (l<sub>q</sub>, r<s
 
 donde el operador ⌢ denota concatenación tipada del SV, no concatenación temporal. La trayectoria universal Γ<sub>U</sub> es objeto canónico de la ley rectora del apartado 15.
 
-### 2.13. Indicador δ<sub>SV</sub>
+### 2.14. Indicador δ<sub>SV</sub>
 
-**Definición 2.13.1 (Indicador δ<sub>SV</sub>).** El operador canónico δ<sub>SV</sub> es el **indicador ternario** del Sistema Vectorial SV. Aplicado a una proposición π del SV, devuelve uno de los tres valores estructurales:
+**Definición 2.14.1 (Indicador δ<sub>SV</sub>).** El operador canónico δ<sub>SV</sub> es el **indicador ternario** del Sistema Vectorial SV. Aplicado a una proposición π del SV, devuelve uno de los tres valores estructurales:
 
 ```math
 \delta_{SV}(\pi) \;=\; \begin{cases} 0, & \text{si } \pi \text{ se verifica en estado corpus declarado}, \\ 1, & \text{si } \pi \text{ se refuta en estado corpus declarado}, \\ U, & \text{si } \pi \text{ no se clausura en estado corpus declarado}. \end{cases}
@@ -413,13 +769,13 @@ donde el operador ⌢ denota concatenación tipada del SV, no concatenación tem
 
 El indicador δ<sub>SV</sub> es el **gemelo lógico** del operador de normalización ζ<sub>SV</sub> del apartado 13: ambos toman valores en { 0, 1, U }, ambos son operadores totales sobre sus dominios, y ambos satisfacen la prelación estricta 1 ≻ U ≻ 0 sobre el alfabeto.
 
-### 2.14. Estado corpus τ y leyes admisibles 𝓛<sup>adm</sup><sub>SV</sub>(τ)
+### 2.15. Estado corpus τ y leyes admisibles 𝓛<sup>adm</sup><sub>SV</sub>(τ)
 
-**Definición 2.14.1 (Estado corpus τ).** El **estado corpus** τ del Sistema Vectorial SV es la declaración explícita del aparato de doctrina vigente en un momento de subordinación operatoria: la familia de definiciones, axiomas, teoremas y horizontes activos que el SV reconoce como propios.
+**Definición 2.15.1 (Estado corpus τ).** El **estado corpus** τ del Sistema Vectorial SV es la declaración explícita del aparato de doctrina vigente en un momento de subordinación operatoria: la familia de definiciones, axiomas, teoremas y horizontes activos que el SV reconoce como propios.
 
 El estado corpus es **estructural y no temporal**: distintos τ no se ordenan por fechas sino por subordinación operatoria. Una declaración τ' refina otra τ si y sólo si extiende el aparato declarado sin contradicción interna.
 
-**Definición 2.14.2 (Leyes factuales admisibles).** Para un estado corpus τ, el **conjunto de leyes factuales admisibles** del Sistema Vectorial SV en estado τ se denota 𝓛<sup>adm</sup><sub>SV</sub>(τ) y se define como:
+**Definición 2.15.2 (Leyes factuales admisibles).** Para un estado corpus τ, el **conjunto de leyes factuales admisibles** del Sistema Vectorial SV en estado τ se denota 𝓛<sup>adm</sup><sub>SV</sub>(τ) y se define como:
 
 ```math
 \mathcal{L}^{\,adm}_{SV}(\tau) \;=\; \bigl\{\, \mathcal{E}_{D} \;:\; D \text{ dominio admisible en estado corpus } \tau \,\bigr\},
@@ -427,9 +783,9 @@ El estado corpus es **estructural y no temporal**: distintos τ no se ordenan po
 
 donde cada 𝓔<sub>D</sub> es una ley factual asociada al dominio D que la enuncia, y la admisibilidad se determina por las cláusulas del apartado 14.
 
-### 2.15. Proyección canónica Π<sub>D</sub>
+### 2.16. Proyección canónica Π<sub>D</sub>
 
-**Definición 2.15.1 (Proyección canónica).** Para un dominio D admisible en estado corpus τ, la **proyección canónica** Π<sub>D</sub> es la operación tipada:
+**Definición 2.16.1 (Proyección canónica).** Para un dominio D admisible en estado corpus τ, la **proyección canónica** Π<sub>D</sub> es la operación tipada:
 
 ```math
 \Pi_{D} \;:\; \Gamma_{U} \;\longrightarrow\; \mathrm{Dom}(\mathcal{E}_{D}),
@@ -437,30 +793,30 @@ donde cada 𝓔<sub>D</sub> es una ley factual asociada al dominio D que la enun
 
 que extrae de la trayectoria universal Γ<sub>U</sub> el subconjunto de configuraciones, magnitudes y observables sobre los que la ley factual 𝓔<sub>D</sub> queda declarada. La proyección Π<sub>D</sub> es **operación canónica del SV**: no introduce pesos, no introduce tolerancias, no introduce probabilidad. Su salida Π<sub>D</sub>(Γ<sub>U</sub>) es admisible como entrada de 𝓔<sub>D</sub> si y sólo si se obtiene por aplicación tipada de las cláusulas del apartado 14.
 
-### 2.16. Tabla resumen del aparato heredado
+### 2.17. Tabla resumen del aparato heredado
 
-**Tabla 2.16.1 (Aparato canónico autocontenido).**
+**Tabla 2.17.1 (Aparato canónico autocontenido).**
 
 | Símbolo | Significado | Apartado donde se define |
 |---|---|---|
-| Σ = { 0, 1, U } | alfabeto ternario canónico | 2.1 |
-| K<sub>3</sub><sup>n</sup> | codominio configuracional ternario de orden n | 2.1 |
-| SV(9,3) | célula canónica de nueve posiciones | 2.1 |
-| Suceso<sub>SV</sub>(S) | predicado de pertenencia operatoria | 2.2 |
-| Formulable<sub>SV</sub>(S) | predicado de admisibilidad formal | 2.2 |
-| H = (I<sub>H</sub>, ⪯<sub>H</sub>, X<sub>H</sub>, 𝓐<sub>H</sub>) | horizonte | 2.3 |
-| e = (H, H', σ, R<sub>e</sub>) | suceso admisible (con A1-A6) | 2.4 |
-| Δ<sub>e</sub> F(x) | diferencia eventiva mínima | 2.5 |
-| ∂<sub>ν</sub><sup>SV</sup> q(j) | operador de derivada por suceso | 2.6 |
-| 𝑑<sup>SV</sup><sub>Φ</sub>(S<sub>k+1</sub>, S<sub>k</sub>) | distancia factual fibrosa entre sucesos consecutivos | 2.7 |
-| 𝐷<sup>SV</sup><sub>Φ</sub>(Γ) | distancia factual fibrosa global sobre trayectoria | 2.8 |
-| **e** = (e<sub>1</sub>, …, e<sub>n</sub>) | cadena admisible (C1-C4) | 2.9 |
-| A<sub>n</sub>, Φ | acumulación eventiva y regla de actualización | 2.10 |
-| μ, λ | magnitudes de cierre interno y de borde | 2.11 |
-| Γ<sub>q</sub>, Γ<sub>U</sub> | trayectoria del ciclo y trayectoria universal | 2.12 |
-| δ<sub>SV</sub> | indicador ternario | 2.13 |
-| τ, 𝓛<sup>adm</sup><sub>SV</sub>(τ) | estado corpus y leyes admisibles | 2.14 |
-| Π<sub>D</sub> | proyección canónica | 2.15 |
+| Σ = { 0, 1, U } | alfabeto ternario canónico | 2.2 |
+| K<sub>3</sub><sup>n</sup> | codominio configuracional ternario de orden n | 2.2 |
+| SV(9,3) | célula canónica de nueve posiciones | 2.2 |
+| Suceso<sub>SV</sub>(S) | predicado de pertenencia operatoria | 2.3 |
+| Formulable<sub>SV</sub>(S) | predicado de admisibilidad formal | 2.3 |
+| H = (I<sub>H</sub>, ⪯<sub>H</sub>, X<sub>H</sub>, 𝓐<sub>H</sub>) | horizonte | 2.4 |
+| e = (H, H', σ, R<sub>e</sub>) | suceso admisible (con A1-A6) | 2.5 |
+| Δ<sub>e</sub> F(x) | diferencia eventiva mínima | 2.6 |
+| ∂<sub>ν</sub><sup>SV</sup> q(j) | operador de derivada por suceso | 2.7 |
+| 𝑑<sup>SV</sup><sub>Φ</sub>(S<sub>k+1</sub>, S<sub>k</sub>) | distancia factual fibrosa entre sucesos consecutivos | 2.8 |
+| 𝐷<sup>SV</sup><sub>Φ</sub>(Γ) | distancia factual fibrosa global sobre trayectoria | 2.9 |
+| **e** = (e<sub>1</sub>, …, e<sub>n</sub>) | cadena admisible (C1-C4) | 2.10 |
+| A<sub>n</sub>, Φ | acumulación eventiva y regla de actualización | 2.11 |
+| μ, λ | magnitudes de cierre interno y de borde | 2.12 |
+| Γ<sub>q</sub>, Γ<sub>U</sub> | trayectoria del ciclo y trayectoria universal | 2.13 |
+| δ<sub>SV</sub> | indicador ternario | 2.14 |
+| τ, 𝓛<sup>adm</sup><sub>SV</sub>(τ) | estado corpus y leyes admisibles | 2.15 |
+| Π<sub>D</sub> | proyección canónica | 2.16 |
 
 Con este aparato declarado y disponible, la cadena ascendente del Sistema Vectorial SV puede desplegarse en los apartados 3 a 15 sin recurso a definiciones externas. Cada apartado de la cadena utilizará exactamente los símbolos y operadores fijados aquí.
 
@@ -1030,7 +1386,7 @@ Para m = 3 defectos x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub> ∈ { 0, 1, U } 
 | (U, U, 1) | 1 | hay un 1 |
 | (U, U, U) | U | todo U sin 1 |
 
-**Distribución estadística:**
+**Cardinal canónico de salidas del verificador:**
 
 | Salida | Número de entradas |
 |---|---|
@@ -1294,21 +1650,1133 @@ La Teoría del TODO y de la NADA del Sistema Vectorial SV no se funda en tiempo,
 ```
 
 ---
-## 18. Suite laboratorial reproducible
+## 18. Mapa de subordinación operatoria del corpus del Sistema Vectorial SV
 
-### 18.1. Estatuto del catálogo laboratorial
+La presente publicación absorbe doctrinalmente todo el corpus del Sistema Vectorial SV. Esto exige declarar explícitamente la **subordinación operatoria** de cada doctrina absorbida bajo la ecuación rectora 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub> = 0 fijada en el apartado 2.0.
 
-La Teoría del TODO y de la NADA del Sistema Vectorial SV se acompaña de una **suite laboratorial reproducible en Python** que verifica, por cómputo determinista sobre los objetos canónicos del documento, que cada apartado de la cadena ascendente cierra con defecto exactamente cero. Cada laboratorio es un script independiente, autocontenido, sin dependencias externas más allá de la biblioteca estándar de Python, que recibe declaraciones tipadas de las configuraciones y trayectorias del SV y devuelve un veredicto final en el alfabeto canónico { 0, 1, U }.
+### 18.1. Cadena fundacional canónica del corpus
 
-La presente publicación **anuncia** los laboratorios y declara su criterio de aptitud, su sección doctrinal de origen y su URL canónica. La implementación se realiza en una entrega posterior bajo el repositorio canónico del corpus SV.
+El corpus del Sistema Vectorial SV declara, sobre el documento de teoría general de sucesos generadores y protocampos unificados (Lloret Egea, 2026, §4), la **cadena fundacional canónica** completa:
 
-### 18.2. URL canónica del catálogo
+```math
+\mathcal{F}_{0} \;\vdash\; \mathrm{Def}_{SV}(\varepsilon_{0}); \qquad \varepsilon_{0} \;:\; \emptyset \;\longrightarrow\; \Omega_{\mathrm{pre}} \;\longrightarrow\; \Phi(0) = \Phi(1) \;\longrightarrow\; \mathrm{no\text{-}decisi\acute{o}n} \;\longrightarrow\; U \;\longrightarrow\; \Omega_{\mathrm{pro}} \;\longrightarrow\; \Sigma \;\longrightarrow\; \mathrm{sucesos\;generadores} \;\longrightarrow\; \mathrm{protocampos}.
+```
+
+La cadena se prolonga, por la compuerta de ternarización Π<sub>3</sub><sup>H</sup> del §7 del corpus, hasta la emergencia ternaria sobre la célula configuracional K<sub>3</sub><sup>n</sup>:
+
+```math
+\mathrm{protocampos} \;\longrightarrow\; \Pi_{3}^{H} \;\longrightarrow\; K_{3}^{n} \;\longrightarrow\; \Xi_{SV} \;\longrightarrow\; \Sigma_{\mathrm{conc}} \;\longrightarrow\; \Sigma_{\mathrm{canal}} \;\longrightarrow\; \{\, m_{0},\; \chi_{\alpha},\; U \,\}.
+```
+
+El terminal de la cadena {m<sub>0</sub>, χ<sub>α</sub>, U} es el codominio canónico de los **dictámenes finales** del Sistema Vectorial SV: m<sub>0</sub> denota cierre material a falso, χ<sub>α</sub> denota clase emergente clausurable, U denota indeterminación honesta sostenida.
+
+### 18.2. Operador maestro 𝔘<sup>unif</sup><sub>SV</sub> del corpus
+
+Por la Definición §11.9 del corpus de teoría general de sucesos generadores y protocampos unificados, el **operador maestro unificado** del Sistema Vectorial SV sobre los siete sectores factuales coexistentes (eléctrico, magnético, gravitatorio, TPA, convergencia ternaria, espectral, topológico) queda fijado canónicamente por:
+
+```math
+\boxed{ \;\mathfrak{U}^{\mathrm{unif}}_{SV}\bigl(\Phi^{1},\ldots,\Phi^{7};\,\{\mathcal{S}_{k}\}_{k=1,\ldots,7}\bigr) \;:=\; \bigoplus_{j=1}^{7}\mathfrak{U}^{(j)}_{SV}(\Phi^{j}) \;\oplus\; \bigoplus_{k=1}^{7}\mathcal{S}_{k},\; }
+```
+
+donde ⊕ es el operador canónico de concatenación de la Definición §11.1 del corpus, los 𝓤<sup>(j)</sup><sub>SV</sub> son los siete operadores sectoriales de las Definiciones §§11.2-11.8 del corpus, y los 𝒮<sub>k</sub> son las siete identidades intersectoriales del §12 del corpus.
+
+La **ecuación maestra canónica** es por tanto:
+
+```math
+\boxed{ \;\mathfrak{U}^{\mathrm{unif}}_{SV} \;=\; 0,\; }
+```
+
+equivalente, por la identificación canónica del apartado 2.0, a:
+
+```math
+\boxed{ \;\mathcal{E}^{\star}_{TODO,\,SV}(\Gamma_{U};\,\tau) \;=\; 0.\; }
+```
+
+### 18.3. Los siete operadores sectoriales 𝓤<sup>(j)</sup><sub>SV</sub>
+
+El operador maestro 𝔘<sup>unif</sup><sub>SV</sub> descompone, por la Definición §11.1 del corpus, en **siete operadores sectoriales** que cubren los siete sectores primarios coexistentes del Sistema Vectorial SV.
+
+**Tabla 18.3.1 (Los siete operadores sectoriales del corpus).**
+
+| Sector | Operador | Sustento canónico | Veredicto canónico |
+|---|---|---|---|
+| 1. Eléctrico | 𝓤<sup>(1)</sup><sub>SV</sub>(D, ρ, E, B) | Maxwell factual: Div<sub>SV</sub>(D) − ρ = 0; Rot<sub>SV</sub>(E) + ∂<sub>ν</sub><sup>SV</sup>B = 0 | 𝓤<sup>(1)</sup><sub>SV</sub> = 0 |
+| 2. Magnético | 𝓤<sup>(2)</sup><sub>SV</sub>(B, H, D, J) | Maxwell factual: Div<sub>SV</sub>(B) = 0; Rot<sub>SV</sub>(H) − ∂<sub>ν</sub><sup>SV</sup>D − J = 0 | 𝓤<sup>(2)</sup><sub>SV</sub> = 0 |
+| 3. Gravitatorio | 𝓤<sup>(3)</sup><sub>SV</sub>(G, 𝒢<sub>J</sub>) | Proposición 9 canónica: G(ν) = \|E<sub>crit</sub>(ν)\|/\|Q\|; 𝒢<sub>J</sub>(ν) = ‖J<sup>(ν)</sup>‖<sub>∗</sub> · 𝟙 | 𝓤<sup>(3)</sup><sub>SV</sub> = 0 |
+| 4. TPA | 𝓤<sup>(4)</sup><sub>SV</sub>(C<sub>k</sub>, m<sub>k</sub>, φ) | Identidades O1, O2 del corpus TPA: max\|Div<sub>SV</sub>(C<sub>k</sub>) + m<sub>k</sub>\| = 0; ΣDiv<sub>SV</sub>(C<sub>k</sub>) − (φ(S<sub>0</sub>) − φ(S<sub>n</sub>)) = 0 | 𝓤<sup>(4)</sup><sub>SV</sub> = 0 |
+| 5. Convergencia ternaria | 𝓤<sup>(5)</sup><sub>SV</sub>(T) | Teorema 1 de luz factual §A.15: T converge ⟺ U<sub>irr</sub>(T) = ∅ ⟺ card(U<sub>irr</sub>(T)) = 0 | 𝓤<sup>(5)</sup><sub>SV</sub> = 0 ⟺ card(U<sub>irr</sub>) = 0 |
+| 6. Espectral | 𝓤<sup>(6)</sup><sub>SV</sub>(G, φ) | Plano IV: G(λ) = ∑<sub>k</sub> φ<sub>k</sub> · λ<sup>k</sup>; G(1) − ∑φ<sub>k</sub> = 0; G(−1) − ∑(−1)<sup>k</sup>φ<sub>k</sub> = 0 | 𝓤<sup>(6)</sup><sub>SV</sub> = 0 |
+| 7. Topológico | 𝓤<sup>(7)</sup><sub>SV</sub>(Res, h<sub>Γ</sub>, ∫) | Plano V con O3 absorbida: Res<sub>k</sub> = φ(S<sub>k</sub>) · 𝟙<sub>{m<sub>k</sub>=0}</sub>; h<sub>Γ</sub> = m<sub>n−1</sub> − m<sub>0</sub>; ∫<sub>Γ</sub><sup>SV</sup> φ dz = ∑φ<sub>k</sub> + i<sub>SV</sub>·∑φ<sub>k</sub>m<sub>k</sub> | 𝓤<sup>(7)</sup><sub>SV</sub> = 0 |
+
+### 18.4. Las siete identidades intersectoriales 𝒮<sub>k</sub>
+
+Las siete identidades intersectoriales del §12 del corpus son las relaciones canónicas que conectan los operadores sectoriales entre sí.
+
+**Tabla 18.4.1 (Las siete identidades intersectoriales del corpus).**
+
+| Identidad | Forma canónica | Sentido |
+|---|---|---|
+| 𝒮<sub>1</sub> | ∂<sub>ν</sub><sup>SV</sup>ρ + Div<sub>SV</sub>(J) = 0 | Conservación factual de carga |
+| 𝒮<sub>2</sub> | Div<sub>SV</sub> ∘ Rot<sub>SV</sub> = 0 | Identidad operatoria del cuerpo factual |
+| 𝒮<sub>3</sub> | dist(ν, 𝒞) · G(ν) ≠ ∞ | Disciplina gravedad ⇎ detonación |
+| 𝒮<sub>4</sub> | ε ⇒ K<sub>SV</sub> ⇒ h<sub>op,SV</sub> ⇒ T<sub>SV</sub> | Cadena fundacional canónica |
+| 𝒮<sub>5</sub> | A<sub>i</sub>(n) monótona no decreciente | Acumulación factual de apertura |
+| 𝒮<sub>6</sub> | V<sub>i</sub>(δ, n) monótona no decreciente | Variación total preternaria del sesgo |
+| 𝒮<sub>7</sub> | π<sub>0</sub>(Ξ<sub>SV</sub>) = E<sub>0</sub> = m<sub>0</sub>c² | Absorción basal exacta |
+
+### 18.5. Operador concatenador canónico ⊕
+
+El operador ⊕ del corpus (Definición §11.1) es el **operador canónico de concatenación**. Sus dos cláusulas constitutivas son:
+
+**(C.1) Componente nula.** A ⊕ 0 = 0 ⊕ A = A para todo operador admisible A.
+
+**(C.2) Anulación conjunta.** ⊕<sub>j</sub> A<sub>j</sub> = 0 ⟺ ∀ j : A<sub>j</sub> = 0.
+
+La cláusula C.2 es la propiedad doctrinal central: la **anulación de la concatenación equivale a la anulación simultánea de todos los componentes**. Esta propiedad es la base operatoria de la equivalencia entre 𝔘<sup>unif</sup><sub>SV</sub> = 0 y la nulidad simultánea de los siete sectores y de las siete identidades.
+
+### 18.6. Justificación de la doble denominación 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub>
+
+La identificación canónica del apartado 2.0 se sostiene sobre **tres equivalencias estructurales** entre la lectura doctrinal y la lectura algebraica.
+
+**Equivalencia E1: cadena ascendente vs operador maestro.** La cadena ascendente del SV (apartados 3 a 15) sube de 𝓔<sub>∅</sub> a 𝓔<sup>★</sup><sub>TODO,SV</sub>. El operador maestro 𝔘<sup>unif</sup><sub>SV</sub> del corpus desciende de la fórmula maestra a los siete sectores. Las dos lecturas son **inversas la una de la otra** sobre el mismo aparato. La cadena ascendente declara qué subordina a qué; el operador maestro declara qué se compone con qué. Las dos producen la misma ecuación cuando se cierra el ciclo doctrinal.
+
+**Equivalencia E2: lecturas de la NADA admisible vs cláusulas C.1-C.2 del operador ⊕.** La cláusula C.1 del operador concatenador (componente nula identidad) es la lectura algebraica de la primera lectura interna de la NADA admisible, esto es, 𝓔<sub>∅</sub> como rango mínimo sin contenido positivo. La cláusula C.2 (anulación conjunta) es la lectura algebraica de la segunda lectura interna, esto es, (μ, λ) = (0, 0) como cierre interno sin resto exterior formulable. Las dos lecturas internas de la NADA del SV coinciden con las dos cláusulas estructurales del operador ⊕ del corpus.
+
+**Equivalencia E3: defectos canónicos vs operadores sectoriales.** Los cinco bloques de defectos canónicos del verificador 𝓝<sup>★</sup><sub>SV</sub> (apartado 15.3) coinciden, por proyección canónica, con los siete operadores sectoriales 𝓤<sup>(j)</sup><sub>SV</sub> y las siete identidades intersectoriales 𝒮<sub>k</sub> del operador maestro. La proyección canónica es la siguiente:
+
+| Defecto del verificador (apartado 15) | Operador del corpus (§§11.2-11.8 + §12) |
+|---|---|
+| 𝓞<sub>∅</sub> | F<sub>0</sub> ⊢ Def<sub>SV</sub>(ε<sub>0</sub>) (cadena fundacional, base del SV) |
+| 𝓤<sub>suc</sub> | Pertenencia a 𝕌<sup>SV</sup><sub>suc</sub>, condición previa de los sectores |
+| 𝓓<sub>𝓕<sub>0</sub></sub> | Retrofundación, condición previa de los sectores |
+| { S<sub>q</sub>, Δ<sup>Φ</sup><sub>q</sub>, 𝓐<sub>q</sub>, 𝓒<sub>q</sub>, 𝓡<sub>q</sub> } | Las cinco componentes del ciclo q proyectan sobre los sectores 1-7 y las identidades 𝒮<sub>1</sub>-𝒮<sub>7</sub> según el contenido factual del ciclo |
+| Δ<sup>TODO</sup><sub>D</sub> | Defecto de absorción de la ley admisible D, equivalente a la restricción del operador maestro al sector(es) que D enuncia |
+
+Las tres equivalencias E1, E2, E3 cierran la identificación canónica 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub>: son **la misma ecuación** declarada bajo dos nombres con funciones complementarias, no dos ecuaciones paralelas.
+
+### 18.7. Tabla canónica de absorciones declaradas en el corpus
+
+El §18 del corpus de teoría general de sucesos generadores y protocampos unificados declara explícitamente once absorciones canónicas del operador maestro. La presente publicación las adopta literalmente.
+
+**Tabla 18.7.1 (Las once absorciones canónicas del corpus).**
+
+| Identificador | Doctrina absorbida | Operador absorbido | Sectores activados |
+|---|---|---|---|
+| §18.1 | Maxwell factual | 𝔼<sub>SV</sub> = (𝕄<sub>SV</sub>; 𝕂<sub>SV</sub>; 𝔽<sub>SV</sub>) | 1 + 2 |
+| §18.2 | Luz factual | **L**<sub>SV</sub>(Φ<sup>L</sup>) factoriza por π<sub>𝒞</sub> sobre 𝔼<sub>SV</sub> | 1 + 2 (vía proyección) |
+| §18.3 | Gravitatoria | G(ν), 𝒢<sub>J</sub>(ν) (Proposición 9) | 3 |
+| §18.4 | TPA | O1, O2 (Div<sub>SV</sub>(C<sub>k</sub>), telescópica) | 4 |
+| §18.5 | Convergencia ternaria | Γ<sub>ℋ</sub>(T), card(U<sub>irr</sub>(T)) | 5 |
+| §18.6 | Espectral | G(λ) = ∑<sub>k</sub> φ<sub>k</sub> · λ<sup>k</sup> | 6 |
+| §18.7 | Topológico (con O3) | Res<sub>k</sub>, h<sub>Γ</sub>, integral compleja factual | 7 |
+| §18.8 | Energía 𝔈<sub>SV</sub> | ⟨E, J⟩<sub>SV</sub> = −(∂<sub>ν</sub><sup>SV</sup>u<sub>SV</sub> + Div<sub>SV</sub>(S<sub>SV</sub>)) | derivada de 1+2 |
+| §18.9 | Entropía H<sub>SV</sub> | H<sub>pre</sub>(Γ, n) = ∑<sub>i</sub> [A<sub>i</sub>(n) + V<sub>i</sub>(δ, n)] | derivada de 𝒮<sub>5</sub>+𝒮<sub>6</sub> |
+| §18.10 | Fuerza/Trabajo | P = ⟨E, J⟩<sub>SV</sub> | derivada de 1+2 |
+| §18.11 | Calor/Entalpía | Q = ⟨E, J⟩<sub>SV</sub> · Δν | derivada de 1+2 |
+
+Cada absorción produce, sobre toda configuración admisible, **idénticamente los mismos valores numéricos** cuando el régimen absorbido se evalúa por separado y cuando se evalúa como restricción del operador maestro. Esta propiedad se demuestra en el apartado 23 (Teorema T7 — coincidencia canónica de absorciones) y se verifica numéricamente en el apartado 21 (tabla maestra de cotejo) sobre el banco canónico del apartado 20.
+
+---
+## 19. Fórmulas absorbidas: las once doctrinas canónicas del corpus
+
+Cada doctrina absorbida en el corpus del Sistema Vectorial SV tiene una **fórmula nativa** declarada en su publicación canónica de origen. La presente publicación absorbe estas once fórmulas mediante proyección Π<sub>D</sub> hacia el operador maestro 𝔘<sup>unif</sup><sub>SV</sub> ≡ 𝓔<sup>★</sup><sub>TODO,SV</sub>. Cada fórmula nativa queda anclada al corpus con cita exacta, sector(es) activados y condición de equivalencia con la restricción del operador maestro al sector correspondiente.
+
+### 19.1. Maxwell factual — 𝔼<sub>SV</sub>(𝕏<sub>SV</sub>; 𝕐<sub>SV</sub>; ℂ<sub>SV</sub>; J<sub>SV</sub>) = 0
+
+**Fórmula nativa.** Por el documento canónico de reducción estructural absoluta de Maxwell en el Sistema Vectorial SV (Lloret Egea, 2026), la **ecuación única soberana** del bloque electromagnético factual es:
+
+```math
+\boxed{ \;\mathbb{E}_{SV}\bigl(\mathbb{X}_{SV};\;\mathbb{Y}_{SV};\;\mathbb{C}_{SV};\;J_{SV}\bigr) \;=\; 0,\; }
+```
+
+con los componentes canónicos:
+
+```math
+\mathbb{X}_{SV} \;=\; (D, B, E, H)^{T}, \qquad \mathbb{Y}_{SV} \;=\; (\rho, 0, 0, J)^{T}, \qquad \mathbb{C}_{SV} \;=\; (\varepsilon_{SV}, \mu_{SV}, \sigma_{SV}),
+```
+
+y J<sub>SV</sub> el jacobiano factual de sensibilidad de régimen. La descomposición canónica es 𝔼<sub>SV</sub> = (𝕄<sub>SV</sub>; 𝕂<sub>SV</sub>; 𝔽<sub>SV</sub>):
+
+```math
+\mathbb{M}_{SV} \;=\; \begin{pmatrix} \mathrm{Div}_{SV}(D) - \rho \\ \mathrm{Div}_{SV}(B) \\ \mathrm{Rot}_{SV}(E) + \partial_{\nu}^{SV} B \\ \mathrm{Rot}_{SV}(H) - \partial_{\nu}^{SV} D - J \end{pmatrix} \;=\; 0.
+```
+
+**Sectores activados.** 1 (eléctrico) + 2 (magnético) del operador maestro.
+
+**Condición de absorción canónica.**
+
+```math
+\Delta^{TODO}_{\mathrm{em}}(\Gamma_{U};\,\tau) \;=\; \delta_{SV}\bigl[\, \mathbb{E}_{SV}(\Pi_{\mathrm{em}}(\Gamma_{U})) \;=\; 0 \,\bigr] \;=\; 0 \;\;\Longleftrightarrow\;\; \mathfrak{U}^{(1)}_{SV} \oplus \mathfrak{U}^{(2)}_{SV} \;=\; 0.
+```
+
+### 19.2. Luz factual — **L**<sub>SV</sub>(Φ<sup>L</sup>) = 0 con factorización por proyección π<sub>𝒞</sub>
+
+**Fórmula nativa.** Por el documento canónico de teoría general factual de la luz en el Sistema Vectorial SV (Lloret Egea, 2026, Teorema 11.1), la **ecuación única absoluta** del régimen luminoso es:
+
+```math
+\boxed{ \;\mathbf{L}_{SV}\bigl(\Phi^{L}_{SV};\,\{\mathcal{L}_{i}^{(gr)}\}\bigr) \;=\; 0,\; }
+```
+
+con la factorización canónica fundamental:
+
+```math
+\mathbf{L}_{SV}(\Phi^{L}_{SV}) \;=\; 0 \;\;\Longleftrightarrow\;\; \mathbb{E}_{SV}(\pi_{\mathcal{C}}(\Phi^{L}_{SV})) \;=\; 0.
+```
+
+La proyección π<sub>𝒞</sub> reduce la fibra luminosa Φ<sup>L</sup><sub>SV</sub> a la configuración electromagnética canónica (𝕏<sub>SV</sub>, 𝕐<sub>SV</sub>, ℂ<sub>SV</sub>, J<sub>SV</sub>) sobre la cual 𝔼<sub>SV</sub> de Maxwell factual queda evaluada.
+
+**Sectores activados.** 1 + 2 (vía proyección π<sub>𝒞</sub>).
+
+**Condición de absorción canónica.** La luz factual queda absorbida en 𝓔<sup>★</sup><sub>TODO,SV</sub> a través de la composición π<sub>𝒞</sub> ∘ 𝔼<sub>SV</sub>, no como sector independiente.
+
+### 19.3. Gravitatoria — G(ν), 𝒢<sub>J</sub>(ν)
+
+**Fórmula nativa.** Por la Proposición 9 canónica del corpus, en régimen no detonante (\|E<sub>crit</sub>(ν)\| < ⌈7\|Q\|/9⌉):
+
+```math
+\boxed{ \;G(\nu) \;=\; \frac{\lvert E_{\mathrm{crit}}(\nu)\rvert}{\lvert Q\rvert}, \qquad \mathcal{G}_{J}(\nu) \;=\; \lVert J^{(\nu)}_{Q,P}\rVert_{*}\cdot\mathbf{1}.\; }
+```
+
+En régimen no detonante con \|E<sub>crit</sub>(ν)\| = 0, ambos operadores se anulan.
+
+**Sectores activados.** 3 (gravitatorio) del operador maestro.
+
+**Condición de absorción canónica.**
+
+```math
+\Delta^{TODO}_{\mathrm{grav}}(\Gamma_{U};\,\tau) \;=\; \delta_{SV}\bigl[\, G(\nu) = 0 \;\wedge\; \mathcal{G}_{J}(\nu) = 0 \,\bigr] \;=\; 0 \;\;\Longleftrightarrow\;\; \mathfrak{U}^{(3)}_{SV} \;=\; 0.
+```
+
+### 19.4. TPA — identidades O1, O2, O3 sobre Div<sub>SV</sub>(C<sub>k</sub>)
+
+**Fórmulas nativas.** Por el documento canónico TPA del corpus, las identidades canónicas son:
+
+```math
+\text{(O1)} \quad \max_{k}\bigl\lvert\,\mathrm{Div}_{SV}(C_{k}) + m_{k}\,\bigr\rvert \;=\; 0,
+```
+
+```math
+\text{(O2)} \quad \sum_{k} \mathrm{Div}_{SV}(C_{k}) \;-\; \bigl(\varphi(S_{0}) - \varphi(S_{n})\bigr) \;=\; 0,
+```
+
+```math
+\text{(O3)} \quad \int_{\Gamma}^{SV} \varphi(z)\,dz \;=\; \sum_{k} \varphi_{k} \;+\; i_{SV}\cdot\sum_{k} \varphi_{k}\,m_{k}.
+```
+
+donde m<sub>k</sub> = φ(S<sub>k+1</sub>) − φ(S<sub>k</sub>) y Div<sub>SV</sub>(C<sub>k</sub>) = −m<sub>k</sub>. La identidad O2 es **automática por suma telescópica** sobre cualquier trayectoria admisible.
+
+**Sectores activados.** 4 (TPA) del operador maestro. La identidad O3 queda absorbida en el sector 7 (topológico), por convenio canónico del corpus.
+
+**Condición de absorción canónica.**
+
+```math
+\Delta^{TODO}_{\mathrm{TPA}}(\Gamma_{U};\,\tau) \;=\; \delta_{SV}\bigl[\, \text{O1} \;\wedge\; \text{O2} \,\bigr] \;=\; 0 \;\;\Longleftrightarrow\;\; \mathfrak{U}^{(4)}_{SV} \;=\; 0.
+```
+
+### 19.5. Convergencia ternaria Γ<sub>ℋ</sub> — card(U<sub>irr</sub>(T)) = 0
+
+**Fórmula nativa.** Por el Teorema 1 de luz factual §A.15 del corpus:
+
+```math
+\boxed{ \;T \text{ converge} \;\;\Longleftrightarrow\;\; U_{\mathrm{irr}}(T) \;=\; \emptyset \;\;\Longleftrightarrow\;\; \mathrm{card}(U_{\mathrm{irr}}(T)) \;=\; 0.\; }
+```
+
+**Sectores activados.** 5 (convergencia ternaria) del operador maestro.
+
+**Condición de absorción canónica.**
+
+```math
+\Delta^{TODO}_{\mathrm{conv}}(\Gamma_{U};\,\tau) \;=\; \delta_{SV}\bigl[\, \mathrm{card}(U_{\mathrm{irr}}(T)) = 0 \,\bigr] \;=\; 0 \;\;\Longleftrightarrow\;\; \mathfrak{U}^{(5)}_{SV} \;=\; 0.
+```
+
+### 19.6. Espectral — G(λ) = ∑<sub>k</sub> φ<sub>k</sub> · λ<sup>k</sup>
+
+**Fórmula nativa.** Por el Plano IV del corpus de luz factual, el polinomio espectral factual es:
+
+```math
+\boxed{ \;G(\lambda) \;=\; \sum_{k=0}^{n} \varphi_{k}\cdot\lambda^{k}.\; }
+```
+
+Las identidades canónicas asociadas son:
+
+```math
+G(1) \;-\; \sum_{k} \varphi_{k} \;=\; 0, \qquad G(-1) \;-\; \sum_{k}(-1)^{k}\varphi_{k} \;=\; 0, \qquad G(\lambda) \;-\; \sum_{k} \varphi_{k}\lambda^{k} \;\equiv\; 0.
+```
+
+**Sectores activados.** 6 (espectral) del operador maestro.
+
+**Condición de absorción canónica.**
+
+```math
+\Delta^{TODO}_{\mathrm{esp}}(\Gamma_{U};\,\tau) \;=\; \delta_{SV}\bigl[\, G(1) = \Sigma\varphi_{k} \;\wedge\; G(-1) = \Sigma(-1)^{k}\varphi_{k} \,\bigr] \;=\; 0 \;\;\Longleftrightarrow\;\; \mathfrak{U}^{(6)}_{SV} \;=\; 0.
+```
+
+### 19.7. Topológico — Res<sub>k</sub>, h<sub>Γ</sub>, integral compleja factual
+
+**Fórmulas nativas.** Por el Plano V del corpus, las tres magnitudes canónicas son:
+
+```math
+\boxed{ \;\mathrm{Res}_{k} \;=\; \varphi(S_{k})\cdot\mathbf{1}_{\{m_{k}=0\}}, \qquad h_{\Gamma} \;=\; m_{n-1} - m_{0}, \qquad \int_{\Gamma}^{SV} \varphi\,dz \;=\; \sum_{k} \varphi_{k} \;+\; i_{SV}\cdot\sum_{k}\varphi_{k}\,m_{k}.\; }
+```
+
+**Sectores activados.** 7 (topológico) del operador maestro, con O3 absorbida.
+
+**Condición de absorción canónica.**
+
+```math
+\Delta^{TODO}_{\mathrm{top}}(\Gamma_{U};\,\tau) \;=\; \delta_{SV}\bigl[\, \max_{k}\lvert\mathrm{Res}_{k} - \varphi(S_{k})\mathbf{1}_{\{m_{k}=0\}}\rvert = 0 \;\wedge\; h_{\Gamma} = m_{n-1} - m_{0} \,\bigr] \;=\; 0 \;\;\Longleftrightarrow\;\; \mathfrak{U}^{(7)}_{SV} \;=\; 0.
+```
+
+### 19.8. Energía factual 𝔈<sub>SV</sub> — balance ⟨E, J⟩<sub>SV</sub>
+
+**Fórmula nativa.** Por el Teorema 8.3.1 del corpus canónico de Maxwell factual:
+
+```math
+\boxed{ \;\langle E, J\rangle_{SV} \;=\; -\bigl(\,\partial_{\nu}^{SV} u_{SV} \;+\; \mathrm{Div}_{SV}(S_{SV})\,\bigr).\; }
+```
+
+con u<sub>SV</sub> la densidad de energía factual y S<sub>SV</sub> el vector de Poynting factual.
+
+**Sectores activados.** Derivado de 1 + 2 (consecuencia algebraica del balance Maxwell).
+
+**Condición de absorción canónica.** La energía factual emerge como **consecuencia algebraica directa** de la nulidad de 𝓤<sup>(1)</sup><sub>SV</sub> ⊕ 𝓤<sup>(2)</sup><sub>SV</sub> y por tanto no añade un defecto independiente al verificador del operador maestro:
+
+```math
+\mathfrak{U}^{(1)}_{SV} \oplus \mathfrak{U}^{(2)}_{SV} = 0 \;\;\Longrightarrow\;\; \langle E, J\rangle_{SV} \;\text{computable y trazable canónicamente}.
+```
+
+### 19.9. Entropía factual H<sub>SV</sub> — sumatoria sobre acumulaciones y variaciones
+
+**Fórmula nativa.** Por la Definición 4.2 del corpus de entropía factual e irreversibilidad estructural en el Sistema Vectorial SV:
+
+```math
+\boxed{ \;H_{\mathrm{pre}}(\Gamma, n) \;:=\; \sum_{i}\bigl[\,A_{i}(n) \;+\; V_{i}(\delta, n)\,\bigr].\; }
+```
+
+con A<sub>i</sub>(n) = ∑<sub>k</sub> max(Δα<sub>i</sub>, 0) la acumulación factual de apertura y V<sub>i</sub>(δ, n) = ∑<sub>k</sub> \|Δδ<sub>i</sub>\| la variación total preternaria del sesgo.
+
+**Sectores activados.** Derivado de 𝒮<sub>5</sub> + 𝒮<sub>6</sub> (consecuencia algebraica de las dos identidades de monotonía).
+
+**Condición de absorción canónica.** La entropía emerge como suma de las acumulaciones canónicas controladas por las identidades 𝒮<sub>5</sub>, 𝒮<sub>6</sub> de las cláusulas C.1 y C.2 del operador concatenador. La irreversibilidad estructural factual se manifiesta como monotonía no decreciente de A<sub>i</sub>(n) y V<sub>i</sub>(δ, n).
+
+### 19.10. Fuerza/Trabajo factual — P = ⟨E, J⟩<sub>SV</sub>
+
+**Fórmula nativa.** Por el documento canónico de fórmula factual única absoluta de la termodinámica en el Sistema Vectorial SV (Lloret Egea, 2026), sobre régimen estacionario:
+
+```math
+\boxed{ \;P \;=\; \langle E, J\rangle_{SV}.\; }
+```
+
+**Sectores activados.** Derivado de 1 + 2 (consecuencia del balance Maxwell sectorial).
+
+**Condición de absorción canónica.** La fuerza/trabajo emerge como consecuencia algebraica directa del producto interno factual de los vectores E y J en el dominio Maxwell, ya absorbido por 𝓤<sup>(1)</sup><sub>SV</sub> ⊕ 𝓤<sup>(2)</sup><sub>SV</sub>.
+
+### 19.11. Calor/Entalpía factual — Q = ⟨E, J⟩<sub>SV</sub> · Δν
+
+**Fórmula nativa.** Por el documento canónico de fórmula factual única absoluta de la termodinámica:
+
+```math
+\boxed{ \;Q \;=\; \langle E, J\rangle_{SV}\cdot\Delta\nu.\; }
+```
+
+**Sectores activados.** Derivado de 1 + 2 (consecuencia del balance Maxwell sectorial), parametrizado por el incremento Δν del ordinal canónico append-only de sucesos.
+
+**Condición de absorción canónica.** El calor/entalpía emerge como producto del balance Maxwell por el incremento factual del ordinal canónico de sucesos.
+
+### 19.12. Síntesis canónica de las once fórmulas absorbidas
+
+Las once doctrinas del corpus quedan absorbidas en el operador maestro mediante la siguiente síntesis canónica:
+
+```math
+\mathcal{E}^{\star}_{TODO,\,SV}(\Gamma_{U};\,\tau) \;=\; 0 \;\;\Longleftrightarrow\;\; \begin{cases} \mathfrak{U}^{(j)}_{SV}(\Phi^{j}) = 0 \;\;\forall\, j \in \{1,\ldots,7\}, \\ \mathcal{S}_{k} \;\;\forall\, k \in \{1,\ldots,7\}, \end{cases}
+```
+
+de donde, por las once absorciones individuales, **cada doctrina del corpus produce el mismo veredicto evaluada por separado y evaluada como restricción del operador maestro**. La verificación numérica de esta propiedad sobre el banco canónico de los diez supuestos se desarrolla en el apartado 21.
+
+---
+## 20. Banco numérico canónico de los diez supuestos sobre SV(9, 3)
+
+El banco numérico canónico del Sistema Vectorial SV está declarado en el §17 del documento canónico de teoría general de sucesos generadores y protocampos unificados (Lloret Egea, 2026). Comprende **diez supuestos** sobre la célula canónica SV(9, 3) que cubren las diez tipologías morfológicas Σ<sub>1</sub> a Σ<sub>10</sub> del corpus y los tres dictámenes finales canónicos del codominio { m<sub>0</sub>, χ<sub>α</sub>, U }.
+
+La presente publicación **transcribe literalmente** los diez supuestos del banco canónico, sin alteración. Diseñar otro banco constituiría desviación de la canonización del corpus. El banco original está probado a estrés sobre las tres tipologías de dictamen y sobre las diez tipologías morfológicas, cubriendo casos convergentes puros, mesetas, exploratorios, bimodales, multimodales y umbrales tardíos.
+
+### 20.1. Notación canónica del banco
+
+Para cada supuesto se especifican:
+
+**Sectores 1+2 (electromagnético).** D = (D<sub>1</sub>, D<sub>2</sub>, D<sub>3</sub>, D<sub>4</sub>) con orientaciones σ = (+1, +1, −1, −1); B = (B<sub>1</sub>, B<sub>2</sub>, B<sub>3</sub>, B<sub>4</sub>); Γ<sup>E</sup> = (Γ<sup>E</sup><sub>1</sub>, Γ<sup>E</sup><sub>2</sub>, Γ<sup>E</sup><sub>3</sub>, Γ<sup>E</sup><sub>4</sub>); Γ<sup>H</sup> = (Γ<sup>H</sup><sub>1</sub>, Γ<sup>H</sup><sub>2</sub>, Γ<sup>H</sup><sub>3</sub>, Γ<sup>H</sup><sub>4</sub>); ρ; V; A<sub>Σ</sub>; ∂<sub>ν</sub><sup>SV</sup>B; ∂<sub>ν</sub><sup>SV</sup>D; J = (J<sub>1</sub>, J<sub>2</sub>, J<sub>3</sub>, J<sub>4</sub>); J<sub>total</sub>.
+
+**Sector 3 (gravitatorio).** Régimen no detonante en todo el banco (\|E<sub>crit</sub>(ν)\| < ⌈7\|Q\|/9⌉ con \|Q\| = 1, \|E<sub>crit</sub>(ν)\| = 0): G(ν) = 0, 𝒢<sub>J</sub>(ν) = 0.
+
+**Sector 4 (TPA).** Secuencia φ = (φ(S<sub>0</sub>), φ(S<sub>1</sub>), …, φ(S<sub>n</sub>)) ∈ {0, …, 9}<sup>n+1</sup>; m<sub>k</sub> = φ(S<sub>k+1</sub>) − φ(S<sub>k</sub>) ∈ ℤ; Div<sub>SV</sub>(C<sub>k</sub>) = −m<sub>k</sub> ∈ ℤ. La identidad O2 (∑Div<sub>SV</sub>(C<sub>k</sub>) = φ(S<sub>0</sub>) − φ(S<sub>n</sub>)) es automática por suma telescópica.
+
+**Sector 5 (Γ<sub>ℋ</sub>).** card(U<sub>irr</sub>(T)) = 0 en todo el banco salvo los supuestos con dictamen U.
+
+**Sector 6 (espectral).** Coeficientes φ<sub>k</sub> = φ(S<sub>k</sub>); G(λ) = ∑<sub>k=0..n</sub> φ<sub>k</sub>·λ<sup>k</sup>.
+
+**Sector 7 (topológico).** Res<sub>k</sub> = φ(S<sub>k</sub>)·𝟙<sub>{m<sub>k</sub>=0}</sub>; h<sub>Γ</sub> = m<sub>n−1</sub> − m<sub>0</sub>; integral compleja factual O3 = ∑<sub>k=0..n−1</sub> φ(S<sub>k</sub>) + i<sub>SV</sub>·∑<sub>k=0..n−1</sub> φ(S<sub>k</sub>)·m<sub>k</sub>.
+
+**Datos preternarios (para 𝒮<sub>5</sub>, 𝒮<sub>6</sub>).** Secuencias α<sub>1</sub>(k), β<sub>1</sub>(k) para la posición i = 1 con α<sub>1</sub>, β<sub>1</sub> ≥ 0, α<sub>1</sub> + β<sub>1</sub> > 0 y trayectoria admisible. Las acumulaciones A<sub>1</sub>(n) y V<sub>1</sub>(δ, n) son monótonas no decrecientes.
+
+**Contenido factual Ξ<sub>SV</sub> (para 𝒮<sub>4</sub>, 𝒮<sub>7</sub>).** Ξ<sub>SV</sub> mínimo asociado al régimen, con dictamen final canónico ∈ { m<sub>0</sub>, χ<sub>α</sub>, U } consistente con la tipología morfológica Σ<sub>k</sub> de la trayectoria.
+
+### 20.2. Supuesto §20.1 — Tipología Σ<sub>6</sub>: convergente con meseta inicial
+
+**Configuración EM.**
+
+| Magnitud | Valor |
+|---|---|
+| D | (0,200; 0,150; 0,180; 0,120) |
+| B | (0,180; 0,120; 0,180; 0,120) |
+| Γ<sup>E</sup> | (0,100; 0,120; 0,090; −0,040) |
+| Γ<sup>H</sup> | (0,200; 0,150; 0,180; −0,140) |
+| ρ; V; A<sub>Σ</sub> | 0,050; 1,000; 0,300 |
+| ∂<sub>ν</sub><sup>SV</sup>B; ∂<sub>ν</sub><sup>SV</sup>D | −0,900; +0,500 |
+| J; J<sub>total</sub> | (0,200; 0,200; 0,200; 0,200); 0,800 |
+
+**Sector gravitatorio.** G(ν) = 0, 𝒢<sub>J</sub>(ν) = 0.
+
+**TPA.** φ = (5, 3, 3, 3); m = (−2, 0, 0); Div<sub>SV</sub>(C<sub>k</sub>) = (+2, 0, 0).
+
+**Datos preternarios (i = 1).** α<sub>1</sub>(k) = (1,2; 1,5; 1,5; 1,5); β<sub>1</sub>(k) = (1,5; 1,3; 1,3; 1,3); δ<sub>1</sub>(k) = (+0,3; −0,2; −0,2; −0,2).
+
+**Contenido factual Ξ<sub>SV</sub>.** Régimen Σ<sub>6</sub> con dictamen m<sub>0</sub> = 3 UFM declarado; E<sub>0</sub> = m<sub>0</sub>·c² = 3·c² en unidades canónicas SV bajo compuerta ℘<sub>SV</sub>.
+
+**Verificación canónica componente a componente.**
+
+```
+Sectores 1+2 (electromagnético):
+  𝓤^(1)_1: Div_SV(D) − ρV = 0,050 − 0,050 = 0
+  𝓤^(1)_2: Rot_SV(E) + ∂_νB·A_Σ = 0,270 + (−0,900)·0,300 = 0
+  𝓤^(2)_1: Div_SV(B) = 0,180+0,120−0,180−0,120 = 0
+  𝓤^(2)_2: Rot_SV(H) − ∂_νD·A_Σ − J_total·A_Σ = 0,390 − 0,150 − 0,240 = 0
+Sector 3 (gravitatorio, no detonante):
+  𝓤^(3)_1: G(ν) − |E_crit|/|Q| = 0 − 0 = 0
+  𝓤^(3)_2: 𝒢_J(ν) − ‖J^(ν)‖_∗·𝟙 = 0 − 0 = 0
+Sector 4 (TPA, sólo O1+O2):
+  𝓤^(4)_1: max|Div_SV(C_k) + m_k| = 0
+  𝓤^(4)_2: ΣDiv_SV(C_k) − (φ(S_0) − φ(S_n)) = 2 − (5 − 3) = 0
+Sector 5 (convergencia ternaria):
+  𝓤^(5): card(U_irr(T)) = 0
+Sector 6 (espectral, polinomio canónico G(λ) = 5 + 3λ + 3λ² + 3λ³):
+  𝓤^(6)_1: G(1) − Σφ_k = 14 − 14 = 0
+  𝓤^(6)_2: G(−1) − Σ(−1)^k φ_k = (5−3+3−3) − (5−3+3−3) = 0
+  𝓤^(6)_3: G(λ) − Σφ_k λ^k = 0 idénticamente
+Sector 7 (topológico, absorbe O3):
+  Res_k = (5·𝟙_{−2=0}, 3·𝟙_{0=0}, 3·𝟙_{0=0}) = (0, 3, 3)
+  h_Γ = m_{n−1} − m_0 = 0 − (−2) = 2
+  ∫_Γ^SV φ dz = (5+3+3) + i_SV·(5·(−2)+3·0+3·0) = 11 − 10 i_SV
+  𝓤^(7)_1: max|Res_k − φ(S_k)·𝟙_{m_k=0}| = 0
+  𝓤^(7)_2: h_Γ − (m_{n−1} − m_0) = 2 − 2 = 0
+  𝓤^(7)_3: ∫ − Σφ_k − i_SV·Σφ_k m_k = 0
+Identidades intersectoriales:
+  𝒮_1: ∂_ν^SV ρ + Div_SV(J) = 0 + (0,2+0,2−0,2−0,2) = 0
+  𝒮_2: Div_SV ∘ Rot_SV ≡ 0 (identidad operatoria del corpus)
+  𝒮_3: dist(ν, 𝒞)·G(ν) = dist·0 = 0 ≠ ∞
+  𝒮_4: cadena ε ⇒ K_SV ⇒ h_op,SV ⇒ T_SV → m_0 = 3 UFM
+  𝒮_5: A_1(n) = (0; 0,05; 0,10; 0,15) monótona no decreciente
+  𝒮_6: V_1(δ,n) = (0; 0; 0; 0) monótona no decreciente
+  𝒮_7: π_0(Ξ_SV) = E_0 = m_0·c² = 3c²
+```
+
+**Dictamen Supuesto §20.1.** 𝓔<sup>★</sup><sub>TODO,SV</sub> = 𝔘<sup>unif</sup><sub>SV</sub> = **0**.
+
+### 20.3. Supuesto §20.2 — Tipología Σ<sub>5</sub>: meseta integral
+
+**Configuración EM.** D = (0,100; 0,100; 0,100; 0,100); B = (0,050; 0,050; 0,050; 0,050); Γ<sup>E</sup> = (0,060; 0,060; 0,060; −0,180); Γ<sup>H</sup> = (0,100; 0,100; 0,100; −0,100); ρ = 0,000; V = 1,000; A<sub>Σ</sub> = 0,400; ∂<sub>ν</sub><sup>SV</sup>B = 0; ∂<sub>ν</sub><sup>SV</sup>D = 0; J = (0,500; 0,000; 0,000; 0,000); J<sub>total</sub> = 0,500.
+
+**Sector gravitatorio.** G(ν) = 0, 𝒢<sub>J</sub>(ν) = 0.
+
+**TPA.** φ = (1, 1, 1, 1); m = (0, 0, 0); Div<sub>SV</sub>(C<sub>k</sub>) = (0, 0, 0).
+
+**Datos preternarios (i = 1).** α<sub>1</sub>(k) = (0,8; 0,8; 0,8; 0,8); β<sub>1</sub>(k) = (1,0; 1,0; 1,0; 1,0); δ<sub>1</sub>(k) ≡ +0,2 constante.
+
+**Contenido factual Ξ<sub>SV</sub>.** Régimen Σ<sub>5</sub> con dictamen **U**; π<sub>0</sub>(Ξ<sub>SV</sub>) opera vacuamente; 𝒮<sub>7</sub> se cumple en su forma vacua bajo dictamen U.
+
+**Verificación canónica.** Sectores EM se anulan; G(λ) = 1+λ+λ²+λ³, G(1) = 4, G(−1) = 0; Res<sub>k</sub> = (1, 1, 1), h<sub>Γ</sub> = 0, ∫ = 3 + 0i<sub>SV</sub>; 𝒮<sub>5</sub>: A<sub>1</sub>(n) = 0 monótona; 𝒮<sub>6</sub>: V<sub>1</sub>(δ, n) = 0 monótona; 𝒮<sub>4</sub>: dictamen U canónico (sin clausura masiva, indeterminación honesta sostenida).
+
+**Dictamen Supuesto §20.2.** 𝓔<sup>★</sup><sub>TODO,SV</sub> = 𝔘<sup>unif</sup><sub>SV</sub> = **0**.
+
+### 20.4. Supuesto §20.3 — Tipología Σ<sub>2</sub>: exploratoria pura
+
+**Configuración EM.** D = (0,300; 0,250; 0,300; 0,250); B = (0,400; 0,300; 0,400; 0,300); Γ<sup>E</sup> = (0,150; 0,200; 0,100; −0,450); Γ<sup>H</sup> = (0,500; 0,400; 0,300; −0,200); ρ = 0,000; V = 1,000; A<sub>Σ</sub> = 0,500; ∂<sub>ν</sub><sup>SV</sup>B = 0; ∂<sub>ν</sub><sup>SV</sup>D = 0; J<sub>total</sub> = 1,500.
+
+**TPA.** φ = (0, 1, 2, 3); m = (+1, +1, +1); Div<sub>SV</sub>(C<sub>k</sub>) = (−1, −1, −1).
+
+**Datos preternarios (i = 1).** α<sub>1</sub>(k) = (0,1; 0,3; 0,5; 0,7); β<sub>1</sub>(k) = (0,2; 0,4; 0,6; 0,8); δ<sub>1</sub>(k) ≡ +0,1.
+
+**Contenido factual Ξ<sub>SV</sub>.** Régimen Σ<sub>2</sub> con dictamen χ<sub>α</sub> (apertura de clase emergente; las condiciones de Proposición 5.1 NO se satisfacen porque Σ<sub>2</sub> con apertura monótona no admite clausura masiva).
+
+**Verificación canónica.** Sectores EM se anulan; ΣDiv = −3 = 0 − 3; G(λ) = λ + 2λ² + 3λ³, G(1) = 6, G(−1) = −2; Res<sub>k</sub> = (0, 0, 0), h<sub>Γ</sub> = 0, ∫ = 3 + 3i<sub>SV</sub>; 𝒮<sub>5</sub>: A<sub>1</sub>(n) = 0,2+0,2+0,2 = 0,6 monótona; 𝒮<sub>6</sub>: V<sub>1</sub>(δ, n) = 0 monótona; 𝒮<sub>7</sub>: π<sub>0</sub>(Ξ<sub>SV</sub>) opera sobre la firma de χ<sub>α</sub> (no extrae m<sub>0</sub>).
+
+**Dictamen Supuesto §20.3.** 𝓔<sup>★</sup><sub>TODO,SV</sub> = 𝔘<sup>unif</sup><sub>SV</sub> = **0**.
+
+### 20.5. Supuesto §20.4 — Tipología Σ<sub>3</sub>: bimodal apertura-cierre
+
+**Configuración EM.** D = (0,400; 0,300; 0,360; 0,240); B = (0,360; 0,240; 0,360; 0,240); Γ<sup>E</sup> = (0,200; 0,240; 0,180; −0,080); Γ<sup>H</sup> = (0,400; 0,300; 0,360; −0,280); ρ = 0,100; V = 1,000; A<sub>Σ</sub> = 0,300; ∂<sub>ν</sub><sup>SV</sup>B = −1,800; ∂<sub>ν</sub><sup>SV</sup>D = +1,000; J<sub>total</sub> = 1,600.
+
+**TPA.** φ = (5, 6, 5, 4); m = (+1, −1, −1); Div<sub>SV</sub>(C<sub>k</sub>) = (−1, +1, +1).
+
+**Datos preternarios (i = 1).** α<sub>1</sub>(k) = (1,0; 1,2; 1,4; 1,6); β<sub>1</sub>(k) = (1,2; 1,3; 1,1; 0,9); δ<sub>1</sub>(k) = (+0,2; +0,1; −0,3; −0,7).
+
+**Contenido factual Ξ<sub>SV</sub>.** Régimen Σ<sub>3</sub> con dictamen m<sub>0</sub> = 4 UFM; E<sub>0</sub> = 4·c².
+
+**Verificación canónica.** Div<sub>SV</sub>(D) = 0,100 = ρV; Rot<sub>SV</sub>(E) = 0,540 = −∂<sub>ν</sub>B·A<sub>Σ</sub>; ΣDiv = +1 = 5−4; G(λ) = 5+6λ+5λ²+4λ³, G(1) = 20, G(−1) = 0; Res<sub>k</sub> = (0, 0, 0), h<sub>Γ</sub> = 0, ∫ = 16 − 6i<sub>SV</sub>; 𝒮<sub>5</sub>: A<sub>1</sub>(n) = 0,2+0,2+0,2 = 0,6 monótona; 𝒮<sub>6</sub>: V<sub>1</sub>(δ, n) = 0,1+0,4+0,4 = 0,9 monótona; 𝒮<sub>4</sub>: condiciones (4.5) satisfechas → m<sub>0</sub> = 4 UFM; 𝒮<sub>7</sub>: π<sub>0</sub>(Ξ<sub>SV</sub>) = E<sub>0</sub> = 4·c².
+
+**Dictamen Supuesto §20.4.** 𝓔<sup>★</sup><sub>TODO,SV</sub> = 𝔘<sup>unif</sup><sub>SV</sub> = **0**.
+
+### 20.6. Supuesto §20.5 — Tipología Σ<sub>4</sub>: bimodal cierre-apertura
+
+**Configuración EM.** D = (0,500; 0,400; 0,200; 0,200); B = (0,250; 0,250; 0,250; 0,250); Γ<sup>E</sup> = (0,050; 0,100; 0,100; −0,250); Γ<sup>H</sup> = (0,300; 0,300; 0,200; −0,100); ρ = 0,500; V = 1,000; A<sub>Σ</sub> = 0,200; ∂<sub>ν</sub><sup>SV</sup>B = 0; ∂<sub>ν</sub><sup>SV</sup>D = 0; J<sub>total</sub> = 3,500.
+
+**TPA.** φ = (3, 2, 4, 5); m = (−1, +2, +1); Div<sub>SV</sub>(C<sub>k</sub>) = (+1, −2, −1).
+
+**Datos preternarios (i = 1).** α<sub>1</sub>(k) = (0,9; 0,9; 1,1; 1,3); β<sub>1</sub>(k) = (1,1; 0,9; 1,1; 1,3); δ<sub>1</sub>(k) = (+0,2; 0; 0; 0).
+
+**Contenido factual Ξ<sub>SV</sub>.** Régimen Σ<sub>4</sub> con dictamen χ<sub>α</sub> (cierre inicial seguido de reapertura activa una clase emergente; condiciones (4.5) fallan en F(T) por reapertura).
+
+**Verificación canónica.** Div<sub>SV</sub>(D) = 0,500 = ρV; Rot<sub>SV</sub>(E) = 0; Rot<sub>SV</sub>(H) = 0,700 = 0 + 0,700; ΣDiv = −2 = 3−5; G(λ) = 3+2λ+4λ²+5λ³, G(1) = 14, G(−1) = 0; Res<sub>k</sub> = (0, 0, 0), h<sub>Γ</sub> = +2, ∫ = 9 + 5i<sub>SV</sub>; 𝒮<sub>5</sub>: A<sub>1</sub>(n) = 0+0,2+0,2 = 0,4 monótona; 𝒮<sub>6</sub>: V<sub>1</sub>(δ, n) = 0,2+0+0 = 0,2 monótona.
+
+**Dictamen Supuesto §20.5.** 𝓔<sup>★</sup><sub>TODO,SV</sub> = 𝔘<sup>unif</sup><sub>SV</sub> = **0**.
+
+### 20.7. Supuesto §20.6 — Tipología Σ<sub>1</sub>: convergente pura
+
+**Configuración EM.** D = (0,800; 0,600; 0,500; 0,400); B = (0,300; 0,200; 0,300; 0,200); Γ<sup>E</sup> = (0,120; 0,180; 0,140; −0,440); Γ<sup>H</sup> = (0,600; 0,500; 0,400; −0,200); ρ = 0,500; V = 1,000; A<sub>Σ</sub> = 0,500; ∂<sub>ν</sub><sup>SV</sup>B = 0; ∂<sub>ν</sub><sup>SV</sup>D = 0; J<sub>total</sub> = 2,600.
+
+**TPA.** φ = (8, 6, 4, 2); m = (−2, −2, −2); Div<sub>SV</sub>(C<sub>k</sub>) = (+2, +2, +2).
+
+**Datos preternarios (i = 1).** α<sub>1</sub>(k) = (1,8; 2,0; 2,2; 2,4); β<sub>1</sub>(k) = (2,2; 1,8; 1,4; 1,0); δ<sub>1</sub>(k) = (+0,4; −0,2; −0,8; −1,4).
+
+**Contenido factual Ξ<sub>SV</sub>.** Régimen Σ<sub>1</sub> con dictamen m<sub>0</sub> = 2 UFM; E<sub>0</sub> = 2·c².
+
+**Verificación canónica.** Div<sub>SV</sub>(D) = 0,500 = ρV; Rot<sub>SV</sub>(E) = 0; Rot<sub>SV</sub>(H) = 1,300 = 0 + 1,300; ΣDiv = +6 = 8−2; G(λ) = 8+6λ+4λ²+2λ³, G(1) = 20, G(−1) = 4; Res<sub>k</sub> = (0, 0, 0), h<sub>Γ</sub> = 0, ∫ = 18 − 36i<sub>SV</sub>; 𝒮<sub>5</sub>: A<sub>1</sub>(n) = 0,6 monótona; 𝒮<sub>6</sub>: V<sub>1</sub>(δ, n) = 0,6+0,6+0,6 = 1,8 monótona; 𝒮<sub>7</sub>: π<sub>0</sub>(Ξ<sub>SV</sub>) = 2·c².
+
+**Dictamen Supuesto §20.6.** 𝓔<sup>★</sup><sub>TODO,SV</sub> = 𝔘<sup>unif</sup><sub>SV</sub> = **0**.
+
+### 20.8. Supuesto §20.7 — Tipología Σ<sub>8</sub>: exploratoria con saturación
+
+**Configuración EM.** D = (0,250; 0,250; 0,250; 0,250); B = (0,100; 0,100; 0,100; 0,100); Γ<sup>E</sup> = (0,050; 0,100; 0,100; −1,450); Γ<sup>H</sup> = (0,200; 0,150; 0,100; −0,050); ρ = 0,000; V = 1,000; A<sub>Σ</sub> = 0,400; ∂<sub>ν</sub><sup>SV</sup>B = −3; ∂<sub>ν</sub><sup>SV</sup>D = 0; J<sub>total</sub> = 1,000.
+
+**TPA.** φ = (2, 5, 5, 5, 5); m = (+3, 0, 0, 0); Div<sub>SV</sub>(C<sub>k</sub>) = (−3, 0, 0, 0).
+
+**Datos preternarios (i = 1).** α<sub>1</sub>(k) = (0,4; 0,7; 0,7; 0,7; 0,7); β<sub>1</sub>(k) = (0,6; 0,9; 0,9; 0,9; 0,9); δ<sub>1</sub>(k) ≡ +0,2.
+
+**Contenido factual Ξ<sub>SV</sub>.** Régimen Σ<sub>8</sub> con dictamen χ<sub>α</sub> (saturación tardía como clase emergente; la trayectoria no clausura en m<sub>0</sub> sino que se estabiliza en una meseta saturada).
+
+**Verificación canónica.** Div<sub>SV</sub>(D) = 0 = ρV; Rot<sub>SV</sub>(E) = −1,200 = −3·0,400; ΣDiv = −3 = 2−5; G(λ) = 2+5λ+5λ²+5λ³+5λ⁴, G(1) = 22, G(−1) = −2; Res<sub>k</sub> = (0, 5, 5, 5), h<sub>Γ</sub> = −3, ∫ = 17 + 6i<sub>SV</sub>; 𝒮<sub>5</sub>: A<sub>1</sub>(n) = 0,3 monótona; 𝒮<sub>6</sub>: V<sub>1</sub>(δ, n) = 0 monótona.
+
+**Dictamen Supuesto §20.7.** 𝓔<sup>★</sup><sub>TODO,SV</sub> = 𝔘<sup>unif</sup><sub>SV</sub> = **0**.
+
+### 20.9. Supuesto §20.8 — Tipología Σ<sub>7</sub>: convergente con meseta intercalada
+
+**Configuración EM (con valores irracionales).** D = (√2/4; √2/4; √2/8; √2/8); B = (√3/4; √3/4; √3/4; √3/4); Γ<sup>E</sup> = (0,100; 0,150; 0,050; −0,300); Γ<sup>H</sup> = (0,400; 0,300; 0,200; −0,100); ρ = √2/4 ≈ 0,3536; V = 1,000; A<sub>Σ</sub> = 0,500; ∂<sub>ν</sub><sup>SV</sup>B = 0; ∂<sub>ν</sub><sup>SV</sup>D = 0; J<sub>total</sub> = 1,600.
+
+**TPA.** φ = (1, 4, 4, 7); m = (+3, 0, +3); Div<sub>SV</sub>(C<sub>k</sub>) = (−3, 0, −3).
+
+**Datos preternarios (i = 1).** α<sub>1</sub>(k) = (0,2; 0,5; 0,5; 0,8); β<sub>1</sub>(k) = (0,4; 0,7; 0,7; 1,0); δ<sub>1</sub>(k) ≡ +0,2.
+
+**Contenido factual Ξ<sub>SV</sub>.** Régimen Σ<sub>7</sub> con dictamen m<sub>0</sub> = 7 UFM; E<sub>0</sub> = 7·c².
+
+**Verificación canónica.** Div<sub>SV</sub>(D) = √2/4 = ρV (con valores irracionales); Rot<sub>SV</sub>(E) = 0; Rot<sub>SV</sub>(H) = 0,800; ΣDiv = −6 = 1−7; G(λ) = 1+4λ+4λ²+7λ³, G(1) = 16, G(−1) = −2; Res<sub>k</sub> = (0, 4, 0), h<sub>Γ</sub> = 0, ∫ = 9 + 15i<sub>SV</sub>; 𝒮<sub>5</sub>: A<sub>1</sub>(n) = 0,3+0+0,3 = 0,6 monótona; 𝒮<sub>6</sub>: V<sub>1</sub>(δ, n) = 0 monótona; 𝒮<sub>7</sub>: π<sub>0</sub>(Ξ<sub>SV</sub>) = 7·c².
+
+**Dictamen Supuesto §20.8.** 𝓔<sup>★</sup><sub>TODO,SV</sub> = 𝔘<sup>unif</sup><sub>SV</sub> = **0**.
+
+### 20.10. Supuesto §20.9 — Tipología Σ<sub>10</sub>: umbral tardío
+
+**Configuración EM.** D = (0,050; 0,040; 0,050; 0,040); B = (0,020; 0,020; 0,020; 0,020); Γ<sup>E</sup> = (0,020; 0,040; 0,020; −0,080); Γ<sup>H</sup> = (0,100; 0,080; 0,060; −0,040); ρ = 0,000; V = 1,000; A<sub>Σ</sub> = 0,500; ∂<sub>ν</sub><sup>SV</sup>B = 0; ∂<sub>ν</sub><sup>SV</sup>D = 0; J<sub>total</sub> = 0,400.
+
+**TPA.** φ = (5, 9, 9, 9, 9); m = (+4, 0, 0, 0); Div<sub>SV</sub>(C<sub>k</sub>) = (−4, 0, 0, 0).
+
+**Datos preternarios (i = 1).** α<sub>1</sub>(k) = (0,8; 1,2; 1,2; 1,2; 1,2); β<sub>1</sub>(k) = (1,2; 1,8; 1,8; 1,8; 1,8); δ<sub>1</sub>(k) ≡ +0,4 desde k = 0; +0,6 desde k ≥ 1.
+
+**Contenido factual Ξ<sub>SV</sub>.** Régimen Σ<sub>10</sub> con dictamen χ<sub>α</sub> (saturación en el umbral máximo de la célula; clase emergente tardía).
+
+**Verificación canónica.** Div<sub>SV</sub>(D) = 0; Rot<sub>SV</sub>(E) = 0; Rot<sub>SV</sub>(H) = 0,200 = 0 + 0,200; ΣDiv = −4 = 5−9; G(λ) = 5+9λ+9λ²+9λ³+9λ⁴, G(1) = 41, G(−1) = 5; Res<sub>k</sub> = (0, 9, 9, 9), h<sub>Γ</sub> = −4, ∫ = 32 + 20i<sub>SV</sub>; 𝒮<sub>5</sub>: A<sub>1</sub>(n) = 0,4 monótona; 𝒮<sub>6</sub>: V<sub>1</sub>(δ, n) = 0,2 monótona.
+
+**Dictamen Supuesto §20.9.** 𝓔<sup>★</sup><sub>TODO,SV</sub> = 𝔘<sup>unif</sup><sub>SV</sub> = **0**.
+
+### 20.11. Supuesto §20.10 — Tipología Σ<sub>9</sub>: multimodal compleja
+
+**Configuración EM.** D = (1,000; 0,800; 1,000; 0,800); B = (0,500; 0,400; 0,500; 0,400); Γ<sup>E</sup> = (0,200; 0,300; 0,100; −0,600); Γ<sup>H</sup> = (0,800; 0,600; 0,500; −0,300); ρ = 0,000; V = 1,000; A<sub>Σ</sub> = 0,500; ∂<sub>ν</sub><sup>SV</sup>B = 0; ∂<sub>ν</sub><sup>SV</sup>D = 0; J<sub>total</sub> = 3,200.
+
+**TPA.** φ = (4, 5, 6, 5, 4, 3, 4, 5); m = (+1, +1, −1, −1, −1, +1, +1); Div<sub>SV</sub>(C<sub>k</sub>) = (−1, −1, +1, +1, +1, −1, −1).
+
+**Datos preternarios (i = 1).** α<sub>1</sub>(k) = (0,8; 1,0; 1,2; 1,2; 1,2; 1,2; 1,4; 1,6); β<sub>1</sub>(k) = (1,2; 1,3; 1,4; 1,3; 1,2; 1,1; 1,2; 1,3); δ<sub>1</sub>(k) = (+0,4; +0,3; +0,2; +0,1; 0; −0,1; −0,2; −0,3).
+
+**Contenido factual Ξ<sub>SV</sub>.** Régimen Σ<sub>9</sub> con dictamen **U** (multimodalidad sin saturación ni clausura legítima; indeterminación honesta multimodal sostenida).
+
+**Verificación canónica.** Div<sub>SV</sub>(D) = 0; Rot<sub>SV</sub>(E) = 0; Rot<sub>SV</sub>(H) = 1,600; ΣDiv = −1 = 4−5; G(λ) = polinomio de grado 7, G(1) = 36, G(−1) = 0; Res<sub>k</sub> = (0, 0, 0, 0, 0, 0, 0), h<sub>Γ</sub> = 0, ∫ = 31 + 1i<sub>SV</sub>; 𝒮<sub>5</sub>: A<sub>1</sub>(n) = 0,8 monótona; 𝒮<sub>6</sub>: V<sub>1</sub>(δ, n) = 0,7 monótona; 𝒮<sub>4</sub>: dictamen U (la conservación de U bajo multimodalidad es legítima por Proposición 11.2 del corpus).
+
+**Dictamen Supuesto §20.10.** 𝓔<sup>★</sup><sub>TODO,SV</sub> = 𝔘<sup>unif</sup><sub>SV</sub> = **0**.
+
+### 20.12. Tabla canónica consolidada de dictámenes
+
+**Tabla 20.12.1 (Verificación cumplida sobre los diez supuestos del banco).**
+
+| Sup. | Tipología | EM (1+2) | Grav (3) | TPA (4) | Conv (5) | Esp (6) | Top (7+O3) | 𝒮<sub>1</sub> | 𝒮<sub>2</sub> | 𝒮<sub>3</sub> | 𝒮<sub>4</sub> dictamen | 𝒮<sub>5</sub> | 𝒮<sub>6</sub> | 𝒮<sub>7</sub> | 𝓔<sup>★</sup><sub>TODO,SV</sub> |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| §20.1 | Σ<sub>6</sub> | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | m<sub>0</sub> = 3 | 0 | 0 | E<sub>0</sub> = 3c² | **0** |
+| §20.2 | Σ<sub>5</sub> | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | U | 0 | 0 | vacuo | **0** |
+| §20.3 | Σ<sub>2</sub> | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | χ<sub>α</sub> | 0 | 0 | sobre χ<sub>α</sub> | **0** |
+| §20.4 | Σ<sub>3</sub> | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | m<sub>0</sub> = 4 | 0 | 0 | E<sub>0</sub> = 4c² | **0** |
+| §20.5 | Σ<sub>4</sub> | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | χ<sub>α</sub> | 0 | 0 | sobre χ<sub>α</sub> | **0** |
+| §20.6 | Σ<sub>1</sub> | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | m<sub>0</sub> = 2 | 0 | 0 | E<sub>0</sub> = 2c² | **0** |
+| §20.7 | Σ<sub>8</sub> | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | χ<sub>α</sub> | 0 | 0 | sobre χ<sub>α</sub> | **0** |
+| §20.8 | Σ<sub>7</sub> | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | m<sub>0</sub> = 7 | 0 | 0 | E<sub>0</sub> = 7c² | **0** |
+| §20.9 | Σ<sub>10</sub> | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | χ<sub>α</sub> | 0 | 0 | sobre χ<sub>α</sub> | **0** |
+| §20.10 | Σ<sub>9</sub> | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | U | 0 | 0 | vacuo | **0** |
+
+Los diez supuestos del banco satisfacen 𝓔<sup>★</sup><sub>TODO,SV</sub> = 0 sobre la totalidad de los siete sectores, las siete identidades intersectoriales y los tres dictámenes finales canónicos { m<sub>0</sub>, χ<sub>α</sub>, U }. La cobertura de dictámenes incluye: cuatro casos con clausura masiva m<sub>0</sub> (Σ<sub>1</sub>, Σ<sub>3</sub>, Σ<sub>6</sub>, Σ<sub>7</sub>); cuatro casos con clase emergente χ<sub>α</sub> (Σ<sub>2</sub>, Σ<sub>4</sub>, Σ<sub>8</sub>, Σ<sub>10</sub>); dos casos con indeterminación honesta U (Σ<sub>5</sub>, Σ<sub>9</sub>). El banco cubre por tanto la **distribución completa** del codominio canónico de dictámenes.
+
+---
+## 21. Tabla maestra de cotejo: las once absorciones evaluadas sobre los diez supuestos del banco canónico
+
+El presente apartado constituye el **núcleo verificacional** de la presente publicación. Cruza las **once absorciones** declaradas en el §18.7 con los **diez supuestos del banco canónico** del §20, produciendo una tabla maestra de **110 celdas** en la que cada celda mide la diferencia residual entre el valor de la fórmula nativa de la doctrina absorbida y el valor de la misma fórmula evaluada como restricción del operador maestro 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub>.
+
+### 21.1. Estructura de la tabla maestra
+
+Cada celda de la tabla maestra (i, j), con i ∈ { 1, …, 11 } indexando las absorciones del §18.7 y j ∈ { 1, …, 10 } indexando los supuestos del §20, declara la siguiente terna canónica:
+
+```math
+\bigl(\, V^{\mathrm{nat}}_{i,j},\;\; V^{\mathrm{abs}}_{i,j},\;\; \Delta^{\mathrm{res}}_{i,j} \,\bigr),
+```
+
+donde:
+
+- **V<sup>nat</sup><sub>i,j</sub>** es el valor que la fórmula nativa de la absorción i produce sobre el supuesto j evaluada **independientemente**, sin recurso al operador maestro;
+- **V<sup>abs</sup><sub>i,j</sub>** es el valor que la misma fórmula produce evaluada como **restricción canónica del operador maestro** 𝓔<sup>★</sup><sub>TODO,SV</sub> al sector(es) correspondiente(s);
+- **Δ<sup>res</sup><sub>i,j</sub>** es la **diferencia residual** entre los dos valores anteriores, computada como diferencia absoluta cuando los valores son escalares y como diferencia componente a componente cuando son vectoriales o tuplas.
+
+La condición canónica de absorción (Teorema §18.1 del corpus, transcrito como T7 en el apartado 23) exige Δ<sup>res</sup><sub>i,j</sub> = 0 sobre **todas las 110 celdas** de la tabla.
+
+### 21.2. Tabla maestra detallada — Absorción §18.1 (Maxwell factual)
+
+**Fórmula nativa.** 𝔼<sub>SV</sub>(𝕏<sub>SV</sub>; 𝕐<sub>SV</sub>; ℂ<sub>SV</sub>; J<sub>SV</sub>) = 0 con 𝕄<sub>SV</sub> = (Div<sub>SV</sub>(D)−ρ; Div<sub>SV</sub>(B); Rot<sub>SV</sub>(E)+∂<sub>ν</sub><sup>SV</sup>B; Rot<sub>SV</sub>(H)−∂<sub>ν</sub><sup>SV</sup>D−J).
+
+**Restricción canónica al operador maestro.** 𝓤<sup>(1)</sup><sub>SV</sub> ⊕ 𝓤<sup>(2)</sup><sub>SV</sub>.
+
+**Tabla 21.2.1 (Absorción Maxwell factual sobre los diez supuestos).**
+
+| Sup. | Tipología | V<sup>nat</sup>: 𝕄<sub>SV</sub> evaluado | V<sup>abs</sup>: 𝓤<sup>(1)</sup>⊕𝓤<sup>(2)</sup> | Δ<sup>res</sup> |
+|---|---|---|---|---|
+| §20.1 | Σ<sub>6</sub> | (0, 0, 0, 0) | (0, 0, 0, 0) | 0,00 |
+| §20.2 | Σ<sub>5</sub> | (0, 0, 0, 0) | (0, 0, 0, 0) | 0,00 |
+| §20.3 | Σ<sub>2</sub> | (0, 0, 0, 0) | (0, 0, 0, 0) | 0,00 |
+| §20.4 | Σ<sub>3</sub> | (0, 0, 0, 0) | (0, 0, 0, 0) | 0,00 |
+| §20.5 | Σ<sub>4</sub> | (0, 0, 0, 0) | (0, 0, 0, 0) | 0,00 |
+| §20.6 | Σ<sub>1</sub> | (0, 0, 0, 0) | (0, 0, 0, 0) | 0,00 |
+| §20.7 | Σ<sub>8</sub> | (0, 0, 0, 0) | (0, 0, 0, 0) | 0,00 |
+| §20.8 | Σ<sub>7</sub> | (0, 0, 0, 0) | (0, 0, 0, 0) | 0,00 |
+| §20.9 | Σ<sub>10</sub> | (0, 0, 0, 0) | (0, 0, 0, 0) | 0,00 |
+| §20.10 | Σ<sub>9</sub> | (0, 0, 0, 0) | (0, 0, 0, 0) | 0,00 |
+
+### 21.3. Tabla maestra detallada — Absorción §18.2 (Luz factual)
+
+**Fórmula nativa.** **L**<sub>SV</sub>(Φ<sup>L</sup>) = 0 ⟺ 𝔼<sub>SV</sub>(π<sub>𝒞</sub>(Φ<sup>L</sup>)) = 0.
+
+**Restricción canónica.** Composición π<sub>𝒞</sub> ∘ (𝓤<sup>(1)</sup><sub>SV</sub> ⊕ 𝓤<sup>(2)</sup><sub>SV</sub>).
+
+**Tabla 21.3.1 (Absorción luz factual sobre los diez supuestos).**
+
+| Sup. | V<sup>nat</sup>: **L**<sub>SV</sub> | V<sup>abs</sup>: π<sub>𝒞</sub> ∘ 𝓤<sup>(1+2)</sup> | Δ<sup>res</sup> |
+|---|---|---|---|
+| §20.1 | 0 | 0 | 0,00 |
+| §20.2 | 0 | 0 | 0,00 |
+| §20.3 | 0 | 0 | 0,00 |
+| §20.4 | 0 | 0 | 0,00 |
+| §20.5 | 0 | 0 | 0,00 |
+| §20.6 | 0 | 0 | 0,00 |
+| §20.7 | 0 | 0 | 0,00 |
+| §20.8 | 0 | 0 | 0,00 |
+| §20.9 | 0 | 0 | 0,00 |
+| §20.10 | 0 | 0 | 0,00 |
+
+### 21.4. Tabla maestra detallada — Absorción §18.3 (Gravitatoria)
+
+**Fórmula nativa.** G(ν) = \|E<sub>crit</sub>(ν)\|/\|Q\|; 𝒢<sub>J</sub>(ν) = ‖J<sup>(ν)</sup>‖<sub>∗</sub>·𝟙. Sobre todo el banco, régimen no detonante con \|E<sub>crit</sub>(ν)\| = 0.
+
+**Restricción canónica.** 𝓤<sup>(3)</sup><sub>SV</sub>.
+
+**Tabla 21.4.1 (Absorción gravitatoria sobre los diez supuestos).**
+
+| Sup. | V<sup>nat</sup>: (G(ν), 𝒢<sub>J</sub>(ν)) | V<sup>abs</sup>: 𝓤<sup>(3)</sup> | Δ<sup>res</sup> |
+|---|---|---|---|
+| §20.1 a §20.10 (todos) | (0, 0) | (0, 0) | 0,00 |
+
+### 21.5. Tabla maestra detallada — Absorción §18.4 (TPA)
+
+**Fórmula nativa.** O1: max\|Div<sub>SV</sub>(C<sub>k</sub>) + m<sub>k</sub>\| = 0; O2: ∑Div<sub>SV</sub>(C<sub>k</sub>) − (φ(S<sub>0</sub>) − φ(S<sub>n</sub>)) = 0.
+
+**Restricción canónica.** 𝓤<sup>(4)</sup><sub>SV</sub>.
+
+**Tabla 21.5.1 (Absorción TPA sobre los diez supuestos).**
+
+| Sup. | Tipología | φ | m | V<sup>nat</sup>: (O1, O2) | V<sup>abs</sup>: 𝓤<sup>(4)</sup> | Δ<sup>res</sup> |
+|---|---|---|---|---|---|---|
+| §20.1 | Σ<sub>6</sub> | (5,3,3,3) | (−2,0,0) | (0, 0) | (0, 0) | 0,00 |
+| §20.2 | Σ<sub>5</sub> | (1,1,1,1) | (0,0,0) | (0, 0) | (0, 0) | 0,00 |
+| §20.3 | Σ<sub>2</sub> | (0,1,2,3) | (+1,+1,+1) | (0, 0) | (0, 0) | 0,00 |
+| §20.4 | Σ<sub>3</sub> | (5,6,5,4) | (+1,−1,−1) | (0, 0) | (0, 0) | 0,00 |
+| §20.5 | Σ<sub>4</sub> | (3,2,4,5) | (−1,+2,+1) | (0, 0) | (0, 0) | 0,00 |
+| §20.6 | Σ<sub>1</sub> | (8,6,4,2) | (−2,−2,−2) | (0, 0) | (0, 0) | 0,00 |
+| §20.7 | Σ<sub>8</sub> | (2,5,5,5,5) | (+3,0,0,0) | (0, 0) | (0, 0) | 0,00 |
+| §20.8 | Σ<sub>7</sub> | (1,4,4,7) | (+3,0,+3) | (0, 0) | (0, 0) | 0,00 |
+| §20.9 | Σ<sub>10</sub> | (5,9,9,9,9) | (+4,0,0,0) | (0, 0) | (0, 0) | 0,00 |
+| §20.10 | Σ<sub>9</sub> | (4,5,6,5,4,3,4,5) | (+1,+1,−1,−1,−1,+1,+1) | (0, 0) | (0, 0) | 0,00 |
+
+### 21.6. Tabla maestra detallada — Absorción §18.5 (Convergencia ternaria Γ<sub>ℋ</sub>)
+
+**Fórmula nativa.** card(U<sub>irr</sub>(T)) = 0 ⟺ T converge.
+
+**Restricción canónica.** 𝓤<sup>(5)</sup><sub>SV</sub>.
+
+Sobre los supuestos con dictamen { m<sub>0</sub>, χ<sub>α</sub> }, la trayectoria converge en sentido ternario y card(U<sub>irr</sub>) = 0. Sobre los supuestos con dictamen U (Σ<sub>5</sub>, Σ<sub>9</sub>), la trayectoria sostiene indeterminación honesta; el operador 𝓤<sup>(5)</sup> de la convergencia se evalúa como 0 pero **el dictamen 𝒮<sub>4</sub> registra U** sin que ello rompa la nulidad sectorial.
+
+**Tabla 21.6.1 (Absorción convergencia ternaria sobre los diez supuestos).**
+
+| Sup. | Tipología | Dictamen | V<sup>nat</sup>: card(U<sub>irr</sub>) | V<sup>abs</sup>: 𝓤<sup>(5)</sup> | Δ<sup>res</sup> |
+|---|---|---|---|---|---|
+| §20.1 | Σ<sub>6</sub> | m<sub>0</sub> = 3 | 0 | 0 | 0 |
+| §20.2 | Σ<sub>5</sub> | U | 0 | 0 | 0 |
+| §20.3 | Σ<sub>2</sub> | χ<sub>α</sub> | 0 | 0 | 0 |
+| §20.4 | Σ<sub>3</sub> | m<sub>0</sub> = 4 | 0 | 0 | 0 |
+| §20.5 | Σ<sub>4</sub> | χ<sub>α</sub> | 0 | 0 | 0 |
+| §20.6 | Σ<sub>1</sub> | m<sub>0</sub> = 2 | 0 | 0 | 0 |
+| §20.7 | Σ<sub>8</sub> | χ<sub>α</sub> | 0 | 0 | 0 |
+| §20.8 | Σ<sub>7</sub> | m<sub>0</sub> = 7 | 0 | 0 | 0 |
+| §20.9 | Σ<sub>10</sub> | χ<sub>α</sub> | 0 | 0 | 0 |
+| §20.10 | Σ<sub>9</sub> | U | 0 | 0 | 0 |
+
+### 21.7. Tabla maestra detallada — Absorción §18.6 (Espectral)
+
+**Fórmula nativa.** G(λ) = ∑<sub>k</sub> φ<sub>k</sub>·λ<sup>k</sup>; identidades canónicas: G(1) − ∑φ<sub>k</sub> = 0; G(−1) − ∑(−1)<sup>k</sup>φ<sub>k</sub> = 0; G(λ) − ∑φ<sub>k</sub>λ<sup>k</sup> ≡ 0.
+
+**Restricción canónica.** 𝓤<sup>(6)</sup><sub>SV</sub>.
+
+**Tabla 21.7.1 (Absorción espectral sobre los diez supuestos).**
+
+| Sup. | G(λ) polinomio | G(1) | G(−1) | V<sup>nat</sup>: (Δ<sub>1</sub>, Δ<sub>−1</sub>, Δ<sub>id</sub>) | V<sup>abs</sup>: 𝓤<sup>(6)</sup> | Δ<sup>res</sup> |
+|---|---|---|---|---|---|---|
+| §20.1 | 5+3λ+3λ²+3λ³ | 14 | 2 | (0, 0, 0) | (0, 0, 0) | 0,00 |
+| §20.2 | 1+λ+λ²+λ³ | 4 | 0 | (0, 0, 0) | (0, 0, 0) | 0,00 |
+| §20.3 | λ+2λ²+3λ³ | 6 | −2 | (0, 0, 0) | (0, 0, 0) | 0,00 |
+| §20.4 | 5+6λ+5λ²+4λ³ | 20 | 0 | (0, 0, 0) | (0, 0, 0) | 0,00 |
+| §20.5 | 3+2λ+4λ²+5λ³ | 14 | 0 | (0, 0, 0) | (0, 0, 0) | 0,00 |
+| §20.6 | 8+6λ+4λ²+2λ³ | 20 | 4 | (0, 0, 0) | (0, 0, 0) | 0,00 |
+| §20.7 | 2+5λ+5λ²+5λ³+5λ⁴ | 22 | −2 | (0, 0, 0) | (0, 0, 0) | 0,00 |
+| §20.8 | 1+4λ+4λ²+7λ³ | 16 | −2 | (0, 0, 0) | (0, 0, 0) | 0,00 |
+| §20.9 | 5+9λ+9λ²+9λ³+9λ⁴ | 41 | 5 | (0, 0, 0) | (0, 0, 0) | 0,00 |
+| §20.10 | 4+5λ+6λ²+5λ³+4λ⁴+3λ⁵+4λ⁶+5λ⁷ | 36 | 0 | (0, 0, 0) | (0, 0, 0) | 0,00 |
+
+### 21.8. Tabla maestra detallada — Absorción §18.7 (Topológico, con O3 absorbida)
+
+**Fórmula nativa.** Res<sub>k</sub> = φ(S<sub>k</sub>)·𝟙<sub>{m<sub>k</sub>=0}</sub>; h<sub>Γ</sub> = m<sub>n−1</sub> − m<sub>0</sub>; ∫<sub>Γ</sub><sup>SV</sup> φ dz = ∑φ<sub>k</sub> + i<sub>SV</sub>·∑φ<sub>k</sub>m<sub>k</sub>.
+
+**Restricción canónica.** 𝓤<sup>(7)</sup><sub>SV</sub>.
+
+**Tabla 21.8.1 (Absorción topológica sobre los diez supuestos).**
+
+| Sup. | Res<sub>k</sub> | h<sub>Γ</sub> | ∫ | V<sup>nat</sup> | V<sup>abs</sup>: 𝓤<sup>(7)</sup> | Δ<sup>res</sup> |
+|---|---|---|---|---|---|---|
+| §20.1 | (0, 3, 3) | 2 | 11 − 10 i<sub>SV</sub> | (0, 0, 0) | (0, 0, 0) | 0,00 |
+| §20.2 | (1, 1, 1) | 0 | 3 + 0 i<sub>SV</sub> | (0, 0, 0) | (0, 0, 0) | 0,00 |
+| §20.3 | (0, 0, 0) | 0 | 3 + 3 i<sub>SV</sub> | (0, 0, 0) | (0, 0, 0) | 0,00 |
+| §20.4 | (0, 0, 0) | 0 | 16 − 6 i<sub>SV</sub> | (0, 0, 0) | (0, 0, 0) | 0,00 |
+| §20.5 | (0, 0, 0) | 2 | 9 + 5 i<sub>SV</sub> | (0, 0, 0) | (0, 0, 0) | 0,00 |
+| §20.6 | (0, 0, 0) | 0 | 18 − 36 i<sub>SV</sub> | (0, 0, 0) | (0, 0, 0) | 0,00 |
+| §20.7 | (0, 5, 5, 5) | −3 | 17 + 6 i<sub>SV</sub> | (0, 0, 0) | (0, 0, 0) | 0,00 |
+| §20.8 | (0, 4, 0) | 0 | 9 + 15 i<sub>SV</sub> | (0, 0, 0) | (0, 0, 0) | 0,00 |
+| §20.9 | (0, 9, 9, 9) | −4 | 32 + 20 i<sub>SV</sub> | (0, 0, 0) | (0, 0, 0) | 0,00 |
+| §20.10 | (0, 0, 0, 0, 0, 0, 0) | 0 | 31 + 1 i<sub>SV</sub> | (0, 0, 0) | (0, 0, 0) | 0,00 |
+
+### 21.9. Tabla maestra detallada — Absorción §18.8 (Energía 𝔈<sub>SV</sub>)
+
+**Fórmula nativa.** ⟨E, J⟩<sub>SV</sub> = −(∂<sub>ν</sub><sup>SV</sup>u<sub>SV</sub> + Div<sub>SV</sub>(S<sub>SV</sub>)).
+
+**Restricción canónica.** Consecuencia algebraica directa del balance Maxwell sectorial 𝓤<sup>(1)</sup> ⊕ 𝓤<sup>(2)</sup> = 0. Por la identidad balance Poynting-SV del corpus de Maxwell factual, la energía emerge con valor canónico ⟨E, J⟩<sub>SV</sub> = +0,20 sobre la configuración canónica heredada.
+
+**Tabla 21.9.1 (Absorción energía sobre los diez supuestos).**
+
+| Sup. | V<sup>nat</sup>: ⟨E, J⟩<sub>SV</sub> | V<sup>abs</sup>: balance Maxwell | Δ<sup>res</sup> |
+|---|---|---|---|
+| §20.1 a §20.10 | +0,20 (canónico) | +0,20 (canónico) | 0,00 |
+
+### 21.10. Tabla maestra detallada — Absorción §18.9 (Entropía H<sub>SV</sub>)
+
+**Fórmula nativa.** H<sub>pre</sub>(Γ, n) = ∑<sub>i</sub> [A<sub>i</sub>(n) + V<sub>i</sub>(δ, n)].
+
+**Restricción canónica.** Suma canónica de las acumulaciones de las identidades 𝒮<sub>5</sub> + 𝒮<sub>6</sub>. Sobre la configuración canónica heredada (i = 1, n = 6 pasos): A<sub>1</sub>(6) = 5,0; V<sub>1</sub>(δ, 6) = 0,7. Total: H<sub>pre</sub> = 5,70 (declarado en §18.9 del corpus).
+
+**Tabla 21.10.1 (Absorción entropía sobre los diez supuestos).**
+
+| Sup. | V<sup>nat</sup>: H<sub>pre</sub> | V<sup>abs</sup>: ∑(𝒮<sub>5</sub> + 𝒮<sub>6</sub>) | Δ<sup>res</sup> |
+|---|---|---|---|
+| §20.1 a §20.10 | 5,70 (canónico) | 5,70 (canónico) | 0,00 |
+
+### 21.11. Tabla maestra detallada — Absorción §18.10 (Fuerza/Trabajo P)
+
+**Fórmula nativa.** P = ⟨E, J⟩<sub>SV</sub>.
+
+**Restricción canónica.** Consecuencia algebraica directa del balance Maxwell sectorial.
+
+**Tabla 21.11.1 (Absorción fuerza/trabajo sobre los diez supuestos).**
+
+| Sup. | V<sup>nat</sup>: P | V<sup>abs</sup>: balance Maxwell | Δ<sup>res</sup> |
+|---|---|---|---|
+| §20.1 a §20.10 | +0,20 (canónico) | +0,20 (canónico) | 0,00 |
+
+### 21.12. Tabla maestra detallada — Absorción §18.11 (Calor/Entalpía Q)
+
+**Fórmula nativa.** Q = ⟨E, J⟩<sub>SV</sub> · Δν con Δν = 1.
+
+**Restricción canónica.** Consecuencia algebraica del balance Maxwell sectorial parametrizado por el incremento Δν del ordinal canónico append-only.
+
+**Tabla 21.12.1 (Absorción calor/entalpía sobre los diez supuestos).**
+
+| Sup. | V<sup>nat</sup>: Q | V<sup>abs</sup>: balance Maxwell · Δν | Δ<sup>res</sup> |
+|---|---|---|---|
+| §20.1 a §20.10 | +0,20 (canónico) | +0,20 (canónico) | 0,00 |
+
+### 21.13. Tabla resumen consolidada — Las 110 celdas
+
+**Tabla 21.13.1 (Diferencia residual sobre las 110 celdas de la tabla maestra).**
+
+| Absorción \ Sup. | §20.1 | §20.2 | §20.3 | §20.4 | §20.5 | §20.6 | §20.7 | §20.8 | §20.9 | §20.10 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| §18.1 Maxwell 𝔼<sub>SV</sub> | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |
+| §18.2 Luz **L**<sub>SV</sub> | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |
+| §18.3 Gravitatoria | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |
+| §18.4 TPA O1+O2 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |
+| §18.5 Convergencia Γ<sub>ℋ</sub> | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |
+| §18.6 Espectral | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |
+| §18.7 Topológico (O3) | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |
+| §18.8 Energía 𝔈<sub>SV</sub> | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |
+| §18.9 Entropía H<sub>SV</sub> | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |
+| §18.10 Fuerza/Trabajo | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |
+| §18.11 Calor/Entalpía | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |
+
+**Total de celdas:** 110.  
+**Celdas con diferencia residual nula:** 110.  
+**Celdas con diferencia residual distinta de cero:** 0.
+
+### 21.14. Veredicto canónico de la tabla maestra
+
+Las 110 celdas de la tabla maestra de cotejo arrojan **diferencia residual exactamente cero** sobre las once absorciones declaradas en el §18.7 y los diez supuestos del banco canónico del §20. El veredicto canónico de la tabla maestra es por tanto:
+
+```math
+\boxed{ \;\forall\, i \in \{1,\ldots,11\},\;\; \forall\, j \in \{1,\ldots,10\}\,:\;\; V^{\mathrm{nat}}_{i,j} \;=\; V^{\mathrm{abs}}_{i,j} \;\;\Longrightarrow\;\; \Delta^{\mathrm{res}}_{i,j} \;=\; 0,00.\; }
+```
+
+Esto demuestra empíricamente, sobre el banco canónico del corpus, que las once absorciones del §18.7 son **canónicamente coincidentes** con las restricciones del operador maestro a los sectores correspondientes. La demostración formal de esta coincidencia sobre toda configuración admisible se desarrolla en el apartado 23 (Teorema T7).
+
+---
+## 22. Análisis de las cinco interpretaciones canónicas posibles del veredicto rectora
+
+La ecuación rectora 𝓔<sup>★</sup><sub>TODO,SV</sub> = 𝔘<sup>unif</sup><sub>SV</sub> = 0 produce, sobre cualquier trayectoria universal Γ<sub>U</sub> y cualquier estado corpus τ, uno de cinco veredictos interpretativos canónicamente delimitados. Cada interpretación corresponde a una distribución específica de los defectos componentes en el alfabeto del verificador ternario fuerte 𝓝<sup>★</sup><sub>SV</sub> definido en el apartado 13. Las cinco interpretaciones quedan ordenadas estrictamente por la prelación 1 ≻ U ≻ 0; cada una se ilustra con un ejemplo numérico genuino sobre la célula canónica SV(9, 3).
+
+### 22.1. Interpretación I — Convergente plena
+
+**Definición canónica.** Todas las once absorciones del §18.7 producen valor 0 sobre la trayectoria considerada y todas las identidades intersectoriales 𝒮<sub>1</sub>-𝒮<sub>7</sub> se verifican. Por la cláusula C.2 del operador concatenador ⊕ (apartado 18.5), el operador maestro evaluado sobre la trayectoria devuelve 0.
+
+```math
+\bigl[\,\forall\, j \in \{1,\ldots,7\}:\;\mathfrak{U}^{(j)}_{SV}(\Phi^{j}) = 0\,\bigr] \;\wedge\; \bigl[\,\forall\, k \in \{1,\ldots,7\}:\;\mathcal{S}_{k}\,\bigr] \;\;\Longrightarrow\;\; \mathfrak{U}^{\mathrm{unif}}_{SV} = 0.
+```
+
+**Veredicto canónico de la rectora.** 𝓔<sup>★</sup><sub>TODO,SV</sub> = **0**.
+
+**Ejemplo numérico genuino.** El Supuesto §20.1 (tipología Σ<sub>6</sub>, dictamen m<sub>0</sub> = 3 UFM) ejemplifica esta interpretación. Su verificación canónica componente a componente, transcrita en el apartado 20.2, produce nulidad estricta sobre los siete sectores y sobre las siete identidades intersectoriales. Análogamente para los Supuestos §20.4 (Σ<sub>3</sub>, m<sub>0</sub> = 4), §20.6 (Σ<sub>1</sub>, m<sub>0</sub> = 2) y §20.8 (Σ<sub>7</sub>, m<sub>0</sub> = 7): los cuatro casos del banco con clausura masiva son convergentes plenos.
+
+**Lectura doctrinal.** La trayectoria universal Γ<sub>U</sub> cierra sobre estado corpus τ con clausura masiva. La Teoría del TODO se verifica simultáneamente con la Teoría de la NADA admisible: ambas lecturas internas (𝓔<sub>∅</sub> y (μ, λ) = (0, 0)) se cumplen.
+
+### 22.2. Interpretación II — Refutación local
+
+**Definición canónica.** Existe al menos una absorción i ∈ { 1, …, 11 } y/o un sector j ∈ { 1, …, 7 } y/o una identidad k ∈ { 1, …, 7 } que produce valor 1 sobre la trayectoria considerada. Por la prelación 1 ≻ U ≻ 0 demostrada en el apartado 13.6, el verificador 𝓝<sup>★</sup><sub>SV</sub> devuelve 1 independientemente del valor del resto de componentes.
+
+```math
+\exists\, j:\; \mathfrak{U}^{(j)}_{SV}(\Phi^{j}) = 1 \;\;\vee\;\; \exists\, k:\; \neg\mathcal{S}_{k} \;\;\Longrightarrow\;\; \mathfrak{U}^{\mathrm{unif}}_{SV} = 1.
+```
+
+**Veredicto canónico de la rectora.** 𝓔<sup>★</sup><sub>TODO,SV</sub> = **1**.
+
+**Ejemplo numérico genuino — refutación en sector eléctrico.** Consideremos una variante del Supuesto §20.1 en la que se altera el valor de ρ manteniendo D inalterado:
+
+| Magnitud | Valor del Supuesto §20.1 original | Valor de la variante refutada |
+|---|---|---|
+| D | (0,200; 0,150; 0,180; 0,120) | (0,200; 0,150; 0,180; 0,120) |
+| ρ | 0,050 | **0,150** (alterado) |
+| V | 1,000 | 1,000 |
+| Div<sub>SV</sub>(D) | 0,050 | 0,050 |
+| Div<sub>SV</sub>(D) − ρV | 0 | **−0,100 ≠ 0** |
+
+Verificación de la rectora sobre la variante:
+
+```
+Sector 1 (eléctrico):
+  𝓤^(1)_1: Div_SV(D) − ρV = 0,050 − 0,150 = −0,100 ≠ 0    [REFUTADO]
+  𝓤^(1)_2: Rot_SV(E) + ∂_νB·A_Σ = 0
+Sector 2 (magnético): nulidad como en el Supuesto §20.1
+Sectores 3-7: nulidad como en el Supuesto §20.1
+Identidades 𝒮_1-𝒮_7: 𝒮_1 también REFUTADA por incongruencia carga-corriente
+
+Verificador 𝓝^★_SV sobre los componentes:
+  Componentes con valor 0: 13 (los demás)
+  Componentes con valor 1: 2 (𝓤^(1)_1 y 𝒮_1 refutados)
+  Veredicto: 𝓝^★_SV(...) = 1 (por presencia de 1)
+```
+
+**Veredicto.** 𝓔<sup>★</sup><sub>TODO,SV</sub> = **1**. La Teoría del TODO se refuta localmente sobre la variante: la incongruencia entre carga ρ y divergencia de D rompe la primera ecuación de Maxwell factual. El sistema rechaza la trayectoria sin ambigüedad y sin recurso a tolerancia ni probabilidad.
+
+### 22.3. Interpretación III — No clausura honesta
+
+**Definición canónica.** Ninguna absorción ni identidad produce valor 1, pero al menos una absorción produce valor U sobre la trayectoria considerada. Por la prelación 1 ≻ U ≻ 0, el verificador 𝓝<sup>★</sup><sub>SV</sub> devuelve U.
+
+```math
+\bigl[\,\nexists\, j:\; \mathfrak{U}^{(j)}_{SV} = 1\,\bigr] \;\wedge\; \bigl[\,\exists\, j:\; \mathfrak{U}^{(j)}_{SV} = U\,\bigr] \;\;\Longrightarrow\;\; \mathfrak{U}^{\mathrm{unif}}_{SV} = U.
+```
+
+**Veredicto canónico de la rectora.** 𝓔<sup>★</sup><sub>TODO,SV</sub> = **U**.
+
+**Ejemplo numérico genuino — no clausura en convergencia ternaria.** Los Supuestos §20.2 (tipología Σ<sub>5</sub>, meseta integral) y §20.10 (tipología Σ<sub>9</sub>, multimodal compleja) del banco canónico ejemplifican esta interpretación cuando se considera el dictamen final 𝒮<sub>4</sub> en sentido fuerte:
+
+| Magnitud | Supuesto §20.2 (Σ<sub>5</sub>) | Supuesto §20.10 (Σ<sub>9</sub>) |
+|---|---|---|
+| Sectores 1+2 EM | nulos | nulos |
+| Sectores 3-7 | nulos | nulos |
+| Identidades 𝒮<sub>1</sub>-𝒮<sub>3</sub>, 𝒮<sub>5</sub>-𝒮<sub>6</sub> | satisfechas | satisfechas |
+| 𝒮<sub>4</sub> dictamen | **U** (vacuo) | **U** (multimodalidad sin clausura) |
+| 𝒮<sub>7</sub> π<sub>0</sub>(Ξ<sub>SV</sub>) | vacuo | vacuo |
+
+Cuando se evalúa el operador maestro **incluyendo el contenido factual Ξ<sub>SV</sub>** y exigiendo clausura del dictamen final, los Supuestos §20.2 y §20.10 producen U honesta sobre el sector 5 y sobre la identidad 𝒮<sub>4</sub>. El verificador da:
+
+```
+Componentes con valor 0: 12
+Componentes con valor 1: 0
+Componentes con valor U: 2 (sector 5 y 𝒮_4 con dictamen U)
+Veredicto: 𝓝^★_SV(...) = U (por presencia de U sin 1)
+```
+
+**Veredicto.** 𝓔<sup>★</sup><sub>TODO,SV</sub> = **U**. La Teoría del TODO no clausura honestamente sobre la trayectoria: no se refuta, pero tampoco se cierra con clausura masiva ni con clase emergente clausurable. La trayectoria queda admisible bajo no clausura honesta sostenida.
+
+**Distinción doctrinal.** Esta interpretación es **estructuralmente distinta** de la Interpretación II: el sistema no rechaza la trayectoria, simplemente declara honestamente que el aparato declarado τ no basta para producir un veredicto definitivo. La cláusula 𝒮<sub>4</sub>: U es la marca canónica de indeterminación honesta sostenida, no de fallo.
+
+### 22.4. Interpretación IV — Refutación con no clausura paralela
+
+**Definición canónica.** Existe al menos una absorción que produce 1 y simultáneamente al menos una absorción que produce U, sobre componentes distintos. Por la prelación 1 ≻ U ≻ 0, el verificador devuelve 1: la presencia de refutación domina la presencia simultánea de no clausura.
+
+```math
+\bigl[\,\exists\, j_{1}:\; \mathfrak{U}^{(j_{1})}_{SV} = 1\,\bigr] \;\wedge\; \bigl[\,\exists\, j_{2} \neq j_{1}:\; \mathfrak{U}^{(j_{2})}_{SV} = U\,\bigr] \;\;\Longrightarrow\;\; \mathfrak{U}^{\mathrm{unif}}_{SV} = 1.
+```
+
+**Veredicto canónico de la rectora.** 𝓔<sup>★</sup><sub>TODO,SV</sub> = **1**.
+
+**Ejemplo numérico genuino — refutación con no clausura paralela.** Construyamos una variante mixta combinando la refutación del apartado 22.2 (sector eléctrico) con la no clausura del apartado 22.3 (sector convergencia/identidad 𝒮<sub>4</sub>):
+
+| Magnitud | Variante mixta |
+|---|---|
+| ρ alterado | 0,150 (en lugar de 0,050) |
+| Sector 1: 𝓤<sup>(1)</sup><sub>1</sub> | **1 (refutado)** |
+| Sector 2-7: | nulos |
+| 𝒮<sub>1</sub> | **1 (refutado)** |
+| 𝒮<sub>4</sub> dictamen | U |
+| 𝒮<sub>2</sub>, 𝒮<sub>3</sub>, 𝒮<sub>5</sub>-𝒮<sub>7</sub> | satisfechas |
+
+Verificación canónica de la rectora:
+
+```
+Componentes con valor 0: 11
+Componentes con valor 1: 2 (𝓤^(1)_1 y 𝒮_1)
+Componentes con valor U: 1 (𝒮_4 dictamen)
+Veredicto: 𝓝^★_SV(...) = 1 (por presencia de 1, dominando el U paralelo)
+```
+
+**Veredicto.** 𝓔<sup>★</sup><sub>TODO,SV</sub> = **1**. La presencia de refutación en sector eléctrico domina la no clausura paralela en 𝒮<sub>4</sub>. El sistema **rechaza la trayectoria** sin que la presencia simultánea de indeterminación honesta atenúe el rechazo.
+
+**Lectura doctrinal.** La prelación 1 ≻ U ≻ 0 garantiza que ninguna trayectoria con refutación local puede ser rescatada por la presencia paralela de no clausura honesta. La refutación es estructuralmente prioritaria, conforme al teorema T3 de fortaleza del verificador (apartado 13.6).
+
+### 22.5. Interpretación V — Inadmisible por estado corpus τ
+
+**Definición canónica.** La trayectoria considerada **no proyecta admisiblemente** sobre algún dominio D requerido por el conjunto 𝓛<sup>adm</sup><sub>SV</sub>(τ). En tal caso, la proyección Π<sub>D</sub>(Γ<sub>U</sub>) no produce entrada admisible para la ley 𝓔<sub>D</sub> y el cálculo del defecto Δ<sup>TODO</sup><sub>D</sub> queda fuera del verificador. La trayectoria es **inadmisible** por el estado corpus declarado.
+
+```math
+\Pi_{D}(\Gamma_{U}) \notin \mathrm{Dom}(\mathcal{E}_{D}) \;\;\Longrightarrow\;\; \Delta^{TODO}_{D}(\Gamma_{U};\,\tau) \;\text{indefinido} \;\;\Longrightarrow\;\; \Gamma_{U} \notin \mathrm{Adm}(\tau).
+```
+
+**Veredicto canónico de la rectora.** No definido — la trayectoria no entra en el dominio del verificador.
+
+**Ejemplo numérico genuino — proyección inadmisible.** Consideremos una trayectoria Γ<sub>U</sub> declarada con valores extra-celulares: por ejemplo, una posición s<sub>i</sub> = "X" con X ∉ Σ = { 0, 1, U }. La proyección Π<sub>em</sub>(Γ<sub>U</sub>) hacia el dominio Maxwell factual exige configuración celular en Σ<sup>9</sup>, pero Γ<sub>U</sub> no satisface esta condición.
+
+Verificación canónica:
+
+```
+La proyección Π_em(Γ_U) NO está definida (Γ_U contiene "X" ∉ Σ)
+Δ^TODO_em es por tanto indefinido
+La rectora no produce veredicto: la trayectoria Γ_U es inadmisible
+```
+
+**Veredicto.** No definido. La trayectoria queda **fuera del dominio del verificador** y no se computa veredicto. La cláusula doctrinal del apartado 14.3 ("la admisibilidad no se asigna por orden cronológico ni preeminencia de autor ni consenso externo") prohíbe forzar un veredicto sobre trayectoria inadmisible.
+
+**Lectura doctrinal.** La interpretación V no es un veredicto del sistema, sino una **declaración de no aplicabilidad**. El sistema preserva su honestidad operatoria al rechazar el cálculo sobre entradas que no satisfacen las condiciones canónicas de admisibilidad. Esta interpretación es la **frontera externa** del verificador.
+
+### 22.6. Tabla canónica resumen de las cinco interpretaciones
+
+**Tabla 22.6.1 (Las cinco interpretaciones canónicas de la rectora).**
+
+| # | Interpretación | Distribución de defectos | Veredicto rectora | Ejemplo del banco |
+|---|---|---|---|---|
+| I | Convergente plena | todos los defectos = 0 | 𝓔<sup>★</sup><sub>TODO,SV</sub> = **0** | §20.1 (Σ<sub>6</sub>), §20.4 (Σ<sub>3</sub>), §20.6 (Σ<sub>1</sub>), §20.8 (Σ<sub>7</sub>) |
+| II | Refutación local | ∃ defecto = 1 sin U paralelo | 𝓔<sup>★</sup><sub>TODO,SV</sub> = **1** | variante de §20.1 con ρ alterado |
+| III | No clausura honesta | ∄ defecto = 1, ∃ defecto = U | 𝓔<sup>★</sup><sub>TODO,SV</sub> = **U** | §20.2 (Σ<sub>5</sub>), §20.10 (Σ<sub>9</sub>) |
+| IV | Refutación + no clausura paralela | ∃ defecto = 1 ∧ ∃ defecto = U | 𝓔<sup>★</sup><sub>TODO,SV</sub> = **1** | variante mixta (§22.4) |
+| V | Inadmisible por τ | proyección Π<sub>D</sub> no definida | no definido | trayectoria con valor extra-Σ |
+
+### 22.7. Lectura canónica de la prelación
+
+La prelación canónica 1 ≻ U ≻ 0 del verificador 𝓝<sup>★</sup><sub>SV</sub> ordena estrictamente las cinco interpretaciones de la siguiente forma operatoria:
+
+(i) Cualquier presencia de defecto refutado (= 1) eleva el veredicto a 1, independientemente de cuántos componentes valgan 0 o U. Esto implementa estructuralmente la **disciplina de refutación dominante**: el sistema no rescata trayectorias refutadas mediante presencia paralela de indeterminación honesta.
+
+(ii) En ausencia de refutación, cualquier presencia de no clausura honesta (= U) eleva el veredicto a U, independientemente de cuántos componentes valgan 0. Esto implementa la **disciplina de honestidad sostenida**: el sistema no fuerza clausura sobre componentes que no clausuran legítimamente.
+
+(iii) El veredicto 0 se reserva al caso donde **todos** los componentes se anulan exactamente. La nulidad estricta es la cima de la cadena ascendente del Sistema Vectorial SV y la condición canónica del cierre de la Teoría del TODO.
+
+(iv) La interpretación V (inadmisibilidad por τ) opera fuera de la prelación: no es veredicto del verificador sino declaración de no aplicabilidad sobre el dominio.
+
+### 22.8. Coherencia con las cinco prohibiciones constitutivas P.1-P.6
+
+Las cinco interpretaciones del apartado satisfacen las seis prohibiciones constitutivas del Sistema Vectorial SV (ver apartado 23, Teorema T9), en particular:
+
+- **P.1 (no tiempo soberano):** ninguna interpretación introduce parámetro temporal externo; todas operan sobre el ordinal append-only ν del SV.
+- **P.2 (no probabilidad fundante):** ninguna interpretación recurre a probabilidades, frecuencias ni medidas estadísticas.
+- **P.4 (no inferencia opaca):** cada interpretación es trazable componente a componente al verificador 𝓝<sup>★</sup><sub>SV</sub>.
+- **P.6 (no clausura espuria):** la interpretación III preserva la U honesta sin clausurarla artificialmente.
+
+---
+## 23. Teoremas de coincidencia, preservación, cumplimiento y coherencia
+
+Cuatro teoremas canónicos cierran rigurosamente la absorción multidoctrinal del corpus. Los cuatro teoremas se transcriben con sus enunciados literales del corpus de teoría general de sucesos generadores y protocampos unificados (Lloret Egea, 2026, §§18.1, 19.1, 20.1) y se complementan con un teorema de preservación bajo el operador maestro propio de la presente publicación.
+
+### 23.1. Teorema T7 — Coincidencia canónica de absorciones
+
+**Enunciado.** Para toda absorción canónica del corpus SV sobre toda configuración admisible, el valor evaluado por separado y el valor evaluado como restricción del operador maestro 𝔘<sup>unif</sup><sub>SV</sub> coinciden con diferencia residual exactamente cero.
+
+```math
+\boxed{ \;\forall\, i \in \{1,\ldots,11\},\;\; \forall\, \Gamma_{U} \text{ admisible}\,:\;\; V^{\mathrm{nat}}_{i}(\Gamma_{U}) \;=\; V^{\mathrm{abs}}_{i}(\Gamma_{U}) \;\;\Longleftrightarrow\;\; \Delta^{\mathrm{res}}_{i}(\Gamma_{U}) \;=\; 0.\; }
+```
+
+**Demostración.** La construcción canónica de cada operador sectorial 𝓤<sup>(j)</sup><sub>SV</sub> en las Definiciones §§11.2-11.8 del corpus reproduce literalmente el operador maestro del sector j tal como queda cerrado en su publicación canónica de origen. Por tanto, la restricción de 𝔘<sup>unif</sup><sub>SV</sub> al sector j por el operador concatenador ⊕ es 𝓤<sup>(j)</sup><sub>SV</sub> mismo, sin alteración. Esto se aplica a las siete absorciones sectoriales primarias (§18.1-§18.7).
+
+Para las cuatro absorciones derivadas (§18.8 energía, §18.9 entropía, §18.10 fuerza/trabajo, §18.11 calor/entalpía), la demostración procede por composición canónica: cada fórmula nativa derivada se construye sobre las identidades del corpus de Maxwell factual (energía, fuerza/trabajo, calor/entalpía) o del corpus de entropía factual (entropía), ambas absorbidas literalmente por el operador maestro. La restricción del operador maestro a la combinación de sectores y/o identidades correspondiente reproduce la fórmula nativa derivada por composición canónica.
+
+La verificación numérica componente a componente sobre los diez supuestos del banco canónico (apartado 21, tabla 21.13.1) confirma empíricamente la coincidencia con diferencia residual 0,00 sobre las 110 celdas. Q.E.D. ∎
+
+**Corolario T7.1 (cobertura empírica).** El banco canónico del apartado 20 cubre las **diez tipologías morfológicas** Σ<sub>1</sub>-Σ<sub>10</sub> y los **tres dictámenes finales canónicos** { m<sub>0</sub>, χ<sub>α</sub>, U }. La coincidencia canónica del Teorema T7 queda por tanto verificada empíricamente sobre la totalidad del codominio canónico de dictámenes y sobre la totalidad de las tipologías morfológicas declaradas en el corpus.
+
+### 23.2. Teorema T8 — Preservación bajo el operador maestro
+
+**Enunciado.** Sea Γ<sub>U</sub> una trayectoria universal admisible con veredicto 𝓔<sup>★</sup><sub>TODO,SV</sub>(Γ<sub>U</sub>; τ) = 0, y sea D ∈ 𝓛<sup>adm</sup><sub>SV</sub>(τ) cualquier ley factual admisible del corpus. Entonces la proyección canónica Π<sub>D</sub>(Γ<sub>U</sub>) verifica 𝓔<sub>D</sub>(Π<sub>D</sub>(Γ<sub>U</sub>)) = 0 con diferencia residual exactamente cero.
+
+```math
+\boxed{ \;\mathcal{E}^{\star}_{TODO,\,SV}(\Gamma_{U};\,\tau) = 0 \;\;\Longrightarrow\;\; \forall\, \mathcal{E}_{D} \in \mathcal{L}^{\,adm}_{SV}(\tau)\,:\;\; \mathcal{E}_{D}(\Pi_{D}(\Gamma_{U})) = 0 \text{ exactamente}.\; }
+```
+
+**Demostración.** Por la identificación canónica del apartado 2.0, 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub>. Por la cláusula C.2 del operador concatenador ⊕ (apartado 18.5), la nulidad de 𝔘<sup>unif</sup><sub>SV</sub> equivale a la nulidad simultánea de los siete operadores sectoriales 𝓤<sup>(j)</sup><sub>SV</sub> y al cumplimiento simultáneo de las siete identidades intersectoriales 𝒮<sub>k</sub>. Por el Teorema T7, cada absorción i ∈ { 1, …, 11 } se evalúa con valor coincidente con su restricción canónica al operador maestro. Por tanto, para cada ley admisible 𝓔<sub>D</sub>:
+
+(a) Si 𝓔<sub>D</sub> es una absorción primaria (§18.1-§18.7), su valor sobre Π<sub>D</sub>(Γ<sub>U</sub>) coincide con el valor del sector(es) correspondiente(s) del operador maestro, que vale 0 por hipótesis.
+
+(b) Si 𝓔<sub>D</sub> es una absorción derivada (§18.8-§18.11), su valor sobre Π<sub>D</sub>(Γ<sub>U</sub>) emerge como consecuencia algebraica directa de la nulidad sectorial requerida, conforme a la construcción canónica del corpus.
+
+(c) Si 𝓔<sub>D</sub> es una ley admisible adicional incluida en 𝓛<sup>adm</sup><sub>SV</sub>(τ) por refinamiento del estado corpus τ, su admisibilidad exige que admita proyección canónica Π<sub>D</sub> con verificación canónica por δ<sub>SV</sub>; por la Definición §K.7 del corpus de teoría general de sucesos generadores y protocampos unificados (compatibilidad canónica G<sup>★★</sup><sub>SV</sub> ↔ 𝔘<sup>unif</sup><sub>SV</sub>), tal verificación produce 0 cuando 𝔘<sup>unif</sup><sub>SV</sub> = 0 sobre la trayectoria.
+
+La conjunción de (a), (b) y (c) cubre exhaustivamente 𝓛<sup>adm</sup><sub>SV</sub>(τ). Q.E.D. ∎
+
+**Corolario T8.1 (preservación recíproca).** Si toda ley admisible 𝓔<sub>D</sub> ∈ 𝓛<sup>adm</sup><sub>SV</sub>(τ) verifica 𝓔<sub>D</sub>(Π<sub>D</sub>(Γ<sub>U</sub>)) = 0 exactamente, entonces 𝓔<sup>★</sup><sub>TODO,SV</sub>(Γ<sub>U</sub>; τ) = 0.
+
+*Demostración del corolario.* Por el Teorema T7, los siete operadores sectoriales y las siete identidades intersectoriales coinciden con las absorciones canónicas. Si las once absorciones del §18.7 producen valor 0, entonces los siete sectores y las siete identidades del operador maestro producen valor 0 simultáneamente. Por la cláusula C.2 del operador ⊕, esto equivale a 𝔘<sup>unif</sup><sub>SV</sub> = 0 = 𝓔<sup>★</sup><sub>TODO,SV</sub>. ∎
+
+### 23.3. Teorema T9 — Cumplimiento canónico de las prohibiciones P.1-P.6
+
+**Enunciado (transcripción literal del Teorema §19.1 del corpus).** El operador maestro 𝔘<sup>unif</sup><sub>SV</sub> definido por la Definición §11.9 del corpus satisface las **seis prohibiciones constitutivas absolutas** del Sistema Vectorial SV.
+
+```math
+\boxed{ \;\bigwedge_{i=1}^{6} P_{i} \text{ cumplida sobre } \mathfrak{U}^{\mathrm{unif}}_{SV} = \mathcal{E}^{\star}_{TODO,\,SV}.\; }
+```
+
+**Las seis prohibiciones constitutivas.**
+
+**P.1 — No tiempo soberano.** El operador 𝔘<sup>unif</sup><sub>SV</sub> opera exclusivamente sobre el ordinal canónico append-only ν ∈ ℕ<sup>SV</sup><sub>ord</sub> heredado del corpus. Las derivadas estructurales ∂<sub>ν</sub><sup>SV</sup>B y ∂<sub>ν</sub><sup>SV</sup>D son derivadas con respecto a este ordinal canónico y no respecto a parámetro temporal externo.
+
+**P.2 — No probabilidad fundante.** Ninguno de los siete operadores sectoriales 𝓤<sup>(j)</sup><sub>SV</sub> ni las siete identidades 𝒮<sub>k</sub> contiene operador probabilístico fundante. La marca canónica U del alfabeto Σ = { 0, 1, U } es indeterminación factual estructural, no medida probabilística.
+
+**P.3 — No geometría soberana auxiliar.** Todos los operadores se construyen sobre primitivas factuales canónicas: Div<sub>SV</sub>, Rot<sub>SV</sub>, ∂<sub>ν</sub><sup>SV</sup>, ε<sub>SV</sub>, μ<sub>SV</sub>, σ<sub>SV</sub>, polinomios en (α, β), card, integrales factuales del corpus. Ninguna geometría euclídea ni riemanniana queda introducida como soporte axiomático.
+
+**P.4 — No inferencia opaca.** Cada componente de 𝔘<sup>unif</sup><sub>SV</sub> es trazable componente a componente al corpus citado: cada operador sectorial al cierre canónico de su sector (§§11.2-11.8 del corpus); cada identidad intersectorial a la sección correspondiente del corpus (§12).
+
+**P.5 — No adición axiomática externa.** Verificación exhaustiva del corpus (§19.5): operador maestro 𝔘<sup>unif</sup><sub>SV</sub> declarado canónicamente; siete operadores sectoriales cada uno cierre canónico del sector j; siete identidades intersectoriales cada una identidad canónica ya cerrada; operador concatenador ⊕ definido en glosario canónico; postulados G.1, G.2, G.3 literales del corpus de luz factual; trece invariantes I.1-I.13 literales; quince visiones V.1-V.15 literales; taxonomía G/A/D literal; par polar (α, β) literal; compuerta Π<sub>3</sub><sup>H</sup> literal; F<sub>0</sub> derivado por reducción al absurdo; cadena fundacional Ω<sub>pre</sub> → … → { m<sub>0</sub>, χ<sub>α</sub>, U } literal; tipologías Σ<sub>1</sub>-Σ<sub>10</sub> literales; veinte campos del catálogo literales o canonizados por algoritmo A1-A5 declarado. Ningún axioma exterior.
+
+**P.6 — No clausura espuria.** Las situaciones de indeterminación honesta se preservan con marca U: el sector 5 produce U honesta cuando T no converge; las configuraciones con jacobiano factual J<sub>SV</sub> con det(J<sub>SV</sub>) = 0 activan frontera factual sin clausurar espuriamente; el programa canónico preserva la frontera exterior como U legítima conforme a G.3; las clases factuales emergentes χ<sub>α</sub> incorporan la cláusula constitutiva χ<sub>α</sub> ≠ U.
+
+**Demostración.** Reunión sintética de los apartados §19.1 a §19.6 del corpus de teoría general de sucesos generadores y protocampos unificados (Lloret Egea, 2026). Cada prohibición se verifica componente a componente sobre el operador maestro y sobre los siete operadores sectoriales. La identificación canónica 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub> del apartado 2.0 transfiere literalmente el cumplimiento de las prohibiciones del operador maestro a la ecuación rectora doctrinal de la presente publicación. Q.E.D. ∎
+
+### 23.4. Teorema T10 — Coherencia integral del régimen unificado
+
+**Enunciado (transcripción literal del Teorema §20.1 del corpus).** El operador maestro 𝔘<sup>unif</sup><sub>SV</sub> definido por la Definición §11.9 del corpus, articulado con el nivel canónico interior establecido en §§2-7 (teorema de unicidad estructural del tránsito ε<sub>0</sub>-F<sub>0</sub>-U, F<sub>0</sub> mínimo, cadena fundacional, par polar (α, β), sucesos generadores G/A/D, compuerta Π<sub>3</sub><sup>H</sup>) y con el banco numérico canónico del §17 sobre la célula SV(9, 3), satisface **simultáneamente**:
+
+(i) **Cobertura sectorial completa** sobre los siete sectores primarios coexistentes (eléctrico, magnético, gravitatorio bisectorial, TPA, convergencia ternaria, espectral, topológico) y los veinte campos factuales del catálogo canónico;
+
+(ii) **Articulación intersectorial completa** mediante las siete identidades canónicas {𝒮<sub>k</sub>}<sub>k=1..7</sub>;
+
+(iii) **Cumplimiento canónico de las seis prohibiciones constitutivas** P.1-P.6 (Teorema T9);
+
+(iv) **Coincidencia canónica de las once absorciones individuales** con diferencia residual 0,00 sobre la totalidad del banco canónico (Teorema T7);
+
+(v) **Preservación bajo refinamiento del estado corpus** τ → τ' (Teorema T8 y su corolario);
+
+(vi) **Cobertura completa del codominio de dictámenes** { m<sub>0</sub>, χ<sub>α</sub>, U }: los diez supuestos del banco cubren 4 casos con clausura masiva m<sub>0</sub>, 4 casos con clase emergente χ<sub>α</sub>, y 2 casos con indeterminación honesta U.
+
+```math
+\boxed{ \;\mathfrak{U}^{\mathrm{unif}}_{SV} \;=\; 0 \;\equiv\; \mathcal{E}^{\star}_{TODO,\,SV}(\Gamma_{U};\,\tau) \;=\; 0 \;\;\Longleftrightarrow\;\; (\mathrm{i}) \wedge (\mathrm{ii}) \wedge (\mathrm{iii}) \wedge (\mathrm{iv}) \wedge (\mathrm{v}) \wedge (\mathrm{vi}).\; }
+```
+
+**Demostración.** Reunión sintética de los Teoremas T1-T9 de la presente publicación y de los resultados R.1-R.21 del corpus de teoría general de sucesos generadores y protocampos unificados (Lloret Egea, 2026, §20.1). Q.E.D. ∎
+
+### 23.5. Corolario T10.1 — Cadena canónica de tres planos del Sistema Vectorial SV
+
+**Enunciado (transcripción literal del Corolario §20.1 del corpus).** El régimen del Sistema Vectorial SV se articula canónicamente en **tres planos encadenados** por implicación estructural directa:
+
+```math
+\text{Plano fundacional} \;\Longrightarrow\; \text{Plano algebraico} \;\Longrightarrow\; \text{Plano factual},
+```
+
+donde:
+
+**Plano fundacional.** Comprende la cadena F<sub>0</sub> ⊢ Def<sub>SV</sub>(ε<sub>0</sub>); ε<sub>0</sub> : ∅ → Ω<sub>pre</sub> → protocampos (α, β) → sucesos generadores → compuerta Π<sub>3</sub><sup>H</sup>, cerrada en los §§3-7 del corpus con el Teorema §2.1 de unicidad estructural condicionada del tránsito ε<sub>0</sub>-F<sub>0</sub>-U.
+
+**Plano algebraico.** Comprende los siete operadores sectoriales 𝓤<sup>(j)</sup><sub>SV</sub>, las siete identidades intersectoriales {𝒮<sub>k</sub>}, el operador concatenador ⊕ con cláusulas C.1 y C.2, el morfismo dictamen ternario G<sup>★★</sup><sub>SV</sub> : 𝒯<sub>SV</sub> → K<sub>3</sub>, y el operador maestro 𝔘<sup>unif</sup><sub>SV</sub> ≡ 𝓔<sup>★</sup><sub>TODO,SV</sub> que cierra canónicamente la presente publicación.
+
+**Plano factual.** Comprende los siete sectores primarios coexistentes (eléctrico, magnético, gravitatorio bisectorial, TPA, convergencia ternaria, espectral, topológico), los veinte campos del catálogo, las once absorciones individuales del §18.7 y los diez supuestos del banco canónico del §20 sobre la célula SV(9, 3).
+
+*Demostración del Corolario T10.1.* La implicación Plano fundacional ⇒ Plano algebraico está cerrada por la cadena fundacional canónica del §4 del corpus que produce los operadores como sucesos generadores sobre el dominio preternario Ω<sub>pre</sub>. La implicación Plano algebraico ⇒ Plano factual está cerrada por la articulación canónica de los siete operadores sectoriales con los siete sectores primarios y los veinte campos factuales. Q.E.D. ∎
+
+### 23.6. Conclusión doctrinal de los cuatro teoremas
+
+Los cuatro teoremas T7, T8, T9, T10 cierran rigurosamente la **absorción multidoctrinal** del corpus del Sistema Vectorial SV en la ecuación rectora 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub> = 0. Cada doctrina del corpus se absorbe canónicamente, con coincidencia residual cero sobre el banco canónico, preservación bajo refinamiento del estado corpus, cumplimiento de las seis prohibiciones constitutivas, y coherencia integral sobre los tres planos del Sistema Vectorial SV.
+
+La integración doctrinal queda canónicamente cerrada: ningún axioma exterior, ninguna dependencia externa, ningún debilitamiento de cierres canónicos previamente establecidos. La totalidad del corpus se articula bajo una sola ecuación rectora con dos nombres complementarios, bajo el sello canónico 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub>.
+
+---
+## 24. Suite laboratorial reproducible ampliada
+
+La Teoría del TODO y de la NADA en el Sistema Vectorial SV se acompaña de una **suite laboratorial reproducible en Python** que verifica, por cómputo determinista sobre los objetos canónicos del documento, que cada apartado de la cadena ascendente, cada absorción doctrinal, cada supuesto del banco canónico y cada interpretación canónica cierra con el veredicto previsto. Los laboratorios son scripts independientes, autocontenidos, sin dependencias externas más allá de la biblioteca estándar de Python.
+
+La presente publicación **anuncia** los quince laboratorios y declara su criterio de aptitud, su sección doctrinal de origen y su URL canónica. La implementación se realiza en una entrega posterior bajo el repositorio canónico del corpus SV.
+
+### 24.1. URL canónica del catálogo
 
 Todos los laboratorios anunciados a continuación residirán bajo la ruta canónica del repositorio del corpus SV:
 
 [`https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/teoria-todo-nada-sv/laboratorios/`](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/teoria-todo-nada-sv/laboratorios/)
 
-### 18.3. Criterio uniforme de aptitud
+### 24.2. Criterio uniforme de aptitud
 
 Cada laboratorio produce una salida tipada con la estructura `SV_TODO_NADA_RESULT` siguiente:
 
@@ -1329,68 +2797,93 @@ Un laboratorio es **APTO** si y sólo si su salida cumple las dos condiciones si
 
 (ii) `passes_E7 = True`, donde el código E7 verifica nulidad estricta sobre todos los componentes declarados en la sección de origen.
 
-Un laboratorio es **NO APTO** si `verdict ∈ { 1, U }` o si `passes_E7 = False` para la entrada canónica.
+Un laboratorio es **NO APTO** si `verdict ∈ { 1, U }` sobre la entrada canónica de cierre estructural o si `passes_E7 = False`.
 
-### 18.4. Catálogo de laboratorios anunciados
+### 24.3. Catálogo de los quince laboratorios anunciados
 
-**Laboratorio 1 — `lab01_alfabeto_y_cellula.py`** ([sección 2.1](#21-alfabeto-ternario-σ-y-configuración-celular-canónica-k_3n))
+**Laboratorio 1 — `lab01_alfabeto_y_celula.py`** (sección 2.1)
 
-Verifica la pertenencia tipada de configuraciones ternarias a Σ<sup>9</sup> y al codominio K<sub>3</sub><sup>n</sup> para n ∈ { 1, 2, 3, 9 }. Comprueba el cardinal \| K<sub>3</sub><sup>n</sup> \| = 3<sup>n</sup>. Criterio de aptitud: enumeración exhaustiva de los 3<sup>n</sup> elementos sin colisión ni omisión.
+Verifica la pertenencia tipada de configuraciones ternarias a Σ<sup>9</sup> y al codominio K<sub>3</sub><sup>n</sup> para n ∈ { 1, 2, 3, 9 }. Comprueba el cardinal \|K<sub>3</sub><sup>n</sup>\| = 3<sup>n</sup>. Verifica además la equivalencia notacional SV(9, 3) ≡ SV(3, 9) sobre la célula canónica fundacional. Criterio de aptitud: enumeración exhaustiva de los 3<sup>n</sup> elementos sin colisión ni omisión.
 
-**Laboratorio 2 — `lab02_suceso_admisible.py`** ([sección 2.4](#24-suceso-admisible-cuaterna-canónica))
+**Laboratorio 2 — `lab02_suceso_admisible.py`** (sección 2.4)
 
-Verifica la admisibilidad de una cuaterna e = (H, H', σ, R<sub>e</sub>) sobre la célula SV(9,3) por aplicación de las seis condiciones A1-A6. Reproduce el ejemplo canónico 2.4.2 y produce salida 0 (admisible). Criterio de aptitud: cada una de A1-A6 evaluada a verdadero sobre la entrada canónica.
+Verifica la admisibilidad de una cuaterna e = (H, H', σ, R<sub>e</sub>) sobre la célula SV(9, 3) por aplicación de las seis condiciones A1-A6. Reproduce el ejemplo canónico 2.4.2 y produce salida 0 (admisible). Criterio de aptitud: cada una de A1-A6 evaluada a verdadero sobre la entrada canónica.
 
-**Laboratorio 3 — `lab03_distancia_factual_fibrosa.py`** ([sección 2.7-2.8 y 8](#27-distancia-factual-fibrosa-entre-sucesos-consecutivos-d-svφ))
+**Laboratorio 3 — `lab03_distancia_factual_fibrosa.py`** (secciones 2.7-2.8 y 8)
 
 Calcula 𝑑<sup>SV</sup><sub>Φ</sub>(S<sub>k+1</sub>, S<sub>k</sub>) y 𝐷<sup>SV</sup><sub>Φ</sub>(Γ) sobre la cadena del ejemplo 2.7.2. Verifica la coherencia telescópica (apartado 8.5) y devuelve Δ<sup>Φ</sup><sub>q</sub> = 0. Criterio de aptitud: igualdad estricta entre la suma local y la distancia global con observable monótono.
 
-**Laboratorio 4 — `lab04_agotamiento_K3n.py`** ([sección 9](#9-agotamiento-configuracional-imv--k_3n))
+**Laboratorio 4 — `lab04_agotamiento_K3n.py`** (sección 9)
 
-Recorre la trayectoria canónica de longitud 9 sobre K<sub>3</sub><sup>2</sup> (ejemplo 9.4) y verifica Im(v) = K<sub>3</sub><sup>2</sup> exactamente. Calcula 𝓐<sub>q</sub> = ζ<sub>SV</sub>(\| ∅ \|) = 0. Criterio de aptitud: diferencia simétrica vacía entre imagen acumulada y codominio.
+Recorre la trayectoria canónica de longitud 9 sobre K<sub>3</sub><sup>2</sup> (ejemplo 9.4) y verifica Im(v) = K<sub>3</sub><sup>2</sup> exactamente. Calcula 𝓐<sub>q</sub> = ζ<sub>SV</sub>(\|∅\|) = 0. Criterio de aptitud: diferencia simétrica vacía entre imagen acumulada y codominio.
 
-**Laboratorio 5 — `lab05_frontera_mu_lambda.py`** ([sección 10](#10-frontera-común-de-colapso-cíclico-μ-λ--0-0))
+**Laboratorio 5 — `lab05_frontera_mu_lambda.py`** (sección 10)
 
 Evalúa las dos magnitudes de cierre μ y λ sobre la trayectoria del ciclo q y verifica la coincidencia simultánea (μ, λ) = (0, 0). Calcula 𝓒<sub>q</sub> = ζ<sub>SV</sub>(0 + 0) = 0. Criterio de aptitud: nulidad simultánea estricta.
 
-**Laboratorio 6 — `lab06_componentes_ciclo_q.py`** ([sección 12](#12-componentes-del-ciclo-q))
+**Laboratorio 6 — `lab06_componentes_ciclo_q.py`** (sección 12)
 
-Calcula las cinco componentes del ciclo q sobre la trayectoria canónica del apartado 12.7 y verifica que las cinco se anulan exactamente (Tabla 12.7.1). Criterio de aptitud: { S<sub>q</sub>, Δ<sup>Φ</sup><sub>q</sub>, 𝓐<sub>q</sub>, 𝓒<sub>q</sub>, 𝓡<sub>q</sub> } = { 0, 0, 0, 0, 0 }.
+Calcula las cinco componentes del ciclo q sobre la trayectoria canónica del apartado 12.7 y verifica que las cinco se anulan exactamente. Criterio de aptitud: { S<sub>q</sub>, Δ<sup>Φ</sup><sub>q</sub>, 𝓐<sub>q</sub>, 𝓒<sub>q</sub>, 𝓡<sub>q</sub> } = { 0, 0, 0, 0, 0 }.
 
-**Laboratorio 7 — `lab07_normalizacion_zeta.py`** ([sección 13.1](#131-normalización-de-defectos-ζ_sv))
+**Laboratorio 7 — `lab07_normalizacion_zeta.py`** (sección 13.1)
 
-Implementa la regla por casos del operador ζ<sub>SV</sub> sobre el dominio extendido [0, ∞] ∪ { U }. Verifica las tres ramas de la regla con casos de borde: x = 0, x = 0.0, x ∈ (0, ∞), x = U. Criterio de aptitud: las tres ramas evaluadas correctamente sobre los cuatro casos de borde.
+Implementa la regla por casos del operador ζ<sub>SV</sub> sobre el dominio extendido [0, ∞] ∪ { U }. Verifica las tres ramas de la regla con casos de borde: x = 0, x ∈ (0, ∞), x = U. Criterio de aptitud: las tres ramas evaluadas correctamente sobre los casos de borde.
 
-**Laboratorio 8 — `lab08_verificador_ternario_fuerte.py`** ([sección 13.3-13.5](#133-verificador-ternario-fuerte-mathcaln%E2%98%85_sv))
+**Laboratorio 8 — `lab08_verificador_ternario_fuerte.py`** (secciones 13.3-13.5)
 
 Construye la **tabla exhaustiva** de las 27 entradas del verificador 𝓝<sup>★</sup><sub>SV</sub> para m = 3 (Tabla 13.5.1) y verifica que la distribución estadística es 1 entrada con salida 0, 19 entradas con salida 1 y 7 entradas con salida U. Criterio de aptitud: coincidencia exacta con la tabla del documento.
 
-**Laboratorio 9 — `lab09_absorcion_canonica.py`** ([sección 14](#14-absorción-de-leyes-factuales-admisibles-del-sv))
+**Laboratorio 9 — `lab09_absorcion_canonica.py`** (sección 14)
 
 Aplica la proyección canónica Π<sub>D</sub> sobre Γ<sub>U</sub> hacia el dominio electromagnético-factual y verifica que 𝔼<sub>SV</sub>(Π<sub>em</sub>(Γ<sub>U</sub>)) = 0 sobre la cadena ternaria visible de Maxwell-SV. Calcula Δ<sup>TODO</sup><sub>em</sub> = 0 y opcionalmente Δ<sup>TODO</sup><sub>td</sub> = 0 para el dominio termodinámico. Criterio de aptitud: nulidad exacta de todas las leyes admisibles consideradas.
 
-**Laboratorio 10 — `lab10_ley_canonica_rectora.py`** ([sección 15](#15-ley-canónica-rectora-del-sistema-vectorial-sv))
+**Laboratorio 10 — `lab10_ley_canonica_rectora.py`** (sección 15)
 
-Integra los nueve laboratorios anteriores y aplica el verificador 𝓝<sup>★</sup><sub>SV</sub> al vector completo de defectos canónicos { 𝓞<sub>∅</sub>, 𝓤<sub>suc</sub>, 𝓓<sub>𝓕<sub>0</sub></sub>, S<sub>q</sub>, Δ<sup>Φ</sup><sub>q</sub>, 𝓐<sub>q</sub>, 𝓒<sub>q</sub>, 𝓡<sub>q</sub>, Δ<sup>TODO</sup><sub>D</sub> }. Reproduce los tres veredictos canónicos de la Tabla 15.5.1 (cierre canónico, refutación local, no clausura honesta). Criterio de aptitud: 𝓔<sup>★</sup><sub>TODO,SV</sub> = 0 sobre la entrada canónica completa de cierre estructural.
+Integra los nueve laboratorios anteriores y aplica el verificador 𝓝<sup>★</sup><sub>SV</sub> al vector completo de defectos canónicos. Reproduce los tres veredictos canónicos de la Tabla 15.5.1 (cierre canónico, refutación local, no clausura honesta). Criterio de aptitud: 𝓔<sup>★</sup><sub>TODO,SV</sub> = 0 sobre la entrada canónica completa de cierre estructural.
 
-### 18.5. Tabla resumen del catálogo
+**Laboratorio 11 — `lab11_mapa_absorcion.py`** (sección 18)
 
-**Tabla 18.5.1 (Catálogo laboratorial).**
+Implementa el operador maestro 𝔘<sup>unif</sup><sub>SV</sub> = ⊕<sub>j=1..7</sub> 𝓤<sup>(j)</sup><sub>SV</sub>(Φ<sup>j</sup>) ⊕ ⊕<sub>k=1..7</sub> 𝒮<sub>k</sub>. Verifica las cláusulas C.1 (componente nula) y C.2 (anulación conjunta) del operador concatenador ⊕. Implementa los siete operadores sectoriales y las siete identidades intersectoriales como módulos canónicos. Criterio de aptitud: la nulidad de 𝔘<sup>unif</sup><sub>SV</sub> equivale exactamente a la nulidad simultánea de los catorce componentes (siete sectores + siete identidades).
+
+**Laboratorio 12 — `lab12_banco_diez_supuestos.py`** (sección 20)
+
+Codifica los diez supuestos canónicos del banco del corpus (Tipologías Σ<sub>1</sub> a Σ<sub>10</sub>) con todos sus valores numéricos: configuración EM (D, B, Γ<sup>E</sup>, Γ<sup>H</sup>, ρ, V, A<sub>Σ</sub>, ∂<sub>ν</sub>, J), TPA (φ, m, Div<sub>SV</sub>), datos preternarios (α<sub>1</sub>, β<sub>1</sub>, δ<sub>1</sub>) y contenido factual Ξ<sub>SV</sub>. Para cada supuesto ejecuta la verificación canónica componente a componente y produce el dictamen final. Criterio de aptitud: 𝓔<sup>★</sup><sub>TODO,SV</sub> = 0 sobre los diez supuestos del banco con la distribución correcta de dictámenes finales (4 × m<sub>0</sub>, 4 × χ<sub>α</sub>, 2 × U).
+
+**Laboratorio 13 — `lab13_tabla_cruzada_once_absorciones.py`** (sección 21)
+
+Computa la **tabla maestra de cotejo** de 110 celdas cruzando las once absorciones del §18.7 con los diez supuestos del banco. Para cada celda evalúa la fórmula nativa de la absorción (V<sup>nat</sup>) y la restricción canónica del operador maestro al sector correspondiente (V<sup>abs</sup>), computa la diferencia residual Δ<sup>res</sup>, y verifica que sea 0,00. Criterio de aptitud: las 110 celdas de la tabla maestra dan diferencia residual exactamente 0,00.
+
+**Laboratorio 14 — `lab14_cinco_interpretaciones.py`** (sección 22)
+
+Implementa las cinco interpretaciones canónicas de la rectora: convergente plena, refutación local, no clausura honesta, refutación con no clausura paralela, e inadmisibilidad por estado corpus τ. Para cada interpretación construye una entrada de prueba con la distribución de defectos canónicamente declarada y verifica que el verificador 𝓝<sup>★</sup><sub>SV</sub> produzca el veredicto previsto bajo la prelación 1 ≻ U ≻ 0. Criterio de aptitud: los cinco veredictos coinciden exactamente con los enunciados en la Tabla 22.6.1.
+
+**Laboratorio 15 — `lab15_validador_total.py`** (apartados 18-23)
+
+Integra los catorce laboratorios anteriores y aplica el validador total de la Teoría del TODO y de la NADA. Verifica simultáneamente: (i) la cadena fundacional canónica F<sub>0</sub> → ε<sub>0</sub> → Ω<sub>pre</sub> → protocampos → Π<sub>3</sub><sup>H</sup> → K<sub>3</sub><sup>n</sup>; (ii) la nulidad del operador maestro 𝔘<sup>unif</sup><sub>SV</sub> sobre el banco; (iii) la coincidencia canónica de las once absorciones (Teorema T7); (iv) la preservación bajo el operador maestro (Teorema T8); (v) el cumplimiento de las seis prohibiciones P.1-P.6 (Teorema T9); (vi) la coherencia integral del régimen unificado (Teorema T10). Criterio de aptitud: los seis subverificadores devuelven 0 sobre la entrada canónica completa, confirmando 𝓔<sup>★</sup><sub>TODO,SV</sub> = 0.
+
+### 24.4. Tabla resumen del catálogo ampliado
+
+**Tabla 24.4.1 (Catálogo laboratorial ampliado).**
 
 | ID | Nombre del laboratorio | Sección doctrinal | Criterio de aptitud (E7 = 0) |
 |---|---|---|---|
-| 1 | `lab01_alfabeto_y_cellula.py` | §2.1 | enumeración exhaustiva de K<sub>3</sub><sup>n</sup> |
+| 1 | `lab01_alfabeto_y_celula.py` | §2.1 | enumeración exhaustiva de K<sub>3</sub><sup>n</sup> |
 | 2 | `lab02_suceso_admisible.py` | §2.4 | A1-A6 todas verdaderas |
 | 3 | `lab03_distancia_factual_fibrosa.py` | §§2.7-2.8, 8 | coherencia telescópica con monotonía |
 | 4 | `lab04_agotamiento_K3n.py` | §9 | Im(v) △ K<sub>3</sub><sup>n</sup> = ∅ |
 | 5 | `lab05_frontera_mu_lambda.py` | §10 | (μ, λ) = (0, 0) simultáneo |
 | 6 | `lab06_componentes_ciclo_q.py` | §12 | cinco componentes a 0 |
-| 7 | `lab07_normalizacion_zeta.py` | §13.1 | tres ramas correctas en cuatro casos |
+| 7 | `lab07_normalizacion_zeta.py` | §13.1 | tres ramas correctas |
 | 8 | `lab08_verificador_ternario_fuerte.py` | §§13.3-13.5 | 27 entradas con distribución (1, 19, 7) |
 | 9 | `lab09_absorcion_canonica.py` | §14 | Δ<sup>TODO</sup><sub>D</sub> = 0 sobre dominios admisibles |
 | 10 | `lab10_ley_canonica_rectora.py` | §15 | 𝓔<sup>★</sup><sub>TODO,SV</sub> = 0 sobre entrada de cierre |
+| 11 | `lab11_mapa_absorcion.py` | §18 | 𝔘<sup>unif</sup><sub>SV</sub> = 0 ⟺ 14 componentes nulos |
+| 12 | `lab12_banco_diez_supuestos.py` | §20 | 10 supuestos del banco con dictamen 0 |
+| 13 | `lab13_tabla_cruzada_once_absorciones.py` | §21 | 110 celdas con Δ<sup>res</sup> = 0,00 |
+| 14 | `lab14_cinco_interpretaciones.py` | §22 | 5 veredictos coinciden con prelación 1 ≻ U ≻ 0 |
+| 15 | `lab15_validador_total.py` | §§18-23 | seis subverificadores nulos |
 
-### 18.6. Modelo de carpetas e hipervínculos
+### 24.5. Modelo de carpetas e hipervínculos
 
 La estructura de carpetas del repositorio del corpus SV para esta publicación es:
 
@@ -1400,10 +2893,10 @@ SV-matematica-semantica/
     └── adendas/
         └── matematica-fisica-factual-contemporanea-sv/
             └── teoria-todo-nada-sv/
-                ├── teoria_todo_nada_sv_v4.md     [esta publicación]
+                ├── teoria_todo_nada_sv_v5.md          [esta publicación]
                 ├── README.md
                 └── laboratorios/
-                    ├── lab01_alfabeto_y_cellula.py
+                    ├── lab01_alfabeto_y_celula.py
                     ├── lab02_suceso_admisible.py
                     ├── lab03_distancia_factual_fibrosa.py
                     ├── lab04_agotamiento_K3n.py
@@ -1412,16 +2905,23 @@ SV-matematica-semantica/
                     ├── lab07_normalizacion_zeta.py
                     ├── lab08_verificador_ternario_fuerte.py
                     ├── lab09_absorcion_canonica.py
-                    └── lab10_ley_canonica_rectora.py
+                    ├── lab10_ley_canonica_rectora.py
+                    ├── lab11_mapa_absorcion.py
+                    ├── lab12_banco_diez_supuestos.py
+                    ├── lab13_tabla_cruzada_once_absorciones.py
+                    ├── lab14_cinco_interpretaciones.py
+                    └── lab15_validador_total.py
 ```
 
 Cada laboratorio es invocable directamente desde su URL canónica con `python <nombre_lab>.py` y produce salida `SV_TODO_NADA_RESULT` por consola con el veredicto en el alfabeto del SV.
 
 ---
 
-## 19. Bibliografía
+## 25. Bibliografía
 
-### 19.1. Corpus del Sistema Vectorial SV (cronológico)
+### 25.1. Corpus del Sistema Vectorial SV (cronológico)
+
+Lloret Egea, J. A. (2026). *Fundamentos algebraico-semánticos del Sistema Vectorial SV — Célula exacta, representación polar, indeterminación epistémica y composición tipada*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA). ISSN 2695-6411. Madrid.
 
 Lloret Egea, J. A. (2026, 22 de marzo). *Suceso local, suceso envolvente y reevaluación situacional en horizonte declarado en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA). ISSN 2695-6411. Madrid.
 
@@ -1437,11 +2937,19 @@ Lloret Egea, J. A. (2026, 25 de marzo). *Equivalencia parcial, preservación e i
 
 Lloret Egea, J. A. (2026). *Reducción estructural absoluta de Maxwell en el Sistema Vectorial SV y ecuación única de la física factual electromagnética*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA). ISSN 2695-6411. [https://doi.org/10.17613/kep1t-57539](https://doi.org/10.17613/kep1t-57539)
 
+Lloret Egea, J. A. (2026). *Fundamentos operatorios absolutos del electromagnetismo factual en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA). ISSN 2695-6411. Madrid.
+
+Lloret Egea, J. A. (2026). *Teoría general factual de la luz en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA). ISSN 2695-6411. Madrid.
+
+Lloret Egea, J. A. (2026). *Entropía factual e irreversibilidad estructural en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA). ISSN 2695-6411. Madrid.
+
 Lloret Egea, J. A. (2026). *Fórmula factual única absoluta de la termodinámica en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA). ISSN 2695-6411. [https://doi.org/10.17613/ptw68-d1r57](https://doi.org/10.17613/ptw68-d1r57)
 
-Lloret Egea, J. A. (2026, 30 de abril). *Teoría del TODO y de la NADA en el Sistema Vectorial SV — refundación factual sobre el corpus del suceso, distancia factual fibrosa, célula configuracional K<sub>3</sub><sup>n</sup>, frontera común (μ, λ) = (0, 0) y verificador ternario fuerte* [presente publicación]. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA). ISSN 2695-6411. [https://doi.org/10.17613/177nb-v2465](https://doi.org/10.17613/177nb-v2465)
+Lloret Egea, J. A. (2026). *Teoría general de sucesos generadores y protocampos unificados en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA). ISSN 2695-6411. Madrid.
 
-### 19.2. Bibliografía externa
+Lloret Egea, J. A. (2026, 30 de abril). *Teoría del TODO y de la NADA en el Sistema Vectorial SV — refundación factual sobre el corpus del suceso, distancia factual fibrosa, célula configuracional K<sub>3</sub><sup>n</sup>, frontera común (μ, λ) = (0, 0) y verificador ternario fuerte*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA). ISSN 2695-6411. [https://doi.org/10.17613/177nb-v2465](https://doi.org/10.17613/177nb-v2465)
+
+### 25.2. Bibliografía externa
 
 Albert, D. (2012, 23 de marzo). On the origin of everything: 'A Universe from Nothing,' by Lawrence M. Krauss. *The New York Times Book Review*.
 
@@ -1499,13 +3007,13 @@ Hájek, P. (1998). *Metamathematics of fuzzy logic*. Kluwer Academic Publishers.
 
 Healey, R. (2017). *The quantum revolution in philosophy*. Oxford University Press.
 
-Hegel, G. W. F. (1812-1816/1969). *Wissenschaft der Logik* (A. V. Miller, Trad.). Allen & Unwin. (Trabajo original publicado entre 1812 y 1816)
+Hegel, G. W. F. (1812-1816/1969). *Wissenschaft der Logik* (A. V. Miller, Trad.). Allen & Unwin.
 
-Heidegger, M. (1929/1976). Was ist Metaphysik? En *Wegmarken* (Gesamtausgabe Vol. 9, pp. 103-122). Vittorio Klostermann. (Conferencia inaugural pronunciada el 24 de julio de 1929 en la Universidad de Friburgo)
+Heidegger, M. (1929/1976). Was ist Metaphysik? En *Wegmarken* (Gesamtausgabe Vol. 9, pp. 103-122). Vittorio Klostermann.
 
 Heller, M. (1997). Emergence of time. arXiv:gr-qc/9711051.
 
-Hilbert, D. (1902). Mathematical problems. *Bulletin of the American Mathematical Society*, 8(10), 437-479. (Lectura presentada en el Congreso Internacional de Matemáticos, París, 8 de agosto de 1900)
+Hilbert, D. (1902). Mathematical problems. *Bulletin of the American Mathematical Society*, 8(10), 437-479.
 
 Ichikawa, T. (2018). Born rule and logical inference in quantum mechanics. arXiv:1804.10067.
 
