@@ -40,7 +40,7 @@ This paper formulates the Theory of EVERYTHING and of NOTHING in the Vectorial S
 
 ## Resumen
 
-La presente publicación formula la Teoría del TODO y de la NADA en el Sistema Vectorial SV como ecuación canónica única de nulidad conjunta sobre el Universo de Sucesos del sistema, refundada sobre el corpus SV del suceso admisible, la distancia factual fibrosa, la célula configuracional K<sub>3</sub><sup>n</sup>, la frontera común de colapso cíclico (μ, λ) = (0, 0) y el verificador ternario fuerte 𝓝<sup>★</sup><sub>SV</sub>. La doctrina se dispone como cadena estructural ascendente —no cronológica— que sube desde el Origen Áureo 𝓔<sub>∅</sub> hasta la ley rectora 𝓔<sup>★</sup><sub>TODO,SV</sub>(Γ<sub>U</sub>; τ) = 0 atravesando, en orden estricto, la retrofundación de 𝓕<sub>0</sub>, el Universo de Sucesos 𝕌<sup>SV</sup><sub>suc</sub>, el Suceso Activador de Universo de Sucesos SAUS, la trayectoria universal del ciclo T<sub>q</sub>, la distancia factual fibrosa 𝓓<sup>SV</sup><sub>Φ</sub>(Γ<sub>q</sub>), el agotamiento configuracional Im(v) = K<sub>3</sub><sup>n</sup>, la frontera común de colapso cíclico (μ, λ) = (0, 0), el Suceso Reactivador de Universo de Sucesos SRUS, las componentes del ciclo { S<sub>q</sub>, Δ<sup>Φ</sup><sub>q</sub>, 𝓐<sub>q</sub>, 𝓒<sub>q</sub>, 𝓡<sub>q</sub> }, la normalización de defectos ζ<sub>SV</sub> y el indicador δ<sub>SV</sub>, el verificador ternario fuerte 𝓝<sup>★</sup><sub>SV</sub> y la absorción de leyes factuales admisibles del SV por proyección canónica Π<sub>D</sub>. El documento es autónomo: cada objeto utilizado en la cadena se define dentro del documento, con ejemplos sobre la célula canónica SV(9,3) sobre el alfabeto ternario Σ = { 0, 1, U }. La espiral factual creciente sobre U<sub>0</sub>, U<sub>1</sub>, …, U<sub>k</sub> es estructural y no temporal: cada vuelta representa cierre de un Universo de Sucesos, agotamiento configuracional, colapso común y nueva apertura por Suceso Reactivador. La progresión es de subordinación operatoria, no de evolución cronológica. La Teoría del TODO y la Teoría de la NADA quedan integradas en una sola ecuación rectora sin segunda fórmula. La NADA admisible del SV se identifica con dos lecturas internas y nunca con vacío sustancial: la condición 𝓔<sub>∅</sub> del Origen Áureo, rango mínimo sin contenido, y la condición (μ, λ) = (0, 0) de la frontera común de colapso cíclico, cierre interno sin resto exterior formulable. Se demuestran seis teoremas (coherencia telescópica de 𝓓<sup>SV</sup><sub>Φ</sub>; equivalencia de las dos lecturas internas de la NADA admisible; fortaleza del verificador 𝓝<sup>★</sup><sub>SV</sub>; unicidad del veredicto en { 0, 1, U }; absorción canónica por proyección; cierre de la Teoría del TODO).
+Esta publicación formula la Teoría del TODO y de la NADA en el Sistema Vectorial SV como ecuación canónica única de nulidad conjunta sobre el Universo de Sucesos del sistema, refundada sobre el corpus SV del suceso admisible, la distancia factual fibrosa, la célula configuracional K<sub>3</sub><sup>n</sup>, la frontera común de colapso cíclico (μ, λ) = (0, 0) y el verificador ternario fuerte 𝓝<sup>★</sup><sub>SV</sub>. La doctrina se dispone como cadena estructural ascendente —no cronológica— que sube desde el Origen Áureo 𝓔<sub>∅</sub> hasta la ley rectora 𝓔<sup>★</sup><sub>TODO,SV</sub>(Γ<sub>U</sub>; τ) = 0 atravesando, en orden estricto, la retrofundación de 𝓕<sub>0</sub>, el Universo de Sucesos 𝕌<sup>SV</sup><sub>suc</sub>, el Suceso Activador de Universo de Sucesos SAUS, la trayectoria universal del ciclo T<sub>q</sub>, la distancia factual fibrosa 𝓓<sup>SV</sup><sub>Φ</sub>(Γ<sub>q</sub>), el agotamiento configuracional Im(v) = K<sub>3</sub><sup>n</sup>, la frontera común de colapso cíclico (μ, λ) = (0, 0), el Suceso Reactivador de Universo de Sucesos SRUS, las componentes del ciclo { S<sub>q</sub>, Δ<sup>Φ</sup><sub>q</sub>, 𝓐<sub>q</sub>, 𝓒<sub>q</sub>, 𝓡<sub>q</sub> }, la normalización de defectos ζ<sub>SV</sub> y el indicador δ<sub>SV</sub>, el verificador ternario fuerte 𝓝<sup>★</sup><sub>SV</sub> y la absorción de leyes factuales admisibles del SV por proyección canónica Π<sub>D</sub>. El documento es autónomo: cada objeto utilizado en la cadena se define dentro del documento, con ejemplos sobre la célula canónica SV(9,3) sobre el alfabeto ternario Σ = { 0, 1, U }. La espiral factual creciente sobre U<sub>0</sub>, U<sub>1</sub>, …, U<sub>k</sub> es estructural y no temporal: cada vuelta representa cierre de un Universo de Sucesos, agotamiento configuracional, colapso común y nueva apertura por Suceso Reactivador. La progresión es de subordinación operatoria, no de evolución cronológica. La Teoría del TODO y la Teoría de la NADA quedan integradas en una sola ecuación rectora sin segunda fórmula. La NADA admisible del SV se identifica con dos lecturas internas y nunca con vacío sustancial: la condición 𝓔<sub>∅</sub> del Origen Áureo, rango mínimo sin contenido, y la condición (μ, λ) = (0, 0) de la frontera común de colapso cíclico, cierre interno sin resto exterior formulable. Se demuestran seis teoremas (coherencia telescópica de 𝓓<sup>SV</sup><sub>Φ</sub>; equivalencia de las dos lecturas internas de la NADA admisible; fortaleza del verificador 𝓝<sup>★</sup><sub>SV</sub>; unicidad del veredicto en { 0, 1, U }; absorción canónica por proyección; cierre de la Teoría del TODO).
 
 **Palabras clave:** Sistema Vectorial SV; Teoría del TODO; Teoría de la NADA; Origen Áureo 𝓔<sub>∅</sub>; Universo de Sucesos 𝕌<sup>SV</sup><sub>suc</sub>; suceso admisible; célula configuracional SV(9,3); alfabeto ternario { 0, 1, U }; distancia factual fibrosa; agotamiento configuracional K<sub>3</sub><sup>n</sup>; frontera común de colapso cíclico (μ, λ) = (0, 0); verificador ternario fuerte 𝓝<sup>★</sup><sub>SV</sub>; proyección canónica Π<sub>D</sub>; ecuación canónica rectora 𝓔<sup>★</sup><sub>TODO,SV</sub>(Γ<sub>U</sub>; τ) = 0.
 
@@ -90,7 +90,7 @@ Carroll (2010) ha articulado una posición materialista temporal según la cual 
 
 La tradición relacional —desde Mach hasta Connes y Rovelli (1994), pasando por Page y Wootters— ha argumentado que el tiempo es propiedad emergente de correlaciones internas del sistema cuántico (Butterfield y Isham, 1999; Heller, 1997; Martinetti, 2012; Oriti, 2021; Gambini y Pullin, 2004). Trabajos recientes (Ghasemi, 2025) formalizan el tiempo emergente sobre marcos relacionales multiobservador.
 
-El Sistema Vectorial SV no asume tiempo soberano. Toda ordenación del corpus es **subordinación operatoria**, no sucesión cronológica. La flecha → de la cadena ascendente y de la espiral factual creciente es flecha de dependencia formal de despliegue interno, no flecha temporal. Esto se enuncia explícitamente en el documento canónico de la imagen y se desarrolla en cada apartado del presente trabajo. La doctrina es estructuralmente compatible con las posiciones relacionales de Connes-Rovelli y de Oriti pero no requiere un sustrato cuántico para sostenerse: la cadencia interna del SV es operativa, no termodinámica ni cuántica.
+El Sistema Vectorial SV no asume tiempo soberano. Toda ordenación del corpus es **subordinación operatoria**, no sucesión cronológica. La flecha → de la cadena ascendente y de la espiral factual creciente es flecha de dependencia formal de despliegue interno, no flecha temporal. Esto se enuncia explícitamente en el documento canónico de la imagen y se desarrolla en cada apartado del trabajo. La doctrina es estructuralmente compatible con las posiciones relacionales de Connes-Rovelli y de Oriti pero no requiere un sustrato cuántico para sostenerse: la cadencia interna del SV es operativa, no termodinámica ni cuántica.
 
 ### 1.5. Modelos discretos y reescritura
 
@@ -127,9 +127,9 @@ El Sistema Vectorial SV se inscribe en la línea axiomatizadora del sexto proble
 | Cadena fundacional | landscape | espumas spin | ruliad | dominios algebraicos | cadena ascendente 13 niveles |
 | Cierre formal | ausente | parcial | parcial | composicional | 𝓔<sup>★</sup><sub>TODO,SV</sub> = 0 |
 
-### 1.9. Posición de la presente publicación
+### 1.9. Posición de esta publicación
 
-La presente publicación no propone una alternativa empírica a las teorías de la física de altas energías, ni pretende competir experimentalmente con la cromodinámica cuántica o la cosmología observacional. Su objeto es **doctrinal y estructural**: fija la Teoría del TODO y de la NADA del Sistema Vectorial SV como ecuación canónica única de nulidad conjunta sobre el Universo de Sucesos del sistema, refundada sobre el corpus SV del suceso admisible (Lloret Egea, 2026, doc. teoría rigurosa del suceso admisible) y articulada mediante objetos formalizados en el presente documento: la distancia factual fibrosa, la célula configuracional K<sub>3</sub><sup>n</sup>, las magnitudes de cierre (μ, λ) y el verificador ternario fuerte 𝓝<sup>★</sup><sub>SV</sub>. Se inscribe en la tradición de axiomatización de Hilbert, contrasta con las posiciones probabilísticas, temporalistas y geometrizantes de las teorías de la unificación contemporáneas, y se articula como cadena ascendente de subordinación operatoria estructuralmente cerrada en un único enunciado terminal.
+Este documento de investigación (en el plano teórico y laboratorial de la Matemática y de la Física) no propone una alternativa empírica a las teorías de la física de altas energías, ni pretende competir experimentalmente con la cromodinámica cuántica o la cosmología observacional. Su objeto es **doctrinal y estructural**: fija la Teoría del TODO y de la NADA del Sistema Vectorial SV como ecuación canónica única de nulidad conjunta sobre el Universo de Sucesos del sistema, refundada sobre el corpus SV del suceso admisible (Lloret Egea, 2026, doc. teoría rigurosa del suceso admisible) y articulada mediante objetos formalizados en este documento: la distancia factual fibrosa, la célula configuracional K<sub>3</sub><sup>n</sup>, las magnitudes de cierre (μ, λ) y el verificador ternario fuerte 𝓝<sup>★</sup><sub>SV</sub>. Se inscribe en la tradición de axiomatización de Hilbert, contrasta con las posiciones probabilísticas, temporalistas y geometrizantes de las teorías de la unificación contemporáneas, y se articula como cadena ascendente de subordinación operatoria estructuralmente cerrada en un único enunciado terminal.
 
 ---
 ## 1bis. Naturaleza factual del frame en el Sistema Vectorial SV
@@ -367,7 +367,7 @@ Las derivadas estructurales del corpus —∂<sub>ν</sub><sup>SV</sup>B, ∂<su
 
 **Distinción canónica entre repetición y reescritura.** Dos sucesos consecutivos indexados por ν<sub>n</sub> y ν<sub>n+1</sub> sobre la trayectoria pueden producir **idéntica estructura de estado** —ciclo de suceso— sin que ello rompa la inmutabilidad retrospectiva. La igualdad estructural de dos inscripciones consecutivas no es identidad de suceso: el ordinal append-only ν avanza de ν<sub>n</sub> a ν<sub>n+1</sub> sobre el mismo soporte celular, conservando la auditoría canónica de cada inscripción en su instante ordinal. La estructura de estado puede repetirse; el suceso no se reescribe.
 
-**Articulación con el ciclo q.** El ciclo q formalizado en el §12 del presente documento, con sus cinco componentes canónicos { S<sub>q</sub>, Δ<sup>Φ</sup><sub>q</sub>, 𝓐<sub>q</sub>, 𝓒<sub>q</sub>, 𝓡<sub>q</sub> }, articula la estructura de estado repetible bajo la disciplina append-only: el ciclo q describe la **morfología recurrente** de la trayectoria sobre el ordinal ν, conservando la auditoría de cada suceso ν<sub>n</sub> sin alteración retrospectiva.
+**Articulación con el ciclo q.** El ciclo q formalizado en el §12 del aquí, con sus cinco componentes canónicos { S<sub>q</sub>, Δ<sup>Φ</sup><sub>q</sub>, 𝓐<sub>q</sub>, 𝓒<sub>q</sub>, 𝓡<sub>q</sub> }, articula la estructura de estado repetible bajo la disciplina append-only: el ciclo q describe la **morfología recurrente** de la trayectoria sobre el ordinal ν, conservando la auditoría de cada suceso ν<sub>n</sub> sin alteración retrospectiva.
 
 **Consecuencia operativa.** La trayectoria del Sistema Vectorial SV es siempre append-only y nunca retrospectivamente revisable. La auditoría de cada suceso queda fijada en su instante ordinal y conservada sin modificación posterior, lo cual cumple canónicamente la prohibición P.1 (no tiempo soberano) del corpus enunciada en el §19.1 del documento de teoría general de sucesos generadores y protocampos unificados (Lloret Egea, 2026).
 
@@ -379,7 +379,7 @@ Cuando un fenómeno admite más predicados estructurales independientes de los d
 
 **Vía (b) — Composición tipada de células.** Por el §7 del documento canónico de fundamentos algebraico-semánticos (Lloret Egea, 2026), concatenación de células independientes mediante el operador canónico de composición. Por el §3-§5 del documento canónico de álgebra de composición intercelular del marco SV (Lloret Egea, 2026), la transmisión intercelular se articula mediante **parámetro puente** y **grafo de células** con condiciones de buena formación. Cada célula componente preserva su gramática algebraica; la composición admite los operadores canónicos de dominancia homogénea, compuerta jerárquica, supervisión meta y veto declarados en el §7.5 del documento fundacional.
 
-**Vía (c) — Sucesión factual extensa.** Encadenamiento de inscripciones S<sub>0</sub>, S<sub>1</sub>, …, S<sub>k</sub> mediante sucesos admisibles e<sub>0</sub>, e<sub>1</sub>, …, e<sub>k−1</sub> conforme a las cuatro condiciones C1-C4 de cadena admisible declaradas en el §2.10 del presente documento. La sucesión opera sobre el ordinal canónico append-only ν del Sistema Vectorial SV (§19.1 del documento de sucesos generadores y protocampos unificados, Lloret Egea, 2026), sin recurso a parámetro temporal soberano. Cada inscripción adicional añade veredictos canónicos al despliegue del fenómeno.
+**Vía (c) — Sucesión factual extensa.** Encadenamiento de inscripciones S<sub>0</sub>, S<sub>1</sub>, …, S<sub>k</sub> mediante sucesos admisibles e<sub>0</sub>, e<sub>1</sub>, …, e<sub>k−1</sub> conforme a las cuatro condiciones C1-C4 de cadena admisible declaradas en el §2.10 del este documento. La sucesión opera sobre el ordinal canónico append-only ν del Sistema Vectorial SV (§19.1 del documento de sucesos generadores y protocampos unificados, Lloret Egea, 2026), sin recurso a parámetro temporal soberano. Cada inscripción adicional añade veredictos canónicos al despliegue del fenómeno.
 
 Las tres vías son canónicamente compatibles. Cualquier combinación —aumento de granularidad combinado con composición tipada, sucesión factual sobre célula compuesta, etc.— preserva los cinco invariantes doctrinales del §1bis.5 y mantiene la subordinación al operador maestro. La elección concreta queda determinada por el paquete de predicados estructurales del fenómeno y por la disciplina canónica declarada en el estado corpus τ.
 
@@ -413,7 +413,7 @@ La operación del motor normativo se reduce a tres conteos enteros N<sub>0</sub>
 
 **Términos canónicos del corpus que no son estadísticos.** Por evitación de lectura ambigua, los siguientes términos del corpus tienen significado exclusivamente canónico y no admiten lectura estadística: **calibración metrológica** (compuerta canónica ℘<sub>SV</sub> que mapea unidades factuales del SV a SI 2019, no ajuste estadístico); **datos preternarios** (magnitudes (α<sub>i</sub>, β<sub>i</sub>) sobre el dominio Ω<sub>pre</sub> del corpus, no observaciones empíricas); **convergencia ternaria** (anulación canónica de card(U<sub>irr</sub>), no convergencia probabilística); **acumulación A<sub>i</sub>(n) y variación V<sub>i</sub>(δ, n)** (magnitudes monótonas no decrecientes del corpus, no sumas estadísticas); **cobertura sectorial** (cobertura canónica de los siete sectores primarios, no *coverage* estadístico); **tipología Σ<sub>k</sub>** (clase morfológica del banco canónico, no clase estadística).
 
-**Estatuto canónico de la cláusula.** La presente cláusula no es énfasis retórico ni redundancia: es la **especificación operativa** de las prohibiciones constitutivas P.2 y P.4 del corpus. Cualquier deriva, lectura, traducción o aplicación del Sistema Vectorial SV que reintrodujese probabilidad, estadística, minería de datos o aprendizaje inductivo —aunque fuera bajo nomenclatura distinta— quebraría la subordinación al operador maestro 𝓔<sup>★</sup><sub>TODO,SV</sub> y rompería la disciplina canónica del corpus. La cláusula es por tanto **norma de lectura y de uso**, no sólo norma de redacción.
+**Estatuto canónico de la cláusula.** Esta cláusula no es énfasis retórico ni redundancia: es la **especificación operativa** de las prohibiciones constitutivas P.2 y P.4 del corpus. Cualquier deriva, lectura, traducción o aplicación del Sistema Vectorial SV que reintrodujese probabilidad, estadística, minería de datos o aprendizaje inductivo —aunque fuera bajo nomenclatura distinta— quebraría la subordinación al operador maestro 𝓔<sup>★</sup><sub>TODO,SV</sub> y rompería la disciplina canónica del corpus. La cláusula es por tanto **norma de lectura y de uso**, no sólo norma de redacción.
 
 ---
 
@@ -423,17 +423,17 @@ Este apartado define todos los objetos que la cadena ascendente del Sistema Vect
 
 ### 2.0. Identificación canónica de la ecuación rectora — 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub>
 
-**Decisión canónica de la presente publicación.** La ley canónica rectora de la Teoría del TODO y de la NADA en el Sistema Vectorial SV se denota indistintamente por dos nombres complementarios:
+**Decisión canónica de la esta publicación.** La ley canónica rectora de la Teoría del TODO y de la NADA en el Sistema Vectorial SV se denota indistintamente por dos nombres complementarios:
 
 ```math
 \boxed{ \;\mathcal{E}^{\star}_{TODO,\,SV}(\Gamma_{U};\,\tau) \;\equiv\; \mathfrak{U}^{\mathrm{unif}}_{SV}\bigl(\Phi^{1},\ldots,\Phi^{7};\,\{\mathcal{S}_{k}\}_{k=1,\ldots,7}\bigr) \;=\; 0.\; }
 ```
 
-El nombre **𝓔<sup>★</sup><sub>TODO,SV</sub>(Γ<sub>U</sub>; τ)** es el nombre **doctrinal** de la ecuación: liga la imagen original del documento canónico de portada a las dos lecturas internas de la NADA admisible del SV, esto es, la condición 𝓔<sub>∅</sub> del Origen Áureo y la condición (μ, λ) = (0, 0) de la frontera común de colapso cíclico. Este nombre es el que la presente publicación invoca cuando la lectura es estructural-doctrinal.
+El nombre **𝓔<sup>★</sup><sub>TODO,SV</sub>(Γ<sub>U</sub>; τ)** es el nombre **doctrinal** de la ecuación: liga la imagen original del documento canónico de portada a las dos lecturas internas de la NADA admisible del SV, esto es, la condición 𝓔<sub>∅</sub> del Origen Áureo y la condición (μ, λ) = (0, 0) de la frontera común de colapso cíclico. Este nombre es el que el documento de investigación invoca cuando la lectura es estructural-doctrinal.
 
-El nombre **𝔘<sup>unif</sup><sub>SV</sub>(Φ¹, …, Φ⁷; {𝒮<sub>k</sub>})** es el nombre **algebraico** de la ecuación, tal como queda canonizado por el corpus SV de la teoría general de sucesos generadores y protocampos unificados (Lloret Egea, 2026, Definición §11.9). Este nombre es el que la presente publicación invoca cuando la lectura es operatoria-sectorial.
+El nombre **𝔘<sup>unif</sup><sub>SV</sub>(Φ¹, …, Φ⁷; {𝒮<sub>k</sub>})** es el nombre **algebraico** de la ecuación, tal como queda canonizado por el corpus SV de la teoría general de sucesos generadores y protocampos unificados (Lloret Egea, 2026, Definición §11.9). Este nombre es el que la aquí se invoca cuando la lectura es operatoria-sectorial.
 
-**No son dos ecuaciones distintas.** Son **la misma ecuación canónica única** del Sistema Vectorial SV bajo dos nombres que cumplen funciones complementarias: el nombre doctrinal preserva el ligamen con la imagen rectora original; el nombre algebraico preserva la identidad operatoria con el corpus ya cerrado. La presente publicación absorbe la canonización del corpus y mantiene, simultáneamente, el nombre doctrinal por su carácter expresivo ligado a la cadena ascendente desde 𝓔<sub>∅</sub>.
+**No son dos ecuaciones distintas.** Son **la misma ecuación canónica única** del Sistema Vectorial SV bajo dos nombres que cumplen funciones complementarias: el nombre doctrinal preserva el ligamen con la imagen rectora original; el nombre algebraico preserva la identidad operatoria con el corpus ya cerrado. La publicación absorbe la canonización del corpus y mantiene, simultáneamente, el nombre doctrinal por su carácter expresivo ligado a la cadena ascendente desde 𝓔<sub>∅</sub>.
 
 **Justificación canónica de la doble denominación.** Tres razones doctrinales motivan la conservación simultánea de ambos nombres:
 
@@ -468,7 +468,7 @@ Esto significa que la **célula canónica del SV** es la pareja (n, b) con la re
 
 **Estatuto canónico de la diferencia.** Las dos notaciones son **variaciones circunstanciales del mismo objeto canónico**. Designan la misma célula 𝒮<sub>9</sub> = {0, 1, U}<sup>9</sup> bajo dos órdenes notacionales distintos: el primero antepone n y postpone b; el segundo antepone b y postpone n. El orden notacional no altera la cardinalidad 3⁹ = 19 683, no altera la estructura algebraico-semántica, no altera la representación polar visible y no altera ninguna fórmula absoluta del corpus.
 
-**Convención adoptada en la presente publicación.** Por consistencia con el documento canónico de fundamentos algebraico-semánticos —que es el documento ontológico primario del SV—, la presente publicación utiliza la notación **SV(9, 3)**. Las apariciones de SV(3, 9) en el corpus se leen, sin alteración alguna, como referencias a la misma célula 𝒮<sub>9</sub>.
+**Convención adoptada en la esta publicación.** Por consistencia con el documento canónico de fundamentos algebraico-semánticos —que es el documento ontológico primario del SV—, la publicación utiliza la notación **SV(9, 3)**. Las apariciones de SV(3, 9) en el corpus se leen, sin alteración alguna, como referencias a la misma célula 𝒮<sub>9</sub>.
 
 **Tabla resumen de la célula canónica.**
 
@@ -556,7 +556,7 @@ H \;=\; (\, I_{H},\; \preceq_{H},\; X_{H},\; \mathcal{A}_{H} \,),
 
 donde I<sub>H</sub> es el **dominio activo de índices, posiciones o regiones** bajo jurisdicción de lectura; ⪯<sub>H</sub> es una **relación interna de precedencia, compatibilidad o admisibilidad**; X<sub>H</sub> es el **espacio de configuraciones legibles** bajo el horizonte; y 𝓐<sub>H</sub> es una **estructura de observables** suficiente para sostener comparaciones compatibles entre configuraciones.
 
-**Definición 2.4.2 (Horizonte canónico de primer nivel).** Un horizonte H se dice **canónico de primer nivel** si X<sub>H</sub> ⊆ Σ<sup>9</sup>. Éste será el régimen de referencia del presente trabajo.
+**Definición 2.4.2 (Horizonte canónico de primer nivel).** Un horizonte H se dice **canónico de primer nivel** si X<sub>H</sub> ⊆ Σ<sup>9</sup>. Éste será el régimen de referencia de este trabajo.
 
 **Ejemplo 2.4.3 (Horizonte sobre SV(9,3)).** Un horizonte canónico para la célula SV(9,3) puede definirse con I<sub>H</sub> = { 1, 2, …, 9 } —las nueve posiciones de la célula—, ⪯<sub>H</sub> = identidad, X<sub>H</sub> = Σ<sup>9</sup> y 𝓐<sub>H</sub> = { F<sub>uno</sub> } donde F<sub>uno</sub>(S) cuenta el número de posiciones de S afirmadas con valor 1. Sobre las tres configuraciones del Ejemplo 2.2.4:
 
@@ -830,7 +830,7 @@ El **Origen Áureo de la Teoría del TODO** se denota 𝓔<sub>∅</sub> y se de
 
 ### 3.2. Determinación canónica por las cinco negaciones
 
-𝓔<sub>∅</sub> queda íntegramente determinado por las cinco negaciones explícitas declaradas a continuación como definición interna de la presente publicación.
+𝓔<sub>∅</sub> queda íntegramente determinado por las cinco negaciones explícitas declaradas a continuación como definición interna de la esta publicación.
 
 **No es suceso. No es sustancia. No es entidad. No es mecanismo. No es origen físico.**
 
@@ -902,7 +902,7 @@ Comprende toda entidad S que cumple simultáneamente la cláusula Suceso<sub>SV<
 
 ### 5.2. Caracterización doctrinal
 
-𝕌<sup>SV</sup><sub>suc</sub> es la **Totalidad máxima de sucesos formulables del SV**. Queda determinada por dos condiciones canónicas inexcusables enunciadas a continuación como definición interna de la presente publicación.
+𝕌<sup>SV</sup><sub>suc</sub> es la **Totalidad máxima de sucesos formulables del SV**. Queda determinada por dos condiciones canónicas inexcusables enunciadas a continuación como definición interna de la publicación.
 
 **No cerrado por axiomas adicionales.**
 
@@ -1660,7 +1660,7 @@ La NADA admisible del Sistema Vectorial SV no es vacío sustancial, no es ausenc
 
 Dos modos canónicos articulan exactamente la NADA admisible del SV.
 
-**Modo M<sub>N</sub>1 — La NADA antes del despliegue: 𝓔<sub>∅</sub> como rango mínimo sin contenido.** El primer modo es 𝓔<sub>∅</sub>, el Origen Áureo del apartado 3, definido operatoriamente por las cinco negaciones explícitas declaradas como definición interna de la presente publicación: no es suceso, no es sustancia, no es entidad, no es mecanismo, no es origen físico. 𝓔<sub>∅</sub> es la **condición previa al despliegue** del aparato canónico: el rango mínimo sin contenido positivo desde el cual la cadena ascendente arranca. No es "el vacío" porque no es ni siquiera entidad: es ausencia operatoria de inscripción factual.
+**Modo M<sub>N</sub>1 — La NADA antes del despliegue: 𝓔<sub>∅</sub> como rango mínimo sin contenido.** El primer modo es 𝓔<sub>∅</sub>, el Origen Áureo del apartado 3, definido operatoriamente por las cinco negaciones explícitas declaradas como definición interna de la publicación: no es suceso, no es sustancia, no es entidad, no es mecanismo, no es origen físico. 𝓔<sub>∅</sub> es la **condición previa al despliegue** del aparato canónico: el rango mínimo sin contenido positivo desde el cual la cadena ascendente arranca. No es "el vacío" porque no es ni siquiera entidad: es ausencia operatoria de inscripción factual.
 
 **Modo M<sub>N</sub>2 — La NADA después del cierre: (μ, λ) = (0, 0) como cierre interno sin resto exterior.** El segundo modo es la frontera común de colapso cíclico (μ, λ) = (0, 0) del apartado 10, donde la magnitud de cierre interno μ y la magnitud de borde λ se anulan simultáneamente. Es la **condición posterior al cierre cíclico**: el cierre interno sin resto exterior formulable. Cuando ambas magnitudes alcanzan cero al mismo tiempo, el ciclo q ha cerrado sin que quede contenido factual residual fuera del horizonte. No es "el vacío" tampoco porque no es ausencia: es **clausura operatoria sin remanente**.
 
@@ -1708,7 +1708,7 @@ Por la identificación canónica fijada en el apartado 2.0, la ecuación rectora
 \mathcal{E}^{\star}_{TODO,\,SV}(\Gamma_{U};\,\tau) \;\equiv\; \mathfrak{U}^{\mathrm{unif}}_{SV}\bigl(\Phi^{1},\ldots,\Phi^{7};\,\{\mathcal{S}_{k}\}_{k=1,\ldots,7}\bigr).
 ```
 
-El nombre **𝓔<sup>★</sup><sub>TODO,SV</sub>** es el nombre doctrinal: liga la ecuación a la cadena ascendente desde 𝓔<sub>∅</sub> y al sello ★ del cierre canónico. El nombre **𝔘<sup>unif</sup><sub>SV</sub>** es el nombre algebraico canonizado por el corpus SV: liga la ecuación a la descomposición operatoria en siete sectores y siete identidades intersectoriales (Lloret Egea, 2026, doc. teoría general de sucesos generadores y protocampos unificados, Definición §11.9). Las dos lecturas son **la misma ecuación canónica única**, no dos ecuaciones paralelas: el lector que llega por la cadena ascendente del presente documento y el lector que llega por la canonización algebraica del corpus se encuentran en el mismo enunciado terminal.
+El nombre **𝓔<sup>★</sup><sub>TODO,SV</sub>** es el nombre doctrinal: liga la ecuación a la cadena ascendente desde 𝓔<sub>∅</sub> y al sello ★ del cierre canónico. El nombre **𝔘<sup>unif</sup><sub>SV</sub>** es el nombre algebraico canonizado por el corpus SV: liga la ecuación a la descomposición operatoria en siete sectores y siete identidades intersectoriales (Lloret Egea, 2026, doc. teoría general de sucesos generadores y protocampos unificados, Definición §11.9). Las dos lecturas son **la misma ecuación canónica única**, no dos ecuaciones paralelas: el lector que llega por la cadena ascendente del documento y el lector que llega por la canonización algebraica del corpus se encuentran en el mismo enunciado terminal.
 
 ### 17.6. Formas equivalentes de la ecuación rectora canónica y demostración numérica
 
@@ -1879,7 +1879,7 @@ Bajo esta ecuación, el TODO operatorio del SV y la NADA admisible del SV en sus
 
 ## 18. Mapa de subordinación operatoria del corpus del Sistema Vectorial SV
 
-La presente publicación absorbe doctrinalmente todo el corpus del Sistema Vectorial SV. Esto exige declarar explícitamente la **subordinación operatoria** de cada doctrina absorbida bajo la ecuación rectora 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub> = 0 fijada en el apartado 2.0.
+ Esta publicación absorbe doctrinalmente todo el corpus del Sistema Vectorial SV. Esto exige declarar explícitamente la **subordinación operatoria** de cada doctrina absorbida bajo la ecuación rectora 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub> = 0 fijada en el apartado 2.0.
 
 ### 18.1. Cadena fundacional canónica del corpus
 
@@ -1983,7 +1983,7 @@ Las tres equivalencias E1, E2, E3 cierran la identificación canónica 𝓔<sup>
 
 ### 18.7. Tabla canónica de absorciones declaradas en el corpus
 
-El §18 del corpus de teoría general de sucesos generadores y protocampos unificados declara explícitamente once absorciones canónicas del operador maestro. La presente publicación las adopta literalmente.
+El §18 del corpus de teoría general de sucesos generadores y protocampos unificados declara explícitamente once absorciones canónicas del operador maestro. La publicación las adopta literalmente.
 
 **Tabla 18.7.1 (Las once absorciones canónicas del corpus).**
 
@@ -2006,7 +2006,7 @@ Cada absorción produce, sobre toda configuración admisible, **idénticamente l
 ---
 ## 19. Fórmulas absorbidas: las once doctrinas canónicas del corpus
 
-Cada doctrina absorbida en el corpus del Sistema Vectorial SV tiene una **fórmula nativa** declarada en su publicación canónica de origen. La presente publicación absorbe estas once fórmulas mediante proyección Π<sub>D</sub> hacia el operador maestro 𝔘<sup>unif</sup><sub>SV</sub> ≡ 𝓔<sup>★</sup><sub>TODO,SV</sub>. Cada fórmula nativa queda anclada al corpus con cita exacta, sector(es) activados y condición de equivalencia con la restricción del operador maestro al sector correspondiente.
+Cada doctrina absorbida en el corpus del Sistema Vectorial SV tiene una **fórmula nativa** declarada en su publicación canónica de origen. La publicación absorbe estas once fórmulas mediante proyección Π<sub>D</sub> hacia el operador maestro 𝔘<sup>unif</sup><sub>SV</sub> ≡ 𝓔<sup>★</sup><sub>TODO,SV</sub>. Cada fórmula nativa queda anclada al corpus con cita exacta, sector(es) activados y condición de equivalencia con la restricción del operador maestro al sector correspondiente.
 
 ### 19.1. Maxwell factual — 𝔼<sub>SV</sub>(𝕏<sub>SV</sub>; 𝕐<sub>SV</sub>; ℂ<sub>SV</sub>; J<sub>SV</sub>) = 0
 
@@ -2225,7 +2225,7 @@ de donde, por las once absorciones individuales, **cada doctrina del corpus prod
 
 El banco numérico canónico del Sistema Vectorial SV está declarado en el §17 del documento canónico de teoría general de sucesos generadores y protocampos unificados (Lloret Egea, 2026). Comprende **diez supuestos** sobre la célula canónica SV(9, 3) que cubren las diez tipologías morfológicas Σ<sub>1</sub> a Σ<sub>10</sub> del corpus y los tres dictámenes finales canónicos del codominio { m<sub>0</sub>, χ<sub>α</sub>, U }.
 
-La presente publicación **transcribe literalmente** los diez supuestos del banco canónico, sin alteración. Diseñar otro banco constituiría desviación de la canonización del corpus. El banco original está probado a estrés sobre las tres tipologías de dictamen y sobre las diez tipologías morfológicas, cubriendo casos convergentes puros, mesetas, exploratorios, bimodales, multimodales y umbrales tardíos.
+Este trabajo **transcribe literalmente** los diez supuestos del banco canónico, sin alteración. Diseñar otro banco constituiría desviación de la canonización del corpus. El banco original está probado a estrés sobre las tres tipologías de dictamen y sobre las diez tipologías morfológicas, cubriendo casos convergentes puros, mesetas, exploratorios, bimodales, multimodales y umbrales tardíos.
 
 ### 20.1. Notación canónica del banco
 
@@ -2458,7 +2458,7 @@ Los diez supuestos del banco satisfacen 𝓔<sup>★</sup><sub>TODO,SV</sub> = 0
 ---
 ## 21. Tabla maestra de cotejo: las once absorciones evaluadas sobre los diez supuestos del banco canónico
 
-El presente apartado constituye el **núcleo verificacional** de la presente publicación. Cruza las **once absorciones** declaradas en el §18.7 con los **diez supuestos del banco canónico** del §20, produciendo una tabla maestra de **110 celdas** en la que cada celda mide la diferencia residual entre el valor de la fórmula nativa de la doctrina absorbida y el valor de la misma fórmula evaluada como restricción del operador maestro 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub>.
+Este apartado constituye el **núcleo verificacional** de la publicación. Cruza las **once absorciones** declaradas en el §18.7 con los **diez supuestos del banco canónico** del §20, produciendo una tabla maestra de **110 celdas** en la que cada celda mide la diferencia residual entre el valor de la fórmula nativa de la doctrina absorbida y el valor de la misma fórmula evaluada como restricción del operador maestro 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub>.
 
 ### 21.1. Estructura de la tabla maestra
 
@@ -2880,7 +2880,7 @@ Las cinco interpretaciones del apartado satisfacen las seis prohibiciones consti
 ---
 ## 23. Teoremas de coincidencia, preservación, cumplimiento y coherencia
 
-Cuatro teoremas canónicos cierran rigurosamente la absorción multidoctrinal del corpus. Los cuatro teoremas se transcriben con sus enunciados literales del corpus de teoría general de sucesos generadores y protocampos unificados (Lloret Egea, 2026, §§18.1, 19.1, 20.1) y se complementan con un teorema de preservación bajo el operador maestro propio de la presente publicación.
+Cuatro teoremas canónicos cierran rigurosamente la absorción multidoctrinal del corpus. Los cuatro teoremas se transcriben con sus enunciados literales del corpus de teoría general de sucesos generadores y protocampos unificados (Lloret Egea, 2026, §§18.1, 19.1, 20.1) y se complementan con un teorema de preservación bajo el operador maestro propio de la publicación.
 
 ### 23.1. Teorema T7 — Coincidencia canónica de absorciones
 
@@ -2942,7 +2942,7 @@ La conjunción de (a), (b) y (c) cubre exhaustivamente 𝓛<sup>adm</sup><sub>SV
 
 **P.6 — No clausura espuria.** Las situaciones de indeterminación honesta se preservan con marca U: el sector 5 produce U honesta cuando T no converge; las configuraciones con jacobiano factual J<sub>SV</sub> con det(J<sub>SV</sub>) = 0 activan frontera factual sin clausurar espuriamente; el programa canónico preserva la frontera exterior como U legítima conforme a G.3; las clases factuales emergentes χ<sub>α</sub> incorporan la cláusula constitutiva χ<sub>α</sub> ≠ U.
 
-**Demostración.** Reunión sintética de los apartados §19.1 a §19.6 del corpus de teoría general de sucesos generadores y protocampos unificados (Lloret Egea, 2026). Cada prohibición se verifica componente a componente sobre el operador maestro y sobre los siete operadores sectoriales. La identificación canónica 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub> del apartado 2.0 transfiere literalmente el cumplimiento de las prohibiciones del operador maestro a la ecuación rectora doctrinal de la presente publicación. Q.E.D. ∎
+**Demostración.** Reunión sintética de los apartados §19.1 a §19.6 del corpus de teoría general de sucesos generadores y protocampos unificados (Lloret Egea, 2026). Cada prohibición se verifica componente a componente sobre el operador maestro y sobre los siete operadores sectoriales. La identificación canónica 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub> del apartado 2.0 transfiere literalmente el cumplimiento de las prohibiciones del operador maestro a la ecuación rectora doctrinal de la publicación. Q.E.D.
 
 ### 23.4. Teorema T10 — Coherencia integral del régimen unificado
 
@@ -2964,7 +2964,7 @@ La conjunción de (a), (b) y (c) cubre exhaustivamente 𝓛<sup>adm</sup><sub>SV
 \boxed{ \;\mathfrak{U}^{\mathrm{unif}}_{SV} \;=\; 0 \;\equiv\; \mathcal{E}^{\star}_{TODO,\,SV}(\Gamma_{U};\,\tau) \;=\; 0 \;\;\Longleftrightarrow\;\; (\mathrm{i}) \wedge (\mathrm{ii}) \wedge (\mathrm{iii}) \wedge (\mathrm{iv}) \wedge (\mathrm{v}) \wedge (\mathrm{vi}).\; }
 ```
 
-**Demostración.** Reunión sintética de los Teoremas T1-T9 de la presente publicación y de los resultados R.1-R.21 del corpus de teoría general de sucesos generadores y protocampos unificados (Lloret Egea, 2026, §20.1). Q.E.D. ∎
+**Demostración.** Reunión sintética de los Teoremas T1-T9 de este trabajo y de los resultados R.1-R.21 del corpus de teoría general de sucesos generadores y protocampos unificados (Lloret Egea, 2026, §20.1). Q.E.D.
 
 ### 23.5. Corolario T10.1 — Cadena canónica de tres planos del Sistema Vectorial SV
 
@@ -2978,11 +2978,11 @@ donde:
 
 **Plano fundacional.** Comprende la cadena F<sub>0</sub> ⊢ Def<sub>SV</sub>(ε<sub>0</sub>); ε<sub>0</sub> : ∅ → Ω<sub>pre</sub> → protocampos (α, β) → sucesos generadores → compuerta Π<sub>3</sub><sup>H</sup>, cerrada en los §§3-7 del corpus con el Teorema §2.1 de unicidad estructural condicionada del tránsito ε<sub>0</sub>-F<sub>0</sub>-U.
 
-**Plano algebraico.** Comprende los siete operadores sectoriales 𝓤<sup>(j)</sup><sub>SV</sub>, las siete identidades intersectoriales {𝒮<sub>k</sub>}, el operador concatenador ⊕ con cláusulas C.1 y C.2, el morfismo dictamen ternario G<sup>★★</sup><sub>SV</sub> : 𝒯<sub>SV</sub> → K<sub>3</sub>, y el operador maestro 𝔘<sup>unif</sup><sub>SV</sub> ≡ 𝓔<sup>★</sup><sub>TODO,SV</sub> que cierra canónicamente la presente publicación.
+**Plano algebraico.** Comprende los siete operadores sectoriales 𝓤<sup>(j)</sup><sub>SV</sub>, las siete identidades intersectoriales {𝒮<sub>k</sub>}, el operador concatenador ⊕ con cláusulas C.1 y C.2, el morfismo dictamen ternario G<sup>★★</sup><sub>SV</sub> : 𝒯<sub>SV</sub> → K<sub>3</sub>, y el operador maestro 𝔘<sup>unif</sup><sub>SV</sub> ≡ 𝓔<sup>★</sup><sub>TODO,SV</sub> que cierra canónicamente esta publicación.
 
 **Plano factual.** Comprende los siete sectores primarios coexistentes (eléctrico, magnético, gravitatorio bisectorial, TPA, convergencia ternaria, espectral, topológico), los veinte campos del catálogo, las once absorciones individuales del §18.7 y los diez supuestos del banco canónico del §20 sobre la célula SV(9, 3).
 
-*Demostración del Corolario T10.1.* La implicación Plano fundacional ⇒ Plano algebraico está cerrada por la cadena fundacional canónica del §4 del corpus que produce los operadores como sucesos generadores sobre el dominio preternario Ω<sub>pre</sub>. La implicación Plano algebraico ⇒ Plano factual está cerrada por la articulación canónica de los siete operadores sectoriales con los siete sectores primarios y los veinte campos factuales. Q.E.D. ∎
+*Demostración del Corolario T10.1.* La implicación Plano fundacional ⇒ Plano algebraico está cerrada por la cadena fundacional canónica del §4 del corpus que produce los operadores como sucesos generadores sobre el dominio preternario Ω<sub>pre</sub>. La implicación Plano algebraico ⇒ Plano factual está cerrada por la articulación canónica de los siete operadores sectoriales con los siete sectores primarios y los veinte campos factuales. Q.E.D.
 
 ### 23.6. Conclusión doctrinal de los cuatro teoremas
 
@@ -2995,13 +2995,12 @@ La integración doctrinal queda canónicamente cerrada: ningún axioma exterior,
 
 La Teoría del TODO y de la NADA en el Sistema Vectorial SV se acompaña de una **suite laboratorial reproducible en Python** que verifica, por cómputo determinista sobre los objetos canónicos del documento, que cada apartado de la cadena ascendente, cada absorción doctrinal, cada supuesto del banco canónico y cada interpretación canónica cierra con el veredicto previsto. Los laboratorios son scripts independientes, autocontenidos, sin dependencias externas más allá de la biblioteca estándar de Python.
 
-La presente publicación **anuncia** los quince laboratorios y declara su criterio de aptitud, su sección doctrinal de origen y su URL canónica. La implementación se realiza en una entrega posterior bajo el repositorio canónico del corpus SV.
+Se **anuncian** los quince laboratorios y declara su criterio de aptitud, su sección doctrinal de origen y su URL canónica. La implementación se realiza en una entrega posterior bajo el repositorio canónico del corpus SV.
 
-### 24.1. URL canónica del catálogo
+### 24.1. [URL **canónica del catálogo**](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/teoria-todo-nada-sv/laboratorios/)
 
 Todos los laboratorios anunciados a continuación residirán bajo la ruta canónica del repositorio del corpus SV:
 
-[`https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/teoria-todo-nada-sv/laboratorios/`](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/teoria-todo-nada-sv/laboratorios/)
 
 ### 24.2. Criterio uniforme de aptitud
 
@@ -3146,13 +3145,13 @@ Cada laboratorio es invocable directamente desde su URL canónica con `python <n
 
 ## 24bis. Nota aclaratoria sobre la imagen simbólica
 
-La imagen simbólica que acompaña a la presente publicación —portada esquemática que representa la cadena ascendente, la espiral factual creciente, los componentes por ciclo, el verificador ternario fuerte y la absorción de leyes factuales admisibles— es **representación simbólica**, no fuente doctrinal. Su función es exclusivamente expositiva.
+La imagen simbólica que acompaña a la publicación —portada esquemática que representa la cadena ascendente, la espiral factual creciente, los componentes por ciclo, el verificador ternario fuerte y la absorción de leyes factuales admisibles— es **representación simbólica**, no fuente doctrinal. Su función es exclusivamente expositiva.
 
-La doctrina canónica del Sistema Vectorial SV reside en el cuerpo del presente documento. La imagen no la constituye, no la sustituye y no la complementa con valor canónico independiente.
+La doctrina canónica del Sistema Vectorial SV reside en el cuerpo de este documento. La imagen no la constituye, no la sustituye y no la complementa con valor canónico independiente.
 
-**Cláusula de validez vinculante.** La validez doctrinal de la imagen simbólica resulta vinculante exclusivamente cuando está vinculada al presente documento. La imagen aislada del documento carece de valor canónico: cualquier interpretación, derivación o aplicación que se haga de la imagen sin remisión al cuerpo del documento queda fuera del Sistema Vectorial SV.
+**Cláusula de validez vinculante.** La validez doctrinal de la imagen simbólica resulta vinculante exclusivamente cuando está vinculada a este documento. La imagen aislada del documento carece de valor canónico: cualquier interpretación, derivación o aplicación que se haga de la imagen sin remisión al cuerpo del documento queda fuera del Sistema Vectorial SV.
 
-**Cláusula de prevalencia.** En caso de discrepancia, divergencia, errata, omisión o cualquier incoherencia entre la imagen simbólica y el cuerpo del presente documento, **prevalece el cuerpo del documento**. La imagen es subordinada al texto canónico, no al revés.
+**Cláusula de prevalencia.** En caso de discrepancia, divergencia, errata, omisión o cualquier incoherencia entre la imagen simbólica y el cuerpo del documento, **prevalece el cuerpo del documento**. La imagen es subordinada al texto canónico, no al revés.
 
 **Cláusula de no canonicidad de la imagen.** La imagen no fija fórmulas, no fija definiciones, no fija veredictos. Cualquier fórmula representada en la imagen tiene autoridad canónica únicamente cuando aparece transcrita literalmente en el cuerpo del documento. Lo que no aparezca en el cuerpo del documento no forma parte de la doctrina del Sistema Vectorial SV, aunque aparezca representado en la imagen.
 
