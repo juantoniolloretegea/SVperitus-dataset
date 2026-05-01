@@ -16,7 +16,7 @@
 10. Tabla maestra de cotejo: 11 absorciones × 10 supuestos (apartado 21).
 11. Cinco interpretaciones canónicas posibles (apartado 22).
 12. Teoremas T7 a T10 (apartado 23).
-13. Suite laboratorial reproducible ampliada (apartado 24).
+13. Conjunto laboratorial reproducible ampliada (apartado 24).
 14. Nota aclaratoria sobre la imagen simbólica (apartado 24bis).
 15. Bibliografía (apartado 25).
 
@@ -2991,9 +2991,9 @@ Los cuatro teoremas T7, T8, T9, T10 cierran rigurosamente la **absorción multid
 La integración doctrinal queda canónicamente cerrada: ningún axioma exterior, ninguna dependencia externa, ningún debilitamiento de cierres canónicos previamente establecidos. La totalidad del corpus se articula bajo una sola ecuación rectora con dos nombres complementarios, bajo el sello canónico 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub>.
 
 ---
-## 24. [Suite laboratorial reproducible ampliada](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/teoria-todo-nada-sv/laboratorios/)
+## 24. [Conjunto laboratorial reproducible ampliada](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/teoria-todo-nada-sv/laboratorios/)
 
-La Teoría del TODO y de la NADA en el Sistema Vectorial SV se acompaña de una **suite laboratorial reproducible en Python** que verifica, por cómputo determinista sobre los objetos canónicos del documento, que cada apartado de la cadena ascendente, cada absorción doctrinal, cada supuesto del banco canónico y cada interpretación canónica cierra con el veredicto previsto. Los laboratorios son scripts independientes, autocontenidos, sin dependencias externas más allá de la biblioteca estándar de Python.
+La Teoría del TODO y de la NADA en el Sistema Vectorial SV se acompaña de un **conjunto laboratorial reproducible en Python** que verifica, por cómputo determinista sobre los objetos canónicos del documento, que cada apartado de la cadena ascendente, cada absorción doctrinal, cada supuesto del banco canónico y cada interpretación canónica cierra con el veredicto previsto. Los laboratorios son scripts independientes, autocontenidos, sin dependencias externas más allá de la biblioteca estándar de Python.
 
 Se **anuncian** los quince laboratorios y declara su criterio de aptitud, su sección doctrinal de origen y su URL canónica. La implementación se realiza en una entrega posterior bajo el repositorio canónico del corpus SV.
 
