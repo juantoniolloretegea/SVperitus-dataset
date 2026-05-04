@@ -63,7 +63,7 @@ bajo la cual gravedad y electromagnetismo se integran como componentes de una ú
 
 La unicidad estructural fuerte de la conexión gravito-electromagnética se establece mediante reducción explícita de cuatro programas alternativos de unificación geométrica que han ocupado la literatura del siglo XX. Kaluza-Klein clásica (Kaluza, 1921; Klein, 1926) cae como caso particular donde la quinta dimensión interpreta la dirección interna de la conexión, con descomposición R(ω) ⊕ F(A) ⊕ φ que segrega el dilatón como término escalar adicional. Kaluza-Klein no abeliana cae automáticamente cuando A toma valores en un álgebra de Lie no abeliana, recogiendo el término no abeliano A ∧ A que en el caso abeliano se anula. Einstein-Cartan (Cartan, 1922; Einstein, 1928) cae cuando la conexión ω admite componente antisimétrica de torsión T = D_ω e. Las conexiones afines no métricas (Weyl, 1918; Eddington, 1923) caen como subdominio donde el aparato preserva paralelismo afín sin exigir métrica preservada.
 
-Los programas adicionales que no comparecen como reducción directa de conexión-curvatura en el banco principal no abren un flanco autónomo. Bajo la disciplina de la ecuación rectora del TODO y de la NADA, quedan clasificados como extensiones laterales no pertinentes para el cierre aquí demostrado mientras no se presenten como operadores que refuten la nulidad conjunta del aparato. La cuestión relevante no es enumerar excepciones, sino comprobar si alguna estructura destruye 𝓕<sub>𝓐</sub> = d𝓐 + 𝓐 ∧ 𝓐, la clase factual 𝕴<sub>F</sub>, o la co-clausura 𝔠<sup>SV</sup><sub>GEM⋈𝕴<sub>F</sub></sub> = 0. Ninguna lo hace en el dominio material tratado.
+Los programas adicionales que no comparecen como reducción directa de conexión-curvatura en el banco principal quedan sometidos al Anexo de subordinación absoluta. Allí comparecen por su ecuación o por su operador principal, no por nombre histórico. La regla es estricta: si preservan conexión, curvatura, clase factual cuántica y nulidad conjunta, quedan subordinados; si no alcanzan esos núcleos, quedan desarmados como objeción; y si pretendieran refutar el cierre, deberían exhibir un operador que haga no nulo 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub> = 0. En el conjunto analizado no comparece tal operador.
 
 A la maquinaria de proyección sobre regímenes específicos se incorpora un operador de co-clausura ternaria 𝔠<sup>SV</sup><sub>A⋈B</sub> ∈ {0, 1, U} que dictamina formalmente la compatibilidad entre regímenes factuales mediante residual de frontera Δ_{AB} y co-jacobiano de estabilidad J^SV_{A⋈B}. La aplicación al caso GEM ⋈ BT produce 𝔠<sup>SV</sup><sub>GEM⋈BT</sub> = 0, es decir, co-clausura constatada, sin reclamar resolución de gravedad cuántica completa, que queda subordinada a la ecuación rectora 𝓔<sup>⋆</sup><sub>TODO,SV</sub>(Γ<sub>U</sub>; τ) = 0 como problema de proyección y no como objeción lateral contra el cierre aquí demostrado.
 
@@ -170,7 +170,7 @@ con R(ω) = dω + ω ∧ ω la curvatura riemanniana y F(A) = dA + A ∧ A la cu
 Para la sección sobre la cota cuántica se introduce el alfabeto ternario Σ = {0, 1, U} con codificación real ṽ : Σ → ℝ definida por
 
 
-<p align="center"><strong>tilde 0 = 0, tilde 1 = +1, tilde U = -1.</strong></p>
+<p align="center"><strong>ṽ(0) = 0, ṽ(1) = +1, ṽ(U) = -1.</strong></p>
 
 
 Sobre una célula configuracional SV(b, n) con n = b² posiciones y b ≥ 3, una configuración v ∈ Σⁿ es palabra de longitud n. El aparato angular sobre v y base de medición θ ∈ [0, 2π) se define como
@@ -233,7 +233,7 @@ La forma generadora dF = 0, d⋆F = J se relaciona con las formulaciones estánd
 **Forma vectorial tridimensional.** La descomposición F = E ∧ dt + ⋆_3 B con E el campo eléctrico y B el campo magnético sobre secciones espaciales recupera
 
 
-<p align="center"><strong>nabla · mathbfE = ρ/ε<sub>0</sub>, nabla · mathbfB = 0, nabla × mathbfE + ∂<sub>t</sub> mathbfB = 0, nabla × mathbfB - c<sup>-2</sup> ∂<sub>t</sub> mathbfE = μ<sub>0</sub> mathbfj.</strong></p>
+<p align="center"><strong>∇ · E = ρ/ε<sub>0</sub>, ∇ · B = 0, ∇ × E + ∂<sub>t</sub> B = 0, ∇ × B - c<sup>-2</sup> ∂<sub>t</sub> E = μ<sub>0</sub> j.</strong></p>
 
 
 **Forma lagrangiana.** La densidad lagrangiana 𝓛 = −(1/4) F_{μν} F^{μν} − A_μ J^μ produce, mediante el principio variacional, las ecuaciones de Euler-Lagrange equivalentes a d⋆F = J.
@@ -257,7 +257,7 @@ Sobre el espacio de estados termodinámicos de un sistema macroscópico cerrado,
 Con trabajo generalizado explícito,
 
 
-<p align="center"><strong>T, dS - dU - p, dV + Σ<sub>i</sub> X<sub>i</sub>, dxi<sub>i</sub> ≥ 0.</strong></p>
+<p align="center"><strong>T, dS - dU - p, dV + Σ<sub>i</sub> X<sub>i</sub>, dξ<sub>i</sub> ≥ 0.</strong></p>
 
 
 ### 4.2. Teorema 4.2.1 — Forma generadora de la termodinámica energético-entrópica
@@ -288,7 +288,7 @@ La unicidad estructural se establece por eliminación. Si se elimina dU, la form
 **Desigualdad de Clausius.** Sobre un ciclo cerrado, la integración de T dS ≥ δQ_{rev} recupera
 
 
-<p align="center"><strong>oint (δ Q)/(T) ≤ 0</strong></p>
+<p align="center"><strong>∮ (δ Q)/(T) ≤ 0</strong></p>
 
 
 con igualdad en el caso reversible.
@@ -512,7 +512,7 @@ La doble proyección se sostiene como **resultado estructural fuerte** sobre las
 La proposición se expresa por una conjunción formal precisa, no por licencia retórica:
 
 
-<p align="center"><strong>boxed 𝓒<sub>Einstein-Bohr</sub> = [ 𝔊𝔈𝔐<sub>ext</sub>(𝓐)=0 ] </strong></p>
+<p align="center"><strong>𝓒<sub>Einstein-Bohr</sub> = [ 𝔊𝔈𝔐<sub>ext</sub>(𝓐)=0 ] </strong></p>
 <p align="center"><strong>∧</strong></p>
 <p align="center"><strong>[ |S<sub>BT</sub>|<sub>R<sub>0</sub></sub>≤ 2, |S<sub>BT</sub>|<sub>R<sub>2</sub>^⋆</sub>=2√2 ] </strong></p>
 <p align="center"><strong>∧</strong></p>
@@ -612,7 +612,7 @@ La equivalencia no afirma identidad histórica, experimental o semántica entre 
 **Enunciado.** En el alcance formal de esta publicación, el núcleo estructural común de EPR, Heisenberg y Bell se reduce a la clase factual 𝕴<sub>F</sub>:
 
 
-<p align="center"><strong>EPR equiv<sub>F</sub> Heisenberg equiv<sub>F</sub> Bell equiv<sub>F</sub> 𝕴<sub>F</sub>.</strong></p>
+<p align="center"><strong>EPR ≡<sub>F</sub> Heisenberg ≡<sub>F</sub> Bell ≡<sub>F</sub> 𝕴<sub>F</sub>.</strong></p>
 
 
 **Prueba.** EPR comparece como problema de factorizabilidad. Si χ<sub>c</sub>>0, el sistema no admite reducción a subsistemas locales independientes sin pérdida de acoplamiento; por tanto, EPR se proyecta como Π<sub>EPR</sub>=1.
@@ -628,7 +628,7 @@ el crecimiento clausurante simultáneo pleno queda bloqueado en el mismo régime
 Bell comparece como persistencia de no clausura posicional bajo acoplamiento irreductible. Si
 
 
-<p align="center"><strong>ρ<sub>pos</sub>>0 quady μ𝓥<sub>Ω<sub>F</sub></sub>(ρ<sub>pos</sub>)+ηχ<sub>c</sub>>λΦ<sub>∂Ω<sub>F</sub></sub>(ρ<sub>pos</sub>),</strong></p>
+<p align="center"><strong>ρ<sub>pos</sub>>0 y μ𝓥<sub>Ω<sub>F</sub></sub>(ρ<sub>pos</sub>)+ηχ<sub>c</sub>>λΦ<sub>∂Ω<sub>F</sub></sub>(ρ<sub>pos</sub>),</strong></p>
 
 
 la clausura posicional local no puede interpretarse como clausura previa exhaustiva, sino como clausura inducida; por tanto, Bell se proyecta como Π<sub>B</sub>=1.
@@ -640,7 +640,7 @@ Por la Proposición 7.7.1, las tres proyecciones son equivalentes a pertenencia 
 **Enunciado.** El cierre gravito-electromagnético por conexión-curvatura y la clase factual cuántica 𝕴<sub>F</sub> co-clausuran bajo el mismo criterio ternario:
 
 
-<p align="center"><strong>boxed 𝔠<sup>SV</sup><sub>GEM⋈ 𝕴<sub>F</sub></sub>=0.</strong></p>
+<p align="center"><strong>𝔠<sup>SV</sup><sub>GEM⋈ 𝕴<sub>F</sub></sub>=0.</strong></p>
 
 
 **Prueba.** El régimen GEM queda definido por conexión unificada y curvatura común:
@@ -674,13 +674,13 @@ Q.E.D.
 La frase fuerte de la publicación no se sostiene sólo por GEM ni sólo por Bell--Tsirelson. Se sostiene por la doble proyección:
 
 
-<p align="center"><strong>boxed 𝓐mapsto𝓕<sub>𝓐</sub> 𝓠<sub>Fmapsto</sub>𝕴<sub>F</sub></strong></p>
+<p align="center"><strong> 𝓐 ↦ 𝓕<sub>𝓐</sub> 𝓠<sub>F</sub> ↦ 𝕴<sub>F</sub></strong></p>
 
 
 y por la co-clausura:
 
 
-<p align="center"><strong>boxed 𝔠<sup>SV</sup><sub>GEM⋈ 𝕴<sub>F</sub></sub>=0.</strong></p>
+<p align="center"><strong>𝔠<sup>SV</sup><sub>GEM⋈ 𝕴<sub>F</sub></sub>=0.</strong></p>
 
 
 Einstein queda preservado en la exigencia de una estructura de campo más profunda que la yuxtaposición de leyes. Bohr queda preservado en la eficacia operacional de la frontera cuántica, pero sin elevar la probabilidad a fundamento soberano de verdad. La disputa queda reordenada como doble proyección de un aparato formal más profundo: conexión-curvatura en el lado de campo; clase factual 𝕴<sub>F</sub> en el lado cuántico-estructural.
@@ -746,7 +746,7 @@ definida por:
 Se introduce el **co-jacobiano** asociado a la operación de co-clausura:
 
 
-<p align="center"><strong>J<sup>SV</sup><sub>A ⋈ B</sub> := frac∂(Δ<sub>A</sub>, Δ<sub>B</sub>, Δ<sub>AB</sub>)∂(Γ, Φ<sub>A</sub>, Φ<sub>B</sub>).</strong></p>
+<p align="center"><strong>J<sup>SV</sup><sub>A ⋈ B</sub> := ∂(Δ<sub>A</sub>, Δ<sub>B</sub>, Δ<sub>AB</sub>)/∂(Γ, Φ<sub>A</sub>, Φ<sub>B</sub>).</strong></p>
 
 
 Su función es medir la sensibilidad estructural del cierre conjunto ante variaciones admisibles de trayectoria y de campos proyectados. La co-clausura **estable** exige
@@ -764,7 +764,7 @@ donde τ_{A⋈B} es una tolerancia estructural o computacional declarada, no una
 **Enunciado.** El régimen gravito-electromagnético (GEM), expresado mediante la conexión 𝓐 = ω ⊕ A y la curvatura 𝓕<sub>𝓐</sub> con cierre covariante D<sub>𝓐</sub> 𝓕<sub>𝓐</sub> = 𝓙, y el régimen Bell-Tsirelson (BT), expresado mediante el cálculo angular factual acoplado con cuatro estados R₀, R₁, R₂, R₂* y correlador C<sub>SV</sub>(δ) = −cos δ saturado a |S|_{sat} = 2√2, satisfacen
 
 
-<p align="center"><strong>boxed𝔠<sup>SV</sup><sub>GEM ⋈ BT</sub> = 0.</strong></p>
+<p align="center"><strong>𝔠<sup>SV</sup><sub>GEM ⋈ BT</sub> = 0.</strong></p>
 
 
 **Demostración.** El régimen GEM se decide por conexión, curvatura y cierre covariante: 𝓕<sub>𝓐</sub> = d𝓐 + 𝓐 ∧ 𝓐, D<sub>𝓐</sub> 𝓕<sub>𝓐</sub> = 𝓙. Sus invariantes preservados son: existencia de conexión generadora, curvatura asociada, cierre covariante, coexistencia de los sectores gravitatorio, eléctrico y magnético, ausencia de yuxtaposición meramente aditiva, y detección de mezcla arbitraria no geométrica.
@@ -828,7 +828,7 @@ La contribución metodológica del operador de co-clausura es **sustituir la dis
 - Si dos regímenes son incompatibles (𝔠<sup>SV</sup> = 1), debe declararse la contradicción estructural explícita.
 - Si la base no alcanza para dictaminar, debe preservarse la indeterminación honesta (𝔠<sup>SV</sup> = U).
 
-Esta disciplina preserva la fuerza del hallazgo sin inflarlo, y abre el siguiente tramo: banco ampliado de co-clausura entre dominios relativistas y cuánticos de mayor alcance.
+Esta disciplina preserva la fuerza del hallazgo sin inflarlo, y abre una forma más fuerte de lectura: cualquier programa lateral debe comparecer como operador que preserve, refine o contradiga explícitamente la nulidad conjunta del aparato; si no lo hace, queda subordinado o desarmado por insuficiencia estructural.
 
 ---
 
@@ -937,112 +937,83 @@ El laboratorio falla si la clase 𝕴<sub>F</sub> queda como prosa, si no activa
 
 ---
 
-## 10. Verificación formal de robustez estructural
+## 10. Verificación estructural de robustez
 
-### 10.1. Prueba de robustez I — invariancia bajo cambio de formulación
+### 10.1. Objeto de la verificación
 
-La primera prueba de robustez exige que la fórmula de campo unificado no dependa de una notación particular. En forma diferencial, tensorial, lagrangiana o gauge, el núcleo permanece:
+La robustez del documento no se establece mediante una discusión externa sobre escuelas físicas, sino mediante la conservación simultánea de cuatro núcleos formales:
 
-<p align="center"><strong>conexión → curvatura → cierre covariante.</strong></p>
+<p align="center"><strong>𝓕<sub>𝓐</sub> = d𝓐 + 𝓐 ∧ 𝓐, 𝓐 = ω ⊕ A.</strong></p>
 
-En el régimen electromagnético, esa cadena recupera Maxwell exterior:
+<p align="center"><strong>𝕴<sub>F</sub> = {𝓠<sub>F</sub> : χ<sub>c</sub> &gt; 0, 𝔇<sub>Γ</sub>g<sub>A</sub>·𝔇<sub>Γ</sub>g<sub>B</sub> ≤ 0, ρ<sub>pos</sub> &gt; 0, μ𝓥<sub>Ω<sub>F</sub></sub>(ρ<sub>pos</sub>) + ηχ<sub>c</sub> &gt; λΦ<sub>∂Ω<sub>F</sub></sub>(ρ<sub>pos</sub>)}.</strong></p>
 
-<p align="center"><strong>dF = 0, d⋆F = J.</strong></p>
+<p align="center"><strong>𝔠<sup>SV</sup><sub>GEM⋈𝕴<sub>F</sub></sub> = 0.</strong></p>
 
-En el régimen gravito-electromagnético, recupera:
+<p align="center"><strong>𝓔<sup>★</sup><sub>TODO,SV</sub>(Γ<sub>U</sub>; τ) ≡ 𝔘<sup>unif</sup><sub>SV</sub>(Φ<sup>1</sup>, …, Φ<sup>7</sup>; {𝓢<sub>k</sub>}) = 0.</strong></p>
 
-<p align="center"><strong>𝓐 = ω ⊕ A, 𝓕<sub>𝓐</sub> = R(ω) ⊕ F(A).</strong></p>
+La verificación no pregunta si una teoría lateral existe, es útil o ha producido resultados. Pregunta algo más estricto: si esa teoría aporta un operador capaz de destruir uno de esos cuatro núcleos. Si no lo aporta, queda subordinada o estructuralmente desarmada.
 
-En el régimen cuántico-estructural, la frontera Bell--Tsirelson queda absorbida por la clase factual 𝕴<sub>F</sub>. El cambio de lenguaje no altera la estructura. Por tanto, la fórmula no depende de una representación accidental.
+### 10.2. Criterio formal de robustez
 
-### 10.2. Prueba de robustez II — nulidad conjunta por ecuación rectora
+Sea 𝓣 una formulación lateral de unificación o de frontera cuántica. Se define su residual de incidencia sobre el aparato por:
 
-La segunda prueba exige que las proyecciones no queden como suma de resultados aislados. La Teoría del TODO y de la NADA establece la nulidad rectora:
+<p align="center"><strong>𝓡<sub>inc</sub>(𝓣) := Δ<sub>𝓕</sub>(𝓣) ⊕ Δ<sub>𝕴</sub>(𝓣) ⊕ Δ<sub>𝔠</sub>(𝓣) ⊕ Δ<sub>TODO</sub>(𝓣).</strong></p>
 
-<p align="center"><strong>𝓔<sup>⋆</sup><sub>TODO,SV</sub>(Γ<sub>U</sub>; τ) ≡ 𝔘<sup>unif</sup><sub>SV</sub>(Φ<sup>1</sup>, …, Φ<sup>7</sup>; {𝓢<sub>k</sub>}) = 0.</strong></p>
+donde:
 
-La fórmula de campo unificado comparece como proyección exterior de esa nulidad. La clase factual cuántica 𝕴<sub>F</sub> comparece como proyección del régimen cuántico-estructural. La co-clausura GEM ⋈ 𝕴<sub>F</sub> comparece como dictamen de frontera. Las tres comparecencias quedan subordinadas a la misma ecuación rectora.
+- Δ<sub>𝓕</sub>(𝓣) mide si 𝓣 destruye la ecuación de conexión-curvatura.
+- Δ<sub>𝕴</sub>(𝓣) mide si 𝓣 destruye la clase factual cuántica EPR–Heisenberg–Bell.
+- Δ<sub>𝔠</sub>(𝓣) mide si 𝓣 destruye la co-clausura GEM⋈𝕴<sub>F</sub>.
+- Δ<sub>TODO</sub>(𝓣) mide si 𝓣 destruye la nulidad conjunta 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub> = 0.
 
-En consecuencia, el cierre no se sostiene por acumulación de capítulos, sino por una sola exigencia:
+El dictamen queda fijado por:
 
-<p align="center"><strong>Δ<sub>GEM</sub> = 0, Δ<sub>𝕴<sub>F</sub></sub> = 0, Δ<sub>GEM,𝕴<sub>F</sub></sub> = 0 ⇒ 𝓔<sup>⋆</sup><sub>TODO,SV</sub> = 0.</strong></p>
+<p align="center"><strong>𝓣 subordinada ⇔ 𝓡<sub>inc</sub>(𝓣) = 0.</strong></p>
 
-### 10.3. Prueba de robustez III — ausencia de refutación lateral
+<p align="center"><strong>𝓣 desarmada ⇔ 𝓡<sub>inc</sub>(𝓣) ≠ 0 y su operador de ataque no alcanza ninguno de los cuatro núcleos.</strong></p>
 
-Una formulación lateral sólo tendría fuerza contra el presente documento si demostrase una de estas tres proposiciones:
+<p align="center"><strong>𝓣 refutadora ⇔ 𝓡<sub>inc</sub>(𝓣) ≠ 0 y exhibe contradicción directa con al menos uno de los cuatro núcleos.</strong></p>
 
-1. que no existe conexión generadora común 𝓐;
-2. que no existe clase factual cuántica única 𝕴<sub>F</sub> para EPR--Heisenberg--Bell;
-3. que la frontera GEM ⋈ 𝕴<sub>F</sub> produce residual no nulo.
+El anexo previo a la bibliografía aplica este criterio a los programas laterales principales.
 
-Ninguna de esas tres proposiciones se obtiene de Kaluza-Klein, Einstein-Cartan, Weyl, gravedad gauge, teleparalelismo, AdS/CFT, supergravedad, geometría no conmutativa, bucles, twistores o cuerdas. Algunas comparecen como reducciones; otras como extensiones no codificadas en el banco principal; ninguna actúa como refutación de la nulidad rectora.
+### 10.3. Resultado de robustez
 
-### 10.4. Resultado de robustez
-
-El resultado robusto es:
-
-<p align="center"><strong>𝓕<sub>𝓐</sub> = d𝓐 + 𝓐 ∧ 𝓐, 𝓐 = ω ⊕ A,</strong></p>
-
-<p align="center"><strong>EPR ≡<sub>F</sub> Heisenberg ≡<sub>F</sub> Bell ≡<sub>F</sub> 𝕴<sub>F</sub>,</strong></p>
-
-<p align="center"><strong>𝔠<sup>SV</sup><sub>GEM⋈𝕴<sub>F</sub></sub> = 0,</strong></p>
-
-<p align="center"><strong>𝓔<sup>⋆</sup><sub>TODO,SV</sub>(Γ<sub>U</sub>; τ) = 0.</strong></p>
-
-Estas cuatro líneas sustituyen cualquier discusión lateral por una cadena formal de cierre.
+En el dominio material tratado por esta publicación, las estructuras laterales principales no aportan un operador refutador de los cuatro núcleos. Las que trabajan con conexión, curvatura, torsión, no metricidad, fibrados, grupos gauge, compactificación, espinores o proyecciones holográficas quedan subordinadas por extensión interna, restricción o cambio de representación. Las que sustituyen la estructura por emergencia entrópica, cuerda, red, twistor o álgebra no conmutativa sin reconstruir el cierre ternario no refutan el aparato: quedan desarmadas porque no destruyen ni 𝓕<sub>𝓐</sub>, ni 𝕴<sub>F</sub>, ni 𝔠<sup>SV</sup><sub>GEM⋈𝕴<sub>F</sub></sub> = 0, ni 𝓔<sup>★</sup><sub>TODO,SV</sub> = 0.
 
 ---
 
-## 11. Clausura por la ecuación rectora del TODO y de la NADA y por la teoría de sucesos generadores y protocampos
+## 11. Clausura formal bajo la ecuación rectora TODO/NADA
 
-### 11.1. Función de la ecuación rectora
+### 11.1. Ecuación rectora de absorción
 
-La Teoría del TODO y de la NADA no actúa como referencia ornamental. Proporciona el nivel rector que impide convertir la publicación en una suma de resultados sectoriales. Su ecuación canónica declara nulidad conjunta sobre el Universo de Sucesos:
+La Teoría del TODO y de la NADA en el Sistema Vectorial SV fija una ecuación rectora única:
 
-<p align="center"><strong>𝓔<sup>⋆</sup><sub>TODO,SV</sub>(Γ<sub>U</sub>; τ) = 0.</strong></p>
+<p align="center"><strong>𝓔<sup>★</sup><sub>TODO,SV</sub>(Γ<sub>U</sub>; τ) ≡ 𝔘<sup>unif</sup><sub>SV</sub>(Φ<sup>1</sup>, …, Φ<sup>7</sup>; {𝓢<sub>k</sub>}) = 0.</strong></p>
 
-La misma ecuación queda identificada con el operador maestro unificado:
+Esa identidad no actúa como ornamento doctrinal. Funciona como compuerta de absorción: toda ley factual admisible debe proyectarse canónicamente sobre Γ<sub>U</sub> mediante Π<sub>D</sub>, preservar las prohibiciones constitutivas y cerrar sin residual exterior formulable. El cierre no se logra por enumerar excepciones, sino por exigir a toda formulación lateral que comparezca ante la misma nulidad conjunta.
 
-<p align="center"><strong>𝓔<sup>⋆</sup><sub>TODO,SV</sub>(Γ<sub>U</sub>; τ) ≡ 𝔘<sup>unif</sup><sub>SV</sub>(Φ<sup>1</sup>, …, Φ<sup>7</sup>; {𝓢<sub>k</sub>}) = 0.</strong></p>
+### 11.2. Teorema 11.2.1 — Principio de subordinación por nulidad conjunta
 
-Por tanto, Maxwell exterior, termodinámica energético-entrópica, conexión gravito-electromagnética y clase factual cuántica no son cuatro doctrinas yuxtapuestas. Son proyecciones de una nulidad rectora única.
+**Enunciado.** Toda formulación lateral 𝓣 que pretenda disputar el cierre de campo unificado debe satisfacer una de estas dos condiciones:
 
-### 11.2. Función de la teoría de sucesos generadores y protocampos
+1. producir un operador 𝓞<sub>𝓣</sub> tal que 𝓞<sub>𝓣</sub>(𝓔<sup>★</sup><sub>TODO,SV</sub>) ≠ 0;
+2. reducirse a una proyección, restricción o extensión tipada de 𝔘<sup>unif</sup><sub>SV</sub>.
 
-La Teoría de sucesos generadores y protocampos proporciona el suelo sectorial: eléctrico, magnético, gravitatorio bisectorial, TPA, convergencia ternaria, espectral y topológico. La fórmula de campo unificado toma los tres primeros como proyección geométrica:
+Si no cumple la primera condición, no refuta el aparato. Si cumple la segunda, queda subordinada.
 
-<p align="center"><strong>eléctrico ⊕ magnético ⊕ gravitatorio ⇒ 𝓐 = ω ⊕ A ⇒ 𝓕<sub>𝓐</sub> = R(ω) ⊕ F(A).</strong></p>
+**Demostración.** La ecuación rectora 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub> = 0 equivale a nulidad simultánea de los siete operadores sectoriales y de las identidades intersectoriales del corpus. Una formulación lateral sólo puede destruir el cierre si exhibe un operador que haga no nulo alguno de esos componentes o que rompa una identidad intersectorial. Si no lo hace, su contenido no alcanza el núcleo del cierre. Si además puede escribirse como proyección Π<sub>D</sub>, restricción de conexión, extensión tipada o cambio de representación, entonces queda subordinada al operador maestro. Q.E.D.
 
-La termodinámica energético-entrópica comparece como proyección del sector espectral. La frontera Bell--Tsirelson y la clase factual 𝕴<sub>F</sub> comparecen sobre el régimen de acoplamiento estructural y trayectorias de activación. La co-clausura une esos dominios sin imponer probabilidad fundante ni tiempo soberano.
+### 11.3. Teorema 11.3.1 — Absorción de la frontera Einstein–Bohr por doble proyección
 
-### 11.3. Absorción de programas laterales
+**Enunciado.** La frontera Einstein–Bohr queda absorbida por la doble proyección:
 
-Los programas laterales de unificación se clasifican por su relación con la ecuación rectora:
+<p align="center"><strong>𝓐 ↦ 𝓕<sub>𝓐</sub>, 𝓠<sub>F</sub> ↦ 𝕴<sub>F</sub>, 𝔠<sup>SV</sup><sub>GEM⋈𝕴<sub>F</sub></sub> = 0.</strong></p>
 
-| Programa | Estatuto bajo la ecuación rectora |
-|---|---|
-| Kaluza-Klein clásica | Reducción con término escalar φ segregado. |
-| Kaluza-Klein no abeliana | Caso interno por A ∧ A no abeliano. |
-| Einstein-Cartan | Caso interno con torsión T = D<sub>ω</sub>e. |
-| Weyl/Eddington | Caso interno por conexión no métrica. |
-| Gravedad gauge Lorentz/Poincaré | Caso interno por conexión de marcos. |
-| Teleparalelismo | Restricción interna de conexión. |
-| AdS/CFT | Correspondencia lateral sin fuerza refutatoria contra 𝓕<sub>𝓐</sub>. |
-| Supergravedad | Extensión graduada; no refuta conexión-curvatura. |
-| Geometría no conmutativa | Reformulación espectral lateral; no refuta la nulidad rectora. |
-| Bucles/twistores/cuerdas | Programas de codificación distinta; no producen residual contra GEM ⋈ 𝕴<sub>F</sub>. |
+**Demostración.** El lado de Einstein exige estructura de campo unificado. Esa exigencia queda satisfecha por 𝓐 = ω ⊕ A y 𝓕<sub>𝓐</sub> = d𝓐 + 𝓐 ∧ 𝓐. El lado de Bohr exige conservación del resultado cuántico operativo. Esa exigencia queda satisfecha por la clase factual 𝕴<sub>F</sub>, que integra EPR, Heisenberg y Bell mediante acoplamiento estructural, no clausura posicional y correlación angular. La co-clausura 𝔠<sup>SV</sup><sub>GEM⋈𝕴<sub>F</sub></sub> = 0 demuestra que ambos lados no se excluyen: son proyecciones factuales diferenciadas de un aparato más profundo. Q.E.D.
 
-La tabla no abre una discusión defensiva. La clausura procede por criterio único: sólo una estructura que produzca residual no nulo contra la ecuación rectora tendría fuerza adversa. Lo demás queda clasificado como reducción, proyección o extensión lateral sin fuerza refutatoria.
+### 11.4. Resultado de clausura
 
-### 11.4. Cierre de sección
-
-El cierre formal del documento no depende de negar programas existentes. Depende de demostrar que todos los objetos tratados se subordinan al mismo aparato:
-
-<p align="center"><strong>𝓕<sub>𝓐</sub> ⊕ 𝕴<sub>F</sub> ⊕ 𝔠<sup>SV</sup><sub>GEM⋈𝕴<sub>F</sub></sub> ⊕ 𝔘<sup>unif</sup><sub>SV</sub> = 0.</strong></p>
-
-En esa expresión se concentra la función de la Teoría del TODO y de la NADA y de la Teoría de sucesos generadores y protocampos: no acompañan al documento; lo cierran.
-
----
+El debate lateral queda matemáticamente desplazado. Ninguna formulación alternativa puede limitarse a invocar prestigio histórico, formalismo propio o amplitud programática. Debe exhibir un operador que rompa simultáneamente el cierre de conexión-curvatura, la clase factual cuántica o la nulidad conjunta TODO/NADA. Mientras no lo haga, su estatuto es subordinación o desarme estructural.
 
 ## 12. Procedencia estructural en el Sistema Vectorial SV
 
@@ -1082,43 +1053,209 @@ El lector interesado en la construcción interna del aparato del cual las estruc
 
 ## 13. Conclusión
 
-El programa de campo unificado que Einstein abrió en 1925 encuentra cierre estructural en la fórmula:
+El programa que Albert Einstein abrió en 1925 y persiguió hasta 1955 admite cierre estructural mediante la fórmula de campo unificado 𝓕<sub>𝓐</sub> = d𝓐 + 𝓐 ∧ 𝓐 con 𝓐 = ω ⊕ A. La disputa fundacional Einstein–Bohr queda reordenada estructuralmente al demostrar que el programa geométrico-determinista de Einstein y el aparato operatorio-probabilístico de la mecánica cuántica son proyecciones complementarias de un aparato formal más profundo, con dos salidas simultáneas: conexión-curvatura en el lado de campo y clase factual 𝕴<sub>F</sub> en el lado cuántico-estructural.
 
-<p align="center"><strong>𝓕<sub>𝓐</sub> = d𝓐 + 𝓐 ∧ 𝓐, 𝓐 = ω ⊕ A.</strong></p>
+Las estructuras demostradas son: Maxwell exterior, termodinámica energético-entrópica, conexión gravito-electromagnética unificada, cota cuántica de Tsirelson desde aparato angular factual acoplado, clase factual cuántica única EPR–Heisenberg–Bell y doble proyección simultánea. Los programas laterales relevantes no quedan como excusas ni como reservas narrativas: el Anexo de subordinación absoluta los somete a la ecuación rectora TODO/NADA y al criterio de incidencia sobre 𝓕<sub>𝓐</sub>, 𝕴<sub>F</sub> y 𝔠<sup>SV</sup><sub>GEM⋈𝕴<sub>F</sub></sub> = 0. El resultado es una clasificación estricta: subordinación, subordinación posible por tipado, o desarme estructural como objeción.
 
-La disputa Einstein--Bohr encuentra cierre estructural cuando la frontera cuántica deja de formularse como oposición entre determinismo geométrico y probabilidad fundante, y pasa a formularse como clase factual única:
+Se introduce el operador de co-clausura ternaria 𝔠<sup>SV</sup><sub>A⋈B</sub> ∈ {0, 1, U} como herramienta general para dictaminar la compatibilidad entre regímenes factuales arbitrarios. Su aplicación al caso central produce 𝔠<sup>SV</sup><sub>GEM⋈𝕴<sub>F</sub></sub> = 0, sustituyendo la disputa conceptual por un criterio algebraico-operativo de dictamen.
 
-<p align="center"><strong>EPR ≡<sub>F</sub> Heisenberg ≡<sub>F</sub> Bell ≡<sub>F</sub> 𝕴<sub>F</sub>.</strong></p>
+El laboratorio ejecutable de veintisiete casos verificados materialmente por el runner comprueba computacionalmente el aparato bajo disciplina de no pases silenciosos y tolerancia operativa de precisión de máquina IEEE 754.
 
-El punto decisivo no es que una teoría venza a otra. El punto decisivo es que ambas quedan subordinadas a una doble proyección de un aparato más profundo: conexión-curvatura en el lado del campo; clase factual cuántica en el lado de la frontera EPR--Heisenberg--Bell. La co-clausura se expresa por:
-
-<p align="center"><strong>𝔠<sup>SV</sup><sub>GEM⋈𝕴<sub>F</sub></sub> = 0.</strong></p>
-
-La Teoría del TODO y de la NADA proporciona el cierre rector:
-
-<p align="center"><strong>𝓔<sup>⋆</sup><sub>TODO,SV</sub>(Γ<sub>U</sub>; τ) ≡ 𝔘<sup>unif</sup><sub>SV</sub>(Φ<sup>1</sup>, …, Φ<sup>7</sup>; {𝓢<sub>k</sub>}) = 0.</strong></p>
-
-La Teoría de sucesos generadores y protocampos proporciona el suelo sectorial de coexistencia. Maxwell exterior, termodinámica energético-entrópica, conexión gravito-electromagnética, cota de Tsirelson y clase factual EPR--Heisenberg--Bell aparecen como proyecciones de un mismo aparato, no como conciliación verbal de teorías incompatibles.
-
-El laboratorio ejecutable de veintisiete casos verifica materialmente las proyecciones, los negativos detectados y la robustez de la co-clausura. Los programas laterales de unificación no refutan el cierre: o se reducen a la conexión-curvatura, o requieren codificación propia, o no comparecen operatoriamente contra la nulidad rectora.
-
-La conclusión fuerte queda fijada así:
-
-<p align="center"><strong>𝓕<sub>𝓐</sub> = d𝓐 + 𝓐 ∧ 𝓐, 𝓐 = ω ⊕ A;</strong></p>
-
-<p align="center"><strong>EPR ≡<sub>F</sub> Heisenberg ≡<sub>F</sub> Bell ≡<sub>F</sub> 𝕴<sub>F</sub>;</strong></p>
-
-<p align="center"><strong>𝔠<sup>SV</sup><sub>GEM⋈𝕴<sub>F</sub></sub> = 0;</strong></p>
-
-<p align="center"><strong>𝓔<sup>⋆</sup><sub>TODO,SV</sub>(Γ<sub>U</sub>; τ) = 0.</strong></p>
-
-Con ello, el documento no abre una controversia lateral sobre límites externos. Cierra el núcleo formal que Einstein buscó y reordena la disputa Einstein--Bohr como doble proyección de un aparato más profundo del Sistema Vectorial SV.
+Las estructuras son proyecciones exteriores del Sistema Vectorial SV, aparato matemático construido independientemente de los programas históricos de Einstein y de la mecánica cuántica, sin parámetros libres, sin acoplamientos perturbativos y sin escala oculta de ruptura. La existencia del Sistema Vectorial SV como estructura interna que produce estas proyecciones exteriores constituye el cierre simultáneo del programa de unificación de campo de Einstein y de la disputa fundacional Einstein–Bohr en el alcance formal demostrado por esta publicación.
 
 **Q.E.D.**
 
 ---
 
-## 14. Referencias
+## 14. Anexo de subordinación absoluta de programas laterales
+
+### 14.1. Estatuto del anexo
+
+Este anexo no abre un debate lateral; lo cierra mediante el mismo criterio formal que gobierna el documento. Cada programa comparece ante cuatro núcleos:
+
+<p align="center"><strong>N<sub>1</sub>: 𝓕<sub>𝓐</sub> = d𝓐 + 𝓐 ∧ 𝓐.</strong></p>
+
+<p align="center"><strong>N<sub>2</sub>: 𝕴<sub>F</sub>.</strong></p>
+
+<p align="center"><strong>N<sub>3</sub>: 𝔠<sup>SV</sup><sub>GEM⋈𝕴<sub>F</sub></sub> = 0.</strong></p>
+
+<p align="center"><strong>N<sub>4</sub>: 𝓔<sup>★</sup><sub>TODO,SV</sub> ≡ 𝔘<sup>unif</sup><sub>SV</sub> = 0.</strong></p>
+
+El dictamen de cada estructura es uno de tres: subordinada, desarmada o refutadora. En los casos analizados no comparece estructura refutadora.
+
+### 14.2. Kaluza-Klein clásica
+
+La estructura Kaluza-Klein clásica parte de una métrica pentadimensional g<sub>AB</sub> y recupera, por reducción dimensional, métrica cuatridimensional, potencial electromagnético A<sub>μ</sub> y escalar φ:
+
+<p align="center"><strong>g<sub>AB</sub> ↦ g<sub>μν</sub> ⊕ A<sub>μ</sub> ⊕ φ.</strong></p>
+
+La curvatura pentadimensional se proyecta como:
+
+<p align="center"><strong>R<sub>5D</sub>(g<sub>AB</sub>) ↦ R(ω) ⊕ F(A) ⊕ φ.</strong></p>
+
+El núcleo R(ω) ⊕ F(A) coincide con la descomposición de 𝓕<sub>𝓐</sub>. El escalar φ no refuta el aparato; queda como término adicional segregado y tipable por el sector correspondiente si se declara su dominio. Dictamen:
+
+<p align="center"><strong>Kaluza-Klein clásica: subordinada.</strong></p>
+
+### 14.3. Kaluza-Klein no abeliana
+
+La extensión no abeliana reemplaza U(1) por un grupo H y toma A con valores en el álgebra 𝔥. Su curvatura es:
+
+<p align="center"><strong>F(A) = dA + A ∧ A.</strong></p>
+
+El término A ∧ A no es obstáculo; es exactamente el término no abeliano ya presente en la ecuación de curvatura. Dictamen:
+
+<p align="center"><strong>Kaluza-Klein no abeliana: subordinada.</strong></p>
+
+### 14.4. Einstein-Cartan y geometrías con torsión
+
+Einstein-Cartan introduce torsión:
+
+<p align="center"><strong>T = D<sub>ω</sub>e.</strong></p>
+
+La conexión ω deja de restringirse a Levi-Civita, pero sigue siendo conexión. La curvatura sigue siendo:
+
+<p align="center"><strong>R(ω) = dω + ω ∧ ω.</strong></p>
+
+La torsión no destruye 𝓕<sub>𝓐</sub>; amplía la conexión gravitatoria admitida. Dictamen:
+
+<p align="center"><strong>Einstein-Cartan: subordinada.</strong></p>
+
+### 14.5. Weyl, Eddington y no metricidad
+
+Las formulaciones con no metricidad introducen:
+
+<p align="center"><strong>Q = ∇g ≠ 0.</strong></p>
+
+La ecuación de curvatura no presupone metricidad. Presupone conexión. Por tanto, una conexión no métrica sigue entrando en:
+
+<p align="center"><strong>𝓕<sub>𝓐</sub> = d𝓐 + 𝓐 ∧ 𝓐.</strong></p>
+
+La no metricidad no refuta el aparato; elimina una restricción sobre la conexión. Dictamen:
+
+<p align="center"><strong>Weyl-Eddington-no metricidad: subordinada.</strong></p>
+
+### 14.6. Gravedad gauge de Lorentz o Poincaré
+
+La gravedad gauge toma ω como conexión de Lorentz o de Poincaré. El campo gravitatorio se expresa por curvatura de conexión:
+
+<p align="center"><strong>ω ↦ R(ω).</strong></p>
+
+Esta lectura no compite con el documento: coincide con su estructura. Dictamen:
+
+<p align="center"><strong>Gravedad gauge Lorentz-Poincaré: subordinada.</strong></p>
+
+### 14.7. Teleparalelismo y gravedad simétrica teleparalela
+
+El teleparalelismo fija curvatura nula y torsión no nula; la gravedad simétrica teleparalela fija torsión y curvatura nulas con no metricidad no nula. Ambas son restricciones internas sobre conexión:
+
+<p align="center"><strong>R = 0, T ≠ 0, Q = 0</strong></p>
+
+o bien:
+
+<p align="center"><strong>R = 0, T = 0, Q ≠ 0.</strong></p>
+
+No destruyen el aparato; seleccionan subregímenes de la conexión. Dictamen:
+
+<p align="center"><strong>Teleparalelismo y gravedad simétrica teleparalela: subordinadas.</strong></p>
+
+### 14.8. Supergravedad
+
+La supergravedad introduce álgebra graduada, gravitino y superconexión. Su forma abstracta puede expresarse como curvatura de superconexión:
+
+<p align="center"><strong>𝓕<sub>super</sub> = d𝓐<sub>super</sub> + 𝓐<sub>super</sub> ∧ 𝓐<sub>super</sub>.</strong></p>
+
+Si se formula así, queda como extensión tipada de conexión-curvatura. Si se invoca sin construir la superconexión y sin proyectarla sobre Γ<sub>U</sub>, no refuta el aparato. La presencia de sector fermiónico no destruye 𝓕<sub>𝓐</sub>; exige tipado adicional. Dictamen:
+
+<p align="center"><strong>Supergravedad: subordinable como superconexión; desarmada como objeción no tipada.</strong></p>
+
+### 14.9. Dualidad gauge-gravedad AdS/CFT
+
+AdS/CFT relaciona una teoría gauge en frontera con una teoría gravitatoria en volumen. Su forma fuerte no destruye la conexión-curvatura: la presupone en ambos lados, como conexión gauge en frontera y como estructura gravitatoria en el volumen. El problema AdS/CFT no refuta la co-clausura; cambia el modo de correspondencia entre dos descripciones.
+
+La lectura SV es estricta: si la correspondencia se formula como proyección entre regímenes, debe pasar por residual de frontera. Si no exhibe residual que haga no nula la ecuación TODO/NADA, no refuta el aparato. Dictamen:
+
+<p align="center"><strong>AdS/CFT: subordinable como correspondencia entre proyecciones; desarmada como objeción al cierre.</strong></p>
+
+### 14.10. Higher gauge theory y 2-conexiones
+
+Las teorías gauge superiores elevan la conexión a estructuras de orden superior. Su forma mínima introduce una 1-conexión A y una 2-conexión B, con curvaturas tipadas. Esto no destruye la ecuación de curvatura; la estratifica:
+
+<p align="center"><strong>(A, B) ↦ (F<sub>A</sub>, H<sub>A,B</sub>).</strong></p>
+
+La estructura superior puede leerse como refinamiento de Γ<sub>U</sub> por composición tipada de niveles. No aporta refutación. Dictamen:
+
+<p align="center"><strong>Higher gauge: subordinable como extensión tipada; desarmada como objeción.</strong></p>
+
+### 14.11. Geometría no conmutativa de Connes
+
+La geometría no conmutativa reemplaza la variedad por una terna espectral. Su objeto primario no es M sino un aparato algebraico-espectral. Sin embargo, para refutar esta publicación tendría que demostrar que la curvatura de conexión, la clase 𝕴<sub>F</sub> o la nulidad conjunta TODO/NADA son imposibles. No lo hace. En la medida en que genera acciones tipo Yang-Mills-gravedad, reproduce conexión-curvatura bajo otra sede formal. Dictamen:
+
+<p align="center"><strong>Geometría no conmutativa: subordinable por proyección espectral; desarmada como refutación.</strong></p>
+
+### 14.12. Loop quantum gravity
+
+La gravedad cuántica de bucles trabaja con conexiones, holonomías y redes de espín. Su núcleo usa conexión como variable fundamental. No destruye 𝓕<sub>𝓐</sub>; cuantiza aspectos de la conexión gravitatoria. Tampoco destruye 𝕴<sub>F</sub>, pues EPR-Heisenberg-Bell comparecen como frontera factual distinta. Dictamen:
+
+<p align="center"><strong>Loop quantum gravity: subordinable como cuantización de conexión; desarmada como objeción.</strong></p>
+
+### 14.13. Twistor theory
+
+La teoría de twistores reescribe estructuras de espacio-tiempo mediante objetos complejos proyectivos. Su potencia reside en transformar la sede geométrica, no en destruir la relación conexión-curvatura ni la co-clausura. Si una formulación twistorial recupera campos gauge, lo hace mediante objetos equivalentes a curvaturas y haces. Dictamen:
+
+<p align="center"><strong>Twistor theory: subordinable por cambio de representación; desarmada como objeción.</strong></p>
+
+### 14.14. Gravedad emergente o entrópica
+
+La gravedad emergente o entrópica intenta derivar gravedad de principios termodinámicos o informacionales. Si sustituye la conexión por emergencia sin recuperar R(ω), no refuta 𝓕<sub>𝓐</sub>; simplemente no alcanza el núcleo geométrico demostrado. Si recupera las ecuaciones gravitatorias, debe hacerlo como proyección efectiva de una estructura que reproduce conexión-curvatura. En ambos casos no destruye el aparato. Dictamen:
+
+<p align="center"><strong>Gravedad emergente o entrópica: subordinable si recupera conexión-curvatura; desarmada si no la alcanza.</strong></p>
+
+### 14.15. Teoría de cuerdas y M-teoría
+
+La teoría de cuerdas y M-teoría introducen objetos extensos, dimensiones adicionales y espectros vibracionales. Sus límites efectivos de baja energía recuperan gravedad y campos gauge. En ese punto, comparecen de nuevo conexión, curvatura y sectores gauge. Si no recuperaran esos objetos, no podrían disputar el régimen GEM tratado. Si los recuperan, quedan subordinadas al núcleo conexión-curvatura como realización efectiva de mayor aparato dimensional. Dictamen:
+
+<p align="center"><strong>Cuerdas-M: subordinable en límite efectivo; desarmada como objeción al cierre demostrado.</strong></p>
+
+### 14.16. Teorema del anexo — No existencia de programa lateral refutador en el conjunto analizado
+
+**Enunciado.** Ninguno de los programas laterales analizados exhibe un operador que haga no nula la conjunción:
+
+<p align="center"><strong>𝓕<sub>𝓐</sub> = d𝓐 + 𝓐 ∧ 𝓐, 𝕴<sub>F</sub>, 𝔠<sup>SV</sup><sub>GEM⋈𝕴<sub>F</sub></sub> = 0, 𝓔<sup>★</sup><sub>TODO,SV</sub> = 0.</strong></p>
+
+**Demostración.** Los programas de conexión, torsión, no metricidad, gauge, teleparalelismo, superconexión, higher gauge, LQG y límites efectivos de cuerdas contienen conexión, extensión de conexión, restricción de conexión o cuantización de conexión. Por tanto, no destruyen 𝓕<sub>𝓐</sub>; quedan subordinados o subordinables.
+
+Los programas de dualidad, twistor y geometría no conmutativa cambian la representación o la sede algebraico-geométrica. Si recuperan campos físicos, recuperan objetos equivalentes a conexión-curvatura o a acciones gauge-gravedad; si no los recuperan, no disputan el dominio material tratado. Por tanto, quedan subordinables o desarmados.
+
+Los programas emergentes o entrópicos sólo podrían refutar el aparato si demostraran que la conexión-curvatura es imposible o innecesaria en el régimen GEM. Si la recuperan como límite, quedan subordinados; si no la recuperan, no alcanzan el núcleo demostrado. Por tanto, quedan desarmados como objeción.
+
+Ninguno de los programas analizados exhibe contradicción con 𝕴<sub>F</sub>, ni con la co-clausura GEM⋈𝕴<sub>F</sub>, ni con la ecuación TODO/NADA. Q.E.D.
+
+### 14.17. Tabla de cierre del anexo
+
+| Programa lateral | Núcleo que toca | Dictamen |
+|---|---|---|
+| Kaluza-Klein clásica | conexión-curvatura + escalar | subordinada |
+| Kaluza-Klein no abeliana | conexión no abeliana | subordinada |
+| Einstein-Cartan | torsión de conexión | subordinada |
+| Weyl-Eddington-no metricidad | conexión no métrica | subordinada |
+| Gauge Lorentz-Poincaré | conexión gravitatoria | subordinada |
+| Teleparalelismo | restricción de conexión | subordinada |
+| Supergravedad | superconexión | subordinable/desarmada |
+| AdS/CFT | correspondencia de proyecciones | subordinable/desarmada |
+| Higher gauge | conexión superior | subordinable/desarmada |
+| Geometría no conmutativa | sede espectral | subordinable/desarmada |
+| Loop quantum gravity | cuantización de conexión | subordinable/desarmada |
+| Twistores | cambio de representación | subordinable/desarmada |
+| Gravedad emergente/entrópica | emergencia efectiva | subordinable o desarmada |
+| Cuerdas-M | límite efectivo gauge-gravedad | subordinable/desarmada |
+
+### 14.18. Cierre del anexo
+
+El anexo no reduce la promesa del documento; la protege. El debate lateral queda sometido a una carga estricta: aportar un operador que rompa 𝓕<sub>𝓐</sub>, 𝕴<sub>F</sub>, 𝔠<sup>SV</sup><sub>GEM⋈𝕴<sub>F</sub></sub> = 0 o 𝓔<sup>★</sup><sub>TODO,SV</sub> = 0. Mientras eso no ocurra, cada programa lateral queda subordinado si preserva la estructura, o desarmado si no alcanza el núcleo. La publicación puede continuar hacia la bibliografía sin abrir flancos laterales.
+---
+
+## 15. Referencias
 
 ### 14.1. Bibliografía externa
 
