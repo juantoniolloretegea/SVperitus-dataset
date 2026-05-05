@@ -316,8 +316,6 @@ Las cuatro reducciones del corpus geométrico estándar tratadas en §14 (Kaluza
 
 ## 5.6. Estatuto técnico del cierre estructural: colapso operatorio sobre operador común
 
-El alcance técnico de las reducciones de §5.3 y §5.5 no debe confundirse con el de la unificación dinámica entre gravedad y electromagnetismo.
-
 ### 5.6.1. Distinción técnica entre unificación dinámica y colapso operatorio
 
 **Unificación dinámica.** Una formulación afirma unificación dinámica entre dos sectores físicos S<sub>1</sub> y S<sub>2</sub> si produce ecuaciones de campo que acoplan no trivialmente las variables de los dos sectores y derivan, de un único principio variacional irreducible, observables predictivos no obtenibles por la suma directa de los dos sectores tratados independientemente.
@@ -350,7 +348,7 @@ Las afirmaciones complementarias (C.4), (C.5), (C.6) se establecen por contrapos
 
 ### 5.6.3. Consecuencia operativa
 
-El programa histórico de Einstein admite cierre estructural en el sentido técnico de (C.1), (C.2) y (C.3). Toda tentativa histórica del programa colapsa operatoriamente sobre el operador común 𝓐 = ω ⊕ A con su acción sectorial. Ese cierre es resultado matemático demostrable, no afirmación de unificación dinámica entre gravedad y electromagnetismo.
+El programa histórico de Einstein admite cierre estructural en el sentido técnico de (C.1), (C.2) y (C.3). Toda tentativa histórica del programa colapsa operatoriamente sobre el operador común 𝓐 = ω ⊕ A con su acción sectorial.
 
 La fórmula 𝓕<sub>𝓐</sub> = d𝓐 + 𝓐 ∧ 𝓐 con 𝓐 = ω ⊕ A pertenece al cálculo estándar de la geometría de fibrados producto, sin contenido formal novedoso en sí misma. La novedad estructural reside en el resultado demostrado de que las seis tentativas históricas del programa de unificación geométrica, sin excepción, colapsan sobre ese operador común. La sede de origen del operador común se desarrolla en el anexo §14.
 
