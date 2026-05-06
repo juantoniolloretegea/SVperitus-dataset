@@ -467,13 +467,9 @@ Toda formulación física compatible deberá declarar explícitamente:
 | **Componente** | **Función** |
 |----------------|---------------------------|
 | Ω | Dominio |
-|---|---|
 | ∂Ω | Frontera persistente |
-|---|---|
 | Id | Identidad estructural |
-|---|---|
 | 𝔇_Γ𝓗 | Redistribución energética |
-|---|---|
 | ℛ_Γ | Residual estructural |
 
 La ausencia de cualquiera de estos componentes impide evaluar rigurosamente persistencia energética.
@@ -630,13 +626,13 @@ La formulación distingue tres regímenes operatorios básicos.
 
 La configuración conserva identidad compatible.
 
-**Régimen crítico** Cuando: 
+**Régimen crítico** Cuando:
 
 ```math
 𝓟_min ≈ 0.
 ```
 
- La configuración alcanza frontera de transición estructural.
+La configuración alcanza frontera de transición estructural.
 
 **Régimen dispersivo** Cuando:
 
@@ -655,13 +651,9 @@ La formulación anterior permite reinterpretar múltiples regímenes físicos ba
 | **Régimen** | **Interpretación** |
 |----------------|-------------------------------------------------------|
 | Átomo estable | Persistencia discreta compatible |
-|---|---|
 | Plasma | Persistencia parcial sin estabilidad discreta plena |
-|---|---|
 | Combustión | Colapso dispersivo progresivo |
-|---|---|
 | Estrella | Persistencia macroscópica bajo redistribución extrema |
-|---|---|
 | Núcleo estable | Persistencia de frontera altamente confinada |
 
 ## 4.9. Importancia del residual
@@ -873,13 +865,9 @@ La reinterpretación estructural de masa permite conectar bajo un mismo criterio
 | **Régimen** | **Interpretación** |
 |----------------|-------------------------------------------------------|
 | Núcleo estable | Alta persistencia confinada |
-|---|---|
 | Átomo estable | Persistencia discreta compatible |
-|---|---|
 | Plasma | Persistencia parcial degradada |
-|---|---|
 | Estrella | Persistencia macroscópica bajo redistribución extrema |
-|---|---|
 | Combustión | Colapso progresivo de persistencia |
 
 ## 5.10. Masa y frontera
@@ -1175,7 +1163,6 @@ Debe distinguirse entre:
 | **Concepto** | **Función** |
 |--------------------|----------------------------------------------------------|
 | Fuerza dinámica | Describe cambio de movimiento o interacción local |
-|---|---|
 | Fuerza estructural | Describe orientación de persistencia frente a dispersión |
 
 La fuerza dinámica puede explicar cómo cambia una trayectoria. La fuerza estructural intenta modelar otra cuestión: cómo una configuración energética conserva identidad mientras cambia.
@@ -1287,9 +1274,7 @@ Esto permite distinguir:
 | **Régimen** | **Orientación estructural** |
 |---------------|-----------------------------------|
 | Átomo estable | Conserva frontera discreta |
-|---|---|
 | Plasma | Conserva persistencia parcial |
-|---|---|
 | Dispersión | No conserva identidad persistente |
 
 ## 7.9. Fuerza y régimen estelar
@@ -1379,11 +1364,8 @@ Por ejemplo:
 | Régimen | Tipo de persistencia |
 |---|---|
 | Estrella | Persistencia macroscópica continua |
-|---|---|
 | Plasma | Persistencia parcial degradada |
-|---|---|
 | Átomo | Persistencia discreta estable |
-|---|---|
 | Combustión | Colapso dispersivo progresivo |
 
 El átomo se distingue porque introduce simultáneamente:
@@ -1459,7 +1441,6 @@ El plasma constituye así un régimen extremadamente importante porque separa do
 | Concepto | Significado |
 |---|---|
 | Persistencia energética | Capacidad parcial de conservar estructura |
-|---|---|
 | Persistencia atómica | Conservación discreta compatible de identidad |
 
 El plasma conserva la primera parcialmente, pero degrada la segunda.
@@ -1489,7 +1470,6 @@ Sin embargo, esta formulación distingue rigurosamente entre:
 | Concepto | Significado |
 |---|---|
 | Mínimo conocido | Primer régimen estable actualmente observable |
-|---|---|
 | Mínimo universal | Régimen estructural mínimo absoluto |
 
 La teoría no identifica automáticamente ambos conceptos.
@@ -1711,11 +1691,8 @@ El tránsito preatómico → atómico puede describirse así:
 | **Etapa** | **Rasgo dominante** | **Dictamen** |
 |----------------------|------------------------------|----------------|
 | Dispersión | Sin confinamiento suficiente | No persistente |
-|---|---|---|
 | Persistencia parcial | Confinamiento incompleto | Preatómico |
-|---|---|---|
 | Frontera crítica | Umbral de estabilidad | Transicional |
-|---|---|---|
 | Frontera discreta | Identidad conservada | Atómico |
 
 La aparición del átomo ocurre únicamente en la última etapa.
@@ -1894,13 +1871,13 @@ Formalmente puede ocurrir que:
 𝓟_min > 0
 ```
 
-mientras: 
+mientras:
 
 ```math
 δ(∂Ω_atom) ≈ Λ_atom.
 ```
 
- Por tanto, el plasma puede conservar persistencia parcial sin constituir régimen atómico estable.
+Por tanto, el plasma puede conservar persistencia parcial sin constituir régimen atómico estable.
 
 ## 10.5. Régimen IV — Átomo estable
 
@@ -1999,17 +1976,11 @@ Su degradación térmica o mecánica puede interpretarse como aumento de redistr
 | **Régimen** | **𝓟_min** | **Frontera** | **Residual** | **Identidad** | **Dictamen** |
 |-----------------------|-------------------|-------------------------|--------------|---------------|-------------------------|
 | Dispersión energética | < 0 | Ausente o degradada | Dominante | No conservada | Dispersivo |
-|---|---|---|---|---|---|
 | Combustión intensa | < 0 | Perdida progresivamente | Alto | Degradada | Transicional-dispersivo |
-|---|---|---|---|---|---|
 | Plasma | > 0 parcial | Parcial | Medio/alto | Parcial | Preatómico |
-|---|---|---|---|---|---|
 | Átomo estable | > 0 | Discreta estable | Acotado | Conservada | Atómico |
-|---|---|---|---|---|---|
 | Núcleo estable | > 0 alto | Muy confinada | Bajo | Conservada | Nuclear persistente |
-|---|---|---|---|---|---|
 | Estrella | > 0 macroscópico | Conservada globalmente | Creciente | Persistente | Estelar |
-|---|---|---|---|---|---|
 | Materia condensada | > 0 colectivo | Cooperativa | Acotado | Conservada | Material persistente |
 
 ## 10.10. Lectura estructural del banco
@@ -2081,15 +2052,10 @@ Esta sección fija tablas operatorias de contraste para impedir ambigüedad conc
 | **Concepto** | **Energía** | **Persistencia estructural** |
 |-------------------------------|-----------------------------|--------------------------------------|
 | Función | Capacidad de transformación | Conservación de identidad compatible |
-|---|---|---|
 | Puede dispersarse | Sí | Sólo dentro de límite compatible |
-|---|---|---|
 | Requiere frontera | No necesariamente | Sí |
-|---|---|---|
 | Puede existir sin estabilidad | Sí | No |
-|---|---|---|
 | Relación con residual | Puede aumentarlo | Debe acotarlo |
-|---|---|---|
 | Dictamen estructural | Magnitud de transformación | Régimen de identidad conservada |
 
 La energía por sí sola no garantiza estructura persistente.
@@ -2101,13 +2067,9 @@ La persistencia aparece cuando la energía queda organizada de modo que conserva
 | **Masa convencional** | **Masa estructural** |
 |----------------------------------------------------------------------|-------------------------------------------------------------|
 | Magnitud física local en dominios clásicos, relativistas o cuánticos | Persistencia energética efectiva de frontera |
-|---|---|
 | Opera como parámetro dinámico o inercial | Opera como criterio de identidad compatible |
-|---|---|
 | Puede aparecer vinculada a energía total | Se define por confinamiento menos redistribución y residual |
-|---|---|
 | No exige declarar residual estructural | Exige residual explícito |
-|---|---|
 | Describe propiedades físicas sectoriales | Compara regímenes heterogéneos de persistencia |
 
 La masa estructural no sustituye la masa convencional. La reinterpreta en una capa transversal de persistencia.
@@ -2117,13 +2079,9 @@ La masa estructural no sustituye la masa convencional. La reinterpreta en una ca
 | **Magnitud** | **Calor estructural 𝒬** | **Fuerza estructural 𝓕\_∂** |
 |------------------------|------------------------------------|---------------------------------------|
 | Función | Redistribución energética efectiva | Orientación/confinamiento de frontera |
-|---|---|---|
 | Tendencia | Puede ser dispersiva | Puede ser conservadora |
-|---|---|---|
 | Relación con identidad | Puede degradarla | Puede sostenerla |
-|---|---|---|
 | Relación con residual | Puede incrementarlo | Puede compensarlo parcialmente |
-|---|---|---|
 | Dictamen | Presión sobre frontera | Capacidad de persistencia |
 
 La persistencia depende de la relación entre ambas magnitudes.
@@ -2141,13 +2099,9 @@ la estructura conserva identidad compatible.
 | **Magnitud** | **Frontera ∂Ω** | **Residual ℛ_Γ** |
 |--------------------------|---------------------------------|------------------------------------|
 | Función | Límite de identidad persistente | Pérdida o degradación no absorbida |
-|---|---|---|
 | Debe ser nula | No | No |
-|---|---|---|
 | Debe ser explícita | Sí | Sí |
-|---|---|---|
 | Relación con estabilidad | Conserva identidad | Puede destruirla si domina |
-|---|---|---|
 | Régimen admisible | Frontera compatible | Residual acotado |
 
 La teoría no exige residual nulo.
@@ -2159,15 +2113,10 @@ Exige: residual declarado y estructuralmente acotado.
 | **Magnitud** | **Plasma** | **Átomo estable** |
 |-------------------------|---------------------------|-------------------|
 | Persistencia energética | Parcial | Conservada |
-|---|---|---|
 | Frontera | Degradada o incompleta | Discreta estable |
-|---|---|---|
 | Intercambio energético | Intenso | Compatible |
-|---|---|---|
 | Residual | Medio/alto | Acotado |
-|---|---|---|
 | Identidad | Parcial | Conservada |
-|---|---|---|
 | Dictamen | Preatómico o transicional | Atómico |
 
 El plasma demuestra que persistencia energética y persistencia atómica no son equivalentes.
@@ -2177,13 +2126,9 @@ El plasma demuestra que persistencia energética y persistencia atómica no son 
 | **Magnitud** | **Material estable** | **Combustión intensa** |
 |----------------|----------------------|------------------------|
 | Frontera | Conservada | Degradada |
-|---|---|---|
 | Redistribución | Compatible | Dominante |
-|---|---|---|
 | Residual | Acotado | Alto |
-|---|---|---|
 | Identidad | Conservada | Perdida o transformada |
-|---|---|---|
 | Persistencia | Positiva | Negativa/transicional |
 
 La combustión no destruye energía.
@@ -2195,13 +2140,9 @@ Destruye persistencia estructural de una configuración determinada.
 | **Magnitud** | **Estrella persistente** | **Dispersión dominante** |
 |----------------|------------------------------|--------------------------|
 | Confinamiento | Globalmente dominante | Insuficiente |
-|---|---|---|
 | Redistribución | Extrema pero contenida | Dominante |
-|---|---|---|
 | Residual | Creciente | No acotado |
-|---|---|---|
 | Identidad | Conservada macroscópicamente | No conservada |
-|---|---|---|
 | Dictamen | Persistencia estelar | Régimen dispersivo |
 
 La estrella muestra que persistencia puede coexistir con transformación intensa.
@@ -2211,13 +2152,9 @@ La estrella muestra que persistencia puede coexistir con transformación intensa
 | **Magnitud** | **Núcleo estable** | **Núcleo inestable** |
 |------------------|----------------------|----------------------------|
 | Confinamiento | Muy alto | Alto pero insuficiente |
-|---|---|---|
 | Residual | Bajo | Creciente |
-|---|---|---|
 | Frontera nuclear | Conservada | Crítica |
-|---|---|---|
 | Identidad | Conservada | Transicional |
-|---|---|---|
 | Dictamen | Persistencia nuclear | Decaimiento/reorganización |
 
 La estabilidad nuclear tampoco es absoluta.
@@ -2229,19 +2166,12 @@ Su persistencia depende de residual acotado y confinamiento suficiente.
 | **Condición** | **Dictamen** |
 |---------------------------------|-------------------------|
 | 𝓟_min > 0 con frontera estable | Persistente |
-|---|---|
 | 𝓟_min > 0 con frontera parcial | Preatómico/transicional |
-|---|---|
 | 𝓟_min ≈ 0 | Crítico |
-|---|---|
 | 𝓟_min < 0 | Dispersivo |
-|---|---|
 | ℛ_Γ no declarado | Incompleto |
-|---|---|
 | ℛ_Γ dominante | Incompatible |
-|---|---|
 | ∂Ω = ∅ con identidad pretendida | Inválido |
-|---|---|
 | 𝓔★(Γ_U) ≠ 0 | No admisible |
 
 ## 11.11. Consecuencia metodológica
@@ -2597,17 +2527,11 @@ Por tanto, la teoría quedaría refutada en su forma universal si existiera una 
 | **Condición observada** | **Consecuencia** |
 |--------------------------------------------------|-----------------------------------------|
 | Id≠∅ con 𝓟_min≤0 | Refutación nuclear |
-|---|---|
 | Id≠∅ con ∂Ω=∅ | Refutación por ausencia de frontera |
-|---|---|
 | ℛ_Γ→∞ con estabilidad | Refutación por residual ilimitado |
-|---|---|
 | 𝒬+ℛ_Γ>𝓕\_∂ con identidad conservada | Refutación por dispersión dominante |
-|---|---|
 | Átomo estable con δ(∂Ω_atom)≥Λ_atom | Refutación del criterio atómico |
-|---|---|
 | Estabilidad atómica con intercambio incompatible | Refutación de discretización compatible |
-|---|---|
 | Persistencia completa con 𝓔★(Γ_U)≠0 | Refutación universal |
 
 ## 13.10. Falsación local y falsación total
@@ -2675,23 +2599,14 @@ A continuación se presenta una selección de diez elementos químicos represent
 | Z | Símbolo | Nombre | Función estructural | Dictamen |
 |---|---|---|---|---|
 | 1 | H | Hidrógeno | mínimo conocido de persistencia atómica discreta | `ELEMENTO_ADMISIBLE` |
-|---|---|---|---|---|
 | 2 | He | Helio | gas noble inicial, frontera nuclear elemental | `ELEMENTO_ADMISIBLE` |
-|---|---|---|---|---|
 | 6 | C | Carbono | núcleo de la química orgánica, frontera versátil | `ELEMENTO_ADMISIBLE` |
-|---|---|---|---|---|
 | 8 | O | Oxígeno | soporte de agua y composición atmosférica | `ELEMENTO_ADMISIBLE` |
-|---|---|---|---|---|
 | 14 | Si | Silicio | base de la química inorgánica condensada | `ELEMENTO_ADMISIBLE` |
-|---|---|---|---|---|
 | 26 | Fe | Hierro | persistencia material y máximo de estabilidad nuclear | `ELEMENTO_ADMISIBLE` |
-|---|---|---|---|---|
 | 29 | Cu | Cobre | conductor estructural, frontera metálica conservada | `ELEMENTO_ADMISIBLE` |
-|---|---|---|---|---|
 | 79 | Au | Oro | persistencia química inerte de referencia | `ELEMENTO_ADMISIBLE` |
-|---|---|---|---|---|
 | 92 | U | Uranio | residual nuclear elevado dentro de clase conocida | `ELEMENTO_ADMISIBLE` |
-|---|---|---|---|---|
 | 118 | Og | Oganesón | extremo superior conocido del dominio IUPAC | `ELEMENTO_ADMISIBLE` |
 
 La selección no agota la tabla periódica. Sirve únicamente como muestra representativa de regímenes atómicos de naturaleza distinta (hidrógeno mínimo, gases nobles, no metales, metales de transición, metales nobles, actínidos, transactínidos). Para la regeneración formal del dominio completo Z=1..118, así como para el dictamen conservador del candidato hipotético Z=119, se remite al laboratorio reproducible descrito en §17 y a los datos `data/elementos_iupac_1_118.csv` y `data/banco_demostrativo_12_casos.csv`.
@@ -2848,9 +2763,7 @@ Finalmente:
 
 certifica compatibilidad universal.
 
-```math
 Luego E_Z pertenece a 𝕋_chem. ∎
-```
 
 ## 14.7. Teorema de no clausura periódica
 
@@ -2919,11 +2832,8 @@ A continuación se presenta una selección de cuatro moléculas representativas 
 | Molécula | Composición atómica | Función estructural | Dictamen |
 |---|---|---|---|
 | H₂O | H · H · O | agua, caso canónico de composición persistente | `MOLECULA_ADMISIBLE` |
-|---|---|---|---|
 | CO₂ | C · O · O | dióxido de carbono, gas atmosférico clave | `MOLECULA_ADMISIBLE` |
-|---|---|---|---|
 | CH₄ | C · H · H · H · H | metano, molécula energética y atmosférica | `MOLECULA_ADMISIBLE` |
-|---|---|---|---|
 | O₃ | O · O · O | ozono, frontera reactiva de alta variabilidad | `MOLECULA_ADMISIBLE` |
 
 La selección incluye una molécula líquida de referencia (H₂O), dos gases atmosféricos asociados a procesos de combustión y atmósfera planetaria (CO₂, CH₄) y una molécula reactiva de banda atmosférica (O₃). El caso del agua se desarrolla con detalle propio en §15.8–§15.10. Para la verificación operatoria de las cuatro moléculas y la composición a partir del dictamen de sus componentes atómicos se remite al laboratorio reproducible descrito en §17 y al banco demostrativo `data/banco_demostrativo_12_casos.csv`.
@@ -3341,7 +3251,6 @@ A continuación se presenta una tabla con las dos atmósferas de referencia del 
 | Identificador | Componentes representativos | Retención | Dictamen |
 |---|---|---|---|
 | ATM_TIERRA | N₂, O₂, Ar, CO₂, H₂O | sí | `ATMOSFERA_ADMISIBLE` |
-|---|---|---|---|
 | ATM_NO_RETENIDA | gas no retenido | no | `NO_ADMISIBLE` |
 
 La atmósfera terrestre se desarrolla con detalle propio en §16.9–§16.11 como caso particular de régimen atmosférico persistente. El caso `ATM_NO_RETENIDA` cumple en el laboratorio la función de demostrar que la admisibilidad atmosférica no resulta automática: la condición diferencial es la retención planetaria, formulada en §16.7. Para la verificación operatoria conjunta se remite al laboratorio reproducible descrito en §17 y al banco demostrativo `data/banco_demostrativo_12_casos.csv`.
@@ -3831,17 +3740,11 @@ El laboratorio requiere las siguientes magnitudes:
 | **Variable** | **Significado operatorio** |
 |------------------|----------------------------------------|
 | F_boundary | Confinamiento estructural de frontera |
-|---|---|
 | Q_transfer | Redistribución energética efectiva |
-|---|---|
 | Residual | Residual estructural |
-|---|---|
 | BoundaryVar | Variación estructural de frontera |
-|---|---|
 | Lambda_atom | Umbral de estabilidad atómica |
-|---|---|
 | DiscreteExchange | Compatibilidad discreta de intercambio |
-|---|---|
 | E_star_ok | Compatibilidad universal |
 
 ## 17.3. Ecuación implementada
@@ -3857,9 +3760,7 @@ Dictámenes básicos:
 | **Condición** | **Dictamen** |
 |---------------|--------------|
 | P_min > 0 | Persistente |
-|---|---|
 | P_min ≈ 0 | Crítico |
-|---|---|
 | P_min < 0 | Dispersivo |
 
 Dictamen atómico:
@@ -3867,9 +3768,7 @@ Dictamen atómico:
 | **Condición adicional** | **Dictamen** |
 |------------------------------------------------------|------------------------|
 | BoundaryVar < Lambda_atom y DiscreteExchange = True | Atómico estable |
-|---|---|
 | BoundaryVar ≥ Lambda_atom | Preatómico o degradado |
-|---|---|
 | DiscreteExchange = False | No atómico estable |
 
 ## 17.4. Código de referencia
@@ -3888,50 +3787,11 @@ class Dictamen(str, Enum):
     NO_ADMISIBLE = "NO_ADMISIBLE"
     U = "U"
 
-@dataclass(frozen=True)
-class Estado:
-    F_boundary: float
-    Q_transfer: float
-    residual: float
-    boundary_var: float
-    lambda_umbral: float
-    discrete_exchange: bool
-    identity: bool
-    e_star_ok: bool
-    known: bool = True
+@dataclass(frozen=True) class Estado: F_boundary: float Q_transfer: float residual: float boundary_var: float lambda_umbral: float discrete_exchange: bool identity: bool e_star_ok: bool known: bool = True def p_min(e: Estado) -> float: vals = [e.F_boundary, e.Q_transfer, e.residual, e.boundary_var, e.lambda_umbral] if any(v < 0 for v in vals): raise ValueError("SV-GH-INPUT-001: magnitud negativa no admisible") if e.lambda_umbral <= 0: raise ValueError("SV-GH-BOUNDARY-001: umbral de frontera inválido") return e.F_boundary - e.Q_transfer - e.residual
 
-def p_min(e: Estado) -> float:
-    vals = [e.F_boundary, e.Q_transfer, e.residual, e.boundary_var, e.lambda_umbral]
-    if any(v < 0 for v in vals):
-        raise ValueError("SV-GH-INPUT-001: magnitud negativa no admisible")
-    if e.lambda_umbral <= 0:
-        raise ValueError("SV-GH-BOUNDARY-001: umbral de frontera inválido")
-    return e.F_boundary - e.Q_transfer - e.residual
+def condicion_base(e: Estado) -> bool: return (p_min(e) > 0 and e.boundary_var < e.lambda_umbral and e.residual < e.lambda_umbral and e.discrete_exchange and e.identity and e.e_star_ok) def dictaminar_elemento(e: Estado, Z: int) -> Dictamen: if Z > 118 and not e.known: return Dictamen.U return Dictamen.ELEMENTO_ADMISIBLE if condicion_base(e) else Dictamen.NO_ADMISIBLE
 
-def condicion_base(e: Estado) -> bool:
-    return (p_min(e) > 0
-            and e.boundary_var < e.lambda_umbral
-            and e.residual < e.lambda_umbral
-            and e.discrete_exchange and e.identity and e.e_star_ok)
-
-def dictaminar_elemento(e: Estado, Z: int) -> Dictamen:
-    if Z > 118 and not e.known:
-        return Dictamen.U
-    return Dictamen.ELEMENTO_ADMISIBLE if condicion_base(e) else Dictamen.NO_ADMISIBLE
-
-def dictaminar_molecula(componentes: Iterable[Dictamen], e: Estado) -> Dictamen:
-    if not all(c == Dictamen.ELEMENTO_ADMISIBLE for c in componentes):
-        return Dictamen.NO_ADMISIBLE
-    return Dictamen.MOLECULA_ADMISIBLE if condicion_base(e) else Dictamen.NO_ADMISIBLE
-
-def dictaminar_atmosfera(componentes: Iterable[Dictamen], e: Estado, retencion_grav: bool) -> Dictamen:
-    if not all(c in (Dictamen.MOLECULA_ADMISIBLE, Dictamen.ELEMENTO_ADMISIBLE)
-               for c in componentes):
-        return Dictamen.NO_ADMISIBLE
-    if not retencion_grav:
-        return Dictamen.NO_ADMISIBLE
-    return Dictamen.ATMOSFERA_ADMISIBLE if condicion_base(e) else Dictamen.NO_ADMISIBLE
-```
+def dictaminar_molecula(componentes: Iterable[Dictamen], e: Estado) -> Dictamen: if not all(c == Dictamen.ELEMENTO_ADMISIBLE for c in componentes): return Dictamen.NO_ADMISIBLE return Dictamen.MOLECULA_ADMISIBLE if condicion_base(e) else Dictamen.NO_ADMISIBLE def dictaminar_atmosfera(componentes: Iterable[Dictamen], e: Estado, retencion_grav: bool) -> Dictamen: if not all(c in (Dictamen.MOLECULA_ADMISIBLE, Dictamen.ELEMENTO_ADMISIBLE) for c in componentes): return Dictamen.NO_ADMISIBLE if not retencion_grav: return Dictamen.NO_ADMISIBLE return Dictamen.ATMOSFERA_ADMISIBLE if condicion_base(e) else Dictamen.NO_ADMISIBLE ```
 
 El módulo expone tres funciones de dictamen: `dictaminar_elemento`, `dictaminar_molecula` y `dictaminar_atmosfera`, todas subordinadas a la misma `condicion_base` que codifica `𝓟_min > 0`, frontera bajo umbral, residual bajo umbral, intercambio discreto, identidad no vacía y compuerta universal `𝓔★(Γ_U)=0`. Para Z>118 sin verificación material, el dictamen conservador es `U`.
 
@@ -3967,11 +3827,7 @@ assert p_min(plasma) == 1.0
 assert dictaminar_elemento(plasma, Z=1) == Dictamen.NO_ADMISIBLE
 ```
 
-```math
-Resultado: `𝓟_min = 1.0 > 0` pero boundary_var ≥ λ
-```
-
- y `discrete_exchange = False`. Dictamen: `NO_ADMISIBLE` para régimen atómico. La condición de frontera discreta queda incumplida.
+Resultado: `𝓟_min = 1.0 > 0` pero boundary_var ≥ λ y `discrete_exchange = False`. Dictamen: `NO_ADMISIBLE` para régimen atómico. La condición de frontera discreta queda incumplida.
 
 ## 17.7. Caso III — Combustión intensa
 
@@ -3992,13 +3848,13 @@ Resultado: `𝓟_min = −6.0 < 0`. Dictamen: `NO_ADMISIBLE`. Régimen dispersiv
 
 ## 17.8. Caso IV — Régimen crítico
 
-El cuarto caso fija deliberadamente 
+El cuarto caso fija deliberadamente
 
 ```math
 𝓟_min ≈ 0
 ```
 
- para verificar el comportamiento del dictamen en el umbral.
+para verificar el comportamiento del dictamen en el umbral.
 
 ```python
 critico = Estado(
@@ -4028,9 +3884,7 @@ assert p_min(incompatible) == 7.0
 assert dictaminar_elemento(incompatible, Z=1) == Dictamen.NO_ADMISIBLE
 ```
 
-```math
 Resultado: `𝓟_min = 7.0 > 0` pero 𝓔★(Γ_U) ≠ 0
-```
 
 . Dictamen: `NO_ADMISIBLE`. La compuerta universal cierra la admisibilidad sin importar las restantes condiciones operatorias.
 
@@ -4039,13 +3893,9 @@ Resultado: `𝓟_min = 7.0 > 0` pero 𝓔★(Γ_U) ≠ 0
 | **Caso** | **P_min** | **Dictamen** |
 |----------------------------|-----------|--------------|
 | Átomo estable | 7.0 | ATOMICO |
-|---|---|---|
 | Plasma | 1.0 | PREATOMICO |
-|---|---|---|
 | Combustión | -4.0 | DISPERSIVO |
-|---|---|---|
 | Crítico | 0.0 | CRITICO |
-|---|---|---|
 | Incompatibilidad universal | 8.0 | NO_ADMISIBLE |
 
 ## 17.11. Catálogo mínimo de errores
@@ -4053,17 +3903,11 @@ Resultado: `𝓟_min = 7.0 > 0` pero 𝓔★(Γ_U) ≠ 0
 | **Código** | **Condición** | **Significado** |
 |-----------------------|-----------------------------|----------------------------------|
 | SV-PERSIST-INPUT-001 | Magnitud negativa ilegítima | Entrada no admisible |
-|---|---|---|
 | SV-BOUNDARY-INPUT-001 | Lambda_atom = 0 | Umbral inválido |
-|---|---|---|
 | SV-PERSIST-001 | P_min < 0 | Dispersión dominante |
-|---|---|---|
 | SV-PERSIST-002 | P_min ≈ 0 | Régimen crítico |
-|---|---|---|
 | SV-BOUNDARY-001 | BoundaryVar ≥ Lambda_atom | Frontera atómica no estabilizada |
-|---|---|---|
 | SV-DISCRETE-001 | DiscreteExchange = False | Intercambio no atómico |
-|---|---|---|
 | SV-TODO-001 | E_star_ok = False | Incompatibilidad universal |
 
 ## 17.12. Criterio de fallo experimental del laboratorio
@@ -4538,9 +4382,7 @@ satisface:
 
 y posee residual estructural compatible. **Demostración** La declaración de Ω delimita el dominio. La declaración de Π impide confundir representación con totalidad.
 
-```math
 La declaración de 𝓘 fija qué se conserva.
-```
 
 La declaración de ℛ hace visible qué no se absorbe.
 
@@ -4555,13 +4397,9 @@ En la teoría desarrollada:
 | **Componente** | **Contenido** |
 |----------------|-------------------------------------------------------|
 | Ω | Dominio de configuraciones energéticas estructurales |
-|---|---|
 | Π | Proyección hacia régimen físico particular |
-|---|---|
 | 𝓘 | Frontera, identidad, residual acotado, compatibilidad |
-|---|---|
 | ℛ | Pérdida estructural no absorbida |
-|---|---|
 | 𝓔★ | Compüerta universal de legitimidad |
 
 La persistencia sólo puede declararse cuando estos componentes quedan explícitamente satisfechos.
@@ -4573,13 +4411,9 @@ Para el régimen atómico:
 | **Componente** | **Contenido** |
 |----------------|------------------------------------------------------|
 | Ω_atom | Dominio de persistencia discreta estable |
-|---|---|
 | Π_atom | Proyección hacia identidad atómica |
-|---|---|
 | 𝓘_atom | Frontera discreta, intercambio compatible, identidad |
-|---|---|
 | ℛ_atom | Residual atómico acotado |
-|---|---|
 | 𝓔★ | Compatibilidad universal |
 
 Sin estos elementos, la afirmación “átomo estable” resulta incompleta.
@@ -4591,13 +4425,9 @@ Para el plasma:
 | **Componente** | **Contenido** |
 |----------------|-----------------------------------------------|
 | Ω_plasma | Dominio de persistencia parcial |
-|---|---|
 | Π_plasma | Proyección hacia régimen ionizado |
-|---|---|
 | 𝓘_plasma | Confinamiento parcial, intercambio intenso |
-|---|---|
 | ℛ_plasma | Residual medio o alto |
-|---|---|
 | 𝓔★ | Compatibilidad universal parcial o no cerrada |
 
 El plasma no debe tratarse como mera ausencia de átomo, sino como régimen estructural propio de persistencia parcial.
@@ -4609,13 +4439,9 @@ Para el régimen estelar:
 | **Componente** | **Contenido** |
 |----------------|-------------------------------------------------------|
 | Ω_star | Dominio de persistencia macroscópica energética |
-|---|---|
 | Π_star | Proyección hacia confinamiento estelar |
-|---|---|
 | 𝓘_star | Frontera global, transformación nuclear, persistencia |
-|---|---|
 | ℛ_star | Residual creciente |
-|---|---|
 | 𝓔★ | Compatibilidad bajo transformación prolongada |
 
 La estrella demuestra que persistencia no exige inmovilidad, sino compatibilidad bajo transformación.
@@ -4637,13 +4463,9 @@ Su finalidad es evitar ambigüedad semántica y garantizar que cada símbolo con
 | **Símbolo** | **Significado** |
 |-------------|----------------------------------------------------------|
 | Ω | Dominio estructural de una formulación |
-|---|---|
 | ∂Ω | Frontera estructural del dominio |
-|---|---|
 | Γ | Trayectoria estructural considerada |
-|---|---|
 | Γ_U | Trayectoria universal de compatibilidad |
-|---|---|
 | (Γ,n) | Configuración energética situada en trayectoria y estado |
 
 ## 21.3. Persistencia
@@ -4651,13 +4473,9 @@ Su finalidad es evitar ambigüedad semántica y garantizar que cada símbolo con
 | **Símbolo** | **Significado** |
 |-------------|---------------------------------------------|
 | 𝓟_min | Persistencia energética mínima |
-|---|---|
 | Id(Γ,n) | Identidad estructural persistente |
-|---|---|
 | μ(Γ,n) | Masa estructural efectiva |
-|---|---|
 | A_min | Mínimo estructural universal, no clausurado |
-|---|---|
 | H | Hidrógeno como mínimo conocido observable |
 
 La ecuación central es:
@@ -4671,11 +4489,8 @@ La ecuación central es:
 | **Símbolo** | **Significado** |
 |-------------|------------------------------------------|
 | 𝓕\_∂ | Capacidad estructural de frontera |
-|---|---|
 | δ(∂Ω) | Variación estructural de frontera |
-|---|---|
 | ∂Ω_atom | Frontera estructural atómica |
-|---|---|
 | Λ_atom | Umbral compatible de estabilidad atómica |
 
 La condición mínima de estabilidad atómica queda expresada por:
@@ -4689,11 +4504,8 @@ La condición mínima de estabilidad atómica queda expresada por:
 | **Símbolo** | **Significado** |
 |-------------|------------------------------------------------|
 | 𝒬 | Redistribución energética efectiva |
-|---|---|
 | Θ | Intensidad estructural de redistribución |
-|---|---|
 | 𝔇_Γ𝓗 | Derivada estructural de intercambio energético |
-|---|---|
 | ℛ_Γ | Residual estructural |
 
 Con:
@@ -4707,11 +4519,8 @@ Con:
 | **Símbolo** | **Significado** |
 |-------------|------------------------------------------------|
 | Ω_pre | Dominio preatómico |
-|---|---|
 | Ω_atom | Dominio atómico estable |
-|---|---|
 | Δ𝓗 | Intercambio energético |
-|---|---|
 | 𝓢_disc | Conjunto de transiciones discretas compatibles |
 
 La condición de intercambio compatible se expresa como:
@@ -4725,11 +4534,8 @@ La condición de intercambio compatible se expresa como:
 | **Símbolo** | **Significado** |
 |-------------|---------------------------------------------------|
 | 𝓔★(Γ_U)=0 | Compüerta universal de compatibilidad estructural |
-|---|---|
 | U | Estado de indeterminación estructural legítima |
-|---|---|
 | Π | Proyección operatoria |
-|---|---|
 | 𝓘 | Invariantes estructurales |
 
 El cuádruple mínimo de legitimidad es:
@@ -4743,17 +4549,11 @@ El cuádruple mínimo de legitimidad es:
 | **Condición** | **Dictamen** |
 |---------------------|--------------------------|
 | 𝓟_min>0 | Persistente |
-|---|---|
 | 𝓟_min≈0 | Crítico |
-|---|---|
 | 𝓟_min<0 | Dispersivo |
-|---|---|
 | δ(∂Ω_atom)<Λ_atom | Frontera atómica estable |
-|---|---|
 | ℛ_Γ no declarado | Formulación incompleta |
-|---|---|
 | 𝓔★(Γ_U)≠0 | No admisible |
-|---|---|
 | Sin base suficiente | U |
 
 ## 21.9. Resultado de la sección
@@ -4901,7 +4701,6 @@ Esto obliga a distinguir rigurosamente:
 | Concepto | Significado |
 |---|---|
 | Persistencia energética | Conservación parcial de estructura |
-|---|---|
 | Persistencia atómica | Conservación discreta estable |
 
 La teoría se construye precisamente sobre esa distinción.
