@@ -2596,18 +2596,18 @@ Su lectura es directa: una clase atómica pertenece a la tabla periódica quími
 
 A continuación se presenta una selección de diez elementos químicos representativos del dominio periódico estructural 𝕋_chem. Cada uno cumple las condiciones de pertenencia formuladas en §14.5–§14.6 y queda dictaminado como `ELEMENTO_ADMISIBLE` por el laboratorio reproducible (§17). El laboratorio regenera además los 118 elementos de la tabla IUPAC vigente sin parametrización individual (118/118 admisibles), acompañados de la marca conservadora `U` para todo candidato Z>118 sin base estructural suficiente.
 
-| Z | Símbolo | Nombre | Función estructural | Dictamen |
-|---|---|---|---|---|
-| 1 | H | Hidrógeno | mínimo conocido de persistencia atómica discreta | `ELEMENTO_ADMISIBLE` |
-| 2 | He | Helio | gas noble inicial, frontera nuclear elemental | `ELEMENTO_ADMISIBLE` |
-| 6 | C | Carbono | núcleo de la química orgánica, frontera versátil | `ELEMENTO_ADMISIBLE` |
-| 8 | O | Oxígeno | soporte de agua y composición atmosférica | `ELEMENTO_ADMISIBLE` |
-| 14 | Si | Silicio | base de la química inorgánica condensada | `ELEMENTO_ADMISIBLE` |
-| 26 | Fe | Hierro | persistencia material y máximo de estabilidad nuclear | `ELEMENTO_ADMISIBLE` |
-| 29 | Cu | Cobre | conductor estructural, frontera metálica conservada | `ELEMENTO_ADMISIBLE` |
-| 79 | Au | Oro | persistencia química inerte de referencia | `ELEMENTO_ADMISIBLE` |
-| 92 | U | Uranio | residual nuclear elevado dentro de clase conocida | `ELEMENTO_ADMISIBLE` |
-| 118 | Og | Oganesón | extremo superior conocido del dominio IUPAC | `ELEMENTO_ADMISIBLE` |
+| Z | Símbolo | Nombre | Masa atómica (u) | Configuración electrónica | Periodo | Grupo | Estado físico (STP) | Función estructural SV | Dictamen |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | H | Hidrógeno | 1.008 | 1s¹ | 1 | 1 | gas | mínimo conocido de persistencia atómica discreta | `ELEMENTO_ADMISIBLE` |
+| 2 | He | Helio | 4.003 | 1s² | 1 | 18 | gas | gas noble inicial, frontera nuclear elemental | `ELEMENTO_ADMISIBLE` |
+| 6 | C | Carbono | 12.011 | [He] 2s² 2p² | 2 | 14 | sólido | núcleo de la química orgánica, frontera versátil | `ELEMENTO_ADMISIBLE` |
+| 8 | O | Oxígeno | 15.999 | [He] 2s² 2p⁴ | 2 | 16 | gas | soporte de agua y composición atmosférica | `ELEMENTO_ADMISIBLE` |
+| 14 | Si | Silicio | 28.085 | [Ne] 3s² 3p² | 3 | 14 | sólido | base de la química inorgánica condensada | `ELEMENTO_ADMISIBLE` |
+| 26 | Fe | Hierro | 55.845 | [Ar] 3d⁶ 4s² | 4 | 8 | sólido | persistencia material y máximo de estabilidad nuclear | `ELEMENTO_ADMISIBLE` |
+| 29 | Cu | Cobre | 63.546 | [Ar] 3d¹⁰ 4s¹ | 4 | 11 | sólido | conductor estructural, frontera metálica conservada | `ELEMENTO_ADMISIBLE` |
+| 79 | Au | Oro | 196.967 | [Xe] 4f¹⁴ 5d¹⁰ 6s¹ | 6 | 11 | sólido | persistencia química inerte de referencia | `ELEMENTO_ADMISIBLE` |
+| 92 | U | Uranio | 238.029 | [Rn] 5f³ 6d¹ 7s² | 7 | 3 (actínido) | sólido | residual nuclear elevado dentro de clase conocida | `ELEMENTO_ADMISIBLE` |
+| 118 | Og | Oganesón | [294] | [Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁶ (predicha) | 7 | 18 | predicho | extremo superior conocido del dominio IUPAC | `ELEMENTO_ADMISIBLE` |
 
 La selección no agota la tabla periódica. Sirve únicamente como muestra representativa de regímenes atómicos de naturaleza distinta (hidrógeno mínimo, gases nobles, no metales, metales de transición, metales nobles, actínidos, transactínidos). Para la regeneración formal del dominio completo Z=1..118, así como para el dictamen conservador del candidato hipotético Z=119, se remite al laboratorio reproducible descrito en §17 y a los datos `data/elementos_iupac_1_118.csv` y `data/banco_demostrativo_12_casos.csv`.
 
@@ -2829,12 +2829,12 @@ Su lectura es precisa: una molécula pertenece al dominio químico molecular si 
 
 A continuación se presenta una selección de cuatro moléculas representativas del dominio molecular estructural. Cada una cumple las condiciones de admisibilidad formuladas en §15.2–§15.4 y queda dictaminada como `MOLECULA_ADMISIBLE` por el laboratorio reproducible (§17), partiendo siempre de componentes atómicos previamente admitidos en §14.
 
-| Molécula | Composición atómica | Función estructural | Dictamen |
-|---|---|---|---|
-| H₂O | H · H · O | agua, caso canónico de composición persistente | `MOLECULA_ADMISIBLE` |
-| CO₂ | C · O · O | dióxido de carbono, gas atmosférico clave | `MOLECULA_ADMISIBLE` |
-| CH₄ | C · H · H · H · H | metano, molécula energética y atmosférica | `MOLECULA_ADMISIBLE` |
-| O₃ | O · O · O | ozono, frontera reactiva de alta variabilidad | `MOLECULA_ADMISIBLE` |
+| Fórmula | Composición atómica | Masa molecular (u) | Tipo de enlace | Geometría | Polaridad | Estado físico (STP) | Función estructural SV | Dictamen |
+|---|---|---|---|---|---|---|---|---|
+| H₂O | H · H · O | 18.015 | covalente polar | angular (≈104,5°) | polar | líquido | agua, caso canónico de composición persistente | `MOLECULA_ADMISIBLE` |
+| CO₂ | C · O · O | 44.010 | covalente doble | lineal | apolar | gas | dióxido de carbono, gas atmosférico clave | `MOLECULA_ADMISIBLE` |
+| CH₄ | C · H · H · H · H | 16.043 | covalente simple | tetraédrica | apolar | gas | metano, molécula energética y atmosférica | `MOLECULA_ADMISIBLE` |
+| O₃ | O · O · O | 47.997 | covalente resonante | angular (≈116,8°) | polar débil | gas reactivo | ozono, frontera reactiva de alta variabilidad | `MOLECULA_ADMISIBLE` |
 
 La selección incluye una molécula líquida de referencia (H₂O), dos gases atmosféricos asociados a procesos de combustión y atmósfera planetaria (CO₂, CH₄) y una molécula reactiva de banda atmosférica (O₃). El caso del agua se desarrolla con detalle propio en §15.8–§15.10. Para la verificación operatoria de las cuatro moléculas y la composición a partir del dictamen de sus componentes atómicos se remite al laboratorio reproducible descrito en §17 y al banco demostrativo `data/banco_demostrativo_12_casos.csv`.
 
@@ -3248,10 +3248,10 @@ Su lectura es precisa: una atmósfera pertenece al dominio planetario admisible 
 
 A continuación se presenta una tabla con las dos atmósferas de referencia del banco demostrativo, una admisible y una no admisible. Ambos casos cumplen el papel de validar simétricamente la condición de admisibilidad: una atmósfera estructuralmente compatible y una atmósfera fallida por retención gravitatoria insuficiente.
 
-| Identificador | Componentes representativos | Retención | Dictamen |
-|---|---|---|---|
-| ATM_TIERRA | N₂, O₂, Ar, CO₂, H₂O | sí | `ATMOSFERA_ADMISIBLE` |
-| ATM_NO_RETENIDA | gas no retenido | no | `NO_ADMISIBLE` |
+| Identificador | Dominio planetario | Composición principal (% vol.) | Presión superficial (kPa) | Temperatura media (K) | Retención gravitatoria | Función estructural SV | Dictamen |
+|---|---|---|---|---|---|---|---|
+| ATM_TIERRA | Tierra (Ω_Tierra) | N₂ 78,08 ; O₂ 20,95 ; Ar 0,93 ; CO₂ 0,04 ; H₂O variable | 101,3 | 288 | sí | composición molecular retenida con identidad atmosférica diferenciada | `ATMOSFERA_ADMISIBLE` |
+| ATM_NO_RETENIDA | dominio planetario hipotético sin retención | gas no retenido (control negativo) | — | — | no | composición dispersa por insuficiencia de frontera planetaria | `NO_ADMISIBLE` |
 
 La atmósfera terrestre se desarrolla con detalle propio en §16.9–§16.11 como caso particular de régimen atmosférico persistente. El caso `ATM_NO_RETENIDA` cumple en el laboratorio la función de demostrar que la admisibilidad atmosférica no resulta automática: la condición diferencial es la retención planetaria, formulada en §16.7. Para la verificación operatoria conjunta se remite al laboratorio reproducible descrito en §17 y al banco demostrativo `data/banco_demostrativo_12_casos.csv`.
 
