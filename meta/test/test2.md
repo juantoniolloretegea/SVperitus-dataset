@@ -4,7 +4,7 @@
 
 ![Portada](imagenes/Portada.png)
 
-**© 2026. Todos los derechos reservados.** \| **DOI** [10.17613/gxfv3-qjj64](https://doi.org/10.17613/gxfv3-qjj64) \| **Juan Antonio Lloret Egea** \| ORCID: 0000-0002-6634-3351 \| Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) \| IA eñ™ — La Biblia de la IA™ \| **ISSN 2695-6411** \| **Licencia CC BY-NC-ND 4.0** \| Madrid, 06/05/2026 \|
+**© 2026. Todos los derechos reservados.** | **DOI: PENDIENTE-DE-ASIGNACIÓN** | **Juan Antonio Lloret Egea** | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) | IA eñ™ — La Biblia de la IA™ | **ISSN 2695-6411** | **Licencia CC BY-NC-ND 4.0** | Madrid, 06/05/2026 |
 
 **Advertencia.** Esta publicación está protegida por **CEDRO** y su aplicación en el campo de la Física, así como cualquier forma de explotación, reproducción o uso por parte de empresas, queda sujeta al copyright del autor y a los términos de la licencia indicada; la reproducción, distribución, comunicación pública o transformación de esta obra solo puede ser realizada con la autorización de sus titulares, salvo excepción prevista por la ley, y cualquier uso comercial sin autorización expresa queda prohibido y sujeto estrictamente al licenciamiento permitido.
 
@@ -4674,15 +4674,8 @@ plasma, decoherencia, emergencia,
 gravitación y estructura atómica. Esta teoría se formula, por tanto, no como negación de dichos dominios, sino como intento de construir un criterio operatorio transversal capaz de comparar sus regímenes de persistencia, transición y dispersión.
 
 ---
-# Propiedades estructurales SV de la duplicación periódica
 
-**© 2026. Todos los derechos reservados. | Juan Antonio Lloret Egea | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ — La Biblia de la IA™ | ISSN 2695-6411 | Licencia CC BY-NC-ND 4.0 | Madrid, 06/05/2026**
-
-**Advertencia.** Esta publicación está protegida por CEDRO y su aplicación en el campo de la Física, así como cualquier forma de explotación, reproducción o uso por parte de empresas, queda sujeta al copyright del autor y a los términos de la licencia indicada; la reproducción, distribución, comunicación pública o transformación de esta obra solo puede ser realizada con la autorización de sus titulares, salvo excepción prevista por la ley, y cualquier uso comercial sin autorización expresa queda prohibido y sujeto estrictamente al licenciamiento permitido.
-
-**Warning.** This publication is protected by CEDRO. Its application in the field of Physics, as well as any form of exploitation, reproduction, or use by corporate entities, is strictly subject to the author's copyright and the terms of the license indicated; any reproduction, distribution, public communication, or transformation of this work requires authorization from the rightsholders, except as provided by law, and any commercial use without express written consent is prohibited and strictly subject to permitted licensing.
-
----
+# 24. Anexo técnico integrado — Propiedades estructurales SV de la duplicación periódica
 
 ## Lectura material y advertencia de alcance
 
@@ -4724,20 +4717,9 @@ Las magnitudes derivadas se calculan por funciones monótonas y por familia de g
 
 
 
-## Datos estructurados — archivos CSV
+## Integración documental de las tablas estructurales
 
-Las cuatro tablas están disponibles en formato CSV para descarga directa y uso programático.
-El laboratorio de verificación (`runner_prop.py`) lee cada CSV y valida las fórmulas del modelo
-frente a los valores tabulados, con código de error trazable por columna.
-
-| Tabla | Archivo CSV | Contenido |
-|---|---|---|
-| Tabla 1 | [tabla_01_identidad_tabular_y_masa_estructural.csv](datos/tabla_01_identidad_tabular_y_masa_estructural.csv) | Identidad, masa, densidad |
-| Tabla 2 | [tabla_02_propiedades_electronicas_atomicas_y_de_transporte.csv](datos/tabla_02_propiedades_electronicas_atomicas_y_de_transporte.csv) | Conductividad, electronegatividad, radio |
-| Tabla 3 | [tabla_03_propiedades_mecanicas_quimicas_y_termicas.csv](datos/tabla_03_propiedades_mecanicas_quimicas_y_termicas.csv) | Dureza, maleabilidad, resistencia |
-| Tabla 4 | [tabla_04_volumen_estabilidad_radiactividad_isotopos_y_usos.csv](datos/tabla_04_volumen_estabilidad_radiactividad_isotopos_y_usos.csv) | Volumen, estabilidad, aplicaciones |
-
----
+Las tablas siguientes se integran en este mismo documento para que la publicación principal y el anexo técnico queden protegidos por una única salida documental. Los archivos CSV quedan reservados al laboratorio reproducible, no como anexo documental separado.
 
 ## Tabla 1 — Identidad tabular y masa estructural
 
