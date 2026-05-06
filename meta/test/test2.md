@@ -28,6 +28,52 @@ The theory does not aim to replace contemporary physical formalisms, but rather 
 
 ---
 
+# Índice
+
+El documento se organiza en dos partes. La Parte I contiene la publicación principal, desde la introducción hasta la bibliografía. La Parte II incorpora el anexo técnico integrado, situado después de la bibliografía, con las propiedades estructurales SV de la duplicación periódica.
+
+## Parte I — Publicación principal
+
+1. Introducción
+2. Estado contemporáneo del problema de la persistencia física
+3. Fundamento operatorio mínimo de compatibilidad estructural
+4. Ecuación mínima de persistencia energética estructural
+5. Masa estructural y persistencia de frontera
+6. Calor estructural y redistribución energética
+7. Fuerza estructural y orientación de persistencia
+8. El átomo como régimen discreto de persistencia estructural
+9. Del régimen preatómico al régimen atómico
+10. Banco de regímenes físicos de persistencia
+11. Tablas operatorias de contraste
+12. Teoremas principales
+13. Criterios de falsación estructural
+14. Tabla periódica estructural y extensión SV-118
+15. Moléculas como composición persistente
+16. Atmósferas como composición planetaria
+17. Laboratorio reproducible integral
+18. Conclusión
+19. Apéndice — Hidrógeno como caso canónico
+20. Apéndice — Marco operatorio mínimo SV
+21. Notación fundamental
+22. Epílogo científico
+23. Bibliografía
+
+## Parte II — Anexo técnico integrado
+
+24. Anexo técnico integrado — Propiedades estructurales SV de la duplicación periódica
+   - Lectura material y advertencia de alcance
+   - Modelo de cálculo usado
+   - Auditoría adversarial resumida
+   - Integración documental de las tablas estructurales
+   - Tabla 1 — Identidad tabular y masa estructural
+   - Tabla 2 — Propiedades electrónicas, atómicas y de transporte
+   - Tabla 3 — Propiedades mecánicas, químicas y térmicas
+   - Tabla 4 — Volumen, estabilidad, radiactividad, isótopos y usos
+
+---
+
+**Parte I — Publicación principal**
+
 # 1. Introducción
 
 La física moderna ha alcanzado uno de los desarrollos matemáticos y experimentales más sofisticados de la historia intelectual. La mecánica cuántica, la teoría cuántica de campos, la relatividad general, la termodinámica, la física estadística, la física nuclear y la cosmología contemporánea describen con enorme precisión múltiples fenómenos pertenecientes a escalas extremadamente diferentes.
@@ -4674,6 +4720,8 @@ plasma, decoherencia, emergencia,
 gravitación y estructura atómica. Esta teoría se formula, por tanto, no como negación de dichos dominios, sino como intento de construir un criterio operatorio transversal capaz de comparar sus regímenes de persistencia, transición y dispersión.
 
 ---
+
+**Parte II — Anexo técnico integrado**
 
 # 24. Anexo técnico integrado — Propiedades estructurales SV de la duplicación periódica
 
