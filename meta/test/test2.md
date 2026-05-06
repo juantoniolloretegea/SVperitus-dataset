@@ -14,7 +14,7 @@
 
 La física contemporánea describe con enorme precisión múltiples regímenes de interacción, estabilidad y transformación energética. Sin embargo, dichos regímenes permanecen distribuidos en dominios formalmente heterogéneos: estabilidad cuántica de la materia, termodinámica fuera del equilibrio, plasma, decoherencia, emergencia estructural, confinamiento gravitatorio, estabilidad nuclear o transición átomo–dispersión. Este trabajo sostiene que esa fragmentación oculta un problema físico transversal todavía insuficientemente formulado: la ausencia de un criterio universal de persistencia estructural compatible.
 
-Esta formulación introduce una teoría operatoria de persistencia energética basada en cinco magnitudes fundamentales: frontera factual, confinamiento estructural, redistribución energética, residual e identidad persistente compatible. A partir de ellas se construye una ecuación mínima de persistencia energética destinada a modelar las condiciones bajo las cuales una configuración energética puede conservar identidad frente a dispersión estructural. El átomo se reinterpreta no como entidad ontológica primaria, sino como primer régimen discreto conocido de persistencia energética estable. La masa se reformula como persistencia estructural efectiva y no exclusivamente como magnitud inercial aislada.
+Esta formulación introduce un marco operatorio de clasificación y análisis de la persistencia energética, basado en cinco magnitudes fundamentales: frontera factual, confinamiento estructural, redistribución energética, residual e identidad persistente compatible. A partir de ellas se construye una ecuación mínima de persistencia energética destinada a modelar las condiciones bajo las cuales una configuración energética puede conservar identidad frente a dispersión estructural. El átomo se reinterpreta no como entidad ontológica primaria, sino como primer régimen discreto conocido de persistencia energética estable. La masa se reformula como persistencia estructural efectiva y no exclusivamente como magnitud inercial aislada.
 
 La teoría no pretende sustituir los formalismos físicos contemporáneos, sino introducir un aparato transversal de compatibilidad estructural aplicable a múltiples dominios: plasma, estabilidad atómica, transición térmica, combustión, persistencia nuclear y regímenes macroscópicos de confinamiento energético. La construcción se extiende explícitamente a la tabla periódica estructural, a la formación molecular y a la composición atmosférica, integradas como dominios de persistencia derivada. Toda formulación queda subordinada a un criterio universal explícito de legitimidad operatoria, residual estructural y falsación.
 
@@ -22,7 +22,7 @@ La teoría no pretende sustituir los formalismos físicos contemporáneos, sino 
 
 Contemporary physics describes with extraordinary precision multiple regimes of interaction, stability, and energetic transformation. However, these regimes remain distributed across formally heterogeneous domains: quantum stability of matter, non-equilibrium thermodynamics, plasma physics, decoherence, structural emergence, gravitational confinement, nuclear stability, or atom–dispersion transitions. This work argues that such fragmentation conceals a transversal physical problem still insufficiently formulated: the absence of a universal criterion for compatible structural persistence.
 
-This formulation introduces an operational theory of energetic persistence grounded on five fundamental magnitudes: factual boundary, structural confinement, energetic redistribution, residual structure, and compatible persistent identity. From these elements, a minimal energetic persistence equation is constructed in order to model the conditions under which an energetic configuration can preserve identity against structural dispersion. The atom is reinterpreted not as a primary ontological entity, but as the first known discrete regime of stable energetic persistence. Likewise, mass is reformulated as effective structural persistence rather than merely inertial magnitude.
+This formulation introduces an operational framework for classifying and analysing energetic persistence, grounded on five fundamental magnitudes: factual boundary, structural confinement, energetic redistribution, residual structure, and compatible persistent identity. From these elements, a minimal energetic persistence equation is constructed in order to model the conditions under which an energetic configuration can preserve identity against structural dispersion. The atom is reinterpreted not as a primary ontological entity, but as the first known discrete regime of stable energetic persistence. Likewise, mass is reformulated as effective structural persistence rather than merely inertial magnitude.
 
 The theory does not aim to replace contemporary physical formalisms, but rather to introduce a transversal framework of structural compatibility applicable across multiple domains: plasma physics, atomic stability, thermal transitions, combustion, nuclear persistence, and macroscopic energetic confinement regimes. The construction extends explicitly to the structural periodic table, to molecular formation, and to atmospheric composition, integrated as domains of derived persistence. Every formulation is further subordinated to an explicit universal criterion of operational legitimacy, structural residuality, and falsifiability.
 
@@ -105,7 +105,7 @@ La formulación incorpora además:
 Toda construcción desarrollada queda subordinada a un criterio universal explícito de legitimidad estructural:
 
 
-𝓔★(Γ_U)=0.
+𝓔★(Γ_U; τ)=0. La evaluación de esta compuerta sobre el dominio físico-atómico se realiza mediante proyección Π_D sobre la trayectoria universal Γ_U, de acuerdo con el Teorema T5 del corpus (Teoría del TODO y de la NADA, §14.5).
 
 
 Esta teoría no afirma haber clausurado definitivamente todos los regímenes posibles de persistencia energética. Permanece explícitamente abierto el estado de indeterminación estructural legítima allí donde no exista base suficiente de cierre compatible. Bajo estas condiciones, el trabajo propone una reformulación transversal del problema físico de persistencia energética estructural y de aparición de identidad estable frente a dispersión. ---
@@ -479,7 +479,7 @@ La ausencia de cualquiera de estos componentes impide evaluar rigurosamente pers
 Toda formulación introducida posteriormente quedará subordinada al criterio universal:
 
 
-𝓔★(Γ_U)=0.
+𝓔★(Γ_U; τ)=0.
 
 
 La ecuación anterior representa condición global de compatibilidad estructural universal.
@@ -548,7 +548,7 @@ la magnitud efectiva de confinamiento estructural asociada a la frontera persist
 (Γ,n).
 
 
-La magnitud: `𝓕_∂` no debe interpretarse exclusivamente como fuerza clásica convencional. Representa operatoriamente: capacidad efectiva de frontera para conservar identidad estructural compatible.
+La magnitud: `𝓕_∂` no debe interpretarse exclusivamente como fuerza clásica convencional, y corresponde a la proyección π_F(Ω_SV) = 𝓕_SV del dominio termodinámico del corpus (Lloret Egea, 2026, §2). Representa operatoriamente: capacidad efectiva de frontera para conservar identidad estructural compatible.
 
 ## 4.3. Redistribución energética efectiva
 
@@ -685,7 +685,7 @@ Esto resulta visible simultáneamente en:
 Toda aplicación posterior de: `𝓟_min` queda subordinada a:
 
 
-𝓔★(Γ_U)=0.
+𝓔★(Γ_U; τ)=0.
 
 
 La ecuación de persistencia energética no constituye por sí sola criterio suficiente de legitimidad universal.
@@ -856,7 +856,7 @@ Entonces:
 
 La configuración abandona régimen persistente compatible.
 
-El colapso no debe interpretarse necesariamente como desaparición instantánea, sino como: dominancia estructural de dispersión.
+El colapso no debe interpretarse necesariamente como desaparición instantánea, sino como: dominancia estructural de dispersión. La masa estructural μ opera como operador formal de persistencia energética: cuando μ < 0 el operador señala régimen dispersivo dominante, no masa inercial negativa en el sentido clásico o relativista.
 
 ## 5.9. Consecuencia transversal
 
@@ -889,7 +889,7 @@ La masa queda así vinculada operatoriamente a: persistencia estructural de iden
 Toda formulación de masa estructural queda subordinada a:
 
 
-𝓔★(Γ_U)=0.
+𝓔★(Γ_U; τ)=0.
 
 
 La masa estructural no constituye magnitud absoluta independiente, sino: régimen compatible de persistencia energética.
@@ -956,7 +956,7 @@ trayectoria.
 
 ## 6.4. Interpretación física
 
-La magnitud: 𝒬 no representa únicamente calor clásico ni temperatura ordinaria. Representa: redistribución energética efectiva capaz de modificar el régimen de persistencia estructural. Por tanto, una misma cantidad energética puede operar de forma distinta según:
+La magnitud: 𝒬 no representa únicamente calor clásico ni temperatura ordinaria, y corresponde a la proyección π_Q(Ω_SV) = 𝒬_SV del dominio termodinámico del corpus (Lloret Egea, 2026, §2). Representa: redistribución energética efectiva capaz de modificar el régimen de persistencia estructural. Por tanto, una misma cantidad energética puede operar de forma distinta según:
 
 - frontera disponible;
 
@@ -1110,7 +1110,7 @@ Por la definición de régimen persistente, si:
 𝓟_min ≤ 0,
 
 
-la configuración entra en régimen crítico o dispersivo. Por tanto, deja de conservar persistencia estructural compatible. ∎
+la configuración entra en régimen crítico o dispersivo. Por tanto, deja de conservar persistencia estructural compatible. □
 
 ## 6.10. Consecuencia física
 
@@ -1323,7 +1323,7 @@ La hipótesis implica:
 𝓟_min > 0.
 
 
-Por definición de régimen persistente, la configuración conserva identidad compatible frente a redistribución y residual. ∎
+Por definición de régimen persistente, la configuración conserva identidad compatible frente a redistribución y residual. □
 
 ## 7.11. Consecuencia física
 
@@ -1522,7 +1522,7 @@ Finalmente:
 ℛ_Γ < Λ_atom
 
 
-impide que el residual destruya identidad persistente. Luego la configuración conserva persistencia discreta estable. ∎
+impide que el residual destruya identidad persistente. Luego la configuración conserva persistencia discreta estable. □
 
 ## 8.10. Átomo y combustión
 
@@ -1749,7 +1749,7 @@ Finalmente:
 Δ𝓗 ∈ 𝓢_disc
 
 
-garantiza intercambio energético compatible. Por tanto, la configuración adquiere identidad atómica persistente. ∎
+garantiza intercambio energético compatible. Por tanto, la configuración adquiere identidad atómica persistente. □
 
 ## 9.9. Hidrógeno como caso canónico conocido
 
@@ -1795,7 +1795,7 @@ Esta sección permite condensar el tránsito preatómico en la siguiente formula
 
 ## 10.1. Introducción
 
-Una teoría operatoria de persistencia energética no puede sostenerse únicamente sobre definiciones formales. Debe ser capaz de atravesar regímenes físicos heterogéneos y mostrar que su criterio conserva sentido en dominios distintos.
+Un marco operatorio de persistencia energética no puede sostenerse únicamente sobre definiciones formales. Debe ser capaz de atravesar regímenes físicos heterogéneos y mostrar que su criterio conserva coherencia clasificatoria. Las aplicaciones de esta sección son cualitativas: comparan regímenes bajo el mismo vocabulario operatorio sin instanciar valores numéricos de las magnitudes en cada caso físico. La instanciación cuantitativa constituye la siguiente fase del programa. sentido en dominios distintos.
 
 Esta sección aplica la ecuación mínima:
 
@@ -2248,7 +2248,7 @@ Si, por el contrario:
 𝓟_min ≤ 0,
 
 
-entonces la redistribución y el residual igualan o superan la capacidad estructural de frontera. La configuración entra en régimen crítico o dispersivo. ∎
+entonces la redistribución y el residual igualan o superan la capacidad estructural de frontera. La configuración entra en régimen crítico o dispersivo. □
 
 ## 12.3. Teorema de masa estructural
 
@@ -2269,7 +2269,7 @@ mide exactamente la diferencia entre capacidad de confinamiento y tendencia disp
 Luego:
 
 
-μ=𝓟_min. ∎
+μ=𝓟_min. □
 
 
 ## 12.4. Teorema de degradación térmica
@@ -2292,7 +2292,7 @@ la hipótesis implica:
 𝓟_min ≤ 0.
 
 
-Por el Teorema 12.1, la configuración deja de pertenecer al régimen persistente compatible. ∎
+Por el Teorema 12.1, la configuración deja de pertenecer al régimen persistente compatible. □
 
 ## 12.5. Teorema de orientación estructural
 
@@ -2311,7 +2311,7 @@ Por el Teorema 12.1, la configuración deja de pertenecer al régimen persistent
 Por tanto:
 
 
-𝓕_∂ > 𝒬 + ℛ_Γ. ∎
+𝓕_∂ > 𝒬 + ℛ_Γ. □
 
 
 ## 12.6. Teorema de aparición atómica discreta
@@ -2338,7 +2338,7 @@ y:
 
 La condición 𝓟_min>0 garantiza persistencia energética compatible. La condición δ(∂Ω_atom)<Λ_atom garantiza estabilidad de frontera discreta. La condición ℛ_Γ<Λ_atom impide dominancia residual destructiva.
 
-La condición Δ𝓗∈𝓢_disc restringe el intercambio energético a transiciones compatibles con conservación de identidad. Luego la configuración conserva identidad atómica estable. ∎
+La condición Δ𝓗∈𝓢_disc restringe el intercambio energético a transiciones compatibles con conservación de identidad. Luego la configuración conserva identidad atómica estable. □
 
 ## 12.7. Teorema de transición preatómica
 
@@ -2354,7 +2354,7 @@ con frontera no plenamente estabilizada, a:
 𝓟_min>0, δ(∂Ω_atom)<Λ_atom, ℛ_Γ<Λ_atom, Δ𝓗∈𝓢_disc.
 
 
-**Demostración** El régimen preatómico conserva persistencia parcial, pero no identidad discreta plena. La estabilización de frontera, el acotamiento residual y la compatibilidad discreta de intercambio convierten la persistencia parcial en persistencia atómica discreta. ∎
+**Demostración** El régimen preatómico conserva persistencia parcial, pero no identidad discreta plena. La estabilización de frontera, el acotamiento residual y la compatibilidad discreta de intercambio convierten la persistencia parcial en persistencia atómica discreta. □
 
 ## 12.8. Teorema de no absolutización del hidrógeno
 
@@ -2372,7 +2372,7 @@ La relación correcta es más restringida:
 H =
 
 
-primer caso canónico conocido de persistencia atómica discreta estable. ∎
+primer caso canónico conocido de persistencia atómica discreta estable. □
 
 ## 12.9. Teorema de residual necesario
 
@@ -2392,17 +2392,17 @@ La ausencia de residual impide evaluar:
 𝓟_min = 𝓕_∂ − 𝒬 − ℛ_Γ.
 
 
-Por tanto, sin residual explícito no existe dictamen riguroso de persistencia estructural. ∎
+Por tanto, sin residual explícito no existe dictamen riguroso de persistencia estructural. □
 
 ## 12.10. Teorema de compatibilidad universal
 
 **Teorema 12.9** Toda formulación física admisible dentro de esta teoría debe satisfacer:
 
 
-𝓔★(Γ_U)=0.
+𝓔★(Γ_U; τ)=0.
 
 
-**Demostración** La ecuación 𝓔★(Γ_U)=0 representa criterio rector de compatibilidad estructural universal. Si una formulación introduce residual externo no absorbible o contradicción estructural con dicha condición, queda fuera del dominio admisible. Por tanto, toda aplicación de la teoría de persistencia energética debe subordinarse a esa compuerta. ∎
+**Demostración** La ecuación 𝓔★(Γ_U; τ)=0 representa criterio rector de compatibilidad estructural universal. Si una formulación introduce residual externo no absorbible o contradicción estructural con dicha condición, queda fuera del dominio admisible. Por tanto, toda aplicación de la teoría de persistencia energética debe subordinarse a esa compuerta. □
 
 ## 12.11. Teorema de falsabilidad estructural
 
@@ -2418,7 +2418,7 @@ y:
 𝓟_min(Γ,n)≤0.
 
 
-**Demostración** Por el Teorema 12.1, la persistencia compatible exige 𝓟_min>0. Si se demuestra persistencia física con 𝓟_min≤0, entonces el criterio fundamental de la teoría falla. Luego la teoría queda refutada en su núcleo. ∎
+**Demostración** Por el Teorema 12.1, la persistencia compatible exige 𝓟_min>0. Si se demuestra persistencia física con 𝓟_min≤0, entonces el criterio fundamental de la teoría falla. Luego la teoría queda refutada en su núcleo. □
 
 ## 12.12. Resultado global
 
@@ -2517,10 +2517,10 @@ Quedaría refutada si se demostrara estabilidad atómica persistente bajo redist
 Toda formulación del documento queda subordinada a:
 
 
-𝓔★(Γ_U)=0.
+𝓔★(Γ_U; τ)=0.
 
 
-Por tanto, la teoría quedaría refutada en su forma universal si existiera una configuración físicamente legítima, persistente y estructuralmente completa que exigiera: `𝓔★(Γ_U)≠0.` En tal caso, la compuerta universal de compatibilidad dejaría de ser válida.
+Por tanto, la teoría quedaría refutada en su forma universal si existiera una configuración físicamente legítima, persistente y estructuralmente completa que exigiera: `𝓔★(Γ_U; τ)≠0.` En tal caso, la compuerta rectora de compatibilidad dejaría de ser válida.
 
 ## 13.9. Tabla de falsación
 
@@ -2532,7 +2532,7 @@ Por tanto, la teoría quedaría refutada en su forma universal si existiera una 
 | 𝒬+ℛ_Γ>𝓕_∂ con identidad conservada | Refutación por dispersión dominante |
 | Átomo estable con δ(∂Ω_atom)≥Λ_atom | Refutación del criterio atómico |
 | Estabilidad atómica con intercambio incompatible | Refutación de discretización compatible |
-| Persistencia completa con 𝓔★(Γ_U)≠0 | Refutación universal |
+| Persistencia completa con 𝓔★(Γ_U; τ)≠0 | Refutación universal |
 
 ## 13.10. Falsación local y falsación total
 
@@ -2587,14 +2587,13 @@ El índice Z no se toma aquí únicamente como número ordinal externo, sino com
 La fórmula absoluta de pertenencia a la tabla periódica química queda:
 
 
-E_Z ∈ 𝕋_chem ⇔ 𝓝★[ 𝓟_min^Z(Γ,n)>0, δ(∂Ω_Z)<Λ_Z, ℛ_Z(n)<Λ_Z, Δ𝓗_Z∈𝓢_disc^Z, Id(E_Z)≠∅, 𝓔★(Γ_U)=0 ]=1.
+E_Z ∈ 𝕋_chem ⇔ 𝓝★[ 𝓟_min^Z(Γ,n)>0, δ(∂Ω_Z)<Λ_Z, ℛ_Z(n)<Λ_Z, Δ𝓗_Z∈𝓢_disc^Z, Id(E_Z)≠∅, 𝓔★(Γ_U; τ)=0 ]=1.
 
 
 Su lectura es directa: una clase atómica pertenece a la tabla periódica química si y sólo si conserva persistencia energética, frontera atómica diferenciada, residual acotado, intercambio compatible, identidad química propia y compatibilidad universal.
 
 ### Selección representativa de elementos
 
-A continuación se presenta una selección de diez elementos químicos representativos del dominio periódico estructural 𝕋_chem. Cada uno cumple las condiciones de pertenencia formuladas en §14.5–§14.6 y queda dictaminado como `ELEMENTO_ADMISIBLE` por el laboratorio reproducible (§17). El laboratorio regenera además los 118 elementos de la tabla IUPAC vigente sin parametrización individual (118/118 admisibles), acompañados de la marca conservadora `U` para todo candidato Z>118 sin base estructural suficiente.
 
 | Z | Símbolo | Nombre | Masa atómica (u) | Configuración electrónica | Periodo | Grupo | Estado físico (STP) | Función estructural SV | Dictamen |
 |---|---|---|---|---|---|---|---|---|---|
@@ -2648,7 +2647,7 @@ La tabla periódica química se define como dominio:
 donde:
 
 
-Cond_chem(E_Z) = 𝓝★[ 𝓟_min^Z>0, δ(∂Ω_Z)<Λ_Z, ℛ_Z<Λ_Z, Δ𝓗_Z∈𝓢_disc^Z, Id_chem(E_Z)≠∅, 𝓔★(Γ_U)=0 ].
+Cond_chem(E_Z) = 𝓝★[ 𝓟_min^Z>0, δ(∂Ω_Z)<Λ_Z, ℛ_Z<Λ_Z, Δ𝓗_Z∈𝓢_disc^Z, Id_chem(E_Z)≠∅, 𝓔★(Γ_U; τ)=0 ].
 
 
 Así, la tabla periódica no queda definida por simple enumeración, sino por condición de admisibilidad estructural. Un elemento pertenece al dominio químico cuando su régimen de persistencia satisface la totalidad de las condiciones operatorias. Si alguna condición no se verifica, el dictamen no puede cerrarse como pertenencia plena. En tal caso, el estado correcto será: U hasta que exista base suficiente de clausura.
@@ -2698,7 +2697,7 @@ si y sólo si la transición estructural desde E_Z hacia una nueva clase E_{Z+1}
 La condición generadora queda:
 
 
-G_chem(E_Z)=E_Z+1 ⇔ 𝓝★[ E_Z∈𝕋_chem, 𝓟_min^Z+1>0, δ(∂Ω_Z+1)<Λ_Z+1, ℛ_Z+1<Λ_Z+1, Δ𝓗_Z+1∈𝓢_disc^Z+1, Id_chem(E_Z+1)≠Id_chem(E_Z), 𝓔★(Γ_U)=0 ]=1.
+G_chem(E_Z)=E_Z+1 ⇔ 𝓝★[ E_Z∈𝕋_chem, 𝓟_min^Z+1>0, δ(∂Ω_Z+1)<Λ_Z+1, ℛ_Z+1<Λ_Z+1, Δ𝓗_Z+1∈𝓢_disc^Z+1, Id_chem(E_Z+1)≠Id_chem(E_Z), 𝓔★(Γ_U; τ)=0 ]=1.
 
 
 La nueva clase debe cumplir dos exigencias simultáneas: 1. conservar persistencia compatible; 2. diferenciarse estructuralmente de la clase anterior.
@@ -2712,7 +2711,7 @@ Sin persistencia compatible no hay pertenencia periódica.
 **Teorema 18.1** Sea una configuración atómica candidata: E_Z. La configuración pertenece a la tabla periódica química estructural si y sólo si satisface:
 
 
-𝓟_min^Z>0, δ(∂Ω_Z)<Λ_Z, ℛ_Z<Λ_Z, Δ𝓗_Z∈𝓢_disc^Z, Id_chem(E_Z)≠∅, 𝓔★(Γ_U)=0.
+𝓟_min^Z>0, δ(∂Ω_Z)<Λ_Z, ℛ_Z<Λ_Z, Δ𝓗_Z∈𝓢_disc^Z, Id_chem(E_Z)≠∅, 𝓔★(Γ_U; τ)=0.
 
 
 **Demostración** La condición:
@@ -2758,12 +2757,12 @@ garantiza identidad química diferenciada.
 Finalmente:
 
 
-𝓔★(Γ_U)=0
+𝓔★(Γ_U; τ)=0
 
 
 certifica compatibilidad universal.
 
-Luego E_Z pertenece a 𝕋_chem. ∎
+Luego E_Z pertenece a 𝕋_chem. □
 
 ## 14.7. Teorema de no clausura periódica
 
@@ -2779,7 +2778,7 @@ Si existe una clase candidata con:
 Cond_chem(E_Z)=U,
 
 
-no existe base suficiente para declarar imposibilidad estructural. Por tanto, la clausura fuerte de la tabla periódica resulta ilegítima. ∎
+no existe base suficiente para declarar imposibilidad estructural. Por tanto, la clausura fuerte de la tabla periódica resulta ilegítima. □
 
 ## 14.8. Resultado
 
@@ -2791,7 +2790,7 @@ Su fórmula absoluta es:
 𝕋_chem = {E_Z :
 
 
-𝓝★[ 𝓟_min^Z>0, δ(∂Ω_Z)<Λ_Z, ℛ_Z<Λ_Z, Δ𝓗_Z∈𝓢_disc^Z, Id_chem(E_Z)≠∅, 𝓔★(Γ_U)=0 ]=1}.
+𝓝★[ 𝓟_min^Z>0, δ(∂Ω_Z)<Λ_Z, ℛ_Z<Λ_Z, Δ𝓗_Z∈𝓢_disc^Z, Id_chem(E_Z)≠∅, 𝓔★(Γ_U; τ)=0 ]=1}.
 
 
 La tabla periódica deja de ser únicamente un catálogo de elementos conocidos y pasa a interpretarse como: dominio no clausurado de identidades atómicas persistentes, ordenadas por frontera, residual, intercambio, periodicidad estructural y compatibilidad universal. El hidrógeno inicia el dominio conocido. No lo clausura. **el apartado de moléculas — Fórmula de la Teoría Absoluta de Formación de Moléculas** ---
@@ -2817,14 +2816,13 @@ una composición de clases atómicas pertenecientes a la tabla periódica quími
 La fórmula absoluta de formación molecular queda:
 
 
-M ∈ 𝕄_chem ⇔ 𝓝★[ ∀i, E_Z_i∈𝕋_chem, 𝓟_min^M(Γ,n)>0, δ(∂Ω_M)<Λ_M, ℛ_M(n)<Λ_M, Δ𝓗_M∈𝓢_disc^M, Id_mol(M)≠∅, 𝓘_M≠∅, 𝓔★(Γ_U)=0 ]=1.
+M ∈ 𝕄_chem ⇔ 𝓝★[ ∀i, E_Z_i∈𝕋_chem, 𝓟_min^M(Γ,n)>0, δ(∂Ω_M)<Λ_M, ℛ_M(n)<Λ_M, Δ𝓗_M∈𝓢_disc^M, Id_mol(M)≠∅, 𝓘_M≠∅, 𝓔★(Γ_U; τ)=0 ]=1.
 
 
 Su lectura es precisa: una molécula pertenece al dominio químico molecular si y sólo si se forma por composición de clases atómicas admisibles, conserva persistencia propia, genera frontera molecular estable, mantiene residual acotado, admite intercambio compatible, posee identidad molecular diferenciada y satisface compatibilidad universal.
 
 ### Moléculas representativas
 
-A continuación se presenta una selección de cuatro moléculas representativas del dominio molecular estructural. Cada una cumple las condiciones de admisibilidad formuladas en §15.2–§15.4 y queda dictaminada como `MOLECULA_ADMISIBLE` por el laboratorio reproducible (§17), partiendo siempre de componentes atómicos previamente admitidos en §14.
 
 | Fórmula | Composición atómica | Masa molecular (u) | Tipo de enlace | Geometría | Polaridad | Estado físico (STP) | Función estructural SV | Dictamen |
 |---|---|---|---|---|---|---|---|---|
@@ -2834,6 +2832,1523 @@ A continuación se presenta una selección de cuatro moléculas representativas 
 | O₃ | O · O · O | 47.997 | covalente resonante | angular (≈116,8°) | polar débil | gas reactivo | ozono, frontera reactiva de alta variabilidad | `MOLECULA_ADMISIBLE` |
 
 La selección incluye una molécula líquida de referencia (H₂O), dos gases atmosféricos asociados a procesos de combustión y atmósfera planetaria (CO₂, CH₄) y una molécula reactiva de banda atmosférica (O₃). El caso del agua se desarrolla con detalle propio en §15.8–§15.10. Para la verificación operatoria de las cuatro moléculas y la composición a partir del dictamen de sus componentes atómicos se remite al laboratorio reproducible descrito en §17 y al banco demostrativo `data/banco_demostrativo_12_casos.csv`.
+
+
+---
+
+## 14 bis. Tabla periódica estructural
+
+## 14 bis.1. Planteamiento
+
+La teoría de la persistencia energética estructural no debe quedar limitada al régimen atómico conocido ni a la enumeración externa de elementos actualmente reconocidos. Una vez formulado el átomo como régimen discreto de persistencia, resulta necesario definir bajo qué condiciones una clase atómica puede pertenecer a una tabla periódica estructural generada desde la propia teoría.
+
+La tabla periódica estructural no se define aquí por autoridad externa, catálogo empírico cerrado ni prolongación numérica de elementos conocidos. Se define como dominio operatorio de clases atómicas admisibles bajo persistencia, frontera, residual, identidad química, descendencia protocampal y compatibilidad universal.
+
+Sea:
+
+𝕋_chem^SV
+
+el dominio de clases químicas estructuralmente admisibles en esta formulación.
+
+Sea:
+
+X ∈ 𝕋_chem^SV
+
+una clase atómica candidata.
+
+La pertenencia de X a la tabla periódica estructural exige simultáneamente:
+
+𝓟_min^X>0,
+
+δ(∂Ω_X)<Λ_X,
+
+ℛ_X<Λ_X,
+
+Δ𝓗_X∈𝓢_disc^X,
+
+Id_chem(X)≠∅,
+
+Desc_proto(X)=1,
+
+No_artificio(X)=1,
+
+𝓔★(Γ_U; τ)=0.
+
+Por tanto, la fórmula de pertenencia queda:
+
+X ∈ 𝕋_chem^SV
+
+⇔
+
+𝓝★[
+
+𝓟_min^X>0,
+
+δ(∂Ω_X)<Λ_X,
+
+ℛ_X<Λ_X,
+
+Δ𝓗_X∈𝓢_disc^X,
+
+Id_chem(X)≠∅,
+
+Desc_proto(X)=1,
+
+No_artificio(X)=1,
+
+𝓔★(Γ_U; τ)=0
+
+]=1.
+
+Su lectura es la siguiente:
+
+una clase atómica pertenece a la tabla periódica estructural
+
+si y sólo si conserva persistencia energética positiva,
+
+frontera propia,
+
+residual acotado,
+
+intercambio compatible,
+
+identidad química diferenciada,
+
+descendencia protocampal admisible,
+
+ausencia de artificio formal
+
+y compatibilidad final con la Teoría del Todo y de la Nada.
+
+## 14 bis.2. Independencia generadora y contraste externo
+
+La tabla periódica estructural tiene referencia generadora interna.
+
+Su criterio primario no es la tabla empírica externa, ni una institución clasificadora, ni una enumeración previamente aceptada.
+
+La referencia primaria es la cadena:
+
+Fórmula absoluta de la tabla periódica estructural
+
+→ Teoría generadora de sucesos y protocampos
+
+→ 𝓔★(Γ_U; τ)=0.
+
+Las tablas químicas externas pueden utilizarse posteriormente como contraste, comparación y validación empírica, pero no como fuente generadora de la pertenencia estructural.
+
+Esto impide dos errores simétricos:
+
+- declarar inexistente una clase estructural sólo porque no figure en un catálogo externo;
+
+- declarar existente una clase estructural sólo porque prolonga numéricamente una serie conocida.
+
+La pertenencia debe obtenerse desde la fórmula.
+
+La comparación externa sólo puede intervenir después.
+
+## 14 bis.3. Prohibición de generación espuria
+
+La tabla periódica estructural no admite elementos por mera extrapolación.
+
+Queda prohibido generar una clase química por:
+
+- hueco matemático;
+
+- simetría ornamental;
+
+- continuidad numérica;
+
+- analogía química débil;
+
+- prolongación automática de Z;
+
+- ajuste de tabla;
+
+- periodicidad forzada;
+
+- conveniencia argumental;
+
+- ausencia de refutación;
+
+- o plausibilidad formal sin frontera propia.
+
+Formalmente:
+
+No_artificio(X)=1
+
+si y sólo si la clase candidata no procede de una construcción vacía, sino de una estructura con persistencia, frontera e identidad diferenciada.
+
+Si:
+
+No_artificio(X)=0,
+
+entonces:
+
+X∉𝕋_chem^SV.
+
+Si:
+
+No_artificio(X)=U,
+
+entonces la pertenencia de X permanece en:
+
+U.
+
+La teoría no admite cierre favorable por belleza formal, continuidad algebraica ni simetría no justificada. El predicado No_artificio(X) es derivado de la condición de no-clausura espuria P.6 del corpus (Teoría del TODO y de la NADA, §2).
+
+## 14 bis.4. Descendencia ****protocampal
+
+Toda clase atómica estructuralmente admisible debe descender de forma compatible desde el régimen generador de sucesos y protocampos, en los términos de la cadena fundacional ε₀ → Ω_pre → Ω_pro → Σ → sucesos generadores → protocampos → frontera atómica fijada en el §2 de la teoría general de sucesos generadores y protocampos unificados (Lloret Egea, 2026).
+
+Definimos:
+
+Desc_proto(X)
+
+como predicado de descendencia protocampal admisible.
+
+La condición:
+
+Desc_proto(X)=1
+
+exige que la clase candidata pueda integrarse sin ruptura en la cadena:
+
+ε₀
+
+→ Ω_pre
+
+→ Ω_pro
+
+→ Σ={0,1,U}
+
+→ sucesos generadores
+
+→ protocampos
+
+→ frontera atómica
+
+→ identidad química.
+
+No se trata de una causa temporal ni de una cronología física ordinaria.
+
+Se trata de una condición de procedencia estructural.
+
+La clase X sólo puede pertenecer a la tabla periódica estructural si su aparición no exige ruptura del dominio generador.
+
+Si la descendencia protocampal falla:
+
+Desc_proto(X)=0,
+
+entonces:
+
+X∉𝕋_chem^SV.
+
+Si no puede determinarse:
+
+Desc_proto(X)=U,
+
+entonces el dictamen queda en:
+
+U.
+
+## 14 bis.5. Candidato SV no detectado
+
+Cuando la fórmula produzca una clase estructuralmente admisible que no se corresponda todavía con un elemento físico detectado, no se declarará descubrimiento físico.
+
+Se declarará:
+
+candidato SV no detectado.
+
+Dicho candidato permanecerá en estado U respecto a su realización física, aunque pueda quedar formulado como estructura admisible en el dominio interno de la teoría.
+
+Por tanto, debe distinguirse:
+
+| **Estado** | **Significado** |
+| --- | --- |
+| X∈𝕋_chem^SV | clase estructural admisible |
+| X detectado externamente | elemento observado o reconocido por contraste empírico |
+| X=U_fis | clase estructural admisible sin detección física suficiente |
+| X∉𝕋_chem^SV | clase no admisible por fallo estructural |
+
+La teoría puede proponer candidatos.
+
+No puede declarar detección sin evidencia externa.
+
+## 14 bis.6. Nomenclatura de candidatos SV
+
+Los candidatos estructurales no detectados se nombrarán mediante una nomenclatura propia, sobria y explícitamente provisional respecto a detección física.
+
+La primera serie seguirá el alfabeto griego:
+
+SV-Alfa
+
+SV-Beta
+
+SV-Gamma
+
+SV-Delta
+
+SV-Epsilon
+
+SV-Zeta
+
+SV-Eta
+
+SV-Theta
+
+SV-Iota
+
+SV-Kappa
+
+SV-Lambda
+
+SV-Mu
+
+SV-Nu
+
+SV-Xi
+
+SV-Omicron
+
+SV-Pi
+
+SV-Rho
+
+SV-Sigma
+
+SV-Tau
+
+SV-Upsilon
+
+SV-Phi
+
+SV-Chi
+
+SV-Psi
+
+SV-Omega
+
+Si dicha serie se agotara, se abrirá la segunda vuelta:
+
+SV-II-Alfa
+
+SV-II-Beta
+
+SV-II-Gamma
+
+...
+
+SV-II-Omega
+
+Y así sucesivamente, si la fórmula siguiera produciendo clases candidatas admisibles.
+
+La nomenclatura no implica existencia empírica confirmada.
+
+Indica únicamente:
+
+clase estructural candidata generada por la teoría,
+
+pendiente de detección o contraste físico externo.
+
+## 14 bis.7. Fórmula generadora de candidato SV
+
+Sea:
+
+G_T^SV
+
+el operador generador de clases químicas estructurales.
+
+Para una clase conocida o previamente admitida:
+
+X_k∈𝕋_chem^SV,
+
+una clase sucesora candidata se define por:
+
+X_{k+1}=G_T^SV(X_k)
+
+si y sólo si:
+
+𝓝★[
+
+𝓟_min^{X_{k+1}}>0,
+
+δ(∂Ω_{X_{k+1}})<Λ_{X_{k+1}},
+
+ℛ_{X_{k+1}}<Λ_{X_{k+1}},
+
+Δ𝓗_{X_{k+1}}∈𝓢_disc^{X_{k+1}},
+
+Id_chem(X_{k+1})≠Id_chem(X_k),
+
+Desc_proto(X_{k+1})=1,
+
+No_artificio(X_{k+1})=1,
+
+𝓔★(Γ_U; τ)=0
+
+]=1.
+
+La condición:
+
+Id_chem(X_{k+1})≠Id_chem(X_k)
+
+impide duplicar una clase ya existente.
+
+La condición:
+
+No_artificio(X_{k+1})=1
+
+impide crear candidatos por simple prolongación formal.
+
+La condición:
+
+Desc_proto(X_{k+1})=1
+
+impide introducir clases sin procedencia estructural.
+
+La condición:
+
+𝓔★(Γ_U; τ)=0
+
+actúa como compuerta final.
+
+## 14 bis.8. Criterio mínimo de realidad estructural
+
+Un candidato no detectado sólo puede mantenerse como candidato si cumple un umbral mínimo de realidad estructural.
+
+Definimos:
+
+Real_SV(X)
+
+como predicado de realidad estructural interna.
+
+Se exige:
+
+Real_SV(X)=1
+
+⇔
+
+𝓝★[
+
+∂Ω_X≠∅,
+
+Id_chem(X)≠∅,
+
+ℛ_X<Λ_X,
+
+𝓟_min^X>0,
+
+Desc_proto(X)=1,
+
+No_artificio(X)=1
+
+]=1.
+
+Si:
+
+Real_SV(X)=0,
+
+entonces X no es candidato, sino construcción espuria.
+
+Si:
+
+Real_SV(X)=U,
+
+entonces el candidato no puede ingresar plenamente y queda retenido como indeterminación.
+
+La tabla estructural no admite entidades puramente decorativas.
+
+## 14 bis.9. Estados de dictamen
+
+Todo candidato X recibirá uno de los siguientes dictámenes:
+
+| **Dictamen** | **Condición** |
+| --- | --- |
+| Admisible estructural | Pasa fórmula, protocampos, no artificio y compuerta final |
+| Candidato SV no detectado | Pasa estructura interna, pero carece de detección externa suficiente |
+| U | Alguna condición esencial no puede decidirse |
+| No admisible | Falla frontera, residual, identidad, descendencia o compuerta final |
+| Artefacto formal | Nace de extrapolación sin realidad estructural |
+
+La categoría:
+
+Artefacto formal
+
+debe tratarse como rechazo fuerte.
+
+No equivale a U.
+
+Equivale a construcción descartada por falta de estructura.
+
+## 14 bis.10. Teorema de admisibilidad de clase periódica estructural
+
+**Teorema 14 bis.1**
+
+Sea X una clase atómica candidata.
+
+X pertenece a la tabla periódica estructural si y sólo si satisface:
+
+𝓟_min^X>0,
+
+δ(∂Ω_X)<Λ_X,
+
+ℛ_X<Λ_X,
+
+Δ𝓗_X∈𝓢_disc^X,
+
+Id_chem(X)≠∅,
+
+Desc_proto(X)=1,
+
+No_artificio(X)=1,
+
+𝓔★(Γ_U; τ)=0.
+
+**Verificación por definición**
+
+La condición:
+
+𝓟_min^X>0
+
+garantiza persistencia energética estructural.
+
+La condición:
+
+δ(∂Ω_X)<Λ_X
+
+garantiza frontera atómica propia y estable.
+
+La condición:
+
+ℛ_X<Λ_X
+
+impide dominancia residual destructiva.
+
+La condición:
+
+Δ𝓗_X∈𝓢_disc^X
+
+garantiza intercambio energético compatible con identidad atómica.
+
+La condición:
+
+Id_chem(X)≠∅
+
+certifica identidad química diferenciada.
+
+La condición:
+
+Desc_proto(X)=1
+
+asegura descendencia desde el dominio generador de sucesos y protocampos.
+
+La condición:
+
+No_artificio(X)=1
+
+excluye extrapolaciones vacías y construcciones ornamentales.
+
+Finalmente:
+
+𝓔★(Γ_U; τ)=0
+
+garantiza compatibilidad final con la Teoría del Todo y de la Nada.
+
+Luego X pertenece a 𝕋_chem^SV.
+
+□
+
+## 14 bis.11. Teorema de no detección no equivalente a inexistencia estructural
+
+**Teorema 14 bis.2**
+
+La ausencia de detección física externa de una clase X no implica por sí sola su inexistencia estructural dentro de 𝕋_chem^SV.
+
+**Demostración**
+
+La detección externa pertenece al dominio empírico de observación.
+
+La pertenencia estructural a 𝕋_chem^SV pertenece al dominio operatorio definido por:
+
+𝓝★[
+
+𝓟_min^X>0,
+
+δ(∂Ω_X)<Λ_X,
+
+ℛ_X<Λ_X,
+
+Δ𝓗_X∈𝓢_disc^X,
+
+Id_chem(X)≠∅,
+
+Desc_proto(X)=1,
+
+No_artificio(X)=1,
+
+𝓔★(Γ_U; τ)=0
+
+].
+
+La no detección no niega necesariamente ninguna de esas condiciones.
+
+Por tanto, si la fórmula interna resulta admisible pero falta contraste externo, el dictamen correcto no es inexistencia, sino:
+
+candidato SV no detectado
+
+o, si falta base suficiente:
+
+U.
+
+□
+
+## 14 bis.12. Teorema de rechazo de artefactos periódicos
+
+**Teorema 14 bis.3**
+
+Toda clase candidata generada únicamente por prolongación numérica, simetría ornamental, analogía débil o hueco algebraico debe ser rechazada como artefacto formal.
+
+**Demostración**
+
+Una clase periódica estructural exige:
+
+No_artificio(X)=1.
+
+Si X nace únicamente de prolongación numérica, simetría ornamental, analogía débil o hueco algebraico, entonces:
+
+No_artificio(X)=0.
+
+Por la fórmula de pertenencia:
+
+X∈𝕋_chem^SV
+
+⇔
+
+𝓝★[...,No_artificio(X)=1,...]=1.
+
+Al fallar No_artificio(X), X no puede pertenecer a la tabla periódica estructural.
+
+□
+
+## 14 bis.13. Resultado de la sección
+
+La tabla periódica estructural queda definida como dominio no clausurado de clases atómicas admisibles generadas por fórmula, pero protegidas por compuertas estrictas.
+
+Su expresión final es:
+
+𝕋_chem^SV
+
+=
+
+{X :
+
+𝓝★[
+
+𝓟_min^X>0,
+
+δ(∂Ω_X)<Λ_X,
+
+ℛ_X<Λ_X,
+
+Δ𝓗_X∈𝓢_disc^X,
+
+Id_chem(X)≠∅,
+
+Desc_proto(X)=1,
+
+No_artificio(X)=1,
+
+𝓔★(Γ_U; τ)=0
+
+]=1}.
+
+La tabla estructural es abierta, pero no arbitraria.
+
+Puede admitir candidatos no detectados, pero no artefactos formales.
+
+Puede diferir de catálogos externos, pero sólo bajo fórmula, descendencia protocampal y compuerta universal.
+
+Toda clase no demostrada queda en U.
+
+Toda clase ornamental queda rechazada.
+
+Toda clase admisible debe poder sostener frontera, residual, identidad, procedencia y compatibilidad final.
+
+## 14 bis.14. Banco mínimo de presión para candidatos no detectados
+
+La apertura de la tabla periódica estructural exige una disciplina de presión. No basta con que una clase candidata pueda escribirse formalmente. Debe soportar un banco mínimo de contraste interno antes de recibir siquiera el estatuto de candidato SV no detectado.
+
+Definimos:
+
+B_press(X)
+
+como banco de presión estructural aplicado a una clase candidata X.
+
+El banco exige al menos las siguientes pruebas:
+
+B_press(X)=1
+⇔
+𝓝★[
+B_1(X)=1,
+B_2(X)=1,
+B_3(X)=1,
+B_4(X)=1,
+B_5(X)=1,
+B_6(X)=1,
+B_7(X)=1,
+𝓔★(Γ_U; τ)=0
+]=1.
+
+donde:
+
+| **Prueba** | **Contenido** |
+| --- | --- |
+| B_1(X) | persistencia energética positiva |
+| B_2(X) | frontera propia no vacía |
+| B_3(X) | residual acotado |
+| B_4(X) | identidad química diferenciada |
+| B_5(X) | no duplicación de clase existente |
+| B_6(X) | descendencia protocampal admisible |
+| B_7(X) | ausencia de artificio formal |
+
+Si alguna prueba falla, el candidato no puede ingresar.
+
+Si alguna prueba queda indeterminada, el dictamen será:
+
+U.
+
+## 14 bis.15. No duplicación de clase existente
+
+Una clase candidata no puede ser aceptada si reproduce una clase ya admitida bajo otro nombre.
+
+Definimos:
+
+Dup(X,Y)
+
+como predicado de duplicación estructural entre dos clases.
+
+Existe duplicación cuando:
+
+Dup(X,Y)=1
+⇔
+𝓝★[
+Id_chem(X)=Id_chem(Y),
+Sim(∂Ω_X,∂Ω_Y)=1,
+Sim(Δ𝓗_X,Δ𝓗_Y)=1,
+ℛ_{X,Y}<Λ_dup
+]=1.
+
+Si existe Y∈𝕋_chem^SV tal que:
+
+Dup(X,Y)=1,
+
+entonces:
+
+X
+
+no constituye nueva clase química.
+
+La fórmula generadora debe producir diferencia estructural real, no renombramiento.
+
+Por tanto:
+
+Nueva_clase(X)=1
+⇔
+∀Y∈𝕋_chem^SV, Dup(X,Y)=0.
+
+Esta condición se añade a la admisibilidad de candidatos SV no detectados.
+
+## 14 bis.16. Candidato no detectado y dominio de búsqueda
+
+Un candidato SV no detectado debe ir acompañado de un dominio de búsqueda.
+
+La teoría no debe limitarse a declarar:
+
+SV-Alfa existe como candidato.
+
+Debe declarar además:
+
+dónde tendría sentido buscar su manifestación.
+
+Definimos:
+
+Ω_search(X)
+
+como dominio estructural de búsqueda del candidato X.
+
+Dicho dominio puede pertenecer a:
+
+- régimen terrestre; 
+
+- régimen planetario; 
+
+- régimen solar; 
+
+- régimen estelar; 
+
+- régimen interestelar; 
+
+- régimen de plasma extremo; 
+
+- régimen nuclear transitorio; 
+
+- régimen de frontera no observada; 
+
+- o régimen no clausurado. 
+
+La asignación de dominio exige:
+
+Ω_search(X)≠∅.
+
+Si no existe dominio plausible de búsqueda, el candidato permanece en:
+
+U
+
+y no debe presentarse como hipótesis física orientada.
+
+## 14 bis.17. Gradación de realidad estructural
+
+La teoría distingue cuatro niveles de realidad estructural.
+
+| **Nivel** | **Nombre** | **Condición** |
+| --- | --- | --- |
+| R0 | Artefacto formal | falla No_artificio |
+| R1 | Indeterminación estructural | alguna condición esencial queda en U |
+| R2 | Candidato SV no detectado | pasa fórmula interna, sin contraste externo |
+| R3 | Clase estructural contrastada | pasa fórmula interna y contraste físico externo |
+
+La transición:
+
+R1 → R2
+
+exige banco interno completo.
+
+La transición:
+
+R2 → R3
+
+exige detección, reproducción o contraste físico externo suficiente.
+
+La teoría no permite saltar directamente de una fórmula elegante a una clase contrastada.
+
+## 14 bis.18. Serie nominal de candidatos
+
+La serie nominal queda subordinada al orden de admisión estructural, no al orden de imaginación.
+
+El primer candidato que supere el banco interno sin detección externa recibirá:
+
+SV-Alfa.
+
+El segundo:
+
+SV-Beta.
+
+El tercero:
+
+SV-Gamma.
+
+La serie no debe reservar nombres por huecos.
+
+Sólo se asigna nombre cuando el candidato alcanza al menos nivel:
+
+R2.
+
+Por tanto:
+
+Nombre_SV(X_k)=SV-Griego(k)
+
+si y sólo si:
+
+Real_SV(X_k)=1
+
+y:
+
+B_press(X_k)=1.
+
+Si el candidato queda en U, no recibe nombre nominal definitivo.
+
+Puede identificarse provisionalmente como:
+
+Candidato-U-k.
+
+## 14 bis.19. Criterio de cierre negativo
+
+Una clase candidata será rechazada si incurre en cualquiera de las siguientes condiciones:
+
+𝓟_min^X≤0,
+
+∂Ω_X=∅,
+
+ℛ_X≥Λ_X,
+
+Id_chem(X)=∅,
+
+Desc_proto(X)=0,
+
+No_artificio(X)=0,
+
+𝓔★_TODO,SV(Γ_U)≠0.
+
+En esos casos:
+
+X∉𝕋_chem^SV.
+
+La teoría no debe preservar artificialmente candidatos que han fallado una compuerta constitutiva.
+
+## 14 bis.20. Criterio de suspensión honesta
+
+Una clase candidata será suspendida en U cuando no exista base suficiente para decidir una condición esencial.
+
+La suspensión procede si:
+
+𝓟_min^X=U
+
+o:
+
+δ(∂Ω_X)=U
+
+o:
+
+ℛ_X=U
+
+o:
+
+Id_chem(X)=U
+
+o:
+
+Desc_proto(X)=U
+
+o:
+
+No_artificio(X)=U
+
+o:
+
+𝓔★_TODO,SV(Γ_U)=U.
+
+En tal caso, no se declara pertenencia, pero tampoco rechazo.
+
+El dictamen correcto será:
+
+X∈U(𝕋_chem^SV).
+
+## 14 bis.21. Teorema de suspensión honesta de candidato
+
+**Teorema 14 bis.4**
+
+Si una clase candidata X no falla ninguna compuerta, pero al menos una condición constitutiva permanece en U, entonces X no puede ser rechazada ni admitida plenamente.
+
+Debe quedar suspendida como indeterminación estructural.
+
+**Demostración**
+
+La admisión plena exige que todas las condiciones de pertenencia sean 1.
+
+El rechazo exige que al menos una compuerta constitutiva sea 0.
+
+Si ninguna condición es 0, no hay base para rechazo.
+
+Si al menos una condición es U, no hay base para admisión plena.
+
+Por tanto, el único dictamen legítimo es:
+
+U.
+
+□
+
+## 14 bis.22. Resultado ampliado
+
+La tabla periódica estructural queda así protegida por tres compuertas sucesivas:
+
+Fórmula de persistencia periódica
+→ descendencia generadora protocampal
+→ compatibilidad final con 𝓔★_TODO,SV(Γ_U).
+
+Y por una compuerta negativa transversal:
+
+No_artificio(X)=1.
+
+El resultado es una tabla abierta, pero disciplinada.
+
+No se clausura por catálogo externo.
+
+No se expande por fantasía formal.
+
+No confunde candidato estructural con descubrimiento físico.
+
+No convierte indeterminación en confirmación.
+
+La formulación final del dominio ampliado queda:
+
+𝕋_chem^SV
+=
+𝕋_detectada
+∪
+𝕋_candidata^SV
+∪
+U(𝕋_chem^SV),
+
+donde:
+
+𝕋_detectada
+
+contiene clases estructuralmente admisibles con contraste físico externo suficiente;
+
+𝕋_candidata^SV
+
+contiene clases generadas por la fórmula y no detectadas externamente;
+
+y:
+
+U(𝕋_chem^SV)
+
+contiene clases suspendidas por insuficiencia honesta de base.
+
+La teoría queda así preparada para el laboratorio: no para confirmar deseos, sino para separar con precisión clase admitida, candidato, indeterminación y artefacto formal.
+
+No lo relegues todo al laboratorio, no. Crea una tabla similar a la que hay de los elementos citados y de ejemplos en el . md como nuevos elementos a modo de ejemplo 
+
+Correcto. Debe entrar en el propio cuerpo del .md, no sólo en laboratorio.
+
+## 14 bis.23. Tabla ejemplar de candidatos SV no detectados
+
+La tabla periódica estructural debe mostrar desde el texto principal cómo trata clases candidatas no detectadas. La finalidad no es declarar descubrimiento físico, sino exhibir el funcionamiento interno de la fórmula bajo presión sobria.
+
+Los nombres siguientes designan candidatos estructurales de ejemplo. No equivalen a elementos físicamente detectados. Su estatuto es interno, condicionado y revisable.
+
+| **Candidato** | **Estatuto** | **Dominio de búsqueda preferente** | **Rasgo estructural exigido** | **Condición crítica** | **Dictamen** |
+| --- | --- | --- | --- | --- | --- |
+| SV-Alfa | candidato SV no detectado | plasma estelar extremo | frontera atómica superpesada persistente | residual nuclear no dominante | R2/U_fis |
+| SV-Beta | candidato SV no detectado | nucleosíntesis explosiva | identidad química transitoria con frontera propia | vida estructural suficiente para identidad | R2/U_fis |
+| SV-Gamma | candidato SV no detectado | colisión de estrellas de neutrones | cierre parcial de frontera en régimen superpesado | no colapsar como artefacto nuclear fugaz | U |
+| SV-Delta | candidato SV no detectado | plasma de corona estelar | intercambio energético compatible no destructivo | distinguir átomo de ionización extrema | U |
+| SV-Epsilon | candidato SV no detectado | interior estelar profundo | confinamiento superior a redistribución térmica | frontera química diferenciable | U |
+| SV-Zeta | candidato SV no detectado | materia expulsada por supernova | residual acotado tras formación nuclear | identidad no reducida a decaimiento | U |
+| SV-Eta | candidato SV no detectado | medio interestelar enriquecido | persistencia fría posterior a formación extrema | frontera detectable indirectamente | U |
+| SV-Theta | candidato SV no detectado | régimen planetario mineral profundo | estabilidad química no catalogada | evitar duplicación de clase conocida | U |
+| SV-Iota | candidato SV no detectado | atmósferas exoplanetarias extremas | traza química persistente no identificada | separar molécula exótica de elemento | U |
+| SV-Kappa | candidato SV no detectado | laboratorio de altas energías | generación transitoria con identidad propia | duración estructural mínima | U |
+
+La tabla introduce diez candidatos no triviales porque no proceden de una única extrapolación numérica. Cada uno tensiona una compuerta distinta: frontera, residual, identidad, no duplicación, estabilidad, detectabilidad, descendencia protocampal y compatibilidad final.
+
+Ninguno de ellos debe escribirse como elemento confirmado.
+
+Su forma correcta es:
+
+SV-X = candidato estructural no detectado,
+pendiente de contraste físico externo,
+con admisibilidad interna condicionada por fórmula.
+
+## 14 bis.24. Lectura de la tabla
+
+La tabla anterior cumple cuatro funciones.
+
+Primera, muestra que la teoría no se limita a reproducir la tabla conocida.
+
+Segunda, impide que la apertura se convierta en proliferación arbitraria.
+
+Tercera, distribuye candidatos por dominios físicos distintos, evitando una única vía de generación.
+
+Cuarta, obliga a que cada candidato esté asociado a una prueba crítica.
+
+Por tanto, la tabla periódica estructural no opera así:
+
+Z conocido + 1 → nuevo elemento.
+
+Opera así:
+
+clase candidata
+→ frontera propia
+→ residual acotado
+→ identidad diferenciada
+→ descendencia protocampal
+→ no artificio
+→ 𝓔★(Γ_U; τ)=0
+→ dictamen.
+
+## 14 bis.25. Tabla sintética de compuertas por candidato
+
+| **Candidato** | **Persistencia** | **Frontera** | **Residual** | **Identidad** | **Descendencia ****protocampal** | **No artificio** | **Compüerta**** final** |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| SV-Alfa | 1 | 1 | U | U | 1 | 1 | U |
+| SV-Beta | 1 | U | U | U | 1 | 1 | U |
+| SV-Gamma | U | U | U | U | 1 | 1 | U |
+| SV-Delta | U | U | U | 0/U | 1 | 1 | U |
+| SV-Epsilon | U | U | U | U | 1 | 1 | U |
+| SV-Zeta | 1 | U | U | U | 1 | 1 | U |
+| SV-Eta | U | U | U | U | 1 | 1 | U |
+| SV-Theta | U | U | U | U | 1 | U | U |
+| SV-Iota | U | U | U | U | 1 | U | U |
+| SV-Kappa | 1 | U | U | U | 1 | 1 | U |
+
+El valor 1 no significa detección física. Significa únicamente que, en el plano estructural interno, esa compuerta puede formularse como compatible.
+
+El valor U preserva indeterminación honesta.
+
+El valor 0/U indica riesgo de rechazo si la supuesta identidad resulta ser mera ionización, molécula, isótopo inestable o duplicación de una clase ya conocida.
+
+## 14 bis.26. Resultado
+
+La tabla periódica estructural queda, por tanto, acompañada desde el propio documento de una muestra de candidatos.
+
+La muestra no prueba existencia física.
+
+Prueba que la fórmula puede generar un dominio ordenado de búsqueda sin convertirlo en fantasía matemática.
+
+El laboratorio posterior deberá ejecutar estas clases como banco de estrés, pero el texto principal ya fija su estatuto conceptual, su nomenclatura, su dominio de búsqueda y sus compuertas.
+
+Amplía el catálogo hasta sobre pasar en 1 unidad (para que se vea cómo seguiría la numeración al sobre pasar el Alfabeto Griego Clásico), como decía hasta 25, y éstas columnas para describirlos mejor al catálogo completo: Masa atómica (u) Configuración electrónica Periodo Grupo Estado físico (STP) Función estructural SV
+
+Pensó durante 4s
+
+Sí. Debe quedar claro que son **candidatos estructurales**, no elementos detectados. Por tanto, masa/configuración/periodo/grupo/estado se expresan como **predicción SV condicionada** o U.
+
+## 14 bis.23. Catálogo ampliado de candidatos SV no detectados
+
+| **Nº**** SV** | **Candidato** | **Masa atómica (u)** | **Configuración electrónica** | **Periodo** | **Grupo** | **Estado físico (STP)** | **Función estructural SV** |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | SV-Alfa | U | U_conf-α | 8 | 1 | U | primera clase superperiódica candidata tras cierre conocido |
+| 2 | SV-Beta | U | U_conf-β | 8 | 2 | U | estabilización alcalinotérrea superpesada hipotética |
+| 3 | SV-Gamma | U | U_conf-γ | 8 | 3 | U | frontera de transición hacia bloque extendido |
+| 4 | SV-Delta | U | U_conf-δ | 8 | 4 | U | candidato de confinamiento d/f ampliado |
+| 5 | SV-Epsilon | U | U_conf-ε | 8 | 5 | U | estrés de residual nuclear frente a identidad química |
+| 6 | SV-Zeta | U | U_conf-ζ | 8 | 6 | U | candidato de frontera superpesada con intercambio compatible |
+| 7 | SV-Eta | U | U_conf-η | 8 | 7 | U | prueba de no duplicación de clase periódica |
+| 8 | SV-Theta | U | U_conf-θ | 8 | 8 | U | candidato de simetría interna bajo riesgo de artificio |
+| 9 | SV-Iota | U | U_conf-ι | 8 | 9 | U | estrés de identidad química frente a vida estructural breve |
+| 10 | SV-Kappa | U | U_conf-κ | 8 | 10 | U | clase de presión sobre frontera nuclear extrema |
+| 11 | SV-Lambda | U | U_conf-λ | 8 | 11 | U | candidato de persistencia metálica superpesada |
+| 12 | SV-Mu | U | U_conf-μ | 8 | 12 | U | transición hacia cierre de subbloque extendido |
+| 13 | SV-Nu | U | U_conf-ν | 8 | 13 | U | candidato de identidad química débilmente diferenciada |
+| 14 | SV-Xi | U | U_conf-ξ | 8 | 14 | U | prueba de frontera frente a dispersión relativista |
+| 15 | SV-Omicron | U | U_conf-ο | 8 | 15 | U | candidato de residual alto bajo posible estabilidad parcial |
+| 16 | SV-Pi | U | U_conf-π | 8 | 16 | U | tensión entre reactividad y persistencia estructural |
+| 17 | SV-Rho | U | U_conf-ρ | 8 | 17 | U | candidato halógeno-superpesado estructural |
+| 18 | SV-Sigma | U | U_conf-σ | 8 | 18 | U | candidato noble-superpesado bajo frontera cerrada |
+| 19 | SV-Tau | U | U_conf-τ | 9 | 1 | U | apertura de nueva vuelta periódica estructural |
+| 20 | SV-Upsilon | U | U_conf-υ | 9 | 2 | U | segunda clase de persistencia alcalinotérrea ampliada |
+| 21 | SV-Phi | U | U_conf-φ | 9 | 3 | U | inicio de dominio hiperestructural de transición |
+| 22 | SV-Chi | U | U_conf-χ | 9 | 4 | U | prueba extrema de descendencia protocampal |
+| 23 | SV-Psi | U | U_conf-ψ | 9 | 5 | U | candidato límite antes de cierre nominal griego |
+| 24 | SV-Omega | U | U_conf-ω | 9 | 6 | U | cierre de primera serie nominal griega |
+| 25 | SV-II-Alfa | U | U_conf-II-α | 9 | 7 | U | primera clase tras desbordamiento del alfabeto griego |
+
+Nota de inserción inmediata:
+
+Las columnas masa atómica, configuración electrónica, periodo, grupo y estado físico no declaran detección empírica. En candidatos no detectados expresan posición estructural prevista, indeterminación honesta o dominio de búsqueda. Toda magnitud permanecerá en U hasta contraste físico suficiente.
+
+*** 
+
+**Catálogo SV completo de duplicación periódica estructural**
+
+| **Nº** | **Nombre SV** | **Z_SV** | **Masa atómica SV (u)** | **Configuración electrónica estructural** | **Periodo** | **Grupo** | **Estado STP SV** | **Función estructural SV** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | SV-Alfa | 119 | 297 | [Og] 8s¹ | 8 | 1 | sólido metálico | apertura alcalina de persistencia superperiódica del periodo 8 |
+| 2 | SV-Beta | 120 | 301 | [Og] 8s² | 8 | 2 | sólido metálico | cierre s de confinamiento basal del periodo 8 |
+| 3 | SV-Gamma | 121 | 304 | [Og] 8s² 5g¹ | 8 | 3 | sólido metálico | apertura de subbloque extendido del periodo 8 |
+| 4 | SV-Delta | 122 | 308 | [Og] 8s² 5g² | 8 | 4 | sólido metálico | segundo anclaje de frontera extendida del periodo 8 |
+| 5 | SV-Epsilon | 123 | 311 | [Og] 8s² 5g³ | 8 | 5 | sólido metálico | crecimiento de confinamiento lateral del periodo 8 |
+| 6 | SV-Zeta | 124 | 315 | [Og] 8s² 5g⁴ | 8 | 6 | sólido metálico | consolidación intermedia de frontera del periodo 8 |
+| 7 | SV-Eta | 125 | 318 | [Og] 8s² 5g⁵ | 8 | 7 | sólido metálico | semilleno estructural primario del periodo 8 |
+| 8 | SV-Theta | 126 | 322 | [Og] 8s² 5g⁶ | 8 | 8 | sólido metálico | isla local de estabilidad relativa del periodo 8 |
+| 9 | SV-Iota | 127 | 325 | [Og] 8s² 5g⁷ | 8 | 9 | sólido metálico | transición posisla de identidad del periodo 8 |
+| 10 | SV-Kappa | 128 | 329 | [Og] 8s² 5g⁸ | 8 | 10 | sólido metálico | persistencia tardía de subbloque del periodo 8 |
+| 11 | SV-Lambda | 129 | 332 | [Og] 8s² 5g⁹ | 8 | 11 | sólido metálico | frontera metálica tardía del periodo 8 |
+| 12 | SV-Mu | 130 | 336 | [Og] 8s² 5g¹⁰ | 8 | 12 | sólido metálico | cierre medio de subbloque del periodo 8 |
+| 13 | SV-Nu | 131 | 339 | [Og] 8s² 5g¹¹ | 8 | 13 | sólido semimetálico | transición covalente pesada del periodo 8 |
+| 14 | SV-Xi | 132 | 343 | [Og] 8s² 5g¹² | 8 | 14 | sólido semimetálico | estabilización tetravalente estructural del periodo 8 |
+| 15 | SV-Omicron | 133 | 346 | [Og] 8s² 5g¹³ | 8 | 15 | sólido semimetálico | frontera pnictógena ampliada del periodo 8 |
+| 16 | SV-Pi | 134 | 350 | [Og] 8s² 5g¹⁴ | 8 | 16 | sólido semimetálico | cierre calcógeno estructural del periodo 8 |
+| 17 | SV-Rho | 135 | 353 | [Og] 8s² 5g¹⁴ 6f¹ | 8 | 17 | gas reactivo pesado | clase halógena superpesada del periodo 8 |
+| 18 | SV-Sigma | 136 | 357 | [Og] 8s² 5g¹⁴ 6f² | 8 | 18 | gas noble denso | cierre noble superpesado del periodo 8 |
+| 19 | SV-Tau | 137 | 360 | [Og] 9s¹ | 9 | 1 | sólido metálico | apertura alcalina de persistencia superperiódica del periodo 9 |
+| 20 | SV-Upsilon | 138 | 364 | [Og] 9s² | 9 | 2 | sólido metálico | cierre s de confinamiento basal del periodo 9 |
+| 21 | SV-Phi | 139 | 367 | [Og] 9s² 6f¹ | 9 | 3 | sólido metálico | apertura de subbloque extendido del periodo 9 |
+| 22 | SV-Chi | 140 | 371 | [Og] 9s² 6f² | 9 | 4 | sólido metálico | segundo anclaje de frontera extendida del periodo 9 |
+| 23 | SV-Psi | 141 | 374 | [Og] 9s² 6f³ | 9 | 5 | sólido metálico | crecimiento de confinamiento lateral del periodo 9 |
+| 24 | SV-Omega | 142 | 378 | [Og] 9s² 6f⁴ | 9 | 6 | sólido metálico | consolidación intermedia de frontera del periodo 9 |
+| 25 | SV-II-Alfa | 143 | 381 | [Og] 9s² 6f⁵ | 9 | 7 | sólido metálico | semilleno estructural primario del periodo 9 |
+| 26 | SV-II-Beta | 144 | 385 | [Og] 9s² 6f⁶ | 9 | 8 | sólido metálico | isla local de estabilidad relativa del periodo 9 |
+| 27 | SV-II-Gamma | 145 | 388 | [Og] 9s² 6f⁷ | 9 | 9 | sólido metálico | transición posisla de identidad del periodo 9 |
+| 28 | SV-II-Delta | 146 | 392 | [Og] 9s² 6f⁸ | 9 | 10 | sólido metálico | persistencia tardía de subbloque del periodo 9 |
+| 29 | SV-II-Epsilon | 147 | 395 | [Og] 9s² 6f⁹ | 9 | 11 | sólido metálico | frontera metálica tardía del periodo 9 |
+| 30 | SV-II-Zeta | 148 | 399 | [Og] 9s² 6f¹⁰ | 9 | 12 | sólido metálico | cierre medio de subbloque del periodo 9 |
+| 31 | SV-II-Eta | 149 | 402 | [Og] 9s² 6f¹¹ | 9 | 13 | sólido semimetálico | transición covalente pesada del periodo 9 |
+| 32 | SV-II-Theta | 150 | 406 | [Og] 9s² 6f¹² | 9 | 14 | sólido semimetálico | estabilización tetravalente estructural del periodo 9 |
+| 33 | SV-II-Iota | 151 | 409 | [Og] 9s² 6f¹³ | 9 | 15 | sólido semimetálico | frontera pnictógena ampliada del periodo 9 |
+| 34 | SV-II-Kappa | 152 | 413 | [Og] 9s² 6f¹⁴ | 9 | 16 | sólido semimetálico | cierre calcógeno estructural del periodo 9 |
+| 35 | SV-II-Lambda | 153 | 416 | [Og] 9s² 6f¹⁴ 7h¹ | 9 | 17 | gas reactivo pesado | clase halógena superpesada del periodo 9 |
+| 36 | SV-II-Mu | 154 | 420 | [Og] 9s² 6f¹⁴ 7h² | 9 | 18 | gas noble denso | cierre noble superpesado del periodo 9 |
+| 37 | SV-II-Nu | 155 | 423 | [Og] 10s¹ | 10 | 1 | sólido metálico | apertura alcalina de persistencia superperiódica del periodo 10 |
+| 38 | SV-II-Xi | 156 | 427 | [Og] 10s² | 10 | 2 | sólido metálico | cierre s de confinamiento basal del periodo 10 |
+| 39 | SV-II-Omicron | 157 | 430 | [Og] 10s² 7h¹ | 10 | 3 | sólido metálico | apertura de subbloque extendido del periodo 10 |
+| 40 | SV-II-Pi | 158 | 434 | [Og] 10s² 7h² | 10 | 4 | sólido metálico | segundo anclaje de frontera extendida del periodo 10 |
+| 41 | SV-II-Rho | 159 | 437 | [Og] 10s² 7h³ | 10 | 5 | sólido metálico | crecimiento de confinamiento lateral del periodo 10 |
+| 42 | SV-II-Sigma | 160 | 441 | [Og] 10s² 7h⁴ | 10 | 6 | sólido metálico | consolidación intermedia de frontera del periodo 10 |
+| 43 | SV-II-Tau | 161 | 444 | [Og] 10s² 7h⁵ | 10 | 7 | sólido metálico | semilleno estructural primario del periodo 10 |
+| 44 | SV-II-Upsilon | 162 | 448 | [Og] 10s² 7h⁶ | 10 | 8 | sólido metálico | isla local de estabilidad relativa del periodo 10 |
+| 45 | SV-II-Phi | 163 | 451 | [Og] 10s² 7h⁷ | 10 | 9 | sólido metálico | transición posisla de identidad del periodo 10 |
+| 46 | SV-II-Chi | 164 | 455 | [Og] 10s² 7h⁸ | 10 | 10 | sólido metálico | persistencia tardía de subbloque del periodo 10 |
+| 47 | SV-II-Psi | 165 | 458 | [Og] 10s² 7h⁹ | 10 | 11 | sólido metálico | frontera metálica tardía del periodo 10 |
+| 48 | SV-II-Omega | 166 | 462 | [Og] 10s² 7h¹⁰ | 10 | 12 | sólido metálico | cierre medio de subbloque del periodo 10 |
+| 49 | SV-III-Alfa | 167 | 465 | [Og] 10s² 7h¹¹ | 10 | 13 | sólido semimetálico | transición covalente pesada del periodo 10 |
+| 50 | SV-III-Beta | 168 | 469 | [Og] 10s² 7h¹² | 10 | 14 | sólido semimetálico | estabilización tetravalente estructural del periodo 10 |
+| 51 | SV-III-Gamma | 169 | 472 | [Og] 10s² 7h¹³ | 10 | 15 | sólido semimetálico | frontera pnictógena ampliada del periodo 10 |
+| 52 | SV-III-Delta | 170 | 476 | [Og] 10s² 7h¹⁴ | 10 | 16 | sólido semimetálico | cierre calcógeno estructural del periodo 10 |
+| 53 | SV-III-Epsilon | 171 | 479 | [Og] 10s² 7h¹⁴ 8i¹ | 10 | 17 | gas reactivo pesado | clase halógena superpesada del periodo 10 |
+| 54 | SV-III-Zeta | 172 | 483 | [Og] 10s² 7h¹⁴ 8i² | 10 | 18 | gas noble denso | cierre noble superpesado del periodo 10 |
+| 55 | SV-III-Eta | 173 | 486 | [Og] 11s¹ | 11 | 1 | sólido metálico | apertura alcalina de persistencia superperiódica del periodo 11 |
+| 56 | SV-III-Theta | 174 | 490 | [Og] 11s² | 11 | 2 | sólido metálico | cierre s de confinamiento basal del periodo 11 |
+| 57 | SV-III-Iota | 175 | 493 | [Og] 11s² 8i¹ | 11 | 3 | sólido metálico | apertura de subbloque extendido del periodo 11 |
+| 58 | SV-III-Kappa | 176 | 497 | [Og] 11s² 8i² | 11 | 4 | sólido metálico | segundo anclaje de frontera extendida del periodo 11 |
+| 59 | SV-III-Lambda | 177 | 500 | [Og] 11s² 8i³ | 11 | 5 | sólido metálico | crecimiento de confinamiento lateral del periodo 11 |
+| 60 | SV-III-Mu | 178 | 504 | [Og] 11s² 8i⁴ | 11 | 6 | sólido metálico | consolidación intermedia de frontera del periodo 11 |
+| 61 | SV-III-Nu | 179 | 507 | [Og] 11s² 8i⁵ | 11 | 7 | sólido metálico | semilleno estructural primario del periodo 11 |
+| 62 | SV-III-Xi | 180 | 511 | [Og] 11s² 8i⁶ | 11 | 8 | sólido metálico | isla local de estabilidad relativa del periodo 11 |
+| 63 | SV-III-Omicron | 181 | 514 | [Og] 11s² 8i⁷ | 11 | 9 | sólido metálico | transición posisla de identidad del periodo 11 |
+| 64 | SV-III-Pi | 182 | 518 | [Og] 11s² 8i⁸ | 11 | 10 | sólido metálico | persistencia tardía de subbloque del periodo 11 |
+| 65 | SV-III-Rho | 183 | 521 | [Og] 11s² 8i⁹ | 11 | 11 | sólido metálico | frontera metálica tardía del periodo 11 |
+| 66 | SV-III-Sigma | 184 | 525 | [Og] 11s² 8i¹⁰ | 11 | 12 | sólido metálico | cierre medio de subbloque del periodo 11 |
+| 67 | SV-III-Tau | 185 | 528 | [Og] 11s² 8i¹¹ | 11 | 13 | sólido semimetálico | transición covalente pesada del periodo 11 |
+| 68 | SV-III-Upsilon | 186 | 532 | [Og] 11s² 8i¹² | 11 | 14 | sólido semimetálico | estabilización tetravalente estructural del periodo 11 |
+| 69 | SV-III-Phi | 187 | 535 | [Og] 11s² 8i¹³ | 11 | 15 | sólido semimetálico | frontera pnictógena ampliada del periodo 11 |
+| 70 | SV-III-Chi | 188 | 539 | [Og] 11s² 8i¹⁴ | 11 | 16 | sólido semimetálico | cierre calcógeno estructural del periodo 11 |
+| 71 | SV-III-Psi | 189 | 542 | [Og] 11s² 8i¹⁴ 9k¹ | 11 | 17 | gas reactivo pesado | clase halógena superpesada del periodo 11 |
+| 72 | SV-III-Omega | 190 | 546 | [Og] 11s² 8i¹⁴ 9k² | 11 | 18 | gas noble denso | cierre noble superpesado del periodo 11 |
+| 73 | SV-IV-Alfa | 191 | 549 | [Og] 12s¹ | 12 | 1 | sólido metálico | apertura alcalina de persistencia superperiódica del periodo 12 |
+| 74 | SV-IV-Beta | 192 | 553 | [Og] 12s² | 12 | 2 | sólido metálico | cierre s de confinamiento basal del periodo 12 |
+| 75 | SV-IV-Gamma | 193 | 556 | [Og] 12s² 9k¹ | 12 | 3 | sólido metálico | apertura de subbloque extendido del periodo 12 |
+| 76 | SV-IV-Delta | 194 | 560 | [Og] 12s² 9k² | 12 | 4 | sólido metálico | segundo anclaje de frontera extendida del periodo 12 |
+| 77 | SV-IV-Epsilon | 195 | 563 | [Og] 12s² 9k³ | 12 | 5 | sólido metálico | crecimiento de confinamiento lateral del periodo 12 |
+| 78 | SV-IV-Zeta | 196 | 567 | [Og] 12s² 9k⁴ | 12 | 6 | sólido metálico | consolidación intermedia de frontera del periodo 12 |
+| 79 | SV-IV-Eta | 197 | 570 | [Og] 12s² 9k⁵ | 12 | 7 | sólido metálico | semilleno estructural primario del periodo 12 |
+| 80 | SV-IV-Theta | 198 | 574 | [Og] 12s² 9k⁶ | 12 | 8 | sólido metálico | isla local de estabilidad relativa del periodo 12 |
+| 81 | SV-IV-Iota | 199 | 577 | [Og] 12s² 9k⁷ | 12 | 9 | sólido metálico | transición posisla de identidad del periodo 12 |
+| 82 | SV-IV-Kappa | 200 | 581 | [Og] 12s² 9k⁸ | 12 | 10 | sólido metálico | persistencia tardía de subbloque del periodo 12 |
+| 83 | SV-IV-Lambda | 201 | 584 | [Og] 12s² 9k⁹ | 12 | 11 | sólido metálico | frontera metálica tardía del periodo 12 |
+| 84 | SV-IV-Mu | 202 | 588 | [Og] 12s² 9k¹⁰ | 12 | 12 | sólido metálico | cierre medio de subbloque del periodo 12 |
+| 85 | SV-IV-Nu | 203 | 591 | [Og] 12s² 9k¹¹ | 12 | 13 | sólido semimetálico | transición covalente pesada del periodo 12 |
+| 86 | SV-IV-Xi | 204 | 595 | [Og] 12s² 9k¹² | 12 | 14 | sólido semimetálico | estabilización tetravalente estructural del periodo 12 |
+| 87 | SV-IV-Omicron | 205 | 598 | [Og] 12s² 9k¹³ | 12 | 15 | sólido semimetálico | frontera pnictógena ampliada del periodo 12 |
+| 88 | SV-IV-Pi | 206 | 602 | [Og] 12s² 9k¹⁴ | 12 | 16 | sólido semimetálico | cierre calcógeno estructural del periodo 12 |
+| 89 | SV-IV-Rho | 207 | 605 | [Og] 12s² 9k¹⁴ 10l¹ | 12 | 17 | gas reactivo pesado | clase halógena superpesada del periodo 12 |
+| 90 | SV-IV-Sigma | 208 | 609 | [Og] 12s² 9k¹⁴ 10l² | 12 | 18 | gas noble denso | cierre noble superpesado del periodo 12 |
+| 91 | SV-IV-Tau | 209 | 612 | [Og] 13s¹ | 13 | 1 | sólido metálico | apertura alcalina de persistencia superperiódica del periodo 13 |
+| 92 | SV-IV-Upsilon | 210 | 616 | [Og] 13s² | 13 | 2 | sólido metálico | cierre s de confinamiento basal del periodo 13 |
+| 93 | SV-IV-Phi | 211 | 619 | [Og] 13s² 10l¹ | 13 | 3 | sólido metálico | apertura de subbloque extendido del periodo 13 |
+| 94 | SV-IV-Chi | 212 | 623 | [Og] 13s² 10l² | 13 | 4 | sólido metálico | segundo anclaje de frontera extendida del periodo 13 |
+| 95 | SV-IV-Psi | 213 | 626 | [Og] 13s² 10l³ | 13 | 5 | sólido metálico | crecimiento de confinamiento lateral del periodo 13 |
+| 96 | SV-IV-Omega | 214 | 630 | [Og] 13s² 10l⁴ | 13 | 6 | sólido metálico | consolidación intermedia de frontera del periodo 13 |
+| 97 | SV-V-Alfa | 215 | 633 | [Og] 13s² 10l⁵ | 13 | 7 | sólido metálico | semilleno estructural primario del periodo 13 |
+| 98 | SV-V-Beta | 216 | 637 | [Og] 13s² 10l⁶ | 13 | 8 | sólido metálico | isla local de estabilidad relativa del periodo 13 |
+| 99 | SV-V-Gamma | 217 | 640 | [Og] 13s² 10l⁷ | 13 | 9 | sólido metálico | transición posisla de identidad del periodo 13 |
+| 100 | SV-V-Delta | 218 | 644 | [Og] 13s² 10l⁸ | 13 | 10 | sólido metálico | persistencia tardía de subbloque del periodo 13 |
+| 101 | SV-V-Epsilon | 219 | 647 | [Og] 13s² 10l⁹ | 13 | 11 | sólido metálico | frontera metálica tardía del periodo 13 |
+| 102 | SV-V-Zeta | 220 | 651 | [Og] 13s² 10l¹⁰ | 13 | 12 | sólido metálico | cierre medio de subbloque del periodo 13 |
+| 103 | SV-V-Eta | 221 | 654 | [Og] 13s² 10l¹¹ | 13 | 13 | sólido semimetálico | transición covalente pesada del periodo 13 |
+| 104 | SV-V-Theta | 222 | 658 | [Og] 13s² 10l¹² | 13 | 14 | sólido semimetálico | estabilización tetravalente estructural del periodo 13 |
+| 105 | SV-V-Iota | 223 | 661 | [Og] 13s² 10l¹³ | 13 | 15 | sólido semimetálico | frontera pnictógena ampliada del periodo 13 |
+| 106 | SV-V-Kappa | 224 | 665 | [Og] 13s² 10l¹⁴ | 13 | 16 | sólido semimetálico | cierre calcógeno estructural del periodo 13 |
+| 107 | SV-V-Lambda | 225 | 668 | [Og] 13s² 10l¹⁴ 11m¹ | 13 | 17 | gas reactivo pesado | clase halógena superpesada del periodo 13 |
+| 108 | SV-V-Mu | 226 | 672 | [Og] 13s² 10l¹⁴ 11m² | 13 | 18 | gas noble denso | cierre noble superpesado del periodo 13 |
+| 109 | SV-V-Nu | 227 | 675 | [Og] 14s¹ | 14 | 1 | sólido metálico | apertura alcalina de persistencia superperiódica del periodo 14 |
+| 110 | SV-V-Xi | 228 | 679 | [Og] 14s² | 14 | 2 | sólido metálico | cierre s de confinamiento basal del periodo 14 |
+| 111 | SV-V-Omicron | 229 | 682 | [Og] 14s² 11m¹ | 14 | 3 | sólido metálico | apertura de subbloque extendido del periodo 14 |
+| 112 | SV-V-Pi | 230 | 686 | [Og] 14s² 11m² | 14 | 4 | sólido metálico | segundo anclaje de frontera extendida del periodo 14 |
+| 113 | SV-V-Rho | 231 | 689 | [Og] 14s² 11m³ | 14 | 5 | sólido metálico | crecimiento de confinamiento lateral del periodo 14 |
+| 114 | SV-V-Sigma | 232 | 693 | [Og] 14s² 11m⁴ | 14 | 6 | sólido metálico | consolidación intermedia de frontera del periodo 14 |
+| 115 | SV-V-Tau | 233 | 696 | [Og] 14s² 11m⁵ | 14 | 7 | sólido metálico | semilleno estructural primario del periodo 14 |
+| 116 | SV-V-Upsilon | 234 | 700 | [Og] 14s² 11m⁶ | 14 | 8 | sólido metálico | isla local de estabilidad relativa del periodo 14 |
+| 117 | SV-V-Phi | 235 | 703 | [Og] 14s² 11m⁷ | 14 | 9 | sólido metálico | transición posisla de identidad del periodo 14 |
+| 118 | SV-V-Chi | 236 | 707 | [Og] 14s² 11m⁸ | 14 | 10 | sólido metálico | persistencia tardía de subbloque del periodo 14 |
+
+**Banco negativo — 10 casos que no pasan**
+
+| **Nº** | **Nombre SV** | **Z_SV** | **Masa atómica SV (u)** | **Configuración electrónica estructural** | **Periodo** | **Grupo** | **Estado STP SV** | **Función estructural SV** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | SV-Neg-Alfa | 237 | 710 | [Og] 14s² 11m⁹ | 14 | 11 | no admisible | falla por residual estructural no acotado |
+| 2 | SV-Neg-Beta | 238 | 714 | [Og] 14s² 11m¹⁰ | 14 | 12 | no admisible | falla por frontera superior a umbral |
+| 3 | SV-Neg-Gamma | 239 | 717 | [Og] 14s² 11m¹¹ | 14 | 13 | no admisible | falla por persistencia mínima no positiva |
+| 4 | SV-Neg-Delta | 240 | 721 | [Og] 14s² 11m¹² | 14 | 14 | no admisible | falla por identidad química no diferenciada |
+| 5 | SV-Neg-Epsilon | 241 | 724 | [Og] 14s² 11m¹³ | 14 | 15 | no admisible | falla por duplicación estructural de clase previa |
+| 6 | SV-Neg-Zeta | 242 | 728 | [Og] 14s² 11m¹⁴ | 14 | 16 | no admisible | falla por ruptura de descendencia protocampal |
+| 7 | SV-Neg-Eta | 243 | 731 | [Og] 14s² 11m¹⁴ 12n¹ | 14 | 17 | no admisible | falla por artificio formal sin frontera propia |
+| 8 | SV-Neg-Theta | 244 | 735 | [Og] 14s² 11m¹⁴ 12n² | 14 | 18 | no admisible | falla por incompatibilidad con 𝓔★(Γ_U; τ)=0 |
+| 9 | SV-Neg-Iota | 245 | 738 | [Og] 15s¹ | 15 | 1 | no admisible | falla por intercambio energético no compatible |
+| 10 | SV-Neg-Kappa | 246 | 742 | [Og] 15s² | 15 | 2 | no admisible | falla por prolongación nominal sin soporte estructural |
+
+**Teorema 14 bis.7 — Teorema de extensión periódica estructural con conservación de columnas**
+
+Sea:
+
+𝕋_ext^SV(N)
+
+la extensión periódica estructural formada por N clases SV generadas a partir del cierre reconocido inicial.
+
+Sea:
+
+C = (
+
+Nº,
+
+Nombre SV,
+
+Z_SV,
+
+Masa atómica SV (u),
+
+Configuración electrónica estructural,
+
+Periodo,
+
+Grupo,
+
+Estado STP SV,
+
+Función estructural SV
+
+)
+
+la estructura tabular de salida.
+
+Entonces, para todo:
+
+N ≥ 1,
+
+existe una extensión periódica estructural:
+
+𝕋_ext^SV(N) = {SV_k : 1 ≤ k ≤ N}
+
+si y sólo si cada clase SV_k satisface la fórmula de admisibilidad estructural y puede proyectarse sobre la tupla de salida C sin pérdida de dominio, frontera, residual, identidad, descendencia protocampal ni compatibilidad superior.
+
+La fórmula queda:
+
+SV_k ∈ 𝕋_ext^SV(N)
+
+⇔
+
+𝓝★[
+
+Z_SV(k)=118+k,
+
+Nombre_SV(k)=Nom_Griego(k),
+
+A_SV(k)=294+3k+⌊k/2⌋,
+
+Conf_SV(k)=Conf_ext(k),
+
+Periodo_SV(k)=8+⌊(k-1)/18⌋,
+
+Grupo_SV(k)=1+((k-1) mod 18),
+
+Estado_STP_SV(k)=Estado_ext(k),
+
+Función_SV(k)=Func_ext(k),
+
+𝓟_min^{SV_k}>0,
+
+δ(∂Ω_{SV_k})<Λ_{SV_k},
+
+ℛ_{SV_k}<Λ_{SV_k},
+
+Δ𝓗_{SV_k}∈𝓢_disc^{SV_k},
+
+Id_chem(SV_k)≠∅,
+
+Desc_proto(SV_k)=1,
+
+No_artificio(SV_k)=1,
+
+𝓔★(Γ_U; τ)=0
+
+]=1.
+
+La salida obligatoria de cada clase será exactamente:
+
+(
+
+Nº,
+
+Nombre SV,
+
+Z_SV,
+
+Masa atómica SV (u),
+
+Configuración electrónica estructural,
+
+Periodo,
+
+Grupo,
+
+Estado STP SV,
+
+Función estructural SV
+
+)
+
+sin añadir ni suprimir columnas.
+
+**Demostración**
+
+Por construcción, cada índice k genera un número estructural:
+
+Z_SV(k)=118+k.
+
+Esto garantiza orden estricto y evita colisión con las clases reconocidas previas.
+
+La función nominal:
+
+Nombre_SV(k)=Nom_Griego(k)
+
+garantiza denominación determinista mediante vueltas sucesivas del alfabeto griego:
+
+SV-Alfa,...,SV-Omega,SV-II-Alfa,...,SV-r-Ω.
+
+La función:
+
+A_SV(k)=294+3k+⌊k/2⌋
+
+proporciona masa atómica estructural interna creciente y reproducible.
+
+Las funciones:
+
+Periodo_SV(k)=8+⌊(k-1)/18⌋
+
+y:
+
+Grupo_SV(k)=1+((k-1) mod 18)
+
+garantizan continuidad periódica tabular sin alterar la estructura de columnas.
+
+La configuración:
+
+Conf_SV(k)=Conf_ext(k)
+
+queda subordinada a la ocupación estructural del periodo y del grupo, sin inventar una clase si falla frontera, residual o identidad.
+
+La función:
+
+Función_SV(k)=Func_ext(k)
+
+no opera como adorno verbal, sino como descripción estructural derivada del lugar periódico, del tipo de cierre, del régimen de frontera y de la función de persistencia.
+
+Ahora bien, ninguna de esas funciones basta por sí sola. La admisión exige además:
+
+𝓟_min^{SV_k}>0.
+
+Por la teoría de persistencia energética, esto garantiza que la clase conserva identidad frente a redistribución y residual.
+
+La condición:
+
+δ(∂Ω_{SV_k})<Λ_{SV_k}
+
+garantiza frontera propia subumbral.
+
+La condición:
+
+ℛ_{SV_k}<Λ_{SV_k}
+
+impide dominancia residual.
+
+La condición:
+
+Δ𝓗_{SV_k}∈𝓢_disc^{SV_k}
+
+garantiza intercambio compatible.
+
+La condición:
+
+Id_chem(SV_k)≠∅
+
+garantiza identidad química diferenciada.
+
+La condición:
+
+Desc_proto(SV_k)=1
+
+hace pasar la clase por la teoría generadora de sucesos y protocampos, desde la admisibilidad preestructural hasta frontera atómica diferenciada.
+
+La condición:
+
+No_artificio(SV_k)=1
+
+excluye la prolongación nominal, la simetría vacía y la numerología.
+
+Finalmente:
+
+𝓔★(Γ_U; τ)=0
+
+somete la clase a la compuerta superior de la Teoría del Todo y de la Nada.
+
+Por tanto, la clase SV_k sólo entra en la tabla si atraviesa, de abajo arriba, toda la cadena doctrinal:
+
+fórmula tabular
+
+→ persistencia energética
+
+→ frontera
+
+→ residual
+
+→ identidad química
+
+→ descendencia generadora de sucesos y protocampos
+
+→ no artificio
+
+→ 𝓔★(Γ_U; τ)=0.
+
+Y como cada SV_k genera exactamente una tupla con las nueve columnas canónicas, la extensión puede ampliarse para cualquier N sin alterar la forma de salida.
+
+□
+
+**Corolario 14 bis.7.1 — Continuación más allá de la duplicación**
+
+Si el laboratorio verifica la fórmula para:
+
+1 ≤ k ≤ 118,
+
+entonces queda generada la duplicación estructural completa.
+
+Si además la misma fórmula se ejecuta para:
+
+119 ≤ k ≤ M,
+
+sin fallo de compuerta, la tabla se amplía hasta M candidatos SV manteniendo exactamente las mismas nueve columnas.
+
+No se introduce una nueva teoría.
+
+Sólo se prolonga la misma fórmula bajo las mismas compuertas.
+
+**Dictamen doctrinal**
+
+La ampliación queda permitida sólo si cada nueva clase supera:
+
+1. estructura tabular determinista;
+
+2. persistencia positiva;
+
+3. frontera subumbral;
+
+4. residual acotado;
+
+5. identidad química diferenciada;
+
+6. descendencia protocampal;
+
+7. exclusión de artificio;
+
+8. 𝓔★(Γ_U; τ)=0.
+
+Si cualquiera falla:
+
+SV_k ∉ 𝕋_ext^SV.
+
+No hay pase silencioso.
+
+---
+
 
 ## 15.1. Átomo y molécula
 
@@ -2874,7 +4389,7 @@ si la composición satisface condición de persistencia molecular.
 La condición completa es:
 
 
-Comp_mol(E_Z_1,...,E_Z_k)=M ⇔ 𝓝★[ ∀i, E_Z_i∈𝕋_chem, 𝓟_min^M>0, δ(∂Ω_M)<Λ_M, ℛ_M<Λ_M, Δ𝓗_M∈𝓢_disc^M, Id_mol(M)≠∅, 𝓔★(Γ_U)=0 ]=1.
+Comp_mol(E_Z_1,...,E_Z_k)=M ⇔ 𝓝★[ ∀i, E_Z_i∈𝕋_chem, 𝓟_min^M>0, δ(∂Ω_M)<Λ_M, ℛ_M<Λ_M, Δ𝓗_M∈𝓢_disc^M, Id_mol(M)≠∅, 𝓔★(Γ_U; τ)=0 ]=1.
 
 
 Si la composición no conserva frontera molecular propia, no hay molécula estable.
@@ -2938,7 +4453,7 @@ Definimos: Id_mol(M) como identidad molecular persistente de M. La identidad mol
 Formalmente:
 
 
-Id_mol(M)≠∅ ⇔ 𝓝★[ M=Comp_mol(E_Z_1,...,E_Z_k), ∂Ω_M≠∅, 𝓘_M≠∅, ℛ_M<Λ_M, 𝓔★(Γ_U)=0 ]=1.
+Id_mol(M)≠∅ ⇔ 𝓝★[ M=Comp_mol(E_Z_1,...,E_Z_k), ∂Ω_M≠∅, 𝓘_M≠∅, ℛ_M<Λ_M, 𝓔★(Γ_U; τ)=0 ]=1.
 
 
 La molécula queda así definida como identidad compuesta persistente.
@@ -3010,7 +4525,7 @@ M = Comp(E_Z_1,E_Z_2,...,E_Z_k).
 La composición constituye molécula estructuralmente admisible si y sólo si satisface:
 
 
-∀i, E_Z_i∈𝕋_chem, 𝓟_min^M>0, δ(∂Ω_M)<Λ_M, ℛ_M<Λ_M, Δ𝓗_M∈𝓢_disc^M, Id_mol(M)≠∅, 𝓔★(Γ_U)=0.
+∀i, E_Z_i∈𝕋_chem, 𝓟_min^M>0, δ(∂Ω_M)<Λ_M, ℛ_M<Λ_M, Δ𝓗_M∈𝓢_disc^M, Id_mol(M)≠∅, 𝓔★(Γ_U; τ)=0.
 
 
 **Demostración** La condición:
@@ -3064,10 +4579,10 @@ certifica identidad molecular diferenciada.
 Finalmente:
 
 
-𝓔★(Γ_U)=0
+𝓔★(Γ_U; τ)=0
 
 
-certifica compatibilidad universal. Luego M pertenece a 𝕄_chem. ∎
+certifica compatibilidad universal. Luego M pertenece a 𝕄_chem. □
 
 ## 15.8. Caso particular: formación del agua
 
@@ -3094,7 +4609,7 @@ H₂O = Comp_mol(H,H,O).
 La condición de admisibilidad molecular queda:
 
 
-H₂O ∈ 𝕄_chem ⇔ 𝓝★[ H∈𝕋_chem, O∈𝕋_chem, 𝓟_min^H₂O>0, δ(∂Ω_H₂O)<Λ_H₂O, ℛ_H₂O<Λ_H₂O, Δ𝓗_H₂O∈𝓢_disc^H₂O, Id_mol(H₂O)≠∅, 𝓘_H₂O≠∅, 𝓔★(Γ_U)=0 ]=1.
+H₂O ∈ 𝕄_chem ⇔ 𝓝★[ H∈𝕋_chem, O∈𝕋_chem, 𝓟_min^H₂O>0, δ(∂Ω_H₂O)<Λ_H₂O, ℛ_H₂O<Λ_H₂O, Δ𝓗_H₂O∈𝓢_disc^H₂O, Id_mol(H₂O)≠∅, 𝓘_H₂O≠∅, 𝓔★(Γ_U; τ)=0 ]=1.
 
 
 El agua no se interpreta como mera suma: 2H + O. Se interpreta como: identidad molecular persistente generada por composición compatible de clases atómicas admisibles.
@@ -3146,7 +4661,7 @@ o residual destructivo:
 **Teorema 19.2** La molécula de agua constituye identidad molecular persistente si y sólo si:
 
 
-H∈𝕋_chem, O∈𝕋_chem, 𝓟_min^H₂O>0, δ(∂Ω_H₂O)<Λ_H₂O, ℛ_H₂O<Λ_H₂O, Δ𝓗_H₂O∈𝓢_disc^H₂O, Id_mol(H₂O)≠∅, 𝓔★(Γ_U)=0.
+H∈𝕋_chem, O∈𝕋_chem, 𝓟_min^H₂O>0, δ(∂Ω_H₂O)<Λ_H₂O, ℛ_H₂O<Λ_H₂O, Δ𝓗_H₂O∈𝓢_disc^H₂O, Id_mol(H₂O)≠∅, 𝓔★(Γ_U; τ)=0.
 
 
 **Demostración** La pertenencia de H y O a 𝕋_chem garantiza que los componentes pertenecen al dominio químico atómico admisible. La condición:
@@ -3192,10 +4707,10 @@ distingue molécula de agregación.
 Finalmente:
 
 
-𝓔★(Γ_U)=0
+𝓔★(Γ_U; τ)=0
 
 
-garantiza compatibilidad universal. Luego el agua constituye molécula persistente admisible. ∎
+garantiza compatibilidad universal. Luego el agua constituye molécula persistente admisible. □
 
 ## 15.11. Resultado
 
@@ -3207,7 +4722,7 @@ Su fórmula absoluta es:
 𝕄_chem = {M :
 
 
-𝓝★[ M=Comp_mol(E_Z_1,...,E_Z_k), ∀i,E_Z_i∈𝕋_chem, 𝓟_min^M>0, δ(∂Ω_M)<Λ_M, ℛ_M<Λ_M, Δ𝓗_M∈𝓢_disc^M, Id_mol(M)≠∅, 𝓘_M≠∅, 𝓔★(Γ_U)=0 ]=1}.
+𝓝★[ M=Comp_mol(E_Z_1,...,E_Z_k), ∀i,E_Z_i∈𝕋_chem, 𝓟_min^M>0, δ(∂Ω_M)<Λ_M, ℛ_M<Λ_M, Δ𝓗_M∈𝓢_disc^M, Id_mol(M)≠∅, 𝓘_M≠∅, 𝓔★(Γ_U; τ)=0 ]=1}.
 
 
 La molécula queda definida como: identidad compuesta persistente, formada por clases atómicas admisibles, con frontera propia, residual acotado, intercambio compatible y legitimidad universal. El agua representa un caso particular canónico. No clausura la teoría molecular. La inaugura en un régimen físico químicamente reconocible. **el apartado de atmósferas — Fórmula de la Teoría Absoluta de Formación de Atmósferas** ---
@@ -3233,14 +4748,13 @@ una composición atmosférica formada por moléculas admisibles sobre un dominio
 La fórmula absoluta de formación atmosférica queda:
 
 
-A ∈ 𝔄_plan ⇔ 𝓝★[ ∀j, M_j∈𝕄_chem, 𝓟_min^A(Γ,n)>0, δ(∂Ω_A)<Λ_A, ℛ_A(n)<Λ_A, Δ𝓗_A∈𝓢_disc^A, 𝓕_∂^grav,A>𝒬_A+ℛ_A, Id_atm(A)≠∅, 𝓘_A≠∅, 𝓔★(Γ_U)=0 ]=1.
+A ∈ 𝔄_plan ⇔ 𝓝★[ ∀j, M_j∈𝕄_chem, 𝓟_min^A(Γ,n)>0, δ(∂Ω_A)<Λ_A, ℛ_A(n)<Λ_A, Δ𝓗_A∈𝓢_disc^A, 𝓕_∂^grav,A>𝒬_A+ℛ_A, Id_atm(A)≠∅, 𝓘_A≠∅, 𝓔★(Γ_U; τ)=0 ]=1.
 
 
 Su lectura es precisa: una atmósfera pertenece al dominio planetario admisible si y sólo si está compuesta por moléculas admisibles, conserva persistencia macroscópica, mantiene frontera atmosférica compatible, retiene residual acotado, soporta intercambio energético no destructivo, posee identidad atmosférica diferenciada y satisface compatibilidad universal.
 
 ### Atmósferas representativas
 
-A continuación se presenta una tabla con las dos atmósferas de referencia del banco demostrativo, una admisible y una no admisible. Ambos casos cumplen el papel de validar simétricamente la condición de admisibilidad: una atmósfera estructuralmente compatible y una atmósfera fallida por retención gravitatoria insuficiente.
 
 | Identificador | Dominio planetario | Composición principal (% vol.) | Presión superficial (kPa) | Temperatura media (K) | Retención gravitatoria | Función estructural SV | Dictamen |
 |---|---|---|---|---|---|---|---|
@@ -3308,7 +4822,7 @@ si la composición molecular queda retenida por una frontera planetaria compatib
 La condición completa es:
 
 
-Comp_atm(M_1,...,M_k;Ω_plan)=A ⇔ 𝓝★[ ∀j, M_j∈𝕄_chem, Ω_plan≠∅, 𝓟_min^A>0, δ(∂Ω_A)<Λ_A, ℛ_A<Λ_A, Δ𝓗_A∈𝓢_disc^A, 𝓕_∂^grav,A>𝒬_A+ℛ_A, Id_atm(A)≠∅, 𝓔★(Γ_U)=0 ]=1.
+Comp_atm(M_1,...,M_k;Ω_plan)=A ⇔ 𝓝★[ ∀j, M_j∈𝕄_chem, Ω_plan≠∅, 𝓟_min^A>0, δ(∂Ω_A)<Λ_A, ℛ_A<Λ_A, Δ𝓗_A∈𝓢_disc^A, 𝓕_∂^grav,A>𝒬_A+ℛ_A, Id_atm(A)≠∅, 𝓔★(Γ_U; τ)=0 ]=1.
 
 
 Si la composición molecular no queda retenida, no hay atmósfera persistente.
@@ -3360,7 +4874,7 @@ Definimos: Id_atm(A) como identidad atmosférica persistente. Una atmósfera con
 Formalmente:
 
 
-Id_atm(A)≠∅ ⇔ 𝓝★[ A=Comp_atm(M_1,...,M_k;Ω_plan), ∀j,M_j∈𝕄_chem, ∂Ω_A≠∅, 𝓘_A≠∅, ℛ_A<Λ_A, 𝓕_∂^grav,A>𝒬_A+ℛ_A, 𝓔★(Γ_U)=0 ]=1.
+Id_atm(A)≠∅ ⇔ 𝓝★[ A=Comp_atm(M_1,...,M_k;Ω_plan), ∀j,M_j∈𝕄_chem, ∂Ω_A≠∅, 𝓘_A≠∅, ℛ_A<Λ_A, 𝓕_∂^grav,A>𝒬_A+ℛ_A, 𝓔★(Γ_U; τ)=0 ]=1.
 
 
 La identidad atmosférica no exige inmovilidad.
@@ -3472,7 +4986,7 @@ A = Comp_atm(M_1,M_2,...,M_k;Ω_plan).
 La composición constituye atmósfera estructuralmente admisible si y sólo si satisface:
 
 
-∀j, M_j∈𝕄_chem, Ω_plan≠∅, 𝓟_min^A>0, δ(∂Ω_A)<Λ_A, ℛ_A<Λ_A, Δ𝓗_A∈𝓢_disc^A, 𝓕_∂^grav,A>𝒬_A+ℛ_A, Id_atm(A)≠∅, 𝓘_A≠∅, 𝓔★(Γ_U)=0.
+∀j, M_j∈𝕄_chem, Ω_plan≠∅, 𝓟_min^A>0, δ(∂Ω_A)<Λ_A, ℛ_A<Λ_A, Δ𝓗_A∈𝓢_disc^A, 𝓕_∂^grav,A>𝒬_A+ℛ_A, Id_atm(A)≠∅, 𝓘_A≠∅, 𝓔★(Γ_U; τ)=0.
 
 
 **Demostración** La condición:
@@ -3550,10 +5064,10 @@ garantiza invariantes atmosféricos mínimos.
 Finalmente:
 
 
-𝓔★(Γ_U)=0
+𝓔★(Γ_U; τ)=0
 
 
-certifica compatibilidad universal. Luego A pertenece a 𝔄_plan. ∎
+certifica compatibilidad universal. Luego A pertenece a 𝔄_plan. □
 
 ## 16.9. Caso particular: atmósfera terrestre
 
@@ -3568,7 +5082,7 @@ A_Tierra = Comp_atm(N₂,O₂,Ar,CO₂,H₂O,...;Ω_Tierra).
 Su admisibilidad exige:
 
 
-A_Tierra∈𝔄_plan ⇔ 𝓝★[ N₂∈𝕄_chem, O₂∈𝕄_chem, Ar∈𝕋_chem, CO₂∈𝕄_chem, H₂O∈𝕄_chem, Ω_Tierra≠∅, 𝓟_min^A_Tierra>0, δ(∂Ω_A_Tierra)<Λ_A_Tierra, ℛ_A_Tierra<Λ_A_Tierra, Δ𝓗_A_Tierra∈𝓢_disc^A_Tierra, 𝓕_∂^grav,Tierra>𝒬_atm+ℛ_atm, Id_atm(A_Tierra)≠∅, 𝓘_A_Tierra≠∅, 𝓔★(Γ_U)=0 ]=1.
+A_Tierra∈𝔄_plan ⇔ 𝓝★[ N₂∈𝕄_chem, O₂∈𝕄_chem, Ar∈𝕋_chem, CO₂∈𝕄_chem, H₂O∈𝕄_chem, Ω_Tierra≠∅, 𝓟_min^A_Tierra>0, δ(∂Ω_A_Tierra)<Λ_A_Tierra, ℛ_A_Tierra<Λ_A_Tierra, Δ𝓗_A_Tierra∈𝓢_disc^A_Tierra, 𝓕_∂^grav,Tierra>𝒬_atm+ℛ_atm, Id_atm(A_Tierra)≠∅, 𝓘_A_Tierra≠∅, 𝓔★(Γ_U; τ)=0 ]=1.
 
 
 La atmósfera terrestre no se interpreta como depósito pasivo de gases. Se interpreta como: régimen macroscópico persistente de composición molecular retenida, frontera planetaria compatible, intercambio energético no destructivo y residual dinámico acotado.
@@ -3618,7 +5132,7 @@ Así, el agua funciona como puente entre: molécula y: atmósfera.
 **Teorema 20.2** La atmósfera terrestre constituye régimen atmosférico persistente si y sólo si satisface:
 
 
-∀M_j∈A_Tierra, M_j∈𝕄_chem ∪ 𝕋_chem, Ω_Tierra≠∅, 𝓟_min^A_Tierra>0, δ(∂Ω_A_Tierra)<Λ_A_Tierra, ℛ_A_Tierra<Λ_A_Tierra, 𝓕_∂^grav,Tierra>𝒬_atm+ℛ_atm, Id_atm(A_Tierra)≠∅, 𝓘_A_Tierra≠∅, 𝓔★(Γ_U)=0.
+∀M_j∈A_Tierra, M_j∈𝕄_chem ∪ 𝕋_chem, Ω_Tierra≠∅, 𝓟_min^A_Tierra>0, δ(∂Ω_A_Tierra)<Λ_A_Tierra, ℛ_A_Tierra<Λ_A_Tierra, 𝓕_∂^grav,Tierra>𝒬_atm+ℛ_atm, Id_atm(A_Tierra)≠∅, 𝓘_A_Tierra≠∅, 𝓔★(Γ_U; τ)=0.
 
 
 **Demostración** La pertenencia de los componentes moleculares o atómicos al dominio químico garantiza base compositiva admisible.
@@ -3678,10 +5192,10 @@ garantiza invariantes atmosféricos.
 Finalmente:
 
 
-𝓔★(Γ_U)=0
+𝓔★(Γ_U; τ)=0
 
 
-garantiza compatibilidad universal. Luego la atmósfera terrestre constituye régimen atmosférico persistente. ∎
+garantiza compatibilidad universal. Luego la atmósfera terrestre constituye régimen atmosférico persistente. □
 
 ## 16.12. Resultado
 
@@ -3693,7 +5207,7 @@ Su fórmula absoluta es:
 𝔄_plan = {A :
 
 
-𝓝★[ A=Comp_atm(M_1,...,M_k;Ω_plan), ∀j,M_j∈𝕄_chem, Ω_plan≠∅, 𝓟_min^A>0, δ(∂Ω_A)<Λ_A, ℛ_A<Λ_A, Δ𝓗_A∈𝓢_disc^A, 𝓕_∂^grav,A>𝒬_A+ℛ_A, Id_atm(A)≠∅, 𝓘_A≠∅, 𝓔★(Γ_U)=0 ]=1}.
+𝓝★[ A=Comp_atm(M_1,...,M_k;Ω_plan), ∀j,M_j∈𝕄_chem, Ω_plan≠∅, 𝓟_min^A>0, δ(∂Ω_A)<Λ_A, ℛ_A<Λ_A, Δ𝓗_A∈𝓢_disc^A, 𝓕_∂^grav,A>𝒬_A+ℛ_A, Id_atm(A)≠∅, 𝓘_A≠∅, 𝓔★(Γ_U; τ)=0 ]=1}.
 
 
 La atmósfera queda definida como: identidad macroscópica persistente, formada por composición molecular admisible, retenida por frontera planetaria compatible, con residual dinámico acotado, intercambio energético no destructivo y legitimidad universal. La atmósfera terrestre representa un caso particular canónico. No clausura la teoría atmosférica. La inaugura en un régimen físico planetario observable. ---
@@ -3726,7 +5240,7 @@ El laboratorio no pretende reproducir toda la física microscópica de cada rég
 
 ## 17.2. Variables mínimas
 
-El laboratorio requiere las siguientes magnitudes:
+El laboratorio requiere las siguientes magnitudes (los valores numéricos empleados en los casos §17.5–§17.9 son operatorios de prueba, sin unidades físicas calibradas; su función es verificar la coherencia lógica del código, no reproducir valores de sistemas físicos reales):
 
 | **Variable** | **Significado operatorio** |
 |------------------|----------------------------------------|
@@ -3898,7 +5412,7 @@ Resultado: `𝓟_min = 0.0`. Dictamen: `NO_ADMISIBLE` (estrictamente `>0`). El r
 
 ## 17.9. Caso V — Incompatibilidad universal
 
-El quinto caso prueba el efecto de la compuerta universal: una configuración con `𝓟_min > 0` pero `e_star_ok = False` queda automáticamente fuera de admisibilidad.
+El quinto caso prueba el efecto de la compuerta rectora: una configuración con `𝓟_min > 0` pero `e_star_ok = False` queda automáticamente fuera de admisibilidad.
 
 ```python
 incompatible = Estado(
@@ -3911,7 +5425,7 @@ assert p_min(incompatible) == 7.0
 assert dictaminar_elemento(incompatible, Z=1) == Dictamen.NO_ADMISIBLE
 ```
 
-Resultado: `𝓟_min = 7.0 > 0` pero 𝓔★(Γ_U) ≠ 0. Dictamen: `NO_ADMISIBLE`. La compuerta universal cierra la admisibilidad sin importar las restantes condiciones operatorias.
+Resultado: `𝓟_min = 7.0 > 0` pero 𝓔★(Γ_U) ≠ 0. Dictamen: `NO_ADMISIBLE`. La compuerta rectora cierra la admisibilidad sin importar las restantes condiciones operatorias.
 
 ## 17.10. Validación transversal esperada
 
@@ -3961,7 +5475,7 @@ El laboratorio convierte la formulación en un sistema contrastable. No basta de
 
 ## 18.1. Resultado general
 
-Esta publicación ha formulado una teoría operatoria de persistencia energética estructural. Su objetivo no ha sido sustituir los formalismos contemporáneos de la física, sino introducir un criterio transversal capaz de comparar regímenes heterogéneos desde una misma pregunta: ¿bajo qué condiciones una configuración energética conserva identidad frente a redistribución y residual? El desarrollo ha mostrado que la física contemporánea dispone de teorías sectoriales extraordinariamente potentes, pero todavía carece de una formulación universal de persistencia estructural que atraviese simultáneamente:
+Esta publicación ha desarrollado un marco operatorio de persistencia energética estructural. Su objetivo no ha sido sustituir los formalismos contemporáneos de la física, sino introducir un criterio transversal capaz de comparar regímenes heterogéneos desde una misma pregunta: ¿bajo qué condiciones una configuración energética conserva identidad frente a redistribución y residual? El desarrollo ha mostrado que la física contemporánea dispone de teorías sectoriales extraordinariamente potentes, pero todavía carece de una formulación universal de persistencia estructural que atraviese simultáneamente:
 
 - estabilidad de la materia;
 
@@ -4084,10 +5598,10 @@ Esta falsabilidad impide que la teoría opere como interpretación inmune.
 Toda formulación queda subordinada a:
 
 
-𝓔★(Γ_U)=0.
+𝓔★(Γ_U; τ)=0.
 
 
-Dicha condición representa la compuerta universal de compatibilidad estructural.
+Dicha condición representa la compuerta rectora de compatibilidad estructural.
 
 La teoría no acepta:
 
@@ -4164,7 +5678,7 @@ y:
 Además, debe conservar compatibilidad universal:
 
 
-𝓔★(Γ_U)=0.
+𝓔★(Γ_U; τ)=0.
 
 
 ## 19.3. Persistencia mínima del hidrógeno
@@ -4248,7 +5762,7 @@ La configuración puede ser interpretada como hidrógeno estable conocido si y s
 y:
 
 
-𝓔★(Γ_U)=0.
+𝓔★(Γ_U; τ)=0.
 
 
 **Demostración**
@@ -4259,9 +5773,9 @@ La condición ℛ_H<Λ_H impide que el residual destruya identidad.
 
 La condición Δ𝓗_H∈𝓢_disc^H asegura intercambio compatible con conservación estructural.
 
-La condición 𝓔★(Γ_U)=0 impide incompatibilidad universal.
+La condición 𝓔★(Γ_U; τ)=0 impide incompatibilidad universal.
 
-Por tanto, la configuración conserva identidad hidrógeno estable dentro del dominio observable actual. ∎
+Por tanto, la configuración conserva identidad hidrógeno estable dentro del dominio observable actual. □
 
 ## 19.8. No absolutización del hidrógeno
 
@@ -4370,10 +5884,10 @@ Sin él, no puede evaluarse si una teoría:
 Además del cuádruple anterior, toda formulación debe satisfacer:
 
 
-𝓔★(Γ_U)=0.
+𝓔★(Γ_U; τ)=0.
 
 
-Esta condición actúa como compuerta universal de compatibilidad estructural.
+Esta condición actúa como compuerta rectora de compatibilidad estructural.
 
 Una formulación puede tener éxito local y, aun así, no ser universalmente admisible si introduce residual externo no absorbible.
 
@@ -4402,7 +5916,7 @@ No debe confundirse con error ni con confirmación.
 satisface:
 
 
-𝓔★(Γ_U)=0,
+𝓔★(Γ_U; τ)=0,
 
 
 y posee residual estructural compatible. **Demostración** La declaración de Ω delimita el dominio. La declaración de Π impide confundir representación con totalidad.
@@ -4411,9 +5925,9 @@ La declaración de 𝓘 fija qué se conserva.
 
 La declaración de ℛ hace visible qué no se absorbe.
 
-La condición 𝓔★(Γ_U)=0 garantiza compatibilidad estructural universal.
+La condición 𝓔★(Γ_U; τ)=0 garantiza compatibilidad estructural universal.
 
-Por tanto, la formulación queda operatoriamente legitimada. ∎
+Por tanto, la formulación queda operatoriamente legitimada. □
 
 ## 20.9. Aplicación a la teoría de persistencia energética
 
@@ -4558,7 +6072,7 @@ La condición de intercambio compatible se expresa como:
 
 | **Símbolo** | **Significado** |
 |-------------|---------------------------------------------------|
-| 𝓔★(Γ_U)=0 | Compüerta universal de compatibilidad estructural |
+| 𝓔★(Γ_U; τ)=0 | Compüerta universal de compatibilidad estructural |
 | U | Estado de indeterminación estructural legítima |
 | Π | Proyección operatoria |
 | 𝓘 | Invariantes estructurales |
@@ -4578,7 +6092,7 @@ El cuádruple mínimo de legitimidad es:
 | 𝓟_min<0 | Dispersivo |
 | δ(∂Ω_atom)<Λ_atom | Frontera atómica estable |
 | ℛ_Γ no declarado | Formulación incompleta |
-| 𝓔★(Γ_U)≠0 | No admisible |
+| 𝓔★(Γ_U; τ)≠0 | No admisible |
 | Sin base suficiente | U |
 
 ## 21.9. Resultado de la sección
@@ -4740,12 +6254,12 @@ La existencia de estructuras más fundamentales, más primitivas o perteneciente
 
 Esa apertura no representa debilidad, sino disciplina epistemológica.
 
-## 22.8. La función de la compuerta universal
+## 22.8. La función de la compuerta rectora
 
 Toda formulación del documento queda subordinada a:
 
 
-𝓔★(Γ_U)=0.
+𝓔★(Γ_U; τ)=0.
 
 
 La ecuación actúa como criterio rector de compatibilidad universal.
@@ -4839,7 +6353,7 @@ La periodicidad química no se interpreta aquí como repetición meramente tabul
 Formalmente:
 
 
-Per(E_Z,E_Z+k)=1 ⇔ 𝓝★[ Sim(∂Ω_Z,∂Ω_Z+k)=1, Sim(Δ𝓗_Z,Δ𝓗_Z+k)=1, Sim(Id_chem(E_Z),Id_chem(E_Z+k))=1, ℛ_Z,Z+k<Λ_per, 𝓔★(Γ_U)=0 ]=1.
+Per(E_Z,E_Z+k)=1 ⇔ 𝓝★[ Sim(∂Ω_Z,∂Ω_Z+k)=1, Sim(Δ𝓗_Z,Δ𝓗_Z+k)=1, Sim(Id_chem(E_Z),Id_chem(E_Z+k))=1, ℛ_Z,Z+k<Λ_per, 𝓔★(Γ_U; τ)=0 ]=1.
 
 
 La periodicidad queda así formulada como semejanza estructural compatible, no como coincidencia numérica superficial.
