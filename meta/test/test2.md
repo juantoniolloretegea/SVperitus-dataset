@@ -1,1131 +1,7399 @@
-# Génesis factual del hidrógeno en el Sistema Vectorial SV: cadena fundacional única, no anulación primigenia–actual, identificación de clase y régimen angular admisible
+**Teoría de la persistencia energética estructural**
 
-<p align="center"><img src="imagenes/Portada.png" alt="Génesis factual del hidrógeno en el Sistema Vectorial SV" width="900"></p>
+**Masa, frontera, residual e identidad física bajo compatibilidad
+operatoria universal**
+
+![Portada](imagenes/Portada.png)
+
+**© 2026. Todos los derechos
+reservados.** \| **DOI** [10.17613/gxfv3-qjj64](https://doi.org/10.17613/gxfv3-qjj64) \| **Juan
+Antonio Lloret Egea** \| ORCID: 0000-0002-6634-3351 \| Instituto
+Tecnológico Virtual de la Inteligencia Artificial para el Español
+(ITVIA) \| IA eñ™ — La Biblia de la IA™ \| **ISSN
+2695-6411** \| **Licencia CC BY-NC-ND 4.0** \| Madrid, 05/05/2026 \|
+
+**Advertencia.** Esta publicación está protegida por **CEDRO** y su
+aplicación en el campo de la Física, así como cualquier forma de
+explotación, reproducción o uso por parte de empresas, queda sujeta al
+copyright del autor y a los términos de la licencia indicada; la
+reproducción, distribución, comunicación pública o transformación de
+esta obra solo puede ser realizada con la autorización de sus titulares,
+salvo excepción prevista por la ley, y cualquier uso comercial sin
+autorización expresa queda prohibido y sujeto estrictamente al
+licenciamiento permitido.
+
+**Warning.** This publication is protected by **CEDRO**. Its application
+in the field of Physics, as well as any form of exploitation,
+reproduction, or use by corporate entities, is strictly subject to the
+author's copyright and the terms of the license indicated; any
+reproduction, distribution, public communication, or transformation of
+this work requires authorization from the rightsholders, except as
+provided by law, and any commercial use without express written consent
+is prohibited and strictly subject to permitted licensing.
+
+**Resumen**
+
+La física contemporánea describe con enorme precisión múltiples
+regímenes de interacción, estabilidad y transformación energética. Sin
+embargo, dichos regímenes permanecen distribuidos en dominios
+formalmente heterogéneos: estabilidad cuántica de la materia,
+termodinámica fuera del equilibrio, plasma, decoherencia, emergencia
+estructural, confinamiento gravitatorio, estabilidad nuclear o
+transición átomo–dispersión. El presente trabajo sostiene que esa
+fragmentación oculta un problema físico transversal todavía
+insuficientemente formulado: la ausencia de un criterio universal de
+persistencia estructural compatible.
+
+La presente formulación introduce una teoría operatoria de persistencia
+energética basada en cinco magnitudes fundamentales:
+
+- frontera factual;
+
+- confinamiento estructural;
+
+- redistribución energética;
+
+- residual;
+
+- e identidad persistente compatible.
+
+A partir de ellas se construye una ecuación mínima de persistencia
+energética destinada a modelar las condiciones bajo las cuales una
+configuración energética puede conservar identidad frente a dispersión
+estructural. El trabajo reinterpreta el átomo no como entidad ontológica
+primaria, sino como primer régimen discreto conocido de persistencia
+energética estable. Del mismo modo, la masa se reformula como
+persistencia estructural efectiva y no exclusivamente como magnitud
+inercial aislada.
+
+La teoría no pretende sustituir los formalismos físicos contemporáneos,
+sino introducir un aparato transversal de compatibilidad estructural
+aplicable a múltiples dominios: plasma, estabilidad atómica, transición
+térmica, combustión, persistencia nuclear y regímenes macroscópicos de
+confinamiento energético. Toda formulación queda además subordinada a un
+criterio universal explícito de legitimidad operatoria, residual
+estructural y falsación.
+
+**Abstract**
+
+Contemporary physics describes with extraordinary precision multiple
+regimes of interaction, stability, and energetic transformation.
+However, these regimes remain distributed across formally heterogeneous
+domains: quantum stability of matter, non-equilibrium thermodynamics,
+plasma physics, decoherence, structural emergence, gravitational
+confinement, nuclear stability, or atom–dispersion transitions. The
+present work argues that such fragmentation conceals a transversal
+physical problem still insufficiently formulated: the absence of a
+universal criterion for compatible structural persistence.
+
+This formulation introduces an operational theory of energetic
+persistence grounded on five fundamental magnitudes:
+
+- factual boundary;
+
+- structural confinement;
+
+- energetic redistribution;
+
+- residual structure;
+
+- and compatible persistent identity.
+
+From these elements, a minimal energetic persistence equation is
+constructed in order to model the conditions under which an energetic
+configuration can preserve identity against structural dispersion. The
+atom is reinterpreted not as a primary ontological entity, but as the
+first known discrete regime of stable energetic persistence. Likewise,
+mass is reformulated as effective structural persistence rather than
+merely inertial magnitude.
+
+The theory does not aim to replace contemporary physical formalisms, but
+rather to introduce a transversal framework of structural compatibility
+applicable across multiple domains: plasma physics, atomic stability,
+thermal transitions, combustion, nuclear persistence, and macroscopic
+energetic confinement regimes. Every formulation is further subordinated
+to an explicit universal criterion of operational legitimacy, structural
+residuality, and falsifiability.
+
+**1. Introducción**
+
+La física moderna ha alcanzado uno de los desarrollos matemáticos y
+experimentales más sofisticados de la historia intelectual. La mecánica
+cuántica, la teoría cuántica de campos, la relatividad general, la
+termodinámica, la física estadística, la física nuclear y la cosmología
+contemporánea describen con enorme precisión múltiples fenómenos
+pertenecientes a escalas extremadamente diferentes.
+
+Sin embargo, dicha precisión no implica necesariamente convergencia
+estructural completa.
+
+Persisten todavía problemas profundamente abiertos relacionados con:
+
+- estabilidad de la materia;
+
+- aparición de identidad física persistente;
+
+- transición entre regímenes energéticos;
+
+- formación de estructuras estables;
+
+- relación entre confinamiento y dispersión;
+
+- emergencia de frontera;
+
+- persistencia frente a degradación;
+
+- y compatibilidad entre estabilidad local y reorganización energética
+  global.
+
+El problema aparece de forma transversal en múltiples dominios físicos
+contemporáneos.
+
+En física cuántica, la estabilidad de la materia constituye una cuestión
+no trivial cuya fundamentación rigurosa requirió desarrollos matemáticos
+muy posteriores a la formulación inicial de la teoría cuántica. En
+termodinámica fuera del equilibrio aparecen estructuras disipativas
+capaces de mantener organización parcial bajo intercambio energético
+continuo. En física del plasma surgen regímenes de persistencia
+energética sin estabilidad atómica plenamente conservada. En
+decoherencia cuántica se estudia la transición entre superposición y
+comportamiento clásicamente estable. En sistemas complejos y teorías de
+emergencia aparecen fenómenos organizativos cuya estabilidad global no
+queda completamente reducida a sus componentes locales.
+
+Estas líneas muestran simultáneamente una constatación importante:
+
+la física contemporánea posee múltiples teorías locales de estabilidad,
+
+pero todavía no una formulación transversal universal
+
+de persistencia estructural energética.
+
+La presente publicación se sitúa precisamente en ese problema.
+
+El objetivo del trabajo no consiste en sustituir los formalismos
+contemporáneos existentes, ni en negar la validez de sus dominios
+particulares de aplicación. La propuesta desarrollada intenta operar en
+una capa estructural diferente: aquella relacionada con las condiciones
+bajo las cuales una configuración energética consigue conservar
+identidad frente a dispersión.
+
+Bajo esta perspectiva, el problema fundamental deja de formularse
+exclusivamente como:
+
+- interacción;
+
+- partícula;
+
+- campo;
+
+- o geometría;
+
+y pasa a formularse como:
+
+problema de persistencia energética compatible.
+
+La presente teoría introduce un aparato operatorio destinado a modelar
+dicha persistencia mediante cinco componentes fundamentales:
+
+- frontera estructural;
+
+- confinamiento factual;
+
+- redistribución energética;
+
+- residual estructural;
+
+- e identidad compatible.
+
+A partir de ellos se construye una ecuación mínima de persistencia
+energética capaz de distinguir entre:
+
+- regímenes persistentes;
+
+- regímenes críticos;
+
+- y regímenes dispersivos.
+
+Dentro de esta formulación, el átomo deja de interpretarse como entidad
+ontológica primaria inexplicada y pasa a modelarse como:
+
+primer régimen discreto conocido
+
+de persistencia energética estructural estable.
+
+La teoría distingue rigurosamente entre:
+
+- mínimo estructural conocido;
+
+- y mínimo estructural universal.
+
+Por ello, el hidrógeno se interpreta únicamente como primer caso
+canónico observable actualmente conocido de persistencia atómica
+discreta estable, evitando absolutizaciones no demostradas.
+
+La formulación incorpora además:
+
+- criterios explícitos de falsación;
+
+- residual estructural declarado;
+
+- laboratorio reproducible;
+
+- y compatibilidad operatoria universal.
+
+Toda construcción desarrollada queda subordinada a un criterio universal
+explícito de legitimidad estructural:
+
+𝓔★(Γ_U)=0.
+
+La presente teoría no afirma haber clausurado definitivamente todos los
+regímenes posibles de persistencia energética. Permanece explícitamente
+abierto el estado de indeterminación estructural legítima allí donde no
+exista base suficiente de cierre compatible.
+
+Bajo estas condiciones, el trabajo propone una reformulación transversal
+del problema físico de persistencia energética estructural y de
+aparición de identidad estable frente a dispersión.
+
+**2. Estado contemporáneo del problema de la persistencia física**
+
+**2.1. Introducción**
+
+La física contemporánea ha construido modelos extremadamente precisos
+para describir:
+
+- interacción;
+
+- estabilidad local;
+
+- transición energética;
+
+- formación de estructuras;
+
+- confinamiento;
+
+- radiación;
+
+- y reorganización material.
+
+Sin embargo, dichos desarrollos han aparecido históricamente
+distribuidos en dominios parcialmente independientes entre sí.
+
+La consecuencia es importante:
+
+existen múltiples teorías sectoriales de estabilidad,
+
+pero no una formulación transversal universal
+
+de persistencia estructural energética.
+
+El presente apartado no pretende revisar exhaustivamente toda la física
+contemporánea. Su objetivo es más preciso:
+
+delimitar el problema físico real
+
+sobre el que opera la presente formulación.
+
+**2.2. Estabilidad de la materia**
+
+La estabilidad de la materia constituye uno de los problemas
+fundamentales de la física matemática moderna.
+
+La mecánica cuántica temprana describió exitosamente:
+
+- espectros atómicos;
+
+- estabilidad orbital;
+
+- y estructura electrónica.
+
+Sin embargo, la demostración rigurosa de que grandes sistemas materiales
+pueden conservar estabilidad macroscópica requirió desarrollos
+posteriores altamente sofisticados.
+
+Los trabajos de Dyson, Lieb y otros autores mostraron que la estabilidad
+de la materia no constituye una consecuencia trivial de la teoría
+cuántica, sino un problema matemáticamente profundo relacionado con:
+
+- energía mínima;
+
+- exclusión fermiónica;
+
+- interacción electromagnética;
+
+- y comportamiento colectivo.
+
+Aun así, la cuestión permanece parcialmente localizada dentro del
+dominio cuántico específico.
+
+La física contemporánea describe correctamente condiciones de
+estabilidad material, pero no formula todavía una teoría universal de
+persistencia estructural aplicable transversalmente a:
+
+- plasma;
+
+- materia condensada;
+
+- estabilidad nuclear;
+
+- sistemas disipativos;
+
+- y regímenes macroscópicos de confinamiento energético.
+
+**2.3. Termodinámica fuera del equilibrio**
+
+La termodinámica clásica describe con enorme precisión:
+
+- equilibrio;
+
+- irreversibilidad;
+
+- transferencia energética;
+
+- y crecimiento entrópico.
+
+Posteriormente, la termodinámica fuera del equilibrio mostró que ciertos
+sistemas abiertos pueden desarrollar:
+
+- estructuras disipativas;
+
+- autoorganización parcial;
+
+- y persistencia dinámica bajo intercambio energético continuo.
+
+Los trabajos de Prigogine y Nicolis resultaron especialmente relevantes
+al mostrar que:
+
+la disipación no implica necesariamente destrucción inmediata de
+estructura.
+
+Sin embargo, continúa abierto un problema estructural importante:
+
+¿bajo qué criterio universal
+
+una redistribución energética deja de ser compatible
+
+con identidad persistente?
+
+La termodinámica contemporánea describe múltiples mecanismos de
+reorganización energética, pero no formula todavía una teoría universal
+de frontera persistente compatible.
+
+**2.4. Plasma y transición atómica**
+
+La física del plasma constituye uno de los dominios más relevantes para
+el problema de persistencia energética.
+
+En un plasma aparecen simultáneamente:
+
+- redistribución energética intensa;
+
+- ionización;
+
+- interacción colectiva;
+
+- confinamiento parcial;
+
+- y pérdida o degradación de identidad atómica discreta.
+
+El plasma muestra un hecho extremadamente importante:
+
+puede existir persistencia energética
+
+sin estabilidad atómica completa.
+
+Esto obliga a distinguir rigurosamente entre:
+
+- persistencia energética;
+
+- y persistencia atómica discreta.
+
+La transición plasma → átomo se encuentra parcialmente descrita mediante
+mecanismos físicos conocidos, pero no existe todavía una formulación
+estructural universal que determine:
+
+- cuándo aparece frontera estable;
+
+- bajo qué criterio emerge identidad discreta;
+
+- y cómo se conserva persistencia frente a redistribución energética
+  extrema.
+
+**2.5. Decoherencia e identidad estable**
+
+La teoría de decoherencia introdujo uno de los avances conceptuales más
+importantes de la física contemporánea.
+
+Mostró que ciertos sistemas pueden evolucionar desde:
+
+- superposición;
+
+- indeterminación cuántica;
+
+- o comportamiento no clásico,
+
+hacia configuraciones relativamente estables y clásicamente
+distinguibles.
+
+Sin embargo, incluso dentro de la decoherencia permanece parcialmente
+abierta la cuestión fundamental:
+
+¿qué convierte una configuración energética
+
+en identidad físicamente persistente?
+
+La decoherencia describe mecanismos de estabilización observacional,
+pero no constituye todavía una teoría universal de persistencia
+estructural transversal.
+
+**2.6. Emergencia y autoorganización**
+
+Diversos desarrollos contemporáneos en:
+
+- sistemas complejos;
+
+- emergencia;
+
+- materia condensada;
+
+- synergetics;
+
+- y teoría de autoorganización
+
+han mostrado que ciertos sistemas físicos pueden desarrollar estructuras
+globales estables no reducibles trivialmente a sus componentes
+elementales.
+
+Estos trabajos revelan un hecho importante:
+
+la estabilidad física posee componentes colectivos y estructurales.
+
+No obstante, continúa faltando un criterio universal capaz de
+determinar:
+
+- cuándo una estructura consigue conservar identidad;
+
+- cuándo entra en régimen crítico;
+
+- y cuándo colapsa hacia dispersión.
+
+**2.7. Confinamiento gravitatorio y persistencia estelar**
+
+Las estrellas constituyen uno de los ejemplos físicos más importantes de
+persistencia energética observable.
+
+En ellas aparecen simultáneamente:
+
+- confinamiento gravitatorio;
+
+- redistribución térmica extrema;
+
+- transformación nuclear;
+
+- emisión radiativa;
+
+- residual creciente;
+
+- y estabilidad macroscópica prolongada.
+
+El régimen estelar muestra que:
+
+persistir físicamente
+
+no significa eliminar transformación energética,
+
+sino resistir dispersión estructural total.
+
+Las estrellas funcionan así como laboratorio natural permanente del
+problema de persistencia energética.
+
+**2.8. Fragmentación estructural contemporánea**
+
+Los dominios anteriores muestran una situación física contemporánea
+extremadamente rica, pero también estructuralmente fragmentada.
+
+Actualmente existen:
+
+- teorías locales de estabilidad;
+
+- teorías locales de interacción;
+
+- teorías locales de transición;
+
+- teorías locales de confinamiento;
+
+- y teorías locales de reorganización energética.
+
+Sin embargo, dichas teorías operan frecuentemente sobre:
+
+- escalas diferentes;
+
+- lenguajes matemáticos distintos;
+
+- observables heterogéneos;
+
+- y dominios parcialmente incompatibles.
+
+La consecuencia es la siguiente:
+
+la física contemporánea describe múltiples mecanismos de estabilidad,
+
+pero todavía no posee una formulación transversal universal
+
+de persistencia energética estructural.
+
+**2.9. Problema físico central**
+
+A partir del estado contemporáneo anterior, el problema físico
+transversal puede formularse rigurosamente así:
+
+¿bajo qué condiciones una configuración energética
+
+consigue conservar identidad
+
+frente a redistribución y dispersión estructural?
+
+La presente publicación se construye precisamente sobre dicha cuestión.
+
+El aparato operatorio introducido en las secciones siguientes intenta
+formular un criterio transversal basado en:
+
+- frontera;
+
+- confinamiento;
+
+- redistribución;
+
+- residual;
+
+- e identidad compatible.
+
+**2.10. Alcance de la presente formulación**
+
+La teoría desarrollada no pretende sustituir:
+
+- mecánica cuántica;
+
+- relatividad;
+
+- termodinámica;
+
+- teoría de campos;
+
+- ni plasma físico contemporáneo.
+
+La formulación intenta operar en una capa distinta:
+
+la persistencia estructural energética compatible
+
+como problema transversal universal.
+
+Y bajo esa perspectiva, el átomo, el plasma, la estrella, el núcleo y la
+combustión pasan a interpretarse como distintos regímenes particulares
+de un mismo problema físico fundamental.
+
+**3. Fundamento operatorio mínimo de compatibilidad estructural**
+
+**3.1. Introducción**
+
+El problema de persistencia energética formulado en la sección anterior
+exige introducir un aparato operatorio capaz de distinguir rigurosamente
+entre:
+
+- estabilidad;
+
+- reorganización compatible;
+
+- régimen crítico;
+
+- y dispersión estructural.
+
+La presente sección fija únicamente el núcleo mínimo necesario para
+operar sobre dicho problema.
+
+No se introduce aquí un sistema axiomático completo ni una teoría
+algebraica exhaustiva. El objetivo es mucho más restringido:
+
+establecer las condiciones operatorias mínimas
+
+bajo las cuales puede modelarse persistencia estructural compatible.
+
+**3.2. Dominio estructural**
+
+Sea:
+
+Ω
+
+un dominio energético estructural.
+
+El dominio representa el conjunto de configuraciones energéticas
+compatibles consideradas dentro de una formulación determinada.
+
+Toda teoría física legítima deberá declarar explícitamente:
+
+- qué dominio describe;
+
+- qué transformaciones admite;
+
+- y qué magnitudes conserva.
+
+La ausencia de dicha declaración genera extrapolación ilegítima.
+
+**3.3. Frontera estructural**
+
+Definimos:
+
+∂Ω
+
+como frontera estructural del dominio.
+
+La frontera no representa únicamente un límite geométrico.
+
+Representa:
+
+la región de compatibilidad que permite
+
+conservar identidad persistente.
+
+Una configuración energética abandona régimen persistente cuando su
+reorganización estructural supera la capacidad compatible de frontera.
+
+**3.4. Persistencia e identidad**
+
+Definimos:
+
+Id(Γ,n)
+
+como identidad persistente de una configuración energética:
+
+(Γ,n).
+
+La identidad no se interpreta aquí como sustancia metafísica ni como
+entidad ontológica absoluta.
+
+Se interpreta operatoriamente como:
+
+capacidad de conservar estructura compatible
+
+bajo transformación energética.
+
+**3.5. Redistribución energética**
+
+Toda configuración energética experimenta:
+
+- intercambio;
+
+- reorganización;
+
+- transferencia;
+
+- y redistribución.
+
+Definimos:
+
+𝔇_Γ𝓗
+
+como derivada estructural de redistribución energética sobre la
+trayectoria:
+
+Γ.
+
+Esta magnitud representa:
+
+la variación energética efectiva
+
+que actúa sobre la estabilidad estructural.
+
+**3.6. Residual estructural**
+
+Toda formulación física genera residual.
+
+Definimos:
+
+ℛ_Γ
+
+como residual estructural asociado a la configuración:
+
+(Γ,n).
+
+El residual representa:
+
+- pérdida no absorbida;
+
+- reorganización incompatible;
+
+- degradación acumulativa;
+
+- o diferencia estructural no compensada.
+
+La presente formulación considera ilegítimo:
+
+- eliminar residual artificialmente;
+
+- ocultarlo;
+
+- o absorberlo mediante clausura favorable implícita.
+
+**3.7. Compatibilidad estructural**
+
+Una configuración energética se considera compatible cuando:
+
+la reorganización energética total
+
+no destruye la frontera persistente.
+
+Formalmente, la compatibilidad exige simultáneamente:
+
+- frontera conservada;
+
+- residual acotado;
+
+- redistribución compatible;
+
+- e identidad persistente.
+
+**3.8. Estado de indeterminación estructural**
+
+No toda configuración permite dictamen completo.
+
+Definimos:
+
+U
+
+como estado de indeterminación estructural legítima.
+
+El estado:
+
+U
+
+no representa:
+
+- error;
+
+- ignorancia informal;
+
+- ni cierre favorable automático.
+
+Representa:
+
+ausencia legítima de base suficiente
+
+para clausura compatible.
+
+La presente teoría preserva explícitamente dicho estado allí donde la
+compatibilidad no pueda establecerse rigurosamente.
+
+**3.9. Criterio mínimo de legitimidad operatoria**
+
+Toda formulación física compatible deberá declarar explícitamente:
+
+| **Componente** | **Función**               |
+|----------------|---------------------------|
+| Ω              | Dominio                   |
+| ∂Ω             | Frontera persistente      |
+| Id             | Identidad estructural     |
+| 𝔇_Γ𝓗           | Redistribución energética |
+| ℛ_Γ            | Residual estructural      |
+
+La ausencia de cualquiera de estos componentes impide evaluar
+rigurosamente persistencia energética.
+
+**3.10. Compatibilidad universal**
+
+Toda formulación introducida posteriormente quedará subordinada al
+criterio universal:
+
+𝓔★(Γ_U)=0.
+
+La ecuación anterior representa condición global de compatibilidad
+estructural universal.
+
+No debe interpretarse como simple igualdad algebraica aislada.
+
+Representa:
+
+criterio rector de legitimidad operatoria.
+
+Toda formulación incompatible con dicha condición abandona dominio
+estructural admisible.
+
+**3.11. Consecuencia física fundamental**
+
+El aparato mínimo introducido permite reformular el problema físico
+central de la siguiente manera:
+
+persistir físicamente
+
+significa conservar identidad compatible
+
+frente a redistribución energética y residual estructural.
+
+Bajo esta perspectiva:
+
+- átomo;
+
+- plasma;
+
+- núcleo;
+
+- estrella;
+
+- combustión;
+
+- y materia estable
+
+pueden reinterpretarse como distintos regímenes particulares de
+persistencia energética estructural.
+
+**4. Ecuación mínima de persistencia energética estructural**
+
+**4.1. Introducción**
+
+Una vez introducidos:
+
+- dominio estructural;
+
+- frontera;
+
+- identidad persistente;
+
+- redistribución energética;
+
+- y residual estructural,
+
+resulta posible formular un criterio operatorio mínimo destinado a
+distinguir entre:
+
+- persistencia compatible;
+
+- régimen crítico;
+
+- y dispersión estructural.
+
+El objetivo de la presente sección no consiste en construir una dinámica
+completa de todos los regímenes físicos conocidos. El propósito es más
+preciso:
+
+formular una desigualdad mínima
+
+capaz de modelar persistencia energética estructural.
+
+**4.2. Confinamiento estructural**
+
+Sea:
+
+𝓕\_∂(Γ,n)
+
+la magnitud efectiva de confinamiento estructural asociada a la frontera
+persistente de una configuración energética:
+
+(Γ,n).
+
+La magnitud:
+
+𝓕\_∂
+
+no debe interpretarse exclusivamente como fuerza clásica convencional.
+
+Representa operatoriamente:
+
+capacidad efectiva de frontera
+
+para conservar identidad estructural compatible.
+
+**4.3. Redistribución energética efectiva**
+
+Toda configuración energética experimenta redistribución continua.
+
+Definimos:
+
+Θ(Γ,n)
+
+como intensidad efectiva de redistribución energética compatible.
+
+Sea además:
+
+𝔇_Γ𝓗
+
+la derivada estructural de intercambio energético sobre la trayectoria:
+
+Γ.
+
+El producto:
+
+Θ·𝔇_Γ𝓗
+
+representa redistribución energética efectiva actuando sobre la
+persistencia estructural.
+
+**4.4. Residual estructural**
+
+Sea:
+
+ℛ_Γ
+
+el residual estructural acumulado asociado a la configuración
+energética.
+
+El residual incorpora:
+
+- degradación;
+
+- pérdida compatible;
+
+- reorganización no absorbida;
+
+- y dispersión acumulativa.
+
+La teoría considera ilegítimo eliminar artificialmente dicho término.
+
+**4.5. Persistencia energética mínima**
+
+Definimos finalmente la persistencia energética mínima:
+
+𝓟_min(Γ,n)
+
+mediante:
+
+𝓟_min(Γ,n)
+
+=
+
+𝓕\_∂(Γ,n)
+
+−
+
+Θ(Γ,n)·𝔇_Γ𝓗(Γ,n)
+
+−
+
+ℛ_Γ(n).
+
+La ecuación anterior constituye el núcleo operatorio fundamental de la
+presente formulación.
+
+**4.6. Interpretación física**
+
+La ecuación expresa una idea física extremadamente simple:
+
+una configuración energética persiste
+
+cuando su capacidad estructural de confinamiento
+
+supera redistribución y residual acumulado.
+
+Bajo esta perspectiva:
+
+- la persistencia no equivale a inmovilidad;
+
+- la estabilidad no implica ausencia de transformación;
+
+- y la identidad no exige conservación perfecta.
+
+Lo decisivo es:
+
+la capacidad de resistir dispersión estructural dominante.
+
+**4.7. Regímenes fundamentales**
+
+La formulación distingue tres regímenes operatorios básicos.
+
+**Régimen persistente**
+
+Cuando:
+
+𝓟_min \> 0.
+
+La configuración conserva identidad compatible.
+
+**Régimen crítico**
+
+Cuando:
+
+𝓟_min ≈ 0.
+
+La configuración alcanza frontera de transición estructural.
+
+**Régimen dispersivo**
+
+Cuando:
+
+𝓟_min \< 0.
+
+La redistribución energética y el residual dominan sobre confinamiento
+estructural.
+
+La identidad persistente deja entonces de ser compatible.
+
+**4.8. Consecuencia estructural inmediata**
+
+La formulación anterior permite reinterpretar múltiples regímenes
+físicos bajo un mismo criterio transversal:
+
+| **Régimen**    | **Interpretación**                                    |
+|----------------|-------------------------------------------------------|
+| Átomo estable  | Persistencia discreta compatible                      |
+| Plasma         | Persistencia parcial sin estabilidad discreta plena   |
+| Combustión     | Colapso dispersivo progresivo                         |
+| Estrella       | Persistencia macroscópica bajo redistribución extrema |
+| Núcleo estable | Persistencia de frontera altamente confinada          |
+
+**4.9. Importancia del residual**
+
+La ecuación anterior incorpora explícitamente:
+
+ℛ_Γ.
+
+Ello posee consecuencias importantes.
+
+La estabilidad física observable no aparece como:
+
+- perfección absoluta;
+
+- ni conservación exacta idealizada.
+
+Aparece como:
+
+persistencia compatible bajo residual acotado.
+
+Esto resulta visible simultáneamente en:
+
+- estrellas;
+
+- núcleos;
+
+- átomos;
+
+- plasma;
+
+- y materia macroscópica ordinaria.
+
+**4.10. Compatibilidad universal**
+
+Toda aplicación posterior de:
+
+𝓟_min
+
+queda subordinada a:
+
+𝓔★(Γ_U)=0.
+
+La ecuación de persistencia energética no constituye por sí sola
+criterio suficiente de legitimidad universal.
+
+Toda formulación compatible deberá además preservar:
+
+- coherencia estructural;
+
+- frontera admisible;
+
+- residual declarado;
+
+- y compatibilidad operatoria global.
+
+**4.11. Consecuencia física fundamental**
+
+La presente ecuación permite reformular el problema físico de
+estabilidad de la siguiente manera:
+
+la materia estable observable
+
+puede modelarse como régimen energético
+
+en el que el confinamiento estructural
+
+consigue resistir redistribución y residual.
+
+Y bajo esta perspectiva, la estabilidad deja de interpretarse
+exclusivamente como equilibrio energético estático y pasa a
+interpretarse como:
+
+persistencia estructural compatible
+
+frente a dispersión.
+
+**5. Masa estructural y persistencia de frontera**
+
+**5.1. Introducción**
+
+La física contemporánea utiliza el concepto de masa en múltiples
+contextos:
+
+- inercia;
+
+- energía;
+
+- interacción gravitatoria;
+
+- estabilidad nuclear;
+
+- dinámica relativista;
+
+- y estructura cuántica.
+
+Sin embargo, dichos usos no siempre convergen en una formulación
+estructural única.
+
+La presente sección no pretende sustituir las definiciones operativas
+existentes de masa dentro de sus respectivos dominios físicos. El
+objetivo es más preciso:
+
+reinterpretar operatoriamente la masa
+
+como persistencia estructural efectiva.
+
+Bajo esta perspectiva, la masa deja de interpretarse exclusivamente como
+cantidad de materia o parámetro dinámico aislado y pasa a modelarse
+como:
+
+capacidad energética de conservar identidad compatible
+
+frente a dispersión estructural.
+
+**5.2. Masa y estabilidad física observable**
+
+Las estructuras materiales observables muestran simultáneamente:
+
+- confinamiento;
+
+- reorganización energética;
+
+- residual;
+
+- degradación parcial;
+
+- y persistencia prolongada.
+
+Esto ocurre:
+
+- en núcleos;
+
+- en átomos;
+
+- en estrellas;
+
+- y en materia macroscópica ordinaria.
+
+La estabilidad observable no implica ausencia de transformación
+energética.
+
+Implica más bien:
+
+resistencia estructural frente a dispersión dominante.
+
+**5.3. Definición operatoria de masa estructural**
+
+Definimos:
+
+μ(Γ,n)
+
+como masa estructural efectiva de una configuración energética:
+
+(Γ,n).
+
+La masa estructural queda definida por:
+
+μ(Γ,n)
+
+=
+
+𝓕\_∂(Γ,n)
+
+−
+
+Θ(Γ,n)·𝔇_Γ𝓗(Γ,n)
+
+−
+
+ℛ_Γ(n).
+
+Equivalentemente:
+
+μ(Γ,n)
+
+=
+
+𝓟_min(Γ,n).
+
+La masa estructural coincide así con persistencia energética efectiva
+compatible.
+
+**5.4. Interpretación física**
+
+La definición anterior no interpreta la masa como:
+
+- sustancia primaria;
+
+- entidad ontológica absoluta;
+
+- ni objeto independiente de transformación energética.
+
+La interpreta operatoriamente como:
+
+persistencia de frontera energética
+
+frente a redistribución y residual estructural.
+
+La masa aparece entonces como:
+
+estabilidad estructural efectiva.
+
+**5.5. Diferencia respecto a masa clásica**
+
+La formulación propuesta no niega las magnitudes de masa utilizadas en:
+
+- mecánica clásica;
+
+- relatividad;
+
+- ni teoría cuántica.
+
+La reinterpretación opera en una capa distinta.
+
+La masa convencional continúa funcionando como magnitud física local
+dentro de sus dominios experimentales correspondientes.
+
+La presente formulación introduce un criterio transversal adicional:
+
+la masa puede modelarse
+
+como persistencia energética estructural compatible.
+
+**5.6. Persistencia y transformación energética**
+
+La ecuación estructural muestra una consecuencia importante:
+
+la persistencia física no exige ausencia de transformación.
+
+Una configuración energética puede:
+
+- intercambiar energía;
+
+- reorganizarse;
+
+- irradiar;
+
+- degradarse parcialmente;
+
+- y aun así conservar identidad compatible.
+
+Las estrellas constituyen el ejemplo macroscópico más evidente.
+
+**5.7. El Sol como sistema persistente**
+
+El Sol presenta simultáneamente:
+
+- redistribución térmica extrema;
+
+- emisión continua;
+
+- transformación nuclear;
+
+- residual creciente;
+
+- y estabilidad macroscópica prolongada.
+
+Ello implica que:
+
+la persistencia física observable
+
+consiste en resistir dispersión total,
+
+no en eliminar transformación energética.
+
+El régimen estelar muestra así que:
+
+la masa persistente
+
+es un problema estructural de frontera compatible.
+
+**5.8. Colapso estructural**
+
+Cuando:
+
+Θ·𝔇_Γ𝓗 + ℛ_Γ
+
+\>
+
+𝓕\_∂,
+
+la persistencia energética se degrada progresivamente.
+
+Entonces:
+
+μ \< 0.
+
+La configuración abandona régimen persistente compatible.
+
+El colapso no debe interpretarse necesariamente como desaparición
+instantánea, sino como:
+
+dominancia estructural de dispersión.
+
+**5.9. Consecuencia transversal**
+
+La reinterpretación estructural de masa permite conectar bajo un mismo
+criterio:
+
+| **Régimen**    | **Interpretación**                                    |
+|----------------|-------------------------------------------------------|
+| Núcleo estable | Alta persistencia confinada                           |
+| Átomo estable  | Persistencia discreta compatible                      |
+| Plasma         | Persistencia parcial degradada                        |
+| Estrella       | Persistencia macroscópica bajo redistribución extrema |
+| Combustión     | Colapso progresivo de persistencia                    |
+
+**5.10. Masa y frontera**
+
+La formulación propuesta conduce finalmente a una consecuencia
+importante:
+
+la masa no aparece separada de la frontera.
+
+La estabilidad material observable depende precisamente de:
+
+- conservación de frontera compatible;
+
+- residual acotado;
+
+- y redistribución energética no destructiva.
+
+La masa queda así vinculada operatoriamente a:
+
+persistencia estructural de identidad energética.
+
+**5.11. Compatibilidad universal**
+
+Toda formulación de masa estructural queda subordinada a:
+
+𝓔★(Γ_U)=0.
+
+La masa estructural no constituye magnitud absoluta independiente, sino:
+
+régimen compatible de persistencia energética.
+
+Toda configuración incompatible con la condición universal abandona
+dominio persistente admisible.
+
+**5.12. Resultado físico fundamental**
+
+La presente sección permite reformular operatoriamente la masa de la
+siguiente manera:
+
+la masa observable puede interpretarse
+
+como persistencia efectiva de frontera energética
+
+frente a redistribución y dispersión estructural.
+
+Y bajo esta perspectiva:
+
+la materia deja de constituir
+
+una sustancia primaria inexplicada
+
+y pasa a modelarse como estabilidad energética compatible.
+
+**6. Calor estructural y redistribución energética**
+
+**6.1. Introducción**
+
+El calor constituye uno de los conceptos más centrales de la física y,
+al mismo tiempo, uno de los más delicados cuando se intenta formular una
+teoría transversal de persistencia estructural.
+
+En los formalismos físicos habituales, el calor puede aparecer como:
+
+- transferencia energética;
+
+- variación termodinámica;
+
+- redistribución microscópica;
+
+- agitación molecular;
+
+- flujo térmico;
+
+- o mecanismo de disipación.
+
+La presente formulación no sustituye dichas descripciones. Introduce una
+lectura operatoria adicional:
+
+el calor estructural describe el efecto de la redistribución energética
+
+sobre la conservación o pérdida de identidad persistente.
+
+**6.2. Calor y persistencia**
+
+Toda estructura física persistente debe soportar algún grado de
+intercambio energético.
+
+Ninguna entidad física conocida permanece absolutamente aislada de
+transformación, fluctuación, radiación o reorganización.
+
+Por ello, el problema no es si existe intercambio energético, sino:
+
+si dicho intercambio permanece compatible
+
+con conservación de frontera e identidad.
+
+El calor estructural aparece precisamente en esa frontera conceptual.
+
+**6.3. Definición operatoria**
+
+Definimos:
+
+𝒬(Γ,n)
+
+como redistribución energética efectiva asociada a una configuración:
+
+(Γ,n).
+
+La magnitud queda dada por:
+
+𝒬(Γ,n)
+
+=
+
+Θ(Γ,n)·𝔇_Γ𝓗(Γ,n).
+
+donde:
+
+- Θ(Γ,n) representa intensidad térmica estructural;
+
+- 𝔇_Γ𝓗(Γ,n) representa variación energética efectiva a lo largo de la
+  trayectoria.
+
+**6.4. Interpretación física**
+
+La magnitud:
+
+𝒬
+
+no representa únicamente calor clásico ni temperatura ordinaria.
+
+Representa:
+
+redistribución energética efectiva capaz de modificar
+
+el régimen de persistencia estructural.
+
+Por tanto, una misma cantidad energética puede operar de forma distinta
+según:
+
+- frontera disponible;
+
+- residual acumulado;
+
+- capacidad de confinamiento;
+
+- y régimen de identidad compatible.
+
+**6.5. Calor compatible y calor destructivo**
+
+La teoría distingue dos regímenes fundamentales.
+
+**Calor compatible**
+
+Cuando:
+
+𝒬 + ℛ_Γ \< 𝓕\_∂,
+
+la redistribución energética permanece compatible con persistencia.
+
+La estructura puede:
+
+- reorganizarse;
+
+- intercambiar energía;
+
+- modificar estado interno;
+
+- y conservar identidad.
+
+**Calor destructivo**
+
+Cuando:
+
+𝒬 + ℛ_Γ ≥ 𝓕\_∂,
+
+la redistribución energética supera capacidad estructural de
+confinamiento.
+
+La configuración entra entonces en régimen crítico o dispersivo.
+
+**6.6. Combustión como transición estructural**
+
+La combustión constituye un ejemplo elemental, pero físicamente muy
+expresivo.
+
+Antes de la combustión intensa, una estructura material posee:
+
+- frontera química;
+
+- identidad macroscópica;
+
+- residual acotado;
+
+- y persistencia material compatible.
+
+Durante la combustión aumenta:
+
+𝒬.
+
+Simultáneamente crece:
+
+ℛ_Γ.
+
+Cuando la suma:
+
+𝒬 + ℛ_Γ
+
+supera:
+
+𝓕\_∂,
+
+la estructura abandona su régimen persistente.
+
+No se destruye energía. Se pierde identidad estructural.
+
+**6.7. Ionización y plasma**
+
+La ionización muestra el mismo patrón en régimen microscópico.
+
+Una configuración atómica conserva identidad mientras:
+
+𝒬 + ℛ_Γ \< 𝓕\_∂.
+
+Cuando la redistribución energética supera el umbral compatible de
+frontera:
+
+- se degrada identidad electrónica;
+
+- aparece ionización;
+
+- se pierde estabilidad atómica discreta;
+
+- puede emerger régimen plasmático.
+
+El plasma, bajo esta perspectiva, no es simple ausencia de estructura.
+
+Es:
+
+persistencia energética parcial
+
+sin frontera atómica plenamente conservada.
+
+**6.8. Régimen estelar**
+
+Las estrellas muestran que calor estructural y persistencia no son
+incompatibles.
+
+En una estrella existe:
+
+- redistribución térmica extrema;
+
+- transformación nuclear;
+
+- emisión radiativa continua;
+
+- residual creciente;
+
+- y, sin embargo, persistencia macroscópica prolongada.
+
+Esto sólo es posible mientras:
+
+𝓕\_∂ \> 𝒬 + ℛ_Γ.
+
+La estrella persiste porque la redistribución energética, aun siendo
+extrema, permanece globalmente contenida dentro de un régimen
+estructural de confinamiento compatible.
+
+**6.9. Teorema de degradación térmica estructural**
+
+**Teorema 6.1**
+
+Sea una configuración energética:
+
+(Γ,n)
+
+con persistencia estructural compatible.
+
+Si:
+
+𝒬(Γ,n)+ℛ_Γ(n) ≥ 𝓕\_∂(Γ,n),
+
+entonces la configuración pierde persistencia estructural compatible.
+
+**Demostración**
+
+Por definición:
+
+𝓟_min
+
+=
+
+𝓕\_∂
+
+−
+
+𝒬
+
+−
+
+ℛ_Γ.
+
+La hipótesis implica:
+
+𝓟_min ≤ 0.
+
+Por la definición de régimen persistente, si:
+
+𝓟_min ≤ 0,
+
+la configuración entra en régimen crítico o dispersivo.
+
+Por tanto, deja de conservar persistencia estructural compatible.
+
+∎
+
+**6.10. Consecuencia física**
+
+El calor estructural no debe entenderse únicamente como transferencia
+energética.
+
+Debe entenderse como:
+
+factor de presión sobre frontera persistente.
+
+Cuando permanece por debajo del umbral compatible, permite
+reorganización.
+
+Cuando lo supera, destruye identidad.
+
+**6.11. Resultado de la sección**
+
+La presente sección permite formular la relación entre calor y
+persistencia en una expresión compacta:
+
+el calor estructural es redistribución energética
+
+cuyo efecto físico depende de la capacidad de frontera
+
+para conservar identidad bajo residual acotado.
+
+Bajo esta lectura, combustión, ionización, plasma, transición de fase y
+evolución estelar pueden analizarse como variantes de un mismo problema
+operatorio:
+
+la competencia entre redistribución energética y persistencia de
+frontera.
+
+**7. Fuerza estructural y orientación de persistencia**
+
+**7.1. Introducción**
+
+El concepto de fuerza ocupa una posición central en la física desde sus
+formulaciones clásicas hasta sus reformulaciones modernas en términos de
+campos, conexiones, gradientes, simetrías e interacciones fundamentales.
+
+La presente formulación no pretende reemplazar esas descripciones dentro
+de sus dominios propios. Su objetivo es más restringido:
+
+interpretar operatoriamente la fuerza
+
+como orientación estructural de persistencia.
+
+Bajo esta perspectiva, la fuerza no se reduce a causa de movimiento ni a
+interacción externa. Se modela como magnitud orientadora de frontera,
+trayectoria y reorganización compatible.
+
+**7.2. Fuerza y frontera**
+
+Toda configuración persistente requiere frontera.
+
+Pero una frontera no basta por sí sola.
+
+Debe existir además una orientación estructural capaz de:
+
+- conservar cohesión;
+
+- resistir redistribución destructiva;
+
+- canalizar intercambio energético;
+
+- y mantener identidad compatible.
+
+Esta orientación queda representada por:
+
+𝓕\_∂(Γ,n).
+
+La magnitud expresa la capacidad efectiva de una configuración para
+sostener frontera frente a dispersión.
+
+**7.3. Fuerza estructural frente a fuerza dinámica**
+
+Debe distinguirse entre:
+
+| **Concepto**       | **Función**                                              |
+|--------------------|----------------------------------------------------------|
+| Fuerza dinámica    | Describe cambio de movimiento o interacción local        |
+| Fuerza estructural | Describe orientación de persistencia frente a dispersión |
+
+La fuerza dinámica puede explicar cómo cambia una trayectoria.
+
+La fuerza estructural intenta modelar otra cuestión:
+
+cómo una configuración energética conserva identidad
+
+mientras cambia.
+
+**7.4. Definición operatoria**
+
+Sea:
+
+𝓕\_∂(Γ,n)
+
+la magnitud efectiva de orientación de frontera.
+
+Puede descomponerse formalmente como:
+
+𝓕\_∂(Γ,n)
+
+=
+
+−∇\_∂ϕ(Γ,n)
+
+\+
+
+Rot\_∂Ψ(Γ,n)
+
+\+
+
+𝓙\_∂(Γ,n).
+
+donde:
+
+- −∇\_∂ϕ representa contribución orientadora de potencial;
+
+- Rot\_∂Ψ representa reorganización rotacional o circulatoria
+  compatible;
+
+- 𝓙\_∂ representa corrección estructural asociada a deformación de
+  trayectoria o sensibilidad local.
+
+Esta descomposición no pretende introducir una nueva fuerza fundamental,
+sino formalizar los componentes mínimos de orientación estructural de
+frontera.
+
+**7.5. Relación con persistencia energética**
+
+La ecuación mínima:
+
+𝓟_min
+
+=
+
+𝓕\_∂
+
+−
+
+𝒬
+
+−
+
+ℛ_Γ
+
+muestra que la fuerza estructural es el término que sostiene
+persistencia frente a redistribución y residual.
+
+Si:
+
+𝓕\_∂ \> 𝒬 + ℛ_Γ,
+
+la configuración conserva persistencia compatible.
+
+Si:
+
+𝓕\_∂ ≤ 𝒬 + ℛ_Γ,
+
+entra en régimen crítico o dispersivo.
+
+**7.6. Fuerza y materia estable**
+
+La materia estable no requiere únicamente energía.
+
+Requiere que la energía se encuentre organizada de modo que conserve
+frontera.
+
+Por ello, puede existir:
+
+- energía altamente dispersa sin materia estable;
+
+- energía intensamente concentrada pero inestable;
+
+- o energía estructuralmente confinada con identidad persistente.
+
+La fuerza estructural opera precisamente en este tercer régimen.
+
+**7.7. Fuerza y átomo**
+
+En el átomo estable, la fuerza estructural no debe entenderse sólo como
+atracción o repulsión entre constituyentes.
+
+Debe entenderse además como:
+
+orientación de persistencia discreta.
+
+El átomo conserva identidad si su frontera discreta permanece compatible
+con:
+
+- intercambio energético;
+
+- residual acotado;
+
+- y redistribución no destructiva.
+
+**7.8. Fuerza y plasma**
+
+El plasma muestra un régimen en el que la orientación estructural no
+desaparece por completo, pero deja de conservar frontera atómica
+discreta.
+
+Esto permite distinguir:
+
+| **Régimen**   | **Orientación estructural**       |
+|---------------|-----------------------------------|
+| Átomo estable | Conserva frontera discreta        |
+| Plasma        | Conserva persistencia parcial     |
+| Dispersión    | No conserva identidad persistente |
+
+**7.9. Fuerza y régimen estelar**
+
+Las estrellas exhiben una forma macroscópica intensa de orientación
+estructural.
+
+En ellas coexisten:
+
+- confinamiento gravitatorio;
+
+- presión térmica;
+
+- radiación;
+
+- transformación nuclear;
+
+- y residual acumulativo.
+
+La persistencia estelar se mantiene mientras la orientación estructural
+global supera redistribución y residual.
+
+Por tanto, una estrella no constituye equilibrio inmóvil. Constituye:
+
+persistencia dinámica de frontera macroscópica.
+
+**7.10. Teorema de orientación estructural mínima**
+
+**Teorema 7.1**
+
+Sea una configuración energética:
+
+(Γ,n).
+
+Si:
+
+𝓕\_∂(Γ,n)
+
+\>
+
+𝒬(Γ,n)+ℛ_Γ(n),
+
+entonces existe persistencia estructural compatible.
+
+**Demostración**
+
+Por definición:
+
+𝓟_min
+
+=
+
+𝓕\_∂
+
+−
+
+𝒬
+
+−
+
+ℛ_Γ.
+
+La hipótesis implica:
+
+𝓟_min \> 0.
+
+Por definición de régimen persistente, la configuración conserva
+identidad compatible frente a redistribución y residual.
+
+∎
+
+**7.11. Consecuencia física**
+
+La fuerza estructural no se presenta como sustituto de las fuerzas
+físicas conocidas.
+
+Se presenta como:
+
+lectura transversal de la capacidad de orientación
+
+que permite persistencia de frontera.
+
+Bajo esta interpretación, gravedad, cohesión nuclear, estabilidad
+atómica, confinamiento material y persistencia estelar pueden compararse
+desde una misma pregunta operatoria:
+
+¿la orientación estructural supera la dispersión efectiva?
+
+**7.12. Resultado de la sección**
+
+La presente sección permite formular la función estructural de la fuerza
+en términos compactos:
+
+la fuerza estructural es orientación de frontera
+
+capaz de conservar identidad energética compatible
+
+frente a redistribución y residual.
+
+Con ello, la persistencia energética deja de depender únicamente de
+cantidad de energía y pasa a depender de su orientación estructural
+compatible.
+
+**8. El átomo como régimen discreto de persistencia estructural**
+
+**8.1. Introducción**
+
+El átomo ocupa una posición central en la física moderna.
+
+Sin embargo, a pesar del enorme éxito experimental y matemático de los
+modelos atómicos contemporáneos, el átomo continúa apareciendo
+frecuentemente como:
+
+- objeto elemental asumido;
+
+- unidad estable dada;
+
+- o bloque físico primario.
+
+La presente formulación propone una reinterpretación operatoria
+diferente.
+
+El átomo no se modela aquí como entidad ontológica irreductible, sino
+como:
+
+primer régimen discreto conocido  
+de persistencia energética estructural compatible.
+
+Bajo esta perspectiva, el problema fundamental deja de ser únicamente:
+
+\`\`\`text id="u27
+
+¿de qué está hecho el átomo?
+
+y pasa a formularse como:
+
+\`\`\`text id="m27
+
+¿bajo qué condiciones una configuración energética  
+consigue conservar identidad discreta estable?
 
 ---
 
-**© 2026. Todos los derechos reservados.**
+\# 8.2. Persistencia discreta
 
-**Autor:** Juan Antonio Lloret Egea
-**ORCID:** 0000-0002-6634-3351
-**Sello editorial:** Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA)
-**Publicación:** IA eñ™ — La Biblia de la IA™
-**ISSN:** 2695-6411
-**Licencia:** CC BY-NC-ND 4.0
-**Lugar y fecha:** Madrid, 05/05/2026
+La persistencia energética puede aparecer en distintos regímenes.
 
----
+Por ejemplo:
 
-## Resumen
+\| Régimen \| Tipo de persistencia \|
 
-El documento articula la génesis factual del hidrógeno dentro del Sistema Vectorial SV como cadena fundacional única que precede al átomo químico, al protón, al electrón, a la magnitud SI, a la energía previa, al campo físico aislado y al tiempo soberano. La construcción procede desde la condición formal mínima F₀ ⊢ Def_SV(ε₀), pasa por el suceso cero ε₀ : ∅ → Ω_pre, recorre la equipotencialidad polar Φ(0) = Φ(1), la no-decisión, la marca U como no-clausura honesta, el dominio prototernario Ω_pro, el alfabeto ternario Σ = {0, 1, U}, los sucesos generadores, los protocampos, la restricción preternaria Ω_pre^H, la proyección ternaria Π₃^H, la célula ternaria K₃,H^n, el suceso ε_H y el contenido físico Ξ_H,SV. Sobre este armazón se demuestran cuatro teoremas: el Teorema H-GEN-U de unicidad del origen del hidrógeno por exclusión exhaustiva de seis alternativas, el Teorema H-SUM.1 de no anulación de la suma hidrógeno primigenio–hidrógeno actual, el Teorema H-ID-U de unicidad de identificación bajo quince condiciones operativas conjuntas y el Teorema H-ANG.1 de admisibilidad angular del hidrógeno bajo la fidelidad mínima k = 1 del aparato CHSH-SV. La articulación serial con el corpus es explícita: el régimen angular del hidrógeno hereda directamente la unicidad del correlador angular acoplado C_SV(δ) = −cos δ del Teorema 10.2.1 de la absorción Bell–Tsirelson previa. El documento articula la compuerta de admisibilidad de campos del Sistema Vectorial SV, según la cual sólo los elementos del catálogo con lectura Σ = 1 pueden operar como campos generadores del dominio hidrógeno; los elementos con lectura Σ = 0 (entre ellos, los seis primitivos metrológicos, la lectura espectral o generatriz, la variable compleja auxiliar, el jacobiano y la sensibilidad) quedan autorizados únicamente como herramientas auxiliares, proyecciones, patrones, reconstrucciones, diagnósticos o medidas, y nunca como génesis ni como condición de identificación. En particular, las magnitudes del dominio hidrógeno se miden y se expresan mediante seis primitivos metrológicos SV (UE_MFC, UFE, UFM, UFC, UFT, UFCE) sin SI como suelo: estos primitivos no originan configuraciones, no actúan como campos, no participan en la génesis y no entran en la identificación del Teorema H-ID-U. El mapa configuracional contempla trece configuraciones derivadas (H, H⁺, H⁻, H₂, D, T, tres fases, plasma, H₂O, O₂, O₃) y diez trayectorias canónicas (formación, disociación, ionización, recombinación, combustión, electrólisis, licuefacción, vaporización, plasma, rutas isotópicas).
+\|---\|---\|
 
-**Palabras clave:** Sistema Vectorial SV, hidrógeno, génesis fundacional, alfabeto ternario, célula configuracional ternaria, suceso cero, protocampos, régimen angular, absorción serial, metrología SV.
+\| Estrella \| Persistencia macroscópica continua \|
 
-## Abstract (English)
+\| Plasma \| Persistencia parcial degradada \|
 
-This document articulates the factual genesis of hydrogen within the Vectorial System SV as a unique foundational chain that precedes the chemical atom, the proton, the electron, the SI magnitude, prior energy, isolated physical field, and sovereign time. The construction proceeds from the minimal formal condition F₀ ⊢ Def_SV(ε₀), through the zero event ε₀ : ∅ → Ω_pre, the polar equipotentiality Φ(0) = Φ(1), non-decision, the mark U as honest non-closure, the prototernary domain Ω_pro, the ternary alphabet Σ = {0, 1, U}, the generating events, the protofields, the preternary restriction Ω_pre^H, the ternary projection Π₃^H, the ternary cell K₃,H^n, the event ε_H, and the physical content Ξ_H,SV. Four theorems are proven over this framework: the H-GEN-U theorem on uniqueness of hydrogen origin by exhaustive exclusion of six alternatives, the H-SUM.1 theorem on non-annulment of the primordial–current hydrogen sum, the H-ID-U theorem on identification uniqueness under fifteen joint operational conditions, and the H-ANG.1 theorem on angular admissibility of hydrogen under the minimal fidelity k = 1 of the CHSH-SV apparatus. The serial articulation with the corpus is explicit: the angular regime of hydrogen directly inherits the uniqueness of the coupled angular correlator C_SV(δ) = −cos δ from Theorem 10.2.1 of the prior Bell–Tsirelson absorption. The document articulates the field admissibility gate of the Vectorial System SV, by which only elements of the catalogue with reading Σ = 1 may operate as generating fields of the hydrogen domain; elements with reading Σ = 0 (among them the six metrological primitives, the spectral or generating reading, the auxiliary complex variable, the Jacobian, and the sensitivity) are authorised solely as auxiliary tools, projections, patterns, reconstructions, diagnostics, or measurements, never as genesis or identification conditions. In particular, the magnitudes of the hydrogen domain are measured and expressed through six metrological primitives (UE_MFC, UFE, UFM, UFC, UFT, UFCE) without SI as ground: these primitives do not originate configurations, do not act as fields, do not participate in the genesis, and do not enter the identification of Theorem H-ID-U. The configurational map contemplates thirteen derived configurations (H, H⁺, H⁻, H₂, D, T, three phases, plasma, H₂O, O₂, O₃) and ten canonical trajectories (formation, dissociation, ionisation, recombination, combustion, electrolysis, liquefaction, vaporisation, plasma, isotopic routes).
+\| Átomo \| Persistencia discreta estable \|
 
-**Keywords:** Vectorial System SV, hydrogen, foundational genesis, ternary alphabet, ternary configurational cell, zero event, protofields, angular regime, serial absorption, SV metrology.
+\| Combustión \| Colapso dispersivo progresivo \|
 
----
+El átomo se distingue porque introduce simultáneamente:
 
-## Índice
+\- identidad estable;
 
-1. Introducción.
-2. Estado del arte y planteamiento.
-3. Supuestos no nombrados de la teoría heredada del hidrógeno.
-4. Aparato matemático del SV aplicado al dominio hidrógeno.
- - 4.0. Tabla operativa de parámetros del dominio hidrógeno.
- - 4.1. Compuerta de admisibilidad de campos: Σ = 1 versus Σ = 0.
- - 4.2. Alfabeto ternario y célula configuracional ternaria K₃,H^n.
- - 4.3. Aparato angular heredado.
- - 4.4. Restricción preternaria del hidrógeno.
-5. Cadena fundacional completa de suceso del hidrógeno.
-6. Teorema H-GEN-U — Unicidad del origen del hidrógeno.
-7. Teorema H-SUM.1 — No anulación de la suma primigenio–actual.
-8. Teorema H-ID-U — Unicidad de identificación bajo quince condiciones.
-9. Teorema H-ANG.1 — Admisibilidad angular del hidrógeno.
-10. Metrología del dominio hidrógeno.
-11. Mapa configuracional del dominio.
-12. Trayectorias canónicas iniciales.
-13. Ejemplo trabajado de los teoremas por exclusión.
-14. Lectura estructural y puente con la termodinámica.
-15. Comparación con lecturas alternativas del hidrógeno.
-16. Articulación filosófica.
-17. Falsabilidad y predicción experimental.
-18. Articulación con el corpus del Sistema Vectorial SV.
-19. Conclusión.
-20. Laboratorios.
-21. Referencias.
- - 21.1. Bibliografía externa.
- - 21.2. Bibliografía del corpus del Sistema Vectorial SV.
+\- frontera discreta;
+
+\- intercambio energético compatible;
+
+\- y residual estructural acotado.
 
 ---
 
-## 1. Introducción
+\# 8.3. Frontera discreta
 
-La química, la astrofísica y la tecnología energética contemporáneas tratan al hidrógeno como entidad dada: un átomo formado por un protón y un electrón, con masa atómica 1,008 u, energía de ionización 13,6 eV, configuración electrónica 1s¹ y abundancia cósmica del 75 % en masa. Esta caracterización es operativa para la práctica científica heredada, pero descansa sobre supuestos ontológicos no examinados: que el átomo es entidad primitiva, que el protón y el electrón son entidades primarias, que la masa, la carga y la energía son magnitudes fundantes y que el tiempo cronológico es sustrato de constitución. Ninguno de estos supuestos resiste examen estructural dentro del Sistema Vectorial SV.
+Definimos:
 
-El documento articula la génesis del hidrógeno dentro del aparato propio del Sistema Vectorial SV, sin importar el átomo químico como entidad dada, sin presuponer protón ni electrón como objetos primitivos, sin admitir magnitudes SI como suelo metrológico, sin energía constituida antes de la apertura estructural del dominio y sin tiempo soberano como contenedor previo. La construcción procede por la cadena fundacional única del corpus: condición formal mínima F₀, definibilidad del suceso cero F₀ ⊢ Def_SV(ε₀), suceso cero ε₀ : ∅ → Ω_pre, equipotencialidad polar inicial Φ(0) = Φ(1), no-decisión, emergencia de la marca U como no-clausura honesta, dominio prototernario Ω_pro, alfabeto ternario Σ = {0, 1, U}, sucesos generadores interiores, protocampos, restricción preternaria del dominio hidrógeno Ω_pre^H ⊂ Ω_pre, posiciones preternarias hidrógeno ξ_i^H = (i, α_i^H, β_i^H), proyección ternaria inducida Π₃^H, célula ternaria del dominio hidrógeno K₃,H^n, suceso hidrógeno ε_H y contenido físico Ξ_H,SV.
+\`\`\`text id="f27
 
-Sobre esta cadena se demuestran cuatro teoremas centrales por exclusión exhaustiva de alternativas. El Teorema H-GEN-U establece que el origen del hidrógeno es único en sentido algebraico-estructural por refutación de seis vías alternativas (entidad química externa, campo aislado, metrología, probabilidad, tiempo soberano, operador nuevo no canonizado). El Teorema H-SUM.1 establece que la suma entre la contribución primigenia y la contribución actual del hidrógeno no es nula sin recurrir a energía previa al suceso cero. El Teorema H-ID-U establece que un candidato Ξ_H,SV satisface unicidad de identificación si y sólo si cumple conjuntamente quince condiciones operativas. El Teorema H-ANG.1 establece la condición angular de admisibilidad del hidrógeno cuando sus trayectorias exigen correlación angular acoplada, mediante herencia directa del Teorema 10.2.1 de unicidad del coseno acoplado del documento Bell–Tsirelson previo.
+∂Ω_atom
 
-El documento se inscribe en la operación serial del Sistema Vectorial SV, manifestada en cinco absorciones precedentes: la absorción de E₀ = m₀c² como sector basal de reposo (Lloret Egea, 2026g), la reducción estructural absoluta de Maxwell al SV (Lloret Egea, 2026k), la teoría general de la luz como objeto fibroso (Lloret Egea, 2026 — luz ), la absorción de Bell y Tsirelson como aparato CHSH-SV con cuatro regímenes operativos (Lloret Egea, 2026 — bell-tsirelson) y la teoría del TODO y de la NADA del nivel trece de la cadena ascendente (Lloret Egea, 2026 — todo-nada). La génesis del hidrógeno articulada en el documento constituye la sexta inscripción serial: del aparato matemático fundacional del SV al dominio del hidrógeno como configuración mínima estable, basal, campal, angularmente fiel y medible por metrología SV.
+como frontera estructural discreta compatible del régimen atómico.
 
----
+La estabilidad atómica exige que la reorganización energética permanezca
+por debajo de un umbral estructural compatible:
 
-## 2. Estado del arte y planteamiento
+\`\`\`text id="x27
 
-La caracterización contemporánea del hidrógeno opera sobre cuatro marcos coexistentes: la mecánica cuántica del átomo de Schrödinger sobre un electrón en potencial coulombiano del protón, la astrofísica de la nucleosíntesis primordial sobre los primeros minutos del modelo cosmológico estándar ΛCDM, la termoquímica industrial del H₂ como vector energético y portador molecular y la espectroscopía atómica que asigna al hidrógeno la serie de líneas de Lyman, Balmer, Paschen, Brackett y Pfund con longitudes de onda derivadas de la fórmula de Rydberg. Estos cuatro marcos son operativamente exitosos en sus dominios respectivos pero presuponen ontologías incompatibles entre sí: la cuántica presupone superposición de estados sobre el espacio de Hilbert, la cosmológica presupone tiempo cronológico desde el Big Bang, la termoquímica presupone moles, joules y kelvin SI, y la espectroscópica presupone niveles discretos de energía como entidades dadas. Ninguno de los cuatro marcos articula al hidrógeno desde una génesis estructural única.
+δ(∂Ω_atom) \< Λ_atom.
 
-El planteamiento del documento es articular el hidrógeno como configuración mínima estable dentro del aparato del Sistema Vectorial SV, donde todas las magnitudes (masa, carga, energía, temperatura, extensión, cantidad de entidad) son posteriores a la apertura del dominio y donde la génesis es única en sentido algebraico-estructural. La operación es paralela en disciplina a la del documento Bell–Tsirelson previo: se preserva exacto el resultado heredado en su régimen propio (la espectroscopía atómica del hidrógeno, las líneas de Rydberg, la energía de ionización experimental, la masa atómica, la abundancia cósmica) y simultáneamente se articula su lectura estructural sin formalismo de Hilbert, sin probabilidad fundante, sin tiempo soberano y sin SI como suelo. La operación no contradice los marcos heredados; los subordina.
+donde:
 
-Este apartado establece el contexto de la operación. Los supuestos no nombrados de los marcos heredados se examinan en el apartado 3. El aparato matemático del SV aplicado al dominio hidrógeno se articula en el apartado 4. Los teoremas centrales sobre la génesis se demuestran en los apartados 6 a 9.
+\- \`δ(∂Ω_atom)\` representa variación estructural efectiva de frontera;
 
----
-
-## 3. Supuestos no nombrados de la teoría heredada del hidrógeno
-
-La teoría heredada del hidrógeno descansa sobre seis supuestos no examinados que el aparato del Sistema Vectorial SV recusa. La operación de articulación del documento exige nombrarlos explícitamente para que la disciplina de la absorción serial subsiguiente sea visible.
-
-**Supuesto 1: el hidrógeno es entidad primitiva.** La química elemental trata al átomo de hidrógeno como objeto dado, sin examinar bajo qué condiciones estructurales una configuración puede aspirar a la categoría de hidrógeno. La pregunta sobre la génesis se traslada a la cosmología, que la responde con un Big Bang temporal, no con un suceso fundacional estructural. El SV recusa la primacía: el hidrógeno es configuración derivada de la cadena fundacional única, no entidad primitiva.
-
-**Supuesto 2: el protón y el electrón son objetos primarios.** El modelo atómico estándar presupone protón y electrón como partículas primarias con propiedades intrínsecas (masa, carga, espín, momento magnético). El SV recusa la primacía de la partícula: protón y electrón comparecen como lecturas electromagnéticas derivadas sobre trayectorias específicas (ionización, recombinación), no como fundamento.
-
-**Supuesto 3: las magnitudes SI son suelo metrológico.** El kilogramo, el metro, el segundo, el amperio, el kelvin y la mol del Sistema Internacional se tratan como referencia última. El SV recusa la primacía del SI: las magnitudes del hidrógeno se expresan en seis primitivos operativos del SV (UE_MFC, UFE, UFM, UFC, UFT, UFCE) y la equivalencia con SI sólo aparece como cotejo externo posterior, nunca como fundamento.
-
-**Supuesto 4: la energía es magnitud previa.** La termoquímica trata la energía como sustancia que se conserva a través de transformaciones. El SV recusa la primacía de la energía: antes del suceso cero ε₀ no hay energía constituida; la energía emerge como magnitud del dominio ya abierto, expresable en UFM·UFE²·UE_MFC⁻², no como fundamento previo.
-
-**Supuesto 5: el tiempo cronológico es contenedor.** La cosmología presupone tiempo cronológico desde t = 0 del Big Bang hasta el presente. El SV recusa la primacía del tiempo: la cadena fundacional es dependencia formal de legitimidad, no cronología física; el suceso cero ε₀ no es primer instante temporal sino apertura estructural.
-
-**Supuesto 6: la probabilidad es lectura primitiva de la indeterminación.** La mecánica cuántica trata la indeterminación como probabilidad fundante con su regla de Born. El SV recusa la primacía de la probabilidad: la indeterminación se preserva como marca U de no-clausura honesta, sin reducción probabilística.
-
-Los seis supuestos son los obstáculos estructurales que la articulación del documento recusa explícitamente. La cadena fundacional del apartado 5 y los teoremas de los apartados 6 a 9 operan bajo la recusación conjunta de los seis. La inscripción serial del corpus opera bajo la misma disciplina sostenida en las cinco absorciones precedentes.
-
----
-## 4. Aparato matemático del Sistema Vectorial SV aplicado al dominio hidrógeno
-
-### 4.0. Tabla operativa de parámetros del dominio hidrógeno
-
-La tabla siguiente recoge los parámetros del dominio hidrógeno del Sistema Vectorial SV con su rol operativo, su dominio de variabilidad y su unidad, y constituye el glosario de referencia para los teoremas y demostraciones subsiguientes.
-
-| Símbolo | Nombre | Rol operativo | Dominio | Unidad |
-|:---:|:---|:---|:---:|:---:|
-| ∅ | Vacuidad formal | Punto de partida estructural sin contenido | — | — |
-| F₀ | Condición formal mínima | Habilitación lógica de definibilidad de ε₀ | — | — |
-| ε₀ | Suceso cero | Apertura estructural del dominio preternario | morfismo | — |
-| Ω_pre | Dominio preternario | Espacio abierto por ε₀ donde Φ(0) = Φ(1) | dominio | — |
-| Φ(0), Φ(1) | Equipotencialidad polar | Igualdad estructural de polos antes de la decisión | — | — |
-| U | No-clausura honesta | Marca ternaria de indeterminación operativa | Σ | — |
-| Ω_pro | Dominio prototernario | Espacio donde Σ = {0, 1, U} se constituye | dominio | — |
-| Σ | Alfabeto ternario | Conjunto operativo de marcas {0, 1, U} | conjunto | — |
-| Ω_pre^H | Restricción preternaria del hidrógeno | Subfamilia de Ω_pre relevante para hidrógeno | dominio | — |
-| ξ_i^H | Posición preternaria hidrógeno | Triple (i, α_i^H, β_i^H) sobre la restricción | tupla | — |
-| α_i^H, β_i^H | Componentes protocampales | Polos sin lectura física heredada previa | — | — |
-| Π₃^H | Proyección ternaria inducida | Ω_pre^H → K₃,H^n | morfismo | — |
-| K₃,H^n | Célula ternaria del dominio hidrógeno | Σⁿ con n posiciones del dominio | conjunto | adimensional |
-| ε_H | Suceso hidrógeno | Triple (v_{H,k}, v_{H,k+1}, Δq_{H,k}) | tupla | — |
-| Ξ_H,SV | Contenido físico hidrógeno | Configuración asociada al suceso ε_H | configuración | — |
-| Σ_conc^H | Concentración del dominio | Densidad operativa del contenido | escalar | UFCE·UFE⁻³ |
-| Σ_canal^H | Canal del dominio | Vía operativa de propagación interna | tupla | — |
-| m₀ | Sector basal de reposo | Magnitud fundante absorbida del corpus E₀ = m₀c² | escalar | UFM |
-| χ_α | Lectura electromagnética | Acoplamiento heredado del aparato de Maxwell SV | escalar | adimensional |
-| H_SV | Hidrógeno atómico | Lectura basal mínima de Ξ_H,SV | configuración | — |
-| H₂_SV | Hidrógeno molecular | Duplicación estructural estable de dos H_SV | configuración | — |
-| C_SV(δ) | Correlador angular acoplado | Heredado de Bell–Tsirelson, único bajo A1–A9 | [−1, +1] | adimensional |
-| R₀, R₁, R₂, R₂★ | Regímenes angulares | Heredados del aparato CHSH-SV | régimen | — |
-| Γ_H | Trayectoria del hidrógeno | (S₀, ν₀, S₁, ν₁, …, S_n) con índices ν | secuencia | — |
-| ν | Índice de suceso | No tiempo soberano; índice de cadena | índice | UE_MFC |
-
-Los seis primitivos metrológicos del Sistema Vectorial SV aplicables al dominio hidrógeno son:
-
-| Símbolo | Nombre | Magnitud que mide |
-|:---:|:---|:---|
-| UE_MFC | Unidad Elemental del Medidor Factual de Ciclo | Periodo de suceso |
-| UFE | Unidad Factual de Extensión | Extensión y longitud |
-| UFM | Unidad Factual de Masa | Masa de configuración |
-| UFC | Unidad Factual de Corriente | Corriente electromagnética |
-| UFT | Unidad Factual de Temperatura | Temperatura de fase |
-| UFCE | Unidad Factual de Cantidad de Entidad | Cantidad de configuración |
-
-F₀ permanece fuera de los seis primitivos porque no es magnitud física: es condición formal mínima de definibilidad.
-
-### 4.1. Compuerta de admisibilidad de campos: Σ = 1 versus Σ = 0
-
-El catálogo del Sistema Vectorial SV distingue operativamente dos clases de elementos. Los elementos con lectura Σ = 1 son campos generadores admisibles del dominio: pueden originar configuraciones, intervenir en la cadena fundacional y participar en la identificación de Ξ_H,SV cuando proceda. Los elementos con lectura Σ = 0 son herramientas auxiliares: aparatos matemáticos del corpus que sirven para medir, analizar, reconstruir, diagnosticar o cotejar, pero que no originan configuraciones, no actúan como campos, no participan en la génesis y no entran en la identificación.
-
-La distinción entre Σ = 1 y Σ = 0 no es decoración sintáctica: es condición operativa de admisibilidad cuya violación introduce génesis ajena al aparato del Sistema Vectorial SV. Tomar un elemento Σ = 0 como si fuera campo generador equivale a sustituir el suceso cero ε₀ por una herramienta de análisis, lo cual queda excluido por el Teorema H-GEN-U.
-
-**Compuerta operativa.** Sólo los elementos del catálogo con lectura Σ = 1 pueden operar como campos del dominio hidrógeno. Los elementos con lectura Σ = 0 quedan autorizados únicamente como herramientas auxiliares, proyecciones, patrones, reconstrucciones, diagnósticos o medidas. No pueden generar hidrógeno, no pueden identificar Ξ_H,SV y no pueden cerrar trayectorias.
-
-**Catálogo operativo aplicado al dominio hidrógeno.** En particular, dentro del aparato del Sistema Vectorial SV:
-
-| Elemento | Lectura | Función operativa |
-|:---|:---:|:---|
-| Sector eléctrico | Σ = 1 | campo generador |
-| Sector magnético | Σ = 1 | campo generador |
-| Sector basal/gravitatorio | Σ = 1 | campo generador (sector m₀) |
-| Convergencia ternaria | Σ = 1 | régimen estructural generador |
-| Sector topológico | Σ = 1 | régimen estructural generador |
-| Trayectoria de activación poligonal (TPA) | Σ = 1 | objeto del cambio |
-| Seis primitivos metrológicos (UE_MFC, UFE, UFM, UFC, UFT, UFCE) | Σ = 0 | herramientas de medida |
-| Lectura espectral / función generatriz | Σ = 0 | proyección analítica |
-| Variable compleja auxiliar | Σ = 0 | herramienta de reconstrucción |
-| Sensibilidad | Σ = 0 | diagnóstico de respuesta |
-| Jacobiano estructural | Σ = 0 | diagnóstico diferencial |
-| Compuerta metrológica ℘_SV | Σ = 0 | normalización dimensional |
-
-La metrología mide; la lectura espectral analiza; la variable compleja auxiliar reconstruye; la sensibilidad y el jacobiano diagnostican. Ninguno de estos elementos opera como campo generador, ni participa en la cadena fundacional como fuente, ni cierra trayectorias.
-
-**Consecuencia operativa sobre la cadena fundacional.** Los seis primitivos metrológicos no aparecen en ninguno de los veinticinco pasos de la cadena del apartado 5: la cadena no presupone metrología; la metrología comparece después como expresión dimensional de las magnitudes que el dominio ya abierto sostiene. La condición 15 del Teorema H-ID-U (metrología SV subordinada) declara explícitamente la subordinación: la metrología expresa, no funda.
-
-**Consecuencia operativa sobre la articulación serial con el corpus.** El documento de luz opera sobre el corpus como articulación de campos (eléctrico, magnético, basal, topológico, espectral) sobre un objeto fibroso. La parte espectral de ese objeto, en cuanto Σ = 0, no comparece como campo generador del hidrógeno: comparece sólo como herramienta de análisis de transiciones, líneas y proyecciones, disponible para cotejo posterior con la espectroscopía atómica heredada (fórmula de Rydberg, series de Lyman, Balmer, Paschen, Brackett y Pfund). La fórmula de Rydberg es proyección analítica, no condición de identificación.
-
-### 4.2. Alfabeto ternario y célula configuracional ternaria K₃,H^n
-
-El alfabeto ternario operativo del Sistema Vectorial SV es Σ = {0, 1, U}, donde 0 y 1 son las dos marcas binarias resueltas y U es la marca de no-clausura honesta. El alfabeto se diferencia estructuralmente del binario clásico {0, 1} por la presencia de U como marca operativa de indeterminación, distinta de probabilidad, ruido, error o ausencia de dato.
-
-La célula configuracional ternaria del dominio hidrógeno es
-
-```math
-K_{3,H}^n := \Sigma^n = \{0, 1, U\}^n,
-```
-
-donde n es el tamaño operativo de la célula sobre el dominio preternario restringido. Una configuración v ∈ K₃,H^n es una palabra de longitud n sobre el alfabeto ternario, indexada sobre las posiciones preternarias hidrógeno ξ_i^H. La codificación operativa a reales bajo el aparato del SV es
-
-```math
-0 \mapsto 0, \qquad 1 \mapsto +1, \qquad U \mapsto -1,
-```
-
-la misma codificación canónica que el documento Bell–Tsirelson establece para el aparato CHSH-SV. Bajo esta codificación, la marca 0 no contribuye al aparato angular, la marca 1 contribuye con peso +1 y la marca U contribuye con peso −1.
-
-### 4.3. Aparato angular heredado
-
-El aparato angular acoplado del Sistema Vectorial SV opera con el correlador
-
-```math
-C_{SV} : \mathbb{R}/2\pi\mathbb{Z} \to [-1, +1].
-```
-
-Por el Teorema 10.2.1 del documento Bell–Tsirelson previo, bajo los nueve axiomas A1–A9 (dependencia angular pura, anticorrelación plena en coincidencia, correlación plena en base opuesta, paridad, complementariedad polar, componente conjugada normalizada, composición SO(2), continuidad estructural, fidelidad angular mínima k = 1) el correlador único admisible es
-
-```math
-C_{SV}(\delta) = -\cos\delta.
-```
-
-Este aparato se hereda directamente sobre el dominio hidrógeno cuando las trayectorias de Ξ_H,SV exigen correlación angular acoplada. Los cuatro regímenes operativos R₀, R₁, R₂, R₂★ se heredan asimismo, con las cotas Bell-local CHSH ≤ 2 sobre R₀, sub-Tsirelson sobre R₁ y R₂, y saturación |S| = 2√2 sobre R₂★.
-
-### 4.4. Restricción preternaria del hidrógeno
-
-El dominio del hidrógeno es la restricción
-
-```math
-\Omega_{\mathrm{pre}}^H \subseteq \Omega_{\mathrm{pre}}.
-```
-
-Esta inclusión no abre dominio soberano nuevo: indica que dentro del dominio preternario abierto por el suceso cero ε₀ se estudia la subfamilia de posiciones y trayectorias capaces de conducir a un candidato hidrógeno. Las posiciones preternarias del dominio de estudio son tripletas
-
-```math
-\xi_i^H = (i, \alpha_i^H, \beta_i^H), \qquad i = 1, \ldots, n,
-```
-
-donde α_i^H y β_i^H son componentes protocampales sin lectura física heredada previa. La compuerta de ternarización inducida realiza la transición del dominio preternario al dominio ternario:
-
-```math
-\Omega_{\mathrm{pre}}^H \xrightarrow{\Pi_3^H} K_{3,H}^n.
-```
-
-El resultado de la proyección no es todavía hidrógeno: es célula ternaria del dominio de estudio. El paso al contenido físico exige la comparecencia del suceso hidrógeno
-
-```math
-\varepsilon_H = (\mathbf{v}_{H,k}, \mathbf{v}_{H,k+1}, \Delta q_{H,k}),
-```
-
-tras el cual el candidato hidrógeno queda
-
-```math
-\Xi_{H,SV} = \Xi(\Gamma_H).
-```
-
-Ξ_H,SV no presupone que ya sea hidrógeno químico: designa el contenido físico que aspira a ser identificado como hidrógeno tras pasar por concentración, canal, residual, dictamen, metrología y régimen angular admisible.
+\- \`Λ_atom\` representa umbral máximo compatible con persistencia
+atómica estable.
 
 ---
 
-## 5. Cadena fundacional completa de suceso del hidrógeno
+\# 8.4. Persistencia atómica mínima
 
-La cadena fundacional completa del suceso del hidrógeno dentro del Sistema Vectorial SV consta de veinticinco pasos enumerados, distribuidos en tres bloques operativos: el origen estructural general (pasos 1–12), la determinación específica del hidrógeno como Ξ_H,SV (pasos 13–23) y las formas y procesos actuales derivados (pasos 24–25).
+El átomo estable requiere simultáneamente:
 
-**Bloque I — Origen estructural general (pasos 1–12).**
+\`\`\`text id="o27
 
-```math
-\begin{aligned}
-1.\ &\emptyset \quad \text{(vacuidad formal)} \\
-2.\ &F_0 \quad \text{(condición formal mínima)} \\
-3.\ &F_0 \vdash \mathrm{Def}_{SV}(\varepsilon_0) \quad \text{(definibilidad del suceso cero)} \\
-4.\ &\varepsilon_0 : \emptyset \to \Omega_{\mathrm{pre}} \quad \text{(suceso cero)} \\
-5.\ &\Omega_{\mathrm{pre}} \quad \text{(dominio preternario abierto)} \\
-6.\ &\Phi(0) = \Phi(1) \quad \text{(equipotencialidad polar)} \\
-7.\ &\text{no-decisión} \\
-8.\ &U \quad \text{(emergencia como no-clausura honesta)} \\
-9.\ &\Omega_{\mathrm{pro}} \quad \text{(dominio prototernario)} \\
-10.\ &\Sigma = \{0, 1, U\} \quad \text{(dominio ternario efectivo)} \\
-11.\ &\text{sucesos generadores interiores} \\
-12.\ &\text{protocampos}
-\end{aligned}
-```
+𝓟_min \> 0.
 
-**Bloque II — Determinación específica del hidrógeno (pasos 13–23).**
+Equivalentemente:
 
-```math
-\begin{aligned}
-13.\ &\Omega_{\mathrm{pre}}^H \subseteq \Omega_{\mathrm{pre}} \quad \text{(restricción hidrógeno)} \\
-14.\ &\xi_i^H = (i, \alpha_i^H, \beta_i^H) \quad \text{(posiciones hidrógeno)} \\
-15.\ &\Pi_3^H \quad \text{(proyección ternaria inducida)} \\
-16.\ &K_{3,H}^n \quad \text{(célula ternaria del dominio hidrógeno)} \\
-17.\ &\varepsilon_H \quad \text{(suceso hidrógeno)} \\
-18.\ &\Xi_{H,SV} \quad \text{(contenido físico)} \\
-19.\ &\Sigma_{\mathrm{conc}}^H \quad \text{(concentración )} \\
-20.\ &\Sigma_{\mathrm{canal}}^H \quad \text{(canal )} \\
-21.\ &\{m_0, \chi_\alpha, U\} \quad \text{(transmutación/dictamen)} \\
-22.\ &\text{identificación como hidrógeno} \\
-23.\ &\text{régimen angular admisible}
-\end{aligned}
-```
+\`\`\`text id="v27
 
-**Bloque III — Formas y procesos actuales derivados (pasos 24–25).**
+𝓕\_∂ \> 𝒬 + ℛ_Γ.
 
-```math
-\begin{aligned}
-24.\ &\text{configuraciones derivadas: } H, H^+, H^-, H_2, D, T, \text{ fases, plasma, } H_2O \\
-25.\ &\text{trayectorias actuales: formación, disociación, ionización, recombinación,} \\
-&\text{combustión, electrólisis, licuefacción, vaporización, rutas isotópicas}
-\end{aligned}
-```
-
-La cadena establece dependencia formal de legitimidad estructural, no cronología física. El paso k presupone la realización de los pasos 1, …, k−1, pero no en sentido temporal: en sentido de admisibilidad operativa. Una violación de la cadena (por ejemplo, presuponer una configuración derivada del bloque III antes de cerrar la determinación del bloque II) introduciría fundamento ajeno al aparato del Sistema Vectorial SV.
-
-La diferenciación entre génesis primigenia y producción derivada actual articula el documento. Los pasos 1–23 corresponden a la génesis primigenia única: el suceso cero ε₀ abre el dominio, la cadena de doce pasos del bloque I constituye el aparato estructural general, los once pasos del bloque II determinan específicamente el hidrógeno como Ξ_H,SV. Los pasos 24–25 corresponden a la producción derivada actual: las trayectorias internas del dominio ya abierto por ε₀ producen, sostienen, transforman o disuelven configuraciones del hidrógeno como persistencia, transformación o producción derivada de la clase Ξ_H,SV. La producción actual no repite la génesis primigenia: el suceso cero ε₀ no se reproduce dentro del dominio que ya abrió.
-
----
-## 6. Teorema H-GEN-U — Unicidad del origen del hidrógeno
-
-### 6.1. Estatuto del teorema
-
-El Teorema H-GEN-U establece que el origen del hidrógeno dentro del Sistema Vectorial SV es único en sentido algebraico-estructural. La unicidad no es metafórica: es refutación exhaustiva de seis vías alternativas. Cada vía alternativa contradice al menos uno de los principios constitutivos del aparato del SV: la primacía estructural del suceso cero ε₀, la no introducción de magnitudes constituidas antes de la apertura del dominio, la preservación de U como no-clausura honesta y la dependencia de legitimidad estructural sin tiempo soberano.
-
-### 6.2. Enunciado
-
-**Teorema H-GEN-U (unicidad del origen del hidrógeno).** Sea Ξ_H,SV una configuración que aspire a ser reconocida como hidrógeno dentro del Sistema Vectorial SV. Entonces su origen, si existe, es único en sentido algebraico-estructural y procede unívocamente de la cadena fundacional-protocampal:
-
-```math
-F_0 \vdash \mathrm{Def}_{SV}(\varepsilon_0) \to \varepsilon_0 : \emptyset \to \Omega_{\mathrm{pre}} \to \Phi(0) = \Phi(1) \to \text{no-decisión} \to U \to \Omega_{\mathrm{pro}} \to \Sigma = \{0, 1, U\}
-```
-
-```math
-\to \text{sucesos generadores} \to \text{protocampos} \to \Omega_{\mathrm{pre}}^H \to \Pi_3^H \to K_{3,H}^n \to \varepsilon_H \to \Xi_{H,SV}.
-```
-
-### 6.3. Demostración por exclusión exhaustiva
-
-La demostración procede por refutación de las seis vías alternativas posibles para el origen del hidrógeno.
-
-**Refutación 1 (entidad química externa).** Si el hidrógeno se originase como átomo, par protón-electrón, molécula o sustancia química inicial, la introducción presupondría un objeto físico-químico antes de F₀, ε₀, Ω_pre, U, Ω_pro, Σ, sucesos generadores y protocampos. El objeto químico contradice la primacía del suceso cero como apertura estructural del dominio. La química, como aparato operativo heredado, comparece después de la apertura del dominio, no antes. La vía no pertenece al Sistema Vectorial SV; sólo puede ser cotejo externo posterior.
-
-**Refutación 2 (campo aislado).** Si el hidrógeno se originase como manifestación de un campo aislado (eléctrico, magnético o gravitatorio), el campo presupondría sustrato sobre el cual se despliega, lo cual contradice la primacía estructural del suceso cero. Los campos pertenecen al régimen desplegado sobre el aparato ya constituido por la cadena del bloque I de los doce pasos generales; no sustituyen al suceso cero. Un campo aislado no puede ser causa soberana antes de Ω_pre.
-
-**Refutación 3 (metrología).** Si el hidrógeno se originase como magnitud (masa, energía, carga, temperatura, extensión o cantidad de entidad), la magnitud presupondría dominio ya abierto donde la magnitud sea operativa. La metrología mide configuraciones del dominio abierto: no origina configuraciones. Antes del suceso cero ε₀ no existe ninguna magnitud constituida.
-
-**Refutación 4 (probabilidad, inferencia opaca o bayesianismo).** Si el hidrógeno se originase como probabilidad, distribución, frecuencia inferida o estructura bayesiana, la probabilidad presupondría espacio muestral previo y aparato de medida ya constituido sobre el cual la probabilidad opere. Adicionalmente, la marca U del Sistema Vectorial SV no es probabilidad: es preservación honesta de no-clausura. Identificar U con probabilidad reduciría la marca operativa a una distribución, lo cual contradice la articulación del aparato ternario.
-
-**Refutación 5 (tiempo soberano).** Si el hidrógeno se originase en el tiempo cronológico (segundo SI, t = 0 del Big Bang, instante físico previo), la cronología presupondría contenedor temporal previo a la apertura del dominio. La cadena fundacional del Sistema Vectorial SV es dependencia formal de legitimidad estructural, no cronología física: el suceso cero ε₀ no es primer instante temporal sino apertura estructural sin antecedente cronológico.
-
-**Refutación 6 (operador nuevo no canonizado).** Si el hidrógeno se originase mediante un operador o campo generador adicional no contemplado por el aparato del Sistema Vectorial SV, el operador exigiría construcción explícita, demostración de independencia estructural, demostración de compatibilidad mutua con los operadores ya canonizados y conformidad con las prohibiciones canónicas del SV (sin probabilidad fundante, sin tiempo soberano, sin SI como suelo, sin energía previa). Un operador que cumpla las cuatro exigencias debería pasar por el procedimiento de canonización del corpus, lo cual lo subordinaría a la cadena fundacional ya establecida. Un operador que no cumpla una de las cuatro exigencias queda automáticamente excluido.
-
-Las seis refutaciones agotan el espacio de alternativas estructuralmente distintas para el origen del hidrógeno. La verificación numérica del Laboratorio 1 confirma la exhaustividad mediante test sistemático sobre los seis predicados de exclusión.
-
-Por tanto, la única vía admisible para el origen del hidrógeno dentro del Sistema Vectorial SV es la cadena fundacional-protocampal:
-
-```math
-F_0 \to \varepsilon_0 \to \Omega_{\mathrm{pre}} \to \cdots \to \Xi_{H,SV}.
-```
-
-Q.E.D.
-
-### 6.4. Corolario operativo
-
-**Corolario H-GEN-U.1 (estatuto de unicidad).** El Teorema H-GEN-U establece la unicidad estructural sin afirmar que sea el único hidrógeno físico observable. La unicidad opera sobre el aparato del Sistema Vectorial SV: cualquier candidato a hidrógeno, sea atómico, molecular, iónico, isotópico, en fase, en plasma o como compuesto derivado, debe trazar su origen a la cadena fundacional única. Las múltiples manifestaciones derivadas del bloque III de la cadena (configuraciones H, H⁺, H⁻, H₂, D, T, fases, plasma, H₂O) no contradicen la unicidad: todas heredan el origen único del bloque II.
+La identidad atómica aparece únicamente mientras el confinamiento
+estructural consigue superar redistribución y residual.
 
 ---
 
-## 7. Teorema H-SUM.1 — No anulación factual de la suma primigenio–actual
+\# 8.5. Átomo y redistribución energética
 
-### 7.1. Estatuto del teorema
+El átomo no constituye ausencia de intercambio energético.
 
-La pregunta algebraico- que el Teorema H-SUM.1 responde es: ¿la suma de la contribución del hidrógeno generado en la primigenia y la contribución del hidrógeno existente actualmente en forma única o derivada es igual a cero? La pregunta no es conteo SI de átomos: es suma de clase, que pregunta si la clase hidrógeno queda anulada en la trayectoria completa considerada.
+Toda estructura atómica conocida experimenta:
 
-### 7.2. Definición de las contribuciones
+\- interacción;
 
-Sea 𝓗_prim la contribución de la génesis primigenia del hidrógeno, definida sobre la cadena del bloque II como configuración Ξ_H,SV resultado de los pasos 13–23. Sea 𝓗_act la contribución del hidrógeno actual, sumada sobre las formas directas (H_SV, H₂_SV) y las formas derivadas (H⁺, H⁻, D, T, fases, plasma, H₂O) que comparezcan sobre el dominio actual.
+\- intercambio;
 
-La pregunta es
+\- reorganización;
 
-```math
-\mathcal{H}_{\mathrm{prim}} + \mathcal{H}_{\mathrm{act}} \stackrel{?}{=} 0.
-```
+\- excitación;
 
-### 7.3. Enunciado
+\- emisión;
 
-**Teorema H-SUM.1 (no anulación).** Sea Ξ_H,SV la configuración identificada como hidrógeno por la cadena de génesis única del Teorema H-GEN-U. Sea 𝓗_prim su contribución primigenia y 𝓗_act la contribución actual de sus formas únicas o derivadas. Entonces, en todo suceso actual donde comparezca hidrógeno como H, H₂, forma iónica, isotópica, fase, plasma o compuesto como H₂O:
+\- y absorción energética.
 
-```math
-\mathcal{H}_{\mathrm{prim}} + \mathcal{H}_{\mathrm{act}} \neq 0.
-```
+La estabilidad atómica no implica inmovilidad.
 
-### 7.4. Demostración por exclusión
+Implica:
 
-Para que la suma fuese cero, tendría que ocurrir al menos una de las tres situaciones siguientes:
+\`\`\`text id="q27
 
-**Situación 1: la génesis primigenia no produjo clase hidrógeno.** Si Ξ_H,SV no quedó identificado en la cadena del bloque II, la contribución 𝓗_prim sería trivial. Pero el Teorema H-GEN-U cierra la unicidad del origen del hidrógeno: si Ξ_H,SV ha sido identificado, la contribución de clase no es nula.
-
-**Situación 2: toda huella de la clase fue anulada.** El Sistema Vectorial SV no borra historia por transformación de configuración. La trayectoria Γ_H, el residual operativo y la historia constituyen registro acumulativo que impide declarar desaparición absoluta cuando hay persistencia de clase en formas transformadas. La transformación H_SV → H⁺_SV (ionización) o H_SV + H_SV → H₂_SV (formación molecular) no anula la clase: la transforma. La clase persiste en la forma transformada.
-
-**Situación 3: el suceso actual no contiene ninguna forma directa o derivada del hidrógeno.** La situación es localmente posible en dominios sin hidrógeno actual (regiones del espacio sin presencia detectable de hidrógeno), pero no es generalmente válida. En el alcance general donde se reconocen formas actuales directas o derivadas, la situación 3 no se sostiene.
-
-Las tres situaciones son las únicas vías para que la suma fuese cero, y las tres quedan refutadas. Por tanto
-
-```math
-\mathcal{H}_{\mathrm{prim}} + \mathcal{H}_{\mathrm{act}} \neq 0.
-```
-
-Q.E.D.
-
-### 7.5. Corolarios
-
-**Corolario H-SUM.1.1 (no retrocesión).** La suma no es cero porque la génesis, una vez cerrada como clase, no se anula retroactivamente.
-
-**Corolario H-SUM.1.2 (persistencia de clase).** La suma no es cero porque el hidrógeno actual conserva pertenencia de clase en formas directas y derivadas: H, H₂, H⁺, H⁻, D, T, plasma, fases y H₂O.
-
-**Corolario H-SUM.1.3 (transformación versus anulación).** La suma no es cero porque el suceso actual transforma y redistribuye hidrógeno dentro del dominio abierto; no repite la génesis primigenia ni borra la clase.
-
-**Corolario H-SUM.1.4 (registro acumulativo).** La suma no es cero porque la historia de trayectoria no queda reducida al estado terminal: el residual y los índices ν preservan registro operativo sobre toda la cadena Γ_H.
+compatibilidad estructural de redistribución.
 
 ---
 
-## 8. Teorema H-ID-U — Unicidad de identificación del hidrógeno
+\# 8.6. El plasma como frontera degradada
 
-### 8.1. Estatuto del teorema
+La física del plasma muestra claramente que:
 
-El Teorema H-ID-U establece que un candidato Ξ_H,SV nacido de la cadena del Teorema H-GEN-U sólo puede ser identificado como hidrógeno dentro del Sistema Vectorial SV si satisface conjuntamente quince condiciones operativas. La identificación no depende de parecido verbal con el hidrógeno químico, ni de analogía heredada, ni de coincidencia numérica con valores SI: depende exclusivamente de las quince propiedades estructurales del aparato propio del SV.
+\`\`\`text id="z27
 
-### 8.2. Las quince condiciones de identificación
+la identidad atómica puede degradarse  
+sin desaparecer completamente la persistencia energética.
 
-| N.º | Condición |
-|:---:|:---|
-| 1 | procedencia fundacional única (Teorema H-GEN-U) |
-| 2 | casa protocampal (α, β) sobre Ω_pre^H |
-| 3 | célula ternaria K₃,H^n del dominio hidrógeno |
-| 4 | suceso ε_H sobre la cadena del bloque II |
-| 5 | contenido físico Ξ_H,SV |
-| 6 | estructura polar mínima no degenerada |
-| 7 | compatibilidad con sector basal m₀ |
-| 8 | gobierno eléctrico, magnético y gravitatorio/basal |
-| 9 | concentración Σ_conc^H y canal Σ_canal^H suficientes |
-| 10 | residual controlado |
-| 11 | firma de clase diferenciable |
-| 12 | duplicación estructural estable mínima |
-| 13 | régimen angular fiel cuando la trayectoria lo exija |
-| 14 | no reducción probabilística (preservación de U) |
-| 15 | metrología SV subordinada |
+El plasma constituye así un régimen extremadamente importante porque
+separa dos conceptos frecuentemente confundidos:
 
-### 8.3. Enunciado
+\| Concepto \| Significado \|
 
-**Teorema H-ID-U (unicidad de identificación).** Sea Ξ_H,SV una configuración nacida por la cadena única del Teorema H-GEN-U. Si Ξ_H,SV satisface las quince condiciones del apartado 8.2 conjuntamente, entonces sólo puede identificarse como hidrógeno dentro del Sistema Vectorial SV.
+\|---\|---\|
 
-### 8.4. Demostración por exclusión exhaustiva
+\| Persistencia energética \| Capacidad parcial de conservar estructura
+\|
 
-La demostración procede por refutación de las seis clases alternativas posibles bajo el cumplimiento de las quince condiciones.
+\| Persistencia atómica \| Conservación discreta compatible de identidad
+\|
 
-**Refutación 1 (vacuidad).** Ξ_H,SV no puede ser vacuidad: procede del dominio Ω_pre ya abierto por ε₀.
-
-**Refutación 2 (U pura).** Ξ_H,SV no puede ser U pura: atraviesa la compuerta de ternarización Π₃^H y, si todo quedase en U, no habría identificación sino no-clausura honesta sostenida. La condición 14 (preservación de U) no implica que toda la configuración sea U: implica que U se preserva donde la base no permite resolver, no donde sí permite.
-
-**Refutación 3 (campo aislado factualizado).** Ξ_H,SV no puede ser campo aislado: los campos factualizados pertenecen al aparato sectorial y no sustituyen a configuración. La condición 8 (gobierno campal) opera sobre Ξ_H,SV; no la sustituye.
-
-**Refutación 4 (energía abstracta).** Ξ_H,SV no puede ser energía abstracta: la energía comparece después de constituido el dominio y debe quedar vinculada a sector basal m₀, trayectoria Γ_H y residual. Las condiciones 7 (sector basal) y 15 (metrología SV subordinada) excluyen la energía como entidad primaria.
-
-**Refutación 5 (estructura caótica).** Ξ_H,SV no puede ser estructura caótica: debe sostener concentración Σ_conc^H, canal Σ_canal^H y firma de clase diferenciable. Las condiciones 9, 10, 11 excluyen el caos como identificación legítima.
-
-**Refutación 6 (configuración angularmente infiel).** Ξ_H,SV no puede ser configuración angularmente infiel cuando su régimen exige correlación angular: una representación con k ≥ 2 plegaría ángulos distintos sobre la misma lectura representacional y destruiría la distinción estructural necesaria. La condición 13 (régimen angular fiel) excluye la infidelidad.
-
-Bajo las quince condiciones, las seis clases alternativas quedan refutadas. La única clase que queda admisible es la configuración mínima con procedencia fundacional, casa protocampal, polaridad estructural, compatibilidad basal, gobierno campal, energía constituida posterior, entropía controlada, canal, firma, duplicación estable y régimen angular fiel cuando proceda. Esta clase recibe el nombre interno de hidrógeno SV:
-
-```math
-\Xi_{H,SV} \equiv H_{SV}
-```
-
-en sentido SV, no como imposición química externa.
-
-Q.E.D.
-
-### 8.5. Corolario
-
-**Corolario H-ID-U.1 (transitividad de identificación).** Las configuraciones derivadas (H⁺, H⁻, H₂, D, T, fases, plasma, H₂O) heredan la identificación de clase de Ξ_H,SV, no por nombre químico, sino por trayectoria interna del dominio hidrógeno que preserva pertenencia de clase. La identificación se transmite por trayectoria estructural, no por designación verbal.
+El plasma conserva la primera parcialmente, pero degrada la segunda.
 
 ---
 
-## 9. Teorema H-ANG.1 — Admisibilidad angular del hidrógeno
+\# 8.7. El átomo como consecuencia estructural
 
-### 9.1. Estatuto del teorema
+La presente formulación evita interpretar el átomo como origen absoluto.
 
-El Teorema H-ANG.1 articula la condición angular de admisibilidad del hidrógeno cuando sus trayectorias o sus campos exigen correlación angular acoplada. La condición no convierte al hidrógeno en caso CHSH ni en sistema de Bell: el aparato angular del SV proporciona el régimen matemático interno necesario para tratar correlaciones angulares no clásicas sin Hilbert ni probabilidad fundante. La condición opera como admisibilidad estructural, no como reducción a CHSH.
+El átomo aparece como consecuencia de:
 
-### 9.2. Herencia del aparato CHSH-SV
+\- confinamiento compatible;
 
-El correlador angular factual acoplado del Sistema Vectorial SV es la función
+\- frontera discreta estable;
 
-```math
-C_{SV} : \mathbb{R}/2\pi\mathbb{Z} \to [-1, +1].
-```
+\- redistribución energética no destructiva;
 
-Por el Teorema 10.2.1 del documento Bell–Tsirelson, bajo los nueve axiomas A1 (dependencia angular pura), A2 (anticorrelación plena C_SV(0) = −1), A3 (correlación plena C_SV(π) = +1), A4 (paridad), A5 (complementariedad polar), A6 (componente conjugada normalizada con C² + S² = 1), A7 (composición SO(2)), A8 (continuidad estructural) y A9 (fidelidad angular mínima k = 1), el correlador único admisible es
+\- y residual acotado.
 
-```math
-C_{SV}(\delta) = -\cos\delta.
-```
+Bajo esta lectura:
 
-La condición de fidelidad angular mínima A9 excluye los recubrimientos k ≥ 2 porque identifican ángulos distintos:
+\`\`\`text id="t27
 
-```math
-R_{SV,k}(\delta) = R_{SV,k}\left(\delta + \tfrac{2\pi}{k}\right) \quad \text{para } k \geq 2.
-```
+la estabilidad atómica es una propiedad emergente de persistencia
+estructural.
 
-El plegado del círculo de bases que produce k ≥ 2 sustituiría el aparato angular operativo por otro aparato no declarado, lo cual es prohibición estructural canonizada del corpus.
+---
 
-### 9.3. Enunciado
+\# 8.8. El problema del mínimo universal
 
-**Teorema H-ANG.1 (admisibilidad angular del hidrógeno).** Sea Ξ_H,SV un candidato a hidrógeno nacido de la cadena del Teorema H-GEN-U y satisfaciendo las quince condiciones del Teorema H-ID-U. Si las trayectorias Γ_H, los campos sectoriales o las correlaciones internas de Ξ_H,SV exigen régimen angular acoplado, entonces Ξ_H,SV debe admitir lectura angular fiel sobre el aparato del SV. La lectura se clasifica según el coeficiente de acoplamiento estructural χ_c en uno de los cuatro regímenes:
+El hidrógeno constituye el caso más simple de estabilidad atómica
+actualmente conocido.
 
-| Régimen | Condición sobre χ_c | Estatuto operativo |
-|:---:|:---:|:---|
-| R₀ | χ_c = 0 | rutas desacopladas o estrictamente separables |
-| R₁ | 0 < χ_c < χ★(b) | rutas acopladas subcríticas sin saturación |
-| R₂ | χ★(b) ≤ χ_c < 1 | rutas acopladas fuertes con correlación angular relevante |
-| R₂★ | χ_c = 1 | régimen saturado local con C_SV(δ) = −cos δ |
+Sin embargo, la presente formulación distingue rigurosamente entre:
 
-### 9.4. Demostración
+\| Concepto \| Significado \|
 
-La identificación del hidrógeno exige más que existencia protocampal: debe sostener trayectoria Γ_H, polaridad, gobierno campal, concentración, canal, residual y dictamen. Cuando alguno de estos elementos depende de relación angular entre subestructuras (por ejemplo, en rutas de ionización H_SV → H⁺_SV + e⁻_SV, recombinación, formación molecular H_SV + H_SV → H₂_SV con régimen de enlace o plasma colectivo con predominio electromagnético), una lectura angular no fiel produciría colapso de diferencias angulares estructuralmente distintas.
+\|---\|---\|
 
-Si se admitiese un recubrimiento R_SV,k con k ≥ 2,
+\| Mínimo conocido \| Primer régimen estable actualmente observable \|
 
-```math
-R_{SV,k}(\delta) = R_{SV,k}(\delta + 2\pi/k),
-```
+\| Mínimo universal \| Régimen estructural mínimo absoluto \|
 
-dos diferencias angulares distintas del dominio hidrógeno recibirían la misma lectura representacional. Esto destruiría la distinción necesaria entre trayectorias estructuralmente no equivalentes, lo cual contradice la condición 11 (firma de clase diferenciable) del Teorema H-ID-U.
+La teoría no identifica automáticamente ambos conceptos.
 
-Por tanto, si el hidrógeno exige régimen angular acoplado, debe usar la representación fiel mínima con k = 1, lo cual conduce, bajo los nueve axiomas A1–A9 ya demostrados en el documento Bell–Tsirelson, al correlador único
+Por ello, el hidrógeno se interpreta únicamente como:
 
-```math
-C_{SV}(\delta) = -\cos\delta.
-```
+\`\`\`text id="p27
 
-Las cuatro categorías R₀, R₁, R₂, R₂★ se corresponden con los cuatro regímenes operativos del aparato CHSH-SV. La asignación de una trayectoria del hidrógeno a uno de los cuatro regímenes depende del coeficiente de acoplamiento estructural χ_c específico de la trayectoria.
+primer caso canónico conocido  
+de persistencia discreta estable observable.
 
-Q.E.D.
+---
 
-### 9.5. Consecuencia operativa sobre la identificación
+\# 8.9. Teorema de persistencia atómica discreta
 
-La identificación del hidrógeno queda enriquecida tras el Teorema H-ANG.1. Antes del teorema, la identificación era
+\## Teorema 8.1
+
+Sea una configuración energética:
+
+\`\`\`text id="n27
+
+(Γ,n).
+
+La configuración constituye régimen atómico estable si y sólo si
+satisface simultáneamente:
+
+\`\`\`text id="d27
+
+𝓟_min(Γ,n) \> 0,
+
+\`\`\`text id="s27
+
+δ(∂Ω_atom) \< Λ_atom,
+
+y:
+
+\`\`\`text id="c27
+
+ℛ_Γ \< Λ_atom.
+
+\## Demostración
+
+La condición:
+
+\`\`\`text id="g27
+
+𝓟_min \> 0
+
+garantiza persistencia estructural compatible.
+
+La condición:
+
+\`\`\`text id="y27
+
+δ(∂Ω_atom) \< Λ_atom
+
+garantiza estabilidad discreta de frontera.
+
+Finalmente:
+
+\`\`\`text id="w27
+
+ℛ_Γ \< Λ_atom
+
+impide que el residual destruya identidad persistente.
+
+Luego la configuración conserva persistencia discreta estable.
+
+∎
+
+---
+
+\# 8.10. Átomo y combustión
+
+La combustión permite visualizar de forma extremadamente intuitiva el
+problema de persistencia atómica.
+
+Antes de la combustión:
+
+\- la estructura material conserva identidad;
+
+\- el átomo permanece dentro de un régimen discreto estable;
+
+\- y el residual permanece acotado.
+
+Durante la combustión:
+
+\- aumenta redistribución energética;
+
+\- crece residual;
+
+\- se degrada frontera discreta;
+
+\- y finalmente desaparece identidad material macroscópica.
+
+La energía no desaparece.
+
+Lo que desaparece es:
+
+\`\`\`text id="h27
+
+persistencia estructural compatible de frontera.
+
+---
+
+\# 8.11. Consecuencia transversal
+
+La reinterpretación estructural del átomo permite conectar bajo un mismo
+criterio:
+
+\- ionización;
+
+\- plasma;
+
+\- estabilidad química;
+
+\- transición térmica;
+
+\- reorganización material;
+
+\- y persistencia energética.
+
+El átomo deja así de aparecer como objeto aislado y pasa a entenderse
+como:
+
+\`\`\`text id="e27
+
+régimen discreto particular  
+dentro del problema universal de persistencia estructural.
+
+---
+
+\# 8.12. Resultado de la sección
+
+La presente sección permite condensar la interpretación estructural del
+átomo en la siguiente formulación:
+
+\`\`\`text id="l27
+
+el átomo estable puede modelarse  
+como una configuración energética  
+cuya frontera discreta consigue conservar identidad compatible  
+frente a redistribución y residual estructural.
+
+Y bajo esta perspectiva:
+
+\`\`\`text id="k27
+
+la estabilidad atómica deja de interpretarse  
+como propiedad primaria inexplicada  
+y pasa a modelarse como persistencia estructural compatible.
+
+**9. Del régimen preatómico al régimen atómico**
+
+**9.1. Introducción**
+
+La sección anterior ha definido el átomo como régimen discreto conocido
+de persistencia estructural. Falta ahora precisar el tránsito previo:
+
+cómo una configuración energética parcialmente persistente
+
+puede alcanzar identidad discreta estable.
+
+La presente formulación denomina:
+
+régimen preatómico
+
+al dominio en el que existe persistencia energética parcial, pero
+todavía no se ha estabilizado una frontera discreta compatible.
+
+**9.2. Dominio preatómico**
+
+Sea:
+
+Ω_pre
+
+el dominio de configuraciones energéticas con persistencia parcial.
+
+Una configuración pertenece a:
+
+Ω_pre
+
+cuando satisface:
+
+𝓟_min \> 0
+
+pero todavía no satisface plenamente:
+
+δ(∂Ω_atom) \< Λ_atom.
+
+Es decir:
+
+- existe confinamiento;
+
+- existe persistencia parcial;
+
+- existe redistribución energética compatible;
+
+- pero no existe aún identidad atómica discreta estable.
+
+**9.3. Persistencia parcial**
+
+La persistencia parcial no equivale a caos ni a dispersión completa.
+
+Representa un régimen intermedio en el que:
+
+- la energía no se dispersa totalmente;
+
+- la frontera no se ha perdido por completo;
+
+- la identidad no está estabilizada;
+
+- y el residual permanece cercano al umbral crítico.
+
+Formalmente:
+
+𝓟_min \> 0
+
+con:
+
+δ(∂Ω) ≈ Λ_atom.
+
+**9.4. Plasma como régimen preatómico privilegiado**
+
+El plasma constituye el ejemplo físico más relevante de régimen
+preatómico.
+
+En él coexisten:
+
+- persistencia energética parcial;
+
+- intercambio intenso;
+
+- ionización;
+
+- frontera discreta degradada;
+
+- y ausencia de identidad atómica plenamente conservada.
+
+Por ello, el plasma no debe interpretarse únicamente como estado
+desordenado de materia.
+
+Bajo esta formulación, puede modelarse como:
+
+régimen de persistencia energética parcial
+
+anterior o exterior a la estabilidad atómica discreta.
+
+**9.5. Condición de transición**
+
+La transición hacia régimen atómico exige simultáneamente:
+
+𝓟_min \> 0,
+
+δ(∂Ω_atom) \< Λ_atom,
+
+y:
+
+ℛ_Γ \< Λ_atom.
+
+Esto significa que:
+
+- el confinamiento domina;
+
+- la frontera discreta se estabiliza;
+
+- el residual deja de ser destructivo;
+
+- y la redistribución energética permanece compatible.
+
+**9.6. Intercambio energético discreto**
+
+La identidad atómica requiere además que el intercambio energético no
+destruya frontera.
+
+Esto puede formularse mediante un conjunto de transiciones compatibles:
+
+Δ𝓗 ∈ 𝓢_disc.
+
+La condición no afirma que toda energía sea discreta en sentido
+absoluto. Afirma que la persistencia atómica exige restricciones
+estructurales de intercambio compatibles con conservación de identidad.
+
+**9.7. De la persistencia continua a la persistencia discreta**
+
+El tránsito preatómico → atómico puede describirse así:
+
+| **Etapa**            | **Rasgo dominante**          | **Dictamen**   |
+|----------------------|------------------------------|----------------|
+| Dispersión           | Sin confinamiento suficiente | No persistente |
+| Persistencia parcial | Confinamiento incompleto     | Preatómico     |
+| Frontera crítica     | Umbral de estabilidad        | Transicional   |
+| Frontera discreta    | Identidad conservada         | Atómico        |
+
+La aparición del átomo ocurre únicamente en la última etapa.
+
+**9.8. Teorema de transición atómica**
+
+**Teorema 9.1**
+
+Sea una configuración energética:
+
+(Γ,n)
+
+en régimen preatómico.
+
+La configuración transita hacia régimen atómico si y sólo si:
+
+𝓟_min(Γ,n) \> 0,
+
+δ(∂Ω_atom) \< Λ_atom,
+
+ℛ_Γ(n) \< Λ_atom,
+
+y:
+
+Δ𝓗 ∈ 𝓢_disc.
+
+**Demostración**
+
+La condición:
+
+𝓟_min \> 0
+
+garantiza persistencia energética compatible.
+
+La condición:
+
+δ(∂Ω_atom) \< Λ_atom
+
+garantiza estabilización de frontera discreta.
+
+La condición:
+
+ℛ_Γ \< Λ_atom
+
+impide que el residual destruya identidad.
+
+Finalmente:
+
+Δ𝓗 ∈ 𝓢_disc
+
+garantiza intercambio energético compatible.
+
+Por tanto, la configuración adquiere identidad atómica persistente.
+
+∎
+
+**9.9. Hidrógeno como caso canónico conocido**
+
+El hidrógeno constituye el régimen atómico más simple actualmente
+conocido en el dominio físico ordinario observable.
+
+Bajo esta teoría, se interpreta como:
+
+primer caso canónico conocido
+
+de transición preatómica a persistencia discreta estable.
+
+La formulación no declara que el hidrógeno sea mínimo universal
+absoluto.
+
+Declara únicamente que es:
+
+mínimo conocido dentro del dominio observable actual.
+
+Esta distinción preserva rigor epistemológico y evita clausura no
+demostrada.
+
+**9.10. Régimen estelar y transición atómica**
+
+Las estrellas muestran que la transición preatómica-atómica no puede
+entenderse como ensamblaje estático de componentes.
+
+En ellas aparecen simultáneamente:
+
+- plasma;
+
+- nucleosíntesis;
+
+- confinamiento;
+
+- presión térmica;
+
+- radiación;
+
+- y persistencia macroscópica.
+
+El régimen estelar enseña que la aparición de identidad atómica depende
+de:
+
+equilibrio estructural entre confinamiento,
+
+redistribución energética y residual.
+
+**9.11. Consecuencia física**
+
+La formación del átomo deja de interpretarse exclusivamente como:
+
+- unión de partículas;
+
+- solución espectral;
+
+- o resultado químico.
+
+Pasa a modelarse como:
+
+transición estructural hacia persistencia energética discreta
+compatible.
+
+**9.12. Resultado de la sección**
+
+La presente sección permite condensar el tránsito preatómico en la
+siguiente formulación:
+
+el átomo aparece cuando una persistencia energética parcial
+
+alcanza frontera discreta estable,
+
+residual acotado e intercambio compatible.
+
+Con ello, plasma, estrella, ionización, nucleosíntesis e hidrógeno
+quedan vinculados a un mismo criterio operatorio de transición
+estructural.
+
+**10. Banco de regímenes físicos de persistencia**
+
+**10.1. Introducción**
+
+Una teoría operatoria de persistencia energética no puede sostenerse
+únicamente sobre definiciones formales. Debe ser capaz de atravesar
+regímenes físicos heterogéneos y mostrar que su criterio conserva
+sentido en dominios distintos.
+
+La presente sección aplica la ecuación mínima:
+
+𝓟_min
+
+=
+
+𝓕\_∂
+
+−
+
+𝒬
+
+−
+
+ℛ_Γ
+
+a un banco transversal de regímenes físicos.
+
+El objetivo no es reducir todos los fenómenos a una misma mecánica
+local, sino evaluar si todos ellos pueden compararse desde una misma
+pregunta estructural:
+
+¿la configuración conserva identidad compatible
+
+frente a redistribución y residual?
+
+**10.2. Régimen I — Dispersión energética no persistente**
+
+En un régimen de dispersión no persistente, la energía se redistribuye
+sin conservar frontera estructural compatible.
+
+Formalmente:
+
+𝓕\_∂ \< 𝒬 + ℛ_Γ.
+
+Por tanto:
+
+𝓟_min \< 0.
+
+No existe identidad persistente.
+
+Este régimen representa el límite negativo de la teoría: energía sin
+estructura estable suficiente.
+
+**10.3. Régimen II — Combustión**
+
+La combustión constituye un régimen de transición desde persistencia
+material hacia dispersión energética.
+
+Antes de la combustión intensa, una estructura material conserva:
+
+- frontera química;
+
+- identidad macroscópica;
+
+- residual acotado;
+
+- y persistencia compatible.
+
+Durante la combustión, aumenta:
+
+𝒬
+
+y crece:
+
+ℛ_Γ.
+
+Cuando:
+
+𝒬 + ℛ_Γ ≥ 𝓕\_∂,
+
+la estructura abandona persistencia compatible.
+
+La energía no desaparece. Lo que se pierde es identidad estructural.
+
+**10.4. Régimen III — Plasma**
+
+El plasma constituye un régimen intermedio.
+
+Presenta:
+
+- persistencia energética parcial;
+
+- frontera atómica degradada;
+
+- intercambio intenso;
+
+- residual elevado;
+
+- y ausencia de identidad discreta plenamente conservada.
+
+Formalmente puede ocurrir que:
+
+𝓟_min \> 0
+
+mientras:
+
+δ(∂Ω_atom) ≈ Λ_atom.
+
+Por tanto, el plasma puede conservar persistencia parcial sin constituir
+régimen atómico estable.
+
+**10.5. Régimen IV — Átomo estable**
+
+El átomo estable exige:
+
+𝓟_min \> 0,
+
+δ(∂Ω_atom) \< Λ_atom,
+
+y:
+
+ℛ_Γ \< Λ_atom.
+
+En este caso, la configuración conserva identidad discreta compatible.
+
+El átomo aparece así como régimen particular de persistencia energética
+estructural, no como punto de partida absoluto.
+
+**10.6. Régimen V — Núcleo estable**
+
+El núcleo estable constituye un régimen de confinamiento altamente
+intenso.
+
+Su persistencia exige:
+
+- confinamiento estructural elevado;
+
+- residual acotado;
+
+- estabilidad de frontera nuclear;
+
+- y reorganización compatible.
+
+Bajo la presente formulación, el núcleo estable representa un régimen de
+alta persistencia de frontera.
+
+Sin embargo, la estabilidad nuclear tampoco debe absolutizarse: ciertos
+núcleos presentan decaimiento, fisión o reorganización, lo que indica
+presencia de residual y límite de sostenibilidad.
+
+**10.7. Régimen VI — Estrella**
+
+La estrella constituye un régimen macroscópico de persistencia
+energética bajo redistribución extrema.
+
+En ella coexisten:
+
+- confinamiento gravitatorio;
+
+- presión térmica;
+
+- radiación;
+
+- transformación nuclear;
+
+- residual acumulativo;
+
+- y frontera macroscópica relativamente conservada.
+
+La estrella persiste mientras:
+
+𝓕\_∂ \> 𝒬 + ℛ_Γ.
+
+Cuando dicha desigualdad deja de sostenerse, aparecen reorganizaciones
+estructurales:
+
+- expansión;
+
+- pérdida de capas;
+
+- colapso;
+
+- o transición a otro régimen.
+
+La estrella muestra que persistencia no equivale a quietud, sino a
+resistencia estructural frente a dispersión total.
+
+**10.8. Régimen VII — Materia condensada**
+
+La materia condensada constituye un régimen de persistencia colectiva.
+
+No depende únicamente de entidades individuales, sino de:
+
+- correlaciones;
+
+- organización colectiva;
+
+- enlaces;
+
+- frontera macroscópica;
+
+- y residual estructural acotado.
+
+Bajo esta formulación, la materia condensada representa persistencia
+estructural cooperativa.
+
+Su degradación térmica o mecánica puede interpretarse como aumento de
+redistribución y residual hasta pérdida parcial o total de identidad
+compatible.
+
+**10.9. Tabla transversal de regímenes**
+
+| **Régimen**           | **𝓟_min**         | **Frontera**            | **Residual** | **Identidad** | **Dictamen**            |
+|-----------------------|-------------------|-------------------------|--------------|---------------|-------------------------|
+| Dispersión energética | \< 0              | Ausente o degradada     | Dominante    | No conservada | Dispersivo              |
+| Combustión intensa    | \< 0              | Perdida progresivamente | Alto         | Degradada     | Transicional-dispersivo |
+| Plasma                | \> 0 parcial      | Parcial                 | Medio/alto   | Parcial       | Preatómico              |
+| Átomo estable         | \> 0              | Discreta estable        | Acotado      | Conservada    | Atómico                 |
+| Núcleo estable        | \> 0 alto         | Muy confinada           | Bajo         | Conservada    | Nuclear persistente     |
+| Estrella              | \> 0 macroscópico | Conservada globalmente  | Creciente    | Persistente   | Estelar                 |
+| Materia condensada    | \> 0 colectivo    | Cooperativa             | Acotado      | Conservada    | Material persistente    |
+
+**10.10. Lectura estructural del banco**
+
+El banco anterior muestra que la teoría no depende de un solo ejemplo
+privilegiado.
+
+La misma estructura formal permite comparar:
+
+- regímenes sin persistencia;
+
+- regímenes parcialmente persistentes;
+
+- regímenes discretos estables;
+
+- regímenes colectivos;
+
+- y regímenes macroscópicos extremos.
+
+La comparación no afirma que todos los regímenes sean idénticos.
+
+Afirma algo más preciso:
+
+todos pueden evaluarse respecto de
+
+confinamiento,
+
+redistribución,
+
+residual
+
+e identidad compatible.
+
+**10.11. Consecuencia física transversal**
+
+La teoría permite formular una lectura unificada del problema de
+estabilidad:
+
+una estructura física persiste
+
+mientras su frontera compatible
+
+resiste redistribución energética y residual acumulado.
+
+Bajo esta perspectiva:
+
+- el plasma no es simple desorden;
+
+- la estrella no es equilibrio inmóvil;
+
+- el átomo no es punto de partida absoluto;
+
+- la combustión no destruye energía, sino identidad estructural;
+
+- y la materia condensada no es mera agregación, sino persistencia
+  colectiva.
+
+**10.12. Resultado de la sección**
+
+El banco de regímenes físicos confirma que la persistencia energética
+estructural puede formularse como criterio transversal entre dominios
+heterogéneos.
+
+El resultado central puede expresarse así:
+
+la física de la estabilidad puede reorganizarse
+
+en torno a la pregunta por la conservación de identidad
+
+frente a dispersión.
+
+**11. Tablas operatorias de contraste**
+
+**11.1. Introducción**
+
+Las secciones anteriores han introducido varias magnitudes que deben
+permanecer rigurosamente diferenciadas.
+
+La teoría perdería precisión si se confundieran:
+
+- energía;
+
+- masa estructural;
+
+- calor estructural;
+
+- fuerza estructural;
+
+- frontera;
+
+- residual;
+
+- persistencia;
+
+- identidad.
+
+La presente sección fija tablas operatorias de contraste para impedir
+ambigüedad conceptual y facilitar evaluación transversal entre regímenes
+físicos.
+
+**11.2. Energía y persistencia**
+
+| **Concepto**                  | **Energía**                 | **Persistencia estructural**         |
+|-------------------------------|-----------------------------|--------------------------------------|
+| Función                       | Capacidad de transformación | Conservación de identidad compatible |
+| Puede dispersarse             | Sí                          | Sólo dentro de límite compatible     |
+| Requiere frontera             | No necesariamente           | Sí                                   |
+| Puede existir sin estabilidad | Sí                          | No                                   |
+| Relación con residual         | Puede aumentarlo            | Debe acotarlo                        |
+| Dictamen estructural          | Magnitud de transformación  | Régimen de identidad conservada      |
+
+La energía por sí sola no garantiza estructura persistente.
+
+La persistencia aparece cuando la energía queda organizada de modo que
+conserva frontera frente a dispersión.
+
+**11.3. Masa convencional y masa estructural**
+
+| **Masa convencional**                                                | **Masa estructural**                                        |
+|----------------------------------------------------------------------|-------------------------------------------------------------|
+| Magnitud física local en dominios clásicos, relativistas o cuánticos | Persistencia energética efectiva de frontera                |
+| Opera como parámetro dinámico o inercial                             | Opera como criterio de identidad compatible                 |
+| Puede aparecer vinculada a energía total                             | Se define por confinamiento menos redistribución y residual |
+| No exige declarar residual estructural                               | Exige residual explícito                                    |
+| Describe propiedades físicas sectoriales                             | Compara regímenes heterogéneos de persistencia              |
+
+La masa estructural no sustituye la masa convencional. La reinterpreta
+en una capa transversal de persistencia.
+
+**11.4. Calor estructural y fuerza estructural**
+
+| **Magnitud**           | **Calor estructural 𝒬**            | **Fuerza estructural 𝓕\_∂**           |
+|------------------------|------------------------------------|---------------------------------------|
+| Función                | Redistribución energética efectiva | Orientación/confinamiento de frontera |
+| Tendencia              | Puede ser dispersiva               | Puede ser conservadora                |
+| Relación con identidad | Puede degradarla                   | Puede sostenerla                      |
+| Relación con residual  | Puede incrementarlo                | Puede compensarlo parcialmente        |
+| Dictamen               | Presión sobre frontera             | Capacidad de persistencia             |
+
+La persistencia depende de la relación entre ambas magnitudes.
+
+Cuando:
+
+𝓕\_∂ \> 𝒬 + ℛ_Γ,
+
+la estructura conserva identidad compatible.
+
+**11.5. Frontera y residual**
+
+| **Magnitud**             | **Frontera ∂Ω**                 | **Residual ℛ_Γ**                   |
+|--------------------------|---------------------------------|------------------------------------|
+| Función                  | Límite de identidad persistente | Pérdida o degradación no absorbida |
+| Debe ser nula            | No                              | No                                 |
+| Debe ser explícita       | Sí                              | Sí                                 |
+| Relación con estabilidad | Conserva identidad              | Puede destruirla si domina         |
+| Régimen admisible        | Frontera compatible             | Residual acotado                   |
+
+La teoría no exige residual nulo.
+
+Exige:
+
+residual declarado y estructuralmente acotado.
+
+**11.6. Plasma y átomo**
+
+| **Magnitud**            | **Plasma**                | **Átomo estable** |
+|-------------------------|---------------------------|-------------------|
+| Persistencia energética | Parcial                   | Conservada        |
+| Frontera                | Degradada o incompleta    | Discreta estable  |
+| Intercambio energético  | Intenso                   | Compatible        |
+| Residual                | Medio/alto                | Acotado           |
+| Identidad               | Parcial                   | Conservada        |
+| Dictamen                | Preatómico o transicional | Atómico           |
+
+El plasma demuestra que persistencia energética y persistencia atómica
+no son equivalentes.
+
+**11.7. Combustión y estabilidad material**
+
+| **Magnitud**   | **Material estable** | **Combustión intensa** |
+|----------------|----------------------|------------------------|
+| Frontera       | Conservada           | Degradada              |
+| Redistribución | Compatible           | Dominante              |
+| Residual       | Acotado              | Alto                   |
+| Identidad      | Conservada           | Perdida o transformada |
+| Persistencia   | Positiva             | Negativa/transicional  |
+
+La combustión no destruye energía.
+
+Destruye persistencia estructural de una configuración determinada.
+
+**11.8. Estrella y dispersión**
+
+| **Magnitud**   | **Estrella persistente**     | **Dispersión dominante** |
+|----------------|------------------------------|--------------------------|
+| Confinamiento  | Globalmente dominante        | Insuficiente             |
+| Redistribución | Extrema pero contenida       | Dominante                |
+| Residual       | Creciente                    | No acotado               |
+| Identidad      | Conservada macroscópicamente | No conservada            |
+| Dictamen       | Persistencia estelar         | Régimen dispersivo       |
+
+La estrella muestra que persistencia puede coexistir con transformación
+intensa.
+
+**11.9. Núcleo estable y núcleo inestable**
+
+| **Magnitud**     | **Núcleo estable**   | **Núcleo inestable**       |
+|------------------|----------------------|----------------------------|
+| Confinamiento    | Muy alto             | Alto pero insuficiente     |
+| Residual         | Bajo                 | Creciente                  |
+| Frontera nuclear | Conservada           | Crítica                    |
+| Identidad        | Conservada           | Transicional               |
+| Dictamen         | Persistencia nuclear | Decaimiento/reorganización |
+
+La estabilidad nuclear tampoco es absoluta.
+
+Su persistencia depende de residual acotado y confinamiento suficiente.
+
+**11.10. Tabla global de dictámenes**
+
+| **Condición**                   | **Dictamen**            |
+|---------------------------------|-------------------------|
+| 𝓟_min \> 0 con frontera estable | Persistente             |
+| 𝓟_min \> 0 con frontera parcial | Preatómico/transicional |
+| 𝓟_min ≈ 0                       | Crítico                 |
+| 𝓟_min \< 0                      | Dispersivo              |
+| ℛ_Γ no declarado                | Incompleto              |
+| ℛ_Γ dominante                   | Incompatible            |
+| ∂Ω = ∅ con identidad pretendida | Inválido                |
+| 𝓔★(Γ_U) ≠ 0                     | No admisible            |
+
+**11.11. Consecuencia metodológica**
+
+Las tablas anteriores permiten fijar una disciplina esencial:
+
+ningún régimen físico debe declararse persistente
+
+sin especificar frontera, redistribución, residual e identidad.
+
+Esta exigencia separa la formulación operatoria de una mera
+interpretación verbal.
+
+**11.12. Resultado de la sección**
+
+El contraste transversal muestra que:
+
+persistencia, energía, masa, calor, fuerza, frontera y residual
+
+no son magnitudes equivalentes,
+
+sino componentes diferenciados
+
+de una teoría estructural de identidad física.
+
+La fuerza de la teoría reside precisamente en no confundirlos.
+
+**12. Teoremas principales**
+
+**12.1. Introducción**
+
+Las secciones anteriores han fijado:
+
+- el estado contemporáneo del problema;
+
+- el aparato mínimo de compatibilidad estructural;
+
+- la ecuación de persistencia energética;
+
+- la reinterpretación operatoria de masa, calor y fuerza;
+
+- el átomo como régimen discreto de persistencia;
+
+- la transición preatómica;
+
+- y un banco transversal de regímenes físicos.
+
+La presente sección consolida los resultados fundamentales en forma de
+teoremas.
+
+El objetivo no es multiplicar formalismo innecesario, sino fijar qué se
+afirma realmente, bajo qué condiciones y con qué alcance.
+
+**12.2. Teorema fundamental de persistencia energética**
+
+**Teorema 12.1**
+
+Sea una configuración energética:
+
+(Γ,n)
+
+definida sobre un dominio estructural:
+
+Ω.
+
+La configuración conserva persistencia estructural compatible si y sólo
+si:
+
+𝓟_min(Γ,n)
+
+=
+
+𝓕\_∂(Γ,n)
+
+−
+
+𝒬(Γ,n)
+
+−
+
+ℛ_Γ(n)
+
+\>
+
+0\.
+
+**Demostración**
+
+Por definición:
+
+- 𝓕\_∂ representa capacidad de frontera para conservar identidad;
+
+- 𝒬 representa redistribución energética efectiva;
+
+- ℛ_Γ representa residual estructural no absorbido.
+
+Si:
+
+𝓟_min \> 0,
+
+entonces:
+
+𝓕\_∂ \> 𝒬 + ℛ_Γ.
+
+Por tanto, el confinamiento estructural domina sobre redistribución y
+residual. La frontera conserva identidad compatible.
+
+Si, por el contrario:
+
+𝓟_min ≤ 0,
+
+entonces la redistribución y el residual igualan o superan la capacidad
+estructural de frontera. La configuración entra en régimen crítico o
+dispersivo.
+
+∎
+
+**12.3. Teorema de masa estructural**
+
+**Teorema 12.2**
+
+La masa estructural efectiva de una configuración energética puede
+modelarse como persistencia mínima:
+
+μ(Γ,n)=𝓟_min(Γ,n).
+
+**Demostración**
+
+Por definición, la masa estructural no se introduce como sustancia
+primaria, sino como capacidad efectiva de conservar identidad frente a
+dispersión.
+
+La persistencia mínima:
+
+𝓟_min
+
+=
+
+𝓕\_∂
+
+−
+
+𝒬
+
+−
+
+ℛ_Γ
+
+mide exactamente la diferencia entre capacidad de confinamiento y
+tendencia dispersiva.
+
+Luego:
+
+μ=𝓟_min.
+
+∎
+
+**12.4. Teorema de degradación térmica**
+
+**Teorema 12.3**
+
+Sea una configuración energética persistente.
+
+Si:
+
+𝒬(Γ,n)+ℛ_Γ(n) ≥ 𝓕\_∂(Γ,n),
+
+entonces la configuración pierde persistencia estructural compatible.
+
+**Demostración**
+
+De la definición:
+
+𝓟_min
+
+=
+
+𝓕\_∂
+
+−
+
+𝒬
+
+−
+
+ℛ_Γ,
+
+la hipótesis implica:
+
+𝓟_min ≤ 0.
+
+Por el Teorema 12.1, la configuración deja de pertenecer al régimen
+persistente compatible.
+
+∎
+
+**12.5. Teorema de orientación estructural**
+
+**Teorema 12.4**
+
+Toda configuración energética persistente requiere orientación
+estructural suficiente de frontera:
+
+𝓕\_∂ \> 𝒬 + ℛ_Γ.
+
+**Demostración**
+
+Por el Teorema 12.1, la persistencia compatible exige:
+
+𝓟_min \> 0.
+
+Sustituyendo la definición de 𝓟_min:
+
+𝓕\_∂ − 𝒬 − ℛ_Γ \> 0.
+
+Por tanto:
+
+𝓕\_∂ \> 𝒬 + ℛ_Γ.
+
+∎
+
+**12.6. Teorema de aparición atómica discreta**
+
+**Teorema 12.5**
+
+Sea una configuración energética:
+
+(Γ,n).
+
+La configuración constituye régimen atómico estable si y sólo si
+satisface simultáneamente:
+
+𝓟_min(Γ,n)\>0,
+
+δ(∂Ω_atom)\<Λ_atom,
+
+ℛ_Γ(n)\<Λ_atom,
+
+y:
+
+Δ𝓗∈𝓢_disc.
+
+**Demostración**
+
+La condición 𝓟_min\>0 garantiza persistencia energética compatible.
+
+La condición δ(∂Ω_atom)\<Λ_atom garantiza estabilidad de frontera
+discreta.
+
+La condición ℛ_Γ\<Λ_atom impide dominancia residual destructiva.
+
+La condición Δ𝓗∈𝓢_disc restringe el intercambio energético a
+transiciones compatibles con conservación de identidad.
+
+Luego la configuración conserva identidad atómica estable.
+
+∎
+
+**12.7. Teorema de transición preatómica**
+
+**Teorema 12.6**
+
+Una configuración en régimen preatómico transita hacia régimen atómico
+cuando pasa de:
+
+𝓟_min\>0
+
+con frontera no plenamente estabilizada, a:
+
+𝓟_min\>0,
+
+δ(∂Ω_atom)\<Λ_atom,
+
+ℛ_Γ\<Λ_atom,
+
+Δ𝓗∈𝓢_disc.
+
+**Demostración**
+
+El régimen preatómico conserva persistencia parcial, pero no identidad
+discreta plena.
+
+La estabilización de frontera, el acotamiento residual y la
+compatibilidad discreta de intercambio convierten la persistencia
+parcial en persistencia atómica discreta.
+
+∎
+
+**12.8. Teorema de no absolutización del hidrógeno**
+
+**Teorema 12.7**
+
+Sea:
+
+H
+
+el átomo químico más simple actualmente conocido.
+
+Entonces:
+
+H
+
+no puede identificarse necesariamente con el mínimo estructural
+universal:
+
+A_min
+
+sin demostración adicional de universalidad estructural.
+
+**Demostración**
+
+La condición de mínimo conocido pertenece al dominio observable
+actualmente disponible.
+
+La condición de mínimo universal exigiría demostrar minimalidad sobre
+todos los dominios estructuralmente admisibles.
+
+No existe equivalencia necesaria entre ambos conjuntos.
+
+Luego:
+
+H≠A_min
+
+como conclusión obligatoria.
+
+La relación correcta es más restringida:
+
+H
+
+=
+
+primer caso canónico conocido
+
+de persistencia atómica discreta estable.
+
+∎
+
+**12.9. Teorema de residual necesario**
+
+**Teorema 12.8**
+
+Toda formulación operatoria de persistencia estructural debe declarar
+residual explícito.
+
+**Demostración**
+
+Si una formulación no declara residual, no permite distinguir entre:
+
+- estabilidad real;
+
+- compensación no observada;
+
+- pérdida estructural;
+
+- o incompatibilidad acumulada.
+
+La ausencia de residual impide evaluar:
+
+𝓟_min
+
+=
+
+𝓕\_∂
+
+−
+
+𝒬
+
+−
+
+ℛ_Γ.
+
+Por tanto, sin residual explícito no existe dictamen riguroso de
+persistencia estructural.
+
+∎
+
+**12.10. Teorema de compatibilidad universal**
+
+**Teorema 12.9**
+
+Toda formulación física admisible dentro de esta teoría debe satisfacer:
+
+𝓔★(Γ_U)=0.
+
+**Demostración**
+
+La ecuación 𝓔★(Γ_U)=0 representa criterio rector de compatibilidad
+estructural universal.
+
+Si una formulación introduce residual externo no absorbible o
+contradicción estructural con dicha condición, queda fuera del dominio
+admisible.
+
+Por tanto, toda aplicación de la teoría de persistencia energética debe
+subordinarse a esa compuerta.
+
+∎
+
+**12.11. Teorema de falsabilidad estructural**
+
+**Teorema 12.10**
+
+La teoría queda refutada si existe una configuración físicamente
+persistente que satisfaga simultáneamente:
+
+Id(Γ,n)\neq∅
+
+y:
+
+𝓟_min(Γ,n)≤0.
+
+**Demostración**
+
+Por el Teorema 12.1, la persistencia compatible exige 𝓟_min\>0.
+
+Si se demuestra persistencia física con 𝓟_min≤0, entonces el criterio
+fundamental de la teoría falla.
+
+Luego la teoría queda refutada en su núcleo.
+
+∎
+
+**12.12. Resultado global**
+
+Los teoremas anteriores permiten condensar la teoría en una afirmación
+estructural:
+
+una entidad física persiste
+
+cuando su frontera energética conserva identidad compatible
+
+frente a redistribución y residual
+
+bajo compatibilidad universal.
+
+La formulación no clausura todos los dominios posibles, pero fija una
+condición de trabajo precisa, contrastable y falsable para el problema
+transversal de persistencia energética.
+
+**13. Criterios de falsación estructural**
+
+**13.1. Introducción**
+
+Una teoría física sólo adquiere fuerza científica cuando declara con
+precisión bajo qué condiciones puede fallar.
+
+La presente formulación no se protege mediante cierre retórico,
+autoridad doctrinal ni inmunidad conceptual. Al contrario: su
+legitimidad depende de que sus condiciones de refutación sean
+explícitas, comprensibles y aplicables.
+
+El criterio general es el siguiente:
+
+si una configuración física conserva identidad persistente
+
+sin satisfacer las condiciones mínimas de persistencia estructural,
+
+la teoría queda refutada.
+
+**13.2. Falsación principal**
+
+La refutación nuclear se produce si existe una configuración energética:
+
+(Γ,n)
+
+tal que conserve identidad física compatible:
+
+Id(Γ,n)\neq∅
+
+pero satisfaga:
+
+𝓟_min(Γ,n)≤0.
+
+Esto significaría que puede existir persistencia física sin dominancia
+de frontera sobre redistribución y residual.
+
+En tal caso, el núcleo de la teoría colapsa.
+
+**13.3. Falsación por ausencia de frontera**
+
+La teoría exige frontera estructural para toda persistencia compatible.
+
+Quedaría refutada si se demostrara una configuración con:
+
+Id(Γ,n)\neq∅
+
+y simultáneamente:
+
+∂Ω=∅.
+
+Esto implicaría identidad física sin límite estructural distinguible,
+contradiciendo la definición operatoria de persistencia.
+
+**13.4. Falsación por residual ilimitado compatible**
+
+La teoría exige residual declarado y acotado.
+
+Quedaría refutada si se demostrara una configuración persistentemente
+estable con:
+
+ℛ_Γ\to\infty
+
+sin pérdida de identidad ni transición estructural.
+
+En tal caso, el residual no tendría capacidad destructiva, y la ecuación
+de persistencia dejaría de ser válida.
+
+**13.5. Falsación por redistribución dominante estable**
+
+La teoría afirma que redistribución energética y residual dominantes
+destruyen persistencia.
+
+Quedaría refutada si existiera una configuración estable con:
+
+𝒬+ℛ_Γ\>𝓕\_∂
+
+y, a la vez:
+
+Id(Γ,n)
+
+conservado.
+
+**13.6. Falsación por átomo estable sin frontera discreta**
+
+La teoría interpreta el átomo como régimen discreto de persistencia
+estructural.
+
+Quedaría refutada en su parte atómica si se demostrara una estructura
+atómica estable con:
+
+δ(∂Ω_atom)\ge Λ_atom
+
+sin pérdida de identidad discreta, sin ionización, sin reorganización y
+sin transición de régimen.
+
+**13.7. Falsación por intercambio no compatible**
+
+La teoría exige que la identidad atómica estable preserve un régimen de
+intercambio compatible:
+
+Δ𝓗∈𝓢_disc.
+
+Quedaría refutada si se demostrara estabilidad atómica persistente bajo
+redistribución energética completamente incompatible con conservación de
+frontera discreta.
+
+**13.8. Falsación por incompatibilidad universal**
+
+Toda formulación del documento queda subordinada a:
+
+𝓔★(Γ_U)=0.
+
+Por tanto, la teoría quedaría refutada en su forma universal si
+existiera una configuración físicamente legítima, persistente y
+estructuralmente completa que exigiera:
+
+𝓔★(Γ_U)\neq0.
+
+En tal caso, la compuerta universal de compatibilidad dejaría de ser
+válida.
+
+**13.9. Tabla de falsación**
+
+| **Condición observada**                          | **Consecuencia**                        |
+|--------------------------------------------------|-----------------------------------------|
+| Id≠∅ con 𝓟_min≤0                                 | Refutación nuclear                      |
+| Id≠∅ con ∂Ω=∅                                    | Refutación por ausencia de frontera     |
+| ℛ_Γ→∞ con estabilidad                            | Refutación por residual ilimitado       |
+| 𝒬+ℛ_Γ\>𝓕\_∂ con identidad conservada             | Refutación por dispersión dominante     |
+| Átomo estable con δ(∂Ω_atom)≥Λ_atom              | Refutación del criterio atómico         |
+| Estabilidad atómica con intercambio incompatible | Refutación de discretización compatible |
+| Persistencia completa con 𝓔★(Γ_U)≠0              | Refutación universal                    |
+
+**13.10. Falsación local y falsación total**
+
+Debe distinguirse entre:
+
+**Falsación local**
+
+Afecta a un dominio concreto, por ejemplo:
+
+- definición de Λ_atom;
+
+- umbral de plasma;
+
+- interpretación de un régimen nuclear;
+
+- o parametrización de un laboratorio.
+
+No destruye necesariamente la teoría completa.
+
+**Falsación total**
+
+Afecta al núcleo:
+
+𝓟_min=𝓕\_∂−𝒬−ℛ_Γ.
+
+Si este criterio falla en una configuración persistente correctamente
+determinada, la teoría pierde su fundamento.
+
+**13.11. Estado U**
+
+Cuando no exista base suficiente para decidir, el dictamen correcto no
+será cierre favorable.
+
+Será:
+
+U.
+
+El estado U preserva honestidad estructural y evita convertir ausencia
+de prueba en confirmación.
+
+**13.12. Resultado de la sección**
+
+La teoría queda así sometida a condiciones explícitas de destrucción.
+
+Esto permite distinguirla de una formulación puramente interpretativa.
+
+Su núcleo puede fallar.
+
+Y precisamente por poder fallar:
+
+la teoría adquiere forma científica operativa.
+
+**14. Laboratorio reproducible de persistencia energética**
+
+**14.1. Introducción**
+
+La formulación desarrollada no debe permanecer únicamente en el plano
+conceptual. Si la persistencia energética estructural se define
+operatoriamente mediante:
+
+𝓟_min
+
+=
+
+𝓕\_∂
+
+−
+
+𝒬
+
+−
+
+ℛ_Γ,
+
+entonces debe poder someterse a un laboratorio mínimo capaz de:
+
+- calcular regímenes de persistencia;
+
+- distinguir estado crítico;
+
+- detectar dispersión;
+
+- evaluar frontera atómica;
+
+- registrar residual;
+
+- y producir dictamen explícito.
+
+El laboratorio no pretende reproducir toda la física microscópica de
+cada régimen. Su función es más precisa:
+
+verificar la coherencia operatoria
+
+de la teoría de persistencia estructural.
+
+**14.2. Variables mínimas**
+
+El laboratorio requiere las siguientes magnitudes:
+
+| **Variable**     | **Significado operatorio**             |
+|------------------|----------------------------------------|
+| F_boundary       | Confinamiento estructural de frontera  |
+| Q_transfer       | Redistribución energética efectiva     |
+| Residual         | Residual estructural                   |
+| BoundaryVar      | Variación estructural de frontera      |
+| Lambda_atom      | Umbral de estabilidad atómica          |
+| DiscreteExchange | Compatibilidad discreta de intercambio |
+| E_star_ok        | Compatibilidad universal               |
+
+**14.3. Ecuación implementada**
+
+El laboratorio implementa:
+
+P_min
+
+=
+
+F_boundary
+
+−
+
+Q_transfer
+
+−
+
+Residual.
+
+Dictámenes básicos:
+
+| **Condición** | **Dictamen** |
+|---------------|--------------|
+| P_min \> 0    | Persistente  |
+| P_min ≈ 0     | Crítico      |
+| P_min \< 0    | Dispersivo   |
+
+Dictamen atómico:
+
+| **Condición adicional**                              | **Dictamen**           |
+|------------------------------------------------------|------------------------|
+| BoundaryVar \< Lambda_atom y DiscreteExchange = True | Atómico estable        |
+| BoundaryVar ≥ Lambda_atom                            | Preatómico o degradado |
+| DiscreteExchange = False                             | No atómico estable     |
+
+**14.4. Código de referencia**
+
+from dataclasses import dataclass
+
+from enum import Enum
+
+class Regime(str, Enum):
+
+ATOMIC = "ATOMICO"
+
+PERSISTENT = "PERSISTENTE"
+
+PREATOMIC = "PREATOMICO"
+
+CRITICAL = "CRITICO"
+
+DISPERSIVE = "DISPERSIVO"
+
+NOT_ADMISSIBLE = "NO_ADMISIBLE"
+
+UNKNOWN = "U"
+
+@dataclass(frozen=True)
+
+class FiberState:
+
+F_boundary: float
+
+Q_transfer: float
+
+Residual: float
+
+BoundaryVar: float
+
+Lambda_atom: float
+
+DiscreteExchange: bool
+
+E_star_ok: bool = True
+
+def validate_state(state: FiberState) -\> None:
+
+values = \[
+
+state.F_boundary,
+
+state.Q_transfer,
+
+state.Residual,
+
+state.BoundaryVar,
+
+state.Lambda_atom,
+
+\]
+
+if any(v \< 0 for v in values):
+
+raise ValueError("SV-PERSIST-INPUT-001: negative magnitude is not
+admissible.")
+
+if state.Lambda_atom == 0:
+
+raise ValueError("SV-BOUNDARY-INPUT-001: Lambda_atom must be positive.")
+
+def p_min(state: FiberState) -\> float:
+
+validate_state(state)
+
+return state.F_boundary - state.Q_transfer - state.Residual
+
+def classify(state: FiberState, eps: float = 1e-9) -\> Regime:
+
+validate_state(state)
+
+if not state.E_star_ok:
+
+return Regime.NOT_ADMISSIBLE
+
+p = p_min(state)
+
+if p \< -eps:
+
+return Regime.DISPERSIVE
+
+if abs(p) \<= eps:
+
+return Regime.CRITICAL
+
+if state.BoundaryVar \< state.Lambda_atom and state.DiscreteExchange:
+
+return Regime.ATOMIC
+
+if state.BoundaryVar \>= state.Lambda_atom:
+
+return Regime.PREATOMIC
+
+return Regime.PERSISTENT
+
+**14.5. Caso I — Átomo estable**
+
+hydrogen_like = FiberState(
+
+F_boundary=10.0,
+
+Q_transfer=2.0,
+
+Residual=1.0,
+
+BoundaryVar=0.2,
+
+Lambda_atom=1.0,
+
+DiscreteExchange=True,
+
+E_star_ok=True,
+
+)
+
+print(p_min(hydrogen_like))
+
+print(classify(hydrogen_like))
+
+Resultado esperado:
+
+7.0
+
+Regime.ATOMIC
+
+Interpretación:
+
+- confinamiento dominante;
+
+- residual acotado;
+
+- frontera discreta estable;
+
+- intercambio compatible.
+
+Dictamen:
+
+persistencia atómica estable.
+
+**14.6. Caso II — Plasma**
+
+plasma = FiberState(
+
+F_boundary=8.0,
+
+Q_transfer=5.0,
+
+Residual=2.0,
+
+BoundaryVar=1.2,
+
+Lambda_atom=1.0,
+
+DiscreteExchange=False,
+
+E_star_ok=True,
+
+)
+
+print(p_min(plasma))
+
+print(classify(plasma))
+
+Resultado esperado:
+
+1.0
+
+Regime.PREATOMIC
+
+Interpretación:
+
+- existe persistencia energética parcial;
+
+- la frontera atómica no está estabilizada;
+
+- el intercambio no es discreto compatible.
+
+Dictamen:
+
+régimen preatómico o plasmático.
+
+**14.7. Caso III — Combustión intensa**
+
+combustion = FiberState(
+
+F_boundary=3.0,
+
+Q_transfer=5.0,
+
+Residual=2.0,
+
+BoundaryVar=4.0,
+
+Lambda_atom=1.0,
+
+DiscreteExchange=False,
+
+E_star_ok=True,
+
+)
+
+print(p_min(combustion))
+
+print(classify(combustion))
+
+Resultado esperado:
+
+-4.0
+
+Regime.DISPERSIVE
+
+Interpretación:
+
+- redistribución y residual dominan;
+
+- la frontera no conserva identidad;
+
+- la configuración abandona persistencia estructural.
+
+Dictamen:
+
+dispersión estructural.
+
+**14.8. Caso IV — Régimen crítico**
+
+critical = FiberState(
+
+F_boundary=5.0,
+
+Q_transfer=3.0,
+
+Residual=2.0,
+
+BoundaryVar=1.0,
+
+Lambda_atom=1.0,
+
+DiscreteExchange=False,
+
+E_star_ok=True,
+
+)
+
+print(p_min(critical))
+
+print(classify(critical))
+
+Resultado esperado:
+
+0.0
+
+Regime.CRITICAL
+
+Interpretación:
+
+- frontera en umbral;
+
+- persistencia no puede declararse estable;
+
+- el régimen requiere dictamen conservador.
+
+**14.9. Caso V — Incompatibilidad universal**
+
+not_admissible = FiberState(
+
+F_boundary=10.0,
+
+Q_transfer=1.0,
+
+Residual=1.0,
+
+BoundaryVar=0.1,
+
+Lambda_atom=1.0,
+
+DiscreteExchange=True,
+
+E_star_ok=False,
+
+)
+
+print(p_min(not_admissible))
+
+print(classify(not_admissible))
+
+Resultado esperado:
+
+8.0
+
+Regime.NOT_ADMISSIBLE
+
+Interpretación:
+
+aunque exista persistencia local positiva, la configuración no pasa la
+compuerta universal.
+
+**14.10. Validación transversal esperada**
+
+| **Caso**                   | **P_min** | **Dictamen** |
+|----------------------------|-----------|--------------|
+| Átomo estable              | 7.0       | ATOMICO      |
+| Plasma                     | 1.0       | PREATOMICO   |
+| Combustión                 | -4.0      | DISPERSIVO   |
+| Crítico                    | 0.0       | CRITICO      |
+| Incompatibilidad universal | 8.0       | NO_ADMISIBLE |
+
+**14.11. Catálogo mínimo de errores**
+
+| **Código**            | **Condición**               | **Significado**                  |
+|-----------------------|-----------------------------|----------------------------------|
+| SV-PERSIST-INPUT-001  | Magnitud negativa ilegítima | Entrada no admisible             |
+| SV-BOUNDARY-INPUT-001 | Lambda_atom = 0             | Umbral inválido                  |
+| SV-PERSIST-001        | P_min \< 0                  | Dispersión dominante             |
+| SV-PERSIST-002        | P_min ≈ 0                   | Régimen crítico                  |
+| SV-BOUNDARY-001       | BoundaryVar ≥ Lambda_atom   | Frontera atómica no estabilizada |
+| SV-DISCRETE-001       | DiscreteExchange = False    | Intercambio no atómico           |
+| SV-TODO-001           | E_star_ok = False           | Incompatibilidad universal       |
+
+**14.12. Criterio de fallo experimental del laboratorio**
+
+El laboratorio queda refutado en su núcleo si se verifica físicamente un
+régimen con:
+
+P_min ≤ 0
+
+y simultáneamente:
+
+identidad persistente conservada.
+
+También quedará refutado localmente si se demuestra un átomo estable
+con:
+
+BoundaryVar ≥ Lambda_atom
+
+sin transición, ionización, degradación o reorganización.
+
+**14.13. Resultado de la sección**
+
+El laboratorio convierte la formulación en un sistema contrastable.
+
+No basta declarar persistencia.
+
+Debe computarse:
+
+P_min,
+
+declararse:
+
+Residual,
+
+evaluarse:
+
+BoundaryVar,
+
+y dictaminarse compatibilidad universal mediante:
+
+E_star_ok.
+
+Por tanto, la teoría queda sometida a control operatorio explícito y
+evita convertirse en interpretación puramente verbal.
+
+**15. Conclusión**
+
+**15.1. Resultado general**
+
+La presente publicación ha formulado una teoría operatoria de
+persistencia energética estructural.
+
+Su objetivo no ha sido sustituir los formalismos contemporáneos de la
+física, sino introducir un criterio transversal capaz de comparar
+regímenes heterogéneos desde una misma pregunta:
+
+¿bajo qué condiciones una configuración energética
+
+conserva identidad frente a redistribución y residual?
+
+El desarrollo ha mostrado que la física contemporánea dispone de teorías
+sectoriales extraordinariamente potentes, pero todavía carece de una
+formulación universal de persistencia estructural que atraviese
+simultáneamente:
+
+- estabilidad de la materia;
+
+- plasma;
+
+- decoherencia;
+
+- termodinámica fuera del equilibrio;
+
+- confinamiento estelar;
+
+- estabilidad nuclear;
+
+- combustión;
+
+- y transición atómica.
+
+La presente teoría se sitúa en ese vacío estructural.
+
+**15.2. Núcleo operatorio**
+
+El núcleo formal del trabajo queda condensado en:
+
+𝓟_min(Γ,n)
+
+=
+
+𝓕\_∂(Γ,n)
+
+−
+
+𝒬(Γ,n)
+
+−
+
+ℛ_Γ(n).
+
+donde:
+
+- 𝓕\_∂ representa capacidad estructural de frontera;
+
+- 𝒬 representa redistribución energética efectiva;
+
+- ℛ_Γ representa residual estructural.
+
+La persistencia compatible exige:
+
+𝓟_min\>0.
+
+La teoría distingue así entre:
+
+- persistencia;
+
+- criticidad;
+
+- y dispersión.
+
+**15.3. Reinterpretación de masa**
+
+La masa ha sido reinterpretada como:
+
+persistencia energética estructural efectiva.
+
+Esto no niega las definiciones clásicas, relativistas o cuánticas de
+masa.
+
+Introduce una capa transversal diferente:
+
+la masa observable puede modelarse como conservación de frontera
+
+frente a redistribución y residual.
+
+**15.4. Reinterpretación del calor**
+
+El calor estructural ha sido formulado como:
+
+redistribución energética efectiva
+
+capaz de modificar el régimen de persistencia.
+
+Bajo esta lectura:
+
+- la combustión;
+
+- la ionización;
+
+- el plasma;
+
+- la transición de fase;
+
+- y la evolución estelar
+
+pueden entenderse como regímenes en los que la redistribución energética
+presiona o degrada frontera persistente.
+
+**15.5. Reinterpretación de la fuerza**
+
+La fuerza estructural ha sido formulada como:
+
+orientación de frontera
+
+capaz de conservar identidad energética compatible.
+
+Esta noción no sustituye las fuerzas físicas conocidas, sino que permite
+compararlas desde una pregunta transversal:
+
+¿la orientación estructural supera redistribución y residual?
+
+**15.6. El átomo como consecuencia estructural**
+
+El átomo ha sido reinterpretado como:
+
+régimen discreto conocido
+
+de persistencia energética estructural.
+
+Esto permite evitar una absolutización no demostrada.
+
+El hidrógeno no se declara mínimo universal absoluto.
+
+Se declara:
+
+primer caso canónico conocido
+
+de persistencia atómica discreta estable
+
+en el dominio observable actual.
+
+Con ello se preserva la distinción entre:
+
+- mínimo conocido;
+
+- y mínimo universal.
+
+**15.7. Plasma, estrella y combustión**
+
+El banco de regímenes físicos ha mostrado que:
+
+- el plasma conserva persistencia parcial sin identidad atómica plena;
+
+- la estrella conserva persistencia macroscópica bajo redistribución
+  extrema;
+
+- la combustión no destruye energía, sino identidad estructural;
+
+- el núcleo estable constituye frontera altamente confinada;
+
+- la materia condensada constituye persistencia cooperativa.
+
+Todos estos regímenes pueden compararse mediante:
+
+𝓟_min,
+
+∂Ω,
+
+ℛ_Γ,
+
+Id.
+
+**15.8. Falsabilidad**
+
+La teoría declara explícitamente sus condiciones de destrucción.
+
+Queda refutada si existe una configuración físicamente persistente con:
+
+𝓟_min≤0.
+
+También queda localmente refutada si se demuestra estabilidad atómica
+sin frontera discreta compatible, residual acotado o intercambio
+estructuralmente admisible.
+
+Esta falsabilidad impide que la teoría opere como interpretación inmune.
+
+**15.9. Compatibilidad universal**
+
+Toda formulación queda subordinada a:
+
+𝓔★(Γ_U)=0.
+
+Dicha condición representa la compuerta universal de compatibilidad
+estructural.
+
+La teoría no acepta:
+
+- cierre favorable por ausencia de prueba;
+
+- residual omitido;
+
+- clausura espuria;
+
+- ni indeterminación convertida en confirmación.
+
+Cuando no exista base suficiente, el dictamen correcto será:
+
+U.
+
+**15.10. Resultado epistemológico**
+
+La publicación desplaza el foco desde la materia como punto de partida
+hacia la persistencia como problema físico fundamental.
+
+La pregunta central deja de ser únicamente:
+
+¿de qué está hecha la materia?
+
+y pasa a ser:
+
+¿cómo consigue una configuración energética
+
+conservar identidad frente a dispersión?
+
+**15.11. Resultado final**
+
+La tesis final puede formularse así:
+
+toda entidad física persistente
+
+puede modelarse como configuración energética
+
+cuya frontera estructural conserva identidad compatible
+
+frente a redistribución y residual
+
+bajo compatibilidad universal.
+
+Esta afirmación no clausura todos los dominios posibles.
+
+Fija una herramienta operatoria para investigarlos.
+
+**15.12. Apertura natural**
+
+El desarrollo conduce de forma natural a dos líneas posteriores:
+
+1.  estudio del verdadero mínimo estructural universal de persistencia
+    energética;
+
+2.  desarrollo específico de la génesis factual del hidrógeno como
+    primer caso canónico conocido.
+
+Ambas líneas deberán preservar:
+
+- frontera explícita;
+
+- residual declarado;
+
+- laboratorio reproducible;
+
+- y compatibilidad universal.
+
+**Anexo I — Génesis factual del hidrógeno como caso canónico conocido**
+
+**16. Planteamiento del anexo**
+
+El presente anexo desarrolla una consecuencia directa de la teoría
+operatoria de persistencia energética estructural:
+
+si el átomo estable es un régimen discreto de persistencia,
+
+el hidrógeno debe estudiarse como primer caso canónico conocido
+
+de dicha persistencia en el dominio observable actual.
+
+El objetivo no consiste en reemplazar la física nuclear, la cosmología
+temprana ni la química atómica. El objetivo es más delimitado:
+
+formular el hidrógeno como caso particular
+
+del criterio general de persistencia estructural.
+
+**16.1. El hidrógeno como mínimo conocido**
+
+El hidrógeno constituye el átomo químico más simple actualmente
+conocido.
+
+Su configuración ordinaria presenta:
+
+- un núcleo de carga positiva mínima;
+
+- un electrón asociado en régimen estable;
+
+- espectro identificable;
+
+- persistencia química;
+
+- y presencia cosmológica dominante.
+
+Sin embargo, la presente formulación evita una conclusión ilegítima:
+
+mínimo conocido no equivale automáticamente a mínimo universal.
+
+Por tanto, el hidrógeno se define aquí como:
+
+primer caso canónico conocido
+
+de persistencia atómica discreta estable.
+
+**16.2. Condiciones estructurales del hidrógeno**
+
+Para que una configuración pueda ser interpretada como hidrógeno estable
+dentro de esta formulación, debe satisfacer:
+
+𝓟_min^H \> 0,
+
+δ(∂Ω_H) \< Λ_H,
+
+ℛ_H \< Λ_H,
+
+y:
+
+Δ𝓗_H ∈ 𝓢_disc^H.
+
+Además, debe conservar compatibilidad universal:
+
+𝓔★(Γ_U)=0.
+
+**16.3. Persistencia mínima del hidrógeno**
+
+La persistencia estructural del hidrógeno queda modelada mediante:
+
+𝓟_min^H(Γ,n)
+
+=
+
+𝓕\_∂^H(Γ,n)
+
+−
+
+𝒬_H(Γ,n)
+
+−
+
+ℛ_H(n).
+
+El hidrógeno estable exige:
+
+𝓟_min^H \> 0.
+
+Esto significa que la frontera estructural del régimen hidrógeno domina
+sobre redistribución energética y residual.
+
+**16.4. Transición desde régimen preatómico**
+
+El hidrógeno no aparece en esta teoría como objeto primario.
+
+Aparece como resultado de una transición:
+
+Ω_pre → Ω_H.
+
+Dicha transición requiere que una persistencia energética parcial
+alcance:
+
+- frontera discreta estable;
+
+- residual acotado;
+
+- intercambio compatible;
+
+- e identidad conservada.
+
+Formalmente:
+
+Ω_pre:
+
+𝓟_min\>0,
+
+δ(∂Ω)\approx Λ_H
+
+pasa a:
+
+Ω_H:
+
+𝓟_min^H\>0,
+
+δ(∂Ω_H)\<Λ_H.
+
+**16.5. Plasma como antecedente estructural**
+
+El plasma constituye el antecedente natural del régimen atómico.
+
+En él existe:
+
+- persistencia energética parcial;
+
+- intercambio intenso;
+
+- frontera atómica degradada;
+
+- ausencia de identidad discreta plenamente estable.
+
+La transición hacia hidrógeno estable exige que el plasma abandone el
+régimen de frontera degradada y alcance:
+
+frontera discreta compatible.
+
+**16.6. Interpretación física**
+
+La génesis estructural del hidrógeno puede expresarse así:
+
+el hidrógeno aparece cuando una configuración preatómica
+
+consigue estabilizar frontera discreta,
+
+acotar residual
+
+y conservar identidad bajo intercambio energético compatible.
+
+Esta formulación no niega los modelos físicos existentes de
+recombinación, nucleosíntesis o estructura atómica.
+
+Introduce una lectura transversal:
+
+el hidrógeno es un caso de persistencia energética discreta,
+
+no el fundamento absoluto de toda persistencia.
+
+**16.7. Teorema de génesis estructural del hidrógeno**
+
+**Teorema 16.1**
+
+Sea una configuración energética:
+
+(Γ,n)
+
+en régimen preatómico.
+
+La configuración puede ser interpretada como hidrógeno estable conocido
+si y sólo si satisface:
+
+𝓟_min^H(Γ,n)\>0,
+
+δ(∂Ω_H)\<Λ_H,
+
+ℛ_H(n)\<Λ_H,
+
+Δ𝓗_H∈𝓢_disc^H,
+
+y:
+
+𝓔★(Γ_U)=0.
+
+**Demostración**
+
+La condición 𝓟_min^H\>0 garantiza persistencia energética compatible.
+
+La condición δ(∂Ω_H)\<Λ_H garantiza frontera discreta estable.
+
+La condición ℛ_H\<Λ_H impide que el residual destruya identidad.
+
+La condición Δ𝓗_H∈𝓢_disc^H asegura intercambio compatible con
+conservación estructural.
+
+La condición 𝓔★(Γ_U)=0 impide incompatibilidad universal.
+
+Por tanto, la configuración conserva identidad hidrógeno estable dentro
+del dominio observable actual.
+
+∎
+
+**16.8. No absolutización del hidrógeno**
+
+El teorema anterior no demuestra que el hidrógeno sea el mínimo
+universal absoluto.
+
+Demuestra únicamente que, dentro del dominio físico actualmente
+conocido, el hidrógeno puede formularse como:
+
+caso canónico de persistencia atómica discreta estable.
+
+La posibilidad de otros mínimos estructurales no queda cerrada.
+
+Su dictamen permanece en:
+
+U
+
+hasta que exista base suficiente de clausura.
+
+**16.9. Resultado del anexo**
+
+El hidrógeno queda así integrado sin absolutización.
+
+No se presenta como origen ontológico último, sino como:
+
+primer régimen conocido
+
+en el que la persistencia energética alcanza
+
+identidad atómica discreta estable.
+
+Con ello, el anexo enlaza directamente la teoría general de persistencia
+energética con el problema físico concreto de la génesis atómica.
+
+**Anexo II — Criterio de legitimidad operatoria**
+
+**17. Planteamiento del anexo**
+
+Toda teoría física transversal necesita una disciplina de legitimidad.
+
+No basta con formular ecuaciones, analogías o reinterpretaciones. Una
+formulación sólo puede considerarse operatoriamente admisible si declara
+con precisión:
+
+- qué dominio describe;
+
+- qué proyección realiza;
+
+- qué invariantes conserva;
+
+- qué residual genera;
+
+- y bajo qué criterio puede fallar.
+
+El presente anexo fija ese criterio para la teoría de persistencia
+energética estructural.
+
+**17.1. Dominio**
+
+Sea:
+
+Ω
+
+el dominio estructural de una formulación física.
+
+El dominio indica:
+
+sobre qué conjunto de configuraciones
+
+opera realmente la teoría.
+
+Sin dominio explícito, cualquier extrapolación resulta ilegítima.
+
+**17.2. Proyección**
+
+Sea:
+
+Π
+
+la proyección mediante la cual una configuración universal o general se
+representa dentro de un dominio particular.
+
+La proyección permite distinguir entre:
+
+- estructura completa;
+
+- representación local;
+
+- observación parcial;
+
+- y modelo efectivo.
+
+Una teoría que confunde proyección con totalidad incurre en
+absolutización indebida.
+
+**17.3. Invariantes**
+
+Sean:
+
+𝓘
+
+los invariantes estructurales conservados por una formulación.
+
+En la teoría de persistencia energética, los invariantes mínimos son:
+
+- frontera compatible;
+
+- identidad persistente;
+
+- residual acotado;
+
+- redistribución no destructiva;
+
+- compatibilidad universal.
+
+Toda formulación debe declarar qué conserva y en qué condiciones deja de
+conservarlo.
+
+**17.4. Residual**
+
+Sea:
+
+ℛ
+
+el residual estructural generado por una formulación.
+
+El residual representa:
+
+- pérdida no absorbida;
+
+- límite del modelo;
+
+- incompatibilidad parcial;
+
+- degradación;
+
+- o diferencia entre proyección y estructura completa.
+
+La presente teoría considera ilegítimo declarar residual nulo sin
+demostración.
+
+**17.5. Cuádruple operatorio mínimo**
+
+Toda formulación admisible debe declarar:
+
+(Ω,Π,𝓘,ℛ).
+
+Este cuádruple constituye la unidad mínima de legitimidad operatoria.
+
+Sin él, no puede evaluarse si una teoría:
+
+- explica;
+
+- proyecta;
+
+- conserva;
+
+- pierde;
+
+- o extrapola ilegítimamente.
+
+**17.6. Compatibilidad universal**
+
+Además del cuádruple anterior, toda formulación debe satisfacer:
+
+𝓔★(Γ_U)=0.
+
+Esta condición actúa como compuerta universal de compatibilidad
+estructural.
+
+Una formulación puede tener éxito local y, aun así, no ser
+universalmente admisible si introduce residual externo no absorbible.
+
+**17.7. Estado U**
+
+Cuando no exista base suficiente para clausura, el dictamen correcto
+será:
+
+U.
+
+El estado U preserva:
+
+- indeterminación honesta;
+
+- no clausura legítima;
+
+- y prevención frente a cierre favorable.
+
+No debe confundirse con error ni con confirmación.
+
+**17.8. Teorema de legitimidad operatoria**
+
+**Teorema 17.1**
+
+Sea una formulación física:
+
+𝓣.
+
+La formulación es operatoriamente legítima dentro de esta teoría si y
+sólo si declara:
+
+(Ω,Π,𝓘,ℛ),
+
+satisface:
+
+𝓔★(Γ_U)=0,
+
+y posee residual estructural compatible.
+
+**Demostración**
+
+La declaración de Ω delimita el dominio.
+
+La declaración de Π impide confundir representación con totalidad.
+
+La declaración de 𝓘 fija qué se conserva.
+
+La declaración de ℛ hace visible qué no se absorbe.
+
+La condición 𝓔★(Γ_U)=0 garantiza compatibilidad estructural universal.
+
+Por tanto, la formulación queda operatoriamente legitimada.
+
+∎
+
+**17.9. Aplicación a la teoría de persistencia energética**
+
+En la teoría desarrollada:
+
+| **Componente** | **Contenido**                                         |
+|----------------|-------------------------------------------------------|
+| Ω              | Dominio de configuraciones energéticas estructurales  |
+| Π              | Proyección hacia régimen físico particular            |
+| 𝓘              | Frontera, identidad, residual acotado, compatibilidad |
+| ℛ              | Pérdida estructural no absorbida                      |
+| 𝓔★             | Compüerta universal de legitimidad                    |
+
+La persistencia sólo puede declararse cuando estos componentes quedan
+explícitamente satisfechos.
+
+**17.10. Aplicación al átomo**
+
+Para el régimen atómico:
+
+| **Componente** | **Contenido**                                        |
+|----------------|------------------------------------------------------|
+| Ω_atom         | Dominio de persistencia discreta estable             |
+| Π_atom         | Proyección hacia identidad atómica                   |
+| 𝓘_atom         | Frontera discreta, intercambio compatible, identidad |
+| ℛ_atom         | Residual atómico acotado                             |
+| 𝓔★             | Compatibilidad universal                             |
+
+Sin estos elementos, la afirmación “átomo estable” resulta incompleta.
+
+**17.11. Aplicación al plasma**
+
+Para el plasma:
+
+| **Componente** | **Contenido**                                 |
+|----------------|-----------------------------------------------|
+| Ω_plasma       | Dominio de persistencia parcial               |
+| Π_plasma       | Proyección hacia régimen ionizado             |
+| 𝓘_plasma       | Confinamiento parcial, intercambio intenso    |
+| ℛ_plasma       | Residual medio o alto                         |
+| 𝓔★             | Compatibilidad universal parcial o no cerrada |
+
+El plasma no debe tratarse como mera ausencia de átomo, sino como
+régimen estructural propio de persistencia parcial.
+
+**17.12. Aplicación a la estrella**
+
+Para el régimen estelar:
+
+| **Componente** | **Contenido**                                         |
+|----------------|-------------------------------------------------------|
+| Ω_star         | Dominio de persistencia macroscópica energética       |
+| Π_star         | Proyección hacia confinamiento estelar                |
+| 𝓘_star         | Frontera global, transformación nuclear, persistencia |
+| ℛ_star         | Residual creciente                                    |
+| 𝓔★             | Compatibilidad bajo transformación prolongada         |
+
+La estrella demuestra que persistencia no exige inmovilidad, sino
+compatibilidad bajo transformación.
+
+**17.13. Resultado del anexo**
+
+El criterio operatorio impide que la teoría de persistencia energética
+se convierta en interpretación libre.
+
+Toda afirmación queda obligada a declarar:
+
+dominio,
+
+proyección,
+
+invariantes,
+
+residual
+
+y compatibilidad universal.
+
+Con ello, la formulación conserva trazabilidad, falsabilidad y
+resistencia frente a extrapolaciones ilegítimas.
+
+**18. Referencias**
+
+**18.1. Criterio bibliográfico**
+
+La presente publicación se apoya en dos tipos de referencias:
+
+1.  referencias externas de física, matemática y teoría de sistemas,
+    necesarias para situar el problema contemporáneo de persistencia
+    estructural;
+
+2.  referencias internas del corpus del Sistema Vectorial SV, necesarias
+    para fijar la compatibilidad operatoria de la formulación.
+
+Las referencias externas no se incorporan como autoridad cerrada, sino
+como delimitación del estado contemporáneo del problema.
+
+Las referencias internas no sustituyen el contraste físico, sino que
+fijan el aparato formal bajo el cual se formula la teoría de
+persistencia energética estructural.
+
+**18.2. Estabilidad de la materia y física matemática**
+
+Dyson, F. J. (1967). *Ground-state energy of a finite system of charged
+particles*. Journal of Mathematical Physics, 8(8), 1538–1545.
+
+Dyson, F. J., & Lenard, A. (1967). *Stability of matter. I*. Journal of
+Mathematical Physics, 8(3), 423–434.
+
+Dyson, F. J., & Lenard, A. (1968). *Stability of matter. II*. Journal of
+Mathematical Physics, 9(5), 698–711.
+
+Lieb, E. H., & Thirring, W. E. (1975). *Bound for the kinetic energy of
+fermions which proves the stability of matter*. Physical Review Letters,
+35(11), 687–689.
+
+Lieb, E. H. (1976). *The stability of matter*. Reviews of Modern
+Physics, 48(4), 553–569.
+
+Lieb, E. H., & Seiringer, R. (2010). *The stability of matter in quantum
+mechanics*. Cambridge University Press.
+
+**18.3. Termodinámica fuera del equilibrio, disipación y
+autoorganización**
+
+Prigogine, I. (1967). *Introduction to thermodynamics of irreversible
+processes* (3rd ed.). Wiley.
+
+Prigogine, I., & Nicolis, G. (1977). *Self-organization in
+nonequilibrium systems: From dissipative structures to order through
+fluctuations*. Wiley.
+
+Nicolis, G., & Prigogine, I. (1989). *Exploring complexity: An
+introduction*. W. H. Freeman.
+
+Haken, H. (1983). *Synergetics: An introduction*. Springer.
+
+Kondepudi, D., & Prigogine, I. (1998). *Modern thermodynamics: From heat
+engines to dissipative structures*. Wiley.
+
+**18.4. Decoherencia, emergencia clásica e información física**
+
+Zurek, W. H. (1981). *Pointer basis of quantum apparatus: Into what
+mixture does the wave packet collapse?* Physical Review D, 24(6),
+1516–1525.
+
+Zurek, W. H. (2003). *Decoherence, einselection, and the quantum origins
+of the classical*. Reviews of Modern Physics, 75(3), 715–775.
+
+Wheeler, J. A. (1990). *Information, physics, quantum: The search for
+links*. En W. H. Zurek (Ed.), *Complexity, entropy and the physics of
+information* (pp. 3–28). Addison-Wesley.
+
+Landauer, R. (1961). *Irreversibility and heat generation in the
+computing process*. IBM Journal of Research and Development, 5(3),
+183–191.
+
+Lloyd, S. (2006). *Programming the universe: A quantum computer
+scientist takes on the cosmos*. Knopf.
+
+**18.5. Emergencia, materia condensada y organización colectiva**
+
+Anderson, P. W. (1972). *More is different*. Science, 177(4047),
+393–396.
+
+Laughlin, R. B. (2005). *A different universe: Reinventing physics from
+the bottom down*. Basic Books.
+
+Kadanoff, L. P. (2000). *Statistical physics: Statics, dynamics and
+renormalization*. World Scientific.
+
+Chaikin, P. M., & Lubensky, T. C. (1995). *Principles of condensed
+matter physics*. Cambridge University Press.
+
+**18.6. Plasma, recombinación y formación atómica**
+
+Saha, M. N. (1920). *Ionization in the solar chromosphere*.
+Philosophical Magazine, 40(238), 472–488.
+
+Chen, F. F. (2016). *Introduction to plasma physics and controlled
+fusion* (3rd ed.). Springer.
+
+Draine, B. T. (2011). *Physics of the interstellar and intergalactic
+medium*. Princeton University Press.
+
+Peebles, P. J. E. (1993). *Principles of physical cosmology*. Princeton
+University Press.
+
+Weinberg, S. (2008). *Cosmology*. Oxford University Press.
+
+**18.7. Relatividad, gravitación, horizonte y confinamiento
+macroscópico**
+
+Einstein, A. (1916). *Die Grundlage der allgemeinen
+Relativitätstheorie*. Annalen der Physik, 49, 769–822.
+
+Hawking, S. W., & Ellis, G. F. R. (1973). *The large scale structure of
+space-time*. Cambridge University Press.
+
+Bekenstein, J. D. (1973). *Black holes and entropy*. Physical Review D,
+7(8), 2333–2346.
+
+Hawking, S. W. (1975). *Particle creation by black holes*.
+Communications in Mathematical Physics, 43(3), 199–220.
+
+Misner, C. W., Thorne, K. S., & Wheeler, J. A. (1973). *Gravitation*. W.
+H. Freeman.
+
+**18.8. Mecánica cuántica, estructura atómica y teoría de campos**
+
+Bohr, N. (1913). *On the constitution of atoms and molecules*.
+Philosophical Magazine, 26(151), 1–25.
+
+Dirac, P. A. M. (1930). *The principles of quantum mechanics*. Oxford
+University Press.
+
+Schrödinger, E. (1926). *Quantisierung als Eigenwertproblem*. Annalen
+der Physik, 79, 361–376.
+
+von Neumann, J. (1932). *Mathematische Grundlagen der Quantenmechanik*.
+Springer.
+
+Weinberg, S. (1995). *The quantum theory of fields. Volume I:
+Foundations*. Cambridge University Press.
+
+Peskin, M. E., & Schroeder, D. V. (1995). *An introduction to quantum
+field theory*. Westview Press.
+
+**18.9. Corpus interno del Sistema Vectorial SV**
+
+Lloret Egea, J. A. (2026). *Teoría del TODO y de la NADA en el Sistema
+Vectorial SV*. Instituto Tecnológico Virtual de la Inteligencia
+Artificial para el Español.
+
+Lloret Egea, J. A. (2026). *Teoría general de sucesos generadores y de
+los protocampos unificados*. Instituto Tecnológico Virtual de la
+Inteligencia Artificial para el Español.
+
+Lloret Egea, J. A. (2026). *Conjunto matemático de orden, directriz y
+cambio factual en el Sistema Vectorial SV*. Instituto Tecnológico
+Virtual de la Inteligencia Artificial para el Español.
+
+Lloret Egea, J. A. (2026). *Conjunto matemático unificado del cambio
+factual, ciclos, medición factual y trayectorias poligonales de
+activación en el Sistema Vectorial SV*. Instituto Tecnológico Virtual de
+la Inteligencia Artificial para el Español.
+
+Lloret Egea, J. A. (2026). *Primitivos metrológicos del Sistema
+Vectorial SV: instanciaciones contingentes y compatibilidad factual*.
+Instituto Tecnológico Virtual de la Inteligencia Artificial para el
+Español.
+
+Lloret Egea, J. A. (2026). *Fourier factual y ecuación de onda
+electromagnética en el Sistema Vectorial SV*. Instituto Tecnológico
+Virtual de la Inteligencia Artificial para el Español.
+
+Lloret Egea, J. A. (2026). *Fundamentos operatorios absolutos del
+electromagnetismo factual en el Sistema Vectorial SV*. Instituto
+Tecnológico Virtual de la Inteligencia Artificial para el Español.
+
+Lloret Egea, J. A. (2026). *Entropía factual e irreversibilidad
+estructural en el Sistema Vectorial SV*. Instituto Tecnológico Virtual
+de la Inteligencia Artificial para el Español.
+
+Lloret Egea, J. A. (2026). *Absorción de E₀ = m₀c² como sector basal
+exacto de reposo en el Sistema Vectorial SV*. Instituto Tecnológico
+Virtual de la Inteligencia Artificial para el Español.
+
+Lloret Egea, J. A. (2026). *Fundamentos algebraico-semánticos del
+Sistema Vectorial SV*. Instituto Tecnológico Virtual de la Inteligencia
+Artificial para el Español.
+
+**18.10. Resultado bibliográfico**
+
+La bibliografía anterior cumple una función estructural concreta:
+
+situar la persistencia energética
+
+como problema transversal real
+
+entre estabilidad de materia,
+
+termodinámica fuera del equilibrio,
+
+plasma,
+
+decoherencia,
+
+emergencia,
+
+gravitación
+
+y estructura atómica.
+
+La presente teoría se formula, por tanto, no como negación de dichos
+dominios, sino como intento de construir un criterio operatorio
+transversal capaz de comparar sus regímenes de persistencia, transición
+y dispersión.
+
+**19. Notación fundamental**
+
+**19.1. Criterio de notación**
+
+La presente sección fija la notación mínima empleada en el documento.
+
+Su finalidad es evitar ambigüedad semántica y garantizar que cada
+símbolo conserve una función operatoria precisa.
+
+**19.2. Dominio y trayectoria**
+
+| **Símbolo** | **Significado**                                          |
+|-------------|----------------------------------------------------------|
+| Ω           | Dominio estructural de una formulación                   |
+| ∂Ω          | Frontera estructural del dominio                         |
+| Γ           | Trayectoria estructural considerada                      |
+| Γ_U         | Trayectoria universal de compatibilidad                  |
+| (Γ,n)       | Configuración energética situada en trayectoria y estado |
+
+**19.3. Persistencia**
+
+| **Símbolo** | **Significado**                             |
+|-------------|---------------------------------------------|
+| 𝓟_min       | Persistencia energética mínima              |
+| Id(Γ,n)     | Identidad estructural persistente           |
+| μ(Γ,n)      | Masa estructural efectiva                   |
+| A_min       | Mínimo estructural universal, no clausurado |
+| H           | Hidrógeno como mínimo conocido observable   |
+
+La ecuación central es:
+
+𝓟_min(Γ,n)
+
+=
+
+𝓕\_∂(Γ,n)
+
+−
+
+𝒬(Γ,n)
+
+−
+
+ℛ_Γ(n).
+
+**19.4. Frontera y confinamiento**
+
+| **Símbolo** | **Significado**                          |
+|-------------|------------------------------------------|
+| 𝓕\_∂        | Capacidad estructural de frontera        |
+| δ(∂Ω)       | Variación estructural de frontera        |
+| ∂Ω_atom     | Frontera estructural atómica             |
+| Λ_atom      | Umbral compatible de estabilidad atómica |
+
+La condición mínima de estabilidad atómica queda expresada por:
+
+δ(∂Ω_atom)\<Λ_atom.
+
+**19.5. Redistribución y residual**
+
+| **Símbolo** | **Significado**                                |
+|-------------|------------------------------------------------|
+| 𝒬           | Redistribución energética efectiva             |
+| Θ           | Intensidad estructural de redistribución       |
+| 𝔇_Γ𝓗        | Derivada estructural de intercambio energético |
+| ℛ_Γ         | Residual estructural                           |
+
+Con:
+
+𝒬(Γ,n)=Θ(Γ,n)·𝔇_Γ𝓗(Γ,n).
+
+**19.6. Régimen atómico**
+
+| **Símbolo** | **Significado**                                |
+|-------------|------------------------------------------------|
+| Ω_pre       | Dominio preatómico                             |
+| Ω_atom      | Dominio atómico estable                        |
+| Δ𝓗          | Intercambio energético                         |
+| 𝓢_disc      | Conjunto de transiciones discretas compatibles |
+
+La condición de intercambio compatible se expresa como:
+
+Δ𝓗∈𝓢_disc.
+
+**19.7. Compatibilidad universal**
+
+| **Símbolo** | **Significado**                                   |
+|-------------|---------------------------------------------------|
+| 𝓔★(Γ_U)=0   | Compüerta universal de compatibilidad estructural |
+| U           | Estado de indeterminación estructural legítima    |
+| Π           | Proyección operatoria                             |
+| 𝓘           | Invariantes estructurales                         |
+
+El cuádruple mínimo de legitimidad es:
+
+(Ω,Π,𝓘,ℛ).
+
+**19.8. Dictámenes operatorios**
+
+| **Condición**       | **Dictamen**             |
+|---------------------|--------------------------|
+| 𝓟_min\>0            | Persistente              |
+| 𝓟_min≈0             | Crítico                  |
+| 𝓟_min\<0            | Dispersivo               |
+| δ(∂Ω_atom)\<Λ_atom  | Frontera atómica estable |
+| ℛ_Γ no declarado    | Formulación incompleta   |
+| 𝓔★(Γ_U)≠0           | No admisible             |
+| Sin base suficiente | U                        |
+
+**19.9. Resultado de la sección**
+
+La notación anterior fija el aparato mínimo necesario para operar con la
+teoría sin confundir:
+
+- energía con persistencia;
+
+- masa con sustancia;
+
+- calor con simple transferencia;
+
+- fuerza con mera interacción;
+
+- frontera con geometría superficial;
+
+- residual con error;
+
+- e indeterminación con cierre favorable.
+
+La disciplina notacional forma parte de la legitimidad física de la
+formulación.
+
+**20. Epílogo científico**
+
+**20.1. El desplazamiento conceptual**
+
+Durante siglos, gran parte de la física ha girado en torno a una
+pregunta dominante:
+
+¿de qué está hecha la materia?
+
+La pregunta produjo resultados extraordinarios:
+
+\- teoría atómica;
+
+\- estructura nuclear;
+
+\- física cuántica;
+
+\- relatividad;
+
+\- teoría de campos;
+
+\- cosmología;
+
+\- física del plasma;
+
+\- y física de partículas.
+
+Sin embargo, todas esas teorías continúan enfrentándose, explícita o
+implícitamente, a un problema anterior:
+
+\`\`\`text id="u38
+
+¿cómo consigue una configuración energética  
+persistir como identidad física?
+
+La presente publicación desplaza el foco precisamente hacia esa
+cuestión.
+
+---
+
+\# 20.2. Persistencia frente a sustancia
+
+La teoría desarrollada propone un cambio de lectura:
+
+\`\`\`text id="m38
+
+la estabilidad física observable  
+no necesita interpretarse como existencia de una sustancia primaria
+inexplicada,  
+sino como persistencia estructural compatible.
+
+Bajo esta perspectiva:
+
+\- el átomo;
+
+\- el núcleo;
+
+\- la estrella;
+
+\- el plasma;
+
+\- y la materia condensada
+
+dejan de aparecer como objetos absolutamente separados y pasan a
+interpretarse como distintos regímenes de un mismo problema estructural.
+
+---
+
+\# 20.3. El papel del residual
+
+Uno de los resultados más importantes del trabajo es la incorporación
+explícita del residual.
+
+La física contemporánea suele trabajar frecuentemente con:
+
+\- aproximaciones;
+
+\- perturbaciones;
+
+\- términos efectivos;
+
+\- pérdidas;
+
+\- fluctuaciones;
+
+\- o disipación.
+
+La presente formulación obliga a declarar el residual estructural como
+componente constitutivo explícito.
+
+Esto tiene una consecuencia profunda:
+
+\`\`\`text id="f38
+
+la persistencia física no exige perfección,  
+sino compatibilidad bajo residual acotado.
+
+---
+
+\# 20.4. El átomo deja de ser absoluto
+
+Otro resultado importante es la desabsolutización del átomo.
+
+La teoría no niega su importancia. Al contrario:
+
+\`\`\`text id="x38
+
+el átomo estable aparece como uno de los mayores logros estructurales  
+de persistencia energética observable.
+
+Pero deja de interpretarse como origen ontológico último.
+
+El hidrógeno pasa a formularse como:
+
+\`\`\`text id="o38
+
+primer caso canónico conocido  
+de persistencia atómica discreta estable.
+
+La diferencia entre:
+
+\- mínimo conocido;
+
+\- y mínimo universal,
+
+queda preservada rigurosamente.
+
+---
+
+\# 20.5. La estrella como juez físico
+
+El régimen estelar ocupa un lugar central en esta formulación porque
+muestra simultáneamente:
+
+\- redistribución energética extrema;
+
+\- transformación continua;
+
+\- residual creciente;
+
+\- radiación;
+
+\- y persistencia macroscópica prolongada.
+
+La estrella demuestra que:
+
+\`\`\`text id="v38
+
+persistir no significa impedir transformación,  
+sino resistir dispersión estructural total.
+
+Por ello, cualquier teoría de persistencia energética debe poder
+atravesar el régimen estelar sin colapsar conceptualmente.
+
+---
+
+\# 20.6. El plasma como frontera conceptual
+
+La física del plasma desempeña también un papel decisivo.
+
+El plasma enseña que:
+
+\- puede existir persistencia sin estabilidad atómica plena;
+
+\- puede existir frontera parcial;
+
+\- y puede existir organización energética sin identidad discreta
+estable.
+
+Esto obliga a distinguir rigurosamente:
+
+\| Concepto \| Significado \|
+
+\|---\|---\|
+
+\| Persistencia energética \| Conservación parcial de estructura \|
+
+\| Persistencia atómica \| Conservación discreta estable \|
+
+La teoría se construye precisamente sobre esa distinción.
+
+---
+
+\# 20.7. El problema universal abierto
+
+El trabajo no clausura el problema del mínimo estructural universal.
+
+Sólo afirma algo más restringido y más riguroso:
+
+\`\`\`text id="q38
+
+el hidrógeno es el primer caso canónico conocido  
+de persistencia discreta estable observable.
+
+La existencia de estructuras más fundamentales, más primitivas o
+pertenecientes a otros dominios permanece en:
+
+\`\`\`text id="z38
+
+U.
+
+Esa apertura no representa debilidad, sino disciplina epistemológica.
+
+---
+
+\# 20.8. La función de la compuerta universal
+
+Toda formulación del documento queda subordinada a:
+
+\`\`\`text id="t38
+
+𝓔★(Γ_U)=0.
+
+La ecuación actúa como criterio rector de compatibilidad universal.
+
+No funciona como simple igualdad algebraica, sino como:
+
+\`\`\`text id="p38
+
+condición de legitimidad estructural.
+
+Toda teoría de persistencia energética deberá atravesar esa compuerta
+sin introducir:
+
+\- residual oculto;
+
+\- cierre espurio;
+
+\- ni absolutización ilegítima.
+
+---
+
+\# 20.9. Resultado epistemológico final
+
+El trabajo conduce finalmente a una inversión conceptual importante.
+
+La pregunta física fundamental deja de ser únicamente:
+
+\`\`\`text id="n38
+
+¿qué es la materia?
+
+y pasa a formularse como:
+
+\`\`\`text id="d38
+
+¿qué condiciones permiten que la energía conserve identidad  
+frente a redistribución y dispersión?
+
+Bajo esta perspectiva:
+
+\- masa;
+
+\- calor;
+
+\- fuerza;
+
+\- átomo;
+
+\- plasma;
+
+\- estrella;
+
+\- y estabilidad material
+
+pasan a integrarse dentro de una teoría general de persistencia
+estructural.
+
+---
+
+\# 20.10. Cierre
+
+La tesis final puede condensarse así:
+
+\`\`\`text id="s38
+
+toda entidad física persistente  
+puede modelarse como una frontera energética compatible  
+capaz de resistir redistribución y residual  
+sin perder identidad estructural.
+
+Y precisamente porque la teoría declara:
+
+\- sus límites;
+
+\- sus condiciones de falsación;
+
+\- su residual;
+
+\- y sus estados de indeterminación,
+
+queda abierta al contraste físico futuro sin necesidad de clausura
+dogmática.
+
+**Anexo III — Fórmula Absoluta de la Teoría de la tabla periódica
+química infinita**
+
+**18. Planteamiento del anexo**
+
+La teoría de la persistencia energética estructural ha formulado el
+átomo como régimen discreto conocido de identidad física estable. El
+Anexo I ha precisado el hidrógeno como primer caso canónico conocido de
+persistencia atómica discreta dentro del dominio observable actual.
+
+Sin embargo, una teoría física de persistencia que se detuviera en el
+hidrógeno quedaría incompleta. La existencia del hidrógeno no agota el
+problema químico, sino que abre la cuestión estructural siguiente:
+
+¿bajo qué ley una identidad atómica persistente puede dar lugar
+
+a una sucesión ordenada de clases químicas diferenciadas,
+
+sin perder frontera, residual, identidad ni compatibilidad universal?
+
+La tabla periódica no se interpreta aquí como mero inventario empírico
+de elementos conocidos. Se interpreta como dominio estructural de clases
+atómicas persistentes, ordenadas por condiciones de frontera,
+composición, residual, intercambio compatible e identidad química.
+
+La presente formulación denomina:
+
+𝕋_chem
+
+al dominio de clases químicas atómicas estructuralmente admisibles.
+
+Cada elemento químico queda representado por:
+
+E_Z ∈ 𝕋_chem.
+
+El índice Z no se toma aquí únicamente como número ordinal externo, sino
+como identificador de una clase atómica diferenciada por persistencia
+estructural, frontera propia e identidad química conservada.
+
+La fórmula absoluta de pertenencia a la tabla periódica química queda:
+
+E_Z ∈ 𝕋_chem
+
+⇔
+
+𝓝★\[
+
+𝓟_min^Z(Γ,n)\>0,
+
+δ(∂Ω_Z)\<Λ_Z,
+
+ℛ_Z(n)\<Λ_Z,
+
+Δ𝓗_Z∈𝓢_disc^Z,
+
+Id(E_Z)≠∅,
+
+𝓔★(Γ_U)=0
+
+\]=1.
+
+Su lectura es directa:
+
+una clase atómica pertenece a la tabla periódica química
+
+si y sólo si conserva persistencia energética,
+
+frontera atómica diferenciada,
+
+residual acotado,
+
+intercambio compatible,
+
+identidad química propia
+
+y compatibilidad universal.
+
+**18.1. De átomo persistente a clase química**
+
+No todo régimen atómico constituye automáticamente una clase química
+diferenciada.
+
+Para que una configuración atómica pueda ser reconocida como clase
+química debe conservar una identidad propia bajo transformaciones
+admisibles. Esto exige algo más que persistencia energética general.
+
+Exige:
+
+- frontera atómica estable;
+
+- identidad química diferenciada;
+
+- residual acotado;
+
+- intercambio compatible;
+
+- y posición estructural distinguible dentro del dominio químico.
+
+Definimos:
+
+Id_chem(E_Z)
+
+como identidad química persistente de la clase E_Z.
+
+La condición mínima de identidad química será:
+
+Id_chem(E_Z)≠∅.
+
+Por tanto:
+
+átomo persistente
+
+no equivale necesariamente a:
+
+clase química diferenciada.
+
+La clase química aparece cuando la persistencia atómica alcanza una
+identidad estructural repetible, distinguible y compatible dentro del
+dominio de la tabla periódica.
+
+**18.2. Dominio periódico estructural**
+
+La tabla periódica química se define como dominio:
+
+𝕋_chem = {E_Z \| Cond_chem(E_Z)=1}.
+
+donde:
+
+Cond_chem(E_Z)
+
+=
+
+𝓝★\[
+
+𝓟_min^Z\>0,
+
+δ(∂Ω_Z)\<Λ_Z,
+
+ℛ_Z\<Λ_Z,
+
+Δ𝓗_Z∈𝓢_disc^Z,
+
+Id_chem(E_Z)≠∅,
+
+𝓔★(Γ_U)=0
+
+\].
+
+Así, la tabla periódica no queda definida por simple enumeración, sino
+por condición de admisibilidad estructural.
+
+Un elemento pertenece al dominio químico cuando su régimen de
+persistencia satisface la totalidad de las condiciones operatorias.
+
+Si alguna condición no se verifica, el dictamen no puede cerrarse como
+pertenencia plena.
+
+En tal caso, el estado correcto será:
+
+U
+
+hasta que exista base suficiente de clausura.
+
+**18.3. Periodicidad química como recurrencia estructural**
+
+La periodicidad química no se interpreta aquí como repetición meramente
+tabular.
+
+Se interpreta como recurrencia de clases de frontera, intercambio e
+identidad dentro del dominio atómico.
+
+Definimos:
+
+Per(E_Z,E\_{Z+k})
+
+como relación de periodicidad estructural entre dos clases químicas
+cuando conservan patrones compatibles de:
+
+- frontera externa;
+
+- intercambio energético;
+
+- reactividad;
+
+- estabilidad;
+
+- y composición molecular admisible.
+
+Formalmente:
+
+Per(E_Z,E\_{Z+k})=1
+
+⇔
+
+𝓝★\[
+
+Sim(∂Ω_Z,∂Ω\_{Z+k})=1,
+
+Sim(Δ𝓗_Z,Δ𝓗\_{Z+k})=1,
+
+Sim(Id_chem(E_Z),Id_chem(E\_{Z+k}))=1,
+
+ℛ\_{Z,Z+k}\<Λ_per,
+
+𝓔★(Γ_U)=0
+
+\]=1.
+
+La periodicidad queda así formulada como semejanza estructural
+compatible, no como coincidencia numérica superficial.
+
+**18.4. No clausura de la tabla periódica química**
+
+La expresión “tabla periódica química infinita” no debe entenderse como
+afirmación dogmática de existencia física ilimitada de elementos
+realizados.
+
+Debe entenderse como:
+
+no clausura estructural previa del dominio periódico admisible.
+
+La teoría no afirma que existan físicamente todos los elementos
+posibles.
+
+Afirma que el dominio de clases químicas no debe cerrarse por
+enumeración empírica finita si la condición operatoria permite nuevos
+regímenes admisibles.
+
+Por tanto:
+
+𝕋_chem
+
+queda estructuralmente abierto.
+
+La pertenencia de nuevas clases químicas requiere verificación de:
+
+Cond_chem(E_Z)=1.
+
+Si no hay base suficiente:
+
+Cond_chem(E_Z)=U.
+
+Si alguna condición estructural falla:
+
+Cond_chem(E_Z)=0.
+
+Así, la tabla periódica queda abierta, pero no arbitraria.
+
+**18.5. Fórmula absoluta generadora de clase química**
+
+Sea:
+
+G_chem
+
+el operador generador de clase química admisible.
+
+Definimos:
+
+E\_{Z+1}=G_chem(E_Z)
+
+si y sólo si la transición estructural desde E_Z hacia una nueva clase
+E\_{Z+1} conserva compatibilidad operatoria.
+
+La condición generadora queda:
+
+G_chem(E_Z)=E\_{Z+1}
+
+⇔
+
+𝓝★\[
+
+E_Z∈𝕋_chem,
+
+𝓟_min^{Z+1}\>0,
+
+δ(∂Ω\_{Z+1})\<Λ\_{Z+1},
+
+ℛ\_{Z+1}\<Λ\_{Z+1},
+
+Δ𝓗\_{Z+1}∈𝓢_disc^{Z+1},
+
+Id_chem(E\_{Z+1})≠Id_chem(E_Z),
+
+𝓔★(Γ_U)=0
+
+\]=1.
+
+La nueva clase debe cumplir dos exigencias simultáneas:
+
+1.  conservar persistencia compatible;
+
+2.  diferenciarse estructuralmente de la clase anterior.
+
+Sin diferencia de identidad no hay nueva clase química.
+
+Sin persistencia compatible no hay pertenencia periódica.
+
+**18.6. Teorema de pertenencia periódica estructural**
+
+**Teorema 18.1**
+
+Sea una configuración atómica candidata:
+
+E_Z.
+
+La configuración pertenece a la tabla periódica química estructural si y
+sólo si satisface:
+
+𝓟_min^Z\>0,
+
+δ(∂Ω_Z)\<Λ_Z,
+
+ℛ_Z\<Λ_Z,
+
+Δ𝓗_Z∈𝓢_disc^Z,
+
+Id_chem(E_Z)≠∅,
+
+𝓔★(Γ_U)=0.
+
+**Demostración**
+
+La condición:
+
+𝓟_min^Z\>0
+
+garantiza persistencia energética estructural.
+
+La condición:
+
+δ(∂Ω_Z)\<Λ_Z
+
+garantiza frontera atómica estable.
+
+La condición:
+
+ℛ_Z\<Λ_Z
+
+impide que el residual destruya la identidad química.
+
+La condición:
+
+Δ𝓗_Z∈𝓢_disc^Z
+
+garantiza intercambio energético compatible con estabilidad atómica.
+
+La condición:
+
+Id_chem(E_Z)≠∅
+
+garantiza identidad química diferenciada.
+
+Finalmente:
+
+𝓔★(Γ_U)=0
+
+certifica compatibilidad universal.
+
+Luego E_Z pertenece a 𝕋_chem.
+
+∎
+
+**18.7. Teorema de no clausura periódica**
+
+**Teorema 18.2**
+
+La tabla periódica química estructural no puede declararse clausurada
+por enumeración empírica finita mientras exista una clase candidata:
+
+E_Z
+
+cuyo dictamen estructural permanezca en:
+
+U.
+
+**Demostración**
+
+La clausura de 𝕋_chem exigiría demostrar que toda clase candidata
+externa al conjunto conocido satisface:
+
+Cond_chem(E_Z)=0.
+
+Si existe una clase candidata con:
+
+Cond_chem(E_Z)=U,
+
+no existe base suficiente para declarar imposibilidad estructural.
+
+Por tanto, la clausura fuerte de la tabla periódica resulta ilegítima.
+
+∎
+
+**18.8. Resultado del Anexo III**
+
+La tabla periódica química queda formulada como dominio estructural
+abierto de clases atómicas persistentes.
+
+Su fórmula absoluta es:
+
+𝕋_chem
+
+=
+
+{E_Z :
+
+𝓝★\[
+
+𝓟_min^Z\>0,
+
+δ(∂Ω_Z)\<Λ_Z,
+
+ℛ_Z\<Λ_Z,
+
+Δ𝓗_Z∈𝓢_disc^Z,
+
+Id_chem(E_Z)≠∅,
+
+𝓔★(Γ_U)=0
+
+\]=1}.
+
+La tabla periódica deja de ser únicamente un catálogo de elementos
+conocidos y pasa a interpretarse como:
+
+dominio no clausurado de identidades atómicas persistentes,
+
+ordenadas por frontera,
+
+residual,
+
+intercambio,
+
+periodicidad estructural
+
+y compatibilidad universal.
+
+El hidrógeno inicia el dominio conocido.
+
+No lo clausura.
+
+**Anexo IV — Fórmula de la Teoría Absoluta de Formación de Moléculas**
+
+**19. Planteamiento del anexo**
+
+El Anexo III ha formulado la tabla periódica química como dominio
+estructural abierto de clases atómicas persistentes. Sin embargo, la
+química no queda completada por la existencia de elementos atómicos
+diferenciados.
+
+El siguiente problema es compositivo:
+
+¿bajo qué condiciones dos o más clases atómicas persistentes
+
+pueden formar una identidad molecular nueva,
+
+estable y diferenciada,
+
+sin quedar reducidas a mera yuxtaposición?
+
+La molécula no aparece aquí como simple suma material de átomos. Se
+define como régimen compuesto de persistencia energética, dotado de
+frontera propia, identidad molecular, residual acotado e intercambio
+compatible.
+
+Sea:
+
+𝕄_chem
+
+el dominio de moléculas químicamente admisibles.
+
+Sea:
+
+M ∈ 𝕄_chem
+
+una molécula estructuralmente persistente.
+
+Sea además:
+
+M = Comp(E\_{Z_1},E\_{Z_2},...,E\_{Z_k})
+
+una composición de clases atómicas pertenecientes a la tabla periódica
+química estructural.
+
+La fórmula absoluta de formación molecular queda:
+
+M ∈ 𝕄_chem
+
+⇔
+
+𝓝★\[
+
+∀i, E\_{Z_i}∈𝕋_chem,
+
+𝓟_min^M(Γ,n)\>0,
+
+δ(∂Ω_M)\<Λ_M,
+
+ℛ_M(n)\<Λ_M,
+
+Δ𝓗_M∈𝓢_disc^M,
+
+Id_mol(M)≠∅,
+
+𝓘_M≠∅,
+
+𝓔★(Γ_U)=0
+
+\]=1.
+
+Su lectura es precisa:
+
+una molécula pertenece al dominio químico molecular
+
+si y sólo si se forma por composición de clases atómicas admisibles,
+
+conserva persistencia propia,
+
+genera frontera molecular estable,
+
+mantiene residual acotado,
+
+admite intercambio compatible,
+
+posee identidad molecular diferenciada
+
+y satisface compatibilidad universal.
+
+**19.1. Átomo y molécula**
+
+Debe distinguirse rigurosamente entre:
+
+clase atómica persistente
+
+y:
+
+identidad molecular compuesta.
+
+Una clase atómica E_Z posee frontera atómica propia:
+
+∂Ω_Z.
+
+Una molécula M posee frontera molecular:
+
+∂Ω_M.
+
+La frontera molecular no equivale a la suma aritmética de las fronteras
+atómicas.
+
+Formalmente:
+
+∂Ω_M ≠ Σ_i ∂Ω\_{Z_i}.
+
+La composición molecular exige reorganización estructural.
+
+La molécula aparece cuando las clases atómicas componentes generan una
+nueva unidad persistente cuya identidad no se reduce a cada componente
+aislado.
+
+**19.2. Operador de composición molecular**
+
+Definimos el operador:
+
+Comp_mol
+
+como operador de composición molecular admisible.
+
+Para clases atómicas:
+
+E\_{Z_1},E\_{Z_2},...,E\_{Z_k} ∈ 𝕋_chem,
+
+se define:
+
+M = Comp_mol(E\_{Z_1},E\_{Z_2},...,E\_{Z_k})
+
+si la composición satisface condición de persistencia molecular.
+
+La condición completa es:
+
+Comp_mol(E\_{Z_1},...,E\_{Z_k})=M
+
+⇔
+
+𝓝★\[
+
+∀i, E\_{Z_i}∈𝕋_chem,
+
+𝓟_min^M\>0,
+
+δ(∂Ω_M)\<Λ_M,
+
+ℛ_M\<Λ_M,
+
+Δ𝓗_M∈𝓢_disc^M,
+
+Id_mol(M)≠∅,
+
+𝓔★(Γ_U)=0
+
+\]=1.
+
+Si la composición no conserva frontera molecular propia, no hay molécula
+estable.
+
+Si genera residual dominante, no hay molécula admisible.
+
+Si no produce identidad diferenciada, sólo existe agregación transitoria
+o configuración no molecular.
+
+**19.3. Persistencia molecular mínima**
+
+La persistencia molecular mínima se define por:
+
+𝓟_min^M(Γ,n)
+
+=
+
+𝓕\_∂^M(Γ,n)
+
+−
+
+𝒬_M(Γ,n)
+
+−
+
+ℛ_M(n).
+
+La molécula estable exige:
+
+𝓟_min^M\>0.
+
+Esta condición expresa que la frontera molecular conserva identidad
+frente a redistribución energética y residual.
+
+La molécula puede intercambiar energía, vibrar, rotar, reorganizarse
+parcialmente o participar en reacciones compatibles.
+
+Pero deja de conservar identidad molecular cuando:
+
+𝓕\_∂^M ≤ 𝒬_M + ℛ_M.
+
+En ese caso aparece:
+
+- ruptura molecular;
+
+- ionización;
+
+- transición química;
+
+- degradación térmica;
+
+- o dispersión estructural.
+
+**19.4. Identidad molecular**
+
+Definimos:
+
+Id_mol(M)
+
+como identidad molecular persistente de M.
+
+La identidad molecular exige simultáneamente:
+
+- composición atómica admisible;
+
+- frontera molecular propia;
+
+- organización interna compatible;
+
+- residual acotado;
+
+- estabilidad bajo intercambio;
+
+- y reconocimiento químico diferenciable.
+
+Formalmente:
+
+Id_mol(M)≠∅
+
+⇔
+
+𝓝★\[
+
+M=Comp_mol(E\_{Z_1},...,E\_{Z_k}),
+
+∂Ω_M≠∅,
+
+𝓘_M≠∅,
+
+ℛ_M\<Λ_M,
+
+𝓔★(Γ_U)=0
+
+\]=1.
+
+La molécula queda así definida como identidad compuesta persistente.
+
+No es simple agregación.
+
+No es simple proximidad espacial.
+
+No es suma nominal.
+
+Es composición estructural admisible.
+
+**19.5. Invariantes moleculares**
+
+Toda molécula admisible debe conservar un conjunto mínimo de
+invariantes:
+
+𝓘_M.
+
+Dichos invariantes incluyen:
+
+- composición atómica compatible;
+
+- frontera molecular;
+
+- identidad química;
+
+- régimen de intercambio energético;
+
+- residual acotado;
+
+- y comportamiento estructural repetible.
+
+La condición:
+
+𝓘_M≠∅
+
+impide declarar molécula allí donde sólo existe agrupación transitoria
+sin identidad conservada.
+
+**19.6. Formación molecular y residual**
+
+Toda formación molecular genera residual.
+
+La composición de átomos en molécula no constituye operación perfecta ni
+libre de coste estructural.
+
+Sea:
+
+ℛ_form^M
+
+el residual de formación molecular.
+
+La composición será admisible si:
+
+ℛ_form^M \< Λ_M.
+
+Si:
+
+ℛ_form^M ≥ Λ_M,
+
+la composición no estabiliza identidad molecular.
+
+La molécula aparece sólo cuando el residual de formación permanece por
+debajo del umbral de conservación de frontera.
+
+**19.7. Teorema de formación molecular**
+
+**Teorema 19.1**
+
+Sea una composición candidata:
+
+M = Comp(E\_{Z_1},E\_{Z_2},...,E\_{Z_k}).
+
+La composición constituye molécula estructuralmente admisible si y sólo
+si satisface:
+
+∀i, E\_{Z_i}∈𝕋_chem,
+
+𝓟_min^M\>0,
+
+δ(∂Ω_M)\<Λ_M,
+
+ℛ_M\<Λ_M,
+
+Δ𝓗_M∈𝓢_disc^M,
+
+Id_mol(M)≠∅,
+
+𝓔★(Γ_U)=0.
+
+**Demostración**
+
+La condición:
+
+∀i, E\_{Z_i}∈𝕋_chem
+
+garantiza que la composición parte de clases atómicas admisibles.
+
+La condición:
+
+𝓟_min^M\>0
+
+garantiza persistencia energética molecular.
+
+La condición:
+
+δ(∂Ω_M)\<Λ_M
+
+garantiza estabilidad de frontera molecular.
+
+La condición:
+
+ℛ_M\<Λ_M
+
+impide que el residual destruya la identidad compuesta.
+
+La condición:
+
+Δ𝓗_M∈𝓢_disc^M
+
+garantiza intercambio energético compatible con estabilidad molecular.
+
+La condición:
+
+Id_mol(M)≠∅
+
+certifica identidad molecular diferenciada.
+
+Finalmente:
+
+𝓔★(Γ_U)=0
+
+certifica compatibilidad universal.
+
+Luego M pertenece a 𝕄_chem.
+
+∎
+
+**19.8. Caso particular: formación del agua**
+
+El agua se toma como caso canónico de formación molecular porque integra
+de forma especialmente clara:
+
+- composición atómica diferenciada;
+
+- identidad molecular estable;
+
+- frontera propia;
+
+- comportamiento macroscópico reconocible;
+
+- participación atmosférica;
+
+- y relevancia estructural para dominios posteriores.
+
+La molécula de agua se expresa como:
+
+H₂O = Comp_mol(H,H,O).
+
+La condición de admisibilidad molecular queda:
+
+H₂O ∈ 𝕄_chem
+
+⇔
+
+𝓝★\[
+
+H∈𝕋_chem,
+
+O∈𝕋_chem,
+
+𝓟_min^{H₂O}\>0,
+
+δ(∂Ω\_{H₂O})\<Λ\_{H₂O},
+
+ℛ\_{H₂O}\<Λ\_{H₂O},
+
+Δ𝓗\_{H₂O}∈𝓢_disc^{H₂O},
+
+Id_mol(H₂O)≠∅,
+
+𝓘\_{H₂O}≠∅,
+
+𝓔★(Γ_U)=0
+
+\]=1.
+
+El agua no se interpreta como mera suma:
+
+2H + O.
+
+Se interpreta como:
+
+identidad molecular persistente
+
+generada por composición compatible
+
+de clases atómicas admisibles.
+
+**19.9. Agua, frontera y persistencia**
+
+La frontera molecular del agua:
+
+∂Ω\_{H₂O}
+
+no se reduce a las fronteras atómicas de hidrógeno y oxígeno.
+
+La molécula posee una organización estructural propia, con identidad
+química reconocible y comportamiento físico diferenciado.
+
+Su persistencia exige:
+
+𝓕\_∂^{H₂O} \> 𝒬\_{H₂O}+ℛ\_{H₂O}.
+
+Cuando esta condición se conserva, el agua mantiene identidad molecular.
+
+Cuando se pierde, aparecen:
+
+- disociación;
+
+- ionización;
+
+- transición química;
+
+- evaporación con conservación molecular parcial;
+
+- o ruptura molecular según régimen.
+
+Debe distinguirse entre cambio de fase y destrucción molecular.
+
+El agua puede pasar de sólido a líquido o vapor sin perder
+necesariamente identidad molecular.
+
+La pérdida molecular exige ruptura de la frontera propia:
+
+δ(∂Ω\_{H₂O})≥Λ\_{H₂O}
+
+o residual destructivo:
+
+ℛ\_{H₂O}≥Λ\_{H₂O}.
+
+**19.10. Teorema del agua como molécula persistente**
+
+**Teorema 19.2**
+
+La molécula de agua constituye identidad molecular persistente si y sólo
+si:
+
+H∈𝕋_chem,
+
+O∈𝕋_chem,
+
+𝓟_min^{H₂O}\>0,
+
+δ(∂Ω\_{H₂O})\<Λ\_{H₂O},
+
+ℛ\_{H₂O}\<Λ\_{H₂O},
+
+Δ𝓗\_{H₂O}∈𝓢_disc^{H₂O},
+
+Id_mol(H₂O)≠∅,
+
+𝓔★(Γ_U)=0.
+
+**Demostración**
+
+La pertenencia de H y O a 𝕋_chem garantiza que los componentes
+pertenecen al dominio químico atómico admisible.
+
+La condición:
+
+𝓟_min^{H₂O}\>0
+
+garantiza persistencia molecular efectiva.
+
+La condición:
+
+δ(∂Ω\_{H₂O})\<Λ\_{H₂O}
+
+garantiza frontera molecular estable.
+
+La condición:
+
+ℛ\_{H₂O}\<Λ\_{H₂O}
+
+impide que el residual destruya la identidad molecular.
+
+La condición:
+
+Δ𝓗\_{H₂O}∈𝓢_disc^{H₂O}
+
+garantiza intercambio compatible.
+
+La condición:
+
+Id_mol(H₂O)≠∅
+
+distingue molécula de agregación.
+
+Finalmente:
+
+𝓔★(Γ_U)=0
+
+garantiza compatibilidad universal.
+
+Luego el agua constituye molécula persistente admisible.
+
+∎
+
+**19.11. Resultado del Anexo IV**
+
+La formación molecular queda formulada como composición estructural
+admisible de clases atómicas persistentes.
+
+Su fórmula absoluta es:
+
+𝕄_chem
+
+=
+
+{M :
+
+𝓝★\[
+
+M=Comp_mol(E\_{Z_1},...,E\_{Z_k}),
+
+∀i,E\_{Z_i}∈𝕋_chem,
+
+𝓟_min^M\>0,
+
+δ(∂Ω_M)\<Λ_M,
+
+ℛ_M\<Λ_M,
+
+Δ𝓗_M∈𝓢_disc^M,
+
+Id_mol(M)≠∅,
+
+𝓘_M≠∅,
+
+𝓔★(Γ_U)=0
+
+\]=1}.
+
+La molécula queda definida como:
+
+identidad compuesta persistente,
+
+formada por clases atómicas admisibles,
+
+con frontera propia,
+
+residual acotado,
+
+intercambio compatible
+
+y legitimidad universal.
+
+El agua representa un caso particular canónico.
+
+No clausura la teoría molecular.
+
+La inaugura en un régimen físico químicamente reconocible.
+
+**Anexo V — Fórmula de la Teoría Absoluta de Formación de Atmósferas**
+
+**20. Planteamiento del anexo**
+
+El Anexo IV ha formulado la molécula como identidad compuesta
+persistente, formada por clases atómicas admisibles, con frontera
+propia, residual acotado e intercambio compatible.
+
+Sin embargo, la formación molecular no agota el problema físico-químico
+de la organización estructural. Existen dominios macroscópicos en los
+que múltiples moléculas, bajo condiciones de frontera planetaria,
+intercambio energético y retención gravitatoria, constituyen una
+identidad persistente de orden superior.
+
+La atmósfera pertenece a ese régimen.
+
+Una atmósfera no es una molécula.
+
+Tampoco es una mera suma indiferenciada de gases.
+
+Se define aquí como:
+
+dominio macroscópico de composición molecular persistente,
+
+retenido por frontera planetaria compatible,
+
+bajo redistribución energética, residual dinámico
+
+y compatibilidad universal.
+
+Sea:
+
+𝔄_plan
+
+el dominio de atmósferas planetarias estructuralmente admisibles.
+
+Sea:
+
+A ∈ 𝔄_plan
+
+una atmósfera persistente.
+
+Sea además:
+
+A = Comp_atm(M_1,M_2,...,M_k; Ω_plan)
+
+una composición atmosférica formada por moléculas admisibles sobre un
+dominio planetario.
+
+La fórmula absoluta de formación atmosférica queda:
+
+A ∈ 𝔄_plan
+
+⇔
+
+𝓝★\[
+
+∀j, M_j∈𝕄_chem,
+
+𝓟_min^A(Γ,n)\>0,
+
+δ(∂Ω_A)\<Λ_A,
+
+ℛ_A(n)\<Λ_A,
+
+Δ𝓗_A∈𝓢_disc^A,
+
+𝓕\_∂^{grav,A}\>𝒬_A+ℛ_A,
+
+Id_atm(A)≠∅,
+
+𝓘_A≠∅,
+
+𝓔★(Γ_U)=0
+
+\]=1.
+
+Su lectura es precisa:
+
+una atmósfera pertenece al dominio planetario admisible
+
+si y sólo si está compuesta por moléculas admisibles,
+
+conserva persistencia macroscópica,
+
+mantiene frontera atmosférica compatible,
+
+retiene residual acotado,
+
+soporta intercambio energético no destructivo,
+
+posee identidad atmosférica diferenciada
+
+y satisface compatibilidad universal.
+
+**20.1. Molécula y atmósfera**
+
+Debe distinguirse rigurosamente entre:
+
+molécula persistente
+
+y:
+
+atmósfera persistente.
+
+Una molécula M posee frontera molecular:
+
+∂Ω_M.
+
+Una atmósfera A posee frontera atmosférica:
+
+∂Ω_A.
+
+La frontera atmosférica no es la suma de fronteras moleculares.
+
+Formalmente:
+
+∂Ω_A ≠ Σ_j ∂Ω\_{M_j}.
+
+La atmósfera aparece cuando una composición molecular queda retenida
+dentro de un dominio planetario compatible y conserva una identidad
+macroscópica estable bajo intercambio energético prolongado.
+
+Por tanto, la atmósfera no se define sólo por composición química, sino
+por:
+
+- composición molecular;
+
+- frontera planetaria;
+
+- retención gravitatoria;
+
+- intercambio radiativo;
+
+- circulación;
+
+- residual dinámico;
+
+- y persistencia macroscópica.
+
+**20.2. Operador de composición atmosférica**
+
+Definimos:
+
+Comp_atm
+
+como operador de composición atmosférica admisible.
+
+Para moléculas:
+
+M_1,M_2,...,M_k ∈ 𝕄_chem
+
+y un dominio planetario:
+
+Ω_plan,
+
+se define:
+
+A = Comp_atm(M_1,M_2,...,M_k; Ω_plan)
+
+si la composición molecular queda retenida por una frontera planetaria
+compatible y conserva identidad atmosférica.
+
+La condición completa es:
+
+Comp_atm(M_1,...,M_k;Ω_plan)=A
+
+⇔
+
+𝓝★\[
+
+∀j, M_j∈𝕄_chem,
+
+Ω_plan≠∅,
+
+𝓟_min^A\>0,
+
+δ(∂Ω_A)\<Λ_A,
+
+ℛ_A\<Λ_A,
+
+Δ𝓗_A∈𝓢_disc^A,
+
+𝓕\_∂^{grav,A}\>𝒬_A+ℛ_A,
+
+Id_atm(A)≠∅,
+
+𝓔★(Γ_U)=0
+
+\]=1.
+
+Si la composición molecular no queda retenida, no hay atmósfera
+persistente.
+
+Si la frontera planetaria es insuficiente, aparece fuga, erosión o
+dispersión.
+
+Si el residual atmosférico domina, la atmósfera pierde estabilidad
+estructural.
+
+**20.3. Persistencia atmosférica mínima**
+
+La persistencia atmosférica mínima se define por:
+
+𝓟_min^A(Γ,n)
+
+=
+
+𝓕\_∂^A(Γ,n)
+
+−
+
+𝒬_A(Γ,n)
+
+−
+
+ℛ_A(n).
+
+La atmósfera estable exige:
+
+𝓟_min^A\>0.
+
+Ahora bien, a diferencia del régimen molecular, la atmósfera requiere
+una condición adicional de retención macroscópica:
+
+𝓕\_∂^{grav,A}\>𝒬_A+ℛ_A.
+
+Esta condición expresa que la frontera planetaria debe ser capaz de
+retener la composición molecular frente a dispersión térmica, radiación,
+escape, erosión y pérdida estructural.
+
+Por tanto, la atmósfera es una persistencia de frontera macroscópica, no
+una simple mezcla gaseosa.
+
+**20.4. Identidad atmosférica**
+
+Definimos:
+
+Id_atm(A)
+
+como identidad atmosférica persistente.
+
+Una atmósfera conserva identidad cuando mantiene:
+
+- composición molecular reconocible;
+
+- frontera planetaria funcional;
+
+- régimen de intercambio energético compatible;
+
+- circulación o redistribución no destructiva;
+
+- residual atmosférico acotado;
+
+- y estabilidad macroscópica suficiente.
+
+Formalmente:
+
+Id_atm(A)≠∅
+
+⇔
+
+𝓝★\[
+
+A=Comp_atm(M_1,...,M_k;Ω_plan),
+
+∀j,M_j∈𝕄_chem,
+
+∂Ω_A≠∅,
+
+𝓘_A≠∅,
+
+ℛ_A\<Λ_A,
+
+𝓕\_∂^{grav,A}\>𝒬_A+ℛ_A,
+
+𝓔★(Γ_U)=0
+
+\]=1.
+
+La identidad atmosférica no exige inmovilidad.
+
+Una atmósfera puede variar, circular, estratificarse, intercambiar
+energía, perder o ganar componentes y conservar identidad mientras tales
+variaciones permanezcan dentro del régimen compatible.
+
+**20.5. Invariantes atmosféricos**
+
+Toda atmósfera admisible debe conservar un conjunto mínimo de
+invariantes:
+
+𝓘_A.
+
+Dichos invariantes incluyen:
+
+- dominio planetario;
+
+- composición molecular admisible;
+
+- frontera atmosférica;
+
+- retención gravitatoria;
+
+- intercambio energético compatible;
+
+- residual dinámico acotado;
+
+- y persistencia macroscópica.
+
+La condición:
+
+𝓘_A≠∅
+
+impide declarar atmósfera allí donde sólo existe nube transitoria,
+emisión gaseosa no retenida o dispersión molecular sin frontera
+planetaria estable.
+
+**20.6. Residual atmosférico**
+
+Toda atmósfera genera residual.
+
+Definimos:
+
+ℛ_A
+
+como residual atmosférico estructural.
+
+Este residual puede proceder de:
+
+- pérdida molecular;
+
+- escape térmico;
+
+- erosión por radiación;
+
+- intercambio con superficie;
+
+- reacciones químicas;
+
+- impacto externo;
+
+- degradación de frontera;
+
+- o incompatibilidad de composición.
+
+La atmósfera permanece estructuralmente admisible mientras:
+
+ℛ_A\<Λ_A.
+
+Cuando:
+
+ℛ_A≥Λ_A,
+
+la identidad atmosférica queda comprometida.
+
+No toda variación atmosférica destruye atmósfera.
+
+Sólo la variación que rompe frontera, residual o retención compatible.
+
+**20.7. Frontera planetaria y retención**
+
+La condición diferencial del régimen atmosférico es la retención
+planetaria.
+
+Una molécula puede ser admisible en 𝕄_chem y, aun así, no formar parte
+de una atmósfera persistente si el dominio planetario no la retiene.
+
+Por ello se introduce:
+
+𝓕\_∂^{grav,A}
+
+como componente de frontera gravitatoria-atmosférica.
+
+La condición:
+
+𝓕\_∂^{grav,A}\>𝒬_A+ℛ_A
+
+establece que la retención macroscópica debe superar redistribución y
+residual.
+
+Si no se cumple, la composición molecular se dispersa.
+
+La atmósfera no se forma o no se conserva.
+
+**20.8. Teorema de formación atmosférica**
+
+**Teorema 20.1**
+
+Sea una composición candidata:
+
+A = Comp_atm(M_1,M_2,...,M_k;Ω_plan).
+
+La composición constituye atmósfera estructuralmente admisible si y sólo
+si satisface:
+
+∀j, M_j∈𝕄_chem,
+
+Ω_plan≠∅,
+
+𝓟_min^A\>0,
+
+δ(∂Ω_A)\<Λ_A,
+
+ℛ_A\<Λ_A,
+
+Δ𝓗_A∈𝓢_disc^A,
+
+𝓕\_∂^{grav,A}\>𝒬_A+ℛ_A,
+
+Id_atm(A)≠∅,
+
+𝓘_A≠∅,
+
+𝓔★(Γ_U)=0.
+
+**Demostración**
+
+La condición:
+
+∀j, M_j∈𝕄_chem
+
+garantiza que la atmósfera parte de moléculas admisibles.
+
+La condición:
+
+Ω_plan≠∅
+
+garantiza dominio planetario.
+
+La condición:
+
+𝓟_min^A\>0
+
+garantiza persistencia atmosférica macroscópica.
+
+La condición:
+
+δ(∂Ω_A)\<Λ_A
+
+garantiza frontera atmosférica compatible.
+
+La condición:
+
+ℛ_A\<Λ_A
+
+impide que el residual atmosférico destruya identidad.
+
+La condición:
+
+Δ𝓗_A∈𝓢_disc^A
+
+garantiza intercambio energético compatible.
+
+La condición:
+
+𝓕\_∂^{grav,A}\>𝒬_A+ℛ_A
+
+garantiza retención planetaria frente a dispersión.
+
+La condición:
+
+Id_atm(A)≠∅
+
+certifica identidad atmosférica diferenciada.
+
+La condición:
+
+𝓘_A≠∅
+
+garantiza invariantes atmosféricos mínimos.
+
+Finalmente:
+
+𝓔★(Γ_U)=0
+
+certifica compatibilidad universal.
+
+Luego A pertenece a 𝔄_plan.
+
+∎
+
+**20.9. Caso particular: atmósfera terrestre**
+
+La atmósfera terrestre se toma como caso particular por su estabilidad
+macroscópica, composición molecular diferenciada, retención planetaria,
+intercambio radiativo, presencia de vapor de agua y papel estructural en
+la persistencia superficial del dominio terrestre.
+
+Se expresa como:
+
+A_Tierra
+
+=
+
+Comp_atm(N₂,O₂,Ar,CO₂,H₂O,...;Ω_Tierra).
+
+Su admisibilidad exige:
+
+A_Tierra∈𝔄_plan
+
+⇔
+
+𝓝★\[
+
+N₂∈𝕄_chem,
+
+O₂∈𝕄_chem,
+
+Ar∈𝕋_chem,
+
+CO₂∈𝕄_chem,
+
+H₂O∈𝕄_chem,
+
+Ω_Tierra≠∅,
+
+𝓟_min^{A_Tierra}\>0,
+
+δ(∂Ω\_{A_Tierra})\<Λ\_{A_Tierra},
+
+ℛ\_{A_Tierra}\<Λ\_{A_Tierra},
+
+Δ𝓗\_{A_Tierra}∈𝓢_disc^{A_Tierra},
+
+𝓕\_∂^{grav,Tierra}\>𝒬\_{atm}+ℛ\_{atm},
+
+Id_atm(A_Tierra)≠∅,
+
+𝓘\_{A_Tierra}≠∅,
+
+𝓔★(Γ_U)=0
+
+\]=1.
+
+La atmósfera terrestre no se interpreta como depósito pasivo de gases.
+
+Se interpreta como:
+
+régimen macroscópico persistente
+
+de composición molecular retenida,
+
+frontera planetaria compatible,
+
+intercambio energético no destructivo
+
+y residual dinámico acotado.
+
+**20.10. Tierra, agua y atmósfera**
+
+La presencia de agua introduce una conexión directa entre el Anexo IV y
+el Anexo V.
+
+El agua:
+
+H₂O∈𝕄_chem
+
+puede intervenir en el dominio atmosférico como vapor, condensado o
+componente de ciclo.
+
+Sin embargo, la atmósfera terrestre no se reduce al agua.
+
+Tampoco el agua atmosférica se reduce a mera molécula aislada.
+
+En el régimen atmosférico, H₂O participa dentro de una composición
+superior:
+
+H₂O ∈ A_Tierra.
+
+Su papel atmosférico exige compatibilidad adicional con:
+
+- temperatura estructural;
+
+- frontera planetaria;
+
+- intercambio radiativo;
+
+- condensación;
+
+- circulación;
+
+- residual dinámico;
+
+- y persistencia macroscópica.
+
+Así, el agua funciona como puente entre:
+
+molécula
+
+y:
+
+atmósfera.
+
+**20.11. Teorema de la atmósfera terrestre como régimen persistente**
+
+**Teorema 20.2**
+
+La atmósfera terrestre constituye régimen atmosférico persistente si y
+sólo si satisface:
+
+∀M_j∈A_Tierra, M_j∈𝕄_chem ∪ 𝕋_chem,
+
+Ω_Tierra≠∅,
+
+𝓟_min^{A_Tierra}\>0,
+
+δ(∂Ω\_{A_Tierra})\<Λ\_{A_Tierra},
+
+ℛ\_{A_Tierra}\<Λ\_{A_Tierra},
+
+𝓕\_∂^{grav,Tierra}\>𝒬\_{atm}+ℛ\_{atm},
+
+Id_atm(A_Tierra)≠∅,
+
+𝓘\_{A_Tierra}≠∅,
+
+𝓔★(Γ_U)=0.
+
+**Demostración**
+
+La pertenencia de los componentes moleculares o atómicos al dominio
+químico garantiza base compositiva admisible.
+
+La existencia de Ω_Tierra garantiza dominio planetario.
+
+La condición:
+
+𝓟_min^{A_Tierra}\>0
+
+garantiza persistencia atmosférica.
+
+La condición:
+
+δ(∂Ω\_{A_Tierra})\<Λ\_{A_Tierra}
+
+garantiza frontera atmosférica compatible.
+
+La condición:
+
+ℛ\_{A_Tierra}\<Λ\_{A_Tierra}
+
+impide que el residual destruya identidad atmosférica.
+
+La condición:
+
+𝓕\_∂^{grav,Tierra}\>𝒬\_{atm}+ℛ\_{atm}
+
+garantiza retención planetaria suficiente.
+
+La condición:
+
+Id_atm(A_Tierra)≠∅
+
+distingue atmósfera persistente de dispersión gaseosa transitoria.
+
+La condición:
+
+𝓘\_{A_Tierra}≠∅
+
+garantiza invariantes atmosféricos.
+
+Finalmente:
+
+𝓔★(Γ_U)=0
+
+garantiza compatibilidad universal.
+
+Luego la atmósfera terrestre constituye régimen atmosférico persistente.
+
+∎
+
+**20.12. Resultado del Anexo V**
+
+La formación atmosférica queda formulada como composición macroscópica
+admisible de moléculas persistentes sobre un dominio planetario.
+
+Su fórmula absoluta es:
+
+𝔄_plan
+
+=
+
+{A :
+
+𝓝★\[
+
+A=Comp_atm(M_1,...,M_k;Ω_plan),
+
+∀j,M_j∈𝕄_chem,
+
+Ω_plan≠∅,
+
+𝓟_min^A\>0,
+
+δ(∂Ω_A)\<Λ_A,
+
+ℛ_A\<Λ_A,
+
+Δ𝓗_A∈𝓢_disc^A,
+
+𝓕\_∂^{grav,A}\>𝒬_A+ℛ_A,
+
+Id_atm(A)≠∅,
+
+𝓘_A≠∅,
+
+𝓔★(Γ_U)=0
+
+\]=1}.
+
+La atmósfera queda definida como:
+
+identidad macroscópica persistente,
+
+formada por composición molecular admisible,
+
+retenida por frontera planetaria compatible,
+
+con residual dinámico acotado,
+
+intercambio energético no destructivo
+
+y legitimidad universal.
+
+La atmósfera terrestre representa un caso particular canónico.
+
+No clausura la teoría atmosférica.
+
+La inaugura en un régimen físico planetario observable.
+
+
+# 21. Laboratorio reproducible integral: tabla periódica, moléculas y atmósferas
+
+## 21.1. Finalidad
+
+El laboratorio integral verifica la coherencia operatoria de la cadena desarrollada en la publicación:
 
 ```text
-Ξ_H,SV = configuración mínima estable.
+persistencia energética → átomo → tabla periódica → molécula → atmósfera.
 ```
 
-Tras el teorema, la identificación es
+Su objetivo no consiste en sustituir la química computacional ni la física atómica de precisión. Su función es comprobar que las fórmulas estructurales formuladas en el documento pueden aplicarse de extremo a extremo sin contradicción interna, con residual explícito, frontera declarada, identidad diferenciada, compuerta universal y dictamen conservador `U` cuando no haya base suficiente.
+
+## 21.2. Regeneración de los elementos conocidos
+
+El laboratorio contiene `laboratorios/data/elementos_iupac_1_118.csv` con los 118 elementos de `Z=1` a `Z=118`. Para cada elemento se calcula:
 
 ```text
-Ξ_H,SV = configuración mínima estable, protocampal, basal, campal y angularmente fiel.
+Cond_chem(E_Z)=𝓝★[𝓟_min^Z>0, δ(∂Ω_Z)<Λ_Z, ℛ_Z<Λ_Z, Δ𝓗_Z∈𝓢_disc^Z, Id_chem(E_Z)≠∅, 𝓔★(Γ_U)=0].
 ```
 
-La condición 13 del Teorema H-ID-U (régimen angular fiel cuando la trayectoria lo exija) incorpora explícitamente la admisibilidad angular como propiedad estructural del hidrógeno.
+La prueba exige que todo elemento conocido produzca dictamen `ELEMENTO_ADMISIBLE`. Si un elemento conocido no pasa, el laboratorio falla.
 
-### 9.6. Aplicación a las trayectorias canónicas
+## 21.3. No clausura estructural
 
-Las diez trayectorias canónicas del apartado 12 quedan candidatas a clasificación por régimen angular cuando proceda. Las rutas donde el régimen angular puede ser estructuralmente relevante son: ionización, recombinación, formación H₂, plasma, interacción con radiación, trayectorias de enlace y rutas isotópicas con subdominio nuclear explícito. La asignación específica de cada trayectoria a un régimen R₀, R₁, R₂ o R₂★ depende del χ_c operativo de la trayectoria y queda como objeto del banco numérico subsiguiente.
+Los candidatos por encima de `Z=118` no se declaran falsos por ausencia de incorporación empírica ni verdaderos por extrapolación formal. Su dictamen correcto es `U` hasta nueva verificación material.
 
----
-## 10. Metrología factual del dominio hidrógeno
+## 21.4. Banco demostrativo
 
-### 10.1. Estatuto
+El fichero `laboratorios/data/banco_demostrativo_12_casos.csv` contiene casos de estrés: Hidrógeno, Oxígeno, Hierro, Uranio, Oganesón, Elemento 119, Agua, Dióxido de carbono, Metano, Ozono, Atmósfera terrestre y Atmósfera no retenida.
 
-La metrología del Sistema Vectorial SV opera sobre el dominio hidrógeno tras el cierre de la identificación del Teorema H-ID-U. Su función es estrictamente subordinada: mide, normaliza y vuelve cotejable con la práctica científica heredada, pero no participa en la génesis, no actúa como campo y no entra en la identificación. Por la compuerta de admisibilidad de campos del apartado 4.1, los seis primitivos metrológicos llevan lectura Σ = 0 y se autorizan exclusivamente como herramientas de medida.
-
-La regla operativa es
+## 21.5. Fórmulas implementadas
 
 ```text
-primero dimensión SV;
-después, si procede, equivalencia externa;
-nunca SI como fundamento;
-nunca primitivo como campo;
-nunca metrología como génesis.
+𝓟_min = 𝓕_∂ − 𝒬 − ℛ.
+E_Z∈𝕋_chem ⇔ Cond_chem(E_Z)=1.
+M∈𝕄_chem ⇔ Cond_mol(M)=1.
+A∈𝔄_plan ⇔ Cond_atm(A)=1.
 ```
 
-F₀ permanece estructuralmente fuera de los primitivos metrológicos: no es magnitud física sino condición formal mínima de definibilidad. La metrología comparece después de que el dominio ha sido abierto por la cadena del apartado 5; no antes. La condición 15 del Teorema H-ID-U declara la subordinación operativa: la metrología expresa, no funda.
+Todas las capas exigen `𝓔★(Γ_U)=0`.
 
-### 10.2. Los seis primitivos metrológicos
+## 21.6. Ejecución
 
-| Símbolo | Nombre completo | Magnitud que mide |
-|:---:|:---|:---|
-| UE_MFC | Unidad Elemental del Medidor Factual de Ciclo | Periodo de suceso |
-| UFE | Unidad Factual de Extensión | Extensión y longitud |
-| UFM | Unidad Factual de Masa | Masa de configuración |
-| UFC | Unidad Factual de Corriente | Corriente electromagnética |
-| UFT | Unidad Factual de Temperatura | Temperatura de fase |
-| UFCE | Unidad Factual de Cantidad de Entidad | Cantidad de configuración |
-
-Los seis primitivos son operativamente independientes: ninguno se reduce a combinación de los otros cinco dentro del aparato del Sistema Vectorial SV.
-
-### 10.3. Magnitudes derivadas del dominio hidrógeno
-
-**Masa.** La masa de las configuraciones del hidrógeno se expresa unívocamente en UFM:
-
-```math
-[M_H] = [M_{H_2}] = [M_D] = [M_T] = [M_{H_2O}] = \mathrm{UFM}.
+```bash
+cd laboratorios
+python runner.py
 ```
 
-**Extensión, volumen y densidad.** Las magnitudes geométricas se expresan como:
+Resultado esperado:
 
-```math
-[L] = \mathrm{UFE}, \qquad [V] = \mathrm{UFE}^3, \qquad [\rho_M] = \mathrm{UFM} \cdot \mathrm{UFE}^{-3}.
+```text
+118/118 elementos conocidos regenerados como ELEMENTO_ADMISIBLE.
+12/12 casos demostrativos dictaminados según expectativa.
+0 pases silenciosos.
+0 cierres favorables por ausencia de prueba.
 ```
-
-**Cantidad de entidad.** La cantidad operativa se expresa en:
-
-```math
-[N_f] = \mathrm{UFCE}.
-```
-
-**Carga y corriente.** La corriente usa UFC, y la carga se expresa como:
-
-```math
-[Q_c] = \mathrm{UFC} \cdot \mathrm{UE\_MFC}.
-```
-
-**Energía, trabajo, calor y entalpía.** Una vez constituido el dominio, estas magnitudes se expresan como:
-
-```math
-[E_f] = [W_f] = [Q_f] = [H_{\mathrm{ent},f}] = \mathrm{UFM} \cdot \mathrm{UFE}^2 \cdot \mathrm{UE\_MFC}^{-2}.
-```
-
-Estas magnitudes no existen antes de ε₀: comparecen como magnitudes del dominio ya abierto.
-
-**Entropía.** La entropía se expresa como
-
-```math
-H_{SV}(\Gamma_H, n)
-```
-
-como magnitud global de trayectoria, acumulativa sobre posiciones y sucesos. No es entropía estadística ni probabilidad: es agregación operativa sobre la cadena Γ_H.
-
-**Temperatura, presión y densidad de fase.** Las magnitudes termodinámicas se expresan como:
-
-```math
-[T_f] = \mathrm{UFT}, \qquad [P_f] = \mathrm{UFM} \cdot \mathrm{UFE}^{-1} \cdot \mathrm{UE\_MFC}^{-2}, \qquad [\rho_{\mathrm{phase}}] = \mathrm{UFM} \cdot \mathrm{UFE}^{-3}.
-```
-
-### 10.4. Principio de subordinación del SI
-
-El Sistema Internacional comparece exclusivamente como equivalencia externa cotejable, nunca como fundamento metrológico.
-
----
-
-## 11. Mapa configuracional del dominio
-
-### 11.1. Estatuto
-
-Las configuraciones del hidrógeno son lecturas derivadas de Ξ_H,SV. Ninguna configuración se acepta por nombre químico heredado: cada configuración debe trazar su origen a la identificación del Teorema H-ID-U y satisfacer las condiciones específicas de su clase derivada.
-
-### 11.2. Núcleo directo del dominio
-
-**Hidrógeno atómico H_SV.** Lectura basal mínima de Ξ_H,SV. Exige procedencia desde Ξ_H,SV, compatibilidad con sector basal m₀, polaridad no degenerada, gobierno campal, metrología SV y preservación de U cuando la clausura no es completa.
-
-**Catión hidrógeno H⁺_SV.** Configuración cargada derivada, no protón presupuesto. Requiere conservación de carga, compatibilidad con campo eléctrico, residual de ionización y dictamen.
-
-**Anión hidruro H⁻_SV.** Configuración derivada con excedente de carga negativa. Requiere polaridad negativa no degenerada, conservación de carga, estabilidad residual y firma diferenciada respecto de H_SV y H⁺_SV.
-
-**Hidrógeno molecular H₂_SV.** Duplicación estructural estable de dos configuraciones H_SV. La ruta asociada es
-
-```math
-H_{SV} + H_{SV} \to H_{2,SV}
-```
-
-y exige duplicación sin destrucción, canal compartido, residual de enlace, energía de enlace, concentración, dictamen y régimen angular fiel si la estructura del enlace lo exige.
-
-### 11.3. Subdominio isotópico
-
-**Deuterio D_SV y tritio T_SV.** Configuraciones isotópicas, no fases. Exigen subdominio nuclear, variación de masa basal, preservación de identidad hidrógeno, conservación de carga compatible y residual nuclear.
-
-### 11.4. Subdominio de fase
-
-**H₂(g)_SV, H₂(l)_SV, H₂(s)_SV.** Estados configuracionales de H₂_SV bajo condiciones de concentración, presión, temperatura y densidad. Cada estado exige metrología SV completa de la fase y residual termodinámico.
-
-**Plasma de hidrógeno.** Régimen de ionización colectiva con predominio electromagnético, no fase ordinaria. Exige declaración de densidad de carga, densidad de corriente, campo eléctrico, campo magnético, conductividad, residual electromagnético, régimen angular si procede y dictamen.
-
-### 11.5. Configuración compuesta y configuraciones asociadas
-
-**Agua H₂O_SV.** Configuración compuesta de ruta, no fundamento. Comparece en trayectorias específicas (combustión, electrólisis, recombinación) y exige balance completo de configuraciones constituyentes.
-
-**Oxígeno y ozono O₂_SV, O₃_SV.** Configuraciones asociadas que comparecen cuando las rutas del hidrógeno lo exigen (combustión H₂ + O₂, electrólisis H₂O), no derivaciones del hidrógeno como génesis propia.
-
-### 11.6. Síntesis del mapa configuracional
-
-| Subdominio | Configuraciones |
-|:---|:---|
-| Núcleo directo | H_SV, H⁺_SV, H⁻_SV, H₂_SV |
-| Subdominio isotópico | D_SV, T_SV |
-| Subdominio de fase | H₂(g)_SV, H₂(l)_SV, H₂(s)_SV, plasma |
-| Configuración compuesta | H₂O_SV |
-| Configuraciones asociadas | O₂_SV, O₃_SV |
-
-El mapa contiene trece configuraciones derivadas del hidrógeno, todas trazando su origen a Ξ_H,SV por la cadena del Teorema H-GEN-U y satisfaciendo la identificación transitiva del Corolario H-ID-U.1.
-
----
-
-## 12. Trayectorias canónicas iniciales
-
-### 12.1. Estatuto
-
-Toda configuración del dominio hidrógeno debe comparecer en trayectoria. Sin trayectoria no hay evaluación del Sistema Vectorial SV; sin residual no hay dictamen; sin frontera no hay cierre; sin metrología SV no hay magnitud legítima. La forma general de una trayectoria del hidrógeno es
-
-```math
-\Gamma_H = (S_0, \nu_0, S_1, \nu_1, \ldots, S_n),
-```
-
-donde los S_i son configuraciones del dominio (estados sucesivos) y los ν_i son índices de suceso. El índice ν no es tiempo soberano: es índice de cadena que ordena los sucesos sin presuponer cronología física.
-
-### 12.2. Las diez trayectorias canónicas
-
-**T1 — Formación molecular.**
-
-```math
-\Gamma_{H_2}^{\mathrm{form}} : \quad H_{SV} + H_{SV} \to H_{2,SV}.
-```
-
-Evalúa cantidad de entidad, masa, energía de enlace, entropía, residual de enlace, canal compartido, régimen angular si procede y dictamen.
-
-**T2 — Disociación molecular.**
-
-```math
-\Gamma_{H_2}^{\mathrm{dis}} : \quad H_{2,SV} \to 2 H_{SV}.
-```
-
-No es inversa automática de la formación: se evalúa por trayectoria, energía, entropía, residual y dictamen propios.
-
-**T3 — Ionización.**
-
-```math
-\Gamma_H^{\mathrm{ion}} : \quad H_{SV} \to H_{SV}^+ + e_{SV}^-.
-```
-
-El electrón comparece como lectura electromagnética derivada, no como fundamento. La ruta exige conservación de carga, densidad de carga, densidad de corriente, campo eléctrico, campo magnético, energía de ionización, residual y dictamen.
-
-**T4 — Recombinación.**
-
-```math
-\Gamma_H^{\mathrm{rec}} : \quad H_{SV}^+ + e_{SV}^- \to H_{SV}.
-```
-
-No es inversa perfecta de la ionización: se evalúa por conservación de carga, energía, residual y canal de retorno.
-
-**T5 — Combustión.**
-
-```math
-\Gamma_{H_2/O_2}^{\mathrm{comb}} : \quad 2 H_{2,SV} + O_{2,SV} \to 2 H_2 O_{SV} + Q_f.
-```
-
-Es reconfiguración, no fórmula externa autosuficiente. Requiere balance de entidad, masa, energía, calor Q_f, entalpía, entropía, residual y dictamen.
-
-**T6 — Electrólisis.**
-
-```math
-\Gamma_{H_2 O}^{\mathrm{elec}} : \quad 2 H_2 O_{SV} + W_{el,f} \to 2 H_{2,SV} + O_{2,SV}.
-```
-
-No es combustión invertida: requiere trabajo eléctrico W_{el,f}, conservación de carga, campo eléctrico, corriente, residual de ruptura molecular y dictamen.
-
-**T7 — Licuefacción.**
-
-```math
-\Gamma_{H_2}^{\mathrm{liq}} : \quad H_{2,SV}(g) \to H_{2,SV}(l).
-```
-
-Exige temperatura, presión, densidad, calor extraído, trabajo de compresión, entropía, residual criogénico y dictamen.
-
-**T8 — Vaporización.**
-
-```math
-\Gamma_{H_2}^{\mathrm{vap}} : \quad H_{2,SV}(l) \to H_{2,SV}(g).
-```
-
-No es inversa automática de la licuefacción: se evalúa por calor incorporado, cambio de densidad, entropía, residual y dictamen.
-
-**T9 — Plasma.**
-
-```math
-\Gamma_H^{\mathrm{plasma}} : \quad H_{SV} \to H_{SV}^+ + e_{SV}^- \quad \text{en régimen colectivo}.
-```
-
-Predomina el régimen electromagnético. Exige declaración de densidad de carga, densidad de corriente, campo eléctrico, campo magnético, conductividad, residual electromagnético, régimen angular si procede y dictamen.
-
-**T10 — Rutas isotópicas.**
-
-```math
-\Gamma_{H/D/T}^{\mathrm{iso}} : \quad H_{SV} \to D_{SV} \to T_{SV}.
-```
-
-Pertenecen al subdominio nuclear, no al de fases. No deben mezclarse con fases de H₂ ni con configuraciones moleculares.
-
-### 12.3. Matriz de registro de trayectoria
-
-Cada trayectoria canónica debe registrar operativamente:
-
-| Campo de registro | Contenido |
-|:---|:---|
-| Identificador | T1 a T10 |
-| Configuración inicial | S₀ |
-| Configuración final | S_n |
-| Campos Σ = 1 activos | Sectores presentes en la ruta |
-| Herramientas Σ = 0 usadas | Recursos del dominio sin contribución directa |
-| Régimen angular | R₀ / R₁ / R₂ / R₂★ si procede |
-| Magnitudes SV | Valores en los seis primitivos |
-| Frontera | Cierre de la trayectoria |
-| Residual | Diferencia entre estado terminal y reconfiguración esperada |
-| Dictamen local | APTO / NO APTO de la trayectoria |
-| Relación con rutas asociadas | Conexión con otras trayectorias |
-| Estado de cotejo externo | Pendiente / cotejado / sin equivalencia |
-
----
-
-## 13. Ejemplo trabajado de los teoremas por exclusión
-
-### 13.1. Estatuto del ejemplo
-
-Los teoremas H-GEN-U y H-ID-U operan por exclusión exhaustiva de alternativas. La verificación operativa de los teoremas consiste en confirmar que cada alternativa es efectivamente refutada por al menos uno de los principios constitutivos del aparato del Sistema Vectorial SV. El ejemplo trabajado del apartado recorre paso a paso la refutación de las seis alternativas del Teorema H-GEN-U sobre un candidato hipotético específico.
-
-### 13.2. Configuración del ejemplo
-
-Sea un candidato hipotético X que aspira a ser identificado como hidrógeno dentro del Sistema Vectorial SV. Sobre el candidato X se evalúan sucesivamente las seis vías alternativas del origen y se confirma su refutación.
-
-### 13.3. Refutación 1 — Origen como entidad química externa
-
-Hipótesis: X = átomo de hidrógeno presupuesto como entidad química primitiva.
-
-Evaluación: la hipótesis introduce un objeto químico (átomo) antes de F₀, ε₀, Ω_pre, U, Ω_pro, Σ, sucesos generadores y protocampos. La introducción contradice el principio constitutivo P1 del aparato del SV: la primacía estructural del suceso cero ε₀ sobre cualquier objeto químico. La hipótesis queda refutada por P1.
-
-Verificación operativa: comparecencia del objeto químico antes del paso 4 de la cadena del bloque I es estructuralmente inadmisible.
-
-Dictamen: refutación 1 confirmada.
-
-### 13.4. Refutación 2 — Origen como campo aislado
-
-Hipótesis: X = manifestación de un campo eléctrico aislado.
-
-Evaluación: la hipótesis presupone sustrato sobre el cual el campo se despliega, pero los campos pertenecen al régimen desplegado tras la apertura del dominio Ω_pre por el suceso cero ε₀. La hipótesis contradice el principio constitutivo P2: los campos no sustituyen al suceso cero como causa soberana.
-
-Verificación operativa: el campo presupone aparato ya constituido por la cadena del bloque I y no puede comparecer como génesis estructural.
-
-Dictamen: refutación 2 confirmada.
-
-### 13.5. Refutación 3 — Origen como metrología
-
-Hipótesis: X = magnitud SI (masa atómica 1,008 u, energía de ionización 13,6 eV).
-
-Evaluación: la hipótesis introduce magnitudes constituidas antes del suceso cero ε₀, pero antes de ε₀ no hay magnitud constituida. La metrología mide configuraciones del dominio abierto: no origina configuraciones. La hipótesis contradice el principio constitutivo P3.
-
-Verificación operativa: las magnitudes 1,008 u y 13,6 eV son cotejables externamente sólo después de la apertura del dominio y de la metrología SV completa, nunca como fundamento previo.
-
-Dictamen: refutación 3 confirmada.
-
-### 13.6. Refutación 4 — Origen como probabilidad
-
-Hipótesis: X = distribución probabilística sobre el espacio de configuraciones.
-
-Evaluación: la hipótesis presupone espacio muestral previo y aparato de medida ya constituido sobre el cual la probabilidad opere. Adicionalmente, la marca U del Sistema Vectorial SV no es probabilidad: es preservación honesta de no-clausura. Identificar U con probabilidad reduciría la marca operativa a una distribución, lo cual contradice el principio constitutivo P4.
-
-Verificación operativa: la regla de Born del formalismo cuántico no comparece dentro del aparato del SV como fundamento ni como derivación admisible.
-
-Dictamen: refutación 4 confirmada.
-
-### 13.7. Refutación 5 — Origen como tiempo soberano
-
-Hipótesis: X = primer instante temporal posterior al Big Bang (t = 0, t = 10⁻⁴³ s, t = 380 000 años de recombinación).
-
-Evaluación: la hipótesis presupone contenedor temporal previo al suceso cero, pero la cadena fundacional del SV es dependencia formal de legitimidad estructural, no cronología física. El suceso cero ε₀ no es primer instante temporal sino apertura estructural sin antecedente cronológico. La hipótesis contradice el principio constitutivo P5.
-
-Verificación operativa: los marcadores temporales heredados del modelo cosmológico estándar (t = 10⁻⁴³ s, t = 380 000 años) no son sustrato del aparato del SV; son referencias externas posteriores cotejables, no fundamento.
-
-Dictamen: refutación 5 confirmada.
-
-### 13.8. Refutación 6 — Origen como operador nuevo no canonizado
-
-Hipótesis: X = manifestación de un operador hipotético G_X no contemplado por el aparato del Sistema Vectorial SV.
-
-Evaluación: la hipótesis exige cuatro requisitos que el operador debe satisfacer:
-1. construcción explícita;
-2. independencia estructural respecto a los operadores ya canonizados;
-3. compatibilidad mutua con los operadores del corpus;
-4. conformidad con las prohibiciones canónicas del SV (sin probabilidad fundante, sin tiempo soberano, sin SI como suelo, sin energía previa).
-
-Si G_X cumple los cuatro, debe pasar por el procedimiento de canonización del corpus, lo cual lo subordina a la cadena fundacional ya establecida por F₀, ε₀, Ω_pre. Si G_X no cumple uno de los cuatro, queda automáticamente excluido. En cualquier caso, la hipótesis no produce origen alternativo a la cadena fundacional única.
-
-Verificación operativa: ningún operador alternativo escapa a la disyuntiva subordinación-exclusión.
-
-Dictamen: refutación 6 confirmada.
-
-### 13.9. Síntesis del ejemplo
-
-Las seis vías alternativas del origen del hidrógeno quedan refutadas individualmente sobre el candidato hipotético X. La síntesis confirma que el Teorema H-GEN-U cierra la unicidad del origen: la única vía admisible es la cadena fundacional-protocampal F₀ → ε₀ → Ω_pre → ⋯ → Ξ_H,SV, sin alternativa estructuralmente distinta.
-
-| Refutación | Hipótesis | Principio que la refuta | Dictamen |
-|:---:|:---|:---|:---:|
-| 1 | entidad química externa | P1 (primacía de ε₀) | confirmada |
-| 2 | campo aislado | P2 (campos posteriores a Ω_pre) | confirmada |
-| 3 | magnitud SI | P3 (metrología no origina) | confirmada |
-| 4 | probabilidad | P4 (U no es probabilidad) | confirmada |
-| 5 | tiempo soberano | P5 (cadena no es cronología) | confirmada |
-| 6 | operador no canonizado | P6 (subordinación o exclusión) | confirmada |
-
-Las seis confirmaciones cierran la verificación del Teorema H-GEN-U sobre el ejemplo. El Laboratorio 1 implementa el verificador computacional automatizado de las seis refutaciones.
-
----
-## 14. Lectura estructural y puente con la termodinámica factual
-
-La articulación de los apartados 5 a 13 establece el aparato fundacional del hidrógeno dentro del Sistema Vectorial SV: cadena única de veinticinco pasos, cuatro teoremas centrales con demostración por exclusión, metrología con seis primitivos, mapa con trece configuraciones derivadas, diez trayectorias canónicas iniciales y verificador operativo del Teorema H-GEN-U sobre las seis vías alternativas.
-
-La lectura estructural del armazón completo es la siguiente: el hidrógeno del SV no es átomo dado, no es par protón-electrón, no es magnitud SI, no es probabilidad cuántica, no es objeto del tiempo cronológico cosmológico ni objeto de un campo aislado. Es configuración mínima estable, basal, campal, angularmente fiel y medible por metrología SV, con origen único en la cadena fundacional que abre el suceso cero ε₀ y se desarrolla por los pasos 5 a 23 del bloque II hasta producir Ξ_H,SV.
-
-El puente con la termodinámica del hidrógeno opera sobre las trayectorias canónicas del apartado 12 con las magnitudes operativas del apartado 10. Energía de ionización, energía de enlace H-H, calor de combustión, trabajo de electrólisis, entropía de fase, balance entálpico de licuefacción y vaporización son magnitudes derivadas que el desarrollo termodinámico subsiguiente articulará sobre las trayectorias T1 a T10 con valores numéricos específicos en los seis primitivos UE_MFC, UFE, UFM, UFC, UFT, UFCE.
-
-La continuidad operativa del corpus garantiza que el desarrollo termodinámico subsiguiente herede sin ruptura la cadena fundacional, los cuatro teoremas centrales, la metrología SV (en su lectura Σ = 0 como herramienta de medida) y el mapa configuracional. La inscripción serial es continua: el documento del hidrógeno preserva todos los teoremas y absorciones precedentes (E₀ = m₀c² como sector basal m₀ con lectura Σ = 1, Maxwell SV como gobierno electromagnético con lectura Σ = 1, luz con sus campos coexistentes Σ = 1 y su lectura espectral Σ = 0 disponible como proyección analítica para cotejo posterior, Bell-Tsirelson como aparato angular con C_SV(δ) = −cos δ y régimen R₀ / R₁ / R₂ / R₂★) y los integra como apoyaturas estructurales del aparato propio cuando su lectura es Σ = 1, o como herramientas de cotejo cuando su lectura es Σ = 0.
-
----
-
-## 15. Comparación con lecturas alternativas del hidrógeno
-
-La articulación del hidrógeno dentro del Sistema Vectorial SV se compara operativamente con cuatro lecturas alternativas heredadas de la práctica científica externa.
-
-**Lectura cuántica estándar.** La mecánica cuántica del átomo de Schrödinger trata al hidrógeno como sistema de un electrón en potencial coulombiano del protón, con espectro de energías discretas E_n = −13,6 eV / n² obtenido por solución de la ecuación de Schrödinger. La lectura es operativamente exitosa para predicción de líneas espectrales (Lyman, Balmer, Paschen, Brackett, Pfund) y para descripción del estado fundamental 1s¹. La articulación SV preserva exactos los resultados predictivos sobre el régimen propio de la espectroscopía atómica y simultáneamente recusa los supuestos: el protón y el electrón comparecen como lecturas electromagnéticas derivadas sobre la trayectoria T3 de ionización, no como entidades primitivas.
-
-**Lectura cosmológica.** El modelo ΛCDM trata al hidrógeno como producto de la nucleosíntesis primordial (formación de núcleos en los primeros tres minutos tras el Big Bang) y de la recombinación (formación de átomos neutros a t ≈ 380 000 años). La articulación SV recusa el tiempo cronológico como sustrato fundante y reemplaza la cosmología temporal por la cadena fundacional de dependencia formal: ε₀ no es primer instante temporal, sino apertura estructural sin cronología.
-
-**Lectura termoquímica.** La termoquímica industrial trata al H₂ como vector energético con entalpía de combustión 285,8 kJ/mol y energía de enlace 436 kJ/mol, magnitudes referenciadas al SI. La articulación SV preserva exactas las magnitudes numéricas como cotejos externos posteriores y las expresa primariamente en los seis primitivos del SV con equivalencias de cotejo que pertenecen al banco numérico subsiguiente.
-
-**Lectura espectroscópica.** La fórmula de Rydberg λ⁻¹ = R(1/n₁² − 1/n₂²) describe las líneas espectrales del hidrógeno con la constante de Rydberg R = 1,097 × 10⁷ m⁻¹. La articulación SV preserva la fórmula como predicción derivada del aparato angular heredado de Bell-Tsirelson aplicado a las transiciones electrónicas del hidrógeno y queda como objeto del desarrollo subsiguiente.
-
-| Lectura | Objeto primitivo | Marco | Cota o predicción | Estatuto SV |
-|:---|:---|:---|:---|:---|
-| Cuántica estándar | átomo con electrón en potencial | Hilbert + Born | E_n = −13,6 eV / n² | preservada como cotejo externo |
-| Cosmológica | núcleos en BB + recombinación | ΛCDM cronológico | t = 380 000 años | recusada en sustrato, preservada en datos |
-| Termoquímica | H₂ como mol portador | SI | ΔH = 285,8 kJ/mol | cotejable en cifra, recusada en suelo |
-| Espectroscópica | átomo emisor de líneas | Rydberg | R = 1,097·10⁷ m⁻¹ | derivable del aparato angular SV |
-| **SV ** | **Ξ_H,SV configuración mínima** | **determinista ternario** | **cadena fundacional única** | **operación propia del corpus** |
-
-La operación SV no contradice las cuatro lecturas heredadas en sus dominios respectivos: las subordina como cotejos externos tras la apertura del dominio y la articulación de la metrología SV, sin importarlas como fundamentos.
-
----
-
-## 16. Articulación filosófica
-
-La articulación filosófica del documento descansa sobre la dirección operativa del Sistema Vectorial SV: del sustrato a las manifestaciones, no de las manifestaciones al sustrato. La práctica científica heredada del hidrógeno opera en sentido inverso: parte de las manifestaciones experimentales (líneas espectrales, calores de combustión, masas atómicas) y reconstruye hacia atrás la entidad subyacente (átomo, par protón-electrón, niveles cuantizados). La operación del corpus opera en sentido contrario: el sustrato fundacional es la cadena F₀ → ε₀ → Ω_pre → ⋯ → Ξ_H,SV, y las manifestaciones (configuraciones derivadas, trayectorias canónicas, magnitudes metrológicas, líneas espectrales heredadas) son consecuencias operativas del sustrato.
-
-Esta dirección no es decoración filosófica: es la condición que habilita la unicidad demostrada por los Teoremas H-GEN-U y H-ID-U. Sin dirección sustrato → manifestaciones, la pregunta sobre la unicidad del origen del hidrógeno carecería de objeto: cada manifestación heredada (átomo, partícula, nivel, mol) sería candidata fundante. Con la dirección operativa del SV, la pregunta tiene respuesta única: la cadena fundacional es el único origen estructuralmente admisible.
-
-La operación es paralela en disciplina filosófica a las cinco absorciones precedentes del corpus: cuatro objetos canónicos clásicos (energía de reposo, ecuaciones de Maxwell, dualidad onda-corpúsculo de la luz, cotas de Bell y Tsirelson) quedan absorbidos como manifestaciones operativas del aparato del SV sin importarlos como fundamentos previos.
-
----
-
-## 17. Falsabilidad y predicción experimental
-
-El documento es falsable estructuralmente. Tres clases de fallo, si comparecen en la práctica del corpus, refutarían la articulación.
-
-**Clase 1 — Refutación de uno de los principios constitutivos.** Si se demostrase la existencia de una configuración del hidrógeno cuyo origen estructural no se trace a la cadena fundacional única (por ejemplo, una configuración con origen en magnitud SI primaria, en probabilidad fundante o en operador externo no subordinable), uno de los seis principios constitutivos quedaría refutado y, con él, el Teorema H-GEN-U.
-
-**Clase 2 — Quiebra de la fidelidad angular.** Si se demostrase la existencia de una trayectoria del hidrógeno cuya correlación angular operativa exigiese un correlador C(δ) ≠ −cos δ que sea estructuralmente fiel al aparato del SV, el Teorema H-ANG.1 quedaría refutado por contradicción con el Teorema 10.2.1 del documento Bell-Tsirelson previo.
-
-**Clase 3 — Anulación de clase.** Si se demostrase la existencia de un suceso actual donde toda forma directa o derivada del hidrógeno hubiese sido completamente anulada sin que la clase Ξ_H,SV se preservase en residuales, trayectorias o registros operativos, el Teorema H-SUM.1 quedaría refutado.
-
-Las tres clases de fallo son estructuralmente concebibles pero no se han observado dentro de la operación del corpus. Su no comparecencia operativa hasta la fecha es lo que sostiene el estatuto de los teoremas como demostrados por exclusión.
-
-**Predicción experimental subsiguiente.** El desarrollo termodinámico del hidrógeno articulará predicciones cuantitativas específicas: energía de ionización del H_SV en UFM·UFE²·UE_MFC⁻², energía de enlace H-H en H₂_SV, balance entálpico de combustión H₂ + O₂ → H₂O y de electrólisis inversa, entropía de las tres fases H₂(g), H₂(l), H₂(s), conductividad del plasma de hidrógeno y umbral crítico de ionización colectiva. Las predicciones cuantitativas serán cotejables externamente con los valores experimentales heredados, con asignación específica de régimen angular R₀ / R₁ / R₂ / R₂★ por trayectoria.
-
----
-
-## 18. Articulación con el corpus del Sistema Vectorial SV
-
-### 18.1. Inscripción serial
-
-El documento se inscribe en la operación serial del Sistema Vectorial SV como sexta absorción de un objeto canónico de la práctica científica externa al aparato propio del corpus. Las absorciones precedentes son:
-
-| N.º | Absorción | Documento del corpus | Operación |
-|:---:|:---|:---|:---|
-| 1 | E₀ = m₀c² | Lloret Egea (2026g) | sector basal de reposo |
-| 2 | Maxwell electromagnético | Lloret Egea (2026k) | ecuación única |
-| 3 | Luz | Lloret Egea (2026 — luz ) | objeto fibroso con quince proyecciones |
-| 4 | Bell y Tsirelson | Lloret Egea (2026 — bell-tsirelson) | aparato CHSH-SV con cuatro regímenes |
-| 5 | Teoría del TODO y de la NADA | Lloret Egea (2026 — todo-nada) | nivel trece de la cadena ascendente |
-| **6** | **Hidrógeno** | **Génesis del hidrógeno SV** | **génesis fundacional única** |
-
-### 18.2. Subsunción del aparato bajo la ecuación rectora
-
-La articulación cuantitativa del documento del hidrógeno con el operador maestro absoluto unificado del nivel trece del corpus es la siguiente: el aparato fundacional del hidrógeno (cadena de veinticinco pasos, cuatro teoremas, metrología, configuraciones, trayectorias) queda subsumido como manifestación operativa del operador maestro
-
-```math
-\mathfrak{U}^{\mathrm{nif}}_{SV}
-```
-
-mediante la equivalencia operativa con la ecuación rectora
-
-```math
-\mathcal{E}^{\star}_{\mathrm{TODO}, SV}(\Gamma_U; \tau) = 0
-```
-
-del documento todo-nada del corpus. La subsunción es paralela en disciplina a la del Teorema 17.2.1 del documento Bell-Tsirelson previo: el aparato fundacional del hidrógeno opera como articulación de las manifestaciones del operador maestro sobre el sector específico del dominio Ω_pre^H del corpus.
-
-### 18.3. Continuidad operativa con absorciones precedentes
-
-La continuidad opera específicamente sobre cinco apoyaturas estructurales. El sector basal m₀ del documento E₀ = m₀c² (lectura Σ = 1) comparece como condición 7 del Teorema H-ID-U. El gobierno electromagnético del documento Maxwell SV (lectura Σ = 1) comparece como condición 8 del Teorema H-ID-U. La lectura espectral del documento luz, en cuanto herramienta auxiliar del corpus con lectura Σ = 0, no comparece como campo generador ni como condición de identificación; podrá emplearse después como proyección analítica para cotejar transiciones electrónicas del hidrógeno con la fórmula de Rydberg y las series espectrales heredadas, pero queda estrictamente fuera de la cadena fundacional y del Teorema H-ID-U. El aparato angular con C_SV(δ) = −cos δ del documento Bell-Tsirelson comparece como Teorema H-ANG.1 directamente. La ecuación rectora del documento todo-nada subsume el aparato fundacional del hidrógeno en el nivel trece.
-
----
-
-## 19. Conclusión
-
-El documento ha articulado la génesis factual del hidrógeno dentro del Sistema Vectorial SV como cadena fundacional única de veinticinco pasos que precede al átomo químico, al protón, al electrón, a la magnitud SI, a la energía previa, al campo físico aislado y al tiempo soberano. Sobre el armazón se han demostrado cuatro teoremas centrales por exclusión exhaustiva: el Teorema H-GEN-U sobre la unicidad del origen, el Teorema H-SUM.1 sobre la no anulación de la suma primigenia–actual, el Teorema H-ID-U sobre la unicidad de identificación bajo quince condiciones operativas conjuntas y el Teorema H-ANG.1 sobre la admisibilidad angular del hidrógeno bajo la fidelidad mínima k = 1 heredada del aparato CHSH-SV. El documento ha articulado la compuerta de admisibilidad de campos del Sistema Vectorial SV: sólo elementos del catálogo con lectura Σ = 1 operan como campos generadores; los elementos con lectura Σ = 0 (seis primitivos metrológicos, lectura espectral o generatriz, variable compleja auxiliar, sensibilidad, jacobiano) son herramientas auxiliares y nunca participan en la génesis ni en la identificación. Las magnitudes del dominio quedan medibles y expresables en seis primitivos operativos sin SI como suelo, en función estrictamente subordinada de medida. El mapa configuracional contempla trece configuraciones derivadas distribuidas en cuatro subdominios (núcleo directo, isotópico, de fase, compuestos asociados). Las diez trayectorias canónicas iniciales articulan la producción derivada actual del hidrógeno sobre el dominio abierto.
-
-La articulación serial con el corpus es continua y explícita sobre cinco absorciones precedentes (E₀ = m₀c², Maxwell, luz, Bell-Tsirelson, todo-nada). El documento opera como sexta inscripción del corpus en la cadena de absorciones canónicas: del aparato matemático fundacional del Sistema Vectorial SV al dominio del hidrógeno como configuración mínima estable, basal, campal, angularmente fiel y medible por metrología SV.
-
-Q.E.D.
-
-### 19.1. Tabla síntesis de la cadena fundacional
-
-| Bloque | Pasos | Estatuto operativo |
-|:---:|:---:|:---|
-| I | 1–12 | Origen estructural general del aparato SV |
-| II | 13–23 | Determinación específica del hidrógeno como Ξ_H,SV |
-| III | 24–25 | Formas y procesos actuales derivados |
-
-### 19.2. Tabla síntesis de los teoremas centrales
-
-| Teorema | Resultado | Estatuto operativo |
-|:---|:---|:---|
-| H-GEN-U | Unicidad del origen del hidrógeno | refutación exhaustiva de seis vías alternativas |
-| H-SUM.1 | 𝓗_prim + 𝓗_act ≠ 0 | preservación de clase |
-| H-ID-U | Unicidad de identificación de Ξ_H,SV ≡ H_SV | quince condiciones operativas conjuntas |
-| H-ANG.1 | Régimen angular fiel con k = 1 | herencia del Teorema 10.2.1 Bell-Tsirelson |
-
-### 19.3. Tabla síntesis de las seis absorciones del corpus
-
-| Absorción | Documento del corpus | Operación |
-|:---|:---|:---|
-| Energía de reposo | Lloret Egea (2026g) | E₀ = m₀c² absorbido en sector basal |
-| Maxwell electromagnético | Lloret Egea (2026k) | cuatro ecuaciones absorbidas en una |
-| Luz | Lloret Egea (2026 — luz ) | onda y corpúsculo absorbidos en objeto fibroso |
-| Bell y Tsirelson | Lloret Egea (2026 — bell-tsirelson) | CHSH ≤ 2 y 2√2 absorbidos en aparato CHSH-SV |
-| Teoría del TODO y de la NADA | Lloret Egea (2026 — todo-nada) | nivel trece de la cadena ascendente |
-| **Hidrógeno** | **Génesis del hidrógeno SV** | **génesis fundacional única del hidrógeno** |
-
-### 19.4. Tabla síntesis del mapa configuracional y de las trayectorias
-
-| Subdominio | Configuraciones | Trayectorias canónicas asociadas |
-|:---|:---|:---|
-| Núcleo directo | H_SV, H⁺_SV, H⁻_SV, H₂_SV | T1 (formación), T2 (disociación), T3 (ionización), T4 (recombinación) |
-| Subdominio isotópico | D_SV, T_SV | T10 (rutas isotópicas) |
-| Subdominio de fase | H₂(g), H₂(l), H₂(s), plasma | T7 (licuefacción), T8 (vaporización), T9 (plasma) |
-| Compuesto y asociadas | H₂O_SV, O₂_SV, O₃_SV | T5 (combustión), T6 (electrólisis) |
-
-### 19.5. Tabla síntesis comparativa de lecturas
-
-| Lectura | Marco | Objeto primitivo | Estatuto SV |
-|:---|:---|:---|:---|
-| Cuántica estándar | Hilbert + Born | átomo + electrón en potencial | preservada como cotejo |
-| Cosmológica | ΛCDM cronológico | núcleos en BB + recombinación | recusada en sustrato |
-| Termoquímica | SI molar | H₂ como mol portador | cotejable en cifra |
-| Espectroscópica | Rydberg | átomo emisor | derivable del aparato angular SV |
-| **SV ** | **determinista ternario** | **Ξ_H,SV configuración mínima** | **operación propia** |
-
----
-
-## 20. Laboratorios
-
-Los laboratorios reproducibles que acompañan al documento son código Python ejecutable con bibliotecas estándar (NumPy), publicados bajo la misma licencia que el documento (CC BY-NC-ND 4.0). Cada laboratorio verifica numéricamente uno o varios teoremas demostrados en el cuerpo del documento. La autoría de cada fichero es **Juan Antonio Lloret Egea (ORCID 0000-0002-6634-3351)**, ITVIA, IA eñ™ — La Biblia de la IA™, ISSN 2695-6411. Los siete laboratorios y un runner unificado se ubican en la carpeta `laboratorios/` del repositorio.
-
-**LAB-01 — Verificador computacional de las seis refutaciones del Teorema H-GEN-U** (autor: Juan Antonio Lloret Egea). Implementa el verificador automatizado de las seis vías alternativas refutadas en el Teorema H-GEN-U sobre seis predicados de exclusión derivados de los principios constitutivos P1 a P6 del aparato del SV. Fichero: [laboratorios/LAB-01_refutaciones_H_GEN_U.py](laboratorios/LAB-01_refutaciones_H_GEN_U.py).
-
-**LAB-02 — Verificador de las quince condiciones de identificación del Teorema H-ID-U** (autor: Juan Antonio Lloret Egea). Verifica la conjunción operativa de las quince condiciones del Teorema H-ID-U sobre un candidato Ξ_H,SV. Fichero: [laboratorios/LAB-02_condiciones_H_ID_U.py](laboratorios/LAB-02_condiciones_H_ID_U.py).
-
-**LAB-03 — Verificador angular sobre célula K₃,H^n del hidrógeno** (autor: Juan Antonio Lloret Egea). Verifica la fidelidad angular mínima k = 1 sobre la célula ternaria K₃,H^n con n = 9, reusando el aparato del LAB-06 del documento Bell-Tsirelson aplicado al dominio del hidrógeno. Fichero: [laboratorios/LAB-03_angular_H.py](laboratorios/LAB-03_angular_H.py).
-
-**LAB-04 — Verificador de coherencia dimensional de los seis primitivos metrológicos** (autor: Juan Antonio Lloret Egea). Verifica la independencia operativa de los seis primitivos UE_MFC, UFE, UFM, UFC, UFT, UFCE y la consistencia dimensional de las magnitudes derivadas (energía, presión, entropía). Fichero: [laboratorios/LAB-04_metrologia_SV.py](laboratorios/LAB-04_metrologia_SV.py).
-
-**LAB-05 — Verificador combinatorio del Teorema H-SUM.1 de no anulación** (autor: Juan Antonio Lloret Egea). Verifica las tres situaciones refutadas en el Teorema H-SUM.1 mediante test combinatorio sobre el espacio de configuraciones derivadas del hidrógeno. Fichero: [laboratorios/LAB-05_no_anulacion_H_SUM.py](laboratorios/LAB-05_no_anulacion_H_SUM.py).
-
-**LAB-06 — Verificador de articulación serial con Bell-Tsirelson** (autor: Juan Antonio Lloret Egea). Verifica la consistencia operativa del Teorema H-ANG.1 con el Teorema 10.2.1 del documento Bell-Tsirelson previo, comprobando que la herencia angular del hidrógeno preserva los regímenes R₀ / R₁ / R₂ / R₂★ y la unicidad C_SV(δ) = −cos δ. Fichero: [laboratorios/LAB-06_articulacion_bell_tsirelson.py](laboratorios/LAB-06_articulacion_bell_tsirelson.py).
-
-**LAB-07 — Verificador adversarial de la compuerta de admisibilidad de campos** (autor: Juan Antonio Lloret Egea). Verifica computacionalmente el cumplimiento estricto de la compuerta del apartado 4.1: ningún elemento Σ = 0 puede operar como campo generador, identificador o cierre. Falla si los seis primitivos metrológicos aparecen como campos, si la lectura espectral o generatriz aparece como campo generador, si la variable compleja auxiliar aparece como campo, si el jacobiano o la sensibilidad aparecen como causa, o si Σ = 0 aparece en lista de campos operativos del dominio. Fichero: [laboratorios/LAB-07_compuerta_campos_sigma.py](laboratorios/LAB-07_compuerta_campos_sigma.py).
-
-**Catálogo de errores** (autor: Juan Antonio Lloret Egea). Documento de referencia que recoge los errores estructurales esperados, sus tolerancias operativas y los diagnósticos posibles bajo cada laboratorio. Fichero: [laboratorios/CATALOGO-DE-ERRORES.md](laboratorios/CATALOGO-DE-ERRORES.md).
-
-**Runner unificado** (autor: Juan Antonio Lloret Egea). Ejecuta los siete laboratorios en orden secuencial, captura las salidas y emite un informe de cumplimiento global. Fichero: [laboratorios/runner.py](laboratorios/runner.py).
-
----
-
-## 21. Referencias
-
-### 21.1. Bibliografía externa
-
-Bohr, N. (1913). On the constitution of atoms and molecules. *Philosophical Magazine, 26*(151), 1–25.
-
-Born, M. (1926). Zur Quantenmechanik der Stoßvorgänge. *Zeitschrift für Physik, 37*(12), 863–867.
-
-Heisenberg, W. (1925). Über quantentheoretische Umdeutung kinematischer und mechanischer Beziehungen. *Zeitschrift für Physik, 33*(1), 879–893.
-
-Mendeleev, D. I. (1869). *Osnovy khimii* [Principios de la química]. San Petersburgo.
-
-Mohr, P. J., Newell, D. B., y Taylor, B. N. (2016). CODATA recommended values of the fundamental physical constants: 2014. *Reviews of Modern Physics, 88*(3), 035009.
-
-Planck, M. (1900). Zur Theorie des Gesetzes der Energieverteilung im Normalspektrum. *Verhandlungen der Deutschen Physikalischen Gesellschaft, 2*, 237–245.
-
-Rydberg, J. R. (1890). On the structure of the line-spectra of the chemical elements. *Philosophical Magazine, 29*(179), 331–337.
-
-Schrödinger, E. (1926). Quantisierung als Eigenwertproblem. *Annalen der Physik, 384*(4), 361–376.
-
-Steigman, G. (2007). Primordial nucleosynthesis in the precision cosmology era. *Annual Review of Nuclear and Particle Science, 57*, 463–491.
-
-### 21.2. Bibliografía del corpus del Sistema Vectorial SV
-
-Lloret Egea, J. A. (2026a). *Nuevas matemáticas del Sistema Vectorial SV y Física factual como conjunto iniciador*. IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español. ISSN 2695-6411.
-
-Lloret Egea, J. A. (2026b). *Conjunto matemático unificado del cambio factual, ciclos, medición factual y trayectorias poligonales de activación en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. ISSN 2695-6411.
-
-Lloret Egea, J. A. (2026 — bell-tsirelson). *De Bell a Tsirelson sin formalismo de Hilbert: aparato determinista no local del Sistema Vectorial SV con alfabeto ternario, unicidad del correlador angular factual acoplado y derivación estructural de la cota cuántica*. ISSN 2695-6411.
-
-Lloret Egea, J. A. (2026 — convergencia ternaria). *Convergencia ternaria factual en el Sistema Vectorial SV: clasificador absoluto Γ_𝓗 y resolución factual de la U honesta*. ISSN 2695-6411.
-
-Lloret Egea, J. A. (2026 — fundamentos). *Fundamentos algebraico-semánticos del Sistema Vectorial SV*. ISSN 2695-6411.
-
-Lloret Egea, J. A. (2026g). *Absorción de E₀ = m₀c² como sector basal de reposo en el Sistema Vectorial SV: estructura factual ampliada, compatibilidad modal, balance con residual y criterio conservador de clausura*. ISSN 2695-6411.
-
-Lloret Egea, J. A. (2026 — luz factual). *Teoría general factual de la luz en el Sistema Vectorial SV: objeto fibroso factual, quince proyecciones operativas y siete campos coexistentes*. DOI 10.17613/1z7c0-mqb40. ISSN 2695-6411.
-
-Lloret Egea, J. A. (2026i). *Teorema de Irreductibilidad Factual Acoplada en el Sistema Vectorial SV*. ISSN 2695-6411.
-
-Lloret Egea, J. A. (2026 — origen preternario). *Del origen preternario del Sistema Vectorial SV a la entidad soberana del campo*. ISSN 2695-6411.
-
-Lloret Egea, J. A. (2026 — protocampos). *Teoría general de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV*. ISSN 2695-6411.
-
-Lloret Egea, J. A. (2026 — todo-nada). *Teoría del TODO y de la NADA en el Sistema Vectorial SV — refundación factual sobre el corpus del suceso, distancia factual fibrosa, célula configuracional K₃ⁿ, frontera común (μ, λ) = (0, 0) y verificador ternario fuerte*. ISSN 2695-6411.
-
-Lloret Egea, J. A. (2026k). *Reducción estructural absoluta de Maxwell al Sistema Vectorial SV: ecuación única factual electromagnética y diccionario de reducción estructural*. DOI 10.17613/kep1t-57539. ISSN 2695-6411.
-
----
