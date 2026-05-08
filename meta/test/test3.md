@@ -1,4 +1,4 @@
-# **Elementos químicos del Sistema Vectorial SV**
+# **Análisis preliminar de elementos químicos, materiales y aleaciones de nueva generación para usos médicos y científicos**
 
 ## **Catálogo completo de los 443 elementos: familias tipológicas, generación prequímica, criterios de transición y propiedades estructurales**
 
