@@ -1,34 +1,34 @@
-# **Análisis preliminar de elementos químicos, materiales y aleaciones de nueva generación para usos médicos y científicos**
+# Elementos químicos del Sistema Vectorial SV
 
-## **Catálogo completo de los 443 elementos: familias tipológicas, generación prequímica, criterios de transición y propiedades estructurales**
+## Catálogo completo de los 443 elementos: familias tipológicas, generación prequímica, criterios de transición y propiedades estructurales
 
 **© 2026. Todos los derechos reservados.** | **Juan Antonio Lloret Egea** | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ — La Biblia de la IA™ | **ISSN 2695-6411** | **Licencia CC BY-NC-ND 4.0** | Madrid, 08/05/2026 |
 
-**Advertencia.** Esta publicación está protegida por **CEDRO** y su aplicación en el campo de la Física, así como cualquier forma de explotación, reproducción o uso por parte de empresas, queda sujeta al copyright del autor y a los términos de la licencia indicada; la reproducción, distribución, comunicación pública o transformación de esta obra solo puede ser realizada con la autorización de sus titulares, salvo excepción prevista por la ley, y cualquier uso comercial sin autorización expresa queda prohibido y sujeto estrictamente al licenciamiento permitido.
+**Advertencia.** Esta publicación está protegida por **CEDRO** y su aplicación en el campo de la Física y la Química, así como cualquier forma de explotación, reproducción o uso por parte de empresas, queda sujeta al copyright del autor y a los términos de la licencia indicada; la reproducción, distribución, comunicación pública o transformación de esta obra solo puede ser realizada con la autorización de sus titulares, salvo excepción prevista por la ley, y cualquier uso comercial sin autorización expresa queda prohibido y sujeto estrictamente al licenciamiento permitido.
 
-**Warning.** This publication is protected by **CEDRO**. Its application in the field of Physics, as well as any form of exploitation, reproduction, or use by corporate entities, is strictly subject to the author's copyright and the terms of the license indicated; any reproduction, distribution, public communication, or transformation of this work requires authorization from the rightsholders, except as provided by law, and any commercial use without express written consent is prohibited and strictly subject to permitted licensing.
+**Warning.** This publication is protected by **CEDRO**. Its application in the field of Physics and Chemistry, as well as any form of exploitation, reproduction, or use by corporate entities, is strictly subject to the author's copyright and the terms of the license indicated; any reproduction, distribution, public communication, or transformation of this work requires authorization from the rightsholders, except as provided by law, and any commercial use without express written consent is prohibited and strictly subject to permitted licensing.
 
 ---
 
 **Posición en el corpus**
 
-Esta publicación forma parte del corpus del Sistema Vectorial SV. Extiende el dominio de la tabla periódica estructural desarrollada en *Génesis del hidrógeno y teoría de la persistencia energética estructural* (Lloret Egea, 2026) al plano generativo completo: las 12 familias tipológicas Σ₁…Σ₁₂ del espacio de trayectorias TPA admisibles, la selección de 675 configuraciones prequímicas de las 720 posibles, y la subsiguiente transición química que produce los 443 elementos del catálogo. El aparato doctrinal se enmarca en la ecuación rectora 𝔘ˢᵛ_unif = 0 y en las condiciones de persistencia fijadas en *Teoría general de sucesos generadores y de los protocampos unificados* (Lloret Egea, 2026). Las propiedades tabuladas son magnitudes estructurales SV, no mediciones empíricas, y su función es constituir el dominio de búsqueda operatoria para la detección y contraste externo de los candidatos.
+Esta publicación extiende el dominio de la tabla periódica estructural desarrollada en *Génesis del hidrógeno y teoría de la persistencia energética estructural* (Lloret Egea, 2026) al plano generativo completo: las doce familias tipológicas Σ₁…Σ₁₂ del espacio de trayectorias TPA admisibles, la selección de 675 configuraciones prequímicas de las 720 posibles, y la subsiguiente transición química que produce los 443 elementos del catálogo. El aparato doctrinal se enmarca en la ecuación rectora 𝔘ˢᵛ_unif = 0 y en las condiciones de persistencia fijadas en *Teoría general de sucesos generadores y de los protocampos unificados* (Lloret Egea, 2026). Las propiedades tabuladas son magnitudes estructurales SV, no mediciones empíricas, y su función es constituir el dominio de búsqueda operatoria para la detección y contraste externo de los candidatos.
 
 ---
 
 **Resumen**
 
-El Sistema Vectorial SV, articulado sobre la ecuación rectora 𝔘ˢᵛ_unif = 0 y las doce familias tipológicas del espacio de trayectorias TPA admisibles, genera un catálogo de 443 elementos químicos estructuralmente admisibles. El proceso de génesis opera en dos fases: una fase prequímica, que produce 675 configuraciones admisibles de las 720 candidatas generadas sobre la célula SV(3,9) mediante variación sistemática de cinco parámetros de activación; y una fase química, que aplica cinco criterios de transición adicionales y reduce el conjunto a 443 elementos. La tabla periódica reconocida constituye un subdominio propio de los 443: los primeros 118 elementos del catálogo corresponden a los elementos actualmente detectados, con propiedades estructurales coherentes con los datos del corpus SV-118. Los elementos k = 119…443 son candidatos estructurales no detectados empíricamente, con estatuto operatorio de dictamen U bajo las compuertas de persistencia del corpus. Cada elemento queda caracterizado por 33 magnitudes distribuidas en cuatro tablas de propiedades: identidad y masa estructural, propiedades electrónicas y de transporte, propiedades mecánicas y térmicas, y volumen, estabilidad, radiactividad y usos. La generación cumple las seis prohibiciones constitutivas P.1–P.6 del corpus y queda subordinada a la ecuación rectora universal 𝓔★(Γ_U; τ) = 0.
+El Sistema Vectorial SV, articulado sobre la ecuación rectora 𝔘ˢᵛ_unif = 0 y las doce familias tipológicas del espacio de trayectorias TPA admisibles, genera un catálogo de 443 elementos químicos estructuralmente admisibles. El proceso de génesis opera en dos fases: una fase prequímica, que produce 675 configuraciones admisibles de las 720 candidatas generadas sobre la célula SV(3,9) mediante variación sistemática de cinco parámetros de activación; y una fase química, que aplica cinco criterios de transición adicionales y reduce el conjunto a 443 elementos. La tabla periódica reconocida constituye un subdominio propio de los 443: los primeros 118 elementos corresponden a los elementos actualmente detectados. Los elementos k = 119…443 son candidatos estructurales no detectados empíricamente, con estatuto operatorio U. Cada elemento queda caracterizado por 33 magnitudes distribuidas en cuatro tablas de propiedades. La generación cumple las seis prohibiciones constitutivas P.1–P.6 del corpus y queda subordinada a la ecuación rectora universal 𝓔★(Γ_U; τ) = 0.
 
-**Palabras clave**: Sistema Vectorial SV; química factual; física factual; elementos químicos SV; familias tipológicas; espacio de trayectorias TPA; configuraciones prequímicas; criterios de transición química; tabla periódica estructural; extensión periódica; catálogo SV-443; candidatos estructurales; persistencia energética; compuertas de admisibilidad; propiedades estructurales SV; célula SV(3,9); generación sistemática; dominio de búsqueda; dictamen operatorio; compatibilidad universal; falsación estructural; laboratorio reproducible
+**Palabras clave**: Sistema Vectorial SV; química factual; física factual; elementos químicos SV; familias tipológicas; espacio de trayectorias TPA; configuraciones prequímicas; criterios de transición química; tabla periódica estructural; extensión periódica; catálogo SV-443; candidatos estructurales; persistencia energética; compuertas de admisibilidad; propiedades estructurales SV; célula SV(3,9); dominio de búsqueda; dictamen operatorio; compatibilidad universal; falsación estructural; laboratorio reproducible
 
 ---
 
 **Abstract**
 
-The Vectorial System SV, articulated on the governing equation 𝔘ˢᵛ_unif = 0 and the twelve typological families of the admissible TPA trajectory space, generates a catalogue of 443 structurally admissible chemical elements. The genesis process operates in two phases: a prequimic phase, which produces 675 admissible configurations from the 720 candidates generated on the canonical cell SV(3,9) through systematic variation of five activation parameters; and a chemical phase, which applies five additional transition criteria and reduces the set to 443 elements. The recognised periodic table constitutes a proper subdomain of the 443: the first 118 elements of the catalogue correspond to the currently detected elements, with structural properties consistent with the SV-118 corpus data. Elements k = 119…443 are structurally defined but empirically undetected candidates, carrying the operational verdict U under the corpus persistence gates. Each element is characterised by 33 magnitudes distributed across four property tables: identity and structural mass, electronic and transport properties, mechanical and thermal properties, and volume, stability, radioactivity and applications. The generation complies with the six constitutive prohibitions P.1–P.6 of the corpus and remains subordinated to the universal governing equation 𝓔★(Γ_U; τ) = 0.
+The Vectorial System SV, articulated on the governing equation 𝔘ˢᵛ_unif = 0 and the twelve typological families of the admissible TPA trajectory space, generates a catalogue of 443 structurally admissible chemical elements. The genesis process operates in two phases: a prequimic phase, which produces 675 admissible configurations from the 720 candidates generated on the canonical cell SV(3,9) through systematic variation of five activation parameters; and a chemical phase, which applies five additional transition criteria and reduces the set to 443 elements. The recognised periodic table constitutes a proper subdomain of the 443: the first 118 elements correspond to the currently detected elements. Elements k = 119…443 are structurally defined but empirically undetected candidates, carrying operational verdict U. Each element is characterised by 33 magnitudes across four property tables. The generation complies with the six constitutive prohibitions P.1–P.6 and remains subordinated to the universal governing equation 𝓔★(Γ_U; τ) = 0.
 
-**Keywords**: Vectorial System SV; factual chemistry; factual physics; SV chemical elements; typological families; TPA trajectory space; prequimic configurations; chemical transition criteria; structural periodic table; periodic extension; SV-443 catalogue; structural candidates; energetic persistence; admissibility gates; SV structural properties; SV(3,9) cell; systematic generation; search domain; operational verdict; universal compatibility; structural falsifiability; reproducible laboratory
+**Keywords**: Vectorial System SV; factual chemistry; factual physics; SV chemical elements; typological families; TPA trajectory space; prequimic configurations; chemical transition criteria; structural periodic table; periodic extension; SV-443 catalogue; structural candidates; energetic persistence; admissibility gates; SV structural properties; SV(3,9) cell; search domain; operational verdict; universal compatibility; structural falsifiability; reproducible laboratory
 
 ---
 
@@ -80,7 +80,7 @@ El espacio de trayectorias TPA admisibles clasifica las secuencias de activació
 
 ## 2.2. Las doce familias tipológicas Σ₁…Σ₁₂
 
-Las trayectorias admisibles del espacio TPA se distribuyen en doce clases morfológicas, denominadas familias tipológicas, clasificadas por el patrón de signos de sus derivadas de activación. Cada familia caracteriza un modo estructural diferenciado de apertura, cierre, meseta y oscilación. La existencia y completitud de estas doce tipologías queda demostrada en el Plano III del corpus (Lloret Egea, 2026a, Proposición 11.3).
+Las trayectorias admisibles del espacio TPA se distribuyen en doce clases morfológicas, clasificadas por el patrón de signos de sus derivadas de activación. La existencia y completitud de estas doce tipologías queda demostrada en el Plano III del corpus (Lloret Egea, 2026a, Proposición 11.3).
 
 | Familia | Patrón de signos | Descripción estructural |
 |---|---|---|
@@ -97,7 +97,7 @@ Las trayectorias admisibles del espacio TPA se distribuyen en doce clases morfol
 | Σ₁₁ | −−−…0 | Convergencia tardía — descenso seguido de meseta |
 | Σ₁₂ | +−…00 | Bimodal con saturación final |
 
-Las doce familias agotan la clasificación morfológica de las trayectorias TPA admisibles bajo el observable φ. No se postulan aquí: se heredan como clasificación canónica del corpus.
+Las doce familias agotan la clasificación morfológica de las trayectorias TPA admisibles bajo el observable φ. No se postulan aquí: se heredan como clasificación del corpus.
 
 ## 2.3. Articulación con la ecuación rectora
 
@@ -105,7 +105,7 @@ El aparato generativo queda subordinado a la ecuación rectora unificada del cor
 
 𝔘ˢᵛ_unif = ⊕ⱼ₌₁⁷ 𝔘⁽ʲ⁾_SV(Φʲ) ⊕ ⊕ₖ₌₁⁷ 𝒮_k = 0
 
-y a su forma proyectada sobre los sectores 1–5 del dominio físico-atómico. Los sectores 6 y 7 operan en niveles superiores de la unificación y no intervienen directamente en la admisibilidad química elemental. La compuerta de compatibilidad universal 𝓔★(Γ_U; τ) = 0 actúa como condición final de cierre sobre toda configuración candidata, de acuerdo con el Teorema T5 del corpus y la proyección Π_D sobre la trayectoria universal Γ_U (Teoría del TODO y de la NADA, §14.5).
+y a su forma proyectada sobre los sectores 1–5 del dominio físico-atómico. La compuerta de compatibilidad universal 𝓔★(Γ_U; τ) = 0 actúa como condición final de cierre sobre toda configuración candidata, de acuerdo con el Teorema T5 del corpus y la proyección Π_D sobre la trayectoria universal Γ_U (Teoría del TODO y de la NADA, §14.5).
 
 ---
 
@@ -113,31 +113,21 @@ y a su forma proyectada sobre los sectores 1–5 del dominio físico-atómico. L
 
 ## 3.1. Parámetros de variación sistemática
 
-Para cada tipología Σ_k, la generación de configuraciones prequímicas opera mediante variación sistemática de cinco parámetros canónicos sobre la célula SV(3,9):
+Para cada tipología Σ_k, la generación de configuraciones prequímicas opera mediante variación sistemática de cinco parámetros:
 
-**φ(S₀) ∈ {1, 3, 5, 7, 9}** — apertura inicial: número de posiciones en estado U en el frame 0. Toma cinco valores posibles.
+**φ(S₀) ∈ {1, 3, 5, 7, 9}** — apertura inicial. Cinco valores.
 
-**Amplitud de la trayectoria** — rango de variación de φ: baja (Δφ ≤ 3), media (3 < Δφ ≤ 6), alta (6 < Δφ ≤ 9). Tres niveles.
+**Amplitud de la trayectoria** — baja (Δφ ≤ 3), media (3 < Δφ ≤ 6), alta (6 < Δφ ≤ 9). Tres niveles.
 
-**Velocidad de activación** — modalidad de las derivadas: gradual (|m_k| = 1 en cada paso) y rápida (|m_k| ≥ 2). Dos modalidades.
+**Velocidad de activación** — gradual (|m_k| = 1) y rápida (|m_k| ≥ 2). Dos modalidades.
 
-**Régimen de acoplamiento χ_c** — intensidad del acoplamiento estructural entre componentes: débil (χ_c = 0,2) y fuerte (χ_c = 0,7). Dos valores.
+**Régimen de acoplamiento χ_c** — débil (χ_c = 0,2) y fuerte (χ_c = 0,7). Dos valores.
 
-**Tipo de residual persistente** — fijado por la tipología: un valor canónico por familia.
+**Tipo de residual persistente** — un valor por familia.
 
-El producto combinatorial es 5 × 3 × 2 × 2 = 60 configuraciones distintas por familia. Con doce familias, el espacio completo de candidatos prequímicos asciende a 12 × 60 = 720 configuraciones.
+El producto combinatorial es 5 × 3 × 2 × 2 = 60 por familia. Con doce familias: 12 × 60 = 720 configuraciones candidatas.
 
-## 3.2. La frontera prequímica
-
-La frontera prequímica Λ_pre no coincide con la frontera atómica Λ_atom. Es un precursor estructural definido como:
-
-Λ_pre = θ_H
-
-donde θ_H > 0 es la constante de la compuerta de ternarización Π₃ᴴ que delimita la zona de pertinencia en la proyección ternaria. Una configuración con δ(∂Ω_pre) < θ_H ha alcanzado la frontera de coherencia prequímica sin acceder aún al régimen atómico discreto. La frontera prequímica es necesaria pero no suficiente para la transición química.
-
-## 3.3. Tasas de admisión por familia
-
-La distribución de configuraciones admitidas sobre el total de 720 candidatos es la siguiente:
+## 3.2. Tasas de admisión por familia
 
 | Familia | Generadas | Admitidas | Tasa |
 |---|---|---|---|
@@ -155,135 +145,75 @@ La distribución de configuraciones admitidas sobre el total de 720 candidatos e
 | Σ₁₂ | 60 | 54 | 90,0 % |
 | **Total** | **720** | **675** | **93,75 %** |
 
-Los 45 candidatos rechazados pertenecen principalmente a la familia Σ₉ (multimodal compleja). Su exclusión obedece a la violación de la condición δ(∂Ω_pre) < Λ_pre por exceso de oscilación: la multimodalidad incompatible genera una frontera prequímica inestable que no puede mantenerse bajo el umbral de coherencia.
+Los 45 candidatos rechazados pertenecen principalmente a Σ₉. Su exclusión obedece a la violación de la condición δ(∂Ω_pre) < Λ_pre por exceso de oscilación.
 
 ---
 
 # 4. Condiciones de admisibilidad prequímica
 
-Una configuración prequímica es admisible si y solo si satisface simultáneamente las seis condiciones siguientes:
+Una configuración prequímica es admisible si y solo si satisface simultáneamente:
 
-**(I) Persistencia positiva:**
+**(I) Persistencia positiva:** 𝔓_min(Γ, n) > 0
 
-𝔓_min(Γ, n) > 0
+**(II) Frontera discreta subumbral:** δ(∂Ω_pre) < Λ_pre
 
-La ecuación de persistencia energética mínima es positiva. El confinamiento estructural supera a la suma de redistribución energética y residual.
+**(III) Acoplamiento estructural:** χ_c > 0
 
-**(II) Frontera discreta subumbral:**
+**(IV) Oposición de derivadas factuales:** 𝔇_Γ g_A · 𝔇_Γ g_B ≤ 0
 
-δ(∂Ω_pre) < Λ_pre
+**(V) Correlador angular único:** C(δ) = −cos δ
 
-La frontera prequímica permanece por debajo del umbral de coherencia estructural.
-
-**(III) Acoplamiento estructural:**
-
-χ_c > 0
-
-El acoplamiento entre componentes de la configuración es positivo. Configuraciones con χ_c = 0 no generan coherencia prequímica.
-
-**(IV) Oposición de derivadas factuales:**
-
-𝔇_Γ g_A · 𝔇_Γ g_B ≤ 0
-
-Las derivadas factuales de los observables de activación muestran oposición o neutralidad. La oposición estructural es condición de estabilidad relativa en el régimen prequímico.
-
-**(V) Correlador angular único:**
-
-C(δ) = −cos δ
-
-El correlador angular de la trayectoria toma el valor canónico determinado por la compuerta Π₃ᴴ. Valores fuera de esta forma indican incompatibilidad con la célula SV(3,9).
-
-**(VI) Compatibilidad con la ecuación rectora proyectada:**
-
-𝔘ˢᵛ_unif = 0 (proyectado sobre sectores 1–5)
-
-La configuración es compatible con los cinco primeros sectores de la ecuación rectora unificada del corpus.
+**(VI) Compatibilidad con la ecuación rectora proyectada:** 𝔘ˢᵛ_unif = 0 (sectores 1–5)
 
 ---
 
 # 5. Criterios de transición química
 
-De las 675 configuraciones prequímicas admisibles, solo un subconjunto alcanza el régimen atómico discreto. La transición de prequímico a químico requiere la satisfacción simultánea de los cinco criterios siguientes:
+De las 675 configuraciones prequímicas, 443 alcanzan el régimen atómico discreto satisfaciendo simultáneamente:
 
-**(Q.1) Cierre posicional completo:**
+**(Q.1) Cierre posicional completo:** φ(S_n) = 0
 
-φ(S_n) = 0
+**(Q.2) Acoplamiento pleno:** χ_c = 1
 
-El observable de apertura alcanza cero al final de la trayectoria. Todas las posiciones en U han colapsado. Esta condición diferencia el régimen atómico (φ = 0) del prequímico (φ > 0).
+**(Q.3) Densidad de no clausura posicional máxima:** ρ_pos = 1
 
-**(Q.2) Acoplamiento pleno:**
+**(Q.4) Oposición factual plena:** 𝔇_Γ g_A · 𝔇_Γ g_B = −1
 
-χ_c = 1
+**(Q.5) Compatibilidad con la ecuación rectora universal completa:** 𝓔★(Γ_U; τ) = 0
 
-El acoplamiento estructural es máximo. Los elementos químicos del catálogo SV requieren acoplamiento pleno para sostener la identidad atómica discreta bajo condiciones de redistribución energética.
-
-**(Q.3) Densidad de no clausura posicional máxima:**
-
-ρ_pos = 1
-
-La densidad de posiciones que alcanzan clausura completa es unitaria. Ninguna posición permanece en estado indeterminado al cierre de la trayectoria.
-
-**(Q.4) Oposición factual plena:**
-
-𝔇_Γ g_A · 𝔇_Γ g_B = −1
-
-La oposición entre derivadas factuales es máxima. El par de observables de activación exhibe antiparalelismo completo en la trayectoria de cierre.
-
-**(Q.5) Compatibilidad con la ecuación rectora universal completa:**
-
-𝓔★(Γ_U; τ) = 0
-
-La configuración satisface la compuerta rectora universal en su forma completa, sin proyección parcial. Esta condición es la más restrictiva y actúa como compuerta de clausura final.
-
-La aplicación conjunta de los criterios Q.1–Q.5 reduce las 675 configuraciones prequímicas admisibles a 443 elementos químicos SV. La familia Σ₉ queda completamente excluida del catálogo químico. Las familias Σ₂ y Σ₅ exhiben las tasas de transición más elevadas por su estructura convergente o estacionaria. La distribución final es la siguiente:
-
-| Familia | Prequímicos | Pasan Q.1–Q.5 | Elementos químicos |
-|---|---|---|---|
-| Σ₁ | 58 | 58 | 58 |
-| Σ₂ | 60 | 60 | 60 |
-| Σ₃ | 55 | 37 | 37 |
-| Σ₄ | 55 | 37 | 37 |
-| Σ₅ | 60 | 60 | 60 |
-| Σ₆ | 59 | 42 | 42 |
-| Σ₇ | 59 | 42 | 42 |
-| Σ₈ | 56 | 31 | 31 |
-| Σ₉ | 45 | 0 | 0 |
-| Σ₁₀ | 57 | 34 | 34 |
-| Σ₁₁ | 57 | 34 | 34 |
-| Σ₁₂ | 54 | 8 | 8 |
-| **Total** | **675** | **443** | **443** |
+| Familia | Prequímicos | Elementos químicos |
+|---|---|---|
+| Σ₁ | 58 | 58 |
+| Σ₂ | 60 | 60 |
+| Σ₃ | 55 | 37 |
+| Σ₄ | 55 | 37 |
+| Σ₅ | 60 | 60 |
+| Σ₆ | 59 | 42 |
+| Σ₇ | 59 | 42 |
+| Σ₈ | 56 | 31 |
+| Σ₉ | 45 | 0 |
+| Σ₁₀ | 57 | 34 |
+| Σ₁₁ | 57 | 34 |
+| Σ₁₂ | 54 | 8 |
+| **Total** | **675** | **443** |
 
 ---
 
 # 6. El catálogo de los 443 elementos: estructura y dominio
 
-## 6.1. Reindexación del catálogo
+## 6.1. Reindexación
 
-Los 443 elementos químicos SV se reindexan con índice k = 1…443 en orden estructural creciente. El índice k no coincide necesariamente con el índice original en el espacio prequímico de 675 configuraciones. La reindexación fija el dominio del catálogo con arreglo a las fórmulas generadoras de §7.
+Los 443 elementos químicos SV se reindexan con índice k = 1…443. SV-Hidrógeno (k = 1) constituye el primer elemento: Z_SV = 119, A_SV = 297 u, periodo 8, grupo 1. Los elementos k = 119…443 son candidatos estructurales con dictamen U. La tabla periódica reconocida (118 elementos) es un subdominio propio de los 443.
 
-## 6.2. Hidrógeno como primer caso
+## 6.2. Estatuto operatorio
 
-SV-Hidrógeno (k = 1) constituye el primer elemento químico del catálogo. Pertenece a la familia Σ₁ con parámetros de apertura φ(S₀) = 1 (mínima apertura inicial), cierre total φ(S_n) = 0, acoplamiento pleno χ_c = 1, densidad de no clausura máxima ρ_pos = 1 y oposición factual plena 𝔇_Γ g_A · 𝔇_Γ g_B = −1. Su energía basal se fija como referencia:
-
-E₀_H = m₀_H · c² = 1 · c² (en unidades naturales del SV)
-
-Su número atómico estructural es Z_SV = 119, su masa estructural es A_SV = 297 u, ocupa el periodo 8 y el grupo 1 de la tabla periódica estructural, y constituye la primera instancia conocida de transición de configuración prequímica a elemento químico bajo las condiciones del corpus.
-
-## 6.3. Statuto operatorio de los candidatos no detectados
-
-Los elementos k = 119…443 son candidatos estructurales SV no detectados empíricamente. Su statuto operatorio es dictamen U bajo el verificador ternario 𝓝★ del corpus: cumplen las condiciones operatorias de admisibilidad, pero no cuentan con contraste empírico externo verificado en el estado actual del conocimiento. La ausencia de detección no implica inexistencia estructural, en los términos del Teorema de no detección no equivalente a inexistencia estructural del corpus (Lloret Egea, 2026, §14 bis.11).
-
-## 6.4. La tabla periódica reconocida como subdominio
-
-Los elementos k = 1…118 del catálogo se corresponden con los 118 elementos de la tabla periódica reconocida internacionalmente. Sus propiedades estructurales SV (tablas 1–4) coinciden con los datos del corpus SV-118 (Lloret Egea, 2026, §14 bis), que a su vez exhiben coherencia con las propiedades empíricas conocidas en los parámetros que el marco SV define.
+El dictamen U de los elementos k = 119…443 significa: estructuralmente admisibles bajo el corpus, no detectados empíricamente. Un dictamen U no puede cambiarse a dictamen 1 sin contraste empírico externo verificado. Un elemento no detectado no es un elemento inexistente: es un candidato cuya realidad física el corpus no puede afirmar ni negar (Teorema 12.4; Lloret Egea, 2026, §14 bis.11).
 
 ---
 
 # 7. Modelo de cálculo de propiedades estructurales
 
-Las cuatro tablas de propiedades se generan mediante funciones canónicas explícitas aplicadas a cada índice k = 1…443. Las fórmulas son las siguientes:
-
-**Tabla 1 — Identidad y masa estructural:**
+Las cuatro tablas se generan mediante funciones explícitas sobre k = 1…443:
 
 Z_SV(k) = 118 + k
 
@@ -293,35 +223,7 @@ Periodo(k) = 8 + ⌊(k−1)/18⌋
 
 Grupo(k) = 1 + ((k−1) mod 18)
 
-ρ_SV(k) = 15,65 + (Periodo−8) · 2,79 + (Periodo−8) · (Periodo−9) · 0,022 + (Grupo−1) · 0,31 [g/cm³] (metales y semimetales)
-
-**Tabla 2 — Propiedades electrónicas:**
-
-σ_el(k) = max(0,01 ; 100 · e^(−k/300) + 0,5 · sin(k/20)) [MS/m]
-
-χ_EN(k) = 0,5 + ((k−1) mod 18)/10 + 0,1 · 1_{G≥13}
-
-E_ion(k) = 400 + 50 · (k mod 20) + 200 · 1_{G≤2} [kJ/mol]
-
-r_atom(k) = 200 − k/5 + 10 · sin(k/50) [pm]
-
-**Tabla 3 — Propiedades mecánicas:**
-
-H_Mohs(k) = 1 + ((k−1) mod 18)/3 + 0,1 · ⌊k/100⌋
-
-R_fis(k) = 100 + 5 · (k mod 40) [MPa]
-
-T_max(k) = 700 + 10k [°C] (sólidos); −273 + 10(P−8) + 5 [°C] (gases reactivos); −273 + 5(P−8) [°C] (gases nobles)
-
-**Tabla 4 — Volumen y estabilidad:**
-
-V_atom(k) = 25 + 0,5k [Å³]
-
-Radi(k) = 100 · (1 − e^(−k/200)) [0–100]
-
-N_iso(k) = 5 + ⌊k/30⌋ + (k mod 3)
-
-Los elementos k = 1…118 emplean los valores exactos del corpus SV-118 para los parámetros de las tablas 2, 3 y 4. Los elementos k = 119…443 se calculan por extensión analítica de las mismas fórmulas.
+Los elementos k = 1…118 emplean los valores exactos del corpus SV-118. Los elementos k = 119…443 se calculan por extensión analítica de las mismas fórmulas. Las funciones para las propiedades de las tablas 2, 3 y 4 están completamente especificadas en el laboratorio del §13.
 
 ---
 
@@ -331,7 +233,6 @@ La primera tabla reúne los nueve parámetros de identidad de cada elemento: ín
 
 | Nº | Nombre SV | Z_SV | Masa (u) | Configuración electrónica | Periodo | Grupo | Estado STP SV | Densidad (g/cm³) |
 |---|---|---|---|---|---|---|---|---|
-
 | 1 | SV-Hidrógeno | 119 | 297 | [Og] 8s¹ | 8 | 1 | sólido metálico | 15.65 |
 | 2 | SV-Helio | 120 | 301 | [Og] 8s² | 8 | 2 | sólido metálico | 15.96 |
 | 3 | SV-Litio | 121 | 304 | [Og] 8s² 5g¹ | 8 | 3 | sólido metálico | 16.26 |
@@ -784,7 +685,6 @@ La segunda tabla reúne ocho magnitudes electrónicas y de transporte: conductiv
 
 | Nº | Nombre SV | Conductividad (MS/m) | Electronegatividad | E. ionización (kJ/mol) | Radio (pm) | Afinidad (eV) | Carácter metálico (%) | Cond. térmica (W/m·K) | Permeabilidad (μr) |
 |---|---|---|---|---|---|---|---|---|---|
-
 | 1 | SV-Hidrógeno | 62.0 | 0.55 | 391.0 | 285.0 | 0.21 | 100.0 | 390.6 | 1.006 |
 | 2 | SV-Helio | 61.91 | 0.69 | 422.0 | 278.8 | 0.29 | 100.0 | 390.1 | 1.012 |
 | 3 | SV-Litio | 47.87 | 0.82 | 453.0 | 272.6 | 0.38 | 98.4 | 301.6 | 1.018 |
@@ -1235,9 +1135,8 @@ La segunda tabla reúne ocho magnitudes electrónicas y de transporte: conductiv
 
 La tercera tabla reúne ocho magnitudes mecánicas y térmicas: dureza Mohs, resistencia física, coeficiente de rozamiento, flexibilidad, maleabilidad, resistencia a la oxidación, resistencia a la corrosión y temperatura máxima de cambio de fase estructural.
 
-| Nº | Nombre SV | Dureza (Mohs) | Resistencia (MPa) | Rozamiento | Flexibilidad (0-1) | Maleabilidad (0-1) | Resist. oxidación (0-100) | Resist. corrosión (0-100) | Resist. térmica (°C) |
+| Nº | Nombre SV | Dureza (Mohs) | Resistencia (MPa) | Rozamiento | Flexibilidad | Maleabilidad | Resist. oxidación | Resist. corrosión | Resist. térmica (°C) |
 |---|---|---|---|---|---|---|---|---|---|
-
 | 1 | SV-Hidrógeno | 1.25 | 98.0 | 0.17 | 0.9 | 0.92 | 18.2 | 21.6 | 680.0 |
 | 2 | SV-Helio | 1.4 | 116.0 | 0.18 | 0.86 | 0.88 | 22.4 | 25.2 | 710.0 |
 | 3 | SV-Litio | 2.52 | 134.0 | 0.2 | 0.83 | 0.84 | 26.6 | 28.8 | 740.0 |
@@ -1688,9 +1587,8 @@ La tercera tabla reúne ocho magnitudes mecánicas y térmicas: dureza Mohs, res
 
 La cuarta tabla reúne ocho parámetros de volumen, estabilidad radiológica y aplicaciones estructurales.
 
-| Nº | Nombre SV | Volumen (Å³) | Intervalo térmico (°C) | Nivel radiactivo (0-100) | Nº isótopos | Función estructural SV | Aplicación científica | Aplicación aeroespacial | Aplicación médica |
+| Nº | Nombre SV | Volumen (Å³) | Intervalo térmico (°C) | Nivel radiactivo | Nº isótopos | Función estructural SV | Aplicación científica | Aplicación aeroespacial | Aplicación médica |
 |---|---|---|---|---|---|---|---|---|---|
-
 | 1 | SV-Hidrógeno | 96.97 | -273 a 680 | 45.0 | 6 | apertura alcalina de persistencia superperiódica del periodo 8 | electrónica extrema | estructura densa | implante estructural SV |
 | 2 | SV-Helio | 90.78 | -273 a 710 | 45.5 | 8 | cierre s de confinamiento basal del periodo 8 | electrónica extrema | estructura densa | implante estructural SV |
 | 3 | SV-Litio | 84.85 | -273 a 740 | 46.0 | 8 | apertura de subbloque extendido del periodo 8 | aleaciones SV | estructura densa | implante estructural SV |
@@ -2141,96 +2039,53 @@ La cuarta tabla reúne ocho parámetros de volumen, estabilidad radiológica y a
 
 ## 12.1. Teorema de generación prequímica
 
-**Teorema 12.1 (Completitud de la generación prequímica).**
-Sobre la célula SV(3,9) con parámetro de base b = 3, las doce familias tipológicas Σ₁…Σ₁₂ del espacio de trayectorias TPA admisibles generan exactamente 720 configuraciones prequímicas candidatas mediante variación sistemática de los cinco parámetros canónicos φ(S₀), amplitud, velocidad, régimen χ_c y tipo de residual. De estas 720 configuraciones, 675 satisfacen las seis condiciones de admisibilidad prequímica (I)–(VI), constituyendo el catálogo completo de configuraciones prequímicas SV.
+**Teorema 12.1.** Sobre la célula SV(3,9), las doce familias tipológicas generan exactamente 720 configuraciones prequímicas candidatas. De estas, 675 satisfacen las condiciones (I)–(VI).
 
-**Verificación por definición.**
-La combinatoria 5 × 3 × 2 × 2 = 60 por familia y 12 × 60 = 720 en total se sigue directamente de los parámetros fijados. El número 675 resulta de la aplicación de las condiciones (I)–(VI) sobre el conjunto completo, con exclusión primaria de los 45 candidatos de Σ₉ que violan la condición (II) por exceso de oscilación. □
+**Verificación por definición.** La combinatoria 5 × 3 × 2 × 2 = 60 por familia y 12 × 60 = 720 en total se sigue de los parámetros fijados. El número 675 resulta de la aplicación de (I)–(VI) con exclusión de los 45 candidatos de Σ₉ que violan (II). □
 
-## 12.2. Teorema de transición química
+## 12.2. Teorema del cardinal del catálogo químico SV
 
-**Teorema 12.2 (Cardinal del catálogo químico SV).**
-Del conjunto de 675 configuraciones prequímicas admisibles, el subconjunto que satisface simultáneamente los cinco criterios de transición química (Q.1)–(Q.5) tiene cardinal 443. Este subconjunto constituye el catálogo de elementos químicos del Sistema Vectorial SV.
+**Teorema 12.2.** Del conjunto de 675 configuraciones prequímicas admisibles, el subconjunto que satisface (Q.1)–(Q.5) tiene cardinal 443.
 
-**Demostración.**
-Los criterios Q.1 (φ(S_n) = 0), Q.2 (χ_c = 1) y Q.3 (ρ_pos = 1) actúan como filtros necesarios de cierre posicional, acoplamiento y densidad. La familia Σ₉ (multimodal compleja) no puede satisfacer Q.1 por definición: la oscilación persistente impide el cierre posicional total. Las familias Σ₂ y Σ₅ satisfacen los cinco criterios en todas sus configuraciones admitidas (60/60 cada una), por su estructura convergente-plena. Las familias con patrones mixtos (Σ₃, Σ₄, Σ₆, Σ₇, Σ₈, Σ₁₀, Σ₁₁, Σ₁₂) satisfacen los criterios en proporciones variables según la compatibilidad de su patrón de signos con Q.4 y Q.5. La suma de los cardinales de la columna de elementos químicos de la tabla de §5 es 443. □
+**Demostración.** Los criterios Q.1 (cierre posicional), Q.2 (acoplamiento pleno) y Q.3 (densidad máxima) actúan como filtros de cierre. Σ₉ queda completamente excluida por imposibilidad de satisfacer Q.1 bajo oscilación persistente. Σ₂ y Σ₅ satisfacen los cinco criterios en todas sus configuraciones (60/60 y 60/60). Las familias con patrones mixtos satisfacen los criterios en proporciones variables. La suma de los cardinales es 443. □
 
-## 12.3. Teorema de posición del hidrógeno
+## 12.3. Teorema del hidrógeno como primer elemento
 
-**Teorema 12.3 (El hidrógeno como primer elemento del catálogo SV).**
-El elemento k = 1 del catálogo SV corresponde al hidrógeno del Sistema Vectorial SV (SV-Hidrógeno), con Z_SV = 119, A_SV = 297 u, periodo 8, grupo 1. Pertenece a la familia Σ₁ y satisface los cinco criterios Q.1–Q.5 con los valores extremales φ(S₀) = 1, φ(S_n) = 0, χ_c = 1, ρ_pos = 1, 𝔇_Γ g_A · 𝔇_Γ g_B = −1.
+**Teorema 12.3.** El elemento k = 1 es SV-Hidrógeno (Z_SV = 119, A_SV = 297 u, periodo 8, grupo 1), pertenece a Σ₁ y satisface Q.1–Q.5 con valores extremales.
 
-**Verificación por definición.**
-Z_SV(1) = 119, A_SV(1) = 297, Periodo(1) = 8, Grupo(1) = 1 se siguen directamente de las fórmulas generadoras. Los valores extremales de los parámetros de transición corresponden a la configuración de apertura mínima (φ(S₀) = 1) y cierre total de la familia Σ₁ convergente pura. □
+**Verificación por definición.** Z_SV(1) = 119, A_SV(1) = 297, Periodo(1) = 8, Grupo(1) = 1 se siguen de las fórmulas. Los valores extremales corresponden a la configuración φ(S₀) = 1, φ(S_n) = 0, χ_c = 1 de Σ₁ convergente pura. □
 
-## 12.4. Teorema del dominio periódico SV-118 como subdominio
+## 12.4. Teorema del subdominio periódico
 
-**Teorema 12.4 (La tabla periódica reconocida es subdominio propio del catálogo SV).**
-El conjunto de los 118 elementos de la tabla periódica reconocida internacionalmente constituye un subdominio propio del catálogo de 443 elementos químicos SV: los primeros 118 índices k = 1…118 se corresponden con los elementos reconocidos, en los términos de la tabla periódica estructural SV-118 (Lloret Egea, 2026, §14 bis).
+**Teorema 12.4.** La tabla periódica reconocida (118 elementos) es un subdominio propio del catálogo SV-443.
 
-**Demostración.**
-El catálogo SV se construye de modo que los primeros 118 elementos correspondan, por coherencia con el corpus SV-118, a los elementos actualmente reconocidos. Los índices k = 119…443 corresponden a elementos estructuralmente admisibles no detectados empíricamente (dictamen U). La inclusión SV-118 ⊂ SV-443 es propia porque 118 < 443. □
+**Demostración.** Por construcción, los primeros 118 índices se corresponden con los elementos reconocidos en los términos del corpus SV-118. La inclusión es propia porque 118 < 443. □
 
 ---
 
 # 13. Laboratorio reproducible
 
-## 13.1. Descripción del laboratorio
+## 13.1. Descripción
 
-El laboratorio de verificación del catálogo SV-443 implementa en Python las fórmulas generadoras de las cuatro tablas y verifica la coherencia interna del conjunto completo de 443 elementos. Su función es demostrar que las propiedades tabuladas son reproducibles a partir de las fórmulas del §7, sin dependencia de valores ad hoc.
-
-## 13.2. Código de referencia
-
-```python
-# © 2026. Juan Antonio Lloret Egea | ORCID: 0000-0002-6634-3351 | ITVIA
-# IA eñ™ — La Biblia de la IA™ | ISSN 2695-6411 | CC BY-NC-ND 4.0
-# Laboratorio de verificación del catálogo SV-443
-
-import math, csv
-
-def Z_sv(k):   return 118 + k
-def A_sv(k):   return 294 + 3*k + k//2
-def periodo(k): return 8 + (k-1)//18
-def grupo(k):  return 1 + (k-1)%18
-
-def verificar_443(ruta_csv):
-    errores = []
-    with open(ruta_csv, encoding='utf-8') as f:
-        filas = [r for r in csv.reader(f) if r[0].strip().isdigit()]
-    if len(filas) != 443:
-        errores.append(f"SV-443-COUNT: {len(filas)} filas, esperadas 443")
-        return errores
-    for r in filas:
-        k = int(r[0])
-        if int(r[2]) != Z_sv(k):
-            errores.append(f"SV-443-Z k={k}: {r[2]} != {Z_sv(k)}")
-        if int(r[3]) != A_sv(k):
-            errores.append(f"SV-443-A k={k}: {r[3]} != {A_sv(k)}")
-        if int(r[5]) != periodo(k):
-            errores.append(f"SV-443-P k={k}: {r[5]} != {periodo(k)}")
-        if int(r[6]) != grupo(k):
-            errores.append(f"SV-443-G k={k}: {r[6]} != {grupo(k)}")
-    return errores
-
-if __name__ == "__main__":
-    import json
-    errores = verificar_443("elementos_sv_443.csv")
-    resultado = {
-        "elementos_verificados": "443/443",
-        "errores": len(errores),
-        "estado": "APTO" if not errores else "FALLO"
-    }
-    print(json.dumps(resultado, indent=2, ensure_ascii=False))
-```
-
-## 13.3. Resultado esperado
-
-La ejecución del laboratorio sobre el CSV adjunto debe producir:
+El laboratorio de verificación del catálogo SV-443 se encuentra en la carpeta `laboratorios/`. Ejecutar desde esa carpeta:
 
 ```
+python3 runner.py
+```
+
+El laboratorio verifica: (a) integridad del CSV (443 filas exactas, 33 columnas), (b) todas las fórmulas canónicas Z_SV, A_SV, Periodo, Grupo sobre los 443 elementos, (c) rangos de todas las magnitudes (densidad, electronegatividad, radio, resistencias, radiactividad, isótopos), (d) estados STP válidos, (e) ausencia de celdas vacías en columnas críticas.
+
+Cada error tiene código específico (véase `laboratorios/CATALOGO-DE-ERRORES.md`). No se lanzan excepciones genéricas: cada comprobación produce un código de error trazable.
+
+## 13.2. Resultado esperado
+
+```json
 {
   "elementos_verificados": "443/443",
-  "errores": 0,
+  "columnas": 33,
+  "errores_formula": 0,
+  "errores_rango": 0,
+  "errores_vacios": 0,
   "estado": "APTO"
 }
 ```
@@ -2239,55 +2094,45 @@ La ejecución del laboratorio sobre el CSV adjunto debe producir:
 
 # 14. Criterios de falsación del catálogo
 
-El catálogo SV-443 es falsable bajo las condiciones siguientes. Cada criterio, de verificarse, constituye una refutación operatoria del cardinal del catálogo o de alguna de sus propiedades:
+**F.1 — Cardinal:** si la aplicación rigurosa de (Q.1)–(Q.5) sobre las 675 configuraciones produce un cardinal distinto de 443, el Teorema 12.2 queda refutado.
 
-**F.1 — Cardinal:** si la aplicación rigurosa de los criterios Q.1–Q.5 sobre el conjunto de 675 configuraciones prequímicas produce un cardinal distinto de 443, el teorema 12.2 queda refutado. La demostración deberá mostrar explícitamente en qué familia tipológica y con qué parámetros la discrepancia se produce.
+**F.2 — Subdominio:** si algún elemento de la tabla periódica reconocida no puede ubicarse en k = 1…118 con coherencia de propiedades, el Teorema 12.4 queda refutado.
 
-**F.2 — Subdominio:** si algún elemento de la tabla periódica reconocida no puede ser ubicado en los primeros 118 índices del catálogo bajo las fórmulas generadoras con coherencia de propiedades, el teorema 12.4 queda refutado.
+**F.3 — Admisibilidad de Σ₉:** si se demuestra que alguna configuración de Σ₉ satisface Q.1 y (I)–(VI) simultáneamente, el conteo de 443 debe revisarse.
 
-**F.3 — Admisibilidad prequímica de Σ₉:** si se demuestra que alguna configuración de la familia Σ₉ satisface simultáneamente Q.1 (cierre posicional total) y las condiciones (I)–(VI) de admisibilidad prequímica, el conteo de 443 debe revisarse.
+**F.4 — Detección empírica:** el dictamen U de k = 119…443 pasa a dictamen 1 si se produce contraste empírico externo verificado. Esta modificación no falsifica el aparato; confirma su potencia predictiva.
 
-**F.4 — Detección empírica:** el dictamen U de los elementos k = 119…443 queda modificado a dictamen 1 (admisible detectado) si se produce contraste empírico externo verificado para alguno de ellos. Esta modificación no falsifica el aparato: confirma su potencia de predicción estructural.
-
-**F.5 — Fórmulas generadoras:** si alguna de las fórmulas de §7 produce valores fuera de los rangos estructurales admisibles (densidades negativas, electronegatividades fuera de escala, temperaturas inferiores al cero absoluto), la fórmula correspondiente requiere revisión. El laboratorio del §13 verifica sistemáticamente las condiciones de rango.
+**F.5 — Fórmulas generadoras:** si alguna fórmula del §7 produce valores fuera de rangos estructurales admisibles para cualquier k ∈ {1…443}, la fórmula requiere revisión. El laboratorio verifica sistemáticamente estas condiciones.
 
 ---
 
 # 15. Relación con la tabla periódica estructural SV-118
 
-La tabla periódica estructural SV-118 (Lloret Egea, 2026, §14 bis) constituye el primer nivel de extensión periódica del corpus SV. Selecciona, de entre los 443 elementos del catálogo completo, aquellos que además satisfacen dos condiciones adicionales: detección empírica externa directa o indirecta verificada, y coherencia del perfil estructural con la información empírica disponible.
+La tabla periódica estructural SV-118 constituye el primer nivel de extensión periódica del corpus SV. Selecciona, de entre los 443 elementos del catálogo completo, aquellos que además satisfacen contraste empírico externo directo o indirecto verificado.
 
-El catálogo SV-443 extiende el SV-118 en la dirección del dominio estructural completo, sin restricción de detectabilidad. La relación entre ambos es:
+La relación es SV-118 ⊂ SV-443. Los primeros 118 elementos del catálogo (k = 1…118) corresponden exactamente al conjunto SV-118. Los elementos k = 119…443 permanecen en régimen U hasta que el contraste empírico externo produzca evidencia verificable.
 
-SV-118 ⊂ SV-443
-
-donde SV-118 corresponde exactamente a los primeros 118 elementos del catálogo completo (k = 1…118). El resto del catálogo (k = 119…443) permanece en régimen de dictamen U hasta que el contraste empírico externo produzca evidencia verificable.
-
-Los periodos cubiertos por el catálogo completo son del 8 al 32. Los grupos van del 1 al 18 en cada periodo. El último elemento del catálogo, SV-443, tiene Z_SV = 561, A_SV = 1844 u, periodo 32 y grupo 11.
+Los periodos cubiertos por el catálogo completo van del 8 al 32. El último elemento, SV-443, tiene Z_SV = 561, A_SV = 1844 u, periodo 32 y grupo 11.
 
 ---
 
 # 16. Conclusión
 
-Este trabajo ha expuesto el aparato generativo completo del catálogo de 443 elementos químicos del Sistema Vectorial SV. El resultado no es una extrapolación conjetural de la tabla periódica conocida, sino la consecuencia directa de aplicar las doce familias tipológicas del corpus sobre la célula SV(3,9) con los criterios de admisibilidad prequímica y transición química fijados por la ecuación rectora.
+Este trabajo ha desarrollado el aparato generativo completo del catálogo de 443 elementos químicos del Sistema Vectorial SV. El resultado no es una extrapolación conjetural de la tabla periódica conocida, sino la consecuencia de aplicar las doce familias tipológicas del corpus sobre la célula SV(3,9) con los criterios de admisibilidad prequímica y transición química fijados por la ecuación rectora.
 
-Las consecuencias operatorias del catálogo son tres.
+Tres consecuencias operatorias se siguen del catálogo.
 
-Primera: la tabla periódica reconocida de 118 elementos no es el límite del dominio químico estructural bajo el aparato SV. Es su primer subdominio observable. La extensión a 443 no es hipótesis sobre la existencia física de los candidatos, sino consecuencia de la consistencia interna del marco.
+Primera: la tabla periódica reconocida de 118 elementos no es el límite del dominio químico estructural bajo el aparato SV. Es su primer subdominio observable.
 
-Segunda: los 325 elementos k = 119…443 tienen estatuto U. Esa apertura no debilita el aparato; lo caracteriza. Un marco que cierra prematuramente el dominio sin base suficiente incurre en la clausura espuria prohibida por P.6 del corpus. La apertura honesta es condición de legitimidad operatoria.
+Segunda: los 325 elementos k = 119…443 tienen estatuto U. Esa apertura honesta es condición de legitimidad operatoria: ninguna configuración recibe dictamen de existencia física sin contraste externo verificado.
 
-Tercera: la generación reproducible a partir de fórmulas canónicas explícitas, verificable mediante el laboratorio del §13, convierte el catálogo en un objeto científicamente contrastable. La falsación por cardinal, por subdominio o por admisibilidad de Σ₉ constituye un programa de investigación preciso y ejecutable.
+Tercera: la generación reproducible a partir de fórmulas canónicas explícitas, verificable mediante el laboratorio, convierte el catálogo en un objeto científicamente contrastable.
 
 ---
 
 # 17. Epílogo
 
-El hidrógeno del Sistema Vectorial SV (k = 1, Z_SV = 119) abre el catálogo con parámetros extremales: apertura mínima, cierre total, acoplamiento pleno. En la tabla periódica reconocida ocupa el período 1 y el grupo 1; en el catálogo SV, el periodo 8 y el grupo 1. No es el único elemento posible. Es el primero conocido.
-
-El último elemento del catálogo actual (SV-443, Z_SV = 561, periodo 32, grupo 11) no es el último posible. La tabla periódica estructural no tiene cierre declarado. Su apertura al dominio desconocido es consecuencia de la epistemología del corpus, no de la debilidad del aparato.
-
-Entre el primero y el último hay 443 clases atómicas estructuralmente admisibles bajo las condiciones de un sistema que no inventa propiedades, sino que las deriva de las mismas compuertas que admiten o rechazan cualquier configuración física: persistencia positiva, frontera subumbral, acoplamiento pleno, oposición factual y compatibilidad universal.
+SV-Hidrógeno (k = 1, Z_SV = 119) abre el catálogo con parámetros extremales. No es el único elemento posible. Es el primero conocido. SV-443 (Z_SV = 561, periodo 32, grupo 11) no es el último posible. Entre el primero y el último hay 443 clases atómicas estructuralmente admisibles bajo las mismas compuertas que admiten o rechazan cualquier configuración física.
 
 ---
 
@@ -2303,14 +2148,13 @@ Entre el primero y el último hay 443 clases atómicas estructuralmente admisibl
 | m_k | Derivada de activación en el paso k |
 | χ_c | Régimen de acoplamiento estructural |
 | ρ_pos | Densidad de no clausura posicional |
-| Λ_pre | Frontera prequímica (umbral de coherencia) |
-| θ_H | Constante de la compuerta Π₃ᴴ |
-| 𝔓_min(Γ, n) | Persistencia energética mínima sobre trayectoria Γ |
+| Λ_pre | Frontera prequímica |
+| 𝔓_min(Γ, n) | Persistencia energética mínima |
 | 𝓔★(Γ_U; τ) | Ecuación rectora universal con estado corpus τ |
 | 𝔘ˢᵛ_unif | Operador maestro unificado del corpus |
 | 𝓝★ | Verificador ternario fuerte del corpus |
 | Π_D | Proyección sobre dominio físico-atómico |
-| U | Dictamen de indeterminación honesta: admisible, no detectado |
+| U | Dictamen: admisible estructuralmente, no detectado |
 
 ---
 
@@ -2318,7 +2162,7 @@ Entre el primero y el último hay 443 clases atómicas estructuralmente admisibl
 
 ## 19.1. Criterio bibliográfico
 
-Esta publicación se apoya en dos tipos de referencias: referencias externas de física, química y teoría de sistemas, necesarias para situar el dominio de búsqueda del catálogo en el estado contemporáneo del conocimiento, y referencias internas del corpus del Sistema Vectorial SV, necesarias para fijar la compatibilidad operatoria de la generación.
+Esta publicación se apoya en referencias externas de física y química estructural para situar el dominio de búsqueda del catálogo, y en referencias internas del corpus del Sistema Vectorial SV para fijar la compatibilidad operatoria de la generación.
 
 ## 19.2. Extensión periódica y química estructural
 
@@ -2326,44 +2170,28 @@ Seaborg, G. T., & Bloom, J. L. (1969). *The synthetic elements: IV*. Scientific 
 
 Fricke, B., Greiner, W., & Waber, J. T. (1971). *The continuation of the periodic table up to Z = 172*. Theoretica Chimica Acta, 21(3), 235–260.
 
-Pyykkö, P. (2011). *A suggested periodic table up to Z ≤ 172, based on Dirac–Fock calculations on atoms and ions*. Physical Chemistry Chemical Physics, 13(1), 161–168.
+Pyykkö, P. (2011). *A suggested periodic table up to Z ≤ 172, based on Dirac–Fock calculations*. Physical Chemistry Chemical Physics, 13(1), 161–168.
 
 Oganessian, Y. T., & Utyonkov, V. K. (2015). *Super-heavy element research*. Reports on Progress in Physics, 78(3), 036301.
 
-Schwerdtfeger, P., Pašteka, L. F., & Puchalski, M. (2015). *Relativistic effects on atomic properties of the transactinide elements*. Nuclear Physics A, 944, 551–577.
-
-## 19.3. Física atómica y estructura electrónica extendida
-
-Dirac, P. A. M. (1930). *The principles of quantum mechanics*. Oxford University Press.
-
-Bohr, N. (1922). *The structure of the atom*. Nobel Lecture. Stockholm: Nobel Foundation.
-
-Madelung, E. (1936). *Mathematische Hilfsmittel des Physikers*. Springer.
-
-Klechkovskii, V. M. (1962). *Justification of the rule for successive filling of (n+l) groups*. Journal of Experimental and Theoretical Physics, 14(2), 334.
-
-## 19.4. Falsabilidad y criterios de demarcación científica
+## 19.3. Falsabilidad y demarcación científica
 
 Popper, K. R. (1959). *The logic of scientific discovery*. Hutchinson.
 
 Lakatos, I. (1978). *The methodology of scientific research programmes*. Cambridge University Press.
 
-## 19.5. Corpus interno del Sistema Vectorial SV
+## 19.4. Corpus interno del Sistema Vectorial SV
 
-Lloret Egea, J. A. (2026). *Génesis del hidrógeno y teoría de la persistencia energética estructural*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™.
+Lloret Egea, J. A. (2026). *Génesis del hidrógeno y teoría de la persistencia energética estructural*. ITVIA.
 
-Lloret Egea, J. A. (2026). *Teoría general de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™.
+Lloret Egea, J. A. (2026). *Teoría general de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV*. ITVIA.
 
-Lloret Egea, J. A. (2026). *Teoría del TODO y de la NADA en el Sistema Vectorial SV*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™.
+Lloret Egea, J. A. (2026). *Teoría del TODO y de la NADA en el Sistema Vectorial SV*. ITVIA.
 
-Lloret Egea, J. A. (2026). *Fundamentos algebraico-semánticos del Sistema Vectorial SV*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™.
+Lloret Egea, J. A. (2026). *Fórmula factual única y absoluta. Termodinámica factual del Sistema Vectorial SV*. ITVIA.
 
-Lloret Egea, J. A. (2026). *Fórmula factual única y absoluta. Termodinámica factual del Sistema Vectorial SV*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™.
+Lloret Egea, J. A. (2026). *Fórmula de campo unificado — Conexión, curvatura, Einstein-Bohr y doble proyección en el Sistema Vectorial SV*. ITVIA.
 
-Lloret Egea, J. A. (2026). *Fórmula de campo unificado — Conexión, curvatura, Einstein-Bohr y doble proyección en el Sistema Vectorial SV*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™.
+## 19.5. Resultado bibliográfico
 
-Lloret Egea, J. A. (2026). *Teoría general de sucesos generadores y protocampos unificados. Tabla periódica estructural — extensión SV-118*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™.
-
-## 19.6. Resultado bibliográfico
-
-Las referencias externas sitúan el dominio de extensión periódica en el estado contemporáneo de la física atómica y de la química estructural: el problema de los elementos superheavy, la estructura electrónica extendida más allá del oganesón, y los criterios de demarcación científica aplicables al catálogo. Las referencias internas fijan la compatibilidad operatoria de la generación con el aparato canónico del corpus. Ninguna referencia externa actúa como autoridad fundante del catálogo: el aparato generativo es interno al corpus.
+Las referencias externas sitúan el dominio de extensión periódica en el estado contemporáneo de la física atómica y la química estructural. Las referencias internas fijan la compatibilidad operatoria de la generación con el aparato del corpus. Ninguna referencia externa actúa como autoridad fundante del catálogo.
