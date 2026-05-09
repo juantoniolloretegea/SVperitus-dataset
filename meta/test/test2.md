@@ -18,7 +18,7 @@
 
 ## Resumen
 
-Este trabajo establece los cinco criterios de admisibilidad de enlace estructural SV (B.1–B.5), derivados de la Tabla Global del catálogo SV-443, y aplica la función de dictamen D(A,B) al dominio completo de 97.903 pares no ordenados del catálogo. La fundamentación doctrinal descansa sobre el Teorema del operador U como motor generativo ternario (§1.5): los criterios B.1–B.5 son la expresión formal de la ventana operativa de U en la secuencia preternario → proto-ternario → ternario de la Teoría del TODO y de la NADA y de la Imperfección, propuesta aquí como ampliación ternaria del marco binario del corpus. El resultado es el Catálogo de Pares Estructurales SV (CPS-SV): 9.515 pares APTO-M (puntos de equilibrio de aleación metálica estructural), 37.580 APTO-C (covalente estructural), 5.075 APTO-I (iónico estructural) y 45.733 NO-APTO. Se analizan los resultados por subdominio (S₁: base×base, S₂: base×ext, S₃: ext×ext), por familias tipológicas Σ₁–Σ₁₂, y se establecen criterios de falsación con invariantes verificables. El laboratorio reproducible en Python 3 genera el CPS-SV completo en menos de un segundo sin dependencias externas.
+Este trabajo establece los cinco criterios de admisibilidad de enlace estructural SV (B.1–B.5), derivados de la Tabla Global del catálogo SV-443, y aplica la función de dictamen D(A,B) al dominio completo de 97.903 pares no ordenados del catálogo. La fundamentación doctrinal descansa sobre el Teorema de la zona de realización ternaria U (§1.5): los criterios B.1–B.5 son la expresión formal de la ventana operativa de U en la secuencia preternario → proto-ternario → ternario de la Teoría del TODO y de la NADA y de la Imperfección, propuesta aquí como ampliación ternaria del marco binario del corpus. El resultado es el Catálogo de Pares Estructurales SV (CPS-SV): 9.515 pares APTO-M (puntos de equilibrio de aleación metálica estructural), 37.580 APTO-C (covalente estructural), 5.075 APTO-I (iónico estructural) y 45.733 NO-APTO. Se analizan los resultados por subdominio (S₁: base×base, S₂: base×ext, S₃: ext×ext), por familias tipológicas Σ₁–Σ₁₂, y se establecen criterios de falsación con invariantes verificables. El laboratorio reproducible en Python 3 genera el CPS-SV completo en menos de un segundo sin dependencias externas.
 
 **Palabras clave:** Sistema Vectorial SV; Catálogo de Pares Estructurales SV; CPS-SV; enlace estructural SV; admisibilidad de par; criterios B.1–B.5; función de dictamen; Teoría del TODO y de la NADA y de la Imperfección; operador U; secuencia preternario–proto–ternario; familias tipológicas Σ₁–Σ₁₂; aleación estructural; extensión periódica; Tabla Cero SV; Tabla Global SV; laboratorio reproducible; criterios de falsación.
 
@@ -34,8 +34,8 @@ This work establishes the five SV structural bonding admissibility criteria (B.1
 
 - §1. Marco doctrinal del CPS-SV
   - §1.1–§1.4. Continuidad, posición, corpus y prohibiciones
-  - §1.5. U como motor generativo: del dominio preternario a la realización ternaria
-  - §1.6. Teorema de predominancia de U y cascada de dominancias (Teorema 1.6.1 + 4 corolarios + Principio P_U)
+  - §1.5. U no es el motor generativo: del dominio preternario a la realización ternaria
+  - §1.6. Teorema de predominancia del régimen de imperfección (Teorema 1.6.1 + 4 corolarios + Principio P_U)
   - §1.7. Marco conceptual: regímenes de realización ternaria
   - §1.8. Propiedades emergentes del par estructural
   - §1.9. Fundamento termodinámico de los estados estables de par
@@ -60,7 +60,7 @@ This work establishes the five SV structural bonding admissibility criteria (B.1
 
 # §1. Posición en el corpus y alcance
 
-El presente trabajo requiere, para su plena autocontención doctrinal, un marco que amplíe la *Teoría del TODO y de la NADA* del corpus SV (Lloret Egea, 2026f) más allá de su formulación binaria. En su versión binaria, la teoría establece la coexistencia de los polos 1 (Todo) y 0 (Nada) con gradiente nulo: suma nula, entropía nula, potencial nulo — matemáticamente exacta en ese nivel. Sin embargo, la existencia de pares estructurales realizados, aleaciones y moléculas — entidades que son imperfecciones estabilizadas en un punto de equilibrio de potencial distinto de cero — exige la ampliación al aparato ternario completo (1, U, 0). Este trabajo propone, como fundamento doctrinal de su propio aparato, la **Teoría del TODO y de la NADA y de la Imperfección**: la ampliación ternaria del marco binario. Esta propuesta escala hacia los niveles doctrinales superiores del corpus no como corrección exógena, sino como exigencia de autocontención: sin ella, el aparato de esta publicación no puede justificar sus propios criterios de admisibilidad. La Teoría del TODO y de la NADA y de la Imperfección queda aquí anunciada; su desarrollo completo pertenece a la capa doctrinal superior. Lo que esta publicación establece, en el §1.5, es únicamente el fragmento que necesita para sostenerse: el Teorema del operador U como motor generativo de la estabilización ternaria.
+El presente trabajo requiere, para su plena autocontención doctrinal, un marco que amplíe la *Teoría del TODO y de la NADA* del corpus SV (Lloret Egea, 2026f) más allá de su formulación binaria. En su versión binaria, la teoría establece la coexistencia de los polos 1 (Todo) y 0 (Nada) con gradiente nulo: suma nula, entropía nula, potencial nulo — matemáticamente exacta en ese nivel. Sin embargo, la existencia de pares estructurales realizados, aleaciones y moléculas — entidades que son imperfecciones estabilizadas en un punto de equilibrio de potencial distinto de cero — exige la ampliación al aparato ternario completo (1, U, 0). Este trabajo propone, como fundamento doctrinal de su propio aparato, la **Teoría del TODO y de la NADA y de la Imperfección**: la ampliación ternaria del marco binario. Esta propuesta escala hacia los niveles doctrinales superiores del corpus no como corrección exógena, sino como exigencia de autocontención: sin ella, el aparato de esta publicación no puede justificar sus propios criterios de admisibilidad. La Teoría del TODO y de la NADA y de la Imperfección queda aquí anunciada; su desarrollo completo pertenece a la capa doctrinal superior. Lo que esta publicación establece, en el §1.5, es únicamente el fragmento que necesita para sostenerse: el Teorema de la zona de realización ternaria U.
 
 ## §1.1. Continuidad con el catálogo SV-443
 
@@ -97,7 +97,7 @@ Las prohibiciones P.1–P.6 del catálogo SV-443 quedan heredadas sin modificaci
 
 ---
 
-# §1.5. U como motor generativo: del dominio preternario a la realización ternaria del par estructural
+# §1.5. U no es el motor generativo: del dominio preternario a la realización ternaria del par estructural
 
 © 2026 Juan Antonio Lloret Egea | ORCID: 0000-0002-6634-3351 | ITVIA | IA eñ™ — La Biblia de la IA™ | ISSN 2695-6411 | CC BY-NC-ND 4.0
 
@@ -111,7 +111,7 @@ El Sistema Vectorial SV opera sobre el alfabeto ternario canónico {0, 1, U}. En
 
 - **0 (Nada)**: el estado de colapso estructural. En el polo 0, la energía de persistencia del par se anula; la suma de ionización supera el umbral de coexistencia (IP_suma > Λ_IP = 1800 kJ/mol). Nada absorbe al par.
 
-- **U (Imperfección)**: el agente operativo del tránsito. U es quien genera el movimiento entre 1 y 0. Sin U, 1 y 0 son estáticos y el sistema permanece en su polo sin transitar. Con U, el tránsito es posible en ambas direcciones: de 1 hacia 0 y de 0 hacia 1.
+- **U (Imperfección)**: la zona de existencia sostenida del par estructural. Los polos 1 y 0 compiten a través de U; ninguno la reclama completamente. Lo que existe como par estructural realizado es precisamente lo que ningún polo ha podido absorber del todo. Sin la zona U, solo existirían los extremos puros — el par idéntico (polo 1) o la absorción (polo 0).
 
 La tensión entre los polos 1 y 0, gobernada por la ecuación rectora 𝓔★_TODO,SV(Γ_U; τ) = 0, genera la Imperfección como zona de existencia sostenida. U no es el motor del tránsito: U es el terreno en que los polos compiten sin que ninguno haya ganado completamente. Lo que existe como par estructural realizado es precisamente lo que ningún polo ha podido reclamar del todo.
 
@@ -119,7 +119,7 @@ La tensión entre los polos 1 y 0, gobernada por la ecuación rectora 𝓔★_TO
 
 ## §1.5.2. La secuencia Pre → Proto → Ternario
 
-En el dominio de pares estructurales SV, U genera la siguiente secuencia de tres niveles:
+En el dominio de pares estructurales SV, La ecuación rectora 𝓔★_TODO,SV = 0 opera la siguiente secuencia de tres niveles:
 
 **Nivel preternario (Pre):**
 Cada elemento k ∈ Ω₄₄₃ existe en el dominio preternario Ω_pre como configuración energética con persistencia parcial. La génesis del hidrógeno del corpus (Lloret Egea, 2026e) establece que Ω_pre es el dominio de configuraciones preatómicas que aún no han alcanzado la cadena completa de admisibilidad individual:
@@ -180,7 +180,7 @@ W_U = { Π(A,B) ∈ Ω_proto | IP_suma(A,B) ≤ Λ_IP ∧ ΔEN_SV(A,B) ≤ 2,71 
 
 El valor 2,71 es la anchura completa de la escala EN_SV del corpus sobre Ω₄₄₃ (§3.2 del CPS-SV).
 
-**Teorema 1.5.1 (U como motor generativo ternario).** Sea Π(A,B) ∈ Ω_proto con A, B ∈ Ω₄₄₃, A ≠ B. El operador U_SV genera realización ternaria de Π(A,B) — esto es, U_SV(A,B) ∈ {APTO-M, APTO-C, APTO-I} — si y solo si se satisfacen simultáneamente:
+**Teorema 1.5.1 (Condiciones de realización ternaria del protopar estructural).** Sea Π(A,B) ∈ Ω_proto con A, B ∈ Ω₄₄₃, A ≠ B. El operador U_SV genera realización ternaria de Π(A,B) — esto es, U_SV(A,B) ∈ {APTO-M, APTO-C, APTO-I} — si y solo si se satisfacen simultáneamente:
 
 **C.1 (persistencia frente a Nada):** IP_suma(A,B) = IP_SV(A) + IP_SV(B) ≤ Λ_IP = 1800 kJ/mol
 
@@ -212,9 +212,9 @@ En todos los casos, U_SV(A,B) ∈ {APTO-M, APTO-C, APTO-I}. **Q.E.D.**
 
 ---
 
-## §1.5.5. Corolario: posición de los tres regímenes APTO en la escala operativa de U
+## §1.5.5. Corolario: posición de los tres regímenes APTO en la escala polar del par estructural
 
-**Corolario 1.5.1.** Los tres regímenes de realización ternaria del CPS-SV corresponden a tres zonas del rango operativo de U sobre la escala EN_SV:
+**Corolario 1.5.1.** Los tres regímenes de realización ternaria del CPS-SV corresponden a tres zonas del escala polar del par estructural sobre la escala EN_SV:
 
 | Régimen | Rango ΔEN_SV | Zona en la escala (1, U, 0) |
 |---|---|---|
@@ -231,11 +231,11 @@ En todos los casos, U_SV(A,B) ∈ {APTO-M, APTO-C, APTO-I}. **Q.E.D.**
 
 El Teorema 1.5.1 establece el fundamento para la secuencia de publicaciones del corpus en química factual SV:
 
-1. **Génesis del hidrógeno** (Lloret Egea, 2026e): U genera el tránsito Pre → Proto → Ternario para **elementos individuales**. La cadena de admisibilidad individual produce Ω₄₄₃.
+1. **Génesis del hidrógeno** (Lloret Egea, 2026e): la ecuación rectora opera la secuencia Pre → Proto → Ternario para **elementos individuales**. La cadena de admisibilidad individual produce Ω₄₄₃.
 
-2. **CPS-SV** (esta publicación): U genera el tránsito Pre → Proto → Ternario para **pares estructurales**. La función de dictamen D(A,B) produce el catálogo de 97.903 pares sobre Ω₄₄₃.
+2. **CPS-SV** (esta publicación): la ecuación rectora opera la secuencia Pre → Proto → Ternario para **pares estructurales**. La función de dictamen D(A,B) produce el catálogo de 97.903 pares sobre Ω₄₄₃.
 
-3. **Moléculas estructurales SV** (publicación futura): U generará el tránsito de pares realizados a **configuraciones moleculares**: Proto-mol → Mol. Los criterios de admisibilidad molecular serán el nivel siguiente de la misma cadena operativa que aquí se establece.
+3. **Moléculas estructurales SV** (publicación futura): la secuencia ascendente del corpus operará de pares realizados a **configuraciones moleculares**: Proto-mol → Mol. Los criterios de admisibilidad molecular serán el nivel siguiente de la misma cadena operativa que aquí se establece.
 
 En los tres casos, la estructura lógica es idéntica: Ω_pre como dominio de potencial → U como agente de tránsito → Ω_ternario como dominio de realización → 𝓔★_TODO,SV(Γ_U) = 0 como compuerta superior de la Teoría del TODO y de la NADA.
 
@@ -246,7 +246,7 @@ En los tres casos, la estructura lógica es idéntica: Ω_pre como dominio de po
 
 ---
 
-## §1.6. Teorema de predominancia de U y cascada de dominancias estructurales del CPS-SV
+## §1.6. Teorema de predominancia del régimen de imperfección y cascada de dominancias del CPS-SV
 
 ### §1.6.1. Axiomas del dominio de dominancias
 
@@ -303,9 +303,9 @@ Las dos rutas de acceso a APTO-C son estructuralmente distintas: la ruta directa
 
 ---
 
-### §1.6.3. Teorema de predominancia de U
+### §1.6.3. Teorema de predominancia del régimen de imperfección
 
-**Teorema 1.6.1 (Teorema de predominancia de U en la cascada de dominancias).** Sea D : Ω_proto → {APTO-M, APTO-C, APTO-I, ∅} la función de dictamen del CPS-SV. Bajo los Axiomas A.1–A.3, se satisfacen simultáneamente:
+**Teorema 1.6.1 (Teorema de predominancia del régimen de imperfección en la cascada de dominancias).** Sea D : Ω_proto → {APTO-M, APTO-C, APTO-I, ∅} la función de dictamen del CPS-SV. Bajo los Axiomas A.1–A.3, se satisfacen simultáneamente:
 
 **(i) Cascada total determinista.** D se descompone en exactamente cinco niveles de dominancia estructural D₀ ⊆ D₁ ⊆ D₂ ⊆ D₃ ⊆ D₄, ordenados por precedencia lógica, tales que cada D_i es condición necesaria para la evaluación de D_{i+1} y A₃ garantiza que ningún nivel puede inferirse de otro.
 
@@ -313,7 +313,7 @@ Las dos rutas de acceso a APTO-C son estructuralmente distintas: la ruta directa
 
 **(iii) Predominancia cardinal.** Sea D_r la restricción de D al subdominio de realizaciones ternarias. Entonces |D_r⁻¹(APTO-C)| > |D_r⁻¹(APTO-M)| y |D_r⁻¹(APTO-C)| > |D_r⁻¹(APTO-I)|. En Ω₄₄₃: 37.580 > 9.515 y 37.580 > 5.075.
 
-**(iv) Principio de predominancia de U.** En todo dominio Ω ⊆ Ω_proto con conjuntos de valores de rango efectivo no vacío en los cuatro criterios activos, la zona de imperfección activa de U domina el espacio de realizaciones ternarias: D_r⁻¹(APTO-C) tiene la mayor cardinalidad entre los tres regímenes realizados. La predominancia no es contingente al dominio empírico Ω₄₄₃: es consecuencia estructural de la doble accesibilidad demostrada en (ii).
+**(iv) Principio de predominancia de la imperfección.** En todo dominio Ω ⊆ Ω_proto con conjuntos de valores de rango efectivo no vacío en los cuatro criterios activos, la zona de imperfección activa de U domina el espacio de realizaciones ternarias: D_r⁻¹(APTO-C) tiene la mayor cardinalidad entre los tres regímenes realizados. La predominancia no es contingente al dominio empírico Ω₄₄₃: es consecuencia estructural de la doble accesibilidad demostrada en (ii).
 
 **Demostración.**
 
@@ -323,7 +323,7 @@ Las dos rutas de acceso a APTO-C son estructuralmente distintas: la ruta directa
 
 (iii) Por la Proposición 1.6.4.
 
-(iv) La Proposición 1.6.4 establece la predominancia para todo Ω con rango no vacío, condición que no depende del contenido empírico específico de Ω₄₄₃. La doble accesibilidad de APTO-C (Proposición 1.6.3) es consecuencia de la estructura lógica de D, no de los valores numéricos de los umbrales. Por tanto, la predominancia de U es una propiedad estructural de la cascada, transferible a cualquier dominio que satisfaga la misma arquitectura de evaluación. **Q.E.D.**
+(iv) La Proposición 1.6.4 establece la predominancia para todo Ω con rango no vacío, condición que no depende del contenido empírico específico de Ω₄₄₃. La doble accesibilidad de APTO-C (Proposición 1.6.3) es consecuencia de la estructura lógica de D, no de los valores numéricos de los umbrales. Por tanto, la predominancia del régimen de imperfección es una propiedad estructural de la cascada, transferible a cualquier dominio que satisfaga la misma arquitectura de evaluación. **Q.E.D.**
 
 ---
 
@@ -349,16 +349,16 @@ Las dos rutas de acceso a APTO-C son estructuralmente distintas: la ruta directa
 
 ### §1.6.5. Principio rector del CPS-SV
 
-**Principio de predominancia de U (P_U).** *En todo dominio de realizaciones ternarias gobernado por una cascada de dominancias con arquitectura D₀–D₄, la zona de imperfección sostenida — donde ningún polo logra dominancia completa — es el régimen de mayor cardinalidad en el espacio de realizaciones. Esta predominancia no es resultado de una configuración particular del dominio empírico sino consecuencia de la doble accesibilidad estructural del régimen de imperfección, demostrada por el Teorema 1.6.1. El principio es transferible a todo dominio que satisfaga la arquitectura de la cascada.*
+**Principio de predominancia de la imperfección (P_U).** *En todo dominio de realizaciones ternarias gobernado por una cascada de dominancias con arquitectura D₀–D₄, la zona de imperfección sostenida — donde ningún polo logra dominancia completa — es el régimen de mayor cardinalidad en el espacio de realizaciones. Esta predominancia no es resultado de una configuración particular del dominio empírico sino consecuencia de la doble accesibilidad estructural del régimen de imperfección, demostrada por el Teorema 1.6.1. El principio es transferible a todo dominio que satisfaga la arquitectura de la cascada.*
 ---
 
 ## §1.7. Marco conceptual: regímenes de realización ternaria
 
-Los tres regímenes de realización ternaria son consecuencia directa del Teorema 1.5.1 y su Corolario 1.5.1. El rango operativo de U sobre la escala ΔEN_SV genera exactamente tres zonas de realización y un régimen de absorción por Nada.
+Los tres regímenes de realización ternaria son consecuencia directa del Teorema 1.5.1 y su Corolario 1.5.1. La escala ΔEN_SV del par estructural determina exactamente tres zonas de realización y un régimen de absorción por Nada, según los umbrales Λ_M y Λ_C fijados por el corpus.
 
-**Régimen APTO-M** — equilibrio estructural de similitud. Cuando dos elementos comparten electronegatividad estructural próxima (ΔEN_SV ≤ Λ_M = 0,50), U opera cerca del polo 1 (Todo): la similitud de propiedades en la capa operatoria del corpus genera compatibilidad posicional. El par alcanza un punto de equilibrio estabilizado en el régimen metálico estructural.
+**Régimen APTO-M** — equilibrio estructural de similitud. Cuando dos elementos comparten electronegatividad estructural próxima (ΔEN_SV ≤ Λ_M = 0,50), el polo 1 (Todo) domina: la similitud de propiedades genera compatibilidad posicional. El par alcanza un punto de equilibrio estabilizado en el régimen metálico estructural.
 
-**Régimen APTO-I** — equilibrio estructural de contraste. Cuando los elementos presentan electronegatividades estructurales contrastadas (ΔEN_SV > Λ_C = 1,50), U opera cerca del límite Todo-Nada: la asimetría de propiedades en la capa operatoria determina la configuración del par. El par alcanza un punto de equilibrio estabilizado en el régimen iónico estructural. No es Nada: los potenciales se igualan sin anularse.
+**Régimen APTO-I** — equilibrio estructural de contraste. Cuando los elementos presentan electronegatividades estructurales contrastadas (ΔEN_SV > Λ_C = 1,50), el diferencial polar se aproxima al límite de absorción: la asimetría de propiedades impone la configuración iónica. El par alcanza un punto de equilibrio estabilizado en el régimen iónico estructural. No es Nada: los potenciales se igualan sin anularse.
 
 **Régimen APTO-C** — equilibrio estructural de coexistencia. El intervalo Λ_M < ΔEN_SV ≤ Λ_C corresponde a la zona de imperfección activa y equilibrada de U: ni identidad completa ni contraste extremo. El par se estabiliza en el régimen covalente estructural.
 
@@ -368,7 +368,7 @@ Los tres regímenes APTO comparten la propiedad fundamental: el punto de equilib
 
 ## §1.8. Propiedades emergentes del par estructural
 
-Un elemento posee propiedades estructurales individuales en el aparato SV: EN_SV, M_SV, IP_SV, r_SV. El par, sin embargo, no hereda mecánicamente esas propiedades: U genera magnitudes propias — ΔEN_SV, M_joint, IP_suma, ρ_SV — que son atributos del par como entidad, irreducibles a los componentes por separado. La emergencia de propiedades de par no previstas en los perfiles individuales φ(A) y φ(B) es precisamente el efecto de U operando sobre el protopar Π(A,B): U introduce el diferencial que genera la configuración ternaria, cuyo carácter es irreducible a los polos individuales.
+Un elemento posee propiedades estructurales individuales en el aparato SV: EN_SV, M_SV, IP_SV, r_SV. El par, sin embargo, no hereda mecánicamente esas propiedades: el par estructural presenta magnitudes propias — ΔEN_SV, M_joint, IP_suma, ρ_SV — que son atributos del par como entidad, irreducibles a los componentes por separado. La emergencia de propiedades de par no previstas en los perfiles individuales φ(A) y φ(B) es precisamente el efecto de U operando sobre el protopar Π(A,B): U introduce el diferencial que genera la configuración ternaria, cuyo carácter es irreducible a los polos individuales.
 
 Un elemento con M_SV = 30% no alcanza por sí solo el umbral de carácter metálico estructural. Emparejado con un elemento de M_SV = 70%, genera M_joint = 50% ≥ Λ_M% = 40,0%, y el par recibe dictamen APTO-M. La admisibilidad metálica estructural es una propiedad del par, no de ninguno de los dos elementos considerados individualmente.
 
@@ -459,7 +459,9 @@ Estas magnitudes son derivadas de las compuertas de persistencia y de la ecuaci�
 
 ## §2.2. El dominio Ω₄₄₃ y sus subdominios
 
-El dominio Ω₄₄₃ = {1, 2,…, 443} es el conjunto de índices del catálogo SV-443. Se particiona en:
+El dominio Ω₄₄₃ = {1, 2,…, 443} es el conjunto de índices del catálogo SV-443 (Lloret Egea, 2026d), cuyos 443 candidatos estructurales fueron generados por la fórmula de la publicación precedente: *Análisis preliminar de elementos químicos, materiales y aleaciones de nueva generación para usos médicos y científicos* (Lloret Egea, 2026e). El alcance declarado en esa publicación — usos médicos y científicos — define el marco de aplicación del CPS-SV y es compatible con la totalidad de los 443 elementos del dominio. > **La misma fórmula, aplicada para k = 119 hasta k = M sin introducir criterios nuevos, puede generar Ω_M con M > 443 si el corpus así lo requiere.**
+
+El dominio Ω₄₄₃ se particiona en:
 
 - **Ω₁₁₈** = {1,…,118}: subdominio base — Tabla Cero (118 elementos).
 - **Ω_ext** = {119,…,443}: subdominio extendido — Tabla 1 (325 candidatos).
@@ -781,7 +783,7 @@ Los cuatro ejemplos siguientes recorren cada paso de la función D(A,B) con todo
 
 **D(26, 24) = APTO-M**
 
-Interpretación: U opera cerca del polo 1 (ΔEN bajo, alta similitud estructural). Los potenciales del par se igualan en el régimen metálico con H_SV > 0 y E^thermo_SV = 0. Este es el acero inoxidable básico: el corpus lo confirma como par de máxima estabilidad metálica estructural.
+Interpretación: el polo 1 (Todo) domina (ΔEN bajo, alta similitud estructural). Los potenciales del par se igualan en el régimen metálico con H_SV > 0 y E^thermo_SV = 0. Este es el acero inoxidable básico: el corpus lo confirma como par de máxima estabilidad metálica estructural.
 
 ---
 
@@ -1625,7 +1627,7 @@ Tiempo (Python 3):  < 1 segundo
 
 ---
 
-*Note: Canonical material source on GitHub: https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/quimica-factual-y-ciencia-de-materiales-sv/catalogo-pares-estructurales. Supplementary reproducible laboratory deposit on Zenodo: DOI pending assignment. These canonical sources are provided to facilitate direct consultation of the living textual record, reproducible laboratory verification and reader-side translation through standard browser translation tools when required.*
+*
 
 ---
 
