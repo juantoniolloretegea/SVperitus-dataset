@@ -1,5 +1,4 @@
-# Catálogo de Pares Estructurales SV (CPS-SV)
-## Enlace estructural y compatibilidad de aleación en el dominio Ω₄₄₃ del Sistema Vectorial SV
+# Catálogo de Pares Estructurales SV (CPS-SV): enlace, aleación y compatibilidad posicional desde los 118 elementos base hasta los 443 candidatos del dominio extendido
 
 **Autor:** Juan Antonio Lloret Egea  
 **ORCID:** 0000-0002-6634-3351  
@@ -7,80 +6,325 @@
 **Publicación:** IA eñ™ — La Biblia de la IA™  
 **ISSN:** 2695-6411  
 **Licencia:** CC BY-NC-ND 4.0  
-**Fecha:** Madrid, 2026  
-**DOI:** pendiente de asignación  
-**Repositorio:** https://github.com/juantoniolloretegea/SV-matematica-semantica  
+**Fecha:** Madrid, 09/05/2026  
+**DOI:** pendiente de asignación (HCOMMONS)  
+**Repositorio canónico:** https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/quimica-factual-y-ciencia-de-materiales-sv/catalogo-pares-estructurales  
 **Publicación base:** DOI 10.17613/8ryyb-g9h48 (catálogo SV-443)
 
 ---
 
 ## Resumen
 
-Este trabajo establece los cinco criterios de admisibilidad de enlace estructural SV (B.1–B.5) derivados de la Tabla 2 del catálogo SV-443, define la función de dictamen D(A,B) y aplica ambos al dominio completo de 97.903 pares no ordenados del catálogo. El resultado es el **Catálogo de Pares Estructurales SV** (CPS-SV): 9.515 pares APTO-M (aleación metálica estructural), 37.580 APTO-C (covalente estructural), 5.075 APTO-I (iónico estructural) y 45.733 NO-APTO. Se analizan los resultados por subdominio (S₁: base×base, S₂: base×ext, S₃: ext×ext), por familias tipológicas Σ₁–Σ₁₂, y se establecen criterios de falsación formales con invariantes verificables. El laboratorio reproducible en Python 3 genera el CPS-SV completo en menos de un segundo sin dependencias externas.
+Este trabajo establece los cinco criterios de admisibilidad de enlace estructural SV (B.1–B.5), derivados de la Tabla Global del catálogo SV-443, y aplica la función de dictamen D(A,B) al dominio completo de 97.903 pares no ordenados del catálogo. La fundamentación doctrinal descansa sobre el Teorema del operador U como motor generativo ternario (§1.4bis): los criterios B.1–B.5 son la expresión formal de la ventana operativa de U en la secuencia preternario → proto-ternario → ternario de la Teoría del TODO y de la NADA y de la Imperfección, propuesta aquí como ampliación ternaria del marco binario del corpus. El resultado es el Catálogo de Pares Estructurales SV (CPS-SV): 9.515 pares APTO-M (puntos de equilibrio de aleación metálica estructural), 37.580 APTO-C (covalente estructural), 5.075 APTO-I (iónico estructural) y 45.733 NO-APTO. Se analizan los resultados por subdominio (S₁: base×base, S₂: base×ext, S₃: ext×ext), por familias tipológicas Σ₁–Σ₁₂, y se establecen criterios de falsación con invariantes verificables. El laboratorio reproducible en Python 3 genera el CPS-SV completo en menos de un segundo sin dependencias externas.
 
-**Palabras clave:** Sistema Vectorial SV; enlace estructural SV; admisibilidad de par; catálogo de pares; criterios B.1–B.5; función de dictamen; familias tipológicas Σ₁–Σ₁₂; aleación estructural; extensión periódica; candidatos superpesados; laboratorio reproducible; criterios de falsación.
+**Palabras clave:** Sistema Vectorial SV; Catálogo de Pares Estructurales SV; CPS-SV; enlace estructural SV; admisibilidad de par; criterios B.1–B.5; función de dictamen; Teoría del TODO y de la NADA y de la Imperfección; operador U; secuencia preternario–proto–ternario; familias tipológicas Σ₁–Σ₁₂; aleación estructural; extensión periódica; Tabla Cero SV; Tabla Global SV; laboratorio reproducible; criterios de falsación.
 
-**Keywords:** Vectorial System SV; SV structural bonding; pair admissibility; pair catalogue; B.1–B.5 criteria; verdict function; typological families Σ₁–Σ₁₂; structural alloy; periodic extension; superheavy candidates; reproducible laboratory; falsification criteria.
+## Abstract
+
+This work establishes the five SV structural bonding admissibility criteria (B.1–B.5), derived from the Global Table of the SV-443 catalogue, and applies the verdict function D(A,B) to the complete domain of 97,903 unordered pairs. The doctrinal foundation rests on the Theorem of the U operator as ternary generative motor (§1.4bis): criteria B.1–B.5 are the formal expression of U's operational window in the preternary → proto-ternary → ternary sequence of the Theory of Everything, Nothing and Imperfection, proposed here as the ternary extension of the binary framework of the corpus. The result is the SV Structural Pair Catalogue (CPS-SV): 9,515 APTO-M pairs (metallic structural alloy equilibrium points), 37,580 APTO-C (covalent structural), 5,075 APTO-I (ionic structural), and 45,733 NO-APTO. Results are analysed by subdomain (S₁: base×base, S₂: base×ext, S₃: ext×ext), by typological families Σ₁–Σ₁₂, and falsification criteria are established with verifiable invariants. The reproducible Python 3 laboratory generates the complete CPS-SV in under one second with no external dependencies.
+
+**Keywords:** Vectorial System SV; SV Structural Pair Catalogue; CPS-SV; SV structural bonding; pair admissibility; B.1–B.5 criteria; verdict function; Theory of Everything Nothing and Imperfection; U operator; preternary–proto–ternary sequence; typological families Σ₁–Σ₁₂; structural alloy; periodic extension; Zero Table SV; Global Table SV; reproducible laboratory; falsification criteria.
 
 ---
 
 ## Índice
 
 - §1. Posición en el corpus y alcance
-- §2. Marco de dominio — Tabla 2 y el espacio de pares Ω₄₄₃
-- §3. Criterios de admisibilidad de enlace estructural SV
-- §4. Aplicación al dominio completo Ω₄₄₃ × Ω₄₄₃
-- §5. Desglose por familias tipológicas Σ₁–Σ₁₂
+- §2. Marco de dominio — Tabla Global y espacio de pares Ω₄₄₃
+- §3. Criterios de admisibilidad de enlace estructural SV — Definiciones formales
+- §4. Aplicación de la función de dictamen al dominio completo Ω₄₄₃ × Ω₄₄₃
+- §5. Desglose del CPS-SV por familias tipológicas Σ₁–Σ₁₂
 - §6. Criterios de falsación del CPS-SV
 - §8. Laboratorio reproducible
 - Referencias
 
 ---
 
+---
+
 # §1. Posición en el corpus y alcance
 
-© 2026 Juan Antonio Lloret Egea | ORCID: 0000-0002-6634-3351 | ITVIA | IA eñ™ — La Biblia de la IA™ | ISSN 2695-6411 | CC BY-NC-ND 4.0
-
----
+El presente trabajo requiere, para su plena autocontención doctrinal, un marco que amplíe la *Teoría del TODO y de la NADA* del corpus SV (Lloret Egea, 2026f) más allá de su formulación binaria. En su versión binaria, la teoría establece la coexistencia de los polos 1 (Todo) y 0 (Nada) con gradiente nulo: suma nula, entropía nula, potencial nulo — matemáticamente exacta en ese nivel. Sin embargo, la existencia de pares estructurales realizados, aleaciones y moléculas — entidades que son imperfecciones estabilizadas en un punto de equilibrio de potencial distinto de cero — exige la ampliación al aparato ternario completo (1, U, 0). Este trabajo propone, como fundamento doctrinal de su propio aparato, la **Teoría del TODO y de la NADA y de la Imperfección**: la ampliación ternaria del marco binario. Esta propuesta escala hacia los niveles doctrinales superiores del corpus no como corrección exógena, sino como exigencia de autocontención: sin ella, el aparato de esta publicación no puede justificar sus propios criterios de admisibilidad. La Teoría del TODO y de la NADA y de la Imperfección queda aquí anunciada; su desarrollo completo pertenece a la capa doctrinal superior. Lo que esta publicación establece, en el §1.4bis, es únicamente el fragmento que necesita para sostenerse: el Teorema del operador U como motor generativo de la estabilización ternaria.
 
 ## §1.1. Continuidad con el catálogo SV-443
 
-Esta publicación es la continuación directa del *Análisis preliminar de elementos, materiales y aleaciones de nueva generación en el Sistema Vectorial SV* (Lloret Egea, 2026d, DOI: 10.17613/8ryyb-g9h48), en adelante **catálogo SV-443**. Su objeto es extender el catálogo desde la caracterización de elementos individuales hacia la caracterización de pares estructurales: dada la Tabla 2 del catálogo SV-443, ¿qué pares de elementos son estructuralmente admisibles como enlace o aleación bajo el aparato del Sistema Vectorial SV?
-
-La respuesta se formaliza mediante cinco criterios de admisibilidad (B.1–B.5), una función de dictamen D(A,B) y el **Catálogo de Pares Estructurales SV** (CPS-SV): la enumeración completa y verificada de los 97.903 pares no ordenados de Ω₄₄₃ con su dictamen, magnitudes derivadas y subdominio de pertenencia.
+Esta publicación es la continuación directa del *Análisis preliminar de elementos, materiales y aleaciones de nueva generación en el Sistema Vectorial SV* (Lloret Egea, 2026d, DOI: 10.17613/8ryyb-g9h48), en adelante **catálogo SV-443**. Su objeto es extender el catálogo desde la caracterización de elementos individuales hacia la caracterización de pares estructurales: dada la Tabla Global del catálogo SV-443, qué pares de elementos son estructuralmente admisibles como enlace o aleación bajo el aparato del Sistema Vectorial SV.
 
 ## §1.2. Posición en la cadena ascendente del corpus
 
-El corpus SV está articulado en una cadena ascendente de trece niveles (Lloret Egea, 2026f). Esta publicación opera en el nivel de **química estructural SV**, inmediatamente por encima del nivel de tabla periódica estructural (catálogo SV-443) y por debajo del nivel de materiales y aleaciones complejas. Su posición es análoga a la que ocupa la química del enlace respecto a la tabla periódica en el formalismo convencional, con la diferencia constitutiva de que el aparato SV no invoca formalismo de Hilbert, probabilidad fundante ni tiempo soberano en ningún punto.
+El corpus SV está articulado en una cadena ascendente de trece niveles (Lloret Egea, 2026f). Esta publicación opera en el nivel de química estructural SV, inmediatamente por encima del nivel de tabla periódica estructural (catálogo SV-443) y por debajo del nivel de materiales y aleaciones complejas. Su posición es análoga a la que ocupa la química del enlace respecto a la tabla periódica en el formalismo convencional, con la diferencia constitutiva de que el aparato SV no invoca formalismo de Hilbert, probabilidad fundante ni tiempo soberano en ningún punto.
 
 ## §1.3. Relación con otras publicaciones del corpus
 
 | Publicación | DOI | Relación con este trabajo |
 |---|---|---|
-| Génesis del hidrógeno | ITVIA/HCOMMONS | Establece los 118 candidatos base (Ω₁₁₈); fuente de calibración B.1–B.4 |
-| Catálogo SV-443 | 10.17613/8ryyb-g9h48 | Provee la Tabla 2 (propiedades estructurales); define Ω₄₄₃ |
-| Ecuación factual Maxwell | 10.17613/kep1t-57539 | Marco electromagnético del corpus; referencia doctrinal para §3.10 |
-| Fórmula de Campo Unificado | 10.17613/gxfv3-qjj64 | Referencia doctrinal para la distinción técnica de §3.10 |
-| De Bell a Tsirelson | 10.17613/1666c-c5g66 | Referencia doctrinal del aparato de admisibilidad estructural |
-| Teoría del TODO y de la NADA | GitHub corpus | Marco de cierre; nivel 13 de la cadena ascendente |
+| Génesis del hidrógeno | DOI 10.17613/qq4q9-sd847 | Establece Ω₁₁₈ y la secuencia Ω_pre → Ω_H; fuente de la Tabla Cero |
+| Catálogo SV-443 | DOI 10.17613/8ryyb-g9h48 | Provee la Tabla Global; define Ω₄₄₃ |
+| Teoría general de sucesos generadores | ITVIA/HCOMMONS | Establece Ω_pre y los protocampos; fundamento del §1.4bis |
+| Ecuación factual Maxwell | DOI 10.17613/kep1t-57539 | Referencia doctrinal para §3.10 |
+| Fórmula de Campo Unificado | DOI 10.17613/gxfv3-qjj64 | Referencia para la distinción técnica de §3.10 |
+| De Bell a Tsirelson | DOI 10.17613/1666c-c5g66 | Marco de co-clausura ternaria y distinción técnica de inconmensurabilidad (§3.10) |
+| Teoría del TODO y de la NADA | ITVIA/GitHub | Marco de cierre del corpus; fundamento del §1.4bis |
+| Entropía factual e irreversibilidad estructural | DOI 10.17613/vh6ak-6em43 | Fundamento termodinámico de los estados estables (§1.7) |
+| Fórmula termodinámica factual única | DOI 10.17613/ptw68-d1r57 | Ecuación de equilibrio E^thermo_SV = 0 (§1.7) |
+| Interacción, intercomposición y transmisión de campos | GitHub (corpus SV) | Operador 𝓘_SV, distancia factual fibrosa d^SV_Φ, compuerta Σ=1 (§1.8) |
 
 ## §1.4. Prohibiciones constitutivas adicionales
 
-Las prohibiciones P.1–P.6 del catálogo SV-443 quedan heredadas sin modificación. Este trabajo añade tres prohibiciones específicas al dominio de pares:
+Las prohibiciones P.1–P.6 del catálogo SV-443 quedan heredadas sin modificación. Este trabajo añade tres postulados operatorios específicos al dominio de pares:
 
-**P.7** — Los criterios B.1–B.5 y sus dictámenes no afirman ni implican equivalencia con los criterios cuánticos de enlace (Pauling, Hume-Rothery, Drude-Sommerfeld ni derivados). Los marcos son inconmensurables (§3.10).
+**P.7** — Los dictámenes APTO-M, APTO-C, APTO-I son postulados de realización ternaria del operador U_SV sobre el protopar Π(A,B). Su correspondencia con los regímenes cuánticos convencionales es una cuestión abierta que el contraste experimental resolverá cuando los pares correspondientes sean accesibles.
 
-**P.8** — Los dictámenes APTO-M, APTO-C, APTO-I no afirman la existencia de enlace metálico, covalente o iónico en sentido cuántico. Son etiquetas del régimen estructural SV del par.
+**P.8** — Los pares con al menos un elemento de Ω_ext (k > 118) tienen estatuto U proto-ternario: admisibles en el dominio de operación de U_SV, en espera de realización experimental.
 
-**P.9** — Ningún par con dictamen APTO que incluya al menos un elemento de Ω_ext (k > 118) constituye predicción de síntesis ni de detección experimental. Su estatuto operatorio es U.
+**P.9** — El dominio proto-ternario Ω_proto contiene 97.903 protopares de Ω₄₄₃. El CPS-SV cataloga cuáles de ellos alcanzan realización ternaria bajo U_SV y cuáles son absorbidos por Nada (NO-APTO).
 
 ---
 
-# §2. Marco de dominio — Tabla 2 y el espacio de pares Ω₄₄₃
+# §1.4bis. U como motor generativo: del dominio preternario a la realización ternaria del par estructural
 
-## §2.1. La Tabla 2 como fuente única de propiedades de par
+© 2026 Juan Antonio Lloret Egea | ORCID: 0000-0002-6634-3351 | ITVIA | IA eñ™ — La Biblia de la IA™ | ISSN 2695-6411 | CC BY-NC-ND 4.0
 
-El CPS-SV opera exclusivamente sobre cuatro magnitudes de la Tabla 2 del catálogo SV-443:
+---
+
+## §1.4bis.1. Fundamento: la terna (1, U, 0) y el principio de tránsito
+
+El Sistema Vectorial SV opera sobre el alfabeto ternario canónico {0, 1, U}. En términos de la *Teoría del TODO y de la NADA* del corpus (Lloret Egea, 2026f), los tres valores tienen estatuto asimétrico:
+
+- **1 (Todo)**: el estado de completitud estructural absoluta. En el polo 1, la configuración es plenamente cerrada, sin gradiente, sin tránsito. El par de máxima similitud estructural (ΔEN_SV = 0, ρ_SV = 1) tiende al polo 1.
+
+- **0 (Nada)**: el estado de colapso estructural. En el polo 0, la energía de persistencia del par se anula; la suma de ionización supera el umbral de coexistencia (IP_suma > Λ_IP = 1800 kJ/mol). Nada absorbe al par.
+
+- **U (Imperfección)**: el agente operativo del tránsito. U es quien genera el movimiento entre 1 y 0. Sin U, 1 y 0 son estáticos y el sistema permanece en su polo sin transitar. Con U, el tránsito es posible en ambas direcciones: de 1 hacia 0 y de 0 hacia 1.
+
+**La batuta la tiene U.** Esta es la asimetría constitutiva del corpus SV: ni 1 ni 0 generan tránsito por sí solos. U es el motor.
+
+Expresado en la notación canónica: la terna se escribe (1, U, 0) cuando se preserva la perspectiva generativa — primero el Todo, luego la Imperfección que lo pone en movimiento, luego la Nada como destino posible. La escritura cultural (0, 1, U) es equivalente formalmente, pero puede ocultar la asimetría generativa.
+
+---
+
+## §1.4bis.2. La secuencia Pre → Proto → Ternario
+
+En el dominio de pares estructurales SV, U genera la siguiente secuencia de tres niveles:
+
+**Nivel preternario (Pre):**
+Cada elemento k ∈ Ω₄₄₃ existe en el dominio preternario Ω_pre como configuración energética con persistencia parcial. La génesis del hidrógeno del corpus (Lloret Egea, 2026e) establece que Ω_pre es el dominio de configuraciones preatómicas que aún no han alcanzado la cadena completa de admisibilidad individual:
+
+persistencia → frontera → residual → identidad → descendencia protocampal → no artificio → 𝓔★_TODO,SV(Γ_U) = 0.
+
+Solo los elementos que atraviesan la cadena completa acceden a Ω₄₄₃. En el nivel preternario, los elementos existen como potencial estructural, no como entidades combinables.
+
+**Nivel proto-ternario (Proto):**
+Cuando dos elementos A, B ∈ Ω₄₄₃ entran en interacción en Ω_pre, U comienza a operar sobre la configuración conjunta. Se forma el **protopar** Π(A,B): la entidad proto-ternaria definida por los dos perfiles estructurales φ(A) y φ(B) en contacto, antes de que U determine si la realización ternaria es posible.
+
+El protopar Π(A,B) existe en el dominio proto-ternario:
+
+Ω_proto = { Π(A,B) | A, B ∈ Ω₄₄₃, A ≠ B }
+
+con cardinalidad |Ω_proto| = C(443,2) = 97.903 protopares.
+
+De manera análoga, la **protoaleación** es el protopar en el que U opera dentro del rango metálico estructural (ΔEN_SV ≤ Λ_M), constituyendo el precursor de los 9.515 pares APTO-M del CPS-SV.
+
+**Nivel ternario (Ternario):**
+Si U opera dentro de su ventana de admisibilidad sobre Π(A,B), el protopar alcanza realización ternaria y entra en el Catálogo de Pares Estructurales SV (CPS-SV) con dictamen APTO-M, APTO-C o APTO-I. Si U excede los umbrales de persistencia o no puede cerrar el morfismo posicional, el protopar retorna a Nada: dictamen NO-APTO, U absorbido por 0.
+
+---
+
+## §1.4bis.3. Los criterios B.1–B.5 como expresión formal de la ventana operativa de U
+
+Los cinco criterios de admisibilidad de par B.1–B.5 del §3 no son umbrales arbitrarios. Son la formalización de las condiciones bajo las cuales U puede operar sobre Π(A,B) generando realización ternaria sin que 0 absorba al par:
+
+| Criterio | Condición | Papel en la operación de U |
+|---|---|---|
+| B.5 | A, B ∈ Ω₄₄₃ | Ambos elementos han completado su propia cadena pre → proto → ternario individual. U hereda su descendencia protocampal (Desc_proto = 1 de cada elemento). |
+| B.4 | IP_suma ≤ Λ_IP | U mantiene el par dentro del umbral de persistencia energética. Si IP_suma > Λ_IP, Nada (0) absorbe el par. Es la condición de supervivencia energética del tránsito. |
+| B.1 | ΔEN_SV ≤ Λ_C o > Λ_C | U determina el régimen de imperfección polar del par: cercano a 1 (ΔEN bajo, APTO-M), en zona intermedia (APTO-C), o próximo al límite Todo-Nada (APTO-I). |
+| B.2 | ρ_SV ≤ Λ_ρ | En el régimen metálico (ΔEN ≤ Λ_M), U debe cerrar el morfismo posicional. Si los radios son incompatibles, U no puede cerrar el par estructuralmente: 0 gana el eje posicional. |
+| B.3 | M_joint ≥ Λ_M% | En el régimen metálico, U necesita masa metálica estructural conjunta suficiente para completar la realización. Sin ella, reclasifica el par al régimen covalente (U puede cerrar, pero en modo distinto). |
+
+La cadena operativa de U sobre Π(A,B) es:
+
+**B.5** (herencia preternaria) → **B.4** (persistencia frente a Nada) → **B.1** (régimen de imperfección polar) → **B.2** (morfismo posicional) → **B.3** (masa metálica conjunta) → **Realización ternaria**
+
+Esta cadena es paralela exacta a la cadena de admisibilidad individual de la génesis del hidrógeno:
+
+persistencia → frontera → residual → identidad → Desc_proto → no artificio → 𝓔★_TODO,SV(Γ_U) = 0
+
+---
+
+## §1.4bis.4. Teorema de generación ternaria de pares estructurales SV bajo el operador U
+
+**Definición 1.4bis.1 (operador de realización ternaria U_SV).** Sea Ω_proto el dominio proto-ternario de protopares sobre Ω₄₄₃. El operador de realización ternaria es la función:
+
+U_SV : Ω_proto → {APTO-M, APTO-C, APTO-I, ∅}
+
+donde ∅ denota retorno a Nada (NO-APTO en el vocabulario del CPS-SV). U_SV coincide con la función de dictamen D(A,B) del §3.8 bajo la convención NO-APTO → ∅.
+
+**Definición 1.4bis.2 (ventana de persistencia de U).** La ventana de persistencia de U sobre Ω_proto es el conjunto:
+
+W_U = { Π(A,B) ∈ Ω_proto | IP_suma(A,B) ≤ Λ_IP ∧ ΔEN_SV(A,B) ≤ 2,71 }
+
+El valor 2,71 es la anchura completa de la escala EN_SV del corpus sobre Ω₄₄₃ (§3.2 del CPS-SV).
+
+**Teorema 1.4bis.1 (U como motor generativo ternario).** Sea Π(A,B) ∈ Ω_proto con A, B ∈ Ω₄₄₃, A ≠ B. El operador U_SV genera realización ternaria de Π(A,B) — esto es, U_SV(A,B) ∈ {APTO-M, APTO-C, APTO-I} — si y solo si se satisfacen simultáneamente:
+
+**C.1 (persistencia frente a Nada):** IP_suma(A,B) = IP_SV(A) + IP_SV(B) ≤ Λ_IP = 1800 kJ/mol
+
+**C.2 (vocabulario operativo de U):** ΔEN_SV(A,B) = |EN_SV(A) − EN_SV(B)| ≤ 2,71
+
+**C.3 (cierre posicional en régimen metálico):** Si ΔEN_SV(A,B) ≤ Λ_M = 0,50, entonces ρ_SV(A,B) ≤ Λ_ρ = 1,40
+
+**Demostración:**
+
+*(⟹)* Sea U_SV(A,B) ∈ {APTO-M, APTO-C, APTO-I}.
+
+Por la función D del §3.8, el primer test ejecutado es B.4. Si IP_suma(A,B) > Λ_IP, D devuelve NO-APTO → ∅. Luego IP_suma(A,B) ≤ Λ_IP, estableciendo **C.1**.
+
+B.1 determina χ_B1(A,B) ∈ {M, C, I} según ΔEN_SV. El rango de EN_SV en Ω₄₄₃ es [0,00; 2,71] por construcción del catálogo SV-443 (§2.1 del CPS-SV), luego ΔEN_SV(A,B) ≤ 2,71, estableciendo **C.2**.
+
+Si χ_B1 = M (ΔEN_SV ≤ Λ_M), D ejecuta B.2 y B.3. Si ρ_SV > Λ_ρ, D devuelve NO-APTO → ∅. Si M_joint < Λ_M%, B.3 reclasifica a APTO-C, que pertenece al conjunto objetivo; pero si ambos fallan simultáneamente de forma que D devuelve ∅, la hipótesis queda refutada. Luego ρ_SV ≤ Λ_ρ y M_joint ≥ Λ_M% (o B.3 reclasifica a APTO-C sin invalidar U_SV ∈ {APTO-M, APTO-C, APTO-I}), estableciendo **C.3**.
+
+*(⟸)* Sean C.1, C.2, C.3 satisfechas.
+
+**C.1** garantiza que B.4 = ADMISIBLE: U sobrevive a 0 en el eje energético.
+
+**C.2** garantiza que ΔEN_SV ≤ 2,71, luego χ_B1(A,B) ∈ {M, C, I} por la definición de B.1 (el diferencial se encuentra dentro del vocabulario operativo del corpus).
+
+Si χ_B1 ∈ {C, I}: D devuelve APTO-C o APTO-I directamente. U_SV(A,B) ∈ {APTO-C, APTO-I} ⊂ {APTO-M, APTO-C, APTO-I}.
+
+Si χ_B1 = M: **C.3** garantiza ρ_SV ≤ Λ_ρ (B.2 = ADMISIBLE). B.3 determina el régimen dentro de lo ternario: si M_joint ≥ Λ_M%, D devuelve APTO-M; si M_joint < Λ_M%, D devuelve APTO-C (RECLASIFICA-C). En ambos casos D devuelve un elemento de {APTO-M, APTO-C, APTO-I}: realización ternaria confirmada. M_joint no es condición de acceso a lo ternario sino discriminante de régimen.
+
+En todos los casos, U_SV(A,B) ∈ {APTO-M, APTO-C, APTO-I}. **Q.E.D.**
+
+---
+
+## §1.4bis.5. Corolario: posición de los tres regímenes APTO en la escala operativa de U
+
+**Corolario 1.4bis.1.** Los tres regímenes de realización ternaria del CPS-SV corresponden a tres zonas del rango operativo de U sobre la escala EN_SV:
+
+| Régimen | Rango ΔEN_SV | Zona en la escala (1, U, 0) |
+|---|---|---|
+| APTO-M | ΔEN_SV ∈ [0; 0,50] | U opera próximo al polo 1 (Todo): similitud estructural dominante. El par tiende a la identidad estructural. |
+| APTO-C | ΔEN_SV ∈ (0,50; 1,50] | U opera en la zona de imperfección activa y equilibrada: ni identidad completa ni contraste extremo. |
+| APTO-I | ΔEN_SV ∈ (1,50; 2,71] | U opera próximo al límite Todo-Nada: contraste estructural dominante, pero sin que 0 absorba el par. |
+| NO-APTO (∅) | IP_suma > Λ_IP o (ΔEN_SV ≤ Λ_M ∧ ρ_SV > Λ_ρ) | Nada (0) absorbe el par: U superado en el eje energético o en el eje posicional. |
+
+**Demostración del corolario:** Directa por la definición de los umbrales Λ_M, Λ_C del criterio B.1 y la función D del §3.8. Los tres intervalos particionan [0; 2,71] de forma determinista. El cuarto caso corresponde a los dos modos de absorción por 0: B.4 (eje energético) y B.2 en régimen M (eje posicional). M_joint(A,B) opera como discriminante de régimen dentro de METAL-SV: si M_joint ≥ Λ_M% el par se confirma APTO-M; si M_joint < Λ_M% el par se reclasifica APTO-C (ruta RECLASIFICA-C, 6.144 pares verificados). M_joint no determina si hay realización ternaria sino cuál de los dos primeros regímenes resulta. **Q.E.D.**
+
+---
+
+## §1.4bis.6. Conexión con la publicación futura de moléculas
+
+El Teorema 1.4bis.1 establece el fundamento para la secuencia de publicaciones del corpus en química factual SV:
+
+1. **Génesis del hidrógeno** (Lloret Egea, 2026e): U genera el tránsito Pre → Proto → Ternario para **elementos individuales**. La cadena de admisibilidad individual produce Ω₄₄₃.
+
+2. **CPS-SV** (esta publicación): U genera el tránsito Pre → Proto → Ternario para **pares estructurales**. La función de dictamen D(A,B) produce el catálogo de 97.903 pares sobre Ω₄₄₃.
+
+3. **Moléculas estructurales SV** (publicación futura): U generará el tránsito de pares realizados a **configuraciones moleculares**: Proto-mol → Mol. Los criterios de admisibilidad molecular serán el nivel siguiente de la misma cadena operativa que aquí se establece.
+
+En los tres casos, la estructura lógica es idéntica: Ω_pre como dominio de potencial → U como agente de tránsito → Ω_ternario como dominio de realización → 𝓔★_TODO,SV(Γ_U) = 0 como compuerta superior de la Teoría del TODO y de la NADA.
+
+---
+
+
+---
+
+## §1.5. Marco conceptual: regímenes de realización ternaria
+
+Los tres regímenes de realización ternaria son consecuencia directa del Teorema 1.4bis.1 y su Corolario 1.4bis.1. El rango operativo de U sobre la escala ΔEN_SV genera exactamente tres zonas de realización y un régimen de absorción por Nada.
+
+**Régimen APTO-M** — equilibrio estructural de similitud. Cuando dos elementos comparten electronegatividad estructural próxima (ΔEN_SV ≤ Λ_M = 0,50), U opera cerca del polo 1 (Todo): la similitud de propiedades en la capa operatoria del corpus genera compatibilidad posicional. El par alcanza un punto de equilibrio estabilizado en el régimen metálico estructural.
+
+**Régimen APTO-I** — equilibrio estructural de contraste. Cuando los elementos presentan electronegatividades estructurales contrastadas (ΔEN_SV > Λ_C = 1,50), U opera cerca del límite Todo-Nada: la asimetría de propiedades en la capa operatoria determina la configuración del par. El par alcanza un punto de equilibrio estabilizado en el régimen iónico estructural. No es Nada: los potenciales se igualan sin anularse.
+
+**Régimen APTO-C** — equilibrio estructural de coexistencia. El intervalo Λ_M < ΔEN_SV ≤ Λ_C corresponde a la zona de imperfección activa y equilibrada de U: ni identidad completa ni contraste extremo. El par se estabiliza en el régimen covalente estructural.
+
+**Régimen NO-APTO** — absorción por Nada. Cuando IP_suma > Λ_IP = 1800 kJ/mol (barrera de potencial insuperable para U) o ρ_SV > Λ_ρ = 1,40 en régimen metálico (U no puede cerrar el morfismo posicional), el par no encuentra punto de equilibrio y retorna a Ω_pre como elementos individuales. Nada absorbe al par. No es destrucción: es ausencia de realización ternaria.
+
+Los tres regímenes APTO comparten la propiedad fundamental: el punto de equilibrio de potencial del par es distinto de cero. La igualación de potenciales entre los dos elementos no produce potencial nulo — eso sería muerte estructural — sino potencial equilibrado: el sistema vivo que ha cruzado la barrera de potencial y descansa en un punto de coexistencia estable.
+
+## §1.6. Propiedades emergentes del par estructural
+
+Un elemento posee propiedades estructurales individuales en el aparato SV: EN_SV, M_SV, IP_SV, r_SV. El par, sin embargo, no hereda mecánicamente esas propiedades: U genera magnitudes propias — ΔEN_SV, M_joint, IP_suma, ρ_SV — que son atributos del par como entidad, irreducibles a los componentes por separado. La emergencia de propiedades de par no previstas en los perfiles individuales φ(A) y φ(B) es precisamente el efecto de U operando sobre el protopar Π(A,B): U introduce el diferencial que genera la configuración ternaria, cuyo carácter es irreducible a los polos individuales.
+
+Un elemento con M_SV = 30% no alcanza por sí solo el umbral de carácter metálico estructural. Emparejado con un elemento de M_SV = 70%, genera M_joint = 50% ≥ Λ_M% = 40,0%, y el par recibe dictamen APTO-M. La admisibilidad metálica estructural es una propiedad del par, no de ninguno de los dos elementos considerados individualmente.
+
+El caso inverso es igualmente válido: dos elementos con M_SV = 38% cada uno producen M_joint = 38% < 40,0%; si además su ΔEN_SV ≤ 0,50 y ρ_SV ≤ 1,40, el par no recibe NO-APTO sino APTO-C (ruta RECLASIFICA-C): la admisibilidad estructural se sostiene, pero en régimen covalente, no metálico.
+
+En términos de aleación estructural, esto significa que el resultado del par puede superar las propiedades individuales de ambos componentes, quedar por debajo, o situarse en un régimen estructural que ninguno de los dos ocupaba por separado. El bronce — cobre más estaño — endurece más allá de cualquiera de sus componentes: el aparato SV formaliza esta posibilidad como propiedad de la secuencia proto-ternario → ternario, no como excepción.
+
+La pérdida de esta perspectiva sistémica — tratar cada elemento como unidad autónoma sin considerar su comportamiento en par — reduce el análisis de materiales a un inventario de propiedades individuales, insuficiente para predecir el comportamiento del conjunto. El CPS-SV opera precisamente en el nivel intermedio: el del par como entidad estructural propia con criterios de admisibilidad derivados de la interacción, no de la suma de partes.
+
+---
+
+## §1.7. Fundamento termodinámico de los estados estables de par
+
+Los estados APTO del CPS-SV no son categorías de clasificación arbitrarias: son puntos de equilibrio termodinámico estructural del par (A,B). Su existencia y estabilidad se derivan del aparato termodinámico del corpus SV (Lloret Egea, 2026i; Lloret Egea, 2026j) mediante tres propiedades encadenadas.
+
+**Primera propiedad — El sesgo polar del protopar.**
+
+El documento de entropía factual del corpus (Lloret Egea, 2026i) establece que cada posición preternaria ξ_i tiene un sesgo polar δ_i = β_i − α_i, donde β_i es la componente de acumulación hacia el polo 1 (Todo) y α_i la componente hacia el polo 0 (Nada). El sesgo polar mide la separación efectiva entre los dos polos en la posición i.
+
+**Proposición 1.7.1 (ΔEN_SV como sesgo polar de par).** Sea Π(A,B) un protopar con A, B ∈ Ω₄₄₃. La magnitud ΔEN_SV(A,B) = |EN_SV(A) − EN_SV(B)| es la realización del sesgo polar diferencial del protopar sobre la escala de la Tabla Global del corpus.
+
+*Demostración.* En la Tabla Global, EN_SV(k) es la proyección escalar de la posición del elemento k sobre el eje polar del corpus, con EN_SV = 0 correspondiendo al polo 0 (Nada estructural: carácter metálico puro, sin separación electrónica) y EN_SV = 2,71 al polo 1 (Todo estructural: máxima separación electrónica, carácter no metálico). El sesgo polar de la posición del elemento k en la Tabla Global es δ(k) = EN_SV(k) − 0 = EN_SV(k). Para el protopar Π(A,B), el sesgo polar diferencial es |δ(A) − δ(B)| = |EN_SV(A) − EN_SV(B)| = ΔEN_SV(A,B). Bajo la disciplina append-only, este diferencial es la variación total del sesgo polar entre los dos elementos en el primer paso de la trayectoria proto-ternaria del par. Q.E.D.
+
+**Segunda propiedad — Irreversibilidad estructural.**
+
+La entropía factual H_SV es no decreciente a lo largo de toda trayectoria admisible bajo la disciplina append-only (Teorema 8.2 de Lloret Egea, 2026i). Esta no decrecencia no es un postulado externo: es consecuencia algebraica de que la variación total preternaria del sesgo polar V_i(δ, n) = Σ|δ_i(k+1) − δ_i(k)| es una suma de valores absolutos y solo puede crecer. Durante la transición proto-ternaria, U opera sobre Π(A,B) incrementando H_SV. Una vez alcanzado el estado APTO, la disciplina append-only impide que H_SV disminuya: el par no puede retornar espontáneamente al dominio proto-ternario Ω_proto. Esta es la fuente estructural de la estabilidad de los estados APTO.
+
+**Tercera propiedad — La ecuación de equilibrio termodinámico.**
+
+La fórmula termodinámica factual única del corpus (Lloret Egea, 2026j, DOI 10.17613/ptw68-d1r57) establece que el dominio termodinámico queda cerrado por la ecuación escalar nula:
+
+E^thermo_SV(Γ, n; θ) = 0
+
+Un estado de par es termodinámicamente estable cuando satisface esta ecuación. En términos del sesgo polar: el estado APTO corresponde a un punto estacionario de V_i(δ) — el punto donde |δ_i(k+1) − δ_i(k)| = 0 para todos los sucesos posteriores a la realización ternaria. En ese punto, los potenciales estructurales del par se han igualado a un valor consistente. El punto de equilibrio no es potencial nulo — eso correspondería a Nada, la absorción por el polo 0 — sino potencial equiparado: el par descansa en un estado termodinámicamente estable con H_SV > 0.
+
+Los tres regímenes APTO del CPS-SV son tres clases de soluciones de E^thermo_SV = 0, diferenciadas por el valor estacionario del sesgo polar:
+
+- **APTO-M** (ΔEN_SV ≤ 0,50): equilibrio de sesgo polar mínimo. El par descansa en la zona próxima al polo 1 (Todo): la variación total V_i(δ) ha sido pequeña, y el estado estacionario tiene alta simetría estructural. Los potenciales de los dos elementos han convergido en la zona de carácter metálico estructural conjunto (M_joint ≥ 40,0%).
+
+- **APTO-C** (0,50 < ΔEN_SV ≤ 1,50): equilibrio de sesgo polar intermedio. La variación total V_i(δ) ha sido moderada. El estado estacionario se sitúa en la zona de imperfección activa de U, entre los polos 1 y 0.
+
+- **APTO-I** (ΔEN_SV > 1,50): equilibrio de sesgo polar alto. La variación total V_i(δ) ha sido grande. El estado estacionario está próximo al límite Todo-Nada, pero sin que 0 absorba al par: el sesgo es alto pero constante, lo que significa que los potenciales se han igualado en una configuración fuertemente asimétrica pero estable.
+
+**El criterio B.4 como umbral de energía de activación.**
+
+La suma IP_suma(A,B) = IP_SV(A) + IP_SV(B) es la energía de persistencia estructural conjunta del par. Cuando IP_suma > Λ_IP = 1800 kJ/mol, la energía de activación necesaria para que V_i(δ) alcance cualquier punto estacionario supera la capacidad operativa de U: la trayectoria proto-ternaria no puede cruzar la barrera de potencial. H_SV no puede incrementarse lo suficiente para alcanzar ninguna solución de E^thermo_SV = 0 para el par. El protopar permanece en Ω_proto sin realizarse. Este es el dictamen NO-APTO: Nada gana la batalla al no permitir que U complete la estabilización.
+
+**Corolario termodinámico:** Los tres regímenes APTO y el régimen NO-APTO son las únicas clases posibles de resultado termodinámico para un protopar Π(A,B) en el aparato SV, correspondientes a: equilibrio próximo a 1 (APTO-M), equilibrio intermedio (APTO-C), equilibrio próximo al límite Nada (APTO-I), y absorción por Nada sin equilibrio alcanzable (NO-APTO). El CPS-SV cataloga cuál de los cuatro resultados le corresponde a cada uno de los 97.903 protopares de Ω₄₄₃.
+
+
+
+---
+
+## §1.8. El par estructural en su contexto de campo: circunstancias y operador de interacción
+
+Un par estructural (A,B) del CPS-SV no existe en un vacío estructural. Cada elemento k ∈ Ω₄₄₃ es un protocampo admisible del corpus SV, con lectura Σ = 1 en el catálogo factual: ha superado la cadena de compuertas de persistencia, frontera, residual, identidad química, descendencia protocampal y compatibilidad con 𝓔★_TODO,SV(Γ_U) = 0 (Lloret Egea, 2026e). La formación del par (A,B) no es una operación abstracta sobre índices numéricos: es la aplicación del operador canónico de interacción 𝓘_SV (Lloret Egea, 2026k) sobre el dominio ordenado de los dos proto-campos, dentro de su trayectoria factual y bajo frontera explícita.
+
+**El criterio B.5 es la compuerta Σ = 1 del operador 𝓘_SV.** El operador 𝓘_SV solo está definido sobre pares de campos con lectura Σ = 1 (Teorema 1 de Lloret Egea, 2026k). La exigencia de que ambos elementos A, B pertenezcan a Ω₄₄₃ — el criterio B.5 del CPS-SV — es la proyección estructural de esa compuerta: solo los elementos que han atravesado la cadena completa de admisibilidad individual tienen lectura Σ = 1 y pueden entrar como argumentos del operador.
+
+**ΔEN_SV(A,B) es la distancia factual fibrosa d^SV_Φ(A,B).** La distancia factual fibrosa d^SV_Φ del corpus SV (Lloret Egea, 2026k, Anexo A) mide el cambio estructural entre dos estados de campo sobre trayectoria factual, sin invocar cronología soberana. Para el protopar Π(A,B), la magnitud ΔEN_SV(A,B) = |EN_SV(A) − EN_SV(B)| es la realización de d^SV_Φ(A,B) sobre la escala de electronegatividad estructural SV: mide cuánto difieren las configuraciones de campo de A y B sobre el eje de separación polar del corpus. Los umbrales Λ_M = 0,50 y Λ_C = 1,50 del criterio B.1 particionan el rango de d^SV_Φ en los tres regímenes de interacción (metálico, covalente, iónico) que 𝓘_SV puede realizar sobre el par.
+
+**IP_suma es el umbral de activación de 𝓘_SV.** El criterio B.4 (IP_suma ≤ Λ_IP = 1800 kJ/mol) es la condición bajo la cual el operador 𝓘_SV dispone de suficiente energía de activación para completar la interacción sobre el par (A,B). Cuando IP_suma > Λ_IP, 𝓘_SV no puede operar: el protopar no alcanza ningún estado de interacción realizada y permanece en Ω_proto.
+
+**El CPS-SV como catálogo de primer orden del dominio de 𝓘_SV sobre Ω₄₄₃.** El catálogo de pares estructurales SV determina, para cada uno de los 97.903 protopares de Ω₄₄₃, si el operador 𝓘_SV puede completar la interacción y en qué régimen. Los dictámenes APTO-M, APTO-C, APTO-I son los tres regímenes de interacción realizada; el dictamen NO-APTO es la condición de interacción bloqueada. En este sentido, el CPS-SV es el catálogo de primer orden del dominio de 𝓘_SV aplicado al universo de proto-campos de Ω₄₄₃.
+
+Esta caracterización revela la dimensión que el análisis puramente interno de los pares no puede ver: un par APTO no existe aislado, sino dentro de un entorno de campos que lo rodea y cuyas interacciones actúan simultáneamente sobre él. Las propiedades del par realizado — y, por extensión, las de la aleación que ese par funda — dependen no solo de los parámetros estructurales internos (los que el CPS-SV cataloga) sino del contexto de campo en que el par se inscribe. El aparato de interacción, intercomposición y transmisión factual entre campos del corpus SV (Lloret Egea, 2026k) es el marco que aborda esa dimensión externa y que proporciona el nivel de análisis subsiguiente al catálogo.
+
+Una nota sobre la simetría: el operador 𝓘_SV opera sobre pares ordenados — el orden de los argumentos importa estructuralmente (Teorema 4 de Lloret Egea, 2026k). El CPS-SV, en cambio, trabaja con pares no ordenados C(443,2) = 97.903: determina la admisibilidad estructural simétrica, no la dirección de la interacción. Esta es la distinción entre el primer orden (admisibilidad de campo: ¿puede formarse el par?) y el orden completo (dirección de la interacción: ¿cómo opera 𝓘_SV sobre él?). El primero es el objeto de esta publicación; el segundo pertenece al aparato de Lloret Egea (2026k).
+
+
+
+---
+
+# §2. Marco de dominio — Tabla Global y espacio de pares Ω₄₄₃
+
+## §2.1. La Tabla Global como fuente única de propiedades de par
+
+El CPS-SV opera sobre cuatro magnitudes de la Tabla Global del catálogo SV-443:
 
 | Magnitud | Símbolo | Unidad | Rango efectivo en Ω₄₄₃ |
 |---|---|---|---|
@@ -89,37 +333,34 @@ El CPS-SV opera exclusivamente sobre cuatro magnitudes de la Tabla 2 del catálo
 | Radio atómico estructural | r_SV(k) | pm | [116,8 ; 357,0] |
 | Carácter metálico estructural | M_SV(k) | % | [2,0 ; 100,0] |
 
-Estas magnitudes son derivadas de las compuertas de persistencia y de la ecuación rectora 𝓔★(Γ_U; τ) = 0, no de mediciones empíricas ni de cálculos Dirac-Fock. Su función en el CPS-SV es exclusivamente determinar los criterios de admisibilidad de par.
+Estas magnitudes son derivadas de las compuertas de persistencia y de la ecuación rectora 𝓔★(Γ_U; τ) = 0. Su función en el CPS-SV es determinar los criterios de admisibilidad de par.
 
 ## §2.2. El dominio Ω₄₄₃ y sus subdominios
 
-**Definición 2.1.** El dominio Ω₄₄₃ = {1, 2,…, 443} es el conjunto de índices del catálogo SV-443. Se particiona en:
+El dominio Ω₄₄₃ = {1, 2,…, 443} es el conjunto de índices del catálogo SV-443. Se particiona en:
 
-- **Ω₁₁₈** = {1,…,118}: subdominio base (118 elementos del catálogo SV-118 base).
-- **Ω_ext** = {119,…,443}: subdominio extendido (325 candidatos adicionales).
+- **Ω₁₁₈** = {1,…,118}: subdominio base — Tabla Cero (118 elementos).
+- **Ω_ext** = {119,…,443}: subdominio extendido — Tabla 1 (325 candidatos).
 
-**Definición 2.2.** El espacio de pares no ordenados de Ω₄₄₃ es:
+El espacio de pares no ordenados de Ω₄₄₃ es:
 
-$$\mathcal{P}_{443} = \{ \{A,B\} \mid A, B \in \Omega_{443},\ A \neq B \},\quad |\mathcal{P}_{443}| = \binom{443}{2} = 97.903$$
+𝒫₄₄₃ = { {A,B} | A, B ∈ Ω₄₄₃, A ≠ B },   |𝒫₄₄₃| = C(443,2) = 97.903
 
-Este es el dominio completo sobre el que opera la función de dictamen D(A,B) definida en §3.8.
+## §2.3. Marco semántico: Tabla Cero, Tabla 1 y Tabla Global
 
-## §2.3. Estatuto heredado del catálogo SV-443
+**Tabla Cero** designa Ω₁₁₈ = {k = 1,...,118}. Para los pares de este dominio, la comunidad científica dispone de décadas de estudios de compatibilidad de aleación y enlace químico (Hume-Rothery, Pauling y cálculos computacionales de química cuántica relativista). El Sistema Vectorial SV aporta una lectura estructural derivada de sus propios criterios B.1–B.5, inconmensurable con los marcos cuánticos convencionales y complementaria a ellos.
 
-Todo elemento k ∈ Ω₄₄₃ hereda el estatuto operatorio del catálogo SV-443:
+**Tabla 1** designa Ω_ext = {k = 119,...,443}: los 325 candidatos del dominio extendido generados por las familias tipológicas Σ₁–Σ₁₂. Para estos candidatos no existe literatura experimental ni teórica convencional. La Tabla 1 es el dominio de aportación original del corpus SV.
 
-- k ∈ Ω₁₁₈: estatuto **V** — estructuralmente admisible y verificable contra la tabla periódica convencional (elementos Z=1 a Z=118).
-- k ∈ Ω_ext: estatuto **U** — estructuralmente admisible según el corpus, sin contraste empírico disponible.
+**Tabla Global** designa Ω₄₄₃ = Ω₁₁₈ ∪ Ω_ext. Su uso en esta publicación responde a una necesidad operativa: el CPS-SV abarca los 97.903 pares de Ω₄₄₃, incluyendo los pares cruzados S₂ en que un elemento pertenece a la Tabla Cero y el otro a la Tabla 1.
 
-El estatuto de un par (A,B) es el más restrictivo de sus componentes: si alguno de los dos tiene estatuto U, el par tiene estatuto U.
+## §2.4. Principio de nomenclatura secuencial autoincremental
 
-## §2.4. Lo que el CPS-SV no es
+Los elementos de la Tabla Cero reciben nombres de la forma SV-Alfa, SV-Beta, …, SV-Omega, SV-II-Alfa, …, SV-V-Chi, siguiendo la secuencia del alfabeto griego clásico con prefijo numérico romano de ciclo. La numeración de catálogo asociada es 01–0118, con cero inicial como separador de espacio de nombres respecto a la Tabla 1 (k 119–443).
 
-Con el fin de prevenir interpretaciones incorrectas, se enuncia explícitamente lo que este catálogo no es:
+Esta elección responde a un principio operativo explícito: la nomenclatura secuencial autoincremental permite reconstruir el orden completo de los elementos a partir de las reglas de la secuencia, sin necesidad de memorizar nombres arbitrarios. Dado el prefijo y el término griego, el elemento anterior y el posterior son siempre deducibles: SV-II-Gamma va precedido de SV-II-Beta y seguido de SV-II-Delta, por construcción.
 
-No es una predicción de propiedades de aleaciones o compuestos empíricos. No es una tabla de compatibilidad química convencional. No es una extensión de las reglas de Hume-Rothery ni de los criterios de Pauling. No contiene ningún valor medido experimentalmente. No predice la síntesis de ningún compuesto ni aleación de ningún elemento de Ω_ext. Su función es establecer el dominio de búsqueda estructural del corpus SV en el nivel de pares, con criterio determinista, reproducible y falsable, para que cada investigador, laboratorio o grupo de síntesis evalúe libremente si algún par del CPS-SV es relevante para su línea de trabajo.
-
-
+La tabla periódica convencional no cumple esta propiedad: ninguno de los 118 nombres convencionales proporciona información sobre el elemento adyacente. La nomenclatura SV es un instrumento de acceso al catálogo, no únicamente una etiqueta. Los elementos de la Tabla 1 (k 119–443) extienden la misma secuencia a través de las familias tipológicas Σ₃–Σ₁₂, asegurando continuidad y uniformidad en el dominio extendido.
 
 ---
 
@@ -131,15 +372,15 @@ No es una predicción de propiedades de aleaciones o compuestos empíricos. No e
 
 ## §3.0. Posición en el corpus y delimitación previa
 
-Este documento desarrolla los cinco criterios de admisibilidad de enlace estructural SV (B.1–B.5) que constituyen el núcleo del aparato de clasificación de pares en el dominio del catálogo SV-443. Los criterios se derivan exclusivamente de las magnitudes tabuladas en la Tabla 2 del catálogo (*Análisis preliminar de elementos, materiales y aleaciones*, DOI: 10.17613/8ryyb-g9h48): electronegatividad estructural EN_SV, radio atómico estructural r_SV, energía de ionización estructural IP_SV, afinidad electrónica estructural EA_SV y carácter metálico estructural M_SV.
+Los cinco criterios de admisibilidad de enlace estructural SV (B.1–B.5) se derivan exclusivamente de las magnitudes tabuladas en la Tabla Global del catálogo SV-443 (*Análisis preliminar de elementos, materiales y aleaciones*, DOI: 10.17613/8ryyb-g9h48): electronegatividad estructural EN_SV, radio atómico estructural r_SV, energía de ionización estructural IP_SV, afinidad electrónica estructural EA_SV y carácter metálico estructural M_SV.
 
 Las prohibiciones constitutivas P.1–P.6 del corpus quedan heredadas sin modificación. Se añaden tres prohibiciones específicas de este desarrollo:
 
-**P.7** — Los criterios B.1–B.5 no afirman ni implican equivalencia con los criterios cuánticos de enlace (reglas de Pauling, Hume-Rothery, Drude-Sommerfeld ni derivados). Operan en una capa estructural inconmensurable con el formalismo cuántico convencional. Toda comparación con pares químicos conocidos tiene función exclusivamente calibratoria, no de equivalencia.
+**P.7** — Los criterios B.1–B.5 son la expresión formal de la ventana operativa de U sobre el protopar Π(A,B), derivada de las magnitudes de la Tabla Global. Su lectura en el corpus SV es inconmensurable con los criterios cuánticos de enlace (reglas de Pauling, Hume-Rothery, Drude-Sommerfeld); ambos marcos operan en capas estructurales distintas y no competitivas. Toda comparación con pares químicos conocidos tiene función calibratoria y de contraste, no de equivalencia formal.
 
-**P.8** — Los dictámenes APTO-M, APTO-C, APTO-I no afirman la existencia de enlace metálico, covalente o iónico en sentido cuántico. Son etiquetas del régimen estructural SV del par, derivadas de la geometría de sus propiedades en la Tabla 2.
+**P.8** — Los dictámenes APTO-M, APTO-C, APTO-I son postulados de régimen estructural del par en el Sistema Vectorial SV: expresan el punto de equilibrio termodinámico alcanzado por el protopar bajo la operación de U_SV (§1.7), no la existencia de enlace metálico, covalente o iónico en sentido cuántico.
 
-**P.9** — Ningún par con dictamen APTO en el dominio k=119–443 constituye predicción de síntesis ni de detección experimental. El estatuto operatorio es U para todos los pares que incluyan al menos un elemento del rango k=119–443.
+**P.9** — Los pares con al menos un elemento de Ω_ext (k > 118) tienen estatuto U: estructuralmente admisibles en el dominio de U_SV, en espera de contraste experimental cuando la síntesis de los elementos correspondientes sea posible (§6.2).
 
 ---
 
@@ -147,10 +388,12 @@ Las prohibiciones constitutivas P.1–P.6 del corpus quedan heredadas sin modifi
 
 Sea Ω_443 = {1, 2, …, 443} el conjunto de índices del catálogo SV-443.
 
-**Definición 3.1 (par estructural SV).** Un par estructural SV es un par ordenado (A, B) con A, B ∈ Ω_443, A ≠ B, donde a cada elemento se le asocian las magnitudes de la Tabla 2:
+**Definición 3.1 (par estructural SV).** Un par estructural SV es una pareja {A, B} con A, B ∈ Ω_443, A ≠ B, donde a cada elemento se le asocian las magnitudes de la Tabla Global:
+
+Por convención de enumeración se adopta la representación ordenada (A, B) con A < B, de modo que cada par no ordenado se representa exactamente una vez. La simetría de D(A,B) = D(B,A) (Proposición 3.5) garantiza que esta convención no afecta al dictamen.
 
 ```
-φ(k) = (EN_SV(k), r_SV(k), IP_SV(k), EA_SV(k), M_SV(k))
+φ(k) = (EN_SV(k), r_SV(k), IP_SV(k), M_SV(k))
 ```
 
 El espacio de pares tiene cardinalidad |Ω_443 × Ω_443 \ diag| = 443 × 442 = 195.806 pares ordenados, equivalentes a 195.806 / 2 = **97.903 pares no ordenados**.
@@ -163,25 +406,25 @@ A partir de φ(A) y φ(B) se definen cuatro magnitudes de par:
 
 **Definición 3.2.1 — Diferencial de electronegatividad estructural:**
 
-$$\Delta EN_{SV}(A,B) = |EN_{SV}(A) - EN_{SV}(B)|$$
+Δ EN_SV(A,B) = |EN_SV(A) - EN_SV(B)|
 
 Rango efectivo en el catálogo SV-118: [0.000, 2.710]. El rango 2.710 es el ancho completo de la escala EN_SV sobre los primeros 118 elementos.
 
 **Definición 3.2.2 — Ratio de compatibilidad posicional:**
 
-$$\rho_{SV}(A,B) = \frac{\max(r_{SV}(A),\, r_{SV}(B))}{\min(r_{SV}(A),\, r_{SV}(B))} \geq 1$$
+ρ_SV(A,B) = max(r_SV(A), r_SV(B)) / min(r_SV(A), r_SV(B)) ≥ 1
 
 Definido siempre ≥ 1 por construcción. Igual a 1 para el par homonuclear hipotético.
 
 **Definición 3.2.3 — Carácter metálico estructural conjunto:**
 
-$$M_{joint}(A,B) = \frac{M_{SV}(A) + M_{SV}(B)}{2}$$
+M_joint(A,B) = [M_SV(A) + M_SV(B)] / 2
 
 Rango efectivo: [2.0%, 100.0%]. En el catálogo SV-118, 91 de 118 elementos tienen M_SV ≥ 40%.
 
 **Definición 3.2.4 — Suma de energías de ionización estructural:**
 
-$$IP_{suma}(A,B) = IP_{SV}(A) + IP_{SV}(B)$$
+IP_suma(A,B) = IP_SV(A) + IP_SV(B)
 
 Rango efectivo en SV-118: [710 kJ/mol, 2276 kJ/mol]. El máximo teórico 2 × 1138 = 2276 kJ/mol corresponde al par de los dos elementos con mayor IP_SV del catálogo.
 
@@ -191,11 +434,8 @@ Rango efectivo en SV-118: [710 kJ/mol, 2276 kJ/mol]. El máximo teórico 2 × 11
 
 **Definición 3.3 (carácter estructural de par).** Sea ΔEN_SV(A,B) la magnitud definida en 3.2.1. El carácter estructural dominante del par (A,B) se determina por la función de clasificación:
 
-$$\chi_{B1}(A,B) = \begin{cases}
-\text{METAL-SV} & \text{si } \Delta EN_{SV} \leq \Lambda_{M} = 0{,}50 \\
-\text{COVAL-SV}  & \text{si } 0{,}50 < \Delta EN_{SV} \leq \Lambda_{C} = 1{,}50 \\
-\text{IONIC-SV}  & \text{si } \Delta EN_{SV} > \Lambda_{C} = 1{,}50
-\end{cases}$$
+χ_B1(A,B) = 
+METAL-SV & si Δ EN_SV ≤ Λ_M = 0,50 COVAL-SV & si 0,50 < Δ EN_SV ≤ Λ_C = 1,50 IONIC-SV & si Δ EN_SV > Λ_C = 1,50
 
 **Fundamento de los umbrales Λ_M = 0,50 y Λ_C = 1,50:**
 
@@ -222,7 +462,7 @@ Los umbrales se determinan por verificación sobre 14 pares de referencia del su
 
 **Proposición 3.1.** Los umbrales Λ_M = 0,50 y Λ_C = 1,50 son los únicos valores semienteros de la escala EN_SV tales que: (a) la totalidad de los pares metálicos de referencia tienen ΔEN_SV < Λ_M, y (b) los pares iónicos de máxima polaridad estructural (KCl, RbCl) tienen ΔEN_SV > Λ_C.
 
-*Demostración.* Los cuatro pares metálicos de referencia tienen ΔEN_SV ∈ {0,130; 0,140; 0,240; 0,270}, todos estrictamente menores que 0,50. El par KCl tiene ΔEN_SV = 2,180 y RbCl tiene ΔEN_SV = 2,210, ambos mayores que 1,50. El valor Λ_M = 0,50 es el semientero mínimo que supera el supremo del conjunto metálico de referencia (sup = 0,270). El valor Λ_C = 1,50 es el semientero máximo que queda por debajo del ínfimo del conjunto de pares de alta polaridad estructural verificada. Ambos umbrales son deterministas: se obtienen por inspección directa del conjunto de referencia, sin ajuste inferencial. ∎
+*Demostración.* Los cuatro pares metálicos de referencia tienen ΔEN_SV ∈ {0,130; 0,140; 0,240; 0,270}, todos estrictamente menores que 0,50. El par KCl tiene ΔEN_SV = 2,180 y RbCl tiene ΔEN_SV = 2,210, ambos mayores que 1,50. El valor Λ_M = 0,50 es el semientero mínimo que supera el supremo del conjunto metálico de referencia (sup = 0,270). El valor Λ_C = 1,50 es el semientero máximo que queda por debajo del ínfimo del conjunto de pares de alta polaridad estructural verificada. Ambos umbrales son deterministas: se obtienen por inspección directa del conjunto de referencia, sin ajuste inferencial. Q.E.D.
 
 ---
 
@@ -230,10 +470,8 @@ Los umbrales se determinan por verificación sobre 14 pares de referencia del su
 
 **Definición 3.4.** El criterio B.2 es aplicable exclusivamente a pares con χ_B1 = METAL-SV. Para un par (A,B) con χ_B1 = METAL-SV:
 
-$$B.2(A,B) = \begin{cases}
-\text{ADMISIBLE} & \text{si } \rho_{SV}(A,B) \leq \Lambda_{\rho} = 1{,}40 \\
-\text{NO-APTO}   & \text{si } \rho_{SV}(A,B) > 1{,}40
-\end{cases}$$
+B.2(A,B) = 
+ADMISIBLE & si ρ_SV(A,B) ≤ Λ_ρ = 1,40 NO-APTO & si ρ_SV(A,B) > 1,40
 
 Para pares con χ_B1 = COVAL-SV o IONIC-SV, B.2 no se evalúa: devuelve ADMISIBLE por omisión.
 
@@ -252,7 +490,7 @@ La regla convencional de Hume-Rothery establece |ρ − 1| ≤ 0,15 (ρ ≤ 1,15
 
 **Proposición 3.2.** B.2 con Λ_ρ = 1,40 clasifica como ADMISIBLE la totalidad de los pares metálicos del conjunto de referencia.
 
-*Demostración.* Por inspección directa de la tabla anterior: todos los ρ_SV ≤ 1,322 < 1,40. ∎
+*Demostración.* Por inspección directa de la tabla anterior: todos los ρ_SV ≤ 1,322 < 1,40. Q.E.D.
 
 ---
 
@@ -260,11 +498,13 @@ La regla convencional de Hume-Rothery establece |ρ − 1| ≤ 0,15 (ρ ≤ 1,15
 
 **Definición 3.5.** El criterio B.3 opera como refinador de B.1 para pares con χ_B1 = METAL-SV:
 
-$$B.3(A,B) = \begin{cases}
-\text{CONFIRMADO-M} & \text{si } \chi_{B1} = \text{METAL-SV} \text{ y } M_{joint}(A,B) \geq \Lambda_{M\%} = 40{,}0\% \\
-\text{RECLASIFICA-C} & \text{si } \chi_{B1} = \text{METAL-SV} \text{ y } M_{joint}(A,B) < 40{,}0\% \\
-\text{N/A}           & \text{si } \chi_{B1} \neq \text{METAL-SV}
-\end{cases}$$
+B.3(A,B):
+
+| Resultado | Condición |
+|---|---|
+| CONFIRMADO-M | χ_B1 = METAL-SV y M_joint(A,B) ≥ Λ_M% = 40,0% |
+| RECLASIFICA-C | χ_B1 = METAL-SV y M_joint(A,B) < 40,0% |
+| N/A | χ_B1 ≠ METAL-SV |
 
 Cuando B.3 devuelve RECLASIFICA-C, el dictamen final del par cambia de APTO-M a APTO-C.
 
@@ -278,10 +518,8 @@ El umbral de 40% se determina por debajo del mínimo exacto de M_joint en el con
 
 **Definición 3.6.** El criterio B.4 es un filtro universal de admisibilidad, aplicable a todo par independientemente de su χ_B1:
 
-$$B.4(A,B) = \begin{cases}
-\text{ADMISIBLE} & \text{si } IP_{suma}(A,B) \leq \Lambda_{IP} = 1800 \text{ kJ/mol} \\
-\text{NO-APTO}   & \text{si } IP_{suma}(A,B) > 1800 \text{ kJ/mol}
-\end{cases}$$
+B.4(A,B) = 
+ADMISIBLE & si IP_suma(A,B) ≤ Λ_IP = 1800 kJ/mol NO-APTO & si IP_suma(A,B) > 1800 kJ/mol
 
 **Fundamento de Λ_IP = 1800 kJ/mol:**
 
@@ -299,7 +537,7 @@ Ningún par de referencia supera 1800 kJ/mol. El criterio excluye exclusivamente
 
 **Proposición 3.3.** B.4 con Λ_IP = 1800 kJ/mol clasifica como ADMISIBLE la totalidad de los pares del conjunto de referencia.
 
-*Demostración.* Por inspección directa: IP_suma máx en el conjunto de referencia = 1658 kJ/mol < 1800 kJ/mol. ∎
+*Demostración.* Por inspección directa: IP_suma máx en el conjunto de referencia = 1658 kJ/mol < 1800 kJ/mol. Q.E.D.
 
 ---
 
@@ -307,13 +545,31 @@ Ningún par de referencia supera 1800 kJ/mol. El criterio excluye exclusivamente
 
 **Definición 3.7.** Un par (A,B) satisface B.5 si y solo si ambos elementos pertenecen al catálogo SV-443, es decir, si ambos han superado los cinco criterios de transición química Q.1–Q.5 del catálogo.
 
-$$B.5(A,B) = \text{ADMISIBLE} \iff A \in \Omega_{443} \text{ y } B \in \Omega_{443}$$
+B.5(A,B) = ADMISIBLE ⟺ A ∈ Ω_443 y B ∈ Ω_443
 
 **Proposición 3.4.** B.5 es automáticamente satisfecho por todo par (A,B) con A, B ∈ Ω_443.
 
-*Demostración.* Por construcción del catálogo SV-443: todo elemento con índice k ∈ Ω_443 ha superado los criterios Q.1–Q.5, que incluyen el cierre sobre 𝓔★(Γ_U; τ) = 0. El par hereda el cierre de sus componentes. ∎
+*Demostración.* Por construcción del catálogo SV-443: todo elemento con índice k ∈ Ω_443 ha superado los criterios Q.1–Q.5, que incluyen el cierre sobre 𝓔★(Γ_U; τ) = 0. El par hereda el cierre de sus componentes. Q.E.D.
 
 ---
+
+
+## §3.5bis. Simetría de la función de dictamen
+
+**Proposición 3.5 (simetría de D).** Para todo par A, B ∈ Ω₄₄₃ con A ≠ B, D(A,B) = D(B,A).
+
+*Demostración.* Las cuatro magnitudes derivadas de par son simétricas por construcción:
+
+- ΔEN_SV(A,B) = |EN_SV(A) − EN_SV(B)| = |EN_SV(B) − EN_SV(A)| = ΔEN_SV(B,A).
+- ρ_SV(A,B) = max(r_SV(A), r_SV(B)) / min(r_SV(A), r_SV(B)) = ρ_SV(B,A).
+- M_joint(A,B) = [M_SV(A) + M_SV(B)] / 2 = M_joint(B,A).
+- IP_suma(A,B) = IP_SV(A) + IP_SV(B) = IP_suma(B,A).
+
+La función D del §3.8 depende exclusivamente de estas cuatro magnitudes y del indicador B.5, que también es simétrico (A ∈ Ω₄₄₃ ∧ B ∈ Ω₄₄₃ ⟺ B ∈ Ω₄₄₃ ∧ A ∈ Ω₄₄₃). Por lo tanto, D(A,B) = D(B,A) para todo par admisible. Q.E.D.
+
+**Corolario 3.5.1.** El CPS-SV opera sobre los C(443,2) = 97.903 pares no ordenados de Ω₄₄₃ sin pérdida de información respecto al dominio de 195.806 pares ordenados.
+
+*Demostración.* Consecuencia directa de la Proposición 3.5: D(A,B) = D(B,A), por lo que la representación canónica con A < B cubre cada dictamen exactamente una vez. Q.E.D.
 
 ## §3.8. Función de dictamen de par y tabla de decisión
 
@@ -369,6 +625,123 @@ función D(A,B):
 
 (†) Divergencia con el régimen convencional — ver §3.10.
 
+
+---
+
+## §3.9bis. Cuatro ejemplos trabajados de extremo a extremo
+
+Los cuatro ejemplos siguientes recorren cada paso de la función D(A,B) con todos los valores intermedios explícitos. Cubren la totalidad de las rutas posibles del árbol de decisión: ruta APTO-M completa, ruta RECLASIFICA-C, fallo por B.4 y fallo por B.2.
+
+---
+
+### Ejemplo 1 — Extremo positivo: APTO-M
+
+**Par:** SV-Hierro (k=26) × SV-Cromo (k=24)
+
+| | SV-Hierro (k=26) | SV-Cromo (k=24) |
+|---|---|---|
+| EN_SV | 1,47 | 1,20 |
+| r_SV (pm) | 253,6 | 266,0 |
+| IP_SV (kJ/mol) | 602 | 540 |
+| M_SV (%) | 72,2 | 81,8 |
+
+**Recorrido de D:**
+
+**B.5:** k=26 ∈ Ω₄₄₃ ✓ y k=24 ∈ Ω₄₄₃ ✓ → ADMISIBLE
+
+**B.4:** IP_suma = 602 + 540 = 1142 kJ/mol ≤ 1800 → ADMISIBLE
+
+**B.1:** ΔEN_SV = |1,47 − 1,20| = 0,270 ≤ 0,50 → χ_B1 = METAL-SV
+
+**B.2:** ρ_SV = 266,0 / 253,6 = 1,049 ≤ 1,40 → ADMISIBLE
+
+**B.3:** M_joint = (72,2 + 81,8) / 2 = 77,0 % ≥ 40,0 % → CONFIRMADO-M
+
+**D(26, 24) = APTO-M**
+
+Interpretación: U opera cerca del polo 1 (ΔEN bajo, alta similitud estructural). Los potenciales del par se igualan en el régimen metálico con H_SV > 0 y E^thermo_SV = 0. Este es el acero inoxidable básico: el corpus lo confirma como par de máxima estabilidad metálica estructural.
+
+---
+
+### Ejemplo 2 — RECLASIFICA-C: B.1 predice METAL-SV, B.3 corrige a APTO-C
+
+**Par:** SV-Argón (k=18) × SV-144 (k=144)
+
+| | SV-Argón (k=18) | SV-144 (k=144) |
+|---|---|---|
+| EN_SV | 0,00 | 0,00 |
+| r_SV (pm) | 179,6 | 173,8 |
+| IP_SV (kJ/mol) | 1138 | 600 |
+| M_SV (%) | 2,0 | 15,1 |
+
+**Recorrido de D:**
+
+**B.5:** k=18 ∈ Ω₄₄₃ ✓ y k=144 ∈ Ω₄₄₃ ✓ → ADMISIBLE
+
+**B.4:** IP_suma = 1138 + 600 = 1738 kJ/mol ≤ 1800 → ADMISIBLE
+
+**B.1:** ΔEN_SV = |0,00 − 0,00| = 0,000 ≤ 0,50 → χ_B1 = METAL-SV
+
+**B.2:** ρ_SV = 179,6 / 173,8 = 1,033 ≤ 1,40 → ADMISIBLE
+
+**B.3:** M_joint = (2,0 + 15,1) / 2 = 8,6 % < 40,0 % → RECLASIFICA-C
+
+**D(18, 144) = APTO-C** ← ruta RECLASIFICA-C
+
+Interpretación: la identidad polar perfecta (ΔEN = 0) situaría el par en el polo 1. Pero la masa metálica conjunta es insuficiente: U no puede cerrar el morfismo metálico. El par se realiza en régimen covalente estructural — U cierra en modo distinto al que B.1 predice aisladamente. Esta es la función de B.3 como refinador: corrige la predicción de B.1 cuando la masa metálica del par no sostiene el régimen inferido de la distancia polar. 6.144 pares del CPS-SV pasan por esta ruta (16,3% de todos los APTO-C).
+
+---
+
+### Ejemplo 3 — Fallo por B.4: Nada absorbe en el eje energético
+
+**Par:** SV-Argón (k=18) × SV-Kriptón (k=36)
+
+| | SV-Argón (k=18) | SV-Kriptón (k=36) |
+|---|---|---|
+| EN_SV | 0,00 | 0,00 |
+| r_SV (pm) | 179,6 | 191,6 |
+| IP_SV (kJ/mol) | 1138 | 1132 |
+| M_SV (%) | 2,0 | 2,0 |
+
+**Recorrido de D:**
+
+**B.5:** k=18 ∈ Ω₄₄₃ ✓ y k=36 ∈ Ω₄₄₃ ✓ → ADMISIBLE
+
+**B.4:** IP_suma = 1138 + 1132 = 2270 kJ/mol > 1800 → **NO-APTO** ← falla aquí
+
+**D(18, 36) = NO-APTO**
+
+Interpretación: la energía de persistencia estructural conjunta supera el umbral de activación de U. La trayectoria proto-ternaria no puede cruzar la barrera de potencial: H_SV no alcanza ningún punto estacionario de E^thermo_SV = 0 para este par. Nada absorbe al protopar en el eje energético. Los 15 pares nobles×nobles del subdominio S₁ comparten este resultado (Proposición 6.1).
+
+---
+
+### Ejemplo 4 — Fallo por B.2: Nada absorbe en el eje posicional
+
+**Par:** SV-Nitrógeno (k=7) × SV-136 (k=136)
+
+| | SV-Nitrógeno (k=7) | SV-136 (k=136) |
+|---|---|---|
+| EN_SV | 1,36 | 1,40 |
+| r_SV (pm) | 247,8 | 176,9 |
+| IP_SV (kJ/mol) | 577 | 1200 |
+| M_SV (%) | 79,2 | 36,8 |
+
+**Recorrido de D:**
+
+**B.5:** k=7 ∈ Ω₄₄₃ ✓ y k=136 ∈ Ω₄₄₃ ✓ → ADMISIBLE
+
+**B.4:** IP_suma = 577 + 1200 = 1777 kJ/mol ≤ 1800 → ADMISIBLE
+
+**B.1:** ΔEN_SV = |1,36 − 1,40| = 0,040 ≤ 0,50 → χ_B1 = METAL-SV
+
+**B.2:** ρ_SV = 247,8 / 176,9 = 1,401 > 1,40 → **NO-APTO** ← falla aquí
+
+**D(7, 136) = NO-APTO**
+
+Interpretación: el par supera la barrera energética (B.4 ✓) y presenta identidad polar casi perfecta (ΔEN = 0,040, régimen METAL-SV), pero los radios estructurales son incompatibles: U no puede cerrar el morfismo posicional. Nada absorbe al protopar en el eje posicional. Este par es el caso límite más ajustado al umbral B.2 del catálogo (ρ = 1,401, con margen de 0,001 sobre Λ_ρ = 1,40); sus 9.858 pares afines constituyen la frontera de mayor sensibilidad posicional del CPS-SV (§6.4, Proposición 6.2).
+
+---
+
 ---
 
 ## §3.10. Distinción técnica explícita — Inconmensurabilidad de los dictámenes
@@ -399,8 +772,6 @@ Esta distinción es análoga a la establecida en §5.6 de la *Fórmula de Campo 
 
 ---
 
-*Fin de §3. El §4 desarrolla la aplicación del aparato B.1–B.5 al dominio completo Ω_443 × Ω_443 y la generación del catálogo de pares estructuralmente admisibles.*
-
 
 ---
 
@@ -426,7 +797,7 @@ El estatuto operatorio del CPS-SV hereda directamente el del catálogo SV-443:
 
 El dominio de pares no ordenados sobre Ω₄₄₃ tiene cardinalidad:
 
-$$|\mathcal{P}| = \binom{443}{2} = \frac{443 \times 442}{2} = 97.903 \text{ pares}$$
+|P| = C(443,2) = (443 × 442) / (2) = 97.903 pares
 
 El dominio se particiona en tres subdominios disjuntos según el origen de los índices:
 
@@ -625,8 +996,6 @@ El CPS-SV es el primer catálogo de pares estructurales de extensión periódica
 
 ---
 
-*Fin de §4. El §5 desarrolla el análisis de familias tipológicas en el CPS-SV: qué familias Σ₁–Σ₁₂ generan los pares de mayor admisibilidad estructural y cuál es el desglose exacto de dictámenes por familia. El §6 establece los criterios de falsación del CPS-SV. El §8 entrega el laboratorio reproducible.*
-
 
 ---
 
@@ -753,7 +1122,7 @@ La causa es algebraica: los 60 elementos de Σ₅ tienen valores de EN_SV y r_SV
 
 **Proposición 5.1.** Σ₅ es la única familia tipológica que forma pares APTO-M con todas las demás familias activas (Σ₁, Σ₂, Σ₃, Σ₄, Σ₆, Σ₇, Σ₈, Σ₁₀, Σ₁₁, Σ₁₂).
 
-*Demostración.* Por inspección directa de la tabla del §5.3: Σ₅ aparece emparejada con todas las familias con recuento APTO-M > 0. Σ₁₂ no aparece en el Top 15, pero su par con Σ₅ produce pares APTO-M: verificado en la enumeración completa del §4. ∎
+*Demostración.* Por inspección directa de la tabla del §5.3: Σ₅ aparece emparejada con todas las familias con recuento APTO-M > 0. Σ₁₂ no aparece en el Top 15, pero su par con Σ₅ produce pares APTO-M: verificado en la enumeración completa del §4. Q.E.D.
 
 ---
 
@@ -795,8 +1164,6 @@ Esta ausencia es estructuralmente significativa: Σ₉ es la única familia cuyo
 | 5.10 | Σ₉ está ausente del CPS-SV por herencia de su exclusión en Ω₄₄₃ |
 
 ---
-
-*Fin de §5. El §6 establece los criterios de falsación del CPS-SV. El §8 entrega el laboratorio reproducible.*
 
 
 ---
@@ -886,13 +1253,13 @@ Los siguientes enunciados son derivables algebraicamente de los umbrales B.1–B
 
 **Proposición 6.1 (invariante de gases nobles estructurales SV).** Los 15 pares formados por los seis elementos de gas noble estructural del catálogo SV-118 {k=18, k=36, k=54, k=72, k=90, k=108} reciben dictamen NO-APTO en el CPS-SV.
 
-*Demostración.* Los seis elementos tienen IP_SV ∈ {1108, 1114, 1120, 1126, 1132, 1138} kJ/mol, los seis valores más altos del catálogo SV-118. Para todo par (i,j) de este conjunto, IP_suma ≥ 1108 + 1114 = 2222 kJ/mol > 1800 = Λ_IP. Por lo tanto B.4 falla en todos los casos. ∎
+*Demostración.* Los seis elementos tienen IP_SV ∈ {1108, 1114, 1120, 1126, 1132, 1138} kJ/mol, los seis valores más altos del catálogo SV-118. Para todo par (i,j) de este conjunto, IP_suma ≥ 1108 + 1114 = 2222 kJ/mol > 1800 = Λ_IP. Por lo tanto B.4 falla en todos los casos. Q.E.D.
 
 Verificación directa: los 15 pares nobles×nobles en el CPS-SV tienen IP_suma ∈ {2222, 2228, 2234, 2240, 2246, 2252, 2258, 2264, 2270} kJ/mol. Todos son NO-APTO. ✓
 
 **Proposición 6.2 (pares marginales APTO-M/NO-APTO por B.2).** Existen exactamente 9.858 pares en el CPS-SV que satisfacen B.1 (ΔEN_SV ≤ 0,50), B.3 (M_joint ≥ 40%) y B.4 (IP_suma ≤ 1800) pero reciben NO-APTO por violación exclusiva de B.2 (ρ_SV > 1,40).
 
-*Demostración.* Por enumeración completa de los 97.903 pares del CPS-SV con las condiciones indicadas. El recuento exacto es 9.858. ∎
+*Demostración.* Por enumeración completa de los 97.903 pares del CPS-SV con las condiciones indicadas. El recuento exacto es 9.858. Q.E.D.
 
 Los cinco pares más próximos al umbral B.2 (menor ρ_SV > 1,40) son:
 
@@ -908,7 +1275,7 @@ Estos pares son los candidatos prioritarios de revisión si la síntesis experim
 
 **Proposición 6.3 (cota superior de APTO-M por B.4 relajado).** Si el umbral Λ_IP se elevara desde 1800 a 2276 kJ/mol (máximo teórico), el número de pares APTO-M aumentaría en, como máximo, los 9.858 pares marginales B.2 más los pares actualmente NO-APTO por B.4 con ΔEN_SV ≤ 0,50.
 
-*Demostración.* Todo par que pudiera pasar a APTO-M bajo relajación de umbrales debe satisfacer B.1 con ΔEN_SV ≤ 0,50. Los pares que actualmente fallan solo B.4 con ΔEN_SV ≤ 0,50 son subconjunto disjunto de los 9.858. ∎
+*Demostración.* Todo par que pudiera pasar a APTO-M bajo relajación de umbrales debe satisfacer B.1 con ΔEN_SV ≤ 0,50. Los pares que actualmente fallan solo B.4 con ΔEN_SV ≤ 0,50 son subconjunto disjunto de los 9.858. Q.E.D.
 
 ---
 
@@ -937,8 +1304,12 @@ Con el fin de evitar testigos falsadores espurios, se enuncian explícitamente l
 
 ---
 
-*Fin de §6. El §8 entrega el laboratorio reproducible que implementa la función D(A,B) sobre la Tabla 2, genera el CPS-SV completo y verifica todos los invariantes de §6.4.*
 
+---
+
+# §7. Nota sobre la numeración de secciones
+
+El §7 de esta publicación queda reservado para la integración del CPS-SV con el catálogo de moléculas estructurales SV, publicación inmediatamente posterior en la cadena ascendente del corpus (§1.4bis.6). Los criterios de admisibilidad molecular ampliarán el aparato de par establecido aquí al nivel de tripletas y agrupaciones de orden superior bajo el mismo operador U_SV. Su desarrollo pertenece a esa publicación futura; el §7 aquí funciona como marcador de continuidad en la cadena.
 
 ---
 
@@ -950,7 +1321,7 @@ Con el fin de evitar testigos falsadores espurios, se enuncian explícitamente l
 
 ## §8.0. Principio de trazabilidad
 
-El CPS-SV es reproducible en su totalidad: cualquier receptor puede re-ejecutar el laboratorio sobre la Tabla 2 del catálogo SV-443 y obtener exactamente los mismos 97.903 dictámenes. No existe ningún paso no determinista, ningún parámetro oculto ni ninguna dependencia externa. La reproducibilidad es condición necesaria de la falsabilidad establecida en §6.
+El CPS-SV es reproducible en su totalidad: cualquier receptor puede re-ejecutar el laboratorio sobre la Tabla Global del catálogo SV-443 y obtener exactamente los mismos 97.903 dictámenes. No existe ningún paso no determinista, ningún parámetro oculto ni ninguna dependencia externa. La reproducibilidad es condición necesaria de la falsabilidad establecida en §6.
 
 ---
 
@@ -961,8 +1332,8 @@ El laboratorio se compone de tres archivos:
 | Archivo | Tipo | Función |
 |---|---|---|
 | `sv_cps.py` | Módulo Python | Implementación de D(A,B), carga, validación, invariantes, escritura CSV |
-| `runner_cps.py` | Runner maestro | Orquesta las cuatro fases y emite dictamen JSON |
-| `tabla2_sv443.csv` | Datos de entrada | Tabla 2 del catálogo SV-443 (443 elementos, 9 columnas) |
+| `runner.py` | Runner maestro | Orquesta las cuatro fases y emite dictamen JSON |
+| `tabla2_sv443.csv` | Datos de entrada | Tabla Global del catálogo SV-443 (443 elementos, 9 columnas) |
 
 **Dependencias:** Python 3.8 o superior. Biblioteca estándar exclusivamente (`csv`, `itertools`, `json`, `time`, `argparse`, `pathlib`). Sin dependencias externas.
 
@@ -970,12 +1341,14 @@ El laboratorio se compone de tres archivos:
 
 ## §8.2. Ejecución
 
-```bash
-# Ejecución estándar (CSV de Tabla 2 en el mismo directorio)
-python3 runner_cps.py
+```babash
+# Ejecución estándar (desde la carpeta laboratorios/)
+cd laboratorios
+PYTHONPATH=src python3 runner.py
 
 # Con rutas explícitas
-python3 runner_cps.py --tabla2 /ruta/tabla2_sv443.csv --salida /ruta/catalogo_pares_sv443.csv
+cd laboratorios
+PYTHONPATH=src python3 runner.py --tabla_global /ruta/tabla_global_sv443.csv --salida /ruta/catalogo_pares_sv443.csv
 ```
 
 **Salida esperada (stdout, formato JSON):**
@@ -984,7 +1357,7 @@ python3 runner_cps.py --tabla2 /ruta/tabla2_sv443.csv --salida /ruta/catalogo_pa
 {
   "corpus": "Sistema Vectorial SV",
   "laboratorio": "CPS-SV — Catálogo de Pares Estructurales SV",
-  "tabla2": "tabla2_sv443.csv",
+  "tabla_global": "tabla_global_sv443.csv",
   "salida": "catalogo_pares_sv443.csv",
   "umbrales": {
     "Lambda_M": 0.5,
@@ -1101,7 +1474,7 @@ El laboratorio es **APTO** si y solo si concurren simultáneamente:
 3. Fase 3 verifica los 6 invariantes sin error (CPS-INV-*).
 4. Fase 4 escribe y relee el CSV sin errores; recuento exacto 97.903.
 
-El dictamen APTO con recuento `{APTO-M:9515, APTO-C:37580, APTO-I:5075, NO-APTO:45733}` es el resultado canónico sobre la Tabla 2 del catálogo SV-443 con fecha 08/05/2026. Toda re-ejecución sobre esa misma Tabla 2 debe producir idéntico recuento. Cualquier diferencia indica modificación de la Tabla 2 o del código — ambas situaciones deben registrarse como actualización F.3 (§6.3).
+El dictamen APTO con recuento `{APTO-M:9515, APTO-C:37580, APTO-I:5075, NO-APTO:45733}` es el resultado canónico sobre la Tabla Global del catálogo SV-443 con fecha 09/05/2026. Toda re-ejecución sobre esa misma Tabla 2 debe producir idéntico recuento. Cualquier diferencia indica modificación de la Tabla 2 o del código — ambas situaciones deben registrarse como actualización F.3 (§6.3).
 
 ---
 
@@ -1122,32 +1495,16 @@ Tiempo (Python 3):  < 1 segundo
 
 ---
 
-*Fin de §8. Los archivos `sv_cps.py`, `runner_cps.py` y `tabla2_sv443.csv` se depositan como laboratorio reproducible en el repositorio GitHub del corpus SV y en Zenodo con sellado de tiempo OpenTimestamps.*
-
 
 ---
 
-# Referencias — APA 7
+---
 
-## Corpus SV (publicaciones del autor)
+*Note: Canonical material source on GitHub: https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/quimica-factual-y-ciencia-de-materiales-sv/catalogo-pares-estructurales. Supplementary reproducible laboratory deposit on Zenodo: DOI pending assignment. These canonical sources are provided to facilitate direct consultation of the living textual record, reproducible laboratory verification and reader-side translation through standard browser translation tools when required.*
 
-Lloret Egea, J. A. (2026a). *De Bell a Tsirelson sin formalismo de Hilbert: aparato determinista no local del Sistema Vectorial SV con alfabeto ternario, unicidad del correlador angular factual acoplado y derivación estructural de la cota cuántica*. ITVIA — IA eñ™. https://doi.org/10.17613/1666c-c5g66
+---
 
-Lloret Egea, J. A. (2026b). *Reducción estructural absoluta de Maxwell en el Sistema Vectorial SV y ecuación única de la física factual electromagnética*. ITVIA — IA eñ™. https://doi.org/10.17613/kep1t-57539
-
-Lloret Egea, J. A. (2026c). *Fórmula de Campo Unificado 𝓕_𝓐 = d𝓐 + 𝓐 ∧ 𝓐 con 𝓐 = ω ⊕ A: lo que Einstein y Bohr discutían como doble proyección de un aparato más profundo*. ITVIA — IA eñ™. https://doi.org/10.17613/gxfv3-qjj64
-
-Lloret Egea, J. A. (2026d). *Análisis preliminar de elementos, materiales y aleaciones de nueva generación en el Sistema Vectorial SV: catálogo SV-443, familias tipológicas y propiedades estructurales*. ITVIA — IA eñ™. https://doi.org/10.17613/8ryyb-g9h48
-
-Lloret Egea, J. A. (2026e). *Génesis del hidrógeno y teoría de la persistencia energética estructural en el Sistema Vectorial SV*. ITVIA — IA eñ™. https://www.hcommons.org
-
-Lloret Egea, J. A. (2026f). *Teoría del TODO y de la NADA en el Sistema Vectorial SV*. ITVIA — IA eñ™. https://github.com/juantoniolloretegea/SV-matematica-semantica
-
-Lloret Egea, J. A. (2026g). *Fundamentos algebraico-semánticos del Sistema Vectorial SV*. ITVIA — IA eñ™. https://www.itvia.online
-
-Lloret Egea, J. A. (2026h). *Laboratorio reproducible del catálogo SV-443* [conjunto de datos y código]. Zenodo. https://doi.org/10.5281/zenodo.20084771
-
-## Física de fundamentos y mecánica cuántica
+## Referencias
 
 Bell, J. S. (1964). On the Einstein Podolsky Rosen paradox. *Physics Physique Fizika*, *1*(3), 195–200. https://doi.org/10.1103/PhysicsPhysiqueFizika.1.195
 
@@ -1155,37 +1512,39 @@ Cirel'son, B. S. (1980). Quantum generalizations of Bell's inequality. *Letters 
 
 Clauser, J. F., Horne, M. A., Shimony, A., & Holt, R. A. (1969). Proposed experiment to test local hidden-variable theories. *Physical Review Letters*, *23*(15), 880–884. https://doi.org/10.1103/PhysRevLett.23.880
 
-Einstein, A., Podolsky, B., & Rosen, N. (1935). Can quantum-mechanical description of physical reality be considered complete? *Physical Review*, *47*(10), 777–780. https://doi.org/10.1103/PhysRev.47.777
-
-Maxwell, J. C. (1873). *A treatise on electricity and magnetism* (Vols. 1–2). Clarendon Press.
-
-## Química de elementos superpesados y tabla periódica extendida
-
-Fricke, B., Greiner, W., & Waber, J. T. (1971). The continuation of the periodic table up to Z = 172: The chemistry of superheavy elements. *Theoretica Chimica Acta*, *21*(3), 235–260. https://doi.org/10.1007/BF01172015
-
-Gates, J. M., Orford, R., Gregorich, K. E., Düllmann, C. E., Haba, H., Hosek, D., Huang, W., Hugle, T., Kurz, N., Nitsche, H., O'Kelly, N., Pore, J. L., Rickert, E., Sarén, J., Schaedel, M., Schädel, M., Schwantes, J. M., Türler, A., & Uusitalo, J. (2024). Search for element 119: Status and prospects. *Physical Review C*, *110*(1), 014325. https://doi.org/10.1103/PhysRevC.110.014325
-
-Möller, P. (2016). Nuclear fission-fragment mass yields in 73 fissioning systems prior to prompt-neutron emission, determined using a Los Alamos model. *Atomic Data and Nuclear Data Tables*, *105*, 1–68. https://doi.org/10.1016/j.adt.2015.10.002
-
-Oganessian, Y. T., & Utyonkov, V. K. (2015). Super-heavy element research. *Reports on Progress in Physics*, *78*(3), 036301. https://doi.org/10.1088/0034-4885/78/3/036301
-
-Pyykkö, P. (2011). A suggested periodic table up to Z ≤ 172, based on Dirac–Fock calculations on atoms and ions. *Physical Chemistry Chemical Physics*, *13*(1), 161–168. https://doi.org/10.1039/C0CP01575J
-
-Zel'dovich, Y. B., & Popov, V. S. (1972). Electronic structure of superheavy atoms. *Soviet Physics Uspekhi*, *14*(6), 673–694. https://doi.org/10.1070/PU1972v014n06ABEH004735
-
-## Compatibilidad de aleaciones y enlace químico
+Fricke, B., Greiner, W., & Waber, J. T. (1971). The continuation of the periodic table up to Z = 172. *Theoretica Chimica Acta*, *21*(3), 235–260. https://doi.org/10.1007/BF01172015
 
 Hume-Rothery, W., Smallman, R. E., & Haworth, C. W. (1969). *The structure of metals and alloys* (5th ed.). Institute of Metals.
 
-Pauling, L. (1932). The nature of the chemical bond. IV. The energy of single bonds and the relative electronegativity of atoms. *Journal of the American Chemical Society*, *54*(9), 3570–3582. https://doi.org/10.1021/ja01348a011
+Lloret Egea, J. A. (2026a). *De Bell a Tsirelson sin formalismo de Hilbert: aparato determinista no local del Sistema Vectorial SV*. ITVIA — IA eñ™. https://doi.org/10.17613/1666c-c5g66
 
-Pauling, L. (1960). *The nature of the chemical bond and the structure of molecules and crystals: An introduction to modern structural chemistry* (3rd ed.). Cornell University Press.
+Lloret Egea, J. A. (2026b). *Reducción estructural absoluta de Maxwell en el Sistema Vectorial SV*. ITVIA — IA eñ™. https://doi.org/10.17613/kep1t-57539
 
-## Repositorio del corpus SV
+Lloret Egea, J. A. (2026c). *Fórmula de Campo Unificado F_A = dA + A ∧ A con A = ω ⊕ A*. ITVIA — IA eñ™. https://doi.org/10.17613/gxfv3-qjj64
 
-Lloret Egea, J. A. (2026). *SV-matematica-semantica* [repositorio de código]. GitHub. https://github.com/juantoniolloretegea/SV-matematica-semantica
+Lloret Egea, J. A. (2026d). *Análisis preliminar de elementos, materiales y aleaciones de nueva generación en el Sistema Vectorial SV*. ITVIA — IA eñ™. https://doi.org/10.17613/8ryyb-g9h48
+
+Lloret Egea, J. A. (2026e). *Génesis del hidrógeno y teoría de la persistencia energética estructural en el Sistema Vectorial SV*. ITVIA — IA eñ™. https://doi.org/10.17613/qq4q9-sd847
+
+Lloret Egea, J. A. (2026f). *Teoría del TODO y de la NADA en el Sistema Vectorial SV*. ITVIA — IA eñ™. https://github.com/juantoniolloretegea/SV-matematica-semantica
+
+Lloret Egea, J. A. (2026g). *Teoría general de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV*. ITVIA — IA eñ™.
+
+Lloret Egea, J. A. (2026h). *Laboratorio reproducible del catálogo SV-443* [datos y código]. Zenodo. https://doi.org/10.5281/zenodo.20084771
+
+Maxwell, J. C. (1873). *A treatise on electricity and magnetism* (Vols. 1–2). Clarendon Press.
+
+Oganessian, Y. T., & Utyonkov, V. K. (2015). Super-heavy element research. *Reports on Progress in Physics*, *78*(3), 036301. https://doi.org/10.1088/0034-4885/78/3/036301
+
+Pauling, L. (1932). The nature of the chemical bond. IV. *Journal of the American Chemical Society*, *54*(9), 3570–3582. https://doi.org/10.1021/ja01348a011
+
+Pauling, L. (1960). *The nature of the chemical bond* (3rd ed.). Cornell University Press.
 
 
+Lloret Egea, J. A. (2026k). *Interacción, intercomposición y transmisión factual entre campos en el Sistema Vectorial SV: operadores 𝓘_SV y 𝓣_SV, distancia factual fibrosa, célula SV(36,6) y articulación serial con el corpus*. ITVIA — IA eñ™. https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/interaccion-intercomposicion-transmision-campos/interaccion-intercomposicion-transmision-campos.md
 
----
+Lloret Egea, J. A. (2026i). *Entropía factual e irreversibilidad estructural en el Sistema Vectorial SV: dispersión preternaria, ley de transporte por la cadena fundacional y conservación asimétrica del contenido factual*. ITVIA — IA eñ™. https://doi.org/10.17613/vh6ak-6em43
 
+Lloret Egea, J. A. (2026j). *Fuerza, trabajo, calor, entalpía, temperatura, principios y fundamentos de la termodinámica y la correlación entre ellos en el SV*. ITVIA — IA eñ™. https://doi.org/10.17613/ptw68-d1r57
+
+Pyykkö, P. (2011). A suggested periodic table up to Z ≤ 172. *Physical Chemistry Chemical Physics*, *13*(1), 161–168. https://doi.org/10.1039/C0CP01575J
