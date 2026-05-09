@@ -113,9 +113,7 @@ El Sistema Vectorial SV opera sobre el alfabeto ternario canónico {0, 1, U}. En
 
 - **U (Imperfección)**: el agente operativo del tránsito. U es quien genera el movimiento entre 1 y 0. Sin U, 1 y 0 son estáticos y el sistema permanece en su polo sin transitar. Con U, el tránsito es posible en ambas direcciones: de 1 hacia 0 y de 0 hacia 1.
 
-**La batuta la tiene U.** Esta es la asimetría constitutiva del corpus SV: ni 1 ni 0 generan tránsito por sí solos. U es el motor.
-
-Expresado en la notación canónica: la terna se escribe (1, U, 0) cuando se preserva la perspectiva generativa — primero el Todo, luego la Imperfección que lo pone en movimiento, luego la Nada como destino posible. La escritura cultural (0, 1, U) es equivalente formalmente, pero puede ocultar la asimetría generativa.
+La tensión entre los polos 1 y 0, gobernada por la ecuación rectora 𝓔★_TODO,SV(Γ_U; τ) = 0, genera la Imperfección como zona de existencia sostenida. U no es el motor del tránsito: U es el terreno en que los polos compiten sin que ninguno haya ganado completamente. Lo que existe como par estructural realizado es precisamente lo que ningún polo ha podido reclamar del todo.
 
 ---
 
@@ -335,7 +333,7 @@ Las dos rutas de acceso a APTO-C son estructuralmente distintas: la ruta directa
 
 *Demostración.* La cardinalidad |D_r⁻¹(APTO-C)| depende solo de cuántos protopares satisfacen las condiciones de cada ruta, determinadas por sus cuádruplos de magnitudes. La permutación del dominio no altera los cuádruplos, luego no altera las cardinalidades. **Q.E.D.**
 
-**Corolario 1.6.2 (Las realizaciones ternarias se acumulan en U, no en los polos).** En Ω₄₄₃, el polo Todo (APTO-M, 18,2% de APTO) y el límite Nada (APTO-I, 9,7% de APTO) concentran conjuntamente el 27,9% de la realización ternaria. La zona de imperfección activa de U (APTO-C) concentra el 72,1% restante. El CPS-SV es un catálogo cuyo espacio de realizaciones está centrado en U, no en los polos.
+**Corolario 1.6.2 (Las realizaciones ternarias se acumulan en U, no en los polos).** En Ω₄₄₃, el polo Todo (APTO-M, 18,2% de APTO) y el límite Nada (APTO-I, 9,7% de APTO) concentran conjuntamente el 27,9% de la realización ternaria. La zona de imperfección activa de U (APTO-C) concentra el 72,1% restante. El CPS-SV es un catálogo cuyo espacio de realizaciones se concentra en la zona de imperfección sostenida — el estado en que ningún polo ha logrado dominancia pleta sobre el par.
 
 *Demostración.* Cálculo directo: 37.580 / 52.170 = 72,0%. 9.515 / 52.170 = 18,2%. 5.075 / 52.170 = 9,7%. **Q.E.D.**
 
@@ -351,7 +349,7 @@ Las dos rutas de acceso a APTO-C son estructuralmente distintas: la ruta directa
 
 ### §1.6.5. Principio rector del CPS-SV
 
-**Principio de predominancia de U (P_U).** *En todo dominio de realizaciones ternarias gobernado por una cascada de dominancias con arquitectura D₀–D₄, la zona de imperfección activa del operador U es el régimen de mayor cardinalidad en el espacio de realizaciones. La predominancia de U no es resultado de una configuración particular del dominio empírico sino consecuencia de la doble accesibilidad estructural del régimen U-zone, demostrada por el Teorema 1.6.1. El principio es transferible a todo dominio que satisfaga la arquitectura de la cascada.*
+**Principio de predominancia de U (P_U).** *En todo dominio de realizaciones ternarias gobernado por una cascada de dominancias con arquitectura D₀–D₄, la zona de imperfección sostenida — donde ningún polo logra dominancia completa — es el régimen de mayor cardinalidad en el espacio de realizaciones. Esta predominancia no es resultado de una configuración particular del dominio empírico sino consecuencia de la doble accesibilidad estructural del régimen de imperfección, demostrada por el Teorema 1.6.1. El principio es transferible a todo dominio que satisfaga la arquitectura de la cascada.*
 ---
 
 ## §1.7. Marco conceptual: regímenes de realización ternaria
