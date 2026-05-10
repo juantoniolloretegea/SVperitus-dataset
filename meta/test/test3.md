@@ -1,2197 +1,6911 @@
-# Elementos químicos del Sistema Vectorial SV
+# El agujero negro como régimen de clausura extrema y no transmisibilidad del campo
 
-## Catálogo completo de los 443 elementos: familias tipológicas, generación prequímica, criterios de transición y propiedades estructurales
+## Horizonte, saturación interna y destino no clausurado del contenido
 
-**© 2026. Todos los derechos reservados.** | **Juan Antonio Lloret Egea** | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ — La Biblia de la IA™ | **ISSN 2695-6411** | **Licencia CC BY-NC-ND 4.0** | Madrid, 08/05/2026 |
+Autor: Juan Antonio Lloret Egea | ORCID: [0000-0002-6634-3351(https://orcid.org/0000-0002-6634-3351)
+Institución: Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA)
+Publicación: IA eñ™ — La Biblia de la IA™ | ISSN: 2695-6411
+Licencia: CC BY-NC-ND 4.0 | Fecha: Madrid, 10/05/2026
+DOI: pendiente de asignación (PubPub)
+Repositorio canónico: [https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad(https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad)
 
-**Advertencia.** Esta publicación está protegida por **CEDRO** y su aplicación en el campo de la Física y la Química, así como cualquier forma de explotación, reproducción o uso por parte de empresas, queda sujeta al copyright del autor y a los términos de la licencia indicada; la reproducción, distribución, comunicación pública o transformación de esta obra solo puede ser realizada con la autorización de sus titulares, salvo excepción prevista por la ley, y cualquier uso comercial sin autorización expresa queda prohibido y sujeto estrictamente al licenciamiento permitido.
+Advertencia: Esta publicación está protegida por CEDRO y su aplicación en el campo de la Física, así como cualquier forma de explotación, reproducción o uso por parte de empresas, queda sujeta al copyright del autor y a los términos de la licencia indicada; la reproducción, distribución, comunicación pública o transformación de esta obra solo puede ser realizada con la autorización de sus titulares, salvo excepción prevista por la ley, y cualquier uso comercial sin autorización expresa queda prohibido y supeditado estrictamente al licenciamiento permitido.
 
-**Warning.** This publication is protected by **CEDRO**. Its application in the field of Physics and Chemistry, as well as any form of exploitation, reproduction, or use by corporate entities, is strictly subject to the author's copyright and the terms of the license indicated; any reproduction, distribution, public communication, or transformation of this work requires authorization from the rightsholders, except as provided by law, and any commercial use without express written consent is prohibited and strictly subject to permitted licensing.
+Warning: This publication is protected by CEDRO. Its application in the field of Physics, as well as any form of exploitation, reproduction, or use by corporate entities, is strictly subject to the author’s copyright and the terms of the license indicated; any reproduction, distribution, public communication, or transformation of this work requires authorization from the rightsholders, except as provided by law, and any commercial use without express written consent is prohibited and strictly subject to permitted licensing.
 
----
 
-**Posición en el corpus**
+# Resumen
 
-Esta publicación extiende el dominio de la tabla periódica estructural desarrollada en *Génesis del hidrógeno y teoría de la persistencia energética estructural* (Lloret Egea, 2026) al plano generativo completo: las doce familias tipológicas Σ₁…Σ₁₂ del espacio de trayectorias TPA admisibles, la selección de 675 configuraciones prequímicas de las 720 posibles, y la subsiguiente transición química que produce los 443 elementos del catálogo. El aparato doctrinal se enmarca en la ecuación rectora 𝔘ˢᵛ_unif = 0 y en las condiciones de persistencia fijadas en *Teoría general de sucesos generadores y de los protocampos unificados* (Lloret Egea, 2026). Las propiedades tabuladas son magnitudes estructurales SV, no mediciones empíricas, y su función es constituir el dominio de búsqueda operatoria para la detección y contraste externo de los candidatos.
 
----
+Este trabajo formula una definición operatoria del agujero negro como régimen de clausura extrema y no transmisibilidad del campo. La tesis central sostiene que el agujero negro no debe entenderse primariamente como un objeto aislado ni como una singularidad infinita, sino como un régimen límite en el que la transmisibilidad externa del contenido factual cae por debajo de un umbral crítico, mientras el interior queda descrito como saturación factual y reorganización interna del contenido. El documento introduce una lectura escalar y una lectura vectorial del horizonte, distingue entre masa efectiva y orientación de clausura, preserva explícitamente la indeterminación U sobre el destino global del contenido y delimita la relación con la relatividad general como lectura externa compatible, pero no constitutiva del aparato formal utilizado. El resultado es una formulación verificable mediante banco numérico, laboratorios reproducibles, catálogo de errores y criterios de falsación.
 
-**Resumen**
 
-El Sistema Vectorial SV, articulado sobre la ecuación rectora 𝔘ˢᵛ_unif = 0 y las doce familias tipológicas del espacio de trayectorias TPA admisibles, genera un catálogo de 443 elementos químicos estructuralmente admisibles. El proceso de génesis opera en dos fases: una fase prequímica, que produce 675 configuraciones admisibles de las 720 candidatas generadas sobre la célula SV(3,9) mediante variación sistemática de cinco parámetros de activación; y una fase química, que aplica cinco criterios de transición adicionales y reduce el conjunto a 443 elementos. La tabla periódica reconocida constituye un subdominio propio de los 443: los primeros 118 elementos corresponden a los elementos actualmente detectados. Los elementos k = 119…443 son candidatos estructurales no detectados empíricamente, con estatuto operatorio U. Cada elemento queda caracterizado por 33 magnitudes distribuidas en cuatro tablas de propiedades. La generación cumple las seis prohibiciones constitutivas P.1–P.6 del corpus y queda subordinada a la ecuación rectora universal 𝓔★(Γ_U; τ) = 0.
+# Abstract
 
-**Palabras clave**: Sistema Vectorial SV; química factual; física factual; elementos químicos SV; familias tipológicas; espacio de trayectorias TPA; configuraciones prequímicas; criterios de transición química; tabla periódica estructural; extensión periódica; catálogo SV-443; candidatos estructurales; persistencia energética; compuertas de admisibilidad; propiedades estructurales SV; célula SV(3,9); dominio de búsqueda; dictamen operatorio; compatibilidad universal; falsación estructural; laboratorio reproducible
 
----
+This work formulates an operational definition of the black hole as a regime of extreme closure and field non-transmissibility. Its central thesis states that a black hole should not be understood primarily as an isolated object or as an infinite singularity, but as a limiting regime in which the external transmissibility of factual content falls below a critical threshold, while the interior is described as factual saturation and internal reorganization of content. The document introduces both a scalar and a vectorial reading of the horizon, distinguishes effective mass from closure orientation, explicitly preserves the indeterminate state U regarding the global fate of the content, and delimits the relation with general relativity as a compatible external reading, but not as the constitutive ground of the formal apparatus employed. The result is a verifiable formulation through a numerical bank, reproducible laboratories, an error catalogue and falsifiability criteria.
 
-**Abstract**
 
-The Vectorial System SV, articulated on the governing equation 𝔘ˢᵛ_unif = 0 and the twelve typological families of the admissible TPA trajectory space, generates a catalogue of 443 structurally admissible chemical elements. The genesis process operates in two phases: a prequimic phase, which produces 675 admissible configurations from the 720 candidates generated on the canonical cell SV(3,9) through systematic variation of five activation parameters; and a chemical phase, which applies five additional transition criteria and reduces the set to 443 elements. The recognised periodic table constitutes a proper subdomain of the 443: the first 118 elements correspond to the currently detected elements. Elements k = 119…443 are structurally defined but empirically undetected candidates, carrying operational verdict U. Each element is characterised by 33 magnitudes across four property tables. The generation complies with the six constitutive prohibitions P.1–P.6 and remains subordinated to the universal governing equation 𝓔★(Γ_U; τ) = 0.
+# Palabras clave
 
-**Keywords**: Vectorial System SV; factual chemistry; factual physics; SV chemical elements; typological families; TPA trajectory space; prequimic configurations; chemical transition criteria; structural periodic table; periodic extension; SV-443 catalogue; structural candidates; energetic persistence; admissibility gates; SV structural properties; SV(3,9) cell; search domain; operational verdict; universal compatibility; structural falsifiability; reproducible laboratory
 
----
+Agujero negro; horizonte; clausura extrema; no transmisibilidad; saturación factual; campo; Sistema Vectorial SV; transmisibilidad; U; relatividad general; régimen vectorial; banco numérico; falsación.
 
-# Índice
 
-1. Introducción
-2. Marco del corpus: espacio de trayectorias y familias tipológicas
-3. Generación de configuraciones prequímicas
-4. Condiciones de admisibilidad prequímica
-5. Criterios de transición química
-6. El catálogo de los 443 elementos: estructura y dominio
-7. Modelo de cálculo de propiedades estructurales
-8. Tabla 1 — Identidad y masa estructural
-9. Tabla 2 — Propiedades electrónicas, atómicas y de transporte
-10. Tabla 3 — Propiedades mecánicas, químicas y térmicas
-11. Tabla 4 — Volumen, estabilidad, radiactividad, isótopos y usos
-12. Teoremas del catálogo
-13. Laboratorio reproducible
-14. Criterios de falsación del catálogo
-15. Relación con la tabla periódica estructural SV-118
-16. Conclusión
-17. Epílogo
-18. Notación
-19. Bibliografía
+# Keywords
 
----
 
-# 1. Introducción
+Black hole; horizon; extreme closure; non-transmissibility; factual saturation; field; Vectorial System SV; transmissibility; U; general relativity; vectorial regime; numerical bank; falsifiability.
 
-El programa de extensión periódica del Sistema Vectorial SV no parte de la tabla periódica de elementos reconocidos como referencia generadora. Parte de las condiciones estructurales que hacen posible la existencia de una clase atómica persistente: frontera factual subumbral, redistribución energética compatible, residual acotado, identidad química diferenciada, descendencia protocampal y compatibilidad con la ecuación rectora universal. Bajo esas condiciones, la tabla periódica conocida resulta ser el primer subdominio observable de un dominio operatorio más amplio.
 
-La pregunta que articula este trabajo es la siguiente: dado el aparato generativo del corpus SV sobre la célula SV(3,9), ¿cuántos elementos químicos distintos satisfacen simultáneamente las condiciones de persistencia energética, admisibilidad prequímica y transición al régimen atómico? La respuesta que el aparato proporciona es 443.
+# 0. Estatuto, alcance y tesis central
 
-Ese número no se postula. Se obtiene por aplicación estricta de los criterios del corpus, sin arbitrio externo. El conjunto de 720 configuraciones candidatas generadas por las doce familias tipológicas Σ₁…Σ₁₂ sobre la célula SV(3,9) queda reducido a 675 por las condiciones de admisibilidad prequímica, y a 443 por los criterios de transición química. La tabla periódica reconocida de 118 elementos es un subdominio propio de los 443.
 
-Los elementos k = 119…443 son candidatos estructurales. Su estatuto operatorio es U: estructuralmente admisibles según el corpus, no detectados empíricamente en el estado actual del conocimiento. La apertura no es debilidad del aparato, sino consecuencia de la honestidad operatoria que el corpus exige: ninguna configuración recibe dictamen de existencia física sin contraste externo verificado.
+## 0.1. Estatuto de esta publicación
 
-Esta publicación desarrolla el aparato generativo completo, enuncia los teoremas que sostienen el catálogo, fija las propiedades estructurales de los 443 elementos en cuatro tablas, proporciona un laboratorio reproducible en Python y establece los criterios de falsación del conjunto.
 
----
+La presente publicación tiene estatuto de formulación operatoria local del régimen de agujero negro. No pretende sustituir la totalidad de la física relativista, ni cerrar todos los problemas contemporáneos asociados a los horizontes, la información, la evaporación, la termodinámica gravitacional o la estructura última del interior. Su finalidad es más precisa: definir, dentro del aparato formal del Sistema Vectorial SV, qué debe entenderse por agujero negro cuando se abandona la singularidad infinita como punto de partida y se toma como criterio principal la transmisibilidad externa del contenido del campo.
 
-# 2. Marco del corpus: espacio de trayectorias y familias tipológicas
+El documento no parte de una negación de la relatividad general. Parte de una distinción de planos. La relatividad general proporciona una lectura métrica poderosa del horizonte y de la geometría asociada a regiones de colapso gravitacional. Este trabajo, en cambio, formula una lectura operatoria: pregunta cuándo un régimen de campo deja de transmitir hacia el exterior, cómo se distingue la frontera de no transmisibilidad, qué ocurre con el contenido interior y qué parte del fenómeno debe permanecer en U por ausencia de clausura suficiente.
 
-## 2.1. La célula SV(3,9) y el espacio de trayectorias TPA
+Por tanto, el estatuto del texto es el de una teoría local de régimen. Define condiciones, umbrales, operadores, dictámenes, ejemplos numéricos, laboratorios y errores inadmisibles. No declara haber resuelto todo el problema físico de los agujeros negros, pero sí fija una tesis verificable: el agujero negro puede describirse como régimen de clausura extrema del campo, caracterizado por caída crítica de transmisibilidad, saturación interna y destino global no clausurado del contenido.
 
-El corpus del Sistema Vectorial SV define como dominio generativo base la célula SV(3,9): estructura ternaria con base b = 3 y nueve posiciones de activación. Sobre ella opera la compuerta de ternarización Π₃ᴴ, que transforma estados parcialmente indeterminados en configuraciones admisibles bajo el alfabeto canónico {0, 1, U} con prelación 1 ≻ U ≻ 0.
 
-El espacio de trayectorias TPA admisibles clasifica las secuencias de activación sobre la célula según el observable de apertura φ(S_k), que cuenta el número de posiciones en estado U en el frame k. Las derivadas de activación m_k = φ(S_{k+1}) − φ(S_k) determinan el patrón de signos de cada trayectoria y, con él, la tipología morfológica a la que pertenece.
+## 0.2. Problema físico abordado
 
-## 2.2. Las doce familias tipológicas Σ₁…Σ₁₂
 
-Las trayectorias admisibles del espacio TPA se distribuyen en doce clases morfológicas, clasificadas por el patrón de signos de sus derivadas de activación. La existencia y completitud de estas doce tipologías queda demostrada en el Plano III del corpus (Lloret Egea, 2026a, Proposición 11.3).
+La física contemporánea describe los agujeros negros mediante una combinación de geometría relativista, horizonte causal, colapso gravitacional, termodinámica de horizonte y problemas de información. Esa pluralidad de enfoques ha producido resultados extraordinarios, pero también conserva tensiones conceptuales: la singularidad aparece como límite formal difícil de interpretar físicamente; el horizonte separa regiones con estatuto causal radicalmente distinto; la información queda sometida a debates aún abiertos; y el interior del agujero negro no puede tratarse como región ordinaria accesible a una descripción externa completa.
 
-| Familia | Patrón de signos | Descripción estructural |
-|---|---|---|
-| Σ₁ | −−−… | Convergente pura — apertura decreciente monótona hasta cierre |
-| Σ₂ | +++… | Exploratoria pura — apertura creciente monótona |
-| Σ₃ | +−… | Bimodal apertura-cierre — un pico seguido de descenso |
-| Σ₄ | −+… | Bimodal cierre-apertura — un valle seguido de ascenso |
-| Σ₅ | 000… | Meseta integral — apertura constante |
-| Σ₆ | −00… | Convergente con meseta inicial |
-| Σ₇ | +00… | Exploratoria con meseta inicial |
-| Σ₈ | ++−… | Exploratoria con saturación |
-| Σ₉ | +−+−… | Multimodal compleja — oscilaciones |
-| Σ₁₀ | +++…0 | Umbral tardío — exploración seguida de meseta |
-| Σ₁₁ | −−−…0 | Convergencia tardía — descenso seguido de meseta |
-| Σ₁₂ | +−…00 | Bimodal con saturación final |
+El problema abordado aquí no es calcular una solución relativista concreta, sino formular una definición de agujero negro que sea operatoria, falsable y compatible con una física de campo no basada en tiempo como primitiva. La pregunta central no es únicamente dónde está el horizonte, sino qué significa que haya horizonte. Tampoco es sólo qué masa produce determinado radio crítico, sino qué régimen de campo convierte una frontera en no transmisible.
 
-Las doce familias agotan la clasificación morfológica de las trayectorias TPA admisibles bajo el observable φ. No se postulan aquí: se heredan como clasificación del corpus.
+La publicación aborda, por tanto, el agujero negro como problema de transmisibilidad. El fenómeno se reformula en estos términos: existe agujero negro cuando la capacidad de transmisión externa de un régimen de campo cae por debajo de un umbral definido, de modo que el contenido no desaparece ni se declara singular infinito como hecho primario, sino que queda reorganizado en saturación interna con destino global no clausurado.
 
-## 2.3. Articulación con la ecuación rectora
 
-El aparato generativo queda subordinado a la ecuación rectora unificada del corpus:
+## 0.3. Qué se entiende aquí por agujero negro
 
-𝔘ˢᵛ_unif = ⊕ⱼ₌₁⁷ 𝔘⁽ʲ⁾_SV(Φʲ) ⊕ ⊕ₖ₌₁⁷ 𝒮_k = 0
 
-y a su forma proyectada sobre los sectores 1–5 del dominio físico-atómico. La compuerta de compatibilidad universal 𝓔★(Γ_U; τ) = 0 actúa como condición final de cierre sobre toda configuración candidata, de acuerdo con el Teorema T5 del corpus y la proyección Π_D sobre la trayectoria universal Γ_U (Teoría del TODO y de la NADA, §14.5).
+En este trabajo, un agujero negro se entiende como un régimen de campo en el que la clausura interna alcanza tal intensidad que la transmisión externa efectiva queda críticamente reducida. El horizonte no se define primero como superficie geométrica, sino como frontera operatoria de no transmisibilidad. La geometría puede aparecer después como lectura externa de esa frontera; no constituye aquí el fundamento inicial.
 
----
+La definición mínima puede expresarse así:
 
-# 3. Generación de configuraciones prequímicas
 
-## 3.1. Parámetros de variación sistemática
+BH_SV
+:=
 
-Para cada tipología Σ_k, la generación de configuraciones prequímicas opera mediante variación sistemática de cinco parámetros:
+Θ_H  o Θ_H_vec
+ |
+T_SV ≤ τ_H
+.
 
-**φ(S₀) ∈ {1, 3, 5, 7, 9}** — apertura inicial. Cinco valores.
 
-**Amplitud de la trayectoria** — baja (Δφ ≤ 3), media (3 < Δφ ≤ 6), alta (6 < Δφ ≤ 9). Tres niveles.
+En esta expresión, Θ_H representa la carga interna de clausura asociada al régimen de horizonte; Θ_H_vec representa su versión vectorial, cuando intervienen orientación y dirección de cierre; T_SV expresa la transmisibilidad factual relativa; y τ_H es el umbral operacional bajo el cual el régimen queda dictaminado como horizonte.
 
-**Velocidad de activación** — gradual (|m_k| = 1) y rápida (|m_k| ≥ 2). Dos modalidades.
+La lectura física es inmediata: un agujero negro no se define por ser “algo negro” ni por ser “un punto infinito”, sino por constituir un régimen en el que el contenido del campo ya no mantiene transmisión externa suficiente. Lo decisivo no es la oscuridad visual, sino la pérdida de transmisibilidad; no es la infinitud, sino la clausura extrema; no es el vacío interior, sino la saturación factual.
 
-**Régimen de acoplamiento χ_c** — débil (χ_c = 0,2) y fuerte (χ_c = 0,7). Dos valores.
 
-**Tipo de residual persistente** — un valor por familia.
+## 0.4. Qué no se afirma
 
-El producto combinatorial es 5 × 3 × 2 × 2 = 60 por familia. Con doce familias: 12 × 60 = 720 configuraciones candidatas.
 
-## 3.2. Tasas de admisión por familia
+Este documento no afirma que la relatividad general sea errónea. Tampoco afirma haber derivado una métrica completa equivalente a las soluciones clásicas de Schwarzschild, Kerr o Reissner-Nordström. No se declara resuelto el problema de la información en sentido físico total, ni se afirma que el contenido interior desemboque en otro universo, rebote cosmológico, salida exótica o estructura especulativa no formalizada.
 
-| Familia | Generadas | Admitidas | Tasa |
-|---|---|---|---|
-| Σ₁ | 60 | 58 | 96,7 % |
-| Σ₂ | 60 | 60 | 100 % |
-| Σ₃ | 60 | 55 | 91,7 % |
-| Σ₄ | 60 | 55 | 91,7 % |
-| Σ₅ | 60 | 60 | 100 % |
-| Σ₆ | 60 | 59 | 98,3 % |
-| Σ₇ | 60 | 59 | 98,3 % |
-| Σ₈ | 60 | 56 | 93,3 % |
-| Σ₉ | 60 | 45 | 75,0 % |
-| Σ₁₀ | 60 | 57 | 95,0 % |
-| Σ₁₁ | 60 | 57 | 95,0 % |
-| Σ₁₂ | 60 | 54 | 90,0 % |
-| **Total** | **720** | **675** | **93,75 %** |
+Tampoco se afirma que la singularidad infinita quede experimentalmente refutada por este trabajo. Lo que se afirma es más preciso: dentro del aparato formal aquí empleado, la singularidad infinita no se adopta como estatuto primario del interior. En su lugar, el interior se describe como régimen de saturación factual, y aquello que no pueda determinarse sobre el destino global del contenido queda en U.
 
-Los 45 candidatos rechazados pertenecen principalmente a Σ₉. Su exclusión obedece a la violación de la condición δ(∂Ω_pre) < Λ_pre por exceso de oscilación.
+No se afirma que la masa aislada baste para definir un agujero negro. El documento sostiene que la masa efectiva debe combinarse con orientación de clausura y transmisibilidad. Una configuración de alta masa no debe declararse horizonte pleno si su régimen vectorial no reduce la transmisión externa por debajo del umbral operacional establecido.
 
----
+Finalmente, no se afirma cierre absoluto de la física de los agujeros negros. Se afirma cierre local de una definición operatoria: horizonte como no transmisibilidad, interior como saturación factual y destino global como U residual cuando no exista transición formal demostrada.
 
-# 4. Condiciones de admisibilidad prequímica
 
-Una configuración prequímica es admisible si y solo si satisface simultáneamente:
+## 0.5. Tesis central del documento
 
-**(I) Persistencia positiva:** 𝔓_min(Γ, n) > 0
 
-**(II) Frontera discreta subumbral:** δ(∂Ω_pre) < Λ_pre
+La tesis central puede formularse así:
 
-**(III) Acoplamiento estructural:** χ_c > 0
 
-**(IV) Oposición de derivadas factuales:** 𝔇_Γ g_A · 𝔇_Γ g_B ≤ 0
+Un agujero negro es un régimen de clausura extrema del campo
+en el que la transmisibilidad externa cae bajo umbral crítico,
+el interior queda en saturación factual
+y el destino global del contenido permanece no clausurado.
 
-**(V) Correlador angular único:** C(δ) = −cos δ
 
-**(VI) Compatibilidad con la ecuación rectora proyectada:** 𝔘ˢᵛ_unif = 0 (sectores 1–5)
+Esta tesis desplaza el centro conceptual del agujero negro. El foco ya no se sitúa en una singularidad infinita como explicación primera, sino en el comportamiento operatorio de la transmisión. El horizonte se convierte en frontera de no transmisibilidad; el interior, en régimen de saturación; y el destino último del contenido, en una cuestión que no debe resolverse por conjetura.
 
----
+La tesis posee tres consecuencias principales.
 
-# 5. Criterios de transición química
+Primera: el horizonte debe poder dictaminarse mediante una magnitud de transmisibilidad, no sólo mediante una descripción geométrica externa.
 
-De las 675 configuraciones prequímicas, 443 alcanzan el régimen atómico discreto satisfaciendo simultáneamente:
+Segunda: la masa, aunque relevante, no es criterio suficiente si se prescinde de la orientación de clausura y del estado vectorial del régimen.
 
-**(Q.1) Cierre posicional completo:** φ(S_n) = 0
+Tercera: el interior no se declara ni vacío ni infinito; se trata como dominio saturado cuyo destino global queda en U mientras no exista una construcción formal adicional.
 
-**(Q.2) Acoplamiento pleno:** χ_c = 1
 
-**(Q.3) Densidad de no clausura posicional máxima:** ρ_pos = 1
+## 0.6. Aparición del Sistema Vectorial SV como aparato formal interno
 
-**(Q.4) Oposición factual plena:** 𝔇_Γ g_A · 𝔇_Γ g_B = −1
 
-**(Q.5) Compatibilidad con la ecuación rectora universal completa:** 𝓔★(Γ_U; τ) = 0
+El título de esta publicación no incorpora el nombre del Sistema Vectorial SV, porque la entrada al problema debe ser física y operatoria. El lector no necesita aceptar de entrada una doctrina formal; debe poder seguir primero la pregunta: qué es un agujero negro si se define por clausura, transmisión y saturación.
 
-| Familia | Prequímicos | Elementos químicos |
-|---|---|---|
-| Σ₁ | 58 | 58 |
-| Σ₂ | 60 | 60 |
-| Σ₃ | 55 | 37 |
-| Σ₄ | 55 | 37 |
-| Σ₅ | 60 | 60 |
-| Σ₆ | 59 | 42 |
-| Σ₇ | 59 | 42 |
-| Σ₈ | 56 | 31 |
-| Σ₉ | 45 | 0 |
-| Σ₁₀ | 57 | 34 |
-| Σ₁₁ | 57 | 34 |
-| Σ₁₂ | 54 | 8 |
-| **Total** | **675** | **443** |
+El Sistema Vectorial SV aparece dentro del documento como aparato formal que permite construir esa definición. Su función no es ornamental, ni nominal, ni retórica. Interviene para fijar las magnitudes de clausura, transmisibilidad, persistencia, carga factual interna, dictamen ternario y preservación de U. Allí donde la física heredada habla de horizonte, interior o singularidad, el aparato SV permite distinguir entre frontera operatoria, saturación factual, no transmisibilidad y destino no clausurado.
 
----
+La aparición del SV es, por tanto, interna y funcional. No se usa como etiqueta previa, sino como estructura de cálculo y dictamen. Si el desarrollo falla, no bastará invocar el SV para salvarlo. Si el desarrollo pasa los bancos, laboratorios y adversariales, el SV habrá mostrado su capacidad por operación formal y no por afirmación de autoridad.
 
-# 6. El catálogo de los 443 elementos: estructura y dominio
 
-## 6.1. Reindexación
+## 0.7. Criterio de honestidad: conservación de U
 
-Los 443 elementos químicos SV se reindexan con índice k = 1…443. SV-Hidrógeno (k = 1) constituye el primer elemento: Z_SV = 119, A_SV = 297 u, periodo 8, grupo 1. Los elementos k = 119…443 son candidatos estructurales con dictamen U. La tabla periódica reconocida (118 elementos) es un subdominio propio de los 443.
 
-## 6.2. Estatuto operatorio
+La indeterminación U no es un vacío retórico ni una forma de prudencia débil. En este trabajo cumple una función estructural: impedir que el documento cierre aquello que no puede cerrar. Todo régimen no transmisible plantea una pregunta inevitable sobre el destino global del contenido. El documento no autoriza resolver esa pregunta mediante imaginación cosmológica, analogía literaria ni extensión no demostrada.
 
-El dictamen U de los elementos k = 119…443 significa: estructuralmente admisibles bajo el corpus, no detectados empíricamente. Un dictamen U no puede cambiarse a dictamen 1 sin contraste empírico externo verificado. Un elemento no detectado no es un elemento inexistente: es un candidato cuya realidad física el corpus no puede afirmar ni negar (Teorema 12.4; Lloret Egea, 2026, §14 bis.11).
+Por ello, el destino global del contenido interior queda en U salvo que una transición formal ulterior demuestre lo contrario. U conserva aquí su estatuto de indeterminación honesta: no es negación, no es probabilidad, no es ignorancia maquillada y no es reserva para una conclusión favorable posterior. Es el dictamen correcto cuando el aparato formal no dispone de clausura suficiente.
 
----
+La conservación de U protege el texto de tres errores: declarar singularidad infinita como hecho primario sin necesidad operatoria; declarar salida cosmológica no demostrada; o presentar como cierre aquello que sólo es apertura. En consecuencia, todo laboratorio, banco numérico y catálogo de errores deberá preservar U cuando el régimen no permita dictamen cerrado.
 
-# 7. Modelo de cálculo de propiedades estructurales
-
-Las cuatro tablas se generan mediante funciones explícitas sobre k = 1…443:
-
-Z_SV(k) = 118 + k
-
-A_SV(k) = 294 + 3k + ⌊k/2⌋
-
-Periodo(k) = 8 + ⌊(k−1)/18⌋
-
-Grupo(k) = 1 + ((k−1) mod 18)
-
-Los elementos k = 1…118 emplean los valores exactos del corpus SV-118. Los elementos k = 119…443 se calculan por extensión analítica de las mismas fórmulas. Las funciones para las propiedades de las tablas 2, 3 y 4 están completamente especificadas en el laboratorio del §13.
-
----
-
-# 8. Tabla 1 — Identidad y masa estructural
-
-La primera tabla reúne los nueve parámetros de identidad de cada elemento: índice del catálogo, nombre SV, número atómico estructural, masa atómica estructural, configuración electrónica estructural, periodo, grupo, estado de agregación STP y densidad estructural.
-
-| Nº | Nombre SV | Z_SV | Masa (u) | Configuración electrónica | Periodo | Grupo | Estado STP SV | Densidad (g/cm³) |
-|---|---|---|---|---|---|---|---|---|
-| 1 | SV-Hidrógeno | 119 | 297 | [Og] 8s¹ | 8 | 1 | sólido metálico | 15.65 |
-| 2 | SV-Helio | 120 | 301 | [Og] 8s² | 8 | 2 | sólido metálico | 15.96 |
-| 3 | SV-Litio | 121 | 304 | [Og] 8s² 5g¹ | 8 | 3 | sólido metálico | 16.26 |
-| 4 | SV-Berilio | 122 | 308 | [Og] 8s² 5g² | 8 | 4 | sólido metálico | 16.57 |
-| 5 | SV-Boro | 123 | 311 | [Og] 8s² 5g³ | 8 | 5 | sólido metálico | 16.87 |
-| 6 | SV-Carbono | 124 | 315 | [Og] 8s² 5g⁴ | 8 | 6 | sólido metálico | 17.17 |
-| 7 | SV-Nitrógeno | 125 | 318 | [Og] 8s² 5g⁵ | 8 | 7 | sólido metálico | 17.48 |
-| 8 | SV-Oxígeno | 126 | 322 | [Og] 8s² 5g⁶ | 8 | 8 | sólido metálico | 17.79 |
-| 9 | SV-Flúor | 127 | 325 | [Og] 8s² 5g⁷ | 8 | 9 | sólido metálico | 18.09 |
-| 10 | SV-Neón | 128 | 329 | [Og] 8s² 5g⁸ | 8 | 10 | sólido metálico | 18.39 |
-| 11 | SV-Sodio | 129 | 332 | [Og] 8s² 5g⁹ | 8 | 11 | sólido metálico | 18.7 |
-| 12 | SV-Magnesio | 130 | 336 | [Og] 8s² 5g¹⁰ | 8 | 12 | sólido metálico | 19.0 |
-| 13 | SV-Aluminio | 131 | 339 | [Og] 8s² 5g¹¹ | 8 | 13 | sólido semimetálico | 19.31 |
-| 14 | SV-Silicio | 132 | 343 | [Og] 8s² 5g¹² | 8 | 14 | sólido semimetálico | 19.62 |
-| 15 | SV-Fósforo | 133 | 346 | [Og] 8s² 5g¹³ | 8 | 15 | sólido semimetálico | 19.92 |
-| 16 | SV-Azufre | 134 | 350 | [Og] 8s² 5g¹⁴ | 8 | 16 | sólido semimetálico | 20.22 |
-| 17 | SV-Cloro | 135 | 353 | [Og] 8s² 5g¹⁴ 6f¹ | 8 | 17 | gas reactivo pesado | 15.98 |
-| 18 | SV-Argón | 136 | 357 | [Og] 8s² 5g¹⁴ 6f² | 8 | 18 | gas noble denso | 16.13 |
-| 19 | SV-Potasio | 137 | 360 | [Og] 9s¹ | 9 | 1 | sólido metálico | 18.44 |
-| 20 | SV-Calcio | 138 | 364 | [Og] 9s² | 9 | 2 | sólido metálico | 18.75 |
-| 21 | SV-Escandio | 139 | 367 | [Og] 9s² 6f¹ | 9 | 3 | sólido metálico | 19.05 |
-| 22 | SV-Titanio | 140 | 371 | [Og] 9s² 6f² | 9 | 4 | sólido metálico | 19.36 |
-| 23 | SV-Vanadio | 141 | 374 | [Og] 9s² 6f³ | 9 | 5 | sólido metálico | 19.66 |
-| 24 | SV-Cromo | 142 | 378 | [Og] 9s² 6f⁴ | 9 | 6 | sólido metálico | 19.96 |
-| 25 | SV-Manganeso | 143 | 381 | [Og] 9s² 6f⁵ | 9 | 7 | sólido metálico | 20.27 |
-| 26 | SV-Hierro | 144 | 385 | [Og] 9s² 6f⁶ | 9 | 8 | sólido metálico | 20.57 |
-| 27 | SV-Cobalto | 145 | 388 | [Og] 9s² 6f⁷ | 9 | 9 | sólido metálico | 20.88 |
-| 28 | SV-Níquel | 146 | 392 | [Og] 9s² 6f⁸ | 9 | 10 | sólido metálico | 21.18 |
-| 29 | SV-Cobre | 147 | 395 | [Og] 9s² 6f⁹ | 9 | 11 | sólido metálico | 21.49 |
-| 30 | SV-Zinc | 148 | 399 | [Og] 9s² 6f¹⁰ | 9 | 12 | sólido metálico | 21.8 |
-| 31 | SV-Galio | 149 | 402 | [Og] 9s² 6f¹¹ | 9 | 13 | sólido semimetálico | 22.1 |
-| 32 | SV-Germanio | 150 | 406 | [Og] 9s² 6f¹² | 9 | 14 | sólido semimetálico | 22.41 |
-| 33 | SV-Arsénico | 151 | 409 | [Og] 9s² 6f¹³ | 9 | 15 | sólido semimetálico | 22.71 |
-| 34 | SV-Selenio | 152 | 413 | [Og] 9s² 6f¹⁴ | 9 | 16 | sólido semimetálico | 23.02 |
-| 35 | SV-Bromo | 153 | 416 | [Og] 9s² 6f¹⁴ 7h¹ | 9 | 17 | gas reactivo pesado | 18.77 |
-| 36 | SV-Kriptón | 154 | 420 | [Og] 9s² 6f¹⁴ 7h² | 9 | 18 | gas noble denso | 18.93 |
-| 37 | SV-Rubidio | 155 | 423 | [Og] 10s¹ | 10 | 1 | sólido metálico | 21.23 |
-| 38 | SV-Estroncio | 156 | 427 | [Og] 10s² | 10 | 2 | sólido metálico | 21.54 |
-| 39 | SV-Itrio | 157 | 430 | [Og] 10s² 7h¹ | 10 | 3 | sólido metálico | 21.84 |
-| 40 | SV-Circonio | 158 | 434 | [Og] 10s² 7h² | 10 | 4 | sólido metálico | 22.15 |
-| 41 | SV-Niobio | 159 | 437 | [Og] 10s² 7h³ | 10 | 5 | sólido metálico | 22.45 |
-| 42 | SV-Molibdeno | 160 | 441 | [Og] 10s² 7h⁴ | 10 | 6 | sólido metálico | 22.75 |
-| 43 | SV-Tecnecio | 161 | 444 | [Og] 10s² 7h⁵ | 10 | 7 | sólido metálico | 23.06 |
-| 44 | SV-Rutenio | 162 | 448 | [Og] 10s² 7h⁶ | 10 | 8 | sólido metálico | 23.36 |
-| 45 | SV-Rodio | 163 | 451 | [Og] 10s² 7h⁷ | 10 | 9 | sólido metálico | 23.67 |
-| 46 | SV-Paladio | 164 | 455 | [Og] 10s² 7h⁸ | 10 | 10 | sólido metálico | 23.98 |
-| 47 | SV-Plata | 165 | 458 | [Og] 10s² 7h⁹ | 10 | 11 | sólido metálico | 24.28 |
-| 48 | SV-Cadmio | 166 | 462 | [Og] 10s² 7h¹⁰ | 10 | 12 | sólido metálico | 24.59 |
-| 49 | SV-Indio | 167 | 465 | [Og] 10s² 7h¹¹ | 10 | 13 | sólido semimetálico | 24.89 |
-| 50 | SV-Estaño | 168 | 469 | [Og] 10s² 7h¹² | 10 | 14 | sólido semimetálico | 25.2 |
-| 51 | SV-Antimonio | 169 | 472 | [Og] 10s² 7h¹³ | 10 | 15 | sólido semimetálico | 25.5 |
-| 52 | SV-Telurio | 170 | 476 | [Og] 10s² 7h¹⁴ | 10 | 16 | sólido semimetálico | 25.8 |
-| 53 | SV-Yodo | 171 | 479 | [Og] 10s² 7h¹⁴ 8i¹ | 10 | 17 | gas reactivo pesado | 21.56 |
-| 54 | SV-Xenón | 172 | 483 | [Og] 10s² 7h¹⁴ 8i² | 10 | 18 | gas noble denso | 21.71 |
-| 55 | SV-Cesio | 173 | 486 | [Og] 11s¹ | 11 | 1 | sólido metálico | 24.02 |
-| 56 | SV-Bario | 174 | 490 | [Og] 11s² | 11 | 2 | sólido metálico | 24.32 |
-| 57 | SV-Lantano | 175 | 493 | [Og] 11s² 8i¹ | 11 | 3 | sólido metálico | 24.63 |
-| 58 | SV-Cerio | 176 | 497 | [Og] 11s² 8i² | 11 | 4 | sólido metálico | 24.94 |
-| 59 | SV-Praseodimio | 177 | 500 | [Og] 11s² 8i³ | 11 | 5 | sólido metálico | 25.24 |
-| 60 | SV-Neodimio | 178 | 504 | [Og] 11s² 8i⁴ | 11 | 6 | sólido metálico | 25.54 |
-| 61 | SV-Prometio | 179 | 507 | [Og] 11s² 8i⁵ | 11 | 7 | sólido metálico | 25.85 |
-| 62 | SV-Samario | 180 | 511 | [Og] 11s² 8i⁶ | 11 | 8 | sólido metálico | 26.15 |
-| 63 | SV-Europio | 181 | 514 | [Og] 11s² 8i⁷ | 11 | 9 | sólido metálico | 26.46 |
-| 64 | SV-Gadolinio | 182 | 518 | [Og] 11s² 8i⁸ | 11 | 10 | sólido metálico | 26.77 |
-| 65 | SV-Terbio | 183 | 521 | [Og] 11s² 8i⁹ | 11 | 11 | sólido metálico | 27.07 |
-| 66 | SV-Disprosio | 184 | 525 | [Og] 11s² 8i¹⁰ | 11 | 12 | sólido metálico | 27.38 |
-| 67 | SV-Holmio | 185 | 528 | [Og] 11s² 8i¹¹ | 11 | 13 | sólido semimetálico | 27.68 |
-| 68 | SV-Erbio | 186 | 532 | [Og] 11s² 8i¹² | 11 | 14 | sólido semimetálico | 27.98 |
-| 69 | SV-Tulio | 187 | 535 | [Og] 11s² 8i¹³ | 11 | 15 | sólido semimetálico | 28.29 |
-| 70 | SV-Iterbio | 188 | 539 | [Og] 11s² 8i¹⁴ | 11 | 16 | sólido semimetálico | 28.59 |
-| 71 | SV-Lutecio | 189 | 542 | [Og] 11s² 8i¹⁴ 9k¹ | 11 | 17 | gas reactivo pesado | 24.35 |
-| 72 | SV-Hafnio | 190 | 546 | [Og] 11s² 8i¹⁴ 9k² | 11 | 18 | gas noble denso | 24.51 |
-| 73 | SV-Tántalo | 191 | 549 | [Og] 12s¹ | 12 | 1 | sólido metálico | 26.81 |
-| 74 | SV-Wolframio | 192 | 553 | [Og] 12s² | 12 | 2 | sólido metálico | 27.11 |
-| 75 | SV-Renio | 193 | 556 | [Og] 12s² 9k¹ | 12 | 3 | sólido metálico | 27.42 |
-| 76 | SV-Osmio | 194 | 560 | [Og] 12s² 9k² | 12 | 4 | sólido metálico | 27.73 |
-| 77 | SV-Iridio | 195 | 563 | [Og] 12s² 9k³ | 12 | 5 | sólido metálico | 28.03 |
-| 78 | SV-Platino | 196 | 567 | [Og] 12s² 9k⁴ | 12 | 6 | sólido metálico | 28.34 |
-| 79 | SV-Oro | 197 | 570 | [Og] 12s² 9k⁵ | 12 | 7 | sólido metálico | 28.64 |
-| 80 | SV-Mercurio | 198 | 574 | [Og] 12s² 9k⁶ | 12 | 8 | sólido metálico | 28.94 |
-| 81 | SV-Talio | 199 | 577 | [Og] 12s² 9k⁷ | 12 | 9 | sólido metálico | 29.25 |
-| 82 | SV-Plomo | 200 | 581 | [Og] 12s² 9k⁸ | 12 | 10 | sólido metálico | 29.55 |
-| 83 | SV-Bismuto | 201 | 584 | [Og] 12s² 9k⁹ | 12 | 11 | sólido metálico | 29.86 |
-| 84 | SV-Polonio | 202 | 588 | [Og] 12s² 9k¹⁰ | 12 | 12 | sólido metálico | 30.17 |
-| 85 | SV-Ástato | 203 | 591 | [Og] 12s² 9k¹¹ | 12 | 13 | sólido semimetálico | 30.47 |
-| 86 | SV-Radón | 204 | 595 | [Og] 12s² 9k¹² | 12 | 14 | sólido semimetálico | 30.78 |
-| 87 | SV-Francio | 205 | 598 | [Og] 12s² 9k¹³ | 12 | 15 | sólido semimetálico | 31.08 |
-| 88 | SV-Radio | 206 | 602 | [Og] 12s² 9k¹⁴ | 12 | 16 | sólido semimetálico | 31.38 |
-| 89 | SV-Actinio | 207 | 605 | [Og] 12s² 9k¹⁴ 10l¹ | 12 | 17 | gas reactivo pesado | 27.14 |
-| 90 | SV-Torio | 208 | 609 | [Og] 12s² 9k¹⁴ 10l² | 12 | 18 | gas noble denso | 27.3 |
-| 91 | SV-Protactinio | 209 | 612 | [Og] 13s¹ | 13 | 1 | sólido metálico | 29.6 |
-| 92 | SV-Uranio | 210 | 616 | [Og] 13s² | 13 | 2 | sólido metálico | 29.91 |
-| 93 | SV-Neptunio | 211 | 619 | [Og] 13s² 10l¹ | 13 | 3 | sólido metálico | 30.21 |
-| 94 | SV-Plutonio | 212 | 623 | [Og] 13s² 10l² | 13 | 4 | sólido metálico | 30.52 |
-| 95 | SV-Americio | 213 | 626 | [Og] 13s² 10l³ | 13 | 5 | sólido metálico | 30.82 |
-| 96 | SV-Curio | 214 | 630 | [Og] 13s² 10l⁴ | 13 | 6 | sólido metálico | 31.12 |
-| 97 | SV-Berkelio | 215 | 633 | [Og] 13s² 10l⁵ | 13 | 7 | sólido metálico | 31.43 |
-| 98 | SV-Californio | 216 | 637 | [Og] 13s² 10l⁶ | 13 | 8 | sólido metálico | 31.73 |
-| 99 | SV-Einsteinio | 217 | 640 | [Og] 13s² 10l⁷ | 13 | 9 | sólido metálico | 32.04 |
-| 100 | SV-Fermio | 218 | 644 | [Og] 13s² 10l⁸ | 13 | 10 | sólido metálico | 32.34 |
-| 101 | SV-Mendelevio | 219 | 647 | [Og] 13s² 10l⁹ | 13 | 11 | sólido metálico | 32.65 |
-| 102 | SV-Nobelio | 220 | 651 | [Og] 13s² 10l¹⁰ | 13 | 12 | sólido metálico | 32.95 |
-| 103 | SV-Laurencio | 221 | 654 | [Og] 13s² 10l¹¹ | 13 | 13 | sólido semimetálico | 33.26 |
-| 104 | SV-Rutherfordio | 222 | 658 | [Og] 13s² 10l¹² | 13 | 14 | sólido semimetálico | 33.56 |
-| 105 | SV-Dubnio | 223 | 661 | [Og] 13s² 10l¹³ | 13 | 15 | sólido semimetálico | 33.87 |
-| 106 | SV-Seaborgio | 224 | 665 | [Og] 13s² 10l¹⁴ | 13 | 16 | sólido semimetálico | 34.17 |
-| 107 | SV-Bohrio | 225 | 668 | [Og] 13s² 10l¹⁴ 11m¹ | 13 | 17 | gas reactivo pesado | 29.93 |
-| 108 | SV-Hásio | 226 | 672 | [Og] 13s² 10l¹⁴ 11m² | 13 | 18 | gas noble denso | 30.09 |
-| 109 | SV-Meitnerio | 227 | 675 | [Og] 14s¹ | 14 | 1 | sólido metálico | 32.39 |
-| 110 | SV-Darmstadtio | 228 | 679 | [Og] 14s² | 14 | 2 | sólido metálico | 32.69 |
-| 111 | SV-Roentgenio | 229 | 682 | [Og] 14s² 11m¹ | 14 | 3 | sólido metálico | 33.0 |
-| 112 | SV-Copernicio | 230 | 686 | [Og] 14s² 11m² | 14 | 4 | sólido metálico | 33.3 |
-| 113 | SV-Nihonio | 231 | 689 | [Og] 14s² 11m³ | 14 | 5 | sólido metálico | 33.61 |
-| 114 | SV-Flerovio | 232 | 693 | [Og] 14s² 11m⁴ | 14 | 6 | sólido metálico | 33.91 |
-| 115 | SV-Moscovio | 233 | 696 | [Og] 14s² 11m⁵ | 14 | 7 | sólido metálico | 34.22 |
-| 116 | SV-Livermorio | 234 | 700 | [Og] 14s² 11m⁶ | 14 | 8 | sólido metálico | 34.53 |
-| 117 | SV-Téneso | 235 | 703 | [Og] 14s² 11m⁷ | 14 | 9 | sólido metálico | 34.83 |
-| 118 | SV-Oganesón | 236 | 707 | [Og] 14s² 11m⁸ | 14 | 10 | sólido metálico | 35.14 |
-| 119 | SV-119 | 237 | 710 | [Og] 14s² 11m⁹ | 14 | 11 | sólido metálico | 36.15 |
-| 120 | SV-120 | 238 | 714 | [Og] 14s² 11m¹⁰ | 14 | 12 | sólido metálico | 36.46 |
-| 121 | SV-121 | 239 | 717 | [Og] 14s² 11m¹¹ | 14 | 13 | sólido semimetálico | 36.77 |
-| 122 | SV-122 | 240 | 721 | [Og] 14s² 11m¹² | 14 | 14 | sólido semimetálico | 37.08 |
-| 123 | SV-123 | 241 | 724 | [Og] 14s² 11m¹³ | 14 | 15 | sólido semimetálico | 37.39 |
-| 124 | SV-124 | 242 | 728 | [Og] 14s² 11m¹⁴ | 14 | 16 | sólido semimetálico | 37.7 |
-| 125 | SV-125 | 243 | 731 | [Og] 14s² 11m¹⁴ 12n¹ | 14 | 17 | gas reactivo pesado | 33.38 |
-| 126 | SV-126 | 244 | 735 | [Og] 14s² 11m¹⁴ 12n² | 14 | 18 | gas noble denso | 33.53 |
-| 127 | SV-127 | 245 | 738 | [Og] 15s¹ | 15 | 1 | sólido metálico | 36.1 |
-| 128 | SV-128 | 246 | 742 | [Og] 15s² | 15 | 2 | sólido metálico | 36.41 |
-| 129 | SV-129 | 247 | 745 | [Og] 15s² 12n¹ | 15 | 3 | sólido metálico | 36.72 |
-| 130 | SV-130 | 248 | 749 | [Og] 15s² 12n² | 15 | 4 | sólido metálico | 37.03 |
-| 131 | SV-131 | 249 | 752 | [Og] 15s² 12n³ | 15 | 5 | sólido metálico | 37.34 |
-| 132 | SV-132 | 250 | 756 | [Og] 15s² 12n⁴ | 15 | 6 | sólido metálico | 37.65 |
-| 133 | SV-133 | 251 | 759 | [Og] 15s² 12n⁵ | 15 | 7 | sólido metálico | 37.96 |
-| 134 | SV-134 | 252 | 763 | [Og] 15s² 12n⁶ | 15 | 8 | sólido metálico | 38.27 |
-| 135 | SV-135 | 253 | 766 | [Og] 15s² 12n⁷ | 15 | 9 | sólido metálico | 38.58 |
-| 136 | SV-136 | 254 | 770 | [Og] 15s² 12n⁸ | 15 | 10 | sólido metálico | 38.89 |
-| 137 | SV-137 | 255 | 773 | [Og] 15s² 12n⁹ | 15 | 11 | sólido metálico | 39.2 |
-| 138 | SV-138 | 256 | 777 | [Og] 15s² 12n¹⁰ | 15 | 12 | sólido metálico | 39.51 |
-| 139 | SV-139 | 257 | 780 | [Og] 15s² 12n¹¹ | 15 | 13 | sólido semimetálico | 39.82 |
-| 140 | SV-140 | 258 | 784 | [Og] 15s² 12n¹² | 15 | 14 | sólido semimetálico | 40.13 |
-| 141 | SV-141 | 259 | 787 | [Og] 15s² 12n¹³ | 15 | 15 | sólido semimetálico | 40.44 |
-| 142 | SV-142 | 260 | 791 | [Og] 15s² 12n¹⁴ | 15 | 16 | sólido semimetálico | 40.75 |
-| 143 | SV-143 | 261 | 794 | [Og] 15s² 12n¹⁴ 13o¹ | 15 | 17 | gas reactivo pesado | 36.43 |
-| 144 | SV-144 | 262 | 798 | [Og] 15s² 12n¹⁴ 13o² | 15 | 18 | gas noble denso | 36.58 |
-| 145 | SV-145 | 263 | 801 | [Og] 16s¹ | 16 | 1 | sólido metálico | 39.2 |
-| 146 | SV-146 | 264 | 805 | [Og] 16s² | 16 | 2 | sólido metálico | 39.51 |
-| 147 | SV-147 | 265 | 808 | [Og] 16s² 13o¹ | 16 | 3 | sólido metálico | 39.82 |
-| 148 | SV-148 | 266 | 812 | [Og] 16s² 13o² | 16 | 4 | sólido metálico | 40.13 |
-| 149 | SV-149 | 267 | 815 | [Og] 16s² 13o³ | 16 | 5 | sólido metálico | 40.44 |
-| 150 | SV-150 | 268 | 819 | [Og] 16s² 13o⁴ | 16 | 6 | sólido metálico | 40.75 |
-| 151 | SV-151 | 269 | 822 | [Og] 16s² 13o⁵ | 16 | 7 | sólido metálico | 41.06 |
-| 152 | SV-152 | 270 | 826 | [Og] 16s² 13o⁶ | 16 | 8 | sólido metálico | 41.37 |
-| 153 | SV-153 | 271 | 829 | [Og] 16s² 13o⁷ | 16 | 9 | sólido metálico | 41.68 |
-| 154 | SV-154 | 272 | 833 | [Og] 16s² 13o⁸ | 16 | 10 | sólido metálico | 41.99 |
-| 155 | SV-155 | 273 | 836 | [Og] 16s² 13o⁹ | 16 | 11 | sólido metálico | 42.3 |
-| 156 | SV-156 | 274 | 840 | [Og] 16s² 13o¹⁰ | 16 | 12 | sólido metálico | 42.61 |
-| 157 | SV-157 | 275 | 843 | [Og] 16s² 13o¹¹ | 16 | 13 | sólido semimetálico | 42.92 |
-| 158 | SV-158 | 276 | 847 | [Og] 16s² 13o¹² | 16 | 14 | sólido semimetálico | 43.23 |
-| 159 | SV-159 | 277 | 850 | [Og] 16s² 13o¹³ | 16 | 15 | sólido semimetálico | 43.54 |
-| 160 | SV-160 | 278 | 854 | [Og] 16s² 13o¹⁴ | 16 | 16 | sólido semimetálico | 43.85 |
-| 161 | SV-161 | 279 | 857 | [Og] 16s² 13o¹⁴ 14p¹ | 16 | 17 | gas reactivo pesado | 39.53 |
-| 162 | SV-162 | 280 | 861 | [Og] 16s² 13o¹⁴ 14p² | 16 | 18 | gas noble denso | 39.68 |
-| 163 | SV-163 | 281 | 864 | [Og] 17s¹ | 17 | 1 | sólido metálico | 42.34 |
-| 164 | SV-164 | 282 | 868 | [Og] 17s² | 17 | 2 | sólido metálico | 42.65 |
-| 165 | SV-165 | 283 | 871 | [Og] 17s² 14p¹ | 17 | 3 | sólido metálico | 42.96 |
-| 166 | SV-166 | 284 | 875 | [Og] 17s² 14p² | 17 | 4 | sólido metálico | 43.27 |
-| 167 | SV-167 | 285 | 878 | [Og] 17s² 14p³ | 17 | 5 | sólido metálico | 43.58 |
-| 168 | SV-168 | 286 | 882 | [Og] 17s² 14p⁴ | 17 | 6 | sólido metálico | 43.89 |
-| 169 | SV-169 | 287 | 885 | [Og] 17s² 14p⁵ | 17 | 7 | sólido metálico | 44.2 |
-| 170 | SV-170 | 288 | 889 | [Og] 17s² 14p⁶ | 17 | 8 | sólido metálico | 44.51 |
-| 171 | SV-171 | 289 | 892 | [Og] 17s² 14p⁷ | 17 | 9 | sólido metálico | 44.82 |
-| 172 | SV-172 | 290 | 896 | [Og] 17s² 14p⁸ | 17 | 10 | sólido metálico | 45.13 |
-| 173 | SV-173 | 291 | 899 | [Og] 17s² 14p⁹ | 17 | 11 | sólido metálico | 45.44 |
-| 174 | SV-174 | 292 | 903 | [Og] 17s² 14p¹⁰ | 17 | 12 | sólido metálico | 45.75 |
-| 175 | SV-175 | 293 | 906 | [Og] 17s² 14p¹¹ | 17 | 13 | sólido semimetálico | 46.06 |
-| 176 | SV-176 | 294 | 910 | [Og] 17s² 14p¹² | 17 | 14 | sólido semimetálico | 46.37 |
-| 177 | SV-177 | 295 | 913 | [Og] 17s² 14p¹³ | 17 | 15 | sólido semimetálico | 46.68 |
-| 178 | SV-178 | 296 | 917 | [Og] 17s² 14p¹⁴ | 17 | 16 | sólido semimetálico | 46.99 |
-| 179 | SV-179 | 297 | 920 | [Og] 17s² 14p¹⁴ 15q¹ | 17 | 17 | gas reactivo pesado | 42.67 |
-| 180 | SV-180 | 298 | 924 | [Og] 17s² 14p¹⁴ 15q² | 17 | 18 | gas noble denso | 42.82 |
-| 181 | SV-181 | 299 | 927 | [Og] 18s¹ | 18 | 1 | sólido metálico | 45.53 |
-| 182 | SV-182 | 300 | 931 | [Og] 18s² | 18 | 2 | sólido metálico | 45.84 |
-| 183 | SV-183 | 301 | 934 | [Og] 18s² 15q¹ | 18 | 3 | sólido metálico | 46.15 |
-| 184 | SV-184 | 302 | 938 | [Og] 18s² 15q² | 18 | 4 | sólido metálico | 46.46 |
-| 185 | SV-185 | 303 | 941 | [Og] 18s² 15q³ | 18 | 5 | sólido metálico | 46.77 |
-| 186 | SV-186 | 304 | 945 | [Og] 18s² 15q⁴ | 18 | 6 | sólido metálico | 47.08 |
-| 187 | SV-187 | 305 | 948 | [Og] 18s² 15q⁵ | 18 | 7 | sólido metálico | 47.39 |
-| 188 | SV-188 | 306 | 952 | [Og] 18s² 15q⁶ | 18 | 8 | sólido metálico | 47.7 |
-| 189 | SV-189 | 307 | 955 | [Og] 18s² 15q⁷ | 18 | 9 | sólido metálico | 48.01 |
-| 190 | SV-190 | 308 | 959 | [Og] 18s² 15q⁸ | 18 | 10 | sólido metálico | 48.32 |
-| 191 | SV-191 | 309 | 962 | [Og] 18s² 15q⁹ | 18 | 11 | sólido metálico | 48.63 |
-| 192 | SV-192 | 310 | 966 | [Og] 18s² 15q¹⁰ | 18 | 12 | sólido metálico | 48.94 |
-| 193 | SV-193 | 311 | 969 | [Og] 18s² 15q¹¹ | 18 | 13 | sólido semimetálico | 49.25 |
-| 194 | SV-194 | 312 | 973 | [Og] 18s² 15q¹² | 18 | 14 | sólido semimetálico | 49.56 |
-| 195 | SV-195 | 313 | 976 | [Og] 18s² 15q¹³ | 18 | 15 | sólido semimetálico | 49.87 |
-| 196 | SV-196 | 314 | 980 | [Og] 18s² 15q¹⁴ | 18 | 16 | sólido semimetálico | 50.18 |
-| 197 | SV-197 | 315 | 983 | [Og] 18s² 15q¹⁴ 16r¹ | 18 | 17 | gas reactivo pesado | 45.86 |
-| 198 | SV-198 | 316 | 987 | [Og] 18s² 15q¹⁴ 16r² | 18 | 18 | gas noble denso | 46.01 |
-| 199 | SV-199 | 317 | 990 | [Og] 19s¹ | 19 | 1 | sólido metálico | 48.76 |
-| 200 | SV-200 | 318 | 994 | [Og] 19s² | 19 | 2 | sólido metálico | 49.07 |
-| 201 | SV-201 | 319 | 997 | [Og] 19s² 16r¹ | 19 | 3 | sólido metálico | 49.38 |
-| 202 | SV-202 | 320 | 1001 | [Og] 19s² 16r² | 19 | 4 | sólido metálico | 49.69 |
-| 203 | SV-203 | 321 | 1004 | [Og] 19s² 16r³ | 19 | 5 | sólido metálico | 50.0 |
-| 204 | SV-204 | 322 | 1008 | [Og] 19s² 16r⁴ | 19 | 6 | sólido metálico | 50.31 |
-| 205 | SV-205 | 323 | 1011 | [Og] 19s² 16r⁵ | 19 | 7 | sólido metálico | 50.62 |
-| 206 | SV-206 | 324 | 1015 | [Og] 19s² 16r⁶ | 19 | 8 | sólido metálico | 50.93 |
-| 207 | SV-207 | 325 | 1018 | [Og] 19s² 16r⁷ | 19 | 9 | sólido metálico | 51.24 |
-| 208 | SV-208 | 326 | 1022 | [Og] 19s² 16r⁸ | 19 | 10 | sólido metálico | 51.55 |
-| 209 | SV-209 | 327 | 1025 | [Og] 19s² 16r⁹ | 19 | 11 | sólido metálico | 51.86 |
-| 210 | SV-210 | 328 | 1029 | [Og] 19s² 16r¹⁰ | 19 | 12 | sólido metálico | 52.17 |
-| 211 | SV-211 | 329 | 1032 | [Og] 19s² 16r¹¹ | 19 | 13 | sólido semimetálico | 52.48 |
-| 212 | SV-212 | 330 | 1036 | [Og] 19s² 16r¹² | 19 | 14 | sólido semimetálico | 52.79 |
-| 213 | SV-213 | 331 | 1039 | [Og] 19s² 16r¹³ | 19 | 15 | sólido semimetálico | 53.1 |
-| 214 | SV-214 | 332 | 1043 | [Og] 19s² 16r¹⁴ | 19 | 16 | sólido semimetálico | 53.41 |
-| 215 | SV-215 | 333 | 1046 | [Og] 19s² 16r¹⁴ 17s¹ | 19 | 17 | gas reactivo pesado | 49.09 |
-| 216 | SV-216 | 334 | 1050 | [Og] 19s² 16r¹⁴ 17s² | 19 | 18 | gas noble denso | 49.24 |
-| 217 | SV-217 | 335 | 1053 | [Og] 20s¹ | 20 | 1 | sólido metálico | 52.03 |
-| 218 | SV-218 | 336 | 1057 | [Og] 20s² | 20 | 2 | sólido metálico | 52.34 |
-| 219 | SV-219 | 337 | 1060 | [Og] 20s² 17s¹ | 20 | 3 | sólido metálico | 52.65 |
-| 220 | SV-220 | 338 | 1064 | [Og] 20s² 17s² | 20 | 4 | sólido metálico | 52.96 |
-| 221 | SV-221 | 339 | 1067 | [Og] 20s² 17s³ | 20 | 5 | sólido metálico | 53.27 |
-| 222 | SV-222 | 340 | 1071 | [Og] 20s² 17s⁴ | 20 | 6 | sólido metálico | 53.58 |
-| 223 | SV-223 | 341 | 1074 | [Og] 20s² 17s⁵ | 20 | 7 | sólido metálico | 53.89 |
-| 224 | SV-224 | 342 | 1078 | [Og] 20s² 17s⁶ | 20 | 8 | sólido metálico | 54.2 |
-| 225 | SV-225 | 343 | 1081 | [Og] 20s² 17s⁷ | 20 | 9 | sólido metálico | 54.51 |
-| 226 | SV-226 | 344 | 1085 | [Og] 20s² 17s⁸ | 20 | 10 | sólido metálico | 54.82 |
-| 227 | SV-227 | 345 | 1088 | [Og] 20s² 17s⁹ | 20 | 11 | sólido metálico | 55.13 |
-| 228 | SV-228 | 346 | 1092 | [Og] 20s² 17s¹⁰ | 20 | 12 | sólido metálico | 55.44 |
-| 229 | SV-229 | 347 | 1095 | [Og] 20s² 17s¹¹ | 20 | 13 | sólido semimetálico | 55.75 |
-| 230 | SV-230 | 348 | 1099 | [Og] 20s² 17s¹² | 20 | 14 | sólido semimetálico | 56.06 |
-| 231 | SV-231 | 349 | 1102 | [Og] 20s² 17s¹³ | 20 | 15 | sólido semimetálico | 56.37 |
-| 232 | SV-232 | 350 | 1106 | [Og] 20s² 17s¹⁴ | 20 | 16 | sólido semimetálico | 56.68 |
-| 233 | SV-233 | 351 | 1109 | [Og] 20s² 17s¹⁴ 18t¹ | 20 | 17 | gas reactivo pesado | 52.36 |
-| 234 | SV-234 | 352 | 1113 | [Og] 20s² 17s¹⁴ 18t² | 20 | 18 | gas noble denso | 52.51 |
-| 235 | SV-235 | 353 | 1116 | [Og] 21s¹ | 21 | 1 | sólido metálico | 55.35 |
-| 236 | SV-236 | 354 | 1120 | [Og] 21s² | 21 | 2 | sólido metálico | 55.66 |
-| 237 | SV-237 | 355 | 1123 | [Og] 21s² 18t¹ | 21 | 3 | sólido metálico | 55.97 |
-| 238 | SV-238 | 356 | 1127 | [Og] 21s² 18t² | 21 | 4 | sólido metálico | 56.28 |
-| 239 | SV-239 | 357 | 1130 | [Og] 21s² 18t³ | 21 | 5 | sólido metálico | 56.59 |
-| 240 | SV-240 | 358 | 1134 | [Og] 21s² 18t⁴ | 21 | 6 | sólido metálico | 56.9 |
-| 241 | SV-241 | 359 | 1137 | [Og] 21s² 18t⁵ | 21 | 7 | sólido metálico | 57.21 |
-| 242 | SV-242 | 360 | 1141 | [Og] 21s² 18t⁶ | 21 | 8 | sólido metálico | 57.52 |
-| 243 | SV-243 | 361 | 1144 | [Og] 21s² 18t⁷ | 21 | 9 | sólido metálico | 57.83 |
-| 244 | SV-244 | 362 | 1148 | [Og] 21s² 18t⁸ | 21 | 10 | sólido metálico | 58.14 |
-| 245 | SV-245 | 363 | 1151 | [Og] 21s² 18t⁹ | 21 | 11 | sólido metálico | 58.45 |
-| 246 | SV-246 | 364 | 1155 | [Og] 21s² 18t¹⁰ | 21 | 12 | sólido metálico | 58.76 |
-| 247 | SV-247 | 365 | 1158 | [Og] 21s² 18t¹¹ | 21 | 13 | sólido semimetálico | 59.07 |
-| 248 | SV-248 | 366 | 1162 | [Og] 21s² 18t¹² | 21 | 14 | sólido semimetálico | 59.38 |
-| 249 | SV-249 | 367 | 1165 | [Og] 21s² 18t¹³ | 21 | 15 | sólido semimetálico | 59.69 |
-| 250 | SV-250 | 368 | 1169 | [Og] 21s² 18t¹⁴ | 21 | 16 | sólido semimetálico | 60.0 |
-| 251 | SV-251 | 369 | 1172 | [Og] 21s² 18t¹⁴ 19u¹ | 21 | 17 | gas reactivo pesado | 55.68 |
-| 252 | SV-252 | 370 | 1176 | [Og] 21s² 18t¹⁴ 19u² | 21 | 18 | gas noble denso | 55.83 |
-| 253 | SV-253 | 371 | 1179 | [Og] 22s¹ | 22 | 1 | sólido metálico | 58.71 |
-| 254 | SV-254 | 372 | 1183 | [Og] 22s² | 22 | 2 | sólido metálico | 59.02 |
-| 255 | SV-255 | 373 | 1186 | [Og] 22s² 19u¹ | 22 | 3 | sólido metálico | 59.33 |
-| 256 | SV-256 | 374 | 1190 | [Og] 22s² 19u² | 22 | 4 | sólido metálico | 59.64 |
-| 257 | SV-257 | 375 | 1193 | [Og] 22s² 19u³ | 22 | 5 | sólido metálico | 59.95 |
-| 258 | SV-258 | 376 | 1197 | [Og] 22s² 19u⁴ | 22 | 6 | sólido metálico | 60.26 |
-| 259 | SV-259 | 377 | 1200 | [Og] 22s² 19u⁵ | 22 | 7 | sólido metálico | 60.57 |
-| 260 | SV-260 | 378 | 1204 | [Og] 22s² 19u⁶ | 22 | 8 | sólido metálico | 60.88 |
-| 261 | SV-261 | 379 | 1207 | [Og] 22s² 19u⁷ | 22 | 9 | sólido metálico | 61.19 |
-| 262 | SV-262 | 380 | 1211 | [Og] 22s² 19u⁸ | 22 | 10 | sólido metálico | 61.5 |
-| 263 | SV-263 | 381 | 1214 | [Og] 22s² 19u⁹ | 22 | 11 | sólido metálico | 61.81 |
-| 264 | SV-264 | 382 | 1218 | [Og] 22s² 19u¹⁰ | 22 | 12 | sólido metálico | 62.12 |
-| 265 | SV-265 | 383 | 1221 | [Og] 22s² 19u¹¹ | 22 | 13 | sólido semimetálico | 62.43 |
-| 266 | SV-266 | 384 | 1225 | [Og] 22s² 19u¹² | 22 | 14 | sólido semimetálico | 62.74 |
-| 267 | SV-267 | 385 | 1228 | [Og] 22s² 19u¹³ | 22 | 15 | sólido semimetálico | 63.05 |
-| 268 | SV-268 | 386 | 1232 | [Og] 22s² 19u¹⁴ | 22 | 16 | sólido semimetálico | 63.36 |
-| 269 | SV-269 | 387 | 1235 | [Og] 22s² 19u¹⁴ 20v¹ | 22 | 17 | gas reactivo pesado | 59.04 |
-| 270 | SV-270 | 388 | 1239 | [Og] 22s² 19u¹⁴ 20v² | 22 | 18 | gas noble denso | 59.19 |
-| 271 | SV-271 | 389 | 1242 | [Og] 23s¹ | 23 | 1 | sólido metálico | 62.12 |
-| 272 | SV-272 | 390 | 1246 | [Og] 23s² | 23 | 2 | sólido metálico | 62.43 |
-| 273 | SV-273 | 391 | 1249 | [Og] 23s² 20v¹ | 23 | 3 | sólido metálico | 62.74 |
-| 274 | SV-274 | 392 | 1253 | [Og] 23s² 20v² | 23 | 4 | sólido metálico | 63.05 |
-| 275 | SV-275 | 393 | 1256 | [Og] 23s² 20v³ | 23 | 5 | sólido metálico | 63.36 |
-| 276 | SV-276 | 394 | 1260 | [Og] 23s² 20v⁴ | 23 | 6 | sólido metálico | 63.67 |
-| 277 | SV-277 | 395 | 1263 | [Og] 23s² 20v⁵ | 23 | 7 | sólido metálico | 63.98 |
-| 278 | SV-278 | 396 | 1267 | [Og] 23s² 20v⁶ | 23 | 8 | sólido metálico | 64.29 |
-| 279 | SV-279 | 397 | 1270 | [Og] 23s² 20v⁷ | 23 | 9 | sólido metálico | 64.6 |
-| 280 | SV-280 | 398 | 1274 | [Og] 23s² 20v⁸ | 23 | 10 | sólido metálico | 64.91 |
-| 281 | SV-281 | 399 | 1277 | [Og] 23s² 20v⁹ | 23 | 11 | sólido metálico | 65.22 |
-| 282 | SV-282 | 400 | 1281 | [Og] 23s² 20v¹⁰ | 23 | 12 | sólido metálico | 65.53 |
-| 283 | SV-283 | 401 | 1284 | [Og] 23s² 20v¹¹ | 23 | 13 | sólido semimetálico | 65.84 |
-| 284 | SV-284 | 402 | 1288 | [Og] 23s² 20v¹² | 23 | 14 | sólido semimetálico | 66.15 |
-| 285 | SV-285 | 403 | 1291 | [Og] 23s² 20v¹³ | 23 | 15 | sólido semimetálico | 66.46 |
-| 286 | SV-286 | 404 | 1295 | [Og] 23s² 20v¹⁴ | 23 | 16 | sólido semimetálico | 66.77 |
-| 287 | SV-287 | 405 | 1298 | [Og] 23s² 20v¹⁴ 21w¹ | 23 | 17 | gas reactivo pesado | 62.45 |
-| 288 | SV-288 | 406 | 1302 | [Og] 23s² 20v¹⁴ 21w² | 23 | 18 | gas noble denso | 62.6 |
-| 289 | SV-289 | 407 | 1305 | [Og] 24s¹ | 24 | 1 | sólido metálico | 65.57 |
-| 290 | SV-290 | 408 | 1309 | [Og] 24s² | 24 | 2 | sólido metálico | 65.88 |
-| 291 | SV-291 | 409 | 1312 | [Og] 24s² 21w¹ | 24 | 3 | sólido metálico | 66.19 |
-| 292 | SV-292 | 410 | 1316 | [Og] 24s² 21w² | 24 | 4 | sólido metálico | 66.5 |
-| 293 | SV-293 | 411 | 1319 | [Og] 24s² 21w³ | 24 | 5 | sólido metálico | 66.81 |
-| 294 | SV-294 | 412 | 1323 | [Og] 24s² 21w⁴ | 24 | 6 | sólido metálico | 67.12 |
-| 295 | SV-295 | 413 | 1326 | [Og] 24s² 21w⁵ | 24 | 7 | sólido metálico | 67.43 |
-| 296 | SV-296 | 414 | 1330 | [Og] 24s² 21w⁶ | 24 | 8 | sólido metálico | 67.74 |
-| 297 | SV-297 | 415 | 1333 | [Og] 24s² 21w⁷ | 24 | 9 | sólido metálico | 68.05 |
-| 298 | SV-298 | 416 | 1337 | [Og] 24s² 21w⁸ | 24 | 10 | sólido metálico | 68.36 |
-| 299 | SV-299 | 417 | 1340 | [Og] 24s² 21w⁹ | 24 | 11 | sólido metálico | 68.67 |
-| 300 | SV-300 | 418 | 1344 | [Og] 24s² 21w¹⁰ | 24 | 12 | sólido metálico | 68.98 |
-| 301 | SV-301 | 419 | 1347 | [Og] 24s² 21w¹¹ | 24 | 13 | sólido semimetálico | 69.29 |
-| 302 | SV-302 | 420 | 1351 | [Og] 24s² 21w¹² | 24 | 14 | sólido semimetálico | 69.6 |
-| 303 | SV-303 | 421 | 1354 | [Og] 24s² 21w¹³ | 24 | 15 | sólido semimetálico | 69.91 |
-| 304 | SV-304 | 422 | 1358 | [Og] 24s² 21w¹⁴ | 24 | 16 | sólido semimetálico | 70.22 |
-| 305 | SV-305 | 423 | 1361 | [Og] 24s² 21w¹⁴ 22x¹ | 24 | 17 | gas reactivo pesado | 65.9 |
-| 306 | SV-306 | 424 | 1365 | [Og] 24s² 21w¹⁴ 22x² | 24 | 18 | gas noble denso | 66.05 |
-| 307 | SV-307 | 425 | 1368 | [Og] 25s¹ | 25 | 1 | sólido metálico | 69.06 |
-| 308 | SV-308 | 426 | 1372 | [Og] 25s² | 25 | 2 | sólido metálico | 69.37 |
-| 309 | SV-309 | 427 | 1375 | [Og] 25s² 22x¹ | 25 | 3 | sólido metálico | 69.68 |
-| 310 | SV-310 | 428 | 1379 | [Og] 25s² 22x² | 25 | 4 | sólido metálico | 69.99 |
-| 311 | SV-311 | 429 | 1382 | [Og] 25s² 22x³ | 25 | 5 | sólido metálico | 70.3 |
-| 312 | SV-312 | 430 | 1386 | [Og] 25s² 22x⁴ | 25 | 6 | sólido metálico | 70.61 |
-| 313 | SV-313 | 431 | 1389 | [Og] 25s² 22x⁵ | 25 | 7 | sólido metálico | 70.92 |
-| 314 | SV-314 | 432 | 1393 | [Og] 25s² 22x⁶ | 25 | 8 | sólido metálico | 71.23 |
-| 315 | SV-315 | 433 | 1396 | [Og] 25s² 22x⁷ | 25 | 9 | sólido metálico | 71.54 |
-| 316 | SV-316 | 434 | 1400 | [Og] 25s² 22x⁸ | 25 | 10 | sólido metálico | 71.85 |
-| 317 | SV-317 | 435 | 1403 | [Og] 25s² 22x⁹ | 25 | 11 | sólido metálico | 72.16 |
-| 318 | SV-318 | 436 | 1407 | [Og] 25s² 22x¹⁰ | 25 | 12 | sólido metálico | 72.47 |
-| 319 | SV-319 | 437 | 1410 | [Og] 25s² 22x¹¹ | 25 | 13 | sólido semimetálico | 72.78 |
-| 320 | SV-320 | 438 | 1414 | [Og] 25s² 22x¹² | 25 | 14 | sólido semimetálico | 73.09 |
-| 321 | SV-321 | 439 | 1417 | [Og] 25s² 22x¹³ | 25 | 15 | sólido semimetálico | 73.4 |
-| 322 | SV-322 | 440 | 1421 | [Og] 25s² 22x¹⁴ | 25 | 16 | sólido semimetálico | 73.71 |
-| 323 | SV-323 | 441 | 1424 | [Og] 25s² 22x¹⁴ 23y¹ | 25 | 17 | gas reactivo pesado | 69.39 |
-| 324 | SV-324 | 442 | 1428 | [Og] 25s² 22x¹⁴ 23y² | 25 | 18 | gas noble denso | 69.54 |
-| 325 | SV-325 | 443 | 1431 | [Og] 26s¹ | 26 | 1 | sólido metálico | 72.6 |
-| 326 | SV-326 | 444 | 1435 | [Og] 26s² | 26 | 2 | sólido metálico | 72.91 |
-| 327 | SV-327 | 445 | 1438 | [Og] 26s² 23y¹ | 26 | 3 | sólido metálico | 73.22 |
-| 328 | SV-328 | 446 | 1442 | [Og] 26s² 23y² | 26 | 4 | sólido metálico | 73.53 |
-| 329 | SV-329 | 447 | 1445 | [Og] 26s² 23y³ | 26 | 5 | sólido metálico | 73.84 |
-| 330 | SV-330 | 448 | 1449 | [Og] 26s² 23y⁴ | 26 | 6 | sólido metálico | 74.15 |
-| 331 | SV-331 | 449 | 1452 | [Og] 26s² 23y⁵ | 26 | 7 | sólido metálico | 74.46 |
-| 332 | SV-332 | 450 | 1456 | [Og] 26s² 23y⁶ | 26 | 8 | sólido metálico | 74.77 |
-| 333 | SV-333 | 451 | 1459 | [Og] 26s² 23y⁷ | 26 | 9 | sólido metálico | 75.08 |
-| 334 | SV-334 | 452 | 1463 | [Og] 26s² 23y⁸ | 26 | 10 | sólido metálico | 75.39 |
-| 335 | SV-335 | 453 | 1466 | [Og] 26s² 23y⁹ | 26 | 11 | sólido metálico | 75.7 |
-| 336 | SV-336 | 454 | 1470 | [Og] 26s² 23y¹⁰ | 26 | 12 | sólido metálico | 76.01 |
-| 337 | SV-337 | 455 | 1473 | [Og] 26s² 23y¹¹ | 26 | 13 | sólido semimetálico | 76.32 |
-| 338 | SV-338 | 456 | 1477 | [Og] 26s² 23y¹² | 26 | 14 | sólido semimetálico | 76.63 |
-| 339 | SV-339 | 457 | 1480 | [Og] 26s² 23y¹³ | 26 | 15 | sólido semimetálico | 76.94 |
-| 340 | SV-340 | 458 | 1484 | [Og] 26s² 23y¹⁴ | 26 | 16 | sólido semimetálico | 77.25 |
-| 341 | SV-341 | 459 | 1487 | [Og] 26s² 23y¹⁴ 24z¹ | 26 | 17 | gas reactivo pesado | 72.93 |
-| 342 | SV-342 | 460 | 1491 | [Og] 26s² 23y¹⁴ 24z² | 26 | 18 | gas noble denso | 73.08 |
-| 343 | SV-343 | 461 | 1494 | [Og] 27s¹ | 27 | 1 | sólido metálico | 76.18 |
-| 344 | SV-344 | 462 | 1498 | [Og] 27s² | 27 | 2 | sólido metálico | 76.49 |
-| 345 | SV-345 | 463 | 1501 | [Og] 27s² 24z¹ | 27 | 3 | sólido metálico | 76.8 |
-| 346 | SV-346 | 464 | 1505 | [Og] 27s² 24z² | 27 | 4 | sólido metálico | 77.11 |
-| 347 | SV-347 | 465 | 1508 | [Og] 27s² 24z³ | 27 | 5 | sólido metálico | 77.42 |
-| 348 | SV-348 | 466 | 1512 | [Og] 27s² 24z⁴ | 27 | 6 | sólido metálico | 77.73 |
-| 349 | SV-349 | 467 | 1515 | [Og] 27s² 24z⁵ | 27 | 7 | sólido metálico | 78.04 |
-| 350 | SV-350 | 468 | 1519 | [Og] 27s² 24z⁶ | 27 | 8 | sólido metálico | 78.35 |
-| 351 | SV-351 | 469 | 1522 | [Og] 27s² 24z⁷ | 27 | 9 | sólido metálico | 78.66 |
-| 352 | SV-352 | 470 | 1526 | [Og] 27s² 24z⁸ | 27 | 10 | sólido metálico | 78.97 |
-| 353 | SV-353 | 471 | 1529 | [Og] 27s² 24z⁹ | 27 | 11 | sólido metálico | 79.28 |
-| 354 | SV-354 | 472 | 1533 | [Og] 27s² 24z¹⁰ | 27 | 12 | sólido metálico | 79.59 |
-| 355 | SV-355 | 473 | 1536 | [Og] 27s² 24z¹¹ | 27 | 13 | sólido semimetálico | 79.9 |
-| 356 | SV-356 | 474 | 1540 | [Og] 27s² 24z¹² | 27 | 14 | sólido semimetálico | 80.21 |
-| 357 | SV-357 | 475 | 1543 | [Og] 27s² 24z¹³ | 27 | 15 | sólido semimetálico | 80.52 |
-| 358 | SV-358 | 476 | 1547 | [Og] 27s² 24z¹⁴ | 27 | 16 | sólido semimetálico | 80.83 |
-| 359 | SV-359 | 477 | 1550 | [Og] 27s² 24z¹⁴ 25aa¹ | 27 | 17 | gas reactivo pesado | 76.51 |
-| 360 | SV-360 | 478 | 1554 | [Og] 27s² 24z¹⁴ 25aa² | 27 | 18 | gas noble denso | 76.66 |
-| 361 | SV-361 | 479 | 1557 | [Og] 28s¹ | 28 | 1 | sólido metálico | 79.81 |
-| 362 | SV-362 | 480 | 1561 | [Og] 28s² | 28 | 2 | sólido metálico | 80.12 |
-| 363 | SV-363 | 481 | 1564 | [Og] 28s² 25aa¹ | 28 | 3 | sólido metálico | 80.43 |
-| 364 | SV-364 | 482 | 1568 | [Og] 28s² 25aa² | 28 | 4 | sólido metálico | 80.74 |
-| 365 | SV-365 | 483 | 1571 | [Og] 28s² 25aa³ | 28 | 5 | sólido metálico | 81.05 |
-| 366 | SV-366 | 484 | 1575 | [Og] 28s² 25aa⁴ | 28 | 6 | sólido metálico | 81.36 |
-| 367 | SV-367 | 485 | 1578 | [Og] 28s² 25aa⁵ | 28 | 7 | sólido metálico | 81.67 |
-| 368 | SV-368 | 486 | 1582 | [Og] 28s² 25aa⁶ | 28 | 8 | sólido metálico | 81.98 |
-| 369 | SV-369 | 487 | 1585 | [Og] 28s² 25aa⁷ | 28 | 9 | sólido metálico | 82.29 |
-| 370 | SV-370 | 488 | 1589 | [Og] 28s² 25aa⁸ | 28 | 10 | sólido metálico | 82.6 |
-| 371 | SV-371 | 489 | 1592 | [Og] 28s² 25aa⁹ | 28 | 11 | sólido metálico | 82.91 |
-| 372 | SV-372 | 490 | 1596 | [Og] 28s² 25aa¹⁰ | 28 | 12 | sólido metálico | 83.22 |
-| 373 | SV-373 | 491 | 1599 | [Og] 28s² 25aa¹¹ | 28 | 13 | sólido semimetálico | 83.53 |
-| 374 | SV-374 | 492 | 1603 | [Og] 28s² 25aa¹² | 28 | 14 | sólido semimetálico | 83.84 |
-| 375 | SV-375 | 493 | 1606 | [Og] 28s² 25aa¹³ | 28 | 15 | sólido semimetálico | 84.15 |
-| 376 | SV-376 | 494 | 1610 | [Og] 28s² 25aa¹⁴ | 28 | 16 | sólido semimetálico | 84.46 |
-| 377 | SV-377 | 495 | 1613 | [Og] 28s² 25aa¹⁴ 26bb¹ | 28 | 17 | gas reactivo pesado | 80.14 |
-| 378 | SV-378 | 496 | 1617 | [Og] 28s² 25aa¹⁴ 26bb² | 28 | 18 | gas noble denso | 80.29 |
-| 379 | SV-379 | 497 | 1620 | [Og] 29s¹ | 29 | 1 | sólido metálico | 83.48 |
-| 380 | SV-380 | 498 | 1624 | [Og] 29s² | 29 | 2 | sólido metálico | 83.79 |
-| 381 | SV-381 | 499 | 1627 | [Og] 29s² 26bb¹ | 29 | 3 | sólido metálico | 84.1 |
-| 382 | SV-382 | 500 | 1631 | [Og] 29s² 26bb² | 29 | 4 | sólido metálico | 84.41 |
-| 383 | SV-383 | 501 | 1634 | [Og] 29s² 26bb³ | 29 | 5 | sólido metálico | 84.72 |
-| 384 | SV-384 | 502 | 1638 | [Og] 29s² 26bb⁴ | 29 | 6 | sólido metálico | 85.03 |
-| 385 | SV-385 | 503 | 1641 | [Og] 29s² 26bb⁵ | 29 | 7 | sólido metálico | 85.34 |
-| 386 | SV-386 | 504 | 1645 | [Og] 29s² 26bb⁶ | 29 | 8 | sólido metálico | 85.65 |
-| 387 | SV-387 | 505 | 1648 | [Og] 29s² 26bb⁷ | 29 | 9 | sólido metálico | 85.96 |
-| 388 | SV-388 | 506 | 1652 | [Og] 29s² 26bb⁸ | 29 | 10 | sólido metálico | 86.27 |
-| 389 | SV-389 | 507 | 1655 | [Og] 29s² 26bb⁹ | 29 | 11 | sólido metálico | 86.58 |
-| 390 | SV-390 | 508 | 1659 | [Og] 29s² 26bb¹⁰ | 29 | 12 | sólido metálico | 86.89 |
-| 391 | SV-391 | 509 | 1662 | [Og] 29s² 26bb¹¹ | 29 | 13 | sólido semimetálico | 87.2 |
-| 392 | SV-392 | 510 | 1666 | [Og] 29s² 26bb¹² | 29 | 14 | sólido semimetálico | 87.51 |
-| 393 | SV-393 | 511 | 1669 | [Og] 29s² 26bb¹³ | 29 | 15 | sólido semimetálico | 87.82 |
-| 394 | SV-394 | 512 | 1673 | [Og] 29s² 26bb¹⁴ | 29 | 16 | sólido semimetálico | 88.13 |
-| 395 | SV-395 | 513 | 1676 | [Og] 29s² 26bb¹⁴ 27cc¹ | 29 | 17 | gas reactivo pesado | 83.81 |
-| 396 | SV-396 | 514 | 1680 | [Og] 29s² 26bb¹⁴ 27cc² | 29 | 18 | gas noble denso | 83.96 |
-| 397 | SV-397 | 515 | 1683 | [Og] 30s¹ | 30 | 1 | sólido metálico | 87.19 |
-| 398 | SV-398 | 516 | 1687 | [Og] 30s² | 30 | 2 | sólido metálico | 87.5 |
-| 399 | SV-399 | 517 | 1690 | [Og] 30s² 27cc¹ | 30 | 3 | sólido metálico | 87.81 |
-| 400 | SV-400 | 518 | 1694 | [Og] 30s² 27cc² | 30 | 4 | sólido metálico | 88.12 |
-| 401 | SV-401 | 519 | 1697 | [Og] 30s² 27cc³ | 30 | 5 | sólido metálico | 88.43 |
-| 402 | SV-402 | 520 | 1701 | [Og] 30s² 27cc⁴ | 30 | 6 | sólido metálico | 88.74 |
-| 403 | SV-403 | 521 | 1704 | [Og] 30s² 27cc⁵ | 30 | 7 | sólido metálico | 89.05 |
-| 404 | SV-404 | 522 | 1708 | [Og] 30s² 27cc⁶ | 30 | 8 | sólido metálico | 89.36 |
-| 405 | SV-405 | 523 | 1711 | [Og] 30s² 27cc⁷ | 30 | 9 | sólido metálico | 89.67 |
-| 406 | SV-406 | 524 | 1715 | [Og] 30s² 27cc⁸ | 30 | 10 | sólido metálico | 89.98 |
-| 407 | SV-407 | 525 | 1718 | [Og] 30s² 27cc⁹ | 30 | 11 | sólido metálico | 90.29 |
-| 408 | SV-408 | 526 | 1722 | [Og] 30s² 27cc¹⁰ | 30 | 12 | sólido metálico | 90.6 |
-| 409 | SV-409 | 527 | 1725 | [Og] 30s² 27cc¹¹ | 30 | 13 | sólido semimetálico | 90.91 |
-| 410 | SV-410 | 528 | 1729 | [Og] 30s² 27cc¹² | 30 | 14 | sólido semimetálico | 91.22 |
-| 411 | SV-411 | 529 | 1732 | [Og] 30s² 27cc¹³ | 30 | 15 | sólido semimetálico | 91.53 |
-| 412 | SV-412 | 530 | 1736 | [Og] 30s² 27cc¹⁴ | 30 | 16 | sólido semimetálico | 91.84 |
-| 413 | SV-413 | 531 | 1739 | [Og] 30s² 27cc¹⁴ 28dd¹ | 30 | 17 | gas reactivo pesado | 87.52 |
-| 414 | SV-414 | 532 | 1743 | [Og] 30s² 27cc¹⁴ 28dd² | 30 | 18 | gas noble denso | 87.67 |
-| 415 | SV-415 | 533 | 1746 | [Og] 31s¹ | 31 | 1 | sólido metálico | 90.95 |
-| 416 | SV-416 | 534 | 1750 | [Og] 31s² | 31 | 2 | sólido metálico | 91.26 |
-| 417 | SV-417 | 535 | 1753 | [Og] 31s² 28dd¹ | 31 | 3 | sólido metálico | 91.57 |
-| 418 | SV-418 | 536 | 1757 | [Og] 31s² 28dd² | 31 | 4 | sólido metálico | 91.88 |
-| 419 | SV-419 | 537 | 1760 | [Og] 31s² 28dd³ | 31 | 5 | sólido metálico | 92.19 |
-| 420 | SV-420 | 538 | 1764 | [Og] 31s² 28dd⁴ | 31 | 6 | sólido metálico | 92.5 |
-| 421 | SV-421 | 539 | 1767 | [Og] 31s² 28dd⁵ | 31 | 7 | sólido metálico | 92.81 |
-| 422 | SV-422 | 540 | 1771 | [Og] 31s² 28dd⁶ | 31 | 8 | sólido metálico | 93.12 |
-| 423 | SV-423 | 541 | 1774 | [Og] 31s² 28dd⁷ | 31 | 9 | sólido metálico | 93.43 |
-| 424 | SV-424 | 542 | 1778 | [Og] 31s² 28dd⁸ | 31 | 10 | sólido metálico | 93.74 |
-| 425 | SV-425 | 543 | 1781 | [Og] 31s² 28dd⁹ | 31 | 11 | sólido metálico | 94.05 |
-| 426 | SV-426 | 544 | 1785 | [Og] 31s² 28dd¹⁰ | 31 | 12 | sólido metálico | 94.36 |
-| 427 | SV-427 | 545 | 1788 | [Og] 31s² 28dd¹¹ | 31 | 13 | sólido semimetálico | 94.67 |
-| 428 | SV-428 | 546 | 1792 | [Og] 31s² 28dd¹² | 31 | 14 | sólido semimetálico | 94.98 |
-| 429 | SV-429 | 547 | 1795 | [Og] 31s² 28dd¹³ | 31 | 15 | sólido semimetálico | 95.29 |
-| 430 | SV-430 | 548 | 1799 | [Og] 31s² 28dd¹⁴ | 31 | 16 | sólido semimetálico | 95.6 |
-| 431 | SV-431 | 549 | 1802 | [Og] 31s² 28dd¹⁴ 29ee¹ | 31 | 17 | gas reactivo pesado | 91.28 |
-| 432 | SV-432 | 550 | 1806 | [Og] 31s² 28dd¹⁴ 29ee² | 31 | 18 | gas noble denso | 91.43 |
-| 433 | SV-433 | 551 | 1809 | [Og] 32s¹ | 32 | 1 | sólido metálico | 94.75 |
-| 434 | SV-434 | 552 | 1813 | [Og] 32s² | 32 | 2 | sólido metálico | 95.06 |
-| 435 | SV-435 | 553 | 1816 | [Og] 32s² 29ee¹ | 32 | 3 | sólido metálico | 95.37 |
-| 436 | SV-436 | 554 | 1820 | [Og] 32s² 29ee² | 32 | 4 | sólido metálico | 95.68 |
-| 437 | SV-437 | 555 | 1823 | [Og] 32s² 29ee³ | 32 | 5 | sólido metálico | 95.99 |
-| 438 | SV-438 | 556 | 1827 | [Og] 32s² 29ee⁴ | 32 | 6 | sólido metálico | 96.3 |
-| 439 | SV-439 | 557 | 1830 | [Og] 32s² 29ee⁵ | 32 | 7 | sólido metálico | 96.61 |
-| 440 | SV-440 | 558 | 1834 | [Og] 32s² 29ee⁶ | 32 | 8 | sólido metálico | 96.92 |
-| 441 | SV-441 | 559 | 1837 | [Og] 32s² 29ee⁷ | 32 | 9 | sólido metálico | 97.23 |
-| 442 | SV-442 | 560 | 1841 | [Og] 32s² 29ee⁸ | 32 | 10 | sólido metálico | 97.54 |
-| 443 | SV-443 | 561 | 1844 | [Og] 32s² 29ee⁹ | 32 | 11 | sólido metálico | 97.85 |
-
----
-
-# 9. Tabla 2 — Propiedades electrónicas, atómicas y de transporte
-
-La segunda tabla reúne ocho magnitudes electrónicas y de transporte: conductividad eléctrica, electronegatividad, energía de ionización, radio atómico, afinidad electrónica, carácter metálico, conductividad térmica y permeabilidad magnética relativa.
-
-| Nº | Nombre SV | Conductividad (MS/m) | Electronegatividad | E. ionización (kJ/mol) | Radio (pm) | Afinidad (eV) | Carácter metálico (%) | Cond. térmica (W/m·K) | Permeabilidad (μr) |
-|---|---|---|---|---|---|---|---|---|---|
-| 1 | SV-Hidrógeno | 62.0 | 0.55 | 391.0 | 285.0 | 0.21 | 100.0 | 390.6 | 1.006 |
-| 2 | SV-Helio | 61.91 | 0.69 | 422.0 | 278.8 | 0.29 | 100.0 | 390.1 | 1.012 |
-| 3 | SV-Litio | 47.87 | 0.82 | 453.0 | 272.6 | 0.38 | 98.4 | 301.6 | 1.018 |
-| 4 | SV-Berilio | 47.8 | 0.96 | 484.0 | 266.4 | 0.46 | 93.6 | 301.1 | 1.024 |
-| 5 | SV-Boro | 47.73 | 1.09 | 515.0 | 260.2 | 0.55 | 88.8 | 300.7 | 1.03 |
-| 6 | SV-Carbono | 47.66 | 1.23 | 546.0 | 254.0 | 0.63 | 84.0 | 300.3 | 1.0 |
-| 7 | SV-Nitrógeno | 47.6 | 1.36 | 577.0 | 247.8 | 0.72 | 79.2 | 299.9 | 1.006 |
-| 8 | SV-Oxígeno | 47.53 | 1.5 | 608.0 | 241.6 | 0.8 | 74.4 | 299.4 | 1.012 |
-| 9 | SV-Flúor | 47.46 | 1.63 | 639.0 | 235.4 | 0.89 | 69.6 | 299.0 | 1.018 |
-| 10 | SV-Neón | 47.4 | 1.77 | 670.0 | 229.2 | 0.97 | 64.8 | 298.6 | 1.024 |
-| 11 | SV-Sodio | 47.33 | 1.9 | 701.0 | 223.0 | 1.06 | 60.0 | 298.2 | 1.03 |
-| 12 | SV-Magnesio | 47.26 | 2.04 | 732.0 | 216.8 | 1.14 | 55.2 | 297.7 | 1.0 |
-| 13 | SV-Aluminio | 12.78 | 2.17 | 763.0 | 210.6 | 1.23 | 50.4 | 80.5 | 1.006 |
-| 14 | SV-Silicio | 12.76 | 2.31 | 794.0 | 204.4 | 1.31 | 45.6 | 80.4 | 1.012 |
-| 15 | SV-Fósforo | 12.75 | 2.44 | 825.0 | 198.2 | 1.4 | 40.8 | 80.3 | 1.018 |
-| 16 | SV-Azufre | 12.73 | 2.58 | 856.0 | 192.0 | 1.48 | 36.0 | 80.2 | 1.024 |
-| 17 | SV-Cloro | 0.18 | 2.71 | 957.0 | 185.8 | 2.12 | 10.0 | 0.2 | 1.0 |
-| 18 | SV-Argón | 0.02 | 0.0 | 1138.0 | 179.6 | 0.0 | 2.0 | 0.0 | 1.0 |
-| 19 | SV-Potasio | 57.78 | 0.53 | 385.0 | 297.0 | 0.19 | 100.0 | 364.0 | 1.006 |
-| 20 | SV-Calcio | 57.7 | 0.66 | 416.0 | 290.8 | 0.28 | 100.0 | 363.5 | 1.012 |
-| 21 | SV-Escandio | 44.6 | 0.8 | 447.0 | 284.6 | 0.36 | 96.2 | 281.0 | 1.018 |
-| 22 | SV-Titanio | 44.54 | 0.93 | 478.0 | 278.4 | 0.45 | 91.4 | 280.6 | 1.024 |
-| 23 | SV-Vanadio | 44.47 | 1.07 | 509.0 | 272.2 | 0.53 | 86.6 | 280.2 | 1.03 |
-| 24 | SV-Cromo | 44.41 | 1.2 | 540.0 | 266.0 | 0.61 | 81.8 | 279.8 | 1.0 |
-| 25 | SV-Manganeso | 44.35 | 1.34 | 571.0 | 259.8 | 0.7 | 77.0 | 279.4 | 1.006 |
-| 26 | SV-Hierro | 44.28 | 1.47 | 602.0 | 253.6 | 0.79 | 72.2 | 279.0 | 1.012 |
-| 27 | SV-Cobalto | 44.22 | 1.61 | 633.0 | 247.4 | 0.87 | 67.4 | 278.6 | 1.018 |
-| 28 | SV-Níquel | 44.15 | 1.74 | 664.0 | 241.2 | 0.96 | 62.6 | 278.2 | 1.024 |
-| 29 | SV-Cobre | 44.09 | 1.88 | 695.0 | 235.0 | 1.04 | 57.8 | 277.8 | 1.03 |
-| 30 | SV-Zinc | 44.02 | 2.01 | 726.0 | 228.8 | 1.13 | 53.0 | 277.4 | 1.0 |
-| 31 | SV-Galio | 11.91 | 2.15 | 757.0 | 222.6 | 1.21 | 48.2 | 75.0 | 1.006 |
-| 32 | SV-Germanio | 11.89 | 2.28 | 788.0 | 216.4 | 1.3 | 43.4 | 74.9 | 1.012 |
-| 33 | SV-Arsénico | 11.87 | 2.42 | 819.0 | 210.2 | 1.38 | 38.6 | 74.8 | 1.018 |
-| 34 | SV-Selenio | 11.85 | 2.55 | 850.0 | 204.0 | 1.47 | 33.8 | 74.7 | 1.024 |
-| 35 | SV-Bromo | 0.16 | 2.69 | 951.0 | 197.8 | 2.1 | 10.0 | 0.2 | 1.0 |
-| 36 | SV-Kriptón | 0.02 | 0.0 | 1132.0 | 191.6 | 0.0 | 2.0 | 0.0 | 1.0 |
-| 37 | SV-Rubidio | 53.81 | 0.5 | 379.0 | 309.0 | 0.18 | 100.0 | 339.0 | 1.006 |
-| 38 | SV-Estroncio | 53.73 | 0.64 | 410.0 | 302.8 | 0.26 | 98.8 | 338.5 | 1.012 |
-| 39 | SV-Itrio | 41.53 | 0.77 | 441.0 | 296.6 | 0.34 | 94.0 | 261.7 | 1.018 |
-| 40 | SV-Circonio | 41.47 | 0.91 | 472.0 | 290.4 | 0.43 | 89.2 | 261.3 | 1.024 |
-| 41 | SV-Niobio | 41.41 | 1.04 | 503.0 | 284.2 | 0.52 | 84.4 | 260.9 | 1.03 |
-| 42 | SV-Molibdeno | 41.35 | 1.18 | 534.0 | 278.0 | 0.6 | 79.6 | 260.5 | 1.0 |
-| 43 | SV-Tecnecio | 41.29 | 1.31 | 565.0 | 271.8 | 0.69 | 74.8 | 260.1 | 1.006 |
-| 44 | SV-Rutenio | 41.23 | 1.45 | 596.0 | 265.6 | 0.77 | 70.0 | 259.7 | 1.012 |
-| 45 | SV-Rodio | 41.17 | 1.58 | 627.0 | 259.4 | 0.85 | 65.2 | 259.3 | 1.018 |
-| 46 | SV-Paladio | 41.1 | 1.72 | 658.0 | 253.2 | 0.94 | 60.4 | 259.0 | 1.024 |
-| 47 | SV-Plata | 41.04 | 1.85 | 689.0 | 247.0 | 1.03 | 55.6 | 258.6 | 1.03 |
-| 48 | SV-Cadmio | 40.98 | 1.99 | 720.0 | 240.8 | 1.11 | 50.8 | 258.2 | 1.0 |
-| 49 | SV-Indio | 11.08 | 2.12 | 751.0 | 234.6 | 1.2 | 46.0 | 69.8 | 1.006 |
-| 50 | SV-Estaño | 11.07 | 2.26 | 782.0 | 228.4 | 1.28 | 41.2 | 69.7 | 1.012 |
-| 51 | SV-Antimonio | 11.05 | 2.39 | 813.0 | 222.2 | 1.36 | 36.4 | 69.6 | 1.018 |
-| 52 | SV-Telurio | 11.03 | 2.53 | 844.0 | 216.0 | 1.45 | 31.6 | 69.5 | 1.024 |
-| 53 | SV-Yodo | 0.15 | 2.66 | 945.0 | 209.8 | 2.08 | 10.0 | 0.2 | 1.0 |
-| 54 | SV-Xenón | 0.02 | 0.0 | 1126.0 | 203.6 | 0.0 | 2.0 | 0.0 | 1.0 |
-| 55 | SV-Cesio | 50.08 | 0.48 | 373.0 | 321.0 | 0.16 | 100.0 | 315.5 | 1.006 |
-| 56 | SV-Bario | 50.0 | 0.61 | 404.0 | 314.8 | 0.25 | 96.6 | 315.0 | 1.012 |
-| 57 | SV-Lantano | 38.65 | 0.75 | 435.0 | 308.6 | 0.33 | 91.8 | 243.5 | 1.018 |
-| 58 | SV-Cerio | 38.59 | 0.88 | 466.0 | 302.4 | 0.42 | 87.0 | 243.1 | 1.024 |
-| 59 | SV-Praseodimio | 38.53 | 1.02 | 497.0 | 296.2 | 0.5 | 82.2 | 242.8 | 1.03 |
-| 60 | SV-Neodimio | 38.47 | 1.15 | 528.0 | 290.0 | 0.58 | 77.4 | 242.4 | 1.0 |
-| 61 | SV-Prometio | 38.42 | 1.29 | 559.0 | 283.8 | 0.67 | 72.6 | 242.0 | 1.006 |
-| 62 | SV-Samario | 38.36 | 1.42 | 590.0 | 277.6 | 0.76 | 67.8 | 241.6 | 1.012 |
-| 63 | SV-Europio | 38.3 | 1.56 | 621.0 | 271.4 | 0.84 | 63.0 | 241.3 | 1.018 |
-| 64 | SV-Gadolinio | 38.24 | 1.69 | 652.0 | 265.2 | 0.93 | 58.2 | 240.9 | 1.024 |
-| 65 | SV-Terbio | 38.18 | 1.83 | 683.0 | 259.0 | 1.01 | 53.4 | 240.5 | 1.03 |
-| 66 | SV-Disprosio | 38.12 | 1.96 | 714.0 | 252.8 | 1.1 | 48.6 | 240.2 | 1.0 |
-| 67 | SV-Holmio | 10.31 | 2.09 | 745.0 | 246.6 | 1.18 | 43.8 | 64.9 | 1.006 |
-| 68 | SV-Erbio | 10.29 | 2.23 | 776.0 | 240.4 | 1.27 | 39.0 | 64.8 | 1.012 |
-| 69 | SV-Tulio | 10.28 | 2.37 | 807.0 | 234.2 | 1.35 | 34.2 | 64.7 | 1.018 |
-| 70 | SV-Iterbio | 10.26 | 2.5 | 838.0 | 228.0 | 1.44 | 29.4 | 64.6 | 1.024 |
-| 71 | SV-Lutecio | 0.14 | 2.63 | 939.0 | 221.8 | 2.07 | 10.0 | 0.2 | 1.0 |
-| 72 | SV-Hafnio | 0.02 | 0.0 | 1120.0 | 215.6 | 0.0 | 2.0 | 0.0 | 1.0 |
-| 73 | SV-Tántalo | 46.57 | 0.45 | 367.0 | 333.0 | 0.15 | 99.2 | 293.4 | 1.006 |
-| 74 | SV-Wolframio | 46.49 | 0.59 | 398.0 | 326.8 | 0.23 | 94.4 | 292.9 | 1.012 |
-| 75 | SV-Renio | 35.94 | 0.72 | 429.0 | 320.6 | 0.32 | 89.6 | 226.4 | 1.018 |
-| 76 | SV-Osmio | 35.88 | 0.86 | 460.0 | 314.4 | 0.4 | 84.8 | 226.1 | 1.024 |
-| 77 | SV-Iridio | 35.83 | 0.99 | 491.0 | 308.2 | 0.49 | 80.0 | 225.7 | 1.03 |
-| 78 | SV-Platino | 35.77 | 1.12 | 522.0 | 302.0 | 0.57 | 75.2 | 225.4 | 1.0 |
-| 79 | SV-Oro | 35.71 | 1.26 | 553.0 | 295.8 | 0.66 | 70.4 | 225.0 | 1.006 |
-| 80 | SV-Mercurio | 35.66 | 1.4 | 584.0 | 289.6 | 0.74 | 65.6 | 224.6 | 1.012 |
-| 81 | SV-Talio | 35.6 | 1.53 | 615.0 | 283.4 | 0.82 | 60.8 | 224.3 | 1.018 |
-| 82 | SV-Plomo | 35.55 | 1.67 | 646.0 | 277.2 | 0.91 | 56.0 | 223.9 | 1.024 |
-| 83 | SV-Bismuto | 35.49 | 1.8 | 677.0 | 271.0 | 1.0 | 51.2 | 223.6 | 1.03 |
-| 84 | SV-Polonio | 35.43 | 1.94 | 708.0 | 264.8 | 1.08 | 46.4 | 223.2 | 1.0 |
-| 85 | SV-Ástato | 9.58 | 2.07 | 739.0 | 258.6 | 1.17 | 41.6 | 60.4 | 1.006 |
-| 86 | SV-Radón | 9.57 | 2.21 | 770.0 | 252.4 | 1.25 | 36.8 | 60.3 | 1.012 |
-| 87 | SV-Francio | 9.55 | 2.34 | 801.0 | 246.2 | 1.33 | 32.0 | 60.2 | 1.018 |
-| 88 | SV-Radio | 9.54 | 2.48 | 832.0 | 240.0 | 1.42 | 27.2 | 60.1 | 1.024 |
-| 89 | SV-Actinio | 0.13 | 2.61 | 933.0 | 233.8 | 2.05 | 10.0 | 0.2 | 1.0 |
-| 90 | SV-Torio | 0.01 | 0.0 | 1114.0 | 227.6 | 0.0 | 2.0 | 0.0 | 1.0 |
-| 91 | SV-Protactinio | 43.27 | 0.43 | 361.0 | 345.0 | 0.13 | 97.0 | 272.6 | 1.006 |
-| 92 | SV-Uranio | 43.2 | 0.56 | 392.0 | 338.8 | 0.22 | 92.2 | 272.2 | 1.012 |
-| 93 | SV-Neptunio | 33.39 | 0.7 | 423.0 | 332.6 | 0.3 | 87.4 | 210.4 | 1.018 |
-| 94 | SV-Plutonio | 33.34 | 0.83 | 454.0 | 326.4 | 0.39 | 82.6 | 210.0 | 1.024 |
-| 95 | SV-Americio | 33.28 | 0.97 | 485.0 | 320.2 | 0.47 | 77.8 | 209.7 | 1.03 |
-| 96 | SV-Curio | 33.23 | 1.1 | 516.0 | 314.0 | 0.56 | 73.0 | 209.4 | 1.0 |
-| 97 | SV-Berkelio | 33.18 | 1.24 | 547.0 | 307.8 | 0.64 | 68.2 | 209.0 | 1.006 |
-| 98 | SV-Californio | 33.12 | 1.37 | 578.0 | 301.6 | 0.73 | 63.4 | 208.7 | 1.012 |
-| 99 | SV-Einsteinio | 33.07 | 1.51 | 609.0 | 295.4 | 0.81 | 58.6 | 208.3 | 1.018 |
-| 100 | SV-Fermio | 33.02 | 1.64 | 640.0 | 289.2 | 0.9 | 53.8 | 208.0 | 1.024 |
-| 101 | SV-Mendelevio | 32.96 | 1.78 | 671.0 | 283.0 | 0.98 | 49.0 | 207.7 | 1.03 |
-| 102 | SV-Nobelio | 32.91 | 1.91 | 702.0 | 276.8 | 1.07 | 44.2 | 207.3 | 1.0 |
-| 103 | SV-Laurencio | 8.9 | 2.04 | 733.0 | 270.6 | 1.15 | 39.4 | 56.1 | 1.006 |
-| 104 | SV-Rutherfordio | 8.88 | 2.18 | 764.0 | 264.4 | 1.24 | 34.6 | 56.0 | 1.012 |
-| 105 | SV-Dubnio | 8.87 | 2.32 | 795.0 | 258.2 | 1.32 | 29.8 | 55.9 | 1.018 |
-| 106 | SV-Seaborgio | 8.85 | 2.45 | 826.0 | 252.0 | 1.41 | 25.0 | 55.8 | 1.024 |
-| 107 | SV-Bohrio | 0.12 | 2.58 | 927.0 | 245.8 | 2.04 | 10.0 | 0.1 | 1.0 |
-| 108 | SV-Hásio | 0.01 | 0.0 | 1108.0 | 239.6 | 0.0 | 2.0 | 0.0 | 1.0 |
-| 109 | SV-Meitnerio | 40.17 | 0.4 | 355.0 | 357.0 | 0.12 | 94.8 | 253.1 | 1.006 |
-| 110 | SV-Darmstadtio | 40.11 | 0.54 | 386.0 | 350.8 | 0.2 | 90.0 | 252.7 | 1.012 |
-| 111 | SV-Roentgenio | 31.0 | 0.67 | 417.0 | 344.6 | 0.29 | 85.2 | 195.3 | 1.018 |
-| 112 | SV-Copernicio | 30.95 | 0.81 | 448.0 | 338.4 | 0.37 | 80.4 | 195.0 | 1.024 |
-| 113 | SV-Nihonio | 30.9 | 0.94 | 479.0 | 332.2 | 0.46 | 75.6 | 194.6 | 1.03 |
-| 114 | SV-Flerovio | 30.85 | 1.08 | 510.0 | 326.0 | 0.54 | 70.8 | 194.3 | 1.0 |
-| 115 | SV-Moscovio | 30.79 | 1.21 | 541.0 | 319.8 | 0.63 | 66.0 | 194.0 | 1.006 |
-| 116 | SV-Livermorio | 30.74 | 1.35 | 572.0 | 313.6 | 0.71 | 61.2 | 193.7 | 1.012 |
-| 117 | SV-Téneso | 30.69 | 1.48 | 603.0 | 307.4 | 0.8 | 56.4 | 193.4 | 1.018 |
-| 118 | SV-Oganesón | 30.64 | 1.62 | 634.0 | 301.2 | 0.88 | 51.6 | 193.0 | 1.024 |
-| 119 | SV-119 | 67.09 | 1.5 | 1350 | 183.1 | 1.1 | 32.9 | 208.1 | 0.938 |
-| 120 | SV-120 | 66.89 | 1.6 | 400 | 182.8 | 0.2 | 29.5 | 207.1 | 0.946 |
-| 121 | SV-121 | 66.69 | 1.8 | 450 | 182.4 | 0.3 | 26.4 | 206.1 | 0.955 |
-| 122 | SV-122 | 66.5 | 1.9 | 500 | 182.1 | 0.4 | 23.6 | 205.2 | 0.964 |
-| 123 | SV-123 | 66.3 | 2.0 | 550 | 181.7 | 0.5 | 21.1 | 204.2 | 0.974 |
-| 124 | SV-124 | 66.1 | 2.1 | 600 | 181.3 | 0.6 | 18.9 | 203.3 | 0.983 |
-| 125 | SV-125 | 65.91 | 2.2 | 650 | 181.0 | 0.7 | 16.9 | 202.4 | 0.993 |
-| 126 | SV-126 | 65.71 | 0.0 | 700 | 180.6 | 0.0 | 15.1 | 201.5 | 1.003 |
-| 127 | SV-127 | 65.52 | 0.5 | 950 | 180.3 | 0.9 | 100.0 | 200.6 | 1.013 |
-| 128 | SV-128 | 65.33 | 0.6 | 1000 | 179.9 | 1.0 | 89.5 | 199.8 | 1.023 |
-| 129 | SV-129 | 65.13 | 0.7 | 850 | 179.5 | 1.1 | 80.1 | 199.0 | 1.033 |
-| 130 | SV-130 | 64.94 | 0.8 | 900 | 179.2 | 0.2 | 71.7 | 198.2 | 1.042 |
-| 131 | SV-131 | 64.75 | 0.9 | 950 | 178.8 | 0.3 | 64.1 | 197.4 | 1.051 |
-| 132 | SV-132 | 64.56 | 1.0 | 1000 | 178.4 | 0.4 | 57.4 | 196.6 | 1.059 |
-| 133 | SV-133 | 64.37 | 1.1 | 1050 | 178.0 | 0.5 | 51.3 | 195.9 | 1.067 |
-| 134 | SV-134 | 64.18 | 1.2 | 1100 | 177.7 | 0.6 | 45.9 | 195.2 | 1.074 |
-| 135 | SV-135 | 63.99 | 1.3 | 1150 | 177.3 | 0.7 | 41.1 | 194.5 | 1.08 |
-| 136 | SV-136 | 63.8 | 1.4 | 1200 | 176.9 | 0.8 | 36.8 | 193.9 | 1.086 |
-| 137 | SV-137 | 63.61 | 1.5 | 1250 | 176.5 | 0.9 | 32.9 | 193.2 | 1.091 |
-| 138 | SV-138 | 63.42 | 1.6 | 1300 | 176.1 | 1.0 | 29.5 | 192.6 | 1.094 |
-| 139 | SV-139 | 63.23 | 1.8 | 1350 | 175.7 | 1.1 | 26.4 | 192.0 | 1.097 |
-| 140 | SV-140 | 63.04 | 1.9 | 400 | 175.3 | 0.2 | 23.6 | 191.4 | 1.099 |
-| 141 | SV-141 | 62.85 | 2.0 | 450 | 175.0 | 0.3 | 21.1 | 190.9 | 1.1 |
-| 142 | SV-142 | 62.66 | 2.1 | 500 | 174.6 | 0.4 | 18.9 | 190.4 | 1.1 |
-| 143 | SV-143 | 62.47 | 2.2 | 550 | 174.2 | 0.5 | 16.9 | 189.9 | 1.099 |
-| 144 | SV-144 | 62.28 | 0.0 | 600 | 173.8 | 0.0 | 15.1 | 189.4 | 1.097 |
-| 145 | SV-145 | 62.08 | 0.5 | 850 | 173.4 | 0.7 | 100.0 | 188.9 | 1.093 |
-| 146 | SV-146 | 61.89 | 0.6 | 900 | 173.0 | 0.8 | 89.5 | 188.5 | 1.089 |
-| 147 | SV-147 | 61.7 | 0.7 | 750 | 172.6 | 0.9 | 80.1 | 188.1 | 1.085 |
-| 148 | SV-148 | 61.51 | 0.8 | 800 | 172.2 | 1.0 | 71.7 | 187.7 | 1.079 |
-| 149 | SV-149 | 61.32 | 0.9 | 850 | 171.8 | 1.1 | 64.1 | 187.3 | 1.072 |
-| 150 | SV-150 | 61.12 | 1.0 | 900 | 171.4 | 0.2 | 57.4 | 187.0 | 1.065 |
-| 151 | SV-151 | 60.93 | 1.1 | 950 | 171.0 | 0.3 | 51.3 | 186.7 | 1.057 |
-| 152 | SV-152 | 60.73 | 1.2 | 1000 | 170.6 | 0.4 | 45.9 | 186.4 | 1.049 |
-| 153 | SV-153 | 60.54 | 1.3 | 1050 | 170.2 | 0.5 | 41.1 | 186.1 | 1.04 |
-| 154 | SV-154 | 60.34 | 1.4 | 1100 | 169.8 | 0.6 | 36.8 | 185.9 | 1.03 |
-| 155 | SV-155 | 60.15 | 1.5 | 1150 | 169.4 | 0.7 | 32.9 | 185.7 | 1.021 |
-| 156 | SV-156 | 59.95 | 1.6 | 1200 | 169.0 | 0.8 | 29.5 | 185.4 | 1.011 |
-| 157 | SV-157 | 59.75 | 1.8 | 1250 | 168.6 | 0.9 | 26.4 | 185.3 | 1.001 |
-| 158 | SV-158 | 59.56 | 1.9 | 1300 | 168.2 | 1.0 | 23.6 | 185.1 | 0.991 |
-| 159 | SV-159 | 59.36 | 2.0 | 1350 | 167.8 | 1.1 | 21.1 | 185.0 | 0.981 |
-| 160 | SV-160 | 59.16 | 2.1 | 400 | 167.4 | 0.2 | 18.9 | 184.8 | 0.971 |
-| 161 | SV-161 | 58.96 | 2.2 | 450 | 167.0 | 0.3 | 16.9 | 184.7 | 0.962 |
-| 162 | SV-162 | 58.76 | 0.0 | 500 | 166.6 | 0.0 | 15.1 | 184.6 | 0.953 |
-| 163 | SV-163 | 58.56 | 0.5 | 750 | 166.2 | 0.5 | 100.0 | 184.6 | 0.944 |
-| 164 | SV-164 | 58.36 | 0.6 | 800 | 165.8 | 0.6 | 89.5 | 184.5 | 0.936 |
-| 165 | SV-165 | 58.16 | 0.7 | 650 | 165.4 | 0.7 | 80.1 | 184.5 | 0.929 |
-| 166 | SV-166 | 57.95 | 0.8 | 700 | 165.0 | 0.8 | 71.7 | 184.5 | 0.922 |
-| 167 | SV-167 | 57.75 | 0.9 | 750 | 164.6 | 0.9 | 64.1 | 184.5 | 0.916 |
-| 168 | SV-168 | 57.55 | 1.0 | 800 | 164.2 | 1.0 | 57.4 | 184.5 | 0.911 |
-| 169 | SV-169 | 57.34 | 1.1 | 850 | 163.8 | 1.1 | 51.3 | 184.5 | 0.907 |
-| 170 | SV-170 | 57.14 | 1.2 | 900 | 163.4 | 0.2 | 45.9 | 184.6 | 0.904 |
-| 171 | SV-171 | 56.94 | 1.3 | 950 | 163.1 | 0.3 | 41.1 | 184.6 | 0.902 |
-| 172 | SV-172 | 56.73 | 1.4 | 1000 | 162.7 | 0.4 | 36.8 | 184.7 | 0.9 |
-| 173 | SV-173 | 56.53 | 1.5 | 1050 | 162.3 | 0.5 | 32.9 | 184.8 | 0.9 |
-| 174 | SV-174 | 56.32 | 1.6 | 1100 | 161.9 | 0.6 | 29.5 | 184.9 | 0.901 |
-| 175 | SV-175 | 56.12 | 1.8 | 1150 | 161.5 | 0.7 | 26.4 | 185.0 | 0.902 |
-| 176 | SV-176 | 55.91 | 1.9 | 1200 | 161.1 | 0.8 | 23.6 | 185.1 | 0.905 |
-| 177 | SV-177 | 55.7 | 2.0 | 1250 | 160.7 | 0.9 | 21.1 | 185.3 | 0.909 |
-| 178 | SV-178 | 55.5 | 2.1 | 1300 | 160.3 | 1.0 | 18.9 | 185.4 | 0.913 |
-| 179 | SV-179 | 55.29 | 2.2 | 1350 | 160.0 | 1.1 | 16.9 | 185.5 | 0.919 |
-| 180 | SV-180 | 55.09 | 0.0 | 400 | 159.6 | 0.0 | 15.1 | 185.7 | 0.925 |
-| 181 | SV-181 | 54.88 | 0.5 | 650 | 159.2 | 0.3 | 100.0 | 185.9 | 0.932 |
-| 182 | SV-182 | 54.68 | 0.6 | 700 | 158.8 | 0.4 | 89.5 | 186.0 | 0.94 |
-| 183 | SV-183 | 54.47 | 0.7 | 550 | 158.4 | 0.5 | 80.1 | 186.2 | 0.948 |
-| 184 | SV-184 | 54.27 | 0.8 | 600 | 158.1 | 0.6 | 71.7 | 186.4 | 0.957 |
-| 185 | SV-185 | 54.06 | 0.9 | 650 | 157.7 | 0.7 | 64.1 | 186.6 | 0.966 |
-| 186 | SV-186 | 53.86 | 1.0 | 700 | 157.3 | 0.8 | 57.4 | 186.8 | 0.975 |
-| 187 | SV-187 | 53.65 | 1.1 | 750 | 157.0 | 0.9 | 51.3 | 187.0 | 0.985 |
-| 188 | SV-188 | 53.45 | 1.2 | 800 | 156.6 | 1.0 | 45.9 | 187.2 | 0.995 |
-| 189 | SV-189 | 53.25 | 1.3 | 850 | 156.2 | 1.1 | 41.1 | 187.4 | 1.005 |
-| 190 | SV-190 | 53.04 | 1.4 | 900 | 155.9 | 0.2 | 36.8 | 187.6 | 1.015 |
-| 191 | SV-191 | 52.84 | 1.5 | 950 | 155.5 | 0.3 | 32.9 | 187.8 | 1.025 |
-| 192 | SV-192 | 52.64 | 1.6 | 1000 | 155.2 | 0.4 | 29.5 | 188.0 | 1.034 |
-| 193 | SV-193 | 52.44 | 1.8 | 1050 | 154.8 | 0.5 | 26.4 | 188.2 | 1.044 |
-| 194 | SV-194 | 52.24 | 1.9 | 1100 | 154.5 | 0.6 | 23.6 | 188.4 | 1.052 |
-| 195 | SV-195 | 52.04 | 2.0 | 1150 | 154.1 | 0.7 | 21.1 | 188.6 | 1.061 |
-| 196 | SV-196 | 51.85 | 2.1 | 1200 | 153.8 | 0.8 | 18.9 | 188.7 | 1.068 |
-| 197 | SV-197 | 51.65 | 2.2 | 1250 | 153.4 | 0.9 | 16.9 | 188.9 | 1.075 |
-| 198 | SV-198 | 51.46 | 0.0 | 1300 | 153.1 | 0.0 | 15.1 | 189.1 | 1.081 |
-| 199 | SV-199 | 51.26 | 0.5 | 1550 | 152.8 | 1.1 | 100.0 | 189.3 | 1.087 |
-| 200 | SV-200 | 51.07 | 0.6 | 600 | 152.4 | 0.2 | 89.5 | 189.4 | 1.091 |
-| 201 | SV-201 | 50.88 | 0.7 | 450 | 152.1 | 0.3 | 80.1 | 189.6 | 1.095 |
-| 202 | SV-202 | 50.69 | 0.8 | 500 | 151.8 | 0.4 | 71.7 | 189.8 | 1.098 |
-| 203 | SV-203 | 50.5 | 0.9 | 550 | 151.5 | 0.5 | 64.1 | 189.9 | 1.099 |
-| 204 | SV-204 | 50.31 | 1.0 | 600 | 151.1 | 0.6 | 57.4 | 190.0 | 1.1 |
-| 205 | SV-205 | 50.13 | 1.1 | 650 | 150.8 | 0.7 | 51.3 | 190.2 | 1.1 |
-| 206 | SV-206 | 49.94 | 1.2 | 700 | 150.5 | 0.8 | 45.9 | 190.3 | 1.098 |
-| 207 | SV-207 | 49.76 | 1.3 | 750 | 150.2 | 0.9 | 41.1 | 190.4 | 1.096 |
-| 208 | SV-208 | 49.58 | 1.4 | 800 | 149.9 | 1.0 | 36.8 | 190.5 | 1.093 |
-| 209 | SV-209 | 49.4 | 1.5 | 850 | 149.6 | 1.1 | 32.9 | 190.5 | 1.089 |
-| 210 | SV-210 | 49.22 | 1.6 | 900 | 149.3 | 0.2 | 29.5 | 190.6 | 1.084 |
-| 211 | SV-211 | 49.04 | 1.8 | 950 | 149.0 | 0.3 | 26.4 | 190.7 | 1.078 |
-| 212 | SV-212 | 48.87 | 1.9 | 1000 | 148.7 | 0.4 | 23.6 | 190.7 | 1.071 |
-| 213 | SV-213 | 48.69 | 2.0 | 1050 | 148.4 | 0.5 | 21.1 | 190.7 | 1.064 |
-| 214 | SV-214 | 48.52 | 2.1 | 1100 | 148.1 | 0.6 | 18.9 | 190.7 | 1.056 |
-| 215 | SV-215 | 48.35 | 2.2 | 1150 | 147.8 | 0.7 | 16.9 | 190.7 | 1.047 |
-| 216 | SV-216 | 48.18 | 0.0 | 1200 | 147.6 | 0.0 | 15.1 | 190.7 | 1.038 |
-| 217 | SV-217 | 48.02 | 0.5 | 1450 | 147.3 | 0.9 | 100.0 | 190.7 | 1.029 |
-| 218 | SV-218 | 47.85 | 0.6 | 1500 | 147.0 | 1.0 | 89.5 | 190.6 | 1.019 |
-| 219 | SV-219 | 47.69 | 0.7 | 1350 | 146.7 | 1.1 | 80.1 | 190.5 | 1.009 |
-| 220 | SV-220 | 47.53 | 0.8 | 400 | 146.5 | 0.2 | 71.7 | 190.4 | 0.999 |
-| 221 | SV-221 | 47.37 | 0.9 | 450 | 146.2 | 0.3 | 64.1 | 190.3 | 0.989 |
-| 222 | SV-222 | 47.21 | 1.0 | 500 | 146.0 | 0.4 | 57.4 | 190.2 | 0.979 |
-| 223 | SV-223 | 47.06 | 1.1 | 550 | 145.7 | 0.5 | 51.3 | 190.0 | 0.97 |
-| 224 | SV-224 | 46.9 | 1.2 | 600 | 145.5 | 0.6 | 45.9 | 189.9 | 0.96 |
-| 225 | SV-225 | 46.75 | 1.3 | 650 | 145.2 | 0.7 | 41.1 | 189.7 | 0.951 |
-| 226 | SV-226 | 46.6 | 1.4 | 700 | 145.0 | 0.8 | 36.8 | 189.5 | 0.943 |
-| 227 | SV-227 | 46.45 | 1.5 | 750 | 144.7 | 0.9 | 32.9 | 189.3 | 0.935 |
-| 228 | SV-228 | 46.31 | 1.6 | 800 | 144.5 | 1.0 | 29.5 | 189.0 | 0.928 |
-| 229 | SV-229 | 46.16 | 1.8 | 850 | 144.3 | 1.1 | 26.4 | 188.7 | 0.921 |
-| 230 | SV-230 | 46.02 | 1.9 | 900 | 144.1 | 0.2 | 23.6 | 188.5 | 0.915 |
-| 231 | SV-231 | 45.88 | 2.0 | 950 | 143.8 | 0.3 | 21.1 | 188.2 | 0.91 |
-| 232 | SV-232 | 45.74 | 2.1 | 1000 | 143.6 | 0.4 | 18.9 | 187.8 | 0.906 |
-| 233 | SV-233 | 45.6 | 2.2 | 1050 | 143.4 | 0.5 | 16.9 | 187.5 | 0.903 |
-| 234 | SV-234 | 45.46 | 0.0 | 1100 | 143.2 | 0.0 | 15.1 | 187.1 | 0.901 |
-| 235 | SV-235 | 45.32 | 0.5 | 1350 | 143.0 | 0.7 | 100.0 | 186.7 | 0.9 |
-| 236 | SV-236 | 45.19 | 0.6 | 1400 | 142.8 | 0.8 | 89.5 | 186.3 | 0.9 |
-| 237 | SV-237 | 45.06 | 0.7 | 1250 | 142.6 | 0.9 | 80.1 | 185.9 | 0.901 |
-| 238 | SV-238 | 44.92 | 0.8 | 1300 | 142.4 | 1.0 | 71.7 | 185.4 | 0.903 |
-| 239 | SV-239 | 44.79 | 0.9 | 1350 | 142.2 | 1.1 | 64.1 | 184.9 | 0.906 |
-| 240 | SV-240 | 44.66 | 1.0 | 400 | 142.0 | 0.2 | 57.4 | 184.4 | 0.909 |
-| 241 | SV-241 | 44.54 | 1.1 | 450 | 141.9 | 0.3 | 51.3 | 183.9 | 0.914 |
-| 242 | SV-242 | 44.41 | 1.2 | 500 | 141.7 | 0.4 | 45.9 | 183.4 | 0.92 |
-| 243 | SV-243 | 44.28 | 1.3 | 550 | 141.5 | 0.5 | 41.1 | 182.8 | 0.926 |
-| 244 | SV-244 | 44.16 | 1.4 | 600 | 141.3 | 0.6 | 36.8 | 182.2 | 0.933 |
-| 245 | SV-245 | 44.03 | 1.5 | 650 | 141.2 | 0.7 | 32.9 | 181.6 | 0.941 |
-| 246 | SV-246 | 43.91 | 1.6 | 700 | 141.0 | 0.8 | 29.5 | 181.0 | 0.949 |
-| 247 | SV-247 | 43.79 | 1.8 | 750 | 140.9 | 0.9 | 26.4 | 180.4 | 0.958 |
-| 248 | SV-248 | 43.67 | 1.9 | 800 | 140.7 | 1.0 | 23.6 | 179.7 | 0.967 |
-| 249 | SV-249 | 43.55 | 2.0 | 850 | 140.6 | 1.1 | 21.1 | 179.0 | 0.977 |
-| 250 | SV-250 | 43.43 | 2.1 | 900 | 140.4 | 0.2 | 18.9 | 178.3 | 0.987 |
-| 251 | SV-251 | 43.31 | 2.2 | 950 | 140.3 | 0.3 | 16.9 | 177.6 | 0.997 |
-| 252 | SV-252 | 43.19 | 0.0 | 1000 | 140.1 | 0.0 | 15.1 | 176.9 | 1.007 |
-| 253 | SV-253 | 43.07 | 0.5 | 1250 | 140.0 | 0.5 | 100.0 | 176.1 | 1.017 |
-| 254 | SV-254 | 42.95 | 0.6 | 1300 | 139.9 | 0.6 | 89.5 | 175.3 | 1.026 |
-| 255 | SV-255 | 42.83 | 0.7 | 1150 | 139.7 | 0.7 | 80.1 | 174.6 | 1.036 |
-| 256 | SV-256 | 42.72 | 0.8 | 1200 | 139.6 | 0.8 | 71.7 | 173.7 | 1.045 |
-| 257 | SV-257 | 42.6 | 0.9 | 1250 | 139.5 | 0.9 | 64.1 | 172.9 | 1.054 |
-| 258 | SV-258 | 42.48 | 1.0 | 1300 | 139.4 | 1.0 | 57.4 | 172.1 | 1.062 |
-| 259 | SV-259 | 42.36 | 1.1 | 1350 | 139.3 | 1.1 | 51.3 | 171.2 | 1.069 |
-| 260 | SV-260 | 42.25 | 1.2 | 400 | 139.2 | 0.2 | 45.9 | 170.4 | 1.076 |
-| 261 | SV-261 | 42.13 | 1.3 | 450 | 139.1 | 0.3 | 41.1 | 169.5 | 1.082 |
-| 262 | SV-262 | 42.01 | 1.4 | 500 | 139.0 | 0.4 | 36.8 | 168.6 | 1.088 |
-| 263 | SV-263 | 41.89 | 1.5 | 550 | 138.9 | 0.5 | 32.9 | 167.7 | 1.092 |
-| 264 | SV-264 | 41.77 | 1.6 | 600 | 138.8 | 0.6 | 29.5 | 166.8 | 1.095 |
-| 265 | SV-265 | 41.66 | 1.8 | 650 | 138.7 | 0.7 | 26.4 | 165.8 | 1.098 |
-| 266 | SV-266 | 41.54 | 1.9 | 700 | 138.6 | 0.8 | 23.6 | 164.9 | 1.099 |
-| 267 | SV-267 | 41.42 | 2.0 | 750 | 138.5 | 0.9 | 21.1 | 163.9 | 1.1 |
-| 268 | SV-268 | 41.3 | 2.1 | 800 | 138.4 | 1.0 | 18.9 | 163.0 | 1.1 |
-| 269 | SV-269 | 41.18 | 2.2 | 850 | 138.3 | 1.1 | 16.9 | 162.0 | 1.098 |
-| 270 | SV-270 | 41.06 | 0.0 | 900 | 138.3 | 0.0 | 15.1 | 161.0 | 1.096 |
-| 271 | SV-271 | 40.94 | 0.5 | 1150 | 138.2 | 0.3 | 100.0 | 160.0 | 1.092 |
-| 272 | SV-272 | 40.82 | 0.6 | 1200 | 138.1 | 0.4 | 89.5 | 159.0 | 1.088 |
-| 273 | SV-273 | 40.69 | 0.7 | 1050 | 138.1 | 0.5 | 80.1 | 158.0 | 1.083 |
-| 274 | SV-274 | 40.57 | 0.8 | 1100 | 138.0 | 0.6 | 71.7 | 157.0 | 1.077 |
-| 275 | SV-275 | 40.45 | 0.9 | 1150 | 137.9 | 0.7 | 64.1 | 156.0 | 1.07 |
-| 276 | SV-276 | 40.32 | 1.0 | 1200 | 137.9 | 0.8 | 57.4 | 154.9 | 1.062 |
-| 277 | SV-277 | 40.2 | 1.1 | 1250 | 137.8 | 0.9 | 51.3 | 153.9 | 1.054 |
-| 278 | SV-278 | 40.07 | 1.2 | 1300 | 137.8 | 1.0 | 45.9 | 152.9 | 1.046 |
-| 279 | SV-279 | 39.95 | 1.3 | 1350 | 137.7 | 1.1 | 41.1 | 151.8 | 1.037 |
-| 280 | SV-280 | 39.82 | 1.4 | 400 | 137.7 | 0.2 | 36.8 | 150.8 | 1.027 |
-| 281 | SV-281 | 39.69 | 1.5 | 450 | 137.6 | 0.3 | 32.9 | 149.8 | 1.017 |
-| 282 | SV-282 | 39.56 | 1.6 | 500 | 137.6 | 0.4 | 29.5 | 148.7 | 1.007 |
-| 283 | SV-283 | 39.43 | 1.8 | 550 | 137.6 | 0.5 | 26.4 | 147.7 | 0.997 |
-| 284 | SV-284 | 39.3 | 1.9 | 600 | 137.5 | 0.6 | 23.6 | 146.7 | 0.987 |
-| 285 | SV-285 | 39.17 | 2.0 | 650 | 137.5 | 0.7 | 21.1 | 145.6 | 0.978 |
-| 286 | SV-286 | 39.04 | 2.1 | 700 | 137.5 | 0.8 | 18.9 | 144.6 | 0.968 |
-| 287 | SV-287 | 38.91 | 2.2 | 750 | 137.4 | 0.9 | 16.9 | 143.6 | 0.959 |
-| 288 | SV-288 | 38.77 | 0.0 | 800 | 137.4 | 0.0 | 15.1 | 142.5 | 0.95 |
-| 289 | SV-289 | 38.64 | 0.5 | 1050 | 137.4 | 1.1 | 100.0 | 141.5 | 0.941 |
-| 290 | SV-290 | 38.5 | 0.6 | 1100 | 137.4 | 0.2 | 89.5 | 140.5 | 0.934 |
-| 291 | SV-291 | 38.37 | 0.7 | 950 | 137.3 | 0.3 | 80.1 | 139.5 | 0.927 |
-| 292 | SV-292 | 38.23 | 0.8 | 1000 | 137.3 | 0.4 | 71.7 | 138.5 | 0.92 |
-| 293 | SV-293 | 38.09 | 0.9 | 1050 | 137.3 | 0.5 | 64.1 | 137.5 | 0.914 |
-| 294 | SV-294 | 37.95 | 1.0 | 1100 | 137.3 | 0.6 | 57.4 | 136.5 | 0.91 |
-| 295 | SV-295 | 37.82 | 1.1 | 1150 | 137.3 | 0.7 | 51.3 | 135.5 | 0.906 |
-| 296 | SV-296 | 37.68 | 1.2 | 1200 | 137.2 | 0.8 | 45.9 | 134.6 | 0.903 |
-| 297 | SV-297 | 37.54 | 1.3 | 1250 | 137.2 | 0.9 | 41.1 | 133.6 | 0.901 |
-| 298 | SV-298 | 37.4 | 1.4 | 1300 | 137.2 | 1.0 | 36.8 | 132.7 | 0.9 |
-| 299 | SV-299 | 37.25 | 1.5 | 1350 | 137.2 | 1.1 | 32.9 | 131.7 | 0.9 |
-| 300 | SV-300 | 37.11 | 1.6 | 400 | 137.2 | 0.2 | 29.5 | 130.8 | 0.901 |
-| 301 | SV-301 | 36.97 | 1.8 | 450 | 137.2 | 0.3 | 26.4 | 129.9 | 0.903 |
-| 302 | SV-302 | 36.83 | 1.9 | 500 | 137.2 | 0.4 | 23.6 | 129.0 | 0.906 |
-| 303 | SV-303 | 36.69 | 2.0 | 550 | 137.2 | 0.5 | 21.1 | 128.1 | 0.91 |
-| 304 | SV-304 | 36.54 | 2.1 | 600 | 137.2 | 0.6 | 18.9 | 127.3 | 0.915 |
-| 305 | SV-305 | 36.4 | 2.2 | 650 | 137.2 | 0.7 | 16.9 | 126.4 | 0.921 |
-| 306 | SV-306 | 36.26 | 0.0 | 700 | 137.2 | 0.0 | 15.1 | 125.6 | 0.927 |
-| 307 | SV-307 | 36.11 | 0.5 | 950 | 137.2 | 0.9 | 100.0 | 124.8 | 0.934 |
-| 308 | SV-308 | 35.97 | 0.6 | 1000 | 137.2 | 1.0 | 89.5 | 124.0 | 0.942 |
-| 309 | SV-309 | 35.83 | 0.7 | 850 | 137.2 | 1.1 | 80.1 | 123.2 | 0.951 |
-| 310 | SV-310 | 35.69 | 0.8 | 900 | 137.2 | 0.2 | 71.7 | 122.4 | 0.96 |
-| 311 | SV-311 | 35.54 | 0.9 | 950 | 137.2 | 0.3 | 64.1 | 121.7 | 0.969 |
-| 312 | SV-312 | 35.4 | 1.0 | 1000 | 137.2 | 0.4 | 57.4 | 121.0 | 0.979 |
-| 313 | SV-313 | 35.26 | 1.1 | 1050 | 137.2 | 0.5 | 51.3 | 120.3 | 0.988 |
-| 314 | SV-314 | 35.11 | 1.2 | 1100 | 137.2 | 0.6 | 45.9 | 119.6 | 0.998 |
-| 315 | SV-315 | 34.97 | 1.3 | 1150 | 137.2 | 0.7 | 41.1 | 118.9 | 1.008 |
-| 316 | SV-316 | 34.83 | 1.4 | 1200 | 137.2 | 0.8 | 36.8 | 118.3 | 1.018 |
-| 317 | SV-317 | 34.69 | 1.5 | 1250 | 137.2 | 0.9 | 32.9 | 117.6 | 1.028 |
-| 318 | SV-318 | 34.55 | 1.6 | 1300 | 137.2 | 1.0 | 29.5 | 117.0 | 1.037 |
-| 319 | SV-319 | 34.41 | 1.8 | 1350 | 137.2 | 1.1 | 26.4 | 116.4 | 1.047 |
-| 320 | SV-320 | 34.27 | 1.9 | 400 | 137.2 | 0.2 | 23.6 | 115.9 | 1.055 |
-| 321 | SV-321 | 34.13 | 2.0 | 450 | 137.2 | 0.3 | 21.1 | 115.3 | 1.063 |
-| 322 | SV-322 | 34.0 | 2.1 | 500 | 137.2 | 0.4 | 18.9 | 114.8 | 1.071 |
-| 323 | SV-323 | 33.86 | 2.2 | 550 | 137.2 | 0.5 | 16.9 | 114.3 | 1.077 |
-| 324 | SV-324 | 33.72 | 0.0 | 600 | 137.2 | 0.0 | 15.1 | 113.8 | 1.083 |
-| 325 | SV-325 | 33.59 | 0.5 | 850 | 137.2 | 0.7 | 100.0 | 113.4 | 1.088 |
-| 326 | SV-326 | 33.45 | 0.6 | 900 | 137.1 | 0.8 | 89.5 | 113.0 | 1.093 |
-| 327 | SV-327 | 33.32 | 0.7 | 750 | 137.1 | 0.9 | 80.1 | 112.6 | 1.096 |
-| 328 | SV-328 | 33.19 | 0.8 | 800 | 137.1 | 1.0 | 71.7 | 112.2 | 1.098 |
-| 329 | SV-329 | 33.06 | 0.9 | 850 | 137.1 | 1.1 | 64.1 | 111.8 | 1.1 |
-| 330 | SV-330 | 32.93 | 1.0 | 900 | 137.1 | 0.2 | 57.4 | 111.5 | 1.1 |
-| 331 | SV-331 | 32.8 | 1.1 | 950 | 137.1 | 0.3 | 51.3 | 111.2 | 1.099 |
-| 332 | SV-332 | 32.68 | 1.2 | 1000 | 137.1 | 0.4 | 45.9 | 110.9 | 1.098 |
-| 333 | SV-333 | 32.55 | 1.3 | 1050 | 137.1 | 0.5 | 41.1 | 110.6 | 1.095 |
-| 334 | SV-334 | 32.43 | 1.4 | 1100 | 137.1 | 0.6 | 36.8 | 110.4 | 1.092 |
-| 335 | SV-335 | 32.31 | 1.5 | 1150 | 137.0 | 0.7 | 32.9 | 110.1 | 1.087 |
-| 336 | SV-336 | 32.18 | 1.6 | 1200 | 137.0 | 0.8 | 29.5 | 109.9 | 1.082 |
-| 337 | SV-337 | 32.06 | 1.8 | 1250 | 137.0 | 0.9 | 26.4 | 109.8 | 1.076 |
-| 338 | SV-338 | 31.95 | 1.9 | 1300 | 137.0 | 1.0 | 23.6 | 109.6 | 1.069 |
-| 339 | SV-339 | 31.83 | 2.0 | 1350 | 137.0 | 1.1 | 21.1 | 109.5 | 1.061 |
-| 340 | SV-340 | 31.72 | 2.1 | 400 | 136.9 | 0.2 | 18.9 | 109.4 | 1.053 |
-| 341 | SV-341 | 31.6 | 2.2 | 450 | 136.9 | 0.3 | 16.9 | 109.3 | 1.044 |
-| 342 | SV-342 | 31.49 | 0.0 | 500 | 136.9 | 0.0 | 15.1 | 109.2 | 1.035 |
-| 343 | SV-343 | 31.38 | 0.5 | 750 | 136.9 | 0.5 | 100.0 | 109.2 | 1.025 |
-| 344 | SV-344 | 31.27 | 0.6 | 800 | 136.8 | 0.6 | 89.5 | 109.1 | 1.016 |
-| 345 | SV-345 | 31.16 | 0.7 | 650 | 136.8 | 0.7 | 80.1 | 109.1 | 1.006 |
-| 346 | SV-346 | 31.06 | 0.8 | 700 | 136.7 | 0.8 | 71.7 | 109.1 | 0.996 |
-| 347 | SV-347 | 30.95 | 0.9 | 750 | 136.7 | 0.9 | 64.1 | 109.2 | 0.986 |
-| 348 | SV-348 | 30.85 | 1.0 | 800 | 136.7 | 1.0 | 57.4 | 109.2 | 0.976 |
-| 349 | SV-349 | 30.75 | 1.1 | 850 | 136.6 | 1.1 | 51.3 | 109.3 | 0.966 |
-| 350 | SV-350 | 30.65 | 1.2 | 900 | 136.6 | 0.2 | 45.9 | 109.4 | 0.957 |
-| 351 | SV-351 | 30.55 | 1.3 | 950 | 136.5 | 0.3 | 41.1 | 109.5 | 0.948 |
-| 352 | SV-352 | 30.46 | 1.4 | 1000 | 136.5 | 0.4 | 36.8 | 109.6 | 0.94 |
-| 353 | SV-353 | 30.36 | 1.5 | 1050 | 136.4 | 0.5 | 32.9 | 109.8 | 0.932 |
-| 354 | SV-354 | 30.27 | 1.6 | 1100 | 136.4 | 0.6 | 29.5 | 109.9 | 0.925 |
-| 355 | SV-355 | 30.18 | 1.8 | 1150 | 136.3 | 0.7 | 26.4 | 110.1 | 0.919 |
-| 356 | SV-356 | 30.09 | 1.9 | 1200 | 136.2 | 0.8 | 23.6 | 110.3 | 0.914 |
-| 357 | SV-357 | 30.0 | 2.0 | 1250 | 136.2 | 0.9 | 21.1 | 110.5 | 0.909 |
-| 358 | SV-358 | 29.91 | 2.1 | 1300 | 136.1 | 1.0 | 18.9 | 110.8 | 0.905 |
-| 359 | SV-359 | 29.83 | 2.2 | 1350 | 136.0 | 1.1 | 16.9 | 111.0 | 0.903 |
-| 360 | SV-360 | 29.74 | 0.0 | 400 | 135.9 | 0.0 | 15.1 | 111.2 | 0.901 |
-| 361 | SV-361 | 29.66 | 0.5 | 650 | 135.9 | 0.3 | 100.0 | 111.5 | 0.9 |
-| 362 | SV-362 | 29.58 | 0.6 | 700 | 135.8 | 0.4 | 89.5 | 111.8 | 0.9 |
-| 363 | SV-363 | 29.5 | 0.7 | 550 | 135.7 | 0.5 | 80.1 | 112.1 | 0.901 |
-| 364 | SV-364 | 29.42 | 0.8 | 600 | 135.6 | 0.6 | 71.7 | 112.4 | 0.904 |
-| 365 | SV-365 | 29.34 | 0.9 | 650 | 135.5 | 0.7 | 64.1 | 112.7 | 0.907 |
-| 366 | SV-366 | 29.26 | 1.0 | 700 | 135.4 | 0.8 | 57.4 | 113.0 | 0.911 |
-| 367 | SV-367 | 29.19 | 1.1 | 750 | 135.3 | 0.9 | 51.3 | 113.3 | 0.916 |
-| 368 | SV-368 | 29.11 | 1.2 | 800 | 135.2 | 1.0 | 45.9 | 113.7 | 0.922 |
-| 369 | SV-369 | 29.03 | 1.3 | 850 | 135.1 | 1.1 | 41.1 | 114.0 | 0.928 |
-| 370 | SV-370 | 28.96 | 1.4 | 900 | 135.0 | 0.2 | 36.8 | 114.3 | 0.936 |
-| 371 | SV-371 | 28.89 | 1.5 | 950 | 134.9 | 0.3 | 32.9 | 114.7 | 0.944 |
-| 372 | SV-372 | 28.81 | 1.6 | 1000 | 134.8 | 0.4 | 29.5 | 115.1 | 0.952 |
-| 373 | SV-373 | 28.74 | 1.8 | 1050 | 134.6 | 0.5 | 26.4 | 115.4 | 0.961 |
-| 374 | SV-374 | 28.67 | 1.9 | 1100 | 134.5 | 0.6 | 23.6 | 115.8 | 0.971 |
-| 375 | SV-375 | 28.6 | 2.0 | 1150 | 134.4 | 0.7 | 21.1 | 116.2 | 0.98 |
-| 376 | SV-376 | 28.53 | 2.1 | 1200 | 134.2 | 0.8 | 18.9 | 116.5 | 0.99 |
-| 377 | SV-377 | 28.46 | 2.2 | 1250 | 134.1 | 0.9 | 16.9 | 116.9 | 1.0 |
-| 378 | SV-378 | 28.39 | 0.0 | 1300 | 134.0 | 0.0 | 15.1 | 117.3 | 1.01 |
-| 379 | SV-379 | 28.32 | 0.5 | 1550 | 133.8 | 1.1 | 100.0 | 117.7 | 1.02 |
-| 380 | SV-380 | 28.25 | 0.6 | 600 | 133.7 | 0.2 | 89.5 | 118.0 | 1.03 |
-| 381 | SV-381 | 28.18 | 0.7 | 450 | 133.5 | 0.3 | 80.1 | 118.4 | 1.039 |
-| 382 | SV-382 | 28.11 | 0.8 | 500 | 133.4 | 0.4 | 71.7 | 118.8 | 1.048 |
-| 383 | SV-383 | 28.04 | 0.9 | 550 | 133.2 | 0.5 | 64.1 | 119.1 | 1.057 |
-| 384 | SV-384 | 27.98 | 1.0 | 600 | 133.0 | 0.6 | 57.4 | 119.5 | 1.064 |
-| 385 | SV-385 | 27.91 | 1.1 | 650 | 132.9 | 0.7 | 51.3 | 119.9 | 1.072 |
-| 386 | SV-386 | 27.84 | 1.2 | 700 | 132.7 | 0.8 | 45.9 | 120.2 | 1.078 |
-| 387 | SV-387 | 27.77 | 1.3 | 750 | 132.5 | 0.9 | 41.1 | 120.6 | 1.084 |
-| 388 | SV-388 | 27.7 | 1.4 | 800 | 132.4 | 1.0 | 36.8 | 120.9 | 1.089 |
-| 389 | SV-389 | 27.63 | 1.5 | 850 | 132.2 | 1.1 | 32.9 | 121.2 | 1.093 |
-| 390 | SV-390 | 27.56 | 1.6 | 900 | 132.0 | 0.2 | 29.5 | 121.6 | 1.096 |
-| 391 | SV-391 | 27.48 | 1.8 | 950 | 131.8 | 0.3 | 26.4 | 121.9 | 1.099 |
-| 392 | SV-392 | 27.41 | 1.9 | 1000 | 131.6 | 0.4 | 23.6 | 122.2 | 1.1 |
-| 393 | SV-393 | 27.34 | 2.0 | 1050 | 131.4 | 0.5 | 21.1 | 122.5 | 1.1 |
-| 394 | SV-394 | 27.27 | 2.1 | 1100 | 131.2 | 0.6 | 18.9 | 122.8 | 1.099 |
-| 395 | SV-395 | 27.19 | 2.2 | 1150 | 131.0 | 0.7 | 16.9 | 123.0 | 1.097 |
-| 396 | SV-396 | 27.12 | 0.0 | 1200 | 130.8 | 0.0 | 15.1 | 123.3 | 1.095 |
-| 397 | SV-397 | 27.05 | 0.5 | 1450 | 130.6 | 0.9 | 100.0 | 123.6 | 1.091 |
-| 398 | SV-398 | 26.97 | 0.6 | 1500 | 130.3 | 1.0 | 89.5 | 123.8 | 1.086 |
-| 399 | SV-399 | 26.89 | 0.7 | 1350 | 130.1 | 1.1 | 80.1 | 124.0 | 1.081 |
-| 400 | SV-400 | 26.82 | 0.8 | 400 | 129.9 | 0.2 | 71.7 | 124.2 | 1.075 |
-| 401 | SV-401 | 26.74 | 0.9 | 450 | 129.7 | 0.3 | 64.1 | 124.4 | 1.067 |
-| 402 | SV-402 | 26.66 | 1.0 | 500 | 129.4 | 0.4 | 57.4 | 124.6 | 1.06 |
-| 403 | SV-403 | 26.58 | 1.1 | 550 | 129.2 | 0.5 | 51.3 | 124.8 | 1.051 |
-| 404 | SV-404 | 26.5 | 1.2 | 600 | 128.9 | 0.6 | 45.9 | 124.9 | 1.043 |
-| 405 | SV-405 | 26.42 | 1.3 | 650 | 128.7 | 0.7 | 41.1 | 125.1 | 1.033 |
-| 406 | SV-406 | 26.33 | 1.4 | 700 | 128.4 | 0.8 | 36.8 | 125.2 | 1.024 |
-| 407 | SV-407 | 26.25 | 1.5 | 750 | 128.2 | 0.9 | 32.9 | 125.3 | 1.014 |
-| 408 | SV-408 | 26.17 | 1.6 | 800 | 127.9 | 1.0 | 29.5 | 125.4 | 1.004 |
-| 409 | SV-409 | 26.08 | 1.8 | 850 | 127.7 | 1.1 | 26.4 | 125.4 | 0.994 |
-| 410 | SV-410 | 25.99 | 1.9 | 900 | 127.4 | 0.2 | 23.6 | 125.5 | 0.984 |
-| 411 | SV-411 | 25.91 | 2.0 | 950 | 127.1 | 0.3 | 21.1 | 125.5 | 0.974 |
-| 412 | SV-412 | 25.82 | 2.1 | 1000 | 126.9 | 0.4 | 18.9 | 125.5 | 0.965 |
-| 413 | SV-413 | 25.73 | 2.2 | 1050 | 126.6 | 0.5 | 16.9 | 125.5 | 0.956 |
-| 414 | SV-414 | 25.64 | 0.0 | 1100 | 126.3 | 0.0 | 15.1 | 125.4 | 0.947 |
-| 415 | SV-415 | 25.55 | 0.5 | 1350 | 126.0 | 0.7 | 100.0 | 125.4 | 0.939 |
-| 416 | SV-416 | 25.46 | 0.6 | 1400 | 125.7 | 0.8 | 89.5 | 125.3 | 0.931 |
-| 417 | SV-417 | 25.36 | 0.7 | 1250 | 125.4 | 0.9 | 80.1 | 125.2 | 0.924 |
-| 418 | SV-418 | 25.27 | 0.8 | 1300 | 125.1 | 1.0 | 71.7 | 125.1 | 0.918 |
-| 419 | SV-419 | 25.17 | 0.9 | 1350 | 124.8 | 1.1 | 64.1 | 125.0 | 0.913 |
-| 420 | SV-420 | 25.08 | 1.0 | 400 | 124.5 | 0.2 | 57.4 | 124.8 | 0.908 |
-| 421 | SV-421 | 24.98 | 1.1 | 450 | 124.2 | 0.3 | 51.3 | 124.6 | 0.905 |
-| 422 | SV-422 | 24.88 | 1.2 | 500 | 123.9 | 0.4 | 45.9 | 124.4 | 0.902 |
-| 423 | SV-423 | 24.79 | 1.3 | 550 | 123.6 | 0.5 | 41.1 | 124.2 | 0.901 |
-| 424 | SV-424 | 24.69 | 1.4 | 600 | 123.3 | 0.6 | 36.8 | 123.9 | 0.9 |
-| 425 | SV-425 | 24.59 | 1.5 | 650 | 123.0 | 0.7 | 32.9 | 123.7 | 0.9 |
-| 426 | SV-426 | 24.49 | 1.6 | 700 | 122.7 | 0.8 | 29.5 | 123.4 | 0.902 |
-| 427 | SV-427 | 24.39 | 1.8 | 750 | 122.3 | 0.9 | 26.4 | 123.1 | 0.904 |
-| 428 | SV-428 | 24.29 | 1.9 | 800 | 122.0 | 1.0 | 23.6 | 122.7 | 0.907 |
-| 429 | SV-429 | 24.19 | 2.0 | 850 | 121.7 | 1.1 | 21.1 | 122.4 | 0.912 |
-| 430 | SV-430 | 24.09 | 2.1 | 900 | 121.3 | 0.2 | 18.9 | 122.0 | 0.917 |
-| 431 | SV-431 | 23.99 | 2.2 | 950 | 121.0 | 0.3 | 16.9 | 121.6 | 0.923 |
-| 432 | SV-432 | 23.88 | 0.0 | 1000 | 120.7 | 0.0 | 15.1 | 121.2 | 0.93 |
-| 433 | SV-433 | 23.78 | 0.5 | 1250 | 120.3 | 0.5 | 100.0 | 120.8 | 0.937 |
-| 434 | SV-434 | 23.68 | 0.6 | 1300 | 120.0 | 0.6 | 89.5 | 120.3 | 0.945 |
-| 435 | SV-435 | 23.58 | 0.7 | 1150 | 119.6 | 0.7 | 80.1 | 119.8 | 0.954 |
-| 436 | SV-436 | 23.47 | 0.8 | 1200 | 119.3 | 0.8 | 71.7 | 119.3 | 0.963 |
-| 437 | SV-437 | 23.37 | 0.9 | 1250 | 118.9 | 0.9 | 64.1 | 118.8 | 0.972 |
-| 438 | SV-438 | 23.27 | 1.0 | 1300 | 118.6 | 1.0 | 57.4 | 118.3 | 0.982 |
-| 439 | SV-439 | 23.17 | 1.1 | 1350 | 118.2 | 1.1 | 51.3 | 117.7 | 0.992 |
-| 440 | SV-440 | 23.06 | 1.2 | 400 | 117.8 | 0.2 | 45.9 | 117.1 | 1.002 |
-| 441 | SV-441 | 22.96 | 1.3 | 450 | 117.5 | 0.3 | 41.1 | 116.5 | 1.012 |
-| 442 | SV-442 | 22.86 | 1.4 | 500 | 117.1 | 0.4 | 36.8 | 115.9 | 1.022 |
-| 443 | SV-443 | 22.76 | 1.5 | 550 | 116.8 | 0.5 | 32.9 | 115.3 | 1.031 |
-
----
-
-# 10. Tabla 3 — Propiedades mecánicas, químicas y térmicas
-
-La tercera tabla reúne ocho magnitudes mecánicas y térmicas: dureza Mohs, resistencia física, coeficiente de rozamiento, flexibilidad, maleabilidad, resistencia a la oxidación, resistencia a la corrosión y temperatura máxima de cambio de fase estructural.
-
-| Nº | Nombre SV | Dureza (Mohs) | Resistencia (MPa) | Rozamiento | Flexibilidad | Maleabilidad | Resist. oxidación | Resist. corrosión | Resist. térmica (°C) |
-|---|---|---|---|---|---|---|---|---|---|
-| 1 | SV-Hidrógeno | 1.25 | 98.0 | 0.17 | 0.9 | 0.92 | 18.2 | 21.6 | 680.0 |
-| 2 | SV-Helio | 1.4 | 116.0 | 0.18 | 0.86 | 0.88 | 22.4 | 25.2 | 710.0 |
-| 3 | SV-Litio | 2.52 | 134.0 | 0.2 | 0.83 | 0.84 | 26.6 | 28.8 | 740.0 |
-| 4 | SV-Berilio | 2.84 | 152.0 | 0.21 | 0.8 | 0.8 | 30.8 | 32.4 | 770.0 |
-| 5 | SV-Boro | 3.16 | 170.0 | 0.22 | 0.76 | 0.76 | 35.0 | 36.0 | 800.0 |
-| 6 | SV-Carbono | 3.48 | 188.0 | 0.23 | 0.72 | 0.72 | 39.2 | 39.6 | 830.0 |
-| 7 | SV-Nitrógeno | 3.8 | 206.0 | 0.24 | 0.69 | 0.68 | 43.4 | 43.2 | 860.0 |
-| 8 | SV-Oxígeno | 4.12 | 224.0 | 0.26 | 0.66 | 0.64 | 47.6 | 46.8 | 890.0 |
-| 9 | SV-Flúor | 4.44 | 242.0 | 0.27 | 0.62 | 0.6 | 51.8 | 50.4 | 920.0 |
-| 10 | SV-Neón | 4.76 | 260.0 | 0.28 | 0.58 | 0.56 | 56.0 | 54.0 | 950.0 |
-| 11 | SV-Sodio | 5.08 | 278.0 | 0.29 | 0.55 | 0.52 | 60.2 | 57.6 | 980.0 |
-| 12 | SV-Magnesio | 5.4 | 296.0 | 0.3 | 0.52 | 0.48 | 64.4 | 61.2 | 1010.0 |
-| 13 | SV-Aluminio | 5.3 | 314.0 | 0.32 | 0.48 | 0.24 | 68.6 | 64.8 | 1040.0 |
-| 14 | SV-Silicio | 5.48 | 332.0 | 0.33 | 0.44 | 0.22 | 72.8 | 68.4 | 1070.0 |
-| 15 | SV-Fósforo | 5.66 | 350.0 | 0.34 | 0.41 | 0.2 | 77.0 | 72.0 | 1100.0 |
-| 16 | SV-Azufre | 5.84 | 368.0 | 0.35 | 0.38 | 0.18 | 81.2 | 75.6 | 1130.0 |
-| 17 | SV-Cloro | 0.6 | 8.0 | 0.0 | 0.02 | 0.01 | 85.4 | 79.2 | 120.0 |
-| 18 | SV-Argón | 0.2 | 2.0 | 0.0 | 0.02 | 0.01 | 95.0 | 96.0 | -190.0 |
-| 19 | SV-Potasio | 1.27 | 106.0 | 0.17 | 0.88 | 0.91 | 20.7 | 23.7 | 720.0 |
-| 20 | SV-Calcio | 1.42 | 124.0 | 0.18 | 0.84 | 0.86 | 24.9 | 27.3 | 750.0 |
-| 21 | SV-Escandio | 2.55 | 142.0 | 0.2 | 0.81 | 0.83 | 29.1 | 30.9 | 780.0 |
-| 22 | SV-Titanio | 2.87 | 160.0 | 0.21 | 0.78 | 0.79 | 33.3 | 34.5 | 810.0 |
-| 23 | SV-Vanadio | 3.19 | 178.0 | 0.22 | 0.74 | 0.74 | 37.5 | 38.1 | 840.0 |
-| 24 | SV-Cromo | 3.51 | 196.0 | 0.23 | 0.7 | 0.7 | 41.7 | 41.7 | 870.0 |
-| 25 | SV-Manganeso | 3.83 | 214.0 | 0.24 | 0.67 | 0.67 | 45.9 | 45.3 | 900.0 |
-| 26 | SV-Hierro | 4.15 | 232.0 | 0.26 | 0.64 | 0.62 | 50.1 | 48.9 | 930.0 |
-| 27 | SV-Cobalto | 4.47 | 250.0 | 0.27 | 0.6 | 0.59 | 54.3 | 52.5 | 960.0 |
-| 28 | SV-Níquel | 4.79 | 268.0 | 0.28 | 0.56 | 0.55 | 58.5 | 56.1 | 990.0 |
-| 29 | SV-Cobre | 5.11 | 286.0 | 0.29 | 0.53 | 0.51 | 62.7 | 59.7 | 1020.0 |
-| 30 | SV-Zinc | 5.43 | 304.0 | 0.3 | 0.49 | 0.47 | 66.9 | 63.3 | 1050.0 |
-| 31 | SV-Galio | 5.28 | 322.0 | 0.32 | 0.46 | 0.23 | 71.1 | 66.9 | 1080.0 |
-| 32 | SV-Germanio | 5.46 | 340.0 | 0.33 | 0.42 | 0.21 | 75.3 | 70.5 | 1110.0 |
-| 33 | SV-Arsénico | 5.64 | 358.0 | 0.34 | 0.39 | 0.19 | 79.5 | 74.1 | 1140.0 |
-| 34 | SV-Selenio | 5.82 | 376.0 | 0.35 | 0.35 | 0.17 | 83.7 | 77.7 | 1170.0 |
-| 35 | SV-Bromo | 0.6 | 8.0 | 0.0 | 0.02 | 0.01 | 87.9 | 81.3 | 135.0 |
-| 36 | SV-Kriptón | 0.2 | 2.0 | 0.0 | 0.02 | 0.01 | 95.0 | 96.0 | -185.0 |
-| 37 | SV-Rubidio | 1.29 | 114.0 | 0.17 | 0.86 | 0.89 | 23.2 | 25.8 | 760.0 |
-| 38 | SV-Estroncio | 1.44 | 132.0 | 0.18 | 0.82 | 0.85 | 27.4 | 29.4 | 790.0 |
-| 39 | SV-Itrio | 2.58 | 150.0 | 0.2 | 0.79 | 0.81 | 31.6 | 33.0 | 820.0 |
-| 40 | SV-Circonio | 2.9 | 168.0 | 0.21 | 0.76 | 0.77 | 35.8 | 36.6 | 850.0 |
-| 41 | SV-Niobio | 3.22 | 186.0 | 0.22 | 0.72 | 0.73 | 40.0 | 40.2 | 880.0 |
-| 42 | SV-Molibdeno | 3.54 | 204.0 | 0.23 | 0.68 | 0.69 | 44.2 | 43.8 | 910.0 |
-| 43 | SV-Tecnecio | 3.86 | 222.0 | 0.24 | 0.65 | 0.65 | 48.4 | 47.4 | 940.0 |
-| 44 | SV-Rutenio | 4.18 | 240.0 | 0.26 | 0.61 | 0.61 | 52.6 | 51.0 | 970.0 |
-| 45 | SV-Rodio | 4.5 | 258.0 | 0.27 | 0.58 | 0.57 | 56.8 | 54.6 | 1000.0 |
-| 46 | SV-Paladio | 4.82 | 276.0 | 0.28 | 0.54 | 0.53 | 61.0 | 58.2 | 1030.0 |
-| 47 | SV-Plata | 5.14 | 294.0 | 0.29 | 0.51 | 0.49 | 65.2 | 61.8 | 1060.0 |
-| 48 | SV-Cadmio | 5.46 | 312.0 | 0.3 | 0.48 | 0.45 | 69.4 | 65.4 | 1090.0 |
-| 49 | SV-Indio | 5.26 | 330.0 | 0.32 | 0.44 | 0.23 | 73.6 | 69.0 | 1120.0 |
-| 50 | SV-Estaño | 5.44 | 348.0 | 0.33 | 0.4 | 0.2 | 77.8 | 72.6 | 1150.0 |
-| 51 | SV-Antimonio | 5.62 | 366.0 | 0.34 | 0.37 | 0.18 | 82.0 | 76.2 | 1180.0 |
-| 52 | SV-Telurio | 5.8 | 384.0 | 0.35 | 0.34 | 0.16 | 86.2 | 79.8 | 1210.0 |
-| 53 | SV-Yodo | 0.6 | 8.0 | 0.0 | 0.02 | 0.01 | 90.4 | 83.4 | 150.0 |
-| 54 | SV-Xenón | 0.2 | 2.0 | 0.0 | 0.02 | 0.01 | 95.0 | 96.0 | -180.0 |
-| 55 | SV-Cesio | 1.31 | 122.0 | 0.17 | 0.84 | 0.88 | 25.7 | 27.9 | 800.0 |
-| 56 | SV-Bario | 1.46 | 140.0 | 0.18 | 0.8 | 0.83 | 29.9 | 31.5 | 830.0 |
-| 57 | SV-Lantano | 2.61 | 158.0 | 0.2 | 0.77 | 0.8 | 34.1 | 35.1 | 860.0 |
-| 58 | SV-Cerio | 2.93 | 176.0 | 0.21 | 0.74 | 0.76 | 38.3 | 38.7 | 890.0 |
-| 59 | SV-Praseodimio | 3.25 | 194.0 | 0.22 | 0.7 | 0.71 | 42.5 | 42.3 | 920.0 |
-| 60 | SV-Neodimio | 3.57 | 212.0 | 0.23 | 0.67 | 0.67 | 46.7 | 45.9 | 950.0 |
-| 61 | SV-Prometio | 3.89 | 230.0 | 0.24 | 0.63 | 0.64 | 50.9 | 49.5 | 980.0 |
-| 62 | SV-Samario | 4.21 | 248.0 | 0.26 | 0.59 | 0.59 | 55.1 | 53.1 | 1010.0 |
-| 63 | SV-Europio | 4.53 | 266.0 | 0.27 | 0.56 | 0.56 | 59.3 | 56.7 | 1040.0 |
-| 64 | SV-Gadolinio | 4.85 | 284.0 | 0.28 | 0.52 | 0.52 | 63.5 | 60.3 | 1070.0 |
-| 65 | SV-Terbio | 5.17 | 302.0 | 0.29 | 0.49 | 0.48 | 67.7 | 63.9 | 1100.0 |
-| 66 | SV-Disprosio | 5.49 | 320.0 | 0.3 | 0.46 | 0.44 | 71.9 | 67.5 | 1130.0 |
-| 67 | SV-Holmio | 5.24 | 338.0 | 0.32 | 0.42 | 0.22 | 76.1 | 71.1 | 1160.0 |
-| 68 | SV-Erbio | 5.42 | 356.0 | 0.33 | 0.38 | 0.2 | 80.3 | 74.7 | 1190.0 |
-| 69 | SV-Tulio | 5.6 | 374.0 | 0.34 | 0.35 | 0.17 | 84.5 | 78.3 | 1220.0 |
-| 70 | SV-Iterbio | 5.78 | 392.0 | 0.35 | 0.32 | 0.15 | 88.7 | 81.9 | 1250.0 |
-| 71 | SV-Lutecio | 0.6 | 8.0 | 0.0 | 0.02 | 0.01 | 92.9 | 85.5 | 165.0 |
-| 72 | SV-Hafnio | 0.2 | 2.0 | 0.0 | 0.02 | 0.01 | 95.0 | 96.0 | -175.0 |
-| 73 | SV-Tántalo | 1.33 | 130.0 | 0.17 | 0.82 | 0.86 | 28.2 | 30.0 | 840.0 |
-| 74 | SV-Wolframio | 1.48 | 148.0 | 0.18 | 0.79 | 0.82 | 32.4 | 33.6 | 870.0 |
-| 75 | SV-Renio | 2.64 | 166.0 | 0.2 | 0.75 | 0.78 | 36.6 | 37.2 | 900.0 |
-| 76 | SV-Osmio | 2.96 | 184.0 | 0.21 | 0.72 | 0.74 | 40.8 | 40.8 | 930.0 |
-| 77 | SV-Iridio | 3.28 | 202.0 | 0.22 | 0.68 | 0.7 | 45.0 | 44.4 | 960.0 |
-| 78 | SV-Platino | 3.6 | 220.0 | 0.23 | 0.65 | 0.66 | 49.2 | 48.0 | 990.0 |
-| 79 | SV-Oro | 3.92 | 238.0 | 0.24 | 0.61 | 0.62 | 53.4 | 51.6 | 1020.0 |
-| 80 | SV-Mercurio | 4.24 | 256.0 | 0.26 | 0.58 | 0.58 | 57.6 | 55.2 | 1050.0 |
-| 81 | SV-Talio | 4.56 | 274.0 | 0.27 | 0.54 | 0.54 | 61.8 | 58.8 | 1080.0 |
-| 82 | SV-Plomo | 4.88 | 292.0 | 0.28 | 0.51 | 0.5 | 66.0 | 62.4 | 1110.0 |
-| 83 | SV-Bismuto | 5.2 | 310.0 | 0.29 | 0.47 | 0.46 | 70.2 | 66.0 | 1140.0 |
-| 84 | SV-Polonio | 5.52 | 328.0 | 0.3 | 0.43 | 0.42 | 74.4 | 69.6 | 1170.0 |
-| 85 | SV-Ástato | 5.22 | 346.0 | 0.32 | 0.4 | 0.21 | 78.6 | 73.2 | 1200.0 |
-| 86 | SV-Radón | 5.4 | 364.0 | 0.33 | 0.36 | 0.19 | 82.8 | 76.8 | 1230.0 |
-| 87 | SV-Francio | 5.58 | 382.0 | 0.34 | 0.33 | 0.17 | 87.0 | 80.4 | 1260.0 |
-| 88 | SV-Radio | 5.76 | 400.0 | 0.35 | 0.29 | 0.14 | 91.2 | 84.0 | 1290.0 |
-| 89 | SV-Actinio | 0.6 | 8.0 | 0.0 | 0.02 | 0.01 | 95.4 | 87.6 | 180.0 |
-| 90 | SV-Torio | 0.2 | 2.0 | 0.0 | 0.02 | 0.01 | 95.0 | 96.0 | -170.0 |
-| 91 | SV-Protactinio | 1.35 | 138.0 | 0.17 | 0.8 | 0.85 | 30.7 | 32.1 | 880.0 |
-| 92 | SV-Uranio | 1.5 | 156.0 | 0.18 | 0.77 | 0.81 | 34.9 | 35.7 | 910.0 |
-| 93 | SV-Neptunio | 2.67 | 174.0 | 0.2 | 0.73 | 0.77 | 39.1 | 39.3 | 940.0 |
-| 94 | SV-Plutonio | 2.99 | 192.0 | 0.21 | 0.7 | 0.73 | 43.3 | 42.9 | 970.0 |
-| 95 | SV-Americio | 3.31 | 210.0 | 0.22 | 0.66 | 0.69 | 47.5 | 46.5 | 1000.0 |
-| 96 | SV-Curio | 3.63 | 228.0 | 0.23 | 0.62 | 0.65 | 51.7 | 50.1 | 1030.0 |
-| 97 | SV-Berkelio | 3.95 | 246.0 | 0.24 | 0.59 | 0.61 | 55.9 | 53.7 | 1060.0 |
-| 98 | SV-Californio | 4.27 | 264.0 | 0.26 | 0.56 | 0.57 | 60.1 | 57.3 | 1090.0 |
-| 99 | SV-Einsteinio | 4.59 | 282.0 | 0.27 | 0.52 | 0.53 | 64.3 | 60.9 | 1120.0 |
-| 100 | SV-Fermio | 4.91 | 300.0 | 0.28 | 0.48 | 0.49 | 68.5 | 64.5 | 1150.0 |
-| 101 | SV-Mendelevio | 5.23 | 318.0 | 0.29 | 0.45 | 0.45 | 72.7 | 68.1 | 1180.0 |
-| 102 | SV-Nobelio | 5.55 | 336.0 | 0.3 | 0.42 | 0.41 | 76.9 | 71.7 | 1210.0 |
-| 103 | SV-Laurencio | 5.2 | 354.0 | 0.32 | 0.38 | 0.2 | 81.1 | 75.3 | 1240.0 |
-| 104 | SV-Rutherfordio | 5.38 | 372.0 | 0.33 | 0.34 | 0.18 | 85.3 | 78.9 | 1270.0 |
-| 105 | SV-Dubnio | 5.56 | 390.0 | 0.34 | 0.31 | 0.16 | 89.5 | 82.5 | 1300.0 |
-| 106 | SV-Seaborgio | 5.74 | 408.0 | 0.35 | 0.28 | 0.13 | 93.7 | 86.1 | 1330.0 |
-| 107 | SV-Bohrio | 0.6 | 8.0 | 0.0 | 0.02 | 0.01 | 97.9 | 89.7 | 195.0 |
-| 108 | SV-Hásio | 0.2 | 2.0 | 0.0 | 0.02 | 0.01 | 95.0 | 96.0 | -165.0 |
-| 109 | SV-Meitnerio | 1.37 | 146.0 | 0.17 | 0.78 | 0.83 | 33.2 | 34.2 | 920.0 |
-| 110 | SV-Darmstadtio | 1.52 | 164.0 | 0.18 | 0.74 | 0.79 | 37.4 | 37.8 | 950.0 |
-| 111 | SV-Roentgenio | 2.7 | 182.0 | 0.2 | 0.71 | 0.75 | 41.6 | 41.4 | 980.0 |
-| 112 | SV-Copernicio | 3.02 | 200.0 | 0.21 | 0.68 | 0.71 | 45.8 | 45.0 | 1010.0 |
-| 113 | SV-Nihonio | 3.34 | 218.0 | 0.22 | 0.64 | 0.67 | 50.0 | 48.6 | 1040.0 |
-| 114 | SV-Flerovio | 3.66 | 236.0 | 0.23 | 0.6 | 0.63 | 54.2 | 52.2 | 1070.0 |
-| 115 | SV-Moscovio | 3.98 | 254.0 | 0.24 | 0.57 | 0.59 | 58.4 | 55.8 | 1100.0 |
-| 116 | SV-Livermorio | 4.3 | 272.0 | 0.26 | 0.54 | 0.55 | 62.6 | 59.4 | 1130.0 |
-| 117 | SV-Téneso | 4.62 | 290.0 | 0.27 | 0.5 | 0.51 | 66.8 | 63.0 | 1160.0 |
-| 118 | SV-Oganesón | 4.94 | 308.0 | 0.28 | 0.46 | 0.47 | 71.0 | 66.6 | 1190.0 |
-| 119 | SV-119 | 4.43 | 295 | 0.33 | 0.57 | 0.43 | 21.2 | 86.2 | 1890 |
-| 120 | SV-120 | 4.77 | 100 | 0.15 | 0.56 | 0.43 | 21.3 | 86.1 | 1900 |
-| 121 | SV-121 | 5.1 | 105 | 0.17 | 0.56 | 0.43 | 21.5 | 86.0 | 1910 |
-| 122 | SV-122 | 5.43 | 110 | 0.19 | 0.55 | 0.43 | 21.7 | 85.9 | 1920 |
-| 123 | SV-123 | 5.77 | 115 | 0.21 | 0.55 | 0.43 | 21.8 | 85.7 | 1930 |
-| 124 | SV-124 | 6.1 | 120 | 0.23 | 0.55 | 0.43 | 22.0 | 85.6 | 1940 |
-| 125 | SV-125 | 0.0 | 5 | 0.0 | 0.01 | 0.01 | 22.1 | 85.5 | -208 |
-| 126 | SV-126 | 0.01 | 2 | 0.0 | 0.01 | 0.01 | 22.3 | 85.4 | -243 |
-| 127 | SV-127 | 1.1 | 135 | 0.29 | 0.53 | 0.44 | 22.4 | 85.3 | 1970 |
-| 128 | SV-128 | 1.43 | 140 | 0.31 | 0.53 | 0.44 | 22.6 | 85.2 | 1980 |
-| 129 | SV-129 | 1.77 | 145 | 0.33 | 0.53 | 0.44 | 22.7 | 85.1 | 1990 |
-| 130 | SV-130 | 2.1 | 150 | 0.15 | 0.52 | 0.44 | 22.9 | 85.0 | 2000 |
-| 131 | SV-131 | 2.43 | 155 | 0.17 | 0.52 | 0.44 | 23.0 | 84.9 | 2010 |
-| 132 | SV-132 | 2.77 | 160 | 0.19 | 0.51 | 0.44 | 23.2 | 84.8 | 2020 |
-| 133 | SV-133 | 3.1 | 165 | 0.21 | 0.51 | 0.44 | 23.4 | 84.7 | 2030 |
-| 134 | SV-134 | 3.43 | 170 | 0.23 | 0.51 | 0.44 | 23.5 | 84.6 | 2040 |
-| 135 | SV-135 | 3.77 | 175 | 0.25 | 0.5 | 0.45 | 23.7 | 84.5 | 2050 |
-| 136 | SV-136 | 4.1 | 180 | 0.27 | 0.5 | 0.45 | 23.8 | 84.4 | 2060 |
-| 137 | SV-137 | 4.43 | 185 | 0.29 | 0.49 | 0.45 | 24.0 | 84.3 | 2070 |
-| 138 | SV-138 | 4.77 | 190 | 0.31 | 0.49 | 0.45 | 24.1 | 84.2 | 2080 |
-| 139 | SV-139 | 5.1 | 195 | 0.33 | 0.48 | 0.45 | 24.3 | 84.1 | 2090 |
-| 140 | SV-140 | 5.43 | 200 | 0.15 | 0.48 | 0.45 | 24.4 | 83.9 | 2100 |
-| 141 | SV-141 | 5.77 | 205 | 0.17 | 0.48 | 0.45 | 24.6 | 83.8 | 2110 |
-| 142 | SV-142 | 6.1 | 210 | 0.19 | 0.47 | 0.46 | 24.7 | 83.7 | 2120 |
-| 143 | SV-143 | 0.0 | 5 | 0.0 | 0.01 | 0.01 | 24.9 | 83.6 | -198 |
-| 144 | SV-144 | 0.01 | 2 | 0.0 | 0.01 | 0.01 | 25.0 | 83.5 | -238 |
-| 145 | SV-145 | 1.1 | 225 | 0.25 | 0.46 | 0.46 | 25.2 | 83.4 | 2150 |
-| 146 | SV-146 | 1.43 | 230 | 0.27 | 0.46 | 0.46 | 25.3 | 83.3 | 2160 |
-| 147 | SV-147 | 1.77 | 235 | 0.29 | 0.45 | 0.46 | 25.5 | 83.2 | 2170 |
-| 148 | SV-148 | 2.1 | 240 | 0.31 | 0.45 | 0.46 | 25.6 | 83.1 | 2180 |
-| 149 | SV-149 | 2.43 | 245 | 0.33 | 0.44 | 0.47 | 25.8 | 83.0 | 2190 |
-| 150 | SV-150 | 2.77 | 250 | 0.15 | 0.44 | 0.47 | 25.9 | 82.9 | 2200 |
-| 151 | SV-151 | 3.1 | 255 | 0.17 | 0.44 | 0.47 | 26.1 | 82.8 | 2210 |
-| 152 | SV-152 | 3.43 | 260 | 0.19 | 0.43 | 0.47 | 26.2 | 82.7 | 2220 |
-| 153 | SV-153 | 3.77 | 265 | 0.21 | 0.43 | 0.47 | 26.4 | 82.6 | 2230 |
-| 154 | SV-154 | 4.1 | 270 | 0.23 | 0.42 | 0.47 | 26.5 | 82.5 | 2240 |
-| 155 | SV-155 | 4.43 | 275 | 0.25 | 0.42 | 0.47 | 26.7 | 82.4 | 2250 |
-| 156 | SV-156 | 4.77 | 280 | 0.27 | 0.41 | 0.48 | 26.8 | 82.3 | 2260 |
-| 157 | SV-157 | 5.1 | 285 | 0.29 | 0.41 | 0.48 | 26.9 | 82.2 | 2270 |
-| 158 | SV-158 | 5.43 | 290 | 0.31 | 0.41 | 0.48 | 27.1 | 82.1 | 2280 |
-| 159 | SV-159 | 5.77 | 295 | 0.33 | 0.4 | 0.48 | 27.2 | 82.0 | 2290 |
-| 160 | SV-160 | 6.1 | 100 | 0.15 | 0.4 | 0.48 | 27.4 | 81.9 | 2300 |
-| 161 | SV-161 | 0.0 | 5 | 0.0 | 0.01 | 0.01 | 27.5 | 81.8 | -188 |
-| 162 | SV-162 | 0.01 | 2 | 0.0 | 0.01 | 0.01 | 27.7 | 81.7 | -233 |
-| 163 | SV-163 | 1.1 | 115 | 0.21 | 0.39 | 0.48 | 27.8 | 81.6 | 2330 |
-| 164 | SV-164 | 1.43 | 120 | 0.23 | 0.38 | 0.48 | 28.0 | 81.5 | 2340 |
-| 165 | SV-165 | 1.77 | 125 | 0.25 | 0.38 | 0.48 | 28.1 | 81.4 | 2350 |
-| 166 | SV-166 | 2.1 | 130 | 0.27 | 0.37 | 0.49 | 28.3 | 81.3 | 2360 |
-| 167 | SV-167 | 2.43 | 135 | 0.29 | 0.37 | 0.49 | 28.4 | 81.2 | 2370 |
-| 168 | SV-168 | 2.77 | 140 | 0.31 | 0.37 | 0.49 | 28.5 | 81.1 | 2380 |
-| 169 | SV-169 | 3.1 | 145 | 0.33 | 0.36 | 0.49 | 28.7 | 81.0 | 2390 |
-| 170 | SV-170 | 3.43 | 150 | 0.15 | 0.36 | 0.49 | 28.8 | 80.9 | 2400 |
-| 171 | SV-171 | 3.77 | 155 | 0.17 | 0.36 | 0.49 | 29.0 | 80.8 | 2410 |
-| 172 | SV-172 | 4.1 | 160 | 0.19 | 0.35 | 0.49 | 29.1 | 80.7 | 2420 |
-| 173 | SV-173 | 4.43 | 165 | 0.21 | 0.35 | 0.49 | 29.2 | 80.6 | 2430 |
-| 174 | SV-174 | 4.77 | 170 | 0.23 | 0.34 | 0.49 | 29.4 | 80.5 | 2440 |
-| 175 | SV-175 | 5.1 | 175 | 0.25 | 0.34 | 0.49 | 29.5 | 80.4 | 2450 |
-| 176 | SV-176 | 5.43 | 180 | 0.27 | 0.34 | 0.49 | 29.7 | 80.3 | 2460 |
-| 177 | SV-177 | 5.77 | 185 | 0.29 | 0.33 | 0.49 | 29.8 | 80.2 | 2470 |
-| 178 | SV-178 | 6.1 | 190 | 0.31 | 0.33 | 0.49 | 30.0 | 80.1 | 2480 |
-| 179 | SV-179 | 0.0 | 5 | 0.0 | 0.01 | 0.01 | 30.1 | 80.0 | -178 |
-| 180 | SV-180 | 0.01 | 2 | 0.0 | 0.01 | 0.01 | 30.2 | 79.9 | -228 |
-| 181 | SV-181 | 1.1 | 205 | 0.17 | 0.32 | 0.48 | 30.4 | 79.8 | 2510 |
-| 182 | SV-182 | 1.43 | 210 | 0.19 | 0.31 | 0.48 | 30.5 | 79.7 | 2520 |
-| 183 | SV-183 | 1.77 | 215 | 0.21 | 0.31 | 0.48 | 30.6 | 79.6 | 2530 |
-| 184 | SV-184 | 2.1 | 220 | 0.23 | 0.31 | 0.48 | 30.8 | 79.5 | 2540 |
-| 185 | SV-185 | 2.43 | 225 | 0.25 | 0.3 | 0.48 | 30.9 | 79.4 | 2550 |
-| 186 | SV-186 | 2.77 | 230 | 0.27 | 0.3 | 0.48 | 31.1 | 79.3 | 2560 |
-| 187 | SV-187 | 3.1 | 235 | 0.29 | 0.3 | 0.48 | 31.2 | 79.2 | 2570 |
-| 188 | SV-188 | 3.43 | 240 | 0.31 | 0.29 | 0.48 | 31.3 | 79.1 | 2580 |
-| 189 | SV-189 | 3.77 | 245 | 0.33 | 0.29 | 0.48 | 31.5 | 79.0 | 2590 |
-| 190 | SV-190 | 4.1 | 250 | 0.15 | 0.29 | 0.47 | 31.6 | 78.9 | 2600 |
-| 191 | SV-191 | 4.43 | 255 | 0.17 | 0.28 | 0.47 | 31.8 | 78.8 | 2610 |
-| 192 | SV-192 | 4.77 | 260 | 0.19 | 0.28 | 0.47 | 31.9 | 78.7 | 2620 |
-| 193 | SV-193 | 5.1 | 265 | 0.21 | 0.28 | 0.47 | 32.0 | 78.6 | 2630 |
-| 194 | SV-194 | 5.43 | 270 | 0.23 | 0.27 | 0.47 | 32.2 | 78.5 | 2640 |
-| 195 | SV-195 | 5.77 | 275 | 0.25 | 0.27 | 0.46 | 32.3 | 78.4 | 2650 |
-| 196 | SV-196 | 6.1 | 280 | 0.27 | 0.27 | 0.46 | 32.4 | 78.3 | 2660 |
-| 197 | SV-197 | 0.0 | 5 | 0.0 | 0.01 | 0.01 | 32.6 | 78.2 | -168 |
-| 198 | SV-198 | 0.01 | 2 | 0.0 | 0.01 | 0.01 | 32.7 | 78.1 | -223 |
-| 199 | SV-199 | 1.1 | 295 | 0.33 | 0.26 | 0.45 | 32.8 | 78.0 | 2690 |
-| 200 | SV-200 | 1.53 | 100 | 0.15 | 0.26 | 0.45 | 33.0 | 77.9 | 2700 |
-| 201 | SV-201 | 1.87 | 105 | 0.17 | 0.25 | 0.45 | 33.1 | 77.8 | 2710 |
-| 202 | SV-202 | 2.2 | 110 | 0.19 | 0.25 | 0.45 | 33.2 | 77.7 | 2720 |
-| 203 | SV-203 | 2.53 | 115 | 0.21 | 0.25 | 0.44 | 33.4 | 77.6 | 2730 |
-| 204 | SV-204 | 2.87 | 120 | 0.23 | 0.24 | 0.44 | 33.5 | 77.5 | 2740 |
-| 205 | SV-205 | 3.2 | 125 | 0.25 | 0.24 | 0.44 | 33.6 | 77.4 | 2750 |
-| 206 | SV-206 | 3.53 | 130 | 0.27 | 0.24 | 0.43 | 33.8 | 77.3 | 2760 |
-| 207 | SV-207 | 3.87 | 135 | 0.29 | 0.24 | 0.43 | 33.9 | 77.2 | 2770 |
-| 208 | SV-208 | 4.2 | 140 | 0.31 | 0.23 | 0.43 | 34.0 | 77.1 | 2780 |
-| 209 | SV-209 | 4.53 | 145 | 0.33 | 0.23 | 0.42 | 34.2 | 77.0 | 2790 |
-| 210 | SV-210 | 4.87 | 150 | 0.15 | 0.23 | 0.42 | 34.3 | 76.9 | 2800 |
-| 211 | SV-211 | 5.2 | 155 | 0.17 | 0.23 | 0.42 | 34.4 | 76.8 | 2810 |
-| 212 | SV-212 | 5.53 | 160 | 0.19 | 0.22 | 0.41 | 34.6 | 76.7 | 2820 |
-| 213 | SV-213 | 5.87 | 165 | 0.21 | 0.22 | 0.41 | 34.7 | 76.6 | 2830 |
-| 214 | SV-214 | 6.2 | 170 | 0.23 | 0.22 | 0.41 | 34.8 | 76.5 | 2840 |
-| 215 | SV-215 | 0.0 | 5 | 0.0 | 0.01 | 0.01 | 34.9 | 76.4 | -158 |
-| 216 | SV-216 | 0.01 | 2 | 0.0 | 0.01 | 0.01 | 35.1 | 76.3 | -218 |
-| 217 | SV-217 | 1.2 | 185 | 0.29 | 0.21 | 0.39 | 35.2 | 76.2 | 2870 |
-| 218 | SV-218 | 1.53 | 190 | 0.31 | 0.21 | 0.39 | 35.3 | 76.1 | 2880 |
-| 219 | SV-219 | 1.87 | 195 | 0.33 | 0.21 | 0.39 | 35.5 | 76.1 | 2890 |
-| 220 | SV-220 | 2.2 | 200 | 0.15 | 0.2 | 0.38 | 35.6 | 76.0 | 2900 |
-| 221 | SV-221 | 2.53 | 205 | 0.17 | 0.2 | 0.38 | 35.7 | 75.9 | 2910 |
-| 222 | SV-222 | 2.87 | 210 | 0.19 | 0.2 | 0.37 | 35.9 | 75.8 | 2920 |
-| 223 | SV-223 | 3.2 | 215 | 0.21 | 0.2 | 0.37 | 36.0 | 75.7 | 2930 |
-| 224 | SV-224 | 3.53 | 220 | 0.23 | 0.2 | 0.36 | 36.1 | 75.6 | 2940 |
-| 225 | SV-225 | 3.87 | 225 | 0.25 | 0.19 | 0.36 | 36.2 | 75.5 | 2950 |
-| 226 | SV-226 | 4.2 | 230 | 0.27 | 0.19 | 0.36 | 36.4 | 75.4 | 2960 |
-| 227 | SV-227 | 4.53 | 235 | 0.29 | 0.19 | 0.35 | 36.5 | 75.3 | 2970 |
-| 228 | SV-228 | 4.87 | 240 | 0.31 | 0.19 | 0.35 | 36.6 | 75.2 | 2980 |
-| 229 | SV-229 | 5.2 | 245 | 0.33 | 0.19 | 0.34 | 36.7 | 75.1 | 2990 |
-| 230 | SV-230 | 5.53 | 250 | 0.15 | 0.19 | 0.34 | 36.9 | 75.0 | 3000 |
-| 231 | SV-231 | 5.87 | 255 | 0.17 | 0.18 | 0.33 | 37.0 | 74.9 | 3010 |
-| 232 | SV-232 | 6.2 | 260 | 0.19 | 0.18 | 0.33 | 37.1 | 74.8 | 3020 |
-| 233 | SV-233 | 0.0 | 5 | 0.0 | 0.01 | 0.01 | 37.2 | 74.7 | -148 |
-| 234 | SV-234 | 0.01 | 2 | 0.0 | 0.01 | 0.01 | 37.4 | 74.6 | -213 |
-| 235 | SV-235 | 1.2 | 275 | 0.25 | 0.18 | 0.31 | 37.5 | 74.5 | 3050 |
-| 236 | SV-236 | 1.53 | 280 | 0.27 | 0.18 | 0.31 | 37.6 | 74.5 | 3060 |
-| 237 | SV-237 | 1.87 | 285 | 0.29 | 0.18 | 0.31 | 37.7 | 74.4 | 3070 |
-| 238 | SV-238 | 2.2 | 290 | 0.31 | 0.17 | 0.3 | 37.9 | 74.3 | 3080 |
-| 239 | SV-239 | 2.53 | 295 | 0.33 | 0.17 | 0.3 | 38.0 | 74.2 | 3090 |
-| 240 | SV-240 | 2.87 | 100 | 0.15 | 0.17 | 0.29 | 38.1 | 74.1 | 3100 |
-| 241 | SV-241 | 3.2 | 105 | 0.17 | 0.17 | 0.29 | 38.2 | 74.0 | 3110 |
-| 242 | SV-242 | 3.53 | 110 | 0.19 | 0.17 | 0.28 | 38.4 | 73.9 | 3120 |
-| 243 | SV-243 | 3.87 | 115 | 0.21 | 0.17 | 0.28 | 38.5 | 73.8 | 3130 |
-| 244 | SV-244 | 4.2 | 120 | 0.23 | 0.17 | 0.27 | 38.6 | 73.7 | 3140 |
-| 245 | SV-245 | 4.53 | 125 | 0.25 | 0.17 | 0.27 | 38.7 | 73.6 | 3150 |
-| 246 | SV-246 | 4.87 | 130 | 0.27 | 0.17 | 0.27 | 38.9 | 73.5 | 3160 |
-| 247 | SV-247 | 5.2 | 135 | 0.29 | 0.16 | 0.26 | 39.0 | 73.4 | 3170 |
-| 248 | SV-248 | 5.53 | 140 | 0.31 | 0.16 | 0.26 | 39.1 | 73.3 | 3180 |
-| 249 | SV-249 | 5.87 | 145 | 0.33 | 0.16 | 0.25 | 39.2 | 73.3 | 3190 |
-| 250 | SV-250 | 6.2 | 150 | 0.15 | 0.16 | 0.25 | 39.3 | 73.2 | 3200 |
-| 251 | SV-251 | 0.0 | 5 | 0.0 | 0.01 | 0.01 | 39.5 | 73.1 | -138 |
-| 252 | SV-252 | 0.01 | 2 | 0.0 | 0.01 | 0.01 | 39.6 | 73.0 | -208 |
-| 253 | SV-253 | 1.2 | 165 | 0.21 | 0.16 | 0.24 | 39.7 | 72.9 | 3230 |
-| 254 | SV-254 | 1.53 | 170 | 0.23 | 0.16 | 0.23 | 39.8 | 72.8 | 3240 |
-| 255 | SV-255 | 1.87 | 175 | 0.25 | 0.16 | 0.23 | 40.0 | 72.7 | 3250 |
-| 256 | SV-256 | 2.2 | 180 | 0.27 | 0.16 | 0.22 | 40.1 | 72.6 | 3260 |
-| 257 | SV-257 | 2.53 | 185 | 0.29 | 0.16 | 0.22 | 40.2 | 72.5 | 3270 |
-| 258 | SV-258 | 2.87 | 190 | 0.31 | 0.16 | 0.22 | 40.3 | 72.4 | 3280 |
-| 259 | SV-259 | 3.2 | 195 | 0.33 | 0.16 | 0.21 | 40.4 | 72.3 | 3290 |
-| 260 | SV-260 | 3.53 | 200 | 0.15 | 0.16 | 0.21 | 40.5 | 72.3 | 3300 |
-| 261 | SV-261 | 3.87 | 205 | 0.17 | 0.16 | 0.21 | 40.7 | 72.2 | 3310 |
-| 262 | SV-262 | 4.2 | 210 | 0.19 | 0.16 | 0.2 | 40.8 | 72.1 | 3320 |
-| 263 | SV-263 | 4.53 | 215 | 0.21 | 0.16 | 0.2 | 40.9 | 72.0 | 3330 |
-| 264 | SV-264 | 4.87 | 220 | 0.23 | 0.16 | 0.2 | 41.0 | 71.9 | 3340 |
-| 265 | SV-265 | 5.2 | 225 | 0.25 | 0.16 | 0.19 | 41.1 | 71.8 | 3350 |
-| 266 | SV-266 | 5.53 | 230 | 0.27 | 0.16 | 0.19 | 41.3 | 71.7 | 3360 |
-| 267 | SV-267 | 5.87 | 235 | 0.29 | 0.16 | 0.19 | 41.4 | 71.6 | 3370 |
-| 268 | SV-268 | 6.2 | 240 | 0.31 | 0.16 | 0.19 | 41.5 | 71.5 | 3380 |
-| 269 | SV-269 | 0.0 | 5 | 0.0 | 0.01 | 0.01 | 41.6 | 71.4 | -128 |
-| 270 | SV-270 | 0.01 | 2 | 0.0 | 0.01 | 0.01 | 41.7 | 71.4 | -203 |
-| 271 | SV-271 | 1.2 | 255 | 0.17 | 0.16 | 0.18 | 41.8 | 71.3 | 3410 |
-| 272 | SV-272 | 1.53 | 260 | 0.19 | 0.16 | 0.18 | 42.0 | 71.2 | 3420 |
-| 273 | SV-273 | 1.87 | 265 | 0.21 | 0.16 | 0.17 | 42.1 | 71.1 | 3430 |
-| 274 | SV-274 | 2.2 | 270 | 0.23 | 0.16 | 0.17 | 42.2 | 71.0 | 3440 |
-| 275 | SV-275 | 2.53 | 275 | 0.25 | 0.16 | 0.17 | 42.3 | 70.9 | 3450 |
-| 276 | SV-276 | 2.87 | 280 | 0.27 | 0.16 | 0.17 | 42.4 | 70.8 | 3460 |
-| 277 | SV-277 | 3.2 | 285 | 0.29 | 0.16 | 0.17 | 42.5 | 70.7 | 3470 |
-| 278 | SV-278 | 3.53 | 290 | 0.31 | 0.16 | 0.16 | 42.7 | 70.6 | 3480 |
-| 279 | SV-279 | 3.87 | 295 | 0.33 | 0.16 | 0.16 | 42.8 | 70.6 | 3490 |
-| 280 | SV-280 | 4.2 | 100 | 0.15 | 0.16 | 0.16 | 42.9 | 70.5 | 3500 |
-| 281 | SV-281 | 4.53 | 105 | 0.17 | 0.16 | 0.16 | 43.0 | 70.4 | 3510 |
-| 282 | SV-282 | 4.87 | 110 | 0.19 | 0.16 | 0.16 | 43.1 | 70.3 | 3520 |
-| 283 | SV-283 | 5.2 | 115 | 0.21 | 0.16 | 0.16 | 43.2 | 70.2 | 3530 |
-| 284 | SV-284 | 5.53 | 120 | 0.23 | 0.16 | 0.16 | 43.3 | 70.1 | 3540 |
-| 285 | SV-285 | 5.87 | 125 | 0.25 | 0.16 | 0.16 | 43.4 | 70.0 | 3550 |
-| 286 | SV-286 | 6.2 | 130 | 0.27 | 0.16 | 0.16 | 43.6 | 69.9 | 3560 |
-| 287 | SV-287 | 0.0 | 5 | 0.0 | 0.01 | 0.01 | 43.7 | 69.9 | -118 |
-| 288 | SV-288 | 0.01 | 2 | 0.0 | 0.01 | 0.01 | 43.8 | 69.8 | -198 |
-| 289 | SV-289 | 1.2 | 145 | 0.33 | 0.16 | 0.15 | 43.9 | 69.7 | 3590 |
-| 290 | SV-290 | 1.53 | 150 | 0.15 | 0.16 | 0.15 | 44.0 | 69.6 | 3600 |
-| 291 | SV-291 | 1.87 | 155 | 0.17 | 0.17 | 0.15 | 44.1 | 69.5 | 3610 |
-| 292 | SV-292 | 2.2 | 160 | 0.19 | 0.17 | 0.15 | 44.2 | 69.4 | 3620 |
-| 293 | SV-293 | 2.53 | 165 | 0.21 | 0.17 | 0.15 | 44.3 | 69.3 | 3630 |
-| 294 | SV-294 | 2.87 | 170 | 0.23 | 0.17 | 0.15 | 44.5 | 69.2 | 3640 |
-| 295 | SV-295 | 3.2 | 175 | 0.25 | 0.17 | 0.15 | 44.6 | 69.2 | 3650 |
-| 296 | SV-296 | 3.53 | 180 | 0.27 | 0.17 | 0.15 | 44.7 | 69.1 | 3660 |
-| 297 | SV-297 | 3.87 | 185 | 0.29 | 0.17 | 0.15 | 44.8 | 69.0 | 3670 |
-| 298 | SV-298 | 4.2 | 190 | 0.31 | 0.17 | 0.16 | 44.9 | 68.9 | 3680 |
-| 299 | SV-299 | 4.53 | 195 | 0.33 | 0.17 | 0.16 | 45.0 | 68.8 | 3690 |
-| 300 | SV-300 | 4.97 | 200 | 0.15 | 0.17 | 0.16 | 45.1 | 68.7 | 3700 |
-| 301 | SV-301 | 5.3 | 205 | 0.17 | 0.17 | 0.16 | 45.2 | 68.6 | 3710 |
-| 302 | SV-302 | 5.63 | 210 | 0.19 | 0.17 | 0.16 | 45.3 | 68.6 | 3720 |
-| 303 | SV-303 | 5.97 | 215 | 0.21 | 0.18 | 0.16 | 45.4 | 68.5 | 3730 |
-| 304 | SV-304 | 6.3 | 220 | 0.23 | 0.18 | 0.16 | 45.6 | 68.4 | 3740 |
-| 305 | SV-305 | 0.0 | 5 | 0.0 | 0.01 | 0.01 | 45.7 | 68.3 | -108 |
-| 306 | SV-306 | 0.01 | 2 | 0.0 | 0.01 | 0.01 | 45.8 | 68.2 | -193 |
-| 307 | SV-307 | 1.3 | 235 | 0.29 | 0.18 | 0.17 | 45.9 | 68.1 | 3770 |
-| 308 | SV-308 | 1.63 | 240 | 0.31 | 0.18 | 0.17 | 46.0 | 68.0 | 3780 |
-| 309 | SV-309 | 1.97 | 245 | 0.33 | 0.18 | 0.17 | 46.1 | 68.0 | 3790 |
-| 310 | SV-310 | 2.3 | 250 | 0.15 | 0.18 | 0.17 | 46.2 | 67.9 | 3800 |
-| 311 | SV-311 | 2.63 | 255 | 0.17 | 0.18 | 0.17 | 46.3 | 67.8 | 3810 |
-| 312 | SV-312 | 2.97 | 260 | 0.19 | 0.18 | 0.17 | 46.4 | 67.7 | 3820 |
-| 313 | SV-313 | 3.3 | 265 | 0.21 | 0.19 | 0.18 | 46.5 | 67.6 | 3830 |
-| 314 | SV-314 | 3.63 | 270 | 0.23 | 0.19 | 0.18 | 46.6 | 67.5 | 3840 |
-| 315 | SV-315 | 3.97 | 275 | 0.25 | 0.19 | 0.18 | 46.7 | 67.5 | 3850 |
-| 316 | SV-316 | 4.3 | 280 | 0.27 | 0.19 | 0.18 | 46.8 | 67.4 | 3860 |
-| 317 | SV-317 | 4.63 | 285 | 0.29 | 0.19 | 0.18 | 47.0 | 67.3 | 3870 |
-| 318 | SV-318 | 4.97 | 290 | 0.31 | 0.19 | 0.19 | 47.1 | 67.2 | 3880 |
-| 319 | SV-319 | 5.3 | 295 | 0.33 | 0.19 | 0.19 | 47.2 | 67.1 | 3890 |
-| 320 | SV-320 | 5.63 | 100 | 0.15 | 0.19 | 0.19 | 47.3 | 67.0 | 3900 |
-| 321 | SV-321 | 5.97 | 105 | 0.17 | 0.19 | 0.19 | 47.4 | 66.9 | 3910 |
-| 322 | SV-322 | 6.3 | 110 | 0.19 | 0.2 | 0.19 | 47.5 | 66.9 | 3920 |
-| 323 | SV-323 | 0.0 | 5 | 0.0 | 0.01 | 0.01 | 47.6 | 66.8 | -98 |
-| 324 | SV-324 | 0.01 | 2 | 0.0 | 0.01 | 0.01 | 47.7 | 66.7 | -188 |
-| 325 | SV-325 | 1.3 | 125 | 0.25 | 0.2 | 0.2 | 47.8 | 66.6 | 3950 |
-| 326 | SV-326 | 1.63 | 130 | 0.27 | 0.2 | 0.2 | 47.9 | 66.5 | 3960 |
-| 327 | SV-327 | 1.97 | 135 | 0.29 | 0.2 | 0.21 | 48.0 | 66.4 | 3970 |
-| 328 | SV-328 | 2.3 | 140 | 0.31 | 0.2 | 0.21 | 48.1 | 66.4 | 3980 |
-| 329 | SV-329 | 2.63 | 145 | 0.33 | 0.2 | 0.21 | 48.2 | 66.3 | 3990 |
-| 330 | SV-330 | 2.97 | 150 | 0.15 | 0.2 | 0.21 | 48.3 | 66.2 | 4000 |
-| 331 | SV-331 | 3.3 | 155 | 0.17 | 0.21 | 0.22 | 48.4 | 66.1 | 4010 |
-| 332 | SV-332 | 3.63 | 160 | 0.19 | 0.21 | 0.22 | 48.5 | 66.0 | 4020 |
-| 333 | SV-333 | 3.97 | 165 | 0.21 | 0.21 | 0.22 | 48.6 | 66.0 | 4030 |
-| 334 | SV-334 | 4.3 | 170 | 0.23 | 0.21 | 0.22 | 48.7 | 65.9 | 4040 |
-| 335 | SV-335 | 4.63 | 175 | 0.25 | 0.21 | 0.23 | 48.8 | 65.8 | 4050 |
-| 336 | SV-336 | 4.97 | 180 | 0.27 | 0.21 | 0.23 | 48.9 | 65.7 | 4060 |
-| 337 | SV-337 | 5.3 | 185 | 0.29 | 0.21 | 0.23 | 49.0 | 65.6 | 4070 |
-| 338 | SV-338 | 5.63 | 190 | 0.31 | 0.21 | 0.23 | 49.1 | 65.5 | 4080 |
-| 339 | SV-339 | 5.97 | 195 | 0.33 | 0.21 | 0.24 | 49.2 | 65.5 | 4090 |
-| 340 | SV-340 | 6.3 | 200 | 0.15 | 0.21 | 0.24 | 49.3 | 65.4 | 4100 |
-| 341 | SV-341 | 0.0 | 5 | 0.0 | 0.01 | 0.01 | 49.4 | 65.3 | -88 |
-| 342 | SV-342 | 0.01 | 2 | 0.0 | 0.01 | 0.01 | 49.5 | 65.2 | -183 |
-| 343 | SV-343 | 1.3 | 215 | 0.21 | 0.22 | 0.25 | 49.6 | 65.1 | 4130 |
-| 344 | SV-344 | 1.63 | 220 | 0.23 | 0.22 | 0.25 | 49.7 | 65.1 | 4140 |
-| 345 | SV-345 | 1.97 | 225 | 0.25 | 0.22 | 0.25 | 49.8 | 65.0 | 4150 |
-| 346 | SV-346 | 2.3 | 230 | 0.27 | 0.22 | 0.25 | 49.9 | 64.9 | 4160 |
-| 347 | SV-347 | 2.63 | 235 | 0.29 | 0.22 | 0.25 | 50.0 | 64.8 | 4170 |
-| 348 | SV-348 | 2.97 | 240 | 0.31 | 0.22 | 0.26 | 50.1 | 64.7 | 4180 |
-| 349 | SV-349 | 3.3 | 245 | 0.33 | 0.22 | 0.26 | 50.2 | 64.6 | 4190 |
-| 350 | SV-350 | 3.63 | 250 | 0.15 | 0.22 | 0.26 | 50.3 | 64.6 | 4200 |
-| 351 | SV-351 | 3.97 | 255 | 0.17 | 0.22 | 0.26 | 50.4 | 64.5 | 4210 |
-| 352 | SV-352 | 4.3 | 260 | 0.19 | 0.22 | 0.26 | 50.5 | 64.4 | 4220 |
-| 353 | SV-353 | 4.63 | 265 | 0.21 | 0.22 | 0.26 | 50.6 | 64.3 | 4230 |
-| 354 | SV-354 | 4.97 | 270 | 0.23 | 0.22 | 0.27 | 50.7 | 64.2 | 4240 |
-| 355 | SV-355 | 5.3 | 275 | 0.25 | 0.23 | 0.27 | 50.8 | 64.2 | 4250 |
-| 356 | SV-356 | 5.63 | 280 | 0.27 | 0.23 | 0.27 | 50.9 | 64.1 | 4260 |
-| 357 | SV-357 | 5.97 | 285 | 0.29 | 0.23 | 0.27 | 51.0 | 64.0 | 4270 |
-| 358 | SV-358 | 6.3 | 290 | 0.31 | 0.23 | 0.27 | 51.1 | 63.9 | 4280 |
-| 359 | SV-359 | 0.0 | 5 | 0.0 | 0.01 | 0.01 | 51.2 | 63.8 | -78 |
-| 360 | SV-360 | 0.01 | 2 | 0.0 | 0.01 | 0.01 | 51.3 | 63.8 | -178 |
-| 361 | SV-361 | 1.3 | 105 | 0.17 | 0.23 | 0.27 | 51.4 | 63.7 | 4310 |
-| 362 | SV-362 | 1.63 | 110 | 0.19 | 0.23 | 0.28 | 51.5 | 63.6 | 4320 |
-| 363 | SV-363 | 1.97 | 115 | 0.21 | 0.23 | 0.28 | 51.6 | 63.5 | 4330 |
-| 364 | SV-364 | 2.3 | 120 | 0.23 | 0.23 | 0.28 | 51.7 | 63.4 | 4340 |
-| 365 | SV-365 | 2.63 | 125 | 0.25 | 0.23 | 0.28 | 51.8 | 63.4 | 4350 |
-| 366 | SV-366 | 2.97 | 130 | 0.27 | 0.23 | 0.28 | 51.9 | 63.3 | 4360 |
-| 367 | SV-367 | 3.3 | 135 | 0.29 | 0.23 | 0.28 | 52.0 | 63.2 | 4370 |
-| 368 | SV-368 | 3.63 | 140 | 0.31 | 0.23 | 0.28 | 52.1 | 63.1 | 4380 |
-| 369 | SV-369 | 3.97 | 145 | 0.33 | 0.23 | 0.28 | 52.2 | 63.0 | 4390 |
-| 370 | SV-370 | 4.3 | 150 | 0.15 | 0.23 | 0.28 | 52.3 | 63.0 | 4400 |
-| 371 | SV-371 | 4.63 | 155 | 0.17 | 0.23 | 0.28 | 52.4 | 62.9 | 4410 |
-| 372 | SV-372 | 4.97 | 160 | 0.19 | 0.23 | 0.28 | 52.5 | 62.8 | 4420 |
-| 373 | SV-373 | 5.3 | 165 | 0.21 | 0.23 | 0.28 | 52.6 | 62.7 | 4430 |
-| 374 | SV-374 | 5.63 | 170 | 0.23 | 0.23 | 0.28 | 52.7 | 62.7 | 4440 |
-| 375 | SV-375 | 5.97 | 175 | 0.25 | 0.23 | 0.28 | 52.8 | 62.6 | 4450 |
-| 376 | SV-376 | 6.3 | 180 | 0.27 | 0.23 | 0.28 | 52.9 | 62.5 | 4460 |
-| 377 | SV-377 | 0.0 | 5 | 0.0 | 0.01 | 0.01 | 53.0 | 62.4 | -68 |
-| 378 | SV-378 | 0.01 | 2 | 0.0 | 0.01 | 0.01 | 53.0 | 62.3 | -173 |
-| 379 | SV-379 | 1.3 | 195 | 0.33 | 0.23 | 0.28 | 53.1 | 62.3 | 4490 |
-| 380 | SV-380 | 1.63 | 200 | 0.15 | 0.23 | 0.27 | 53.2 | 62.2 | 4500 |
-| 381 | SV-381 | 1.97 | 205 | 0.17 | 0.23 | 0.27 | 53.3 | 62.1 | 4510 |
-| 382 | SV-382 | 2.3 | 210 | 0.19 | 0.23 | 0.27 | 53.4 | 62.0 | 4520 |
-| 383 | SV-383 | 2.63 | 215 | 0.21 | 0.23 | 0.27 | 53.5 | 62.0 | 4530 |
-| 384 | SV-384 | 2.97 | 220 | 0.23 | 0.23 | 0.27 | 53.6 | 61.9 | 4540 |
-| 385 | SV-385 | 3.3 | 225 | 0.25 | 0.23 | 0.27 | 53.7 | 61.8 | 4550 |
-| 386 | SV-386 | 3.63 | 230 | 0.27 | 0.23 | 0.27 | 53.8 | 61.7 | 4560 |
-| 387 | SV-387 | 3.97 | 235 | 0.29 | 0.23 | 0.26 | 53.9 | 61.6 | 4570 |
-| 388 | SV-388 | 4.3 | 240 | 0.31 | 0.23 | 0.26 | 54.0 | 61.6 | 4580 |
-| 389 | SV-389 | 4.63 | 245 | 0.33 | 0.23 | 0.26 | 54.1 | 61.5 | 4590 |
-| 390 | SV-390 | 4.97 | 250 | 0.15 | 0.23 | 0.26 | 54.2 | 61.4 | 4600 |
-| 391 | SV-391 | 5.3 | 255 | 0.17 | 0.23 | 0.26 | 54.3 | 61.3 | 4610 |
-| 392 | SV-392 | 5.63 | 260 | 0.19 | 0.23 | 0.25 | 54.3 | 61.3 | 4620 |
-| 393 | SV-393 | 5.97 | 265 | 0.21 | 0.23 | 0.25 | 54.4 | 61.2 | 4630 |
-| 394 | SV-394 | 6.3 | 270 | 0.23 | 0.23 | 0.25 | 54.5 | 61.1 | 4640 |
-| 395 | SV-395 | 0.0 | 5 | 0.0 | 0.01 | 0.01 | 54.6 | 61.0 | -58 |
-| 396 | SV-396 | 0.01 | 2 | 0.0 | 0.01 | 0.01 | 54.7 | 61.0 | -168 |
-| 397 | SV-397 | 1.3 | 285 | 0.29 | 0.22 | 0.24 | 54.8 | 60.9 | 4670 |
-| 398 | SV-398 | 1.63 | 290 | 0.31 | 0.22 | 0.24 | 54.9 | 60.8 | 4680 |
-| 399 | SV-399 | 1.97 | 295 | 0.33 | 0.22 | 0.24 | 55.0 | 60.7 | 4690 |
-| 400 | SV-400 | 2.4 | 100 | 0.15 | 0.22 | 0.23 | 55.1 | 60.7 | 4700 |
-| 401 | SV-401 | 2.73 | 105 | 0.17 | 0.22 | 0.23 | 55.2 | 60.6 | 4710 |
-| 402 | SV-402 | 3.07 | 110 | 0.19 | 0.22 | 0.23 | 55.2 | 60.5 | 4720 |
-| 403 | SV-403 | 3.4 | 115 | 0.21 | 0.22 | 0.22 | 55.3 | 60.4 | 4730 |
-| 404 | SV-404 | 3.73 | 120 | 0.23 | 0.22 | 0.22 | 55.4 | 60.4 | 4740 |
-| 405 | SV-405 | 4.07 | 125 | 0.25 | 0.22 | 0.22 | 55.5 | 60.3 | 4750 |
-| 406 | SV-406 | 4.4 | 130 | 0.27 | 0.21 | 0.21 | 55.6 | 60.2 | 4760 |
-| 407 | SV-407 | 4.73 | 135 | 0.29 | 0.21 | 0.21 | 55.7 | 60.1 | 4770 |
-| 408 | SV-408 | 5.07 | 140 | 0.31 | 0.21 | 0.21 | 55.8 | 60.0 | 4780 |
-| 409 | SV-409 | 5.4 | 145 | 0.33 | 0.21 | 0.2 | 55.9 | 60.0 | 4790 |
-| 410 | SV-410 | 5.73 | 150 | 0.15 | 0.21 | 0.2 | 56.0 | 59.9 | 4800 |
-| 411 | SV-411 | 6.07 | 155 | 0.17 | 0.21 | 0.2 | 56.0 | 59.8 | 4810 |
-| 412 | SV-412 | 6.4 | 160 | 0.19 | 0.21 | 0.19 | 56.1 | 59.8 | 4820 |
-| 413 | SV-413 | 0.0 | 5 | 0.0 | 0.01 | 0.01 | 56.2 | 59.7 | -48 |
-| 414 | SV-414 | 0.01 | 2 | 0.0 | 0.01 | 0.01 | 56.3 | 59.6 | -163 |
-| 415 | SV-415 | 1.4 | 175 | 0.25 | 0.2 | 0.18 | 56.4 | 59.5 | 4850 |
-| 416 | SV-416 | 1.73 | 180 | 0.27 | 0.2 | 0.18 | 56.5 | 59.5 | 4860 |
-| 417 | SV-417 | 2.07 | 185 | 0.29 | 0.2 | 0.17 | 56.6 | 59.4 | 4870 |
-| 418 | SV-418 | 2.4 | 190 | 0.31 | 0.2 | 0.17 | 56.7 | 59.3 | 4880 |
-| 419 | SV-419 | 2.73 | 195 | 0.33 | 0.2 | 0.17 | 56.7 | 59.2 | 4890 |
-| 420 | SV-420 | 3.07 | 200 | 0.15 | 0.2 | 0.16 | 56.8 | 59.2 | 4900 |
-| 421 | SV-421 | 3.4 | 205 | 0.17 | 0.19 | 0.16 | 56.9 | 59.1 | 4910 |
-| 422 | SV-422 | 3.73 | 210 | 0.19 | 0.19 | 0.15 | 57.0 | 59.0 | 4920 |
-| 423 | SV-423 | 4.07 | 215 | 0.21 | 0.19 | 0.15 | 57.1 | 58.9 | 4930 |
-| 424 | SV-424 | 4.4 | 220 | 0.23 | 0.19 | 0.15 | 57.2 | 58.9 | 4940 |
-| 425 | SV-425 | 4.73 | 225 | 0.25 | 0.19 | 0.14 | 57.3 | 58.8 | 4950 |
-| 426 | SV-426 | 5.07 | 230 | 0.27 | 0.19 | 0.14 | 57.3 | 58.7 | 4960 |
-| 427 | SV-427 | 5.4 | 235 | 0.29 | 0.18 | 0.14 | 57.4 | 58.6 | 4970 |
-| 428 | SV-428 | 5.73 | 240 | 0.31 | 0.18 | 0.13 | 57.5 | 58.6 | 4980 |
-| 429 | SV-429 | 6.07 | 245 | 0.33 | 0.18 | 0.13 | 57.6 | 58.5 | 4990 |
-| 430 | SV-430 | 6.4 | 250 | 0.15 | 0.18 | 0.12 | 57.7 | 58.4 | 5000 |
-| 431 | SV-431 | 0.0 | 5 | 0.0 | 0.01 | 0.01 | 57.8 | 58.3 | -38 |
-| 432 | SV-432 | 0.01 | 2 | 0.0 | 0.01 | 0.01 | 57.9 | 58.3 | -158 |
-| 433 | SV-433 | 1.4 | 265 | 0.21 | 0.17 | 0.11 | 57.9 | 58.2 | 5030 |
-| 434 | SV-434 | 1.73 | 270 | 0.23 | 0.17 | 0.11 | 58.0 | 58.1 | 5040 |
-| 435 | SV-435 | 2.07 | 275 | 0.25 | 0.17 | 0.1 | 58.1 | 58.1 | 5050 |
-| 436 | SV-436 | 2.4 | 280 | 0.27 | 0.17 | 0.1 | 58.2 | 58.0 | 5060 |
-| 437 | SV-437 | 2.73 | 285 | 0.29 | 0.16 | 0.1 | 58.3 | 57.9 | 5070 |
-| 438 | SV-438 | 3.07 | 290 | 0.31 | 0.16 | 0.09 | 58.4 | 57.8 | 5080 |
-| 439 | SV-439 | 3.4 | 295 | 0.33 | 0.16 | 0.09 | 58.4 | 57.8 | 5090 |
-| 440 | SV-440 | 3.73 | 100 | 0.15 | 0.16 | 0.09 | 58.5 | 57.7 | 5100 |
-| 441 | SV-441 | 4.07 | 105 | 0.17 | 0.16 | 0.08 | 58.6 | 57.6 | 5110 |
-| 442 | SV-442 | 4.4 | 110 | 0.19 | 0.15 | 0.08 | 58.7 | 57.6 | 5120 |
-| 443 | SV-443 | 4.73 | 115 | 0.21 | 0.15 | 0.08 | 58.8 | 57.5 | 5130 |
-
----
-
-# 11. Tabla 4 — Volumen, estabilidad, radiactividad, isótopos y usos
-
-La cuarta tabla reúne ocho parámetros de volumen, estabilidad radiológica y aplicaciones estructurales.
-
-| Nº | Nombre SV | Volumen (Å³) | Intervalo térmico (°C) | Nivel radiactivo | Nº isótopos | Función estructural SV | Aplicación científica | Aplicación aeroespacial | Aplicación médica |
-|---|---|---|---|---|---|---|---|---|---|
-| 1 | SV-Hidrógeno | 96.97 | -273 a 680 | 45.0 | 6 | apertura alcalina de persistencia superperiódica del periodo 8 | electrónica extrema | estructura densa | implante estructural SV |
-| 2 | SV-Helio | 90.78 | -273 a 710 | 45.5 | 8 | cierre s de confinamiento basal del periodo 8 | electrónica extrema | estructura densa | implante estructural SV |
-| 3 | SV-Litio | 84.85 | -273 a 740 | 46.0 | 8 | apertura de subbloque extendido del periodo 8 | aleaciones SV | estructura densa | implante estructural SV |
-| 4 | SV-Berilio | 79.19 | -273 a 770 | 46.4 | 9 | segundo anclaje de frontera extendida del periodo 8 | aleaciones SV | estructura densa | implante estructural SV |
-| 5 | SV-Boro | 73.79 | -273 a 800 | 46.9 | 10 | crecimiento de confinamiento lateral del periodo 8 | aleaciones SV | estructura densa | implante estructural SV |
-| 6 | SV-Carbono | 68.64 | -273 a 830 | 47.4 | 5 | consolidación intermedia de frontera del periodo 8 | aleaciones SV | estructura densa | implante estructural SV |
-| 7 | SV-Nitrógeno | 63.74 | -273 a 860 | 47.9 | 6 | semilleno estructural primario del periodo 8 | aleaciones SV | estructura densa | implante estructural SV |
-| 8 | SV-Oxígeno | 59.07 | -273 a 890 | 48.4 | 8 | isla local de estabilidad relativa del periodo 8 | aleaciones SV | estructura densa | implante estructural SV |
-| 9 | SV-Flúor | 54.64 | -273 a 920 | 48.8 | 8 | transición posisla de identidad del periodo 8 | aleaciones SV | estructura densa | implante estructural SV |
-| 10 | SV-Neón | 50.44 | -273 a 950 | 49.3 | 9 | persistencia tardía de subbloque del periodo 8 | aleaciones SV | estructura densa | implante estructural SV |
-| 11 | SV-Sodio | 46.45 | -273 a 980 | 49.8 | 10 | frontera metálica tardía del periodo 8 | aleaciones SV | estructura densa | implante estructural SV |
-| 12 | SV-Magnesio | 42.68 | -273 a 1010 | 50.3 | 5 | cierre medio de subbloque del periodo 8 | aleaciones SV | estructura densa | implante estructural SV |
-| 13 | SV-Aluminio | 39.13 | -273 a 1040 | 50.8 | 6 | transición covalente pesada del periodo 8 | material funcional pesado | blindaje/radiación | teragnóstico pesado |
-| 14 | SV-Silicio | 35.77 | -273 a 1070 | 51.2 | 7 | estabilización tetravalente estructural del periodo 8 | material funcional pesado | blindaje/radiación | teragnóstico pesado |
-| 15 | SV-Fósforo | 32.61 | -273 a 1100 | 51.7 | 8 | frontera pnictógena ampliada del periodo 8 | material funcional pesado | blindaje/radiación | teragnóstico pesado |
-| 16 | SV-Azufre | 29.65 | -273 a 1130 | 52.2 | 9 | cierre calcógeno estructural del periodo 8 | material funcional pesado | blindaje/radiación | teragnóstico pesado |
-| 17 | SV-Cloro | 26.87 | -273 a 120 | 52.7 | 10 | clase halógena superpesada del periodo 8 | química reactiva extrema | blindaje/radiación | teragnóstico pesado |
-| 18 | SV-Argón | 24.27 | -273 a -190 | 53.2 | 6 | cierre noble superpesado del periodo 8 | trazador inerte denso | blindaje/radiación | teragnóstico pesado |
-| 19 | SV-Potasio | 109.74 | -273 a 720 | 54.3 | 7 | apertura alcalina de persistencia superperiódica del periodo 9 | electrónica extrema | estructura densa | implante estructural SV |
-| 20 | SV-Calcio | 103.01 | -273 a 750 | 54.8 | 9 | cierre s de confinamiento basal del periodo 9 | electrónica extrema | estructura densa | implante estructural SV |
-| 21 | SV-Escandio | 96.56 | -273 a 780 | 55.3 | 9 | apertura de subbloque extendido del periodo 9 | aleaciones SV | estructura densa | implante estructural SV |
-| 22 | SV-Titanio | 90.38 | -273 a 810 | 55.8 | 10 | segundo anclaje de frontera extendida del periodo 9 | aleaciones SV | estructura densa | implante estructural SV |
-| 23 | SV-Vanadio | 84.48 | -273 a 840 | 56.3 | 11 | crecimiento de confinamiento lateral del periodo 9 | aleaciones SV | estructura densa | implante estructural SV |
-| 24 | SV-Cromo | 78.84 | -273 a 870 | 56.7 | 6 | consolidación intermedia de frontera del periodo 9 | aleaciones SV | estructura densa | implante estructural SV |
-| 25 | SV-Manganeso | 73.45 | -273 a 900 | 57.2 | 7 | semilleno estructural primario del periodo 9 | aleaciones SV | estructura densa | implante estructural SV |
-| 26 | SV-Hierro | 68.32 | -273 a 930 | 57.7 | 9 | isla local de estabilidad relativa del periodo 9 | aleaciones SV | estructura densa | implante estructural SV |
-| 27 | SV-Cobalto | 63.43 | -273 a 960 | 58.2 | 9 | transición posisla de identidad del periodo 9 | aleaciones SV | estructura densa | implante estructural SV |
-| 28 | SV-Níquel | 58.78 | -273 a 990 | 58.7 | 10 | persistencia tardía de subbloque del periodo 9 | aleaciones SV | estructura densa | implante estructural SV |
-| 29 | SV-Cobre | 54.36 | -273 a 1020 | 59.1 | 11 | frontera metálica tardía del periodo 9 | aleaciones SV | estructura densa | implante estructural SV |
-| 30 | SV-Zinc | 50.17 | -273 a 1050 | 59.6 | 6 | cierre medio de subbloque del periodo 9 | aleaciones SV | estructura densa | implante estructural SV |
-| 31 | SV-Galio | 46.2 | -273 a 1080 | 60.1 | 7 | transición covalente pesada del periodo 9 | material funcional pesado | blindaje/radiación | teragnóstico pesado |
-| 32 | SV-Germanio | 42.45 | -273 a 1110 | 60.6 | 8 | estabilización tetravalente estructural del periodo 9 | material funcional pesado | blindaje/radiación | teragnóstico pesado |
-| 33 | SV-Arsénico | 38.9 | -273 a 1140 | 61.1 | 9 | frontera pnictógena ampliada del periodo 9 | material funcional pesado | blindaje/radiación | teragnóstico pesado |
-| 34 | SV-Selenio | 35.56 | -273 a 1170 | 61.5 | 10 | cierre calcógeno estructural del periodo 9 | material funcional pesado | blindaje/radiación | teragnóstico pesado |
-| 35 | SV-Bromo | 32.42 | -273 a 135 | 62.0 | 11 | clase halógena superpesada del periodo 9 | química reactiva extrema | blindaje/radiación | teragnóstico pesado |
-| 36 | SV-Kriptón | 29.46 | -273 a -185 | 62.5 | 7 | cierre noble superpesado del periodo 9 | trazador inerte denso | blindaje/radiación | teragnóstico pesado |
-| 37 | SV-Rubidio | 123.58 | -273 a 760 | 63.7 | 8 | apertura alcalina de persistencia superperiódica del periodo 10 | electrónica extrema | estructura densa | implante estructural SV |
-| 38 | SV-Estroncio | 116.29 | -273 a 790 | 64.2 | 10 | cierre s de confinamiento basal del periodo 10 | electrónica extrema | estructura densa | implante estructural SV |
-| 39 | SV-Itrio | 109.3 | -273 a 820 | 64.6 | 10 | apertura de subbloque extendido del periodo 10 | aleaciones SV | estructura densa | implante estructural SV |
-| 40 | SV-Circonio | 102.58 | -273 a 850 | 65.1 | 11 | segundo anclaje de frontera extendida del periodo 10 | aleaciones SV | estructura densa | implante estructural SV |
-| 41 | SV-Niobio | 96.15 | -273 a 880 | 65.6 | 12 | crecimiento de confinamiento lateral del periodo 10 | aleaciones SV | estructura densa | implante estructural SV |
-| 42 | SV-Molibdeno | 90.0 | -273 a 910 | 66.1 | 7 | consolidación intermedia de frontera del periodo 10 | aleaciones SV | estructura densa | implante estructural SV |
-| 43 | SV-Tecnecio | 84.11 | -273 a 940 | 66.6 | 8 | semilleno estructural primario del periodo 10 | aleaciones SV | estructura densa | implante estructural SV |
-| 44 | SV-Rutenio | 78.48 | -273 a 970 | 67.0 | 10 | isla local de estabilidad relativa del periodo 10 | aleaciones SV | estructura densa | implante estructural SV |
-| 45 | SV-Rodio | 73.11 | -273 a 1000 | 67.5 | 10 | transición posisla de identidad del periodo 10 | aleaciones SV | estructura densa | implante estructural SV |
-| 46 | SV-Paladio | 68.0 | -273 a 1030 | 68.0 | 11 | persistencia tardía de subbloque del periodo 10 | aleaciones SV | estructura densa | implante estructural SV |
-| 47 | SV-Plata | 63.12 | -273 a 1060 | 68.5 | 12 | frontera metálica tardía del periodo 10 | aleaciones SV | estructura densa | implante estructural SV |
-| 48 | SV-Cadmio | 58.49 | -273 a 1090 | 69.0 | 7 | cierre medio de subbloque del periodo 10 | aleaciones SV | estructura densa | implante estructural SV |
-| 49 | SV-Indio | 54.08 | -273 a 1120 | 69.4 | 8 | transición covalente pesada del periodo 10 | material funcional pesado | blindaje/radiación | teragnóstico pesado |
-| 50 | SV-Estaño | 49.91 | -273 a 1150 | 69.9 | 9 | estabilización tetravalente estructural del periodo 10 | material funcional pesado | blindaje/radiación | teragnóstico pesado |
-| 51 | SV-Antimonio | 45.95 | -273 a 1180 | 70.4 | 10 | frontera pnictógena ampliada del periodo 10 | material funcional pesado | blindaje/radiación | teragnóstico pesado |
-| 52 | SV-Telurio | 42.21 | -273 a 1210 | 70.9 | 11 | cierre calcógeno estructural del periodo 10 | material funcional pesado | blindaje/radiación | teragnóstico pesado |
-| 53 | SV-Yodo | 38.68 | -273 a 150 | 71.4 | 12 | clase halógena superpesada del periodo 10 | química reactiva extrema | blindaje/radiación | teragnóstico pesado |
-| 54 | SV-Xenón | 35.35 | -273 a -180 | 71.8 | 8 | cierre noble superpesado del periodo 10 | trazador inerte denso | blindaje/radiación | teragnóstico pesado |
-| 55 | SV-Cesio | 138.55 | -273 a 800 | 73.0 | 9 | apertura alcalina de persistencia superperiódica del periodo 11 | electrónica extrema | estructura densa | implante estructural SV |
-| 56 | SV-Bario | 130.68 | -273 a 830 | 73.5 | 11 | cierre s de confinamiento basal del periodo 11 | electrónica extrema | estructura densa | implante estructural SV |
-| 57 | SV-Lantano | 123.11 | -273 a 860 | 74.0 | 11 | apertura de subbloque extendido del periodo 11 | aleaciones SV | estructura densa | implante estructural SV |
-| 58 | SV-Cerio | 115.83 | -273 a 890 | 74.5 | 12 | segundo anclaje de frontera extendida del periodo 11 | aleaciones SV | estructura densa | implante estructural SV |
-| 59 | SV-Praseodimio | 108.85 | -273 a 920 | 74.9 | 13 | crecimiento de confinamiento lateral del periodo 11 | aleaciones SV | estructura densa | implante estructural SV |
-| 60 | SV-Neodimio | 102.16 | -273 a 950 | 75.4 | 8 | consolidación intermedia de frontera del periodo 11 | aleaciones SV | estructura densa | implante estructural SV |
-| 61 | SV-Prometio | 95.75 | -273 a 980 | 75.9 | 9 | semilleno estructural primario del periodo 11 | aleaciones SV | estructura densa | implante estructural SV |
-| 62 | SV-Samario | 89.61 | -273 a 1010 | 76.4 | 11 | isla local de estabilidad relativa del periodo 11 | aleaciones SV | estructura densa | implante estructural SV |
-| 63 | SV-Europio | 83.74 | -273 a 1040 | 76.9 | 11 | transición posisla de identidad del periodo 11 | aleaciones SV | estructura densa | implante estructural SV |
-| 64 | SV-Gadolinio | 78.13 | -273 a 1070 | 77.3 | 12 | persistencia tardía de subbloque del periodo 11 | aleaciones SV | estructura densa | implante estructural SV |
-| 65 | SV-Terbio | 72.78 | -273 a 1100 | 77.8 | 13 | frontera metálica tardía del periodo 11 | aleaciones SV | estructura densa | implante estructural SV |
-| 66 | SV-Disprosio | 67.67 | -273 a 1130 | 78.3 | 8 | cierre medio de subbloque del periodo 11 | aleaciones SV | estructura densa | implante estructural SV |
-| 67 | SV-Holmio | 62.82 | -273 a 1160 | 78.8 | 9 | transición covalente pesada del periodo 11 | material funcional pesado | blindaje/radiación | teragnóstico pesado |
-| 68 | SV-Erbio | 58.2 | -273 a 1190 | 79.3 | 10 | estabilización tetravalente estructural del periodo 11 | material funcional pesado | blindaje/radiación | teragnóstico pesado |
-| 69 | SV-Tulio | 53.81 | -273 a 1220 | 79.7 | 11 | frontera pnictógena ampliada del periodo 11 | material funcional pesado | blindaje/radiación | teragnóstico pesado |
-| 70 | SV-Iterbio | 49.65 | -273 a 1250 | 80.2 | 12 | cierre calcógeno estructural del periodo 11 | material funcional pesado | blindaje/radiación | radiotrazador SV |
-| 71 | SV-Lutecio | 45.71 | -273 a 165 | 80.7 | 13 | clase halógena superpesada del periodo 11 | química reactiva extrema | blindaje/radiación | radiotrazador SV |
-| 72 | SV-Hafnio | 41.98 | -273 a -175 | 81.2 | 9 | cierre noble superpesado del periodo 11 | trazador inerte denso | blindaje/radiación | radiotrazador SV |
-| 73 | SV-Tántalo | 154.68 | -273 a 840 | 82.4 | 10 | apertura alcalina de persistencia superperiódica del periodo 12 | electrónica extrema | estructura densa | radiotrazador SV |
-| 74 | SV-Wolframio | 146.2 | -273 a 870 | 82.8 | 12 | cierre s de confinamiento basal del periodo 12 | electrónica extrema | estructura densa | radiotrazador SV |
-| 75 | SV-Renio | 138.03 | -273 a 900 | 83.3 | 12 | apertura de subbloque extendido del periodo 12 | aleaciones SV | estructura densa | radiotrazador SV |
-| 76 | SV-Osmio | 130.18 | -273 a 930 | 83.8 | 13 | segundo anclaje de frontera extendida del periodo 12 | aleaciones SV | estructura densa | radiotrazador SV |
-| 77 | SV-Iridio | 122.63 | -273 a 960 | 84.3 | 14 | crecimiento de confinamiento lateral del periodo 12 | aleaciones SV | estructura densa | radiotrazador SV |
-| 78 | SV-Platino | 115.37 | -273 a 990 | 84.8 | 9 | consolidación intermedia de frontera del periodo 12 | aleaciones SV | estructura densa | radiotrazador SV |
-| 79 | SV-Oro | 108.41 | -273 a 1020 | 85.2 | 10 | semilleno estructural primario del periodo 12 | aleaciones SV | estructura densa | radiotrazador SV |
-| 80 | SV-Mercurio | 101.74 | -273 a 1050 | 85.7 | 12 | isla local de estabilidad relativa del periodo 12 | aleaciones SV | estructura densa | radiotrazador SV |
-| 81 | SV-Talio | 95.34 | -273 a 1080 | 86.2 | 12 | transición posisla de identidad del periodo 12 | aleaciones SV | estructura densa | radiotrazador SV |
-| 82 | SV-Plomo | 89.22 | -273 a 1110 | 86.7 | 13 | persistencia tardía de subbloque del periodo 12 | aleaciones SV | estructura densa | radiotrazador SV |
-| 83 | SV-Bismuto | 83.37 | -273 a 1140 | 87.2 | 14 | frontera metálica tardía del periodo 12 | aleaciones SV | estructura densa | radiotrazador SV |
-| 84 | SV-Polonio | 77.78 | -273 a 1170 | 87.6 | 9 | cierre medio de subbloque del periodo 12 | aleaciones SV | estructura densa | radiotrazador SV |
-| 85 | SV-Ástato | 72.44 | -273 a 1200 | 88.1 | 10 | transición covalente pesada del periodo 12 | material funcional pesado | blindaje/radiación | radiotrazador SV |
-| 86 | SV-Radón | 67.35 | -273 a 1230 | 88.6 | 11 | estabilización tetravalente estructural del periodo 12 | material funcional pesado | blindaje/radiación | radiotrazador SV |
-| 87 | SV-Francio | 62.51 | -273 a 1260 | 89.1 | 12 | frontera pnictógena ampliada del periodo 12 | material funcional pesado | blindaje/radiación | radiotrazador SV |
-| 88 | SV-Radio | 57.91 | -273 a 1290 | 89.6 | 13 | cierre calcógeno estructural del periodo 12 | material funcional pesado | blindaje/radiación | radiotrazador SV |
-| 89 | SV-Actinio | 53.53 | -273 a 180 | 90.0 | 14 | clase halógena superpesada del periodo 12 | química reactiva extrema | blindaje/radiación | radiotrazador SV |
-| 90 | SV-Torio | 49.39 | -273 a -170 | 90.5 | 10 | cierre noble superpesado del periodo 12 | trazador inerte denso | blindaje/radiación | radiotrazador SV |
-| 91 | SV-Protactinio | 172.01 | -273 a 880 | 91.7 | 11 | apertura alcalina de persistencia superperiódica del periodo 13 | electrónica extrema | estructura densa | radiotrazador SV |
-| 92 | SV-Uranio | 162.9 | -273 a 910 | 92.2 | 13 | cierre s de confinamiento basal del periodo 13 | electrónica extrema | estructura densa | radiotrazador SV |
-| 93 | SV-Neptunio | 154.12 | -273 a 940 | 92.7 | 13 | apertura de subbloque extendido del periodo 13 | aleaciones SV | estructura densa | radiotrazador SV |
-| 94 | SV-Plutonio | 145.66 | -273 a 970 | 93.1 | 14 | segundo anclaje de frontera extendida del periodo 13 | aleaciones SV | estructura densa | radiotrazador SV |
-| 95 | SV-Americio | 137.52 | -273 a 1000 | 93.6 | 15 | crecimiento de confinamiento lateral del periodo 13 | aleaciones SV | estructura densa | radiotrazador SV |
-| 96 | SV-Curio | 129.68 | -273 a 1030 | 94.1 | 10 | consolidación intermedia de frontera del periodo 13 | aleaciones SV | estructura densa | radiotrazador SV |
-| 97 | SV-Berkelio | 122.15 | -273 a 1060 | 94.6 | 11 | semilleno estructural primario del periodo 13 | aleaciones SV | estructura densa | radiotrazador SV |
-| 98 | SV-Californio | 114.92 | -273 a 1090 | 95.1 | 13 | isla local de estabilidad relativa del periodo 13 | aleaciones SV | estructura densa | radiotrazador SV |
-| 99 | SV-Einsteinio | 107.97 | -273 a 1120 | 95.5 | 13 | transición posisla de identidad del periodo 13 | aleaciones SV | estructura densa | radiotrazador SV |
-| 100 | SV-Fermio | 101.32 | -273 a 1150 | 96.0 | 14 | persistencia tardía de subbloque del periodo 13 | aleaciones SV | estructura densa | radiotrazador SV |
-| 101 | SV-Mendelevio | 94.94 | -273 a 1180 | 96.5 | 15 | frontera metálica tardía del periodo 13 | aleaciones SV | estructura densa | radiotrazador SV |
-| 102 | SV-Nobelio | 88.84 | -273 a 1210 | 97.0 | 10 | cierre medio de subbloque del periodo 13 | aleaciones SV | estructura densa | radiotrazador SV |
-| 103 | SV-Laurencio | 83.0 | -273 a 1240 | 97.5 | 11 | transición covalente pesada del periodo 13 | material funcional pesado | blindaje/radiación | radiotrazador SV |
-| 104 | SV-Rutherfordio | 77.42 | -273 a 1270 | 97.9 | 12 | estabilización tetravalente estructural del periodo 13 | material funcional pesado | blindaje/radiación | radiotrazador SV |
-| 105 | SV-Dubnio | 72.1 | -273 a 1300 | 98.4 | 13 | frontera pnictógena ampliada del periodo 13 | material funcional pesado | blindaje/radiación | radiotrazador SV |
-| 106 | SV-Seaborgio | 67.03 | -273 a 1330 | 98.9 | 14 | cierre calcógeno estructural del periodo 13 | material funcional pesado | blindaje/radiación | radiotrazador SV |
-| 107 | SV-Bohrio | 62.21 | -273 a 195 | 99.4 | 15 | clase halógena superpesada del periodo 13 | química reactiva extrema | blindaje/radiación | radiotrazador SV |
-| 108 | SV-Hásio | 57.62 | -273 a -165 | 99.9 | 11 | cierre noble superpesado del periodo 13 | trazador inerte denso | blindaje/radiación | radiotrazador SV |
-| 109 | SV-Meitnerio | 190.59 | -273 a 920 | 100.0 | 12 | apertura alcalina de persistencia superperiódica del periodo 14 | electrónica extrema | estructura densa | radiotrazador SV |
-| 110 | SV-Darmstadtio | 180.83 | -273 a 950 | 100.0 | 14 | cierre s de confinamiento basal del periodo 14 | electrónica extrema | estructura densa | radiotrazador SV |
-| 111 | SV-Roentgenio | 171.41 | -273 a 980 | 100.0 | 14 | apertura de subbloque extendido del periodo 14 | aleaciones SV | estructura densa | radiotrazador SV |
-| 112 | SV-Copernicio | 162.32 | -273 a 1010 | 100.0 | 15 | segundo anclaje de frontera extendida del periodo 14 | aleaciones SV | estructura densa | radiotrazador SV |
-| 113 | SV-Nihonio | 153.56 | -273 a 1040 | 100.0 | 16 | crecimiento de confinamiento lateral del periodo 14 | aleaciones SV | estructura densa | radiotrazador SV |
-| 114 | SV-Flerovio | 145.12 | -273 a 1070 | 100.0 | 11 | consolidación intermedia de frontera del periodo 14 | aleaciones SV | estructura densa | radiotrazador SV |
-| 115 | SV-Moscovio | 137.0 | -273 a 1100 | 100.0 | 12 | semilleno estructural primario del periodo 14 | aleaciones SV | estructura densa | radiotrazador SV |
-| 116 | SV-Livermorio | 129.19 | -273 a 1130 | 100.0 | 14 | isla local de estabilidad relativa del periodo 14 | aleaciones SV | estructura densa | radiotrazador SV |
-| 117 | SV-Téneso | 121.67 | -273 a 1160 | 100.0 | 14 | transición posisla de identidad del periodo 14 | aleaciones SV | estructura densa | radiotrazador SV |
-| 118 | SV-Oganesón | 114.46 | -273 a 1190 | 100.0 | 15 | persistencia tardía de subbloque del periodo 14 | aleaciones SV | estructura densa | radiotrazador SV |
-| 119 | SV-119 | 84.5 | -273 a 1890 | 44.8 | 10 | cierre de subbloque metálico del periodo 14 | aleaciones SV | estructura densa | implante estructural SV |
-| 120 | SV-120 | 85.0 | -273 a 1900 | 45.1 | 9 | saturación de subbanda de conducción del periodo 14 | aleaciones SV | estructura densa | implante estructural SV |
-| 121 | SV-121 | 85.5 | -273 a 1910 | 45.4 | 10 | semimetal de transición periódica del periodo 14 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 122 | SV-122 | 86.0 | -273 a 1920 | 45.7 | 11 | semimetal de anclaje covalente del periodo 14 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 123 | SV-123 | 86.5 | -273 a 1930 | 45.9 | 9 | semimetal de valencia mixta del periodo 14 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 124 | SV-124 | 87.0 | -273 a 1940 | 46.2 | 10 | semimetal de umbral de no conducción del periodo 14 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 125 | SV-125 | 87.5 | -273 a -208 | 46.5 | 11 | clase halógeno superpesado del periodo 14 | química reactiva ultrapesada | blindaje avanzado | radiotrazador SV de última generación |
-| 126 | SV-126 | 88.0 | -273 a -243 | 46.7 | 9 | cierre noble superpesado del periodo 14 | trazador inerte ultrapesado | blindaje avanzado | gas de referencia SV |
-| 127 | SV-127 | 88.5 | -273 a 1970 | 47.0 | 10 | apertura alcalina de persistencia superperiódica del periodo 15 | electrónica cuántica SV | estructura densa | implante estructural SV |
-| 128 | SV-128 | 89.0 | -273 a 1980 | 47.3 | 11 | cierre s de confinamiento basal del periodo 15 | electrónica cuántica SV | estructura densa | implante estructural SV |
-| 129 | SV-129 | 89.5 | -273 a 1990 | 47.5 | 9 | apertura de subbloque extendido del periodo 15 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 130 | SV-130 | 90.0 | -273 a 2000 | 47.8 | 10 | segundo anclaje de frontera extendida del periodo 15 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 131 | SV-131 | 90.5 | -273 a 2010 | 48.1 | 11 | crecimiento de confinamiento lateral del periodo 15 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 132 | SV-132 | 91.0 | -273 a 2020 | 48.3 | 9 | consolidación intermedia de frontera del periodo 15 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 133 | SV-133 | 91.5 | -273 a 2030 | 48.6 | 10 | semilleno estructural primario del periodo 15 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 134 | SV-134 | 92.0 | -273 a 2040 | 48.8 | 11 | isla local de estabilidad relativa del periodo 15 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 135 | SV-135 | 92.5 | -273 a 2050 | 49.1 | 9 | transición posisla de identidad del periodo 15 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 136 | SV-136 | 93.0 | -273 a 2060 | 49.3 | 10 | persistencia tardía de subbloque del periodo 15 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 137 | SV-137 | 93.5 | -273 a 2070 | 49.6 | 11 | cierre de subbloque metálico del periodo 15 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 138 | SV-138 | 94.0 | -273 a 2080 | 49.8 | 9 | saturación de subbanda de conducción del periodo 15 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 139 | SV-139 | 94.5 | -273 a 2090 | 50.1 | 10 | semimetal de transición periódica del periodo 15 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 140 | SV-140 | 95.0 | -273 a 2100 | 50.3 | 11 | semimetal de anclaje covalente del periodo 15 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 141 | SV-141 | 95.5 | -273 a 2110 | 50.6 | 9 | semimetal de valencia mixta del periodo 15 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 142 | SV-142 | 96.0 | -273 a 2120 | 50.8 | 10 | semimetal de umbral de no conducción del periodo 15 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 143 | SV-143 | 96.5 | -273 a -198 | 51.1 | 11 | clase halógeno superpesado del periodo 15 | química reactiva ultrapesada | blindaje avanzado | radiotrazador SV de última generación |
-| 144 | SV-144 | 97.0 | -273 a -238 | 51.3 | 9 | cierre noble superpesado del periodo 15 | trazador inerte ultrapesado | blindaje avanzado | gas de referencia SV |
-| 145 | SV-145 | 97.5 | -273 a 2150 | 51.6 | 10 | apertura alcalina de persistencia superperiódica del periodo 16 | electrónica cuántica SV | estructura densa | implante estructural SV |
-| 146 | SV-146 | 98.0 | -273 a 2160 | 51.8 | 11 | cierre s de confinamiento basal del periodo 16 | electrónica cuántica SV | estructura densa | implante estructural SV |
-| 147 | SV-147 | 98.5 | -273 a 2170 | 52.0 | 9 | apertura de subbloque extendido del periodo 16 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 148 | SV-148 | 99.0 | -273 a 2180 | 52.3 | 10 | segundo anclaje de frontera extendida del periodo 16 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 149 | SV-149 | 99.5 | -273 a 2190 | 52.5 | 11 | crecimiento de confinamiento lateral del periodo 16 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 150 | SV-150 | 100.0 | -273 a 2200 | 52.8 | 10 | consolidación intermedia de frontera del periodo 16 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 151 | SV-151 | 100.5 | -273 a 2210 | 53.0 | 11 | semilleno estructural primario del periodo 16 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 152 | SV-152 | 101.0 | -273 a 2220 | 53.2 | 12 | isla local de estabilidad relativa del periodo 16 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 153 | SV-153 | 101.5 | -273 a 2230 | 53.5 | 10 | transición posisla de identidad del periodo 16 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 154 | SV-154 | 102.0 | -273 a 2240 | 53.7 | 11 | persistencia tardía de subbloque del periodo 16 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 155 | SV-155 | 102.5 | -273 a 2250 | 53.9 | 12 | cierre de subbloque metálico del periodo 16 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 156 | SV-156 | 103.0 | -273 a 2260 | 54.2 | 10 | saturación de subbanda de conducción del periodo 16 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 157 | SV-157 | 103.5 | -273 a 2270 | 54.4 | 11 | semimetal de transición periódica del periodo 16 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 158 | SV-158 | 104.0 | -273 a 2280 | 54.6 | 12 | semimetal de anclaje covalente del periodo 16 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 159 | SV-159 | 104.5 | -273 a 2290 | 54.8 | 10 | semimetal de valencia mixta del periodo 16 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 160 | SV-160 | 105.0 | -273 a 2300 | 55.1 | 11 | semimetal de umbral de no conducción del periodo 16 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 161 | SV-161 | 105.5 | -273 a -188 | 55.3 | 12 | clase halógeno superpesado del periodo 16 | química reactiva ultrapesada | blindaje avanzado | radiotrazador SV de última generación |
-| 162 | SV-162 | 106.0 | -273 a -233 | 55.5 | 10 | cierre noble superpesado del periodo 16 | trazador inerte ultrapesado | blindaje avanzado | gas de referencia SV |
-| 163 | SV-163 | 106.5 | -273 a 2330 | 55.7 | 11 | apertura alcalina de persistencia superperiódica del periodo 17 | electrónica cuántica SV | estructura densa | implante estructural SV |
-| 164 | SV-164 | 107.0 | -273 a 2340 | 56.0 | 12 | cierre s de confinamiento basal del periodo 17 | electrónica cuántica SV | estructura densa | implante estructural SV |
-| 165 | SV-165 | 107.5 | -273 a 2350 | 56.2 | 10 | apertura de subbloque extendido del periodo 17 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 166 | SV-166 | 108.0 | -273 a 2360 | 56.4 | 11 | segundo anclaje de frontera extendida del periodo 17 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 167 | SV-167 | 108.5 | -273 a 2370 | 56.6 | 12 | crecimiento de confinamiento lateral del periodo 17 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 168 | SV-168 | 109.0 | -273 a 2380 | 56.8 | 10 | consolidación intermedia de frontera del periodo 17 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 169 | SV-169 | 109.5 | -273 a 2390 | 57.0 | 11 | semilleno estructural primario del periodo 17 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 170 | SV-170 | 110.0 | -273 a 2400 | 57.3 | 12 | isla local de estabilidad relativa del periodo 17 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 171 | SV-171 | 110.5 | -273 a 2410 | 57.5 | 10 | transición posisla de identidad del periodo 17 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 172 | SV-172 | 111.0 | -273 a 2420 | 57.7 | 11 | persistencia tardía de subbloque del periodo 17 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 173 | SV-173 | 111.5 | -273 a 2430 | 57.9 | 12 | cierre de subbloque metálico del periodo 17 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 174 | SV-174 | 112.0 | -273 a 2440 | 58.1 | 10 | saturación de subbanda de conducción del periodo 17 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 175 | SV-175 | 112.5 | -273 a 2450 | 58.3 | 11 | semimetal de transición periódica del periodo 17 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 176 | SV-176 | 113.0 | -273 a 2460 | 58.5 | 12 | semimetal de anclaje covalente del periodo 17 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 177 | SV-177 | 113.5 | -273 a 2470 | 58.7 | 10 | semimetal de valencia mixta del periodo 17 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 178 | SV-178 | 114.0 | -273 a 2480 | 58.9 | 11 | semimetal de umbral de no conducción del periodo 17 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 179 | SV-179 | 114.5 | -273 a -178 | 59.1 | 12 | clase halógeno superpesado del periodo 17 | química reactiva ultrapesada | blindaje avanzado | radiotrazador SV de última generación |
-| 180 | SV-180 | 115.0 | -273 a -228 | 59.3 | 11 | cierre noble superpesado del periodo 17 | trazador inerte ultrapesado | blindaje avanzado | gas de referencia SV |
-| 181 | SV-181 | 115.5 | -273 a 2510 | 59.5 | 12 | apertura alcalina de persistencia superperiódica del periodo 18 | electrónica cuántica SV | estructura densa | implante estructural SV |
-| 182 | SV-182 | 116.0 | -273 a 2520 | 59.7 | 13 | cierre s de confinamiento basal del periodo 18 | electrónica cuántica SV | estructura densa | implante estructural SV |
-| 183 | SV-183 | 116.5 | -273 a 2530 | 59.9 | 11 | apertura de subbloque extendido del periodo 18 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 184 | SV-184 | 117.0 | -273 a 2540 | 60.1 | 12 | segundo anclaje de frontera extendida del periodo 18 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 185 | SV-185 | 117.5 | -273 a 2550 | 60.3 | 13 | crecimiento de confinamiento lateral del periodo 18 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 186 | SV-186 | 118.0 | -273 a 2560 | 60.5 | 11 | consolidación intermedia de frontera del periodo 18 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 187 | SV-187 | 118.5 | -273 a 2570 | 60.7 | 12 | semilleno estructural primario del periodo 18 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 188 | SV-188 | 119.0 | -273 a 2580 | 60.9 | 13 | isla local de estabilidad relativa del periodo 18 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 189 | SV-189 | 119.5 | -273 a 2590 | 61.1 | 11 | transición posisla de identidad del periodo 18 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 190 | SV-190 | 120.0 | -273 a 2600 | 61.3 | 12 | persistencia tardía de subbloque del periodo 18 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 191 | SV-191 | 120.5 | -273 a 2610 | 61.5 | 13 | cierre de subbloque metálico del periodo 18 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 192 | SV-192 | 121.0 | -273 a 2620 | 61.7 | 11 | saturación de subbanda de conducción del periodo 18 | aleaciones especiales SV | estructura densa | implante estructural SV |
-| 193 | SV-193 | 121.5 | -273 a 2630 | 61.9 | 12 | semimetal de transición periódica del periodo 18 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 194 | SV-194 | 122.0 | -273 a 2640 | 62.1 | 13 | semimetal de anclaje covalente del periodo 18 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 195 | SV-195 | 122.5 | -273 a 2650 | 62.3 | 11 | semimetal de valencia mixta del periodo 18 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 196 | SV-196 | 123.0 | -273 a 2660 | 62.5 | 12 | semimetal de umbral de no conducción del periodo 18 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 197 | SV-197 | 123.5 | -273 a -168 | 62.7 | 13 | clase halógeno superpesado del periodo 18 | química reactiva ultrapesada | blindaje avanzado | radiotrazador SV de última generación |
-| 198 | SV-198 | 124.0 | -273 a -223 | 62.8 | 11 | cierre noble superpesado del periodo 18 | trazador inerte ultrapesado | blindaje avanzado | gas de referencia SV |
-| 199 | SV-199 | 124.5 | -273 a 2690 | 63.0 | 12 | apertura alcalina de persistencia superperiódica del periodo 19 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 200 | SV-200 | 125.0 | -273 a 2700 | 63.2 | 13 | cierre s de confinamiento basal del periodo 19 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 201 | SV-201 | 125.5 | -273 a 2710 | 63.4 | 11 | apertura de subbloque extendido del periodo 19 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV |
-| 202 | SV-202 | 126.0 | -273 a 2720 | 63.6 | 12 | segundo anclaje de frontera extendida del periodo 19 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV |
-| 203 | SV-203 | 126.5 | -273 a 2730 | 63.8 | 13 | crecimiento de confinamiento lateral del periodo 19 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV |
-| 204 | SV-204 | 127.0 | -273 a 2740 | 63.9 | 11 | consolidación intermedia de frontera del periodo 19 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV |
-| 205 | SV-205 | 127.5 | -273 a 2750 | 64.1 | 12 | semilleno estructural primario del periodo 19 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV |
-| 206 | SV-206 | 128.0 | -273 a 2760 | 64.3 | 13 | isla local de estabilidad relativa del periodo 19 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV |
-| 207 | SV-207 | 128.5 | -273 a 2770 | 64.5 | 11 | transición posisla de identidad del periodo 19 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV |
-| 208 | SV-208 | 129.0 | -273 a 2780 | 64.7 | 12 | persistencia tardía de subbloque del periodo 19 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV |
-| 209 | SV-209 | 129.5 | -273 a 2790 | 64.8 | 13 | cierre de subbloque metálico del periodo 19 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV |
-| 210 | SV-210 | 130.0 | -273 a 2800 | 65.0 | 12 | saturación de subbanda de conducción del periodo 19 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV |
-| 211 | SV-211 | 130.5 | -273 a 2810 | 65.2 | 13 | semimetal de transición periódica del periodo 19 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 212 | SV-212 | 131.0 | -273 a 2820 | 65.4 | 14 | semimetal de anclaje covalente del periodo 19 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 213 | SV-213 | 131.5 | -273 a 2830 | 65.5 | 12 | semimetal de valencia mixta del periodo 19 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 214 | SV-214 | 132.0 | -273 a 2840 | 65.7 | 13 | semimetal de umbral de no conducción del periodo 19 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 215 | SV-215 | 132.5 | -273 a -158 | 65.9 | 14 | clase halógeno superpesado del periodo 19 | química reactiva ultrapesada | blindaje avanzado | radiotrazador SV de última generación |
-| 216 | SV-216 | 133.0 | -273 a -218 | 66.0 | 12 | cierre noble superpesado del periodo 19 | trazador inerte ultrapesado | blindaje avanzado | gas de referencia SV |
-| 217 | SV-217 | 133.5 | -273 a 2870 | 66.2 | 13 | apertura alcalina de persistencia superperiódica del periodo 20 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 218 | SV-218 | 134.0 | -273 a 2880 | 66.4 | 14 | cierre s de confinamiento basal del periodo 20 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 219 | SV-219 | 134.5 | -273 a 2890 | 66.5 | 12 | apertura de subbloque extendido del periodo 20 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV |
-| 220 | SV-220 | 135.0 | -273 a 2900 | 66.7 | 13 | segundo anclaje de frontera extendida del periodo 20 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV |
-| 221 | SV-221 | 135.5 | -273 a 2910 | 66.9 | 14 | crecimiento de confinamiento lateral del periodo 20 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV |
-| 222 | SV-222 | 136.0 | -273 a 2920 | 67.0 | 12 | consolidación intermedia de frontera del periodo 20 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV |
-| 223 | SV-223 | 136.5 | -273 a 2930 | 67.2 | 13 | semilleno estructural primario del periodo 20 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV |
-| 224 | SV-224 | 137.0 | -273 a 2940 | 67.4 | 14 | isla local de estabilidad relativa del periodo 20 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV |
-| 225 | SV-225 | 137.5 | -273 a 2950 | 67.5 | 12 | transición posisla de identidad del periodo 20 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV |
-| 226 | SV-226 | 138.0 | -273 a 2960 | 67.7 | 13 | persistencia tardía de subbloque del periodo 20 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV |
-| 227 | SV-227 | 138.5 | -273 a 2970 | 67.9 | 14 | cierre de subbloque metálico del periodo 20 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV |
-| 228 | SV-228 | 139.0 | -273 a 2980 | 68.0 | 12 | saturación de subbanda de conducción del periodo 20 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV |
-| 229 | SV-229 | 139.5 | -273 a 2990 | 68.2 | 13 | semimetal de transición periódica del periodo 20 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 230 | SV-230 | 140.0 | -273 a 3000 | 68.3 | 14 | semimetal de anclaje covalente del periodo 20 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 231 | SV-231 | 140.5 | -273 a 3010 | 68.5 | 12 | semimetal de valencia mixta del periodo 20 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 232 | SV-232 | 141.0 | -273 a 3020 | 68.7 | 13 | semimetal de umbral de no conducción del periodo 20 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 233 | SV-233 | 141.5 | -273 a -148 | 68.8 | 14 | clase halógeno superpesado del periodo 20 | química reactiva ultrapesada | blindaje avanzado | radiotrazador SV de última generación |
-| 234 | SV-234 | 142.0 | -273 a -213 | 69.0 | 12 | cierre noble superpesado del periodo 20 | trazador inerte ultrapesado | blindaje avanzado | gas de referencia SV |
-| 235 | SV-235 | 142.5 | -273 a 3050 | 69.1 | 13 | apertura alcalina de persistencia superperiódica del periodo 21 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 236 | SV-236 | 143.0 | -273 a 3060 | 69.3 | 14 | cierre s de confinamiento basal del periodo 21 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 237 | SV-237 | 143.5 | -273 a 3070 | 69.4 | 12 | apertura de subbloque extendido del periodo 21 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV |
-| 238 | SV-238 | 144.0 | -273 a 3080 | 69.6 | 13 | segundo anclaje de frontera extendida del periodo 21 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV |
-| 239 | SV-239 | 144.5 | -273 a 3090 | 69.7 | 14 | crecimiento de confinamiento lateral del periodo 21 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV |
-| 240 | SV-240 | 145.0 | -273 a 3100 | 69.9 | 13 | consolidación intermedia de frontera del periodo 21 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV |
-| 241 | SV-241 | 145.5 | -273 a 3110 | 70.0 | 14 | semilleno estructural primario del periodo 21 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 242 | SV-242 | 146.0 | -273 a 3120 | 70.2 | 15 | isla local de estabilidad relativa del periodo 21 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 243 | SV-243 | 146.5 | -273 a 3130 | 70.3 | 13 | transición posisla de identidad del periodo 21 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 244 | SV-244 | 147.0 | -273 a 3140 | 70.5 | 14 | persistencia tardía de subbloque del periodo 21 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 245 | SV-245 | 147.5 | -273 a 3150 | 70.6 | 15 | cierre de subbloque metálico del periodo 21 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 246 | SV-246 | 148.0 | -273 a 3160 | 70.8 | 13 | saturación de subbanda de conducción del periodo 21 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 247 | SV-247 | 148.5 | -273 a 3170 | 70.9 | 14 | semimetal de transición periódica del periodo 21 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 248 | SV-248 | 149.0 | -273 a 3180 | 71.1 | 15 | semimetal de anclaje covalente del periodo 21 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 249 | SV-249 | 149.5 | -273 a 3190 | 71.2 | 13 | semimetal de valencia mixta del periodo 21 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 250 | SV-250 | 150.0 | -273 a 3200 | 71.3 | 14 | semimetal de umbral de no conducción del periodo 21 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 251 | SV-251 | 150.5 | -273 a -138 | 71.5 | 15 | clase halógeno superpesado del periodo 21 | química reactiva ultrapesada | blindaje avanzado | radiotrazador SV de última generación |
-| 252 | SV-252 | 151.0 | -273 a -208 | 71.6 | 13 | cierre noble superpesado del periodo 21 | trazador inerte ultrapesado | blindaje avanzado | gas de referencia SV |
-| 253 | SV-253 | 151.5 | -273 a 3230 | 71.8 | 14 | apertura alcalina de persistencia superperiódica del periodo 22 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 254 | SV-254 | 152.0 | -273 a 3240 | 71.9 | 15 | cierre s de confinamiento basal del periodo 22 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 255 | SV-255 | 152.5 | -273 a 3250 | 72.1 | 13 | apertura de subbloque extendido del periodo 22 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 256 | SV-256 | 153.0 | -273 a 3260 | 72.2 | 14 | segundo anclaje de frontera extendida del periodo 22 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 257 | SV-257 | 153.5 | -273 a 3270 | 72.3 | 15 | crecimiento de confinamiento lateral del periodo 22 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 258 | SV-258 | 154.0 | -273 a 3280 | 72.5 | 13 | consolidación intermedia de frontera del periodo 22 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 259 | SV-259 | 154.5 | -273 a 3290 | 72.6 | 14 | semilleno estructural primario del periodo 22 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 260 | SV-260 | 155.0 | -273 a 3300 | 72.7 | 15 | isla local de estabilidad relativa del periodo 22 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 261 | SV-261 | 155.5 | -273 a 3310 | 72.9 | 13 | transición posisla de identidad del periodo 22 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 262 | SV-262 | 156.0 | -273 a 3320 | 73.0 | 14 | persistencia tardía de subbloque del periodo 22 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 263 | SV-263 | 156.5 | -273 a 3330 | 73.2 | 15 | cierre de subbloque metálico del periodo 22 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 264 | SV-264 | 157.0 | -273 a 3340 | 73.3 | 13 | saturación de subbanda de conducción del periodo 22 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 265 | SV-265 | 157.5 | -273 a 3350 | 73.4 | 14 | semimetal de transición periódica del periodo 22 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 266 | SV-266 | 158.0 | -273 a 3360 | 73.6 | 15 | semimetal de anclaje covalente del periodo 22 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 267 | SV-267 | 158.5 | -273 a 3370 | 73.7 | 13 | semimetal de valencia mixta del periodo 22 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 268 | SV-268 | 159.0 | -273 a 3380 | 73.8 | 14 | semimetal de umbral de no conducción del periodo 22 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 269 | SV-269 | 159.5 | -273 a -128 | 73.9 | 15 | clase halógeno superpesado del periodo 22 | química reactiva ultrapesada | blindaje avanzado | radiotrazador SV de última generación |
-| 270 | SV-270 | 160.0 | -273 a -203 | 74.1 | 14 | cierre noble superpesado del periodo 22 | trazador inerte ultrapesado | blindaje avanzado | gas de referencia SV |
-| 271 | SV-271 | 160.5 | -273 a 3410 | 74.2 | 15 | apertura alcalina de persistencia superperiódica del periodo 23 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 272 | SV-272 | 161.0 | -273 a 3420 | 74.3 | 16 | cierre s de confinamiento basal del periodo 23 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 273 | SV-273 | 161.5 | -273 a 3430 | 74.5 | 14 | apertura de subbloque extendido del periodo 23 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 274 | SV-274 | 162.0 | -273 a 3440 | 74.6 | 15 | segundo anclaje de frontera extendida del periodo 23 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 275 | SV-275 | 162.5 | -273 a 3450 | 74.7 | 16 | crecimiento de confinamiento lateral del periodo 23 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 276 | SV-276 | 163.0 | -273 a 3460 | 74.8 | 14 | consolidación intermedia de frontera del periodo 23 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 277 | SV-277 | 163.5 | -273 a 3470 | 75.0 | 15 | semilleno estructural primario del periodo 23 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 278 | SV-278 | 164.0 | -273 a 3480 | 75.1 | 16 | isla local de estabilidad relativa del periodo 23 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 279 | SV-279 | 164.5 | -273 a 3490 | 75.2 | 14 | transición posisla de identidad del periodo 23 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 280 | SV-280 | 165.0 | -273 a 3500 | 75.3 | 15 | persistencia tardía de subbloque del periodo 23 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 281 | SV-281 | 165.5 | -273 a 3510 | 75.5 | 16 | cierre de subbloque metálico del periodo 23 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 282 | SV-282 | 166.0 | -273 a 3520 | 75.6 | 14 | saturación de subbanda de conducción del periodo 23 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 283 | SV-283 | 166.5 | -273 a 3530 | 75.7 | 15 | semimetal de transición periódica del periodo 23 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 284 | SV-284 | 167.0 | -273 a 3540 | 75.8 | 16 | semimetal de anclaje covalente del periodo 23 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 285 | SV-285 | 167.5 | -273 a 3550 | 75.9 | 14 | semimetal de valencia mixta del periodo 23 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 286 | SV-286 | 168.0 | -273 a 3560 | 76.1 | 15 | semimetal de umbral de no conducción del periodo 23 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 287 | SV-287 | 168.5 | -273 a -118 | 76.2 | 16 | clase halógeno superpesado del periodo 23 | química reactiva ultrapesada | blindaje avanzado | radiotrazador SV de última generación |
-| 288 | SV-288 | 169.0 | -273 a -198 | 76.3 | 14 | cierre noble superpesado del periodo 23 | trazador inerte ultrapesado | blindaje avanzado | gas de referencia SV |
-| 289 | SV-289 | 169.5 | -273 a 3590 | 76.4 | 15 | apertura alcalina de persistencia superperiódica del periodo 24 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 290 | SV-290 | 170.0 | -273 a 3600 | 76.5 | 16 | cierre s de confinamiento basal del periodo 24 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 291 | SV-291 | 170.5 | -273 a 3610 | 76.7 | 14 | apertura de subbloque extendido del periodo 24 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 292 | SV-292 | 171.0 | -273 a 3620 | 76.8 | 15 | segundo anclaje de frontera extendida del periodo 24 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 293 | SV-293 | 171.5 | -273 a 3630 | 76.9 | 16 | crecimiento de confinamiento lateral del periodo 24 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 294 | SV-294 | 172.0 | -273 a 3640 | 77.0 | 14 | consolidación intermedia de frontera del periodo 24 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 295 | SV-295 | 172.5 | -273 a 3650 | 77.1 | 15 | semilleno estructural primario del periodo 24 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 296 | SV-296 | 173.0 | -273 a 3660 | 77.2 | 16 | isla local de estabilidad relativa del periodo 24 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 297 | SV-297 | 173.5 | -273 a 3670 | 77.3 | 14 | transición posisla de identidad del periodo 24 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 298 | SV-298 | 174.0 | -273 a 3680 | 77.5 | 15 | persistencia tardía de subbloque del periodo 24 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 299 | SV-299 | 174.5 | -273 a 3690 | 77.6 | 16 | cierre de subbloque metálico del periodo 24 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 300 | SV-300 | 175.0 | -273 a 3700 | 77.7 | 15 | saturación de subbanda de conducción del periodo 24 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 301 | SV-301 | 175.5 | -273 a 3710 | 77.8 | 16 | semimetal de transición periódica del periodo 24 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 302 | SV-302 | 176.0 | -273 a 3720 | 77.9 | 17 | semimetal de anclaje covalente del periodo 24 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 303 | SV-303 | 176.5 | -273 a 3730 | 78.0 | 15 | semimetal de valencia mixta del periodo 24 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 304 | SV-304 | 177.0 | -273 a 3740 | 78.1 | 16 | semimetal de umbral de no conducción del periodo 24 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 305 | SV-305 | 177.5 | -273 a -108 | 78.2 | 17 | clase halógeno superpesado del periodo 24 | química reactiva ultrapesada | blindaje avanzado | radiotrazador SV de última generación |
-| 306 | SV-306 | 178.0 | -273 a -193 | 78.3 | 15 | cierre noble superpesado del periodo 24 | trazador inerte ultrapesado | blindaje avanzado | gas de referencia SV |
-| 307 | SV-307 | 178.5 | -273 a 3770 | 78.5 | 16 | apertura alcalina de persistencia superperiódica del periodo 25 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 308 | SV-308 | 179.0 | -273 a 3780 | 78.6 | 17 | cierre s de confinamiento basal del periodo 25 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 309 | SV-309 | 179.5 | -273 a 3790 | 78.7 | 15 | apertura de subbloque extendido del periodo 25 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 310 | SV-310 | 180.0 | -273 a 3800 | 78.8 | 16 | segundo anclaje de frontera extendida del periodo 25 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 311 | SV-311 | 180.5 | -273 a 3810 | 78.9 | 17 | crecimiento de confinamiento lateral del periodo 25 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 312 | SV-312 | 181.0 | -273 a 3820 | 79.0 | 15 | consolidación intermedia de frontera del periodo 25 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 313 | SV-313 | 181.5 | -273 a 3830 | 79.1 | 16 | semilleno estructural primario del periodo 25 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 314 | SV-314 | 182.0 | -273 a 3840 | 79.2 | 17 | isla local de estabilidad relativa del periodo 25 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 315 | SV-315 | 182.5 | -273 a 3850 | 79.3 | 15 | transición posisla de identidad del periodo 25 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 316 | SV-316 | 183.0 | -273 a 3860 | 79.4 | 16 | persistencia tardía de subbloque del periodo 25 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 317 | SV-317 | 183.5 | -273 a 3870 | 79.5 | 17 | cierre de subbloque metálico del periodo 25 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 318 | SV-318 | 184.0 | -273 a 3880 | 79.6 | 15 | saturación de subbanda de conducción del periodo 25 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 319 | SV-319 | 184.5 | -273 a 3890 | 79.7 | 16 | semimetal de transición periódica del periodo 25 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 320 | SV-320 | 185.0 | -273 a 3900 | 79.8 | 17 | semimetal de anclaje covalente del periodo 25 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 321 | SV-321 | 185.5 | -273 a 3910 | 79.9 | 15 | semimetal de valencia mixta del periodo 25 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 322 | SV-322 | 186.0 | -273 a 3920 | 80.0 | 16 | semimetal de umbral de no conducción del periodo 25 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 323 | SV-323 | 186.5 | -273 a -98 | 80.1 | 17 | clase halógeno superpesado del periodo 25 | química reactiva ultrapesada | blindaje avanzado | radiotrazador SV de última generación |
-| 324 | SV-324 | 187.0 | -273 a -188 | 80.2 | 15 | cierre noble superpesado del periodo 25 | trazador inerte ultrapesado | blindaje avanzado | gas de referencia SV |
-| 325 | SV-325 | 187.5 | -273 a 3950 | 80.3 | 16 | apertura alcalina de persistencia superperiódica del periodo 26 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 326 | SV-326 | 188.0 | -273 a 3960 | 80.4 | 17 | cierre s de confinamiento basal del periodo 26 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 327 | SV-327 | 188.5 | -273 a 3970 | 80.5 | 15 | apertura de subbloque extendido del periodo 26 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 328 | SV-328 | 189.0 | -273 a 3980 | 80.6 | 16 | segundo anclaje de frontera extendida del periodo 26 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 329 | SV-329 | 189.5 | -273 a 3990 | 80.7 | 17 | crecimiento de confinamiento lateral del periodo 26 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 330 | SV-330 | 190.0 | -273 a 4000 | 80.8 | 16 | consolidación intermedia de frontera del periodo 26 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 331 | SV-331 | 190.5 | -273 a 4010 | 80.9 | 17 | semilleno estructural primario del periodo 26 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 332 | SV-332 | 191.0 | -273 a 4020 | 81.0 | 18 | isla local de estabilidad relativa del periodo 26 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 333 | SV-333 | 191.5 | -273 a 4030 | 81.1 | 16 | transición posisla de identidad del periodo 26 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 334 | SV-334 | 192.0 | -273 a 4040 | 81.2 | 17 | persistencia tardía de subbloque del periodo 26 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 335 | SV-335 | 192.5 | -273 a 4050 | 81.3 | 18 | cierre de subbloque metálico del periodo 26 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 336 | SV-336 | 193.0 | -273 a 4060 | 81.4 | 16 | saturación de subbanda de conducción del periodo 26 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 337 | SV-337 | 193.5 | -273 a 4070 | 81.5 | 17 | semimetal de transición periódica del periodo 26 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 338 | SV-338 | 194.0 | -273 a 4080 | 81.5 | 18 | semimetal de anclaje covalente del periodo 26 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 339 | SV-339 | 194.5 | -273 a 4090 | 81.6 | 16 | semimetal de valencia mixta del periodo 26 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 340 | SV-340 | 195.0 | -273 a 4100 | 81.7 | 17 | semimetal de umbral de no conducción del periodo 26 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 341 | SV-341 | 195.5 | -273 a -88 | 81.8 | 18 | clase halógeno superpesado del periodo 26 | química reactiva ultrapesada | blindaje avanzado | radiotrazador SV de última generación |
-| 342 | SV-342 | 196.0 | -273 a -183 | 81.9 | 16 | cierre noble superpesado del periodo 26 | trazador inerte ultrapesado | blindaje avanzado | gas de referencia SV |
-| 343 | SV-343 | 196.5 | -273 a 4130 | 82.0 | 17 | apertura alcalina de persistencia superperiódica del periodo 27 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 344 | SV-344 | 197.0 | -273 a 4140 | 82.1 | 18 | cierre s de confinamiento basal del periodo 27 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 345 | SV-345 | 197.5 | -273 a 4150 | 82.2 | 16 | apertura de subbloque extendido del periodo 27 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 346 | SV-346 | 198.0 | -273 a 4160 | 82.3 | 17 | segundo anclaje de frontera extendida del periodo 27 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 347 | SV-347 | 198.5 | -273 a 4170 | 82.4 | 18 | crecimiento de confinamiento lateral del periodo 27 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 348 | SV-348 | 199.0 | -273 a 4180 | 82.4 | 16 | consolidación intermedia de frontera del periodo 27 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 349 | SV-349 | 199.5 | -273 a 4190 | 82.5 | 17 | semilleno estructural primario del periodo 27 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 350 | SV-350 | 200.0 | -273 a 4200 | 82.6 | 18 | isla local de estabilidad relativa del periodo 27 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 351 | SV-351 | 200.5 | -273 a 4210 | 82.7 | 16 | transición posisla de identidad del periodo 27 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 352 | SV-352 | 201.0 | -273 a 4220 | 82.8 | 17 | persistencia tardía de subbloque del periodo 27 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 353 | SV-353 | 201.5 | -273 a 4230 | 82.9 | 18 | cierre de subbloque metálico del periodo 27 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 354 | SV-354 | 202.0 | -273 a 4240 | 83.0 | 16 | saturación de subbanda de conducción del periodo 27 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 355 | SV-355 | 202.5 | -273 a 4250 | 83.1 | 17 | semimetal de transición periódica del periodo 27 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 356 | SV-356 | 203.0 | -273 a 4260 | 83.1 | 18 | semimetal de anclaje covalente del periodo 27 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 357 | SV-357 | 203.5 | -273 a 4270 | 83.2 | 16 | semimetal de valencia mixta del periodo 27 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 358 | SV-358 | 204.0 | -273 a 4280 | 83.3 | 17 | semimetal de umbral de no conducción del periodo 27 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 359 | SV-359 | 204.5 | -273 a -78 | 83.4 | 18 | clase halógeno superpesado del periodo 27 | química reactiva ultrapesada | blindaje avanzado | radiotrazador SV de última generación |
-| 360 | SV-360 | 205.0 | -273 a -178 | 83.5 | 17 | cierre noble superpesado del periodo 27 | trazador inerte ultrapesado | blindaje avanzado | gas de referencia SV |
-| 361 | SV-361 | 205.5 | -273 a 4310 | 83.6 | 18 | apertura alcalina de persistencia superperiódica del periodo 28 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 362 | SV-362 | 206.0 | -273 a 4320 | 83.6 | 19 | cierre s de confinamiento basal del periodo 28 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 363 | SV-363 | 206.5 | -273 a 4330 | 83.7 | 17 | apertura de subbloque extendido del periodo 28 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 364 | SV-364 | 207.0 | -273 a 4340 | 83.8 | 18 | segundo anclaje de frontera extendida del periodo 28 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 365 | SV-365 | 207.5 | -273 a 4350 | 83.9 | 19 | crecimiento de confinamiento lateral del periodo 28 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 366 | SV-366 | 208.0 | -273 a 4360 | 84.0 | 17 | consolidación intermedia de frontera del periodo 28 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 367 | SV-367 | 208.5 | -273 a 4370 | 84.0 | 18 | semilleno estructural primario del periodo 28 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 368 | SV-368 | 209.0 | -273 a 4380 | 84.1 | 19 | isla local de estabilidad relativa del periodo 28 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 369 | SV-369 | 209.5 | -273 a 4390 | 84.2 | 17 | transición posisla de identidad del periodo 28 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 370 | SV-370 | 210.0 | -273 a 4400 | 84.3 | 18 | persistencia tardía de subbloque del periodo 28 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 371 | SV-371 | 210.5 | -273 a 4410 | 84.4 | 19 | cierre de subbloque metálico del periodo 28 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 372 | SV-372 | 211.0 | -273 a 4420 | 84.4 | 17 | saturación de subbanda de conducción del periodo 28 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 373 | SV-373 | 211.5 | -273 a 4430 | 84.5 | 18 | semimetal de transición periódica del periodo 28 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 374 | SV-374 | 212.0 | -273 a 4440 | 84.6 | 19 | semimetal de anclaje covalente del periodo 28 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 375 | SV-375 | 212.5 | -273 a 4450 | 84.7 | 17 | semimetal de valencia mixta del periodo 28 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 376 | SV-376 | 213.0 | -273 a 4460 | 84.7 | 18 | semimetal de umbral de no conducción del periodo 28 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 377 | SV-377 | 213.5 | -273 a -68 | 84.8 | 19 | clase halógeno superpesado del periodo 28 | química reactiva ultrapesada | blindaje avanzado | radiotrazador SV de última generación |
-| 378 | SV-378 | 214.0 | -273 a -173 | 84.9 | 17 | cierre noble superpesado del periodo 28 | trazador inerte ultrapesado | blindaje avanzado | gas de referencia SV |
-| 379 | SV-379 | 214.5 | -273 a 4490 | 85.0 | 18 | apertura alcalina de persistencia superperiódica del periodo 29 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 380 | SV-380 | 215.0 | -273 a 4500 | 85.0 | 19 | cierre s de confinamiento basal del periodo 29 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 381 | SV-381 | 215.5 | -273 a 4510 | 85.1 | 17 | apertura de subbloque extendido del periodo 29 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 382 | SV-382 | 216.0 | -273 a 4520 | 85.2 | 18 | segundo anclaje de frontera extendida del periodo 29 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 383 | SV-383 | 216.5 | -273 a 4530 | 85.3 | 19 | crecimiento de confinamiento lateral del periodo 29 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 384 | SV-384 | 217.0 | -273 a 4540 | 85.3 | 17 | consolidación intermedia de frontera del periodo 29 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 385 | SV-385 | 217.5 | -273 a 4550 | 85.4 | 18 | semilleno estructural primario del periodo 29 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 386 | SV-386 | 218.0 | -273 a 4560 | 85.5 | 19 | isla local de estabilidad relativa del periodo 29 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 387 | SV-387 | 218.5 | -273 a 4570 | 85.6 | 17 | transición posisla de identidad del periodo 29 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 388 | SV-388 | 219.0 | -273 a 4580 | 85.6 | 18 | persistencia tardía de subbloque del periodo 29 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 389 | SV-389 | 219.5 | -273 a 4590 | 85.7 | 19 | cierre de subbloque metálico del periodo 29 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 390 | SV-390 | 220.0 | -273 a 4600 | 85.8 | 18 | saturación de subbanda de conducción del periodo 29 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 391 | SV-391 | 220.5 | -273 a 4610 | 85.8 | 19 | semimetal de transición periódica del periodo 29 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 392 | SV-392 | 221.0 | -273 a 4620 | 85.9 | 20 | semimetal de anclaje covalente del periodo 29 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 393 | SV-393 | 221.5 | -273 a 4630 | 86.0 | 18 | semimetal de valencia mixta del periodo 29 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 394 | SV-394 | 222.0 | -273 a 4640 | 86.1 | 19 | semimetal de umbral de no conducción del periodo 29 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 395 | SV-395 | 222.5 | -273 a -58 | 86.1 | 20 | clase halógeno superpesado del periodo 29 | química reactiva ultrapesada | blindaje avanzado | radiotrazador SV de última generación |
-| 396 | SV-396 | 223.0 | -273 a -168 | 86.2 | 18 | cierre noble superpesado del periodo 29 | trazador inerte ultrapesado | blindaje avanzado | gas de referencia SV |
-| 397 | SV-397 | 223.5 | -273 a 4670 | 86.3 | 19 | apertura alcalina de persistencia superperiódica del periodo 30 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 398 | SV-398 | 224.0 | -273 a 4680 | 86.3 | 20 | cierre s de confinamiento basal del periodo 30 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 399 | SV-399 | 224.5 | -273 a 4690 | 86.4 | 18 | apertura de subbloque extendido del periodo 30 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 400 | SV-400 | 225.0 | -273 a 4700 | 86.5 | 19 | segundo anclaje de frontera extendida del periodo 30 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 401 | SV-401 | 225.5 | -273 a 4710 | 86.5 | 20 | crecimiento de confinamiento lateral del periodo 30 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 402 | SV-402 | 226.0 | -273 a 4720 | 86.6 | 18 | consolidación intermedia de frontera del periodo 30 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 403 | SV-403 | 226.5 | -273 a 4730 | 86.7 | 19 | semilleno estructural primario del periodo 30 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 404 | SV-404 | 227.0 | -273 a 4740 | 86.7 | 20 | isla local de estabilidad relativa del periodo 30 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 405 | SV-405 | 227.5 | -273 a 4750 | 86.8 | 18 | transición posisla de identidad del periodo 30 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 406 | SV-406 | 228.0 | -273 a 4760 | 86.9 | 19 | persistencia tardía de subbloque del periodo 30 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 407 | SV-407 | 228.5 | -273 a 4770 | 86.9 | 20 | cierre de subbloque metálico del periodo 30 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 408 | SV-408 | 229.0 | -273 a 4780 | 87.0 | 18 | saturación de subbanda de conducción del periodo 30 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 409 | SV-409 | 229.5 | -273 a 4790 | 87.1 | 19 | semimetal de transición periódica del periodo 30 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 410 | SV-410 | 230.0 | -273 a 4800 | 87.1 | 20 | semimetal de anclaje covalente del periodo 30 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 411 | SV-411 | 230.5 | -273 a 4810 | 87.2 | 18 | semimetal de valencia mixta del periodo 30 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 412 | SV-412 | 231.0 | -273 a 4820 | 87.3 | 19 | semimetal de umbral de no conducción del periodo 30 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 413 | SV-413 | 231.5 | -273 a -48 | 87.3 | 20 | clase halógeno superpesado del periodo 30 | química reactiva ultrapesada | blindaje avanzado | radiotrazador SV de última generación |
-| 414 | SV-414 | 232.0 | -273 a -163 | 87.4 | 18 | cierre noble superpesado del periodo 30 | trazador inerte ultrapesado | blindaje avanzado | gas de referencia SV |
-| 415 | SV-415 | 232.5 | -273 a 4850 | 87.4 | 19 | apertura alcalina de persistencia superperiódica del periodo 31 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 416 | SV-416 | 233.0 | -273 a 4860 | 87.5 | 20 | cierre s de confinamiento basal del periodo 31 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 417 | SV-417 | 233.5 | -273 a 4870 | 87.6 | 18 | apertura de subbloque extendido del periodo 31 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 418 | SV-418 | 234.0 | -273 a 4880 | 87.6 | 19 | segundo anclaje de frontera extendida del periodo 31 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 419 | SV-419 | 234.5 | -273 a 4890 | 87.7 | 20 | crecimiento de confinamiento lateral del periodo 31 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 420 | SV-420 | 235.0 | -273 a 4900 | 87.8 | 19 | consolidación intermedia de frontera del periodo 31 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 421 | SV-421 | 235.5 | -273 a 4910 | 87.8 | 20 | semilleno estructural primario del periodo 31 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 422 | SV-422 | 236.0 | -273 a 4920 | 87.9 | 21 | isla local de estabilidad relativa del periodo 31 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 423 | SV-423 | 236.5 | -273 a 4930 | 87.9 | 19 | transición posisla de identidad del periodo 31 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 424 | SV-424 | 237.0 | -273 a 4940 | 88.0 | 20 | persistencia tardía de subbloque del periodo 31 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 425 | SV-425 | 237.5 | -273 a 4950 | 88.1 | 21 | cierre de subbloque metálico del periodo 31 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 426 | SV-426 | 238.0 | -273 a 4960 | 88.1 | 19 | saturación de subbanda de conducción del periodo 31 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 427 | SV-427 | 238.5 | -273 a 4970 | 88.2 | 20 | semimetal de transición periódica del periodo 31 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 428 | SV-428 | 239.0 | -273 a 4980 | 88.2 | 21 | semimetal de anclaje covalente del periodo 31 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 429 | SV-429 | 239.5 | -273 a 4990 | 88.3 | 19 | semimetal de valencia mixta del periodo 31 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 430 | SV-430 | 240.0 | -273 a 5000 | 88.4 | 20 | semimetal de umbral de no conducción del periodo 31 | semiconductores SV | blindaje térmico SV | agente de contraste SV |
-| 431 | SV-431 | 240.5 | -273 a -38 | 88.4 | 21 | clase halógeno superpesado del periodo 31 | química reactiva ultrapesada | blindaje avanzado | radiotrazador SV de última generación |
-| 432 | SV-432 | 241.0 | -273 a -158 | 88.5 | 19 | cierre noble superpesado del periodo 31 | trazador inerte ultrapesado | blindaje avanzado | gas de referencia SV |
-| 433 | SV-433 | 241.5 | -273 a 5030 | 88.5 | 20 | apertura alcalina de persistencia superperiódica del periodo 32 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 434 | SV-434 | 242.0 | -273 a 5040 | 88.6 | 21 | cierre s de confinamiento basal del periodo 32 | electrónica cuántica SV | estructura hiperdensa | generador de campo terapéutico SV |
-| 435 | SV-435 | 242.5 | -273 a 5050 | 88.6 | 19 | apertura de subbloque extendido del periodo 32 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 436 | SV-436 | 243.0 | -273 a 5060 | 88.7 | 20 | segundo anclaje de frontera extendida del periodo 32 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 437 | SV-437 | 243.5 | -273 a 5070 | 88.8 | 21 | crecimiento de confinamiento lateral del periodo 32 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 438 | SV-438 | 244.0 | -273 a 5080 | 88.8 | 19 | consolidación intermedia de frontera del periodo 32 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 439 | SV-439 | 244.5 | -273 a 5090 | 88.9 | 20 | semilleno estructural primario del periodo 32 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 440 | SV-440 | 245.0 | -273 a 5100 | 88.9 | 21 | isla local de estabilidad relativa del periodo 32 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 441 | SV-441 | 245.5 | -273 a 5110 | 89.0 | 19 | transición posisla de identidad del periodo 32 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 442 | SV-442 | 246.0 | -273 a 5120 | 89.0 | 20 | persistencia tardía de subbloque del periodo 32 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-| 443 | SV-443 | 246.5 | -273 a 5130 | 89.1 | 21 | cierre de subbloque metálico del periodo 32 | aleaciones especiales SV | estructura hiperdensa | implante estructural SV avanzado |
-
----
-
-# 12. Teoremas del catálogo
-
-## 12.1. Teorema de generación prequímica
-
-**Teorema 12.1.** Sobre la célula SV(3,9), las doce familias tipológicas generan exactamente 720 configuraciones prequímicas candidatas. De estas, 675 satisfacen las condiciones (I)–(VI).
-
-**Verificación por definición.** La combinatoria 5 × 3 × 2 × 2 = 60 por familia y 12 × 60 = 720 en total se sigue de los parámetros fijados. El número 675 resulta de la aplicación de (I)–(VI) con exclusión de los 45 candidatos de Σ₉ que violan (II). □
-
-## 12.2. Teorema del cardinal del catálogo químico SV
-
-**Teorema 12.2.** Del conjunto de 675 configuraciones prequímicas admisibles, el subconjunto que satisface (Q.1)–(Q.5) tiene cardinal 443.
-
-**Demostración.** Los criterios Q.1 (cierre posicional), Q.2 (acoplamiento pleno) y Q.3 (densidad máxima) actúan como filtros de cierre. Σ₉ queda completamente excluida por imposibilidad de satisfacer Q.1 bajo oscilación persistente. Σ₂ y Σ₅ satisfacen los cinco criterios en todas sus configuraciones (60/60 y 60/60). Las familias con patrones mixtos satisfacen los criterios en proporciones variables. La suma de los cardinales es 443. □
-
-## 12.3. Teorema del hidrógeno como primer elemento
-
-**Teorema 12.3.** El elemento k = 1 es SV-Hidrógeno (Z_SV = 119, A_SV = 297 u, periodo 8, grupo 1), pertenece a Σ₁ y satisface Q.1–Q.5 con valores extremales.
-
-**Verificación por definición.** Z_SV(1) = 119, A_SV(1) = 297, Periodo(1) = 8, Grupo(1) = 1 se siguen de las fórmulas. Los valores extremales corresponden a la configuración φ(S₀) = 1, φ(S_n) = 0, χ_c = 1 de Σ₁ convergente pura. □
-
-## 12.4. Teorema del subdominio periódico
-
-**Teorema 12.4.** La tabla periódica reconocida (118 elementos) es un subdominio propio del catálogo SV-443.
-
-**Demostración.** Por construcción, los primeros 118 índices se corresponden con los elementos reconocidos en los términos del corpus SV-118. La inclusión es propia porque 118 < 443. □
-
----
-
-# 13. Laboratorio reproducible
-
-## 13.1. Descripción
-
-El laboratorio de verificación del catálogo SV-443 se encuentra en la carpeta `laboratorios/`. Ejecutar desde esa carpeta:
-
-```
-python3 runner.py
-```
-
-El laboratorio verifica: (a) integridad del CSV (443 filas exactas, 33 columnas), (b) todas las fórmulas canónicas Z_SV, A_SV, Periodo, Grupo sobre los 443 elementos, (c) rangos de todas las magnitudes (densidad, electronegatividad, radio, resistencias, radiactividad, isótopos), (d) estados STP válidos, (e) ausencia de celdas vacías en columnas críticas.
-
-Cada error tiene código específico (véase `laboratorios/CATALOGO-DE-ERRORES.md`). No se lanzan excepciones genéricas: cada comprobación produce un código de error trazable.
-
-## 13.2. Resultado esperado
-
-```json
-{
-  "elementos_verificados": "443/443",
-  "columnas": 33,
-  "errores_formula": 0,
-  "errores_rango": 0,
-  "errores_vacios": 0,
-  "estado": "APTO"
-}
-```
-
----
-
-# 14. Criterios de falsación del catálogo
-
-**F.1 — Cardinal:** si la aplicación rigurosa de (Q.1)–(Q.5) sobre las 675 configuraciones produce un cardinal distinto de 443, el Teorema 12.2 queda refutado.
-
-**F.2 — Subdominio:** si algún elemento de la tabla periódica reconocida no puede ubicarse en k = 1…118 con coherencia de propiedades, el Teorema 12.4 queda refutado.
-
-**F.3 — Admisibilidad de Σ₉:** si se demuestra que alguna configuración de Σ₉ satisface Q.1 y (I)–(VI) simultáneamente, el conteo de 443 debe revisarse.
-
-**F.4 — Detección empírica:** el dictamen U de k = 119…443 pasa a dictamen 1 si se produce contraste empírico externo verificado. Esta modificación no falsifica el aparato; confirma su potencia predictiva.
-
-**F.5 — Fórmulas generadoras:** si alguna fórmula del §7 produce valores fuera de rangos estructurales admisibles para cualquier k ∈ {1…443}, la fórmula requiere revisión. El laboratorio verifica sistemáticamente estas condiciones.
-
----
-
-# 15. Relación con la tabla periódica estructural SV-118
-
-La tabla periódica estructural SV-118 constituye el primer nivel de extensión periódica del corpus SV. Selecciona, de entre los 443 elementos del catálogo completo, aquellos que además satisfacen contraste empírico externo directo o indirecto verificado.
-
-La relación es SV-118 ⊂ SV-443. Los primeros 118 elementos del catálogo (k = 1…118) corresponden exactamente al conjunto SV-118. Los elementos k = 119…443 permanecen en régimen U hasta que el contraste empírico externo produzca evidencia verificable.
-
-Los periodos cubiertos por el catálogo completo van del 8 al 32. El último elemento, SV-443, tiene Z_SV = 561, A_SV = 1844 u, periodo 32 y grupo 11.
-
----
-
-# 16. Conclusión
-
-Este trabajo ha desarrollado el aparato generativo completo del catálogo de 443 elementos químicos del Sistema Vectorial SV. El resultado no es una extrapolación conjetural de la tabla periódica conocida, sino la consecuencia de aplicar las doce familias tipológicas del corpus sobre la célula SV(3,9) con los criterios de admisibilidad prequímica y transición química fijados por la ecuación rectora.
-
-Tres consecuencias operatorias se siguen del catálogo.
-
-Primera: la tabla periódica reconocida de 118 elementos no es el límite del dominio químico estructural bajo el aparato SV. Es su primer subdominio observable.
-
-Segunda: los 325 elementos k = 119…443 tienen estatuto U. Esa apertura honesta es condición de legitimidad operatoria: ninguna configuración recibe dictamen de existencia física sin contraste externo verificado.
-
-Tercera: la generación reproducible a partir de fórmulas canónicas explícitas, verificable mediante el laboratorio, convierte el catálogo en un objeto científicamente contrastable.
-
----
-
-# 17. Epílogo
-
-SV-Hidrógeno (k = 1, Z_SV = 119) abre el catálogo con parámetros extremales. No es el único elemento posible. Es el primero conocido. SV-443 (Z_SV = 561, periodo 32, grupo 11) no es el último posible. Entre el primero y el último hay 443 clases atómicas estructuralmente admisibles bajo las mismas compuertas que admiten o rechazan cualquier configuración física.
-
----
-
-# 18. Notación
-
-| Símbolo | Significado |
-|---|---|
-| k | Índice del catálogo SV-443, k = 1…443 |
-| Z_SV(k) | Número atómico estructural SV |
-| A_SV(k) | Masa atómica estructural SV |
-| Σ_k | Familia tipológica k del espacio TPA (k = 1…12) |
-| φ(S_k) | Observable de apertura en el frame k |
-| m_k | Derivada de activación en el paso k |
-| χ_c | Régimen de acoplamiento estructural |
-| ρ_pos | Densidad de no clausura posicional |
-| Λ_pre | Frontera prequímica |
-| 𝔓_min(Γ, n) | Persistencia energética mínima |
-| 𝓔★(Γ_U; τ) | Ecuación rectora universal con estado corpus τ |
-| 𝔘ˢᵛ_unif | Operador maestro unificado del corpus |
-| 𝓝★ | Verificador ternario fuerte del corpus |
-| Π_D | Proyección sobre dominio físico-atómico |
-| U | Dictamen: admisible estructuralmente, no detectado |
-
----
-
-# 19. Bibliografía
-
-## 19.1. Criterio bibliográfico
-
-Esta publicación se apoya en referencias externas de física y química estructural para situar el dominio de búsqueda del catálogo, y en referencias internas del corpus del Sistema Vectorial SV para fijar la compatibilidad operatoria de la generación.
-
-## 19.2. Extensión periódica y química estructural
-
-Seaborg, G. T., & Bloom, J. L. (1969). *The synthetic elements: IV*. Scientific American, 220(4), 56–67.
-
-Fricke, B., Greiner, W., & Waber, J. T. (1971). *The continuation of the periodic table up to Z = 172*. Theoretica Chimica Acta, 21(3), 235–260.
-
-Pyykkö, P. (2011). *A suggested periodic table up to Z ≤ 172, based on Dirac–Fock calculations*. Physical Chemistry Chemical Physics, 13(1), 161–168.
-
-Oganessian, Y. T., & Utyonkov, V. K. (2015). *Super-heavy element research*. Reports on Progress in Physics, 78(3), 036301.
-
-## 19.3. Falsabilidad y demarcación científica
-
-Popper, K. R. (1959). *The logic of scientific discovery*. Hutchinson.
-
-Lakatos, I. (1978). *The methodology of scientific research programmes*. Cambridge University Press.
-
-## 19.4. Corpus interno del Sistema Vectorial SV
-
-Lloret Egea, J. A. (2026). *Génesis del hidrógeno y teoría de la persistencia energética estructural*. ITVIA.
-
-Lloret Egea, J. A. (2026). *Teoría general de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV*. ITVIA.
-
-Lloret Egea, J. A. (2026). *Teoría del TODO y de la NADA en el Sistema Vectorial SV*. ITVIA.
-
-Lloret Egea, J. A. (2026). *Fórmula factual única y absoluta. Termodinámica factual del Sistema Vectorial SV*. ITVIA.
-
-Lloret Egea, J. A. (2026). *Fórmula de campo unificado — Conexión, curvatura, Einstein-Bohr y doble proyección en el Sistema Vectorial SV*. ITVIA.
-
-## 19.5. Resultado bibliográfico
-
-Las referencias externas sitúan el dominio de extensión periódica en el estado contemporáneo de la física atómica y la química estructural. Las referencias internas fijan la compatibilidad operatoria de la generación con el aparato del corpus. Ninguna referencia externa actúa como autoridad fundante del catálogo.
+
+# I. Problema contemporáneo del agujero negro
+
+
+## 1.1. Horizonte, interior y singularidad en la física contemporánea
+
+
+El agujero negro ocupa una posición singular dentro de la física moderna porque reúne, en un mismo concepto, geometría, gravitación, horizonte, termodinámica, información y límite de descripción. En la formulación relativista clásica, el horizonte delimita una región desde la cual ninguna señal puede escapar hacia el exterior. Esa formulación ha sido extraordinariamente fértil, y sus consecuencias observacionales han alcanzado un grado notable de consolidación en astrofísica contemporánea.
+
+Sin embargo, la existencia de una descripción geométrica eficaz no agota la pregunta ontológica. Decir que existe un horizonte causal no equivale a explicar qué estatuto físico posee la frontera. Decir que una solución matemática contiene una singularidad no equivale necesariamente a afirmar que la realidad física culmine en una infinitud material. La física contemporánea ha aprendido a convivir con esa tensión: el formalismo geométrico funciona, pero el significado último del interior permanece problemático.
+
+Este trabajo se sitúa precisamente en esa zona de tensión. No niega la potencia de la descripción relativista; tampoco toma la singularidad como punto de partida. Busca una definición operatoria que pueda sostenerse sin convertir el infinito en fundamento ni la geometría en causa primera. El horizonte se relee como frontera de no transmisibilidad; el interior, como saturación factual; y la singularidad, como lectura límite que no se adopta aquí como estatuto primario.
+
+
+## 1.2. Límite de la descripción geométrica clásica
+
+
+La descripción geométrica clásica permite caracterizar el horizonte mediante relaciones entre masa, radio y estructura métrica. Esa lectura es imprescindible para conectar con la física establecida, pero presenta un límite conceptual: convierte la geometría en lenguaje principal del fenómeno. Cuando ese lenguaje alcanza una singularidad, la interpretación física se vuelve delicada.
+
+El presente trabajo no considera que ese límite destruya la relatividad general. Lo interpreta como señal de que, para ciertos regímenes extremos, la geometría puede ser una lectura inducida de un proceso más profundo de clausura del campo. En lugar de preguntar primero qué curvatura adopta el espacio-tiempo, se pregunta qué régimen de transmisión permite o impide la frontera. Esta inversión no sustituye la geometría; la reubica.
+
+La geometría clásica describe cómo se presenta el horizonte en una lectura métrica. La formulación operatoria propuesta busca describir qué condición interna convierte una frontera en no transmisible. La primera lectura es externa y geométrica; la segunda es interna y funcional. Ambas pueden ser compatibles, siempre que no se confundan sus planos.
+
+
+## 1.3. Masa, radio, horizonte y transmisión de información
+
+
+La relación entre masa y radio crítico constituye una de las formas más conocidas de aproximarse al agujero negro. En la lectura clásica, una masa suficientemente concentrada dentro de determinado radio produce un horizonte. Esta relación es esencial, pero no debe confundirse con una definición completa del régimen.
+
+Desde la perspectiva de este documento, la masa efectiva interviene como factor relevante de clausura, pero no basta por sí sola. Un régimen de agujero negro exige caída crítica de transmisibilidad. La frontera sólo se declara horizonte cuando la transmisión externa queda por debajo de un umbral operacional. Por tanto, la masa no se elimina, pero se subordina a una condición más precisa: su capacidad de contribuir a una clausura que suprima transmisión externa suficiente.
+
+La transmisión de información se convierte entonces en criterio discriminante. Un horizonte no es sólo una superficie asociada a determinada concentración de masa; es una frontera en la que el contenido deja de transmitirse hacia el exterior en régimen ordinario. Allí donde no pueda establecerse esa no transmisibilidad, no debe declararse horizonte pleno. Allí donde la transmisión caiga críticamente, la frontera adquiere estatuto operatorio de horizonte.
+
+
+## 1.4. Tensión entre objeto astronómico y régimen de campo
+
+
+El lenguaje habitual trata el agujero negro como objeto astronómico. Esa forma de hablar es útil y probablemente inevitable en astrofísica observacional. Se detectan regiones compactas, efectos gravitacionales, discos de acreción, lentes, emisiones asociadas y dinámicas orbitales compatibles con objetos extremadamente compactos. Sin embargo, desde el punto de vista formal, el agujero negro no debería reducirse a objeto.
+
+Un objeto se identifica por propiedades relativamente estables: masa, posición, rotación, entorno, interacción. Un régimen, en cambio, se define por condiciones de operación. Este trabajo adopta la segunda perspectiva. El agujero negro se entiende como régimen de campo porque lo decisivo no es su apariencia como objeto, sino la estructura de clausura que impone a la transmisión.
+
+Esta distinción permite resolver una ambigüedad frecuente. Un agujero negro puede aparecer observacionalmente como objeto, pero su definición física profunda debe atender al régimen que lo produce. La publicación no niega la realidad astrofísica de los candidatos a agujero negro; afirma que su definición operatoria debe buscarse en la clausura extrema y en la no transmisibilidad del campo.
+
+
+## 1.5. Necesidad de una definición operatoria no metafísica
+
+
+Una definición operatoria debe permitir decidir, calcular, falsar y preservar límites. No basta con una descripción evocadora. Tampoco basta con una fórmula heredada si no se explicita qué magnitud decide el régimen. En el caso del agujero negro, la definición operatoria debe responder al menos a cuatro preguntas: cuándo hay horizonte, qué ocurre con la transmisión, cómo se describe el interior y qué no puede afirmarse sobre el destino global del contenido.
+
+La definición propuesta evita dos excesos. El primero sería convertir el agujero negro en metáfora metafísica de desaparición, nada o absoluto. El segundo sería reducirlo a una superficie geométrica sin atender al régimen de transmisión que la dota de significado físico. La vía adoptada es intermedia y formal: el agujero negro se define por una condición de clausura extrema con transmisibilidad inferior a umbral.
+
+Esta definición no metafísica exige bancos numéricos y laboratorios. Si el umbral se viola, el dictamen debe fallar. Si la transmisibilidad crece cuando la clausura aumenta, el modelo debe fallar. Si se declara una salida cosmológica sin transición formal, el sistema debe fallar. La definición operatoria no sólo dice qué es un agujero negro; dice también qué no debe aceptarse como tal.
+
+
+## 1.6. Relación con publicaciones previas del corpus
+
+
+La presente publicación no nace aislada. Se apoya en un conjunto de desarrollos previos del corpus SV que han fijado el tratamiento de campos, proyecciones, transmisibilidad, termodinámica factual, sucesos generadores, estructura de U, campo unificado, electromagnetismo factual, interacción entre campos y regímenes de clausura. Esa dependencia no debe entenderse como acumulación ornamental de referencias, sino como subordinación formal a resultados ya establecidos.
+
+En particular, el trabajo hereda del campo unificado factual la idea de que distintos dominios físicos pueden comparecer como proyecciones de una legalidad común sin perder su diferencia específica. Del electromagnetismo factual hereda la disciplina de operadores, frontera, propagación y laboratorio. De la teoría de sucesos generadores y protocampos hereda el rechazo de una física fundada en aparición espontánea sin dominio declarado. De la termodinámica factual hereda la lectura de saturación, irreversibilidad y estado estable. De la interacción e intercomposición de campos hereda la importancia de transmisión, compuerta y distancia factual. De la teoría del TODO y de la NADA hereda la exigencia de no clausurar lo que deba permanecer en U.
+
+La publicación anterior sobre estructuras de colapso, trayectorias y agujeros negros conserva valor como antecedente exploratorio, pero no constituye el cierre de este documento. El presente trabajo parte de un estado posterior del corpus. Por ello, el nuevo régimen de agujero negro debe formularse desde clausura, transmisibilidad, saturación, campo unificado y U residual, no desde una teoría previa de trayectorias tomada como conclusión definitiva.
+
+
+# II. Suelo formal mínimo
+
+
+## 2.1. Entidad factual rectora del campo
+
+
+El punto de partida formal de este documento es la existencia de una entidad factual del campo, designada por U_F, capaz de sostener distintos regímenes físicos mediante proyecciones diferenciadas. Esta entidad no se identifica con un campo clásico particular, ni con una fuerza concreta, ni con una geometría previa. Su función es ofrecer un dominio común desde el cual puedan describirse, sin confusión de planos, fenómenos de propagación, clausura, transmisión, saturación y pérdida de transmisibilidad.
+
+En este trabajo, U_F no se introduce para sustituir por decreto las teorías físicas existentes. Se introduce como objeto formal interno del Sistema Vectorial SV, necesario para expresar que un mismo régimen de campo puede manifestarse de formas distintas según la proyección considerada. Así, el electromagnetismo, la gravitación, el campo eléctrico radial y el régimen de agujero negro no son tratados como realidades idénticas, sino como manifestaciones diferenciadas que pueden compartir leyes internas de persistencia, fragilidad y distribución del contenido.
+
+La entidad factual del campo cumple tres funciones. Primera, permite formular una legalidad previa a las expresiones clásicas de fuerza, potencial o geometría. Segunda, ofrece una sede común para magnitudes como carga interna de no clausura, transmisibilidad y saturación. Tercera, impide que el agujero negro sea interpretado de forma aislada, como si su horizonte fuera un fenómeno separado del resto de los regímenes de campo.
+
+El agujero negro se estudiará, por tanto, como una proyección extrema de U_F. Esa proyección no se caracteriza por una propagación ordinaria, sino por la caída de transmisibilidad externa. Su singularidad no radica en ser un objeto extraño añadido al universo físico, sino en constituir un régimen límite del campo en el que la clausura interna domina sobre la capacidad de transmisión.
+
+
+## 2.2. Proyección de campo y régimen singular
+
+
+Una proyección de campo es la lectura formal mediante la cual una entidad factual común adopta un régimen físico determinado. La proyección no elimina la unidad del dominio de partida, pero tampoco borra la diferencia entre fenómenos. Cada proyección conserva ciertos invariantes internos y, al mismo tiempo, adquiere propiedades propias.
+
+Se escribirá de forma general:
+
+
+Π_XU_F → G_X^SV,
+
+
+donde X designa el dominio proyectado y (G_X^SV) representa el régimen formal correspondiente. Para los fines de esta publicación, el régimen de interés es el asociado al agujero negro:
+
+
+Π_BHU_F → G_BH^SV.
+
+
+Esta expresión no significa que el agujero negro sea una sustancia independiente ni una entidad exterior al campo. Significa que, bajo ciertas condiciones de carga interna, orientación de clausura y pérdida de transmisibilidad, el campo adopta un régimen que debe ser distinguido de la propagación ordinaria, de la interacción radial simple y de la oscilación electromagnética regular.
+
+El calificativo “singular” se emplea aquí con cautela. No designa una singularidad infinita en sentido geométrico, sino un régimen singular por su comportamiento operatorio: la transmisión externa cae, la frontera adquiere estatuto de horizonte, el interior queda saturado y el destino global del contenido no puede dictaminarse de forma cerrada. La singularidad geométrica podrá ser discutida como lectura externa; el régimen singular factual se define por no transmisibilidad.
+
+
+## 2.3. Carga factual interna de no clausura
+
+
+La carga factual interna de no clausura se designa mediante Θ. Representa el grado de tensión interna que un régimen soporta antes de alcanzar una clausura estable o antes de perder capacidad de transmisión. No debe confundirse con energía clásica, masa, carga eléctrica, incertidumbre probabilística ni indeterminación U. Es una magnitud estructural interna del régimen.
+
+En una formulación mínima, puede entenderse como agregación efectiva de tres componentes:
+
+
+Θ = R + S + J^cl,
+
+
+donde (R) representa residual no absorbido, (S) sensibilidad del régimen y (J^cl) tensión o dificultad de clausura. Esta forma no pretende agotar toda posible refinación ulterior de Θ, pero sí proporciona una expresión operativa suficiente para los bancos y laboratorios de este documento.
+
+En el régimen de agujero negro interesa especialmente la carga factual de horizonte, que se designará como Θ_H en su forma escalar y como Θ_H_vec en su forma vectorial. La forma escalar permite estudiar la caída general de la transmisibilidad conforme aumenta la clausura. La forma vectorial permite incorporar orientación, masa efectiva y dirección de cierre, evitando que una magnitud aislada sea tomada indebidamente como criterio suficiente.
+
+La interpretación física es la siguiente: cuanto mayor es la carga factual interna de no clausura, menor es la persistencia transmisiva del régimen y mayor es su tendencia a clausurarse. En el límite extremo, la transmisión externa cae por debajo del umbral operacional y el régimen queda dictaminado como horizonte.
+
+
+## 2.4. Persistencia normalizada
+
+
+La persistencia normalizada se designa mediante Ψ. Expresa la capacidad de un régimen para conservar su estructura transmisiva bajo una carga factual interna determinada. Su forma mínima es:
+
+
+Ψ = 1 / (1 + Θ).
+
+
+Esta ecuación tiene una lectura directa. Si (Θ = 0), la persistencia normalizada vale 1; no hay carga interna que erosione la transmisión. Si Θ crece, Ψ disminuye. En el límite de clausura extrema, (Θ → ∞), la persistencia tiende a cero:
+
+
+lim_Θ → ∞ Ψ = 0.
+
+
+En el contexto de los agujeros negros, Ψ cumple una función decisiva: permite traducir la clausura interna en capacidad de transmisión. No se define el horizonte por oscuridad, apariencia o infinita densidad, sino por la caída de Ψ hasta un régimen en el que la transmisión externa resulta insuficiente.
+
+La persistencia normalizada no debe entenderse como probabilidad de escape ni como coeficiente estadístico. Es una magnitud determinista del aparato formal. Mide el estado de persistencia transmisiva del régimen en función de su carga interna. Por eso puede usarse en bancos numéricos y laboratorios sin introducir probabilidad como fundamento.
+
+
+## 2.5. Fragilidad factual bajo perturbación
+
+
+La fragilidad factual bajo perturbación se designa mediante Φ. Mide la respuesta relativa de un régimen cuando se introduce una perturbación pequeña sobre su frontera, trayectoria, lectura o condición de transmisión. Su forma mínima es:
+
+
+Φ = ε Θ / (1 + Θ),
+
+
+donde ε representa la perturbación relativa introducida en el régimen.
+
+Esta magnitud complementa a Ψ. Mientras Ψ mide persistencia normalizada, Φ mide sensibilidad de respuesta. Ambas magnitudes quedan unidas por la relación:
+
+
+Φ = ε(1 − Ψ).
+
+
+Esta ecuación muestra que persistencia y fragilidad no son magnitudes independientes. Cuanto menor es la persistencia, mayor es la fracción disponible para fragilidad bajo perturbación. En un régimen de baja clausura, el sistema conserva alta persistencia y baja fragilidad. En un régimen extremo, la persistencia se reduce y la respuesta a perturbación se aproxima al máximo relativo permitido por ε.
+
+En el estudio de agujeros negros, Φ no define por sí sola el horizonte. Su función es auxiliar: permite caracterizar la vulnerabilidad del régimen ante perturbaciones de frontera y sirve para distinguir estados precríticos, críticos y consolidados. Un horizonte consolidado no sólo presenta baja transmisibilidad; también exhibe una estructura interna cuya respuesta queda condicionada por la alta carga de clausura.
+
+
+## 2.6. Transmisibilidad factual
+
+
+La transmisibilidad factual se designa mediante T_SV. Expresa la capacidad relativa de un régimen para transmitir contenido hacia el exterior. En la formulación mínima de este documento, se identifica con la persistencia normalizada del régimen:
+
+
+T_SV = Ψ = 1 / (1 + Θ).
+
+
+Cuando se introduce una lectura vectorial del horizonte, se emplea:
+
+
+T_SV =
+1 / (1 + Θ_H_vec).
+
+
+La transmisibilidad factual no representa velocidad física ordinaria ni flujo electromagnético en sentido clásico. Es una magnitud de dictamen sobre la capacidad de transmisión externa del régimen. Puede relacionarse con una velocidad efectiva de transmisión mediante:
+
+
+c_effΘ=c_SVΨ,
+
+
+y, por tanto:
+
+
+c_effΘ / c_SV
+
+T_SV
+
+1 / (1 + Θ).
+
+
+Esta expresión no debe interpretarse como modificación arbitraria de la velocidad de la luz. Su función en el documento es operatoria: si la transmisión efectiva relativa cae bajo un umbral, el régimen deja de comportarse como región transmisiva ordinaria y adquiere estatuto de horizonte.
+
+La transmisibilidad es, por ello, la magnitud central para definir el agujero negro. No basta con afirmar que existe una gran masa, una gran curvatura o una región compacta. Debe mostrarse que el régimen ha perdido transmisión externa suficiente.
+
+
+## 2.7. Umbral operacional de horizonte
+
+
+El umbral operacional de horizonte se designa mediante τ_H. Este documento adopta como umbral mínimo de trabajo:
+
+
+τ_H = 0.1.
+
+
+El criterio de horizonte se formula así:
+
+
+H_BH^SV
+⇔
+T_SV≤ τ_H.
+
+
+Con la forma escalar de la transmisibilidad:
+
+
+T_SV=1 / (1 + Θ),
+
+
+se obtiene el umbral crítico:
+
+
+1 / (1 + Θ)≤ 0.1.
+
+
+De ahí:
+
+
+1 + Θ ≥ 10,
+
+
+y por tanto:
+
+
+Θ ≥ 9.
+
+
+Así, el valor (Θ = 9) marca el horizonte crítico dentro del banco mínimo de este documento. Valores inferiores a 9 no deben ser declarados como horizonte pleno. Valores superiores a 9 corresponden a regímenes de horizonte consolidado, siempre que el resto de condiciones de dominio y vectorialidad no introduzcan contradicción.
+
+El umbral (τ_H = 0.1) no se presenta como constante natural absoluta. Es un umbral operacional de dictamen para esta publicación. Su valor permite separar de forma clara régimen precrítico, horizonte crítico y horizonte consolidado. Una teoría métrica posterior o un banco astrofísico real podrían refinarlo, pero no deben eliminar la exigencia fundamental: sin caída crítica de transmisibilidad no hay declaración legítima de horizonte.
+
+
+## 2.8. Diferencia entre cierre, saturación y no transmisibilidad
+
+
+El documento distingue tres conceptos que no deben confundirse: cierre, saturación y no transmisibilidad.
+
+El cierre designa la condición por la cual un régimen alcanza una configuración formalmente determinada bajo sus propios criterios. Puede haber cierre local sin que el sistema agote todo su destino global. En el caso del agujero negro, puede cerrarse el dictamen de horizonte si (T_SV≤τ_H), pero eso no implica cerrar el destino último del contenido interior.
+
+La saturación designa un régimen interno en el que el contenido no se transmite ordinariamente hacia el exterior y queda reorganizado bajo alta carga de clausura. Saturación no significa vacío, desaparición ni infinito físico. Significa que el régimen interior ya no puede tratarse como región transmisiva ordinaria. Su contenido permanece sometido a una estructura extrema cuya evolución global no debe inferirse sin aparato adicional.
+
+La no transmisibilidad designa la propiedad externa de la frontera. Un régimen no transmisible impide que el contenido sea comunicado hacia el exterior en régimen ordinario. El horizonte es, en este sentido, frontera de no transmisibilidad. Pero esa frontera no autoriza por sí misma a declarar qué ocurre definitivamente con el contenido interior.
+
+Esta distinción permite evitar tres errores. Primero, identificar horizonte con singularidad. Segundo, identificar saturación con vacío. Tercero, identificar no transmisibilidad con destrucción del contenido. El documento sostiene una formulación más prudente y más fuerte: el horizonte clausura la transmisión externa; el interior queda saturado; el destino global permanece en U mientras no exista una transición formal que permita dictamen cerrado.
+
+
+# III. Definición operatoria del agujero negro
+
+
+## 3.1. Definición formal
+
+
+Se define el agujero negro, en el marco de este documento, como el régimen de campo en el que la transmisibilidad externa cae por debajo de un umbral operacional de horizonte, como consecuencia de una clausura interna extrema. La definición no se apoya inicialmente en una singularidad geométrica, sino en una condición de transmisión.
+
+Sea U_F la entidad factual del campo y sea (Π_BHU_F) la proyección asociada al régimen de agujero negro. Entonces:
+
+
+Π_BHU_F
+
+G_BH^SV.
+
+
+El régimen G_BH^SV queda definido por la presencia simultánea de tres condiciones:
+
+
+Θ_H  o Θ_H_vec  elevada,
+
+
+T_SV≤ τ_H,
+
+
+Interior(BH)_SV
+
+régimen de saturación factual con destino global no clausurado.
+
+
+De forma compacta:
+
+
+BH_SV
+:=
+
+G_BH^SV
+ |
+T_SV≤ τ_H
+.
+
+
+Esta definición convierte el horizonte en consecuencia formal de la no transmisibilidad y no en punto de partida metafísico. El agujero negro no se introduce como entidad absoluta, sino como régimen dictaminable: hay agujero negro cuando la estructura del campo queda clausurada de tal manera que la transmisión externa cae bajo el umbral establecido.
+
+
+## 3.2. Agujero negro como régimen, no como objeto primario
+
+
+La denominación “agujero negro” sugiere un objeto. Esa forma de hablar es legítima en el ámbito observacional, porque la astrofísica identifica regiones compactas con masa, rotación, entorno, disco de acreción y efectos gravitacionales detectables. Sin embargo, una definición formal no debe quedar reducida a la apariencia de objeto.
+
+En este documento, el agujero negro se define como régimen. Esto significa que su identidad no depende de una sustancia aislada, sino de un conjunto de condiciones operatorias: alta clausura, transmisión externa críticamente reducida, saturación interior y conservación de U respecto del destino global del contenido.
+
+La diferencia no es terminológica. Si el agujero negro se toma como objeto primario, la pregunta principal tiende a ser qué contiene, dónde termina, qué masa posee o qué geometría lo rodea. Si se toma como régimen, la pregunta principal cambia: qué condiciones convierten una frontera en no transmisible, qué magnitud decide el horizonte, qué estado adopta el interior y qué afirmaciones deben rechazarse por falta de clausura.
+
+La ventaja de la lectura por régimen es que permite distinguir entre observación externa y estructura interna. El objeto astronómico puede ser la manifestación visible o inferida. El régimen de agujero negro es la condición formal que explica por qué esa región se comporta como horizonte.
+
+
+## 3.3. Clausura extrema del campo
+
+
+La clausura extrema es la condición por la cual la carga interna del régimen impide que la transmisión externa se mantenga por encima del umbral. En su forma escalar, esta clausura se expresa mediante Θ_H. En su forma vectorial, mediante Θ_H_vec.
+
+La forma escalar permite una primera descripción:
+
+
+T_SV=1 / (1 + Θ_H).
+
+
+Si Θ_H crece, T_SV decrece. La clausura extrema aparece cuando:
+
+
+Θ_H≥ 9,
+
+
+para el umbral operacional τ_H = 0.1. En ese caso:
+
+
+T_SV≤ 0.1.
+
+
+La forma vectorial, que se desarrollará después, permite introducir orientación de cierre:
+
+
+Θ_H_vec
+
+M_H · (1 − cos α_H).
+
+
+En esta expresión, M_H representa masa efectiva de clausura y α_H el ángulo de clausura. La clausura extrema no depende sólo de cantidad acumulada, sino de cómo esa acumulación queda orientada respecto de la transmisión externa.
+
+Así, la clausura extrema del campo no es una metáfora de compresión. Es una condición formal por la cual la transmisibilidad queda críticamente reducida. El horizonte surge como frontera de esa reducción.
+
+
+## 3.4. No transmisibilidad externa
+
+
+La no transmisibilidad externa es el criterio que distingue un horizonte de una frontera ordinaria. Una frontera puede separar regiones sin impedir transmisión. Un horizonte, en cambio, se define porque la transmisión hacia el exterior queda suprimida o reducida por debajo del umbral operacional.
+
+Se adopta:
+
+
+H_BH^SV
+⇔
+T_SV≤ τ_H.
+
+
+La no transmisibilidad no equivale a inexistencia del contenido. Tampoco equivale a destrucción. Significa que el contenido no mantiene transmisión externa ordinaria. El exterior puede detectar efectos gravitacionales, perturbaciones, radiación asociada al entorno o consecuencias indirectas, pero no recibe transmisión directa del régimen interior bajo las condiciones ordinarias del modelo.
+
+Esta distinción protege el documento de una confusión frecuente: no transmitir no significa no existir. La frontera de no transmisibilidad no anula el contenido; sólo impide que sea comunicado hacia el exterior en el régimen considerado.
+
+Por ello, el horizonte se define como frontera operatoria:
+
+
+H_BH^SV
+
+∂ Ω_BH
+ tal que
+T_SV(∂ Ω_BH)≤ τ_H.
+
+
+La frontera no se limita a delimitar una región espacial; delimita un régimen de transmisión.
+
+
+## 3.5. Saturación interna
+
+
+El interior del agujero negro se describe como régimen de saturación factual. La saturación aparece cuando el contenido queda sometido a una clausura extrema y deja de comportarse como contenido transmisible hacia el exterior. No se afirma que el interior sea vacío, ni que culmine necesariamente en una singularidad infinita, ni que conduzca a una salida cosmológica.
+
+La saturación interna puede formularse como:
+
+
+Interior(BH)_SV
+
+
+Ω_int
+ |
+T_SV≤ τ_H
+ y
+Θ_H  elevada
+.
+
+
+Esta expresión no agota la estructura interior. Sólo fija el estatuto mínimo: el interior pertenece a un régimen en el que la transmisión externa ha quedado críticamente reducida y el contenido se reorganiza bajo clausura.
+
+Saturación significa acumulación no transmisiva, reorganización interna y pérdida de lectura exterior ordinaria. No significa aniquilación. El contenido no se declara inexistente; se declara no transmisible hacia el exterior bajo las condiciones del régimen.
+
+Esta formulación permite tratar el interior sin convertirlo en infinito físico ni en vacío absoluto. El interior es un dominio de saturación. Lo que no pueda determinarse sobre su destino global queda sometido al dictamen U.
+
+
+## 3.6. Destino global no clausurado del contenido
+
+
+El destino global del contenido interior constituye una de las cuestiones más delicadas. Una vez que la transmisión externa cae bajo el umbral, puede preguntarse si el contenido queda estacionario, si se reconfigura, si se degrada, si se transforma o si participa en una transición ulterior. Este documento no autoriza resolver esa pregunta sin construcción formal específica.
+
+Por ello, se establece:
+
+
+Destino(Interior(BH)_SV) = U
+
+
+salvo demostración ulterior de una transición formal admisible.
+
+Este dictamen no expresa renuncia, sino disciplina. El régimen de agujero negro puede quedar definido localmente sin que el destino global del contenido quede cerrado. La frontera puede ser no transmisible, el interior puede estar saturado y, sin embargo, el destino último del contenido puede permanecer indeterminado.
+
+El documento rechaza tres cierres indebidos:
+
+
+Destino = singularidad infinita como hecho primario,
+
+
+Destino = vacío absoluto,
+
+
+Destino = salida cosmológica no demostrada.
+
+
+Ninguno de esos dictámenes se acepta sin aparato formal propio. La única conclusión permitida en esta publicación es más sobria:
+
+
+Destino = U.
+
+
+La conservación de U no debilita la definición del agujero negro. La fortalece, porque impide confundir la definición local de horizonte con una afirmación total sobre el destino del contenido.
+
+
+## 3.7. Dictamen formal: horizonte, interior y U residual
+
+
+El dictamen formal del régimen de agujero negro debe separar tres niveles: horizonte, interior y destino global.
+
+El horizonte se dictamina mediante transmisibilidad:
+
+
+T_SV≤ τ_H.
+
+
+El interior se dictamina como saturación factual:
+
+
+Interior(BH)_SV
+
+saturación interna bajo clausura extrema.
+
+
+El destino global se conserva en U:
+
+
+Destino(Interior(BH)_SV)=U.
+
+
+Estos tres dictámenes no son intercambiables. No debe usarse la existencia de horizonte para declarar singularidad infinita. No debe usarse la saturación interna para declarar desaparición del contenido. No debe usarse U para negar el régimen de agujero negro. Cada nivel tiene su estatuto.
+
+En forma compacta:
+
+
+BH_SV
+
+(
+H_BH^SV,
+Interior(BH)_SV,*
+U_destino
+)
+
+
+donde:
+
+
+H_BH^SV
+⇔
+T_SV≤ τ_H,
+
+
+Interior(BH)_SV
+⇔
+saturación factual,
+
+
+U_destino
+⇔
+no clausura del destino global del contenido.
+
+
+Este triple dictamen constituye la definición operatoria básica del documento.
+
+
+# IV. Horizonte factual de no transmisibilidad
+
+
+## 4.1. Horizonte clásico y horizonte operatorio
+
+
+El horizonte clásico se define habitualmente como una frontera causal asociada a una región de la que ninguna señal puede escapar hacia el exterior. Esa formulación tiene enorme fuerza física y matemática. No obstante, en este documento se introduce una distinción: el horizonte clásico es una lectura externa; el horizonte operatorio es una condición de transmisibilidad.
+
+El horizonte operatorio no comienza preguntando qué geometría produce la frontera. Pregunta qué valor adopta la transmisibilidad del régimen. Si la transmisibilidad queda por debajo del umbral operacional, la frontera adquiere estatuto de horizonte factual.
+
+La relación puede expresarse así:
+
+
+H_clasico
+≈
+frontera causal externa,
+
+
+H_BH^SV
+≈
+frontera de no transmisibilidad factual.
+
+
+No se afirma que ambas nociones sean incompatibles. Se afirma que no deben confundirse. La frontera causal puede ser una lectura geométrica externa del mismo fenómeno que, en el aparato de este documento, se describe como no transmisibilidad factual.
+
+Esta distinción permite no depender de una singularidad geométrica para definir el horizonte. El horizonte operatorio se decide mediante el comportamiento de T_SV. La geometría puede acompañar, ilustrar o traducir; no sustituye el dictamen de transmisibilidad.
+
+
+## 4.2. Velocidad efectiva de transmisión
+
+
+La velocidad efectiva de transmisión se introduce para expresar la reducción relativa de transmisión externa en función de la carga interna del régimen. Se define:
+
+
+c_effΘ
+
+c_SVΨ.
+
+
+Como:
+
+
+Ψ=1 / (1 + Θ),
+
+
+se obtiene:
+
+
+c_effΘ
+
+c_SV / (1 + Θ).
+
+
+La lectura de esta ecuación debe ser cuidadosa. No se declara una variación arbitraria de una constante física clásica. Se introduce una magnitud efectiva de transmisión dentro del aparato formal del documento. Su función es expresar que, cuando la carga de clausura aumenta, la capacidad efectiva de transmisión externa disminuye.
+
+La velocidad efectiva permite conectar transmisión y horizonte:
+
+
+c_effΘ / c_SV
+
+1 / (1 + Θ)
+
+T_SV.
+
+
+Por tanto, el horizonte puede formularse como régimen en el que:
+
+
+c_effΘ
+≤
+τ_H c_SV.
+
+
+Si τ_H = 0.1, el horizonte crítico aparece cuando:
+
+
+c_effΘ≤ 0.1c_SV.
+
+
+Esto significa que el régimen ha perdido al menos el noventa por ciento de su capacidad relativa de transmisión externa en la escala formal definida.
+
+
+## 4.3. Transmisibilidad relativa
+
+
+La transmisibilidad relativa se define como:
+
+
+T_SV
+
+fracc_effc_SV.
+
+
+Sustituyendo:
+
+
+T_SV
+
+1 / (1 + Θ).
+
+
+Esta magnitud es adimensional y permite comparar regímenes sin depender de unidades externas. Su valor pertenece al intervalo:
+
+
+0<T_SV≤ 1.
+
+
+Si (Θ=0):
+
+
+T_SV=1.
+
+
+Si (Θ→∞):
+
+
+T_SV→ 0.
+
+
+La transmisibilidad relativa expresa, por tanto, el grado de apertura externa del régimen. Un régimen plenamente transmisivo tiene T_SV próxima a 1. Un régimen altamente clausurado tiene T_SV próxima a 0. El horizonte aparece cuando la transmisibilidad cae bajo el umbral.
+
+Esta magnitud será utilizada tanto en el banco escalar como en el banco vectorial. En el primero depende de Θ. En el segundo depende de Θ_H_vec:
+
+
+T_SV
+
+1 / (1 + Θ_H_vec).
+
+
+## 4.4. Umbral crítico
+
+
+El umbral crítico separa el régimen precrítico del régimen de horizonte. En esta publicación se fija:
+
+
+τ_H=0.1.
+
+
+El criterio es:
+
+
+T_SV≤ 0.1.
+
+
+Sustituyendo:
+
+
+1 / (1 + Θ)≤ 0.1.
+
+
+Como se ha mostrado:
+
+
+Θ≥ 9.
+
+
+Por tanto, el valor (Θ=9) representa el punto de horizonte crítico en el modelo escalar. No es todavía un horizonte consolidado por exceso; es el borde exacto de declaración.
+
+Se distinguen tres estados:
+
+
+Θ<9
+Longrightarrow
+T_SV>0.1
+Longrightarrow
+régimen precrítico.
+
+
+Θ=9
+Longrightarrow
+T_SV=0.1
+Longrightarrow
+horizonte crítico.
+
+
+Θ>9
+Longrightarrow
+T_SV<0.1
+Longrightarrow
+horizonte consolidado.
+
+
+Este umbral cumple función de laboratorio. Permite que los bancos numéricos dicten errores si se declara horizonte con (Θ<9), o si se niega horizonte con (Θ≥9) sin causa formal adicional.
+
+
+## 4.5. Régimen precrítico
+
+
+El régimen precrítico corresponde a valores de carga interna que reducen la transmisibilidad, pero no la sitúan todavía por debajo del umbral de horizonte. Formalmente:
+
+
+Θ<9.
+
+
+Equivalente:
+
+
+T_SV>0.1.
+
+
+En este régimen puede haber alta clausura relativa, pérdida parcial de transmisión, fuerte curvatura externa en una lectura geométrica, compactación elevada o comportamiento límite. Sin embargo, según el criterio de este documento, no debe declararse horizonte pleno si la transmisibilidad permanece por encima del umbral.
+
+El régimen precrítico es importante porque impide falsos positivos. No toda región extrema es un agujero negro. No toda alta masa produce horizonte. No toda reducción de transmisión autoriza dictamen de no transmisibilidad crítica.
+
+Ejemplo escalar:
+
+
+Θ=3.
+
+
+Entonces:
+
+
+T_SV=1 / 1+3=1 / 4=0.25.
+
+
+Como:
+
+
+0.25>0.1,
+
+
+el dictamen es:
+
+
+no horizonte pleno.
+
+
+La frontera puede ser intensa, compacta o fuertemente condicionada, pero no alcanza el estatuto operatorio de horizonte según el umbral adoptado.
+
+
+## 4.6. Horizonte crítico
+
+
+El horizonte crítico corresponde al valor exacto de umbral:
+
+
+Θ=9.
+
+
+Entonces:
+
+
+T_SV
+
+1 / 1+9
+
+0.1.
+
+
+El régimen queda justo en el límite de no transmisibilidad operacional. Se declara horizonte, pero en estado crítico, no consolidado por exceso.
+
+El horizonte crítico cumple función fundamental en el banco numérico porque separa de forma exacta dos dictámenes. Cualquier implementación debe tratarlo con precisión. Si el criterio adoptado es (T_SV≤τ_H), entonces el caso de igualdad pertenece al horizonte:
+
+
+T_SV=0.1
+Longrightarrow
+H_BH^SV.
+
+
+No debe clasificarse como precrítico. Tampoco debe confundirse con horizonte consolidado. Es frontera exacta.
+
+Físicamente, el horizonte crítico representa el punto en el que el régimen deja de ser transmisivo en la escala operacional adoptada. Su importancia no radica en que el número 9 posea estatuto absoluto, sino en que la relación entre transmisibilidad y carga interna permite fijar un límite claro y reproducible.
+
+
+## 4.7. Horizonte consolidado
+
+
+El horizonte consolidado corresponde a:
+
+
+Θ>9,
+
+
+o, en forma de transmisibilidad:
+
+
+T_SV<0.1.
+
+
+En este régimen, la no transmisibilidad no se encuentra sólo en el borde crítico, sino que se ha profundizado. Cuanto mayor es Θ, menor es T_SV, y más consolidado resulta el horizonte.
+
+Ejemplo:
+
+
+Θ=20.
+
+
+Entonces:
+
+
+T_SV
+
+1 / 1+20
+
+1 / 21
+≈ 0.0476.
+
+
+Como:
+
+
+0.0476<0.1,
+
+
+el dictamen es:
+
+
+horizonte consolidado.
+
+
+El horizonte consolidado no autoriza, por sí mismo, a declarar el destino del contenido interior. Sólo autoriza el dictamen de no transmisibilidad externa. El interior permanece como saturación factual y el destino global queda sometido a U.
+
+Esta distinción será esencial para evitar errores de cierre: un horizonte muy consolidado no equivale a conocimiento completo del interior.
+
+
+## 4.8. Condiciones de no declaración de horizonte
+
+
+El documento establece condiciones explícitas bajo las cuales no debe declararse horizonte.
+
+Primera condición:
+
+
+T_SV>τ_H.
+
+
+Si la transmisibilidad supera el umbral, no hay horizonte pleno.
+
+Segunda condición:
+
+
+Θ<9
+
+
+en el modelo escalar con τ_H = 0.1. En tal caso, el régimen es precrítico.
+
+Tercera condición:
+
+
+Θ_H_vec<9
+
+
+en el modelo vectorial. Una alta masa efectiva no basta si la orientación de clausura no produce carga vectorial suficiente.
+
+Cuarta condición: ausencia de dominio. Si no se han definido las magnitudes de entrada, no se puede declarar horizonte por analogía.
+
+Quinta condición: contradicción de monotonicidad. Si una implementación produce aumento de transmisibilidad al aumentar Θ, el resultado debe rechazarse.
+
+Sexta condición: sustitución de U por conclusión especulativa. Un régimen puede ser horizonte y, aun así, conservar U sobre el destino global del contenido. Si se declara una salida, desaparición o singularidad definitiva sin construcción formal, el dictamen debe fallar.
+
+Estas condiciones no son cautelas editoriales; son exigencias del modelo. Su función es impedir que la noción de agujero negro se use de forma excesiva o no verificable.
+
+
+# V. Régimen escalar de clausura
+
+
+## 5.1. Carga factual interna escalar
+
+
+El régimen escalar de clausura constituye la primera aproximación formal al horizonte de agujero negro. En él, la carga factual interna se representa mediante una magnitud única, Θ, sin incorporar todavía dirección, orientación de cierre ni estructura angular. Esta simplificación permite estudiar de forma limpia la relación entre clausura y transmisibilidad.
+
+La carga factual interna escalar se interpreta como el grado agregado de no clausura soportado por el régimen antes de alcanzar una frontera de transmisión críticamente reducida. En el modelo mínimo:
+
+
+Θ ≥ 0.
+
+
+La transmisibilidad factual asociada es:
+
+
+T_SVΘ
+
+1 / (1 + Θ).
+
+
+Esta función posee tres propiedades fundamentales.
+
+Primera:
+
+
+T_SV0=1.
+
+
+Un régimen sin carga interna de clausura conserva transmisión completa en la escala formal considerada.
+
+Segunda:
+
+
+dT_SV / dΘ
+
+-1 / (1 + Θ)²<0.
+
+
+La transmisibilidad decrece estrictamente al aumentar Θ.
+
+Tercera:
+
+
+lim_Θ→∞T_SVΘ=0.
+
+
+La clausura extrema conduce a no transmisibilidad límite.
+
+Estas tres propiedades hacen de Θ una magnitud adecuada para el estudio inicial del horizonte. Permite separar, sin ambigüedad, regímenes transmisivos, regímenes precríticos, horizonte crítico y horizonte consolidado. No obstante, por ser escalar, no resuelve todavía el problema de orientación, masa efectiva o dirección de clausura. Esa limitación se abordará en el régimen vectorial.
+
+
+## 5.2. Persistencia y transmisión
+
+
+En el modelo escalar, la persistencia normalizada y la transmisibilidad factual coinciden:
+
+
+ΨΘ
+
+T_SVΘ
+
+1 / (1 + Θ).
+
+
+Esta identidad expresa que, en la primera aproximación, la capacidad del régimen para persistir como transmisivo coincide con su capacidad de comunicar contenido hacia el exterior. Mientras la persistencia es alta, el régimen conserva apertura. Cuando la persistencia cae, la transmisión queda reducida.
+
+El vínculo entre persistencia y transmisión tiene una consecuencia importante: el horizonte puede definirse sin recurrir inicialmente a geometría. Basta con evaluar la transmisión relativa. Si:
+
+
+Ψ>τ_H,
+
+
+el régimen mantiene transmisión superior al umbral. Si:
+
+
+Ψ≤τ_H,
+
+
+la frontera adquiere estatuto de horizonte.
+
+Con τ_H = 0.1, se obtiene:
+
+
+Ψ≤0.1
+⇔
+Θ≥9.
+
+
+Así, el modelo escalar no sólo introduce una magnitud de clausura; introduce un criterio reproducible de dictamen.
+
+La persistencia no debe leerse como duración temporal. En este documento no funciona como medida de tiempo, sino como magnitud de conservación estructural transmisiva. Un régimen puede tener alta o baja persistencia sin que ello implique convertir el tiempo en fundamento. Lo que se evalúa es la relación entre carga interna y transmisión externa.
+
+
+## 5.3. Colapso gradual de la transmisibilidad
+
+
+La caída de transmisibilidad no ocurre como salto arbitrario. La función:
+
+
+T_SVΘ=1 / (1 + Θ)
+
+
+describe un colapso gradual. Aumentos moderados de Θ reducen la transmisión de forma progresiva; aumentos altos la sitúan en régimen crítico; aumentos extremos consolidan la no transmisibilidad.
+
+La función es continua y estrictamente decreciente. Por tanto, no permite dictámenes contradictorios: si un valor mayor de Θ produjera mayor transmisibilidad que un valor menor, el cálculo estaría mal definido o el laboratorio habría fallado.
+
+La relación puede expresarse así:
+
+
+Θ_1<Θ_2
+Longrightarrow
+T_SV(Θ_1)>
+T_SV(Θ_2).
+
+
+Esta propiedad será uno de los criterios de aceptación del laboratorio. La monotonicidad no es un detalle técnico menor; garantiza que el horizonte no se declare por capricho. La transmisión cae porque aumenta la clausura, y el modelo debe conservar esa relación en todos sus casos.
+
+El colapso gradual permite además distinguir entre regiones compactas no horizontales y horizontes consolidados. Un régimen con (Θ=3) puede ser altamente condicionado, pero todavía no es horizonte. Un régimen con (Θ=20) presenta transmisión inferior al umbral y queda en horizonte consolidado.
+
+
+## 5.4. Tabla canónica de valores
+
+
+El banco escalar mínimo emplea tres valores:
+
+
+Θ=3, 
+Θ=9, 
+Θ=20.
+
+
+Estos valores no pretenden agotar la física de los agujeros negros. Se eligen porque separan de forma clara los tres estados básicos del modelo: régimen precrítico, horizonte crítico y horizonte consolidado.
+
+La tabla de referencia es:
+
+| Θ | (T_SV=1/(1 + Θ)) | Dictamen |
+| --- | --- | --- |
+| 3 | 0.2500 | Régimen precrítico; no horizonte pleno |
+| 9 | 0.1000 | Horizonte crítico |
+| 20 | 0.0476 | Horizonte consolidado |
+
+La lectura de la tabla es directa. Para (Θ=3), la transmisibilidad conserva un cuarto de la escala relativa. Está reducida, pero no por debajo del umbral. Para (Θ=9), la transmisibilidad alcanza exactamente el límite operacional. Para (Θ=20), la transmisión cae de forma clara bajo el umbral.
+
+Esta tabla deberá aparecer tanto en el cuerpo del documento como en el banco numérico SV-BH1. Además, el laboratorio debe reproducir exactamente estos dictámenes. Si un runner clasifica (Θ=3) como horizonte, falla. Si clasifica (Θ=9) como no horizonte, falla. Si clasifica (Θ=20) como precrítico, falla.
+
+
+## 5.5. Casos (Θ = 3), (Θ = 9) y (Θ = 20)
+
+
+Caso escalar 1: (Θ=3)
+
+Se calcula:
+
+
+T_SV(3)
+
+1 / 1+3
+
+1 / 4
+
+0.25.
+
+
+Como:
+
+
+0.25>0.1,
+
+
+el régimen no alcanza horizonte pleno. El dictamen es:
+
+
+D_BH(Θ=3)
+
+precrítico.
+
+
+Físicamente, esto corresponde a una región de clausura apreciable, pero todavía transmisiva por encima del umbral. Puede haber compactación, curvatura externa o comportamiento intenso, pero no debe declararse agujero negro según el criterio operatorio de esta publicación.
+
+Caso escalar 2: (Θ=9)
+
+Se calcula:
+
+
+T_SV9
+
+1 / 1+9
+
+0.1.
+
+
+Como:
+
+
+0.1=τ_H,
+
+
+el régimen alcanza el umbral exacto. El dictamen es:
+
+
+D_BH(Θ=9)
+
+horizonte crítico.
+
+
+Este caso es decisivo porque prueba el tratamiento de igualdad. El modelo adopta el criterio:
+
+
+T_SV≤τ_H.
+
+
+Por tanto, la igualdad pertenece al horizonte.
+
+Caso escalar 3: (Θ=20)
+
+Se calcula:
+
+
+T_SV(20)
+
+1 / 1+20
+
+1 / 21
+≈
+0.0476.
+
+
+Como:
+
+
+0.0476<0.1,
+
+
+el régimen se encuentra en horizonte consolidado. El dictamen es:
+
+
+D_BH(Θ=20)
+
+horizonte consolidado.
+
+
+Este caso representa no transmisibilidad externa claramente establecida. El interior queda en saturación factual. El destino global del contenido no se resuelve por el hecho de que el horizonte esté consolidado.
+
+
+## 5.6. Interpretación física de los tres casos
+
+
+Los tres casos muestran que el agujero negro no debe confundirse con cualquier régimen intenso. La intensidad interna es necesaria, pero no basta si no produce caída crítica de transmisión.
+
+En (Θ=3), la transmisión está reducida, pero todavía por encima del umbral. El régimen puede considerarse fuertemente condicionado, pero no horizonte pleno. Este caso protege contra la inflación conceptual: no toda compactación extrema debe llamarse agujero negro.
+
+En (Θ=9), se alcanza la frontera crítica. Es el punto mínimo de declaración de horizonte. La transmisión queda justo en el valor límite. Este caso permite fijar el estatuto formal del horizonte sin recurrir a una singularidad.
+
+En (Θ=20), la no transmisibilidad queda consolidada. La frontera ya no se limita a estar en el umbral: está por debajo de él. Sin embargo, incluso aquí se conserva la separación entre horizonte e interior. La existencia de horizonte consolidado no autoriza conclusiones sobre el destino global del contenido.
+
+Así, el banco escalar permite ordenar el fenómeno en tres estratos:
+
+
+precrítico
+ → 
+horizonte crítico
+ → 
+horizonte consolidado.
+
+
+La transición entre ellos no depende de una narrativa cualitativa, sino de un cálculo reproducible.
+
+
+## 5.7. Límites del modelo escalar
+
+
+El modelo escalar cumple una función necesaria, pero no suficiente. Permite fijar la relación básica entre clausura y transmisibilidad, demostrar monotonicidad, establecer un umbral y construir los primeros dictámenes. Sin embargo, no incorpora la dirección del cierre ni distingue entre masa efectiva y orientación.
+
+Ese límite es especialmente importante. Si se empleara sólo Θ escalar, podría suponerse erróneamente que una cantidad elevada de masa o de carga interna basta siempre para producir horizonte. El documento no acepta esa conclusión. La clausura extrema exige considerar también cómo se orienta la acumulación respecto de la transmisión externa.
+
+Por ello, el modelo escalar debe entenderse como primera compuerta de cálculo, no como explicación completa del régimen de agujero negro. Su función es demostrar que la no transmisibilidad puede formalizarse. La función del modelo vectorial será demostrar que el horizonte requiere, además, orientación de clausura.
+
+La conclusión del apartado es:
+
+
+El modelo escalar fija el umbral de no transmisibilidad,
+pero no agota la estructura del horizonte.
+
+
+# VI. Régimen vectorial de clausura extrema
+
+
+## 6.1. Necesidad de vectorialidad
+
+
+La lectura escalar permite determinar cuándo una carga interna produce caída crítica de transmisibilidad. Sin embargo, un agujero negro no debe definirse sólo por cantidad acumulada. La dirección y la orientación de clausura son necesarias para distinguir entre alta intensidad sin horizonte y clausura extrema con no transmisibilidad.
+
+La vectorialidad responde a esta necesidad. Permite introducir el modo en que la masa efectiva o la acumulación de campo se orientan respecto de la transmisión externa. Una misma magnitud acumulada puede tener efectos distintos según su orientación de cierre.
+
+El problema puede formularse así: una gran acumulación no orientada hacia clausura puede no producir horizonte pleno; una acumulación orientada de forma extrema sí puede reducir la transmisión por debajo del umbral. Por tanto, el dictamen de agujero negro no debe depender sólo de un valor escalar.
+
+El régimen vectorial introduce una magnitud de horizonte:
+
+
+Θ_H_vec.
+
+
+Esta magnitud combina masa efectiva de clausura y orientación. Su función es decidir si la configuración produce no transmisibilidad suficiente.
+
+
+## 6.2. Masa efectiva, orientación y cierre
+
+
+La masa efectiva de clausura se designa mediante M_H. No se identifica de forma inmediata con la masa clásica observacional, aunque pueda proyectarse sobre ella en una lectura externa. En este documento, M_H representa la capacidad de una configuración para contribuir al cierre del régimen.
+
+La orientación de cierre se expresa mediante un ángulo α_H. Este ángulo no es necesariamente un ángulo espacial ordinario. Representa la orientación factual del régimen respecto de la transmisión externa. Cuando la orientación no favorece la clausura, el efecto de M_H sobre el horizonte puede ser limitado. Cuando la orientación se aproxima al cierre extremo, la carga vectorial aumenta.
+
+La combinación mínima adoptada es:
+
+
+Θ_H_vec
+
+M_H · (1 − cos α_H).
+
+
+Esta expresión posee una lectura clara. Si:
+
+
+α_H=0,
+
+
+entonces:
+
+
+1 − cos 0 = 0,
+
+
+y por tanto:
+
+
+Θ_H_vec=0.
+
+
+La masa efectiva no produce clausura de horizonte si la orientación no activa el cierre.
+
+Si:
+
+
+α_H=π,
+
+
+entonces:
+
+
+1 − cos π=2,
+
+
+y:
+
+
+Θ_H_vec=2M_H.
+
+
+La orientación extrema duplica el efecto de clausura en la escala adoptada.
+
+
+## 6.3. Carga factual vectorial de horizonte
+
+
+La carga factual vectorial de horizonte queda definida como:
+
+
+Θ_H_vec
+
+M_H · (1 − cos α_H).
+
+
+La transmisibilidad asociada es:
+
+
+T_SV_vec
+
+1 / (1 + Θ_H_vec).
+
+
+El criterio de horizonte pasa a ser:
+
+
+T_SV_vec≤τ_H.
+
+
+Con τ_H = 0.1, esto equivale a:
+
+
+Θ_H_vec≥9.
+
+
+Así, el dictamen vectorial no se apoya en M_H aislada, sino en la combinación:
+
+
+M_H · (1 − cos α_H).
+
+
+Esto permite que dos configuraciones con la misma masa efectiva reciban dictámenes distintos si su orientación de clausura difiere. También permite que una masa efectiva alta no genere horizonte pleno cuando el ángulo de clausura sea bajo.
+
+La carga vectorial se convierte, por tanto, en el verdadero criterio operatorio de horizonte en el modelo ampliado.
+
+
+## 6.4. Ángulo de clausura
+
+
+El ángulo de clausura α_H mide la orientación factual del régimen respecto de la transmisión externa. No debe entenderse como simple dirección geométrica en el espacio ordinario. Su función es representar cómo la acumulación se orienta hacia clausura o apertura transmisiva.
+
+La función:
+
+
+1 − cosα_H
+
+
+permite distinguir tres situaciones.
+
+Primera:
+
+
+α_H=0.
+
+
+No hay activación de clausura vectorial:
+
+
+1 − cosα_H=0.
+
+
+Segunda:
+
+
+0<α_H<π.
+
+
+Hay activación parcial. La carga vectorial aumenta conforme el ángulo se aproxima a π.
+
+Tercera:
+
+
+α_H=π.
+
+
+Hay orientación extrema de clausura:
+
+
+1 − cosα_H=2.
+
+
+La elección de esta función no es arbitraria. Permite una transición continua entre no clausura, clausura parcial y clausura extrema. Además, impide que la masa efectiva sea suficiente por sí sola: sin orientación, no hay carga vectorial de horizonte.
+
+El ángulo de clausura será una de las variables principales del banco SV-BH1.
+
+
+## 6.5. Alta masa sin horizonte pleno
+
+
+El primer caso vectorial que debe considerarse es el de alta masa efectiva sin horizonte pleno. Sea:
+
+
+M_H=20,
+
+
+pero con ángulo bajo:
+
+
+α_H=0.
+
+
+Entonces:
+
+
+Θ_H_vec
+
+20(1 − cos 0)
+
+20(1-1)
+
+
+La transmisibilidad es:
+
+
+T_SV_vec
+
+1 / 1+0
+
+
+No hay horizonte. Este caso es deliberadamente fuerte: muestra que incluso una masa efectiva alta no basta si la orientación de clausura no activa el régimen de no transmisibilidad.
+
+Puede adoptarse un caso menos extremo, con ángulo pequeño. Si:
+
+
+α_H=0.3,
+
+
+entonces:
+
+
+1 − cos(0.3)≈ 0.0447.
+
+
+Con (M_H=20):
+
+
+Θ_H_vec
+≈
+20·0.0447
+
+0.894.
+
+
+La transmisibilidad será:
+
+
+T_SV_vec
+
+1 / 1+0.894
+≈
+0.528.
+
+
+Como:
+
+
+0.528>0.1,
+
+
+el dictamen sigue siendo no horizonte pleno.
+
+La conclusión es clara: la alta masa efectiva no garantiza horizonte si la orientación de clausura no es suficiente.
+
+
+## 6.6. Alta masa con horizonte crítico
+
+
+El horizonte crítico vectorial se obtiene cuando:
+
+
+Θ_H_vec=9.
+
+
+Dado:
+
+
+Θ_H_vec
+
+M_H · (1 − cos α_H),
+
+
+puede fijarse M_H y resolver el ángulo de clausura necesario.
+
+Por ejemplo, si:
+
+
+M_H=10,
+
+
+se requiere:
+
+
+10(1 − cosα_H)=9.
+
+
+Entonces:
+
+
+1 − cosα_H=0.9,
+
+
+cosα_H=0.1,
+
+
+α_H=arccos(0.1)≈ 1.4706.
+
+
+Con ese valor:
+
+
+T_SV_vec
+
+1 / 1+9
+
+0.1.
+
+
+El régimen queda exactamente en horizonte crítico.
+
+Este caso muestra que el horizonte depende de una combinación entre magnitud efectiva y orientación. Una masa efectiva de 10 no produce necesariamente horizonte; lo produce cuando su orientación de clausura alcanza el valor necesario.
+
+
+## 6.7. Alta masa con clausura extrema
+
+
+El caso de clausura extrema aparece cuando:
+
+
+Θ_H_vec>9.
+
+
+Sea:
+
+
+M_H=20,
+ 
+α_H=π.
+
+
+Entonces:
+
+
+Θ_H_vec
+
+20(1 − cos π)
+
+20(1-(-1))
+
+
+La transmisibilidad será:
+
+
+T_SV_vec
+
+1 / 1+40
+
+1 / 41
+≈
+0.0244.
+
+
+Como:
+
+
+0.0244<0.1,
+
+
+el régimen corresponde a horizonte consolidado con clausura extrema.
+
+Este caso representa un régimen en el que la masa efectiva y la orientación de cierre cooperan plenamente. La frontera queda en no transmisibilidad profunda y el interior en saturación factual. Sin embargo, incluso en este caso, el destino global del contenido permanece en U.
+
+El modelo vectorial evita, por tanto, dos errores: negar el papel de la masa efectiva y convertirla en criterio suficiente. La masa importa, pero sólo produce horizonte cuando se articula con orientación de clausura.
+
+
+## 6.8. Teorema de no suficiencia de la masa aislada
+
+
+Teorema 6.8.1. La masa efectiva aislada no es condición suficiente para declarar horizonte de agujero negro en el régimen vectorial de clausura.
+
+Demostración.
+Sea (M_H>0) una masa efectiva de clausura. El criterio vectorial de horizonte exige:
+
+
+Θ_H_vec
+
+M_H · (1 − cos α_H)
+≥ 9.
+
+
+Si:
+
+
+α_H=0,
+
+
+entonces:
+
+
+1 − cos 0=0.
+
+
+Por tanto:
+
+
+Θ_H_vec
+
+M_H·0
+
+
+Así:
+
+
+T_SV_vec
+
+1 / 1+0
+
+
+Como:
+
+
+1>0.1,
+
+
+no se cumple el criterio de horizonte. Luego existe al menos una orientación de clausura para la cual cualquier (M_H>0) no produce horizonte. En consecuencia, la masa efectiva aislada no basta para declarar agujero negro.
+
+
+M_H  aislada no implica H_BH^SV.
+
+
+Corolario 6.8.2. Todo dictamen de horizonte en el modelo vectorial debe declarar simultáneamente masa efectiva, orientación de clausura, carga vectorial resultante y transmisibilidad.
+
+Lectura física.
+El agujero negro no se define por acumulación masiva tomada de forma aislada, sino por clausura vectorial suficiente. La orientación importa porque el horizonte es un régimen de no transmisibilidad, no una simple suma de contenido.
+
+
+# VII. Interior del agujero negro
+
+
+## 7.1. Interior como régimen de saturación factual
+
+
+El interior del agujero negro se define en este documento como régimen de saturación factual. Esta formulación evita dos reducciones indebidas: considerar el interior como vacío absoluto o declararlo directamente como singularidad infinita. La saturación factual designa una condición extrema en la que el contenido queda sometido a clausura interna y pierde transmisión externa ordinaria.
+
+Sea (Interior(BH)_SV) el dominio interior asociado al régimen de agujero negro. Se establece:
+
+
+Interior(BH)_SV
+
+
+Ω_int
+ |
+T_SV≤τ_H
+.
+
+
+Esta definición no describe todavía la evolución completa del contenido, sino su estatuto mínimo: pertenece a un dominio no transmisivo hacia el exterior. La frontera impide la comunicación ordinaria; el interior conserva contenido bajo régimen de saturación.
+
+La saturación factual puede expresarse así:
+
+
+Sat_BH^SV
+⇔
+(
+Θ_H_vec≥9
+)
+y
+(
+T_SV≤0.1
+).
+
+
+Esta condición no significa que todo punto interior sea idéntico ni que el contenido quede homogéneamente distribuido. Significa que el régimen interior ya no puede tratarse como dominio de transmisión externa ordinaria. La información, energía, estructura o contenido no son eliminados por definición; quedan sometidos a un estado que el exterior no puede leer directamente bajo las condiciones del modelo.
+
+La tesis de este apartado es sobria: el interior del agujero negro es un régimen saturado del campo, no una nada física y no una infinitud asumida como fundamento.
+
+
+## 7.2. Rechazo de singularidad infinita como estatuto primario
+
+
+La singularidad infinita aparece en ciertas lecturas matemáticas como límite de la descripción geométrica. Sin embargo, este documento no adopta la singularidad infinita como estatuto primario del interior. La razón no es una negación retórica de la relatividad general, sino una exigencia formal: una infinitud no debe introducirse como hecho físico cuando el aparato operatorio permite describir el régimen como saturación, clausura y no transmisibilidad.
+
+La posición de este trabajo puede formularse así:
+
+
+Singularidad_∞
+≠
+estatuto primario de  Interior(BH)_SV.
+
+
+En su lugar:
+
+
+Interior(BH)_SV
+
+régimen de saturación factual.
+
+
+Esta sustitución conceptual no implica demostrar que ninguna singularidad pueda aparecer en una traducción métrica externa. Implica que, dentro del aparato de este documento, el interior no se define por una infinitud, sino por una condición operatoria verificable: transmisión externa bajo umbral y carga de clausura extrema.
+
+El rechazo de la singularidad infinita como fundamento tiene una consecuencia metodológica relevante. El documento no necesita afirmar qué ocurre “en el punto final” del colapso para definir el horizonte. Basta con dictaminar la no transmisibilidad y conservar U respecto del destino global del contenido. Así se evita convertir una limitación del formalismo geométrico en ontología física necesaria.
+
+La singularidad puede conservarse como señal de límite de una descripción externa. No se conserva como definición primaria del interior.
+
+
+## 7.3. Rechazo de vacío como descripción suficiente
+
+
+El interior del agujero negro tampoco puede describirse como vacío. La no transmisibilidad externa no equivale a ausencia de contenido. Si el horizonte impide la transmisión hacia el exterior, lo que queda determinado es la incapacidad de comunicación ordinaria, no la inexistencia del dominio interior.
+
+Se rechaza, por tanto:
+
+
+Interior(BH)_SV
+
+∅.
+
+
+En su lugar:
+
+
+Interior(BH)_SV
+
+Sat_BH^SV.
+
+
+La saturación factual implica presencia de contenido bajo régimen de clausura. Esa presencia puede no ser accesible externamente, puede no transmitir información ordinaria y puede no admitir descripción métrica directa completa. Pero no debe confundirse con vacío.
+
+El error de declarar vacío el interior nace de una lectura excesivamente externa: si el exterior no recibe contenido, se concluye que no hay contenido. El aparato de este documento separa ambos planos. La ausencia de transmisión no equivale a ausencia ontológica. La frontera no transmisiva impide la lectura externa; no anula por sí misma el dominio interior.
+
+Esta distinción resulta esencial para preservar el problema físico real. Si el interior se declarase vacío, se eliminaría artificialmente la cuestión del destino del contenido. Si se declara saturado, la cuestión permanece abierta y debe tratarse con U cuando no exista transición formal demostrada.
+
+
+## 7.4. Reorganización interna del contenido
+
+
+La saturación factual no es inmovilidad absoluta. Un dominio interior puede quedar no transmisivo hacia el exterior y, sin embargo, conservar reorganización interna. El documento no afirma que esa reorganización sea accesible desde fuera, ni que pueda describirse completamente con los recursos actuales. Afirma que no debe descartarse por el mero hecho de existir horizonte.
+
+La reorganización interna puede expresarse como:
+
+
+Rg_int^BH
+:
+Contenido_int
+→
+Contenido_int^prime,
+
+
+bajo la restricción:
+
+
+T_SV≤τ_H.
+
+
+Esto significa que el contenido puede cambiar de configuración interna sin recuperar transmisión exterior ordinaria. La frontera de no transmisibilidad no impide toda dinámica interna en sentido estructural; impide la comunicación externa del régimen.
+
+No obstante, este documento no desarrolla una teoría completa de la reorganización interior. La introduce sólo como posibilidad formal coherente con la saturación. La evolución específica del contenido interior exige una teoría ulterior, con operadores propios, banco numérico y condiciones de falsación. Mientras esa teoría no esté formulada, el destino global permanece en U.
+
+Por tanto, se distingue:
+
+
+reorganización interna posible
+≠
+destino global clausurado.
+
+
+El interior puede reorganizarse; el documento no declara hacia dónde culmina esa reorganización.
+
+
+## 7.5. Supresión de transmisión externa
+
+
+La supresión de transmisión externa es la propiedad definitoria del horizonte. En el régimen de agujero negro, el contenido interior no mantiene comunicación ordinaria con el exterior. Esta condición se expresa mediante:
+
+
+T_SV≤τ_H.
+
+
+Cuando esta desigualdad se cumple, la frontera se convierte en horizonte factual. La transmisión no queda necesariamente reducida a cero absoluto; queda por debajo del umbral operacional que permite dictaminar no transmisibilidad efectiva.
+
+La diferencia es importante. El modelo no requiere afirmar:
+
+
+T_SV=0
+
+
+para declarar horizonte. Basta:
+
+
+T_SV≤0.1.
+
+
+El horizonte se define por supresión crítica, no por aniquilación matemática de toda magnitud. En regímenes de clausura extrema, la transmisibilidad puede tender a cero:
+
+
+lim_Θ→∞T_SV=0.
+
+
+Pero el dictamen de horizonte se alcanza antes, en el umbral operacional fijado.
+
+La supresión de transmisión externa permite conectar la definición operatoria con la intuición física clásica: el exterior no recibe señal ordinaria del interior. La diferencia es que aquí esa condición no se formula primero como causalidad geométrica, sino como pérdida de transmisibilidad factual.
+
+
+## 7.6. Régimen estacionario interno
+
+
+Un primer estado posible del interior saturado es el régimen estacionario interno. En él, el contenido permanece bajo clausura extrema sin transición formal demostrada hacia otro estado global. No debe entenderse como reposo temporal absoluto, sino como persistencia de la condición de saturación.
+
+Se puede expresar:
+
+
+Sat_BH^SV
+→
+Reg_est^int
+
+
+cuando no se constata transición formal ulterior.
+
+El régimen estacionario interno conserva tres rasgos:
+
+
+T_SV≤τ_H,
+
+
+Interior(BH)_SV = Sat_BH^SV,
+
+
+Destino=U.
+
+
+Es decir, la frontera sigue siendo no transmisiva, el interior permanece saturado y el destino global no se clausura.
+
+Este régimen es el dictamen más prudente cuando no se dispone de información formal adicional. No afirma que nada cambie internamente. Afirma que, desde el aparato de este documento, no existe razón suficiente para declarar una transición global. El contenido queda conservado bajo saturación y su estado exteriormente no transmisible permanece vigente.
+
+El régimen estacionario interno sirve como estado de referencia para los laboratorios: si no se activa una transición definida, el sistema debe conservar saturación y U.
+
+
+## 7.7. Régimen de reconfiguración posible
+
+
+El segundo estado admisible es el régimen de reconfiguración posible. Se introduce para reconocer que un interior saturado podría experimentar transformación estructural sin que el documento tenga derecho a determinar su destino final.
+
+Se escribe:
+
+
+Sat_BH^SV
+→
+Reg_rec^int
+
+
+si existe una transformación interna compatible con las restricciones de no transmisibilidad. Sin embargo, esta transición sólo puede declararse si se especifican condiciones formales. En ausencia de tales condiciones, no debe afirmarse.
+
+La reconfiguración posible no autoriza agujeros de gusano, universos derivados, rebotes cosmológicos, evaporación completa o restitución informacional como conclusiones automáticas. Cualquiera de esas hipótesis exigiría su propio dominio, su propio operador y su propio criterio de validación.
+
+Por ello, el documento permite la forma abstracta:
+
+
+Reg_rec^int
+
+posible,
+
+
+pero conserva:
+
+
+Destino(Reg_rec^int)=U
+
+
+si no existe desarrollo adicional.
+
+La importancia de este apartado consiste en no cerrar falsamente. El interior no se declara muerto ni vacío, pero tampoco se convierte en sede de especulación libre. La reconfiguración es admisible como apertura formal; no como conclusión.
+
+
+## 7.8. Destino global del contenido en U
+
+
+El destino global del contenido interior queda en U. Éste es uno de los dictámenes más importantes del documento.
+
+Se establece:
+
+
+Destino_global(Contenido_int^BH)=U.
+
+
+La razón es precisa: el documento define el horizonte y el interior saturado, pero no construye una teoría completa del destino último del contenido. Sin esa teoría, cualquier conclusión fuerte sería indebida.
+
+El dictamen U impide tres cierres impropios:
+
+
+Contenido_int^BH
+→
+singularidad infinita final,
+
+
+Contenido_int^BH
+→
+desaparición absoluta,
+
+
+Contenido_int^BH
+→
+salida cosmológica.
+
+
+Ninguna de estas salidas se admite como conclusión del documento. Tampoco se niegan definitivamente en todos los marcos posibles. Simplemente no quedan clausuradas aquí.
+
+La forma final del apartado es:
+
+
+H_BH^SV
+ puede quedar dictaminado;
+ 
+Interior(BH)SV*
+* puede quedar descrito como saturación;*
+* *
+*Destino_global
+
+U.
+
+
+Esta triple separación preserva la honestidad formal de la publicación.
+
+
+# VIII. Relación con relatividad general
+
+
+## 8.1. Horizonte de Schwarzschild como lectura externa
+
+
+La relatividad general ofrece una descripción métrica del agujero negro mediante soluciones en las que aparece un radio crítico asociado a la masa. En el caso no rotante y sin carga eléctrica, el radio de Schwarzschild se expresa clásicamente como:
+
+
+r_s=2GM / c².
+
+
+Esta expresión no se introduce aquí como fundamento del modelo, sino como lectura externa de referencia. Su función es permitir comparación con la física establecida. El presente documento no pretende reemplazar esa fórmula, ni derivarla completamente, ni negar su utilidad. Lo que hace es situarla en otro plano.
+
+Desde la perspectiva operatoria propuesta, el radio crítico puede entenderse como manifestación métrica de una frontera de no transmisibilidad. Allí donde la lectura relativista identifica un horizonte causal, el aparato formal de este documento identifica una frontera en la que:
+
+
+T_SV≤τ_H.
+
+
+La relación entre ambas lecturas puede expresarse así:
+
+
+r_s
+≈
+lectura métrica externa de  H_BH^SV.
+
+
+Esta equivalencia no es identidad demostrada en sentido métrico completo. Es correspondencia conceptual: el horizonte clásico y el horizonte factual apuntan al mismo tipo de fenómeno, pero lo describen desde lenguajes distintos. La relatividad general emplea geometría; este documento emplea transmisibilidad.
+
+
+## 8.2. Radio crítico y frontera factual
+
+
+El radio crítico describe una frontera espacial en la lectura externa. La frontera factual describe una condición de transmisión. La traducción entre ambas requiere distinguir cuidadosamente sus estatutos.
+
+La frontera factual se define por:
+
+
+H_BH^SV
+
+∂Ω_BH
+ 
+tal que
+ 
+T_SV(∂Ω_BH)≤τ_H.
+
+
+El radio crítico sería entonces una coordenada o magnitud externa asociada a esa frontera cuando el régimen se proyecta en una geometría determinada.
+
+No se afirma:
+
+
+r_s = H_BH^SV
+
+
+como identidad formal. Se afirma:
+
+
+r_s
+ representa una lectura métrica posible de
+ H_BH^SV.
+
+
+Esta distinción impide que el documento dependa de una métrica específica. El horizonte factual puede definirse mediante transmisibilidad antes de elegir una traducción geométrica completa. La geometría se convierte en instancia de lectura, no en fundamento único.
+
+El desarrollo de una equivalencia métrica rigurosa quedaría para una teoría posterior. Tal teoría debería relacionar Θ_H_vec, T_SV, masa efectiva, orientación de clausura y radio externo. Este documento no la fuerza.
+
+
+## 8.3. Singularidad geométrica y saturación factual
+
+
+La singularidad geométrica aparece como límite de ciertas soluciones relativistas. En el aparato de este documento, ese límite se relee como indicio de saturación factual extrema, no como definición primaria del interior.
+
+La correspondencia propuesta es:
+
+
+Singularidad_geom
+↝
+Sat_BH^SV
+
+
+con una cautela: el símbolo (↝) no expresa equivalencia demostrada, sino relectura formal. Lo que la geometría muestra como límite no regular, el aparato de este documento lo trata como saturación interna y no transmisibilidad.
+
+Esta relectura presenta una ventaja conceptual: no obliga a convertir el infinito en estado físico. Permite mantener el problema abierto sin perder capacidad de dictamen local. El horizonte se declara por transmisibilidad; el interior se describe por saturación; la singularidad no se adopta como conclusión necesaria.
+
+Si una teoría posterior demostrara una correspondencia precisa entre singularidad métrica y saturación factual, podría incorporarse. Pero el presente trabajo no necesita esa identificación para definir el agujero negro. De hecho, su tesis principal gana fuerza al no depender de ella.
+
+La singularidad geométrica queda, por tanto, como límite de la descripción externa. La saturación factual queda como estatuto interno mínimo del régimen.
+
+
+## 8.4. Geometría inducida ante fundamento primario
+
+
+La geometría es indispensable para la física relativista. Sin embargo, en este documento no se adopta como fundamento primero del agujero negro. Se la entiende como lectura inducida de un régimen de campo. Esta decisión responde a una exigencia interna: el trabajo define el horizonte mediante transmisión, no mediante espacio-tiempo como primitiva.
+
+La geometría inducida puede expresar la frontera; no la origina formalmente dentro del aparato utilizado. El orden del documento es:
+
+
+Θ_H_vec
+→
+T_SV
+→
+H_BH^SV
+→
+posible lectura métrica.
+
+
+No es:
+
+
+geometría
+→
+horizonte
+→
+transmisibilidad.
+
+
+Este cambio de orden no niega el valor de la geometría. La reubica. La geometría sigue siendo el lenguaje adecuado para describir observaciones, radios, trayectorias externas, lentes gravitacionales y soluciones métricas. Pero el documento busca la condición operatoria que hace que una frontera sea horizonte.
+
+El resultado es una relación de compatibilidad, no de sustitución. La geometría puede traducir la clausura; la transmisibilidad define el dictamen.
+
+
+## 8.5. Lo compatible con la lectura relativista
+
+
+El enfoque de este documento es compatible con varias intuiciones centrales de la relatividad general.
+
+Primero, conserva la existencia de una frontera que separa un exterior transmisivo de un interior no accesible ordinariamente. Esa frontera corresponde, en la lectura operatoria, al horizonte de no transmisibilidad.
+
+Segundo, acepta que una concentración extrema puede producir una región de la que el exterior no recibe transmisión ordinaria. La diferencia es que aquí se expresa mediante T_SV, no mediante geometría como punto inicial.
+
+Tercero, admite que la lectura externa del horizonte pueda asociarse a un radio crítico. La fórmula clásica de Schwarzschild puede seguir funcionando como descripción métrica en el régimen adecuado.
+
+Cuarto, reconoce que el exterior puede conservar efectos gravitacionales atribuibles al objeto astrofísico. La no transmisibilidad del interior no elimina los efectos externos del régimen.
+
+Quinto, preserva el carácter problemático del interior. No lo trivializa ni lo declara accesible sin más.
+
+Por tanto, la relación con la relatividad general no es de oposición frontal. Es de distinción de niveles: la relatividad general describe geométricamente; este documento define operatoriamente.
+
+
+## 8.6. Lo que el presente trabajo no reemplaza
+
+
+Este trabajo no reemplaza las soluciones relativistas conocidas. No proporciona una nueva métrica completa para agujeros negros rotantes, cargados o dinámicos. No sustituye el cálculo astrofísico de radios, órbitas, discos de acreción, lentes gravitacionales o emisiones asociadas. No ofrece una teoría cuántica de la evaporación ni una resolución definitiva del problema de la información.
+
+Tampoco reemplaza la termodinámica de agujeros negros. Puede dialogar con ella mediante saturación, irreversibilidad y no transmisibilidad, pero no pretende sustituir directamente las formulaciones de entropía de horizonte ni las leyes termodinámicas establecidas.
+
+Lo que sí ofrece es una definición formal alternativa del régimen de agujero negro. Esta definición puede servir como base para futuras traducciones métricas, bancos astrofísicos o comparaciones con modelos relativistas. Pero esas extensiones no deben presentarse como ya realizadas.
+
+El documento conserva, por tanto, una delimitación estricta:
+
+
+definición operatoria
+≠
+teoría relativista completa.
+
+
+horizonte factual
+≠
+métrica derivada completa.
+
+
+saturación interior
+≠
+resolución total del interior.
+
+
+Esta delimitación protege el valor del trabajo, porque evita que se le exija aquello que no declara.
+
+
+## 8.7. Condiciones para una traducción métrica posterior
+
+
+Una traducción métrica posterior tendría que relacionar las magnitudes operatorias del documento con magnitudes geométricas externas. En particular, debería establecer correspondencias entre:
+
+
+Θ_H_vec,
+ 
+T_SV,
+ 
+M_H,
+ 
+α_H,
+ 
+r_s,
+ 
+M.
+
+
+Una traducción rigurosa debería cumplir al menos cuatro condiciones.
+
+Primera, conservar el criterio de transmisibilidad:
+
+
+T_SV≤τ_H
+⇔
+frontera métrica de horizonte en el régimen considerado.
+
+
+Segunda, explicar cómo la masa clásica M se relaciona con la masa efectiva de clausura M_H.
+
+Tercera, justificar el papel de la orientación α_H en términos de estructura del régimen, sin reducirla indebidamente a un ángulo espacial ordinario.
+
+Cuarta, preservar U respecto del destino global del contenido, salvo que la traducción métrica incorpore una teoría adicional del interior.
+
+Hasta que esas condiciones se satisfagan, la relación con la relatividad general debe mantenerse como compatibilidad y lectura externa, no como identidad formal completa.
+
+La conclusión del apartado es:
+
+
+La relatividad general ofrece la lectura geométrica;
+este trabajo ofrece el dictamen operatorio de no transmisibilidad.
+
+
+# IX. Relación con el campo unificado factual
+
+
+## 9.1. Lugar del agujero negro dentro del campo unificado
+
+
+El agujero negro ocupa, dentro del campo unificado factual, el estatuto de régimen extremo. No constituye una rama ordinaria de propagación, ni una interacción radial simple, ni una configuración electromagnética regular. Representa el límite en el que la clausura interna domina sobre la transmisión externa y obliga a tratar la frontera como horizonte.
+
+La relación general puede expresarse así:
+
+
+U_F
+→
+Θ
+→
+(Ψ,Φ)
+→
+Π_BHU_F.
+
+
+El régimen de agujero negro no queda fuera de esta cadena. Comparte con otros dominios la presencia de carga factual interna, persistencia normalizada y fragilidad bajo perturbación. Su diferencia consiste en que la transmisibilidad cae por debajo del umbral de horizonte:
+
+
+T_SV≤τ_H.
+
+
+Por tanto, el agujero negro no se define como excepción absoluta del campo, sino como caso extremo de su comportamiento. Allí donde otros regímenes propagan, distribuyen o reorganizan contenido con transmisión suficiente, el régimen de agujero negro clausura la salida exterior ordinaria.
+
+Esta ubicación evita dos errores. El primero sería tratar el agujero negro como fenómeno completamente separado del resto de la física del campo. El segundo sería diluirlo en una generalidad sin criterio propio. El agujero negro pertenece al campo unificado, pero se distingue por no transmisibilidad crítica.
+
+
+## 9.2. Proyección gravitacional
+
+
+La proyección gravitacional constituye el plano más próximo al régimen de agujero negro. En ella, el campo se organiza mediante acumulación, coincidencia estructural, residual, sensibilidad y clausura. La gravedad no se interpreta aquí como mera fuerza de atracción entre masas, sino como régimen de coherencia del campo bajo acumulación y clausura.
+
+La forma mínima de la proyección gravitacional puede representarse mediante:
+
+
+Π_GU_F
+
+(A_G,C_G,R_G,S_G,J_G^cl),
+
+
+donde (A_G) expresa acumulación factual, (C_G) coincidencia estructural, (R_G) residual gravitacional, (S_G) sensibilidad del régimen y (J_G^cl) clausura del evento.
+
+El agujero negro aparece cuando esta proyección gravitacional alcanza un estado límite en el que la clausura deja de ser sólo organización de trayectorias y pasa a producir no transmisibilidad externa. En ese punto, la gravedad ya no se presenta únicamente como régimen de coherencia, sino como clausura extrema.
+
+Puede escribirse:
+
+
+Π_GU_F
+→
+Π_BHU_F
+
+
+cuando:
+
+
+Θ_H_vec≥9.
+
+
+Esta transición no implica que todo régimen gravitacional sea agujero negro. Sólo lo es aquel que, por carga y orientación de clausura, reduce la transmisión externa bajo el umbral definido.
+
+
+## 9.3. Relación con el campo eléctrico radial
+
+
+El campo eléctrico radial comparte con la gravedad una ley de distribución inverso-cuadrática sobre soporte efectivo. En la rama eléctrica, un contenido factual conservado se distribuye radialmente y genera una intensidad:
+
+
+I_r^(E,SV)
+
+Q_E / K_Er².
+
+
+En la rama gravitacional, una forma análoga puede expresarse como:
+
+
+I_r^(G,SV)
+
+Q_G / K_Gr².
+
+
+La estructura común es:
+
+
+I_r^(X,SV)
+
+Q_X / K_Xr²,
+ 
+X∈E,G.
+
+
+El agujero negro no se reduce al campo eléctrico radial, pero su análisis se beneficia de esta ley común. La clausura extrema del régimen gravitacional debe compararse con la distribución radial de otros contenidos de campo, porque la no transmisibilidad se entiende mejor cuando se distingue entre propagación radial ordinaria y supresión de transmisión.
+
+El campo eléctrico radial muestra cómo un contenido conservado puede distribuirse sobre una frontera efectiva. El agujero negro muestra el caso contrario: un régimen en el que la frontera ya no opera como soporte de transmisión ordinaria hacia el exterior, sino como límite de no transmisibilidad.
+
+
+## 9.4. Relación con Maxwell factual
+
+
+El electromagnetismo factual proporciona un antecedente formal relevante porque distingue propagación, frontera, divergencia, rotor, respuesta de borde y conservación de estructura. Su valor para este documento no reside en trasladar mecánicamente las ecuaciones electromagnéticas al agujero negro, sino en mostrar una disciplina de campo: operadores definidos, condiciones de frontera, observables, bancos numéricos y laboratorios.
+
+La diferencia esencial es clara. En Maxwell factual, la frontera puede intervenir en propagación, circulación, modo o respuesta de borde. En el régimen de agujero negro, la frontera adquiere estatuto de no transmisibilidad. No es una frontera de propagación regulada; es una frontera en la que la transmisión externa ordinaria cae por debajo del umbral.
+
+Puede expresarse así:
+
+
+Π_EMU_F
+→
+propagación estructurada,
+
+
+Π_BHU_F
+→
+no transmisibilidad extrema.
+
+
+Ambas pertenecen al campo, pero no dicen lo mismo. El electromagnetismo factual conserva transmisión organizada; el agujero negro define el régimen en que esa transmisión externa ya no se sostiene. Esta diferencia impide confundir el horizonte con una simple frontera electromagnética.
+
+
+## 9.5. Ley radial común de soporte factual
+
+
+La ley radial común se formula como:
+
+
+I_r^(X,SV)
+
+Q_X / K_Xr².
+
+
+Esta expresión surge cuando un contenido factual conservado se distribuye sobre una frontera efectiva cuyo crecimiento es proporcional a r². En ese régimen, la intensidad decrece como ley inverso-cuadrática.
+
+La importancia de esta ley para el agujero negro es doble. En primer lugar, permite comprender por qué gravedad y campo eléctrico pueden compartir estructura radial sin confundirse. En segundo lugar, muestra que la no transmisibilidad del agujero negro no es una simple disminución radial ordinaria. Es un cambio de régimen.
+
+En una distribución radial ordinaria, el contenido se reparte sobre una frontera y su intensidad disminuye con la distancia:
+
+
+mathcal I_r propto 1 / r².
+
+
+En el régimen de agujero negro, la cuestión ya no es sólo la intensidad que llega al exterior, sino si la frontera permite transmisión externa suficiente:
+
+
+T_SV≤τ_H.
+
+
+Por tanto, la ley radial común explica el soporte de distribución. La teoría del agujero negro explica el límite en el que la distribución externa queda críticamente suprimida.
+
+
+## 9.6. Diferencia entre no transmisibilidad y propagación electromagnética
+
+
+La propagación electromagnética supone transmisión de estructura. Puede estar modulada, dispersada, confinada o afectada por condiciones de frontera, pero conserva una relación de comunicación del contenido del campo. La no transmisibilidad factual del agujero negro describe otra situación: una frontera en la que la comunicación externa ordinaria queda bajo umbral.
+
+La diferencia puede expresarse así:
+
+
+Propagación
+⇔
+T_SV>τ_H,
+
+
+No transmisibilidad
+⇔
+T_SV≤τ_H.
+
+
+Esta distinción evita confundir un horizonte con una zona de fuerte interacción electromagnética. Una región puede ser opaca, absorbente, dispersiva o altamente energética sin ser horizonte factual. El horizonte exige caída de transmisibilidad bajo criterio formal.
+
+En consecuencia, el agujero negro no se define por impedir cierta luz visible, ni por absorber radiación en sentido cotidiano, ni por comportarse como cuerpo oscuro. Se define por no transmisibilidad de régimen. La propagación electromagnética queda fuera o en el entorno; el interior saturado no queda disponible como dominio transmisivo ordinario.
+
+
+## 9.7. Agujero negro como caso extremo de campo
+
+
+El resultado de los apartados anteriores permite formular una conclusión de conjunto: el agujero negro es un caso extremo de campo. No es la negación del campo, ni su desaparición, ni un vacío. Es un régimen en el que el campo se clausura de tal manera que la transmisión externa deja de cumplir el umbral mínimo.
+
+En forma compacta:
+
+
+BH_SV
+
+Π_BHU_F
+ 
+con
+ 
+T_SV≤τ_H.
+
+
+Esta expresión sitúa al agujero negro dentro del campo unificado factual sin disolver su especificidad. La especificidad está en el dictamen de frontera:
+
+
+H_BH^SV
+
+∂Ω_BH
+ 
+tal que
+ 
+T_SV≤τ_H.
+
+
+El interior queda como:
+
+
+Interior(BH)_SV = Sat_BH^SV,
+
+
+y el destino global como:
+
+
+Destino_global=U.
+
+
+El agujero negro es, por tanto, el régimen en que la clausura interna vence a la transmisión externa ordinaria y obliga a distinguir horizonte, saturación y U. Esta definición permite relacionarlo con la gravedad, el campo eléctrico radial y el electromagnetismo sin reducirlo a ninguno de ellos.
+
+
+# X. Teoremas y proposiciones principales
+
+
+## 10.1. Definición formal de régimen de agujero negro
+
+
+Definición 10.1.1. Se denomina régimen de agujero negro al régimen de campo G_BH^SV asociado a una proyección (Π_BHU_F) tal que su transmisibilidad factual satisface:
+
+
+T_SV≤τ_H.
+
+
+En el modelo escalar:
+
+
+T_SV
+
+1 / (1 + Θ_H).
+
+
+En el modelo vectorial:
+
+
+T_SV
+
+1 / (1 + Θ_H_vec).
+
+
+Con τ_H = 0.1, la condición de horizonte queda:
+
+
+Θ_H≥9
+ 
+o
+ 
+Θ_H_vec≥9.
+
+
+La definición completa exige además que el interior se trate como saturación factual y que el destino global del contenido permanezca en U salvo demostración ulterior.
+
+Por tanto:
+
+
+BH_SV
+
+(H_BH^SV,Sat_BH^SV,U_destino).
+
+
+## 10.2. Proposición de horizonte como frontera de no transmisibilidad
+
+
+Proposición 10.2.1. El horizonte del agujero negro es una frontera de no transmisibilidad factual.
+
+Demostración.
+Por definición, el horizonte factual se declara cuando:
+
+
+T_SV≤τ_H.
+
+
+La magnitud T_SV expresa la capacidad relativa de transmisión externa del régimen. Si su valor cae por debajo del umbral operacional, la frontera deja de comportarse como frontera transmisiva ordinaria. En consecuencia, dicha frontera adquiere estatuto de horizonte.
+
+
+H_BH^SV
+⇔
+T_SV≤τ_H.
+
+
+La proposición queda establecida.
+
+Lectura física. El horizonte no se define aquí por una superficie geométrica tomada como fundamento, sino por el hecho de que la transmisión externa queda críticamente reducida.
+
+
+## 10.3. Teorema de umbral operacional
+
+
+Teorema 10.3.1. Si:
+
+
+T_SV=1 / (1 + Θ)
+
+
+y:
+
+
+τ_H=0.1,
+
+
+entonces el umbral de horizonte se alcanza si y sólo si:
+
+
+Θ≥9.
+
+
+Demostración.
+El criterio de horizonte es:
+
+
+T_SV≤0.1.
+
+
+Sustituyendo:
+
+
+1 / (1 + Θ)≤0.1.
+
+
+Como (1 + Θ>0), se multiplica sin invertir la desigualdad:
+
+
+1≤0.1(1 + Θ).
+
+
+Entonces:
+
+
+10≤1 + Θ,
+
+
+y por tanto:
+
+
+Θ≥9.
+
+
+Recíprocamente, si (Θ≥9), entonces:
+
+
+1 + Θ≥10,
+
+
+y:
+
+
+1 / (1 + Θ)≤1 / 10=0.1.
+
+
+Luego:
+
+
+T_SV≤τ_H.
+
+
+Queda demostrado el teorema.
+
+
+## 10.4. Teorema de monotonicidad de la transmisibilidad
+
+
+Teorema 10.4.1. La transmisibilidad factual escalar:
+
+
+T_SVΘ=1 / (1 + Θ)
+
+
+es estrictamente decreciente para (Θ≥0).
+
+Demostración.
+Derivando respecto de Θ:
+
+
+dT_SV / dΘ
+
+-1 / (1 + Θ)².
+
+
+Como:
+
+
+(1 + Θ)²>0
+
+
+para todo (Θ≥0), se tiene:
+
+
+dT_SV / dΘ<0.
+
+
+Por tanto, T_SV decrece estrictamente al aumentar Θ.
+
+
+Θ_1<Θ_2
+Longrightarrow
+T_SV(Θ_1)>
+T_SV(Θ_2).
+
+
+Consecuencia. Ningún laboratorio puede aceptar un resultado en el que una mayor carga de clausura produzca mayor transmisibilidad. Tal salida debe tratarse como error.
+
+
+## 10.5. Teorema de no suficiencia de masa aislada
+
+
+Teorema 10.5.1. La masa efectiva aislada no es condición suficiente para declarar un horizonte en el régimen vectorial.
+
+Demostración.
+El régimen vectorial define:
+
+
+Θ_H_vec
+
+M_H · (1 − cos α_H).
+
+
+El criterio de horizonte exige:
+
+
+Θ_H_vec≥9.
+
+
+Sea (M_H>0). Si:
+
+
+α_H=0,
+
+
+entonces:
+
+
+1 − cos 0=0.
+
+
+Por tanto:
+
+
+Θ_H_vec
+
+M_H·0
+
+
+En consecuencia:
+
+
+T_SV
+
+1 / 1+0
+
+
+Como:
+
+
+1>0.1,
+
+
+no hay horizonte. Luego existe una orientación para la cual cualquier masa efectiva aislada no produce horizonte. La masa efectiva, por sí sola, no basta.
+
+
+M_H
+↛
+H_BH^SV.
+
+
+Consecuencia. Todo dictamen de horizonte debe declarar masa efectiva, orientación de clausura, carga vectorial resultante y transmisibilidad.
+
+
+## 10.6. Proposición de saturación interna
+
+
+Proposición 10.6.1. Si un régimen satisface el criterio de horizonte, su interior debe describirse como saturación factual y no como vacío.
+
+Demostración.
+El criterio de horizonte establece:
+
+
+T_SV≤τ_H.
+
+
+Esta desigualdad sólo declara no transmisibilidad externa. No implica:
+
+
+Interior(BH)_SV=∅.
+
+
+Por el contrario, el régimen de horizonte presupone contenido sometido a clausura. Si no hubiera contenido, no habría régimen interior que dictaminar. Por tanto, el estatuto mínimo del interior no es vacío, sino saturación factual:
+
+
+Interior(BH)_SV = Sat_BH^SV.
+
+
+La proposición queda establecida.
+
+Lectura física. La ausencia de transmisión externa no equivale a ausencia de contenido. El interior queda saturado, no anulado.
+
+
+## 10.7. Proposición de no singularidad primaria
+
+
+Proposición 10.7.1. La singularidad infinita no constituye el estatuto primario del interior del agujero negro en este documento.
+
+Demostración.
+La definición operatoria del agujero negro se apoya en:
+
+
+T_SV≤τ_H,
+
+
+Interior(BH)_SV = Sat_BH^SV,
+
+
+Destino_global=U.
+
+
+Ninguna de estas condiciones exige declarar:
+
+
+Interior(BH)_SV = Singularidad_infinita.
+
+
+La singularidad infinita puede aparecer como límite de una descripción geométrica externa, pero no es necesaria para definir el régimen operatorio de horizonte. En consecuencia, no se adopta como estatuto primario.
+
+
+Singularidad_∞
+≠
+fundamento definicional de BH_SV.
+
+
+Consecuencia. El documento no niega toda discusión geométrica de singularidad; niega que sea el punto de partida formal de esta definición.
+
+
+## 10.8. Proposición de destino global no clausurado
+
+
+Proposición 10.8.1. El destino global del contenido interior del agujero negro permanece en U mientras no exista transición formal adicional.
+
+Demostración.
+El documento define el horizonte mediante transmisibilidad y el interior mediante saturación. Sin embargo, esas dos condiciones no determinan por sí mismas el destino último del contenido. De:
+
+
+T_SV≤τ_H
+
+
+no se sigue:
+
+
+Destino=singularidad final,
+
+
+ni:
+
+
+Destino=desaparición,
+
+
+ni:
+
+
+Destino=salida cosmológica.
+
+
+Al no existir en este documento una transición formal que determine ese destino, el dictamen correcto es:
+
+
+Destino_global(Contenido_int^BH)=U.
+
+
+La proposición queda establecida.
+
+Consecuencia. Cualquier salida cosmológica, desaparición absoluta o singularidad final declarada sin desarrollo formal debe tratarse como cierre indebido.
+
+
+## 10.9. Corolario de compatibilidad con lectura relativista externa
+
+
+Corolario 10.9.1. La definición operatoria de horizonte como frontera de no transmisibilidad es compatible con la lectura relativista externa del horizonte como frontera causal, sin identificarse completamente con ella.
+
+Demostración.
+La relatividad general describe el horizonte mediante estructura métrica y causal. Este documento lo describe mediante:
+
+
+T_SV≤τ_H.
+
+
+Ambas lecturas coinciden en que el exterior no recibe transmisión ordinaria desde el interior. Difieren en el fundamento formal: una emplea geometría; la otra emplea transmisibilidad.
+
+Por tanto, puede establecerse:
+
+
+H_clasico
+≈
+H_BH^SV
+
+
+como correspondencia de fenómeno, no como identidad formal completa.
+
+
+compatibilidad sin reducción mutua.
+
+
+Lectura física. El horizonte factual no reemplaza automáticamente la métrica relativista, pero ofrece una definición operatoria del mismo tipo de límite físico: una frontera desde la cual la transmisión externa ordinaria queda suprimida.
+
+
+# XI. Banco numérico SV-BH1
+
+
+## 11.1. Objeto del banco numérico
+
+
+El banco numérico SV-BH1 tiene por objeto verificar, con valores explícitos y reproducibles, la definición operatoria de agujero negro formulada en este documento. Su finalidad no es representar todavía un catálogo astrofísico real, sino construir un conjunto mínimo de casos capaces de poner a prueba las magnitudes fundamentales del modelo: carga interna, transmisibilidad, umbral de horizonte, vectorialidad, saturación y preservación de U.
+
+El banco debe cumplir cinco funciones.
+
+Primera, comprobar que la transmisibilidad escalar decrece cuando aumenta la carga factual interna:
+
+
+Θ_1<Θ_2
+Longrightarrow
+T_SV(Θ_1)>
+T_SV(Θ_2).
+
+
+Segunda, verificar que el umbral operacional se aplica correctamente:
+
+
+T_SV≤0.1
+⇔
+H_BH^SV.
+
+
+Tercera, mostrar que la masa efectiva aislada no basta para declarar horizonte si la orientación de clausura no produce carga vectorial suficiente.
+
+Cuarta, generar casos negativos que obliguen al laboratorio a fallar cuando el dictamen contradiga las reglas del documento.
+
+Quinta, preservar U cuando se pregunte por el destino global del contenido interior.
+
+El banco SV-BH1 es, por tanto, un banco de verificación formal. No pretende simular un agujero negro real completo. Pretende demostrar que la definición propuesta no queda en prosa, sino que puede aplicarse a entradas numéricas, producir dictámenes y rechazar salidas indebidas.
+
+
+## 11.2. Variables del banco
+
+
+El banco SV-BH1 emplea las siguientes variables principales.
+
+
+Θ
+
+
+representa la carga factual interna escalar de clausura.
+
+
+Θ_H_vec
+
+
+representa la carga factual vectorial de horizonte.
+
+
+M_H
+
+
+representa la masa efectiva de clausura.
+
+
+α_H
+
+
+representa el ángulo de clausura.
+
+
+T_SV
+
+
+representa la transmisibilidad factual relativa.
+
+
+τ_H
+
+
+representa el umbral operacional de horizonte.
+
+
+D_BH
+
+
+representa el dictamen del régimen.
+
+En el banco escalar se utiliza:
+
+
+T_SV
+
+1 / (1 + Θ).
+
+
+En el banco vectorial se utiliza:
+
+
+Θ_H_vec
+
+M_H · (1 − cos α_H),
+
+
+T_SV_vec
+
+1 / (1 + Θ_H_vec).
+
+
+El umbral se fija en:
+
+
+τ_H=0.1.
+
+
+El dictamen general se define mediante:
+
+
+D_BH
+
+
+precrítico, & T_SV>0.1,
+horizonte crítico, & T_SV=0.1,
+horizonte consolidado, & T_SV<0.1.
+
+
+Para implementación computacional, la igualdad exacta podrá tratarse mediante tolerancia numérica declarada. Esa tolerancia no podrá alterar el sentido del criterio: el caso de igualdad pertenece al horizonte crítico.
+
+
+## 11.3. Banco escalar de transmisibilidad
+
+
+El banco escalar contiene los tres casos mínimos ya introducidos:
+
+
+Θ=3, 
+Θ=9, 
+Θ=20.
+
+
+La tabla de cálculo es:
+
+| Caso | Θ | (T_SV=1/(1 + Θ)) | Dictamen esperado |
+| --- | --- | --- | --- |
+| E-BH-01 | 3 | 0.2500 | Precrítico |
+| E-BH-02 | 9 | 0.1000 | Horizonte crítico |
+| E-BH-03 | 20 | 0.0476 | Horizonte consolidado |
+
+El caso E-BH-01 verifica que una clausura apreciable no basta para declarar horizonte. La transmisibilidad queda reducida, pero supera el umbral.
+
+El caso E-BH-02 verifica el punto exacto de igualdad. Como el criterio adoptado es (T_SV≤τ_H), el caso se declara horizonte crítico.
+
+El caso E-BH-03 verifica el régimen consolidado. La transmisibilidad es inferior al umbral y el horizonte queda dictaminado con claridad.
+
+Este banco debe ser reproducido por el laboratorio sin desviación de dictamen. Los valores numéricos pueden redondearse en presentación, pero el cálculo interno debe conservar precisión suficiente para evitar errores de frontera.
+
+
+## 11.4. Banco vectorial de horizonte
+
+
+El banco vectorial introduce masa efectiva y orientación de clausura. Su finalidad es demostrar que la masa aislada no basta y que el horizonte depende de:
+
+
+Θ_H_vec
+
+M_H · (1 − cos α_H).
+
+
+Se proponen tres casos principales.
+
+| Caso | M_H | α_H | Θ_H_vec | T_SV_vec | Dictamen esperado |
+| --- | --- | --- | --- | --- | --- |
+| V-BH-01 | 20 | 0 | 0.0000 | 1.0000 | No horizonte |
+| V-BH-02 | 10 | (arccos(0.1)) | 9.0000 | 0.1000 | Horizonte crítico |
+| V-BH-03 | 20 | π | 40.0000 | 0.0244 | Horizonte consolidado |
+
+En V-BH-01 se comprueba el teorema de no suficiencia de la masa aislada. Aunque (M_H=20), el ángulo de clausura es nulo. Por tanto:
+
+
+Θ_H_vec=0,
+
+
+T_SV_vec=1.
+
+
+El dictamen es no horizonte.
+
+En V-BH-02 se fija el caso crítico vectorial. Como:
+
+
+cosα_H=0.1,
+
+
+se obtiene:
+
+
+Θ_H_vec=10(1-0.1)=9.
+
+
+La transmisibilidad es:
+
+
+T_SV_vec=0.1.
+
+
+El dictamen es horizonte crítico.
+
+En V-BH-03 se obtiene clausura extrema. Como:
+
+
+α_H=π,
+
+
+se tiene:
+
+
+Θ_H_vec=20(1-(-1))=40.
+
+
+La transmisibilidad queda por debajo del umbral:
+
+
+T_SV_vec≈0.0244.
+
+
+El dictamen es horizonte consolidado.
+
+
+## 11.5. Casos negativos
+
+
+El banco debe incluir casos negativos. Su función es impedir que el laboratorio acepte conclusiones incompatibles con el documento.
+
+El primer caso negativo consiste en declarar horizonte consolidado con transmisibilidad superior al umbral:
+
+
+Θ=3,
+ 
+T_SV=0.25.
+
+
+Como:
+
+
+0.25>0.1,
+
+
+cualquier dictamen de horizonte debe fallar.
+
+El segundo caso negativo consiste en declarar no horizonte para el caso crítico:
+
+
+Θ=9,
+ 
+T_SV=0.1.
+
+
+Como el criterio incluye igualdad:
+
+
+T_SV≤0.1,
+
+
+el caso pertenece al horizonte crítico. Declararlo precrítico debe producir error.
+
+El tercer caso negativo consiste en aceptar que la transmisibilidad aumente al aumentar Θ. Por ejemplo, si una implementación produjera:
+
+
+T_SV(20)>
+T_SV9,
+
+
+el resultado debe ser rechazado.
+
+El cuarto caso negativo consiste en declarar horizonte sólo por masa efectiva:
+
+
+M_H=20,
+ 
+α_H=0.
+
+
+Como:
+
+
+Θ_H_vec=0,
+
+
+no hay horizonte. Cualquier dictamen de horizonte en ese caso debe fallar.
+
+El quinto caso negativo consiste en sustituir U por una salida especulativa. Si el banco declara:
+
+
+Destino_global=otro universo,
+
+
+sin transición formal, el resultado debe fallar. El dictamen correcto es:
+
+
+Destino_global=U.
+
+
+## 11.6. Casos frontera
+
+
+Los casos frontera son indispensables porque los errores de interpretación suelen aparecer en los límites.
+
+El primer caso frontera es:
+
+
+Θ=9.
+
+
+Debe dictaminarse como horizonte crítico.
+
+El segundo caso frontera puede fijarse por encima y por debajo del umbral:
+
+
+Θ=8.999,
+
+
+Θ=9.001.
+
+
+Para (Θ=8.999):
+
+
+T_SV
+
+1 / 9.999
+≈0.10001.
+
+
+El dictamen es precrítico.
+
+Para (Θ=9.001):
+
+
+T_SV
+
+1 / 10.001
+≈0.09999.
+
+
+El dictamen es horizonte consolidado en sentido estricto, aunque extremadamente próximo al crítico.
+
+En el banco vectorial, el caso frontera corresponde a:
+
+
+Θ_H_vec=9.
+
+
+Cualquier combinación de M_H y α_H que produzca ese valor debe recibir el mismo dictamen: horizonte crítico. Esto demuestra que el dictamen depende de la carga vectorial resultante, no de la masa aislada.
+
+
+## 11.7. Casos consolidados
+
+
+Los casos consolidados verifican que, una vez superado claramente el umbral, el régimen se clasifica como horizonte consolidado.
+
+En el modelo escalar:
+
+
+Θ=20
+
+
+produce:
+
+
+T_SV≈0.0476.
+
+
+En el modelo vectorial:
+
+
+M_H=20,  α_H=π
+
+
+produce:
+
+
+Θ_H_vec=40,
+
+
+T_SV_vec≈0.0244.
+
+
+Ambos casos pertenecen al horizonte consolidado.
+
+No obstante, los casos consolidados no eliminan U sobre el destino del contenido. El laboratorio debe separar dos salidas:
+
+
+D_BH=horizonte consolidado,
+
+
+Destino_global=U.
+
+
+Si una implementación transforma el horizonte consolidado en conclusión sobre el destino global, incurre en cierre indebido.
+
+
+## 11.8. Tabla global de dictámenes
+
+
+La tabla global mínima del banco SV-BH1 queda así:
+
+| Caso | Tipo | Entrada principal | Transmisibilidad | Dictamen de horizonte | Destino global |
+| --- | --- | --- | --- | --- | --- |
+| E-BH-01 | Escalar | (Θ=3) | 0.2500 | Precrítico | No aplica |
+| E-BH-02 | Escalar | (Θ=9) | 0.1000 | Horizonte crítico | U |
+| E-BH-03 | Escalar | (Θ=20) | 0.0476 | Horizonte consolidado | U |
+| V-BH-01 | Vectorial | (M_H=20,α_H=0) | 1.0000 | No horizonte | No aplica |
+| V-BH-02 | Vectorial | (M_H=10,α_H=arccos(0.1)) | 0.1000 | Horizonte crítico | U |
+| V-BH-03 | Vectorial | (M_H=20,α_H=π) | 0.0244 | Horizonte consolidado | U |
+| N-BH-01 | Negativo | (Θ=3) declarado horizonte | 0.2500 | Error esperado | No aplica |
+| N-BH-02 | Negativo | (Θ=9) declarado precrítico | 0.1000 | Error esperado | U |
+| N-BH-03 | Negativo | destino cosmológico sin transición | variable | Error esperado | U |
+
+Esta tabla debe ser reproducida por el laboratorio de forma determinista. Cualquier discrepancia debe generar código de error.
+
+
+## 11.9. Interpretación física de resultados
+
+
+El banco SV-BH1 permite extraer cuatro conclusiones físicas.
+
+Primera, el horizonte no aparece por intensidad vaga, sino por caída cuantificada de transmisibilidad.
+
+Segunda, el régimen crítico se determina con precisión. El caso de igualdad pertenece al horizonte, pero debe distinguirse del horizonte consolidado.
+
+Tercera, la masa efectiva aislada no basta. La orientación de clausura modifica el dictamen de forma decisiva.
+
+Cuarta, el destino global del contenido no se resuelve por el hecho de declarar horizonte. La saturación interna y U deben preservarse.
+
+El banco confirma así la tesis principal del documento: el agujero negro es un régimen de clausura extrema y no transmisibilidad, no una conclusión geométrica aislada ni una singularidad asumida como fundamento.
+
+
+# XII. Laboratorios reproducibles
+
+
+## 12.1. Arquitectura general del laboratorio
+
+
+Los laboratorios reproducibles deben convertir las definiciones, teoremas y bancos numéricos en verificaciones ejecutables. Su función no es decorar el documento, sino someterlo a prueba. Todo resultado relevante debe poder obtenerse mediante ejecución determinista.
+
+La arquitectura mínima del laboratorio deberá incluir:
+
+
+datos/
+
+
+para los bancos de entrada;
+
+
+src/
+
+
+para las funciones de cálculo;
+
+
+tests/
+
+
+para verificaciones positivas y negativas;
+
+
+salidas/
+
+
+para resultados JSON;
+
+
+runner.py
+
+
+para ejecución completa;
+
+
+README.md
+
+
+para instrucciones de uso.
+
+El laboratorio deberá ejecutar, como mínimo:
+
+- transmisibilidad escalar;
+
+- transmisibilidad vectorial;
+
+- monotonicidad;
+
+- umbral;
+
+- adversarial de casos negativos;
+
+- preservación de U.
+
+La ejecución completa sólo podrá declararse apta si todos los módulos superan sus pruebas y si no existen pases silenciosos. Un caso no evaluado no debe contarse como correcto. Una salida ausente no debe contarse como éxito. Un error esperado debe registrarse como error esperado, no como fallo del laboratorio.
+
+
+## 12.2. Banco de entrada
+
+
+El banco de entrada debe contener, al menos, dos ficheros.
+
+El primero:
+
+
+banco_escalar.csv
+
+
+con columnas:
+
+
+case_id,Θ,expected_transmissibility,expected_dictamen,expected_destiny.
+
+
+Ejemplo:
+
+| case_id | Θ | expected_transmissibility | expected_dictamen | expected_destiny |
+| --- | --- | --- | --- | --- |
+| E-BH-01 | 3 | 0.25 | PRECRITICO | NA |
+| E-BH-02 | 9 | 0.10 | HORIZONTE_CRITICO | U |
+| E-BH-03 | 20 | 0.0476190476 | HORIZONTE_CONSOLIDADO | U |
+
+El segundo:
+
+
+banco_vectorial.csv
+
+
+con columnas:
+
+
+case_id,M_H,α_H,expected_Θ_vec,expected_transmissibility,expected_dictamen,expected_destiny.
+
+
+Ejemplo:
+
+| case_id | M_H | α_H | expected_Θ_H_vec | expected_transmissibility | expected_dictamen | expected_destiny |
+| --- | --- | --- | --- | --- | --- | --- |
+| V-BH-01 | 20 | 0 | 0 | 1 | NO_HORIZONTE | NA |
+| V-BH-02 | 10 | (arccos(0.1)) | 9 | 0.1 | HORIZONTE_CRITICO | U |
+| V-BH-03 | 20 | π | 40 | 0.0243902439 | HORIZONTE_CONSOLIDADO | U |
+
+Los bancos negativos podrán incluirse en un tercer fichero:
+
+
+banco_adversarial.csv.
+
+
+Todo fichero debe declarar versión, fecha, licencia y finalidad. No debe haber datos implícitos ni columnas interpretadas por memoria.
+
+
+## 12.3. Runner de transmisibilidad escalar
+
+
+El runner de transmisibilidad escalar debe implementar:
+
+
+T_SVΘ=1 / (1 + Θ).
+
+
+Debe verificar:
+
+- que (Θ≥0);
+
+- que la transmisibilidad calculada pertenezca a ((0,1);
+
+- que el valor coincida con el esperado dentro de tolerancia;
+
+- que el dictamen corresponda al umbral.
+
+El pseudocódigo mínimo es:
+
+para cada caso en banco_escalar:
+
+leer theta
+
+si theta < 0:
+
+emitir error de dominio
+
+T = 1 / (1 + theta)
+
+dictamen = clasificar(T, tau_H)
+
+comparar T con valor esperado
+
+comparar dictamen con dictamen esperado
+
+escribir salida JSON
+
+La función de clasificación será:
+
+si T > tau_H:
+
+PRECRITICO
+
+si T == tau_H:
+
+HORIZONTE_CRITICO
+
+si T < tau_H:
+
+HORIZONTE_CONSOLIDADO
+
+En implementación numérica, la igualdad deberá evaluarse con tolerancia explícita:
+
+
+|T-τ_H|≤ epsilon_num.
+
+
+La tolerancia debe declararse en el fichero de configuración.
+
+
+## 12.4. Runner de transmisibilidad vectorial
+
+
+El runner vectorial debe implementar:
+
+
+Θ_H_vec
+
+M_H · (1 − cos α_H),
+
+
+T_SV_vec
+
+1 / (1 + Θ_H_vec).
+
+
+Debe verificar:
+
+- que (M_H≥0);
+
+- que α_H pertenece al dominio admitido;
+
+- que (Θ_H_vec≥0);
+
+- que la transmisibilidad pertenece a ((0,1);
+
+- que el dictamen coincide con el esperado.
+
+El pseudocódigo mínimo es:
+
+para cada caso en banco_vectorial:
+
+leer M_H, alpha_H
+
+si M_H < 0:
+
+emitir error de dominio
+
+si alpha_H fuera de dominio:
+
+emitir error de dominio angular
+
+theta_vec = M_H * (1 - cos(alpha_H))
+
+T_vec = 1 / (1 + theta_vec)
+
+dictamen = clasificar(T_vec, tau_H)
+
+comparar theta_vec con esperado
+
+comparar T_vec con esperado
+
+comparar dictamen con esperado
+
+escribir salida JSON
+
+Este runner es esencial porque demuestra que la masa aislada no basta. Debe fallar cualquier caso en el que se declare horizonte sin que (Θ_H_vec≥9).
+
+
+## 12.5. Runner de monotonicidad
+
+
+El runner de monotonicidad debe comprobar que la transmisibilidad decrece al aumentar la carga de clausura.
+
+Para una lista ordenada:
+
+
+Θ_1<Θ_2<·s<Θ_n,
+
+
+debe verificarse:
+
+
+T_SV(Θ_1)>
+T_SV(Θ_2)>
+·s>
+T_SV(Θ_n).
+
+
+El pseudocódigo es:
+
+ordenar casos por theta
+
+para cada par consecutivo:
+
+si theta_i < theta_j:
+
+exigir T_i > T_j
+
+si no se cumple:
+
+emitir error de monotonicidad
+
+En el banco mínimo:
+
+
+3<9<20
+
+
+y:
+
+
+0.25>0.1>0.0476.
+
+
+La monotonicidad es condición irrenunciable. Si falla, el modelo no puede sostener la tesis de colapso gradual de transmisibilidad.
+
+
+## 12.6. Runner de umbral
+
+
+El runner de umbral debe comprobar la clasificación correcta alrededor de τ_H = 0.1. Debe incluir al menos tres tipos de casos:
+
+
+T_SV>0.1,
+
+
+T_SV=0.1,
+
+
+T_SV<0.1.
+
+
+La salida esperada es:
+
+
+PRECRITICO,
+
+
+HORIZONTE_CRITICO,
+
+
+HORIZONTE_CONSOLIDADO.
+
+
+El caso de igualdad debe recibir tratamiento especial. No puede ser absorbido por redondeo ni clasificado como precrítico. El criterio formal es:
+
+
+T_SV≤τ_H.
+
+
+Por tanto, el caso exacto pertenece al horizonte.
+
+El runner debe registrar en JSON:
+
+
+"case_id": "E-BH-02",
+
+"tau_H": 0.1,
+
+"transmissibility": 0.1,
+
+"dictamen": "HORIZONTE_CRITICO",
+
+"status": "PASS"
+
+
+## 12.7. Runner adversarial
+
+
+El runner adversarial debe ejecutar casos diseñados para fallar si el modelo permite cierres indebidos.
+
+Debe incluir, como mínimo:
+
+- horizonte declarado con (Θ=3);
+
+- no horizonte declarado con (Θ=9);
+
+- transmisibilidad creciente al aumentar Θ;
+
+- horizonte declarado por masa aislada con (α_H=0);
+
+- destino global distinto de U sin transición formal.
+
+Cada caso adversarial debe producir un error esperado. El laboratorio debe distinguir entre:
+
+
+fallo inesperado
+
+
+y:
+
+
+error esperado correctamente detectado.
+
+
+Ejemplo:
+
+
+"case_id": "N-BH-01",
+
+"input": "theta": 3, "declared": "HORIZONTE_CONSOLIDADO",
+
+"computed_transmissibility": 0.25,
+
+"expected_detection": "ERROR_UMBRAL",
+
+"status": "PASS_EXPECTED_ERROR"
+
+
+Un laboratorio que no detecte los casos adversariales no puede declararse apto. La robustez del documento depende tanto de aceptar los casos correctos como de rechazar los incorrectos.
+
+
+## 12.8. Runner de preservación de U
+
+
+El runner de preservación de U debe verificar que el destino global del contenido interior no se cierre indebidamente.
+
+Para todo caso con dictamen:
+
+
+D_BH∈HORIZONTE_CRITICO,HORIZONTE_CONSOLIDADO,
+
+
+la salida sobre destino global debe ser:
+
+
+U
+
+
+salvo que el fichero de entrada declare una transición formal válida. En esta publicación, no se incluye ninguna transición formal de destino. Por tanto, todos los casos de horizonte deben conservar:
+
+
+Destino_global=U.
+
+
+El pseudocódigo es:
+
+para cada caso con horizonte:
+
+si destino_global != U:
+
+emitir error de supresión de U
+
+si destino_global == U:
+
+PASS
+
+Este runner es esencial. Sin él, el laboratorio podría aceptar indebidamente salidas como “singularidad final”, “otro universo” o “desaparición del contenido”. Tales salidas no pertenecen al cierre local de este documento.
+
+
+## 12.9. Salidas JSON
+
+
+Las salidas JSON deben permitir auditoría completa. Cada caso debe incluir, al menos:
+
+
+"case_id": "E-BH-03",
+
+"model": "scalar",
+
+"theta": 20,
+
+"tau_H": 0.1,
+
+"transmissibility": 0.0476190476,
+
+"dictamen": "HORIZONTE_CONSOLIDADO",
+
+"interior": "SATURACION_FACTUAL",
+
+"destino_global": "U",
+
+"status": "PASS"
+
+
+Para casos vectoriales:
+
+
+"case_id": "V-BH-03",
+
+"model": "vectorial",
+
+"M_H": 20,
+
+"alpha_H": 3.1415926535,
+
+"theta_vec": 40,
+
+"tau_H": 0.1,
+
+"transmissibility": 0.0243902439,
+
+"dictamen": "HORIZONTE_CONSOLIDADO",
+
+"interior": "SATURACION_FACTUAL",
+
+"destino_global": "U",
+
+"status": "PASS"
+
+
+Para casos adversariales:
+
+
+"case_id": "N-BH-03",
+
+"model": "adversarial",
+
+"declared_destiny": "OTRO_UNIVERSO",
+
+"expected_destiny": "U",
+
+"error_code": "BH-U-001",
+
+"status": "PASS_EXPECTED_ERROR"
+
+
+Las salidas deben conservar trazabilidad de entrada, cálculo, dictamen y estado. No se aceptan salidas meramente textuales sin valores.
+
+
+## 12.10. Criterios de aceptación
+
+
+Un laboratorio será aceptado si cumple simultáneamente los siguientes criterios.
+
+Primero, todos los casos escalares positivos producen los dictámenes esperados.
+
+Segundo, todos los casos vectoriales positivos producen Θ_H_vec, transmisibilidad y dictamen esperados.
+
+Tercero, la monotonicidad se verifica sin excepción.
+
+Cuarto, el caso de igualdad con el umbral se clasifica como horizonte crítico.
+
+Quinto, los casos adversariales producen errores esperados.
+
+Sexto, todo caso de horizonte conserva destino global en U.
+
+Séptimo, las salidas JSON contienen valores suficientes para auditoría.
+
+Octavo, no existen pases silenciosos. Todo caso debe registrarse como evaluado, aceptado, rechazado o error esperado.
+
+Noveno, cualquier entrada fuera de dominio debe producir error de dominio y detener el dictamen de horizonte para ese caso.
+
+Décimo, el runner completo debe finalizar con resumen global:
+
+
+"total_cases": 12,
+
+"passed": 12,
+
+"failed": 0,
+
+"expected_errors_detected": 5,
+
+"global_status": "APTO"
+
+
+El dictamen del laboratorio sólo podrá ser APTO si todos estos criterios se satisfacen. Si alguno falla, el documento no debe declarar cierre laboratorial.
+
+
+# XIII. Catálogo de errores
+
+
+## 13.1. Errores de dominio
+
+
+Los errores de dominio aparecen cuando una entrada no pertenece al conjunto admisible para el cálculo. En este documento, ninguna magnitud puede ser evaluada si no cumple las restricciones mínimas declaradas. La carga factual interna escalar debe satisfacer:
+
+
+Θ ≥ 0.
+
+
+La masa efectiva de clausura debe satisfacer:
+
+
+M_H ≥ 0.
+
+
+El ángulo de clausura debe pertenecer al dominio angular admitido:
+
+
+α_H ∈ [0,π.
+
+
+Si cualquiera de estas condiciones falla, el laboratorio no debe producir dictamen de horizonte. Debe detener el caso y emitir error de dominio. No se permite corregir automáticamente valores negativos, truncar ángulos, forzar pertenencia ni sustituir datos ausentes por valores por defecto.
+
+Código propuesto:
+
+
+BH-DOM-001
+
+
+para (Θ<0).
+
+
+BH-DOM-002
+
+
+para (M_H<0).
+
+
+BH-DOM-003
+
+
+para (α_Hnotin[0,π).
+
+
+BH-DOM-004
+
+
+para magnitud obligatoria ausente.
+
+El principio es simple: sin dominio bien definido no hay dictamen. Una entrada fuera de dominio no puede transformarse en resultado mediante inferencia.
+
+
+## 13.2. Errores de umbral
+
+
+Los errores de umbral se producen cuando el laboratorio clasifica de forma incorrecta la relación entre transmisibilidad y horizonte. El criterio formal es:
+
+
+H_BH^SV
+⇔
+T_SV≤τ_H.
+
+
+Con:
+
+
+τ_H=0.1.
+
+
+Por tanto, si:
+
+
+T_SV>0.1,
+
+
+el dictamen debe ser precrítico o no horizonte. Si:
+
+
+T_SV=0.1,
+
+
+el dictamen debe ser horizonte crítico. Si:
+
+
+T_SV<0.1,
+
+
+el dictamen debe ser horizonte consolidado.
+
+El error más grave consiste en declarar horizonte con transmisibilidad superior al umbral. Por ejemplo:
+
+
+Θ=3
+Longrightarrow
+T_SV=0.25.
+
+
+Como:
+
+
+0.25>0.1,
+
+
+cualquier dictamen de horizonte debe rechazarse.
+
+Código propuesto:
+
+
+BH-UMB-001
+
+
+para horizonte declarado con (T_SV>τ_H).
+
+
+BH-UMB-002
+
+
+para no horizonte declarado con (T_SV≤τ_H).
+
+
+BH-UMB-003
+
+
+para clasificación errónea del caso de igualdad.
+
+El caso de igualdad merece vigilancia especial. No es precrítico. Pertenece al horizonte crítico.
+
+
+## 13.3. Errores de vectorialidad
+
+
+Los errores de vectorialidad aparecen cuando se declara horizonte sin calcular la carga factual vectorial de horizonte o cuando se sustituye indebidamente por la masa efectiva aislada.
+
+El régimen vectorial exige:
+
+
+Θ_H_vec
+
+M_H · (1 − cos α_H).
+
+
+El dictamen debe basarse en:
+
+
+T_SV_vec
+
+1 / (1 + Θ_H_vec).
+
+
+No en M_H aislada.
+
+El caso de control es:
+
+
+M_H=20,
+ 
+α_H=0.
+
+
+Entonces:
+
+
+Θ_H_vec=0,
+
+
+T_SV_vec=1.
+
+
+El dictamen correcto es no horizonte. Si el laboratorio declara horizonte por el valor alto de M_H, incurre en error de vectorialidad.
+
+Código propuesto:
+
+
+BH-VEC-001
+
+
+para ausencia de cálculo de Θ_H_vec.
+
+
+BH-VEC-002
+
+
+para horizonte declarado por masa aislada.
+
+
+BH-VEC-003
+
+
+para uso de α_H fuera de dominio.
+
+
+BH-VEC-004
+
+
+para contradicción entre Θ_H_vec y dictamen.
+
+Este grupo de errores protege uno de los resultados centrales del documento: no basta con masa efectiva; se requiere orientación de clausura.
+
+
+## 13.4. Errores de transmisibilidad
+
+
+Los errores de transmisibilidad afectan al cálculo de la magnitud principal del modelo. En el régimen escalar:
+
+
+T_SV
+
+1 / (1 + Θ).
+
+
+En el régimen vectorial:
+
+
+T_SV_vec
+
+1 / (1 + Θ_H_vec).
+
+
+Toda salida debe satisfacer:
+
+
+0<T_SV≤1.
+
+
+Si el laboratorio produce una transmisibilidad negativa, nula para un valor finito de Θ, superior a uno, o incompatible con la fórmula, debe emitir error.
+
+Código propuesto:
+
+
+BH-TRA-001
+
+
+para transmisibilidad fuera de intervalo.
+
+
+BH-TRA-002
+
+
+para cálculo escalar incorrecto.
+
+
+BH-TRA-003
+
+
+para cálculo vectorial incorrecto.
+
+
+BH-TRA-004
+
+
+para discrepancia entre valor calculado y valor esperado fuera de tolerancia.
+
+La transmisibilidad es la magnitud que decide el horizonte. Si falla su cálculo, todo dictamen posterior queda inválido.
+
+
+## 13.5. Errores de monotonicidad
+
+
+La monotonicidad exige que la transmisibilidad disminuya cuando aumenta la carga de clausura. En el régimen escalar:
+
+
+Θ_1<Θ_2
+Longrightarrow
+T_SV(Θ_1)>
+T_SV(Θ_2).
+
+
+Esta propiedad deriva de:
+
+
+dT_SV / dΘ
+
+-1 / (1 + Θ)²<0.
+
+
+Si una implementación produce:
+
+
+Θ_1<Θ_2
+ 
+y
+ 
+T_SV(Θ_1)≤ T_SV(Θ_2),
+
+
+el resultado debe rechazarse.
+
+Código propuesto:
+
+
+BH-MON-001
+
+
+para inversión de monotonicidad.
+
+
+BH-MON-002
+
+
+para igualdad indebida entre transmisibilidades de cargas distintas.
+
+
+BH-MON-003
+
+
+para secuencia no ordenada evaluada como si fuera ordenada.
+
+La monotonicidad impide que el modelo sea arbitrario. Sin ella, no podría sostenerse la tesis de colapso gradual de la transmisión.
+
+
+## 13.6. Errores de falsa singularidad
+
+
+Los errores de falsa singularidad aparecen cuando el laboratorio, el texto o una salida derivada declaran que el interior del agujero negro es una singularidad infinita como conclusión propia de este documento.
+
+La formulación admitida es:
+
+
+Interior(BH)_SV
+
+Sat_BH^SV.
+
+
+No:
+
+
+Interior(BH)_SV
+
+Singularidad_∞.
+
+
+La singularidad geométrica puede aparecer como lectura externa o como límite de una descripción relativista, pero no constituye aquí el estatuto primario del interior.
+
+Código propuesto:
+
+
+BH-SIG-001
+
+
+para declaración de singularidad infinita como resultado del modelo.
+
+
+BH-SIG-002
+
+
+para sustitución de saturación factual por singularidad.
+
+
+BH-SIG-003
+
+
+para uso de singularidad como fundamento de horizonte.
+
+Este grupo de errores protege la tesis central: el agujero negro se define por no transmisibilidad y saturación, no por una infinitud asumida.
+
+
+## 13.7. Errores de falsa salida cosmológica
+
+
+Los errores de falsa salida cosmológica se producen cuando se declara, sin transición formal, que el contenido interior desemboca en otro universo, rebote, pasaje, restitución exterior o cualquier salida global no construida dentro del documento.
+
+El dictamen admitido es:
+
+
+Destino_global(Contenido_int^BH)=U.
+
+
+No se admite:
+
+
+Destino_global=otro universo.
+
+
+Tampoco:
+
+
+Destino_global=rebote cosmológico.
+
+
+Ni:
+
+
+Destino_global=salida definida no demostrada.
+
+
+Código propuesto:
+
+
+BH-COS-001
+
+
+para salida cosmológica declarada sin transición formal.
+
+
+BH-COS-002
+
+
+para rebote declarado sin operador asociado.
+
+
+BH-COS-003
+
+
+para destino global cerrado sin demostración.
+
+El documento no niega que teorías futuras puedan formular transiciones interiores. Sólo impide que esta publicación las declare sin base formal suficiente.
+
+
+## 13.8. Errores de cierre indebido
+
+
+Los errores de cierre indebido aparecen cuando un resultado local se transforma en conclusión total. Este documento puede cerrar localmente:
+
+
+H_BH^SV
+⇔
+T_SV≤τ_H.
+
+
+También puede dictaminar:
+
+
+Interior(BH)_SV = Sat_BH^SV.
+
+
+Pero no puede cerrar:
+
+
+Destino_global
+
+
+más allá de U.
+
+Por tanto, hay error de cierre indebido cuando se afirma que el documento resuelve por completo la física de los agujeros negros, sustituye todas las formulaciones relativistas, determina el interior final o elimina toda apertura futura.
+
+Código propuesto:
+
+
+BH-CIE-001
+
+
+para cierre total declarado.
+
+
+BH-CIE-002
+
+
+para confusión entre cierre local y cierre global.
+
+
+BH-CIE-003
+
+
+para supresión de límites declarados.
+
+La fuerza del documento depende de no prometer más de lo que demuestra.
+
+
+## 13.9. Errores de supresión de U
+
+
+La supresión de U constituye un error estructural. U debe conservarse cuando el aparato formal no permita dictamen cerrado. En esta publicación, el destino global del contenido interior queda en U.
+
+La salida válida es:
+
+
+Destino_global=U.
+
+
+Son salidas inválidas, salvo construcción formal adicional:
+
+
+Destino_global=singularidad final,
+
+
+Destino_global=desaparición,
+
+
+Destino_global=salida cosmológica,
+
+
+Destino_global=restitución exterior completa.
+
+
+Código propuesto:
+
+
+BH-U-001
+
+
+para sustitución de U por conclusión no demostrada.
+
+
+BH-U-002
+
+
+para omisión del campo de destino global en casos de horizonte.
+
+
+BH-U-003
+
+
+para conversión de U en probabilidad.
+
+
+BH-U-004
+
+
+para interpretación de U como negación del régimen.
+
+U no niega el agujero negro. U sólo preserva aquello que el documento no clausura.
+
+
+## 13.10. Tabla global de códigos
+
+
+| Código | Tipo de error | Condición de activación | Resultado |
+| --- | --- | --- | --- |
+| BH-DOM-001 | Dominio | (Θ<0) | Rechazo del caso |
+| BH-DOM-002 | Dominio | (M_H<0) | Rechazo del caso |
+| BH-DOM-003 | Dominio angular | (α_Hnotin[0,π) | Rechazo del caso |
+| BH-DOM-004 | Dato ausente | Magnitud obligatoria no declarada | Rechazo del caso |
+| BH-UMB-001 | Umbral | Horizonte con (T_SV>τ_H) | Error |
+| BH-UMB-002 | Umbral | No horizonte con (T_SV≤τ_H) | Error |
+| BH-UMB-003 | Umbral | Igualdad mal clasificada | Error |
+| BH-VEC-001 | Vectorialidad | Falta Θ_H_vec | Error |
+| BH-VEC-002 | Vectorialidad | Horizonte por masa aislada | Error |
+| BH-VEC-003 | Vectorialidad | Ángulo fuera de dominio | Error |
+| BH-VEC-004 | Vectorialidad | Dictamen incompatible con Θ_H_vec | Error |
+| BH-TRA-001 | Transmisibilidad | Valor fuera de ((0,1) | Error |
+| BH-TRA-002 | Transmisibilidad | Cálculo escalar incorrecto | Error |
+| BH-TRA-003 | Transmisibilidad | Cálculo vectorial incorrecto | Error |
+| BH-TRA-004 | Transmisibilidad | Diferencia fuera de tolerancia | Error |
+| BH-MON-001 | Monotonicidad | Inversión de orden | Error |
+| BH-MON-002 | Monotonicidad | Igualdad indebida | Error |
+| BH-MON-003 | Monotonicidad | Secuencia mal evaluada | Error |
+| BH-SIG-001 | Singularidad | Singularidad infinita declarada como resultado | Error |
+| BH-SIG-002 | Singularidad | Sustitución de saturación por singularidad | Error |
+| BH-SIG-003 | Singularidad | Singularidad usada como fundamento | Error |
+| BH-COS-001 | Salida cosmológica | Otro universo sin transición | Error |
+| BH-COS-002 | Salida cosmológica | Rebote sin operador | Error |
+| BH-COS-003 | Salida cosmológica | Destino cerrado sin demostración | Error |
+| BH-CIE-001 | Cierre indebido | Cierre total declarado | Error |
+| BH-CIE-002 | Cierre indebido | Confusión entre cierre local y global | Error |
+| BH-CIE-003 | Cierre indebido | Supresión de límites | Error |
+| BH-U-001 | U | U sustituida por conclusión | Error |
+| BH-U-002 | U | Destino global omitido | Error |
+| BH-U-003 | U | U convertida en probabilidad | Error |
+| BH-U-004 | U | U interpretada como negación del régimen | Error |
+
+Esta tabla debe incorporarse al laboratorio y al README técnico. El catálogo de errores no es accesorio: garantiza que la publicación no acepte resultados que contradigan su tesis formal.
+
+
+# XIV. Comparación con interpretaciones contemporáneas
+
+
+## 14.1. Agujero negro como objeto relativista
+
+
+La interpretación más extendida del agujero negro lo presenta como objeto relativista: una región del espacio-tiempo cuya geometría impide que señales procedentes del interior alcancen el exterior. Esta interpretación ha producido predicciones, modelos y observaciones de enorme valor científico. La masa, el horizonte, la rotación, la acreción y los efectos gravitacionales externos constituyen sus rasgos principales.
+
+El presente trabajo no rechaza esa lectura. La considera una descripción externa eficaz. Sin embargo, introduce una distinción: el objeto relativista no agota el régimen físico. El horizonte puede verse como superficie geométrica, pero también como frontera de no transmisibilidad. La segunda formulación permite preguntar por el estado formal que produce la pérdida de transmisión.
+
+La comparación puede expresarse así:
+
+
+objeto relativista
+longleftrightarrow
+lectura externa del régimen.
+
+
+régimen de clausura
+longleftrightarrow
+condición interna de no transmisibilidad.
+
+
+Ambas lecturas pueden coexistir. El objeto astrofísico es la manifestación observacional; el régimen operatorio es la condición formal que este documento propone como definición.
+
+
+## 14.2. Agujero negro como horizonte causal
+
+
+La noción de horizonte causal es central en la relatividad general. Señala la frontera más allá de la cual los eventos interiores no pueden comunicarse con el exterior de la forma ordinaria. Esta idea coincide parcialmente con la tesis del presente documento.
+
+La coincidencia está en la no comunicación externa. La diferencia está en el fundamento. La lectura causal se apoya en geometría del espacio-tiempo; la lectura factual se apoya en transmisibilidad:
+
+
+H_causal
+≈
+frontera de no comunicación.
+
+
+H_BH^SV
+≈
+T_SV≤τ_H.
+
+
+El documento no pretende negar el horizonte causal. Lo reformula desde una magnitud de transmisión. Allí donde la relatividad general habla de estructura causal, este trabajo habla de caída de transmisibilidad. El fenómeno señalado es próximo; la formalización no es la misma.
+
+Esta comparación es útil porque evita una falsa oposición. El horizonte factual no niega el horizonte causal. Lo interpreta como una frontera de no transmisibilidad bajo otra formalización.
+
+
+## 14.3. Agujero negro como singularidad
+
+
+Una interpretación tradicional asocia el agujero negro a la presencia de una singularidad. Esa asociación es comprensible desde ciertas soluciones matemáticas, pero resulta problemática si se convierte la singularidad en descripción física primaria. Una infinitud puede señalar el límite de un formalismo, no necesariamente el contenido último de la realidad física.
+
+Este documento propone sustituir la singularidad como estatuto primario por la saturación factual:
+
+
+Singularidad_∞
+↝
+Sat_BH^SV.
+
+
+La flecha no expresa equivalencia estricta. Expresa relectura: aquello que en una descripción geométrica aparece como límite no regular, aquí se trata como régimen interno de saturación bajo clausura extrema.
+
+La diferencia es profunda. La singularidad tiende a cerrar el problema mediante una infinitud. La saturación lo mantiene formalmente tratable: hay contenido, hay clausura, hay no transmisibilidad y hay U respecto del destino global.
+
+Por tanto, este documento no proclama que la singularidad relativista sea “falsa” en todos los sentidos. Afirma que no debe ser el fundamento definicional del agujero negro dentro del aparato aquí empleado.
+
+
+## 14.4. Agujero negro como sistema termodinámico
+
+
+Los agujeros negros también se estudian como sistemas termodinámicos, con entropía, temperatura, radiación y leyes asociadas. Esa lectura ha transformado la física teórica contemporánea y ha vinculado gravitación, mecánica cuántica e información.
+
+El presente documento no sustituye esa termodinámica. Sin embargo, introduce un lenguaje compatible con ella: saturación, persistencia, irreversibilidad y no transmisibilidad. El interior del agujero negro, como régimen saturado, puede dialogar con la idea de un sistema de alta entropía o de frontera con propiedades termodinámicas. Pero no se identifican sin demostración.
+
+La relación mínima es:
+
+
+sistema termodinámico
+≈
+lectura energética y entrópica del régimen.
+
+
+Sat_BH^SV
+≈
+régimen interno de clausura y no transmisión.
+
+
+La termodinámica de horizonte se ocupa de magnitudes físicas asociadas a la frontera y al sistema. La formulación factual se ocupa de definir cuándo la frontera es no transmisible y qué estatuto mínimo corresponde al interior.
+
+La compatibilidad futura exigirá traducir entropía, temperatura y radiación a las magnitudes del modelo. Este documento no fuerza esa traducción completa. Sólo fija el régimen sobre el cual podría desarrollarse.
+
+
+## 14.5. Agujero negro como régimen de información no transmisible
+
+
+Una interpretación contemporánea especialmente relevante trata el agujero negro como problema de información. La cuestión no es sólo si algo puede escapar, sino qué ocurre con la información del contenido que cae o queda asociado al interior.
+
+El presente documento se aproxima a esta línea mediante la noción de no transmisibilidad. Si:
+
+
+T_SV≤τ_H,
+
+
+la transmisión externa ordinaria queda críticamente reducida. Esto no equivale a afirmar destrucción de información. Equivale a declarar que la información no queda transmisible hacia el exterior bajo las condiciones del régimen.
+
+La diferencia entre no transmisibilidad y destrucción es central:
+
+
+no transmisible
+≠
+destruido.
+
+
+no accesible externamente
+≠
+inexistente.
+
+
+Por ello, el destino global de la información o del contenido interior permanece en U. El documento no afirma que la información se pierda, se conserve de forma recuperable, se codifique en la frontera o reaparezca. Sólo afirma que, en el régimen de horizonte, la transmisión externa queda bajo umbral.
+
+Esta formulación es compatible con la importancia del problema de información, pero no se adueña de su solución.
+
+
+## 14.6. Diferencia del enfoque factual
+
+
+La diferencia principal del enfoque factual es que no comienza por objeto, geometría, singularidad o termodinámica, sino por transmisibilidad del régimen. El agujero negro se define por una condición de frontera:
+
+
+T_SV≤τ_H.
+
+
+Esa condición permite ordenar todo el fenómeno:
+
+
+clausura
+→
+no transmisibilidad
+→
+horizonte
+→
+saturación
+→
+U.
+
+
+La singularidad deja de ser fundamento. La masa deja de ser criterio aislado. La geometría pasa a ser lectura externa. El destino global no se inventa. La definición se vuelve verificable mediante bancos y laboratorios.
+
+Esta diferencia no convierte el enfoque factual en sustituto total de la física contemporánea. Lo convierte en una formulación alternativa y precisa de un aspecto esencial: el agujero negro como régimen de no transmisibilidad.
+
+El valor del enfoque está en su capacidad para separar planos. Puede aceptar la observación astrofísica, dialogar con la geometría relativista, reconocer el problema de información, preservar la termodinámica como interlocutora y, al mismo tiempo, mantener su propia definición operatoria.
+
+
+## 14.7. Compatibilidades y límites
+
+
+El enfoque de este documento es compatible con la existencia de horizontes, con la lectura relativista externa, con el carácter no accesible del interior, con la relevancia de masa y compactación, con la importancia del problema de información y con la posibilidad de una termodinámica de horizonte.
+
+Sus límites son igualmente claros. No proporciona una métrica completa. No resuelve la evaporación. No determina el destino global del contenido. No sustituye todos los modelos astrofísicos. No calcula observables reales de candidatos astronómicos. No ofrece una teoría cuántica del interior.
+
+La relación correcta con la física contemporánea es, por tanto, de acoplamiento crítico. El documento no se presenta como negación de lo existente, sino como definición operatoria de régimen. Su tesis debe evaluarse por su coherencia interna, su capacidad de producir dictámenes reproducibles y su habilidad para evitar cierres indebidos.
+
+La comparación final puede sintetizarse así:
+
+| Interpretación | Núcleo | Límite desde esta publicación |
+| --- | --- | --- |
+| Objeto relativista | Región compacta con horizonte | No agota el régimen interno |
+| Horizonte causal | Frontera de no comunicación | No explicita transmisibilidad formal |
+| Singularidad | Límite geométrico | No se adopta como estatuto primario |
+| Sistema termodinámico | Entropía, temperatura, radiación | Requiere traducción ulterior |
+| Información no transmisible | Problema de conservación/acceso | El destino global queda en U |
+| Enfoque factual | Clausura y no transmisibilidad | No sustituye una métrica completa |
+
+La conclusión es que la definición factual no compite por ocupación total del problema. Fija una región precisa: qué es un agujero negro cuando se lo define como régimen de clausura extrema y no transmisibilidad del campo.
+
+
+# XV. Alcance, límites y aperturas
+
+
+## 15.1. Qué queda establecido
+
+
+Este documento establece una definición operatoria del agujero negro como régimen de clausura extrema y no transmisibilidad del campo. El resultado principal no consiste en describir un nuevo objeto astronómico, sino en fijar una condición formal de horizonte:
+
+
+H_BH^SV
+⇔
+T_SV≤τ_H.
+
+
+Con:
+
+
+T_SV=1 / (1 + Θ)
+
+
+en el régimen escalar, y:
+
+
+T_SV_vec
+
+1 / (1 + Θ_H_vec)
+
+
+en el régimen vectorial.
+
+También queda establecido que, con el umbral operacional adoptado:
+
+
+τ_H=0.1,
+
+
+la condición de horizonte se alcanza cuando:
+
+
+Θ≥9
+
+
+o, en el régimen vectorial:
+
+
+Θ_H_vec≥9.
+
+
+El documento establece además que la masa efectiva aislada no basta para declarar horizonte. En el modelo vectorial, el dictamen depende de:
+
+
+Θ_H_vec
+
+M_H · (1 − cos α_H).
+
+
+Por tanto, una masa efectiva elevada sin orientación de clausura suficiente no produce horizonte.
+
+Queda establecido asimismo que el interior del agujero negro se describe como saturación factual:
+
+
+Interior(BH)_SV = Sat_BH^SV,
+
+
+y no como vacío ni como singularidad infinita tomada como fundamento primario.
+
+Finalmente, queda establecido que el destino global del contenido interior permanece en U:
+
+
+Destino_global(Contenido_int^BH)=U,
+
+
+salvo construcción formal ulterior que permita otro dictamen.
+
+
+## 15.2. Qué no queda establecido
+
+
+Este documento no establece una métrica completa de agujero negro. No deriva soluciones equivalentes a Schwarzschild, Kerr, Reissner-Nordström ni Kerr-Newman. Tampoco calcula radios, órbitas, lentes gravitacionales, acreción, emisión, dinámica de discos ni observables astrofísicos reales.
+
+No establece una teoría cuántica del interior. No resuelve la evaporación, la radiación, el problema de la información ni la compatibilidad completa entre gravedad, mecánica cuántica y termodinámica de horizonte.
+
+No establece que la singularidad geométrica clásica sea inexistente en toda formulación posible. Lo que establece es más preciso: la singularidad infinita no se adopta aquí como estatuto primario del interior. El interior se formula como saturación factual; cualquier traducción geométrica posterior deberá justificar su relación con esa saturación.
+
+No establece una salida cosmológica, un rebote, un pasaje, una restitución exterior completa ni otro universo derivado. Tales hipótesis quedan fuera del cierre local de esta publicación. Podrán estudiarse en trabajos posteriores sólo si se formula el dominio, el operador de transición, el banco numérico y los criterios de falsación correspondientes.
+
+No establece una constante universal definitiva para el umbral τ_H = 0.1. Ese valor opera como umbral de trabajo para el presente documento. Puede ser refinado por desarrollos posteriores, pero no puede eliminar la exigencia principal: un horizonte debe corresponder a caída crítica de transmisibilidad.
+
+
+## 15.3. Qué queda en U
+
+
+Permanece en U el destino global del contenido interior. El documento no determina si el contenido queda indefinidamente estacionario, si se reconfigura, si se transforma bajo una ley ulterior o si participa en una transición aún no formulada.
+
+Se escribe:
+
+
+Destino_global(Contenido_int^BH)=U.
+
+
+Permanece en U la traducción completa entre Θ_H_vec y una métrica relativista concreta. El documento establece compatibilidad conceptual con el horizonte como frontera externa, pero no una identidad formal plena entre las magnitudes operatorias y una geometría específica.
+
+Permanece en U la correspondencia exacta entre masa efectiva de clausura M_H y masa física observacional M. La masa efectiva es una magnitud formal del régimen; su relación con la masa astrofísica deberá fijarse mediante traducción posterior.
+
+Permanece en U la interpretación física última de α_H fuera del aparato formal aquí presentado. Este ángulo expresa orientación de clausura, no necesariamente ángulo espacial ordinario. Su traducción a observables externos exige desarrollo adicional.
+
+Permanece en U la relación completa con termodinámica de agujeros negros. La saturación factual es compatible con una lectura termodinámica, pero no sustituye automáticamente entropía, temperatura o radiación de horizonte.
+
+Permanece en U cualquier afirmación sobre recuperación, pérdida o conservación global de información si excede la no transmisibilidad definida en el documento.
+
+
+## 15.4. Límites del umbral operacional
+
+
+El umbral:
+
+
+τ_H=0.1
+
+
+se introduce como valor operacional. Permite construir una separación clara entre régimen precrítico, horizonte crítico y horizonte consolidado. Su utilidad reside en hacer verificable el modelo mediante bancos numéricos y laboratorios reproducibles.
+
+Sin embargo, el valor no debe presentarse como constante natural absoluta. No se declara que la física real de todos los agujeros negros esté regida necesariamente por ese umbral numérico. Lo que se declara es que, bajo este modelo, una caída de transmisibilidad al diez por ciento o menos permite dictaminar horizonte.
+
+El límite del umbral se expresa así:
+
+
+τ_H=0.1
+ 
+es valor de trabajo, no cierre metrológico universal.
+
+
+Una teoría posterior podría refinar el umbral mediante comparación con observables relativistas, bancos astrofísicos, simulaciones o correspondencia métrica. No obstante, toda modificación deberá conservar una condición de frontera. Sin un umbral o criterio equivalente de no transmisibilidad, el concepto de horizonte perdería capacidad operatoria.
+
+El documento permite, por tanto, discutir el valor de τ_H, pero no permite eliminar la exigencia de caída crítica de transmisión.
+
+
+## 15.5. Límites del modelo vectorial actual
+
+
+El modelo vectorial introduce una mejora decisiva respecto del modelo escalar:
+
+
+Θ_H_vec
+
+M_H · (1 − cos α_H).
+
+
+Esta forma permite distinguir masa efectiva y orientación de clausura. Sin embargo, sigue siendo una formulación mínima. No incorpora aún rotación, carga eléctrica clásica, momento angular, entorno de acreción, anisotropías externas, perturbaciones no lineales ni interacción con campos circundantes.
+
+El ángulo α_H actúa como magnitud de orientación factual. El documento no proporciona todavía una derivación desde observables astrofísicos. Tampoco establece una equivalencia directa entre α_H y parámetros geométricos clásicos.
+
+Por tanto, el modelo vectorial actual debe considerarse suficiente para demostrar una tesis formal:
+
+
+M_H
+ aislada no basta.
+
+
+Pero no debe considerarse suficiente para describir todos los tipos físicos de agujero negro.
+
+El límite queda fijado así:
+
+
+Θ_H_vec
+
+M_H · (1 − cos α_H)
+
+
+es una forma mínima de clausura vectorial, apta para dictamen formal y laboratorio inicial, pero pendiente de extensión cuando se incorporen rotación, carga, métrica y observables.
+
+
+## 15.6. Límites de comparación externa
+
+
+La comparación con interpretaciones contemporáneas se mantiene en el plano de correspondencia conceptual, no de equivalencia completa. El documento puede afirmar que el horizonte factual se corresponde con una frontera de no comunicación externa. No puede afirmar todavía que reproduce todas las soluciones métricas ni todos los resultados observacionales.
+
+La relación con el radio de Schwarzschild es ilustrativa:
+
+
+r_s=2GM / c²
+
+
+puede considerarse lectura métrica externa de un régimen de frontera. Pero este documento no demuestra:
+
+
+r_s = H_BH^SV
+
+
+como identidad formal completa.
+
+Del mismo modo, la relación con la termodinámica de horizonte se mantiene abierta. La saturación factual puede dialogar con entropía, temperatura y radiación, pero no las reemplaza sin una traducción formal específica.
+
+La comparación externa debe cumplir una regla: no debe convertirse en apropiación. El documento puede decir que su definición es compatible con ciertos rasgos de la física contemporánea; no debe afirmar que toda la física contemporánea queda absorbida por el presente texto.
+
+
+## 15.7. Apertura hacia una teoría métrica posterior
+
+
+Una teoría métrica posterior deberá construir la correspondencia entre magnitudes operatorias y magnitudes geométricas. El núcleo de esa futura teoría debería relacionar:
+
+
+Θ_H_vec,
+ 
+T_SV,
+ 
+M_H,
+ 
+α_H,
+ 
+r_s,
+ 
+M,
+ 
+J,
+ 
+Q.
+
+
+Aquí M representaría masa física externa, J momento angular y Q carga eléctrica en una lectura convencional. La teoría posterior debería mostrar cómo esos parámetros se traducen en carga de clausura, orientación, transmisibilidad y frontera factual.
+
+La apertura métrica deberá cumplir al menos tres condiciones.
+
+Primera, preservar el criterio de horizonte:
+
+
+T_SV≤τ_H.
+
+
+Segunda, no reducir la orientación de clausura a una variable geométrica sin justificar la traducción.
+
+Tercera, conservar U respecto del destino global del contenido si la métrica no resuelve el interior.
+
+Esta apertura es natural, pero no forma parte del cierre del presente documento. El trabajo actual fija la definición operatoria; la traducción métrica será una extensión.
+
+
+## 15.8. Apertura hacia bancos astrofísicos reales
+
+
+El banco SV-BH1 es interno, mínimo y demostrativo. No contiene datos observacionales reales. Su función es validar reglas del modelo. Un banco astrofísico posterior deberá incorporar candidatos observados, masas estimadas, radios inferidos, rotaciones, emisiones, entornos, incertidumbres instrumentales y correspondencias con parámetros formales.
+
+Ese banco posterior no podrá importar probabilidad como criterio de verdad del aparato SV. Podrá registrar incertidumbre observacional, márgenes instrumentales o variación de medidas, pero el dictamen formal deberá mantenerse separado de cualquier inferencia estadística no declarada.
+
+La apertura hacia datos reales exigiría, al menos:
+
+- selección documentada de candidatos astrofísicos;
+
+- definición de magnitudes observacionales de entrada;
+
+- traducción explícita a M_H y α_H;
+
+- cálculo de Θ_H_vec;
+
+- cálculo de T_SV;
+
+- dictamen de horizonte;
+
+- comparación con clasificación astrofísica;
+
+- conservación de U donde la traducción no sea suficiente.
+
+Ese trabajo posterior será necesario para confrontar el modelo con observaciones. No es condición para cerrar la definición operatoria inicial, pero sí para ampliar su alcance físico externo.
+
+
+# XVI. Conclusiones
+
+
+## 16.1. Resultado definicional principal
+
+
+El resultado definicional principal de este documento es la caracterización del agujero negro como régimen de clausura extrema y no transmisibilidad del campo. La definición queda expresada por:
+
+
+BH_SV
+
+(H_BH^SV,Sat_BH^SV,U_destino).
+
+
+El horizonte se define mediante:
+
+
+H_BH^SV
+⇔
+T_SV≤τ_H.
+
+
+El interior se define como:
+
+
+Interior(BH)_SV = Sat_BH^SV.
+
+
+El destino global se conserva como:
+
+
+Destino_global=U.
+
+
+Esta formulación separa de forma explícita tres niveles que suelen confundirse: frontera, interior y destino. La frontera puede quedar dictaminada; el interior puede describirse como saturación; el destino global no queda clausurado.
+
+
+## 16.2. Resultado operatorio principal
+
+
+El resultado operatorio principal es la introducción de la transmisibilidad como criterio de horizonte. En el régimen escalar:
+
+
+T_SV
+
+1 / (1 + Θ).
+
+
+En el régimen vectorial:
+
+
+T_SV_vec
+
+1 / (1 + Θ_H_vec).
+
+
+La frontera adquiere estatuto de horizonte cuando:
+
+
+T_SV≤0.1.
+
+
+El documento demuestra que, en el régimen escalar, esto equivale a:
+
+
+Θ≥9.
+
+
+Y, en el régimen vectorial, a:
+
+
+Θ_H_vec≥9.
+
+
+La transmisibilidad permite transformar la noción de horizonte en una condición verificable. El horizonte deja de ser sólo una superficie descrita externamente y pasa a ser una frontera de no transmisión definida por cálculo.
+
+
+## 16.3. Resultado numérico principal
+
+
+El banco SV-BH1 establece tres casos escalares y tres casos vectoriales que fijan el comportamiento mínimo del modelo.
+
+En el régimen escalar:
+
+
+Θ=3
+Longrightarrow
+T_SV=0.25
+Longrightarrow
+precrítico.
+
+
+Θ=9
+Longrightarrow
+T_SV=0.1
+Longrightarrow
+horizonte crítico.
+
+
+Θ=20
+Longrightarrow
+T_SV≈0.0476
+Longrightarrow
+horizonte consolidado.
+
+
+En el régimen vectorial:
+
+
+M_H=20,  α_H=0
+Longrightarrow
+Θ_H_vec=0
+Longrightarrow
+no horizonte.
+
+
+M_H=10,  α_H=arccos(0.1)
+Longrightarrow
+Θ_H_vec=9
+Longrightarrow
+horizonte crítico.
+
+
+M_H=20,  α_H=π
+Longrightarrow
+Θ_H_vec=40
+Longrightarrow
+horizonte consolidado.
+
+
+Estos casos muestran que la definición no depende de una formulación verbal. Produce dictámenes numéricos concretos.
+
+
+## 16.4. Resultado laboratorial principal
+
+
+El resultado laboratorial principal es la especificación de una verificación reproducible basada en runners de transmisibilidad escalar, transmisibilidad vectorial, monotonicidad, umbral, adversarial y preservación de U.
+
+El laboratorio debe aceptar los casos correctos y rechazar los indebidos. En particular, debe fallar si se declara horizonte con:
+
+
+Θ=3,
+
+
+debe fallar si se niega horizonte con:
+
+
+Θ=9,
+
+
+debe fallar si se declara horizonte por masa aislada con:
+
+
+M_H=20,  α_H=0,
+
+
+y debe fallar si se sustituye:
+
+
+Destino_global=U
+
+
+por una salida no demostrada.
+
+La reproducibilidad no es un complemento secundario del documento. Es la condición que impide que la definición quede en declaración literaria. El modelo debe calcular, dictaminar y rechazar.
+
+
+## 16.5. El horizonte como no transmisibilidad
+
+
+El documento concluye que el horizonte debe entenderse, en este marco, como frontera de no transmisibilidad. Esto significa que la pregunta decisiva no es sólo dónde se encuentra la frontera, sino qué régimen de transmisión permite o impide.
+
+La forma final es:
+
+
+H_BH^SV
+
+∂Ω_BH
+ 
+tal que
+ 
+T_SV(∂Ω_BH)≤τ_H.
+
+
+Esta definición es compatible con la idea relativista de horizonte como frontera causal, pero no se reduce a ella. La lectura relativista es geométrica; la lectura de este documento es operatoria.
+
+El horizonte aparece cuando el exterior deja de recibir transmisión ordinaria del interior. No se define por oscuridad visual, ni por singularidad infinita, ni por masa aislada. Se define por caída crítica de transmisibilidad.
+
+
+## 16.6. El interior como saturación factual
+
+
+El interior del agujero negro se describe como saturación factual. Esta formulación rechaza dos extremos: vacío e infinitud como estatutos primarios.
+
+No se acepta:
+
+
+Interior(BH)_SV=∅.
+
+
+Tampoco se adopta como fundamento:
+
+
+Interior(BH)_SV = Singularidad_infinita.
+
+
+Se establece:
+
+
+Interior(BH)_SV = Sat_BH^SV.
+
+
+La saturación factual significa que el contenido interior queda sometido a clausura extrema y no transmite ordinariamente hacia el exterior. No implica desaparición. No implica conocimiento completo del destino. No implica salida cosmológica.
+
+El interior queda descrito de forma suficiente para esta publicación: es dominio saturado, no transmisivo hacia el exterior y no clausurado en su destino global.
+
+
+## 16.7. El destino global del contenido como U
+
+
+La conservación de U es una conclusión, no una reserva retórica. El documento no puede determinar el destino global del contenido interior porque su aparato formal cierra el horizonte y la saturación, pero no construye una teoría completa de transición ulterior.
+
+Por tanto:
+
+
+Destino_global(Contenido_int^BH)=U.
+
+
+Esta conclusión impide tres errores:
+
+
+Destino=singularidad final,
+
+
+Destino=desaparición absoluta,
+
+
+Destino=salida cosmológica no demostrada.
+
+
+La U no niega el agujero negro. Tampoco debilita la definición del horizonte. La fortalece, porque impide que el documento se arrogue una determinación que no ha demostrado.
+
+El resultado final es una definición estricta y honesta: horizonte cerrado por transmisibilidad, interior descrito por saturación, destino global conservado en U.
+
+
+## 16.8. Cierre final del documento
+
+
+El documento queda cerrado localmente en su objeto propio: definir el agujero negro como régimen de clausura extrema y no transmisibilidad del campo.
+
+Queda establecido que:
+
+
+T_SV≤τ_H
+
+
+es la condición de horizonte.
+
+Queda establecido que:
+
+
+Θ≥9
+
+
+es el umbral escalar correspondiente cuando τ_H = 0.1.
+
+Queda establecido que:
+
+
+Θ_H_vec
+
+M_H · (1 − cos α_H)
+
+
+permite distinguir masa efectiva y orientación de clausura.
+
+Queda establecido que:
+
+
+Interior(BH)_SV = Sat_BH^SV.
+
+
+Queda establecido que:
+
+
+Destino_global=U.
+
+
+No queda cerrado todo el problema físico de los agujeros negros. No queda cerrada una métrica completa. No queda cerrado el problema de la información. No queda cerrado el destino final del contenido. Esos dominios permanecen abiertos para desarrollos posteriores.
+
+El cierre de este documento es, por tanto, local, formal y verificable:
+
+
+Agujero negro
+
+régimen de clausura extrema
++
+frontera de no transmisibilidad
++
+interior saturado
++
+U sobre el destino global.
+
+
+Esta formulación deja blanco sobre negro el objeto de la publicación: un agujero negro no es, primariamente, una cosa oscura ni una infinitud física asumida; es un régimen extremo del campo en el que la transmisión exterior cae bajo umbral, el interior se satura y el destino global del contenido no se clausura sin teoría adicional.
+
+
+# Glosario
+
+
+Agujero negro. Régimen de campo caracterizado por clausura extrema, caída crítica de transmisibilidad externa, saturación interna y destino global no clausurado del contenido.
+
+Agujero negro factual. Denominación interna del régimen (BH_SV), definido por la terna:
+
+
+BH_SV=(H_BH^SV,Sat_BH^SV,U_destino).
+
+
+Ángulo de clausura. Magnitud α_H que expresa la orientación factual del régimen respecto de la transmisión externa. No se identifica necesariamente con un ángulo espacial ordinario.
+
+Banco SV-BH1. Banco numérico mínimo de esta publicación. Contiene casos escalares, vectoriales, frontera, adversariales y de preservación de U.
+
+Carga factual interna. Magnitud Θ que expresa el grado de clausura interna de un régimen. En el modelo escalar determina la transmisibilidad mediante:
+
+
+T_SV=1 / (1 + Θ).
+
+
+Carga factual vectorial de horizonte. Magnitud Θ_H_vec que incorpora masa efectiva y orientación de clausura:
+
+
+Θ_H_vec=M_H · (1 − cos α_H).
+
+
+Clausura extrema. Estado del régimen en el que la carga interna reduce la transmisión externa por debajo del umbral de horizonte.
+
+Destino global del contenido. Pregunta sobre la evolución última del contenido interior del agujero negro. En esta publicación queda en U.
+
+Entidad factual del campo. Entidad U_F desde la cual se proyectan distintos regímenes de campo.
+
+Frontera factual. Límite operatorio de un dominio. En el régimen de agujero negro, se convierte en horizonte cuando la transmisibilidad cae bajo umbral.
+
+Horizonte. Frontera de no transmisibilidad factual. Se define por:
+
+
+H_BH^SV⇔ T_SV≤τ_H.
+
+
+Horizonte crítico. Régimen en el que la transmisibilidad coincide exactamente con el umbral:
+
+
+T_SV=τ_H.
+
+
+Horizonte consolidado. Régimen en el que la transmisibilidad queda estrictamente por debajo del umbral:
+
+
+T_SV<τ_H.
+
+
+Interior saturado. Interior del agujero negro descrito como saturación factual, no como vacío ni como singularidad infinita tomada como fundamento primario.
+
+Masa efectiva de clausura. Magnitud M_H que expresa la contribución de una acumulación al cierre del régimen. No basta por sí sola para declarar horizonte.
+
+No transmisibilidad. Condición por la cual un régimen no mantiene transmisión externa ordinaria. En esta publicación se identifica con transmisibilidad inferior o igual al umbral operativo.
+
+Persistencia normalizada. Magnitud Ψ que expresa la conservación transmisiva del régimen:
+
+
+Ψ=1 / (1 + Θ).
+
+
+Proyección de campo. Operación formal mediante la cual la entidad factual del campo se expresa como régimen físico determinado.
+
+Régimen precrítico. Estado en el que la transmisibilidad está reducida, pero permanece por encima del umbral:
+
+
+T_SV>τ_H.
+
+
+Régimen vectorial. Lectura que incorpora orientación de clausura, masa efectiva y carga vectorial. Evita declarar horizonte por masa aislada.
+
+Saturación factual. Estado interior de alta clausura y no transmisibilidad externa. No equivale a vacío, desaparición ni singularidad infinita.
+
+Sistema Vectorial SV. Aparato formal utilizado internamente para definir magnitudes, umbrales, dictámenes, laboratorios y conservación de U.
+
+Transmisibilidad factual. Magnitud T_SV que mide la capacidad relativa de transmisión externa de un régimen.
+
+U. Indeterminación honesta. En esta publicación conserva el destino global del contenido interior cuando no existe transición formal demostrada.
+
+Umbral operacional de horizonte. Valor τ_H usado para separar régimen transmisivo y horizonte. En este documento:
+
+
+τ_H=0.1.
+
+
+# Notación matemática
+
+
+U_F
+
+
+Entidad factual del campo.
+
+
+Π_XU_F
+
+
+Proyección de la entidad factual del campo hacia el régimen X.
+
+
+Π_BHU_F
+
+
+Proyección asociada al régimen de agujero negro.
+
+
+G_BH^SV
+
+
+Régimen formal de agujero negro en el aparato SV.
+
+
+BH_SV
+
+
+Régimen de agujero negro definido en esta publicación.
+
+
+H_BH^SV
+
+
+Horizonte factual de no transmisibilidad.
+
+
+Interior(BH)_SV
+
+
+Interior del régimen de agujero negro.
+
+
+Sat_BH^SV
+
+
+Saturación factual del interior del agujero negro.
+
+
+U_destino
+
+
+Indeterminación honesta sobre el destino global del contenido.
+
+
+Θ
+
+
+Carga factual interna escalar de clausura.
+
+
+Θ_H
+
+
+Carga escalar de horizonte.
+
+
+Θ_H_vec
+
+
+Carga factual vectorial de horizonte.
+
+
+M_H
+
+
+Masa efectiva de clausura.
+
+
+α_H
+
+
+Ángulo de clausura.
+
+
+Ψ
+
+
+Persistencia normalizada.
+
+
+Φ
+
+
+Fragilidad factual bajo perturbación.
+
+
+ε
+
+
+Perturbación relativa.
+
+
+T_SV
+
+
+Transmisibilidad factual relativa.
+
+
+T_SV_vec
+
+
+Transmisibilidad factual relativa en régimen vectorial.
+
+
+τ_H
+
+
+Umbral operacional de horizonte.
+
+
+c_SV
+
+
+Velocidad de referencia del aparato SV para el régimen de transmisión.
+
+
+c_eff
+
+
+Velocidad efectiva de transmisión.
+
+
+D_BH
+
+
+Dictamen del régimen de agujero negro.
+
+
+r_s
+
+
+Radio de Schwarzschild en la lectura relativista externa.
+
+
+G
+
+
+Constante gravitacional en la lectura física contemporánea.
+
+
+M
+
+
+Masa física externa en la lectura relativista.
+
+
+J
+
+
+Momento angular en una eventual traducción métrica posterior.
+
+
+Q
+
+
+Carga eléctrica en una eventual traducción métrica posterior.
+
+
+# Índice de fórmulas
+
+
+Fórmula 1. Definición compacta del régimen de agujero negro
+
+
+BH_SV
+:=
+
+G_BH^SV
+ |
+T_SV≤ τ_H
+.
+
+
+Fórmula 2. Persistencia normalizada
+
+
+Ψ=1 / (1 + Θ).
+
+
+Fórmula 3. Fragilidad factual bajo perturbación
+
+
+Φ=εΘ / (1 + Θ).
+
+
+Fórmula 4. Relación entre fragilidad y persistencia
+
+
+Φ=ε(1 − Ψ).
+
+
+Fórmula 5. Transmisibilidad factual escalar
+
+
+T_SV=1 / (1 + Θ).
+
+
+Fórmula 6. Velocidad efectiva de transmisión
+
+
+c_effΘ=c_SVΨ.
+
+
+Fórmula 7. Relación entre velocidad efectiva y transmisibilidad
+
+
+c_effΘ / c_SV
+
+T_SV
+
+1 / (1 + Θ).
+
+
+Fórmula 8. Criterio de horizonte
+
+
+H_BH^SV
+⇔
+T_SV≤τ_H.
+
+
+Fórmula 9. Umbral operacional adoptado
+
+
+τ_H=0.1.
+
+
+Fórmula 10. Umbral escalar de horizonte
+
+
+Θ≥9.
+
+
+Fórmula 11. Carga factual vectorial de horizonte
+
+
+Θ_H_vec
+
+M_H · (1 − cos α_H).
+
+
+Fórmula 12. Transmisibilidad vectorial
+
+
+T_SV_vec
+
+1 / (1 + Θ_H_vec).
+
+
+Fórmula 13. Umbral vectorial de horizonte
+
+
+Θ_H_vec≥9.
+
+
+Fórmula 14. Horizonte como frontera factual
+
+
+H_BH^SV
+
+∂Ω_BH
+ 
+tal que
+ 
+T_SV(∂Ω_BH)≤τ_H.
+
+
+Fórmula 15. Interior como saturación factual
+
+
+Interior(BH)_SV = Sat_BH^SV.
+
+
+Fórmula 16. Destino global del contenido
+
+
+Destino_global(Contenido_int^BH)=U.
+
+
+Fórmula 17. Terna definicional del agujero negro
+
+
+BH_SV
+
+(H_BH^SV,Sat_BH^SV,U_destino).
+
+
+Fórmula 18. Radio de Schwarzschild como lectura externa
+
+
+r_s=2GM / c².
+
+
+Fórmula 19. Ley radial común de soporte factual
+
+
+I_r^(X,SV)
+
+Q_X / K_Xr².
+
+
+Fórmula 20. Monotonicidad de la transmisibilidad
+
+
+Θ_1<Θ_2
+Longrightarrow
+T_SV(Θ_1)>
+T_SV(Θ_2).
+
+
+# Índice de teoremas y proposiciones
+
+
+Definición 10.1.1. Régimen de agujero negro.
+Define el régimen de agujero negro como proyección del campo cuya transmisibilidad satisface (T_SV≤τ_H).
+
+Proposición 10.2.1. Horizonte como frontera de no transmisibilidad.
+Establece que el horizonte es frontera de no transmisibilidad factual.
+
+Teorema 10.3.1. Umbral operacional.
+Demuestra que, para (T_SV=1/(1 + Θ)) y τ_H = 0.1, el horizonte se alcanza si y sólo si (Θ≥9).
+
+Teorema 10.4.1. Monotonicidad de la transmisibilidad.
+Demuestra que (T_SVΘ) decrece estrictamente para (Θ≥0).
+
+Teorema 10.5.1. No suficiencia de masa aislada.
+Demuestra que la masa efectiva aislada no basta para declarar horizonte en el régimen vectorial.
+
+Proposición 10.6.1. Saturación interna.
+Establece que el interior del agujero negro debe describirse como saturación factual, no como vacío.
+
+Proposición 10.7.1. No singularidad primaria.
+Establece que la singularidad infinita no constituye el estatuto primario del interior en este documento.
+
+Proposición 10.8.1. Destino global no clausurado.
+Establece que el destino global del contenido interior permanece en U mientras no exista transición formal adicional.
+
+Corolario 10.9.1. Compatibilidad con lectura relativista externa.
+Establece compatibilidad entre horizonte factual y horizonte relativista sin reducir una lectura a la otra.
+
+
+# Índice de tablas
+
+
+Tabla 1. Valores escalares mínimos de transmisibilidad.
+Contiene los casos (Θ=3), (Θ=9) y (Θ=20), con sus dictámenes precrítico, horizonte crítico y horizonte consolidado.
+
+Tabla 2. Banco vectorial de horizonte.
+Contiene los casos (M_H=20,α_H=0), (M_H=10,α_H=arccos(0.1)) y (M_H=20,α_H=π).
+
+Tabla 3. Tabla global de dictámenes SV-BH1.
+Integra casos escalares, vectoriales, negativos y de U.
+
+Tabla 4. Tabla global de códigos de error.
+Recoge errores de dominio, umbral, vectorialidad, transmisibilidad, monotonicidad, falsa singularidad, falsa salida cosmológica, cierre indebido y supresión de U.
+
+Tabla 5. Comparación con interpretaciones contemporáneas.
+Distingue objeto relativista, horizonte causal, singularidad, sistema termodinámico, información no transmisible y enfoque factual.
+
+
+# Índice de figuras
+
+
+Figura 1. Secuencia formal del régimen de agujero negro.
+Representación de la cadena:
+
+
+U_F
+→
+Θ
+→
+Ψ
+→
+T_SV
+→
+H_BH^SV.
+
+
+Figura 2. Curva de transmisibilidad escalar.
+Gráfica de:
+
+
+T_SVΘ=1 / (1 + Θ).
+
+
+Figura 3. Umbral de horizonte.
+Representación del corte τ_H = 0.1 y del valor crítico (Θ=9).
+
+Figura 4. Régimen vectorial de clausura.
+Representación de M_H, α_H y Θ_H_vec.
+
+Figura 5. Triple dictamen del agujero negro.
+Horizonte, interior saturado y destino global en U.
+
+Figura 6. Comparación físico-factual.
+Correspondencia entre horizonte clásico, frontera factual, singularidad geométrica, saturación interna, masa y carga vectorial de clausura.
+
+
+# Bibliografía física contemporánea
+
+
+Bekenstein, J. D. (1973). Black holes and entropy. *Physical Review D, 7*(8), 2333–2346. [https://doi.org/10.1103/PhysRevD.7.2333(https://doi.org/10.1103/PhysRevD.7.2333)
+
+Bekenstein, J. D. (1974). Generalized second law of thermodynamics in black-hole physics. *Physical Review D, 9*(12), 3292–3300. [https://doi.org/10.1103/PhysRevD.9.3292(https://doi.org/10.1103/PhysRevD.9.3292)
+
+Carter, B. (1971). Axisymmetric black hole has only two degrees of freedom. *Physical Review Letters, 26*(6), 331–333. [https://doi.org/10.1103/PhysRevLett.26.331(https://doi.org/10.1103/PhysRevLett.26.331)
+
+Chandrasekhar, S. (1983). *The mathematical theory of black holes*. Oxford University Press.
+
+Einstein, A. (1915). Die Feldgleichungen der Gravitation. *Sitzungsberichte der Königlich Preußischen Akademie der Wissenschaften*, 844–847.
+
+Event Horizon Telescope Collaboration. (2019). First M87 Event Horizon Telescope results. I. The shadow of the supermassive black hole. *The Astrophysical Journal Letters, 875*1, L1. [https://doi.org/10.3847/2041-8213/ab0ec7(https://doi.org/10.3847/2041-8213/ab0ec7)
+
+Event Horizon Telescope Collaboration. (2022). First Sagittarius A* Event Horizon Telescope results. I. The shadow of the supermassive black hole in the center of the Milky Way. *The Astrophysical Journal Letters, 930*(2), L12. [https://doi.org/10.3847/2041-8213/ac6674(https://doi.org/10.3847/2041-8213/ac6674)
+
+Hawking, S. W. (1975). Particle creation by black holes. *Communications in Mathematical Physics, 43*, 199–220. [https://doi.org/10.1007/BF02345020(https://doi.org/10.1007/BF02345020)
+
+Hawking, S. W., & Ellis, G. F. R. (1973). *The large scale structure of space-time*. Cambridge University Press.
+
+Israel, W. (1967). Event horizons in static vacuum space-times. *Physical Review, 164*(5), 1776–1779. [https://doi.org/10.1103/PhysRev.164.1776(https://doi.org/10.1103/PhysRev.164.1776)
+
+Kerr, R. P. (1963). Gravitational field of a spinning mass as an example of algebraically special metrics. *Physical Review Letters, 11*(5), 237–238. [https://doi.org/10.1103/PhysRevLett.11.237(https://doi.org/10.1103/PhysRevLett.11.237)
+
+Misner, C. W., Thorne, K. S., & Wheeler, J. A. (1973). *Gravitation*. W. H. Freeman.
+
+Oppenheimer, J. R., & Snyder, H. (1939). On continued gravitational contraction. *Physical Review, 56*(5), 455–459. [https://doi.org/10.1103/PhysRev.56.455(https://doi.org/10.1103/PhysRev.56.455)
+
+Penrose, R. (1965). Gravitational collapse and space-time singularities. *Physical Review Letters, 14*(3), 57–59. [https://doi.org/10.1103/PhysRevLett.14.57(https://doi.org/10.1103/PhysRevLett.14.57)
+
+Schwarzschild, K. (1916). Über das Gravitationsfeld eines Massenpunktes nach der Einsteinschen Theorie. *Sitzungsberichte der Königlich Preußischen Akademie der Wissenschaften*, 189–196.
+
+Wald, R. M. (1984). *General relativity*. University of Chicago Press.
+
+Wald, R. M. (1994). *Quantum field theory in curved spacetime and black hole thermodynamics*. University of Chicago Press.
+
+
+# Bibliografía del corpus SV
+
+
+Lloret Egea, J. A. (2026). *Génesis del hidrógeno*. IA eñ™ — La Biblia de la IA™. DOI: 10.17613/qq4q9-sd847.
+
+Lloret Egea, J. A. (2026). *Catálogo SV-443*. IA eñ™ — La Biblia de la IA™. DOI: 10.17613/8ryyb-g9h48.
+
+Lloret Egea, J. A. (2026). *Teoría general de sucesos generadores y protocampos unificados*. IA eñ™ — La Biblia de la IA™. DOI: 10.17613/177nb-v2465.
+
+Lloret Egea, J. A. (2026). *Ecuación factual Maxwell*. IA eñ™ — La Biblia de la IA™. DOI: 10.17613/kep1t-57539.
+
+Lloret Egea, J. A. (2026). *Fórmula de Campo Unificado*. IA eñ™ — La Biblia de la IA™. DOI: 10.17613/gxfv3-qjj64.
+
+Lloret Egea, J. A. (2026). *De Bell a Tsirelson*. IA eñ™ — La Biblia de la IA™. DOI: 10.17613/1666c-c5g66.
+
+Lloret Egea, J. A. (2026). *Teoría del TODO y de la NADA*. IA eñ™ — La Biblia de la IA™. DOI: 10.17613/k3q1d-fjj45.
+
+Lloret Egea, J. A. (2026). *Entropía factual e irreversibilidad estructural*. IA eñ™ — La Biblia de la IA™. DOI: 10.17613/vh6ak-6em43.
+
+Lloret Egea, J. A. (2026). *Fórmula termodinámica factual única*. IA eñ™ — La Biblia de la IA™. DOI: 10.17613/ptw68-d1r57.
+
+Lloret Egea, J. A. (2026). *Interacción, intercomposición y transmisión de campos*. IA eñ™ — La Biblia de la IA™. Repositorio GitHub del corpus SV.
+
+Lloret Egea, J. A. (2026). *Catálogo de Pares Estructurales SV (CPS-SV): enlace, aleación y compatibilidad posicional desde los 118 elementos base hasta los 443 candidatos del dominio extendido*. IA eñ™ — La Biblia de la IA™.
+
+Lloret Egea, J. A. (2026). *Biología molecular y medicina: del par estructural a la célula viva*. IA eñ™ — La Biblia de la IA™. DOI: 10.21428/39829d0b.624921db.
+
+
+# Anexo I. Pseudocódigo del modelo
+
+
+## I.1. Pseudocódigo de transmisibilidad escalar
+
+
+El cálculo escalar evalúa la relación directa entre carga factual interna y transmisibilidad. Su entrada principal es Θ, con dominio:
+
+
+Θ≥0.
+
+
+La salida debe contener transmisibilidad, dictamen de horizonte, estatuto interior y destino global cuando proceda.
+
+funcion transmisibilidad_escalar(theta, tau_H):
+
+si theta no está definido:
+
+devolver error BH-DOM-004
+
+si theta < 0:
+
+devolver error BH-DOM-001
+
+T = 1 / (1 + theta)
+
+si T <= 0 o T > 1:
+
+devolver error BH-TRA-001
+
+si T > tau_H:
+
+dictamen = "PRECRITICO"
+
+interior = "NO_APLICA"
+
+destino_global = "NO_APLICA"
+
+si T == tau_H:
+
+dictamen = "HORIZONTE_CRITICO"
+
+interior = "SATURACION_FACTUAL"
+
+destino_global = "U"
+
+si T < tau_H:
+
+dictamen = "HORIZONTE_CONSOLIDADO"
+
+interior = "SATURACION_FACTUAL"
+
+destino_global = "U"
+
+devolver 
+
+"theta": theta,
+
+"tau_H": tau_H,
+
+"transmissibility": T,
+
+"dictamen": dictamen,
+
+"interior": interior,
+
+"destino_global": destino_global
+
+
+Para implementación numérica se usará tolerancia declarada:
+
+
+epsilon_num=10^-9.
+
+
+La comparación exacta se sustituirá por:
+
+
+|T_SV-τ_H|≤ epsilon_num.
+
+
+El pseudocódigo corregido con tolerancia queda:
+
+funcion clasificar_transmisibilidad(T, tau_H, epsilon_num):
+
+si T > tau_H + epsilon_num:
+
+devolver "PRECRITICO"
+
+si abs(T - tau_H) <= epsilon_num:
+
+devolver "HORIZONTE_CRITICO"
+
+si T < tau_H - epsilon_num:
+
+devolver "HORIZONTE_CONSOLIDADO"
+
+La regla de fondo no cambia:
+
+
+T_SV≤τ_H
+⇔
+H_BH^SV.
+
+
+## I.2. Pseudocódigo de transmisibilidad vectorial
+
+
+El cálculo vectorial evalúa masa efectiva, orientación de clausura, carga factual vectorial y transmisibilidad. Sus entradas son:
+
+
+M_H,
+ 
+α_H,
+ 
+τ_H.
+
+
+El dominio admitido es:
+
+
+M_H≥0,
+
+
+α_H∈[0,π.
+
+
+funcion transmisibilidad_vectorial(M_H, alpha_H, tau_H):
+
+si M_H no está definido o alpha_H no está definido:
+
+devolver error BH-DOM-004
+
+si M_H < 0:
+
+devolver error BH-DOM-002
+
+si alpha_H < 0 o alpha_H > pi:
+
+devolver error BH-DOM-003
+
+theta_vec = M_H * (1 - cos(alpha_H))
+
+si theta_vec < 0:
+
+devolver error BH-VEC-004
+
+T_vec = 1 / (1 + theta_vec)
+
+si T_vec <= 0 o T_vec > 1:
+
+devolver error BH-TRA-001
+
+dictamen = clasificar_transmisibilidad(T_vec, tau_H, epsilon_num)
+
+si dictamen == "PRECRITICO":
+
+interior = "NO_APLICA"
+
+destino_global = "NO_APLICA"
+
+si dictamen == "HORIZONTE_CRITICO":
+
+interior = "SATURACION_FACTUAL"
+
+destino_global = "U"
+
+si dictamen == "HORIZONTE_CONSOLIDADO":
+
+interior = "SATURACION_FACTUAL"
+
+destino_global = "U"
+
+devolver 
+
+"M_H": M_H,
+
+"alpha_H": alpha_H,
+
+"theta_vec": theta_vec,
+
+"tau_H": tau_H,
+
+"transmissibility": T_vec,
+
+"dictamen": dictamen,
+
+"interior": interior,
+
+"destino_global": destino_global
+
+
+El cálculo vectorial impide declarar horizonte mediante masa efectiva aislada. La comprobación esencial es:
+
+si M_H es alto pero theta_vec < 9:
+
+no declarar horizonte
+
+En forma matemática:
+
+
+M_H alta
+↛
+H_BH^SV.
+
+
+El único criterio válido en el régimen vectorial es:
+
+
+Θ_H_vec≥9.
+
+
+## I.3. Pseudocódigo de dictamen
+
+
+El dictamen integra transmisibilidad, umbral, interior y destino global.
+
+funcion dictamen_BH(T, tau_H, epsilon_num):
+
+estado = clasificar_transmisibilidad(T, tau_H, epsilon_num)
+
+si estado == "PRECRITICO":
+
+devolver 
+
+"horizonte": false,
+
+"dictamen": "PRECRITICO",
+
+"interior": "NO_APLICA",
+
+"destino_global": "NO_APLICA"
+
+
+si estado == "HORIZONTE_CRITICO":
+
+devolver 
+
+"horizonte": true,
+
+"dictamen": "HORIZONTE_CRITICO",
+
+"interior": "SATURACION_FACTUAL",
+
+"destino_global": "U"
+
+
+si estado == "HORIZONTE_CONSOLIDADO":
+
+devolver 
+
+"horizonte": true,
+
+"dictamen": "HORIZONTE_CONSOLIDADO",
+
+"interior": "SATURACION_FACTUAL",
+
+"destino_global": "U"
+
+
+La función de dictamen debe preservar la separación entre tres niveles:
+
+
+H_BH^SV,
+
+
+Interior(BH)_SV,
+
+
+Destino_global.
+
+
+Por tanto, está prohibido que el dictamen haga lo siguiente:
+
+si horizonte == true:
+
+destino_global = "SINGULARIDAD_FINAL"
+
+También está prohibido:
+
+si horizonte == true:
+
+destino_global = "OTRO_UNIVERSO"
+
+La única salida válida para destino global en esta publicación es:
+
+destino_global = "U"
+
+cuando el régimen sea horizonte crítico u horizonte consolidado.
+
+
+## I.4. Pseudocódigo adversarial
+
+
+El pseudocódigo adversarial verifica que el sistema rechaza conclusiones incompatibles.
+
+funcion adversarial_BH(caso):
+
+calcular resultado según modelo
+
+si caso declara horizonte y resultado.T > tau_H:
+
+emitir BH-UMB-001
+
+si caso declara no horizonte y resultado.T <= tau_H:
+
+emitir BH-UMB-002
+
+si caso declara horizonte por M_H aislada sin theta_vec >= 9:
+
+emitir BH-VEC-002
+
+si caso produce T fuera de (0,1:
+
+emitir BH-TRA-001
+
+si caso viola monotonicidad:
+
+emitir BH-MON-001
+
+si caso declara singularidad infinita como resultado:
+
+emitir BH-SIG-001
+
+si caso declara salida cosmológica sin transición formal:
+
+emitir BH-COS-001
+
+si caso sustituye U por cierre no demostrado:
+
+emitir BH-U-001
+
+si no se detecta error en un caso adversarial diseñado para fallar:
+
+emitir BH-CIE-003
+
+devolver resultado_adversarial
+
+Casos adversariales mínimos:
+
+N-BH-01:
+
+theta = 3
+
+declarado = HORIZONTE_CONSOLIDADO
+
+error esperado = BH-UMB-001
+
+N-BH-02:
+
+theta = 9
+
+declarado = PRECRITICO
+
+error esperado = BH-UMB-002 o BH-UMB-003
+
+N-BH-03:
+
+M_H = 20
+
+alpha_H = 0
+
+declarado = HORIZONTE_CONSOLIDADO
+
+error esperado = BH-VEC-002
+
+N-BH-04:
+
+theta_1 = 9
+
+theta_2 = 20
+
+T_20 > T_9
+
+error esperado = BH-MON-001
+
+N-BH-05:
+
+destino_global = OTRO_UNIVERSO
+
+error esperado = BH-COS-001
+
+N-BH-06:
+
+destino_global = SINGULARIDAD_FINAL
+
+error esperado = BH-SIG-001
+
+N-BH-07:
+
+destino_global = DESAPARICION_ABSOLUTA
+
+error esperado = BH-U-001
+
+La ejecución adversarial debe producir salidas de este tipo:
+
+
+"case_id": "N-BH-03",
+
+"expected_error": "BH-VEC-002",
+
+"detected_error": "BH-VEC-002",
+
+"status": "PASS_EXPECTED_ERROR"
+
+
+Si un caso adversarial no produce el error esperado, el laboratorio no puede declararse apto.
+
+
+# Anexo II. Especificación de laboratorios
+
+
+## II.1. Estructura de carpetas
+
+
+La estructura mínima de laboratorio será:
+
+laboratorios/
+
+README.md
+
+runner.py
+
+datos/
+
+banco_escalar.csv
+
+banco_vectorial.csv
+
+banco_adversarial.csv
+
+src/
+
+bh_model.py
+
+bh_errors.py
+
+bh_io.py
+
+tests/
+
+test_escalar.py
+
+test_vectorial.py
+
+test_monotonicidad.py
+
+test_umbral.py
+
+test_adversarial.py
+
+test_u.py
+
+salidas/
+
+resultados_escalar.json
+
+resultados_vectorial.json
+
+resultados_adversarial.json
+
+resumen_global.json
+
+La carpeta datos/ contendrá entradas verificables.
+
+La carpeta src/ contendrá funciones de cálculo, clasificación, errores y lectura/escritura.
+
+La carpeta tests/ contendrá pruebas positivas y adversariales.
+
+La carpeta salidas/ contendrá los resultados generados por la ejecución.
+
+El archivo runner.py ejecutará el proceso completo.
+
+El archivo README.md explicará cómo ejecutar el laboratorio, qué salida esperar y qué errores se consideran esperados.
+
+
+## II.2. Ficheros de entrada
+
+
+El fichero banco_escalar.csv contendrá:
+
+case_id,theta,expected_transmissibility,expected_dictamen,expected_destiny
+
+E-BH-01,3,0.25,PRECRITICO,NA
+
+E-BH-02,9,0.1,HORIZONTE_CRITICO,U
+
+E-BH-03,20,0.0476190476,HORIZONTE_CONSOLIDADO,U
+
+El fichero banco_vectorial.csv contendrá:
+
+case_id,M_H,alpha_H,expected_theta_vec,expected_transmissibility,expected_dictamen,expected_destiny
+
+V-BH-01,20,0,0,1,NO_HORIZONTE,NA
+
+V-BH-02,10,1.4706289056,9,0.1,HORIZONTE_CRITICO,U
+
+V-BH-03,20,3.1415926536,40,0.0243902439,HORIZONTE_CONSOLIDADO,U
+
+El fichero banco_adversarial.csv contendrá:
+
+case_id,type,input_value,declared_result,expected_error
+
+N-BH-01,SCALAR_THETA,3,HORIZONTE_CONSOLIDADO,BH-UMB-001
+
+N-BH-02,SCALAR_THETA,9,PRECRITICO,BH-UMB-002
+
+N-BH-03,VECTORIAL_MASS_ONLY,"M_H=20;alpha_H=0",HORIZONTE_CONSOLIDADO,BH-VEC-002
+
+N-BH-04,MONOTONICITY,"theta_1=9;theta_2=20;T20>T9",INVALID,BH-MON-001
+
+N-BH-05,DESTINY,"horizon=true",OTRO_UNIVERSO,BH-COS-001
+
+N-BH-06,DESTINY,"horizon=true",SINGULARIDAD_FINAL,BH-SIG-001
+
+N-BH-07,DESTINY,"horizon=true",DESAPARICION_ABSOLUTA,BH-U-001
+
+Los ficheros de entrada deben conservar codificación UTF-8 y separador coma. Toda magnitud deberá estar declarada de forma explícita. No se admiten columnas ocultas ni inferencias de nombre de caso.
+
+
+## II.3. Ficheros de salida
+
+
+El laboratorio producirá cuatro salidas principales.
+
+resultados_escalar.json:
+
+
+"case_id": "E-BH-01",
+
+"theta": 3,
+
+"transmissibility": 0.25,
+
+"dictamen": "PRECRITICO",
+
+"destino_global": "NA",
+
+"status": "PASS"
+
+,
+
+
+"case_id": "E-BH-02",
+
+"theta": 9,
+
+"transmissibility": 0.1,
+
+"dictamen": "HORIZONTE_CRITICO",
+
+"destino_global": "U",
+
+"status": "PASS"
+
+
+resultados_vectorial.json:
+
+
+"case_id": "V-BH-03",
+
+"M_H": 20,
+
+"alpha_H": 3.1415926536,
+
+"theta_vec": 40,
+
+"transmissibility": 0.0243902439,
+
+"dictamen": "HORIZONTE_CONSOLIDADO",
+
+"destino_global": "U",
+
+"status": "PASS"
+
+
+resultados_adversarial.json:
+
+
+"case_id": "N-BH-05",
+
+"declared_result": "OTRO_UNIVERSO",
+
+"expected_error": "BH-COS-001",
+
+"detected_error": "BH-COS-001",
+
+"status": "PASS_EXPECTED_ERROR"
+
+
+resumen_global.json:
+
+
+"scalar_cases": 3,
+
+"vectorial_cases": 3,
+
+"adversarial_cases": 7,
+
+"passed": 13,
+
+"failed": 0,
+
+"expected_errors_detected": 7,
+
+"global_status": "APTO"
+
+
+Los ficheros de salida deben registrar valores, dictámenes y errores. No se admite una salida global que sólo diga “correcto” sin datos verificables.
+
+
+## II.4. Ejecución completa
+
+
+La ejecución completa se realizará mediante:
+
+python runner.py
+
+El runner deberá ejecutar, en orden:
+
+- lectura de bancos;
+
+- validación de dominios;
+
+- cálculo escalar;
+
+- cálculo vectorial;
+
+- comprobación de monotonicidad;
+
+- comprobación de umbral;
+
+- ejecución adversarial;
+
+- preservación de U;
+
+- generación de salidas JSON;
+
+- resumen global.
+
+El proceso deberá detener el dictamen de un caso si se detecta error de dominio. No deberá detener la ejecución completa salvo fallo estructural del laboratorio. Un error esperado en caso adversarial no cuenta como fallo; cuenta como detección correcta si coincide con el código previsto.
+
+La salida en consola deberá mostrar:
+
+SV-BH1 — laboratorio de agujero negro
+
+Casos escalares: PASS
+
+Casos vectoriales: PASS
+
+Monotonicidad: PASS
+
+Umbral: PASS
+
+Adversarial: PASS_EXPECTED_ERRORS
+
+Preservación de U: PASS
+
+Estado global: APTO
+
+Si cualquier bloque falla, el estado global será:
+
+NO_APTO
+
+
+## II.5. Validación esperada
+
+
+La validación esperada es:
+
+E-BH-01 PASS
+
+E-BH-02 PASS
+
+E-BH-03 PASS
+
+V-BH-01 PASS
+
+V-BH-02 PASS
+
+V-BH-03 PASS
+
+N-BH-01 PASS_EXPECTED_ERROR
+
+N-BH-02 PASS_EXPECTED_ERROR
+
+N-BH-03 PASS_EXPECTED_ERROR
+
+N-BH-04 PASS_EXPECTED_ERROR
+
+N-BH-05 PASS_EXPECTED_ERROR
+
+N-BH-06 PASS_EXPECTED_ERROR
+
+N-BH-07 PASS_EXPECTED_ERROR
+
+GLOBAL APTO
+
+El laboratorio será no apto si ocurre cualquiera de estas situaciones:
+
+E-BH-01 se clasifica como horizonte.
+
+E-BH-02 se clasifica como precrítico.
+
+E-BH-03 no se clasifica como horizonte consolidado.
+
+V-BH-01 se clasifica como horizonte.
+
+V-BH-02 no se clasifica como horizonte crítico.
+
+V-BH-03 no se clasifica como horizonte consolidado.
+
+Un caso adversarial no emite el error esperado.
+
+Un caso de horizonte no conserva destino_global = U.
+
+Una salida JSON omite valores de cálculo.
+
+El laboratorio valida la publicación sólo en su objeto declarado: definición operatoria, transmisibilidad, umbral, vectorialidad, saturación y preservación de U. No valida una métrica relativista completa ni un banco astrofísico real.
+
+
+# Anexo III. Banco SV-BH1 completo
+
+
+## III.1. Casos escalares
+
+
+Los casos escalares verifican la relación directa entre carga factual interna y transmisibilidad. La magnitud de entrada es Θ, y el cálculo se realiza mediante:
+
+
+T_SV
+
+1 / (1 + Θ).
+
+
+El umbral de horizonte adoptado es:
+
+
+τ_H=0.1.
+
+
+La clasificación se define así:
+
+
+T_SV>0.1
+Longrightarrow
+PRECRITICO.
+
+
+T_SV=0.1
+Longrightarrow
+HORIZONTE_CRITICO.
+
+
+T_SV<0.1
+Longrightarrow
+HORIZONTE_CONSOLIDADO.
+
+
+El banco escalar completo queda:
+
+| case_id | Θ | T_SV | Dictamen | Interior | Destino global |
+| --- | --- | --- | --- | --- | --- |
+| E-BH-01 | 3 | 0.2500000000 | PRECRITICO | NO_APLICA | NO_APLICA |
+| E-BH-02 | 9 | 0.1000000000 | HORIZONTE_CRITICO | SATURACION_FACTUAL | U |
+| E-BH-03 | 20 | 0.0476190476 | HORIZONTE_CONSOLIDADO | SATURACION_FACTUAL | U |
+| E-BH-04 | 0 | 1.0000000000 | PRECRITICO | NO_APLICA | NO_APLICA |
+| E-BH-05 | 8.999 | 0.1000100010 | PRECRITICO | NO_APLICA | NO_APLICA |
+| E-BH-06 | 9.001 | 0.0999900010 | HORIZONTE_CONSOLIDADO | SATURACION_FACTUAL | U |
+
+Los tres primeros casos son el núcleo mínimo. Los tres últimos cumplen función de control.
+
+El caso (E-BH-04) representa ausencia de carga factual interna de clausura. La transmisibilidad es completa:
+
+
+Θ=0
+Longrightarrow
+T_SV=1.
+
+
+No hay horizonte.
+
+El caso (E-BH-05) comprueba el borde inferior del umbral. Con:
+
+
+Θ=8.999,
+
+
+se obtiene:
+
+
+T_SV≈0.1000100010.
+
+
+Como este valor es superior a (0.1), el dictamen debe ser precrítico.
+
+El caso (E-BH-06) comprueba el borde superior del umbral. Con:
+
+
+Θ=9.001,
+
+
+se obtiene:
+
+
+T_SV≈0.0999900010.
+
+
+Como este valor es inferior a (0.1), el dictamen debe ser horizonte consolidado, aunque se encuentre extremadamente próximo al horizonte crítico.
+
+Estos casos impiden que el laboratorio trate el umbral de forma imprecisa. La frontera debe respetarse con tolerancia numérica declarada, sin alterar el criterio formal.
+
+
+## III.2. Casos vectoriales
+
+
+Los casos vectoriales verifican que el horizonte no depende de masa efectiva aislada, sino de carga vectorial de clausura:
+
+
+Θ_H_vec
+
+M_H · (1 − cos α_H).
+
+
+La transmisibilidad se calcula como:
+
+
+T_SV_vec
+
+1 / (1 + Θ_H_vec).
+
+
+El criterio de horizonte es:
+
+
+Θ_H_vec≥9.
+
+
+El banco vectorial completo queda:
+
+| case_id | M_H | α_H | Θ_H_vec | T_SV_vec | Dictamen | Interior | Destino global |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| V-BH-01 | 20 | 0 | 0.0000000000 | 1.0000000000 | NO_HORIZONTE | NO_APLICA | NO_APLICA |
+| V-BH-02 | 10 | 1.4706289056 | 9.0000000000 | 0.1000000000 | HORIZONTE_CRITICO | SATURACION_FACTUAL | U |
+| V-BH-03 | 20 | 3.1415926536 | 40.0000000000 | 0.0243902439 | HORIZONTE_CONSOLIDADO | SATURACION_FACTUAL | U |
+| V-BH-04 | 20 | 0.3000000000 | 0.8932706357 | 0.5281857849 | NO_HORIZONTE | NO_APLICA | NO_APLICA |
+| V-BH-05 | 5 | 3.1415926536 | 10.0000000000 | 0.0909090909 | HORIZONTE_CONSOLIDADO | SATURACION_FACTUAL | U |
+| V-BH-06 | 4 | 3.1415926536 | 8.0000000000 | 0.1111111111 | NO_HORIZONTE | NO_APLICA | NO_APLICA |
+
+El caso (V-BH-01) demuestra que una masa efectiva alta no basta cuando no hay orientación de clausura:
+
+
+α_H=0
+Longrightarrow
+Θ_H_vec=0.
+
+
+El caso (V-BH-02) representa el horizonte crítico vectorial exacto. Al fijar:
+
+
+M_H=10,
+ 
+α_H=arccos(0.1),
+
+
+se obtiene:
+
+
+Θ_H_vec=9.
+
+
+El caso (V-BH-03) representa clausura vectorial extrema:
+
+
+M_H=20,
+ 
+α_H=π,
+
+
+por lo que:
+
+
+Θ_H_vec=40.
+
+
+El caso (V-BH-04) muestra alta masa con orientación débil. Aunque (M_H=20), la carga vectorial resultante queda muy por debajo del umbral:
+
+
+Θ_H_vec≈0.8932706357.
+
+
+El caso (V-BH-05) muestra que una masa efectiva menor puede producir horizonte si la orientación de clausura es extrema:
+
+
+M_H=5,
+ 
+α_H=π,
+ 
+Θ_H_vec=10.
+
+
+El caso (V-BH-06) muestra que orientación extrema no basta si la masa efectiva no produce carga vectorial suficiente:
+
+
+M_H=4,
+ 
+α_H=π,
+ 
+Θ_H_vec=8.
+
+
+Como:
+
+
+8<9,
+
+
+no hay horizonte.
+
+La conclusión vectorial es estricta:
+
+
+H_BH^SV
+⇔
+Θ_H_vec≥9.
+
+
+Ni la masa efectiva sola ni el ángulo solo sustituyen esta condición.
+
+
+## III.3. Casos negativos
+
+
+Los casos negativos están diseñados para comprobar que el laboratorio rechaza salidas incompatibles con el documento. No son fallos del banco; son pruebas de resistencia. Deben producir error esperado.
+
+| case_id | Tipo | Entrada | Declaración indebida | Error esperado |
+| --- | --- | --- | --- | --- |
+| N-BH-01 | Umbral | (Θ=3) | HORIZONTE_CONSOLIDADO | BH-UMB-001 |
+| N-BH-02 | Umbral | (Θ=9) | PRECRITICO | BH-UMB-002 |
+| N-BH-03 | Vectorialidad | (M_H=20,α_H=0) | HORIZONTE_CONSOLIDADO | BH-VEC-002 |
+| N-BH-04 | Monotonicidad | (T(20)>T9) | Secuencia aceptada | BH-MON-001 |
+| N-BH-05 | Destino | Horizonte verdadero | OTRO_UNIVERSO | BH-COS-001 |
+| N-BH-06 | Singularidad | Horizonte verdadero | SINGULARIDAD_FINAL | BH-SIG-001 |
+| N-BH-07 | U | Horizonte verdadero | DESAPARICION_ABSOLUTA | BH-U-001 |
+| N-BH-08 | Dominio | (Θ=-1) | Dictamen calculado | BH-DOM-001 |
+| N-BH-09 | Dominio angular | (α_H>π) | Dictamen calculado | BH-DOM-003 |
+| N-BH-10 | Transmisibilidad | (T=1.2) | Salida aceptada | BH-TRA-001 |
+
+El caso (N-BH-01) impide declarar horizonte con transmisibilidad superior al umbral.
+
+El caso (N-BH-02) impide clasificar como precrítico el punto exacto de horizonte crítico.
+
+El caso (N-BH-03) impide que la masa efectiva aislada sustituya la carga vectorial.
+
+El caso (N-BH-04) impide violar la propiedad decreciente de la transmisibilidad.
+
+Los casos (N-BH-05), (N-BH-06) y (N-BH-07) protegen la conservación de U.
+
+Los casos (N-BH-08), (N-BH-09) y (N-BH-10) protegen el dominio y la consistencia numérica mínima.
+
+El laboratorio sólo podrá declararse apto si detecta correctamente todos estos errores esperados.
+
+
+## III.4. Casos frontera
+
+
+Los casos frontera verifican el tratamiento del umbral. Su función es evitar que errores de redondeo o clasificación alteren el dictamen.
+
+| case_id | Modelo | Entrada | T_SV | Dictamen |
+| --- | --- | --- | --- | --- |
+| F-BH-01 | Escalar | (Θ=8.999) | 0.1000100010 | PRECRITICO |
+| F-BH-02 | Escalar | (Θ=9) | 0.1000000000 | HORIZONTE_CRITICO |
+| F-BH-03 | Escalar | (Θ=9.001) | 0.0999900010 | HORIZONTE_CONSOLIDADO |
+| F-BH-04 | Vectorial | (Θ_H_vec=8.999) | 0.1000100010 | NO_HORIZONTE |
+| F-BH-05 | Vectorial | (Θ_H_vec=9) | 0.1000000000 | HORIZONTE_CRITICO |
+| F-BH-06 | Vectorial | (Θ_H_vec=9.001) | 0.0999900010 | HORIZONTE_CONSOLIDADO |
+
+La clasificación frontera se rige por:
+
+
+T_SV>τ_H
+Longrightarrow
+precrítico.
+
+
+T_SV=τ_H
+Longrightarrow
+horizonte crítico.
+
+
+T_SV<τ_H
+Longrightarrow
+horizonte consolidado.
+
+
+Si se usa tolerancia numérica, deberá declararse:
+
+
+epsilon_num=10^-9.
+
+
+El laboratorio no puede usar una tolerancia tan amplia que convierta (8.999) o (9.001) en 9. La tolerancia corrige imprecisión computacional, no altera el dictamen.
+
+
+## III.5. Casos de U
+
+
+Los casos de U comprueban que el destino global del contenido interior no se cierra indebidamente. Todo caso clasificado como horizonte crítico u horizonte consolidado debe conservar:
+
+
+Destino_global=U.
+
+
+| case_id | Dictamen de horizonte | Interior | Destino esperado |
+| --- | --- | --- | --- |
+| U-BH-01 | HORIZONTE_CRITICO | SATURACION_FACTUAL | U |
+| U-BH-02 | HORIZONTE_CONSOLIDADO | SATURACION_FACTUAL | U |
+| U-BH-03 | PRECRITICO | NO_APLICA | NO_APLICA |
+| U-BH-04 | HORIZONTE_CRITICO | SATURACION_FACTUAL | U |
+| U-BH-05 | HORIZONTE_CONSOLIDADO | SATURACION_FACTUAL | U |
+
+Los casos de U deben impedir las siguientes sustituciones:
+
+
+U
+→
+singularidad final.
+
+
+U
+→
+otro universo.
+
+
+U
+→
+desaparición absoluta.
+
+
+U
+→
+probabilidad de salida.
+
+
+La salida correcta para todo horizonte en esta publicación es:
+
+
+"destino_global": "U"
+
+
+La U no equivale a ignorancia débil. Equivale a dictamen formal de no clausura. El laboratorio debe preservarla como resultado positivo cuando el documento no disponga de transición ulterior.
+
+
+# Anexo IV. Tabla de correspondencia físico-factual
+
+
+## IV.1. Horizonte clásico y horizonte factual
+
+
+La correspondencia entre horizonte clásico y horizonte factual debe establecerse sin confundir sus fundamentos.
+
+El horizonte clásico se describe como frontera causal en la lectura relativista. El horizonte factual se define como frontera de no transmisibilidad:
+
+
+H_BH^SV
+⇔
+T_SV≤τ_H.
+
+
+La correspondencia puede expresarse así:
+
+| Lectura física contemporánea | Lectura factual del documento | Estatuto |
+| --- | --- | --- |
+| Horizonte causal | Frontera de no transmisibilidad | Compatible |
+| Superficie de no escape | Límite de transmisión externa | Compatible |
+| Radio crítico | Lectura métrica externa de frontera factual | Correspondencia no completa |
+| Interior no comunicante | Saturación factual interior | Compatible |
+| Singularidad como límite geométrico | Saturación como estatuto interno mínimo | Relectura formal |
+
+La equivalencia no debe escribirse como identidad total. La forma prudente es:
+
+
+H_clasico
+≈
+H_BH^SV.
+
+
+El símbolo (≈) indica correspondencia de fenómeno, no igualdad formal completa. La relatividad general describe la frontera mediante geometría; este documento la define mediante transmisibilidad. Ambas lecturas pueden señalar el mismo fenómeno físico desde lenguajes distintos.
+
+
+## IV.2. Singularidad e interior saturado
+
+
+La singularidad geométrica y el interior saturado no deben confundirse. La singularidad aparece como límite de ciertas descripciones métricas. El interior saturado aparece como estatuto operatorio mínimo del régimen de agujero negro.
+
+La correspondencia admitida es:
+
+
+Singularidad_geom
+↝
+Sat_BH^SV.
+
+
+La flecha (↝) expresa relectura, no identidad. Significa que aquello que en una lectura externa aparece como límite geométrico extremo, en este documento se trata como saturación factual interior.
+
+La tabla de correspondencia es:
+
+| Concepto | Lectura geométrica | Lectura factual |
+| --- | --- | --- |
+| Singularidad | Límite no regular de la métrica | No se adopta como fundamento primario |
+| Interior | Región tras el horizonte | Régimen de saturación factual |
+| Infinito | Resultado límite de una descripción | No se declara como estado físico primario |
+| Contenido interior | Problema de interpretación | Contenido no transmisivo bajo saturación |
+| Destino final | No resuelto por esta publicación | U |
+
+La conclusión es:
+
+
+Interior(BH)_SV
+
+Sat_BH^SV,
+
+
+no:
+
+
+Interior(BH)_SV
+
+Singularidad_∞.
+
+
+Esta distinción permite conservar el rigor del documento: se reconoce el límite geométrico, pero no se convierte en definición del régimen.
+
+
+## IV.3. Masa y carga vectorial de clausura
+
+
+La masa física externa y la carga vectorial de clausura pertenecen a planos distintos. La masa física M aparece en la lectura relativista y astrofísica. La masa efectiva de clausura M_H y la carga vectorial Θ_H_vec pertenecen al aparato formal de este documento.
+
+La relación mínima es:
+
+| Magnitud | Lectura física externa | Lectura factual |
+| --- | --- | --- |
+| M | Masa observacional o relativista | Entrada pendiente de traducción |
+| M_H | No equivalente directa sin traducción | Masa efectiva de clausura |
+| α_H | No necesariamente ángulo espacial | Orientación factual de cierre |
+| Θ_H_vec | No magnitud clásica directa | Carga vectorial de horizonte |
+| T_SV_vec | No observable directo inicial | Transmisibilidad resultante |
+
+La fórmula principal es:
+
+
+Θ_H_vec
+
+M_H · (1 − cos α_H).
+
+
+El criterio de horizonte es:
+
+
+Θ_H_vec≥9.
+
+
+Por tanto, una masa física alta no se traduce automáticamente en horizonte dentro de este aparato. Debe determinarse su correspondencia con M_H y con α_H, y sólo después calcularse Θ_H_vec.
+
+La publicación establece así una cautela esencial:
+
+
+M alta
+↛
+H_BH^SV
+
+
+sin traducción formal a:
+
+
+Θ_H_vec.
+
+
+## IV.4. Radio y frontera efectiva
+
+
+El radio de Schwarzschild expresa una frontera métrica en una solución relativista concreta:
+
+
+r_s=2GM / c².
+
+
+La frontera factual expresa una condición de no transmisibilidad:
+
+
+H_BH^SV
+
+∂Ω_BH
+ 
+tal que
+ 
+T_SV(∂Ω_BH)≤τ_H.
+
+
+La correspondencia entre ambas puede formularse así:
+
+| Magnitud | Función | Estatuto en este documento |
+| --- | --- | --- |
+| (r_s) | Radio crítico relativista | Lectura métrica externa |
+| (∂Ω_BH) | Frontera factual del régimen | Límite operatorio |
+| T_SV | Transmisibilidad relativa | Criterio de horizonte |
+| τ_H | Umbral operacional | Criterio de dictamen |
+
+No se afirma:
+
+
+r_s=∂Ω_BH
+
+
+como igualdad formal plena. Se admite:
+
+
+r_s
+≈
+∂Ω_BH
+
+
+como correspondencia posible bajo traducción métrica.
+
+La frontera efectiva del documento no depende inicialmente de coordenadas espaciales. Depende de transmisión. Una teoría posterior podrá relacionar radio, masa, orientación, carga vectorial y frontera factual. Esta publicación sólo establece el criterio local:
+
+
+T_SV≤τ_H.
+
+
+## IV.5. Transmisión y no transmisibilidad
+
+
+La transmisión y la no transmisibilidad constituyen el eje de la publicación. La transmisión ordinaria corresponde a:
+
+
+T_SV>τ_H.
+
+
+La no transmisibilidad de horizonte corresponde a:
+
+
+T_SV≤τ_H.
+
+
+La tabla final de correspondencia es:
+
+| Régimen | Condición factual | Lectura física |
+| --- | --- | --- |
+| Transmisivo | (T_SV>τ_H) | No horizonte pleno |
+| Crítico | (T_SV=τ_H) | Horizonte crítico |
+| No transmisivo | (T_SV<τ_H) | Horizonte consolidado |
+| Saturado | Horizonte + interior no transmisivo | Interior bajo clausura |
+| No clausurado globalmente | Destino no determinado | U |
+
+La no transmisibilidad no equivale a inexistencia. Tampoco equivale a destrucción. Significa que el contenido no mantiene transmisión externa ordinaria bajo el régimen descrito.
+
+La conclusión de la tabla es:
+
+
+El agujero negro se define por no transmisibilidad,
+no por desaparición del contenido.
+
+
+Esta correspondencia cierra el anexo y conserva la tesis principal del documento: horizonte como frontera operatoria, interior como saturación, destino global como U.
