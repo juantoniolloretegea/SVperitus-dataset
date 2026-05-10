@@ -30,19 +30,22 @@ El resultado central es determinante. Si Γᴮᴴ satisface 𝔅Hₛᵥ(Γᴮᴴ
 
 La teoría contiene una sección específica de **Unicidad de la Fórmula del agujero Negro**. Allí se demuestra que 𝔅Hₛᵥ(Γᴮᴴ)=0 es única salvo equivalencia definicional: ninguna fórmula que omita una condición necesaria representa el objeto físico de horizonte; ninguna fórmula que añada una condición no derivada del corpus conserva el SV; ninguna fórmula que sustituya M_N2-SV por U satisface la frontera TODO/NADA; ninguna fórmula que sustituya DΣ por probabilidad, estadística o inferencia opaca pertenece al aparato SV. La unicidad se demuestra por necesidad, suficiencia, no redundancia estricta y cierre por doble traducción BH_físico⇔BH_SV.
 
+
+La publicación incorpora además un anexo de transferencia científica rigurosa para dos niveles de lectura: niño de diez años y joven universitario de ingeniería. Este anexo no rebaja el aparato matemático, sino que traduce los teoremas ya demostrados a imágenes conceptuales controladas por el SV: célula de nueve coordenadas, dictamen fuerte, luz factual no anulada, interior saturado y postfrontera M_N2-SV. Su función es impedir que la explicación pública del agujero negro vuelva a términos impropios como velocidad de escape tomada como fundamento, curvatura externa como causa primaria, singularidad infinita o ignorancia final. La pedagogía queda subordinada a la fórmula, no al revés.
+
 ## Abstract
 
 This paper formulates the black hole as an extreme regime of the factual unified field in the Vectorial System SV and proves, through formal apparatus, theorems, demonstrations and nontrivial numerical verification, its structural equivalence with the physical horizon object described by contemporary physics. The governing result is the regime equation 𝔅Hₛᵥ(Γᴮᴴ)=0, defined as the nullity of the defect vector Rᴮᴴ and as a simultaneous restriction of the Theory of EVERYTHING and NOTHING, the master formula of the unified field, factual Maxwell, unique factual thermodynamics, factual entropy, factual light theory, the Bell–Tsirelson apparatus whenever angular regimes are involved, factual interaction and transmission between fields, and the numerical bank SV-BH9. The paper also places the black-hole regime within the Theory of EVERYTHING and NOTHING and of Imperfection: a ternary enlargement of the binary framework in which physically realized structure is sustained imperfection between the poles, not inert perfect closure. The black hole is therefore treated as an extreme regime of stabilized imperfection: external non-transmission, preserved but non-transmitting factual light, saturated interior and post-boundary M_N2-SV.
 
-The paper proves that the post-boundary verdict is M_N2-SV, not U, and that the formula of the SV black hole is unique up to definitional equivalence.
+The paper proves that the post-boundary verdict is M_N2-SV, not U, and that the formula of the SV black hole is unique up to definitional equivalence. It also includes a rigorous progressive explanatory annex for a ten-year-old child and for an engineering undergraduate, preserving the formal SV apparatus while translating it into accessible language without foundational time, velocity, external curvature, probability or opaque inference.
 
 ## Palabras clave
 
-Agujero negro; horizonte factual; no transmisibilidad; campo unificado; Teoría del TODO y de la NADA; M_N2-SV; unicidad de fórmula; banco SV-BH9; Event Horizon Telescope; LIGO; Schwarzschild; Kerr; Bekenstein–Hawking; radiación de Hawking; paradoja de la información; islas; luz factual; termodinámica factual; entropía factual; Maxwell factual; Sistema Vectorial SV.
+Agujero negro; horizonte factual; no transmisibilidad; campo unificado; Teoría del TODO y de la NADA; M_N2-SV; unicidad de fórmula; banco SV-BH9; Event Horizon Telescope; LIGO; Schwarzschild; Kerr; Bekenstein–Hawking; radiación de Hawking; paradoja de la información; islas; luz factual; termodinámica factual; entropía factual; Maxwell factual; Sistema Vectorial SV; pedagogía científica SV; explicación progresiva.
 
 ## Keywords
 
-Black hole; factual horizon; non-transmissibility; unified field; Theory of EVERYTHING and NOTHING; M_N2-SV; formula uniqueness; SV-BH9 bank; Event Horizon Telescope; LIGO; Schwarzschild; Kerr; Bekenstein–Hawking; Hawking radiation; information paradox; islands; factual light; factual thermodynamics; factual entropy; factual Maxwell; Vectorial System SV.
+Black hole; factual horizon; non-transmissibility; unified field; Theory of EVERYTHING and NOTHING; M_N2-SV; formula uniqueness; SV-BH9 bank; Event Horizon Telescope; LIGO; Schwarzschild; Kerr; Bekenstein–Hawking; Hawking radiation; information paradox; islands; factual light; factual thermodynamics; factual entropy; factual Maxwell; Vectorial System SV; SV scientific pedagogy; progressive explanation.
 
 ---
 
@@ -69,8 +72,9 @@ XV. Demostración final de absorción y rechazo bajo la Fórmula Absoluta
 XVI. Conclusiones  
 Bibliografía física contemporánea  
 Bibliografía del corpus SV  
-Anexo I. Pseudocódigo textual del dictamen  
-Anexo II. Criterio adversarial de publicación
+Anexo I. El agujero negro explicado con rigor progresivo: niño de diez años y joven universitario de ingeniería  
+Anexo II. Pseudocódigo textual del dictamen  
+Anexo III. Criterio adversarial de publicación
 
 ---
 
@@ -1262,6 +1266,8 @@ Vigésima. El agujero negro queda incorporado a la Teoría del TODO y de la NADA
 
 Vigésima primera. La Fórmula Absoluta 𝔅Hₛᵥ(Γᴮᴴ)=0 conserva su unicidad tras incorporar la Teoría de la Imperfección, porque ésta no añade componente externo al vector Rᴮᴴ, sino que explicita el régimen doctrinal en el que el vector se anula.
 
+Decimoquinta. El documento incorpora una lectura progresiva subordinada: niño de diez años y joven universitario de ingeniería. Esa lectura no reduce ni debilita el resultado; lo traduce mediante células, dictamen, preservación de la luz factual, saturación interior y M_N2-SV, evitando que la divulgación vuelva a conceptos tomados como fundamento externo.
+
 Cierre final.
 
 Agujero negro en el Sistema Vectorial SV = objeto físico de horizonte representado por régimen extremo del campo unificado factual + imperfección cerrada en frontera de no transmisión exterior + no transmisión luminosa con luz factual preservada + interior saturado + postfrontera M_N2-SV + absorción numérica de los planteamientos contemporáneos de la física + unicidad de fórmula bajo dictamen formal.
@@ -1356,7 +1362,154 @@ Lloret Egea, J. A. (2026). Interacción, intercomposición y transmisión factua
 
 ---
 
-# Anexo I. Pseudocódigo textual del dictamen
+
+# Anexo I. El agujero negro explicado con rigor progresivo: niño de diez años y joven universitario de ingeniería
+
+## I.1. Estatuto del anexo
+
+Este anexo pertenece al documento y queda subordinado a sus teoremas. No sustituye la fórmula 𝔅Hₛᵥ(Γᴮᴴ)=0, no altera el banco SV-BH9 y no introduce un lenguaje externo como fundamento. Su función es transferir la teoría a dos niveles de comprensión sin deformar el SV: primero, a un niño de diez años; después, a un joven universitario de ingeniería.
+
+La regla de escritura del anexo es estricta: toda imagen didáctica debe preservar las condiciones formales ya demostradas. Por tanto, cuando se dice que “la luz no sale”, se está traduciendo DΣ(v_L)=NO_APTO. Cuando se dice que “el interior no está vacío”, se está traduciendo DΣ(v_INT)=SATURACIÓN. Cuando se dice que “detrás no queda ignorancia”, se está traduciendo Postᴮᴴ=M_N2-SV y M_N2-SV≠U. Nada de lo anterior se apoya en tiempo como fundamento, velocidad como primitiva, curvatura geométrica externa como causa primaria, probabilidad, estadística o inferencia opaca.
+
+Teorema I.1. Conservación formal de la explicación progresiva.
+
+Enunciado. Una explicación accesible del agujero negro preserva el documento si cada enunciado didáctico se corresponde con una condición formal de 𝔅Hₛᵥ(Γᴮᴴ)=0.
+
+Demostración. La explicación accesible contiene cinco afirmaciones: no salida exterior, no salida luminosa, interior saturado, cierre TODO/NADA y postfrontera M_N2-SV. En el documento formal esas afirmaciones son, respectivamente, DΣ(v_TE)=NO_APTO, DΣ(v_L)=NO_APTO, DΣ(v_INT)=SATURACIÓN, μ=0 ∧ λ=0 ∧ 𝓝★ₛᵥ=0, y Postᴮᴴ=M_N2-SV. Si cada frase accesible se empareja con una de esas condiciones, la explicación no añade semántica externa ni elimina ningún cierre. Luego conserva el documento. c.q.d.
+
+## I.2. Lectura para un niño de diez años
+
+Imagina que el universo tiene regiones con puertas. Algunas puertas dejan salir cosas. Otras no. En el SV no miramos primero si una cosa corre mucho, ni si una piedra pesa mucho, ni si el espacio se curva. Miramos una célula de nueve lugares. Cada lugar puede decir 0, 1 o U.
+
+0 significa que esa coordenada deja pasar. 1 significa que esa coordenada no deja pasar. U significa que esa coordenada todavía no decide por sí sola.
+
+Para que el SV diga algo fuerte, no basta una sola coordenada. Hace falta una mayoría muy fuerte. En una célula de nueve lugares, hacen falta siete.
+
+T(9)=7.
+
+Si siete lugares dicen 1 en la célula de transmisión exterior, la salida exterior queda cerrada.
+
+N₁(v_TE)≥7 ⇒ DΣ(v_TE)=NO_APTO.
+
+Eso es el horizonte factual explicado para un niño: una frontera donde la célula dice con fuerza suficiente que no hay salida hacia fuera.
+
+La luz en el SV no es una bolita ni una ola de agua. Es una fibra factual con quince maneras de ser mirada. El agujero negro no destruye esa fibra. Lo que ocurre es que su célula de salida luminosa también dice NO_APTO.
+
+DΣ(v_L)=NO_APTO.
+
+La luz sigue siendo luz factual, con sus quince proyecciones, pero no consigue transmisión exterior.
+
+El interior tampoco es un hueco vacío. El SV mira otra célula, la célula interior. Si esa célula confirma saturación, el interior queda lleno de estructura factual cerrada.
+
+DΣ(v_INT)=SATURACIÓN.
+
+La pregunta “¿qué hay detrás?” tampoco se contesta con “no se sabe”. Si el verificador rector cierra y las dos magnitudes de frontera valen cero, entonces el SV da una respuesta fuerte:
+
+μ=0 ∧ λ=0 ∧ 𝓝★ₛᵥ=0 ⇒ Postᴮᴴ=M_N2-SV.
+
+M_N2-SV significa cierre interno sin resto exterior formulable. Hay cierre interno. No hay resto exterior que pueda salir formulado hacia fuera.
+
+Ejemplo de bolsillo para un niño:
+
+| Pregunta | Respuesta SV | Número que manda |
+|---|---|---|
+| ¿Puede salir algo hacia fuera? | No, si v_TE es NO_APTO | N₁(v_TE)≥7 |
+| ¿Puede salir la luz? | No, si v_L es NO_APTO | N₁(v_L)≥7 |
+| ¿La luz desaparece? | No, conserva sus quince proyecciones | Φᴸₛᵥ preservada |
+| ¿El interior está vacío? | No, está saturado | DΣ(v_INT)=SATURACIÓN |
+| ¿Qué hay detrás? | M_N2-SV | μ=0, λ=0, 𝓝★ₛᵥ=0 |
+
+Teorema I.2. Versión infantil exacta del horizonte factual.
+
+Enunciado. La frase “siete de nueve puertas dicen que no se sale” es una traducción exacta de la condición canónica de horizonte factual en SV(3,9).
+
+Demostración. En SV(3,9), n=9 y T(9)=7. La célula v_TE registra transmisión exterior. El valor 1 significa no aptitud de transmisión exterior. Por definición, DΣ(v_TE)=NO_APTO si N₁(v_TE)≥T(9). Como T(9)=7, la condición equivale a N₁(v_TE)≥7. La frase didáctica “siete de nueve puertas dicen que no se sale” expresa esa misma desigualdad. c.q.d.
+
+## I.3. Lectura para un joven universitario de ingeniería
+
+El joven universitario de ingeniería puede leer el agujero negro del SV como un sistema de decisión estructural con células ternarias, umbral cualificado, residual y vector de defecto. No se parte de velocidad, masa aislada ni curvatura externa. Esas magnitudes pueden entrar como proyecciones absorbidas, pero no como primitivas del dictamen.
+
+El régimen se declara por la ecuación:
+
+𝔅Hₛᵥ(Γᴮᴴ)=0 ⇔ Rᴮᴴ=(0,0,0,0,0,0,0,0,0,0,0).
+
+El vector Rᴮᴴ contiene defectos de campo unificado, representación astrofísica, transmisión exterior, luz factual, interior, Maxwell factual, termodinámica factual, entropía factual, cierre TODO/NADA, postfrontera y absorción de modelos contemporáneos. Si cualquier componente vale 1, no hay cierre BH.
+
+Rᴮᴴ=(R_UNIF,R_AST,R_TE,R_L,R_INT,R_EM,R_TH,R_H,R_TN,R_NOEXT,R_ABS).
+
+La célula de transmisión exterior v_TE se evalúa por DΣ. Para n=9:
+
+DΣ(v_TE)=NO_APTO ⇔ N₁(v_TE)≥7.
+
+Ejemplo positivo:
+
+v_TE=(1,1,1,1,1,1,1,0,0).
+
+N₁=7, N₀=2, N_U=0. Luego DΣ(v_TE)=NO_APTO. Hay frontera factual de no transmisión exterior.
+
+Ejemplo negativo:
+
+v_TE=(1,1,1,1,1,1,0,0,0).
+
+N₁=6, N₀=3, N_U=0. Como 6<7 y 3<7, DΣ(v_TE)=U. No hay horizonte factual cerrado.
+
+La luz factual se trata de forma separada. La célula v_L no pregunta si la luz existe; pregunta si la fibra luminosa factual obtiene transmisión exterior. La preservación de la luz exige que Φᴸₛᵥ conserve sus quince proyecciones. El cierre BH exige simultáneamente:
+
+DΣ(v_L)=NO_APTO ∧ Proj₁₅(Φᴸₛᵥ)=preservadas.
+
+Por eso el documento no dice “la luz se destruye”. Dice que la luz factual queda preservada sin transmisión exterior.
+
+La célula interior v_INT declara saturación:
+
+DΣ(v_INT)=SATURACIÓN.
+
+La postfrontera se decide por la descomposición:
+
+v_TN = v_μ ⊕ v_λ ⊕ v_𝓝.
+
+DΣ(v_μ)=APTO ⇔ μ=0.  
+DΣ(v_λ)=APTO ⇔ λ=0.  
+DΣ(v_𝓝)=APTO ⇔ 𝓝★ₛᵥ=0.
+
+Si esas tres condiciones cierran, entonces:
+
+Postᴮᴴ=M_N2-SV.
+
+Y por el teorema de separación formal:
+
+M_N2-SV≠U.
+
+La interpretación ingenieril es directa: el agujero negro SV no es un parámetro aislado, sino un sistema de restricciones simultáneas. Un solo subsistema no basta. La masa por sí sola no declara agujero negro. Una métrica por sí sola no declara postfrontera. Una radiación exterior por sí sola no resuelve el interior. El cierre exige que todas las condiciones del vector Rᴮᴴ se anulen.
+
+## I.4. Tabla de transferencia entre lenguaje accesible y fórmula SV
+
+| Lenguaje accesible | Condición formal SV | Resultado |
+|---|---|---|
+| “No hay salida hacia fuera” | DΣ(v_TE)=NO_APTO | Horizonte factual |
+| “La luz no sale” | DΣ(v_L)=NO_APTO | No transmisión luminosa exterior |
+| “La luz no desaparece” | Proj₁₅(Φᴸₛᵥ)=preservadas | Fibra factual conservada |
+| “Dentro no está vacío” | DΣ(v_INT)=SATURACIÓN | Interior saturado |
+| “Detrás no es ignorancia final” | Postᴮᴴ=M_N2-SV ∧ M_N2-SV≠U | Cierre interno sin resto exterior formulable |
+| “No basta ser muy masivo” | Rᴮᴴ exige todas sus componentes nulas | Rechazo de masa aislada |
+| “No se usa velocidad como fundamento” | No aparece como primitiva de DΣ | Dictamen celular |
+| “No se usa curvatura externa como causa primaria” | Métrica absorbida como proyección | Fundamento factual SV |
+
+Teorema I.3. Suficiencia didáctica de la tabla de transferencia.
+
+Enunciado. La tabla anterior permite explicar el documento sin perder ninguna condición necesaria de 𝔅Hₛᵥ(Γᴮᴴ)=0.
+
+Demostración. Las condiciones esenciales del régimen BH son transmisión exterior, transmisión luminosa, preservación de la luz factual, interior saturado, postfrontera M_N2-SV, rechazo de masa aislada y subordinación de proyecciones externas. Cada una aparece en una fila de la tabla. La tabla no introduce velocidad, tiempo, probabilidad, estadística ni inferencia opaca como fundamento. Por tanto, preserva el contenido formal necesario y permite lectura progresiva. c.q.d.
+
+## I.5. Conclusión pedagógica formal
+
+Para un niño de diez años, un agujero negro en el SV puede entenderse como una frontera donde siete de nueve coordenadas dicen que no hay salida hacia fuera, donde la luz sigue siendo luz pero no consigue salir, donde el interior no está vacío y donde el detrás queda cerrado como M_N2-SV.
+
+Para un joven universitario de ingeniería, el mismo objeto se formula como anulación del vector Rᴮᴴ bajo células ternarias, dictámenes DΣ, preservación proyectiva de Φᴸₛᵥ, saturación interior, cierre TODO/NADA y absorción de las teorías físicas contemporáneas como proyecciones, correcciones parciales o fundamentos rechazados.
+
+Ambas lecturas dicen lo mismo con distinta granularidad. La primera introduce la intuición correcta sin contaminarla. La segunda conserva el aparato matemático y prepara el paso al banco SV-BH9 y a sus laboratorios.
+
+
+# Anexo II. Pseudocódigo textual del dictamen
 
 Entrada: Γ.
 
@@ -1375,7 +1528,7 @@ Salida final: BH_físico⇔BH_SV, Postᴮᴴ=M_N2-SV y unicidad de 𝔅Hₛᵥ.
 
 ---
 
-# Anexo II. Criterio adversarial de publicación
+# Anexo III. Criterio adversarial de publicación
 
 El documento es APTO si y sólo si:
 
