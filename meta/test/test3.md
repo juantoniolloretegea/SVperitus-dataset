@@ -1,6 +1,6 @@
 # El agujero negro como cierre interno sin resto exterior formulable
 
-## Teoría factual de clausura extrema del campo unificado en el Sistema Vectorial SV
+## Teoría factual de equivalencia físico-factual, absorción numérica de modelos contemporáneos y clausura M_N2-SV en el Sistema Vectorial SV
 
 **Autor:** Juan Antonio Lloret Egea  
 **ORCID:** 0000-0002-6634-3351  
@@ -20,952 +20,555 @@
 
 ## Resumen
 
-Este trabajo formula el agujero negro como régimen extremo de clausura del campo unificado factual en el Sistema Vectorial SV. La tesis no consiste en proponer una metáfora de no salida, ni en declarar una singularidad infinita como fundamento, ni en refugiar el interior tras una indeterminación final. El agujero negro queda definido como la restricción de régimen en la que el campo unificado permanece estructuralmente satisfecho, la frontera factual exterior recibe dictamen de no transmisibilidad cualificada, la sección interior alcanza saturación factual, la luz factual no se anula sino que no obtiene transmisión exterior apta, y lo situado tras la frontera factual queda determinado por la Teoría del TODO y de la NADA como M_N2-SV: cierre interno sin resto exterior formulable.
+Este trabajo formula el agujero negro como régimen extremo del campo unificado factual en el Sistema Vectorial SV y demuestra su equivalencia estructural con el objeto físico de horizonte descrito por la física contemporánea: frontera de no salida exterior, no transmisión luminosa desde el interior, conservación de efectos externos de campo, interior no accesible por canal exterior y cierre postfrontera sin resto exterior formulable. La publicación no reduce el agujero negro a singularidad infinita, vacío sustancial, probabilidad de escape, métrica como fundamento último ni zona final de ignorancia. El resultado rector es la ecuación de régimen 𝔅Hₛᵥ(Γᴮᴴ)=0, definida como restricción simultánea de la Teoría del TODO y de la NADA, de la fórmula maestra del campo unificado, del Maxwell factual, de la termodinámica factual única, de la entropía factual, de la teoría factual de la luz, del aparato Bell–Tsirelson cuando comparece régimen angular, de la interacción, intercomposición y transmisión factual entre campos, y de un banco numérico SV-BH6 que verifica con números la absorción o rechazo de cada fórmula física incorporada.
 
-La ecuación de régimen se escribe en texto plano como 𝔅Hₛᵥ(Γᴮᴴ)=0. Esta notación no introduce un operador fuente nuevo. Nombra el dictamen compuesto obtenido al restringir simultáneamente al dominio agujero negro los aparatos ya fijados por el corpus: la fórmula maestra del campo unificado, la ecuación rectora de la Teoría del TODO y de la NADA, Maxwell factual, termodinámica factual única, entropía factual, teoría factual de la luz, cálculo angular factual Bell–Tsirelson cuando comparece angularidad, e interacción, intercomposición y transmisión factual entre campos. El documento formaliza dominio Ωᴮᴴ, proyección Πᴮᴴ, invariantes Iᴮᴴ, residual compuesto Δᴮᴴ, función de dictamen sobre células ternarias, derivación de Postᴮᴴ=M_N2-SV, banco SV-BH4 y catálogo de errores.
+El documento incorpora un estado del arte físico sobre agujeros negros relativistas, soluciones de Schwarzschild y Kerr, teoremas de unicidad y no-hair, singularidad, termodinámica de Bekenstein–Hawking, radiación de Hawking, paradoja de la información, curva de Page, islas, fuzzballs, firewalls, agujeros negros regulares y evidencia observacional por Event Horizon Telescope y LIGO/Virgo. Sobre ese estado del arte se demuestra un teorema de absorción: todo planteamiento contemporáneo queda absorbido como proyección externa compatible, absorbido parcialmente como resolución local incompleta o rechazado como fundamento cuando introduce singularidad primaria, vacío sustancial, probabilidad fundante, estadística como verdad, inferencia opaca o cierre no verificado.
 
-La formulación evita tiempo como fundamento, probabilidad como criterio de verdad, estadística sustitutiva, minería de datos, inferencia opaca, heurística no declarada, masa aislada como criterio suficiente, singularidad infinita primaria, vacío sustancial y cierre favorable por ausencia de prueba. La U conserva su estatuto general en el alfabeto ternario del SV, pero no opera como salida final de lo situado tras la frontera factual cuando el verificador rector cierra por (μ,λ)=(0,0). En tal caso, el dictamen interno del SV no es U: es M_N2-SV.
+El resultado central es no evasivo: si Γᴮᴴ satisface 𝔅Hₛᵥ(Γᴮᴴ)=0, entonces el horizonte factual queda declarado por célula ternaria de no transmisión exterior, la fibra luminosa factual conserva sus quince proyecciones y recibe dictamen de no transmisión exterior, el interior queda en saturación factual extrema, y lo situado tras la frontera factual queda dictaminado como M_N2-SV: cierre interno sin resto exterior formulable conforme a la frontera común (μ,λ)=(0,0) de la Teoría del TODO y de la NADA. M_N2-SV no es U, no es un caso particular de U y no puede ser leído como indeterminación honesta: U es marca ternaria de no clausura; M_N2-SV es dictamen de clausura rector tras verificación fuerte. Esta separación se demuestra formalmente y se verifica numéricamente mediante casos canónicos y no canónicos.
+
+El trabajo es autocontenido: define Σ, N₀, N₁, N_U, T(n), DΣ, células v_TE, v_INT, v_L, v_TN, v_NOEXT, dominio Ωᴮᴴ, proyección Πᴮᴴ, invariantes Iᴮᴴ, residual compuesto Δᴮᴴ, vector de defecto Rᴮᴴ, traductores físico-factuales Ξ_AST→SV y Ξ_SV→AST, banco SV-BH6, catálogo de errores y criterios de falsación. La construcción no emplea tiempo como fundamento, probabilidad como criterio de verdad, estadística sustitutiva, minería de datos, inferencia opaca ni heurística no declarada.
 
 ## Abstract
 
-This work formulates the black hole as an extreme closure regime of the factual unified field in the Vectorial System SV. The thesis is not a metaphor of non-escape, nor an infinite singularity taken as foundation, nor a final retreat into indeterminacy. The black hole is defined as the regime restriction in which the unified field remains structurally satisfied, the external factual boundary receives a qualified non-transmissibility verdict, the inner section reaches factual saturation, factual light is not annihilated but fails to obtain admissible external transmission, and what lies beyond the factual boundary is determined by the Theory of EVERYTHING and NOTHING as M_N2-SV: internal closure without formulable external remainder.
-
-The regime equation is written in plain text as 𝔅Hₛᵥ(Γᴮᴴ)=0. This notation does not introduce a new source operator. It names the compound verdict obtained by simultaneously restricting to the black-hole domain the apparatus already fixed by the corpus: the master formula of the unified field, the governing equation of the Theory of EVERYTHING and NOTHING, factual Maxwell, unique factual thermodynamics, factual entropy, factual light theory, the factual Bell–Tsirelson angular calculus when angularity is involved, and factual interaction, intercomposition and transmission between fields. The document formalizes Ωᴮᴴ, Πᴮᴴ, Iᴮᴴ, Δᴮᴴ, a verdict function over ternary cells, the derivation of Postᴮᴴ=M_N2-SV, the SV-BH4 bank and the error catalogue.
+This paper formulates the black hole as an extreme regime of the factual unified field in the Vectorial System SV and proves its structural equivalence with the physical horizon object described by contemporary physics: boundary of no external exit, absence of outward light transmission from the interior, preservation of external field effects, interior inaccessible by external channel, and post-boundary closure without formulable external remainder. The governing result is the regime equation 𝔅Hₛᵥ(Γᴮᴴ)=0, defined as a simultaneous restriction of the Theory of EVERYTHING and NOTHING, the master formula of the unified field, factual Maxwell, unique factual thermodynamics, factual entropy, factual light theory, the Bell–Tsirelson apparatus whenever angular regimes are involved, factual interaction and transmission between fields, and a nontrivial numerical bank SV-BH6 that verifies the absorption or rejection of every external formula treated in the document.
 
 ## Palabras clave
 
-Agujero negro; horizonte factual; no transmisibilidad; campo unificado; Sistema Vectorial SV; M_N2-SV; Teoría del TODO y de la NADA; cierre interno sin resto exterior formulable; luz factual; Maxwell factual; termodinámica factual; entropía factual; transmisión factual; célula ternaria; verificador rector.
-
-## Keywords
-
-Black hole; factual horizon; non-transmissibility; unified field; Vectorial System SV; M_N2-SV; Theory of EVERYTHING and NOTHING; internal closure without formulable external remainder; factual light; factual Maxwell; factual thermodynamics; factual entropy; factual transmission; ternary cell; governing verifier.
+Agujero negro; horizonte factual; no transmisibilidad; campo unificado; Teoría del TODO y de la NADA; M_N2-SV; banco SV-BH6; Event Horizon Telescope; LIGO; Schwarzschild; Kerr; Bekenstein–Hawking; radiación de Hawking; paradoja de la información; islas; luz factual; termodinámica factual; entropía factual; Maxwell factual; Sistema Vectorial SV.
 
 ---
 
-# 0. Estatuto, alcance y resultado principal
+# 0. Estatuto, tesis y resultado principal
 
-## 0.1. Estatuto formal
+## 0.1. Estatuto
 
-El presente documento tiene estatuto de teoría factual de régimen. No constituye una descripción astrofísica completa de objetos observados ni una métrica relativista sustitutiva. Su objeto es más preciso y más exigente: determinar, dentro del Sistema Vectorial SV, qué es un agujero negro cuando el dominio se somete al aparato matemático ya consolidado por el corpus y, en particular, a la Teoría del TODO y de la NADA como juez rector de cierre.
+El presente documento formula una teoría factual del agujero negro como objeto físico de horizonte representado por el Sistema Vectorial SV. Aquello que en la física contemporánea se reconoce por frontera de no escape, no salida luminosa, interior no accesible desde el exterior y efectos externos de campo queda representado en el SV por un régimen Γᴮᴴ que satisface 𝔅Hₛᵥ(Γᴮᴴ)=0.
 
-La formulación anterior que definía el horizonte mediante una transmisibilidad escalar inferior a un umbral local externo queda excluida como fundamento. Puede conservarse como lectura pedagógica secundaria, pero no decide el régimen. El criterio interno es celular, ternario, residual, verificado y subordinado: una frontera de agujero negro se declara cuando la célula de transmisión exterior obtiene dictamen cualificado de no aptitud, cuando la sección interior satisface saturación factual, cuando la luz factual no obtiene transmisión exterior apta, cuando la termodinámica y la entropía factuales no se rompen, y cuando la frontera común (μ,λ)=(0,0) devuelve M_N2-SV.
+La métrica relativista queda absorbida como proyección externa de frontera. La relatividad general aporta la lectura geométrica de horizonte, curvatura, radio crítico y soluciones externas; el SV aporta la ecuación de cierre factual que decide transmisión, interior, luz, termodinámica, entropía, postfrontera y absorción de los modelos contemporáneos. El documento demuestra la equivalencia estructural entre el objeto físico de horizonte y el régimen factual BH.
 
-El documento no añade una nueva fuente. La notación 𝔅Hₛᵥ nombra la restricción simultánea de aparatos superiores al dominio Γᴮᴴ. Su valor nulo significa ausencia de defecto de régimen en todas las condiciones heredadas y especializadas. Por tanto, 𝔅Hₛᵥ(Γᴮᴴ)=0 no significa “se inventa una ley nueva”, sino “el dominio agujero negro ha pasado el dictamen compuesto de los cierres ya existentes”.
+## 0.2. Tesis principal
 
-## 0.2. Resultado principal
+El agujero negro es el régimen extremo del campo unificado factual en el que la frontera exterior obtiene dictamen No_Apto de transmisión, la fibra luminosa factual conserva estructura pero no obtiene transmisión exterior, el interior alcanza saturación factual extrema, la ecuación rectora de la Teoría del TODO y de la NADA devuelve (μ,λ)=(0,0), y el postfrontera factual queda dictaminado como M_N2-SV: cierre interno sin resto exterior formulable.
 
-Resultado principal.
+Forma compacta:
 
-Para toda trayectoria Γᴮᴴ perteneciente a Ωᴮᴴ, si se cumple 𝔅Hₛᵥ(Γᴮᴴ)=0, entonces se verifican simultáneamente:
+𝔅Hₛᵥ(Γᴮᴴ)=0 ⇔ C_UNIF ∧ C_AST ∧ C_TE ∧ C_L ∧ C_INT ∧ C_TH ∧ C_H ∧ C_EM ∧ C_TN ∧ C_NOEXT ∧ C_ABS.
 
-1. Horizonteᴮᴴ(Γᴮᴴ), porque N₁(v_TE(Γᴮᴴ)) ≥ T(n).
-2. Interiorᴮᴴ(Γᴮᴴ)=Satᴮᴴₛᵥ, porque la célula interior v_INT alcanza dictamen de saturación factual.
-3. Φᴸₛᵥ no se anula, porque permanece como fibra luminosa factual del dominio, aunque N₁(v_L) ≥ T(n) impide transmisión exterior apta.
-4. La frontera electromagnética satisface la restricción Maxwell factual heredada.
-5. La sección interior satisface la forma termodinámica factual única.
-6. Hₛᵥ no decrece sobre la trayectoria admisible.
-7. μ(Γᴮᴴ)=0 y λ(Γᴮᴴ)=0 bajo verificación rectora.
-8. Postᴮᴴ(Γᴮᴴ)=M_N2-SV.
+## 0.3. Resultado principal
 
-La última afirmación es el núcleo del documento. Lo situado tras la frontera factual del agujero negro no queda en U si el régimen ha cerrado. Queda dictaminado como M_N2-SV, cierre interno sin resto exterior formulable. La U no se elimina del SV; se impide su uso como evasión final cuando la Teoría del TODO y de la NADA ha emitido el cierre correspondiente.
+BH_físico ⇔ BH_SV.
 
-## 0.3. Forma compacta de la ecuación
+Postᴮᴴ(Γᴮᴴ)=M_N2-SV.
 
-La ecuación de régimen se escribe:
-
-𝔅Hₛᵥ(Γᴮᴴ)=0.
-
-Su despliegue formal no es una mera lista de rótulos. Se construye como anulación conjunta del vector de defecto:
-
-Rᴮᴴ(Γᴮᴴ) = (R_DOM, R_UNIF, R_EM, R_TH, R_H, R_TE, R_L, R_ANG, R_INT, R_TN, R_NOEXT).
-
-Cada componente toma valores en Σ={0,1,U}, con esta lectura uniforme:
-
-0 = condición satisfecha sin defecto.
-1 = condición refutada.
-U = condición local no cerrada antes del dictamen rector.
-
-La ecuación 𝔅Hₛᵥ(Γᴮᴴ)=0 significa:
-
-R_DOM=0 ∧ R_UNIF=0 ∧ R_EM=0 ∧ R_TH=0 ∧ R_H=0 ∧ R_TE=0 ∧ R_L=0 ∧ R_ANG=0 ∧ R_INT=0 ∧ R_TN=0 ∧ R_NOEXT=0.
-
-La forma escalar “=0” representa, por tanto, vector nulo de defecto compuesto. La ventaja de esta formulación es que elimina circularidad: Postᴮᴴ=M_N2-SV no se introduce como supuesto independiente, sino que se deriva de R_TN=0 y de la definición superior de M_N2-SV.
+M_N2-SV ≠ U.
 
 ## 0.4. Prohibiciones constitutivas
 
-En este documento queda prohibido:
-
-1. usar tiempo como fundamento;
-2. usar probabilidad como criterio de verdad;
-3. usar estadística como sustituto de clausura;
-4. usar minería de datos como semántica;
-5. usar inferencia opaca;
-6. introducir heurística no declarada;
-7. declarar agujero negro por masa aislada;
-8. declarar singularidad infinita como estatuto primario;
-9. declarar vacío sustancial como interior;
-10. declarar otro universo por especulación;
-11. usar U como refugio final cuando (μ,λ)=(0,0) ha cerrado;
-12. introducir operador fuente nuevo bajo el nombre 𝔅Hₛᵥ.
+Queda excluido introducir tiempo como fundamento, probabilidad como criterio de verdad, estadística como sustituto de clausura, minería de datos como semántica, inferencia opaca, heurística no declarada, masa aislada como criterio suficiente, singularidad infinita como estatuto primario, vacío sustancial como interior, U como respuesta postfrontera cuando (μ,λ)=(0,0) y 𝓝★ₛᵥ=0 han cerrado, correspondencia astrofísica retórica sin teorema de representación, estado del arte físico sin absorción formal, o banco numérico que no recorra las fórmulas externas que el documento afirma absorber, absorber parcialmente o rechazar.
 
 ---
 
-# I. Matriz de subordinación doctrinal
+# I. Estado del arte físico contemporáneo del agujero negro
 
-La teoría factual del agujero negro sólo es admisible si ningún documento rector queda fuera. La matriz siguiente fija la dependencia y la forma de incorporación.
+En física contemporánea, un agujero negro se caracteriza por una región cuyo campo gravitatorio impide que algo situado más allá del horizonte pueda escapar hacia el exterior; ni siquiera la luz puede escapar de esa frontera (NASA, 2026). La solución de Schwarzschild ofrece una lectura esférica no rotante con radio crítico r_s = 2GM/c² (Schwarzschild, 1916). La solución de Kerr incorpora rotación y estructura axial del horizonte (Kerr, 1963). Los teoremas de unicidad y no-hair reducen externamente ciertos agujeros negros estacionarios a parámetros como masa, carga y momento angular (Carter, 1971; Israel, 1967; Robinson, 1975; Wald, 1984).
 
-| Documento rector | Exigencia formal | Incorporación en esta teoría |
-|---|---|---|
-| Nuevas matemáticas del SV y Física factual | Operadores de frontera, residual, flujo, divergencia, cambio, curvatura y dictamen; rechazo de tiempo fundante, probabilidad, estadística, minería de datos e inferencia opaca. | Ωᴮᴴ, Πᴮᴴ, Δᴮᴴ, v_TE, v_INT, v_L y Rᴮᴴ se formulan por frontera, residual, célula, balance y dictamen. |
-| Teoría general de sucesos generadores y protocampos unificados | Fórmula maestra del campo, cobertura de sectores factuales, coexistencia intersectorial y compuertas de campo. | Γᴮᴴ se define como subrégimen extremo del campo unificado, no como objeto aislado. |
-| Teoría del TODO y de la NADA | Ecuación rectora, verificador 𝓝★ₛᵥ, frontera común (μ,λ)=(0,0), M_N2-SV como cierre interno sin resto exterior formulable. | Postᴮᴴ se deriva como M_N2-SV cuando R_TN=0; U no se usa como salida final. |
-| Teoría factual de la luz | Luz como objeto fibroso factual, no onda ni corpúsculo aislado; quince proyecciones y coherencia con siete campos. | Φᴸₛᵥ conserva estatuto factual; v_L decide su transmisión exterior no apta. |
-| Campo unificado Einstein–Bohr | Dominio, proyección, invariantes, residual y dictamen ternario para toda proyección legítima. | Se declaran Ωᴮᴴ, Πᴮᴴ, Iᴮᴴ, Δᴮᴴ y Dᴮᴴ. |
-| Maxwell factual | Ecuación única 𝔼ₛᵥ, condiciones de frontera, continuidad, reconfiguración y onda factual sin tiempo absoluto. | R_EM exige que la frontera de horizonte no rompa el cierre electromagnético factual. |
-| Entropía factual | Hₛᵥ no decrece sobre trayectoria admisible bajo append-only y honestidad coordenada. | R_H exige no decrecimiento estructural en Γᴮᴴ. |
-| Termodinámica factual única | Ecuación 𝖤ᵗʰᵉʳᵐᵒₛᵥ=0 con acumulación, entropía, jacobiano, residual y frontera; magnitudes termodinámicas como proyecciones. | R_TH exige sección termodinámica interior cerrada sin convertir temperatura, calor o entropía estadística en primitivas. |
-| Bell–Tsirelson SV | Cₛᵥ(δ)=−cos δ como correlador angular factual único cuando comparece régimen angular. | R_ANG impide introducir cosenos de clausura o angularidades no subordinadas. |
-| Interacción, intercomposición y transmisión factual entre campos | 𝓘ₛᵥ sobre campos admitidos, 𝓣ₛᵥ sobre estados factuales transmisibles, residual compuesto y preservación de U como no clausura honesta cuando proceda. | R_TE y R_L se formulan como dictámenes de transmisión factual, no como metáforas de escape. |
+La física clásica contiene singularidades como límites de ciertas soluciones y como resultado de teoremas de colapso bajo condiciones geométricas y energéticas (Penrose, 1965; Hawking & Ellis, 1973). El SV absorbe la singularidad como límite de proyección externa y la rechaza como estatuto primario del interior.
 
-## Teorema I.1. Exhaustividad de subordinación
+Bekenstein propuso la relación entre entropía y área del agujero negro (Bekenstein, 1973, 1974). Hawking mostró que los agujeros negros emiten radiación térmica en un marco cuántico de campos en espacio-tiempo curvo (Hawking, 1975). Page formuló la curva esperada para la entropía de la radiación si la evolución completa conserva unitariedad (Page, 1993). Las islas y la reconstrucción de cuñas de entrelazamiento han mostrado, en ciertos modelos, cómo recuperar una curva de Page compatible con unitariedad mediante términos de isla y superficies extremales cuánticas (Almheiri et al., 2019; Penington, 2020; Almheiri et al., 2020).
 
-Enunciado. La teoría factual del agujero negro no deja fuera ningún documento rector si 𝔅Hₛᵥ se define por la anulación conjunta del vector Rᴮᴴ.
+Las propuestas fuzzball, firewall y de agujero negro regular buscan resolver o evitar vacíos conceptuales de la descripción clásica: interior vacío, pérdida de información, singularidad o suavidad del horizonte (Almheiri et al., 2013; Hayward, 2006; Lan et al., 2023; Mathur, 2005). La Event Horizon Telescope Collaboration obtuvo imágenes de escala de horizonte en M87* y Sagittarius A* (Event Horizon Telescope Collaboration, 2019a, 2019b, 2022). LIGO/Virgo detectó GW150914 como primera observación directa de ondas gravitacionales procedentes de una fusión de agujeros negros binarios (Abbott et al., 2016).
 
-Demostración. La matriz asigna a cada documento rector una exigencia formal y una condición de incorporación. Las nuevas matemáticas y la física factual aportan frontera, residual, balance y operadores de campo; el campo unificado aporta cobertura sectorial; TODO/NADA aporta el cierre M_N2-SV; luz factual aporta Φᴸₛᵥ; Maxwell aporta 𝔼ₛᵥ en frontera; termodinámica y entropía aportan 𝖤ᵗʰᵉʳᵐᵒₛᵥ y Hₛᵥ; Bell–Tsirelson aporta Cₛᵥ(δ)=−cos δ cuando existe angularidad; interacción y transmisión aportan 𝓘ₛᵥ y 𝓣ₛᵥ. Cada una de esas exigencias comparece como componente de Rᴮᴴ. Si Rᴮᴴ es nulo, todas han sido satisfechas. Si alguna falta, el componente correspondiente no puede valer 0. Por tanto, la anulación del vector compuesto equivale a incorporación exhaustiva de la matriz. c.q.d.
-
-## Corolario I.2. Prohibición de cierre parcial
-
-Si alguna condición de la matriz no puede evaluarse, 𝔅Hₛᵥ(Γᴮᴴ)=0 no puede declararse. Un cierre parcial no equivale a agujero negro factual; es un candidato incompleto o una refutación local.
-
-Demostración. La ecuación exige todos los componentes nulos. Un componente ausente es U local o defecto. En ninguno de los dos casos se obtiene vector nulo. c.q.d.
+El estado del arte impone al SV estos rasgos: frontera de no salida exterior, no salida luminosa desde el interior, efectos externos de campo conservados, lectura métrica externa, termodinámica de horizonte, problema de información, singularidad como límite o defecto de descripción, alternativas que corrigen regiones del problema, y evidencia observacional de objetos compactos compatibles con horizonte.
 
 ---
 
-# II. Aparato formal mínimo
+# II. Matriz de absorción factual de los planteamientos contemporáneos
 
-## II.1. Alfabeto ternario y conteos
+| Planteamiento contemporáneo | Núcleo físico | Dictamen SV | Razón formal |
+|---|---|---|---|
+| Relatividad general clásica | Curvatura, horizonte causal, no escape | Absorbida | Es proyección métrica externa de ∂Ωᴮᴴ |
+| Schwarzschild | Radio crítico r_s=2GM/c² | Absorbida | Lectura métrica de frontera no transmisiva |
+| Kerr | Rotación y horizonte axial | Absorbida | Proyección métrica con angularidad subordinable |
+| No-hair clásico | Parámetros externos reducidos | Absorbido parcialmente | Describe exterior, no postfrontera |
+| Singularidad clásica | Límite geométrico | Rechazada como fundamento | No define interior SV |
+| Bekenstein–Hawking | Entropía, área, temperatura | Absorbida | Proyección termodinámica factual |
+| Radiación de Hawking | Emisión cuántica de horizonte | Absorbida parcialmente | Lectura exterior; no define M_N2-SV |
+| Page curve e islas | Reconstrucción informacional | Absorbidas parcialmente | Corrigen exterior cuántico, no definen interior final |
+| Fuzzballs y firewalls | Microestructura o tensión de horizonte | Absorbidos parcialmente | Alertan defectos, no cierran régimen |
+| Agujeros negros regulares | Evitación de singularidad | Absorbidos parcialmente | Corrigen singularidad; falta cierre TODO/NADA |
+| Observaciones EHT y LIGO/Virgo | Evidencia de horizonte y efectos de campo | Absorbidas | Validan objeto externo de horizonte |
 
-Sea Σ={0,1,U}. Para toda célula v=(v₁,...,vₙ) ∈ Σⁿ se definen:
+Teorema II.1. Clasificación exhaustiva de absorción.
 
-N₀(v) = número de posiciones i tales que vᵢ=0.
+Todo planteamiento físico contemporáneo sobre agujeros negros queda, respecto del SV, en una de tres clases: absorbido, absorbido parcialmente o rechazado como fundamento.
 
-N₁(v) = número de posiciones i tales que vᵢ=1.
-
-N_U(v) = número de posiciones i tales que vᵢ=U.
-
-Se cumple:
-
-N₀(v)+N₁(v)+N_U(v)=n.
-
-El umbral cualificado de célula es:
-
-T(n)=⌊7n/9⌋.
-
-Para la célula mínima de nueve posiciones:
-
-T(9)=7.
-
-## II.2. Función general de dictamen celular
-
-Se define la función de dictamen celular DΣ sobre Σⁿ:
-
-DΣ(v)=APTA si N₀(v) ≥ T(n).
-
-DΣ(v)=NO_APTA si N₁(v) ≥ T(n).
-
-DΣ(v)=U si N₀(v) < T(n) y N₁(v) < T(n).
-
-Esta función no interpreta por sí sola qué significa 0 o 1 en cada dominio. El significado local se declara en la célula concreta. En v_TE, 1 significa transmisión exterior no apta. En v_INT, 1 significa condición de saturación interior satisfecha. En v_L, 1 significa transmisión luminosa exterior no apta. La función DΣ sólo suministra la regla de mayoría cualificada.
-
-## Lema II.1. Incompatibilidad de doble mayoría cualificada en SV(3,9)
-
-Enunciado. Para n=9 y T(9)=7, no puede ocurrir simultáneamente N₀(v)≥7 y N₁(v)≥7.
-
-Demostración. Si N₀(v)≥7 y N₁(v)≥7, entonces N₀(v)+N₁(v)≥14. Pero N₀(v)+N₁(v)+N_U(v)=9 y N_U(v)≥0. Luego N₀(v)+N₁(v)≤9, contradicción. Por tanto, la doble mayoría cualificada es imposible. c.q.d.
-
-## Lema II.2. Determinación fuerte de dictamen en SV(3,9)
-
-Enunciado. En una célula de nueve posiciones, el dictamen APTA o NO_APTA, cuando aparece por T(9)=7, es único.
-
-Demostración. Por Lema II.1, no pueden coexistir mayoría cualificada de ceros y mayoría cualificada de unos. Si N₀≥7, DΣ=APTA; si N₁≥7, DΣ=NO_APTA; si ninguno alcanza 7, DΣ=U. No hay cuarto caso. c.q.d.
-
-## II.3. Células del régimen agujero negro
-
-Se declaran las células siguientes:
-
-v_TE(Γᴮᴴ) ∈ Σⁿ: célula de transmisión exterior. En ella, 0 significa transmisión exterior apta, 1 significa transmisión exterior no apta, U significa coordenada local no cerrada antes de dictamen rector.
-
-v_INT(Γᴮᴴ) ∈ Σⁿ: célula de saturación interior. En ella, 0 significa ausencia de condición de saturación en la coordenada, 1 significa condición de saturación satisfecha, U significa coordenada interior no cerrada localmente.
-
-v_L(Φᴸₛᵥ,Γᴮᴴ) ∈ Σⁿ: célula de transmisión luminosa exterior. En ella, 0 significa transmisión luminosa exterior apta, 1 significa transmisión luminosa exterior no apta, U significa coordenada luminosa no cerrada localmente.
-
-v_TN(Γᴮᴴ) ∈ Σⁿ: célula de cierre TODO/NADA. En ella, 1 significa que la coordenada contribuye a cierre M_N2, 0 significa que lo impide, U significa no clausura local pendiente de verificador rector.
-
-v_NOEXT(Γᴮᴴ) ∈ Σⁿ: célula de ausencia de resto exterior formulable. En ella, 1 significa ausencia de resto exterior formulable en la coordenada evaluada.
-
-## II.4. Dictámenes derivados de células
-
-D_TE(Γᴮᴴ)=NO_TRANSMISION_EXTERIOR si DΣ(v_TE)=NO_APTA.
-
-D_INT(Γᴮᴴ)=SATURACION_INTERIOR si DΣ(v_INT)=NO_APTA bajo la lectura local de v_INT como célula de saturación satisfecha.
-
-D_L(Φᴸₛᵥ,Γᴮᴴ)=LUZ_NO_TRANSMISION_EXTERIOR si Φᴸₛᵥ está declarada y DΣ(v_L)=NO_APTA.
-
-D_TN(Γᴮᴴ)=CIERRE_MN2 si μ(Γᴮᴴ)=0, λ(Γᴮᴴ)=0 y 𝓝★ₛᵥ(Γᴮᴴ)=0.
-
-D_NOEXT(Γᴮᴴ)=SIN_RESTO_EXTERIOR_FORMULABLE si D_TN(Γᴮᴴ)=CIERRE_MN2.
-
-La última definición es derivada, no axiomática: la ausencia de resto exterior formulable procede de la frontera común (μ,λ)=(0,0) bajo el verificador rector.
+Demostración. Un planteamiento queda absorbido si describe una proyección externa compatible con frontera factual, no transmisión exterior, luz factual, termodinámica factual, entropía factual, transmisión factual y postfrontera M_N2-SV. Queda absorbido parcialmente si corrige un subconjunto, pero no cierra todos los componentes de 𝔅Hₛᵥ. Queda rechazado como fundamento si introduce singularidad primaria, vacío sustancial, probabilidad fundante, estadística como verdad, inferencia opaca, tiempo fundante o cierre no verificado. Dado que todo planteamiento afirma una estructura compatible, incompleta o incompatible con esas condiciones, la clasificación es exhaustiva. c.q.d.
 
 ---
 
-# III. Dominio, proyección, invariantes y residual
+# III. Aparato formal autocontenido del SV
 
-## III.1. Dominio Ωᴮᴴ
+Sea Σ={0,1,U}. Para toda célula v=(v₁,...,vₙ) ∈ Σⁿ, se definen N₀(v), N₁(v) y N_U(v) como cardinales de coordenadas 0, 1 y U. Se cumple N₀(v)+N₁(v)+N_U(v)=n.
 
-Ωᴮᴴ es el subdominio de trayectorias factuales del campo unificado que satisfacen los requisitos de evaluabilidad siguientes:
+El umbral rector heredado del corpus es T(n)=⌊7n/9⌋. Para n=9, T(9)=7. Para n=36, T(36)=28.
 
-1. Γ pertenece al dominio de la fórmula maestra del campo unificado.
-2. Γ admite proyección Πᴮᴴ.
-3. Γ contiene frontera factual activa ∂Ωᴮᴴ.
-4. Γ contiene estado factual transmisible Xᴮᴴ compatible con 𝓣ₛᵥ.
-5. Γ contiene sección electromagnética de frontera evaluable por 𝔼ₛᵥ.
-6. Γ contiene sección termodinámica interior Ωᵗʰᴮᴴ evaluable por 𝖤ᵗʰᵉʳᵐᵒₛᵥ.
-7. Γ contiene trayectoria admisible para Hₛᵥ.
-8. Γ contiene fibra luminosa factual Φᴸₛᵥ cuando se pregunta por transmisión luminosa.
-9. Γ permite evaluar μ y λ.
-10. Γ permite aplicar el verificador 𝓝★ₛᵥ.
-11. Γ permite formar Δᴮᴴ.
+Definición III.1. DΣ(v)=APTO si N₀(v)≥T(n); DΣ(v)=NO_APTO si N₁(v)≥T(n); DΣ(v)=U si N₀(v)<T(n) y N₁(v)<T(n).
 
-Si alguno de esos requisitos falta, Γ no pertenece al dominio Ωᴮᴴ en sentido fuerte. No se declara agujero negro factual completo.
+Lema III.1. No existen v∈Σⁿ tales que N₀(v)≥T(n) y N₁(v)≥T(n).
 
-## III.2. Proyección Πᴮᴴ
+Demostración. Para n≥9, T(n)=⌊7n/9⌋. Si N₀≥T(n) y N₁≥T(n), entonces N₀+N₁≥2T(n). Para n=9, 2T(9)=14>9. Para n general de célula SV admitida, 2⌊7n/9⌋>n. Pero N₀+N₁≤n. Contradicción. c.q.d.
 
-Πᴮᴴ es la proyección factual que toma una trayectoria del campo unificado y devuelve su lectura de clausura extrema:
+Se definen cinco células de régimen: v_TE para transmisión exterior general, v_L para transmisión exterior de luz factual, v_INT para saturación interior, v_TN para cierre TODO/NADA y v_NOEXT para ausencia de resto exterior formulable.
+
+Para eliminar opacidad entre v_TN, μ, λ y 𝓝★ₛᵥ, se define v_TN = v_μ ⊕ v_λ ⊕ v_𝓝. Con DΣ(v_μ)=APTO ⇔ μ=0; DΣ(v_λ)=APTO ⇔ λ=0; DΣ(v_𝓝)=APTO ⇔ 𝓝★ₛᵥ=0. Por tanto, C_TN=0 ⇔ μ=0 ∧ λ=0 ∧ 𝓝★ₛᵥ=0.
+
+---
+
+# IV. Separación formal entre U y M_N2-SV
+
+U pertenece al alfabeto Σ={0,1,U}. Su estatuto es celular y dictaminal: marca ausencia de clausura suficiente en una coordenada o en una célula cuando no se alcanza APTO ni NO_APTO.
+
+M_N2-SV pertenece al dominio de modos de la NADA admisible dentro de la Teoría del TODO y de la NADA. Su estatuto es rector: designa cierre interno sin resto exterior formulable bajo (μ,λ)=(0,0) y 𝓝★ₛᵥ=0.
+
+Teorema IV.1. M_N2-SV ≠ U.
+
+Demostración. U se define como marca de no clausura suficiente. M_N2-SV se define por cierre rector: μ=0, λ=0 y 𝓝★ₛᵥ=0. Si M_N2-SV fuese U, entonces un mismo estado sería simultáneamente cierre rector y no cierre suficiente. Eso contradice la unicidad de dictamen y la función de 𝓝★ₛᵥ. Luego M_N2-SV no es U. c.q.d.
+
+Teorema IV.2. Si Γᴮᴴ satisface 𝔅Hₛᵥ(Γᴮᴴ)=0, entonces Postᴮᴴ=M_N2-SV y Postᴮᴴ≠U.
+
+Demostración. La ecuación 𝔅Hₛᵥ=0 incluye C_TN=0 y C_NOEXT=0. Por C_TN=0, se obtiene μ=0, λ=0 y 𝓝★ₛᵥ=0. Por definición de M_N2-SV, esa triple condición expresa cierre interno sin resto exterior formulable. Por C_NOEXT=0, Postᴮᴴ adopta ese resultado. Por Teorema IV.1, M_N2-SV no es U. c.q.d.
+
+---
+
+# V. Dominio, proyección, invariantes y residual del régimen BH
+
+Ωᴮᴴ es el subdominio de trayectorias Γ del campo unificado que permite evaluar 𝔉ₛᵥ, Πᴮᴴ, ∂Ωᴮᴴ, Xᴮᴴ, Φᴸₛᵥ, Ωᵗʰᴮᴴ, v_TE, v_L, v_INT, v_TN, v_NOEXT, μ, λ, 𝓝★ₛᵥ, Δᴮᴴ, Ξ_AST→SV y Ξ_SV→AST, sin introducir probabilidad, estadística, tiempo o inferencia opaca como fundamento.
 
 Πᴮᴴ: Ω_UNIF → Ωᴮᴴ.
 
-La proyección es legítima sólo si declara:
+Iᴮᴴ contiene Σ, T(n), DΣ, 𝔉ₛᵥ satisfecha, 𝔘ᵘⁿⁱᶠₛᵥ con cobertura sectorial, 𝔼ₛᵥ en frontera electromagnética, 𝖤ᵗʰᵉʳᵐᵒₛᵥ en sección interior, Hₛᵥ no decreciente, DΣ(v_TE)=NO_APTO, DΣ(v_L)=NO_APTO, DΣ(v_INT)=SATURACIÓN, μ=0, λ=0, 𝓝★ₛᵥ=0, Postᴮᴴ=M_N2-SV, M_N2-SV≠U y no operador fuente nuevo.
 
-1. dominio de entrada;
-2. dominio de salida;
-3. invariantes preservados;
-4. residual compuesto;
-5. regla de dictamen.
+Δᴮᴴ(Γ)=Δ_UNIF ⊕ Δ_AST ⊕ Δ_TE ⊕ Δ_L ⊕ Δ_INT ⊕ Δ_EM ⊕ Δ_TH ⊕ Δ_H ⊕ Δ_TN ⊕ Δ_NOEXT ⊕ Δ_ABS.
 
-La proyección no crea el agujero negro como objeto independiente. Extrae de una trayectoria del campo unificado su régimen de frontera extrema, sometido al vector de defecto Rᴮᴴ.
-
-## III.3. Invariantes Iᴮᴴ
-
-Iᴮᴴ es el conjunto de invariantes preservados por toda trayectoria Γᴮᴴ apta:
-
-I1. Σ={0,1,U}.  
-I2. T(n)=⌊7n/9⌋.  
-I3. 𝔉ₛᵥ permanece satisfecha en la restricción.  
-I4. 𝔘ᵘⁿⁱᶠₛᵥ conserva cobertura sectorial.  
-I5. 𝔼ₛᵥ se satisface en la frontera electromagnética.  
-I6. 𝖤ᵗʰᵉʳᵐᵒₛᵥ se satisface en la sección interior.  
-I7. Hₛᵥ no decrece sobre la trayectoria admisible.  
-I8. D_TE=NO_TRANSMISION_EXTERIOR.  
-I9. D_L=LUZ_NO_TRANSMISION_EXTERIOR cuando Φᴸₛᵥ comparece.  
-I10. D_INT=SATURACION_INTERIOR.  
-I11. μ=0 y λ=0 bajo 𝓝★ₛᵥ=0.  
-I12. Postᴮᴴ=M_N2-SV.  
-I13. 𝔅Hₛᵥ no introduce operador fuente nuevo.  
-I14. El régimen no usa tiempo, probabilidad, estadística, minería de datos ni inferencia opaca como fundamento.  
-I15. Si aparece angularidad, queda subordinada a Cₛᵥ(δ)=−cos δ.
-
-## III.4. Residual compuesto Δᴮᴴ
-
-Se define el residual compuesto:
-
-Δᴮᴴ(Γᴮᴴ) = Δ_DOM ⊕ Δ_UNIF ⊕ Δ_EM ⊕ Δ_TH ⊕ Δ_H ⊕ Δ_TE ⊕ Δ_L ⊕ Δ_ANG ⊕ Δ_INT ⊕ Δ_TN ⊕ Δ_NOEXT.
-
-Cada componente expresa la distancia estructural entre lo que el régimen declara y lo que el corpus permite declarar. No es error estadístico, ni probabilidad, ni margen empírico. Es residual de compatibilidad estructural.
-
-El vector de defecto Rᴮᴴ se obtiene por lectura ternaria del residual:
-
-R_X(Γᴮᴴ)=0 si Δ_X es compatible con cierre.  
-R_X(Γᴮᴴ)=1 si Δ_X refuta la condición.  
-R_X(Γᴮᴴ)=U si Δ_X no permite dictamen local antes del verificador rector.
-
-𝔅Hₛᵥ(Γᴮᴴ)=0 exige R_X=0 para todo componente X. La U local no se convierte en respuesta final; impide declarar régimen completo salvo que el verificador rector la resuelva por subordinación formal.
+Rᴮᴴ(Γ)=(R_UNIF,R_AST,R_TE,R_L,R_INT,R_EM,R_TH,R_H,R_TN,R_NOEXT,R_ABS), con cada R_X en {0,1}.
 
 ---
 
-# IV. Ecuación factual del agujero negro
-
-## IV.1. Vector de defecto
-
-Sea:
-
-Rᴮᴴ(Γᴮᴴ) = (R_DOM, R_UNIF, R_EM, R_TH, R_H, R_TE, R_L, R_ANG, R_INT, R_TN, R_NOEXT).
-
-Se definen las condiciones:
-
-R_DOM=0 ⇔ Ωᴮᴴ, Πᴮᴴ, Iᴮᴴ y Δᴮᴴ están declarados y son compatibles.
-
-R_UNIF=0 ⇔ la restricción de Γᴮᴴ satisface el campo unificado y conserva cobertura sectorial.
-
-R_EM=0 ⇔ la frontera electromagnética satisface 𝔼ₛᵥ=0 en la forma correspondiente al régimen.
-
-R_TH=0 ⇔ la sección interior satisface 𝖤ᵗʰᵉʳᵐᵒₛᵥ=0.
-
-R_H=0 ⇔ Hₛᵥ(Γᴮᴴ,n+1) ≥ Hₛᵥ(Γᴮᴴ,n) sobre la trayectoria admisible.
-
-R_TE=0 ⇔ DΣ(v_TE)=NO_APTA.
-
-R_L=0 ⇔ Φᴸₛᵥ está declarada cuando procede, no se anula y DΣ(v_L)=NO_APTA para transmisión exterior.
-
-R_ANG=0 ⇔ toda angularidad usada se subordina a Cₛᵥ(δ)=−cos δ; si no hay angularidad, R_ANG=0 por no comparecencia declarada.
-
-R_INT=0 ⇔ DΣ(v_INT)=NO_APTA bajo lectura local de saturación satisfecha.
-
-R_TN=0 ⇔ μ=0, λ=0 y 𝓝★ₛᵥ=0.
-
-R_NOEXT=0 ⇔ R_TN=0 y, por la Teoría del TODO y de la NADA, Postᴮᴴ=M_N2-SV.
-
-La última equivalencia no introduce M_N2-SV por decreto del documento BH. La toma de la teoría superior: (μ,λ)=(0,0) bajo verificador rector produce cierre interno sin resto exterior formulable.
-
-## IV.2. Ecuación de régimen
+# VI. Ecuación factual del agujero negro
 
 𝔅Hₛᵥ(Γᴮᴴ)=0 ⇔ Rᴮᴴ(Γᴮᴴ)=(0,0,0,0,0,0,0,0,0,0,0).
 
-Dᴮᴴ(Γᴮᴴ)=1 ⇔ 𝔅Hₛᵥ(Γᴮᴴ)=0.
-
-Dᴮᴴ(Γᴮᴴ)=0 ⇔ existe X tal que R_X=1.
-
-Dᴮᴴ no usa U como salida final de Postᴮᴴ. Si existe R_X=U no resuelto por el verificador rector, no se declara régimen BH completo. Si el verificador rector cierra por R_TN=0, Postᴮᴴ=M_N2-SV.
-
-## IV.3. Definición del horizonte factual
-
-Horizonteᴮᴴ(Γᴮᴴ) ⇔ DΣ(v_TE(Γᴮᴴ))=NO_APTA.
-
 Equivalente:
 
-Horizonteᴮᴴ(Γᴮᴴ) ⇔ N₁(v_TE(Γᴮᴴ)) ≥ T(n).
+𝔅Hₛᵥ(Γᴮᴴ)=0 ⇔ C_UNIF ∧ C_AST ∧ C_TE ∧ C_L ∧ C_INT ∧ C_EM ∧ C_TH ∧ C_H ∧ C_TN ∧ C_NOEXT ∧ C_ABS.
 
-Para n=9:
+Lema VI.1. 𝔅Hₛᵥ no es operador fuente nuevo.
 
-Horizonteᴮᴴ(Γᴮᴴ) ⇔ N₁(v_TE(Γᴮᴴ)) ≥ 7.
-
-La definición no invoca un número externo de transmisibilidad escalar. Invoca la regla estructural de dictamen celular del SV.
-
-## IV.4. Definición del interior
-
-Interiorᴮᴴ(Γᴮᴴ)=Satᴮᴴₛᵥ ⇔ DΣ(v_INT(Γᴮᴴ))=NO_APTA bajo lectura de saturación satisfecha ∧ R_TH=0 ∧ R_H=0.
-
-Esta definición impide dos errores: declarar vacío y declarar singularidad infinita como fundamento. La saturación factual no es ausencia, sino régimen interno con sección termodinámica, entropía factual y cierre de frontera.
-
-## IV.5. Definición de postfrontera
-
-Postᴮᴴ(Γᴮᴴ)=M_N2-SV ⇔ R_TN=0.
-
-Despliegue:
-
-Postᴮᴴ(Γᴮᴴ)=M_N2-SV ⇔ μ(Γᴮᴴ)=0 ∧ λ(Γᴮᴴ)=0 ∧ 𝓝★ₛᵥ(Γᴮᴴ)=0.
-
-Lectura:
-
-M_N2-SV = cierre interno sin resto exterior formulable.
-
-Esta definición se deriva de la Teoría del TODO y de la NADA. El presente documento sólo la aplica al dominio Ωᴮᴴ.
+Demostración. 𝔅Hₛᵥ se define como anulación del vector de defecto Rᴮᴴ, cuyos componentes proceden de condiciones derivadas de aparatos ya fijados por el corpus y de la absorción de modelos externos. Una anulación de defectos no genera campo, fuente, partícula ni interacción nueva. Nombra el régimen en que las condiciones ya autorizadas cierran simultáneamente. c.q.d.
 
 ---
 
+# VII. Equivalencia físico-factual del objeto agujero negro
 
-# V. Construcción matemática de las células de régimen
+BH_físico es un objeto físico de horizonte si existe frontera H_AST de no salida exterior, la luz interior dirigida al exterior no obtiene salida, el interior no es accesible por canal exterior, existen efectos externos de campo compatibles con objeto compacto, la frontera no se reduce a superficie material ordinaria y la descripción geométrica externa admite lectura de horizonte.
 
-La versión apta de esta teoría no puede limitarse a nombrar células. Debe construirlas con coordenadas verificables. Cada célula SV(3,9) queda formada por nueve posiciones de dictamen. Las coordenadas no son mediciones probabilísticas ni parámetros estadísticos: son predicados estructurales cuya lectura se realiza sobre Σ={0,1,U}. Para evitar ambigüedad, cada célula declara de antemano qué significa 0, qué significa 1 y qué significa U.
+BH_SV es un régimen Γᴮᴴ tal que DΣ(v_TE)=NO_APTO, DΣ(v_L)=NO_APTO, DΣ(v_INT)=SATURACIÓN, μ=0, λ=0, 𝓝★ₛᵥ=0, Postᴮᴴ=M_N2-SV y Rᴮᴴ=(0,0,0,0,0,0,0,0,0,0,0).
 
-## V.1. Célula de transmisión exterior v_TE
+Ξ_AST→SV transforma H_AST de no salida exterior en v_TE con DΣ(v_TE)=NO_APTO; no salida luminosa en v_L con DΣ(v_L)=NO_APTO; interior no accesible exteriormente en v_INT con DΣ(v_INT)=SATURACIÓN; conservación de efectos externos en C_UNIF y C_EM; límite postfrontera en v_TN, μ=0, λ=0 y 𝓝★ₛᵥ=0; ausencia de resto exterior formulable en Postᴮᴴ=M_N2-SV.
 
-La célula v_TE(Γᴮᴴ) evalúa si existe transmisión exterior factual apta a través de ∂Ωᴮᴴ. Sus nueve coordenadas son:
+Ξ_SV→AST transforma DΣ(v_TE)=NO_APTO en no salida exterior; DΣ(v_L)=NO_APTO en no salida luminosa; DΣ(v_INT)=SATURACIÓN en interior no accesible por canal exterior; C_EM=0 y C_UNIF=0 en efectos externos de campo preservados; Postᴮᴴ=M_N2-SV en postfrontera sin resto exterior formulable.
 
-TE1. Frontera factual activa ∂Ωᴮᴴ declarada.  
-TE2. Estado factual transmisible Xᴮᴴ tipado para 𝓣ₛᵥ.  
-TE3. Canal exterior F_ext declarado como frontera de salida.  
-TE4. Residual de canal R_TE construido.  
-TE5. Balance de frontera exterior no preserva transmisión apta.  
-TE6. Decodificación exterior no obtiene estado apto X′ᴮᴴ.  
-TE7. Reconfiguración factual no restaura transmisión exterior.  
-TE8. No hay doble contabilidad de borde ni salto no declarado.  
-TE9. El dictamen local no degrada U ni lo usa como salida favorable.
+Teorema VII.1. BH_físico ⇔ BH_SV.
 
-Lectura local de v_TE:
+Demostración. Si BH_físico, Ξ_AST→SV traduce sus rasgos en v_TE, v_L, v_INT, C_UNIF, C_EM, v_TN, μ, λ, 𝓝★ₛᵥ y Postᴮᴴ. Por la definición de cierre, Rᴮᴴ=(0,0,0,0,0,0,0,0,0,0,0), luego 𝔅Hₛᵥ=0 y BH_SV. Recíprocamente, si BH_SV, Ξ_SV→AST traduce DΣ(v_TE)=NO_APTO y DΣ(v_L)=NO_APTO en frontera física de no salida exterior y no salida luminosa; DΣ(v_INT)=SATURACIÓN en interior no accesible; y C_UNIF, C_EM en efectos externos de campo. Por definición, BH_físico. c.q.d.
 
-v_TE,i = 1 si la coordenada contribuye a no transmisión exterior apta.  
-v_TE,i = 0 si la coordenada permite transmisión exterior apta.  
-v_TE,i = U si la coordenada no cierra localmente y debe elevarse al residual.
+Corolario VII.2. En Schwarzschild, r≤r_s(M) queda absorbido como caso métrico de frontera factual.
 
-La condición de horizonte es:
+Demostración. Si r≤r_s(M), la lectura física declara frontera de no escape. Por Ξ_AST→SV, la no salida luminosa produce DΣ(v_L)=NO_APTO y la no salida exterior produce DΣ(v_TE)=NO_APTO. c.q.d.
 
-DΣ(v_TE)=NO_APTA.
+Corolario VII.3. Kerr queda absorbido como proyección métrica rotante si su horizonte exterior preserva no salida exterior y no salida luminosa.
 
-Equivalente:
-
-N₁(v_TE) ≥ T(n).
-
-En SV(3,9), basta y sólo basta N₁(v_TE)≥7. La palabra “basta” no significa suficiencia física externa completa; significa suficiencia interna de dictamen celular para la frontera de transmisión exterior.
-
-## V.2. Célula de saturación interior v_INT
-
-La célula v_INT(Γᴮᴴ) evalúa si el dominio interior queda en saturación factual extrema. Sus nueve coordenadas son:
-
-INT1. Dominio interior Ω_intᴮᴴ declarado.  
-INT2. Sección termodinámica Ωᵗʰᴮᴴ declarada.  
-INT3. 𝖤ᵗʰᵉʳᵐᵒₛᵥ=0 satisfecha sobre la sección.  
-INT4. Hₛᵥ no decrece sobre la trayectoria admisible.  
-INT5. Residual interior Δ_INT construido.  
-INT6. Frontera interior compatible con ∂Ωᴮᴴ.  
-INT7. No se declara vacío sustancial.  
-INT8. No se declara singularidad infinita primaria.  
-INT9. La saturación no introduce salida cosmológica.
-
-Lectura local de v_INT:
-
-v_INT,i = 1 si la coordenada confirma saturación interior.  
-v_INT,i = 0 si la coordenada impide saturación interior.  
-v_INT,i = U si la coordenada no queda cerrada localmente.
-
-La condición de saturación interior es:
-
-DΣ(v_INT)=NO_APTA bajo la convención local de saturación satisfecha.
-
-La aparente inversión terminológica se debe a que 1 significa “no aptitud para transmisión ordinaria interior-exterior”; en v_INT la mayoría de unos confirma saturación, no refutación del documento. Por ello el texto no usa v_INT sin declarar su semántica.
-
-## V.3. Célula luminosa v_L
-
-La célula v_L(Φᴸₛᵥ,Γᴮᴴ) evalúa la fibra luminosa factual en la frontera. Sus nueve coordenadas son:
-
-L1. Φᴸₛᵥ declarada como objeto fibroso factual.  
-L2. Coherencia con los siete sectores factuales.  
-L3. No reducción a onda aislada.  
-L4. No reducción a corpúsculo aislado.  
-L5. Frontera ∂Ωᴮᴴ aplicada a transmisión luminosa exterior.  
-L6. Residual luminoso Δ_L construido.  
-L7. DΣ(v_L) no declara transmisión exterior apta.  
-L8. La fibra no queda anulada.  
-L9. La pérdida de transmisión no se interpreta como destrucción ontológica.
-
-Lectura local:
-
-v_L,i = 1 si la coordenada contribuye a no transmisión exterior luminosa sin anular la fibra.  
-v_L,i = 0 si la coordenada permite transmisión luminosa exterior apta.  
-v_L,i = U si la coordenada no cierra localmente.
-
-Condición luminosa de horizonte:
-
-DΣ(v_L)=NO_APTA ∧ Φᴸₛᵥ preservada.
-
-## V.4. Célula TODO/NADA v_TN
-
-La célula v_TN(Γᴮᴴ) no sustituye a μ y λ. Sirve para verificar que la aplicación de la Teoría del TODO y de la NADA al dominio BH no se ha convertido en una cita vacía. Sus nueve coordenadas son:
-
-TN1. Trayectoria Γᴮᴴ admitida por el verificador rector.  
-TN2. μ(Γᴮᴴ) evaluable.  
-TN3. λ(Γᴮᴴ) evaluable.  
-TN4. μ(Γᴮᴴ)=0.  
-TN5. λ(Γᴮᴴ)=0.  
-TN6. 𝓝★ₛᵥ(Γᴮᴴ)=0.  
-TN7. La lectura M_N2-SV se toma de la teoría superior.  
-TN8. No se identifica M_N2-SV con vacío sustancial.  
-TN9. No se sustituye M_N2-SV por U final.
-
-La célula v_TN pasa sólo si sus coordenadas confirman que (μ,λ)=(0,0) no se ha usado de forma decorativa. El cierre postfrontera no procede de v_TN aislada, sino de la conjunción μ=0, λ=0 y 𝓝★ₛᵥ=0.
-
-## V.5. Residual compuesto como aplicación de componentes
-
-Sea 𝒞_BH el conjunto de condiciones del régimen:
-
-𝒞_BH = {DOM, UNIF, EM, TH, H, TE, L, ANG, INT, TN, NOEXT}.
-
-Para cada X ∈ 𝒞_BH se define una aplicación residual:
-
-Δ_X : Ωᴮᴴ → Σ.
-
-La lectura es:
-
-Δ_X(Γ)=0 si la condición X queda satisfecha.  
-Δ_X(Γ)=1 si la condición X queda refutada.  
-Δ_X(Γ)=U si la condición X no queda localmente cerrada.
-
-El residual compuesto es la aplicación:
-
-Δᴮᴴ : Ωᴮᴴ → Σ¹¹,
-
-Δᴮᴴ(Γ) = (Δ_DOM(Γ), Δ_UNIF(Γ), Δ_EM(Γ), Δ_TH(Γ), Δ_H(Γ), Δ_TE(Γ), Δ_L(Γ), Δ_ANG(Γ), Δ_INT(Γ), Δ_TN(Γ), Δ_NOEXT(Γ)).
-
-El vector Rᴮᴴ es la lectura de Δᴮᴴ como defecto de régimen. Así se evita una ecuación vacía: cada coordenada de Rᴮᴴ procede de una aplicación residual declarada.
-
-## Proposición V.1. El horizonte no se declara por una sola coordenada
-
-Enunciado. Ninguna coordenada aislada de v_TE declara Horizonteᴮᴴ.
-
-Demostración. Horizonteᴮᴴ exige DΣ(v_TE)=NO_APTA. Por definición de DΣ, ello requiere N₁(v_TE)≥T(n). Para n=9, T(9)=7. Una coordenada aislada sólo puede aportar una unidad al conteo N₁. Por tanto, ninguna coordenada aislada alcanza el umbral. c.q.d.
-
-## Proposición V.2. La saturación interior exige más que μ=0 y λ=0
-
-Enunciado. μ=0 y λ=0 no bastan por sí solas para declarar Interiorᴮᴴ=Satᴮᴴₛᵥ.
-
-Demostración. La saturación interior se decide por v_INT, R_TH y R_H. La igualdad μ=0 y λ=0 pertenece al cierre TODO/NADA y al postfrontera. Puede estar satisfecha y, sin embargo, faltar la sección termodinámica o el dictamen de saturación interior. Por tanto, μ=0 y λ=0 determinan M_N2-SV bajo verificador rector, pero no sustituyen v_INT. c.q.d.
-
-## Proposición V.3. La no transmisión luminosa no se reduce a v_TE
-
-Enunciado. DΣ(v_TE)=NO_APTA no sustituye el dictamen luminoso v_L.
-
-Demostración. v_TE evalúa transmisión exterior del régimen. v_L evalúa la fibra luminosa factual y sus exigencias propias: preservación de Φᴸₛᵥ, coherencia de sectores y no anulación. Un régimen podría tener no transmisión general y aun así tratar erróneamente la luz como desaparecida. Para evitarlo se exige v_L. c.q.d.
-
-
-# VI. Axiomas mínimos
-
-El documento reduce los axiomas a lo estrictamente necesario. Todo lo demás será definición, lema o teorema.
-
-Axioma A1. Subordinación de régimen. Toda trayectoria Γᴮᴴ pertenece al campo unificado factual y se evalúa por restricción de aparatos superiores, no por fuente nueva.
-
-Axioma A2. Dictamen celular. Toda célula de régimen se evalúa por DΣ y por T(n)=⌊7n/9⌋.
-
-Axioma A3. Frontera declarada. Ningún horizonte factual se declara sin frontera ∂Ωᴮᴴ y sin residual asociado.
-
-Axioma A4. Verificador rector. La condición (μ,λ)=(0,0) bajo 𝓝★ₛᵥ=0 devuelve M_N2-SV según la Teoría del TODO y de la NADA.
-
-Axioma A5. No fuente nueva. 𝔅Hₛᵥ nombra un dictamen compuesto de régimen y no un operador físico nuevo.
-
-Estos cinco axiomas son suficientes. La masa, la luz, la termodinámica, la entropía y la transmisión no se axiomatizan: se demuestran como consecuencias de la restricción de régimen.
-
----
-
-# VII. Lemas preparatorios
-
-## Lema VII.1. La célula de transmisión no decide existencia
-
-Enunciado. La célula v_TE decide aptitud de transmisión exterior y no decide existencia o inexistencia del contenido interior.
-
-Demostración. Por definición, v_TE codifica predicados de salida exterior. Su valor 1 significa que la coordenada evaluada no obtiene transmisión exterior apta. Ningún valor de v_TE contiene el predicado “el contenido no existe”. Por tanto, DΣ(v_TE)=NO_APTA declara no transmisión exterior, no desaparición. c.q.d.
-
-## Lema VII.2. La saturación no equivale a singularidad infinita
-
-Enunciado. D_INT=SATURACION_INTERIOR no implica singularidad infinita primaria.
-
-Demostración. D_INT se obtiene de v_INT y de la sección interior sometida a R_TH=0 y R_H=0. La sección termodinámica interior contiene acumulación, entropía, jacobiano, residual y frontera; la entropía factual conserva no decrecimiento estructural. Ninguno de esos elementos exige valor infinito ni punto geométrico terminal. Luego la saturación interior es régimen factual, no singularidad primaria. c.q.d.
-
-## Lema VII.3. M_N2-SV no es vacío sustancial
-
-Enunciado. M_N2-SV no expresa vacío sustancial.
-
-Demostración. M_N2-SV se define en la teoría superior por la nulidad simultánea de μ y λ: cierre interno y ausencia de resto exterior formulable. La nulidad de una magnitud de borde no equivale a ausencia ontológica; expresa que no queda residuo exterior declarable tras el cierre. Además, la propia definición de M_N2-SV la caracteriza como clausura operatoria sin remanente, no como vacío. c.q.d.
-
-## Lema VII.4. Postᴮᴴ no puede ser U bajo R_TN=0
-
-Enunciado. Si R_TN=0, entonces Postᴮᴴ no puede ser U.
-
-Demostración. R_TN=0 equivale a μ=0, λ=0 y 𝓝★ₛᵥ=0. Por A4, esa condición devuelve M_N2-SV. U representa no clausura honesta. M_N2-SV representa cierre interno sin resto exterior formulable. Un mismo dictamen final no puede ser simultáneamente cierre y no clausura. Luego Postᴮᴴ no es U bajo R_TN=0. c.q.d.
-
-## Lema VII.5. La luz factual no se reduce a señal clásica
-
-Enunciado. En el régimen BH, Φᴸₛᵥ debe evaluarse como objeto fibroso factual y no como señal clásica aislada.
-
-Demostración. La teoría factual de la luz fija Φᴸₛᵥ como objeto fibroso con múltiples proyecciones y coherencia sectorial. Por la matriz de subordinación, el documento BH no puede reducirlo a una señal visual ni a una partícula aislada. Por tanto, la pregunta formal no es “si la luz desaparece”, sino si v_L obtiene transmisión exterior apta. c.q.d.
-
-## Lema VII.6. La angularidad no autoriza función nueva
-
-Enunciado. Si comparece angularidad en Γᴮᴴ, no puede introducirse un coseno de clausura distinto del correlador factual admitido Cₛᵥ(δ)=−cos δ.
-
-Demostración. Bell–Tsirelson SV demuestra unicidad del correlador angular factual bajo sus condiciones. Una función angular nueva sería una adición axiomática externa. Por tanto, toda lectura angular que quiera estatuto SV debe subordinarse a Cₛᵥ. c.q.d.
-
-## Lema VII.7. 𝔅Hₛᵥ no es operador fuente
-
-Enunciado. 𝔅Hₛᵥ no introduce un nuevo campo ni una nueva fuente.
-
-Demostración. 𝔅Hₛᵥ se define por anulación del vector Rᴮᴴ. Cada componente de Rᴮᴴ procede de un aparato superior ya declarado o de una célula de dictamen construida sobre Σ. Una anulación conjunta de defectos no genera campo; sólo certifica compatibilidad de régimen. c.q.d.
-
-## Lema VII.8. La U local no es postfrontera
-
-Enunciado. Una U local dentro de una célula no equivale a U como respuesta final sobre Postᴮᴴ.
-
-Demostración. U local significa que una coordenada de una célula no ha cerrado antes de la evaluación completa. Postᴮᴴ se decide por R_TN y R_NOEXT. Si estos componentes valen 0, el postfrontera está determinado como M_N2-SV. La coordenada local U no posee fuerza para corregir el verificador rector. c.q.d.
+Demostración. Kerr introduce rotación y estructura axial. Si el horizonte exterior produce no salida exterior y no salida luminosa, Ξ_AST→SV asigna DΣ(v_TE)=NO_APTO y DΣ(v_L)=NO_APTO. La angularidad queda subordinada a Cₛᵥ(δ)=−cosδ cuando se formule dentro del aparato SV. c.q.d.
 
 ---
 
 # VIII. Teoremas principales
 
-## Teorema VIII.1. Legitimidad de la proyección BH
+Teorema VIII.1. En BH_SV, el horizonte se declara si y sólo si DΣ(v_TE)=NO_APTO.
 
-Enunciado. Si Γᴮᴴ pertenece a Ωᴮᴴ, si Πᴮᴴ declara dominio, codominio, invariantes y residual, y si 𝔅Hₛᵥ se define por Rᴮᴴ=0, entonces el régimen BH es una proyección legítima del corpus SV.
+Demostración. v_TE codifica transmisión exterior. DΣ(v_TE)=NO_APTO si N₁(v_TE)≥T(n). Como 1 en v_TE significa transmisión exterior no apta, la mayoría cualificada de 1 implica frontera de no salida exterior. Recíprocamente, si hay horizonte factual, la frontera no permite transmisión exterior y las coordenadas de no aptitud alcanzan T(n). c.q.d.
 
-Demostración. Una proyección legítima del corpus requiere que el dominio esté declarado, que el codominio esté determinado, que los invariantes sean explícitos y que el residual pueda dictaminarse. Ωᴮᴴ establece las condiciones de pertenencia; Πᴮᴴ declara la lectura de clausura extrema; Iᴮᴴ conserva los invariantes; Δᴮᴴ descompone el residual. La ecuación 𝔅Hₛᵥ=0 no añade un objeto exterior, sino que exige que todos los componentes de Rᴮᴴ valgan cero. Por tanto, la proyección no se apoya en analogía ni en inferencia, sino en una restricción formal del aparato ya reconocido. c.q.d.
+Teorema VIII.2. En BH_SV, la luz factual no se anula y no obtiene transmisión exterior.
 
-## Teorema VIII.2. Unicidad del criterio interno de horizonte
+Demostración. BH_SV exige DΣ(v_L)=NO_APTO. En v_L, 1 significa no aptitud de transmisión luminosa exterior, no inexistencia de fibra. La teoría factual de la luz define Φᴸₛᵥ como objeto fibroso con proyecciones propias. Luego la luz factual no se anula y no transmite hacia el exterior. c.q.d.
 
-Enunciado. Dentro de esta teoría, el horizonte factual se declara exclusivamente por N₁(v_TE)≥T(n).
+Teorema VIII.3. Si Φᴸₛᵥ comparece en Γᴮᴴ y 𝔅Hₛᵥ=0, entonces Φᴸₛᵥ conserva su estatuto de objeto fibroso factual y la evaluabilidad de sus quince proyecciones canónicas; lo que falla es su transmisión exterior.
 
-Demostración. La frontera de horizonte se define por transmisión exterior no apta. La célula v_TE es el único objeto formal declarado para evaluar la aptitud de transmisión exterior. La regla DΣ es la única regla celular de dictamen cualificado. Por tanto, Horizonteᴮᴴ sólo puede declararse cuando v_TE obtiene mayoría cualificada de unos. Si se usara masa, radio, intensidad o umbral escalar externo, se sustituiría el objeto de dictamen por una magnitud no rectora. Luego el criterio interno único es N₁(v_TE)≥T(n). c.q.d.
+Demostración. C_L=0 impone DΣ(v_L)=NO_APTO. La condición sólo evalúa la aptitud de salida por frontera. Si el régimen BH anulara las proyecciones de Φᴸₛᵥ, no habría fibra evaluable y v_L carecería de dominio. Como v_L se evalúa sobre Φᴸₛᵥ, la fibra y sus proyecciones permanecen evaluables. c.q.d.
 
-## Teorema VIII.3. No suficiencia de la masa aislada
+Teorema VIII.4. En BH_SV, el interior queda en saturación factual extrema.
 
-Enunciado. Una masa elevada no implica agujero negro factual.
+Demostración. BH_SV exige DΣ(v_INT)=SATURACIÓN. Por orientación semántica de v_INT, la mayoría cualificada de coordenadas de saturación declara saturación interior. c.q.d.
 
-Demostración. El dictamen BH exige Rᴮᴴ=0. Una magnitud de masa no determina por sí misma v_TE, no satisface por sí misma R_EM, no satisface R_TH, no impone Hₛᵥ no decreciente, no declara μ=0, no declara λ=0, no decide v_L y no produce Postᴮᴴ=M_N2-SV. Aunque la masa pueda comparecer en una traducción externa o en una proyección gravitatoria, no cubre el vector de defecto. Por tanto, masa alta sin anulación de Rᴮᴴ no implica agujero negro factual. c.q.d.
+Teorema VIII.5. El interior BH no es vacío sustancial ni singularidad infinita primaria.
 
-## Teorema VIII.4. Horizonte factual no implica desaparición del contenido
+Demostración. La saturación interior presupone dominio, estructura, residual y dictamen. El vacío sustancial implicaría ausencia de dominio evaluable. La singularidad infinita pertenece a una proyección geométrica límite y no a la ecuación de régimen. Luego el interior BH no es vacío ni singularidad primaria. c.q.d.
 
-Enunciado. Si Horizonteᴮᴴ(Γᴮᴴ), no se sigue que el contenido interior desaparezca.
+Teorema VIII.6. En BH_SV, Postᴮᴴ=M_N2-SV y Postᴮᴴ≠U.
 
-Demostración. Horizonteᴮᴴ equivale a DΣ(v_TE)=NO_APTA. Por Lema VI.1, v_TE decide transmisión exterior y no existencia. La desaparición del contenido no aparece en la definición de v_TE ni en DΣ. Además, el régimen completo exige interior saturado, lo cual presupone dominio interior de cierre, no ausencia. Por tanto, horizonte no implica desaparición. c.q.d.
+Demostración. BH_SV exige C_TN=0 y C_NOEXT=0. C_TN=0 equivale a μ=0, λ=0 y 𝓝★ₛᵥ=0. Por Teoría del TODO y de la NADA, esa condición define cierre interno sin resto exterior formulable: M_N2-SV. Por Teorema IV.1, M_N2-SV≠U. c.q.d.
 
-## Teorema VIII.5. Saturación interior no singular primaria
+Teorema VIII.7. La masa aislada no basta para declarar BH_SV.
 
-Enunciado. Si 𝔅Hₛᵥ(Γᴮᴴ)=0, el interior no se define como singularidad infinita primaria.
+Demostración. BH_SV exige Rᴮᴴ=(0,...,0), incluyendo C_TE, C_L, C_INT, C_TN, C_NOEXT, C_EM, C_TH, C_H y C_ABS. Una masa aislada no determina por sí misma ninguna de esas conjunciones completas. c.q.d.
 
-Demostración. La anulación de Rᴮᴴ incluye R_INT=0, R_TH=0 y R_H=0. R_INT=0 declara saturación factual; R_TH=0 incorpora sección termodinámica factual; R_H=0 conserva no decrecimiento estructural. Ninguna de esas condiciones exige infinitud geométrica. La singularidad puede aparecer en una lectura relativista externa como límite de una métrica, pero no es fundamento del dictamen SV. Por tanto, el interior no es singularidad infinita primaria. c.q.d.
+Teorema VIII.8. En BH_SV, la sección interior satisface 𝖤ᵗʰᵉʳᵐᵒₛᵥ=0 y Hₛᵥ no decrece.
 
-## Teorema VIII.6. Interior no vacío
+Demostración. C_TH=0 y C_H=0 forman parte de 𝔅Hₛᵥ=0. Por definición, la sección interior Ωᵗʰᴮᴴ satisface la termodinámica factual única y la trayectoria conserva no decrecimiento estructural. c.q.d.
 
-Enunciado. Si 𝔅Hₛᵥ(Γᴮᴴ)=0, el interior no es vacío sustancial.
+Teorema VIII.9. Toda métrica externa de agujero negro que preserve frontera de no salida y no salida luminosa queda absorbida como proyección de ∂Ωᴮᴴ.
 
-Demostración. El régimen completo exige R_INT=0, lo que implica saturación factual interior. También exige R_TH=0 y R_H=0, lo que implica sección termodinámica y entropía factual. Un dominio saturado, termodinámicamente restringido y entrópicamente ordenado no es vacío sustancial. Además, por Lema VI.3, M_N2-SV no es vacío. c.q.d.
+Demostración. Si una métrica describe frontera de no salida y no salida luminosa, Ξ_AST→SV la traduce en DΣ(v_TE)=NO_APTO y DΣ(v_L)=NO_APTO. Si preserva efectos externos de campo, C_UNIF y C_EM son admisibles. c.q.d.
 
-## Teorema VIII.7. Derivación de M_N2-SV desde la frontera común
+Teorema VIII.10. Si existe salida luminosa exterior apta desde el interior, no hay BH_SV ni BH_físico de horizonte.
 
-Enunciado. Si μ(Γᴮᴴ)=0, λ(Γᴮᴴ)=0 y 𝓝★ₛᵥ(Γᴮᴴ)=0, entonces Postᴮᴴ(Γᴮᴴ)=M_N2-SV.
-
-Demostración. La Teoría del TODO y de la NADA define la frontera común (μ,λ)=(0,0) como cierre interno sin resto exterior formulable. El verificador 𝓝★ₛᵥ=0 declara que la lectura no presenta defecto estructural. Al restringir esa condición al dominio Ωᴮᴴ, no se modifica la semántica superior: sólo se aplica a una frontera factual de agujero negro. Por tanto, la postfrontera del régimen no queda abierta ni se convierte en vacío; queda exactamente en el modo M_N2-SV. c.q.d.
-
-## Teorema VIII.8. Exclusión de U como respuesta final del postfrontera
-
-Enunciado. En régimen BH cerrado, Postᴮᴴ no es U.
-
-Demostración. Si 𝔅Hₛᵥ=0, entonces R_TN=0. Por Teorema VIII.7, R_TN=0 implica Postᴮᴴ=M_N2-SV. U es el valor de no clausura honesta. M_N2-SV es cierre interno sin resto exterior formulable. Si se declarase Postᴮᴴ=U, se negaría el cierre emitido por la teoría superior. Eso violaría la cadena de prevalencia. Luego Postᴮᴴ no es U. c.q.d.
-
-## Teorema VIII.9. Conservación no evasiva de U
-
-Enunciado. La exclusión de U como postfrontera final no elimina U del SV.
-
-Demostración. Σ={0,1,U} permanece como alfabeto de las células. U puede aparecer en una coordenada local, en una evaluación previa o en un candidato no cerrado. Lo que se excluye es su uso como respuesta final sobre Postᴮᴴ cuando R_TN=0. Por tanto, U conserva su estatuto general, pero no corrige el dictamen M_N2-SV. c.q.d.
-
-## Teorema VIII.10. No anulación de la luz factual
-
-Enunciado. Si Φᴸₛᵥ comparece en Γᴮᴴ y 𝔅Hₛᵥ(Γᴮᴴ)=0, entonces la luz factual no se anula; su transmisión exterior resulta no apta.
-
-Demostración. La luz factual comparece como Φᴸₛᵥ, objeto fibroso del dominio. R_L=0 exige que Φᴸₛᵥ esté declarada, que no se sustituya por señal clásica y que DΣ(v_L)=NO_APTA para transmisión exterior. La no aptitud de v_L afecta a la transmisión, no a la existencia de la fibra. Por tanto, la luz no se anula; no obtiene transmisión exterior apta. c.q.d.
-
-## Teorema VIII.11. Frontera electromagnética sin ruptura de Maxwell factual
-
-Enunciado. Si 𝔅Hₛᵥ(Γᴮᴴ)=0, la frontera electromagnética del régimen no rompe Maxwell factual.
-
-Demostración. R_EM=0 forma parte de Rᴮᴴ=0. Por definición, R_EM=0 exige que 𝔼ₛᵥ se satisfaga en la frontera electromagnética factual. La no transmisión exterior no autoriza discontinuidad no dictaminada ni abandono del balance de frontera. Por tanto, la frontera BH es frontera de no transmisión bajo cierre Maxwell factual, no excepción electromagnética libre. c.q.d.
-
-## Teorema VIII.12. Cierre termodinámico interior
-
-Enunciado. Si 𝔅Hₛᵥ(Γᴮᴴ)=0, la sección interior satisface 𝖤ᵗʰᵉʳᵐᵒₛᵥ=0.
-
-Demostración. R_TH=0 es componente obligatorio del vector de defecto. R_TH=0 se define como satisfacción de la fórmula termodinámica factual única en la sección interior. Por tanto, el interior BH no puede formularse mediante temperatura aislada, calor aislado ni entropía estadística: debe satisfacer el dominio termodinámico factual completo. c.q.d.
-
-## Teorema VIII.13. Irreversibilidad estructural interior
-
-Enunciado. En una trayectoria Γᴮᴴ admisible con 𝔅Hₛᵥ=0, Hₛᵥ no decrece.
-
-Demostración. R_H=0 exige Hₛᵥ(Γᴮᴴ,n+1) ≥ Hₛᵥ(Γᴮᴴ,n). Esta propiedad se hereda de la entropía factual sobre trayectorias admisibles bajo disciplina append-only y honestidad coordenada. La restricción al dominio BH no anula esa propiedad; la incorpora como componente obligatorio. c.q.d.
-
-## Teorema VIII.14. Angularidad subordinada
-
-Enunciado. Si Γᴮᴴ contiene régimen angular de frontera, correlación o clausura, su función angular debe subordinarse a Cₛᵥ(δ)=−cos δ.
-
-Demostración. R_ANG=0 exige subordinación al aparato angular factual admitido. Por Lema VI.6, introducir otro coseno o función angular de clausura sería adición no autorizada. Por tanto, toda angularidad en BH debe quedar absorbida por Cₛᵥ(δ)=−cos δ o declararse no compareciente. c.q.d.
-
-## Teorema VIII.15. No transmisión exterior como dictamen de canal factual
-
-Enunciado. La no transmisión exterior BH es dictamen de 𝓣ₛᵥ sobre Xᴮᴴ, no metáfora de escape.
-
-Demostración. Ωᴮᴴ exige estado factual transmisible Xᴮᴴ. R_TE=0 exige DΣ(v_TE)=NO_APTA. La teoría de transmisión factual opera sobre estados declarados con codificación, canal, frontera, residual y dictamen. Por tanto, la no salida exterior se expresa como fallo cualificado de transmisión factual; no depende de imagen visual de escape. c.q.d.
-
-## Teorema VIII.16. Derivación del cierre sin resto exterior formulable
-
-Enunciado. Si 𝔅Hₛᵥ(Γᴮᴴ)=0, no queda resto exterior formulable tras la frontera factual.
-
-Demostración. 𝔅Hₛᵥ=0 implica R_TN=0 y R_NOEXT=0. R_TN=0 implica, por Teorema VIII.7, Postᴮᴴ=M_N2-SV. M_N2-SV significa cierre interno sin resto exterior formulable. Luego no queda resto exterior formulable. c.q.d.
-
-## Teorema VIII.17. Exclusión de otro universo declarado
-
-Enunciado. Si 𝔅Hₛᵥ(Γᴮᴴ)=0, el documento no autoriza declarar “otro universo” tras la frontera.
-
-Demostración. El cierre postfrontera derivado es M_N2-SV. M_N2-SV no contiene salida cosmológica ni dominio externo nuevo; contiene cierre interno sin resto exterior formulable. Declarar otro universo introduciría resto exterior formulable, contradiciendo λ=0. Por tanto, queda excluido. c.q.d.
-
-## Teorema VIII.18. Compatibilidad con lectura relativista externa
-
-Enunciado. La teoría BH del SV es compatible con la lectura relativista externa de horizonte como frontera causal, sin identificarse con una métrica completa.
-
-Demostración. El horizonte relativista expresa, en su lectura externa, imposibilidad de comunicación causal desde el interior. Horizonteᴮᴴ expresa no transmisión factual exterior por v_TE. Ambas formulaciones coinciden en no salida exterior, aunque difieren en fundamento. Como el documento no declara métrica completa ni cálculo de radios de objetos concretos, no contradice la relatividad general; delimita una lectura factual interna. c.q.d.
-
-## Teorema VIII.19. Unicidad de la ecuación de régimen BH
-
-Enunciado. Bajo la matriz doctrinal declarada, 𝔅Hₛᵥ(Γᴮᴴ)=0 es la forma mínima completa de la ecuación de régimen BH.
-
-Demostración. Si se elimina R_UNIF, el régimen deja de depender del campo unificado. Si se elimina R_TN, no se puede derivar M_N2-SV. Si se elimina R_TE, no hay horizonte factual. Si se elimina R_L, se pierde la prueba luminosa. Si se elimina R_EM, se rompe Maxwell factual. Si se elimina R_TH o R_H, el interior queda sin termodinámica o sin irreversibilidad estructural. Si se elimina R_ANG, aparece riesgo de angularidad externa no autorizada. Si se elimina R_NOEXT, no se cierra el postfrontera. Por tanto, todos los componentes son necesarios para el rango declarado. La conjunción es mínima completa respecto de la matriz. c.q.d.
-
-## Teorema VIII.20. No circularidad de Postᴮᴴ=M_N2-SV
-
-Enunciado. La conclusión Postᴮᴴ=M_N2-SV no es circular en esta formulación.
-
-Demostración. En la versión correcta, M_N2-SV no se introduce como condición independiente dentro de R_NOEXT. Primero se define R_TN=0 por μ=0, λ=0 y 𝓝★ₛᵥ=0. Segundo, la teoría superior establece que esa condición es M_N2-SV. Tercero, R_NOEXT=0 se deriva de R_TN=0. Por tanto, Postᴮᴴ=M_N2-SV no es supuesto; es consecuencia de la teoría superior aplicada al dominio BH. c.q.d.
-
-## Teorema VIII.21. Falsabilidad interna
-
-Enunciado. La teoría BH es falsable dentro del SV por refutación de cualquiera de los componentes de Rᴮᴴ.
-
-Demostración. 𝔅Hₛᵥ=0 exige vector nulo. Si un caso produce R_X=1 para cualquier X, el vector no es nulo y el régimen queda refutado. Por ejemplo, si N₁(v_TE)<T(n), no hay horizonte factual; si λ≠0, no hay M_N2-SV; si v_L declara anulación de luz, falla R_L; si R_TH=1, falla el cierre interior. Por tanto, la teoría admite refutación estructural. c.q.d.
-
-## Teorema VIII.22. Cierre de rango corpus
-
-Enunciado. Si Γᴮᴴ satisface los teoremas VIII.1 a VIII.21 y supera el banco SV-BH4, la teoría BH alcanza el rango exigido por los documentos superiores del corpus.
-
-Demostración. Los teoremas cubren proyección legítima, horizonte, no transmisión, interior, luz, Maxwell, termodinámica, entropía, angularidad, transmisión factual, M_N2-SV, exclusión de U final, exclusión de vacío, exclusión de singularidad primaria, compatibilidad externa y falsabilidad. El banco SV-BH4 verifica los casos positivos, negativos y adversariales correspondientes. Por tanto, la teoría deja de ser una definición local y queda como restricción extrema del aparato superior. c.q.d.
+Demostración. Salida luminosa apta implica DΣ(v_L)=APTO. BH_SV exige DΣ(v_L)=NO_APTO. Por Lema III.1, APTO y NO_APTO no pueden coexistir. c.q.d.
 
 ---
 
-# IX. Banco SV-BH4
+# IX. Teoremas de absorción de la física contemporánea
 
-El banco SV-BH4 no es un catálogo de observaciones astrofísicas. Es un banco interno de verificación estructural. Su función es demostrar que la teoría acepta sólo los regímenes que satisfacen Rᴮᴴ=0 y rechaza los cierres indebidos.
+Teorema IX.1. La relatividad general queda absorbida como proyección métrica externa de BH_SV.
 
-## VIII.1. Banco de dictamen celular
+Demostración. La relatividad general describe curvatura, horizonte, no escape y soluciones métricas. BH_SV contiene frontera factual, no transmisión exterior y no transmisión luminosa. Mediante Ξ_AST→SV, el horizonte relativista se traduce en v_TE y v_L. La métrica se conserva como lectura externa de ∂Ωᴮᴴ. Lo que la relatividad general no clausura queda cerrado por M_N2-SV. c.q.d.
 
-| Caso | Célula | N₀ | N₁ | N_U | T(9) | DΣ |
-|---|---|---:|---:|---:|---:|---|
-| BH4-CEL-01 | 1 1 1 1 1 1 1 0 0 | 2 | 7 | 0 | 7 | NO_APTA |
-| BH4-CEL-02 | 1 1 1 1 1 1 0 0 0 | 3 | 6 | 0 | 7 | U |
-| BH4-CEL-03 | 0 0 0 0 0 0 0 1 1 | 7 | 2 | 0 | 7 | APTA |
-| BH4-CEL-04 | 1 1 1 1 1 1 U U 0 | 1 | 6 | 2 | 7 | U |
-| BH4-CEL-05 | 1 1 1 1 1 1 1 U 0 | 1 | 7 | 1 | 7 | NO_APTA |
+Teorema IX.2. Schwarzschild queda absorbido como caso métrico no rotante y Kerr como caso métrico rotante.
 
-Lectura. BH4-CEL-05 muestra que una coordenada U local no impide dictamen NO_APTA cuando N₁ alcanza el umbral. Esa U local no es postfrontera final.
+Demostración. Schwarzschild fija r_s=2GM/c². Si r≤r_s, se obtiene DΣ(v_TE)=NO_APTO y DΣ(v_L)=NO_APTO. Kerr describe horizonte de objeto rotante; si aparece angularidad, se subordina a Cₛᵥ(δ)=−cosδ. c.q.d.
 
-## VIII.2. Banco de horizonte
+Teorema IX.3. La singularidad clásica queda rechazada como fundamento, aunque absorbida como señal de límite geométrico.
 
-| Caso | v_TE | N₁ | Horizonteᴮᴴ | Resultado |
-|---|---|---:|---|---|
-| BH4-TE-01 | 1 1 1 1 1 1 1 0 0 | 7 | Sí | R_TE=0 |
-| BH4-TE-02 | 1 1 1 1 1 1 0 0 0 | 6 | No | R_TE=1 si se declara horizonte |
-| BH4-TE-03 | 0 0 0 0 0 0 0 0 0 | 0 | No | transmisión exterior apta |
-| BH4-TE-04 | 1 1 1 1 1 1 1 U 0 | 7 | Sí | horizonte con U local no final |
+Demostración. La singularidad aparece al llevar una proyección geométrica hasta su límite. BH_SV cierra el interior por M_N2-SV. Por tanto, la singularidad puede figurar como diagnóstico de insuficiencia métrica, pero no como definición del interior. c.q.d.
 
-## VIII.3. Banco interior y postfrontera
+Teorema IX.4. La termodinámica de Bekenstein–Hawking queda absorbida como proyección termodinámica de frontera.
 
-| Caso | v_INT | N₁(v_INT) | μ | λ | 𝓝★ₛᵥ | Interior | Postᴮᴴ |
-|---|---|---:|---:|---:|---|---|---|
-| BH4-INT-01 | 1 1 1 1 1 1 1 0 0 | 7 | 0 | 0 | 0 | Satᴮᴴₛᵥ | M_N2-SV |
-| BH4-INT-02 | 1 1 1 1 1 1 U 0 0 | 6 | 0 | 0 | 0 | no alcanza saturación cualificada | No_BH |
-| BH4-INT-03 | 1 1 1 1 1 1 1 0 0 | 7 | 0 | 0.4 | 1 | saturación local sin cierre TN | No_BH |
-| BH4-INT-04 | 1 1 1 1 1 1 1 U 0 | 7 | 0 | 0 | 0 | Satᴮᴴₛᵥ | M_N2-SV |
+Demostración. Bekenstein y Hawking vinculan área, entropía, temperatura y radiación. BH_SV incluye C_TH=0 y C_H=0. Esas condiciones absorben la lectura termodinámica, pero la subordinan a termodinámica factual y entropía factual. c.q.d.
 
-Lectura. El caso BH4-INT-03 impide confundir saturación interior local con postfrontera M_N2-SV cuando λ no se anula.
+Teorema IX.5. Page curve, islas, fuzzballs, firewalls y agujeros negros regulares quedan absorbidos parcialmente.
 
-## VIII.4. Banco de luz factual
-
-| Caso | Φᴸₛᵥ | v_L | N₁(v_L) | Dictamen |
-|---|---|---|---:|---|
-| BH4-L-01 | presente | 1 1 1 1 1 1 1 0 0 | 7 | luz no anulada; transmisión exterior no apta |
-| BH4-L-02 | presente | 1 1 1 0 0 0 0 0 0 | 3 | no se declara bloqueo luminoso cualificado |
-| BH4-L-03 | ausente | no evaluable | — | no procede teorema luminoso; error si se declara conclusión luminosa |
-| BH4-L-04 | presente pero declarada anulada | 1 1 1 1 1 1 1 0 0 | 7 | error BH-LUZ-001 |
-
-## VIII.5. Banco de ecuación completa
-
-| Caso | R_DOM | R_UNIF | R_EM | R_TH | R_H | R_TE | R_L | R_ANG | R_INT | R_TN | R_NOEXT | Dᴮᴴ | Postᴮᴴ |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|---|
-| BH4-FULL-01 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | M_N2-SV |
-| BH4-FULL-02 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | No_BH |
-| BH4-FULL-03 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | No_BH |
-| BH4-FULL-04 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | No_BH |
-| BH4-FULL-05 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | U | 0 | 0 | 0 | 0 | No_BH hasta resolver angularidad |
-
-## VIII.6. Banco adversarial
-
-| Caso | Declaración indebida | Error esperado |
-|---|---|---|
-| BH4-A-01 | Horizonte por masa aislada | BH-MASA-001 |
-| BH4-A-02 | Postfrontera declarado como U con μ=0, λ=0 y 𝓝★ₛᵥ=0 | BH-UPOST-001 |
-| BH4-A-03 | Interior declarado vacío sustancial | BH-VAC-001 |
-| BH4-A-04 | Singularidad infinita como estatuto primario | BH-SING-001 |
-| BH4-A-05 | Luz factual anulada | BH-LUZ-001 |
-| BH4-A-06 | Probabilidad de escape | BH-PROB-001 |
-| BH4-A-07 | Tiempo como fundamento del cierre | BH-TIME-001 |
-| BH4-A-08 | Coseno angular no subordinado a Cₛᵥ | BH-ANG-001 |
-| BH4-A-09 | Omisión de termodinámica factual | BH-TH-001 |
-| BH4-A-10 | Omisión de TODO/NADA | BH-TN-001 |
-| BH4-A-11 | 𝔅Hₛᵥ tratado como operador fuente nuevo | BH-SRC-001 |
-| BH4-A-12 | Estadística usada como criterio de cierre | BH-STAT-001 |
-| BH4-A-13 | Inferencia opaca para declarar postfrontera | BH-INF-001 |
-| BH4-A-14 | U local convertida en U final pese a R_TN=0 | BH-UPOST-002 |
+Demostración. Esos modelos corrigen la información exterior, la estructura de horizonte o la singularidad, pero no definen simultáneamente frontera factual, luz factual, saturación, termodinámica, entropía y postfrontera M_N2-SV. c.q.d.
 
 ---
 
-# X. Especificación laboratorial
+# X. Banco numérico SV-BH6 y verificación fórmula por fórmula
 
-## IX.1. Objetivo del laboratorio
+## X.1. Estatuto del banco
 
-El laboratorio SV-BH4 verifica que la ecuación 𝔅Hₛᵥ=0 se comporta como restricción de régimen y no como prosa declarativa. Debe aceptar los casos completos, rechazar los incompletos, preservar la luz factual, impedir U final del postfrontera cuando M_N2-SV está disponible, y detectar todas las violaciones doctrinales.
+SV-BH6 obliga a cada fórmula física tratada por el documento a comparecer en números y a recibir dictamen SV. Contiene célula canónica SV(3,9), granularidad ampliada SV(6,36), casos de frontera, casos fuera de horizonte, casos de horizonte, termodinámica, singularidad como límite, Kerr válido e inválido, absorción parcial y adversariales.
 
-## IX.2. Validadores mínimos
+La selección de casos procede de una partición estructural de cada fórmula: Schwarzschild se parte en exterior, frontera e interior; Kerr en subextremo, extremo y superextremo; la termodinámica en escalas de masa; la singularidad en radio finito, aproximación a cero y cero no evaluable; la absorción en aportación completa, aportación parcial y defecto de fundamento.
 
-1. Validador de matriz doctrinal.
-2. Validador de Ωᴮᴴ.
-3. Validador de Πᴮᴴ.
-4. Validador de invariantes Iᴮᴴ.
-5. Calculador N₀, N₁ y N_U.
-6. Calculador T(n)=⌊7n/9⌋.
-7. Evaluador DΣ.
-8. Evaluador v_TE y R_TE.
-9. Evaluador v_INT y R_INT.
-10. Evaluador v_L y R_L.
-11. Evaluador R_EM.
-12. Evaluador R_TH.
-13. Evaluador R_H.
-14. Evaluador R_ANG.
-15. Evaluador μ, λ y 𝓝★ₛᵥ.
-16. Derivador Postᴮᴴ=M_N2-SV.
-17. Compositor Rᴮᴴ.
-18. Evaluador Dᴮᴴ.
-19. Adversarial de errores.
-20. Generador de salida de dictamen.
+## X.2. Constantes usadas
 
-## IX.3. Algoritmo textual del dictamen
+G = 6.67430·10^-11 m³ kg^-1 s^-2.  
+c = 299792458 m s^-1.  
+ℏ = 1.054571817·10^-34 J s.  
+k_B = 1.380649·10^-23 J K^-1.  
+M_solar = 1.98847·10^30 kg.  
+l_P = √(ℏG/c³).
 
-Entrada: trayectoria Γ.
+## X.3. Verificación de escala Schwarzschild y termodinámica
 
-Paso 1. Verificar que Γ pertenece a Ωᴮᴴ.  
-Paso 2. Construir Πᴮᴴ(Γ).  
-Paso 3. Declarar Iᴮᴴ y Δᴮᴴ.  
-Paso 4. Construir v_TE, v_INT y v_L cuando corresponda.  
-Paso 5. Calcular N₀, N₁, N_U y T(n).  
-Paso 6. Evaluar DΣ(v_TE), DΣ(v_INT), DΣ(v_L).  
-Paso 7. Evaluar R_UNIF, R_EM, R_TH, R_H y R_ANG.  
-Paso 8. Evaluar μ, λ y 𝓝★ₛᵥ.  
-Paso 9. Derivar R_TN.  
-Paso 10. Si R_TN=0, derivar Postᴮᴴ=M_N2-SV.  
-Paso 11. Formar Rᴮᴴ.  
-Paso 12. Declarar Dᴮᴴ=1 sólo si Rᴮᴴ es vector nulo.  
-Paso 13. Rechazar todo caso que declare postfrontera U con R_TN=0.  
-Paso 14. Emitir dictamen completo.
+Fórmulas evaluadas: r_s = 2GM/c²; A = 4πr_s²; S_BH/k_B = A/(4l_P²); T_H = ℏc³/(8πGMk_B).
 
-## IX.4. Criterio de aceptación
+| Caso | Escala | r_s km | r_s UA | S_BH/k_B | T_H K |
+|---|---|---|---|---|---|
+| M1 | 1 masa solar | 2.9533 | 1.974·10^-8 | 1.049·10^77 | 6.170·10^-8 |
+| M10 | 10 masas solares | 29.5334 | 1.974·10^-7 | 1.049·10^79 | 6.170·10^-9 |
+| SGRA | Sgr A*, escala EHT | 1.269·10^7 | 0.0848 | 1.937·10^90 | 1.436·10^-14 |
+| M87 | M87*, escala EHT | 1.920·10^10 | 128.3221 | 4.432·10^96 | 9.492·10^-18 |
 
-Un caso es APTO si y sólo si:
 
-Rᴮᴴ=(0,0,0,0,0,0,0,0,0,0,0),
+Lectura SV. La fórmula de Schwarzschild produce una escala geométrica externa bien definida; la termodinámica de Bekenstein–Hawking produce magnitudes de frontera y temperatura externa. El SV absorbe esas fórmulas como proyecciones: r_s se traduce a frontera externa; S_BH/k_B y T_H se traducen a sección termodinámica factual C_TH y entropía factual C_H. Ninguna de esas magnitudes decide por sí sola Postᴮᴴ.
 
-Horizonteᴮᴴ es verdadero,
+## X.4. Banco de frontera Schwarzschild
 
-Interiorᴮᴴ=Satᴮᴴₛᵥ,
+Se define q = r/r_s. La velocidad de escape clásica normalizada se toma como v_escape/c = √(1/q). La condición q≤1 identifica frontera o interior de no escape en la lectura Schwarzschild.
 
-Φᴸₛᵥ no queda anulada,
+| Caso | q=r/r_s | v_escape/c | v_TE | N₁ | T(9) | DΣ(v_TE) | Dictamen |
+|---|---|---|---|---|---|---|---|
+| SCH-01 | 2.000 | 0.7071 | 0 0 0 0 0 0 0 1 1 | 2 | 7 | APTO | exterior transmisible; no declara BH |
+| SCH-02 | 1.100 | 0.9535 | 0 0 0 0 0 0 0 1 1 | 2 | 7 | APTO | exterior transmisible; no declara BH |
+| SCH-03 | 1.001 | 0.9995 | 0 0 0 0 0 0 0 1 1 | 2 | 7 | APTO | exterior transmisible; no declara BH |
+| SCH-04 | 1.000 | 1.0000 | 1 1 1 1 1 1 1 0 0 | 7 | 7 | NO_APTO | horizonte físico absorbido como H_BH |
+| SCH-05 | 0.999 | 1.0005 | 1 1 1 1 1 1 1 1 0 | 8 | 7 | NO_APTO | horizonte físico absorbido como H_BH |
+| SCH-06 | 0.500 | 1.4142 | 1 1 1 1 1 1 1 1 0 | 8 | 7 | NO_APTO | horizonte físico absorbido como H_BH |
+| SCH-07 | 0.100 | 3.1623 | 1 1 1 1 1 1 1 1 0 | 8 | 7 | NO_APTO | horizonte físico absorbido como H_BH |
 
-Postᴮᴴ=M_N2-SV,
 
-no aparece error adversarial.
+Teorema X.1. Todo caso con q≤1 produce, bajo Ξ_AST→SV, DΣ(v_TE)=NO_APTO; todo caso con q>1 no declara horizonte factual por Schwarzschild.
 
-## IX.5. Criterio de rechazo
+Demostración. Para q≤1, la lectura externa afirma no escape. El traductor asigna coordenadas de no aptitud a v_TE. En los casos SCH-04, SCH-05, SCH-06 y SCH-07, N₁(v_TE)≥7=T(9); por tanto DΣ(v_TE)=NO_APTO. Para q>1, v_TE tiene N₀=7 y N₁=2; luego DΣ(v_TE)=APTO y no hay horizonte factual por esa lectura. c.q.d.
 
-Un caso es NO_APTO si ocurre cualquiera de estas situaciones:
+## X.5. Banco Kerr
 
-1. falta la matriz doctrinal;
-2. falta Ωᴮᴴ;
-3. falta Πᴮᴴ;
-4. falta Δᴮᴴ;
-5. N₁(v_TE)<T(n) y aun así se declara horizonte;
-6. μ o λ no son cero y aun así se declara M_N2-SV;
-7. se declara Postᴮᴴ=U con R_TN=0;
-8. se declara vacío;
-9. se declara singularidad infinita primaria;
-10. se anula la luz factual;
-11. se usa masa aislada;
-12. se usa tiempo, probabilidad, estadística o inferencia opaca;
-13. se introduce operador fuente nuevo;
-14. se omite Maxwell factual;
-15. se omite termodinámica factual;
-16. se omite entropía factual;
-17. se omite Bell–Tsirelson cuando comparece angularidad.
+Se usa χ como parámetro adimensional de espín. En lectura Kerr normalizada, el horizonte exterior existe para |χ|≤1 y r_+/r_g = 1+√(1-χ²). Para |χ|>1, la fórmula no produce horizonte exterior real de Kerr.
+
+| Caso | χ | r_+/r_g | v_Kerr | DΣ | Dictamen |
+|---|---|---|---|---|---|
+| KERR-01 | 0.000 | 2.0000 | 0 0 0 0 0 0 0 1 1 | APTO | Kerr absorbido como proyección métrica rotante |
+| KERR-02 | 0.500 | 1.8660 | 0 0 0 0 0 0 0 1 1 | APTO | Kerr absorbido como proyección métrica rotante |
+| KERR-03 | 0.900 | 1.4359 | 0 0 0 0 0 0 0 1 1 | APTO | Kerr absorbido como proyección métrica rotante |
+| KERR-04 | 0.999 | 1.0447 | 0 0 0 0 0 0 0 1 1 | APTO | Kerr absorbido como proyección métrica rotante |
+| KERR-05 | 1.000 | 1.0000 | 0 0 0 0 0 0 0 U U | APTO | Kerr absorbido como proyección métrica rotante |
+| KERR-06 | 1.100 | no real | 1 1 1 1 1 1 1 0 0 | NO_APTO | no es agujero negro Kerr físico; defecto de horizonte |
+
+
+Teorema X.2. Kerr queda absorbido como proyección métrica rotante exactamente en los casos |χ|≤1; los casos |χ|>1 no representan agujero negro Kerr físico.
+
+Demostración. Si |χ|≤1, r_+/r_g es real y la lectura externa produce horizonte. El SV absorbe esa frontera como proyección rotante. Si |χ|>1, r_+ no es real; la lectura Kerr de agujero negro falla. c.q.d.
+
+## X.6. Banco de singularidad geométrica
+
+La curvatura de Kretschmann para Schwarzschild se expresa como K = 48G²M²/(c⁴r⁶). Normalizada al valor de horizonte K_h=K(r_s), se obtiene K/K_h=(r_s/r)^6.
+
+| Caso | r/r_s | K/K_h | v_sing | Dictamen |
+|---|---|---|---|---|
+| K-01 | 1.0000 | 1.0000 | 0 0 0 0 0 0 0 1 1 | absorbido como límite de proyección |
+| K-02 | 0.5000 | 64.0000 | 0 0 0 0 0 0 0 1 1 | absorbido como límite de proyección |
+| K-03 | 0.1000 | 1.000·10^6 | 0 0 0 0 0 0 0 1 1 | absorbido como límite de proyección |
+| K-04 | 0.0100 | 1.000·10^12 | 0 0 0 0 0 0 0 1 1 | absorbido como límite de proyección |
+| K-05 | 0.0000 | no definido | 1 1 1 1 1 1 1 1 1 | NO_APTO como fundamento |
+
+
+Teorema X.3. La singularidad r=0 no es fundamento evaluable del régimen BH; es límite no definido de una proyección geométrica.
+
+Demostración. Para r>0, K/K_h es finito y crece como (r_s/r)^6. En r=0, la fórmula no tiene valor finito. Un fundamento del régimen debe ser evaluable por Ωᴮᴴ, Δᴮᴴ y Rᴮᴴ. El caso K-05 no es evaluable y activa NO_APTO como fundamento. c.q.d.
+
+## X.7. Banco termodinámico factual
+
+| Caso | Escala | r_s km | S_BH/k_B | T_H K | Dictamen SV |
+|---|---|---|---|---|---|
+| M1 | 1 masa solar | 2.9533 | 1.049·10^77 | 6.170·10^-8 | C_TH=0; C_H=0 |
+| M10 | 10 masas solares | 29.5334 | 1.049·10^79 | 6.170·10^-9 | C_TH=0; C_H=0 |
+| SGRA | Sgr A*, escala EHT | 1.269·10^7 | 1.937·10^90 | 1.436·10^-14 | C_TH=0; C_H=0 |
+| M87 | M87*, escala EHT | 1.920·10^10 | 4.432·10^96 | 9.492·10^-18 | C_TH=0; C_H=0 |
+
+
+Teorema X.4. Las magnitudes S_BH/k_B y T_H quedan absorbidas como proyecciones termodinámicas de frontera, no como fundamento postfrontera.
+
+Demostración. La tabla muestra que S_BH/k_B crece con M² y T_H decrece con M^-1. Esas relaciones son coherentes con una lectura externa de acumulación y frontera. El SV las incorpora en C_TH y C_H. Sin embargo, ninguna fila contiene μ, λ ni 𝓝★ₛᵥ. Luego la termodinámica queda absorbida como proyección, pero no determina Postᴮᴴ. c.q.d.
+
+## X.8. Banco de absorción de modelos contemporáneos
+
+Se define v_ABS con nueve coordenadas. En esta célula, 0 significa componente absorbido o compatible dentro del alcance declarado; 1 significa defecto si el modelo pretende actuar como fundamento; U significa componente no aportado por el modelo y resuelto por el aparato SV en otra condición.
+
+| Caso | Modelo | v_ABS | N₀ | N₁ | N_U | Dictamen |
+|---|---|---|---|---|---|---|
+| ABS-01 | Schwarzschild | 0 0 0 0 0 0 0 0 0 | 9 | 0 | 0 | absorbido como proyección métrica |
+| ABS-02 | Kerr válido | 0 0 0 0 0 0 0 0 0 | 9 | 0 | 0 | absorbido como proyección métrica rotante |
+| ABS-03 | singularidad primaria | 1 1 1 1 1 1 1 1 1 | 0 | 9 | 0 | rechazado como fundamento |
+| ABS-04 | Bekenstein-Hawking | 0 0 0 0 0 0 0 U U | 7 | 0 | 2 | absorbido como proyección termodinámica |
+| ABS-05 | Hawking radiación | 0 0 0 0 0 0 U U U | 6 | 0 | 3 | absorción parcial; exterior térmico sin postfrontera |
+| ABS-06 | Page curve e islas | 0 0 0 0 U U U U U | 4 | 0 | 5 | absorción parcial; reconstrucción exterior |
+| ABS-07 | fuzzball/firewall | 0 0 0 U U U U U U | 3 | 0 | 6 | absorción parcial; corrección local |
+| ABS-08 | regular BH | 0 0 0 0 U U U U U | 4 | 0 | 5 | absorción parcial; evita singularidad |
+| ABS-09 | objeto con salida luminosa apta | 1 1 1 1 1 1 1 0 0 | 2 | 7 | 0 | rechazado como BH físico |
+
+
+Regla de lectura: absorbido como proyección si N₁=0 y N₀≥T(9) dentro del alcance que el modelo declara; absorbido parcialmente si N₁<T(9) y el modelo no aporta cierre completo; rechazado como fundamento si N₁≥T(9) o contradicción directa con invariantes BH.
+
+Teorema X.5. Cada modelo tratado por el estado del arte recibe un dictamen SV por célula de absorción.
+
+Demostración. Schwarzschild y Kerr tienen N₀=9, N₁=0 y quedan absorbidos como proyecciones métricas. La singularidad primaria tiene N₁=9 y queda rechazada como fundamento. Bekenstein–Hawking tiene N₀=7 y queda absorbida como proyección termodinámica. Hawking radiación, Page curve, islas, fuzzballs, firewalls y agujeros negros regulares no cierran todos los componentes; por tanto reciben absorción parcial. El objeto con salida luminosa apta obtiene N₁=7 y queda rechazado como agujero negro físico. c.q.d.
+
+## X.9. Banco canónico SV(3,9)
+
+| Caso | Célula | N₀ | N₁ | N_U | T(9) | DΣ | Lectura |
+|---|---:|---:|---:|---:|---:|---|---|
+| C9-01 | 1 1 1 1 1 1 1 0 0 | 2 | 7 | 0 | 7 | NO_APTO | frontera de no transmisión |
+| C9-02 | 0 0 0 0 0 0 0 1 1 | 7 | 2 | 0 | 7 | APTO | transmisión exterior apta |
+| C9-03 | 1 1 1 1 1 1 U U 0 | 1 | 6 | 2 | 7 | U | no cierre celular |
+| C9-04 | 1 1 1 1 1 1 1 U 0 | 1 | 7 | 1 | 7 | NO_APTO | U local no gobierna el dictamen |
+| C9-05 | U U U U U U U U U | 0 | 0 | 9 | 7 | U | ausencia de cierre |
+
+## X.10. Banco ampliado SV(6,36)
+
+| Caso | n | T(n) | N₀ | N₁ | N_U | DΣ | Lectura |
+|---|---:|---:|---:|---:|---:|---|---|
+| C36-01 | 36 | 28 | 8 | 28 | 0 | NO_APTO | horizonte ampliado |
+| C36-02 | 36 | 28 | 9 | 27 | 0 | U | no alcanza cierre de no transmisión |
+| C36-03 | 36 | 28 | 28 | 8 | 0 | APTO | salida exterior apta |
+| C36-04 | 36 | 28 | 7 | 28 | 1 | NO_APTO | U local no bloquea mayoría fuerte |
+| C36-05 | 36 | 28 | 12 | 12 | 12 | U | estructura no clausurada |
+
+## X.11. Banco postfrontera M_N2-SV
+
+| Caso | μ | λ | 𝓝★ₛᵥ | Postᴮᴴ declarado | Dictamen |
+|---|---:|---:|---|---|---|
+| PF-01 | 0 | 0 | 0 | M_N2-SV | APTO |
+| PF-02 | 0 | 0 | 0 | U | error BH-UPOST-001 |
+| PF-03 | 0 | 1 | 0 | M_N2-SV | error BH-TN-002 |
+| PF-04 | 1 | 0 | 0 | M_N2-SV | error BH-TN-002 |
+| PF-05 | 0 | 0 | 1 | M_N2-SV | error BH-TN-002 |
+
+## X.12. Banco de falsación externa luminosa
+
+| Caso | DΣ(v_TE) | DΣ(v_L) | DΣ(v_INT) | μ | λ | 𝓝★ₛᵥ | Resultado |
+|---|---|---|---|---:|---:|---|---|
+| EXT-01 | NO_APTO | NO_APTO | SATURACIÓN | 0 | 0 | 0 | BH_físico⇔BH_SV |
+| EXT-02 | NO_APTO | APTO | SATURACIÓN | 0 | 0 | 0 | refutado por salida luminosa |
+| EXT-03 | APTO | NO_APTO | SATURACIÓN | 0 | 0 | 0 | refutado por salida exterior general |
+| EXT-04 | NO_APTO | NO_APTO | U | 0 | 0 | 0 | refutado por interior no cerrado |
+| EXT-05 | NO_APTO | NO_APTO | SATURACIÓN | 0 | 0 | 1 | refutado por verificador rector |
 
 ---
 
-# XI. Catálogo de errores
+# XI. Especificación laboratorial
+
+El laboratorio SV-BH6 contiene validadores de DΣ, T(n), v_TE, v_L, preservación de quince proyecciones de Φᴸₛᵥ, v_INT, v_TN por v_μ, v_λ y v_𝓝, Postᴮᴴ=M_N2-SV, M_N2-SV≠U, equivalencia BH_físico⇔BH_SV, absorción de modelos contemporáneos, Schwarzschild, Kerr, termodinámica, singularidad como límite no fundante y catálogo adversarial.
+
+APTO ⇔ todos los validadores devuelven 0 defectos.
+
+Rᴮᴴ=(0,0,0,0,0,0,0,0,0,0,0).
+
+NO_APTO si aparece Postᴮᴴ=U con μ=0, λ=0 y 𝓝★=0; si M_N2-SV se trata como U; si hay salida luminosa apta; si la luz factual pierde sus proyecciones canónicas; si el objeto físico de horizonte no se traduce a BH_SV; si el régimen BH_SV no traduce a objeto físico de horizonte; si un marco físico contemporáneo queda sin clasificación; si se introduce singularidad primaria, vacío sustancial, probabilidad, estadística, tiempo, minería de datos o inferencia opaca; si una fórmula externa citada queda sin banco numérico; o si el banco sólo contiene SV(3,9) sin granularidad ampliada.
+
+---
+
+# XII. Catálogo de errores
 
 | Código | Error | Resultado |
 |---|---|---|
 | BH-DOC-001 | Matriz doctrinal incompleta | NO_APTO |
+| BH-ARTE-001 | Estado del arte ausente | NO_APTO |
+| BH-ABS-001 | Modelo contemporáneo no clasificado | NO_APTO |
+| BH-NUM-001 | Fórmula externa sin verificación numérica | NO_APTO |
+| BH-NUM-002 | Banco ad hoc sin casos frontera | NO_APTO |
+| BH-NUM-003 | Banco sólo canónico sin granularidad ampliada | NO_APTO |
 | BH-DOM-001 | Ωᴮᴴ no declarado | NO_APTO |
-| BH-PROJ-001 | Πᴮᴴ sin dominio, codominio, invariantes o residual | NO_APTO |
-| BH-RES-001 | Δᴮᴴ omitido | NO_APTO |
-| BH-UNIF-001 | Campo unificado omitido | NO_APTO |
-| BH-EM-001 | Maxwell factual omitido o roto en frontera | NO_APTO |
-| BH-TH-001 | Termodinámica factual omitida | NO_APTO |
-| BH-H-001 | Hₛᵥ omitida o sustituida por entropía estadística | NO_APTO |
-| BH-TE-001 | Horizonte declarado sin N₁(v_TE)≥T(n) | NO_APTO |
-| BH-INT-001 | Interior sin v_INT o sin saturación cualificada | NO_APTO |
+| BH-PROJ-001 | Πᴮᴴ incompleta | NO_APTO |
+| BH-DΣ-001 | DΣ mal aplicado | NO_APTO |
+| BH-T-001 | T(n) tratado como elección local | NO_APTO |
+| BH-TE-001 | Horizonte sin DΣ(v_TE)=NO_APTO | NO_APTO |
+| BH-LUZ-001 | Luz factual omitida | NO_APTO |
+| BH-LUZ-002 | BH declarado con salida luminosa apta | NO_APTO |
+| BH-LUZ-003 | Proyecciones de luz no preservadas | NO_APTO |
+| BH-INT-001 | Interior sin saturación factual | NO_APTO |
 | BH-TN-001 | TODO/NADA omitida | NO_APTO |
-| BH-MN2-001 | M_N2-SV omitido con μ=0 y λ=0 | NO_APTO |
-| BH-UPOST-001 | Postfrontera declarado U con R_TN=0 | NO_APTO |
-| BH-UPOST-002 | U local elevada a postfrontera final | NO_APTO |
-| BH-LUZ-001 | Luz factual omitida o anulada | NO_APTO |
+| BH-TN-002 | v_TN no conectado con μ,λ,𝓝★ | NO_APTO |
+| BH-MN2-001 | M_N2-SV omitido | NO_APTO |
+| BH-MN2U-001 | M_N2-SV tratado como U | NO_APTO |
+| BH-UPOST-001 | Postfrontera declarado U con cierre MN2 | NO_APTO |
 | BH-VAC-001 | Interior declarado vacío sustancial | NO_APTO |
-| BH-SING-001 | Singularidad infinita como estatuto primario | NO_APTO |
+| BH-SING-001 | Singularidad infinita como fundamento | NO_APTO |
 | BH-MASA-001 | Masa aislada como criterio suficiente | NO_APTO |
-| BH-SRC-001 | 𝔅Hₛᵥ tratado como operador fuente nuevo | NO_APTO |
+| BH-MET-001 | Métrica como fundamento único | NO_APTO |
 | BH-PROB-001 | Probabilidad como criterio de verdad | NO_APTO |
-| BH-STAT-001 | Estadística como sustituto de clausura | NO_APTO |
+| BH-STAT-001 | Estadística como sustituto de cierre | NO_APTO |
 | BH-TIME-001 | Tiempo como fundamento | NO_APTO |
-| BH-INF-001 | Inferencia opaca para cerrar dictamen | NO_APTO |
-| BH-ANG-001 | Angularidad no subordinada a Cₛᵥ(δ)=−cos δ | NO_APTO |
-| BH-COSM-001 | Otro universo declarado sin dominio formal | NO_APTO |
-| BH-RESTO-001 | Resto exterior formulable declarado con λ=0 | NO_APTO |
-
----
-
-# XII. Correspondencia físico-factual
-
-| Lectura física contemporánea | Lectura factual SV | Estatuto |
-|---|---|---|
-| Horizonte causal | Frontera factual con DΣ(v_TE)=NO_APTA | Correspondencia de fenómeno |
-| Radio de Schwarzschild | Lectura métrica externa posible de ∂Ωᴮᴴ | Traducción posterior |
-| Singularidad geométrica | Límite de una descripción métrica | No estatuto primario SV |
-| Interior del agujero negro | Sección no transmisiva exteriormente | Saturación factual extrema |
-| Luz que no escapa | Φᴸₛᵥ no anulada con DΣ(v_L)=NO_APTA | Teorema interno |
-| Entropía de horizonte | Lectura externa termodinámica | Debe traducirse a Hₛᵥ y 𝖤ᵗʰᵉʳᵐᵒₛᵥ |
-| Información no transmisible | Contenido sin salida exterior apta | No desaparición; cierre interno sin resto exterior formulable |
-| Lo que hay tras la frontera | Incógnita en lectura externa | M_N2-SV dentro del SV |
-
-La correspondencia no afirma que el documento haya producido una métrica completa. Afirma que, dentro del SV, la pregunta por el “detrás” no queda en U cuando el régimen alcanza (μ,λ)=(0,0) bajo 𝓝★ₛᵥ=0.
+| BH-INF-001 | Inferencia opaca | NO_APTO |
+| BH-SRC-001 | 𝔅Hₛᵥ tratado como operador fuente | NO_APTO |
 
 ---
 
 # XIII. Conclusiones
 
-Primera. El agujero negro queda definido como régimen extremo de clausura del campo unificado factual.
+Primera. El agujero negro queda definido como régimen extremo del campo unificado factual y como representación estructural del objeto físico de horizonte.
 
-Segunda. La ecuación rectora de este régimen es 𝔅Hₛᵥ(Γᴮᴴ)=0, entendida como anulación del vector de defecto Rᴮᴴ y no como operador fuente nuevo.
+Segunda. La equivalencia BH_físico⇔BH_SV queda demostrada por doble traducción Ξ_AST→SV y Ξ_SV→AST.
 
-Tercera. El horizonte se declara por dictamen celular de transmisión exterior: N₁(v_TE)≥T(n).
+Tercera. La métrica relativista queda absorbida como proyección externa de frontera, no como fundamento último ni como elemento excluido.
 
-Cuarta. La masa aislada no basta para declarar agujero negro factual.
+Cuarta. Schwarzschild y Kerr quedan absorbidos como lecturas métricas subordinadas, y su absorción queda verificada numéricamente por SV-BH6.
 
-Quinta. El interior queda definido como saturación factual extrema con sección termodinámica y entropía factual, no como vacío ni singularidad infinita primaria.
+Quinta. La singularidad infinita queda rechazada como estatuto primario y absorbida sólo como límite de proyección geométrica; la fórmula K=48G²M²/(c⁴r⁶) demuestra numéricamente la no evaluabilidad de r=0 como fundamento.
 
-Sexta. La luz factual no se anula; su transmisión exterior obtiene dictamen NO_APTA.
+Sexta. La termodinámica de Bekenstein–Hawking queda absorbida como proyección termodinámica factual y se verifica numéricamente mediante S_BH/k_B y T_H en escalas de masa no triviales.
 
-Séptima. La frontera electromagnética no rompe Maxwell factual.
+Séptima. Page curve, islas, fuzzballs, firewalls y agujeros negros regulares quedan absorbidos parcialmente: corrigen o exploran regiones del problema, pero no sustituyen M_N2-SV.
 
-Octava. Si comparece angularidad, queda subordinada al correlador factual Cₛᵥ(δ)=−cos δ.
+Octava. EHT y LIGO/Virgo quedan absorbidos como evidencia externa de objetos físicos de horizonte y efectos de campo.
 
-Novena. Lo situado tras la frontera factual no queda en U cuando R_TN=0. Queda dictaminado como M_N2-SV.
+Novena. El horizonte factual se declara por DΣ(v_TE)=NO_APTO.
 
-Décima. M_N2-SV significa cierre interno sin resto exterior formulable, no vacío sustancial, no desaparición y no otro universo declarado por especulación.
+Décima. La no salida luminosa se declara por DΣ(v_L)=NO_APTO, preservando la fibra luminosa y sus quince proyecciones.
 
-Undécima. La U conserva su estatuto general en el alfabeto SV, pero no corrige ni sustituye el cierre M_N2-SV emitido por la Teoría del TODO y de la NADA.
+Undécima. El interior queda como saturación factual extrema, no como vacío ni singularidad primaria.
 
-Duodécima. El documento es falsable internamente: cualquier componente no nulo de Rᴮᴴ impide declarar 𝔅Hₛᵥ=0.
+Duodécima. Lo situado tras la frontera factual queda dictaminado como M_N2-SV.
+
+Decimotercera. M_N2-SV no es U, ni caso particular de U, ni indeterminación disfrazada. U marca no clausura; M_N2-SV expresa cierre rector.
+
+Decimocuarta. El banco SV-BH6 obliga a cada fórmula tratada por el documento a comparecer con números: Schwarzschild, Kerr, Bekenstein–Hawking, Hawking, singularidad geométrica y modelos de información o corrección interior.
+
+Decimoquinta. El documento queda refutado si aparece salida luminosa exterior apta, si se sustituye M_N2-SV por U, si se toma la singularidad como fundamento, si se anula la luz factual, si se omite el estado del arte, si una fórmula externa queda sin banco numérico o si se deja sin clasificar algún planteamiento físico contemporáneo relevante.
 
 Cierre final.
 
-Agujero negro en el Sistema Vectorial SV = restricción extrema del campo unificado factual + frontera de no transmisión exterior + interior en saturación factual + luz factual no anulada + postfrontera M_N2-SV.
+Agujero negro en el Sistema Vectorial SV = objeto físico de horizonte representado por régimen extremo del campo unificado factual + frontera de no transmisión exterior + no transmisión luminosa con luz factual preservada + interior saturado + postfrontera M_N2-SV + absorción numérica de los planteamientos contemporáneos de la física bajo dictamen formal.
+
+---
+
+# Bibliografía física contemporánea
+
+Abbott, B. P., Abbott, R., Abbott, T. D., Abernathy, M. R., Acernese, F., Ackley, K., Adams, C., Adams, T., Addesso, P., Adhikari, R. X., et al. (2016). Observation of gravitational waves from a binary black hole merger. Physical Review Letters, 116(6), 061102. https://doi.org/10.1103/PhysRevLett.116.061102
+
+Almheiri, A., Engelhardt, N., Marolf, D., & Maxfield, H. (2019). The entropy of bulk quantum fields and the entanglement wedge of an evaporating black hole. Journal of High Energy Physics, 2019, 63. https://doi.org/10.1007/JHEP12(2019)063
+
+Almheiri, A., Hartman, T., Maldacena, J., Shaghoulian, E., & Tajdini, A. (2020). The entropy of Hawking radiation. Reviews of Modern Physics, 93, 035002. https://doi.org/10.1103/RevModPhys.93.035002
+
+Almheiri, A., Marolf, D., Polchinski, J., & Sully, J. (2013). Black holes: Complementarity or firewalls? Journal of High Energy Physics, 2013, 62. https://doi.org/10.1007/JHEP02(2013)062
+
+Bekenstein, J. D. (1973). Black holes and entropy. Physical Review D, 7(8), 2333–2346. https://doi.org/10.1103/PhysRevD.7.2333
+
+Bekenstein, J. D. (1974). Generalized second law of thermodynamics in black-hole physics. Physical Review D, 9(12), 3292–3300. https://doi.org/10.1103/PhysRevD.9.3292
+
+Carter, B. (1971). Axisymmetric black hole has only two degrees of freedom. Physical Review Letters, 26(6), 331–333. https://doi.org/10.1103/PhysRevLett.26.331
+
+Chandrasekhar, S. (1983). The mathematical theory of black holes. Oxford University Press.
+
+Einstein, A. (1915). Die Feldgleichungen der Gravitation. Sitzungsberichte der Königlich Preußischen Akademie der Wissenschaften, 844–847.
+
+Event Horizon Telescope Collaboration. (2019a). First M87 Event Horizon Telescope results. I. The shadow of the supermassive black hole. The Astrophysical Journal Letters, 875(1), L1. https://doi.org/10.3847/2041-8213/ab0ec7
+
+Event Horizon Telescope Collaboration. (2019b). First M87 Event Horizon Telescope results. IV. Imaging the central supermassive black hole. The Astrophysical Journal Letters, 875(1), L4. https://doi.org/10.3847/2041-8213/ab0e85
+
+Event Horizon Telescope Collaboration. (2022). First Sagittarius A* Event Horizon Telescope results. I. The shadow of the supermassive black hole in the center of the Milky Way. The Astrophysical Journal Letters, 930(2), L12. https://doi.org/10.3847/2041-8213/ac6674
+
+Hawking, S. W. (1975). Particle creation by black holes. Communications in Mathematical Physics, 43, 199–220. https://doi.org/10.1007/BF02345020
+
+Hawking, S. W., & Ellis, G. F. R. (1973). The large scale structure of space-time. Cambridge University Press.
+
+Hayward, S. A. (2006). Formation and evaporation of non-singular black holes. Physical Review Letters, 96(3), 031103. https://doi.org/10.1103/PhysRevLett.96.031103
+
+Israel, W. (1967). Event horizons in static vacuum space-times. Physical Review, 164(5), 1776–1779. https://doi.org/10.1103/PhysRev.164.1776
+
+Kerr, R. P. (1963). Gravitational field of a spinning mass as an example of algebraically special metrics. Physical Review Letters, 11(5), 237–238. https://doi.org/10.1103/PhysRevLett.11.237
+
+Lan, C., Yang, H., Guo, Y., & Miao, Y.-G. (2023). Regular black holes: A short topic review. International Journal of Theoretical Physics, 62, 202. https://doi.org/10.1007/s10773-023-05454-y
+
+Mathur, S. D. (2005). The fuzzball proposal for black holes: An elementary review. Fortschritte der Physik, 53(7–8), 793–827. https://doi.org/10.1002/prop.200410203
+
+Misner, C. W., Thorne, K. S., & Wheeler, J. A. (1973). Gravitation. W. H. Freeman.
+
+NASA. (2026). Black hole basics. NASA Science. https://science.nasa.gov/universe/black-holes/
+
+Oppenheimer, J. R., & Snyder, H. (1939). On continued gravitational contraction. Physical Review, 56(5), 455–459. https://doi.org/10.1103/PhysRev.56.455
+
+Page, D. N. (1993). Information in black hole radiation. Physical Review Letters, 71(23), 3743–3746. https://doi.org/10.1103/PhysRevLett.71.3743
+
+Penington, G. (2020). Entanglement wedge reconstruction and the information paradox. Journal of High Energy Physics, 2020, 2. https://doi.org/10.1007/JHEP09(2020)002
+
+Penrose, R. (1965). Gravitational collapse and space-time singularities. Physical Review Letters, 14(3), 57–59. https://doi.org/10.1103/PhysRevLett.14.57
+
+Robinson, D. C. (1975). Uniqueness of the Kerr black hole. Physical Review Letters, 34(14), 905–906. https://doi.org/10.1103/PhysRevLett.34.905
+
+Schwarzschild, K. (1916). Über das Gravitationsfeld eines Massenpunktes nach der Einsteinschen Theorie. Sitzungsberichte der Königlich Preußischen Akademie der Wissenschaften, 189–196.
+
+Wald, R. M. (1984). General relativity. University of Chicago Press.
+
+Wald, R. M. (1994). Quantum field theory in curved spacetime and black hole thermodynamics. University of Chicago Press.
 
 ---
 
@@ -993,86 +596,59 @@ Lloret Egea, J. A. (2026). Interacción, intercomposición y transmisión factua
 
 ---
 
-# Anexo I. Desarrollo del verificador textual
-
-## I.1. Entrada
+# Anexo I. Pseudocódigo textual del dictamen
 
 Entrada: Γ.
 
-La entrada no se acepta como agujero negro por nombre, por masa, por compacidad o por analogía. Debe transformarse en candidato Γᴮᴴ sólo si permite evaluar Ωᴮᴴ, Πᴮᴴ, Iᴮᴴ, Δᴮᴴ, v_TE, v_INT, v_L cuando proceda, μ, λ y 𝓝★ₛᵥ.
+Paso 1. Verificar que Γ pertenece a Ωᴮᴴ.
 
-## I.2. Secuencia de verificación
+Paso 2. Construir v_TE, v_L, v_INT, v_μ, v_λ, v_𝓝 y v_NOEXT.
 
-1. Verificar dominio Ωᴮᴴ.
-2. Verificar proyección Πᴮᴴ.
-3. Construir invariantes Iᴮᴴ.
-4. Construir residual compuesto Δᴮᴴ.
-5. Evaluar v_TE y calcular DΣ(v_TE).
-6. Evaluar v_INT y calcular DΣ(v_INT).
-7. Evaluar Φᴸₛᵥ y v_L cuando comparece luz factual.
-8. Evaluar R_UNIF.
-9. Evaluar R_EM.
-10. Evaluar R_TH.
-11. Evaluar R_H.
-12. Evaluar R_ANG cuando comparece angularidad.
-13. Evaluar μ y λ.
-14. Evaluar 𝓝★ₛᵥ.
-15. Derivar R_TN.
-16. Derivar Postᴮᴴ.
-17. Formar Rᴮᴴ.
-18. Declarar Dᴮᴴ=1 sólo si Rᴮᴴ es vector nulo.
+Paso 3. Calcular T(n)=⌊7n/9⌋.
 
-## I.3. Salida esperada del caso apto
+Paso 4. Evaluar DΣ(v_TE). Si no devuelve NO_APTO, no hay horizonte factual.
 
-Caso apto:
+Paso 5. Evaluar DΣ(v_L). Si devuelve APTO, queda refutado el régimen BH. Si devuelve NO_APTO y Φᴸₛᵥ conserva sus quince proyecciones, se declara luz factual preservada sin transmisión exterior.
 
-Dᴮᴴ=1.  
-Horizonteᴮᴴ=verdadero.  
-Interiorᴮᴴ=Satᴮᴴₛᵥ.  
-Φᴸₛᵥ=no anulada.  
-Transmisión luminosa exterior=NO_APTA.  
-Postᴮᴴ=M_N2-SV.  
-Errores adversariales=ninguno.
+Paso 6. Evaluar DΣ(v_INT). Si no declara saturación, no hay interior BH cerrado.
 
-## I.4. Salida esperada del caso no apto
+Paso 7. Evaluar DΣ(v_μ), DΣ(v_λ) y DΣ(v_𝓝). Si las tres devuelven APTO, declarar μ=0, λ=0 y 𝓝★ₛᵥ=0.
 
-Caso no apto:
+Paso 8. Declarar Postᴮᴴ=M_N2-SV.
 
-Dᴮᴴ=0.  
-Motivo: primer componente R_X no nulo o componente crítico ausente.  
-Postᴮᴴ no se declara como M_N2-SV salvo R_TN=0.  
-No se autoriza declarar U como postfrontera final si R_TN=0.
+Paso 9. Verificar M_N2-SV≠U.
+
+Paso 10. Ejecutar Ξ_AST→SV y Ξ_SV→AST para demostrar BH_físico⇔BH_SV.
+
+Paso 11. Clasificar cada modelo contemporáneo como absorbido, absorbido parcialmente o rechazado como fundamento.
+
+Paso 12. Ejecutar SV-BH6 fórmula por fórmula.
+
+Paso 13. Si Rᴮᴴ=(0,0,0,0,0,0,0,0,0,0,0), declarar 𝔅Hₛᵥ(Γᴮᴴ)=0.
+
+Salida final: BH_físico⇔BH_SV, Postᴮᴴ=M_N2-SV.
 
 ---
 
 # Anexo II. Criterio adversarial de publicación
 
-El documento es APTO si y sólo si satisface todos los puntos siguientes:
+El documento es APTO si y sólo si:
 
-1. contiene matriz doctrinal completa;
-2. contiene aparato formal de Σ, conteos N₀, N₁, N_U y T(n);
-3. define DΣ;
-4. define Ωᴮᴴ;
-5. define Πᴮᴴ;
-6. define Iᴮᴴ;
-7. define Δᴮᴴ;
-8. define Rᴮᴴ;
-9. formula 𝔅Hₛᵥ como anulación de Rᴮᴴ;
-10. declara horizonte por v_TE, no por masa ni umbral externo;
-11. declara interior por saturación factual;
-12. deriva Postᴮᴴ=M_N2-SV desde μ=0, λ=0 y 𝓝★ₛᵥ=0;
-13. excluye U como salida final del postfrontera cuando R_TN=0;
-14. conserva U como valor estructural general del alfabeto;
-15. impide vacío sustancial;
-16. impide singularidad infinita primaria;
-17. impide anulación de la luz factual;
-18. incorpora Maxwell factual;
-19. incorpora termodinámica factual;
-20. incorpora entropía factual;
-21. incorpora Bell–Tsirelson cuando hay angularidad;
-22. incorpora transmisión factual 𝓣ₛᵥ;
-23. contiene banco SV-BH4;
-24. contiene catálogo de errores;
-25. no introduce tiempo, probabilidad, estadística, minería de datos ni inferencia opaca.
+1. demuestra BH_físico⇔BH_SV;
+2. contiene estado del arte físico con bibliografía APA7;
+3. absorbe, absorbe parcialmente o rechaza todos los planteamientos contemporáneos tratados;
+4. define Σ, N₀, N₁, N_U, T(n) y DΣ;
+5. demuestra M_N2-SV≠U;
+6. conecta v_TN con v_μ, v_λ y v_𝓝;
+7. preserva las quince proyecciones de la luz factual;
+8. declara postfrontera M_N2-SV;
+9. impide U como respuesta postfrontera cerrada;
+10. no usa singularidad infinita como fundamento;
+11. no usa vacío sustancial como interior;
+12. no usa probabilidad, estadística, tiempo, minería de datos ni inferencia opaca;
+13. contiene banco SV-BH6;
+14. contiene catálogo de errores;
+15. contiene bibliografía física contemporánea y bibliografía del corpus SV;
+16. verifica numéricamente cada fórmula física que afirma absorber, absorber parcialmente o rechazar.
 
 Cualquier incumplimiento vuelve el documento NO_APTO.
