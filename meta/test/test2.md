@@ -31,93 +31,309 @@ Esta publicación está protegida por derechos de autor. Su reproducción, distr
 This publication is protected by copyright. Its reproduction, distribution, public communication, transformation, exploitation or use by public or private entities is subject to the author’s rights and to the terms of the stated license, except where legally permitted or expressly authorized by the rightsholder. The Creative Commons BY-NC-ND 4.0 license allows sharing with attribution, without commercial use and without derivative works. Any commercial, industrial, editorial, technological, automated academic or system-training use exceeding the license terms requires express authorization.
 ## Índice
 
-| Código | Apartado |
-|---|---|
-| 0. | Planteamiento general |
-| 0.1. | Problema rector |
-| 0.2. | Por qué la pregunta por el espacio exige una pregunta anterior |
-| 0.3. | Distinción entre origen físico, borde preformal y primera distinguibilidad |
-| 0.4. | Tesis central de la publicación |
-| 0.5. | Regla de lectura: absorción, absorción parcial y rechazo como fundamento |
-| 0.6. | Cadena de prevalencia doctrinal aplicada |
-| 0.7. | Prohibiciones constitutivas: tiempo fundante, probabilidad fundante, geometría auxiliar convertida en fundamento e inferencia opaca |
-| 0.8. | Estatuto de ε₋₀ como borde preformal de nivel trece |
-| 0.9. | Relación entre imperfección preformal, espacio y dominios internos |
-| I. | Estado del arte físico, cosmológico y filosófico sobre origen, espacio, oscuridad y pluralidad cosmológica |
-| I.1. | Cosmología estándar ΛCDM y Big Bang caliente |
-| I.2. | Singularidad inicial, incompletitud y límites de extrapolación |
-| I.3. | Inflación cosmológica |
-| I.4. | Inflación eterna, paisaje y pluralidad de dominios cosmológicos |
-| I.5. | Modelos de creación cuántica del universo |
-| I.6. | Propuesta no-boundary de Hartle–Hawking |
-| I.7. | Tunneling from nothing de Vilenkin |
-| I.8. | Cosmología cuántica de bucles y modelos de rebote |
-| I.9. | Modelos cíclicos, ekpiróticos y cosmología cíclica conforme |
-| I.10. | Holografía, AdS/CFT y emergencia del espacio |
-| I.11. | Causal sets, orden causal y discreción estructural |
-| I.12. | Espacio relacional, sustancialismo y debate filosófico clásico |
-| I.13. | Materia oscura: rotación galáctica, lentes gravitacionales, fondo cósmico de microondas y estructura a gran escala |
-| I.14. | Energía oscura: constante cosmológica, aceleración cósmica, quintessence y tensión observacional contemporánea |
-| I.15. | MOND, gravedad modificada y alternativas dinámicas |
-| I.16. | Agujeros negros primordiales como hipótesis parcial de materia oscura |
-| I.17. | Diferencia física entre no visibilidad, transparencia, opacidad, absorción y no transmisibilidad |
-| I.18. | Dictamen preliminar del estado del arte |
-| II. | Transducción físico-factual de origen, imperfección preformal, espacio y oscuridad cosmológica |
-| II.1. | Necesidad de la transducción |
-| II.2. | Continuidad metodológica con 𝓣, Ξ y 𝓣_SV |
-| II.3. | Convenio de unidad formal de transducción: 𝔛ₛᵥ(D↔D′) |
-| II.4. | Componentes de la transducción: dominio, proyección, invariantes, residual y dictamen |
-| II.5. | Residual físico-factual de una teoría externa |
-| II.6. | Criterio de absorción total |
-| II.7. | Criterio de absorción parcial |
-| II.8. | Criterio de rechazo como fundamento |
-| II.9. | Doble transducción: Ξ_M→SV y Ξ_SV→M |
-| II.10. | Prohibición de sustituir ε₋₀ por Big Bang, vacío cuántico, métrica, campo o función de onda |
-| II.11. | Prohibición de convertir pluralidad cosmológica en exterioridad al TODO |
-| II.12. | Prohibición de convertir materia oscura en vacío, agujero negro o partícula obligatoria |
-| II.13. | Prohibición de convertir energía oscura en materia oscura |
-| II.14. | Dictamen general de la transducción |
-| III. | Matriz de absorción físico-factual de teorías contemporáneas |
-| III.1. | Tabla general de teorías, dominios y dictámenes |
-| III.2. | Absorción de ΛCDM como régimen cosmológico observable posterior |
-| III.3. | Absorción parcial de inflación como regularización expansiva |
-| III.4. | Absorción de incompletitud pasada como indicio de no fundamento último |
-| III.5. | Absorción parcial de no-boundary como eliminación de frontera temporal clásica |
-| III.6. | Rechazo de “nothing” físico como NADA del cierre rector |
-| III.7. | Absorción parcial de rebotes y modelos cíclicos como transiciones de régimen |
-| III.8. | Reducción de multiverso, inflación eterna y paisaje a pluralidad subordinada de dominios internos |
-| III.9. | Rechazo de universos exteriores al TODO |
-| III.10. | Absorción parcial de holografía como indicio de no primariedad ingenua del espacio |
-| III.11. | Absorción parcial de causal sets como orden estructural no equivalente al suceso factual |
-| III.12. | Absorción de materia oscura observacional como presencia gravitatoria no luminosa |
-| III.13. | Absorción parcial de WIMPs, axiones, neutrinos estériles y candidatos microfísicos |
-| III.14. | Absorción parcial de MOND y gravedad modificada como lectura dinámica no suficiente |
-| III.15. | Separación formal entre materia oscura y energía oscura |
-| III.16. | Absorción de energía oscura como régimen cosmológico expansivo, no como materia transparente |
-| III.17. | Teorema de no equivalencia entre teoría física de origen y ε₋₀ |
-| III.18. | Teorema de subordinación de toda cosmología física a la imperfección preformal |
-| III.19. | Teorema de reducción de pluralidad cosmológica a familia interna de dominios |
-| III.20. | Teorema de separación entre oscuridad física, transparencia factual y clausura de agujero negro |
-| IV. | Parte I — Preludio doctrinal: ε₋₀, imperfección preformal y condición de posibilidad de la primera distinguibilidad |
-| V. | Teoría del TODO y de la NADA, Imperfección y pluralidad de dominios |
-| VI. | Transparencia factual luminosa, presencia gravitatoria no luminosa, materia oscura y energía oscura |
-| VII. | Agujero negro, espacio, volumen y clausura de contenido |
-| VIII. | Parte II — El espacio: dominio estructural completo de separación factual recorrible |
-| IX. | Distancia factual, trayectoria y tránsito sin tiempo fundante |
-| X. | Convergencia matemática del espacio |
-| XI. | Convergencia física del espacio |
-| XII. | Banco de contraste físico-factual |
-| XIII. | Catálogo de errores |
-| XIV. | Teoremas de cierre |
-| XV. | Anexo de preguntas: verdades, no verdades y conclusiones sobre la naturaleza y matemática de la imperfección preformal, del espacio, de los dominios internos y de lo oscuro |
-| XVI. | Lectura formal progresiva: niño, joven universitario de ingeniería y lector científico |
-| XVII. | Conclusiones |
-| XVIII. | Laboratorios reproducibles |
-| — | Bibliografía física contemporánea |
-| — | Bibliografía filosófica y matemática externa |
-| — | Bibliografía del corpus SV |
-| — | Palabras clave |
-| — | Keywords |
+0 — Planteamiento general
+0.1 — Problema rector
+0.2 — Por qué la pregunta por el espacio exige una pregunta anterior
+0.3 — Distinción entre origen físico, borde preformal y primera distinguibilidad
+0.4 — Tesis central de la publicación
+0.5 — Regla de lectura: absorción, absorción parcial y rechazo como fundamento
+0.6 — Cadena de prevalencia doctrinal aplicada
+0.7 — Prohibiciones constitutivas: tiempo fundante, probabilidad fundante, geometría auxiliar convertida en fundamento e inferencia opaca
+0.8 — Estatuto de ε₋₀ como borde preformal de nivel trece
+0.9 — Relación entre imperfección preformal, espacio y dominios internos
+I — Estado del arte físico, cosmológico y filosófico sobre origen, espacio, oscuridad y pluralidad cosmológica
+I.1 — Cosmología estándar ΛCDM y Big Bang caliente
+I.2 — Singularidad inicial, incompletitud y límites de extrapolación
+I.3 — Inflación cosmológica
+I.4 — Inflación eterna, paisaje y pluralidad de dominios cosmológicos
+I.5 — Modelos de creación cuántica del universo
+I.6 — Propuesta no-boundary de Hartle–Hawking
+I.7 — Tunneling from nothing de Vilenkin
+I.8 — Cosmología cuántica de bucles y modelos de rebote
+I.9 — Modelos cíclicos, ekpiróticos y cosmología cíclica conforme
+I.10 — Holografía, AdS/CFT y emergencia del espacio
+I.11 — Causal sets, orden causal y discreción estructural
+I.12 — Espacio relacional, sustancialismo y debate filosófico clásico
+I.13 — Materia oscura: rotación galáctica, lentes gravitacionales, fondo cósmico de microondas y estructura a gran escala
+I.14 — Energía oscura: constante cosmológica, aceleración cósmica, quintessence y tensión observacional contemporánea
+I.15 — MOND, gravedad modificada y alternativas dinámicas
+I.16 — Agujeros negros primordiales como hipótesis parcial de materia oscura
+I.17 — Diferencia física entre no visibilidad, transparencia, opacidad, absorción y no transmisibilidad
+I.18 — Dictamen preliminar del estado del arte
+II — Transducción físico-factual de origen, imperfección preformal, espacio y oscuridad cosmológica
+II.1 — Necesidad de la transducción
+II.2 — Continuidad metodológica con 𝓣, Ξ y 𝓣_SV
+II.3 — Convenio de unidad formal de transducción: 𝔛ₛᵥ(D↔D′)
+II.4 — Componentes de la transducción: dominio, proyección, invariantes, residual y dictamen
+II.5 — Residual físico-factual de una teoría externa
+II.6 — Criterio de absorción total
+II.7 — Criterio de absorción parcial
+II.8 — Criterio de rechazo como fundamento
+II.9 — Doble transducción: Ξ_M→SV y Ξ_SV→M
+II.10 — Prohibición de sustituir ε₋₀ por Big Bang, vacío cuántico, métrica, campo o función de onda
+II.11 — Prohibición de convertir pluralidad cosmológica en exterioridad al TODO
+II.12 — Prohibición de convertir materia oscura en vacío, agujero negro o partícula obligatoria
+II.13 — Prohibición de convertir energía oscura en materia oscura
+II.14 — Dictamen general de la transducción
+III — Matriz de absorción físico-factual de teorías contemporáneas
+III.1 — Tabla general de teorías, dominios y dictámenes
+III.2 — Absorción de ΛCDM como régimen cosmológico observable posterior
+III.3 — Absorción parcial de inflación como regularización expansiva
+III.4 — Absorción de incompletitud pasada como indicio de no fundamento último
+III.5 — Absorción parcial de no-boundary como eliminación de frontera temporal clásica
+III.6 — Rechazo de “nothing” físico como NADA del cierre rector
+III.7 — Absorción parcial de rebotes y modelos cíclicos como transiciones de régimen
+III.8 — Reducción de multiverso, inflación eterna y paisaje a pluralidad subordinada de dominios internos
+III.9 — Rechazo de universos exteriores al TODO
+III.10 — Absorción parcial de holografía como indicio de no primariedad ingenua del espacio
+III.11 — Absorción parcial de causal sets como orden estructural no equivalente al suceso factual
+III.12 — Absorción de materia oscura observacional como presencia gravitatoria no luminosa
+III.13 — Absorción parcial de WIMPs, axiones, neutrinos estériles y candidatos microfísicos
+III.14 — Absorción parcial de MOND y gravedad modificada como lectura dinámica no suficiente
+III.15 — Separación formal entre materia oscura y energía oscura
+III.16 — Absorción de energía oscura como régimen cosmológico expansivo, no como materia transparente
+III.17 — Teorema de no equivalencia entre teoría física de origen y ε₋₀
+III.18 — Teorema de subordinación de toda cosmología física a la imperfección preformal
+III.19 — Teorema de reducción de pluralidad cosmológica a familia interna de dominios
+III.20 — Teorema de separación entre oscuridad física, transparencia factual y clausura de agujero negro
+IV — Parte I — Preludio doctrinal: ε₋₀, imperfección preformal y condición de posibilidad de la primera distinguibilidad
+IV.1 — Por qué ε₋₀ no es Big Bang
+IV.2 — Por qué ε₋₀ no es vacío cuántico
+IV.3 — Por qué ε₋₀ no es preternario
+IV.4 — Por qué ε₋₀ no es todavía fórmula matemática
+IV.5 — Imperfección preformal como condición necesaria
+IV.6 — No suficiencia absoluta de ningún sistema perfecto
+IV.7 — Existir, no existir e imperfección antes de la terna formal
+IV.8 — Primera distinguibilidad y borde preformal
+IV.9 — Teorema de necesidad de la imperfección preformal
+IV.10 — Teorema de imposibilidad de sistema perfecto autosostenido
+IV.11 — Teorema de no fundación matemática del universo
+IV.12 — Teorema de codificación y decodificación matemática
+IV.13 — Relación de ε₋₀ con la Teoría del TODO y de la NADA
+IV.14 — Estatuto de ε₋₀ como borde preformal de nivel trece
+IV.15 — Dictamen de cierre de la Parte I
+V — Teoría del TODO y de la NADA, Imperfección y pluralidad de dominios
+V.1 — El TODO como contención absoluta
+V.2 — La NADA como polo no equivalente a vacío físico
+V.3 — La imperfección como condición de sucesos
+V.4 — Por qué no hay exterior al TODO
+V.5 — Pluralidad de dominios sin pluralidad de TODOS
+V.6 — Familia interna de dominios Ω₁, Ω₂, ..., Ω_k
+V.7 — Espacios como proyecciones internas de dominio
+V.8 — Ciclos sucesivos y preservación append-only
+V.9 — Teorema de unicidad del TODO frente a pluralidad de dominios
+V.10 — Teorema de reducción de universos paralelos a dominios subordinados
+V.11 — Teorema de rechazo de universos autónomos exteriores
+V.12 — Teorema de compatibilidad entre ciclos sucesivos y append-only
+V.13 — Dictamen sobre uno, varios o infinitos espacios
+V.14 — Por qué varios dominios no implican varios TODOS
+V.15 — Por qué varios espacios no implican exterioridad absoluta
+VI — Transparencia factual luminosa, presencia gravitatoria no luminosa, materia oscura y energía oscura
+VI.1 — Problema físico: ver gravedad sin ver luz
+VI.2 — Distinción entre invisibilidad, transparencia, opacidad, absorción y no transmisibilidad
+VI.3 — Definición de transparencia factual luminosa
+VI.4 — Vector residual de transparencia luminosa
+VI.5 — Condición de presencia gravitatoria no luminosa
+VI.6 — Materia oscura SV como régimen factual no luminoso
+VI.7 — Energía oscura como régimen expansivo o cosmológico de dominio
+VI.8 — Separación entre materia oscura, energía oscura y agujero negro
+VI.9 — Teorema de no equivalencia entre transparencia luminosa e inexistencia
+VI.10 — Teorema de presencia gravitatoria no luminosa
+VI.11 — Teorema de separación entre materia oscura SV y agujero negro
+VI.12 — Teorema de rechazo de energía oscura como materia oscura
+VI.13 — Teorema de absorción parcial de candidatos microfísicos de materia oscura
+VI.14 — Teorema de absorción parcial de gravedad modificada
+VI.15 — Banco de curvas de rotación, lentes gravitacionales, CMB y estructura
+VI.16 — Banco de separación materia oscura / energía oscura
+VI.17 — Dictamen de cierre del régimen oscuro
+VII — Agujero negro, espacio, volumen y clausura de contenido
+VII.1 — Problema rector: ¿encierra un agujero negro espacio o volumen?
+VII.2 — Diferencia entre contener, clausurar, absorber y reoriginar
+VII.3 — No transmisibilidad no equivale a transparencia
+VII.4 — Clausura M_N2-SV y no contenedor espacial ordinario
+VII.5 — El agujero negro no es depósito de imperfecciones en un volumen clásico
+VII.6 — Relación entre interior saturado, frontera de no transmisión y postfrontera
+VII.7 — Relación entre clausura de contenido y retorno preformal
+VII.8 — Teorema de no identificación entre interior de agujero negro y contenedor espacial
+VII.9 — Teorema de no reducción del agujero negro a volumen físico clásico
+VII.10 — Teorema de compatibilidad entre clausura de agujero negro y espacio estructural completo
+VII.11 — Dictamen sobre agujero negro, espacio y volumen
+VIII — Parte II — El espacio: dominio estructural completo de separación factual recorrible
+VIII.1 — Problema formal del espacio
+VIII.2 — Rechazos constitutivos
+VIII.3 — Tesis del nacimiento completo del espacio
+VIII.4 — Definición canónica de espacio
+VIII.5 — Qué significa “completo”
+VIII.6 — Qué no significa “completo”
+VIII.7 — Reducción al absurdo contra el espacio creado por recorrido
+VIII.8 — Teorema de completitud estructural del espacio
+VIII.9 — Teorema de no creación del espacio por trayectoria
+VIII.10 — Teorema de no “detrás” del espacio
+VIII.11 — Teorema de no infinito fundante
+VIII.12 — Teorema de subordinación del espacio al cierre TODO/NADA
+VIII.13 — Espacio y primera distinguibilidad
+VIII.14 — Espacio y dominio factual recorrible
+VIII.15 — Espacio y frontera
+VIII.16 — Espacio y residual
+VIII.17 — Espacio y dictamen
+VIII.18 — Espacio y oscuridad cosmológica
+VIII.19 — Espacio y régimen de clausura extrema
+VIII.20 — Dictamen de cierre de la Parte II
+IX — Distancia factual, trayectoria y tránsito sin tiempo fundante
+IX.1 — Distancia factual como medición interna al dominio
+IX.2 — Distancia factual fibrosa
+IX.3 — Trayectoria factual como sucesión admisible
+IX.4 — El recorrido presupone el dominio
+IX.5 — Derivada factual respecto del índice de suceso
+IX.6 — Tránsito factual sin tiempo fundante
+IX.7 — Relación entre recorrido, dominio y primera distinguibilidad
+IX.8 — Teorema de anterioridad operatoria del espacio respecto del recorrido
+IX.9 — Teorema de no dependencia del espacio respecto de la trayectoria
+IX.10 — Teorema de medición sin creación de dominio
+IX.11 — Teorema de tránsito factual sin tiempo fundante
+X — Convergencia matemática del espacio
+X.1 — Fundamentos algebraico-semánticos
+X.2 — Célula, Σ={0,1,U} y dictamen
+X.3 — Composición intercelular
+X.4 — Cambio factual, ciclos y medición factual
+X.5 — Trayectorias poligonales de activación
+X.6 — Cálculo angular factual acoplado
+X.7 — Operadores factuales electromagnéticos
+X.8 — Teoría factual de la luz y proyecciones de fibra
+X.9 — Termodinámica factual, masa, calor, trabajo y frontera
+X.10 — Interacción, intercomposición y transmisión factual entre campos
+X.11 — Sucesos generadores y protocampos
+X.12 — Teorema de convergencia matemática del espacio
+X.13 — Teorema de no reinvención operatoria
+XI — Convergencia física del espacio
+XI.1 — Física factual como conjunto iniciador
+XI.2 — Maxwell factual y tránsito sin tiempo
+XI.3 — Teoría factual de la luz
+XI.4 — Fórmula de campo unificado
+XI.5 — Interacción, intercomposición y transmisión factual entre campos
+XI.6 — Hidrógeno factual y configuración física concreta
+XI.7 — Bell, Tsirelson y frontera angular factual
+XI.8 — Agujeros negros y régimen extremo de clausura
+XI.9 — Termodinámica factual, entropía factual y agotamiento de estructura
+XI.10 — Materia oscura como presencia gravitatoria no luminosa
+XI.11 — Energía oscura como régimen cosmológico no material ordinario
+XI.12 — Teorema de convergencia física del espacio
+XI.13 — Teorema de compatibilidad entre espacio completo y física contemporánea absorbida
+XII — Banco de contraste físico-factual
+XII.1 — Finalidad del banco
+XII.2 — Campos mínimos del banco
+XII.3 — Banco de teorías cosmológicas externas
+XII.4 — Banco de modelos de espacio emergente
+XII.5 — Banco de pluralidad de dominios
+XII.6 — Banco de rechazo de exterior al TODO
+XII.7 — Banco de ε₋₀ frente a Big Bang, vacío cuántico y rebote
+XII.8 — Banco de espacio completo frente a espacio creado por recorrido
+XII.9 — Banco de transparencia luminosa frente a inexistencia
+XII.10 — Banco de presencia gravitatoria no luminosa
+XII.11 — Banco de materia oscura, energía oscura y separación de dominios
+XII.12 — Banco de agujero negro frente a volumen, depósito y clausura
+XII.13 — Banco de fórmulas parciales y falsos fundamentos
+XII.14 — Criterio de resultado APTO
+XII.15 — Criterio de resultado NO_APTO
+XIII — Catálogo de errores
+XIII.1 — Errores sobre ε₋₀
+XIII.2 — Errores sobre imperfección preformal
+XIII.3 — Errores sobre Big Bang como origen absoluto
+XIII.4 — Errores sobre vacío cuántico como NADA
+XIII.5 — Errores sobre multiverso autónomo exterior
+XIII.6 — Errores sobre espacio como contenedor
+XIII.7 — Errores sobre espacio creado por trayectoria
+XIII.8 — Errores sobre infinito fundante
+XIII.9 — Errores sobre tiempo fundante
+XIII.10 — Errores sobre probabilidad fundante
+XIII.11 — Errores sobre geometría auxiliar convertida en fundamento
+XIII.12 — Errores sobre inferencia opaca
+XIII.13 — Errores sobre transparencia luminosa como inexistencia
+XIII.14 — Errores sobre materia oscura como agujero negro
+XIII.15 — Errores sobre energía oscura como materia oscura
+XIII.16 — Errores sobre agujero negro como depósito volumétrico clásico
+XIII.17 — Errores sobre pluralidad de espacios como exterioridad al TODO
+XIV — Teoremas de cierre
+XIV.1 — Teorema de imperfección preformal necesaria
+XIV.2 — Teorema de imposibilidad de perfección absoluta autosuficiente
+XIV.3 — Teorema de no identificación entre ε₋₀ y teoría física de origen
+XIV.4 — Teorema de no exterioridad al TODO
+XIV.5 — Teorema de pluralidad subordinada de dominios
+XIV.6 — Teorema de espacio completo como condición de trayectoria
+XIV.7 — Teorema de no creación del espacio por recorrido
+XIV.8 — Teorema de no infinito fundante
+XIV.9 — Teorema de codificación matemática sin primacía fundante matemática
+XIV.10 — Teorema de absorción de la física contemporánea por dominio y residual
+XIV.11 — Teorema de transparencia factual luminosa
+XIV.12 — Teorema de presencia gravitatoria no luminosa
+XIV.13 — Teorema de separación entre materia oscura, energía oscura y agujero negro
+XIV.14 — Teorema de no contenedor volumétrico del agujero negro
+XIV.15 — Teorema de cierre absoluto del régimen ε₋₀–espacio
+XV — Anexo de preguntas: verdades, no verdades y conclusiones sobre la naturaleza y matemática de la imperfección preformal, del espacio, de los dominios internos y de lo oscuro
+XV.1 — Alcance formal del anexo
+XV.2 — ¿Qué es ε₋₀?
+XV.3 — ¿Es ε₋₀ el Big Bang?
+XV.4 — ¿Es ε₋₀ una fórmula matemática?
+XV.5 — ¿Qué significa imperfección preformal?
+XV.6 — ¿Por qué la matemática codifica y decodifica, pero no funda como instancia exterior?
+XV.7 — ¿Cuántos universos hay en sentido formal?
+XV.8 — ¿Puede haber varios dominios sin varios TODOS?
+XV.9 — ¿Cuántos espacios hay?
+XV.10 — ¿Qué significa que el espacio nace completo?
+XV.11 — ¿Hay algo “detrás” del espacio?
+XV.12 — ¿La materia oscura ocupa espacio?
+XV.13 — ¿La materia oscura es invisible, transparente o inexistente?
+XV.14 — ¿La energía oscura es materia oscura?
+XV.15 — ¿Un agujero negro encierra espacio o volumen?
+XV.16 — ¿Dónde queda lo que clausura un agujero negro?
+XV.17 — Tabla de verdades, no verdades y conclusiones
+XV.18 — Conclusión del anexo
+XVI — Lectura formal progresiva: niño, joven universitario de ingeniería y lector científico
+XVI.1 — Regla de equivalencia entre lenguaje accesible y condición formal
+XVI.2 — ε₋₀ explicado sin metáfora de Big Bang
+XVI.3 — Imperfección preformal explicada sin azar ni probabilidad
+XVI.4 — Por qué la Nada física no es la NADA del cierre rector
+XVI.5 — Por qué no hay exterior al TODO
+XVI.6 — Por qué puede haber varios dominios sin varios TODOS
+XVI.7 — El espacio completo explicado como condición del recorrido
+XVI.8 — Materia oscura explicada como presencia gravitatoria no luminosa
+XVI.9 — Energía oscura explicada sin confundirla con materia oscura
+XVI.10 — Agujero negro explicado sin contenedor volumétrico clásico
+XVI.11 — Lectura para un niño de diez años
+XVI.12 — Lectura para un joven universitario de ingeniería
+XVI.13 — Lectura para un lector científico
+XVI.14 — Tabla de correspondencia entre formulación simple, formulación técnica y condición formal
+XVI.15 — Teorema de conservación formal de la lectura progresiva
+XVII — Conclusiones
+XVII.1 — Conclusiones sobre ε₋₀
+XVII.2 — Conclusiones sobre la imperfección preformal
+XVII.3 — Conclusiones sobre la Teoría del TODO y de la NADA
+XVII.4 — Conclusiones sobre pluralidad de dominios y rechazo de universos autónomos exteriores
+XVII.5 — Conclusiones sobre el espacio
+XVII.6 — Conclusiones sobre materia oscura y energía oscura
+XVII.7 — Conclusiones sobre agujero negro, espacio y clausura
+XVII.8 — Conclusiones sobre la física contemporánea
+XVII.9 — Conclusión final
+XVIII — Laboratorios reproducibles
+XVIII.1 — Estructura del laboratorio
+XVIII.2 — Datos de teorías externas
+XVIII.3 — Datos de dominios internos
+XVIII.4 — Validadores de residual
+XVIII.5 — Validadores de absorción
+XVIII.6 — Validadores de rechazo como fundamento
+XVIII.7 — Validadores de pluralidad subordinada
+XVIII.8 — Validadores de espacio completo
+XVIII.9 — Validadores de transparencia factual luminosa
+XVIII.10 — Validadores de presencia gravitatoria no luminosa
+XVIII.11 — Validadores de separación materia oscura / energía oscura
+XVIII.12 — Validadores de agujero negro, volumen y clausura
+XVIII.13 — Runner principal
+XVIII.14 — Salidas esperadas
+Bibliografía física contemporánea
+Bibliografía filosófica y matemática externa
+Bibliografía del corpus SV
+Palabras clave
+Keywords
 
 ## 0. Planteamiento general
 
