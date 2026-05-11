@@ -42,7 +42,7 @@ This publication is protected by copyright. Its reproduction, distribution, publ
    0.4. Tesis central de la publicación  
    0.5. Regla de lectura: absorción, absorción parcial y rechazo como fundamento  
    0.6. Cadena de prevalencia doctrinal aplicada  
-   0.7. Prohibiciones constitutivas: tiempo rector, probabilidad fundante, geometría auxiliar convertida en fundamento e inferencia opaca  
+   0.7. Prohibiciones constitutivas: tiempo fundante, probabilidad fundante, geometría auxiliar convertida en fundamento e inferencia opaca  
    0.8. Estatuto de ε₋₀ como borde preformal de nivel trece  
    0.9. Relación entre imperfección preformal, espacio y dominios internos
 
@@ -109,7 +109,7 @@ V. Teoría del TODO y de la NADA, Imperfección y pluralidad de dominios
 VI. Transparencia factual luminosa, presencia gravitatoria no luminosa, materia oscura y energía oscura  
 VII. Agujero negro, espacio, volumen y clausura de contenido  
 VIII. Parte II — El espacio: dominio estructural completo de separación factual recorrible  
-IX. Distancia factual, trayectoria y tránsito sin tiempo rector  
+IX. Distancia factual, trayectoria y tránsito sin tiempo fundante  
 X. Convergencia matemática del espacio  
 XI. Convergencia física del espacio  
 XII. Banco de contraste físico-factual  
@@ -173,7 +173,7 @@ La forma reducida de la tesis es:
 
 ε₋₀ → primera distinguibilidad → dominio estructural completo → trayectoria factual posible
 
-Esta cadena no introduce tiempo rector. Expresa prevalencia formal.
+Esta cadena no introduce tiempo fundante. Expresa prevalencia formal.
 
 ## 0.5. Regla de lectura: absorción, absorción parcial y rechazo como fundamento
 
@@ -202,11 +202,11 @@ física contemporánea como campo de contraste y transducción.
 
 Ninguna capa inferior corrige silenciosamente a una capa superior. Una teoría física puede aportar contraste, magnitudes, evidencia o regularización, pero no sustituye la condición preformal ni el cierre rector. Un banco numérico puede verificar compatibilidad, pero no funda por sí solo el régimen. Una fórmula externa puede acertar en su dominio, pero no se convierte por ello en fundamento de los niveles que la preceden.
 
-## 0.7. Prohibiciones constitutivas: tiempo rector, probabilidad fundante, geometría auxiliar convertida en fundamento e inferencia opaca
+## 0.7. Prohibiciones constitutivas: tiempo fundante, probabilidad fundante, geometría auxiliar convertida en fundamento e inferencia opaca
 
 Quedan excluidas como fundamento de la publicación las siguientes sustituciones:
 
-- tiempo como origen rector;
+- tiempo como origen fundante;
 - probabilidad fundante como criterio de verdad;
 - geometría auxiliar convertida en contenedor previo;
 - inferencia opaca como cierre;
@@ -498,7 +498,7 @@ Quinto, dictamen. El dictamen no es una valoración retórica. Es el resultado d
 
 La forma compacta del procedimiento es:
 
-𝔛ₛᵥ(M↔ε₋₀)(M) = (Ω_M, Im_SV(M), 𝓘^M_SV, R^ABS_M, D_ABS(M))
+𝔛ₛᵥ(M↔ε₋₀)(M) = (Ω_M, Im_SV(M), 𝓘_SV(M), R_ABS(M), D_ABS(M))
 
 ## II.5. Residual físico-factual de una teoría externa
 
@@ -517,11 +517,11 @@ Para evitar ambigüedad, el residual se descompone en componentes:
 | R_DM | mide si M reduce indebidamente materia oscura a vacío, agujero negro, partícula obligatoria o inexistencia. |
 | R_DE | mide si M confunde energía oscura con materia oscura o con materia transparente. |
 | R_BH_VOL | mide si M convierte el agujero negro en contenedor volumétrico ordinario. |
-| R_PROHIB | mide si M introduce tiempo rector, probabilidad fundante, geometría auxiliar convertida en fundamento o inferencia opaca. |
+| R_PROHIB | mide si M introduce tiempo fundante, probabilidad fundante, geometría auxiliar convertida en fundamento o inferencia opaca. |
 
 Vector residual general:
 
-R^ABS_M = (R_ORIGEN, R_NADA, R_TODO, R_ESPACIO, R_DOMINIO, R_OSCURIDAD, R_DM, R_DE, R_BH_VOL, R_PROHIB)
+R_ABS(M) = (R_ORIGEN, R_NADA, R_TODO, R_ESPACIO, R_DOMINIO, R_OSCURIDAD, R_DM, R_DE, R_BH_VOL, R_PROHIB)
 
 Una teoría externa queda plenamente absorbida en el alcance evaluado cuando los componentes aplicables del residual se anulan. Queda parcialmente absorbida cuando algunos componentes se anulan y otros permanecen abiertos sin contradicción constitutiva. Queda rechazada como fundamento cuando al menos un componente vulnera una prohibición constitutiva o sustituye un nivel doctrinal por un objeto externo.
 
@@ -531,7 +531,7 @@ Una teoría externa M queda absorbida en un dominio Ω_M cuando, tras la transdu
 
 Forma textual:
 
-ABS(M, Ω_M) ⇔ R^ABS_M = 0 en todos los componentes aplicables.
+ABS(M, Ω_M) ⇔ R_ABS(M) = 0 en todos los componentes aplicables.
 
 La absorción total no significa que M se convierta en fundamento absoluto. Significa que, dentro de su dominio, su contenido puede ser alojado sin contradicción. Por ejemplo, ΛCDM puede quedar absorbido como régimen cosmológico observable posterior si no se le concede estatuto de ε₋₀. Una fórmula termodinámica puede quedar absorbida como proyección de dominio si no sustituye el cierre rector. Una observación de lentes gravitacionales puede quedar absorbida como presencia gravitatoria no luminosa si no se convierte en identificación cerrada de partícula, agujero negro o vacío.
 
@@ -548,7 +548,7 @@ Una teoría externa M queda absorbida parcialmente cuando captura invariantes re
 
 Forma textual:
 
-ABS_parcial(M, Ω_M) ⇔ R^ABS_M contiene componentes no nulos no refutadores.
+ABS_parcial(M, Ω_M) ⇔ R_ABS(M) contiene componentes no nulos no refutadores.
 
 La absorción parcial es especialmente importante en esta publicación. Muchos modelos físicos poseen aciertos locales: inflación, rebotes, no-boundary, tunneling from nothing, holografía, causal sets, MOND, candidatos microfísicos de materia oscura y agujeros negros primordiales. Ninguno debe ser rechazado sólo por no ser fundamento último. Pero ninguno debe ser promovido a fundamento si su residual permanece abierto.
 
@@ -565,7 +565,7 @@ Una teoría externa M queda rechazada como fundamento cuando intenta ocupar un l
 
 Forma textual:
 
-RECHAZO_fund(M, Ω_M) ⇔ existe R_i ∈ R^ABS_M tal que R_i es contradicción constitutiva.
+RECHAZO_fund(M, Ω_M) ⇔ existe R_i ∈ R_ABS(M) tal que R_i es contradicción constitutiva.
 
 Son contradicciones constitutivas:
 
@@ -709,6 +709,6 @@ El dictamen general se resume así:
 | Agujeros negros primordiales | absorbidos parcialmente como hipótesis física restringida, no como identidad de materia oscura. |
 | Gravedad modificada | absorbida parcialmente como lectura dinámica no suficiente. |
 
-La forma operatoria 𝔛ₛᵥ(M↔ε₋₀) queda habilitada para la sección III. Su función será aplicar, caso por caso, la célula de absorción v_ABS(M), el residual R^{ABS}_M y el dictamen D_ABS(M) a cada teoría contemporánea examinada en el estado del arte.
+La forma operatoria 𝔛ₛᵥ(M↔ε₋₀) queda habilitada para la sección III. Su función será aplicar, caso por caso, la célula de absorción v_ABS(M), el residual R_ABS(M) y el dictamen D_ABS(M) a cada teoría contemporánea examinada en el estado del arte.
 
 La sección III no inaugura un aparato nuevo. Despliega la compuerta ya fijada. Cada teoría externa comparecerá bajo la misma disciplina: dominio declarado, imagen traducida, invariantes preservados o pérdida declarada, residual evaluable y dictamen.
