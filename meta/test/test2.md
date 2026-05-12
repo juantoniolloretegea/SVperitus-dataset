@@ -140,7 +140,7 @@ This publication is protected by copyright. Its reproduction, distribution, publ
 </details>
 
 <details>
-<summary><strong>[V. [Teoría del TODO y de la NADA](https://doi.org/10.17613/k3q1d-fjj45), Imperfección y pluralidad de dominios](#sec-v-teoria-del-todo-y-de-la-nada-imperfeccion-y-pluralidad-de-dominios)</strong></summary>
+<summary><strong><a href="#sec-v-teoria-del-todo-y-de-la-nada-imperfeccion-y-pluralidad-de-dominios">V. Teoría del TODO y de la NADA, Imperfección y pluralidad de dominios</a></strong></summary>
 
 - [V.1. El TODO como contención absoluta](#sec-v-1-el-todo-como-contencion-absoluta)
 - [V.2. La NADA como polo no equivalente a vacío físico](#sec-v-2-la-nada-como-polo-no-equivalente-a-vacio-fisico)
@@ -266,14 +266,14 @@ This publication is protected by copyright. Its reproduction, distribution, publ
 <summary><strong><a href="#sec-xi-convergencia-fisica-del-espacio">XI. Convergencia física del espacio</a></strong></summary>
 
 - [XI.1. Física factual como conjunto iniciador](#sec-xi-1-fisica-factual-como-conjunto-iniciador)
-- [XI.2. [Maxwell factual](https://doi.org/10.17613/kep1t-57539) y tránsito sin tiempo](#sec-xi-2-maxwell-factual-y-transito-sin-tiempo)
+- [XI.2. Maxwell factual y tránsito sin tiempo](#sec-xi-2-maxwell-factual-y-transito-sin-tiempo)
 - [XI.3. Teoría factual de la luz](#sec-xi-3-teoria-factual-de-la-luz)
 - [XI.4. Fórmula de campo unificado](#sec-xi-4-formula-de-campo-unificado)
 - [XI.5. Interacción, intercomposición y transmisión factual entre campos](#sec-xi-5-interaccion-intercomposicion-y-transmision-factual-entre-campos)
-- [XI.6. [Hidrógeno factual](https://doi.org/10.17613/qq4q9-sd847) y configuración física concreta](#sec-xi-6-hidrogeno-factual-y-configuracion-fisica-concreta)
+- [XI.6. Hidrógeno factual y configuración física concreta](#sec-xi-6-hidrogeno-factual-y-configuracion-fisica-concreta)
 - [XI.7. Bell, Tsirelson y frontera angular factual](#sec-xi-7-bell-tsirelson-y-frontera-angular-factual)
 - [XI.8. Agujeros negros y régimen extremo de clausura](#sec-xi-8-agujeros-negros-y-regimen-extremo-de-clausura)
-- [XI.9. Termodinámica factual, [entropía factual](https://doi.org/10.17613/vh6ak-6em43) y agotamiento de estructura](#sec-xi-9-termodinamica-factual-entropia-factual-y-agotamiento-de-estructura)
+- [XI.9. Termodinámica factual, entropía factual y agotamiento de estructura](#sec-xi-9-termodinamica-factual-entropia-factual-y-agotamiento-de-estructura)
 - [XI.10. Materia oscura como presencia gravitatoria no luminosa](#sec-xi-10-materia-oscura-como-presencia-gravitatoria-no-luminosa)
 - [XI.11. Energía oscura como régimen cosmológico no material ordinario](#sec-xi-11-energia-oscura-como-regimen-cosmologico-no-material-ordinario)
 - [XI.12. Teorema de convergencia física del espacio](#sec-xi-12-teorema-de-convergencia-fisica-del-espacio)
@@ -2777,7 +2777,7 @@ Queda demostrado.
 
 ## IV.13. Relación de ε<sub>−0</sub> con la Teoría del TODO y de la NADA
 
-La relación entre ε<sub>−0</sub> y la Teoría del TODO y de la NADA debe formularse con precisión para evitar dos errores. El primero sería presentar ε<sub>−0</sub> como sustituto de la Teoría del TODO y de la NADA. El segundo sería absorber ε<sub>−0</sub> sin distinción dentro de una de sus formulaciones previas.
+La relación entre ε<sub>−0</sub> y la [Teoría del TODO y de la NADA en el Sistema Vectorial SV — refundación factual sobre el corpus del suceso, distancia factual fibrosa, célula configuracional K3n, frontera común (μ, λ) = (0, 0) y verificador ternario fuerte](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/teoria-todo-nada-sv/teoria_todo_nada_sv.md) debe formularse con precisión para evitar dos errores. El primero sería presentar ε<sub>−0</sub> como sustituto de la Teoría del TODO y de la NADA. El segundo sería absorber ε<sub>−0</sub> sin distinción dentro de una de sus formulaciones previas.
 
 La Teoría del TODO y de la NADA contiene una cadena estructural ascendente, no cronológica, donde aparecen el Origen Áureo (𝓔<sub>∅</sub>), el universo de sucesos, la distancia factual fibrosa, el agotamiento configuracional, la frontera común:
 
@@ -5773,7 +5773,7 @@ El siguiente apartado podrá demostrar la convergencia matemática del espacio c
 
 ## X.1. Fundamentos algebraico-semánticos
 
-La definición del espacio como dominio estructural completo de separación factual recorrible no se introduce como elemento aislado. Debe converger con los fundamentos algebraico-semánticos del Sistema Vectorial SV. Esa convergencia exige que el espacio quede formulado mediante dominio, sucesos, valores ternarios, dictamen, trazabilidad, composición, residual y prohibición de cierre artificial.
+La definición del espacio como dominio estructural completo de separación factual recorrible no se introduce como elemento aislado. Debe converger con los [Fundamentos algebraico-semánticos del Sistema Vectorial SV](https://www.itvia.online/pub/fundamentos-algebraico-semanticos-del-sistema-vectorial-sv/release/3). Esa convergencia exige que el espacio quede formulado mediante dominio, sucesos, valores ternarios, dictamen, trazabilidad, composición, residual y prohibición de cierre artificial.
 
 El punto de partida es la estructura ternaria:
 
@@ -5913,7 +5913,7 @@ Será no admisible si una célula impone su dominio sobre otra sin transducción
 
 ## X.4. Cambio factual, ciclos y medición factual
 
-El espacio como dominio estructural completo no es estático en sentido vulgar. Puede admitir cambio factual, ciclos y medición factual sin que ello implique tiempo como fundamento primero ni creación del dominio por recorrido. La convergencia con el corpus de cambio factual exige distinguir tres niveles:
+El espacio como dominio estructural completo no es estático en sentido vulgar. Puede admitir cambio factual, ciclos y medición factual sin que ello implique tiempo como fundamento primero ni creación del dominio por recorrido. La convergencia con el [Conjunto matemático unificado del cambio factual, ciclos, medición factual y trayectorias poligonales de activación en el Sistema Vectorial SV](https://www.itvia.online/pub/conjunto-matematico-unificado-del-cambio-factual-ciclos-medicion-factual-y-trayectorias-poligonales-de-activacion-en-el-sistema-vectorial-sv/release/1) exige distinguir tres niveles:
 
 <div align="center">dominio, cambio interno, medición del cambio.</div>
 
@@ -6055,7 +6055,7 @@ Será no admisible si se usa un ángulo geométrico como fundamento de la primer
 
 ## X.7. Operadores factuales electromagnéticos
 
-La convergencia con los operadores factuales electromagnéticos es necesaria porque el espacio físico contemporáneo suele ser interpretado mediante campos, propagación, luz, radiación, transmisión y estructura electromagnética. La publicación no puede tratar espacio, oscuridad, transparencia, materia oscura o agujero negro sin asegurar que los operadores electromagnéticos del corpus no quedan contradichos.
+La convergencia con los operadores factuales electromagnéticos es necesaria porque el espacio físico contemporáneo suele ser interpretado mediante campos, propagación, luz, radiación, transmisión y estructura electromagnética. La publicación no puede tratar espacio, oscuridad, transparencia, materia oscura o agujero negro sin asegurar que los [Fundamentos operatorios absolutos del electromagnetismo factual en el Sistema Vectorial SV](https://www.itvia.online/pub/fundamentos-operatorios-absolutos-del-electromagnetismo-factual-en-el-sistema-vectorial-sv/release/2) no quedan contradichos.
 
 El apartado operatorio electromagnético del SV trabaja con familias como:
 
@@ -6099,7 +6099,7 @@ La teoría factual de la luz aporta una convergencia central. Allí la luz no qu
 
 <div align="center">Φ^L<sub>SV</sub>.</div>
 
-Este objeto admite proyecciones canónicas: ondulatoria, corpuscular, de campo, topológica, espectral, de dictamen, NLP, entrópica, gravitacional, coherencia, polarización, Fourier factual, transmutación, criticidad y correlación estructural. Esa arquitectura demuestra que un mismo régimen puede admitir múltiples proyecciones sin que ninguna agote por sí sola el objeto factual.
+Este objeto admite proyecciones canónicas: ondulatoria, corpuscular, de campo, topológica, espectral, de dictamen, NLP, entrópica, gravitacional, coherencia, polarización, [Fourier factual y ecuación de onda electromagnética en el Sistema Vectorial SV: desarrollo cíclico, transformada modal y propagación sobre ciclo y trayectoria poligonal](https://www.itvia.online/pub/fourier-factual-y-ecuacion-de-onda-electromagnetica-en-el-sistema-vectorial-sv-desarrollo-ciclico-transformada-modal-y-propagacion-sobre-ciclo-y-trayectoria-poligonal/release/1), transmutación, criticidad y correlación estructural. Esa arquitectura demuestra que un mismo régimen puede admitir múltiples proyecciones sin que ninguna agote por sí sola el objeto factual.
 
 La relación con el espacio es decisiva. La fibra luminosa necesita dominio de trayectoria, distancia, curvatura, canal, transmisión y frontera. Pero la luz no crea el espacio; se propaga, se curva, se proyecta o queda no transmisiva dentro de un dominio.
 
@@ -6542,7 +6542,7 @@ La luz confirma que el espacio es dominio de recorrido y transmisión, no produc
 
 ## XI.4. Fórmula de campo unificado
 
-La fórmula de campo unificado se toma desde la publicación Einstein–Bohr, no como dependencia nueva ni como reconstrucción por memoria. Allí se fija:
+La [Fórmula de Campo Unificado 𝓕𝓐 = d𝓐 + 𝓐 ∧ 𝓐 con 𝓐 = ω ⊕ A. Lo que Einstein y Bohr discutían: doble proyección de un aparato más profundo](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/formula-de-campo-unificado-conexion-curvatura-einstein-bohr-doble-proyeccion/formula-de-campo-unificado-conexion-curvatura-einstein-bohr-doble-proyeccion.md) se toma desde la publicación Einstein–Bohr, no como dependencia nueva ni como reconstrucción por memoria. Allí se fija:
 
 <div align="center">𝓕<sub>𝓐</sub> d𝓐+𝓐∧𝓐, 𝓐= ω ⊕ A.</div>
 
@@ -7533,7 +7533,7 @@ La magnitud física puede entrar como contraste. No puede ocupar el fundamento.
 
 ## XII bis.2. Primitivos metrológicos SV que gobiernan la transducción
 
-El transductor usa los primitivos metrológicos SV ya declarados. Bajo instanciación contingente exacta, las correspondencias de base son:
+El transductor usa los [Primitivos metrológicos del Sistema Vectorial SV: instanciaciones contingentes de las constantes fundacionales del Sistema Internacional, justificación algebraica y tabla de equivalencias factuales](https://www.itvia.online/pub/primitivos-metrologicos-del-sistema-vectorial-sv-instanciaciones-contingentes-de-las-constantes-fundacionales-del-sistema-internacional-justificacion-algebraica-y-tabla-de-equivalencias-factuales/release/1) ya declarados. Bajo instanciación contingente exacta, las correspondencias de base son:
 
 | **Dimensión** | **Primitivo SV** | **Nombre** | **Equivalencia operativa** | **Delimitación negativa** |
 |------------------------------|-------------------------------|-----------------------------------------------|-------------------------------------|------------------------------------------------|
@@ -11691,53 +11691,41 @@ Wittgenstein, L. (1922). *Tractatus logico-philosophicus*. Kegan Paul.
 
 ## Bibliografía del corpus SV
 
-Lloret Egea, J. A. (2026). *Fundamentos algebraico-semánticos del Sistema Vectorial SV*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA), IA eñ™ — La Biblia de la IA™.
+Lloret Egea, J. A. (2026). [*Fundamentos algebraico-semánticos del Sistema Vectorial SV*](https://www.itvia.online/pub/fundamentos-algebraico-semanticos-del-sistema-vectorial-sv/release/3). IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA).
 
-Lloret Egea, J. A. (2026). [*Nuevas matemáticas del Sistema Vectorial SV y Física factual como conjunto iniciador*](https://www.itvia.online/pub/nuevas-matematicas-del-sistema-vectorial-sv-y-fisica-factual-como-conjunto-iniciador/release/2). Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA), IA eñ™ — La Biblia de la IA™.
+Lloret Egea, J. A. (2026). [*Nuevas matemáticas del Sistema Vectorial SV y Física factual como conjunto iniciador*](https://www.itvia.online/pub/nuevas-matematicas-del-sistema-vectorial-sv-y-fisica-factual-como-conjunto-iniciador/release/2). IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA).
 
-Lloret Egea, J. A. (2026). *Conjunto matemático unificado del cambio factual, ciclos, medición factual y trayectorias poligonales de activación en el Sistema Vectorial SV*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA), IA eñ™ — La Biblia de la IA™.
+Lloret Egea, J. A. (2026). [*Conjunto matemático unificado del cambio factual, ciclos, medición factual y trayectorias poligonales de activación en el Sistema Vectorial SV*](https://www.itvia.online/pub/conjunto-matematico-unificado-del-cambio-factual-ciclos-medicion-factual-y-trayectorias-poligonales-de-activacion-en-el-sistema-vectorial-sv/release/1). IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA).
 
-Lloret Egea, J. A. (2026). *Primitivos metrológicos del Sistema Vectorial SV: instanciaciones contingentes, unidades factuales y transducción metrológica*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA), IA eñ™ — La Biblia de la IA™.
+Lloret Egea, J. A. (2026). [*Primitivos metrológicos del Sistema Vectorial SV: instanciaciones contingentes de las constantes fundacionales del Sistema Internacional, justificación algebraica y tabla de equivalencias factuales*](https://www.itvia.online/pub/primitivos-metrologicos-del-sistema-vectorial-sv-instanciaciones-contingentes-de-las-constantes-fundacionales-del-sistema-internacional-justificacion-algebraica-y-tabla-de-equivalencias-factuales/release/1). IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA).
 
-Lloret Egea, J. A. (2026). *Fourier factual y ecuación de onda electromagnética en el Sistema Vectorial SV: desarrollo cíclico, transformada modal y propagación sobre ciclo y trayectoria poligonal*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA), IA eñ™ — La Biblia de la IA™.
+Lloret Egea, J. A. (2026). [*Fourier factual y ecuación de onda electromagnética en el Sistema Vectorial SV: desarrollo cíclico, transformada modal y propagación sobre ciclo y trayectoria poligonal*](https://www.itvia.online/pub/fourier-factual-y-ecuacion-de-onda-electromagnetica-en-el-sistema-vectorial-sv-desarrollo-ciclico-transformada-modal-y-propagacion-sobre-ciclo-y-trayectoria-poligonal/release/1). IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA).
 
-Lloret Egea, J. A. (2026). *Fundamentos operatorios absolutos del electromagnetismo factual en el Sistema Vectorial SV*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA), IA eñ™ — La Biblia de la IA™.
+Lloret Egea, J. A. (2026). [*Fundamentos operatorios absolutos del electromagnetismo factual en el Sistema Vectorial SV*](https://www.itvia.online/pub/fundamentos-operatorios-absolutos-del-electromagnetismo-factual-en-el-sistema-vectorial-sv/release/2). IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA).
 
-Lloret Egea, J. A. (2026). [*Reducción estructural absoluta de Maxwell en el Sistema Vectorial SV: ecuación única de física factual electromagnética*](https://doi.org/10.17613/kep1t-57539). Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA), IA eñ™ — La Biblia de la IA™.
+Lloret Egea, J. A. (2026). [*Reducción estructural absoluta de Maxwell en el Sistema Vectorial SV: ecuación única de física factual electromagnética*](https://doi.org/10.17613/kep1t-57539). IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA).
 
-Lloret Egea, J. A. (2026). [*Fundamentos operatorios absolutos de interacción, intercomposición y transmisión factual entre campos en el Sistema Vectorial SV*](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/interaccion-intercomposicion-transmision-campos/interaccion-intercomposicion-transmision-campos.md). Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA), IA eñ™ — La Biblia de la IA™.
+Lloret Egea, J. A. (2026). [*Fundamentos operatorios absolutos de interacción, intercomposición y transmisión factual entre campos en el Sistema Vectorial SV*](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/interaccion-intercomposicion-transmision-campos/interaccion-intercomposicion-transmision-campos.md). IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA).
 
-Lloret Egea, J. A. (2026). [*Teoría general de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV*](https://doi.org/10.17613/177nb-v2465). Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA), IA eñ™ — La Biblia de la IA™.
+Lloret Egea, J. A. (2026). [*Teoría general de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV*](https://doi.org/10.17613/177nb-v2465). IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA).
 
-Lloret Egea, J. A. (2026). [*Teoría general factual de la luz en el Sistema Vectorial SV*](https://doi.org/10.17613/1z7c0-mqb40). Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA), IA eñ™ — La Biblia de la IA™.
+Lloret Egea, J. A. (2026). [*Teoría general factual de la luz en el Sistema Vectorial SV*](https://doi.org/10.17613/1z7c0-mqb40). IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA).
 
-Lloret Egea, J. A. (2026). [*De Bell a Tsirelson en el Sistema Vectorial SV: frontera angular factual, correlación ternaria y límite físico de la desigualdad CHSH*](https://doi.org/10.17613/1666c-c5g66). Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA), IA eñ™ — La Biblia de la IA™.
+Lloret Egea, J. A. (2026). [*De Bell a Tsirelson en el Sistema Vectorial SV: frontera angular factual, correlación ternaria y límite físico de la desigualdad CHSH*](https://doi.org/10.17613/1666c-c5g66). IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA).
 
-Lloret Egea, J. A. (2026). *Einstein discutiendo con Bohr en el Sistema Vectorial SV: transductor físico-factual, correlador angular y cierre de frontera determinista*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA), IA eñ™ — La Biblia de la IA™.
+Lloret Egea, J. A. (2026). [*Fórmula de Campo Unificado 𝓕𝓐 = d𝓐 + 𝓐 ∧ 𝓐 con 𝓐 = ω ⊕ A. Lo que Einstein y Bohr discutían: doble proyección de un aparato más profundo*](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/formula-de-campo-unificado-conexion-curvatura-einstein-bohr-doble-proyeccion/formula-de-campo-unificado-conexion-curvatura-einstein-bohr-doble-proyeccion.md). IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA).
 
-Lloret Egea, J. A. (2026). [*Agujero negro en el Sistema Vectorial SV: clausura extrema, no retorno físico, postfrontera y transducción de magnitudes de horizonte*](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad/agujero-negro-clausura-no-transmisibilidad.md). Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA), IA eñ™ — La Biblia de la IA™.
+Lloret Egea, J. A. (2026). [*Agujero negro en el Sistema Vectorial SV: clausura extrema, no retorno físico, postfrontera y transducción de magnitudes de horizonte*](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad/agujero-negro-clausura-no-transmisibilidad.md). IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA).
 
-Lloret Egea, J. A. (2026). *La Teoría del TODO en el Sistema Vectorial SV*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA), IA eñ™ — La Biblia de la IA™.
+Lloret Egea, J. A. (2026). [*Teoría del TODO y de la NADA en el Sistema Vectorial SV — refundación factual sobre el corpus del suceso, distancia factual fibrosa, célula configuracional K3n, frontera común (μ, λ) = (0, 0) y verificador ternario fuerte*](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/teoria-todo-nada-sv/teoria_todo_nada_sv.md). IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA).
 
-Lloret Egea, J. A. (2026). [*Teoría del TODO y de la NADA en el Sistema Vectorial SV*](https://doi.org/10.17613/k3q1d-fjj45). Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA), IA eñ™ — La Biblia de la IA™.
+Lloret Egea, J. A. (2026). [*Fórmula factual única absoluta de termodinámica SV: fuerza, trabajo, calor, entalpía, temperatura y persistencia estructural*](https://doi.org/10.17613/ptw68-d1r57). IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA).
 
-Lloret Egea, J. A. (2026). [*Fórmula factual única absoluta de termodinámica SV: fuerza, trabajo, calor, entalpía, temperatura y persistencia estructural*](https://doi.org/10.17613/ptw68-d1r57). Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA), IA eñ™ — La Biblia de la IA™.
+Lloret Egea, J. A. (2026). [*Hidrógeno factual en el Sistema Vectorial SV: configuración física concreta, persistencia estructural y contraste metrológico*](https://doi.org/10.17613/qq4q9-sd847). IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA).
 
-Lloret Egea, J. A. (2026). [*Hidrógeno factual en el Sistema Vectorial SV: configuración física concreta, persistencia estructural y contraste metrológico*](https://doi.org/10.17613/qq4q9-sd847). Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA), IA eñ™ — La Biblia de la IA™.
+Lloret Egea, J. A. (2026). [*Catálogo de Pares Estructurales SV: enlace, aleación y compatibilidad posicional desde los 118 elementos base hasta los 443 candidatos del dominio extendido*](https://works.hcommons.org/records/8ryyb-g9h48). IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA).
 
-Lloret Egea, J. A. (2026). [*Catálogo de Pares Estructurales SV: enlace, aleación y compatibilidad posicional desde los 118 elementos base hasta los 443 candidatos del dominio extendido*](https://works.hcommons.org/records/8ryyb-g9h48). Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA), IA eñ™ — La Biblia de la IA™.
-
-Lloret Egea, J. A. (2026). *Elementos materiales de nueva generación en el Sistema Vectorial SV*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA), IA eñ™ — La Biblia de la IA™.
-
-Lloret Egea, J. A. (2026). *Estatuto del universo de sucesos, admisibilidad suficiente y composición tipada de agentes especializados en el Sistema Vectorial SV*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA), IA eñ™ — La Biblia de la IA™.
-
-Lloret Egea, J. A. (2026). *Fundamentos, exigencias y arquitectura general de los agentes especializados en el Sistema Vectorial SV*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA), IA eñ™ — La Biblia de la IA™.
-
-Lloret Egea, J. A. (2026). *Agente Especializado en Lenguaje Natural para el Sistema Vectorial SV*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA), IA eñ™ — La Biblia de la IA™.
-
-Lloret Egea, J. A. (2026). *El transductor lingüístico: morfismo de dominio en el Sistema Vectorial SV*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA), IA eñ™ — La Biblia de la IA™.
-
-Lloret Egea, J. A. (2026). *Convergencia ternaria y gobierno determinista de trayectorias en el Sistema Vectorial SV*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA), IA eñ™ — La Biblia de la IA™.
+Lloret Egea, J. A. (2026). [*Análisis preliminar de elementos químicos, materiales y aleaciones de nueva generación para usos médicos y científicos*](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/quimica-factual-y-ciencia-de-materiales-sv/elementos-materiales-nueva-generacion/elementos-materiales-nueva-generacion.md). IA eñ™ — La Biblia de la IA™. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA).
 
 <a id="sec-palabras-clave"></a>
 
