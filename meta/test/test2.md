@@ -35,339 +35,427 @@ This publication is protected by copyright. Its reproduction, distribution, publ
 ## Índice
 
 <details>
-<summary><strong>Índice completo</strong></summary>
+<summary><strong>0. Planteamiento general</strong></summary>
 
-0. Planteamiento general 
-0.1. Problema rector 
-0.2. Por qué la pregunta por el espacio exige una pregunta anterior 
-0.3. Distinción entre origen físico, borde preformal y primera distinguibilidad 
-0.4. Tesis central de la publicación 
-0.5. Regla de lectura: absorción, absorción parcial y rechazo como fundamento 
-0.6. Cadena de prevalencia doctrinal aplicada 
-0.7. Prohibiciones constitutivas: tiempo soberano, probabilidad fundante, geometría soberana auxiliar e inferencia opaca 
-0.8. Estatuto de ε₋₀ como borde preformal de nivel 13 
-0.9. Relación entre imperfección preformal, espacio y dominios internos 
-I. Estado del arte físico, cosmológico y filosófico sobre origen, espacio, oscuridad y pluralidad cosmológica 
-I.1. Cosmología estándar ΛCDM y Big Bang caliente 
-I.2. Singularidad inicial, incompletitud y límites de extrapolación 
-I.3. Inflación cosmológica 
-I.4. Inflación eterna, paisaje y pluralidad de dominios cosmológicos 
-I.5. Modelos de creación cuántica del universo 
-I.6. Propuesta no-boundary de Hartle–Hawking 
-I.7. Tunneling from nothing de Vilenkin 
-I.8. Cosmología cuántica de bucles y modelos de rebote 
-I.9. Modelos cíclicos, ekpiróticos y cosmología cíclica conforme 
-I.10. Holografía, AdS/CFT y emergencia del espacio 
-I.11. Causal sets, orden causal y discreción estructural 
-I.12. Espacio relacional, sustancialismo y debate filosófico clásico 
-I.13. Materia oscura: rotación galáctica, lentes gravitacionales, CMB y estructura a gran escala 
-I.14. Energía oscura: constante cosmológica, aceleración cósmica, quintessence y tensión observacional contemporánea 
-I.15. MOND, gravedad modificada y alternativas dinámicas 
-I.16. Agujeros negros primordiales como hipótesis parcial de materia oscura 
-I.17. Diferencia física entre no visibilidad, transparencia, opacidad, absorción y no transmisibilidad 
-I.18. Dictamen preliminar del estado del arte 
-II. Transductor físico-factual de origen, imperfección preformal, espacio y oscuridad cosmológica 
-II.1. Necesidad del transductor 
-II.2. Continuidad metodológica con el transductor usado en régimen de agujero negro y con 𝓣 Einstein–Bohr 
-II.3. Convenio de unidad formal de transducción: 𝔛ₛᵥ(D↔D′) 
-II.4. Definición del transductor físico-factual 𝔛ₛᵥ(M↔ε₋₀) 
-II.5. Componentes del transductor: dominio, proyección, invariantes, residual y dictamen 
-II.6. Residual físico-factual de una teoría externa 
-II.7. Criterio de absorción total 
-II.8. Criterio de absorción parcial 
-II.9. Criterio de rechazo como fundamento 
-II.10. Doble traducción: física contemporánea → SV y SV → física contemporánea 
-II.11. Prohibición de sustituir ε₋₀ por Big Bang, vacío cuántico, métrica, campo o función de onda 
-II.12. Prohibición de convertir pluralidad cosmológica en exterior al TODO 
-II.13. Prohibición de convertir materia oscura en vacío, agujero negro o partícula obligatoria 
-II.14. Prohibición de convertir energía oscura en materia oscura 
-II.15. Dictamen general del transductor 
-III. Matriz de absorción físico-factual de teorías contemporáneas 
-III.1. Tabla general de teorías, dominios y dictámenes 
-III.2. Absorción de ΛCDM como régimen cosmológico observable posterior 
-III.3. Absorción parcial de inflación como regularización expansiva 
-III.4. Absorción de incompletitud pasada como indicio de no fundamento último 
-III.5. Absorción parcial de no-boundary como eliminación de frontera temporal clásica 
-III.6. Rechazo de “nothing” físico como NADA del cierre rector 
-III.7. Absorción parcial de rebotes y modelos cíclicos como transiciones de régimen 
-III.8. Reducción de multiverso, inflación eterna y paisaje a pluralidad subordinada de dominios internos 
-III.9. Rechazo de universos soberanos exteriores al TODO 
-III.10. Absorción parcial de holografía como indicio de no primariedad ingenua del espacio 
-III.11. Absorción parcial de causal sets como orden estructural no equivalente al suceso soberano 
-III.12. Absorción de materia oscura observacional como presencia gravitatoria no luminosa 
-III.13. Absorción parcial de WIMPs, axiones, neutrinos estériles y candidatos microfísicos 
-III.14. Absorción parcial de MOND y gravedad modificada como lectura dinámica no suficiente 
-III.15. Separación formal entre materia oscura y energía oscura 
-III.16. Absorción de energía oscura como régimen cosmológico expansivo, no como materia transparente 
-III.17. Teorema de no equivalencia entre teoría física de origen y ε₋₀ 
-III.18. Teorema de subordinación de toda cosmología física a la imperfección preformal 
-III.19. Teorema de reducción de pluralidad cosmológica a familia interna de dominios 
-III.20. Teorema de separación entre oscuridad física, transparencia factual y clausura de agujero negro 
-IV. Parte I — Preludio doctrinal: ε₋₀, imperfección preformal y condición de posibilidad de la primera distinguibilidad 
-IV.1. Por qué ε₋₀ no es Big Bang 
-IV.2. Por qué ε₋₀ no es vacío cuántico 
-IV.3. Por qué ε₋₀ no es preternario 
-IV.4. Por qué ε₋₀ no es todavía fórmula matemática 
-IV.5. Imperfección preformal como condición necesaria 
-IV.6. No suficiencia absoluta de ningún sistema perfecto 
-IV.7. Existir, no existir e imperfección antes de la terna formal 
-IV.8. Primera distinguibilidad y borde preformal 
-IV.9. Teorema de necesidad de la imperfección preformal 
-IV.10. Teorema de imposibilidad de sistema perfecto autosostenido 
-IV.11. Teorema de no fundación matemática del universo 
-IV.12. Teorema de codificación y decodificación matemática 
-IV.13. Relación de ε₋₀ con la Teoría del TODO y de la NADA 
-IV.14. Estatuto de ε₋₀ como borde preformal de nivel 13 
-IV.15. Dictamen de cierre de la Parte I 
-V. Teoría del TODO y de la NADA, Imperfección y pluralidad de dominios 
-V.1. El TODO como contención absoluta 
-V.2. La NADA como polo no equivalente a vacío físico 
-V.3. La imperfección como condición de sucesos 
-V.4. Por qué no hay exterior al TODO 
-V.5. Pluralidad de dominios sin pluralidad de TODOS 
-V.6. Familia interna de dominios Ω₁, Ω₂, ..., Ω<sub>k</sub> 
-V.7. Espacios como proyecciones internas de dominio 
-V.8. Ciclos sucesivos y preservación append-only 
-V.9. Teorema de unicidad del TODO ante pluralidad de dominios 
-V.10. Teorema de reducción de universos paralelos a dominios subordinados 
-V.11. Teorema de rechazo de universos con exterioridad absoluta 
-V.12. Teorema de compatibilidad entre ciclos sucesivos y append-only 
-V.13. Dictamen sobre uno, varios o infinitos espacios 
-V.14. Por qué varios dominios no implican varios TODOS 
-V.15. Por qué varios espacios no implican exterioridad rectora 
-VI. Transparencia factual luminosa, presencia gravitatoria no luminosa, materia oscura y energía oscura 
-VI.1. Problema físico: ver gravedad sin ver luz 
-VI.2. Distinción entre invisibilidad, transparencia, opacidad, absorción y no transmisibilidad 
-VI.3. Definición de transparencia factual luminosa 
-VI.4. Vector residual de transparencia luminosa 
-VI.5. Condición de presencia gravitatoria no luminosa 
-VI.6. Materia oscura SV como régimen factual no luminoso 
-VI.7. Energía oscura como régimen expansivo o cosmológico de dominio 
-VI.8. Separación entre materia oscura, energía oscura y agujero negro 
-VI.9. Teorema de no equivalencia entre transparencia luminosa e inexistencia 
-VI.10. Teorema de presencia gravitatoria no luminosa 
-VI.11. Teorema de separación entre materia oscura SV y agujero negro 
-VI.12. Teorema de rechazo de energía oscura como materia oscura 
-VI.13. Teorema de absorción parcial de candidatos microfísicos de materia oscura 
-VI.14. Teorema de absorción parcial de gravedad modificada 
-VI.15. Banco de curvas de rotación, lentes gravitacionales, CMB y estructura 
-VI.16. Banco de separación materia oscura / energía oscura 
-VI.17. Dictamen de cierre del régimen oscuro 
-VII. Agujero negro, espacio, volumen y clausura de contenido 
-VII.1. Problema rector: ¿encierra un agujero negro espacio o volumen? 
-VII.2. Diferencia entre contener, clausurar, absorber y reoriginar 
-VII.3. No transmisibilidad no equivale a transparencia 
-VII.4. Clausura M_N2-SV y no contenedor espacial ordinario 
-VII.5. El agujero negro no es depósito de imperfecciones en un volumen clásico 
-VII.6. Relación entre interior saturado, frontera de no transmisión y postfrontera 
-VII.7. Relación entre clausura de contenido y retorno preformal 
-VII.8. Teorema de no identificación entre interior de agujero negro y contenedor espacial 
-VII.9. Teorema de no reducción del agujero negro a volumen físico clásico 
-VII.10. Teorema de compatibilidad entre clausura de agujero negro y espacio estructural completo 
-VII.11. Dictamen sobre agujero negro, espacio y volumen 
-VIII. Parte II — El espacio: dominio estructural completo de separación factual recorrible 
-VIII.1. Problema formal del espacio 
-VIII.2. Rechazos constitutivos 
-VIII.3. Tesis del nacimiento completo del espacio 
-VIII.4. Definición canónica de espacio 
-VIII.5. Qué significa “completo” 
-VIII.6. Qué no significa “completo” 
-VIII.7. Reducción al absurdo contra el espacio creado por recorrido 
-VIII.8. Teorema de completitud estructural del espacio 
-VIII.9. Teorema de no creación del espacio por trayectoria 
-VIII.10. Teorema de no “detrás” del espacio 
-VIII.11. Teorema de no infinito fundante 
-VIII.12. Teorema de subordinación del espacio al cierre TODO/NADA 
-VIII.13. Espacio y primera distinguibilidad 
-VIII.14. Espacio y dominio factual recorrible 
-VIII.15. Espacio y frontera 
-VIII.16. Espacio y residual 
-VIII.17. Espacio y dictamen 
-VIII.18. Espacio y oscuridad cosmológica 
-VIII.19. Espacio y régimen de clausura extrema 
-VIII.20. Dictamen de cierre de la Parte II 
-IX. Distancia factual, trayectoria y tránsito sin tiempo soberano 
-IX.1. Distancia factual como medición interna al dominio 
-IX.2. Distancia factual fibrosa 
-IX.3. Trayectoria factual como sucesión admisible 
-IX.4. El recorrido presupone el dominio 
-IX.5. Derivada factual respecto del índice de suceso 
-IX.6. Tránsito factual sin tiempo como fundamento 
-IX.7. Relación entre recorrido, dominio y primera distinguibilidad 
-IX.8. Teorema de anterioridad operatoria del espacio respecto del recorrido 
-IX.9. Teorema de no dependencia del espacio respecto de la trayectoria 
-IX.10. Teorema de medición sin creación de dominio 
-IX.11. Teorema de tránsito factual sin tiempo soberano 
-X. Convergencia matemática del espacio 
-X.1. Fundamentos algebraico-semánticos 
-X.2. Célula, Σ={0,1,U} y dictamen 
-X.3. Composición intercelular 
-X.4. Cambio factual, ciclos y medición factual 
-X.5. Trayectorias poligonales de activación 
-X.6. Cálculo angular factual acoplado 
-X.7. Operadores factuales electromagnéticos 
-X.8. Teoría factual de la luz y proyecciones de fibra 
-X.9. Termodinámica factual, masa, calor, trabajo y frontera 
-X.10. Interacción, intercomposición y transmisión factual entre campos 
-X.11. Sucesos generadores y protocampos 
-X.12. Teorema de convergencia matemática del espacio 
-X.13. Teorema de no reinvención operatoria 
-XI. Convergencia física del espacio 
-XI.1. Física factual como conjunto iniciador 
-XI.2. Maxwell factual y tránsito sin tiempo 
-XI.3. Teoría factual de la luz 
-XI.4. Fórmula de campo unificado 
-XI.5. Interacción, intercomposición y transmisión factual entre campos 
-XI.6. Hidrógeno factual y configuración física concreta 
-XI.7. Bell, Tsirelson y frontera angular factual 
-XI.8. Agujeros negros y régimen extremo de clausura 
-XI.9. Termodinámica factual, entropía factual y agotamiento de estructura 
-XI.10. Materia oscura como presencia gravitatoria no luminosa 
-XI.11. Energía oscura como régimen cosmológico no material ordinario 
-XI.12. Teorema de convergencia física del espacio 
-XI.13. Teorema de compatibilidad entre espacio completo y física contemporánea absorbida 
-XII. Banco de contraste físico-factual 
-XII.1. Finalidad del banco 
-XII.2. Campos mínimos del banco 
-XII.3. Banco de teorías cosmológicas externas 
-XII.4. Banco de modelos de espacio emergente 
-XII.5. Banco de pluralidad de dominios 
-XII.6. Banco de rechazo de exterior al TODO 
-XII.7. Banco de ε₋₀ ante Big Bang, vacío cuántico y rebote 
-XII.8. Banco de espacio completo ante espacio creado por recorrido 
-XII.9. Banco de transparencia luminosa ante inexistencia 
-XII.10. Banco de presencia gravitatoria no luminosa 
-XII.11. Banco de materia oscura, energía oscura y separación de dominios 
-XII.12. Banco de agujero negro ante volumen, depósito y clausura 
-XII.13. Banco de fórmulas parciales y falsos fundamentos 
-XII.14. Criterio de resultado APTO 
-XII.15. Criterio de resultado NO_APTO 
-XII bis. Demostración transductiva bidireccional fuerte con magnitudes físicas reales y primitivos metrológicos SV 
-XII bis.1. Condición de cierre fuerte del banco 
-XII bis.2. Primitivos metrológicos SV que gobiernan la transducción 
-XII bis.3. Tabla de control: física → SV → física con unidad SV obligatoria 
-XII bis.4. Banco bidireccional de cosmología física y origen 
-XII bis.5. Banco bidireccional de espacio, métrica, distancia y recorrido 
-XII bis.6. Banco bidireccional de espacio emergente, holografía y causalidad discreta 
-XII bis.7. Banco bidireccional de pluralidad cosmológica y dominios internos 
-XII bis.8. Banco bidireccional de transparencia, opacidad y no visibilidad 
-XII bis.9. Banco bidireccional de materia oscura 
-XII bis.10. Banco bidireccional de energía oscura 
-XII bis.11. Banco bidireccional de separación DM / DE / BH por magnitud y unidad SV 
-XII bis.12. Banco bidireccional de agujero negro, clausura y volumen 
-XII bis.13. Banco bidireccional de campo unificado, Bell–Tsirelson y correlación angular 
-XII bis.14. Banco bidireccional de hidrógeno y configuración física concreta 
-XII bis.15. Banco bidireccional de termodinámica física y termodinámica factual 
-XII bis.16. Tabla adversarial de contaminación apartadoada mediante unidad SV 
-XII bis.17. Tabla de retorno físico controlado desde dictámenes SV 
-XII bis.18. Teorema de transducción bidireccional metrológica no contaminante 
-XII bis.19. Teorema de opinabilidad física sin cesión de fundamento 
-XII bis.20. Teorema de preservación de la jerarquía SV ante metrología externa 
-XII bis.21. Dictamen de cierre transductivo metrológico fuerte 
-XIII. Catálogo de errores 
-XIII.1. Errores sobre ε₋₀ 
-XIII.2. Errores sobre imperfección preformal 
-XIII.3. Errores sobre Big Bang como origen absoluto 
-XIII.4. Errores sobre vacío cuántico como NADA 
-XIII.5. Errores sobre multiverso rector 
-XIII.6. Errores sobre espacio como contenedor 
-XIII.7. Errores sobre espacio creado por trayectoria 
-XIII.8. Errores sobre infinito fundante 
-XIII.9. Errores sobre tiempo soberano 
-XIII.10. Errores sobre probabilidad fundante 
-XIII.11. Errores sobre geometría soberana auxiliar 
-XIII.12. Errores sobre inferencia opaca 
-XIII.13. Errores sobre transparencia luminosa como inexistencia 
-XIII.14. Errores sobre materia oscura como agujero negro 
-XIII.15. Errores sobre energía oscura como materia oscura 
-XIII.16. Errores sobre agujero negro como depósito volumétrico clásico 
-XIII.17. Errores sobre pluralidad de espacios como exterioridad al TODO 
-XIV. Teoremas de cierre 
-XIV.1. Teorema de imperfección preformal necesaria 
-XIV.2. Teorema de imposibilidad de perfección absoluta autosuficiente 
-XIV.3. Teorema de no identificación entre ε₋₀ y teoría física de origen 
-XIV.4. Teorema de no exterioridad al TODO 
-XIV.5. Teorema de pluralidad subordinada de dominios 
-XIV.6. Teorema de espacio completo como condición de trayectoria 
-XIV.7. Teorema de no creación del espacio por recorrido 
-XIV.8. Teorema de no infinito fundante 
-XIV.9. Teorema de codificación matemática sin prevalencia matemática 
-XIV.10. Teorema de absorción de la física contemporánea por dominio y residual 
-XIV.11. Teorema de transparencia factual luminosa 
-XIV.12. Teorema de presencia gravitatoria no luminosa 
-XIV.13. Teorema de separación entre materia oscura, energía oscura y agujero negro 
-XIV.14. Teorema de no contenedor volumétrico del agujero negro 
-XIV.15. Teorema de cierre absoluto del régimen ε₋₀–espacio 
-XV. Anexo de preguntas: verdades, no verdades y conclusiones sobre la naturaleza y matemática de la imperfección preformal, del espacio, de los dominios internos y de lo oscuro 
-XV.1. Alcance formal del anexo 
-XV.2. ¿Qué es ε₋₀? 
-XV.3. ¿Es ε₋₀ el Big Bang? 
-XV.4. ¿Es ε₋₀ una fórmula matemática? 
-XV.5. ¿Qué significa imperfección preformal? 
-XV.6. ¿Por qué la matemática codifica y decodifica, pero no funda con rango rector? 
-XV.7. ¿Cuántos universos hay en sentido formal? 
-XV.8. ¿Puede haber varios dominios sin varios TODOS? 
-XV.9. ¿Cuántos espacios hay? 
-XV.10. ¿Qué significa que el espacio nace completo? 
-XV.11. ¿Hay algo “detrás” del espacio? 
-XV.12. ¿La materia oscura ocupa espacio? 
-XV.13. ¿La materia oscura es invisible, transparente o inexistente? 
-XV.14. ¿La energía oscura es materia oscura? 
-XV.15. ¿Un agujero negro encierra espacio o volumen? 
-XV.16. ¿Dónde queda lo que clausura un agujero negro? 
-XV.17. Tabla de verdades, no verdades y conclusiones 
-XV.18. Conclusión del anexo 
-XVI. Lectura formal progresiva: niño, joven universitario de ingeniería y lector científico 
-XVI.1. Regla de equivalencia entre lenguaje accesible y condición formal 
-XVI.2. ε₋₀ explicado sin metáfora de Big Bang 
-XVI.3. Imperfección preformal explicada sin azar ni probabilidad 
-XVI.4. Por qué la Nada física no es la NADA del cierre rector 
-XVI.5. Por qué no hay exterior al TODO 
-XVI.6. Por qué puede haber varios dominios sin varios TODOS 
-XVI.7. El espacio completo explicado como condición del recorrido 
-XVI.8. Materia oscura explicada como presencia gravitatoria no luminosa 
-XVI.9. Energía oscura explicada sin confundirla con materia oscura 
-XVI.10. Agujero negro explicado sin contenedor volumétrico clásico 
-XVI.11. Lectura para un niño de diez años 
-XVI.12. Lectura para un joven universitario de ingeniería 
-XVI.13. Lectura para un lector científico 
-XVI.14. Tabla de correspondencia entre formulación simple, formulación técnica y condición formal 
-XVI.15. Teorema de conservación formal de la lectura progresiva 
-XVII. Conclusiones 
-XVII.1. Conclusiones sobre ε₋₀ 
-XVII.2. Conclusiones sobre la imperfección preformal 
-XVII.3. Conclusiones sobre la Teoría del TODO y de la NADA 
-XVII.4. Conclusiones sobre pluralidad de dominios y rechazo de universos soberanos exteriores 
-XVII.5. Conclusiones sobre el espacio 
-XVII.6. Conclusiones sobre materia oscura y energía oscura 
-XVII.7. Conclusiones sobre agujero negro, espacio y clausura 
-XVII.8. Conclusiones sobre la física contemporánea 
-XVII.9. Conclusión final 
-XVIII. Laboratorios reproducibles 
-XVIII.1. Estructura del laboratorio 
-XVIII.2. Datos de teorías externas 
-XVIII.3. Datos de dominios internos 
-XVIII.4. Validadores de residual 
-XVIII.5. Validadores de absorción 
-XVIII.6. Validadores de rechazo como fundamento 
-XVIII.7. Validadores de pluralidad subordinada 
-XVIII.8. Validadores de espacio completo 
-XVIII.9. Validadores de transparencia factual luminosa 
-XVIII.10. Validadores de presencia gravitatoria no luminosa 
-XVIII.11. Validadores de separación materia oscura / energía oscura 
-XVIII.12. Validadores de agujero negro, volumen y clausura 
-XVIII.13. Runner principal 
-XVIII.14. Salidas esperadas 
+- 0.1. Problema rector
+- 0.2. Por qué la pregunta por el espacio exige una pregunta anterior
+- 0.3. Distinción entre origen físico, borde preformal y primera distinguibilidad
+- 0.4. Tesis central de la publicación
+- 0.5. Regla de lectura: absorción, absorción parcial y rechazo como fundamento
+- 0.6. Cadena de prevalencia doctrinal aplicada
+- 0.7. Prohibiciones constitutivas: tiempo soberano, probabilidad fundante, geometría soberana auxiliar e inferencia opaca
+- 0.8. Estatuto de ε₋₀ como borde preformal de nivel 13
+- 0.9. Relación entre imperfección preformal, espacio y dominios internos
 
-## Bibliografía física contemporánea 
+</details>
 
-## Bibliografía filosófica y matemática externa 
+<details>
+<summary><strong>I. Estado del arte físico, cosmológico y filosófico sobre origen, espacio, oscuridad y pluralidad cosmológica</strong></summary>
 
-## Bibliografía del corpus SV 
+- I.1. Cosmología estándar ΛCDM y Big Bang caliente
+- I.2. Singularidad inicial, incompletitud y límites de extrapolación
+- I.3. Inflación cosmológica
+- I.4. Inflación eterna, paisaje y pluralidad de dominios cosmológicos
+- I.5. Modelos de creación cuántica del universo
+- I.6. Propuesta no-boundary de Hartle–Hawking
+- I.7. Tunneling from nothing de Vilenkin
+- I.8. Cosmología cuántica de bucles y modelos de rebote
+- I.9. Modelos cíclicos, ekpiróticos y cosmología cíclica conforme
+- I.10. Holografía, AdS/CFT y emergencia del espacio
+- I.11. Causal sets, orden causal y discreción estructural
+- I.12. Espacio relacional, sustancialismo y debate filosófico clásico
+- I.13. Materia oscura: rotación galáctica, lentes gravitacionales, CMB y estructura a gran escala
+- I.14. Energía oscura: constante cosmológica, aceleración cósmica, quintessence y tensión observacional contemporánea
+- I.15. MOND, gravedad modificada y alternativas dinámicas
+- I.16. Agujeros negros primordiales como hipótesis parcial de materia oscura
+- I.17. Diferencia física entre no visibilidad, transparencia, opacidad, absorción y no transmisibilidad
+- I.18. Dictamen preliminar del estado del arte
 
-## Palabras clave 
+</details>
 
-## Keywords 
+<details>
+<summary><strong>II. Transductor físico-factual de origen, imperfección preformal, espacio y oscuridad cosmológica</strong></summary>
+
+- II.1. Necesidad del transductor
+- II.2. Continuidad metodológica con el transductor usado en régimen de agujero negro y con 𝓣 Einstein–Bohr
+- II.3. Convenio de unidad formal de transducción: 𝔛ₛᵥ(D↔D′)
+- II.4. Definición del transductor físico-factual 𝔛ₛᵥ(M↔ε₋₀)
+- II.5. Componentes del transductor: dominio, proyección, invariantes, residual y dictamen
+- II.6. Residual físico-factual de una teoría externa
+- II.7. Criterio de absorción total
+- II.8. Criterio de absorción parcial
+- II.9. Criterio de rechazo como fundamento
+- II.10. Doble traducción: física contemporánea → SV y SV → física contemporánea
+- II.11. Prohibición de sustituir ε₋₀ por Big Bang, vacío cuántico, métrica, campo o función de onda
+- II.12. Prohibición de convertir pluralidad cosmológica en exterior al TODO
+- II.13. Prohibición de convertir materia oscura en vacío, agujero negro o partícula obligatoria
+- II.14. Prohibición de convertir energía oscura en materia oscura
+- II.15. Dictamen general del transductor
+
+</details>
+
+<details>
+<summary><strong>III. Matriz de absorción físico-factual de teorías contemporáneas</strong></summary>
+
+- III.1. Tabla general de teorías, dominios y dictámenes
+- III.2. Absorción de ΛCDM como régimen cosmológico observable posterior
+- III.3. Absorción parcial de inflación como regularización expansiva
+- III.4. Absorción de incompletitud pasada como indicio de no fundamento último
+- III.5. Absorción parcial de no-boundary como eliminación de frontera temporal clásica
+- III.6. Rechazo de “nothing” físico como NADA del cierre rector
+- III.7. Absorción parcial de rebotes y modelos cíclicos como transiciones de régimen
+- III.8. Reducción de multiverso, inflación eterna y paisaje a pluralidad subordinada de dominios internos
+- III.9. Rechazo de universos soberanos exteriores al TODO
+- III.10. Absorción parcial de holografía como indicio de no primariedad ingenua del espacio
+- III.11. Absorción parcial de causal sets como orden estructural no equivalente al suceso soberano
+- III.12. Absorción de materia oscura observacional como presencia gravitatoria no luminosa
+- III.13. Absorción parcial de WIMPs, axiones, neutrinos estériles y candidatos microfísicos
+- III.14. Absorción parcial de MOND y gravedad modificada como lectura dinámica no suficiente
+- III.15. Separación formal entre materia oscura y energía oscura
+- III.16. Absorción de energía oscura como régimen cosmológico expansivo, no como materia transparente
+- III.17. Teorema de no equivalencia entre teoría física de origen y ε₋₀
+- III.18. Teorema de subordinación de toda cosmología física a la imperfección preformal
+- III.19. Teorema de reducción de pluralidad cosmológica a familia interna de dominios
+- III.20. Teorema de separación entre oscuridad física, transparencia factual y clausura de agujero negro
+
+</details>
+
+<details>
+<summary><strong>IV. Parte I — Preludio doctrinal: ε₋₀, imperfección preformal y condición de posibilidad de la primera distinguibilidad</strong></summary>
+
+- IV.1. Por qué ε₋₀ no es Big Bang
+- IV.2. Por qué ε₋₀ no es vacío cuántico
+- IV.3. Por qué ε₋₀ no es preternario
+- IV.4. Por qué ε₋₀ no es todavía fórmula matemática
+- IV.5. Imperfección preformal como condición necesaria
+- IV.6. No suficiencia absoluta de ningún sistema perfecto
+- IV.7. Existir, no existir e imperfección antes de la terna formal
+- IV.8. Primera distinguibilidad y borde preformal
+- IV.9. Teorema de necesidad de la imperfección preformal
+- IV.10. Teorema de imposibilidad de sistema perfecto autosostenido
+- IV.11. Teorema de no fundación matemática del universo
+- IV.12. Teorema de codificación y decodificación matemática
+- IV.13. Relación de ε₋₀ con la Teoría del TODO y de la NADA
+- IV.14. Estatuto de ε₋₀ como borde preformal de nivel 13
+- IV.15. Dictamen de cierre de la Parte I
+
+</details>
+
+<details>
+<summary><strong>V. Teoría del TODO y de la NADA, Imperfección y pluralidad de dominios</strong></summary>
+
+- V.1. El TODO como contención absoluta
+- V.2. La NADA como polo no equivalente a vacío físico
+- V.3. La imperfección como condición de sucesos
+- V.4. Por qué no hay exterior al TODO
+- V.5. Pluralidad de dominios sin pluralidad de TODOS
+- V.6. Familia interna de dominios Ω₁, Ω₂, ..., Ω<sub>k</sub>
+- V.7. Espacios como proyecciones internas de dominio
+- V.8. Ciclos sucesivos y preservación append-only
+- V.9. Teorema de unicidad del TODO ante pluralidad de dominios
+- V.10. Teorema de reducción de universos paralelos a dominios subordinados
+- V.11. Teorema de rechazo de universos con exterioridad absoluta
+- V.12. Teorema de compatibilidad entre ciclos sucesivos y append-only
+- V.13. Dictamen sobre uno, varios o infinitos espacios
+- V.14. Por qué varios dominios no implican varios TODOS
+- V.15. Por qué varios espacios no implican exterioridad rectora
+
+</details>
+
+<details>
+<summary><strong>VI. Transparencia factual luminosa, presencia gravitatoria no luminosa, materia oscura y energía oscura</strong></summary>
+
+- VI.1. Problema físico: ver gravedad sin ver luz
+- VI.2. Distinción entre invisibilidad, transparencia, opacidad, absorción y no transmisibilidad
+- VI.3. Definición de transparencia factual luminosa
+- VI.4. Vector residual de transparencia luminosa
+- VI.5. Condición de presencia gravitatoria no luminosa
+- VI.6. Materia oscura SV como régimen factual no luminoso
+- VI.7. Energía oscura como régimen expansivo o cosmológico de dominio
+- VI.8. Separación entre materia oscura, energía oscura y agujero negro
+- VI.9. Teorema de no equivalencia entre transparencia luminosa e inexistencia
+- VI.10. Teorema de presencia gravitatoria no luminosa
+- VI.11. Teorema de separación entre materia oscura SV y agujero negro
+- VI.12. Teorema de rechazo de energía oscura como materia oscura
+- VI.13. Teorema de absorción parcial de candidatos microfísicos de materia oscura
+- VI.14. Teorema de absorción parcial de gravedad modificada
+- VI.15. Banco de curvas de rotación, lentes gravitacionales, CMB y estructura
+- VI.16. Banco de separación materia oscura / energía oscura
+- VI.17. Dictamen de cierre del régimen oscuro
+
+</details>
+
+<details>
+<summary><strong>VII. Agujero negro, espacio, volumen y clausura de contenido</strong></summary>
+
+- VII.1. Problema rector: ¿encierra un agujero negro espacio o volumen?
+- VII.2. Diferencia entre contener, clausurar, absorber y reoriginar
+- VII.3. No transmisibilidad no equivale a transparencia
+- VII.4. Clausura M<sub>N2</sub>-SV y no contenedor espacial ordinario
+- VII.5. El agujero negro no es depósito de imperfecciones en un volumen clásico
+- VII.6. Relación entre interior saturado, frontera de no transmisión y postfrontera
+- VII.7. Relación entre clausura de contenido y retorno preformal
+- VII.8. Teorema de no identificación entre interior de agujero negro y contenedor espacial
+- VII.9. Teorema de no reducción del agujero negro a volumen físico clásico
+- VII.10. Teorema de compatibilidad entre clausura de agujero negro y espacio estructural completo
+- VII.11. Dictamen sobre agujero negro, espacio y volumen
+
+</details>
+
+<details>
+<summary><strong>VIII. Parte II — El espacio: dominio estructural completo de separación factual recorrible</strong></summary>
+
+- VIII.1. Problema formal del espacio
+- VIII.2. Rechazos constitutivos
+- VIII.3. Tesis del nacimiento completo del espacio
+- VIII.4. Definición canónica de espacio
+- VIII.5. Qué significa “completo”
+- VIII.6. Qué no significa “completo”
+- VIII.7. Reducción al absurdo contra el espacio creado por recorrido
+- VIII.8. Teorema de completitud estructural del espacio
+- VIII.9. Teorema de no creación del espacio por trayectoria
+- VIII.10. Teorema de no “detrás” del espacio
+- VIII.11. Teorema de no infinito fundante
+- VIII.12. Teorema de subordinación del espacio al cierre TODO/NADA
+- VIII.13. Espacio y primera distinguibilidad
+- VIII.14. Espacio y dominio factual recorrible
+- VIII.15. Espacio y frontera
+- VIII.16. Espacio y residual
+- VIII.17. Espacio y dictamen
+- VIII.18. Espacio y oscuridad cosmológica
+- VIII.19. Espacio y régimen de clausura extrema
+- VIII.20. Dictamen de cierre de la Parte II
+
+</details>
+
+<details>
+<summary><strong>IX. Distancia factual, trayectoria y tránsito sin tiempo soberano</strong></summary>
+
+- IX.1. Distancia factual como medición interna al dominio
+- IX.2. Distancia factual fibrosa
+- IX.3. Trayectoria factual como sucesión admisible
+- IX.4. El recorrido presupone el dominio
+- IX.5. Derivada factual respecto del índice de suceso
+- IX.6. Tránsito factual sin tiempo como fundamento
+- IX.7. Relación entre recorrido, dominio y primera distinguibilidad
+- IX.8. Teorema de anterioridad operatoria del espacio respecto del recorrido
+- IX.9. Teorema de no dependencia del espacio respecto de la trayectoria
+- IX.10. Teorema de medición sin creación de dominio
+- IX.11. Teorema de tránsito factual sin tiempo soberano
+
+</details>
+
+<details>
+<summary><strong>X. Convergencia matemática del espacio</strong></summary>
+
+- X.1. Fundamentos algebraico-semánticos
+- X.2. Célula, Σ={0,1,U} y dictamen
+- X.3. Composición intercelular
+- X.4. Cambio factual, ciclos y medición factual
+- X.5. Trayectorias poligonales de activación
+- X.6. Cálculo angular factual acoplado
+- X.7. Operadores factuales electromagnéticos
+- X.8. Teoría factual de la luz y proyecciones de fibra
+- X.9. Termodinámica factual, masa, calor, trabajo y frontera
+- X.10. Interacción, intercomposición y transmisión factual entre campos
+- X.11. Sucesos generadores y protocampos
+- X.12. Teorema de convergencia matemática del espacio
+- X.13. Teorema de no reinvención operatoria
+
+</details>
+
+<details>
+<summary><strong>XI. Convergencia física del espacio</strong></summary>
+
+- XI.1. Física factual como conjunto iniciador
+- XI.2. Maxwell factual y tránsito sin tiempo
+- XI.3. Teoría factual de la luz
+- XI.4. Fórmula de campo unificado
+- XI.5. Interacción, intercomposición y transmisión factual entre campos
+- XI.6. Hidrógeno factual y configuración física concreta
+- XI.7. Bell, Tsirelson y frontera angular factual
+- XI.8. Agujeros negros y régimen extremo de clausura
+- XI.9. Termodinámica factual, entropía factual y agotamiento de estructura
+- XI.10. Materia oscura como presencia gravitatoria no luminosa
+- XI.11. Energía oscura como régimen cosmológico no material ordinario
+- XI.12. Teorema de convergencia física del espacio
+- XI.13. Teorema de compatibilidad entre espacio completo y física contemporánea absorbida
+
+</details>
+
+<details>
+<summary><strong>XII. Banco de contraste físico-factual</strong></summary>
+
+- XII.1. Finalidad del banco
+- XII.2. Campos mínimos del banco
+- XII.3. Banco de teorías cosmológicas externas
+- XII.4. Banco de modelos de espacio emergente
+- XII.5. Banco de pluralidad de dominios
+- XII.6. Banco de rechazo de exterior al TODO
+- XII.7. Banco de ε₋₀ ante Big Bang, vacío cuántico y rebote
+- XII.8. Banco de espacio completo ante espacio creado por recorrido
+- XII.9. Banco de transparencia luminosa ante inexistencia
+- XII.10. Banco de presencia gravitatoria no luminosa
+- XII.11. Banco de materia oscura, energía oscura y separación de dominios
+- XII.12. Banco de agujero negro ante volumen, depósito y clausura
+- XII.13. Banco de fórmulas parciales y falsos fundamentos
+- XII.14. Criterio de resultado APTO
+- XII.15. Criterio de resultado NO_APTO
+
+</details>
+
+<details>
+<summary><strong>XII bis. Demostración transductiva bidireccional fuerte con magnitudes físicas reales y primitivos metrológicos SV</strong></summary>
+
+- XII bis.1. Condición de cierre fuerte del banco
+- XII bis.2. Primitivos metrológicos SV que gobiernan la transducción
+- XII bis.3. Tabla de control: física → SV → física con unidad SV obligatoria
+- XII bis.4. Banco bidireccional de cosmología física y origen
+- XII bis.5. Banco bidireccional de espacio, métrica, distancia y recorrido
+- XII bis.6. Banco bidireccional de espacio emergente, holografía y causalidad discreta
+- XII bis.7. Banco bidireccional de pluralidad cosmológica y dominios internos
+- XII bis.8. Banco bidireccional de transparencia, opacidad y no visibilidad
+- XII bis.9. Banco bidireccional de materia oscura
+- XII bis.10. Banco bidireccional de energía oscura
+- XII bis.11. Banco bidireccional de separación DM / DE / BH por magnitud y unidad SV
+- XII bis.12. Banco bidireccional de agujero negro, clausura y volumen
+- XII bis.13. Banco bidireccional de campo unificado, Bell–Tsirelson y correlación angular
+- XII bis.14. Banco bidireccional de hidrógeno y configuración física concreta
+- XII bis.15. Banco bidireccional de termodinámica física y termodinámica factual
+- XII bis.16. Tabla adversarial de contaminación bloqueada mediante unidad SV
+- XII bis.17. Tabla de retorno físico controlado desde dictámenes SV
+- XII bis.18. Teorema de transducción bidireccional metrológica no contaminante
+- XII bis.19. Teorema de opinabilidad física sin cesión de fundamento
+- XII bis.20. Teorema de preservación de la jerarquía SV ante metrología externa
+- XII bis.21. Dictamen de cierre transductivo metrológico fuerte
+
+</details>
+
+<details>
+<summary><strong>XIII. Catálogo de errores</strong></summary>
+
+- XIII.1. Errores sobre ε₋₀
+- XIII.2. Errores sobre imperfección preformal
+- XIII.3. Errores sobre Big Bang como origen absoluto
+- XIII.4. Errores sobre vacío cuántico como NADA
+- XIII.5. Errores sobre multiverso rector
+- XIII.6. Errores sobre espacio como contenedor
+- XIII.7. Errores sobre espacio creado por trayectoria
+- XIII.8. Errores sobre infinito fundante
+- XIII.9. Errores sobre tiempo soberano
+- XIII.10. Errores sobre probabilidad fundante
+- XIII.11. Errores sobre geometría soberana auxiliar
+- XIII.12. Errores sobre inferencia opaca
+- XIII.13. Errores sobre transparencia luminosa como inexistencia
+- XIII.14. Errores sobre materia oscura como agujero negro
+- XIII.15. Errores sobre energía oscura como materia oscura
+- XIII.16. Errores sobre agujero negro como depósito volumétrico clásico
+- XIII.17. Errores sobre pluralidad de espacios como exterioridad al TODO
+
+</details>
+
+<details>
+<summary><strong>XIV. Teoremas de cierre</strong></summary>
+
+- XIV.1. Teorema de imperfección preformal necesaria
+- XIV.2. Teorema de imposibilidad de perfección absoluta autosuficiente
+- XIV.3. Teorema de no identificación entre ε₋₀ y teoría física de origen
+- XIV.4. Teorema de no exterioridad al TODO
+- XIV.5. Teorema de pluralidad subordinada de dominios
+- XIV.6. Teorema de espacio completo como condición de trayectoria
+- XIV.7. Teorema de no creación del espacio por recorrido
+- XIV.8. Teorema de no infinito fundante
+- XIV.9. Teorema de codificación matemática sin prevalencia matemática
+- XIV.10. Teorema de absorción de la física contemporánea por dominio y residual
+- XIV.11. Teorema de transparencia factual luminosa
+- XIV.12. Teorema de presencia gravitatoria no luminosa
+- XIV.13. Teorema de separación entre materia oscura, energía oscura y agujero negro
+- XIV.14. Teorema de no contenedor volumétrico del agujero negro
+- XIV.15. Teorema de cierre absoluto del régimen ε₋₀–espacio
+
+</details>
+
+<details>
+<summary><strong>XV. Anexo de preguntas: verdades, no verdades y conclusiones sobre la naturaleza y matemática de la imperfección preformal, del espacio, de los dominios internos y de lo oscuro</strong></summary>
+
+- XV.1. Alcance formal del anexo
+- XV.2. ¿Qué es ε₋₀?
+- XV.3. ¿Es ε₋₀ el Big Bang?
+- XV.4. ¿Es ε₋₀ una fórmula matemática?
+- XV.5. ¿Qué significa imperfección preformal?
+- XV.6. ¿Por qué la matemática codifica y decodifica, pero no funda con rango rector?
+- XV.7. ¿Cuántos universos hay en sentido formal?
+- XV.8. ¿Puede haber varios dominios sin varios TODOS?
+- XV.9. ¿Cuántos espacios hay?
+- XV.10. ¿Qué significa que el espacio nace completo?
+- XV.11. ¿Hay algo “detrás” del espacio?
+- XV.12. ¿La materia oscura ocupa espacio?
+- XV.13. ¿La materia oscura es invisible, transparente o inexistente?
+- XV.14. ¿La energía oscura es materia oscura?
+- XV.15. ¿Un agujero negro encierra espacio o volumen?
+- XV.16. ¿Dónde queda lo que clausura un agujero negro?
+- XV.17. Tabla de verdades, no verdades y conclusiones
+- XV.18. Conclusión del anexo
+
+</details>
+
+<details>
+<summary><strong>XVI. Lectura formal progresiva: niño, joven universitario de ingeniería y lector científico</strong></summary>
+
+- XVI.1. Regla de equivalencia entre lenguaje accesible y condición formal
+- XVI.2. ε₋₀ explicado sin metáfora de Big Bang
+- XVI.3. Imperfección preformal explicada sin azar ni probabilidad
+- XVI.4. Por qué la Nada física no es la NADA del cierre rector
+- XVI.5. Por qué no hay exterior al TODO
+- XVI.6. Por qué puede haber varios dominios sin varios TODOS
+- XVI.7. El espacio completo explicado como condición del recorrido
+- XVI.8. Materia oscura explicada como presencia gravitatoria no luminosa
+- XVI.9. Energía oscura explicada sin confundirla con materia oscura
+- XVI.10. Agujero negro explicado sin contenedor volumétrico clásico
+- XVI.11. Lectura para un niño de diez años
+- XVI.12. Lectura para un joven universitario de ingeniería
+- XVI.13. Lectura para un lector científico
+- XVI.14. Tabla de correspondencia entre formulación simple, formulación técnica y condición formal
+
+</details>
+
+<details>
+<summary><strong>XVII. Conclusiones</strong></summary>
+
+- XVII.1. Conclusiones sobre ε₋₀
+- XVII.2. Conclusiones sobre la imperfección preformal
+- XVII.3. Conclusiones sobre la Teoría del TODO y de la NADA
+- XVII.4. Conclusiones sobre pluralidad de dominios y rechazo de universos soberanos exteriores
+- XVII.5. Conclusiones sobre el espacio
+- XVII.6. Conclusiones sobre materia oscura y energía oscura
+- XVII.7. Conclusiones sobre agujero negro, espacio y clausura
+- XVII.8. Conclusiones sobre la física contemporánea
+- XVII.9. Conclusión final
+
+</details>
+
+<details>
+<summary><strong>XVIII. Laboratorios reproducibles</strong></summary>
+
+- XVIII.1. Estructura del laboratorio
+- XVIII.2. Datos de teorías externas
+- XVIII.3. Datos de dominios internos
+- XVIII.4. Validadores de residual
+- XVIII.5. Validadores de absorción
+- XVIII.6. Validadores de rechazo como fundamento
+- XVIII.7. Validadores de pluralidad subordinada
+- XVIII.8. Validadores de espacio completo
+- XVIII.9. Validadores de transparencia factual luminosa
+- XVIII.10. Validadores de presencia gravitatoria no luminosa
+- XVIII.11. Validadores de separación materia oscura / energía oscura
+- XVIII.12. Validadores de agujero negro, volumen y clausura
+- XVIII.13. Runner principal
+- XVIII.14. Salidas esperadas
+- ## Bibliografía física contemporánea
+- ## Bibliografía filosófica y matemática externa
+- ## Bibliografía del corpus SV
+- ## Palabras clave
+- ## Keywords
 
 </details>
 
@@ -383,7 +471,7 @@ El problema rector de esta publicación puede formularse de manera directa:
 
 La física contemporánea suele preguntar por el origen del universo físico, por la singularidad inicial, por la expansión, por el vacío cuántico, por la emergencia del espacio-tiempo, por la inflación, por la constante cosmológica, por la materia oscura, por la energía oscura, por los agujeros negros o por los límites de observabilidad. Todas esas preguntas son legítimas dentro de sus dominios respectivos. Sin embargo, ninguna de ellas responde todavía a la cuestión previa que aquí se considera decisiva: antes de preguntar por la evolución de un universo físicamente constituido, por su métrica, por su campo, por su vacío o por su historia observable, debe preguntarse por la condición formal mínima que permite distinguir algo de algo.
 
-La pregunta por el espacio no emelemento con la extensión. Tampoco emelemento con la distancia métrica, con la coordenada, con el intervalo, con la curvatura, con el horizonte cosmológico ni con la posibilidad de recorrer una región. Todas esas nociones presuponen que ya hay algún régimen de separación. Lo que aquí se investiga es anterior a esa presuposición: el borde en el cual la no distinción absoluta deja paso a la primera distinguibilidad.
+La pregunta por el espacio no empieza con la extensión. Tampoco empieza con la distancia métrica, con la coordenada, con el intervalo, con la curvatura, con el horizonte cosmológico ni con la posibilidad de recorrer una región. Todas esas nociones presuponen que ya hay algún régimen de separación. Lo que aquí se investiga es anterior a esa presuposición: el borde en el cual la no distinción absoluta deja paso a la primera distinguibilidad.
 
 Se introduce para ello el símbolo:
 
@@ -399,7 +487,7 @@ La publicación se organiza, por tanto, alrededor de una tesis de precedencia:
 ε₋₀ ≺ ∂<sub>ε</sub> ≺ D<sub>sep</sub> ≺ espacio factual recorrible ≺ física constituida.
 </p>
 
-Donde ∂<sub>ε</sub> nombra la frontera de primera distinguibilidad y D<sub>sep</sub> el dominio de separación factual recorrible. La física constituida no queda negada; queda situada. Su dominio emelemento después de la condición que permite que algo pueda comparecer como separado, localizable, recorrible, transmisible, no transmisible, luminoso, no luminoso, gravitatoriamente presente o cosmológicamente oscuro.
+Donde ∂<sub>ε</sub> nombra la frontera de primera distinguibilidad y D<sub>sep</sub> el dominio de separación factual recorrible. La física constituida no queda negada; queda situada. Su dominio empieza después de la condición que permite que algo pueda comparecer como separado, localizable, recorrible, transmisible, no transmisible, luminoso, no luminoso, gravitatoriamente presente o cosmológicamente oscuro.
 
 La dificultad principal del trabajo no reside sólo en formular esta precedencia. Reside en hacerlo sin caer en tres errores simétricos. El primero sería convertir ε₋₀ en una metáfora metafísica. El segundo sería sustituirlo indebidamente por una teoría física de origen, como Big Bang, vacío cuántico, no-boundary, tunneling from nothing, rebote cosmológico o función de onda del universo. El tercero sería dejar que el lenguaje interno del Sistema Vectorial SV aparezca cerrado sobre sí mismo, sin transducción hacia magnitudes físicas y sin retorno físico controlado.
 
@@ -526,7 +614,7 @@ El **rechazo como fundamento** se produce cuando una teoría, magnitud o imagen 
 La regla puede formalizarse así. Sea T una teoría externa o magnitud física declarada. Su evaluación exige:
 
 <p align="center">
-T longmapsto (Ω<sub>T</sub>,Π<sub>T</sub>,𝓘<sub>T</sub>,Δ<sub>T</sub>,𝔡<sub>T</sub>),
+T ↦ (Ω<sub>T</sub>,Π<sub>T</sub>,𝓘<sub>T</sub>,Δ<sub>T</sub>,𝔡<sub>T</sub>),
 </p>
 
 donde Ω<sub>T</sub> es su dominio, Π<sub>T</sub> su proyección hacia el aparato SV, 𝓘<sub>T</sub> el conjunto de invariantes que debe preservar, Δ<sub>T</sub> su residual y 𝔡<sub>T</sub> su dictamen.
@@ -818,7 +906,7 @@ TODO<sub>SV</sub>,
 y no como:
 
 <p align="center">
-TODO_1,TODO_2,…,TODO_k.
+TODO<sub>1</sub>,TODO<sub>2</sub>,…,TODO<sub>k</sub>.
 </p>
 
 La inflación eterna y el paisaje serán, por tanto, objeto de reducción transductiva: se absorberán parcialmente como imágenes físicas de pluralidad subordinada de dominios, pero se rechazará su uso como fundamento de varios TODOS rectores. Su dictamen preliminar será:
@@ -981,7 +1069,7 @@ La teoría de causal sets propone que la estructura fundamental del espacio-tiem
 
 Este enfoque es relevante porque cuestiona la continuidad geométrica como fundamento. Si el espacio-tiempo pudiera estar basado en orden causal discreto, entonces la geometría diferencial no sería el plano primario. Esa intuición resulta compatible, en sentido amplio, con la prohibición SV de geometría auxiliar con rango fundante.
 
-Sin embargo, causal set no equivale al suceso SV SV. Un elemento de causal set no es automáticamente un suceso SV; una relación causal no es automáticamente una trayectoria factual; una discreción física no es por sí misma ternariedad (Σ={0,1,U}). La diferencia entre orden causal y suceso SV debe preservarse.
+Sin embargo, causal set no equivale al suceso SV. Un elemento de causal set no es automáticamente un suceso SV; una relación causal no es automáticamente una trayectoria factual; una discreción física no es por sí misma ternariedad (Σ={0,1,U}). La diferencia entre orden causal y suceso SV debe preservarse.
 
 El dictamen preliminar será:
 
@@ -1089,7 +1177,7 @@ La materia oscura será transducida mediante magnitudes como:
 v<sub>rot</sub>(r), 
 M<sub>dyn</sub>/M<sub>bar</sub>, 
 κ<sub>lens</sub>, 
-C_ℓ<sup>CMB</sup>, 
+C<sub>ℓ</sub><sup>CMB</sup>, 
 P(k), 
 δ<sub>grav-noL</sub>.
 </p>
@@ -1204,11 +1292,11 @@ La **no visibilidad** indica ausencia de detección luminosa bajo un régimen in
 
 La **transparencia** indica paso de radiación o señal a través de un medio o dominio sin absorción significativa en el canal considerado. No equivale a inexistencia ni a ausencia de interacción absoluta. Un medio puede ser transparente a una frecuencia y opaco a otra.
 
-La **opacidad** indica apartadoo, dispersión o absorción significativa de una señal. Tampoco equivale a no transmisibilidad absoluta; depende del canal, de la frecuencia, de la densidad óptica, del régimen material y del dominio físico.
+La **opacidad** indica bloqueo, dispersión o absorción significativa de una señal. Tampoco equivale a no transmisibilidad absoluta; depende del canal, de la frecuencia, de la densidad óptica, del régimen material y del dominio físico.
 
 La **absorción** indica incorporación, conversión o captura de señal, energía, estructura o proyección por un dominio. En el SV, además, “absorción” tiene un sentido formal: una teoría externa puede ser absorbida si su contenido entra en el aparato SV sin sustituir el fundamento.
 
-La **no transmisibilidad** es más estricta: designa un régimen en el cual la salida exterior por un canal determinado queda formalmente apartadoada. En el documento de agujero negro, la no transmisibilidad luminosa no implica anulación de la luz; implica preservación de la fibra luminosa bajo dictamen de no transmisión exterior.
+La **no transmisibilidad** es más estricta: designa un régimen en el cual la salida exterior por un canal determinado queda formalmente bloqueada. En el documento de agujero negro, la no transmisibilidad luminosa no implica anulación de la luz; implica preservación de la fibra luminosa bajo dictamen de no transmisión exterior.
 
 La tabla conceptual mínima queda así:
 
@@ -1347,7 +1435,7 @@ Sin esa regla, la publicación sería vulnerable a la acusación de marco abstra
 
 ## II.2. Continuidad metodológica con el transductor usado en régimen de agujero negro y con 𝓣 Einstein–Bohr
 
-El transductor de esta publicación no aparece como elemento aislada ni como sustitución de formulaciones anteriores. Forma parte de una continuidad metodológica ya ensayada en dos dominios locales distintos del corpus.
+El transductor de esta publicación no aparece como elemento aislado ni como sustitución de formulaciones anteriores. Forma parte de una continuidad metodológica ya ensayada en dos dominios locales distintos del corpus.
 
 En el documento Einstein–Bohr, el operador (𝓣) articula el régimen geométrico-determinista con el régimen operatorio-binario/cuántico. Allí el problema consistía en impedir que la relación entre geometría y cuántica quedara como mera yuxtaposición. El operador (𝓣) conectaba:
 
@@ -1376,9 +1464,9 @@ q=(r)/(r<sub>s</sub>),
  
 χ,
  
-r_+,
+r<sub>+</sub>,
  
-frac{S<sup>BH</sup>}{k<sub>B</sub>},
+S<sup>BH</sup>/k<sub>B</sub>,
  
 T^H,
  
@@ -1434,9 +1522,9 @@ La estructura mínima es:
 <p align="center">
 𝔛<sub>SV</sub>(D↔ D')
 
-≤ft(
+(
 𝔛<sub>→</sub><sup>D,D'</sup>,
-𝔛<sub>≤ftarrow</sub><sup>D',D</sup>,
+𝔛<sub>←</sub><sup>D',D</sup>,
 Ω<sub>D</sub>,
 Ω<sub>D'</sub>,
 Π<sub>D→ D'</sub>,
@@ -1456,7 +1544,7 @@ Donde:
 es la dirección de traducción desde el dominio de partida hacia el dominio de llegada, y:
 
 <p align="center">
-𝔛<sub>≤ftarrow</sub><sup>D',D</sup>:Ω<sub>D'</sub>→Ω<sub>D</sub>
+𝔛<sub>←</sub><sup>D',D</sup>:Ω<sub>D'</sub>→Ω<sub>D</sub>
 </p>
 
 es la dirección de retorno.
@@ -1512,7 +1600,7 @@ La regla de unidad formal será:
 <p align="center">
 𝔛<sub>SV</sub>(D↔ D')<br>
  es admisible
-iff
+⇔
 (Ω,Π,𝓘,Δ,𝔡)
 <br>
  están declarados en ambas direcciones.
@@ -1639,7 +1727,7 @@ Toma una magnitud o condición física (m∈Ω<sub>M</sub>) y determina su proye
 La dirección SV hacia física se define como:
 
 <p align="center">
-𝔛<sub>≤ftarrow</sub><sup>ε,M</sup>:
+𝔛<sub>←</sub><sup>ε,M</sup>:
 Ω<sub>ε₋₀</sub>
 ⟶
 Ω<sub>M</sub>.
@@ -1652,9 +1740,9 @@ Por tanto:
 <p align="center">
 𝔛<sub>SV</sub>(M↔ε₋₀)
 
-≤ft(
+(
 𝔛<sub>→</sub><sup>M,ε</sup>,
-𝔛<sub>≤ftarrow</sub><sup>ε,M</sup>,
+𝔛<sub>←</sub><sup>ε,M</sup>,
 Ω<sub>M</sub>,
 Ω<sub>ε₋₀</sub>,
 Π<sub>M→ε</sub>,
@@ -2120,7 +2208,7 @@ El residual permite formular una regla decisiva:
 
 <p align="center">
 Δ<sub>SV</sub>(T)=0
-not⇒
+⇏
 T=ε₋₀.
 </p>
 
@@ -2199,7 +2287,7 @@ La fórmula de seguridad será:
 
 <p align="center">
 ABSORBIDA(T,D)
-not⇒
+⇏
 T=fundamento de todos los dominios.
 </p>
 
@@ -2235,7 +2323,7 @@ pero:
 T
 </p>
 
-conserva valor local no rechazable en apartado.
+conserva valor local no rechazable en conjunto.
 
 Ejemplos:
 
@@ -2287,7 +2375,7 @@ La regla será:
 
 <p align="center">
 valor local
-not⇒
+⇏
 cierre total.
 </p>
 
@@ -2434,12 +2522,12 @@ límite de devolución física del dictamen.
 La doble traducción impide dos cierres incorrectos:
 
 <p align="center">
-Mnot⇒
+M⇏
 fundamento directo del SV,
 </p>
 
 <p align="center">
-SVnot⇒
+SV⇏
 lenguaje incomunicable a la física.
 </p>
 
@@ -2536,7 +2624,7 @@ TODO<sub>SV</sub>.
 Y no:
 
 <p align="center">
-TODO_1,TODO_2,…,TODO_k.
+TODO<sub>1</sub>,TODO<sub>2</sub>,…,TODO<sub>k</sub>.
 </p>
 
 La pluralidad de dominios será tratada como diferenciación interna. Los modelos de inflación eterna, paisaje, multiverso, ciclos o aeones podrán ser absorbidos parcialmente si se formulan como pluralidad subordinada de dominios. Serán rechazados como fundamento si se formulan como exterioridad absoluta.
@@ -2674,9 +2762,9 @@ El transductor queda declarado como:
 <p align="center">
 𝔛<sub>SV</sub>(M↔ε₋₀)
 
-≤ft(
+(
 𝔛<sub>→</sub><sup>M,ε</sup>,
-𝔛<sub>≤ftarrow</sub><sup>ε,M</sup>,
+𝔛<sub>←</sub><sup>ε,M</sup>,
 Ω<sub>M</sub>,
 Ω<sub>ε₋₀</sub>,
 Π<sub>M→ε</sub>,
@@ -2765,8 +2853,8 @@ La regla de lectura queda fijada así:
 
 <p align="center">
 T
-longmapsto
-≤ft(
+↦
+(
 Ω<sub>T</sub>,
 Π<sub>T→ SV</sub>,
 𝓘_T,
@@ -2827,7 +2915,7 @@ U
 }.
 </p>
 
-La categoría (ABSORBIDA) no significa que la teoría externa gobierne el SV. Significa que queda admitida en su dominio. La categoría ABSORBIDA<sub>P</sub>ARCIAL reconoce valor físico local con residual no nulo. La categoría (RECHAZADA_COMO_FUNDAMENTO) no niega necesariamente utilidad física, sino su pretensión de ocupar un plano que no le corresponde. La categoría (U) conserva indeterminación honesta cuando el dominio no permite cierre.
+La categoría (ABSORBIDA) no significa que la teoría externa gobierne el SV. Significa que queda admitida en su dominio. La categoría ABSORBIDA_PARCIAL reconoce valor físico local con residual no nulo. La categoría (RECHAZADA_COMO_FUNDAMENTO) no niega necesariamente utilidad física, sino su pretensión de ocupar un plano que no le corresponde. La categoría (U) conserva indeterminación honesta cuando el dominio no permite cierre.
 
 La matriz preliminar queda fijada así:
 
@@ -2835,22 +2923,22 @@ La matriz preliminar queda fijada así:
 |---------------------------------------|----------------------------------------------------|-------------------------------------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------|-------------------------------------------------------------------|
 | ΛCDM | Cosmología observacional posterior | Régimen físico constituido de expansión, CMB, estructura, materia oscura y energía oscura | No funda ε₋₀ | (ABSORBIDA) en dominio cosmológico posterior | Modelo de evolución observable, no borde preformal |
 | Big Bang caliente | Estado temprano denso y caliente | Fase física temprana posterior a primera distinguibilidad | Sustitución indebida si se toma como origen absoluto | (RECHAZADA_COMO_FUNDAMENTO) si sustituye ε₋₀ | Límite físico de cosmología caliente, no primera distinguibilidad |
-| Singularidad inicial | Incompletitud del régimen clásico | Límite de extrapolación geométrica | No describe positivamente el borde preformal | ABSORBIDA<sub>P</sub>ARCIAL | Indicio de no suficiencia del marco clásico |
-| Inflación | Expansión acelerada temprana | Regularización expansiva | Campo, potencial y dinámica ya constituidos | ABSORBIDA<sub>P</sub>ARCIAL | Mecanismo físico temprano, no fundamento primero |
-| Inflación eterna / paisaje | Pluralidad de dominios físicos | Familia interna subordinada de dominios | Problema de medida, no observabilidad, exterioridad indebida | ABSORBIDA<sub>P</sub>ARCIAL | Pluralidad de regiones, no varios TODOS |
-| No-boundary | Condición cuántica de frontera | Eliminación de frontera temporal clásica | Función de onda y geometría ya constituidas | ABSORBIDA<sub>P</sub>ARCIAL | Modelo cuántico de borde, no ε₋₀ |
-| Tunneling from nothing | Modelo cuántico de creación | Transición cuántica de borde | “Nothing” físico no equivale a NADA | ABSORBIDA<sub>P</sub>ARCIAL y rechazo del “nothing” como NADA | Modelo de nucleación, no NADA SV |
-| Rebotes / LQC | Transición física de régimen | Regularización de singularidad | Dinámica y cuantización ya dadas | ABSORBIDA<sub>P</sub>ARCIAL | Rebote físico, no primera distinguibilidad |
-| Modelos cíclicos | Secuencia de fases | Ciclos internos de dominio | Ciclo no funda primera diferencia | ABSORBIDA<sub>P</sub>ARCIAL | Pluralidad de fases subordinadas |
-| Holografía / AdS-CFT | Dualidad y emergencia geométrica | Indicio de no primariedad ingenua del espacio | Formalismo físico-matemático ya constituido | ABSORBIDA<sub>P</sub>ARCIAL | Emergencia o codificación, no fundamento preformal |
-| Causal sets | Orden causal discreto | Orden estructural físico | No equivale a suceso SV ni a Σ | ABSORBIDA<sub>P</sub>ARCIAL | Discreción causal, no célula SV |
-| Espacio relacional | Filosofía del espacio | Rechazo del contenedor absoluto | Relación sin dominio completo suficiente | ABSORBIDA<sub>P</sub>ARCIAL | Aporta contra el recipiente, no cierra espacio SV |
+| Singularidad inicial | Incompletitud del régimen clásico | Límite de extrapolación geométrica | No describe positivamente el borde preformal | ABSORBIDA_PARCIAL | Indicio de no suficiencia del marco clásico |
+| Inflación | Expansión acelerada temprana | Regularización expansiva | Campo, potencial y dinámica ya constituidos | ABSORBIDA_PARCIAL | Mecanismo físico temprano, no fundamento primero |
+| Inflación eterna / paisaje | Pluralidad de dominios físicos | Familia interna subordinada de dominios | Problema de medida, no observabilidad, exterioridad indebida | ABSORBIDA_PARCIAL | Pluralidad de regiones, no varios TODOS |
+| No-boundary | Condición cuántica de frontera | Eliminación de frontera temporal clásica | Función de onda y geometría ya constituidas | ABSORBIDA_PARCIAL | Modelo cuántico de borde, no ε₋₀ |
+| Tunneling from nothing | Modelo cuántico de creación | Transición cuántica de borde | “Nothing” físico no equivale a NADA | ABSORBIDA_PARCIAL y rechazo del “nothing” como NADA | Modelo de nucleación, no NADA SV |
+| Rebotes / LQC | Transición física de régimen | Regularización de singularidad | Dinámica y cuantización ya dadas | ABSORBIDA_PARCIAL | Rebote físico, no primera distinguibilidad |
+| Modelos cíclicos | Secuencia de fases | Ciclos internos de dominio | Ciclo no funda primera diferencia | ABSORBIDA_PARCIAL | Pluralidad de fases subordinadas |
+| Holografía / AdS-CFT | Dualidad y emergencia geométrica | Indicio de no primariedad ingenua del espacio | Formalismo físico-matemático ya constituido | ABSORBIDA_PARCIAL | Emergencia o codificación, no fundamento preformal |
+| Causal sets | Orden causal discreto | Orden estructural físico | No equivale a suceso SV ni a Σ | ABSORBIDA_PARCIAL | Discreción causal, no célula SV |
+| Espacio relacional | Filosofía del espacio | Rechazo del contenedor absoluto | Relación sin dominio completo suficiente | ABSORBIDA_PARCIAL | Aporta contra el recipiente, no cierra espacio SV |
 | Sustancialismo espacial | Espacio como entidad/recipiente | Defecto por contenedor | Confunde espacio con soporte absoluto | (RECHAZADA_COMO_FUNDAMENTO) | Útil como contraste negativo |
 | Materia oscura observacional | Gravedad sin luz directa | Presencia gravitatoria no luminosa | No identifica soporte microfísico único | (ABSORBIDA) en dominio observacional | Régimen gravitatorio no luminoso |
-| WIMPs, axiones, neutrinos estériles | Candidatos microfísicos | Soportes posibles | No obligatorios ni cerrados | ABSORBIDA<sub>P</sub>ARCIAL | Hipótesis físicas de soporte |
-| MOND / gravedad modificada | Alternativa dinámica | Lectura dinámica de residuales gravitatorios | No cierra todo el dominio observacional | ABSORBIDA<sub>P</sub>ARCIAL | Alternativa parcial, no sustituto total |
+| WIMPs, axiones, neutrinos estériles | Candidatos microfísicos | Soportes posibles | No obligatorios ni cerrados | ABSORBIDA_PARCIAL | Hipótesis físicas de soporte |
+| MOND / gravedad modificada | Alternativa dinámica | Lectura dinámica de residuales gravitatorios | No cierra todo el dominio observacional | ABSORBIDA_PARCIAL | Alternativa parcial, no sustituto total |
 | Energía oscura | Aceleración cosmológica | Régimen expansivo/cosmológico de dominio | No es materia oscura ni NADA | (ABSORBIDA) como régimen expansivo | Dinámica global de expansión |
-| Agujeros negros primordiales | Candidato parcial de materia oscura | Posible soporte parcial | No equivalen a materia oscura total | ABSORBIDA<sub>P</sub>ARCIAL | Candidato restringido |
+| Agujeros negros primordiales | Candidato parcial de materia oscura | Posible soporte parcial | No equivalen a materia oscura total | ABSORBIDA_PARCIAL | Candidato restringido |
 | Agujero negro como contenedor clásico | Imagen volumétrica ordinaria | Defecto de dominio | Confunde clausura con recipiente | (RECHAZADA_COMO_FUNDAMENTO) | Contraste negativo |
 | Oscuridad física | No señal, no luminosidad, opacidad, no transmisión | Residual (R<sub>osc</sub>) tipado | Confusión con NADA o inexistencia | Depende de tipado | Régimen físico de no comparecencia luminosa |
 
@@ -2867,7 +2955,7 @@ El modelo ΛCDM se absorbe como régimen físico-cosmológico observable posteri
 H<sub>0</sub>,
 Ω<sub>b</sub>,
 Ω<sub>c</sub>,
-Ω_Λ,
+Ω<sub>Λ</sub>,
 A<sub>s</sub>,
 n<sub>s</sub>,
 τ,
@@ -3275,7 +3363,7 @@ La proyección legítima es:
 
 <p align="center">
 Π<sub>multi→ SV</sub>
-≤ft(
+(
 {Ω<sub>i</sub>}<sub>i=1</sub><sup>k</sup>
 )
 
@@ -3286,7 +3374,7 @@ La proyección ilegítima es:
 
 <p align="center">
 Π<sub>multi→ SV</sub>
-≤ft(
+(
 {Ω<sub>i</sub>}<sub>i=1</sub><sup>k</sup>
 )
 
@@ -3338,7 +3426,7 @@ El error que debe rechazarse es la exterioridad absoluta de totalidades plurales
 El rechazo se formula así:
 
 <p align="center">
-∃,U<sub>i</sub>,U<sub>j</sub>
+∃ U<sub>i</sub>,U<sub>j</sub>
  
 con
  
@@ -3361,7 +3449,7 @@ Si algo es TODO, no admite exterioridad equivalente que quede fuera de él. La p
 No como:
 
 <p align="center">
-TODO_i⊥ TODO_j.
+TODO<sub>i</sub>⊥ TODO<sub>j</sub>.
 </p>
 
 La teoría externa que proponga universos desconectados puede conservar valor físico si se interpreta como pluralidad de regiones o dominios. Pero si se formula como pluralidad de totalidades últimas, será rechazada como fundamento.
@@ -3453,7 +3541,7 @@ La teoría de causal sets se absorbe parcialmente como indicio de que la estruct
 
 {
 C,
-≺eq,
+≼,
 orden parcial,
 causalidad,
 discreción,
@@ -3518,7 +3606,7 @@ El dominio observacional incluye:
 v<sub>rot</sub>(r),
 M<sub>dyn</sub>/M<sub>bar</sub>,
 κ<sub>lens</sub>,
-C_ℓ,
+C<sub>ℓ</sub>,
 P(k),
 cúmulos,
 estructura a gran escala
@@ -3945,7 +4033,7 @@ una pluralidad cosmológica. Si cada Ω<sub>i</sub> es un dominio físico, enton
 Si se afirmara que cada Ω<sub>i</sub> constituye un TODO absoluto exterior a los demás, se tendría:
 
 <p align="center">
-TODO_1,TODO_2,…,TODO_k
+TODO<sub>1</sub>,TODO<sub>2</sub>,…,TODO<sub>k</sub>
 </p>
 
 como pluralidad de totalidades últimas. Pero una totalidad última no admite exterioridad equivalente sin dejar de ser totalidad. La hipótesis genera contradicción estructural.
@@ -4004,7 +4092,7 @@ horizonte,
 no salida luminosa,
 no transmisión exterior,
 interior saturado,
-M_N2-SV,
+M<sub>N2</sub>-SV,
 R<sup>BH</sup>
 }.
 </p>
@@ -4023,7 +4111,7 @@ Queda demostrado.
 
 **Corolario III.20.2.** Materia oscura no equivale a agujero negro; energía oscura no equivale a materia oscura; no visibilidad no equivale a inexistencia; no transmisión no equivale a NADA.
 
-**Dictamen de cierre del apartado III.** La matriz de absorción físico-factual queda establecida. El estado del arte físico no se rechaza en apartado ni se eleva a fundamento. Se ordena por dominio, proyección, residual y retorno físico. El apartado IV podrá formular ε₋₀, imperfección preformal y primera distinguibilidad sabiendo ya qué teorías físicas han sido absorbidas, absorbidas parcialmente o rechazadas como fundamento.
+**Dictamen de cierre del apartado III.** La matriz de absorción físico-factual queda establecida. El estado del arte físico no se rechaza en conjunto ni se eleva a fundamento. Se ordena por dominio, proyección, residual y retorno físico. El apartado IV podrá formular ε₋₀, imperfección preformal y primera distinguibilidad sabiendo ya qué teorías físicas han sido absorbidas, absorbidas parcialmente o rechazadas como fundamento.
 
 # IV. Parte I — Preludio doctrinal: ε₋₀, imperfección preformal y condición de posibilidad de la primera distinguibilidad
 
@@ -4403,7 +4491,7 @@ Sea P₀ un sistema perfecto indiferenciado. Por hipótesis:
 en el sentido de no distinguibilidad interna. Entonces no existe par diferencial:
 
 <p align="center">
-nexists (x,y)
+∄ (x,y)
  
 tal que
  
@@ -4413,7 +4501,7 @@ x≢ y.
 Sin par diferencial no hay primera separación:
 
 <p align="center">
-nexists (x,y):x≢ y
+∄ (x,y):x≢ y
 ⇒
 ¬∂<sub>ε</sub>.
 </p>
@@ -4672,7 +4760,7 @@ Por tanto:
 
 <p align="center">
 P
-not⊢
+⊬
 ∂<sub>ε</sub>.
 </p>
 
@@ -4824,7 +4912,7 @@ como sustitución material directa. Pero sí se afirma compatibilidad de orienta
 
 <p align="center">
 ε₋₀
-≤adsto
+↝
 𝓔<sub>∅</sub>
 </p>
 
@@ -5054,7 +5142,7 @@ con:
 No se admite:
 
 <p align="center">
-{TODO_1,TODO_2,…,TODO_k}
+{TODO<sub>1</sub>,TODO<sub>2</sub>,…,TODO<sub>k</sub>}
 </p>
 
 como pluralidad de totalidades últimas exteriores entre sí. La razón es estructural: si algo es TODO en sentido absoluto, no puede tener fuera otro TODO equivalente. Una totalidad con exterior no es totalidad absoluta; es dominio dentro de un cierre mayor.
@@ -5266,7 +5354,7 @@ Si (E) no es formulable en modo alguno, no puede ser utilizado como teoría, dom
 La regla queda:
 
 <p align="center">
-nexists E
+∄ E
  
 tal que
  
@@ -5327,7 +5415,7 @@ TODO<sub>SV</sub>.
 La fórmula incorrecta sería:
 
 <p align="center">
-{TODO_1,TODO_2,…,TODO_k}
+{TODO<sub>1</sub>,TODO<sub>2</sub>,…,TODO<sub>k</sub>}
 </p>
 
 como conjunto de totalidades últimas exteriores entre sí.
@@ -5363,7 +5451,7 @@ La pluralidad de dominios permite absorber parcialmente teorías de multiverso s
 No como:
 
 <p align="center">
-TODO_i.
+TODO<sub>i</sub>.
 </p>
 
 El dictamen será:
@@ -5674,10 +5762,10 @@ Supóngase ahora que la pluralidad de dominios implicara pluralidad de TODOS:
 <p align="center">
 𝓕<sub>Ω</sub>
 ⇒
-{TODO_1,…,TODO_k}.
+{TODO<sub>1</sub>,…,TODO<sub>k</sub>}.
 </p>
 
-Entonces cada (TODO_i) tendría exterior respecto de los otros (TODO_j). Pero una totalidad última con exterior no es totalidad última, sino dominio dentro de una contención mayor. La hipótesis se contradice.
+Entonces cada (TODO<sub>i</sub>) tendría exterior respecto de los otros (TODO<sub>j</sub>). Pero una totalidad última con exterior no es totalidad última, sino dominio dentro de una contención mayor. La hipótesis se contradice.
 
 Por tanto, la pluralidad de dominios no implica pluralidad de TODOS.
 
@@ -5880,7 +5968,7 @@ La inferencia incorrecta sería:
 <p align="center">
 Ω<sub>1</sub>,Ω<sub>2</sub>,…,Ω<sub>k</sub>
 ⇒
-TODO_1,TODO_2,…,TODO_k.
+TODO<sub>1</sub>,TODO<sub>2</sub>,…,TODO<sub>k</sub>.
 </p>
 
 La inferencia correcta es:
@@ -6077,7 +6165,7 @@ La **invisibilidad** designa ausencia de detección luminosa en un canal, instru
 
 La **transparencia** designa transmisión de señal a través de un medio o dominio sin absorción significativa en el canal considerado. No implica ausencia de estructura. Un dominio puede ser transparente a un tipo de señal y no transparente a otro.
 
-La **opacidad** designa apartadoo, dispersión, absorción o no paso de señal en un canal determinado. No equivale a clausura absoluta. La opacidad depende de frecuencia, densidad, trayectoria, interacción, escala y régimen de propagación.
+La **opacidad** designa bloqueo, dispersión, absorción o no paso de señal en un canal determinado. No equivale a clausura absoluta. La opacidad depende de frecuencia, densidad, trayectoria, interacción, escala y régimen de propagación.
 
 La **absorción** tiene dos usos que deben distinguirse. En física, designa captura, transformación o incorporación de energía, radiación o señal. En esta publicación, además, “absorción” designa una operación formal: incorporación de una teoría externa al aparato SV dentro de un dominio declarado, sin que esa teoría sustituya el fundamento que no le corresponde.
 
@@ -6130,7 +6218,7 @@ La publicación necesita esta limelemento conceptual antes de formular bancos, t
 
 ## VI.3. Definición de transparencia factual luminosa
 
-La transparencia factual luminosa se define como la condición bajo la cual una señal luminosa, una fibra luminosa o una proyección luminosa puede atravesar un dominio sin quedar apartadoada, absorbida o clausurada en el canal declarado. No es una propiedad absoluta de “la luz” aislada; es una relación entre fibra, dominio, frontera, canal y régimen de transmisión.
+La transparencia factual luminosa se define como la condición bajo la cual una señal luminosa, una fibra luminosa o una proyección luminosa puede atravesar un dominio sin quedar bloqueada, absorbida o clausurada en el canal declarado. No es una propiedad absoluta de “la luz” aislada; es una relación entre fibra, dominio, frontera, canal y régimen de transmisión.
 
 Se define:
 
@@ -6146,7 +6234,7 @@ La condición mínima será:
 𝓣<sub>L</sub>=1
 </p>
 
-si existe transmisión admisible de la fibra luminosa a través del dominio declarado sin apartadoo material del canal.
+si existe transmisión admisible de la fibra luminosa a través del dominio declarado sin bloqueo material del canal.
 
 Y:
 
@@ -6178,13 +6266,13 @@ no implica automáticamente:
 Ω=Ω<sub>BH</sub>.
 </p>
 
-Puede haber opacidad, absorción o apartadoo sin régimen BH. Para que haya régimen de agujero negro deben comparecer horizonte, no salida exterior, no transmisión luminosa, interior saturado, postfrontera tipada y vector de defecto (R<sup>BH</sup>) nulo. La no transmisión luminosa aislada no basta.
+Puede haber opacidad, absorción o bloqueo sin régimen BH. Para que haya régimen de agujero negro deben comparecer horizonte, no salida exterior, no transmisión luminosa, interior saturado, postfrontera tipada y vector de defecto (R<sup>BH</sup>) nulo. La no transmisión luminosa aislada no basta.
 
 La transparencia factual luminosa será usada para separar materia oscura de inexistencia. Si hay presencia gravitatoria no luminosa, el problema no es que “no exista” lo que no vemos. El problema es que la proyección luminosa no comparece de modo ordinario en relación con la presencia gravitatoria detectada. Por tanto:
 
 <p align="center">
 ¬𝓣<sub>L</sub>
-not⇒
+⇏
 NADA<sub>SV</sub>.
 </p>
 
@@ -6192,7 +6280,7 @@ Y:
 
 <p align="center">
 ¬𝓣<sub>L</sub>
-not⇒
+⇏
 Ω<sub>BH</sub>.
 </p>
 
@@ -6238,7 +6326,7 @@ evalúa absorción física relevante.
 R<sub>opac</sub>
 </p>
 
-evalúa opacidad o apartadoo.
+evalúa opacidad o bloqueo.
 
 <p align="center">
 R<sub>grav</sub>
@@ -6276,13 +6364,13 @@ Pero el vector residual impide inferencias indebidas. En particular:
 
 <p align="center">
 R<sub>señal</sub>=1
-not⇒
+⇏
 inexistencia.
 </p>
 
 <p align="center">
 R<sub>opac</sub>=1
-not⇒
+⇏
 agujero negro.
 </p>
 
@@ -6414,7 +6502,7 @@ Definición:
 <p align="center">
 DM<sub>SV</sub>
 :=
-≤ft(
+(
 Ω<sub>DM</sub>,
 𝓖<sub>¬ L</sub>,
 R<sup>L</sup><sub>transp</sub>,
@@ -6560,7 +6648,7 @@ Definición:
 <p align="center">
 DE<sub>SV</sub>
 :=
-≤ft(
+(
 Ω<sub>DE</sub>,
 𝓐<sub>cos</sub>,
 R<sub>exp</sub>,
@@ -6715,7 +6803,7 @@ El criterio será:
 
 <p align="center">
 relación física
-not⇒
+⇏
 identidad de dominio.
 </p>
 
@@ -6747,7 +6835,7 @@ Como:
 
 <p align="center">
 E<sub>L</sub>^C(x)=0
-not⇒
+⇏
 ∀ D,<br>
  E<sub>D</sub>(x)=0,
 </p>
@@ -6997,7 +7085,7 @@ El banco de contraste de materia oscura SV se organiza por tipos de evidencia. S
 | DM-ROT-01 | Galaxias espirales | (v<sub>rot</sub>(r)) | Velocidad de rotación no explicada por masa luminosa ordinaria | Presencia gravitatoria no luminosa | admisible como (Ω<sub>DM</sub>) |
 | DM-MASS-01 | Dinámica galáctica | (M<sub>dyn</sub>/M<sub>bar</sub>>1) | Masa dinámica excede masa bariónica visible | Residual gravitatorio no luminoso | admisible |
 | DM-LENS-01 | Lentes gravitacionales | (κ<sub>lens</sub>) | Curvatura/lente por masa no coincidente con luz ordinaria suficiente | Presencia gravitatoria no luminosa | admisible |
-| DM-CMB-01 | Fondo cósmico | (C_ℓ) | Ajuste cosmológico requiere componente no bariónica | Régimen cosmológico posterior con DM | admisible como dominio físico |
+| DM-CMB-01 | Fondo cósmico | (C<sub>ℓ</sub>) | Ajuste cosmológico requiere componente no bariónica | Régimen cosmológico posterior con DM | admisible como dominio físico |
 | DM-LSS-01 | Estructura a gran escala | (P(k)) | Crecimiento de estructura exige componente gravitatoria | Presencia gravitatoria no luminosa | admisible |
 | DM-PART-01 | Candidato microfísico | (m_χ,σ) | Soporte posible no cerrado | Hipótesis parcial | admisible parcial |
 | DM-MOND-01 | Dinámica modificada | a₀ o ley efectiva | Lectura dinámica parcial | Alternativa parcial | admisible parcial |
@@ -7044,10 +7132,10 @@ El banco de separación entre materia oscura y energía oscura fija dominios, ma
 |----------|----------------|---------------------------------------|--------------------------------------|---------------------------------------------|----------------------------------------|
 | SEP-01 | Materia oscura | (v<sub>rot</sub>(r)) | Presencia gravitatoria no luminosa | Confundir con energía oscura | admisible |
 | SEP-02 | Materia oscura | (κ<sub>lens</sub>) | Masa no luminosa inferida | Confundir con vacío | admisible |
-| SEP-03 | Materia oscura | (C_ℓ) con componente no bariónica | Régimen cosmológico de DM | Reducir a partícula obligatoria | admisible |
+| SEP-03 | Materia oscura | (C<sub>ℓ</sub>) con componente no bariónica | Régimen cosmológico de DM | Reducir a partícula obligatoria | admisible |
 | SEP-04 | Energía oscura | (a''>0) | Régimen expansivo | Confundir con materia oscura | admisible |
 | SEP-05 | Energía oscura | (w≈ -1) o w(z) | Dinámica cosmológica efectiva | Convertir en sustancia luminosa ausente | admisible |
-| SEP-06 | Energía oscura | (Ω_Λ) | Componente expansivo en ΛCDM | Confundir con NADA | admisible |
+| SEP-06 | Energía oscura | (Ω<sub>Λ</sub>) | Componente expansivo en ΛCDM | Confundir con NADA | admisible |
 | SEP-07 | Agujero negro | (R<sup>BH</sup>=0) | Clausura extrema | Confundir con DM general | admisible como BH, no admisible como DM total |
 | SEP-08 | Vacío cuántico | Estado de campo | Régimen físico-formal | Confundir con DE o NADA | admisible parcial / no admisible como fundamento |
 | SEP-09 | No visibilidad | (L<sub>obs</sub>=0) | Ausencia de señal en canal | Inferir inexistencia | no admisible si se absolutiza |
@@ -7092,7 +7180,7 @@ El cierre se formula en cinco dictámenes.
 <p align="center">
 DM<sub>SV</sub>
 
-≤ft(
+(
 Ω<sub>DM</sub>,
 𝓖<sub>¬ L</sub>,
 R<sup>L</sup><sub>transp</sub>,
@@ -7106,7 +7194,7 @@ R<sup>L</sup><sub>transp</sub>,
 <p align="center">
 DE<sub>SV</sub>
 
-≤ft(
+(
 Ω<sub>DE</sub>,
 𝓐<sub>cos</sub>,
 R<sub>exp</sub>,
@@ -7131,7 +7219,7 @@ DE<sub>SV</sub>.
 
 <p align="center">
 Δ<sub>soporte</sub>=U
-not⇒
+⇏
 DM<sub>SV</sub>=U.
 </p>
 
@@ -7139,7 +7227,7 @@ DM<sub>SV</sub>=U.
 
 <p align="center">
 Δ<sub>modelo</sub>(DE)=U
-not⇒
+⇏
 DE<sub>SV</sub>=DM<sub>SV</sub>.
 </p>
 
@@ -7274,7 +7362,7 @@ Esta precisión permitirá usar el documento de agujero negro sin desplazar la t
 
 La no transmisibilidad no equivale a transparencia. Esta distinción ya se preparó en el apartado VI y aquí debe aplicarse al agujero negro.
 
-La transparencia factual luminosa significa que una señal, fibra o proyección luminosa puede atravesar un dominio bajo condiciones declaradas. La no transmisibilidad significa que la salida por un canal queda apartadoada. No son estados simétricos de un mismo fenómeno simple; pertenecen a regímenes de dominio distintos.
+La transparencia factual luminosa significa que una señal, fibra o proyección luminosa puede atravesar un dominio bajo condiciones declaradas. La no transmisibilidad significa que la salida por un canal queda bloqueada. No son estados simétricos de un mismo fenómeno simple; pertenecen a regímenes de dominio distintos.
 
 En notación mínima:
 
@@ -7294,11 +7382,11 @@ Pero:
 
 <p align="center">
 𝓣<sub>L</sub>=0
-not⇒
+⇏
 BH<sub>SV</sub>.
 </p>
 
-Puede haber opacidad, absorción, dispersión, apartadoo local, límite instrumental o no detección sin agujero negro. Para que haya régimen (BH<sub>SV</sub>), la no transmisión luminosa debe integrarse con las demás condiciones del vector de defecto:
+Puede haber opacidad, absorción, dispersión, bloqueo local, límite instrumental o no detección sin agujero negro. Para que haya régimen (BH<sub>SV</sub>), la no transmisión luminosa debe integrarse con las demás condiciones del vector de defecto:
 
 <p align="center">
 R<sup>BH</sup>
@@ -7366,14 +7454,14 @@ materia oscura.
 
 El agujero negro no es materia oscura general ni transparencia negativa. Es clausura extrema. Su no transmisibilidad forma parte de una estructura más amplia de frontera, saturación y postfrontera.
 
-## VII.4. Clausura M_N2-SV y no contenedor espacial ordinario
+## VII.4. Clausura M<sub>N2</sub>-SV y no contenedor espacial ordinario
 
 La clausura M<sub>N</sub>2-SV) constituye una de las elementos más delicadas del régimen de agujero negro. No debe confundirse con (U), con vacío, con NADA, con ignorancia, con interior geométrico ordinario ni con volumen clásico.
 
 En el documento de agujero negro, M<sub>N</sub>2-SV) aparece como régimen postfrontera: aquello que, bajo clausura extrema, no retorna al exterior en forma formulable dentro del dominio físico ordinario. Su estatuto no es “no sabemos”, sino clausura tipada. Por tanto:
 
 <p align="center">
-M_N2-SV
+M<sub>N2</sub>-SV
 ≠
 U.
 </p>
@@ -7381,7 +7469,7 @@ U.
 También:
 
 <p align="center">
-M_N2-SV
+M<sub>N2</sub>-SV
 ≠
 NADA<sub>SV</sub>.
 </p>
@@ -7389,7 +7477,7 @@ NADA<sub>SV</sub>.
 Y:
 
 <p align="center">
-M_N2-SV
+M<sub>N2</sub>-SV
 ≠
 volumen clásico interior.
 </p>
@@ -7427,7 +7515,7 @@ La relación correcta será:
 con postfrontera tipada:
 
 <p align="center">
-Post<sup>BH</sup>=M_N2-SV.
+Post<sup>BH</sup>=M<sub>N2</sub>-SV.
 </p>
 
 Esta formulación permite decir que el agujero negro es compatible con el espacio completo, porque la clausura no niega la estructura de separación del dominio; limita el retorno exterior de un régimen extremo.
@@ -7471,7 +7559,7 @@ borde de apertura preformal,
 </p>
 
 <p align="center">
-M_N2-SV
+M<sub>N2</sub>-SV
 
 postfrontera de clausura extrema.
 </p>
@@ -7572,7 +7660,7 @@ La estructura puede escribirse:
 
 <p align="center">
 BH<sub>SV</sub>(Γ<sup>BH</sup>)=0
-iff
+⇔
 R<sup>BH</sup>=0.
 </p>
 
@@ -7581,11 +7669,11 @@ Y:
 <p align="center">
 R<sup>BH</sup>=0
 ⇒
-≤ft(
+(
 D<sub>Σ</sub>(v<sub>TE</sub>)=no admisible,
 D<sub>Σ</sub>(v<sub>L</sub>)=no admisible,
 D<sub>Σ</sub>(v<sub>INT</sub>)=SATURACIÓN,
-Post<sup>BH</sup>=M_N2-SV
+Post<sup>BH</sup>=M<sub>N2</sub>-SV
 )
 </p>
 
@@ -7632,7 +7720,7 @@ borde de apertura,
 </p>
 
 <p align="center">
-M_N2-SV
+M<sub>N2</sub>-SV
 
 régimen de postfrontera clausurada.
 </p>
@@ -7684,7 +7772,7 @@ D<sub>Σ</sub>(v<sub>INT</sub>)=SATURACIÓN,
 </p>
 
 <p align="center">
-Post<sup>BH</sup>=M_N2-SV.
+Post<sup>BH</sup>=M<sub>N2</sub>-SV.
 </p>
 
 Estas condiciones impiden tratar el interior como volumen ordinario accesible, inventariable o retornable desde el exterior. El interior no se presenta como recipiente clásico, sino como régimen saturado bajo frontera de no transmisión.
@@ -7725,7 +7813,7 @@ Puede existir una magnitud volumétrica o geométrica asociada a un modelo de ag
 
 <p align="center">
 V<sub>cl</sub>
-not⇒
+⇏
 R<sup>BH</sup>=0.
 </p>
 
@@ -7866,7 +7954,7 @@ interior saturado,
 </p>
 
 <p align="center">
-postfrontera M_N2-SV,
+postfrontera M<sub>N2</sub>-SV,
 </p>
 
 <p align="center">
@@ -7922,7 +8010,7 @@ BH<sub>SV</sub>.
 La relación con ε₋₀ se fija así:
 
 <p align="center">
-M_N2-SV
+M<sub>N2</sub>-SV
 ≠
 ε₋₀.
 </p>
@@ -8216,7 +8304,7 @@ La definición expandida será:
 <p align="center">
 Ω<sub>esp</sub>
 
-≤ft(
+(
 D<sub>sep</sub>,
 𝓡<sub>rec</sub>,
 ∂<sub>esp</sub>,
@@ -8416,7 +8504,7 @@ Por tanto:
 
 <p align="center">
 Comp(Ω<sub>esp</sub>)=1
-not⇒
+⇏
 ∀ x∈Ω<sub>esp</sub>,<br>
  x<br>
  es observable.
@@ -8432,15 +8520,15 @@ La completitud se refiere a la estructura de separación, no a la disponibilidad
 
 <p align="center">
 Comp(Ω<sub>esp</sub>)=1
-not⇒
-|Ω<sub>esp</sub>|=∈fty.
+⇏
+|Ω<sub>esp</sub>|=∞.
 </p>
 
 “Completo” no significa lleno. El espacio no es completo porque todo esté ocupado. Un dominio puede estar vacío físicamente en alguna región y seguir siendo completo como dominio de separación. La ausencia de contenido no anula la estructura del dominio.
 
 <p align="center">
 Comp(Ω<sub>esp</sub>)=1
-not⇒
+⇏
 ∀ r,<br>
  ρ(r)>0.
 </p>
@@ -8449,7 +8537,7 @@ not⇒
 
 <p align="center">
 Comp(Ω<sub>esp</sub>)=1
-not⇒
+⇏
 𝓣<sub>L</sub>=1.
 </p>
 
@@ -8457,7 +8545,7 @@ not⇒
 
 <p align="center">
 Comp(Ω<sub>esp</sub>)=1
-not⇒
+⇏
 Ω<sub>esp</sub>
 
 bigcup Γ<sub>i</sub><sup>recorridas</sup>.
@@ -8467,7 +8555,7 @@ bigcup Γ<sub>i</sub><sup>recorridas</sup>.
 
 <p align="center">
 Comp(Ω<sub>esp</sub>)=1
-not⇒
+⇏
 Ω<sub>esp</sub>=(M,g<sub>μν</sub>)
 </p>
 
@@ -8477,7 +8565,7 @@ como identidad fundante.
 
 <p align="center">
 ∂<sub>esp</sub>≠∅
-not⇒
+⇏
 ¬Comp(Ω<sub>esp</sub>).
 </p>
 
@@ -8662,7 +8750,7 @@ Por tanto:
 
 <p align="center">
 Γ
-not⊢
+⊬
 Ω<sub>esp</sub>.
 </p>
 
@@ -8725,7 +8813,7 @@ Queda demostrado.
 **Demostración.** Sea la afirmación:
 
 <p align="center">
-|Ω<sub>esp</sub>|=∈fty.
+|Ω<sub>esp</sub>|=∞.
 </p>
 
 Incluso si esa afirmación fuera aceptada en un modelo determinado, requiere ya que (Ω<sub>esp</sub>) esté definido como dominio. La infinitud es propiedad atribuida a un dominio, no condición que sustituye la definición del dominio.
@@ -8733,7 +8821,7 @@ Incluso si esa afirmación fuera aceptada en un modelo determinado, requiere ya 
 Por tanto:
 
 <p align="center">
-|Ω<sub>esp</sub>|=∈fty
+|Ω<sub>esp</sub>|=∞
 ⇒
 Ω<sub>esp</sub><br>
  definido.
@@ -8742,7 +8830,7 @@ Por tanto:
 No puede decirse:
 
 <p align="center">
-∈fty
+∞
 ⇒
 Ω<sub>esp</sub>
 </p>
@@ -8977,7 +9065,7 @@ El espacio completo puede contener fronteras internas. La existencia de frontera
 
 <p align="center">
 ∂<sub>esp</sub>≠∅
-not⇒
+⇏
 ¬Ω<sub>esp</sub><sup>completo</sup>.
 </p>
 
@@ -9072,7 +9160,7 @@ si
  
 si
  
-Ω<sub>esp</sub>=∈fty
+Ω<sub>esp</sub>=∞
 <br>
  sin dominio.
 </p>
@@ -9277,7 +9365,7 @@ La regla será:
 
 <p align="center">
 Comp(Ω<sub>esp</sub>)=1
-not⇒
+⇏
 ∀ x,<br>
  L(x)>0.
 </p>
@@ -9329,13 +9417,13 @@ No afecta al estatuto central del espacio como dominio completo de separación f
 La postfrontera:
 
 <p align="center">
-M_N2-SV
+M<sub>N2</sub>-SV
 </p>
 
 no es un “detrás” espacial. Es régimen de clausura tipada. Tampoco es ε₋₀. Por tanto:
 
 <p align="center">
-M_N2-SV
+M<sub>N2</sub>-SV
 ≠
 ε₋₀.
 </p>
@@ -9386,8 +9474,8 @@ RECHAZADA_COMO_FUNDAMENTO.
 
 <p align="center">
 Comp(Ω<sub>esp</sub>)=1
-not⇒
-|Ω<sub>esp</sub>|=∈fty.
+⇏
+|Ω<sub>esp</sub>|=∞.
 </p>
 
 **Cuarto dictamen.** El recorrido no crea el espacio.
@@ -9398,7 +9486,7 @@ not⇒
 Ω<sub>esp</sub>,
  
 Γ
-not⊢
+⊬
 Ω<sub>esp</sub>.
 </p>
 
@@ -9726,7 +9814,7 @@ En el caso luminoso-gravitacional, la distancia factual fibrosa entra en relacio
 
 <p align="center">
 Γ<sub>canal</sub>≠Γ<sub>0</sub>
-iff
+⇔
 G(ν<sub>𝓒</sub>)>0
 <br>
  y
@@ -9736,14 +9824,7 @@ Dist<sub>SV</sub><sup>fib</sup>(Γ<sub>0</sub>,𝓒)< ∞.
 Y en deformaciones de umbral del tipo:
 
 <p align="center">
-Φ
-
-1-
-frac{
-2,G(ν<sub>𝓒</sub>)·𝓖_J(ν<sub>𝓒</sub>)
-}{
-Dist<sub>SV</sub><sup>fib</sup>(i,𝓒)
-}.
+Φ = 1 − [2·G(ν<sub>𝓒</sub>)·𝓖<sub>J</sub>(ν<sub>𝓒</sub>)] / Dist<sub>SV</sub><sup>fib</sup>(i,𝓒).
 </p>
 
 Estas expresiones no se trasladan mecánicamente a todo dominio. Se reconocen como formulaciones locales válidas dentro de la teoría factual de la luz. La nueva publicación fija la familia superior para que futuras instancias no aparezcan dispersas.
@@ -10007,7 +10088,7 @@ Y:
 <p align="center">
 Ω<br>
  declarado
-not⇒
+⇏
 Γ<br>
  actualizada.
 </p>
@@ -10025,17 +10106,15 @@ La derivada factual respecto del índice de suceso permite formular cambio, vari
 se trabaja con variación respecto de un índice de suceso:
 
 <p align="center">
-frac{d<sub>SV</sub>x}{diota_S},
+(d<sub>SV</sub>x)/(dι<sub>S</sub>),
 </p>
 
-donde iota<sub>S</sub> designa el índice factual de suceso.
+donde ι<sub>S</sub> designa el índice factual de suceso.
 
 La forma general será:
 
 <p align="center">
-D<sub>SV</sub><sup>S</sup>x(s<sub>i</sub>)
-
-frac{x(s<sub>i+1</sub>)-x(s<sub>i</sub>)}{iota_S(s<sub>i+1</sub>)-iota_S(s<sub>i</sub>)}
+D<sub>SV</sub><sup>S</sup>x(s<sub>i</sub>) = [x(s<sub>i+1</sub>)−x(s<sub>i</sub>)]/[ι<sub>S</sub>(s<sub>i+1</sub>)−ι<sub>S</sub>(s<sub>i</sub>)]
 </p>
 
 cuando el dominio permita diferencia ordinal o relacional de índice. En dominios no numéricos, la derivada factual puede formularse como operador de cambio:
@@ -10053,7 +10132,7 @@ La estructura mínima es:
 <p align="center">
 D<sub>SV</sub><sup>S</sup>
 
-(Ω,Γ,iota_S,x,Δ<sub>D</sub>,𝔡<sub>D</sub>).
+(Ω,Γ,ι<sub>S</sub>,x,Δ<sub>D</sub>,𝔡<sub>D</sub>).
 </p>
 
 Donde:
@@ -10071,7 +10150,7 @@ es el dominio;
 es la trayectoria o sucesión de sucesos;
 
 <p align="center">
-iota_S
+ι<sub>S</sub>
 </p>
 
 es el índice de suceso;
@@ -10157,7 +10236,7 @@ s<sub>i</sub>,s<sub>i+1</sub>∈Ω,
 El tránsito no requiere un tiempo externo. Requiere orden factual, admisibilidad y dominio. El índice de suceso puede ordenar la sucesión:
 
 <p align="center">
-iota_S(s<sub>i</sub>)<iota_S(s<sub>i+1</sub>)
+ι<sub>S</sub>(s<sub>i</sub>)<ι<sub>S</sub>(s<sub>i+1</sub>)
 </p>
 
 cuando el dominio admita orden ordinal. Pero ese orden no equivale a tiempo físico como fundamento.
@@ -10167,7 +10246,7 @@ La estructura del tránsito será:
 <p align="center">
 Tr<sub>SV</sub>
 
-(Ω,s<sub>i</sub>,s<sub>i+1</sub>,𝓐<sub>Γ</sub>,iota_S,Δ<sub>Tr</sub>,𝔡<sub>Tr</sub>).
+(Ω,s<sub>i</sub>,s<sub>i+1</sub>,𝓐<sub>Γ</sub>,ι<sub>S</sub>,Δ<sub>Tr</sub>,𝔡<sub>Tr</sub>).
 </p>
 
 El residual será:
@@ -10206,7 +10285,7 @@ cuando el tránsito es espacial, pero:
 
 <p align="center">
 Tr<sub>SV</sub>
-not⇒
+⇏
 creación de Ω<sub>esp</sub>.
 </p>
 
@@ -10359,7 +10438,7 @@ Por tanto:
 
 <p align="center">
 Ω<sub>esp</sub>
-not⇒
+⇏
 Γ<sub>actual</sub>.
 </p>
 
@@ -10411,7 +10490,7 @@ Luego:
 
 <p align="center">
 𝓜<sub>SV</sub>(x,y;Ω)
-not⊢
+⊬
 Ω.
 </p>
 
@@ -10442,7 +10521,7 @@ s<sub>i</sub>,s<sub>i+1</sub>∈Ω,
 </p>
 
 <p align="center">
-iota_S(s<sub>i</sub>)<iota_S(s<sub>i+1</sub>)
+ι<sub>S</sub>(s<sub>i</sub>)<ι<sub>S</sub>(s<sub>i+1</sub>)
 </p>
 
 si el dominio admite índice ordinal de suceso.
@@ -10455,7 +10534,7 @@ Por tanto:
 
 <p align="center">
 Tr<sub>SV</sub>
-not⇒
+⇏
 t
 </p>
 
@@ -10487,7 +10566,7 @@ El siguiente apartado podrá demostrar la convergencia matemática del espacio c
 
 ## X.1. Fundamentos algebraico-semánticos
 
-La definición del espacio como dominio estructural completo de separación factual recorrible no se introduce como elemento aislada. Debe converger con los fundamentos algebraico-semánticos del Sistema Vectorial SV. Esa convergencia exige que el espacio quede formulado mediante dominio, sucesos, valores ternarios, dictamen, trazabilidad, composición, residual y prohibición de cierre artificial.
+La definición del espacio como dominio estructural completo de separación factual recorrible no se introduce como elemento aislado. Debe converger con los fundamentos algebraico-semánticos del Sistema Vectorial SV. Esa convergencia exige que el espacio quede formulado mediante dominio, sucesos, valores ternarios, dictamen, trazabilidad, composición, residual y prohibición de cierre artificial.
 
 El punto de partida es la estructura ternaria:
 
@@ -10555,7 +10634,7 @@ Por tanto, la convergencia se fija así:
 Ω<sub>esp</sub>
 <br>
  es admisible
-iff
+⇔
 Ω<sub>esp</sub>
 <br>
  puede entrar en dictamen SV sin violar Σ,<br>
@@ -10570,7 +10649,7 @@ Esta condición impide que el espacio quede como metáfora física. Lo convierte
 La célula SV proporciona el formato mínimo de evaluación. En su forma canónica, la célula trabaja sobre un conjunto de componentes valorables en (Σ={0,1,U}), con umbral de admisibilidad suficiente:
 
 <p align="center">
-T(n)=≤ftlfloor(7n)/(9)rfloor.
+T(n)=⌊7n/9⌋.
 </p>
 
 Esta regla permite distinguir entre admisibilidad, no admisibilidad e indeterminación honesta. En el contexto de esta publicación, el espacio puede ser evaluado mediante una célula de condiciones:
@@ -10664,7 +10743,7 @@ D<sub>Σ</sub>(v<sub>esp</sub>)
 En régimen canónico (n=9), el umbral es:
 
 <p align="center">
-T(9)=≤ftlfloor(7· 9)/(9)rfloor=7.
+T(9)=⌊7·9/9⌋=7.
 </p>
 
 La célula espacial será admisible si al menos siete componentes son favorables y no existe violación crítica. Será no admisible si una condición crítica destruye el dominio —por ejemplo, identificar espacio con contenedor absoluto, trayectoria creadora o exterior al TODO—. Será (U) si la información no permite dictamen.
@@ -10765,7 +10844,7 @@ La composición no significa mezcla indiferenciada. Cada célula mantiene su dom
 C<sub>i</sub>∘ C<sub>j</sub>
 <br>
  es admisible
-iff
+⇔
 Dom(C<sub>i</sub>),Dom(C<sub>j</sub>),Π<sub>ij</sub>,Δ<sub>ij</sub>
 <br>
  están declarados.
@@ -10881,7 +10960,7 @@ cuando el ciclo sea espacial o recorrible, pero:
 
 <p align="center">
 𝓚<sub>SV</sub>
-not⊢
+⊬
 Ω<sub>esp</sub>.
 </p>
 
@@ -11113,13 +11192,13 @@ Pero la relación no se invierte:
 
 <p align="center">
 Rot<sub>SV</sub>
-not⊢
+⊬
 Ω<sub>esp</sub>.
 </p>
 
 <p align="center">
 Div<sub>SV</sub>
-not⊢
+⊬
 Ω<sub>esp</sub>.
 </p>
 
@@ -11319,7 +11398,7 @@ La no transmisión tampoco equivale a inexistencia:
 
 <p align="center">
 Trans<sub>SV</sub>=0
-not⇒
+⇏
 A=0.
 </p>
 
@@ -11341,7 +11420,7 @@ La regla será:
 
 <p align="center">
 interacción
-not⇒
+⇏
 identidad.
 </p>
 
@@ -11565,7 +11644,7 @@ D<sub>Σ</sub>,
 </p>
 
 <p align="center">
-T(n)=≤ftlfloor(7n)/(9)rfloor,
+T(n)=⌊7n/9⌋,
 </p>
 
 <p align="center">
@@ -11606,7 +11685,7 @@ BH<sub>SV</sub>,
  
 R<sup>BH</sup>,
  
-M_N2-SV,
+M<sub>N2</sub>-SV,
 </p>
 
 <p align="center">
@@ -11755,7 +11834,7 @@ pero:
 
 <p align="center">
 Ω<sub>fis</sub>
-not⇒
+⇏
 ε₋₀.
 </p>
 
@@ -11817,7 +11896,7 @@ pero:
 
 <p align="center">
 propagación electromagnética
-not⊢
+⊬
 Ω<sub>esp</sub>.
 </p>
 
@@ -11849,7 +11928,7 @@ como condición de formulabilidad física, y:
 
 <p align="center">
 EM<sub>SV</sub>
-not⇒
+⇏
 ε<sub>-0</sub>
 </p>
 
@@ -11895,7 +11974,7 @@ pero:
 
 <p align="center">
 Φ^L<sub>SV</sub>
-not⊢
+⊬
 Ω<sub>esp</sub>.
 </p>
 
@@ -11929,7 +12008,7 @@ pero:
 
 <p align="center">
 Dist<sub>SV</sub><sup>fib</sup>(Γ,𝓒)
-not⊢
+⊬
 Ω.
 </p>
 
@@ -12075,11 +12154,11 @@ No crean el dominio:
 
 <p align="center">
 Int<sub>SV</sub>
-not⊢
+⊬
 Ω,
  
 Trans<sub>SV</sub>
-not⊢
+⊬
 Ω.
 </p>
 
@@ -12115,7 +12194,7 @@ La transmisión factual permite tratar luz, señal, calor, onda, campo y fronter
 
 <p align="center">
 Trans<sub>SV</sub>=0
-not⇒
+⇏
 A=0.
 </p>
 
@@ -12239,7 +12318,7 @@ pero:
 
 <p align="center">
 H
-not⊢
+⊬
 Ω<sub>esp</sub>.
 </p>
 
@@ -12318,9 +12397,7 @@ C<sub>SV</sub>(δ)=-cosδ
 se deriva como carácter real irreducible mínimo de (S<sup>¹</sup>), y su proyección al régimen binario permite recuperar la forma:
 
 <p align="center">
-frac{1-C<sub>SV</sub>(δ)}{2}
-
-cos<sup>²</sup>(δ/2).
+(1−C<sub>SV</sub>(δ))/2 = cos<sup>2</sup>(δ/2).
 </p>
 
 El punto decisivo para esta publicación no es repetir el desarrollo cuántico, sino extraer su función espacial: el ángulo, la correlación, la holonomía y la frontera angular son operaciones sobre dominio. No fundan el espacio, pero prueban que el espacio puede soportar relaciones angulares factuales sin ser reducido a geometría auxiliar.
@@ -12347,7 +12424,7 @@ La correlación angular no crea el espacio:
 
 <p align="center">
 C<sub>SV</sub>(δ)
-not⊢
+⊬
 Ω<sub>esp</sub>.
 </p>
 
@@ -12381,7 +12458,7 @@ pero:
 
 <p align="center">
 C<sub>SV</sub>(δ)
-not⇒
+⇏
 ε₋₀.
 </p>
 
@@ -12444,7 +12521,7 @@ El agujero negro sirve, por tanto, como prueba de robustez: incluso donde la fí
 También se conserva la separación con ε₋₀:
 
 <p align="center">
-M_N2-SV
+M<sub>N2</sub>-SV
 ≠
 ε₋₀.
 </p>
@@ -12550,7 +12627,7 @@ pero:
 
 <p align="center">
 termodinámica factual
-not⊢
+⊬
 Ω<sub>esp</sub>.
 </p>
 
@@ -12563,7 +12640,7 @@ La materia oscura SV ya quedó definida como:
 <p align="center">
 DM<sub>SV</sub>
 
-≤ft(
+(
 Ω<sub>DM</sub>,
 𝓖<sub>¬ L</sub>,
 R<sup>L</sup><sub>transp</sub>,
@@ -12592,7 +12669,7 @@ La materia oscura no funda el espacio; opera dentro de él. Tampoco lo niega por
 
 <p align="center">
 L<sub>obs</sub>=0
-not⇒
+⇏
 x∉Ω<sub>esp</sub>.
 </p>
 
@@ -12608,7 +12685,7 @@ Pero:
 
 <p align="center">
 DM<sub>SV</sub>
-not⊢
+⊬
 Ω<sub>esp</sub>.
 </p>
 
@@ -12616,7 +12693,7 @@ El espacio completo admite oscuridad, porque completitud no significa luminosida
 
 <p align="center">
 Comp(Ω<sub>esp</sub>)=1
-not⇒
+⇏
 ∀ x,<br>
  L(x)>0.
 </p>
@@ -12775,7 +12852,7 @@ porque propagación, campo, contorno, divergencia y rotor requieren dominio. Per
 
 <p align="center">
 EM<sub>SV</sub>
-not⊢
+⊬
 Ω<sub>esp</sub>.
 </p>
 
@@ -13188,7 +13265,7 @@ TODO<sub>SV</sub>.
 No:
 
 <p align="center">
-{TODO_1,TODO_2,…,TODO_k}.
+{TODO<sub>1</sub>,TODO<sub>2</sub>,…,TODO<sub>k</sub>}.
 </p>
 
 El banco declara admisible la pluralidad de dominios, admisible parcial la pluralidad física modelizada, no admisible la exterioridad absoluta y (U) la infinitud no determinada sin regla.
@@ -13225,7 +13302,7 @@ no utilizable como fundamento.
 Por tanto:
 
 <p align="center">
-nexists E
+∄ E
  
 tal que
  
@@ -13305,7 +13382,7 @@ La fórmula de cierre será:
 pero:
 
 <p align="center">
-Γnot⊢Ω<sub>esp</sub>.
+Γ⊬Ω<sub>esp</sub>.
 </p>
 
 Y:
@@ -13328,7 +13405,7 @@ Este banco separa no visibilidad, transparencia, opacidad, absorción, no transm
 | LUM-04 | No transmisión BH | No salida exterior bajo horizonte | Clausura extrema con (R<sup>BH</sup>=0) | Opacidad simple | admisible si vector completo |
 | LUM-05 | Ausencia de luz = inexistencia | Inferencia indebida | Viola dominio | Confunde canal con ser | no admisible |
 | LUM-06 | Transparencia = vacío | Inferencia indebida | Viola estructura de dominio | Confunde paso con ausencia | no admisible |
-| LUM-07 | Opacidad = agujero negro | Condición insuficiente | Falta vector (R<sup>BH</sup>) | Confunde apartadoo con clausura | no admisible |
+| LUM-07 | Opacidad = agujero negro | Condición insuficiente | Falta vector (R<sup>BH</sup>) | Confunde bloqueo con clausura | no admisible |
 | LUM-08 | No transmisión = NADA | Sustitución indebida | Viola TODO/NADA | Confunde frontera con NADA | no admisible |
 | LUM-09 | Fibra no retornante preservada | Luz factual bajo no salida exterior | Preservación no transmisiva | Destrucción de luz | admisible |
 
@@ -13336,19 +13413,19 @@ La regla será:
 
 <p align="center">
 L<sub>obs</sub>=0
-not⇒
+⇏
 x=0.
 </p>
 
 <p align="center">
 𝓣<sub>L</sub>=0
-not⇒
+⇏
 BH<sub>SV</sub>.
 </p>
 
 <p align="center">
 Trans<sub>SV</sub>=0
-not⇒
+⇏
 NADA<sub>SV</sub>.
 </p>
 
@@ -13466,7 +13543,7 @@ contenedor volumétrico clásico.
 Y:
 
 <p align="center">
-M_N2-SV
+M<sub>N2</sub>-SV
 ≠
 ε₋₀.
 </p>
@@ -13486,7 +13563,7 @@ Este banco evalúa fórmulas o estructuras físicas potentes que pueden ser abso
 | FORM-07 | (𝓣<sub>L</sub>) | Transparencia luminosa | Confundir con existencia | admisible |
 | FORM-08 | (𝓖<sub>¬ L</sub>) | Presencia gravitatoria no luminosa | Confundir con partícula obligatoria | admisible |
 | FORM-09 | (𝓐<sub>cos</sub>) | Expansión cosmológica | Confundir con materia oscura | admisible |
-| FORM-10 | (T(n)=lfloor 7n/9rfloor) | Umbral celular SV | Sustituir lectura material por umbral solo | admisible con dominio |
+| FORM-10 | (T(n)=⌊7n/9⌋) | Umbral celular SV | Sustituir lectura material por umbral solo | admisible con dominio |
 | FORM-11 | Probabilidad cuántica | Dominio físico-estadístico | Criterio fundante de verdad | no admisible como fundamento |
 | FORM-12 | Vacío cuántico | Campo físico formalizado | NADA | no admisible como fundamento |
 | FORM-13 | Infinito espacial | Propiedad de modelo | Fundamento sin dominio | no admisible |
@@ -13542,7 +13619,7 @@ La fórmula será:
 
 <p align="center">
 admisible(B<sub>i</sub>)
-iff
+⇔
 Δ<sub>dom</sub>=0
 wedge
 Δ<sub>proj</sub>=0
@@ -13621,7 +13698,7 @@ La fórmula será:
 
 <p align="center">
 no admisible(B<sub>i</sub>)
-iff
+⇔
 Δ<sub>crit</sub>(B<sub>i</sub>)=1
 </p>
 
@@ -13685,7 +13762,7 @@ u<sub>SV</sub>,,
 Ω<sub>SV</sub>,,
 Δ<sub>i</sub>,,
 𝔡<sub>i</sub>,,
-𝔛<sub>≤ftarrow</sub><sup>SV,M</sup>,,
+𝔛<sub>←</sub><sup>SV,M</sup>,,
 R<sub>i</sub><sup>fis</sup>,,
 𝓘<sub>𝔛</sub>
 ).
@@ -13742,7 +13819,7 @@ es el residual visible;
 es el dictamen;
 
 <p align="center">
-𝔛<sub>≤ftarrow</sub><sup>SV,M</sup>
+𝔛<sub>←</sub><sup>SV,M</sup>
 </p>
 
 es el retorno SV → física;
@@ -13763,23 +13840,23 @@ La regla de no contaminación queda fijada:
 
 <p align="center">
 M<sub>i</sub>
-not⇒
+⇏
 ε₋₀,
  
 M<sub>i</sub>
-not⇒
+⇏
 NADA<sub>SV</sub>,
  
 M<sub>i</sub>
-not⇒
+⇏
 TODO<sub>SV</sub>,
  
 M<sub>i</sub>
-not⇒
+⇏
 Ω<sub>esp</sub>,
  
 M<sub>i</sub>
-not⇒
+⇏
 U.
 </p>
 
@@ -13804,8 +13881,8 @@ Las unidades derivadas que se usarán en las tablas siguientes son:
 | **Magnitud física** | **Unidad SI** | **Unidad SV** |
 |------------------------------------|-----------------------|-------------------------------------------------------------------------------------------------------|
 | Frecuencia | Hz | (UE_MFC<sup>-1</sup>) |
-| Velocidad | m·s(<sup>-1</sup>) | (UFE,UE_MFC<sup>-1</sup>) |
-| Aceleración | m·s(<sup>-2</sup>) | (UFE,UE_MFC<sup>-2</sup>) |
+| Velocidad | m·s<sup>-1</sup> | (UFE,UE_MFC<sup>-1</sup>) |
+| Aceleración | m·s<sup>-2</sup> | (UFE,UE_MFC<sup>-2</sup>) |
 | Fuerza | N | (UFM,UFE,UE_MFC<sup>-2</sup>) |
 | Energía | J | (UFM,UFE<sup>2</sup>,UE_MFC<sup>-2</sup>) |
 | Potencia | W | (UFM,UFE<sup>2</sup>,UE_MFC<sup>-3</sup>) |
@@ -13822,8 +13899,8 @@ Las unidades derivadas que se usarán en las tablas siguientes son:
 | Entropía / capacidad térmica | J·K(<sup>-1</sup>) | (UFM,UFE<sup>2</sup>,UE_MFC<sup>-2</sup>,UFT<sup>-1</sup>) |
 | Constante de gas ideal | J·mol(<sup>-1</sup>)·K(<sup>-1</sup>) | (UFM,UFE<sup>2</sup>,UE_MFC<sup>-2</sup>,UFCE<sup>-1</sup>,UFT<sup>-1</sup>) |
 | Masa molar | kg·mol(<sup>-1</sup>) | (UFM,UFCE<sup>-1</sup>) |
-| Área | m(<sup>²</sup>) | (UFE<sup>2</sup>) |
-| Volumen | m(<sup>³</sup>) | (UFE<sup>3</sup>) |
+| Área | m<sup>2</sup> | (UFE<sup>2</sup>) |
+| Volumen | m<sup>3</sup> | (UFE<sup>3</sup>) |
 | Curvatura escalar | m(<sup>-2</sup>) | (UFE<sup>-2</sup>) |
 | Curvatura Kretschmann | m(<sup>-4</sup>) | (UFE<sup>-4</sup>) |
 | Flujo espectral radiométrico | W·m(<sup>-2</sup>)·Hz(<sup>-1</sup>) | (UFM,UE_MFC<sup>-2</sup>) |
@@ -13835,13 +13912,13 @@ La candela no se usa como primitivo SV. Cuando el banco trate luz, señal, opaci
 
 | **Magnitud física** | **Unidad SI** | **Unidad SV** | **Física → SV** | **Dominio SV** | **SV → física** | **No contaminación** |
 |----------------------------|------------------------|------------------------------------------------------------------------------------|--------------------------------|--------------------------------|------------------------------------|-------------------------------------------------|
-| H₀ | km·s(<sup>-1</sup>)·Mpc(<sup>-1</sup>) | (UE_MFC<sup>-1</sup>) | Tasa de expansión | (Ω<sub>fis</sub><sup>cos</sup>) | Expansión observable posterior | (H₀≠ε₋₀) |
+| H₀ | km·s<sup>-1</sup>·Mpc(<sup>-1</sup>) | (UE_MFC<sup>-1</sup>) | Tasa de expansión | (Ω<sub>fis</sub><sup>cos</sup>) | Expansión observable posterior | (H₀≠ε₋₀) |
 | (T<sub>CMB</sub>) | K | (UFT) | Temperatura de radiación fósil | (Ω<sub>rad</sub>) | Universo temprano caliente | (T<sub>CMB</sub>) no es temperatura preformal |
-| (C_ℓ) | (μ K<sup>²</sup>) | (UFT<sup>2</sup>) | Anisotropía angular | (Ω<sub>CMB</sub>) | Huella física posterior | CMB no funda primera distinguibilidad |
+| (C<sub>ℓ</sub>) | (μ K<sup>²</sup>) | (UFT<sup>2</sup>) | Anisotropía angular | (Ω<sub>CMB</sub>) | Huella física posterior | CMB no funda primera distinguibilidad |
 | (g<sub>μν</sub>) | tensor métrico | adimensional | Métrica geométrica | (Ω<sub>geom</sub>) | Geometría física constituida | (g<sub>μν</sub>≠Ω<sub>esp</sub>) |
-| (ds<sup>²</sup>) | m(<sup>²</sup>) | (UFE<sup>2</sup>) | Intervalo físico | (Ω<sub>geom</sub>) | Medición de separación | Intervalo no crea espacio |
+| (ds<sup>²</sup>) | m<sup>2</sup> | (UFE<sup>2</sup>) | Intervalo físico | (Ω<sub>geom</sub>) | Medición de separación | Intervalo no crea espacio |
 | (D<sub>L</sub>(z)) | Mpc | (UFE) | Distancia luminosidad | (Ω<sub>DE</sub>) | Historia expansiva | Distancia no funda dominio |
-| (v<sub>rot</sub>(r)) | km·s(<sup>-1</sup>) | (UFE,UE_MFC<sup>-1</sup>) | Curva de rotación | (Ω<sub>DM</sub>) | Presencia gravitatoria no luminosa | DM no es partícula obligatoria |
+| (v<sub>rot</sub>(r)) | km·s<sup>-1</sup> | (UFE,UE_MFC<sup>-1</sup>) | Curva de rotación | (Ω<sub>DM</sub>) | Presencia gravitatoria no luminosa | DM no es partícula obligatoria |
 | (M<sub>dyn</sub>) | kg, (M_odot) | (UFM) | Masa dinámica | (Ω<sub>DM</sub>) | Masa inferida por dinámica | Masa no equivale a NADA |
 | (κ,γ) | adimensional | adimensional | Lente gravitacional | (Ω<sub>DM</sub>) | Masa proyectada por lente | Lente no funda espacio |
 | w | adimensional | adimensional | Ecuación de estado | (Ω<sub>DE</sub>) | Régimen expansivo | DE no es DM |
@@ -13849,7 +13926,7 @@ La candela no se usa como primitivo SV. Cuando el banco trate luz, señal, opaci
 | r<sub>s</sub> | m | (UFE) | Radio de horizonte | (Ω<sub>BH</sub>) | Frontera de no retorno | r<sub>s</sub> no es caja |
 | T<sub>H</sub> | K | (UFT) | Temperatura Hawking | (Ω<sub>BH</sub>) | Termodinámica de horizonte | T<sub>H</sub> no es preformal |
 | (S<sub>BH</sub>) | J·K(<sup>-1</sup>) | (UFM,UFE<sup>2</sup>,UE_MFC<sup>-2</sup>,UFT<sup>-1</sup>) | Entropía de horizonte | (Ω<sub>BH</sub>) | Termodinámica de frontera | Entropía no es NADA |
-| (F_ν) | W·m(<sup>-2</sup>)·Hz(<sup>-1</sup>) | (UFM,UE_MFC<sup>-2</sup>) | Flujo espectral observado | Ω<sub>L</sub> | Detección radiométrica | (F_ν=0not⇒) inexistencia |
+| (F_ν) | W·m(<sup>-2</sup>)·Hz(<sup>-1</sup>) | (UFM,UE_MFC<sup>-2</sup>) | Flujo espectral observado | Ω<sub>L</sub> | Detección radiométrica | (F_ν=0⇏) inexistencia |
 | (τ_ν) | adimensional | adimensional | Profundidad óptica | Ω<sub>L</sub> | Opacidad de canal | Opacidad no es BH |
 | E<sub>I</sub> | eV, J | (UFM,UFE<sup>2</sup>,UE_MFC<sup>-2</sup>) | Energía de ionización | (Ω<sub>atom</sub>) | Estabilidad atómica | Hidrógeno no es ε₋₀ |
 | (𝓕<sub>𝓐</sub>) | curvatura de conexión | según sector; geométricamente (UFE<sup>-2</sup>) | Campo/curvatura | (Ω<sub>campo</sub>) | Proyección física situada | Campo no funda espacio |
@@ -13858,18 +13935,18 @@ La candela no se usa como primitivo SV. Cuando el banco trate luz, señal, opaci
 
 | **Entrada física real** | **Unidad SI** | **Unidad SV** | **Física → SV** | **Residual** | **SV → física** | **Dictamen** |
 |------------------------------------------|---------------------------|------------------------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|------------------------------------------------|-------------------------|
-| H₀ | km·s(<sup>-1</sup>)·Mpc(<sup>-1</sup>) | (UE_MFC<sup>-1</sup>) | Tasa de expansión de (Ω<sub>fis</sub><sup>cos</sup>) | Tensiones de medición no afectan al borde preformal | Expansión actual observable | admisible |
+| H₀ | km·s<sup>-1</sup>·Mpc(<sup>-1</sup>) | (UE_MFC<sup>-1</sup>) | Tasa de expansión de (Ω<sub>fis</sub><sup>cos</sup>) | Tensiones de medición no afectan al borde preformal | Expansión actual observable | admisible |
 | (a(t)) | adimensional | adimensional | Factor de escala físico | Usa parámetro cosmológico posterior | Evolución de escala, no origen preformal | admisible parcial |
-| (dot a/a) | s(<sup>-1</sup>) | (UE_MFC<sup>-1</sup>) | Expansión instantánea física | Tiempo físico transducido | Tasa de expansión de dominio físico | admisible parcial |
-| (ddot a) | s(<sup>-2</sup>) en normalización | (UE_MFC<sup>-2</sup>) | Aceleración de expansión | No funda espacio | Aceleración cosmológica posterior | admisible parcial |
+| (dot a/a) | s<sup>-1</sup> | (UE_MFC<sup>-1</sup>) | Expansión instantánea física | Tiempo físico transducido | Tasa de expansión de dominio físico | admisible parcial |
+| (ddot a) | s<sup>-2</sup> en normalización | (UE_MFC<sup>-2</sup>) | Aceleración de expansión | No funda espacio | Aceleración cosmológica posterior | admisible parcial |
 | (ρ<sub>c</sub>=3H₀<sup>²</sup>/(8π G)) | kg·m(<sup>-3</sup>) | (UFM,UFE<sup>-3</sup>) | Densidad crítica del modelo | No equivale al TODO | Densidad física de cierre | admisible |
 | Ω<sub>m</sub> | adimensional | adimensional | Fracción de materia total | No separa por sí sola bariones/DM | Componente material física | admisible |
 | Ω<sub>b</sub> | adimensional | adimensional | Fracción bariónica | No agota materia total | Materia ordinaria física | admisible |
 | (Ω<sub>c</sub> h<sup>²</sup>) | adimensional | adimensional | Densidad física de materia fría no bariónica | Soporte microfísico abierto | Entrada cosmológica de materia oscura | admisible |
-| (Ω_Λ) | adimensional | adimensional | Componente expansiva | Interpretación física abierta | Energía oscura efectiva | admisible |
+| (Ω<sub>Λ</sub>) | adimensional | adimensional | Componente expansiva | Interpretación física abierta | Energía oscura efectiva | admisible |
 | (T<sub>CMB</sub>) | K | (UFT) | Radiación fósil posterior | No es temperatura de ε₋₀ | Evidencia física de universo temprano caliente | admisible |
 | (z_*) | adimensional | adimensional | Recombinación/desacoplamiento | No es primera distinguibilidad | Frontera física de transparencia | admisible |
-| (C_ℓ<sup>TT</sup>,C_ℓ<sup>TE</sup>,C_ℓ<sup>EE</sup>) | (μ K<sup>²</sup>) | (UFT<sup>2</sup>) | Anisotropías CMB | Modelo cosmológico | Huella observable de estructura temprana | admisible |
+| (C<sub>ℓ</sub><sup>TT</sup>,C<sub>ℓ</sub><sup>TE</sup>,C<sub>ℓ</sub><sup>EE</sup>) | (μ K<sup>²</sup>) | (UFT<sup>2</sup>) | Anisotropías CMB | Modelo cosmológico | Huella observable de estructura temprana | admisible |
 | (P(k)) | Mpc(<sup>³</sup>) | (UFE<sup>3</sup>) | Espectro de potencia de materia | Modelo de crecimiento | Estructura a gran escala | admisible |
 | n<sub>s</sub> | adimensional | adimensional | Índice espectral primordial | Modelo inflacionario parcial | Pendiente física del espectro | admisible parcial |
 | r | adimensional | adimensional | Relación tensor/escalar | No cerrado si falta evidencia suficiente | Observable inflacionario parcial | U / admisible parcial |
@@ -13883,7 +13960,7 @@ La candela no se usa como primitivo SV. Cuando el banco trate luz, señal, opaci
 Física → SV:
 
 <p align="center">
-(H<sub>0</sub>,T<sub>CMB</sub>,C_ℓ,Ω<sub>m</sub>,Ω_Λ,N,n<sub>s</sub>,r,ρ<sub>bounce</sub>)
+(H<sub>0</sub>,T<sub>CMB</sub>,C<sub>ℓ</sub>,Ω<sub>m</sub>,Ω<sub>Λ</sub>,N,n<sub>s</sub>,r,ρ<sub>bounce</sub>)
 ⟶
 Ω<sub>fis</sub><sup>cos</sup>.
 </p>
@@ -13908,7 +13985,7 @@ No contaminación:
 
 <p align="center">
 Ω<sub>fis</sub><sup>cos</sup>
-not⇒
+⇏
 Ω<sub>ε₋₀</sub>.
 </p>
 
@@ -13919,15 +13996,15 @@ La cosmología física entra con (UE_MFC, UFE, UFM, UFT) y unidades derivadas. N
 | **Entrada física real** | **Unidad SI** | **Unidad SV** | **Física → SV** | **Residual** | **SV → física** | **Dictamen** |
 |-----------------------------------|---------------------------------------|-------------------------------------------------|--------------------------------------|--------------------------------|------------------------------------------------|--------------|
 | (g<sub>μν</sub>) | adimensional en convención geométrica | adimensional | Métrica física | No funda separación primera | Geometría de espacio-tiempo constituido | admisible parcial |
-| (ds<sup>²</sup>=g<sub>μν</sub>dx^μ dx^ν) | m(<sup>²</sup>) | (UFE<sup>2</sup>) | Intervalo físico | Requiere dominio | Medición de separación, no creación de espacio | admisible parcial |
+| (ds<sup>²</sup>=g<sub>μν</sub>dx^μ dx^ν) | m<sup>2</sup> | (UFE<sup>2</sup>) | Intervalo físico | Requiere dominio | Medición de separación, no creación de espacio | admisible parcial |
 | (D<sub>L</sub>(z)) | Mpc | (UFE) | Distancia luminosidad | Modelo cosmológico | Medición observacional posterior | admisible |
 | (D<sub>A</sub>(z)) | Mpc | (UFE) | Distancia angular | Modelo cosmológico | Relación tamaño-ángulo | admisible |
 | D<sub>C</sub> | Mpc | (UFE) | Distancia comóvil | Depende de modelo | Coordenada cosmológica posterior | admisible parcial |
-| (V=∫sqrt{g},d<sup>³</sup>x) | m(<sup>³</sup>) | (UFE<sup>3</sup>) | Volumen geométrico | Foliación/modelo | Volumen no define espacio como contenedor | admisible parcial |
+| V=∫√g d<sup>3</sup>x | m<sup>3</sup> | (UFE<sup>3</sup>) | Volumen geométrico | Foliación/modelo | Volumen no define espacio como contenedor | admisible parcial |
 | (γλ) | curva parametrizada | dominio formal | Trayectoria física | Requiere dominio previo | Geodésica presupone espacio-tiempo | admisible parcial |
 | (L=∫ ds) | m | (UFE) | Longitud de trayectoria | Medición posterior | Medir recorrido no crea dominio | admisible |
-| (v=dx/dt) | m·s(<sup>-1</sup>) | (UFE,UE_MFC<sup>-1</sup>) | Velocidad física | Tiempo físico transducido | Cinemática posterior | admisible parcial |
-| (a=dv/dt) | m·s(<sup>-2</sup>) | (UFE,UE_MFC<sup>-2</sup>) | Aceleración física | Tiempo físico transducido | Cambio cinemático posterior | admisible parcial |
+| (v=dx/dt) | m·s<sup>-1</sup> | (UFE,UE_MFC<sup>-1</sup>) | Velocidad física | Tiempo físico transducido | Cinemática posterior | admisible parcial |
+| (a=dv/dt) | m·s<sup>-2</sup> | (UFE,UE_MFC<sup>-2</sup>) | Aceleración física | Tiempo físico transducido | Cambio cinemático posterior | admisible parcial |
 | (dτ) | s | (UE_MFC) | Tiempo propio | Magnitud física de trayectoria | Parámetro físico posterior | admisible parcial |
 | R<sub>H</sub> | m, Mpc | (UFE) | Horizonte causal/observacional | No es borde del TODO | Límite de observabilidad | admisible parcial |
 | (Γ→Ω<sub>esp</sub>) | — | — | Trayectoria como creación de espacio | Circularidad crítica | No hay recorrido sin dominio | no admisible |
@@ -13968,7 +14045,7 @@ La UFE permite comparar magnitudes espaciales; no introduce geometría diferenci
 
 | **Entrada física o formal** | **Unidad SI** | **Unidad SV** | **Física → SV** | **Residual** | **SV → física** | **Dictamen** |
 |-----------------------------------|---------------------------------------------------|---------------------------------------------------------------------------------------------------|--------------------------------|-------------------------------------------------|--------------------------------------------------|--------------|
-| Área de frontera (A) | m(<sup>²</sup>) | (UFE<sup>2</sup>) | Frontera física | No funda primera separación | Área puede codificar información | admisible parcial |
+| Área de frontera (A) | m<sup>2</sup> | (UFE<sup>2</sup>) | Frontera física | No funda primera separación | Área puede codificar información | admisible parcial |
 | (S=A/(4ℓ_P<sup>²</sup>)) | adimensional o J·K(<sup>-1</sup>) si se reintroduce k<sub>B</sub> | adimensional o (UFM,UFE<sup>2</sup>,UE_MFC<sup>-2</sup>,UFT<sup>-1</sup>) | Entropía de frontera | No equivale a NADA | Holografía como lectura de frontera | admisible parcial |
 | Radio AdS (L) | m | (UFE) | Escala geométrica | Fondo específico | Correspondencia física parcial | admisible parcial |
 | Entropía de entrelazamiento S<sub>A</sub> | adimensional o J·K(<sup>-1</sup>) según convención | adimensional o (UFM,UFE<sup>2</sup>,UE_MFC<sup>-2</sup>,UFT<sup>-1</sup>) | Correlación cuántica | Correlación no funda ε₋₀ | Conectividad física, no primera distinguibilidad | admisible parcial |
@@ -14000,7 +14077,7 @@ No contaminación:
 holografía,<br>
  entrelazamiento,<br>
  causalidad discreta
-not⇒
+⇏
 ε₋₀.
 </p>
 
@@ -14008,7 +14085,7 @@ not⇒
 
 | **Entrada física real** | **Unidad SI** | **Unidad SV** | **Física → SV** | **Residual** | **SV → física** | **Dictamen** |
 |-------------------------------------------------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|--------------------------|---------------------------------------------------|----------------------|
-| Tasa de nucleación (Γ<sub>vac</sub>) | m(<sup>-3</sup>)·s(<sup>-1</sup>) o m(<sup>-4</sup>) en unidades naturales | (UFE<sup>-3</sup>,UE_MFC<sup>-1</sup>) o (UFE<sup>-4</sup>) | Formación de burbujas | Modelo especulativo | Pluralidad física de regiones | admisible parcial |
+| Tasa de nucleación (Γ<sub>vac</sub>) | m(<sup>-3</sup>)·s<sup>-1</sup> o m(<sup>-4</sup>) en unidades naturales | (UFE<sup>-3</sup>,UE_MFC<sup>-1</sup>) o (UFE<sup>-4</sup>) | Formación de burbujas | Modelo especulativo | Pluralidad física de regiones | admisible parcial |
 | Energía de vacío (Vφ<sub>i</sub>) | J·m(<sup>-3</sup>) | (UFM,UFE<sup>-1</sup>,UE_MFC<sup>-2</sup>) | Mínimos de potencial | Vacío físico no es NADA | Paisaje como familia de estados físicos | admisible parcial |
 | Horizonte causal R<sub>H</sub> | m, Mpc | (UFE) | Límite de comunicación | No exterioridad absoluta | Región no comunicante no queda fuera del TODO | admisible parcial |
 | Constantes efectivas ({Λ<sub>i</sub>,G<sub>i</sub>,α<sub>i</sub>}) | varias | (Λ<sub>i</sub>:UFE<sup>-2</sup>); (G<sub>i</sub>:UFE<sup>3</sup>UFM<sup>-1</sup>UE_MFC<sup>-2</sup>); α<sub>i</sub>: adimensional | Dominios con parámetros distintos | Especulativo | Pluralidad modelizada de dominios | U / admisible parcial |
@@ -14040,7 +14117,7 @@ No contaminación:
 
 <p align="center">
 multiverso físico
-not⇒
+⇏
 varios TODOS.
 </p>
 
@@ -14056,7 +14133,7 @@ varios TODOS.
 | Profundidad óptica (τ_ν) | adimensional | adimensional | Opacidad acumulada | No implica inexistencia | Medio opaco, no NADA | admisible |
 | Coeficiente de absorción (α_ν) | m(<sup>-1</sup>) | (UFE<sup>-1</sup>) | Atenuación por longitud | No equivale a clausura total | Absorción física | admisible |
 | Extinción (A_λ) | magnitudes | adimensional | Atenuación astronómica | Modelo de polvo/medio | Obscuración, no inexistencia | admisible |
-| Sección eficaz de dispersión (σ<sub>scat</sub>) | m(<sup>²</sup>) | (UFE<sup>2</sup>) | Redistribución de señal | No anula fuente | Dispersión física | admisible |
+| Sección eficaz de dispersión (σ<sub>scat</sub>) | m<sup>2</sup> | (UFE<sup>2</sup>) | Redistribución de señal | No anula fuente | Dispersión física | admisible |
 | Umbral instrumental (F<sub>ν,lim</sub>) | W·m(<sup>-2</sup>)·Hz(<sup>-1</sup>) | (UFM,UE_MFC<sup>-2</sup>) | Límite de detección | No cierre ontológico | No detectado bajo umbral | U / admisible parcial |
 | (𝓣<sub>ext</sub>→0) en horizonte | adimensional | adimensional | No salida exterior | No basta sin vector BH completo | No transmisión, no inexistencia | admisible parcial |
 | (F_ν=0⇒NADA) | — | — | Inferencia ilegítima | Crítico | Ausencia de señal no es NADA | no admisible |
@@ -14083,7 +14160,7 @@ No contaminación:
 
 <p align="center">
 F_ν=0
-not⇒
+⇏
 x=0
  
 ni
@@ -14095,7 +14172,7 @@ x=NADA<sub>SV</sub>.
 
 | **Entrada física real** | **Unidad SI** | **Unidad SV** | **Física → SV** | **Residual** | **SV → física** | **Dictamen** |
 |---------------------------------------|---------------------|--------------------------------------------------------------------------------------|----------------------------------|--------------------------------|-----------------------------------------------------|--------------------|
-| (v<sub>rot</sub>(r)) | km·s(<sup>-1</sup>) | (UFE,UE_MFC<sup>-1</sup>) | Curva de rotación | Equilibrio/modelo galáctico | Velocidad no explicada por masa luminosa suficiente | admisible |
+| (v<sub>rot</sub>(r)) | km·s<sup>-1</sup> | (UFE,UE_MFC<sup>-1</sup>) | Curva de rotación | Equilibrio/modelo galáctico | Velocidad no explicada por masa luminosa suficiente | admisible |
 | (M<sub>dyn</sub>(r)=rv<sup>²</sup>/G) | kg, (M_odot) | (UFM) | Masa dinámica | Depende de hipótesis dinámicas | Masa gravitante inferida | admisible |
 | (M<sub>bar</sub>) | kg, (M_odot) | (UFM) | Masa bariónica | Incertidumbres astrofísicas | Materia luminosa/gas/estrellas | admisible |
 | (M<sub>dyn</sub>/M<sub>bar</sub>) | adimensional | adimensional | Déficit gravitatorio-luminoso | Soporte abierto | Exceso de masa dinámica | admisible |
@@ -14108,12 +14185,12 @@ x=NADA<sub>SV</sub>.
 | (P(k)) | Mpc(<sup>³</sup>) | (UFE<sup>3</sup>) | Espectro de estructura | Modelo de crecimiento | Materia gravitante estructurante | admisible |
 | (fσ₈) | adimensional | adimensional | Crecimiento de estructura | Tensiones observacionales | Contraste dinámico | admisible parcial |
 | (m_χ) | GeV/(c<sup>²</sup>), kg | (UFM) | WIMP como soporte posible | No detectado/cerrado | Candidato microfísico, no definición | admisible parcial / (U) |
-| (σ<sub>χ N</sub>) | cm(<sup>²</sup>) | (UFE<sup>2</sup>) | Sección eficaz de interacción | No cerrada | Límite experimental de candidato | admisible parcial / (U) |
+| (σ<sub>χ N</sub>) | cm<sup>2</sup> | (UFE<sup>2</sup>) | Sección eficaz de interacción | No cerrada | Límite experimental de candidato | admisible parcial / (U) |
 | m<sub>a</sub> | eV/(c<sup>²</sup>), kg | (UFM) | Axión como soporte posible | Abierto | Candidato parcial | admisible parcial / (U) |
 | (g<sub>aγ</sub>) | GeV(<sup>-1</sup>) | ((UFM,UFE<sup>2</sup>,UE_MFC<sup>-2</sup>)<sup>-1</sup>) | Acoplamiento axión-fotón | Abierto | Candidato parcial | admisible parcial / (U) |
 | m<sub>s</sub> | keV/(c<sup>²</sup>), kg | (UFM) | Neutrino estéril | Abierto | Candidato parcial | admisible parcial / (U) |
 | (sin<sup>²</sup> 2θ) | adimensional | adimensional | Mezcla de neutrino estéril | Abierto | Parámetro de candidato | admisible parcial / (U) |
-| a₀ | m·s(<sup>-2</sup>) | (UFE,UE_MFC<sup>-2</sup>) | MOND/gravedad modificada | No cierra todo dominio | Lectura dinámica parcial | admisible parcial |
+| a₀ | m·s<sup>-2</sup> | (UFE,UE_MFC<sup>-2</sup>) | MOND/gravedad modificada | No cierra todo dominio | Lectura dinámica parcial | admisible parcial |
 | (M<sub>PBH</sub>) | kg, (M_odot) | (UFM) | PBH como soporte posible | No identidad total DM=BH | Candidato compacto parcial | admisible parcial |
 | (f<sub>PBH</sub>) | adimensional | adimensional | Fracción de DM en PBH | Acotada/no total | Contribución parcial posible | admisible parcial |
 | DM = vacío | — | — | Sin magnitud válida de identidad | Crítico | No luminosidad no es vacío | no admisible |
@@ -14161,21 +14238,21 @@ La UFM, la UFE y la UE(<sub>MFC</sub>) permiten expresar masa, velocidad, aceler
 |--------------------------------------|------------------------------|-------------------------------------------------------------------|-------------------------------------|--------------------------|-----------------------------------------|--------------------|
 | (D<sub>L</sub>(z)) | Mpc | (UFE) | Distancia luminosidad de supernovas | Calibración/modelo | Historia de expansión acelerada | admisible |
 | (μ(z)) | magnitudes | adimensional | Módulo de distancia | Calibración | Evidencia observacional de expansión | admisible |
-| (H(z)) | km·s(<sup>-1</sup>)·Mpc(<sup>-1</sup>) | (UE_MFC<sup>-1</sup>) | Expansión por redshift | Tensiones posibles | Historia expansiva | admisible |
+| (H(z)) | km·s<sup>-1</sup>·Mpc(<sup>-1</sup>) | (UE_MFC<sup>-1</sup>) | Expansión por redshift | Tensiones posibles | Historia expansiva | admisible |
 | (D<sub>V</sub>/r<sub>d</sub>) | adimensional | adimensional | BAO isotrópico | Modelo de regla estándar | Contraste geométrico de expansión | admisible |
 | (D<sub>M</sub>/r<sub>d</sub>) | adimensional | adimensional | BAO transversal | Modelo cosmológico | Distancia cosmológica normalizada | admisible |
-| (H(z)r<sub>d</sub>) | km·s(<sup>-1</sup>) | (UFE,UE_MFC<sup>-1</sup>) | BAO radial | Modelo cosmológico | Expansión radial | admisible |
-| (Ω_Λ) | adimensional | adimensional | Componente expansiva | Interpretación abierta | Energía oscura efectiva | admisible |
+| (H(z)r<sub>d</sub>) | km·s<sup>-1</sup> | (UFE,UE_MFC<sup>-1</sup>) | BAO radial | Modelo cosmológico | Expansión radial | admisible |
+| (Ω<sub>Λ</sub>) | adimensional | adimensional | Componente expansiva | Interpretación abierta | Energía oscura efectiva | admisible |
 | (w=p/(ρ c<sup>²</sup>)) | adimensional | adimensional | Ecuación de estado | Puede variar | Presión negativa efectiva | admisible parcial |
 | p | Pa | (UFM,UFE<sup>-1</sup>,UE_MFC<sup>-2</sup>) | Presión cosmológica efectiva | Modelo dependiente | Presión física, no NADA | admisible parcial |
 | ρ | kg·m(<sup>-3</sup>) | (UFM,UFE<sup>-3</sup>) | Densidad cosmológica | Modelo dependiente | Densidad física efectiva | admisible parcial |
 | Λ | m(<sup>-2</sup>) | (UFE<sup>-2</sup>) | Constante cosmológica | Problema interpretativo | Término geométrico/energético efectivo | admisible parcial |
-| (ρ_Λ=Λ c<sup>²</sup>/(8π G)) | kg·m(<sup>-3</sup>) | (UFM,UFE<sup>-3</sup>) | Densidad efectiva | No es NADA | Densidad cosmológica efectiva | admisible parcial |
+| (ρ<sub>Λ</sub>=Λ c<sup>²</sup>/(8π G)) | kg·m(<sup>-3</sup>) | (UFM,UFE<sup>-3</sup>) | Densidad efectiva | No es NADA | Densidad cosmológica efectiva | admisible parcial |
 | φ | según normalización de campo | dominio de campo | Quintessence | Modelo abierto | Campo dinámico hipotético | admisible parcial / (U) |
 | (Vφ) | J·m(<sup>-3</sup>) | (UFM,UFE<sup>-1</sup>,UE_MFC<sup>-2</sup>) | Potencial de quintessence | Modelo abierto | Energía de campo efectiva | admisible parcial / (U) |
 | (fσ₈) | adimensional | adimensional | Crecimiento bajo expansión | Tensiones | Contraste expansión-gravedad | admisible parcial |
 | DE = DM | — | — | Mezcla de magnitudes incompatibles | Crítico | Expansión no es masa no luminosa | no admisible |
-| DE = NADA | — | — | Confusión de fundamento | Crítico | Λ o (ρ_Λ) no son NADA | no admisible |
+| DE = NADA | — | — | Confusión de fundamento | Crítico | Λ o (ρ<sub>Λ</sub>) no son NADA | no admisible |
 | DE = BH | — | — | Confusión de dominio | Crítico | Horizonte no es expansión cósmica | no admisible |
 
 **Cierre bidireccional.**
@@ -14183,7 +14260,7 @@ La UFM, la UFE y la UE(<sub>MFC</sub>) permiten expresar masa, velocidad, aceler
 Física → SV:
 
 <p align="center">
-(D<sub>L</sub>(z),μ(z),H(z),D<sub>V</sub>/r<sub>d</sub>,w,Λ,Ω_Λ,ρ_Λ)
+(D<sub>L</sub>(z),μ(z),H(z),D<sub>V</sub>/r<sub>d</sub>,w,Λ,Ω<sub>Λ</sub>,ρ<sub>Λ</sub>)
 ⟶
 𝓐<sub>cos</sub>.
 </p>
@@ -14228,8 +14305,8 @@ La UFE, la UE(<sub>MFC</sub>), la UFM y la UFT permiten expresar distancia, expa
 | w | adimensional | Ecuación de estado | Presión efectiva | DE | DM |
 | Λ | (UFE<sup>-2</sup>) | Constante cosmológica | Energía oscura efectiva | DE | NADA |
 | r<sub>s</sub> | (UFE) | Horizonte Schwarzschild | Frontera de no retorno | BH | DM general |
-| (r_+) | (UFE) | Horizonte Kerr | Frontera rotante | BH | DE |
-| (a_*) | adimensional | Espín de BH | Rotación de horizonte | BH | DM general |
+| (r<sub>+</sub>) | (UFE) | Horizonte Kerr | Frontera rotante | BH | DE |
+| (a<sub>*</sub>) | adimensional | Espín de BH | Rotación de horizonte | BH | DM general |
 | (S<sub>BH</sub>) | (UFM,UFE<sup>2</sup>,UE_MFC<sup>-2</sup>,UFT<sup>-1</sup>) | Entropía de horizonte | Termodinámica BH | BH | DE |
 | T<sub>H</sub> | (UFT) | Temperatura Hawking | Retorno térmico de horizonte | BH | ε₋₀ |
 | K | (UFE<sup>-4</sup>) | Curvatura fuerte | Geometría extrema | BH/geometría | Fundamento espacial |
@@ -14297,14 +14374,14 @@ BH<sub>SV</sub>.
 | **Entrada física real** | **Unidad SI** | **Unidad SV** | **Física → SV** | **Residual** | **SV → física** | **Dictamen** |
 |-------------------------------------------------------------|-------------------|------------------------------------------------------------------------------------|------------------------------------|-------------------------------------|------------------------------------|--------------|
 | M | kg | (UFM) | Masa del agujero negro | Masa no define por sí sola clausura | Parámetro gravitatorio | admisible |
-| J | kg·m(<sup>²</sup>)·s(<sup>-1</sup>) | (UFM,UFE<sup>2</sup>,UE_MFC<sup>-1</sup>) | Momento angular | Requiere dominio rotante | Rotación física | admisible |
+| J | kg·m<sup>2</sup>·s<sup>-1</sup> | (UFM,UFE<sup>2</sup>,UE_MFC<sup>-1</sup>) | Momento angular | Requiere dominio rotante | Rotación física | admisible |
 | (r<sub>s</sub>=2GM/c<sup>²</sup>) | m | (UFE) | Horizonte no rotante | No describe interior completo | Radio de no retorno Schwarzschild | admisible |
 | (q=r/r<sub>s</sub>) | adimensional | adimensional | Posición relativa al horizonte | Coordenada/modelo | Dentro/fuera respecto al horizonte | admisible |
-| (a_*=cJ/(GM<sup>²</sup>)) | adimensional | adimensional | Espín normalizado | Requiere ( | a_* | ≤1) |
-| (r_+=GMc<sup>-2</sup>(1+sqrt{1-a_*<sup>²</sup>})) | m | (UFE) | Horizonte exterior Kerr | Modelo rotante | Frontera de no retorno rotante | admisible |
+| a<sub>*</sub>=cJ/(GM<sup>2</sup>) | adimensional | adimensional | Espín normalizado | Requiere &#124;a<sub>*</sub>&#124;≤1 | Rotación normalizada del horizonte | admisible |
+| r<sub>+</sub>=(GM/c<sup>2</sup>)(1+√(1−a<sub>*</sub><sup>2</sup>)) | m | (UFE) | Horizonte exterior Kerr | Modelo rotante | Frontera de no retorno rotante | admisible |
 | (r<sub>ph</sub>) | m | (UFE) | Esfera de fotones | Modelo dependiente | Límite de trayectorias luminosas | admisible parcial |
 | (θ<sub>sh</sub>) | rad, μas | adimensional | Sombra angular | Depende de plasma/entorno | Firma observacional de horizonte | admisible |
-| (A=4π r<sub>s</sub><sup>²</sup>) o área de horizonte | m(<sup>²</sup>) | (UFE<sup>2</sup>) | Área de frontera | No volumen | Superficie de horizonte | admisible |
+| (A=4π r<sub>s</sub><sup>²</sup>) o área de horizonte | m<sup>2</sup> | (UFE<sup>2</sup>) | Área de frontera | No volumen | Superficie de horizonte | admisible |
 | (S<sub>BH</sub>/k<sub>B</sub>=A/(4ℓ_P<sup>²</sup>)) | adimensional | adimensional | Entropía adimensional de horizonte | No es NADA | Grados de libertad de frontera | admisible parcial |
 | (S<sub>BH</sub>) | J·K(<sup>-1</sup>) | (UFM,UFE<sup>2</sup>,UE_MFC<sup>-2</sup>,UFT<sup>-1</sup>) | Entropía física de horizonte | No funda NADA | Termodinámica de frontera | admisible parcial |
 | (T<sub>H</sub>=hbar c<sup>³</sup>/(8π GMk_B)) | K | (UFT) | Temperatura Hawking | Efecto extremo | Retorno térmico parcial | admisible parcial |
@@ -14312,16 +14389,16 @@ BH<sub>SV</sub>.
 | (f<sub>QNM</sub>) | Hz | (UE_MFC<sup>-1</sup>) | Ringdown | Depende de masa/espín | Firma dinámica de BH | admisible |
 | (L<sub>acc</sub>) | W | (UFM,UFE<sup>2</sup>,UE_MFC<sup>-3</sup>) | Luminosidad de acreción | Entorno, no interior | Evidencia indirecta | admisible parcial |
 | (𝓣<sub>ext</sub>→0) | adimensional | adimensional | No transmisión exterior | No basta sin vector completo | No salida luminosa | admisible parcial |
-| (V=∫sqrt{g},d<sup>³</sup>x) | m(<sup>³</sup>) | (UFE<sup>3</sup>) | Volumen dependiente de foliación | No define BH | Magnitud auxiliar, no caja | admisible parcial |
+| V=∫√g d<sup>3</sup>x | m<sup>3</sup> | (UFE<sup>3</sup>) | Volumen dependiente de foliación | No define BH | Magnitud auxiliar, no caja | admisible parcial |
 | (BH=V) | — | — | Caja volumétrica | Crítico | Falsa reducción del agujero negro | no admisible |
-| (M_N2-SV=ε₋₀) | — | — | Postfrontera como origen | Crítico | Clausura no es apertura preformal | no admisible |
+| (M<sub>N2</sub>-SV=ε₋₀) | — | — | Postfrontera como origen | Crítico | Clausura no es apertura preformal | no admisible |
 
 **Cierre bidireccional.**
 
 Física → SV:
 
 <p align="center">
-(M,J,r<sub>s</sub>,r_+,a_*,A,S<sub>BH</sub>,T<sub>H</sub>,K,theta<sub>sh</sub>,f<sub>QNM</sub>)
+(M,J,r<sub>s</sub>,r<sub>+</sub>,a<sub>*</sub>,A,S<sub>BH</sub>,T<sub>H</sub>,K,θ<sub>sh</sub>,f<sub>QNM</sub>)
 ⟶
 BH<sub>SV</sub>.
 </p>
@@ -14343,7 +14420,7 @@ contenedor volumétrico clásico,
 </p>
 
 <p align="center">
-M_N2-SV
+M<sub>N2</sub>-SV
 ≠
 ε₋₀.
 </p>
@@ -14359,7 +14436,7 @@ La UFE, UFM, UE(<sub>MFC</sub>) y UFT permiten comparar radio, masa, momento ang
 | ω | conexión espín | (UFE<sup>-1</sup>) si se mide sobre longitud | Sector geométrico | No funda espacio | Geometría gravitatoria posterior | admisible parcial |
 | (A_μ) | potencial gauge | si electromagnético: V, es decir (UFM,UFE<sup>2</sup>,UFC<sup>-1</sup>,UE_MFC<sup>-3</sup>) | Sector gauge | No fundamento preformal | Campo físico | admisible parcial |
 | (E(a,b)) | adimensional | adimensional | Correlación experimental | Frecuencia no fundante | Resultado físico de correlación | admisible |
-| (2sqrt2) | adimensional | adimensional | Límite de Tsirelson | No funda espacio | Frontera cuántica de correlación | admisible |
+| (2√2) | adimensional | adimensional | Límite de Tsirelson | No funda espacio | Frontera cuántica de correlación | admisible |
 | (C<sub>SV</sub>δ=-cosδ) | adimensional | adimensional | Correlador angular | No probabilidad primaria | Función física contrastable | admisible |
 | δ | rad | adimensional | Separación angular | Requiere dominio angular | Orientación física | admisible |
 | (P=(1-C)/2) | adimensional | adimensional | Probabilidad derivada | No criterio constitutivo | Sombra binaria de correlación | admisible parcial |
@@ -14417,7 +14494,7 @@ P
 | Lyman-α (λ<sub>Lyα</sub>) | nm | (UFE) | Transición espectral | Condiciones de emisión | Señal observacional atómica | admisible |
 | Frecuencia Lyman-α (ν<sub>Lyα</sub>) | Hz | (UE_MFC<sup>-1</sup>) | Frecuencia espectral | Condiciones de emisión | Señal física | admisible |
 | Línea 21 cm | GHz, eV | (UE_MFC<sup>-1</sup>) o (UFM,UFE<sup>2</sup>,UE_MFC<sup>-2</sup>) | Transición hiperfina | Condiciones cosmológicas | Señal física del hidrógeno | admisible |
-| Sección eficaz de ionización σ<sub>I</sub> | m(<sup>²</sup>) | (UFE<sup>2</sup>) | Interacción física | Probabilidad no fundante | Proceso físico de ionización | admisible parcial |
+| Sección eficaz de ionización σ<sub>I</sub> | m<sup>2</sup> | (UFE<sup>2</sup>) | Interacción física | Probabilidad no fundante | Proceso físico de ionización | admisible parcial |
 | (𝓟<sub>min</sub>=𝓕<sub>∂</sub>-𝓠-𝓡_Γ) | energía estructural | (UFM,UFE<sup>2</sup>,UE_MFC<sup>-2</sup>) | Persistencia factual | No sustituye ε₋₀ | Estabilidad de frontera | admisible |
 | (∂Ω<sub>H</sub>) | frontera de dominio | según magnitud: (UFE), (UFE<sup>2</sup>) o dominio formal | Frontera atómica | No es espacio total | Identidad configuracional | admisible |
 | (H=ε₋₀) | — | — | Átomo como origen | Crítico | Hidrógeno no es borde preformal | no admisible |
@@ -14505,13 +14582,13 @@ U<sub>th</sub>
 U<sub>SV</sub>,
  
 S<sub>fis</sub>
-not⇒
+⇏
 verdad fundante.
 </p>
 
 La UFT, la UFM, la UFE, la UE(<sub>MFC</sub>) y la UFCE permiten expresar temperatura, entropía, energía, presión, cantidad de entidad y masa molar sin importar mecánica estadística, química molecular ni tiempo como fundamento primero.
 
-## XII bis.16. Tabla adversarial de contaminación apartadoada mediante unidad SV
+## XII bis.16. Tabla adversarial de contaminación bloqueada mediante unidad SV
 
 | **Intento de contaminación** | **Magnitud usada** | **Unidad SV** | **Fallo** | **Barrera SV** | **Retorno físico correcto** | **Dictamen** |
 |-------------------------------------------|-------------------------------|-------------------------------------------------------------------|-------------------------------------------|---------------------------------------|-------------------------------|--------------------------|
@@ -14519,10 +14596,10 @@ La UFT, la UFM, la UFE, la UE(<sub>MFC</sub>) y la UFCE permiten expresar temper
 | Vacío cuántico como NADA | Energía de vacío | (UFM,UFE<sup>-1</sup>,UE_MFC<sup>-2</sup>) | Confunde vacío físico con NADA | (I<sub>osc</sub>,I<sub>dom</sub>) | Estado físico formalizado | no admisible |
 | Métrica como espacio fundante | (g<sub>μν</sub>,ds<sup>²</sup>) | adimensional, (UFE<sup>2</sup>) | Confunde medición geométrica con dominio | (I<sub>¬ g</sub>) | Geometría física posterior | no admisible como fundamento |
 | Trayectoria como creadora de espacio | (γλ,L) | dominio formal, (UFE) | Circularidad | (I<sub>¬ tray</sub>) | Recorrido interno | no admisible |
-| Probabilidad como dictamen | (P,𝓐,C_ℓ) | adimensional, (UFT<sup>2</sup>) | Frecuencia no es verdad SV | (I<sub>¬ p</sub>,I<sub>U</sub>) | Modelo estadístico | no admisible como fundamento |
+| Probabilidad como dictamen | (P,𝓐,C<sub>ℓ</sub>) | adimensional, (UFT<sup>2</sup>) | Frecuencia no es verdad SV | (I<sub>¬ p</sub>,I<sub>U</sub>) | Modelo estadístico | no admisible como fundamento |
 | Materia oscura como partícula obligatoria | (m_χ,σ<sub>χ N</sub>) | (UFM), (UFE<sup>2</sup>) | Soporte abierto | I<sub>U</sub> | Candidato microfísico parcial | no admisible si se absolutiza |
 | Materia oscura como agujero negro | (M<sub>PBH</sub>,f<sub>PBH</sub>) | (UFM), adimensional | Candidato parcial convertido en identidad | (I<sub>dom</sub>) | PBH parcial | no admisible |
-| Energía oscura como materia oscura | (w,Λ,Ω_Λ) | adimensional, (UFE<sup>-2</sup>), adimensional | Magnitudes distintas de DM | (I<sub>dom</sub>) | Expansión cosmológica | no admisible |
+| Energía oscura como materia oscura | (w,Λ,Ω<sub>Λ</sub>) | adimensional, (UFE<sup>-2</sup>), adimensional | Magnitudes distintas de DM | (I<sub>dom</sub>) | Expansión cosmológica | no admisible |
 | Agujero negro como caja | (r<sub>s</sub>,V) | (UFE), (UFE<sup>3</sup>) | Volumen auxiliar elevado a esencia | (I<sub>claus</sub>) | Horizonte/clausura | no admisible |
 | Postfrontera como origen | (S<sub>BH</sub>,T<sub>H</sub>,M_N2) | entropía SV, (UFT), dominio formal | Clausura confundida con apertura | (I<sub>sep</sub>) | Postfrontera tipada | no admisible |
 | Hidrógeno como origen | (E<sub>I</sub>,a<sub>0</sub>,m<sub>H</sub>) | energía SV, (UFE), (UFM) | Átomo físico posterior | (I<sub>dom</sub>) | Configuración atómica estable | no admisible |
@@ -14534,7 +14611,7 @@ La UFT, la UFM, la UFE, la UE(<sub>MFC</sub>) y la UFCE permiten expresar temper
 |-----------------|--------------------------------------------------------------------|-------------------------------------------------|----------------------------------------------------------------------------|------------------------------------------|----------------------------------------|
 | admisible | Dominio físico declarado, proyección legítima, residual no crítico | Sí | El fenómeno entra como dominio físico posterior correctamente contrastable | (T<sub>CMB</sub>) como radiación fósil | No se convierte en ε₋₀ |
 | admisible | Magnitud real separa dominios | Sí | La magnitud clasifica el régimen físico | (v<sub>rot</sub>) para DM | No cierra soporte único |
-| admisible | Horizonte y magnitudes BH coherentes | Sí | Régimen de no retorno y clausura | (r<sub>s</sub>,r_+,S<sub>BH</sub>) | No caja volumétrica |
+| admisible | Horizonte y magnitudes BH coherentes | Sí | Régimen de no retorno y clausura | (r<sub>s</sub>,r<sub>+</sub>,S<sub>BH</sub>) | No caja volumétrica |
 | admisible parcial | Modelo físico válido pero incompleto | Sí | Describe parte del fenómeno | Inflación, holografía, PBH | No se eleva a fundamento |
 | admisible parcial | Soporte físico abierto | Sí | Hipótesis parcial de soporte | WIMP, axión, quintessence | Conserva (U) |
 | no admisible | Magnitud invade fundamento | Sí, pero falla el dominio | La magnitud existe, pero no ocupa ese plano | Big Bang como origen preformal | Apartadoo de contaminación |
@@ -14579,7 +14656,7 @@ Por tanto:
 
 <p align="center">
 u<sub>SI</sub>
-longmapsto
+↦
 u<sub>SV</sub>
 
 UE_MFC<sup>a</sup>
@@ -14604,7 +14681,7 @@ La dirección SV → física es:
 
 <p align="center">
 (Ω<sub>SV</sub>,Δ<sub>i</sub>,𝔡<sub>i</sub>)
-stackrel{𝔛<sub>≤ftarrow</sub><sup>SV,M</sup>}{⟶}
+stackrel{𝔛<sub>←</sub><sup>SV,M</sup>}{⟶}
 R<sub>i</sub><sup>fis</sup>.
 </p>
 
@@ -14619,7 +14696,7 @@ u<sub>SV</sub>≠∅,
  
 𝔛<sub>→</sub><sup>M,SV</sup>≠∅,
  
-𝔛<sub>≤ftarrow</sub><sup>SV,M</sup>≠∅,
+𝔛<sub>←</sub><sup>SV,M</sup>≠∅,
  
 𝓘<sub>𝔛</sub>=1.
 </p>
@@ -14635,7 +14712,7 @@ Queda demostrado.
 <p align="center">
 H<sub>0</sub>, 
 T<sub>CMB</sub>, 
-C_ℓ, 
+C<sub>ℓ</sub>, 
 D<sub>L</sub>(z), 
 v<sub>rot</sub>(r), 
 M<sub>dyn</sub>, 
@@ -14791,7 +14868,7 @@ u<sub>SV</sub>,
 Ω<sub>SV</sub>,
 Δ<sub>i</sub>,
 𝔡<sub>i</sub>,
-𝔛<sub>≤ftarrow</sub><sup>SV,M</sup>,
+𝔛<sub>←</sub><sup>SV,M</sup>,
 R<sub>i</sub><sup>fis</sup>,
 𝓘<sub>𝔛</sub>
 ).
@@ -14812,7 +14889,7 @@ u<sub>SV</sub>≠∅,
  
 𝔛<sub>→</sub><sup>M,SV</sup>≠∅,
  
-𝔛<sub>≤ftarrow</sub><sup>SV,M</sup>≠∅,
+𝔛<sub>←</sub><sup>SV,M</sup>≠∅,
  
 Δ<sub>i</sub><br>
  visible,
@@ -14841,7 +14918,7 @@ La condición metrológica será:
 
 <p align="center">
 u<sub>SI</sub>
-longmapsto
+↦
 u<sub>SV</sub>
 ∈
 langle
@@ -14930,7 +15007,7 @@ singularidad física.
 |------------|---------------------------------------------------------------|---------------------------------|-------------------------------------------------------|-------------------------------------------------------|-------------------------|
 | EPS-ERR-01 | Identificar ε₋₀ con Big Bang | (T<sub>CMB</sub>,H₀,z_*) | (Δ<sub>fund</sub>) | Big Bang es régimen físico posterior | no admisible |
 | EPS-ERR-02 | Identificar ε₋₀ con vacío cuántico | energía de vacío, fluctuaciones | (Δ<sub>fund</sub>⊕Δ<sub>osc</sub>) | El vacío físico tiene estructura formal | no admisible |
-| EPS-ERR-03 | Identificar ε₋₀ con singularidad | (R,K→∈fty) | (Δ<sub>geom</sub>) | La singularidad es límite geométrico | no admisible como fundamento |
+| EPS-ERR-03 | Identificar ε₋₀ con singularidad | (R,K→∞) | (Δ<sub>geom</sub>) | La singularidad es límite geométrico | no admisible como fundamento |
 | EPS-ERR-04 | Identificar ε₋₀ con función de onda universal | Ψ | (Δ<sub>proj</sub>) | Ψ pertenece a formalismo físico-matemático | no admisible como fundamento |
 | EPS-ERR-05 | Identificar ε₋₀ con rebote | (ρ<sub>bounce</sub>,H=0) | (Δ<sub>fund</sub>) | El rebote es transición física de régimen | no admisible como fundamento |
 | EPS-ERR-06 | Identificar ε₋₀ con ε₀ | suceso cero del corpus | (Δ<sub>dom</sub>) | ε₀ pertenece a otro dominio ya formulado | no admisible si se mezclan |
@@ -14982,7 +15059,7 @@ defecto material.
 | IMP-ERR-01 | Imperfección como azar | (P(x)), fluctuación aleatoria | (Δ<sub>prob</sub>) | La probabilidad no funda la distinguibilidad | no admisible |
 | IMP-ERR-02 | Imperfección como defecto material | masa, energía, partícula | (Δ<sub>subst</sub>) | No es sustancia física | no admisible |
 | IMP-ERR-03 | Imperfección como ignorancia | “no sabemos” | Δ<sub>U</sub> | U no equivale a ignorancia vulgar | no admisible |
-| IMP-ERR-04 | Imperfección como singularidad geométrica | (K→∈fty) | (Δ<sub>geom</sub>) | La curvatura extrema no funda el borde preformal | no admisible |
+| IMP-ERR-04 | Imperfección como singularidad geométrica | (K→∞) | (Δ<sub>geom</sub>) | La curvatura extrema no funda el borde preformal | no admisible |
 | IMP-ERR-05 | Imperfección como fallo de modelo | discrepancia empírica | (Δ<sub>dom</sub>) | Un residual físico no equivale a imperfección preformal | no admisible |
 | IMP-ERR-06 | Imperfección como metáfora poética | sin dominio ni proyección | (Δ<sub>ret</sub>) | Debe pasar por transductor y dominio | no admisible |
 
@@ -15009,9 +15086,9 @@ H<sub>0</sub>,
  
 Ω<sub>m</sub>,
  
-Ω_Λ,
+Ω<sub>Λ</sub>,
  
-C_ℓ,
+C<sub>ℓ</sub>,
  
 P(k).
 </p>
@@ -15021,11 +15098,11 @@ Pero no puede identificarse con el origen preformal de la primera distinguibilid
 | **Código** | **Error** | **Magnitudes usadas** | **Residual** | **Retorno físico correcto** | **Dictamen** |
 |------------|-----------------------------------------------|--------------------------------------------|---------------------------|------------------------------------------|-----------------------------|
 | BB-ERR-01 | Big Bang = ε₋₀ | (T<sub>CMB</sub>,z_*,H₀) | (Δ<sub>fund</sub>) | Estado temprano físico observable | no admisible |
-| BB-ERR-02 | CMB = primera distinguibilidad | (C_ℓ,T<sub>CMB</sub>) | (Δ<sub>dom</sub>) | Radiación fósil posterior | no admisible |
+| BB-ERR-02 | CMB = primera distinguibilidad | (C<sub>ℓ</sub>,T<sub>CMB</sub>) | (Δ<sub>dom</sub>) | Radiación fósil posterior | no admisible |
 | BB-ERR-03 | Temperatura alta = origen preformal | T en (UFT) | (Δ<sub>pre</sub>) | Temperatura es magnitud física posterior | no admisible |
 | BB-ERR-04 | Densidad extrema = primera separación | ρ en (UFM,UFE<sup>-3</sup>) | (Δ<sub>fund</sub>) | Densidad presupone dominio físico | no admisible |
 | BB-ERR-05 | Edad cosmológica = anterioridad preformal | t₀ en (UE_MFC) | (Δ<sub>¬ t</sub>) | Cronología física posterior | no admisible |
-| BB-ERR-06 | Modelo ΛCDM = cierre total del origen | (H₀,Ω<sub>i</sub>,C_ℓ) | (Δ<sub>mod</sub>) | Modelo cosmológico posterior | admisible parcial, no fundamento |
+| BB-ERR-06 | Modelo ΛCDM = cierre total del origen | (H₀,Ω<sub>i</sub>,C<sub>ℓ</sub>) | (Δ<sub>mod</sub>) | Modelo cosmológico posterior | admisible parcial, no fundamento |
 
 La regla de cierre es:
 
@@ -15055,7 +15132,7 @@ El vacío cuántico no es la NADA. Un vacío físico tiene formalismo, estado, c
 | VAC-ERR-02 | Fluctuación = origen preformal | amplitudes, (P), hbar | varias | (Δ<sub>prob</sub>) | La probabilidad no funda ε₋₀ | no admisible |
 | VAC-ERR-03 | Campo en vacío = NADA | (φ,A_μ,Ψ) | dominio de campo | (Δ<sub>dom</sub>) | Campo pertenece a física constituida | no admisible |
 | VAC-ERR-04 | Ausencia de partículas = NADA | número de partículas nulo | adimensional | (Δ<sub>osc</sub>) | Ausencia de excitaciones no es NADA | no admisible |
-| VAC-ERR-05 | Energía oscura = vacío = NADA | (Λ,ρ_Λ) | (UFE<sup>-2</sup>), (UFM,UFE<sup>-3</sup>) | (Δ<sub>TN</sub>) | Λ es término físico efectivo | no admisible |
+| VAC-ERR-05 | Energía oscura = vacío = NADA | (Λ,ρ<sub>Λ</sub>) | (UFE<sup>-2</sup>), (UFM,UFE<sup>-3</sup>) | (Δ<sub>TN</sub>) | Λ es término físico efectivo | no admisible |
 
 La corrección es:
 
@@ -15097,7 +15174,7 @@ TODO<sub>SV</sub>.
 No:
 
 <p align="center">
-TODO_1,TODO_2,…,TODO_k
+TODO<sub>1</sub>,TODO<sub>2</sub>,…,TODO<sub>k</sub>
 <br>
  exteriores entre sí.
 </p>
@@ -15111,7 +15188,7 @@ El espacio no se define como recipiente. El contenedor presupone dentro, fuera, 
 | ESP-CONT-01 | Espacio = caja absoluta | volumen (V) | (UFE<sup>3</sup>) | (Δ<sub>cont</sub>) | El volumen mide región; no funda espacio | no admisible |
 | ESP-CONT-02 | Espacio = medio sustancial | densidad o campo | varias | (Δ<sub>subst</sub>) | Campo o medio pertenecen a dominio físico | no admisible |
 | ESP-CONT-03 | Espacio = geometría (g<sub>μν</sub>) | métrica | adimensional | (Δ<sub>geom</sub>) | La métrica es proyección física | no admisible como fundamento |
-| ESP-CONT-04 | Espacio = volumen del universo | (V=∫sqrt g,d<sup>³</sup>x) | (UFE<sup>3</sup>) | (Δ<sub>fund</sub>) | Volumen presupone dominio espacial | no admisible |
+| ESP-CONT-04 | Espacio = volumen del universo | (V=∫√g d<sup>3</sup>x) | (UFE<sup>3</sup>) | (Δ<sub>fund</sub>) | Volumen presupone dominio espacial | no admisible |
 | ESP-CONT-05 | Espacio = interior de agujero negro | (r<sub>s</sub>,V) | (UFE,UFE<sup>3</sup>) | (Δ<sub>BH</sub>) | BH es clausura, no contenedor del espacio | no admisible |
 
 La corrección canónica es:
@@ -15173,7 +15250,7 @@ El infinito no funda el espacio. Puede ser propiedad de un modelo, de una extens
 
 | **Código** | **Error** | **Forma física o matemática** | **Residual** | **Corrección** | **Dictamen** |
 |------------|-------------------------------------|-----------------------------------|----------------------------|-----------------------------------------------------|--------------------------|
-| INF-ERR-01 | Infinito = fundamento del espacio | ( | Ω | =∈fty) | (Δ<sub>inf</sub>) |
+| INF-ERR-01 | Infinito = fundamento del espacio | ( | Ω | =∞) | (Δ<sub>inf</sub>) |
 | INF-ERR-02 | Espacio completo = espacio infinito | cardinalidad | (Δ<sub>comp</sub>) | Completitud es de dominio, no de extensión infinita | no admisible |
 | INF-ERR-03 | Infinito observable | horizonte confundido con todo | (Δ<sub>obs</sub>) | Horizonte observacional no mide totalidad absoluta | no admisible |
 | INF-ERR-04 | Infinito elimina frontera | sin (∂Ω) | (Δ<sub>front</sub>) | Un dominio puede ser completo con frontera | no admisible |
@@ -15183,8 +15260,8 @@ La regla es:
 
 <p align="center">
 Comp(Ω<sub>esp</sub>)=1
-not⇒
-|Ω<sub>esp</sub>|=∈fty.
+⇏
+|Ω<sub>esp</sub>|=∞.
 </p>
 
 La completitud significa disponibilidad estructural del dominio de separación, no infinitud fundante.
@@ -15195,7 +15272,7 @@ El error se formula como uso del tiempo físico como fundamento primero. El tiem
 
 <p align="center">
 s
-longmapsto
+↦
 UE_MFC.
 </p>
 
@@ -15269,7 +15346,7 @@ La geometría física es indispensable en muchos dominios, pero no puede fundar 
 | GEO-ERR-01 | Métrica = espacio | (g<sub>μν</sub>) | adimensional | (Δ<sub>geom</sub>) | Métrica como proyección física | no admisible como fundamento |
 | GEO-ERR-02 | Intervalo = primera separación | (ds<sup>²</sup>) | (UFE<sup>2</sup>) | (Δ<sub>sep</sub>) | Intervalo presupone dominio | no admisible |
 | GEO-ERR-03 | Curvatura = origen | (R,K) | (UFE<sup>-2</sup>,UFE<sup>-4</sup>) | (Δ<sub>fund</sub>) | Curvatura pertenece a geometría física | no admisible |
-| GEO-ERR-04 | Horizonte = borde del TODO | (R<sub>H</sub>,r<sub>s</sub>,r_+) | (UFE) | (Δ<sub>TODO</sub>) | Horizonte es frontera física tipada | no admisible |
+| GEO-ERR-04 | Horizonte = borde del TODO | (R<sub>H</sub>,r<sub>s</sub>,r<sub>+</sub>) | (UFE) | (Δ<sub>TODO</sub>) | Horizonte es frontera física tipada | no admisible |
 | GEO-ERR-05 | Volumen = espacio | V | (UFE<sup>3</sup>) | (Δ<sub>cont</sub>) | Volumen mide región | no admisible |
 | GEO-ERR-06 | Geodésica = fundamento de trayectoria | (γλ) | dominio formal | (Δ<sub>dom</sub>) | Geodésica exige geometría ya declarada | no admisible como fundamento |
 
@@ -15321,7 +15398,7 @@ Y:
 
 <p align="center">
 plausibilidad
-not⇒
+⇏
 dictamen.
 </p>
 
@@ -15333,8 +15410,8 @@ No ver no equivale a no existir. No transmitir no equivale a NADA. Opacidad no e
 |------------|-------------------------------------|----------------------------------|-------------------------------------------------|--------------------------|-------------------------------------------|-----------------------|
 | LUM-ERR-01 | (F_ν=0⇒ x=0) | (F_ν) | (UFM,UE_MFC<sup>-2</sup>) | (Δ<sub>osc</sub>) | No detección no implica inexistencia | no admisible |
 | LUM-ERR-02 | Bajo umbral = ausencia | (F<sub>ν,lim</sub>) | (UFM,UE_MFC<sup>-2</sup>) | Δ<sub>U</sub> | Bajo umbral conserva (U) observacional | no admisible si cierra |
-| LUM-ERR-03 | Opacidad = NADA | (τ_ν≫1) | adimensional | (Δ<sub>TN</sub>) | Opacidad es apartadoo de canal | no admisible |
-| LUM-ERR-04 | Transparencia = vacío | (𝓣∼eq1) | adimensional | (Δ<sub>vac</sub>) | Transparencia es paso de señal | no admisible |
+| LUM-ERR-03 | Opacidad = NADA | (τ_ν≫1) | adimensional | (Δ<sub>TN</sub>) | Opacidad es bloqueo de canal | no admisible |
+| LUM-ERR-04 | Transparencia = vacío | (𝓣≈1) | adimensional | (Δ<sub>vac</sub>) | Transparencia es paso de señal | no admisible |
 | LUM-ERR-05 | Absorción = desaparición ontológica | (α_ν) | (UFE<sup>-1</sup>) | (Δ<sub>abs</sub>) | Absorción es interacción física | no admisible |
 | LUM-ERR-06 | No transmisión = agujero negro | (𝓣=0) | adimensional | (Δ<sub>BH</sub>) | BH exige vector completo | no admisible si identifica |
 | LUM-ERR-07 | Fibra no retornante = luz destruida | (𝓣<sub>ext</sub>→0) | adimensional | Δ<sub>L</sub> | La fibra puede preservarse bajo no salida | no admisible |
@@ -15343,19 +15420,19 @@ La corrección general es:
 
 <p align="center">
 F_ν=0
-not⇒
+⇏
 x=0,
 </p>
 
 <p align="center">
 𝓣=0
-not⇒
+⇏
 BH<sub>SV</sub>,
 </p>
 
 <p align="center">
 no transmisión
-not⇒
+⇏
 NADA<sub>SV</sub>.
 </p>
 
@@ -15394,11 +15471,11 @@ Materia oscura y energía oscura comparten un nombre histórico, pero no compart
 
 | **Código** | **Error** | **Magnitud implicada** | **Unidad SV** | **Residual** | **Corrección** | **Dictamen** |
 |--------------|----------------------------------------|----------------------------------------------------------------------------|---------------------------------------------------------------|--------------------------|----------------------------------------------|--------------|
-| DE-DM-ERR-01 | (DE=DM) | (w,Λ,Ω_Λ) ante (v<sub>rot</sub>,M<sub>dyn</sub>) | varias | (Δ<sub>dom</sub>) | Dominios físicos distintos | no admisible |
+| DE-DM-ERR-01 | (DE=DM) | (w,Λ,Ω<sub>Λ</sub>) ante (v<sub>rot</sub>,M<sub>dyn</sub>) | varias | (Δ<sub>dom</sub>) | Dominios físicos distintos | no admisible |
 | DE-DM-ERR-02 | Expansión acelerada = masa no luminosa | (D<sub>L</sub>,H(z),w) | (UFE,UE_MFC<sup>-1</sup>), adimensional | (Δ<sub>DM</sub>) | Expansión no es presencia gravitatoria local | no admisible |
 | DE-DM-ERR-03 | Materia oscura = presión negativa | (p,ρ,w) | presión/densidad SV | (Δ<sub>DE</sub>) | DM se contrasta por gravedad no luminosa | no admisible |
 | DE-DM-ERR-04 | Λ como partícula oscura | Λ | (UFE<sup>-2</sup>) | (Δ<sub>sup</sub>) | Λ es término cosmológico efectivo | no admisible |
-| DE-DM-ERR-05 | (Ω_Λ) como masa dinámica | (Ω_Λ,M<sub>dyn</sub>) | adimensional, (UFM) | Δ<sub>u</sub> | No comparten dimensión ni dominio | no admisible |
+| DE-DM-ERR-05 | (Ω<sub>Λ</sub>) como masa dinámica | (Ω<sub>Λ</sub>,M<sub>dyn</sub>) | adimensional, (UFM) | Δ<sub>u</sub> | No comparten dimensión ni dominio | no admisible |
 | DE-DM-ERR-06 | “Oscuro” como dominio único | etiqueta verbal | — | (Δ<sub>sem</sub>) | Las magnitudes separan los regímenes | no admisible |
 
 La separación fuerte queda:
@@ -15410,7 +15487,7 @@ DM:
 
 <p align="center">
 DE:
-(D<sub>L</sub>,H(z),w,Λ,Ω_Λ).
+(D<sub>L</sub>,H(z),w,Λ,Ω<sub>Λ</sub>).
 </p>
 
 Por tanto:
@@ -15427,8 +15504,8 @@ El agujero negro no es una caja. El horizonte no es pared de recipiente. El volu
 
 | **Código** | **Error** | **Magnitud** | **Unidad SV** | **Residual** | **Corrección** | **Dictamen** |
 |---------------|--------------------------------------------------|----------------------------------|---------------------|----------------------------|----------------------------------------------|-------------------------------|
-| BH-VOL-ERR-01 | BH = volumen clásico | (V=∫sqrt g,d<sup>³</sup>x) | (UFE<sup>3</sup>) | (Δ<sub>cont</sub>) | Volumen es magnitud auxiliar | no admisible |
-| BH-VOL-ERR-02 | Horizonte = pared de caja | (r<sub>s</sub>,r_+) | (UFE) | (Δ<sub>front</sub>) | Horizonte es frontera de no retorno | no admisible |
+| BH-VOL-ERR-01 | BH = volumen clásico | (V=∫√g d<sup>3</sup>x) | (UFE<sup>3</sup>) | (Δ<sub>cont</sub>) | Volumen es magnitud auxiliar | no admisible |
+| BH-VOL-ERR-02 | Horizonte = pared de caja | (r<sub>s</sub>,r<sub>+</sub>) | (UFE) | (Δ<sub>front</sub>) | Horizonte es frontera de no retorno | no admisible |
 | BH-VOL-ERR-03 | Interior saturado = volumen ordinario | V | (UFE<sup>3</sup>) | (Δ<sub>INT</sub>) | Interior saturado no es región inventariable | no admisible |
 | BH-VOL-ERR-04 | Postfrontera = lugar físico detrás | M<sub>N</sub>2-SV | dominio formal | (Δ<sub>post</sub>) | Postfrontera es clausura tipada | no admisible |
 | BH-VOL-ERR-05 | Entropía de horizonte = contenido almacenado | (S<sub>BH</sub>) | entropía SV | (Δ<sub>subst</sub>) | Entropía no es depósito material | no admisible |
@@ -15440,7 +15517,7 @@ La regla correcta es:
 
 <p align="center">
 BH<sub>SV</sub>(Γ<sup>BH</sup>)=0
-iff
+⇔
 R<sup>BH</sup>=0.
 </p>
 
@@ -15703,7 +15780,7 @@ Entre esas magnitudes pueden aparecer:
 H<sub>0</sub>, 
 T<sub>CMB</sub>, 
 z_*, 
-C_ℓ, 
+C<sub>ℓ</sub>, 
 ρ, 
 R, 
 K, 
@@ -15835,7 +15912,7 @@ La existencia de varios dominios implica:
 Pero no implica:
 
 <p align="center">
-TODO_i≠ TODO_j
+TODO<sub>i</sub>≠ TODO<sub>j</sub>
 </p>
 
 como totalidades absolutas exteriores entre sí. El TODO contiene toda familia de dominios formulables:
@@ -15851,7 +15928,7 @@ La inferencia:
 <p align="center">
 Ω<sub>i</sub>≠Ω<sub>j</sub>
 ⇒
-TODO_i≠ TODO_j
+TODO<sub>i</sub>≠ TODO<sub>j</sub>
 </p>
 
 es ilegítima, porque confunde diferencia interna de dominio con exterioridad absoluta.
@@ -15983,13 +16060,13 @@ Queda demostrado.
 **Demostración.** Sea la afirmación:
 
 <p align="center">
-|Ω<sub>esp</sub>|=∈fty.
+|Ω<sub>esp</sub>|=∞.
 </p>
 
 Esta afirmación atribuye una propiedad cardinal, geométrica o extensiva a un dominio previamente declarado. No define por sí misma el dominio. Para decir que algo es infinito, ya debe estar determinado qué es ese algo:
 
 <p align="center">
-|Ω<sub>esp</sub>|=∈fty
+|Ω<sub>esp</sub>|=∞
 ⇒
 Ω<sub>esp</sub><br>
  declarado.
@@ -16002,7 +16079,7 @@ La completitud espacial del SV no se define por infinitud:
 <p align="center">
 Comp(Ω<sub>esp</sub>)
 ≠
-|Ω<sub>esp</sub>|=∈fty.
+|Ω<sub>esp</sub>|=∞.
 </p>
 
 Se define por disponibilidad estructural de separación factual recorrible:
@@ -16049,7 +16126,7 @@ Así:
 
 <p align="center">
 𝓜
-not⊢
+⊬
 ε₋₀.
 </p>
 
@@ -16147,7 +16224,7 @@ entonces:
 
 Queda demostrado.
 
-**Corolario XIV.10.2.** La física contemporánea no queda rechazada en apartado; queda tipada.
+**Corolario XIV.10.2.** La física contemporánea no queda rechazada en conjunto; queda tipada.
 
 **Corolario XIV.10.3.** Una teoría física puede ser empíricamente útil y, al mismo tiempo, no admisible como fundamento preformal.
 
@@ -16163,7 +16240,7 @@ Queda demostrado.
 F_ν
  
 W,m<sup>-2</sup>,Hz<sup>-1</sup>
-longmapsto
+↦
 UFM,UE_MFC<sup>-2</sup>.
 </p>
 
@@ -16173,7 +16250,7 @@ Sea (τ_ν) la profundidad óptica y:
 𝓣=e<sup>-τ_ν</sup>
 </p>
 
-la transmitancia. Si (𝓣∼eq1), el canal es transparente para esa señal en ese régimen. Si (𝓣∼eq0), el canal no transmite o transmite de modo despreciable.
+la transmitancia. Si (𝓣≈1), el canal es transparente para esa señal en ese régimen. Si (𝓣≈0), el canal no transmite o transmite de modo despreciable.
 
 Pero de:
 
@@ -16232,7 +16309,7 @@ M/L,
  
 P(k),
  
-fσ_8.
+fσ<sub>8</sub>.
 </p>
 
 Estas magnitudes tienen unidades SV correspondientes:
@@ -16256,7 +16333,7 @@ UFE<sup>3</sup>,
 </p>
 
 <p align="center">
-κ,γ,Ω<sub>c</sub> h<sup>²</sup>,fσ_8
+κ,γ,Ω<sub>c</sub> h<sup>²</sup>,fσ<sub>8</sub>
 ↦
 adimensional.
 </p>
@@ -16334,9 +16411,9 @@ w,
  
 Λ,
  
-Ω_Λ,
+Ω<sub>Λ</sub>,
  
-ρ_Λ.
+ρ<sub>Λ</sub>.
 </p>
 
 El agujero negro se contrasta por magnitudes de horizonte, no retorno, rotación, termodinámica y curvatura:
@@ -16344,9 +16421,9 @@ El agujero negro se contrasta por magnitudes de horizonte, no retorno, rotación
 <p align="center">
 r<sub>s</sub>,
  
-r_+,
+r<sub>+</sub>,
  
-a_*,
+a<sub>*</sub>,
  
 S<sub>BH</sub>,
  
@@ -16354,7 +16431,7 @@ T<sub>H</sub>,
  
 K,
  
-theta<sub>sh</sub>,
+θ<sub>sh</sub>,
  
 f<sub>QNM</sub>.
 </p>
@@ -16425,9 +16502,9 @@ J,
  
 r<sub>s</sub>,
  
-r_+,
+r<sub>+</sub>,
  
-a_*,
+a<sub>*</sub>,
  
 A,
  
@@ -16437,7 +16514,7 @@ T<sub>H</sub>,
  
 K,
  
-theta<sub>sh</sub>,
+θ<sub>sh</sub>,
  
 f<sub>QNM</sub>.
 </p>
@@ -16445,7 +16522,7 @@ f<sub>QNM</sub>.
 Estas magnitudes permiten tratar masa, rotación, horizonte, área, termodinámica, curvatura, sombra y dinámica. El volumen:
 
 <p align="center">
-V=∫sqrt g,d<sup>³</sup>x
+V=∫√g d<sup>3</sup>x
 </p>
 
 puede aparecer como magnitud geométrica dependiente de foliación o modelo. Su unidad SV es:
@@ -16466,7 +16543,7 @@ La formulación correcta es:
 
 <p align="center">
 BH<sub>SV</sub>(Γ<sup>BH</sup>)=0
-iff
+⇔
 R<sup>BH</sup>=0.
 </p>
 
@@ -16494,7 +16571,7 @@ Queda demostrado.
 
 <p align="center">
 perfección indiferenciada
-not⇒
+⇏
 ∂<sub>ε</sub>,
 </p>
 
@@ -16518,19 +16595,19 @@ D<sub>sep</sub><sup>completo</sup>,
 
 <p align="center">
 Γ
-not⊢
+⊬
 Ω<sub>esp</sub>,
 </p>
 
 <p align="center">
-|Ω<sub>esp</sub>|=∈fty
-not⇒
+|Ω<sub>esp</sub>|=∞
+⇏
 fundamento espacial,
 </p>
 
 <p align="center">
 𝓜
-not⊢
+⊬
 ε₋₀,
 </p>
 
@@ -16775,9 +16852,9 @@ H<sub>0</sub>,
  
 Ω<sub>m</sub>,
  
-Ω_Λ,
+Ω<sub>Λ</sub>,
  
-C_ℓ.
+C<sub>ℓ</sub>.
 </p>
 
 Estas magnitudes tienen unidades físicas y unidades SV:
@@ -16791,7 +16868,7 @@ H<sub>0</sub>↦ UE_MFC<sup>-1</sup>,
 </p>
 
 <p align="center">
-C_ℓ↦ UFT<sup>2</sup>.
+C<sub>ℓ</sub>↦ UFT<sup>2</sup>.
 </p>
 
 Por tanto, el Big Bang es físicamente contrastable. Pero precisamente por eso pertenece a un dominio físico ya constituido:
@@ -16970,10 +17047,10 @@ TODO<sub>SV</sub>.
 La forma inadmisible es:
 
 <p align="center">
-TODO_1, 
-TODO_2, 
+TODO<sub>1</sub>, 
+TODO<sub>2</sub>, 
 …, 
-TODO_k
+TODO<sub>k</sub>
 </p>
 
 como totalidades absolutas exteriores entre sí.
@@ -17024,7 +17101,7 @@ La regla es:
 
 <p align="center">
 Trans<sub>SV</sub>=0
-not⇒
+⇏
 exterioridad absoluta.
 </p>
 
@@ -17069,7 +17146,7 @@ La no verdad sería:
 <p align="center">
 Ω<sub>esp,i</sub>
 ⇒
-TODO_i
+TODO<sub>i</sub>
 </p>
 
 como si cada espacio implicara una totalidad absoluta distinta.
@@ -17109,7 +17186,7 @@ la condición de separación está dada como dominio.
 No significa:
 
 <p align="center">
-|Ω<sub>esp</sub>|=∈fty.
+|Ω<sub>esp</sub>|=∞.
 </p>
 
 No significa:
@@ -17141,7 +17218,7 @@ Pero el espacio no se fabrica por acumulación de recorridos:
 
 <p align="center">
 Γ
-not⊢
+⊬
 Ω<sub>esp</sub>.
 </p>
 
@@ -17267,7 +17344,7 @@ Puede no emitir o no interactuar luminosamente de forma ordinaria. Puede ser no 
 
 <p align="center">
 F_ν=0
-not⇒
+⇏
 x=0.
 </p>
 
@@ -17275,7 +17352,7 @@ Y:
 
 <p align="center">
 L<sub>obs</sub>=0
-not⇒
+⇏
 NADA<sub>SV</sub>.
 </p>
 
@@ -17285,7 +17362,7 @@ La transparencia, por su parte, significa paso de señal:
 𝓣=e<sup>-τ_ν</sup>.
 </p>
 
-Si (𝓣∼eq1), un canal es transparente. Si (𝓣∼eq0), no transmite. Pero ni transparencia ni opacidad deciden existencia.
+Si (𝓣≈1), un canal es transparente. Si (𝓣≈0), no transmite. Pero ni transparencia ni opacidad deciden existencia.
 
 La materia oscura es:
 
@@ -17346,9 +17423,9 @@ w,
  
 Λ,
  
-Ω_Λ,
+Ω<sub>Λ</sub>,
  
-ρ_Λ.
+ρ<sub>Λ</sub>.
 </p>
 
 Sus unidades y dominios no coinciden. La materia oscura usa masa, velocidad, lente y estructura. La energía oscura usa distancia cosmológica, tasa de expansión, constante cosmológica, ecuación de estado y densidad efectiva.
@@ -17400,9 +17477,9 @@ J,
  
 r<sub>s</sub>,
  
-r_+,
+r<sub>+</sub>,
  
-a_*,
+a<sub>*</sub>,
  
 A,
  
@@ -17412,13 +17489,13 @@ T<sub>H</sub>,
  
 K,
  
-theta<sub>sh</sub>.
+θ<sub>sh</sub>.
 </p>
 
 Puede asignársele volumen en ciertas foliaciones o modelos:
 
 <p align="center">
-V=∫sqrt g,d<sup>³</sup>x.
+V=∫√g d<sup>3</sup>x.
 </p>
 
 Pero ese volumen no define el régimen de agujero negro. El régimen se define por clausura, horizonte, no retorno, no transmisión exterior, interior saturado, termodinámica de frontera y postfrontera tipada.
@@ -17427,7 +17504,7 @@ La formulación correcta es:
 
 <p align="center">
 BH<sub>SV</sub>(Γ<sup>BH</sup>)=0
-iff
+⇔
 R<sup>BH</sup>=0.
 </p>
 
@@ -17448,7 +17525,7 @@ No queda en un “detrás” espacial ordinario ni en un depósito volumétrico 
 La postfrontera:
 
 <p align="center">
-M_N2-SV
+M<sub>N2</sub>-SV
 </p>
 
 no es:
@@ -17486,7 +17563,7 @@ R<sup>BH</sup>=0.
 La clausura no destruye la distinción entre apertura y cierre:
 
 <p align="center">
-M_N2-SV
+M<sub>N2</sub>-SV
 ≠
 ε₋₀.
 </p>
@@ -17508,7 +17585,7 @@ M_N2-SV
 | ¿La materia oscura existe espacialmente? | Es presencia gravitatoria no luminosa en dominio físico | Vacío o NADA | (v<sub>rot</sub>,M<sub>dyn</sub>,κ,P(k)) | admisible |
 | ¿La materia oscura es partícula obligatoria? | No; soporte abierto | Cierre prematuro | (m_χ,m<sub>a</sub>,m<sub>s</sub>) | U / admisible parcial |
 | ¿La energía oscura es materia oscura? | No; es régimen expansivo | “Oscuro” como identidad | (D<sub>L</sub>,H(z),w,Λ) | no admisible |
-| ¿El agujero negro es caja? | No; clausura extrema | (BH=V) | (r<sub>s</sub>,r_+,S<sub>BH</sub>,T<sub>H</sub>,K) | no admisible |
+| ¿El agujero negro es caja? | No; clausura extrema | (BH=V) | (r<sub>s</sub>,r<sub>+</sub>,S<sub>BH</sub>,T<sub>H</sub>,K) | no admisible |
 | ¿La postfrontera es ε₋₀? | No; clausura no es apertura | (M_N2=ε₋₀) | Dominio formal de clausura | no admisible |
 | ¿La no señal implica inexistencia? | No | (F_ν=0⇒ x=0) | (F_ν↦UFMUE_MFC<sup>-2</sup>) | no admisible |
 | ¿La matemática funda el universo? | Codifica y decodifica | Funda la primera distinguibilidad | Toda fórmula presupone diferencia | no admisible como fundamento |
@@ -17566,7 +17643,7 @@ BH<sub>SV</sub>.
 
 <p align="center">
 F_ν=0
-not⇒
+⇏
 x=0.
 </p>
 
@@ -17577,7 +17654,7 @@ V.
 </p>
 
 <p align="center">
-M_N2-SV
+M<sub>N2</sub>-SV
 ≠
 ε₋₀.
 </p>
@@ -17672,7 +17749,7 @@ H<sub>0</sub>,
  
 z_*,
  
-C_ℓ.
+C<sub>ℓ</sub>.
 </p>
 
 Todas ellas son magnitudes físicas posteriores, expresables en unidades SV:
@@ -17924,7 +18001,7 @@ La pluralidad de dominios no implica pluralidad de totalidades. La inferencia:
 <p align="center">
 Ω<sub>i</sub>≠Ω<sub>j</sub>
 ⇒
-TODO_i≠ TODO_j
+TODO<sub>i</sub>≠ TODO<sub>j</sub>
 </p>
 
 es inválida. La diferencia de dominio no autoriza exterioridad absoluta.
@@ -18159,9 +18236,9 @@ w,
  
 Λ,
  
-Ω_Λ,
+Ω<sub>Λ</sub>,
  
-ρ_Λ.
+ρ<sub>Λ</sub>.
 </p>
 
 En unidades SV:
@@ -18179,7 +18256,7 @@ H(z)↦UE_MFC<sup>-1</sup>,
 </p>
 
 <p align="center">
-ρ_Λ↦UFM,UFE<sup>-3</sup>.
+ρ<sub>Λ</sub>↦UFM,UFE<sup>-3</sup>.
 </p>
 
 La lectura SV es:
@@ -18203,7 +18280,7 @@ DM:
 
 <p align="center">
 DE:
-(D<sub>L</sub>,H(z),w,Λ,Ω_Λ).
+(D<sub>L</sub>,H(z),w,Λ,Ω<sub>Λ</sub>).
 </p>
 
 Por tanto:
@@ -18243,9 +18320,9 @@ J,
  
 r<sub>s</sub>,
  
-r_+,
+r<sub>+</sub>,
  
-a_*,
+a<sub>*</sub>,
  
 A,
  
@@ -18268,7 +18345,7 @@ UFM,UFE<sup>2</sup>,UE_MFC<sup>-1</sup>,
 </p>
 
 <p align="center">
-r<sub>s</sub>,r_+↦UFE,
+r<sub>s</sub>,r<sub>+</sub>↦UFE,
 </p>
 
 <p align="center">
@@ -18289,7 +18366,7 @@ Es:
 
 <p align="center">
 BH<sub>SV</sub>(Γ<sup>BH</sup>)=0
-iff
+⇔
 R<sup>BH</sup>=0.
 </p>
 
@@ -18298,7 +18375,7 @@ R<sup>BH</sup>=0.
 El volumen:
 
 <p align="center">
-V=∫sqrt g,d<sup>³</sup>x
+V=∫√g d<sup>3</sup>x
 </p>
 
 puede ser una magnitud geométrica auxiliar:
@@ -18320,7 +18397,7 @@ V.
 Y:
 
 <p align="center">
-M_N2-SV
+M<sub>N2</sub>-SV
 ≠
 ε₋₀.
 </p>
@@ -18424,7 +18501,7 @@ UFT,
 </p>
 
 <p align="center">
-C_ℓ
+C<sub>ℓ</sub>
 ↦
 UFT<sup>2</sup>.
 </p>
@@ -18455,7 +18532,7 @@ puede recorrer el espacio, pero no crearlo:
 
 <p align="center">
 Γ
-not⊢
+⊬
 Ω<sub>esp</sub>.
 </p>
 
@@ -18503,7 +18580,7 @@ El agujero negro se lee como clausura extrema:
 
 <p align="center">
 BH<sub>SV</sub>(Γ<sup>BH</sup>)=0
-iff
+⇔
 R<sup>BH</sup>=0.
 </p>
 
@@ -18555,7 +18632,7 @@ Toda magnitud física M<sub>i</sub> se expresa en unidad SV:
 
 <p align="center">
 u<sub>SI</sub>
-longmapsto
+↦
 u<sub>SV</sub>
 ∈
 langle
@@ -18637,130 +18714,17 @@ residual visible.
 | Vacío | Vacío no es NADA | Estado físico formalizado | (vacío≠NADA<sub>SV</sub>) |
 | Imperfección | No todo queda cerrado igual | No clausura indiferenciada mínima | (𝓘<sub>pre</sub>⇒∂<sub>ε</sub>) |
 | Espacio | Donde puede haber separación | Dominio estructural completo de separación factual recorrible | (Ω<sub>esp</sub>=D<sub>sep</sub><sup>completo</sup>) |
-| Recorrido | Caminar no crea el lugar | Trayectoria presupone dominio | (Γ⊂Ω<sub>esp</sub>), (Γnot⊢Ω<sub>esp</sub>) |
+| Recorrido | Caminar no crea el lugar | Trayectoria presupone dominio | (Γ⊂Ω<sub>esp</sub>), (Γ⊬Ω<sub>esp</sub>) |
 | Métrica | Medir no crea el espacio | (g<sub>μν</sub>) es proyección física | (g<sub>μν</sub>≠Ω<sub>esp</sub>) como fundamento |
 | Varios dominios | Muchas habitaciones en un todo | Familia interna de dominios | ({Ω<sub>i</sub>}⊂ TODO<sub>SV</sub>) |
 | Materia oscura | Gravedad sin luz suficiente | Presencia gravitatoria no luminosa | (DM<sub>SV</sub>=𝓖<sub>¬ L</sub>) |
 | Energía oscura | Expansión del universo | Régimen cosmológico expansivo | (DE<sub>SV</sub>=𝓐<sub>cos</sub>) |
-| Agujero negro | No es una caja | Clausura extrema de no retorno | (BH<sub>SV</sub>Γ<sup>BH</sup>=0iff R<sup>BH</sup>=0) |
-| No señal | No ver no es no existir | Canal no detectado u opaco | (F_ν=0not⇒ x=0) |
+| Agujero negro | No es una caja | Clausura extrema de no retorno | (BH<sub>SV</sub>Γ<sup>BH</sup>=0⇔ R<sup>BH</sup>=0) |
+| No señal | No ver no es no existir | Canal no detectado u opaco | (F_ν=0⇏ x=0) |
 | Probabilidad | No decide la verdad primera | Herramienta física o estadística | (P≠𝔡<sub>SV</sub>) |
-| Matemática | Describe y organiza | Codifica y decodifica | (𝓜not⊢ε₋₀) |
+| Matemática | Describe y organiza | Codifica y decodifica | (𝓜⊬ε₋₀) |
 | U | No lo cierro sin saber | Indeterminación honesta | (U≠ admisible) |
 
-## XVI.15. Teorema de conservación formal de la lectura progresiva
-
-**Teorema XVI.15.1.** La lectura progresiva conserva la estructura formal de la publicación si toda explicación simple o técnica preserva dominio, transducción, residual y negaciones constitutivas.
-
-**Demostración.** Sea una proposición formal P<sub>F</sub> de la publicación. Sea P<sub>S</sub> su versión simple y P<sub>T</sub> su versión técnica. La lectura progresiva es válida si:
-
-<p align="center">
-P<sub>S</sub>
-≡
-P<sub>T</sub>
-≡
-P<sub>F</sub>
-</p>
-
-respecto de los invariantes principales:
-
-<p align="center">
-ε₋₀,
- 
-∂<sub>ε</sub>,
- 
-D<sub>sep</sub>,
- 
-Ω<sub>esp</sub>,
- 
-U,
- 
-Δ,
- 
-𝔡.
-</p>
-
-Si P<sub>S</sub> transforma ε₋₀ en Big Bang, entonces viola dominio:
-
-<p align="center">
-Δ<sub>dom</sub>=1.
-</p>
-
-Si P<sub>S</sub> transforma imperfección en azar, viola:
-
-<p align="center">
-Δ<sub>prob</sub>=1.
-</p>
-
-Si P<sub>T</sub> transforma espacio en métrica, viola:
-
-<p align="center">
-Δ<sub>geom</sub>=1.
-</p>
-
-Si P<sub>T</sub> transforma materia oscura en partícula obligatoria, viola:
-
-<p align="center">
-Δ<sub>U</sub>=1.
-</p>
-
-Si P<sub>T</sub> transforma agujero negro en caja, viola:
-
-<p align="center">
-Δ<sub>cont</sub>=1.
-</p>
-
-Por tanto, la lectura progresiva sólo es válida si no altera esas relaciones.
-
-Las versiones de niño, joven universitario y lector científico presentadas en este apartado conservan:
-
-<p align="center">
-ε₋₀
-≠
-Big Bang,
-</p>
-
-<p align="center">
-Ω<sub>esp</sub>
-≠
-contenedor,
-</p>
-
-<p align="center">
-DM<sub>SV</sub>
-≠
-DE<sub>SV</sub>,
-</p>
-
-<p align="center">
-BH<sub>SV</sub>
-≠
-V,
-</p>
-
-<p align="center">
-F_ν=0
-not⇒
-x=0,
-</p>
-
-<p align="center">
-U
-≠
-admisible.
-</p>
-
-Por tanto, la lectura progresiva conserva la forma doctrinal, algebraica y físico-factual del documento.
-
-Queda demostrado.
-
-**Dictamen del apartado XVI.**
-
-<p align="center">
-{
-𝔇<sub>XVI</sub>=admisible.
-}
-</p>
 
 # XVII. Conclusiones
 
@@ -18839,11 +18803,11 @@ T<sub>CMB</sub>,
  
 z_*,
  
-C_ℓ,
+C<sub>ℓ</sub>,
  
 Ω<sub>m</sub>,
  
-Ω_Λ,
+Ω<sub>Λ</sub>,
  
 ρ<sub>c</sub>
 </p>
@@ -18905,7 +18869,7 @@ P(·),
 <p align="center">
 𝓘<sub>pre</sub>
 ≠
-K→∈fty.
+K→∞.
 </p>
 
 La probabilidad, la fluctuación cuántica y la curvatura extrema pertenecen a dominios físicos o matemáticos ya formalizados. La imperfección preformal pertenece al borde anterior de la primera distinguibilidad.
@@ -18933,10 +18897,10 @@ TODO<sub>SV</sub>.
 No procede afirmar:
 
 <p align="center">
-TODO_1,
-TODO_2,
+TODO<sub>1</sub>,
+TODO<sub>2</sub>,
 …,
-TODO_k
+TODO<sub>k</sub>
 </p>
 
 como totalidades absolutas exteriores entre sí.
@@ -18961,7 +18925,7 @@ Tampoco la ausencia de señal implica NADA:
 
 <p align="center">
 F_ν=0
-not⇒
+⇏
 NADA<sub>SV</sub>.
 </p>
 
@@ -18976,7 +18940,7 @@ NADA<sub>SV</sub>.
 Y la postfrontera tipada tampoco es ε₋₀:
 
 <p align="center">
-M_N2-SV
+M<sub>N2</sub>-SV
 ≠
 ε₋₀.
 </p>
@@ -19035,7 +18999,7 @@ La no comunicación tampoco implica exterioridad:
 
 <p align="center">
 Trans<sub>SV</sub>=0
-not⇒
+⇏
 Ω<sub>i</sub>not⊂ TODO<sub>SV</sub>.
 </p>
 
@@ -19088,7 +19052,7 @@ V,
 <p align="center">
 Ω<sub>esp</sub>
 
-|Ω|=∈fty.
+|Ω|=∞.
 </p>
 
 Las magnitudes físicas de espacio y geometría:
@@ -19184,7 +19148,7 @@ M/L,
  
 P(k),
  
-fσ_8.
+fσ<sub>8</sub>.
 </p>
 
 Sus unidades SV incluyen:
@@ -19206,7 +19170,7 @@ P(k)↦ UFE<sup>3</sup>,
 </p>
 
 <p align="center">
-κ,γ,Ω<sub>c</sub> h<sup>²</sup>,fσ_8
+κ,γ,Ω<sub>c</sub> h<sup>²</sup>,fσ<sub>8</sub>
 ↦
 adimensional.
 </p>
@@ -19242,9 +19206,9 @@ w,
  
 Λ,
  
-Ω_Λ,
+Ω<sub>Λ</sub>,
  
-ρ_Λ.
+ρ<sub>Λ</sub>.
 </p>
 
 Sus unidades SV incluyen:
@@ -19262,11 +19226,11 @@ H(z)↦UE_MFC<sup>-1</sup>,
 </p>
 
 <p align="center">
-ρ_Λ↦UFM,UFE<sup>-3</sup>,
+ρ<sub>Λ</sub>↦UFM,UFE<sup>-3</sup>,
 </p>
 
 <p align="center">
-w,Ω_Λ↦adimensional.
+w,Ω<sub>Λ</sub>↦adimensional.
 </p>
 
 La separación final es:
@@ -19312,9 +19276,9 @@ J,
  
 r<sub>s</sub>,
  
-r_+,
+r<sub>+</sub>,
  
-a_*,
+a<sub>*</sub>,
  
 A,
  
@@ -19324,7 +19288,7 @@ T<sub>H</sub>,
  
 K,
  
-theta<sub>sh</sub>,
+θ<sub>sh</sub>,
  
 f<sub>QNM</sub>,
  
@@ -19343,7 +19307,7 @@ UFM,UFE<sup>2</sup>,UE_MFC<sup>-1</sup>,
 </p>
 
 <p align="center">
-r<sub>s</sub>,r_+↦UFE,
+r<sub>s</sub>,r<sub>+</sub>↦UFE,
 </p>
 
 <p align="center">
@@ -19370,7 +19334,7 @@ f<sub>QNM</sub>↦UE_MFC<sup>-1</sup>.
 El volumen:
 
 <p align="center">
-V=∫sqrt g,d<sup>³</sup>x
+V=∫√g d<sup>3</sup>x
 </p>
 
 puede expresarse como:
@@ -19391,14 +19355,14 @@ La formulación de clausura es:
 
 <p align="center">
 BH<sub>SV</sub>(Γ<sup>BH</sup>)=0
-iff
+⇔
 R<sup>BH</sup>=0.
 </p>
 
 La postfrontera tipada no se identifica con el borde preformal:
 
 <p align="center">
-M_N2-SV
+M<sub>N2</sub>-SV
 ≠
 ε₋₀.
 </p>
@@ -19419,7 +19383,7 @@ La estructura de entrada es:
 
 <p align="center">
 (M<sub>i</sub>,u<sub>SI</sub>)
-longmapsto
+↦
 u<sub>SV</sub>.
 </p>
 
@@ -19435,7 +19399,7 @@ La estructura de retorno es:
 
 <p align="center">
 (Ω<sub>SV</sub>,Δ<sub>i</sub>,𝔡<sub>i</sub>)
-stackrel{𝔛<sub>≤ftarrow</sub><sup>SV,M</sup>}{⟶}
+stackrel{𝔛<sub>←</sub><sup>SV,M</sup>}{⟶}
 R<sub>i</sub><sup>fis</sup>.
 </p>
 
@@ -19446,7 +19410,7 @@ H<sub>0</sub>,
  
 T<sub>CMB</sub>,
  
-C_ℓ,
+C<sub>ℓ</sub>,
  
 D<sub>L</sub>(z),
  
@@ -19555,7 +19519,7 @@ V,
 
 <p align="center">
 Γ
-not⊢
+⊬
 Ω<sub>esp</sub>,
 </p>
 
@@ -19578,14 +19542,14 @@ V,
 </p>
 
 <p align="center">
-M_N2-SV
+M<sub>N2</sub>-SV
 ≠
 ε₋₀,
 </p>
 
 <p align="center">
 F_ν=0
-not⇒
+⇏
 x=0,
 </p>
 
@@ -19671,83 +19635,47 @@ R<sub>i</sub><sup>fis</sup>
 
 La estructura mínima de carpetas queda definida así:
 
+```text
 laboratorios/
-
 ├── README.md
-
 ├── datos/
-
-│ ├── teorias_externas.csv
-
-│ ├── dominios_internos.csv
-
-│ ├── magnitudes_unidades_sv.csv
-
-│ ├── casos_origen_cosmologico.csv
-
-│ ├── casos_espacio.csv
-
-│ ├── casos_transparencia.csv
-
-│ ├── casos_materia_oscura.csv
-
-│ ├── casos_energia_oscura.csv
-
-│ ├── casos_dm_de_bh.csv
-
-│ ├── casos_agujero_negro.csv
-
-│ └── casos_falsos_fundamentos.csv
-
+│   ├── teorias_externas.csv
+│   ├── dominios_internos.csv
+│   ├── magnitudes_unidades_sv.csv
+│   ├── casos_origen_cosmologico.csv
+│   ├── casos_espacio.csv
+│   ├── casos_transparencia.csv
+│   ├── casos_materia_oscura.csv
+│   ├── casos_energia_oscura.csv
+│   ├── casos_dm_de_bh.csv
+│   ├── casos_agujero_negro.csv
+│   └── casos_falsos_fundamentos.csv
 ├── esquemas/
-
-│ ├── schema_caso_transductivo.json
-
-│ ├── schema_residual.json
-
-│ ├── schema_dictamen.json
-
-│ └── schema_salida_runner.json
-
+│   ├── schema_caso_transductivo.json
+│   ├── schema_residual.json
+│   ├── schema_dictamen.json
+│   └── schema_salida_runner.json
 ├── validadores/
-
-│ ├── validar_unidades_sv.py
-
-│ ├── validar_residual.py
-
-│ ├── validar_absorcion.py
-
-│ ├── validar_rechazo.py
-
-│ ├── validar_pluralidad.py
-
-│ ├── validar_espacio_completo.py
-
-│ ├── validar_transparencia.py
-
-│ ├── validar_materia_oscura.py
-
-│ ├── validar_dm_de.py
-
-│ ├── validar_agujero_negro.py
-
-│ └── validar_no_contaminacion.py
-
+│   ├── validar_unidades_sv.py
+│   ├── validar_residual.py
+│   ├── validar_absorcion.py
+│   ├── validar_rechazo.py
+│   ├── validar_pluralidad.py
+│   ├── validar_espacio_completo.py
+│   ├── validar_transparencia.py
+│   ├── validar_materia_oscura.py
+│   ├── validar_dm_de.py
+│   ├── validar_agujero_negro.py
+│   └── validar_no_contaminacion.py
 ├── runner/
-
-│ ├── run_all.py
-
-│ └── reportar_resultados.py
-
+│   ├── run_all.py
+│   └── reportar_resultados.py
 └── salidas_esperadas/
-
-├── resumen_global.json
-
-├── dictamenes_por_banco.json
-
-├── errores_esperados.json
-
-└── trazas_validacion.csv
+    ├── resumen_global.json
+    ├── dictamenes_por_banco.json
+    ├── errores_esperados.json
+    └── trazas_validacion.csv
+```
 
 El laboratorio debe rechazar tres prácticas:
 
@@ -19808,7 +19736,7 @@ Ejemplo de tabla material:
 
 | **ID** | **Teoría externa** | **Magnitudes** | **Unidad SV** | **Proyección SV** | **Retorno físico** | **Dictamen** |
 |---------|------------------------|----------------------------------------------------------|------------------------------------------------------------------------------------|----------------------------------|-----------------------------------|-------------------------|
-| COS-001 | ΛCDM | (H₀,Ω<sub>m</sub>,Ω_Λ,T<sub>CMB</sub>,C_ℓ) | (UE_MFC<sup>-1</sup>), adimensional, (UFT), (UFT<sup>²</sup>) | (Ω<sub>fis</sub><sup>cos</sup>) | Cosmología observable posterior | admisible |
+| COS-001 | ΛCDM | (H₀,Ω<sub>m</sub>,Ω<sub>Λ</sub>,T<sub>CMB</sub>,C<sub>ℓ</sub>) | (UE_MFC<sup>-1</sup>), adimensional, (UFT), (UFT<sup>²</sup>) | (Ω<sub>fis</sub><sup>cos</sup>) | Cosmología observable posterior | admisible |
 | COS-002 | Big Bang caliente | (T<sub>CMB</sub>,z_*,H₀) | (UFT), adimensional, (UE_MFC<sup>-1</sup>) | (Ω<sub>fis</sub><sup>early</sup>) | Régimen físico temprano | admisible parcial |
 | COS-003 | Vacío cuántico | (ρ<sub>vac</sub>,φ,Vφ) | (UFMUFE<sup>-3</sup>), campo, densidad energética SV | (Ω<sub>fis</sub><sup>campo</sup>) | Estado físico formalizado | no admisible como NADA |
 | COS-004 | Rebote cosmológico | (ρ<sub>bounce</sub>,H=0) | (UFMUFE<sup>-3</sup>), (UE_MFC<sup>-1</sup>) | (Ω<sub>fis</sub><sup>trans</sup>) | Transición física de régimen | admisible parcial |
@@ -19892,35 +19820,23 @@ El residual no es un adorno. Es el lugar donde el laboratorio conserva lo no abs
 
 El fichero schema_residual.json debe contener, como mínimo:
 
+```json
 {
-
-"id_caso": "string",
-
-"delta_domM": "0|1",
-
-"delta_domSV": "0|1",
-
-"delta_unidad_sv": "0|1",
-
-"delta_proj": "0|1",
-
-"delta_ret": "0|1",
-
-"delta_inv": "0|1",
-
-"delta_fund": "0|1",
-
-"delta_mod": "0|1",
-
-"delta_sup": "0|1",
-
-"delta_cmp": "0|1",
-
-"residual_descriptivo": "string",
-
-"dictamen_resultante": "admisible|admisible parcial|no admisible|U"
-
+  "id_caso": "string",
+  "delta_domM": "0|1",
+  "delta_domSV": "0|1",
+  "delta_unidad_sv": "0|1",
+  "delta_proj": "0|1",
+  "delta_ret": "0|1",
+  "delta_inv": "0|1",
+  "delta_fund": "0|1",
+  "delta_mod": "0|1",
+  "delta_sup": "0|1",
+  "delta_cmp": "0|1",
+  "residual_descriptivo": "string",
+  "dictamen_resultante": "admisible|admisible parcial|no admisible|U"
 }
+```
 
 La regla de validación será:
 
@@ -20005,41 +19921,28 @@ Ejemplos:
 
 Pseudocódigo de validación:
 
+```python
 CRITICAL_KEYS = [
-
-"delta_domM",
-
-"delta_domSV",
-
-"delta_unidad_sv",
-
-"delta_proj",
-
-"delta_ret",
-
-"delta_inv",
-
-"delta_fund",
-
+    "delta_domM",
+    "delta_domSV",
+    "delta_unidad_sv",
+    "delta_proj",
+    "delta_ret",
+    "delta_inv",
+    "delta_fund",
 ]
 
+
 def dictamen_por_residual(row):
-
-critical = any(int(row[k]) == 1 for k in CRITICAL_KEYS)
-
-if critical:
-
-return "no admisible"
-
-if int(row.get("delta_sup", 0)) == 1:
-
-return row.get("dictamen_soporte_abierto", "U")
-
-if int(row.get("delta_mod", 0)) == 1:
-
-return "admisible parcial"
-
-return "admisible"
+    critical = any(int(row[k]) == 1 for k in CRITICAL_KEYS)
+    if critical:
+        return "no admisible"
+    if int(row.get("delta_sup", 0)) == 1:
+        return row.get("dictamen_soporte_abierto", "U")
+    if int(row.get("delta_mod", 0)) == 1:
+        return "admisible parcial"
+    return "admisible"
+```
 
 El runner debe fallar si un caso con residual crítico aparece como admisible.
 
@@ -20094,35 +19997,23 @@ El validador debe comprobar que admisible no se emite por prestigio físico exte
 
 Pseudocódigo:
 
+```python
 def validar_absorcion(row):
-
-required = ["magnitud", "unidad_sv", "dominio_fisico", "dominio_sv", "retorno_fisico"]
-
-missing = [k for k in required if not row.get(k)]
-
-if missing:
-
-return {"ok": False, "error": "SVLAB-ABS-001", "missing": missing}
-
-predicted = dictamen_por_residual(row)
-
-declared = row["dictamen_declarado"]
-
-if predicted != declared:
-
-return {
-
-"ok": False,
-
-"error": "SVLAB-ABS-002",
-
-"expected": predicted,
-
-"declared": declared
-
-}
-
-return {"ok": True}
+    required = ["magnitud", "unidad_sv", "dominio_fisico", "dominio_sv", "retorno_fisico"]
+    missing = [k for k in required if not row.get(k)]
+    if missing:
+        return {"ok": False, "error": "SVLAB-ABS-001", "missing": missing}
+    predicted = dictamen_por_residual(row)
+    declared = row["dictamen_declarado"]
+    if predicted != declared:
+        return {
+            "ok": False,
+            "error": "SVLAB-ABS-002",
+            "expected": predicted,
+            "declared": declared,
+        }
+    return {"ok": True}
+```
 
 ## XVIII.6. Validadores de rechazo como fundamento
 
@@ -20213,21 +20104,16 @@ no admisible.
 
 Pseudocódigo:
 
+```python
 def validar_pluralidad(row):
-
-if row.get("afirma_exterior_absoluto") == "1":
-
-return {"ok": False, "error": "SVLAB-PLU-001", "dictamen": "no admisible"}
-
-if not row.get("regla_generadora") and row.get("pluralidad_infinita") == "1":
-
-return {"ok": True, "dictamen": "U"}
-
-if row.get("dominio_sv") != "TODO_SV_subdominio":
-
-return {"ok": False, "error": "SVLAB-PLU-002"}
-
-return {"ok": True, "dictamen": row.get("dictamen_declarado", "admisible parcial")}
+    if row.get("afirma_exterior_absoluto") == "1":
+        return {"ok": False, "error": "SVLAB-PLU-001", "dictamen": "no admisible"}
+    if not row.get("regla_generadora") and row.get("pluralidad_infinita") == "1":
+        return {"ok": True, "dictamen": "U"}
+    if row.get("dominio_sv") != "TODO_SV_subdominio":
+        return {"ok": False, "error": "SVLAB-PLU-002"}
+    return {"ok": True, "dictamen": row.get("dictamen_declarado", "admisible parcial")}
+```
 
 ## XVIII.8. Validadores de espacio completo
 
@@ -20244,7 +20130,7 @@ Casos:
 | ESP-LAB-005 | (L=∫ ds) | (UFE) | Longitud medida | admisible |
 | ESP-LAB-006 | (Γ⊢Ω<sub>esp</sub>) | — | Trayectoria creadora | no admisible |
 | ESP-LAB-007 | (V=Ω<sub>esp</sub>) | (UFE<sup>³</sup>) | Volumen como espacio | no admisible |
-| ESP-LAB-008 | ( | Ω | =∈fty⇒) fundamento | cardinalidad |
+| ESP-LAB-008 | &#124;Ω&#124;=∞ ⇒ fundamento | cardinalidad | Infinito como fundamento | no admisible |
 | ESP-LAB-009 | Región no recorrida dentro de (Ω<sub>esp</sub>) | dominio formal | Completitud sin recorrido actual | admisible |
 | ESP-LAB-010 | Horizonte observable R<sub>H</sub> = borde del TODO | (UFE) | Límite observacional absolutizado | no admisible |
 
@@ -20257,28 +20143,22 @@ Regla formal:
 pero:
 
 <p align="center">
-Γnot⊢Ω<sub>esp</sub>.
+Γ⊬Ω<sub>esp</sub>.
 </p>
 
 Validador:
 
+```python
 def validar_espacio_completo(row):
-
-claim = row["afirmacion"]
-
-if claim in ["trayectoria_crea_espacio", "metrica_funda_espacio", "volumen_es_espacio"]:
-
-return {"ok": True, "dictamen": "no admisible"}
-
-if claim == "espacio_dsep_completo":
-
-return {"ok": True, "dictamen": "admisible"}
-
-if claim in ["distancia_posterior", "metrica_proyeccion", "volumen_auxiliar"]:
-
-return {"ok": True, "dictamen": "admisible parcial"}
-
-return {"ok": True, "dictamen": "U"}
+    claim = row["afirmacion"]
+    if claim in ["trayectoria_crea_espacio", "metrica_funda_espacio", "volumen_es_espacio"]:
+        return {"ok": True, "dictamen": "no admisible"}
+    if claim == "espacio_dsep_completo":
+        return {"ok": True, "dictamen": "admisible"}
+    if claim in ["distancia_posterior", "metrica_proyeccion", "volumen_auxiliar"]:
+        return {"ok": True, "dictamen": "admisible parcial"}
+    return {"ok": True, "dictamen": "U"}
+```
 
 ## XVIII.9. Validadores de transparencia factual luminosa
 
@@ -20304,8 +20184,8 @@ Casos:
 |-------------|------------------------------------|------------------------------------------------|-------------------------------|-----------------------------|------------------|
 | LUM-LAB-001 | (F_ν>F<sub>ν,lim</sub>) | (UFMUE_MFC<sup>-2</sup>) | señal detectada | Detección de canal | admisible |
 | LUM-LAB-002 | (F_ν<F<sub>ν,lim</sub>) | (UFMUE_MFC<sup>-2</sup>) | no detección | No cierre ontológico | U / admisible parcial |
-| LUM-LAB-003 | (τ_ν≫1) | adimensional | opacidad | Canal apartadoado | admisible |
-| LUM-LAB-004 | (𝓣=e<sup>-τ_ν</sup>∼eq0) | adimensional | no transmisión | No implica NADA | admisible parcial |
+| LUM-LAB-003 | (τ_ν≫1) | adimensional | opacidad | Canal bloqueado | admisible |
+| LUM-LAB-004 | (𝓣=e<sup>-τ_ν</sup>≈0) | adimensional | no transmisión | No implica NADA | admisible parcial |
 | LUM-LAB-005 | (α_ν>0) | (UFE<sup>-1</sup>) | absorción | Interacción física | admisible |
 | LUM-LAB-006 | (A_λ>0) | adimensional | extinción | Obscuración astronómica | admisible |
 | LUM-LAB-007 | (F_ν=0⇒ x=0) | flujo nulo | inexistencia inferida | Error de canal | no admisible |
@@ -20316,39 +20196,34 @@ Reglas:
 
 <p align="center">
 F_ν=0
-not⇒
+⇏
 x=0.
 </p>
 
 <p align="center">
 𝓣=0
-not⇒
+⇏
 BH<sub>SV</sub>.
 </p>
 
 <p align="center">
 𝓣=1
-not⇒
+⇏
 vacío.
 </p>
 
 Pseudocódigo:
 
+```python
 def validar_transparencia(row):
-
-if row.get("inferir_inexistencia_desde_flujo") == "1":
-
-return {"ok": True, "dictamen": "no admisible", "error": "SVLAB-LUM-001"}
-
-if row.get("inferir_bh_desde_opacidad") == "1":
-
-return {"ok": True, "dictamen": "no admisible", "error": "SVLAB-LUM-002"}
-
-if row.get("flujo") == "bajo_umbral":
-
-return {"ok": True, "dictamen": "U"}
-
-return {"ok": True, "dictamen": row["dictamen_esperado"]}
+    if row.get("inferir_inexistencia_desde_flujo") == "1":
+        return {"ok": True, "dictamen": "no admisible", "error": "SVLAB-LUM-001"}
+    if row.get("inferir_bh_desde_opacidad") == "1":
+        return {"ok": True, "dictamen": "no admisible", "error": "SVLAB-LUM-002"}
+    if row.get("flujo") == "bajo_umbral":
+        return {"ok": True, "dictamen": "U"}
+    return {"ok": True, "dictamen": row["dictamen_esperado"]}
+```
 
 ## XVIII.10. Validadores de presencia gravitatoria no luminosa
 
@@ -20387,25 +20262,18 @@ si no hay cierre material.
 
 Validador:
 
+```python
 def validar_materia_oscura(row):
-
-if row.get("identifica_dm_bh") == "1":
-
-return {"ok": True, "dictamen": "no admisible", "error": "SVLAB-DM-001"}
-
-if row.get("cierra_soporte_unico") == "1":
-
-return {"ok": True, "dictamen": "no admisible", "error": "SVLAB-DM-002"}
-
-if row.get("magnitud") in ["v_rot", "M_dyn", "kappa", "gamma", "Omega_c_h2", "P<sub>k</sub>"]:
-
-return {"ok": True, "dictamen": "admisible"}
-
-if row.get("tipo") == "candidato_microfisico":
-
-return {"ok": True, "dictamen": row.get("dictamen_esperado", "U")}
-
-return {"ok": False, "error": "SVLAB-DM-003"}
+    if row.get("identifica_dm_bh") == "1":
+        return {"ok": True, "dictamen": "no admisible", "error": "SVLAB-DM-001"}
+    if row.get("cierra_soporte_unico") == "1":
+        return {"ok": True, "dictamen": "no admisible", "error": "SVLAB-DM-002"}
+    if row.get("magnitud") in ["v_rot", "M_dyn", "kappa", "gamma", "Omega_c_h2", "P_k"]:
+        return {"ok": True, "dictamen": "admisible"}
+    if row.get("tipo") == "candidato_microfisico":
+        return {"ok": True, "dictamen": row.get("dictamen_esperado", "U")}
+    return {"ok": False, "error": "SVLAB-DM-003"}
+```
 
 ## XVIII.11. Validadores de separación materia oscura / energía oscura
 
@@ -20417,7 +20285,7 @@ Tabla de comparación:
 |------------------|------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Dominio SV | (Ω<sub>DM</sub>) | (Ω<sub>DE</sub>) |
 | Condición | (𝓖<sub>¬ L</sub>=1) | (𝓐<sub>cos</sub>=1) |
-| Magnitudes | (v<sub>rot</sub>,M<sub>dyn</sub>,κ,Ω<sub>c</sub> h<sup>²</sup>,P(k)) | (D<sub>L</sub>,H(z),w,Λ,Ω_Λ,ρ_Λ) |
+| Magnitudes | (v<sub>rot</sub>,M<sub>dyn</sub>,κ,Ω<sub>c</sub> h<sup>²</sup>,P(k)) | (D<sub>L</sub>,H(z),w,Λ,Ω<sub>Λ</sub>,ρ<sub>Λ</sub>) |
 | Unidad SV típica | (UFM), (UFEUE_MFC<sup>-1</sup>), adimensional | (UFE), (UE_MFC<sup>-1</sup>), (UFE<sup>-2</sup>), (UFMUFE<sup>-3</sup>) |
 | Retorno físico | Gravedad no luminosa | Expansión cosmológica |
 | Error crítico | DM = BH / partícula obligatoria | DE = DM / NADA |
@@ -20434,34 +20302,27 @@ Casos:
 | SEP-LAB-006 | (w→ DM) | no admisible |
 | SEP-LAB-007 | (DM=DE) por palabra “oscura” | no admisible |
 | SEP-LAB-008 | (DE=NADA) | no admisible |
-| SEP-LAB-009 | (Ω<sub>c</sub> h<sup>²</sup>=Ω_Λ) como identidad de dominio | no admisible |
+| SEP-LAB-009 | (Ω<sub>c</sub> h<sup>²</sup>=Ω<sub>Λ</sub>) como identidad de dominio | no admisible |
 | SEP-LAB-010 | (fσ₈) como contraste mixto | admisible parcial si declara dominio |
 
 Validador:
 
-DM_MAGNITUDES = {"v_rot", "M_dyn", "M_bar", "M<sub>L</sub>", "kappa", "gamma", "Omega_c_h2", "P<sub>k</sub>"}
+```python
+DM_MAGNITUDES = {"v_rot", "M_dyn", "M_bar", "M_L", "kappa", "gamma", "Omega_c_h2", "P_k"}
+DE_MAGNITUDES = {"D_L", "mu_z", "H_z", "D_V_r_d", "D_M_r_d", "w", "Lambda", "Omega_Lambda", "rho_Lambda"}
 
-DE_MAGNITUDES = {"D<sub>L</sub>", "mu_z", "H<sub>z</sub>", "D_V_r<sub>d</sub>", "D_M_r<sub>d</sub>", "w", "Lambda", "Omega_Lambda", "rho_Lambda"}
 
 def validar_dm_de(row):
-
-mag = row["magnitud"]
-
-dom = row["dominio_sv"]
-
-if row.get("identidad_dm_de") == "1":
-
-return {"ok": True, "dictamen": "no admisible", "error": "SVLAB-SEP-001"}
-
-if mag in DM_MAGNITUDES and dom == "Omega_DM":
-
-return {"ok": True, "dictamen": "admisible"}
-
-if mag in DE_MAGNITUDES and dom == "Omega_DE":
-
-return {"ok": True, "dictamen": row.get("dictamen_esperado", "admisible")}
-
-return {"ok": True, "dictamen": "no admisible", "error": "SVLAB-SEP-002"}
+    mag = row["magnitud"]
+    dom = row["dominio_sv"]
+    if row.get("identidad_dm_de") == "1":
+        return {"ok": True, "dictamen": "no admisible", "error": "SVLAB-SEP-001"}
+    if mag in DM_MAGNITUDES and dom == "Omega_DM":
+        return {"ok": True, "dictamen": "admisible"}
+    if mag in DE_MAGNITUDES and dom == "Omega_DE":
+        return {"ok": True, "dictamen": row.get("dictamen_esperado", "admisible")}
+    return {"ok": True, "dictamen": "no admisible", "error": "SVLAB-SEP-002"}
+```
 
 ## XVIII.12. Validadores de agujero negro, volumen y clausura
 
@@ -20480,9 +20341,9 @@ y, si hay rotación:
 <p align="center">
 J,
  
-a_*,
+a<sub>*</sub>,
  
-r_+.
+r<sub>+</sub>.
 </p>
 
 Magnitudes de retorno fuerte:
@@ -20496,7 +20357,7 @@ T<sub>H</sub>,
  
 K,
  
-theta<sub>sh</sub>,
+θ<sub>sh</sub>,
  
 f<sub>QNM</sub>.
 </p>
@@ -20506,22 +20367,22 @@ Casos:
 | **ID** | **Entrada** | **Unidad SV** | **Proyección** | **Retorno** | **Dictamen** |
 |------------|------------------------------------------|-----------------------------------------|---------------------------|------------------------------|--------------|
 | BH-LAB-001 | (M,r<sub>s</sub>) | (UFM,UFE) | horizonte Schwarzschild | no retorno no rotante | admisible |
-| BH-LAB-002 | (J,a_*,r_+) | acción SV, adimensional, (UFE) | Kerr | horizonte rotante | admisible |
+| BH-LAB-002 | (J,a<sub>*</sub>,r<sub>+</sub>) | acción SV, adimensional, (UFE) | Kerr | horizonte rotante | admisible |
 | BH-LAB-003 | (S<sub>BH</sub>) | entropía SV | termodinámica de frontera | entropía de horizonte | admisible parcial |
 | BH-LAB-004 | T<sub>H</sub> | (UFT) | retorno térmico | temperatura Hawking | admisible parcial |
 | BH-LAB-005 | K | (UFE<sup>-4</sup>) | curvatura fuerte | geometría extrema | admisible parcial |
 | BH-LAB-006 | (θ<sub>sh</sub>) | adimensional | sombra angular | contraste observacional | admisible |
 | BH-LAB-007 | (f<sub>QNM</sub>) | (UE_MFC<sup>-1</sup>) | ringdown | firma dinámica | admisible |
-| BH-LAB-008 | (V=∫sqrt g,d<sup>³</sup>x) | (UFE<sup>3</sup>) | volumen auxiliar | no define BH | admisible parcial |
+| BH-LAB-008 | (V=∫√g d<sup>3</sup>x) | (UFE<sup>3</sup>) | volumen auxiliar | no define BH | admisible parcial |
 | BH-LAB-009 | (BH=V) | (UFE<sup>3</sup>) | caja volumétrica | reducción falsa | no admisible |
 | BH-LAB-010 | (𝓣<sub>ext</sub>→0) aislado | adimensional | no transmisión | no basta sin vector completo | admisible parcial |
-| BH-LAB-011 | (M_N2-SV=ε₋₀) | dominio formal | postfrontera como origen | confusión apertura/clausura | no admisible |
+| BH-LAB-011 | (M<sub>N2</sub>-SV=ε₋₀) | dominio formal | postfrontera como origen | confusión apertura/clausura | no admisible |
 
 Regla:
 
 <p align="center">
 BH<sub>SV</sub>(Γ<sup>BH</sup>)=0
-iff
+⇔
 R<sup>BH</sup>=0.
 </p>
 
@@ -20549,29 +20410,21 @@ entonces no basta para cierre total.
 
 Validador:
 
+```python
 def validar_agujero_negro(row):
+    if row.get("afirma_bh_volumen") == "1":
+        return {"ok": True, "dictamen": "no admisible", "error": "SVLAB-BH-001"}
+    if row.get("postfrontera_epsilon") == "1":
+        return {"ok": True, "dictamen": "no admisible", "error": "SVLAB-BH-002"}
+    if row.get("solo_no_transmision") == "1":
+        return {"ok": True, "dictamen": "admisible parcial", "warning": "SVLAB-BH-003"}
 
-if row.get("afirma_bh_volumen") == "1":
-
-return {"ok": True, "dictamen": "no admisible", "error": "SVLAB-BH-001"}
-
-if row.get("postfrontera_epsilon") == "1":
-
-return {"ok": True, "dictamen": "no admisible", "error": "SVLAB-BH-002"}
-
-if row.get("solo_no_transmision") == "1":
-
-return {"ok": True, "dictamen": "admisible parcial", "warning": "SVLAB-BH-003"}
-
-required_for_strong = ["M", "r<sub>s</sub>", "R_hor", "R<sub>L</sub>", "R_int", "R_ret"]
-
-missing = [k for k in required_for_strong if not row.get(k)]
-
-if missing:
-
-return {"ok": True, "dictamen": "admisible parcial", "missing": missing}
-
-return {"ok": True, "dictamen": "admisible"}
+    required_for_strong = ["M", "r_s", "R_hor", "R_L", "R_int", "R_ret"]
+    missing = [k for k in required_for_strong if not row.get(k)]
+    if missing:
+        return {"ok": True, "dictamen": "admisible parcial", "missing": missing}
+    return {"ok": True, "dictamen": "admisible"}
+```
 
 ## XVIII.13. Runner principal
 
@@ -20599,297 +20452,178 @@ emitir informe.
 
 Pseudocódigo completo:
 
+```python
 from pathlib import Path
-
 import csv
-
 import json
-
 import sys
 
 DATA_DIR = Path("datos")
-
 OUT_DIR = Path("salidas")
-
 OUT_DIR.mkdir(exist_ok=True)
 
 CRITICAL_KEYS = [
-
-"delta_domM",
-
-"delta_domSV",
-
-"delta_unidad_sv",
-
-"delta_proj",
-
-"delta_ret",
-
-"delta_inv",
-
-"delta_fund",
-
+    "delta_domM",
+    "delta_domSV",
+    "delta_unidad_sv",
+    "delta_proj",
+    "delta_ret",
+    "delta_inv",
+    "delta_fund",
 ]
 
 ALLOWED_DICTAMENES = {"admisible", "admisible parcial", "no admisible", "U"}
 
+
 def read_csv(path):
+    with path.open("r", encoding="utf-8-sig", newline="") as f:
+        return list(csv.DictReader(f))
 
-with path.open("r", encoding="utf-8-sig", newline="") as f:
-
-return list(csv.DictReader(f))
 
 def require(row, fields, case_id):
+    missing = [field for field in fields if not row.get(field)]
+    if missing:
+        return {
+            "ok": False,
+            "case_id": case_id,
+            "error": "SVLAB-SCHEMA-001",
+            "message": "Campos obligatorios ausentes",
+            "missing": missing,
+        }
+    return {"ok": True}
 
-missing = [field for field in fields if not row.get(field)]
-
-if missing:
-
-return {
-
-"ok": False,
-
-"case_id": case_id,
-
-"error": "SVLAB-SCHEMA-001",
-
-"message": "Campos obligatorios ausentes",
-
-"missing": missing,
-
-}
-
-return {"ok": True}
 
 def dictamen_por_residual(row):
+    critical = any(str(row.get(k, "0")) == "1" for k in CRITICAL_KEYS)
+    if critical:
+        return "no admisible"
+    if str(row.get("delta_sup", "0")) == "1":
+        return row.get("dictamen_soporte_abierto") or "U"
+    if str(row.get("delta_mod", "0")) == "1":
+        return "admisible parcial"
+    return "admisible"
 
-critical = any(str(row.get(k, "0")) == "1" for k in CRITICAL_KEYS)
-
-if critical:
-
-return "no admisible"
-
-if str(row.get("delta_sup", "0")) == "1":
-
-return row.get("dictamen_soporte_abierto") or "U"
-
-if str(row.get("delta_mod", "0")) == "1":
-
-return "admisible parcial"
-
-return "admisible"
 
 def validar_unidad_sv(row):
+    case_id = row.get("id", "SIN_ID")
+    if not row.get("unidad_sv"):
+        return {
+            "ok": False,
+            "case_id": case_id,
+            "error": "SVLAB-UNIT-001",
+            "message": "Magnitud sin unidad SV declarada",
+        }
+    return {"ok": True, "case_id": case_id}
 
-case_id = row.get("id", "SIN_ID")
-
-if not row.get("unidad_sv"):
-
-return {
-
-"ok": False,
-
-"case_id": case_id,
-
-"error": "SVLAB-UNIT-001",
-
-"message": "Magnitud sin unidad SV declarada",
-
-}
-
-return {"ok": True, "case_id": case_id}
 
 def validar_dictamen(row):
+    case_id = row.get("id", "SIN_ID")
+    declared = row.get("dictamen_declarado")
+    if declared not in ALLOWED_DICTAMENES:
+        return {
+            "ok": False,
+            "case_id": case_id,
+            "error": "SVLAB-DICT-001",
+            "message": "Dictamen no permitido",
+            "declared": declared,
+        }
+    expected = dictamen_por_residual(row)
+    if declared != expected:
+        return {
+            "ok": False,
+            "case_id": case_id,
+            "error": "SVLAB-DICT-002",
+            "message": "Dictamen incompatible con residual",
+            "expected": expected,
+            "declared": declared,
+        }
+    return {"ok": True, "case_id": case_id}
 
-case_id = row.get("id", "SIN_ID")
-
-declared = row.get("dictamen_declarado")
-
-if declared not in ALLOWED_DICTAMENES:
-
-return {
-
-"ok": False,
-
-"case_id": case_id,
-
-"error": "SVLAB-DICT-001",
-
-"message": "Dictamen no permitido",
-
-"declared": declared,
-
-}
-
-expected = dictamen_por_residual(row)
-
-if declared != expected:
-
-return {
-
-"ok": False,
-
-"case_id": case_id,
-
-"error": "SVLAB-DICT-002",
-
-"message": "Dictamen incompatible con residual",
-
-"expected": expected,
-
-"declared": declared,
-
-}
-
-return {"ok": True, "case_id": case_id}
 
 def validar_no_contaminacion(row):
+    case_id = row.get("id", "SIN_ID")
+    forbidden_identity = row.get("identidad_prohibida", "0") == "1"
+    if forbidden_identity and row.get("dictamen_declarado") != "no admisible":
+        return {
+            "ok": False,
+            "case_id": case_id,
+            "error": "SVLAB-CONTAM-001",
+            "message": "Identidad prohibida no declarada como no admisible",
+        }
+    return {"ok": True, "case_id": case_id}
 
-case_id = row.get("id", "SIN_ID")
-
-forbidden_identity = row.get("identidad_prohibida", "0") == "1"
-
-if forbidden_identity and row.get("dictamen_declarado") != "no admisible":
-
-return {
-
-"ok": False,
-
-"case_id": case_id,
-
-"error": "SVLAB-CONTAM-001",
-
-"message": "Identidad prohibida no declarada como no admisible",
-
-}
-
-return {"ok": True, "case_id": case_id}
 
 def validar_retorno(row):
+    case_id = row.get("id", "SIN_ID")
+    if not row.get("retorno_fisico"):
+        return {
+            "ok": False,
+            "case_id": case_id,
+            "error": "SVLAB-RET-001",
+            "message": "Falta retorno físico controlado",
+        }
+    return {"ok": True, "case_id": case_id}
 
-case_id = row.get("id", "SIN_ID")
-
-if not row.get("retorno_fisico"):
-
-return {
-
-"ok": False,
-
-"case_id": case_id,
-
-"error": "SVLAB-RET-001",
-
-"message": "Falta retorno físico controlado",
-
-}
-
-return {"ok": True, "case_id": case_id}
 
 def validate_file(path):
+    rows = read_csv(path)
+    results = []
+    required = [
+        "id",
+        "magnitud",
+        "unidad_si",
+        "unidad_sv",
+        "dominio_fisico",
+        "dominio_sv",
+        "retorno_fisico",
+        "dictamen_declarado",
+    ]
+    for row in rows:
+        case_id = row.get("id", "SIN_ID")
+        for validator in [
+            lambda r: require(r, required, case_id),
+            validar_unidad_sv,
+            validar_retorno,
+            validar_dictamen,
+            validar_no_contaminacion,
+        ]:
+            result = validator(row)
+            if not result.get("ok"):
+                results.append(result)
+    return results
 
-rows = read_csv(path)
-
-results = []
-
-required = [
-
-"id",
-
-"magnitud",
-
-"unidad_si",
-
-"unidad_sv",
-
-"dominio_fisico",
-
-"dominio_sv",
-
-"retorno_fisico",
-
-"dictamen_declarado",
-
-]
-
-for row in rows:
-
-case_id = row.get("id", "SIN_ID")
-
-for validator in [
-
-lambda r: require(r, required, case_id),
-
-validar_unidad_sv,
-
-validar_retorno,
-
-validar_dictamen,
-
-validar_no_contaminacion,
-
-]:
-
-result = validator(row)
-
-if not result.get("ok"):
-
-results.append(result)
-
-return results
 
 def main():
+    all_errors = []
+    files = sorted(DATA_DIR.glob("*.csv"))
+    if not files:
+        all_errors.append({
+            "ok": False,
+            "error": "SVLAB-RUN-001",
+            "message": "No se han encontrado ficheros CSV de datos",
+        })
+    for file in files:
+        errors = validate_file(file)
+        for err in errors:
+            err["file"] = str(file)
+        all_errors.extend(errors)
 
-all_errors = []
+    summary = {
+        "total_files": len(files),
+        "total_errors": len(all_errors),
+        "status": "OK" if not all_errors else "FAIL",
+        "errors": all_errors,
+    }
+    output = OUT_DIR / "resumen_global.json"
+    output.write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(json.dumps(summary, ensure_ascii=False, indent=2))
+    if all_errors:
+        sys.exit(1)
 
-files = sorted(DATA_DIR.glob("*.csv"))
-
-if not files:
-
-all_errors.append({
-
-"ok": False,
-
-"error": "SVLAB-RUN-001",
-
-"message": "No se han encontrado ficheros CSV de datos",
-
-})
-
-for file in files:
-
-errors = validate_file(file)
-
-for err in errors:
-
-err["file"] = str(file)
-
-all_errors.extend(errors)
-
-summary = {
-
-"total_files": len(files),
-
-"total_errors": lenall<sub>e</sub>rrors,
-
-"status": "OK" if not all_errors else "FAIL",
-
-"errors": all_errors,
-
-}
-
-output = OUT_DIR / "resumen_global.json"
-
-output.write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
-
-print(json.dumps(summary, ensure_ascii=False, indent=2))
-
-if all_errors:
-
-sys.exit(1)
 
 if __name__ == "__main__":
-
-main()
+    main()
+```
 
 El runner debe cumplir cinco reglas:
 
@@ -20919,99 +20653,63 @@ No se admiten pases silenciosos.
 
 El fichero resumen_global.json debe contener:
 
+```json
 {
-
-"total_files": 10,
-
-"total_errors": 0,
-
-"status": "OK",
-
-"errors": []
-
+  "total_files": 10,
+  "total_errors": 0,
+  "status": "OK",
+  "errors": []
 }
+```
 
 Cuando existan errores esperados de casos negativos, éstos no deben aparecer como fallo del runner si el dictamen declarado es no admisible. Por ejemplo:
 
+```json
 {
-
-"id": "REJ-001",
-
-"afirmacion": "Big Bang = epsilon_menos_cero",
-
-"dictamen_declarado": "no admisible",
-
-"validacion": "OK",
-
-"motivo": "delta_fund=1 correctamente rechazado"
-
+  "id": "REJ-001",
+  "afirmacion": "Big Bang = epsilon_menos_cero",
+  "dictamen_declarado": "no admisible",
+  "validacion": "OK",
+  "motivo": "delta_fund=1 correctamente rechazado"
 }
+```
 
 La salida dictamenes_por_banco.json debe recoger:
 
+```json
 {
-
-"cosmologia": {
-
-"admisible": 1,
-
-"admisible parcial": 5,
-
-"no admisible": 1,
-
-"U": 0
-
-},
-
-"espacio": {
-
-"admisible": 3,
-
-"admisible parcial": 3,
-
-"no admisible": 4,
-
-"U": 0
-
-},
-
-"materia_oscura": {
-
-"admisible": 6,
-
-"admisible parcial": 4,
-
-"no admisible": 3,
-
-"U": 2
-
-},
-
-"energia_oscura": {
-
-"admisible": 5,
-
-"admisible parcial": 4,
-
-"no admisible": 3,
-
-"U": 1
-
-},
-
-"agujero_negro": {
-
-"admisible": 4,
-
-"admisible parcial": 5,
-
-"no admisible": 3,
-
-"U": 0
-
+  "cosmologia": {
+    "admisible": 1,
+    "admisible parcial": 5,
+    "no admisible": 1,
+    "U": 0
+  },
+  "espacio": {
+    "admisible": 3,
+    "admisible parcial": 3,
+    "no admisible": 4,
+    "U": 0
+  },
+  "materia_oscura": {
+    "admisible": 6,
+    "admisible parcial": 4,
+    "no admisible": 3,
+    "U": 2
+  },
+  "energia_oscura": {
+    "admisible": 5,
+    "admisible parcial": 4,
+    "no admisible": 3,
+    "U": 1
+  },
+  "agujero_negro": {
+    "admisible": 4,
+    "admisible parcial": 5,
+    "no admisible": 3,
+    "U": 0
+  }
 }
-
-}
+```
 
 La salida errores_esperados.json debe conservar los errores negativos como validaciones correctas:
 
@@ -21184,13 +20882,13 @@ Planck Collaboration. (2020). Planck 2018 results. I. Overview and the cosmologi
 
 Riess, A. G., Filippenko, A. V., Challis, P., Clocchiatti, A., Diercks, A., Garnavich, P. M., Gilliland, R. L., Hogan, C. J., Jha, S., Kirshner, R. P., et al. (1998). Observational evidence from supernovae for an accelerating universe and a cosmological constant. *The Astronomical Journal, 116*(3), 1009–1038. <https://doi.org/10.1086/300499>
 
-Riess, A. G., Yuan, W., Macri, L. M., Scolnic, D., Brout, D., Casertano, S., Jones, D. O., Murakami, Y., Anand, G. S., Breuval, L., et al. (2022). A comprehensive measurement of the local value of the Hubble constant with 1 km s(<sup>-1</sup>) Mpc(<sup>-1</sup>) uncertainty from the Hubble Space Telescope and the SH0ES Team. *The Astrophysical Journal Letters, 934*(1), L7. <https://doi.org/10.3847/2041-8213/ac5c5b>
+Riess, A. G., Yuan, W., Macri, L. M., Scolnic, D., Brout, D., Casertano, S., Jones, D. O., Murakami, Y., Anand, G. S., Breuval, L., et al. (2022). A comprehensive measurement of the local value of the Hubble constant with 1 km s<sup>-1</sup> Mpc(<sup>-1</sup>) uncertainty from the Hubble Space Telescope and the SH0ES Team. *The Astrophysical Journal Letters, 934*(1), L7. <https://doi.org/10.3847/2041-8213/ac5c5b>
 
 Rubin, V. C., Ford, W. K., Jr., Thonnard, N. (1980). Rotational properties of 21 SC galaxies with a large range of luminosities and radii, from NGC 4605/R=4 kpc to UGC 2885/R=122 kpc. *The Astrophysical Journal, 238*, 471–487. <https://doi.org/10.1086/158003>
 
 Schwarzschild, K. (1916). Über das Gravitationsfeld eines Massenpunktes nach der Einsteinschen Theorie. *Sitzungsberichte der Königlich Preußischen Akademie der Wissenschaften*, 189–196.
 
-Smolin, L. (2006). *The trouble with physics: The rise of string theory, the fall of a science, and what comes next*. Houghton Mifflin.
+Smolin, L. (2006). *The trouble with physics: The rise of string theory, the fall of a science, and what comes next*. Houghton M⇔lin.
 
 Sorkin, R. D. (2003). Causal sets: Discrete gravity. In A. Gomberoff D. Marolf (Eds.), *Lectures on quantum gravity* (pp. 305–327). Springer. <https://doi.org/10.1007/0-387-24992-3_7>
 
