@@ -1173,14 +1173,7 @@ Los candidatos microfísicos —WIMPs, axiones, neutrinos estériles u otros— 
 
 La materia oscura será transducida mediante magnitudes como:
 
-<p align="center">
-v<sub>rot</sub>(r), 
-M<sub>dyn</sub>/M<sub>bar</sub>, 
-κ<sub>lens</sub>, 
-C<sub>ℓ</sub><sup>CMB</sup>, 
-P(k), 
-δ<sub>grav-noL</sub>.
-</p>
+v<sub>rot</sub>(r), M<sub>dyn</sub>/M<sub>bar</sub>, κ<sub>lens</sub>, C<sub>ℓ</sub><sup>CMB</sup>, P(k), δ<sub>grav-noL</sub>.
 
 Su retorno SV será una condición de presencia gravitatoria no luminosa, no una identificación sustancial cerrada.
 
@@ -13926,8 +13919,8 @@ La candela no se usa como primitivo SV. Cuando el banco trate luz, señal, opaci
 | r<sub>s</sub> | m | (UFE) | Radio de horizonte | (Ω<sub>BH</sub>) | Frontera de no retorno | r<sub>s</sub> no es caja |
 | T<sub>H</sub> | K | (UFT) | Temperatura Hawking | (Ω<sub>BH</sub>) | Termodinámica de horizonte | T<sub>H</sub> no es preformal |
 | (S<sub>BH</sub>) | J·K(<sup>-1</sup>) | (UFM,UFE<sup>2</sup>,UE_MFC<sup>-2</sup>,UFT<sup>-1</sup>) | Entropía de horizonte | (Ω<sub>BH</sub>) | Termodinámica de frontera | Entropía no es NADA |
-| (F_ν) | W·m(<sup>-2</sup>)·Hz(<sup>-1</sup>) | (UFM,UE_MFC<sup>-2</sup>) | Flujo espectral observado | Ω<sub>L</sub> | Detección radiométrica | (F_ν=0⇏) inexistencia |
-| (τ_ν) | adimensional | adimensional | Profundidad óptica | Ω<sub>L</sub> | Opacidad de canal | Opacidad no es BH |
+| (F<sub>ν</sub>) | W·m(<sup>-2</sup>)·Hz(<sup>-1</sup>) | (UFM,UE_MFC<sup>-2</sup>) | Flujo espectral observado | Ω<sub>L</sub> | Detección radiométrica | (F<sub>ν</sub>=0⇏) inexistencia |
+| (τ<sub>ν</sub>) | adimensional | adimensional | Profundidad óptica | Ω<sub>L</sub> | Opacidad de canal | Opacidad no es BH |
 | E<sub>I</sub> | eV, J | (UFM,UFE<sup>2</sup>,UE_MFC<sup>-2</sup>) | Energía de ionización | (Ω<sub>atom</sub>) | Estabilidad atómica | Hidrógeno no es ε₋₀ |
 | (𝓕<sub>𝓐</sub>) | curvatura de conexión | según sector; geométricamente (UFE<sup>-2</sup>) | Campo/curvatura | (Ω<sub>campo</sub>) | Proyección física situada | Campo no funda espacio |
 
@@ -14125,25 +14118,25 @@ varios TODOS.
 
 | **Entrada física real** | **Unidad SI** | **Unidad SV** | **Física → SV** | **Residual** | **SV → física** | **Dictamen** |
 |--------------------------------------------------------|----------------------|------------------------------------------------------------------|-------------------------|---------------------------------|---------------------------------|----------------------|
-| Flujo observado (F_ν) | W·m(<sup>-2</sup>)·Hz(<sup>-1</sup>) | (UFM,UE_MFC<sup>-2</sup>) | Señal recibida en canal | Sensibilidad instrumental | Detección radiométrica | admisible |
+| Flujo observado (F<sub>ν</sub>) | W·m(<sup>-2</sup>)·Hz(<sup>-1</sup>) | (UFM,UE_MFC<sup>-2</sup>) | Señal recibida en canal | Sensibilidad instrumental | Detección radiométrica | admisible |
 | Flujo bolométrico (F) | W·m(<sup>-2</sup>) | (UFM,UE_MFC<sup>-3</sup>) | Flujo total recibido | Depende de banda/modelo | Señal energética recibida | admisible |
-| Luminosidad intrínseca (L_ν) | W·Hz(<sup>-1</sup>) | (UFM,UFE<sup>2</sup>,UE_MFC<sup>-2</sup>) | Emisión espectral | Modelo de fuente | Fuente luminosa física | admisible |
+| Luminosidad intrínseca (L<sub>ν</sub>) | W·Hz(<sup>-1</sup>) | (UFM,UFE<sup>2</sup>,UE_MFC<sup>-2</sup>) | Emisión espectral | Modelo de fuente | Fuente luminosa física | admisible |
 | Luminosidad bolométrica (L) | W | (UFM,UFE<sup>2</sup>,UE_MFC<sup>-3</sup>) | Potencia radiada | Modelo de fuente | Emisión física | admisible |
-| Transmitancia (𝓣=e<sup>-τ_ν</sup>) | adimensional | adimensional | Paso de señal | Frecuencia y medio | Transparencia parcial o total | admisible |
-| Profundidad óptica (τ_ν) | adimensional | adimensional | Opacidad acumulada | No implica inexistencia | Medio opaco, no NADA | admisible |
-| Coeficiente de absorción (α_ν) | m(<sup>-1</sup>) | (UFE<sup>-1</sup>) | Atenuación por longitud | No equivale a clausura total | Absorción física | admisible |
-| Extinción (A_λ) | magnitudes | adimensional | Atenuación astronómica | Modelo de polvo/medio | Obscuración, no inexistencia | admisible |
+| Transmitancia (𝓣=e<sup>-τ<sub>ν</sub></sup>) | adimensional | adimensional | Paso de señal | Frecuencia y medio | Transparencia parcial o total | admisible |
+| Profundidad óptica (τ<sub>ν</sub>) | adimensional | adimensional | Opacidad acumulada | No implica inexistencia | Medio opaco, no NADA | admisible |
+| Coeficiente de absorción (α<sub>ν</sub>) | m(<sup>-1</sup>) | (UFE<sup>-1</sup>) | Atenuación por longitud | No equivale a clausura total | Absorción física | admisible |
+| Extinción (A<sub>λ</sub>) | magnitudes | adimensional | Atenuación astronómica | Modelo de polvo/medio | Obscuración, no inexistencia | admisible |
 | Sección eficaz de dispersión (σ<sub>scat</sub>) | m<sup>2</sup> | (UFE<sup>2</sup>) | Redistribución de señal | No anula fuente | Dispersión física | admisible |
 | Umbral instrumental (F<sub>ν,lim</sub>) | W·m(<sup>-2</sup>)·Hz(<sup>-1</sup>) | (UFM,UE_MFC<sup>-2</sup>) | Límite de detección | No cierre ontológico | No detectado bajo umbral | U / admisible parcial |
 | (𝓣<sub>ext</sub>→0) en horizonte | adimensional | adimensional | No salida exterior | No basta sin vector BH completo | No transmisión, no inexistencia | admisible parcial |
-| (F_ν=0⇒NADA) | — | — | Inferencia ilegítima | Crítico | Ausencia de señal no es NADA | no admisible |
+| (F<sub>ν</sub>=0⇒NADA) | — | — | Inferencia ilegítima | Crítico | Ausencia de señal no es NADA | no admisible |
 
 **Cierre bidireccional.**
 
 Física → SV:
 
 <p align="center">
-(F_ν,F,L_ν,L,τ_ν,𝓣,α_ν,A_λ)
+(F<sub>ν</sub>,F,L<sub>ν</sub>,L,τ<sub>ν</sub>,𝓣,α<sub>ν</sub>,A<sub>λ</sub>)
 ⟶
 Ω<sub>L</sub>.
 </p>
@@ -14159,7 +14152,7 @@ significa no transmisión o no detección en un canal declarado, no inexistencia
 No contaminación:
 
 <p align="center">
-F_ν=0
+F<sub>ν</sub>=0
 ⇏
 x=0
  
@@ -14310,30 +14303,27 @@ La UFE, la UE(<sub>MFC</sub>), la UFM y la UFT permiten expresar distancia, expa
 | (S<sub>BH</sub>) | (UFM,UFE<sup>2</sup>,UE_MFC<sup>-2</sup>,UFT<sup>-1</sup>) | Entropía de horizonte | Termodinámica BH | BH | DE |
 | T<sub>H</sub> | (UFT) | Temperatura Hawking | Retorno térmico de horizonte | BH | ε₋₀ |
 | K | (UFE<sup>-4</sup>) | Curvatura fuerte | Geometría extrema | BH/geometría | Fundamento espacial |
-| (F_ν=0) | (UFM,UE_MFC<sup>-2</sup>) con valor nulo de canal | No detección | Canal no observado | Ninguno por sí solo | Inexistencia |
+| (F<sub>ν</sub>=0) | (UFM,UE_MFC<sup>-2</sup>) con valor nulo de canal | No detección | Canal no observado | Ninguno por sí solo | Inexistencia |
 
 **Cierre bidireccional.**
 
 Física → SV separa magnitudes porque sus unidades y dominios no son equivalentes:
 
 <p align="center">
-DM:
-(UFE,UE_MFC<sup>-1</sup>,
+DM: (UFE,UE_MFC<sup>-1</sup>,
 UFM,
 UFE<sup>3</sup>),
 </p>
 
 <p align="center">
-DE:
-(UFE,
+DE: (UFE,
 UE_MFC<sup>-1</sup>,
 UFE<sup>-2</sup>,
 UFM,UFE<sup>-3</sup>),
 </p>
 
 <p align="center">
-BH:
-(UFE,
+BH: (UFE,
 UFT,
 UFE<sup>-4</sup>,
 UFM,UFE<sup>2</sup>UE_MFC<sup>-2</sup>UFT<sup>-1</sup>).
@@ -14603,7 +14593,7 @@ La UFT, la UFM, la UFE, la UE(<sub>MFC</sub>) y la UFCE permiten expresar temper
 | Agujero negro como caja | (r<sub>s</sub>,V) | (UFE), (UFE<sup>3</sup>) | Volumen auxiliar elevado a esencia | (I<sub>claus</sub>) | Horizonte/clausura | no admisible |
 | Postfrontera como origen | (S<sub>BH</sub>,T<sub>H</sub>,M_N2) | entropía SV, (UFT), dominio formal | Clausura confundida con apertura | (I<sub>sep</sub>) | Postfrontera tipada | no admisible |
 | Hidrógeno como origen | (E<sub>I</sub>,a<sub>0</sub>,m<sub>H</sub>) | energía SV, (UFE), (UFM) | Átomo físico posterior | (I<sub>dom</sub>) | Configuración atómica estable | no admisible |
-| No señal como inexistencia | (F_ν<F<sub>ν,lim</sub>) | (UFM,UE_MFC<sup>-2</sup>) | Límite instrumental absolutizado | (I<sub>U</sub>,I<sub>osc</sub>) | No detección de canal | no admisible |
+| No señal como inexistencia | (F<sub>ν</sub><F<sub>ν,lim</sub>) | (UFM,UE_MFC<sup>-2</sup>) | Límite instrumental absolutizado | (I<sub>U</sub>,I<sub>osc</sub>) | No detección de canal | no admisible |
 
 ## XII bis.17. Tabla de retorno físico controlado desde dictámenes SV
 
@@ -14636,19 +14626,7 @@ u<sub>SI</sub>.
 
 Por el sistema de primitivos metrológicos SV, (u<sub>SI</sub>) debe expresarse como producto de potencias de:
 
-<p align="center">
-UE_MFC,
- 
-UFE,
- 
-UFM,
- 
-UFC,
- 
-UFT,
- 
-UFCE,
-</p>
+UE_MFC, UFE, UFM, UFC, UFT, UFCE.
 
 o quedar diferida si pertenece al dominio psicofísico de la candela.
 
@@ -14672,17 +14650,13 @@ Si la magnitud no dispone de unidad SV o de estatuto adimensional declarado, no 
 Una vez expresada la unidad, la dirección física → SV es:
 
 <p align="center">
-(M<sub>i</sub>,u<sub>SV</sub>,Ω<sub>M</sub>)
-stackrel{𝔛<sub>→</sub><sup>M,SV</sup>}{⟶}
-(Ω<sub>SV</sub>,Π<sub>i</sub>,Δ<sub>i</sub>,𝔡<sub>i</sub>).
+(M<sub>i</sub>, u<sub>SV</sub>, Ω<sub>M</sub>) —𝔛<sub>→</sub><sup>M,SV</sup>→ (Ω<sub>SV</sub>, Π<sub>i</sub>, Δ<sub>i</sub>, 𝔡<sub>i</sub>).
 </p>
 
 La dirección SV → física es:
 
 <p align="center">
-(Ω<sub>SV</sub>,Δ<sub>i</sub>,𝔡<sub>i</sub>)
-stackrel{𝔛<sub>←</sub><sup>SV,M</sup>}{⟶}
-R<sub>i</sub><sup>fis</sup>.
+(Ω<sub>SV</sub>, Δ<sub>i</sub>, 𝔡<sub>i</sub>) —𝔛<sub>←</sub><sup>SV,M</sup>→ R<sub>i</sub><sup>fis</sup>.
 </p>
 
 Si falta la primera dirección, no hay anclaje físico. Si falta la segunda, no hay retorno físico opinable. Si falta la unidad SV, no hay articulación metrológica. Si se violan invariantes, hay contaminación.
@@ -14709,34 +14683,11 @@ Queda demostrado.
 
 **Demostración.** Un físico puede opinar una tabla si reconoce magnitudes como:
 
-<p align="center">
-H<sub>0</sub>, 
-T<sub>CMB</sub>, 
-C<sub>ℓ</sub>, 
-D<sub>L</sub>(z), 
-v<sub>rot</sub>(r), 
-M<sub>dyn</sub>, 
-κ, 
-w, 
-Λ, 
-r<sub>s</sub>, 
-T<sub>H</sub>, 
-S<sub>BH</sub>, 
-F_ν, 
-τ_ν, 
-E<sub>I</sub>.
-</p>
+H<sub>0</sub>, T<sub>CMB</sub>, C<sub>ℓ</sub>, D<sub>L</sub>(z), v<sub>rot</sub>(r), M<sub>dyn</sub>, κ, w, Λ, r<sub>s</sub>, T<sub>H</sub>, S<sub>BH</sub>, F<sub>ν</sub>, τ<sub>ν</sub>, E<sub>I</sub>.
 
 Cada una se expresa en unidad SV:
 
-<p align="center">
-UE_MFC,
-UFE,
-UFM,
-UFT,
-UFC,
-UFCE
-</p>
+UE_MFC, UFE, UFM, UFT, UFC, UFCE.
 
 o en combinaciones derivadas. Por tanto, el banco no usa sólo semántica interna. Usa magnitudes físicas comparables.
 
@@ -15223,7 +15174,7 @@ No:
 |-------------|---------------------------------|--------------------|----------------------------------------------------------------------------------------------|---------------------------|------------------------------------------------|-------------------------|
 | TRAY-ERR-01 | Trayectoria crea espacio | (γλ) | dominio formal | (Δ<sub>tray</sub>) | Toda trayectoria exige dominio | no admisible |
 | TRAY-ERR-02 | Longitud recorrida crea dominio | (L=∫ ds) | (UFE) | (Δ<sub>dom</sub>) | Longitud mide recorrido interno | no admisible |
-| TRAY-ERR-03 | Luz crea el espacio que recorre | (Γ<sub>L</sub>,F_ν) | (UFE), flujo radiométrico | (Δ<sub>lum</sub>) | La luz requiere trayectoria y dominio | no admisible |
+| TRAY-ERR-03 | Luz crea el espacio que recorre | (Γ<sub>L</sub>,F<sub>ν</sub>) | (UFE), flujo radiométrico | (Δ<sub>lum</sub>) | La luz requiere trayectoria y dominio | no admisible |
 | TRAY-ERR-04 | Medición crea distancia | (D<sub>L</sub>,D<sub>A</sub>,D<sub>C</sub>) | (UFE) | (Δ<sub>med</sub>) | Medición presupone términos y dominio | no admisible |
 | TRAY-ERR-05 | Geodésica funda geometría | (γλ) | dominio formal | (Δ<sub>geom</sub>) | La geodésica pertenece a geometría ya definida | no admisible |
 | TRAY-ERR-06 | Movimiento funda espacio | (v,a) | (UFEUE_MFC<sup>-1</sup>), (UFEUE_MFC<sup>-2</sup>) | (Δ<sub>¬ t</sub>) | Movimiento es magnitud física posterior | no admisible como fundamento |
@@ -15408,18 +15359,18 @@ No ver no equivale a no existir. No transmitir no equivale a NADA. Opacidad no e
 
 | **Código** | **Error** | **Magnitud** | **Unidad SV** | **Residual** | **Corrección** | **Dictamen** |
 |------------|-------------------------------------|----------------------------------|-------------------------------------------------|--------------------------|-------------------------------------------|-----------------------|
-| LUM-ERR-01 | (F_ν=0⇒ x=0) | (F_ν) | (UFM,UE_MFC<sup>-2</sup>) | (Δ<sub>osc</sub>) | No detección no implica inexistencia | no admisible |
+| LUM-ERR-01 | (F<sub>ν</sub>=0⇒ x=0) | (F<sub>ν</sub>) | (UFM,UE_MFC<sup>-2</sup>) | (Δ<sub>osc</sub>) | No detección no implica inexistencia | no admisible |
 | LUM-ERR-02 | Bajo umbral = ausencia | (F<sub>ν,lim</sub>) | (UFM,UE_MFC<sup>-2</sup>) | Δ<sub>U</sub> | Bajo umbral conserva (U) observacional | no admisible si cierra |
-| LUM-ERR-03 | Opacidad = NADA | (τ_ν≫1) | adimensional | (Δ<sub>TN</sub>) | Opacidad es bloqueo de canal | no admisible |
+| LUM-ERR-03 | Opacidad = NADA | (τ<sub>ν</sub>≫1) | adimensional | (Δ<sub>TN</sub>) | Opacidad es bloqueo de canal | no admisible |
 | LUM-ERR-04 | Transparencia = vacío | (𝓣≈1) | adimensional | (Δ<sub>vac</sub>) | Transparencia es paso de señal | no admisible |
-| LUM-ERR-05 | Absorción = desaparición ontológica | (α_ν) | (UFE<sup>-1</sup>) | (Δ<sub>abs</sub>) | Absorción es interacción física | no admisible |
+| LUM-ERR-05 | Absorción = desaparición ontológica | (α<sub>ν</sub>) | (UFE<sup>-1</sup>) | (Δ<sub>abs</sub>) | Absorción es interacción física | no admisible |
 | LUM-ERR-06 | No transmisión = agujero negro | (𝓣=0) | adimensional | (Δ<sub>BH</sub>) | BH exige vector completo | no admisible si identifica |
 | LUM-ERR-07 | Fibra no retornante = luz destruida | (𝓣<sub>ext</sub>→0) | adimensional | Δ<sub>L</sub> | La fibra puede preservarse bajo no salida | no admisible |
 
 La corrección general es:
 
 <p align="center">
-F_ν=0
+F<sub>ν</sub>=0
 ⇏
 x=0,
 </p>
@@ -15443,7 +15394,7 @@ La materia oscura puede admitir candidatos compactos parciales, incluidos agujer
 | **Código** | **Error** | **Magnitud** | **Unidad SV** | **Residual** | **Corrección** | **Dictamen** |
 |--------------|---------------------------------------------------------|---------------------------------------|------------------------------------------------|--------------------------|-------------------------------------------------------------|------------------|
 | DM-BH-ERR-01 | (DM=BH) | (M<sub>PBH</sub>,f<sub>PBH</sub>) | (UFM), adimensional | (Δ<sub>dom</sub>) | PBH puede ser soporte parcial, no identidad total | no admisible |
-| DM-BH-ERR-02 | Toda no luminosidad es BH | (F_ν=0) | flujo SV | (Δ<sub>osc</sub>) | No luminosidad admite múltiples causas | no admisible |
+| DM-BH-ERR-02 | Toda no luminosidad es BH | (F<sub>ν</sub>=0) | flujo SV | (Δ<sub>osc</sub>) | No luminosidad admite múltiples causas | no admisible |
 | DM-BH-ERR-03 | Curva de rotación implica BH | (v<sub>rot</sub>(r)) | (UFEUE_MFC<sup>-1</sup>) | (Δ<sub>sup</sub>) | Indica presencia gravitatoria no luminosa, no soporte único | no admisible |
 | DM-BH-ERR-04 | Lente gravitacional implica BH | (κ,γ) | adimensional | (Δ<sub>sup</sub>) | Lente mide masa proyectada, no naturaleza única | no admisible |
 | DM-BH-ERR-05 | Masa dinámica excedente = población BH | (M<sub>dyn</sub>-M<sub>bar</sub>) | (UFM) | (Δ<sub>mod</sub>) | Requiere soporte específico | U / admisible parcial |
@@ -16234,20 +16185,20 @@ Queda demostrado.
 
 **Teorema XIV.11.1.** La transparencia factual luminosa es una condición de canal, no una condición de existencia.
 
-**Demostración.** Sea (F_ν) un flujo espectral observado:
+**Demostración.** Sea (F<sub>ν</sub>) un flujo espectral observado:
 
 <p align="center">
-F_ν
+F<sub>ν</sub>
  
 W,m<sup>-2</sup>,Hz<sup>-1</sup>
 ↦
 UFM,UE_MFC<sup>-2</sup>.
 </p>
 
-Sea (τ_ν) la profundidad óptica y:
+Sea (τ<sub>ν</sub>) la profundidad óptica y:
 
 <p align="center">
-𝓣=e<sup>-τ_ν</sup>
+𝓣=e<sup>-τ<sub>ν</sub></sup>
 </p>
 
 la transmitancia. Si (𝓣≈1), el canal es transparente para esa señal en ese régimen. Si (𝓣≈0), el canal no transmite o transmite de modo despreciable.
@@ -16255,7 +16206,7 @@ la transmitancia. Si (𝓣≈1), el canal es transparente para esa señal en ese
 Pero de:
 
 <p align="center">
-F_ν=0
+F<sub>ν</sub>=0
 </p>
 
 o:
@@ -16418,29 +16369,12 @@ w,
 
 El agujero negro se contrasta por magnitudes de horizonte, no retorno, rotación, termodinámica y curvatura:
 
-<p align="center">
-r<sub>s</sub>,
- 
-r<sub>+</sub>,
- 
-a<sub>*</sub>,
- 
-S<sub>BH</sub>,
- 
-T<sub>H</sub>,
- 
-K,
- 
-θ<sub>sh</sub>,
- 
-f<sub>QNM</sub>.
-</p>
+r<sub>s</sub>, r<sub>+</sub>, a<sub>*</sub>, S<sub>BH</sub>, T<sub>H</sub>, K, θ<sub>sh</sub>, f<sub>QNM</sub>.
 
 Sus unidades SV tampoco coinciden como régimen:
 
 <p align="center">
-DM:
-UFM,
+DM: UFM,
 <br>
  UFE,UE_MFC<sup>-1</sup>,
 <br>
@@ -16450,8 +16384,7 @@ UFM,
 </p>
 
 <p align="center">
-DE:
-UFE,
+DE: UFE,
 <br>
  UE_MFC<sup>-1</sup>,
 <br>
@@ -16461,8 +16394,7 @@ UFE,
 </p>
 
 <p align="center">
-BH:
-UFE,
+BH: UFE,
 <br>
  UFT,
 <br>
@@ -16495,29 +16427,7 @@ Queda demostrado.
 
 **Demostración.** Un agujero negro físico puede ser descrito mediante magnitudes:
 
-<p align="center">
-M,
- 
-J,
- 
-r<sub>s</sub>,
- 
-r<sub>+</sub>,
- 
-a<sub>*</sub>,
- 
-A,
- 
-S<sub>BH</sub>,
- 
-T<sub>H</sub>,
- 
-K,
- 
-θ<sub>sh</sub>,
- 
-f<sub>QNM</sub>.
-</p>
+M, J, r<sub>s</sub>, r<sub>+</sub>, a<sub>*</sub>, A, S<sub>BH</sub>, T<sub>H</sub>, K, θ<sub>sh</sub>, f<sub>QNM</sub>.
 
 Estas magnitudes permiten tratar masa, rotación, horizonte, área, termodinámica, curvatura, sombra y dinámica. El volumen:
 
@@ -17343,7 +17253,7 @@ La materia oscura no se define como “invisible” en sentido vulgar. Se define
 Puede no emitir o no interactuar luminosamente de forma ordinaria. Puede ser no visible en ciertos canales. Puede producir efectos gravitatorios. Pero:
 
 <p align="center">
-F_ν=0
+F<sub>ν</sub>=0
 ⇏
 x=0.
 </p>
@@ -17359,7 +17269,7 @@ NADA<sub>SV</sub>.
 La transparencia, por su parte, significa paso de señal:
 
 <p align="center">
-𝓣=e<sup>-τ_ν</sup>.
+𝓣=e<sup>-τ<sub>ν</sub></sup>.
 </p>
 
 Si (𝓣≈1), un canal es transparente. Si (𝓣≈0), no transmite. Pero ni transparencia ni opacidad deciden existencia.
@@ -17470,27 +17380,7 @@ Un agujero negro no se define como contenedor volumétrico clásico.
 
 Puede tener magnitudes asociadas:
 
-<p align="center">
-M,
- 
-J,
- 
-r<sub>s</sub>,
- 
-r<sub>+</sub>,
- 
-a<sub>*</sub>,
- 
-A,
- 
-S<sub>BH</sub>,
- 
-T<sub>H</sub>,
- 
-K,
- 
-θ<sub>sh</sub>.
-</p>
+M, J, r<sub>s</sub>, r<sub>+</sub>, a<sub>*</sub>, A, S<sub>BH</sub>, T<sub>H</sub>, K, θ<sub>sh</sub>.
 
 Puede asignársele volumen en ciertas foliaciones o modelos:
 
@@ -17587,7 +17477,7 @@ M<sub>N2</sub>-SV
 | ¿La energía oscura es materia oscura? | No; es régimen expansivo | “Oscuro” como identidad | (D<sub>L</sub>,H(z),w,Λ) | no admisible |
 | ¿El agujero negro es caja? | No; clausura extrema | (BH=V) | (r<sub>s</sub>,r<sub>+</sub>,S<sub>BH</sub>,T<sub>H</sub>,K) | no admisible |
 | ¿La postfrontera es ε₋₀? | No; clausura no es apertura | (M_N2=ε₋₀) | Dominio formal de clausura | no admisible |
-| ¿La no señal implica inexistencia? | No | (F_ν=0⇒ x=0) | (F_ν↦UFMUE_MFC<sup>-2</sup>) | no admisible |
+| ¿La no señal implica inexistencia? | No | (F<sub>ν</sub>=0⇒ x=0) | (F<sub>ν</sub>↦UFMUE_MFC<sup>-2</sup>) | no admisible |
 | ¿La matemática funda el universo? | Codifica y decodifica | Funda la primera distinguibilidad | Toda fórmula presupone diferencia | no admisible como fundamento |
 | ¿La física queda rechazada? | No; se absorbe por dominio y residual | Rechazo global | Transductor bidireccional | admisible con tipado |
 
@@ -17642,7 +17532,7 @@ BH<sub>SV</sub>.
 </p>
 
 <p align="center">
-F_ν=0
+F<sub>ν</sub>=0
 ⇏
 x=0.
 </p>
@@ -17742,15 +17632,7 @@ Antes de poder decir “esto” y “aquello”, tiene que existir la posibilida
 
 ε₋₀ no pertenece al modelo físico del Big Bang. El Big Bang se estudia con magnitudes como:
 
-<p align="center">
-T<sub>CMB</sub>,
- 
-H<sub>0</sub>,
- 
-z_*,
- 
-C<sub>ℓ</sub>.
-</p>
+T<sub>CMB</sub>, H<sub>0</sub>, z_*, C<sub>ℓ</sub>.
 
 Todas ellas son magnitudes físicas posteriores, expresables en unidades SV:
 
@@ -17856,13 +17738,7 @@ Un lugar vacío no es lo mismo que la NADA. Una habitación vacía sigue siendo 
 
 El vacío físico puede tener campo, energía de vacío, fluctuaciones, estructura formal y leyes. Por tanto, no es ausencia absoluta. Se puede estudiar con magnitudes físicas:
 
-<p align="center">
-ρ<sub>vac</sub>,
- 
-Λ,
- 
-V(φ).
-</p>
+ρ<sub>vac</sub>, Λ, V(φ).
 
 Estas magnitudes se expresan, por ejemplo, como:
 
@@ -18090,21 +17966,7 @@ La completitud no es infinitud ni recorrido exhaustivo. Es disponibilidad estruc
 
 Magnitudes físicas como:
 
-<p align="center">
-D<sub>L</sub>(z),
- 
-D<sub>A</sub>(z),
- 
-D<sub>C</sub>,
- 
-L,
- 
-V,
- 
-g<sub>μν</sub>,
- 
-ds<sup>²</sup>
-</p>
+D<sub>L</sub>(z), D<sub>A</sub>(z), D<sub>C</sub>, L, V, g<sub>μν</sub>, ds<sup>²</sup>.
 
 entran como mediciones o proyecciones posteriores. En unidades SV:
 
@@ -18132,19 +17994,7 @@ Materia oscura significa que vemos efectos de gravedad, pero no vemos suficiente
 
 La materia oscura se contrasta con magnitudes como:
 
-<p align="center">
-v<sub>rot</sub>(r),
- 
-M<sub>dyn</sub>,
- 
-M<sub>bar</sub>,
- 
-κ,
- 
-γ,
- 
-P(k).
-</p>
+v<sub>rot</sub>(r), M<sub>dyn</sub>, M<sub>bar</sub>, κ, γ, P(k).
 
 En unidades SV:
 
@@ -18178,18 +18028,7 @@ Es decir, presencia gravitatoria no luminosa.
 
 La materia oscura no se define por soporte microfísico cerrado. WIMPs, axiones, neutrinos estériles o PBH son candidatos parciales:
 
-<p align="center">
-m_χ, 
-σ<sub>χ N</sub>,
- 
-m<sub>a</sub>,
- 
-g<sub>aγ</sub>,
- 
-M<sub>PBH</sub>,
- 
-f<sub>PBH</sub>.
-</p>
+m_χ, σ<sub>χ N</sub>, m<sub>a</sub>, g<sub>aγ</sub>, M<sub>PBH</sub>, f<sub>PBH</sub>.
 
 El dominio queda:
 
@@ -18274,8 +18113,7 @@ régimen cosmológico expansivo.
 Materia oscura y energía oscura son separables por magnitudes:
 
 <p align="center">
-DM:
-(v<sub>rot</sub>,M<sub>dyn</sub>,κ,P(k)),
+DM: (v<sub>rot</sub>,M<sub>dyn</sub>,κ,P(k)),
 </p>
 
 <p align="center">
@@ -18313,25 +18151,7 @@ Un agujero negro no debe imaginarse como una caja donde se guarda espacio. Es un
 
 Un agujero negro se contrasta con magnitudes como:
 
-<p align="center">
-M,
- 
-J,
- 
-r<sub>s</sub>,
- 
-r<sub>+</sub>,
- 
-a<sub>*</sub>,
- 
-A,
- 
-S<sub>BH</sub>,
- 
-T<sub>H</sub>,
- 
-K.
-</p>
+M, J, r<sub>s</sub>, r<sub>+</sub>, a<sub>*</sub>, A, S<sub>BH</sub>, T<sub>H</sub>, K.
 
 En unidades SV:
 
@@ -18546,15 +18366,7 @@ DM<sub>SV</sub>
 
 presencia gravitatoria no luminosa. Se contrasta con:
 
-<p align="center">
-v<sub>rot</sub>(r),
- 
-M<sub>dyn</sub>,
- 
-κ,
- 
-P(k).
-</p>
+v<sub>rot</sub>(r), M<sub>dyn</sub>, κ, P(k).
 
 La energía oscura se lee como:
 
@@ -18566,15 +18378,7 @@ DE<sub>SV</sub>
 
 régimen cosmológico expansivo. Se contrasta con:
 
-<p align="center">
-D<sub>L</sub>(z),
- 
-H(z),
- 
-w,
- 
-Λ.
-</p>
+D<sub>L</sub>(z), H(z), w, Λ.
 
 El agujero negro se lee como clausura extrema:
 
@@ -18720,7 +18524,7 @@ residual visible.
 | Materia oscura | Gravedad sin luz suficiente | Presencia gravitatoria no luminosa | (DM<sub>SV</sub>=𝓖<sub>¬ L</sub>) |
 | Energía oscura | Expansión del universo | Régimen cosmológico expansivo | (DE<sub>SV</sub>=𝓐<sub>cos</sub>) |
 | Agujero negro | No es una caja | Clausura extrema de no retorno | (BH<sub>SV</sub>Γ<sup>BH</sup>=0⇔ R<sup>BH</sup>=0) |
-| No señal | No ver no es no existir | Canal no detectado u opaco | (F_ν=0⇏ x=0) |
+| No señal | No ver no es no existir | Canal no detectado u opaco | (F<sub>ν</sub>=0⇏ x=0) |
 | Probabilidad | No decide la verdad primera | Herramienta física o estadística | (P≠𝔡<sub>SV</sub>) |
 | Matemática | Describe y organiza | Codifica y decodifica | (𝓜⊬ε₋₀) |
 | U | No lo cierro sin saber | Indeterminación honesta | (U≠ admisible) |
@@ -18924,7 +18728,7 @@ NADA<sub>SV</sub>.
 Tampoco la ausencia de señal implica NADA:
 
 <p align="center">
-F_ν=0
+F<sub>ν</sub>=0
 ⇏
 NADA<sub>SV</sub>.
 </p>
@@ -19269,31 +19073,7 @@ El agujero negro queda tratado como régimen de clausura extrema, no como conten
 
 Sus magnitudes físicas principales son:
 
-<p align="center">
-M,
- 
-J,
- 
-r<sub>s</sub>,
- 
-r<sub>+</sub>,
- 
-a<sub>*</sub>,
- 
-A,
- 
-S<sub>BH</sub>,
- 
-T<sub>H</sub>,
- 
-K,
- 
-θ<sub>sh</sub>,
- 
-f<sub>QNM</sub>,
- 
-L<sub>acc</sub>.
-</p>
+M, J, r<sub>s</sub>, r<sub>+</sub>, a<sub>*</sub>, A, S<sub>BH</sub>, T<sub>H</sub>, K, θ<sub>sh</sub>, f<sub>QNM</sub>, L<sub>acc</sub>.
 
 Sus unidades SV incluyen:
 
@@ -19390,54 +19170,18 @@ u<sub>SV</sub>.
 La estructura de transducción es:
 
 <p align="center">
-(M<sub>i</sub>,u<sub>SV</sub>,Ω<sub>M</sub>)
-stackrel{𝔛<sub>→</sub><sup>M,SV</sup>}{⟶}
-(Ω<sub>SV</sub>,Π<sub>i</sub>,Δ<sub>i</sub>,𝔡<sub>i</sub>).
+(M<sub>i</sub>, u<sub>SV</sub>, Ω<sub>M</sub>) —𝔛<sub>→</sub><sup>M,SV</sup>→ (Ω<sub>SV</sub>, Π<sub>i</sub>, Δ<sub>i</sub>, 𝔡<sub>i</sub>).
 </p>
 
 La estructura de retorno es:
 
 <p align="center">
-(Ω<sub>SV</sub>,Δ<sub>i</sub>,𝔡<sub>i</sub>)
-stackrel{𝔛<sub>←</sub><sup>SV,M</sup>}{⟶}
-R<sub>i</sub><sup>fis</sup>.
+(Ω<sub>SV</sub>, Δ<sub>i</sub>, 𝔡<sub>i</sub>) —𝔛<sub>←</sub><sup>SV,M</sup>→ R<sub>i</sub><sup>fis</sup>.
 </p>
 
 La física contemporánea puede discutir los bancos porque éstos incorporan magnitudes reales:
 
-<p align="center">
-H<sub>0</sub>,
- 
-T<sub>CMB</sub>,
- 
-C<sub>ℓ</sub>,
- 
-D<sub>L</sub>(z),
- 
-H(z),
- 
-v<sub>rot</sub>(r),
- 
-M<sub>dyn</sub>,
- 
-κ,
- 
-w,
- 
-Λ,
- 
-r<sub>s</sub>,
- 
-S<sub>BH</sub>,
- 
-T<sub>H</sub>,
- 
-F_ν,
- 
-τ_ν,
- 
-E<sub>I</sub>.
-</p>
+H<sub>0</sub>, T<sub>CMB</sub>, C<sub>ℓ</sub>, D<sub>L</sub>(z), H(z), v<sub>rot</sub>(r), M<sub>dyn</sub>, κ, w, Λ, r<sub>s</sub>, S<sub>BH</sub>, T<sub>H</sub>, F<sub>ν</sub>, τ<sub>ν</sub>, E<sub>I</sub>.
 
 Pero esas magnitudes no contaminan el plano rector del SV, porque ninguna ocupa:
 
@@ -19548,7 +19292,7 @@ M<sub>N2</sub>-SV
 </p>
 
 <p align="center">
-F_ν=0
+F<sub>ν</sub>=0
 ⇏
 x=0,
 </p>
@@ -20042,7 +19786,7 @@ Tabla de rechazos esperados:
 | REJ-006 | Materia oscura = partícula obligatoria | (m_χ,m<sub>a</sub>,m<sub>s</sub>) | Soporte abierto cerrado indebidamente | no admisible |
 | REJ-007 | Energía oscura = materia oscura | (w,Λ) ante (v<sub>rot</sub>,M<sub>dyn</sub>) | Mezcla de dominios | no admisible |
 | REJ-008 | Agujero negro = volumen | (V,r<sub>s</sub>) | Contenedor clásico | no admisible |
-| REJ-009 | No señal = inexistencia | (F_ν<F<sub>ν,lim</sub>) | Canal confundido con ser | no admisible |
+| REJ-009 | No señal = inexistencia | (F<sub>ν</sub><F<sub>ν,lim</sub>) | Canal confundido con ser | no admisible |
 | REJ-010 | Postfrontera = ε₋₀ | M<sub>N</sub>2-SV | Clausura confundida con apertura | no admisible |
 
 Regla:
@@ -20182,20 +19926,20 @@ Casos:
 
 | **ID** | **Magnitud** | **Unidad SV** | **Condición** | **Retorno físico** | **Dictamen** |
 |-------------|------------------------------------|------------------------------------------------|-------------------------------|-----------------------------|------------------|
-| LUM-LAB-001 | (F_ν>F<sub>ν,lim</sub>) | (UFMUE_MFC<sup>-2</sup>) | señal detectada | Detección de canal | admisible |
-| LUM-LAB-002 | (F_ν<F<sub>ν,lim</sub>) | (UFMUE_MFC<sup>-2</sup>) | no detección | No cierre ontológico | U / admisible parcial |
-| LUM-LAB-003 | (τ_ν≫1) | adimensional | opacidad | Canal bloqueado | admisible |
-| LUM-LAB-004 | (𝓣=e<sup>-τ_ν</sup>≈0) | adimensional | no transmisión | No implica NADA | admisible parcial |
-| LUM-LAB-005 | (α_ν>0) | (UFE<sup>-1</sup>) | absorción | Interacción física | admisible |
-| LUM-LAB-006 | (A_λ>0) | adimensional | extinción | Obscuración astronómica | admisible |
-| LUM-LAB-007 | (F_ν=0⇒ x=0) | flujo nulo | inexistencia inferida | Error de canal | no admisible |
+| LUM-LAB-001 | (F<sub>ν</sub>>F<sub>ν,lim</sub>) | (UFMUE_MFC<sup>-2</sup>) | señal detectada | Detección de canal | admisible |
+| LUM-LAB-002 | (F<sub>ν</sub><F<sub>ν,lim</sub>) | (UFMUE_MFC<sup>-2</sup>) | no detección | No cierre ontológico | U / admisible parcial |
+| LUM-LAB-003 | (τ<sub>ν</sub>≫1) | adimensional | opacidad | Canal bloqueado | admisible |
+| LUM-LAB-004 | (𝓣=e<sup>-τ<sub>ν</sub></sup>≈0) | adimensional | no transmisión | No implica NADA | admisible parcial |
+| LUM-LAB-005 | (α<sub>ν</sub>>0) | (UFE<sup>-1</sup>) | absorción | Interacción física | admisible |
+| LUM-LAB-006 | (A<sub>λ</sub>>0) | adimensional | extinción | Obscuración astronómica | admisible |
+| LUM-LAB-007 | (F<sub>ν</sub>=0⇒ x=0) | flujo nulo | inexistencia inferida | Error de canal | no admisible |
 | LUM-LAB-008 | (𝓣=0⇒ BH) | adimensional | BH inferido sólo por opacidad | Falta vector completo | no admisible |
 | LUM-LAB-009 | (𝓣=1⇒) vacío | adimensional | transparencia como vacío | Paso no equivale a ausencia | no admisible |
 
 Reglas:
 
 <p align="center">
-F_ν=0
+F<sub>ν</sub>=0
 ⇏
 x=0.
 </p>
@@ -20338,29 +20082,11 @@ r<sub>s</sub>
 
 y, si hay rotación:
 
-<p align="center">
-J,
- 
-a<sub>*</sub>,
- 
-r<sub>+</sub>.
-</p>
+J, a<sub>*</sub>, r<sub>+</sub>.
 
 Magnitudes de retorno fuerte:
 
-<p align="center">
-A,
- 
-S<sub>BH</sub>,
- 
-T<sub>H</sub>,
- 
-K,
- 
-θ<sub>sh</sub>,
- 
-f<sub>QNM</sub>.
-</p>
+A, S<sub>BH</sub>, T<sub>H</sub>, K, θ<sub>sh</sub>, f<sub>QNM</sub>.
 
 Casos:
 
