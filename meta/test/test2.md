@@ -471,11 +471,7 @@ La física contemporánea suele preguntar por el origen del universo físico, po
 
 La pregunta por el espacio no empieza con la extensión. Tampoco empieza con la distancia métrica, con la coordenada, con el intervalo, con la curvatura, con el horizonte cosmológico ni con la posibilidad de recorrer una región. Todas esas nociones presuponen que ya hay algún régimen de separación. Lo que aquí se investiga es anterior a esa presuposición: el borde en el cual la no distinción absoluta deja paso a la primera distinguibilidad.
 
-Se introduce para ello el símbolo:
-
-<div align="center">ε₋₀</div>
-
-como nombre formal de la imperfección preformal mínima que hace posible la primera separación. La notación no designa una partícula, ni un instante temporal, ni una fluctuación probabilística, ni una singularidad geométrica, ni una entidad física localizada. Designa el borde preformal anterior al dominio ya constituido en el que puede empezar a hablarse de diferencia, separación, trayectoria, espacio y ulterior física.
+Se introduce para ello el símbolo ε₋₀ como nombre formal de la imperfección preformal mínima que hace posible la primera separación. La notación no designa una partícula, ni un instante temporal, ni una fluctuación probabilística, ni una singularidad geométrica, ni una entidad física localizada. Designa el borde preformal anterior al dominio ya constituido en el que puede empezar a hablarse de diferencia, separación, trayectoria, espacio y ulterior física.
 
 La publicación se organiza, por tanto, alrededor de una tesis de precedencia:
 
@@ -499,9 +495,7 @@ La relación puede expresarse así:
 
 <div align="center">recorrido ⇒ dominio recorrible; dominio recorrible ⇒ separación; separación ⇒ distinguibilidad; distinguibilidad ⇒ imperfección preformal mínima.</div>
 
-Por tanto:
-
-<div align="center">recorrido ⇒ ε₋₀.</div>
+Por tanto: recorrido ⇒ ε₋₀.
 
 Este encadenamiento impide que el espacio sea definido por el recorrido mismo. El recorrido presupone el dominio en el que recorre. Una trayectoria no crea el espacio; lo utiliza. Una medición no crea la distancia; la evalúa dentro de un dominio ya estructuralmente abierto. Una geodésica no funda el dominio; describe un régimen derivado de recorrido dentro de una estructura que ya permite distinguir posiciones.
 
@@ -583,17 +577,17 @@ El **rechazo como fundamento** se produce cuando una teoría, magnitud o imagen 
 
 La regla puede formalizarse así. Sea T una teoría externa o magnitud física declarada. Su evaluación exige:
 
-<div align="center">T ↦ (Ω<sub>T</sub>, Π<sub>T</sub>, 𝓘<sub>T</sub>, Δ<sub>T</sub>, 𝔡<sub>T</sub>).</div>
+<div align="center">T ↦ (Ω<sub>T</sub>, Π<sub>T</sub>, 𝓘<sub>T</sub>, Δ<sub>T</sub>, d<sub>T</sub>).</div>
 
-donde Ω<sub>T</sub> es su dominio, Π<sub>T</sub> su proyección hacia el aparato SV, 𝓘<sub>T</sub> el conjunto de invariantes que debe preservar, Δ<sub>T</sub> su residual y 𝔡<sub>T</sub> su dictamen.
+donde Ω<sub>T</sub> es su dominio, Π<sub>T</sub> su proyección hacia el aparato SV, 𝓘<sub>T</sub> el conjunto de invariantes que debe preservar, Δ<sub>T</sub> su residual y d<sub>T</sub> su dictamen.
 
 Entonces:
 
 | Símbolo | Función |
 |---|---|
-| 𝔡<sub>T</sub> = admisible | si T entra en el dominio declarado con residual nulo y retorno físico controlado. |
-| 𝔡<sub>T</sub> = admisible parcial | si T conserva valor local pero deja residual no nulo o no cierra el dominio total que pretende ocupar. |
-| 𝔡<sub>T</sub> = no admisible | si T viola invariantes constitutivos o pretende sustituir un fundamento que no le pertenece. |
+| d<sub>T</sub> = admisible | si T entra en el dominio declarado con residual nulo y retorno físico controlado. |
+| d<sub>T</sub> = admisible parcial | si T conserva valor local pero deja residual no nulo o no cierra el dominio total que pretende ocupar. |
+| d<sub>T</sub> = no admisible | si T viola invariantes constitutivos o pretende sustituir un fundamento que no le pertenece. |
 
 La regla de lectura es necesaria para evitar dos errores. El primero sería el rechazo indiscriminado de la física contemporánea. El segundo sería su absorción acrítica como si toda teoría física aceptada tuviera automáticamente rango fundante. Ninguna de las dos posiciones es admisible. El SV no rechaza por distancia lingüística ni absorbe por prestigio externo. Clasifica por dominio, residual e invariantes.
 
@@ -636,36 +630,28 @@ La publicación queda gobernada por cuatro prohibiciones especialmente relevante
 **Primera prohibición: tiempo como fundamento.**
 No se admite el tiempo como fundamento primario del origen, del espacio, de la trayectoria, de la energía, de la distancia ni de la primera distinguibilidad. El índice factual de suceso, el orden de activación, la trayectoria admisible y el ciclo factual no equivalen a tiempo físico rector. La publicación puede estudiar teorías físicas que usen tiempo cosmológico, tiempo conforme, tiempo de evolución o parámetro temporal, pero esas magnitudes entran como dominio físico transducido, no como fundamento del SV.
 
-La restricción es:
-
-<div align="center">t<sub>rector</sub> ∉ {Fund}<sub>SV</sub>.</div>
+La restricción es: t<sub>rector</sub> ∉ Fund<sub>SV</sub>.
 
 Por tanto, no se dirá que ε₋₀ ocurre “antes” del Big Bang en sentido temporal ordinario. Se dirá que ε₋₀ es anterior en sentido operatorio a la posibilidad de formular un régimen físico con tiempo.
 
 **Segunda prohibición: probabilidad fundante.**
 No se admite la probabilidad como criterio constitutivo de verdad. La probabilidad puede aparecer en teorías físicas externas, en modelos cosmológicos, en mecánica cuántica, en inflación eterna, en tunneling, en amplitudes de transición o en interpretaciones estadísticas, pero siempre como magnitud o estructura del dominio físico transducido. No puede sustituir a la condición de distinguibilidad, al dictamen ternario ni al cierre doctrinal.
 
-La restricción es:
-
-<div align="center">P( · ) ≢ 𝔡<sub>SV</sub>.</div>
+La restricción es: P(·) ≠ d<sub>SV</sub>.
 
 La marca U tampoco es probabilidad. U es indeterminación honesta, no distribución, no frecuencia, no ignorancia vulgar y no permiso para cierre favorable.
 
 **Tercera prohibición: geometría auxiliar con rango fundante.**
 No se admite que una geometría preexistente funde el espacio. La geometría puede ser absorbida como representación, proyección, herramienta o régimen físico posterior, pero no como fundamento de la primera distinguibilidad. El espacio no nace porque haya métrica; la métrica puede comparecer una vez que existe dominio de separación susceptible de medición.
 
-La restricción es:
-
-<div align="center">g<sub>μν</sub> ∉ {Fund}<sub>ε₋₀</sub>.</div>
+La restricción es: g<sub>μν</sub> ∉ Fund<sub>ε₋₀</sub>.
 
 Tampoco se admite que la curvatura, la geodésica, el intervalo, el volumen o la coordenada sean fundamentos rectores. En el SV, distancia, trayectoria, frontera, volumen y superficie deben rendirse a operadores factuales o a proyecciones explícitas de dominio.
 
 **Cuarta prohibición: inferencia opaca.**
 No se admite que una conclusión se declare por plausibilidad, analogía, intuición, lenguaje sugestivo, extrapolación no trazada o ausencia de refutación. Cada transición debe poder ser reconstruida por el lector: de dominio a proyección, de proyección a invariante, de invariante a residual, de residual a dictamen, de dictamen a retorno físico.
 
-La restricción es:
-
-<div align="center">plausibilidad ⇏ cierre.</div>
+La restricción es: plausibilidad ⇏ cierre.
 
 Estas prohibiciones cumplen una función adicional: protegen el documento ante malentendidos físicos y filosóficos. Hablar de ε₋₀ sin prohibición de tiempo como fundamento lo convertiría en un instante. Hablar de imperfección sin prohibición de probabilidad lo convertiría en azar. Hablar de espacio sin prohibición de geometría con rango fundante lo convertiría en métrica previa. Hablar de origen sin prohibición de inferencia opaca lo convertiría en metafísica. La disciplina prohibitiva no limita el alcance de la publicación; lo hace formulable.
 
@@ -717,13 +703,9 @@ Los dominios internos permiten tratar la pluralidad sin romper la unicidad del T
 
 <div align="center">Ω<sub>1</sub>, Ω<sub>2</sub>, …, Ω<sub>k</sub>,</div>
 
-sin que ello implique varios TODOS rectores exteriores entre sí. La pluralidad de dominios se lee como diferenciación interna subordinada, no como exterioridad absoluta. Por tanto:
+sin que ello implique varios TODOS rectores exteriores entre sí. La pluralidad de dominios se lee como diferenciación interna subordinada, no como exterioridad absoluta. Por tanto: {Ω<sub>1</sub>, Ω<sub>2</sub>, …, Ω<sub>k</sub>} ⊂ {TODO}<sub>SV</sub>,
 
-<div align="center">{Ω<sub>1</sub>, Ω<sub>2</sub>, …, Ω<sub>k</sub>} ⊂ {TODO}<sub>SV</sub>,</div>
-
-y no:
-
-<div align="center">TODO<sub>1</sub>, TODO<sub>2</sub>, …, TODO<sub>k</sub> exteriores entre sí.</div>
+y no: TODO<sub>1</sub>, TODO<sub>2</sub>, …, TODO<sub>k</sub> exteriores entre sí.
 
 Esta distinción será esencial para absorber parcialmente teorías de multiverso, inflación eterna, paisaje cosmológico o pluralidad de dominios sin concederles rango de pluralidad de TODOS. Del mismo modo, será esencial para distinguir varios espacios, varios dominios o varios regímenes de recorrido sin introducir exterioridad rectora.
 
@@ -761,9 +743,7 @@ La absorción no significa que ΛCDM sea fundamento del SV; significa que sus ma
 
 La singularidad inicial aparece en relatividad general clásica como límite de extrapolación de ciertas soluciones cosmológicas hacia el pasado. Bajo hipótesis de energía y causalidad, los teoremas de singularidad mostraron que la relatividad general conduce a geodésicas incompletas en regímenes gravitatorios extremos. En cosmología, esa incompletitud se ha interpretado durante décadas como indicio de que la teoría clásica deja de ser suficiente en el régimen inicial. Sin embargo, la incompletitud geodésica no equivale a una descripción física positiva de “lo que hay” en el origen absoluto; señala más bien una frontera de aplicabilidad del marco clásico.
 
-Esta distinción es esencial para la presente publicación. Una singularidad métrica no debe ser leída como ε₋₀. Una singularidad pertenece a un aparato geométrico ya constituido; ε₋₀, en cambio, nombra el borde preformal que hace posible la primera distinguibilidad antes de que la métrica pueda ser formulada como estructura física. Por tanto:
-
-<div align="center">singularidad inicial ≠ ε₋₀.</div>
+Esta distinción es esencial para la presente publicación. Una singularidad métrica no debe ser leída como ε₋₀. Una singularidad pertenece a un aparato geométrico ya constituido; ε₋₀, en cambio, nombra el borde preformal que hace posible la primera distinguibilidad antes de que la métrica pueda ser formulada como estructura física. Por tanto: singularidad inicial ≠ ε₋₀.
 
 La singularidad tampoco debe identificarse con NADA. La divergencia de una magnitud física, la incompletitud de una curva, la imposibilidad de extender una geodésica o el fallo de un régimen matemático no equivalen a ausencia absoluta ni a cierre rector. Indican un límite del modelo, no una ontología final.
 
@@ -849,9 +829,7 @@ Este residual no niega el valor físico del modelo, pero impide convertirlo en o
 
 La propuesta de Vilenkin formula la creación del universo como un proceso de túnel cuántico desde “nothing” hacia un espacio de De Sitter o un régimen cosmológico inflacionario. En la formulación de 1982, Vilenkin propuso un modelo en el cual el universo se crea por túnel cuántico desde “literalmente nada” hacia un espacio de De Sitter, tras lo cual evoluciona de forma compatible con el escenario inflacionario.
 
-Para esta publicación, la palabra decisiva es “nothing”. No debe traducirse automáticamente como NADA del cierre rector SV. El “nothing” físico de estos modelos no es la NADA del SV. Es un término técnico o semitécnico dentro de una construcción de cosmología cuántica, donde todavía aparecen amplitudes, reglas de transición, espacio de configuraciones, geometría minisuperspace, condiciones de túnel y estructura matemática. Por tanto:
-
-<div align="center">nothing<sub>físico</sub> ≠ NADA<sub>SV</sub>.</div>
+Para esta publicación, la palabra decisiva es “nothing”. No debe traducirse automáticamente como NADA del cierre rector SV. El “nothing” físico de estos modelos no es la NADA del SV. Es un término técnico o semitécnico dentro de una construcción de cosmología cuántica, donde todavía aparecen amplitudes, reglas de transición, espacio de configuraciones, geometría minisuperspace, condiciones de túnel y estructura matemática. Por tanto: nothing<sub>físico</sub> ≠ NADA<sub>SV</sub>.
 
 La propuesta de tunneling puede ser físicamente relevante como modelo de frontera cuántica, pero se rechazará como fundamento si pretende ocupar el lugar de la NADA o de ε₋₀. La NADA no es vacío físico, no es ausencia de campo, no es punto inicial de túnel y no es estado probabilístico. Tampoco ε₋₀ es una barrera cuántica ni una amplitud de creación.
 
@@ -905,9 +883,7 @@ Sin embargo, causal set no equivale al suceso SV. Un elemento de causal set no e
 
 El dictamen preliminar será: causal sets ⟶ absorción parcial como orden estructural no equivalente al suceso SV.
 
-La absorción será parcial porque causal set aporta una imagen útil contra el continuo geométrico rector, pero no sustituye el aparato algebraico-semántico del SV, ni su dictamen ternario, ni la U como indeterminación honesta. El residual principal será:
-
-<div align="center">Δ<sub>CS</sub> = Δ<sub>suceso</sub> ⊕ Δ<sub>Σ</sub> ⊕ Δ<sub>U</sub> ⊕ Δ<sub>dictamen</sub>.</div>
+La absorción será parcial porque causal set aporta una imagen útil contra el continuo geométrico rector, pero no sustituye el aparato algebraico-semántico del SV, ni su dictamen ternario, ni la U como indeterminación honesta. El residual principal será: Δ<sub>CS</sub> = Δ<sub>suceso</sub> ⊕ Δ<sub>Σ</sub> ⊕ Δ<sub>U</sub> ⊕ Δ<sub>dictamen</sub>.
 
 ## I.12. Espacio relacional, sustancialismo y debate filosófico clásico
 
@@ -996,9 +972,7 @@ Además, el documento de agujero negro ya ha fijado una disciplina fuerte: el ag
 
 El dictamen preliminar será: PBH como materia oscura ⟶ absorción parcial como candidato, no como equivalencia.
 
-El error que debe evitarse en XIII será:
-
-<div align="center">materia oscura = agujero negro.</div>
+El error que debe evitarse en XIII será: materia oscura = agujero negro.
 
 Esa igualdad será rechazada.
 
@@ -1064,7 +1038,7 @@ El resultado de este apartado prepara la matriz de absorción del apartado III. 
 
 El dictamen general del estado del arte queda así:
 
-<div align="center">𝔇_I dominio externo admisible para transducción, no admisible como fundamento preformal.</div>
+<div align="center">D_I dominio externo admisible para transducción, no admisible como fundamento preformal.</div>
 
 En consecuencia, ninguna teoría física de origen sustituye ε₋₀, ninguna teoría de espacio emergente funda por sí sola el espacio factual, ninguna pluralidad cosmológica introduce varios TODOS exteriores, ninguna oscuridad física equivale a NADA, ninguna materia oscura equivale automáticamente a partícula, vacío o agujero negro, y ninguna energía oscura equivale a materia oscura.
 
@@ -1112,15 +1086,13 @@ En el documento Einstein–Bohr, el operador (𝓣) articula el régimen geomét
 
 (𝓐, 𝓕<sub>𝓐</sub>), con (Σ, χ<sub>c</sub>, C<sub>SV</sub>).
 
-donde el correlador angular:
-
-<div align="center">C<sub>SV</sub>(δ)=-cosδ</div>
+donde el correlador angular: C<sub>SV</sub>(δ)=-cosδ
 
 permitía obtener una sombra binaria compatible con frecuencias relativas, regla operativa de Born, CHSH y cota de Tsirelson, sin convertir la probabilidad en fundamento primario. En ese dominio local, el problema físico no era el horizonte, ni la oscuridad cosmológica, ni la materia oscura, sino la articulación entre un régimen geométrico y un régimen de medición cuántica binarizada.
 
 En el documento de agujero negro, la estructura local era distinta. Allí no se necesitaba un correlador angular Einstein–Bohr, sino una doble traducción entre magnitudes físicas de horizonte y condiciones formales del régimen (BH<sub>SV</sub>). La transducción operaba sobre magnitudes como:
 
-<div align="center">q=(r)/(r<sub>s</sub>), χ, r<sub>+</sub>, S<sup>BH</sup>/k<sub>B</sub>, T^H, (K)/(K<sub>h</sub>).</div>
+<div align="center">q=(r)/(r<sub>s</sub>), χ, r<sub>+</sub>, S<sub>BH</sub>/k<sub>B</sub>, T<sub>H</sub>, (K)/(K<sub>h</sub>).</div>
 
 y sobre condiciones como no salida exterior, no transmisión luminosa, interior no accesible, saturación, postfrontera y vector de defecto:
 
@@ -1138,9 +1110,7 @@ son realizaciones locales correctas de una clase superior:
 
 La diferencia entre ellas no constituye defecto retrospectivo. Cada una respondió a su dominio. El documento Einstein–Bohr exigía correlador angular, acoplamiento y proyección binaria. El documento de agujero negro exigía horizonte, no transmisibilidad, vector de defecto y bancos de magnitudes físicas. Este documento exige otra instancia: origen preformal, ε₋₀, primera distinguibilidad, espacio, oscuridad cosmológica, materia oscura, energía oscura y pluralidad de dominios.
 
-La continuidad metodológica se formula así:
-
-<div align="center">instancia local correcta ⇒ familia superior tipada.</div>
+La continuidad metodológica se formula así: instancia local correcta ⇒ familia superior tipada.
 
 Por tanto, la nueva publicación no reescribe las anteriores. Las ordena en una clase común sin retirarles validez local.
 
@@ -1154,7 +1124,7 @@ La expresión designa una familia tipada de transductores físico-factuales bidi
 
 La estructura mínima es:
 
-<div align="center">𝔛<sub>SV</sub>(D ↔ D') (𝔛<sub> → </sub><sup>D, D'</sup>, 𝔛<sub>←</sub><sup>D', D</sup>, Ω<sub>D</sub>, Ω<sub>D'</sub>, Π<sub>D → D'</sub>, Π<sub>D' → D</sub>, 𝓘<sub>𝔛</sub>, Δ<sub>𝔛</sub>, 𝔡<sub>𝔛</sub>).</div>
+<div align="center">𝔛<sub>SV</sub>(D ↔ D') (𝔛<sub>→</sub><sup>D, D'</sup>, 𝔛<sub>←</sub><sup>D', D</sup>, Ω<sub>D</sub>, Ω<sub>D'</sub>, Π<sub>D → D'</sub>, Π<sub>D' → D</sub>, 𝓘<sub>𝔛</sub>, Δ<sub>𝔛</sub>, d<sub>𝔛</sub>).</div>
 
 Donde:
 
@@ -1170,15 +1140,15 @@ El convenio exige que ningún tránsito entre dominios se declare sin los siguie
 
 - Ω<sub>D</sub>: dominio de partida.
 - Ω<sub>D'</sub>: dominio de llegada.
-- Π<sub>D: → D'</sub> proyección de ida.
-- Π<sub>D': → D</sub> proyección de retorno.
+- Π<sub>D → D'</sub>: proyección de ida.
+- Π<sub>D' → D</sub>: proyección de retorno.
 - 𝓘<sub>𝔛</sub>: invariantes preservados.
 - Δ<sub>𝔛</sub>: residual.
-- 𝔡<sub>𝔛</sub>: dictamen.
+- d<sub>𝔛</sub>: dictamen.
 
 La transducción no es traducción lingüística ordinaria. No se limita a cambiar términos. Una transducción físico-factual legítima debe preservar la estructura del dominio, impedir sustituciones indebidas y devolver el resultado con alcance físico inteligible. Si una magnitud física no declara su dominio, no puede ser transducida. Si una condición SV no produce retorno físico controlado, queda expuesta a lectura interna no contrastada. Si una proyección viola invariantes, el transductor debe emitir defecto.
 
-La regla de unidad formal será: 𝔛<sub>SV</sub>(D ↔ D') es admisible ⇔ (Ω, Π, 𝓘, Δ, 𝔡) están declarados en ambas direcciones.
+La regla de unidad formal será: 𝔛<sub>SV</sub>(D ↔ D') es admisible ⇔ (Ω, Π, 𝓘, Δ, d) están declarados en ambas direcciones.
 
 Este convenio será usado en la publicación como clase superior. Sus principales instancias serán:
 
@@ -1198,7 +1168,7 @@ La instancia propia de esta publicación queda definida como:
 
 El dominio (M) designa el conjunto de magnitudes, condiciones físicas y predicados cosmológicos admisibles para contraste. No toda palabra física entra automáticamente en (M). Sólo entran expresiones con dominio declarable, función física reconocible y posibilidad de retorno. Entre ellas:
 
-<div align="center">M= = { expansión, escala, densidad, radiación, opacidad, horizonte, detectabilidad, fondo, estructura, curvatura efectiva, ausencia de señal luminosa, no retorno observacional, presencia gravitatoria no luminosa, aceleración cosmológica, oscuridad física }.</div>
+<div align="center">M = { expansión, escala, densidad, radiación, opacidad, horizonte, detectabilidad, fondo, estructura, curvatura efectiva, ausencia de señal luminosa, no retorno observacional, presencia gravitatoria no luminosa, aceleración cosmológica, oscuridad física }.</div>
 
 El dominio ε₋₀ designa el borde preformal de primera distinguibilidad, no un objeto físico constituido. Su dominio de llegada no se reduce al símbolo aislado ε₋₀, sino que incluye las estructuras mínimas necesarias para su tratamiento:
 
@@ -1217,7 +1187,7 @@ Donde:
 
 La dirección física hacia SV se define como:
 
-<div align="center">𝔛<sub> → </sub><sup>M, ε</sup>: Ω<sub>M</sub> ⟶ Ω<sub>ε₋₀</sub>.</div>
+<div align="center">𝔛<sub>→</sub><sup>M, ε</sup>: Ω<sub>M</sub> ⟶ Ω<sub>ε₋₀</sub>.</div>
 
 Toma una magnitud o condición física (m∈Ω<sub>M</sub>) y determina su proyección factual. Por ejemplo, una ausencia de señal luminosa no se traduce automáticamente como NADA, ni como vacío, ni como inexistencia. Debe proyectarse sobre un régimen definido: no visibilidad, opacidad, no transmisión, límite instrumental, presencia gravitatoria no luminosa o residual de oscuridad.
 
@@ -1227,9 +1197,7 @@ La dirección SV hacia física se define como:
 
 Toma una condición SV y la devuelve al lenguaje físico sin desbordar su dominio. Por ejemplo, si el aparato declara (D<sub>sep</sub>), el retorno físico no debe decir “espacio como contenedor”, sino “dominio de separación factual recorrible”. Si declara (R<sub>osc</sub>), el retorno no debe decir “Nada”, sino distinguir ausencia de señal, no luminosidad, no transmisión, presencia gravitatoria no luminosa o expansión cosmológica no material ordinaria.
 
-Por tanto:
-
-<div align="center">𝔛<sub>SV</sub>(M ↔ ε₋₀) (𝔛<sub> → </sub><sup>M, ε</sup>, 𝔛<sub>←</sub><sup>ε, M</sup>, Ω<sub>M</sub>, Ω<sub>ε₋₀</sub>, Π<sub>M → ε</sub>, Π<sub>ε → M</sub>, 𝓘<sub>ε</sub>, Δ<sub>ε</sub>, 𝔡<sub>ε</sub>).</div>
+Por tanto: 𝔛<sub>SV</sub>(M ↔ ε₋₀) (𝔛<sub>→</sub><sup>M, ε</sup>, 𝔛<sub>←</sub><sup>ε, M</sup>, Ω<sub>M</sub>, Ω<sub>ε₋₀</sub>, Π<sub>M → ε</sub>, Π<sub>ε → M</sub>, 𝓘<sub>ε</sub>, Δ<sub>ε</sub>, d<sub>ε</sub>).
 
 Su función no consiste en demostrar que toda física externa sea falsa. Consiste en situarla. Toda magnitud física será evaluada como régimen posterior, proyección parcial, contraste, caso negativo o límite de dominio.
 
@@ -1327,9 +1295,7 @@ Donde:
 | Δ<sub>osc</sub> | mide confusión en regímenes de oscuridad. |
 | Δ<sub>fund</sub> | mide sustitución indebida de fundamento. |
 
-El residual nulo se expresa como:
-
-<div align="center">Δ<sub>ε</sub>(m)=0.</div>
+El residual nulo se expresa como: Δ<sub>ε</sub>(m)=0.
 
 Pero un residual nulo no significa que la magnitud física gobierne el sistema. Significa únicamente que esa magnitud ha sido ubicada, proyectada y devuelta sin defecto dentro del dominio que le corresponde.
 
@@ -1337,25 +1303,13 @@ Pero un residual nulo no significa que la magnitud física gobierne el sistema. 
 
 El dictamen local del transductor se define como:
 
-<div align="center">𝔡<sub>ε</sub>(m) ∈ {admisible, no admisible, U}.</div>
+<div align="center">d<sub>ε</sub>(m) ∈ {admisible, no admisible, U}.</div>
 
-Se declara:
+Se declara d<sub>ε</sub>(m)=admisible si el dominio está declarado, la proyección es legítima, los invariantes se preservan, el residual se anula y el retorno físico es controlado.
 
-<div align="center">𝔡<sub>ε</sub>(m)=admisible</div>
+Se declara d<sub>ε</sub>(m)=no admisible si existe violación material: sustitución de ε₋₀ por una teoría física de origen, conversión del vacío cuántico en NADA, reducción del espacio a contenedor, identificación de oscuridad con inexistencia, identificación de materia oscura con agujero negro, identificación de energía oscura con materia oscura o cierre favorable sin residual evaluado.
 
-si el dominio está declarado, la proyección es legítima, los invariantes se preservan, el residual se anula y el retorno físico es controlado.
-
-Se declara:
-
-<div align="center">𝔡<sub>ε</sub>(m)=no admisible</div>
-
-si existe violación material: sustitución de ε₋₀ por una teoría física de origen, conversión del vacío cuántico en NADA, reducción del espacio a contenedor, identificación de oscuridad con inexistencia, identificación de materia oscura con agujero negro, identificación de energía oscura con materia oscura o cierre favorable sin residual evaluado.
-
-Se declara:
-
-<div align="center">𝔡<sub>ε</sub>(m)=U</div>
-
-si el estado de la información no permite decidir sin cierre artificial.
+Se declara d<sub>ε</sub>(m)=U si el estado de la información no permite decidir sin cierre artificial.
 
 Junto al dictamen local, la publicación usará una clasificación de teorías externas:
 
@@ -1436,9 +1390,7 @@ Ejemplos de absorción prevista:
 
 La absorción total siempre queda subordinada al dominio. Una teoría absorbida no se convierte en respuesta a todas las preguntas de la publicación. Sólo queda admitida allí donde su dominio es materialmente competente.
 
-La fórmula de seguridad será:
-
-<div align="center">ABSORBIDA(T, D) ⇏ T=fundamento de todos los dominios.</div>
+La fórmula de seguridad será: ABSORBIDA(T, D) ⇏ T=fundamento de todos los dominios.
 
 ## II.8. Criterio de absorción parcial
 
@@ -1566,9 +1518,7 @@ La segunda prohibición específica se refiere a la pluralidad cosmológica. La 
 
 La regla será: {Ω<sub>1</sub>, Ω<sub>2</sub>, …, Ω<sub>k</sub>} ⊂ TODO<sub>SV</sub>.
 
-Y no:
-
-<div align="center">TODO<sub>1</sub>, TODO<sub>2</sub>, …, TODO<sub>k</sub>.</div>
+Y no: TODO<sub>1</sub>, TODO<sub>2</sub>, …, TODO<sub>k</sub>.
 
 La pluralidad de dominios será tratada como diferenciación interna. Los modelos de inflación eterna, paisaje, multiverso, ciclos o aeones podrán ser absorbidos parcialmente si se formulan como pluralidad subordinada de dominios. Serán rechazados como fundamento si se formulan como exterioridad absoluta.
 
@@ -1628,9 +1578,9 @@ es la instancia necesaria para que esta publicación pueda tratar origen, espaci
 
 El transductor queda declarado como:
 
-<div align="center">𝔛<sub>SV</sub>(M ↔ ε₋₀) (𝔛<sub> → </sub><sup>M, ε</sup>, 𝔛<sub>←</sub><sup>ε, M</sup>, Ω<sub>M</sub>, Ω<sub>ε₋₀</sub>, Π<sub>M → ε</sub>, Π<sub>ε → M</sub>, 𝓘<sub>ε</sub>, Δ<sub>ε</sub>, 𝔡<sub>ε</sub>).</div>
+<div align="center">𝔛<sub>SV</sub>(M ↔ ε₋₀) (𝔛<sub>→</sub><sup>M, ε</sup>, 𝔛<sub>←</sub><sup>ε, M</sup>, Ω<sub>M</sub>, Ω<sub>ε₋₀</sub>, Π<sub>M → ε</sub>, Π<sub>ε → M</sub>, 𝓘<sub>ε</sub>, Δ<sub>ε</sub>, d<sub>ε</sub>).</div>
 
-Su dictamen rector será: 𝔇<sub>𝔛</sub> admisible.
+Su dictamen rector será: D<sub>𝔛</sub> admisible.
 
 si se cumplen cinco condiciones:
 
@@ -1640,13 +1590,9 @@ si se cumplen cinco condiciones:
 - 𝓘<sub>ε</sub>: preservados.
 - Δ<sub>ε</sub>=: 0 en el dominio evaluado.
 
-En caso de defecto material, el dictamen será:
+En caso de defecto material, el dictamen será: no admisible.
 
-<div align="center">no admisible.</div>
-
-En caso de indeterminación honesta no clausurable, el dictamen será:
-
-<div align="center">U.</div>
+En caso de indeterminación honesta no clausurable, el dictamen será: U.
 
 El cierre del apartado II establece la arquitectura que será ejecutada en el apartado III. El estado del arte físico ya ha sido reconocido como dominio externo de contraste. Ahora el transductor queda definido. El siguiente paso será aplicar la matriz de absorción físico-factual a las teorías contemporáneas: ΛCDM, inflación, incompletitud, no-boundary, tunneling, rebotes, modelos cíclicos, multiverso, holografía, causal sets, materia oscura, energía oscura, MOND, gravedad modificada y agujeros negros primordiales.
 
@@ -1677,9 +1623,7 @@ Donde:
 | c(T) | es la clasificación de la teoría. |
 | Π<sub>SV→ T</sub> | es el retorno físico controlado. |
 
-La clasificación general será:
-
-<div align="center">c(T) ∈ { ABSORBIDA, ABSORBIDA_PARCIAL, RECHAZADA_COMO_FUNDAMENTO, U }.</div>
+La clasificación general será: c(T) ∈ { ABSORBIDA, ABSORBIDA_PARCIAL, RECHAZADA_COMO_FUNDAMENTO, U }.
 
 La categoría (ABSORBIDA) no significa que la teoría externa gobierne el SV. Significa que queda admitida en su dominio. La categoría ABSORBIDA_PARCIAL reconoce valor físico local con residual no nulo. La categoría (RECHAZADA_COMO_FUNDAMENTO) no niega necesariamente utilidad física, sino su pretensión de ocupar un plano que no le corresponde. La categoría (U) conserva indeterminación honesta cuando el dominio no permite cierre.
 
@@ -1762,9 +1706,7 @@ La proyección ilegítima sería:
 
 La absorción es parcial por tres razones. Primero, la inflación puede explicar de modo potente rasgos del universo observable. Segundo, no existe una única inflación cerrada, sino una familia de modelos. Tercero, incluso si un modelo inflacionario resultara físicamente confirmado, su confirmación pertenecería a la física temprana, no al borde preformal de primera distinguibilidad.
 
-El residual se expresa como:
-
-<div align="center">Δ<sub>SV</sub>(inf) = Δ<sub>modelo</sub> ⊕ Δ<sub>campo</sub> ⊕ Δ<sub>fund</sub>.</div>
+El residual se expresa como: Δ<sub>SV</sub>(inf) = Δ<sub>modelo</sub> ⊕ Δ<sub>campo</sub> ⊕ Δ<sub>fund</sub>.
 
 Donde (Δ<sub>modelo</sub>) recoge la pluralidad de modelos; (Δ<sub>campo</sub>) recoge la dependencia de campos ya constituidos; y (Δ<sub>fund</sub>) se activa si la inflación pretende ocupar el lugar de ε₋₀.
 
@@ -1796,13 +1738,9 @@ El dictamen será: c(incompletitud pasada)=ABSORBIDA_PARCIAL.
 
 con una precisión: se absorbe como **indicio fuerte de no fundamento físico último**, no como demostración directa de ε₋₀.
 
-El retorno físico será:
+El retorno físico será: la cosmología clásica tiene frontera de aplicabilidad;
 
-<div align="center">la cosmología clásica tiene frontera de aplicabilidad;</div>
-
-el retorno SV será:
-
-<div align="center">la frontera física no sustituye al borde preformal.</div>
+el retorno SV será: la frontera física no sustituye al borde preformal.
 
 ## III.5. Absorción parcial de no-boundary como eliminación de frontera temporal clásica
 
@@ -1828,21 +1766,15 @@ La absorción es parcial porque no-boundary conserva valor como estrategia contr
 
 El dictamen será: c(NB)=ABSORBIDA_PARCIAL.
 
-El retorno físico controlado será:
+El retorno físico controlado será: modelo cuántico de frontera no temporal clásica;
 
-<div align="center">modelo cuántico de frontera no temporal clásica;</div>
-
-el retorno SV será:
-
-<div align="center">la eliminación de una frontera temporal no equivale a primera distinguibilidad.</div>
+el retorno SV será: la eliminación de una frontera temporal no equivale a primera distinguibilidad.
 
 ## III.6. Rechazo de “nothing” físico como NADA del cierre rector
 
 El “nothing” físico de ciertos modelos de creación cuántica no se identifica con la NADA del SV. La palabra puede tener valor técnico dentro de un formalismo, pero su uso no elimina el aparato que la formula. Si hay túnel cuántico, amplitud, espacio de configuraciones, ley de transición, condición de frontera o función de onda, no hay NADA en sentido rector del SV.
 
-La regla es:
-
-<div align="center">nothing<sub>fis</sub> ≠ NADA<sub>SV</sub>.</div>
+La regla es: nothing<sub>fis</sub> ≠ NADA<sub>SV</sub>.
 
 El dominio de “nothing” físico es:
 
@@ -1870,9 +1802,7 @@ El residual es:
 
 <div align="center">Δ<sub>SV</sub>(nothing físico como NADA) = Δ<sub>TN</sub> ⊕ Δ<sub>prob</sub> ⊕ Δ<sub>fund</sub>.</div>
 
-El retorno físico controlado será:
-
-<div align="center">“nothing” físico significa ausencia de cierto régimen físico, no NADA rectora.</div>
+El retorno físico controlado será: “nothing” físico significa ausencia de cierto régimen físico, no NADA rectora.
 
 ## III.7. Absorción parcial de rebotes y modelos cíclicos como transiciones de régimen
 
@@ -1896,15 +1826,11 @@ La absorción parcial se expresa así:
 
 <div align="center">c(reb/cic)=ABSORBIDA_PARCIAL.</div>
 
-El residual principal será:
-
-<div align="center">Δ<sub>SV</sub>(reb/cic) = Δ<sub>ciclo</sub> ⊕ Δ<sub>tiempo</sub> ⊕ Δ<sub>fund</sub>.</div>
+El residual principal será: Δ<sub>SV</sub>(reb/cic) = Δ<sub>ciclo</sub> ⊕ Δ<sub>tiempo</sub> ⊕ Δ<sub>fund</sub>.
 
 La lectura SV admitirá ciclos y transiciones cuando se mantengan como subordinados a dominio. No admitirá que la sucesión de ciclos sustituya el plano de imperfección preformal.
 
-El retorno físico controlado será:
-
-<div align="center">un ciclo físico no elimina la pregunta por la primera distinguibilidad.</div>
+El retorno físico controlado será: un ciclo físico no elimina la pregunta por la primera distinguibilidad.
 
 ## III.8. Reducción de multiverso, inflación eterna y paisaje a pluralidad subordinada de dominios internos
 
@@ -1940,9 +1866,7 @@ El residual será:
 
 Donde (Δ<sub>ext</sub>) mide la pretensión de exterioridad absoluta.
 
-El retorno físico controlado será:
-
-<div align="center">pluralidad cosmológica admisible como dominios internos, no como totalidades exteriores.</div>
+El retorno físico controlado será: pluralidad cosmológica admisible como dominios internos, no como totalidades exteriores.
 
 ## III.9. Rechazo de universos soberanos exteriores al TODO
 
@@ -1966,9 +1890,7 @@ La teoría externa que proponga universos desconectados puede conservar valor f�
 
 El dictamen será: c(universos exteriores al TODO) = RECHAZADA_COMO_FUNDAMENTO.
 
-El retorno físico controlado será:
-
-<div align="center">dominios no comunicantes no equivalen a totalidades absolutas independientes.</div>
+El retorno físico controlado será: dominios no comunicantes no equivalen a totalidades absolutas independientes.
 
 ## III.10. Absorción parcial de holografía como indicio de no primariedad ingenua del espacio
 
@@ -1994,9 +1916,7 @@ El residual será:
 
 <div align="center">Δ<sub>SV</sub>(hol) = Δ<sub>dualidad</sub> ⊕ Δ<sub>dominio</sub> ⊕ Δ<sub>fund</sub>.</div>
 
-El retorno físico controlado será:
-
-<div align="center">la holografía apoya la no ingenuidad del espacio, no sustituye la primera distinguibilidad.</div>
+El retorno físico controlado será: la holografía apoya la no ingenuidad del espacio, no sustituye la primera distinguibilidad.
 
 ## III.11. Absorción parcial de causal sets como orden estructural no equivalente al suceso soberano
 
@@ -2022,9 +1942,7 @@ El residual será:
 
 <div align="center">Δ<sub>SV</sub>(CS) = Δ<sub>Σ</sub> ⊕ Δ<sub>U</sub> ⊕ Δ<sub>dictamen</sub> ⊕ Δ<sub>suceso</sub>.</div>
 
-El retorno físico controlado será:
-
-<div align="center">orden causal discreto compatible como indicio, no como sustituto del suceso SV.</div>
+El retorno físico controlado será: orden causal discreto compatible como indicio, no como sustituto del suceso SV.
 
 ## III.12. Absorción de materia oscura observacional como presencia gravitatoria no luminosa
 
@@ -2054,9 +1972,7 @@ La absorción se considera plena en el dominio observacional porque el fenómeno
 
 El dictamen será: c(DM<sub>obs</sub>)=ABSORBIDA.
 
-El residual local será:
-
-<div align="center">Δ<sub>SV</sub>(DM<sub>obs</sub>)=0</div>
+El residual local será: Δ<sub>SV</sub>(DM<sub>obs</sub>)=0
 
 en el dominio de presencia gravitatoria no luminosa, pero:
 
@@ -2064,9 +1980,7 @@ en el dominio de presencia gravitatoria no luminosa, pero:
 
 para la identificación con un candidato único.
 
-El retorno físico controlado será:
-
-<div align="center">materia oscura como régimen gravitatorio no luminoso, no como sustancia cerrada.</div>
+El retorno físico controlado será: materia oscura como régimen gravitatorio no luminoso, no como sustancia cerrada.
 
 ## III.13. Absorción parcial de WIMPs, axiones, neutrinos estériles y candidatos microfísicos
 
@@ -2092,9 +2006,7 @@ El residual será:
 
 <div align="center">Δ<sub>SV</sub>(cand) = Δ<sub>detección</sub> ⊕ Δ<sub>unicidad</sub> ⊕ Δ<sub>soporte</sub>.</div>
 
-El retorno físico controlado será:
-
-<div align="center">candidatos físicos admisibles como soportes posibles, no como definición necesaria.</div>
+El retorno físico controlado será: candidatos físicos admisibles como soportes posibles, no como definición necesaria.
 
 ## III.14. Absorción parcial de MOND y gravedad modificada como lectura dinámica no suficiente
 
@@ -2116,9 +2028,7 @@ El residual será:
 
 <div align="center">Δ<sub>SV</sub>(MOND) = Δ<sub>cúmulos</sub> ⊕ Δ<sub>CMB</sub> ⊕ Δ<sub>estructura</sub> ⊕ Δ<sub>relativista</sub>.</div>
 
-El retorno físico controlado será:
-
-<div align="center">alternativa dinámica parcial, no definición completa de materia oscura SV.</div>
+El retorno físico controlado será: alternativa dinámica parcial, no definición completa de materia oscura SV.
 
 ## III.15. Separación formal entre materia oscura y energía oscura
 
@@ -2132,9 +2042,7 @@ La energía oscura se formula como:
 
 <div align="center">Ω<sub>DE</sub> régimen cosmológico expansivo o acelerado.</div>
 
-Por tanto:
-
-<div align="center">Ω<sub>DM</sub> ∩ Ω<sub>DE</sub> = ∅</div>
+Por tanto: Ω<sub>DM</sub> ∩ Ω<sub>DE</sub> = ∅
 
 en el plano de definición factual, aunque puedan coexistir en un mismo modelo cosmológico.
 
@@ -2156,9 +2064,7 @@ El error a rechazar será:
 
 El dictamen será: c(DM=DE) = RECHAZADA_COMO_FUNDAMENTO.
 
-El retorno físico controlado será:
-
-<div align="center">materia oscura y energía oscura son dominios distintos del sector oscuro.</div>
+El retorno físico controlado será: materia oscura y energía oscura son dominios distintos del sector oscuro.
 
 ## III.16. Absorción de energía oscura como régimen cosmológico expansivo, no como materia transparente
 
@@ -2190,9 +2096,7 @@ como régimen expansivo/cosmológico de dominio, con residual abierto respecto d
 
 si el soporte físico permanece indeterminado.
 
-El retorno físico controlado será:
-
-<div align="center">energía oscura como régimen de expansión, no como sustancia oscura ordinaria.</div>
+El retorno físico controlado será: energía oscura como régimen de expansión, no como sustancia oscura ordinaria.
 
 ## III.17. Teorema de no equivalencia entre teoría física de origen y ε₋₀
 
@@ -2220,9 +2124,7 @@ lo cual contradice la cadena establecida:
 
 <div align="center">ε₋₀ → ∂_ε → D<sub>sep</sub> → Ω<sub>esp</sub> → Ω<sub>fis</sub>.</div>
 
-Por tanto:
-
-<div align="center">T<sub>o</sub>≠ε₋₀.</div>
+Por tanto: T<sub>o</sub>≠ε₋₀.
 
 Queda demostrado.
 
@@ -2298,9 +2200,7 @@ La clausura de agujero negro designa régimen extremo de no transmisión exterio
 
 <div align="center">Ω<sub>BH</sub> = { horizonte, no salida luminosa, no transmisión exterior, interior saturado, M<sub>N2</sub>-SV, R<sup>BH</sup> }.</div>
 
-Estos tres dominios no tienen las mismas condiciones de pertenencia. Puede haber oscuridad sin clausura de agujero negro; puede haber transparencia sin visibilidad directa; puede haber no transmisión sin anulación del objeto; puede haber presencia gravitatoria no luminosa sin horizonte. Por tanto:
-
-<div align="center">Ω<sub>osc</sub> ≠ Ω<sub>transp</sub> ≠ Ω<sub>BH</sub>.</div>
+Estos tres dominios no tienen las mismas condiciones de pertenencia. Puede haber oscuridad sin clausura de agujero negro; puede haber transparencia sin visibilidad directa; puede haber no transmisión sin anulación del objeto; puede haber presencia gravitatoria no luminosa sin horizonte. Por tanto: Ω<sub>osc</sub> ≠ Ω<sub>transp</sub> ≠ Ω<sub>BH</sub>.
 
 Queda demostrado.
 
@@ -2316,9 +2216,7 @@ Queda demostrado.
 
 El Big Bang caliente pertenece al dominio de la cosmología física. Designa, según el marco considerado, un estado temprano denso y caliente, una fase de expansión inicial del universo observable, un límite de extrapolación de la relatividad general, un régimen posterior a inflación o una frontera efectiva del modelo cosmológico estándar. En cualquiera de esas lecturas, el Big Bang presupone ya un aparato físico: expansión, temperatura, densidad, radiación, horizonte, métrica, tiempo cosmológico, condiciones de observación y magnitudes comparables.
 
-Por tanto:
-
-<div align="center">Big Bang ∈ Ω<sub>fis</sub><sup>post</sup>.</div>
+Por tanto: Big Bang ∈ Ω<sub>fis</sub><sup>post</sup>.
 
 En cambio, ε₋₀ no pertenece a (Ω<sub>fis</sub><sup>post</sup>). No es un episodio físico dentro de un universo ya formulado. No es un punto de densidad extrema, ni un estado térmico, ni un comienzo cronológico, ni una singularidad métrica. Es el borde preformal en el que la imperfección mínima hace posible que haya primera distinción. Su dominio es anterior en orden operatorio al régimen en el que las magnitudes físicas pueden ser formuladas.
 
@@ -2352,9 +2250,7 @@ Su dominio es:
 
 <div align="center">Ω<sub>vac-q</sub> = { estado de campo, operadores, modos, fluctuaciones, energía de vacío, correlaciones, formalismo cuántico }.</div>
 
-Por tanto:
-
-<div align="center">vacío cuántico ∈ Ω<sub>fis</sub><sup>post</sup>.</div>
+Por tanto: vacío cuántico ∈ Ω<sub>fis</sub><sup>post</sup>.
 
 En cambio:
 
@@ -2392,9 +2288,7 @@ La razón es estricta: donde hay campo, operador, amplitud, fluctuación o energ
 
 El dominio preternario (Ω<sub>pre</sub>) aparece como ámbito estructural de potencialidad, sucesos generadores, protocampos, pares polares primordiales, umbrales de activación y cadenas honestas de activación. En ese sentido, (Ω<sub>pre</sub>) pertenece ya al aparato formal del SV. No es física ordinaria constituida, pero sí es dominio formulado dentro del corpus.
 
-Por tanto:
-
-<div align="center">Ω<sub>pre</sub> dominio preternario formulado del corpus.</div>
+Por tanto: Ω<sub>pre</sub> dominio preternario formulado del corpus.
 
 En cambio:
 
@@ -2436,13 +2330,9 @@ Pero:
 
 <div align="center">distinguibilidad ⇒ ε₋₀.</div>
 
-Por tanto:
+Por tanto: matemática constituida ⇒ ε₋₀.
 
-<div align="center">matemática constituida ⇒ ε₋₀.</div>
-
-y no:
-
-<div align="center">ε₋₀ matemática constituida.</div>
+y no: ε₋₀ matemática constituida.
 
 La notación ε₋₀ es, ciertamente, un signo matemático-formal usado por esta publicación. Pero el signo no debe confundirse con lo designado. El símbolo permite nombrar el borde preformal en el lenguaje del documento; no convierte ese borde en una fórmula matemática previa al propio acto de distinguir.
 
@@ -2454,9 +2344,7 @@ La relación correcta es:
 
 El corpus SV contiene fórmulas, operadores y verificadores: célula ternaria, dictamen, umbrales, distancia factual, medidor factual de ciclo, fórmulas electromagnéticas, termodinámicas, luminosas, de campo unificado, de agujero negro y de TODO/NADA. Todas ellas pertenecen al dominio de formalización. ε₋₀ cumple otra función: abrir la pregunta por aquello que debe estar dado para que la formalización pueda comparecer.
 
-Por tanto:
-
-<div align="center">c(matemática como codificación) ABSORBIDA,</div>
+Por tanto: c(matemática como codificación) ABSORBIDA,
 
 <div align="center">c(matemática como fundamento externo de ε₋₀) = RECHAZADA_COMO_FUNDAMENTO.</div>
 
@@ -2478,9 +2366,7 @@ Si no hay dominio de separación, no hay espacio factual recorrible:
 
 <div align="center">¬ D<sub>sep</sub> ⇒ ¬ Ω<sub>esp</sub>.</div>
 
-Por tanto:
-
-<div align="center">perfección indiferenciada absoluta ⇒ ¬ Ω<sub>esp</sub>.</div>
+Por tanto: perfección indiferenciada absoluta ⇒ ¬ Ω<sub>esp</sub>.
 
 La imperfección preformal es necesaria porque introduce la mínima asimetría que permite distinguir. No se trata de probabilidad, fluctuación, azar, ruido, error o estadística. La imperfección preformal no es un evento físico aleatorio. Es la condición estructural que impide la clausura indiferenciada y permite que comparezca la diferencia.
 
@@ -2522,9 +2408,7 @@ Sin (∂<sub>ε</sub>), no hay dominio de separación factual:
 
 <div align="center">¬∂<sub>ε</sub> ⇒ ¬ D<sub>sep</sub>.</div>
 
-Por tanto:
-
-<div align="center">P<sub>0</sub> ⇒ ¬ D<sub>sep</sub>.</div>
+Por tanto: P<sub>0</sub> ⇒ ¬ D<sub>sep</sub>.
 
 Esto no significa que la perfección carezca de valor conceptual. Significa que una perfección indiferenciada no basta para explicar la aparición de distinción. Si se quiere explicar por qué hay espacio, no basta con postular un sistema perfectamente cerrado. Debe existir una condición de no clausura mínima.
 
@@ -2532,7 +2416,7 @@ El SV ya dispone de una teoría del TODO y de la NADA donde el cierre rector se 
 
 La respuesta es:
 
-<div align="center">ε₋₀.</div>
+ε₋₀.
 
 No como objeto, sino como borde de imperfección preformal. Por eso ningún sistema perfecto autosuficiente puede ser fundamento suficiente de espacio. La perfección sin diferencia no abre dominio; la imperfección preformal sí permite la primera distinción.
 
@@ -2550,9 +2434,7 @@ La pregunta anterior es:
 
 Sin distinguibilidad, no puede haber asignación ternaria. La terna exige que algo pueda entrar en célula, dictamen o proyección. Pero para entrar en célula, debe haber ya un mínimo de diferencia. Esa diferencia no puede ser producida por la terna como valor interno si la terna todavía no está disponible.
 
-Por tanto:
-
-<div align="center">ε₋₀ ≺ Σ.</div>
+Por tanto: ε₋₀ ≺ Σ.
 
 Esta precedencia no niega la centralidad de Σ en el SV. La sitúa. (Σ={0,1,U}) sigue siendo la base de dictamen en los dominios formulados. Pero la presente publicación pregunta por el borde anterior a la disponibilidad misma de un dominio evaluable.
 
@@ -2566,9 +2448,7 @@ El error sería afirmar:
 
 <div align="center">ε₋₀=U.</div>
 
-U es indeterminación honesta dentro de un dominio de dictamen. ε₋₀ no es una indeterminación interna al dictamen, sino el borde que hace posible que haya algo que después pueda ser dictaminado. Por tanto:
-
-<div align="center">ε₋₀ ≠ U.</div>
+U es indeterminación honesta dentro de un dominio de dictamen. ε₋₀ no es una indeterminación interna al dictamen, sino el borde que hace posible que haya algo que después pueda ser dictaminado. Por tanto: ε₋₀ ≠ U.
 
 También sería erróneo afirmar:
 
@@ -2586,7 +2466,7 @@ Se denota:
 
 El borde preformal que la hace posible se denota:
 
-<div align="center">ε₋₀.</div>
+ε₋₀.
 
 La relación entre ambos es:
 
@@ -2602,9 +2482,7 @@ Y el dominio de separación permite la constitución del espacio factual recorri
 
 <div align="center">D<sub>sep</sub> ⊢ Ω<sub>esp</sub>.</div>
 
-Por tanto:
-
-<div align="center">ε₋₀ ⊢ Ω<sub>esp</sub>.</div>
+Por tanto: ε₋₀ ⊢ Ω<sub>esp</sub>.
 
 La primera distinguibilidad no es una distancia. La distancia requiere ya dos términos en un dominio. Tampoco es una trayectoria. La trayectoria requiere dominio recorrible. Tampoco es una frontera geométrica. La frontera geométrica requiere espacio ya constituido. La primera distinguibilidad es más elemental: es el umbral de diferencia.
 
@@ -2646,11 +2524,9 @@ Se denomina imperfección preformal mínima a esa condición:
 
 El borde en que (𝓘<sub>pre</sub>) permite la primera distinguibilidad se denota:
 
-<div align="center">ε₋₀.</div>
+ε₋₀.
 
-Por tanto:
-
-<div align="center">∂<sub>ε</sub> ⇒ ε₋₀.</div>
+Por tanto: ∂<sub>ε</sub> ⇒ ε₋₀.
 
 Queda demostrado.
 
@@ -2662,9 +2538,7 @@ Queda demostrado.
 
 **Teorema IV.10.1.** Un sistema perfecto autosostenido, entendido como clausura indiferenciada sin diferencia interna, no puede producir primera distinguibilidad.
 
-**Demostración.** Sea (P) un sistema perfecto autosostenido. Por hipótesis, (P) no contiene residual, ni diferencia, ni frontera interna, ni asimetría. Entonces:
-
-<div align="center">Δ(P)=0</div>
+**Demostración.** Sea (P) un sistema perfecto autosostenido. Por hipótesis, (P) no contiene residual, ni diferencia, ni frontera interna, ni asimetría. Entonces: Δ(P)=0
 
 en el sentido de ausencia total de diferencia operativa.
 
@@ -2676,9 +2550,7 @@ Pero si (P) genera esa relación, entonces (P) ya no era indiferenciado en senti
 
 Si, por el contrario, (P) no genera diferencia, entonces no hay primera distinguibilidad. En ambos casos, el sistema perfecto autosostenido no explica la apertura de diferencia desde su perfección indiferenciada.
 
-Por tanto:
-
-<div align="center">P ⊬ ∂<sub>ε</sub>.</div>
+Por tanto: P ⊬ ∂<sub>ε</sub>.
 
 Queda demostrado.
 
@@ -2768,7 +2640,7 @@ La presente publicación no contradice esos desarrollos. Los utiliza como sedes 
 
 La respuesta se formula mediante:
 
-<div align="center">ε₋₀.</div>
+ε₋₀.
 
 La relación con (𝓔<sub>∅</sub>) debe ser cuidadosa. (𝓔<sub>∅</sub>) es distinguibilidad formal mínima sin contenido dentro de la Teoría del TODO y de la NADA. ε₋₀ nombra aquí el borde preformal de imperfección mínima que permite la primera distinguibilidad. No se afirma identidad simple:
 
@@ -2925,9 +2797,7 @@ El vacío físico puede adoptar distintas formas:
 
 Pero todas estas formulaciones pertenecen a dominios con estructura. Incluso cuando se habla de “ausencia de partículas”, queda el campo. Incluso cuando se habla de “ausencia de espacio-tiempo clásico”, queda el formalismo que permite describir esa ausencia. Incluso cuando se habla de “nothing” en modelos de tunneling, queda una regla de transición, una amplitud, una función de onda o una geometría de configuración.
 
-Por tanto:
-
-<div align="center">vacío físico ≠ NADA<sub>SV</sub>.</div>
+Por tanto: vacío físico ≠ NADA<sub>SV</sub>.
 
 La NADA en el corpus no es un hueco físico, ni un recipiente vacío, ni un estado de energía mínima, ni la ausencia instrumental de señal. Tampoco es (U). (U) designa indeterminación honesta dentro de un dominio de dictamen. La NADA pertenece al cierre rector del sistema y no puede ser degradada a desconocimiento.
 
@@ -2964,9 +2834,7 @@ La relación básica es:
 
 donde (S) designa posibilidad de suceso.
 
-Por tanto:
-
-<div align="center">𝓘<sub>pre</sub> ⇒ S.</div>
+Por tanto: 𝓘<sub>pre</sub> ⇒ S.
 
 La imperfección no debe entenderse como defecto empírico de un objeto ya existente. Es anterior al objeto. Tampoco debe entenderse como fallo de una máquina formal. Es anterior a la formalización. Tampoco debe entenderse como azar probabilístico. Es anterior a la estadística. La imperfección preformal es la condición estructural mínima que impide la clausura indiferenciada y permite que algo pueda ser distinguido.
 
@@ -2998,9 +2866,7 @@ Supóngase que existe un dominio (E) exterior al TODO:
 
 <div align="center">Enot⊂ TODO<sub>SV</sub>.</div>
 
-Si (E) es formulable, entonces pertenece al ámbito de lo que puede ser incluido en la contención absoluta. Por tanto:
-
-<div align="center">E⊂ TODO<sub>SV</sub>.</div>
+Si (E) es formulable, entonces pertenece al ámbito de lo que puede ser incluido en la contención absoluta. Por tanto: E⊂ TODO<sub>SV</sub>.
 
 Contradicción.
 
@@ -3070,9 +2936,9 @@ donde cada Ω<sub>i</sub> es un dominio tipado dentro del TODO.
 
 Cada dominio debe declarar:
 
-<div align="center">Ω<sub>i</sub> (D<sub>i</sub>, Σ<sub>i</sub>, Π<sub>i</sub>, 𝓘_i, Δ<sub>i</sub>, 𝔡<sub>i</sub>),</div>
+<div align="center">Ω<sub>i</sub> (D<sub>i</sub>, Σ<sub>i</sub>, Π<sub>i</sub>, 𝓘_i, Δ<sub>i</sub>, d<sub>i</sub>),</div>
 
-donde D<sub>i</sub> es su campo de aplicación, Σ<sub>i</sub> su régimen de valores o estados si procede, Π<sub>i</sub> sus proyecciones admisibles, (𝓘_i) sus invariantes, Δ<sub>i</sub> sus residuales y (𝔡<sub>i</sub>) sus dictámenes.
+donde D<sub>i</sub> es su campo de aplicación, Σ<sub>i</sub> su régimen de valores o estados si procede, Π<sub>i</sub> sus proyecciones admisibles, (𝓘_i) sus invariantes, Δ<sub>i</sub> sus residuales y (d<sub>i</sub>) sus dictámenes.
 
 En la presente publicación se utilizarán al menos las siguientes familias:
 
@@ -3124,7 +2990,7 @@ Por ejemplo:
 
 Pero el espacio en sentido central de esta publicación será:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>,</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>,</div>
 
 dominio estructural completo de separación factual recorrible.
 
@@ -3179,9 +3045,7 @@ una familia de dominios. Por definición, cada Ω<sub>i</sub> es un dominio form
 
 <div align="center">Ω<sub>i</sub>⊂TODO<sub>SV</sub>.</div>
 
-Por tanto:
-
-<div align="center">𝓕<sub>Ω</sub> ⊂ TODO<sub>SV</sub>.</div>
+Por tanto: 𝓕<sub>Ω</sub> ⊂ TODO<sub>SV</sub>.
 
 Supóngase ahora que la pluralidad de dominios implicara pluralidad de TODOS:
 
@@ -3213,9 +3077,7 @@ Por el teorema V.9.1:
 
 <div align="center">Ω<sub>p</sub>⊂TODO<sub>SV</sub>.</div>
 
-Por tanto:
-
-<div align="center">U<sub>p</sub></div>
+Por tanto: U<sub>p</sub>
 
 no es un TODO exterior, sino un dominio subordinado.
 
@@ -3237,9 +3099,7 @@ El error formal que se rechaza es la exterioridad absoluta de una pluralidad de 
 
 <div align="center">U<sub>1</sub>, U<sub>2</sub>, …, U<sub>k</sub></div>
 
-tales que cada U<sub>i</sub> es una totalidad última exterior a las demás. Entonces:
-
-<div align="center">U<sub>i</sub>not ⊂ U<sub>j</sub> y U<sub>j</sub>not ⊂ U<sub>i</sub></div>
+tales que cada U<sub>i</sub> es una totalidad última exterior a las demás. Entonces: U<sub>i</sub>not ⊂ U<sub>j</sub> y U<sub>j</sub>not ⊂ U<sub>i</sub>
 
 para (i≠ j), y cada uno pretende cierre absoluto.
 
@@ -3251,9 +3111,7 @@ entonces existe un marco que los contiene como pluralidad formulada. Ese marco e
 
 Si no existe marco que los formule, entonces la hipótesis no puede ser enunciada con contenido. En ambos casos, la hipótesis fracasa.
 
-Por tanto:
-
-<div align="center">c(universos exteriores al TODO) = RECHAZADA_COMO_FUNDAMENTO.</div>
+Por tanto: c(universos exteriores al TODO) = RECHAZADA_COMO_FUNDAMENTO.
 
 Queda demostrado.
 
@@ -3291,7 +3149,7 @@ La pregunta “¿hay uno, varios o infinitos espacios?” debe descomponerse por
 
 Si por “espacio” se entiende el dominio estructural completo de separación factual recorrible, entonces la publicación formula:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>.</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>.</div>
 
 En ese sentido, el espacio no nace fragmentado por recorridos ni multiplicado por cada trayectoria. Es dominio completo de separación.
 
@@ -3543,9 +3401,7 @@ Pero el vector residual impide inferencias indebidas. En particular:
 
 <div align="center">R<sub>grav</sub>= 1 ⇒ posible presencia gravitatoria no luminosa,</div>
 
-pero no:
-
-<div align="center">R<sub>grav</sub>= 1 ⇒ partícula obligatoria.</div>
+pero no: R<sub>grav</sub>= 1 ⇒ partícula obligatoria.
 
 La condición de materia oscura observacional puede formularse como:
 
@@ -3607,7 +3463,7 @@ La materia oscura SV se define como régimen factual no luminoso de presencia gr
 
 Definición:
 
-<div align="center">DM<sub>SV</sub>:= (Ω<sub>DM</sub>, 𝓖<sub>¬ L</sub>, R<sup>L</sup><sub>transp</sub>, Δ<sub>DM</sub>, 𝔡<sub>DM</sub>).</div>
+<div align="center">DM<sub>SV</sub>:= (Ω<sub>DM</sub>, 𝓖<sub>¬ L</sub>, R<sup>L</sup><sub>transp</sub>, Δ<sub>DM</sub>, d<sub>DM</sub>).</div>
 
 Donde:
 
@@ -3617,7 +3473,7 @@ Donde:
 | 𝓖<sub>¬ L</sub> | es la condición de efecto gravitatorio sin luminosidad ordinaria suficiente. |
 | R<sup>L</sup><sub>transp</sub> | es el vector residual de transparencia luminosa asociado. |
 | Δ<sub>DM</sub> | es el residual específico de materia oscura. |
-| 𝔡<sub>DM</sub> | es el dictamen. |
+| d<sub>DM</sub> | es el dictamen. |
 
 El residual se define como:
 
@@ -3645,9 +3501,7 @@ aunque:
 
 Es decir, el dominio puede estar correctamente definido aunque el soporte microfísico permanezca abierto. Esta distinción es esencial: la falta de identificación definitiva del soporte no destruye el dominio observacional de presencia gravitatoria no luminosa.
 
-Por tanto:
-
-<div align="center">DM<sub>SV</sub> ≠ U.</div>
+Por tanto: DM<sub>SV</sub> ≠ U.
 
 Lo que puede quedar en (U) es el soporte específico, no el régimen observacional transducido.
 
@@ -3657,7 +3511,7 @@ La energía oscura SV se define como régimen cosmológico expansivo, no como ma
 
 Definición:
 
-<div align="center">DE<sub>SV</sub>:= (Ω<sub>DE</sub>, 𝓐<sub>cos</sub>, R<sub>exp</sub>, Δ<sub>DE</sub>, 𝔡<sub>DE</sub>).</div>
+<div align="center">DE<sub>SV</sub>:= (Ω<sub>DE</sub>, 𝓐<sub>cos</sub>, R<sub>exp</sub>, Δ<sub>DE</sub>, d<sub>DE</sub>).</div>
 
 Donde:
 
@@ -3667,7 +3521,7 @@ Donde:
 | 𝓐<sub>cos</sub> | designa aceleración o régimen expansivo cosmológico. |
 | R<sub>exp</sub> | es residual expansivo. |
 | Δ<sub>DE</sub> | es residual de energía oscura. |
-| 𝔡<sub>DE</sub> | es dictamen. |
+| d<sub>DE</sub> | es dictamen. |
 
 La condición de régimen expansivo puede formularse de modo general como:
 
@@ -3685,9 +3539,7 @@ Esa es la estructura de materia oscura observacional. La energía oscura se defi
 
 en lectura cosmológica efectiva, o por un régimen equivalente de expansión acelerada, según el modelo físico.
 
-Por tanto:
-
-<div align="center">DE<sub>SV</sub> ≠ DM<sub>SV</sub>.</div>
+Por tanto: DE<sub>SV</sub> ≠ DM<sub>SV</sub>.
 
 El residual de energía oscura será:
 
@@ -3817,9 +3669,7 @@ no implica:
 
 <div align="center">R<sup>BH</sup>=0.</div>
 
-Puede haber presencia gravitatoria no luminosa sin horizonte, sin postfrontera, sin interior saturado y sin no transmisión exterior. Por tanto:
-
-<div align="center">DM<sub>SV</sub> ≠ BH<sub>SV</sub>.</div>
+Puede haber presencia gravitatoria no luminosa sin horizonte, sin postfrontera, sin interior saturado y sin no transmisión exterior. Por tanto: DM<sub>SV</sub> ≠ BH<sub>SV</sub>.
 
 Queda demostrado.
 
@@ -3847,9 +3697,7 @@ Tampoco:
 
 <div align="center">𝓖<sub>¬ L</sub> ⇒ 𝓐<sub>cos</sub>.</div>
 
-Por tanto:
-
-<div align="center">DE<sub>SV</sub> ≠ DM<sub>SV</sub>.</div>
+Por tanto: DE<sub>SV</sub> ≠ DM<sub>SV</sub>.
 
 Queda demostrado.
 
@@ -3978,11 +3826,11 @@ El cierre se formula en cinco dictámenes.
 
 **Primer dictamen.** La materia oscura SV queda definida como presencia gravitatoria no luminosa:
 
-<div align="center">DM<sub>SV</sub> (Ω<sub>DM</sub>, 𝓖<sub>¬ L</sub>, R<sup>L</sup><sub>transp</sub>, Δ<sub>DM</sub>, 𝔡<sub>DM</sub>).</div>
+<div align="center">DM<sub>SV</sub> (Ω<sub>DM</sub>, 𝓖<sub>¬ L</sub>, R<sup>L</sup><sub>transp</sub>, Δ<sub>DM</sub>, d<sub>DM</sub>).</div>
 
 **Segundo dictamen.** La energía oscura SV queda definida como régimen expansivo/cosmológico de dominio:
 
-<div align="center">DE<sub>SV</sub> (Ω<sub>DE</sub>, 𝓐<sub>cos</sub>, R<sub>exp</sub>, Δ<sub>DE</sub>, 𝔡<sub>DE</sub>).</div>
+<div align="center">DE<sub>SV</sub> (Ω<sub>DE</sub>, 𝓐<sub>cos</sub>, R<sub>exp</sub>, Δ<sub>DE</sub>, d<sub>DE</sub>).</div>
 
 **Tercer dictamen.** El agujero negro pertenece a régimen distinto:
 
@@ -3998,7 +3846,7 @@ El cierre se formula en cinco dictámenes.
 
 El dictamen general queda:
 
-<div align="center">𝔇<sub>VI</sub> admisible</div>
+<div align="center">D<sub>VI</sub> admisible</div>
 
 para la separación formal entre oscuridad física, transparencia, materia oscura, energía oscura y agujero negro.
 
@@ -4028,9 +3876,7 @@ La pregunta correcta no es:
 
 <div align="center">¿qué volumen tiene dentro?</div>
 
-sino:
-
-<div align="center">¿qué régimen de clausura impide el retorno exterior de lo que queda bajo horizonte?</div>
+sino: ¿qué régimen de clausura impide el retorno exterior de lo que queda bajo horizonte?
 
 El volumen físico, cuando se usa en relatividad general, depende de foliaciones, coordenadas, elección de hipersuperficie, interpretación geométrica y condiciones de medición. Puede ser útil como magnitud auxiliar en determinados modelos, pero no puede ocupar el lugar de la clausura factual. Del mismo modo, el espacio interior de un agujero negro no puede tratarse como una sala cerrada en la que se almacenan cosas. Esa imagen pertenece al lenguaje espacial ordinario, no al régimen (BH<sub>SV</sub>).
 
@@ -4107,9 +3953,7 @@ El componente R<sub>L</sub> relativo a la luz no basta. El cierre exige el vecto
 
 <div align="center">R<sup>BH</sup>=0.</div>
 
-La no transmisibilidad tampoco significa que la luz sea destruida. El documento de agujero negro preserva la fibra luminosa bajo régimen de no salida exterior. La luz no queda anulada como entidad factual; queda no transmisiva hacia el exterior bajo condiciones de horizonte. Por tanto:
-
-<div align="center">D<sub>Σ</sub>(v<sub>L</sub>)=no admisible</div>
+La no transmisibilidad tampoco significa que la luz sea destruida. El documento de agujero negro preserva la fibra luminosa bajo régimen de no salida exterior. La luz no queda anulada como entidad factual; queda no transmisiva hacia el exterior bajo condiciones de horizonte. Por tanto: D<sub>Σ</sub>(v<sub>L</sub>)=no admisible
 
 no significa:
 
@@ -4131,9 +3975,7 @@ El agujero negro no es materia oscura general ni transparencia negativa. Es clau
 
 La clausura M<sub>N</sub>2-SV) constituye una de las elementos más delicadas del régimen de agujero negro. No debe confundirse con (U), con vacío, con NADA, con ignorancia, con interior geométrico ordinario ni con volumen clásico.
 
-En el documento de agujero negro, M<sub>N</sub>2-SV) aparece como régimen postfrontera: aquello que, bajo clausura extrema, no retorna al exterior en forma formulable dentro del dominio físico ordinario. Su estatuto no es “no sabemos”, sino clausura tipada. Por tanto:
-
-<div align="center">M<sub>N2</sub>-SV ≠ U.</div>
+En el documento de agujero negro, M<sub>N</sub>2-SV) aparece como régimen postfrontera: aquello que, bajo clausura extrema, no retorna al exterior en forma formulable dentro del dominio físico ordinario. Su estatuto no es “no sabemos”, sino clausura tipada. Por tanto: M<sub>N2</sub>-SV ≠ U.
 
 También:
 
@@ -4191,7 +4033,7 @@ Apertura y clausura no son la misma operación. Pueden pertenecer al mismo corpu
 
 Tampoco debe decirse que el agujero negro “guarda espacio”. El espacio no es cosa almacenada. El espacio, en esta publicación, es dominio estructural completo de separación factual recorrible:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>.</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>.</div>
 
 Un agujero negro puede afectar recorridos, señales, retorno luminoso, trayectorias, horizontes y accesibilidad externa. Pero no contiene el espacio como una sustancia volumétrica.
 
@@ -4287,9 +4129,7 @@ Pero el régimen (BH<sub>SV</sub>) exige:
 
 Estas condiciones impiden tratar el interior como volumen ordinario accesible, inventariable o retornable desde el exterior. El interior no se presenta como recipiente clásico, sino como régimen saturado bajo frontera de no transmisión.
 
-Por tanto:
-
-<div align="center">I<sub>BH</sub> ≠ contenedor espacial ordinario.</div>
+Por tanto: I<sub>BH</sub> ≠ contenedor espacial ordinario.
 
 Queda demostrado.
 
@@ -4315,9 +4155,7 @@ Puede existir una magnitud volumétrica o geométrica asociada a un modelo de ag
 
 <div align="center">V<sub>cl</sub> ⇏ R<sup>BH</sup>= 0.</div>
 
-Por tanto:
-
-<div align="center">BH<sub>SV</sub> ≠ V<sub>cl</sub>.</div>
+Por tanto: BH<sub>SV</sub> ≠ V<sub>cl</sub>.
 
 Queda demostrado.
 
@@ -4331,7 +4169,7 @@ Queda demostrado.
 
 **Demostración.** El espacio se define en esta publicación como:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>,</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>,</div>
 
 dominio estructural completo de separación factual recorrible. El agujero negro se define como:
 
@@ -4418,7 +4256,7 @@ La postfrontera es clausura; ε₋₀ es borde de apertura de primera distinguib
 
 El dictamen general del apartado será:
 
-<div align="center">𝔇<sub>VII</sub>=admisible</div>
+<div align="center">D<sub>VII</sub>=admisible</div>
 
 para la compatibilidad entre agujero negro, espacio estructural completo y clausura extrema, bajo las siguientes restricciones:
 
@@ -4442,7 +4280,7 @@ El problema puede enunciarse así:
 
 La respuesta de esta publicación es:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>.</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>.</div>
 
 El espacio es el dominio estructural completo de separación factual recorrible. No es cosa, sustancia, caja, escenario previo ni infinito exterior. Es el régimen en el que la separación factual queda dada como dominio, de modo que después puedan existir distancia, trayectoria, tránsito, frontera, región, medición, transmisión, opacidad, presencia gravitatoria no luminosa, clausura y retorno físico.
 
@@ -4540,13 +4378,9 @@ La relación correcta es:
 
 <div align="center">Γ<sub>i</sub> ⊂ Ω<sub>esp</sub>.</div>
 
-Por tanto:
+Por tanto: bigcup_i Γ<sub>i</sub> ⊆ Ω<sub>esp</sub>,
 
-<div align="center">bigcup_i Γ<sub>i</sub> ⊆ Ω<sub>esp</sub>,</div>
-
-pero no:
-
-<div align="center">Ω<sub>esp</sub> bigcup_i Γ<sub>i</sub></div>
+pero no: Ω<sub>esp</sub> bigcup_i Γ<sub>i</sub>
 
 como origen del dominio.
 
@@ -4562,7 +4396,7 @@ donde (D<sub>sep</sub>) es el dominio de separación factual y el exponente “c
 
 La definición expandida será:
 
-<div align="center">Ω<sub>esp</sub> (D<sub>sep</sub>, 𝓡<sub>rec</sub>, ∂<sub>esp</sub>, Dist<sub>SV</sub>, Γ<sub>adm</sub>, 𝓘<sub>esp</sub>, Δ<sub>esp</sub>, 𝔡<sub>esp</sub>).</div>
+<div align="center">Ω<sub>esp</sub> (D<sub>sep</sub>, 𝓡<sub>rec</sub>, ∂<sub>esp</sub>, Dist<sub>SV</sub>, Γ<sub>adm</sub>, 𝓘<sub>esp</sub>, Δ<sub>esp</sub>, d<sub>esp</sub>).</div>
 
 Donde:
 
@@ -4575,7 +4409,7 @@ Donde:
 | Γ<sub>adm</sub> | es el conjunto de trayectorias factuales admisibles. |
 | 𝓘<sub>esp</sub> | es el conjunto de invariantes del espacio. |
 | Δ<sub>esp</sub> | es el residual espacial. |
-| 𝔡<sub>esp</sub> | es el dictamen de dominio. |
+| d<sub>esp</sub> | es el dictamen de dominio. |
 
 Los invariantes mínimos son:
 
@@ -4627,9 +4461,7 @@ dominio de medida; no: métrica previa como fundamento.
 
 El espacio completo puede contener regiones no recorridas, zonas no observadas, límites instrumentales, horizontes cosmológicos, dominios opacos, presencia gravitatoria no luminosa o clausuras extremas. Nada de ello destruye su completitud. La completitud no equivale a transparencia universal. Tampoco equivale a accesibilidad total.
 
-Por tanto:
-
-<div align="center">Comp(Ω<sub>esp</sub>)= 1 ⇏ ∀ x ∈ Ω<sub>esp</sub>, x es observable.</div>
+Por tanto: Comp(Ω<sub>esp</sub>)= 1 ⇏ ∀ x ∈ Ω<sub>esp</sub>, x es observable.
 
 El espacio completo admite oscuridad física, porque oscuridad no es inexistencia. Admite agujeros negros, porque clausura no es negación del dominio. Admite materia oscura, porque presencia gravitatoria no luminosa pertenece a un régimen interno de física constituida. Admite energía oscura, porque la expansión cosmológica opera dentro del dominio.
 
@@ -4673,9 +4505,7 @@ Supóngase que el espacio se crea por recorrido. Entonces existe una primera tra
 
 <div align="center">Γ<sub>1</sub> ⇒ Ω<sub>esp</sub>.</div>
 
-Pero una trayectoria se define como sucesión admisible de posiciones, estados o relaciones dentro de un dominio recorrible. Por tanto:
-
-<div align="center">Γ<sub>1</sub> ⇒ Ω<sub>esp</sub>.</div>
+Pero una trayectoria se define como sucesión admisible de posiciones, estados o relaciones dentro de un dominio recorrible. Por tanto: Γ<sub>1</sub> ⇒ Ω<sub>esp</sub>.
 
 La hipótesis exige simultáneamente:
 
@@ -4701,9 +4531,7 @@ Luego:
 
 Contradicción.
 
-Por tanto:
-
-<div align="center">Ω<sub>esp</sub> not⇐ Γ<sub>1</sub>.</div>
+Por tanto: Ω<sub>esp</sub> not⇐ Γ<sub>1</sub>.
 
 El recorrido no crea el espacio. Lo presupone.
 
@@ -4733,7 +4561,7 @@ La hipótesis de incompletitud creadora de recorrido conduce a la contradicción
 
 Luego:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>.</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>.</div>
 
 Queda demostrado.
 
@@ -4767,9 +4595,7 @@ y a la vez:
 
 como condición de definición. La trayectoria sería condición de su propio dominio, incurriendo en circularidad.
 
-Por tanto:
-
-<div align="center">Γ ⊬ Ω<sub>esp</sub>.</div>
+Por tanto: Γ ⊬ Ω<sub>esp</sub>.
 
 Queda demostrado.
 
@@ -4781,9 +4607,7 @@ Queda demostrado.
 
 **Teorema VIII.10.1.** No hay “detrás” espacial del espacio.
 
-**Demostración.** La expresión “detrás” pertenece al lenguaje espacial. Para que algo esté detrás de algo, debe existir ya un dominio con separación, orientación, frontera o relación posicional. Por tanto:
-
-<div align="center">detrás ⇒ Ω<sub>esp</sub>.</div>
+**Demostración.** La expresión “detrás” pertenece al lenguaje espacial. Para que algo esté detrás de algo, debe existir ya un dominio con separación, orientación, frontera o relación posicional. Por tanto: detrás ⇒ Ω<sub>esp</sub>.
 
 Si se afirma que hay algo “detrás” del espacio como exterior espacial al espacio, entonces se usa una relación espacial para describir lo que supuestamente está fuera del dominio que hace posible toda relación espacial. Se incurre en contradicción semántico-formal.
 
@@ -4813,9 +4637,7 @@ Queda demostrado.
 
 Incluso si esa afirmación fuera aceptada en un modelo determinado, requiere ya que (Ω<sub>esp</sub>) esté definido como dominio. La infinitud es propiedad atribuida a un dominio, no condición que sustituye la definición del dominio.
 
-Por tanto:
-
-<div align="center">|Ω<sub>esp</sub>|= ∞ ⇒ Ω<sub>esp</sub> definido.</div>
+Por tanto: |Ω<sub>esp</sub>|= ∞ ⇒ Ω<sub>esp</sub> definido.
 
 No puede decirse:
 
@@ -4867,9 +4689,7 @@ La cadena será:
 
 <div align="center">ε₋₀ ⊢ ∂<sub>ε</sub> ⊢ D<sub>sep</sub> ⊢ Ω<sub>esp</sub>.</div>
 
-La primera distinguibilidad no es todavía espacio. Es el umbral que permite que espacio pueda constituirse como dominio. Por tanto:
-
-<div align="center">∂<sub>ε</sub> ≠ Ω<sub>esp</sub>.</div>
+La primera distinguibilidad no es todavía espacio. Es el umbral que permite que espacio pueda constituirse como dominio. Por tanto: ∂<sub>ε</sub> ≠ Ω<sub>esp</sub>.
 
 Pero:
 
@@ -4914,9 +4734,7 @@ La relación es:
 
 <div align="center">Γ ⇒ 𝓡<sub>rec</sub>.</div>
 
-pero no:
-
-<div align="center">Γ ⇒ creación de 𝓡<sub>rec</sub>.</div>
+pero no: Γ ⇒ creación de 𝓡<sub>rec</sub>.
 
 La noción de dominio factual recorrible permite integrar distancia factual, trayectoria y tránsito sin tiempo en el apartado IX. La distancia no será una métrica externa impuesta; será una medición interna al dominio. La trayectoria no será generadora del espacio; será sucesión admisible dentro de él. El tránsito no requerirá tiempo como fundamento primero; podrá formularse sobre índice de suceso, orden de activación o relación factual.
 
@@ -4988,15 +4806,15 @@ El residual espacial será usado en XII.8 para el banco de espacio completo ante
 
 El dictamen del espacio se define como:
 
-<div align="center">𝔡<sub>esp</sub> ∈ {admisible, no admisible, U}.</div>
+<div align="center">d<sub>esp</sub> ∈ {admisible, no admisible, U}.</div>
 
 Se declara:
 
-<div align="center">𝔡<sub>esp</sub>=admisible</div>
+<div align="center">d<sub>esp</sub>=admisible</div>
 
 si:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>,</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>,</div>
 
 <div align="center">Δ<sub>esp</sub>=0,</div>
 
@@ -5004,11 +4822,7 @@ y se preservan los invariantes:
 
 <div align="center">𝓘<sub>esp</sub> = { I<sub>sep</sub>, I<sub>rec</sub>, I<sub>¬ cont</sub>, I<sub>¬ inf</sub>, I<sub>¬ tray</sub>, I<sub>¬ geom</sub>, I<sub>ret</sub> }.</div>
 
-Se declara:
-
-<div align="center">𝔡<sub>esp</sub>=no admisible</div>
-
-si se incurre en cualquiera de las siguientes identificaciones:
+Se declara d<sub>esp</sub>=no admisible si se incurre en cualquiera de las siguientes identificaciones:
 
 - Ω<sub>esp</sub>=contenedor: absoluto.
 - Ω<sub>esp</sub>=infinito: fundante.
@@ -5017,27 +4831,21 @@ si se incurre en cualquiera de las siguientes identificaciones:
 - Ω<sub>esp</sub>=exterior: al TODO.
 - Ω<sub>esp</sub>=interior: de agujero negro.
 
-Se declara:
-
-<div align="center">𝔡<sub>esp</sub>=U</div>
-
-si un modelo físico o filosófico no permite decidir, con la información disponible, si su espacio es dominio, contenedor, proyección, geometría efectiva o pluralidad interna. Pero (U) no autoriza cierre favorable.
+Se declara d<sub>esp</sub>=U si un modelo físico o filosófico no permite decidir, con la información disponible, si su espacio es dominio, contenedor, proyección, geometría efectiva o pluralidad interna. Pero (U) no autoriza cierre favorable.
 
 El dictamen general del espacio en esta publicación será:
 
-<div align="center">{ 𝔡<sub>esp</sub>= admisible }</div>
+<div align="center">{ d<sub>esp</sub>= admisible }</div>
 
 para la definición:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>.</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>.</div>
 
 ## VIII.18. Espacio y oscuridad cosmológica
 
 La oscuridad cosmológica sólo puede formularse correctamente dentro de un espacio ya constituido como dominio de separación. No luminosidad, opacidad, ausencia de señal, no retorno observacional, presencia gravitatoria no luminosa y expansión acelerada requieren dominios físicos, trayectorias de señal, relación con observador, propagación, horizonte o estructura. Todo ello presupone espacio factual recorrible o dominio físico derivado.
 
-Por tanto:
-
-<div align="center">Ω<sub>osc</sub> ⊂ Ω<sub>esp</sub></div>
+Por tanto: Ω<sub>osc</sub> ⊂ Ω<sub>esp</sub>
 
 en sentido de régimen interno de dominio físico-espacial.
 
@@ -5091,13 +4899,11 @@ La postfrontera:
 
 <div align="center">M<sub>N2</sub>-SV</div>
 
-no es un “detrás” espacial. Es régimen de clausura tipada. Tampoco es ε₋₀. Por tanto:
-
-<div align="center">M<sub>N2</sub>-SV ≠ ε₋₀.</div>
+no es un “detrás” espacial. Es régimen de clausura tipada. Tampoco es ε₋₀. Por tanto: M<sub>N2</sub>-SV ≠ ε₋₀.
 
 La clausura extrema será tratada como caso límite para probar la robustez de la definición de espacio. Si incluso el agujero negro no obliga a entender el espacio como contenedor ni como volumen clásico, entonces la definición:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup></div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup></div>
 
 queda reforzada ante una de las objeciones más fuertes.
 
@@ -5105,7 +4911,7 @@ queda reforzada ante una de las objeciones más fuertes.
 
 La Parte II fija la definición canónica del espacio en esta publicación:
 
-<div align="center">{ Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup> }</div>
+<div align="center">{ Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup> }</div>
 
 El espacio es dominio estructural completo de separación factual recorrible.
 
@@ -5153,7 +4959,7 @@ por lo que no puede formularse como exterior espacial al propio espacio.
 
 El dictamen general será:
 
-<div align="center">𝔇<sub>VIII</sub>=admisible.</div>
+<div align="center">D<sub>VIII</sub>=admisible.</div>
 
 Con este cierre, queda preparado el apartado IX: distancia factual, trayectoria y tránsito sin tiempo. Ese apartado no podrá formular distancia como métrica externa ni trayectoria como creadora de espacio. Deberá definirlas como operaciones internas al dominio espacial ya constituido, incluyendo la distancia factual fibrosa heredada del documento de luz como instancia local correcta elevada a familia tipada.
 
@@ -5205,7 +5011,7 @@ La distancia factual puede adoptar varias formas según el dominio:
 
 La forma general de una medición factual será:
 
-<div align="center">Dist<sub>SV</sub><sup>Ω</sup> (Ω, x, y, 𝓡<sub>sep</sub>, 𝓜<sub>fact</sub>, Δ<sub>dist</sub>, 𝔡<sub>dist</sub>).</div>
+<div align="center">Dist<sub>SV</sub><sup>Ω</sup> (Ω, x, y, 𝓡<sub>sep</sub>, 𝓜<sub>fact</sub>, Δ<sub>dist</sub>, d<sub>dist</sub>).</div>
 
 Donde:
 
@@ -5214,7 +5020,7 @@ Donde:
 | 𝓡<sub>sep</sub> | es la relación de separación. |
 | 𝓜<sub>fact</sub> | es el medidor factual. |
 | Δ<sub>dist</sub> | es el residual de distancia. |
-| 𝔡<sub>dist</sub> | es el dictamen. |
+| d<sub>dist</sub> | es el dictamen. |
 
 El residual de distancia se define como:
 
@@ -5290,9 +5096,7 @@ La regla doctrinal es la misma que se adoptó con los transductores:
 
 <div align="center">instancia local correcta ⇒ familia superior tipada.</div>
 
-Por tanto:
-
-<div align="center">dist(Γ<sub>0</sub>, 𝓒) y dist(i, 𝓒)</div>
+Por tanto: dist(Γ<sub>0</sub>, 𝓒) y dist(i, 𝓒)
 
 no quedan anuladas, ni corregidas, ni sustituidas. Quedan tipadas como casos locales de:
 
@@ -5312,15 +5116,13 @@ donde cada s<sub>i</sub> es un suceso, posición, estado, fibra, umbral o térmi
 
 para cada transición de la sucesión.
 
-Por tanto:
-
-<div align="center">Γ<sub>SV</sub> ⊂ Ω.</div>
+Por tanto: Γ<sub>SV</sub> ⊂ Ω.
 
 La trayectoria no es una línea geométrica previa. Tampoco es una curva temporal. Tampoco es una sucesión probabilística de estados. Es una secuencia factual admisible bajo reglas de dominio.
 
 Su estructura mínima será:
 
-<div align="center">Γ<sub>SV</sub> (Ω, {s<sub>i</sub>}<sub>i=1</sub><sup>n</sup>, 𝓐<sub>Γ</sub>, Dist<sub>SV</sub><sup>Ω</sup>, Δ<sub>Γ</sub>, 𝔡<sub>Γ</sub>).</div>
+<div align="center">Γ<sub>SV</sub> (Ω, {s<sub>i</sub>}<sub>i=1</sub><sup>n</sup>, 𝓐<sub>Γ</sub>, Dist<sub>SV</sub><sup>Ω</sup>, Δ<sub>Γ</sub>, d<sub>Γ</sub>).</div>
 
 Donde:
 
@@ -5331,7 +5133,7 @@ Donde:
 | 𝓐<sub>Γ</sub> | es la regla de admisibilidad. |
 | Dist<sub>SV</sub><sup>Ω</sup> | mide separaciones internas. |
 | Δ<sub>Γ</sub> | es el residual de trayectoria. |
-| 𝔡<sub>Γ</sub> | es el dictamen. |
+| d<sub>Γ</sub> | es el dictamen. |
 
 El residual se define como:
 
@@ -5423,7 +5225,7 @@ La derivada factual mide cambio entre sucesos, no evolución en un tiempo extern
 
 La estructura mínima es:
 
-<div align="center">D<sub>SV</sub><sup>S</sup> (Ω, Γ, ι<sub>S</sub>, x, Δ<sub>D</sub>, 𝔡<sub>D</sub>).</div>
+<div align="center">D<sub>SV</sub><sup>S</sup> (Ω, Γ, ι<sub>S</sub>, x, Δ<sub>D</sub>, d<sub>D</sub>).</div>
 
 Donde:
 
@@ -5434,7 +5236,7 @@ Donde:
 | ι<sub>S</sub> | es el índice de suceso. |
 | x | es la magnitud o estado evaluado. |
 | Δ<sub>D</sub> | es el residual derivativo. |
-| 𝔡<sub>D</sub> | es el dictamen. |
+| d<sub>D</sub> | es el dictamen. |
 
 El residual será:
 
@@ -5474,7 +5276,7 @@ cuando el dominio admita orden ordinal. Pero ese orden no equivale a tiempo fís
 
 La estructura del tránsito será:
 
-<div align="center">Tr<sub>SV</sub> (Ω, s<sub>i</sub>, s<sub>i+1</sub>, 𝓐<sub>Γ</sub>, ι<sub>S</sub>, Δ<sub>Tr</sub>, 𝔡<sub>Tr</sub>).</div>
+<div align="center">Tr<sub>SV</sub> (Ω, s<sub>i</sub>, s<sub>i+1</sub>, 𝓐<sub>Γ</sub>, ι<sub>S</sub>, Δ<sub>Tr</sub>, d<sub>Tr</sub>).</div>
 
 El residual será:
 
@@ -5538,9 +5340,7 @@ Si el recorrido es espacial, entonces:
 
 <div align="center">Ω=Ω<sub>esp</sub>.</div>
 
-Por tanto:
-
-<div align="center">Γ⇒Ω<sub>esp</sub>.</div>
+Por tanto: Γ⇒Ω<sub>esp</sub>.
 
 Si se afirmara que Γ funda (Ω<sub>esp</sub>), se tendría que Γ existe antes del dominio que necesita para ser recorrido. Esto contradice la definición de recorrido.
 
@@ -5560,7 +5360,7 @@ Queda demostrado.
 
 **Demostración.** El espacio se define como:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>.</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>.</div>
 
 La trayectoria se define como:
 
@@ -5572,9 +5372,7 @@ Si el espacio dependiera de la trayectoria, entonces:
 
 Pero la existencia de un dominio recorrible no exige que todo recorrido esté actualizado. Puede existir dominio con trayectorias posibles no recorridas. La trayectoria actualizada es operación interna; el dominio es condición de posibilidad.
 
-Por tanto:
-
-<div align="center">Ω<sub>esp</sub> ⇏ Γ<sub>actual</sub>.</div>
+Por tanto: Ω<sub>esp</sub> ⇏ Γ<sub>actual</sub>.
 
 En cambio:
 
@@ -5634,9 +5432,7 @@ Ninguna de esas condiciones exige un parámetro temporal externo (t) como fundam
 
 Si se afirmara que todo tránsito requiere tiempo físico como fundamento, entonces no podría formularse tránsito sobre índice de suceso. Pero la estructura anterior muestra que basta dominio, admisibilidad e índice factual.
 
-Por tanto:
-
-<div align="center">Tr<sub>SV</sub> ⇏ t</div>
+Por tanto: Tr<sub>SV</sub> ⇏ t
 
 como fundamento primero.
 
@@ -5652,7 +5448,7 @@ Queda demostrado.
 
 El dictamen general será:
 
-<div align="center">𝔇<sub>IX</sub>=admisible.</div>
+<div align="center">D<sub>IX</sub>=admisible.</div>
 
 El siguiente apartado podrá demostrar la convergencia matemática del espacio con los fundamentos algebraico-semánticos, la célula ternaria, el cambio factual, los ciclos, la medición factual, las trayectorias poligonales, el cálculo angular, los operadores electromagnéticos, la teoría factual de la luz, la termodinámica factual, la interacción entre campos y los sucesos generadores.
 
@@ -5670,11 +5466,11 @@ Donde (0) y (1) no deben leerse como simples números binarios ordinarios, sino 
 
 El espacio, en esta publicación, debe respetar esa base:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>,</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>,</div>
 
 pero su dictamen no puede imponerse por intuición. Debe poder evaluarse:
 
-<div align="center">𝔡<sub>esp</sub> ∈ {admisible, no admisible, U}.</div>
+<div align="center">d<sub>esp</sub> ∈ {admisible, no admisible, U}.</div>
 
 La definición es admisible si preserva separación factual, recorribilidad, dominio, no reducción a contenedor, no reducción a métrica, no creación por trayectoria y retorno físico controlado. Es no admisible si convierte el espacio en recipiente, infinito fundante, geometría previa, volumen clásico, suma de recorridos o exterior al TODO. Es (U) si el dominio no permite decisión sin cierre impropio.
 
@@ -5800,7 +5596,7 @@ El espacio como dominio estructural completo no es estático en sentido vulgar. 
 
 El dominio espacial queda dado como:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>.</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>.</div>
 
 El cambio factual dentro del dominio se formula:
 
@@ -5910,7 +5706,7 @@ El ángulo factual no funda el dominio. Opera dentro de él.
 
 Se puede definir un acoplamiento angular:
 
-<div align="center">𝓐<sub>theta</sub><sup>SV</sup>(a, b) F(theta<sub>SV</sub>(a, b), Δ<sub>theta</sub>, 𝔡<sub>theta</sub>)</div>
+<div align="center">𝓐<sub>theta</sub><sup>SV</sup>(a, b) F(theta<sub>SV</sub>(a, b), Δ<sub>theta</sub>, d<sub>theta</sub>)</div>
 
 donde (F) es una función o regla dependiente del dominio.
 
@@ -5988,9 +5784,7 @@ Estas expresiones se reconocen aquí como casos locales de:
 
 <div align="center">Dist<sub>SV</sub><sup>fib</sup>.</div>
 
-Segundo, la no reducción de la luz a transmisión exterior. En régimen de agujero negro, la fibra luminosa puede quedar preservada bajo no salida exterior. Por tanto:
-
-<div align="center">Φ^L<sub>SV</sub>≠ 0</div>
+Segundo, la no reducción de la luz a transmisión exterior. En régimen de agujero negro, la fibra luminosa puede quedar preservada bajo no salida exterior. Por tanto: Φ^L<sub>SV</sub>≠ 0
 
 aunque:
 
@@ -6124,7 +5918,7 @@ La relación correcta será:
 
 El espacio entra en esta cadena como dominio de separación factual recorrible, no como protocampo ni como suceso generador aislado:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>.</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>.</div>
 
 Los protocampos pueden contribuir a regímenes físicos posteriores: luz, electromagnetismo, interacción, transmisión, materia, energía y campo unificado. Pero no sustituyen la definición del espacio como dominio de separación.
 
@@ -6142,7 +5936,7 @@ Ambas líneas son compatibles, pero no idénticas.
 
 **Demostración.** La definición central es:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>.</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>.</div>
 
 Para ser admisible dentro del SV, esta definición debe cumplir seis condiciones:
 
@@ -6176,9 +5970,7 @@ Cumple la tercera porque no cierra de modo favorable los casos indeterminados:
 
 <div align="center">U≠ admisible.</div>
 
-Cumple la cuarta porque puede componerse con:
-
-<div align="center">C<sub>ε</sub>, C<sub>DM</sub>, C<sub>DE</sub>, C<sub>BH</sub>, C<sub>dist</sub>, C<sub>TN</sub></div>
+Cumple la cuarta porque puede componerse con: C<sub>ε</sub>, C<sub>DM</sub>, C<sub>DE</sub>, C<sub>BH</sub>, C<sub>dist</sub>, C<sub>TN</sub>
 
 sin identidad indebida.
 
@@ -6221,11 +6013,11 @@ Queda demostrado.
 
 La publicación actual introduce una instancia nueva:
 
-<div align="center">ε₋₀</div>
+ε₋₀
 
 y una definición central:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>.</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>.</div>
 
 Pero esa introducción no exige crear un aparato matemático ajeno al corpus. Exige ordenar operadores ya existentes y declarar nuevas instancias tipadas cuando el dominio lo requiere, como:
 
@@ -6253,7 +6045,7 @@ Queda demostrado.
 
 El dictamen general será:
 
-<div align="center">𝔇_X=admisible.</div>
+<div align="center">D_X=admisible.</div>
 
 El siguiente apartado deberá demostrar la convergencia física del espacio: Maxwell factual, luz, campo unificado, interacción, hidrógeno factual, Bell–Tsirelson, agujeros negros, termodinámica, materia oscura y energía oscura.
 
@@ -6263,7 +6055,7 @@ El siguiente apartado deberá demostrar la convergencia física del espacio: Max
 
 La convergencia física del espacio exige que la definición:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup></div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup></div>
 
 no quede aislada en un plano doctrinal o algebraico, sino que pueda atravesar dominios físicos ya formulados dentro del corpus: electromagnetismo factual, luz factual, campo unificado, interacción entre campos, hidrógeno, frontera cuántica, agujero negro, termodinámica factual, materia oscura y energía oscura. La física factual no funda ε₋₀, no funda la primera distinguibilidad y no funda el espacio; opera después de la apertura de dominio. Pero debe poder recibir esa apertura sin romperse.
 
@@ -6319,9 +6111,7 @@ Si el dominio es espacial o físico-espacial:
 
 La propagación electromagnética se formula entonces como tránsito factual sobre dominio, no como prueba de que el espacio se cree por propagación. Una onda, una fibra, una señal o una perturbación pueden recorrer, transmitirse, interferir, reflejarse, curvarse o no transmitirse sólo si el dominio ya permite separación y trayectoria.
 
-Por tanto:
-
-<div align="center">propagación electromagnética ⇒ Ω<sub>esp</sub>.</div>
+Por tanto: propagación electromagnética ⇒ Ω<sub>esp</sub>.
 
 pero:
 
@@ -6329,9 +6119,9 @@ pero:
 
 El tránsito electromagnético sin tiempo como fundamento se formula sobre índice de suceso, trayectoria factual y cambio estructural. Puede existir traducción posterior a parámetros físicos temporales, pero el operador SV no depende de un tiempo primario. La relación será:
 
-<div align="center">Tr<sub>EM</sub><sup>SV</sup> (Ω, Γ, 𝓕, ∂Ω, Δ<sub>EM</sub>, 𝔡<sub>EM</sub>),</div>
+<div align="center">Tr<sub>EM</sub><sup>SV</sup> (Ω, Γ, 𝓕, ∂Ω, Δ<sub>EM</sub>, d<sub>EM</sub>),</div>
 
-donde Γ es trayectoria factual, (𝓕) campo o fibra electromagnética, (∂Ω) frontera, (Δ<sub>EM</sub>) residual y (𝔡<sub>EM</sub>) dictamen.
+donde Γ es trayectoria factual, (𝓕) campo o fibra electromagnética, (∂Ω) frontera, (Δ<sub>EM</sub>) residual y (d<sub>EM</sub>) dictamen.
 
 El electromagnetismo factual converge con el espacio porque necesita dominio de transmisión y frontera, pero no convierte ese dominio en contenedor clásico. El campo no llena un recipiente preexistente como sustancia; opera sobre una estructura de separación. Tampoco convierte la métrica física en fundamento. La geometría puede aparecer como proyección de cálculo, pero no sustituye:
 
@@ -6385,9 +6175,7 @@ para medir la relación estructural entre trayectoria o posición fibrosa y una 
 
 <div align="center">Dist<sub>SV</sub><sup>fib</sup>.</div>
 
-La luz factual demuestra que la distancia puede operar sin convertirse en métrica fundante. La distancia fibrosa mide relación interna entre fibra y región. No crea la región, no crea la fibra y no crea el espacio. Por tanto:
-
-<div align="center">Dist<sub>SV</sub><sup>fib</sup>(Γ, 𝓒) ⇒ Ω,</div>
+La luz factual demuestra que la distancia puede operar sin convertirse en métrica fundante. La distancia fibrosa mide relación interna entre fibra y región. No crea la región, no crea la fibra y no crea el espacio. Por tanto: Dist<sub>SV</sub><sup>fib</sup>(Γ, 𝓒) ⇒ Ω,
 
 pero:
 
@@ -6421,9 +6209,7 @@ Primero, la curvatura necesita dominio:
 
 No puede operar sin una proyección geométrica o gravito-electromagnética declarada. Ese dominio pertenece a la física constituida, no a ε₋₀.
 
-Segundo, la conexión (𝓐=ω⊕ A) integra régimen gravitatorio y gauge. Esto exige separación, frontera, trayectoria, curvatura, holonomía y retorno físico. Por tanto:
-
-<div align="center">Ω<sub>GEM</sub> ⊂ Ω<sub>fis</sub> ⊂ Ω<sub>esp</sub>.</div>
+Segundo, la conexión (𝓐=ω⊕ A) integra régimen gravitatorio y gauge. Esto exige separación, frontera, trayectoria, curvatura, holonomía y retorno físico. Por tanto: Ω<sub>GEM</sub> ⊂ Ω<sub>fis</sub> ⊂ Ω<sub>esp</sub>.
 
 Tercero, el operador de traducción bidireccional ( 𝓣 ) ya mostrado en Einstein–Bohr anticipa la disciplina que esta publicación aplica a su transductor físico-factual general. No se trata de afirmar que todos los dominios usen el mismo transductor local, sino de reconocer una familia superior de transducciones tipadas:
 
@@ -6435,15 +6221,13 @@ La instancia Einstein–Bohr opera entre régimen geométrico y régimen operato
 
 La fórmula de campo unificado converge con el espacio porque muestra que geometría, curvatura, campo y acción pueden ser absorbidos como proyecciones físicas tipadas, sin convertirse en fundamento preformal. El campo unificado no reemplaza el espacio como dominio de separación; opera dentro de dominios donde separación, frontera y trayectoria ya son formulables.
 
-Por tanto:
-
-<div align="center">𝓕<sub>𝓐</sub> ≠ Ω<sub>esp</sub></div>
+Por tanto: 𝓕<sub>𝓐</sub> ≠ Ω<sub>esp</sub>
 
 como identidad fundante, pero:
 
 <div align="center">𝓕<sub>𝓐</sub> ⊂ proyección física admisible sobre Ω<sub>esp</sub>.</div>
 
-La conclusión será: 𝔡<sub>XI.4</sub>=admisible.
+La conclusión será: d<sub>XI.4</sub>=admisible.
 
 siempre que la fórmula se mantenga en su estatuto correcto: proyección geométrica exterior del aparato rector, no sustituto de ε₋₀, no sustituto del espacio y no geometría fundante.
 
@@ -6502,9 +6286,7 @@ La publicación del hidrógeno fija una distinción decisiva:
 
 <div align="center">mínimo conocido ≠ mínimo universal.</div>
 
-Por tanto:
-
-<div align="center">H primer caso canónico conocido de persistencia atómica discreta estable,</div>
+Por tanto: H primer caso canónico conocido de persistencia atómica discreta estable,
 
 pero:
 
@@ -6548,9 +6330,7 @@ para régimen preatómico físico, y:
 
 para dominio preternario SV.
 
-La transición hidrógeno no abre el espacio. Requiere espacio físico ya constituido, dominios energéticos, frontera, intercambio, residual y posibilidad de identidad. Por tanto:
-
-<div align="center">H ⇒ Ω<sub>esp</sub>.</div>
+La transición hidrógeno no abre el espacio. Requiere espacio físico ya constituido, dominios energéticos, frontera, intercambio, residual y posibilidad de identidad. Por tanto: H ⇒ Ω<sub>esp</sub>.
 
 pero:
 
@@ -6574,11 +6354,11 @@ H ε₋₀ y H A<sub>min</sub><sup>univ</sup>.
 
 sin demostración adicional. La publicación del hidrógeno preserva este punto al mantener (U) para la posibilidad de otros mínimos estructurales no clausurados.
 
-El dictamen será: 𝔡<sub>H</sub>=admisible.
+El dictamen será: d<sub>H</sub>=admisible.
 
 como caso canónico conocido de persistencia atómica discreta estable dentro de (Ω<sub>fis</sub>).
 
-Además: 𝔡(H=mínimo universal absoluto)=U
+Además: d(H=mínimo universal absoluto)=U
 
 mientras no exista cierre material suficiente.
 
@@ -6662,7 +6442,7 @@ También se conserva la separación con ε₋₀:
 
 La postfrontera pertenece a clausura extrema; ε₋₀ pertenece a apertura preformal de primera distinguibilidad.
 
-El dictamen será: 𝔡<sub>BH, Ω</sub>=admisible.
+El dictamen será: d<sub>BH, Ω</sub>=admisible.
 
 para la compatibilidad entre agujero negro y espacio estructural completo, bajo prohibición de reducir el agujero negro a volumen clásico o a exterior absoluto.
 
@@ -6682,7 +6462,7 @@ La masa estructural se interpreta como persistencia energética efectiva:
 
 El calor estructural se formula como redistribución energética efectiva:
 
-<div align="center">𝓠(Γ, n) Θ(Γ, n)·𝔇<sub>Γ</sub>𝓗(Γ, n).</div>
+<div align="center">𝓠(Γ, n) Θ(Γ, n)·D<sub>Γ</sub>𝓗(Γ, n).</div>
 
 La fuerza estructural se interpreta como orientación de frontera capaz de sostener persistencia:
 
@@ -6722,7 +6502,7 @@ La materia oscura converge físicamente con la tesis del espacio porque introduc
 
 La materia oscura SV ya quedó definida como:
 
-<div align="center">DM<sub>SV</sub> (Ω<sub>DM</sub>, 𝓖<sub>¬ L</sub>, R<sup>L</sup><sub>transp</sub>, Δ<sub>DM</sub>, 𝔡<sub>DM</sub>).</div>
+<div align="center">DM<sub>SV</sub> (Ω<sub>DM</sub>, 𝓖<sub>¬ L</sub>, R<sup>L</sup><sub>transp</sub>, Δ<sub>DM</sub>, d<sub>DM</sub>).</div>
 
 Su condición central es:
 
@@ -6736,9 +6516,7 @@ La materia oscura no funda el espacio; opera dentro de él. Tampoco lo niega por
 
 <div align="center">L<sub>obs</sub>= 0 ⇏ x∉Ω<sub>esp</sub>.</div>
 
-La presencia gravitatoria no luminosa exige precisamente que haya un dominio donde pueda manifestarse efecto gravitatorio, lente, estructura, curva de rotación o dinámica cosmológica. Por tanto:
-
-<div align="center">DM<sub>SV</sub> ⇒ Ω<sub>esp</sub>.</div>
+La presencia gravitatoria no luminosa exige precisamente que haya un dominio donde pueda manifestarse efecto gravitatorio, lente, estructura, curva de rotación o dinámica cosmológica. Por tanto: DM<sub>SV</sub> ⇒ Ω<sub>esp</sub>.
 
 Pero:
 
@@ -6804,7 +6582,7 @@ La energía oscura refuerza una distinción ya fijada en VIII.6: espacio complet
 
 <div align="center">D<sub>sep</sub><sup>completo</sup>.</div>
 
-El dictamen será: 𝔡<sub>DE, Ω</sub>=admisible.
+El dictamen será: d<sub>DE, Ω</sub>=admisible.
 
 como régimen cosmológico posterior compatible con espacio estructural completo, siempre que no se identifique con materia oscura, vacío, NADA o fundamento preformal.
 
@@ -6814,7 +6592,7 @@ como régimen cosmológico posterior compatible con espacio estructural completo
 
 **Demostración.** La definición central es:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>.</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>.</div>
 
 Debe demostrarse que los dominios físicos tratados pueden formularse dentro de esa arquitectura sin invertir la dependencia.
 
@@ -6838,9 +6616,7 @@ Para campo unificado:
 
 requiere dominio de proyección GEM y se sitúa como proyección exterior del aparato rector, no como fundamento espacial.
 
-Para hidrógeno:
-
-<div align="center">H ∈ Ω<sub>atom</sub> ⊂ Ω<sub>fis</sub> ⊂ Ω<sub>esp</sub>.</div>
+Para hidrógeno: H ∈ Ω<sub>atom</sub> ⊂ Ω<sub>fis</sub> ⊂ Ω<sub>esp</sub>.
 
 y su persistencia exige frontera discreta, residual acotado e intercambio compatible.
 
@@ -6890,7 +6666,7 @@ Queda demostrado.
 
 **Demostración.** La física contemporánea aporta teorías de campo, geometría, cosmología, materia, radiación, cuántica, termodinámica, agujero negro, materia oscura y energía oscura. Cada una puede ser tratada mediante transducción físico-factual:
 
-<div align="center">T ↦ (Ω<sub>T</sub>, Π<sub>T</sub>, 𝓘_T, Δ<sub>T</sub>, 𝔡<sub>T</sub>).</div>
+<div align="center">T ↦ (Ω<sub>T</sub>, Π<sub>T</sub>, 𝓘_T, Δ<sub>T</sub>, d<sub>T</sub>).</div>
 
 Una teoría (T) es absorbible si:
 
@@ -6898,7 +6674,7 @@ Una teoría (T) es absorbible si:
 - Π<sub>T</sub>: es legítima.
 - 𝓘_T: preserva invariantes.
 - Δ<sub>T</sub>: queda declarado.
-- 𝔡<sub>T</sub>: ∈ {admisible, admisible parcial, no admisible, U}.
+- d<sub>T</sub>: ∈ {admisible, admisible parcial, no admisible, U}.
 
 El espacio completo no exige que toda física sea idéntica al SV ni que todo residual sea nulo. Exige que la teoría no invada el fundamento que no le corresponde.
 
@@ -6916,7 +6692,7 @@ Así:
 
 Por tanto, la física contemporánea absorbida por dominio y residual no contradice:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>.</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>.</div>
 
 La confirma como condición de posibilidad de formulación física.
 
@@ -6928,7 +6704,7 @@ Queda demostrado.
 
 **Dictamen de cierre del apartado XI.** La convergencia física del espacio queda establecida. El espacio como dominio estructural completo de separación factual recorrible es compatible con electromagnetismo factual, luz factual, fórmula de campo unificado, interacción entre campos, hidrógeno factual, Bell–Tsirelson, agujero negro, termodinámica factual, materia oscura y energía oscura. Cada dominio conserva su tipado. Ninguno sustituye ε₋₀. Ninguno crea el espacio que presupone. Ninguno autoriza cierre favorable cuando el residual queda abierto.
 
-<div align="center">{ 𝔇<sub>XI</sub>= admisible. }</div>
+<div align="center">{ D<sub>XI</sub>= admisible. }</div>
 
 # XII. Banco de contraste físico-factual
 
@@ -6938,15 +6714,13 @@ El banco de contraste físico-factual cumple una función metodológica impresci
 
 El banco no funda la doctrina. Tampoco sustituye los teoremas previos. Su función es otra: someter cada afirmación fuerte a contraste mediante dominio, proyección, invariantes, residual y dictamen. De ese modo, el documento evita dos errores simétricos: el aislamiento en lenguaje SV sin retorno físico y la cesión del fundamento a una teoría externa.
 
-La estructura general del banco será:
+La estructura general del banco será: B<sub>i</sub> (ID_i, Ω<sub>i</sub>, M<sub>i</sub>, Π<sub>i</sub>, 𝓘_i, Δ<sub>i</sub>, d<sub>i</sub>).
 
-<div align="center">B<sub>i</sub> (ID_i, Ω<sub>i</sub>, M<sub>i</sub>, Π<sub>i</sub>, 𝓘_i, Δ<sub>i</sub>, 𝔡<sub>i</sub>).</div>
-
-Donde ID<sub>i</sub> identifica el caso; Ω<sub>i</sub> declara el dominio; M<sub>i</sub> recoge la magnitud, teoría, condición física o formulación externa evaluada; Π<sub>i</sub> explicita la proyección físico-factual; (𝓘_i) fija los invariantes que no pueden violarse; Δ<sub>i</sub> conserva el residual; y (𝔡<sub>i</sub>) emite el dictamen.
+Donde ID<sub>i</sub> identifica el caso; Ω<sub>i</sub> declara el dominio; M<sub>i</sub> recoge la magnitud, teoría, condición física o formulación externa evaluada; Π<sub>i</sub> explicita la proyección físico-factual; (𝓘_i) fija los invariantes que no pueden violarse; Δ<sub>i</sub> conserva el residual; y (d<sub>i</sub>) emite el dictamen.
 
 La regla de lectura será:
 
-<div align="center">𝔡<sub>i</sub> ∈ {admisible, admisible parcial, no admisible, U}.</div>
+<div align="center">d<sub>i</sub> ∈ {admisible, admisible parcial, no admisible, U}.</div>
 
 El banco no convierte (admisible) en verdad absoluta externa. Declara que el caso entra correctamente en el dominio SV correspondiente. admisible<sub>P</sub>ARCIAL declara valor físico local con residual no nulo. NO<sub>A</sub>PTO declara violación de dominio o sustitución indebida de fundamento. (U) preserva indeterminación honesta cuando no hay base suficiente de cierre.
 
@@ -6974,9 +6748,7 @@ Los campos mínimos son los siguientes:
 | Retorno físico | Devuelve el dictamen a lenguaje físico controlado | Evita cierre puramente interno |
 | Dictamen | admisible, admisible parcial, no admisible o U | Debe justificarse por dominio y residual |
 
-La fórmula mínima será:
-
-<div align="center">B<sub>i</sub> (ID_i, D<sup>ext</sup>_i, M<sub>i</sub>, D<sup>SV</sup>_i, Π<sub>i</sub>, 𝓘_i, Δ<sub>i</sub>, R<sub>i</sub>, 𝔡<sub>i</sub>).</div>
+La fórmula mínima será: B<sub>i</sub> (ID_i, D<sup>ext</sup>_i, M<sub>i</sub>, D<sup>SV</sup>_i, Π<sub>i</sub>, 𝓘_i, Δ<sub>i</sub>, R<sub>i</sub>, d<sub>i</sub>).
 
 Donde R<sub>i</sub> designa retorno físico controlado.
 
@@ -6984,11 +6756,11 @@ Los campos no tienen todos el mismo peso. Un fallo en (ID) puede ser formalmente
 
 La regla de nulidad será:
 
-<div align="center">Δ<sub>dom</sub>= 1 ⇒ 𝔡= no admisible.</div>
+<div align="center">Δ<sub>dom</sub>= 1 ⇒ d= no admisible.</div>
 
-<div align="center">Δ<sub>inv</sub>= 1 ⇒ 𝔡= no admisible.</div>
+<div align="center">Δ<sub>inv</sub>= 1 ⇒ d= no admisible.</div>
 
-<div align="center">Δ<sub>ret</sub>= 1 ⇒ 𝔡 ≠ admisible.</div>
+<div align="center">Δ<sub>ret</sub>= 1 ⇒ d ≠ admisible.</div>
 
 El catálogo final de errores desarrollará todos los tipos de fallo. Aquí se fijan los campos mínimos porque los bancos posteriores deben ser autocontenidos y legibles.
 
@@ -7011,7 +6783,7 @@ Este banco evalúa teorías cosmológicas externas como dominios físicos poster
 | COS-11 | Holografía | Emergencia/proyección de espacio | Indicio de no primariedad geométrica ingenua | No funda primera separación | admisible parcial |
 | COS-12 | Causal sets | Orden causal discreto | Orden estructural físico-matemático | No equivale al suceso SV | admisible parcial |
 
-El resultado del banco es: 𝔇<sub>COS</sub> admisible.
+El resultado del banco es: D<sub>COS</sub> admisible.
 
 para la absorción de teorías cosmológicas como dominios físicos posteriores, con la restricción:
 
@@ -7037,7 +6809,7 @@ El banco confirma que el SV puede absorber parcialmente modelos de emergencia es
 
 Resultado:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup></div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup></div>
 
 queda admisible ante las alternativas evaluadas.
 
@@ -7077,15 +6849,11 @@ Este banco contiene casos negativos explícitos. Su finalidad es impedir que la 
 | EXT-07 | Un dominio no comunicante queda fuera del TODO | No transmisión no implica exterioridad | No transmisibilidad tipada | no admisible |
 | EXT-08 | Un (U) local autoriza exterior afirmado | Indeterminación no es confirmación | Honestidad de (U) | no admisible |
 
-La regla es:
-
-<div align="center">exterior formulable ⇒ incluido en el TODO.</div>
+La regla es: exterior formulable ⇒ incluido en el TODO.
 
 <div align="center">exterior no formulable ⇒ no utilizable como fundamento.</div>
 
-Por tanto:
-
-<div align="center">∄ E tal que E sea exterior formulable al TODO.</div>
+Por tanto: ∄ E tal que E sea exterior formulable al TODO.
 
 ## XII.7. Banco de ε₋₀ ante Big Bang, vacío cuántico y rebote
 
@@ -7130,13 +6898,11 @@ Este banco confronta la tesis central de la Parte II con su error principal: cre
 | ESP-COMP-09 | El espacio completo exige transparencia universal | Confunde dominio con señal luminosa | (Δ<sub>lum</sub>=1) | no admisible |
 | ESP-COMP-10 | El espacio admite clausuras internas | Compatible con agujero negro | Residual controlado | admisible |
 
-La fórmula de cierre será:
-
-<div align="center">Γ⊂Ω<sub>esp</sub>.</div>
+La fórmula de cierre será: Γ⊂Ω<sub>esp</sub>.
 
 pero:
 
-Γ⊬Ω<sub>esp</sub> y Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>.
+Γ⊬Ω<sub>esp</sub> y Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>.
 
 ## XII.9. Banco de transparencia luminosa ante inexistencia
 
@@ -7254,9 +7020,7 @@ Este banco evalúa fórmulas o estructuras físicas potentes que pueden ser abso
 | FORM-13 | Infinito espacial | Propiedad de modelo | Fundamento sin dominio | no admisible |
 | FORM-14 | Trayectoria Γ | Recorrido interno | Creación del espacio | no admisible |
 
-La regla de cierre será:
-
-<div align="center">fórmula potente ≠ fundamento automático.</div>
+La regla de cierre será: fórmula potente ≠ fundamento automático.
 
 Una fórmula entra si declara dominio, proyección, invariantes, residual y retorno. Se rechaza si pretende ocupar el lugar de ε₋₀, de la NADA, del TODO o del espacio como dominio completo.
 
@@ -7269,17 +7033,13 @@ Un caso del banco se declara admisible cuando satisface simultáneamente las sig
 - 𝓘_i: preservados.
 - Δ<sub>i</sub>=: 0 o residual compatible explícitamente acotado.
 - R<sub>i</sub>: con retorno físico controlado.
-- 𝔡<sub>i</sub>=admisible.
+- d<sub>i</sub>=admisible.
 
 En esta publicación, admisible no significa que una teoría externa funde el SV. Significa que puede incorporarse al dominio correspondiente sin violar la cadena de prevalencia, sin sustituir ε₋₀, sin convertir vacío físico en NADA, sin cerrar (U) favorablemente y sin confundir proyección con totalidad.
 
-La fórmula será:
+La fórmula será: admisible(B<sub>i</sub>) ⇔ Δ<sub>dom</sub>= 0 ∧ Δ<sub>proj</sub>= 0 ∧ Δ<sub>inv</sub>= 0 ∧ Δ<sub>ret</sub>= 0
 
-<div align="center">admisible(B<sub>i</sub>) ⇔ Δ<sub>dom</sub>= 0 ∧ Δ<sub>proj</sub>= 0 ∧ Δ<sub>inv</sub>= 0 ∧ Δ<sub>ret</sub>= 0</div>
-
-Si el residual material no es nulo pero queda declarado, acotado y no afecta al fundamento, el dictamen correcto no será admisible, sino:
-
-<div align="center">admisible parcial.</div>
+Si el residual material no es nulo pero queda declarado, acotado y no afecta al fundamento, el dictamen correcto no será admisible, sino: admisible parcial.
 
 Por tanto:
 
@@ -7316,9 +7076,7 @@ Las causas principales son:
 | NA-11 | Confusión apertura/clausura | M<sub>N</sub>2-SV como ε₋₀ |
 | NA-12 | Cierre favorable de (U) | Indeterminación convertida en confirmación |
 
-La fórmula será:
-
-<div align="center">no admisible(B<sub>i</sub>) ⇔ Δ<sub>crit</sub>(B<sub>i</sub>)= 1</div>
+La fórmula será: no admisible(B<sub>i</sub>) ⇔ Δ<sub>crit</sub>(B<sub>i</sub>)= 1
 
 Donde:
 
@@ -7328,7 +7086,7 @@ El criterio no admisible no implica rechazo general de toda física externa. Só
 
 El dictamen general del apartado XII queda:
 
-<div align="center">{ 𝔇<sub>XII</sub>= admisible. }</div>
+<div align="center">{ D<sub>XII</sub>= admisible. }</div>
 
 El banco de contraste físico-factual queda constituido como mediación obligatoria entre tesis doctrinal, formulación algebraica, magnitud física, residual y retorno controlado. A partir de este punto, el catálogo de errores podrá tipar de forma explícita las violaciones previsibles: errores sobre ε₋₀, Big Bang, vacío, multiverso, espacio, infinito, transparencia, materia oscura, energía oscura y agujero negro.
 
@@ -7342,9 +7100,7 @@ El banco de contraste físico-factual sólo queda cerrado si cumple simultáneam
 
 No basta con decir que una teoría física entra como dominio posterior. Tampoco basta con decir que una magnitud se clasifica como admisible, admisible parcial, no admisible o (U). Cada magnitud debe ser traducida al sistema de primitivos metrológicos del SV y, después, devuelta al lenguaje físico contemporáneo sin contaminar el plano rector del SV.
 
-La estructura fuerte de cada fila será:
-
-<div align="center">B<sub>i</sub><sup>fuerte</sup> (M<sub>i</sub>,, u<sub>SI</sub>,, u<sub>SV</sub>,, Ω<sub>M</sub>,, 𝔛<sub> → </sub><sup>M, SV</sup>,, Ω<sub>SV</sub>,, Δ<sub>i</sub>,, 𝔡<sub>i</sub>,, 𝔛<sub>←</sub><sup>SV, M</sup>,, R<sub>i</sub><sup>fis</sup>,, 𝓘<sub>𝔛</sub>).</div>
+La estructura fuerte de cada fila será: B<sub>i</sub><sup>fuerte</sup> (M<sub>i</sub>, u<sub>SI</sub>, u<sub>SV</sub>, Ω<sub>M</sub>, 𝔛<sub>→</sub><sup>M, SV</sup>, Ω<sub>SV</sub>, Δ<sub>i</sub>, d<sub>i</sub>, 𝔛<sub>←</sub><sup>SV, M</sup>, R<sub>i</sub><sup>fis</sup>, 𝓘<sub>𝔛</sub>).
 
 Donde:
 
@@ -7357,7 +7113,7 @@ Donde:
 | 𝔛<sub>→</sub><sup>M, SV</sup> | es la transducción física → SV. |
 | Ω<sub>SV</sub> | es el dominio SV de llegada. |
 | Δ<sub>i</sub> | es el residual visible. |
-| 𝔡<sub>i</sub> | es el dictamen. |
+| d<sub>i</sub> | es el dictamen. |
 | 𝔛<sub>←</sub><sup>SV, M</sup> | es el retorno SV → física. |
 | R<sub>i</sub><sup>fis</sup> | es el enunciado físico controlado. |
 | 𝓘<sub>𝔛</sub> | es el conjunto de invariantes que impide la contaminación del SV. |
@@ -7503,7 +7259,7 @@ Física → SV:
 
 SV → física:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup></div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup></div>
 
 significa físicamente que toda métrica, distancia, volumen, geodésica, velocidad o trayectoria presupone un dominio de separación.
 
@@ -7786,7 +7542,7 @@ La UFE, UFM, UE(<sub>MFC</sub>) y UFT permiten comparar radio, masa, momento ang
 | δ | rad | adimensional | Separación angular | Requiere dominio angular | Orientación física | admisible |
 | (P=(1-C)/2) | adimensional | adimensional | Probabilidad derivada | No criterio constitutivo | Sombra binaria de correlación | admisible parcial |
 | (𝓕<sub>𝓐</sub>=ε₋₀) | — | — | Campo como origen | Crítico | Campo no es borde preformal | no admisible |
-| (P=𝔡<sub>SV</sub>) | — | — | Probabilidad como dictamen | Crítico | Frecuencia no funda verdad SV | no admisible |
+| (P=d<sub>SV</sub>) | — | — | Probabilidad como dictamen | Crítico | Frecuencia no funda verdad SV | no admisible |
 
 **Cierre bidireccional.**
 
@@ -7806,7 +7562,7 @@ devuelve una curvatura de conexión situada.
 
 No contaminación:
 
-<div align="center">𝓕<sub>𝓐</sub> ≠ ε₋₀, C<sub>SV</sub>(δ) ≠ Ω<sub>esp</sub>, P ≠ 𝔡<sub>SV</sub>.</div>
+<div align="center">𝓕<sub>𝓐</sub> ≠ ε₋₀, C<sub>SV</sub>(δ) ≠ Ω<sub>esp</sub>, P ≠ d<sub>SV</sub>.</div>
 
 ## XII bis.14. Banco bidireccional de hidrógeno y configuración física concreta
 
@@ -7925,25 +7681,23 @@ UE_MFC, UFE, UFM, UFC, UFT, UFCE.
 
 o quedar diferida si pertenece al dominio psicofísico de la candela.
 
-Por tanto:
-
-<div align="center">u<sub>SI</sub> ↦ u<sub>SV</sub> UE_MFC<sup>a</sup> UFE<sup>b</sup> UFM<sup>c</sup> UFC<sup>d</sup> UFT<sup>e</sup> UFCE<sup>f</sup>.</div>
+Por tanto: u<sub>SI</sub> ↦ u<sub>SV</sub> UE_MFC<sup>a</sup> UFE<sup>b</sup> UFM<sup>c</sup> UFC<sup>d</sup> UFT<sup>e</sup> UFCE<sup>f</sup>.
 
 Si la magnitud no dispone de unidad SV o de estatuto adimensional declarado, no puede integrar banco fuerte.
 
 Una vez expresada la unidad, la dirección física → SV es:
 
-<div align="center">(M<sub>i</sub>, u<sub>SV</sub>, Ω<sub>M</sub>) —𝔛<sub>→</sub><sup>M, SV</sup>→ (Ω<sub>SV</sub>, Π<sub>i</sub>, Δ<sub>i</sub>, 𝔡<sub>i</sub>).</div>
+<div align="center">(M<sub>i</sub>, u<sub>SV</sub>, Ω<sub>M</sub>) —𝔛<sub>→</sub><sup>M, SV</sup>→ (Ω<sub>SV</sub>, Π<sub>i</sub>, Δ<sub>i</sub>, d<sub>i</sub>).</div>
 
 La dirección SV → física es:
 
-<div align="center">(Ω<sub>SV</sub>, Δ<sub>i</sub>, 𝔡<sub>i</sub>) —𝔛<sub>←</sub><sup>SV, M</sup>→ R<sub>i</sub><sup>fis</sup>.</div>
+<div align="center">(Ω<sub>SV</sub>, Δ<sub>i</sub>, d<sub>i</sub>) —𝔛<sub>←</sub><sup>SV, M</sup>→ R<sub>i</sub><sup>fis</sup>.</div>
 
 Si falta la primera dirección, no hay anclaje físico. Si falta la segunda, no hay retorno físico opinable. Si falta la unidad SV, no hay articulación metrológica. Si se violan invariantes, hay contaminación.
 
 Por tanto, banco fuerte exige:
 
-<div align="center">M<sub>i</sub> ≠ ∅, u<sub>SV</sub> ≠ ∅, 𝔛<sub> → </sub><sup>M, SV</sup> ≠ ∅, 𝔛<sub>←</sub><sup>SV, M</sup> ≠ ∅, 𝓘<sub>𝔛</sub>= 1.</div>
+<div align="center">M<sub>i</sub> ≠ ∅, u<sub>SV</sub> ≠ ∅, 𝔛<sub>→</sub><sup>M, SV</sup> ≠ ∅, 𝔛<sub>←</sub><sup>SV, M</sup> ≠ ∅, 𝓘<sub>𝔛</sub>= 1.</div>
 
 Queda demostrado.
 
@@ -8008,33 +7762,23 @@ Queda demostrado.
 
 El banco físico-factual sólo queda admisible en esta versión: bidireccional, físicamente anclada, expresada en primitivos metrológicos SV y no contaminante.
 
-La forma final de cada fila fuerte será:
+La forma final de cada fila fuerte será: B<sub>i</sub><sup>fuerte</sup> (M<sub>i</sub>, u<sub>SI</sub>, u<sub>SV</sub>, Ω<sub>M</sub>, 𝔛<sub>→</sub><sup>M, SV</sup>, Ω<sub>SV</sub>, Δ<sub>i</sub>, d<sub>i</sub>, 𝔛<sub>←</sub><sup>SV, M</sup>, R<sub>i</sub><sup>fis</sup>, 𝓘<sub>𝔛</sub>).
 
-<div align="center">B<sub>i</sub><sup>fuerte</sup> (M<sub>i</sub>, u<sub>SI</sub>, u<sub>SV</sub>, Ω<sub>M</sub>, 𝔛<sub> → </sub><sup>M, SV</sup>, Ω<sub>SV</sub>, Δ<sub>i</sub>, 𝔡<sub>i</sub>, 𝔛<sub>←</sub><sup>SV, M</sup>, R<sub>i</sub><sup>fis</sup>, 𝓘<sub>𝔛</sub>).</div>
+La condición de aptitud será: admisible(B<sub>i</sub>) ⇒ M<sub>i</sub> ≠ ∅, u<sub>SI</sub> ≠ ∅, u<sub>SV</sub> ≠ ∅, Ω<sub>M</sub> ≠ ∅, 𝔛<sub>→</sub><sup>M, SV</sup> ≠ ∅, 𝔛<sub>←</sub><sup>SV, M</sup> ≠ ∅, Δ<sub>i</sub> visible, 𝓘<sub>𝔛</sub> preservados.
 
-La condición de aptitud será:
-
-<div align="center">admisible(B<sub>i</sub>) ⇒ M<sub>i</sub> ≠ ∅, u<sub>SI</sub> ≠ ∅, u<sub>SV</sub> ≠ ∅, Ω<sub>M</sub> ≠ ∅, 𝔛<sub> → </sub><sup>M, SV</sup> ≠ ∅, 𝔛<sub>←</sub><sup>SV, M</sup> ≠ ∅, Δ<sub>i</sub> visible, 𝓘<sub>𝔛</sub> preservados.</div>
-
-La condición de no contaminación será:
-
-<div align="center">M<sub>i</sub> ∉ = { ε₋₀, NADA<sub>SV</sub>, TODO<sub>SV</sub>, U, Ω<sub>esp</sub> }</div>
+La condición de no contaminación será: M<sub>i</sub> ∉ { ε₋₀, NADA<sub>SV</sub>, TODO<sub>SV</sub>, U, Ω<sub>esp</sub> }
 
 salvo identidad explícitamente demostrada en dominio SV, que aquí no se da para ninguna magnitud física externa.
 
-La condición metrológica será:
-
-<div align="center">u<sub>SI</sub> ↦ u<sub>SV</sub> ∈ langle UE_MFC, UFE, UFM, UFC, UFT, UFCE rangle,</div>
+La condición metrológica será: u<sub>SI</sub> ↦ u<sub>SV</sub> ∈ ⟨UE_MFC, UFE, UFM, UFC, UFT, UFCE⟩,
 
 con candela diferida y sin elevar (K<sub>cd</sub>) a primitivo SV.
 
-La condición de retorno físico será:
-
-<div align="center">R<sub>i</sub><sup>fis</sup> ≠ ∅.</div>
+La condición de retorno físico será: R<sub>i</sub><sup>fis</sup> ≠ ∅.
 
 El cierre global queda:
 
-<div align="center">{ 𝔇<sub>XIIbis</sub>= admisible }</div>
+<div align="center">{ D<sub>XIIbis</sub>= admisible }</div>
 
 bajo cinco condiciones conjuntas:
 
@@ -8119,9 +7863,7 @@ Pero no puede identificarse con el origen preformal de la primera distinguibilid
 | BB-ERR-05 | Edad cosmológica = anterioridad preformal | t₀ en (UE_MFC) | (Δ<sub>¬ t</sub>) | Cronología física posterior | no admisible |
 | BB-ERR-06 | Modelo ΛCDM = cierre total del origen | (H₀,Ω<sub>i</sub>,C<sub>ℓ</sub>) | (Δ<sub>mod</sub>) | Modelo cosmológico posterior | admisible parcial, no fundamento |
 
-La regla de cierre es:
-
-<div align="center">BigBang ⊂ Ω<sub>fis</sub><sup>cos</sup> ⊂ Ω<sub>esp</sub>.</div>
+La regla de cierre es: BigBang ⊂ Ω<sub>fis</sub><sup>cos</sup> ⊂ Ω<sub>esp</sub>.
 
 pero:
 
@@ -8176,7 +7918,7 @@ El espacio no se define como recipiente. El contenedor presupone dentro, fuera, 
 
 La corrección canónica es:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>.</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>.</div>
 
 El retorno físico es:
 
@@ -8213,9 +7955,7 @@ El infinito no funda el espacio. Puede ser propiedad de un modelo, de una extens
 | INF-ERR-04 | Infinito elimina frontera | sin (∂Ω) | (Δ<sub>front</sub>) | Un dominio puede ser completo con frontera | no admisible |
 | INF-ERR-05 | Infinito cosmológico como TODO | (Ω<sub>cos</sub>) infinito | (Δ<sub>TODO</sub>) | El TODO no es cardinalidad espacial | no admisible |
 
-La regla es:
-
-<div align="center">Comp(Ω<sub>esp</sub>)= 1 ⇏ |Ω<sub>esp</sub>|= ∞.</div>
+La regla es: Comp(Ω<sub>esp</sub>)= 1 ⇏ |Ω<sub>esp</sub>|= ∞.
 
 La completitud significa disponibilidad estructural del dominio de separación, no infinitud fundante.
 
@@ -8247,7 +7987,7 @@ El transductor permite comparar ambos sin identificarlos.
 
 La probabilidad puede ser herramienta física, estadística o cuántica. No puede ser criterio constitutivo de verdad SV.
 
-<div align="center">P(·) ≠ 𝔡<sub>SV</sub>.</div>
+<div align="center">P(·) ≠ d<sub>SV</sub>.</div>
 
 | **Código** | **Error** | **Magnitud o forma** | **Unidad SV** | **Residual** | **Corrección** | **Dictamen** |
 |-------------|-----------------------------------------------|---------------------------------|--------------------|---------------------------|-----------------------------------------------|-----------------------------|
@@ -8279,9 +8019,7 @@ La geometría física es indispensable en muchos dominios, pero no puede fundar 
 | GEO-ERR-05 | Volumen = espacio | V | (UFE<sup>3</sup>) | (Δ<sub>cont</sub>) | Volumen mide región | no admisible |
 | GEO-ERR-06 | Geodésica = fundamento de trayectoria | (γλ) | dominio formal | (Δ<sub>dom</sub>) | Geodésica exige geometría ya declarada | no admisible como fundamento |
 
-La regla es:
-
-<div align="center">g<sub>μν</sub>, ds<sup>²</sup>, R, K, V ⊂ Ω<sub>geom</sub>,</div>
+La regla es: g<sub>μν</sub>, ds<sup>²</sup>, R, K, V ⊂ Ω<sub>geom</sub>,
 
 pero:
 
@@ -8367,9 +8105,7 @@ La separación fuerte queda:
 
 <div align="center">DE: (D<sub>L</sub>, H(z), w, Λ, Ω<sub>Λ</sub>).</div>
 
-Por tanto:
-
-<div align="center">DM<sub>SV</sub> ≠ DE<sub>SV</sub>.</div>
+Por tanto: DM<sub>SV</sub> ≠ DE<sub>SV</sub>.
 
 ## XIII.16. Errores sobre agujero negro como depósito volumétrico clásico
 
@@ -8425,13 +8161,11 @@ Donde:
 | Δ<sub>ret</sub> | se activa cuando falta retorno SV → física. |
 | Δ<sub>fund</sub> | se activa cuando una magnitud física posterior pretende sustituir ε₋₀, NADA, TODO, (U) u (Ω<sub>esp</sub>). |
 
-La regla final es:
+La regla final es: Δ<sub>crit</sub>= 1 ⇒ d= no admisible.
 
-<div align="center">Δ<sub>crit</sub>= 1 ⇒ 𝔡= no admisible.</div>
+<div align="center">Δ<sub>mod</sub>= 1 sin violación constitutiva ⇒ d= admisible parcial.</div>
 
-<div align="center">Δ<sub>mod</sub>= 1 sin violación constitutiva ⇒ 𝔡= admisible parcial.</div>
-
-<div align="center">base insuficiente ⇒ 𝔡= U.</div>
+<div align="center">base insuficiente ⇒ d= U.</div>
 
 <div align="center">U≠ admisible.</div>
 
@@ -8443,7 +8177,7 @@ El catálogo cumple una función de defensa formal y física: anticipa los error
 
 El dictamen general del apartado XIII será:
 
-<div align="center">{ 𝔇<sub>XIII</sub>= admisible. }</div>
+<div align="center">{ D<sub>XIII</sub>= admisible. }</div>
 
 # XIV. Teoremas de cierre
 
@@ -8453,7 +8187,7 @@ El dictamen general del apartado XIII será:
 
 **Demostración.** Sea un régimen absolutamente indiferenciado, sin borde, sin asimetría, sin residual, sin diferencia interna, sin relación entre términos y sin posibilidad de separación. En tal régimen no puede formularse:
 
-<div align="center">x≠ y.</div>
+x≠ y.
 
 porque no hay todavía términos distinguibles (x) e (y). Tampoco puede formularse:
 
@@ -8471,7 +8205,7 @@ La primera distinguibilidad:
 
 exige que la indiferenciación absoluta no permanezca cerrada sobre sí misma. Esa no clausura mínima no puede ser todavía una partícula, una magnitud física, una métrica, una fluctuación probabilística ni una fórmula matemática ya constituida, porque todas esas nociones presuponen dominio. Por tanto, debe formularse como imperfección preformal mínima:
 
-<div align="center">ε₋₀.</div>
+ε₋₀.
 
 Luego:
 
@@ -8505,7 +8239,7 @@ Por tanto, una perfección autosuficiente sin diferencia no puede producir disti
 
 La posibilidad de primera distinguibilidad exige una condición distinta:
 
-<div align="center">ε₋₀.</div>
+ε₋₀.
 
 Queda demostrado.
 
@@ -8531,9 +8265,7 @@ Todas ellas pertenecen a dominios físicos, geométricos, cuánticos o cosmológ
 
 ε₋₀, en cambio, nombra el borde preformal de primera distinguibilidad. No es magnitud física, no es estado de campo, no es temperatura, no es densidad, no es curvatura, no es amplitud cuántica, no es métrica, no es función de onda y no es instante cronológico.
 
-Por tanto:
-
-<div align="center">T<sub>orig</sub> ≠ ε₋₀.</div>
+Por tanto: T<sub>orig</sub> ≠ ε₋₀.
 
 Una teoría física de origen puede ser absorbida o absorbida parcialmente como dominio físico posterior:
 
@@ -8563,9 +8295,7 @@ Pero todo dominio formulable queda incluido en el TODO:
 
 <div align="center">Dom<sub>SV</sub> ⊂ TODO<sub>SV</sub>.</div>
 
-Por tanto:
-
-<div align="center">E∈ TODO<sub>SV</sub>.</div>
+Por tanto: E∈ TODO<sub>SV</sub>.
 
 Luego (E) no es exterior al TODO.
 
@@ -8647,7 +8377,7 @@ Todas esas condiciones presuponen:
 
 El espacio se define como:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>.</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>.</div>
 
 Por tanto, la trayectoria exige espacio como dominio completo de separación factual recorrible:
 
@@ -8671,9 +8401,7 @@ Pero para que (R(Γ,Ω)) esté definido, debe existir Ω. Si el recorrido es esp
 
 <div align="center">Ω=Ω<sub>esp</sub>.</div>
 
-Por tanto:
-
-<div align="center">R(Γ, Ω<sub>esp</sub>) ⇒ Ω<sub>esp</sub>.</div>
+Por tanto: R(Γ, Ω<sub>esp</sub>) ⇒ Ω<sub>esp</sub>.
 
 La hipótesis exige que Γ exista antes del dominio que hace posible Γ. Eso produce circularidad:
 
@@ -8713,7 +8441,7 @@ La completitud espacial del SV no se define por infinitud:
 
 Se define por disponibilidad estructural de separación factual recorrible:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>.</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>.</div>
 
 Queda demostrado.
 
@@ -8729,9 +8457,7 @@ Queda demostrado.
 
 **Demostración.** Sea (𝓜) una estructura matemática: fórmula, ecuación, función, espacio, métrica, grupo, conexión, curvatura, operador, correlador, tensor, grafo, red, conjunto, categoría o sistema dinámico.
 
-Para operar, (𝓜) exige distinción de símbolos, reglas, dominios, relaciones y equivalencias. Por tanto:
-
-<div align="center">𝓜 ⇒ distinguibilidad.</div>
+Para operar, (𝓜) exige distinción de símbolos, reglas, dominios, relaciones y equivalencias. Por tanto: 𝓜 ⇒ distinguibilidad.
 
 La distinguibilidad presupone:
 
@@ -8761,11 +8487,11 @@ Queda demostrado.
 
 **Demostración.** Sea (T) una teoría, modelo o magnitud física contemporánea. Para que (T) entre en la publicación debe declarar:
 
-<div align="center">M<sub>i</sub>, u<sub>SI</sub>, u<sub>SV</sub>, Ω<sub>M</sub>, Π<sub>M → SV</sub>, Δ<sub>i</sub>, 𝔡<sub>i</sub>, R<sub>i</sub><sup>fis</sup>.</div>
+<div align="center">M<sub>i</sub>, u<sub>SI</sub>, u<sub>SV</sub>, Ω<sub>M</sub>, Π<sub>M → SV</sub>, Δ<sub>i</sub>, d<sub>i</sub>, R<sub>i</sub><sup>fis</sup>.</div>
 
 Esto equivale a:
 
-<div align="center">T ↦ (M<sub>i</sub>, u<sub>SV</sub>, Ω<sub>M</sub>, Ω<sub>SV</sub>, Δ<sub>i</sub>, 𝔡<sub>i</sub>, R<sub>i</sub><sup>fis</sup>).</div>
+<div align="center">T ↦ (M<sub>i</sub>, u<sub>SV</sub>, Ω<sub>M</sub>, Ω<sub>SV</sub>, Δ<sub>i</sub>, d<sub>i</sub>, R<sub>i</sub><sup>fis</sup>).</div>
 
 Si falta M<sub>i</sub>, no hay magnitud física real. Si falta (u<sub>SV</sub>), no hay articulación metrológica SV. Si falta Ω<sub>M</sub>, no hay dominio físico. Si falta (Π<sub>M→ SV</sub>), no hay transducción de entrada. Si falta (R<sub>i</sub><sup>fis</sup>), no hay retorno opinable por la física. Si falta Δ<sub>i</sub>, hay cierre espurio.
 
@@ -8773,9 +8499,9 @@ Por tanto, la absorción exige:
 
 <div align="center">Δ<sub>domM</sub> = Δ<sub>domSV</sub> = Δ<sub>proj</sub> = Δ<sub>ret</sub> = Δ<sub>inv</sub> = 0.</div>
 
-Si la teoría es útil pero parcial, Δ<sub>mod</sub>≠0; entonces, 𝔡=admisible parcial.
+Si la teoría es útil pero parcial, Δ<sub>mod</sub>≠0; entonces, d=admisible parcial.
 
-Si viola fundamento, Δ<sub>fund</sub>=1; entonces, 𝔡=no admisible.
+Si viola fundamento, Δ<sub>fund</sub>=1; entonces, d=no admisible.
 
 Queda demostrado.
 
@@ -8836,9 +8562,7 @@ Estas magnitudes tienen unidades SV correspondientes:
 - P(k) ↦ UFE<sup>3</sup>.
 - κ, γ, Ω<sub>c</sub> h<sup>²</sup>, fσ<sub>8</sub> ↦ adimensional.
 
-Todas ellas permiten formular presencia gravitatoria no explicada por luminosidad ordinaria suficiente. Por tanto:
-
-<div align="center">𝓖<sub>¬ L</sub>=1.</div>
+Todas ellas permiten formular presencia gravitatoria no explicada por luminosidad ordinaria suficiente. Por tanto: 𝓖<sub>¬ L</sub>=1.
 
 Pero ninguna de ellas fija necesariamente soporte microfísico único:
 
@@ -8886,9 +8610,7 @@ Sus unidades SV tampoco coinciden como régimen:
 - DE: UFE, UE_MFC<sup>-1</sup>, UFE<sup>-2</sup>, UFM, UFE<sup>-3</sup>.
 - BH: UFE, UFT, UFE<sup>-4</sup>, UFM, UFE<sup>2</sup>UE_MFC<sup>-2</sup>UFT<sup>-1</sup>.
 
-Por tanto:
-
-<div align="center">DM<sub>SV</sub> ≠ DE<sub>SV</sub> ≠ BH<sub>SV</sub>.</div>
+Por tanto: DM<sub>SV</sub> ≠ DE<sub>SV</sub> ≠ BH<sub>SV</sub>.
 
 Queda demostrado.
 
@@ -8914,9 +8636,7 @@ puede aparecer como magnitud geométrica dependiente de foliación o modelo. Su 
 
 <div align="center">UFE<sup>3</sup>.</div>
 
-Pero el régimen de agujero negro no queda definido por (V). Queda definido por clausura, horizonte, no retorno, no transmisión exterior, interior saturado, termodinámica de frontera y postfrontera tipada. Por tanto:
-
-<div align="center">BH<sub>SV</sub> ≠ V.</div>
+Pero el régimen de agujero negro no queda definido por (V). Queda definido por clausura, horizonte, no retorno, no transmisión exterior, interior saturado, termodinámica de frontera y postfrontera tipada. Por tanto: BH<sub>SV</sub> ≠ V.
 
 La formulación correcta es:
 
@@ -8944,7 +8664,7 @@ Queda demostrado.
 
 <div align="center">T<sub>orig</sub> ≠ ε₋₀,</div>
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>,</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>,</div>
 
 <div align="center">Γ ⇒ Ω<sub>esp</sub>.</div>
 
@@ -8954,7 +8674,7 @@ Queda demostrado.
 
 <div align="center">𝓜 ⊬ ε₋₀,</div>
 
-<div align="center">T<sub>fis</sub> ↦ (M<sub>i</sub>, u<sub>SV</sub>, Ω<sub>M</sub>, Π<sub>i</sub>, Δ<sub>i</sub>, 𝔡<sub>i</sub>, R<sub>i</sub><sup>fis</sup>),</div>
+<div align="center">T<sub>fis</sub> ↦ (M<sub>i</sub>, u<sub>SV</sub>, Ω<sub>M</sub>, Π<sub>i</sub>, Δ<sub>i</sub>, d<sub>i</sub>, R<sub>i</sub><sup>fis</sup>),</div>
 
 <div align="center">DM<sub>SV</sub> ≠ DE<sub>SV</sub> ≠ BH<sub>SV</sub>,</div>
 
@@ -8986,11 +8706,11 @@ como fundamento.
 
 Por tanto, el régimen ε₋₀–espacio queda cerrado en su tesis central:
 
-<div align="center">{ ε₋₀ ⊢ ∂<sub>ε</sub> ⊢ D<sub>sep</sub> ⊢ Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup> }</div>
+<div align="center">{ ε₋₀ ⊢ ∂<sub>ε</sub> ⊢ D<sub>sep</sub> ⊢ Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup> }</div>
 
 y queda físicamente protegido por:
 
-<div align="center">{ 𝔛<sub>SV</sub>(M↔ D<sub>SV</sub>) }</div>
+<div align="center">{ 𝔛<sub>SV</sub>(M ↔ D<sub>SV</sub>) }</div>
 
 con magnitudes reales, unidades SV, residual visible, retorno físico y preservación de jerarquía.
 
@@ -9006,7 +8726,7 @@ Queda demostrado.
 
 **Dictamen general del apartado XIV.**
 
-<div align="center">{ 𝔇<sub>XIV</sub>= admisible. }</div>
+<div align="center">{ D<sub>XIV</sub>= admisible. }</div>
 
 # XV. Anexo de preguntas: verdades, no verdades y conclusiones sobre la naturaleza y matemática de la imperfección preformal, del espacio, de los dominios internos y de lo oscuro
 
@@ -9033,7 +8753,7 @@ Este anexo no sustituye los teoremas. Los resume, los estabiliza y los hace legi
 
 ## XV.2. ¿Qué es ε₋₀?
 
-<div align="center">ε₋₀</div>
+ε₋₀
 
 es el nombre formal del borde preformal de primera distinguibilidad. No designa una cosa física, ni una partícula, ni una energía, ni una densidad, ni un campo, ni una métrica, ni una función de onda. Designa la condición mínima por la cual la indiferenciación absoluta deja de permanecer cerrada y se hace posible la primera diferencia.
 
@@ -9043,7 +8763,7 @@ La respuesta formal es:
 
 La primera distinguibilidad no es aún espacio, no es aún trayectoria, no es aún física constituida. Es la posibilidad formal mínima de que pueda decirse:
 
-<div align="center">x≠ y.</div>
+x≠ y.
 
 Sin esa posibilidad, no hay separación, distancia, frontera, trayectoria, transmisión, opacidad, materia oscura, energía oscura ni agujero negro. Por eso ε₋₀ no compite con las teorías físicas de origen. Las antecede en sentido operatorio.
 
@@ -9063,8 +8783,8 @@ El Big Bang caliente pertenece al dominio físico-cosmológico. Se contrasta med
 
 Estas magnitudes tienen unidades físicas y unidades SV:
 
-- T<sub>CMB</sub>↦: UFT.
-- H<sub>0</sub>↦: UE_MFC<sup>-1</sup>.
+- T<sub>CMB</sub> ↦: UFT.
+- H<sub>0</sub> ↦: UE_MFC<sup>-1</sup>.
 - C<sub>ℓ</sub>↦: UFT<sup>2</sup>.
 
 Por tanto, el Big Bang es físicamente contrastable. Pero precisamente por eso pertenece a un dominio físico ya constituido:
@@ -9073,7 +8793,7 @@ Por tanto, el Big Bang es físicamente contrastable. Pero precisamente por eso p
 
 No puede ser:
 
-<div align="center">ε₋₀.</div>
+ε₋₀.
 
 La respuesta correcta es:
 
@@ -9085,15 +8805,11 @@ El Big Bang puede ser absorbido parcialmente como régimen físico posterior. Es
 
 No en el sentido de fórmula matemática ya constituida.
 
-La matemática exige símbolos diferenciados, reglas, dominios, relaciones, operadores y equivalencias. Todo eso presupone distinguibilidad. Por tanto:
-
-<div align="center">𝓜 ⇒ ∂<sub>ε</sub>.</div>
+La matemática exige símbolos diferenciados, reglas, dominios, relaciones, operadores y equivalencias. Todo eso presupone distinguibilidad. Por tanto: 𝓜 ⇒ ∂<sub>ε</sub>.
 
 Si una estructura matemática presupone primera distinguibilidad, no puede fundarla desde fuera. Puede codificarla una vez formulada, puede representarla, puede establecer sus relaciones y puede permitir demostraciones. Pero no puede ser el fundamento exterior de la primera diferencia.
 
-Por tanto:
-
-<div align="center">ε₋₀ ≠ 𝓜</div>
+Por tanto: ε₋₀ ≠ 𝓜
 
 para toda fórmula matemática constituida (𝓜).
 
@@ -9115,7 +8831,7 @@ La expresión formal es:
 
 La imperfección preformal no es una magnitud física. No se mide en kelvin, metros, julios, kilogramos ni segundos. Por eso no se expresa como:
 
-<div align="center">T, E, m, ρ, R, K.</div>
+T, E, m, ρ, R, K.
 
 Todas esas magnitudes pertenecen a dominios físicos posteriores.
 
@@ -9135,9 +8851,7 @@ La verdad formal es:
 
 Porque la matemática opera con distinciones. Un símbolo se distingue de otro. Una igualdad se distingue de una desigualdad. Un dominio se distingue de su codominio. Una función se distingue de su argumento. Una demostración se distingue de una conjetura.
 
-Por tanto:
-
-<div align="center">𝓜 ⇒ ∂<sub>ε</sub>.</div>
+Por tanto: 𝓜 ⇒ ∂<sub>ε</sub>.
 
 Si la matemática ya presupone distinguibilidad, no puede ser la instancia primera que hace posible la distinguibilidad. Puede operar después de la apertura. Puede codificar el universo realizado, decodificar relaciones, establecer ecuaciones, construir modelos, demostrar teoremas y formular transductores. Pero no puede sustituir el borde preformal.
 
@@ -9169,9 +8883,7 @@ Un “universo” físico puede significar una región causal, una burbuja infla
 
 Pero “TODO” no significa región física grande. Significa contención total. Si algo se formula como exterior, ya comparece como algo formulable. Y si comparece como formulable, queda incluido.
 
-Por tanto:
-
-<div align="center">pluralidad física ≠ pluralidad de TODOS.</div>
+Por tanto: pluralidad física ≠ pluralidad de TODOS.
 
 ## XV.8. ¿Puede haber varios dominios sin varios TODOS?
 
@@ -9181,9 +8893,7 @@ Puede haber una familia:
 
 <div align="center">Ω<sub>1</sub>, Ω<sub>2</sub>, …, Ω<sub>k</sub>.</div>
 
-Cada dominio puede tener sus propias magnitudes, fronteras, leyes efectivas, constantes, escalas, señales, opacidades o condiciones de transmisión. Por ejemplo:
-
-<div align="center">Λ<sub>i</sub>, G<sub>i</sub>, α<sub>i</sub>, R<sub>H</sub>, V(φ<sub>i</sub>).</div>
+Cada dominio puede tener sus propias magnitudes, fronteras, leyes efectivas, constantes, escalas, señales, opacidades o condiciones de transmisión. Por ejemplo: Λ<sub>i</sub>, G<sub>i</sub>, α<sub>i</sub>, R<sub>H</sub>, V(φ<sub>i</sub>).
 
 Pero que existan varios dominios no implica que existan varias totalidades absolutas. La pluralidad de dominios es interna:
 
@@ -9191,9 +8901,7 @@ Pero que existan varios dominios no implica que existan varias totalidades absol
 
 La no comunicación entre dominios tampoco crea exterioridad. Una región causalmente desconectada puede no transmitir señales a otra, pero no por eso queda fuera del TODO.
 
-La regla es:
-
-<div align="center">Trans<sub>SV</sub>= 0 ⇏ exterioridad absoluta.</div>
+La regla es: Trans<sub>SV</sub>= 0 ⇏ exterioridad absoluta.
 
 Por tanto, sí: puede haber varios dominios, varios espacios efectivos y varios regímenes físicos sin varios TODOS.
 
@@ -9203,7 +8911,7 @@ Depende del dominio de la pregunta.
 
 En sentido central de esta publicación, el espacio se define como:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>.</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>.</div>
 
 Es el dominio estructural completo de separación factual recorrible.
 
@@ -9231,7 +8939,7 @@ Significa que el espacio, cuando comparece como dominio espacial, comparece con 
 
 La definición es:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>.</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>.</div>
 
 “Completo” significa:
 
@@ -9265,9 +8973,7 @@ No en sentido espacial.
 
 La expresión “detrás del espacio” usa una noción espacial —detrás— para referirse a aquello que pretende estar fuera o antes del espacio. Eso produce circularidad. Si algo está “detrás”, ya se ha usado orientación, posición o separación. Y esas nociones presuponen espacio.
 
-Por tanto:
-
-<div align="center">“detrás” ⇒ Ω<sub>esp</sub>.</div>
+Por tanto: “detrás” ⇒ Ω<sub>esp</sub>.
 
 No puede usarse “detrás” para fundar aquello que la expresión presupone.
 
@@ -9293,9 +8999,7 @@ La materia oscura, como dominio físico, pertenece a:
 
 Por tanto, sí: si se habla de materia oscura como presencia gravitatoria no luminosa en galaxias, cúmulos, lentes gravitacionales, CMB o estructura a gran escala, se habla de un régimen físico situado en dominio espacial o cosmológico.
 
-Sus magnitudes de contraste son:
-
-<div align="center">v<sub>rot</sub>(r), M<sub>dyn</sub>, M<sub>bar</sub>, M/L, κ, γ, Ω<sub>c</sub> h<sup>²</sup>, P(k).</div>
+Sus magnitudes de contraste son: v<sub>rot</sub>(r), M<sub>dyn</sub>, M<sub>bar</sub>, M/L, κ, γ, Ω<sub>c</sub> h<sup>²</sup>, P(k).
 
 En unidades SV:
 
@@ -9315,7 +9019,7 @@ Ninguna de esas palabras basta sin tipado.
 
 La materia oscura no se define como “invisible” en sentido vulgar. Se define como presencia gravitatoria no luminosa:
 
-<div align="center">𝓖<sub>¬ L</sub>=1.</div>
+𝓖<sub>¬ L</sub>=1.
 
 Puede no emitir o no interactuar luminosamente de forma ordinaria. Puede ser no visible en ciertos canales. Puede producir efectos gravitatorios. Pero:
 
@@ -9357,9 +9061,7 @@ La energía oscura se contrasta por expansión cosmológica:
 
 Sus unidades y dominios no coinciden. La materia oscura usa masa, velocidad, lente y estructura. La energía oscura usa distancia cosmológica, tasa de expansión, constante cosmológica, ecuación de estado y densidad efectiva.
 
-Por tanto:
-
-<div align="center">DM<sub>SV</sub> ≠ DE<sub>SV</sub>.</div>
+Por tanto: DM<sub>SV</sub> ≠ DE<sub>SV</sub>.
 
 La palabra “oscura” no define identidad. Sólo señala que no se trata de fenómenos luminosos ordinarios. Formalmente:
 
@@ -9409,7 +9111,7 @@ La postfrontera:
 
 no es:
 
-<div align="center">ε₋₀.</div>
+ε₋₀.
 
 No es:
 
@@ -9434,7 +9136,7 @@ La clausura no destruye la distinción entre apertura y cierre:
 | **Pregunta** | **Verdad formal** | **No verdad** | **Magnitudes o unidades relevantes** | **Dictamen** |
 |----------------------------------------------|---------------------------------------------------------------|----------------------------------------------------|-----------------------------------------------------------------------------------------|---------------------------|
 | ¿Qué es ε₋₀? | Borde preformal de primera distinguibilidad | Partícula, instante, campo, vacío | No es magnitud física | admisible |
-| ¿Es el Big Bang? | No; Big Bang es régimen físico posterior | (T<sub>CMB</sub>=ε₋₀) | (T<sub>CMB</sub>↦UFT), (H₀↦UE_MFC<sup>-1</sup>) | no admisible como identidad |
+| ¿Es el Big Bang? | No; Big Bang es régimen físico posterior | (T<sub>CMB</sub>=ε₋₀) | (T<sub>CMB</sub> ↦UFT), (H₀↦UE_MFC<sup>-1</sup>) | no admisible como identidad |
 | ¿Es vacío cuántico? | No; el vacío físico tiene estructura | Vacío = NADA | Energía de vacío (↦UFMUFE<sup>-1</sup>UE_MFC<sup>-2</sup>) | no admisible |
 | ¿Es fórmula matemática? | La fórmula lo codifica, no lo funda | Matemática como fundamento exterior | Estructuras matemáticas presuponen distinción | no admisible como fundamento |
 | ¿Qué es imperfección preformal? | No clausura indiferenciada mínima | Azar, fluctuación, defecto material | No es (P), no es (T), no es (E) | admisible |
@@ -9460,7 +9162,7 @@ Las conclusiones esenciales son:
 
 <div align="center">ε₋₀ ≠ Big Bang, ε₋₀ ≠ vacío cuántico, ε₋₀ ≠ fórmula matemática constituida.</div>
 
-Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>; no: Ω<sub>esp</sub> contenedor, Ω<sub>esp</sub> g<sub>μν</sub>, Ω<sub>esp</sub> Γ.
+Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>; no: Ω<sub>esp</sub> contenedor, Ω<sub>esp</sub> g<sub>μν</sub>, Ω<sub>esp</sub> Γ.
 
 <div align="center">DM<sub>SV</sub> ≠ DE<sub>SV</sub> ≠ BH<sub>SV</sub>.</div>
 
@@ -9474,7 +9176,7 @@ El lector puede discutir magnitudes, unidades, dominios, proyecciones, residuale
 
 El dictamen del anexo es:
 
-<div align="center">{ 𝔇<sub>XV</sub>= admisible. }</div>
+<div align="center">{ D<sub>XV</sub>= admisible. }</div>
 
 # XVI. Lectura formal progresiva: niño, joven universitario de ingeniería y lector científico
 
@@ -9488,7 +9190,7 @@ La regla general será:
 
 si, y sólo si, los tres lenguajes conservan:
 
-<div align="center">ε₋₀, ∂<sub>ε</sub>, D<sub>sep</sub>, Ω<sub>esp</sub>, U, Δ, 𝔡.</div>
+<div align="center">ε₋₀, ∂<sub>ε</sub>, D<sub>sep</sub>, Ω<sub>esp</sub>, U, Δ, d.</div>
 
 No se admite que el lenguaje simple diga algo materialmente distinto del lenguaje formal. Tampoco se admite que el lenguaje técnico introduzca tiempo como fundamento primero, probabilidad fundante, geometría rectora o cierre favorable de (U).
 
@@ -9519,9 +9221,7 @@ Antes de poder decir “esto” y “aquello”, tiene que existir la posibilida
 
 T<sub>CMB</sub>, H<sub>0</sub>, z<sub>*</sub>, C<sub>ℓ</sub>.
 
-Todas ellas son magnitudes físicas posteriores, expresables en unidades SV:
-
-<div align="center">T<sub>CMB</sub>↦ UFT, H<sub>0</sub>↦ UE_MFC<sup>-1</sup>, C*ℓ↦ UFT<sup>2</sup>.</div>
+Todas ellas son magnitudes físicas posteriores, expresables en unidades SV: T<sub>CMB</sub> ↦ UFT, H<sub>0</sub> ↦ UE_MFC<sup>-1</sup>, C<sub>ℓ</sub>↦ UFT<sup>2</sup>.
 
 ε₋₀ no se mide en esas unidades porque no es una magnitud física. Es el borde preformal de primera distinguibilidad.
 
@@ -9587,9 +9287,7 @@ Si tiene magnitud, dominio o formalismo, no es la NADA del cierre rector.
 
 **Lectura para un lector científico**
 
-El vacío cuántico es un estado físico formalizado. Puede tener estructura de campo, simetrías, operadores, energía efectiva, amplitudes y excitaciones posibles. Por tanto:
-
-<div align="center">vacío cuántico ⊂ Ω<sub>fis</sub>.</div>
+El vacío cuántico es un estado físico formalizado. Puede tener estructura de campo, simetrías, operadores, energía efectiva, amplitudes y excitaciones posibles. Por tanto: vacío cuántico ⊂ Ω<sub>fis</sub>.
 
 mientras que:
 
@@ -9685,7 +9383,7 @@ Para caminar de un sitio a otro, primero tiene que haber un sitio por donde cami
 
 Una trayectoria:
 
-<div align="center">Γ</div>
+Γ
 
 requiere un dominio:
 
@@ -9705,7 +9403,7 @@ Por tanto:
 
 La definición central es:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>.</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>.</div>
 
 La completitud no es infinitud ni recorrido exhaustivo. Es disponibilidad estructural de separación factual recorrible.
 
@@ -9775,9 +9473,7 @@ Materia oscura y energía oscura se llaman “oscuras”, pero no son lo mismo. 
 
 **Lectura para un joven universitario de ingeniería**
 
-La energía oscura se contrasta con:
-
-<div align="center">D<sub>L</sub>(z), H(z), w, Λ, Ω<sub>Λ</sub>, ρ<sub>Λ</sub>.</div>
+La energía oscura se contrasta con: D<sub>L</sub>(z), H(z), w, Λ, Ω<sub>Λ</sub>, ρ<sub>Λ</sub>.
 
 En unidades SV:
 
@@ -9800,9 +9496,7 @@ Materia oscura y energía oscura son separables por magnitudes:
 
 <div align="center">DE: (D<sub>L</sub>, H(z), w, Λ, Ω<sub>Λ</sub>).</div>
 
-Por tanto:
-
-<div align="center">DM<sub>SV</sub> ≠ DE<sub>SV</sub>.</div>
+Por tanto: DM<sub>SV</sub> ≠ DE<sub>SV</sub>.
 
 La identificación por la palabra “oscura” es semánticamente débil y físicamente inválida. Activa:
 
@@ -9862,7 +9556,7 @@ La clausura no es apertura preformal.
 
 Imaginemos que antes de poder decir “una cosa” y “otra cosa”, tiene que pasar algo más básico: tiene que existir la posibilidad de distinguir. Ese primer borde de posibilidad se llama aquí:
 
-<div align="center">ε₋₀.</div>
+ε₋₀.
 
 No es una explosión. No es una bola. No es una luz. No es el Big Bang. Es como la primera condición para que pueda haber diferencia.
 
@@ -9891,7 +9585,7 @@ La publicación plantea una cadena de dependencias:
 
 El punto central es que el espacio no puede definirse como contenedor ni como métrica previa, porque toda métrica y todo contenedor presuponen separación. La separación presupone distinguibilidad. Y la primera distinguibilidad exige un borde preformal:
 
-<div align="center">ε₋₀.</div>
+ε₋₀.
 
 Las teorías físicas de origen entran como modelos posteriores. Por ejemplo:
 
@@ -9903,11 +9597,11 @@ Estas magnitudes son reales y comparables. Pero no fundan ε₋₀.
 
 El espacio se define como:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>.</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>.</div>
 
 Eso significa que las condiciones de separación están dadas como dominio. Una trayectoria:
 
-<div align="center">Γ</div>
+Γ
 
 puede recorrer el espacio, pero no crearlo:
 
@@ -9953,13 +9647,11 @@ Desde ahí:
 
 <div align="center">Ω<sub>esp</sub> ⊢ Ω<sub>fis</sub>.</div>
 
-El transductor físico-factual evita que esta cadena quede encerrada en lenguaje interno:
-
-<div align="center">𝔛<sub>SV</sub>(M↔ D<sub>SV</sub>).</div>
+El transductor físico-factual evita que esta cadena quede encerrada en lenguaje interno: 𝔛<sub>SV</sub>(M ↔ D<sub>SV</sub>).
 
 Toda magnitud física M<sub>i</sub> se expresa en unidad SV:
 
-<div align="center">u<sub>SI</sub> ↦ u<sub>SV</sub> ∈ langle UE_MFC, UFE, UFM, UFC, UFT, UFCE rangle.</div>
+<div align="center">u<sub>SI</sub> ↦ u<sub>SV</sub> ∈ ⟨UE_MFC, UFE, UFM, UFC, UFT, UFCE⟩.</div>
 
 Ejemplos:
 
@@ -9971,11 +9663,11 @@ Ejemplos:
 
 La dirección física → SV permite evaluar:
 
-<div align="center">(M<sub>i</sub>, u<sub>SV</sub>, Ω<sub>M</sub>) ↦ (Ω<sub>SV</sub>, Δ<sub>i</sub>, 𝔡<sub>i</sub>).</div>
+<div align="center">(M<sub>i</sub>, u<sub>SV</sub>, Ω<sub>M</sub>) ↦ (Ω<sub>SV</sub>, Δ<sub>i</sub>, d<sub>i</sub>).</div>
 
 La dirección SV → física devuelve:
 
-<div align="center">(Ω<sub>SV</sub>, Δ<sub>i</sub>, 𝔡<sub>i</sub>) ↦ R<sub>i</sub><sup>fis</sup>.</div>
+<div align="center">(Ω<sub>SV</sub>, Δ<sub>i</sub>, d<sub>i</sub>) ↦ R<sub>i</sub><sup>fis</sup>.</div>
 
 Esto permite a la física discutir las magnitudes, sin permitir que esas magnitudes sustituyan ε₋₀, NADA, TODO, (U) u (Ω<sub>esp</sub>).
 
@@ -9999,7 +9691,7 @@ El cierre científico es:
 | Energía oscura | Expansión del universo | Régimen cosmológico expansivo | (DE<sub>SV</sub>=𝓐<sub>cos</sub>) |
 | Agujero negro | No es una caja | Clausura extrema de no retorno | (BH<sub>SV</sub>Γ<sup>BH</sup>=0⇔ R<sup>BH</sup>=0) |
 | No señal | No ver no es no existir | Canal no detectado u opaco | (F<sub>ν</sub>=0⇏ x=0) |
-| Probabilidad | No decide la verdad primera | Herramienta física o estadística | (P≠𝔡<sub>SV</sub>) |
+| Probabilidad | No decide la verdad primera | Herramienta física o estadística | (P≠d<sub>SV</sub>) |
 | Matemática | Describe y organiza | Codifica y decodifica | (𝓜⊬ε₋₀) |
 | U | No lo cierro sin saber | Indeterminación honesta | (U≠ admisible) |
 
@@ -10066,9 +9758,7 @@ La conclusión es:
 
 La publicación conserva la diferencia entre TODO, NADA, vacío físico, ausencia de señal y dominio no transmisivo.
 
-El TODO no se define como universo físico grande, región observable, espacio total medible ni suma de dominios cosmológicos. Se define como contención absoluta de lo formulable. Por tanto:
-
-<div align="center">{Ω<sub>1</sub>, Ω<sub>2</sub>, …, Ω<sub>k</sub>} ⊂ TODO<sub>SV</sub>.</div>
+El TODO no se define como universo físico grande, región observable, espacio total medible ni suma de dominios cosmológicos. Se define como contención absoluta de lo formulable. Por tanto: {Ω<sub>1</sub>, Ω<sub>2</sub>, …, Ω<sub>k</sub>} ⊂ TODO<sub>SV</sub>.
 
 No procede afirmar:
 
@@ -10076,9 +9766,7 @@ No procede afirmar:
 
 como totalidades absolutas exteriores entre sí.
 
-La NADA no se identifica con vacío físico. El vacío físico puede tener campo, energía efectiva, formalismo, operadores, fluctuaciones, simetrías o constantes. Por tanto:
-
-<div align="center">vacío cuántico ⊂ Ω<sub>fis</sub>.</div>
+La NADA no se identifica con vacío físico. El vacío físico puede tener campo, energía efectiva, formalismo, operadores, fluctuaciones, simetrías o constantes. Por tanto: vacío cuántico ⊂ Ω<sub>fis</sub>.
 
 pero:
 
@@ -10130,7 +9818,7 @@ La conclusión es:
 
 El espacio queda definido como:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>.</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>.</div>
 
 Esto significa que el espacio es dominio estructural completo de separación factual recorrible. No significa contenedor, medio sustancial, infinito fundante, volumen total, métrica previa, conjunto de trayectorias ya recorridas ni suma de distancias medidas.
 
@@ -10173,9 +9861,7 @@ La materia oscura queda formulada como presencia gravitatoria no luminosa:
 
 <div align="center">DM<sub>SV</sub> 𝓖<sub>¬ L</sub>.</div>
 
-Sus magnitudes físicas principales son:
-
-<div align="center">v<sub>rot</sub>(r), M<sub>dyn</sub>, M<sub>bar</sub>, M/L, κ, γ, Ω<sub>c</sub> h<sup>²</sup>, P(k), fσ<sub>8</sub>.</div>
+Sus magnitudes físicas principales son: v<sub>rot</sub>(r), M<sub>dyn</sub>, M<sub>bar</sub>, M/L, κ, γ, Ω<sub>c</sub> h<sup>²</sup>, P(k), fσ<sub>8</sub>.
 
 Sus unidades SV incluyen:
 
@@ -10192,9 +9878,7 @@ La energía oscura queda formulada como régimen cosmológico expansivo:
 
 <div align="center">DE<sub>SV</sub> 𝓐<sub>cos</sub>.</div>
 
-Sus magnitudes físicas principales son:
-
-<div align="center">D<sub>L</sub>(z), μ(z), H(z), D<sub>V</sub>/r<sub>d</sub>, D<sub>M</sub>/r<sub>d</sub>, w, Λ, Ω<sub>Λ</sub>, ρ<sub>Λ</sub>.</div>
+Sus magnitudes físicas principales son: D<sub>L</sub>(z), μ(z), H(z), D<sub>V</sub>/r<sub>d</sub>, D<sub>M</sub>/r<sub>d</sub>, w, Λ, Ω<sub>Λ</sub>, ρ<sub>Λ</sub>.
 
 Sus unidades SV incluyen:
 
@@ -10271,11 +9955,11 @@ La estructura de entrada es:
 
 La estructura de transducción es:
 
-<div align="center">(M<sub>i</sub>, u<sub>SV</sub>, Ω<sub>M</sub>) —𝔛<sub>→</sub><sup>M, SV</sup>→ (Ω<sub>SV</sub>, Π<sub>i</sub>, Δ<sub>i</sub>, 𝔡<sub>i</sub>).</div>
+<div align="center">(M<sub>i</sub>, u<sub>SV</sub>, Ω<sub>M</sub>) —𝔛<sub>→</sub><sup>M, SV</sup>→ (Ω<sub>SV</sub>, Π<sub>i</sub>, Δ<sub>i</sub>, d<sub>i</sub>).</div>
 
 La estructura de retorno es:
 
-<div align="center">(Ω<sub>SV</sub>, Δ<sub>i</sub>, 𝔡<sub>i</sub>) —𝔛<sub>←</sub><sup>SV, M</sup>→ R<sub>i</sub><sup>fis</sup>.</div>
+<div align="center">(Ω<sub>SV</sub>, Δ<sub>i</sub>, d<sub>i</sub>) —𝔛<sub>←</sub><sup>SV, M</sup>→ R<sub>i</sub><sup>fis</sup>.</div>
 
 La física contemporánea puede discutir los bancos porque éstos incorporan magnitudes reales:
 
@@ -10301,7 +9985,7 @@ La cadena final es:
 
 El espacio no nace como contenedor, ni como escenario previo, ni como infinito fundante, ni como métrica, ni como volumen, ni como suma de recorridos. Nace como dominio estructural completo de separación factual recorrible:
 
-<div align="center">Ω<sub>esp</sub> D<sub>sep</sub><sup>completo</sup>.</div>
+<div align="center">Ω<sub>esp</sub> = D<sub>sep</sub><sup>completo</sup>.</div>
 
 La física contemporánea queda situada, no negada. El Big Bang, el CMB, la expansión, la inflación, el rebote, la holografía, los causal sets, la materia oscura, la energía oscura, el agujero negro, el hidrógeno y la termodinámica entran por dominios propios. Cada uno conserva magnitudes reales y unidades SV. Cada uno recibe dictamen con residual visible.
 
@@ -10327,7 +10011,7 @@ La afirmación final es:
 
 La publicación queda cerrada en su tesis principal: el espacio no es fundamento primero; es consecuencia estructural de la primera distinguibilidad. La física no queda expulsada; queda transducida. La matemática no queda degradada; queda situada como codificación y decodificación. La oscuridad no se confunde con inexistencia. El agujero negro no se convierte en caja. La pluralidad no rompe el TODO. Y ε₋₀ queda preservado como borde preformal, no como metáfora, no como magnitud física y no como sustituto de una teoría cosmológica.
 
-<div align="center">{ 𝔇<sub>XVII</sub>= admisible. }</div>
+<div align="center">{ D<sub>XVII</sub>= admisible. }</div>
 
 # XVIII. Laboratorios reproducibles
 
@@ -10337,11 +10021,11 @@ Los laboratorios reproducibles no fundan la doctrina, no sustituyen los teoremas
 
 La estructura general del laboratorio reproduce la cadena ya fijada:
 
-<div align="center">M<sub>i</sub> ⟶ u<sub>SV</sub> ⟶ Ω<sub>M</sub> ⟶ Π<sub>M → SV</sub> ⟶ Δ<sub>i</sub> ⟶ 𝔡<sub>i</sub> ⟶ R<sub>i</sub><sup>fis</sup>.</div>
+<div align="center">M<sub>i</sub> ⟶ u<sub>SV</sub> ⟶ Ω<sub>M</sub> ⟶ Π<sub>M → SV</sub> ⟶ Δ<sub>i</sub> ⟶ d<sub>i</sub> ⟶ R<sub>i</sub><sup>fis</sup>.</div>
 
 Cada caso de laboratorio debe contener, como mínimo:
 
-<div align="center">B<sub>i</sub><sup>lab</sup> (ID_i, M<sub>i</sub>, u<sub>SI</sub>, u<sub>SV</sub>, Ω<sub>M</sub>, Ω<sub>SV</sub>, Π<sub>i</sub>, 𝓘_i, Δ<sub>i</sub>, 𝔡<sub>i</sub>, R<sub>i</sub><sup>fis</sup>).</div>
+<div align="center">B<sub>i</sub><sup>lab</sup> (ID_i, M<sub>i</sub>, u<sub>SI</sub>, u<sub>SV</sub>, Ω<sub>M</sub>, Ω<sub>SV</sub>, Π<sub>i</sub>, 𝓘_i, Δ<sub>i</sub>, d<sub>i</sub>, R<sub>i</sub><sup>fis</sup>).</div>
 
 La estructura mínima de carpetas queda definida así:
 
@@ -10402,7 +10086,7 @@ La condición mínima de admisibilidad de un caso será:
 
 Si alguna de esas condiciones falla:
 
-<div align="center">𝔡<sub>i</sub> ≠ admisible.</div>
+<div align="center">d<sub>i</sub> ≠ admisible.</div>
 
 ## XVIII.2. Datos de teorías externas
 
@@ -10436,7 +10120,7 @@ Ejemplo de tabla material:
 
 El validador debe comprobar que ninguna teoría física de origen produce:
 
-<div align="center">𝔡=admisible</div>
+<div align="center">d=admisible</div>
 
 si su retorno físico pretende:
 
@@ -10503,15 +10187,13 @@ El fichero schema_residual.json debe contener, como mínimo:
 }
 ```
 
-La regla de validación será:
+La regla de validación será: Δ<sub>crit</sub> = Δ<sub>domM</sub> ⊕ Δ<sub>domSV</sub> ⊕ Δ<sub>u</sub> ⊕ Δ<sub>proj</sub> ⊕ Δ<sub>ret</sub> ⊕ Δ<sub>inv</sub> ⊕ Δ<sub>fund</sub>.
 
-<div align="center">Δ<sub>crit</sub> = Δ<sub>domM</sub> ⊕ Δ<sub>domSV</sub> ⊕ Δ<sub>u</sub> ⊕ Δ<sub>proj</sub> ⊕ Δ<sub>ret</sub> ⊕ Δ<sub>inv</sub> ⊕ Δ<sub>fund</sub>.</div>
+Si Δ<sub>crit</sub>=1, entonces d=no admisible.
 
-Si Δ<sub>crit</sub>=1, entonces 𝔡=no admisible.
+Si Δ<sub>crit</sub>= 0 y Δ<sub>mod</sub>= 1, entonces d=admisible parcial.
 
-Si Δ<sub>crit</sub>= 0 y Δ<sub>mod</sub>= 1, entonces 𝔡=admisible parcial.
-
-Si Δ<sub>sup</sub>=1 por soporte físico no cerrado, entonces 𝔡=U o 𝔡=admisible parcial, según exista dominio físico robusto pero soporte abierto.
+Si Δ<sub>sup</sub>=1 por soporte físico no cerrado, entonces d=U o d=admisible parcial, según exista dominio físico robusto pero soporte abierto.
 
 Ejemplos:
 
@@ -10619,9 +10301,7 @@ def validar_absorcion(row):
 
 El rechazo como fundamento no niega necesariamente que el fenómeno exista físicamente. Niega que ocupe un plano que no le corresponde.
 
-La estructura será:
-
-<div align="center">M<sub>i</sub> ∈ Ω<sub>M</sub> pero M<sub>i</sub>∉ = {ε₋₀, NADA<sub>SV</sub>, TODO<sub>SV</sub>, U, Ω<sub>esp</sub>}.</div>
+La estructura será: M<sub>i</sub> ∈ Ω<sub>M</sub> pero M<sub>i</sub> ∉ {ε₋₀, NADA<sub>SV</sub>, TODO<sub>SV</sub>, U, Ω<sub>esp</sub>}.
 
 Tabla de rechazos esperados:
 
@@ -10869,9 +10549,7 @@ def validar_dm_de(row):
 
 El agujero negro se valida como clausura extrema, no como contenedor volumétrico clásico.
 
-Magnitudes obligatorias mínimas para caso fuerte de BH:
-
-<div align="center">M, r<sub>s</sub></div>
+Magnitudes obligatorias mínimas para caso fuerte de BH: M, r<sub>s</sub>
 
 y, si hay rotación:
 
@@ -10905,9 +10583,7 @@ El vector (R<sup>BH</sup>) debe contener:
 
 <div align="center">R<sup>BH</sup> (R<sub>hor</sub>, R<sub>L</sub>, R<sub>int</sub>, R<sub>th</sub>, R<sub>geom</sub>, R<sub>post</sub>, R<sub>ret</sub>).</div>
 
-Si sólo hay:
-
-<div align="center">R<sub>L</sub>=0,</div>
+Si sólo hay: R<sub>L</sub>=0,
 
 entonces no basta para cierre total.
 
@@ -11224,13 +10900,13 @@ La condición final de salida válida será:
 
 | Control | Condición |
 |---|---|
-| Coherencia de dictamen | ∀ i, 𝔡<sub>i</sub><sup>declarado</sup> = 𝔡<sub>i</sub><sup>calculado</sup> |
+| Coherencia de dictamen | ∀ i, d<sub>i</sub><sup>declarado</sup> = d<sub>i</sub><sup>calculado</sup> |
 | Unidad SV declarada | ∀ i, u<sub>SV,i</sub> ≠ ∅ |
 | Retorno físico declarado | ∀ i, R<sub>i</sub><sup>fis</sup> ≠ ∅ |
 
 Si todo pasa:
 
-<div align="center">𝔇<sub>XVIII</sub> = admisible.</div>
+<div align="center">D<sub>XVIII</sub> = admisible.</div>
 
 El cierre de los laboratorios confirma que la publicación no queda en semántica interna, no cede el fundamento a la física externa, no oculta residuales y no permite cierres favorables por ausencia de prueba. Cada caso debe poder ser leído desde la física, transducido al SV, devuelto a la física y auditado por unidad, dominio, residual y dictamen.
 
