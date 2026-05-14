@@ -180,27 +180,7 @@ Síntesis. El techo doctrinal es nivel 13; el suelo formal operativo es K<sub>3<
 
 <a id="formula-cel-01"></a>
 
-CEL-01. 𝓢<sub>n</sub> = K<sub>3</sub><sup>n</sup>, n=b², b≥3. <a id="formula-cel-02"></a>
-
-CEL-02. T(n)=⌊7n/9⌋. <a id="formula-met-01"></a>
-
-MET-01. 1 a<sub>J</sub> = 31 557 600 s. <a id="formula-met-02"></a>
-
-MET-02. 1 s = 9 UE<sub>MFC</sub>. <a id="formula-met-03"></a>
-
-MET-03. 1 a<sub>J</sub> = 284 018 400 UE<sub>MFC</sub>. <a id="formula-age-02"></a>
-
-AGE-02. A<sub>i</sub><sup>SV</sup> = 284 018 400·A<sub>i</sub><sup>FC</sup>. <a id="formula-age-03"></a>
-
-AGE-03. Φ<sub>age</sub>(O<sub>i</sub>) = 0. <a id="formula-age-04"></a>
-
-AGE-04. A<sub>i</sub>(λ<sub>i</sub>) = λ<sub>i</sub>F<sub>i</sub>. <a id="formula-age-05"></a>
-
-AGE-05. A<sup>SV</sup>−A<sub>i</sub><sup>SV</sup> = 284 018 400·(A<sup>FC</sup>−A<sub>i</sub><sup>FC</sup>). <a id="formula-res-01"></a>
-
-RES-01. A<sub>Ωobs</sub> = 13 800 000 000 a<sub>J</sub>. <a id="formula-res-02"></a>
-
-RES-02. A<sub>Ωobs</sub><sup>SV</sup> = 3 919 453 920 000 000 000 UE<sub>MFC</sub>. <a id="formula-res-03"></a>
+CEL-01. 𝓢<sub>n</sub> = K<sub>3</sub><sup>n</sup>, n=b², b≥3.CEL-02. T(n)=⌊7n/9⌋.MET-01.1MET-02. 1 s = 9 UE<sub>MFC</sub>.MET-03. 1 a<sub>J</sub> = 284 018 400 UE<sub>MFC</sub>. AGE-02. A<sub>i</sub><sup>SV</sup> = 284 018 400·A<sub>i</sub><sup>FC</sup>. AGE-03. Φ<sub>age</sub>(O<sub>i</sub>) = 0. AGE-04. A<sub>i</sub>(λ<sub>i</sub>) = λ<sub>i</sub>F<sub>i</sub>.AGE-05. A<sup>SV</sup>−A<sub>i</sub><sup>SV</sup> = 284 018 400·(A<sup>FC</sup>−A<sub>i</sub><sup>FC</sup>). RES-01. A<sub>Ωobs</sub> = 13 800 000 000 a<sub>J</sub>. RES-02. A<sub>Ωobs</sub><sup>SV</sup> = 3 919 453 920 000 000 000 UE<sub>MFC</sub>.
 
 RES-03. Edad(𝓣) = NO ADMISIBLE.
 
