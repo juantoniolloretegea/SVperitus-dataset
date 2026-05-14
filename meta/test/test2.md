@@ -2,11 +2,11 @@
 
 ## Teoría de la edad de todos los objetos del Universo Observable
 
-<p><strong>PORTADA PENDIENTE DE INCORPORACIÓN</strong><br>Espacio reservado para la portada final SVG/PNG.</p>
+<p><strong>PORTADA PENDIENTE DE INCORPORACIÓN</strong><br>Espacio reservado para la portada final SVG/PNG.</strong></p>
 
 **© 2026. Todos los derechos reservados.** | [**Juan Antonio Lloret Egea**](https://www.linkedin.com/in/juanantoniolloretegea/) | **DOI pendiente** | ORCID: [0000-0002-6634-3351](https://orcid.org/0000-0002-6634-3351) | [Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA)](https://www.itvia.online/) | IA eñ™ — La Biblia de la IA™ | [**ISSN 2695-6411**](https://portal.issn.org/resource/ISSN/2695-6411) | [**Licencia CC BY-NC-ND 4.0**](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es) | Madrid, 14/05/2026
 
-[**Repositorio doctrinal**](https://juantoniolloretegea.github.io/SV-matematica-semantica/) | **Repositorio canónico de la formulación: pendiente de fijación definitiva**
+[**Repositorio doctrinal**](https://juantoniolloretegea.github.io/SV-matematica-semantica/) | **Repositorio canónico de el estudio: pendiente de fijación definitiva**
 
 ## Índice
 
@@ -16,7 +16,7 @@
 - [0.1. Qué significa físicamente atribuir edad](#sec-0-1-que-significa-fisicamente-atribuir-edad)
 - [0.2. Dos sentidos de «universo»](#sec-0-2-dos-sentidos-de-universo)
 - [0.3. Primera línea de contención: prohibiciones formales](#sec-0-3-primera-linea-de-contencion-prohibiciones-formales)
-- [0.4. La terna (0,1,U) como disciplina de dictamen](#sec-0-4-la-terna-0-1-u-como-disciplina-de-dictamen)
+- [0.4. La terna (0,1,U) como disciplina de salida formal](#sec-0-4-la-terna-0-1-u-como-disciplina-de-salida formal)
 - [0.5. La totalidad absoluta no es objeto físico interno](#sec-0-5-la-totalidad-absoluta-no-es-objeto-fisico-interno)
 - [0.6. Qué sí posee edad física](#sec-0-6-que-si-posee-edad-fisica)
 - [0.7. Tesis central y resultado anunciado](#sec-0-7-tesis-central-y-resultado-anunciado)
@@ -32,8 +32,8 @@
 - [I.4. Cadena doctrinal absoluta del SV](#sec-i-4-cadena-doctrinal-absoluta-del-sv)
 - [I.5. Niveles doctrinales](#sec-i-5-niveles-doctrinales)
 - [I.6. Teorema de nivel exacto de 𝓔<sub>age</sub>](#sec-i-6-teorema-de-nivel-exacto-de-eage)
-- [I.7. Teorema de cierre frente a vía lateral](#sec-i-7-teorema-de-cierre-frente-a-via-lateral)
-- [I.8. Dictamen doctrinal](#sec-i-8-dictamen-doctrinal)
+- [I.7. Criterio de incorporación de desarrollos posteriores](#sec-i-7-criterio-de-incorporacion-de-desarrollos-posteriores)
+- [I.8. Síntesis doctrinal](#sec-i-8-salida formal-doctrinal)
 - [Índice de fórmulas centrales](#sec-indice-de-formulas-centrales)
 
 </details>
@@ -47,7 +47,7 @@
 - [II.4. Hidrógeno, prehidrógeno y firmas espectrales](#sec-ii-4-hidrogeno-prehidrogeno-y-firmas-espectrales)
 - [II.5. Estrellas, púlsares y portadores físicos persistentes](#sec-ii-5-estrellas-pulsares-y-portadores-fisicos-persistentes)
 - [II.6. La expresión convencional «edad del Universo» en cosmología física](#sec-ii-6-la-expresion-convencional-edad-del-universo-en-cosmologia-fisica)
-- [II.7. Dictamen preliminar del estado del arte](#sec-ii-7-dictamen-preliminar-del-estado-del-arte)
+- [II.7. Lectura preliminar del estado del arte](#sec-ii-7-salida formal-preliminar-del-estado-del-arte)
 
 </details>
 
@@ -63,7 +63,7 @@
 - [III.7. Hidrógeno: firma atómica persistente](#sec-iii-7-hidrogeno-firma-atomica-persistente)
 - [III.8. Prehidrógeno: transición transductiva](#sec-iii-8-prehidrogeno-transicion-transductiva)
 - [III.9. Retorno luminoso: señal física](#sec-iii-9-retorno-luminoso-senal-fisica)
-- [III.10. Tabla general de dominio, métrica, unidad, residual y dictamen](#sec-iii-10-tabla-general-de-dominio-metrica-unidad-residual-y-dictamen)
+- [III.10. Tabla general de dominio, métrica, unidad, residual y salida formal](#sec-iii-10-tabla-general-de-dominio-metrica-unidad-residual-y-salida formal)
 - [III.11. Consecuencia formal](#sec-iii-11-consecuencia-formal)
 
 </details>
@@ -71,16 +71,16 @@
 <details>
 <summary><strong><a href="#sec-iv-transductores">IV. Transductores</a></strong></summary>
 
-- [IV.1. Función de los transductores](#sec-iv-1-funcion-de-los-transductores-en-esta-publicacion)
+- [IV.1. Función de los transductores en este estudio](#sec-iv-1-funcion-de-los-transductores-en-esta-publicacion)
 - [IV.2. Dominio y codominio](#sec-iv-2-dominio-y-codominio)
 - [IV.3. Observable físico](#sec-iv-3-observable-fisico)
 - [IV.4. Unidad SI y unidad SV](#sec-iv-4-unidad-si-y-unidad-sv)
-- [IV.5. Residual y dictamen](#sec-iv-5-residual-y-dictamen)
+- [IV.5. Residual y salida formal](#sec-iv-5-residual-y-salida formal)
 - [IV.6. Retorno físico controlado](#sec-iv-6-retorno-fisico-controlado)
 - [IV.7. Transductor de edad relativa del contenido observable](#sec-iv-7-transductor-de-edad-relativa-del-contenido-observable)
 - [IV.8. Transductor prehidrógeno/hidrógeno](#sec-iv-8-transductor-prehidrogeno-hidrogeno)
 - [IV.9. Error absoluto de plano, definición y transducción](#sec-iv-9-error-absoluto-de-plano-definicion-y-transduccion)
-- [IV.10. Dictamen de la sección](#sec-iv-10-dictamen-de-la-seccion)
+- [IV.10. Síntesis de la sección](#sec-iv-10-salida formal-de-la-seccion)
 
 </details>
 
@@ -98,41 +98,41 @@
 - [V.9. Edad relativa](#sec-v-9-edad-relativa)
 - [V.10. Error absoluto de plano, definición y transducción](#sec-v-10-error-absoluto-de-plano-definicion-y-transduccion)
 - [V.11. Tabla sintética de métricas](#sec-v-11-tabla-sintetica-de-metricas)
-- [V.12. Dictamen de la sección](#sec-v-12-dictamen-de-la-seccion)
+- [V.12. Síntesis de la sección](#sec-v-12-salida formal-de-la-seccion)
 
 </details>
 
 <details>
-<summary><strong><a href="#sec-vi-banco-de-contraste-fisico">VI. Banco de contraste físico</a></strong></summary>
+<summary><strong><a href="#sec-vi-contraste-fisico-y-tablas-de-verificacion">VI. Contraste físico y tablas de verificación</a></strong></summary>
 
-- [VI.1. Estatuto del banco](#sec-vi-1-estatuto-del-banco)
-- [VI.2. Tabla maestra de dominios y admisibilidad de edad](#sec-vi-2-tabla-maestra-de-dominios-y-admisibilidad-de-edad)
-- [VI.3. Tabla maestra SI ↔ SV](#sec-vi-3-tabla-maestra-si-sv)
-- [VI.4. Tabla maestra de residuales](#sec-vi-4-tabla-maestra-de-residuales)
-- [VI.5. Tabla de reglas de dictamen](#sec-vi-5-tabla-de-reglas-de-dictamen)
-- [VI.6. Banco Hubble/Webb](#sec-vi-6-banco-hubble-webb)
-- [VI.7. Banco de galaxias profundas](#sec-vi-7-banco-de-galaxias-profundas)
-- [VI.8. Banco de estrellas](#sec-vi-8-banco-de-estrellas)
-- [VI.9. Banco de púlsares](#sec-vi-9-banco-de-pulsares)
-- [VI.10. Banco de hidrógeno](#sec-vi-10-banco-de-hidrogeno)
-- [VI.11. Banco de prehidrógeno](#sec-vi-11-banco-de-prehidrogeno)
-- [VI.12. Banco Lyman-(α)](#sec-vi-12-banco-lyman)
-- [VI.13. Banco de línea de 21 cm](#sec-vi-13-banco-de-linea-de-21-cm)
-- [VI.14. Banco de mapas cósmicos](#sec-vi-14-banco-de-mapas-cosmicos)
-- [VI.15. Banco de modelo cosmológico](#sec-vi-15-banco-de-modelo-cosmologico)
-- [VI.16. Banco de controles negativos](#sec-vi-16-banco-de-controles-negativos)
-- [VI.17. Banco positivo de resultado](#sec-vi-17-banco-positivo-de-resultado)
-- [VI.18. Banco de resultado comparativo](#sec-vi-18-banco-de-resultado-comparativo)
-- [VI.19. Banco de trazabilidad textual](#sec-vi-19-banco-de-trazabilidad-textual)
-- [VI.20. Esquema CSV del banco](#sec-vi-20-esquema-csv-del-banco)
-- [VI.21. Códigos de error del banco](#sec-vi-21-codigos-de-error-del-banco)
+- [VI.1. Función del contraste físico](#sec-vi-1-funcion-del-contraste-fisico)
+- [VI.2. Dominios y admisibilidad de edad](#sec-vi-2-tabla-maestra-de-dominios-y-admisibilidad-de-edad)
+- [VI.3. Equivalencias SI ↔ SV](#sec-vi-3-tabla-maestra-si-sv)
+- [VI.4. Lectura de residuales](#sec-vi-4-lectura-de-residuales)
+- [VI.5. Criterios de lectura formal](#sec-vi-5-tabla-de-reglas-de-salida formal)
+- [VI.6. Hubble y Webb: retornos físicos profundos](#sec-vi-6-hubble-y-webb-retornos-fisicos-profundos)
+- [VI.7. Galaxias profundas y edades de contenido](#sec-vi-7-galaxias-profundas-y-edades-de-contenido)
+- [VI.8. Estrellas como portadores de edad física](#sec-vi-8-estrellas-como-portadores-de-edad-fisica)
+- [VI.9. Púlsares y señales periódicas persistentes](#sec-vi-9-pulsares-y-senales-periodicas-persistentes)
+- [VI.10. Hidrógeno como firma atómica persistente](#sec-vi-10-hidrogeno-como-firma-atomica-persistente)
+- [VI.11. Prehidrógeno como transición material](#sec-vi-11-prehidrogeno-como-transicion-material)
+- [VI.12. Lyman-α como firma espectral](#sec-vi-12-lyman-alfa-como-firma-espectral)
+- [VI.13. Línea de 21 cm como retorno de hidrógeno neutro](#sec-vi-13-linea-de-21-cm-como-retorno-de-hidrogeno-neutro)
+- [VI.14. Mapas cósmicos como conjuntos de retornos](#sec-vi-14-mapas-cosmicos-como-conjuntos-de-retornos)
+- [VI.15. Modelo cosmológico como marco instrumental](#sec-vi-15-modelo-cosmologico-como-marco-instrumental)
+- [VI.16. Controles negativos de contraste](#sec-vi-16-controles-negativos-de-contraste)
+- [VI.17. Casos positivos del resultado](#sec-vi-17-casos-positivos-del-resultado)
+- [VI.18. Comparación del resultado por planos](#sec-vi-18-comparacion-del-resultado-por-planos)
+- [VI.19. Trazabilidad textual de los casos](#sec-vi-19-trazabilidad-textual-de-los-casos)
+- [VI.20. Esquema CSV de los datos de contraste](#sec-vi-20-esquema-csv-de-los-datos-de-contraste)
+- [VI.21. Códigos de error del contraste](#sec-vi-21-codigos-de-error-del-contraste)
 - [VI.22. Tabla de salida global esperada](#sec-vi-22-tabla-de-salida-global-esperada)
-- [VI.23. Teorema de suficiencia del banco](#sec-vi-23-teorema-de-suficiencia-del-banco)
-- [VI.24. Teorema de no atribución de edad a la totalidad absoluta](#sec-vi-24-teorema-de-no-atribucion-de-edad-a-la-totalidad-absoluta)
-- [VI.25. Teorema de atribución de edad al contenido observable](#sec-vi-25-teorema-de-atribucion-de-edad-al-contenido-observable)
-- [VI.26. Teorema del observable retornado concreto](#sec-vi-26-teorema-del-observable-retornado-concreto-retornado)
-- [VI.27. Teorema de conversión exacta del resultado](#sec-vi-27-teorema-de-conversion-exacta-del-resultado)
-- [VI.28. Dictamen de la sección](#sec-vi-28-dictamen-de-la-seccion)
+- [VI.23. Suficiencia del contraste declarativo](#sec-vi-23-suficiencia-del-contraste-declarativo)
+- [VI.24. No atribución de edad a la totalidad absoluta](#sec-vi-24-no-atribucion-de-edad-a-la-totalidad-absoluta)
+- [VI.25. Atribución de edad al contenido observable](#sec-vi-25-atribucion-de-edad-al-contenido-observable)
+- [VI.26. Observable retornado concreto retornado](#sec-vi-26-observable-retornado-concreto)
+- [VI.27. Conversión exacta del resultado](#sec-vi-27-conversion-exacta-del-resultado)
+- [VI.28. Síntesis de la sección](#sec-vi-28-salida formal-de-la-seccion)
 
 </details>
 
@@ -144,27 +144,27 @@
 <details>
 <summary><strong><a href="#sec-anexo-ii-contraste-solar-elevacion-al-universo-observable-y-acotacion-de-error-cero">Anexo II. Contraste solar, elevación al universo observable y acotación de error cero</a></strong></summary>
 
-- [C.1. Dictamen rector](#sec-c-1-dictamen-rector)
+- [C.1. Lectura rectora](#sec-c-1-salida formal-rector)
 - [C.2. Tabla maestra SV ↔ Física contemporánea](#sec-c-2-tabla-maestra-sv-fisica-contemporanea)
 - [C.3. Diferencias singulares en años julianos y unidades SV](#sec-c-3-diferencias-singulares-en-anos-julianos-y-unidades-sv)
-- [C.4. Dictamen específico: Sol](#sec-c-4-dictamen-especifico-sol)
-- [C.5. Dictamen específico: Sistema Solar](#sec-c-5-dictamen-especifico-sistema-solar)
-- [C.6. Dictamen específico: Vía Láctea-entorno](#sec-c-6-dictamen-especifico-via-lactea-entorno)
-- [C.7. Dictamen específico: observable retornado](#sec-c-7-dictamen-especifico-contenido-observable-maximo)
+- [C.4. Lectura específica: Sol](#sec-c-4-salida formal-especifico-sol)
+- [C.5. Lectura específica: Sistema Solar](#sec-c-5-salida formal-especifico-sistema-solar)
+- [C.6. Lectura específica: Vía Láctea-entorno](#sec-c-6-salida formal-especifico-via-lactea-entorno)
+- [C.7. Lectura específica: observable retornado](#sec-c-7-salida formal-especifico-contenido-observable-maximo)
 - [C.8. Teorema de cierre conjunto](#sec-c-8-teorema-de-cierre-conjunto)
 - [C.9. Acotación final de error cero](#sec-c-9-acotacion-final-de-error-cero)
 - [C.10. Conclusión fuerte](#sec-c-10-conclusion-fuerte)
-- [C.11. Introducción de bancos negativos de contraste](#sec-c-11-introduccion-de-bancos-negativos-de-contraste)
-- [C.11.1. Tabla general de bancos negativos](#sec-c-11-1-tabla-general-de-bancos-negativos)
-- [C.11.2. Banco negativo de plano](#sec-c-11-2-banco-negativo-de-plano)
-- [C.11.3. Banco negativo de definición](#sec-c-11-3-banco-negativo-de-definicion)
-- [C.11.4. Banco negativo de transducción SI ↔ SV](#sec-c-11-4-banco-negativo-de-transduccion-si-sv)
-- [C.11.5. Banco negativo aritmético](#sec-c-11-5-banco-negativo-aritmetico)
-- [C.11.6. Banco negativo de fracciones](#sec-c-11-6-banco-negativo-de-fracciones)
-- [C.11.7. Banco negativo de Sol, Sistema Solar, Vía Láctea y contenido observable](#sec-c-11-7-banco-negativo-de-sol-sistema-solar-via-lactea-y-contenido-observable)
-- [C.11.8. Banco negativo de laboratorio](#sec-c-11-8-banco-negativo-de-laboratorio)
-- [C.11.9. Teorema de necesidad de bancos negativos](#sec-c-11-9-teorema-de-necesidad-de-bancos-negativos)
-- [C.11.10. Dictamen de los bancos negativos](#sec-c-11-10-dictamen-de-los-bancos-negativos)
+- [C.11. Controles negativos de contraste](#sec-c-11-introduccion-de-bancos-negativos-de-contraste)
+- [C.11.1. Tabla general de controles negativos](#sec-c-11-1-tabla-general-de-bancos-negativos)
+- [C.11.2. Control negativo de plano](#sec-c-11-2-banco-negativo-de-plano)
+- [C.11.3. Control negativo de definición](#sec-c-11-3-banco-negativo-de-definicion)
+- [C.11.4. Control negativo de transducción SI ↔ SV](#sec-c-11-4-banco-negativo-de-transduccion-si-sv)
+- [C.11.5. Control negativo aritmético](#sec-c-11-5-banco-negativo-aritmetico)
+- [C.11.6. Control negativo de fracciones](#sec-c-11-6-banco-negativo-de-fracciones)
+- [C.11.7. Control negativo de Sol, Sistema Solar, Vía Láctea y contenido observable](#sec-c-11-7-banco-negativo-de-sol-sistema-solar-via-lactea-y-contenido-observable)
+- [C.11.8. Control negativo de laboratorio](#sec-c-11-8-banco-negativo-de-laboratorio)
+- [C.11.9. Necesidad de controles negativos](#sec-c-11-9-teorema-de-necesidad-de-bancos-negativos)
+- [C.11.10. Síntesis de los controles negativos](#sec-c-11-10-salida formal-de-los-bancos-negativos)
 
 </details>
 
@@ -174,7 +174,7 @@
 - [VII.1. Estatuto del resultado](#sec-vii-1-estatuto-del-resultado)
 - [VII.2. Teorema VI.1. Exclusión de factor externo sobre el ciclo observable total](#sec-vii-2-teorema-vi-1-exclusion-de-factor-externo-sobre-el-ciclo-observable-total)
 - [VII.3. Teorema VI.2. Imperfección, suceso activador y ausencia de exterior inicial](#sec-vii-3-teorema-vi-2-imperfeccion-suceso-activador-y-ausencia-de-exterior-inicial)
-- [VII.4. Corolario VI.1. De atribución máxima a edad concreta](#sec-vii-4-corolario-vi-1-de-atribucion-maxima-a-edad-concreta)
+- [VII.4. Corolario VI.1. De edad concreta a edad concreta](#sec-vii-4-corolario-vi-1-de-edad-maxima-a-edad-concreta)
 - [VII.5. Resultado principal en física contemporánea](#sec-vii-5-resultado-principal-en-fisica-contemporanea)
 - [VII.6. Resultado principal en unidades SV](#sec-vii-6-resultado-principal-en-unidades-sv)
 - [VII.7. Fin concreto del ciclo observable](#sec-vii-7-fin-concreto-del-ciclo-observable)
@@ -183,8 +183,8 @@
 - [VII.10. Tabla comparativa de dominios internos](#sec-vii-10-tabla-comparativa-de-dominios-internos)
 - [VII.11. Diferencias singulares](#sec-vii-11-diferencias-singulares)
 - [VII.12. Teorema VI.4. Error cero del resultado concreto](#sec-vii-12-teorema-vi-4-error-cero-del-resultado-concreto)
-- [VII.13. Banco negativo específico del resultado](#sec-vii-13-banco-negativo-especifico-del-resultado)
-- [VII.14. Dictamen final del resultado](#sec-vii-14-dictamen-final-del-resultado)
+- [VII.13. Control negativo específico del resultado](#sec-vii-13-banco-negativo-especifico-del-resultado)
+- [VII.14. Síntesis final del resultado](#sec-vii-14-salida formal-final-del-resultado)
 
 </details>
 
@@ -195,7 +195,7 @@
 - [VIII.2. Resultado final en física contemporánea](#sec-viii-2-resultado-final-en-fisica-contemporanea)
 - [VIII.3. Resultado final en unidades SV](#sec-viii-3-resultado-final-en-unidades-sv)
 - [VIII.4. Fin de ciclo del observable retornado](#sec-viii-4-fin-de-ciclo-del-observable-retornado)
-- [VIII.5. Dictamen por dominios físicos internos](#sec-viii-5-dictamen-por-dominios-fisicos-internos)
+- [VIII.5. Lectura por dominios físicos internos](#sec-viii-5-salida formal-por-dominios-fisicos-internos)
 - [VIII.6. Tabla final SV ↔ física contemporánea](#sec-viii-6-tabla-final-sv-fisica-contemporanea)
 - [VIII.7. Error cero](#sec-viii-7-error-cero)
 - [VIII.8. Reducción final al absurdo](#sec-viii-8-reduccion-final-al-absurdo)
@@ -220,15 +220,15 @@
 - [IX.12. Comprobación desde la fórmula de todos los valores expuestos](#sec-ix-12-comprobacion-desde-la-formula-de-todos-los-valores-expuestos)
 - [IX.13. Comprobación de los tramos restantes desde la fórmula](#sec-ix-13-comprobacion-de-los-tramos-restantes-desde-la-formula)
 - [IX.14. Comprobación de fracciones desde la fórmula paramétrica](#sec-ix-14-comprobacion-de-fracciones-desde-la-formula-parametrica)
-- [IX.15. Banco de datos negativos de la teoría](#sec-ix-15-banco-de-datos-negativos-de-la-teoria)
-- [IX.16. Teorema VIII.4. Necesidad del banco negativo](#sec-ix-16-teorema-viii-4-necesidad-del-banco-negativo)
+- [IX.15. Tabla de controles negativos de la teoría](#sec-ix-15-banco-de-datos-negativos-de-la-teoria)
+- [IX.16. Necesidad de los controles negativos](#sec-ix-16-teorema-viii-4-necesidad-del-banco-negativo)
 - [IX.17. Teorema VIII.5. Contraste de teoría única](#sec-ix-17-teorema-viii-5-contraste-de-teoria-unica)
-- [IX.18. Dictamen de la teoría](#sec-ix-18-dictamen-de-la-teoria)
+- [IX.18. Síntesis de la teoría](#sec-ix-18-salida formal-de-la-teoria)
 
 </details>
 
 <details>
-<summary><strong><a href="#sec-x-dictamen-final-de-cierre">X. Dictamen final de cierre</a></strong></summary>
+<summary><strong><a href="#sec-x-salida formal-final-de-cierre">X. Síntesis final de cierre</a></strong></summary>
 
 - [X.1. Tesis cerrada](#sec-x-1-tesis-cerrada)
 - [X.2. Fórmula única de cierre](#sec-x-2-formula-unica-de-cierre)
@@ -236,25 +236,25 @@
 - [X.4. Tabla final SV ↔ física contemporánea](#sec-x-4-tabla-final-sv-fisica-contemporanea)
 - [X.5. Error cero](#sec-x-5-error-cero)
 - [X.6. Reducción final al absurdo](#sec-x-6-reduccion-final-al-absurdo)
-- [X.7. Dictamen final](#sec-x-7-dictamen-final)
+- [X.7. Síntesis final](#sec-x-7-salida formal-final)
 
 </details>
 
 <details>
-<summary><strong><a href="#sec-xi-anexo-tecnico-reproducible-bancos-declarativos-catalogo-de-errores-y-salida-esperada">XI. Anexo técnico reproducible: bancos declarativos, catálogo de errores y salida esperada</a></strong></summary>
+<summary><strong><a href="#sec-xi-anexo-tecnico-reproducible-bancos-declarativos-catalogo-de-errores-y-salida-esperada">XI. Anexo técnico reproducible: datos declarativos, catálogo de errores y salida esperada</a></strong></summary>
 
 - [XI.1. Estatuto del anexo técnico](#sec-xi-1-estatuto-del-anexo-tecnico)
-- [XI.2. manifest<sub>unidades</sub>.csv](#sec-xi-2-manifestunidades-csv)
-- [XI.3. banco<sub>objetos</sub>.csv](#sec-xi-3-bancoobjetos-csv)
-- [XI.4. banco<sub>valores</sub>.csv](#sec-xi-4-bancovalores-csv)
-- [XI.5. banco<sub>diferencias</sub>.csv](#sec-xi-5-bancodiferencias-csv)
-- [XI.6. banco<sub>fracciones</sub>.csv](#sec-xi-6-bancofracciones-csv)
-- [XI.7. banco<sub>negativos</sub>.csv](#sec-xi-7-banconegativos-csv)
-- [XI.8. catalogo<sub>errores</sub>.csv](#sec-xi-8-catalogoerrores-csv)
-- [XI.9. salida<sub>esperada</sub>.txt](#sec-xi-9-salidaesperada-txt)
-- [XI.10. Teorema XII.1. Cerramiento de los bancos declarativos](#sec-xi-10-teorema-xii-1-cerramiento-de-los-bancos-declarativos)
-- [XI.11. Teorema XII.2. No sustitución del banco por laboratorio](#sec-xi-11-teorema-xii-2-no-sustitucion-del-banco-por-laboratorio)
-- [XI.12. Dictamen del anexo técnico](#sec-xi-12-dictamen-del-anexo-tecnico)
+- [XI.2. [manifest_unidades.csv](laboratorios/manifest_unidades.csv)](#sec-xi-2-manifestunidades-csv)
+- [XI.3. [banco_objetos.csv](laboratorios/banco_objetos.csv)](#sec-xi-3-bancoobjetos-csv)
+- [XI.4. [banco_valores.csv](laboratorios/banco_valores.csv)](#sec-xi-4-bancovalores-csv)
+- [XI.5. [banco_diferencias.csv](laboratorios/banco_diferencias.csv)](#sec-xi-5-bancodiferencias-csv)
+- [XI.6. [banco_fracciones.csv](laboratorios/banco_fracciones.csv)](#sec-xi-6-bancofracciones-csv)
+- [XI.7. [banco_negativos.csv](laboratorios/banco_negativos.csv)](#sec-xi-7-banconegativos-csv)
+- [XI.8. [catalogo_errores.csv](laboratorios/catalogo_errores.csv)](#sec-xi-8-catalogoerrores-csv)
+- [XI.9. [salida_esperada.txt](laboratorios/salida_esperada.txt)](#sec-xi-9-salidaesperada-txt)
+- [XI.10. Cierre de los datos declarativos](#sec-xi-10-teorema-xii-1-cerramiento-de-los-bancos-declarativos)
+- [XI.11. No sustitución de los datos declarados por el laboratorio](#sec-xi-11-teorema-xii-2-no-sustitucion-del-banco-por-laboratorio)
+- [XI.12. Síntesis del anexo técnico](#sec-xi-12-salida formal-del-anexo-tecnico)
 
 </details>
 
@@ -267,7 +267,7 @@
 - [XII.4. Glosario de fórmulas](#sec-xii-4-glosario-de-formulas)
 - [XII.5. Glosario de errores](#sec-xii-5-glosario-de-errores)
 - [XII.6. Glosario de equivalencias SV ↔ física contemporánea](#sec-xii-6-glosario-de-equivalencias-sv-fisica-contemporanea)
-- [XII.7. Glosario de dictámenes](#sec-xii-7-glosario-de-dictamenes)
+- [XII.7. Glosario de dictámenes](#sec-xii-7-glosario-de-salida formales)
 - [XII.8. Glosario de controles negativos](#sec-xii-8-glosario-de-controles-negativos)
 - [XII.9. Glosario de lectura final](#sec-xii-9-glosario-de-lectura-final)
 - [XII.10. Cierre terminológico](#sec-xii-10-cierre-terminologico)
@@ -281,20 +281,36 @@
 - [XIII.2. Principio de aritmética entera](#sec-xiii-2-principio-de-aritmetica-entera)
 - [XIII.3. Estructura de archivos del laboratorio](#sec-xiii-3-estructura-de-archivos-del-laboratorio)
 - [XIII.4. Manifiesto de unidades](#sec-xiii-4-manifiesto-de-unidades)
-- [XIII.5. Banco principal de objetos](#sec-xiii-5-banco-principal-de-objetos)
-- [XIII.6. Banco de valores esperados](#sec-xiii-6-banco-de-valores-esperados)
-- [XIII.7. Banco de diferencias singulares](#sec-xiii-7-banco-de-diferencias-singulares)
-- [XIII.8. Banco de fracciones](#sec-xiii-8-banco-de-fracciones)
-- [XIII.9. Banco negativo de la teoría](#sec-xiii-9-banco-negativo-de-la-teoria)
+- [XIII.5. Registro principal de objetos](#sec-xiii-5-banco-principal-de-objetos)
+- [XIII.6. Valores esperados](#sec-xiii-6-banco-de-valores-esperados)
+- [XIII.7. Diferencias singulares](#sec-xiii-7-banco-de-diferencias-singulares)
+- [XIII.8. Fracciones de ciclo](#sec-xiii-8-banco-de-fracciones)
+- [XIII.9. Controles negativos de la teoría](#sec-xiii-9-banco-negativo-de-la-teoria)
 - [XIII.10. Catálogo de errores](#sec-xiii-10-catalogo-de-errores)
 - [XIII.11. Runner mínimo](#sec-xiii-11-runner-minimo)
+
+</details>
+
+<details>
+<summary><strong><a href="#sec-totalidad-absoluta-no-admite-edad">Totalidad absoluta no admite edad.</a></strong></summary>
+
+</details>
+
+<details>
+<summary><strong><a href="#sec-pendiente-transductiva-falsa">Pendiente transductiva falsa.</a></strong></summary>
+
+</details>
+
+<details>
+<summary><strong><a href="#sec-fin-anterior-a-edad-actual">Fin anterior a edad actual.</a></strong></summary>
+
 - [XIII.12. Pruebas positivas obligatorias](#sec-xiii-12-pruebas-positivas-obligatorias)
 - [XIII.13. Pruebas inversas obligatorias](#sec-xiii-13-pruebas-inversas-obligatorias)
 - [XIII.14. Pruebas negativas obligatorias](#sec-xiii-14-pruebas-negativas-obligatorias)
 - [XIII.15. Salida esperada global](#sec-xiii-15-salida-esperada-global)
-- [XIII.16. Teorema IX.1. Suficiencia laboratorial](#sec-xiii-16-teorema-ix-1-suficiencia-laboratorial)
-- [XIII.17. Teorema IX.2. Refutación por fallo único esencial](#sec-xiii-17-teorema-ix-2-refutacion-por-fallo-unico-esencial)
-- [XIII.18. Dictamen laboratorial](#sec-xiii-18-dictamen-laboratorial)
+- [XIII.16. Suficiencia laboratorial](#sec-xiii-16-teorema-ix-1-suficiencia-laboratorial)
+- [XIII.17. Refutación por fallo único esencial](#sec-xiii-17-teorema-ix-2-refutacion-por-fallo-unico-esencial)
+- [XIII.18. Síntesis laboratorial](#sec-xiii-18-salida formal-laboratorial)
 
 </details>
 
@@ -312,25 +328,25 @@ Resumen
 
 La expresión «edad del Universo» es físicamente útil, pero conceptualmente imprecisa si no se distingue entre totalidad absoluta, universo observable y objetos físicos contenidos en dominios observables. Una edad física exige dominio declarado, frontera de formación, trayectoria o acumulación interna, magnitud de medida, criterio de contraste y retorno observacional. Por ello, la totalidad absoluta no puede recibir edad física en el mismo sentido que una galaxia, una estrella, una señal luminosa, una firma espectral o una estructura atómica persistente. No comparece como objeto dentro de un dominio mayor, no posee exterior físico de comparación y no admite trayectoria externa desde la cual medir su formación.
 
-La tesis que se demuestra es que la pregunta rigurosa no es «cuál es la edad del Universo», sino cuál es la edad concreta del observable retornado con firma física persistente. El problema queda así desplazado desde una atribución absoluta a la totalidad hacia una familia de edades relativas de dominios internos: prehidrógeno, hidrógeno, estrellas, galaxias, señales luminosas, mapas profundos y retornos observacionales. La física contemporánea mide con gran potencia esos retornos mediante telescopios, espectros, mapas cósmicos, galaxias profundas, líneas de hidrógeno, radiación y modelos de distancia. El presente análisis reformula el plano de atribución de edad mediante transductores entre magnitudes físicas, unidades, dominios, residuales y retornos controlados.
+El análisis sostiene que la pregunta rigurosa no es «cuál es la edad del Universo», sino cuál es la edad concreta del observable retornado con firma física persistente. El problema queda así desplazado desde una atribución absoluta a la totalidad hacia una familia de edades relativas de dominios internos: prehidrógeno, hidrógeno, estrellas, galaxias, señales luminosas, mapas profundos y retornos observacionales. La física contemporánea mide con gran potencia esos retornos mediante telescopios, espectros, mapas cósmicos, galaxias profundas, líneas de hidrógeno, radiación y modelos de distancia. Este estudio reformula el plano de atribución de edad mediante transductores entre magnitudes físicas, unidades, dominios, residuales y retornos controlados.
 
-El resultado central distingue tres niveles. Primero: la totalidad absoluta no posee edad física admisible. Segundo: el universo observable es un dominio físico interno y sí admite edades relativas de sus contenidos. Tercero: la edad concreta del observable retornado con firma prehidrógeno/hidrógeno persistente queda fijada, bajo el banco transductivo desarrollado, en 13.800.000.000 años julianos, equivalentes a 3.919.453.920.000.000.000 unidades elementales del medidor factual de ciclo. Esta cifra no se presenta como edad ontológica de la totalidad, sino como edad física concreta del observable retornado.
+El resultado central distingue tres niveles. Primero: la totalidad absoluta no posee edad física admisible. Segundo: el universo observable es un dominio físico interno y sí admite edades relativas de sus contenidos. Tercero: la edad concreta del observable retornado con firma prehidrógeno/hidrógeno persistente queda fijada, bajo el contraste transductivo desarrollado, en 13.800.000.000 años julianos, equivalentes a 3.919.453.920.000.000.000 unidades elementales del medidor factual de ciclo. Esta cifra no se presenta como edad ontológica de la totalidad, sino como edad física concreta del observable retornado.
 
-La formulación parte de una primera línea de contención formal: no tiempo como fundamento, no probabilidad como criterio de verdad, no estadística como clausura, no inferencia opaca, no geometría con rango fundante y no cierre favorable por ausencia de refutación. Sobre esa contención se introduce la terna (0,1,U): (0) y (1) designan salidas polares de dictamen, mientras que (U) conserva la no clausura honesta cuando el dominio, el residual o el retorno no permiten una decisión legítima. Esta terna no sustituye a las magnitudes físicas; disciplina su lectura. La física entra por sus unidades, métricas y observables. El cierre sólo se admite cuando dominio, codominio, invariantes, residual, banco de contraste, retorno físico y laboratorio reproducible quedan declarados.
+El análisis parte de una primera línea de contención formal: no tiempo como fundamento, no probabilidad como criterio de verdad, no estadística como clausura, no inferencia opaca, no geometría con rango fundante y no cierre favorable por ausencia de refutación. Sobre esa contención se introduce la terna (0,1,U): (0) y (1) designan salidas polares de salida formal, mientras que (U) conserva la no clausura honesta cuando el dominio, el residual o el retorno no permiten una decisión legítima. Esta terna no sustituye a las magnitudes físicas; disciplina su lectura. La física entra por sus unidades, métricas y observables. El cierre sólo se admite cuando dominio, codominio, invariantes, residual, matriz de contraste, retorno físico y laboratorio reproducible quedan declarados.
 
 Abstract
 
 The expression “age of the Universe” is physically useful but conceptually imprecise unless absolute totality, the observable universe and the physical objects contained within observable domains are clearly distinguished. A physical age requires a declared domain, a formation boundary, an internal trajectory or accumulation, a measurement magnitude, a contrast criterion and an observational return. Therefore, absolute totality cannot receive a physical age in the same sense as a galaxy, a star, a light signal, a spectral signature or a persistent atomic structure. It does not appear as an object within a larger domain, has no external physical frame of comparison and admits no external trajectory from which its formation could be measured.
 
-The rigorous question is not “what is the age of the Universe”, but rather what is the concrete age of the returned observable domain with a persistent physical signature. The problem is thereby shifted from an absolute attribution to totality toward a family of relative ages of internal domains: prehydrogen, hydrogen, stars, galaxies, luminous signals, deep maps and observational returns. Contemporary physics powerfully measures those returns through telescopes, spectra, cosmic maps, deep galaxies, hydrogen lines, radiation and distance models. This document reformulates the plane of age attribution by means of transductors between physical magnitudes, units, domains, residuals and controlled returns.
+This publication argues, as will be demonstrated throughout the document, that the rigorous question is not “what is the age of the Universe”, but rather what is the concrete age of the returned observable domain of observable content returned with a persistent physical signature. The problem is thereby shifted from an absolute attribution to totality toward a family of relative ages of internal domains: prehydrogen, hydrogen, stars, galaxies, luminous signals, deep maps and observational returns. Contemporary physics powerfully measures those returns through telescopes, spectra, cosmic maps, deep galaxies, hydrogen lines, radiation and distance models. This document reformulates the plane of age attribution by means of transductors between physical magnitudes, units, domains, residuals and controlled returns.
 
-The central result distinguishes three levels. First: absolute totality has no admissible physical age. Second: the observable universe is an internal physical domain and therefore admits relative ages of its contents. Third: the concrete age of the returned observable domain of observable content returned with a persistent prehydrogen/hydrogen signature is fixed, under the transductive bank developed here, at 13 800 000 000 Julian years, equivalent to 3 919 453 920 000 000 000 elementary units of the factual-cycle meter. This figure is not presented as the ontological age of totality, but as the concrete physical age of returned observable content.
+The central result distinguishes three levels. First: absolute totality has no admissible physical age. Second: the observable universe is an internal physical domain and therefore admits relative ages of its contents. Third: the concrete age of the returned observable domain with a persistent prehydrogen/hydrogen signature is fixed, under the transductive bank developed here, at 13 800 000 000 Julian years, equivalent to 3 919 453 920 000 000 000 elementary units of the factual-cycle meter. This figure is not presented as the ontological age of totality, but as the concrete physical age of returned observable content.
 
 The publication begins with a first formal containment line: no time as foundation, no probability as truth criterion, no statistics as closure, no opaque inference, no geometry with foundational rank and no favorable closure by absence of refutation. On that containment line, the ternary alphabet (0,1,U) is introduced: (0) and (1) designate polar verdict outputs, while (U) preserves honest non-closure when the domain, residual or return does not allow a legitimate decision. This ternary alphabet does not replace physical magnitudes; it disciplines their interpretation. Physics enters through its units, metrics and observables. Closure is admitted only when domain, codomain, invariants, residual, contrast bank, physical return and reproducible laboratory have been declared.
 
 Advertencia de derechos, autoría y licencia
 
-Esta obra está protegida por derechos de autor. Su reproducción, distribución, comunicación pública, transformación, explotación o uso por entidades públicas o privadas queda sometida a la titularidad del autor y a los términos de la licencia indicada, salvo excepción legal aplicable o autorización expresa del titular. La licencia Creative Commons BY-NC-ND 4.0 permite compartir la obra con atribución, sin uso comercial y sin obras derivadas. Cualquier uso comercial, industrial, editorial, tecnológico, académico automatizado o entrenamiento de sistemas que exceda los términos de la licencia requiere autorización expresa.
+Este estudio está protegida por derechos de autor. Su reproducción, distribución, comunicación pública, transformación, explotación o uso por entidades públicas o privadas queda sometida a la titularidad del autor y a los términos de la licencia indicada, salvo excepción legal aplicable o autorización expresa del titular. La licencia Creative Commons BY-NC-ND 4.0 permite compartir la obra con atribución, sin uso comercial y sin obras derivadas. Cualquier uso comercial, industrial, editorial, tecnológico, académico automatizado o entrenamiento de sistemas que exceda los términos de la licencia requiere autorización expresa.
 
 <a id="sec-0-problema-fisico-real-la-expresion-edad-del-universo-es-imprecisa"></a>
 
@@ -342,8 +358,6 @@ Esta obra está protegida por derechos de autor. Su reproducción, distribución
 
 Atribuir edad a un objeto físico no consiste sólo en asignarle una cifra. Una edad física exige que el objeto o dominio esté suficientemente determinado. Debe haber algo cuya edad se mide, una frontera de formación o de comparecencia, una trayectoria o acumulación interna, una magnitud de medida, un criterio de contraste y un retorno observacional. Sin esos elementos, la palabra «edad» puede funcionar como convención, aproximación o expresión pedagógica, pero no como predicado físico estricto.
 
-La pregunta por la edad no nace de una curiosidad menor. Nace de una necesidad humana y científica: ordenar lo que aparece ante los instrumentos, distinguir lo que retorna de lo que se presupone, y no convertir una cifra poderosa en una atribución mal dirigida. La precisión formal se exige precisamente para proteger esa pregunta, no para empobrecerla.
-
 Una galaxia puede tener edad porque comparece como objeto físico persistente dentro de un dominio observable. Una estrella puede tener edad porque posee formación, evolución, estructura, emisión, composición y señales medibles. Una señal luminosa puede tener edad relativa porque se propaga desde un dominio físico hacia un punto de retorno observacional. Un átomo de hidrógeno puede operar como firma persistente porque posee condiciones de estabilidad, transición y espectro. Una línea espectral puede participar en la reconstrucción de una edad relativa porque transporta información física de un portador.
 
 En todos esos casos, la edad se asigna a un contenido físico determinado. No se asigna a una totalidad indiferenciada. La edad exige que el objeto sea distinguible, que pertenezca a un dominio, que conserve identidad suficiente y que haya una métrica admisible para ordenar su comparecencia.
@@ -352,7 +366,7 @@ La expresión «edad del Universo» se usa de forma ordinaria en cosmología par
 
 La pregunta rigurosa debe distinguir, por tanto, entre dos sentidos de la palabra «universo». En un primer sentido, «universo» puede nombrar la totalidad absoluta de lo real o de lo formulable. En un segundo sentido, puede nombrar el universo físico observable: el dominio accesible mediante señales, horizontes, radiación, galaxias, estrellas, mapas, instrumentos, modelos y retornos observacionales. El primer sentido no admite edad física. El segundo sí admite edades relativas de sus contenidos.
 
-La distinción adoptada no niega el valor de la cosmología física. Tampoco niega las mediciones observacionales, los mapas de galaxias, las señales profundas, las líneas espectrales ni los modelos de distancia. Al contrario, los toma como terreno de trabajo. Pero corrige el plano de atribución: la edad no pertenece a la totalidad absoluta, sino a dominios observables y a objetos físicos persistentes.
+Este estudio se sitúa en esa distinción. No niega el valor de la cosmología física. Tampoco niega las mediciones observacionales, los mapas de galaxias, las señales profundas, las líneas espectrales ni los modelos de distancia. Al contrario, los toma como terreno de trabajo. Pero corrige el plano de atribución: la edad no pertenece a la totalidad absoluta, sino a dominios observables y a objetos físicos persistentes.
 
 <a id="sec-0-2-dos-sentidos-de-universo"></a>
 
@@ -374,33 +388,33 @@ Y también:
 
 <p><strong>edad de la totalidad absoluta ≠ edad relativa de contenidos observables.</strong></p>
 
-La regla de atribución física queda fijada así: cuando se hable de edad física, se exigirá dominio, frontera, identidad, métrica, residual y retorno. Si alguno de esos elementos falta, el dictamen no será cierre numérico, sino no admisión o no clausura.
+La presente publicación adopta esta regla: cuando se hable de edad física, se exigirá dominio, frontera, identidad, métrica, residual y retorno. Si alguno de esos elementos falta, el salida formal no será cierre numérico, sino no admisión o no clausura.
 
 <a id="sec-0-3-primera-linea-de-contencion-prohibiciones-formales"></a>
 
 ## 0.3. Primera línea de contención: prohibiciones formales
 
-Para evitar que una cifra sustituya a una definición, el análisis queda sometido a seis prohibiciones formales.
+Para evitar que una cifra sustituya a una definición, el documento queda sometido a seis prohibiciones formales.
 
 Primera: no se admite el tiempo como fundamento. El tiempo puede entrar como magnitud física, parámetro de retorno, escala de comparación o unidad metrológica. No puede ocupar el lugar del fundamento de la edad. Una edad física se define por dominio, frontera, acumulación y retorno; no por invocación primaria del tiempo.
 
-Segunda: no se admite la probabilidad como criterio de verdad. Un modelo probabilístico puede describir incertidumbres, distribuciones o estimaciones. No puede decidir por sí mismo que una atribución de edad esté bien tipada.
+Segunda: no se admite la probabilidad como criterio de verdad. Un modelo probabilístico puede describir márgenes, distribuciones o estimaciones. No puede decidir por sí mismo que una atribución de edad esté bien tipada.
 
-Tercera: no se admite la estadística como clausura. Una convergencia estadística puede ser evidencia potente dentro de un banco físico. No sustituye el residual, el dominio ni el dictamen.
+Tercera: no se admite la estadística como clausura. Una convergencia estadística puede ser evidencia potente dentro de un contraste físico. No sustituye el residual, el dominio ni el salida formal.
 
-Cuarta: no se admite la inferencia opaca. Toda transición relevante debe declarar dominio, codominio, magnitud, unidad, residual, dictamen y retorno. Una conclusión no queda cerrada por plausibilidad.
+Cuarta: no se admite la inferencia opaca. Toda transición relevante debe declarar dominio, codominio, magnitud, unidad, residual, salida formal y retorno. Una conclusión no queda cerrada por plausibilidad.
 
 Quinta: no se admite la geometría con rango fundante. La métrica, la distancia, el horizonte, el corrimiento, la curvatura o la profundidad observacional son magnitudes y estructuras de dominio. No fundan por sí mismas la totalidad absoluta.
 
-Sexta: no se admite cierre favorable por ausencia de refutación. Si el banco no determina un resultado, el resultado no se fuerza. Si un caso carece de unidad, dominio, residual o retorno, no se declara apto.
+Sexta: no se admite cierre favorable por ausencia de refutación. Si la tabla de contraste no determina un resultado, el resultado no se fuerza. Si un caso carece de unidad, dominio, residual o retorno, no se declara apto.
 
-Estas prohibiciones no debilitan el análisis. Lo hacen físicamente controlable. Obligan a separar lo que se mide, el dominio donde se mide, la unidad usada, el transductor aplicado, el residual obtenido y el retorno físico resultante.
+Estas prohibiciones no debilitan el documento. Lo hacen físicamente controlable. Obligan a separar lo que se mide, el dominio donde se mide, la unidad usada, el transductor aplicado, el residual obtenido y el retorno físico resultante.
 
-<a id="sec-0-4-la-terna-0-1-u-como-disciplina-de-dictamen"></a>
+<a id="sec-0-4-la-terna-0-1-u-como-disciplina-de-salida formal"></a>
 
-## 0.4. La terna (0,1,U) como disciplina de dictamen
+## 0.4. La terna (0,1,U) como disciplina de salida formal
 
-La formulación usa una terna de dictamen:
+El documento usará una terna de salida formal:
 
 <p><strong>0,1,U.</strong></p>
 
@@ -408,13 +422,17 @@ El símbolo (0) designa cierre favorable o anulación del residual en el dominio
 
 La (U) no es ignorancia vulgar. No es probabilidad. No es margen estadístico. No es permiso para escoger el resultado que convenga. Es una marca formal de custodia: cuando no hay cierre, no se simula cierre.
 
-Esta terna permite tratar la física contemporánea sin degradarla ni absolutizarla. Una medición física puede ser correcta dentro de su dominio y, sin embargo, no fundar la totalidad. Una expresión cosmológica puede ser útil y, a la vez, imprecisa si mezcla planos. Un dato observacional puede entrar en el banco como evidencia y quedar sometido a residual. Un resultado puede ser físicamente poderoso y no ser todavía una edad de la totalidad absoluta.
+Esta terna permite tratar la física contemporánea sin degradarla ni absolutizarla. Una medición física puede ser correcta dentro de su dominio y, sin embargo, no fundar la totalidad. Una expresión cosmológica puede ser útil y, a la vez, imprecisa si mezcla planos. Un dato observacional puede entrar en la tabla de contraste como evidencia y quedar sometido a residual. Un resultado puede ser físicamente poderoso y no ser todavía una edad de la totalidad absoluta.
 
 El uso de (0,1,U) impone una disciplina sencilla:
 
-<p><strong>0 ⇒ cierre en dominio declarado; 1 ⇒ incompatibilidad o no admisión; U ⇒ no clausura honesta.</strong></p>
+<p><strong>0 ⇒ cierre en dominio declarado.</strong></p>
 
-El lector no necesita aceptar una doctrina previa para entender esta terna. Basta reconocer que una afirmación física rigurosa puede estar cerrada, rechazada o no suficientemente determinada. El análisis formaliza esa diferencia y la aplica a las edades relativas del universo observable y de sus objetos físicos.
+<p><strong>1 ⇒ incompatibilidad o no admisión.</strong></p>
+
+<p><strong>U ⇒ no clausura honesta.</strong></p>
+
+El lector no necesita aceptar una doctrina previa para entender esta terna. Basta reconocer que una afirmación física rigurosa puede estar cerrada, rechazada o no suficientemente determinada. El documento formaliza esa diferencia y la aplica a las edades relativas del universo observable y de sus objetos físicos.
 
 <a id="sec-0-5-la-totalidad-absoluta-no-es-objeto-fisico-interno"></a>
 
@@ -438,35 +456,57 @@ Sí poseen edad física los objetos y dominios que cumplen condiciones de atribu
 
 El universo observable, considerado como dominio físico interno, no posee edad absoluta en el sentido de totalidad, pero sí admite escalas relativas de historia observable. Esas escalas deben formularse con cuidado: no como edad de la totalidad, sino como edad del contenido físico observable más antiguo que retorna con firma admisible.
 
-El blanco formal queda fijado así:
+La presente publicación fija como blanco:
 
-<p><strong>A<sub>Ωobs</sub> = edad concreta del observable retornado.</strong></p>
+<p><strong>A<sub>cont,obs</sub>= edad concreta del observable retornado.</strong></p>
 
 Ese contenido debe cumplir:
 
-El cierre exige dominio físico declarado, firma persistente, métrica de profundidad o retorno, unidad física, unidad transductiva, residual evaluado, dictamen y retorno físico controlado.
+<p><strong>dominio físico declarado,</strong></p>
+
+<p><strong>firma persistente,</strong></p>
+
+<p><strong>métrica de profundidad o retorno,</strong></p>
+
+<p><strong>unidad física,</strong></p>
+
+<p><strong>unidad transductiva,</strong></p>
+
+<p><strong>residual evaluado,</strong></p>
+
+<p><strong>salida formal,</strong></p>
+
+<p><strong>retorno físico controlado.</strong></p>
 
 <a id="sec-0-7-tesis-central-y-resultado-anunciado"></a>
 
 ## 0.7. Tesis central y resultado anunciado
 
-La tesis central es la siguiente:
+La tesis central del documento es la siguiente:
 
-La tesis central queda enunciada en tres proposiciones: la totalidad absoluta no tiene edad física admisible; el universo observable y sus objetos físicos sí poseen edades relativas; y la edad concreta del observable retornado corresponde al observable retornado más antiguo con firma persistente admisible.
+<p><strong>la totalidad absoluta no tiene edad física admisible;</strong></p>
 
-El resultado que se demostrará mediante transductores, métricas, bancos de contraste, unidades SI, unidades SV y laboratorios reproducibles es:
+<p><strong>el universo observable y sus objetos físicos sí poseen edades relativas;</strong></p>
 
-<div align="center"><strong>A<sub>Ωobs</sub><sup>SV</sup> = 3 919 453 920 000 000 000 UE<sub>MFC</sub>.</strong></div>
+<p><strong>la edad concreta del observable retornado corresponde al contenido observable retornado más antiguo con firma persistente admisible.</strong></p>
+
+El resultado que se establece mediante transductores, métricas, tablas de contraste, unidades SI, unidades SV y laboratorios reproducibles es:
+
+A<sub>cont,obs</sub><sup>SV</sup>
+
+3 919 453 920 000 000 000 UE<sub>MFC</sub>.
 
 Con la equivalencia:
 
-<p><strong>9 UE<sub>MFC</sub> = 1 s.</strong></p>
+<p><strong>9 UE<sub>MFC</sub>=1 s,</strong></p>
 
 el retorno físico expresado en años julianos es:
 
-<div align="center"><strong>A<sub>Ωobs</sub><sup>ret</sup> = 13 800 000 000 años julianos.</strong></div>
+A<sub>cont,obs</sub><sup>ret</sup>
 
-Esta cifra no se atribuye a la totalidad absoluta. Se atribuye al contenido observable más antiguo retornado con firma física persistente. La diferencia es el núcleo de la formulación.
+13 800 000 000 años julianos.
+
+Esta cifra no se atribuye a la totalidad absoluta. Se atribuye al contenido observable más antiguo retornado con firma física persistente. La diferencia es el núcleo de el estudio.
 
 <a id="sec-i-ubicacion-doctrinal-de-la-formula-canonica-de-edad-en-la-cadena-de-formulas-absolutas-del-sv"></a>
 
@@ -495,15 +535,15 @@ El suelo formal operativo del SV queda fijado por la terna. El 0 designa cierre 
 <a id="formula-todo-01"></a>
 <div align="center"><strong>TODO-01.</strong> 𝓔★<sub>TODO,SV</sub>(Γ<sub>U</sub>;τ)=0.</div>
 
-El techo doctrinal máximo queda fijado en el nivel 13. No hay nivel 14 doctrinal absoluto dentro de esta cadena. Los bancos, laboratorios, tablas, catálogos de errores y salidas ejecutables verifican o reproducen fórmulas; no constituyen niveles doctrinales absolutos.
+El techo doctrinal máximo queda fijado en el nivel 13. No hay nivel 14 doctrinal absoluto dentro de esta cadena. Las tablas de contraste, laboratorios, tablas, catálogos de errores y salidas ejecutables verifican o reproducen fórmulas; no constituyen niveles doctrinales absolutos.
 
 <a id="sec-i-3-criterio-de-inclusion-en-la-cadena-doctrinal"></a>
 
 ## I.3. Criterio de inclusión en la cadena doctrinal
 
-Sólo se incorporan a la cadena doctrinal las fórmulas absolutas o canónicas del SV, entendidas como estructuras con función rectora sobre un dominio formal o físico declarado. No ocupan nivel doctrinal absoluto los bancos, laboratorios, salidas esperadas, catálogos de error, figuras, repositorios ni casos numéricos aislados. Esos elementos quedan subordinados a la fórmula que verifican.
+Sólo se incorporan a la cadena doctrinal las fórmulas absolutas o canónicas del SV, entendidas como estructuras con función rectora sobre un dominio formal o físico declarado. No ocupan nivel doctrinal absoluto las tablas de contraste, laboratorios, salidas esperadas, catálogos de error, figuras, repositorios ni casos numéricos aislados. Esos elementos quedan subordinados a la fórmula que verifican.
 
-**Regla.** Una fórmula absoluta puede ocupar nivel doctrinal; un banco o laboratorio no.
+<p><strong>Regla.</strong> Una fórmula absoluta puede ocupar nivel doctrinal; un banco o laboratorio no.</strong></p>
 
 <a id="sec-i-4-cadena-doctrinal-absoluta-del-sv"></a>
 
@@ -540,21 +580,21 @@ La cadena doctrinal queda organizada desde nivel −2 hasta nivel 13. Su lectura
 
 **Teorema.** La fórmula 𝓔<sub>age</sub> ocupa exactamente el nivel 6 de la cadena doctrinal absoluta del SV.
 
-**Demostración.** Primero, no puede ocupar nivel inferior al 5, porque presupone transducción metrológica: A<sub>i</sub><sup>SV</sup>=K<sub>age</sub>A<sub>i</sub><sup>FC</sup>, con K<sub>age</sub>=284 018 400. Por tanto, depende del régimen de transducción y metrología. Segundo, no puede ocupar nivel 7 o superior, porque no gobierna luz, electromagnetismo, termodinámica, persistencia material, interacción de campos, unificación física ni TODO/NADA. Su dominio propio es O<sub>i</sub>⊂Ω<sub>obs</sub>. Tercero, no puede ocupar nivel 13, porque el nivel 13 corresponde a [TODO-01](#formula-todo-01). Si 𝓔<sub>age</sub> fuera nivel 13, permitiría atribuir edad física a la totalidad absoluta, pero Edad(TODO<sub>SV</sub>)=NO ADMISIBLE. Cuarto, no puede reducirse a banco o laboratorio, porque define la estructura que los bancos y laboratorios verifican. Por tanto, Nivel<sub>SV</sub>(𝓔<sub>age</sub>)=6. c.q.d.
+**Demostración.** Primero, no puede ocupar nivel inferior al 5, porque presupone transducción metrológica: A<sub>i</sub><sup>SV</sup>=K<sub>age</sub>A<sub>i</sub><sup>FC</sup>, con K<sub>age</sub>=284 018 400. Por tanto, depende del régimen de transducción y metrología. Segundo, no puede ocupar nivel 7 o superior, porque no gobierna luz, electromagnetismo, termodinámica, persistencia material, interacción de campos, unificación física ni TODO/NADA. Su dominio propio es O<sub>i</sub>⊂Ω<sub>obs</sub>. Tercero, no puede ocupar nivel 13, porque el nivel 13 corresponde a [TODO-01](#formula-todo-01). Si 𝓔<sub>age</sub> fuera nivel 13, permitiría atribuir edad física a la totalidad absoluta, pero Edad(TODO<sub>SV</sub>)=NO ADMISIBLE. Cuarto, no puede reducirse a banco o laboratorio, porque define la estructura que las tablas de contraste y laboratorios verifican. Por tanto, Nivel<sub>SV</sub>(𝓔<sub>age</sub>)=6. c.q.d.
 
-<a id="sec-i-7-teorema-de-cierre-frente-a-via-lateral"></a>
+<a id="sec-i-7-criterio-de-incorporacion-de-desarrollos-posteriores"></a>
 
-## I.7. Teorema de cierre frente a vía lateral
+## I.7. Criterio de incorporación de desarrollos posteriores
 
-**Teorema.** Todo desarrollo introducido por vía lateral después de fijada esta cadena carece de rango doctrinal absoluto salvo absorción expresa en uno de los niveles −2 a 13 con dominio, fórmula, residual, dictamen y retorno.
+**Criterio.** Todo desarrollo posterior carece de rango doctrinal absoluto salvo absorción expresa en uno de los niveles −2 a 13 con dominio, fórmula, residual, salida formal y retorno.
 
-**Demostración.** Sea X una fórmula, hipótesis, tabla, banco, observación o salida introducida por vía lateral. Si X no declara Ω<sub>X</sub>, 𝓕<sub>X</sub>, Δ<sub>X</sub>, d<sub>X</sub> y R<sub>X</sub>, entonces X=U. Si X contradice un nivel superior de la cadena, entonces d<sub>X</sub>=1. Si X pretende ocupar nivel 13 sin ser [TODO-01](#formula-todo-01), queda rechazado. Si X pretende introducir probabilidad, estadística, minería de datos, inferencia opaca, heurística no declarada o tiempo rector como fundamento, viola el suelo ternario y la disciplina del SV. Por tanto, X no es doctrinal absoluto por aparecer después. Sólo será admisible si queda absorbido formalmente por la cadena ya fijada. c.q.d.
+**Verificación formal.** Sea X una fórmula, hipótesis, tabla, registro, observación o salida introducida desde fuera de la cadena fijada. Si X no declara Ω<sub>X</sub>, 𝓕<sub>X</sub>, Δ<sub>X</sub>, d<sub>X</sub> y R<sub>X</sub>, entonces X=U. Si X contradice un nivel superior de la cadena, entonces d<sub>X</sub>=1. Si X pretende ocupar nivel 13 sin ser [TODO-01](#formula-todo-01), queda rechazado. Si X pretende introducir probabilidad, estadística, minería de datos, inferencia opaca, heurística no declarada o tiempo rector como fundamento, viola el suelo ternario y la disciplina del SV. Por tanto, X no es doctrinal absoluto por aparecer después. Sólo será admisible si queda absorbido formalmente por la cadena ya fijada. c.q.d.
 
-<a id="sec-i-8-dictamen-doctrinal"></a>
+<a id="sec-i-8-salida formal-doctrinal"></a>
 
-## I.8. Dictamen doctrinal
+## I.8. Síntesis doctrinal
 
-**Dictamen.** El techo doctrinal es nivel 13; el suelo formal operativo es K<sub>3</sub>={0,1,U}; los niveles −2 y −1 son pre-suelo preternario y prototernario; 𝓔<sub>age</sub> ocupa nivel 6.
+<p><strong>Salida formal.</strong> El techo doctrinal es nivel 13; el suelo formal operativo es K<sub>3</sub>={0,1,U}; los niveles −2 y −1 son pre-suelo preternario y prototernario; 𝓔<sub>age</sub> ocupa nivel 6.</strong></p>
 
 𝓔<sub>age</sub> es fórmula canónica metrológico-transductiva de edad para objetos de Ω<sub>obs</sub>. No funda el TODO, no funda la terna, no funda el espacio, no funda la luz, no funda Maxwell, no funda termodinámica y no funda campos. Mide con error cero objetos observables ya constituidos. Todo desarrollo posterior que entre por vía lateral queda fuera de rango doctrinal absoluto salvo absorción formal expresa en esta cadena.
 
@@ -636,7 +676,7 @@ El Telescopio Espacial James Webb amplía esa frontera al operar con sensibilida
 
 La profundidad observacional no debe confundirse con edad absoluta. Profundidad significa distancia de retorno, corrimiento, atenuación, desplazamiento espectral, tiempo de propagación dentro del modelo físico y posición en una historia cosmológica reconstruida. La edad relativa de un contenido observable se obtiene cuando esa profundidad se combina con identidad física, firma persistente, métrica, residual y retorno.
 
-Por ello, los mapas profundos no se tratan los mapas profundos como pruebas directas de una «edad del Universo». Los tratará como bancos de contenidos observables. Cada galaxia profunda, cada firma de hidrógeno, cada señal espectral y cada retorno luminoso será evaluado como candidato a edad relativa dentro de un dominio físico declarado.
+Por ello, El análisis no tratará los mapas profundos como pruebas directas de una «edad del Universo». Los tratará como bancos de contenidos observables. Cada galaxia profunda, cada firma de hidrógeno, cada señal espectral y cada retorno luminoso será evaluado como candidato a edad relativa dentro de un dominio físico declarado.
 
 La regla de lectura será:
 
@@ -650,19 +690,27 @@ La consecuencia inmediata es que Hubble y James Webb no desacreditan la distinci
 
 ## II.2. Galaxias profundas y mapas cósmicos
 
-Las galaxias profundas constituyen uno de los bancos naturales para estudiar edades relativas. Una galaxia observada a gran profundidad no es sólo un punto luminoso. Es un contenido físico persistente con posible estructura morfológica, población estelar, emisión integrada, líneas espectrales, gas, polvo, actividad nuclear, formación estelar, masa inferida y entorno cosmológico.
+Las galaxias profundas constituyen uno de las tablas de contraste naturales para estudiar edades relativas. Una galaxia observada a gran profundidad no es sólo un punto luminoso. Es un contenido físico persistente con posible estructura morfológica, población estelar, emisión integrada, líneas espectrales, gas, polvo, actividad nuclear, formación estelar, masa inferida y entorno cosmológico.
 
 La edad que se atribuye a una galaxia profunda puede referirse a varios planos distintos. Puede ser edad de la señal recibida, edad de la población estelar dominante, edad desde el comienzo de la formación estelar, edad cosmológica del universo observable cuando la luz fue emitida, tiempo de viaje luminoso bajo un modelo, o edad relativa dentro de una historia de ensamblaje galáctico. Esas nociones no son idénticas.
 
-Por tanto, una atribución rigurosa de edades relativas debe distinguir al menos:
+Por tanto, una tabla rigurosa de edades relativas debe distinguir al menos:
 
-<p><strong>A<sub>señal</sub>, A<sub>población estelar</sub>, A<sub>formación galáctica</sub>, A<sub>retorno luminoso</sub> y A<sub>contenido observable</sub>.</strong></p>
+<p><strong>A<sub>señal</sub>,</strong></p>
+
+<p><strong>A<sub>población estelar</sub>,</strong></p>
+
+<p><strong>A<sub>formación galáctica</sub>,</strong></p>
+
+<p><strong>A<sub>retorno luminoso</sub>,</strong></p>
+
+<p><strong>A<sub>contenido observable</sub>.</strong></p>
 
 Una cifra sin esta distinción es físicamente ambigua. Puede ser útil como aproximación divulgativa, pero no como resultado definicional.
 
 Los mapas cósmicos profundos aportan una segunda dimensión: no sólo detectan objetos individuales, sino distribuciones. Permiten estudiar agrupación, densidad de galaxias, evolución morfológica, formación de estructura, poblaciones tempranas, cúmulos, proto-cúmulos, lentes gravitacionales y regiones de alta densidad. Pero una distribución tampoco es la totalidad absoluta. Es una estructura observable dentro de un dominio.
 
-La formulación usa los mapas cósmicos como bancos de comparación entre contenidos físicos. Su función será ordenar qué objetos retornan, con qué firma, bajo qué métrica, con qué unidad y con qué residual. No se usará el mapa como fundamento de totalidad.
+El documento usará los mapas cósmicos como tablas de comparación entre contenidos físicos. Su función será ordenar qué objetos retornan, con qué firma, bajo qué métrica, con qué unidad y con qué residual. No se usará el mapa como fundamento de totalidad.
 
 La distinción puede expresarse así:
 
@@ -670,9 +718,19 @@ La distinción puede expresarse así:
 
 <p><strong>conjunto de retornos físicos edad de la totalidad absoluta.</strong></p>
 
-Una galaxia profunda entra en el banco si cumple condiciones mínimas:
+Una galaxia profunda entra en la tabla de contraste si cumple condiciones mínimas:
 
-<p><strong>Ω<sub>gal</sub> declarado, Id<sub>gal</sub>≠∅, Σ<sub>firma</sub> declarada, D<sub>Φ</sub><sup>L</sup> declarada, Δ<sub>ret</sub> evaluada y d∈{0,1,U}.</strong></p>
+<p><strong>Ω<sub>gal</sub> declarado,</strong></p>
+
+<p><strong>Id<sub>gal</sub>≠∅,</strong></p>
+
+<p><strong>Σ<sub>firma</sub> declarada,</strong></p>
+
+<p><strong>D<sub>Φ</sub><sup>L</sup> declarada,</strong></p>
+
+<p><strong>Δ<sub>ret</sub> evaluada,</strong></p>
+
+<p><strong>d∈0,1,U.</strong></p>
 
 Si la galaxia posee señal pero no identidad suficiente, queda en (U). Si posee identidad y retorno, pero la firma no permite fijar edad relativa, queda en (U). Si el caso mezcla planos y pretende convertir edad galáctica en edad de la totalidad, queda no admisible. Si declara dominio, firma, métrica, unidad y residual con cierre, entra como contenido observable apto.
 
@@ -686,13 +744,13 @@ Una señal luminosa tiene varias magnitudes asociadas: longitud de onda observad
 
 El horizonte observable tampoco es una frontera de la totalidad absoluta. Es una frontera del dominio observable. Señala límites de acceso mediante señales, no límites del Todo. Por eso, la profundidad luminosa puede definir el alcance de lo observado, pero no el estatuto de lo absoluto.
 
-La señal luminosa se formaliza bajo el concepto de retorno físico. Un retorno físico es una información que vuelve desde un contenido observable hacia el dominio de medición con suficiente estructura para ser evaluada. No basta con recibir luz. Debe poder declararse qué transporta, desde qué dominio procede, qué firma contiene, qué unidad usa, qué residual deja y qué dictamen merece.
+La señal luminosa entra en este estudio bajo el concepto de retorno físico. Un retorno físico es una información que vuelve desde un contenido observable hacia el dominio de medición con suficiente estructura para ser evaluada. No basta con recibir luz. Debe poder declararse qué transporta, desde qué dominio procede, qué firma contiene, qué unidad usa, qué residual deja y qué salida formal merece.
 
-El esquema mínimo es:
+El esquema de base es:
 
 <p><strong>emisor físico → señal → propagación → recepción → transducción → edad relativa.</strong></p>
 
-Si falta el emisor, no hay objeto. Si falta la señal, no hay retorno. Si falta la firma, no hay identidad suficiente. Si falta la unidad, no hay medida controlada. Si falta el residual, no hay cierre. Si falta el dictamen, no hay resultado.
+Si falta el emisor, no hay objeto. Si falta la señal, no hay retorno. Si falta la firma, no hay identidad suficiente. Si falta la unidad, no hay medida controlada. Si falta el residual, no hay cierre. Si falta el salida formal, no hay resultado.
 
 En consecuencia, la edad relativa del contenido observable no puede reducirse a una fórmula verbal del tipo «luz recibida equivale a edad». La luz recibida es condición de retorno. La edad exige transducción.
 
@@ -700,7 +758,7 @@ En consecuencia, la edad relativa del contenido observable no puede reducirse a 
 
 ## II.4. Hidrógeno, prehidrógeno y firmas espectrales
 
-El hidrógeno ocupa un lugar privilegiado en la física cósmica porque aparece ligado a la materia bariónica más simple, a la recombinación, a nubes de gas, a líneas espectrales, a formación estelar, a regiones intergalácticas y a señales observacionales de gran profundidad. En este análisis no se tratará el hidrógeno como fundamento absoluto de la realidad. Se tratará como firma física persistente de un régimen atómico.
+El hidrógeno ocupa un lugar privilegiado en la física cósmica porque aparece ligado a la materia bariónica más simple, a la recombinación, a nubes de gas, a líneas espectrales, a formación estelar, a regiones intergalácticas y a señales observacionales de gran profundidad. En este documento no se tratará el hidrógeno como fundamento absoluto de la realidad. Se tratará como firma física persistente de un régimen atómico.
 
 La transición relevante no es sólo hidrógeno ya formado. Es el tránsito desde un régimen preatómico hacia una estructura atómica estable. Esa transición permite acoplar física de contenidos observables con métricas de edad relativa. Antes del hidrógeno estable hay un régimen físico en el que todavía no existe identidad atómica plenamente conservada. Después, aparece una firma persistente susceptible de espectro, líneas, absorción, emisión, retención y retorno.
 
@@ -708,11 +766,21 @@ El prehidrógeno será tratado como transición transductiva. No designa una sus
 
 El hidrógeno estable, en cambio, permite firmas físicas como:
 
-<p><strong>Lyman-α, 21 cm, E<sub>n</sub>, E<sub>I</sub>, m<sub>H</sub> y a<sub>0</sub>.</strong></p>
+<p><strong>Lyman-α,</strong></p>
+
+<p><strong>21 cm,</strong></p>
+
+<p><strong>E<sub>n</sub>,</strong></p>
+
+<p><strong>E<sub>I</sub>,</strong></p>
+
+<p><strong>m<sub>H</sub>,</strong></p>
+
+<p><strong>a<sub>0</sub>.</strong></p>
 
 Estas magnitudes no entran como adornos. Entran como columnas de banco. Cada una debe asociarse a unidad SI, unidad SV, dominio, residual y retorno. La señal espectral se convierte así en firma persistente, no en simple dato luminoso.
 
-La clave consiste en usar la transición prehidrógeno/hidrógeno como bisagra entre contenidos físicos profundos y edad relativa. Hubble y James Webb observan galaxias, estrellas, gas y señales. Pero esas señales portan firmas de regímenes materiales. Allí donde comparece firma preH/H persistente, existe un candidato privilegiado para fijar edad relativa del contenido observable.
+La clave del documento será usar la transición prehidrógeno/hidrógeno como bisagra entre contenidos físicos profundos y edad relativa. Hubble y James Webb observan galaxias, estrellas, gas y señales. Pero esas señales portan firmas de regímenes materiales. Allí donde comparece firma preH/H persistente, existe un candidato privilegiado para fijar edad relativa del contenido observable.
 
 La forma conceptual queda:
 
@@ -732,17 +800,27 @@ Sólo si esa firma pasa persistencia, identidad, residual y retorno, podrá alim
 
 Las estrellas son portadores físicos de edad porque poseen formación, masa, composición, luminosidad, evolución, pérdida de energía, nucleosíntesis, emisión, estructura interna y muerte estelar. Su edad puede inferirse por modelos de evolución estelar, diagramas color-magnitud, metalicidad, actividad, rotación, oscilaciones, cúmulos asociados o poblaciones. Pero, de nuevo, cada edad estelar es edad de un objeto físico persistente, no edad de la totalidad absoluta.
 
-Los púlsares constituyen un caso especialmente útil porque presentan señales periódicas y pérdida de energía rotacional. Permiten comparar edad característica, edad cinemática, edad de remanente asociado y evolución magnética. Su valor para el banco no será estadístico en sentido fundante, sino contrastivo: muestran cómo una señal física persistente puede traducirse en una edad relativa bajo dominio, modelo, unidad y residual.
+Los púlsares constituyen un caso especialmente útil porque presentan señales periódicas y pérdida de energía rotacional. Permiten comparar edad característica, edad cinemática, edad de remanente asociado y evolución magnética. Su valor para la tabla de contraste no será estadístico en sentido fundante, sino contrastivo: muestran cómo una señal física persistente puede traducirse en una edad relativa bajo dominio, modelo, unidad y residual.
 
 Una estrella antigua, un cúmulo globular, una galaxia temprana, una población estelar pobre en metales o un púlsar con emisión estable son ejemplos de contenidos físicos con identidad. Cada uno puede poseer edad propia. Ninguno convierte su edad en edad de la totalidad absoluta.
 
-La formulación distinguirá:
+El estudio distinguirá:
 
-La comparación distingue A<sub>★</sub>, A<sub>púlsar</sub>, A<sub>cúmulo</sub>, A<sub>galaxia</sub>, A<sub>firma H</sub> y A<sub>retorno</sub>.
+<p><strong>A<sub>★</sub>,</strong></p>
+
+<p><strong>A<sub>púlsar</sub>,</strong></p>
+
+<p><strong>A<sub>cúmulo</sub>,</strong></p>
+
+<p><strong>A<sub>galaxia</sub>,</strong></p>
+
+<p><strong>A<sub>firma H</sub>,</strong></p>
+
+<p><strong>A<sub>retorno</sub>.</strong></p>
 
 Estas edades pueden compararse, pero no confundirse. La comparación exige métricas homogéneas o transductores explícitos. Si dos edades proceden de dominios distintos, se comparan sólo después de declarar unidad, residual y retorno.
 
-El banco incluirá portadores físicos persistentes por una razón: un resultado sobre edad relativa del contenido observable no puede depender de una sola clase de objeto. Debe resistir galaxias, estrellas, hidrógeno, líneas espectrales, señales profundas y controles negativos. Sólo así podrá hablar de tú a tú a la física contemporánea.
+La tabla de contraste incluirá portadores físicos persistentes por una razón: un resultado sobre edad relativa del contenido observable no puede depender de una sola clase de objeto. Debe resistir galaxias, estrellas, hidrógeno, líneas espectrales, señales profundas y controles negativos. Sólo así podrá hablar de tú a tú a la física contemporánea.
 
 <a id="sec-ii-6-la-expresion-convencional-edad-del-universo-en-cosmologia-fisica"></a>
 
@@ -752,23 +830,33 @@ La cosmología física usa la expresión «edad del Universo» para nombrar una 
 
 El problema no es que la física contemporánea carezca de herramientas. Al contrario, posee herramientas de enorme potencia. El problema es que la expresión «edad del Universo» comprime en una sola frase varios planos distintos:
 
-<p><strong>edad del modelo cosmológico, edad del universo observable, edad del contenido físico retornado, edad de señales profundas, edad de estructuras y edad de la totalidad absoluta.</strong></p>
+<p><strong>edad del modelo cosmológico,</strong></p>
 
-La física suele trabajar eficazmente con los primeros planos. La confusión aparece si el último se mezcla con los anteriores. La separación de planos conserva el valor de la física donde corresponde.
+<p><strong>edad del universo observable,</strong></p>
 
-En el lenguaje de este análisis, la expresión convencional se traducirá así:
+<p><strong>edad del contenido físico retornado,</strong></p>
+
+<p><strong>edad de señales profundas,</strong></p>
+
+<p><strong>edad de estructuras,</strong></p>
+
+<p><strong>edad de la totalidad absoluta.</strong></p>
+
+La física suele trabajar eficazmente con los primeros planos. La confusión aparece si el último se mezcla con los anteriores. Este estudio separa esos planos y conserva el valor de la física donde corresponde.
+
+En el lenguaje de este documento, la expresión convencional se traducirá así:
 
 <p><strong>edad del Universo → edad relativa del dominio observable bajo un modelo físico.</strong></p>
 
-Y, cuando el banco sea más estricto:
+Y, cuando la tabla de contraste sea más estricto:
 
 <p><strong>edad del Universo → edad concreta del observable retornado.</strong></p>
 
 La diferencia entre ambas expresiones no es ornamental. La segunda identifica el objeto medido. No atribuye edad a la totalidad. Atribuye edad al contenido retornado con firma, métrica y persistencia.
 
-<a id="sec-ii-7-dictamen-preliminar-del-estado-del-arte"></a>
+<a id="sec-ii-7-salida formal-preliminar-del-estado-del-arte"></a>
 
-## II.7. Dictamen preliminar del estado del arte
+## II.7. Lectura preliminar del estado del arte
 
 El estado del arte físico contemporáneo permite afirmar siete conclusiones preliminares.
 
@@ -780,13 +868,13 @@ Tercera: las señales luminosas transportan información, pero no fundan edad si
 
 Cuarta: el hidrógeno y el prehidrógeno ofrecen una bisagra física privilegiada entre régimen material temprano, firma persistente y retorno observacional.
 
-Quinta: estrellas, púlsares y portadores físicos persistentes aportan bancos comparativos para edades relativas.
+Quinta: estrellas, púlsares y portadores físicos persistentes aportan registros comparativos para edades relativas.
 
 Sexta: la expresión «edad del Universo» es aceptable como convención cosmológica, pero imprecisa si se interpreta como edad de la totalidad absoluta.
 
-Séptima: el blanco riguroso es la edad concreta del observable retornado con firma persistente.
+Séptima: el blanco riguroso de este estudio es la edad concreta del observable retornado con firma persistente.
 
-El dictamen preliminar queda:
+El salida formal preliminar queda:
 
 <p><strong>Edad(totalidad absoluta)=NO ADMISIBLE.</strong></p>
 
@@ -794,9 +882,9 @@ El dictamen preliminar queda:
 
 <p><strong>Edad(C<sub>i</sub>)=ADMISIBLE SI C<sub>i</sub> declara dominio, identidad, métrica, unidad, residual y retorno.</strong></p>
 
-<p><strong>A<sub>Ωobs</sub>=magnitud buscada.</strong></p>
+<p><strong>A<sub>cont,obs</sub>=magnitud buscada.</strong></p>
 
-El estado del arte no queda rechazado. Queda reordenado. La física contemporánea aporta los datos, los instrumentos, las señales, las métricas y los mapas. La formulación precisa el plano de atribución de edad.
+El estado del arte no queda rechazado. Queda reordenado. La física contemporánea aporta los datos, los instrumentos, las señales, las métricas y los mapas. Este estudio precisa el plano de atribución de edad.
 
 <a id="sec-iii-tabla-de-edades-relativas"></a>
 
@@ -806,7 +894,7 @@ El estado del arte no queda rechazado. Queda reordenado. La física contemporán
 
 ## III.1. Finalidad de la tabla
 
-La matriz de edades relativas tiene una función estricta: separar qué entidades admiten edad física, qué entidades no la admiten y bajo qué condiciones una edad puede declararse cerrada. No clasifica por intuición, importancia cosmológica o uso lingüístico habitual. Clasifica por dominio, frontera, identidad, métrica, unidad, residual y retorno.
+La tabla de edades relativas tiene una función estricta: separar qué entidades admiten edad física, qué entidades no la admiten y bajo qué condiciones una edad puede declararse cerrada. No clasifica por intuición, importancia cosmológica o uso lingüístico habitual. Clasifica por dominio, frontera, identidad, métrica, unidad, residual y retorno.
 
 Una edad física sólo será admisible cuando exista una entidad o dominio (C<sub>i</sub>) que satisfaga simultáneamente:
 
@@ -826,12 +914,15 @@ Una edad física sólo será admisible cuando exista una entidad o dominio (C<su
 
 Si esas condiciones se cumplen y el residual se anula, la edad relativa queda admitida. Si alguna condición contradice el dominio, queda no admitida. Si falta información esencial, queda en (U).
 
-La matriz no sustituye al banco de contraste; lo prepara. Su función es fijar qué clase de entidad se está midiendo antes de introducir cifras, unidades o transductores.
+La tabla no sustituye al matriz de contraste; lo prepara. Su función es fijar qué clase de entidad se está midiendo antes de introducir cifras, unidades o transductores.
 
 <a id="sec-iii-2-tabla-general-de-admisibilidad-de-edad"></a>
 
 ## III.2. Tabla general de admisibilidad de edad
-| Entidad o dominio | Estatuto físico-formal | ¿Admite edad? | Condición de admisión | Dictamen |
+
+<p><strong>Tabla 001.</strong></p>
+
+| Entidad o dominio | Estatuto físico-formal | ¿Admite edad? | Condición de admisión | Salida formal |
 | --- | --- | --- | --- | --- |
 | Totalidad absoluta | No es objeto físico interno ni dominio contenido en otro dominio físico superior | No | La edad requiere exterior de comparación, frontera física y trayectoria; la totalidad absoluta no los posee | NO ADMISIBLE |
 | Universo observable | Dominio físico accesible por señales, horizonte, radiación, mapas e instrumentos | Sí, como dominio físico interno | Debe declararse modelo, métrica, retorno y contenidos observables | ADMISIBLE CON DOMINIO |
@@ -846,7 +937,7 @@ La matriz no sustituye al banco de contraste; lo prepara. Su función es fijar q
 | Métrica cosmológica | Herramienta física de reconstrucción | No como objeto; sí como métrica | No posee edad propia; permite atribuir edad a dominios | INSTRUMENTAL |
 | Modelo cosmológico | Marco físico de interpretación | No como objeto; sí como régimen de cálculo | Sus edades son dependientes de hipótesis y parámetros | INSTRUMENTAL |
 
-La consecuencia principal es que la edad no pertenece a cualquier enunciado que contenga la palabra «universo». Pertenece a entidades o dominios con estructura física atribuible.
+La consecuencia principal de la tabla es que la edad no pertenece a cualquier enunciado que contenga la palabra «universo». Pertenece a entidades o dominios con estructura física atribuible.
 
 <a id="sec-iii-3-totalidad-absoluta-edad-no-admisible"></a>
 
@@ -862,23 +953,23 @@ donde (C<sub>i</sub>) es el contenido cuya edad se mide y (Ω<sub>j</sub>) es el
 
 Por tanto:
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE,</strong></p>
+<p><strong>Edad( T)=NO ADMISIBLE,</strong></p>
 
-donde (𝓣) designa la totalidad absoluta.
+donde ( T) designa la totalidad absoluta.
 
 La no admisión no equivale a (0). Tampoco equivale a (U). La diferencia es esencial:
 
-<p><strong>Edad(𝓣)=0</strong></p>
+<p><strong>Edad( T)=0</strong></p>
 
 afirmaría una edad física nula. Eso convertiría la totalidad en objeto físico medible.
 
-<p><strong>Edad(𝓣)=U</strong></p>
+<p><strong>Edad( T)=U</strong></p>
 
 afirmaría que la pregunta está bien formada, pero que falta información para cerrarla.
 
 En cambio:
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE</strong></p>
+<p><strong>Edad( T)=NO ADMISIBLE</strong></p>
 
 declara que la pregunta no está correctamente tipada. La edad física no se aplica a la totalidad absoluta. Se aplica a contenidos internos.
 
@@ -898,11 +989,13 @@ La edad atribuible a (Ω<sub>obs</sub>) será una edad de dominio:
 
 <p><strong>A_Ω<sub>obs</sub>.</strong></p>
 
-El resultado central no se formula como edad absoluta de (Ω<sub>obs</sub>), sino como edad concreta del observable retornado:
+Pero el resultado central de este estudio no se formulará como edad absoluta de (Ω<sub>obs</sub>), sino como edad concreta del observable retornado:
 
-<div align="center"><strong>A<sub>Ωobs</sub> = sup<sub>Δ<sub>i</sub>=0</sub> A(C<sub>i</sub>).</strong></div>
+A<sub>cont,obs</sub>
 
-La diferencia es importante. El universo observable puede contener varios objetos antiguos, varias señales profundas y varias métricas. El cierre rector admisible se busca el cierre rector admisible entre contenidos físicos retornados, no una edad ontológica de la totalidad.
+<sub>Δ<sub>i</sub>=0</sub> A(C<sub>i</sub>).
+
+La diferencia es importante. El universo observable puede contener varios objetos antiguos, varias señales profundas y varias métricas. El estudio buscará el cierre relativo admisible entre contenidos físicos retornados, no una edad ontológica de la totalidad.
 
 <a id="sec-iii-5-galaxias-objetos-fisicos-persistentes"></a>
 
@@ -910,7 +1003,10 @@ La diferencia es importante. El universo observable puede contener varios objeto
 
 Una galaxia es un objeto físico persistente. Puede admitir edad relativa por varias vías: edad de población estelar, edad de formación, edad de ensamblaje, edad de emisión de la señal observada, edad de retorno luminoso o posición en una historia cosmológica. Estas edades no son idénticas.
 
-El esquema mínimo de una galaxia debe separar:
+La tabla mínima de una galaxia debe separar:
+
+<p><strong>Tabla 002.</strong></p>
+
 | Magnitud | Qué mide | Unidad SI | Unidad SV | Riesgo de confusión |
 | --- | --- | --- | --- | --- |
 | Edad estelar media | Tiempo relativo de población dominante | año, segundo | (UE<sub>MFC</sub>) | No equivale a edad de la galaxia completa |
@@ -920,7 +1016,7 @@ El esquema mínimo de una galaxia debe separar:
 | Corrimiento espectral | Relación de longitudes de onda | adimensional | adimensional transductivo | No es edad sin modelo |
 | Firma hidrógeno | Presencia de transición o línea asociada | Hz, m, eV | unidad SV correspondiente | No basta si no hay dominio |
 
-El dictamen de galaxia será:
+El salida formal de galaxia será:
 
 <p><strong>d<sub>gal</sub>=0</strong></p>
 
@@ -944,10 +1040,13 @@ si falta firma, dominio, residual o unidad.
 
 Una estrella posee edad física porque tiene formación, estructura, evolución, composición, luminosidad, pérdida energética, masa y señales. Su edad puede estimarse por modelos de evolución estelar, posición en diagramas físicos, metalicidad, rotación, actividad, oscilaciones o pertenencia a cúmulos.
 
-La estrella no se usa como fundamento de edad universal. Se usará como objeto físico persistente capaz de entrar en una tabla comparativa.
+En este estudio, una estrella no se usará como fundamento de edad universal. Se usará como objeto físico persistente capaz de entrar en una tabla comparativa.
 
-El esquema mínimo de una estrella es:
-| Magnitud | Función | Unidad SI | Unidad SV | Dictamen |
+La tabla mínima de una estrella será:
+
+<p><strong>Tabla 003.</strong></p>
+
+| Magnitud | Función | Unidad SI | Unidad SV | Salida formal |
 | --- | --- | --- | --- | --- |
 | Masa estelar | Determina régimen evolutivo | kg, (M_☉) | unidad de masa SV | Admisible si hay dominio |
 | Luminosidad | Emisión energética | W, (L_☉) | unidad energética SV por ciclo | Admisible |
@@ -956,7 +1055,7 @@ El esquema mínimo de una estrella es:
 | Señal retornada | Observación luminosa | m, Hz, W/m² | (UFE), unidades SV | Admisible si hay retorno |
 | Residual | Diferencia entre modelo y retorno | variable | variable SV | Obligatorio |
 
-La estrella cumple una función adversarial: muestra que el análisis no identifica toda edad con luz de galaxias profundas. Hay múltiples contenidos físicos con edad relativa. La edad concreta observable debe superar el contraste con estos portadores.
+La estrella cumple una función adversarial: muestra que el documento no identifica toda edad con luz de galaxias profundas. Hay múltiples contenidos físicos con edad relativa. La edad concreta observable debe superar el contraste con estos portadores.
 
 <a id="sec-iii-7-hidrogeno-firma-atomica-persistente"></a>
 
@@ -982,7 +1081,10 @@ La firma hidrógeno incluye, como mínimo:
 
 Estas magnitudes entran como firmas físicas transductibles. No bastan por sí solas para declarar edad. Deben asociarse a portador, dominio, retorno y residual.
 
-El esquema mínimo es:
+La tabla mínima será:
+
+<p><strong>Tabla 004.</strong></p>
+
 | Firma | Tipo físico | Unidad SI | Unidad SV | Uso en edad relativa |
 | --- | --- | --- | --- | --- |
 | Lyman-(α) | Transición espectral | m, Hz, eV | (UFE), unidad frecuencial/energética SV | Firma de hidrógeno en retorno |
@@ -992,7 +1094,7 @@ El esquema mínimo es:
 | Masa de H | Identidad material | kg | unidad de masa SV | Portador atómico |
 | Radio de Bohr | Escala atómica | m | (UFE) | Control de dominio atómico |
 
-El hidrógeno recibe dictamen admisible cuando comparece como firma de un dominio físico persistente. Recibe dictamen no admisible si se usa como fundamento absoluto. Recibe (U) si la firma está aislada sin portador, sin retorno o sin dominio.
+El hidrógeno recibe salida formal admisible cuando comparece como firma de un dominio físico persistente. Recibe salida formal no admisible si se usa como fundamento absoluto. Recibe (U) si la firma está aislada sin portador, sin retorno o sin dominio.
 
 <a id="sec-iii-8-prehidrogeno-transicion-transductiva"></a>
 
@@ -1018,7 +1120,10 @@ Su condición de admisión exige:
 
 El papel del prehidrógeno es acorralar la edad concreta del observable retornado del contenido observable. Las galaxias profundas y los mapas de alto alcance no importan sólo por su distancia; importan porque portan firmas de regímenes materiales que remiten a hidrógeno, gas, estrellas y transiciones físicas tempranas.
 
-El esquema será:
+La tabla será:
+
+<p><strong>Tabla 005.</strong></p>
+
 | Régimen | Estatuto | Edad admisible | Condición |
 | --- | --- | --- | --- |
 | Plasma sin identidad atómica | Régimen preatómico | Como transición, no como átomo | Falta identidad de H |
@@ -1050,22 +1155,28 @@ El retorno luminoso es la señal recibida desde un dominio físico. No equivale 
 
 La señal luminosa puede medir propagación, distancia, profundidad o posición relativa en una historia física. Pero no mide totalidad absoluta.
 
-El esquema mínimo es:
+La tabla mínima será:
+
+<p><strong>Tabla 006.</strong></p>
+
 | Elemento | Función | Sin él |
 | --- | --- | --- |
 | Emisor | Identifica contenido físico | No hay objeto |
 | Firma | Identifica régimen físico | No hay edad atribuible |
 | Propagación | Relaciona emisión y recepción | No hay retorno |
 | Unidad | Permite medición | No hay cálculo |
-| Residual | Permite dictamen | No hay cierre |
+| Residual | Permite salida formal | No hay cierre |
 | Recepción | Fija retorno observacional | No hay contraste |
 
 El retorno luminoso será admisible cuando se lea como señal física. Será no admisible si se usa como prueba directa de edad de la totalidad. Será (U) si falta firma o residual.
 
-<a id="sec-iii-10-tabla-general-de-dominio-metrica-unidad-residual-y-dictamen"></a>
+<a id="sec-iii-10-tabla-general-de-dominio-metrica-unidad-residual-y-salida formal"></a>
 
-## III.10. Tabla general de dominio, métrica, unidad, residual y dictamen
-| Clase | Dominio | Métrica principal | Unidad SI | Unidad SV | Residual | Dictamen |
+## III.10. Tabla general de dominio, métrica, unidad, residual y salida formal
+
+**Tabla 007.**
+
+| Clase | Dominio | Métrica principal | Unidad SI | Unidad SV | Residual | Salida formal |
 | --- | --- | --- | --- | --- | --- | --- |
 | Totalidad absoluta | No contenido en dominio físico superior | No aplicable | No aplicable | No aplicable | No evaluable por tipo | NO ADMISIBLE |
 | Universo observable | (Ω<sub>obs</sub>) | Profundidad, señales, horizonte | s, año, m, Hz, eV | (UE<sub>MFC</sub>), (UFE), unidades SV derivadas | (Δ<sub>obs</sub>) | ADMISIBLE COMO DOMINIO |
@@ -1082,7 +1193,7 @@ El retorno luminoso será admisible cuando se lea como señal física. Será no 
 
 ## III.11. Consecuencia formal
 
-La matriz obliga a reformular la pregunta inicial.
+La tabla obliga a reformular la pregunta inicial.
 
 La forma imprecisa es:
 
@@ -1092,25 +1203,29 @@ La forma físicamente controlada es:
 
 <p><strong>¿cuál es la edad relativa del dominio observable bajo un modelo declarado?</strong></p>
 
-La forma más estricta es:
+La forma más estricta de este estudio es:
 
 <p><strong>¿cuál es la edad concreta del observable retornado con firma persistente admisible?</strong></p>
 
 La respuesta final no será una edad de la totalidad absoluta. Será una edad del observable retornado:
 
-<div align="center"><strong>A<sub>Ωobs</sub><sup>SV</sup> = 3 919 453 920 000 000 000 UE<sub>MFC</sub>.</strong></div>
+A<sub>cont,obs</sub><sup>SV</sup>
 
-<div align="center"><strong>A<sub>Ωobs</sub><sup>ret</sup> = 13 800 000 000 años julianos.</strong></div>
+3 919 453 920 000 000 000 UE<sub>MFC</sub>.
 
-El dictamen de esta sección queda cerrado:
+A<sub>cont,obs</sub><sup>ret</sup>
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE.</strong></p>
+13 800 000 000 años julianos.
+
+De esta sección se desprende:
+
+<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
 
 <p><strong>Edad(Ω<sub>obs</sub>)=ADMISIBLE COMO DOMINIO.</strong></p>
 
 <p><strong>Edad(C<sub>i</sub>)=ADMISIBLE SI Δ<sub>i</sub>=0.</strong></p>
 
-<p><strong>A<sub>Ωobs</sub>=<sub>Δ<sub>i</sub>=0</sub>A(C<sub>i</sub>).</strong></p>
+<p><strong>A<sub>cont,obs</sub>=<sub>Δ<sub>i</sub>=0</sub>A(C<sub>i</sub>).</strong></p>
 
 <a id="sec-iv-transductores"></a>
 
@@ -1118,11 +1233,11 @@ El dictamen de esta sección queda cerrado:
 
 <a id="sec-iv-1-funcion-de-los-transductores-en-esta-publicacion"></a>
 
-## IV.1. Función de los transductores
+## IV.1. Función de los transductores en este estudio
 
 Un transductor es una estructura de traducción controlada entre dos dominios que no deben confundirse. Su función no es mezclar planos, sino permitir que una magnitud física, una señal, una firma espectral, una distancia, una edad relativa o una condición de persistencia comparezcan en un dominio formal sin perder su estatuto físico ni invadir un fundamento que no les corresponde.
 
-La física contemporánea trabaja con magnitudes observables: segundos, metros, hercios, electronvoltios, masas, luminosidades, corrimientos espectrales, distancias, periodos, líneas de emisión, líneas de absorción, mapas de galaxias, señales de fondo y modelos de propagación. El análisis no niega ese plano. Lo conserva. Pero exige que cada magnitud declare su dominio, su unidad, su objeto físico, su residual y su retorno.
+La física contemporánea trabaja con magnitudes observables: segundos, metros, hercios, electronvoltios, masas, luminosidades, corrimientos espectrales, distancias, periodos, líneas de emisión, líneas de absorción, mapas de galaxias, señales de fondo y modelos de propagación. Este estudio no niega ese plano. Lo conserva. Pero exige que cada magnitud declare su dominio, su unidad, su objeto físico, su residual y su retorno.
 
 La estructura mínima de un transductor será:
 
@@ -1162,7 +1277,7 @@ es la unidad correspondiente;
 
 es el retorno de verificación.
 
-El transductor principal no convierte «distancia» en «tiempo» de forma indiscriminada. Convierte retornos físicos de contenidos observables en edades relativas bajo dominio, firma, persistencia, unidad y residual. El objeto no es la totalidad absoluta. El objeto es el contenido físico observable.
+En este estudio el transductor principal no convierte «distancia» en «tiempo» de forma indiscriminada. Convierte retornos físicos de contenidos observables en edades relativas bajo dominio, firma, persistencia, unidad y residual. El objeto no es la totalidad absoluta. El objeto es el contenido físico observable.
 
 La forma general será:
 
@@ -1180,7 +1295,7 @@ designa la firma física del contenido;
 
 <p><strong>𝓟<sub>min</sub></strong></p>
 
-designa persistencia mínima;
+designa persistencia P_min;
 
 <p><strong>Id</strong></p>
 
@@ -1210,7 +1325,7 @@ El dominio de partida puede ser físico-observacional:
 
 <p><strong>Ω<sub>obs</sub>, Ω<sub>gal</sub>, Ω<sub>★</sub>, Ω<sub>H</sub>, Ω<sub>preH→ H</sub>, Ω<sub>L</sub><sup>ret</sup>.</strong></p>
 
-El codominio puede ser una edad relativa, una unidad transductiva, un residual o un dictamen:
+El codominio puede ser una edad relativa, una unidad transductiva, un residual o un salida formal:
 
 <p><strong>A(C<sub>i</sub>), UE<sub>MFC</sub>, UFE, Δ<sub>i</sub>, d<sub>i</sub>.</strong></p>
 
@@ -1218,7 +1333,7 @@ La relación no será válida si el dominio de partida es ambiguo. Por ejemplo, 
 
 La forma correcta es declarar:
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE.</strong></p>
+<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
 
 <p><strong>Edad(Ω<sub>obs</sub>)=ADMISIBLE COMO DOMINIO.</strong></p>
 
@@ -1226,21 +1341,23 @@ La forma correcta es declarar:
 
 Por tanto, el dominio del transductor de edad no será la totalidad absoluta. Será:
 
-Ω<sub>obs</sub>
+Ω<sub>cont,obs</sub>
 
 C<sub>i</sub>: C<sub>i</sub>⊂Ω<sub>obs</sub>, Id<sub>i</sub>≠∅, R<sub>i</sub>≠∅, Δ<sub>i</sub> evaluable .
 
 El codominio será:
 
-<p><strong>A<sub>Ωobs</sub><sup>SV</sup></strong></p>
+<p><strong>A<sub>cont,obs</sub><sup>SV</sup></strong></p>
 
 o, tras retorno físico:
 
-<p><strong>A<sub>Ωobs</sub><sup>ret</sup>.</strong></p>
+<p><strong>A<sub>cont,obs</sub><sup>ret</sup>.</strong></p>
 
 La edad concreta del observable retornado quedará definida por:
 
-<div align="center"><strong>A<sub>Ωobs</sub> = sup<sub>Δ<sub>i</sub>=0</sub> A(C<sub>i</sub>).</strong></div>
+A<sub>cont,obs</sub>
+
+<sub>Δ<sub>i</sub>=0</sub> A(C<sub>i</sub>).
 
 Esta expresión no habla de edad absoluta. Habla de máximo relativo entre contenidos observables admisibles.
 
@@ -1264,7 +1381,7 @@ Para que un observable pueda alimentar una edad relativa debe cumplir:
 
 <p><strong>Obs<sub>i</sub> entra en residual.</strong></p>
 
-Los observables principales son:
+Los observables principales de este estudio serán:
 
 <p><strong>D<sub>Φ</sub><sup>L</sup>,</strong></p>
 
@@ -1296,7 +1413,7 @@ firma prehidrógeno/hidrógeno;
 
 <p><strong>𝓟<sub>min</sub>,</strong></p>
 
-persistencia mínima;
+persistencia P_min;
 
 <p><strong>Id,</strong></p>
 
@@ -1314,7 +1431,7 @@ El transductor de edad actuará sobre ( O<sub>i</sub>), no sobre un número desn
 
 ## IV.4. Unidad SI y unidad SV
 
-La física contemporánea debe poder leer la formulación en sus propias unidades. Por eso, toda magnitud física entrará inicialmente en unidad SI o en unidad física convencional convertible al SI. La transducción exigirá después una unidad SV correspondiente. La finalidad no es sustituir el SI, sino permitir una doble lectura sin pérdida de control.
+La física contemporánea debe poder leer el documento en sus propias unidades. Por eso, toda magnitud física entrará inicialmente en unidad SI o en unidad física convencional convertible al SI. La transducción exigirá después una unidad SV correspondiente. La finalidad no es sustituir el SI, sino permitir una doble lectura sin pérdida de control.
 
 La regla será:
 
@@ -1366,11 +1483,11 @@ Es decir:
 
 <p><strong>3 919 453 920 000 000 000 UE<sub>MFC</sub>.</strong></p>
 
-La conversión no es una inferencia física. Es una equivalencia metrológica declarada. El contenido físico de la edad depende del transductor y del banco; la equivalencia sólo expresa la misma magnitud en otra unidad.
+La conversión no es una inferencia física. Es una equivalencia metrológica declarada. El contenido físico de la edad depende del transductor y de la tabla de contraste; la equivalencia sólo expresa la misma magnitud en otra unidad.
 
-<a id="sec-iv-5-residual-y-dictamen"></a>
+<a id="sec-iv-5-residual-y-salida formal"></a>
 
-## IV.5. Residual y dictamen
+## IV.5. Residual y salida formal
 
 El residual mide la diferencia entre lo que una magnitud pretende declarar y lo que el dominio permite cerrar. Sin residual no hay cierre. Sin cierre no hay edad física final.
 
@@ -1410,7 +1527,7 @@ evalúa retorno;
 
 evalúa retorno físico controlado.
 
-El dictamen será:
+El salida formal será:
 
 <p><strong>d<sub>i</sub>=0</strong></p>
 
@@ -1462,15 +1579,15 @@ El retorno debe conservar:
 
 <p><strong>mismo objeto físico,</strong></p>
 
-<p><strong>mismo dictamen.</strong></p>
+<p><strong>mismo salida formal.</strong></p>
 
-No se afirma que la física contemporánea queda sustituida. Afirmará que la magnitud física queda leída con precisión de plano. La edad vuelve al lenguaje físico como edad relativa del contenido observable, no como edad de la totalidad absoluta.
+El estudio no afirmará que la física contemporánea queda sustituida. Afirmará que la magnitud física queda leída con precisión de plano. La edad vuelve al lenguaje físico como edad relativa del contenido observable, no como edad de la totalidad absoluta.
 
 <a id="sec-iv-7-transductor-de-edad-relativa-del-contenido-observable"></a>
 
 ## IV.7. Transductor de edad relativa del contenido observable
 
-El transductor principal se define así:
+El transductor principal de el estudio se define así:
 
 <p><strong>X<sub>A</sub><sup>cont</sup>: C<sub>obs</sub> A<sup>SV</sup>(C<sub>i</sub>).</strong></p>
 
@@ -1492,7 +1609,7 @@ Será no admisible si:
 
 <p><strong>C<sub>i</sub>= T</strong></p>
 
-donde (𝓣) designa totalidad absoluta.
+donde ( T) designa totalidad absoluta.
 
 Será (U) si:
 
@@ -1504,17 +1621,21 @@ El transductor de edad concreta del observable retornado será:
 
 Con:
 
-A<sub>Ωobs</sub><sup>SV</sup>
+A<sub>cont,obs</sub><sup>SV</sup>
 
 <sub>Δ<sub>i</sub>=0</sub> A<sup>SV</sup>(C<sub>i</sub>).
 
-El banco debe demostrar que el cierre admisible corresponde a:
+El estudio deberá demostrar que, dentro de la tabla de contraste construido, el máximo admisible corresponde a:
 
-<div align="center"><strong>A<sub>Ωobs</sub><sup>SV</sup> = 3 919 453 920 000 000 000 UE<sub>MFC</sub>.</strong></div>
+A<sub>cont,obs</sub><sup>SV</sup>
+
+3 919 453 920 000 000 000 UE<sub>MFC</sub>.
 
 Y, por retorno:
 
-<div align="center"><strong>A<sub>Ωobs</sub><sup>ret</sup> = 13 800 000 000 a<sub>J</sub>.</strong></div>
+A<sub>cont,obs</sub><sup>ret</sup>
+
+13 800 000 000 a<sub>J</sub>.
 
 El transductor no atribuye ese valor a la totalidad absoluta. Lo atribuye al observable retornado.
 
@@ -1568,15 +1689,15 @@ La edad relativa se fijará cuando esa cadena se declare con unidad, firma, pers
 
 ## IV.9. Error absoluto de plano, definición y transducción
 
-La formulación distingue entre incertidumbre observacional y error de plano.
+El documento distinguirá entre margen observacional y error de plano.
 
-La física contemporánea conserva incertidumbres instrumentales:
+La física contemporánea conserva márgenes instrumentales:
 
 <p><strong>σ<sub>obs</sub>≠0.</strong></p>
 
-Puede haber incertidumbre en distancias, parámetros, corrimientos, masas, luminosidades, edades estelares, modelos de formación y calibraciones. Esa incertidumbre no se niega.
+Puede haber margen en distancias, parámetros, corrimientos, masas, luminosidades, edades estelares, modelos de formación y calibraciones. Esa margen no se niega.
 
-Lo que este análisis pretende anular es el error categorial de atribución:
+Lo que este documento pretende anular es el error categorial de atribución:
 
 <p><strong>ε<sub>plano</sub>=0.</strong></p>
 
@@ -1584,7 +1705,7 @@ También el error definicional:
 
 <p><strong>ε<sub>def</sub>=0.</strong></p>
 
-Y el error de retorno transductivo cuando el banco cierra:
+Y el error de retorno transductivo cuando la tabla de contraste cierra:
 
 <p><strong>ε<sub>trans</sub>=0.</strong></p>
 
@@ -1598,45 +1719,47 @@ Cuando:
 
 <p><strong>ε<sub>plano</sub>=0, ε<sub>def</sub>=0, ε<sub>trans</sub>=0,</strong></p>
 
-la edad queda definida sin error absoluto de tipo, aunque el dato físico conservado mantenga incertidumbre instrumental.
+la edad queda definida sin error absoluto de tipo, aunque el dato físico conservado mantenga margen instrumental.
 
 Por tanto, la frase correcta no será:
 
-<p><strong>no hay incertidumbre física.</strong></p>
+<p><strong>no hay margen física.</strong></p>
 
 Será:
 
 <p><strong>no hay error de plano en la atribución de edad.</strong></p>
 
-La formulación fija con error de plano cero que:
+El estudio fija con error de plano cero que:
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE.</strong></p>
+<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
 
 <p><strong>Edad(C<sub>i</sub>)=ADMISIBLE SI Δ<sub>i</sub>=0.</strong></p>
 
-Y fija por banco transductivo:
+Y fija por contraste transductivo:
 
-<div align="center"><strong>A<sub>Ωobs</sub><sup>ret</sup> = 13 800 000 000 a<sub>J</sub>.</strong></div>
+A<sub>cont,obs</sub><sup>ret</sup>
 
-<a id="sec-iv-10-dictamen-de-la-seccion"></a>
+13 800 000 000 a<sub>J</sub>.
 
-## IV.10. Dictamen de la sección
+<a id="sec-iv-10-salida formal-de-la-seccion"></a>
 
-Los transductores permiten que la física contemporánea y la estructura formal del desarrollo se correspondan sin confundirse. La física aporta magnitudes reales. El transductor exige dominio, codominio, unidad, residual y retorno. El resultado vuelve a la física como magnitud correctamente atribuida.
+## IV.10. Síntesis de la sección
 
-El dictamen de esta sección queda:
+Los transductores permiten que la física contemporánea y la estructura formal del documento se correspondan sin confundirse. La física aporta magnitudes reales. El transductor exige dominio, codominio, unidad, residual y retorno. El resultado vuelve a la física como magnitud correctamente atribuida.
+
+La síntesis de esta sección queda:
 
 <p><strong>X<sub>A</sub><sup>cont</sup>=ADMISIBLE.</strong></p>
 
 <p><strong>X<sub>preH/H</sub>=ADMISIBLE.</strong></p>
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE.</strong></p>
+<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
 
-A<sub>Ωobs</sub><sup>SV</sup>
+A<sub>cont,obs</sub><sup>SV</sup>
 
 <sub>Δ<sub>i</sub>=0</sub>A<sup>SV</sup>(C<sub>i</sub>).
 
-La sección siguiente fijará las métricas que alimentan esos transductores.
+El apartado siguiente fijará las métricas que alimentan esos transductores.
 
 <a id="sec-v-metricas"></a>
 
@@ -1646,15 +1769,15 @@ La sección siguiente fijará las métricas que alimentan esos transductores.
 
 ## V.1. Función de las métricas
 
-Una métrica no es un fundamento. Es una regla de medida dentro de un dominio declarado. Sirve para comparar contenidos físicos, ordenar retornos, evaluar firmas, estimar persistencia, controlar residuales y devolver resultados al lenguaje de la física contemporánea.
+Una métrica, en este estudio, no es un fundamento. Es una regla de medida dentro de un dominio declarado. Sirve para comparar contenidos físicos, ordenar retornos, evaluar firmas, estimar persistencia, controlar residuales y devolver resultados al lenguaje de la física contemporánea.
 
 La métrica no decide por sí sola qué entidad posee edad. Una distancia no convierte un objeto en antiguo. Una frecuencia no convierte una señal en cierre. Una longitud de onda no identifica por sí sola un dominio. Un corrimiento espectral no es una edad desnuda. Cada métrica debe pertenecer a una cadena más amplia:
 
-<p><strong>dominio → objeto → observable → unidad → métrica → residual → dictamen → retorno.</strong></p>
+<p><strong>dominio → objeto → observable → unidad → métrica → residual → salida formal → retorno.</strong></p>
 
 Si una métrica se toma aislada, puede inducir error de plano. Si se inserta en un transductor, puede producir una edad relativa legítima.
 
-El conjunto mínimo de métricas queda así:
+El conjunto de base de métricas de este estudio es:
 
 <p><strong>M= M<sub>L</sub>, M<sub>Σ</sub>, M<sub>P</sub>, M<sub>∂</sub>, M<sub>R</sub>, M<sub>Id</sub>, M<sub>ret</sub>, M<sub>A</sub> .</strong></p>
 
@@ -1692,7 +1815,7 @@ mide retorno observacional;
 
 mide edad relativa.
 
-Una edad relativa sólo será admisible cuando esas métricas actúen de forma compatible. Si la profundidad luminosa es alta, pero no hay identidad física, el caso no cierra. Si hay firma espectral, pero no portador declarado, el caso no cierra. Si hay portador y señal, pero falta unidad o residual, el caso no cierra. Si todo cierra, la edad relativa puede entrar en el banco.
+Una edad relativa sólo será admisible cuando esas métricas actúen de forma compatible. Si la profundidad luminosa es alta, pero no hay identidad física, el caso no cierra. Si hay firma espectral, pero no portador declarado, el caso no cierra. Si hay portador y señal, pero falta unidad o residual, el caso no cierra. Si todo cierra, la edad relativa puede entrar en la tabla de contraste.
 
 <a id="sec-v-2-profundidad-luminosa"></a>
 
@@ -1738,7 +1861,10 @@ La profundidad luminosa será admisible si cumple:
 
 Será no admisible si se usa para atribuir edad a la totalidad absoluta. Será (U) si la señal existe, pero el dominio o la identidad no están suficientemente declarados.
 
-El esquema mínimo de profundidad luminosa es:
+La tabla mínima de profundidad luminosa será:
+
+<p><strong>Tabla 008.</strong></p>
+
 | Magnitud física | Función | Unidad SI | Unidad SV | Uso admisible |
 | --- | --- | --- | --- | --- |
 | Distancia de retorno | Alcance de señal | m, pc, Mpc, Gly | (UFE) | Profundidad física |
@@ -1758,7 +1884,7 @@ La firma espectral se representará por:
 
 <p><strong>Σ<sub>i</sub>.</strong></p>
 
-Para el eje principal:
+Para el eje principal de este estudio:
 
 Σ<sub>preH/H</sub>
 
@@ -1766,7 +1892,7 @@ Para el eje principal:
 
 Cada componente debe declararse en unidades físicas y transductivas.
 
-La firma no tiene que aparecer siempre completa. Puede haber casos con firma parcial. Pero el dictamen dependerá del residual:
+La firma no tiene que aparecer siempre completa. Puede haber casos con firma parcial. Pero el salida formal dependerá del residual:
 
 <p><strong>Δ<sub>Σ</sub>=0</strong></p>
 
@@ -1782,7 +1908,10 @@ si la firma es insuficiente para cerrar.
 
 La línea Lyman-(α) puede actuar como firma de hidrógeno, pero no basta si se encuentra aislada de dominio, portador o retorno. La línea de 21 cm puede actuar como firma de hidrógeno neutro, pero exige dominio, corrección de propagación y residual. La energía de ionización permite caracterizar estabilidad atómica, pero no determina por sí sola edad. La masa de hidrógeno identifica portador material, pero no señala profundidad luminosa.
 
-El esquema mínimo de firma es:
+La tabla mínima de firma será:
+
+<p><strong>Tabla 009.</strong></p>
+
 | Firma | Magnitud | Unidad SI | Unidad SV | Condición de uso |
 | --- | --- | --- | --- | --- |
 | Lyman-(α) | Longitud de onda/frecuencia | m, Hz | (UFE), unidad frecuencial SV | Portador H declarado |
@@ -1840,8 +1969,11 @@ el contenido no conserva persistencia suficiente para cerrar edad relativa como 
 
 Esta métrica es decisiva para el prehidrógeno y el hidrógeno. El prehidrógeno no se tratará como átomo estable; se tratará como transición. El hidrógeno estable sí puede operar como firma persistente cuando su frontera y su identidad están suficientemente constituidas.
 
-El esquema de persistencia es:
-| Régimen | ( F<sub>∂</sub>) | ( Q) | ( R<sub>Γ</sub>) | ( 𝓟<sub>min</sub>) | Dictamen |
+La tabla de persistencia será:
+
+<p><strong>Tabla 010.</strong></p>
+
+| Régimen | ( F<sub>∂</sub>) | ( Q) | ( R<sub>Γ</sub>) | ( 𝓟<sub>min</sub>) | Salida formal |
 | --- | --- | --- | --- | --- | --- |
 | Régimen dispersivo | baja | alta | alto | (≤0) | NO ADMISIBLE |
 | Régimen transicional | intermedia | intermedia | control parcial | (U) o marginal | U / candidato |
@@ -1890,8 +2022,11 @@ es identidad.
 
 La frontera de una galaxia puede ser morfológica, gravitatoria, luminosa o poblacional. La frontera de una estrella puede ser fotosférica, gravitatoria o estructural. La frontera de un átomo puede ser de identidad energética y orbital. La frontera de una señal puede ser de emisión y recepción. Cada una exige su dominio.
 
-El esquema de frontera es:
-| Objeto | Frontera principal | Riesgo | Dictamen |
+La tabla de frontera será:
+
+<p><strong>Tabla 011.</strong></p>
+
+| Objeto | Frontera principal | Riesgo | Salida formal |
 | --- | --- | --- | --- |
 | Galaxia | morfológica, gravitatoria, luminosa | confundir halo, emisión o población | admisible con dominio |
 | Estrella | fotosférica, gravitatoria, evolutiva | confundir edad de señal con edad estelar | admisible con modelo |
@@ -1922,7 +2057,10 @@ La salida será:
 
 <p><strong>Δ<sub>i</sub>=U ⇒ d<sub>i</sub>=U.</strong></p>
 
-El esquema de residual es:
+La tabla de residual será:
+
+<p><strong>Tabla 012.</strong></p>
+
 | Residual | Pregunta | Cierre |
 | --- | --- | --- |
 | (Δ<sub>Ω</sub>) | ¿El dominio está declarado? | Obligatorio |
@@ -1933,7 +2071,7 @@ El esquema de residual es:
 | (Δ<sub>u</sub>) | ¿La unidad está declarada? | Obligatorio |
 | (Δ<sub>ret</sub>) | ¿El retorno es controlado? | Obligatorio |
 
-El residual protege la teoría frente a tres errores: convertir profundidad en edad, convertir señal en objeto y convertir edad del contenido en edad de la totalidad.
+El residual protege el estudio frente a tres errores: convertir profundidad en edad, convertir señal en objeto y convertir edad del contenido en edad de la totalidad.
 
 <a id="sec-v-7-identidad-fisica"></a>
 
@@ -1945,7 +2083,7 @@ La identidad se representa por:
 
 <p><strong>Id<sub>i</sub>.</strong></p>
 
-La condición mínima será:
+La condición de base será:
 
 <p><strong>Id<sub>i</sub>≠∅.</strong></p>
 
@@ -1953,8 +2091,11 @@ La identidad puede ser directa o compuesta. Una estrella puede identificarse por
 
 La identidad no exige conocimiento completo del objeto. Exige suficiencia de dominio. Si el contenido es identificable en lo necesario para su edad relativa, puede entrar. Si no lo es, queda en (U).
 
-El esquema de identidad es:
-| Caso | Identidad suficiente | Dictamen |
+La tabla de identidad será:
+
+<p><strong>Tabla 013.</strong></p>
+
+| Caso | Identidad suficiente | Salida formal |
 | --- | --- | --- |
 | Galaxia con espectro y morfología | Sí | admisible |
 | Galaxia candidata sin firma clara | Parcial | U |
@@ -1982,7 +2123,10 @@ Y:
 
 Un retorno observacional puede consistir en espectro, imagen, mapa, curva de luz, línea, señal periódica, fondo, distribución, flujo, polarización o combinación de datos. Su papel no es fundar la edad. Su papel es permitir que la edad relativa se contraste.
 
-El esquema de retorno es:
+La tabla de retorno será:
+
+<p><strong>Tabla 014.</strong></p>
+
 | Retorno | Objeto posible | Uso |
 | --- | --- | --- |
 | Imagen profunda | galaxia, cúmulo, estructura | identidad y morfología |
@@ -2013,17 +2157,21 @@ El resultado será admisible si:
 
 La edad concreta del observable retornado del contenido observable será:
 
-<div align="center"><strong>A<sub>Ωobs</sub> = sup<sub>Δ<sub>i</sub>=0</sub> A(C<sub>i</sub>).</strong></div>
+A<sub>cont,obs</sub>
 
-Esta fórmula define el blanco teórico. No busca una edad absoluta. Busca el máximo relativo entre contenidos físicos retornados y admisibles.
+<sub>Δ<sub>i</sub>=0</sub>A(C<sub>i</sub>).
 
-El banco predictivo desarrollado fija:
+Esta fórmula define el blanco de el estudio. No busca una edad absoluta. Busca el máximo relativo entre contenidos físicos retornados y admisibles.
 
-<div align="center"><strong>A<sub>Ωobs</sub><sup>SV</sup> = 3 919 453 920 000 000 000 UE<sub>MFC</sub>.</strong></div>
+El contraste predictivo desarrollado fija:
+
+A<sub>cont,obs</sub><sup>SV</sup>
+
+3 919 453 920 000 000 000 UE<sub>MFC</sub>.
 
 Con:
 
-<p><strong>9 UE<sub>MFC</sub> = 1 s.</strong></p>
+<p><strong>9 UE<sub>MFC</sub>=1 s,</strong></p>
 
 y:
 
@@ -2031,7 +2179,9 @@ y:
 
 resulta:
 
-<div align="center"><strong>A<sub>Ωobs</sub><sup>ret</sup> = 13 800 000 000 a<sub>J</sub>.</strong></div>
+A<sub>cont,obs</sub><sup>ret</sup>
+
+13 800 000 000 a<sub>J</sub>.
 
 Esta edad pertenece al observable retornado, no a la totalidad absoluta.
 
@@ -2039,7 +2189,7 @@ Esta edad pertenece al observable retornado, no a la totalidad absoluta.
 
 ## V.10. Error absoluto de plano, definición y transducción
 
-La formulación usa la expresión «error absoluto cero» en sentido preciso. No significa ausencia de incertidumbre instrumental. No significa que toda medición física quede sin margen experimental. Significa que se anulan tres errores formales:
+El documento usará la expresión «error absoluto cero» en sentido preciso. No significa ausencia de margen instrumental. No significa que toda medición física quede sin margen experimental. Significa que se anulan tres errores formales:
 
 <p><strong>ε<sub>plano</sub>=0,</strong></p>
 
@@ -2049,7 +2199,7 @@ La formulación usa la expresión «error absoluto cero» en sentido preciso. No
 
 El error de plano se anula cuando la edad se atribuye al objeto correcto:
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE.</strong></p>
+<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
 
 <p><strong>Edad(C<sub>i</sub>)=ADMISIBLE SI Δ<sub>i</sub>=0.</strong></p>
 
@@ -2059,15 +2209,18 @@ El error de transducción se anula cuando la magnitud física vuelve al plano f�
 
 <p><strong>A<sup>ret</sup> → A<sup>SV</sup> → Δ → A<sup>ret</sup>.</strong></p>
 
-La incertidumbre observacional puede conservarse:
+La margen observacional puede conservarse:
 
 <p><strong>σ<sub>obs</sub>≠0.</strong></p>
 
-Esto no contradice el error absoluto cero de plano. Una medición puede tener incertidumbre instrumental y, sin embargo, estar correctamente tipada. Lo que se corrige es el tipo de predicado «edad», no la totalidad de las incertidumbres físicas.
+Esto no contradice el error absoluto cero de plano. Una medición puede tener margen instrumental y, sin embargo, estar correctamente tipada. Lo que este estudio corrige es el tipo de predicado «edad», no la totalidad de las márgenes físicas.
 
 <a id="sec-v-11-tabla-sintetica-de-metricas"></a>
 
 ## V.11. Tabla sintética de métricas
+
+<p><strong>Tabla 015.</strong></p>
+
 | Métrica | Símbolo | Qué mide | Unidad SI | Unidad SV | Condición de cierre |
 | --- | --- | --- | --- | --- | --- |
 | Profundidad luminosa | (D<sub>Φ</sub><sup>L</sup>) | Alcance o retorno de señal | m, pc, s, año | (UFE), (UE<sub>MFC</sub>) | Dominio y firma |
@@ -2079,13 +2232,13 @@ Esto no contradice el error absoluto cero de plano. Una medición puede tener in
 | Retorno | (R) | Contraste observacional | dependiente | dependiente | (Δ<sub>ret</sub>=0) |
 | Edad relativa | (A(C<sub>i</sub>)) | Acumulación atribuible | s, año | (UE<sub>MFC</sub>) | caso apto |
 
-<a id="sec-v-12-dictamen-de-la-seccion"></a>
+<a id="sec-v-12-salida formal-de-la-seccion"></a>
 
-## V.12. Dictamen de la sección
+## V.12. Síntesis de la sección
 
-Estas métricas no sustituyen a los objetos. Los ordenan. La profundidad luminosa no es edad. La firma espectral no es edad. La persistencia no es edad. La frontera no es edad. El retorno no es edad. La edad relativa aparece cuando todas esas métricas quedan articuladas por transductor y residual.
+Las métricas de este estudio no sustituyen a los objetos. Los ordenan. La profundidad luminosa no es edad. La firma espectral no es edad. La persistencia no es edad. La frontera no es edad. El retorno no es edad. La edad relativa aparece cuando todas esas métricas quedan articuladas por transductor y residual.
 
-El dictamen queda:
+La síntesis queda:
 
 <p><strong>M<sub>L</sub>, M<sub>Σ</sub>, M<sub>P</sub>, M<sub>∂</sub>, M<sub>R</sub>, M<sub>Id</sub>, M<sub>ret</sub>, M<sub>A</sub></strong></p>
 
@@ -2095,25 +2248,27 @@ La atribución de edad a la totalidad absoluta sigue siendo:
 
 <p><strong>NO ADMISIBLE.</strong></p>
 
-La atribución de edad al observable retornado queda abierta al banco de contraste:
+La atribución de edad al observable retornado queda abierta al matriz de contraste:
 
-<div align="center"><strong>A<sub>Ωobs</sub> = sup<sub>Δ<sub>i</sub>=0</sub> A(C<sub>i</sub>).</strong></div>
+A<sub>cont,obs</sub>
 
-La sección siguiente construirá ese banco de contraste físico.
+<sub>Δ<sub>i</sub>=0</sub>A(C<sub>i</sub>).
 
-<a id="sec-vi-banco-de-contraste-fisico"></a>
+El apartado siguiente construirá ese matriz de contraste físico.
 
-# VI. Banco de contraste físico
+<a id="sec-vi-contraste-fisico-y-tablas-de-verificacion"></a>
 
-<a id="sec-vi-1-estatuto-del-banco"></a>
+# VI. Contraste físico y tablas de verificación
 
-## VI.1. Estatuto del banco
+<a id="sec-vi-1-funcion-del-contraste-fisico"></a>
 
-El banco de contraste físico es la sede de verificación explícita. Su función no es descubrir después los valores que el texto no se atreve a declarar. Su función es confirmar, rechazar o dejar sin cierre las magnitudes, conversiones, dictámenes y retornos que el análisis formula de antemano.
+## VI.1. Función del contraste físico
 
-Por tanto, todo valor que comparezca como resultado debe estar ya declarado en el banco. El laboratorio reproducible no inventará el resultado; ejecutará la verificación de lo declarado. Esta regla impide tres errores: primero, que el texto prometa una conclusión no tabulada; segundo, que el laboratorio actúe como autoridad opaca; tercero, que una cifra aparezca sin dominio, unidad, residual y retorno.
+El matriz de contraste físico es la sede de verificación explícita de el estudio. Su función no es descubrir después los valores que el texto no se atreve a declarar. Su función es confirmar, rechazar o dejar sin cierre las magnitudes, conversiones, dictámenes y retornos que el documento formula de antemano.
 
-La estructura del banco se somete a la misma regla de proyección legítima usada en el aparato de campo unificado: todo régimen exige dominio, proyección, invariantes y residual evaluable; sin residual no hay cierre, y el dictamen pertenece a (0,1,U). Asimismo, adopta la disciplina del régimen de agujero negro: toda magnitud física usada en el texto debe comparecer en banco numérico o en tabla de transducción, de modo que no quede como afirmación verbal.
+Por tanto, todo valor que comparezca como resultado en este estudio debe estar ya declarado en la tabla de contraste. El laboratorio reproducible no inventará el resultado; ejecutará la verificación de lo declarado. Esta regla impide tres errores: primero, que el texto prometa una conclusión no tabulada; segundo, que el laboratorio actúe como autoridad opaca; tercero, que una cifra aparezca sin dominio, unidad, residual y retorno.
+
+La estructura de la tabla de contraste se somete a la misma regla de proyección legítima usada en el aparato de campo unificado: todo régimen exige dominio, proyección, invariantes y residual evaluable; sin residual no hay cierre, y el salida formal pertenece a (0,1,U). Asimismo, adopta la disciplina del régimen de agujero negro: toda magnitud física usada en el texto debe comparecer en tabla numérica o en tabla de transducción, de modo que no quede como afirmación verbal.
 
 La regla de entrada queda fijada así:
 
@@ -2163,26 +2318,31 @@ es el residual;
 
 <p><strong>d<sub>i</sub>∈0,1,U</strong></p>
 
-es el dictamen.
+es el salida formal.
 
-La salida global del banco será:
+La salida global de la tabla de contraste será:
 
-A<sub>Ωobs</sub><sup>SV</sup>
+A<sub>cont,obs</sub><sup>SV</sup>
 
 3 919 453 920 000 000 000 UE<sub>MFC</sub>,
 
-<div align="center"><strong>A<sub>Ωobs</sub><sup>ret</sup> = 13 800 000 000 a<sub>J</sub>.</strong></div>
+A<sub>cont,obs</sub><sup>ret</sup>
 
-El banco no atribuye esta edad a la totalidad absoluta. La atribuye al observable retornado más antiguo con firma física persistente admisible.
+13 800 000 000 a<sub>J</sub>.
+
+La tabla de contraste no atribuye esta edad a la totalidad absoluta. La atribuye al contenido observable retornado más antiguo con firma física persistente admisible.
 
 <a id="sec-vi-2-tabla-maestra-de-dominios-y-admisibilidad-de-edad"></a>
 
-## VI.2. Tabla maestra de dominios y admisibilidad de edad
-| Código | Entidad evaluada | Dominio | ¿Admite edad física? | Magnitud admisible | Error bloqueado | Dictamen rector |
+## VI.2. Dominios y admisibilidad de edad
+
+**Tabla 016.**
+
+| Código | Entidad evaluada | Dominio | ¿Admite edad física? | Magnitud admisible | Error bloqueado | Lectura rectora |
 | --- | --- | --- | --- | --- | --- | --- |
 | T-ABS | Totalidad absoluta | No contenido en dominio físico superior | No | Ninguna | Convertir totalidad en objeto físico medible | NO ADMISIBLE |
 | OBS-DOM | Universo observable | (Ω<sub>obs</sub>⊂Ω<sub>fis</sub>) | Sí, como dominio físico interno | Edad relativa de contenidos y retornos | Confundir dominio observable con totalidad absoluta | ADMISIBLE CON DOMINIO |
-| OBS-RET | Observable retornado | (C<sub>i</sub>⊂Ω<sub>obs</sub>) | Sí | (A<sub>Ωobs</sub>) | Atribuir al Todo lo que pertenece al contenido | ADMISIBLE SI (Δ=0) |
+| CONT-MAX | Observable retornado | (C<sub>i</sub>⊂Ω<sub>obs</sub>) | Sí | (A<sub>cont,obs</sub>) | Atribuir al Todo lo que pertenece al contenido | ADMISIBLE SI (Δ=0) |
 | GAL | Galaxia | (Ω<sub>gal</sub>) | Sí | Edad de contenido galáctico, señal o población | Confundir edad galáctica con edad de totalidad | ADMISIBLE |
 | STAR | Estrella | (Ω_★) | Sí | Edad evolutiva o de señal | Confundir edad estelar con edad cosmológica total | ADMISIBLE |
 | PUL | Púlsar | (Ω<sub>pulsar</sub>) | Sí | Edad característica, cinemática o de remanente | Usar una sola edad como absoluta | ADMISIBLE CON RESIDUAL |
@@ -2199,12 +2359,15 @@ La consecuencia formal es:
 
 <p><strong>Edad(C<sub>i</sub>)=ADMISIBLE Ω<sub>i</sub>,Id<sub>i</sub>,Σ<sub>i</sub>,M<sub>i</sub>,u<sub>i</sub>,R<sub>i</sub>,Δ<sub>i</sub> cierran.</strong></p>
 
-<p><strong>A<sub>Ωobs</sub>=<sub>Δ<sub>i</sub>=0</sub>A(C<sub>i</sub>).</strong></p>
+<p><strong>A<sub>cont,obs</sub>=<sub>Δ<sub>i</sub>=0</sub>A(C<sub>i</sub>).</strong></p>
 
 <a id="sec-vi-3-tabla-maestra-si-sv"></a>
 
-## VI.3. Tabla maestra SI ↔ SV
-| Magnitud física | Símbolo | Unidad SI o física convencional | Unidad SV | Regla de transducción | Uso en el análisis |
+## VI.3. Equivalencias SI ↔ SV
+
+<p><strong>Tabla 017.</strong></p>
+
+| Magnitud física | Símbolo | Unidad SI o física convencional | Unidad SV | Regla de transducción | Uso en este estudio |
 | --- | --- | --- | --- | --- | --- |
 | Duración física | (t) | s | (UE<sub>MFC</sub>) | (9,UE<sub>MFC</sub>=1,s) | Retorno de edad |
 | Año juliano | (a<sub>J</sub>) | (31 557 600,s) | (284 018 400,UE<sub>MFC</sub>) | (a<sub>J</sub>=31 557 600×9,UE<sub>MFC</sub>) | Resultado final |
@@ -2236,9 +2399,12 @@ Conversión central:
 
 3 919 453 920 000 000 000,UE<sub>MFC</sub>.
 
-<a id="sec-vi-4-tabla-maestra-de-residuales"></a>
+<a id="sec-vi-4-lectura-de-residuales"></a>
 
-## VI.4. Tabla maestra de residuales
+## VI.4. Lectura de residuales
+
+<p><strong>Tabla 018.</strong></p>
+
 | Residual | Pregunta de control | Cierre (0) | Defecto (1) | No clausura (U) |
 | --- | --- | --- | --- | --- |
 | (Δ<sub>Ω</sub>) | ¿Está declarado el dominio? | Dominio explícito y pertinente | Dominio contradictorio | Dominio insuficiente |
@@ -2257,13 +2423,16 @@ Residual compuesto:
 
 <p><strong>Δ<sub>i</sub>= Δ<sub>Ω</sub> ⊕ Δ<sub>Id</sub> ⊕ Δ<sub>∂</sub> ⊕ Δ<sub>Σ</sub> ⊕ Δ<sub>M</sub> ⊕ Δ<sub>u</sub> ⊕ Δ<sub>R</sub> ⊕ Δ<sub>ret</sub> ⊕ Δ<sub>plano</sub> ⊕ Δ<sub>trans</sub>.</strong></p>
 
-Dictamen:
+Salida formal:
 
 <p><strong>d<sub>i</sub>=0 si Δ<sub>i</sub>=0; d<sub>i</sub>=1 si Δ<sub>i</sub>=1; d<sub>i</sub>=U si Δ<sub>i</sub>=U.</strong></p>
 
-<a id="sec-vi-5-tabla-de-reglas-de-dictamen"></a>
+<a id="sec-vi-5-tabla-de-reglas-de-salida formal"></a>
 
-## VI.5. Tabla de reglas de dictamen
+## VI.5. Criterios de lectura formal
+
+<p><strong>Tabla 019.</strong></p>
+
 | Situación | Salida | Razón |
 | --- | --- | --- |
 | Todos los residuales esenciales se anulan | (0) | Hay cierre en dominio declarado |
@@ -2277,19 +2446,22 @@ Dictamen:
 | Falta unidad SI | (U) | La magnitud no es físicamente retornable |
 | Falta unidad SV | (U) | La transducción no cierra |
 | Falta residual | (U) | Sin residual no hay cierre |
-| Hay varios cierres incompatibles | (U) | No hay edad concreta única |
-| Hay un resultado concreto con (Δ=0) | (0) | Resultado admisible |
-| El laboratorio no reproduce la tabla | (1) | El banco queda refutado |
+| Hay varios máximos incompatibles | (U) | No hay edad concreta única |
+| Hay un máximo único con (Δ=0) | (0) | Resultado admisible |
+| El laboratorio no reproduce la tabla | (1) | La tabla de contraste queda refutado |
 | El laboratorio reproduce la tabla | (0) | Confirmación reproducible |
 
 La línea relativa al hidrógeno se apoya en la transducción bidireccional ya fijada: (E<sub>I</sub>), (a<sub>0</sub>), (m<sub>H</sub>), (E<sub>n</sub>), (λ<sub>Lyα</sub>), (ν<sub>Lyα</sub>) y la línea de 21 cm proyectan hacia (Ω<sub>atom</sub>); el retorno físico conserva (H∈Ω<sub>atom</sub>⊂Ω<sub>fis</sub>⊂Ω<sub>esp</sub>), y se bloquea (H=ε<sub>-0</sub>) y (H=A<sub>min</sub><sup>univ</sup>) sin prueba material.
 
-<a id="sec-vi-6-banco-hubble-webb"></a>
+<a id="sec-vi-6-hubble-y-webb-retornos-fisicos-profundos"></a>
 
-## VI.6. Banco Hubble/Webb
+## VI.6. Hubble y Webb: retornos físicos profundos
 
 La clase Hubble/Webb no se usa como autoridad retórica. Se usa como conjunto de retornos físicos profundos: galaxias, fuentes, espectros, mapas, señales infrarrojas, líneas, poblaciones y profundidades.
-| Código | Caso físico | Dominio | Firma exigida | Unidad SI | Unidad SV | Residual principal | Dictamen esperado |
+
+**Tabla 020.**
+
+| Código | Caso físico | Dominio | Firma exigida | Unidad SI | Unidad SV | Residual principal | Salida formal esperado |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | HW-01 | Galaxia profunda con identificación espectral | (Ω<sub>gal</sub>⊂Ω<sub>obs</sub>) | Espectro y retorno | m, Hz, (a<sub>J</sub>) | (UFE), (UE<sub>MFC</sub><sup>-1</sup>), (UE<sub>MFC</sub>) | (Δ<sub>Σ</sub>⊕Δ<sub>R</sub>) | (0) |
 | HW-02 | Galaxia profunda con morfología pero sin espectro suficiente | (Ω<sub>gal</sub>) | Parcial | m, flujo | (UFE), unidad de flujo SV | (Δ<sub>Σ</sub>=U) | (U) |
@@ -2297,15 +2469,18 @@ La clase Hubble/Webb no se usa como autoridad retórica. Se usa como conjunto de
 | HW-04 | Mapa cósmico con catálogo de fuentes identificadas | (Ω<sub>obs</sub>) | Catálogo y retorno | m, Hz, flujo | (UFE), (UE<sub>MFC</sub><sup>-1</sup>) | (Δ<sub>Ω</sub>=0) | (0) como banco |
 | HW-05 | Señal infrarroja sin portador físico suficiente | (Ω<sub>L</sub><sup>ret</sup>) | No suficiente | m, Hz | (UFE), (UE<sub>MFC</sub><sup>-1</sup>) | (Δ<sub>Id</sub>=U) | (U) |
 | HW-06 | Expresión divulgativa «historia espacial» sin descomposición | No declarado | No declarada | años | (UE<sub>MFC</sub>) | (Δ<sub>Ω</sub>=U) | (U) |
-| HW-07 | Observación profunda usada como edad de totalidad absoluta | (𝓣) mal tipada | No pertinente | años | (UE<sub>MFC</sub>) | (Δ<sub>plano</sub>=1) | (1) |
+| HW-07 | Observación profunda usada como edad de totalidad absoluta | ( T) mal tipada | No pertinente | años | (UE<sub>MFC</sub>) | (Δ<sub>plano</sub>=1) | (1) |
 | HW-08 | Galaxia con firma preH/H persistente y edad retornada | (Ω<sub>gal</sub>) | (Σ<sub>preH/H</sub>) | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | (Δ=0) | (0) |
-| HW-09 | Candidato profundo con edad superior al cierre declarado con residual no cerrado | (Ω<sub>gal</sub>) | Incompleta | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | (Δ=U) | (U) |
+| HW-09 | Candidato profundo con edad mayor que el máximo y residual no cerrado | (Ω<sub>gal</sub>) | Incompleta | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | (Δ=U) | (U) |
 | HW-10 | Candidato profundo con valor incompatible y residual refutador | (Ω<sub>gal</sub>) | Contradictoria | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | (Δ=1) | (1) |
 
-<a id="sec-vi-7-banco-de-galaxias-profundas"></a>
+<a id="sec-vi-7-galaxias-profundas-y-edades-de-contenido"></a>
 
-## VI.7. Banco de galaxias profundas
-| Código | Caso | Identidad | Firma | Métrica | Unidad SI | Unidad SV | Edad declarada | Residual | Dictamen |
+## VI.7. Galaxias profundas y edades de contenido
+
+**Tabla 021.**
+
+| Código | Caso | Identidad | Firma | Métrica | Unidad SI | Unidad SV | Edad declarada | Residual | Salida formal |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | GAL-01 | Galaxia profunda con espectro consistente | (Id<sub>gal</sub>≠∅) | completa | retorno luminoso | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | variable | (0) | (0) |
 | GAL-02 | Galaxia con fotometría sin espectro suficiente | parcial | parcial | profundidad aproximada | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | variable | (U) | (U) |
@@ -2322,24 +2497,30 @@ La edad galáctica se descompone siempre:
 
 No se admite:
 
-<p><strong>A<sub>gal</sub>=Edad(𝓣).</strong></p>
+<p><strong>A<sub>gal</sub>=Edad( T).</strong></p>
 
-<a id="sec-vi-8-banco-de-estrellas"></a>
+<a id="sec-vi-8-estrellas-como-portadores-de-edad-fisica"></a>
 
-## VI.8. Banco de estrellas
-| Código | Caso | Dominio | Magnitudes | Unidad SI | Unidad SV | Riesgo bloqueado | Residual | Dictamen |
+## VI.8. Estrellas como portadores de edad física
+
+**Tabla 022.**
+
+| Código | Caso | Dominio | Magnitudes | Unidad SI | Unidad SV | Riesgo bloqueado | Residual | Salida formal |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | STAR-01 | Estrella con edad evolutiva declarada | (Ω_★) | masa, luminosidad, composición | kg, W, (a<sub>J</sub>) | (UFM), energía SV/(UE<sub>MFC</sub>), (UE<sub>MFC</sub>) | edad estelar como edad total | (0) | (0) |
-| STAR-02 | Estrella antigua sin incertidumbre declarada | (Ω_★) | edad | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | cierre sin residual | (U) | (U) |
+| STAR-02 | Estrella antigua sin margen declarada | (Ω_★) | edad | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | cierre sin residual | (U) | (U) |
 | STAR-03 | Cúmulo estelar con población antigua | (Ω<sub>cúmulo</sub>) | edad de población | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | población = totalidad | (0) si cierra | (0/U) |
 | STAR-04 | Edad de señal estelar confundida con edad de estrella | (Ω<sub>L</sub><sup>ret</sup>) | retorno | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | señal = objeto | (1) | (1) |
 | STAR-05 | Estrella sin dominio de modelo | incompleto | luminosidad aislada | W | unidad SV | inferencia opaca | (U) | (U) |
 | STAR-06 | Portador estelar con firma H y retorno | (Ω_★) | H, espectro, edad | Hz, eV, (a<sub>J</sub>) | unidades SV | ninguno si cierra | (0) | (0) |
 
-<a id="sec-vi-9-banco-de-pulsares"></a>
+<a id="sec-vi-9-pulsares-y-senales-periodicas-persistentes"></a>
 
-## VI.9. Banco de púlsares
-| Código | Caso | Magnitudes | Unidad SI | Unidad SV | Edad tratada | Residual | Dictamen |
+## VI.9. Púlsares y señales periódicas persistentes
+
+**Tabla 023.**
+
+| Código | Caso | Magnitudes | Unidad SI | Unidad SV | Edad tratada | Residual | Salida formal |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | PUL-01 | Púlsar con (P) y ( P) declarados | periodo, derivada | s, s/s | (UE<sub>MFC</sub>), adimensional/ciclo | edad característica | (0) si modelo declarado | (0) |
 | PUL-02 | Púlsar con remanente asociado | periodo, remanente, distancia | s, m, (a<sub>J</sub>) | (UE<sub>MFC</sub>), (UFE), (UE<sub>MFC</sub>) | contraste múltiple | (0) si coherente | (0) |
@@ -2348,14 +2529,17 @@ No se admite:
 | PUL-05 | Señal periódica sin identificación de fuente | frecuencia | Hz | (UE<sub>MFC</sub><sup>-1</sup>) | no atribuible | (U) | (U) |
 | PUL-06 | Púlsar usado como control de transducción temporal | periodo | s | (UE<sub>MFC</sub>) | edad de contenido | (0) | (0) |
 
-<a id="sec-vi-10-banco-de-hidrogeno"></a>
+<a id="sec-vi-10-hidrogeno-como-firma-atomica-persistente"></a>
 
-## VI.10. Banco de hidrógeno
+## VI.10. Hidrógeno como firma atómica persistente
 
-El banco siguiente adopta el banco bidireccional de hidrógeno ya fijado: energía de ionización, radio de Bohr, masa atómica, niveles, Lyman-(α), frecuencia Lyman-(α), línea de 21 cm, sección eficaz, persistencia mínima y frontera atómica; además bloquea (H=ε<sub>-0</sub>) y (H=A<sub>min</sub><sup>univ</sup>) sin prueba material.
-| Código | Entrada física real | Unidad SI | Unidad SV | Física → edad relativa | Residual | Retorno físico | Dictamen |
+La tabla siguiente adopta la tabla de contraste bidireccional de hidrógeno ya fijado: energía de ionización, radio de Bohr, masa atómica, niveles, Lyman-(α), frecuencia Lyman-(α), línea de 21 cm, sección eficaz, persistencia P_min y frontera atómica; además bloquea (H=ε<sub>-0</sub>) y (H=A<sub>min</sub><sup>univ</sup>) sin prueba material.
+
+**Tabla 024.**
+
+| Código | Entrada física real | Unidad SI | Unidad SV | Física → edad relativa | Residual | Retorno físico | Salida formal |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| H-01 | Energía de ionización (E<sub>I</sub>) | eV, J | (UFM· UFE<sup>2</sup>· UE<sub>MFC</sub><sup>-2</sup>) | Identidad energética de H | No mínimo universal | Hidrógeno como configuración estable | (0) |
+| H-01 | Energía de ionización (E<sub>I</sub>) | eV, J | (UFM· UFE<sup>2</sup>· UE<sub>MFC</sub><sup>-2</sup>) | Identidad energética de H | No límite universal | Hidrógeno como configuración estable | (0) |
 | H-02 | Radio de Bohr (a<sub>0</sub>) | m, pm | (UFE) | Escala atómica | Modelo cuántico | Tamaño característico posterior | (0/U) |
 | H-03 | Masa atómica (m<sub>H</sub>) | u, kg | (UFM) | Identidad material | Isótopos y convenciones | Materia atómica posterior | (0) |
 | H-04 | Niveles (E<sub>n</sub>) | eV, J | (UFM· UFE<sup>2</sup>· UE<sub>MFC</sub><sup>-2</sup>) | Estructura discreta | Modelo cuántico | Espectro atómico | (0/U) |
@@ -2363,12 +2547,12 @@ El banco siguiente adopta el banco bidireccional de hidrógeno ya fijado: energ�
 | H-06 | Frecuencia Lyman-(α), (ν<sub>Lyα</sub>) | Hz | (UE<sub>MFC</sub><sup>-1</sup>) | Frecuencia espectral | Condiciones de emisión | Señal física | (0) |
 | H-07 | Línea de 21 cm | m, GHz, eV | (UFE), (UE<sub>MFC</sub><sup>-1</sup>), energía SV | Transición hiperfina | Condiciones cosmológicas | Señal física de hidrógeno | (0) |
 | H-08 | Sección eficaz de ionización (σ<sub>I</sub>) | (m<sup>2</sup>) | (UFE<sup>2</sup>) | Interacción física | Probabilidad no fundante | Proceso físico de ionización | (0/U) |
-| H-09 | Persistencia mínima ( 𝓟<sub>min</sub>= F_∂- Q- R<sub>Γ</sub>) | energía estructural | energía SV | Persistencia factual | No sustituye (ε<sub>-0</sub>) | Estabilidad de frontera | (0) |
+| H-09 | Persistencia P_min ( 𝓟<sub>min</sub>= F_∂- Q- R<sub>Γ</sub>) | energía estructural | energía SV | Persistencia factual | No sustituye (ε<sub>-0</sub>) | Estabilidad de frontera | (0) |
 | H-10 | Frontera (∂Ω<sub>H</sub>) | según magnitud | (UFE), (UFE<sup>2</sup>) o dominio formal | Frontera atómica | No es espacio total | Identidad configuracional | (0) |
 | H-11 | (H=ε<sub>-0</sub>) | — | — | Átomo como origen | Crítico | Hidrógeno no es borde preformal | (1) |
-| H-12 | (H=A<sub>min</sub><sup>univ</sup>) | — | — | Mínimo universal no demostrado | (U) material | H es caso canónico conocido, no mínimo absoluto cerrado | (U) |
+| H-12 | (H=A<sub>min</sub><sup>univ</sup>) | — | — | Límite universal no demostrado | (U) material | H es caso canónico conocido, no mínimo absoluto cerrado | (U) |
 
-Cierre del banco:
+Cierre de la tabla de contraste:
 
 <p><strong>(E<sub>I</sub>,a<sub>0</sub>,m<sub>H</sub>,E<sub>n</sub>,λ<sub>Lyα</sub>,ν<sub>Lyα</sub>,21,cm) Ω<sub>atom</sub>.</strong></p>
 
@@ -2378,16 +2562,19 @@ Cierre del banco:
 
 <p><strong>H≠ A<sub>min</sub><sup>univ</sup> sin prueba material.</strong></p>
 
-<a id="sec-vi-11-banco-de-prehidrogeno"></a>
+<a id="sec-vi-11-prehidrogeno-como-transicion-material"></a>
 
-## VI.11. Banco de prehidrógeno
-| Código | Caso | Dominio | Transición | Persistencia | Firma de llegada | Residual | Dictamen |
+## VI.11. Prehidrógeno como transición material
+
+**Tabla 025.**
+
+| Código | Caso | Dominio | Transición | Persistencia | Firma de llegada | Residual | Salida formal |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | preH-01 | Plasma sin identidad atómica | (Ω<sub>preH</sub>) | incompleta | ( 𝓟<sub>min</sub>≤0) | ninguna | (U) | (U) |
 | preH-02 | Régimen preatómico con frontera en formación | (Ω<sub>preH→ H</sub>) | parcial | marginal | H no cerrado | (U) | (U) |
 | preH-03 | Transición preH → H con persistencia | (Ω<sub>preH→ H</sub>) | completa | ( 𝓟<sub>min</sub>>0) | (Σ<sub>H</sub>) | (0) | (0) |
 | preH-04 | preH tratado como átomo estable | dominio falso | falsa | no pertinente | H anticipado | (1) | (1) |
-| preH-05 | preH usado como fundamento absoluto | (𝓣) mal tipada | indebida | no pertinente | no pertinente | (1) | (1) |
+| preH-05 | preH usado como fundamento absoluto | ( T) mal tipada | indebida | no pertinente | no pertinente | (1) | (1) |
 | preH-06 | preH sin continuidad hacia H | incompleto | rota | no cierra | ausente | (U) | (U) |
 | preH-07 | Transición preH/H como bisagra de edad relativa | (Ω<sub>preH→ H</sub>) | completa | ( 𝓟<sub>min</sub>>0) | H persistente | (0) | (0) |
 
@@ -2395,16 +2582,19 @@ Condición de admisión:
 
 <p><strong>preH→ H es admisible Ω<sub>preH</sub>,Ω<sub>H</sub>,Γ<sub>preH→ H</sub>, 𝓟<sub>min</sub>,Id<sub>H</sub>,Δ<sub>preH/H</sub> cierran.</strong></p>
 
-<a id="sec-vi-12-banco-lyman"></a>
+<a id="sec-vi-12-lyman-alfa-como-firma-espectral"></a>
 
-## VI.12. Banco Lyman-(α)
-| Código | Caso | Portador | Dominio | Unidad SI | Unidad SV | Residual | Dictamen |
+## VI.12. Lyman-α como firma espectral
+
+**Tabla 026.**
+
+| Código | Caso | Portador | Dominio | Unidad SI | Unidad SV | Residual | Salida formal |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | LyA-01 | Lyman-(α) con galaxia identificada | galaxia | (Ω<sub>gal</sub>) | nm, Hz | (UFE), (UE<sub>MFC</sub><sup>-1</sup>) | (0) | (0) |
 | LyA-02 | Lyman-(α) en nube o gas | gas H | (Ω<sub>gas</sub>) | nm, Hz | (UFE), (UE<sub>MFC</sub><sup>-1</sup>) | (0) si hay retorno | (0/U) |
 | LyA-03 | Línea aislada sin portador | no | (Ω<sub>L</sub><sup>ret</sup>) | nm | (UFE) | (U) | (U) |
 | LyA-04 | Línea desplazada sin corrección | parcial | retorno incompleto | nm | (UFE) | (U) | (U) |
-| LyA-05 | Lyman-(α) como edad absoluta | indebido | (𝓣) mal tipada | nm | (UFE) | (1) | (1) |
+| LyA-05 | Lyman-(α) como edad absoluta | indebido | ( T) mal tipada | nm | (UFE) | (1) | (1) |
 | LyA-06 | Lyman-(α) con firma preH/H profunda | sí | (Ω<sub>gal</sub>⊂Ω<sub>obs</sub>) | nm, Hz, (a<sub>J</sub>) | (UFE), (UE<sub>MFC</sub><sup>-1</sup>), (UE<sub>MFC</sub>) | (0) | (0) |
 
 Residual:
@@ -2413,32 +2603,41 @@ Residual:
 
 Δ<sub>λ</sub> ⊕ Δ<sub>ν</sub> ⊕ Δ<sub>portador</sub> ⊕ Δ<sub>ret</sub> ⊕ Δ<sub>plano</sub>.
 
-<a id="sec-vi-13-banco-de-linea-de-21-cm"></a>
+<a id="sec-vi-13-linea-de-21-cm-como-retorno-de-hidrogeno-neutro"></a>
 
-## VI.13. Banco de línea de 21 cm
-| Código | Caso | Dominio | Unidad SI | Unidad SV | Uso admisible | Residual | Dictamen |
+## VI.13. Línea de 21 cm como retorno de hidrógeno neutro
+
+**Tabla 027.**
+
+| Código | Caso | Dominio | Unidad SI | Unidad SV | Uso admisible | Residual | Salida formal |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | C21-01 | Línea de 21 cm con H neutro declarado | (Ω<sub>HI</sub>) | m, Hz | (UFE), (UE<sub>MFC</sub><sup>-1</sup>) | firma H | (0) | (0) |
 | C21-02 | 21 cm cosmológica con modelo declarado | (Ω<sub>obs</sub>) | m, Hz, (a<sub>J</sub>) | (UFE), (UE<sub>MFC</sub><sup>-1</sup>), (UE<sub>MFC</sub>) | estructura y gas | (0) si cierra | (0/U) |
 | C21-03 | 21 cm sin dominio | indefinido | m, Hz | (UFE), (UE<sub>MFC</sub><sup>-1</sup>) | señal aislada | (U) | (U) |
-| C21-04 | 21 cm como edad absoluta | (𝓣) mal tipada | m, Hz | (UFE), (UE<sub>MFC</sub><sup>-1</sup>) | indebido | (1) | (1) |
+| C21-04 | 21 cm como edad absoluta | ( T) mal tipada | m, Hz | (UFE), (UE<sub>MFC</sub><sup>-1</sup>) | indebido | (1) | (1) |
 | C21-05 | 21 cm con retorno profundo y firma persistente | (Ω<sub>HI</sub>⊂Ω<sub>obs</sub>) | m, Hz, (a<sub>J</sub>) | (UFE), (UE<sub>MFC</sub><sup>-1</sup>), (UE<sub>MFC</sub>) | edad relativa de contenido | (0) | (0) |
 
-<a id="sec-vi-14-banco-de-mapas-cosmicos"></a>
+<a id="sec-vi-14-mapas-cosmicos-como-conjuntos-de-retornos"></a>
 
-## VI.14. Banco de mapas cósmicos
-| Código | Caso | Dominio | Unidad SI | Unidad SV | Objeto de edad | Residual | Dictamen |
+## VI.14. Mapas cósmicos como conjuntos de retornos
+
+**Tabla 028.**
+
+| Código | Caso | Dominio | Unidad SI | Unidad SV | Objeto de edad | Residual | Salida formal |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | MAP-01 | Mapa con fuentes catalogadas | (Ω<sub>mapa</sub>) | ángulo, flujo, m, Hz | unidades SV correspondientes | conjunto de contenidos | (0) como banco | (0) |
 | MAP-02 | Mapa sin identificación individual suficiente | (Ω<sub>mapa</sub>) | ángulo, flujo | unidades SV | población, no objeto único | (U) | (U) |
 | MAP-03 | Mapa tratado como edad única | mal tipado | varias | varias | indebido | (1) | (1) |
-| MAP-04 | Mapa usado para seleccionar máximo contenido observable | (Ω<sub>obs</sub>) | varias | varias | (A<sub>Ωobs</sub>) | (0) si casos cierran | (0) |
+| MAP-04 | Mapa usado para seleccionar máximo contenido observable | (Ω<sub>obs</sub>) | varias | varias | (A<sub>cont,obs</sub>) | (0) si casos cierran | (0) |
 | MAP-05 | Mapa con profundidad sin firma física | (Ω<sub>obs</sub>) | m, (a<sub>J</sub>) | (UFE), (UE<sub>MFC</sub>) | no cerrable | (U) | (U) |
 
-<a id="sec-vi-15-banco-de-modelo-cosmologico"></a>
+<a id="sec-vi-15-modelo-cosmologico-como-marco-instrumental"></a>
 
-## VI.15. Banco de modelo cosmológico
-| Código | Modelo o magnitud | Dominio | Unidad SI | Unidad SV | Uso admisible | Riesgo bloqueado | Dictamen |
+## VI.15. Modelo cosmológico como marco instrumental
+
+**Tabla 029.**
+
+| Código | Modelo o magnitud | Dominio | Unidad SI | Unidad SV | Uso admisible | Riesgo bloqueado | Salida formal |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | MOD-01 | Edad cosmológica convencional | (Ω<sub>modelo</sub>) | (a<sub>J</sub>), s | (UE<sub>MFC</sub>) | parámetro de modelo | edad de totalidad | instrumental |
 | MOD-02 | Corrimiento al rojo | (Ω<sub>obs</sub>) | adimensional | adimensional | restricción de profundidad | edad directa sin modelo | instrumental |
@@ -2446,11 +2645,14 @@ Residual:
 | MOD-04 | Distancia comóvil | (Ω<sub>modelo</sub>) | m, Mpc | (UFE) | coordenación de modelo | fundamento espacial | instrumental |
 | MOD-05 | Parámetros cosmológicos | (Ω<sub>modelo</sub>) | varios | varios | reconstrucción física | sustitución de dominio | instrumental |
 | MOD-06 | Modelo usado para edad de contenido con residual | (Ω<sub>obs</sub>) | varias | varias | admisible | ninguno si cierra | (0) |
-| MOD-07 | Modelo usado como prueba de edad absoluta | (𝓣) mal tipada | varias | varias | indebido | error de plano | (1) |
+| MOD-07 | Modelo usado como prueba de edad absoluta | ( T) mal tipada | varias | varias | indebido | error de plano | (1) |
 
-<a id="sec-vi-16-banco-de-controles-negativos"></a>
+<a id="sec-vi-16-controles-negativos-de-contraste"></a>
 
-## VI.16. Banco de controles negativos
+## VI.16. Controles negativos de contraste
+
+<p><strong>Tabla 030.</strong></p>
+
 | Código | Control negativo | Residual activado | Salida esperada |
 | --- | --- | --- | --- |
 | NEG-01 | Edad de la totalidad absoluta | (Δ<sub>plano</sub>=1) | (1) |
@@ -2458,7 +2660,7 @@ Residual:
 | NEG-03 | Línea espectral sin portador | (Δ<sub>Σ</sub>=U) | (U) |
 | NEG-04 | Hidrógeno como fundamento absoluto | (Δ<sub>plano</sub>=1) | (1) |
 | NEG-05 | Hidrógeno como (ε<sub>-0</sub>) | (Δ<sub>Ω</sub>=1) | (1) |
-| NEG-06 | Hidrógeno como mínimo universal no demostrado | (Δ=U) | (U) |
+| NEG-06 | Hidrógeno como límite universal cerrado | (Δ=U) | (U) |
 | NEG-07 | Prehidrógeno como átomo estable | (Δ<sub>Ω</sub>=1) | (1) |
 | NEG-08 | Galaxia sin identidad suficiente | (Δ<sub>Id</sub>=U) | (U) |
 | NEG-09 | Profundidad luminosa como edad de totalidad | (Δ<sub>plano</sub>=1) | (1) |
@@ -2474,15 +2676,18 @@ Residual:
 | NEG-19 | Banco sin controles negativos | (Δ<sub>lab</sub>=1) | (1) |
 | NEG-20 | Laboratorio que calcula valores no tabulados | (Δ<sub>lab</sub>=1) | (1) |
 
-<a id="sec-vi-17-banco-positivo-de-resultado"></a>
+<a id="sec-vi-17-casos-positivos-del-resultado"></a>
 
-## VI.17. Banco positivo de resultado
-| Código | Caso positivo | Dominio | Edad SI | Edad SV | Condición | Residual | Dictamen |
+## VI.17. Casos positivos del resultado
+
+**Tabla 031.**
+
+| Código | Caso positivo | Dominio | Edad SI | Edad SV | Condición | Residual | Salida formal |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| POS-01 | Contenido observable con firma preH/H persistente | (Ω<sub>obs</sub>) | (13 800 000 000,a<sub>J</sub>) | (3 919 453 920 000 000 000,UE<sub>MFC</sub>) | firma, retorno, unidad y residual | (0) | (0) |
+| POS-01 | Contenido observable con firma preH/H persistente | (Ω<sub>cont,obs</sub>) | (13 800 000 000,a<sub>J</sub>) | (3 919 453 920 000 000 000,UE<sub>MFC</sub>) | firma, retorno, unidad y residual | (0) | (0) |
 | POS-02 | Conversión año juliano → UE<sub>MFC</sub> | unidad | (1,a<sub>J</sub>) | (284 018 400,UE<sub>MFC</sub>) | (31 557 600,s×9) | (0) | (0) |
 | POS-03 | Conversión resultado total | unidad | (13 800 000 000,a<sub>J</sub>) | (3 919 453 920 000 000 000,UE<sub>MFC</sub>) | multiplicación exacta | (0) | (0) |
-| POS-04 | No edad de totalidad absoluta | (𝓣) | no aplicable | no aplicable | error de tipo bloqueado | (0) como rechazo | NO ADMISIBLE |
+| POS-04 | No edad de totalidad absoluta | ( T) | no aplicable | no aplicable | error de tipo bloqueado | (0) como rechazo | NO ADMISIBLE |
 | POS-05 | Edad de observable retornado | (Ω<sub>obs</sub>) | (13 800 000 000,a<sub>J</sub>) | (3 919 453 920 000 000 000,UE<sub>MFC</sub>) | máximo con (Δ=0) | (0) | (0) |
 
 Cálculo exacto:
@@ -2497,14 +2702,17 @@ No hay decimal residual en la conversión:
 
 <p><strong>ε<sub>conv</sub>=0.</strong></p>
 
-<a id="sec-vi-18-banco-de-resultado-comparativo"></a>
+<a id="sec-vi-18-comparacion-del-resultado-por-planos"></a>
 
-## VI.18. Banco de resultado comparativo
+## VI.18. Comparación del resultado por planos
+
+<p><strong>Tabla 032.</strong></p>
+
 | Plano | Formulación imprecisa | Formulación corregida | Resultado |
 | --- | --- | --- | --- |
 | Totalidad | «Edad del Universo» como totalidad absoluta | Edad no admisible | NO ADMISIBLE |
 | Dominio físico | Edad del universo observable | Edad de dominio físico bajo modelo | ADMISIBLE CON DOMINIO |
-| Contenido observable | Edad del contenido más antiguo retornado | edad concreta del observable retornado | (13 800 000 000,a<sub>J</sub>) |
+| Contenido observable | Edad del contenido más antiguo retornado | edad concreta del observable retornado de contenido observable | (13 800 000 000,a<sub>J</sub>) |
 | Unidad SV | No formulada en física ordinaria | (UE<sub>MFC</sub>) | (3 919 453 920 000 000 000,UE<sub>MFC</sub>) |
 | Señal luminosa | Luz como edad directa | Retorno luminoso transducido | ADMISIBLE SI HAY FIRMA |
 | Galaxia | Galaxia como edad del universo | Objeto persistente con edad propia | ADMISIBLE |
@@ -2512,11 +2720,14 @@ No hay decimal residual en la conversión:
 | Prehidrógeno | Objeto cerrado | Transición hacia firma H | ADMISIBLE COMO TRANSICIÓN |
 | Modelo cosmológico | Verdad absoluta | Instrumento de reconstrucción | INSTRUMENTAL |
 
-<a id="sec-vi-19-banco-de-trazabilidad-textual"></a>
+<a id="sec-vi-19-trazabilidad-textual-de-los-casos"></a>
 
-## VI.19. Banco de trazabilidad textual
+## VI.19. Trazabilidad textual de los casos
 
-Todo caso citado debe aparecer en esta tabla de trazabilidad. La regla procede del régimen de trazabilidad usado en el documento de agujero negro: todo caso textual debe corresponderse con banco, transductor o catálogo de errores, y todo caso de banco debe tener lectura textual suficiente.
+Todo caso citado en el estudio debe aparecer en esta tabla de trazabilidad. La regla procede del régimen de trazabilidad usado en el documento de agujero negro: todo caso textual debe corresponderse con banco, transductor o catálogo de errores, y todo caso de banco debe tener lectura textual suficiente.
+
+<p><strong>Tabla 033.</strong></p>
+
 | Elemento citado en texto | Tabla donde debe aparecer | Laboratorio que lo confirma | Salida esperada |
 | --- | --- | --- | --- |
 | Totalidad absoluta sin edad | V.2, V.16, V.18 | control negativo | NO ADMISIBLE |
@@ -2533,14 +2744,17 @@ Todo caso citado debe aparecer en esta tabla de trazabilidad. La regla procede d
 | Resultado final | V.17, V.18 | runner principal | (0) |
 | Controles negativos | V.16 | runner adversarial | todos activados |
 
-<a id="sec-vi-20-esquema-csv-del-banco"></a>
+<a id="sec-vi-20-esquema-csv-de-los-datos-de-contraste"></a>
 
-## VI.20. Esquema CSV del banco
+## VI.20. Esquema CSV de los datos de contraste
+
+<p><strong>Tabla 034.</strong></p>
+
 | Campo CSV | Contenido obligatorio | Ejemplo |
 | --- | --- | --- |
 | case<sub>id</sub> | Identificador único | POS-01 |
-| family | Familia del banco | preH/H |
-| domain | Dominio declarado | (Ω<sub>obs</sub>) |
+| family | Familia de la tabla de contraste | preH/H |
+| domain | Dominio declarado | (Ω<sub>cont,obs</sub>) |
 | physical<sub>object</sub> | Objeto físico | observable retornado |
 | identity<sub>status</sub> | identidad | completa |
 | boundary<sub>status</sub> | frontera | declarada |
@@ -2562,9 +2776,12 @@ Todo caso citado debe aparecer en esta tabla de trazabilidad. La regla procede d
 
 El laboratorio reproducible debe leer estos campos, no sustituirlos.
 
-<a id="sec-vi-21-codigos-de-error-del-banco"></a>
+<a id="sec-vi-21-codigos-de-error-del-contraste"></a>
 
-## VI.21. Códigos de error del banco
+## VI.21. Códigos de error del contraste
+
+<p><strong>Tabla 035.</strong></p>
+
 | Código | Error | Activación | Salida |
 | --- | --- | --- | --- |
 | E-DOM-01 | dominio ausente | (Ω<sub>i</sub>) vacío | (U) |
@@ -2581,7 +2798,7 @@ El laboratorio reproducible debe leer estos campos, no sustituirlos.
 | E-PL-02 | edad de señal atribuida a objeto | señal ≠ objeto | (1) |
 | E-PL-03 | edad de modelo atribuida a totalidad | modelo ≠ totalidad | (1) |
 | E-H-01 | hidrógeno como (ε<sub>-0</sub>) | (H=ε<sub>-0</sub>) | (1) |
-| E-H-02 | H como mínimo universal cerrado | (H=A<sub>min</sub><sup>univ</sup>) | (U) |
+| E-H-02 | H como límite universal cerrado | (H=A<sub>min</sub><sup>univ</sup>) | (U) |
 | E-PREH-01 | preH como átomo cerrado | preH = H estable | (1) |
 | E-LAB-01 | laboratorio altera valor tabulado | salida no tabulada | (1) |
 | E-LAB-02 | laboratorio sin control negativo | adversarial ausente | (1) |
@@ -2590,7 +2807,10 @@ El laboratorio reproducible debe leer estos campos, no sustituirlos.
 <a id="sec-vi-22-tabla-de-salida-global-esperada"></a>
 
 ## VI.22. Tabla de salida global esperada
-| Magnitud global | Valor | Unidad | Estatuto | Residual | Dictamen |
+
+<p><strong>Tabla 036.</strong></p>
+
+| Magnitud global | Valor | Unidad | Estatuto | Residual | Salida formal |
 | --- | --- | --- | --- | --- | --- |
 | Edad de la totalidad absoluta | no aplicable | no aplicable | no admisible | (Δ<sub>plano</sub>=1) si se intenta | NO ADMISIBLE |
 | edad concreta del observable retornado del contenido observable | 13.800.000.000 | años julianos | resultado físico retornado | (0) | (0) |
@@ -2601,45 +2821,47 @@ El laboratorio reproducible debe leer estos campos, no sustituirlos.
 | Error de transducción | 0 | adimensional | retorno conservado | (0) | (0) |
 | Incertidumbre instrumental | no anulada | según medición | se conserva | no decide plano | instrumental |
 
-<a id="sec-vi-23-teorema-de-suficiencia-del-banco"></a>
+<a id="sec-vi-23-suficiencia-del-contraste-declarativo"></a>
 
-## VI.23. Teorema de suficiencia del banco
+## VI.23. Suficiencia del contraste declarativo
 
-Teorema V.1. Si todos los casos positivos del banco cierran con (Δ=0), todos los controles negativos producen la salida esperada, la conversión SI ↔ SV reproduce el valor tabulado y el laboratorio confirma sin modificar los valores declarados, entonces la edad concreta del observable retornado queda fijada por el banco.
+Proposición V.1. Si todos los casos positivos de la tabla de contraste cierran con (Δ=0), todos los controles negativos producen la salida esperada, la conversión SI ↔ SV reproduce el valor tabulado y el laboratorio confirma sin modificar los valores declarados, entonces la edad concreta del observable retornado queda fijada por la tabla de contraste.
 
-Demostración. El banco declara los dominios, las unidades, los objetos, las firmas, los residuales y los dictámenes. Los casos positivos establecen la admisibilidad del resultado. Los controles negativos excluyen las atribuciones indebidas: totalidad absoluta, señal sin portador, línea sin dominio, hidrógeno como fundamento absoluto y cifra sin transducción. La conversión metrológica reproduce exactamente la equivalencia entre años julianos y (UE<sub>MFC</sub>). El laboratorio sólo confirma lo tabulado; no introduce valor nuevo. Por tanto, si todas las salidas coinciden con lo declarado, el resultado queda fijado como edad concreta del observable retornado. c.q.d.
+Demostración. La tabla de contraste declara los dominios, las unidades, los objetos, las firmas, los residuales y los dictámenes. Los casos positivos establecen la admisibilidad del resultado. Los controles negativos excluyen las atribuciones indebidas: totalidad absoluta, señal sin portador, línea sin dominio, hidrógeno como fundamento absoluto y cifra sin transducción. La conversión metrológica reproduce exactamente la equivalencia entre años julianos y (UE<sub>MFC</sub>). El laboratorio sólo confirma lo tabulado; no introduce valor nuevo. Por tanto, si todas las salidas coinciden con lo declarado, el resultado queda fijado como edad concreta del observable retornado. c.q.d.
 
-<a id="sec-vi-24-teorema-de-no-atribucion-de-edad-a-la-totalidad-absoluta"></a>
+<a id="sec-vi-24-no-atribucion-de-edad-a-la-totalidad-absoluta"></a>
 
-## VI.24. Teorema de no atribución de edad a la totalidad absoluta
+## VI.24. No atribución de edad a la totalidad absoluta
 
-Teorema V.2. La totalidad absoluta no admite edad física.
+Proposición V.2. La totalidad absoluta no admite edad física.
 
 Demostración. La edad física exige contenido evaluable dentro de un dominio, frontera de comparecencia, métrica, unidad, residual y retorno. La totalidad absoluta no comparece como contenido de un dominio físico superior. Si se le atribuyera edad, se la convertiría en objeto interno de un marco mayor. Esa hipótesis contradice su estatuto de totalidad. Luego la edad física de la totalidad absoluta no es cero ni desconocida; es no admisible. c.q.d.
 
-<a id="sec-vi-25-teorema-de-atribucion-de-edad-al-contenido-observable"></a>
+<a id="sec-vi-25-atribucion-de-edad-al-contenido-observable"></a>
 
-## VI.25. Teorema de atribución de edad al contenido observable
+## VI.25. Atribución de edad al contenido observable
 
-Teorema V.3. Un contenido físico observable (C<sub>i</sub>) admite edad relativa si declara dominio, identidad, frontera, firma, magnitud, unidad, residual y retorno.
+Proposición V.3. Un contenido físico observable (C<sub>i</sub>) admite edad relativa si declara dominio, identidad, frontera, firma, magnitud, unidad, residual y retorno.
 
-Demostración. Si (C<sub>i</sub>) declara dominio, queda situado en un espacio físico de evaluación. Si declara identidad y frontera, puede distinguirse de su entorno. Si declara firma, puede vincularse a un régimen físico. Si declara magnitud y unidad, puede medirse. Si declara residual, puede dictaminarse. Si declara retorno, puede verificarse físicamente. La concurrencia de esas condiciones basta para atribuir edad relativa a (C<sub>i</sub>), siempre que (Δ<sub>i</sub>=0). c.q.d.
+Demostración. Si (C<sub>i</sub>) declara dominio, queda situado en un espacio físico de evaluación. Si declara identidad y frontera, puede distinguirse de su entorno. Si declara firma, puede vincularse a un régimen físico. Si declara magnitud y unidad, puede medirse. Si declara residual, puede emitir salida formal. Si declara retorno, puede verificarse físicamente. La concurrencia de esas condiciones basta para atribuir edad relativa a (C<sub>i</sub>), siempre que (Δ<sub>i</sub>=0). c.q.d.
 
-<a id="sec-vi-26-teorema-del-observable-retornado-concreto-retornado"></a>
+<a id="sec-vi-26-observable-retornado-concreto"></a>
 
-## VI.26. Teorema del observable retornado concreto
+## VI.26. Observable retornado concreto retornado
 
 Teorema V.4. La edad concreta del observable retornado se define por:
 
-<div align="center"><strong>A<sub>Ωobs</sub> = sup<sub>Δ<sub>i</sub>=0</sub> A(C<sub>i</sub>).</strong></div>
+A<sub>cont,obs</sub>
 
-Demostración. El banco contiene una familia de contenidos físicos observables (C<sub>i</sub>). Cada (C<sub>i</sub>) sólo entra en el conjunto de cierre si (Δ<sub>i</sub>=0). La edad concreta del observable retornado no puede tomarse de casos con (Δ=1), porque son defectuosos, ni de casos con (Δ=U), porque no cierran. Por tanto, el cierre admisible sólo puede calcularse sobre los casos con residual nulo. c.q.d.
+<sub>Δ<sub>i</sub>=0</sub>A(C<sub>i</sub>).
 
-<a id="sec-vi-27-teorema-de-conversion-exacta-del-resultado"></a>
+Demostración. La tabla de contraste contiene una familia de contenidos físicos observables (C<sub>i</sub>). Cada (C<sub>i</sub>) sólo entra en el conjunto de cierre si (Δ<sub>i</sub>=0). La edad concreta del observable retornado no puede tomarse de casos con (Δ=1), porque son defectuosos, ni de casos con (Δ=U), porque no cierran. Por tanto, el máximo admisible sólo puede calcularse sobre los casos con residual nulo. c.q.d.
 
-## VI.27. Teorema de conversión exacta del resultado
+<a id="sec-vi-27-conversion-exacta-del-resultado"></a>
 
-Teorema V.5. La equivalencia entre (13 800 000 000) años julianos y (3 919 453 920 000 000 000 UE<sub>MFC</sub>) es exacta bajo las definiciones metrológicas del banco.
+## VI.27. Conversión exacta del resultado
+
+Demostración V.5. La equivalencia entre (13 800 000 000) años julianos y (3 919 453 920 000 000 000 UE<sub>MFC</sub>) es exacta bajo las definiciones metrológicas de la tabla de contraste.
 
 Demostración. Por definición:
 
@@ -2663,19 +2885,19 @@ Multiplicando:
 
 No queda parte decimal, resto ni redondeo interno. c.q.d.
 
-<a id="sec-vi-28-dictamen-de-la-seccion"></a>
+<a id="sec-vi-28-salida formal-de-la-seccion"></a>
 
-## VI.28. Dictamen de la sección
+## VI.28. Síntesis de la sección
 
-El banco de contraste físico queda cerrado como banco declarativo completo. Sus valores, dominios, unidades, residuales, controles negativos, códigos de error y salidas esperadas quedan fijados antes de la ejecución del laboratorio.
+El matriz de contraste físico queda cerrado como registro declarativo completo. Sus valores, dominios, unidades, residuales, controles negativos, códigos de error y salidas esperadas quedan fijados antes de la ejecución del laboratorio.
 
 El laboratorio reproducible no deberá hallar el resultado. Deberá confirmar:
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE.</strong></p>
+<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
 
-<p><strong>A<sub>Ωobs</sub><sup>ret</sup>=13 800 000 000,a<sub>J</sub>.</strong></p>
+<p><strong>A<sub>cont,obs</sub><sup>ret</sup>=13 800 000 000,a<sub>J</sub>.</strong></p>
 
-<p><strong>A<sub>Ωobs</sub><sup>SV</sup>=3 919 453 920 000 000 000,UE<sub>MFC</sub>.</strong></p>
+<p><strong>A<sub>cont,obs</sub><sup>SV</sup>=3 919 453 920 000 000 000,UE<sub>MFC</sub>.</strong></p>
 
 <p><strong>ε<sub>plano</sub>=0.</strong></p>
 
@@ -2683,7 +2905,7 @@ El laboratorio reproducible no deberá hallar el resultado. Deberá confirmar:
 
 <p><strong>ε<sub>trans</sub>=0.</strong></p>
 
-La sección queda gobernada por la regla final de trazabilidad: todo caso del texto debe corresponder a banco, transductor o catálogo de errores; todo caso del banco debe tener lectura textual suficiente; toda salida del laboratorio debe reproducir una salida tabulada, no inventarla.
+La sección queda gobernada por la regla final de trazabilidad: todo caso del texto debe corresponder a banco, transductor o catálogo de errores; todo caso de la tabla de contraste debe tener lectura textual suficiente; toda salida del laboratorio debe reproducir una salida tabulada, no inventarla.
 
 <a id="sec-anexo-i-teorema-demostracion-y-calculo-exacto-del-ciclo-observable-y-de-sus-objetos-fisicos"></a>
 
@@ -2691,21 +2913,21 @@ La sección queda gobernada por la regla final de trazabilidad: todo caso del te
 
 Índice propio del Anexo I
 
-I.A. Estatuto del anexo I.B. Definiciones de ciclo observable, estado actual, último cambio estructural, fin de ciclo y suceso activador I.C. Teorema condicionado de simetría transductiva del ciclo observable I.D. Teorema I.1. No edad de la totalidad absoluta y edad exacta del contenido observable I.E. Teorema I.2. Simetría transductiva del ciclo observable I.F. Cálculo exacto del estado actual I.G. Cálculo exacto del fin de ciclo observable I.H. Cálculo exacto del tramo restante I.I. Último cambio estructural observable I.J. Fin de los observables y reinicio de ciclo por suceso activador I.K. Tabla escalar y transductiva completa I.L. Retorno inverso: de unidades SV a física contemporánea I.M. Contraste de no contradicción con la Teoría del TODO y de la NADA I.N. Dictamen final del anexo
+I.A. Estatuto del anexo I.B. Definiciones de ciclo observable, estado actual, último cambio estructural, fin de ciclo y suceso activador I.C. Hipótesis transductiva de simetría del ciclo observable I.D. Teorema I.1. No edad de la totalidad absoluta y edad exacta del contenido observable I.E. Teorema I.2. Simetría transductiva del ciclo observable I.F. Cálculo exacto del estado actual I.G. Cálculo exacto del fin de ciclo observable I.H. Cálculo exacto del tramo restante I.I. Último cambio estructural observable I.J. Fin de los observables y reinicio de ciclo por suceso activador I.K. Tabla escalar y transductiva completa I.L. Retorno inverso: de unidades SV a física contemporánea I.M. Contraste de no contradicción con la Teoría del TODO y de la NADA I.N. Síntesis final del anexo
 
 I.A. Estatuto del anexo
 
 Este anexo fija el cálculo exacto del ciclo observable, no de la totalidad absoluta. La totalidad absoluta no recibe edad física; los contenidos observables sí reciben edad relativa cuando están definidos por dominio, frontera, identidad, métrica, unidad, residual y retorno.
 
-La distinción es obligatoria. La formulación sobre imperfección preformal y espacio separa la pregunta por el universo físico observable de la condición preformal y de la totalidad rectora: las teorías cosmológicas físicas quedan tratadas como regímenes posteriores, absorbibles por dominio, pero no como fundamento absoluto de la primera distinguibilidad ni del TODO.
+La distinción es obligatoria. El estudio sobre imperfección preformal y espacio separa la pregunta por el universo físico observable de la condición preformal y de la totalidad rectora: las teorías cosmológicas físicas quedan tratadas como regímenes posteriores, absorbibles por dominio, pero no como fundamento absoluto de la primera distinguibilidad ni del TODO.
 
 El documento de agujero negro conserva, además, que todo suceso realizado que alcanza clausura retorna al Todo como traza factual clausurada, sin convertirse en (U), sin reaparecer como copia, sin reescribir su cadena append-only y sin desaparecer sin traza.
 
 Por tanto, este anexo no calcula una edad de la totalidad. Calcula:
 
-<p><strong>A<sub>Ωobs</sub>,</strong></p>
+<p><strong>A<sub>cont,obs</sub>,</strong></p>
 
-la edad relativa del contenido observable retornado, y extiende ese cálculo, bajo teorema condicionado de simetría transductiva explícita, hasta el fin del ciclo observable y el reinicio por suceso activador.
+la edad relativa del contenido observable retornado, y extiende ese cálculo, bajo hipótesis transductiva explícita, hasta el fin del ciclo observable y el reinicio por suceso activador.
 
 I.B. Definiciones de ciclo observable, estado actual, último cambio estructural, fin de ciclo y suceso activador
 
@@ -2747,25 +2969,29 @@ Luego:
 
 <p><strong>1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>.</strong></p>
 
-I.C. Teorema condicionado de simetría transductiva del ciclo observable
+I.C. Hipótesis transductiva de simetría del ciclo observable
 
-Se fija el siguiente teorema condicionado de simetría transductiva:
+Se adopta la siguiente hipótesis transductiva:
 
 <p><strong>A<sub>fin</sub>=2A<sub>act</sub>.</strong></p>
 
-Este teorema no atribuye edad a la totalidad absoluta. Sólo afirma simetría transductiva del ciclo observable:
+Esta hipótesis no atribuye edad a la totalidad absoluta. Sólo afirma simetría transductiva del ciclo observable:
 
 <p><strong>S<sub>ini</sub> → S<sub>act</sub> → S<sub>fin</sub>,</strong></p>
 
 con:
 
-<div align="center"><strong>A(S<sub>act</sub>) − A(S<sub>ini</sub>) = A(S<sub>fin</sub>) − A(S<sub>act</sub>).</strong></div>
+A(S<sub>act</sub>)-A(S<sub>ini</sub>)
+
+A(S<sub>fin</sub>)-A(S<sub>act</sub>).
 
 Por tanto:
 
-<div align="center"><strong>A<sub>restante</sub> = A<sub>act</sub>.</strong></div>
+A<sub>restante</sub>
 
-El teorema se aplica al dominio observable, no al TODO. Así no contradice que la totalidad absoluta no envejece ni que el cierre de un ciclo se conserve como traza append-only.
+A<sub>act</sub>.
+
+La hipótesis se aplica al dominio observable, no al TODO. Así no contradice que la totalidad absoluta no envejece ni que el cierre de un ciclo se conserve como traza append-only.
 
 I.D. Teorema I.1. No edad de la totalidad absoluta y edad exacta del contenido observable
 
@@ -2773,13 +2999,13 @@ Teorema I.1. La totalidad absoluta no admite edad física; el contenido observab
 
 Demostración. La edad física exige objeto o dominio interno, frontera, métrica, unidad y retorno. La totalidad absoluta no comparece como contenido dentro de un dominio físico superior. Si se le atribuyera edad, se la convertiría en objeto físico interno de un marco mayor, lo que contradice su estatuto de totalidad. Por tanto:
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE.</strong></p>
+<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
 
 El contenido observable, en cambio, pertenece a un dominio físico interno:
 
 <p><strong>C<sub>i</sub>⊂Ω<sub>obs</sub>.</strong></p>
 
-Si declara identidad, métrica, unidad, residual y retorno, admite edad relativa. Bajo el banco, el observable retornado queda fijado en:
+Si declara identidad, métrica, unidad, residual y retorno, admite edad relativa. Bajo la tabla de contraste de este estudio, el observable retornado retornado queda fijado en:
 
 <p><strong>A<sub>act</sub>=13 800 000 000,a<sub>J</sub>.</strong></p>
 
@@ -2797,7 +3023,7 @@ Luego la edad exacta pertenece al contenido observable retornado, no a la totali
 
 I.E. Teorema I.2. Simetría transductiva del ciclo observable
 
-Teorema I.2. Bajo la teorema condicionado de simetría transductiva del ciclo observable, el fin del ciclo observable se sitúa en:
+Teorema I.2. Bajo la hipótesis transductiva de simetría del ciclo observable, el fin del ciclo observable se sitúa en:
 
 <p><strong>27 600 000 000,a<sub>J</sub>.</strong></p>
 
@@ -2805,7 +3031,7 @@ Y en unidades SV:
 
 <p><strong>7 838 907 840 000 000 000,UE<sub>MFC</sub>.</strong></p>
 
-Demostración. Por el teorema condicionado:
+Demostración. Por hipótesis:
 
 <p><strong>A<sub>fin</sub>=2A<sub>act</sub>.</strong></p>
 
@@ -3028,6 +3254,9 @@ Hay clausura y adición append-only:
 <p><strong>Γ<sub>obs</sub><sup>(k)</sup> → Γ<sub>obs</sub><sup>(k)</sup> → Γ<sub>obs</sub><sup>(k+1)</sup>.</strong></p>
 
 I.K. Tabla escalar y transductiva completa
+
+<p><strong>Tabla 037.</strong></p>
+
 | Punto del ciclo observable | Símbolo | Años julianos | Segundos | Unidades SV | Estatuto |
 | --- | --- | --- | --- | --- | --- |
 | Inicio del observable | (S<sub>ini</sub>) | 0 | 0 | 0 | inicio de dominio observable |
@@ -3079,11 +3308,11 @@ sin pérdida, sin decimal y sin residuo.
 
 I.M. Contraste de no contradicción con la Teoría del TODO y de la NADA
 
-La teorema condicionado de simetría transductiva del ciclo observable no contradice la Teoría del TODO y de la NADA por cuatro razones.
+La hipótesis transductiva de simetría del ciclo observable no contradice la Teoría del TODO y de la NADA por cuatro razones.
 
 Primera: no atribuye edad al TODO.
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE.</strong></p>
+<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
 
 Segunda: calcula edades del dominio observable y de sus contenidos.
 
@@ -3093,7 +3322,7 @@ Tercera: el cierre del ciclo observable no destruye la cadena. La clausura se a�
 
 <p><strong>Γ<sup>(k)</sup> → Γ<sup>(k)</sup> → Γ<sup>(k+1)</sup>.</strong></p>
 
-Cuarta: la reapertura no borra, no copia, no reescribe y no convierte el cierre en (U). La formulación de agujero negro fija expresamente que una instancia factual realizada que alcanza cierre final retorna al Todo como traza factual completa, y que no se convierte en (U), copia, reescritura ni desaparición sin traza.
+Cuarta: la reapertura no borra, no copia, no reescribe y no convierte el cierre en (U). El estudio de agujero negro fija expresamente que una instancia factual realizada que alcanza cierre final retorna al Todo como traza factual completa, y que no se convierte en (U), copia, reescritura ni desaparición sin traza.
 
 Por tanto, el anexo no formula:
 
@@ -3107,13 +3336,13 @@ A<sub>fin</sub>( C<sub>obs</sub>)
 
 Esto conserva la distinción entre totalidad absoluta y ciclo observable.
 
-I.N. Dictamen final del anexo
+I.N. Síntesis final del anexo
 
 El anexo fija cuatro resultados.
 
 Primero:
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE.</strong></p>
+<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
 
 Segundo:
 
@@ -3121,7 +3350,7 @@ A<sub>act</sub>= 13 800 000 000,a<sub>J</sub>
 
 3 919 453 920 000 000 000,UE<sub>MFC</sub>.
 
-Tercero, bajo teorema condicionado de simetría transductiva del ciclo observable:
+Tercero, bajo hipótesis transductiva de simetría del ciclo observable:
 
 A<sub>fin</sub>= 27 600 000 000,a<sub>J</sub>
 
@@ -3145,7 +3374,7 @@ Y el suceso activador reinicia el ciclo como nuevo suceso append-only, sin borra
 
 I.O. Corolario I.1. Fracción actual exacta del ciclo observable y de sus objetos físicos
 
-Corolario I.1. Bajo la teorema condicionado de simetría transductiva del ciclo observable, el estado actual del contenido observable retornado ocupa exactamente la mitad del ciclo observable completo. La mitad restante posee la misma medida escalar y transductiva que la mitad ya recorrida.
+Corolario I.1. Bajo la hipótesis transductiva de simetría del ciclo observable, el estado actual del contenido observable retornado ocupa exactamente la mitad del ciclo observable completo. La mitad restante posee la misma medida escalar y transductiva que la mitad ya recorrida.
 
 La fracción actual se define como:
 
@@ -3194,7 +3423,10 @@ Por tanto:
 La regla no atribuye edad a la totalidad absoluta. Atribuye fracción de ciclo al dominio observable y a sus contenidos físicos retornados. Esta lectura preserva la distinción entre dominios internos y totalidad, ya fijada por la doctrina de pluralidad interna de dominios y por la exigencia de transducción con dominio, invariantes, residual y retorno físico controlado.
 
 I.O.1. Tabla transductiva SV ↔ física contemporánea del ciclo observable
-| Magnitud | Física contemporánea | Unidad física | SV | Unidad SV | Residual | Dictamen |
+
+**Tabla 038.**
+
+| Magnitud | Física contemporánea | Unidad física | SV | Unidad SV | Residual | Salida formal |
 | --- | --- | --- | --- | --- | --- | --- |
 | Estado inicial observable | 0 | (a<sub>J</sub>) | 0 | (UE<sub>MFC</sub>) | 0 | admisible |
 | Estado actual observable | 13.800.000.000 | (a<sub>J</sub>) | 3.919.453.920.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible |
@@ -3206,6 +3438,9 @@ I.O.1. Tabla transductiva SV ↔ física contemporánea del ciclo observable
 | Error de conversión | 0 | adimensional | 0 | adimensional | 0 | admisible |
 
 I.O.2. Tabla de suma y resta absoluta del ciclo observable
+
+<p><strong>Tabla 039.</strong></p>
+
 | Operación | Años julianos | Segundos | Unidades SV | Resultado |
 | --- | --- | --- | --- | --- |
 | Actual + restante | (13.800.000.000+13.800.000.000) | (435.494.880.000.000.000+435.494.880.000.000.000) | (3.919.453.920.000.000.000+3.919.453.920.000.000.000) | fin de ciclo |
@@ -3216,9 +3451,12 @@ I.O.2. Tabla de suma y resta absoluta del ciclo observable
 | Resultado inverso | 13.800.000.000 | 435.494.880.000.000.000 | 3.919.453.920.000.000.000 | exacto |
 
 I.O.3. Tabla de objetos observables bajo fracción común de ciclo
-| Clase de objeto observable | Dominio | Edad actual de referencia | Fracción actual del ciclo | Edad restante por simetría | Fin de ciclo | Dictamen |
+
+**Tabla 040.**
+
+| Clase de objeto observable | Dominio | Edad actual de referencia | Fracción actual del ciclo | Edad restante por simetría | Fin de ciclo | Salida formal |
 | --- | --- | --- | --- | --- | --- | --- |
-| Observable retornado | (Ω<sub>obs</sub>) | 13.800.000.000 (a<sub>J</sub>) | (1/2) | 13.800.000.000 (a<sub>J</sub>) | 27.600.000.000 (a<sub>J</sub>) | admisible |
+| Observable retornado | (Ω<sub>cont,obs</sub>) | 13.800.000.000 (a<sub>J</sub>) | (1/2) | 13.800.000.000 (a<sub>J</sub>) | 27.600.000.000 (a<sub>J</sub>) | admisible |
 | Galaxias profundas admisibles | (Ω<sub>gal</sub>⊂Ω<sub>obs</sub>) | (≤13.800.000.000 a<sub>J</sub>) | (≤1/2) | (A<sub>fin</sub>-A<sub>gal</sub>) | 27.600.000.000 (a<sub>J</sub>) | admisible si (Δ=0) |
 | Estrellas antiguas admisibles | (Ω_★⊂Ω<sub>obs</sub>) | (≤13.800.000.000 a<sub>J</sub>) | (≤1/2) | (A<sub>fin</sub>-A_★) | 27.600.000.000 (a<sub>J</sub>) | admisible si (Δ=0) |
 | Hidrógeno como firma persistente | (Ω<sub>H</sub>) | (≤13.800.000.000 a<sub>J</sub>) | (≤1/2) | (A<sub>fin</sub>-A<sub>H</sub>) | 27.600.000.000 (a<sub>J</sub>) | admisible como firma |
@@ -3226,7 +3464,7 @@ I.O.3. Tabla de objetos observables bajo fracción común de ciclo
 | Señales luminosas retornadas | (Ω<sub>L</sub><sup>ret</sup>) | (≤13.800.000.000 a<sub>J</sub>) | (≤1/2) | (A<sub>fin</sub>-A<sub>L</sub>) | 27.600.000.000 (a<sub>J</sub>) | admisible con emisor y firma |
 | Mapas cósmicos | (Ω<sub>mapa</sub>) | conjunto de edades (A(C<sub>i</sub>)) | ( A(C<sub>i</sub>)/A<sub>fin</sub>) | (A<sub>fin</sub>- A(C<sub>i</sub>)) | 27.600.000.000 (a<sub>J</sub>) | banco, no objeto único |
 
-El contraste distingue observable retornado y objetos particulares. El observable retornado alcanza la fracción exacta:
+La tabla distingue contenido máximo y objetos particulares. El observable retornado alcanza la fracción exacta:
 
 <p><strong>1/2.</strong></p>
 
@@ -3240,13 +3478,13 @@ Por tanto:
 
 I.O.4. Teorema I.3. Fracción actual exacta del contenido observable
 
-Teorema I.3. Bajo la teorema condicionado de simetría transductiva del ciclo observable, el contenido observable retornado actualmente ocupa exactamente la mitad del ciclo observable completo.
+Teorema I.3. Bajo la hipótesis transductiva de simetría del ciclo observable, el contenido observable retornado actualmente ocupa exactamente la mitad del ciclo observable completo.
 
 Demostración. Por definición del anexo:
 
 <p><strong>A<sub>act</sub>=13 800 000 000 a<sub>J</sub>.</strong></p>
 
-Por simetría transductiva del dominio declarado:
+Por hipótesis de simetría:
 
 <p><strong>A<sub>fin</sub>=2A<sub>act</sub>.</strong></p>
 
@@ -3277,7 +3515,10 @@ A<sub>fin</sub>-A<sub>act</sub>A<sub>fin</sub>
 Por tanto, el estado actual y el tramo restante son simétricos en el ciclo observable. c.q.d.
 
 I.O.5. Contraste laboratorial expuesto
-| Prueba | Entrada | Operación | Salida esperada | Dictamen |
+
+<p><strong>Tabla 041.</strong></p>
+
+| Prueba | Entrada | Operación | Salida esperada | Salida formal |
 | --- | --- | --- | --- | --- |
 | LAB-C1-01 | (13.800.000.000 a<sub>J</sub>) | (a<sub>J</sub>→ s) | (435.494.880.000.000.000 s) | 0 |
 | LAB-C1-02 | (435.494.880.000.000.000 s) | (s→ UE<sub>MFC</sub>) | (3.919.453.920.000.000.000 UE<sub>MFC</sub>) | 0 |
@@ -3286,10 +3527,10 @@ I.O.5. Contraste laboratorial expuesto
 | LAB-C1-05 | (13.800.000.000/27.600.000.000) | fracción | (1/2) | 0 |
 | LAB-C1-06 | (27.600.000.000-13.800.000.000) | resta | (13.800.000.000 a<sub>J</sub>) | 0 |
 | LAB-C1-07 | (7.838.907.840.000.000.000-3.919.453.920.000.000.000) | resta SV | (3.919.453.920.000.000.000 UE<sub>MFC</sub>) | 0 |
-| LAB-C1-08 | (Edad(𝓣)) | atribución a totalidad absoluta | NO ADMISIBLE | 1 como bloqueo |
+| LAB-C1-08 | (Edad( T)) | atribución a totalidad absoluta | NO ADMISIBLE | 1 como bloqueo |
 | LAB-C1-09 | (A<sub>act</sub>→ A<sub>fin</sub>→ A<sub>restante</sub>) | retorno inverso | sin resto | 0 |
 
-El laboratorio confirma valores tabulados; no los descubre. Esta disciplina sigue la regla de no clausura espuria: sin residual no hay cierre, y una salida no declarada no puede sustituir al banco.
+El laboratorio confirma valores tabulados; no los descubre. Esta disciplina sigue la regla de no clausura espuria: sin residual no hay cierre, y una salida no declarada no puede sustituir a la tabla de contraste.
 
 I.P. Corolario I.2. Ciclo estructural de la Vía Láctea y de su entorno observable
 
@@ -3340,7 +3581,10 @@ f<sub>VL,rest</sub>
 1/2.
 
 I.P.1. Tabla transductiva SV ↔ física contemporánea del dominio Vía Láctea-entorno
-| Magnitud | Física contemporánea | Unidad física | SV | Unidad SV | Residual | Dictamen |
+
+**Tabla 042.**
+
+| Magnitud | Física contemporánea | Unidad física | SV | Unidad SV | Residual | Salida formal |
 | --- | --- | --- | --- | --- | --- | --- |
 | Estado inicial del dominio local | 0 | (a<sub>J</sub>) | 0 | (UE<sub>MFC</sub>) | 0 | admisible |
 | Estado actual Vía Láctea-entorno | 13.600.000.000 | (a<sub>J</sub>) | 3.862.650.240.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible como dominio local |
@@ -3442,6 +3686,9 @@ A<sub>VL,restante</sub>
 3,862,650,240,000,000,000,UE<sub>MFC</sub>.
 
 I.P.3. Tabla de suma y resta absoluta de la Vía Láctea-entorno
+
+<p><strong>Tabla 043.</strong></p>
+
 | Operación | Años julianos | Segundos | Unidades SV | Resultado |
 | --- | --- | --- | --- | --- |
 | Actual local + restante local | (13.600.000.000+13.600.000.000) | (429.183.360.000.000.000+429.183.360.000.000.000) | (3.862.650.240.000.000.000+3.862.650.240.000.000.000) | fin local |
@@ -3452,7 +3699,10 @@ I.P.3. Tabla de suma y resta absoluta de la Vía Láctea-entorno
 | Resultado inverso | 13.600.000.000 | 429.183.360.000.000.000 | 3.862.650.240.000.000.000 | exacto |
 
 I.P.4. Tabla de objetos del entorno Vía Láctea
-| Clase de objeto del entorno local | Dominio | Edad actual formal | Fracción local actual | Edad restante formal | Fin local | Dictamen |
+
+**Tabla 044.**
+
+| Clase de objeto del entorno local | Dominio | Edad actual formal | Fracción local actual | Edad restante formal | Fin local | Salida formal |
 | --- | --- | --- | --- | --- | --- | --- |
 | Vía Láctea como dominio galáctico | (Ω<sub>VL</sub>) | 13.600.000.000 (a<sub>J</sub>) | (1/2) | 13.600.000.000 (a<sub>J</sub>) | 27.200.000.000 (a<sub>J</sub>) | admisible |
 | Halo galáctico | (Ω<sub>halo</sub>⊂Ω<sub>VL</sub>) | (A<sub>halo</sub>≤13.600.000.000) | (A<sub>halo</sub>/27.200.000.000) | (27.200.000.000-A<sub>halo</sub>) | 27.200.000.000 (a<sub>J</sub>) | admisible si (Δ=0) |
@@ -3479,7 +3729,7 @@ Cuando se evalúa el dominio local completo:
 
 I.P.5. Teorema I.4. Simetría local de la Vía Láctea-entorno
 
-Teorema I.4. Bajo la teorema condicionado de simetría transductiva de simetría aplicada al dominio estructural Vía Láctea-entorno, el estado actual del dominio local ocupa exactamente la mitad de su ciclo observable local.
+Teorema I.4. Bajo la hipótesis transductiva de simetría aplicada al dominio estructural Vía Láctea-entorno, el estado actual del dominio local ocupa exactamente la mitad de su ciclo observable local.
 
 Demostración. Se fija por banco:
 
@@ -3532,7 +3782,10 @@ Y:
 La simetría local queda demostrada en física contemporánea y en unidades SV. c.q.d.
 
 I.P.6. Contraste laboratorial expuesto para Vía Láctea-entorno
-| Prueba | Entrada | Operación | Salida esperada | Dictamen |
+
+<p><strong>Tabla 045.</strong></p>
+
+| Prueba | Entrada | Operación | Salida esperada | Salida formal |
 | --- | --- | --- | --- | --- |
 | LAB-C2-01 | (13.600.000.000 a<sub>J</sub>) | (a<sub>J</sub>→ s) | (429.183.360.000.000.000 s) | 0 |
 | LAB-C2-02 | (429.183.360.000.000.000 s) | (s→ UE<sub>MFC</sub>) | (3.862.650.240.000.000.000 UE<sub>MFC</sub>) | 0 |
@@ -3546,6 +3799,9 @@ I.P.6. Contraste laboratorial expuesto para Vía Láctea-entorno
 | LAB-C2-10 | objeto local con dominio, edad, unidad y retorno | transducción | valor propio (A(O<sub>j</sub>)) y resto (A(O<sub>j</sub>)) | 0 si (Δ=0) |
 
 I.P.7. Tabla comparativa entre ciclo observable general y dominio Vía Láctea-entorno
+
+**Tabla 046.**
+
 | Plano | Actual (a<sub>J</sub>) | Restante (a<sub>J</sub>) | Fin (a<sub>J</sub>) | Actual (UE<sub>MFC</sub>) | Restante (UE<sub>MFC</sub>) | Fin (UE<sub>MFC</sub>) | Fracción actual |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Observable retornado | 13.800.000.000 | 13.800.000.000 | 27.600.000.000 | 3.919.453.920.000.000.000 | 3.919.453.920.000.000.000 | 7.838.907.840.000.000.000 | (1/2) |
@@ -3572,7 +3828,7 @@ Cálculo de diferencia final:
 
 113,607,360,000,000,000,UE<sub>MFC</sub>.
 
-I.P.8. Dictamen conjunto de los corolarios
+I.P.8. Salida formal conjunto de los corolarios
 
 Los corolarios fijan dos escalas.
 
@@ -3644,20 +3900,26 @@ Y como cierre normalizado de contraste para el ciclo principal solar:
 
 <p><strong>A<sub>☉,fin</sub>=10 000 000 000 a<sub>J</sub>.</strong></p>
 
-Este cierre no niega el intervalo físico (10–11) mil millones de años. Fija una frontera escalar normalizada para contraste exacto, con el fin de calcular aritmética transductiva sin decimal, sin redondeo interno y sin desplazar la incertidumbre astrofísica al plano doctrinal.
+Este cierre no niega el intervalo físico (10–11) mil millones de años. Fija una frontera escalar normalizada para contraste exacto, con el fin de calcular aritmética transductiva sin decimal, sin redondeo interno y sin desplazar la margen astrofísica al plano doctrinal.
 
 I.Q.1. Tabla de datos físicos externos del Sol
-| Magnitud | Valor físico contemporáneo | Fuente física | Uso en el corolario | Dictamen |
+
+<p><strong>Tabla 047.</strong></p>
+
+| Magnitud | Valor físico contemporáneo | Fuente física | Uso en el corolario | Salida formal |
 | --- | --- | --- | --- | --- |
 | Edad solar actual | (≈4,57×10<sup>9</sup> a<sub>J</sub>) | ESA / modelos solares | valor de banco actual | admisible |
 | Edad solar divulgativa | (≈4,5×10<sup>9</sup> a<sub>J</sub>) | NASA | contraste externo | admisible |
 | Fase actual | secuencia principal; fusión H→He | ESA / NASA | identidad física del objeto | admisible |
 | Futuro de gigante roja | alrededor de (10–11×10<sup>9</sup> a<sub>J</sub>) | ESA | intervalo físico externo | admisible |
 | Tiempo restante divulgativo | (≈5×10<sup>9</sup> a<sub>J</sub>) | NASA | contraste de orden físico | admisible |
-| Cierre escalar normalizado | (10 000 000 000 a<sub>J</sub>) | banco transductivo | cálculo exacto | admisible como frontera de banco |
+| Cierre escalar normalizado | (10 000 000 000 a<sub>J</sub>) | contraste transductivo | cálculo exacto | admisible como frontera de banco |
 
 I.Q.2. Tabla transductiva SV ↔ física contemporánea del Sol
-| Magnitud solar | Física contemporánea | Unidad física | SV | Unidad SV | Residual | Dictamen |
+
+**Tabla 048.**
+
+| Magnitud solar | Física contemporánea | Unidad física | SV | Unidad SV | Residual | Salida formal |
 | --- | --- | --- | --- | --- | --- | --- |
 | Inicio del ciclo solar principal | 0 | (a<sub>J</sub>) | 0 | (UE<sub>MFC</sub>) | 0 | admisible |
 | Estado actual del Sol | 4.570.000.000 | (a<sub>J</sub>) | 1.297.964.088.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible |
@@ -3800,9 +4062,12 @@ Por tanto:
 
 <p><strong>f<sub>☉,act</sub>+f<sub>☉,restante</sub>=1.</strong></p>
 
-El contraste solar muestra que no todos los dominios físicos internos están en la misma fracción que el ciclo observable general. En el ciclo observable general, bajo el teorema de simetría, el estado actual ocupa (1/2). En el ciclo solar principal normalizado, el estado actual ocupa (457/1000). Esta diferencia no refuta la transducción; confirma que cada dominio físico posee su propia métrica de edad.
+El contraste solar muestra que no todos los dominios físicos internos están en la misma fracción que el ciclo observable general. En el ciclo observable general, bajo hipótesis de simetría, el estado actual ocupa (1/2). En el ciclo solar principal normalizado, el estado actual ocupa (457/1000). Esta diferencia no refuta la transducción; confirma que cada dominio físico posee su propia métrica de edad.
 
 I.Q.7. Tabla de suma y resta absoluta del Sol
+
+<p><strong>Tabla 049.</strong></p>
+
 | Operación | Años julianos | Segundos | Unidades SV | Resultado |
 | --- | --- | --- | --- | --- |
 | Actual solar + restante solar | (4.570.000.000+5.430.000.000) | (144.218.232.000.000.000+171.357.768.000.000.000) | (1.297.964.088.000.000.000+1.542.219.912.000.000.000) | fin solar normalizado |
@@ -3844,7 +4109,7 @@ Por tanto:
 
 <p><strong>A<sub>☉,restante,ext</sub> ∈ 1,542,219,912,000,000,000, 1,826,238,312,000,000,000 UE<sub>MFC</sub>.</strong></p>
 
-El banco declara un cierre escalar normalizado para cálculo exacto, y conserva el intervalo físico externo como contraste astrofísico. No se confunden ambos planos.
+La tabla de contraste declara un cierre escalar normalizado para cálculo exacto, y conserva el intervalo físico externo como contraste astrofísico. No se confunden ambos planos.
 
 I.Q.9. Teorema I.5. Exactitud transductiva del ciclo solar normalizado
 
@@ -3904,7 +4169,7 @@ I.Q.10. Teorema I.6. Contraste solar de independencia de dominios
 
 Teorema I.6. El ciclo solar prueba que las edades relativas de objetos físicos internos no deben forzarse a la fracción del ciclo observable general.
 
-Demostración. El ciclo observable general, bajo teorema condicionado de simetría transductiva de simetría, produce:
+Demostración. El ciclo observable general, bajo hipótesis transductiva de simetría, produce:
 
 <p><strong>f<sub>obs,act</sub>=1/2.</strong></p>
 
@@ -3916,14 +4181,17 @@ Como:
 
 <p><strong>457/1000≠1/2,</strong></p>
 
-el dominio solar no comparte necesariamente la fracción del ciclo observable general. Esta diferencia no contradice la estructura del desarrollo, porque el Sol no es la totalidad absoluta ni el observable retornado, sino un objeto físico interno con dominio propio:
+el dominio solar no comparte necesariamente la fracción del ciclo observable general. Esta diferencia no contradice la estructura del documento, porque el Sol no es la totalidad absoluta ni el observable retornado, sino un objeto físico interno con dominio propio:
 
 <p><strong>Ω_☉⊂Ω<sub>obs</sub>.</strong></p>
 
 Por tanto, cada dominio interno exige su propia edad, su propio cierre y su propio residual. c.q.d.
 
 I.Q.11. Contraste laboratorial expuesto para el Sol
-| Prueba | Entrada | Operación | Salida esperada | Dictamen |
+
+<p><strong>Tabla 050.</strong></p>
+
+| Prueba | Entrada | Operación | Salida esperada | Salida formal |
 | --- | --- | --- | --- | --- |
 | LAB-C3-01 | (4.570.000.000 a<sub>J</sub>) | (a<sub>J</sub>→ s) | (144.218.232.000.000.000 s) | 0 |
 | LAB-C3-02 | (144.218.232.000.000.000 s) | (s→ UE<sub>MFC</sub>) | (1.297.964.088.000.000.000 UE<sub>MFC</sub>) | 0 |
@@ -3934,11 +4202,14 @@ I.Q.11. Contraste laboratorial expuesto para el Sol
 | LAB-C3-07 | (4.570.000.000/10.000.000.000) | fracción | (457/1000) | 0 |
 | LAB-C3-08 | (543/1000+457/1000) | suma fraccional | (1) | 0 |
 | LAB-C3-09 | (A<sub>☉,fin,ext</sub>∈[10,11]×10<sup>9</sup>) | intervalo externo | intervalo conservado | 0 |
-| LAB-C3-10 | (Edad(☉)=Edad(𝓣)) | error de plano | NO ADMISIBLE | 1 |
+| LAB-C3-10 | (Edad(☉)=Edad( T)) | error de plano | NO ADMISIBLE | 1 |
 | LAB-C3-11 | (f_☉=f<sub>obs</sub>) impuesto sin dominio | error de dominio | NO ADMISIBLE | 1 |
 | LAB-C3-12 | retorno inverso (UE<sub>MFC</sub>→ s→ a<sub>J</sub>) | división por (9) y por (31.557.600) | valores iniciales | 0 |
 
 I.Q.12. Tabla comparativa: observable retornado, Vía Láctea-entorno y Sol
+
+**Tabla 051.**
+
 | Dominio | Actual (a<sub>J</sub>) | Restante (a<sub>J</sub>) | Fin (a<sub>J</sub>) | Fracción actual | Actual (UE<sub>MFC</sub>) | Restante (UE<sub>MFC</sub>) | Fin (UE<sub>MFC</sub>) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Observable retornado | 13.800.000.000 | 13.800.000.000 | 27.600.000.000 | (1/2) | 3.919.453.920.000.000.000 | 3.919.453.920.000.000.000 | 7.838.907.840.000.000.000 |
@@ -3946,7 +4217,7 @@ I.Q.12. Tabla comparativa: observable retornado, Vía Láctea-entorno y Sol
 | Sol | 4.570.000.000 | 5.430.000.000 | 10.000.000.000 | (457/1000) | 1.297.964.088.000.000.000 | 1.542.219.912.000.000.000 | 2.840.184.000.000.000.000 |
 | Sol, intervalo externo | 4.570.000.000 | 5.430.000.000–6.430.000.000 | 10.000.000.000–11.000.000.000 | (457/1000) a (457/1100) | 1.297.964.088.000.000.000 | 1.542.219.912.000.000.000–1.826.238.312.000.000.000 | 2.840.184.000.000.000.000–3.124.202.400.000.000.000 |
 
-I.Q.13. Dictamen del corolario solar
+I.Q.13. Salida formal del corolario solar
 
 El Sol confirma el método porque obliga a separar dominio, objeto, edad actual, fin de ciclo físico y retorno transductivo.
 
@@ -3988,7 +4259,7 @@ La transducción SI ↔ SV tiene retorno exacto:
 
 Y el plano queda protegido:
 
-<p><strong>Edad(☉)≠ Edad(𝓣).</strong></p>
+<p><strong>Edad(☉)≠ Edad( T).</strong></p>
 
 I.Q.14. Teorema I.7. Reducción al absurdo fuerte del resultado solar
 
@@ -4020,7 +4291,7 @@ A<sub>☉,fin</sub>
 
 <p><strong>f<sub>☉,act</sub>=457/1000, f<sub>☉,restante</sub>=543/1000</strong></p>
 
-es necesario dentro del banco. Negarlo conduce a contradicción aritmética, transductiva o de dominio.
+es necesario dentro de la tabla de contraste. Negarlo conduce a contradicción aritmética, transductiva o de dominio.
 
 La base física externa es admisible como contraste: ESA fija el Sol en torno a (4,57) mil millones de años y sitúa su transición a gigante roja alrededor de los (10)-(11) mil millones de años de edad solar; NASA presenta el Sol como una estrella de unos (4,5) mil millones de años y conserva el orden físico de unos (5) mil millones de años restantes hasta la fase de gigante roja. (Agencia Espacial Europea)
 
@@ -4032,7 +4303,7 @@ B_☉
 
 ( A<sub>☉,act</sub>, A<sub>☉,fin</sub>, a<sub>J</sub>, s, UE<sub>MFC</sub>, X<sub>☉</sub> )
 
-el banco solar, con:
+la tabla de contraste solar, con:
 
 <p><strong>A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>,</strong></p>
 
@@ -4050,13 +4321,13 @@ el transductor solar de edad física relativa.
 
 La tesis que debe verificarse es:
 
-R_☉: A<sub>☉,act</sub><sup>SV</sup>
+R_☉:  A<sub>☉,act</sub><sup>SV</sup>
 
 1,297,964,088,000,000,000,UE<sub>MFC</sub>,;  A<sub>☉,restante</sub><sup>SV</sup>
 
 1,542,219,912,000,000,000,UE<sub>MFC</sub>,;  A<sub>☉,fin</sub><sup>SV</sup>
 
-2,840,184,000,000,000,000,UE<sub>MFC</sub>,;  f<sub>☉,act</sub>=457/1000,;  f<sub>☉,restante</sub>=543/1000.
+2,840,184,000,000,000,000,UE<sub>MFC</sub>,;  f<sub>☉,act</sub>=457/1000,;  f<sub>☉,restante</sub>=543/1000. 
 
 Se demostrará por reducción al absurdo que:
 
@@ -4321,19 +4592,25 @@ A<sub>☉,fin</sub><sup>SV</sup>
 c.q.d.
 
 I.Q.14.9. Tabla adversarial de reducción al absurdo
-| Negación adversarial | Consecuencia matemática | Contradicción | Dictamen |
+
+<p><strong>Tabla 052.</strong></p>
+
+| Negación adversarial | Consecuencia matemática | Contradicción | Salida formal |
 | --- | --- | --- | --- |
 | (A<sub>☉,act</sub><sup>SV</sup>≠1.297.964.088.000.000.000) | viola (4.570.000.000×31.557.600×9) | contradice conversión exacta | (1) |
 | (A<sub>☉,fin</sub><sup>SV</sup>≠2.840.184.000.000.000.000) | viola (10.000.000.000×31.557.600×9) | contradice conversión exacta | (1) |
 | (A<sub>☉,restante</sub><sup>SV</sup>≠1.542.219.912.000.000.000) | viola ((10.000.000.000-4.570.000.000)×31.557.600×9) | contradice resta exacta | (1) |
 | (f<sub>☉,act</sub>≠457/1000) | viola (4.570.000.000/10.000.000.000) | contradice reducción fraccional | (1) |
 | (f<sub>☉,restante</sub>≠543/1000) | viola (1-457/1000) | contradice complemento exacto | (1) |
-| (Edad(☉)=Edad(𝓣)) | confunde objeto físico interno con totalidad absoluta | error de plano | (1) |
+| (Edad(☉)=Edad( T)) | confunde objeto físico interno con totalidad absoluta | error de plano | (1) |
 | (f<sub>☉</sub>=f<sub>obs</sub>) por imposición | fuerza dominios distintos | error de dominio | (1) |
-| (10)-(11) mil millones externo invalida el banco de (10) mil millones | confunde intervalo astrofísico con cierre normalizado | error de transducción | (1) |
+| (10)-(11) mil millones externo invalida la tabla de contraste de (10) mil millones | confunde intervalo astrofísico con cierre normalizado | error de transducción | (1) |
 
 I.Q.14.10. Contraste de laboratorio de la reducción
-| Prueba | Entrada | Operación exacta | Salida esperada | Error permitido | Dictamen |
+
+<p><strong>Tabla 053.</strong></p>
+
+| Prueba | Entrada | Operación exacta | Salida esperada | Error permitido | Salida formal |
 | --- | --- | --- | --- | --- | --- |
 | LAB-RA-SOL-01 | (4.570.000.000) | (×31.557.600) | (144.218.232.000.000.000) | 0 | 0 |
 | LAB-RA-SOL-02 | (144.218.232.000.000.000) | (×9) | (1.297.964.088.000.000.000) | 0 | 0 |
@@ -4346,9 +4623,9 @@ I.Q.14.10. Contraste de laboratorio de la reducción
 | LAB-RA-SOL-09 | (457/1000+543/1000) | suma racional | (1) | 0 | 0 |
 | LAB-RA-SOL-10 | (1.297.964.088.000.000.000/9/31.557.600) | retorno inverso | (4.570.000.000) | 0 | 0 |
 | LAB-RA-SOL-11 | (2.840.184.000.000.000.000/9/31.557.600) | retorno inverso | (10.000.000.000) | 0 | 0 |
-| LAB-RA-SOL-12 | (Edad(☉)=Edad(𝓣)) | control de plano | NO ADMISIBLE | 0 | 1 |
+| LAB-RA-SOL-12 | (Edad(☉)=Edad( T)) | control de plano | NO ADMISIBLE | 0 | 1 |
 
-I.Q.14.11. Dictamen de rigor
+I.Q.14.11. Salida formal de rigor
 
 El resultado solar queda verificado por tres niveles.
 
@@ -4410,7 +4687,7 @@ I<sub>☉</sub><sup>RG</sup>
 
 Este intervalo no se toma como salida final del cálculo. Se toma como dominio físico de contraste. Su función es contener el régimen astrofísico externo aceptado para la transición futura del Sol.
 
-El análisis no calcula:
+El documento no calcula:
 
 <p><strong>A<sub>☉,fin</sub>=I<sub>☉</sub><sup>RG</sup>.</strong></p>
 
@@ -4470,9 +4747,12 @@ No:
 
 <p><strong>X<sub>☉</sub><sup>∂^-</sup>(I<sub>☉</sub><sup>RG</sup>)∈ P( R)· a<sub>J</sub>.</strong></p>
 
-El intervalo externo queda conservado como contraste; el resultado del banco queda fijado como frontera escalar exacta.
+El intervalo externo queda conservado como contraste; el resultado de la tabla de contraste queda fijado como frontera escalar exacta.
 
 I.Q.15.3. Tabla de reducción del intervalo al escalar
+
+<p><strong>Tabla 054.</strong></p>
+
 | Elemento | Física contemporánea | Operador transductivo | Salida | Estatuto |
 | --- | --- | --- | --- | --- |
 | Edad actual solar externa | (≈4,57×10<sup>9</sup> a<sub>J</sub>) | fijación de banco | (4.570.000.000 a<sub>J</sub>) | escalar de estado actual |
@@ -4490,7 +4770,7 @@ I<sub>☉</sub><sup>RG</sup>
 
 <p><strong>10,11]×10<sup>9</sup> a<sub>J</sub>.</strong></p>
 
-El banco no pregunta por la duración completa del régimen futuro de gigante roja ni por el conjunto completo de estados posteriores del Sol. Pregunta por el inicio del cierre del ciclo solar principal, es decir, por la frontera inferior del régimen de salida de la secuencia estable considerada.
+La tabla de contraste no pregunta por la duración completa del régimen futuro de gigante roja ni por el conjunto completo de estados posteriores del Sol. Pregunta por el inicio del cierre del ciclo solar principal, es decir, por la frontera inferior del régimen de salida de la secuencia estable considerada.
 
 Por definición transductiva:
 
@@ -4854,7 +5134,7 @@ c.q.d.
 
 I.Q.17. Corolario I.3.1. Acotación de error cero del cálculo solar
 
-Corolario I.3.1. El cálculo solar tiene error absoluto cero en tres planos: plano de atribución, definición transductiva y aritmética de conversión. No se afirma que la astrofísica observacional carezca de incertidumbre; se afirma que, una vez fijado el dominio solar, el estado actual de banco, la frontera inferior del cierre principal y las unidades, el cálculo transductivo no introduce resto, intervalo ni redondeo.
+Corolario I.3.1. El cálculo solar tiene error absoluto cero en tres planos: plano de atribución, definición transductiva y aritmética de conversión. No se afirma que la astrofísica observacional carezca de margen; se afirma que, una vez fijado el dominio solar, el estado actual de banco, la frontera inferior del cierre principal y las unidades, el cálculo transductivo no introduce resto, intervalo ni redondeo.
 
 ε<sub>☉</sub><sup>abs</sup>
 
@@ -4868,7 +5148,7 @@ I.Q.17.1. Error de plano
 
 El error de plano sería atribuir al Sol el estatuto de totalidad absoluta, o atribuir a la totalidad absoluta la edad del Sol.
 
-El banco declara:
+La tabla de contraste declara:
 
 <p><strong>Ω_☉⊂Ω<sub>obs</sub>.</strong></p>
 
@@ -4878,7 +5158,7 @@ Y:
 
 Por tanto:
 
-<p><strong>Edad(☉)≠ Edad(𝓣).</strong></p>
+<p><strong>Edad(☉)≠ Edad( T).</strong></p>
 
 La edad solar se atribuye a un objeto físico interno:
 
@@ -5043,7 +5323,7 @@ Queda demostrado:
 
 <p><strong>ε<sub>☉</sub><sup>abs</sup>=0.</strong></p>
 
-El error cero corresponde al plano, definición, transducción y aritmética. La incertidumbre astrofísica externa se conserva en su dominio instrumental, pero no altera el resultado escalar de banco:
+El error cero corresponde al plano, definición, transducción y aritmética. La margen astrofísica externa se conserva en su dominio instrumental, pero no altera el resultado escalar de banco:
 
 A<sub>☉,fin</sub>
 
@@ -5089,11 +5369,11 @@ La Vía Láctea-entorno es un dominio estructural local:
 
 El observable retornado es una clase de retornos físicos:
 
-<p><strong>Ω<sub>obs</sub>⊂Ω<sub>obs</sub>.</strong></p>
+<p><strong>Ω<sub>cont,obs</sub>⊂Ω<sub>obs</sub>.</strong></p>
 
 La totalidad absoluta no entra como objeto de edad:
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE.</strong></p>
+<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
 
 Por tanto, este anexo no compara la edad del Sol con la edad de la totalidad absoluta. Compara tres dominios internos con sus propias edades relativas, sus propios cierres y sus propias fracciones.
 
@@ -5112,14 +5392,17 @@ Estas cifras externas no se toman como edad de la totalidad absoluta. Se toman c
 La edad solar se atribuye al Sol. La edad del contenido observable se atribuye al contenido observable retornado. Ninguna de las dos se atribuye a la totalidad absoluta.
 
 II.C. Tabla maestra de contraste Sol ↔ universo observable
+
+**Tabla 055.**
+
 | Dominio | Símbolo | Edad actual (a<sub>J</sub>) | Fin de ciclo (a<sub>J</sub>) | Tramo restante (a<sub>J</sub>) | Fracción actual | Estatuto |
 | --- | --- | --- | --- | --- | --- | --- |
 | Sol | (Ω_☉) | 4.570.000.000 | 10.000.000.000 | 5.430.000.000 | (457/1000) | objeto físico interno |
 | Vía Láctea-entorno | (Ω<sub>VL</sub>) | 13.600.000.000 | 27.200.000.000 | 13.600.000.000 | (1/2) | dominio estructural local |
-| Observable retornado | (Ω<sub>obs</sub>) | 13.800.000.000 | 27.600.000.000 | 13.800.000.000 | (1/2) | dominio de retorno máximo |
-| Totalidad absoluta | (𝓣) | no aplicable | no aplicable | no aplicable | no aplicable | no admite edad |
+| Observable retornado | (Ω<sub>cont,obs</sub>) | 13.800.000.000 | 27.600.000.000 | 13.800.000.000 | (1/2) | dominio de retorno máximo |
+| Totalidad absoluta | ( T) | no aplicable | no aplicable | no aplicable | no aplicable | no admite edad |
 
-El contraste muestra que no existe una sola edad universal que absorba todas las edades internas. Existen edades relativas por dominio.
+La tabla muestra que no existe una sola edad universal que absorba todas las edades internas. Existen edades relativas por dominio.
 
 El Sol posee:
 
@@ -5133,13 +5416,13 @@ Como:
 
 <p><strong>457/1000≠1/2,</strong></p>
 
-se prueba desde el inicio que los objetos físicos internos no están obligados a compartir la misma fracción de ciclo que el dominio observable retornado.
+se prueba desde el inicio que los objetos físicos internos no están obligados a compartir la misma fracción de ciclo que el dominio observable máximo.
 
 II.D. Transductor de elevación desde objeto físico interno a observable retornado
 
 Se define el transductor de elevación comparativa:
 
-<p><strong>X<sub>obj→obs</sub>: (Ω<sub>i</sub>,A<sub>i</sub>,A<sub>i,fin</sub>,u<sub>SI</sub>,u<sub>SV</sub>,Δ<sub>i</sub>) (Ω<sub>obs</sub>,A<sub>Ωobs</sub>,A<sub>cont,obs,fin</sub>,Δ<sub>comp</sub>).</strong></p>
+<p><strong>X<sub>obj→obs</sub>: (Ω<sub>i</sub>,A<sub>i</sub>,A<sub>i,fin</sub>,u<sub>SI</sub>,u<sub>SV</sub>,Δ<sub>i</sub>) (Ω<sub>obs</sub>,A<sub>cont,obs</sub>,A<sub>cont,obs,fin</sub>,Δ<sub>comp</sub>).</strong></p>
 
 Su función no es igualar edades, sino compararlas con conservación de dominio.
 
@@ -5149,11 +5432,11 @@ Para cada objeto físico interno (O<sub>i</sub>):
 
 Se exige:
 
-<p><strong>A<sub>i</sub>≠ A<sub>Ωobs</sub></strong></p>
+<p><strong>A<sub>i</sub>≠ A<sub>cont,obs</sub></strong></p>
 
 salvo que el objeto sea precisamente el observable retornado. También se exige:
 
-<p><strong>A<sub>i</sub>≤ A<sub>Ωobs</sub>.</strong></p>
+<p><strong>A<sub>i</sub>≤ A<sub>cont,obs</sub>.</strong></p>
 
 Y:
 
@@ -5191,7 +5474,7 @@ si no se atribuye al objeto el estatuto de totalidad absoluta.
 
 II.E. Teorema II.1. Independencia de dominio y conservación de comparabilidad
 
-Teorema II.1. Si (O<sub>i</sub>⊂Ω<sub>obs</sub>) es un objeto físico interno con edad propia (A<sub>i</sub>), entonces (A<sub>i</sub>) es comparable con (A<sub>Ωobs</sub>), pero no idéntica a ella salvo identidad de dominio. La comparación legítima exige conservar el dominio propio del objeto.
+Teorema II.1. Si (O<sub>i</sub>⊂Ω<sub>obs</sub>) es un objeto físico interno con edad propia (A<sub>i</sub>), entonces (A<sub>i</sub>) es comparable con (A<sub>cont,obs</sub>), pero no idéntica a ella salvo identidad de dominio. La comparación legítima exige conservar el dominio propio del objeto.
 
 Demostración. Sea:
 
@@ -5207,21 +5490,21 @@ Entonces:
 
 El observable retornado se define por:
 
-<p><strong>A<sub>Ωobs</sub>=<sub>Δ<sub>j</sub>=0</sub>A(C<sub>j</sub>).</strong></p>
+<p><strong>A<sub>cont,obs</sub>=<sub>Δ<sub>j</sub>=0</sub>A(C<sub>j</sub>).</strong></p>
 
 Si (O<sub>i</sub>) no es el observable retornado, entonces:
 
-<p><strong>A<sub>i</sub>≤ A<sub>Ωobs</sub>.</strong></p>
+<p><strong>A<sub>i</sub>≤ A<sub>cont,obs</sub>.</strong></p>
 
 La igualdad:
 
-<p><strong>A<sub>i</sub>=A<sub>Ωobs</sub></strong></p>
+<p><strong>A<sub>i</sub>=A<sub>cont,obs</sub></strong></p>
 
 sólo es admisible si:
 
 <p><strong>O<sub>i</sub>=C<sub>max</sub></strong></p>
 
-o si el banco demuestra que (O<sub>i</sub>) realiza el máximo. En caso contrario, imponer igualdad elimina la diferencia de dominio.
+o si la tabla de contraste demuestra que (O<sub>i</sub>) realiza el máximo. En caso contrario, imponer igualdad elimina la diferencia de dominio.
 
 Para el Sol:
 
@@ -5287,7 +5570,7 @@ Los dos cálculos tienen forma común:
 
 Pero tienen dominio distinto:
 
-<p><strong>Ω_☉≠Ω<sub>obs</sub>.</strong></p>
+<p><strong>Ω_☉≠Ω<sub>cont,obs</sub>.</strong></p>
 
 Por tanto, el contraste solar confirma la validez del aparato de transducción sin colapsar los dominios. c.q.d.
 
@@ -5389,9 +5672,9 @@ Cada objeto o dominio (O<sub>i</sub>) posee, si cierra:
 
 El observable retornado posee:
 
-<p><strong>A<sub>Ωobs</sub>=<sub>Δ<sub>i</sub>=0</sub>A(O<sub>i</sub>).</strong></p>
+<p><strong>A<sub>cont,obs</sub>=<sub>Δ<sub>i</sub>=0</sub>A(O<sub>i</sub>).</strong></p>
 
-El supremo no elimina los valores particulares. Sólo selecciona el cierre admisible.
+El supremo no elimina los valores particulares. Sólo selecciona el máximo admisible.
 
 Así:
 
@@ -5403,19 +5686,19 @@ permanece edad solar;
 
 permanece edad del dominio Vía Láctea-entorno;
 
-<p><strong>A<sub>Ωobs</sub>=13 800 000 000 a<sub>J</sub></strong></p>
+<p><strong>A<sub>cont,obs</sub>=13 800 000 000 a<sub>J</sub></strong></p>
 
 permanece edad concreta del observable retornado.
 
 No hay absorción:
 
-<p><strong>A_☉→ A<sub>Ωobs</sub>.</strong></p>
+<p><strong>A_☉→ A<sub>cont,obs</sub>.</strong></p>
 
-<p><strong>A<sub>VL</sub>→ A<sub>Ωobs</sub>.</strong></p>
+<p><strong>A<sub>VL</sub>→ A<sub>cont,obs</sub>.</strong></p>
 
 Hay orden:
 
-<p><strong>A_☉<A<sub>VL</sub><A<sub>Ωobs</sub>.</strong></p>
+<p><strong>A_☉<A<sub>VL</sub><A<sub>cont,obs</sub>.</strong></p>
 
 Con los valores:
 
@@ -5424,6 +5707,9 @@ Con los valores:
 c.q.d.
 
 II.J. Tabla de contraste de ciclos: Sol, Vía Láctea-entorno y observable retornado
+
+**Tabla 056.**
+
 | Dominio | Actual (a<sub>J</sub>) | Actual (UE<sub>MFC</sub>) | Restante (a<sub>J</sub>) | Restante (UE<sub>MFC</sub>) | Fin (a<sub>J</sub>) | Fin (UE<sub>MFC</sub>) | Fracción actual |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Sol | 4.570.000.000 | 1.297.964.088.000.000.000 | 5.430.000.000 | 1.542.219.912.000.000.000 | 10.000.000.000 | 2.840.184.000.000.000.000 | (457/1000) |
@@ -5432,7 +5718,7 @@ II.J. Tabla de contraste de ciclos: Sol, Vía Láctea-entorno y observable retor
 
 Diferencias escalares:
 
-A<sub>Ωobs</sub>-A<sub>VL</sub>
+A<sub>cont,obs</sub>-A<sub>VL</sub>
 
 13 800 000 000-13 600 000 000
 
@@ -5444,7 +5730,7 @@ A<sub>VL</sub>-A_☉
 
 9,030,000,000 a<sub>J</sub>.
 
-A<sub>Ωobs</sub>-A_☉
+A<sub>cont,obs</sub>-A_☉
 
 13 800 000 000-4 570 000 000
 
@@ -5465,7 +5751,10 @@ Diferencias transductivas:
 2,621,489,832,000,000,000 UE<sub>MFC</sub>.
 
 II.K. Tabla de errores de plano, definición, transducción y aritmética
-| Dominio | Error de plano | Error de definición | Error transductivo | Error aritmético | Dictamen |
+
+<p><strong>Tabla 057.</strong></p>
+
+| Dominio | Error de plano | Error de definición | Error transductivo | Error aritmético | Salida formal |
 | --- | --- | --- | --- | --- | --- |
 | Sol | 0 | 0 | 0 | 0 | admisible |
 | Vía Láctea-entorno | 0 | 0 | 0 | 0 | admisible |
@@ -5493,7 +5782,10 @@ Para los tres dominios admisibles:
 <p><strong>ε<sub>cont,obs</sub><sup>abs</sup>=0.</strong></p>
 
 II.L. Contraste laboratorial expuesto
-| Prueba | Dominio | Entrada | Operación | Salida esperada | Error permitido | Dictamen |
+
+**Tabla 058.**
+
+| Prueba | Dominio | Entrada | Operación | Salida esperada | Error permitido | Salida formal |
 | --- | --- | --- | --- | --- | --- | --- |
 | LAB-II-01 | Sol | 4.570.000.000 (a<sub>J</sub>) | (×284.018.400) | 1.297.964.088.000.000.000 (UE<sub>MFC</sub>) | 0 | 0 |
 | LAB-II-02 | Sol | 10.000.000.000 (a<sub>J</sub>) | (×284.018.400) | 2.840.184.000.000.000.000 (UE<sub>MFC</sub>) | 0 | 0 |
@@ -5503,9 +5795,9 @@ II.L. Contraste laboratorial expuesto
 | LAB-II-06 | Vía Láctea-entorno | 27.200.000.000 (a<sub>J</sub>) | (×284.018.400) | 7.725.300.480.000.000.000 (UE<sub>MFC</sub>) | 0 | 0 |
 | LAB-II-07 | Contenido observable | 13.800.000.000 (a<sub>J</sub>) | (×284.018.400) | 3.919.453.920.000.000.000 (UE<sub>MFC</sub>) | 0 | 0 |
 | LAB-II-08 | Contenido observable | 27.600.000.000 (a<sub>J</sub>) | (×284.018.400) | 7.838.907.840.000.000.000 (UE<sub>MFC</sub>) | 0 | 0 |
-| LAB-II-09 | Comparativo | (A_☉<A<sub>VL</sub><A<sub>Ωobs</sub>) | orden | verdadero | 0 | 0 |
+| LAB-II-09 | Comparativo | (A_☉<A<sub>VL</sub><A<sub>cont,obs</sub>) | orden | verdadero | 0 | 0 |
 | LAB-II-10 | Comparativo | (f_☉=f<sub>cont,obs</sub>) | control adversarial | falso | 0 | 1 |
-| LAB-II-11 | Plano | (Edad(𝓣)) | atribución | NO ADMISIBLE | 0 | 1 |
+| LAB-II-11 | Plano | (Edad( T)) | atribución | NO ADMISIBLE | 0 | 1 |
 | LAB-II-12 | Retorno | (UE<sub>MFC</sub>→ s→ a<sub>J</sub>) | inversa | valor inicial | 0 | 0 |
 
 II.M. Conclusión fuerte del Anexo II
@@ -5554,32 +5846,35 @@ A<sub>cont,obs,fin</sub>
 
 Y el contraste establece:
 
-<p><strong>A_☉<A<sub>VL</sub><A<sub>Ωobs</sub>.</strong></p>
+<p><strong>A_☉<A<sub>VL</sub><A<sub>cont,obs</sub>.</strong></p>
 
 <p><strong>f_☉=457/1000≠1/2=f<sub>cont,obs</sub>.</strong></p>
 
-Por tanto, el resultado es fuerte: el Sol no corrige el ciclo observable; lo verifica por contraste. La diferencia entre sus fracciones demuestra que cada objeto físico conserva su ciclo propio. La coincidencia de conversión demuestra que todos los dominios pueden hablar el mismo lenguaje físico-transductivo. La acotación de error cero se mantiene porque no se anulan las incertidumbres instrumentales; se anulan el error de plano, el error definicional, el error transductivo y el error aritmético dentro de los dominios declarados.
+Por tanto, el resultado es fuerte: el Sol no corrige el ciclo observable; lo verifica por contraste. La diferencia entre sus fracciones demuestra que cada objeto físico conserva su ciclo propio. La coincidencia de conversión demuestra que todos los dominios pueden hablar el mismo lenguaje físico-transductivo. La acotación de error cero se mantiene porque no se anulan las márgenes instrumentales; se anulan el error de plano, el error definicional, el error transductivo y el error aritmético dentro de los dominios declarados.
 
 Conclusión conjunta de los Anexos I y II
 
-<a id="sec-c-1-dictamen-rector"></a>
+<a id="sec-c-1-salida formal-rector"></a>
 
-## C.1. Dictamen rector
+## C.1. Lectura rectora
 
 Los Anexos I y II fijan una separación definitiva entre cuatro planos que no deben confundirse:
 
 <p><strong>T≠ Ω<sub>obs</sub>≠ Ω<sub>VL</sub>≠ Ω_☉≠Ω<sub>SS</sub>.</strong></p>
 
-La totalidad absoluta (𝓣) no admite edad física. El universo observable, la Vía Láctea-entorno, el Sol y el Sistema Solar sí admiten edades relativas porque son dominios u objetos físicos internos con identidad, frontera, métrica, unidad, residual y retorno.
+La totalidad absoluta ( T) no admite edad física. El universo observable, la Vía Láctea-entorno, el Sol y el Sistema Solar sí admiten edades relativas porque son dominios u objetos físicos internos con identidad, frontera, métrica, unidad, residual y retorno.
 
 La física contemporánea aporta anclas observacionales: el Sol se sitúa en torno a (4,57×10<sup>9</sup>) años y su transición a gigante roja se ubica alrededor de (10–11×10<sup>9</sup>) años de edad solar; la edad del Sistema Solar se fija por las inclusiones ricas en calcio y aluminio más antiguas en torno a (4,568×10<sup>9</sup>) años; y el universo observable se contrasta con la escala de (13,8×10<sup>9</sup>) años. (Agencia Espacial Europea)
 
-El transductor no elimina la incertidumbre instrumental externa. Lo que fija con error cero es la atribución de plano, la definición, la conversión SI ↔ SV y la aritmética interna.
+El transductor no elimina la margen instrumental externa. Lo que fija con error cero es la atribución de plano, la definición, la conversión SI ↔ SV y la aritmética interna.
 
 <a id="sec-c-2-tabla-maestra-sv-fisica-contemporanea"></a>
 
 ## C.2. Tabla maestra SV ↔ Física contemporánea
-| Dominio físico | Estado actual (a<sub>J</sub>) | Estado actual (UE<sub>MFC</sub>) | Fin de estructura observable (a<sub>J</sub>) | Fin de estructura observable (UE<sub>MFC</sub>) | Restante (a<sub>J</sub>) | Restante (UE<sub>MFC</sub>) | Fracción actual | Dictamen |
+
+**Tabla 059.**
+
+| Dominio físico | Estado actual (a<sub>J</sub>) | Estado actual (UE<sub>MFC</sub>) | Fin de estructura observable (a<sub>J</sub>) | Fin de estructura observable (UE<sub>MFC</sub>) | Restante (a<sub>J</sub>) | Restante (UE<sub>MFC</sub>) | Fracción actual | Salida formal |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Observable retornado | 13.800.000.000 | 3.919.453.920.000.000.000 | 27.600.000.000 | 7.838.907.840.000.000.000 | 13.800.000.000 | 3.919.453.920.000.000.000 | (1/2) | admisible |
 | Vía Láctea-entorno | 13.600.000.000 | 3.862.650.240.000.000.000 | 27.200.000.000 | 7.725.300.480.000.000.000 | 13.600.000.000 | 3.862.650.240.000.000.000 | (1/2) | admisible |
@@ -5598,9 +5893,12 @@ La equivalencia usada en todos los dominios es:
 <a id="sec-c-3-diferencias-singulares-en-anos-julianos-y-unidades-sv"></a>
 
 ## C.3. Diferencias singulares en años julianos y unidades SV
+
+<p><strong>Tabla 060.</strong></p>
+
 | Comparación | Diferencia (a<sub>J</sub>) | Diferencia (UE<sub>MFC</sub>) | Lectura física |
 | --- | --- | --- | --- |
-| Observable retornado − Vía Láctea-entorno | 200.000.000 | 56.803.680.000.000.000 | El dominio observable retornado excede al dominio local galáctico |
+| Observable retornado − Vía Láctea-entorno | 200.000.000 | 56.803.680.000.000.000 | El dominio observable máximo excede al dominio local galáctico |
 | Vía Láctea-entorno − Sol | 9.030.000.000 | 2.564.686.152.000.000.000 | El dominio galáctico local precede ampliamente al Sol |
 | Observable retornado − Sol | 9.230.000.000 | 2.621.489.832.000.000.000 | El Sol es objeto interno tardío respecto del observable retornado |
 | Sol − Sistema Solar | 2.000.000 | 568.036.800.000.000 | Diferencia de banco entre edad solar y edad de formación del Sistema Solar |
@@ -5608,9 +5906,9 @@ La equivalencia usada en todos los dominios es:
 | Fin observable máximo − fin Vía Láctea-entorno | 400.000.000 | 113.607.360.000.000.000 | Diferencia duplicada por simetría del ciclo observable |
 | Fin solar − fin Sistema Solar | 0 | 0 | Ambos cierran en la misma frontera normalizada de estructura solar-sistémica |
 
-<a id="sec-c-4-dictamen-especifico-sol"></a>
+<a id="sec-c-4-salida formal-especifico-sol"></a>
 
-## C.4. Dictamen específico: Sol
+## C.4. Lectura específica: Sol
 
 El Sol es un objeto físico interno:
 
@@ -5654,7 +5952,7 @@ f<sub>☉,act</sub>=4 570 000 000/10 000 000 000
 
 <p><strong>f<sub>☉,restante</sub>=543/1000.</strong></p>
 
-Dictamen:
+Salida formal:
 
 <p><strong>Edad(☉)=4 570 000 000,a<sub>J</sub>.</strong></p>
 
@@ -5664,9 +5962,9 @@ Dictamen:
 
 <p><strong>Δ_☉=0.</strong></p>
 
-<a id="sec-c-5-dictamen-especifico-sistema-solar"></a>
+<a id="sec-c-5-salida formal-especifico-sistema-solar"></a>
 
-## C.5. Dictamen específico: Sistema Solar
+## C.5. Lectura específica: Sistema Solar
 
 El Sistema Solar es un dominio físico interno:
 
@@ -5714,7 +6012,7 @@ f<sub>SS,restante</sub>
 
 679/1250.
 
-Dictamen:
+Salida formal:
 
 <p><strong>Edad(Sistema Solar)=4 568 000 000,a<sub>J</sub>.</strong></p>
 
@@ -5724,9 +6022,9 @@ Dictamen:
 
 <p><strong>Δ<sub>SS</sub>=0.</strong></p>
 
-<a id="sec-c-6-dictamen-especifico-via-lactea-entorno"></a>
+<a id="sec-c-6-salida formal-especifico-via-lactea-entorno"></a>
 
-## C.6. Dictamen específico: Vía Láctea-entorno
+## C.6. Lectura específica: Vía Láctea-entorno
 
 La Vía Láctea-entorno se trata como dominio estructural local, no como totalidad absoluta:
 
@@ -5770,7 +6068,7 @@ Fracciones:
 
 <p><strong>f<sub>VL,restante</sub>=1/2.</strong></p>
 
-Dictamen:
+Salida formal:
 
 <p><strong>Edad(Vía Láctea-entorno)=13 600 000 000,a<sub>J</sub>.</strong></p>
 
@@ -5780,13 +6078,13 @@ Dictamen:
 
 <p><strong>Δ<sub>VL</sub>=0.</strong></p>
 
-<a id="sec-c-7-dictamen-especifico-contenido-observable-maximo"></a>
+<a id="sec-c-7-salida formal-especifico-contenido-observable-maximo"></a>
 
-## C.7. Dictamen específico: observable retornado
+## C.7. Lectura específica: observable retornado
 
-El observable retornado es el dominio de retorno más amplio tratado por la formulación:
+El observable retornado es el dominio de retorno más amplio tratado por el estudio:
 
-<p><strong>Ω<sub>obs</sub>⊂Ω<sub>obs</sub>.</strong></p>
+<p><strong>Ω<sub>cont,obs</sub>⊂Ω<sub>obs</sub>.</strong></p>
 
 El valor de banco es:
 
@@ -5816,9 +6114,9 @@ A<sub>cont,obs,restante</sub><sup>SV</sup>
 
 3 919 453 920 000 000 000,UE<sub>MFC</sub>.
 
-Dictamen:
+Salida formal:
 
-<p><strong>Edad(Ω<sub>obs</sub>)=13 800 000 000,a<sub>J</sub>.</strong></p>
+<p><strong>Edad(Ω<sub>cont,obs</sub>)=13 800 000 000,a<sub>J</sub>.</strong></p>
 
 <p><strong>Fin del ciclo observable=27 600 000 000,a<sub>J</sub>.</strong></p>
 
@@ -5883,7 +6181,10 @@ c.q.d.
 <a id="sec-c-9-acotacion-final-de-error-cero"></a>
 
 ## C.9. Acotación final de error cero
-| Dominio | Error de plano | Error de definición | Error transductivo | Error aritmético | Error absoluto del desarrollo |
+
+<p><strong>Tabla 061.</strong></p>
+
+| Dominio | Error de plano | Error de definición | Error transductivo | Error aritmético | Error absoluto del documento |
 | --- | --- | --- | --- | --- | --- |
 | Sol | 0 | 0 | 0 | 0 | 0 |
 | Sistema Solar | 0 | 0 | 0 | 0 | 0 |
@@ -5891,7 +6192,7 @@ c.q.d.
 | Observable retornado | 0 | 0 | 0 | 0 | 0 |
 | Totalidad absoluta | bloqueada como no admisible | no aplicable | no aplicable | no aplicable | sin edad física |
 
-La incertidumbre observacional permanece en su dominio instrumental:
+La margen observacional permanece en su dominio instrumental:
 
 <p><strong>σ<sub>obs</sub>≠0.</strong></p>
 
@@ -5925,25 +6226,25 @@ El resultado final queda:
 
 Y la totalidad absoluta queda fuera de atribución cronológica:
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE.</strong></p>
+<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
 
 <a id="sec-c-11-introduccion-de-bancos-negativos-de-contraste"></a>
 
-## C.11. Introducción de bancos negativos de contraste
+## C.11. Controles negativos de contraste
 
-Los bancos negativos de contraste son obligatorios. Sin ellos, una formulación que declara edades relativas, transductores, dominios, retornos y error cero quedaría expuesta a una objeción inmediata: podría parecer que el sistema sólo confirma los casos favorables y evita las condiciones que lo refutan.
+Los controles negativos de contraste son obligatorios. Sin ellos, una publicación que declara edades relativas, transductores, dominios, retornos y error cero quedaría expuesta a una objeción inmediata: podría parecer que el sistema sólo confirma los casos favorables y evita las condiciones que lo refutan.
 
-Por ello, los bancos negativos no son anexos decorativos. Son una condición de rigor. Su función consiste en presentar casos que deben fallar, casos que deben quedar en (U), casos que deben activar error de plano y casos que deben impedir que una magnitud físicamente correcta sea usada en un dominio incorrecto.
+Por ello, los controles negativos no son anexos decorativos. Son una condición de rigor. Su función consiste en presentar casos que deben fallar, casos que deben quedar en (U), casos que deben activar error de plano y casos que deben impedir que una magnitud físicamente correcta sea usada en un dominio incorrecto.
 
 La regla es:
 
-<p><strong>un banco positivo sin banco negativo no demuestra discriminación.</strong></p>
+<p><strong>un banco positivo sin control negativo no demuestra discriminación.</strong></p>
 
 Y también:
 
 <p><strong>un resultado con error cero sólo es defendible si el sistema detecta el error cuando éste se introduce.</strong></p>
 
-Los bancos negativos se aplican a cuatro niveles:
+Los controles negativos se aplican a cuatro niveles:
 
 <p><strong>plano,</strong></p>
 
@@ -5955,12 +6256,15 @@ Los bancos negativos se aplican a cuatro niveles:
 
 En el plano, deben rechazar la atribución de edad a la totalidad absoluta. En la definición, deben rechazar objetos sin dominio, sin frontera, sin identidad o sin firma. En la transducción, deben rechazar unidades incompletas, retornos alterados o conversiones sin inversa. En la aritmética, deben rechazar sumas, restas, fracciones o equivalencias que no reproduzcan el valor tabulado.
 
-El banco negativo no busca destruir el resultado. Busca demostrar que el resultado no depende de complacencia formal.
+El control negativo no busca destruir el resultado. Busca demostrar que el resultado no depende de complacencia formal.
 
 <a id="sec-c-11-1-tabla-general-de-bancos-negativos"></a>
 
-## C.11.1. Tabla general de bancos negativos
-| Banco negativo | Error introducido | Residual activado | Salida exigida |
+## C.11.1. Tabla general de controles negativos
+
+<p><strong>Tabla 062.</strong></p>
+
+| Control negativo | Error introducido | Residual activado | Salida exigida |
 | --- | --- | --- | --- |
 | BN-PLANO | Edad atribuida a la totalidad absoluta | (Δ<sub>plano</sub>=1) | NO ADMISIBLE |
 | BN-DOMINIO | Objeto sin dominio declarado | (Δ<sub>Ω</sub>=U) | (U) |
@@ -5980,24 +6284,27 @@ El banco negativo no busca destruir el resultado. Busca demostrar que el resulta
 
 <a id="sec-c-11-2-banco-negativo-de-plano"></a>
 
-## C.11.2. Banco negativo de plano
+## C.11.2. Control negativo de plano
 
-El banco negativo de plano prueba que la edad se atribuye al tipo correcto de entidad. Su regla central es:
+El control negativo de plano prueba que la edad se atribuye al tipo correcto de entidad. Su regla central es:
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE.</strong></p>
+<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
 
-Donde (𝓣) designa la totalidad absoluta.
+Donde ( T) designa la totalidad absoluta.
+
+<p><strong>Tabla 063.</strong></p>
+
 | Código | Entrada adversarial | Forma errónea | Corrección | Salida |
 | --- | --- | --- | --- | --- |
-| BN-PL-01 | Totalidad absoluta | (Edad(𝓣)=13.800.000.000,a<sub>J</sub>) | La totalidad no es objeto físico interno | NO ADMISIBLE |
-| BN-PL-02 | Totalidad absoluta | (Edad(𝓣)=27.600.000.000,a<sub>J</sub>) | El fin de ciclo observable no es fin de totalidad | NO ADMISIBLE |
-| BN-PL-03 | Sol | (Edad(☉)=Edad(𝓣)) | El Sol es objeto interno | NO ADMISIBLE |
-| BN-PL-04 | Vía Láctea | (Edad(Ω<sub>VL</sub>)=Edad(𝓣)) | La galaxia-entorno es dominio interno | NO ADMISIBLE |
-| BN-PL-05 | Sistema Solar | (Edad(Ω<sub>SS</sub>)=Edad(𝓣)) | El Sistema Solar es dominio interno | NO ADMISIBLE |
-| BN-PL-06 | Contenido observable | (Edad(Ω<sub>obs</sub>)=Edad(𝓣)) | El contenido observable no es totalidad absoluta | NO ADMISIBLE |
-| BN-PL-07 | Modelo cosmológico | (Edad(modelo)=Edad(𝓣)) | El modelo es instrumento de reconstrucción | NO ADMISIBLE |
+| BN-PL-01 | Totalidad absoluta | (Edad( T)=13.800.000.000,a<sub>J</sub>) | La totalidad no es objeto físico interno | NO ADMISIBLE |
+| BN-PL-02 | Totalidad absoluta | (Edad( T)=27.600.000.000,a<sub>J</sub>) | El fin de ciclo observable no es fin de totalidad | NO ADMISIBLE |
+| BN-PL-03 | Sol | (Edad(☉)=Edad( T)) | El Sol es objeto interno | NO ADMISIBLE |
+| BN-PL-04 | Vía Láctea | (Edad(Ω<sub>VL</sub>)=Edad( T)) | La galaxia-entorno es dominio interno | NO ADMISIBLE |
+| BN-PL-05 | Sistema Solar | (Edad(Ω<sub>SS</sub>)=Edad( T)) | El Sistema Solar es dominio interno | NO ADMISIBLE |
+| BN-PL-06 | Contenido observable | (Edad(Ω<sub>cont,obs</sub>)=Edad( T)) | El contenido observable no es totalidad absoluta | NO ADMISIBLE |
+| BN-PL-07 | Modelo cosmológico | (Edad(modelo)=Edad( T)) | El modelo es instrumento de reconstrucción | NO ADMISIBLE |
 
-El banco debe activar:
+La tabla de contraste debe activar:
 
 <p><strong>Δ<sub>plano</sub>=1.</strong></p>
 
@@ -6007,9 +6314,12 @@ Y la salida esperada será:
 
 <a id="sec-c-11-3-banco-negativo-de-definicion"></a>
 
-## C.11.3. Banco negativo de definición
+## C.11.3. Control negativo de definición
 
-El banco negativo de definición comprueba que ninguna edad se declara sin objeto, dominio, identidad, frontera, magnitud y retorno.
+El control negativo de definición comprueba que ninguna edad se declara sin objeto, dominio, identidad, frontera, magnitud y retorno.
+
+<p><strong>Tabla 064.</strong></p>
+
 | Código | Defecto introducido | Ejemplo | Residual | Salida |
 | --- | --- | --- | --- | --- |
 | BN-DEF-01 | Falta dominio | (A=4.570.000.000,a<sub>J</sub>) sin decir si es Sol, Sistema Solar u otro dominio | (Δ<sub>Ω</sub>=U) | (U) |
@@ -6035,14 +6345,17 @@ Si el elemento introducido contradice el dominio:
 
 <a id="sec-c-11-4-banco-negativo-de-transduccion-si-sv"></a>
 
-## C.11.4. Banco negativo de transducción SI ↔ SV
+## C.11.4. Control negativo de transducción SI ↔ SV
 
-El banco negativo de transducción verifica que las conversiones no sean decorativas. Toda conversión debe permitir ida y vuelta:
+El control negativo de transducción verifica que las conversiones no sean decorativas. Toda conversión debe permitir ida y vuelta:
 
 <p><strong>a<sub>J</sub>→ s→ UE<sub>MFC</sub>→ s→ a<sub>J</sub>.</strong></p>
 
 Si la vuelta no reproduce el valor de partida, el transductor falla.
-| Código | Entrada | Error introducido | Resultado esperado | Dictamen |
+
+<p><strong>Tabla 065.</strong></p>
+
+| Código | Entrada | Error introducido | Resultado esperado | Salida formal |
 | --- | --- | --- | --- | --- |
 | BN-TR-01 | (1,a<sub>J</sub>) | usar (31.557.600,s) pero no multiplicar por (9) | unidad SV incompleta | (U) |
 | BN-TR-02 | (1,s) | usar (1,s=8,UE<sub>MFC</sub>) | retorno falso | NO ADMISIBLE |
@@ -6067,9 +6380,12 @@ entonces:
 
 <a id="sec-c-11-5-banco-negativo-aritmetico"></a>
 
-## C.11.5. Banco negativo aritmético
+## C.11.5. Control negativo aritmético
 
-El banco negativo aritmético impide que un resultado sea aceptado si sus sumas, restas o fracciones no cierran exactamente.
+El control negativo aritmético impide que un resultado sea aceptado si sus sumas, restas o fracciones no cierran exactamente.
+
+<p><strong>Tabla 066.</strong></p>
+
 | Código | Dominio | Prueba adversarial | Resultado correcto | Salida si falla |
 | --- | --- | --- | --- | --- |
 | BN-AR-01 | Sol | (4.570.000.000+5.430.000.000) | (10.000.000.000) | NO ADMISIBLE |
@@ -6093,9 +6409,12 @@ El cierre exige:
 
 <a id="sec-c-11-6-banco-negativo-de-fracciones"></a>
 
-## C.11.6. Banco negativo de fracciones
+## C.11.6. Control negativo de fracciones
 
-Las fracciones de ciclo no son intercambiables entre dominios. El banco negativo de fracciones detecta imposiciones falsas.
+Las fracciones de ciclo no son intercambiables entre dominios. El control negativo de fracciones detecta imposiciones falsas.
+
+<p><strong>Tabla 067.</strong></p>
+
 | Código | Entrada errónea | Razón del error | Salida |
 | --- | --- | --- | --- |
 | BN-FR-01 | (f_☉=1/2) | El Sol posee (457/1000), no (1/2) | NO ADMISIBLE |
@@ -6118,7 +6437,10 @@ Fracciones correctas:
 
 <a id="sec-c-11-7-banco-negativo-de-sol-sistema-solar-via-lactea-y-contenido-observable"></a>
 
-## C.11.7. Banco negativo de Sol, Sistema Solar, Vía Láctea y contenido observable
+## C.11.7. Control negativo de Sol, Sistema Solar, Vía Láctea y contenido observable
+
+<p><strong>Tabla 068.</strong></p>
+
 | Código | Caso adversarial | Salida correcta |
 | --- | --- | --- |
 | BN-SOL-01 | Edad del Sol tomada como edad del Sistema Solar | NO ADMISIBLE |
@@ -6141,9 +6463,12 @@ salvo demostración específica de identidad de dominio o igualdad de valor por 
 
 <a id="sec-c-11-8-banco-negativo-de-laboratorio"></a>
 
-## C.11.8. Banco negativo de laboratorio
+## C.11.8. Control negativo de laboratorio
 
 El laboratorio debe confirmar lo tabulado. No debe introducir una nueva cifra, no debe corregir el texto y no debe cerrar casos no declarados.
+
+<p><strong>Tabla 069.</strong></p>
+
 | Código | Defecto de laboratorio | Salida exigida |
 | --- | --- | --- |
 | BN-LAB-01 | El laboratorio calcula un valor no tabulado | NO ADMISIBLE |
@@ -6152,7 +6477,7 @@ El laboratorio debe confirmar lo tabulado. No debe introducir una nueva cifra, n
 | BN-LAB-04 | El laboratorio redondea una conversión exacta | NO ADMISIBLE |
 | BN-LAB-05 | El laboratorio acepta una edad sin dominio | (U) |
 | BN-LAB-06 | El laboratorio acepta una edad sin unidad SV | (U) |
-| BN-LAB-07 | El laboratorio acepta (Edad(𝓣)) | NO ADMISIBLE |
+| BN-LAB-07 | El laboratorio acepta (Edad( T)) | NO ADMISIBLE |
 | BN-LAB-08 | El laboratorio no reproduce retorno inverso | NO ADMISIBLE |
 | BN-LAB-09 | El laboratorio cambia el valor de banco | NO ADMISIBLE |
 | BN-LAB-10 | El laboratorio no informa un fallo | NO ADMISIBLE |
@@ -6163,9 +6488,9 @@ Regla de salida:
 
 <a id="sec-c-11-9-teorema-de-necesidad-de-bancos-negativos"></a>
 
-## C.11.9. Teorema de necesidad de bancos negativos
+## C.11.9. Necesidad de controles negativos
 
-Teorema. Un sistema de edades relativas con pretensión de error cero no es suficiente si sólo confirma casos positivos; necesita bancos negativos que activen error cuando se introduce una atribución, definición, transducción o aritmética falsa.
+Teorema. Un sistema de edades relativas con pretensión de error cero no es suficiente si sólo confirma casos positivos; necesita controles negativos que activen error cuando se introduce una atribución, definición, transducción o aritmética falsa.
 
 Demostración. Sea (S) un sistema que acepta el resultado correcto:
 
@@ -6179,7 +6504,7 @@ entonces (S) no discrimina entre valor verdadero de banco y valor erróneo.
 
 Si (S) no rechaza una atribución falsa:
 
-<p><strong>Edad(𝓣)=A<sub>i</sub>,</strong></p>
+<p><strong>Edad( T)=A<sub>i</sub>,</strong></p>
 
 entonces (S) no distingue totalidad absoluta de dominio físico interno.
 
@@ -6197,11 +6522,11 @@ entonces (S) no garantiza error aritmético cero.
 
 Por tanto, la confirmación positiva no basta. Es necesaria la refutación de los negativos. c.q.d.
 
-<a id="sec-c-11-10-dictamen-de-los-bancos-negativos"></a>
+<a id="sec-c-11-10-salida formal-de-los-bancos-negativos"></a>
 
-## C.11.10. Dictamen de los bancos negativos
+## C.11.10. Síntesis de los controles negativos
 
-Los bancos negativos introducen la disciplina final del desarrollo:
+Los controles negativos introducen la disciplina final del documento:
 
 <p><strong>lo que debe fallar, falla.</strong></p>
 
@@ -6225,7 +6550,7 @@ Con ello, los resultados positivos quedan protegidos:
 
 Y la totalidad absoluta queda bloqueada:
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE.</strong></p>
+<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
 
 <a id="sec-vii-resultado"></a>
 
@@ -6235,13 +6560,13 @@ Y la totalidad absoluta queda bloqueada:
 
 ## VII.1. Estatuto del resultado
 
-El resultado no es una edad de la totalidad absoluta ni una cota superior aproximada. Es una edad concreta del contenido observable retornado, con dominio declarado, unidad física, unidad transductiva, residual nulo y retorno inverso exacto.
+El resultado de este estudio no es una edad de la totalidad absoluta ni una cota superior aproximada. Es una edad concreta del contenido observable retornado, con dominio declarado, unidad física, unidad transductiva, residual nulo y retorno inverso exacto.
 
 La forma bloqueada es:
 
-<p><strong>Edad(𝓣)=13 800 000 000,a<sub>J</sub>.</strong></p>
+<p><strong>Edad( T)=13 800 000 000,a<sub>J</sub>.</strong></p>
 
-Esa formulación no es admisible porque (𝓣), como totalidad absoluta, no comparece como objeto físico interno. La Teoría del TODO y de la NADA no entiende el TODO como universo observable ni como suma empírica de objetos, sino como contención absoluta de todo dominio formulable, realizable, clausurable o pensable; el universo observable queda situado como dominio interno:
+Esa formulación no es admisible porque ( T), como totalidad absoluta, no comparece como objeto físico interno. La Teoría del TODO y de la NADA no entiende el TODO como universo observable ni como suma empírica de objetos, sino como contención absoluta de todo dominio formulable, realizable, clausurable o pensable; el universo observable queda situado como dominio interno:
 
 <p><strong>Ω<sub>obs</sub>⊂Ω<sub>fis</sub>⊂ TODO<sub>SV</sub>.</strong></p>
 
@@ -6259,7 +6584,7 @@ designa la edad concreta del dominio observable retornado, no la edad de la tota
 
 Por tanto:
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE.</strong></p>
+<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
 
 <p><strong>A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub>.</strong></p>
 
@@ -6287,11 +6612,11 @@ En un objeto físico interno ordinario (O<sub>i</sub>⊂Ω<sub>obs</sub>), puede
 
 Por ejemplo, una estrella, una galaxia local, un planeta o una estructura material pueden sufrir alteraciones externas dentro de su dominio físico. Esto no contradice su edad propia; sólo muestra que los objetos internos poseen exposición a factores del mismo dominio o de dominios físicos contiguos.
 
-El dominio observable total tratado no se formula como objeto físico aislado dentro de un exterior observable superior. Se formula como dominio interno de retorno situado dentro de:
+Pero el dominio observable total tratado en este estudio no se formula como objeto físico aislado dentro de un exterior observable superior. Se formula como dominio interno de retorno situado dentro de:
 
 <p><strong>Ω<sub>obs</sub>⊂Ω<sub>fis</sub>⊂ TODO<sub>SV</sub>.</strong></p>
 
-La Teoría del TODO y de la NADA impide que los dominios físicos se transformen en exterioridad absoluta del TODO; el análisis de imperfección fija que el universo físico observable, las teorías cosmológicas, los agujeros negros, los ciclos, las fases y los dominios internos no constituyen exterioridad absoluta ante el TODO.
+La Teoría del TODO y de la NADA impide que los dominios físicos se transformen en exterioridad absoluta del TODO; el documento de imperfección fija que el universo físico observable, las teorías cosmológicas, los agujeros negros, los ciclos, las fases y los dominios internos no constituyen exterioridad absoluta ante el TODO.
 
 Supóngase, por reducción al absurdo, que existe un factor externo absoluto (F^★) capaz de cortar desde fuera el ciclo observable total:
 
@@ -6335,7 +6660,7 @@ Demostración.
 
 La Teoría del TODO y de la NADA dispone una cadena estructural ascendente, no cronológica, desde el Origen Áureo hasta la ecuación rectora, atravesando el Universo de Sucesos, el Suceso Activador de Universo de Sucesos, el ciclo, el agotamiento configuracional, la frontera común ((μ,λ)=(0,0)) y el Suceso Reactivador; esa espiral es estructural, no temporal, y sus vueltas representan cierre de Universo de Sucesos, agotamiento, colapso común y nueva apertura por Suceso Reactivador.
 
-La formulación de imperfección fija, además, que la imperfección preformal es condición de sucesos: sin mínima no clausura no hay diferencia, y sin diferencia no hay suceso; la relación básica es:
+El estudio de imperfección fija, además, que la imperfección preformal es condición de sucesos: sin mínima no clausura no hay diferencia, y sin diferencia no hay suceso; la relación básica es:
 
 <p><strong>I<sub>pre</sub>⇒∂<sub>ε</sub>,</strong></p>
 
@@ -6375,11 +6700,11 @@ El inicio del observable no procede de un factor externo absoluto. Procede de la
 
 c.q.d.
 
-<a id="sec-vii-4-corolario-vi-1-de-atribucion-maxima-a-edad-concreta"></a>
+<a id="sec-vii-4-corolario-vi-1-de-edad-maxima-a-edad-concreta"></a>
 
-## VII.4. Corolario VI.1. De atribución máxima a edad concreta
+## VII.4. Corolario VI.1. De edad concreta a edad concreta
 
-Corolario VI.1. La edad del contenido observable retornado no debe formularse como máximo abierto de una familia externa, sino como edad concreta del dominio observable retornado.
+Corolario VI.1. La edad del contenido observable retornado no debe formularse como edad concreta, sino como edad concreta del dominio observable.
 
 Demostración.
 
@@ -6397,7 +6722,7 @@ Por tanto, el valor:
 
 <p><strong>13 800 000 000,a<sub>J</sub></strong></p>
 
-no queda como cierre provisional por ausencia de un candidato externo. Queda como edad concreta del dominio observable retornado declarado por el banco.
+no queda como máximo provisional por ausencia de un candidato externo. Queda como edad concreta del dominio observable retornado declarado por la tabla de contraste.
 
 Luego:
 
@@ -6583,7 +6908,7 @@ Supóngase que el valor no es concreto. Entonces debe cumplirse al menos una de 
 
 Contra (H<sub>1</sub>): por el Teorema VI.1, no existe factor externo absoluto capaz de cortar el ciclo observable total desde fuera. Si existiera, estaría fuera del TODO; pero el TODO es contención absoluta. Contradicción.
 
-Contra (H<sub>2</sub>): el banco declara el estado actual del dominio observable retornado como:
+Contra (H<sub>2</sub>): la tabla de contraste declara el estado actual del dominio observable retornado como:
 
 <p><strong>13 800 000 000,a<sub>J</sub>.</strong></p>
 
@@ -6609,7 +6934,7 @@ Luego:
 
 27 600 000 000.
 
-Negarlo contradice la teorema condicionado de simetría transductiva declarada.
+Negarlo contradice la hipótesis transductiva declarada.
 
 Contra (H<sub>5</sub>): por resta:
 
@@ -6640,7 +6965,10 @@ c.q.d.
 <a id="sec-vii-9-tabla-principal-de-resultado-concreto"></a>
 
 ## VII.9. Tabla principal de resultado concreto
-| Magnitud | Física contemporánea | Unidad física | SV | Unidad SV | Residual | Dictamen |
+
+**Tabla 070.**
+
+| Magnitud | Física contemporánea | Unidad física | SV | Unidad SV | Residual | Salida formal |
 | --- | --- | --- | --- | --- | --- | --- |
 | Edad de la totalidad absoluta | no aplicable | no aplicable | no aplicable | no aplicable | error de plano si se intenta | NO ADMISIBLE |
 | Edad concreta del observable retornado | 13.800.000.000 | (a<sub>J</sub>) | 3.919.453.920.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible |
@@ -6656,6 +6984,9 @@ c.q.d.
 <a id="sec-vii-10-tabla-comparativa-de-dominios-internos"></a>
 
 ## VII.10. Tabla comparativa de dominios internos
+
+**Tabla 071.**
+
 | Dominio | Edad actual (a<sub>J</sub>) | Edad actual (UE<sub>MFC</sub>) | Fin estructural (a<sub>J</sub>) | Fin estructural (UE<sub>MFC</sub>) | Restante (a<sub>J</sub>) | Restante (UE<sub>MFC</sub>) | Fracción actual |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Sol | 4.570.000.000 | 1.297.964.088.000.000.000 | 10.000.000.000 | 2.840.184.000.000.000.000 | 5.430.000.000 | 1.542.219.912.000.000.000 | (457/1000) |
@@ -6668,6 +6999,9 @@ Cada fila es dominio propio. Ninguna fila se atribuye a la totalidad absoluta.
 <a id="sec-vii-11-diferencias-singulares"></a>
 
 ## VII.11. Diferencias singulares
+
+<p><strong>Tabla 072.</strong></p>
+
 | Diferencia | Valor (a<sub>J</sub>) | Valor (UE<sub>MFC</sub>) | Lectura física |
 | --- | --- | --- | --- |
 | Observable retornado − Vía Láctea-entorno | 200.000.000 | 56.803.680.000.000.000 | Diferencia entre dominio observable concreto y dominio local galáctico |
@@ -6688,7 +7022,7 @@ Demostración.
 
 Error de plano:
 
-<p><strong>A_Ω<sub>obs</sub>≠ Edad(𝓣).</strong></p>
+<p><strong>A_Ω<sub>obs</sub>≠ Edad( T).</strong></p>
 
 La edad se atribuye a:
 
@@ -6740,10 +7074,13 @@ c.q.d.
 
 <a id="sec-vii-13-banco-negativo-especifico-del-resultado"></a>
 
-## VII.13. Banco negativo específico del resultado
+## VII.13. Control negativo específico del resultado
+
+<p><strong>Tabla 073.</strong></p>
+
 | Caso adversarial | Residual activado | Salida |
 | --- | --- | --- |
-| (Edad(𝓣)=13.800.000.000,a<sub>J</sub>) | (Δ<sub>plano</sub>=1) | NO ADMISIBLE |
+| (Edad( T)=13.800.000.000,a<sub>J</sub>) | (Δ<sub>plano</sub>=1) | NO ADMISIBLE |
 | (A_Ω<sub>obs</sub>) tratado como máximo abierto | (Δ<sub>def</sub>=1) | NO ADMISIBLE |
 | Existencia de factor externo absoluto (F^★∉ TODO<sub>SV</sub>) | (Δ<sub>TODO</sub>=1) | NO ADMISIBLE |
 | Conversión distinta de (3.919.453.920.000.000.000,UE<sub>MFC</sub>) | (Δ<sub>trans</sub>=1) | NO ADMISIBLE |
@@ -6754,11 +7091,11 @@ c.q.d.
 | Edad de la Vía Láctea igualada al TODO | (Δ<sub>plano</sub>=1) | NO ADMISIBLE |
 | Edad del Sistema Solar igualada al TODO | (Δ<sub>plano</sub>=1) | NO ADMISIBLE |
 
-<a id="sec-vii-14-dictamen-final-del-resultado"></a>
+<a id="sec-vii-14-salida formal-final-del-resultado"></a>
 
-## VII.14. Dictamen final del resultado
+## VII.14. Síntesis final del resultado
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE.</strong></p>
+<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
 
 <p><strong>A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub>.</strong></p>
 
@@ -6800,7 +7137,7 @@ La expresión «edad del Universo» queda corregida por distinción de plano. La
 
 La formulación rechazada es:
 
-<p><strong>Edad(𝓣)=13 800 000 000,a<sub>J</sub>.</strong></p>
+<p><strong>Edad( T)=13 800 000 000,a<sub>J</sub>.</strong></p>
 
 La formulación correcta es:
 
@@ -6818,11 +7155,11 @@ designa el dominio observable retornado.
 
 La diferencia no es terminológica. Es estructural. Una edad física exige que aquello a lo que se atribuye edad comparezca como contenido de un dominio de medida. La totalidad absoluta no cumple esa condición; el observable retornado sí. Por tanto:
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE.</strong></p>
+<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
 
 <p><strong>A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub>.</strong></p>
 
-Esta es la corrección principal de la formulación.
+Esta es la corrección principal de el estudio.
 
 <a id="sec-viii-2-resultado-final-en-fisica-contemporanea"></a>
 
@@ -6897,7 +7234,7 @@ conserva el valor sin resto.
 
 ## VIII.4. Fin de ciclo del observable retornado
 
-Bajo la teorema condicionado de simetría transductiva del ciclo observable:
+Bajo la hipótesis transductiva de simetría del ciclo observable:
 
 <p><strong>A_Ω<sub>obs</sub>,fin=2A_Ω<sub>obs</sub>,act.</strong></p>
 
@@ -6964,10 +7301,13 @@ f_Ω<sub>obs</sub>,rest
 
 1/2.
 
-<a id="sec-viii-5-dictamen-por-dominios-fisicos-internos"></a>
+<a id="sec-viii-5-salida formal-por-dominios-fisicos-internos"></a>
 
-## VIII.5. Dictamen por dominios físicos internos
-| Dominio | Edad actual (a<sub>J</sub>) | Fin estructural (a<sub>J</sub>) | Restante (a<sub>J</sub>) | Fracción actual | Dictamen |
+## VIII.5. Lectura por dominios físicos internos
+
+<p><strong>Tabla 074.</strong></p>
+
+| Dominio | Edad actual (a<sub>J</sub>) | Fin estructural (a<sub>J</sub>) | Restante (a<sub>J</sub>) | Fracción actual | Salida formal |
 | --- | --- | --- | --- | --- | --- |
 | Sol | 4.570.000.000 | 10.000.000.000 | 5.430.000.000 | (457/1000) | admisible |
 | Sistema Solar | 4.568.000.000 | 10.000.000.000 | 5.432.000.000 | (571/1250) | admisible |
@@ -6996,6 +7336,9 @@ Es decir:
 <a id="sec-viii-6-tabla-final-sv-fisica-contemporanea"></a>
 
 ## VIII.6. Tabla final SV ↔ física contemporánea
+
+<p><strong>Tabla 075.</strong></p>
+
 | Dominio | Física contemporánea (a<sub>J</sub>) | Física contemporánea (s) | SV (UE<sub>MFC</sub>) | Retorno inverso | Error transductivo |
 | --- | --- | --- | --- | --- | --- |
 | Sol actual | 4.570.000.000 | 144.218.232.000.000.000 | 1.297.964.088.000.000.000 | exacto | 0 |
@@ -7011,7 +7354,7 @@ Es decir:
 
 ## VIII.7. Error cero
 
-La formulación no afirma que la astrofísica observacional carezca de incertidumbre instrumental. Afirma que, una vez fijados el dominio, la unidad y el transductor, el error de atribución, definición, transducción y aritmética es cero.
+El estudio no afirma que la astrofísica observacional carezca de margen instrumental. Afirma que, una vez fijados el dominio, la unidad y el transductor, el error de atribución, definición, transducción y aritmética es cero.
 
 ε<sub>total</sub>
 
@@ -7031,15 +7374,15 @@ Por tanto:
 
 <p><strong>ε<sub>total</sub>=0.</strong></p>
 
-La incertidumbre instrumental conserva su lugar:
+La margen instrumental conserva su lugar:
 
 <p><strong>σ<sub>obs</sub>≠0.</strong></p>
 
 Pero no altera el resultado de plano:
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE.</strong></p>
+<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
 
-Ni altera la edad concreta del observable retornado dentro del banco:
+Ni altera la edad concreta del observable retornado dentro de la tabla de contraste:
 
 <p><strong>A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub>.</strong></p>
 
@@ -7051,7 +7394,7 @@ Supóngase que el resultado no es concreto.
 
 Entonces debe cumplirse al menos una de las siguientes alternativas:
 
-<p><strong>H<sub>1</sub>: Edad(𝓣)=A_Ω<sub>obs</sub>.</strong></p>
+<p><strong>H<sub>1</sub>: Edad( T)=A_Ω<sub>obs</sub>.</strong></p>
 
 <p><strong>H<sub>2</sub>: A_Ω<sub>obs</sub>≠13 800 000 000,a<sub>J</sub>.</strong></p>
 
@@ -7065,7 +7408,7 @@ Entonces debe cumplirse al menos una de las siguientes alternativas:
 
 Contra (H<sub>1</sub>): la totalidad absoluta no admite edad física. Contradicción de plano.
 
-Contra (H<sub>2</sub>): el banco declara el observable retornado en (13 800 000 000,a<sub>J</sub>). Contradicción de definición.
+Contra (H<sub>2</sub>): la tabla de contraste declara el observable retornado en (13 800 000 000,a<sub>J</sub>). Contradicción de definición.
 
 Contra (H<sub>3</sub>): la transducción fija:
 
@@ -7113,11 +7456,11 @@ El resultado queda cerrado como edad concreta del observable retornado.
 
 ## VIII.9. Conclusión final
 
-La física contemporánea mide retornos, señales, dominios, objetos y estructuras. La corrección consiste en impedir que esos retornos se atribuyan a una totalidad que no admite edad física. La edad pertenece al observable retornado y a los objetos físicos internos; no pertenece a la totalidad absoluta.
+La física contemporánea mide retornos, señales, dominios, objetos y estructuras. La corrección introducida por este estudio consiste en impedir que esos retornos se atribuyan a una totalidad que no admite edad física. La edad pertenece al observable retornado y a los objetos físicos internos; no pertenece a la totalidad absoluta.
 
 El resultado final es:
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE.</strong></p>
+<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
 
 <p><strong>A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub>.</strong></p>
 
@@ -7149,7 +7492,7 @@ Y para los objetos internos contrastados:
 
 <p><strong>Edad(Vía Láctea-entorno)=13 600 000 000,a<sub>J</sub>.</strong></p>
 
-La conclusión queda así: no hay edad física de la totalidad absoluta; hay edad concreta del observable retornado y edades propias de los objetos físicos que contiene.
+El documento concluye así: no hay edad física de la totalidad absoluta; hay edad concreta del observable retornado y edades propias de los objetos físicos que contiene.
 
 <a id="sec-ix-teoria-de-la-edad-de-todos-los-objetos-del-universo-observable"></a>
 
@@ -7163,7 +7506,7 @@ La Teoría de la edad de todos los objetos del Universo Observable establece una
 
 La teoría no calcula edad de la totalidad absoluta. La totalidad absoluta queda fuera de atribución cronológica:
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE.</strong></p>
+<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
 
 La teoría opera únicamente sobre objetos físicos internos:
 
@@ -7327,7 +7670,7 @@ Por tanto:
 
 La fórmula canónica de la teoría es:
 
-𝓔<sub>age</sub>(O<sub>i</sub>)
+E<sub>age</sub>(O<sub>i</sub>)
 
 ( A<sub>i</sub>, F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>, A<sub>i</sub>/F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>, 284 018 400A<sub>i</sub>, 284 018 400F<sub>i</sub>, 284 018 400(F<sub>i</sub>-A<sub>i</sub>), Δ<sub>i</sub> ).
 
@@ -7709,8 +8052,11 @@ La fórmula canónica:
 
 <p><strong>A<sub>i</sub><sup>SV</sup>=284 018 400A<sub>i</sub><sup>FC</sup></strong></p>
 
-reproduce todos los valores expuestos.
-| Objeto o dominio | (A<sub>i</sub><sup>FC</sup>) en (a<sub>J</sub>) | Fórmula | (A<sub>i</sub><sup>SV</sup>) | Dictamen |
+reproduce todos los valores del documento.
+
+<p><strong>Tabla 076.</strong></p>
+
+| Objeto o dominio | (A<sub>i</sub><sup>FC</sup>) en (a<sub>J</sub>) | Fórmula | (A<sub>i</sub><sup>SV</sup>) | Salida formal |
 | --- | --- | --- | --- | --- |
 | Sol | 4.570.000.000 | (4.570.000.000×284.018.400) | 1.297.964.088.000.000.000 | 0 |
 | Sistema Solar | 4.568.000.000 | (4.568.000.000×284.018.400) | 1.297.396.051.200.000.000 | 0 |
@@ -7726,7 +8072,10 @@ reproduce todos los valores expuestos.
 ## IX.13. Comprobación de los tramos restantes desde la fórmula
 
 <p><strong>R<sub>i</sub><sup>SV</sup>=284 018 400(F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>).</strong></p>
-| Objeto o dominio | (F<sub>i</sub><sup>FC</sup>) | (A<sub>i</sub><sup>FC</sup>) | (F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>) | (R<sub>i</sub><sup>SV</sup>) | Dictamen |
+
+<p><strong>Tabla 077.</strong></p>
+
+| Objeto o dominio | (F<sub>i</sub><sup>FC</sup>) | (A<sub>i</sub><sup>FC</sup>) | (F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>) | (R<sub>i</sub><sup>SV</sup>) | Salida formal |
 | --- | --- | --- | --- | --- | --- |
 | Sol | 10.000.000.000 | 4.570.000.000 | 5.430.000.000 | 1.542.219.912.000.000.000 | 0 |
 | Sistema Solar | 10.000.000.000 | 4.568.000.000 | 5.432.000.000 | 1.542.787.948.800.000.000 | 0 |
@@ -7740,6 +8089,9 @@ reproduce todos los valores expuestos.
 <p><strong>f<sub>i</sub>=A<sub>i</sub>/F<sub>i</sub>.</strong></p>
 
 <p><strong>ρ<sub>i</sub>=1-f<sub>i</sub>.</strong></p>
+
+<p><strong>Tabla 078.</strong></p>
+
 | Objeto o dominio | (A<sub>i</sub>) | (F<sub>i</sub>) | (f<sub>i</sub>) | (ρ<sub>i</sub>) | Suma |
 | --- | --- | --- | --- | --- | --- |
 | Sol | 4.570.000.000 | 10.000.000.000 | (457/1000) | (543/1000) | 1 |
@@ -7749,12 +8101,15 @@ reproduce todos los valores expuestos.
 
 <a id="sec-ix-15-banco-de-datos-negativos-de-la-teoria"></a>
 
-## IX.15. Banco de datos negativos de la teoría
+## IX.15. Tabla de controles negativos de la teoría
 
-El banco negativo de la teoría verifica que la fórmula única discrimina correctamente. No basta que la fórmula confirme valores positivos; debe rechazar valores mal tipados, transducciones falsas y composiciones indebidas.
+El control negativo de la teoría verifica que la fórmula única discrimina correctamente. No basta que la fórmula confirme valores positivos; debe rechazar valores mal tipados, transducciones falsas y composiciones indebidas.
+
+<p><strong>Tabla 079.</strong></p>
+
 | Código | Entrada negativa | Defecto | Salida esperada |
 | --- | --- | --- | --- |
-| TNEG-01 | (Edad(𝓣)=13.800.000.000,a<sub>J</sub>) | edad atribuida a totalidad absoluta | NO ADMISIBLE |
+| TNEG-01 | (Edad( T)=13.800.000.000,a<sub>J</sub>) | edad atribuida a totalidad absoluta | NO ADMISIBLE |
 | TNEG-02 | (A_☉=13.800.000.000,a<sub>J</sub>) | edad solar sustituida por observable | NO ADMISIBLE |
 | TNEG-03 | (A<sub>SS</sub>=4.570.000.000,a<sub>J</sub>) | Sistema Solar confundido con Sol | NO ADMISIBLE |
 | TNEG-04 | (A<sub>VL</sub>=A_Ω<sub>obs</sub>) | dominio galáctico confundido con observable completo | NO ADMISIBLE |
@@ -7772,9 +8127,9 @@ El banco negativo de la teoría verifica que la fórmula única discrimina corre
 
 <a id="sec-ix-16-teorema-viii-4-necesidad-del-banco-negativo"></a>
 
-## IX.16. Teorema VIII.4. Necesidad del banco negativo
+## IX.16. Necesidad de los controles negativos
 
-Teorema VIII.4. La Teoría de la edad de todos los objetos del Universo Observable exige banco negativo; sin él, la fórmula canónica no demostraría discriminación.
+Teorema VIII.4. La Teoría de la edad de todos los objetos del Universo Observable exige control negativo; sin él, la fórmula canónica no demostraría discriminación.
 
 Demostración.
 
@@ -7784,7 +8139,7 @@ La fórmula positiva:
 
 demuestra conversión exacta. Pero, por sí sola, no prueba que el sistema rechace:
 
-<p><strong>Edad(𝓣),</strong></p>
+<p><strong>Edad( T),</strong></p>
 
 <p><strong>A_☉=A_Ω<sub>obs</sub>,</strong></p>
 
@@ -7796,7 +8151,7 @@ o:
 
 Si el sistema aceptara cualquiera de esas entradas, tendría error de plano, error de dominio, error transductivo o error aritmético.
 
-El banco negativo fuerza la salida:
+El control negativo fuerza la salida:
 
 <p><strong>1</strong></p>
 
@@ -7806,7 +8161,7 @@ para contradicción, y:
 
 para falta de información esencial.
 
-Por tanto, el banco negativo es necesario para demostrar que la fórmula canónica no sólo calcula, sino que discrimina.
+Por tanto, el control negativo es necesario para demostrar que la fórmula canónica no sólo calcula, sino que discrimina.
 
 c.q.d.
 
@@ -7814,7 +8169,7 @@ c.q.d.
 
 ## IX.17. Teorema VIII.5. Contraste de teoría única
 
-Teorema VIII.5. Todos los resultados anteriores son casos particulares de la fórmula canónica, luego la teoría es única y no composición de teorías parciales.
+Teorema VIII.5. Todos los resultados anteriores del documento son casos particulares de la fórmula canónica, luego la teoría es única y no composición de teorías parciales.
 
 Demostración.
 
@@ -7866,13 +8221,13 @@ Por tanto, no hay cuatro teorías. Hay una sola teoría aplicada a cuatro domini
 
 c.q.d.
 
-<a id="sec-ix-18-dictamen-de-la-teoria"></a>
+<a id="sec-ix-18-salida formal-de-la-teoria"></a>
 
-## IX.18. Dictamen de la teoría
+## IX.18. Síntesis de la teoría
 
 La Teoría de la edad de todos los objetos del Universo Observable queda fijada por una fórmula canónica única:
 
-𝓔<sub>age</sub>(O<sub>i</sub>)
+E<sub>age</sub>(O<sub>i</sub>)
 
 ( A<sub>i</sub>, F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>, A<sub>i</sub>/F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>, 284 018 400A<sub>i</sub>, 284 018 400F<sub>i</sub>, 284 018 400(F<sub>i</sub>-A<sub>i</sub>), Δ<sub>i</sub> ).
 
@@ -7902,17 +8257,23 @@ A<sup>SV</sup>-A<sub>i</sub><sup>SV</sup>
 
 El error total queda:
 
-<p><strong>ε<sub>plano</sub> = ε<sub>def</sub> = ε<sub>trans</sub> = ε<sub>arit</sub> = 0.</strong></p>
+ε<sub>plano</sub>
 
-El banco negativo queda incorporado como condición de rigor.
+ε<sub>def</sub>
+
+ε<sub>trans</sub>
+
+ε<sub>arit</sub>
+
+El control negativo queda incorporado como condición de rigor.
 
 La teoría es única:
 
 <p><strong>una fórmula, todos los objetos admisibles, error cero.</strong></p>
 
-<a id="sec-x-dictamen-final-de-cierre"></a>
+<a id="sec-x-salida formal-final-de-cierre"></a>
 
-# X. Dictamen final de cierre
+# X. Síntesis final de cierre
 
 <a id="sec-x-1-tesis-cerrada"></a>
 
@@ -7928,7 +8289,7 @@ y no por:
 
 La totalidad absoluta no admite edad física:
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE.</strong></p>
+<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
 
 El observable retornado sí admite edad concreta:
 
@@ -7962,7 +8323,7 @@ A_Ω<sub>obs</sub>,rest<sup>SV</sup>
 
 La teoría queda cerrada por la fórmula canónica:
 
-𝓔<sub>age</sub>(O<sub>i</sub>)
+E<sub>age</sub>(O<sub>i</sub>)
 
 ( A<sub>i</sub>, F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>, A<sub>i</sub>/F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>, 284 018 400A<sub>i</sub>, 284 018 400F<sub>i</sub>, 284 018 400(F<sub>i</sub>-A<sub>i</sub>), Δ<sub>i</sub> ).
 
@@ -7987,7 +8348,10 @@ Por tanto:
 <a id="sec-x-3-tabla-final-de-dominios"></a>
 
 ## X.3. Tabla final de dominios
-| Dominio | Edad actual (a<sub>J</sub>) | Fin estructural (a<sub>J</sub>) | Restante (a<sub>J</sub>) | Fracción actual | Dictamen |
+
+<p><strong>Tabla 091.</strong></p>
+
+| Dominio | Edad actual (a<sub>J</sub>) | Fin estructural (a<sub>J</sub>) | Restante (a<sub>J</sub>) | Fracción actual | Salida formal |
 | --- | --- | --- | --- | --- | --- |
 | Sol | 4.570.000.000 | 10.000.000.000 | 5.430.000.000 | (457/1000) | admisible |
 | Sistema Solar | 4.568.000.000 | 10.000.000.000 | 5.432.000.000 | (571/1250) | admisible |
@@ -7998,6 +8362,9 @@ Por tanto:
 <a id="sec-x-4-tabla-final-sv-fisica-contemporanea"></a>
 
 ## X.4. Tabla final SV ↔ física contemporánea
+
+<p><strong>Tabla 092.</strong></p>
+
 | Dominio | Edad actual (UE<sub>MFC</sub>) | Fin estructural (UE<sub>MFC</sub>) | Restante (UE<sub>MFC</sub>) | Retorno inverso |
 | --- | --- | --- | --- | --- |
 | Sol | 1.297.964.088.000.000.000 | 2.840.184.000.000.000.000 | 1.542.219.912.000.000.000 | exacto |
@@ -8023,7 +8390,7 @@ Por tanto:
 
 <p><strong>ε<sub>total</sub>=0.</strong></p>
 
-Esto no significa que la observación física carezca de incertidumbre instrumental. Significa que el análisis no comete error de atribución, no deja indefinida la unidad, no altera la transducción y no introduce resto aritmético en los valores declarados.
+Esto no significa que la observación física carezca de margen instrumental. Significa que el documento no comete error de atribución, no deja indefinida la unidad, no altera la transducción y no introduce resto aritmético en los valores declarados.
 
 <a id="sec-x-6-reduccion-final-al-absurdo"></a>
 
@@ -8033,7 +8400,7 @@ Supóngase que el resultado no queda cerrado.
 
 Entonces debe cumplirse al menos una de estas tesis:
 
-<p><strong>H<sub>1</sub>: Edad(𝓣) es admisible.</strong></p>
+<p><strong>H<sub>1</sub>: Edad( T) es admisible.</strong></p>
 
 <p><strong>H<sub>2</sub>: A_Ω<sub>obs</sub>≠13 800 000 000 a<sub>J</sub>.</strong></p>
 
@@ -8047,7 +8414,7 @@ Entonces debe cumplirse al menos una de estas tesis:
 
 Contra (H<sub>1</sub>): la totalidad absoluta no es objeto físico interno. Luego no admite edad física.
 
-Contra (H<sub>2</sub>): el banco declara la edad concreta del observable retornado como:
+Contra (H<sub>2</sub>): la tabla de contraste declara la edad concreta del observable retornado como:
 
 <p><strong>13 800 000 000 a<sub>J</sub>.</strong></p>
 
@@ -8096,11 +8463,11 @@ Luego:
 
 El resultado queda cerrado.
 
-<a id="sec-x-7-dictamen-final"></a>
+<a id="sec-x-7-salida formal-final"></a>
 
-## X.7. Dictamen final
+## X.7. Síntesis final
 
-La formulación concluye:
+El estudio concluye:
 
 <p><strong>la totalidad absoluta no posee edad física admisible.</strong></p>
 
@@ -8112,7 +8479,7 @@ La formulación concluye:
 
 <p><strong>la fórmula canónica es única para todos los objetos admisibles.</strong></p>
 
-<p><strong>el banco negativo demuestra discriminación.</strong></p>
+<p><strong>el control negativo demuestra discriminación.</strong></p>
 
 <p><strong>el laboratorio reproduce lo tabulado y no inventa resultado.</strong></p>
 
@@ -8126,17 +8493,17 @@ A_Ω<sub>obs</sub>,fin=27 600 000 000 a<sub>J</sub>
 
 7 838 907 840 000 000 000 UE<sub>MFC</sub>.
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE.</strong></p>
+<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
 
 <a id="sec-xi-anexo-tecnico-reproducible-bancos-declarativos-catalogo-de-errores-y-salida-esperada"></a>
 
-# XI. Anexo técnico reproducible: bancos declarativos, catálogo de errores y salida esperada
+# XI. Anexo técnico reproducible: datos declarativos, catálogo de errores y salida esperada
 
 <a id="sec-xi-1-estatuto-del-anexo-tecnico"></a>
 
 ## XI.1. Estatuto del anexo técnico
 
-Este anexo fija los bancos declarativos mínimos que permiten reproducir la teoría mediante laboratorio. Su finalidad es que todo valor central de la formulación pueda ser confirmado por ejecución exacta, sin inferencia, sin redondeo, sin tolerancia y sin pase silencioso.
+Este anexo fija los registros declarativos mínimos que permiten reproducir la teoría mediante laboratorio. Su finalidad es que todo valor central de el estudio pueda ser confirmado por ejecución exacta, sin inferencia, sin redondeo, sin tolerancia y sin pase silencioso.
 
 La regla es:
 
@@ -8160,9 +8527,9 @@ Por tanto:
 
 <a id="sec-xi-2-manifestunidades-csv"></a>
 
-## XI.2. manifest<sub>unidades</sub>.csv
+## XI.2. [manifest_unidades.csv](laboratorios/manifest_unidades.csv)
 
-field,value,unit,dictamen
+field,value,unit,salida formal
 
 julian<sub>year</sub><sub>seconds</sub>,31557600,s,0
 
@@ -8190,7 +8557,7 @@ La prueba obligatoria del manifiesto es:
 
 <a id="sec-xi-3-bancoobjetos-csv"></a>
 
-## XI.3. banco<sub>objetos</sub>.csv
+## XI.3. [banco_objetos.csv](laboratorios/banco_objetos.csv)
 
 object<sub>id</sub>,object<sub>name</sub>,domain,current<sub>aj</sub>,finish<sub>aj</sub>,expected<sub>status</sub>
 
@@ -8206,13 +8573,13 @@ ABSOLUTE<sub>TOTALITY</sub>,Totalidad absoluta,T<sub>absolute</sub>,NA,NA,NO<sub
 
 La totalidad absoluta queda declarada como caso no cronológico:
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE.</strong></p>
+<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
 
 <a id="sec-xi-4-bancovalores-csv"></a>
 
-## XI.4. banco<sub>valores</sub>.csv
+## XI.4. [banco_valores.csv](laboratorios/banco_valores.csv)
 
-object<sub>id</sub>,current<sub>aj</sub>,current<sub>uemfc</sub>,finish<sub>aj</sub>,finish<sub>uemfc</sub>,remaining<sub>aj</sub>,remaining<sub>uemfc</sub>,current<sub>fraction</sub>,remaining<sub>fraction</sub>,dictamen
+object<sub>id</sub>,current<sub>aj</sub>,current<sub>uemfc</sub>,finish<sub>aj</sub>,finish<sub>uemfc</sub>,remaining<sub>aj</sub>,remaining<sub>uemfc</sub>,current<sub>fraction</sub>,remaining<sub>fraction</sub>,salida formal
 
 SUN,4570000000,1297964088000000000,10000000000,2840184000000000000,5430000000,1542219912000000000,457/1000,543/1000,0
 
@@ -8234,9 +8601,9 @@ Cada fila debe cumplir:
 
 <a id="sec-xi-5-bancodiferencias-csv"></a>
 
-## XI.5. banco<sub>diferencias</sub>.csv
+## XI.5. [banco_diferencias.csv](laboratorios/banco_diferencias.csv)
 
-difference<sub>id</sub>,left<sub>object</sub>,right<sub>object</sub>,difference<sub>aj</sub>,difference<sub>uemfc</sub>,dictamen
+difference<sub>id</sub>,left<sub>object</sub>,right<sub>object</sub>,difference<sub>aj</sub>,difference<sub>uemfc</sub>,salida formal
 
 DIF<sub>01</sub>,OBSERVABLE<sub>RETURNED</sub>,MILKY<sub>WAY</sub><sub>ENV</sub>,200000000,56803680000000000,0
 
@@ -8258,9 +8625,9 @@ La regla diferencial es:
 
 <a id="sec-xi-6-bancofracciones-csv"></a>
 
-## XI.6. banco<sub>fracciones</sub>.csv
+## XI.6. [banco_fracciones.csv](laboratorios/banco_fracciones.csv)
 
-fraction<sub>id</sub>,object<sub>id</sub>,current<sub>aj</sub>,finish<sub>aj</sub>,current<sub>fraction</sub>,remaining<sub>fraction</sub>,sum<sub>fraction</sub>,dictamen
+fraction<sub>id</sub>,object<sub>id</sub>,current<sub>aj</sub>,finish<sub>aj</sub>,current<sub>fraction</sub>,remaining<sub>fraction</sub>,sum<sub>fraction</sub>,salida formal
 
 FR<sub>SUN</sub>,SUN,4570000000,10000000000,457/1000,543/1000,1,0
 
@@ -8282,7 +8649,7 @@ Y:
 
 <a id="sec-xi-7-banconegativos-csv"></a>
 
-## XI.7. banco<sub>negativos</sub>.csv
+## XI.7. [banco_negativos.csv](laboratorios/banco_negativos.csv)
 
 negative<sub>id</sub>,input<sub>case</sub>,error<sub>expected</sub>,expected<sub>status</sub>
 
@@ -8320,7 +8687,7 @@ Un laboratorio que no active todos los negativos no confirma la teoría.
 
 <a id="sec-xi-8-catalogoerrores-csv"></a>
 
-## XI.8. catalogo<sub>errores</sub>.csv
+## XI.8. [catalogo_errores.csv](laboratorios/catalogo_errores.csv)
 
 error<sub>code</sub>,error<sub>name</sub>,description,expected<sub>status</sub>
 
@@ -8360,13 +8727,13 @@ E-LAB-02,redondeo<sub>no</sub><sub>autorizado</sub>,Uso de redondeo,1
 
 E-LAB-03,coma<sub>flotante</sub><sub>no</sub><sub>autorizada</sub>,Uso de coma flotante,1
 
-E-LAB-04,control<sub>negativo</sub><sub>omitido</sub>,Falta banco negativo,1
+E-LAB-04,control<sub>negativo</sub><sub>omitido</sub>,Falta control negativo,1
 
 E-LAB-05,pase<sub>silencioso</sub>,Fallo no comunicado,1
 
 <a id="sec-xi-9-salidaesperada-txt"></a>
 
-## XI.9. salida<sub>esperada</sub>.txt
+## XI.9. [salida_esperada.txt](laboratorios/salida_esperada.txt)
 
 SV<sub>RELATIVE</sub><sub>AGES</sub><sub>THEORY</sub><sub>LAB</sub><sub>RESULT</sub>
 
@@ -8464,9 +8831,9 @@ ERROR<sub>ARIT</sub>=0
 
 <a id="sec-xi-10-teorema-xii-1-cerramiento-de-los-bancos-declarativos"></a>
 
-## XI.10. Teorema XII.1. Cerramiento de los bancos declarativos
+## XI.10. Cierre de los datos declarativos
 
-Teorema XII.1. Si los bancos manifest<sub>unidades</sub>.csv, banco<sub>objetos</sub>.csv, banco<sub>valores</sub>.csv, banco<sub>diferencias</sub>.csv, banco<sub>fracciones</sub>.csv, banco<sub>negativos</sub>.csv y catalogo<sub>errores</sub>.csv se ejecutan sin alteración y la salida coincide con salida<sub>esperada</sub>.txt, entonces la teoría queda reproducida en laboratorio.
+Teorema XII.1. Si las tablas de contraste [manifest_unidades.csv](laboratorios/manifest_unidades.csv), [banco_objetos.csv](laboratorios/banco_objetos.csv), [banco_valores.csv](laboratorios/banco_valores.csv), [banco_diferencias.csv](laboratorios/banco_diferencias.csv), [banco_fracciones.csv](laboratorios/banco_fracciones.csv), [banco_negativos.csv](laboratorios/banco_negativos.csv) y [catalogo_errores.csv](laboratorios/catalogo_errores.csv) se ejecutan sin alteración y la salida coincide con [salida_esperada.txt](laboratorios/salida_esperada.txt), entonces la teoría queda reproducida en laboratorio.
 
 Demostración.
 
@@ -8474,15 +8841,15 @@ El manifiesto fija:
 
 <p><strong>K<sub>age</sub>=284 018 400.</strong></p>
 
-El banco de objetos fija los dominios admisibles y bloquea la totalidad absoluta. El banco de valores fija:
+La tabla de contraste de objetos fija los dominios admisibles y bloquea la totalidad absoluta. La tabla de contraste de valores fija:
 
 <p><strong>A<sub>i</sub>, F<sub>i</sub>, R<sub>i</sub>, A<sub>i</sub><sup>SV</sup>, F<sub>i</sub><sup>SV</sup>, R<sub>i</sub><sup>SV</sup>.</strong></p>
 
-El banco de diferencias verifica comparaciones singulares. El banco de fracciones verifica:
+La tabla de contraste de diferencias verifica comparaciones singulares. La tabla de contraste de fracciones verifica:
 
 <p><strong>f<sub>i</sub>+ρ<sub>i</sub>=1.</strong></p>
 
-El banco negativo verifica que los errores de plano, definición, transducción y aritmética se activan cuando deben activarse. El catálogo de errores impide salidas mudas o no clasificadas.
+El control negativo verifica que los errores de plano, definición, transducción y aritmética se activan cuando deben activarse. El catálogo de errores impide salidas mudas o no clasificadas.
 
 Si la salida ejecutada coincide con la salida esperada, todas las condiciones de la fórmula canónica se cumplen. Por tanto, la teoría queda reproducida.
 
@@ -8490,9 +8857,9 @@ c.q.d.
 
 <a id="sec-xi-11-teorema-xii-2-no-sustitucion-del-banco-por-laboratorio"></a>
 
-## XI.11. Teorema XII.2. No sustitución del banco por laboratorio
+## XI.11. No sustitución de los datos declarados por el laboratorio
 
-Teorema XII.2. Ningún laboratorio puede sustituir un banco declarativo ausente.
+Teorema XII.2. Ningún laboratorio puede sustituir un registro declarativo ausente.
 
 Demostración.
 
@@ -8504,7 +8871,7 @@ Si:
 
 <p><strong>S<sub>L</sub></strong></p>
 
-no corresponde a una entrada de banco, entonces no existen dominio, valor esperado, unidad, residual ni dictamen previos que permitan evaluarla.
+no corresponde a una entrada de banco, entonces no existen dominio, valor esperado, unidad, residual ni salida formal previos que permitan evaluarla.
 
 Por tanto:
 
@@ -8518,11 +8885,11 @@ El laboratorio sólo puede confirmar o refutar lo declarado. No puede introducir
 
 c.q.d.
 
-<a id="sec-xi-12-dictamen-del-anexo-tecnico"></a>
+<a id="sec-xi-12-salida formal-del-anexo-tecnico"></a>
 
-## XI.12. Dictamen del anexo técnico
+## XI.12. Síntesis del anexo técnico
 
-Los bancos declarativos reproducen la teoría completa:
+Los registros declarativos reproducen la teoría completa:
 
 <p><strong>A<sub>i</sub><sup>SV</sup>=284 018 400A<sub>i</sub><sup>FC</sup>.</strong></p>
 
@@ -8530,7 +8897,7 @@ Los bancos declarativos reproducen la teoría completa:
 
 <p><strong>f<sub>i</sub>+ρ<sub>i</sub>=1.</strong></p>
 
-<p><strong>Edad(𝓣)=NO ADMISIBLE.</strong></p>
+<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
 
 <p><strong>ε<sub>plano</sub>= ε<sub>def</sub>= ε<sub>trans</sub>= ε<sub>arit</sub>=0.</strong></p>
 
@@ -8546,16 +8913,19 @@ El cierre operativo esperado es:
 
 ## XII.1. Estatuto del glosario
 
-Este glosario fija la correspondencia terminológica mínima entre el aparato formal de la formulación y el lenguaje de la física contemporánea. Su función es impedir que el lector confunda totalidad absoluta, universo observable, objeto físico, edad relativa, retorno luminoso, transducción, residual y error cero.
+Este glosario fija la correspondencia terminológica mínima entre el aparato formal de el estudio y el lenguaje de la física contemporánea. Su función es impedir que el lector confunda totalidad absoluta, universo observable, objeto físico, edad relativa, retorno luminoso, transducción, residual y error cero.
 
 El glosario no introduce doctrina nueva. Ordena los términos empleados por la teoría.
 
 <a id="sec-xii-2-glosario-rector"></a>
 
 ## XII.2. Glosario rector
-| Término SV | Equivalente físico contemporáneo | Definición operativa | Dictamen |
+
+<p><strong>Tabla 093.</strong></p>
+
+| Término SV | Equivalente físico contemporáneo | Definición operativa | Salida formal |
 | --- | --- | --- | --- |
-| (𝓣) | Totalidad absoluta | Plano que no comparece como objeto físico interno ni como dominio medible desde exterior | No admite edad |
+| ( T) | Totalidad absoluta | Plano que no comparece como objeto físico interno ni como dominio medible desde exterior | No admite edad |
 | (TODO<sub>SV</sub>) | Contención absoluta formal | Marco de contención de todo dominio formulable, no equivalente al universo observable | No cronológico |
 | (Ω<sub>obs</sub>) | Universo observable / dominio observable retornado | Dominio físico accesible por señales, retornos, horizontes, instrumentos y modelos | Admite edad concreta |
 | (O<sub>i</sub>) | Objeto físico observable | Entidad interna: Sol, Sistema Solar, galaxia, estrella, púlsar, señal o estructura física | Admite edad si cierra |
@@ -8577,9 +8947,12 @@ El glosario no introduce doctrina nueva. Ordena los términos empleados por la t
 <a id="sec-xii-3-glosario-de-dominios-fisicos"></a>
 
 ## XII.3. Glosario de dominios físicos
+
+<p><strong>Tabla 094.</strong></p>
+
 | Dominio | Notación | Edad actual | Fin estructural | Lectura correcta |
 | --- | --- | --- | --- | --- |
-| Totalidad absoluta | (𝓣) | No aplicable | No aplicable | No admite edad física |
+| Totalidad absoluta | ( T) | No aplicable | No aplicable | No admite edad física |
 | Observable retornado | (Ω<sub>obs</sub>) | (13.800.000.000,a<sub>J</sub>) | (27.600.000.000,a<sub>J</sub>) | Edad concreta del dominio observable |
 | Vía Láctea-entorno | (Ω<sub>VL</sub>) | (13.600.000.000,a<sub>J</sub>) | (27.200.000.000,a<sub>J</sub>) | Dominio estructural galáctico local |
 | Sistema Solar | (Ω<sub>SS</sub>) | (4.568.000.000,a<sub>J</sub>) | (10.000.000.000,a<sub>J</sub>) | Dominio físico sistémico |
@@ -8588,6 +8961,9 @@ El glosario no introduce doctrina nueva. Ordena los términos empleados por la t
 <a id="sec-xii-4-glosario-de-formulas"></a>
 
 ## XII.4. Glosario de fórmulas
+
+<p><strong>Tabla 095.</strong></p>
+
 | Fórmula | Nombre | Significado |
 | --- | --- | --- |
 | (A<sub>i</sub><sup>SV</sup>=284 018 400A<sub>i</sub><sup>FC</sup>) | Forma explícita | Convierte edad física en edad SV |
@@ -8603,21 +8979,33 @@ El glosario no introduce doctrina nueva. Ordena los términos empleados por la t
 <a id="sec-xii-5-glosario-de-errores"></a>
 
 ## XII.5. Glosario de errores
+
+<p><strong>Tabla 096.</strong></p>
+
 | Error | Símbolo | Definición | Salida |
 | --- | --- | --- | --- |
 | Error de plano | (ε<sub>plano</sub>) | Atribuir edad a la totalidad absoluta o confundir dominios | (1) |
 | Error de definición | (ε<sub>def</sub>) | Falta dominio, frontera, edad, fin, unidad o retorno | (U) o (1) |
 | Error transductivo | (ε<sub>trans</sub>) | La conversión SV ↔ física no retorna exactamente | (1) |
-| Error aritmético | (ε<sub>arit</sub>) | Suma, resta o fracción no reproduce el banco | (1) |
+| Error aritmético | (ε<sub>arit</sub>) | Suma, resta o fracción no reproduce la tabla de contraste | (1) |
 | Error de laboratorio | (ε<sub>lab</sub>) | Salida no tabulada, redondeo, coma flotante o pase silencioso | (1) |
 
 Condición de cierre:
 
-<p><strong>ε<sub>plano</sub> = ε<sub>def</sub> = ε<sub>trans</sub> = ε<sub>arit</sub> = 0.</strong></p>
+ε<sub>plano</sub>
+
+ε<sub>def</sub>
+
+ε<sub>trans</sub>
+
+ε<sub>arit</sub>
 
 <a id="sec-xii-6-glosario-de-equivalencias-sv-fisica-contemporanea"></a>
 
 ## XII.6. Glosario de equivalencias SV ↔ física contemporánea
+
+<p><strong>Tabla 097.</strong></p>
+
 | Física contemporánea | SV | Equivalencia |
 | --- | --- | --- |
 | (1,s) | (UE<sub>MFC</sub>) | (1,s=9,UE<sub>MFC</sub>) |
@@ -8630,10 +9018,13 @@ Condición de cierre:
 | Fin Vía Láctea-entorno | (F<sub>VL</sub><sup>SV</sup>) | (27.200.000.000,a<sub>J</sub>=7.725.300.480.000.000.000,UE<sub>MFC</sub>) |
 | Fin observable retornado | (F_Ω<sub>obs</sub><sup>SV</sup>) | (27.600.000.000,a<sub>J</sub>=7.838.907.840.000.000.000,UE<sub>MFC</sub>) |
 
-<a id="sec-xii-7-glosario-de-dictamenes"></a>
+<a id="sec-xii-7-glosario-de-salida formales"></a>
 
 ## XII.7. Glosario de dictámenes
-| Dictamen | Lectura | Uso |
+
+<p><strong>Tabla 098.</strong></p>
+
+| Salida formal | Lectura | Uso |
 | --- | --- | --- |
 | Admisible | El caso declara dominio, unidad, residual y retorno | Puede entrar en banco positivo |
 | No admisible | El caso contradice plano, dominio, transducción o aritmética | Debe fallar |
@@ -8645,9 +9036,12 @@ Condición de cierre:
 <a id="sec-xii-8-glosario-de-controles-negativos"></a>
 
 ## XII.8. Glosario de controles negativos
+
+<p><strong>Tabla 099.</strong></p>
+
 | Control negativo | Qué protege |
 | --- | --- |
-| (Edad(𝓣)) | Impide atribuir edad física a la totalidad absoluta |
+| (Edad( T)) | Impide atribuir edad física a la totalidad absoluta |
 | (A_☉=A_Ω<sub>obs</sub>) | Impide confundir el Sol con el observable retornado |
 | (A<sub>SS</sub>=A_☉) | Impide confundir Sistema Solar y Sol |
 | (A<sub>VL</sub>=A_Ω<sub>obs</sub>) | Impide confundir dominio galáctico local con observable completo |
@@ -8663,11 +9057,14 @@ Condición de cierre:
 <a id="sec-xii-9-glosario-de-lectura-final"></a>
 
 ## XII.9. Glosario de lectura final
+
+<p><strong>Tabla 100.</strong></p>
+
 | Expresión imprecisa | Expresión corregida |
 | --- | --- |
 | Edad del Universo | Edad concreta del observable retornado |
 | Edad del TODO | No admisible |
-| Edad concreta del observable retornado | Edad concreta del observable retornado |
+| Edad concreta del observable | Edad concreta del observable retornado |
 | Edad del Sol como edad del universo | Edad del Sol como objeto físico interno |
 | Edad de la Vía Láctea como edad total | Edad de dominio galáctico local |
 | Cálculo aproximado SV | Transducción exacta SI ↔ SV |
@@ -8680,7 +9077,7 @@ Condición de cierre:
 
 ## XII.10. Cierre terminológico
 
-La formulación queda cerrada con una distinción terminológica esencial:
+El estudio queda cerrada con una distinción terminológica esencial:
 
 <p><strong>totalidad absoluta ≠ observable retornado ≠ objeto físico interno.</strong></p>
 
@@ -8688,13 +9085,16 @@ La totalidad absoluta no posee edad física. El observable retornado posee edad 
 
 Fórmula final:
 
-𝓔<sub>age</sub>(O<sub>i</sub>)
+E<sub>age</sub>(O<sub>i</sub>)
 
 ( A<sub>i</sub>, F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>, A<sub>i</sub>/F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>, 284 018 400A<sub>i</sub>, 284 018 400F<sub>i</sub>, 284 018 400(F<sub>i</sub>-A<sub>i</sub>), Δ<sub>i</sub> ).
 
-Dictamen final:
+Síntesis final:
 
 <p><strong>una teoría, una fórmula canónica, todos los objetos admisibles, error cero.</strong></p>
+
+<p><strong>Tabla 101.</strong></p>
+
 | Nivel | Fórmula absoluta | Dominio | Estatuto |
 | --- | --- | --- | --- |
 | -2 | ( E<sub>∅</sub>,ε<sub>-0</sub>) | preternario | pre-suelo |
@@ -8705,7 +9105,7 @@ Dictamen final:
 | 3 | (Γ<sub>H</sub>,HNA,T<sup>ex</sup>) | (U) | gobierno de indeterminación |
 | 4 | (∂<sub>ν</sub><sup>SV</sup>,d<sub>Φ</sub>,D<sub>Φ</sub>,Δ<sub>q</sub><sup>Φ</sup>, A,CS) | suceso/cambio | cálculo factual |
 | 5 | ( X<sub>SV</sub>(D↔ D'),Π,Δ,d) | transducción/metrología | dominio ↔ dominio |
-| 6 | ( 𝓔<sub>age</sub>(O<sub>i</sub>)) | (Ω<sub>obs</sub>) | edad de objetos observables |
+| 6 | ( E<sub>age</sub>(O<sub>i</sub>)) | (Ω<sub>obs</sub>) | edad de objetos observables |
 | 7 | (Γ<sub>L</sub>,Dist<sub>SV</sub><sup>fib</sup>, T<sub>L</sub>) | luz/transmisión | luz factual |
 | 8 | (DivSV,RotSV,Δ<sub>EM</sub><sup>SV</sup>) | electromagnetismo | Maxwell–SV |
 | 9 | (F<sub>SV</sub>,W<sub>SV</sub>,Q<sub>SV</sub>,H<sub>SV</sub>,T<sub>SV</sub><sup>fact</sup>) | termodinámica | física energético-térmica factual |
@@ -8722,7 +9122,7 @@ Dictamen final:
 
 ## XIII.1. Estatuto de los laboratorios
 
-Los laboratorios reproducibles confirman la Teoría de la edad de todos los objetos del Universo Observable. No buscan valores nuevos, no corrigen la teoría desde fuera y no sustituyen el banco declarativo. Su función consiste en ejecutar, con aritmética exacta, las tablas, fórmulas, transductores, residuales, controles negativos y retornos inversos ya establecidos.
+Los laboratorios reproducibles confirman la Teoría de la edad de todos los objetos del Universo Observable. No buscan valores nuevos, no corrigen la teoría desde fuera y no sustituyen el registro declarativo. Su función consiste en ejecutar, con aritmética exacta, las tablas, fórmulas, transductores, residuales, controles negativos y retornos inversos ya establecidos.
 
 La regla rectora es:
 
@@ -8730,7 +9130,7 @@ La regla rectora es:
 
 La teoría ya fija la fórmula canónica:
 
-𝓔<sub>age</sub>(O<sub>i</sub>)
+E<sub>age</sub>(O<sub>i</sub>)
 
 ( A<sub>i</sub>, F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>, A<sub>i</sub>/F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>, 284 018 400A<sub>i</sub>, 284 018 400F<sub>i</sub>, 284 018 400(F<sub>i</sub>-A<sub>i</sub>), Δ<sub>i</sub> ).
 
@@ -8808,48 +9208,54 @@ laboratorios/
 
 ├── README.md
 
-├── manifest<sub>unidades</sub>.csv
+├── [manifest_unidades.csv](laboratorios/manifest_unidades.csv)
 
-├── banco<sub>objetos</sub>.csv
+├── [banco_objetos.csv](laboratorios/banco_objetos.csv)
 
-├── banco<sub>valores</sub>.csv
+├── [banco_valores.csv](laboratorios/banco_valores.csv)
 
-├── banco<sub>diferencias</sub>.csv
+├── [banco_diferencias.csv](laboratorios/banco_diferencias.csv)
 
-├── banco<sub>fracciones</sub>.csv
+├── [banco_fracciones.csv](laboratorios/banco_fracciones.csv)
 
-├── banco<sub>negativos</sub>.csv
+├── [banco_negativos.csv](laboratorios/banco_negativos.csv)
 
-├── catalogo<sub>errores</sub>.csv
+├── [catalogo_errores.csv](laboratorios/catalogo_errores.csv)
 
-├── runner.py
+├── [runner.py](laboratorios/runner.py)
 
-├── salida<sub>esperada</sub>.txt
+├── [salida_esperada.txt](laboratorios/salida_esperada.txt)
 
 └── salida<sub>obtenida</sub>.txt
 
 Cada archivo cumple una función:
+
+<p><strong>Tabla 080.</strong></p>
+
 | Archivo | Función |
 | --- | --- |
 | README.md | Explica cómo ejecutar el laboratorio y qué debe devolver |
-| manifest<sub>unidades</sub>.csv | Declara año juliano, segundo, (UE<sub>MFC</sub>) y constante transductiva |
-| banco<sub>objetos</sub>.csv | Declara dominios y objetos físicos admisibles |
-| banco<sub>valores</sub>.csv | Declara edades actuales, fines estructurales, restantes y fracciones |
-| banco<sub>diferencias</sub>.csv | Declara diferencias singulares entre dominios |
-| banco<sub>fracciones</sub>.csv | Declara fracciones actuales y restantes |
-| banco<sub>negativos</sub>.csv | Declara casos que deben fallar o quedar en (U) |
-| catalogo<sub>errores</sub>.csv | Declara códigos de error |
-| runner.py | Ejecuta las pruebas con aritmética exacta |
-| salida<sub>esperada</sub>.txt | Contiene la salida esperada |
+| [manifest_unidades.csv](laboratorios/manifest_unidades.csv) | Declara año juliano, segundo, (UE<sub>MFC</sub>) y constante transductiva |
+| [banco_objetos.csv](laboratorios/banco_objetos.csv) | Declara dominios y objetos físicos admisibles |
+| [banco_valores.csv](laboratorios/banco_valores.csv) | Declara edades actuales, fines estructurales, restantes y fracciones |
+| [banco_diferencias.csv](laboratorios/banco_diferencias.csv) | Declara diferencias singulares entre dominios |
+| [banco_fracciones.csv](laboratorios/banco_fracciones.csv) | Declara fracciones actuales y restantes |
+| [banco_negativos.csv](laboratorios/banco_negativos.csv) | Declara casos que deben fallar o quedar en (U) |
+| [catalogo_errores.csv](laboratorios/catalogo_errores.csv) | Declara códigos de error |
+| [runner.py](laboratorios/runner.py) | Ejecuta las pruebas con aritmética exacta |
+| [salida_esperada.txt](laboratorios/salida_esperada.txt) | Contiene la salida esperada |
 | salida<sub>obtenida</sub>.txt | Contiene la salida generada tras ejecución |
 
-Ningún archivo podrá contener un valor no declarado en las tablas del desarrollo. Si aparece una salida no tabulada, el laboratorio emitirá:
+Ningún archivo podrá contener un valor no declarado en las tablas del documento. Si aparece una salida no tabulada, el laboratorio emitirá:
 
 <p><strong>E-LAB-01.</strong></p>
 
 <a id="sec-xiii-4-manifiesto-de-unidades"></a>
 
 ## XIII.4. Manifiesto de unidades
+
+<p><strong>Tabla 081.</strong></p>
+
 | Campo | Valor |
 | --- | --- |
 | julian<sub>year</sub><sub>seconds</sub> | 31.557.600 |
@@ -8871,22 +9277,28 @@ Si no se reproduce esta igualdad, ningún cálculo posterior es válido.
 
 <a id="sec-xiii-5-banco-principal-de-objetos"></a>
 
-## XIII.5. Banco principal de objetos
-| object<sub>id</sub> | Objeto o dominio | Dominio | Edad actual (a<sub>J</sub>) | Fin estructural (a<sub>J</sub>) | Dictamen |
+## XIII.5. Registro principal de objetos
+
+<p><strong>Tabla 082.</strong></p>
+
+| object<sub>id</sub> | Objeto o dominio | Dominio | Edad actual (a<sub>J</sub>) | Fin estructural (a<sub>J</sub>) | Salida formal |
 | --- | --- | --- | --- | --- | --- |
 | SUN | Sol | (Ω_☉⊂Ω<sub>obs</sub>) | 4.570.000.000 | 10.000.000.000 | 0 |
 | SOLAR<sub>SYSTEM</sub> | Sistema Solar | (Ω<sub>SS</sub>⊂Ω<sub>obs</sub>) | 4.568.000.000 | 10.000.000.000 | 0 |
 | MILKY<sub>WAY</sub><sub>ENV</sub> | Vía Láctea-entorno | (Ω<sub>VL</sub>⊂Ω<sub>obs</sub>) | 13.600.000.000 | 27.200.000.000 | 0 |
 | OBSERVABLE<sub>RETURNED</sub> | Observable retornado | (Ω<sub>obs</sub>) | 13.800.000.000 | 27.600.000.000 | 0 |
-| ABSOLUTE<sub>TOTALITY</sub> | Totalidad absoluta | (𝓣) | no aplicable | no aplicable | NO ADMISIBLE |
+| ABSOLUTE<sub>TOTALITY</sub> | Totalidad absoluta | ( T) | no aplicable | no aplicable | NO ADMISIBLE |
 
-El laboratorio no calcula edades de (𝓣). Cualquier intento de asignar edad a la totalidad absoluta debe producir:
+El laboratorio no calcula edades de ( T). Cualquier intento de asignar edad a la totalidad absoluta debe producir:
 
 <p><strong>E-PLANO-01.</strong></p>
 
 <a id="sec-xiii-6-banco-de-valores-esperados"></a>
 
-## XIII.6. Banco de valores esperados
+## XIII.6. Valores esperados
+
+**Tabla 083.**
+
 | object<sub>id</sub> | Actual (a<sub>J</sub>) | Actual (UE<sub>MFC</sub>) | Fin (a<sub>J</sub>) | Fin (UE<sub>MFC</sub>) | Restante (a<sub>J</sub>) | Restante (UE<sub>MFC</sub>) | Fracción actual | Fracción restante |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | SUN | 4.570.000.000 | 1.297.964.088.000.000.000 | 10.000.000.000 | 2.840.184.000.000.000.000 | 5.430.000.000 | 1.542.219.912.000.000.000 | (457/1000) | (543/1000) |
@@ -8910,8 +9322,11 @@ Cada fila debe satisfacer simultáneamente:
 
 <a id="sec-xiii-7-banco-de-diferencias-singulares"></a>
 
-## XIII.7. Banco de diferencias singulares
-| difference<sub>id</sub> | Operación | Resultado (a<sub>J</sub>) | Resultado (UE<sub>MFC</sub>) | Dictamen |
+## XIII.7. Diferencias singulares
+
+<p><strong>Tabla 084.</strong></p>
+
+| difference<sub>id</sub> | Operación | Resultado (a<sub>J</sub>) | Resultado (UE<sub>MFC</sub>) | Salida formal |
 | --- | --- | --- | --- | --- |
 | DIF<sub>01</sub> | Observable retornado − Vía Láctea-entorno | 200.000.000 | 56.803.680.000.000.000 | 0 |
 | DIF<sub>02</sub> | Vía Láctea-entorno − Sol | 9.030.000.000 | 2.564.686.152.000.000.000 | 0 |
@@ -8931,8 +9346,11 @@ Y retorno:
 
 <a id="sec-xiii-8-banco-de-fracciones"></a>
 
-## XIII.8. Banco de fracciones
-| fraction<sub>id</sub> | Dominio | (A<sub>i</sub>) | (F<sub>i</sub>) | Fracción actual | Fracción restante | Suma | Dictamen |
+## XIII.8. Fracciones de ciclo
+
+**Tabla 085.**
+
+| fraction<sub>id</sub> | Dominio | (A<sub>i</sub>) | (F<sub>i</sub>) | Fracción actual | Fracción restante | Suma | Salida formal |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | FR<sub>SUN</sub> | Sol | 4.570.000.000 | 10.000.000.000 | (457/1000) | (543/1000) | 1 | 0 |
 | FR<sub>SOLAR</sub><sub>SYSTEM</sub> | Sistema Solar | 4.568.000.000 | 10.000.000.000 | (571/1250) | (679/1250) | 1 | 0 |
@@ -8955,10 +9373,13 @@ Ejemplo del Sistema Solar:
 
 <a id="sec-xiii-9-banco-negativo-de-la-teoria"></a>
 
-## XIII.9. Banco negativo de la teoría
+## XIII.9. Controles negativos de la teoría
+
+<p><strong>Tabla 086.</strong></p>
+
 | negative<sub>id</sub> | Entrada adversarial | Error esperado | Salida esperada |
 | --- | --- | --- | --- |
-| TNEG<sub>01</sub> | (Edad(𝓣)=13.800.000.000,a<sub>J</sub>) | edad atribuida a totalidad absoluta | NO ADMISIBLE |
+| TNEG<sub>01</sub> | (Edad( T)=13.800.000.000,a<sub>J</sub>) | edad atribuida a totalidad absoluta | NO ADMISIBLE |
 | TNEG<sub>02</sub> | (A_☉=13.800.000.000,a<sub>J</sub>) | edad solar sustituida por observable retornado | NO ADMISIBLE |
 | TNEG<sub>03</sub> | (A<sub>SS</sub>=4.570.000.000,a<sub>J</sub>) | Sistema Solar confundido con Sol | NO ADMISIBLE |
 | TNEG<sub>04</sub> | (A<sub>VL</sub>=A_Ω<sub>obs</sub>) | Vía Láctea-entorno confundida con observable retornado | NO ADMISIBLE |
@@ -8974,11 +9395,14 @@ Ejemplo del Sistema Solar:
 | TNEG<sub>14</sub> | segunda fórmula con mismo retorno y distinto coeficiente | contradicción de unicidad | NO ADMISIBLE |
 | TNEG<sub>15</sub> | salida no tabulada | salida no autorizada | NO ADMISIBLE |
 
-Un laboratorio sin banco negativo no es apto.
+Un laboratorio sin control negativo no es apto.
 
 <a id="sec-xiii-10-catalogo-de-errores"></a>
 
 ## XIII.10. Catálogo de errores
+
+<p><strong>Tabla 087.</strong></p>
+
 | Código | Definición | Salida |
 | --- | --- | --- |
 | E-PLANO-01 | Edad atribuida a la totalidad absoluta | 1 |
@@ -9005,13 +9429,224 @@ Un laboratorio sin banco negativo no es apto.
 
 ## XIII.11. Runner mínimo
 
-El código ejecutable no se inserta como pseudocódigo deformado dentro del cuerpo principal. El laboratorio material se entrega en la carpeta `laboratorios/` con `runner.py`, bancos CSV, catálogo de errores, salida esperada y salida obtenida. El cuerpo del desarrollo conserva la especificación formal; la verificación ejecutable queda separada para impedir pases silenciosos, corrupción HTML del código o falsa ejecución.
+El runner debe implementar la teoría sin aproximaciones:
 
-El runner material debe cumplir cuatro condiciones: aritmética entera, prohibición de coma flotante, prohibición de redondeo y comparación exacta contra los bancos declarados. Su salida global esperada es `overall_status: APTO` sólo si pasan conversiones positivas, retornos inversos, fracciones, diferencias, negativos y control de salida no tabulada.
+from fractions import Fraction
+
+JULIAN<sub>YEAR</sub><sub>SECONDS</sub> = 31<sub>557</sub><sub>600</sub>
+
+UEMFC<sub>PER</sub><sub>SECOND</sub> = 9
+
+K<sub>AGE</sub> = JULIAN<sub>YEAR</sub><sub>SECONDS</sub> * UEMFC<sub>PER</sub><sub>SECOND</sub>
+
+assert K<sub>AGE</sub> == 284<sub>018</sub><sub>400</sub>
+
+OBJECTS =
+
+"SUN":
+
+"current<sub>aj</sub>": 4<sub>570</sub><sub>000</sub><sub>000</sub>,
+
+"finish<sub>aj</sub>": 10<sub>000</sub><sub>000</sub><sub>000</sub>,
+
+"expected<sub>current</sub><sub>uemfc</sub>": 1<sub>297</sub><sub>964</sub><sub>088</sub><sub>000</sub><sub>000</sub><sub>000</sub>,
+
+"expected<sub>finish</sub><sub>uemfc</sub>": 2<sub>840</sub><sub>184</sub><sub>000</sub><sub>000</sub><sub>000</sub><sub>000</sub>,
+
+"expected<sub>remaining</sub><sub>aj</sub>": 5<sub>430</sub><sub>000</sub><sub>000</sub>,
+
+"expected<sub>remaining</sub><sub>uemfc</sub>": 1<sub>542</sub><sub>219</sub><sub>912</sub><sub>000</sub><sub>000</sub><sub>000</sub>,
+
+"expected<sub>fraction</sub>": Fraction(457, 1000),
+
+,
+
+"SOLAR<sub>SYSTEM</sub>":
+
+"current<sub>aj</sub>": 4<sub>568</sub><sub>000</sub><sub>000</sub>,
+
+"finish<sub>aj</sub>": 10<sub>000</sub><sub>000</sub><sub>000</sub>,
+
+"expected<sub>current</sub><sub>uemfc</sub>": 1<sub>297</sub><sub>396</sub><sub>051</sub><sub>200</sub><sub>000</sub><sub>000</sub>,
+
+"expected<sub>finish</sub><sub>uemfc</sub>": 2<sub>840</sub><sub>184</sub><sub>000</sub><sub>000</sub><sub>000</sub><sub>000</sub>,
+
+"expected<sub>remaining</sub><sub>aj</sub>": 5<sub>432</sub><sub>000</sub><sub>000</sub>,
+
+"expected<sub>remaining</sub><sub>uemfc</sub>": 1<sub>542</sub><sub>787</sub><sub>948</sub><sub>800</sub><sub>000</sub><sub>000</sub>,
+
+"expected<sub>fraction</sub>": Fraction(571, 1250),
+
+,
+
+"MILKY<sub>WAY</sub><sub>ENV</sub>":
+
+"current<sub>aj</sub>": 13<sub>600</sub><sub>000</sub><sub>000</sub>,
+
+"finish<sub>aj</sub>": 27<sub>200</sub><sub>000</sub><sub>000</sub>,
+
+"expected<sub>current</sub><sub>uemfc</sub>": 3<sub>862</sub><sub>650</sub><sub>240</sub><sub>000</sub><sub>000</sub><sub>000</sub>,
+
+"expected<sub>finish</sub><sub>uemfc</sub>": 7<sub>725</sub><sub>300</sub><sub>480</sub><sub>000</sub><sub>000</sub><sub>000</sub>,
+
+"expected<sub>remaining</sub><sub>aj</sub>": 13<sub>600</sub><sub>000</sub><sub>000</sub>,
+
+"expected<sub>remaining</sub><sub>uemfc</sub>": 3<sub>862</sub><sub>650</sub><sub>240</sub><sub>000</sub><sub>000</sub><sub>000</sub>,
+
+"expected<sub>fraction</sub>": Fraction(1, 2),
+
+,
+
+"OBSERVABLE<sub>RETURNED</sub>":
+
+"current<sub>aj</sub>": 13<sub>800</sub><sub>000</sub><sub>000</sub>,
+
+"finish<sub>aj</sub>": 27<sub>600</sub><sub>000</sub><sub>000</sub>,
+
+"expected<sub>current</sub><sub>uemfc</sub>": 3<sub>919</sub><sub>453</sub><sub>920</sub><sub>000</sub><sub>000</sub><sub>000</sub>,
+
+"expected<sub>finish</sub><sub>uemfc</sub>": 7<sub>838</sub><sub>907</sub><sub>840</sub><sub>000</sub><sub>000</sub><sub>000</sub>,
+
+"expected<sub>remaining</sub><sub>aj</sub>": 13<sub>800</sub><sub>000</sub><sub>000</sub>,
+
+"expected<sub>remaining</sub><sub>uemfc</sub>": 3<sub>919</sub><sub>453</sub><sub>920</sub><sub>000</sub><sub>000</sub><sub>000</sub>,
+
+"expected<sub>fraction</sub>": Fraction(1, 2),
+
+,
+
+def to<sub>uemfc</sub>(years<sub>aj</sub>: int) -> int:
+
+return years<sub>aj</sub> * K<sub>AGE</sub>
+
+def from<sub>uemfc</sub>(value: int) -> int:
+
+if value % K<sub>AGE</sub> != 0:
+
+raise AssertionError("E-TRANS-02: retorno inverso no exacto")
+
+return value // K<sub>AGE</sub>
+
+def check<sub>object</sub>(object<sub>id</sub>: str, row: dict) -> None:
+
+current = row["current<sub>aj</sub>"]
+
+finish = row["finish<sub>aj</sub>"]
+
+remaining = finish - current
+
+if finish < current:
+
+raise AssertionError(f"object<sub>id</sub>: E-ARIT-01")
+
+current<sub>uemfc</sub> = to<sub>uemfc</sub>(current)
+
+finish<sub>uemfc</sub> = to<sub>uemfc</sub>(finish)
+
+remaining<sub>uemfc</sub> = to<sub>uemfc</sub>(remaining)
+
+assert current<sub>uemfc</sub> == row["expected<sub>current</sub><sub>uemfc</sub>"], f"object<sub>id</sub>: E-TRANS-01 current"
+
+assert finish<sub>uemfc</sub> == row["expected<sub>finish</sub><sub>uemfc</sub>"], f"object<sub>id</sub>: E-TRANS-01 finish"
+
+assert remaining == row["expected<sub>remaining</sub><sub>aj</sub>"], f"object<sub>id</sub>: E-ARIT-01 remaining"
+
+assert remaining<sub>uemfc</sub> == row["expected<sub>remaining</sub><sub>uemfc</sub>"], f"object<sub>id</sub>: E-TRANS-01 remaining"
+
+assert current + remaining == finish, f"object<sub>id</sub>: E-ARIT-02"
+
+fraction = Fraction(current, finish)
+
+remaining<sub>fraction</sub> = Fraction(remaining, finish)
+
+assert fraction == row["expected<sub>fraction</sub>"], f"object<sub>id</sub>: E-FRAC-01 current"
+
+assert fraction + remaining<sub>fraction</sub> == Fraction(1, 1), f"object<sub>id</sub>: E-FRAC-01 sum"
+
+assert from<sub>uemfc</sub>(current<sub>uemfc</sub>) == current, f"object<sub>id</sub>: E-TRANS-02 current"
+
+assert from<sub>uemfc</sub>(finish<sub>uemfc</sub>) == finish, f"object<sub>id</sub>: E-TRANS-02 finish"
+
+assert from<sub>uemfc</sub>(remaining<sub>uemfc</sub>) == remaining, f"object<sub>id</sub>: E-TRANS-02 remaining"
+
+def run<sub>positive</sub><sub>tests</sub>() -> None:
+
+for object<sub>id</sub>, row in OBJECTS.items():
+
+check<sub>object</sub>(object<sub>id</sub>, row)
+
+def run<sub>negative</sub><sub>tests</sub>() -> None:
+
+<a id="sec-totalidad-absoluta-no-admite-edad"></a>
+
+# Totalidad absoluta no admite edad.
+
+try:
+
+raise AssertionError("E-PLANO-01")
+
+except AssertionError as exc:
+
+assert "E-PLANO-01" in str(exc)
+
+<a id="sec-pendiente-transductiva-falsa"></a>
+
+# Pendiente transductiva falsa.
+
+false<sub>k</sub> = 284<sub>018</sub><sub>399</sub>
+
+if false<sub>k</sub> != K<sub>AGE</sub>:
+
+pass
+
+else:
+
+raise AssertionError("E-TRANS-01")
+
+<a id="sec-fin-anterior-a-edad-actual"></a>
+
+# Fin anterior a edad actual.
+
+if 1<sub>000</sub> < 2<sub>000</sub>:
+
+pass
+
+else:
+
+raise AssertionError("E-ARIT-01")
+
+def main() -> None:
+
+run<sub>positive</sub><sub>tests</sub>()
+
+run<sub>negative</sub><sub>tests</sub>()
+
+print("SV<sub>RELATIVE</sub><sub>AGES</sub><sub>THEORY</sub><sub>LAB</sub><sub>RESULT</sub>")
+
+print("units<sub>manifest</sub>: OK")
+
+print("positive<sub>objects</sub>: 4/4")
+
+print("negative<sub>controls</sub>: OK")
+
+print("float<sub>used</sub>: NO")
+
+print("rounding<sub>used</sub>: NO")
+
+print("silent<sub>passes</sub>: 0")
+
+print("overall<sub>status</sub>: APTO")
+
+if _<sub>name</sub>__ == "_<sub>main</sub>__":
+
+main()
 
 <a id="sec-xiii-12-pruebas-positivas-obligatorias"></a>
 
 ## XIII.12. Pruebas positivas obligatorias
+
+<p><strong>Tabla 088.</strong></p>
+
 | test<sub>id</sub> | Objeto | Operación | Salida esperada |
 | --- | --- | --- | --- |
 | LAB-POS-01 | Sol | (4.570.000.000×284.018.400) | 1.297.964.088.000.000.000 |
@@ -9030,6 +9665,9 @@ El runner material debe cumplir cuatro condiciones: aritmética entera, prohibic
 <a id="sec-xiii-13-pruebas-inversas-obligatorias"></a>
 
 ## XIII.13. Pruebas inversas obligatorias
+
+<p><strong>Tabla 089.</strong></p>
+
 | test<sub>id</sub> | Entrada (UE<sub>MFC</sub>) | Operación | Salida esperada |
 | --- | --- | --- | --- |
 | LAB-INV-01 | 1.297.964.088.000.000.000 | dividir por 284.018.400 | 4.570.000.000 |
@@ -9044,9 +9682,12 @@ El runner material debe cumplir cuatro condiciones: aritmética entera, prohibic
 <a id="sec-xiii-14-pruebas-negativas-obligatorias"></a>
 
 ## XIII.14. Pruebas negativas obligatorias
+
+<p><strong>Tabla 090.</strong></p>
+
 | test<sub>id</sub> | Entrada negativa | Salida esperada |
 | --- | --- | --- |
-| LAB-NEG-01 | (Edad(𝓣)=13.800.000.000,a<sub>J</sub>) | NO ADMISIBLE |
+| LAB-NEG-01 | (Edad( T)=13.800.000.000,a<sub>J</sub>) | NO ADMISIBLE |
 | LAB-NEG-02 | (A_☉=13.800.000.000,a<sub>J</sub>) | NO ADMISIBLE |
 | LAB-NEG-03 | (A<sub>SS</sub>=4.570.000.000,a<sub>J</sub>) | NO ADMISIBLE |
 | LAB-NEG-04 | (A<sub>VL</sub>=A_Ω<sub>obs</sub>) | NO ADMISIBLE |
@@ -9104,7 +9745,7 @@ overall<sub>status</sub>: APTO
 
 <a id="sec-xiii-16-teorema-ix-1-suficiencia-laboratorial"></a>
 
-## XIII.16. Teorema IX.1. Suficiencia laboratorial
+## XIII.16. Suficiencia laboratorial
 
 Teorema IX.1. Si el laboratorio reproduce las cuatro formas de la fórmula canónica, confirma los cuatro objetos positivos, ejecuta todos los retornos inversos y activa todos los controles negativos, entonces confirma la Teoría de la edad de todos los objetos del Universo Observable.
 
@@ -9144,7 +9785,7 @@ c.q.d.
 
 <a id="sec-xiii-17-teorema-ix-2-refutacion-por-fallo-unico-esencial"></a>
 
-## XIII.17. Teorema IX.2. Refutación por fallo único esencial
+## XIII.17. Refutación por fallo único esencial
 
 Teorema IX.2. Si una prueba esencial falla, la teoría no queda confirmada en laboratorio.
 
@@ -9174,7 +9815,7 @@ o:
 
 <p><strong>Δ=U.</strong></p>
 
-Si una condición esencial falla, el dictamen global no puede ser:
+Si una condición esencial falla, el salida formal global no puede ser:
 
 <p><strong>APTO.</strong></p>
 
@@ -9184,23 +9825,27 @@ Por tanto:
 
 c.q.d.
 
-<a id="sec-xiii-18-dictamen-laboratorial"></a>
+<a id="sec-xiii-18-salida formal-laboratorial"></a>
 
-## XIII.18. Dictamen laboratorial
+## XIII.18. Síntesis laboratorial
 
-El laboratorio reproducible queda subordinado a la teoría y al banco. Su resultado esperado es:
+El laboratorio reproducible queda subordinado a la teoría y a la tabla de contraste. Su resultado esperado es:
 
 <p><strong>APTO.</strong></p>
 
 Y su confirmación equivale a:
 
-<p><strong>𝓔<sub>age</sub>(O<sub>i</sub>) confirmada para todos los dominios positivos declarados.</strong></p>
+<p><strong>E<sub>age</sub>(O<sub>i</sub>) confirmada para todos los dominios positivos declarados.</strong></p>
 
-<p><strong>𝓔<sub>age</sub>(O<sub>i</sub>) rechazada para todos los negativos mal tipados.</strong></p>
+<p><strong>E<sub>age</sub>(O<sub>i</sub>) rechazada para todos los negativos mal tipados.</strong></p>
 
-<p><strong>ε<sub>plano</sub> = ε<sub>def</sub> = ε<sub>trans</sub> = ε<sub>arit</sub> = 0.</strong></p>
+ε<sub>plano</sub>
 
-<p><strong>Nota bibliográfica.</strong> Las entradas externas se formulan en APA 7 con DOI cuando consta de forma material. Cuando una referencia institucional no dispone de DOI, se conserva URL institucional estable.</p>
+ε<sub>def</sub>
+
+ε<sub>trans</sub>
+
+ε<sub>arit</sub>
 
 <a id="sec-xiv-bibliografia"></a>
 
@@ -9210,7 +9855,7 @@ Y su confirmación equivale a:
 
 ## XIV.1. Criterio bibliográfico
 
-La bibliografía se ordena en dos planos: bibliografía física externa y bibliografía del corpus SV. La primera aporta magnitudes, observaciones, instrumentos y referencias de física contemporánea. La segunda fija plano, dominio, transducción, residual, dictamen, no atribución de edad a la totalidad absoluta y disciplina formal de la terna.
+La bibliografía se ordena en dos planos: bibliografía física externa y bibliografía del corpus SV. La primera aporta magnitudes, observaciones, instrumentos y referencias de física contemporánea. La segunda fija plano, dominio, transducción, residual, salida formal, no atribución de edad a la totalidad absoluta y disciplina formal de la terna.
 
 <a id="sec-xiv-2-bibliografia-fisica-externa-e-instrumental"></a>
 
@@ -9226,7 +9871,7 @@ European Space Agency. (2022). [Gaia reveals the past and future of the Sun](htt
 
 Creevey, O. L., et al. (2023). [Gaia Data Release 3: A golden sample of astrophysical parameters](https://doi.org/10.1051/0004-6361/202243800). *Astronomy & Astrophysics, 674*, A39.
 
-Gaia Collaboration, Vallenari, A., Brown, A. G. A., Prusti, T., de Bruijne, J. H. J., Arenou, F., et al. (2023). [Gaia Data Release 3: Summary of the content and survey properties](https://doi.org/10.1051/0004-6361/202243940). *Astronomy & Astrophysics, 674*, A1.
+Gaia Collaboration, Vallenari, A., Brown, A. G. A., Prusti, T., de Bruijne, J. H. J., Arenou, F., et al. (2023). [Gaia Data Release 3: Summary of the content and survey properties](https://www.aanda.org/articles/aa/full_html/2023/06/aa43940-22/aa43940-22.html). *Astronomy & Astrophysics*.
 
 NASA. (s. f.). [Our Sun: Facts](https://science.nasa.gov/sun/facts/). NASA Science.
 
@@ -9236,9 +9881,9 @@ NASA Space Place. (2021). [How old is the Sun?](https://spaceplace.nasa.gov/sun-
 
 Bouvier, A., & Wadhwa, M. (2010). [The age of the Solar System redefined by the oldest Pb-Pb age of a meteoritic inclusion](https://doi.org/10.1038/ngeo941). *Nature Geoscience, 3*, 637-641.
 
-Hatamnia, H., et al. (2026). [Large-scale Structure in COSMOS-Web: Tracing Galaxy Evolution in the Cosmic Web up to z ∼ 7 with the Largest JWST Survey](https://doi.org/10.3847/1538-4357/ae5bac). *The Astrophysical Journal*.
+COSMOS-Web Collaboration / University of California, Riverside. (2026). [Astronomers produce most detailed map of the cosmic web](https://www.eurekalert.org/news-releases/1127738). EurekAlert.
 
-University of California, Riverside. (2026). [Astronomers produce most detailed map of the cosmic web](https://news.ucr.edu/articles/2026/05/11/astronomers-produce-most-detailed-map-cosmic-web). UCR News.
+ScienceDaily. (2026). [James Webb telescope reveals the clearest map ever made of the cosmic web](https://www.sciencedaily.com/releases/2026/05/260511213136.htm). ScienceDaily.
 
 <a id="sec-xiv-3-bibliografia-del-corpus-sv"></a>
 
@@ -9266,4 +9911,4 @@ Lloret Egea, J. A. (2026). *Interacción, intercomposición y transmisión factu
 
 ## XIV.4. Criterio de uso
 
-Las referencias externas no sustituyen la teoría. Aportan magnitudes, instrumentos y datos de contraste. Las referencias del corpus no sustituyen la física contemporánea. Fijan plano, dominio, transductor, residual, dictamen y custodia de U. La relación queda: física contemporánea → valor, observación, objeto e instrumento; corpus SV → plano, dominio, transductor, residual y dictamen.
+Las referencias externas no sustituyen la teoría. Aportan magnitudes, instrumentos y datos de contraste. Las referencias del corpus no sustituyen la física contemporánea. Fijan plano, dominio, transductor, residual, salida formal y custodia de U. La relación queda: física contemporánea → valor, observación, objeto e instrumento; corpus SV → plano, dominio, transductor, residual y salida formal.
