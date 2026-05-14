@@ -2,7 +2,7 @@
 
 ## Teoría de la edad de todos los objetos del Universo Observable
 
-<p><strong>PORTADA PENDIENTE DE INCORPORACIÓN</strong><br>Espacio reservado para la portada final SVG/PNG.</strong></p>
+<p><strong>PORTADA PENDIENTE DE INCORPORACIÓN</strong><br>Espacio reservado para la portada final SVG/PNG.</p>
 
 **© 2026. Todos los derechos reservados.** | [**Juan Antonio Lloret Egea**](https://www.linkedin.com/in/juanantoniolloretegea/) | **DOI pendiente** | ORCID: [0000-0002-6634-3351](https://orcid.org/0000-0002-6634-3351) | [Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA)](https://www.itvia.online/) | IA eñ™ — La Biblia de la IA™ | [**ISSN 2695-6411**](https://portal.issn.org/resource/ISSN/2695-6411) | [**Licencia CC BY-NC-ND 4.0**](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es) | Madrid, 14/05/2026
 
@@ -174,7 +174,7 @@
 - [VII.1. Estatuto del resultado](#sec-vii-1-estatuto-del-resultado)
 - [VII.2. Teorema VI.1. Exclusión de factor externo sobre el ciclo observable total](#sec-vii-2-teorema-vi-1-exclusion-de-factor-externo-sobre-el-ciclo-observable-total)
 - [VII.3. Teorema VI.2. Imperfección, suceso activador y ausencia de exterior inicial](#sec-vii-3-teorema-vi-2-imperfeccion-suceso-activador-y-ausencia-de-exterior-inicial)
-- [VII.4. Corolario VI.1. De edad concreta a edad concreta](#sec-vii-4-corolario-vi-1-de-edad-maxima-a-edad-concreta)
+- [VII.4. Corolario VI.1. De atribución máxima a edad concreta](#sec-vii-4-corolario-vi-1-de-atribucion-maxima-a-edad-concreta)
 - [VII.5. Resultado principal en física contemporánea](#sec-vii-5-resultado-principal-en-fisica-contemporanea)
 - [VII.6. Resultado principal en unidades SV](#sec-vii-6-resultado-principal-en-unidades-sv)
 - [VII.7. Fin concreto del ciclo observable](#sec-vii-7-fin-concreto-del-ciclo-observable)
@@ -410,11 +410,7 @@ Esta terna permite tratar la física contemporánea sin degradarla ni absolutiza
 
 El uso de (0,1,U) impone una disciplina sencilla:
 
-<p><strong>0 ⇒ cierre en dominio declarado.</strong></p>
-
-<p><strong>1 ⇒ incompatibilidad o no admisión.</strong></p>
-
-<p><strong>U ⇒ no clausura honesta.</strong></p>
+<p><strong>0 ⇒ cierre en dominio declarado; 1 ⇒ incompatibilidad o no admisión; U ⇒ no clausura honesta.</strong></p>
 
 El lector no necesita aceptar una doctrina previa para entender esta terna. Basta reconocer que una afirmación física rigurosa puede estar cerrada, rechazada o no suficientemente determinada. El documento formaliza esa diferencia y la aplica a las edades relativas del universo observable y de sus objetos físicos.
 
@@ -442,25 +438,11 @@ El universo observable, considerado como dominio físico interno, no posee edad 
 
 La presente publicación fija como blanco:
 
-<p><strong>A<sub>Ωobs</sub>= edad concreta del observable retornado.</strong></p>
+<p><strong>A<sub>Ωobs</sub> = edad concreta del observable retornado.</strong></p>
 
 Ese contenido debe cumplir:
 
-<p><strong>dominio físico declarado,</strong></p>
-
-<p><strong>firma persistente,</strong></p>
-
-<p><strong>métrica de profundidad o retorno,</strong></p>
-
-<p><strong>unidad física,</strong></p>
-
-<p><strong>unidad transductiva,</strong></p>
-
-<p><strong>residual evaluado,</strong></p>
-
-<p><strong>dictamen,</strong></p>
-
-<p><strong>retorno físico controlado.</strong></p>
+<p><strong>dominio físico declarado, firma persistente, métrica de profundidad o retorno, unidad física, unidad transductiva, residual evaluado, dictamen y retorno físico controlado.</strong></p>
 
 <a id="sec-0-7-tesis-central-y-resultado-anunciado"></a>
 
@@ -468,11 +450,7 @@ Ese contenido debe cumplir:
 
 La tesis central del documento es la siguiente:
 
-<p><strong>la totalidad absoluta no tiene edad física admisible;</strong></p>
-
-<p><strong>el universo observable y sus objetos físicos sí poseen edades relativas;</strong></p>
-
-<p><strong>la edad concreta del observable retornado corresponde al observable retornado más antiguo con firma persistente admisible.</strong></p>
+<p><strong>la totalidad absoluta no tiene edad física admisible; el universo observable y sus objetos físicos sí poseen edades relativas; la edad concreta del observable retornado corresponde al observable retornado más antiguo con firma persistente admisible.</strong></p>
 
 El resultado que se demostrará mediante transductores, métricas, bancos de contraste, unidades SI, unidades SV y laboratorios reproducibles es:
 
@@ -480,7 +458,7 @@ El resultado que se demostrará mediante transductores, métricas, bancos de con
 
 Con la equivalencia:
 
-<p><strong>9 UE<sub>MFC</sub>=1 s,</strong></p>
+<p><strong>9 UE<sub>MFC</sub> = 1 s.</strong></p>
 
 el retorno físico expresado en años julianos es:
 
@@ -676,15 +654,7 @@ La edad que se atribuye a una galaxia profunda puede referirse a varios planos d
 
 Por tanto, una tabla rigurosa de edades relativas debe distinguir al menos:
 
-<p><strong>A<sub>señal</sub>,</strong></p>
-
-<p><strong>A<sub>población estelar</sub>,</strong></p>
-
-<p><strong>A<sub>formación galáctica</sub>,</strong></p>
-
-<p><strong>A<sub>retorno luminoso</sub>,</strong></p>
-
-<p><strong>A<sub>contenido observable</sub>.</strong></p>
+<p><strong>A<sub>señal</sub>, A<sub>población estelar</sub>, A<sub>formación galáctica</sub>, A<sub>retorno luminoso</sub> y A<sub>contenido observable</sub>.</strong></p>
 
 Una cifra sin esta distinción es físicamente ambigua. Puede ser útil como aproximación divulgativa, pero no como resultado definicional.
 
@@ -700,17 +670,7 @@ La distinción puede expresarse así:
 
 Una galaxia profunda entra en el banco si cumple condiciones mínimas:
 
-<p><strong>Ω<sub>gal</sub> declarado,</strong></p>
-
-<p><strong>Id<sub>gal</sub>≠∅,</strong></p>
-
-<p><strong>Σ<sub>firma</sub> declarada,</strong></p>
-
-<p><strong>D<sub>Φ</sub><sup>L</sup> declarada,</strong></p>
-
-<p><strong>Δ<sub>ret</sub> evaluada,</strong></p>
-
-<p><strong>d∈0,1,U.</strong></p>
+<p><strong>Ω<sub>gal</sub> declarado, Id<sub>gal</sub>≠∅, Σ<sub>firma</sub> declarada, D<sub>Φ</sub><sup>L</sup> declarada, Δ<sub>ret</sub> evaluada y d∈{0,1,U}.</strong></p>
 
 Si la galaxia posee señal pero no identidad suficiente, queda en (U). Si posee identidad y retorno, pero la firma no permite fijar edad relativa, queda en (U). Si el caso mezcla planos y pretende convertir edad galáctica en edad de la totalidad, queda no admisible. Si declara dominio, firma, métrica, unidad y residual con cierre, entra como contenido observable apto.
 
@@ -746,17 +706,7 @@ El prehidrógeno será tratado como transición transductiva. No designa una sus
 
 El hidrógeno estable, en cambio, permite firmas físicas como:
 
-<p><strong>Lyman-α,</strong></p>
-
-<p><strong>21 cm,</strong></p>
-
-<p><strong>E<sub>n</sub>,</strong></p>
-
-<p><strong>E<sub>I</sub>,</strong></p>
-
-<p><strong>m<sub>H</sub>,</strong></p>
-
-<p><strong>a<sub>0</sub>.</strong></p>
+<p><strong>Lyman-α, 21 cm, E<sub>n</sub>, E<sub>I</sub>, m<sub>H</sub> y a<sub>0</sub>.</strong></p>
 
 Estas magnitudes no entran como adornos. Entran como columnas de banco. Cada una debe asociarse a unidad SI, unidad SV, dominio, residual y retorno. La señal espectral se convierte así en firma persistente, no en simple dato luminoso.
 
@@ -810,17 +760,7 @@ La cosmología física usa la expresión «edad del Universo» para nombrar una 
 
 El problema no es que la física contemporánea carezca de herramientas. Al contrario, posee herramientas de enorme potencia. El problema es que la expresión «edad del Universo» comprime en una sola frase varios planos distintos:
 
-<p><strong>edad del modelo cosmológico,</strong></p>
-
-<p><strong>edad del universo observable,</strong></p>
-
-<p><strong>edad del contenido físico retornado,</strong></p>
-
-<p><strong>edad de señales profundas,</strong></p>
-
-<p><strong>edad de estructuras,</strong></p>
-
-<p><strong>edad de la totalidad absoluta.</strong></p>
+<p><strong>edad del modelo cosmológico, edad del universo observable, edad del contenido físico retornado, edad de señales profundas, edad de estructuras y edad de la totalidad absoluta.</strong></p>
 
 La física suele trabajar eficazmente con los primeros planos. La confusión aparece si el último se mezcla con los anteriores. Esta publicación separa esos planos y conserva el valor de la física donde corresponde.
 
@@ -2133,7 +2073,7 @@ El banco predictivo desarrollado fija:
 
 Con:
 
-<p><strong>9 UE<sub>MFC</sub>=1 s,</strong></p>
+<p><strong>9 UE<sub>MFC</sub> = 1 s.</strong></p>
 
 y:
 
@@ -2925,27 +2865,23 @@ Luego:
 
 I.C. Teorema condicionado de simetría transductiva del ciclo observable
 
-Se adopta la siguiente teorema condicionado de simetría transductiva:
+Se fija el siguiente teorema condicionado de simetría transductiva:
 
 <p><strong>A<sub>fin</sub>=2A<sub>act</sub>.</strong></p>
 
-Esta hipótesis no atribuye edad a la totalidad absoluta. Sólo afirma simetría transductiva del ciclo observable:
+Este teorema no atribuye edad a la totalidad absoluta. Sólo afirma simetría transductiva del ciclo observable:
 
 <p><strong>S<sub>ini</sub> → S<sub>act</sub> → S<sub>fin</sub>,</strong></p>
 
 con:
 
-A(S<sub>act</sub>)-A(S<sub>ini</sub>)
-
-A(S<sub>fin</sub>)-A(S<sub>act</sub>).
+<div align="center"><strong>A(S<sub>act</sub>) − A(S<sub>ini</sub>) = A(S<sub>fin</sub>) − A(S<sub>act</sub>).</strong></div>
 
 Por tanto:
 
-A<sub>restante</sub>
+<div align="center"><strong>A<sub>restante</sub> = A<sub>act</sub>.</strong></div>
 
-A<sub>act</sub>.
-
-La hipótesis se aplica al dominio observable, no al TODO. Así no contradice que la totalidad absoluta no envejece ni que el cierre de un ciclo se conserve como traza append-only.
+El teorema se aplica al dominio observable, no al TODO. Así no contradice que la totalidad absoluta no envejece ni que el cierre de un ciclo se conserve como traza append-only.
 
 I.D. Teorema I.1. No edad de la totalidad absoluta y edad exacta del contenido observable
 
@@ -4016,7 +3952,7 @@ Por tanto:
 
 <p><strong>f<sub>☉,act</sub>+f<sub>☉,restante</sub>=1.</strong></p>
 
-El contraste solar muestra que no todos los dominios físicos internos están en la misma fracción que el ciclo observable general. En el ciclo observable general, bajo hipótesis de simetría, el estado actual ocupa (1/2). En el ciclo solar principal normalizado, el estado actual ocupa (457/1000). Esta diferencia no refuta la transducción; confirma que cada dominio físico posee su propia métrica de edad.
+El contraste solar muestra que no todos los dominios físicos internos están en la misma fracción que el ciclo observable general. En el ciclo observable general, bajo el teorema de simetría, el estado actual ocupa (1/2). En el ciclo solar principal normalizado, el estado actual ocupa (457/1000). Esta diferencia no refuta la transducción; confirma que cada dominio físico posee su propia métrica de edad.
 
 I.Q.7. Tabla de suma y resta absoluta del Sol
 
@@ -6654,11 +6590,11 @@ El inicio del observable no procede de un factor externo absoluto. Procede de la
 
 c.q.d.
 
-<a id="sec-vii-4-corolario-vi-1-de-edad-maxima-a-edad-concreta"></a>
+<a id="sec-vii-4-corolario-vi-1-de-atribucion-maxima-a-edad-concreta"></a>
 
-## VII.4. Corolario VI.1. De edad concreta a edad concreta
+## VII.4. Corolario VI.1. De atribución máxima a edad concreta
 
-Corolario VI.1. La edad del contenido observable retornado no debe formularse como edad concreta, sino como edad concreta del dominio observable.
+Corolario VI.1. La edad del contenido observable retornado no debe formularse como máximo abierto de una familia externa, sino como edad concreta del dominio observable retornado.
 
 Demostración.
 
@@ -7624,7 +7560,7 @@ Por tanto:
 
 La fórmula canónica de la teoría es:
 
-E<sub>age</sub>(O<sub>i</sub>)
+𝓔<sub>age</sub>(O<sub>i</sub>)
 
 ( A<sub>i</sub>, F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>, A<sub>i</sub>/F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>, 284 018 400A<sub>i</sub>, 284 018 400F<sub>i</sub>, 284 018 400(F<sub>i</sub>-A<sub>i</sub>), Δ<sub>i</sub> ).
 
@@ -8181,7 +8117,7 @@ c.q.d.
 
 La Teoría de la edad de todos los objetos del Universo Observable queda fijada por una fórmula canónica única:
 
-E<sub>age</sub>(O<sub>i</sub>)
+𝓔<sub>age</sub>(O<sub>i</sub>)
 
 ( A<sub>i</sub>, F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>, A<sub>i</sub>/F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>, 284 018 400A<sub>i</sub>, 284 018 400F<sub>i</sub>, 284 018 400(F<sub>i</sub>-A<sub>i</sub>), Δ<sub>i</sub> ).
 
@@ -8211,13 +8147,7 @@ A<sup>SV</sup>-A<sub>i</sub><sup>SV</sup>
 
 El error total queda:
 
-ε<sub>plano</sub>
-
-ε<sub>def</sub>
-
-ε<sub>trans</sub>
-
-ε<sub>arit</sub>
+<p><strong>ε<sub>plano</sub> = ε<sub>def</sub> = ε<sub>trans</sub> = ε<sub>arit</sub> = 0.</strong></p>
 
 El banco negativo queda incorporado como condición de rigor.
 
@@ -8277,7 +8207,7 @@ A_Ω<sub>obs</sub>,rest<sup>SV</sup>
 
 La teoría queda cerrada por la fórmula canónica:
 
-E<sub>age</sub>(O<sub>i</sub>)
+𝓔<sub>age</sub>(O<sub>i</sub>)
 
 ( A<sub>i</sub>, F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>, A<sub>i</sub>/F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>, 284 018 400A<sub>i</sub>, 284 018 400F<sub>i</sub>, 284 018 400(F<sub>i</sub>-A<sub>i</sub>), Δ<sub>i</sub> ).
 
@@ -8946,13 +8876,7 @@ El glosario no introduce doctrina nueva. Ordena los términos empleados por la t
 
 Condición de cierre:
 
-ε<sub>plano</sub>
-
-ε<sub>def</sub>
-
-ε<sub>trans</sub>
-
-ε<sub>arit</sub>
+<p><strong>ε<sub>plano</sub> = ε<sub>def</sub> = ε<sub>trans</sub> = ε<sub>arit</sub> = 0.</strong></p>
 
 <a id="sec-xii-6-glosario-de-equivalencias-sv-fisica-contemporanea"></a>
 
@@ -9039,7 +8963,7 @@ La totalidad absoluta no posee edad física. El observable retornado posee edad 
 
 Fórmula final:
 
-E<sub>age</sub>(O<sub>i</sub>)
+𝓔<sub>age</sub>(O<sub>i</sub>)
 
 ( A<sub>i</sub>, F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>, A<sub>i</sub>/F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>, 284 018 400A<sub>i</sub>, 284 018 400F<sub>i</sub>, 284 018 400(F<sub>i</sub>-A<sub>i</sub>), Δ<sub>i</sub> ).
 
@@ -9059,7 +8983,7 @@ Dictamen final:
 | 3 | (Γ<sub>H</sub>,HNA,T<sup>ex</sup>) | (U) | gobierno de indeterminación |
 | 4 | (∂<sub>ν</sub><sup>SV</sup>,d<sub>Φ</sub>,D<sub>Φ</sub>,Δ<sub>q</sub><sup>Φ</sup>, A,CS) | suceso/cambio | cálculo factual |
 | 5 | ( X<sub>SV</sub>(D↔ D'),Π,Δ,d) | transducción/metrología | dominio ↔ dominio |
-| 6 | ( E<sub>age</sub>(O<sub>i</sub>)) | (Ω<sub>obs</sub>) | edad de objetos observables |
+| 6 | ( 𝓔<sub>age</sub>(O<sub>i</sub>)) | (Ω<sub>obs</sub>) | edad de objetos observables |
 | 7 | (Γ<sub>L</sub>,Dist<sub>SV</sub><sup>fib</sup>, T<sub>L</sub>) | luz/transmisión | luz factual |
 | 8 | (DivSV,RotSV,Δ<sub>EM</sub><sup>SV</sup>) | electromagnetismo | Maxwell–SV |
 | 9 | (F<sub>SV</sub>,W<sub>SV</sub>,Q<sub>SV</sub>,H<sub>SV</sub>,T<sub>SV</sub><sup>fact</sup>) | termodinámica | física energético-térmica factual |
@@ -9084,7 +9008,7 @@ La regla rectora es:
 
 La teoría ya fija la fórmula canónica:
 
-E<sub>age</sub>(O<sub>i</sub>)
+𝓔<sub>age</sub>(O<sub>i</sub>)
 
 ( A<sub>i</sub>, F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>, A<sub>i</sub>/F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>, 284 018 400A<sub>i</sub>, 284 018 400F<sub>i</sub>, 284 018 400(F<sub>i</sub>-A<sub>i</sub>), Δ<sub>i</sub> ).
 
@@ -9581,19 +9505,11 @@ El laboratorio reproducible queda subordinado a la teoría y al banco. Su result
 
 Y su confirmación equivale a:
 
-<p><strong>E<sub>age</sub>(O<sub>i</sub>) confirmada para todos los dominios positivos declarados.</strong></p>
+<p><strong>𝓔<sub>age</sub>(O<sub>i</sub>) confirmada para todos los dominios positivos declarados.</strong></p>
 
-<p><strong>E<sub>age</sub>(O<sub>i</sub>) rechazada para todos los negativos mal tipados.</strong></p>
+<p><strong>𝓔<sub>age</sub>(O<sub>i</sub>) rechazada para todos los negativos mal tipados.</strong></p>
 
-ε<sub>plano</sub>
-
-ε<sub>def</sub>
-
-ε<sub>trans</sub>
-
-ε<sub>arit</sub>
-
-
+<p><strong>ε<sub>plano</sub> = ε<sub>def</sub> = ε<sub>trans</sub> = ε<sub>arit</sub> = 0.</strong></p>
 
 <p><strong>Nota bibliográfica.</strong> Las entradas externas se formulan en APA 7 con DOI cuando consta de forma material. Cuando una referencia institucional no dispone de DOI, se conserva URL institucional estable.</p>
 
@@ -9621,7 +9537,7 @@ European Space Agency. (2022). [Gaia reveals the past and future of the Sun](htt
 
 Creevey, O. L., et al. (2023). [Gaia Data Release 3: A golden sample of astrophysical parameters](https://doi.org/10.1051/0004-6361/202243800). *Astronomy & Astrophysics, 674*, A39.
 
-Gaia Collaboration, Vallenari, A., Brown, A. G. A., Prusti, T., de Bruijne, J. H. J., Arenou, F., et al. (2023). [Gaia Data Release 3: Summary of the content and survey properties](https://www.aanda.org/articles/aa/full_html/2023/06/aa43940-22/aa43940-22.html). *Astronomy & Astrophysics*.
+Gaia Collaboration, Vallenari, A., Brown, A. G. A., Prusti, T., de Bruijne, J. H. J., Arenou, F., et al. (2023). [Gaia Data Release 3: Summary of the content and survey properties](https://doi.org/10.1051/0004-6361/202243940). *Astronomy & Astrophysics, 674*, A1.
 
 NASA. (s. f.). [Our Sun: Facts](https://science.nasa.gov/sun/facts/). NASA Science.
 
@@ -9631,9 +9547,9 @@ NASA Space Place. (2021). [How old is the Sun?](https://spaceplace.nasa.gov/sun-
 
 Bouvier, A., & Wadhwa, M. (2010). [The age of the Solar System redefined by the oldest Pb-Pb age of a meteoritic inclusion](https://doi.org/10.1038/ngeo941). *Nature Geoscience, 3*, 637-641.
 
-COSMOS-Web Collaboration / University of California, Riverside. (2026). [Astronomers produce most detailed map of the cosmic web](https://www.eurekalert.org/news-releases/1127738). EurekAlert.
+Hatamnia, H., et al. (2026). [Large-scale Structure in COSMOS-Web: Tracing Galaxy Evolution in the Cosmic Web up to z ∼ 7 with the Largest JWST Survey](https://doi.org/10.3847/1538-4357/ae5bac). *The Astrophysical Journal*.
 
-ScienceDaily. (2026). [James Webb telescope reveals the clearest map ever made of the cosmic web](https://www.sciencedaily.com/releases/2026/05/260511213136.htm). ScienceDaily.
+University of California, Riverside. (2026). [Astronomers produce most detailed map of the cosmic web](https://news.ucr.edu/articles/2026/05/11/astronomers-produce-most-detailed-map-cosmic-web). UCR News.
 
 <a id="sec-xiv-3-bibliografia-del-corpus-sv"></a>
 
