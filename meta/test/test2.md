@@ -2,119 +2,142 @@
 
 ## Teoría de la Creación de Observables del Universo, transducción metrológica, mutación, enfermedad, cáncer y clausura factual
 
-## Índice
+## ## Índice
 
-I. Estatuto doctrinal, estado de la cuestión y fórmula universal  
-I.1. Nivel doctrinal de la fórmula universal  
-I.2. Estado de la cuestión en ciencia contemporánea  
-I.3. Fórmula universal de gobierno de observables  
-I.4. Fórmula universal de generación de transductores  
-I.5. Regla metrológica SV↔ciencia contemporánea  
-I.6. Orientación polar de cierre como motor común  
-I.7. Mutación, enfermedad y cáncer como dominios rectores  
-I.8. Clausura final del observable, muerte física y retorno factual al Todo  
-I.9. Cierre del apartado  
+I. Estatuto doctrinal, estado de la cuestión y fórmula universal
+I.1. Nivel doctrinal de la fórmula universal
+I.2. Estado de la cuestión en ciencia contemporánea
+I.3. Fórmula universal de gobierno de observables
+I.4. Fórmula universal de generación de transductores
+I.5. Regla metrológica SV↔ciencia contemporánea
+I.6. Orientación polar de cierre como motor común
+I.7. Mutación, enfermedad y cáncer como dominios rectores
+I.8. Clausura final del observable, muerte física y retorno factual al Todo
+I.9. Conclusión del apartado
 
-II. ε−0, fibra primigenia de observabilidad y dominio de lo observable  
-II.1. ε−0 como borde preformal  
-II.2. 𝓕−0^Obs=ε−0|Obs  
-II.3. ∂Obs, DObs y ObsU(D)  
-II.4. Teorema de identidad funcional restringida  
+II. ε−0, fibra primigenia de observabilidad y dominio de lo observable
+II.1. ε−0 como borde preformal
+II.2. 𝓕−0^Obs=ε−0|Obs
+II.3. ∂Obs, DObs y ObsU(D)
+II.4. Teorema de identidad funcional restringida
+II.5. Conclusión del apartado
 
-III. Familia universal de transductores  
-III.1. Transductor general 𝔛obs  
-III.2. Transductores físicos, químicos, prebiológicos y biológicos  
-III.3. Transductores mutacionales, virales, clínicos y oncológicos  
-III.4. Transductores evolutivos, humanos y documentales  
-III.5. Teorema de no transductor singular sin fórmula universal  
+III. Familia universal de transductores
+III.1. Transductor general 𝔛obs
+III.2. Transductores físicos, químicos, prebiológicos y biológicos
+III.3. Transductores mutacionales, virales, clínicos y oncológicos
+III.4. Transductores evolutivos, humanos y documentales
+III.5. Teorema de no transductor singular sin fórmula universal
+III.6. Conclusión del apartado
 
-IV. Tablas de transducción SV↔ciencia contemporánea  
-IV.1. Tabla D→SV: recepción de dominios externos  
-IV.2. Tabla SV→D: retorno a ciencia contemporánea  
-IV.3. Tabla metrológica SI→SV y SV→SI  
-IV.4. Tabla de transductores singulares  
-IV.5. Tabla de límites negativos de transducción  
+IV. Tablas de transducción SV↔ciencia contemporánea
+IV.1. Tabla D→SV: recepción de dominios externos
+IV.2. Tabla SV→D: retorno a ciencia contemporánea
+IV.3. Tabla metrológica SI→SV y SV→SI
+IV.4. Tabla de transductores singulares
+IV.5. Tabla de límites negativos de transducción
+IV.6. Conclusión del apartado
 
-V. Inscripción celular exacta y familias primarias  
-V.1. Ley n=b² con b≥3  
-V.2. SV(9,3) como inscripción primaria  
-V.3. Nueve familias de observabilidad  
-V.4. Refinamientos SV(16,4), SV(25,5), SV(36,6) y sucesivos  
+V. Inscripción celular exacta y familias primarias
+V.1. Ley n=b² con b≥3
+V.2. SV(9,3) como inscripción primaria
+V.3. Nueve familias de observabilidad
+V.4. Refinamientos SV(16,4), SV(25,5), SV(36,6) y sucesivos
+V.5. Conclusión del apartado
 
-VI. Matriz fibrogénica, imperfección sostenida y suelo preternario  
-VI.1. 𝓜fib-imp  
-VI.2. Cierre (μ,λ)=(0,0) y realización sostenida  
-VI.3. Ωpre, ξi=(i,αi,βi), Π3H y K3  
-VI.4. U como no clausura honesta inducida  
+VI. Matriz fibrogénica, imperfección sostenida y suelo preternario
+VI.1. 𝓜fib-imp
+VI.2. Cierre (μ,λ)=(0,0) y realización sostenida
+VI.3. Ωpre, ξi=(i,αi,βi), Π3H y K3
+VI.4. U como no clausura honesta inducida
+VI.5. Conclusión del apartado
 
-VII. Semilla compositiva, química persistente y medio prebiológico  
-VII.1. Σcomp-0  
-VII.2. Orgánico, inorgánico y vida  
-VII.3. Persistencia 𝓟min  
-VII.4. Pares estructurales, moléculas y Ωprebio  
+VII. Regímenes de realización polar compatible
+VII.1. Predominancia compatible y predominancia absorbente
+VII.2. APTO-M, APTO-C, APTO-I y NO-APTO como gramática de realización
+VII.3. Equilibrio de potencial no nulo y muerte estructural
+VII.4. Transferencia del CPS-SV a observables biológicos, clínicos y evolutivos
+VII.5. Teorema de no clausura por predominancia compatible
+VII.6. Conclusión del apartado
 
-VIII. Transducción biológica y Γbio-0  
-VIII.1. 𝔛bio(B↔SV)  
-VIII.2. Par→molécula→macromolécula→interfaz→célula→tejido→órgano→organismo  
-VIII.3. Núcleo Γbio-0  
-VIII.4. No identificación de Γbio-0 con la fibra primigenia  
+VIII. Semilla compositiva, química persistente y medio prebiológico
+VIII.1. Σcomp-0
+VIII.2. Orgánico, inorgánico y vida
+VIII.3. Persistencia 𝓟min
+VIII.4. Pares estructurales, moléculas y Ωprebio
+VIII.5. Conclusión del apartado
 
-IX. Mutación, variabilidad heredable y dominios replicativos  
-IX.1. Génesis polar-residual de la mutación  
-IX.2. Mutación vírica y cepa concreta  
-IX.3. Mutación somática, germinal y poblacional  
-IX.4. Retorno fenotípico, viabilidad y traza  
-IX.5. Matriz negativa de mutación  
+IX. Transducción biológica y Γbio-0
+IX.1. 𝔛bio(B↔SV)
+IX.2. Par→molécula→macromolécula→interfaz→célula→tejido→órgano→organismo
+IX.3. Núcleo Γbio-0
+IX.4. No identificación de Γbio-0 con la fibra primigenia
+IX.5. Conclusión del apartado
 
-X. Enfermedad, reparación y residual patológico  
-X.1. Enfermedad como cierre no integrado  
-X.2. Enfermedades genéticas, infecciosas, autoinmunes, degenerativas, metabólicas, traumáticas y ambientales  
-X.3. Transductor específico de enfermedad singular  
-X.4. Matriz negativa de enfermedad  
+X. Mutación, variabilidad heredable y dominios replicativos
+X.1. Génesis polar-residual de la mutación
+X.2. Mutación vírica y cepa concreta
+X.3. Mutación somática, germinal y poblacional
+X.4. Retorno fenotípico, viabilidad y traza
+X.5. Matriz negativa de mutación
+X.6. Conclusión del apartado
 
-XI. Cáncer como dominancia local contra integración orgánica  
-XI.1. Dominancia clonal y ruptura de cierre tisular  
-XI.2. Transductor oncológico general  
-XI.3. Transductores oncológicos singulares  
-XI.4. Matriz negativa oncológica  
+XI. Enfermedad, reparación y residual patológico
+XI.1. Enfermedad como cierre no integrado
+XI.2. Enfermedades genéticas, infecciosas, autoinmunes, degenerativas, metabólicas, traumáticas y ambientales
+XI.3. Transductor específico de enfermedad singular
+XI.4. Matriz negativa de enfermedad
+XI.5. Conclusión del apartado
 
-XII. Clausura final, muerte física y retorno factual al Todo  
-XII.1. Instancia factual realizada  
-XII.2. Cierre final por agotamiento interno o agente externo  
-XII.3. Muerte física como clausura local de una fibra biológico-corporal  
-XII.4. Retorno factual al Todo como traza clausurada  
+XII. Cáncer como dominancia local contra integración orgánica
+XII.1. Dominancia clonal y ruptura de cierre tisular
+XII.2. Transductor oncológico general
+XII.3. Transductores oncológicos singulares
+XII.4. Matriz negativa oncológica
+XII.5. Conclusión del apartado
 
-XIII. Divergencia evolutiva, especie, extinción y reactivación condicionada  
-XIII.1. Operador 𝒟evo,k  
-XIII.2. Fibra de especie ΓEk  
-XIII.3. Extinción como clausura viva y reproductiva  
-XIII.4. Reactivación condicionada por canal, barrera y encaje  
+XIII. Clausura final, muerte física y retorno factual al Todo
+XIII.1. Instancia factual realizada
+XIII.2. Cierre final por agotamiento interno o agente externo
+XIII.3. Muerte física como clausura local de una fibra biológico-corporal
+XIII.4. Retorno factual al Todo como traza clausurada
+XIII.5. Conclusión del apartado
 
-XIV. Fibra humana singular y proyecciones humanas  
-XIV.1. ΓH como derivada evolutiva y transducida  
-XIV.2. Genoma, organismo, neurocognición, lenguaje y documento  
-XIV.3. Familia proyectiva y no copia  
-XIV.4. Autoría, sociedad, traza y retorno  
+XIV. Divergencia evolutiva, especie, extinción y reactivación condicionada
+XIV.1. Operador 𝒟evo,k
+XIV.2. Fibra de especie ΓEk
+XIV.3. Extinción como clausura viva y reproductiva
+XIV.4. Reactivación condicionada por canal, barrera y encaje
+XIV.5. Conclusión del apartado
 
-XV. Canal, barrera, encaje, traza y no comunicación directa  
-XV.1. 𝓧ij(c)  
-XV.2. Procedencia común sin identidad  
-XV.3. Canal sin barrera, barrera sin canal y transmisión sin encaje  
-XV.4. Append-only, subtrayectoria y compresión proyectiva  
+XV. Fibra humana singular y proyecciones humanas
+XV.1. ΓH como derivada evolutiva y transducida
+XV.2. Genoma, organismo, neurocognición, lenguaje y documento
+XV.3. Familia proyectiva y no copia
+XV.4. Autoría, sociedad, traza y retorno
+XV.5. Conclusión del apartado
 
-XVI. Bancos de datos y laboratorios  
-XVI.1. Diez bancos de datos  
-XVI.2. Matrices positiva, negativa y U  
-XVI.3. Ocho laboratorios reproducibles  
-XVI.4. Morfología de cada laboratorio  
-XVI.5. Catálogo de errores y ausencia de pases silenciosos  
+XVI. Canal, barrera, encaje, traza y no comunicación directa
+XVI.1. 𝓧ij(c)
+XVI.2. Procedencia común sin identidad
+XVI.3. Canal sin barrera, barrera sin canal y transmisión sin encaje
+XVI.4. Append-only, subtrayectoria y compresión proyectiva
+XVI.5. Conclusión del apartado
 
-XVII. Conclusión  
-XVII.1. Cadena consolidada  
-XVII.2. Fórmula universal, familia de transductores, mutación, enfermedad, cáncer y clausura final  
-XVII.3. Cierre material  
+XVII. Bancos de datos y laboratorios
+XVII.1. Diez bancos de datos
+XVII.2. Matrices positiva, negativa y U
+XVII.3. Ocho laboratorios reproducibles
+XVII.4. Morfología de cada laboratorio
+XVII.5. Catálogo de errores y ausencia de pases silenciosos
+XVII.6. Conclusión del apartado
 
-XVIII. Bibliografía  
+XVIII. Conclusión
+XVIII.1. Cadena consolidada
+XVIII.2. Fórmula universal, familia de transductores, mutación, enfermedad, cáncer y clausura final
+XVIII.3. Cierre material
+
+XIX. Bibliografía
 
 ## I. Estatuto doctrinal, estado de la cuestión y fórmula universal
 
