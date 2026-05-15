@@ -3,7 +3,6 @@
 ## Teoría de la Creación de Observables del Universo, transducción metrológica, mutación, enfermedad, cáncer y clausura factual
 
 ## Índice
-
 I. Estatuto doctrinal, estado de la cuestión y fórmula universal
 I.1. Nivel doctrinal de la fórmula universal
 I.2. Estado de la cuestión en ciencia contemporánea
@@ -117,12 +116,19 @@ XV.3. Familia proyectiva y no copia
 XV.4. Autoría, sociedad, traza y retorno
 XV.5. Conclusión del apartado
 
-XVI. Canal, barrera, encaje, traza y no comunicación directa
-XVI.1. 𝓧ij(c)
-XVI.2. Procedencia común sin identidad
-XVI.3. Canal sin barrera, barrera sin canal y transmisión sin encaje
-XVI.4. Append-only, subtrayectoria y compresión proyectiva
-XVI.5. Conclusión del apartado
+XVI. Teoría de la consolidación de canal y semántica estructural entre familias de observables distintas
+XVI.1. Canal, contacto y consolidación entre familias
+XVI.2. Presemántica, protosemántica, semántica estructural común y semántica plena
+XVI.3. Alfabeto estructural transversal y envolvente semántica de dominio
+XVI.4. Fórmula única 𝓢★CanSemU(A,B;D,Γ)
+XVI.5. Trayectoria factual suficiente de contacto sin tiempo soberano
+XVI.6. Regímenes de resolución semántica: coexistencia, traducción parcial, dominancia compatible, dominancia absorbente, absorción, bloqueo y U
+XVI.7. Dominancia semántica, imposición, traducción parcial y residual de origen
+XVI.8. Canal sin semántica, semántica sin canal y bloqueo dialogal
+XVI.9. Diálogo factual biomédico: célula, órgano, enfermedad, tumor, infección y pandemia
+XVI.10. Masas de observables: acoplamientos físico-factuales entre cuerpos, campos y sistemas astronómicos
+XVI.11. Teorema de diálogo factual entre familias distintas y reducción al absurdo
+XVI.12. Conclusión del apartado
 
 XVII. Bancos de datos y laboratorios
 XVII.1. Diez bancos de datos
@@ -134,7 +140,7 @@ XVII.6. Conclusión del apartado
 
 XVIII. Conclusión
 XVIII.1. Cadena consolidada
-XVIII.2. Fórmula universal, familia de transductores, mutación, enfermedad, cáncer y clausura final
+XVIII.2. Fórmula universal, familia de transductores, regímenes polares, mutación, enfermedad, cáncer, clausura final y diálogo factual entre familias
 XVIII.3. Cierre material
 
 XIX. Bibliografía
