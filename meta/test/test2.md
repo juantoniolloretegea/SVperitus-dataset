@@ -120,9 +120,7 @@ XVIII. Bibliografía
 
 ### I.1. Nivel doctrinal de la fórmula universal
 
-La fórmula 𝓒★ObsU pertenece al nivel doctrinal 6 de la cadena absoluta del Sistema Vectorial SV, porque su dominio propio es Ωobs, el universo de los observables constituidos y retornables. No ocupa el nivel 5, pues no se limita a traducir entre dominios; decide si un contenido llega a estatuto de observable fuerte. No ocupa nivel 7 o superior, pues no gobierna una física, una clínica o una biología particulares. No ocupa nivel 13, pues ese nivel corresponde al techo doctrinal de la Teoría del TODO y de la NADA y al borde preformal de primera distinguibilidad. Por ello, 𝓒★ObsU no sustituye ε−0, no desplaza 𝓔★TODO,SV(ΓU;τ)=0 y no compite con la Teoría del TODO y de la NADA: gobierna los observables una vez que la distinguibilidad y el dominio han quedado abiertos. 𝓔age queda en el mismo nivel como fórmula especializada para edad relativa de objetos observables ya constituidos; 𝓒★ObsU es anterior en función, porque decide si x puede comparecer como observable fuerte en D antes de que una fórmula sectorial mida edad, señal, molécula, célula, enfermedad, especie o documento.
-
-Nivel<sub>SV</sub>(𝓒★ObsU)=6.
+La fórmula 𝓒★ObsU pertenece al nivel doctrinal 6 de la cadena absoluta del Sistema Vectorial SV, porque su dominio propio es Ωobs, el universo de los observables constituidos y retornables. No ocupa el nivel 5, pues no se limita a traducir entre dominios; decide si un contenido llega a estatuto de observable fuerte. No ocupa nivel 7 o superior, pues no gobierna una física, una clínica o una biología particulares. No ocupa nivel 13, pues ese nivel corresponde al techo doctrinal de la Teoría del TODO y de la NADA y al borde preformal de primera distinguibilidad. Por ello, 𝓒★ObsU no sustituye ε−0, no desplaza 𝓔★TODO,SV(ΓU;τ)=0 y no compite con la Teoría del TODO y de la NADA: gobierna los observables una vez que la distinguibilidad y el dominio han quedado abiertos. 𝓔age queda en el mismo nivel como fórmula especializada para edad relativa de objetos observables ya constituidos; 𝓒★ObsU es anterior en función, porque decide si x puede comparecer como observable fuerte en D antes de que una fórmula sectorial mida edad, señal, molécula, célula, enfermedad, especie o documento. Nivel<sub>SV</sub>(𝓒★ObsU)=6.
 
 ### I.2. Estado de la cuestión en ciencia contemporánea
 
@@ -130,8 +128,8 @@ La ciencia contemporánea no formula una teoría universal de creación de obser
 
 ### I.3. Fórmula universal de gobierno de observables
 
-La fórmula central de la Teoría de la Creación de Observables del Universo queda fijada así: 𝓒★ObsU(x,D)=𝓝★[ΩM_D(x),𝔛_{D↔SV}(x),F_D(x),I_D(x),C_D(x),B_D(x),Δ_D(x),R_D(x),Tr_D(x)]∈{0,1,U}.
-
+La fórmula central de la Teoría de la Creación de Observables del Universo queda fijada así: 
+𝓒★ObsU(x,D)=𝓝★[ΩM_D(x),𝔛_{D↔SV}(x),F_D(x),I_D(x),C_D(x),B_D(x),Δ_D(x),R_D(x),Tr_D(x)]∈{0,1,U}.
 Aquí x es un candidato a observable y D cualquier dominio declarable. ΩM_D declara dominio y magnitudes externas; 𝔛_{D↔SV} declara transducción bidireccional; F_D declara frontera; I_D declara identidad; C_D declara canal; B_D declara barrera; Δ_D declara residual; R_D declara retorno; Tr_D declara traza append-only. La fórmula no crea materialmente hidrógeno, galaxia, célula, virus, variante, enfermedad, cáncer, síntoma, especie, documento o persona; decide si ese contenido comparece como observable fuerte. El cierre fuerte se expresa como x∈ObsU(D) ⇔ 𝓒★ObsU(x,D)=0; si hay contradicción material, el dictamen es 1; si falta cierre suficiente sin contradicción, el dictamen es U. Es la fórmula universal: cualquier fórmula que omita una condición falla, cualquier fórmula que las contenga bajo otros nombres es equivalente y cualquier ampliación sólo aumenta resolución interna.
 
 ### I.4. Fórmula universal de generación de transductores
