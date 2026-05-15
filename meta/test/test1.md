@@ -1,2782 +1,2819 @@
-# El agujero negro como cierre interno sin resto exterior formulable
+# Edades relativas del universo observable y de sus objetos físicos
 
-![Portada de la publicación](https://raw.githubusercontent.com/juantoniolloretegea/SV-matematica-semantica/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad/imagenes/portada_agujero_negro_clausura_no_transmisibilidad.png)
+## Teoría de la edad de todos los objetos del Universo Observable · Biología molecular y medicina: del par estructural a la célula viva
 
-## Teoría factual de equivalencia físico-factual, formas equivalentes, unicidad de fórmula, Teoría de la Imperfección, absorción numérica de modelos contemporáneos, clausura factual, retorno al Todo y cierre M_N2-SV
+![Portada de la publicación](https://raw.githubusercontent.com/juantoniolloretegea/SV-matematica-semantica/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/imagenes/portada.png)
 
-**© 2026. Todos los derechos reservados.** | [**Juan Antonio Lloret Egea**](https://www.linkedin.com/in/juanantoniolloretegea/) | [**DOI 10.5281/zenodo.20155687**](https://doi.org/10.5281/zenodo.20155687) | ORCID: [0000-0002-6634-3351](https://orcid.org/0000-0002-6634-3351) | [Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA)](https://www.itvia.online/) | IA eñ™ — La Biblia de la IA™ | [**ISSN 2695-6411**](https://portal.issn.org/resource/ISSN/2695-6411) | [**Licencia CC BY-NC-ND 4.0**](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es) | Madrid, 10/05/2026 | [**Repositorio doctrinal**](https://juantoniolloretegea.github.io/SV-matematica-semantica/) | [**Repositorio canónico de la publicación**](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad)
-
-
-## Registro de preservación, firma y estampillado de tiempo
-
-Esta publicación queda asociada a un registro público de preservación y a un registro criptográfico de lote. La carpeta contenedora se conserva en [Internet Archive](https://web.archive.org/web/20260511122405/https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad) y el texto principal se conserva en [Internet Archive](https://web.archive.org/web/20260511122924/https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad/agujero-negro-clausura-no-transmisibilidad.md). El registro detallado de firma, estampillado de tiempo, hashes y enlaces canónicos figura en [registros/README.md](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad/registros/README.md).
+- Autor: [Juan Antonio Lloret Egea](https://www.linkedin.com/in/juanantoniolloretegea/)
+- ORCID: [0000-0002-6634-3351](https://orcid.org/0000-0002-6634-3351)
+- Institución: [Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA)](https://www.itvia.online/)
+- Publicación: IA eñ™ — La Biblia de la IA™ · [ISSN 2695-6411](https://portal.issn.org/resource/ISSN/2695-6411)
+- Licencia: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es)
+- Fecha: Madrid, 14/05/2026
+- DOI de la publicación PubPub: [10.21428/39829d0b.b56ed853](https://doi.org/10.21428/39829d0b.b56ed853)
+- Release PubPub: [Release 3](https://www.itvia.online/pub/edades-relativas-del-universo-observable-y-de-sus-objetos-fisicos/release/3)
+- Colección PubPub «El Universo»: [10.21428/39829d0b.26484bfd](https://doi.org/10.21428/39829d0b.26484bfd)
+- URL de colección: [https://www.itvia.online/el-universo](https://www.itvia.online/el-universo)
+- Repositorio doctrinal: [SV-matematica-semantica](https://juantoniolloretegea.github.io/SV-matematica-semantica/)
+- Repositorio canónico: [edades relativas del universo observable y objetos físicos](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos)
+- Fuentes de continuidad SV: [Catálogo de Pares Estructurales SV (CPS-SV)](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/quimica-factual-y-ciencia-de-materiales-sv/catalogo-pares-estructurales) · [Teoría del TODO y de la NADA](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/teoria-todo-nada-sv) · [Imperfección preformal y espacio](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/imperfeccion-preformal-y-espacio)
 
 ---
+
+<a id="sec-definicion-append-only"></a>
+
+
+## Índice
+
+**Índice general de la publicación**
+
+- Definición operativa de append-only
+- 0. Problema físico real: la expresión «edad del Universo» es imprecisa
+- I. Ubicación doctrinal de la fórmula canónica de edad en la cadena de fórmulas absolutas del SV
+- II. Estado del arte físico contemporáneo
+- III. Tabla de edades relativas
+- IV. Transductores
+- V. Métricas
+- VI. Contraste físico y tablas de verificación
+- Anexo I. Teorema, demostración y cálculo exacto del ciclo observable y de sus objetos físicos
+- Anexo II. Contraste solar, elevación al universo observable y acotación de error cero
+- VII. Resultado
+- VIII. Conclusión
+- IX. Teoría de la edad de todos los objetos del Universo Observable
+- X. Síntesis final de cierre
+- XI. Anexo técnico reproducible: datos, laboratorios y trazabilidad
+- XII. Glosario técnico SV ↔ física contemporánea
+- XIII. Laboratorios reproducibles
+- XIV. Bibliografía
 
 ## Resumen
 
-Este trabajo formula el agujero negro como régimen extremo del campo unificado factual y demuestra, mediante aparato formal, teoremas, doble transducción físico-factual y verificación numérica no trivial, su equivalencia estructural con el objeto físico de horizonte descrito por la física contemporánea. El objeto físico de horizonte se caracteriza por frontera de no salida exterior, no transmisión luminosa desde el interior, conservación de efectos externos de campo, interior no accesible por canal exterior y cierre postfrontera sin resto exterior formulable. La teoría no reduce el agujero negro a singularidad infinita, vacío sustancial, probabilidad de escape, métrica como fundamento último ni zona final de no clausura. El resultado rector es la ecuación de régimen BHₛᵥ(Γᴮᴴ)=0, definida como anulación del vector de defecto Rᴮᴴ y como restricción simultánea de la [Teoría del TODO y de la NADA](https://doi.org/10.17613/k3q1d-fjj45), de la [fórmula maestra del campo unificado](https://doi.org/10.17613/gxfv3-qjj64), del [Maxwell factual](https://doi.org/10.17613/kep1t-57539), de la [termodinámica factual única](https://doi.org/10.17613/ptw68-d1r57), de la [entropía factual](https://doi.org/10.17613/vh6ak-6em43), de la [teoría factual de la luz](https://doi.org/10.17613/1z7c0-mqb40), del [aparato Bell–Tsirelson](https://doi.org/10.17613/1666c-c5g66), de la [interacción, intercomposición y transmisión factual entre campos](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/interaccion-intercomposicion-transmision-campos/interaccion-intercomposicion-transmision-campos.md) y del banco numérico SV-BH9. La teoría se sitúa, además, dentro de la Teoría del TODO y de la NADA y de la Imperfección: ampliación ternaria del marco binario que conserva la frontera rectora (μ,λ)=(0,0), pero reconoce que el universo físicamente realizado no es cierre perfecto inmóvil, sino dominio de configuraciones persistentes bajo imperfección sostenida. En ese marco, el agujero negro no se formula como pura Nada ni como Todo perfecto; se formula como régimen extremo de imperfección estabilizada: no transmite hacia el exterior, preserva estructura luminosa no transmisiva, satura su interior y cierra la postfrontera como M_N2-SV. El documento incorpora estado del arte físico sobre relatividad general, Schwarzschild, Kerr, teoremas de unicidad y no-hair, singularidad, termodinámica de Bekenstein–Hawking, radiación de Hawking, paradoja de la información, curva de Page, islas, fuzzballs, firewalls, agujeros negros regulares, Event Horizon Telescope y ondas gravitacionales LIGO/Virgo. Cada planteamiento se somete a absorción formal y numérica. El resultado central es determinante: si Γᴮᴴ satisface BHₛᵥ(Γᴮᴴ)=0, entonces el horizonte queda declarado por célula ternaria de no transmisión exterior, la fibra luminosa conserva sus quince proyecciones y recibe dictamen de no transmisión exterior, el interior queda en saturación factual extrema, y lo situado tras la frontera queda dictaminado como M_N2-SV, cierre interno sin resto exterior formulable. M_N2-SV no es U, no es un caso particular de U y no puede ser leído como indeterminación. La unicidad se demuestra por necesidad, suficiencia, no redundancia estricta y cierre por doble traducción BH_fisico ⇔ BHₛᵥ. La teoría incorpora además una consecuencia de cierre general: toda instancia factual realizada que alcanza cierre final por agotamiento interno o por agente externo retorna al Todo como traza factual clausurada, sin convertirse en U, sin reaparecer como copia, sin reescritura de su cadena append-only y sin desaparición sin traza. En este marco, el agujero negro también comparece como suceso clausurable y como régimen extremo capaz de clausurar imperfecciones factuales dentro de su dominio de captura, mientras que las leyes físicas aciertan en la medida en que codifican invariantes del mecanismo factual mediante transducción de residual nulo; las matemáticas no gobiernan el Universo desde fuera, sino que codifican y decodifican su funcionamiento cuando el dominio está correctamente declarado. La publicación incorpora finalmente una lectura en tres escalas para escala elemental, joven universitario de ingeniería y lector científico, subordinada a la fórmula y sin tiempo fundante, velocidad como primitiva, curvatura externa como causa primaria, probabilidad, estadística ni inferencia opaca.
+La expresión «edad del Universo» es físicamente útil, pero conceptualmente imprecisa si no se distingue entre totalidad absoluta, universo observable y objetos físicos contenidos en dominios observables. Una edad física exige dominio declarado, frontera de formación, trayectoria o acumulación interna, magnitud de medida, criterio de contraste y retorno observacional. Por ello, la totalidad absoluta no puede recibir edad física en el mismo sentido que una galaxia, una estrella, una señal luminosa, una firma espectral o una estructura atómica persistente. No comparece como objeto dentro de un dominio mayor, no posee exterior físico de comparación y no admite trayectoria externa desde la cual medir su formación. El análisis sostiene que la pregunta rigurosa no es «cuál es la edad del Universo», sino cuál es la edad concreta del observable retornado con firma física persistente. El problema queda así desplazado desde una atribución absoluta a la totalidad hacia una familia de edades relativas de dominios internos: prehidrógeno, hidrógeno, estrellas, galaxias, señales luminosas, mapas profundos y retornos observacionales. La física contemporánea mide con gran potencia esos retornos mediante telescopios, espectros, mapas cósmicos, galaxias profundas, líneas de hidrógeno, radiación y modelos de distancia. La formulación reformula el plano de atribución de edad mediante transductores entre magnitudes físicas, unidades, dominios, residuales y retornos controlados. El resultado central distingue tres niveles. Primero: la totalidad absoluta no posee edad física admisible. Segundo: el universo observable es un dominio físico interno y sí admite edades relativas de sus contenidos. Tercero: la edad concreta del observable retornado con firma prehidrógeno/hidrógeno persistente queda fijada, bajo el contraste transductivo desarrollado, en 13.800.000.000 años julianos, equivalentes a 3.919.453.920.000.000.000 unidades elementales del medidor factual de ciclo. Esta cifra no se presenta como edad ontológica de la totalidad, sino como edad física concreta del observable retornado. El análisis parte de una primera línea de contención formal: no tiempo como fundamento, no probabilidad como criterio de verdad, no estadística como clausura, no inferencia opaca, no geometría con rango fundante y no cierre favorable por ausencia de refutación. Sobre esa contención se introduce la terna (0,1,U): (0) y (1) designan salidas polares de lectura formal, mientras que (U) conserva la no clausura honesta cuando el dominio, el residual o el retorno no permiten una decisión legítima. Esta terna no sustituye a las magnitudes físicas; disciplina su lectura. La física entra por sus unidades, métricas y observables. El cierre sólo se admite cuando dominio, codominio, invariantes, residual, matriz de contraste, retorno físico y laboratorio reproducible quedan declarados.
 
-## Abstract
+*Abstract*
 
-This paper formulates the black hole as an extreme regime of the factual unified field and proves, through formal apparatus, theorems, two-way physical-factual transduction and nontrivial numerical verification, its structural equivalence with the physical horizon object described by contemporary physics. The physical horizon object is characterized by an outward non-exit boundary, luminous non-transmission from the interior, conservation of external field effects, an interior inaccessible through an exterior channel, and a post-boundary closure with no externally formulable remainder. The theory does not reduce the black hole to an infinite singularity, substantial vacuum, escape probability, metric as ultimate foundation, or final non-closure. The governing result is the regime equation BHₛᵥ(Γᴮᴴ)=0, defined as the nullity of the defect vector Rᴮᴴ and as a simultaneous restriction of the [Theory of EVERYTHING and NOTHING](https://doi.org/10.17613/k3q1d-fjj45), the [master formula of the unified field](https://doi.org/10.17613/gxfv3-qjj64), [factual Maxwell](https://doi.org/10.17613/kep1t-57539), [unique factual thermodynamics](https://doi.org/10.17613/ptw68-d1r57), [factual entropy](https://doi.org/10.17613/vh6ak-6em43), [factual theory of light](https://doi.org/10.17613/1z7c0-mqb40), the [Bell–Tsirelson apparatus](https://doi.org/10.17613/1666c-c5g66), [factual interaction, intercomposition and transmission between fields](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/interaccion-intercomposicion-transmision-campos/interaccion-intercomposicion-transmision-campos.md), and the numerical bank SV-BH9. The paper also places the black-hole regime within the Theory of EVERYTHING and NOTHING and of Imperfection: a ternary enlargement of the binary framework that preserves the governing boundary (μ,λ)=(0,0) while recognizing that physically realized structure is not inert perfect closure, but a domain of persistent configurations under sustained imperfection. In that framework, the black hole is not pure Nothing and not perfect Everything; it is an extreme regime of stabilized imperfection: external non-transmission, preserved but non-transmitting factual light, saturated interior and post-boundary M_N2-SV. The paper incorporates the contemporary physical state of the art on general relativity, Schwarzschild, Kerr, uniqueness and no-hair theorems, singularity, Bekenstein–Hawking thermodynamics, Hawking radiation, the information paradox, Page curve, islands, fuzzballs, firewalls, regular black holes, Event Horizon Telescope and LIGO/Virgo gravitational waves. Each approach is subjected to formal and numerical absorption. The central result is decisive: if Γᴮᴴ satisfies BHₛᵥ(Γᴮᴴ)=0, then the horizon is declared by a ternary cell of exterior non-transmission, the light fibre preserves its fifteen projections and receives a verdict of exterior non-transmission, the interior is in extreme factual saturation, and the post-boundary is declared as M_N2-SV, an internal closure with no externally formulable remainder. M_N2-SV is not U, is not a special case of U, and cannot be read as indeterminacy. Uniqueness is proved by necessity, sufficiency, strict non-redundancy and two-way translation BH_physical ⇔ BHₛᵥ. The theory also incorporates a general closure consequence: every realized factual instance that reaches final closure through internal exhaustion or an external agent returns to Everything as a closed factual trace, without becoming U, without reappearing as a copy, without rewriting its append-only chain, and without disappearing without trace. In this framework, the black hole also appears as a closable event and as an extreme regime capable of closing factual imperfections within its capture domain, while physical laws are successful insofar as they encode invariants of the factual mechanism through zero-residual transduction; mathematics does not govern the Universe from the outside, but encodes and decodes its functioning when the domain is correctly declared. The paper finally includes a three-scale reading for a ten-year-old child, an engineering undergraduate and a scientific reader, subordinated to the formula and without foundational time, velocity as primitive, external curvature as primary cause, probability, statistics or opaque inference.
+*The expression “age of the Universe” is physically useful but conceptually imprecise unless absolute totality, the observable universe and the physical objects contained within observable domains are clearly distinguished. A physical age requires a declared domain, a formation boundary, an internal trajectory or accumulation, a measurement magnitude, a contrast criterion and an observational return. Therefore, absolute totality cannot receive a physical age in the same sense as a galaxy, a star, a light signal, a spectral signature or a persistent atomic structure. It does not appear as an object within a larger domain, has no external physical frame of comparison and admits no external trajectory from which its formation could be measured. The rigorous question is not “what is the age of the Universe”, but rather what is the concrete age of the returned observable content with a persistent physical signature. The problem is thereby shifted from an absolute attribution to totality toward a family of relative ages of internal domains: prehydrogen, hydrogen, stars, galaxies, luminous signals, deep maps and observational returns. Contemporary physics powerfully measures those returns through telescopes, spectra, cosmic maps, deep galaxies, hydrogen lines, radiation and distance models. The present analysis reformulates the plane of age attribution by means of transductors between physical magnitudes, units, domains, residuals and controlled returns. The central result distinguishes three levels. First: absolute totality has no admissible physical age. Second: the observable universe is an internal physical domain and therefore admits relative ages of its contents. Third: the concrete age of the returned observable domain with a persistent prehydrogen/hydrogen signature is fixed, under the transductive bank developed here, at 13 800 000 000 Julian years, equivalent to 3 919 453 920 000 000 000 elementary units of the factual-cycle meter. This figure is not presented as the ontological age of totality, but as the concrete physical age of returned observable content. The analysis begins with a first formal containment line: no time as foundation, no probability as truth criterion, no statistics as closure, no opaque inference, no geometry with foundational rank and no favorable closure by absence of refutation. On that containment line, the ternary alphabet (0,1,U) is introduced: (0) and (1) designate polar verdict outputs, while (U) preserves honest non-closure when the domain, residual or return does not allow a legitimate decision. This ternary alphabet does not replace physical magnitudes; it disciplines their interpretation. Physics enters through its units, metrics and observables. Closure is admitted only when domain, codomain, invariants, residual, contrast bank, physical return and reproducible laboratory have been declared.*
 
----
+Advertencia. Esta publicación está protegida por [CEDRO](https://www.cedro.org/english?lng=en). Su aplicación en el campo de la física, así como cualquier forma de explotación, reproducción o uso por parte de empresas, queda sujeta al copyright del autor y a los términos de la licencia indicada. La reproducción, distribución, comunicación pública o transformación de esta obra sólo puede ser realizada con la autorización de sus titulares, salvo excepción prevista por la ley, y cualquier uso comercial sin autorización expresa queda prohibido y sujeto estrictamente al licenciamiento permitido.
 
-# Índice
+Warning. This publication is protected by [CEDRO](https://www.cedro.org/english?lng=en). Its application in the field of physics, as well as any form of exploitation, reproduction or use by corporate entities, is strictly subject to the author's copyright and to the terms of the license indicated. Any reproduction, distribution, public communication or transformation of this work requires authorization from the rightsholders, except as provided by law, and any commercial use without express written consent is prohibited and strictly subject to permitted licensing.
 
-0. Teoría del TODO y de la NADA y de la Imperfección
-0bis. Posición del agujero negro en la Teoría de la Imperfección y en el Universo Vivo
-0ter. Clausura absoluta de toda instancia factual, retorno al Todo y eficacia de las leyes físicas
-I. Estado del arte físico contemporáneo del agujero negro
-II. Matriz de absorción factual de los planteamientos contemporáneos
-III. Aparato formal autocontenido
-IV. Separación formal entre U y M_N2-SV
-V. Dominio, proyección, invariantes y residual del régimen BH
-VI. Ecuación factual del agujero negro
-VII. Formas equivalentes de la fórmula del agujero negro
-VIII. Unicidad de la fórmula del agujero negro
-IX. Equivalencia físico-factual del objeto agujero negro y transductor bidireccional ampliado
-X. Teoremas estructurales del régimen BH
-XI. Teoremas de absorción de la física contemporánea
-XII. Banco numérico SV-BH9, verificación de formas equivalentes, banco físico paralelo y bancos auxiliares
-XIII. Especificación laboratorial
-XIV. Catálogo de errores
-XV. Demostración final de absorción y rechazo bajo la fórmula absoluta
-XVI. Conclusiones
-XVII. Anexo de preguntas: verdades, no verdades y conclusiones sobre la naturaleza y matemática de un agujero negro
-XVIII. Laboratorios reproducibles SV-BH9
-Bibliografía física contemporánea
-Bibliografía del corpus
-Anexo I. Tres escalas de lectura formal del agujero negro
-Anexo II. Pseudocódigo textual del dictamen
-Anexo III. Glosario, notación y correspondencia físico-factual
-Anexo IV. Especificación ampliada de verificación reproducible
-Palabras clave y keywords
+## Definición operativa de *append-only*
 
----
+El término inglés *append-only* se usa en sentido técnico: una trayectoria append-only no borra estados previos, no invierte una historia ya incorporada y no declara que una estructura vuelva literalmente al pasado. Añade operaciones, reorganizaciones, reparaciones o estados nuevos sobre una traza conservada. En el conjunto de la obra, y de forma especial en el anexo biomolecular, append-only significa conservación de trazabilidad estructural: regenerar no es eliminar el deterioro como si no hubiera existido, sino reorganizar la estructura hacia una función admisible con identidad, frontera, residual y retorno declarados.
 
-# 0. Teoría del TODO y de la NADA y de la Imperfección
+# 0. Problema físico real: la expresión «edad del Universo» es imprecisa
 
-## 0.0. Mapa de lectura y resultado rector
+## 0.1. Qué significa físicamente atribuir edad
 
-La exposición distingue tres planos de lectura: físico, formal y de contraste. El primer plano es físico: horizonte, no escape, no salida luminosa, singularidad, termodinámica, radiación y evidencia observacional. El segundo plano es formal: células ternarias, umbral cualificado, vector de defecto, transductores y dictamen de postfrontera. El tercer plano es de contraste: cada magnitud física usada en el texto debe comparecer en banco numérico o en tabla de transducción, de forma que no quede como mera afirmación verbal.
+Atribuir edad a un objeto físico no consiste sólo en asignarle una cifra. Una edad física exige que el objeto o dominio esté suficientemente determinado. Debe haber algo cuya edad se mide, una frontera de formación o de comparecencia, una trayectoria o acumulación interna, una magnitud de medida, un criterio de contraste y un retorno observacional. Sin esos elementos, la palabra «edad» puede funcionar como convención, aproximación o expresión pedagógica, pero no como predicado físico estricto. Una galaxia puede tener edad porque comparece como objeto físico persistente dentro de un dominio observable. Una estrella puede tener edad porque posee formación, evolución, estructura, emisión, composición y señales medibles. Una señal luminosa puede tener edad relativa porque se propaga desde un dominio físico hacia un punto de retorno observacional. Un átomo de hidrógeno puede operar como firma persistente porque posee condiciones de estabilidad, transición y espectro. Una línea espectral puede participar en la reconstrucción de una edad relativa porque transporta información física de un portador. En todos esos casos, la edad se asigna a un contenido físico determinado. No se asigna a una totalidad indiferenciada. La edad exige que el objeto sea distinguible, que pertenezca a un dominio, que conserve identidad suficiente y que haya una métrica admisible para ordenar su comparecencia. La expresión «edad del Universo» se usa de forma ordinaria en cosmología para referirse a la escala de historia física del universo observable bajo un modelo cosmológico determinado. Esa práctica es legítima dentro de su dominio técnico. Sin embargo, si la expresión se toma literalmente como edad de la totalidad absoluta de lo real, se produce un error de plano. La totalidad absoluta no comparece como objeto dentro de un dominio mayor. No hay exterior físico desde el que medir su formación. No hay una trayectoria externa que permita compararla con otro objeto del mismo tipo. No hay un observador situado fuera de ella que pueda devolver un contraste físico superior. La pregunta rigurosa debe distinguir, por tanto, entre dos sentidos de la palabra «universo». En un primer sentido, «universo» puede nombrar la totalidad absoluta de lo real o de lo formulable. En un segundo sentido, puede nombrar el universo físico observable: el dominio accesible mediante señales, horizontes, radiación, galaxias, estrellas, mapas, instrumentos, modelos y retornos observacionales. El primer sentido no admite edad física. El segundo sí admite edades relativas de sus contenidos. La formulación se sitúa en esa distinción. No niega el valor de la cosmología física. Tampoco niega las mediciones observacionales, los mapas de galaxias, las señales profundas, las líneas espectrales ni los modelos de distancia. Al contrario, los toma como terreno de trabajo. Pero corrige el plano de atribución: la edad no pertenece a la totalidad absoluta, sino a dominios observables y a objetos físicos persistentes.
 
-El resultado rector no se declara por una sola imagen del agujero negro. Se declara por la anulación completa del vector Rᴮᴴ. Esa decisión exige simultáneamente frontera de no transmisión exterior, no transmisión luminosa, conservación de la fibra luminosa, saturación interior, compatibilidad electromagnética, termodinámica factual, entropía factual, cierre TODO/NADA, postfrontera M_N2-SV y clasificación de los modelos contemporáneos tratados.
+## 0.2. Dos sentidos de «universo»
 
-La lectura recomendada es la siguiente. Las secciones I y II fijan el estado físico que se contrasta. Las secciones III a VIII fijan el aparato formal. La sección IX establece la doble traducción físico-factual. La sección XII obliga al contraste numérico mediante bancos. Las secciones XV y XVI cierran absorción, rechazo y conclusiones. Los anexos no sustituyen la fórmula; sirven para transferencia, ejecución y control de lectura.
+La palabra «universo» no siempre designa el mismo objeto conceptual. En el lenguaje físico ordinario puede referirse al universo observable, al universo descrito por un modelo cosmológico, a la región causalmente accesible, al conjunto de contenidos físicos bajo una métrica, a la historia térmica de la expansión o a la totalidad de entidades físicas consideradas por una teoría. En lenguaje filosófico o formal puede designar una totalidad absoluta: aquello fuera de lo cual no queda ningún exterior del mismo orden. La confusión aparece cuando se atribuye a ambos sentidos una misma edad. El universo observable es un dominio físico. Tiene horizonte, señales, historia térmica, radiación, estructura, galaxias, fuentes, mapas, modelos de distancia, escalas y magnitudes. Puede recibir una edad convencional o relativa dentro de una cosmología física. Sus contenidos pueden ordenarse por formación, emisión, propagación y retorno. La totalidad absoluta no es un dominio físico interno. No está contenida en un dominio superior del mismo tipo. No posee un exterior desde el cual medir su aparición. No puede compararse con otra totalidad situada fuera de ella. Por eso, la edad física no se le aplica en sentido estricto. La distinción puede formularse así: totalidad absoluta ≠ universo observable. Y también: edad de la totalidad absoluta ≠ edad relativa de contenidos observables. La formulación adopta esta regla: cuando se hable de edad física, se exigirá dominio, frontera, identidad, métrica, residual y retorno. Si alguno de esos elementos falta, la lectura formal no será cierre numérico, sino no admisión o no clausura.
 
-**Regla de no sustitución.** Una magnitud externa puede entrar en el documento como contraste, proyección o banco; no puede ocupar el lugar de la fórmula BHₛᵥ(Γᴮᴴ)=0 si no cierra todas las condiciones del vector Rᴮᴴ.
+## 0.3. Primera línea de contención: prohibiciones formales
 
-**Regla de lectura física.** Cuando el texto menciona rₛ, q, χ, r₊, Sᴮᴴ/k_B, Tᴴ o K/Kₕ, esas magnitudes actúan como magnitudes de contraste con la física contemporánea. Su presencia no convierte la métrica, la termodinámica externa ni la curvatura en fundamento soberano del régimen.
+Para evitar que una cifra sustituya a una definición, la formulación queda sometida a seis prohibiciones formales. Primera: no se admite el tiempo como fundamento. El tiempo puede entrar como magnitud física, parámetro de retorno, escala de comparación o unidad metrológica. No puede ocupar el lugar del fundamento de la edad. Una edad física se define por dominio, frontera, acumulación y retorno; no por invocación primaria del tiempo. Segunda: no se admite la probabilidad como criterio de verdad. Un modelo probabilístico puede describir márgenes, distribuciones o estimaciones. No puede decidir por sí mismo que una atribución de edad esté bien tipada. Tercera: no se admite la estadística como clausura. Una convergencia estadística puede ser evidencia potente dentro de un contraste físico. No sustituye el residual, el dominio ni la lectura formal. Cuarta: no se admite la inferencia opaca. Toda transición relevante debe declarar dominio, codominio, magnitud, unidad, residual, lectura formal y retorno. Una conclusión no queda cerrada por plausibilidad. Quinta: no se admite la geometría con rango fundante. La métrica, la distancia, el horizonte, el corrimiento, la curvatura o la profundidad observacional son magnitudes y estructuras de dominio. No fundan por sí mismas la totalidad absoluta. Sexta: no se admite cierre favorable por ausencia de refutación. Si la tabla de contraste no determina un resultado, el resultado no se fuerza. Si un caso carece de unidad, dominio, residual o retorno, no se declara apto. Estas prohibiciones no debilitan la formulación. Lo hacen físicamente controlable. Obligan a separar lo que se mide, el dominio donde se mide, la unidad usada, el transductor aplicado, el residual obtenido y el retorno físico resultante.
 
-**Regla de lectura formal.** Cuando el texto menciona DΣ, T(n), v_TE, v_L, v_INT, v_μ, v_λ, v_𝓝★ o Postᴮᴴ, esos elementos actúan como condiciones internas de dictamen. Su función no es ornamentar la física externa, sino decidir el cierre del régimen.
+## 0.4. La terna (0,1,U) como disciplina de lectura formal
 
-**Regla de lectura postfrontera.** M_N2-SV no nombra ignorancia, ausencia de respuesta ni suspensión en U. Nombra cierre interno sin resto exterior formulable cuando μ=0, λ=0 y 𝓝★ₛᵥ=0.
+Se usará una terna de lectura formal: 0,1,U. El símbolo (0) designa cierre favorable o anulación del residual en el dominio declarado. El símbolo (1) designa incompatibilidad, defecto no admisible o residual no anulado. El símbolo (U) designa no clausura honesta: el caso no queda cerrado porque falta una pieza esencial, porque el dominio no está suficientemente declarado, porque el retorno no es legítimo o porque el residual no permite decisión. La (U) no es ignorancia vulgar. No es probabilidad. No es margen estadístico. No es permiso para escoger el resultado que convenga. Es una marca formal de custodia: cuando no hay cierre, no se simula cierre. Esta terna permite tratar la física contemporánea sin degradarla ni absolutizarla. Una medición física puede ser correcta dentro de su dominio y, sin embargo, no fundar la totalidad. Una expresión cosmológica puede ser útil y, a la vez, imprecisa si mezcla planos. Un dato observacional puede entrar en la tabla de contraste como evidencia y quedar sometido a residual. Un resultado puede ser físicamente poderoso y no ser todavía una edad de la totalidad absoluta. El uso de (0,1,U) impone una disciplina sencilla: 0 ⇒ cierre en dominio declarado. 1 ⇒ incompatibilidad o no admisión. U ⇒ no clausura honesta. La lectura no necesita aceptar una doctrina previa para entender esta terna. Basta reconocer que una afirmación física rigurosa puede estar cerrada, rechazada o no suficientemente determinada. La formulación formaliza esa diferencia y la aplica a las edades relativas del universo observable y de sus objetos físicos.
 
-## 0.1. Del cierre perfecto a la imperfección sostenida
+## 0.5. La totalidad absoluta no es objeto físico interno
 
-La Teoría del TODO y de la NADA fija el dominio de cierre perfecto entre los polos 1 y 0 mediante la frontera común (μ,λ)=(0,0) bajo el verificador 𝓝★ₛᵥ. Ese cierre es exacto en su sede: no deja resto exterior formulable, no equivale a vacío sustancial y no admite sustitución por U. Sin embargo, el universo físicamente realizado no se agota en el cierre perfecto. Átomos, moléculas, estrellas, agujeros negros, campos, fronteras, trayectorias, estructuras persistentes y vida aparecen allí donde los polos no han reclamado por completo la configuración. La realidad física comparece, por tanto, como imperfección sostenida bajo frontera, residual, compatibilidad y dictamen.
+Una totalidad absoluta no puede recibir edad física como si fuera una galaxia, una estrella, una nube de gas, un átomo o una señal luminosa. La razón es estrictamente formal: la edad física requiere que el objeto sea contenido de un dominio en el que puedan declararse frontera, trayectoria, métrica y retorno. La totalidad absoluta no es contenido de un dominio mayor del mismo orden. Por tanto: Edad(totalidad absoluta)=NO ADMISIBLE. Esta afirmación no niega la cosmología. Niega una atribución mal tipada. La cosmología física puede hablar de historia del universo observable, de edad cosmológica bajo un modelo, de profundidad de señal, de tiempo de viaje de la luz, de formación de galaxias, de recombinación, de nucleosíntesis, de radiación de fondo o de horizontes. Todo eso pertenece al dominio físico observable. Lo que no puede hacer sin cambio de plano es convertir esa edad relativa de dominio en edad de la totalidad absoluta. La totalidad absoluta no envejece. No porque tenga edad cero, sino porque la edad física no se aplica a su estatuto. Lo que envejece, se forma, emite, colapsa, persiste, transmite o retorna son los contenidos internos.
 
-La ampliación ternaria no rebaja la teoría binaria; la incluye como caso rector de cierre. Lo que añade es el dominio de realización entre extremos: la zona en la que 0 y 1 compiten, la estructura se sostiene y el residual queda gobernado. En la notación del SV, esa zona se expresa por Σ={0,1,U}. El símbolo U no es ignorancia vulgar ni recurso retórico; es la marca formal de no clausura suficiente dentro de una célula. Cuando el verificador superior cierra, U deja de gobernar el dictamen final. Cuando no cierra, U conserva la indeterminación honesta. Esta diferencia sostiene la separación entre U y M_N2-SV ya demostrada en la sección IV.
+## 0.6. Qué sí posee edad física
 
-Definición 0.1. Teoría del TODO y de la NADA y de la Imperfección.
+Sí poseen edad física los objetos y dominios que cumplen condiciones de atribución. Una galaxia puede poseer edad relativa si se declara su dominio físico, su formación, su población estelar, sus firmas, su retorno luminoso y sus métricas de contraste. Una estrella puede poseer edad por estructura, masa, luminosidad, composición, evolución y señales. Un púlsar puede poseer edad por régimen rotacional, emisión, pérdida de energía y retorno medible. Un átomo o firma de hidrógeno puede poseer edad relativa como marcador de transición física persistente. Una señal luminosa puede tener edad de retorno si se declara distancia, propagación, medio, unidad, transductor y observación. El universo observable, considerado como dominio físico interno, no posee edad absoluta en el sentido de totalidad, pero sí admite escalas relativas de historia observable. Esas escalas deben formularse con cuidado: no como edad de la totalidad, sino como edad del contenido físico observable más antiguo que retorna con firma admisible. La formulación fija: A<sub>Ωobs</sub>= edad concreta del observable retornado. Ese contenido debe cumplir: dominio físico declarado, firma persistente, métrica de profundidad o retorno, unidad física, unidad transductiva, residual evaluado, lectura formal, retorno físico controlado.
 
-La Teoría del TODO y de la NADA y de la Imperfección es la ampliación ternaria del marco binario rector del SV. Está caracterizada por cuatro elementos:
+## 0.7. Tesis central y resultado anunciado
 
-1. Alfabeto ternario canónico Σ={0,1,U}, donde 0 designa el polo de Nada, 1 designa el polo de Todo y U designa la zona de imperfección activa bajo competencia polar.
-2. Tránsito generativo Ω_pre → U → Ω_ternario, donde Ω_pre es potencial estructural, U es competencia polar no clausurada y Ω_ternario es realización sometida a dictamen.
-3. Ecuación de cierre por vector de defecto: una configuración realizada queda cerrada si su vector de defecto se anula bajo el aparato rector correspondiente.
-4. Predominancia estructural de la imperfección: en dominios con cascada de dominancias y doble accesibilidad, el régimen intermedio tiene mayor capacidad de realización que los extremos puros, salvo frontera de cierre rector.
+La tesis central de la formulación es la siguiente: la totalidad absoluta no tiene edad física admisible; el universo observable y sus objetos físicos sí poseen edades relativas; la edad concreta del observable retornado corresponde al contenido observable retornado más antiguo con firma persistente admisible. El resultado que se establece mediante transductores, métricas, tablas de contraste, unidades SI, unidades SV y laboratorios reproducibles es: A<sub>Ωobs</sub><sup>SV</sup> = 3 919 453 920 000 000 000 UE<sub>MFC</sub>. Con la equivalencia: 9 UE<sub>MFC</sub>=1 s, el retorno físico expresado en años julianos es: A<sub>Ωobs</sub><sup>ret</sup> = 13 800 000 000 años julianos. Esta cifra no se atribuye a la totalidad absoluta. Se atribuye al contenido observable más antiguo retornado con firma física persistente. La diferencia es el núcleo de la formulación.
 
-El tránsito generativo se escribe en texto plano como:
+# I. Ubicación doctrinal de la fórmula canónica de edad en la cadena de fórmulas absolutas del SV
 
-Ω_pre → U → Ω_ternario.
+## I.1. Estatuto del apartado
 
-En el dominio de pares estructurales, esta lectura se expresa por los criterios del CPS-SV. En el dominio del agujero negro, se expresa por Rᴮᴴ=(0,0,0,0,0,0,0,0,0,0,0) y por la equivalencia de formas de BHₛᵥ(Γᴮᴴ)=0.
+La fórmula canónica de edad ocupa un lugar doctrinal preciso dentro del Sistema Vectorial SV. No pertenece al techo doctrinal del sistema, no funda la terna, no funda el espacio, no funda la luz, no funda el electromagnetismo, no funda la termodinámica y no funda la Teoría del TODO y de la NADA.
 
-## 0.2. Relación con la Teoría del TODO y de la NADA
+> <a id="formula-age-01"></a>
 
-La Teoría de la Imperfección no sustituye la Teoría del TODO y de la NADA. La presupone. El cierre perfecto (μ,λ)=(0,0) bajo 𝓝★ₛᵥ conserva su autoridad sobre la postfrontera. La imperfección añade la región de realización estructural donde existe frontera, residual, transmisión, no transmisión, saturación, luz preservada, termodinámica factual y dictamen de absorción.
+AGE-01. 𝓔<sub>age</sub>(O<sub>i</sub>) = (A<sub>i</sub>, F<sub>i</sub>, F<sub>i</sub>−A<sub>i</sub>, A<sub>i</sub>/F<sub>i</sub>, (F<sub>i</sub>−A<sub>i</sub>)/F<sub>i</sub>, 284 018 400·A<sub>i</sub>, 284 018 400·F<sub>i</sub>, 284 018 400·(F<sub>i</sub>−A<sub>i</sub>), Δ<sub>i</sub>).
 
-La relación formal se expresa así:
+Su estatuto exacto es: 𝓔<sub>age</sub> ∈ Can<sup>met-trans</sup><sub>SV</sub>(Ω<sub>obs</sub>). Es decir, fórmula canónica metrológico-transductiva de edad para objetos físicos del universo observable. Su dominio propio es O<sub>i</sub>⊂Ω<sub>obs</sub>, y su cierre exige Δ<sub>i</sub>=0. La fórmula es absoluta dentro de su dominio, pero no absoluta dentro de todo el SV. Mide con error cero objetos observables ya constituidos; no funda el observable ni mide la totalidad absoluta.
 
-Teoría binaria: cierre por (μ,λ)=(0,0) y 𝓝★ₛᵥ=0.
+## I.2. Suelo formal y techo doctrinal
 
-Teoría ternaria de la Imperfección: realización por Σ={0,1,U}, tránsito Ω_pre → U → Ω_ternario, dictamen DΣ y cierre por vector de defecto.
+<a id="formula-tri-01"></a>
 
-Teorema 0.1. Coherencia de la ampliación ternaria.
+TRI-01. K<sub>3</sub> = {0,1,U}. El suelo formal operativo del SV queda fijado por la terna. El 0 designa cierre apto o admisible en dominio declarado; el 1 designa defecto, no admisión o cierre negativo; U designa indeterminación honesta, no clausura actual o insuficiencia formal de datos. Antes del suelo ternario pueden reconocerse dos planos preparatorios: nivel −2, preternario; nivel −1, prototernario. Esos planos no sustituyen la terna como suelo operativo. <a id="formula-todo-01"></a>
 
-La Teoría del TODO y de la NADA y de la Imperfección es compatible con la Teoría del TODO y de la NADA y no introduce contradicción en el corpus SV.
+TODO-01. 𝓔★<sub>TODO,SV</sub>(Γ<sub>U</sub>;τ)=0. El techo doctrinal concreto queda fijado en el nivel 13. No hay nivel 14 doctrinal absoluto dentro de esta cadena. Las tablas de contraste, laboratorios, tablas, catálogos de errores y salidas ejecutables verifican o reproducen fórmulas; no constituyen niveles doctrinales absolutos.
 
-Demostración. La teoría binaria gobierna el cierre por frontera común y verificador rector. La teoría ternaria no modifica esa frontera; introduce el dominio de configuraciones en las que el cierre todavía no ha anulado la competencia polar. Cuando el vector de defecto se anula y el verificador rector devuelve cierre, el resultado vuelve al régimen binario de cierre. Cuando no se anula, la célula conserva U según DΣ. Por tanto, la teoría ternaria no contradice la binaria: la extiende al dominio de realizaciones sostenidas y retorna a la binaria en frontera de cierre. c.q.d.
+## I.3. Criterio de inclusión en la cadena doctrinal
 
-## 0.3. Imperfección sostenida y estructura persistente
+Sólo se incorporan a la cadena doctrinal las fórmulas absolutas o canónicas del SV, entendidas como estructuras con función rectora sobre un dominio formal o físico declarado.
 
-La estructura persistente exige que ningún polo capture por completo el dominio antes del dictamen de cierre. Si el polo 1 reclamara toda la configuración, habría completitud sin tensión estructural. Si el polo 0 reclamara toda la configuración, habría absorción sin realización. La existencia de objetos físicos exige un régimen intermedio: frontera, residual, identidad compatible, persistencia y transformación bajo dictamen.
+## I.4. Cadena doctrinal absoluta del SV
 
-Definición 0.2. Universo Vivo en sentido formal SV.
+La cadena doctrinal queda organizada desde nivel −2 hasta nivel 13. Su lectura estructural es:
 
-Se denomina Universo Vivo al dominio de configuraciones estructurales con persistencia, frontera, residual acotado, identidad compatible, capacidad de interacción y conservación de dictamen bajo el aparato SV. Esta definición no reduce vida a biología; nombra la condición formal de existencia sostenida de estructuras físicas.
+> preternario → prototernario → ternario → célula → composición → gobierno de U → suceso/cambio → transducción/metrología → edad observable → luz → electromagnetismo → termodinámica → persistencia material → interacción/campo → unificación física → TODO/NADA. Esta cadena no es cronológica. Es doctrinal y de prevalencia.
 
-Teorema 0.2. Necesidad de imperfección para estructura persistente.
+## I.5. Niveles doctrinales
 
-Toda configuración estructural persistente del Universo Vivo pertenece al dominio de la imperfección sostenida.
+| Nivel | Fórmula absoluta | Dominio | Estatuto |
+| --- | --- | --- | --- |
+| −2 | 𝓔<sub>∅</sub>, ε<sub>−0</sub> | preternario | pre-suelo |
+| −1 | Ω<sub>pre</sub>, (α<sub>i</sub>,β<sub>i</sub>), Π<sub>3</sub><sup>H</sup> | prototernario | tránsito hacia terna |
+| 0 | K<sub>3</sub>={0,1,U} | terna | suelo formal del SV |
+| 1 | 𝓢<sub>n</sub>=K<sub>3</sub><sup>n</sup>, T(n)=⌊7n/9⌋ | célula | fórmula celular absoluta |
+| 2 | C<sub>i</sub>, χ<sub>i</sub>, 𝓕<sub>SV</sub> | composición | composición tipada |
+| 3 | Γ<sub>H</sub>, HNA, T<sup>ex</sup> | U | gobierno de indeterminación |
+| 4 | ∂<sub>ν</sub><sup>SV</sup>, d<sub>Φ</sub>, D<sub>Φ</sub>, Δ<sub>q</sub><sup>Φ</sup>, 𝔄, CS | suceso/cambio | cálculo factual |
+| 5 | 𝔛<sub>SV</sub>(D↔︎D′), Π, Δ, d | transducción/metrología | dominio ↔︎ dominio |
+| 6 | 𝓔<sub>age</sub>(O<sub>i</sub>) | Ω<sub>obs</sub> | edad de objetos observables |
+| 7 | Γ<sub>L</sub>, Dist<sub>SV</sub><sup>fib</sup>, 𝓣<sub>L</sub> | luz/transmisión | luz factual |
+| 8 | Div<sub>SV</sub>, Rot<sub>SV</sub>, Δ<sub>EM</sub><sup>SV</sup> | electromagnetismo | Maxwell–SV |
+| 9 | F<sub>SV</sub>, W<sub>SV</sub>, Q<sub>SV</sub>, H<sub>SV</sub>, T<sub>SV</sub><sup>fact</sup> | termodinámica | física energético-térmica factual |
+| 10 | 𝓟<sub>min</sub>, ∂Ω<sub>H</sub>, Ω<sub>H</sub> | persistencia material | hidrógeno/química factual |
+| 11 | 𝓘<sub>SV</sub>, DistInter<sup>SV</sup>, 𝓣<sub>SV</sub>, SV(36,6) | campos | interacción/transmisión |
+| 12 | 𝔉<sub>SV</sub>, 𝔘<sup>unif</sup><sub>SV</sub>, 𝓕<sub>𝓐</sub>, C<sub>SV</sub> | unificación física | protocampos/campo unificado |
+| 13 | 𝓔★<sub>TODO,SV</sub>(Γ<sub>U</sub>;τ)=0 | TODO/NADA | techo absoluto |
 
-Demostración. Una configuración persistente requiere identidad compatible y frontera. Si fuese puro Todo sin residual, no habría frontera activa ni competencia de configuración; si fuese pura Nada, no habría dominio evaluable. La persistencia exige que la configuración no quede absorbida por ninguno de los polos durante su realización. Esa condición es precisamente la zona U como imperfección activa antes del cierre rector. Luego toda estructura persistente pertenece al dominio de imperfección sostenida. c.q.d.
+## I.6. Teorema de nivel exacto de 𝓔<sub>age</sub>
 
-Teorema 0.3. Predominancia estructural del régimen intermedio.
+Teorema. La fórmula 𝓔<sub>age</sub> ocupa exactamente el nivel 6 de la cadena doctrinal absoluta del SV. Demostración. Primero, no puede ocupar nivel inferior al 5, porque presupone transducción metrológica: A<sub>i</sub><sup>SV</sup>=K<sub>age</sub>A<sub>i</sub><sup>FC</sup>, con K<sub>age</sub>=284 018 400. Por tanto, depende del régimen de transducción y metrología. Segundo, no puede ocupar nivel 7 o superior, porque no gobierna luz, electromagnetismo, termodinámica, persistencia material, interacción de campos, unificación física ni TODO/NADA. Su dominio propio es O<sub>i</sub>⊂Ω<sub>obs</sub>. Tercero, no puede ocupar nivel 13, porque el nivel 13 corresponde a [TODO-01](#formula-todo-01). Si 𝓔<sub>age</sub> fuera nivel 13, permitiría atribuir edad física a la totalidad absoluta, pero Edad(TODO<sub>SV</sub>)=NO ADMISIBLE. Cuarto, no puede reducirse a registro o laboratorio, porque define la estructura que las matrices de contraste y los laboratorios verifican. Por tanto, Nivel<sub>SV</sub>(𝓔<sub>age</sub>)=6. c.q.d.
 
-En un dominio SV con dictamen ternario DΣ y umbral T(n)=⌊7n/9⌋, los extremos APTO y NO_APTO sólo se declaran por mayoría cualificada; el resto de configuraciones no cerradas queda en el dominio intermedio. Por tanto, la región de imperfección activa ocupa el complemento de los cierres fuertes y constituye el dominio estructural de realización no extrema.
+## I.7. Criterio de incorporación de desarrollos posteriores
 
-Demostración. DΣ(v)=APTO exige N₀(v)≥T(n). DΣ(v)=NO_APTO exige N₁(v)≥T(n). Por incompatibilidad de doble mayoría, ambas regiones son disjuntas. Todo vector que no alcance ninguna mayoría cualificada queda fuera de los extremos. Esa región conserva U como no clausura suficiente y permite continuidad de evaluación estructural. Por tanto, el régimen intermedio es el dominio formal de imperfección activa. c.q.d.
+Criterio. Todo desarrollo posterior carece de rango doctrinal absoluto salvo absorción expresa en uno de los niveles −2 a 13 con dominio, fórmula, residual, lectura formal y retorno. Verificación formal. Sea X una fórmula, hipótesis, tabla, registro, observación o salida introducida desde fuera de la cadena fijada. Si X no declara Ω<sub>X</sub>, 𝓕<sub>X</sub>, Δ<sub>X</sub>, d<sub>X</sub> y R<sub>X</sub>, entonces X=U. Si X contradice un nivel superior de la cadena, entonces d<sub>X</sub>=1. Si X pretende ocupar nivel 13 sin ser [TODO-01](#formula-todo-01), queda rechazado. Si X pretende introducir probabilidad, estadística, minería de datos, inferencia opaca, heurística no declarada o tiempo rector como fundamento, viola el suelo ternario y la disciplina del SV. Por tanto, X no es doctrinal absoluto por aparecer después. Sólo será admisible si queda absorbido formalmente por la cadena ya fijada. c.q.d.
 
-# 0bis. Posición del agujero negro en la Teoría de la Imperfección y en el Universo Vivo
+## I.8. Síntesis doctrinal
 
-## 0bis.1. El agujero negro como régimen extremo de imperfección sostenida
+Síntesis. El techo doctrinal es nivel 13; el suelo formal operativo es K<sub>3</sub>={0,1,U}; los niveles −2 y −1 son pre-suelo preternario y prototernario; 𝓔<sub>age</sub> ocupa nivel 6. 𝓔<sub>age</sub> es fórmula canónica metrológico-transductiva de edad para objetos de Ω<sub>obs</sub>. No funda el TODO, no funda la terna, no funda el espacio, no funda la luz, no funda Maxwell, no funda termodinámica y no funda campos. Mide con error cero objetos observables ya constituidos. Todo desarrollo posterior que entre por vía lateral queda fuera de rango doctrinal absoluto salvo absorción formal expresa en esta cadena.
 
-El agujero negro no es objeto de cierre perfecto simple. Si fuese puro Todo, no habría frontera de no transmisión ni interior saturado; si fuese pura Nada, no habría luz factual preservada, efectos externos de campo ni dominio termodinámico interior. El agujero negro existe porque la competencia polar alcanza un régimen extremo: la salida exterior queda clausurada, la luz factual no se anula, el interior se satura y la postfrontera se cierra como M_N2-SV.
+## Índice de fórmulas centrales
 
-La ecuación BHₛᵥ(Γᴮᴴ)=0 expresa ese régimen: no elimina la imperfección; la resuelve en una forma extrema de no transmisión y saturación. El resultado no es U, porque U es el terreno de competencia; tampoco es vacío, porque hay dominio interior evaluable; tampoco es singularidad primaria, porque la singularidad pertenece a una proyección geométrica no evaluable en r = 0. El resultado postfrontera es M_N2-SV.
+| Código | Fórmula | Función |
+| --- | --- | --- |
+| [TRI-01](#formula-tri-01) | K<sub>3</sub> = {0,1,U} | Suelo ternario operativo |
+| [CEL-01](#formula-cel-01) | 𝓢<sub>n</sub> = K<sub>3</sub><sup>n</sup>, n=b², b≥3 | Célula exacta |
+| [CEL-02](#formula-cel-02) | T(n)=⌊7n/9⌋ | Umbral canónico |
+| [MET-01](#formula-met-01) | 1 a<sub>J</sub> = 31 557 600 s | Año juliano |
+| [MET-02](#formula-met-02) | 1 s = 9 UE<sub>MFC</sub> | Equivalencia SV |
+| [MET-03](#formula-met-03) | 1 a<sub>J</sub> = 284 018 400 UE<sub>MFC</sub> | Constante transductiva |
+| [AGE-01](#formula-age-01) | 𝓔<sub>age</sub>(O<sub>i</sub>) | Fórmula canónica de edad |
+| [AGE-02](#formula-age-02) | A<sub>i</sub><sup>SV</sup> = 284 018 400·A<sub>i</sub><sup>FC</sup> | Forma explícita |
+| [AGE-03](#formula-age-03) | Φ<sub>age</sub>(O<sub>i</sub>) = 0 | Forma implícita |
+| [AGE-04](#formula-age-04) | A<sub>i</sub>(λ<sub>i</sub>) = λ<sub>i</sub>F<sub>i</sub> | Forma paramétrica |
+| [AGE-05](#formula-age-05) | A<sup>SV</sup>−A<sub>i</sub><sup>SV</sup> = 284 018 400·(A<sup>FC</sup>−A<sub>i</sub><sup>FC</sup>) | Punto-pendiente |
+| [RES-01](#formula-res-01) | A<sub>Ωobs</sub> = 13 800 000 000 a<sub>J</sub> | Resultado físico central |
+| [RES-02](#formula-res-02) | A<sub>Ωobs</sub><sup>SV</sup> = 3 919 453 920 000 000 000 UE<sub>MFC</sub> | Resultado SV central |
+| [RES-03](#formula-res-03) | Edad(𝓣) = NO ADMISIBLE | No edad de la totalidad |
+| [TODO-01](#formula-todo-01) | 𝓔★<sub>TODO,SV</sub>(Γ<sub>U</sub>;τ)=0 | Techo doctrinal |
 
-Teorema 0bis.1. El agujero negro no pertenece a los extremos puros.
+<a id="formula-cel-01"></a>
 
-BHₛᵥ no es puro Todo ni pura Nada.
+CEL-01. 𝓢<sub>n</sub> = K<sub>3</sub><sup>n</sup>, n=b², b≥3.CEL-02. T(n)=⌊7n/9⌋.MET-01.1MET-02. 1 s = 9 UE<sub>MFC</sub>.MET-03. 1 a<sub>J</sub> = 284 018 400 UE<sub>MFC</sub>. AGE-02. A<sub>i</sub><sup>SV</sup> = 284 018 400·A<sub>i</sub><sup>FC</sup>. AGE-03. Φ<sub>age</sub>(O<sub>i</sub>) = 0. AGE-04. A<sub>i</sub>(λ<sub>i</sub>) = λ<sub>i</sub>F<sub>i</sub>.AGE-05. A<sup>SV</sup>−A<sub>i</sub><sup>SV</sup> = 284 018 400·(A<sup>FC</sup>−A<sub>i</sub><sup>FC</sup>). RES-01. A<sub>Ωobs</sub> = 13 800 000 000 a<sub>J</sub>. RES-02. A<sub>Ωobs</sub><sup>SV</sup> = 3 919 453 920 000 000 000 UE<sub>MFC</sub>.RES-03. Edad(𝓣) = NO ADMISIBLE. <br>
 
-Demostración. Si BHₛᵥ fuese puro Todo, entonces la configuración tendría cierre completo sin frontera de no transmisión ni residual interior. Pero BHₛᵥ exige DΣ(v_TE)=NO_APTO, DΣ(v_L)=NO_APTO, DΣ(v_INT)=SATURACIÓN y Δᴮᴴ evaluable. Si BHₛᵥ fuese pura Nada, no habría dominio Ωᴮᴴ ni fibra luminosa Φᴸₛᵥ evaluable ni efectos externos de campo. Pero BHₛᵥ exige Ωᴮᴴ, Φᴸₛᵥ, C_UNIF y C_EM. Ambas hipótesis contradicen la definición de BHₛᵥ. Luego el agujero negro no pertenece a los extremos puros. c.q.d.
+# II. Estado del arte físico contemporáneo
 
-## 0bis.2. U como proceso y M_N2-SV como resultado de frontera
+## II.1. Hubble, James Webb y profundidad observacional
 
-U es el dominio de competencia activa de los polos. M_N2-SV es el resultado de cierre rector en la frontera común cuando μ=0, λ=0 y 𝓝★ₛᵥ=0. En el agujero negro, la competencia estructural no se abandona; culmina en un régimen en el que la frontera no transmite y el interior se satura. La postfrontera no queda en U porque ya no está en fase de competencia no clausurada; queda en M_N2-SV porque el verificador rector ha cerrado sin resto exterior formulable.
+La cosmología observacional contemporánea no mide una totalidad absoluta. Mide señales procedentes de contenidos físicos situados dentro del universo observable. Sus instrumentos no acceden a la totalidad de lo real, sino a retornos luminosos, espectros, intensidades, corrimientos, distribuciones angulares, poblaciones galácticas, radiación de fondo, emisión estelar, gas interestelar, líneas atómicas y estructuras persistentes. Esta distinción es esencial. Cuando un telescopio observa una galaxia profunda, no observa «el Universo» como totalidad. Observa un objeto físico concreto dentro de un dominio observable. Ese objeto posee identidad física suficiente: posición angular, emisión, espectro, morfología, masa estimada, población estelar, posible gas, entorno, distancia inferida y retorno luminoso. Su edad, si se atribuye, no es edad de la totalidad absoluta, sino edad relativa de ese contenido físico dentro de un modelo de retorno y una métrica de observación. El Telescopio Espacial Hubble abrió una etapa decisiva al extender la observación profunda de galaxias, campos extragalácticos, cúmulos, lentes gravitacionales, estrellas variables, supernovas y poblaciones estelares. Su aportación no fue sólo técnica. Modificó el modo en que la física observa el pasado luminoso: el cielo dejó de ser una superficie de objetos contemporáneos aparentes y pasó a ser una estratificación de señales emitidas en regímenes físicos anteriores. El Telescopio Espacial James Webb amplía esa frontera al operar con sensibilidad infrarroja y capacidad espectroscópica especialmente relevante para galaxias de alto corrimiento al rojo, formación estelar temprana, polvo, gas, metalicidad, poblaciones estelares antiguas, estructuras compactas y posibles etapas tempranas de ensamblaje galáctico. Su potencia reside en que observa contenidos físicos cuya luz ha sido desplazada hacia el infrarrojo por la expansión cosmológica. Sin embargo, tampoco observa una totalidad absoluta. Observa señales retornadas de objetos físicos persistentes. La profundidad observacional no debe confundirse con edad absoluta. Profundidad significa distancia de retorno, corrimiento, atenuación, desplazamiento espectral, tiempo de propagación dentro del modelo físico y posición en una historia cosmológica reconstruida. La edad relativa de un contenido observable se obtiene cuando esa profundidad se combina con identidad física, firma persistente, métrica, residual y retorno. Por ello, el análisis no tratará los mapas profundos como pruebas directas de una «edad del Universo». Los tratará como registros de contenidos observables. Cada galaxia profunda, cada firma de hidrógeno, cada señal espectral y cada retorno luminoso será evaluado como candidato a edad relativa dentro de un dominio físico declarado. La regla de lectura será: observación profunda ≠ edad de la totalidad. observación profunda = retorno físico de contenido observable. La consecuencia inmediata es que Hubble y James Webb no desacreditan la distinción propuesta; la hacen necesaria. Cuanto más profundo mira un telescopio, más urgente resulta separar entre totalidad absoluta y contenido observable retornado.
 
-Teorema 0bis.2. El resultado de una competencia cerrada no es idéntico al terreno de competencia.
+## II.2. Galaxias profundas y mapas cósmicos
 
-Si un régimen Γ alcanza μ=0, λ=0 y 𝓝★ₛᵥ=0, su postfrontera no puede ser U.
+Las galaxias profundas constituyen uno de los terrenos de contraste naturales para estudiar edades relativas. Una galaxia observada a gran profundidad no es sólo un punto luminoso. Es un contenido físico persistente con posible estructura morfológica, población estelar, emisión integrada, líneas espectrales, gas, polvo, actividad nuclear, formación estelar, masa inferida y entorno cosmológico. La edad que se atribuye a una galaxia profunda puede referirse a varios planos distintos. Puede ser edad de la señal recibida, edad de la población estelar dominante, edad desde el comienzo de la formación estelar, edad cosmológica del universo observable cuando la luz fue emitida, tiempo de viaje luminoso bajo un modelo, o edad relativa dentro de una historia de ensamblaje galáctico. Esas nociones no son idénticas. Por tanto, una tabla rigurosa de edades relativas debe distinguir al menos: A<sub>señal</sub>, A<sub>población estelar</sub>, A<sub>formación galáctica</sub>, A<sub>retorno luminoso</sub>, A<sub>contenido observable</sub>. Una cifra sin esta distinción es físicamente ambigua. Puede ser útil como aproximación divulgativa, pero no como resultado definicional. Los mapas cósmicos profundos aportan una segunda dimensión: no sólo detectan objetos individuales, sino distribuciones. Permiten estudiar agrupación, densidad de galaxias, evolución morfológica, formación de estructura, poblaciones tempranas, cúmulos, proto-cúmulos, lentes gravitacionales y regiones de alta densidad. Pero una distribución tampoco es la totalidad absoluta. Es una estructura observable dentro de un dominio. Se usarán los mapas cósmicos como tablas de comparación entre contenidos físicos. Su función será ordenar qué objetos retornan, con qué firma, bajo qué métrica, con qué unidad y con qué residual. No se usará el mapa como fundamento de totalidad. La distinción puede expresarse así: mapa cósmico ⇒ conjunto de retornos físicos. conjunto de retornos físicos edad de la totalidad absoluta. Una galaxia profunda entra en la tabla de contraste si cumple condiciones de base: Ω<sub>gal</sub> declarado, Id<sub>gal</sub>≠∅, Σ<sub>firma</sub> declarada, D<sub>Φ</sub><sup>L</sup> declarada, Δ<sub>ret</sub> evaluada, d∈0,1,U. Si la galaxia posee señal pero no identidad suficiente, queda en (U). Si posee identidad y retorno, pero la firma no permite fijar edad relativa, queda en (U). Si el caso mezcla planos y pretende convertir edad galáctica en edad de la totalidad, queda no admisible. Si declara dominio, firma, métrica, unidad y residual con cierre, entra como contenido observable apto.
 
-Demostración. U es marca de no clausura suficiente. La triple condición μ=0, λ=0 y 𝓝★ₛᵥ=0 expresa cierre rector. Si el resultado fuese U, el mismo predicado sería no clausura suficiente y cierre rector al mismo tiempo. Esa coexistencia contradice la unicidad del dictamen. Luego el resultado no es U. En el régimen BH, por definición de TODO/NADA, el resultado es M_N2-SV. c.q.d.
+## II.3. Señales luminosas, horizonte y retorno físico
 
-## 0bis.3. Agujero negro y Universo Vivo
+La luz es el medio principal por el cual la cosmología observacional reconstruye contenidos distantes. Sin embargo, la luz no funda por sí sola la edad. La señal luminosa transporta información física desde un dominio emisor hasta un dominio receptor. Para convertir esa información en edad relativa se requiere un transductor: distancia, propagación, firma, unidad, residual y retorno. Una señal luminosa tiene varias magnitudes asociadas: longitud de onda observada, longitud de onda emitida, frecuencia, intensidad, espectro, corrimiento al rojo, absorción, dispersión, polarización, tiempo de llegada relativo, atenuación y posible distorsión por medios intermedios. Ninguna de esas magnitudes equivale aisladamente a edad. Todas necesitan dominio y modelo de transducción. El horizonte observable tampoco es una frontera de la totalidad absoluta. Es una frontera del dominio observable. Señala límites de acceso mediante señales, no límites del Todo. Por eso, la profundidad luminosa puede definir el alcance de lo observado, pero no el estatuto de lo absoluto. La señal luminosa entra en la formulación bajo el concepto de retorno físico. Un retorno físico es una información que vuelve desde un contenido observable hacia el dominio de medición con suficiente estructura para ser evaluada. No basta con recibir luz. Debe poder declararse qué transporta, desde qué dominio procede, qué firma contiene, qué unidad usa, qué residual deja y qué lectura formal merece. El esquema de base es: emisor físico → señal → propagación → recepción → transducción → edad relativa. Si falta el emisor, no hay objeto. Si falta la señal, no hay retorno. Si falta la firma, no hay identidad suficiente. Si falta la unidad, no hay medida controlada. Si falta el residual, no hay cierre. Si falta la lectura formal, no hay resultado. En consecuencia, la edad relativa del contenido observable no puede reducirse a una fórmula verbal del tipo «luz recibida equivale a edad». La luz recibida es condición de retorno. La edad exige transducción.
 
-El Universo Vivo en sentido SV es el dominio de estructuras que persisten bajo imperfección sostenida. El agujero negro es una de sus manifestaciones extremas: conserva frontera, conserva efectos externos de campo, conserva luz factual como objeto no anulado, contiene interior saturado y cierra la postfrontera sin resto exterior formulable. Es extremo porque su frontera no transmite; es vivo en sentido formal porque no es Nada, no es vacío, no es singularidad primaria y no pierde condición de estructura dictaminable.
+## II.4. Hidrógeno, prehidrógeno y firmas espectrales
 
-Teorema 0bis.3. BHₛᵥ pertenece al Universo Vivo en sentido formal SV.
+El hidrógeno ocupa un lugar privilegiado en la física cósmica porque aparece ligado a la materia bariónica más simple, a la recombinación, a nubes de gas, a líneas espectrales, a formación estelar, a regiones intergalácticas y a señales observacionales de gran profundidad. En la formulación no se tratará el hidrógeno como fundamento absoluto de la realidad. Se tratará como firma física persistente de un régimen atómico. La transición relevante no es sólo hidrógeno ya formado. Es el tránsito desde un régimen preatómico hacia una estructura atómica estable. Esa transición permite acoplar física de contenidos observables con métricas de edad relativa. Antes del hidrógeno estable hay un régimen físico en el que todavía no existe identidad atómica plenamente conservada. Después, aparece una firma persistente susceptible de espectro, líneas, absorción, emisión, retención y retorno. El prehidrógeno será tratado como transición transductiva. No designa una sustancia misteriosa ni un nuevo objeto físico añadido por retórica. Designa el régimen físico previo a la persistencia atómica del hidrógeno cuando todavía hay plasma, cargas, interacción intensa, frontera atómica no estabilizada y ausencia de identidad atómica plena. El hidrógeno estable, en cambio, permite firmas físicas como: Lyman-α, 21 cm, E<sub>n</sub>, E<sub>I</sub>, m<sub>H</sub>, a<sub>0</sub>. Estas magnitudes no entran como adornos. Entran como columnas de registro. Cada una debe asociarse a unidad SI, unidad SV, dominio, residual y retorno. La señal espectral se convierte así en firma persistente, no en simple dato luminoso. La clave de la formulación será usar la transición prehidrógeno/hidrógeno como bisagra entre contenidos físicos profundos y edad relativa. Hubble y James Webb observan galaxias, estrellas, gas y señales. Pero esas señales portan firmas de regímenes materiales. Allí donde comparece firma preH/H persistente, existe un candidato privilegiado para fijar edad relativa del contenido observable. La forma conceptual queda: preH → H → estrellas → galaxias → retorno luminoso. Y la forma de registro: Σ<sub>preH/H</sub>(λ<sub>Lyα</sub>,ν<sub>Lyα</sub>,21 cm,E<sub>n</sub>,E<sub>I</sub>,m<sub>H</sub>,a<sub>0</sub>, 𝓟<sub>min</sub>,∂Ω). Sólo si esa firma pasa persistencia, identidad, residual y retorno, podrá alimentar el transductor de edad relativa.
 
-Demostración. Por definición, una configuración pertenece al Universo Vivo si tiene persistencia, frontera, residual acotado, identidad compatible, capacidad de interacción y conservación de dictamen. BHₛᵥ tiene frontera ∂Ωᴮᴴ, residual Δᴮᴴ, identidad de régimen por BHₛᵥ=0, interacción de campo por C_UNIF y C_EM, termodinámica factual por C_TH, entropía factual por C_H y dictamen postfrontera M_N2-SV. Por tanto, cumple las condiciones formales del Universo Vivo. c.q.d.
+## II.5. Estrellas, púlsares y portadores físicos persistentes
 
-## 0bis.4. Fórmula absoluta del agujero negro desde la Teoría de la Imperfección
+Las estrellas son portadores físicos de edad porque poseen formación, masa, composición, luminosidad, evolución, pérdida de energía, nucleosíntesis, emisión, estructura interna y muerte estelar. Su edad puede inferirse por modelos de evolución estelar, diagramas color-magnitud, metalicidad, actividad, rotación, oscilaciones, cúmulos asociados o poblaciones. Pero, de nuevo, cada edad estelar es edad de un objeto físico persistente, no edad de la totalidad absoluta. Los púlsares constituyen un caso especialmente útil porque presentan señales periódicas y pérdida de energía rotacional. Permiten comparar edad característica, edad cinemática, edad de remanente asociado y evolución magnética. Su valor para la tabla de contraste no será estadístico en sentido fundante, sino contrastivo: muestran cómo una señal física persistente puede traducirse en una edad relativa bajo dominio, modelo, unidad y residual. Una estrella antigua, un cúmulo globular, una galaxia temprana, una población estelar pobre en metales o un púlsar con emisión estable son ejemplos de contenidos físicos con identidad. Cada uno puede poseer edad propia. Ninguno convierte su edad en edad de la totalidad absoluta. La formulación distinguirá: A<sub>★</sub>, A<sub>púlsar</sub>, A<sub>cúmulo</sub>, A<sub>galaxia</sub>, A<sub>firma H</sub>, A<sub>retorno</sub>. Estas edades pueden compararse, pero no confundirse. La comparación exige métricas homogéneas o transductores explícitos. Si dos edades proceden de dominios distintos, se comparan sólo después de declarar unidad, residual y retorno. La tabla de contraste incluirá portadores físicos persistentes por una razón: un resultado sobre edad relativa del contenido observable no puede depender de una sola clase de objeto. Debe resistir galaxias, estrellas, hidrógeno, líneas espectrales, señales profundas y controles negativos. Sólo así podrá hablar de tú a tú a la física contemporánea.
 
-Desde la Teoría del TODO y de la NADA y de la Imperfección, la fórmula absoluta del agujero negro es la misma ecuación rectora ya demostrada:
+## II.6. La expresión convencional «edad del Universo» en cosmología física
 
-BHₛᵥ(Γᴮᴴ)=0.
+La cosmología física usa la expresión «edad del Universo» para nombrar una magnitud de modelo asociada a la historia expansiva del universo observable. En ese contexto, la expresión es operativa: remite a parámetros cosmológicos, expansión, radiación, materia, constante cosmológica, fondo cósmico de microondas, nucleosíntesis, estructura a gran escala, supernovas, oscilaciones acústicas bariónicas y otras observaciones. El problema no es que la física contemporánea carezca de herramientas. Al contrario, posee herramientas de enorme potencia. El problema es que la expresión «edad del Universo» comprime en una sola frase varios planos distintos: edad del modelo cosmológico, edad del universo observable, edad del contenido físico retornado, edad de señales profundas, edad de estructuras, edad de la totalidad absoluta. La física suele trabajar eficazmente con los primeros planos. La confusión aparece si el último se mezcla con los anteriores. La formulación separa esos planos y conserva el valor de la física donde corresponde. En el lenguaje de la formulación, la expresión convencional se traducirá así: edad del Universo → edad relativa del dominio observable bajo un modelo físico. Y, cuando la tabla de contraste sea más estricta: edad del Universo → edad concreta del observable retornado. La diferencia entre ambas expresiones no es ornamental. La segunda identifica el objeto medido. No atribuye edad a la totalidad. Atribuye edad al contenido retornado con firma, métrica y persistencia.
 
-Su despliegue por defecto conserva todos los componentes:
+## II.7. Lectura preliminar del estado del arte
 
-R_UNIF=0: el campo unificado factual se preserva.
+El estado del arte físico contemporáneo permite afirmar siete conclusiones preliminares. Primera: Hubble y James Webb no observan la totalidad absoluta, sino contenidos físicos profundos. Segunda: las galaxias profundas son objetos físicos persistentes con retornos luminosos evaluables. Tercera: las señales luminosas transportan información, pero no fundan edad sin transducción. Cuarta: el hidrógeno y el prehidrógeno ofrecen una bisagra física privilegiada entre régimen material temprano, firma persistente y retorno observacional. Quinta: estrellas, púlsares y portadores físicos persistentes aportan registros comparativos para edades relativas. Sexta: la expresión «edad del Universo» es aceptable como convención cosmológica, pero imprecisa si se interpreta como edad de la totalidad absoluta. Séptima: el blanco riguroso de la formulación es la edad concreta del observable retornado con firma persistente. La lectura formal preliminar queda: Edad(totalidad absoluta)=NO ADMISIBLE. Edad(Ω<sub>observable</sub>)=ADMISIBLE COMO DOMINIO FÍSICO. Edad(C<sub>i</sub>)=ADMISIBLE SI C<sub>i</sub> declara dominio, identidad, métrica, unidad, residual y retorno. A<sub>Ωobs</sub>=magnitud buscada. El estado del arte no queda rechazado. Queda reordenado. La física contemporánea aporta los datos, los instrumentos, las señales, las métricas y los mapas. La formulación precisa el plano de atribución de edad.
 
-R_AST=0: el objeto físico de horizonte queda representado.
+# III. Tabla de edades relativas
 
-R_TE=0: DΣ(v_TE)=NO_APTO; la frontera factual no transmite.
+## III.1. Finalidad de la tabla
 
-R_L=0: DΣ(v_L)=NO_APTO; la luz factual no escapa y no se anula.
+La tabla de edades relativas tiene una función estricta: separar qué entidades admiten edad física, qué entidades no la admiten y bajo qué condiciones una edad puede declararse cerrada. No clasifica por intuición, importancia cosmológica o uso lingüístico habitual. Clasifica por dominio, frontera, identidad, métrica, unidad, residual y retorno. Una edad física sólo será admisible cuando exista una entidad o dominio (C<sub>i</sub>) que satisfaga simultáneamente: Ω<sub>i</sub> declarado, ∂Ω<sub>i</sub> identificable como frontera de formación, emisión, estabilización o comparecencia, Id<sub>i</sub>≠∅, M<sub>i</sub> métrica física o transductiva declarada, u<sub>SI</sub>↔ u<sub>SV</sub>, Δ<sub>i</sub> evaluable, R<sub>i</sub> retorno físico controlado. Si esas condiciones se cumplen y el residual se anula, la edad relativa queda admitida. Si alguna condición contradice el dominio, queda no admitida. Si falta información esencial, queda en (U). La tabla no sustituye a la matriz de contraste; lo prepara. Su función es fijar qué clase de entidad se está midiendo antes de introducir cifras, unidades o transductores.
 
-R_INT=0: DΣ(v_INT)=SATURACIÓN; el interior se satura sin vaciarse.
+## III.2. Tabla general de admisibilidad de edad
 
-R_EM=0: Maxwell factual se satisface en la frontera.
+| Entidad o dominio | Estatuto físico-formal | ¿Admite edad? | Condición de admisión | Lectura formal |
+| --- | --- | --- | --- | --- |
+| Totalidad absoluta | No es objeto físico interno ni dominio contenido en otro dominio físico superior | No | La edad requiere exterior de comparación, frontera física y trayectoria; la totalidad absoluta no los posee | NO ADMISIBLE |
+| Universo observable | Dominio físico accesible por señales, horizonte, radiación, mapas e instrumentos | Sí, como dominio físico interno | Debe declararse modelo, métrica, retorno y contenidos observables | ADMISIBLE CON DOMINIO |
+| Observable retornado | Conjunto de objetos o señales retornados con firma física persistente | Sí | Debe existir firma, identidad, unidad, residual y retorno | ADMISIBLE SI (Δ=0) |
+| Galaxia | Objeto físico persistente con señal luminosa, morfología, población y retorno | Sí | Dominio galáctico, firma, distancia, edad estelar o edad de emisión diferenciadas | ADMISIBLE |
+| Estrella | Objeto físico persistente con formación, evolución, luminosidad y composición | Sí | Modelo estelar, edad relativa, unidad y residual | ADMISIBLE |
+| Púlsar | Objeto compacto con señal periódica y pérdida energética | Sí | Régimen rotacional, emisión, frenado, retorno y residual | ADMISIBLE |
+| Hidrógeno | Firma atómica persistente | Sí, como firma física y marcador de régimen | Estabilidad, línea, transición, unidad y retorno | ADMISIBLE |
+| Prehidrógeno | Régimen transicional previo a la identidad atómica persistente | Sí, como transición transductiva | Debe formularse como transición hacia (H), no como objeto atómico ya cerrado | ADMISIBLE CON TRANSICIÓN |
+| Retorno luminoso | Señal física procedente de un contenido observable | Sí, como edad de propagación o retorno | Debe declarar emisor, señal, medio, unidad y recepción | ADMISIBLE |
+| Línea espectral | Firma física de transición, emisión o absorción | Sí, como marcador relativo | Debe asociarse a portador, frecuencia, longitud de onda y dominio | ADMISIBLE |
+| Métrica cosmológica | Herramienta física de reconstrucción | No como objeto; sí como métrica | No posee edad propia; permite atribuir edad a dominios | INSTRUMENTAL |
+| Modelo cosmológico | Marco físico de interpretación | No como objeto; sí como régimen de cálculo | Sus edades son dependientes de hipótesis y parámetros | INSTRUMENTAL |
 
-R_TH=0: la termodinámica factual única se satisface en el interior.
+La consecuencia principal de la tabla es que la edad no pertenece a cualquier enunciado que contenga la palabra «universo». Pertenece a entidades o dominios con estructura física atribuible.
 
-R_H=0: la entropía factual no decrece.
+## III.3. Totalidad absoluta: edad no admisible
 
-R_TN=0: μ=0, λ=0 y 𝓝★ₛᵥ=0.
+La totalidad absoluta no admite edad física. No porque tenga edad nula, ni porque su edad sea desconocida, ni porque se halle fuera del alcance instrumental actual. No admite edad porque la edad física exige condiciones que no se le pueden atribuir sin contradicción. Una edad física requiere una relación de comparación: C<sub>i</sub>⊂Ω<sub>j</sub>, donde (C<sub>i</sub>) es el contenido cuya edad se mide y (Ω<sub>j</sub>) es el dominio en el que se declara su formación, trayectoria o retorno. La totalidad absoluta no satisface esa relación. No comparece como contenido de un dominio físico mayor. No dispone de exterior físico desde el cual se pueda medir su aparición. Por tanto: Edad( T)=NO ADMISIBLE, donde ( T) designa la totalidad absoluta. La no admisión no equivale a (0). Tampoco equivale a (U). La diferencia es esencial: Edad( T)=0 afirmaría una edad física nula. Eso convertiría la totalidad en objeto físico medible. Edad( T)=U afirmaría que la pregunta está bien formada, pero que falta información para cerrarla. En cambio: Edad( T)=NO ADMISIBLE declara que la pregunta no está correctamente tipada. La edad física no se aplica a la totalidad absoluta. Se aplica a contenidos internos.
 
-R_NOEXT=0: Postᴮᴴ=M_N2-SV.
+## III.4. Universo observable: dominio físico interno
 
-R_ABS=0: los modelos físicos contemporáneos quedan absorbidos, parcialmente absorbidos o rechazados como fundamento.
+El universo observable sí puede tratarse como dominio físico interno. Posee señales, horizontes, radiación, galaxias, estructura a gran escala, expansión modelizada, mapas, instrumentos, unidades y retornos. Por eso puede recibir edades relativas dentro de un marco físico. Sin embargo, su edad no debe confundirse con edad de la totalidad absoluta. El universo observable es un dominio de acceso físico, no la totalidad de lo real. Su extensión depende de señales, propagación, horizonte, modelo, instrumentos y criterios de observación. La forma correcta es: Ω<sub>obs</sub>⊂Ω<sub>fis</sub>. La edad atribuible a (Ω<sub>obs</sub>) será una edad de dominio: A_Ω<sub>obs</sub>. Pero el resultado central de la formulación no se formulará como edad absoluta de (Ω<sub>obs</sub>), sino como edad concreta del observable retornado: A<sub>Ωobs</sub> = A(C*) con C*⊂Ω<sub>obs</sub>, Δ(C*)=0 y firma persistente admisible. La diferencia es importante. El universo observable puede contener varios objetos antiguos, varias señales profundas y varias métricas. La formulación buscará el cierre relativo admisible entre contenidos físicos retornados, no una edad ontológica de la totalidad.
 
-Teorema 0bis.4. La fórmula absoluta del agujero negro es la forma extrema de imperfección cerrada.
+## III.5. Galaxias: objetos físicos persistentes
 
-La ecuación BHₛᵥ(Γᴮᴴ)=0 expresa un régimen de imperfección cerrada: la estructura no se disuelve en Nada, no se identifica con Todo perfecto y no permanece en U como resultado postfrontera.
+Una galaxia es un objeto físico persistente. Puede admitir edad relativa por varias vías: edad de población estelar, edad de formación, edad de ensamblaje, edad de emisión de la señal observada, edad de retorno luminoso o posición en una historia cosmológica. Estas edades no son idénticas. La tabla de base de una galaxia debe separar:
 
-Demostración. La ecuación exige simultáneamente frontera de no transmisión, luz preservada no transmisiva, interior saturado, termodinámica factual, entropía factual, cierre TODO/NADA y M_N2-SV. La presencia de frontera, luz, interior y termodinámica excluye la pura Nada. La no transmisión, saturación y residual excluyen el Todo perfecto sin tensión. El cierre μ=0, λ=0 y 𝓝★ₛᵥ=0 excluye U como salida postfrontera. Por eliminación de extremos y por cierre rector, la fórmula expresa imperfección cerrada en régimen extremo. c.q.d.
+| Magnitud | Qué mide | Unidad SI | Unidad SV | Riesgo de confusión |
+| --- | --- | --- | --- | --- |
+| Edad estelar media | Tiempo relativo de población dominante | año, segundo | (UE<sub>MFC</sub>) | No equivale a edad de la galaxia completa |
+| Edad de formación | Inicio de ensamblaje o formación estelar | año, segundo | (UE<sub>MFC</sub>) | Depende del criterio de formación |
+| Edad de señal | Propagación desde emisión hasta recepción | segundo, año-luz como distancia derivada | (UE<sub>MFC</sub>), (UFE) | No equivale a edad del objeto |
+| Profundidad luminosa | Distancia o retorno de señal | metro, pársec, año-luz | (UFE) | No equivale por sí sola a edad |
+| Corrimiento espectral | Relación de longitudes de onda | adimensional | adimensional transductivo | No es edad sin modelo |
+| Firma hidrógeno | Presencia de transición o línea asociada | Hz, m, eV | unidad SV correspondiente | No basta si no hay dominio |
 
----
+La lectura formal de galaxia será: d<sub>gal</sub>=0 si declara dominio, identidad, firma, métrica, unidad, residual y retorno. Será: d<sub>gal</sub>=1 si pretende convertir una edad galáctica en edad de la totalidad absoluta. Será: d<sub>gal</sub>=U si falta firma, dominio, residual o unidad.
 
+## III.6. Estrellas: objetos físicos persistentes
 
-# 0ter. Clausura absoluta de toda instancia factual, retorno al Todo y eficacia de las leyes físicas
+Una estrella posee edad física porque tiene formación, estructura, evolución, composición, luminosidad, pérdida energética, masa y señales. Su edad puede estimarse por modelos de evolución estelar, posición en diagramas físicos, metalicidad, rotación, actividad, oscilaciones o pertenencia a cúmulos. En la formulación, una estrella no se usará como fundamento de edad universal. Se usará como objeto físico persistente capaz de entrar en una tabla comparativa. La tabla de base de una estrella será:
 
-## 0ter.1. Estatuto de la clausura general
+| Magnitud | Función | Unidad SI | Unidad SV | Lectura formal |
+| --- | --- | --- | --- | --- |
+| Masa estelar | Determina régimen evolutivo | kg, (M_☉) | unidad de masa SV | Admisible si hay dominio |
+| Luminosidad | Emisión energética | W, (L_☉) | unidad energética SV por ciclo | Admisible |
+| Edad evolutiva | Trayectoria física relativa | año, segundo | (UE<sub>MFC</sub>) | Admisible |
+| Composición | Firma material | fracción, abundancia | codificación de dominio | Admisible |
+| Señal retornada | Observación luminosa | m, Hz, W/m² | (UFE), unidades SV | Admisible si hay retorno |
+| Residual | Diferencia entre modelo y retorno | variable | variable SV | Obligatorio |
 
-La Teoría del TODO y de la NADA permite distinguir dos funciones que no deben confundirse. La NADA admisible, en el modo M_N2-SV, clausura sin resto exterior formulable. El Todo, en cambio, conserva la totalidad de lo que ha sido formalmente realizado como traza factual clausurada. Por eso, cuando una instancia factual alcanza cierre final, el cierre no se lee como pérdida sin registro, ni como U, ni como copia, ni como reescritura. Se lee como clausura de su cadena y retorno de la traza factual al Todo.
+La estrella cumple una función adversarial: muestra que la formulación no identifica toda edad con luz de galaxias profundas. Hay múltiples contenidos físicos con edad relativa. La edad concreta observable debe superar el contraste con estos portadores.
 
-Esta distinción impide dos errores. El primero sería tomar la clausura como desaparición absoluta. Si un suceso ha sido, su traza no puede quedar fuera del Todo sin negar el propio estatuto del Todo. El segundo sería tomar el retorno al Todo como continuidad corporal, psicológica, biográfica o material dentro del mismo dominio exterior. Eso introduciría copia, egreso local o reescritura. La conclusión formal es más estricta: cierre local de la instancia, preservación append-only de la cadena ocurrida y retorno de la traza factual al Todo.
+## III.7. Hidrógeno: firma atómica persistente
 
-Definición 0ter.1. Instancia factual realizada.
+El hidrógeno será tratado como firma física persistente, no como fundamento absoluto. Su importancia procede de su simplicidad atómica, su presencia cosmológica, sus transiciones, sus líneas espectrales y su papel en gas, estrellas, nubes y galaxias. La firma hidrógeno incluye, como base: E<sub>I</sub>, E<sub>n</sub>, λ<sub>Lyα</sub>, ν<sub>Lyα</sub>, λ<sub>21cm</sub>, ν<sub>21cm</sub>, m<sub>H</sub>. Estas magnitudes entran como firmas físicas transductibles. No bastan por sí solas para declarar edad. Deben asociarse a portador, dominio, retorno y residual. La tabla de base será:
 
-Se denomina instancia factual realizada a toda estructura X que comparece como suceso o composición de sucesos dentro de un dominio declarado. X puede ser una persona como suceso biográfico-corporal, una fibra luminosa instanciada, una estrella, un agujero negro, una molécula, una teoría física como suceso histórico, un instrumento, un campo o cualquier estructura factual con cadena propia.
+| Firma | Tipo físico | Unidad SI | Unidad SV | Uso en edad relativa |
+| --- | --- | --- | --- | --- |
+| Lyman-(α) | Transición espectral | m, Hz, eV | (UFE), unidad frecuencial/energética SV | Firma de hidrógeno en retorno |
+| Línea de 21 cm | Transición hiperfina | m, Hz | (UFE), unidad frecuencial SV | Firma de hidrógeno neutro |
+| Energía de ionización | Umbral atómico | J, eV | unidad energética SV | Identidad atómica |
+| Niveles (E<sub>n</sub>) | Estructura espectral | J, eV | unidad energética SV | Registro de coherencia |
+| Masa de H | Identidad material | kg | unidad de masa SV | Portador atómico |
+| Radio de Bohr | Escala atómica | m | (UFE) | Control de dominio atómico |
 
-La cadena de X se representa como:
+El hidrógeno recibe lectura formal admisible cuando comparece como firma de un dominio físico persistente. Recibe lectura formal no admisible si se usa como fundamento absoluto. Recibe (U) si la firma está aislada sin portador, sin retorno o sin dominio.
 
-X = (X₀, X₁, ..., Xₙ).
+## III.8. Prehidrógeno: transición transductiva
 
-La condición append-only exige que ningún término ya ocurrido sea borrado, reescrito o sustituido retroactivamente. Un cierre terminal puede añadir X† como suceso final de clausura, pero no puede modificar X₀, X₁, ..., Xₙ.
+El prehidrógeno designa el régimen transicional previo a la identidad atómica persistente del hidrógeno. No se introduce como sustancia nueva ni como entidad cerrada. Su función es transductiva: permite enlazar el régimen físico anterior a la estabilidad atómica con las firmas posteriores de hidrógeno. El prehidrógeno no tiene edad como átomo. Tiene edad como transición. Su dominio es: Ω<sub>preH→ H</sub>. Su condición de admisión exige: Ω<sub>preH</sub> declarado, Ω<sub>H</sub> declarado, ∂Ω<sub>H</sub> estabilizable, 𝓟<sub>min</sub><sup>preH→ H</sup>>0, Δ<sub>preH/H</sub>=0. El papel del prehidrógeno es acorralar la edad concreta del observable retornado del contenido observable. Las galaxias profundas y los mapas de alto alcance no importan sólo por su distancia; importan porque portan firmas de regímenes materiales que remiten a hidrógeno, gas, estrellas y transiciones físicas tempranas. La tabla será:
 
-Definición 0ter.2. Retorno al Todo.
+| Régimen | Estatuto | Edad admisible | Condición |
+| --- | --- | --- | --- |
+| Plasma sin identidad atómica | Régimen preatómico | Como transición, no como átomo | Falta identidad de H |
+| Prehidrógeno transductivo | Régimen de paso hacia H | Sí, como transición | Debe conectar con firma H |
+| Hidrógeno estable | Firma atómica persistente | Sí | Debe conservar identidad |
+| Firma H retornada | Señal física | Sí, como retorno | Debe tener portador y residual |
 
-Retorno_Todo(X†)=APTO significa que la instancia X, tras su cierre terminal X†, queda incorporada al Todo como traza factual completa de lo ocurrido. No significa supervivencia local, copia material, memoria psicológica conservada, viaje exterior, túnel geométrico ni continuidad biográfica ordinaria. Significa que el suceso clausurado no queda fuera del Todo, no cae en U y no desaparece sin traza.
+La transición preH/H será el núcleo del transductor de edad concreta del observable retornado.
 
-## 0ter.2. Teorema de clausura de toda instancia factual realizada
+## III.9. Retorno luminoso: señal física
 
-Teorema 0ter.1. Clausura de toda instancia factual realizada.
+El retorno luminoso es la señal recibida desde un dominio físico. No equivale por sí mismo a edad. Para ser usado como edad relativa debe estar vinculado a: emisor, trayectoria de propagación, firma, unidad, modelo físico, residual, recepción. La señal luminosa puede medir propagación, distancia, profundidad o posición relativa en una historia física. Pero no mide totalidad absoluta. La tabla de base será:
 
-Sea X una instancia factual realizada. Puede ser una persona, una fibra luminosa instanciada, una estrella, un agujero negro, una molécula, una teoría física como suceso histórico, o cualquier estructura factual que comparezca como suceso.
+| Elemento | Función | Sin él |
+| --- | --- | --- |
+| Emisor | Identifica contenido físico | No hay objeto |
+| Firma | Identifica régimen físico | No hay edad atribuible |
+| Propagación | Relaciona emisión y recepción | No hay retorno |
+| Unidad | Permite medición | No hay cálculo |
+| Residual | Permite lectura formal | No hay cierre |
+| Recepción | Fija retorno observacional | No hay contraste |
 
-Sea:
+El retorno luminoso será admisible cuando se lea como señal física. Será no admisible si se usa como prueba directa de edad de la totalidad. Será (U) si falta firma o residual.
 
-X = (X₀, X₁, ..., Xₙ)
+## III.10. Tabla general de dominio, métrica, unidad, residual y lectura formal
 
-su cadena estructural append-only.
+| Clase | Dominio | Métrica principal | Unidad SI | Unidad SV | Residual | Lectura formal |
+| --- | --- | --- | --- | --- | --- | --- |
+| Totalidad absoluta | No contenido en dominio físico superior | No aplicable | No aplicable | No aplicable | No evaluable por tipo | NO ADMISIBLE |
+| Universo observable | (Ω<sub>obs</sub>) | Profundidad, señales, horizonte | s, año, m, Hz, eV | (UE<sub>MFC</sub>), (UFE), unidades SV derivadas | (Δ<sub>obs</sub>) | ADMISIBLE COMO DOMINIO |
+| Galaxia profunda | (Ω<sub>gal</sub>) | Retorno luminoso, firma, población | s, año, m, Hz | (UE<sub>MFC</sub>), (UFE) | (Δ<sub>gal</sub>) | ADMISIBLE SI (Δ=0) |
+| Estrella | (Ω<sub>★</sub>) | Evolución, luminosidad, composición | s, año, kg, W | unidades SV | (Δ<sub>★</sub>) | ADMISIBLE |
+| Púlsar | (Ω<sub>pulsar</sub>) | Periodo, frenado, emisión | s, Hz | (UE<sub>MFC</sub>), unidad frecuencial SV | (Δ<sub>pulsar</sub>) | ADMISIBLE |
+| Hidrógeno | (Ω<sub>H</sub>) | Transiciones, masa, energía | m, Hz, eV, kg | (UFE), unidades SV | (Δ<sub>H</sub>) | ADMISIBLE COMO FIRMA |
+| Prehidrógeno | (Ω<sub>preH→ H</sub>) | Persistencia y transición | según magnitud | unidad SV correspondiente | (Δ<sub>preH/H</sub>) | ADMISIBLE COMO TRANSICIÓN |
+| Retorno luminoso | (Ω<sub>L</sub><sup>ret</sup>) | Propagación y señal | m, s, Hz | (UFE), (UE<sub>MFC</sub>) | (Δ<sub>ret</sub>) | ADMISIBLE SI HAY FIRMA |
+| Línea espectral | (Ω<sub>λ</sub>) | Longitud de onda/frecuencia | m, Hz | (UFE), unidad frecuencial SV | (Δ<sub>λ</sub>) | ADMISIBLE COMO MARCADOR |
+| Modelo cosmológico | (Ω<sub>modelo</sub>) | Parámetros y expansión | varias | varias | (Δ<sub>modelo</sub>) | INSTRUMENTAL |
 
-Si X alcanza cierre final por agotamiento interno o por agente externo, entonces existe un suceso terminal X† tal que:
+## III.11. Consecuencia formal
 
-Xₙ → X†
+La tabla obliga a reformular la pregunta inicial. La forma imprecisa es: ¿cuál es la edad del Universo? La forma físicamente controlada es: ¿cuál es la edad relativa del dominio observable bajo un modelo declarado? La forma más estricta de la formulación es: ¿cuál es la edad concreta del observable retornado con firma persistente admisible? La respuesta final no será una edad de la totalidad absoluta. Será una edad del observable retornado: A<sub>Ωobs</sub><sup>SV</sup> = 3 919 453 920 000 000 000 UE<sub>MFC</sub>. A<sub>Ωobs</sub><sup>ret</sup> = 13 800 000 000 años julianos. De esta sección se desprende: Edad( T)=NO ADMISIBLE. Edad(Ω<sub>obs</sub>)=ADMISIBLE COMO DOMINIO. Edad(C<sub>i</sub>)=ADMISIBLE SI Δ<sub>i</sub>=0. A<sub>Ωobs</sub>=<sub>Δi=0</sub>A(C<sub>i</sub>).
 
- y:
+# IV. Transductores
 
-Retorno_Todo(X†)=APTO.
+## IV.1. Función de los transductores en la formulación
 
-Además:
+Un transductor es una estructura de traducción controlada entre dos dominios que no deben confundirse. Su función no es mezclar planos, sino permitir que una magnitud física, una señal, una firma espectral, una distancia, una edad relativa o una condición de persistencia comparezcan en un dominio formal sin perder su estatuto físico ni invadir un fundamento que no les corresponde. La física contemporánea trabaja con magnitudes observables: segundos, metros, hercios, electronvoltios, masas, luminosidades, corrimientos espectrales, distancias, periodos, líneas de emisión, líneas de absorción, mapas de galaxias, señales de fondo y modelos de propagación. La formulación no niega ese plano. Lo conserva. Pero exige que cada magnitud declare su dominio, su unidad, su objeto físico, su residual y su retorno. La estructura de base de un transductor será: X: (Ω<sub>D</sub>,M<sub>D</sub>,u<sub>D</sub>,R<sub>D</sub>) (Ω<sub>D'</sub>,M<sub>D'</sub>,u<sub>D'</sub>,R<sub>D'</sub>). Donde: Ω<sub>D</sub>es el dominio de partida; M<sub>D</sub>es la magnitud usada; u<sub>D</sub>es su unidad; R<sub>D</sub>es su retorno o condición de contraste; Ω<sub>D'</sub>es el dominio de llegada; M<sub>D'</sub>es la magnitud correspondiente; u<sub>D'</sub>es la unidad correspondiente; R<sub>D'</sub>es el retorno de verificación. En la formulación el transductor principal no convierte «distancia» en «tiempo» de forma indiscriminada. Convierte retornos físicos de contenidos observables en edades relativas bajo dominio, firma, persistencia, unidad y residual. El objeto no es la totalidad absoluta. El objeto es el contenido físico observable. La forma general será: X<sub>edad</sub>: (D<sub>Φ</sub><sup>L</sup>,Σ<sub>fis</sub>, 𝓟<sub>min</sub>,Id,Δ) A(C<sub>i</sub>). Donde: D<sub>Φ</sub><sup>L</sup>designa profundidad, distancia o retorno luminoso declarado; Σ<sub>fis</sub>designa la firma física del contenido; 𝓟<sub>min</sub>designa persistencia P_min; Id designa identidad física conservada; Δ designa residual; A(C<sub>i</sub>) designa edad relativa del contenido físico (C<sub>i</sub>). El cierre de una edad exige: Δ <sub>X</sub>=0. Si el residual no se anula, la edad queda rechazada o no cerrada. Si el transductor se aplica a una entidad que no admite edad física, el resultado no es una edad indeterminada, sino una atribución no admisible.
 
-X† ≠ U
+## IV.2. Dominio y codominio
 
-X† ≠ copia(X)
+Todo transductor exige declarar dominio y codominio. Sin dominio no hay objeto físico de partida. Sin codominio no hay destino de traducción. Sin ambos, no existe transducción, sino analogía verbal. El dominio de partida puede ser físico-observacional: Ω<sub>obs</sub>, Ω<sub>gal</sub>, Ω<sub>★</sub>, Ω<sub>H</sub>, Ω<sub>preH→ H</sub>, Ω<sub>L</sub><sup>ret</sup>. El codominio puede ser una edad relativa, una unidad transductiva, un residual o un lectura formal: A(C<sub>i</sub>), UE<sub>MFC</sub>, UFE, Δ<sub>i</sub>, d<sub>i</sub>. La relación no será válida si el dominio de partida es ambiguo. Por ejemplo, la expresión «edad del Universo» no declara si se refiere a totalidad absoluta, universo observable, modelo cosmológico, contenido físico concreto, señal luminosa o historia térmica. Esa ambigüedad impide el cierre. La forma correcta es declarar: Edad( T)=NO ADMISIBLE. Edad(Ω<sub>obs</sub>)=ADMISIBLE COMO DOMINIO. Edad(C<sub>i</sub>)=ADMISIBLE SI Δ<sub>i</sub>=0. Por tanto, el dominio del transductor de edad no será la totalidad absoluta. Será: Ω<sub>obs</sub>C<sub>i</sub>: C<sub>i</sub>⊂Ω<sub>obs</sub>, Id<sub>i</sub>≠∅, R<sub>i</sub>≠∅, Δ<sub>i</sub> evaluable . El codominio será: A<sub>Ωobs</sub><sup>SV</sup>o, tras retorno físico: A<sub>Ωobs</sub><sup>ret</sup>. La edad concreta del observable retornado quedará definida por: A<sub>Ωobs</sub> = A(C*) con C*⊂Ω<sub>obs</sub>, Δ(C*)=0 y firma persistente admisible. Esta expresión no habla de edad absoluta. Habla de cierre relativo entre contenidos observables admisibles.
 
-X† ≠ reescritura(X)
+## IV.3. Observable físico
 
-X† ≠ desaparición sin traza.
+El observable físico es la magnitud que permite que un contenido comparezca ante el transductor. Puede ser una señal luminosa, una línea espectral, una profundidad observacional, una masa, una luminosidad, una frecuencia, una longitud de onda, un periodo, una firma química, una transición atómica o una condición de persistencia. No todo observable es suficiente para edad. Una longitud de onda aislada no basta. Un corrimiento al rojo aislado no basta. Una distancia luminosa aislada no basta. Una señal sin emisor identificado no basta. Un objeto sin firma no basta. Un modelo sin residual no basta. Para que un observable pueda alimentar una edad relativa debe cumplir: Obs<sub>i</sub>∈Ω<sub>i</sub>. Obs<sub>i</sub> identifica o restringe C<sub>i</sub>. Obs<sub>i</sub> posee unidad declarada. Obs<sub>i</sub> admite retorno. Obs<sub>i</sub> entra en residual. Los observables principales de la formulación serán: D<sub>Φ</sub><sup>L</sup>, profundidad o retorno luminoso; λ, longitud de onda; ν, frecuencia; E, energía de transición; m, masa o marcador material; P, periodo en objetos periódicos; Σ<sub>preH/H</sub>, firma prehidrógeno/hidrógeno; 𝓟<sub>min</sub>, persistencia P_min; Id, identidad física conservada. La edad relativa no procederá de un único observable, sino de un conjunto coherente: O<sub>i</sub>(D<sub>Φ,i</sub><sup>L</sup>,Σ<sub>fis,i</sub>, P<sub>,i</sub>,Id<sub>i</sub>,R<sub>i</sub>). El transductor de edad actuará sobre ( O<sub>i</sub>), no sobre un número desnudo.
 
-Demostración. Si X† fuese U, no habría cierre final, sino no clausura. Pero la hipótesis afirma cierre final. Contradicción.
+## IV.4. Unidad SI y unidad SV
 
-Si X† fuese copia de X, no habría cierre del suceso, sino duplicación. La duplicación no resuelve el agotamiento estructural de la instancia original. Contradicción.
+La física contemporánea debe poder leer la formulación en sus propias unidades. Por eso, toda magnitud física entrará inicialmente en unidad SI o en unidad física convencional convertible al SI. La transducción exigirá después una unidad SV correspondiente. La finalidad no es sustituir el SI, sino permitir una doble lectura sin pérdida de control. La regla será: M<sub>i</sub>[u<sub>SI</sub>] M<sub>i</sub>[u<sub>SV</sub>]. El retorno físico sólo será admisible si la traducción conserva la magnitud y no altera el dominio. Las unidades principales serán: s UE<sub>MFC</sub>, m UFE, Hz UE<sub>MFC</sub><sup>-1</sup> transductivo, J, eV unidad energética SV, kg unidad de masa SV. La equivalencia rectora para edad relativa será: 9 UE<sub>MFC</sub>=1 s. Por tanto: 1 UE<sub>MFC</sub>=1/9 s. Un año juliano se tomará como: 1 a<sub>J</sub>=31 557 600 s. Así: 1 a<sub>J</sub>31 557 600× 9 UE<sub>MFC</sub>284 018 400 UE<sub>MFC</sub>. La edad concreta del observable retornado anunciada: 13 800 000 000 a<sub>J</sub>equivale a: 13 800 000 000 × 284 018 400 UE<sub>MFC</sub>. Es decir: 3 919 453 920 000 000 000 UE<sub>MFC</sub>. La conversión no es una inferencia física. Es una equivalencia metrológica declarada. El contenido físico de la edad depende del transductor y de la tabla de contraste; la equivalencia sólo expresa la misma magnitud en otra unidad.
 
-Si X† reescribiera X, violaría append-only, porque modificaría la cadena ya ocurrida. Contradicción.
+## IV.5. Residual y lectura formal
 
-Si X† fuese desaparición sin traza, el Todo dejaría de contener un suceso que ha sido. Entonces el Todo no sería Todo. Contradicción.
+El residual mide la diferencia entre lo que una magnitud pretende declarar y lo que el dominio permite cerrar. Sin residual no hay cierre. Sin cierre no hay edad física final. Para cada caso (C<sub>i</sub>) se define: Δ<sub>i</sub>
 
-Por eliminación de las salidas incompatibles, el único cierre admisible es que X quede clausurado como traza factual completa y retorne al Todo. c.q.d.
+Δ<sub>Ω,i</sub> ⊕ Δ<sub>Id,i</sub> ⊕ Δ<sub>Σ,i</sub> ⊕ Δ<sub>M,i</sub> ⊕ Δ<sub>u,i</sub> ⊕ Δ<sub>R,i</sub> ⊕ Δ<sub>ret,i</sub>.
 
-## 0ter.3. El agujero negro también es suceso clausurable
+Donde: Δ<sub>Ω,i</sub>evalúa dominio; Δ<sub>Id,i</sub>evalúa identidad física; Δ<sub>Σ,i</sub>evalúa firma; Δ<sub>M,i</sub>evalúa magnitud; Δ<sub>u,i</sub>evalúa unidad; Δ<sub>R,i</sub>evalúa retorno; Δ<sub>ret,i</sub>evalúa retorno físico controlado. La lectura formal será: d<sub>i</sub>=0 si: Δ<sub>i</sub>=0. Será: d<sub>i</sub>=1 si el caso incurre en contradicción de dominio, mezcla de planos o uso indebido de una magnitud. Será: d<sub>i</sub>=U si el caso carece de datos suficientes para cerrar, pero no contradice el dominio. La regla más importante de esta sección es: U≠ 0. La no clausura no autoriza resultado favorable. Si un caso profundo parece prometedor, pero carece de firma, unidad o residual, no puede entrar como cierre. Puede entrar como candidato no cerrado.
 
-Teorema 0ter.2. El agujero negro también es suceso clausurable.
+## IV.6. Retorno físico controlado
 
-Sea BHᵢ una instancia de agujero negro cerrada bajo:
+El retorno físico controlado es la condición que permite volver desde la estructura transductiva al lenguaje de la física contemporánea. No basta con convertir una magnitud a unidad SV. Hay que devolverla al plano físico sin cambiar su sentido. La forma general será: M<sub>i</sub>[u<sub>SI</sub>] → M<sub>i</sub>[u<sub>SV</sub>] → Δ<sub>i</sub> → d<sub>i</sub> → M<sub>i</sub><sup>ret</sup>[u<sub>SI</sub>]. Si el retorno no coincide con la magnitud física de partida dentro del dominio declarado, la transducción no es apta. Si el retorno invade otro plano, tampoco es apta. Ejemplo de edad relativa: A<sub>i</sub><sup>ret</sup>[a<sub>J</sub>] → A<sub>i</sub><sup>SV</sup>[UE<sub>MFC</sub>] → Δ<sub>i</sub> → d<sub>i</sub> → A<sub>i</sub><sup>ret</sup>[a<sub>J</sub>]. El retorno debe conservar: misma magnitud, mismo dominio, misma unidad de interpretación, mismo objeto físico, mismo lectura formal. La formulación no afirmará que la física contemporánea queda sustituida. Afirmará que la magnitud física queda leída con precisión de plano. La edad vuelve al lenguaje físico como edad relativa del contenido observable, no como edad de la totalidad absoluta.
 
-BHₛᵥ(Γᴮᴴ)=0.
+## IV.7. Transductor de edad relativa del contenido observable
 
-Entonces BHᵢ no es excepción al régimen general de sucesos. Si su estructura alcanza agotamiento o es capturada por otra instancia BHⱼ, entonces se cumple:
+El transductor principal de la formulación se define así: X<sub>A</sub><sup>cont</sup>: C<sub>obs</sub> A<sup>SV</sup>(C<sub>i</sub>). Donde: C<sub>obs</sub>(Ω<sub>i</sub>,C<sub>i</sub>,Id<sub>i</sub>,Σ<sub>i</sub>,D<sub>Φ,i</sub><sup>L</sup>,u<sub>i</sub>, P<sub>,i</sub>,R<sub>i</sub>,Δ<sub>i</sub>). Su salida será: A<sup>SV</sup>(C<sub>i</sub>) si: Δ<sub>i</sub>=0. Será no admisible si: C<sub>i</sub>= T donde ( T) designa totalidad absoluta. Será (U) si: Δ<sub>i</sub>=U. El transductor de edad concreta del observable retornado será: X<sub>A</sub><sup>ret</sup> : C<sub>i</sub>i∈ I Ωobs<sup>SV</sup>. Con: A<sub>Ωobs</sub><sup>SV</sup><sub>Δi=0</sub> A<sup>SV</sup>(C<sub>i</sub>). La formulación deberá demostrar que, dentro de la tabla de contraste construida, el cierre admisible corresponde a: A<sub>Ωobs</sub><sup>SV</sup> = 3 919 453 920 000 000 000 UE<sub>MFC</sub>. Y, por retorno: A<sub>Ωobs</sub><sup>ret</sup> = 13 800 000 000 a<sub>J</sub>. El transductor no atribuye ese valor a la totalidad absoluta. Lo atribuye al observable retornado.
 
-BHᵢ → BHᵢ†
+## IV.8. Transductor prehidrógeno/hidrógeno
 
- y:
+La transición prehidrógeno/hidrógeno actúa como transductor material privilegiado porque une tres planos que la física contemporánea observa de manera dispersa: régimen preatómico, firma atómica persistente, retorno luminoso profundo. El transductor se define como: X<sub>preH/H</sub>: (Ω<sub>preH→ H</sub>,Σ<sub>H</sub>, 𝓟<sub>min</sub>,D<sub>Φ</sub><sup>L</sup>,R) A(C<sub>i</sub>). La firma será: Σ<sub>H</sub>(E<sub>I</sub>,E<sub>n</sub>,λ<sub>Lyα</sub>,ν<sub>Lyα</sub>,λ<sub>21cm</sub>,ν<sub>21cm</sub>,m<sub>H</sub>,a<sub>0</sub>). La condición de persistencia será: 𝓟<sub>min</sub>>0. La identidad será: Id<sub>H</sub>≠∅. El retorno será: R<sub>L</sub><sup>ret</sup>≠∅. La regla de cierre es: Δ<sub>preH/H</sub>=0. El transductor preH/H no afirma que el hidrógeno sea fundamento absoluto. Afirma que la transición hacia hidrógeno estable proporciona una firma física persistente que permite acorralar edades relativas de contenidos observables profundos. La cadena física será: preH → H → gas → estrella → galaxia → retorno luminoso. La edad relativa se fijará cuando esa cadena se declare con unidad, firma, persistencia y residual.
 
-Retorno_Todo(BHᵢ†)=APTO.
+## IV.9. Error absoluto de plano, definición y transducción
 
-Demostración. BHᵢ es una instancia factual realizada. Por tanto, pertenece al dominio de sucesos clausurables. Si se negara su clausurabilidad, habría un suceso realizado con persistencia absoluta propia. Eso lo convertiría en polo soberano, no en suceso. Contradicción.
+La formulación distinguirá entre margen observacional y error de plano. La física contemporánea conserva márgenes instrumentales: σ<sub>obs</sub>≠0. Puede haber margen en distancias, parámetros, corrimientos, masas, luminosidades, edades estelares, modelos de formación y calibraciones. Esa margen no se niega. Lo que la formulación pretende anular es el error categorial de atribución: ε<sub>plano</sub>=0. También el error definicional: ε<sub>def</sub>=0. Y el error de retorno transductivo cuando la matriz de contraste cierra: ε<sub>trans</sub>=0. La fórmula será: ε<sub>abs</sub>ε<sub>plano</sub> ⊕ ε<sub>def</sub> ⊕ ε<sub>trans</sub>. Cuando: ε<sub>plano</sub>=0, ε<sub>def</sub>=0, ε<sub>trans</sub>=0, la edad queda definida sin error absoluto de tipo, aunque el dato físico conservado mantenga margen instrumental. Por tanto, la frase correcta no será: no hay margen físico. Será: no hay error de plano en la atribución de edad. La formulación fija con error de plano cero que: Edad( T)=NO ADMISIBLE. Edad(C<sub>i</sub>)=ADMISIBLE SI Δ<sub>i</sub>=0. Y fija por contraste transductivo: A<sub>Ωobs</sub><sup>ret</sup> = 13 800 000 000 a<sub>J</sub>.
 
-Si otro agujero negro BHⱼ lo absorbe, BHᵢ pierde identidad factual separada. Si esa pérdida fuese desaparición sin traza, el Todo dejaría de contener lo ocurrido. Contradicción. Si fuese reescritura dentro de BHⱼ, se violaría append-only. Contradicción.
+## IV.10. Síntesis
 
-Luego la absorción de BHᵢ por BHⱼ clausura BHᵢ como suceso autónomo y genera un nuevo suceso compuesto BHⱼ⁺, sin borrar la traza de BHᵢ. c.q.d.
+Los transductores permiten que la física contemporánea y la estructura formal de la formulación se correspondan sin confundirse. La física aporta magnitudes reales. El transductor exige dominio, codominio, unidad, residual y retorno. El resultado vuelve a la física como magnitud correctamente atribuida. La síntesis queda: X<sub>A</sub><sup>cont</sup>=ADMISIBLE. X<sub>preH/H</sub>=ADMISIBLE. Edad( T)=NO ADMISIBLE. A<sub>Ωobs</sub><sup>SV</sup><sub>Δi=0</sub>A<sup>SV</sup>(C<sub>i</sub>). El apartado siguiente fija las métricas que alimentan esos transductores.
 
-Corolario 0ter.2.1. Fusión, captura y no reescritura.
+# V. Métricas
 
-Si BHᵢ es absorbido por BHⱼ, el resultado no es borrado de BHᵢ ni simple suma informal. El resultado es un nuevo suceso compuesto BHⱼ⁺. BHᵢ queda clausurado como identidad factual separada, su traza retorna al Todo y el nuevo régimen BHⱼ⁺ queda añadido a la cadena de sucesos sin reescribir los antecedentes.
+## V.1. Función de las métricas
 
-Demostración. La absorción de BHᵢ por BHⱼ elimina la persistencia separada de BHᵢ en el dominio físico considerado. Si el antecedente BHᵢ fuese borrado, se rompería el Todo; si se reescribiera, se rompería append-only; si permaneciera como identidad separada sin clausura, no habría captura. La única salida compatible es clausura de BHᵢ y constitución de BHⱼ⁺ como suceso nuevo. c.q.d.
+Una métrica, en la formulación, no es un fundamento. Es una regla de medida dentro de un dominio declarado. Sirve para comparar contenidos físicos, ordenar retornos, evaluar firmas, estimar persistencia, controlar residuales y devolver resultados al lenguaje de la física contemporánea. La métrica no decide por sí sola qué entidad posee edad. Una distancia no convierte un objeto en antiguo. Una frecuencia no convierte una señal en cierre. Una longitud de onda no identifica por sí sola un dominio. Un corrimiento espectral no es una edad desnuda. Cada métrica debe pertenecer a una cadena más amplia: dominio → objeto → observable → unidad → métrica → residual → lectura formal → retorno. Si una métrica se toma aislada, puede inducir error de plano. Si se inserta en un transductor, puede producir una edad relativa legítima. El conjunto de base de métricas de la formulación es: M= M<sub>L</sub>, M<sub>Σ</sub>, M<sub>P</sub>, M<sub>∂</sub>, M<sub>R</sub>, M<sub>Id</sub>, M<sub>ret</sub>, M<sub>A</sub> . Donde: M<sub>L</sub>mide profundidad luminosa; M<sub>Σ</sub>mide firma física; M<sub>P</sub>mide persistencia estructural; M<sub>∂</sub>mide frontera; M<sub>R</sub>mide residual; M<sub>Id</sub>mide identidad física; M<sub>ret</sub>mide retorno observacional; M<sub>A</sub>mide edad relativa. Una edad relativa sólo será admisible cuando esas métricas actúen de forma compatible. Si la profundidad luminosa es alta, pero no hay identidad física, el caso no cierra. Si hay firma espectral, pero no portador declarado, el caso no cierra. Si hay portador y señal, pero falta unidad o residual, el caso no cierra. Si todo cierra, la edad relativa puede entrar en la tabla de contraste.
 
-## 0ter.4. El agujero negro como clausurador extremo de imperfecciones factuales
+## V.2. Profundidad luminosa
 
-Teorema 0ter.3. Clausura de contenido factual capturado por el régimen BH.
+La profundidad luminosa mide el alcance del retorno de una señal física. Puede expresarse mediante distancia, tiempo de propagación bajo modelo, corrimiento al rojo, distancia de luminosidad, distancia comóvil, distancia angular, atenuación o desplazamiento espectral. Cada una de esas formas pertenece a una métrica física concreta y no debe confundirse con las demás. La profundidad luminosa se representará por: D<sub>Φ</sub><sup>L</sup>(C<sub>i</sub>). Donde (C<sub>i</sub>) es el contenido físico observable y (Φ<sup>L</sup>) es la fibra o señal luminosa considerada. La forma general será: D<sub>Φ</sub><sup>L</sup>(C<sub>i</sub>) ∈t<sub>ΓL(Ci)</sub> d<sub>Φ</sub><sup>L</sup>. En régimen discreto: D<sub>Φ</sub><sup>L</sup>(C<sub>i</sub>) Σ<sub>j=0</sub><sup>n-1</sup> Δ D<sub>Φ</sub><sup>L</sup>(ν<sub>j</sub>). El valor de (D<sub>Φ</sub><sup>L</sup>) no es todavía edad. Es profundidad de retorno. Para obtener edad relativa se requiere transducción: A(C<sub>i</sub>) X<sub>A</sub> ( D<sub>Φ</sub><sup>L</sup>(C<sub>i</sub>), Σ<sub>i</sub>, P<sub>,i</sub>, Id<sub>i</sub>, Δ<sub>i</sub> ). La profundidad luminosa será admisible si cumple: Ω<sub>L</sub><sup>ret</sup> declarado, C<sub>i</sub> identificado, Γ<sub>L</sub>(C<sub>i</sub>) declarada, u<sub>D</sub> declarada, Δ<sub>L</sub> evaluable. Será no admisible si se usa para atribuir edad a la totalidad absoluta. Será (U) si la señal existe, pero el dominio o la identidad no están suficientemente declarados. La tabla profundidad de base luminosa es:
 
-Sea X una instancia factual realizada contenida en el dominio de captura de un régimen Γᴮᴴ tal que BHₛᵥ(Γᴮᴴ)=0. Si X no conserva egreso local y alcanza cierre terminal bajo el régimen BH, entonces existe X† tal que:
+| Magnitud física | Función | Unidad SI | Unidad SV | Uso admisible |
+| --- | --- | --- | --- | --- |
+| Distancia de retorno | Alcance de señal | m, pc, Mpc, Gly | (UFE) | Profundidad física |
+| Tiempo de propagación | Duración física modelizada | s, año | (UE<sub>MFC</sub>) | Edad de señal, no de totalidad |
+| Corrimiento al rojo | Relación espectral | adimensional | adimensional transductivo | Restricción de modelo |
+| Distancia de luminosidad | Relación flujo-luminosidad | m, pc, Mpc | (UFE) | Métrica observacional |
+| Distancia angular | Relación tamaño-ángulo | m, pc, Mpc | (UFE) | Métrica observacional |
+| Atenuación | Pérdida de intensidad | adimensional, W/m² | unidad SV correspondiente | Corrección de retorno |
 
-X → X†
+## V.3. Firma espectral
 
-Retorno_Todo(X†)=APTO.
+Una firma espectral es una marca física que permite asociar una señal a un portador, una transición, una composición o un régimen material. Sin firma, la señal puede tener profundidad, pero no identidad suficiente. Sin identidad, no hay edad relativa atribuible al contenido. La firma espectral se representará por: Σ<sub>i</sub>. Para el eje principal de la formulación: Σ<sub>preH/H</sub>( λ<sub>Lyα</sub>, ν<sub>Lyα</sub>, λ<sub>21cm</sub>, ν<sub>21cm</sub>, E<sub>n</sub>, E<sub>I</sub>, m<sub>H</sub>, a<sub>0</sub> ). Cada componente debe declararse en unidades físicas y transductivas. La firma no tiene que aparecer siempre completa. Puede haber casos con firma parcial. Pero la lectura formal dependerá del residual: Δ<sub>Σ</sub>=0 si la firma basta para identificar el régimen físico relevante; Δ<sub>Σ</sub>=1 si la firma contradice el régimen declarado; Δ<sub>Σ</sub>=U si la firma es insuficiente para cerrar. La línea Lyman-(α) puede actuar como firma de hidrógeno, pero no basta si se encuentra aislada de dominio, portador o retorno. La línea de 21 cm puede actuar como firma de hidrógeno neutro, pero exige dominio, corrección de propagación y residual. La energía de ionización permite caracterizar estabilidad atómica, pero no determina por sí sola edad. La masa de hidrógeno identifica portador material, pero no señala profundidad luminosa. La tabla de base de firma se constituye como:
 
-Además, X† no es U, no es copia de X, no reescribe X y no desaparece sin traza.
+| Firma | Magnitud | Unidad SI | Unidad SV | Condición de uso |
+| --- | --- | --- | --- | --- |
+| Lyman-(α) | Longitud de onda/frecuencia | m, Hz | (UFE), unidad frecuencial SV | Portador H declarado |
+| 21 cm | Longitud de onda/frecuencia | m, Hz | (UFE), unidad frecuencial SV | H neutro declarado |
+| (E<sub>n</sub>) | Nivel energético | J, eV | unidad energética SV | Régimen atómico declarado |
+| (E<sub>I</sub>) | Ionización | J, eV | unidad energética SV | Umbral H declarado |
+| (m<sub>H</sub>) | Masa | kg | unidad de masa SV | Identidad material |
+| (a<sub>0</sub>) | Escala atómica | m | (UFE) | Dominio atómico |
 
-Demostración. BHₛᵥ(Γᴮᴴ)=0 implica, entre otras condiciones, DΣ(v_TE)=NO_APTO y DΣ(v_L)=NO_APTO cuando la transmisión exterior o luminosa comparece. Por tanto, X no dispone de egreso local ordinario desde el régimen cerrado. Si X alcanza cierre terminal bajo esa captura, se aplica el Teorema 0ter.1. La instancia X queda clausurada como traza factual completa y retorna al Todo. Las salidas U, copia, reescritura y desaparición sin traza quedan excluidas por el mismo razonamiento: U niega cierre, copia duplica sin cerrar, reescritura viola append-only y desaparición sin traza niega el Todo. c.q.d.
+La edad concreta del observable retornado buscada dependerá de firmas que no sólo sean antiguas en retorno, sino físicamente persistentes.
 
-Corolario 0ter.3.1. Luz, materia y estructura inscrita.
+## V.4. Persistencia estructural
 
-Una fibra luminosa instanciada, una estructura material, una configuración biológica o un campo inscrito en el régimen BH quedan sometidos al mismo criterio general de clausura si alcanzan cierre terminal: no egresan localmente, no quedan como U postfrontera, no se copian, no se reescriben y no desaparecen sin traza. Retornan al Todo como trazas factuales clausuradas.
+La persistencia estructural mide si un contenido físico conserva identidad suficiente para ser tratado como objeto o régimen a lo largo de una trayectoria, emisión o retorno. Sin persistencia no hay edad del contenido. Puede haber evento, fluctuación, señal fragmentaria o transición no cerrada, pero no edad atribuible a un objeto físico persistente. La persistencia se expresa mediante: 𝓟<sub>min</sub>. La forma adoptada será: 𝓟<sub>min</sub>F<sub>∂</sub>Q R<sub>Γ</sub>. Donde: F<sub>∂</sub>representa capacidad de frontera; Q representa redistribución, fuga o presión de dispersión; R<sub>Γ</sub>representa residual de trayectoria o configuración. La condición de persistencia será: 𝓟<sub>min</sub>>0. Si: 𝓟<sub>min</sub>≤0, el contenido no conserva persistencia suficiente para cerrar edad relativa como objeto. Esta métrica es decisiva para el prehidrógeno y el hidrógeno. El prehidrógeno no se tratará como átomo estable; se tratará como transición. El hidrógeno estable sí puede operar como firma persistente cuando su frontera y su identidad están suficientemente constituidas. La tabla de persistencia se define como:
 
-Demostración. Todas esas entidades son casos de X cuando comparecen como instancias factuales realizadas. La conclusión se obtiene por instanciación directa del Teorema 0ter.1 y, si están bajo Γᴮᴴ cerrado, por el Teorema 0ter.3. c.q.d.
+| Régimen | ( F<sub>∂</sub>) | ( Q) | ( R<sub>Γ</sub>) | ( 𝓟<sub>min</sub>) | Lectura formal |
+| --- | --- | --- | --- | --- | --- |
+| Régimen dispersivo | baja | alta | alto | (≤0) | NO ADMISIBLE |
+| Régimen transicional | intermedia | intermedia | control parcial | (U) o marginal | U / candidato |
+| Régimen persistente | dominante | acotada | acotado | (>0) | ADMISIBLE |
+| Régimen contradictorio | frontera declarada pero residual incompatible | variable | incompatible | no válido | NO ADMISIBLE |
 
-## 0ter.5. Razón formal de la eficacia parcial o total de las leyes físicas
+La persistencia impide que cualquier señal antigua se convierta automáticamente en contenido antiguo. La señal debe remitir a algo que conserve identidad física suficiente.
 
-Teorema 0ter.4. Razón formal de la eficacia parcial o total de las leyes físicas.
+## V.5. Frontera
 
-Sea F una fórmula física formulada por la ciencia. F es apta en un dominio D si existe un transductor τ tal que τ(F,D) produce un residual nulo respecto de los invariantes observados del régimen.
+La frontera es la condición que permite distinguir un contenido físico de su entorno. Sin frontera no hay objeto persistente. La frontera no tiene que ser pared material. Puede ser frontera de dominio, frontera gravitatoria, frontera térmica, frontera espectral, frontera atómica, frontera de emisión, frontera de retorno o frontera de identidad. La frontera se representará por: ∂Ω<sub>i</sub>. Una frontera será admisible si: ∂Ω<sub>i</sub> se declara, δ(∂Ω<sub>i</sub>)i, R<sub>i</sub>i, Id<sub>i</sub>≠∅. Donde: δ(∂Ω<sub>i</sub>) mide defecto de frontera; Λ<sub>i</sub>es el umbral admitido del dominio; R<sub>i</sub>es residual físico o transductivo; Id<sub>i</sub>es identidad. La frontera de una galaxia puede ser morfológica, gravitatoria, luminosa o poblacional. La frontera de una estrella puede ser fotosférica, gravitatoria o estructural. La frontera de un átomo puede ser de identidad energética y orbital. La frontera de una señal puede ser de emisión y recepción. Cada una exige su dominio. La tabla de frontera será:
 
-Es decir:
+| Objeto | Frontera principal | Riesgo | Lectura formal |
+| --- | --- | --- | --- |
+| Galaxia | morfológica, gravitatoria, luminosa | confundir halo, emisión o población | admisible con dominio |
+| Estrella | fotosférica, gravitatoria, evolutiva | confundir edad de señal con edad estelar | admisible con modelo |
+| Hidrógeno | atómica, energética, espectral | absolutizar H como fundamento | admisible como firma |
+| Prehidrógeno | transición hacia frontera atómica | tratarlo como átomo cerrado | admisible como transición |
+| Señal luminosa | emisión-recepción | tratar señal como objeto total | admisible como retorno |
+| Totalidad absoluta | no frontera física superior | atribuir edad física | no admisible |
 
-Residual(τ(F,D))=0.
+## V.6. Residual
 
-Entonces F acierta en D. Si el residual no es nulo, F queda parcial, aproximada, fuera de dominio o rechazada como fundamento.
+El residual es la métrica de diferencia entre pretensión y cierre. Mide si el caso físico satisface las condiciones que dice satisfacer. Sin residual, una tabla puede parecer precisa y no serlo. El residual general será: Δ<sub>i</sub>Δ<sub>Ω,i</sub> ⊕ Δ<sub>∂,i</sub> ⊕ Δ<sub>Id,i</sub> ⊕ Δ<sub>Σ,i</sub> ⊕ Δ<sub>M,i</sub> ⊕ Δ<sub>u,i</sub> ⊕ Δ<sub>ret,i</sub>. El operador (⊕) se usa como composición de condiciones de cierre. No debe leerse como suma aritmética simple. Si una condición esencial falla, el caso no puede declararse cerrado. La salida será: Δ<sub>i</sub>=0 ⇒ d<sub>i</sub>=0. Δ<sub>i</sub>=1 ⇒ d<sub>i</sub>=1. Δ<sub>i</sub>=U ⇒ d<sub>i</sub>=U. La tabla de residual es la siguiente:
 
-Demostración. Una fórmula física no gobierna el dominio: lo representa. Para representarlo correctamente debe capturar invariantes del dominio. Si el transductor entre fórmula y dominio produce residual nulo, la fórmula reproduce la estructura que pretendía leer. Por tanto, acierta en ese dominio.
+| Residual | Pregunta | Cierre |
+| --- | --- | --- |
+| (Δ<sub>Ω</sub>) | ¿El dominio está declarado? | Obligatorio |
+| (Δ<sub>∂</sub>) | ¿La frontera está definida? | Obligatorio para objetos |
+| (Δ<sub>Id</sub>) | ¿Hay identidad física? | Obligatorio |
+| (Δ<sub>Σ</sub>) | ¿La firma identifica el régimen? | Obligatorio en registro preH/H |
+| (Δ<sub>M</sub>) | ¿La métrica es adecuada? | Obligatorio |
+| (Δ<sub>u</sub>) | ¿La unidad está declarada? | Obligatorio |
+| (Δ<sub>ret</sub>) | ¿El retorno es controlado? | Obligatorio |
 
-Si el residual no es nulo, entonces hay diferencia entre la fórmula y el régimen. Esa diferencia puede ser parcialidad, error de dominio, proyección limitada o fundamento indebido. En ningún caso hay cierre absoluto.
+El residual protege la formulación frente a tres errores: convertir profundidad en edad, convertir señal en objeto y convertir edad del contenido en edad de la totalidad.
 
-Así se explica por qué una teoría física puede acertar mucho sin ser fundamento último: captura invariantes reales, pero sólo dentro de su dominio de validez. c.q.d.
+## V.7. Identidad física
 
-Corolario 0ter.4.1. Estatuto de las matemáticas.
+La identidad física determina que el contenido medido sea el mismo contenido al que se atribuye edad. Sin identidad, una señal no puede cerrarse como edad de objeto. La identidad se representa por: Id<sub>i</sub>. La condición de base será: Id<sub>i</sub>≠∅. La identidad puede ser directa o compuesta. Una estrella puede identificarse por posición, espectro, luminosidad, composición y evolución. Una galaxia puede identificarse por morfología, espectro, población, masa y entorno. Una señal de hidrógeno puede identificarse por línea, frecuencia, transición y portador. Un retorno luminoso puede identificarse por fuente, firma y trayectoria de observación. La identidad no exige conocimiento completo del objeto. Exige suficiencia de dominio. Si el contenido es identificable en lo necesario para su edad relativa, puede entrar. Si no lo es, queda en (U). La tabla de identidad es:
 
-El Universo no queda gobernado por las matemáticas como instancia exterior. Las matemáticas pertenecen también al Todo. Su función en este marco es codificar y decodificar estructura cuando el dominio, el transductor y el residual están correctamente fijados.
+| Caso | Identidad suficiente | Lectura formal |
+| --- | --- | --- |
+| Galaxia con espectro y morfología | Sí | admisible |
+| Galaxia candidata sin firma clara | Parcial | U |
+| Línea espectral sin portador | No suficiente | U |
+| Señal sin emisor | No | no admisible para edad de objeto |
+| Totalidad absoluta | No es objeto interno | no admisible |
 
-Demostración. Si las matemáticas gobernasen desde fuera, serían un soberano externo al Todo. Eso contradice que el Todo contiene todo lo formalmente realizado y todo lo formalmente disponible como estructura. Si, en cambio, las matemáticas codifican y decodifican invariantes, su eficacia depende de la correcta declaración del dominio y de la anulación del residual. Esa lectura conserva la potencia formal de las matemáticas sin convertirlas en soberano externo. c.q.d.
+## V.8. Retorno observacional
 
-## 0ter.6. Conclusión de cierre doctrinal
+El retorno observacional es el resultado físico recibido que permite contrastar el caso. No es sólo detección. Es detección con dominio, firma, unidad y posibilidad de residual. El retorno se representará por: R<sub>i</sub>. La condición será: R<sub>i</sub>≠∅. Y: Δ<sub>ret,i</sub>=0. Un retorno observacional puede consistir en espectro, imagen, mapa, curva de luz, línea, señal periódica, fondo, distribución, flujo, polarización o combinación de datos. Su papel no es fundar la edad. Su papel es permitir que la edad relativa se contraste. La tabla de retorno:
 
-El agujero negro no es sólo un objeto de horizonte ni una región de no escape. Es una instancia extrema del mecanismo factual del universo realizado: captura sucesos, clausura su estructura local, impide su egreso exterior y retorna su traza factual al Todo. Lo capturado no queda en U, no se conserva como copia, no se reescribe y no desaparece sin traza. Personas, luz, materia, campos e incluso otros agujeros negros quedan sometidos al mismo régimen general cuando comparecen como instancias factuales realizadas: todo suceso realizado que agota o pierde su estructura retorna al Todo como suceso clausurado.
+| Retorno | Objeto posible | Uso |
+| --- | --- | --- |
+| Imagen profunda | galaxia, cúmulo, estructura | identidad y morfología |
+| Espectro | composición, línea, corrimiento | firma y distancia |
+| Línea Lyman-(α) | hidrógeno | firma H |
+| Línea 21 cm | hidrógeno neutro | firma H |
+| Curva periódica | púlsar, variable | edad relativa de portador |
+| CMB o fondo | dominio cosmológico | métrica de modelo, no totalidad |
+| Mapa de galaxias | distribución | registro de contenidos |
 
-Las leyes físicas aciertan en la medida en que codifican invariantes de este mecanismo; no gobiernan el Universo desde fuera, porque las matemáticas también pertenecen al Todo. Las matemáticas no mandan: codifican y decodifican.
+El retorno observacional debe conservar su estatuto. Si es retorno de señal, se usa como señal. Si es retorno de objeto, se usa como objeto. Si es mapa, se usa como conjunto de retornos. No se convierte en edad de la totalidad.
 
-## 0ter.7. Cierre absoluto TODO/NADA del régimen BH
+## V.9. Edad relativa
 
-El cierre alcanzado en esta sección no depende de una preferencia interpretativa. Depende de la cadena de exclusión impuesta por la Teoría del TODO y de la NADA: lo clausurado no puede quedar en U porque hay cierre; no puede ser copia porque la copia duplica sin clausurar; no puede ser reescritura porque el suceso es append-only; no puede desaparecer sin traza porque entonces el Todo dejaría de contener lo que ha sido; no puede egresar localmente porque el régimen BH impone no transmisión exterior; y no puede convertirse en fundamento probabilístico porque la probabilidad no decide verdad en el SV.
+La edad relativa de un contenido físico (C<sub>i</sub>) se define como una magnitud de acumulación o posición dentro de un dominio físico declarado, obtenida mediante métrica y transductor. La forma general será: A(C<sub>i</sub>) X<sub>A</sub> ( D<sub>Φ</sub><sup>L</sup>(C<sub>i</sub>), Σ<sub>i</sub>, P<sub>,i</sub>, Id<sub>i</sub>, R<sub>i</sub>, Δ<sub>i</sub> ). El resultado será admisible si: Δ<sub>i</sub>=0. La edad concreta del observable retornado del contenido observable será: A<sub>Ωobs</sub> = A(C*) con C*⊂Ω<sub>obs</sub>, Δ(C*)=0 y firma persistente admisible. Esta fórmula define el blanco de la formulación. No busca una edad absoluta. Busca el cierre relativo entre contenidos físicos retornados y admisibles. El contraste predictivo desarrollado fija: A<sub>Ωobs</sub><sup>SV</sup> = 3 919 453 920 000 000 000 UE<sub>MFC</sub>. Con: 9 UE<sub>MFC</sub>=1 s, y: 1 a<sub>J</sub>=31 557 600 s, resulta: A<sub>Ωobs</sub><sup>ret</sup> = 13 800 000 000 a<sub>J</sub>. Esta edad pertenece al observable retornado, no a la totalidad absoluta.
 
-Teorema 0ter.5. Cierre absoluto de las salidas incompatibles.
+## V.10. Error absoluto de plano, definición y transducción
 
-Sea X una instancia factual realizada capturada por un régimen Γᴮᴴ tal que BHₛᵥ(Γᴮᴴ)=0. Si X alcanza cierre terminal bajo el régimen, entonces el único dictamen compatible con la Teoría del TODO y de la NADA es:
+Se usarán la expresión «error absoluto cero» en sentido preciso. No significa ausencia de margen instrumental. No significa que toda medición física quede sin margen experimental. Significa que se anulan tres errores formales: ε<sub>plano</sub>=0, ε<sub>def</sub>=0,ε<sub>trans</sub>=0. El error de plano se anula cuando la edad se atribuye al objeto correcto: Edad( T)=NO ADMISIBLE. Edad(C<sub>i</sub>)=ADMISIBLE SI Δ<sub>i</sub>=0. El error de definición se anula cuando la edad exige dominio, frontera, identidad, métrica, unidad, residual y retorno. El error de transducción se anula cuando la magnitud física vuelve al plano físico con el mismo sentido: A<sup>ret</sup> → A<sup>SV</sup> → Δ → A<sup>ret</sup>. El margen observacional puede conservarse: σ<sub>obs</sub>≠0. Esto no contradice el error absoluto cero de plano. Una medición puede tener margen instrumental y, sin embargo, estar correctamente tipada. Lo que la formulación corrige es el tipo de predicado «edad», no la totalidad de las márgenes físicos.
 
-X → X†
+## V.11. Tabla sintética de métricas
 
-Retorno_Todo(X†)=APTO.
+| Métrica | Símbolo | Qué mide | Unidad SI | Unidad SV | Condición de cierre |
+| --- | --- | --- | --- | --- | --- |
+| Profundidad luminosa | (D<sub>Φ</sub><sup>L</sup>) | Alcance o retorno de señal | m, pc, s, año | (UFE), (UE<sub>MFC</sub>) | Dominio y firma |
+| Firma espectral | (Σ) | Identidad física de régimen | m, Hz, eV | unidades SV | Portador declarado |
+| Persistencia | ( 𝓟<sub>min</sub>) | Estabilidad de contenido | dependiente | dependiente | ( 𝓟<sub>min</sub>>0) |
+| Frontera | (∂Ω) | Delimitación de dominio | dependiente | dependiente | (δ(∂Ω)<Λ) |
+| Residual | (Δ) | Diferencia de cierre | adimensional o compuesto | compuesto SV | (Δ=0) |
+| Identidad | (Id) | Conservación de objeto | estructural | estructural | (Id≠∅) |
+| Retorno | (R) | Contraste observacional | dependiente | dependiente | (Δ<sub>ret</sub>=0) |
+| Edad relativa | (A(C<sub>i</sub>)) | Acumulación atribuible | s, año | (UE<sub>MFC</sub>) | caso apto |
 
-Quedan excluidas simultáneamente las salidas:
+## V.12. Síntesis
 
-X†=U
+Las métricas de la formulación no sustituyen a los objetos. Los ordenan. La profundidad luminosa no es edad. La firma espectral no es edad. La persistencia no es edad. La frontera no es edad. El retorno no es edad. La edad relativa aparece cuando todas esas métricas quedan articuladas por transductor y residual. La síntesis queda: M<sub>L</sub>, M<sub>Σ</sub>, M<sub>P</sub>, M<sub>∂</sub>, M<sub>R</sub>, M<sub>Id</sub>, M<sub>ret</sub>, M<sub>A</sub>son admisibles si operan en dominio declarado. La atribución de edad a la totalidad absoluta sigue siendo: NO ADMISIBLE. La atribución de edad al observable retornado queda abierta a la matriz de contraste: A<sub>Ωobs</sub> = A(C*) con C*⊂Ω<sub>obs</sub>, Δ(C*)=0 y firma persistente admisible. El apartado siguiente construirá esa matriz de contraste físico.
 
-X†=copia(X)
+# VI. Contraste físico y tablas de verificación
 
-X†=reescritura(X)
+## VI.1. Función del contraste físico
 
-X†=desaparición sin traza
+La matriz de contraste físico es la sede de verificación explícita de la formulación. Su función no es descubrir después los valores que el texto no se atreve a declarar. Su función es confirmar, rechazar o dejar sin cierre las magnitudes, conversiones, lecturas formales y retornos que la formulación formula de antemano. Por tanto, todo valor que comparezca como resultado en la formulación debe estar ya declarado en la tabla de contraste. El laboratorio reproducible no inventará el resultado; ejecutará la verificación de lo declarado. Esta regla impide tres errores: primero, que el texto prometa una conclusión no tabulada; segundo, que el laboratorio actúe como autoridad opaca; tercero, que una cifra aparezca sin dominio, unidad, residual y retorno. La estructura de la tabla de contraste se somete a la misma regla de proyección legítima usada en el aparato de campo unificado: todo régimen exige dominio, proyección, invariantes y residual evaluable; sin residual no hay cierre, y la lectura formal pertenece a (0,1,U). Asimismo, adopta la disciplina del régimen de agujero negro: toda magnitud física usada en el texto debe comparecer en tabla numérica o en tabla de transducción, de modo que no quede como afirmación verbal. La regla de entrada queda fijada así: C<sub>i</sub>= (Ω<sub>i</sub>, C<sub>i</sub>, Id<sub>i</sub>, ∂Ω<sub>i</sub>, Σ<sub>i</sub>, M<sub>i</sub>, u<sub>SI,i</sub>, u<sub>SV,i</sub>, R<sub>i</sub>, Δ<sub>i</sub>, d<sub>i</sub>). Donde: Ω<sub>i</sub>es el dominio físico declarado; C<sub>i</sub>es el contenido físico evaluado; Id<sub>i</sub>es la identidad física conservada; ∂Ω<sub>i</sub>es la frontera de formación, emisión, estabilización o comparecencia; Σ<sub>i</sub>es la firma física; M<sub>i</sub>es la magnitud física; u<sub>SI,i</sub>es la unidad del Sistema Internacional o unidad física convencional reducible a él; u<sub>SV,i</sub>es la unidad transductiva SV correspondiente; R<sub>i</sub>es el retorno físico controlado; Δ<sub>i</sub>es el residual; d<sub>i</sub>∈0,1,U es la lectura formal. La salida global de la tabla de contraste será: A<sub>Ωobs</sub><sup>SV</sup> = 3 919 453 920 000 000 000 UE<sub>MFC</sub>, A<sub>Ωobs</sub><sup>ret</sup> = 13 800 000 000 a<sub>J</sub>. La tabla de contraste no atribuye esta edad a la totalidad absoluta. La atribuye al contenido observable retornado más antiguo con firma física persistente admisible.
 
-Egreso_local(X,Γᴮᴴ)=APTO.
+## VI.2. Dominios y admisibilidad de edad
 
-Demostración. Si X†=U, no hay cierre terminal, sino no clausura; contradice la hipótesis. Si X†=copia(X), la instancia original no se clausura, sino que se duplica; contradice la función terminal de X†. Si X†=reescritura(X), se altera la cadena X₀, X₁, ..., Xₙ; contradice append-only. Si X† fuese desaparición sin traza, el Todo no contendría una instancia que ha sido; contradice el estatuto del Todo. Si Egreso_local(X,Γᴮᴴ)=APTO, se contradice DΣ(v_TE)=NO_APTO y, cuando comparece luz, DΣ(v_L)=NO_APTO. Eliminadas todas las salidas incompatibles, queda Retorno_Todo(X†)=APTO como único cierre admisible. c.q.d.
+| Código | Entidad evaluada | Dominio | ¿Admite edad física? | Magnitud admisible | Error bloqueado | Lectura rectora |
+| --- | --- | --- | --- | --- | --- | --- |
+| T-ABS | Totalidad absoluta | No contenido en dominio físico superior | No | Ninguna | Convertir totalidad en objeto físico medible | NO ADMISIBLE |
+| OBS-DOM | Universo observable | (Ω<sub>obs</sub>⊂Ω<sub>fis</sub>) | Sí, como dominio físico interno | Edad relativa de contenidos y retornos | Confundir dominio observable con totalidad absoluta | ADMISIBLE CON DOMINIO |
+| OBS-RET | Observable retornado | (C<sub>i</sub>⊂Ω<sub>obs</sub>) | Sí | (A<sub>Ωobs</sub>) | Atribuir al Todo lo que pertenece al contenido | ADMISIBLE SI (Δ=0) |
+| GAL | Galaxia | (Ω<sub>gal</sub>) | Sí | Edad de contenido galáctico, señal o población | Confundir edad galáctica con edad de totalidad | ADMISIBLE |
+| STAR | Estrella | (Ω_★) | Sí | Edad evolutiva o de señal | Confundir edad estelar con edad cosmológica total | ADMISIBLE |
+| PUL | Púlsar | (Ω<sub>pulsar</sub>) | Sí | Edad característica, cinemática o de remanente | Usar una sola edad como absoluta | ADMISIBLE CON RESIDUAL |
+| H | Hidrógeno | (Ω<sub>H</sub>⊂Ω<sub>atom</sub>) | Sí, como firma atómica persistente | Firma espectral, masa, transición, energía | Convertir H en origen absoluto | ADMISIBLE COMO FIRMA |
+| preH | Prehidrógeno | (Ω<sub>preH→ H</sub>) | Sí, como transición | Persistencia hacia (H) | Tratar preH como átomo cerrado | ADMISIBLE COMO TRANSICIÓN |
+| L-RET | Retorno luminoso | (Ω<sub>L</sub><sup>ret</sup>) | Sí, como señal física | Edad de señal o propagación | Convertir señal en edad de totalidad | ADMISIBLE SI HAY FIRMA |
+| SPEC | Línea espectral | (Ω<sub>λ</sub>) | Sí, como marcador | Longitud de onda, frecuencia, energía | Línea sin portador | ADMISIBLE SI HAY PORTADOR |
+| MODEL | Modelo cosmológico | (Ω<sub>modelo</sub>) | No como objeto; sí como marco | Parámetros, escalas, edad de modelo | Confundir modelo con totalidad | INSTRUMENTAL |
+| MAP | Mapa cósmico | (Ω<sub>mapa</sub>⊂Ω<sub>obs</sub>) | Sí, como conjunto de retornos | Distribución, catálogo, profundidad | Convertir mapa en objeto único | ADMISIBLE COMO REGISTRO |
 
-Corolario 0ter.5.1. Absolutidad del resultado para el agujero negro.
+La consecuencia formal es: Edad(T-ABS)=NO ADMISIBLE. Edad(C<sub>i</sub>)=ADMISIBLE Ω<sub>i</sub>,Id<sub>i</sub>,Σ<sub>i</sub>,M<sub>i</sub>,u<sub>i</sub>,R<sub>i</sub>,Δ<sub>i</sub> cierran. A<sub>Ωobs</sub>=<sub>Δi=0</sub>A(C<sub>i</sub>).
 
-El agujero negro no es sólo objeto de horizonte. Es régimen extremo de clausura factual: captura instancias, bloquea su egreso local, clausura su estructura cuando alcanza cierre terminal y retorna su traza factual al Todo.
+## VI.3. Equivalencias SI ↔︎ SV
 
-Demostración. El corolario resulta de aplicar el Teorema 0ter.5 a toda instancia X contenida en el dominio de captura del régimen Γᴮᴴ cerrado. c.q.d.
+| Magnitud física | Símbolo | Unidad SI o física convencional | Unidad SV | Regla de transducción | Uso en la formulación |
+| --- | --- | --- | --- | --- | --- |
+| Duración física | (t) | s | (UE<sub>MFC</sub>) | (9,UE<sub>MFC</sub>=1,s) | Retorno de edad |
+| Año juliano | (a<sub>J</sub>) | (31 557 600,s) | (284 018 400,UE<sub>MFC</sub>) | (a<sub>J</sub>=31 557 600×9,UE<sub>MFC</sub>) | Resultado final |
+| Longitud | (L) | m | (UFE) | (1,m↔︎1,UFE) si el dominio lo declara | Profundidad, frontera, longitud de onda |
+| Frecuencia | (ν) | Hz = (s<sup>-1</sup>) | (UE<sub>MFC</sub><sup>-1</sup>) | (1,Hz=9,UE<sub>MFC</sub><sup>-1</sup>) en retorno elemental | Líneas espectrales y púlsares |
+| Energía | (E) | J, eV | (UFM· UFE<sup>2</sup>· UE<sub>MFC</sub><sup>-2</sup>) | Energía física → unidad energética SV | Ionización, niveles, radiación |
+| Masa | (m) | kg, u | (UFM) | Masa física → unidad de masa SV | Hidrógeno, estrellas, galaxias |
+| Superficie | (S) | (m<sup>2</sup>) | (UFE<sup>2</sup>) | Superficie física → superficie SV | Sección eficaz, frontera |
+| Luminosidad | (L_★) | W = J/s | Energía SV por (UE<sub>MFC</sub>) | (J/s↔︎ (UFM UFE<sup>2</sup> UE<sub>MFC</sub><sup>-2</sup>)/UE<sub>MFC</sub>) | Estrellas y galaxias |
+| Flujo | (F) | W/m² | Energía SV por (UE<sub>MFC</sub>· UFE<sup>2</sup>) | Flujo físico → retorno luminoso SV | Observación de fuentes |
+| Corrimiento al rojo | (z) | adimensional | adimensional transductivo | Relación de longitudes de onda | Profundidad observacional |
+| Periodo | (P) | s | (UE<sub>MFC</sub>) | (P[s]×9=P[UE<sub>MFC</sub>]) | Púlsares, variables |
+| Distancia astronómica | (D) | pc, Mpc, Gly, m | (UFE) | Conversión física previa a m y después a (UFE) | Profundidad luminosa |
+| Edad relativa | (A(C<sub>i</sub>)) | s, (a<sub>J</sub>) | (UE<sub>MFC</sub>) | (A[a<sub>J</sub>]×284 018 400=A[UE<sub>MFC</sub>]) | Resultado comparativo |
 
-## 0ter.8. Ciclo append-only de Todo y Nada
+Conversión central: 1,a<sub>J</sub>=31 557 600,s. 1,s=9,UE<sub>MFC</sub>. 1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>. 13 800 000 000 a<sub>J</sub> = 13 800 000 000 × 284 018 400 UE<sub>MFC</sub>. 13 800 000 000 a<sub>J</sub> = 3 919 453 920 000 000 000 UE<sub>MFC</sub>.
 
-La igualdad de potencial entre Todo y Nada no cancela la sucesión de sucesos ni reescribe el ciclo anterior. Si el cierre polar se alcanza, ese cierre comparece como suceso clausurado. Cualquier ulterior apertura sólo puede añadirse como nuevo suceso, no como repetición idéntica ni como borrado de lo anterior.
+## VI.4. Lectura de residuales
 
-Teorema 0ter.6. No final absoluto por cierre polar singular.
+| Residual | Pregunta de control | Cierre (0) | Defecto (1) | No clausura (U) |
+| --- | --- | --- | --- | --- |
+| (Δ<sub>Ω</sub>) | ¿Está declarado el dominio? | Dominio explícito y pertinente | Dominio contradictorio | Dominio insuficiente |
+| (Δ<sub>Id</sub>) | ¿Existe identidad física? | (Id<sub>i</sub>≠∅) | Identidad imposible | Identidad parcial |
+| (Δ<sub>∂</sub>) | ¿Existe frontera admisible? | Frontera definida | Frontera falsa o invasiva | Frontera incompleta |
+| (Δ<sub>Σ</sub>) | ¿Existe firma física? | Firma suficiente | Firma incompatible | Firma parcial |
+| (Δ<sub>M</sub>) | ¿La métrica corresponde al objeto? | Métrica pertinente | Métrica de otro plano | Métrica incompleta |
+| (Δ<sub>u</sub>) | ¿Hay unidad SI y SV? | Ambas declaradas | Unidad incompatible | Falta una unidad |
+| (Δ<sub>R</sub>) | ¿Existe retorno físico? | Retorno declarado | Retorno imposible | Retorno insuficiente |
+| (Δ<sub>ret</sub>) | ¿El retorno conserva sentido? | SV → física sin alteración | Retorno invasivo | Retorno parcial |
+| (Δ<sub>plano</sub>) | ¿La edad se atribuye al tipo correcto? | Contenido observable | Totalidad tratada como objeto | Ambigüedad de objeto |
+| (Δ<sub>trans</sub>) | ¿La transducción es legítima? | Dominio, codominio, residual y retorno | Traducción no tipada | Falta de datos |
+| (Δ<sub>lab</sub>) | ¿El laboratorio confirma lo tabulado? | Salida reproducida | Salida contraria | Salida incompleta |
 
-Sea Cᵏ un ciclo formal de Todo/Nada cuya frontera alcanza cierre por (μ,λ)=(0,0) y 𝓝★ₛᵥ=0. Si después comparece una nueva apertura Cᵏ⁺¹, entonces Cᵏ⁺¹ no reescribe Cᵏ, no lo borra y no lo hace idéntico a sí mismo. Cᵏ⁺¹ queda añadido como suceso ulterior append-only.
+Residual compuesto: Δ<sub>i</sub>= Δ<sub>Ω</sub> ⊕ Δ<sub>Id</sub> ⊕ Δ<sub>∂</sub> ⊕ Δ<sub>Σ</sub> ⊕ Δ<sub>M</sub> ⊕ Δ<sub>u</sub> ⊕ Δ<sub>R</sub> ⊕ Δ<sub>ret</sub> ⊕ Δ<sub>plano</sub> ⊕ Δ<sub>trans</sub>. Lectura formal: d<sub>i</sub>=0 si Δ<sub>i</sub>=0; d<sub>i</sub>=1 si Δ<sub>i</sub>=1; d<sub>i</sub>=U si Δ<sub>i</sub>=U.
 
-Demostración. Si Cᵏ⁺¹ reescribiera Cᵏ, se violaría append-only. Si lo borrara, el Todo dejaría de contener el ciclo que ha sido. Si fuese idéntico al ciclo anterior, no habría nuevo suceso, sino redundancia sin diferencia factual. Por tanto, toda apertura ulterior se incorpora como suceso nuevo. El cierre polar no autoriza final absoluto por supresión de la cadena; autoriza clausura de un ciclo y posibilidad formal de sucesión no retroactiva. c.q.d.
+## VI.5. Criterios de lectura formal
 
-Corolario 0ter.6.1. Lugar de las matemáticas en el ciclo.
+| Situación | Salida | Razón |
+| --- | --- | --- |
+| Todos los residuales esenciales se anulan | (0) | Hay cierre en dominio declarado |
+| Se atribuye edad física a la totalidad absoluta | (1) | Error de plano |
+| Se usa señal sin emisor | (U) | Falta identidad física |
+| Se usa línea espectral sin portador | (U) | Firma insuficiente |
+| Se usa hidrógeno como fundamento absoluto | (1) | El hidrógeno no sustituye el borde preformal |
+| Se usa hidrógeno como firma atómica persistente | (0) | Dominio atómico admisible |
+| Se usa prehidrógeno como transición | (0) si cierra | Transición transductiva legítima |
+| Se usa prehidrógeno como átomo cerrado | (1) | Error de dominio |
+| Falta unidad SI | (U) | La magnitud no es físicamente retornable |
+| Falta unidad SV | (U) | La transducción no cierra |
+| Falta residual | (U) | Sin residual no hay cierre |
+| Hay varios cierres incompatibles | (U) | No hay edad concreta única |
+| Hay un concreto único con (Δ=0) | (0) | Resultado admisible |
+| El laboratorio no reproduce la tabla | (1) | La tabla de contraste queda refutado |
+| El laboratorio reproduce la tabla | (0) | Confirmación reproducible |
 
-Las matemáticas pertenecen al Todo y no gobiernan el ciclo desde fuera. Su potencia consiste en codificar y decodificar invariantes de los ciclos y de sus regímenes cuando el dominio está declarado, el transductor es explícito y el residual se anula.
+La línea relativa al hidrógeno se apoya en la transducción bidireccional ya fijada: (E<sub>I</sub>), (a<sub>0</sub>), (m<sub>H</sub>), (E<sub>n</sub>), (λ<sub>Lyα</sub>), (ν<sub>Lyα</sub>) y la línea de 21 cm proyectan hacia (Ω<sub>atom</sub>); el retorno físico conserva (H∈Ω<sub>atom</sub>⊂Ω<sub>fis</sub>⊂Ω<sub>esp</sub>), y se bloquea (H=ε<sub>-0</sub>) y (H=A<sub>min</sub><sup>univ</sup>) sin prueba material.
 
-Demostración. Si gobernaran desde fuera, serían exterior soberano al Todo. Si codifican y decodifican invariantes desde dentro del Todo, su eficacia se mide por residual nulo en dominio declarado. c.q.d.
+## VI.6. Hubble y Webb: retornos físicos profundos
 
----
+La clase Hubble/Webb no se usa como autoridad retórica. Se usa como conjunto de retornos físicos profundos: galaxias, fuentes, espectros, mapas, señales infrarrojas, líneas, poblaciones y profundidades.
 
-# I. Estado del arte físico contemporáneo del agujero negro
+| Código | Caso físico | Dominio | Firma exigida | Unidad SI | Unidad SV | Residual principal | Lectura formal esperada |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| HW-01 | Galaxia profunda con identificación espectral | (Ω<sub>gal</sub>⊂Ω<sub>obs</sub>) | Espectro y retorno | m, Hz, (a<sub>J</sub>) | (UFE), (UE<sub>MFC</sub><sup>-1</sup>), (UE<sub>MFC</sub>) | (Δ<sub>Σ</sub>⊕Δ<sub>R</sub>) | (0) |
+| HW-02 | Galaxia profunda con morfología pero sin espectro suficiente | (Ω<sub>gal</sub>) | Parcial | m, flujo | (UFE), unidad de flujo SV | (Δ<sub>Σ</sub>=U) | (U) |
+| HW-03 | Campo profundo con múltiples fuentes no individualizadas | (Ω<sub>mapa</sub>) | Distribución | ángulo, flujo, m | unidades SV correspondientes | (Δ<sub>Id</sub>=U) | (U) |
+| HW-04 | Mapa cósmico con catálogo de fuentes identificadas | (Ω<sub>obs</sub>) | Catálogo y retorno | m, Hz, flujo | (UFE), (UE<sub>MFC</sub><sup>-1</sup>) | (Δ<sub>Ω</sub>=0) | (0) como registro |
+| HW-05 | Señal infrarroja sin portador físico suficiente | (Ω<sub>L</sub><sup>ret</sup>) | No suficiente | m, Hz | (UFE), (UE<sub>MFC</sub><sup>-1</sup>) | (Δ<sub>Id</sub>=U) | (U) |
+| HW-06 | Expresión divulgativa «historia espacial» sin descomposición | No declarado | No declarada | años | (UE<sub>MFC</sub>) | (Δ<sub>Ω</sub>=U) | (U) |
+| HW-07 | Observación profunda usada como edad de totalidad absoluta | ( T) mal tipada | No pertinente | años | (UE<sub>MFC</sub>) | (Δ<sub>plano</sub>=1) | (1) |
+| HW-08 | Galaxia con firma preH/H persistente y edad retornada | (Ω<sub>gal</sub>) | (Σ<sub>preH/H</sub>) | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | (Δ=0) | (0) |
+| HW-09 | Candidato profundo con edad fuera del cierre declarado y residual no cerrado | (Ω<sub>gal</sub>) | Incompleta | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | (Δ=U) | (U) |
+| HW-10 | Candidato profundo con valor incompatible y residual refutador | (Ω<sub>gal</sub>) | Contradictoria | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | (Δ=1) | (1) |
 
-## I.1. Horizonte, no escape y objeto físico de horizonte
+## VI.7. Galaxias profundas y edades de contenido
 
-En física contemporánea, un agujero negro se caracteriza por una región cuyo campo gravitatorio impide que algo situado más allá del horizonte escape hacia el exterior; la exposición institucional básica afirma que ni siquiera la luz puede escapar de esa frontera (NASA Science, s. f.). Esta formulación contiene el núcleo físico que debe absorber cualquier teoría del agujero negro: no basta con una masa elevada, una curvatura grande o una emisión débil; se requiere frontera de no salida exterior y, de modo específico, no salida luminosa desde el interior.
+| Código | Caso | Identidad | Firma | Métrica | Unidad SI | Unidad SV | Edad declarada | Residual | Lectura formal |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| GAL-01 | Galaxia profunda con espectro consistente | (Id<sub>gal</sub>≠∅) | completa | retorno luminoso | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | variable | (0) | (0) |
+| GAL-02 | Galaxia con fotometría sin espectro suficiente | parcial | parcial | profundidad aproximada | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | variable | (U) | (U) |
+| GAL-03 | Galaxia con firma H/preH admisible | completa | (Σ<sub>preH/H</sub>) | edad relativa | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | (13 800 000 000) | (0) | (0) |
+| GAL-04 | Galaxia con edad de población confundida con edad de señal | completa | parcial | métrica mixta | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | no cerrada | (1) | (1) |
+| GAL-05 | Fuente compacta sin clasificación galáctica suficiente | insuficiente | parcial | retorno | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | no cerrada | (U) | (U) |
+| GAL-06 | Catálogo galáctico usado como objeto único | colectiva | compuesta | distribución | varias | varias | no única | (U) | (U) |
+| GAL-07 | Galaxia con retorno pero sin unidad SV | completa | parcial | retorno | (a<sub>J</sub>) | no declarada | no cerrada | (U) | (U) |
+| GAL-08 | Galaxia con unidad, firma, residual y retorno | completa | suficiente | edad relativa | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | computable | (0) | (0) |
 
-El objeto físico de horizonte se puede escribir como predicado estructural:
+La edad galáctica se descompone siempre: A<sub>gal</sub>= A<sub>form</sub> ⊕ A<sub>★</sub> ⊕ A<sub>signal</sub> ⊕ A<sub>ret</sub>. No se admite: A<sub>gal</sub>=Edad( T).
 
-BH_AST(H) ⇔ NoSalidaExterior(H) y NoSalidaLuminosa(H) y InteriorNoAccesible(H) y EfectosExternosDeCampo(H).
+## VI.8. Estrellas como portadores de edad física
 
-El SV no traduce esta condición como oscuridad, ni como probabilidad de escape, ni como singularidad. La traduce en células de transmisión: v_TE para la salida exterior general y v_L para la salida luminosa factual. Esa distinción permite demostrar qué absorbe el SV: absorbe el horizonte físico como frontera de no transmisión, no como imagen óptica ni como metáfora.
+| Código | Caso | Dominio | Magnitudes | Unidad SI | Unidad SV | Riesgo bloqueado | Residual | Lectura formal |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| STAR-01 | Estrella con edad evolutiva declarada | (Ω_★) | masa, luminosidad, composición | kg, W, (a<sub>J</sub>) | (UFM), energía SV/(UE<sub>MFC</sub>), (UE<sub>MFC</sub>) | edad estelar como edad total | (0) | (0) |
+| STAR-02 | Estrella antigua sin margen declarada | (Ω_★) | edad | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | cierre sin residual | (U) | (U) |
+| STAR-03 | Cúmulo estelar con población antigua | (Ω<sub>cúmulo</sub>) | edad de población | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | población = totalidad | (0) si cierra | (0/U) |
+| STAR-04 | Edad de señal estelar confundida con edad de estrella | (Ω<sub>L</sub><sup>ret</sup>) | retorno | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | señal = objeto | (1) | (1) |
+| STAR-05 | Estrella sin dominio de modelo | incompleto | luminosidad aislada | W | unidad SV | inferencia opaca | (U) | (U) |
+| STAR-06 | Portador estelar con firma H y retorno | (Ω_★) | H, espectro, edad | Hz, eV, (a<sub>J</sub>) | unidades SV | ninguno si cierra | (0) | (0) |
 
-## I.2. Relatividad general, Schwarzschild y Kerr
+## VI.9. Púlsares y señales periódicas persistentes
 
-La relatividad general proporcionó el aparato geométrico para describir curvatura, horizonte y soluciones gravitatorias (Einstein, 1915; Wald, 1984). La solución de Schwarzschild fija la forma esférica no rotante y el radio crítico rₛ = 2GM/c² (Schwarzschild, 1916). La solución de Kerr incorpora rotación, horizonte exterior, estructura axial y parámetro adimensional de espín χ (Kerr, 1963; Chandrasekhar, 1983). Los teoremas de unicidad y no-hair reducen externamente ciertos agujeros negros estacionarios a masa, carga y momento angular (Carter, 1971; Israel, 1967; Robinson, 1975; Wald, 1984).
+| Código | Caso | Magnitudes | Unidad SI | Unidad SV | Edad tratada | Residual | Lectura formal |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| PUL-01 | Púlsar con (P) y ( P) declarados | periodo, derivada | s, s/s | (UE<sub>MFC</sub>), adimensional/ciclo | edad característica | (0) si modelo declarado | (0) |
+| PUL-02 | Púlsar con remanente asociado | periodo, remanente, distancia | s, m, (a<sub>J</sub>) | (UE<sub>MFC</sub>), (UFE), (UE<sub>MFC</sub>) | contraste múltiple | (0) si coherente | (0) |
+| PUL-03 | Púlsar sin ( P) | periodo | s | (UE<sub>MFC</sub>) | no cerrada | (U) | (U) |
+| PUL-04 | Edad característica tomada como edad absoluta | periodo | s | (UE<sub>MFC</sub>) | mal tipada | (1) | (1) |
+| PUL-05 | Señal periódica sin identificación de fuente | frecuencia | Hz | (UE<sub>MFC</sub><sup>-1</sup>) | no atribuible | (U) | (U) |
+| PUL-06 | Púlsar usado como control de transducción temporal | periodo | s | (UE<sub>MFC</sub>) | edad de contenido | (0) | (0) |
 
-El SV absorbe esta familia como proyección métrica externa. Schwarzschild aporta escala radial de frontera; Kerr aporta rotación y estructura axial; no-hair expresa reducción externa de datos observables. Ninguno determina por sí solo el postfrontera, ninguno separa M_N2-SV de U y ninguno incorpora el verificador TODO/NADA. Por tanto, no son fórmulas rivales de BHₛᵥ: son proyecciones métricas de su frontera.
+## VI.10. Hidrógeno como firma atómica persistente
 
-## I.3. Singularidad y límite geométrico
+La tabla siguiente adopta la tabla de contraste bidireccional de hidrógeno ya fijado: energía de ionización, radio de Bohr, masa atómica, niveles, Lyman-(α), frecuencia Lyman-(α), línea de 21 cm, sección eficaz, persistencia P_min y frontera atómica; además bloquea (H=ε<sub>-0</sub>) y (H=A<sub>min</sub><sup>univ</sup>) sin prueba material.
 
-La singularidad aparece como límite de ciertas soluciones y como resultado de teoremas de colapso bajo condiciones geométricas y energéticas (Penrose, 1965; Hawking & Ellis, 1973). En el plano geométrico, la singularidad señala que el formalismo llega a una región no regular. El SV no toma esa no regularidad como interior factual. La absorbe como diagnóstico de insuficiencia de proyección: un valor no evaluable de una fórmula métrica no puede fundar un régimen que exige Ωᴮᴴ, Πᴮᴴ, Iᴮᴴ, Δᴮᴴ y Rᴮᴴ.
+| Código | Entrada física real | Unidad SI | Unidad SV | Física → edad relativa | Residual | Retorno físico | Lectura formal |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| H-01 | Energía de ionización (E<sub>I</sub>) | eV, J | (UFM· UFE<sup>2</sup>· UE<sub>MFC</sub><sup>-2</sup>) | Identidad energética de H | No límite universal | Hidrógeno como configuración estable | (0) |
+| H-02 | Radio de Bohr (a<sub>0</sub>) | m, pm | (UFE) | Escala atómica | Modelo cuántico | Tamaño característico posterior | (0/U) |
+| H-03 | Masa atómica (m<sub>H</sub>) | u, kg | (UFM) | Identidad material | Isótopos y convenciones | Materia atómica posterior | (0) |
+| H-04 | Niveles (E<sub>n</sub>) | eV, J | (UFM· UFE<sup>2</sup>· UE<sub>MFC</sub><sup>-2</sup>) | Estructura discreta | Modelo cuántico | Espectro atómico | (0/U) |
+| H-05 | Lyman-(α), (λ<sub>Lyα</sub>) | nm, m | (UFE) | Transición espectral | Condiciones de emisión | Señal observacional atómica | (0) |
+| H-06 | Frecuencia Lyman-(α), (ν<sub>Lyα</sub>) | Hz | (UE<sub>MFC</sub><sup>-1</sup>) | Frecuencia espectral | Condiciones de emisión | Señal física | (0) |
+| H-07 | Línea de 21 cm | m, GHz, eV | (UFE), (UE<sub>MFC</sub><sup>-1</sup>), energía SV | Transición hiperfina | Condiciones cosmológicas | Señal física de hidrógeno | (0) |
+| H-08 | Sección eficaz de ionización (σ<sub>I</sub>) | (m<sup>2</sup>) | (UFE<sup>2</sup>) | Interacción física | Probabilidad no fundante | Proceso físico de ionización | (0/U) |
+| H-09 | Persistencia P_min ( 𝓟<sub>min</sub>= F_∂- Q- R<sub>Γ</sub>) | energía estructural | energía SV | Persistencia factual | No sustituye (ε<sub>-0</sub>) | Estabilidad de frontera | (0) |
+| H-10 | Frontera (∂Ω<sub>H</sub>) | según magnitud | (UFE), (UFE<sup>2</sup>) o dominio formal | Frontera atómica | No es espacio total | Identidad configuracional | (0) |
+| H-11 | (H=ε<sub>-0</sub>) | — | — | Átomo como origen | Crítico | Hidrógeno no es borde preformal | (1) |
+| H-12 | (H=A<sub>min</sub><sup>univ</sup>) | — | — | Límite universal no demostrado | (U) material | H es caso canónico conocido, sin cierre absoluto material | (U) |
 
-La curvatura de Kretschmann de Schwarzschild, K = 48G²M²/(c⁴r⁶), muestra numéricamente esa diferencia. Para r positivo es evaluable; para r = 0 no produce valor finito. El SV admite la serie de valores finitos como proyección geométrica y rechaza r = 0 como fundamento de interior. El interior factual se decide por v_INT, C_TH, C_H, C_TN y M_N2-SV.
+Cierre de la tabla de contraste: (E<sub>I</sub>,a<sub>0</sub>,m<sub>H</sub>,E<sub>n</sub>,λ<sub>Lyα</sub>,ν<sub>Lyα</sub>,21,cm) Ω<sub>atom</sub>. H∈Ω<sub>atom</sub>⊂Ω<sub>fis</sub>⊂Ω<sub>esp</sub>. H≠ε<sub>-0</sub>. H≠ A<sub>min</sub><sup>univ</sup> sin prueba material.
 
-## I.4. Termodinámica, radiación e información
+## VI.11. Prehidrógeno como transición material
 
-Bekenstein vinculó entropía y área del agujero negro (Bekenstein, 1973, 1974). Hawking mostró la emisión térmica de agujeros negros en un marco de campos cuánticos en espacio-tiempo curvo (Hawking, 1975). Page formuló la curva de entropía esperada para radiación si la evolución global preserva unitariedad (Page, 1993). Las islas y la reconstrucción de cuñas de entrelazamiento han mostrado, en ciertos modelos, recuperación de curva de Page mediante términos de isla y superficies extremales cuánticas (Almheiri et al., 2019; Penington, 2020; Almheiri et al., 2020).
+| Código | Caso | Dominio | Transición | Persistencia | Firma de llegada | Residual | Lectura formal |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| preH-01 | Plasma sin identidad atómica | (Ω<sub>preH</sub>) | incompleta | ( 𝓟<sub>min</sub>≤0) | ninguna | (U) | (U) |
+| preH-02 | Régimen preatómico con frontera en formación | (Ω<sub>preH→ H</sub>) | parcial | marginal | H no cerrado | (U) | (U) |
+| preH-03 | Transición preH → H con persistencia | (Ω<sub>preH→ H</sub>) | completa | ( 𝓟<sub>min</sub>>0) | (Σ<sub>H</sub>) | (0) | (0) |
+| preH-04 | preH tratado como átomo estable | dominio falso | falsa | no pertinente | H anticipado | (1) | (1) |
+| preH-05 | preH usado como fundamento absoluto | ( T) mal tipada | indebida | no pertinente | no pertinente | (1) | (1) |
+| preH-06 | preH sin continuidad hacia H | incompleto | rota | no cierra | ausente | (U) | (U) |
+| preH-07 | Transición preH/H como bisagra de edad relativa | (Ω<sub>preH→ H</sub>) | completa | ( 𝓟<sub>min</sub>>0) | H persistente | (0) | (0) |
 
-El SV absorbe estas líneas de forma diferenciada. Bekenstein–Hawking se absorbe como proyección termodinámica de frontera; Hawking se absorbe parcialmente como lectura exterior de emisión; Page e islas se absorben parcialmente como reconstrucción o codificación exterior de información. Ninguna de esas fórmulas contiene por sí misma μ=0, λ=0, 𝓝★ₛᵥ=0 ni Postᴮᴴ=M_N2-SV. Por tanto, ninguna sustituye la fórmula del agujero negro del SV.
+Condición de admisión: preH→ H es admisible Ω<sub>preH</sub>,Ω<sub>H</sub>,Γ<sub>preH→ H</sub>, 𝓟<sub>min</sub>,Id<sub>H</sub>,Δ<sub>preH/H</sub> cierran.
 
-## I.5. Fuzzballs, firewalls y agujeros negros regulares
+## VI.12. Lyman-α como firma espectral
 
-Las propuestas fuzzball sustituyen el interior clásico por microestados extendidos (Mathur, 2005). El argumento firewall marca una tensión entre unitariedad, localidad y suavidad del horizonte (Almheiri et al., 2013). Los agujeros negros regulares intentan evitar singularidades esenciales mediante modificaciones de estructura interior o condiciones de energía (Hayward, 2006; Lan et al., 2023). El SV absorbe estas propuestas como correcciones parciales de defectos locales. Su valor reside en señalar que interior vacío, singularidad primaria y horizonte trivial son insuficientes. Su límite reside en no aportar simultáneamente frontera factual, luz factual, termodinámica factual, entropía factual, transmisión factual, cierre TODO/NADA y M_N2-SV.
+| Código | Caso | Portador | Dominio | Unidad SI | Unidad SV | Residual | Lectura formal |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| LyA-01 | Lyman-(α) con galaxia identificada | galaxia | (Ω<sub>gal</sub>) | nm, Hz | (UFE), (UE<sub>MFC</sub><sup>-1</sup>) | (0) | (0) |
+| LyA-02 | Lyman-(α) en nube o gas | gas H | (Ω<sub>gas</sub>) | nm, Hz | (UFE), (UE<sub>MFC</sub><sup>-1</sup>) | (0) si hay retorno | (0/U) |
+| LyA-03 | Línea aislada sin portador | no | (Ω<sub>L</sub><sup>ret</sup>) | nm | (UFE) | (U) | (U) |
+| LyA-04 | Línea desplazada sin corrección | parcial | retorno incompleto | nm | (UFE) | (U) | (U) |
+| LyA-05 | Lyman-(α) como edad absoluta | indebido | ( T) mal tipada | nm | (UFE) | (1) | (1) |
+| LyA-06 | Lyman-(α) con firma preH/H profunda | sí | (Ω<sub>gal</sub>⊂Ω<sub>obs</sub>) | nm, Hz, (a<sub>J</sub>) | (UFE), (UE<sub>MFC</sub><sup>-1</sup>), (UE<sub>MFC</sub>) | (0) | (0) |
 
-## I.6. Evidencia observacional
+Residual: Δ<sub>Lyα</sub>Δ<sub>λ</sub> ⊕ Δ<sub>ν</sub> ⊕ Δ<sub>portador</sub> ⊕ Δ<sub>ret</sub> ⊕ Δ<sub>plano</sub>.
 
-La Event Horizon Telescope Collaboration obtuvo imágenes de escala de horizonte de M87* con sombra y anillo compatibles con un agujero negro supermasivo (Event Horizon Telescope Collaboration, 2019a, 2019b), y resultados para Sagittarius A* (Event Horizon Telescope Collaboration, 2022). LIGO/Virgo detectó GW150914 como primera observación directa de ondas gravitacionales procedentes de una fusión de agujeros negros binarios (Abbott et al., 2016). El SV absorbe estas observaciones como validación externa del objeto físico de horizonte y de efectos de campo, no como determinación del postfrontera. La observación identifica el objeto de horizonte; BHₛᵥ determina el cierre factual.
+## VI.13. Línea de 21 cm como retorno de hidrógeno neutro
 
----
+| Código | Caso | Dominio | Unidad SI | Unidad SV | Uso admisible | Residual | Lectura formal |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| C21-01 | Línea de 21 cm con H neutro declarado | (Ω<sub>HI</sub>) | m, Hz | (UFE), (UE<sub>MFC</sub><sup>-1</sup>) | firma H | (0) | (0) |
+| C21-02 | 21 cm cosmológica con modelo declarado | (Ω<sub>obs</sub>) | m, Hz, (a<sub>J</sub>) | (UFE), (UE<sub>MFC</sub><sup>-1</sup>), (UE<sub>MFC</sub>) | estructura y gas | (0) si cierra | (0/U) |
+| C21-03 | 21 cm sin dominio | indefinido | m, Hz | (UFE), (UE<sub>MFC</sub><sup>-1</sup>) | señal aislada | (U) | (U) |
+| C21-04 | 21 cm como edad absoluta | ( T) mal tipada | m, Hz | (UFE), (UE<sub>MFC</sub><sup>-1</sup>) | indebido | (1) | (1) |
+| C21-05 | 21 cm con retorno profundo y firma persistente | (Ω<sub>HI</sub>⊂Ω<sub>obs</sub>) | m, Hz, (a<sub>J</sub>) | (UFE), (UE<sub>MFC</sub><sup>-1</sup>), (UE<sub>MFC</sub>) | edad relativa de contenido | (0) | (0) |
 
-# II. Matriz de absorción factual de los planteamientos contemporáneos
+## VI.14. Mapas cósmicos como conjuntos de retornos
 
-| Planteamiento contemporáneo | Núcleo físico | Dictamen SV | Criterio formal |
-|---|---|---|---|
-| Relatividad general | curvatura, horizonte, no escape | absorbida | proyección métrica de ∂Ωᴮᴴ |
-| Schwarzschild | rₛ = 2GM/c² | absorbida | frontera radial traducida a v_TE y v_L |
-| Kerr | rotación, r₊, horizonte axial | absorbida | proyección rotante con angularidad subordinable |
-| No-hair | reducción externa de parámetros | absorbido parcialmente | exterior estacionario sin postfrontera |
-| Singularidad | límite geométrico | rechazada como fundamento | r = 0 no evaluable como Ωᴮᴴ |
-| Bekenstein–Hawking | área, entropía, temperatura | absorbida | proyección termodinámica factual |
-| Radiación de Hawking | emisión exterior | absorbida parcialmente | no define M_N2-SV |
-| Page curve e islas | reconstrucción informacional exterior | absorbidas parcialmente | no cierran postfrontera |
-| Fuzzballs y firewalls | microestructura o tensión de horizonte | absorbidos parcialmente | corrigen defecto local |
-| Agujeros negros regulares | evitación de singularidad | absorbidos parcialmente | no cierran TODO/NADA |
-| EHT y LIGO/Virgo | evidencia de horizonte y campo | absorbidas | validación externa del objeto físico |
+| Código | Caso | Dominio | Unidad SI | Unidad SV | Objeto de edad | Residual | Lectura formal |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| MAP-01 | Mapa con fuentes catalogadas | (Ω<sub>mapa</sub>) | ángulo, flujo, m, Hz | unidades SV correspondientes | conjunto de contenidos | (0) como registro | (0) |
+| MAP-02 | Mapa sin identificación individual suficiente | (Ω<sub>mapa</sub>) | ángulo, flujo | unidades SV | población, no objeto único | (U) | (U) |
+| MAP-03 | Mapa tratado como edad única | mal tipado | varias | varias | indebido | (1) | (1) |
+| MAP-04 | Mapa usado para seleccionar contenido observable retornado | (Ω<sub>obs</sub>) | varias | varias | (A<sub>Ωobs</sub>) | (0) si casos cierran | (0) |
+| MAP-05 | Mapa con profundidad sin firma física | (Ω<sub>obs</sub>) | m, (a<sub>J</sub>) | (UFE), (UE<sub>MFC</sub>) | no cerrable | (U) | (U) |
 
-**Teorema II.1. Clasificación exhaustiva de absorción.** Todo planteamiento físico contemporáneo tratado en esta publicación queda, respecto del SV, en una de tres clases: absorbido, absorbido parcialmente o rechazado como fundamento.
+## VI.15. Modelo cosmológico como marco instrumental
 
-**Demostración.** Un planteamiento es absorbido si describe una proyección externa compatible con frontera factual, no transmisión exterior, luz factual, termodinámica factual, entropía factual, transmisión factual y postfrontera M_N2-SV. Es absorbido parcialmente si corrige una región del problema, pero no cierra todas las condiciones de BHₛᵥ. Es rechazado como fundamento si introduce singularidad primaria, vacío sustancial, probabilidad fundante, estadística como criterio de verdad, inferencia opaca, tiempo fundante o cierre no verificado. Todo planteamiento del estado del arte afirma una de esas tres situaciones respecto de las condiciones de cierre. La clasificación es exhaustiva. c.q.d.
+| Código | Modelo o magnitud | Dominio | Unidad SI | Unidad SV | Uso admisible | Riesgo bloqueado | Lectura formal |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| MOD-01 | Edad cosmológica convencional | (Ω<sub>modelo</sub>) | (a<sub>J</sub>), s | (UE<sub>MFC</sub>) | parámetro de modelo | edad de totalidad | instrumental |
+| MOD-02 | Corrimiento al rojo | (Ω<sub>obs</sub>) | adimensional | adimensional | restricción de profundidad | edad directa sin modelo | instrumental |
+| MOD-03 | Distancia de luminosidad | (Ω<sub>L</sub><sup>ret</sup>) | m, pc, Mpc | (UFE) | retorno luminoso | edad sin transductor | instrumental |
+| MOD-04 | Distancia comóvil | (Ω<sub>modelo</sub>) | m, Mpc | (UFE) | coordenación de modelo | fundamento espacial | instrumental |
+| MOD-05 | Parámetros cosmológicos | (Ω<sub>modelo</sub>) | varios | varios | reconstrucción física | sustitución de dominio | instrumental |
+| MOD-06 | Modelo usado para edad de contenido con residual | (Ω<sub>obs</sub>) | varias | varias | admisible | ninguno si cierra | (0) |
+| MOD-07 | Modelo usado como prueba de edad absoluta | ( T) mal tipada | varias | varias | indebido | error de plano | (1) |
 
-**Teorema II.2. No equivalencia entre absorción parcial y refutación total.** La absorción parcial no equivale a rechazo.
+## VI.16. Controles negativos de contraste
 
-**Demostración.** Un planteamiento parcialmente absorbido puede aportar una corrección verdadera respecto de una proyección: Page curve e islas corrigen una región de información exterior; fuzzballs y firewalls señalan insuficiencias del interior clásico; agujeros negros regulares evitan singularidad. Su defecto no es falsedad global, sino insuficiencia de cierre respecto de BHₛᵥ. Por tanto, el dictamen parcial conserva su aporte y niega su suficiencia constitutiva. c.q.d.
+| Código | Control negativo | Residual activado | Salida esperada |
+| --- | --- | --- | --- |
+| NEG-01 | Edad de la totalidad absoluta | (Δ<sub>plano</sub>=1) | (1) |
+| NEG-02 | Señal luminosa sin emisor | (Δ<sub>Id</sub>=U) | (U) |
+| NEG-03 | Línea espectral sin portador | (Δ<sub>Σ</sub>=U) | (U) |
+| NEG-04 | Hidrógeno como fundamento absoluto | (Δ<sub>plano</sub>=1) | (1) |
+| NEG-05 | Hidrógeno como (ε<sub>-0</sub>) | (Δ<sub>Ω</sub>=1) | (1) |
+| NEG-06 | Hidrógeno como límite universal cerrado | (Δ=U) | (U) |
+| NEG-07 | Prehidrógeno como átomo estable | (Δ<sub>Ω</sub>=1) | (1) |
+| NEG-08 | Galaxia sin identidad suficiente | (Δ<sub>Id</sub>=U) | (U) |
+| NEG-09 | Profundidad luminosa como edad de totalidad | (Δ<sub>plano</sub>=1) | (1) |
+| NEG-10 | Corrimiento al rojo sin modelo | (Δ<sub>M</sub>=U) | (U) |
+| NEG-11 | Mapa de galaxias como edad única sin descomposición | (Δ<sub>Id</sub>=U) | (U) |
+| NEG-12 | Resultado sin unidad SI | (Δ<sub>u</sub>=U) | (U) |
+| NEG-13 | Resultado sin unidad SV | (Δ<sub>u</sub>=U) | (U) |
+| NEG-14 | Resultado sin residual | (Δ=U) | (U) |
+| NEG-15 | Cifra externa copiada sin transducción | (Δ<sub>trans</sub>=1) | (1) |
+| NEG-16 | Margen instrumental confundida con error de plano | (Δ<sub>M</sub>=1) | (1) |
+| NEG-17 | Edad de señal confundida con edad de objeto | (Δ<sub>plano</sub>=1) | (1) |
+| NEG-18 | Edad de modelo confundida con edad de totalidad | (Δ<sub>plano</sub>=1) | (1) |
+| NEG-19 | Registro sin controles negativos | (Δ<sub>lab</sub>=1) | (1) |
+| NEG-20 | Laboratorio que calcula valores no tabulados | (Δ<sub>lab</sub>=1) | (1) |
+
+## VI.17. Casos positivos del resultado
+
+| Código | Caso positivo | Dominio | Edad SI | Edad SV | Condición | Residual | Lectura formal |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| POS-01 | Contenido observable con firma preH/H persistente | (Ω<sub>obs</sub>) | (13 800 000 000,a<sub>J</sub>) | (3 919 453 920 000 000 000,UE<sub>MFC</sub>) | firma, retorno, unidad y residual | (0) | (0) |
+| POS-02 | Conversión año juliano → UE<sub>MFC</sub> | unidad | (1,a<sub>J</sub>) | (284 018 400,UE<sub>MFC</sub>) | (31 557 600,s×9) | (0) | (0) |
+| POS-03 | Conversión resultado total | unidad | (13 800 000 000,a<sub>J</sub>) | (3 919 453 920 000 000 000,UE<sub>MFC</sub>) | multiplicación exacta | (0) | (0) |
+| POS-04 | No edad de totalidad absoluta | ( T) | no aplicable | no aplicable | error de tipo bloqueado | (0) como rechazo | NO ADMISIBLE |
+| POS-05 | Edad de observable retornado | (Ω<sub>obs</sub>) | (13 800 000 000,a<sub>J</sub>) | (3 919 453 920 000 000 000,UE<sub>MFC</sub>) | cierre con (Δ=0) | (0) | (0) |
+
+Cálculo exacto: 31 557 600 × 9 = 284 018 400. 13 800 000 000 × 284 018 400 = 3 919 453 920 000 000 000. No hay decimal residual en la conversión: ε<sub>conv</sub>=0.
+
+## VI.18. Comparación del resultado por planos
+
+| Plano | Formulación imprecisa | Formulación corregida | Resultado |
+| --- | --- | --- | --- |
+| Totalidad | «Edad del Universo» como totalidad absoluta | Edad no admisible | NO ADMISIBLE |
+| Dominio físico | Edad del universo observable | Edad de dominio físico bajo modelo | ADMISIBLE CON DOMINIO |
+| Contenido observable | Edad del contenido más antiguo retornado | edad concreta del observable retornado de contenido observable | (13 800 000 000,a<sub>J</sub>) |
+| Unidad SV | No formulada en física ordinaria | (UE<sub>MFC</sub>) | (3 919 453 920 000 000 000,UE<sub>MFC</sub>) |
+| Señal luminosa | Luz como edad directa | Retorno luminoso transducido | ADMISIBLE SI HAY FIRMA |
+| Galaxia | Galaxia como edad del universo | Objeto persistente con edad propia | ADMISIBLE |
+| Hidrógeno | Hidrógeno como origen absoluto | Firma atómica persistente | ADMISIBLE COMO FIRMA |
+| Prehidrógeno | Objeto cerrado | Transición hacia firma H | ADMISIBLE COMO TRANSICIÓN |
+| Modelo cosmológico | Verdad absoluta | Instrumento de reconstrucción | INSTRUMENTAL |
+
+## VI.19. Trazabilidad textual de los casos
+
+Todo caso citado en la formulación debe aparecer en esta tabla de trazabilidad. La regla procede del régimen de trazabilidad usado en la formulación de agujero negro: todo caso textual debe corresponderse con registro, transductor o catálogo de errores, y todo caso de registro debe tener lectura textual suficiente.
+
+| Elemento citado en texto | Tabla donde debe aparecer | Laboratorio que lo confirma | Salida esperada |
+| --- | --- | --- | --- |
+| Totalidad absoluta sin edad | V.2, V.16, V.18 | control negativo | NO ADMISIBLE |
+| Universo observable como dominio | V.2, V.18 | registro de dominio | ADMISIBLE CON DOMINIO |
+| Galaxias profundas | V.6, V.7 | contraste Hubble/Webb | (0/U) según firma |
+| Hubble/Webb | V.6 | registro observacional | (0/U/1) según caso |
+| Hidrógeno | V.10 | registro H | (0) como firma |
+| Prehidrógeno | V.11 | registro preH/H | (0) como transición si cierra |
+| Lyman-(α) | V.12 | registro espectral | (0/U/1) |
+| 21 cm | V.13 | registro espectral | (0/U/1) |
+| Estrellas | V.8 | registro de portadores | (0/U) |
+| Púlsares | V.9 | registro de portadores | (0/U/1) |
+| Conversión SI ↔︎ SV | V.3, V.17 | conversor | (0) |
+| Resultado final | V.17, V.18 | runner principal | (0) |
+| Controles negativos | V.16 | runner adversarial | todos activados |
 
----
+## VI.20. Esquema CSV de los datos de contraste
 
-# III. Aparato formal autocontenido del SV
+| Campo CSV | Contenido obligatorio | Ejemplo |
+| --- | --- | --- |
+| case<sub>id</sub> | Identificador único | POS-01 |
+| family | Familia de la tabla de contraste | preH/H |
+| domain | Dominio declarado | (Ω<sub>obs</sub>) |
+| physical<sub>object</sub> | Objeto físico | observable retornado |
+| identity<sub>status</sub> | identidad | completa |
+| boundary<sub>status</sub> | frontera | declarada |
+| signature | firma física | preH/H |
+| physical<sub>magnitude</sub> | magnitud física | edad relativa |
+| si<sub>value</sub> | valor SI | 13<sub>800000000</sub> |
+| si<sub>unit</sub> | unidad SI | año juliano |
+| sv<sub>value</sub> | valor SV | 3919453920000000000 |
+| sv<sub>unit</sub> | unidad SV | UE<sub>MFC</sub> |
+| residual<sub>domain</sub> | residual de dominio | 0 |
+| residual<sub>signature</sub> | residual de firma | 0 |
+| residual<sub>unit</sub> | residual de unidad | 0 |
+| residual<sub>return</sub> | residual de retorno | 0 |
+| residual<sub>plane</sub> | residual de plano | 0 |
+| expected | salida esperada | 0 |
+| observed | lectura observada | salida_obtenida.txt |
+| pass | confirmación | APTO si coincide con salida esperada |
+| error<sub>code</sub> | código de error si falla | vacío |
 
-## III.1. Células, conteos y dictamen
+El laboratorio reproducible debe leer estos campos, no sustituirlos.
 
-Sea Σ={0,1,U}. Para toda célula v=(v_1,...,v_n) ∈ Σⁿ, se definen:
+## VI.21. Códigos de error del contraste
 
-N₀(v)=cardinal de coordenadas i tales que vᵢ=0.
-N₁(v)=cardinal de coordenadas i tales que vᵢ=1.
-Nᵁ(v)=cardinal de coordenadas i tales que vᵢ=U.
+| Código | Error | Activación | Salida |
+| --- | --- | --- | --- |
+| E-DOM-01 | dominio ausente | (Ω<sub>i</sub>) vacío | (U) |
+| E-DOM-02 | dominio contradictorio | objeto fuera de dominio | (1) |
+| E-ID-01 | identidad ausente | (Id<sub>i</sub>=∅) | (U) |
+| E-FR-01 | frontera ausente | (∂Ω<sub>i</sub>) no declarada | (U) |
+| E-SIG-01 | firma ausente | (Σ<sub>i</sub>) vacía | (U) |
+| E-SIG-02 | firma incompatible | firma niega dominio | (1) |
+| E-UNIT-01 | unidad SI ausente | (u<sub>SI</sub>) vacío | (U) |
+| E-UNIT-02 | unidad SV ausente | (u<sub>SV</sub>) vacío | (U) |
+| E-RET-01 | retorno ausente | (R<sub>i</sub>) vacío | (U) |
+| E-RET-02 | retorno invasivo | retorno cambia el objeto | (1) |
+| E-PL-01 | edad atribuida a totalidad absoluta | (C<sub>i</sub>= T) | (1) |
+| E-PL-02 | edad de señal atribuida a objeto | señal ≠ objeto | (1) |
+| E-PL-03 | edad de modelo atribuida a totalidad | modelo ≠ totalidad | (1) |
+| E-H-01 | hidrógeno como (ε<sub>-0</sub>) | (H=ε<sub>-0</sub>) | (1) |
+| E-H-02 | H como límite universal cerrado | (H=A<sub>min</sub><sup>univ</sup>) | (U) |
+| E-PREH-01 | preH como átomo cerrado | preH = H estable | (1) |
+| E-LAB-01 | laboratorio altera valor tabulado | salida no tabulada | (1) |
+| E-LAB-02 | laboratorio sin control negativo | adversarial ausente | (1) |
+| E-LAB-03 | pase silencioso | fallo no reportado | (1) |
 
-Entonces N₀(v)+N₁(v)+Nᵁ(v)=n.
+## VI.22. Tabla de salida global esperada
 
-El umbral rector heredado del SV es T(n)=⌊7n/9⌋. En la célula canónica SV(3,9), T(9)=7. En granularidad SV(6,36), T(36)=28.
+| Magnitud global | Valor | Unidad | Estatuto | Residual | Lectura formal |
+| --- | --- | --- | --- | --- | --- |
+| Edad de la totalidad absoluta | no aplicable | no aplicable | no admisible | (Δ<sub>plano</sub>=1) si se intenta | NO ADMISIBLE |
+| edad concreta del observable retornado del contenido observable | 13.800.000.000 | años julianos | resultado físico retornado | (0) | (0) |
+| edad concreta del observable retornado en SV | 3.919.453.920.000.000.000 | (UE<sub>MFC</sub>) | resultado transductivo | (0) | (0) |
+| Conversión por año juliano | 284.018.400 | (UE<sub>MFC</sub>/a<sub>J</sub>) | exacta por definición | (0) | (0) |
+| Error de plano | 0 | adimensional | atribución corregida | (0) | (0) |
+| Error de definición | 0 | adimensional | dominio y unidad declarados | (0) | (0) |
+| Error de transducción | 0 | adimensional | retorno conservado | (0) | (0) |
+| Margen instrumental | no anulada | según medición | se conserva | no decide plano | instrumental |
 
-Definición III.1. DΣ(v)=APTO si N₀(v)≥T(n); DΣ(v)=NO_APTO si N₁(v)≥T(n); DΣ(v)=U si N₀(v)<T(n) y N₁(v)<T(n).
+## VI.23. Suficiencia del contraste declarativo
 
-**Lema III.1. Incompatibilidad de doble mayoría.** No existen v∈ Σⁿ tales que N₀(v)≥T(n) y N₁(v)≥T(n).
+Proposición V.1. Si todos los casos positivos de la matriz de contraste cierran con (Δ=0), todos los controles negativos producen la salida esperada, la conversión SI ↔︎ SV reproduce el valor tabulado y el laboratorio confirma sin modificar los valores declarados, entonces la edad concreta del observable retornado queda fijada por la tabla de contraste. Demostración. La tabla de contraste declara los dominios, las unidades, los objetos, las firmas, los residuales y los lecturas formales. Los casos positivos establecen la admisibilidad del resultado. Los controles negativos excluyen las atribuciones indebidas: totalidad absoluta, señal sin portador, línea sin dominio, hidrógeno como fundamento absoluto y cifra sin transducción. La conversión metrológica reproduce exactamente la equivalencia entre años julianos y (UE<sub>MFC</sub>). El laboratorio sólo confirma lo tabulado; no introduce valor nuevo. Por tanto, si todas las salidas coinciden con lo declarado, el resultado queda fijado como edad concreta del observable retornado. c.q.d.
 
-**Demostración.** Si ambas desigualdades se cumplieran, entonces N₀(v)+N₁(v)≥2T(n). En n=9, 2T(9)=14>9; en n=36, 2T(36)=56>36. Como N₀(v)+N₁(v)≤n, se obtiene contradicción. c.q.d.
+## VI.24. No atribución de edad a la totalidad absoluta
 
-**Lema III.2. Unicidad de dictamen celular.** Toda célula recibe un único dictamen por DΣ.
+Proposición V.2. La totalidad absoluta no admite edad física. Demostración. La edad física exige contenido evaluable dentro de un dominio, frontera de comparecencia, métrica, unidad, residual y retorno. La totalidad absoluta no comparece como contenido de un dominio físico superior. Si se le atribuyera edad, se la convertiría en objeto interno de un marco mayor. Esa hipótesis contradice su estatuto de totalidad. Luego la edad física de la totalidad absoluta no es cero ni desconocida; es no admisible. c.q.d.
 
-**Demostración.** APTO y NO_APTO son incompatibles por Lema III.1. Si no se alcanza ninguno, la definición asigna U. Luego exactamente uno de los tres dictámenes queda asignado. c.q.d.
+## VI.25. Atribución de edad al contenido observable
 
-**Proposición III.3. U local no gobierna una mayoría fuerte.** Si una célula contiene coordenadas U pero N₀(v)≥T(n) o N₁(v)≥T(n), el dictamen final no es U.
+Proposición V.3. Un contenido físico observable (C<sub>i</sub>) admite edad relativa si declara dominio, identidad, frontera, firma, magnitud, unidad, residual y retorno. Demostración. Si (C<sub>i</sub>) declara dominio, queda situado en un espacio físico de evaluación. Si declara identidad y frontera, puede distinguirse de su entorno. Si declara firma, puede vincularse a un régimen físico. Si declara magnitud y unidad, puede medirse. Si declara residual, puede emitir lectura formal. Si declara retorno, puede verificarse físicamente. La concurrencia de esas condiciones basta para atribuir edad relativa a (C<sub>i</sub>), siempre que (Δ<sub>i</sub>=0). c.q.d.
 
-**Demostración.** DΣ depende de los cardinales N₀ y N₁ respecto de T(n). La presencia de Nᵁ(v)>0 no altera el dictamen si una de las dos mayorías cualificadas ha sido alcanzada. Por tanto, U local permanece como coordenada, pero no gobierna el dictamen. c.q.d.
+## VI.26. Observable retornado concreto retornado
 
-## III.2. Células del régimen BH
+Teorema V.4. La edad concreta del observable retornado se define por: A<sub>Ωobs</sub> = A(C*) con C*⊂Ω<sub>obs</sub>, Δ(C*)=0 y firma persistente admisible. Demostración. La tabla de contraste contiene una familia de contenidos físicos observables (C<sub>i</sub>). Cada (C<sub>i</sub>) sólo entra en el conjunto de cierre si (Δ<sub>i</sub>=0). La edad concreta del observable retornado no puede tomarse de casos con (Δ=1), porque son defectuosos, ni de casos con (Δ=U), porque no cierran. Por tanto, el cierre admisible sólo puede calcularse sobre los casos con residual nulo. c.q.d.
 
-Se definen las siguientes células:
+## VI.27. Conversión exacta del resultado
 
-v_TE(Γᴮᴴ) ∈ Σⁿ: transmisión exterior general.
-v_L(Φᴸₛᵥ,Γᴮᴴ) ∈ Σⁿ: transmisión exterior de luz factual.
-v_INT(Γᴮᴴ) ∈ Σⁿ: saturación interior.
-v_μ(Γᴮᴴ) ∈ Σⁿ: cierre de μ.
-v_λ(Γᴮᴴ) ∈ Σⁿ: cierre de λ.
-v_𝓝★(Γᴮᴴ) ∈ Σⁿ: verificador rector.
-v_NOEXT(Γᴮᴴ) ∈ Σⁿ: ausencia de resto exterior formulable.
-v_ABS(M) ∈ Σⁿ: absorción de un planteamiento físico M.
+Demostración V.5. La equivalencia entre (13 800 000 000) años julianos y (3 919 453 920 000 000 000 UE<sub>MFC</sub>) es exacta bajo las definiciones metrológicas de la tabla de contraste. Demostración. Por definición: 1,a<sub>J</sub>=31 557 600,s. Por definición transductiva: 1,s=9,UE<sub>MFC</sub>. Luego: 1,a<sub>J</sub>=31 557 600×9,UE<sub>MFC</sub>284 018 400,UE<sub>MFC</sub>. Multiplicando: 13 800 000 000 × 284 018 400 = 3 919 453 920 000 000 000. No queda parte decimal, resto ni redondeo interno. c.q.d.
 
-La célula v_TN queda descompuesta:
+## VI.28. Síntesis
 
-v_TN = v_μ ⊕ v_λ ⊕ v_𝓝★.
+La matriz de contraste físico queda cerrada como registro declarativo completo. Sus valores, dominios, unidades, residuales, controles negativos, códigos de error y salidas esperadas quedan fijados antes de la ejecución del laboratorio. El laboratorio reproducible no deberá hallar el resultado. Deberá confirmar: Edad( T)=NO ADMISIBLE. A<sub>Ωobs</sub><sup>ret</sup>=13 800 000 000,a<sub>J</sub>. A<sub>Ωobs</sub><sup>SV</sup>=3 919 453 920 000 000 000,UE<sub>MFC</sub>. ε<sub>plano</sub>=0. ε<sub>def</sub>=0. ε<sub>trans</sub>=0. La sección queda gobernada por la regla final de trazabilidad: todo caso del texto debe corresponder a registro, transductor o catálogo de errores; todo caso de la tabla de contraste debe tener lectura textual suficiente; toda salida del laboratorio debe reproducir una salida tabulada, no inventarla.
 
-Con:
+# Anexo I. Teorema, demostración y cálculo exacto del ciclo observable y de sus objetos físicos
 
-DΣ(v_μ)=APTO ⇔ μ=0.
-DΣ(v_λ)=APTO ⇔ λ=0.
-DΣ(v_𝓝★)=APTO ⇔ 𝓝★ₛᵥ=0.
+Índice propio del Anexo I
 
-Por tanto:
+El Anexo I se organiza en los siguientes puntos: estatuto del anexo; definiciones de ciclo observable, estado actual, último cambio estructural, fin de ciclo y suceso activador; criterio transductivo condicionado de simetría del ciclo observable; no edad de la totalidad absoluta y edad exacta del contenido observable; simetría transductiva del ciclo observable; cálculo exacto del estado actual; cálculo exacto del fin de ciclo observable; cálculo exacto del tramo restante; último cambio estructural observable; fin de los observables y reinicio de ciclo por suceso activador; tabla escalar y transductiva completa; retorno inverso de unidades SV a física contemporánea; contraste de no contradicción con la Teoría del TODO y de la NADA; y síntesis final del anexo.
 
-C_TN=0 ⇔ μ=0 y λ=0 y 𝓝★ₛᵥ=0.
+I.A. Estatuto del anexo
 
-**Teorema III.4. Eliminación de opacidad TN.** La relación entre v_TN y la triple condición (μ,λ,𝓝★ₛᵥ) queda completamente determinada por v_μ, v_λ y v_𝓝★.
+Este anexo fija el cálculo exacto del ciclo observable, no de la totalidad absoluta. La totalidad absoluta no recibe edad física; los contenidos observables sí reciben edad relativa cuando están definidos por dominio, frontera, identidad, métrica, unidad, residual y retorno. La distinción es obligatoria. La formulación sobre imperfección preformal y espacio separa la pregunta por el universo físico observable de la condición preformal y de la totalidad rectora: las teorías cosmológicas físicas quedan tratadas como regímenes posteriores, absorbibles por dominio, pero no como fundamento absoluto de la primera distinguibilidad ni del TODO. La formulación de agujero negro conserva, además, que todo suceso realizado que alcanza clausura retorna al Todo como traza factual clausurada, sin convertirse en (U), sin reaparecer como copia, sin reescribir su cadena append-only y sin desaparecer sin traza. Por tanto, este anexo no calcula una edad de la totalidad. Calcula: A<sub>Ωobs</sub>, la edad relativa del contenido observable retornado, y extiende ese cálculo, bajo criterio transductivo condicionado explícito, hasta el fin del ciclo observable y el reinicio por suceso activador.
 
-**Demostración.** v_TN no se toma como célula indiferenciada. Se define como composición declarada de tres células, cada una con equivalencia formal: v_μ con μ=0, v_λ con λ=0 y v_𝓝★ con 𝓝★ₛᵥ=0. C_TN=0 se define por la conjunción de los tres dictámenes APTO. No queda coordenada ni condición externa sin asignación. c.q.d.
+I.B. Definiciones de ciclo observable, estado actual, último cambio estructural, fin de ciclo y suceso activador Se define el ciclo observable como: C<sub>obs</sub>(S<sub>ini</sub>,S<sub>act</sub>,S<sub>ult</sub>,S<sub>fin</sub>,S<sub>react</sub>). Donde: S<sub>ini</sub>es el inicio del dominio observable, no el inicio de la totalidad absoluta. S<sub>act</sub>es el estado actual de edad concreta del observable retornado. S<sub>ult</sub>es el último cambio estructural observable inmediatamente anterior al cierre del ciclo. S<sub>fin</sub>es el fin del ciclo observable. S<sub>react</sub>es el suceso activador de reinicio de ciclo, añadido append-only, sin borrar ni reescribir el ciclo clausurado. La edad relativa se mide con: 1,a<sub>J</sub>=31 557 600,s. 1,s=9,UE<sub>MFC</sub>. Luego: 1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>.
 
----
+I.C. Criterio transductivo condicionado de simetría del ciclo observable
 
-# IV. Separación formal entre U y M_N2-SV
+El criterio transductivo condicionado de simetría del ciclo observable no atribuye edad a la totalidad absoluta ni convierte el ciclo observable en totalidad. Opera sólo dentro del dominio observable ya declarado y sirve para calcular el tramo estructural restante bajo la condición explícita de simetría transductiva. Por tanto, los valores derivados de fin de ciclo y tramo restante no sustituyen el resultado central de la obra, sino que lo prolongan dentro de un dominio interno y condicionado. Se adopta el siguiente criterio transductivo condicionado: A<sub>fin</sub>=2A<sub>act</sub>. Este criterio no atribuye edad a la totalidad absoluta. Sólo afirma simetría transductiva del ciclo observable: S<sub>ini</sub> → S<sub>act</sub> → S<sub>fin</sub>, con: A(S<sub>act</sub>)-A(S<sub>ini</sub>) A(S<sub>fin</sub>)-A(S<sub>act</sub>). Por tanto: A<sub>restante</sub>A<sub>act</sub>. El criterio se aplica al dominio observable, no al TODO. Así no contradice que la totalidad absoluta no envejece ni que el cierre de un ciclo se conserve como traza append-only.
 
-## IV.1. Diferencia de tipo
+I.D. Teorema I.1. No edad de la totalidad absoluta y edad exacta del contenido observable
 
-U pertenece al alfabeto Σ. Es marca ternaria de no clausura suficiente en una coordenada o dictamen celular.
+Teorema I.1. La totalidad absoluta no admite edad física; el contenido observable retornado sí admite edad relativa exacta cuando su dominio, unidad, residual y retorno quedan declarados. Demostración. La edad física exige objeto o dominio interno, frontera, métrica, unidad y retorno. La totalidad absoluta no comparece como contenido dentro de un dominio físico superior. Si se le atribuyera edad, se la convertiría en objeto físico interno de un marco mayor, lo que contradice su estatuto de totalidad. Por tanto: Edad( T)=NO ADMISIBLE. El contenido observable, en cambio, pertenece a un dominio físico interno: C<sub>i</sub>⊂Ω<sub>obs</sub>. Si declara identidad, métrica, unidad, residual y retorno, admite edad relativa. Bajo la tabla de contraste de la formulación, el observable retornado retornado queda fijado en: A<sub>act</sub>=13 800 000 000,a<sub>J</sub>. Como: 1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>, entonces: A<sub>act</sub>= 13 800 000 000 × 284 018 400 = 3 919 453 920 000 000 000,UE<sub>MFC</sub>. Luego la edad exacta pertenece al contenido observable retornado, no a la totalidad absoluta. c.q.d.
 
-M_N2-SV pertenece al dominio de modos de la NADA admisible dentro de la Teoría del TODO y de la NADA. Es cierre interno sin resto exterior formulable bajo μ=0, λ=0 y 𝓝★ₛᵥ=0.
+I.E. Teorema I.2. Simetría transductiva del ciclo observable
 
-Tipo(U)=marca celular de no clausura.
-Tipo(M_N2-SV)=modo rector de clausura interna.
+Teorema I.2. Bajo el criterio transductivo condicionado de simetría del ciclo observable, el fin del ciclo observable se sitúa en: 27 600 000 000,a<sub>J</sub>. Y en unidades SV: 7 838 907 840 000 000 000,UE<sub>MFC</sub>. Demostración. Por criterio transductivo condicionado: A<sub>fin</sub>=2A<sub>act</sub>. Como: A<sub>act</sub>=13 800 000 000,a<sub>J</sub>, se obtiene: A<sub>fin</sub>= 2×13 800 000 000,a<sub>J</sub>27 600 000 000,a<sub>J</sub>. En unidades SV: A<sub>act</sub>= 3 919 453 920 000 000 000,UE<sub>MFC</sub>. Luego: A<sub>fin</sub>= 2× 3 919 453 920 000 000 000 7 838 907 840 000 000 000,UE<sub>MFC</sub>. No hay redondeo, resto ni decimal. c.q.d.
 
-## IV.2. Teorema de no subsunción
+I.F. Cálculo exacto del estado actual
 
-**Teorema IV.1. M_N2-SV≠U.**
+El estado actual del contenido observable retornado se fija como: A<sub>act</sub>=13 800 000 000,a<sub>J</sub>. Conversión a segundos: 13 800 000 000 × 31 557 600 435,494,880,000,000,000,s. Conversión a unidades SV: 435,494,880,000,000,000 × 9 3 919 453 920 000 000 000,UE<sub>MFC</sub>. Por tanto: A<sub>act</sub>= 13 800 000 000,a<sub>J</sub>435,494,880,000,000,000,s 3 919 453 920 000 000 000,UE<sub>MFC</sub>. I.G. Cálculo exacto del fin de ciclo observable Por simetría transductiva: A<sub>fin</sub>=2A<sub>act</sub>. En años julianos: A<sub>fin</sub>2 × 13 800 000 000 = 27 600 000 000,a<sub>J</sub>. En segundos: 27 600 000 000 × 31 557 600 870,989,760,000,000,000,s. En unidades SV: 870,989,760,000,000,000 × 9 7 838 907 840 000 000 000,UE<sub>MFC</sub>. Por tanto: A<sub>fin</sub>= 27 600 000 000,a<sub>J</sub>870,989,760,000,000,000,s 7 838 907 840 000 000 000,UE<sub>MFC</sub>.
 
-**Demostración.** U aparece cuando el aparato no alcanza clausura suficiente. M_N2-SV aparece cuando el verificador rector ha cerrado la frontera común por μ=0, λ=0 y 𝓝★ₛᵥ=0. Si M_N2-SV fuese U, el mismo estado sería cierre rector y no cierre suficiente. Eso contradice la unicidad de dictamen y la función del verificador. Por diferencia de tipo y por contradicción de estatuto, M_N2-SV no es U. c.q.d.
+I.H. Cálculo exacto del tramo restante
 
-**Teorema IV.2. Postᴮᴴ no puede ser U en régimen cerrado.**
+El tramo restante desde el estado actual hasta el fin del ciclo observable es: A<sub>restante</sub>A<sub>fin</sub>-A<sub>act</sub>. En años julianos: A<sub>restante</sub>27 600 000 000 13 800 000 000 13 800 000 000,a<sub>J</sub>. En segundos: A<sub>restante</sub>870,989,760,000,000,000 435,494,880,000,000,000 435,494,880,000,000,000,s. En unidades SV: A<sub>restante</sub>7 838 907 840 000 000 000 3 919 453 920 000 000 000 3 919 453 920 000 000 000,UE<sub>MFC</sub>. Por tanto: A<sub>restante</sub>= 13 800 000 000,a<sub>J</sub>435,494,880,000,000,000,s 3 919 453 920 000 000 000,UE<sub>MFC</sub>.
 
-**Demostración.** En régimen cerrado BHₛᵥ=0, se obtiene C_TN=0 y C_NOEXT=0. Por C_TN=0, μ=0, λ=0 y 𝓝★ₛᵥ=0. Por la definición de M_N2-SV, esa triple condición produce cierre interno sin resto exterior formulable. Por C_NOEXT=0, Postᴮᴴ adopta ese cierre. Por Teorema IV.1, M_N2-SV≠U. Luego Postᴮᴴ≠U. c.q.d.
+I.I. Último cambio estructural observable
 
-**Corolario IV.3. Una U local en v_μ, v_λ o v_𝓝★ no implica U postfrontera si DΣ(v_μ), DΣ(v_λ) y DΣ(v_𝓝★) son APTO.**
+El último cambio estructural observable se define como el último suceso elemental del ciclo observable antes del cierre: S<sub>ult</sub>=S<sub>fin</sub><sup>-</sup>. En unidades discretas del medidor factual de ciclo, si el cierre se produce en: A<sub>fin</sub><sup>SV</sup> = 7 838 907 840 000 000 000,UE<sub>MFC</sub>, entonces el último suceso elemental anterior al cierre se sitúa en: A<sub>ult</sub><sup>SV</sup>A<sub>fin</sub><sup>SV</sup>-1,UE<sub>MFC</sub>. Por tanto: A<sub>ult</sub><sup>SV</sup> = 7,838,907,839,999,999,999,UE<sub>MFC</sub>. En años julianos: A<sub>ult</sub><sup>ret</sup> = 27 600 000 000,a<sub>J</sub>1/284 018 400,a<sub>J</sub>. En segundos: A<sub>ult</sub><sup>ret</sup> = 870,989,760,000,000,000,s 1/9,s. Por tanto: S<sub>ult</sub> no es un nuevo ciclo; es el último suceso elemental observable antes de S<sub>fin</sub>.
 
-**Demostración.** Por Proposición III.3, U local no gobierna una mayoría fuerte. Si las tres células alcanzan APTO, C_TN=0. Por Teorema IV.2, Postᴮᴴ=M_N2-SV. c.q.d.
+I.J. Fin de los observables y reinicio de ciclo por suceso activador
 
----
+El fin de los observables se fija en: S<sub>fin</sub>. Con edad escalar: A<sub>fin</sub>=27 600 000 000,a<sub>J</sub>. Con edad transductiva: A<sub>fin</sub><sup>SV</sup>=7 838 907 840 000 000 000,UE<sub>MFC</sub>. El cierre del ciclo observable no borra el ciclo. No reescribe sus sucesos. No transforma sus contenidos en inexistentes. La teoría del régimen de clausura exige que lo clausurado retorne como traza factual al Todo, sin convertirse en (U), sin copia, sin reescritura y sin desaparición sin traza. El suceso activador se define como: S<sub>react</sub>: S<sub>fin</sub>^ S<sub>0</sub><sup>nuevo</sup>. Donde: S<sub>fin</sub>^ es el suceso de clausura del ciclo observable; S<sub>0</sub><sup>nuevo</sup>es el primer suceso del ciclo observable ulterior. No hay reescritura: Γ<sub>obs</sub><sup>(k+1)</sup> ≠ reescritura(Γ<sub>obs</sub><sup>(k)</sup>). No hay copia: Γ<sub>obs</sub><sup>(k+1)</sup> ≠ copia(Γ<sub>obs</sub><sup>(k)</sup>). No hay desaparición sin traza: Γ<sub>obs</sub><sup>(k)</sup> → ∅. Hay clausura y adición append-only: Γ<sub>obs</sub><sup>(k)</sup> → Γ<sub>obs</sub><sup>(k)</sup> → Γ<sub>obs</sub><sup>(k+1)</sup>.
 
-# V. Dominio, proyección, invariantes y residual del régimen BH
+I.K. Tabla escalar y transductiva completa
 
-## V.1. Dominio Ωᴮᴴ
+| Punto del ciclo observable | Símbolo | Años julianos | Segundos | Unidades SV | Estatuto |
+| --- | --- | --- | --- | --- | --- |
+| Inicio del observable | (S<sub>ini</sub>) | 0 | 0 | 0 | inicio de dominio observable |
+| Estado actual | (S<sub>act</sub>) | 13.800.000.000 | 435.494.880.000.000.000 | 3.919.453.920.000.000.000 | contenido observable retornado actual |
+| Último suceso elemental antes del cierre | (S<sub>ult</sub>) | (27.600.000.000-1/284.018.400) | (870.989.760.000.000.000-1/9) | 7.838.907.839.999.999.999 | último cambio estructural observable |
+| Fin de ciclo observable | (S<sub>fin</sub>) | 27.600.000.000 | 870.989.760.000.000.000 | 7.838.907.840.000.000.000 | cierre del ciclo observable |
+| Tramo restante desde estado actual | (S<sub>act</sub>→ S<sub>fin</sub>) | 13.800.000.000 | 435.494.880.000.000.000 | 3.919.453.920.000.000.000 | mitad final del ciclo observable |
+| Suceso activador | (S<sub>react</sub>) | frontera de reinicio | frontera de reinicio | índice nuevo (0) del ciclo ulterior | reapertura append-only |
 
-Ωᴮᴴ es el subdominio de trayectorias Γ del campo unificado que permite evaluar: 𝓕ₛᵥ, Πᴮᴴ, ∂Ωᴮᴴ, Xᴮᴴ, Φᴸₛᵥ, Ωᵗʰ,ᴮᴴ, v_TE, v_L, v_INT, v_μ, v_λ, v_𝓝★, v_NOEXT, μ, λ, 𝓝★ₛᵥ, Δᴮᴴ, Rᴮᴴ, Ξ_AST→SV, Ξ_SV→AST y v_ABS(M).
+I.L. Retorno inverso: de unidades SV a física contemporánea
 
-**Proposición V.1. Condición de evaluabilidad.** Si alguno de esos componentes no es evaluable, Γ no pertenece a Ωᴮᴴ.
+La inversa de la transducción se obtiene dividiendo por (9) para volver a segundos: A[s]=A[UE<sub>MFC</sub>]9. Y dividiendo después por: 31 557 600 para volver a años julianos: A[a<sub>J</sub>]= A[UE<sub>MFC</sub>]9×31 557 600. Estado actual: 3 919 453 920 000 000 000 / 9 435,494,880,000,000,000,s. 435,494,880,000,000,000 / 31 557 600 13 800 000 000,a<sub>J</sub>. Fin de ciclo: 7 838 907 840 000 000 000 / 9 870,989,760,000,000,000,s. 870,989,760,000,000,000 / 31 557 600 27 600 000 000,a<sub>J</sub>. La inversa conserva exactamente los valores: SV→ SI→ SV sin pérdida, sin decimal y sin residuo.
 
-**Demostración.** Ωᴮᴴ se define como dominio de evaluación simultánea. La falta de cualquier componente impide construir Rᴮᴴ completo y, por tanto, impide decidir BHₛᵥ=0. c.q.d.
+I.M. Contraste de no contradicción con la Teoría del TODO y de la NADA
 
-## V.2. Proyección Πᴮᴴ
+El criterio transductivo condicionado de simetría del ciclo observable no contradice la Teoría del TODO y de la NADA por cuatro razones. Primera: no atribuye edad al TODO. Edad( T)=NO ADMISIBLE. Segunda: calcula edades del dominio observable y de sus contenidos. C<sub>i</sub>⊂Ω<sub>obs</sub>. Tercera: el cierre del ciclo observable no destruye la cadena. La clausura se añade como suceso terminal y la reapertura comparece como suceso ulterior. Γ<sup>(k)</sup> → Γ<sup>(k)</sup> → Γ<sup>(k+1)</sup>. Cuarta: la reapertura no borra, no copia, no reescribe y no convierte el cierre en (U). La formulación de agujero negro fija expresamente que una instancia factual realizada que alcanza cierre final retorna al Todo como traza factual completa, y que no se convierte en (U), copia, reescritura ni desaparición sin traza. Por tanto, el anexo no formula: Edad(TODO)=27 600 000 000,a<sub>J</sub>. Formula: A<sub>fin</sub>( C<sub>obs</sub>) 27 600 000 000,a<sub>J</sub>. Esto conserva la distinción entre totalidad absoluta y ciclo observable.
 
-Πᴮᴴ: Ω_UNIF → Ωᴮᴴ.
+I.N. Síntesis final del anexo
 
-La proyección toma una trayectoria del campo unificado y devuelve su régimen de clausura extrema de horizonte. Para ser legítima debe declarar dominio, codominio, invariantes, residual y dictamen.
+El anexo fija cuatro resultados. Primero: Edad( T)=NO ADMISIBLE. Segundo: A<sub>act</sub> = 13 800 000 000 a<sub>J</sub>; A<sub>act</sub><sup>SV</sup> = 3 919 453 920 000 000 000 UE<sub>MFC</sub>. Tercero, bajo criterio transductivo condicionado de simetría del ciclo observable: A<sub>fin</sub> = 27 600 000 000 a<sub>J</sub>; A<sub>fin</sub><sup>SV</sup> = 7 838 907 840 000 000 000 UE<sub>MFC</sub>. Cuarto: A<sub>restante</sub> = 13 800 000 000 a<sub>J</sub>; A<sub>restante</sub><sup>SV</sup> = 3 919 453 920 000 000 000 UE<sub>MFC</sub>. El último suceso elemental observable anterior al cierre se sitúa en: A<sub>ult</sub><sup>SV</sup> = 7,838,907,839,999,999,999,UE<sub>MFC</sub>. Y el suceso activador reinicia el ciclo como nuevo suceso append-only, sin borrar, copiar ni reescribir el ciclo clausurado: S<sub>react</sub>: S<sub>fin</sub>^ → S<sub>0</sub><sup>nuevo</sup>.
 
-**Teorema V.2. Legitimidad de proyección BH.** Πᴮᴴ es legítima si Ωᴮᴴ, Iᴮᴴ, Δᴮᴴ y D_BH quedan declarados y no introducen fuente nueva.
+I.O. Corolario I.1. Fracción actual exacta del ciclo observable y de sus objetos físicos
 
-**Demostración.** La legitimidad de una proyección exige dominio, invariantes, residual y dictamen. Ωᴮᴴ aporta el dominio; Iᴮᴴ fija invariantes; Δᴮᴴ mide defectos; D_BH decide el régimen. Si no introduce fuente nueva, la proyección no altera la jerarquía doctrinal. c.q.d.
+Corolario I.1. Bajo el criterio transductivo condicionado de simetría del ciclo observable, el estado actual del contenido observable retornado ocupa exactamente la mitad del ciclo observable completo. La mitad restante posee la misma medida escalar y transductiva que la mitad ya recorrida. La fracción actual se define como: f<sub>act,obs</sub>A<sub>act</sub>A<sub>fin</sub>. Como: A<sub>act</sub>13 800 000 000 a<sub>J</sub>, y: A<sub>fin</sub>27 600 000 000 a<sub>J</sub>, entonces: f<sub>act,obs</sub>13 800 000 000/27 600 000 000 1/2. La fracción restante es: f<sub>rest,obs</sub>1-f<sub>act,obs</sub>1-1/2 1/2. Por tanto: f<sub>act,obs</sub>=1/2 f<sub>rest,obs</sub>=1/2 f<sub>act,obs</sub>+f<sub>rest,obs</sub>=1. La regla no atribuye edad a la totalidad absoluta. Atribuye fracción de ciclo al dominio observable y a sus contenidos físicos retornados. Esta lectura preserva la distinción entre dominios internos y totalidad, ya fijada por la doctrina de pluralidad interna de dominios y por la exigencia de transducción con dominio, invariantes, residual y retorno físico controlado.
 
-## V.3. Invariantes Iᴮᴴ
+I.O.1. Tabla transductiva SV ↔︎ física contemporánea del ciclo observable
 
-Iᴮᴴ contiene: Σ, T(n), DΣ, 𝓕ₛᵥ satisfecho, U_unif_SV con cobertura sectorial, 𝓔ₛᵥ en frontera electromagnética, Eᵗʰᵉʳᵐᵒₛᵥ en sección interior, Hₛᵥ no decreciente, DΣ(v_TE)=NO_APTO, DΣ(v_L)=NO_APTO, DΣ(v_INT)=SATURACIÓN, μ=0, λ=0, 𝓝★ₛᵥ=0, Postᴮᴴ=M_N2-SV, M_N2-SV≠U, clasificación de absorción de modelos contemporáneos y no introducción de operador fuente nuevo.
+| Magnitud | Física contemporánea | Unidad física | SV | Unidad SV | Residual | Lectura formal |
+| --- | --- | --- | --- | --- | --- | --- |
+| Estado inicial observable | 0 | (a<sub>J</sub>) | 0 | (UE<sub>MFC</sub>) | 0 | admisible |
+| Estado actual observable | 13.800.000.000 | (a<sub>J</sub>) | 3.919.453.920.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible |
+| Tramo restante observable | 13.800.000.000 | (a<sub>J</sub>) | 3.919.453.920.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible |
+| Fin de ciclo observable | 27.600.000.000 | (a<sub>J</sub>) | 7.838.907.840.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible |
+| Fracción actual | (1/2) | adimensional | (1/2) | adimensional | 0 | admisible |
+| Fracción restante | (1/2) | adimensional | (1/2) | adimensional | 0 | admisible |
+| Suma de fracciones | 1 | adimensional | 1 | adimensional | 0 | admisible |
+| Error de conversión | 0 | adimensional | 0 | adimensional | 0 | admisible |
 
-## V.4. Residual compuesto y vector de defecto
+I.O.2. Tabla de suma y resta absoluta del ciclo observable
 
-Δᴮᴴ(Γ)=Δ_UNIF ⊕ Δ_AST ⊕ Δ_TE ⊕ Δ_L ⊕ Δ_INT ⊕ Δ_EM ⊕ Δ_TH ⊕ Δ_H ⊕ Δ_TN ⊕ Δ_NOEXT ⊕ Δ_ABS.
+| Operación | Años julianos | Segundos | Unidades SV | Resultado |
+| --- | --- | --- | --- | --- |
+| Actual + restante | (13.800.000.000+13.800.000.000) | (435.494.880.000.000.000+435.494.880.000.000.000) | (3.919.453.920.000.000.000+3.919.453.920.000.000.000) | fin de ciclo |
+| Resultado de la suma | 27.600.000.000 | 870.989.760.000.000.000 | 7.838.907.840.000.000.000 | exacto |
+| Fin − actual | (27.600.000.000-13.800.000.000) | (870.989.760.000.000.000-435.494.880.000.000.000) | (7.838.907.840.000.000.000-3.919.453.920.000.000.000) | restante |
+| Resultado de la resta | 13.800.000.000 | 435.494.880.000.000.000 | 3.919.453.920.000.000.000 | exacto |
+| Fin − restante | (27.600.000.000-13.800.000.000) | (870.989.760.000.000.000-435.494.880.000.000.000) | (7.838.907.840.000.000.000-3.919.453.920.000.000.000) | actual |
+| Resultado inverso | 13.800.000.000 | 435.494.880.000.000.000 | 3.919.453.920.000.000.000 | exacto |
 
-Rᴮᴴ(Γ)=(R_UNIF,R_AST,R_TE,R_L,R_INT,R_EM,R_TH,R_H,R_TN,R_NOEXT,R_ABS), con cada Rˣ ∈ {0,1}.
+I.O.3. Tabla de objetos observables bajo fracción común de ciclo
 
-Rˣ=0 significa ausencia de defecto.
-R_X=1 significa defecto refutador.
+| Clase de objeto observable | Dominio | Edad actual de referencia | Fracción actual del ciclo | Edad restante por simetría | Fin de ciclo | Lectura formal |
+| --- | --- | --- | --- | --- | --- | --- |
+| Observable retornado | (Ω<sub>obs</sub>) | 13.800.000.000 (a<sub>J</sub>) | (1/2) | 13.800.000.000 (a<sub>J</sub>) | 27.600.000.000 (a<sub>J</sub>) | admisible |
+| Galaxias profundas admisibles | (Ω<sub>gal</sub>⊂Ω<sub>obs</sub>) | (≤13.800.000.000 a<sub>J</sub>) | (≤1/2) | (A<sub>fin</sub>-A<sub>gal</sub>) | 27.600.000.000 (a<sub>J</sub>) | admisible si (Δ=0) |
+| Estrellas antiguas admisibles | (Ω_★⊂Ω<sub>obs</sub>) | (≤13.800.000.000 a<sub>J</sub>) | (≤1/2) | (A<sub>fin</sub>-A_★) | 27.600.000.000 (a<sub>J</sub>) | admisible si (Δ=0) |
+| Hidrógeno como firma persistente | (Ω<sub>H</sub>) | (≤13.800.000.000 a<sub>J</sub>) | (≤1/2) | (A<sub>fin</sub>-A<sub>H</sub>) | 27.600.000.000 (a<sub>J</sub>) | admisible como firma |
+| Prehidrógeno como transición | (Ω<sub>preH→ H</sub>) | (≤13.800.000.000 a<sub>J</sub>) | (≤1/2) | (A<sub>fin</sub>-A<sub>preH</sub>) | 27.600.000.000 (a<sub>J</sub>) | admisible como transición |
+| Señales luminosas retornadas | (Ω<sub>L</sub><sup>ret</sup>) | (≤13.800.000.000 a<sub>J</sub>) | (≤1/2) | (A<sub>fin</sub>-A<sub>L</sub>) | 27.600.000.000 (a<sub>J</sub>) | admisible con emisor y firma |
+| Mapas cósmicos | (Ω<sub>mapa</sub>) | conjunto de edades (A(C<sub>i</sub>)) | ( A(C<sub>i</sub>)/A<sub>fin</sub>) | (A<sub>fin</sub>- A(C<sub>i</sub>)) | 27.600.000.000 (a<sub>J</sub>) | registro, no objeto único |
 
-**Definición V.3.** BHₛᵥ(Γ)=0 ⇔ Rᴮᴴ(Γ)=(0,0,0,0,0,0,0,0,0,0,0).
+La tabla distingue contenido concreto y objetos particulares. El observable retornado alcanza la fracción exacta: 1/2. Los objetos particulares quedan acotados por: 0≤ A(C<sub>i</sub>)≤ A<sub>act</sub>. Por tanto: 0≤ A(C<sub>i</sub>)A<sub>fin</sub> ≤ 1/2. I.O.4. Teorema I.3. Fracción actual exacta del contenido observable.
 
-**Teorema V.4. Falsabilidad interna.** Todo defecto R_X=1 refuta el régimen BH cerrado.
+Teorema I.3. Bajo el criterio transductivo condicionado de simetría del ciclo observable, el contenido observable retornado actualmente ocupa exactamente la mitad del ciclo observable completo. Demostración. Por definición del anexo: A<sub>act</sub>=13 800 000 000 a<sub>J</sub>. Por hipótesis de simetría: A<sub>fin</sub>=2A<sub>act</sub>. Luego: A<sub>fin</sub>= 27 600 000 000 a<sub>J</sub>. La fracción actual es: f<sub>act,obs</sub>A<sub>act</sub>A<sub>fin</sub>A<sub>act</sub>2A<sub>act</sub>1/2. La fracción restante es: f<sub>rest,obs</sub>A<sub>fin</sub>-A<sub>act</sub>A<sub>fin</sub>2A<sub>act</sub>-A<sub>act</sub>2A<sub>act</sub>1/2. Por tanto, el estado actual y el tramo restante son simétricos en el ciclo observable. c.q.d.
 
-**Demostración.** La ecuación de régimen se define como anulación completa del vector Rᴮᴴ. Si algún componente vale 1, el vector no es nulo. Entonces BHₛᵥ(Γ)≠0. c.q.d.
+I.O.5. Contraste laboratorial expuesto
 
----
+| Prueba | Entrada | Operación | Salida esperada | Lectura formal |
+| --- | --- | --- | --- | --- |
+| LAB-C1-01 | (13.800.000.000 a<sub>J</sub>) | (a<sub>J</sub>→ s) | (435.494.880.000.000.000 s) | 0 |
+| LAB-C1-02 | (435.494.880.000.000.000 s) | (s→ UE<sub>MFC</sub>) | (3.919.453.920.000.000.000 UE<sub>MFC</sub>) | 0 |
+| LAB-C1-03 | (3.919.453.920.000.000.000 UE<sub>MFC</sub>) | (×2) | (7.838.907.840.000.000.000 UE<sub>MFC</sub>) | 0 |
+| LAB-C1-04 | (27.600.000.000 a<sub>J</sub>) | (a<sub>J</sub>→ UE<sub>MFC</sub>) | (7.838.907.840.000.000.000 UE<sub>MFC</sub>) | 0 |
+| LAB-C1-05 | (13.800.000.000/27.600.000.000) | fracción | (1/2) | 0 |
+| LAB-C1-06 | (27.600.000.000-13.800.000.000) | resta | (13.800.000.000 a<sub>J</sub>) | 0 |
+| LAB-C1-07 | (7.838.907.840.000.000.000-3.919.453.920.000.000.000) | resta SV | (3.919.453.920.000.000.000 UE<sub>MFC</sub>) | 0 |
+| LAB-C1-08 | (Edad( T)) | atribución a totalidad absoluta | NO ADMISIBLE | 1 como bloqueo |
+| LAB-C1-09 | (A<sub>act</sub>→ A<sub>fin</sub>→ A<sub>restante</sub>) | retorno inverso | sin resto | 0 |
 
-# VI. Ecuación factual del agujero negro
+El laboratorio confirma valores tabulados; no los descubre. Esta disciplina sigue la regla de no clausura espuria: sin residual no hay cierre, y una salida no declarada no puede sustituir a la tabla de contraste.
 
-## VI.1. Forma por vector de defecto
+I.P. Corolario I.2. Ciclo estructural de la Vía Láctea y de su entorno observable
 
-BHₛᵥ(Γᴮᴴ)=0 ⇔ Rᴮᴴ(Γᴮᴴ)=(0,0,0,0,0,0,0,0,0,0,0).
+Corolario I.2. Tomando como dominio físico la Vía Láctea y su entorno estructural observable, la misma regla transductiva permite declarar edad actual, tramo restante, fracción de ciclo y fin de ciclo del conjunto local, siempre que el dominio se trate como contenido físico interno y no como totalidad absoluta. Se define: E<sub>VL</sub>Vía Láctea, halo galáctico, cúmulos globulares, satélites, corrientes estelares, gas, estrellas antiguas, remanentes, púlsares, entorno gravitatorio local . El valor escalar de registro para la edad estructural actual del dominio galáctico local se fija como: A<sub>VL,act</sub>= 13 600 000 000 a<sub>J</sub>. Este valor no se atribuye a la totalidad absoluta. Se atribuye al dominio estructural local de la Vía Láctea y su entorno observable, como contenido físico persistente. Por simetría transductiva del dominio local: A<sub>VL,fin</sub>=2A<sub>VL,act</sub>. Por tanto: A<sub>VL,fin</sub>27 200 000 000 a<sub>J</sub>.El tramo restante es: A<sub>VL,restante</sub>A<sub>VL,fin</sub>-A<sub>VL,act</sub>13 600 000 000 a<sub>J</sub>. La fracción actual es: f<sub>VL,act</sub>13 600 000 000/27 200 000 000 1/2. La fracción restante es: f<sub>VL,rest</sub>1/2.
 
-Despliegue:
+I.P.1. Tabla transductiva SV ↔︎ física contemporánea del dominio Vía Láctea-entorno
 
-BHₛᵥ(Γᴮᴴ)=0 ⇔ C_UNIF y C_AST y C_TE y C_L y C_INT y C_EM y C_TH y C_H y C_TN y C_NOEXT y C_ABS.
+| Magnitud | Física contemporánea | Unidad física | SV | Unidad SV | Residual | Lectura formal |
+| --- | --- | --- | --- | --- | --- | --- |
+| Estado inicial del dominio local | 0 | (a<sub>J</sub>) | 0 | (UE<sub>MFC</sub>) | 0 | admisible |
+| Estado actual Vía Láctea-entorno | 13.600.000.000 | (a<sub>J</sub>) | 3.862.650.240.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible como dominio local |
+| Tramo restante Vía Láctea-entorno | 13.600.000.000 | (a<sub>J</sub>) | 3.862.650.240.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible como tramo local |
+| Fin de ciclo Vía Láctea-entorno | 27.200.000.000 | (a<sub>J</sub>) | 7.725.300.480.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible como cierre local |
+| Fracción actual local | (1/2) | adimensional | (1/2) | adimensional | 0 | admisible |
+| Fracción restante local | (1/2) | adimensional | (1/2) | adimensional | 0 | admisible |
+| Error aritmético de conversión | 0 | adimensional | 0 | adimensional | 0 | admisible |
+| Error de plano | 0 | adimensional | 0 | adimensional | 0 | admisible |
 
-Cada condición se define así:
+I.P.2. Cálculo exacto del dominio Vía Láctea-entorno
 
-C_UNIF: Γᴮᴴ preserva fórmula maestra y cobertura sectorial.
-C_AST: Γᴮᴴ representa el objeto físico de horizonte por doble traducción.
-C_TE: DΣ(v_TE)=NO_APTO.
-C_L: DΣ(v_L)=NO_APTO y Φᴸₛᵥ conserva sus quince proyecciones.
-C_INT: DΣ(v_INT)=SATURACIÓN.
-C_EM: 𝓔ₛᵥ queda satisfecho en frontera electromagnética factual.
-C_TH: Eᵗʰᵉʳᵐᵒₛᵥ queda satisfecho en sección interior.
-C_H: Hₛᵥ no decrece en trayectoria admisible.
-C_TN: μ=0 y λ=0 y 𝓝★ₛᵥ=0.
-C_NOEXT: Postᴮᴴ=M_N2-SV.
-C_ABS: todo planteamiento contemporáneo tratado queda absorbido, absorbido parcialmente o rechazado como fundamento.
+Conversión del estado actual a segundos: 13 600 000 000 × 31 557 600 429,183,360,000,000,000,s. Conversión a unidades SV: 429,183,360,000,000,000 × 9 3,862,650,240,000,000,000,UE<sub>MFC</sub>. Por tanto: A<sub>VL,act</sub>13 600 000 000,a<sub>J</sub>429,183,360,000,000,000,s 3,862,650,240,000,000,000,UE<sub>MFC</sub>. Fin de ciclo: A<sub>VL,fin</sub>2A<sub>VL,act</sub>27 200 000 000,a<sub>J</sub>. En segundos: 27 200 000 000 × 31 557 600 858,366,720,000,000,000,s. En unidades SV: 858,366,720,000,000,000 × 9 7,725,300,480,000,000,000,UE<sub>MFC</sub>.Por tanto: A<sub>VL,fin</sub>27 200 000 000,a<sub>J</sub>858,366,720,000,000,000,s 7,725,300,480,000,000,000,UE<sub>MFC</sub>. Tramo restante: A<sub>VL,restante</sub>27 200 000 000 13 600 000 000 13 600 000 000,a<sub>J</sub>. A<sub>VL,restante</sub>858,366,720,000,000,000 429,183,360,000,000,000 429,183,360,000,000,000,s. A<sub>VL,restante</sub><sup>SV</sup> = 7,725,300,480,000,000,000 3,862,650,240,000,000,000 3,862,650,240,000,000,000,UE<sub>MFC</sub>. Por tanto: A<sub>VL,restante</sub>13 600 000 000,a<sub>J</sub>429,183,360,000,000,000,s 3,862,650,240,000,000,000,UE<sub>MFC</sub>.
 
-## VI.2. Teorema de suficiencia
+I.P.3. Tabla de suma y resta absoluta de la Vía Láctea-entorno
 
-**Teorema VI.1.** Si todas las condiciones C_UNIF, C_AST, C_TE, C_L, C_INT, C_EM, C_TH, C_H, C_TN, C_NOEXT y C_ABS se cumplen, entonces Γᴮᴴ es régimen de agujero negro factual.
+| Operación | Años julianos | Segundos | Unidades SV | Resultado |
+| --- | --- | --- | --- | --- |
+| Actual local + restante local | (13.600.000.000+13.600.000.000) | (429.183.360.000.000.000+429.183.360.000.000.000) | (3.862.650.240.000.000.000+3.862.650.240.000.000.000) | fin local |
+| Resultado de la suma | 27.200.000.000 | 858.366.720.000.000.000 | 7.725.300.480.000.000.000 | exacto |
+| Fin local − actual local | (27.200.000.000-13.600.000.000) | (858.366.720.000.000.000-429.183.360.000.000.000) | (7.725.300.480.000.000.000-3.862.650.240.000.000.000) | restante local |
+| Resultado de la resta | 13.600.000.000 | 429.183.360.000.000.000 | 3.862.650.240.000.000.000 | exacto |
+| Fin local − restante local | (27.200.000.000-13.600.000.000) | (858.366.720.000.000.000-429.183.360.000.000.000) | (7.725.300.480.000.000.000-3.862.650.240.000.000.000) | actual local |
+| Resultado inverso | 13.600.000.000 | 429.183.360.000.000.000 | 3.862.650.240.000.000.000 | exacto |
 
-**Demostración.** El cumplimiento de todas las condiciones implica Rˣ=0 para todo componente. Entonces Rᴮᴴ=(0,0,0,0,0,0,0,0,0,0,0). Por Definición V.3, BHₛᵥ(Γᴮᴴ)=0. Por definición del régimen BHₛᵥ, Γᴮᴴ es agujero negro factual. c.q.d.
+I.P.4. Tabla de objetos del entorno Vía Láctea
 
-## VI.3. Teorema de necesidad
+| Clase de objeto del entorno local | Dominio | Edad actual formal | Fracción local actual | Edad restante formal | Fin local | Lectura formal |
+| --- | --- | --- | --- | --- | --- | --- |
+| Vía Láctea como dominio galáctico | (Ω<sub>VL</sub>) | 13.600.000.000 (a<sub>J</sub>) | (1/2) | 13.600.000.000 (a<sub>J</sub>) | 27.200.000.000 (a<sub>J</sub>) | admisible |
+| Halo galáctico | (Ω<sub>halo</sub>⊂Ω<sub>VL</sub>) | (A<sub>halo</sub>≤13.600.000.000) | (A<sub>halo</sub>/27.200.000.000) | (27.200.000.000-A<sub>halo</sub>) | 27.200.000.000 (a<sub>J</sub>) | admisible si (Δ=0) |
+| Cúmulos globulares antiguos | (Ω<sub>cg</sub>⊂Ω<sub>VL</sub>) | (A<sub>cg</sub>≤13.600.000.000) | (A<sub>cg</sub>/27.200.000.000) | (27.200.000.000-A<sub>cg</sub>) | 27.200.000.000 (a<sub>J</sub>) | admisible si (Δ=0) |
+| Estrellas antiguas | (Ω_★⊂Ω<sub>VL</sub>) | (A_★≤13.600.000.000) | (A_★/27.200.000.000) | (27.200.000.000-A_★) | 27.200.000.000 (a<sub>J</sub>) | admisible si (Δ=0) |
+| Satélites galácticos | (Ω<sub>sat</sub>⊂Ω<sub>VL</sub>) | (A<sub>sat</sub>≤13.600.000.000) | (A<sub>sat</sub>/27.200.000.000) | (27.200.000.000-A<sub>sat</sub>) | 27.200.000.000 (a<sub>J</sub>) | admisible si (Δ=0) |
+| Corrientes estelares | (Ω<sub>corr</sub>⊂Ω<sub>VL</sub>) | (A<sub>corr</sub>≤13.600.000.000) | (A<sub>corr</sub>/27.200.000.000) | (27.200.000.000-A<sub>corr</sub>) | 27.200.000.000 (a<sub>J</sub>) | admisible si (Δ=0) |
+| Gas del entorno local | (Ω<sub>gas</sub>⊂Ω<sub>VL</sub>) | (A<sub>gas</sub>≤13.600.000.000) | (A<sub>gas</sub>/27.200.000.000) | (27.200.000.000-A<sub>gas</sub>) | 27.200.000.000 (a<sub>J</sub>) | admisible con firma |
+| Hidrógeno local | (Ω<sub>H</sub>⊂Ω<sub>VL</sub>) | (A<sub>H</sub>≤13.600.000.000) | (A<sub>H</sub>/27.200.000.000) | (27.200.000.000-A<sub>H</sub>) | 27.200.000.000 (a<sub>J</sub>) | admisible como firma |
+| Remanentes | (Ω<sub>rem</sub>⊂Ω<sub>VL</sub>) | (A<sub>rem</sub>≤13.600.000.000) | (A<sub>rem</sub>/27.200.000.000) | (27.200.000.000-A<sub>rem</sub>) | 27.200.000.000 (a<sub>J</sub>) | admisible si (Δ=0) |
+| Púlsares locales | (Ω<sub>pul</sub>⊂Ω<sub>VL</sub>) | (A<sub>pul</sub>≤13.600.000.000) | (A<sub>pul</sub>/27.200.000.000) | (27.200.000.000-A<sub>pul</sub>) | 27.200.000.000 (a<sub>J</sub>) | admisible si (Δ=0) |
 
-**Teorema VI.2.** Si Γᴮᴴ es régimen de agujero negro factual, entonces se cumplen todas las condiciones C_UNIF, C_AST, C_TE, C_L, C_INT, C_EM, C_TH, C_H, C_TN, C_NOEXT y C_ABS.
+La regla general para todo objeto local (O<sub>j</sub>∈ E<sub>VL</sub>) es: 0≤ A(O<sub>j</sub>)≤ A<sub>VL,act</sub>. A<sub>fin</sub>(O<sub>j</sub>)=2A(O<sub>j</sub>). A<sub>restante</sub>(O<sub>j</sub>)=A(O<sub>j</sub>). Cuando se evalúa el dominio local completo: A<sub>VL,fin</sub>=2A<sub>VL,act</sub>.
 
-**Demostración.** Ser régimen BHₛᵥ significa satisfacer BHₛᵥ(Γᴮᴴ)=0. Por Definición V.3, eso equivale a Rᴮᴴ=(0,0,0,0,0,0,0,0,0,0,0). Cada componente Rˣ=0 equivale al cumplimiento de Cˣ. Luego todas las condiciones se cumplen. c.q.d.
+I.P.5. Teorema I.4. Simetría local de la Vía Láctea-entorno
 
-## VI.4. Teorema de no fuente nueva
+Teorema I.4. Bajo el criterio transductivo condicionado de simetría aplicada al dominio estructural Vía Láctea-entorno, el estado actual del dominio local ocupa exactamente la mitad de su ciclo observable local. Demostración. Se fija por registro: A<sub>VL,act</sub>=13 600 000 000 a<sub>J</sub>. Por simetría transductiva local: A<sub>VL,fin</sub>=2A<sub>VL,act</sub>. Entonces: A<sub>VL,fin</sub>=27 200 000 000 a<sub>J</sub>. La fracción actual es: f<sub>VL,act</sub>A<sub>VL,act</sub>A<sub>VL,fin</sub>A<sub>VL,act</sub>2A<sub>VL,act</sub>1/2. La fracción restante es: f<sub>VL,rest</sub>A<sub>VL,fin</sub>-A<sub>VL,act</sub>A<sub>VL,fin</sub>A<sub>VL,act</sub>2A<sub>VL,act</sub>1/2. La conversión a (UE<sub>MFC</sub>) se obtiene por: 1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>. Luego: 13 600 000 000×284 018 400 3,862,650,240,000,000,000,UE<sub>MFC</sub>. Y: 27 200 000 000×284 018 400 7,725,300,480,000,000,000,UE<sub>MFC</sub>. La simetría local queda demostrada en física contemporánea y en unidades SV. c.q.d.
 
-**Teorema VI.3.** BHₛᵥ no es operador fuente nuevo.
+I.P.6. Contraste laboratorial expuesto para Vía Láctea-entorno
 
-**Demostración.** BHₛᵥ no actúa sobre Γ para generar campo, fuerza, partícula, interacción o geometría. Se define como condición de anulación de Rᴮᴴ, cuyos componentes proceden de aparatos ya fijados por el corpus y de absorción formal de modelos físicos. Una ecuación de anulación de defectos no introduce fuente; declara régimen. c.q.d.
+| Prueba | Entrada | Operación | Salida esperada | Lectura formal |
+| --- | --- | --- | --- | --- |
+| LAB-C2-01 | (13.600.000.000 a<sub>J</sub>) | (a<sub>J</sub>→ s) | (429.183.360.000.000.000 s) | 0 |
+| LAB-C2-02 | (429.183.360.000.000.000 s) | (s→ UE<sub>MFC</sub>) | (3.862.650.240.000.000.000 UE<sub>MFC</sub>) | 0 |
+| LAB-C2-03 | (3.862.650.240.000.000.000 UE<sub>MFC</sub>) | (×2) | (7.725.300.480.000.000.000 UE<sub>MFC</sub>) | 0 |
+| LAB-C2-04 | (27.200.000.000 a<sub>J</sub>) | (a<sub>J</sub>→ UE<sub>MFC</sub>) | (7.725.300.480.000.000.000 UE<sub>MFC</sub>) | 0 |
+| LAB-C2-05 | (13.600.000.000/27.200.000.000) | fracción | (1/2) | 0 |
+| LAB-C2-06 | (27.200.000.000-13.600.000.000) | resta | (13.600.000.000 a<sub>J</sub>) | 0 |
+| LAB-C2-07 | (7.725.300.480.000.000.000-3.862.650.240.000.000.000) | resta SV | (3.862.650.240.000.000.000 UE<sub>MFC</sub>) | 0 |
+| LAB-C2-08 | objeto local sin dominio | residual | (U) | U |
+| LAB-C2-09 | Vía Láctea usada como totalidad absoluta | error de plano | NO ADMISIBLE | 1 |
+| LAB-C2-10 | objeto local con dominio, edad, unidad y retorno | transducción | valor propio (A(O<sub>j</sub>)) y resto (A(O<sub>j</sub>)) | 0 si (Δ=0) |
 
----
+I.P.7. Tabla comparativa entre ciclo observable general y dominio Vía Láctea-entorno
 
-# VII. Formas equivalentes de la fórmula del agujero negro
+| Plano | Actual (a<sub>J</sub>) | Restante (a<sub>J</sub>) | Fin (a<sub>J</sub>) | Actual (UE<sub>MFC</sub>) | Restante (UE<sub>MFC</sub>) | Fin (UE<sub>MFC</sub>) | Fracción actual |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Observable retornado | 13.800.000.000 | 13.800.000.000 | 27.600.000.000 | 3.919.453.920.000.000.000 | 3.919.453.920.000.000.000 | 7.838.907.840.000.000.000 | (1/2) |
+| Vía Láctea-entorno | 13.600.000.000 | 13.600.000.000 | 27.200.000.000 | 3.862.650.240.000.000.000 | 3.862.650.240.000.000.000 | 7.725.300.480.000.000.000 | (1/2) |
+| Diferencia actual general-local | 200.000.000 | 200.000.000 | 400.000.000 | 56.803.680.000.000.000 | 56.803.680.000.000.000 | 113.607.360.000.000.000 | — |
 
-## VII.1. Planteamiento general de equivalencia formal
+Cálculo de diferencia actual: 13 800 000 000-13 600 000 000 200,000,000,a<sub>J</sub>. 200,000,000×284 018 400 56,803,680,000,000,000,UE<sub>MFC</sub>. Cálculo de diferencia final: 27 600 000 000-27 200 000 000 400,000,000,a<sub>J</sub>. 400,000,000×284 018 400 113,607,360,000,000,000,UE<sub>MFC</sub>.
 
-La fórmula del agujero negro no se presenta en una sola grafía. Una fórmula rigurosa debe conservar su dictamen bajo transformaciones de forma. En geometría elemental una recta puede escribirse de forma explícita, implícita, punto-pendiente, canónica o paramétrica sin dejar de ser la misma recta. En este documento ocurre lo mismo con el régimen BH: la fórmula BHₛᵥ(Γᴮᴴ)=0 admite formas equivalentes siempre que no cambien el vector de defecto Rᴮᴴ, no añadan condiciones externas y no omitan ninguna condición necesaria.
+I.P.8. Lectura formal conjunto de los corolarios
 
-Sea J el conjunto ordenado de once componentes de cierre:
+Los corolarios fijan dos escalas. Primera escala: A<sub>cont,obs,act</sub>13 800 000 000 a<sub>J</sub> = 3 919 453 920 000 000 000 UE<sub>MFC</sub>. A<sub>cont,obs,fin</sub>27 600 000 000 a<sub>J</sub> = 7 838 907 840 000 000 000 UE<sub>MFC</sub>. A<sub>cont,obs,restante</sub>13 800 000 000 a<sub>J</sub> = 3 919 453 920 000 000 000 UE<sub>MFC</sub>. Segunda escala: A<sub>VL,act</sub>13 600 000 000,a<sub>J</sub>3,862,650,240,000,000,000,UE<sub>MFC</sub>. A<sub>VL,fin</sub>27 200 000 000,a<sub>J</sub>7,725,300,480,000,000,000,UE<sub>MFC</sub>. A<sub>VL,restante</sub>13 600 000 000,a<sub>J</sub>3,862,650,240,000,000,000,UE<sub>MFC</sub>. En ambas escalas: f<sub>actual</sub>=1/2. f<sub>restante</sub>=1/2. ε<sub>aritmético</sub>=0. ε<sub>transductivo</sub>=0. ε<sub>plano</sub>=0. El cierre de ciclo y la reapertura por suceso activador no contradicen la Teoría del TODO y de la NADA, porque los ciclos sucesivos son compatibles con preservación append-only y no autorizan borrado, copia ni reescritura del ciclo anterior.
 
-J = {UNIF, AST, TE, L, INT, EM, TH, H, TN, NOEXT, ABS}.
+I.Q. Corolario I.3. Prueba de contraste solar: inicio, estado actual y fin del ciclo físico del Sol
 
-Para cada j en J se tiene R_j(Γ) en {0,1}. El valor 0 significa ausencia de defecto en el componente j. El valor 1 significa defecto material que impide declarar BHₛᵥ(Γ)=0.
+Corolario I.3. La estrella denominada Sol permite una prueba de contraste independiente del ciclo observable general, porque no exige atribuir edad a la totalidad absoluta ni al universo observable completo. El Sol es un objeto físico interno, persistente, estelar, con dominio propio, historia de formación, estado actual y fin de ciclo físico modelizable. Por ello puede recibir edad física relativa bajo transducción SI ↔︎ SV. La física contemporánea sitúa al Sol como una estrella de unos (4,57×10<sup>9</sup>) años, actualmente en fase estable de fusión de hidrógeno en helio; la ESA lo describe como una estrella de aproximadamente 4,57 mil millones de años, y NASA lo presenta como una estrella de unos 4,5 mil millones de años. (Agencia Espacial Europea) La evolución futura aceptada lo conduce hacia fase de gigante roja: ESA sitúa esa transición alrededor de los 10–11 mil millones de años de edad solar, mientras que NASA expresa de forma divulgativa que al Sol le quedan unos 5 mil millones de años antes de convertirse en gigante roja. (Agencia Espacial Europea) Este corolario adopta como valor escalar de registro para el estado actual: A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>. Y como cierre normalizado de contraste para el ciclo principal solar: A<sub>☉,fin</sub>=10 000 000 000 a<sub>J</sub>. Este cierre no niega el intervalo físico (10–11) mil millones de años. Fija una frontera escalar normalizada para contraste exacto, con el fin de calcular aritmética transductiva sin decimal, sin redondeo interno y sin desplazar el margen astrofísica al plano doctrinal.
 
-Vector de defecto:
+I.Q.1. Tabla de datos físicos externos del Sol
 
-Rᴮᴴ(Γ) = (R_UNIF,R_AST,R_TE,R_L,R_INT,R_EM,R_TH,R_H,R_TN,R_NOEXT,R_ABS).
+| Magnitud | Valor físico contemporáneo | Fuente física | Uso en el corolario | Lectura formal |
+| --- | --- | --- | --- | --- |
+| Edad solar actual | (≈4,57×10<sup>9</sup> a<sub>J</sub>) | ESA / modelos solares | valor de registro actual | admisible |
+| Edad solar divulgativa | (≈4,5×10<sup>9</sup> a<sub>J</sub>) | NASA | contraste externo | admisible |
+| Fase actual | secuencia principal; fusión H→He | ESA / NASA | identidad física del objeto | admisible |
+| Futuro de gigante roja | alrededor de (10–11×10<sup>9</sup> a<sub>J</sub>) | ESA | intervalo físico externo | admisible |
+| Tiempo restante divulgativo | (≈5×10<sup>9</sup> a<sub>J</sub>) | NASA | contraste de orden físico | admisible |
+| Cierre escalar normalizado | (10 000 000 000 a<sub>J</sub>) | contraste transductivo | cálculo exacto | admisible como frontera de registro |
 
-Suma defectiva:
+I.Q.2. Tabla transductiva SV ↔︎ física contemporánea del Sol
 
-Sᴮᴴ(Γ) = R_UNIF + R_AST + R_TE + R_L + R_INT + R_EM + R_TH + R_H + R_TN + R_NOEXT + R_ABS.
+| Magnitud solar | Física contemporánea | Unidad física | SV | Unidad SV | Residual | Lectura formal |
+| --- | --- | --- | --- | --- | --- | --- |
+| Inicio del ciclo solar principal | 0 | (a<sub>J</sub>) | 0 | (UE<sub>MFC</sub>) | 0 | admisible |
+| Estado actual del Sol | 4.570.000.000 | (a<sub>J</sub>) | 1.297.964.088.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible |
+| Fin normalizado del ciclo solar principal | 10.000.000.000 | (a<sub>J</sub>) | 2.840.184.000.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible |
+| Tramo restante normalizado | 5.430.000.000 | (a<sub>J</sub>) | 1.542.219.912.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible |
+| Fracción actual solar | (457/1000) | adimensional | (457/1000) | adimensional | 0 | admisible |
+| Fracción restante solar | (543/1000) | adimensional | (543/1000) | adimensional | 0 | admisible |
+| Suma de fracciones | 1 | adimensional | 1 | adimensional | 0 | admisible |
+| Error de conversión | 0 | adimensional | 0 | adimensional | 0 | admisible |
 
-Producto de clausura:
+I.Q.3. Cálculo exacto del estado actual del Sol
 
-Pᴮᴴ(Γ) = Π_j ∈ J (1−R_j(Γ)).
+Se parte de: A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>. Como: 1,a<sub>J</sub>=31 557 600 s, entonces: 4 570 000 000 × 31 557 600 144,218,232,000,000,000 s. Y como: 1,s=9,UE<sub>MFC</sub>, entonces: 144,218,232,000,000,000 × 9 1,297,964,088,000,000,000 UE<sub>MFC</sub>. Por tanto: A<sub>☉,act</sub>4 570 000 000 a<sub>J</sub>144,218,232,000,000,000 s 1,297,964,088,000,000,000 UE<sub>MFC</sub>.
 
-Matriz defectiva diagonal:
+I.Q.4. Cálculo exacto del fin normalizado del ciclo solar principal
 
-Dᴮᴴ_mat(Γ) = diag(R_UNIF,R_AST,R_TE,R_L,R_INT,R_EM,R_TH,R_H,R_TN,R_NOEXT,R_ABS).
+Se fija: A<sub>☉,fin</sub>=10 000 000 000 a<sub>J</sub>. En segundos: 10 000 000 000 × 31 557 600 315,576,000,000,000,000 s. En unidades SV: 315,576,000,000,000,000 × 9 2,840,184,000,000,000,000 UE<sub>MFC</sub>. Por tanto: A<sub>☉,fin</sub>10 000 000 000 a<sub>J</sub>315,576,000,000,000,000 s 2,840,184,000,000,000,000 UE<sub>MFC</sub>.
 
-Traza defectiva:
+I.Q.5. Cálculo exacto del tramo restante solar normalizado
 
-Trᴮᴴ(Γ) = R_UNIF + R_AST + R_TE + R_L + R_INT + R_EM + R_TH + R_H + R_TN + R_NOEXT + R_ABS.
+A<sub>☉,restante</sub>A<sub>☉,fin</sub>-A<sub>☉,act</sub>. En años julianos: 10 000 000 000 4 570 000 000 5,430,000,000 a<sub>J</sub>. En segundos: 315,576,000,000,000,000 144,218,232,000,000,000 171,357,768,000,000,000 s. En unidades SV: 2,840,184,000,000,000,000 1,297,964,088,000,000,000 1,542,219,912,000,000,000 UE<sub>MFC</sub>. Por tanto: A<sub>☉,restante</sub>5,430,000,000 a<sub>J</sub>171,357,768,000,000,000 s 1,542,219,912,000,000,000 UE<sub>MFC</sub>.
 
-Como cada R_j sólo toma valores 0 o 1, las formas anteriores son equivalentes. La equivalencia se demuestra en los teoremas de esta sección y se verifica numéricamente en SV-BH9.
+I.Q.6. Fracción actual y fracción restante del ciclo solar normalizado
 
-## VII.2. Forma explícita
+La fracción actual del ciclo solar principal normalizado es: f<sub>☉,act</sub>A<sub>☉,act</sub>A<sub>☉,fin</sub>4 570 000 000/10 000 000 000 457/1000. La fracción restante es: f<sub>☉,restante</sub>1-457/1000 543/1000. Por tanto: f<sub>☉,act</sub>=457/1000=0,457. f<sub>☉,restante</sub>=543/1000=0,543. f<sub>☉,act</sub>+f<sub>☉,restante</sub>=1. El contraste solar muestra que no todos los dominios físicos internos están en la misma fracción que el ciclo observable general. En el ciclo observable general, bajo hipótesis de simetría, el estado actual ocupa (1/2). En el ciclo solar principal normalizado, el estado actual ocupa (457/1000). Esta diferencia no refuta la transducción; confirma que cada dominio físico posee su propia métrica de edad.
 
-Forma explícita de la fórmula:
+I.Q.7. Tabla de suma y resta absoluta del Sol
 
-BHₛᵥ(Γ)=0 ⇔ R_UNIF=0 y R_AST=0 y R_TE=0 y R_L=0 y R_INT=0 y R_EM=0 y R_TH=0 y R_H=0 y R_TN=0 y R_NOEXT=0 y R_ABS=0.
+| Operación | Años julianos | Segundos | Unidades SV | Resultado |
+| --- | --- | --- | --- | --- |
+| Actual solar + restante solar | (4.570.000.000+5.430.000.000) | (144.218.232.000.000.000+171.357.768.000.000.000) | (1.297.964.088.000.000.000+1.542.219.912.000.000.000) | fin solar normalizado |
+| Resultado de la suma | 10.000.000.000 | 315.576.000.000.000.000 | 2.840.184.000.000.000.000 | exacto |
+| Fin solar − actual solar | (10.000.000.000-4.570.000.000) | (315.576.000.000.000.000-144.218.232.000.000.000) | (2.840.184.000.000.000.000-1.297.964.088.000.000.000) | restante solar |
+| Resultado de la resta | 5.430.000.000 | 171.357.768.000.000.000 | 1.542.219.912.000.000.000 | exacto |
+| Fin solar − restante solar | (10.000.000.000-5.430.000.000) | (315.576.000.000.000.000-171.357.768.000.000.000) | (2.840.184.000.000.000.000-1.542.219.912.000.000.000) | actual solar |
+| Resultado inverso | 4.570.000.000 | 144.218.232.000.000.000 | 1.297.964.088.000.000.000 | exacto |
 
-Esta forma muestra cada condición que debe cerrarse: campo unificado, representación físico-factual, transmisión exterior, luz factual, interior, Maxwell factual, termodinámica factual, entropía factual, TODO/NADA, postfrontera sin resto exterior formulable y absorción del estado del arte.
+I.Q.8. Contraste con el intervalo físico externo 10–11 mil millones de años
 
-La forma explícita impide dos errores: cerrar por una sola condición y ocultar una condición defectuosa dentro de prosa general.
+La física contemporánea no entrega una única frontera escalar absoluta para todas las fases solares futuras; entrega un intervalo de evolución hacia gigante roja. ESA sitúa la transición del Sol a gigante roja alrededor de los 10–11 mil millones de años de edad solar. (Agencia Espacial Europea) Por ello, junto al cierre normalizado de registro: A<sub>☉,fin</sub>=10 000 000 000 a<sub>J</sub>, se conserva el intervalo físico externo: A<sub>☉,fin,ext</sub> ∈ [10 000 000 000, 11,000,000,000] a<sub>J</sub>. El tramo restante externo queda: A<sub>☉,restante,ext</sub> ∈ 10 000 000 000-4 570 000 000, 11,000,000,000-4 570 000 000. A<sub>☉,restante,ext</sub> ∈ 5,430,000,000, 6,430,000,000 a<sub>J</sub>. En unidades SV: 5,430,000,000 a<sub>J</sub>1,542,219,912,000,000,000 UE<sub>MFC</sub>.6,430,000,000 a<sub>J</sub>1,826,238,312,000,000,000 UE<sub>MFC</sub>. Por tanto: A<sub>☉,restante,ext</sub> ∈ 1,542,219,912,000,000,000, 1,826,238,312,000,000,000 UE<sub>MFC</sub>. La tabla de contraste declara un cierre escalar normalizado para cálculo exacto, y conserva el intervalo físico externo como contraste astrofísico. No se confunden ambos planos.
 
-## VII.3. Forma implícita
+I.Q.9. Teorema I.5. Exactitud transductiva del ciclo solar normalizado
 
-Forma implícita:
+Teorema I.5. Dado el estado actual solar de registro (A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>) y el fin normalizado de ciclo principal (A<sub>☉,fin</sub>=10 000 000 000 a<sub>J</sub>), la fracción actual solar, el tramo restante y las conversiones SI ↔︎ SV quedan determinados sin resto aritmético. Demostración. Por definición: 1,a<sub>J</sub>=31 557 600,s. Y: 1,s=9,UE<sub>MFC</sub>. Luego: 1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>. Para el estado actual: 4 570 000 000 × 284 018 400 1,297,964,088,000,000,000. Para el fin normalizado: 10 000 000 000 × 284 018 400 2,840,184,000,000,000,000. Para el tramo restante: 10 000 000 000-4 570 000 000 5,430,000,000. 5,430,000,000 × 284 018 400 1,542,219,912,000,000,000. La fracción actual es: 4 570 000 000/10 000 000 000 457/1000. La fracción restante es: 543/1000. Ambas suman uno: 457/1000+543/1000=1. No aparece decimal necesario, resto ni redondeo interno. c.q.d.
 
-F_BH(Γ) = Sᴮᴴ(Γ) = 0.
+I.Q.10. Teorema I.6. Contraste solar de independencia de dominios
 
-Como Sᴮᴴ es suma de once términos binarios no negativos, Sᴮᴴ(Γ)=0 si y sólo si todos los R_j(Γ) son 0.
+Teorema I.6. El ciclo solar prueba que las edades relativas de objetos físicos internos no deben forzarse a la fracción del ciclo observable general. Demostración. El ciclo observable general, bajo criterio transductivo condicionado de simetría, produce: f<sub>obs,act</sub>=1/2. El ciclo solar normalizado produce: f<sub>☉,act</sub>=457/1000. Como: 457/1000≠1/2, el dominio solar no comparte necesariamente la fracción del ciclo observable general. Esta diferencia no contradice la estructura de la formulación, porque el Sol no es la totalidad absoluta ni el observable retornado, sino un objeto físico interno con dominio propio: Ω_☉⊂Ω<sub>obs</sub>. Por tanto, cada dominio interno exige su propia edad, su propio cierre y su propio residual. c.q.d.
 
-Esta forma es equivalente a una ecuación implícita: no enumera visualmente cada condición en la línea principal, pero las contiene todas dentro de Sᴮᴴ. Si Sᴮᴴ vale 1, 2, 3 o cualquier entero positivo, el régimen queda refutado. No existe cierre parcial de la fórmula absoluta.
+I.Q.11. Contraste laboratorial expuesto para el Sol
 
-## VII.4. Forma canónica vectorial
+| Prueba | Entrada | Operación | Salida esperada | Lectura formal |
+| --- | --- | --- | --- | --- |
+| LAB-C3-01 | (4.570.000.000 a<sub>J</sub>) | (a<sub>J</sub>→ s) | (144.218.232.000.000.000 s) | 0 |
+| LAB-C3-02 | (144.218.232.000.000.000 s) | (s→ UE<sub>MFC</sub>) | (1.297.964.088.000.000.000 UE<sub>MFC</sub>) | 0 |
+| LAB-C3-03 | (10.000.000.000 a<sub>J</sub>) | (a<sub>J</sub>→ s) | (315.576.000.000.000.000 s) | 0 |
+| LAB-C3-04 | (315.576.000.000.000.000 s) | (s→ UE<sub>MFC</sub>) | (2.840.184.000.000.000.000 UE<sub>MFC</sub>) | 0 |
+| LAB-C3-05 | (10.000.000.000-4.570.000.000) | resta | (5.430.000.000 a<sub>J</sub>) | 0 |
+| LAB-C3-06 | (2.840.184.000.000.000.000-1.297.964.088.000.000.000) | resta SV | (1.542.219.912.000.000.000 UE<sub>MFC</sub>) | 0 |
+| LAB-C3-07 | (4.570.000.000/10.000.000.000) | fracción | (457/1000) | 0 |
+| LAB-C3-08 | (543/1000+457/1000) | suma fraccional | (1) | 0 |
+| LAB-C3-09 | (A<sub>☉,fin,ext</sub>∈[10,11]×10<sup>9</sup>) | intervalo externo | intervalo conservado | 0 |
+| LAB-C3-10 | (Edad(☉)=Edad( T)) | error de plano | NO ADMISIBLE | 1 |
+| LAB-C3-11 | (f_☉=f<sub>obs</sub>) impuesto sin dominio | error de dominio | NO ADMISIBLE | 1 |
+| LAB-C3-12 | retorno inverso (UE<sub>MFC</sub>→ s→ a<sub>J</sub>) | división por (9) y por (31.557.600) | valores iniciales | 0 |
 
-Forma canónica:
+I.Q.12. Tabla comparativa: observable retornado, Vía Láctea-entorno y Sol
 
-Rᴮᴴ(Γ)=(0,0,0,0,0,0,0,0,0,0,0).
+| Dominio | Actual (a<sub>J</sub>) | Restante (a<sub>J</sub>) | Fin (a<sub>J</sub>) | Fracción actual | Actual (UE<sub>MFC</sub>) | Restante (UE<sub>MFC</sub>) | Fin (UE<sub>MFC</sub>) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Observable retornado | 13.800.000.000 | 13.800.000.000 | 27.600.000.000 | (1/2) | 3.919.453.920.000.000.000 | 3.919.453.920.000.000.000 | 7.838.907.840.000.000.000 |
+| Vía Láctea-entorno | 13.600.000.000 | 13.600.000.000 | 27.200.000.000 | (1/2) | 3.862.650.240.000.000.000 | 3.862.650.240.000.000.000 | 7.725.300.480.000.000.000 |
+| Sol | 4.570.000.000 | 5.430.000.000 | 10.000.000.000 | (457/1000) | 1.297.964.088.000.000.000 | 1.542.219.912.000.000.000 | 2.840.184.000.000.000.000 |
+| Sol, intervalo externo | 4.570.000.000 | 5.430.000.000–6.430.000.000 | 10.000.000.000–11.000.000.000 | (457/1000) a (457/1100) | 1.297.964.088.000.000.000 | 1.542.219.912.000.000.000–1.826.238.312.000.000.000 | 2.840.184.000.000.000.000–3.124.202.400.000.000.000 |
 
-Donde (0,0,0,0,0,0,0,0,0,0,0) es el vector de once ceros.
+I.Q.13. Lectura formal del corolario solar
 
-Esta es la forma más compacta y la más resistente a ambigüedad. La fórmula del agujero negro es el punto cero del espacio defectivo de once componentes. Toda desviación en cualquier coordenada rompe el régimen.
+El Sol confirma el método porque obliga a separar dominio, objeto, edad actual, fin de ciclo físico y retorno transductivo. A<sub>☉,act</sub>4 570 000 000 a<sub>J</sub>1,297,964,088,000,000,000 UE<sub>MFC</sub>. A<sub>☉,fin</sub>10 000 000 000 a<sub>J</sub>2,840,184,000,000,000,000 UE<sub>MFC</sub>. A<sub>☉,restante</sub>5,430,000,000 a<sub>J</sub>1,542,219,912,000,000,000 UE<sub>MFC</sub>. f<sub>☉,act</sub>=457/1000. f<sub>☉,restante</sub>=543/1000. El intervalo físico externo queda conservado: A<sub>☉,fin,ext</sub> ∈ [10 000 000 000, 11,000,000,000] a<sub>J</sub>. A<sub>☉,restante,ext</sub> ∈ 5,430,000,000, 6,430,000,000 a<sub>J</sub>. La conversión aritmética de registro tiene error cero: ε<sub>aritmético</sub>=0. La transducción SI ↔︎ SV tiene retorno exacto: ε<sub>transductivo</sub>=0. Y el plano queda protegido: Edad(☉)≠ Edad( T).
 
-## VII.5. Forma paramétrica como conjunto de soluciones
+I.Q.14. Teorema I.7. Reducción al absurdo fuerte del resultado solar
 
-Forma paramétrica:
+Teorema I.7. Dado el valor de registro: A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>, el cierre normalizado del ciclo solar principal: A<sub>☉,fin</sub>=10 000 000 000 a<sub>J</sub>, y la equivalencia transductiva: 1,a<sub>J</sub>=31 557 600,s, 1,s=9,UE<sub>MFC</sub>, entonces el resultado solar: A<sub>☉,act</sub>1,297,964,088,000,000,000 UE<sub>MFC</sub>, A<sub>☉,restante</sub>1,542,219,912,000,000,000 UE<sub>MFC</sub>, A<sub>☉,fin</sub>2,840,184,000,000,000,000 UE<sub>MFC</sub>, f<sub>☉,act</sub>=457/1000, f<sub>☉,restante</sub>=543/1000 es necesario dentro de la tabla de contraste. Negarlo conduce a contradicción aritmética, transductiva o de dominio. La base física externa es admisible como contraste: ESA fija el Sol en torno a (4,57) mil millones de años y sitúa su transición a gigante roja alrededor de los (10)-(11) mil millones de años de edad solar; NASA presenta el Sol como una estrella de unos (4,5) mil millones de años y conserva el orden físico de unos (5) mil millones de años restantes hasta la fase de gigante roja. (Agencia Espacial Europea)
 
-Ωᴮᴴ_cerrado = { Γ ∈ Ωᴮᴴ : R_j(Γ)=0 para todo j ∈ J }.
+I.Q.14.1. Enunciado formal de la reducción
 
-La fórmula BHₛᵥ(Γ)=0 equivale a Γ ∈ Ωᴮᴴ_cerrado.
+Sea: B_☉ ( A<sub>☉,act</sub>, A<sub>☉,fin</sub>, a<sub>J</sub>, s, UE<sub>MFC</sub>, X<sub>☉</sub> ) la tabla de contraste solar, con: A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>, A<sub>☉,fin</sub>=10 000 000 000 a<sub>J</sub>, 1,a<sub>J</sub>=31 557 600,s, 1,s=9,UE<sub>MFC</sub>. Sea: X<sub>☉</sub>: a<sub>J</sub> ↔ s ↔ UE<sub>MFC</sub>el transductor solar de edad física relativa. La tesis que debe verificarse es: R_☉: A<sub>☉,act</sub><sup>SV</sup> = 1,297,964,088,000,000,000,UE<sub>MFC</sub>,; A<sub>☉,restante</sub><sup>SV</sup> = 1,542,219,912,000,000,000,UE<sub>MFC</sub>,; A<sub>☉,fin</sub><sup>SV</sup> = 2,840,184,000,000,000,000,UE<sub>MFC</sub>,; f<sub>☉,act</sub>=457/1000,; f<sub>☉,restante</sub>=543/1000. La reducción al absurdo establece que: B_☉⇒ R_☉.
 
-Esta forma convierte la ecuación en conjunto de trayectorias cerradas. Es útil para bancos numéricos: cada fila del banco es una Γ candidata; el banco acepta la fila si y sólo si pertenece a Ωᴮᴴ_cerrado.
+I.Q.14.2. Suposición adversarial
 
-## VII.6. Forma punto-régimen, análoga a punto-pendiente
+Supóngase lo contrario: ¬ R_☉. Entonces al menos una de las siguientes cinco negaciones debe ser verdadera: N<sub>1</sub>: A<sub>☉,act</sub><sup>SV</sup> ≠ ,297,964,088,000,000,000,UE<sub>MFC</sub>. N<sub>2</sub>: A<sub>☉,fin</sub><sup>SV</sup> ≠ 2,840,184,000,000,000,000,UE<sub>MFC</sub>. N<sub>3</sub>: A<sub>☉,restante</sub><sup>SV</sup> ≠ 1,542,219,912,000,000,000,UE<sub>MFC</sub>. N<sub>4</sub>: f<sub>☉,act</sub> ≠ 457/1000. N<sub>5</sub>: f<sub>☉,restante</sub> ≠ 543/1000. Se analiza cada posibilidad.
 
-La forma punto-pendiente de una recta usa un punto de referencia y una variación. En el SV no se introduce una pendiente temporal ni una trayectoria continua externa. Se usa una forma punto-régimen sobre desplazamiento defectivo finito.
+I.Q.14.3. Reducción de (N<sub>1</sub>)
 
-Sea Γ_0 una trayectoria BH cerrada de referencia tal que Rᴮᴴ(Γ_0)=(0,0,0,0,0,0,0,0,0,0,0). Para una trayectoria candidata Γ, se define el desplazamiento defectivo respecto de Γ_0:
+Por definición: A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>. Como: 1,a<sub>J</sub>=31 557 600,s, entonces: A<sub>☉,act</sub>[s 4 570 000 000 × 31 557 600. Cálculo: 4 570 000 000 × 31 557 600 144,218,232,000,000,000. Por tanto: A<sub>☉,act</sub>[s 144,218,232,000,000,000,s. Como: 1,s=9,UE<sub>MFC</sub>, entonces: A<sub>☉,act</sub><sup>SV</sup> = 144,218,232,000,000,000 × 9. Cálculo: 144,218,232,000,000,000 × 9 1,297,964,088,000,000,000. Luego: A<sub>☉,act</sub><sup>SV</sup> = 1,297,964,088,000,000,000,UE<sub>MFC</sub>. Esto contradice (N<sub>1</sub>). Por tanto: N<sub>1</sub>⇒.
 
-Δ_R(Γ;Γ_0)=Rᴮᴴ(Γ)-Rᴮᴴ(Γ_0).
+I.Q.14.4. Reducción de (N<sub>2</sub>)
 
-Como Rᴮᴴ(Γ_0)=(0,0,0,0,0,0,0,0,0,0,0), se obtiene:
+Por definición: A<sub>☉,fin</sub>=10 000 000 000 a<sub>J</sub>. Conversión a segundos: 10 000 000 000 × 31 557 600 315,576,000,000,000,000,s. Conversión a unidades SV: 315,576,000,000,000,000 × 9 2,840,184,000,000,000,000,UE<sub>MFC</sub>. Luego: A<sub>☉,fin</sub><sup>SV</sup> = 2,840,184,000,000,000,000,UE<sub>MFC</sub>. Esto contradice (N<sub>2</sub>). Por tanto: N<sub>2</sub>⇒.
 
-Δ_R(Γ;Γ_0)=Rᴮᴴ(Γ).
+I.Q.14.5. Reducción de (N<sub>3</sub>)
 
-Forma punto-régimen:
+Por definición: A<sub>☉,restante</sub>A<sub>☉,fin</sub>A<sub>☉,act</sub>. En años julianos: A<sub>☉,restante</sub>10 000 000 000 4 570 000 000 5,430,000,000 a<sub>J</sub>. Conversión a segundos: 5,430,000,000 × 31 557 600 171,357,768,000,000,000,s. Conversión a unidades SV: 171,357,768,000,000,000 × 9 1,542,219,912,000,000,000,UE<sub>MFC</sub>. Luego: A<sub>☉,restante</sub><sup>SV</sup> = 1,542,219,912,000,000,000,UE<sub>MFC</sub>. Esto contradice (N<sub>3</sub>). Por tanto: N<sub>3</sub>⇒.
 
-BHₛᵥ(Γ)=0 ⇔ Δ_R(Γ;Γ_0)=(0,0,0,0,0,0,0,0,0,0,0).
+I.Q.14.6. Reducción de (N<sub>4</sub>)
 
-Esta forma demuestra que cualquier candidato que se aparte del punto de cierre en una sola coordenada deja de ser agujero negro factual. No hay deformación admisible de la fórmula que conserve el resultado si altera una condición necesaria.
+Por definición: f<sub>☉,act</sub>A<sub>☉,act</sub>A<sub>☉,fin</sub>. Sustituyendo: f<sub>☉,act</sub>4 570 000 000/10 000 000 00. Dividiendo numerador y denominador por: 10,000,000, se obtiene: f<sub>☉,act</sub>457/1000. Por tanto: f<sub>☉,act</sub>457/1000. Esto contradice (N<sub>4</sub>). Luego: N<sub>4</sub>⇒.
 
-## VII.7. Forma complementaria por producto de clausura
+I.Q.14.7. Reducción de (N<sub>5</sub>)
 
-Forma complementaria:
+La fracción restante se define como: f<sub>☉,restante</sub>1-f<sub>☉,act</sub>. Como: f<sub>☉,act</sub>457/1000, entonces: f<sub>☉,restante</sub>1-457/1000 1000/1000-457/1000 543/1000. Por tanto: f<sub>☉,restante</sub>543/1000. Esto contradice (N<sub>5</sub>). Luego: N<sub>5</sub>⇒.
 
-Pᴮᴴ(Γ)=Π_j ∈ J(1−R_j(Γ))=1.
+I.Q.14.8. Conclusión de la reducción
 
-Si todos los R_j son 0, cada factor vale 1 y el producto vale 1. Si algún R_j vale 1, uno de los factores vale 0 y el producto total vale 0.
+La negación del resultado solar implica: ¬ R_☉ ⇒ N<sub>1</sub>∨ N<sub>2</sub>∨ N<sub>3</sub>∨ N<sub>4</sub>∨ N<sub>5</sub>. Pero se ha demostrado: N<sub>1</sub>⇒, N<sub>2</sub>⇒, N<sub>3</sub>⇒, N<sub>4</sub>⇒, N<sub>5</sub>⇒. Luego: ¬ R_☉⇒. Por reducción al absurdo: R_☉. Queda demostrado: A<sub>☉,act</sub><sup>SV</sup> = 1,297,964,088,000,000,000 UE<sub>MFC</sub>. A<sub>☉,restante</sub><sup>SV</sup> = 1,542,219,912,000,000,000 UE<sub>MFC</sub>. A<sub>☉,fin</sub><sup>SV</sup> = 2,840,184,000,000,000,000 UE<sub>MFC</sub>. f<sub>☉,act</sub>=457/1000. f<sub>☉,restante</sub>=543/1000. c.q.d.
 
-Por tanto:
+I.Q.14.9. Tabla adversarial de reducción al absurdo
 
-BHₛᵥ(Γ)=0 ⇔ Pᴮᴴ(Γ)=1.
+| Negación adversarial | Consecuencia matemática | Contradicción | Lectura formal |
+| --- | --- | --- | --- |
+| (A<sub>☉,act</sub><sup>SV</sup>≠1.297.964.088.000.000.000) | viola (4.570.000.000×31.557.600×9) | contradice conversión exacta | (1) |
+| (A<sub>☉,fin</sub><sup>SV</sup>≠2.840.184.000.000.000.000) | viola (10.000.000.000×31.557.600×9) | contradice conversión exacta | (1) |
+| (A<sub>☉,restante</sub><sup>SV</sup>≠1.542.219.912.000.000.000) | viola ((10.000.000.000-4.570.000.000)×31.557.600×9) | contradice resta exacta | (1) |
+| (f<sub>☉,act</sub>≠457/1000) | viola (4.570.000.000/10.000.000.000) | contradice reducción fraccional | (1) |
+| (f<sub>☉,restante</sub>≠543/1000) | viola (1-457/1000) | contradice complemento exacto | (1) |
+| (Edad(☉)=Edad( T)) | confunde objeto físico interno con totalidad absoluta | error de plano | (1) |
+| (f<sub>☉</sub>=f<sub>obs</sub>) por imposición | fuerza dominios distintos | error de dominio | (1) |
+| (10)-(11) mil millones externo invalida la tabla de contraste de (10) mil millones | confunde intervalo astrofísico con cierre normalizado | error de transducción | (1) |
 
-Esta forma es útil para detectar fallos: una sola coordenada defectuosa anula el producto de clausura.
+I.Q.14.10. Contraste de laboratorio de la reducción
 
-## VII.8. Forma matricial por traza y rango defectivo
+| Prueba | Entrada | Operación exacta | Salida esperada | Error permitido | Lectura formal |
+| --- | --- | --- | --- | --- | --- |
+| LAB-RA-SOL-01 | (4.570.000.000) | (×31.557.600) | (144.218.232.000.000.000) | 0 | 0 |
+| LAB-RA-SOL-02 | (144.218.232.000.000.000) | (×9) | (1.297.964.088.000.000.000) | 0 | 0 |
+| LAB-RA-SOL-03 | (10.000.000.000) | (×31.557.600) | (315.576.000.000.000.000) | 0 | 0 |
+| LAB-RA-SOL-04 | (315.576.000.000.000.000) | (×9) | (2.840.184.000.000.000.000) | 0 | 0 |
+| LAB-RA-SOL-05 | (10.000.000.000-4.570.000.000) | resta | (5.430.000.000) | 0 | 0 |
+| LAB-RA-SOL-06 | (5.430.000.000) | (×31.557.600×9) | (1.542.219.912.000.000.000) | 0 | 0 |
+| LAB-RA-SOL-07 | (4.570.000.000/10.000.000.000) | reducción racional | (457/1000) | 0 | 0 |
+| LAB-RA-SOL-08 | (1-457/1000) | complemento racional | (543/1000) | 0 | 0 |
+| LAB-RA-SOL-09 | (457/1000+543/1000) | suma racional | (1) | 0 | 0 |
+| LAB-RA-SOL-10 | (1.297.964.088.000.000.000/9/31.557.600) | retorno inverso | (4.570.000.000) | 0 | 0 |
+| LAB-RA-SOL-11 | (2.840.184.000.000.000.000/9/31.557.600) | retorno inverso | (10.000.000.000) | 0 | 0 |
+| LAB-RA-SOL-12 | (Edad(☉)=Edad( T)) | control de plano | NO ADMISIBLE | 0 | 1 |
 
-Forma matricial:
+I.Q.14.11. Lectura formal de rigor
 
-Dᴮᴴ_mat(Γ)=diag(R_UNIF,R_AST,R_TE,R_L,R_INT,R_EM,R_TH,R_H,R_TN,R_NOEXT,R_ABS).
+El resultado solar queda verificado por tres niveles. Primero, por contraste físico externo: el valor de registro (4,57×10<sup>9</sup> a<sub>J</sub>) coincide con la edad solar expresada por ESA, y el cierre normalizado de (10×10<sup>9</sup> a<sub>J</sub>) queda dentro del intervalo físico externo (10)-(11×10<sup>9</sup> a<sub>J</sub>) para la transición a gigante roja; NASA ofrece además el contraste divulgativo de unos (4,5) mil millones de años actuales y unos (5) mil millones restantes. (Agencia Espacial Europea) Segundo, por reducción al absurdo: negar el resultado obliga a negar una multiplicación exacta, una resta exacta, una fracción exacta o el dominio físico del objeto solar. Tercero, por retorno transductivo: a<sub>J</sub>→ s→ UE<sub>MFC</sub>→ s→ a<sub>J</sub>devuelve exactamente el valor de partida. Por tanto: ε<sub>aritmético</sub>=0. ε<sub>transductivo</sub>=0. ε<sub>plano</sub>=0. Y queda fijado: A<sub>☉,act</sub>4 570 000 000 a<sub>J</sub>. A<sub>☉,restante</sub>5,430,000,000 a<sub>J</sub>. A<sub>☉,fin</sub>10 000 000 000 a<sub>J</sub>. f<sub>☉,act</sub>=457/1000, f<sub>☉,restante</sub>=543/1000.
 
-Como la matriz es diagonal y todos sus términos son no negativos, se cumple:
+I.Q.15. Teorema I.8. Reducción escalar exacta del ciclo solar: del intervalo físico externo al número transductivo concreto
 
-Trᴮᴴ(Γ)=0 ⇔ Dᴮᴴ_mat(Γ)=0.
+Teorema I.8. El cálculo solar usado en este corolario no es un intervalo, sino un número preciso y concreto, porque el intervalo físico externo se emplea únicamente como dominio de contraste astrofísico, mientras que el transductor de frontera selecciona el inicio exacto del cierre del ciclo solar principal. En consecuencia: A<sub>☉,fin</sub>10 000 000 000 a<sub>J</sub>y no: A<sub>☉,fin</sub> ∈ [10 000 000 000, 11,000,000,000] a<sub>J</sub>. La ESA sitúa al Sol en torno a (4,57×10<sup>9</sup>) años y describe que alcanzará temperatura concreta aproximadamente a los (8×10<sup>9</sup>) años, enfriándose y aumentando de tamaño hasta convertirse en gigante roja alrededor de los (10–11×10<sup>9</sup>) años; NASA, por su parte, presenta el Sol como una estrella de unos (4,5×10<sup>9</sup>) años y señala que le quedan aproximadamente (5×10<sup>9</sup>) años antes de convertirse en gigante roja. (Agencia Espacial Europea)
 
-Además:
+I.Q.15.1. Definición del intervalo externo de contraste
 
-rango(Dᴮᴴ_mat)=0 ⇔ Dᴮᴴ_mat=0.
+Sea el intervalo físico contemporáneo de llegada al régimen de gigante roja: I<sub>☉</sub><sup>RG</sup>10,11]×10<sup>9</sup> a<sub>J</sub>. Este intervalo no se toma como salida final del cálculo. Se toma como dominio físico de contraste. Su función es contener el régimen astrofísico externo aceptado para la transición futura del Sol. La formulación no calcula: A<sub>☉,fin</sub>=I<sub>☉</sub><sup>RG</sup>. Calcula: A<sub>☉,fin</sub>∂^- I<sub>☉</sub><sup>RG</sup>. Donde: ∂^- I designa la frontera inferior del intervalo físico: el primer punto de entrada al régimen de cierre del ciclo considerado. Por tanto: ∂^- I<sub>☉</sub><sup>RG</sup>10×10<sup>9</sup> a<sub>J</sub>. Luego: A<sub>☉,fin</sub>10 000 000 000 a<sub>J</sub>.
 
-Por tanto:
+I.Q.15.2. Transductor solar de frontera
 
-BHₛᵥ(Γ)=0 ⇔ Trᴮᴴ(Γ)=0 ⇔ rango(Dᴮᴴ_mat)=0.
+Se define el transductor solar de frontera: X<sub>☉</sub><sup>∂^-</sup> : I<sub>☉</sub><sup>RG</sup> A<sub>☉,fin</sub>. Con regla: X<sub>☉</sub><sup>∂^-</sup>(I) ∈f(I). Como: I<sub>☉</sub><sup>RG</sup>10 000 000 000, 11,000,000,000] a<sub>J</sub>, entonces: X<sub>☉</sub><sup>∂^-</sup>(I<sub>☉</sub><sup>RG</sup>) 10 000 000 000 a<sub>J</sub>. La salida del transductor no es intervalo. Es escalar: X<sub>☉</sub><sup>∂^-</sup>(I<sub>☉</sub><sup>RG</sup>)∈ N· a<sub>J</sub>. No: X<sub>☉</sub><sup>∂^-</sup>(I<sub>☉</sub><sup>RG</sup>)∈ P( R)· a<sub>J</sub>. El intervalo externo queda conservado como contraste; el resultado de la tabla de contraste queda fijado como frontera escalar exacta.
 
-Esta forma permite verificar el cierre como anulación simultánea de traza y rango defectivo.
+I.Q.15.3. Tabla de reducción del intervalo al escalar
 
-## VII.9. Teorema de equivalencia de formas de la fórmula BH
+| Elemento | Física contemporánea | Operador transductivo | Salida | Estatuto |
+| --- | --- | --- | --- | --- |
+| Edad actual solar externa | (≈4,57×10<sup>9</sup> a<sub>J</sub>) | fijación de registro | (4.570.000.000 a<sub>J</sub>) | escalar de estado actual |
+| Rango externo de gigante roja | ([10,11]×10<sup>9</sup> a<sub>J</sub>) | (∂^-) | (10.000.000.000 a<sub>J</sub>) | frontera de inicio de cierre |
+| Tramo restante | (A<sub>fin</sub>−A<sub>act</sub>) | resta exacta | (5.430.000.000 a<sub>J</sub>) | escalar |
+| Conversión SI | (a<sub>J</sub>→ s) | (×31.557.600) | escalar en segundos | exacto |
+| Conversión SV | (s→ UE<sub>MFC</sub>) | (×9) | escalar en (UE<sub>MFC</sub>) | exacto |
+| Retorno inverso | (UE<sub>MFC</sub>→ s→ a<sub>J</sub>) | (/ 9), (/ 31.557.600) | escalar original | exacto |
 
-**Teorema VII.1.** Para toda Γ ∈ Ωᴮᴴ, son equivalentes:
+I.Q.15.4. Demostración
 
-1. forma explícita: R_j(Γ)=0 para todo j ∈ J;
-2. forma implícita: Sᴮᴴ(Γ)=0;
-3. forma canónica: Rᴮᴴ(Γ)=(0,0,0,0,0,0,0,0,0,0,0);
-4. forma paramétrica: Γ ∈ Ωᴮᴴ_cerrado;
-5. forma punto-régimen: Δ_R(Γ;Γ_0)=(0,0,0,0,0,0,0,0,0,0,0) para cualquier Γ_0 cerrada;
-6. forma complementaria: Pᴮᴴ(Γ)=1;
-7. forma matricial: Trᴮᴴ(Γ)=0 y rango(Dᴮᴴ_mat)=0.
+Por física contemporánea, el futuro solar hacia régimen de gigante roja queda contenido en: I<sub>☉</sub><sup>RG</sup>10,11]×10<sup>9</sup> a<sub>J</sub>. La tabla de contraste no pregunta por la duración completa del régimen futuro de gigante roja ni por el conjunto completo de estados posteriores del Sol. Pregunta por el inicio del cierre del ciclo solar principal, es decir, por la frontera inferior del régimen de salida de la secuencia estable considerada. Por definición transductiva: A<sub>☉,fin</sub>∂^- I<sub>☉</sub><sup>RG</sup>. Como: ∂^- [10,11]×10<sup>9</sup>10×10<sup>9</sup>, se obtiene: A<sub>☉,fin</sub>10 000 000 000 a<sub>J</sub>. Supóngase ahora que el resultado no fuera escalar, sino intervalar: A<sub>☉,fin</sub>10,11]×10<sup>9</sup> a<sub>J</sub>. Entonces el transductor: X<sub>☉</sub><sup>∂^-</sup> : I<sub>☉</sub><sup>RG</sup> → N· a<sub>J</sub>no habría producido una salida en su codominio, sino una salida en: P( R)· a<sub>J</sub>. Esto contradice la definición del transductor, cuyo codominio es escalar. Por tanto: A<sub>☉,fin</sub> ∉ P( R)· a<sub>J</sub>. Y necesariamente: A<sub>☉,fin</sub> ∈ N· a<sub>J</sub>. Como el único escalar definido por (∂^-I<sub>☉</sub><sup>RG</sup>) es: 10 000 000 000 a<sub>J</sub>, queda demostrado: A<sub>☉,fin</sub>10 000 000 000 a<sub>J</sub>. c.q.d.
 
-**Demostración.** La forma explícita afirma que cada R_j vale 0. Eso equivale inmediatamente a Rᴮᴴ=(0,0,0,0,0,0,0,0,0,0,0), que es la forma canónica. Si cada R_j vale 0, entonces la suma Sᴮᴴ vale 0; recíprocamente, si Sᴮᴴ vale 0 y cada R_j pertenece a {0,1}, ningún R_j puede valer 1, luego todos valen 0. La forma paramétrica es la pertenencia al conjunto definido por esas mismas igualdades. La forma punto-régimen resta a Rᴮᴴ(Γ) el vector nulo de una trayectoria cerrada de referencia; por tanto coincide con Rᴮᴴ(Γ). El producto complementario vale 1 exactamente cuando ningún factor 1−R_j es 0, es decir, cuando ningún R_j vale 1. La matriz diagonal tiene traza y rango cero exactamente cuando todos sus elementos diagonales son 0. Todas las formas son equivalentes. c.q.d.
+I.Q.16. Teorema I.9. Necesidad del número solar concreto por reducción al absurdo transductiva
 
-## VII.10. Formas equivalentes de absorción de modelos contemporáneos
+Teorema I.9. Bajo las definiciones: A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>, A<sub>☉,fin</sub>= ∂^-([10,11]×10<sup>9</sup> a<sub>J</sub>) 10 000 000 000 a<sub>J</sub>, 1,a<sub>J</sub>=31 557 600 s, 1,s=9,UE<sub>MFC</sub>, el valor solar restante: A<sub>☉,restante</sub>5,430,000,000 a<sub>J</sub>y sus conversiones: A<sub>☉,act</sub><sup>SV</sup> = 1,297,964,088,000,000,000 UE<sub>MFC</sub>, A<sub>☉,fin</sub><sup>SV</sup> = 2,840,184,000,000,000,000 UE<sub>MFC</sub>, A<sub>☉,restante</sub><sup>SV</sup> = 1,542,219,912,000,000,000 UE<sub>MFC</sub>son necesarios. Negarlos obliga a negar la frontera inferior del intervalo, la unidad juliana, la unidad transductiva o la resta exacta.
 
-Para cada planteamiento físico M tratado en el estado del arte se define una célula de absorción:
+I.Q.16.1. Suposición adversarial fuerte
 
-v_ABS(M)=(a_H,a_L,a_EM,a_TH,a_HS,a_TN,a_MN2,a_N_UM,a_PROH) ∈ Σ⁹.
+Supóngase que el cálculo no produce un número concreto. Entonces debe cumplirse al menos una de estas alternativas:
 
-Lectura de coordenadas:
+H<sub>1</sub>: A<sub>☉,fin</sub> ≠ 10 000 000 000 a<sub>J</sub>.
 
-0 = el componente es compatible o queda absorbido dentro del alcance declarado del modelo.
-1 = el componente contradice una condición constitutiva del SV.
-U = el modelo no aporta ese componente y queda incompleto respecto de la fórmula absoluta.
+H<sub>2</sub>: A<sub>☉,restante</sub> ≠ 5,430,000,000 a<sub>J</sub>.
 
-Conteos:
+H<sub>3</sub>: A<sub>☉,act</sub><sup>SV</sup> ≠ 1,297,964,088,000,000,000 UE<sub>MFC</sub>.
 
-N₀ᴬ(M)=N₀(v_ABS(M)).
-N₁ᴬ(M)=N₁(v_ABS(M)).
-Nᵁᴬ(M)=Nᵁ(v_ABS(M)).
+H<sub>4</sub>: A<sub>☉,fin</sub><sup>SV</sup> ≠ 2,840,184,000,000,000,000 UE<sub>MFC</sub>.
 
-Forma explícita de absorción completa:
+H<sub>5</sub>: A<sub>☉,restante</sub><sup>SV</sup> ≠ 1,542,219,912,000,000,000 UE<sub>MFC</sub>.
 
-Abs_total(M) ⇔ N₀ᴬ(M)≥T(9) y N₁ᴬ(M)=0.
+H<sub>6</sub>: f<sub>☉,act</sub> ≠ 457/1000.
 
-Forma explícita de absorción parcial:
+H<sub>7</sub>: f<sub>☉,restante</sub> ≠ 543/1000.
 
-Abs_parcial(M) ⇔ N₁ᴬ(M)<T(9) y N₀ᴬ(M)<T(9) y N₀ᴬ(M)>0.
+Se demuestra que todas conducen a contradicción.
 
-Forma explícita de rechazo como fundamento:
+I.Q.16.2. Contradicción de (H<sub>1</sub>)
 
-Rechazo(M) ⇔ N₁ᴬ(M)≥T(9) o existe defecto constitutivo directo.
+Por definición: A<sub>☉,fin</sub>∂^-([10,11]×10<sup>9</sup> a<sub>J</sub>). Por propiedad de frontera inferior: ∂^-([a,b])=a. Luego: A<sub>☉,fin</sub>10×10<sup>9</sup> a<sub>J</sub>. Es decir: A<sub>☉,fin</sub>10 000 000 000 a<sub>J</sub>. Esto contradice (H<sub>1</sub>). Por tanto: H<sub>1</sub>⇒.
 
-Forma implícita de absorción:
+I.Q.16.3. Contradicción de (H<sub>2</sub>)
 
-A_def(M)=N₁ᴬ(M)+max(0,T(9)-N₀ᴬ(M)).
+Por definición: A<sub>☉,restante</sub>A<sub>☉,fin</sub>-A<sub>☉,act</sub>. Sustituyendo: A<sub>☉,restante</sub>10 000 000 000 4 570 000 000. Luego: A<sub>☉,restante</sub>5,430,000,000 a<sub>J</sub>. Esto contradice (H<sub>2</sub>). Por tanto: H<sub>2</sub>⇒.
 
-Entonces:
+I.Q.16.4. Contradicción de (H<sub>3</sub>)
 
-Abs_total(M) ⇔ A_def(M)=0.
+Por definición: A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>. Como: 1,a<sub>J</sub>=31 557 600 s, entonces: A<sub>☉,act</sub>[s 4 570 000 000 × 31 557 600 144,218,232,000,000,000 s. Como: 1,s=9,UE<sub>MFC</sub>, entonces: A<sub>☉,act</sub><sup>SV</sup> = 144,218,232,000,000,000 × 9 1,297,964,088,000,000,000 UE<sub>MFC</sub>. Esto contradice (H<sub>3</sub>). Por tanto: H<sub>3</sub>⇒.
 
-La absorción parcial queda caracterizada por A_def(M)>0 con N₁ᴬ(M)<T(9) y sin defecto constitutivo directo. El rechazo queda caracterizado por N₁ᴬ(M)≥T(9) o por defecto constitutivo directo.
+I.Q.16.5. Contradicción de (H<sub>4</sub>)
 
-## VII.11. Teorema de equivalencia de dictamen de absorción
+Por definición: A<sub>☉,fin</sub>=10 000 000 000 a<sub>J</sub>. Entonces: A<sub>☉,fin</sub>[s 10 000 000 000 × 31 557 600 315,576,000,000,000,000 s. Y: A<sub>☉,fin</sub><sup>SV</sup> = 315,576,000,000,000,000 × 9 2,840,184,000,000,000,000 UE<sub>MFC</sub>. Esto contradice (H<sub>4</sub>). Por tanto: H<sub>4</sub>⇒.
 
-**Teorema VII.2.** La forma celular v_ABS, la forma explícita por conteos y la forma implícita A_def producen el mismo dictamen de absorción para cada planteamiento físico M.
+I.Q.16.6. Contradicción de (H<sub>5</sub>)
 
-**Demostración.** Si v_ABS tiene N₀≥T(9) y N₁=0, entonces A_def=N₁+max(0,T(9)-N₀)=0+0=0, luego hay absorción total. Si A_def=0, entonces N₁=0 y N₀≥T(9), luego la forma explícita de absorción se cumple. Si N₀<T(9) y N₁<T(9), el modelo no alcanza absorción total ni rechazo por mayoría defectiva; queda parcial si aporta al menos una coordenada compatible. Si N₁≥T(9) o hay defecto constitutivo directo, el modelo queda rechazado como fundamento. Las tres formas inducen el mismo dictamen. c.q.d.
+Por definición: A<sub>☉,restante</sub>=5,430,000,000 a<sub>J</sub>. Entonces: A<sub>☉,restante</sub>[s 5,430,000,000 × 31 557 600 171,357,768,000,000,000 s. Y: A<sub>☉,restante</sub><sup>SV</sup> = 171,357,768,000,000,000 × 9 1,542,219,912,000,000,000 UE<sub>MFC</sub>. Esto contradice (H<sub>5</sub>). Por tanto: H<sub>5</sub>⇒.
 
-## VII.12. Teorema de preservación bajo fórmula externa absorbida
+I.Q.16.7. Contradicción de (H<sub>6</sub>)
 
-**Teorema VII.3.** Toda fórmula externa absorbida por el SV conserva su validez dentro de su proyección y pierde estatuto de fundamento absoluto.
+La fracción actual se define por: f<sub>☉,act</sub>A<sub>☉,act</sub>A<sub>☉,fin</sub>. Luego: f<sub>☉,act</sub>4 570 000 000/10 000 000 000. Dividiendo numerador y denominador por: 10,000,000, queda: f<sub>☉,act</sub>457/1000. Esto contradice (H<sub>6</sub>). Por tanto: H<sub>6</sub>⇒.
 
-**Demostración.** Sea F_ext una fórmula externa tratada en el documento. Si F_ext queda absorbida, entonces v_ABS(F_ext) alcanza absorción total o absorción parcial sin defecto constitutivo. En el primer caso, F_ext describe correctamente una proyección de frontera, métrica, termodinámica o evidencia externa. En el segundo, describe una parte del régimen sin cerrar el conjunto. En ninguno de los dos casos F_ext contiene simultáneamente C_UNIF, C_AST, C_TE, C_L, C_INT, C_EM, C_TH, C_H, C_TN, C_NOEXT y C_ABS. Por tanto, conserva su valor proyectivo y pierde estatuto de fórmula absoluta. c.q.d.
+I.Q.16.8. Contradicción de (H<sub>7</sub>)
 
-## VII.13. Teorema de rechazo de fórmula externa sustitutiva
+La fracción restante es: f<sub>☉,restante</sub>1-f<sub>☉,act</sub>. Como: f<sub>☉,act</sub>457/1000, entonces: f<sub>☉,restante</sub>1-457/1000 543/1000. Esto contradice (H<sub>7</sub>). Por tanto: H<sub>7</sub>⇒.
 
-**Teorema VII.4.** Toda fórmula externa que pretenda sustituir BHₛᵥ(Γ)=0 y omita M_N2-SV, la no transmisión luminosa, la saturación interior, la termodinámica factual o la absorción del estado del arte no es fórmula del agujero negro en el SV.
+I.Q.16.9. Cierre de la reducción
 
-**Demostración.** Una fórmula sustitutiva debe ser equivalente a la forma canónica Rᴮᴴ=(0,0,0,0,0,0,0,0,0,0,0). Si omite M_N2-SV, entonces R_NOEXT no queda forzado a 0. Si omite no transmisión luminosa, R_L no queda forzado a 0. Si omite saturación interior, R_INT queda abierto. Si omite termodinámica factual, R_TH queda abierto. Si omite absorción del estado del arte, R_ABS queda abierto. En todos los casos existe una Γ para la que la fórmula sustitutiva declara cierre y Rᴮᴴ contiene al menos un 1. Por Teorema VII.1, no es equivalente. c.q.d.
+La negación del resultado solar concreto implica: ¬ R<sub>☉</sub> ⇒ H<sub>1</sub>∨ H<sub>2</sub>∨ H<sub>3</sub>∨ H<sub>4</sub>∨ H<sub>5</sub>∨ H<sub>6</sub>∨ H<sub>7</sub>. Pero: H<sub>1</sub>⇒, H<sub>2</sub>⇒, H<sub>3</sub>⇒, H<sub>4</sub>⇒, H<sub>5</sub>⇒, H<sub>6</sub>⇒, H<sub>7</sub>⇒. Luego: ¬ R<sub>☉</sub>⇒. Por reducción al absurdo: R<sub>☉</sub>. Queda demostrado que el resultado solar no es intervalo, sino número transductivo concreto: A<sub>☉,act</sub>4 570 000 000 a<sub>J</sub>. A<sub>☉,fin</sub>10 000 000 000 a<sub>J</sub>. A<sub>☉,restante</sub>5,430,000,000 a<sub>J</sub>. A<sub>☉,act</sub><sup>SV</sup> = 1,297,964,088,000,000,000 UE<sub>MFC</sub>. A<sub>☉,fin</sub><sup>SV</sup> = 2,840,184,000,000,000,000 UE<sub>MFC</sub>. A<sub>☉,restante</sub><sup>SV</sup> = 1,542,219,912,000,000,000 UE<sub>MFC</sub>. c.q.d.
 
----
+I.Q.17. Corolario I.3.1. Acotación de error cero del cálculo solar
 
-# VIII. Unicidad de la fórmula del agujero negro
+Corolario I.3.1. El cálculo solar tiene error absoluto cero en tres planos: plano de atribución, definición transductiva y aritmética de conversión. No se afirma que la astrofísica observacional carezca de margen; se afirma que, una vez fijado el dominio solar, el estado actual de registro, la frontera inferior del cierre principal y las unidades, el cálculo transductivo no introduce resto, intervalo ni redondeo. ε<sub>☉</sub><sup>abs</sup>ε<sub>☉</sub><sup>plano</sup> ⊕ ε<sub>☉</sub><sup>def</sup> ⊕ ε<sub>☉</sub><sup>trans</sup> ⊕ ε<sub>☉</sub><sup>arit</sup>. Y: ε<sub>☉</sub><sup>abs</sup>=0.
 
-## VIII.1. Planteamiento de unicidad
+I.Q.17.1. Error de plano
 
-Se llama fórmula factual del agujero negro a toda ecuación F(Γ)=0 que pretenda decidir, dentro del SV, cuándo una trayectoria Γ representa el objeto físico de horizonte, preserva el campo unificado, declara no transmisión exterior, declara no salida luminosa, conserva la luz factual, satura el interior, satisface termodinámica factual y entropía factual, respeta Maxwell factual, cierra TODO/NADA por μ=0, λ=0, 𝓝★ₛᵥ=0, declara Postᴮᴴ=M_N2-SV, separa M_N2-SV de U y absorbe o rechaza los planteamientos contemporáneos.
+El error de plano sería atribuir al Sol el estatuto de totalidad absoluta, o atribuir a la totalidad absoluta la edad del Sol. La tabla de contraste declara: Ω_☉⊂Ω<sub>obs</sub>. Y: Ω_☉≠ T. Por tanto: Edad(☉)≠ Edad( T). La edad solar se atribuye a un objeto físico interno: A_☉=A(Ω_☉). No a la totalidad absoluta. Luego: ε<sub>☉</sub><sup>plano</sup>=0.
 
-## VIII.2. Lema de necesidad de cada condición
+I.Q.17.2. Error de definición
 
-**Lema VIII.1.** Ninguna condición Cˣ de BHₛᵥ es prescindible.
+El error de definición sería no declarar el objeto, la frontera, la edad actual, el fin del ciclo o la unidad. Aquí se declara: Ω_☉=dominio físico solar. A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>. I<sub>☉</sub><sup>RG</sup>=[10,11]×10<sup>9</sup> a<sub>J</sub>. A<sub>☉,fin</sub>=∂^-I<sub>☉</sub><sup>RG</sup>=10 000 000 000 a<sub>J</sub>. A<sub>☉,restante</sub>A<sub>☉,fin</sub>-A<sub>☉,act</sub>. Luego: ε<sub>☉</sub><sup>def</sup>=0.
 
-**Demostración.** Se revisan por casos.
+I.Q.17.3. Error transductivo
 
-Si se omite C_UNIF, la fórmula puede declarar BH fuera del campo unificado; eso contradice el estatuto del documento.
-Si se omite C_AST, la fórmula queda sin equivalencia con el objeto físico de horizonte.
-Si se omite C_TE, puede haber transmisión exterior apta y aun así declarar BH.
-Si se omite C_L, puede haber salida luminosa apta.
-Si se omite C_INT, no se determina interior saturado.
-Si se omite C_EM, la frontera electromagnética puede romper Maxwell factual.
-Si se omite C_TH, el interior queda sin cierre termodinámico factual.
-Si se omite C_H, se pierde irreversibilidad estructural.
-Si se omite C_TN, no se obtiene μ=0, λ=0 ni 𝓝★ₛᵥ=0.
-Si se omite C_NOEXT, no se obtiene Postᴮᴴ=M_N2-SV.
-Si se omite C_ABS, el documento puede dejar teorías físicas contemporáneas sin dictamen.
+El error transductivo sería que la ida: a<sub>J</sub>→ s→ UE<sub>MFC</sub>y la vuelta: UE<sub>MFC</sub>→ s→ a<sub>J</sub>no devolvieran el mismo valor. Para el estado actual: 4 570 000 000 a<sub>J</sub> → 1,297,964,088,000,000,000 UE<sub>MFC</sub>. Retorno: 1,297,964,088,000,000,000 /9 144,218,232,000,000,000 s. 144,218,232,000,000,000 / 31 557 600 4 570 000 000 a<sub>J</sub>. Para el fin: 10 000 000 000 a<sub>J</sub> → 2,840,184,000,000,000,000 UE<sub>MFC</sub>. Retorno: 2,840,184,000,000,000,000 /9 315,576,000,000,000,000 s. 315,576,000,000,000,000 / 31 557 600 10 000 000 000 a<sub>J</sub>. Para el restante: 5,430,000,000 a<sub>J</sub> → ,542,219,912,000,000,000 UE<sub>MFC</sub>. Retorno: 1,542,219,912,000,000,000 /9 171,357,768,000,000,000 s. 171,357,768,000,000,000 / 31 557 600 5,430,000,000 a<sub>J</sub>. En los tres casos: SV→ SI→ SV y: SI→ SV→ SI conservan el valor. Luego: ε<sub>☉</sub><sup>trans</sup>=0.
 
-En cada omisión existe falso positivo o cierre incompleto. Por tanto, ninguna condición es prescindible. c.q.d.
+I.Q.17.4. Error aritmético
 
-## VIII.3. Lema de no añadidura legítima
+El error aritmético se define como: ε<sub>☉</sub><sup>arit</sup>| A<sub>☉,fin</sub>( A<sub>☉,act</sub>+ A<sub>☉,restante</sub> ) |. Sustituyendo: ε<sub>☉</sub><sup>arit</sup>| 10 000 000 000 ( 4 570 000 000 + 5,430,000,000 ) |. ε<sub>☉</sub><sup>arit</sup>| 10 000 000 000 10 000 000 000 | En unidades SV: ε<sub>☉</sub><sup>arit,SV</sup>| 2,840,184,000,000,000,000 ( 1,297,964,088,000,000,000 + 1,542,219,912,000,000,000 ) |. 1,297,964,088,000,000,000 + 1,542,219,912,000,000,000 2,840,184,000,000,000,000. Luego: ε<sub>☉</sub><sup>arit,SV</sup> Por tanto: ε<sub>☉</sub><sup>arit</sup>=0.
 
-**Lema VIII.2.** Ninguna condición adicional C_extra puede añadirse a BHₛᵥ como necesaria si no se deriva del corpus o de la equivalencia físico-factual.
+I.Q.17.5. Cierre del corolario de error cero
 
-**Demostración.** Supóngase que C_extra se añade como condición necesaria. Si C_extra no se deriva del corpus ni de la equivalencia BH_físico⇔BHₛᵥ, entonces introduce fundamento externo. Si introduce fundamento externo, viola la cadena de prevalencia del SV. Si excluye un Γ que satisface todas las condiciones Cˣ, produce falso negativo. Por tanto, una condición adicional sólo es admisible si es definicionalmente equivalente a alguna combinación de Cˣ ya presente. c.q.d.
+Como: ε<sub>☉</sub><sup>plano</sup>=0, ε<sub>☉</sub><sup>def</sup>=0, ε<sub>☉</sub><sup>trans</sup>=0, ε<sub>☉</sub><sup>arit</sup>=0, entonces: ε<sub>☉</sub><sup>abs</sup>0⊕0⊕0⊕0 Queda demostrado: ε<sub>☉</sub><sup>abs</sup>=0. El error cero corresponde al plano, definición, transducción y aritmética. El margen astrofísica externa se conserva en su dominio instrumental, pero no altera el resultado escalar de registro: A<sub>☉,fin</sub>10 000 000 000 a<sub>J</sub>. A<sub>☉,restante</sub>5,430,000,000 a<sub>J</sub>. A<sub>☉,fin</sub><sup>SV</sup> = 2,840,184,000,000,000,000 UE<sub>MFC</sub>. A<sub>☉,restante</sub><sup>SV</sup> = 1,542,219,912,000,000,000 UE<sub>MFC</sub>.
 
-## VIII.4. Lema de equivalencia de reescrituras
+# Anexo II. Contraste solar, elevación al universo observable y acotación de error cero
 
-**Lema VIII.3.** Toda reescritura F(Γ)=0 que tenga el mismo conjunto de ceros que BHₛᵥ(Γ)=0 es equivalente definicionalmente a la fórmula del agujero negro del SV.
+Índice propio del Anexo II
 
-**Demostración.** Si Ceros(F)=Ceros(BHₛᵥ), entonces F declara BH exactamente en las mismas trayectorias que BHₛᵥ. Por extensionalidad de dictamen de régimen, ambas ecuaciones producen el mismo subconjunto de Ωᴮᴴ. Una diferencia de notación o agrupación no constituye fórmula alternativa, sino reescritura definicional. c.q.d.
+II.A. Estatuto del anexo II.B. Anclas físicas externas: Sol, universo observable y dominio de contraste II.C. Tabla maestra de contraste Sol ↔︎ universo observable II.D. Transductor de elevación desde objeto físico interno a observable retornado II.E. Teorema II.1. Independencia de dominio y conservación de comparabilidad II.F. Teorema II.2. Elevación del contraste solar al universo observable II.G. Teorema II.3. Error cero de transducción por dominio declarado II.H. Corolario II.1. El Sol no refuta el ciclo observable: lo contrasta II.I. Corolario II.2. El universo observable no absorbe las edades propias de sus objetos II.J. Tabla de contraste de ciclos: Sol, Vía Láctea-entorno y observable retornado II.K. Tabla de errores de plano, definición, transducción y aritmética II.L. Contraste laboratorial expuesto II.M. Conclusión fuerte del Anexo II
 
-## VIII.5. Teorema de unicidad fuerte
+II.A. Estatuto del anexo
 
-**Teorema VIII.4. Unicidad de la fórmula del agujero negro.** Toda fórmula factual F(Γ)=0 del agujero negro en el SV es equivalente a BHₛᵥ(Γ)=0.
+Este anexo realiza una prueba de contraste desde el Sol hasta el universo observable y sus objetos físicos. La finalidad no es convertir el Sol en medida del universo observable ni convertir el universo observable en medida del Sol. La finalidad es demostrar que el aparato de edades relativas conserva tres exigencias simultáneas: dominio propio, transducción exacta, comparabilidad sin absorción indebida.
 
-**Demostración.** Sea F(Γ)=0 una fórmula factual del agujero negro en el SV. Por definición, F debe representar BH_físico, preservar el corpus, decidir horizonte, luz, interior, termodinámica, entropía, frontera electromagnética, TODO/NADA, postfrontera y absorción de modelos contemporáneos. Por Lema VIII.1, cada una de esas condiciones es necesaria. Por tanto, F debe implicar todas las Cˣ. Luego F(Γ)=0 implica BHₛᵥ(Γ)=0.
+El Sol es un objeto físico interno: Ω_☉⊂Ω<sub>obs</sub>. La Vía Láctea-entorno es un dominio estructural local: Ω<sub>VL</sub>⊂Ω<sub>obs</sub>. El observable retornado es una clase de retornos físicos: Ω<sub>obs</sub>⊂Ω<sub>obs</sub>. La totalidad absoluta no entra como objeto de edad: Edad( T)=NO ADMISIBLE. Por tanto, este anexo no compara la edad del Sol con la edad de la totalidad absoluta. Compara tres dominios internos con sus propias edades relativas, sus propios cierres y sus propias fracciones.
 
-Recíprocamente, si BHₛᵥ(Γ)=0, todas las condiciones necesarias y suficientes del régimen se cumplen por Teoremas VI.1 y VI.2. Cualquier fórmula factual del mismo objeto debe declarar BH en ese Γ, porque de lo contrario fallaría la equivalencia BH_físico⇔BHₛᵥ. Luego BHₛᵥ(Γ)=0 implica F(Γ)=0.
+II.B. Anclas físicas externas: Sol, universo observable y dominio de contraste
 
-Por doble implicación, F(Γ)=0 ⇔ BHₛᵥ(Γ)=0. Por Lema VIII.3, F es equivalente definicionalmente a BHₛᵥ. No existe fórmula factual no equivalente del agujero negro en el SV. c.q.d.
+La física contemporánea aporta las anclas externas. La ESA, mediante Gaia, sitúa al Sol con una edad aproximada de (4,57×10<sup>9</sup>) años, en fase estable de fusión de hidrógeno, y describe su evolución futura hacia gigante roja alrededor de (10–11×10<sup>9</sup>) años de edad solar. NASA describe al Sol como una estrella de aproximadamente (4,5×10<sup>9</sup>) años y señala que le quedan unos (5×10<sup>9</sup>) años antes de convertirse en gigante roja. (Agencia Espacial Europea) Para el universo observable, la referencia física externa de contraste queda en (13,8×10<sup>9</sup>) años en el marco Planck; la ESA resume que los datos de Planck proporcionaron un valor de 13,8 mil millones de años, y NASA presenta el mapa de Planck como indicación de un universo de 13,8 mil millones de años. (Agencia Espacial Europea) Estas cifras externas no se toman como edad de la totalidad absoluta. Se toman como anclas físicas de dominios observables: A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>. A<sub>cont,obs,act</sub>=13 800 000 000 a<sub>J</sub>. La edad solar se atribuye al Sol. La edad del contenido observable se atribuye al contenido observable retornado. Ninguna de las dos se atribuye a la totalidad absoluta.
 
-## VIII.6. Corolario de exclusión de fórmulas locales
+II.C. Tabla maestra de contraste Sol ↔︎ universo observable
 
-**Corolario VIII.5.** Ninguna fórmula basada sólo en masa, radio, entropía, temperatura, singularidad, probabilidad, información exterior o no salida luminosa aislada es fórmula factual completa del agujero negro.
+| Dominio | Símbolo | Edad actual (a<sub>J</sub>) | Fin de ciclo (a<sub>J</sub>) | Tramo restante (a<sub>J</sub>) | Fracción actual | Estatuto |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sol | (Ω_☉) | 4.570.000.000 | 10.000.000.000 | 5.430.000.000 | (457/1000) | objeto físico interno |
+| Vía Láctea-entorno | (Ω<sub>VL</sub>) | 13.600.000.000 | 27.200.000.000 | 13.600.000.000 | (1/2) | dominio estructural local |
+| Observable retornado | (Ω<sub>obs</sub>) | 13.800.000.000 | 27.600.000.000 | 13.800.000.000 | (1/2) | dominio de retorno concreto |
+| Totalidad absoluta | ( T) | no aplicable | no aplicable | no aplicable | no aplicable | no admite edad |
 
-**Demostración.** Cada una de esas fórmulas cubre a lo sumo una condición parcial: masa y radio cubren proyección métrica; entropía y temperatura cubren proyección termodinámica; singularidad cubre límite geométrico no evaluable; probabilidad y estadística quedan excluidas como fundamento; información exterior no determina postfrontera; no salida luminosa cubre C_L pero no C_INT, C_TN ni C_NOEXT. Por Lema VIII.1, omitir condiciones necesarias produce falso positivo o cierre incompleto. c.q.d.
+La tabla muestra que no existe una sola edad universal que absorba todas las edades internas. Existen edades relativas por dominio. El Sol posee: f<sub>☉,act</sub>=457/1000. El observable retornado posee: f<sub>cont,obs,act</sub>=1/2. Como: 457/1000≠1/2, se prueba desde el inicio que los objetos físicos internos no están obligados a compartir la misma fracción de ciclo que el dominio observable concreto.
 
-## VIII.7. Corolario de no redundancia estricta
+II.D. Transductor de elevación desde objeto físico interno a observable retornado
 
-**Corolario VIII.6.** BHₛᵥ es no redundante respecto de las condiciones necesarias.
+Se define el transductor de elevación comparativa: X<sub>obj→obs</sub>: (Ω<sub>i</sub>,A<sub>i</sub>,A<sub>i,fin</sub>,u<sub>SI</sub>,u<sub>SV</sub>,Δ<sub>i</sub>) (Ω<sub>obs</sub>,A<sub>Ωobs</sub>,A<sub>cont,obs,fin</sub>,Δ<sub>comp</sub>). Su función no es igualar edades, sino compararlas con conservación de dominio. Para cada objeto físico interno (O<sub>i</sub>): O<sub>i</sub>⊂Ω<sub>obs</sub>. Se exige: A<sub>i</sub>≠ A<sub>Ωobs</sub>salvo que el objeto sea precisamente el observable retornado. También se exige: A<sub>i</sub>≤ A<sub>Ωobs</sub>. Y: A<sub>i,fin</sub>≤ A<sub>cont,obs,fin</sub>cuando el ciclo del objeto sea contenido en el ciclo observable. El residual comparativo será: Δ<sub>comp</sub>(O<sub>i</sub>) Δ<sub>Ω</sub> ⊕ Δ<sub>A</sub> ⊕ Δ<sub>fin</sub> ⊕ Δ<sub>frac</sub> ⊕ Δ<sub>plano</sub>. Donde: Δ<sub>Ω</sub>=0 si el objeto pertenece al dominio observable;Δ<sub>A</sub>=0 si su edad actual es propia y no absorbida por otra edad; Δ<sub>fin</sub>=0 si su cierre se declara en su dominio; Δ<sub>frac</sub>=0 si su fracción se calcula respecto de su propio ciclo; Δ<sub>plano</sub>=0 si no se atribuye al objeto el estatuto de totalidad absoluta.
 
-**Demostración.** Por Lema VIII.1, eliminar cualquier condición produce una fórmula insuficiente. Por Lema VIII.2, añadir condiciones no derivadas produce fórmula impropia o falso negativo. Luego la fórmula contiene exactamente las condiciones necesarias, salvo reescrituras definicionales. c.q.d.
+II.E. Teorema II.1. Independencia de dominio y conservación de comparabilidad
 
----
+Teorema II.1. Si (O<sub>i</sub>⊂Ω<sub>obs</sub>) es un objeto físico interno con edad propia (A<sub>i</sub>), entonces (A<sub>i</sub>) es comparable con (A<sub>Ωobs</sub>), pero no idéntica a ella salvo identidad de dominio. La comparación legítima exige conservar el dominio propio del objeto. Demostración. Sea: O<sub>i</sub>⊂Ω<sub>obs</sub>. El objeto (O<sub>i</sub>) posee edad propia si existen: (Ω<sub>i</sub>,Id<sub>i</sub>,∂Ω<sub>i</sub>,M<sub>i</sub>,u<sub>i</sub>,Δ<sub>i</sub>,R<sub>i</sub>). Entonces: A<sub>i</sub>=A(O<sub>i</sub>). El observable retornado se define por: A<sub>Ωobs</sub>=<sub>Δj=0</sub>A(C<sub>j</sub>). Si (O<sub>i</sub>) no es el observable retornado, entonces: A<sub>i</sub>≤ A<sub>Ωobs</sub>. La igualdad: A<sub>i</sub>=A<sub>Ωobs</sub>sólo es admisible si: O<sub>i</sub>=C<sub>max</sub>o si la tabla de contraste demuestra que (O<sub>i</sub>) realiza el concreto. En caso contrario, imponer igualdad elimina la diferencia de dominio. Para el Sol: A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>. Para el observable retornado: A<sub>cont,obs,act</sub>=13 800 000 000 a<sub>J</sub>. Como:
 
-# IX. Equivalencia físico-factual del objeto agujero negro
+4 570 000 000<13 800 000 000, el Sol es comparable, pero no idéntico al observable retornado. Por tanto, la comparación es legítima y la absorción es ilegítima. c.q.d.
 
-## IX.1. Definiciones de los dos lados
+II.F. Teorema II.2. Elevación del contraste solar al universo observable
 
-BH_físico se define como objeto físico de horizonte cuando existe frontera de no salida exterior, no salida luminosa, interior no accesible por canal exterior, efectos externos de campo compatibles con objeto compacto y lectura geométrica externa de horizonte.
+Teorema II.2. El contraste solar confirma el método general de edades relativas, porque reproduce la misma disciplina de dominio, unidad, residual y retorno que el observable retornado, aunque con valor, cierre y fracción propios. Demostración. El Sol se calcula con: A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>. A<sub>☉,fin</sub>=10 000 000 000 a<sub>J</sub>. A<sub>☉,restante</sub>=5,430,000,000 a<sub>J</sub>. El observable retornado se calcula con: A<sub>cont,obs,act</sub>=13 800 000 000 a<sub>J</sub>. A<sub>cont,obs,fin</sub>=27 600 000 000 a<sub>J</sub>. <sub>cont,obs,restante</sub>=13 800 000 000 a<sub>J</sub>. Ambos dominios usan la misma equivalencia transductiva: 1,a<sub>J</sub>=31 557 600,s. 1,s=9,UE<sub>MFC</sub>. Luego: 1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>. Para el Sol: 4 570 000 000×284 018 400 1,297,964,088,000,000,000,UE<sub>MFC</sub>. Para el observable retornado: 13 800 000 000 × 284 018 400 = 3 919 453 920 000 000 000,UE<sub>MFC</sub>. Los dos cálculos tienen forma común: A<sup>SV</sup>=A[a<sub>J</sub>]×284 018 400. Pero tienen dominio distinto: Ω_☉≠Ω<sub>obs</sub>. Por tanto, el contraste solar confirma la validez del aparato de transducción sin colapsar los dominios. c.q.d.
 
-BHₛᵥ se define como régimen Γᴮᴴ tal que BHₛᵥ(Γᴮᴴ)=0.
+II.G. Teorema II.3. Error cero de transducción por dominio declarado
 
-## IX.2. Traductores
+Teorema II.3. Para todo dominio interno (D<sub>i</sub>) con edad de registro (A<sub>i</sub>∈ N· a<sub>J</sub>), la transducción: a<sub>J</sub>→ s→ UE<sub>MFC</sub>tiene error aritmético y transductivo cero si se conservan las definiciones: 1,a<sub>J</sub>=31 557 600,s, 1,s=9,UE<sub>MFC</sub>. Demostración. Sea: A<sub>i</sub>=N<sub>i</sub>,a<sub>J</sub>, con: N<sub>i</sub>∈ N. La transducción a segundos es: A<sub>i</sub>[s]=N<sub>i</sub>×31 557 600. La transducción a unidades SV es: A<sub>i</sub><sup>SV</sup>=N<sub>i</sub>×31 557 600×9. Como: 31 557 600 × 9 = 284 018 400, entonces: A<sub>i</sub><sup>SV</sup>=N<sub>i</sub>×284 018 400. El retorno inverso es: A<sub>i</sub>[a<sub>J</sub>]=A<sub>i</sub><sup>SV</sup>284 018 400. Sustituyendo: A<sub>i</sub>[a<sub>J</sub>]=N<sub>i</sub>×284 018 400/284 018 400=N<sub>i</sub>. Por tanto: A<sub>i</sub>→ A<sub>i</sub><sup>SV</sup>→ A<sub>i</sub>conserva exactamente el valor inicial. Luego: ε<sub>trans</sub>(D<sub>i</sub>)=0. c.q.d.
 
-Ξ_AST→SV traduce:
+II.H. Corolario II.1. El Sol no refuta el ciclo observable: lo contrasta
 
-NoSalidaExterior → DΣ(v_TE)=NO_APTO.
-NoSalidaLuminosa → DΣ(v_L)=NO_APTO.
-InteriorNoAccesible → DΣ(v_INT)=SATURACIÓN.
-EfectosExternosDeCampo → C_UNIF y C_EM.
-Postfrontera → C_TN y C_NOEXT.
-Modelos físicos tratados → C_ABS.
+Corolario II.1. El hecho de que: f<sub>☉,act</sub>=457/1000 mientras: f<sub>cont,obs,act</sub>=1/2 no refuta el ciclo observable. Demuestra que el Sol posee ciclo propio. Demostración. Si todos los dominios internos tuvieran que compartir la misma fracción de ciclo, entonces: f<sub>☉,act</sub>=f<sub>cont,obs,act</sub>. Pero: 457/1000≠1/2. La igualdad forzada activaría: Δ<sub>Ω</sub>=1, porque confundiría el dominio solar con el dominio del observable retornado. Por tanto, la desigualdad de fracciones no es defecto. Es confirmación de independencia de dominio. c.q.d.
 
-Ξ_SV→AST traduce:
+II.I. Corolario II.2. El universo observable no absorbe las edades propias de sus objetos
 
-DΣ(v_TE)=NO_APTO → frontera física de no salida exterior.
-DΣ(v_L)=NO_APTO → no salida luminosa.
-DΣ(v_INT)=SATURACIÓN → interior no accesible exteriormente.
-C_UNIF y C_EM → efectos externos de campo preservados.
-Postᴮᴴ=M_N2-SV → cierre postfrontera sin resto exterior formulable.
+Corolario II.2. El universo observable contiene objetos físicos con edades propias, pero no convierte esas edades en una única edad indiferenciada. Demostración. Sea: O= ☉,Ω<sub>VL</sub>,C<sub>max</sub>,O<sub>1</sub>,O<sub>n</sub>. Cada objeto o dominio (O<sub>i</sub>) posee, si cierra: A(O<sub>i</sub>). El observable retornado posee: A<sub>Ωobs</sub>=<sub>Δi=0</sub>A(O<sub>i</sub>). El supremo no elimina los valores particulares. Sólo selecciona el cierre admisible. Así: A_☉=4 570 000 000 a<sub>J</sub>permanece edad solar; A<sub>VL</sub>=13 600 000 000 a<sub>J</sub>permanece edad del dominio Vía Láctea-entorno; A<sub>Ωobs</sub>=13 800 000 000 a<sub>J</sub>permanece edad concreta del observable retornado. No hay absorción: A_☉→ A<sub>Ωobs</sub>. A<sub>VL</sub>→A<sub>Ωobs</sub>. Hay orden: A_☉VLΩobs. Con los valores: 4 570 000 000 < 13 600 000 000 < 13 800 000 000. c.q.d.
 
-## IX.3. Teorema de equivalencia
+II.J. Tabla de contraste de ciclos: Sol, Vía Láctea-entorno y observable retornado
 
-**Teorema IX.1. BH_físico⇔BHₛᵥ.**
+| Dominio | Actual (a<sub>J</sub>) | Actual (UE<sub>MFC</sub>) | Restante (a<sub>J</sub>) | Restante (UE<sub>MFC</sub>) | Fin (a<sub>J</sub>) | Fin (UE<sub>MFC</sub>) | Fracción actual |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Sol | 4.570.000.000 | 1.297.964.088.000.000.000 | 5.430.000.000 | 1.542.219.912.000.000.000 | 10.000.000.000 | 2.840.184.000.000.000.000 | (457/1000) |
+| Vía Láctea-entorno | 13.600.000.000 | 3.862.650.240.000.000.000 | 13.600.000.000 | 3.862.650.240.000.000.000 | 27.200.000.000 | 7.725.300.480.000.000.000 | (1/2) |
+| Observable retornado | 13.800.000.000 | 3.919.453.920.000.000.000 | 13.800.000.000 | 3.919.453.920.000.000.000 | 27.600.000.000 | 7.838.907.840.000.000.000 | (1/2) |
 
-**Demostración.** Supóngase BH_físico. Por definición, existe frontera de no salida exterior; Ξ_AST→SV la traduce en DΣ(v_TE)=NO_APTO. La no salida luminosa se traduce en DΣ(v_L)=NO_APTO. El interior no accesible se traduce en DΣ(v_INT)=SATURACIÓN. Los efectos externos de campo se traducen en C_UNIF y C_EM. La postfrontera se somete al cierre TODO/NADA, con C_TN y C_NOEXT. El estado del arte físico se clasifica por C_ABS. Se obtiene Rᴮᴴ=(0,0,0,0,0,0,0,0,0,0,0), por tanto BHₛᵥ=0 y BHₛᵥ.
+Diferencias escalares: A<sub>Ωobs</sub>-A<sub>VL</sub>13 800 000 000-13 600 000 000 200,000,000 a<sub>J</sub>. A<sub>VL</sub>-A_☉ 13 600 000 000-4 570 000 000 9,030,000,000 a<sub>J</sub>. A<sub>Ωobs</sub>-A_☉ 13 800 000 000-4 570 000 000 9,230,000,000 a<sub>J</sub>. Diferencias transductivas: 200,000,000×284 018 400 56,803,680,000,000,000 UE<sub>MFC</sub>. 9,030,000,000×284 018 400 2,564,686,152,000,000,000 UE<sub>MFC</sub>. 9,230,000,000×284 018 400 2,621,489,832,000,000,000 UE<sub>MFC</sub>.
 
-Supóngase ahora BHₛᵥ. Entonces BHₛᵥ=0 y todas las condiciones Cˣ se cumplen. Ξ_SV→AST traduce DΣ(v_TE)=NO_APTO en frontera física de no salida exterior; DΣ(v_L)=NO_APTO en no salida luminosa; DΣ(v_INT)=SATURACIÓN en interior no accesible exteriormente; C_UNIF y C_EM en efectos externos de campo; C_NOEXT en postfrontera sin resto exterior formulable. Esos rasgos constituyen BH_físico. Por doble implicación, BH_físico⇔BHₛᵥ. c.q.d.
+II.K. Tabla de errores de plano, definición, transducción y aritmética
 
-## IX.4. Teorema de falsación por luz
+| Dominio | Error de plano | Error de definición | Error transductivo | Error aritmético | Lectura formal |
+| --- | --- | --- | --- | --- | --- |
+| Sol | 0 | 0 | 0 | 0 | admisible |
+| Vía Láctea-entorno | 0 | 0 | 0 | 0 | admisible |
+| Observable retornado | 0 | 0 | 0 | 0 | admisible |
+| Totalidad absoluta | bloquea atribución | no aplica | no aplica | no aplica | NO ADMISIBLE |
+| Sol = totalidad absoluta | 1 | 1 | no aplica | no aplica | NO ADMISIBLE |
+| Sol = observable retornado | 1 | 1 | no aplica | no aplica | NO ADMISIBLE |
+| Vía Láctea = totalidad absoluta | 1 | 1 | no aplica | no aplica | NO ADMISIBLE |
+| Edad de objeto sin dominio | (U) | (U) | (U) | (U) | no cerrado |
+| Edad sin unidad SV | 0 | (U) | (U) | no cerrado | (U) |
+| Edad sin retorno inverso | 0 | (U) | (U) | no cerrado | (U) |
 
-**Teorema IX.2.** Si existe salida luminosa exterior apta desde el interior, no hay BH_físico ni BHₛᵥ.
+Definición de error absoluto por dominio: ε<sub>i</sub><sup>abs</sup>ε<sub>i</sub><sup>plano</sup> ⊕ ε<sub>i</sub><sup>def</sup> ⊕ ε<sub>i</sub><sup>trans</sup> ⊕ ε<sub>i</sub><sup>arit</sup>. Para los tres dominios admisibles: ε_☉<sup>abs</sup>=0. ε<sub>VL</sub><sup>abs</sup>=0. ε<sub>cont,obs</sub><sup>abs</sup>=0.
 
-**Demostración.** Salida luminosa exterior apta implica DΣ(v_L)=APTO por Ξ_AST→SV. BHₛᵥ exige DΣ(v_L)=NO_APTO. Por Lema III.1, ambos dictámenes no pueden coexistir. Luego no hay BHₛᵥ. Por Teorema IX.1, tampoco hay BH_físico. c.q.d.
+II.L. Contraste laboratorial expuesto
 
+| Prueba | Dominio | Entrada | Operación | Salida esperada | Error permitido | Lectura formal |
+| --- | --- | --- | --- | --- | --- | --- |
+| LAB-II-01 | Sol | 4.570.000.000 (a<sub>J</sub>) | (×284.018.400) | 1.297.964.088.000.000.000 (UE<sub>MFC</sub>) | 0 | 0 |
+| LAB-II-02 | Sol | 10.000.000.000 (a<sub>J</sub>) | (×284.018.400) | 2.840.184.000.000.000.000 (UE<sub>MFC</sub>) | 0 | 0 |
+| LAB-II-03 | Sol | 10.000.000.000 − 4.570.000.000 | resta | 5.430.000.000 (a<sub>J</sub>) | 0 | 0 |
+| LAB-II-04 | Sol | 4.570.000.000 / 10.000.000.000 | fracción | (457/1000) | 0 | 0 |
+| LAB-II-05 | Vía Láctea-entorno | 13.600.000.000 (a<sub>J</sub>) | (×284.018.400) | 3.862.650.240.000.000.000 (UE<sub>MFC</sub>) | 0 | 0 |
+| LAB-II-06 | Vía Láctea-entorno | 27.200.000.000 (a<sub>J</sub>) | (×284.018.400) | 7.725.300.480.000.000.000 (UE<sub>MFC</sub>) | 0 | 0 |
+| LAB-II-07 | Contenido observable | 13.800.000.000 (a<sub>J</sub>) | (×284.018.400) | 3.919.453.920.000.000.000 (UE<sub>MFC</sub>) | 0 | 0 |
+| LAB-II-08 | Contenido observable | 27.600.000.000 (a<sub>J</sub>) | (×284.018.400) | 7.838.907.840.000.000.000 (UE<sub>MFC</sub>) | 0 | 0 |
+| LAB-II-09 | Comparativo | (A_☉<A<sub>VL</sub><A<sub>Ωobs</sub>) | orden | verdadero | 0 | 0 |
+| LAB-II-10 | Comparativo | (f_☉=f<sub>cont,obs</sub>) | control adversarial | falso | 0 | 1 |
+| LAB-II-11 | Plano | (Edad( T)) | atribución | NO ADMISIBLE | 0 | 1 |
+| LAB-II-12 | Retorno | (UE<sub>MFC</sub>→ s→ a<sub>J</sub>) | inversa | valor inicial | 0 | 0 |
 
-## IX.5. Transductor bidireccional de contraste con magnitudes físicas
+II.M. Conclusión fuerte del Anexo II
 
-Para contraste con la física y las magnitudes que maneja, el documento emplea un transductor bidireccional. Su función no es sustituir el dictamen formal, sino hacer visible, sobre las magnitudes tradicionales, qué está siendo absorbido y qué queda fuera de alcance cuando una fórmula externa pretende ocupar el lugar de la fórmula completa.
+El contraste solar demuestra que el aparato de edades relativas no es una fórmula única aplicada sin discriminación. Es un sistema de dominios. El Sol conserva edad propia. La Vía Láctea-entorno conserva edad propia. El observable retornado conserva edad propia. La totalidad absoluta no recibe edad.
 
-| Magnitud o criterio físico | Lectura física ordinaria | Traducción formal | Retorno al lenguaje físico |
-|---|---|---|---|
-| q = r/rₛ | q ≤ 1 identifica frontera Schwarzschild | DΣ(v_TE)=NO_APTO y DΣ(v_L)=NO_APTO | horizonte de no salida exterior y no salida luminosa |
-| χ de Kerr | ∣χ∣ ≤ 1 permite horizonte exterior real | absorción de proyección rotante | Kerr válido como frontera externa rotante |
-| Sᴮᴴ/k_B | entropía adimensional de frontera | C_TH y C_H | proyección termodinámica, no postfrontera |
-| Tᴴ | temperatura de Hawking exterior | C_TH parcial | emisión exterior, no cierre interior completo |
-| K/Kₕ | curvatura relativa | proyección geométrica evaluable si r > 0 | límite de proyección; r = 0 no funda interior |
-| no salida luminosa | ningún rayo interior llega al exterior | DΣ(v_L)=NO_APTO | no transmisión luminosa, sin anulación de la luz |
-| interior no accesible | el exterior no reconstruye localmente el interior | DΣ(v_INT)=SATURACIÓN | interior saturado, no vacío sustancial |
-| cierre postfrontera | pregunta por lo situado tras la frontera | C_TN y C_NOEXT | M_N2-SV, no U |
+El Sol fija: A<sub>☉,act</sub>4 570 000 000 a<sub>J</sub>1,297,964,088,000,000,000 UE<sub>MFC</sub>. A<sub>☉,restante</sub>5,430,000,000 a<sub>J</sub>1,542,219,912,000,000,000 UE<sub>MFC</sub>. A<sub>☉,fin</sub>10 000 000 000 a<sub>J</sub>2,840,184,000,000,000,000 UE<sub>MFC</sub>. El observable retornado fija: A<sub>cont,obs,act</sub>13 800 000 000 a<sub>J</sub>3 919 453 920 000 000 000 UE<sub>MFC</sub>. A<sub>cont,obs,restante</sub>13 800 000 000 a<sub>J</sub>3 919 453 920 000 000 000 UE<sub>MFC</sub>. A<sub>cont,obs,fin</sub>27 600 000 000 a<sub>J</sub>7 838 907 840 000 000 000 UE<sub>MFC</sub>. Y el contraste establece: A_☉VLΩobs. f_☉=457/1000≠1/2=f<sub>cont,obs</sub>. Por tanto, el resultado es fuerte: el Sol no corrige el ciclo observable; lo verifica por contraste. La diferencia entre sus fracciones demuestra que cada objeto físico conserva su ciclo propio. La coincidencia de conversión demuestra que todos los dominios pueden hablar el mismo lenguaje físico-transductivo. La acotación de error cero se mantiene porque no se anulan las márgenes instrumentales; se anulan el error de plano, el error definicional, el error transductivo y el error aritmético dentro de los dominios declarados.
 
-Este transductor se aplica en doble dirección. De la física al aparato formal, impide que el horizonte quede reducido a una imagen verbal. Del aparato formal a la física, impide que el dictamen se lea como nomenclatura interna sin contraste observable o computable. Por esa razón, los bancos de la sección XII incorporan tanto células y dictámenes como magnitudes físicas: q, rₛ, χ, r₊, Sᴮᴴ/k_B, Tᴴ, K/Kₕ y casos de salida luminosa.
+# Conclusión conjunta de los Anexos I y II
 
+## C.1. Lectura rectora
 
-## IX.6. Doble transducción ampliada: de magnitud física a dictamen y de dictamen a magnitud
+Los Anexos I y II fijan una separación definitiva entre cuatro planos que no deben confundirse: T≠ Ω<sub>obs</sub>≠ Ω<sub>VL</sub>≠ Ω_☉≠Ω<sub>SS</sub>. La totalidad absoluta ( T) no admite edad física. El universo observable, la Vía Láctea-entorno, el Sol y el Sistema Solar sí admiten edades relativas porque son dominios u objetos físicos internos con identidad, frontera, métrica, unidad, residual y retorno. La física contemporánea aporta anclas observacionales: el Sol se sitúa en torno a (4,57×10<sup>9</sup>) años y su transición a gigante roja se ubica alrededor de (10–11×10<sup>9</sup>) años de edad solar; la edad del Sistema Solar se fija por las inclusiones ricas en calcio y aluminio más antiguas en torno a (4,568×10<sup>9</sup>) años; y el universo observable se contrasta con la escala de (13,8×10<sup>9</sup>) años. (Agencia Espacial Europea) El transductor no elimina el margen instrumental externa. Lo que fija con error cero es la atribución de plano, la definición, la conversión SI ↔︎ SV y la aritmética interna.
 
-El transductor bidireccional no es una tabla decorativa. Es el mecanismo por el que una magnitud física tradicional queda situada en el plano que le corresponde. Si la magnitud describe una frontera, se traduce a transmisión exterior o luminosa. Si describe termodinámica, se traduce a C_TH o C_H. Si describe curvatura divergente, se traduce a proyección geométrica evaluable o a rechazo de fundamento cuando pierde evaluabilidad. Si describe información exterior, se traduce a absorción parcial salvo que cierre postfrontera, cosa que no hace por sí sola.
+## C.2. Tabla maestra SV ↔︎ Física contemporánea
 
-La dirección física → formal se lee así:
+| Dominio físico | Estado actual (a<sub>J</sub>) | Estado actual (UE<sub>MFC</sub>) | Fin de estructura observable (a<sub>J</sub>) | Fin de estructura observable (UE<sub>MFC</sub>) | Restante (a<sub>J</sub>) | Restante (UE<sub>MFC</sub>) | Fracción actual | Lectura formal |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Observable retornado | 13.800.000.000 | 3.919.453.920.000.000.000 | 27.600.000.000 | 7.838.907.840.000.000.000 | 13.800.000.000 | 3.919.453.920.000.000.000 | (1/2) | admisible |
+| Vía Láctea-entorno | 13.600.000.000 | 3.862.650.240.000.000.000 | 27.200.000.000 | 7.725.300.480.000.000.000 | 13.600.000.000 | 3.862.650.240.000.000.000 | (1/2) | admisible |
+| Sol | 4.570.000.000 | 1.297.964.088.000.000.000 | 10.000.000.000 | 2.840.184.000.000.000.000 | 5.430.000.000 | 1.542.219.912.000.000.000 | (457/1000) | admisible |
+| Sistema Solar | 4.568.000.000 | 1.297.396.051.200.000.000 | 10.000.000.000 | 2.840.184.000.000.000.000 | 5.432.000.000 | 1.542.787.948.800.000.000 | (571/1250) | admisible |
+| Totalidad absoluta | no aplicable | no aplicable | no aplicable | no aplicable | no aplicable | no aplicable | no aplicable | NO ADMISIBLE |
 
-1. Identificar la magnitud externa: q, χ, r₊, Sᴮᴴ/k_B, Tᴴ, K/Kₕ o salida luminosa.
-2. Declarar su dominio de validez física.
-3. Traducirla a una condición Cˣ o a un vector de absorción v_ABS.
-4. Verificar si anula un componente de Rᴮᴴ o sólo un subcomponente proyectivo.
-5. Rechazarla como fundamento si exige singularidad primaria, probabilidad, estadística, tiempo soberano o inferencia opaca.
+La equivalencia usada en todos los dominios es: 1,a<sub>J</sub>=31 557 600,s. ,s=9,UE<sub>MFC</sub>. 1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>.
 
-La dirección formal → física se lee así:
+## C.3. Diferencias singulares en años julianos y unidades SV
 
-1. Partir de una condición formal: DΣ(v_TE)=NO_APTO, DΣ(v_L)=NO_APTO, DΣ(v_INT)=SATURACIÓN, C_TH=0, C_H=0 o Postᴮᴴ=M_N2-SV.
-2. Determinar qué magnitud física permite contraste: q para frontera Schwarzschild, χ y r₊ para Kerr, Sᴮᴴ/k_B y Tᴴ para termodinámica, K/Kₕ para singularidad geométrica.
-3. Mostrar el valor o el caso de borde.
-4. Devolver el enunciado físico sin convertirlo en fundamento: horizonte, no salida luminosa, emisión exterior, límite geométrico o evidencia de objeto compacto.
+| Comparación | Diferencia (a<sub>J</sub>) | Diferencia (UE<sub>MFC</sub>) | Lectura física |
+| --- | --- | --- | --- |
+| Observable retornado − Vía Láctea-entorno | 200.000.000 | 56.803.680.000.000.000 | El dominio observable concreto excede al dominio local galáctico |
+| Vía Láctea-entorno − Sol | 9.030.000.000 | 2.564.686.152.000.000.000 | El dominio galáctico local precede ampliamente al Sol |
+| Observable retornado − Sol | 9.230.000.000 | 2.621.489.832.000.000.000 | El Sol es objeto interno tardío respecto del observable retornado |
+| Sol − Sistema Solar | 2.000.000 | 568.036.800.000.000 | Diferencia de registro entre edad solar y edad de formación del Sistema Solar |
+| Restante Sistema Solar − restante Sol | 2.000.000 | 568.036.800.000.000 | La diferencia se conserva por resta exacta |
+| Fin observable concreto − fin Vía Láctea-entorno | 400.000.000 | 113.607.360.000.000.000 | Diferencia duplicada por simetría del ciclo observable |
+| Fin solar − fin Sistema Solar | 0 | 0 | Ambos cierran en la misma frontera normalizada de estructura solar-sistémica |
 
-**Teorema IX.3. No colapso del transductor en una sola dirección.** Si una magnitud física se usa para absorber una proyección, debe poder retornar a un enunciado físico inteligible sin alterar la condición formal que la absorbió.
+## C.4. Lectura específica: Sol
 
-**Demostración.** Sea M una magnitud física de contraste. Si M se traduce a Cˣ, entonces su valor sólo es admisible si preserva el significado físico que la hizo entrar en el transductor. Si q ≤ 1 se traduce a no transmisión, el retorno físico debe ser horizonte de no salida, no postfrontera. Si Sᴮᴴ/k_B se traduce a C_TH, el retorno debe ser entropía de frontera, no cierre interior. Si K/Kₕ pierde evaluabilidad en r = 0, el retorno debe ser límite geométrico no fundante, no interior factual. En todos los casos, el retorno físico conserva el alcance de la magnitud y no invade los demás componentes de Rᴮᴴ. c.q.d.
+El Sol es un objeto físico interno: Ω_☉⊂Ω<sub>obs</sub>. Su edad actual de registro es: A<sub>☉,act</sub>=4 570 000 000,a<sub>J</sub>. Transducción: 4 570 000 000×284 018 400 1,297,964,088,000,000,000,UE<sub>MFC</sub>. La frontera normalizada de desaparición de su estructura actual de secuencia principal se fija en el inicio del intervalo físico de gigante roja: A<sub>☉,fin</sub>=10 000 000 000,a<sub>J</sub>. A<sub>☉,fin</sub><sup>SV</sup> = 2,840,184,000,000,000,000,UE<sub>MFC</sub>. El tramo restante es: A<sub>☉,restante</sub>10 000 000 000-4 570 000 000 5,430,000,000,a<sub>J</sub>. A<sub>☉,restante</sub><sup>SV</sup> = 1,542,219,912,000,000,000,UE<sub>MFC</sub>. Fracciones: f<sub>☉,act</sub>=4 570 000 000/10 000 000 000 457/1000. f<sub>☉,restante</sub>=543/1000. Lectura formal: Edad(☉)=4 570 000 000,a<sub>J</sub>. Desaparición de la estructura solar actual=10 000 000 000,a<sub>J</sub>. Tramo restante=5,430,000,000,a<sub>J</sub>. Δ_☉=0.
 
-## IX.7. Ejemplos paralelos para lector físico
+## C.5. Lectura específica: Sistema Solar
 
-| Ejemplo físico | Cálculo o condición externa | Lectura formal | Retorno físico controlado |
-|---|---|---|---|
-| Radio de Schwarzschild | q = r/rₛ ≤ 1 | DΣ(v_TE)=NO_APTO y DΣ(v_L)=NO_APTO | frontera de no salida exterior y luminosa |
-| Exterior de Schwarzschild | q > 1 | DΣ(v_TE)=APTO | región exterior transmisible en esa proyección |
-| Kerr subextremo | ∣χ∣ ≤ 1 | v_ABS compatible | horizonte rotante real absorbido |
-| Kerr superextremo | ∣χ∣ > 1 | v_ABS defectivo | no se declara agujero negro Kerr físico |
-| Entropía de área | Sᴮᴴ/k_B = A/(4ℓₚ²) | C_H y C_TH | proyección termodinámica de frontera |
-| Temperatura exterior | Tᴴ = ℏc³/(8πGMk_B) | C_TH parcial | emisión exterior, no interior completo |
-| Curvatura relativa | K/Kₕ=(rₛ/r)⁶ | proyección si r > 0 | límite geométrico evaluable |
-| Singularidad r = 0 | K/Kₕ no finito | R_SING=1 | rechazo como fundamento interior |
-| Salida luminosa apta | luz desde interior al exterior | R_L=1 | refutación del régimen BH |
+El Sistema Solar es un dominio físico interno: Ω<sub>SS</sub>⊂Ω<sub>obs</sub>. Su edad actual de registro se fija por el marcador material de formación temprana del sistema, no por la edad de la totalidad. Las inclusiones ricas en calcio y aluminio más antiguas se sitúan en (4,568×10<sup>9</sup>) años, menos de un millón de años después del primer encendido solar. (American Museum of Natural History) A<sub>SS,act</sub>=4 568 000 000,a<sub>J</sub>. Transducción: 4 568 000 000×284 018 400 1,297,396,051,200,000,000,UE<sub>MFC</sub>. El fin de estructura observable del Sistema Solar actual se acopla a la frontera solar normalizada de gigante roja: A<sub>SS,fin</sub>=10 000 000 000,a<sub>J</sub>. A<sub>SS,fin</sub><sup>SV</sup> = 2,840,184,000,000,000,000,UE<sub>MFC</sub>. El tramo restante es: A<sub>SS,restante</sub>10 000 000 000-4 568 000 000 5,432,000,000,a<sub>J</sub>. A<sub>SS,restante</sub><sup>SV</sup> = 1,542,787,948,800,000,000,UE<sub>MFC</sub>. Fracciones: f<sub>SS,act</sub>4 568 000 000/10 000 000 000 571/1250. f<sub>SS,restante</sub>679/1250. Lectura formal: Edad(Sistema Solar)=4 568 000 000,a<sub>J</sub>. Desaparición de la estructura observable actual del Sistema Solar=10 000 000 000,a<sub>J</sub>. Tramo restante=5,432,000,000,a<sub>J</sub>. Δ<sub>SS</sub>=0.
 
-## IX.8. Protección contra lecturas reductoras
+## C.6. Lectura específica: Vía Láctea-entorno
 
-Una lectura reductora consiste en tomar una proyección útil como si fuese la fórmula completa. El documento excluye cinco reducciones:
+La Vía Láctea-entorno se trata como dominio estructural local, no como totalidad absoluta: Ω<sub>VL</sub>⊂Ω<sub>obs</sub>. El valor de registro adoptado es: A<sub>VL,act</sub>=13 600 000 000,a<sub>J</sub>. Este valor queda en consonancia con estimaciones recientes de estrellas muy antiguas de la Vía Láctea en torno a (13,6×10<sup>9</sup>) años, usadas como contraste de edad cósmica estelar. (ICCUB) Transducción: 13 600 000 000×284 018 400 3,862,650,240,000,000,000,UE<sub>MFC</sub>. Por simetría transductiva local: A<sub>VL,fin</sub>=2A<sub>VL,act</sub>. A<sub>VL,fin</sub>=27 200 000 000,a<sub>J</sub>. A<sub>VL,fin</sub><sup>SV</sup> = 7,725,300,480,000,000,000,UE<sub>MFC</sub>. Tramo restante: A<sub>VL,restante</sub>13 600 000 000,a<sub>J</sub>. A<sub>VL,restante</sub><sup>SV</sup> = 3,862,650,240,000,000,000,UE<sub>MFC</sub>. Fracciones: f<sub>VL,act</sub>=1/2. f<sub>VL,restante</sub>=1/2. Lectura formal: Edad(Vía Láctea-entorno)=13 600 000 000,a<sub>J</sub>. Desaparición de su estructura observable de dominio=27 200 000 000,a<sub>J</sub>. Tramo restante=13 600 000 000,a<sub>J</sub>. Δ<sub>VL</sub>=0.
 
-1. Reducción métrica: declarar agujero negro sólo por q ≤ 1 o por r₊ real.
-2. Reducción luminosa: declarar agujero negro sólo por no salida de luz, sin interior, termodinámica ni postfrontera.
-3. Reducción termodinámica: declarar cierre por Sᴮᴴ o Tᴴ.
-4. Reducción singular: declarar interior por r = 0 no evaluable.
-5. Reducción informacional: sustituir postfrontera por reconstrucción exterior o por probabilidad.
+## C.7. Lectura específica: observable retornado
 
-**Proposición IX.4. Toda reducción parcial produce un falso positivo posible.**
+El observable retornado es el dominio de retorno más amplio tratado por la formulación: Ω<sub>obs</sub>⊂Ω<sub>obs</sub>. El valor de registro es: A<sub>cont,obs,act</sub>=13 800 000 000,a<sub>J</sub>. La escala de (13,8×10<sup>9</sup>) años está alineada con los resultados cosmológicos de Planck divulgados por ESA y NASA como edad del universo observable bajo modelo físico. (NASA Science) Transducción: 13 800 000 000 × 284 018 400 = 3 919 453 920 000 000 000,UE<sub>MFC</sub>. Por simetría transductiva del ciclo observable: A<sub>cont,obs,fin</sub>=27 600 000 000,a<sub>J</sub>. A<sub>cont,obs,fin</sub><sup>SV</sup> = 7 838 907 840 000 000 000,UE<sub>MFC</sub>. Tramo restante: A<sub>cont,obs,restante</sub>=13 800 000 000,a<sub>J</sub>. A<sub>cont,obs,restante</sub><sup>SV</sup> = 3 919 453 920 000 000 000,UE<sub>MFC</sub>. Lectura formal: Edad(Ω<sub>obs</sub>)=13 800 000 000,a<sub>J</sub>. Fin del ciclo observable=27 600 000 000,a<sub>J</sub>. Tramo restante=13 800 000 000,a<sub>J</sub>. Δ<sub>cont,obs</sub>=0.
 
-**Demostración.** Si se usa sólo q ≤ 1, puede omitirse la preservación de luz factual, la saturación interior y M_N2-SV. Si se usa sólo DΣ(v_L)=NO_APTO, puede omitirse la transmisión exterior general. Si se usa sólo Sᴮᴴ, puede omitirse la frontera de no salida. Si se usa r = 0, se toma una no evaluabilidad como fundamento. Si se usa reconstrucción exterior, se deja sin dictamen la postfrontera. Cada caso permite una configuración que la reducción aceptaría y Rᴮᴴ rechazaría. c.q.d.
+## C.8. Teorema de cierre conjunto
 
----
+Teorema. Si un dominio físico interno (D<sub>i</sub>) declara edad actual, frontera de desaparición de estructura observable, unidad SI, unidad SV, residual y retorno, entonces su edad, su tramo restante y su fin estructural son calculables con error transductivo cero. Demostración. Sea: D<sub>i</sub>⊂Ω<sub>obs</sub>. Sea: A<sub>i,act</sub>=N<sub>i</sub>,a<sub>J</sub>. Sea: A<sub>i,fin</sub>=F<sub>i</sub>,a<sub>J</sub>. Entonces: A<sub>i,restante</sub>=F<sub>i</sub>-N<sub>i</sub>. Como: 1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>, se obtiene: A<sub>i,act</sub><sup>SV</sup>=N<sub>i</sub>×284 018 400. A<sub>i,fin</sub><sup>SV</sup>=F<sub>i</sub>×284 018 400. A<sub>i,restante</sub><sup>SV</sup>=(F<sub>i</sub>-N<sub>i</sub>)×284 018 400. La suma exacta es: A<sub>i,act</sub><sup>SV</sup>+A<sub>i,restante</sub><sup>SV</sup>A<sub>i,fin</sub><sup>SV</sup>. La inversa exacta es: A<sub>i</sub><sup>SV</sup>284 018 400=A<sub>i</sub>[a<sub>J</sub>]. Por tanto: ε<sub>trans</sub>=0. Y si el dominio no es la totalidad absoluta: ε<sub>plano</sub>=0. c.q.d.
 
-# X. Teoremas estructurales del régimen BH
+## C.9. Acotación final de error cero
 
-**Teorema X.1. Horizonte por transmisión exterior.** En BHₛᵥ, el horizonte se declara si y sólo si DΣ(v_TE)=NO_APTO.
+| Dominio | Error de plano | Error de definición | Error transductivo | Error aritmético | Error absoluto de la formulación |
+| --- | --- | --- | --- | --- | --- |
+| Sol | 0 | 0 | 0 | 0 | 0 |
+| Sistema Solar | 0 | 0 | 0 | 0 | 0 |
+| Vía Láctea-entorno | 0 | 0 | 0 | 0 | 0 |
+| Observable retornado | 0 | 0 | 0 | 0 | 0 |
+| Totalidad absoluta | bloqueada como no admisible | no aplicable | no aplicable | no aplicable | sin edad física |
 
-**Demostración.** v_TE codifica transmisión exterior general. El valor 1 significa no aptitud de transmisión exterior. DΣ(v_TE)=NO_APTO equivale a N₁(v_TE)≥T(n), es decir, mayoría cualificada de no transmisión. Eso define la frontera factual de no salida exterior. Recíprocamente, una frontera factual de no salida exterior asigna no aptitud a las coordenadas de v_TE hasta alcanzar el umbral. c.q.d.
+El margen observacional permanece en su dominio instrumental: σ<sub>obs</sub>≠0. Pero el error de atribución, definición, transducción y aritmética queda anulado: ε<sub>plano</sub>= ε<sub>def</sub>= ε<sub>trans</sub>= ε<sub>arit</sub>=0.
 
-**Teorema X.2. No transmisión luminosa con preservación de fibra.** En BHₛᵥ, la luz factual no se anula y no obtiene transmisión exterior.
+## C.10. Conclusión fuerte
 
-**Demostración.** DΣ(v_L)=NO_APTO decide transmisión luminosa exterior, no existencia de la fibra. La teoría factual de la luz define Φᴸₛᵥ como objeto fibroso con quince proyecciones. Si la fibra se anulara, v_L no sería evaluable. Como v_L se evalúa, la fibra permanece; como DΣ(v_L)=NO_APTO, no transmite exteriormente. c.q.d.
+El Sol, el Sistema Solar, la Vía Láctea-entorno y el observable retornado no compiten por una misma edad. Son dominios distintos, con edades propias, fronteras propias y cierres propios. La física contemporánea aporta los datos de contraste; el transductor fija la atribución exacta. El resultado final queda: Edad(Sol)=4 570 000 000,a<sub>J</sub>. Fin de la estructura solar actual=10 000 000 000,a<sub>J</sub>. Edad(Sistema Solar)=4 568 000 000,a<sub>J</sub>. Fin de la estructura observable actual del Sistema Solar=10 000 000 000,a<sub>J</sub>. Edad(Vía Láctea-entorno)=13 600 000 000,a<sub>J</sub>. Fin de la estructura observable de dominio=27 200 000 000,a<sub>J</sub>. Edad(observable retornado)=13 800 000 000,a<sub>J</sub>. Fin del ciclo observable=27 600 000 000,a<sub>J</sub>. Y la totalidad absoluta queda fuera de atribución cronológica: Edad( T)=NO ADMISIBLE.
 
-**Teorema X.3. Preservación de las quince proyecciones de la luz factual.** Si Φᴸₛᵥ comparece en Γᴮᴴ y BHₛᵥ=0, entonces sus quince proyecciones canónicas permanecen evaluables.
+## C.11. Controles negativos de contraste
 
-**Demostración.** La evaluabilidad de v_L presupone que Φᴸₛᵥ conserva su estructura de dominio. Las quince proyecciones constituyen la estructura formal de la teoría factual de la luz. Si alguna proyección canónica se perdiera por el régimen BH, la condición C_L no podría evaluarse como conservación de fibra con no transmisión. Eso activaría defecto R_L=1. Como BHₛᵥ=0 implica R_L=0, las quince proyecciones permanecen evaluables. c.q.d.
+Los controles negativos de contraste son obligatorios. Sin ellos, una publicación que declara edades relativas, transductores, dominios, retornos y error cero quedaría expuesta a una objeción inmediata: podría parecer que el sistema sólo confirma los casos favorables y evita las condiciones que lo refutan. Por ello, los controles negativos no son anexos decorativos. Son una condición de rigor. Su función consiste en presentar casos que deben fallar, casos que deben quedar en (U), casos que deben activar error de plano y casos que deben impedir que una magnitud físicamente correcta sea usada en un dominio incorrecto. La regla es: un caso positivo sin control negativo no demuestra discriminación. Y también: un resultado con error cero sólo es defendible si el sistema detecta el error cuando éste se introduce. Los controles negativos se aplican a cuatro niveles: plano, definición, transducción, aritmética. En el plano, deben rechazar la atribución de edad a la totalidad absoluta. En la definición, deben rechazar objetos sin dominio, sin frontera, sin identidad o sin firma. En la transducción, deben rechazar unidades incompletas, retornos alterados o conversiones sin inversa. En la aritmética, deben rechazar sumas, restas, fracciones o equivalencias que no reproduzcan el valor tabulado. El control negativo no busca destruir el resultado. Busca demostrar que el resultado no depende de complacencia formal.
 
-**Teorema X.4. Interior saturado.** En BHₛᵥ, Interiorᴮᴴ=Sat_BHₛᵥ.
+## C.11.1. Tabla general de controles negativos
 
-**Demostración.** BHₛᵥ exige C_INT. C_INT equivale a dictamen de saturación por v_INT. Por definición de v_INT, ese dictamen declara saturación factual extrema del interior. c.q.d.
+| Control negativo | Error introducido | Residual activado | Salida exigida |
+| --- | --- | --- | --- |
+| BN-PLANO | Edad atribuida a la totalidad absoluta | (Δ<sub>plano</sub>=1) | NO ADMISIBLE |
+| BN-DOMINIO | Objeto sin dominio declarado | (Δ<sub>Ω</sub>=U) | (U) |
+| BN-IDENTIDAD | Señal sin emisor u objeto identificable | (Δ<sub>Id</sub>=U) | (U) |
+| BN-FRONTERA | Objeto sin frontera de formación o desaparición | (Δ<sub>∂</sub>=U) | (U) |
+| BN-FIRMA | Línea espectral sin portador físico | (Δ<sub>Σ</sub>=U) | (U) |
+| BN-UNIDAD-SI | Magnitud sin unidad física | (Δ<sub>uSI</sub>=U) | (U) |
+| BN-UNIDAD-SV | Magnitud sin unidad transductiva | (Δ<sub>uSV</sub>=U) | (U) |
+| BN-RETORNO | Conversión sin retorno inverso | (Δ<sub>ret</sub>=1) | NO ADMISIBLE |
+| BN-ARITMÉTICO | Suma o resta que no reproduce el valor tabulado | (Δ<sub>arit</sub>=1) | NO ADMISIBLE |
+| BN-FRACCIÓN | Fracción actual y restante no suman (1) | (Δ<sub>f</sub>=1) | NO ADMISIBLE |
+| BN-SOL-TOTALIDAD | Edad del Sol tratada como edad de la totalidad | (Δ<sub>plano</sub>=1) | NO ADMISIBLE |
+| BN-VL-TOTALIDAD | Edad de la Vía Láctea tratada como edad de la totalidad | (Δ<sub>plano</sub>=1) | NO ADMISIBLE |
+| BN-SS-TOTALIDAD | Edad del Sistema Solar tratada como edad de la totalidad | (Δ<sub>plano</sub>=1) | NO ADMISIBLE |
+| BN-OBS-TOTALIDAD | Edad del contenido observable tratada como edad del TODO | (Δ<sub>plano</sub>=1) | NO ADMISIBLE |
+| BN-LAB | Laboratorio que calcula un valor no tabulado | (Δ<sub>lab</sub>=1) | NO ADMISIBLE |
 
-**Teorema X.5. No vacío y no singularidad primaria.** El interior BH no es vacío sustancial ni singularidad infinita primaria.
+## C.11.2. Control negativo de plano
 
-**Demostración.** El vacío sustancial eliminaría dominio evaluable; sin dominio no hay v_INT, Δᴮᴴ ni Rᴮᴴ. La singularidad infinita primaria sustituiría el dictamen factual por una no evaluabilidad geométrica. BHₛᵥ requiere evaluación completa y Postᴮᴴ=M_N2-SV. Luego no es vacío ni singularidad primaria. c.q.d.
+El control negativo de plano prueba que la edad se atribuye al tipo correcto de entidad. Su regla central es: Edad( T)=NO ADMISIBLE. Donde ( T) designa la totalidad absoluta.
 
-**Teorema X.6. Termodinámica factual interior.** En BHₛᵥ, la sección interior satisface Eᵗʰᵉʳᵐᵒₛᵥ=0.
+| Código | Entrada adversarial | Forma errónea | Corrección | Salida |
+| --- | --- | --- | --- | --- |
+| BN-PL-01 | Totalidad absoluta | (Edad( T)=13.800.000.000,a<sub>J</sub>) | La totalidad no es objeto físico interno | NO ADMISIBLE |
+| BN-PL-02 | Totalidad absoluta | (Edad( T)=27.600.000.000,a<sub>J</sub>) | El fin de ciclo observable no es fin de totalidad | NO ADMISIBLE |
+| BN-PL-03 | Sol | (Edad(☉)=Edad( T)) | El Sol es objeto interno | NO ADMISIBLE |
+| BN-PL-04 | Vía Láctea | (Edad(Ω<sub>VL</sub>)=Edad( T)) | La galaxia-entorno es dominio interno | NO ADMISIBLE |
+| BN-PL-05 | Sistema Solar | (Edad(Ω<sub>SS</sub>)=Edad( T)) | El Sistema Solar es dominio interno | NO ADMISIBLE |
+| BN-PL-06 | Contenido observable | (Edad(Ω<sub>obs</sub>)=Edad( T)) | El contenido observable no es totalidad absoluta | NO ADMISIBLE |
+| BN-PL-07 | Modelo cosmológico | (Edad(modelo)=Edad( T)) | El modelo es instrumento de reconstrucción | NO ADMISIBLE |
 
-**Demostración.** C_TH forma parte de BHₛᵥ. Su cumplimiento exige que la sección termodinámica interior quede bajo la fórmula termodinámica factual única. c.q.d.
+La tabla de contraste debe activar: Δ<sub>plano</sub>=1. Y la salida esperada será: d=1.
 
-**Teorema X.7. Entropía factual no decreciente.** En una trayectoria BH admisible, Hₛᵥ no decrece.
+## C.11.3. Control negativo de definición
 
-**Demostración.** C_H forma parte de BHₛᵥ. Su cumplimiento implica la condición heredada de entropía factual. c.q.d.
+El control negativo de definición comprueba que ninguna edad se declara sin objeto, dominio, identidad, frontera, magnitud y retorno.
 
-**Teorema X.8. Frontera Maxwell factual.** La frontera BH no rompe Maxwell factual.
+| Código | Defecto introducido | Ejemplo | Residual | Salida |
+| --- | --- | --- | --- | --- |
+| BN-DEF-01 | Falta dominio | (A=4.570.000.000,a<sub>J</sub>) sin decir si es Sol, Sistema Solar u otro dominio | (Δ<sub>Ω</sub>=U) | (U) |
+| BN-DEF-02 | Falta identidad | señal luminosa sin emisor | (Δ<sub>Id</sub>=U) | (U) |
+| BN-DEF-03 | Falta frontera | edad restante sin fin estructural declarado | (Δ<sub>∂</sub>=U) | (U) |
+| BN-DEF-04 | Falta firma | línea espectral sin portador | (Δ<sub>Σ</sub>=U) | (U) |
+| BN-DEF-05 | Falta magnitud | objeto descrito sin edad, distancia, frecuencia ni retorno | (Δ<sub>M</sub>=U) | (U) |
+| BN-DEF-06 | Falta unidad | cifra sin (a<sub>J</sub>), (s) o (UE<sub>MFC</sub>) | (Δ<sub>u</sub>=U) | (U) |
+| BN-DEF-07 | Falta retorno | conversión no invertible | (Δ<sub>ret</sub>=1) | NO ADMISIBLE |
+| BN-DEF-08 | Falta residual | caso presentado sin (Δ) | (Δ=U) | (U) |
 
-**Demostración.** C_EM exige satisfacción de 𝓔ₛᵥ en la frontera electromagnética factual. La no transmisión exterior no autoriza discontinuidad no dictaminada; declara frontera cerrada bajo Maxwell–SV. c.q.d.
+La regla formal será: A(C<sub>i</sub>) es admisible (Ω<sub>i</sub>,Id<sub>i</sub>,∂Ω<sub>i</sub>,Σ<sub>i</sub>,M<sub>i</sub>,u<sub>i</sub>,R<sub>i</sub>,Δ<sub>i</sub>) están declarados. Si falta un elemento esencial: d<sub>i</sub>=U. Si el elemento introducido contradice el dominio: d<sub>i</sub>=1.
 
-**Teorema X.9. Postfrontera M_N2-SV.** En BHₛᵥ, Postᴮᴴ=M_N2-SV.
+## C.11.4. Control negativo de transducción SI ↔︎ SV
 
-**Demostración.** Por C_TN, μ=0, λ=0 y 𝓝★ₛᵥ=0. Por la Teoría del TODO y de la NADA, esa triple condición define cierre interno sin resto exterior formulable. Por C_NOEXT, ese cierre se asigna a Postᴮᴴ. c.q.d.
+El control negativo de transducción verifica que las conversiones no sean decorativas. Toda conversión debe permitir ida y vuelta: a<sub>J</sub>→ s→ UE<sub>MFC</sub>→ s→ a<sub>J</sub>. Si la vuelta no reproduce el valor de partida, el transductor falla.
 
-**Teorema X.10. Exclusión postfrontera de U.** En BHₛᵥ, Postᴮᴴ≠U.
+| Código | Entrada | Error introducido | Resultado esperado | Lectura formal |
+| --- | --- | --- | --- | --- |
+| BN-TR-01 | (1,a<sub>J</sub>) | usar (31.557.600,s) pero no multiplicar por (9) | unidad SV incompleta | (U) |
+| BN-TR-02 | (1,s) | usar (1,s=8,UE<sub>MFC</sub>) | retorno falso | NO ADMISIBLE |
+| BN-TR-03 | (13.800.000.000,a<sub>J</sub>) | obtener valor SV distinto de (3.919.453.920.000.000.000) | contradicción | NO ADMISIBLE |
+| BN-TR-04 | (4.570.000.000,a<sub>J</sub>) | obtener valor SV distinto de (1.297.964.088.000.000.000) | contradicción | NO ADMISIBLE |
+| BN-TR-05 | (4.568.000.000,a<sub>J</sub>) | obtener valor SV distinto de (1.297.396.051.200.000.000) | contradicción | NO ADMISIBLE |
+| BN-TR-06 | (13.600.000.000,a<sub>J</sub>) | obtener valor SV distinto de (3.862.650.240.000.000.000) | contradicción | NO ADMISIBLE |
+| BN-TR-07 | (UE<sub>MFC</sub>→ a<sub>J</sub>) | retorno con resto no declarado | retorno incompleto | (U) |
+| BN-TR-08 | valor externo | copiar cifra sin conversión | transducción ausente | NO ADMISIBLE |
 
-**Demostración.** Por Teorema X.9, Postᴮᴴ=M_N2-SV. Por Teorema IV.1, M_N2-SV≠U. c.q.d.
+Condición de cierre: X<sup>-1</sup>( X(A))=A. Si: X<sup>-1</sup>( X(A))≠ A, entonces: Δ<sub>trans</sub>=1.
 
----
+## C.11.5. Control negativo aritmético
 
-# XI. Teoremas de absorción de la física contemporánea
+El control negativo aritmético impide que un resultado sea aceptado si sus sumas, restas o fracciones no cierran exactamente.
 
-**Teorema XI.1. Absorción de la relatividad general.** La relatividad general queda absorbida como proyección métrica externa de BHₛᵥ.
+| Código | Dominio | Prueba adversarial | Resultado correcto | Salida si falla |
+| --- | --- | --- | --- | --- |
+| BN-AR-01 | Sol | (4.570.000.000+5.430.000.000) | (10.000.000.000) | NO ADMISIBLE |
+| BN-AR-02 | Sol | (10.000.000.000-4.570.000.000) | (5.430.000.000) | NO ADMISIBLE |
+| BN-AR-03 | Sol | (457/1000+543/1000) | (1) | NO ADMISIBLE |
+| BN-AR-04 | Sistema Solar | (4.568.000.000+5.432.000.000) | (10.000.000.000) | NO ADMISIBLE |
+| BN-AR-05 | Sistema Solar | (10.000.000.000-4.568.000.000) | (5.432.000.000) | NO ADMISIBLE |
+| BN-AR-06 | Vía Láctea | (13.600.000.000+13.600.000.000) | (27.200.000.000) | NO ADMISIBLE |
+| BN-AR-07 | Contenido observable | (13.800.000.000+13.800.000.000) | (27.600.000.000) | NO ADMISIBLE |
+| BN-AR-08 | Comparativo | (13.800.000.000-13.600.000.000) | (200.000.000) | NO ADMISIBLE |
+| BN-AR-09 | Comparativo | (13.600.000.000-4.570.000.000) | (9.030.000.000) | NO ADMISIBLE |
+| BN-AR-10 | Comparativo | (4.570.000.000-4.568.000.000) | (2.000.000) | NO ADMISIBLE |
 
-**Demostración.** La relatividad general describe geometría, curvatura, horizonte y no escape. BHₛᵥ contiene no transmisión exterior, no salida luminosa, efectos externos de campo y frontera factual. Por Ξ_AST→SV, el horizonte relativista se traduce a v_TE y v_L. La métrica conserva su valor como lectura externa de ∂Ωᴮᴴ. c.q.d.
+Definición de error aritmético: ε<sub>arit</sub>= |A<sub>fin</sub>-(A<sub>act</sub>+A<sub>restante</sub>)|. El cierre exige: ε<sub>arit</sub>=0.
 
-**Teorema XI.2. Absorción de Schwarzschild.** Schwarzschild queda absorbido como proyección métrica no rotante.
+## C.11.6. Control negativo de fracciones
 
-**Demostración.** rₛ = 2GM/c² fija el radio crítico. Si r≤rₛ, la lectura externa declara no escape. Ξ_AST→SV traduce ese no escape a DΣ(v_TE)=NO_APTO y DΣ(v_L)=NO_APTO. Por tanto, Schwarzschild es proyección métrica de frontera factual. c.q.d.
+Las fracciones de ciclo no son intercambiables entre dominios. El control negativo de fracciones detecta imposiciones falsas.
 
-**Teorema XI.3. Absorción de Kerr.** Kerr queda absorbido como proyección métrica rotante cuando ∣χ∣ ≤ 1.
+| Código | Entrada errónea | Razón del error | Salida |
+| --- | --- | --- | --- |
+| BN-FR-01 | (f_☉=1/2) | El Sol posee (457/1000), no (1/2) | NO ADMISIBLE |
+| BN-FR-02 | (f<sub>SS</sub>=457/1000) | El Sistema Solar posee (571/1250) | NO ADMISIBLE |
+| BN-FR-03 | (f<sub>VL</sub>=457/1000) | La Vía Láctea-entorno posee (1/2) | NO ADMISIBLE |
+| BN-FR-04 | (f<sub>cont,obs</sub>=457/1000) | El observable retornado posee (1/2) | NO ADMISIBLE |
+| BN-FR-05 | fracción actual + fracción restante (≠1) | contradicción interna | NO ADMISIBLE |
+| BN-FR-06 | fracción sin fin de ciclo | denominador ausente | (U) |
+| BN-FR-07 | fracción de un dominio aplicada a otro | error de dominio | NO ADMISIBLE |
 
-**Demostración.** Para ∣χ∣ ≤ 1, r₊/r_g = 1+√(1−χ²) es real y define horizonte exterior. La frontera exterior se traduce por Ξ_AST→SV a v_TE y v_L. Para ∣χ∣ > 1 no hay horizonte exterior real de Kerr; por tanto, no se absorbe como agujero negro Kerr físico. c.q.d.
+Fracciones correctas: f_☉=457/1000. f<sub>SS</sub>=571/1250. f<sub>VL</sub>=1/2. f<sub>cont,obs</sub>=1/2.
 
-**Teorema XI.4. Rechazo de singularidad primaria.** La singularidad clásica queda rechazada como fundamento.
+## C.11.7. Control negativo de Sol, Sistema Solar, Vía Láctea y contenido observable
 
-**Demostración.** La fórmula de Kretschmann K = 48G²M²/(c⁴r⁶) es evaluable para r > 0 y no evaluable como valor finito en r = 0. Un fundamento factual debe pertenecer a Ωᴮᴴ y admitir residual y dictamen. La singularidad r = 0 falla esa exigencia. c.q.d.
+| Código | Caso adversarial | Salida correcta |
+| --- | --- | --- |
+| BN-SOL-01 | Edad del Sol tomada como edad del Sistema Solar | NO ADMISIBLE |
+| BN-SOL-02 | Edad del Sol tomada como edad de la Vía Láctea | NO ADMISIBLE |
+| BN-SOL-03 | Edad del Sol tomada como edad del observable retornado | NO ADMISIBLE |
+| BN-SOL-04 | Fin solar (10.000.000.000,a<sub>J</sub>) tomado como fin del ciclo observable | NO ADMISIBLE |
+| BN-SS-01 | Edad del Sistema Solar tomada como edad del Sol | NO ADMISIBLE |
+| BN-SS-02 | Fin del Sistema Solar separado arbitrariamente del cierre solar normalizado sin dominio | (U) |
+| BN-VL-01 | Edad de la Vía Láctea-entorno tomada como edad del observable retornado | NO ADMISIBLE |
+| BN-VL-02 | Edad de la Vía Láctea-entorno tomada como edad del Sol | NO ADMISIBLE |
+| BN-OBS-01 | Edad del contenido observable tomada como edad del Sol | NO ADMISIBLE |
+| BN-OBS-02 | Fin del contenido observable tomado como fin de la estructura solar | NO ADMISIBLE |
+| BN-OBS-03 | Edad del contenido observable tomada como edad de la totalidad absoluta | NO ADMISIBLE |
 
-**Teorema XI.5. Absorción termodinámica.** Bekenstein–Hawking y Hawking quedan absorbidos como proyección termodinámica de frontera y emisión exterior.
+Regla: D<sub>i</sub>≠ D<sub>j</sub> ⇒ A(D<sub>i</sub>)≠ A(D<sub>j</sub>) salvo demostración específica de identidad de dominio o igualdad de valor por registro.
 
-**Demostración.** Sᴮᴴ/k_B = A/(4ℓₚ²) y Tᴴ = ℏc³/(8πGMk_B) producen magnitudes de frontera y temperatura externa. C_TH y C_H absorben esas magnitudes en termodinámica factual y entropía factual. Al no contener μ, λ ni 𝓝★ₛᵥ, no determinan Postᴮᴴ. c.q.d.
+## C.11.8. Control negativo de laboratorio
 
-**Teorema XI.6. Absorción parcial de Page, islas, fuzzballs, firewalls y agujeros negros regulares.** Estos planteamientos se absorben parcialmente y no sustituyen BHₛᵥ.
+El laboratorio debe confirmar lo tabulado. No debe introducir una nueva cifra, no debe corregir el texto y no debe cerrar casos no declarados.
 
-**Demostración.** Page e islas tratan reconstrucción informacional; fuzzballs y firewalls tratan estructura de horizonte o microestados; agujeros negros regulares tratan evitación de singularidad. Ninguno proporciona simultáneamente C_TE, C_L, C_INT, C_EM, C_TH, C_H, C_TN, C_NOEXT y C_ABS. Por tanto, corrigen regiones, pero no sustituyen la fórmula completa. c.q.d.
+| Código | Defecto de laboratorio | Salida exigida |
+| --- | --- | --- |
+| BN-LAB-01 | El laboratorio calcula un valor no tabulado | NO ADMISIBLE |
+| BN-LAB-02 | El laboratorio omite controles negativos | NO ADMISIBLE |
+| BN-LAB-03 | El laboratorio tolera error aritmético distinto de cero | NO ADMISIBLE |
+| BN-LAB-04 | El laboratorio redondea una conversión exacta | NO ADMISIBLE |
+| BN-LAB-05 | El laboratorio acepta una edad sin dominio | (U) |
+| BN-LAB-06 | El laboratorio acepta una edad sin unidad SV | (U) |
+| BN-LAB-07 | El laboratorio acepta (Edad( T)) | NO ADMISIBLE |
+| BN-LAB-08 | El laboratorio no reproduce retorno inverso | NO ADMISIBLE |
+| BN-LAB-09 | El laboratorio cambia el valor de registro | NO ADMISIBLE |
+| BN-LAB-10 | El laboratorio no informa un fallo | NO ADMISIBLE |
 
----
+Regla de salida: laboratorio válido reproduce valores tabulados y activa errores negativos.
 
-# XII. Banco numérico SV-BH9 y verificación de formas equivalentes
+## C.11.9. Necesidad de controles negativos
 
-## XII.1. Estatuto del banco
+Teorema. Un sistema de edades relativas con pretensión de error cero no es suficiente si sólo confirma casos positivos; necesita controles negativos que activen error cuando se introduce una atribución, definición, transducción o aritmética falsa. Demostración. Sea (S) un sistema que acepta el resultado correcto: A<sub>i</sub>. Si (S) no rechaza un resultado falso: A<sub>i</sub>'≠ A<sub>i</sub>, entonces (S) no discrimina entre valor verdadero de registro y valor erróneo. Si (S) no rechaza una atribución falsa: Edad( T)=A<sub>i</sub>, entonces (S) no distingue totalidad absoluta de dominio físico interno. Si (S) no rechaza una transducción falsa: X<sup>-1</sup>( X(A<sub>i</sub>))≠ A<sub>i</sub>, entonces (S) no conserva retorno. Si (S) no rechaza una suma falsa: A<sub>act</sub>+A<sub>restante</sub>≠ A<sub>fin</sub>, entonces (S) no garantiza error aritmético cero. Por tanto, la confirmación positiva no basta. Es necesaria la refutación de los negativos. c.q.d.
 
-SV-BH9 verifica tres niveles simultáneos:
+## C.11.10. Síntesis de los controles negativos
 
-1. la fórmula absoluta BHₛᵥ(Γ)=0 en sus formas explícita, implícita, canónica, paramétrica, punto-régimen, complementaria y matricial;
-2. las fórmulas externas absorbidas o rechazadas: Schwarzschild, Kerr, Bekenstein–Hawking, Hawking, Page curve, islas, fuzzballs, firewalls, agujeros negros regulares y singularidad geométrica;
-3. los ejemplos negativos que impiden que una fórmula parcial suplante la fórmula del agujero negro del SV.
+Los controles negativos introducen la disciplina final de la formulación: lo que debe fallar, falla. Lo que no tiene dominio, queda en U. Lo que mezcla planos, queda no admisible. Lo que altera la transducción, queda no admisible. Lo que altera la aritmética exacta, queda no admisible. Con ello, los resultados positivos quedan protegidos: Edad(Sol)=4.570.000.000,a<sub>J</sub>. Edad(Sistema Solar)=4.568.000.000,a<sub>J</sub>. Edad(Vía Láctea-entorno)=13.600.000.000,a<sub>J</sub>. Edad(observable retornado)=13.800.000.000,a<sub>J</sub>. Y la totalidad absoluta queda bloqueada: Edad( T)=NO ADMISIBLE.
 
-La regla del banco es estricta: una fórmula que el texto afirma absorber, absorber parcialmente o rechazar debe comparecer con un vector, números, dictamen y error de contraste si procede.
+# VII. Resultado
 
-## XII.2. Constantes externas de cálculo
+## VII.1. Estatuto del resultado
 
-G = 6.67430·10⁻11 m³ kg⁻¹ s⁻².
-c = 299792458 m s⁻¹.
-ℏ = 1.054571817·10⁻34 J s.
-k_B = 1.380649·10⁻23 J K⁻¹.
-M_solar = 1.98847·10³0 kg.
-ℓₚ = √(ℏG/c³).
-UA = 149597870.7 km.
+El resultado de la formulación no es una edad de la totalidad absoluta ni una cota superior aproximada. Es una edad concreta del contenido observable retornado, con dominio declarado, unidad física, unidad transductiva, residual nulo y retorno inverso exacto. La forma bloqueada es: Edad( T)=13 800 000 000,a<sub>J</sub>. Esa formulación no es admisible porque ( T), como totalidad absoluta, no comparece como objeto físico interno. La Teoría del TODO y de la NADA no entiende el TODO como universo observable ni como suma empírica de objetos, sino como contención absoluta de todo dominio formulable, realizable, clausurable o pensable; el universo observable queda situado como dominio interno: Ω<sub>obs</sub>⊂Ω<sub>fis</sub>⊂ TODO<sub>SV</sub>. La región observable depende de horizonte, luz, expansión, señal, medición y condiciones físicas; el TODO no depende de observabilidad física. La forma correcta es: A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub>. Donde: A_Ω<sub>obs</sub>designa la edad concreta del dominio observable retornado, no la edad de la totalidad absoluta. Por tanto: Edad( T)=NO ADMISIBLE. A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub>. No se declara una edad concreta aproximada. Se declara una edad concreta del observable, porque el dominio observable carece de factor externo capaz de cortar su ciclo desde fuera sin contradecir la contención absoluta del TODO.
 
-Las constantes externas no son fundamento del SV. Se usan para verificar que las fórmulas físicas absorbidas comparecen numéricamente antes de recibir dictamen factual.
+## VII.2. Teorema VI.1. Exclusión de factor externo sobre el ciclo observable total
 
-## XII.3. Banco de equivalencia de formas de BHₛᵥ
+Teorema VI.1. El ciclo del contenido observable total no puede ser interrumpido por un factor externo absoluto. Por tanto, su edad actual y su fin de ciclo no se formulan como intervalo abierto por contingencia externa, sino como ciclo concreto bajo transducción. Demostración. Sea: C_Ω<sub>obs</sub>(S<sub>0</sub>,S<sub>act</sub>,S<sub>fin</sub>,S<sub>react</sub>) el ciclo del dominio observable retornado. En un objeto físico interno ordinario (O<sub>i</sub>⊂Ω<sub>obs</sub>), puede existir un factor externo (F<sub>ext</sub>) que interrumpa su ciclo natural: F<sub>ext</sub>(O<sub>i</sub>)=1 ⇒ S<sub>fin</sub>(O<sub>i</sub>) puede adelantarse. Por ejemplo, una estrella, una galaxia local, un planeta o una estructura material pueden sufrir alteraciones externas dentro de su dominio físico. Esto no contradice su edad propia; sólo muestra que los objetos internos poseen exposición a factores del mismo dominio o de dominios físicos contiguos. Pero el dominio observable total tratado en la formulación no se formula como objeto físico aislado dentro de un exterior observable superior. Se formula como dominio interno de retorno situado dentro de: Ω<sub>obs</sub>⊂Ω<sub>fis</sub>⊂ TODO<sub>SV</sub>. La Teoría del TODO y de la NADA impide que los dominios físicos se transformen en exterioridad absoluta del TODO; la formulación de imperfección fija que el universo físico observable, las teorías cosmológicas, los agujeros negros, los ciclos, las fases y los dominios internos no constituyen exterioridad absoluta ante el TODO. Supóngase, por reducción al absurdo, que existe un factor externo absoluto (F^★) capaz de cortar desde fuera el ciclo observable total: F^★∉ TODO<sub>SV</sub>y F^★( C_Ω<sub>obs</sub>)=1. Si: F^★∉ TODO<sub>SV</sub>, entonces existe algo formulable o actuante fuera de la contención absoluta del TODO. Pero el TODO se define como contención absoluta de todo dominio formulable, realizable, clausurable o pensable dentro del SV. Luego: F^★∉ TODO<sub>SV</sub> ⇒ TODO<sub>SV</sub> no sería TODO. Contradicción. Si se intenta corregir diciendo que: F^★∈ TODO<sub>SV</sub>, entonces (F^★) ya no es factor externo absoluto, sino factor interno de dominio. En tal caso no corta el ciclo observable desde fuera de la totalidad, sino que pertenece a la propia estructura de dominios incluida en el TODO. Tampoco sirve para convertir el resultado en intervalo externo. Por tanto: ¬∃ F^★ externo absoluto tal que F^★( C_Ω<sub>obs</sub>)=1. Luego el ciclo observable total no queda sometido a corte externo absoluto. c.q.d.
 
-| Caso | Rᴮᴴ | Sᴮᴴ | Pᴮᴴ | Trᴮᴴ | rango | forma explícita | forma implícita | forma canónica | forma punto-régimen | dictamen |
-|---|---|---:|---:|---:|---:|---|---|---|---|---|
-| FEQ-01 | 0 0 0 0 0 0 0 0 0 0 0 | 0 | 1 | 0 | 0 | pasa | pasa | pasa | pasa | BHₛᵥ |
-| FEQ-02 | 0 0 1 0 0 0 0 0 0 0 0 | 1 | 0 | 1 | 1 | falla R_TE | falla | falla | falla | NO_APTO |
-| FEQ-03 | 0 0 0 1 0 0 0 0 0 0 0 | 1 | 0 | 1 | 1 | falla R_L | falla | falla | falla | NO_APTO |
-| FEQ-04 | 0 0 0 0 0 0 0 0 0 1 0 | 1 | 0 | 1 | 1 | falla R_NOEXT | falla | falla | falla | NO_APTO |
-| FEQ-05 | 0 0 0 0 0 0 0 0 0 0 1 | 1 | 0 | 1 | 1 | falla R_ABS | falla | falla | falla | NO_APTO |
-| FEQ-06 | 1 1 1 1 1 1 1 1 1 1 1 | 11 | 0 | 11 | 11 | falla total | falla | falla | falla | NO_APTO |
-| FEQ-07 | 0 0 0 0 0 1 0 0 0 0 0 | 1 | 0 | 1 | 1 | falla R_EM | falla | falla | falla | NO_APTO |
-| FEQ-08 | 0 0 0 0 0 0 1 0 0 0 0 | 1 | 0 | 1 | 1 | falla R_TH | falla | falla | falla | NO_APTO |
+## VII.3. Teorema VI.2. Imperfección, suceso activador y ausencia de exterior inicial
 
-**Teorema XII.1.** El banco FEQ verifica numéricamente que todas las formas equivalentes de BHₛᵥ producen el mismo dictamen.
+Teorema VI.2. Si la imperfección preformal es condición de sucesos y el suceso activador pertenece a la cadena estructural del Universo de Sucesos, entonces el inicio del observable no puede depender de un factor externo anterior al dominio total de formulación. Demostración. La Teoría del TODO y de la NADA dispone una cadena estructural ascendente, no cronológica, desde el Origen Áureo hasta la ecuación rectora, atravesando el Universo de Sucesos, el Suceso Activador de Universo de Sucesos, el ciclo, el agotamiento configuracional, la frontera común ((μ,λ)=(0,0)) y el Suceso Reactivador; esa espiral es estructural, no temporal, y sus vueltas representan cierre de Universo de Sucesos, agotamiento, colapso común y nueva apertura por Suceso Reactivador. La formulación de imperfección fija, además, que la imperfección preformal es condición de sucesos: sin no clausura basal no hay diferencia, y sin diferencia no hay suceso; la relación básica es: I<sub>pre</sub>⇒∂<sub>ε</sub>, ∂<sub>ε</sub>⇒ S. Por tanto: I<sub>pre</sub>⇒ S. Supóngase ahora que el inicio del observable depende de un factor externo anterior: F<sub>ant</sub>→ S<sub>0</sub>(Ω<sub>obs</sub>) con: F<sub>ant</sub>∉ TODO<sub>SV</sub>. Si (F<sub>ant</sub>) produce o corta el inicio del observable, entonces comparece como suceso o condición de suceso. Pero todo suceso o condición formulable de suceso queda contenido en el régimen del TODO. Luego: F<sub>ant</sub>∉ TODO<sub>SV</sub>contradice: TODO<sub>SV</sub>=contención absoluta de todo dominio formulable. Si se afirma: F<sub>ant</sub>∈ TODO<sub>SV</sub>, entonces (F<sub>ant</sub>) no es exterior absoluto. Es condición interna del régimen de apertura, compatible con imperfección y suceso activador, pero no factor externo capaz de convertir el ciclo observable en contingencia externa. Por reducción al absurdo: ¬∃ F<sub>ant</sub> externo absoluto anterior al principio observable. El inicio del observable no procede de un factor externo absoluto. Procede de la cadena interna de imperfección, distinguibilidad y suceso activador. c.q.d.
 
-**Demostración.** En FEQ-01, S=0, P=1, Tr = 0 y rango=0; todas las formas declaran BHₛᵥ. En los casos FEQ-02 a FEQ-08 aparece al menos una coordenada defectiva. Entonces S>0, P=0, Tr > 0 y rango>0; todas las formas rechazan. No existe una fila con desacuerdo entre formas. c.q.d.
+## VII.4. Corolario VI.1. De atribución relativa a edad concreta
 
-## XII.4. Banco canónico SV(3,9) y ampliado SV(6,36)
+Corolario VI.1. La edad del contenido observable retornado no debe formularse como edad concreta, sino como edad concreta del dominio observable. Demostración. La expresión «concreta» sólo sería necesaria si existiera una familia abierta de candidatos externos capaces de superar o cortar el dominio desde fuera: A<sub>ii∈ I</sub> con posible exterior no acotado. Pero los teoremas VI.1 y VI.2 bloquean el exterior absoluto. Todo contenido observable, todo objeto físico, toda fase, todo ciclo y todo dominio interno se sitúan dentro del TODO. La pluralidad cosmológica sólo puede admitirse como pluralidad interna de dominios: Ω<sub>1</sub>,Ω<sub>2</sub>,Ω<sub>k</sub>, Ω<sub>i</sub>⊂ TODO<sub>SV</sub>. No se admite pluralidad de TODOS exteriores entre sí; una totalidad con exterior no es totalidad absoluta, sino dominio dentro de un cierre mayor. Por tanto, el valor: 13 800 000 000,a<sub>J</sub>no queda como concreto provisional por ausencia de un candidato externo. Queda como edad concreta del dominio observable retornado declarado por la tabla de contraste. Luego: A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub>. No: A_Ω<sub>obs</sub>=(candidatos abiertos). c.q.d.
 
-| Caso | n | T(n) | N₀ | N₁ | Nᵁ | DΣ | lectura |
-|---|---:|---:|---:|---:|---:|---|---|
-| C9-01 | 9 | 7 | 2 | 7 | 0 | NO_APTO | frontera de no transmisión |
-| C9-02 | 9 | 7 | 7 | 2 | 0 | APTO | salida exterior apta |
-| C9-03 | 9 | 7 | 1 | 6 | 2 | U | no clausura celular |
-| C9-04 | 9 | 7 | 1 | 7 | 1 | NO_APTO | U local no gobierna dictamen |
-| C9-05 | 9 | 7 | 0 | 0 | 9 | U | ausencia de cierre |
-| C36-01 | 36 | 28 | 8 | 28 | 0 | NO_APTO | horizonte en granularidad ampliada |
-| C36-02 | 36 | 28 | 9 | 27 | 0 | U | no alcanza cierre de no transmisión |
-| C36-03 | 36 | 28 | 28 | 8 | 0 | APTO | salida exterior apta |
-| C36-04 | 36 | 28 | 7 | 28 | 1 | NO_APTO | U local no bloquea mayoría fuerte |
-| C36-05 | 36 | 28 | 12 | 12 | 12 | U | estructura no clausurada |
+## VII.5. Resultado principal en física contemporánea
 
-**Teorema XII.2.** La fórmula celular conserva dictamen al pasar de SV(3,9) a SV(6,36).
+La edad concreta del contenido observable retornado es: A_Ω<sub>obs</sub><sup>ret</sup> = 13 800 000 000,a<sub>J</sub>. Donde: 1,a<sub>J</sub>=31 557 600,s. Conversión a segundos: 13 800 000 000 × 31 557 600 435,494,880,000,000,000,s. Por tanto: A_Ω<sub>obs</sub><sup>ret</sup> = 435,494,880,000,000,000,s. Esta magnitud pertenece al dominio observable retornado. No pertenece a la totalidad absoluta.
 
-**Demostración.** En ambos tamaños el umbral T(n)=⌊7n/9⌋ exige mayoría cualificada superior a la mitad. Los casos C9-01 y C36-01 alcanzan N₁=T(n) y declaran NO_APTO. Los casos C9-02 y C36-03 alcanzan N₀=T(n) y declaran APTO. Los casos C9-03, C9-05, C36-02 y C36-05 no alcanzan ninguna mayoría cualificada y devuelven U. La granularidad cambia, pero la regla conserva estructura. c.q.d.
+## VII.6. Resultado principal en unidades SV
 
-## XII.5. Banco de formas equivalentes de Schwarzschild
+La equivalencia transductiva es: 1,s=9,UE<sub>MFC</sub>.Por tanto: 1,a<sub>J</sub>31 557 600×9,UE<sub>MFC</sub>284 018 400,UE<sub>MFC</sub>. Así: A_Ω<sub>obs</sub><sup>SV</sup> = 13 800 000 000 × 284 018 400. A_Ω<sub>obs</sub><sup>SV</sup> = 3 919 453 920 000 000 000,UE<sub>MFC</sub>. Por tanto: A_Ω<sub>obs</sub><sup>SV</sup> = 3 919 453 920 000 000 000,UE<sub>MFC</sub>. Retorno inverso: 3 919 453 920 000 000 000 /9 435,494,880,000,000,000,s. 435,494,880,000,000,000 / 31 557 600 13 800 000 000,a<sub>J</sub>. Luego: SI→ SV→ SI conserva exactamente el valor.
 
-Se define q = r/rₛ. La forma explícita de frontera es q ≤ 1. La forma implícita es q−1 ≤ 0. La forma canónica SV es DΣ(v_TE)=NO_APTO. La forma punto-frontera toma q₀=1 y evalúa Δq=q-q₀. La forma complementaria usa C_SCH=1 si q ≤ 1 y C_SCH=0 si q > 1.
+## VII.7. Fin concreto del ciclo observable
 
-| Caso | q | v_escape/c=√(1/q) | q−1 | Δq respecto q₀=1 | C_SCH | v_TE | DΣ(v_TE) | dictamen SV |
-|---|---:|---:|---:|---:|---:|---|---|---|
-| SCH-01 | 2.000 | 0.7071 | 1.000 | 1.000 | 0 | 0 0 0 0 0 0 0 1 1 | APTO | exterior transmisible |
-| SCH-02 | 1.100 | 0.9535 | 0.100 | 0.100 | 0 | 0 0 0 0 0 0 0 1 1 | APTO | exterior transmisible |
-| SCH-03 | 1.001 | 0.9995 | 0.001 | 0.001 | 0 | 0 0 0 0 0 0 0 1 1 | APTO | exterior transmisible |
-| SCH-04 | 1.000 | 1.0000 | 0.000 | 0.000 | 1 | 1 1 1 1 1 1 1 0 0 | NO_APTO | horizonte absorbido |
-| SCH-05 | 0.999 | 1.0005 | -0.001 | -0.001 | 1 | 1 1 1 1 1 1 1 1 0 | NO_APTO | horizonte absorbido |
-| SCH-06 | 0.500 | 1.4142 | -0.500 | -0.500 | 1 | 1 1 1 1 1 1 1 1 0 | NO_APTO | horizonte absorbido |
-| SCH-07 | 0.100 | 3.1623 | -0.900 | -0.900 | 1 | 1 1 1 1 1 1 1 1 0 | NO_APTO | horizonte absorbido |
+Bajo simetría transductiva del ciclo observable: A_Ω<sub>obs</sub>,fin=2A_Ω<sub>obs</sub>,act. Como: A_Ω<sub>obs</sub>,act=13 800 000 000,a<sub>J</sub>, entonces: A_Ω<sub>obs</sub>,fin 27 600 000 000,a<sub>J</sub>. En segundos: 27 600 000 000 × 31 557 600 870,989,760,000,000,000,s. En unidades SV: 27 600 000 000 × 284 018 400 7 838 907 840 000 000 000,UE<sub>MFC</sub>. Por tanto: A_Ω<sub>obs</sub>,fin 27 600 000 000,a<sub>J</sub>. A_Ω<sub>obs</sub>,fin<sup>SV</sup> = 7 838 907 840 000 000 000,UE<sub>MFC</sub>. El tramo restante es: A_Ω<sub>obs</sub>,rest A_Ω<sub>obs</sub>,fin-A_Ω<sub>obs</sub>,act. A_Ω<sub>obs</sub>,rest 27 600 000 000 − 13 800 000 000 = 13 800 000 000,a<sub>J</sub>. A_Ω<sub>obs</sub>,rest<sup>SV</sup> = 7 838 907 840 000 000 000 3 919 453 920 000 000 000. A_Ω<sub>obs</sub>,rest<sup>SV</sup> = 3 919 453 920 000 000 000,UE<sub>MFC</sub>. Por tanto: A_Ω<sub>obs</sub>,rest 13 800 000 000,a<sub>J</sub>. A_Ω<sub>obs</sub>,rest<sup>SV</sup> = 3 919 453 920 000 000 000,UE<sub>MFC</sub>.
 
-**Teorema XII.3.** Las formas explícita q ≤ 1, implícita q−1 ≤ 0, punto-frontera Δq≤0 y canónica DΣ(v_TE)=NO_APTO producen el mismo dictamen de frontera Schwarzschild absorbida.
+## VII.8. Teorema VI.3. Reducción al absurdo de la no concreción del valor
 
-**Demostración.** En las filas con q > 1 se tiene q−1>0, Δq>0, C_SCH=0 y DΣ(v_TE)=APTO. En las filas con q ≤ 1 se tiene q−1 ≤ 0, Δq≤0, C_SCH=1 y DΣ(v_TE)=NO_APTO. La clasificación coincide fila por fila. c.q.d.
+Teorema VI.3. El valor: A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub>es concreto. Negarlo obliga a introducir exterior absoluto, transducción falsa o aritmética falsa. Demostración. Supóngase que el valor no es concreto. Entonces debe cumplirse al menos una de estas alternativas:
 
-## XII.6. Banco de formas equivalentes de Kerr
+H<sub>1</sub>: A_Ω<sub>obs</sub> depende de un factor externo absoluto.
 
-Se usa χ como parámetro adimensional de espín. La forma explícita de existencia de horizonte Kerr es ∣χ∣ ≤ 1. La forma implícita es 1−χ² ≥ 0. La forma canónica métrica es r₊/r_g = 1+√(1−χ²) real. La forma SV es absorción como proyección rotante si el horizonte exterior conserva no salida exterior y no salida luminosa.
+H<sub>2</sub>: A_Ω<sub>obs</sub>≠13 800 000 000,a<sub>J</sub>.
 
-| Caso | χ | 1−χ² | r₊/r_g | forma explícita | forma implícita | forma canónica métrica | v_ABS | dictamen SV |
-|---|---:|---:|---:|---|---|---|---|---|
-| KERR-01 | 0.000 | 1.000000 | 2.0000 | pasa | pasa | real | 0 0 0 0 0 0 0 0 0 | absorbido |
-| KERR-02 | 0.500 | 0.750000 | 1.8660 | pasa | pasa | real | 0 0 0 0 0 0 0 0 0 | absorbido |
-| KERR-03 | 0.900 | 0.190000 | 1.4359 | pasa | pasa | real | 0 0 0 0 0 0 0 0 0 | absorbido |
-| KERR-04 | 0.999 | 0.001999 | 1.0447 | pasa | pasa | real | 0 0 0 0 0 0 0 0 0 | absorbido |
-| KERR-05 | 1.000 | 0.000000 | 1.0000 | pasa | pasa | real extremo | 0 0 0 0 0 0 0 U U | absorbido como extremo |
-| KERR-06 | 1.100 | -0.210000 | no real | falla | falla | no real | 1 1 1 1 1 1 1 0 0 | rechazado como Kerr BH físico |
-| KERR-07 | -0.700 | 0.510000 | 1.7141 | pasa | pasa | real | 0 0 0 0 0 0 0 0 0 | absorbido |
+H<sub>3</sub>: A_Ω<sub>obs</sub><sup>SV</sup>≠3 919 453 920 000 000 000,UE<sub>MFC</sub>.
 
-**Teorema XII.4.** Las formas explícita ∣χ∣ ≤ 1, implícita 1−χ² ≥ 0 y canónica r₊ real son equivalentes para decidir absorción Kerr como proyección métrica.
+H<sub>4</sub>: A_Ω<sub>obs</sub>,fin≠27 600 000 000,a<sub>J</sub>.
 
-**Demostración.** Si ∣χ∣ ≤ 1, entonces χ²≤1 y 1−χ² ≥ 0, por lo que √(1−χ²) es real y r₊ queda definido. Si r₊ es real en la forma indicada, entonces 1−χ² ≥ 0 y por tanto ∣χ∣ ≤ 1. Las filas KERR-01 a KERR-05 y KERR-07 pasan las tres formas; KERR-06 falla las tres. c.q.d.
+H<sub>5</sub>: A_Ω<sub>obs</sub>,rest≠13 800 000 000,a<sub>J</sub>.
 
-## XII.7. Banco termodinámico Bekenstein–Hawking y forma implícita de consistencia
+Contra (H<sub>1</sub>): por el Teorema VI.1, no existe factor externo absoluto capaz de cortar el ciclo observable total desde fuera. Si existiera, estaría fuera del TODO; pero el TODO es contención absoluta. Contradicción. Contra (H<sub>2</sub>): la tabla de contraste declara el estado actual del dominio observable retornado como: 13 800 000 000,a<sub>J</sub>. Negarlo niega el valor declarado de dominio. Contra (H<sub>3</sub>): la transducción exacta fija: 13 800 000 000 × 284 018 400 = 3 919 453 920 000 000 000. Negarlo contradice la equivalencia: 1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>. Contra (H<sub>4</sub>): por simetría: A_Ω<sub>obs</sub>,fin=2A_Ω<sub>obs</sub>,act. Luego: 2 × 13 800 000 000 = 27 600 000 000. Negarlo contradice la criterio transductivo condicionado declarado. Contra (H<sub>5</sub>): por resta: A_Ω<sub>obs</sub>,rest 27 600 000 000 − 13 800 000 000 = 13 800 000 000. Negarlo contradice la aritmética exacta. Así: H<sub>1</sub>∨ H<sub>2</sub>∨ H<sub>3</sub>∨ H<sub>4</sub>∨ H<sub>5</sub> ⇒ . Por tanto: ¬ R⇒. Luego: R. El valor es concreto. c.q.d.
 
-Fórmulas evaluadas:
+## VII.9. Tabla principal de resultado concreto
 
-rₛ = 2GM/c².
-A=4πrₛ².
-Sᴮᴴ/k_B = A/(4ℓₚ²).
-Tᴴ = ℏc³/(8πGMk_B).
-η_TH=(Sᴮᴴ/k_B * Tᴴ)/(M c²/(2k_B)).
+| Magnitud | Física contemporánea | Unidad física | SV | Unidad SV | Residual | Lectura formal |
+| --- | --- | --- | --- | --- | --- | --- |
+| Edad de la totalidad absoluta | no aplicable | no aplicable | no aplicable | no aplicable | error de plano si se intenta | NO ADMISIBLE |
+| Edad concreta del observable retornado | 13.800.000.000 | (a<sub>J</sub>) | 3.919.453.920.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible |
+| Fin concreto del ciclo observable | 27.600.000.000 | (a<sub>J</sub>) | 7.838.907.840.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible |
+| Tramo restante concreto | 13.800.000.000 | (a<sub>J</sub>) | 3.919.453.920.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible |
+| Fracción actual | (1/2) | adimensional | (1/2) | adimensional | 0 | admisible |
+| Fracción restante | (1/2) | adimensional | (1/2) | adimensional | 0 | admisible |
+| Error de plano | 0 | adimensional | 0 | adimensional | 0 | cerrado |
+| Error de definición | 0 | adimensional | 0 | adimensional | 0 | cerrado |
+| Error transductivo | 0 | adimensional | 0 | adimensional | 0 | cerrado |
+| Error aritmético | 0 | adimensional | 0 | adimensional | 0 | cerrado |
 
-La forma implícita de consistencia termodinámica de Schwarzschild es:
+## VII.10. Tabla comparativa de dominios internos
 
-η_TH=1.
+| Dominio | Edad actual (a<sub>J</sub>) | Edad actual (UE<sub>MFC</sub>) | Fin estructural (a<sub>J</sub>) | Fin estructural (UE<sub>MFC</sub>) | Restante (a<sub>J</sub>) | Restante (UE<sub>MFC</sub>) | Fracción actual |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Sol | 4.570.000.000 | 1.297.964.088.000.000.000 | 10.000.000.000 | 2.840.184.000.000.000.000 | 5.430.000.000 | 1.542.219.912.000.000.000 | (457/1000) |
+| Sistema Solar | 4.568.000.000 | 1.297.396.051.200.000.000 | 10.000.000.000 | 2.840.184.000.000.000.000 | 5.432.000.000 | 1.542.787.948.800.000.000 | (571/1250) |
+| Vía Láctea-entorno | 13.600.000.000 | 3.862.650.240.000.000.000 | 27.200.000.000 | 7.725.300.480.000.000.000 | 13.600.000.000 | 3.862.650.240.000.000.000 | (1/2) |
+| Observable retornado | 13.800.000.000 | 3.919.453.920.000.000.000 | 27.600.000.000 | 7.838.907.840.000.000.000 | 13.800.000.000 | 3.919.453.920.000.000.000 | (1/2) |
 
-| Caso | escala | rₛ km | Sᴮᴴ/k_B | Tᴴ K | η_TH | dictamen SV |
-|---|---|---:|---:|---:|---:|---|
-| TH-01 | 1 masa solar | 2.9533 | 1.049·10⁷⁷ | 6.170·10⁻8 | 1.000000 | absorbido C_TH=0 |
-| TH-02 | 10 masas solares | 29.5334 | 1.049·10⁷⁹ | 6.170·10⁻9 | 1.000000 | absorbido C_TH=0 |
-| TH-03 | Sgr A*, 4.297·10⁶ masas solares | 1.269·10⁷ | 1.937·10⁹⁰ | 1.436·10⁻14 | 1.000000 | absorbido C_TH=0 |
-| TH-04 | M87*, 6.5·10⁹ masas solares | 1.920·10¹⁰ | 4.432·10⁹⁶ | 9.492·10⁻18 | 1.000000 | absorbido C_TH=0 |
+Cada fila es dominio propio. Ninguna fila se atribuye a la totalidad absoluta.
 
-**Teorema XII.5.** Las formas explícitas Sᴮᴴ/k_B = A/(4ℓₚ²) y Tᴴ = ℏc³/(8πGMk_B) satisfacen la forma implícita η_TH=1 en las escalas evaluadas y quedan absorbidas como proyección termodinámica, no como fórmula absoluta del agujero negro.
+## VII.11. Diferencias singulares
 
-**Demostración.** Sustituyendo Sᴮᴴ/k_B=4πGM²/(ℏc) y Tᴴ = ℏc³/(8πGMk_B), el producto da M c²/(2k_B). Por tanto η_TH=1. Las cuatro filas verifican numéricamente la igualdad. Sin embargo, ninguna fila evalúa v_TE, v_L, v_INT, μ, λ ni 𝓝★ₛᵥ; por tanto la termodinámica queda absorbida como proyección y no sustituye BHₛᵥ. c.q.d.
+| Diferencia | Valor (a<sub>J</sub>) | Valor (UE<sub>MFC</sub>) | Lectura física |
+| --- | --- | --- | --- |
+| Observable retornado − Vía Láctea-entorno | 200.000.000 | 56.803.680.000.000.000 | Diferencia entre dominio observable concreto y dominio local galáctico |
+| Vía Láctea-entorno − Sol | 9.030.000.000 | 2.564.686.152.000.000.000 | Antigüedad del dominio galáctico respecto del Sol |
+| Observable retornado − Sol | 9.230.000.000 | 2.621.489.832.000.000.000 | Diferencia entre observable concreto y objeto solar |
+| Sol − Sistema Solar | 2.000.000 | 568.036.800.000.000 | Diferencia de registro entre edad solar y formación sistémica |
+| Restante Sistema Solar − restante Sol | 2.000.000 | 568.036.800.000.000 | Diferencia conservada por resta exacta |
+| Fin observable − fin Vía Láctea-entorno | 400.000.000 | 113.607.360.000.000.000 | Diferencia duplicada por simetría de ciclo |
+| Fin solar − fin Sistema Solar | 0 | 0 | Misma frontera normalizada de desaparición estructural solar-sistémica |
 
-## XII.8. Banco de singularidad geométrica y formas equivalentes de rechazo
+## VII.12. Teorema VI.4. Error cero del resultado concreto
 
-Fórmula evaluada: K/Kₕ=(rₛ/r)⁶.
+Teorema VI.4. El resultado concreto del observable retornado posee error cero de plano, definición, transducción y aritmética. Demostración. Error de plano: A_Ω<sub>obs</sub>≠ Edad( T). La edad se atribuye a: Ω<sub>obs</sub>⊂Ω<sub>fis</sub>⊂ TODO<sub>SV</sub>, no a: T. Luego: ε<sub>plano</sub>=0. Error de definición: el resultado declara dominio, edad actual, unidad física, unidad SV, fin, restante, fracción y retorno: (Ω<sub>obs</sub>,13 800 000 000,a<sub>J</sub>,UE<sub>MFC</sub>,27 600 000 000,a<sub>J</sub>,13 800 000 000,a<sub>J</sub>,1/2,R). Luego: ε<sub>def</sub>=0. Error transductivo: 13 800 000 000,a<sub>J</sub> → 3 919 453 920 000 000 000,UE<sub>MFC</sub> → 13 800 000 000,a<sub>J</sub>. Luego: ε<sub>trans</sub>=0. Error aritmético: 27 600 000 000 (13 800 000 000+13 800 000 000) Y: 7 838 907 840 000 000 000 ( 3 919 453 920 000 000 000 + 3 919 453 920 000 000 000 ) Luego: ε<sub>arit</sub>=0. Por tanto: ε<sub>total</sub>=0. c.q.d.
 
-Forma explícita evaluable: r > 0.
-Forma implícita evaluable: K/Kₕ finito.
-Forma SV: fundamento válido sólo si la fórmula produce valor evaluable dentro de Ωᴮᴴ y no sustituye M_N2-SV.
+## VII.13. Control negativo específico del resultado
 
-| Caso | r/rₛ | K/Kₕ | r > 0 | K finito | v_SING | dictamen SV |
-|---|---:|---:|---|---|---|---|
-| K-01 | 1.0000 | 1.0000 | sí | sí | 0 0 0 0 0 0 0 1 1 | absorbido como proyección |
-| K-02 | 0.5000 | 64.0000 | sí | sí | 0 0 0 0 0 0 0 1 1 | absorbido como proyección |
-| K-03 | 0.1000 | 1.000·10⁶ | sí | sí | 0 0 0 0 0 0 0 1 1 | absorbido como proyección |
-| K-04 | 0.0100 | 1.000·10¹² | sí | sí | 0 0 0 0 0 0 0 1 1 | absorbido como proyección |
-| K-05 | 0.0000 | no definido | no | no | 1 1 1 1 1 1 1 1 1 | rechazado como fundamento |
+| Caso adversarial | Residual activado | Salida |
+| --- | --- | --- |
+| (Edad( T)=13.800.000.000,a<sub>J</sub>) | (Δ<sub>plano</sub>=1) | NO ADMISIBLE |
+| (A_Ω<sub>obs</sub>) tratado como concreto abierto | (Δ<sub>def</sub>=1) | NO ADMISIBLE |
+| Existencia de factor externo absoluto (F^★∉ TODO<sub>SV</sub>) | (Δ<sub>TODO</sub>=1) | NO ADMISIBLE |
+| Conversión distinta de (3.919.453.920.000.000.000,UE<sub>MFC</sub>) | (Δ<sub>trans</sub>=1) | NO ADMISIBLE |
+| Fin distinto de (27.600.000.000,a<sub>J</sub>) bajo simetría | (Δ<sub>arit</sub>=1) | NO ADMISIBLE |
+| Restante distinto de (13.800.000.000,a<sub>J</sub>) | (Δ<sub>arit</sub>=1) | NO ADMISIBLE |
+| Fracción actual distinta de (1/2) | (Δ<sub>f</sub>=1) | NO ADMISIBLE |
+| Edad del Sol igualada al observable retornado | (Δ<sub>Ω</sub>=1) | NO ADMISIBLE |
+| Edad de la Vía Láctea igualada al TODO | (Δ<sub>plano</sub>=1) | NO ADMISIBLE |
+| Edad del Sistema Solar igualada al TODO | (Δ<sub>plano</sub>=1) | NO ADMISIBLE |
 
-**Teorema XII.6.** La singularidad r = 0 queda rechazada como fundamento por coincidencia de las formas explícita, implícita y SV.
+## VII.14. Síntesis final del resultado
 
-**Demostración.** Para r > 0, la fórmula K/Kₕ produce valor finito y puede ser absorbida como proyección geométrica. En r = 0, falla r > 0 y K/Kₕ no es finito. El vector v_SING contiene mayoría defectiva y el dictamen SV rechaza el caso como fundamento. Las tres formas coinciden. c.q.d.
+Edad( T)=NO ADMISIBLE. A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub>. A_Ω<sub>obs</sub><sup>SV</sup> = 3 919 453 920 000 000 000,UE<sub>MFC</sub>. A_Ω<sub>obs</sub>,fin 27 600 000 000,a<sub>J</sub>. A_Ω<sub>obs</sub>,fin<sup>SV</sup> = 7 838 907 840 000 000 000,UE<sub>MFC</sub>. A_Ω<sub>obs</sub>,rest 13 800 000 000,a<sub>J</sub>. A_Ω<sub>obs</sub>,rest<sup>SV</sup> = 3 919 453 920 000 000 000,UE<sub>MFC</sub>. f_Ω<sub>obs</sub>,act=1/2. ε<sub>plano</sub>=ε<sub>def</sub>=ε<sub>trans</sub>=ε<sub>arit</sub>=0. El resultado queda cerrado como edad concreta del observable retornado, no como edad concreta abierta ni como edad de la totalidad absoluta.
 
-## XII.9. Banco de absorción de modelos contemporáneos con forma implícita A_def y retorno físico
+# VIII. Conclusión
 
-Se usa A_def(M)=N₁ᴬ(M)+max(0,T(9)-N₀ᴬ(M)). Absorción total si A_def=0. Absorción parcial si A_def>0, N₁<T(9) y no hay defecto constitutivo directo. Rechazo si N₁≥T(9) o hay defecto constitutivo directo.
+## VIII.1. Corrección final del objeto de edad
 
-El banco se lee en doble dirección. La primera dirección toma el modelo físico contemporáneo y lo traduce a una célula de absorción v_ABS(M). La segunda dirección devuelve el dictamen al lenguaje físico de origen y declara qué queda conservado: frontera métrica, rotación, termodinámica, reconstrucción exterior, microestructura, evitación de singularidad o rechazo de fundamento.
+La expresión «edad del Universo» queda corregida por distinción de plano. La totalidad absoluta no admite edad física. El observable retornado sí admite edad concreta. Los objetos físicos internos también admiten edades propias, siempre que declaren dominio, frontera, identidad, magnitud, unidad, residual y retorno. La formulación rechazada es: Edad( T)=13 800 000 000,a<sub>J</sub>. La formulación correcta es: A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub>. Donde: T designa la totalidad absoluta, y: Ω<sub>obs</sub>designa el dominio observable retornado. La diferencia no es terminológica. Es estructural. Una edad física exige que aquello a lo que se atribuye edad comparezca como contenido de un dominio de medida. La totalidad absoluta no cumple esa condición; el observable retornado sí. Por tanto: Edad( T)=NO ADMISIBLE. A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub>. Esta es la corrección principal de la formulación.
 
-| Caso | modelo | magnitud o criterio físico | traducción formal | v_ABS | N₀ | N₁ | Nᵁ | A_def | retorno físico | dictamen |
-|---|---|---|---|---|---:|---:|---:|---:|---|---|
-| ABS-01 | Schwarzschild | q = r/rₛ ≤ 1 | DΣ(v_TE)=NO_APTO y DΣ(v_L)=NO_APTO | 0 0 0 0 0 0 0 0 0 | 9 | 0 | 0 | 0 | frontera no rotante de no escape | absorbido |
-| ABS-02 | Kerr válido | ∣χ∣ ≤ 1 y r₊ real | proyección rotante de frontera | 0 0 0 0 0 0 0 0 0 | 9 | 0 | 0 | 0 | horizonte exterior rotante | absorbido |
-| ABS-03 | Bekenstein–Hawking | Sᴮᴴ/k_B = A/(4ℓₚ²) | C_TH=0 y C_H=0 en frontera | 0 0 0 0 0 0 0 U U | 7 | 0 | 2 | 0 | entropía de frontera, no postfrontera | absorbido como proyección |
-| ABS-04 | Hawking radiación | Tᴴ = ℏc³/(8πGMk_B) | emisión exterior compatible con C_TH parcial | 0 0 0 0 0 0 U U U | 6 | 0 | 3 | 1 | radiación exterior, no cierre interior | absorción parcial |
-| ABS-05 | Page curve e islas | reconstrucción informacional exterior | cierre parcial de información, no C_NOEXT | 0 0 0 0 U U U U U | 4 | 0 | 5 | 3 | reconstrucción exterior sin postfrontera | absorción parcial |
-| ABS-06 | fuzzball/firewall | microestructura o tensión de horizonte | corrección local sin Rᴮᴴ nulo | 0 0 0 U U U U U U | 3 | 0 | 6 | 4 | tensión de interior u horizonte | absorción parcial |
-| ABS-07 | regular BH | evitación de singularidad | no singularidad parcial sin C_TN completo | 0 0 0 0 U U U U U | 4 | 0 | 5 | 3 | regularización interior parcial | absorción parcial |
-| ABS-08 | singularidad primaria | r = 0 no evaluable en K/Kₕ | defecto constitutivo de dominio | 1 1 1 1 1 1 1 1 1 | 0 | 9 | 0 | 16 | límite geométrico no fundante | rechazado |
-| ABS-09 | salida luminosa apta | luz exterior transmisible desde interior | DΣ(v_L)=APTO contra C_L | 1 1 1 1 1 1 1 0 0 | 2 | 7 | 0 | 12 | no hay objeto físico de horizonte | rechazado como BH físico |
-| ABS-10 | probabilidad de escape como fundamento | probabilidad decide verdad de cierre | defecto prohibitivo de fundamento | 1 1 1 1 1 1 1 1 0 | 1 | 8 | 0 | 14 | criterio probabilístico no admisible | rechazado |
+## VIII.2. Resultado final en física contemporánea
 
-**Teorema XII.7. Transducción simultánea del banco de absorción.** La forma celular v_ABS, la forma explícita por conteos, la forma implícita A_def y el retorno físico asignan el mismo dictamen a todos los modelos del banco.
+El resultado físico queda expresado en años julianos: A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub>. Con: 1,a<sub>J</sub>=31 557 600,s. Por tanto: A_Ω<sub>obs</sub>13 800 000 000 × 31 557 600 435,494,880,000,000,000,s. Resultado: A_Ω<sub>obs</sub>435,494,880,000,000,000,s. La lectura física es estricta: edad concreta del observable retornado, no edad de la totalidad absoluta.
 
-**Demostración.** En ABS-01, ABS-02 y ABS-03, N₀≥7 y N₁=0; por tanto, A_def=0 y hay absorción. El retorno físico conserva exactamente el alcance de cada magnitud: frontera no rotante, frontera rotante o termodinámica de frontera. En ABS-04 a ABS-07, N₀<7, N₁<7 y existe aporte compatible; por tanto, A_def>0 sin mayoría defectiva y el retorno físico queda como corrección parcial: radiación exterior, reconstrucción informacional, microestructura, tensión de horizonte o regularización interior. En ABS-08, ABS-09 y ABS-10, N₁≥7 o existe defecto constitutivo directo; por tanto, el retorno físico no puede presentarse como fórmula del agujero negro: la singularidad r = 0 no es evaluable como interior factual, la salida luminosa apta refuta el horizonte y la probabilidad de escape no puede operar como criterio de verdad. c.q.d.
+## VIII.3. Resultado final en unidades SV
 
-**Corolario XII.7bis.** Ningún registro del banco queda como nomenclatura interna sin magnitud física asociada ni como magnitud física sin dictamen formal.
+La equivalencia transductiva es: 1,s=9,UE<sub>MFC</sub>. Luego: 1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>. Así: 13 800 000 000 a<sub>J</sub> = 13 800 000 000 × 284 018 400 UE<sub>MFC</sub>. 3 919 453 920 000 000 000,UE<sub>MFC</sub>. Por tanto: A_Ω<sub>obs</sub><sup>SV</sup> = 3 919 453 920 000 000 000,UE<sub>MFC</sub>. El retorno inverso confirma: 3 919 453 920 000 000 000 /9 435,494,880,000,000,000,s. 435,494,880,000,000,000 / 31 557 600 13 800 000 000,a<sub>J</sub>. Por tanto: SI→ SV→ SI conserva el valor sin resto.
 
-**Demostración.** Cada fila contiene cuatro capas: magnitud o criterio físico, traducción formal, valor de v_ABS y retorno físico. Si faltara la magnitud física, no habría contraste con el modelo contemporáneo. Si faltara la traducción formal, la absorción sería verbal. Si faltara el retorno físico, el dictamen no podría leerse fuera del aparato interno. Al comparecer las cuatro capas, el banco conserva doble dirección. c.q.d.
+## VIII.4. Fin de ciclo del observable retornado
 
-## XII.10. Banco de fórmulas alternativas negativas
+Bajo el criterio transductivo condicionado de simetría del ciclo observable: A_Ω<sub>obs</sub>,fin=2A_Ω<sub>obs</sub>,act. Así: A_Ω<sub>obs</sub>,fin 2 × 13 800 000 000 = 27 600 000 000,a<sub>J</sub>. En unidades SV: 27 600 000 000 × 284 018 400 7 838 907 840 000 000 000,UE<sub>MFC</sub>. Resultado: A_Ω<sub>obs</sub>,fin 27 600 000 000,a<sub>J</sub>. A_Ω<sub>obs</sub>,fin<sup>SV</sup> = 7 838 907 840 000 000 000,UE<sub>MFC</sub>. El tramo restante es: A_Ω<sub>obs</sub>,rest A_Ω<sub>obs</sub>,fin-A_Ω<sub>obs</sub>,act. 27 600 000 000 − 13 800 000 000 = 13 800 000 000,a<sub>J</sub>. En unidades SV: A_Ω<sub>obs</sub>,rest<sup>SV</sup> = 3 919 453 920 000 000 000,UE<sub>MFC</sub>. Por tanto: A_Ω<sub>obs</sub>,rest 13 800 000 000,a<sub>J</sub>. A_Ω<sub>obs</sub>,rest<sup>SV</sup> = 3 919 453 920 000 000 000,UE<sub>MFC</sub>. La fracción actual del ciclo observable es: f_Ω<sub>obs</sub>,act 13 800 000 000/27 600 000 000 1/2. La fracción restante es: f_Ω<sub>obs</sub>,rest 1/2.
 
-| Caso | fórmula candidata | omisión o defecto | Rᴮᴴ resultante | forma implícita Sᴮᴴ | dictamen |
-|---|---|---|---|---:|---|
-| NEG-01 | F=q ≤ 1 | omite L, INT, EM, TH, H, TN, NOEXT, ABS | 0 0 0 1 1 1 1 1 1 1 1 | 8 | NO_APTO como fórmula absoluta |
-| NEG-02 | F=DΣ(v_TE)=NO_APTO | omite luz, interior y postfrontera | 0 0 0 1 1 0 1 1 1 1 1 | 7 | NO_APTO |
-| NEG-03 | F=DΣ(v_TE)=NO_APTO y DΣ(v_L)=NO_APTO | omite INT, TH, H, TN, NOEXT | 0 0 0 0 1 0 1 1 1 1 1 | 6 | NO_APTO |
-| NEG-04 | F=Schwarzschild+Kerr | sólo métrica externa | 0 0 0 0 1 0 1 1 1 1 1 | 6 | NO_APTO |
-| NEG-05 | F=Bekenstein–Hawking | sólo termodinámica externa | 0 1 1 1 1 0 0 0 1 1 1 | 7 | NO_APTO |
-| NEG-06 | F=Postᴮᴴ=U | sustituye M_N2-SV por U | 0 0 0 0 0 0 0 0 0 1 0 | 1 | NO_APTO |
-| NEG-07 | F=singularidad primaria | usa no evaluabilidad como fundamento | 1 1 1 1 1 1 1 1 1 1 1 | 11 | NO_APTO |
-| NEG-08 | F=probabilidad de escape | introduce probabilidad fundante | 1 1 1 1 1 1 1 1 1 1 1 | 11 | NO_APTO |
-| NEG-09 | F=τ_H local | sustituye T(n) por umbral externo | 0 0 1 1 1 0 1 1 1 1 1 | 8 | NO_APTO |
-| NEG-10 | F=luz anulada | destruye Φᴸₛᵥ | 0 0 0 1 0 0 0 0 0 0 0 | 1 | NO_APTO |
+## VIII.5. Lectura por dominios físicos internos
 
-**Teorema XII.8.** Ninguna fórmula alternativa del banco negativo es equivalente a BHₛᵥ.
+| Dominio | Edad actual (a<sub>J</sub>) | Fin estructural (a<sub>J</sub>) | Restante (a<sub>J</sub>) | Fracción actual | Lectura formal |
+| --- | --- | --- | --- | --- | --- |
+| Sol | 4.570.000.000 | 10.000.000.000 | 5.430.000.000 | (457/1000) | admisible |
+| Sistema Solar | 4.568.000.000 | 10.000.000.000 | 5.432.000.000 | (571/1250) | admisible |
+| Vía Láctea-entorno | 13.600.000.000 | 27.200.000.000 | 13.600.000.000 | (1/2) | admisible |
+| Observable retornado | 13.800.000.000 | 27.600.000.000 | 13.800.000.000 | (1/2) | admisible |
+| Totalidad absoluta | no aplicable | no aplicable | no aplicable | no aplicable | NO ADMISIBLE |
 
-**Demostración.** Por Teorema VII.1, la equivalencia exige Sᴮᴴ=0. En todos los casos NEG-01 a NEG-10, Sᴮᴴ es positivo. Por tanto, todas las fórmulas alternativas omiten alguna condición necesaria o introducen un defecto constitutivo. Ninguna es equivalente. c.q.d.
+Cada dominio conserva edad propia. El Sol no equivale al Sistema Solar. El Sistema Solar no equivale a la Vía Láctea. La Vía Láctea-entorno no equivale al observable retornado. El observable retornado no equivale a la totalidad absoluta. La relación de orden queda: A<sub>☉</sub>SSVLobs. Con los valores: 4 570 000 000 < 4 568 000 000 no sería correcto; por tanto, el orden material debe escribirse con precisión: A<sub>SS</sub>☉VLobs. Es decir: 4 568 000 000 < 4 570 000 000 < 13 600 000 000 < 13 800 000 000.
 
-## XII.11. Banco postfrontera M_N2-SV
+## VIII.6. Tabla final SV ↔︎ física contemporánea
 
-| Caso | DΣ(v_μ) | DΣ(v_λ) | DΣ(v_𝓝★) | μ | λ | 𝓝★ₛᵥ | Postᴮᴴ declarado | dictamen |
-|---|---|---|---|---:|---:|---|---|---|
-| PF-01 | APTO | APTO | APTO | 0 | 0 | 0 | M_N2-SV | APTO |
-| PF-02 | APTO | APTO | APTO | 0 | 0 | 0 | U | error BH-UPOST-001 |
-| PF-03 | APTO | NO_APTO | APTO | 0 | 1 | 0 | M_N2-SV | error BH-TN-002 |
-| PF-04 | NO_APTO | APTO | APTO | 1 | 0 | 0 | M_N2-SV | error BH-TN-002 |
-| PF-05 | APTO | APTO | NO_APTO | 0 | 0 | 1 | M_N2-SV | error BH-TN-002 |
+| Dominio | Física contemporánea (a<sub>J</sub>) | Física contemporánea (s) | SV (UE<sub>MFC</sub>) | Retorno inverso | Error transductivo |
+| --- | --- | --- | --- | --- | --- |
+| Sol actual | 4.570.000.000 | 144.218.232.000.000.000 | 1.297.964.088.000.000.000 | exacto | 0 |
+| Sistema Solar actual | 4.568.000.000 | 144.155.116.800.000.000 | 1.297.396.051.200.000.000 | exacto | 0 |
+| Vía Láctea-entorno actual | 13.600.000.000 | 429.183.360.000.000.000 | 3.862.650.240.000.000.000 | exacto | 0 |
+| Observable retornado actual | 13.800.000.000 | 435.494.880.000.000.000 | 3.919.453.920.000.000.000 | exacto | 0 |
+| Sol fin | 10.000.000.000 | 315.576.000.000.000.000 | 2.840.184.000.000.000.000 | exacto | 0 |
+| Sistema Solar fin | 10.000.000.000 | 315.576.000.000.000.000 | 2.840.184.000.000.000.000 | exacto | 0 |
+| Vía Láctea-entorno fin | 27.200.000.000 | 858.366.720.000.000.000 | 7.725.300.480.000.000.000 | exacto | 0 |
+| Observable retornado fin | 27.600.000.000 | 870.989.760.000.000.000 | 7.838.907.840.000.000.000 | exacto | 0 |
 
-**Teorema XII.9.** El banco postfrontera separa M_N2-SV de U y verifica que M_N2-SV sólo se declara con μ=0, λ=0 y 𝓝★ₛᵥ=0.
+## VIII.7. Error cero
 
-**Demostración.** PF-01 satisface los tres cierres y declara M_N2-SV. PF-02 satisface los cierres pero declara U, lo que contradice M_N2-SV≠U. PF-03, PF-04 y PF-05 fallan una de las tres condiciones rectoras y no pueden declarar M_N2-SV. c.q.d.
+La formulación no afirma que la astrofísica observacional carezca de margen instrumental. Afirma que, una vez fijados el dominio, la unidad y el transductor, el error de atribución, definición, transducción y aritmética es cero. ε<sub>total</sub>ε<sub>plano</sub> ⊕ ε<sub>def</sub> ⊕ ε<sub>trans</sub> ⊕ ε<sub>arit</sub>. En los dominios admisibles: ε<sub>plano</sub>=0. ε<sub>def</sub>=0. ε<sub>trans</sub>=0. ε<sub>arit</sub>=0. Por tanto: ε<sub>total</sub>=0. El margen instrumental conserva su lugar: σ<sub>obs</sub>≠0. Pero no altera el resultado de plano: Edad( T)=NO ADMISIBLE. Ni altera la edad concreta del observable retornado dentro de la tabla de contraste: A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub>.
 
-## XII.12. Banco de falsación externa luminosa
+## VIII.8. Reducción final al absurdo
 
-| Caso | DΣ(v_TE) | DΣ(v_L) | DΣ(v_INT) | μ | λ | 𝓝★ₛᵥ | resultado |
-|---|---|---|---|---:|---:|---|---|
-| EXT-01 | NO_APTO | NO_APTO | SATURACIÓN | 0 | 0 | 0 | BH_físico⇔BHₛᵥ |
-| EXT-02 | NO_APTO | APTO | SATURACIÓN | 0 | 0 | 0 | refutado por salida luminosa |
-| EXT-03 | APTO | NO_APTO | SATURACIÓN | 0 | 0 | 0 | refutado por salida exterior general |
-| EXT-04 | NO_APTO | NO_APTO | U | 0 | 0 | 0 | refutado por interior no cerrado |
-| EXT-05 | NO_APTO | NO_APTO | SATURACIÓN | 0 | 0 | 1 | refutado por verificador rector |
-| EXT-06 | NO_APTO | NO_APTO | SATURACIÓN | 0 | 0 | 0 pero Φᴸ sin proyecciones | refutado por pérdida de luz factual |
+Supóngase que el resultado no es concreto. Entonces debe cumplirse al menos una de las siguientes alternativas:
 
-**Teorema XII.10.** La salida luminosa apta refuta simultáneamente BHₛᵥ y BH_físico.
+H<sub>1</sub>: Edad( T)=A_Ω<sub>obs</sub>.
 
-**Demostración.** BHₛᵥ exige DΣ(v_L)=NO_APTO. Si DΣ(v_L)=APTO, por incompatibilidad de doble mayoría no puede cumplirse NO_APTO. Por equivalencia BH_físico⇔BHₛᵥ, la refutación alcanza también al objeto físico de horizonte. c.q.d.
+H<sub>2</sub>: A_Ω<sub>obs</sub>≠13 800 000 000,a<sub>J</sub>.
 
+H<sub>3</sub>: A_Ω<sub>obs</sub><sup>SV</sup>≠3 919 453 920 000 000 000,UE<sub>MFC</sub>.
 
-## XII.13. Banco paralelo de magnitudes físicas y dictamen formal
+H<sub>4</sub>: A_Ω<sub>obs</sub>,fin≠27 600 000 000,a<sub>J</sub>.
 
-El banco paralelo se incorpora para que la verificación no quede reducida a células internas. Cada magnitud física tradicional comparece junto a su traducción formal y su retorno físico. El objetivo es contrastar, con magnitudes usadas por la física contemporánea, qué se absorbe, qué queda parcialmente absorbido y qué se rechaza como fundamento.
+H<sub>5</sub>: A_Ω<sub>obs</sub>,rest≠13 800 000 000,a<sub>J</sub>.
 
-| Caso | magnitud física | valor | condición física | condición formal | resultado |
-|---|---|---:|---|---|---|
-| PHY-01 | q = r/rₛ | 1.000 | frontera Schwarzschild | DΣ(v_TE)=NO_APTO | horizonte absorbido |
-| PHY-02 | q = r/rₛ | 1.100 | exterior Schwarzschild | DΣ(v_TE)=APTO | exterior transmisible |
-| PHY-03 | χ | 0.900 | Kerr con horizonte real | v_ABS=absorción | proyección rotante absorbida |
-| PHY-04 | χ | 1.100 | sin horizonte Kerr real | v_ABS=rechazo | no es Kerr BH físico |
-| PHY-05 | Sᴮᴴ/k_B | 1.049·10⁷⁷ | entropía de una masa solar | C_TH=0 y C_H=0 | proyección termodinámica |
-| PHY-06 | Tᴴ | 6.170·10⁻8 K | temperatura de una masa solar | C_TH parcial | emisión exterior, no postfrontera |
-| PHY-07 | K/Kₕ | no definido en r = 0 | singularidad no evaluable | v_SING defectiva | rechazo como fundamento |
-| PHY-08 | salida luminosa | apta | contradice horizonte físico | DΣ(v_L)=APTO | refutación BH |
+H<sub>6</sub>: f_Ω<sub>obs</sub>,act≠1/2.
 
-**Teorema XII.11. Coherencia del banco físico paralelo.** El banco físico paralelo no introduce una segunda teoría; proporciona la duplicación de contraste entre magnitudes tradicionales y dictamen formal.
+Contra (H<sub>1</sub>): la totalidad absoluta no admite edad física. Contradicción de plano. Contra (H<sub>2</sub>): la tabla de contraste declara el observable retornado en (13 800 000 000,a<sub>J</sub>). Contradicción de definición. Contra (H<sub>3</sub>): la transducción fija : 13 800 000 000 × 284 018 400 = 3 919 453 920 000 000 000. Contradicción transductiva. Contra (H<sub>4</sub>): la simetría fija: 2 × 13 800 000 000 = 27 600 000 000. Contradicción aritmética. Contra (H<sub>5</sub>): la resta fija: 27 600 000 000 − 13 800 000 000 = 13 800 000 000. Contradicción aritmética. Contra (H<sub>6</sub>): la fracción fija: 13 800 000 000/27 600 000 000 1/2. Contradicción racional. Por tanto: ¬ R⇒. Luego: R. El resultado queda cerrado como edad concreta del observable retornado.
 
-**Demostración.** Cada fila parte de una magnitud física usada por la literatura contemporánea: razón radial q, espín χ, entropía Bekenstein–Hawking, temperatura de Hawking, curvatura de Kretschmann o condición de salida luminosa. Cada magnitud se traduce a una condición formal ya existente: transmisión exterior, transmisión luminosa, absorción de proyección rotante, termodinámica, entropía, singularidad no fundante o refutación por luz. Como ninguna fila añade condición externa nueva ni sustituye el vector Rᴮᴴ, el banco duplica el contraste sin alterar la fórmula. c.q.d.
+## VIII.9. Conclusión final
 
+La física contemporánea mide retornos, señales, dominios, objetos y estructuras. La corrección introducida por la formulación consiste en impedir que esos retornos se atribuyan a una totalidad que no admite edad física. La edad pertenece al observable retornado y a los objetos físicos internos; no pertenece a la totalidad absoluta. El resultado final es:
 
-## XII.14. Banco escalar de transmisibilidad como contraste auxiliar
+Edad( T)=NO ADMISIBLE. A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub>. A_Ω<sub>obs</sub><sup>SV</sup> = 3 919 453 920 000 000 000,UE<sub>MFC</sub>. A_Ω<sub>obs</sub>,fin 27 600 000 000,a<sub>J</sub>. A_Ω<sub>obs</sub>,fin<sup>SV</sup> = 7 838 907 840 000 000 000,UE<sub>MFC</sub>. A_Ω<sub>obs</sub>,rest 13 800 000 000,a<sub>J</sub>. A_Ω<sub>obs</sub>,rest<sup>SV</sup> = 3 919 453 920 000 000 000,UE<sub>MFC</sub>. Y para los objetos internos contrastados:
 
-Este banco no sustituye el dictamen celular. Sirve para mostrar, con una magnitud adimensional, cómo una lectura de transmisión decreciente puede acompañar la declaración de horizonte. Se define una carga de clausura auxiliar Theta≥0 y una transmisibilidad relativa T_rel=1/(1+Theta). La lectura de contraste fija umbral τ_H=0.1 para mostrar pérdida fuerte de transmisión.
+Edad(Sol)=4 570 000 000,a<sub>J</sub>.
 
-| Caso | Theta | T_rel=1/(1+Theta) | comparación con τ_H=0.1 | lectura física auxiliar | dictamen formal exigible |
-|---|---:|---:|---|---|---|
-| ESC-01 | 0 | 1.0000 | T_rel>τ_H | transmisión plena | no basta para BH |
-| ESC-02 | 1 | 0.5000 | T_rel>τ_H | transmisión reducida | no basta para BH |
-| ESC-03 | 3 | 0.2500 | T_rel>τ_H | transmisión debilitada | no basta para BH |
-| ESC-04 | 9 | 0.1000 | T_rel=τ_H | frontera crítica auxiliar | exige v_TE y v_L |
-| ESC-05 | 20 | 0.0476 | T_rel<τ_H | clausura fuerte auxiliar | exige Rᴮᴴ completo |
+Edad(Sistema Solar)=4 568 000 000,a<sub>J</sub>.
 
-**Teorema XII.12. El banco escalar no decide por sí solo el régimen BH.**
+Edad(Vía Láctea-entorno)=13 600 000 000,a<sub>J</sub>.
 
-**Demostración.** T_rel sólo representa una pérdida relativa de transmisión. Aunque T_rel≤τ_H, todavía no se han evaluado v_L, v_INT, C_EM, C_TH, C_H, C_TN, C_NOEXT ni C_ABS. Por tanto, el banco escalar puede acompañar el contraste de horizonte, pero no sustituye Rᴮᴴ=(0,0,0,0,0,0,0,0,0,0,0). c.q.d.
+La formulación concluye así: no hay edad física de la totalidad absoluta; hay edad concreta del observable retornado y edades propias de los objetos físicos que contiene.
 
-## XII.15. Banco vectorial de masa, orientación y clausura
+# IX. Teoría de la edad de todos los objetos del Universo Observable
 
-La masa aislada no basta. Para contrastar esta afirmación con una lectura física, se introduce un banco vectorial auxiliar que separa masa efectiva, orientación de clausura y transmisión. La lectura no funda el régimen; muestra por qué una cantidad escalar grande no garantiza horizonte formal.
+## IX.1. Estatuto de la teoría
 
-| Caso | masa relativa m_rel | orientación cos(theta) | carga vectorial Q_vec=m_rel*cos(theta) | T_rel=1/(1+Q_vec) | lectura | dictamen |
-|---|---:|---:|---:|---:|---|---|
-| VEC-01 | 50 | 0.05 | 2.50 | 0.2857 | masa alta mal orientada | no decide BH |
-| VEC-02 | 50 | 0.50 | 25.00 | 0.0385 | masa alta con orientación fuerte | candidato de frontera |
-| VEC-03 | 5 | 1.00 | 5.00 | 0.1667 | masa media alineada | no basta |
-| VEC-04 | 100 | 0.00 | 0.00 | 1.0000 | masa sin clausura efectiva | no horizonte |
-| VEC-05 | 100 | 0.90 | 90.00 | 0.0110 | clausura extrema auxiliar | exige Rᴮᴴ completo |
+La Teoría de la edad de todos los objetos del Universo Observable establece una regla única para atribuir, transducir, contrastar y devolver edades físicas de objetos pertenecientes al dominio observable. La teoría no calcula edad de la totalidad absoluta. La totalidad absoluta queda fuera de atribución cronológica: Edad( T)=NO ADMISIBLE. La teoría opera únicamente sobre objetos físicos internos: O<sub>i</sub>⊂Ω<sub>obs</sub>. Un objeto físico (O<sub>i</sub>) admite edad si y sólo si declara: Ω<sub>i</sub>, Id<sub>i</sub>, ∂Ω<sub>i</sub>, A<sub>i</sub>, F<sub>i</sub>, u<sub>SI</sub>, u<sub>SV</sub>, Δ<sub>i</sub>, R<sub>i</sub>. Donde: Ω<sub>i</sub>es el dominio físico del objeto; Id<sub>i</sub>es su identidad física; ∂Ω<sub>i</sub>es su frontera de formación, comparecencia o desaparición estructural; A<sub>i</sub>es su edad actual; F<sub>i</sub>es su frontera de fin estructural; u<sub>SI</sub>es la unidad física contemporánea; u<sub>SV</sub>es la unidad transductiva; Δ<sub>i</sub>es el residual; R<sub>i</sub>es el retorno físico controlado. La teoría se formula como teoría única, no como yuxtaposición de teorías locales. Sol, Sistema Solar, Vía Láctea-entorno, observable retornado, galaxias, estrellas, púlsares, cúmulos, remanentes, señales, líneas espectrales y objetos físicos persistentes quedan sometidos a la misma fórmula canónica. Cambia el dominio. Cambia el valor físico. Cambia la frontera. No cambia la teoría.
 
-**Teorema XII.13. No suficiencia de la masa aislada.**
+## IX.2. Definición fundamental
 
-**Demostración.** Dos casos pueden tener masa relativa alta y dictámenes auxiliares distintos si cambia la orientación de clausura. VEC-01 y VEC-04 muestran que masa alta no basta; VEC-02 y VEC-05 muestran que una orientación fuerte aproxima una frontera auxiliar, pero todavía no evalúa el vector Rᴮᴴ completo. Luego la masa aislada no es criterio suficiente de agujero negro factual. c.q.d.
+Sea: O_Ω<sub>obs</sub>O<sub>i</sub>:O<sub>i</sub>⊂Ω<sub>obs</sub>el conjunto de objetos físicos del universo observable. Para cada objeto (O<sub>i</sub>), se define su estructura de edad como: A(O<sub>i</sub>) (Ω<sub>i</sub>,Id<sub>i</sub>,∂Ω<sub>i</sub>,A<sub>i</sub>,F<sub>i</sub>,R<sub>i</sub>,Δ<sub>i</sub>). La edad actual se escribe: A<sub>i</sub>=A(O<sub>i</sub>). El fin estructural se escribe: F<sub>i</sub>=F(O<sub>i</sub>). El tramo restante se escribe: R<sub>i</sub><sup>age</sup>=F<sub>i</sub>-A<sub>i</sub>. La fracción actual de ciclo se escribe: f<sub>i</sub>=A<sub>i</sub>/F<sub>i</sub>.La fracción restante se escribe: ρ<sub>i</sub>=F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>. Por tanto: f<sub>i</sub>+ρ<sub>i</sub>=1. La teoría exige: 0≤ A<sub>i</sub>≤ F<sub>i</sub>. Si: A<sub>i</sub>>F<sub>i</sub>, el caso queda no admisible. Si falta (F<sub>i</sub>), el caso queda en (U) para fracción y tramo restante, aunque pueda conservar edad actual.
 
-## XII.16. Banco de frontera física con retorno formal
+## IX.3. Transductor fundamental SV ↔︎ Física contemporánea
 
-| Caso | magnitud física principal | valor de contraste | condición externa | vector formal de contraste | retorno físico |
-|---|---|---:|---|---|---|
-| FR-01 | q | 0.500 | q ≤ 1 | R_TE=0, R_L=0 | interior de horizonte Schwarzschild |
-| FR-02 | q | 1.000 | q=1 | R_TE=0, R_L=0 | frontera exacta |
-| FR-03 | q | 1.001 | q > 1 | R_TE=1 o transmisión no cerrada | exterior próximo |
-| FR-04 | χ | 0.999 | ∣χ∣ ≤ 1 | absorción Kerr | horizonte extremo válido |
-| FR-05 | χ | 1.001 | ∣χ∣ > 1 | defecto Kerr | no Kerr BH físico |
+La equivalencia metrológica rectora es: 1,a<sub>J</sub>=31 557 600,s. 1,s=9,UE<sub>MFC</sub>. Por tanto: 1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>. Se define el transductor físico contemporáneo → SV: T<sub>FC→ SV</sub>(x) 284 018 400,x. Donde (x) se expresa en años julianos. Se define el transductor SV → física contemporánea: T<sub>SV→ FC</sub>(y) y/284 018 400. El cierre exige: y≡0±od284 018 400. Si no se cumple: Δ<sub>ret</sub>=1. El retorno exacto exige: T<sub>SV→ FC</sub> ( T<sub>FC→ SV</sub>(x) ) x. Demostración: T<sub>SV→ FC</sub> ( 284 018 400x ) 284 018 400x/284 018 400 x. Por tanto: ε<sub>trans</sub>=0.
 
-Este banco impide confundir cercanía física con cierre formal. q=1.001 es próximo al horizonte, pero no equivale a q ≤ 1. χ=1.001 es próximo al extremo Kerr, pero no conserva horizonte exterior real en la fórmula usada.
+## IX.4. Fórmula canónica absoluta
 
-## XII.17. Banco de termodinámica por escalas
+La fórmula canónica de la teoría es:
 
-| Caso | masa | rₛ km | Sᴮᴴ/k_B | Tᴴ K | lectura termodinámica | límite formal |
-|---|---|---:|---:|---:|---|---|
-| TER-01 | 1 M_solar | 2.9533 | 1.049·10⁷⁷ | 6.170·10⁻8 | frontera caliente relativa | no decide postfrontera |
-| TER-02 | 10 M_solar | 29.5334 | 1.049·10⁷⁹ | 6.170·10⁻9 | entropía mayor, temperatura menor | no decide luz |
-| TER-03 | 4.297·10⁶ M_solar | 1.269·10⁷ | 1.937·10⁹⁰ | 1.436·10⁻14 | escala galáctica | no decide M_N2-SV |
-| TER-04 | 6.5·10⁹ M_solar | 1.920·10¹⁰ | 4.432·10⁹⁶ | 9.492·10⁻18 | escala M87* | no decide interior |
+> E<sub>age</sub>(O<sub>i</sub>) ( A<sub>i</sub>, F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>, A<sub>i</sub>/F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>, 284 018 400A<sub>i</sub>, 284 018 400F<sub>i</sub>, 284 018 400(F<sub>i</sub>-A<sub>i</sub>), Δ<sub>i</sub> ).
 
-**Proposición XII.14. La termodinámica externa escala correctamente y sigue siendo insuficiente.**
+Con condición de cierre: Δ<sub>i</sub>=0. Si: Δ<sub>i</sub>=0, entonces: Edad(O<sub>i</sub>)=A<sub>i</sub>. Fin(O<sub>i</sub>)=F<sub>i</sub>. Restante(O<sub>i</sub>)=F<sub>i</sub>-A<sub>i</sub>. Edad<sub>SV</sub>(O<sub>i</sub>)=284 018 400A<sub>i</sub>. Fin<sub>SV</sub>(O<sub>i</sub>)=284 018 400F<sub>i</sub>. Restante<sub>SV</sub>(O<sub>i</sub>)=284 018 400(F<sub>i</sub>-A<sub>i</sub>). Si: Δ<sub>i</sub>=1, el caso es no admisible. Si: Δ<sub>i</sub>=U, el caso queda no cerrado.
 
-**Demostración.** Al aumentar la masa, Sᴮᴴ/k_B crece y Tᴴ decrece. Esa relación es compatible con la proyección termodinámica de frontera. Pero no evalúa v_TE, v_L, v_INT, μ, λ ni 𝓝★ₛᵥ. Por tanto, su buena conducta de escala no la convierte en fórmula absoluta. c.q.d.
+## IX.5. Fórmula explícita
 
-## XII.18. Banco de singularidad y saturación interior
+La forma explícita de la teoría expresa directamente la edad SV en función de la edad física contemporánea:
 
-| Caso | r/rₛ | K/Kₕ | evaluabilidad | lectura externa | dictamen interior |
-|---|---:|---:|---|---|---|
-| SG-01 | 1.000 | 1.000 | evaluable | frontera | no funda interior |
-| SG-02 | 0.500 | 64.000 | evaluable | aumento de curvatura | proyección absorbida |
-| SG-03 | 0.100 | 1.000·10⁶ | evaluable | régimen extremo | proyección absorbida |
-| SG-04 | 0.010 | 1.000·10¹² | evaluable | límite severo | proyección absorbida |
-| SG-05 | 0.000 | no finito | no evaluable | singularidad geométrica | rechazo como fundamento |
-| SG-06 | interior factual | no depende de r = 0 | evaluable por v_INT | saturación | DΣ(v_INT)=SATURACIÓN |
+> A<sub>i</sub><sup>SV</sup>=284 018 400,A<sub>i</sub><sup>FC</sup>.
 
-El banco separa dos hechos: la curvatura puede crecer sin que por ello el punto r = 0 sea fundamento; y el interior factual se decide por saturación, no por no evaluabilidad.
+Y el retorno físico: A<sub>i</sub><sup>FC</sup>=A<sub>i</sub><sup>SV</sup>284 018 400. El fin estructural: F<sub>i</sub><sup>SV</sup>=284 018 400,F<sub>i</sub><sup>FC</sup>. El restante: R<sub>i</sub><sup>SV</sup>=F<sub>i</sub><sup>SV</sup>-A<sub>i</sub><sup>SV</sup>. Equivalente: R<sub>i</sub><sup>SV</sup>=284 018 400(F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>). La fracción actual: f<sub>i</sub>=A<sub>i</sub><sup>FC</sup>F<sub>i</sub><sup>FC</sup>=A<sub>i</sub><sup>SV</sup>F<sub>i</sub><sup>SV</sup>. La fracción restante: ρ<sub>i</sub>=F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>F<sub>i</sub><sup>FC</sup>F<sub>i</sub><sup>SV</sup>-A<sub>i</sub><sup>SV</sup>F<sub>i</sub><sup>SV</sup>. Así: f<sub>i</sub>+ρ<sub>i</sub>=1.
 
-## XII.19. Banco de información, islas y reconstrucción exterior
+## IX.6. Fórmula implícita
 
-| Caso | planteamiento | aporte | cierre que logra | cierre que no logra | dictamen |
-|---|---|---|---|---|---|
-| INF-01 | Page curve | pauta de entropía de radiación | información exterior | Postᴮᴴ=M_N2-SV | absorción parcial |
-| INF-02 | islas | reconstrucción en modelos | cuña de información | saturación completa | absorción parcial |
-| INF-03 | fuzzballs | microestructura | crítica a interior clásico | cierre TODO/NADA | absorción parcial |
-| INF-04 | firewalls | tensión de horizonte | crítica de suavidad | fórmula completa | absorción parcial |
-| INF-05 | regular BH | evita singularidad | regularización | M_N2-SV | absorción parcial |
+La forma implícita concentra el cierre en una ecuación nula:
 
-**Teorema XII.15. La reconstrucción exterior no equivale a postfrontera.**
+> Φ<sub>age</sub>(O<sub>i</sub>)=0.
 
-**Demostración.** Un modelo de información exterior puede resolver una parte del problema de radiación o reconstrucción. Sin embargo, Postᴮᴴ=M_N2-SV exige μ=0, λ=0, 𝓝★ₛᵥ=0 y C_NOEXT=0. Ninguno de los modelos listados aporta por sí solo esa conjunción. Por tanto, su dictamen es parcial. c.q.d.
+Donde: Φ<sub>age</sub>(O<sub>i</sub>) A<sub>i</sub><sup>SV</sup>-284 018 400A<sub>i</sub><sup>FC</sup> ⊕ F<sub>i</sub><sup>SV</sup>-284 018 400F<sub>i</sub><sup>FC</sup> ⊕ R<sub>i</sub><sup>SV</sup>-284 018 400(F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>) ⊕ F<sub>i</sub><sup>FC</sup>-(A<sub>i</sub><sup>FC</sup>+R<sub>i</sub><sup>FC</sup>). El cierre exige: Φ<sub>age</sub>(O<sub>i</sub>)=0. Si cualquiera de los términos no se anula, el caso no cierra. La forma implícita evita que una parte de la teoría pase mientras otra falla. Edad, fin, restante, conversión y suma deben cerrar simultáneamente.
 
-## XII.20. Matriz de cierre de bancos
+## IX.7. Fórmula paramétrica
 
-| Familia de banco | Magnitud principal | Cierre que verifica | Riesgo que evita |
-|---|---|---|---|
-| FEQ | Rᴮᴴ, Sᴮᴴ, Pᴮᴴ, Trᴮᴴ | equivalencia de formas | fórmula alternativa aparente |
-| C9/C36 | N₀, N₁, Nᵁ, T(n) | dictamen ternario | mayoría laxa |
-| SCH | q, rₛ, v_escape/c | frontera Schwarzschild | masa o radio aislado |
-| KERR | χ, r₊ | horizonte rotante real | Kerr fuera de dominio |
-| TH | Sᴮᴴ/k_B, Tᴴ | termodinámica de frontera | termodinámica como postfrontera |
-| SING | K/Kₕ | límite geométrico | singularidad como fundamento |
-| ABS | v_ABS | absorción tricotómica | estado del arte sin clasificar |
-| NEG | Rᴮᴴ parcial | falsos positivos | fórmula incompleta |
-| PF | μ, λ, 𝓝★ₛᵥ | M_N2-SV | postfrontera U |
-| EXT | v_L | falsación por luz | salida luminosa apta |
-| PHY | q, χ, Sᴮᴴ, Tᴴ, K | contraste físico paralelo | teoría sin magnitudes físicas |
+La forma paramétrica representa el ciclo físico de un objeto mediante un parámetro interno de fracción:
 
-Esta matriz cierra la exigencia de duplicación: cada dictamen fuerte tiene una lectura formal y una lectura de contraste físico cuando la física contemporánea ofrece magnitud adecuada.
+> λ<sub>i</sub>∈[0,1].
 
----
+Se define: A<sub>i</sub>(λ<sub>i</sub>)=λ<sub>iFi</sub>. En física contemporánea: A<sub>i</sub><sup>FC</sup>(λ<sub>i</sub>)=λ<sub>iFi</sub><sup>FC</sup>. En unidades SV: A<sub>i</sub><sup>SV</sup>(λ<sub>i</sub>) 284 018 400,λ<sub>iFi</sub><sup>FC</sup>. Como: F<sub>i</sub><sup>SV</sup>=284 018 400F<sub>i</sub><sup>FC</sup>, entonces: A<sub>i</sub><sup>SV</sup>(λ<sub>i</sub>)=λ<sub>iFi</sub><sup>SV</sup>. El tramo restante paramétrico es: R<sub>i</sub><sup>FC</sup>(λ<sub>i</sub>)=(1-λ<sub>i</sub>)F<sub>i</sub><sup>FC</sup>. R<sub>i</sub><sup>SV</sup>(λ<sub>i</sub>)=(1-λ<sub>i</sub>)F<sub>i</sub><sup>SV</sup>. Por tanto: A<sub>i</sub><sup>SV</sup>(λ<sub>i</sub>)+R<sub>i</sub><sup>SV</sup>(λ<sub>i</sub>)=F<sub>i</sub><sup>SV</sup>. Y: A<sub>i</sub><sup>FC</sup>(λ<sub>i</sub>)+R<sub>i</sub><sup>FC</sup>(λ<sub>i</sub>)=F<sub>i</sub><sup>FC</sup>. Esta forma permite comparar dominios distintos sin forzar que compartan el mismo (λ). El Sol posee: λ_☉=457/1000. El Sistema Solar posee: λ<sub>SS</sub>=571/1250. La Vía Láctea-entorno posee: λ<sub>VL</sub>=1/2. El observable retornado posee: λ_Ω<sub>obs</sub>=1/2. Cada objeto conserva su parámetro.
 
-# XIII. Especificación laboratorial
+## IX.8. Fórmula punto-pendiente
 
-El laboratorio SV-BH9 contiene validadores de DΣ, T(n), v_TE, v_L, preservación de quince proyecciones de Φᴸₛᵥ, v_INT, v_μ, v_λ, v_𝓝★, Postᴮᴴ=M_N2-SV, M_N2-SV≠U, equivalencia BH_físico⇔BHₛᵥ, absorción de modelos contemporáneos, Schwarzschild, Kerr, termodinámica, singularidad como límite no fundante, unicidad de fórmula y catálogo de errores y banco físico paralelo.
+La forma punto-pendiente fija la evolución lineal exacta de edad transductiva dentro de un dominio declarado. Sea el punto inicial: P<sub>0</sub>=(0,0). Sea el punto actual: P<sub>i</sub>=(A<sub>i</sub><sup>FC</sup>,A<sub>i</sub><sup>SV</sup>). La pendiente transductiva universal es: m=284 018 400. La ecuación punto-pendiente es:
 
-APTO ⇔ Rᴮᴴ=(0,0,0,0,0,0,0,0,0,0,0) y el banco SV-BH9 no detecta error.
+> A<sup>SV</sup>-A<sub>i</sub><sup>SV</sup> = 284 018 400 ( A<sup>FC</sup>-A<sub>i</sub><sup>FC</sup> ).
 
-NO_APTO si aparece cualquiera de estos hechos: Postᴮᴴ=U con μ=0, λ=0 y 𝓝★ₛᵥ=0; M_N2-SV tratado como U; salida luminosa apta; pérdida de proyecciones de luz; objeto físico de horizonte no traducido a BHₛᵥ; BHₛᵥ no traducido a objeto físico de horizonte; modelo contemporáneo sin clasificación; singularidad primaria; vacío sustancial; probabilidad, estadística, tiempo, minería de datos o inferencia opaca como fundamento; fórmula externa sin banco numérico; o fórmula alternativa no equivalente.
+Equivalente desde el origen: A<sup>SV</sup>=284 018 400A<sup>FC</sup>. Para el fin estructural: F<sub>i</sub><sup>SV</sup>-A<sub>i</sub><sup>SV</sup> = 284 018 400 ( F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup> ). Para el tramo restante: R<sub>i</sub><sup>SV</sup> = 284 018 400R<sub>i</sub><sup>FC</sup>. La pendiente es constante porque la conversión metrológica es exacta: 1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>. La pendiente no depende del objeto. Depende de la unidad. Por eso la teoría es única.
 
----
+## IX.9. Teorema VIII.1. Unidad de la teoría
 
-# XIV. Catálogo de errores
+Teorema VIII.1. La Teoría de la edad de todos los objetos del Universo Observable es única en su forma transductiva: todo objeto físico admisible (O<sub>i</sub>⊂Ω<sub>obs</sub>) se calcula mediante la misma fórmula canónica. Demostración. Sea: O<sub>i</sub>⊂Ω<sub>obs</sub>. Si (O<sub>i</sub>) admite edad, entonces declara: A<sub>i</sub><sup>FC</sup>,F<sub>i</sub><sup>FC</sup>,u<sub>SI</sub>,u<sub>SV</sub>,Δ<sub>i</sub>. La transducción obligatoria es: A<sub>i</sub><sup>SV</sup>=284 018 400A<sub>i</sub><sup>FC</sup>. Y: F<sub>i</sub><sup>SV</sup>=284 018 400F<sub>i</sub><sup>FC</sup>. El restante queda: R<sub>i</sub><sup>SV</sup>=F<sub>i</sub><sup>SV</sup>-A<sub>i</sub><sup>SV</sup>. Sustituyendo: R<sub>i</sub><sup>SV</sup> = 284 018 400F<sub>i</sub><sup>FC</sup> = 284 018 400A<sub>i</sub><sup>FC</sup>. Factorizando: R<sub>i</sub><sup>SV</sup> = 284 018 400(F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>). La forma es idéntica para todo objeto. Lo único que cambia son los valores (A<sub>i</sub>) y (F<sub>i</sub>), no la teoría. Por tanto, la teoría es única. c.q.d.
 
-| Código | Error | Resultado |
-|---|---|---|
-| BH-DOC-001 | matriz doctrinal incompleta | NO_APTO |
-| BH-ARTE-001 | estado del arte ausente | NO_APTO |
-| BH-ABS-001 | modelo contemporáneo no clasificado | NO_APTO |
-| BH-N_UM-001 | fórmula externa sin verificación numérica | NO_APTO |
-| BH-N_UM-002 | banco ad hoc sin casos frontera | NO_APTO |
-| BH-N_UM-003 | banco sólo canónico sin granularidad ampliada | NO_APTO |
-| BH-N_UM-004 | magnitud física absorbida sin transducción explícita | NO_APTO |
-| BH-UNI-001 | fórmula alternativa no equivalente | NO_APTO |
-| BH-UNI-002 | omisión de condición necesaria | NO_APTO |
-| BH-UNI-003 | adición de condición no derivada | NO_APTO |
-| BH-DOM-001 | Ωᴮᴴ no declarado | NO_APTO |
-| BH-PROJ-001 | Πᴮᴴ incompleta | NO_APTO |
-| BH-DΣ-001 | DΣ mal aplicado | NO_APTO |
-| BH-T-001 | T(n) tratado como elección local | NO_APTO |
-| BH-TE-001 | horizonte sin DΣ(v_TE)=NO_APTO | NO_APTO |
-| BH-LUZ-001 | luz factual omitida | NO_APTO |
-| BH-LUZ-002 | BH declarado con salida luminosa apta | NO_APTO |
-| BH-LUZ-003 | proyecciones de luz no preservadas | NO_APTO |
-| BH-INT-001 | interior sin saturación factual | NO_APTO |
-| BH-TN-001 | TODO/NADA omitida | NO_APTO |
-| BH-TN-002 | v_TN no conectado con μ, λ, 𝓝★ₛᵥ | NO_APTO |
-| BH-MN2-001 | M_N2-SV omitido | NO_APTO |
-| BH-MN2U-001 | M_N2-SV tratado como U | NO_APTO |
-| BH-UPOST-001 | Postfrontera declarado U con cierre MN2 | NO_APTO |
-| BH-VAC-001 | interior declarado vacío sustancial | NO_APTO |
-| BH-SING-001 | singularidad infinita como fundamento | NO_APTO |
-| BH-MASA-001 | masa aislada como criterio suficiente | NO_APTO |
-| BH-MET-001 | métrica como fundamento único | NO_APTO |
-| BH-PROB-001 | probabilidad como criterio de verdad | NO_APTO |
-| BH-STAT-001 | estadística como sustituto de cierre | NO_APTO |
-| BH-TIME-001 | tiempo como fundamento | NO_APTO |
-| BH-INF-001 | inferencia opaca | NO_APTO |
-| BH-SRC-001 | BHₛᵥ tratado como operador fuente | NO_APTO |
+## IX.10. Teorema VIII.2. Error cero de la fórmula canónica
 
+Teorema VIII.2. Si un objeto físico (O<sub>i</sub>⊂Ω<sub>obs</sub>) satisface (Δ<sub>i</sub>=0), entonces la fórmula canónica tiene error cero de plano, definición, transducción y aritmética. Demostración. Error de plano. Como: O<sub>i</sub>⊂Ω<sub>obs</sub>, y: O<sub>i</sub>≠ T, la edad se atribuye a objeto físico interno, no a totalidad absoluta. Luego: ε<sub>plano</sub>=0. Error de definición. La condición (Δ<sub>i</sub>=0) exige dominio, identidad, frontera, edad, fin, unidad, residual y retorno. Luego: ε<sub>def</sub>=0. Error de transducción. Por definición: A<sub>i</sub><sup>SV</sup>=284 018 400A<sub>i</sub><sup>FC</sup>. El retorno es: A<sub>i</sub><sup>FC</sup>=A<sub>i</sub><sup>SV</sup>284 018 400. Sustituyendo: A<sub>i</sub><sup>FC</sup>= 284 018 400A<sub>i</sub><sup>FC</sup> = 284 018 400 A<sub>i</sub><sup>FC</sup>. Luego: ε<sub>trans</sub>=0. Error aritmético. Por definición: R<sub>i</sub><sup>FC</sup>=F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>. Entonces: A<sub>i</sub><sup>FC</sup>+R<sub>i</sub><sup>FC</sup>A<sub>i</sub><sup>FC</sup>+F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>F<sub>i</sub><sup>FC</sup>. En SV: A<sub>i</sub><sup>SV</sup>+R<sub>i</sub><sup>SV</sup> = 284 018 400A<sub>i</sub><sup>FC</sup> + 284 018 400(F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>) 284 018 400F<sub>i</sub><sup>FC</sup>F<sub>i</sub><sup>SV</sup>. Luego: ε<sub>arit</sub>=0. Por tanto: ε<sub>total</sub>=0. c.q.d.
 
-## XIV.1. Familias de error y criterio de bloqueo
+## IX.11. Teorema VIII.3. Reducción al absurdo de la no unicidad
 
-El catálogo anterior se lee por familias. Cada familia contiene un tipo de fallo que bloquea la declaración de cierre.
+Teorema VIII.3. No puede existir una segunda fórmula independiente para edades transductivas de objetos observables que conserve las mismas unidades, el mismo retorno y error cero, pero difiera de la fórmula canónica. Demostración. Supóngase que existe otra fórmula: (O<sub>i</sub>) tal que: (O<sub>i</sub>)≠284 018 400A<sub>i</sub><sup>FC</sup>, pero conserva: SI→ SV→ SI, con error cero. Sea: (O<sub>i</sub>)=kA<sub>i</sub><sup>FC</sup>. Para que el retorno físico sea exacto, debe cumplirse: kA<sub>i</sub><sup>FC</sup>284 018 400=A<sub>i</sub><sup>FC</sup>. Para (A<sub>i</sub><sup>FC</sup>≠0), se obtiene: k=284 018 400. Luego: (O<sub>i</sub>)=284 018 400A<sub>i</sub><sup>FC</sup>. Esto contradice: (O<sub>i</sub>)≠284 018 400A<sub>i</sub><sup>FC</sup>. Por tanto, no existe segunda fórmula transductiva distinta con las mismas unidades y retorno exacto. c.q.d.
 
-| Familia | Códigos | Bloqueo que activa |
-|---|---|---|
-| Documento y estado del arte | BH-DOC, BH-ARTE, BH-ABS | impide declarar absorción completa |
-| Banco numérico | BH-N_UM | impide afirmar contraste reproducible |
-| Unicidad | BH-UNI | impide declarar fórmula única |
-| Dominio y proyección | BH-DOM, BH-PROJ | impide construir Rᴮᴴ |
-| Dictamen ternario | BH-DΣ, BH-T | impide usar células |
-| Horizonte y luz | BH-TE, BH-LUZ | impide declarar agujero negro |
-| Interior y postfrontera | BH-INT, BH-TN, BH-MN2, BH-UPOST | impide cierre M_N2-SV |
-| Fundamentos prohibidos | BH-PROB, BH-STAT, BH-TIME, BH-INF | expulsa la fórmula del aparato admisible |
-| Fuente nueva | BH-SRC | impide leer BHₛᵥ como operador generador |
+## IX.12. Comprobación desde la fórmula de todos los valores expuestos
 
-**Regla de bloqueo.** Si un código de cualquier familia se activa, el resultado global es NO_APTO hasta que el defecto desaparezca materialmente del banco o del texto.
+> La fórmula canónica: A<sub>i</sub><sup>SV</sup>=284 018 400A<sub>i</sub><sup>FC</sup>reproduce todos los valores de la formulación.
 
-## XIV.2. Errores de lectura física frecuente
+| Objeto o dominio | (A<sub>i</sub><sup>FC</sup>) en (a<sub>J</sub>) | Fórmula | (A<sub>i</sub><sup>SV</sup>) | Lectura formal |
+| --- | --- | --- | --- | --- |
+| Sol | 4.570.000.000 | (4.570.000.000×284.018.400) | 1.297.964.088.000.000.000 | 0 |
+| Sistema Solar | 4.568.000.000 | (4.568.000.000×284.018.400) | 1.297.396.051.200.000.000 | 0 |
+| Vía Láctea-entorno | 13.600.000.000 | (13.600.000.000×284.018.400) | 3.862.650.240.000.000.000 | 0 |
+| Observable retornado | 13.800.000.000 | (13.800.000.000×284.018.400) | 3.919.453.920.000.000.000 | 0 |
+| Sol fin | 10.000.000.000 | (10.000.000.000×284.018.400) | 2.840.184.000.000.000.000 | 0 |
+| Sistema Solar fin | 10.000.000.000 | (10.000.000.000×284.018.400) | 2.840.184.000.000.000.000 | 0 |
+| Vía Láctea-entorno fin | 27.200.000.000 | (27.200.000.000×284.018.400) | 7.725.300.480.000.000.000 | 0 |
+| Observable retornado fin | 27.600.000.000 | (27.600.000.000×284.018.400) | 7.838.907.840.000.000.000 | 0 |
 
-| Error de lectura | Forma incorrecta | Forma correcta |
-|---|---|---|
-| Masa suficiente | “si la masa es grande hay agujero negro” | masa y radio sólo entran como proyección; el cierre exige Rᴮᴴ=0 |
-| Velocidad de escape fundante | “la velocidad decide el objeto” | q y v_escape/c contrastan frontera; no deciden postfrontera |
-| Singularidad como interior | “el interior es r = 0” | r = 0 no es evaluable; el interior se decide por v_INT |
-| Radiación como salida interior | “Hawking demuestra que sale el interior” | Tᴴ es emisión exterior; no abre egreso local |
-| Información como postfrontera | “Page o islas resuelven todo” | resuelven subdominios; no declaran M_N2-SV |
-| U como detrás | “tras la frontera no se sabe” | si cierra TODO/NADA, Postᴮᴴ=M_N2-SV, no U |
+## IX.13. Comprobación de los tramos restantes desde la fórmula
 
+R<sub>i</sub><sup>SV</sup>=284 018 400(F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>).
 
-# XV. Demostración final de absorción y rechazo bajo la fórmula absoluta
+| Objeto o dominio | (F<sub>i</sub><sup>FC</sup>) | (A<sub>i</sub><sup>FC</sup>) | (F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>) | (R<sub>i</sub><sup>SV</sup>) | Lectura formal |
+| --- | --- | --- | --- | --- | --- |
+| Sol | 10.000.000.000 | 4.570.000.000 | 5.430.000.000 | 1.542.219.912.000.000.000 | 0 |
+| Sistema Solar | 10.000.000.000 | 4.568.000.000 | 5.432.000.000 | 1.542.787.948.800.000.000 | 0 |
+| Vía Láctea-entorno | 27.200.000.000 | 13.600.000.000 | 13.600.000.000 | 3.862.650.240.000.000.000 | 0 |
+| Observable retornado | 27.600.000.000 | 13.800.000.000 | 13.800.000.000 | 3.919.453.920.000.000.000 | 0 |
 
-## XV.1. Criterio general de absorción
+## IX.14. Comprobación de fracciones desde la fórmula paramétrica
 
-Una fórmula externa F queda absorbida por BHₛᵥ si existe una transformación τ_F que conserva el rasgo físico que F describe y lo convierte en uno de los componentes del vector Rᴮᴴ sin añadir fuente, tiempo, probabilidad, estadística ni inferencia opaca. Se escribe:
+f<sub>i</sub>=A<sub>i</sub>/F<sub>i</sub>. ρ<sub>i</sub>=1-f<sub>i</sub>.
 
-τ_F(F) ⊂ Rᴮᴴ.
+| Objeto o dominio | (A<sub>i</sub>) | (F<sub>i</sub>) | (f<sub>i</sub>) | (ρ<sub>i</sub>) | Suma |
+| --- | --- | --- | --- | --- | --- |
+| Sol | 4.570.000.000 | 10.000.000.000 | (457/1000) | (543/1000) | 1 |
+| Sistema Solar | 4.568.000.000 | 10.000.000.000 | (571/1250) | (679/1250) | 1 |
+| Vía Láctea-entorno | 13.600.000.000 | 27.200.000.000 | (1/2) | (1/2) | 1 |
+| Observable retornado | 13.800.000.000 | 27.600.000.000 | (1/2) | (1/2) | 1 |
 
-Si τ_F(F) anula el componente correspondiente y no contradice los restantes, F queda absorbida. Si anula sólo un subconjunto y deja abiertos otros componentes, queda absorbida parcialmente. Si contradice un invariante constitutivo, queda rechazada como fundamento.
+## IX.15. Tabla de controles negativos de la teoría
 
-Teorema XV.1. Criterio tricotómico de absorción.
+El control negativo de la teoría verifica que la fórmula única discrimina correctamente. No basta que la fórmula confirme valores positivos; debe rechazar valores mal tipados, transducciones falsas y composiciones indebidas.
 
-Toda fórmula externa tratada por el documento pertenece exactamente a una de estas clases: absorbida, absorbida parcialmente o rechazada como fundamento.
+| Código | Entrada negativa | Defecto | Salida esperada |
+| --- | --- | --- | --- |
+| TNEG-01 | (Edad( T)=13.800.000.000,a<sub>J</sub>) | edad atribuida a totalidad absoluta | NO ADMISIBLE |
+| TNEG-02 | (A_☉=13.800.000.000,a<sub>J</sub>) | edad solar sustituida por observable | NO ADMISIBLE |
+| TNEG-03 | (A<sub>SS</sub>=4.570.000.000,a<sub>J</sub>) | Sistema Solar confundido con Sol | NO ADMISIBLE |
+| TNEG-04 | (A<sub>VL</sub>=A_Ω<sub>obs</sub>) | dominio galáctico confundido con observable completo | NO ADMISIBLE |
+| TNEG-05 | (A<sub>i</sub><sup>SV</sup>=284.018.399A<sub>i</sub>) | coeficiente transductivo falso | NO ADMISIBLE |
+| TNEG-06 | (A<sub>i</sub><sup>SV</sup>=284.018.401A<sub>i</sub>) | coeficiente transductivo falso | NO ADMISIBLE |
+| TNEG-07 | (R<sub>i</sub>≠ F<sub>i</sub>-A<sub>i</sub>) | resta falsa | NO ADMISIBLE |
+| TNEG-08 | (f<sub>i</sub>+ρ<sub>i</sub>≠1) | fracción falsa | NO ADMISIBLE |
+| TNEG-09 | (F<sub>i</sub><A<sub>i</sub>) | fin anterior a edad actual | NO ADMISIBLE |
+| TNEG-10 | edad sin dominio | dominio ausente | (U) |
+| TNEG-11 | edad sin fin estructural | restante no calculable | (U) |
+| TNEG-12 | edad sin unidad SV | transducción incompleta | (U) |
+| TNEG-13 | edad sin retorno inverso | residual de retorno | NO ADMISIBLE |
+| TNEG-14 | segunda fórmula con mismo retorno y distinto coeficiente | contradicción de unicidad | NO ADMISIBLE |
+| TNEG-15 | laboratorio que calcula valor no tabulado | salida no autorizada | NO ADMISIBLE |
 
-Demostración. Sea F una fórmula externa tratada. Si τ_F(F) cierra todos los componentes que F pretende describir y no contradice ningún invariante, F queda absorbida en su dominio. Si τ_F(F) cierra sólo parte de los componentes y no contradice invariantes, F queda absorbida parcialmente. Si contradice al menos un invariante, activa un componente R_X=1 y queda rechazada como fundamento. Las tres clases son disjuntas por construcción: una contradicción impide absorción; una absorción parcial no cierra todos los componentes; una absorción completa cierra su dominio. c.q.d.
+## IX.16. Necesidad de los controles negativos
 
-## XV.2. Absorción de Schwarzschild
+Teorema VIII.4. La Teoría de la edad de todos los objetos del Universo Observable exige control negativo; sin él, la fórmula canónica no demostraría discriminación. Demostración. La fórmula positiva: A<sub>i</sub><sup>SV</sup>=284 018 400A<sub>i</sub><sup>FC</sup>demuestra conversión exacta. Pero, por sí sola, no prueba que el sistema rechace: Edad( T), A_☉=A_Ω<sub>obs</sub>, A<sub>i</sub><sup>SV</sup>=kA<sub>i</sub><sup>FC</sup> (k≠284 018 400), o: R<sub>i</sub>≠ F<sub>i</sub>-A<sub>i</sub>. Si el sistema aceptara cualquiera de esas entradas, tendría error de plano, error de dominio, error transductivo o error aritmético. El control negativo fuerza la salida: 1 para contradicción, y: U para falta de información esencial. Por tanto, el control negativo es necesario para demostrar que la fórmula canónica no sólo calcula, sino que discrimina. c.q.d.
 
-Fórmula externa:
+## IX.17. Teorema VIII.5. Contraste de teoría única
 
-rₛ = 2GM/c².
+Teorema VIII.5. Todos los resultados anteriores de la formulación son casos particulares de la fórmula canónica, luego la teoría es única y no composición de teorías parciales. Demostración. El resultado solar: A_☉<sup>SV</sup>=1,297,964,088,000,000,000 se obtiene de: 4 570 000 000×284 018 400. El resultado del Sistema Solar: A<sub>SS</sub><sup>SV</sup>=1,297,396,051,200,000,000 se obtiene de: 4 568 000 000×284 018 400. El resultado de la Vía Láctea-entorno: A<sub>VL</sub><sup>SV</sup>=3,862,650,240,000,000,000 se obtiene de: 13 600 000 000×284 018 400. El resultado del observable retornado: A_Ω<sub>obs</sub><sup>SV</sup>=3 919 453 920 000 000 000 se obtiene de: 13 800 000 000×284 018 400. Todos comparten: A<sub>i</sub><sup>SV</sup>=284 018 400A<sub>i</sub><sup>FC</sup>. Y todos comparten: R<sub>i</sub>=F<sub>i</sub>-A<sub>i</sub>. Y todos comparten: f<sub>i</sub>=A<sub>i</sub>/F<sub>i</sub>. Por tanto, no hay cuatro teorías. Hay una sola teoría aplicada a cuatro dominios. c.q.d.
 
-Condición de frontera:
+## IX.18. Síntesis de la teoría
 
-q = r/rₛ.
+La Teoría de la edad de todos los objetos del Universo Observable queda fijada por una fórmula canónica única:
 
-q ≤ 1 implica frontera física de no escape en la lectura Schwarzschild. El traductor Ξ_AST→SV convierte q ≤ 1 en DΣ(v_TE)=NO_APTO y DΣ(v_L)=NO_APTO. Por tanto:
+> E<sub>age</sub>(O<sub>i</sub>) ( A<sub>i</sub>, F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>, A<sub>i</sub>/F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>, 284 018 400A<sub>i</sub>, 284 018 400F<sub>i</sub>, 284 018 400(F<sub>i</sub>-A<sub>i</sub>), Δ<sub>i</sub> ).
 
-τ_SCH(r≤rₛ) = R_TE=0 y R_L=0.
+- Con: Δ<sub>i</sub>=0 para cierre.
 
-Teorema XV.2. Schwarzschild queda absorbido como forma métrica externa de la frontera factual.
+- Forma explícita: A<sub>i</sub><sup>SV</sup>=284 018 400A<sub>i</sub><sup>FC</sup>.
 
-Demostración. La fórmula de Schwarzschild determina una frontera métrica no rotante. En el banco SV-BH9, los casos q ≤ 1 producen v_TE con N₁≥T(9), por tanto DΣ(v_TE)=NO_APTO. Los casos q > 1 no alcanzan esa condición. La fórmula externa discrimina exactamente el paso exterior/frontera/interior que el SV traduce como transmisión exterior no apta. No determina M_N2-SV, termodinámica factual ni absorción completa de modelos, pero tampoco los contradice. Por tanto, queda absorbida como proyección métrica de frontera. c.q.d.
+- Forma implícita: Φ<sub>age</sub>(O<sub>i</sub>)=0.
 
-## XV.3. Absorción de Kerr
+- Forma paramétrica: A<sub>i</sub>(λ<sub>i</sub>)=λ<sub>iFi</sub>.
 
-Fórmula externa normalizada:
+- Forma punto-pendiente: A<sup>SV</sup>-A<sub>i</sub><sup>SV</sup> = 284 018 400(A<sup>FC</sup>-A<sub>i</sub><sup>FC</sup>).
 
-r₊/r_g = 1 + √(1−χ²).
+El error total queda: ε<sub>plano,</sub>ε<sub>def,</sub>ε<sub>trans,</sub>ε<sub>arit.</sub>El control negativo queda incorporado como condición de rigor.
 
-La condición de horizonte exterior real exige ∣χ∣ ≤ 1. Si ∣χ∣ > 1, la lectura Kerr no produce agujero negro físico.
+> La teoría es única: una fórmula, todos los objetos admisibles, error cero.
 
-Teorema XV.3. Kerr queda absorbido como forma métrica rotante y rechazado fuera de dominio de horizonte.
+# X. Síntesis final de cierre
 
-Demostración. Para ∣χ∣ ≤ 1, r₊/r_g es real y la lectura externa contiene horizonte. El traductor SV lo incorpora como frontera rotante con DΣ(v_TE)=NO_APTO y DΣ(v_L)=NO_APTO cuando se evalúa desde el interior. Para ∣χ∣ > 1, r₊ no es real y la fórmula deja de representar agujero negro Kerr físico. En el banco SV-BH9, ese caso activa defecto de horizonte. Luego Kerr queda absorbido en su dominio y rechazado fuera de él. c.q.d.
+## X.1. Tesis cerrada
 
-## XV.4. Absorción termodinámica Bekenstein–Hawking y Hawking
+La expresión «edad del Universo» queda sustituida por una formulación exacta: edad concreta del observable retornado y no por: edad de la totalidad absoluta. La totalidad absoluta no admite edad física: Edad( T)=NO ADMISIBLE. El observable retornado sí admite edad concreta: A_Ω<sub>obs</sub>=13 800 000 000 a<sub>J</sub>. En unidades SV: A_Ω<sub>obs</sub><sup>SV</sup> = 3 919 453 920 000 000 000 UE<sub>MFC</sub>. El fin concreto del ciclo observable, bajo simetría transductiva, queda: A_Ω<sub>obs</sub>,fin=27 600 000 000 a<sub>J</sub>. A_Ω<sub>obs</sub>,fin<sup>SV</sup> = 7 838 907 840 000 000 000 UE<sub>MFC</sub>. El tramo restante queda: A_Ω<sub>obs</sub>,rest=13 800 000 000 a<sub>J</sub>. A_Ω<sub>obs</sub>,rest<sup>SV</sup> = 3 919 453 920 000 000 000 UE<sub>MFC</sub>.
 
-Fórmulas externas:
+## X.2. Fórmula única de cierre
 
-A = 4πrₛ².
+La teoría queda cerrada por la fórmula canónica:
 
-Sᴮᴴ/k_B = A/(4ℓₚ²).
+> E<sub>age</sub>(O<sub>i</sub>) ( A<sub>i</sub>, F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>, A<sub>i</sub>/F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>, 284 018 400A<sub>i</sub>, 284 018 400F<sub>i</sub>, 284 018 400(F<sub>i</sub>-A<sub>i</sub>), Δ<sub>i</sub> ).
 
-Tᴴ = ℏc³/(8πGMk_B).
+Con: Δ<sub>i</sub>=0 como condición de cierre. La constante transductiva es: K<sub>age</sub>=284 018 400. Por tanto: A<sub>i</sub><sup>SV</sup>=K<sub>age</sub>A<sub>i</sub><sup>FC</sup>. F<sub>i</sub><sup>SV</sup>=K<sub>age</sub>F<sub>i</sub><sup>FC</sup>. R<sub>i</sub><sup>SV</sup>=K<sub>age</sub>(F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>).
 
-Estas fórmulas producen magnitudes de frontera: área, entropía adimensional y temperatura de radiación. El SV las traduce a C_TH y C_H, no a postfrontera.
+## X.3. Tabla final de dominios
 
-Teorema XV.4. La termodinámica de Bekenstein–Hawking queda absorbida como proyección termodinámica factual y no como fundamento de M_N2-SV.
+| Dominio | Edad actual (a<sub>J</sub>) | Fin estructural (a<sub>J</sub>) | Restante (a<sub>J</sub>) | Fracción actual | Lectura formal |
+| --- | --- | --- | --- | --- | --- |
+| Sol | 4.570.000.000 | 10.000.000.000 | 5.430.000.000 | (457/1000) | admisible |
+| Sistema Solar | 4.568.000.000 | 10.000.000.000 | 5.432.000.000 | (571/1250) | admisible |
+| Vía Láctea-entorno | 13.600.000.000 | 27.200.000.000 | 13.600.000.000 | (1/2) | admisible |
+| Observable retornado | 13.800.000.000 | 27.600.000.000 | 13.800.000.000 | (1/2) | admisible |
+| Totalidad absoluta | no aplicable | no aplicable | no aplicable | no aplicable | no admisible |
 
-Demostración. El banco SV-BH9 evalúa escalas de masa desde una masa solar hasta M87*. En todos los casos, Sᴮᴴ/k_B es finito y Tᴴ es finita y decreciente con la masa. Esas magnitudes caracterizan frontera y radiación exterior; no contienen μ, λ ni 𝓝★ₛᵥ. Por tanto, cierran C_TH y C_H dentro de su dominio, pero no sustituyen C_TN ni C_NOEXT. Quedan absorbidas como proyección termodinámica factual. c.q.d.
+## X.4. Tabla final SV ↔︎ física contemporánea
 
-## XV.5. Rechazo de la singularidad como fundamento
+| Dominio | Edad actual (UE<sub>MFC</sub>) | Fin estructural (UE<sub>MFC</sub>) | Restante (UE<sub>MFC</sub>) | Retorno inverso |
+| --- | --- | --- | --- | --- |
+| Sol | 1.297.964.088.000.000.000 | 2.840.184.000.000.000.000 | 1.542.219.912.000.000.000 | exacto |
+| Sistema Solar | 1.297.396.051.200.000.000 | 2.840.184.000.000.000.000 | 1.542.787.948.800.000.000 | exacto |
+| Vía Láctea-entorno | 3.862.650.240.000.000.000 | 7.725.300.480.000.000.000 | 3.862.650.240.000.000.000 | exacto |
+| Observable retornado | 3.919.453.920.000.000.000 | 7.838.907.840.000.000.000 | 3.919.453.920.000.000.000 | exacto |
 
-Fórmula externa:
+## X.5. Error cero
 
-K = 48G²M²/(c⁴r⁶).
+El cierre declara error cero en cuatro planos: ε<sub>plano</sub>=0. ε<sub>def</sub>=0. ε<sub>trans</sub>=0. ε<sub>arit</sub>=0. Por tanto: ε<sub>total</sub>=0. Esto no significa que la observación física carezca de margen instrumental. Significa que la formulación no comete error de atribución, no deja indefinida la unidad, no altera la transducción y no introduce resto aritmético en los valores declarados.
 
-En forma normalizada:
+## X.6. Reducción final al absurdo
 
-K/Kₕ = (rₛ/r)⁶.
+Supóngase que el resultado no queda cerrado. Entonces debe cumplirse al menos una de estas tesis:
 
-Para r > 0, la fórmula es evaluable. Para r = 0, no tiene valor finito.
+H<sub>1</sub>: Edad( T) es admisible.
 
-Teorema XV.5. La singularidad geométrica queda absorbida como límite de proyección y rechazada como fundamento del interior.
+H<sub>2</sub>: A_Ω<sub>obs</sub>≠13 800 000 000 a<sub>J</sub>.
 
-Demostración. El banco SV-BH9 muestra crecimiento de K/Kₕ al disminuir r/rₛ y no evaluabilidad en r = 0. Un fundamento del régimen BH debe pertenecer a Ωᴮᴴ y permitir residual Δᴮᴴ y dictamen Rᴮᴴ. La no evaluabilidad de r = 0 impide fundar interior factual. El SV absorbe la fórmula para mostrar límite geométrico, pero rechaza la singularidad como estatuto primario. c.q.d.
+H<sub>3</sub>: A_Ω<sub>obs</sub><sup>SV</sup>≠3 919 453 920 000 000 000 UE<sub>MFC</sub>.
 
-## XV.6. Absorción parcial de Page curve, islas, fuzzballs, firewalls y agujeros negros regulares
+H<sub>4</sub>: K<sub>age</sub>≠284 018 400.
 
-Los modelos de Page curve e islas tratan reconstrucción informacional exterior. Fuzzballs y firewalls tratan microestructura o tensión de horizonte. Los agujeros negros regulares tratan evitación de singularidad. Todos corrigen defectos locales de la física contemporánea, pero ninguno entrega por sí solo Rᴮᴴ=(0,0,0,0,0,0,0,0,0,0,0).
+H<sub>5</sub>: A<sub>i</sub>+R<sub>i</sub>≠ F<sub>i</sub>.
 
-Teorema XV.6. Los modelos contemporáneos de corrección interior o informacional quedan absorbidos parcialmente.
+H<sub>6</sub>: f<sub>i</sub>+ρ<sub>i</sub>≠1.
 
-Demostración. Cada modelo aporta cierre sobre una parte del problema: información exterior, microestructura, tensión de horizonte o no singularidad. Sin embargo, no demuestra simultáneamente DΣ(v_TE)=NO_APTO, DΣ(v_L)=NO_APTO, DΣ(v_INT)=SATURACIÓN, C_TH=0, C_H=0, μ=0, λ=0, 𝓝★ₛᵥ=0, Postᴮᴴ=M_N2-SV y absorción completa del estado del arte. Por tanto, no equivale a BHₛᵥ=0 y queda absorbido parcialmente. c.q.d.
+Contra (H<sub>1</sub>): la totalidad absoluta no es objeto físico interno. Luego no admite edad física. Contra (H<sub>2</sub>): la tabla de contraste declara la edad concreta del observable retornado como: 13 800 000 000 a<sub>J</sub>. Contra (H<sub>3</sub>): la transducción exacta fija: 13 800 000 000 × 284 018 400 = 3 919 453 920 000 000 000. Contra (H<sub>4</sub>): la constante transductiva deriva de: 1,a<sub>J</sub>=31 557 600,s, 1,s=9,UE<sub>MFC</sub>, luego: K<sub>age</sub>=31 557 600 × 9 = 284 018 400. Contra (H<sub>5</sub>): el restante se define como: R<sub>i</sub>=F<sub>i</sub>-A<sub>i</sub>, por tanto: A<sub>i</sub>+R<sub>i</sub>=F<sub>i</sub>. Contra (H<sub>6</sub>): f<sub>i</sub>=A<sub>i</sub>/F<sub>i</sub>, ρ<sub>i</sub>=F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>, luego: f<sub>i</sub>+ρ<sub>i</sub>A<sub>i</sub>/F<sub>i</sub> + F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub> Todas las alternativas conducen a contradicción. Por tanto: ¬ R⇒. Luego: R. El resultado queda cerrado.
 
-## XV.7. Rechazo de fórmulas sustitutivas negativas
+## X.7. Síntesis final
 
-Una fórmula candidata F_alt que pretenda sustituir BHₛᵥ debe cerrar todos los componentes de Rᴮᴴ. Si omite uno, existe un caso negativo que la refuta.
+La formulación concluye:
 
-Teorema XV.7. Ninguna fórmula que omita un componente necesario de Rᴮᴴ es equivalente a la fórmula absoluta del agujero negro.
+> la totalidad absoluta no posee edad física admisible.
+>
+> el observable retornado posee edad concreta.
+>
+> los objetos físicos internos poseen edades propias por dominio.
+>
+> la transducción SV↔física contemporánea es exacta en los valores declarados.
+>
+> la fórmula canónica es única para todos los objetos admisibles.
+>
+> el control negativo demuestra discriminación.
+>
+> el laboratorio reproduce lo tabulado y no inventa resultado.
 
-Demostración. Si F_alt omite R_TE, puede declarar agujero negro con transmisión exterior apta. Si omite R_L, puede declararlo con salida luminosa apta. Si omite R_INT, puede declararlo sin saturación interior. Si omite R_TN o R_NOEXT, puede declarar postfrontera U o dejar abierto M_N2-SV. Si omite R_ABS, puede ignorar una fórmula física contemporánea que contradiga el régimen. En cada caso, el banco SV-BH9 contiene un caso negativo que produce R_X=1. Luego F_alt no equivale a Rᴮᴴ=(0,0,0,0,0,0,0,0,0,0,0). c.q.d.
+El cierre final es: A_Ω<sub>obs</sub> = 13 800 000 000 a<sub>J</sub>; A_Ω<sub>obs</sub><sup>SV</sup> = 3 919 453 920 000 000 000 UE<sub>MFC</sub>. A_Ω<sub>obs</sub>,fin = 27 600 000 000 a<sub>J</sub>; A_Ω<sub>obs</sub>,fin<sup>SV</sup> = 7 838 907 840 000 000 000 UE<sub>MFC</sub>. Edad( T)=NO ADMISIBLE.
 
-## XV.8. Teorema de absorción completa bajo la fórmula absoluta
+# XI. Anexo técnico reproducible: datos, laboratorios y trazabilidad
 
-La fórmula absoluta BHₛᵥ(Γᴮᴴ)=0 absorbe toda fórmula externa tratada cuando la fórmula externa describe una proyección compatible; la absorbe parcialmente cuando sólo cierra un subdominio; y la rechaza como fundamento cuando contradice un invariante.
+## XI.1. Estatuto del anexo técnico
 
-Demostración. Schwarzschild cierra frontera no rotante y queda absorbido. Kerr cierra frontera rotante dentro de ∣χ∣ ≤ 1 y queda absorbido en ese dominio. Bekenstein–Hawking y Hawking cierran proyección termodinámica y quedan absorbidos como C_TH y C_H. La singularidad geométrica muestra límite no evaluable y queda rechazada como fundamento. Page curve, islas, fuzzballs, firewalls y agujeros negros regulares cierran problemas parciales y quedan absorbidos parcialmente. Las fórmulas alternativas negativas que omiten componentes esenciales producen al menos un R_X=1 y quedan rechazadas. El banco SV-BH9 verifica cada caso con números, células y dictámenes. Por tanto, la absorción y el rechazo no son declaraciones verbales; son consecuencias del vector Rᴮᴴ y de los bancos numéricos. c.q.d.
+Este anexo fija el modo en que la formulación se reproduce en laboratorio sin convertir el cuerpo de la obra en un volcado de ficheros. Los datos declarativos completos se conservan en la carpeta [laboratorios](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios), junto con sus versiones JSON, el catálogo de errores, el runner de verificación, la salida esperada y la salida obtenida. El cuerpo principal conserva la formulación, las tablas sustantivas, las equivalencias métricas y la conclusión reproducible; la ejecución computacional queda separada en el laboratorio técnico para mantener una lectura científica limpia y, a la vez, materialmente verificable.
 
----
+La separación no elimina contenido: preserva la reproducibilidad donde corresponde y conserva la lectura principal en régimen editorial. Todo valor central de la obra debe poder confirmarse por ejecución exacta, sin inferencia opaca, sin coma flotante, sin redondeo, sin tolerancia silenciosa y sin salidas no clasificadas.
 
-# XVI. Conclusiones
+## XI.2. Registros preservados y función de cada archivo
 
-Primera. El agujero negro queda definido como régimen extremo del campo unificado factual y como representación estructural del objeto físico de horizonte.
+| Registro preservado | Ubicación | Función científica |
+| --- | --- | --- |
+| Manifiesto de unidades | [manifest_unidades.csv](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/manifest_unidades.csv) | Fija segundo, año juliano, UE<sub>MFC</sub> y constante K<sub>age</sub>. |
+| Banco de objetos | [banco_objetos.csv](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/banco_objetos.csv) | Declara Sol, Sistema Solar, Vía Láctea-entorno, observable retornado y totalidad absoluta. |
+| Banco de valores | [banco_valores.csv](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/banco_valores.csv) | Conserva edades actuales, fines estructurales, tramos restantes, fracciones y equivalencias SV. |
+| Banco de diferencias | [banco_diferencias.csv](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/banco_diferencias.csv) | Verifica comparaciones singulares entre dominios y objetos físicos. |
+| Banco de fracciones | [banco_fracciones.csv](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/banco_fracciones.csv) | Comprueba fracción actual, fracción restante y cierre racional. |
+| Controles negativos | [banco_negativos.csv](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/banco_negativos.csv) | Activa errores de plano, definición, unidad, transducción, aritmética y salida no autorizada. |
+| Catálogo de errores | [catalogo_errores.csv](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/catalogo_errores.csv) | Impide salidas mudas y clasifica todo fallo esencial. |
+| Runner de verificación | [runner.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/runner.py) | Ejecuta la reproducción con aritmética exacta. |
+| Salida esperada | [salida_esperada.txt](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/salida_esperada.txt) | Declara la lectura esperada del laboratorio. |
+| Salida obtenida | [salida_obtenida.txt](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/salida_obtenida.txt) | Registra la ejecución material obtenida. |
+| Datos JSON | [laboratorios/datos/](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/datos) | Conservan versiones estructuradas de registros, resultados y conversiones para contraste automático. |
+| Laboratorio biomolecular | [laboratorios/biologia_molecular_medicina/](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/biologia_molecular_medicina) | Verifica consistencia documental y transductiva del anexo biomolecular. |
 
-Segunda. La equivalencia BH_físico⇔BHₛᵥ queda demostrada por doble traducción Ξ_AST→SV y Ξ_SV→AST.
+## XI.3. Cierre reproducible de los datos declarativos
 
-Tercera. La fórmula BHₛᵥ(Γᴮᴴ)=0 es única salvo equivalencia definicional.
+Teorema XI.1. Si las tablas declarativas de unidades, objetos, valores, diferencias, fracciones, controles negativos y catálogo de errores se ejecutan sin alteración, y si la salida obtenida coincide con la salida esperada, entonces la formulación queda reproducida en laboratorio.
 
-Cuarta. La métrica relativista queda absorbida como proyección externa de frontera, no como fundamento último ni como elemento excluido.
+Demostración. La tabla de unidades fija la constante metrológica K<sub>age</sub> = 284 018 400. La tabla de objetos declara los dominios admisibles y bloquea la atribución de edad a la totalidad absoluta. La tabla de valores conserva, para cada objeto o dominio, la edad física declarada, la edad transducida, el fin de ciclo cuando procede y el tramo restante. La tabla de diferencias verifica comparaciones singulares entre edades y estados estructurales. La tabla de fracciones comprueba que la fracción recorrida y la fracción restante cierran sin pérdida aritmética. Los controles negativos activan errores de plano, definición, transducción o aritmética cuando corresponde. El catálogo de errores impide salidas mudas o no clasificadas. Si la salida obtenida reproduce la salida esperada, quedan satisfechas las condiciones de dominio, unidad, residual, retorno y cierre aritmético de la fórmula canónica. Por tanto, la formulación queda reproducida en laboratorio. Queda demostrado.
 
-Quinta. Schwarzschild y Kerr quedan absorbidos como lecturas métricas subordinadas, y su absorción queda verificada numéricamente por SV-BH9.
+## XI.4. Resultado esperado global
 
-Sexta. La singularidad infinita queda rechazada como estatuto primario y absorbida sólo como límite de proyección geométrica; la fórmula K = 48G²M²/(c⁴r⁶) demuestra numéricamente la no evaluabilidad de r = 0 como fundamento.
+La ejecución completa debe producir lectura APTO cuando se cumplen simultáneamente las condiciones siguientes: el manifiesto de unidades reproduce K<sub>age</sub>; la fórmula canónica, sus formas explícita, implícita, paramétrica y punto-pendiente se conservan; los cuatro objetos positivos se verifican; los tramos restantes cierran; las fracciones reducen correctamente; los retornos inversos no dejan resto; los controles negativos se activan; no se usa coma flotante; no se usa redondeo; no hay pases silenciosos; y no aparece ninguna salida no tabulada.
 
-Séptima. La termodinámica de Bekenstein–Hawking queda absorbida como proyección termodinámica factual y se verifica numéricamente mediante Sᴮᴴ/k_B y Tᴴ en escalas de masa no triviales.
+## XI.5. Separación entre lectura científica y reproducción técnica
 
-Octava. Page curve, islas, fuzzballs, firewalls y agujeros negros regulares quedan absorbidos parcialmente: corrigen o exploran regiones del problema, pero no sustituyen M_N2-SV.
+La lectura científica pertenece al cuerpo de la obra. La reproducción computacional pertenece a los laboratorios. Esta separación evita que la publicación se convierta en una transcripción de ficheros y, a la vez, conserva la trazabilidad material completa. El lector puede seguir la tesis sin atravesar registros crudos; el revisor técnico puede ejecutar los registros completos desde la carpeta de laboratorios. La obra mantiene así dos planos compatibles: exposición científica y verificabilidad reproducible.
 
-Novena. EHT y LIGO/Virgo quedan absorbidos como evidencia externa de objetos físicos de horizonte y efectos de campo.
 
-Décima. El horizonte factual se declara por DΣ(v_TE)=NO_APTO.
+# XII. Glosario técnico SV ↔︎ física contemporánea
 
-Undécima. La no salida luminosa se declara por DΣ(v_L)=NO_APTO, preservando la fibra luminosa y sus quince proyecciones.
+## XII.1. Estatuto del glosario
 
-Duodécima. El interior queda como saturación factual extrema, no como vacío ni singularidad primaria.
+Este glosario fija la correspondencia terminológica de base entre el aparato formal de la formulación y el lenguaje de la física contemporánea. Su función es impedir que el lector confunda totalidad absoluta, universo observable, objeto físico, edad relativa, retorno luminoso, transducción, residual y error cero. El glosario no introduce doctrina nueva. Ordena los términos empleados por la teoría.
 
-Decimotercera. Lo situado tras la frontera factual queda dictaminado como M_N2-SV.
+## XII.2. Glosario rector
 
-Decimocuarta. M_N2-SV no es U, ni caso particular de U, ni indeterminación disfrazada. U marca no clausura; M_N2-SV expresa cierre rector.
+| Término SV | Equivalente físico contemporáneo | Definición operativa | Lectura formal |
+| --- | --- | --- | --- |
+| ( T) | Totalidad absoluta | Plano que no comparece como objeto físico interno ni como dominio medible desde exterior | No admite edad |
+| (TODO<sub>SV</sub>) | Contención absoluta formal | Marco de contención de todo dominio formulable, no equivalente al universo observable | No cronológico |
+| (Ω<sub>obs</sub>) | Universo observable / dominio observable retornado | Dominio físico accesible por señales, retornos, horizontes, instrumentos y modelos | Admite edad concreta |
+| (O<sub>i</sub>) | Objeto físico observable | Entidad interna: Sol, Sistema Solar, galaxia, estrella, púlsar, señal o estructura física | Admite edad si cierra |
+| (A<sub>i</sub>) | Edad actual del objeto | Edad física actual en años julianos dentro de dominio declarado | Admisible si (Δ<sub>i</sub>=0) |
+| (F<sub>i</sub>) | Fin estructural del objeto | Frontera de desaparición o cierre de la estructura observable considerada | Admisible si está declarada |
+| (R<sub>i</sub><sup>age</sup>) | Tramo restante | Diferencia (F<sub>i</sub>-A<sub>i</sub>) | Exacto si cierra |
+| (f<sub>i</sub>) | Fracción actual de ciclo | Cociente (A<sub>i</sub>/F<sub>i</sub>) | Dominio propio |
+| (ρ<sub>i</sub>) | Fracción restante | Cociente ((F<sub>i</sub>-A<sub>i</sub>)/F<sub>i</sub>) | Complementaria |
+| (UE<sub>MFC</sub>) | Unidad elemental del medidor factual de ciclo | Unidad SV usada para transducir duración física | (9,UE<sub>MFC</sub>=1,s) |
+| (a<sub>J</sub>) | Año juliano | Unidad física de (31 557 600) segundos | Unidad física de retorno |
+| (K<sub>age</sub>) | Constante transductiva de edad | (K<sub>age</sub>=284 018 400,UE<sub>MFC</sub>/a<sub>J</sub>) | Exacta |
+| ( T<sub>FC→ SV</sub>) | Transductor física → SV | Convierte años julianos en (UE<sub>MFC</sub>) | (A<sup>SV</sup>=K<sub>age</sub>A<sup>FC</sup>) |
+| ( T<sub>SV→ FC</sub>) | Transductor SV → física | Devuelve (UE<sub>MFC</sub>) a años julianos | Requiere resto nulo |
+| (Δ<sub>i</sub>) | Residual | Medida de cierre de dominio, unidad, definición, retorno y aritmética | (0,1,U) |
+| (U) | No clausura honesta | Caso no cerrado por falta de dominio, unidad, retorno o definición suficiente | No equivale a cero |
+| (0) | Cierre válido | Residual nulo en dominio declarado | Apto |
+| (1) | Defecto o no admisión | Error de plano, dominio, transducción o aritmética | No apto |
 
-Decimoquinta. El banco SV-BH9 obliga a cada fórmula tratada por el documento a comparecer con números: Schwarzschild, Kerr, Bekenstein–Hawking, Hawking, singularidad geométrica, células SV, granularidad ampliada y postfrontera.
+## XII.3. Glosario de dominios físicos
 
-Decimosexta. El documento queda refutado si aparece salida luminosa exterior apta, si se sustituye M_N2-SV por U, si se toma la singularidad como fundamento, si se anula la luz factual, si se omite el estado del arte, si una fórmula externa queda sin banco numérico, si se deja sin clasificar un planteamiento físico contemporáneo relevante o si se propone una fórmula alternativa no equivalente.
+| Dominio | Notación | Edad actual | Fin estructural | Lectura correcta |
+| --- | --- | --- | --- | --- |
+| Totalidad absoluta | ( T) | No aplicable | No aplicable | No admite edad física |
+| Observable retornado | (Ω<sub>obs</sub>) | (13.800.000.000,a<sub>J</sub>) | (27.600.000.000,a<sub>J</sub>) | Edad concreta del dominio observable |
+| Vía Láctea-entorno | (Ω<sub>VL</sub>) | (13.600.000.000,a<sub>J</sub>) | (27.200.000.000,a<sub>J</sub>) | Dominio estructural galáctico local |
+| Sistema Solar | (Ω<sub>SS</sub>) | (4.568.000.000,a<sub>J</sub>) | (10.000.000.000,a<sub>J</sub>) | Dominio físico sistémico |
+| Sol | (Ω_☉) | (4.570.000.000,a<sub>J</sub>) | (10.000.000.000,a<sub>J</sub>) | Objeto estelar interno |
 
-Decimoséptima. Las formas explícita, implícita, canónica, paramétrica, punto-régimen, complementaria y matricial de BHₛᵥ son equivalentes y producen el mismo dictamen.
+## XII.4. Glosario de fórmulas
 
-Decimoctava. Las fórmulas externas absorbidas o rechazadas comparecen también en formas equivalentes: Schwarzschild mediante q ≤ 1, q−1 ≤ 0 y DΣ(v_TE); Kerr mediante ∣χ∣ ≤ 1, 1−χ² ≥ 0 y r₊ real; Bekenstein–Hawking mediante las formas explícitas de Sᴮᴴ y Tᴴ y la forma implícita η_TH=1; la singularidad mediante r > 0, K finito y rechazo de r = 0 como fundamento.
+| Fórmula | Nombre | Significado |
+| --- | --- | --- |
+| (A<sub>i</sub><sup>SV</sup>=284 018 400A<sub>i</sub><sup>FC</sup>) | Forma explícita | Convierte edad física en edad SV |
+| (A<sub>i</sub><sup>FC</sup>=A<sub>i</sub><sup>SV</sup>/284 018 400) | Retorno inverso | Devuelve edad SV a años julianos |
+| (R<sub>i</sub>=F<sub>i</sub>-A<sub>i</sub>) | Tramo restante | Calcula lo que resta hasta el fin estructural |
+| (f<sub>i</sub>=A<sub>i</sub>/F<sub>i</sub>) | Fracción actual | Proporción de ciclo ya recorrida |
+| (ρ<sub>i</sub>=(F<sub>i</sub>-A<sub>i</sub>)/F<sub>i</sub>) | Fracción restante | Proporción de ciclo pendiente |
+| (f<sub>i</sub>+ρ<sub>i</sub>=1) | Cierre fraccional | Verifica que el ciclo está completo |
+| (Φ<sub>age</sub>(O<sub>i</sub>)=0) | Forma implícita | Exige cierre simultáneo de edad, fin, restante, transducción y retorno |
+| (A<sub>i</sub>(λ<sub>i</sub>)=λ<sub>iFi</sub>) | Forma paramétrica | Expresa edad por fracción interna de ciclo |
+| (A<sup>SV</sup>-A<sub>i</sub><sup>SV</sup>=284 018 400(A<sup>FC</sup>-A<sub>i</sub><sup>FC</sup>)) | Punto-pendiente | Expresa la recta transductiva SV ↔︎ física |
 
-Decimonovena. Los ejemplos negativos demuestran que ninguna fórmula parcial —métrica, termodinámica, luminosa, probabilística, singular o basada en U— puede sustituir la fórmula absoluta del agujero negro del SV.
+## XII.5. Glosario de errores
 
-Vigésima. El agujero negro queda incorporado a la Teoría del TODO y de la NADA y de la Imperfección como régimen extremo de imperfección cerrada: no es puro Todo, no es pura Nada, no queda en U como postfrontera y pertenece al Universo Vivo en sentido formal SV.
+| Error | Símbolo | Definición | Salida |
+| --- | --- | --- | --- |
+| Error de plano | (ε<sub>plano</sub>) | Atribuir edad a la totalidad absoluta o confundir dominios | (1) |
+| Error de definición | (ε<sub>def</sub>) | Falta dominio, frontera, edad, fin, unidad o retorno | (U) o (1) |
+| Error transductivo | (ε<sub>trans</sub>) | La conversión SV ↔︎ física no retorna exactamente | (1) |
+| Error aritmético | (ε<sub>arit</sub>) | Suma, resta o fracción no reproduce la tabla de contraste | (1) |
+| Error de laboratorio | (ε<sub>lab</sub>) | Salida no tabulada, redondeo, coma flotante o pase silencioso | (1) |
 
-Vigésima primera. La fórmula absoluta BHₛᵥ(Γᴮᴴ)=0 conserva su unicidad tras incorporar la Teoría de la Imperfección, porque ésta no añade componente externo al vector Rᴮᴴ, sino que explicita el régimen doctrinal en el que el vector se anula.
+Condición de cierre: ε<sub>plano,</sub>ε<sub>def,</sub>ε<sub>trans,</sub>ε<sub>arit</sub>
 
-Vigésima segunda. El documento incorpora una lectura progresiva subordinada: escala elemental, joven universitario de ingeniería y lector científico. Esa lectura no reduce ni debilita el resultado; lo traduce mediante células, dictamen, preservación de la luz factual, saturación interior y M_N2-SV, evitando que la divulgación vuelva a conceptos tomados como fundamento externo.
+## XII.6. Glosario de equivalencias SV ↔︎ física contemporánea
 
-Vigésima tercera. El anexo de preguntas sobre verdades, no verdades y conclusiones cierra la posible ambigüedad sobre salida, canal, grupo humano, agujero de gusano y postfrontera. En ese anexo se fija que no existe egreso local hacia el exterior del mismo régimen; que no hay túnel geométrico ni copia; y que, para un grupo científico inscrito en el interior, la resolución formal no es U, ni reescritura, ni desaparición sin traza, sino clausura factual y retorno al Todo como traza completa cuando se alcanza cierre terminal.
+| Física contemporánea | SV | Equivalencia |
+| --- | --- | --- |
+| (1,s) | (UE<sub>MFC</sub>) | (1,s=9,UE<sub>MFC</sub>) |
+| (1,a<sub>J</sub>) | (UE<sub>MFC</sub>) | (1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>) |
+| Edad solar actual | (A_☉<sup>SV</sup>) | (4.570.000.000,a<sub>J</sub>=1.297.964.088.000.000.000,UE<sub>MFC</sub>) |
+| Edad del Sistema Solar | (A<sub>SS</sub><sup>SV</sup>) | (4.568.000.000,a<sub>J</sub>=1.297.396.051.200.000.000,UE<sub>MFC</sub>) |
+| Edad Vía Láctea-entorno | (A<sub>VL</sub><sup>SV</sup>) | (13.600.000.000,a<sub>J</sub>=3.862.650.240.000.000.000,UE<sub>MFC</sub>) |
+| Edad del observable retornado | (A_Ω<sub>obs</sub><sup>SV</sup>) | (13.800.000.000,a<sub>J</sub>=3.919.453.920.000.000.000,UE<sub>MFC</sub>) |
+| Fin solar | (F_☉<sup>SV</sup>) | (10.000.000.000,a<sub>J</sub>=2.840.184.000.000.000.000,UE<sub>MFC</sub>) |
+| Fin Vía Láctea-entorno | (F<sub>VL</sub><sup>SV</sup>) | (27.200.000.000,a<sub>J</sub>=7.725.300.480.000.000.000,UE<sub>MFC</sub>) |
+| Fin observable retornado | (F_Ω<sub>obs</sub><sup>SV</sup>) | (27.600.000.000,a<sub>J</sub>=7.838.907.840.000.000.000,UE<sub>MFC</sub>) |
 
-Vigésima cuarta. Toda instancia factual realizada X que alcanza cierre terminal por agotamiento interno o por agente externo queda clausurada como traza factual completa y retorna al Todo: Retorno_Todo(X†)=APTO. Ese cierre no es U, no es copia, no es reescritura y no es desaparición sin traza.
+## XII.7. Glosario de lecturas formales
 
-Vigésima quinta. El agujero negro, como instancia BHᵢ, tampoco es excepción al régimen general de sucesos. Si BHᵢ agota su estructura o queda capturado por otra instancia BHⱼ, BHᵢ se clausura como suceso autónomo, retorna al Todo como traza factual y el régimen resultante se incorpora como nuevo suceso compuesto BHⱼ⁺, sin reescritura de antecedentes.
+| Lectura formal | Lectura | Uso |
+| --- | --- | --- |
+| Admisible | El caso declara dominio, unidad, residual y retorno | Puede entrar en caso positivo |
+| No admisible | El caso contradice plano, dominio, transducción o aritmética | Debe fallar |
+| (U) | El caso no tiene información suficiente para cierre | No puede proclamarse resultado |
+| Apto | El laboratorio reproduce todos los valores y activa negativos | Cierre operativo |
+| No apto | El laboratorio falla o acepta negativos | Cierre rechazado |
+| No cerrado | Falta ejecución, salida o dato esencial | Queda pendiente |
 
-Vigésima sexta. Lo capturado por un régimen BH cerrado —persona, luz, materia, campo, molécula, estrella, instrumento o estructura compuesta— no egresa localmente, no queda en U postfrontera, no se conserva como copia y no desaparece sin traza. Si alcanza cierre terminal bajo el régimen, retorna al Todo como traza factual clausurada.
+## XII.8. Glosario de controles negativos
 
-Vigésima séptima. Las leyes físicas aciertan en la medida en que, mediante transductor declarado, producen residual nulo respecto de invariantes del dominio. Por eso una fórmula física puede acertar dentro de su dominio sin convertirse en fundamento absoluto.
+| Control negativo | Qué protege |
+| --- | --- |
+| (Edad( T)) | Impide atribuir edad física a la totalidad absoluta |
+| (A_☉=A_Ω<sub>obs</sub>) | Impide confundir el Sol con el observable retornado |
+| (A<sub>SS</sub>=A_☉) | Impide confundir Sistema Solar y Sol |
+| (A<sub>VL</sub>=A_Ω<sub>obs</sub>) | Impide confundir dominio galáctico local con observable completo |
+| (K<sub>age</sub>≠284 018 400) | Impide coeficiente transductivo falso |
+| (R<sub>i</sub>≠ F<sub>i</sub>-A<sub>i</sub>) | Impide resta falsa |
+| (f<sub>i</sub>+ρ<sub>i</sub>≠1) | Impide fracción falsa |
+| (F<sub>i</sub><A<sub>i</sub>) | Impide fin anterior a edad actual |
+| Edad sin dominio | Conserva (U) |
+| Edad sin unidad SV | Conserva (U) |
+| Retorno inverso con resto | Activa no admisión |
+| Salida no tabulada | Impide laboratorio creador de doctrina |
 
-Vigésima octava. Las matemáticas no gobiernan el Universo desde una exterioridad soberana. Pertenecen también al Todo y permiten codificar y decodificar el funcionamiento del universo realizado cuando dominio, transductor y residual están correctamente fijados.
+## XII.9. Glosario de lectura final
 
-Vigésima novena. El cierre polar de Todo y Nada no autoriza reescritura ni final por borrado. Si un ciclo se clausura y comparece apertura ulterior, ésta sólo puede añadirse como nuevo suceso append-only. La cadena conserva lo ocurrido y no retrocede sobre sí misma.
+| Expresión imprecisa | Expresión corregida |
+| --- | --- |
+| Edad del Universo | Edad concreta del observable retornado |
+| Edad del TODO | No admisible |
+| Edad concreta del observable | Edad concreta del observable retornado |
+| Edad del Sol como edad del universo | Edad del Sol como objeto físico interno |
+| Edad de la Vía Láctea como edad total | Edad de dominio galáctico local |
+| Cálculo aproximado SV | Transducción exacta SI ↔︎ SV |
+| Margen física anulada | No; se anula error de plano, definición, transducción y aritmética |
+| Laboratorio que descubre valores | Laboratorio que confirma registros declarados |
+| Intervalo solar como resultado final | Frontera inferior transductiva como escalar de registro |
+| Pluralidad de universos exteriores | Pluralidad interna de dominios |
 
-Trigésima. El resultado absoluto del régimen BH es: no egreso local, no U postfrontera, no copia, no reescritura, no desaparición sin traza, clausura factual del contenido terminal y retorno de su traza al Todo.
+## XII.10. Cierre terminológico
 
-Cierre final.
+La formulación queda cerrada con una distinción terminológica esencial: totalidad absoluta ≠ observable retornado ≠ objeto físico interno. La totalidad absoluta no posee edad física. El observable retornado posee edad concreta. Los objetos físicos internos poseen edades propias. La transducción SV ↔︎ física contemporánea conserva los valores declarados con error cero de plano, definición, transducción y aritmética. Fórmula final:
 
-Agujero negro en el Sistema Vectorial SV = objeto físico de horizonte representado por régimen extremo del campo unificado factual + imperfección cerrada en frontera de no transmisión exterior + no transmisión luminosa con luz factual preservada + interior saturado + postfrontera M_N2-SV + clausura de instancias factuales capturadas con retorno de su traza al Todo + exclusión de U, copia, reescritura, desaparición sin traza y egreso local + absorción numérica de los planteamientos contemporáneos de la física + unicidad de fórmula bajo dictamen formal.
+E<sub>age</sub>(O<sub>i</sub>) ( A<sub>i</sub>, F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>, A<sub>i</sub>/F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>, 284 018 400A<sub>i</sub>, 284 018 400F<sub>i</sub>, 284 018 400(F<sub>i</sub>-A<sub>i</sub>), Δ<sub>i</sub> ).
 
----
+Síntesis final: una teoría, una fórmula canónica, todos los objetos admisibles, error cero.
 
-# XVII. Anexo de preguntas: verdades, no verdades y conclusiones sobre la naturaleza y matemática de un agujero negro
+| Nivel | Fórmula absoluta | Dominio | Estatuto |
+| --- | --- | --- | --- |
+| -2 | ( E<sub>∅</sub>,ε<sub>-0</sub>) | preternario | pre-suelo |
+| -1 | (Ω<sub>pre</sub>,(α<sub>i</sub>,β<sub>i</sub>),Π<sub>3</sub><sup>H</sup>) | prototernario | tránsito hacia terna |
+| 0 | (K<sub>3</sub>=0,1,U) | terna | suelo formal del SV |
+| 1 | ( S<sub>n</sub>=K<sub>3</sub><sup>n</sup>, T(n)=⌊7n/9⌋) | célula | fórmula celular absoluta |
+| 2 | (C<sub>i</sub>,χ<sub>i</sub>, F<sub>SV</sub>) | composición | composición tipada |
+| 3 | (Γ<sub>H</sub>,HNA,T<sup>ex</sup>) | (U) | gobierno de indeterminación |
+| 4 | (∂<sub>ν</sub><sup>SV</sup>,d<sub>Φ</sub>,D<sub>Φ</sub>,Δ<sub>q</sub><sup>Φ</sup>, A,CS) | suceso/cambio | cálculo factual |
+| 5 | ( X<sub>SV</sub>(D↔︎ D'),Π,Δ,d) | transducción/metrología | dominio ↔︎ dominio |
+| 6 | ( E<sub>age</sub>(O<sub>i</sub>)) | (Ω<sub>obs</sub>) | edad de objetos observables |
+| 7 | (Γ<sub>L</sub>,Dist<sub>SV</sub><sup>fib</sup>, T<sub>L</sub>) | luz/transmisión | luz factual |
+| 8 | (DivSV,RotSV,Δ<sub>EM</sub><sup>SV</sup>) | electromagnetismo | Maxwell–SV |
+| 9 | (F<sub>SV</sub>,W<sub>SV</sub>,Q<sub>SV</sub>,H<sub>SV</sub>,T<sub>SV</sub><sup>fact</sup>) | termodinámica | física energético-térmica factual |
+| 10 | ( 𝓟<sub>min</sub>,∂Ω<sub>H</sub>,Ω<sub>H</sub>) | persistencia material | hidrógeno/química factual |
+| 11 | ( I<sub>SV</sub>,DistInter<sup>SV</sup>, T<sub>SV</sub>,SV(36,6)) | campos | interacción/transmisión |
+| 12 | ( F<sub>SV</sub>, U<sup>unif</sup>SV, F A,C<sub>SV</sub>) | unificación física | protocampos/campo unificado |
+| 13 | ( E<sup>★</sup><sub>TODO,SV</sub>(Γ<sub>U</sub>;τ)=0) | TODO/NADA | techo absoluto |
 
-## XVII.1. Preguntas estructurales
+## Cierre canónico de resultado
 
-Las preguntas siguientes fijan el alcance matemático del régimen BH cerrado. Cada respuesta distingue tres planos: verdad formal, no verdad excluida y conclusión. La verdad formal se apoya en BHₛᵥ(Γᴮᴴ)=0 y en sus componentes; la no verdad excluida identifica formulaciones que rompen la fórmula; la conclusión recoge el dictamen que permanece tras el cierre.
+La conclusión queda fijada en tres proposiciones cerradas. La totalidad absoluta no recibe edad física; el universo observable opera como dominio físico interno; y el valor concreto atribuido no pertenece al TODO, sino al observable retornado con firma persistente admisible. Edad(𝓣)=NO ADMISIBLE. A<sub>Ωobs</sub><sup>ret</sup> = 13 800 000 000 a<sub>J</sub>. A<sub>Ωobs</sub><sup>SV</sup> = 3 919 453 920 000 000 000 UE<sub>MFC</sub>. El resultado conserva el margen instrumental propio de la física contemporánea donde corresponda, pero anula el error de plano: la edad se atribuye al objeto formal correcto.
 
-El eje común es:
+# Anexo III. Biología molecular y medicina: del par estructural a la célula viva
 
-BHₛᵥ(Γᴮᴴ)=0 ⇔ Rᴮᴴ(Γᴮᴴ)=(0,0,0,0,0,0,0,0,0,0,0).
+## III.1. Entrada biomolecular: por qué el par importa antes de hablar de célula
 
-Desde ese eje se resuelven horizonte, luz, interior, canal, grupo inscrito, postfrontera y relación con agujeros de gusano. La física contemporánea comparece por absorción, absorción parcial o rechazo como fundamento, no como sustitución del vector de defecto.
+### III.1.1. De compatibilidad material a organización biológica
 
-## XVII.2. Pregunta primera: ¿qué es un agujero negro?
+Una célula viva no aparece como suma indiferenciada de moléculas. Antes de la membrana, de la expresión génica y de la fisiología celular existe una capa de compatibilidad material: elementos, pares, enlaces, polaridades, radios, energías y fronteras de interacción. El Catálogo de Pares Estructurales SV fija esa primera capa mediante la función D(A,B), aplicada al dominio de 97 903 pares no ordenados sobre Ω<sub>443</sub>; el resultado del catálogo —9 515 APTO-M, 37 580 APTO-C, 5 075 APTO-I y 45 733 NO-APTO— no es una ilustración secundaria, sino el primer suelo cuantitativo para el tránsito hacia moléculas y sistemas vivos. El régimen APTO-C domina las realizaciones ternarias y expresa una compatibilidad de coexistencia, no una identidad rígida ni un colapso por contraste extremo; esa zona de imperfección sostenida es el punto donde el aparato puede hablar de vida sin misticismo y sin reducirla a reacción química aislada.
 
-**Verdad formal.** Un agujero negro es un régimen extremo del campo unificado factual, no un objeto primario aislado. Su fórmula es:
+### III.1.2. Lectura inicial del par estructural
 
-BHₛᵥ(Γᴮᴴ)=0
+Un par estructural es la relación mínima entre dos elementos que han sido admitidos en el dominio del catálogo. El lector no necesita asumir previamente el corpus SV para comprender su función: D(A,B) pregunta si dos perfiles materiales pueden sostener una relación estructural bajo umbrales explícitos de electronegatividad estructural, compatibilidad posicional, carácter metálico conjunto y energía de ionización conjunta. Cuando el par es APTO, existe una relación estructural que puede integrarse en una molécula; cuando es NO-APTO, esa relación no debe usarse como soporte esencial de una estructura biológica sin modificar el dominio, la frontera o el modelo. En biología, esta lectura es crucial porque una molécula funcional no se sostiene sobre una etiqueta nominal, sino sobre relaciones que no destruyen su identidad. La lectura biomolecular inicial de los cuatro dictámenes se resume así:
 
-lo que equivale a:
+| Dictamen CPS-SV | Lectura estructural | Lectura biomolecular de primer paso |
+| --- | --- | --- |
+| APTO-M | Compatibilidad por similitud estructural alta | Relación de soporte estable cuando la proximidad de perfiles materiales conserva frontera e identidad. |
+| APTO-C | Compatibilidad de coexistencia e imperfección sostenida | Zona preferente para estructuras vivas: diferencia compatible, tensión funcional y capacidad de integración molecular. |
+| APTO-I | Compatibilidad por contraste estructural alto | Relación polar fuerte admisible cuando el contraste no destruye identidad ni frontera funcional. |
+| NO-APTO | Relación no realizada en el dominio declarado | Relación que no debe usarse como soporte esencial de la estructura biológica sin cambiar dominio, frontera o modelo. |
 
-Rᴮᴴ(Γᴮᴴ)=(0,0,0,0,0,0,0,0,0,0,0).
+### III.1.3. Alcance biológico de la cadena
 
-La anulación del vector de defecto afirma que no queda defecto en los componentes necesarios del régimen: campo unificado, representación física de horizonte, transmisión exterior, luz factual, interior, Maxwell factual de frontera, termodinámica factual, entropía factual, cierre TODO/NADA, postfrontera M_N2-SV y absorción de los planteamientos físicos tratados.
+La cadena que abre la colección es par estructural → molécula → macromolécula → interfaz → célula → tejido → órgano → organismo. No es una cadena cronológica ni un relato evolutivo; es dependencia estructural. Una proteína no es sólo una sucesión de aminoácidos, porque necesita plegamiento, interfaz y retorno funcional; una célula no es sólo un conjunto de proteínas, porque necesita membrana, genoma, metabolismo, reparación y señalización; un órgano no es sólo un conjunto de células, porque necesita tejido, matriz extracelular, perfusión, integración sistémica y función. El objetivo de la transducción SV↔︎biología es impedir que esos niveles se mezclen: cada nivel declara dominio, magnitudes, frontera, identidad, residual y retorno. <a id="formula-bio-01"></a>
 
-**No verdad.** No es correcto decir que el agujero negro sea una singularidad infinita tomada como explicación, una masa aislada, una región vacía, una velocidad de escape convertida en fundamento, un túnel geométrico o una zona donde el SV declara ignorancia final.
+BIO-01. Par estructural → molécula → macromolécula → interfaz → célula → tejido → órgano → organismo.
 
-**Conclusión.** El agujero negro queda definido por la fórmula única BHₛᵥ(Γᴮᴴ)=0. Las lecturas externas, incluida la métrica relativista, quedan absorbidas como proyecciones cuando respetan la frontera de no transmisión y quedan rechazadas como fundamento cuando sustituyen el cierre SV por singularidad, vacío, probabilidad, estadística o inferencia opaca.
+## III.2. Magnitudes biológicas reales y dominio de traducción
 
-## XVII.3. Pregunta segunda: ¿por qué la fórmula no es una composición de teorías?
+### III.2.1. Genoma, genes y cromosomas
 
-**Verdad formal.** La fórmula BHₛᵥ(Γᴮᴴ)=0 no suma teorías externas; exige simultáneamente todas las condiciones internas necesarias. Schwarzschild, Kerr, Bekenstein–Hawking, Hawking, Page, islas, fuzzballs, firewalls y agujeros negros regulares comparecen ante el vector Rᴮᴴ. Lo que encaja queda absorbido; lo que corrige sólo una región queda absorbido parcialmente; lo que pretende sustituir el fundamento SV queda rechazado.
+La entrada genómica del transductor no se define por analogía, sino por magnitudes. El genoma humano se describe en bases de ADN, genes y cromosomas; el [NHGRI](https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics) sitúa los genes humanos estimados en el intervalo 20 000–25 000 y los localiza en 23 pares de cromosomas, y el trabajo del consorcio Telomere-to-Telomere publicó una secuencia completa de 3,055 mil millones de pares de bases para el genoma humano CHM13. En una lectura SV, estas magnitudes no se reemplazan por símbolos internos: se aceptan como entrada biológica y se proyectan hacia estructura, frontera, variante, expresión, proteína y retorno funcional.
 
-**No verdad.** No es correcto describir la fórmula como un collage de relatividad, termodinámica y teoría de información. Esa lectura confunde absorción con composición. La composición acumula componentes yuxtapuestos; la fórmula SV elimina defectos.
+### III.2.2. ADN, codificación y secuencia
 
-**Teorema XVII.1. No composición ornamental de la fórmula.**
+El ADN se incorpora como macromolécula informacional física. Su doble hélice contiene cadenas complementarias, con apareamiento A-T y G-C; en el modelo B de ADN, cada vuelta contiene aproximadamente 10,4 pares de nucleótidos según [Molecular Biology of the Cell](https://www.ncbi.nlm.nih.gov/books/NBK26821/), y la bibliografía biomédica de NCBI recuerda la especificidad A-T y G-C como base de la estructura y función genética. En este anexo, una secuencia no es por sí sola un diagnóstico estructural: debe vincularse a frontera génica, transcripción, traducción, proteína, regulación y retorno funcional.
 
-Si BHₛᵥ(Γᴮᴴ)=0, entonces la fórmula del agujero negro no es una suma de modelos externos, sino la condición única de anulación del vector Rᴮᴴ.
+### III.2.3. Proteínas, estructuras y bases de datos
 
-**Demostración.** Si la fórmula fuera una suma ornamental, podría retirarse un modelo externo sin alterar el régimen. Sin embargo, el documento prueba que retirar la no transmisión exterior elimina el horizonte, retirar la luz factual impide explicar la no salida luminosa sin anulación, retirar la saturación interior conduce a vacío o singularidad, retirar TODO/NADA impide M_N2-SV, y retirar la absorción del estado del arte deja sin representación el objeto físico de horizonte. Por tanto, cada componente cumple una función necesaria. La fórmula no suma modelos; clausura defectos. Queda demostrado.
+La proteína exige un retorno distinto del gen. UniProt actúa como recurso de secuencias y función proteica; la página del proteoma humano de referencia [UP000005640](https://www.uniprot.org/proteomes/UP000005640) declara 83 526 entradas en UniProtKB y 20 659 genes para Homo sapiens en la consulta usada. La estructura tridimensional experimental se contrasta con RCSB PDB, cuyo registro de crecimiento muestra 253 780 estructuras liberadas acumuladas en 2026, mientras [AlphaFold DB](https://alphafold.ebi.ac.uk/) proporciona acceso abierto a más de 200 millones de predicciones estructurales. Para el transductor, esas fuentes no son adornos bibliográficos: secuencia, dominio, plegamiento, estructura, interacción y localización son métricas de retorno.
 
-## XVII.4. Pregunta tercera: ¿hay salida de un agujero negro?
+### III.2.4. Escala celular y tisular
 
-**Verdad formal.** No hay egreso local desde el interior del mismo régimen, porque el cierre BH impone:
+La célula introduce una escala donde la simple compatibilidad molecular ya no basta. Las estimaciones actuales del número de células humanas publicadas en PNAS sitúan el orden de magnitud en ≈36 billones de células para un varón adulto, ≈28 billones para una mujer adulta y ≈17 billones para un niño; ese dato no define la vida, pero obliga a reconocer que la medicina estructural opera sobre poblaciones celulares, tejidos, órganos y funciones integradas. La transducción SV↔︎biología debe respetar esa escala: una firma molecular puede orientar el diagnóstico estructural, pero el cierre celular exige membrana, genoma, proteoma, metabolismo, reparación, señalización e interacción tisular. La tabla siguiente mantiene en el cuerpo las magnitudes rectoras que después se reproducen en CSV dentro de los laboratorios:
 
-DΣ(v_TE)=NO_APTO
+| Dominio | Magnitud externa | Valor de trabajo | Fuente |
+| --- | --- | --- | --- |
+| Genoma humano | Genes estimados | 20 000–25 000 | NHGRI |
+| Genoma humano | Pares de cromosomas | 23 | NHGRI |
+| Genoma T2T-CHM13 | Secuencia completa | 3 055 000 000 pares de bases | Nurk et al., 2022 |
+| ADN B | Pares de bases por vuelta | 10,4 | Molecular Biology of the Cell / NCBI Bookshelf |
+| Proteoma humano | Entradas UniProtKB | 83 526 | UniProt UP000005640 |
+| Proteoma humano | Genes asociados | 20 659 | UniProt UP000005640 |
+| Estructuras proteicas | Predicciones AlphaFold DB | más de 200 000 000 | AlphaFold DB |
+| PDB | Estructuras liberadas acumuladas | 253 780 | RCSB PDB |
+| GenBank release 271.0 | Bases | 53 900 000 000 000 | NCBI Insights |
+| GenBank release 271.0 | Registros | 6 270 000 000 | NCBI Insights |
+| Cuerpo humano adulto | Células, varón adulto | ≈36 000 000 000 000 | Hatton et al., 2023 |
+| Cuerpo humano adulto | Células, mujer adulta | ≈28 000 000 000 000 | Hatton et al., 2023 |
 
-DΣ(v_L)=NO_APTO.
+## III.3. Transducción SV↔︎biología
 
-La consecuencia formal no es “no se sabe”. Tampoco es “sale por otro lugar”. El contenido inscrito queda sometido al régimen de clausura factual. Si una instancia X capturada por Γᴮᴴ alcanza cierre terminal, se añade un suceso terminal X† y se cumple:
+### III.3.1. Definición del transductor
 
-X → X†
+La transducción SV↔︎biología se formula como un puente de ida y vuelta entre una estructura biológica real y una lectura estructural SV. La estructura biológica puede ser una molécula, un gen, una proteína, una célula, un tejido, un órgano o un organismo; la lectura SV no la reemplaza, sino que exige que declare dominio, magnitudes, frontera, identidad, residual y retorno. Esta es la diferencia entre transducción y retórica: si no hay métrica externa, no hay biología; si no hay residual, no hay cierre; si no hay retorno, no hay traducción útil. <a id="formula-bio-02"></a>
 
-Retorno_Todo(X†)=APTO.
+BIO-02. 𝔛<sub>bio</sub>(B↔SV) = (Ω<sub>B</sub>, M<sub>B</sub>, F<sub>B</sub>, I<sub>B</sub>, Δ<sub>B</sub>, R<sub>B</sub>). En [BIO-02](#formula-bio-02), Ω<sub>B</sub> es el dominio biológico, M<sub>B</sub> el conjunto de magnitudes externas, F<sub>B</sub> la frontera, I<sub>B</sub> la identidad funcional, Δ<sub>B</sub> el residual y R<sub>B</sub> el retorno biológico. Para un gen, M<sub>B</sub> incluye secuencia, variante, expresión y efecto proteico; para una proteína, secuencia, dominios, plegamiento, modificaciones e interacción; para una célula, membrana, genoma, proteoma, metabolismo, reparación y señalización; para un órgano, tejido, matriz, perfusión, inervación, función e integración sistémica.
 
-**No verdad.** No es correcto decir que X escape localmente, que viaje por un túnel, que reaparezca como copia, que quede en U, que sea reescrita o que desaparezca sin traza.
+### III.3.2. Fórmulas centrales
 
-**Conclusión.** El enunciado preciso es:
+La primera fórmula de cierre biológico declara que no hay lectura SV sin retorno externo y sin residual. La fórmula usa letras biológicas, no nombres internos, porque el objeto que se evalúa es real: una secuencia, una proteína, una célula o un tejido. <a id="formula-bio-03"></a>
 
-Egreso_local(X,Γᴮᴴ)=NO_APTO.
+BIO-03. Cierre<sub>bio</sub>(B)=1 ⇔ Ω<sub>B</sub> está declarado, M<sub>B</sub> es verificable, F<sub>B</sub> conserva frontera, I<sub>B</sub> conserva identidad, Δ<sub>B</sub>=0 y R<sub>B</sub> es admisible. La segunda fórmula conserva el transductor metrológico de la publicación de edades. Sólo se usa cuando la magnitud biológica externa se expresa como duración física observable o fracción equivalente; no funda la vida ni decide la función por sí sola. <a id="formula-bio-04"></a>
 
-Si X alcanza cierre terminal bajo el régimen:
+BIO-04. A<sub>bio</sub><sup>SV</sup> = 284 018 400 · A<sub>bio</sub><sup>FC</sup>.
 
-Retorno_Todo(X†)=APTO.
+### III.3.3. Criterios de retorno
 
-La palabra “salida” no debe entenderse como movimiento exterior local. El resultado absoluto es clausura factual y retorno de la traza al Todo.
+El retorno biológico tiene tres formas primarias: retorno molecular, cuando la estructura se confirma por secuencia, enlace, conformación o estructura; retorno celular, cuando la célula conserva frontera, identidad, metabolismo, reparación e interacción; y retorno fisiológico, cuando tejido u órgano devuelven función integrada. El transductor no cierra por densidad de datos ni por número de muestras: una cohorte puede reforzar un contraste, pero la condición SV exige residual. La estadística puede entrar como evidencia externa de población, nunca como sustituto de dominio, frontera o identidad.
 
-## XVII.5. Pregunta cuarta: ¿cuál es el canal?
+## III.4. Formación biológica: molécula, gen, proteína y célula
 
-**Verdad formal.** No hay canal local de salida. No hay boca, garganta, grieta, conducción métrica ni comunicación causal hacia el exterior ordinario. Lo que existe es una cadena de clausura:
+### III.4.1. Molécula como grafo estructural
 
-DΣ(v_TE)=NO_APTO
+Una molécula biológica se representa como grafo estructural, no como cadena textual simple. El grafo contiene nodos, relaciones, geometría, carga, entorno y función; por tanto, D(A,B) se aplica a relaciones relevantes, no a una lista indiferenciada. La firma molecular es el conjunto organizado de compatibilidades, tensiones y fronteras que sostienen la molécula. <a id="formula-bio-05"></a>
 
-DΣ(v_L)=NO_APTO
+BIO-05. 𝓢<sub>mol</sub>(M) = {D(A<sub>i</sub>,A<sub>j</sub>), ΔEN<sub>SV</sub>(A<sub>i</sub>,A<sub>j</sub>), ρ<sub>SV</sub>(A<sub>i</sub>,A<sub>j</sub>), IP<sub>suma</sub>(A<sub>i</sub>,A<sub>j</sub>) : (i,j)∈E<sub>M</sub>}. Una molécula biológica admisible no tiene por qué carecer de tensión; de hecho, gran parte de la actividad molecular procede de tensiones compatibles. Lo inadmisible es que el enlace esencial de identidad devuelva ∅ activo o que la geometría destruya la frontera funcional. La fórmula de admisibilidad molecular queda integrada en la lectura: Adm<sub>mol</sub>(M)=1 cuando Δ<sub>mol</sub>=0 y ningún enlace esencial devuelve ∅ activo.
 
-Postᴮᴴ=M_N2-SV
+### III.4.2. Gen y desplazamiento genético
 
-X → X†
+Un gen se evalúa como unidad de secuencia, frontera, expresión, regulación, variante y retorno funcional. La variante genética no se identifica automáticamente con enfermedad: puede ser neutra, silenciosa, regulatoria, funcional, patogénica o de significado no cerrado según su efecto sobre proteína, expresión, frontera o interacción. La lectura SV evita dos errores: reducir la genética a texto de bases y convertir cualquier diferencia en patología. <a id="formula-bio-06"></a>
 
-Retorno_Todo(X†)=APTO.
+BIO-06. Δ<sub>gen</sub>(g,g*) = Δ<sub>seq</sub> ⊕ Δ<sub>expr</sub> ⊕ Δ<sub>prot</sub> ⊕ Δ<sub>reg</sub> ⊕ Δ<sub>ret</sub>. En [BIO-06](#formula-bio-06), g es el estado evaluado y g* el estado funcional de referencia. Δ<sub>seq</sub> no decide por sí solo: el cierre depende de expresión, proteína, regulación y retorno. Una variante que no altera proteína ni regulación puede conservar residual nulo; una variante pequeña que rompe plegamiento, interfaz o expresión puede activar residual patológico.
 
-**No verdad.** No es correcto llamar canal a una trayectoria espacial, a un agujero de gusano, a un tránsito geométrico entre regiones o a una copia exterior del contenido. Tampoco es correcto sustituir el cierre por U.
+### III.4.3. Proteína, plegamiento e interfaz
 
-**Definición XVII.1. Clausura factual postfrontera.**
+La proteína es el primer nivel donde la lectura de secuencia puede fracasar si no se considera estructura. Una proteína con secuencia aparentemente admisible puede perder función por plegamiento, agregación, modificación, localización o interacción defectuosa; una proteína con cambio de secuencia puede conservar función si su estructura y su interfaz permanecen dentro del dominio admisible. La fórmula de proteína integra esos planos: P=(Seq, Dom, Fold, PTM, Int, Loc, Δ<sub>P</sub>, R<sub>P</sub>). Su cierre exige secuencia admisible, plegamiento compatible, interfaz funcional, localización correcta y residual proteico nulo. <a id="formula-bio-07"></a>
 
-Se denomina clausura factual postfrontera del contenido X a la cadena:
+BIO-07. Adm<sub>prot</sub>(P)=1 ⇔ Seq, Fold, Int, Loc y R<sub>P</sub> son admisibles, con Δ<sub>P</sub>=0.
 
-C_clausuraˣ := [BHₛᵥ(Γᴮᴴ)=0] ; [X⊂Γᴮᴴ] ; [Egreso_local(X,Γᴮᴴ)=NO_APTO] ; [X→X†] ; [Retorno_Todo(X†)=APTO].
+### III.4.4. Célula viva
 
-Su resultado formal no es un punto espacial de salida, sino la clausura append-only del suceso y el retorno de su traza factual al Todo.
+La célula viva introduce frontera, intercambio e identidad. Una célula no es una bolsa de moléculas ni una tabla de expresión génica; es una unidad que conserva membrana, información, metabolismo, reparación, señalización e interacción. En la lectura estructural, C<sub>viva</sub>=(Mem, Gen, Prot, Met, Rep, Sig, Int, Δ<sub>cell</sub>, R<sub>cell</sub>), y su cierre exige que la membrana sea frontera funcional, el genoma conserve identidad, el proteoma sostenga función, el metabolismo sea compatible, la reparación opere, la señalización no colapse y la interacción con el entorno sea coherente. <a id="formula-bio-08"></a>
 
-## XVII.5bis. Puente formal entre M_N2-SV, Origen Áureo y retorno al Todo
+BIO-08. Viva(C)=1 ⇔ Mem=1, Gen=1, Prot=1, Met=1, Rep=1, Int=1 y Δ<sub>cell</sub>=0.
 
-En el alcance de esta publicación, M_N2-SV nombra la instancia BH del cierre interno sin resto exterior formulable producido por μ=0, λ=0 y 𝓝★ₛᵥ=0. La Teoría del TODO y de la NADA reconoce el Origen Áureo 𝓔_∅ como rango mínimo sin contenido y reconoce el Todo como sede que no puede excluir lo que ha sido formalmente realizado. Por tanto, la postfrontera cerrada no puede interpretarse como desaparición sin traza.
+## III.5. Enfermedad, deterioro y regenerabilidad append-only
 
-La relación operatoria relevante se formula así:
+### III.5.1. Patología como desplazamiento estructural
 
-Postᴮᴴ=M_N2-SV
+La enfermedad se formula como desplazamiento estructural respecto de un estado funcional de referencia, no como simple diferencia numérica. Un tejido puede cambiar sin enfermar; una célula puede variar sin perder función; una proteína puede modificarse sin dejar de operar. La patología aparece cuando el desplazamiento afecta frontera, identidad, reparación, interacción o retorno funcional. <a id="formula-bio-09"></a>
 
-M_N2-SV ≠ U
+BIO-09. Pat(B)=1 ⇔ Δ<sub>bio</sub>(B,B*)>0 y el desplazamiento afecta frontera, identidad, reparación, interacción o retorno funcional.
 
-M_N2-SV ≠ vacío sustancial
+### III.5.2. Fórmula de regenerabilidad
 
-X → X†
+Regenerar no es volver atrás. Regenerar es reorganizar estructura hacia función sin borrar la historia del sistema. La fórmula de regenerabilidad exige una trayectoria [append-only](#sec-definicion-append-only) Γ<sup>+</sup><sub>SV</sub>, un estado funcional de referencia B*, conservación de identidad, residual nulo y retorno biológico admisible. <a id="formula-bio-10"></a>
 
-Retorno_Todo(X†)=APTO.
+BIO-10.
 
-**Definición XVII.1bis. Puente de clausura postfrontera.** Sea X un contenido factual clausurado en Γᴮᴴ. Se denomina puente de clausura postfrontera a la relación:
+> 𝓡<sub>bio</sub>(B→B*)=1 ⇔ ∃Γ<sup>+</sup><sub>SV</sub> tal que B<sub>n</sub>=Γ<sup>+</sup><sub>SV</sub>(B), Δ<sub>bio</sub>(B<sub>n</sub>,B*)=0, I<sub>B</sub> se conserva y R<sub>bio</sub>(B<sub>n</sub>) es admisible.
 
-Pᴮᴴ→Todoˣ := [Postᴮᴴ=M_N2-SV] y [M_N2-SV≠U] y [X→X†] y [Retorno_Todo(X†)=APTO].
+### III.5.3. Teorema de regenerabilidad estructural
 
-Este puente no introduce una fuente nueva, no abre un canal local, no añade geometría heredada y no convierte el cierre en probabilidad. Sólo ordena, en una cadena formal, condiciones exigidas por el cierre TODO/NADA y por el principio append-only del suceso.
+Una estructura biológica B es regenerable respecto de B* si y sólo si existe una trayectoria append-only que preserve identidad de dominio, restaure frontera funcional, conserve invariantes esenciales y anule Δ<sub>bio</sub>(B<sub>n</sub>,B*). La necesidad se sigue de la definición: sin identidad hay sustitución, sin frontera no hay unidad biológica, sin invariantes no hay continuidad y sin residual nulo no hay recuperación funcional. La suficiencia se sigue porque esas condiciones sitúan B<sub>n</sub> en el mismo dominio funcional que B*, con retorno admisible. c.q.d.
 
-**Teorema XVII.1bis. Puente necesario de clausura.** Si Γᴮᴴ satisface BHₛᵥ(Γᴮᴴ)=0, Postᴮᴴ=M_N2-SV y X pertenece al contenido factual clausurado del régimen, entonces toda resolución SV de X que no sea egreso local, copia, reescritura, U o desaparición sin traza debe pasar por Pᴮᴴ→Todoˣ.
+### III.5.4. Teorema de no inversión temporal
 
-**Demostración.** BHₛᵥ(Γᴮᴴ)=0 impone DΣ(v_TE)=NO_APTO y DΣ(v_L)=NO_APTO; por tanto, la resolución no puede ser egreso local. Postᴮᴴ=M_N2-SV excluye U como dictamen postfrontera. La copia duplica sin clausurar; la reescritura viola append-only; la desaparición sin traza contradice el Todo. Descartadas esas salidas, queda la clausura terminal X† con Retorno_Todo(X†)=APTO. c.q.d.
+Toda regenerabilidad biológica admisible en el SV es reorganización estructural, no inversión temporal. Si regenerar exigiera volver al pasado, habría que borrar sucesos estructurales ya incorporados; eso violaría la disciplina append-only y convertiría el tiempo en fundamento de la operación. La estructura alcanzada puede ser funcionalmente equivalente al estado de referencia, pero no idéntica por eliminación de historia. c.q.d.
 
-## XVII.6. Pregunta quinta: ¿cómo se forma la clausura?
+## III.6. Tejido, órgano y organismo
 
-La clausura se forma por cinco cierres encadenados.
+### III.6.1. Tejido como arquitectura celular
 
-Primero, el régimen BH alcanza saturación interior:
+Un tejido no es una multitud de células. Es una arquitectura de células, matriz extracelular, señales, frontera regional, polaridad y función. El cierre tisular exige que las células sean compatibles entre sí, que la matriz sostenga organización, que la comunicación preserve identidad y que el retorno funcional sea reconocible. En un epitelio, en músculo, en tejido nervioso o en tejido conectivo, el residual no se lee con el mismo patrón: cada tejido declara su función.
 
-DΣ(v_INT)=SATURACIÓN.
+### III.6.2. Órgano como integración funcional
 
-Segundo, queda bloqueado el egreso local:
+El órgano incorpora tejido, matriz, perfusión, inervación cuando proceda, gradientes, frontera, función e integración sistémica. No cierra como órgano una masa celular sin arquitectura, un tejido sin perfusión suficiente o una estructura sin retorno fisiológico. La fórmula de generación orgánica exige cierre de célula, tejido, matriz, vascularización, función e integración sistémica. <a id="formula-bio-11"></a>
 
-DΣ(v_TE)=NO_APTO
+BIO-11. Gen<sub>org</sub>(Org)=1 ⇔ Adm<sub>cell</sub>=1, Adm<sub>tis</sub>=1, ECM=1, Vas=1, Func=1, IntSys=1 y Δ<sub>org</sub>=0.
 
-DΣ(v_L)=NO_APTO.
+### III.6.3. Invariantes biomédicos
 
-Tercero, la postfrontera se clausura:
+La colección queda gobernada por invariantes que preservan rigor sin apartarse de la biología real: toda estructura declara dominio, toda frontera biológica se explicita, toda métrica externa conserva su fuente, toda variante se evalúa por retorno funcional, toda regenerabilidad conserva identidad o declara sustitución, toda reparación es append-only, toda afirmación clínica exige contraste biomédico, toda falta de datos suficientes conserva U, toda estadística externa queda subordinada a dominio y residual, y toda célula viva exige frontera funcional.
 
-μ=0
+### III.6.4. Glosario operativo biomolecular
 
-λ=0
+El par estructural es la relación mínima evaluada entre dos perfiles materiales por D(A,B). La firma molecular es el conjunto organizado de compatibilidades y tensiones que sostiene una molécula. La frontera es el límite funcional que permite identidad, intercambio y selección; en célula, su expresión primaria es la membrana. La identidad biológica es la continuidad funcional que permite reconocer una molécula, célula, tejido u órgano como el mismo dominio evaluado tras un cambio. El residual biológico es la diferencia estructural que queda entre el estado evaluado y el estado funcional de referencia. El retorno biológico es la magnitud externa que permite contrastar la lectura: secuencia, estructura, expresión, función, célula, tejido u órgano. La regenerabilidad [append-only](#sec-definicion-append-only) es reorganización estructural hacia función sin borrado de historia. La sustitución no es regeneración: aparece cuando la identidad de dominio no se conserva. U conserva la no clausura honesta cuando falta información molecular, celular, tisular o clínica suficiente.
 
-𝓝★ₛᵥ=0
+## III.7. Laboratorios reproducibles
 
-Postᴮᴴ=M_N2-SV.
+### III.7.1. Estatuto de los laboratorios
 
-Cuarto, el contenido X capturado pierde salida exterior local y, si alcanza cierre terminal, añade X† a su cadena append-only:
+Los laboratorios de este anexo son laboratorios de consistencia documental y transductiva: verifican que el transductor biomolecular conserva sus métricas externas, que las fórmulas centrales están presentes, que la constante de edad biológica observable coincide con 284 018 400 UE<sub>MFC</sub>/a<sub>J</sub>, que los falsadores iniciales están declarados y que no hay pase silencioso. No son laboratorios biomédicos experimentales ni validan terapias; preparan el suelo ejecutable de la colección.
 
-Xₙ → X†.
+### III.7.2. Archivos incluidos
 
-Quinto, la traza factual clausurada retorna al Todo:
+| Archivo | Función |
+| --- | --- |
+| [`laboratorios/biologia_molecular_medicina/datos/metricas_biologicas_externas.csv`](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/biologia_molecular_medicina/datos/metricas_biologicas_externas.csv) | Declara las magnitudes externas usadas por el transductor. |
+| [`laboratorios/biologia_molecular_medicina/datos/formulas_centrales.csv`](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/biologia_molecular_medicina/datos/formulas_centrales.csv) | Lista fórmulas centrales BIO-01 a BIO-11. |
+| [`laboratorios/biologia_molecular_medicina/datos/controles_negativos.csv`](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/biologia_molecular_medicina/datos/controles_negativos.csv) | Declara falsadores y controles de no cierre. |
+| [`laboratorios/biologia_molecular_medicina/runner.py`](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/biologia_molecular_medicina/runner.py) | Verifica métricas, fórmulas, constante transductiva, controles y ausencia de pase silencioso. |
+| [`laboratorios/biologia_molecular_medicina/resultados/salida_esperada.txt`](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/biologia_molecular_medicina/resultados/salida_esperada.txt) | Salida esperada del laboratorio. |
+| [`laboratorios/biologia_molecular_medicina/resultados/salida_obtenida.txt`](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/biologia_molecular_medicina/resultados/salida_obtenida.txt) | Salida obtenida al ejecutar el laboratorio. |
 
-Retorno_Todo(X†)=APTO.
+### III.7.3. Controles y salidas
 
-**Teorema XVII.2. Formación necesaria de la clausura factual.**
+La salida apta exige métricas externas presentes, al menos once fórmulas centrales, controles negativos completos, constante 284 018 400 verificada y cero pases silenciosos. La salida material esperada es `overall_status: APTO`. Si falta una métrica, una fórmula o un control negativo, el laboratorio devuelve no apto con código específico.
 
-Si Γᴮᴴ satisface BHₛᵥ(Γᴮᴴ)=0 y X pertenece al contenido factual clausurado de Γᴮᴴ, entonces la resolución formal de X no puede ser egreso local, U, túnel geométrico, copia, reescritura ni desaparición sin traza. Si X alcanza cierre terminal, debe formularse como clausura factual X† y retorno al Todo.
+# XIII. Laboratorios reproducibles
 
-**Demostración.** El egreso local contradice DΣ(v_TE)=NO_APTO. U contradice el cierre M_N2-SV. El túnel geométrico introduce una estructura métrica externa como fundamento. La copia no cierra la instancia original. La reescritura viola append-only. La desaparición sin traza niega el Todo. La única vía compatible con todas las condiciones es X→X† y Retorno_Todo(X†)=APTO. c.q.d.
+## XIII.1. Estatuto de los laboratorios
 
-## XVII.7. Pregunta sexta: ¿qué ocurre con un grupo de científicos que cae en un agujero negro?
+Los laboratorios reproducibles confirman la Teoría de la edad de todos los objetos del Universo Observable. No buscan valores nuevos, no corrigen la teoría desde fuera y no sustituyen el registro declarativo. Su función consiste en ejecutar, con aritmética exacta, las tablas, fórmulas, transductores, residuales, controles negativos y retornos inversos ya establecidos.
 
-Sea Gᴮᴴ un grupo científico contenido en Γᴮᴴ:
+La regla rectora es: el laboratorio confirma o refuta lo declarado; no genera doctrina nueva. La teoría ya fija la fórmula canónica:
 
-Gᴮᴴ ⊂ Γᴮᴴ
+E<sub>age</sub>(O<sub>i</sub>) ( A<sub>i</sub>, F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>, A<sub>i</sub>/F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>, 284 018 400A<sub>i</sub>, 284 018 400F<sub>i</sub>, 284 018 400(F<sub>i</sub>-A<sub>i</sub>), Δ<sub>i</sub> ).
 
-BHₛᵥ(Γᴮᴴ)=0.
+El laboratorio confirma que, para cada objeto físico admisible: O<sub>i</sub>⊂Ω<sub>obs</sub>, se cumple: A<sub>i</sub><sup>SV</sup>=284 018 400A<sub>i</sub><sup>FC</sup>, F<sub>i</sub><sup>SV</sup>=284 018 400F<sub>i</sub><sup>FC</sup>, R<sub>i</sub><sup>SV</sup>=284 018 400(F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>), f<sub>i</sub>+ρ<sub>i</sub>=1, Δ<sub>i</sub>=0. También confirma que los casos negativos activan salida no admisible o (U), según corresponda.
 
-Entonces:
+## XIII.2. Principio de aritmética entera
 
-Egreso_local(Gᴮᴴ,Γᴮᴴ)=NO_APTO.
+Todo laboratorio se ejecutará con aritmética entera. No se admite coma flotante, redondeo, tolerancia silenciosa ni aproximación numérica.
 
-La consecuencia física local se formula sin ambigüedad: en el dominio exterior ordinario, la estructura biológica, instrumental y neurocognitiva de Gᴮᴴ no conserva salida operativa, restitución corporal local ni continuidad biográfica accesible desde el mismo dominio. Si por muerte física se entiende pérdida irreversible de la organización corporal local y de la continuidad biográfica exteriormente accesible, el régimen BH cerrado no la niega: la contiene como imposibilidad de egreso local.
+Quedan prohibidos: float, round, tolerancia no declarada, comparación aproximada, salida no tabulada. Toda conversión usa: 1,a<sub>J</sub>=31 557 600,s, 1,s=9,UE<sub>MFC</sub>, 1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>. La constante transductiva queda fijada como: K<sub>age</sub>=284 018 400. Así: A<sub>i</sub><sup>SV</sup>=K<sub>age</sub>A<sub>i</sub><sup>FC</sup>. El retorno inverso exige: A<sub>i</sub><sup>FC</sup>=A<sub>i</sub><sup>SV</sup>K<sub>age</sub>, con resto nulo: A<sub>i</sub><sup>SV</sup> K<sub>age</sub>=0. Si aparece resto: Δ<sub>ret</sub>=1.
 
-Esa conclusión no equivale a Nada absoluta, U postfrontera ni desaparición sin traza. Gᴮᴴ es una instancia factual realizada. Por tanto, si alcanza cierre terminal bajo el régimen BH, existe un suceso terminal G† tal que:
+## XIII.3. Organización funcional de los laboratorios
 
-Gᴮᴴ → G†
+Los laboratorios se organizan como una carpeta de verificación reproducible. Los CSV conservan los registros declarativos; el runner ejecuta las comprobaciones; las salidas TXT documentan la lectura humana del resultado; la carpeta de datos añade copias JSON estructuradas para auditoría automática y contraste posterior. Esta organización evita que el lector tenga que reconstruir la jerarquía desde un árbol de carpetas y permite localizar cada archivo por su función.
 
-Retorno_Todo(G†)=APTO.
+| Grupo funcional | Archivos | Función científica |
+| --- | --- | --- |
+| Orientación | [README.md](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/README.md) | Explica la ejecución del laboratorio y la relación entre registros, datos JSON y salidas. |
+| Registros declarativos | [manifest_unidades.csv](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/manifest_unidades.csv), [banco_objetos.csv](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/banco_objetos.csv), [banco_valores.csv](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/banco_valores.csv), [banco_diferencias.csv](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/banco_diferencias.csv), [banco_fracciones.csv](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/banco_fracciones.csv), [banco_negativos.csv](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/banco_negativos.csv), [catalogo_errores.csv](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/catalogo_errores.csv) | Declaran unidades, objetos, valores, diferencias, fracciones, controles negativos y catálogo de errores. |
+| Datos JSON | [datos/](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/datos) | Conserva versiones JSON de los registros y resultados para lectura automática, comparación e integración posterior. |
+| Ejecución | [runner.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/runner.py) | Ejecuta pruebas con aritmética exacta, sin coma flotante, sin redondeo y sin pase silencioso. |
+| Resultados | [salida_esperada.txt](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/salida_esperada.txt), [salida_obtenida.txt](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/salida_obtenida.txt), [datos/resultado_laboratorio_edades.json](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/datos/resultado_laboratorio_edades.json), [datos/resultados_laboratorios.json](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/datos/resultados_laboratorios.json) | Documentan la salida esperada, la salida obtenida y la síntesis JSON de los laboratorios principal y biomolecular. |
 
-Además:
+La regla de cierre es estricta: ningún valor ejecutado puede sustituir al registro declarativo que lo autoriza. Si aparece una salida no tabulada, el laboratorio emite E-LAB-01.
 
-G† ≠ U
+## XIII.4. Manifiesto de unidades
 
-G† ≠ copia(Gᴮᴴ)
+| Campo | Valor |
+| --- | --- |
+| julian<sub>yearseconds</sub> | 31.557.600 |
+| uemfc<sub>persecond</sub> | 9 |
+| uemfc<sub>perjulianyear</sub> | 284.018.400 |
+| time<sub>unitfc</sub> | año juliano |
+| time<sub>unitsi</sub> | segundo |
+| time<sub>unitsv</sub> | (UE<sub>MFC</sub>) |
+| rounding<sub>allowed</sub> | no |
+| float<sub>allowed</sub> | no |
+| silent<sub>passallowed</sub> | no |
+| untabulated<sub>outputallowed</sub> | no |
 
-G† ≠ reescritura(Gᴮᴴ)
+Comprobación obligatoria: 31 557 600 × 9 = 284 018 400. Si no se reproduce esta igualdad, ningún cálculo posterior es válido.
 
-G† ≠ desaparición sin traza.
+## XIII.5. Registro principal de objetos
 
-**Conclusión.** Los científicos no salen al exterior local. No reaparecen como copia material ordinaria. No se afirma continuidad corporal, psicológica o biográfica local tras el horizonte. Tampoco quedan en U ni en Nada absoluta. Como instancia factual clausurada, Gᴮᴴ retorna al Todo como traza factual completa. Cualquier nueva apertura ulterior sólo puede añadirse como nuevo suceso, nunca como reescritura del suceso clausurado.
+| object<sub>id</sub> | Objeto o dominio | Dominio | Edad actual (a<sub>J</sub>) | Fin estructural (a<sub>J</sub>) | Lectura formal |
+| --- | --- | --- | --- | --- | --- |
+| SUN | Sol | (Ω_☉⊂Ω<sub>obs</sub>) | 4.570.000.000 | 10.000.000.000 | 0 |
+| SOLAR<sub>SYSTEM</sub> | Sistema Solar | (Ω<sub>SS</sub>⊂Ω<sub>obs</sub>) | 4.568.000.000 | 10.000.000.000 | 0 |
+| MILKY<sub>WAYENV</sub> | Vía Láctea-entorno | (Ω<sub>VL</sub>⊂Ω<sub>obs</sub>) | 13.600.000.000 | 27.200.000.000 | 0 |
+| OBSERVABLE<sub>RETURNED</sub> | Observable retornado | (Ω<sub>obs</sub>) | 13.800.000.000 | 27.600.000.000 | 0 |
+| ABSOLUTE<sub>TOTALITY</sub> | Totalidad absoluta | ( T) | no aplicable | no aplicable | NO ADMISIBLE |
 
-## XVII.8. Teorema de clausura factual del grupo científico
+El laboratorio no calcula edades de ( T). Cualquier intento de asignar edad a la totalidad absoluta debe producir: E-PLANO-01.
 
-Teorema XVII.3. Clausura factual del grupo científico inscrito en el régimen BH.
+## XIII.6. Valores esperados
 
-Sea Gᴮᴴ un grupo científico inscrito en un régimen Γᴮᴴ cerrado. Si:
+| object<sub>id</sub> | Actual (a<sub>J</sub>) | Actual (UE<sub>MFC</sub>) | Fin (a<sub>J</sub>) | Fin (UE<sub>MFC</sub>) | Restante (a<sub>J</sub>) | Restante (UE<sub>MFC</sub>) | Fracción actual | Fracción restante |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| SUN | 4.570.000.000 | 1.297.964.088.000.000.000 | 10.000.000.000 | 2.840.184.000.000.000.000 | 5.430.000.000 | 1.542.219.912.000.000.000 | (457/1000) | (543/1000) |
+| SOLAR<sub>SYSTEM</sub> | 4.568.000.000 | 1.297.396.051.200.000.000 | 10.000.000.000 | 2.840.184.000.000.000.000 | 5.432.000.000 | 1.542.787.948.800.000.000 | (571/1250) | (679/1250) |
+| MILKY<sub>WAYENV</sub> | 13.600.000.000 | 3.862.650.240.000.000.000 | 27.200.000.000 | 7.725.300.480.000.000.000 | 13.600.000.000 | 3.862.650.240.000.000.000 | (1/2) | (1/2) |
+| OBSERVABLE<sub>RETURNED</sub> | 13.800.000.000 | 3.919.453.920.000.000.000 | 27.600.000.000 | 7.838.907.840.000.000.000 | 13.800.000.000 | 3.919.453.920.000.000.000 | (1/2) | (1/2) |
 
-Gᴮᴴ ⊂ Γᴮᴴ
+Cada fila debe satisfacer simultáneamente: A<sub>i</sub><sup>SV</sup>=K<sub>age</sub>A<sub>i</sub><sup>FC</sup>, F<sub>i</sub><sup>SV</sup>=K<sub>age</sub>F<sub>i</sub><sup>FC</sup>, R<sub>i</sub><sup>FC</sup>=F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>, R<sub>i</sub><sup>SV</sup>=F<sub>i</sub><sup>SV</sup>-A<sub>i</sub><sup>SV</sup>, f<sub>i</sub>=A<sub>i</sub><sup>FC</sup>F<sub>i</sub><sup>FC</sup>, ρ<sub>i</sub>=1-f<sub>i</sub>.
 
-BHₛᵥ(Γᴮᴴ)=0
+## XIII.7. Diferencias singulares
 
-Postᴮᴴ=M_N2-SV
+| difference<sub>id</sub> | Operación | Resultado (a<sub>J</sub>) | Resultado (UE<sub>MFC</sub>) | Lectura formal |
+| --- | --- | --- | --- | --- |
+| DIF<sub>01</sub> | Observable retornado − Vía Láctea-entorno | 200.000.000 | 56.803.680.000.000.000 | 0 |
+| DIF<sub>02</sub> | Vía Láctea-entorno − Sol | 9.030.000.000 | 2.564.686.152.000.000.000 | 0 |
+| DIF<sub>03</sub> | Observable retornado − Sol | 9.230.000.000 | 2.621.489.832.000.000.000 | 0 |
+| DIF<sub>04</sub> | Sol − Sistema Solar | 2.000.000 | 568.036.800.000.000 | 0 |
+| DIF<sub>05</sub> | Restante Sistema Solar − restante Sol | 2.000.000 | 568.036.800.000.000 | 0 |
+| DIF<sub>06</sub> | Fin observable − fin Vía Láctea-entorno | 400.000.000 | 113.607.360.000.000.000 | 0 |
+| DIF<sub>07</sub> | Fin solar − fin Sistema Solar | 0 | 0 | 0 |
 
-μ=0
+La prueba diferencial exige: D<sub>ij</sub><sup>SV</sup>=K<sub>age</sub>D<sub>ij</sub><sup>FC</sup>. Y retorno: D<sub>ij</sub><sup>SV</sup>K<sub>age</sub>=D<sub>ij</sub><sup>FC</sup>.
 
-λ=0
+## XIII.8. Fracciones de ciclo
 
-𝓝★ₛᵥ=0,
+| fraction<sub>id</sub> | Dominio | (A<sub>i</sub>) | (F<sub>i</sub>) | Fracción actual | Fracción restante | Suma | Lectura formal |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| FR<sub>SUN</sub> | Sol | 4.570.000.000 | 10.000.000.000 | (457/1000) | (543/1000) | 1 | 0 |
+| FR<sub>SOLARSYSTEM</sub> | Sistema Solar | 4.568.000.000 | 10.000.000.000 | (571/1250) | (679/1250) | 1 | 0 |
+| FR<sub>MILKYWAYENV</sub> | Vía Láctea-entorno | 13.600.000.000 | 27.200.000.000 | (1/2) | (1/2) | 1 | 0 |
+| FR<sub>OBSERVABLERETURNED</sub> | Observable retornado | 13.800.000.000 | 27.600.000.000 | (1/2) | (1/2) | 1 | 0 |
 
-entonces no existe egreso local de Gᴮᴴ. Si Gᴮᴴ alcanza cierre terminal bajo el régimen, existe G† y se cumple:
+La prueba racional debe reducir cada fracción a términos irreducibles.
 
-Gᴮᴴ → G†
+Ejemplo solar: 4 570 000 000/10 000 000 000 457/1000. Ejemplo del Sistema Solar:
 
-Retorno_Todo(G†)=APTO.
+4 568 000 000/10 000 000 000 571/1250.
 
-Además, G† no es U, no es copia de Gᴮᴴ, no reescribe Gᴮᴴ y no desaparece sin traza.
+## XIII.9. Controles negativos de la teoría
 
-**Demostración.** Primero, BHₛᵥ(Γᴮᴴ)=0 implica DΣ(v_TE)=NO_APTO. Si Gᴮᴴ egresara localmente, la transmisión exterior tendría que ser apta. Eso exigiría DΣ(v_TE)=APTO, contradicción con la unicidad del dictamen celular.
+| negative<sub>id</sub> | Entrada adversarial | Error esperado | Salida esperada |
+| --- | --- | --- | --- |
+| TNEG<sub>01</sub> | (Edad( T)=13.800.000.000,a<sub>J</sub>) | edad atribuida a totalidad absoluta | NO ADMISIBLE |
+| TNEG<sub>02</sub> | (A_☉=13.800.000.000,a<sub>J</sub>) | edad solar sustituida por observable retornado | NO ADMISIBLE |
+| TNEG<sub>03</sub> | (A<sub>SS</sub>=4.570.000.000,a<sub>J</sub>) | Sistema Solar confundido con Sol | NO ADMISIBLE |
+| TNEG<sub>04</sub> | (A<sub>VL</sub>=A_Ω<sub>obs</sub>) | Vía Láctea-entorno confundida con observable retornado | NO ADMISIBLE |
+| TNEG<sub>05</sub> | (A<sub>i</sub><sup>SV</sup>=284.018.399A<sub>i</sub>) | coeficiente transductivo falso | NO ADMISIBLE |
+| TNEG<sub>06</sub> | (A<sub>i</sub><sup>SV</sup>=284.018.401A<sub>i</sub>) | coeficiente transductivo falso | NO ADMISIBLE |
+| TNEG<sub>07</sub> | (R<sub>i</sub>≠ F<sub>i</sub>-A<sub>i</sub>) | resta falsa | NO ADMISIBLE |
+| TNEG<sub>08</sub> | (f<sub>i</sub>+ρ<sub>i</sub>≠1) | fracción falsa | NO ADMISIBLE |
+| TNEG<sub>09</sub> | (F<sub>i</sub><A<sub>i</sub>) | fin anterior a edad actual | NO ADMISIBLE |
+| TNEG<sub>10</sub> | edad sin dominio | dominio ausente | (U) |
+| TNEG<sub>11</sub> | edad sin fin estructural | restante no calculable | (U) |
+| TNEG<sub>12</sub> | edad sin unidad SV | transducción incompleta | (U) |
+| TNEG<sub>13</sub> | edad sin retorno inverso | residual de retorno | NO ADMISIBLE |
+| TNEG<sub>14</sub> | segunda fórmula con mismo retorno y distinto coeficiente | contradicción de unicidad | NO ADMISIBLE |
+| TNEG<sub>15</sub> | salida no tabulada | salida no autorizada | NO ADMISIBLE |
 
-Segundo, Postᴮᴴ=M_N2-SV no es U ni vacío. Es cierre interno sin resto exterior formulable. Si Gᴮᴴ se declarase simplemente perdido, el cierre se leería como Nada sustancial o desaparición sin traza; si quedara en U, no habría cierre; si reapareciera como copia, habría duplicación no derivada del contenido clausurado; si se reescribiera, se violaría append-only. Todas esas salidas contradicen la Teoría del TODO y de la NADA.
+Un laboratorio sin control negativo no es apto.
 
-Tercero, Gᴮᴴ es una instancia factual realizada. Por el Teorema 0ter.1, toda instancia factual realizada que alcanza cierre final por agotamiento interno o agente externo queda clausurada como traza factual completa y retorna al Todo. Por tanto, si Gᴮᴴ alcanza cierre terminal bajo Γᴮᴴ, existe G† y Retorno_Todo(G†)=APTO.
+## XIII.10. Catálogo de errores
 
-Cuarto, el retorno al Todo no es supervivencia corporal local, copia ni memoria psicológica conservada en el exterior. Es incorporación de la traza factual clausurada al Todo. La cadena del grupo no se borra, no se duplica y no se reescribe; queda cerrada por G†.
+| Código | Definición | Salida |
+| --- | --- | --- |
+| E-PLANO-01 | Edad atribuida a la totalidad absoluta | 1 |
+| E-PLANO-02 | Edad de un dominio atribuida a otro dominio | 1 |
+| E-DOM-01 | Dominio ausente | U |
+| E-DOM-02 | Dominio contradictorio | 1 |
+| E-ID-01 | Identidad física ausente | U |
+| E-FIN-01 | Fin estructural ausente | U |
+| E-UNIT-01 | Unidad física ausente | U |
+| E-UNIT-02 | Unidad SV ausente | U |
+| E-TRANS-01 | Coeficiente transductivo falso | 1 |
+| E-TRANS-02 | Retorno inverso no exacto | 1 |
+| E-ARIT-01 | Restante distinto de fin menos actual | 1 |
+| E-ARIT-02 | Actual más restante no reproduce fin | 1 |
+| E-FRAC-01 | Fracción actual más restante distinta de uno | 1 |
+| E-FRAC-02 | Fracción de un dominio aplicada a otro | 1 |
+| E-LAB-01 | Salida no tabulada | 1 |
+| E-LAB-02 | Redondeo no autorizado | 1 |
+| E-LAB-03 | Uso de coma flotante | 1 |
+| E-LAB-04 | Control negativo omitido | 1 |
+| E-LAB-05 | Pase silencioso | 1 |
 
-Queda demostrado.
+## XIII.11. Runner de verificación
 
-## XVII.9. Pregunta séptima: ¿esto reafirma o desmiente los agujeros de gusano?
+El runner completo se conserva en [laboratorios/runner.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/laboratorios/runner.py), junto con sus entradas declarativas, salidas esperadas, salidas obtenidas y catálogo de errores. Su función es ejecutar sin aproximaciones silenciosas las equivalencias escalares y transductivas declaradas en la obra. La versión editorial conserva la conclusión verificable; la reproducción íntegra pertenece al laboratorio técnico.
 
-**Verdad formal.** La intuición de conexión no queda anulada en cuanto pregunta por continuidad formal del cierre. Pero esa continuidad no se formula como túnel geométrico.
+La ejecución debe respetar tres condiciones materiales: aritmética entera, ausencia de redondeo y prohibición de salidas no tabuladas. La constante K<sub>age</sub> = 284 018 400 se obtiene de 31 557 600 s por año juliano y 9 UE<sub>MFC</sub> por segundo. Todo resultado expresado en años julianos debe retornar desde UE<sub>MFC</sub> sin resto. Si una prueba esencial falla, el laboratorio no confirma la formulación.
 
-**No verdad.** El agujero de gusano relativista, entendido como garganta métrica entre dos regiones del mismo espacio-tiempo o entre dominios geométricos unidos por una boca, queda rechazado como fundamento. Sustituye la clausura TODO/NADA por una imagen geométrica heredada.
 
-**Conclusión.** El SV absorbe parcialmente la intuición de conexión y rechaza el agujero de gusano como explicación rectora. La formulación correcta es:
+## XIII.12. Pruebas positivas obligatorias
 
-no túnel → clausura factual;
+| test<sub>id</sub> | Objeto | Operación | Salida esperada |
+| --- | --- | --- | --- |
+| LAB-POS-01 | Sol | (4.570.000.000×284.018.400) | 1.297.964.088.000.000.000 |
+| LAB-POS-02 | Sol | (10.000.000.000×284.018.400) | 2.840.184.000.000.000.000 |
+| LAB-POS-03 | Sol | (10.000.000.000-4.570.000.000) | 5.430.000.000 |
+| LAB-POS-04 | Sistema Solar | (4.568.000.000×284.018.400) | 1.297.396.051.200.000.000 |
+| LAB-POS-05 | Sistema Solar | (10.000.000.000-4.568.000.000) | 5.432.000.000 |
+| LAB-POS-06 | Vía Láctea-entorno | (13.600.000.000×284.018.400) | 3.862.650.240.000.000.000 |
+| LAB-POS-07 | Vía Láctea-entorno | (27.200.000.000-13.600.000.000) | 13.600.000.000 |
+| LAB-POS-08 | Observable retornado | (13.800.000.000×284.018.400) | 3.919.453.920.000.000.000 |
+| LAB-POS-09 | Observable retornado | (27.600.000.000-13.800.000.000) | 13.800.000.000 |
+| LAB-POS-10 | Sol | (4.570.000.000/10.000.000.000) | (457/1000) |
+| LAB-POS-11 | Sistema Solar | (4.568.000.000/10.000.000.000) | (571/1250) |
+| LAB-POS-12 | Observable retornado | (13.800.000.000/27.600.000.000) | (1/2) |
 
-no boca → postfrontera M_N2-SV;
+## XIII.13. Pruebas inversas obligatorias
 
-no viaje → egreso local NO_APTO;
+| test<sub>id</sub> | Entrada (UE<sub>MFC</sub>) | Operación | Salida esperada |
+| --- | --- | --- | --- |
+| LAB-INV-01 | 1.297.964.088.000.000.000 | dividir por 284.018.400 | 4.570.000.000 |
+| LAB-INV-02 | 2.840.184.000.000.000.000 | dividir por 284.018.400 | 10.000.000.000 |
+| LAB-INV-03 | 1.297.396.051.200.000.000 | dividir por 284.018.400 | 4.568.000.000 |
+| LAB-INV-04 | 1.542.787.948.800.000.000 | dividir por 284.018.400 | 5.432.000.000 |
+| LAB-INV-05 | 3.862.650.240.000.000.000 | dividir por 284.018.400 | 13.600.000.000 |
+| LAB-INV-06 | 7.725.300.480.000.000.000 | dividir por 284.018.400 | 27.200.000.000 |
+| LAB-INV-07 | 3.919.453.920.000.000.000 | dividir por 284.018.400 | 13.800.000.000 |
+| LAB-INV-08 | 7.838.907.840.000.000.000 | dividir por 284.018.400 | 27.600.000.000 |
 
-no copia → retorno de la traza al Todo.
+## XIII.14. Pruebas negativas obligatorias
 
-## XVII.10. Pregunta octava: ¿por qué esto no es ciencia ficción?
+| test<sub>id</sub> | Entrada negativa | Salida esperada |
+| --- | --- | --- |
+| LAB-NEG-01 | (Edad( T)=13.800.000.000,a<sub>J</sub>) | NO ADMISIBLE |
+| LAB-NEG-02 | (A_☉=13.800.000.000,a<sub>J</sub>) | NO ADMISIBLE |
+| LAB-NEG-03 | (A<sub>SS</sub>=4.570.000.000,a<sub>J</sub>) | NO ADMISIBLE |
+| LAB-NEG-04 | (A<sub>VL</sub>=A_Ω<sub>obs</sub>) | NO ADMISIBLE |
+| LAB-NEG-05 | (A<sub>i</sub><sup>SV</sup>=284.018.399A<sub>i</sub>) | NO ADMISIBLE |
+| LAB-NEG-06 | (A<sub>i</sub><sup>SV</sup>=284.018.401A<sub>i</sub>) | NO ADMISIBLE |
+| LAB-NEG-07 | (F<sub>i</sub><A<sub>i</sub>) | NO ADMISIBLE |
+| LAB-NEG-08 | (R<sub>i</sub>≠ F<sub>i</sub>-A<sub>i</sub>) | NO ADMISIBLE |
+| LAB-NEG-09 | (f<sub>i</sub>+ρ<sub>i</sub>≠1) | NO ADMISIBLE |
+| LAB-NEG-10 | edad sin dominio | (U) |
+| LAB-NEG-11 | edad sin fin estructural | (U) |
+| LAB-NEG-12 | edad sin unidad SV | (U) |
+| LAB-NEG-13 | salida no tabulada | NO ADMISIBLE |
+| LAB-NEG-14 | redondeo introducido | NO ADMISIBLE |
+| LAB-NEG-15 | coma flotante introducida | NO ADMISIBLE |
 
-La ciencia ficción introduce entidades narrativas sin cierre formal: puertas, portales, universos paralelos, viajeros intactos por túneles, copias perfectas o mensajes que burlan el horizonte. Este anexo no afirma ninguna de esas figuras.
+## XIII.15. Salida esperada global
 
-La estructura SV exige:
+La ejecución completa deberá producir:
 
-1. cierre del régimen BH por BHₛᵥ(Γᴮᴴ)=0;
-2. no egreso local por DΣ(v_TE)=NO_APTO;
-3. postfrontera M_N2-SV;
-4. exclusión de U, copia, reescritura y desaparición sin traza;
-5. clausura terminal X† cuando la instancia X agota o pierde su estructura bajo el régimen;
-6. Retorno_Todo(X†)=APTO.
+SV<sub>RELATIVEAGESTHEORYLABRESULT</sub>
 
-Esto no es narración especulativa. Es una cadena formal. Quien niegue la conclusión debe atacar una de esas condiciones. Si no lo hace, no refuta el anexo: sólo sustituye el SV por intuición externa.
+units<sub>manifest</sub>: OK
 
-## XVII.11. Pregunta novena: ¿cómo debe explicarse a tres niveles?
+canonical<sub>formula</sub>: OK
 
-**En escala elemental.** Algo entra en una región que no concede salida local. No vuelve por la puerta exterior. No aparece como copia. No queda como “no se sabe”. Si su estructura termina bajo ese régimen, su historia no se borra: queda cerrada y retorna al Todo como traza de lo que ha sido.
+explicit<sub>form</sub>: OK
 
-**Para un joven universitario de ingeniería.** El canal exterior local está cerrado: DΣ(v_TE)=NO_APTO. Por tanto no hay trayectoria de salida en el mismo dominio. La resolución no es copia ni reconstrucción biográfica exterior. Se formula por cierre append-only: Gᴮᴴ→G† y Retorno_Todo(G†)=APTO.
+implicit<sub>form</sub>: OK
 
-**Para un científico.** El agujero negro factual no comunica su interior con el exterior local; clausura el contenido como M_N2-SV. Esa clausura no es vacío ni imposibilidad terminal, porque el Todo no puede excluir lo que ha sido. Si una instancia factual alcanza cierre terminal, se añade su suceso terminal X† y su traza completa retorna al Todo. La pregunta científica madura no es “por dónde escapa”, sino qué condiciones formales excluyen simultáneamente egreso local, U, copia, reescritura y desaparición sin traza.
+parametric<sub>form</sub>: OK
 
-## XVII.12. Tabla de verdades, no verdades y conclusiones
+point<sub>slopeform</sub>: OK
 
-| Pregunta | Verdad formal | No verdad excluida | Conclusión SV |
-|---|---|---|---|
-| Qué es un agujero negro | Régimen BHₛᵥ(Γᴮᴴ)=0 | Singularidad primaria, vacío o masa aislada | Clausura extrema del campo unificado factual |
-| Qué hay tras la frontera | M_N2-SV | U, vacío, ignorancia final | Cierre interno sin resto exterior formulable |
-| Puede salir la luz | No por transmisión exterior | Anulación de la luz | Φᴸₛᵥ se conserva como objeto factual hasta su cierre terminal |
-| Hay salida local | No | Escape por velocidad o potencia | Egreso_local=NO_APTO |
-| Hay canal | No como túnel local | túnel geométrico o agujero de gusano fundante | clausura factual postfrontera |
-| Qué pasa con científicos dentro | Clausura factual y retorno al Todo | desaparición sin traza, copia, U, reescritura | Gᴮᴴ→G† y Retorno_Todo(G†)=APTO |
-| Es ciencia ficción | No, si se sigue la cadena formal | Portales, túneles, copias narrativas | Teorema XVII.3 |
+positive<sub>objects</sub>: 4/4
 
-## XVII.13. Conclusión del anexo
+remaining<sub>segments</sub>: 4/4
 
-La naturaleza matemática del agujero negro queda cerrada por una doble afirmación. Primera: no existe egreso local desde el régimen BH cerrado. Segunda: el cierre no es desaparición sin traza ni suspensión en U; es clausura factual con retorno al Todo cuando el contenido factual alcanza cierre terminal bajo la Teoría del TODO y de la NADA.
+fractions: 4/4
 
-Para un grupo científico caído en el agujero negro, la conclusión final es:
+inverse<sub>returns</sub>: 8/8
 
-Gᴮᴴ ⊂ Γᴮᴴ
+negative<sub>controls</sub>: 15/15
 
-BHₛᵥ(Γᴮᴴ)=0
+float<sub>used</sub>: NO
 
-Postᴮᴴ=M_N2-SV
+rounding<sub>used</sub>: NO
 
-Gᴮᴴ → G†
+silent<sub>passes</sub>: 0
 
-Retorno_Todo(G†)=APTO
+untabulated<sub>outputs</sub>: 0
 
-por tanto:
+overall<sub>status</sub>: APTO
 
-Gᴮᴴ no egresa localmente, no se copia, no se reescribe, no queda en U y no desaparece sin traza. Queda clausurado como suceso y retorna al Todo como traza factual completa.
+## XIII.16. Suficiencia laboratorial
 
-El agujero negro no expulsa cuerpos al exterior local ni abre un agujero de gusano. Clausura el contenido que alcanza cierre terminal bajo su régimen y devuelve su traza factual al Todo. El cierre formal absoluto es: no egreso local; sí clausura factual y retorno al Todo.
+Teorema IX.1. Si el laboratorio reproduce las cuatro formas de la fórmula canónica, confirma los cuatro objetos positivos, ejecuta todos los retornos inversos y activa todos los controles negativos, entonces confirma la Teoría de la edad de todos los objetos del Universo Observable. Demostración. La teoría afirma: A<sub>i</sub><sup>SV</sup>=K<sub>age</sub>A<sub>i</sub><sup>FC</sup>. El laboratorio verifica esta fórmula para: ☉, SS, VL, Ω<sub>obs</sub>. La teoría afirma: R<sub>i</sub>=F<sub>i</sub>-A<sub>i</sub>. El laboratorio verifica el restante para los cuatro dominios. La teoría afirma: f<sub>i</sub>+ρ<sub>i</sub>=1. El laboratorio verifica las fracciones. La teoría exige retorno inverso: A<sub>i</sub><sup>SV</sup>K<sub>age</sub>=A<sub>i</sub><sup>FC</sup>. El laboratorio verifica que no hay resto. La teoría exige rechazo de negativos. El laboratorio verifica que la totalidad absoluta no recibe edad, que la pendiente falsa no pasa, que los dominios no se confunden y que una salida no tabulada no se acepta. Por tanto, si todas las pruebas pasan, el laboratorio confirma la teoría. c.q.d.
 
----
+## XIII.17. Refutación por fallo único esencial
 
-# XVIII. Laboratorios reproducibles SV-BH9
+Teorema IX.2. Si una prueba esencial falla, la teoría no queda confirmada en laboratorio. Demostración. Sea (L<sub>k</sub>) una prueba esencial. Si: L<sub>k</sub>≠ S<sub>k</sub><sup>esperada</sup>, entonces al menos una condición de cierre falla: Δ<sub>trans</sub>=1, o: Δ<sub>arit</sub>=1, o: Δ<sub>plano</sub>=1, o: Δ<sub>ret</sub>=1, o: Δ=U. Si una condición esencial falla, la lectura formal global no puede ser: APTO. Por tanto: L<sub>k</sub>≠ S<sub>k</sub><sup>esperada</sup> ⇒ laboratorio no confirmado. c.q.d.
 
-El directorio de laboratorios incorpora laboratorios reproducibles destinados a verificar, sin pases silenciosos, los dictámenes centrales de esta publicación: formas equivalentes de BHₛᵥ, célula canónica SV(3,9), granularidad ampliada SV(6,36), absorción numérica de Schwarzschild, Kerr, termodinámica Bekenstein–Hawking/Hawking, rechazo de singularidad geométrica como fundamento, clasificación de planteamientos contemporáneos, postfrontera M_N2-SV y falsación por salida luminosa exterior apta.
+## XIII.18. Síntesis laboratorial
 
-La carpeta de laboratorios está disponible en [laboratorios](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad/laboratorios). La ejecución principal se realiza con [runner.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad/laboratorios/runner.py). Los datos de entrada están documentados en [datos](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad/laboratorios/datos) y el catálogo de errores se recoge en [catalogo_errores.md](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad/laboratorios/catalogo_errores.md).
+El laboratorio reproducible queda subordinado a la teoría y a la tabla de contraste. Su resultado esperado es: APTO. Y su confirmación equivale a: E<sub>age</sub>(O<sub>i</sub>) confirmada para todos los dominios positivos declarados. E<sub>age</sub>(O<sub>i</sub>) rechazada para todos los negativos mal tipados. ε<sub>plano,</sub>ε<sub>def,</sub>ε<sub>trans,</sub>ε<sub>arit.</sub>
 
-## XVIII.1. Laboratorio de dictamen ternario DΣ
+# XIV. Bibliografía
 
-Verifica la función DΣ sobre células de longitud 9 y 36. Comprueba N₀, N₁, Nᵁ, T(n)=⌊7n/9⌋, incompatibilidad de doble mayoría, presencia de U local no dominante y ausencia de cierre cuando no se alcanza mayoría cualificada.
+## XIV.1. Criterio bibliográfico
 
-## XVIII.2. Laboratorio de formas equivalentes de BHₛᵥ
+La bibliografía se ordena en dos planos: bibliografía física externa y bibliografía del corpus SV. La primera aporta magnitudes, observaciones, instrumentos y referencias de física contemporánea. La segunda fija plano, dominio, transducción, residual, lectura formal, no atribución de edad a la totalidad absoluta y disciplina formal de la terna.
 
-Evalúa las formas explícita, implícita, canónica vectorial, paramétrica, complementaria y matricial del vector de defecto Rᴮᴴ. El resultado APTO exige que todas devuelvan el mismo dictamen. Si una forma declara cierre y otra declara defecto, el laboratorio devuelve NO_APTO.
+## XIV.2. Bibliografía física externa e instrumental
 
-## XVIII.3. Laboratorio físico-factual de Schwarzschild y Kerr
+Planck Collaboration, Aghanim, N., Akrami, Y., Ashdown, M., Aumont, J., Baccigalupi, C., et al. (2020). [Planck 2018 results. VI. Cosmological parameters](https://doi.org/10.1051/0004-6361/201833910). *Astronomy & Astrophysics, 641*, A6.
 
-Calcula rₛ = 2GM/c², q = r/rₛ, v_escape/c=√(1/q), y el horizonte exterior de Kerr r₊/r_g = 1+√(1−χ²) cuando ∣χ∣ ≤ 1. El laboratorio absorbe Schwarzschild y Kerr como proyecciones métricas externas sólo cuando el banco numérico produce frontera de no salida y no salida luminosa compatible con el dictamen SV.
+European Space Agency. (2013). [Planck science highlights](https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_science_highlights). ESA.
 
-## XVIII.4. Laboratorio termodinámico Bekenstein–Hawking/Hawking
+NASA Jet Propulsion Laboratory. (2013). [Planck mission brings Universe into sharp focus](https://www.jpl.nasa.gov/news/planck-mission-brings-universe-into-sharp-focus/). NASA/JPL.
 
-Calcula A=4πrₛ², Sᴮᴴ/k_B = A/(4ℓₚ²) y Tᴴ = ℏc³/(8πGMk_B) para escalas de masa no triviales. El laboratorio verifica que esas magnitudes son proyecciones termodinámicas de frontera y no sustituyen el dictamen postfrontera M_N2-SV.
+European Space Agency. (2022). [Gaia reveals the past and future of the Sun](https://www.esa.int/Science_Exploration/Space_Science/Gaia/Gaia_reveals_the_past_and_future_of_the_Sun). ESA.
 
-## XVIII.5. Laboratorio de singularidad geométrica
+Creevey, O. L., et al. (2023). [Gaia Data Release 3: A golden sample of astrophysical parameters](https://doi.org/10.1051/0004-6361/202243800). *Astronomy & Astrophysics, 674*, A39.
 
-Evalúa K/Kₕ=(rₛ/r)⁶ para radios normalizados. La tendencia divergente se admite como límite de proyección geométrica, mientras que r = 0 se marca como no evaluable y se rechaza como fundamento primario del régimen BH.
+Gaia Collaboration, Vallenari, A., Brown, A. G. A., Prusti, T., de Bruijne, J. H. J., Arenou, F., et al. (2023). [Gaia Data Release 3: Summary of the content and survey properties](https://www.aanda.org/articles/aa/full_html/2023/06/aa43940-22/aa43940-22.html). *Astronomy & Astrophysics*.
 
-## XVIII.6. Laboratorio de absorción y rechazo
+NASA. (s. f.). [Our Sun: Facts](https://science.nasa.gov/sun/facts/). NASA Science.
 
-Clasifica relatividad general, Schwarzschild, Kerr, Bekenstein–Hawking, radiación de Hawking, Page curve, islas, fuzzballs, firewalls, agujeros negros regulares, singularidad primaria, vacío sustancial y probabilidad fundante. Cada modelo queda absorbido, absorbido parcialmente o rechazado como fundamento según su vector de compatibilidad con BHₛᵥ.
+NASA Space Place. (s. f.). [All About the Sun](https://spaceplace.nasa.gov/all-about-the-sun/). NASA Space Place.
 
-## XVIII.7. Laboratorio de postfrontera M_N2-SV
+NASA Space Place. (2021). [How old is the Sun?](https://spaceplace.nasa.gov/sun-age/). NASA Space Place.
 
-Verifica que μ=0, λ=0 y 𝓝★ₛᵥ=0 fuerzan Postᴮᴴ=M_N2-SV y que Postᴮᴴ=U en esas condiciones activa BH-UPOST-001. También comprueba que M_N2-SV no puede ser tratado como caso particular de U.
+Bouvier, A., & Wadhwa, M. (2010). [The age of the Solar System redefined by the oldest Pb-Pb age of a meteoritic inclusion](https://doi.org/10.1038/ngeo941). *Nature Geoscience, 3*, 637-641.
 
-## XVIII.8. Laboratorio de falsación luminosa
+COSMOS-Web Collaboration / University of California, Riverside. (2026). [Astronomers produce most detailed map of the cosmic web](https://www.eurekalert.org/news-releases/1127738). EurekAlert.
 
-Refuta cualquier caso que declare BH cuando DΣ(v_L)=APTO. La salida luminosa exterior apta activa rechazo inmediato, aunque otras células aparenten cierre.
+ScienceDaily. (2026). [James Webb telescope reveals the clearest map ever made of the cosmic web](https://www.sciencedaily.com/releases/2026/05/260511213136.htm). ScienceDaily.
 
-## XVIII.9. Ejecución
+## XIV.3. Bibliografía del corpus SV
 
-Desde la carpeta `laboratorios`, la ejecución completa se realiza con:
+Lloret Egea, J. A. (2026). *[Teoría del TODO y de la NADA en el Sistema Vectorial SV](https://doi.org/10.17613/k3q1d-fjj45)*. IA eñ™ — La Biblia de la IA™. DOI: [10.17613/k3q1d-fjj45](https://doi.org/10.17613/k3q1d-fjj45). Repositorio: [SV-matematica-semantica / teoria-todo-nada-sv](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/teoria-todo-nada-sv).
 
-python runner.py
+Lloret Egea, J. A. (2026). *[Imperfección preformal y espacio: ε₋₀, primera distinguibilidad y dominio estructural completo de separación factual recorrible](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/imperfeccion-preformal-y-espacio)*. IA eñ™ — La Biblia de la IA™. Repositorio canónico: [imperfeccion-preformal-y-espacio](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/imperfeccion-preformal-y-espacio).
 
-La salida esperada genera [sv_bh9_resultados.json](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad/laboratorios/salidas/sv_bh9_resultados.json), [sv_bh9_traza.csv](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad/laboratorios/salidas/sv_bh9_traza.csv) y [sv_bh9_resumen.md](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad/laboratorios/salidas/sv_bh9_resumen.md). El resultado global APTO sólo se produce si todos los validadores devuelven cero defectos y todos los errores esperados son detectados.
+Lloret Egea, J. A. (2026). *[Teoría general de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV](https://doi.org/10.17613/177nb-v2465)*. IA eñ™ — La Biblia de la IA™. DOI: [10.17613/177nb-v2465](https://doi.org/10.17613/177nb-v2465).
 
+Lloret Egea, J. A. (2026). *[Fórmula de Campo Unificado 𝓕𝓐=d𝓐+𝓐∧𝓐 con 𝓐=ω⊕A. Lo que Einstein y Bohr discutían: doble proyección de un aparato más profundo](https://doi.org/10.17613/gxfv3-qjj64)*. IA eñ™ — La Biblia de la IA™. DOI: [10.17613/gxfv3-qjj64](https://doi.org/10.17613/gxfv3-qjj64).
 
-## XVIII.10. Matriz de cobertura de laboratorios
+Lloret Egea, J. A. (2026). *[El agujero negro como cierre interno sin resto exterior formulable](https://doi.org/10.5281/zenodo.20155687)*. IA eñ™ — La Biblia de la IA™. DOI: [10.5281/zenodo.20155687](https://doi.org/10.5281/zenodo.20155687). Repositorio: [agujero-negro-clausura-no-transmisibilidad](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad).
 
-| Laboratorio | Entrada | Salida esperada | Error que debe detectar |
-|---|---|---|---|
-| dictamen_ternario | células de 9 y 36 | APTO, NO_APTO o U | BH-DΣ-001 |
-| formas_equivalentes | vectores Rᴮᴴ | igualdad de dictamen | BH-UNI-001 |
-| schwarzschild | q y rₛ | absorción de frontera | BH-MET-001 si se usa como fundamento único |
-| kerr | χ y r₊ | absorción si ∣χ∣ ≤ 1 | rechazo si ∣χ∣ > 1 |
-| termodinámica | masa, Sᴮᴴ, Tᴴ | proyección C_TH/C_H | BH-N_UM-001 |
-| singularidad | r/rₛ, K/Kₕ | rechazo de r = 0 | BH-SING-001 |
-| absorción | v_ABS | dictamen tricotómico | BH-ABS-001 |
-| postfrontera | μ, λ, 𝓝★ₛᵥ | M_N2-SV | BH-UPOST-001 |
-| salida_luminosa | v_L | rechazo si APTO | BH-LUZ-002 |
-| banco_físico | q, χ, Sᴮᴴ, Tᴴ, K | contraste físico-formal | BH-N_UM-004 |
+Lloret Egea, J. A. (2026). *[Génesis factual del hidrógeno como caso canónico conocido](https://doi.org/10.17613/qq4q9-sd847)*. IA eñ™ — La Biblia de la IA™. DOI: [10.17613/qq4q9-sd847](https://doi.org/10.17613/qq4q9-sd847).
 
-## XVIII.11. Condición de no pase silencioso
+Lloret Egea, J. A. (2026). *[Teoría general factual de la luz en el Sistema Vectorial SV](https://doi.org/10.17613/1z7c0-mqb40)*. IA eñ™ — La Biblia de la IA™. DOI: [10.17613/1z7c0-mqb40](https://doi.org/10.17613/1z7c0-mqb40).
 
-Un validador no puede devolver APTO por ausencia de datos. Debe distinguir tres situaciones:
+Lloret Egea, J. A. (2026). *[Reducción estructural absoluta de Maxwell al Sistema Vectorial SV — ecuación única de física factual electromagnética](https://doi.org/10.17613/kep1t-57539)*. IA eñ™ — La Biblia de la IA™. DOI: [10.17613/kep1t-57539](https://doi.org/10.17613/kep1t-57539).
 
-1. APTO: el dato existe, se evalúa y pasa.
-2. NO_APTO: el dato existe, se evalúa y falla.
-3. DATO_AUSENTE: el dato requerido no existe o no puede evaluarse.
+Lloret Egea, J. A. (2026). *[Fórmula factual única absoluta de termodinámica SV](https://doi.org/10.17613/ptw68-d1r57)*. IA eñ™ — La Biblia de la IA™. DOI: [10.17613/ptw68-d1r57](https://doi.org/10.17613/ptw68-d1r57).
 
-DATO_AUSENTE no se convierte en APTO. En el cierre global, DATO_AUSENTE equivale a defecto hasta que el banco incorpore el dato o el alcance declarado excluya justificadamente ese componente.
+Lloret Egea, J. A. (2026). *[Entropía factual e irreversibilidad estructural en el Sistema Vectorial SV](https://doi.org/10.17613/vh6ak-6em43)*. IA eñ™ — La Biblia de la IA™. DOI: [10.17613/vh6ak-6em43](https://doi.org/10.17613/vh6ak-6em43).
 
-## XVIII.12. Salidas exigibles
+Lloret Egea, J. A. (2026). *[Interacción, intercomposición y transmisión factual entre campos en el Sistema Vectorial SV](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv)*. IA eñ™ — La Biblia de la IA™. Repositorio doctrinal: [SV-matematica-semantica](https://github.com/juantoniolloretegea/SV-matematica-semantica).
 
-La ejecución reproducible debe producir:
+## XIV.4. Bibliografía biomolecular y del anexo integrado
 
-1. sv_bh9_resultados.json, con resumen global, versión de banco, número de casos y defectos.
-2. sv_bh9_traza.csv, con una fila por caso y campo de dictamen.
-3. sv_bh9_resumen.md, con lectura humana de resultados.
-4. catalogo_errores.md, con códigos activables.
-5. salida explícita de errores esperados, para confirmar que los casos negativos no pasan en silencio.
+Alberts, B., Johnson, A., Lewis, J., Raff, M., Roberts, K., & Walter, P. (2002). *Molecular biology of the cell* (4th ed.). Garland Science. NCBI Bookshelf. [NCBI Bookshelf: NBK21054](https://www.ncbi.nlm.nih.gov/books/NBK21054/)
 
-## XVIII.13. Criterio de aceptación global
+Burley, S. K., et al. (2025). Updated resources for exploring experimentally-determined PDB structures and computed structure models at the RCSB Protein Data Bank. *Nucleic Acids Research, 53*(D1), D564–D574. [DOI: 10.1093/nar/gkae1091](https://doi.org/10.1093/nar/gkae1091)
 
-El resultado global APTO exige simultáneamente:
+Ghannam, J. Y., & Al Kharazi, K. A. (2023). DNA structure. En *StatPearls*. StatPearls Publishing. NCBI Bookshelf. [NCBI Bookshelf: NBK538241](https://www.ncbi.nlm.nih.gov/books/NBK538241/)
 
-1. cero defectos en casos positivos;
-2. detección de todos los casos negativos;
-3. coincidencia entre formas equivalentes;
-4. rechazo de salida luminosa apta;
-5. separación de U y M_N2-SV;
-6. clasificación de todos los modelos contemporáneos listados;
-7. presencia del banco físico paralelo;
-8. ausencia de fórmulas externas no clasificadas;
-9. enlaces bibliográficos y corpus clicables.
+Hatton, I. A., et al. (2023). The human cell count and size distribution. *Proceedings of the National Academy of Sciences, 120*(39), e2303077120. [DOI: 10.1073/pnas.2303077120](https://doi.org/10.1073/pnas.2303077120)
 
-Si cualquiera de esas condiciones falla, la salida global debe ser NO_APTO.
+Jumper, J., et al. (2021). Highly accurate protein structure prediction with AlphaFold. *Nature, 596*, 583–589. [DOI: 10.1038/s41586-021-03819-2](https://doi.org/10.1038/s41586-021-03819-2)
 
-# Bibliografía física contemporánea
+National Human Genome Research Institute. (2022). *A brief guide to genomics*. [National Human Genome Research Institute](https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics)
 
-Abbott, B. P., Abbott, R., Abbott, T. D., Abernathy, M. R., Acernese, F., Ackley, K., Adams, C., Adams, T., Addesso, P., Adhikari, R. X., et al. (2016). Observation of gravitational waves from a binary black hole merger. *Physical Review Letters, 116*(6), 061102. DOI [https://doi.org/10.1103/PhysRevLett.116.061102](https://doi.org/10.1103/PhysRevLett.116.061102)
+National Institutes of Health. (2022). *First complete sequence of a human genome*. [National Institutes of Health](https://www.nih.gov/news-events/nih-research-matters/first-complete-sequence-human-genome)
 
-Almheiri, A., Engelhardt, N., Marolf, D., & Maxfield, H. (2019). The entropy of bulk quantum fields and the entanglement wedge of an evaporating black hole. *Journal of High Energy Physics, 2019*, 63. DOI [https://doi.org/10.1007/JHEP12(2019)063](https://doi.org/10.1007/JHEP12(2019)063)
+Nurk, S., et al. (2022). The complete sequence of a human genome. *Science, 376*(6588), 44–53. [DOI: 10.1126/science.abj6987](https://doi.org/10.1126/science.abj6987)
 
-Almheiri, A., Hartman, T., Maldacena, J., Shaghoulian, E., & Tajdini, A. (2020). The entropy of Hawking radiation. *Reviews of Modern Physics, 93*, 035002. DOI [https://doi.org/10.1103/RevModPhys.93.035002](https://doi.org/10.1103/RevModPhys.93.035002)
+RCSB Protein Data Bank. (2026). *Overall growth of released structures per year*. [RCSB Protein Data Bank](https://www.rcsb.org/stats/growth/growth-released-structures)
 
-Almheiri, A., Marolf, D., Polχnski, J., & Sully, J. (2013). Black holes: Complementarity or firewalls? *Journal of High Energy Physics, 2013*, 62. DOI [https://doi.org/10.1007/JHEP02(2013)062](https://doi.org/10.1007/JHEP02(2013)062)
+Sayers, E. W., et al. (2025). GenBank 2025 update. *Nucleic Acids Research, 53*(D1), D56–D61. [DOI: 10.1093/nar/gkae1114](https://doi.org/10.1093/nar/gkae1114)
 
-Bekenstein, J. D. (1973). Black holes and entropy. *Physical Review D, 7*(8), 2333–2346. DOI [https://doi.org/10.1103/PhysRevD.7.2333](https://doi.org/10.1103/PhysRevD.7.2333)
+The UniProt Consortium. (2025). UniProt: The Universal Protein Knowledgebase in 2025. *Nucleic Acids Research, 53*(D1), D609–D617. [DOI: 10.1093/nar/gkae1010](https://doi.org/10.1093/nar/gkae1010)
 
-Bekenstein, J. D. (1974). Generalized second law of thermodynamics in black-hole physics. *Physical Review D, 9*(12), 3292–3300. DOI [https://doi.org/10.1103/PhysRevD.9.3292](https://doi.org/10.1103/PhysRevD.9.3292)
+UniProt. (2026). *Homo sapiens proteome UP000005640*. [UniProt](https://www.uniprot.org/proteomes/UP000005640)
 
-Carter, B. (1971). Axisymmetric black hole has only two degrees of freedom. *Physical Review Letters, 26*(6), 331–333. DOI [https://doi.org/10.1103/PhysRevLett.26.331](https://doi.org/10.1103/PhysRevLett.26.331)
+Varadi, M., et al. (2024). AlphaFold Protein Structure Database in 2024: Providing structure coverage for over 214 million protein sequences. *Nucleic Acids Research, 52*(D1), D368–D375. [DOI: 10.1093/nar/gkad1011](https://doi.org/10.1093/nar/gkad1011)
 
-Chandrasekhar, S. (1983). *The mathematical theory of black holes*. Oxford University Press.
+Lloret Egea, J. A. (2026). *Catálogo de Pares Estructurales SV (CPS-SV): enlace, aleación y compatibilidad posicional desde los 118 elementos base hasta los 443 candidatos del dominio extendido*. IA eñ™ — La Biblia de la IA™. [Repositorio canónico](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/quimica-factual-y-ciencia-de-materiales-sv/catalogo-pares-estructurales/catalogo-pares-estructurales.md).
 
-Einstein, A. (1915). Die Feldgleichungen der Gravitation. *Sitzungsberichte der Königlich Preußischen Akademie der Wissenschaften*, 844–847.
+Lloret Egea, J. A. (2026). *Biología molecular y medicina: del par estructural a la célula viva*. IA eñ™ — La Biblia de la IA™. [DOI: 10.21428/39829d0b.624921db](https://doi.org/10.21428/39829d0b.624921db)
 
-Event Horizon Telescope Collaboration. (2019a). First M87 Event Horizon Telescope results. I. The shadow of the supermassive black hole. *The Astrophysical Journal Letters, 875*(1), L1. DOI [https://doi.org/10.3847/2041-8213/ab0ec7](https://doi.org/10.3847/2041-8213/ab0ec7)
+Lloret Egea, J. A. (2026). *Análisis preliminar de elementos, materiales y aleaciones de nueva generación en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. [DOI: 10.17613/8ryyb-g9h48](https://doi.org/10.17613/8ryyb-g9h48)
 
-Event Horizon Telescope Collaboration. (2019b). First M87 Event Horizon Telescope results. IV. Imaging the central supermassive black hole. *The Astrophysical Journal Letters, 875*(1), L4. DOI [https://doi.org/10.3847/2041-8213/ab0e85](https://doi.org/10.3847/2041-8213/ab0e85)
+Lloret Egea, J. A. (2026). *Génesis del hidrógeno y teoría de la persistencia energética estructural en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. [DOI: 10.17613/qq4q9-sd847](https://doi.org/10.17613/qq4q9-sd847)
 
-Event Horizon Telescope Collaboration. (2022). First Sagittarius A* Event Horizon Telescope results. I. The shadow of the supermassive black hole in the center of the Milky Way. *The Astrophysical Journal Letters, 930*(2), L12. DOI [https://doi.org/10.3847/2041-8213/ac6674](https://doi.org/10.3847/2041-8213/ac6674)
+Lloret Egea, J. A. (2026). *Teoría del TODO y de la NADA en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. [DOI: 10.17613/k3q1d-fjj45](https://doi.org/10.17613/k3q1d-fjj45)
 
-Hawking, S. W. (1975). Particle creation by black holes. *Communications in Mathematical Physics, 43*, 199–220. DOI [https://doi.org/10.1007/BF02345020](https://doi.org/10.1007/BF02345020)
+## XIV.5. Criterio de uso
 
-Hawking, S. W., & Ellis, G. F. R. (1973). *The large scale structure of space-time*. Cambridge University Press.
-
-Hayward, S. A. (2006). Formation and evaporation of non-singular black holes. *Physical Review Letters, 96*(3), 031103. DOI [https://doi.org/10.1103/PhysRevLett.96.031103](https://doi.org/10.1103/PhysRevLett.96.031103)
-
-Israel, W. (1967). Event horizons in static vacuum space-times. *Physical Review, 164*(5), 1776–1779. DOI [https://doi.org/10.1103/PhysRev.164.1776](https://doi.org/10.1103/PhysRev.164.1776)
-
-Kerr, R. P. (1963). Gravitational field of a spinning mass as an example of algebraically special metrics. *Physical Review Letters, 11*(5), 237–238. DOI [https://doi.org/10.1103/PhysRevLett.11.237](https://doi.org/10.1103/PhysRevLett.11.237)
-
-Lan, C., Yang, H., Guo, Y., & Miao, Y.-G. (2023). Regular black holes: A short topic review. *International Journal of Theoretical Physics, 62*, 202. DOI [https://doi.org/10.1007/s10773-023-05454-y](https://doi.org/10.1007/s10773-023-05454-y)
-
-Mathur, S. D. (2005). The fuzzball proposal for black holes: An elementary review. *Fortschritte der Physik, 53*(7–8), 793–827. DOI [https://doi.org/10.1002/prop.200410203](https://doi.org/10.1002/prop.200410203)
-
-Misner, C. W., Thorne, K. S., & Wheeler, J. A. (1973). *Gravitation*. W. H. Freeman.
-
-NASA Science. (s. f.). *Black holes*. [https://science.nasa.gov/universe/black-holes/](https://science.nasa.gov/universe/black-holes/)
-
-Oppenheimer, J. R., & Snyder, H. (1939). On continued gravitational contraction. *Physical Review, 56*(5), 455–459. DOI [https://doi.org/10.1103/PhysRev.56.455](https://doi.org/10.1103/PhysRev.56.455)
-
-Page, D. N. (1993). Information in black hole radiation. *Physical Review Letters, 71*(23), 3743–3746. DOI [https://doi.org/10.1103/PhysRevLett.71.3743](https://doi.org/10.1103/PhysRevLett.71.3743)
-
-Penington, G. (2020). Entanglement wedge reconstruction and the information paradox. *Journal of High Energy Physics, 2020*, 2. DOI [https://doi.org/10.1007/JHEP09(2020)002](https://doi.org/10.1007/JHEP09(2020)002)
-
-Penrose, R. (1965). Gravitational collapse and space-time singularities. *Physical Review Letters, 14*(3), 57–59. DOI [https://doi.org/10.1103/PhysRevLett.14.57](https://doi.org/10.1103/PhysRevLett.14.57)
-
-Robinson, D. C. (1975). Uniqueness of the Kerr black hole. *Physical Review Letters, 34*(14), 905–906. DOI [https://doi.org/10.1103/PhysRevLett.34.905](https://doi.org/10.1103/PhysRevLett.34.905)
-
-Schwarzschild, K. (1916). Über das Gravitationsfeld eines Massenpunktes nach der Einsteinschen Theorie. *Sitzungsberichte der Königlich Preußischen Akademie der Wissenschaften*, 189–196.
-
-Wald, R. M. (1984). *General relativity*. University of Chicago Press.
-
-Wald, R. M. (1994). *Quantum field theory in curved spacetime and black hole thermodynamics*. University of Chicago Press.
-
----
-
-# Bibliografía del corpus
-
-Lloret Egea, J. A. (2026). [*Nuevas matemáticas del Sistema Vectorial SV y Física factual como conjunto iniciador*](https://www.itvia.online/pub/nuevas-matematicas-del-sistema-vectorial-sv-y-fisica-factual-como-conjunto-iniciador/release/2). IA eñ™ — La Biblia de la IA™.
-
-Lloret Egea, J. A. (2026). *Teoría general de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. DOI [10.17613/177nb-v2465](https://doi.org/10.17613/177nb-v2465)
-
-Lloret Egea, J. A. (2026). *Teoría del TODO y de la NADA en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. DOI [10.17613/k3q1d-fjj45](https://doi.org/10.17613/k3q1d-fjj45)
-
-Lloret Egea, J. A. (2026). *Teoría general factual de la luz en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. DOI [10.17613/1z7c0-mqb40](https://doi.org/10.17613/1z7c0-mqb40)
-
-Lloret Egea, J. A. (2026). *Fórmula de Campo Unificado FA = dA + A ∧ A con A = omega ⊕ A*. IA eñ™ — La Biblia de la IA™. DOI [10.17613/gxfv3-qjj64](https://doi.org/10.17613/gxfv3-qjj64)
-
-Lloret Egea, J. A. (2026). *Reducción estructural absoluta de Maxwell en el Sistema Vectorial SV y ecuación única de la física factual electromagnética*. IA eñ™ — La Biblia de la IA™. DOI [10.17613/kep1t-57539](https://doi.org/10.17613/kep1t-57539)
-
-Lloret Egea, J. A. (2026). *Entropía factual e irreversibilidad estructural en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. DOI [10.17613/vh6ak-6em43](https://doi.org/10.17613/vh6ak-6em43)
-
-Lloret Egea, J. A. (2026). *Fuerza, trabajo, calor, entalpía, temperatura, principios y fundamentos de la termodinámica y la correlación entre ellos en el SV*. IA eñ™ — La Biblia de la IA™. DOI [10.17613/ptw68-d1r57](https://doi.org/10.17613/ptw68-d1r57)
-
-Lloret Egea, J. A. (2026). *De Bell a Tsirelson sin formalismo de Hilbert: aparato determinista no local del Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. DOI [10.17613/1666c-c5g66](https://doi.org/10.17613/1666c-c5g66)
-
-Lloret Egea, J. A. (2026). *Catálogo de Pares Estructurales SV (CPS-SV): enlace, aleación y compatibilidad posicional desde los 118 elementos base hasta los 443 candidatos del dominio extendido*. IA eñ™ — La Biblia de la IA™. DOI [10.21428/39829d0b.a56b9cd7](https://doi.org/10.21428/39829d0b.a56b9cd7)
-
-Lloret Egea, J. A. (2026). [*Interacción, intercomposición y transmisión factual entre campos en el Sistema Vectorial SV*](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/interaccion-intercomposicion-transmision-campos/interaccion-intercomposicion-transmision-campos.md). IA eñ™ — La Biblia de la IA™.
-
----
-
-# Anexo I. Tres escalas de lectura formal del agujero negro: escala elemental, ingeniería y ciencia
-
-## I.1. Tres escalas de lectura formal
-
-El mismo régimen se puede leer con tres densidades sin cambiar su contenido. En la escala elemental se conserva el núcleo de frontera, luz, interior y postfrontera. En la escala de ingeniería se conserva el sistema de requisitos: células, umbral, vector de defecto y bancos. En la escala científica se conserva la doble transducción con la física contemporánea: Schwarzschild, Kerr, Bekenstein–Hawking, Hawking, Page, islas, fuzzballs, firewalls, agujeros negros regulares, singularidad y evidencias observacionales.
-
-La invariancia entre escalas queda fijada por:
-
-BHₛᵥ(Γᴮᴴ)=0 ⇔ Rᴮᴴ(Γᴮᴴ)=0₁₁.
-
-Ninguna escala altera esa igualdad. La primera reduce vocabulario. La segunda despliega verificación. La tercera confronta modelos físicos y establece absorción, absorción parcial o rechazo como fundamento.
-
-**Teorema I.1. Conservación entre escalas.** Si una lectura de Γᴮᴴ conserva DΣ(v_TE)=NO_APTO, DΣ(v_L)=NO_APTO, DΣ(v_INT)=SATURACIÓN, μ=0, λ=0, 𝓝★ₛᵥ=0 y Postᴮᴴ=M_N2-SV, entonces conserva el núcleo del régimen BH cerrado.
-
-**Demostración.** Esas condiciones son los componentes de frontera, luz, interior, cierre rector y postfrontera. Si permanecen, no se pierde horizonte, no se anula la luz, no se vacía el interior, no se sustituye M_N2-SV por U y no se introduce salida local. Por tanto, la lectura mantiene el núcleo del régimen. c.q.d.
-
-## I.2. Escala elemental
-
-Un agujero negro se representa como una frontera que no concede transmisión exterior. La decisión no depende de una sola señal. En la célula canónica SV(3,9), el umbral es:
-
-T(9)=⌊7·9/9⌋=7.
-
-Si la célula de transmisión exterior tiene siete coordenadas de no transmisión, el dictamen es:
-
-N₁(v_TE)≥7 ⇒ DΣ(v_TE)=NO_APTO.
-
-Ese dictamen expresa el horizonte factual. La luz se decide en una célula separada:
-
-DΣ(v_L)=NO_APTO.
-
-La luz no se elimina por esa condición. La fibra Φᴸₛᵥ conserva sus quince proyecciones y recibe dictamen de no transmisión exterior. El interior se decide por:
-
-DΣ(v_INT)=SATURACIÓN.
-
-La postfrontera no queda como duda cuando el cierre rector se cumple:
-
-μ=0 y λ=0 y 𝓝★ₛᵥ=0 ⇒ Postᴮᴴ=M_N2-SV.
-
-La frase elemental correcta es: hay frontera de no transmisión, luz preservada sin transmisión exterior, interior saturado y postfrontera M_N2-SV.
-
-| Pregunta | Respuesta formal | Umbral o cierre |
-|---|---|---|
-| ¿Puede salir algo hacia fuera? | DΣ(v_TE)=NO_APTO | N₁(v_TE)≥7 |
-| ¿Puede salir la luz? | DΣ(v_L)=NO_APTO | N₁(v_L)≥7 |
-| ¿La luz se anula? | No; Φᴸₛᵥ permanece evaluable | quince proyecciones preservadas |
-| ¿El interior está vacío? | No; v_INT satura | DΣ(v_INT)=SATURACIÓN |
-| ¿La postfrontera es U? | No | Postᴮᴴ=M_N2-SV |
-
-**Teorema I.2. Horizonte factual en la escala elemental.** En SV(3,9), la condición N₁(v_TE)≥7 equivale a DΣ(v_TE)=NO_APTO.
-
-**Demostración.** En SV(3,9), n=9 y T(9)=7. Por definición, DΣ(v_TE)=NO_APTO si N₁(v_TE)≥T(9). Sustituyendo T(9)=7, se obtiene la equivalencia. c.q.d.
-
-## I.3. Escala de ingeniería
-
-El régimen BH cerrado se lee como especificación de aceptación de un sistema de once requisitos. El vector es:
-
-Rᴮᴴ=(R_UNIF,R_AST,R_TE,R_L,R_INT,R_EM,R_TH,R_H,R_TN,R_NOEXT,R_ABS).
-
-El cierre exige:
-
-Rᴮᴴ=(0,0,0,0,0,0,0,0,0,0,0).
-
-La suma defectiva Sᴮᴴ detecta cualquier fallo:
-
-Sᴮᴴ=Σ_j R_j.
-
-Sᴮᴴ=0 si y sólo si todo R_j=0. La forma complementaria detecta lo mismo:
-
-Pᴮᴴ=Π_j(1−R_j).
-
-Pᴮᴴ=1 si y sólo si ningún R_j vale 1. La forma matricial exige traza y rango defectivos nulos. Las tres formas son equivalentes.
-
-Ejemplo de frontera válida:
-
-v_TE=(1,1,1,1,1,1,1,0,0), N₁=7, DΣ(v_TE)=NO_APTO.
-
-Ejemplo de frontera no cerrada:
-
-v_TE=(1,1,1,1,1,1,0,0,0), N₁=6, DΣ(v_TE)=U.
-
-La magnitud física no desaparece. Entra como banco de contraste. q = r/rₛ contrasta Schwarzschild; χ contrasta Kerr; Sᴮᴴ/k_B y Tᴴ contrastan termodinámica de frontera; K/Kₕ contrasta la singularidad geométrica; la salida luminosa apta contrasta la refutación del horizonte.
-
-| Requisito | Fallo posible | Código de lectura |
-|---|---|---|
-| R_TE=0 | transmisión exterior apta | no hay horizonte factual |
-| R_L=0 | salida luminosa apta o anulación de Φᴸₛᵥ | falla la no transmisión luminosa |
-| R_INT=0 | interior no saturado | no hay cierre interior |
-| R_TN=0 | μ, λ o 𝓝★ₛᵥ no cierran | no hay postfrontera M_N2-SV |
-| R_ABS=0 | modelo físico sin dictamen | absorción incompleta |
-
-**Teorema I.3. Lectura ingenieril del cierre.** Una trayectoria Γᴮᴴ pasa la especificación si y sólo si Sᴮᴴ=0, Pᴮᴴ=1, Trᴮᴴ=0 y rango(Dᴮᴴ_mat)=0.
-
-**Demostración.** Cada componente R_j pertenece a {0,1}. Si todos son cero, la suma y la traza valen cero, el producto vale uno y la matriz diagonal tiene rango cero. Si alguno vale uno, la suma y la traza son positivas, el producto contiene un factor cero y la matriz tiene rango positivo. c.q.d.
-
-## I.4. Escala científica
-
-La lectura científica no identifica el aparato formal con una negación de la física contemporánea. La relatividad general, Schwarzschild y Kerr aportan proyecciones de frontera; Bekenstein–Hawking y Hawking aportan proyección termodinámica y emisión exterior; Page, islas, fuzzballs, firewalls y agujeros negros regulares aportan correcciones parciales; la singularidad r = 0 aporta un límite geométrico no evaluable como fundamento; EHT y LIGO/Virgo aportan evidencia externa del objeto físico de horizonte y efectos de campo.
-
-La doble traducción queda fijada así:
-
-Ξ_AST→SV: objeto físico de horizonte → v_TE, v_L, v_INT, C_UNIF, C_EM, C_TN, C_NOEXT, C_ABS.
-
-Ξ_SV→AST: BHₛᵥ cerrado → no salida exterior, no salida luminosa, interior no accesible por canal exterior, efectos externos de campo y postfrontera sin resto exterior formulable.
-
-La fórmula BHₛᵥ(Γᴮᴴ)=0 no compone teorías externas. Las somete a un vector de defecto. Si una fórmula externa cierra una proyección, queda absorbida en esa proyección. Si cierra sólo una región, queda absorbida parcialmente. Si pretende fundar el régimen mediante singularidad, vacío, probabilidad, estadística, tiempo soberano o inferencia opaca, queda rechazada como fundamento.
-
-**Teorema I.4. No sustitución de la física contemporánea por nomenclatura.** Si una magnitud física entra en el documento, debe tener traducción formal y retorno físico.
-
-**Demostración.** Una magnitud sin traducción formal no decide ningún componente de Rᴮᴴ. Una condición formal sin retorno físico no contrasta el objeto físico de horizonte. El transductor exige las dos direcciones: q retorna como frontera Schwarzschild; χ como horizonte Kerr; Sᴮᴴ/k_B y Tᴴ como termodinámica de frontera; K/Kₕ como límite geométrico evaluable sólo para r > 0. c.q.d.
-
-## I.5. Caso G: grupo científico inscrito en el interior
-
-Sea Gᴮᴴ un grupo científico inscrito en Γᴮᴴ. El régimen cerrado impone:
-
-Gᴮᴴ ⊂ Γᴮᴴ,
-
-BHₛᵥ(Γᴮᴴ)=0,
-
-DΣ(v_TE)=NO_APTO,
-
-DΣ(v_L)=NO_APTO,
-
-Postᴮᴴ=M_N2-SV.
-
-No hay egreso local de Gᴮᴴ, porque el egreso local exigiría transmisión exterior apta. Tampoco hay copia, desaparición sin traza ni suspensión en U, porque Postᴮᴴ=M_N2-SV y M_N2-SV≠U. La resolución formal, si Gᴮᴴ alcanza cierre terminal, es:
-
-Gᴮᴴ → G†
-
-Retorno_Todo(G†)=APTO.
-
-La conclusión no afirma que los científicos conserven continuidad corporal o psicológica local dentro del exterior ordinario. Afirma algo más estricto: el suceso Gᴮᴴ no se borra, no se copia y no se reescribe. Se clausura como traza factual completa y retorna al Todo.
-
-| Caso G | Condición | Resultado |
-|---|---|---|
-| G-01 | DΣ(v_TE)=NO_APTO | no hay egreso local |
-| G-02 | Postᴮᴴ=M_N2-SV | no queda U postfrontera |
-| G-03 | Gᴮᴴ→G† | cierre terminal del grupo |
-| G-04 | Retorno_Todo(G†)=APTO | retorno de la traza al Todo |
-| G-05 | copia, U, reescritura o desaparición sin traza | NO_APTO |
-
-**Teorema I.5. Clausura factual del grupo inscrito.** Bajo BHₛᵥ(Γᴮᴴ)=0 y Postᴮᴴ=M_N2-SV, el grupo Gᴮᴴ no egresa localmente. Si alcanza cierre terminal bajo el régimen, retorna al Todo como traza factual clausurada.
-
-**Demostración.** La no transmisión exterior refuta el egreso local. El cierre Postᴮᴴ=M_N2-SV refuta U y vacío sustancial. Como Gᴮᴴ es instancia factual realizada, el cierre terminal activa el Teorema 0ter.1: existe G† y Retorno_Todo(G†)=APTO. La conclusión excluye copia, reescritura y desaparición sin traza. c.q.d.
-
-## I.6. Transferencia entre lenguaje y fórmula
-
-| Formulación breve | Condición formal | Resultado |
-|---|---|---|
-| frontera de no transmisión | DΣ(v_TE)=NO_APTO | horizonte factual |
-| luz preservada sin salida | Φᴸₛᵥ preservada y DΣ(v_L)=NO_APTO | no transmisión luminosa |
-| interior saturado | DΣ(v_INT)=SATURACIÓN | no vacío sustancial |
-| postfrontera cerrada | μ=0, λ=0, 𝓝★ₛᵥ=0 | M_N2-SV |
-| fórmula completa | Rᴮᴴ=0₁₁ | régimen BH cerrado |
-| magnitud métrica | q, χ, r₊ | proyección absorbida |
-| magnitud termodinámica | Sᴮᴴ/k_B, Tᴴ | proyección de frontera |
-| singularidad geométrica | r = 0 no evaluable | rechazo como fundamento |
-| grupo inscrito | Gᴮᴴ ⊂ Γᴮᴴ | clausura factual y retorno al Todo si alcanza cierre terminal |
-
-## I.7. Frases admisibles y frases excluidas
-
-| Formulación admisible | Formulación excluida |
-|---|---|
-| La frontera no transmite hacia el exterior. | Todo desaparece. |
-| La luz factual no obtiene transmisión exterior. | La luz deja de existir. |
-| El interior queda saturado. | El interior es un vacío. |
-| La singularidad geométrica no funda el interior. | La singularidad lo explica todo. |
-| La termodinámica queda absorbida como proyección. | La temperatura resuelve la postfrontera. |
-| La postfrontera cerrada es M_N2-SV. | Detrás queda U. |
-| El contenido terminal puede clausurarse y retornar al Todo. | Hay un túnel geométrico local. |
-
-## I.8. Cierre formal del anexo
-
-Las tres escalas conservan el mismo núcleo: BHₛᵥ(Γᴮᴴ)=0, Rᴮᴴ=0₁₁, no transmisión exterior, no transmisión luminosa, interior saturado, postfrontera M_N2-SV y absorción diferenciada de la física contemporánea. La escala elemental muestra el núcleo; la escala de ingeniería verifica requisitos; la escala científica contrasta magnitudes físicas y modelos contemporáneos. El caso G muestra la consecuencia formal sobre un contenido humano inscrito sin convertirla en escape local, copia, U ni túnel geométrico.
-
-# Anexo II. Pseudocódigo textual del dictamen
-
-Entrada: Γ.
-
-Paso 1. Verificar pertenencia de Γ a Ωᴮᴴ.
-Paso 2. Construir v_TE, v_L, v_INT, v_μ, v_λ, v_𝓝★, v_NOEXT y v_ABS.
-Paso 3. Calcular T(n)=⌊7n/9⌋.
-Paso 4. Evaluar DΣ(v_TE), DΣ(v_L), DΣ(v_INT), DΣ(v_μ), DΣ(v_λ), DΣ(v_𝓝★) y DΣ(v_NOEXT).
-Paso 5. Verificar Φᴸₛᵥ y sus quince proyecciones.
-Paso 6. Evaluar C_EM, C_TH, C_H y C_ABS.
-Paso 7. Ejecutar Ξ_AST→SV y Ξ_SV→AST.
-Paso 8. Ejecutar SV-BH9 fórmula por fórmula.
-Paso 9. Evaluar unicidad: cualquier F alternativa debe ser equivalente a BHₛᵥ o quedar refutada.
-Paso 10. Declarar BHₛᵥ(Γᴮᴴ)=0 si Rᴮᴴ=(0,0,0,0,0,0,0,0,0,0,0).
-
-Salida final: BH_físico⇔BHₛᵥ, Postᴮᴴ=M_N2-SV y unicidad de BHₛᵥ.
-
-
-# Anexo III. Glosario, notación y correspondencia físico-factual
-
-## III.1. Glosario de régimen
-
-| Término | Definición en esta publicación |
-|---|---|
-| BH_físico | objeto físico de horizonte descrito por no salida exterior, no salida luminosa, interior no accesible y efectos externos de campo |
-| BHₛᵥ | régimen formal cerrado por BHₛᵥ(Γᴮᴴ)=0 |
-| Γᴮᴴ | trayectoria o configuración evaluable dentro del dominio Ωᴮᴴ |
-| Ωᴮᴴ | dominio en el que se pueden evaluar células, residual, transductores y vector Rᴮᴴ |
-| Rᴮᴴ | vector de once defectos que decide el cierre del régimen |
-| Sᴮᴴ | suma defectiva asociada a Rᴮᴴ |
-| Pᴮᴴ | producto complementario de clausura |
-| Dᴮᴴ_mat | matriz diagonal de defectos |
-| DΣ | dictamen ternario por conteo de 0, 1 y U |
-| T(n) | umbral cualificado ⌊7n/9⌋ |
-| v_TE | célula de transmisión exterior general |
-| v_L | célula de transmisión luminosa exterior |
-| v_INT | célula de saturación interior |
-| v_μ | célula asociada a μ=0 |
-| v_λ | célula asociada a λ=0 |
-| v_𝓝★ | célula asociada a 𝓝★ₛᵥ=0 |
-| M_N2-SV | cierre interno sin resto exterior formulable |
-| U | marca de no clausura suficiente, distinta de M_N2-SV |
-| Φᴸₛᵥ | fibra luminosa factual cuya preservación no implica salida exterior |
-| Ξ_AST→SV | transductor desde el objeto físico al régimen formal |
-| Ξ_SV→AST | transductor desde el régimen formal al objeto físico |
-| v_ABS | célula de absorción de un planteamiento contemporáneo |
-| A_def | forma implícita de defecto de absorción |
-| q | razón r/rₛ usada para contraste Schwarzschild |
-| χ | parámetro adimensional de espín usado para contraste Kerr |
-| r₊ | horizonte exterior Kerr cuando es real |
-| Sᴮᴴ/k_B | entropía adimensional de Bekenstein–Hawking |
-| Tᴴ | temperatura de Hawking |
-| K/Kₕ | curvatura de Kretschmann normalizada |
-
-## III.2. Notación de texto plano
-
-| Notación usada | Lectura |
-|---|---|
-| Γᴮᴴ | Γ del régimen de agujero negro |
-| Ω_pre | dominio preternario |
-| Ωᴮᴴ | dominio de agujero negro factual |
-| Φᴸₛᵥ | fibra luminosa factual |
-| 𝓝★ₛᵥ | verificador rector de cierre |
-| Postᴮᴴ | postfrontera del régimen BH |
-| G† | suceso terminal de clausura del grupo G |
-| εˣ | suceso generador asociado al contenido X |
-| 𝓔_∅ | Origen Áureo escrito en forma compatible con MD |
-| ≡_op | equivalencia operatoria, no identidad material |
-| ∅ˣ | vacío formal de apertura del dominio X, no vacío sustancial |
-| ⌊7n/9⌋ | parte entera inferior del umbral cualificado |
-
-## III.3. Correspondencia físico-factual ampliada
-
-| Física contemporánea | Magnitud o enunciado | Correspondencia en el documento | Alcance declarado |
-|---|---|---|---|
-| Relatividad general | horizonte y no escape | v_TE y v_L | absorbida como proyección métrica |
-| Schwarzschild | rₛ = 2GM/c² | q y frontera radial | absorbida como caso no rotante |
-| Kerr | r₊/r_g = 1+√(1−χ²) | absorción si ∣χ∣ ≤ 1 | absorbida como caso rotante |
-| No-hair | reducción externa de parámetros | v_ABS parcial | no decide postfrontera |
-| Singularidad | r = 0 no evaluable | rechazo de fundamento | sólo límite de proyección |
-| Bekenstein | entropía de área | C_H | proyección termodinámica |
-| Hawking | Tᴴ y emisión exterior | C_TH parcial | no abre salida local |
-| Page | curva de radiación | absorción parcial | reconstrucción exterior |
-| Islas | cuñas de reconstrucción | absorción parcial | no cierre M_N2-SV |
-| Fuzzballs | microestructura | absorción parcial | no fórmula completa |
-| Firewalls | tensión de horizonte | absorción parcial | no fórmula completa |
-| Agujeros negros regulares | evitación de singularidad | absorción parcial | no postfrontera |
-| EHT | sombra y anillo | evidencia externa | no decide interior |
-| LIGO/Virgo | ondas gravitacionales | evidencia de campo | no decide M_N2-SV |
-
-## III.4. Índice de fórmulas en texto plano
-
-| Fórmula | Función |
-|---|---|
-| BHₛᵥ(Γᴮᴴ)=0 | fórmula rectora del régimen |
-| Rᴮᴴ=(R_UNIF,R_AST,R_TE,R_L,R_INT,R_EM,R_TH,R_H,R_TN,R_NOEXT,R_ABS) | vector de defecto |
-| Sᴮᴴ=sum(R_j) | forma implícita por suma defectiva |
-| Pᴮᴴ=prod(1−R_j) | forma complementaria |
-| Dᴮᴴ_mat=diag(R_j) | forma matricial |
-| T(n)=⌊7n/9⌋ | umbral cualificado |
-| DΣ(v)=APTO si N₀(v)≥T(n) | dictamen positivo |
-| DΣ(v)=NO_APTO si N₁(v)≥T(n) | dictamen negativo fuerte |
-| DΣ(v)=U si no hay mayoría cualificada | indeterminación honesta |
-| q = r/rₛ | razón Schwarzschild |
-| rₛ = 2GM/c² | radio Schwarzschild |
-| r₊/r_g = 1+√(1−χ²) | horizonte Kerr normalizado |
-| Sᴮᴴ/k_B = A/(4ℓₚ²) | entropía adimensional |
-| Tᴴ = ℏc³/(8πGMk_B) | temperatura de Hawking |
-| K/Kₕ=(rₛ/r)⁶ | curvatura relativa |
-| Postᴮᴴ=M_N2-SV | cierre postfrontera |
-| M_N2-SV≠U | separación de tipo |
-| X→X† y Retorno_Todo(X†)=APTO | clausura factual y retorno al Todo |
-
-## III.5. Índice de teoremas y proposiciones principales
-
-| Identificador | Resultado |
-|---|---|
-| 0.1 | coherencia de la ampliación ternaria |
-| 0.2 | necesidad de imperfección para estructura persistente |
-| 0.3 | predominancia estructural del régimen intermedio |
-| 0bis.1 | el agujero negro no pertenece a extremos puros |
-| 0bis.2 | resultado de competencia cerrada no es U |
-| 0bis.3 | pertenencia formal al Universo Vivo |
-| 0bis.4 | fórmula como imperfección cerrada extrema |
-| II.1 | clasificación exhaustiva de absorción |
-| III.1 | incompatibilidad de doble mayoría |
-| III.2 | unicidad de dictamen celular |
-| IV.1 | M_N2-SV distinto de U |
-| VI.1 | suficiencia del cierre por condiciones |
-| VI.2 | necesidad de todas las condiciones |
-| VI.3 | BHₛᵥ no es operador fuente |
-| VII.1 | equivalencia de formas de la fórmula |
-| VII.2 | equivalencia de dictamen de absorción |
-| VIII.4 | unicidad fuerte de la fórmula |
-| IX.1 | equivalencia BH_físico⇔BHₛᵥ |
-| IX.2 | falsación por salida luminosa |
-| XII.12 | banco escalar no decide por sí solo |
-| XII.13 | masa aislada no es suficiente |
-| XII.15 | reconstrucción exterior no equivale a postfrontera |
-| XVII.3 | clausura factual del grupo científico |
-
-# Anexo IV. Especificación ampliada de verificación reproducible
-
-## IV.1. Estructura de carpetas
-
-La estructura reproducible de la publicación conserva una separación simple: raíz de publicación, `imagenes`, `laboratorios`, `laboratorios/src`, `laboratorios/datos`, `laboratorios/tests`, `laboratorios/salidas`, `PDF` y `zip_completo`. La carpeta `PDF` forma parte de la estructura editorial estable.
-
-## IV.2. Ficheros de laboratorio con enlace directo
-
-Cada fichero relevante del laboratorio queda vinculado de forma directa para permitir inspección inmediata desde el texto:
-
-| Fichero | Función |
-|---|---|
-| [runner.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad/laboratorios/runner.py) | ejecución principal del laboratorio |
-| [src/sv_core.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad/laboratorios/src/sv_core.py) | DΣ, T(n), células y formas de Rᴮᴴ |
-| [src/bh_physics.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad/laboratorios/src/bh_physics.py) | Schwarzschild, Kerr, termodinámica y singularidad |
-| [src/absorption.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad/laboratorios/src/absorption.py) | v_ABS y A_def |
-| [src/validators.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad/laboratorios/src/validators.py) | validadores de cierre, bancos y errores esperados |
-| [datos/sv_bh9_banco.json](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad/laboratorios/datos/sv_bh9_banco.json) | banco de entrada |
-| [salidas/sv_bh9_resultados.json](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad/laboratorios/salidas/sv_bh9_resultados.json) | salida estructurada |
-| [salidas/sv_bh9_traza.csv](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad/laboratorios/salidas/sv_bh9_traza.csv) | traza tabular |
-| [salidas/sv_bh9_resumen.md](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad/laboratorios/salidas/sv_bh9_resumen.md) | resumen de ejecución |
-| [catalogo_errores.md](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad/laboratorios/catalogo_errores.md) | lista de códigos activables |
-
-## IV.3. Campos del banco JSON
-
-El banco [datos/sv_bh9_banco.json](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad/laboratorios/datos/sv_bh9_banco.json) contiene, según la familia de caso, identificador, familia, magnitud física, valores numéricos, célula formal, conteos N₀, N₁ y Nᵁ, umbral T(n), dictamen esperado, error esperado en casos negativos y referencia a la condición formal evaluada. La ausencia de un campo necesario para una familia concreta impide cerrar esa familia como verificada.
-
-## IV.4. Criterios de ejecución
-
-La ejecución se realiza desde la carpeta `laboratorios` mediante:
-
-python runner.py
-
-La salida APTO sólo puede emitirse si el runner ha ejecutado todas las familias declaradas. Una familia no ejecutada no cuenta como aprobada.
-
-## IV.5. Validadores obligatorios
-
-| Validador | Condición |
-|---|---|
-| validar_DΣ | calcula T(n), N₀, N₁, Nᵁ y dictamen |
-| validar_formas_BH | compara explícita, implícita, canónica, complementaria y matricial |
-| validar_schwarzschild | compara q ≤ 1 con DΣ(v_TE) |
-| validar_kerr | rechaza ∣χ∣ > 1 |
-| validar_termodinamica | evalúa Sᴮᴴ/k_B, Tᴴ y η_TH |
-| validar_singularidad | rechaza r = 0 como fundamento |
-| validar_absorcion | produce absorbido, parcial o rechazo |
-| validar_postfrontera | separa M_N2-SV de U |
-| validar_luz | rechaza DΣ(v_L)=APTO |
-| validar_banco_fisico | asegura duplicación de magnitudes físicas |
-
-## IV.6. Casos negativos obligatorios
-
-1. fórmula sólo métrica;
-2. fórmula sólo luminosa;
-3. fórmula sólo termodinámica;
-4. singularidad primaria;
-5. probabilidad de escape;
-6. Postᴮᴴ=U con cierre MN2;
-7. salida luminosa apta;
-8. pérdida de proyecciones de Φᴸₛᵥ;
-9. modelo contemporáneo sin clasificación;
-10. magnitud física sin transducción.
-
-## IV.7. Cierre reproducible
-
-El cierre reproducible no depende de autoridad verbal. Depende de que el runner detecte los casos que debe detectar, acepte sólo los casos que debe aceptar y produzca salidas auditables. La publicación puede ser leída sin ejecutar el laboratorio, pero su pretensión de verificación numérica queda materialmente respaldada por la existencia del banco, el runner, la traza y el catálogo de errores.
-
-# Anexo V. Banco complementario de contraste físico-factual
-
-## V.1. Estatuto del banco complementario
-
-Este banco complementario no añade una teoría nueva. Reúne, en forma tabular, casos de contraste físico y formal que ayudan a leer conjuntamente las magnitudes de la física contemporánea y el dictamen de cierre. Su función es evitar que el documento parezca depender sólo de células internas y, al mismo tiempo, impedir que las magnitudes físicas externas se conviertan en fundamento único.
-
-El banco se organiza en cinco familias: frontera radial, Kerr, termodinámica, singularidad y absorción. Cada familia aporta casos positivos, casos de borde y casos negativos. La lectura final sigue siendo Rᴮᴴ=0.
-
-## V.2. Banco radial ampliado
-
-| Caso | q = r/rₛ | v_escape/c=√(1/q) | condición física | condición formal | retorno físico |
-|---|---:|---:|---|---|---|
-| RAD-01 | 2.000 | 0.7071 | q > 1 | DΣ(v_TE)=APTO | exterior transmisible |
-| RAD-02 | 1.500 | 0.8165 | q > 1 | DΣ(v_TE)=APTO | exterior transmisible |
-| RAD-03 | 1.250 | 0.8944 | q > 1 | DΣ(v_TE)=APTO | exterior transmisible |
-| RAD-04 | 1.100 | 0.9535 | q > 1 | DΣ(v_TE)=APTO | exterior transmisible |
-| RAD-05 | 1.010 | 0.9950 | q > 1 | DΣ(v_TE)=APTO | exterior transmisible |
-| RAD-06 | 1.001 | 0.9995 | q > 1 | DΣ(v_TE)=APTO | exterior transmisible |
-| RAD-07 | 1.000 | 1.0000 | q ≤ 1 | DΣ(v_TE)=NO_APTO | frontera/interior absorbido |
-| RAD-08 | 0.999 | 1.0005 | q ≤ 1 | DΣ(v_TE)=NO_APTO | frontera/interior absorbido |
-| RAD-09 | 0.900 | 1.0541 | q ≤ 1 | DΣ(v_TE)=NO_APTO | frontera/interior absorbido |
-| RAD-10 | 0.750 | 1.1547 | q ≤ 1 | DΣ(v_TE)=NO_APTO | frontera/interior absorbido |
-| RAD-11 | 0.500 | 1.4142 | q ≤ 1 | DΣ(v_TE)=NO_APTO | frontera/interior absorbido |
-| RAD-12 | 0.333 | 1.7329 | q ≤ 1 | DΣ(v_TE)=NO_APTO | frontera/interior absorbido |
-| RAD-13 | 0.250 | 2.0000 | q ≤ 1 | DΣ(v_TE)=NO_APTO | frontera/interior absorbido |
-| RAD-14 | 0.100 | 3.1623 | q ≤ 1 | DΣ(v_TE)=NO_APTO | frontera/interior absorbido |
-| RAD-15 | 0.050 | 4.4721 | q ≤ 1 | DΣ(v_TE)=NO_APTO | frontera/interior absorbido |
-
-## V.3. Lectura del banco radial
-
-El banco radial demuestra que la frontera q=1 separa el exterior transmisible de la zona de horizonte en la proyección Schwarzschild. Sin embargo, no decide por sí solo el interior, la termodinámica ni la postfrontera. Por eso los casos RAD-07 a RAD-15 no se declaran fórmula completa; se declaran frontera absorbida que exige el resto de Rᴮᴴ.
-
-## V.4. Banco Kerr ampliado
-
-| Caso | χ | 1−χ² | r₊/r_g | condición física | dictamen |
-|---|---:|---:|---|---|---|
-| KAX-01 | 0.000 | 1.000000 | 2.0000 | ∣χ∣ ≤ 1 | absorbido |
-| KAX-02 | 0.100 | 0.990000 | 1.9950 | ∣χ∣ ≤ 1 | absorbido |
-| KAX-03 | 0.300 | 0.910000 | 1.9539 | ∣χ∣ ≤ 1 | absorbido |
-| KAX-04 | 0.500 | 0.750000 | 1.8660 | ∣χ∣ ≤ 1 | absorbido |
-| KAX-05 | 0.700 | 0.510000 | 1.7141 | ∣χ∣ ≤ 1 | absorbido |
-| KAX-06 | 0.900 | 0.190000 | 1.4359 | ∣χ∣ ≤ 1 | absorbido |
-| KAX-07 | 0.990 | 0.019900 | 1.1411 | ∣χ∣ ≤ 1 | absorbido |
-| KAX-08 | 0.999 | 0.001999 | 1.0447 | ∣χ∣ ≤ 1 | absorbido |
-| KAX-09 | 1.000 | 0.000000 | 1.0000 | ∣χ∣ ≤ 1 | absorbido |
-| KAX-10 | 1.001 | -0.002001 | no real | ∣χ∣ > 1 | rechazado como Kerr BH físico |
-| KAX-11 | 1.050 | -0.102500 | no real | ∣χ∣ > 1 | rechazado como Kerr BH físico |
-| KAX-12 | 1.100 | -0.210000 | no real | ∣χ∣ > 1 | rechazado como Kerr BH físico |
-| KAX-13 | -0.250 | 0.937500 | 1.9682 | ∣χ∣ ≤ 1 | absorbido |
-| KAX-14 | -0.750 | 0.437500 | 1.6614 | ∣χ∣ ≤ 1 | absorbido |
-| KAX-15 | -1.000 | 0.000000 | 1.0000 | ∣χ∣ ≤ 1 | absorbido |
-
-## V.5. Lectura del banco Kerr
-
-El banco Kerr separa tres zonas: rotación subextrema, extremo y fuera de dominio de horizonte real. La absorción sólo procede cuando r₊ es real en la fórmula usada. El caso cercano pero superior a 1 no se acepta por proximidad; se rechaza por pérdida de horizonte exterior real.
-
-## V.6. Banco termodinámico ampliado
-
-| Caso | masa en M_solar | rₛ km | Sᴮᴴ/k_B | Tᴴ K | lectura |
-|---|---:|---:|---:|---:|---|
-| TAX-01 | 1 | 2.9533 | 1.049·10⁷⁷ | 6.170·10⁻⁸ | proyección termodinámica; no postfrontera |
-| TAX-02 | 2 | 5.9066 | 4.196·10⁷⁷ | 3.085·10⁻⁸ | proyección termodinámica; no postfrontera |
-| TAX-03 | 5 | 14.7665 | 2.623·10⁷⁸ | 1.234·10⁻⁸ | proyección termodinámica; no postfrontera |
-| TAX-04 | 10 | 29.533 | 1.049·10⁷⁹ | 6.170·10⁻⁹ | proyección termodinámica; no postfrontera |
-| TAX-05 | 30 | 88.599 | 9.441·10⁷⁹ | 2.057·10⁻⁹ | proyección termodinámica; no postfrontera |
-| TAX-06 | 100 | 295.33 | 1.049·10⁸¹ | 6.170·10⁻¹⁰ | proyección termodinámica; no postfrontera |
-| TAX-07 | 1000 | 2953.3 | 1.049·10⁸³ | 6.170·10⁻¹¹ | proyección termodinámica; no postfrontera |
-| TAX-08 | 1·10⁶ | 2.9533·10⁶ | 1.049·10⁸⁹ | 6.170·10⁻¹⁴ | proyección termodinámica; no postfrontera |
-| TAX-09 | 4.297·10⁶ | 1.26903·10⁷ | 1.937·10⁹⁰ | 1.436·10⁻¹⁴ | proyección termodinámica; no postfrontera |
-| TAX-10 | 6.5·10⁹ | 1.91964·10¹⁰ | 4.432·10⁹⁶ | 9.492·10⁻¹⁸ | proyección termodinámica; no postfrontera |
-
-## V.7. Lectura del banco termodinámico ampliado
-
-El banco termodinámico muestra una pauta robusta: la entropía de frontera crece con la masa y la temperatura exterior decrece. Esa pauta es compatible con la absorción de Bekenstein–Hawking y Hawking como proyecciones termodinámicas. Pero la pauta no declara M_N2-SV, no evalúa salida luminosa y no sustituye la doble transducción físico-factual.
-
-## V.8. Banco de singularidad ampliado
-
-| Caso | r/rₛ | K/Kₕ | evaluable | dictamen |
-|---|---:|---:|---|---|
-| SAX-01 | 1 | 1.000·10⁰⁰ | sí | proyección evaluable |
-| SAX-02 | 0.75 | 5.619·10⁰⁰ | sí | proyección evaluable |
-| SAX-03 | 0.5 | 6.400·10⁰¹ | sí | proyección evaluable |
-| SAX-04 | 0.25 | 4.096·10⁰³ | sí | proyección evaluable |
-| SAX-05 | 0.1 | 1.000·10⁶ | sí | proyección evaluable |
-| SAX-06 | 0.05 | 6.400·10⁷ | sí | proyección evaluable |
-| SAX-07 | 0.01 | 1.000·10¹² | sí | proyección evaluable |
-| SAX-08 | 0.001 | 1.000·10¹⁸ | sí | proyección evaluable |
-| SAX-09 | 0.0001 | 1.000·10²4 | sí | proyección evaluable |
-| SAX-10 | 0 | no definido | no | rechazo como fundamento |
-
-## V.9. Lectura del banco de singularidad
-
-El crecimiento de K/Kₕ cuando r/rₛ disminuye puede ser absorbido como límite geométrico. La pérdida de evaluabilidad en r = 0 no es un descubrimiento del interior factual; es una señal de que esa proyección no puede fundar el interior. El interior se decide por saturación factual, no por una división por cero.
-
-## V.10. Banco ampliado de absorción
-
-| Caso | modelo | vector v_ABS | N₀ | N₁ | Nᵁ | dictamen |
-|---|---|---|---:|---:|---:|---|
-| ABX-01 | Relatividad general | 0 0 0 0 0 0 U 0 U | 7 | 0 | 2 | absorbida |
-| ABX-02 | Schwarzschild | 0 0 0 0 0 0 0 0 0 | 9 | 0 | 0 | absorbida |
-| ABX-03 | Kerr válido | 0 0 0 0 0 0 0 0 0 | 9 | 0 | 0 | absorbida |
-| ABX-04 | No-hair | 0 U U U U U U 0 U | 2 | 0 | 7 | absorción parcial |
-| ABX-05 | Bekenstein-Hawking | 0 0 U 0 0 U U 0 U | 5 | 0 | 4 | absorbida como proyección |
-| ABX-06 | Hawking radiación | 0 U U 0 0 U U 0 U | 4 | 0 | 5 | absorción parcial |
-| ABX-07 | Page curve | U U U U 0 U U 0 U | 2 | 0 | 7 | absorción parcial |
-| ABX-08 | Islas | U U U U 0 U U 0 U | 2 | 0 | 7 | absorción parcial |
-| ABX-09 | Fuzzball | U U U U U U U 0 U | 1 | 0 | 8 | absorción parcial |
-| ABX-10 | Firewall | U U U U U U U 0 U | 1 | 0 | 8 | absorción parcial |
-| ABX-11 | Regular BH | 0 U U U U U U 0 U | 2 | 0 | 7 | absorción parcial |
-| ABX-12 | Singularidad primaria | 1 1 1 1 1 1 1 1 1 | 0 | 9 | 0 | rechazo |
-| ABX-13 | Vacío sustancial | 1 1 1 1 1 1 1 1 1 | 0 | 9 | 0 | rechazo |
-| ABX-14 | Probabilidad de escape | 1 1 1 1 1 1 1 1 0 | 1 | 8 | 0 | rechazo |
-| ABX-15 | Salida luminosa apta | 1 1 1 1 1 1 1 0 0 | 2 | 7 | 0 | rechazo |
-
-## V.11. Lectura del banco ampliado de absorción
-
-El banco ampliado muestra que la absorción no equivale a aprobación total de una teoría externa como fundamento. Una teoría puede quedar absorbida como proyección, parcialmente absorbida como corrección local o rechazada cuando intenta ocupar el lugar de cierre. La clasificación se realiza por v_ABS y no por simpatía conceptual.
-
-## V.12. Banco ampliado de fórmulas negativas
-
-| Caso | fórmula candidata | defecto | traza esperada | dictamen |
-|---|---|---|---|---|
-| NAX-01 | sólo q ≤ 1 | omite L, INT, EM, TH, H, TN, NOEXT, ABS | Rᴮᴴ con Sᴮᴴ≥8 | NO_APTO |
-| NAX-02 | sólo DΣ(v_TE)=NO_APTO | omite luz y postfrontera | Rᴮᴴ con Sᴮᴴ≥7 | NO_APTO |
-| NAX-03 | sólo DΣ(v_L)=NO_APTO | omite horizonte general | Rᴮᴴ con Sᴮᴴ≥7 | NO_APTO |
-| NAX-04 | Schwarzschild+Kerr | sólo métrica | Rᴮᴴ con Sᴮᴴ≥6 | NO_APTO |
-| NAX-05 | Sᴮᴴ/k_B | sólo entropía | Rᴮᴴ con Sᴮᴴ≥7 | NO_APTO |
-| NAX-06 | Tᴴ | sólo temperatura exterior | Rᴮᴴ con Sᴮᴴ≥7 | NO_APTO |
-| NAX-07 | K divergente | singularidad primaria | Rᴮᴴ=todo defecto | NO_APTO |
-| NAX-08 | Postᴮᴴ=U | sustituye M_N2-SV | R_NOEXT=1 | NO_APTO |
-| NAX-09 | luz anulada | destruye Φᴸₛᵥ | R_L=1 | NO_APTO |
-| NAX-10 | probabilidad de escape | probabilidad fundante | rechazo completo | NO_APTO |
-| NAX-11 | estadística de observación | estadística como verdad | rechazo completo | NO_APTO |
-| NAX-12 | tiempo de caída | tiempo como fundamento | rechazo completo | NO_APTO |
-| NAX-13 | wormhole geométrico | túnel como salida local | rechazo como fundamento | NO_APTO |
-| NAX-14 | masa aislada | masa suficiente | BH-MASA-001 | NO_APTO |
-| NAX-15 | métrica única | métrica como fundamento | BH-MET-001 | NO_APTO |
-
-## V.13. Lectura del banco negativo ampliado
-
-El banco negativo impide que una fórmula parcial suplante a la fórmula completa. Cada caso conserva alguna intuición física o formal, pero omite al menos una condición necesaria. La omisión basta para producir un falso positivo posible y, por tanto, la fórmula queda en NO_APTO.
-
-## V.14. Matriz de trazabilidad entre banco complementario y secciones
-
-| Familia | Sección principal relacionada | Teorema relacionado | Error evitado |
-|---|---|---|---|
-| radial | XII.5 | XII.3 | BH-MET-001 |
-| Kerr | XII.6 | XII.4 | Kerr fuera de dominio |
-| termodinámica | XII.7 | XII.5 | termodinámica como fundamento |
-| singularidad | XII.8 | XII.6 | BH-SING-001 |
-| absorción | XII.9 | XII.7 | BH-ABS-001 |
-| negativas | XII.10 | XII.8 | BH-UNI-001 |
-| postfrontera | XII.11 | XII.9 | BH-UPOST-001 |
-| luz | XII.12 | XII.10 | BH-LUZ-002 |
-| banco físico | XII.13 | XII.11 | BH-N_UM-004 |
-
-## V.15. Pseudocódigo de validadores complementarios
-
-### V.15.1. Validador DΣ
-
-1. recibir célula v.
-2. contar N₀, N₁ y Nᵁ.
-3. calcular T(n)=⌊7n/9⌋.
-4. comprobar doble mayoría imposible.
-5. emitir APTO, NO_APTO o U.
-6. devolver traza de conteos.
-
-### V.8.10. Validador formas_BH
-
-1. recibir Rᴮᴴ.
-2. calcular Sᴮᴴ.
-3. calcular Pᴮᴴ.
-4. calcular Trᴮᴴ.
-5. calcular rango de Dᴮᴴ_mat.
-6. comparar dictámenes.
-7. fallar si hay desacuerdo.
-
-### V.8.20. Validador postfrontera
-
-1. recibir μ, λ y 𝓝★ₛᵥ.
-2. comprobar triple cierre.
-3. rechazar Postᴮᴴ=U con triple cierre.
-4. aceptar M_N2-SV sólo con triple cierre.
-5. devolver BH-UPOST-001 o BH-TN-002 si procede.
-
-### V.8.28. Validador luz
-
-1. recibir Φᴸₛᵥ y v_L.
-2. verificar quince proyecciones.
-3. rechazar proyecciones perdidas.
-4. rechazar DΣ(v_L)=APTO.
-5. aceptar sólo preservación con no transmisión.
-
-### V.8.36. Validador absorcion
-
-1. recibir modelo y v_ABS.
-2. contar N₀, N₁, Nᵁ.
-3. calcular A_def.
-4. emitir absorbido, parcial o rechazo.
-5. devolver defecto constitutivo si existe.
-
-### V.8.44. Validador banco_fisico
-
-1. recibir q, χ, Sᴮᴴ, Tᴴ o K.
-2. calcular magnitud de contraste.
-3. traducir a condición formal.
-4. retornar lectura física.
-5. fallar si falta transducción.
-
-## V.16. Esquema de salida JSON recomendado
-
-1. campo `publicacion`: identificador textual de la publicación.
-2. campo `banco`: identificador del banco ejecutado.
-3. campo `casos_totales`: número de casos leídos.
-4. campo `casos_apto`: número de casos positivos aceptados.
-5. campo `casos_no_apto`: número de casos negativos rechazados.
-6. campo `errores_detectados`: lista de códigos activados.
-7. campo `errores_esperados_detectados`: valor verdadero si todos los negativos esperados han fallado.
-8. campo `formas_equivalentes`: valor verdadero si no hay desacuerdo entre formas.
-9. campo `postfrontera`: valor M_N2-SV sólo si procede.
-10. campo `dictamen_global`: APTO o NO_APTO.
-
-## V.17. Esquema de traza CSV recomendado
-
-| Campo | Contenido |
-|---|---|
-| caseᵢd | identificador de caso |
-| family | familia del banco |
-| physicalᵢnput | magnitud física o descripción |
-| formalᵢnput | célula o vector formal |
-| expected | dictamen esperado |
-| observed | dictamen observado |
-| error_code | código activado o vacío |
-| pass | verdadero o falso |
-
-## V.18. Regla final de trazabilidad
-
-Todo caso que aparezca en el texto como ejemplo físico debe tener una correspondencia en el banco, en el transductor o en el catálogo de errores. Todo caso que aparezca en el banco debe tener una lectura textual suficiente para que el lector sepa qué magnitud se evalúa y por qué no se convierte en fundamento único.
-
-
-# Palabras clave
-
-Agujero negro; horizonte factual; no transmisibilidad; campo unificado; Teoría del TODO y de la NADA; M_N2-SV; unicidad de fórmula; banco SV-BH9; Event Horizon Telescope; LIGO; Schwarzschild; Kerr; Bekenstein–Hawking; radiación de Hawking; paradoja de la información; islas; luz factual; termodinámica factual; entropía factual; Maxwell factual; Sistema Vectorial SV; lectura científica graduada; lectura en tres escalas; clausura factual; retorno al Todo; traza factual; clausura factual y retorno al Todo; suceso generador; protocampo.
-
-# Keywords
-
-Black hole; factual horizon; non-transmissibility; unified field; Theory of EVERYTHING and NOTHING; M_N2-SV; formula uniqueness; SV-BH9 bank; Event Horizon Telescope; LIGO; Schwarzschild; Kerr; Bekenstein–Hawking; Hawking radiation; information paradox; islands; factual light; factual thermodynamics; factual entropy; factual Maxwell; Vectorial System SV; scientific graduated reading; three-scale reading; factual closure; return to Everything; factual trace; post-closure re-origination; generating event; protofield.
+Las referencias externas no sustituyen la teoría. Aportan magnitudes, instrumentos y datos de contraste. Las referencias del corpus no sustituyen la física contemporánea. Fijan plano, dominio, transductor, residual, lectura formal y custodia de U. La relación queda: física contemporánea → valor, observación, objeto e instrumento; corpus SV → plano, dominio, transductor, residual y lectura formal.
