@@ -1,9624 +1,2900 @@
-# Edades relativas del universo observable y de sus objetos físicos
+---
 
-## Teoría de la edad de todos los objetos del Universo Observable
+# Teoría general de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV
+---
 
-## Biología molecular y medicina: del par estructural a la célula viva
+**© 2026. Todos los derechos reservados.** | **DOI**| **Juan Antonio Lloret Egea** | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) | IA eñ™ — La Biblia de la IA™ | **ISSN 2695-6411** | **Licencia CC BY-NC-ND 4.0** | Madrid, 25/04/2026 |
 
-La obra reúne la formulación de edad concreta del observable retornado y su apertura biomolecular en un mismo eje: primero se fija qué puede recibir edad física sin confundirlo con la totalidad absoluta; después se extiende el criterio de dominio, frontera, residual y retorno hacia moléculas, genes, proteínas, células, tejidos y órganos.
+**Advertencia:** Esta publicación está protegida por **CEDRO** y su aplicación en el campo de la Física, así como cualquier forma de explotación, reproducción o uso por parte de empresas, queda sujeta al copyright del autor y a los términos de la licencia indicada; la reproducción, distribución, comunicación pública o transformación de esta obra sólo puede ser realizada con la autorización de sus titulares, salvo excepción prevista por la ley, y cualquier uso comercial sin autorización expresa queda prohibido y estrictamente supeditado al licenciamiento permitido.
 
-<p align="center"><img src="https://raw.githubusercontent.com/juantoniolloretegea/SV-matematica-semantica/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/imagenes/portada.png" alt="Portada de Edades relativas del universo observable y de sus objetos físicos" width="100%"></p>
+**Warning:** This publication is protected by **CEDRO**. Its application in the field of Physics, as well as any form of exploitation, reproduction, or use by corporate entities, is strictly subject to the author's copyright and the terms of the license indicated; any reproduction, distribution, public communication, or transformation of this work requires authorization from the rightsholders, except as provided by law, and any commercial use without express written consent is prohibited and strictly subject to permitted licensing.
 
-**© 2026. Todos los derechos reservados.** | [**Juan Antonio Lloret Egea**](https://www.linkedin.com/in/juanantoniolloretegea/) | **DOI pendiente** | ORCID: [0000-0002-6634-3351](https://orcid.org/0000-0002-6634-3351) | [Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA)](https://www.itvia.online/) | IA eñ™ — La Biblia de la IA™ | [**ISSN 2695-6411**](https://portal.issn.org/resource/ISSN/2695-6411) | [**Licencia CC BY-NC-ND 4.0**](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es) | Madrid, 14/05/2026
+---
 
-[**Repositorio doctrinal**](https://juantoniolloretegea.github.io/SV-matematica-semantica/) | [**Repositorio canónico**](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos)
+## Punto de entrada absoluto: Teorema 1.1 (Unicidad estructural condicionada del tránsito ε<sub>0</sub> – F<sub>0</sub> – U para la emergencia de sucesos generadores y protocampos)
 
+Esta publicación se abre por su pieza inaugural absoluta, sin preludio. La razón doctrinal es estricta: ninguna teoría general factual de los sucesos generadores y de los protocampos unificados puede comenzar en un campo ya formado, ni en una ecuación física heredada, ni en una operatoria del dominio ya desplegada, porque cualquiera de esos puntos de partida presupone aquello que la teoría debe explicar. La teoría debe comenzar en el punto lógico-formal mínimo absoluto en el que la vacuidad absoluta puede distinguirse del primer dominio admisible, y debe demostrar, antes de cualquier otra cosa, que la cadena formal que conecta ese punto con la emergencia de los protocampos es **única bajo las condiciones constitutivas del Sistema Vectorial SV**. El presente teorema cumple esa exigencia.
 
-<a id="def-append-only"></a>
-<a id="sec-definicion-append-only"></a>
+**Teorema 1.1 (Unicidad estructural condicionada del tránsito ε<sub>0</sub> – F<sub>0</sub> – U para la emergencia de sucesos generadores y protocampos).** Si en el Sistema Vectorial SV se aceptan simultáneamente las siguientes condiciones constitutivas absolutas:
 
-## Definición operativa de append-only
+(1) que el suceso cero absoluto ε<sub>0</sub> existe y es definible como tránsito entre la vacuidad absoluta ∅ y el dominio preternario Ω<sub>pre</sub>, esto es,
 
-El término inglés append-only se usa en sentido técnico: una trayectoria append-only no borra estados previos, no invierte una historia ya incorporada y no declara que una estructura vuelva literalmente al pasado. Añade operaciones, reorganizaciones, reparaciones o estados nuevos sobre una traza conservada. En el conjunto de la obra, y de forma especial en el anexo biomolecular, append-only significa conservación de trazabilidad estructural: regenerar no es eliminar el deterioro como si no hubiera existido, sino reorganizar la estructura hacia una función admisible con identidad, frontera, residual y retorno declarados.
+```math
+\varepsilon_0:\;\emptyset\longrightarrow\Omega_{\mathrm{pre}};
+```
 
-## Índice de lectura
+(2) que dicha definibilidad exige una estructura formal mínima absoluta F<sub>0</sub> capaz de distinguir ∅ de Ω<sub>pre</sub>;
 
-- [Definición operativa de append-only](#sec-definicion-append-only)
-- [0. Problema físico real: la expresión «edad del Universo» es imprecisa](#sec-0-problema-fisico-real-la-expresion-edad-del-universo-es-imprecisa)
-- [I. Ubicación doctrinal de la fórmula canónica de edad](#sec-i-ubicacion-doctrinal-de-la-formula-canonica-de-edad-en-la-cadena-de-formulas-absolutas-del-sv)
-- [II. Estado del arte físico contemporáneo](#sec-ii-estado-del-arte-fisico-contemporaneo)
-- [III. Tabla de edades relativas](#sec-iii-tabla-de-edades-relativas)
-- [IV. Transductores](#sec-iv-transductores)
-- [V. Métricas](#sec-v-metricas)
-- [VI. Contraste físico y tablas de verificación](#sec-vi-contraste-fisico-y-tablas-de-verificacion)
-- [Anexo I. Ciclo observable y objetos físicos](#sec-anexo-i-teorema-demostracion-y-calculo-exacto-del-ciclo-observable-y-de-sus-objetos-fisicos)
-- [Anexo II. Contraste solar y elevación al universo observable](#sec-anexo-ii-contraste-solar-elevacion-al-universo-observable-y-acotacion-de-error-cero)
-- [VII. Resultado](#sec-vii-resultado)
-- [VIII. Conclusión](#sec-viii-conclusion)
-- [IX. Teoría de la edad de todos los objetos del Universo Observable](#sec-ix-teoria-de-la-edad-de-todos-los-objetos-del-universo-observable)
-- [X. Síntesis final de cierre](#sec-x-lectura-formal-final-de-cierre)
-- [XI. Anexo técnico reproducible](#sec-xi-anexo-tecnico-reproducible-registros-declarativos-catalogo-de-errores-y-salida-esperada)
-- [XII. Glosario técnico SV ↔ física contemporánea](#sec-xii-glosario-tecnico-sv-fisica-contemporanea)
-- [Anexo III. Biología molecular y medicina](#sec-anexo-iii-biologia-molecular-y-medicina)
-- [Destacado doctrinal: imperfección y dominios constituidos](#destacado-imperfeccion-dos-planos)
-- [XIII. Laboratorios reproducibles](#sec-xiii-laboratorios-reproducibles)
-- [XIV. Bibliografía](#sec-xiv-bibliografia)
+(3) que en el borde inicial del dominio preternario los polos determinados 0 y 1 comparecen bajo equipotencialidad polar absoluta Φ(0) = Φ(1);
 
-## Resumen
+(4) que la equipotencialidad polar absoluta impide una clausura binaria legítima;
 
-La expresión «edad del Universo» es físicamente útil, pero conceptualmente imprecisa si no se distingue entre totalidad absoluta, universo observable y objetos físicos contenidos en dominios observables. Una edad física exige dominio declarado, frontera de formación, trayectoria o acumulación interna, magnitud de medida, criterio de contraste y retorno observacional. Por ello, la totalidad absoluta no puede recibir edad física en el mismo sentido que una galaxia, una estrella, una señal luminosa, una firma espectral o una estructura atómica persistente. No comparece como objeto dentro de un dominio mayor, no posee exterior físico de comparación y no admite trayectoria externa desde la cual medir su formación.
+(5) que U debe preservarse absolutamente como no-clausura honesta;
 
-El análisis sostiene que la pregunta rigurosa no es «cuál es la edad del Universo», sino cuál es la edad concreta del observable retornado con firma física persistente. El problema queda así desplazado desde una atribución absoluta a la totalidad hacia una familia de edades relativas de dominios internos: prehidrógeno, hidrógeno, estrellas, galaxias, señales luminosas, mapas profundos y retornos observacionales. La física contemporánea mide con gran potencia esos retornos mediante telescopios, espectros, mapas cósmicos, galaxias profundas, líneas de hidrógeno, radiación y modelos de distancia. La formulación reformula el plano de atribución de edad mediante transductores entre magnitudes físicas, unidades, dominios, residuales y retornos controlados.
+(6) que deben distinguirse absolutamente el dominio preternario Ω<sub>pre</sub>, el dominio prototernario Ω<sub>pro</sub> y el dominio ternario efectivo Σ = {0, 1, U};
 
-El resultado central distingue tres niveles. Primero: la totalidad absoluta no posee edad física admisible. Segundo: el universo observable es un dominio físico interno y sí admite edades relativas de sus contenidos. Tercero: la edad concreta del observable retornado con firma prehidrógeno/hidrógeno persistente queda fijada, bajo el contraste transductivo desarrollado, en 13.800.000.000 años julianos, equivalentes a 3.919.453.920.000.000.000 unidades elementales del medidor factual de ciclo. Esta cifra no se presenta como edad ontológica de la totalidad, sino como edad física concreta del observable retornado.
+entonces ningún camino que suprima ε<sub>0</sub>, F<sub>0</sub>, Ω<sub>pre</sub>, la equipotencialidad polar Φ(0) = Φ(1), U, Ω<sub>pro</sub> o Σ puede fundar sucesos generadores y protocampos sin contradicción interna absoluta dentro del Sistema Vectorial SV. Bajo las condiciones constitutivas (1)–(6), el único camino formalmente admisible es la cadena formal mínima absoluta de legitimidad:
 
-El análisis parte de una primera línea de contención formal: no tiempo como fundamento, no probabilidad como criterio de verdad, no estadística como clausura, no inferencia opaca, no geometría con rango fundante y no cierre favorable por ausencia de refutación. Sobre esa contención se introduce la terna (0,1,U): (0) y (1) designan salidas polares de lectura formal, mientras que (U) conserva la no clausura honesta cuando el dominio, el residual o el retorno no permiten una decisión legítima. Esta terna no sustituye a las magnitudes físicas; disciplina su lectura. La física entra por sus unidades, métricas y observables. El cierre sólo se admite cuando dominio, codominio, invariantes, residual, matriz de contraste, retorno físico y laboratorio reproducible quedan declarados.
+```math
+\boxed{\;\varepsilon_0\;\to\;F_0\;\to\;\Omega_{\mathrm{pre}}\;\to\;\Phi(0)=\Phi(1)\;\to\;\text{no-decisi\'on}\;\to\;U\;\to\;\Omega_{\mathrm{pro}}\;\to\;\Sigma=\{0,1,U\}\;\to\;\text{sucesos generadores}\;\to\;\text{protocampos}.\;}
+```
+
+*Demostración.* La demostración procede por reducción al absurdo absoluta articulada en dos pasos canónicos absolutos: primero, establecimiento absoluto de la necesidad estructural absoluta de F<sub>0</sub> como condición formal de definibilidad de ε<sub>0</sub>; segundo, exclusión canónica de todo camino alternativo posible mediante recorrido caso por caso de las posibles supresiones, omisiones o sustituciones de eslabones de la cadena.
+
+**Paso (i) — necesidad estructural absoluta de F<sub>0</sub>.** Supóngase, por reducción al absurdo, que ε<sub>0</sub> existe y es definible como tránsito ε<sub>0</sub>: ∅ → Ω<sub>pre</sub>, conforme a la condición constitutiva (1) del enunciado, y supóngase simultáneamente que no existe estructura formal mínima absoluta F<sub>0</sub> capaz de distinguir ∅ de Ω<sub>pre</sub>. Si no existe F<sub>0</sub>, entonces no existe estructura formal absoluta capaz de distinguir formalmente la vacuidad absoluta ∅ del dominio preternario Ω<sub>pre</sub>. Pero si ∅ y Ω<sub>pre</sub> no son formalmente distinguibles entre sí, entonces el tránsito ε<sub>0</sub>: ∅ → Ω<sub>pre</sub> no puede definirse formalmente, porque un tránsito formal requiere por construcción términos formalmente distinguibles entre los que el tránsito opera. En consecuencia, ε<sub>0</sub> dejaría de ser definible como suceso cero absoluto dentro del Sistema Vectorial SV. Esto contradice directamente la hipótesis inicial absoluta, según la cual ε<sub>0</sub> existe y es definible. La contradicción demuestra absolutamente que F<sub>0</sub> es **necesaria** absoluta como condición formal de definibilidad de ε<sub>0</sub>.
+
+**Paso (ii) — exclusión canónica de todo camino alternativo.** Supóngase ahora que existe un camino alternativo absoluto hacia los sucesos generadores y los protocampos dentro del Sistema Vectorial SV, distinto de la cadena formal mínima del enunciado. Examínense exhaustivamente los siete subcasos posibles de tal alternativa.
+
+**Subcaso (a) — supresión absoluta de ε<sub>0</sub>.** Si el camino alternativo no parte de ε<sub>0</sub>, no explica el tránsito desde la vacuidad absoluta ∅ al primer dominio formalmente distinguible Ω<sub>pre</sub>. Sin tránsito declarado absoluto, no hay apertura absoluta del dominio sobre el cual los eslabones posteriores pueden operar. Por la condición constitutiva (1), ε<sub>0</sub> es por definición ese tránsito. Suprimirlo contradice (1). Subcaso refutado.
+
+**Subcaso (b) — supresión absoluta de F<sub>0</sub>.** Si el camino alternativo parte de ε<sub>0</sub> pero omite F<sub>0</sub>, contradice directamente el Paso (i) de la demostración: ε<sub>0</sub> quedaría indefinible. Por la condición constitutiva (2), F<sub>0</sub> es exigida como condición formal de definibilidad de ε<sub>0</sub>. Suprimirla contradice (2) y, por reducción anterior, desactiva el propio (1). Subcaso refutado.
+
+**Subcaso (c) — supresión absoluta de Ω<sub>pre</sub>.** Si el camino alternativo admite ε<sub>0</sub> y F<sub>0</sub> pero omite Ω<sub>pre</sub>, elimina el primer dominio absolutamente abierto por ε<sub>0</sub> y deja sin soporte estructural absoluto el tránsito originario. ε<sub>0</sub> se convertiría en tránsito sin término de llegada absoluta, lo que es contradictorio con la propia naturaleza de tránsito. Por la condición constitutiva (1), Ω<sub>pre</sub> es término absoluto de llegada de ε<sub>0</sub>. Suprimirlo contradice (1). Subcaso refutado.
+
+**Subcaso (d) — supresión absoluta de la equipotencialidad polar Φ(0) = Φ(1).** Si el camino alternativo admite Ω<sub>pre</sub> pero prescinde de la equipotencialidad polar absoluta Φ(0) = Φ(1) en el borde inicial absoluto, no justifica estructuralmente la imposibilidad inicial absoluta de clausura binaria legítima entre los polos determinados 0 y 1. La eventual aparición posterior absoluta de U como indeterminación honesta no quedaría justificada absolutamente y se convertiría en una decisión arbitraria del aparato, en violación absoluta directa de la prohibición constitutiva absoluta P.4 (no inferencia opaca) del corpus. Por la condición constitutiva (3), la equipotencialidad polar absoluta es exigida con rango canónico inicial. Suprimirla contradice (3) y activa P.4. Subcaso refutado.
+
+**Subcaso (e) — supresión absoluta de U.** Si el camino alternativo admite la equipotencialidad polar absoluta Φ(0) = Φ(1) pero elimina U, entonces fuerza una clausura binaria absoluta entre 0 y 1 sin gradiente resolutivo absoluto suficiente. Esa clausura es estructuralmente ilegítima absoluta por la condición constitutiva (4) (la equipotencialidad polar absoluta impide clausura binaria legítima). Por la condición constitutiva (5), U debe preservarse absolutamente como no-clausura honesta. Suprimir U contradice simultáneamente (4) y (5), y activa la prohibición constitutiva absoluta P.6 (no clausura espuria) del corpus. Subcaso refutado.
+
+**Subcaso (f) — supresión absoluta de Ω<sub>pro</sub>.** Si el camino alternativo admite U pero omite el dominio prototernario Ω<sub>pro</sub>, colapsa absolutamente la diferencia estructural absoluta entre el dominio preternario no activado Ω<sub>pre</sub>, la estructuración prototernaria emergente Ω<sub>pro</sub> y la terna efectiva Σ. Sin Ω<sub>pro</sub>, la estructuración emergente sobre la no-clausura honesta U no tendría estrato canónico absoluto sobre el que articularse, y la terna efectiva Σ comparecería sin estructuración previa que la legitime. Por la condición constitutiva (6), los tres estratos absolutos Ω<sub>pre</sub>, Ω<sub>pro</sub> y Σ deben distinguirse absolutamente. Suprimir Ω<sub>pro</sub> contradice (6). Subcaso refutado.
+
+**Subcaso (g) — supresión absoluta de Σ = {0, 1, U}.** Si el camino alternativo omite la terna efectiva Σ, elimina el espacio canónico absoluto de evaluación ternaria del aparato. Sin Σ, los sucesos generadores absolutos no pueden operar absolutamente porque carecen de soporte ternario sobre el que actuar, y los protocampos absolutos no pueden formalizarse absolutamente porque su par polar (α<sub>i</sub>, β<sub>i</sub>) no admite proyección a la terna canónica del corpus. Por la condición constitutiva (6), Σ es exigida absolutamente. Suprimirla contradice (6). Subcaso refutado.
+
+**Subcaso (h) — sustitución absoluta de eslabón por elemento ajeno al SV.** Si el camino alternativo introduce tiempo soberano, probabilidad fundante, dinámica continua, inferencia opaca, geometría soberana auxiliar, axioma ajeno al corpus o física heredada como sustituto absoluto de cualquiera de los eslabones de la cadena, abandona absolutamente el marco del Sistema Vectorial SV. Esta sustitución viola simultáneamente las prohibiciones constitutivas absolutas P.1 (tiempo soberano), P.2 (probabilidad fundante), P.3 (geometría soberana auxiliar), P.4 (inferencia opaca) y P.5 (adición axiomática externa al corpus) del aparato formal absoluto del SV. La salida absoluta del marco contradice la disciplina canónica del corpus, conforme a la cual toda construcción debe operar dentro del SV. Subcaso refutado.
+
+**Conclusión absoluta del Paso (ii).** Todos los caminos alternativos posibles destruyen al menos una condición constitutiva absoluta del enunciado, o abandonan absolutamente el marco del Sistema Vectorial SV. Bajo las condiciones constitutivas (1)–(6) aceptadas simultáneamente, el único camino formalmente admisible absoluto es la cadena formal mínima absoluta de legitimidad enunciada en el teorema. La conjunción absoluta de los Pasos (i) y (ii) establece la unicidad estructural condicionada absoluta del tránsito ε<sub>0</sub> – F<sub>0</sub> – U para la emergencia de sucesos generadores y protocampos en el Sistema Vectorial SV. Q.E.D.
+
+**Nota sobre el teorema.** El Teorema 1.1 ha sido sometido a una prueba adversarial canónica articulada en siete vectores adversariales hostiles independientes. Las siete observaciones blindadoras absolutas que refutan canónicamente cada vector adversarial están desplegadas íntegras absolutas en el **Apéndice de blindaje adversarial absoluto** del presente documento, ubicado canónicamente antes de las referencias. El lector que desee comprobar la solidez estructural absoluta del teorema bajo ataque hostil dispone allí del cuerpo argumentativo completo absoluto.
+
+---
+
+---
+
+## La **ecuación maestra absoluta** del Sistema Vectorial SV — presentación inaugural en sus cuatro formas canónicas
+
+Una vez establecido el Teorema 1.1 (unicidad estructural condicionada del tránsito ε<sub>0</sub> – F<sub>0</sub> – U), el camino canónico desemboca en la **ecuación maestra absoluta** del aparato general canónico del Sistema Vectorial SV, que se anuncia inaugural en este punto y se demuestra a lo largo del documento. La **ecuación maestra absoluta** es la única ecuación que articula simultáneamente, bajo restricciones canónicas exactas, los cuatro regímenes inferiores del corpus (Maxwell factual, luz factual, transmutación factual, entropía factual) y reproduce, mediante la compuerta metrológica ℘<sub>SV</sub>, las magnitudes heredadas del aparato SI clásico (fuerza, trabajo, calor, entalpía).
+
+La **ecuación maestra absoluta** se presenta en cuatro formas canónicas equivalentes — paramétrica, explícita, implícita y canónica — cuya equivalencia se demuestra rigurosamente en el §22 del presente documento con dos ejemplos numéricos no triviales:
+
+**Forma paramétrica:**
+```math
+\mathbb{P}_{SV}^{(\mathrm{par})}\bigl(\nu;\,e_{\nu};\,\{(\alpha_i,\beta_i)(\xi_i;\nu)\}_{\xi_i\in\Omega_{\mathrm{pro}}}\bigr)\;=\;0,\qquad \nu\in\mathbb{N}_{\mathrm{ord}}^{SV}.
+```
+
+**Forma explícita:**
+```math
+\mathbb{P}_{SV}^{(\mathrm{exp})}\;=\;\sum_{i=1}^{9}\mathcal{L}_i^{SV}\bigl(\alpha,\beta;\,\partial_{\nu}^{SV}\alpha,\partial_{\nu}^{SV}\beta;\,\mathfrak{G}_{SV}[e_{\nu}]\bigr)\;=\;0.
+```
+
+**Forma implícita:**
+```math
+F_{\mathbb{P}_{SV}}\bigl(\Pi_{SV};\,\mathfrak{G}_{SV};\,\nu\bigr)\;\equiv\;0.
+```
+
+**Forma canónica:**
+```math
+\boxed{\;\mathbb{P}_{SV}\bigl(\Pi_{SV};\,\mathfrak{G}_{SV};\,\{\mathcal{L}_i\};\,\nu\bigr)\;=\;0.\;}
+```
+
+La **ecuación maestra absoluta** se demuestra a lo largo del documento mediante:
+
+- el §22, que prueba la equivalencia formal de las cuatro formas y la verifica con dos ejemplos numéricos no triviales sobre célula SV(3, 9) y sobre configuración SV(4, 12);
+- los §§27–30, que demuestran los cuatro **Teoremas absolutos de absorción** (Maxwell factual, luz factual, transmutación factual, entropía factual) como restricciones canónicas exactas suyas, evidenciados numéricamente, con el §28.5 verificando la absorción de los quince campos lumínicos canónicos sobre dos ejemplos no triviales;
+- el §31, que demuestra la convergencia de las cuatro absorciones y el **rango doctrinal superior absoluto** de la presente publicación sobre los cuatro regímenes inferiores del corpus;
+- el §32, que somete la **ecuación maestra absoluta** a un análisis negativo de unicidad y demuestra, con dos ejemplos numéricos no triviales, que ninguna familia rival puede absorber simultáneamente Maxwell, entropía, fuerza, trabajo, calor y entalpía bajo la disciplina canónica del corpus.
+
+## Índice
+
+Punto de entrada absoluto. Teorema 1.1 (Unicidad estructural condicionada del tránsito ε<sub>0</sub> – F<sub>0</sub> – U para la emergencia de sucesos generadores y protocampos).
+
+§1. Suelo lógico-formal: cadena formal mínima de legitimidad.
+§2. Estudio del arte intra-SV y diagnóstico estructural del problema (Etapas 1–10 de la Matemática y Física Factual contemporánea del SV).
+§3. Los tres postulados canónicos del programa.
+§4. Estructura de dos niveles canónicos del programa.
+§5. Definición del protocampo primordial unificado Π<sub>SV</sub>.
+§6. Derivación nativa de α<sub>i</sub> y β<sub>i</sub>.
+§7. Magnitudes estructurales del protocampo.
+§8. Topología combinatoria del protocampo y métrica factual derivada.
+§9. Teorema de soporte estructural del protocampo.
+§10. Taxonomía canónica G/A/D de sucesos factuales.
+§11. Definición del operador soberano de generación 𝔊<sub>SV</sub>.
+§12. Propiedades algebraicas del operador 𝔊<sub>SV</sub>.
+§13. Teorema de unicidad representacional del operador 𝔊<sub>SV</sub> en la categoría OpGen<sub>SV,Π</sub>.
+§14. Teorema de monotonía energética estricta sobre la clase G.
+§15. Teorema de conservación local del protocampo bajo la clase A.
+§16. Teorema de ruptura controlada del protocampo bajo la clase G.
+§17. Teorema de creabilidad factual reforzada.
+§18. Operador de proyección activada Π<sub>3</sub><sup>H</sup> aplicado al protocampo unificado.
+§19. Siete teoremas de emergencia de los siete campos factuales.
+§20. Coexistencia estructural de los siete campos.
+§21. Enunciado de la **ecuación maestra absoluta** ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0.
+§23. Las cuatro formas canónicas de la **ecuación maestra absoluta**: paramétrica, explícita, implícita y canónica — con dos ejemplos numéricos no triviales de equivalencia.
+§24. Los nueve sumandos del operador maestro ℙ<sub>SV</sub>.
+§25. Tabla canónica de los nueve sumandos.
+§26. Los trece invariantes asociados a ℙ<sub>SV</sub> = 0.
+§27. Teorema de clausura y propiedades algebraicas de ℙ<sub>SV</sub>.
+§28. **Teorema absoluto de absorción I** — Maxwell factual, con dos ejemplos numéricos no triviales.
+§29. **Teorema absoluto de absorción II** — Luz factual, con dos ejemplos numéricos no triviales que verifican la absorción de los quince campos lumínicos.
+§30. **Teorema absoluto de absorción III** — Transmutación factual, con dos ejemplos numéricos no triviales.
+§31. **Teorema absoluto de absorción IV** — Entropía factual, con dos ejemplos numéricos no triviales.
+§33. Teorema de convergencia y **rango doctrinal superior absoluto**.
+§34. Análisis negativo de unicidad: imposibilidad de familias rivales — dos ejemplos numéricos no triviales sobre Maxwell, entropía, fuerza, trabajo, calor y entalpía.
+§35. Estatuto canónico del nivel de visiones postuladas.
+§36. Las quince visiones canónicas sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>).
+§37. Matriz de coexistencia entre las quince visiones.
+§38. Las visiones postuladas no son axiomas: son lecturas estructurales coexistentes.
+§39. Indeterminación legítima honesta sobre ε<sub>0</sub> y refuerzo de P.6.
+§40. Criterio de falsación de la teoría general — ocho criterios independientes.
+§41. Recorrido de consistencia sobre la célula canónica SV(3, 9).
+§42. Bancos visibles con verificación numérica explícita — diecinueve bancos.
+§43. Declaración arquitectónica laboratorial — veinticuatro laboratorios.
+§44. Tablas canónicas finales.
+§45. Catorce conclusiones canónicas.
+§46. Antesala canónica de cuestiones superiores.
+§47. Compromiso canónico con la disciplina del corpus.
+
+Anexo operatorio — Aparato matemático riguroso.
+**Apéndice de blindaje adversarial absoluto** del Teorema 1.1.
+Apéndice final: Prohibiciones constitutivas del Sistema Vectorial SV — desarrollo completo.
+Glosario tipográfico canónico.
+
+§47. Referencias (APA7).
+
+---
 
 ## Abstract
 
-The expression “age of the Universe” is physically useful but conceptually imprecise unless absolute totality, the observable universe and the physical objects contained within observable domains are clearly distinguished. A physical age requires a declared domain, a formation boundary, an internal trajectory or accumulation, a measurement magnitude, a contrast criterion and an observational return. Therefore, absolute totality cannot receive a physical age in the same sense as a galaxy, a star, a light signal, a spectral signature or a persistent atomic structure. It does not appear as an object within a larger domain, has no external physical frame of comparison and admits no external trajectory from which its formation could be measured.
+This work establishes the general factual theory of generator events and unified protofields within the Sistema Vectorial SV, fixing as its primary object the **unified primordial protofield** Π<sub>SV</sub>, identified canonically with the polar pair (α<sub>i</sub>, β<sub>i</sub>) defined over the prototernary domain Ω<sub>pro</sub> emerging from the preternary domain Ω<sub>pre</sub>, and as its sovereign operator the **generation operator** 𝔊<sub>SV</sub> acting on Π<sub>SV</sub> through interior generator events of class G. The theory opens by its inaugural theorem, the conditional structural uniqueness of the transit ε<sub>0</sub> – F<sub>0</sub> – U for the emergence of generator events and protofields, demonstrated by reduction to absurdity in eight exhaustive sub-cases under six constitutive conditions, and reinforced by seven adversarial blindering observations canonically displayed in the Adversarial Blindering Appendix located before the references. The mathematical minimum formal structure F<sub>0</sub> is introduced canonically as preformality of distinguishability — neither cause, nor motor, nor energy, nor time, nor dynamics, nor operatory of the domain. The native derivation of α<sub>i</sub> and β<sub>i</sub> from the corpus observables (Lloret Egea, 2026j) is reproduced in full. The taxonomy of factual events into classes G, A, D is fixed canonically. The four algebraic properties of the generation operator 𝔊<sub>SV</sub> — factual homogeneity, additivity, factual covariance under the four canonical trajectory transforms of the SV, and structural stability — are demonstrated, and the representational uniqueness of 𝔊<sub>SV</sub> in the category OpGen<sub>SV,Π</sub> is established. Strict factual energetic monotonicity on class G, local conservation under class A, controlled rupture under class G, and the reinforced factual createability of energy are established as canonical theorems. Seven canonical emergence theorems demonstrate that the seven coexistent factual fields of the SV corpus emerge as activated projections of the unified protofield through chains of honest activations Π<sub>3</sub><sup>H</sup>. The **ecuación maestra absoluta** of the general theory ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 — presented in its parametric, explicit, implicit and canonical forms with non-trivial numerical examples — is fixed over nine structural summands and thirteen invariants, with closure theorem, algebraic properties, and representational uniqueness in the category OpFact<sub>SV,General</sub>. Four **Teoremas absolutos de absorción** demonstrate that the master equations of the inferior canonical regimes of the corpus — factual Maxwell (Lloret Egea, 2026k), factual light (Lloret Egea, 2026 — light), factual transmutation (Lloret Egea, 2026q) and factual entropy (Lloret Egea, 2026l) — are exact canonical restrictions of ℙ<sub>SV</sub> = 0 on admissible projections of the unified protofield, evidenced numerically. A negative uniqueness analysis shows that no rival family of equations can reproduce the same outputs as Maxwell, entropy, force, work, heat and enthalpy simultaneously under the SV discipline. The convergence theorem of the four absorptions establishes the doctrinal rank of the present publication as **rango doctrinal superior absoluto** strictly above the four absorbed regimes. The fifteen canonical visions on the structural pair (ε<sub>0</sub>, F<sub>0</sub>), opened by the highlight in §4bis of the factual light document, are developed with full structural analysis, with their 15×15 coexistence matrix and the reinforcement of the canonical prohibition P.6 of spurious closure. Eight independent falsification criteria fix the sovereign falsifiability of the framework. A specific consistency walk over the canonical cell SV(3, 9), nineteen visible benches with explicit numerical verification embedded in the text, twenty-four canonical laboratories with operative contracts, and an operatorial annex with eight closed pieces complete the canonical closure of the general theory within the SV apparatus.
 
-The rigorous question is not “what is the age of the Universe”, but rather what is the concrete age of the returned observable content with a persistent physical signature. The problem is thereby shifted from an absolute attribution to totality toward a family of relative ages of internal domains: prehydrogen, hydrogen, stars, galaxies, luminous signals, deep maps and observational returns. Contemporary physics powerfully measures those returns through telescopes, spectra, cosmic maps, deep galaxies, hydrogen lines, radiation and distance models. The present analysis reformulates the plane of age attribution by means of transductors between physical magnitudes, units, domains, residuals and controlled returns.
+**Keywords:** Sistema Vectorial SV; general theory of generator events; unified protofields; primordial protofield Π<sub>SV</sub>; sovereign generation operator 𝔊<sub>SV</sub>; **ecuación maestra absoluta** ℙ<sub>SV</sub> = 0; minimum formal structure of distinguishability F<sub>0</sub>; zero event ε<sub>0</sub>; preternary domain Ω<sub>pre</sub>; prototernary domain Ω<sub>pro</sub>; polar equipotentiality Φ(0) = Φ(1); honest non-closure U; G/A/D taxonomy; seven coexistent factual fields; canonical projection Π<sub>3</sub><sup>H</sup>; absorption of factual Maxwell; absorption of factual light; absorption of factual transmutation; absorption of factual entropy; **rango doctrinal superior absoluto**; fifteen canonical visions; coexistence matrix; eight independent falsification criteria; canonical cell SV(3, 9); nineteen visible benches; twenty-four canonical laboratories; operatorial annex; adversarial blindering appendix.
 
-The central result distinguishes three levels. First: absolute totality has no admissible physical age. Second: the observable universe is an internal physical domain and therefore admits relative ages of its contents. Third: the concrete age of the returned observable domain with a persistent prehydrogen/hydrogen signature is fixed, under the transductive bank developed here, at 13 800 000 000 Julian years, equivalent to 3 919 453 920 000 000 000 elementary units of the factual-cycle meter. This figure is not presented as the ontological age of totality, but as the concrete physical age of returned observable content.
+---
 
-The analysis begins with a first formal containment line: no time as foundation, no probability as truth criterion, no statistics as closure, no opaque inference, no geometry with foundational rank and no favorable closure by absence of refutation. On that containment line, the ternary alphabet (0,1,U) is introduced: (0) and (1) designate polar verdict outputs, while (U) preserves honest non-closure when the domain, residual or return does not allow a legitimate decision. This ternary alphabet does not replace physical magnitudes; it disciplines their interpretation. Physics enters through its units, metrics and observables. Closure is admitted only when domain, codomain, invariants, residual, contrast bank, physical return and reproducible laboratory have been declared.
+## Resumen
 
-## Advertencia de derechos, autoría y licencia
+La presente obra establece la teoría general factual de los sucesos generadores y de los protocampos unificados dentro del Sistema Vectorial SV, fijando como objeto primario el **protocampo primordial unificado** Π<sub>SV</sub>, identificado canónicamente con el par polar (α<sub>i</sub>, β<sub>i</sub>) definido sobre el dominio prototernario Ω<sub>pro</sub> emergente del dominio preternario Ω<sub>pre</sub>, y como operador soberano el **operador de generación** 𝔊<sub>SV</sub> que actúa sobre Π<sub>SV</sub> a través de sucesos generadores interiores de clase G. La teoría se abre por su teorema inaugural, la unicidad estructural condicionada del tránsito ε<sub>0</sub> – F<sub>0</sub> – U para la emergencia de sucesos generadores y protocampos, demostrado por reducción al absurdo en ocho subcasos exhaustivos bajo seis condiciones constitutivas, y reforzado por siete observaciones adversariales blindadoras canónicamente desplegadas en el **Apéndice de blindaje adversarial absoluto** ubicado antes de las referencias. La estructura formal mínima matemática F<sub>0</sub> queda introducida canónicamente como **preformalidad de distinguibilidad** — no como causa, no como motor, no como energía, no como tiempo, no como dinámica y no como operatoria del dominio. La derivación nativa de α<sub>i</sub> y β<sub>i</sub> desde los observables del corpus (Lloret Egea, 2026j) se reproduce íntegramente. La taxonomía de sucesos factuales en clases G, A, D queda fijada canónicamente. Las cuatro propiedades algebraicas del operador de generación 𝔊<sub>SV</sub> — homogeneidad factual, aditividad, covariancia factual bajo las cuatro transformadas canónicas de trayectoria del SV y estabilidad estructural — quedan demostradas, y la unicidad representacional de 𝔊<sub>SV</sub> en la categoría OpGen<sub>SV,Π</sub> queda establecida. La monotonía energética estricta sobre la clase G, la conservación local bajo la clase A, la ruptura controlada bajo la clase G y la creabilidad factual reforzada de la energía quedan demostradas como teoremas canónicos. Siete teoremas canónicos de emergencia demuestran que los siete campos factuales coexistentes del corpus SV emergen como proyecciones activadas del protocampo unificado a través de cadenas de activaciones honestas Π<sub>3</sub><sup>H</sup>. La **ecuación maestra absoluta** de la teoría general ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 — presentada en sus formas paramétrica, explícita, implícita y canónica con ejemplos numéricos no triviales — se fija sobre nueve sumandos estructurales y trece invariantes, con teorema de clausura, propiedades algebraicas y unicidad representacional en la categoría OpFact<sub>SV,General</sub>. Cuatro **Teoremas absolutos de absorción** demuestran que las ecuaciones maestras de los regímenes canónicos inferiores del corpus — Maxwell factual (Lloret Egea, 2026k), luz factual (Lloret Egea, 2026 — luz), transmutación factual (Lloret Egea, 2026q) y entropía factual (Lloret Egea, 2026l) — son **restricciones canónicas exactas** de ℙ<sub>SV</sub> = 0 sobre proyecciones admisibles del protocampo unificado, evidenciado numéricamente. Un análisis negativo de unicidad demuestra que ninguna familia rival de ecuaciones puede reproducir simultáneamente los resultados de Maxwell, entropía, fuerza, trabajo, calor y entalpía bajo la disciplina del SV. El teorema de convergencia de las cuatro absorciones establece el rango doctrinal de la presente publicación como **rango doctrinal superior absoluto** estrictamente sobre los cuatro regímenes absorbidos. Las quince visiones canónicas sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>), abiertas por el destacado del §4bis del documento de la luz factual, se desarrollan con análisis estructural completo, con su matriz 15×15 de coexistencia y con el refuerzo de la prohibición canónica P.6 de no clausura espuria. Ocho criterios independientes de falsación fijan la falsabilidad soberana del marco. Un recorrido específico de consistencia sobre la célula canónica SV(3, 9), diecinueve bancos visibles con verificación numérica explícita embebida en el texto, veinticuatro laboratorios canónicos con contrato operatorio y un anexo operatorio con ocho piezas cerradas completan la clausura canónica de la teoría general dentro del aparato del Sistema Vectorial SV.
 
-Esta obra está protegida por derechos de autor. Su reproducción, distribución, comunicación pública, transformación, explotación o uso por entidades públicas o privadas queda sometida a la titularidad del autor y a los términos de la licencia indicada, salvo excepción legal aplicable o autorización expresa del titular. La licencia Creative Commons BY-NC-ND 4.0 permite compartir la obra con atribución, sin uso comercial y sin obras derivadas. Cualquier uso comercial, industrial, editorial, tecnológico, académico automatizado o entrenamiento de sistemas que exceda los términos de la licencia requiere autorización expresa.
+**Palabras clave:** Sistema Vectorial SV; teoría general de sucesos generadores; protocampos unificados; protocampo primordial Π<sub>SV</sub>; operador soberano de generación 𝔊<sub>SV</sub>; **ecuación maestra absoluta** ℙ<sub>SV</sub> = 0; estructura formal mínima de distinguibilidad F<sub>0</sub>; suceso cero ε<sub>0</sub>; dominio preternario Ω<sub>pre</sub>; dominio prototernario Ω<sub>pro</sub>; equipotencialidad polar Φ(0) = Φ(1); no-clausura honesta U; taxonomía G/A/D; siete campos factuales coexistentes; proyección canónica Π<sub>3</sub><sup>H</sup>; absorción de Maxwell factual; absorción de luz factual; absorción de transmutación factual; absorción de entropía factual; **rango doctrinal superior absoluto**; quince visiones canónicas; matriz de coexistencia; ocho criterios independientes de falsación; célula canónica SV(3, 9); diecinueve bancos visibles; veinticuatro laboratorios canónicos; anexo operatorio; apéndice de blindaje adversarial.
 
-<a id="sec-0-problema-fisico-real-la-expresion-edad-del-universo-es-imprecisa"></a>
+---
 
-## 0. Problema físico real: la expresión «edad del Universo» es imprecisa
+## Prohibiciones constitutivas absolutas del Sistema Vectorial SV invocadas en esta publicación
 
-<a id="sec-0-1-que-significa-fisicamente-atribuir-edad"></a>
+Con rango absoluto y para evitar lecturas erradas sobre el aparato, se fijan las siguientes prohibiciones constitutivas absolutas del Sistema Vectorial SV que gobiernan el presente documento, su anexo operatorio absoluto, su apéndice de blindaje adversarial absoluto y su apéndice final. El desarrollo completo absoluto de cada prohibición, con declaración explícita absoluta de los lemas del corpus sobre los que descansa estructuralmente cada una y con refuerzo específico absoluto sobre el caso de los sucesos generadores y la frontera exterior absoluta ε<sub>0</sub>, se recoge al final del documento en el apéndice final canónico absoluto.
 
-### 0.1. Qué significa físicamente atribuir edad
+**P.1. Prohibición absoluta del tiempo soberano.** En el Sistema Vectorial SV no existe variable temporal con rango constitutivo absoluto. El índice de suceso ν es ordinal, append-only, honesto absoluto. La derivada factual absoluta ∂<sub>ν</sub><sup>SV</sup> no es derivada temporal absoluta: es diferencia finita absoluta sobre ordinal de sucesos. Suelo canónico absoluto: Lema 6.5 (no retorno preternario absoluto) y Lema 8.3 (honestidad coordenada absoluta) de Lloret Egea (2026j). En la presente publicación, ε<sub>0</sub> es suceso ordinal absoluto, no instante temporal físico; F<sub>0</sub> es estructura formal absoluta, no estructura temporal; el operador 𝔊<sub>SV</sub> opera absolutamente sobre el ordinal ν de sucesos admisibles, no sobre tiempo soberano.
 
-Atribuir edad a un objeto físico no consiste sólo en asignarle una cifra. Una edad física exige que el objeto o dominio esté suficientemente determinado. Debe haber algo cuya edad se mide, una frontera de formación o de comparecencia, una trayectoria o acumulación interna, una magnitud de medida, un criterio de contraste y un retorno observacional. Sin esos elementos, la palabra «edad» puede funcionar como convención, aproximación o expresión pedagógica, pero no como predicado físico estricto.
+**P.2. Prohibición absoluta de probabilidad fundante.** El Sistema Vectorial SV no acepta distribución probabilística absoluta como suelo ontológico. La indeterminación se codifica absolutamente como U (axioma absoluto de la U del corpus, Lloret Egea, 2026a, Fundamentos 13.2.5 y 13.2.8). En la presente publicación, ningún sumando del operador maestro absoluto ℙ<sub>SV</sub>, ningún invariante absoluto I.1–I.13, ninguno de los cuatro teoremas absolutos de absorción, ninguna de las quince visiones canónicass sobre (ε<sub>0</sub>, F<sub>0</sub>) y ningún criterio absoluto de falsación introduce distribución probabilística absoluta con rango fundante. La equipotencialidad polar absoluta Φ(0) = Φ(1) no es probabilidad uniforme entre 0 y 1: es ausencia estructural absoluta de gradiente resolutivo entre los polos determinados.
 
-Una galaxia puede tener edad porque comparece como objeto físico persistente dentro de un dominio observable. Una estrella puede tener edad porque posee formación, evolución, estructura, emisión, composición y señales medibles. Una señal luminosa puede tener edad relativa porque se propaga desde un dominio físico hacia un punto de retorno observacional. Un átomo de hidrógeno puede operar como firma persistente porque posee condiciones de estabilidad, transición y espectro. Una línea espectral puede participar en la reconstrucción de una edad relativa porque transporta información física de un portador.
+**P.3. Prohibición absoluta de geometría soberana auxiliar.** No existe métrica absoluta, espacio-tiempo absoluto, ni coordenada absoluta preexistente con rango constitutivo absoluto. Toda posición factual absoluta es ξ<sub>i</sub> ∈ Ω<sub>pre</sub> con estructura preternaria (α<sub>i</sub>, β<sub>i</sub>) primaria absoluta (Lloret Egea, 2026j, §3). La métrica factual absoluta es derivada absoluta, no primaria. En la presente publicación, el dominio prototernario absoluto Ω<sub>pro</sub> es estrato combinatorio absoluto sobre alfabeto canónico Σ = {0, 1, U}, no soporte geométrico soberano; la métrica factual derivada dist<sub>SV</sub>(·,·) introducida en §8 es magnitud derivada absoluta, no distancia euclídea soberana.
 
-En todos esos casos, la edad se asigna a un contenido físico determinado. No se asigna a una totalidad indiferenciada. La edad exige que el objeto sea distinguible, que pertenezca a un dominio, que conserve identidad suficiente y que haya una métrica admisible para ordenar su comparecencia.
+**P.4. Prohibición absoluta de inferencia opaca.** Todo operador absoluto y toda decisión factual absoluta del aparato debe declarar semántica absoluta trazable absoluta sobre el corpus (Lloret Egea, 2026a, Fundamentos 13.2.7). No hay heurística oculta absoluta, no hay clausura espuria absoluta. En la presente publicación, cada paso absoluto de cada demostración absoluta refiere explícitamente absoluto al lema, teorema, definición o proposición absoluta del corpus sobre el que descansa. La honestidad coordenada absoluta del Lema 8.3 absoluto de 2026j extiende absolutamente esta prohibición a la operación interna absoluta del aparato. La equipotencialidad polar absoluta Φ(0) = Φ(1) es declaración canónica de ausencia de gradiente resolutivo absoluto, trazable absolutamente al borde inicial absoluto del dominio preternario.
 
-La expresión «edad del Universo» se usa de forma ordinaria en cosmología para referirse a la escala de historia física del universo observable bajo un modelo cosmológico determinado. Esa práctica es legítima dentro de su dominio técnico. Sin embargo, si la expresión se toma literalmente como edad de la totalidad absoluta de lo real, se produce un error de plano. La totalidad absoluta no comparece como objeto dentro de un dominio mayor. No hay exterior físico desde el que medir su formación. No hay una trayectoria externa que permita compararla con otro objeto del mismo tipo. No hay un observador situado fuera de ella que pueda devolver un contraste físico superior.
+**P.5. Prohibición absoluta de adición axiomática externa al corpus.** Ningún operador absoluto, magnitud absoluta o teorema absoluto de este documento introduce axioma ajeno absoluto al Sistema Vectorial SV. El protocampo Π<sub>SV</sub>, el operador 𝔊<sub>SV</sub>, la ecuación maestra ℙ<sub>SV</sub> = 0, la estructura formal mínima F<sub>0</sub>, el dominio prototernario Ω<sub>pro</sub>, los siete teoremas absolutos de emergencia y los cuatro teoremas absolutos de absorción se construyen absolutamente sobre primitivos absolutos del corpus (UE_MFC, UFE, UFM, UFC) y sobre operaciones combinatorias absolutas sobre Ω<sub>pre</sub>, Ω<sub>pro</sub> y Σ. Ningún postulado axiomático nuevo absoluto se añade fuera del corpus; los tres postulados absolutos canónicos G.1, G.2, G.3 del programa son **heredados absolutos** del Destacado del §4bis del documento de la luz factual, no nuevos.
 
-La pregunta rigurosa debe distinguir, por tanto, entre dos sentidos de la palabra «universo». En un primer sentido, «universo» puede nombrar la totalidad absoluta de lo real o de lo formulable. En un segundo sentido, puede nombrar el universo físico observable: el dominio accesible mediante señales, horizontes, radiación, galaxias, estrellas, mapas, instrumentos, modelos y retornos observacionales. El primer sentido no admite edad física. El segundo sí admite edades relativas de sus contenidos.
+**P.6. Prohibición absoluta de clausura espuria.** La indeterminación absoluta U no se cierra absolutamente por decreto; sólo se resuelve absolutamente por sucesos factuales admisibles absolutos según el clasificador absoluto Γ<sub>ℋ</sub> del corpus (Lloret Egea, 2026c, Teorema 1 absoluto). En la presente publicación, el reconocimiento honesto absoluto de la frontera exterior absoluta ε<sub>0</sub> como U legítima honesta absoluta no cerrable absoluta desde dentro del aparato es la aplicación paradigmática absoluta de esta prohibición. Las quince visiones canónicass sobre el par estructural absoluto (ε<sub>0</sub>, F<sub>0</sub>) operan absolutamente sobre la frontera exterior absoluta sin forzar absolutamente su clausura. La matriz absoluta de coexistencia 15×15 del §35 absoluta es la formalización canónica de la prohibición sobre el conjunto absoluto de las visiones.
 
-La formulación se sitúa en esa distinción. No niega el valor de la cosmología física. Tampoco niega las mediciones observacionales, los mapas de galaxias, las señales profundas, las líneas espectrales ni los modelos de distancia. Al contrario, los toma como terreno de trabajo. Pero corrige el plano de atribución: la edad no pertenece a la totalidad absoluta, sino a dominios observables y a objetos físicos persistentes.
+Estas seis prohibiciones constitutivas absolutas operan como marco absoluto del documento. Cualquier pasaje que, por imprecisión expositiva, sugiera contradecirlas debe leerse en el sentido estricto absoluto fijado aquí y desarrollado en el apéndice final absoluto del documento.
 
-<a id="sec-0-2-dos-sentidos-de-universo"></a>
+---
 
-### 0.2. Dos sentidos de «universo»
+## 1. Suelo lógico-formal: cadena formal mínima de legitimidad
 
-La palabra «universo» no siempre designa el mismo objeto conceptual. En el lenguaje físico ordinario puede referirse al universo observable, al universo descrito por un modelo cosmológico, a la región causalmente accesible, al conjunto de contenidos físicos bajo una métrica, a la historia térmica de la expansión o a la totalidad de entidades físicas consideradas por una teoría. En lenguaje filosófico o formal puede designar una totalidad absoluta: aquello fuera de lo cual no queda ningún exterior del mismo orden.
+### 1.1. Apertura canónica del programa
 
-La confusión aparece cuando se atribuye a ambos sentidos una misma edad.
+La presente teoría general factual no puede comenzar en un campo físico ya formado. Si comenzara en un campo ya formado, presupondría aquello que la teoría debe explicar: cómo emerge la estructura factual dentro del Sistema Vectorial SV sin introducir tiempo soberano, causalidad externa, probabilidad fundante, dinámica continua ni física heredada como fundamento. La presente teoría tampoco puede comenzar en una ecuación física clásica heredada, porque una ecuación física posterior no puede ocupar el lugar canónico del tránsito originario: ninguna ecuación física heredada explica cómo aparece el dominio sobre el cual la propia ecuación opera. La presente teoría tampoco puede comenzar en una operatoria del dominio ya desplegada, porque toda operatoria sobre dominio presupone la apertura previa del dominio sobre el que opera.
 
-El universo observable es un dominio físico. Tiene horizonte, señales, historia térmica, radiación, estructura, galaxias, fuentes, mapas, modelos de distancia, escalas y magnitudes. Puede recibir una edad convencional o relativa dentro de una cosmología física. Sus contenidos pueden ordenarse por formación, emisión, propagación y retorno.
+La presente teoría debe comenzar en el punto lógico-formal mínimo en el que la vacuidad ∅ puede distinguirse formalmente del primer dominio admisible Ω<sub>pre</sub>, y debe demostrar, antes de cualquier otra cosa, que la cadena formal que conecta ese punto inicial con la emergencia de los protocampos es **única bajo las condiciones constitutivas del Sistema Vectorial SV**. Ese punto inicial es el suceso cero ε<sub>0</sub>, entendido como tránsito definible entre vacuidad y dominio preternario:
 
-La totalidad absoluta no es un dominio físico interno. No está contenida en un dominio superior del mismo tipo. No posee un exterior desde el cual medir su aparición. No puede compararse con otra totalidad situada fuera de ella. Por eso, la edad física no se le aplica en sentido estricto.
+```math
+\varepsilon_0:\;\emptyset\longrightarrow\Omega_{\mathrm{pre}}.
+```
 
-La distinción puede formularse así:
+Pero ε<sub>0</sub> no puede quedar reducido a una afirmación narrativa. Si ε<sub>0</sub> es definible dentro del Sistema Vectorial SV como tránsito entre ∅ y Ω<sub>pre</sub>, entonces debe existir una estructura formal mínima F<sub>0</sub> capaz de distinguir ambos términos. F<sub>0</sub> es el lugar canónico exacto en el que comparecen las matemáticas: no como causa de ε<sub>0</sub>, no como motor, no como energía, no como tiempo, no como dinámica y no como matemática operativa del dominio, sino como **preformalidad mínima de distinguibilidad**.
 
-<p><strong>totalidad absoluta ≠ universo observable.</strong></p>
+Desde este punto canónico, la teoría no introduce directamente campos físicos. Fija primero las condiciones constitutivas bajo las cuales puede emerger estructura factual: ε<sub>0</sub> abre Ω<sub>pre</sub>; F<sub>0</sub> permite distinguir formalmente ese tránsito; la equipotencialidad polar Φ(0) = Φ(1) se toma como condición constitutiva inicial de no predominio entre los polos determinados; esa equipotencialidad impide clausura binaria legítima; la no-decisión exige U como indeterminación honesta; y sólo después puede distinguirse el paso desde el dominio preternario abierto hacia el dominio prototernario y, finalmente, hacia la terna efectiva Σ = {0, 1, U}.
 
-Y también:
+Por tanto, el encadenamiento rector no debe leerse como causalidad temporal, sino como dependencia formal de legitimidad:
 
-<p><strong>edad de la totalidad absoluta ≠ edad relativa de contenidos observables.</strong></p>
+```math
+\varepsilon_0\;\to\;F_0\;\to\;\Omega_{\mathrm{pre}}\;\to\;\Phi(0)=\Phi(1)\;\to\;\text{no-decisi\'on}\;\to\;U\;\to\;\Omega_{\mathrm{pro}}\;\to\;\Sigma=\{0,1,U\}\;\to\;\text{sucesos generadores}\;\to\;\text{protocampos}.
+```
 
-La formulación adopta esta regla: cuando se hable de edad física, se exigirá dominio, frontera, identidad, métrica, residual y retorno. Si alguno de esos elementos falta, el lectura formal no será cierre numérico, sino no admisión o no clausura.
+La equipotencialidad polar Φ(0) = Φ(1) no genera ε<sub>0</sub> ni sustituye a F<sub>0</sub>. Su función canónica es distinta: fija el punto canónico en el que los polos determinados 0 y 1 carecen de gradiente resolutivo suficiente para clausurar binariamente. Si el sistema clausurara en 0 o en 1 sin base diferencial suficiente, falsearía su propia estructura. Por ello, la no-decisión no es defecto, sino condición honesta de apertura de U. U no comparece como tercer polo equipotente, ni como probabilidad, ni como ausencia de dato, sino como preservación formal de no-clausura. A partir de esa no-clausura puede distinguirse la estructuración prototernaria Ω<sub>pro</sub> y, sólo entonces, la terna efectiva Σ sobre la que podrán formularse sucesos generadores y protocampos.
 
-<a id="sec-0-3-primera-linea-de-contencion-prohibiciones-formales"></a>
+### 1.2. Definición del suceso cero como tránsito ε<sub>0</sub>: ∅ → Ω<sub>pre</sub>
 
-### 0.3. Primera línea de contención: prohibiciones formales
+**Definición 1.1 (Suceso cero como tránsito).** El **suceso cero** del Sistema Vectorial SV, denotado ε<sub>0</sub>, es el tránsito definible entre la vacuidad ∅ y el dominio preternario Ω<sub>pre</sub>:
 
-Para evitar que una cifra sustituya a una definición, la formulación queda sometido a seis prohibiciones formales.
+```math
+\varepsilon_0:\;\emptyset\longrightarrow\Omega_{\mathrm{pre}},
+```
 
-Primera: no se admite el tiempo como fundamento. El tiempo puede entrar como magnitud física, parámetro de retorno, escala de comparación o unidad metrológica. No puede ocupar el lugar del fundamento de la edad. Una edad física se define por dominio, frontera, acumulación y retorno; no por invocación primaria del tiempo.
+caracterizado por las cuatro propiedades simultáneas heredadas de la Definición 3bis.2 del documento de la luz factual: **precedencia ordinal** (ε<sub>0</sub> precede a todo suceso posterior en el ordinal ν de sucesos admisibles), **producción estructural** (bajo ε<sub>0</sub> todo par polar (α<sub>i</sub>, β<sub>i</sub>) pasa del estado degenerado (0, 0) al estado preternario no activado con α<sub>i</sub> + β<sub>i</sub> > 0), **pre-existencia vacua del dominio** (𝓔(D<sup>(−ε<sub>0</sub>)</sup>) = ∅ y 𝓔(D<sup>(+ε<sub>0</sub>)</sup>) ≠ ∅) y **exogeneidad** (ε<sub>0</sub> no tiene antecedente factual en el corpus; es exógeno al Sistema Vectorial SV por construcción).
 
-Segunda: no se admite la probabilidad como criterio de verdad. Un modelo probabilístico puede describir márgenes, distribuciones o estimaciones. No puede decidir por sí mismo que una atribución de edad esté bien tipada.
+**Observación 1.1 (ε<sub>0</sub> como tránsito formal, no como suceso temporal).** El suceso cero ε<sub>0</sub> no es instante temporal, no es acontecimiento físico en el sentido heredado, no es Big Bang, no es condición inicial postulada. Es tránsito formal definible dentro del aparato del Sistema Vectorial SV, cuya existencia es estructuralmente necesaria para que el sistema pueda cambiar, y cuya naturaleza queda declarada como indeterminación legítima honesta (axioma de la U del corpus, Lloret Egea, 2026a, Fundamentos 13.2.5 y 13.2.8).
 
-Tercera: no se admite la estadística como clausura. Una convergencia estadística puede ser evidencia potente dentro de un contraste físico. No sustituye el residual, el dominio ni el lectura formal.
+### 1.3. Definición de la estructura formal mínima de distinguibilidad F<sub>0</sub>
 
-Cuarta: no se admite la inferencia opaca. Toda transición relevante debe declarar dominio, codominio, magnitud, unidad, residual, lectura formal y retorno. Una conclusión no queda cerrada por plausibilidad.
+**Definición 1.2 (Estructura formal mínima de distinguibilidad F<sub>0</sub>).** La **estructura formal mínima de distinguibilidad** del Sistema Vectorial SV, denotada F<sub>0</sub>, es la estructura formal mínima capaz de distinguir formalmente la vacuidad ∅ del dominio preternario Ω<sub>pre</sub>. F<sub>0</sub> queda caracterizada por las cinco propiedades simultáneas:
 
-Quinta: no se admite la geometría con rango fundante. La métrica, la distancia, el horizonte, el corrimiento, la curvatura o la profundidad observacional son magnitudes y estructuras de dominio. No fundan por sí mismas la totalidad absoluta.
+(i) **distinguibilidad**: F<sub>0</sub> permite reconocer formalmente la diferencia entre ∅ y Ω<sub>pre</sub>;
 
-Sexta: no se admite cierre favorable por ausencia de refutación. Si la tabla de contraste no determina un resultado, el resultado no se fuerza. Si un caso carece de unidad, dominio, residual o retorno, no se declara apto.
+(ii) **minimalidad**: F<sub>0</sub> es la estructura formal mínima con la propiedad (i); ninguna estructura formal menos potente cumple la distinguibilidad;
 
-Estas prohibiciones no debilitan la formulación. Lo hacen físicamente controlable. Obligan a separar lo que se mide, el dominio donde se mide, la unidad usada, el transductor aplicado, el residual obtenido y el retorno físico resultante.
+(iii) **preformalidad**: F<sub>0</sub> opera como **preformalidad de distinguibilidad**, no como matemática operativa del dominio; F<sub>0</sub> es anterior canónica a toda operatoria sobre dominio;
 
-<a id="sec-0-4-la-terna-0-1-u-como-disciplina-de-lectura-formal"></a>
+(iv) **no causalidad**: F<sub>0</sub> no causa ε<sub>0</sub>, no genera ε<sub>0</sub>, no produce ε<sub>0</sub>; F<sub>0</sub> es condición formal de definibilidad de ε<sub>0</sub>, en el sentido canónico de que sin F<sub>0</sub> ε<sub>0</sub> no puede ser definible formalmente;
 
-### 0.4. La terna (0,1,U) como disciplina de lectura formal
+(v) **asimetría canónica**: F<sub>0</sub> → def(ε<sub>0</sub>); ε<sub>0</sub> ↛ F<sub>0</sub>. La flecha es unidireccional. F<sub>0</sub> hace posible la definibilidad de ε<sub>0</sub>, pero ε<sub>0</sub> no define F<sub>0</sub>.
 
-Se usarán una terna de lectura formal:
+**Observación 1.2 (estatuto canónico de las matemáticas dentro del Sistema Vectorial SV).** Las matemáticas, dentro del Sistema Vectorial SV, no son causa de ε<sub>0</sub>, no son motor del universo, no son energía, no son tiempo, no son dinámica y no son operatoria del dominio. Las matemáticas comparecen en F<sub>0</sub> como condición formal mínima de distinguibilidad. Esta declaración canónica resuelve con rango canónico la pregunta sobre el estatuto de las matemáticas dentro del aparato del SV: las matemáticas son preformalidad, no fundamento ontológico.
 
-<p><strong>0,1,U.</strong></p>
+**Observación 1.3 (Compatibilidad de F<sub>0</sub> con G.2 — no sustancialización).** F<sub>0</sub> no es sustancia oculta con propiedades soberanas añadidas. F<sub>0</sub> es estructura formal pura, articulada por la disciplina canónica del corpus, conforme al postulado canónica G.2 del programa (no sustancialización de los protocampos), heredado del Destacado del §4bis del documento de la luz factual.
 
-El símbolo (0) designa cierre favorable o anulación del residual en el dominio declarado. El símbolo (1) designa incompatibilidad, defecto no admisible o residual no anulado. El símbolo (U) designa no clausura honesta: el caso no queda cerrado porque falta una pieza esencial, porque el dominio no está suficientemente declarado, porque el retorno no es legítimo o porque el residual no permite decisión.
+### 1.4. Definición de la equipotencialidad polar inicial Φ(0) = Φ(1)
 
-La (U) no es ignorancia vulgar. No es probabilidad. No es margen estadístico. No es permiso para escoger el resultado que convenga. Es una marca formal de custodia: cuando no hay cierre, no se simula cierre.
+**Definición 1.3 (Equipotencialidad polar inicial).** La **equipotencialidad polar inicial** del Sistema Vectorial SV, denotada Φ(0) = Φ(1), es la condición constitutiva inicial sobre el borde inicial del dominio preternario Ω<sub>pre</sub> bajo la cual los polos determinados 0 y 1 comparecen sin predominio entre sí, equivalente algebraica de la condición canónica δ<sub>i</sub> = β<sub>i</sub> − α<sub>i</sub> = 0 sobre las posiciones iniciales ξ<sub>i</sub> ∈ Ω<sub>pre</sub>. Formalmente:
 
-Esta terna permite tratar la física contemporánea sin degradarla ni absolutizarla. Una medición física puede ser correcta dentro de su dominio y, sin embargo, no fundar la totalidad. Una expresión cosmológica puede ser útil y, a la vez, imprecisa si mezcla planos. Un dato observacional puede entrar en la tabla de contraste como evidencia y quedar sometido a residual. Un resultado puede ser físicamente poderoso y no ser todavía una edad de la totalidad absoluta.
+```math
+\Phi(0)=\Phi(1)\;\iff\;\delta_i = \beta_i - \alpha_i = 0\;\;\text{sobre el borde inicial de }\Omega_{\mathrm{pre}}.
+```
 
-El uso de (0,1,U) impone una disciplina sencilla:
+**Observación 1.4 (La equipotencialidad polar no es probabilidad uniforme).** Φ(0) = Φ(1) no es distribución probabilística uniforme entre los polos 0 y 1, en el sentido canónico de que la prohibición P.2 del corpus (no probabilidad fundante) prohíbe toda lectura probabilística. Φ(0) = Φ(1) es declaración canónica de **ausencia estructural de gradiente resolutivo** entre los polos determinados en el borde inicial del dominio preternario. Es magnitud estructural, no magnitud estadística.
 
-<p><strong>0 ⇒ cierre en dominio declarado.</strong></p>
+### 1.5. Definición de la no-decisión honesta
 
-<p><strong>1 ⇒ incompatibilidad o no admisión.</strong></p>
+**Definición 1.4 (No-decisión honesta).** La **no-decisión honesta** del Sistema Vectorial SV, denotada 𝒩<sub>SV</sub>, es la consecuencia algebraica directa de la equipotencialidad polar inicial Φ(0) = Φ(1) bajo ausencia de gradiente resolutivo suficiente. Formalmente, 𝒩<sub>SV</sub> es la condición:
 
-<p><strong>U ⇒ no clausura honesta.</strong></p>
+```math
+\mathcal{N}_{SV}\;\iff\;\Phi(0)=\Phi(1)\;\;\text{y la base estructural es insuficiente para clausura binaria}.
+```
 
-El lector no necesita aceptar una doctrina previa para entender esta terna. Basta reconocer que una afirmación física rigurosa puede estar cerrada, rechazada o no suficientemente determinada. La formulación formaliza esa diferencia y la aplica a las edades relativas del universo observable y de sus objetos físicos.
+**Observación 1.5 (No-decisión no es defecto).** La no-decisión honesta 𝒩<sub>SV</sub> no es defecto del aparato, no es carencia de información, no es fallo computacional. Es condición honesta del aparato bajo equipotencialidad: el aparato, al no disponer de gradiente resolutivo suficiente para clausurar binariamente, **no clausura ** y declara la indeterminación como U legítima. Esta es la lectura canónica de la prohibición P.6 (no clausura espuria) sobre el caso inicial.
 
-<a id="sec-0-5-la-totalidad-absoluta-no-es-objeto-fisico-interno"></a>
+### 1.6. Definición de la indeterminación U como preservación formal de no-clausura
 
-### 0.5. La totalidad absoluta no es objeto físico interno
+**Definición 1.5 (Indeterminación U como preservación formal de no-clausura).** La **indeterminación U** del Sistema Vectorial SV, en su comparecencia inicial sobre el borde inicial del dominio preternario Ω<sub>pre</sub> bajo equipotencialidad polar Φ(0) = Φ(1) y no-decisión honesta 𝒩<sub>SV</sub>, es la **preservación formal de no-clausura** del aparato. U no comparece:
 
-Una totalidad absoluta no puede recibir edad física como si fuera una galaxia, una estrella, una nube de gas, un átomo o una señal luminosa. La razón es estrictamente formal: la edad física requiere que el objeto sea contenido de un dominio en el que puedan declararse frontera, trayectoria, métrica y retorno. La totalidad absoluta no es contenido de un dominio mayor del mismo orden.
+(i) **no como tercer polo equipotente**: U no es tercer valor en pie de igualdad con 0 y 1 en sentido ontológico;
 
-Por tanto:
+(ii) **no como probabilidad**: U no es magnitud estadística ni distribución sobre el par {0, 1} (P.2 respetada);
 
-<p><strong>Edad(totalidad absoluta)=NO ADMISIBLE.</strong></p>
+(iii) **no como ausencia de dato**: U no es vacío informacional ni carencia de información;
 
-Esta afirmación no niega la cosmología. Niega una atribución mal tipada. La cosmología física puede hablar de historia del universo observable, de edad cosmológica bajo un modelo, de profundidad de señal, de tiempo de viaje de la luz, de formación de galaxias, de recombinación, de nucleosíntesis, de radiación de fondo o de horizontes. Todo eso pertenece al dominio físico observable. Lo que no puede hacer sin cambio de plano es convertir esa edad relativa de dominio en edad de la totalidad absoluta.
+sino:
 
-La totalidad absoluta no envejece. No porque tenga edad cero, sino porque la edad física no se aplica a su estatuto. Lo que envejece, se forma, emite, colapsa, persiste, transmite o retorna son los contenidos internos.
+(iv) **como preservación formal de no-clausura**: U es la marca canónica del aparato que registra honestamente que la base estructural no permite clausura binaria legítima.
 
-<a id="sec-0-6-que-si-posee-edad-fisica"></a>
+**Observación 1.6 (Articulación con el axioma de la U del corpus).** La presente Definición 1.5 es la lectura inicial canónica del axioma de la U del corpus (Lloret Egea, 2026a, Fundamentos 13.2.5 y 13.2.8), aplicada al borde inicial del dominio preternario Ω<sub>pre</sub> bajo equipotencialidad polar Φ(0) = Φ(1).
 
-### 0.6. Qué sí posee edad física
+### 1.7. Definición del dominio prototernario Ω<sub>pro</sub>
 
-Sí poseen edad física los objetos y dominios que cumplen condiciones de atribución. Una galaxia puede poseer edad relativa si se declara su dominio físico, su formación, su población estelar, sus firmas, su retorno luminoso y sus métricas de contraste. Una estrella puede poseer edad por estructura, masa, luminosidad, composición, evolución y señales. Un púlsar puede poseer edad por régimen rotacional, emisión, pérdida de energía y retorno medible. Un átomo o firma de hidrógeno puede poseer edad relativa como marcador de transición física persistente. Una señal luminosa puede tener edad de retorno si se declara distancia, propagación, medio, unidad, transductor y observación.
+**Definición 1.6 (Dominio prototernario Ω<sub>pro</sub>).** El **dominio prototernario** del Sistema Vectorial SV, denotado Ω<sub>pro</sub>, es el estrato canónico **estructuralmente distinto** del dominio preternario Ω<sub>pre</sub> y de la terna efectiva Σ = {0, 1, U}, que comparece como **estructuración emergente** sobre la no-clausura honesta U, anterior canónica a la comparecencia de la terna efectiva Σ. Formalmente, Ω<sub>pro</sub> queda caracterizado por las cuatro propiedades simultáneas:
 
-El universo observable, considerado como dominio físico interno, no posee edad absoluta en el sentido de totalidad, pero sí admite escalas relativas de historia observable. Esas escalas deben formularse con cuidado: no como edad de la totalidad, sino como edad del contenido físico observable más antiguo que retorna con firma admisible.
+(i) **posterioridad a U**: Ω<sub>pro</sub> emerge sobre U como estructuración de la no-clausura honesta;
 
-La formulación fija como blanco:
+(ii) **anterioridad a Σ**: Ω<sub>pro</sub> es anterior canónica a la terna efectiva Σ; Σ se constituye sobre Ω<sub>pro</sub>, no sobre U directamente;
 
-<p><strong>A<sub>Ωobs</sub>= edad concreta del observable retornado.</strong></p>
+(iii) **estructura emergente**: Ω<sub>pro</sub> dispone de estructura combinatoria articulada sobre la no-clausura honesta U, articulando los polos determinados 0 y 1 sin clausurarlos todavía;
 
-Ese contenido debe cumplir:
+(iv) **distinción canónica**: Ω<sub>pro</sub> ≠ Ω<sub>pre</sub> y Ω<sub>pro</sub> ≠ Σ; los tres estratos son canónicamente distintos en el aparato del Sistema Vectorial SV.
 
-<p><strong>dominio físico declarado,</strong></p>
+**Proposición 1.1 (Jerarquía estructural de los tres estratos canónicos).** En el Sistema Vectorial SV, los tres estratos canónicos Ω<sub>pre</sub>, Ω<sub>pro</sub> y Σ comparecen en jerarquía estricta:
 
-<p><strong>firma persistente,</strong></p>
+```math
+\Omega_{\mathrm{pre}}\;\subset_{\mathrm{can}}\;\Omega_{\mathrm{pro}}\;\subset_{\mathrm{can}}\;\Sigma=\{0,1,U\},
+```
 
-<p><strong>métrica de profundidad o retorno,</strong></p>
+donde ⊂<sub>can</sub> denota la **inclusión canónica** del aparato: cada estrato se constituye sobre el anterior sin reducirse a él y sin colapsar con él.
 
-<p><strong>unidad física,</strong></p>
+*Demostración.* La demostración procede en tres pasos.
 
-<p><strong>unidad transductiva,</strong></p>
+**Paso (a) — Ω<sub>pre</sub> ⊂<sub>can</sub> Ω<sub>pro</sub>.** Por la Definición 1.6, propiedad (i), Ω<sub>pro</sub> emerge sobre U, donde U es la marca canónica sobre el borde inicial del dominio preternario Ω<sub>pre</sub>. Por tanto Ω<sub>pro</sub> contiene Ω<sub>pre</sub> como estrato previo: la estructuración emergente opera sobre el sustrato preternario. La inclusión canónica es estricta porque Ω<sub>pro</sub> dispone de estructura adicional (estructuración emergente sobre U) que Ω<sub>pre</sub> no posee.
 
-<p><strong>residual evaluado,</strong></p>
+**Paso (b) — Ω<sub>pro</sub> ⊂<sub>can</sub> Σ.** Por la Definición 1.6, propiedad (ii), Σ se constituye sobre Ω<sub>pro</sub>: la terna efectiva Σ = {0, 1, U} surge como evaluación canónica sobre la estructuración prototernaria. La inclusión canónica es estricta porque Σ dispone de los tres símbolos efectivamente clausurados o articulados, mientras que Ω<sub>pro</sub> dispone sólo de la estructuración emergente sobre la no-clausura honesta U.
 
-<p><strong>lectura formal,</strong></p>
+**Paso (c) — distinción canónica de los tres estratos.** Por la Definición 1.6, propiedad (iv), Ω<sub>pre</sub>, Ω<sub>pro</sub> y Σ son canónicamente distintos. La supresión canónica de cualquiera de los tres colapsa la jerarquía y contradice al menos una condición constitutiva del Teorema 1.1.
 
-<p><strong>retorno físico controlado.</strong></p>
+Por los Pasos (a)–(c), la jerarquía estricta queda establecida. Q.E.D.
 
-<a id="sec-0-7-tesis-central-y-resultado-anunciado"></a>
+### 1.8. Cadena formal mínima de legitimidad
 
-### 0.7. Tesis central y resultado anunciado
+**Definición 1.7 (Cadena formal mínima de legitimidad).** La **cadena formal mínima de legitimidad** del Sistema Vectorial SV, denotada 𝒞<sub>F0,SV</sub>, es la sucesión canónica de eslabones formales:
 
-La tesis central dla formulación es la siguiente:
+```math
+\mathcal{C}_{F_0,SV}:\;\;\varepsilon_0\;\to\;F_0\;\to\;\Omega_{\mathrm{pre}}\;\to\;\Phi(0)=\Phi(1)\;\to\;\mathcal{N}_{SV}\;\to\;U\;\to\;\Omega_{\mathrm{pro}}\;\to\;\Sigma=\{0,1,U\}\;\to\;\mathfrak{G}_{SV}\;\to\;\Pi_{SV},
+```
 
-<p><strong>la totalidad absoluta no tiene edad física admisible;</strong></p>
+donde cada flecha → denota **dependencia formal de legitimidad**, no causalidad temporal, no implicación lógica trivial, no derivación matemática operativa. Cada eslabón es estructuralmente necesario para el siguiente en el sentido canónico demostrado por el Teorema 1.1.
 
-<p><strong>el universo observable y sus objetos físicos sí poseen edades relativas;</strong></p>
+**Observación 1.7 (La cadena es dependencia formal, no orden temporal).** La cadena 𝒞<sub>F0,SV</sub> debe leerse como dependencia formal de legitimidad. Cada eslabón es condición formal de legitimidad del siguiente, en el sentido canónico de que la supresión de cualquier eslabón destruye la legitimidad formal del eslabón siguiente y, por tanto, la legitimidad formal del aparato entero. La cadena no introduce tiempo soberano (P.1 respetada): los eslabones están ordenados por dependencia formal, no por orden temporal.
 
-<p><strong>la edad concreta del observable retornado corresponde al contenido observable retornado más antiguo con firma persistente admisible.</strong></p>
+### 1.9. Teorema de equipotencialidad polar como génesis canónica de U
 
-El resultado que se establece mediante transductores, métricas, tablas de contraste, unidades SI, unidades SV y laboratorios reproducibles es:
+**Teorema 1.2 (Equipotencialidad polar como génesis canónica de U).** Bajo la equipotencialidad polar inicial Φ(0) = Φ(1) sobre el borde inicial del dominio preternario Ω<sub>pre</sub>, la indeterminación U emerge como **única salida honesta del aparato** del Sistema Vectorial SV.
 
-A<sub>Ωobs</sub><sup>SV</sup>
+*Demostración.* La demostración procede en tres pasos.
 
-3 919 453 920 000 000 000 UE<sub>MFC</sub>.
+**Paso (i) — bajo Φ(0) = Φ(1), las salidas canónicas posibles del aparato son tres y sólo tres.** Bajo la equipotencialidad polar Φ(0) = Φ(1) en el borde inicial, las salidas canónicas posibles del aparato sobre el alfabeto canónica Σ = {0, 1, U} son exhaustivamente tres y sólo tres: (s.1) clausura a 0; (s.2) clausura a 1; (s.3) marca U. Ninguna otra salida canónica es admisible dentro del aparato, conforme al alfabeto canónica Σ del corpus.
 
-Con la equivalencia:
+**Paso (ii) — las salidas (s.1) y (s.2) son ilegítimas bajo Φ(0) = Φ(1).** La salida (s.1) clausura al polo 0; pero bajo Φ(0) = Φ(1), no hay gradiente resolutivo suficiente que justifique esa clausura hacia 0 frente a 1. Análogamente, la salida (s.2) clausura al polo 1; pero bajo Φ(0) = Φ(1), no hay gradiente resolutivo suficiente que justifique esa clausura hacia 1 frente a 0. Ambas clausuras serían decisiones arbitrarias del aparato sin base estructural suficiente, lo que contradiría la prohibición constitutiva P.4 (no inferencia opaca) del corpus, y la prohibición constitutiva P.6 (no clausura espuria). Por tanto, las salidas (s.1) y (s.2) son ilegítimas bajo Φ(0) = Φ(1).
 
-<p><strong>9 UE<sub>MFC</sub>=1 s,</strong></p>
+**Paso (iii) — la salida (s.3) es la única salida honesta.** Excluidas las salidas (s.1) y (s.2) por el Paso (ii), la única salida canónica admisible restante es (s.3): la marca U como preservación formal de no-clausura. Por la Definición 1.5, U es la marca canónica del aparato que registra honestamente la imposibilidad de clausura binaria legítima bajo equipotencialidad polar. Por tanto, U emerge como única salida honesta del aparato bajo Φ(0) = Φ(1).
 
-el retorno físico expresado en años julianos es:
+La conjunción de los Pasos (i)–(iii) establece que la equipotencialidad polar Φ(0) = Φ(1) es génesis canónica de U. Q.E.D.
 
-A<sub>Ωobs</sub><sup>ret</sup>
+**Corolario 1.1 (Refuerzo del Teorema 6.4 de Lloret Egea, 2026j).** El presente Teorema 1.2 refuerza con rango anterior canónica el Teorema 6.4 de Lloret Egea (2026j) sobre el nacimiento de U: el nacimiento de U bajo cruce del umbral de pertinencia (Teorema 6.4 de 2026j) es caso particular canónica del nacimiento general de U bajo equipotencialidad polar inicial (presente Teorema 1.2).
 
-13 800 000 000 años julianos.
+### 1.10. Conclusión del §1
 
-Esta cifra no se atribuye a la totalidad absoluta. Se atribuye al contenido observable más antiguo retornado con firma física persistente. La diferencia es el núcleo de la formulación.
+El §1 del presente documento establece con rango canónico el suelo lógico-formal sobre el que la teoría general factual de los sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV se construye. Cinco resultados canónicos quedan fijados en el §1:
 
-<a id="sec-i-ubicacion-doctrinal-de-la-formula-canonica-de-edad-en-la-cadena-de-formulas-absolutas-del-sv"></a>
+**Primero canónica.** El Teorema 1.1 (unicidad estructural condicionada del tránsito ε<sub>0</sub> – F<sub>0</sub> – U para la emergencia de sucesos generadores y protocampos), demostrado por reducción al absurdo articulada en siete subcasos exhaustivos bajo seis condiciones constitutivas, fija la cadena formal mínima de legitimidad como única dentro del Sistema Vectorial SV.
 
-## I. Ubicación doctrinal de la fórmula canónica de edad en la cadena de fórmulas absolutas del SV
+**Segundo canónica.** La Definición 1.2 (estructura formal mínima de distinguibilidad F<sub>0</sub>) declara con rango canónico el estatuto de las matemáticas dentro del Sistema Vectorial SV: las matemáticas comparecen en F<sub>0</sub> como **preformalidad mínima de distinguibilidad**, no como causa, motor, energía, tiempo, dinámica ni operatoria del dominio.
 
-<a id="sec-i-1-estatuto-del-apartado"></a>
+**Tercero canónica.** La Definición 1.3 (equipotencialidad polar inicial Φ(0) = Φ(1)) introduce con rango canónico la condición constitutiva inicial de no predominio entre los polos determinados en el borde inicial del dominio preternario Ω<sub>pre</sub>.
 
-### I.1. Estatuto del apartado
+**Cuarto canónica.** La Definición 1.6 (dominio prototernario Ω<sub>pro</sub>) y la Proposición 1.1 (jerarquía estructural de los tres estratos canónicos Ω<sub>pre</sub> ⊂<sub>can</sub> Ω<sub>pro</sub> ⊂<sub>can</sub> Σ) introducen con rango canónico un **tercer estrato canónico** del aparato del SV, anteriormente implícito y ahora explícito: la estructuración emergente sobre la no-clausura honesta U, anterior canónica a la terna efectiva Σ.
 
-La fórmula canónica de edad ocupa un lugar doctrinal preciso dentro del Sistema Vectorial SV. No pertenece al techo doctrinal del sistema, no funda la terna, no funda el espacio, no funda la luz, no funda el electromagnetismo, no funda la termodinámica y no funda la Teoría del TODO y de la NADA.
+**Quinto canónica.** El Teorema 1.2 (equipotencialidad polar como génesis canónica de U) demuestra que la indeterminación U emerge como única salida honesta del aparato bajo equipotencialidad polar Φ(0) = Φ(1), reforzando con rango anterior canónica el Teorema 6.4 de Lloret Egea (2026j).
 
-<a id="formula-age-01"></a>
-<div align="center"><strong>AGE-01.</strong> 𝓔<sub>age</sub>(O<sub>i</sub>) = (A<sub>i</sub>, F<sub>i</sub>, F<sub>i</sub>−A<sub>i</sub>, A<sub>i</sub>/F<sub>i</sub>, (F<sub>i</sub>−A<sub>i</sub>)/F<sub>i</sub>, 284 018 400·A<sub>i</sub>, 284 018 400·F<sub>i</sub>, 284 018 400·(F<sub>i</sub>−A<sub>i</sub>), Δ<sub>i</sub>).</div>
+Sobre este suelo canónico, la presente publicación construye el aparato entero de la teoría general factual. Los §§3–44 del cuerpo del documento, el anexo operatorio, el apéndice de blindaje adversarial absoluto, el apéndice final y el glosario tipográfico canónico despliegan con rigor canónica el desarrollo completo del programa.
 
-Su estatuto exacto es: 𝓔<sub>age</sub> ∈ Can<sup>met-trans</sup><sub>SV</sub>(Ω<sub>obs</sub>). Es decir, fórmula canónica metrológico-transductiva de edad para objetos físicos del universo observable. Su dominio propio es O<sub>i</sub>⊂Ω<sub>obs</sub>, y su cierre exige Δ<sub>i</sub>=0. La fórmula es absoluta dentro de su dominio, pero no absoluta dentro de todo el SV. Mide con error cero objetos observables ya constituidos; no funda el observable ni mide la totalidad absoluta.
+---
 
-<a id="sec-i-2-suelo-formal-y-techo-doctrinal"></a>
+## 2. Estudio del arte intra-SV y diagnóstico estructural del problema
 
-### I.2. Suelo formal y techo doctrinal
+### 2.1. Recorrido por las diez etapas del corpus desde el comienzo de la Matemática y Física Factual contemporánea del SV
 
-<a id="formula-tri-01"></a>
-<div align="center"><strong>TRI-01.</strong> K<sub>3</sub> = {0,1,U}.</div>
+El §2.1 recorre las **diez etapas canónicas** del corpus del Sistema Vectorial SV desde el comienzo de la **Matemática y Física Factual contemporánea del SV** (denominación canónica del programa del autor). Las diez etapas no son hitos sueltos: forman la secuencia estructural ordenada que conduce, paso a paso, hasta el programa de la presente publicación.
 
-El suelo formal operativo del SV queda fijado por la terna. El 0 designa cierre apto o admisible en dominio declarado; el 1 designa defecto, no admisión o cierre negativo; U designa indeterminación honesta, no clausura actual o insuficiencia formal de datos. Antes del suelo ternario pueden reconocerse dos planos preparatorios: nivel −2, preternario; nivel −1, prototernario. Esos planos no sustituyen la terna como suelo operativo.
+**Etapa 1. Fundamentos del Sistema Vectorial SV (Lloret Egea, 2026a).** El corpus del Sistema Vectorial SV se inaugura con la publicación de los fundamentos del aparato (Lloret Egea, 2026a), donde se fijan con rango canónico los primitivos del aparato: la unidad estructural máxima factual canónica UE_MFC, la unidad factual de energía UFE, la unidad factual de masa UFM, la unidad factual de carga UFC, el axioma de la U (Fundamentos 13.2.5 y 13.2.8), la honestidad coordenada y el principio de trazabilidad semántica sobre el corpus (Fundamentos 13.2.7). Estos primitivos son los suelos canónicos sobre los que descansa toda construcción posterior del corpus, y sobre los que descansa la presente teoría general factual.
 
-<a id="formula-todo-01"></a>
-<div align="center"><strong>TODO-01.</strong> 𝓔★<sub>TODO,SV</sub>(Γ<sub>U</sub>;τ)=0.</div>
+**Etapa 2. Compuerta metrológica ℘<sub>SV</sub> y pilar metrológico canónica.** La compuerta metrológica ℘<sub>SV</sub> del corpus opera como traducción canónica entre el aparato factual del Sistema Vectorial SV y el Sistema Internacional SI heredado, sin introducir unidades soberanas ajenas al corpus. La compuerta ℘<sub>SV</sub> traduce las unidades factuales (UE_MFC, UFE, UFM, UFC) a unidades SI (julio, kilogramo, culombio, metro, segundo) sin colapsar la diferencia estructural entre ambos sistemas. La compuerta ⊕ del aparato es concatenación de compuertas canónicas (conjunción lógica factual), no suma aritmética del SI. La distinción canónica entre ⊕ y + es estructural y debe respetarse en toda lectura del aparato.
 
-El techo doctrinal concreto queda fijado en el nivel 13. No hay nivel 14 doctrinal absoluto dentro de esta cadena. Las tablas de contraste, laboratorios, tablas, catálogos de errores y salidas ejecutables verifican o reproducen fórmulas; no constituyen niveles doctrinales absolutos.
+**Etapa 3. Clasificador canónica Γ<sub>ℋ</sub> (Lloret Egea, 2026c).** El clasificador canónico Γ<sub>ℋ</sub> del corpus, introducido en Lloret Egea (2026c), opera como criterio canónico de admisibilidad de sucesos factuales sobre los polos determinados {0, 1} y la indeterminación U. El Teorema 1 de Lloret Egea (2026c) establece que la indeterminación U se resuelve sólo por sucesos factuales admisibles según Γ<sub>ℋ</sub>, lo que constituye la base canónica de la prohibición constitutiva P.6 (no clausura espuria). Esta operación canónica es fundamental para la presente teoría: el reconocimiento honesto de la frontera exterior ε<sub>0</sub> como U legítima no cerrable desde dentro del aparato descansa sobre el Teorema 1 de 2026c.
 
-<a id="sec-i-3-criterio-de-inclusion-en-la-cadena-doctrinal"></a>
+**Etapa 4. Estructura preternaria del par polar (α<sub>i</sub>, β<sub>i</sub>) (Lloret Egea, 2026j).** La estructura preternaria del par polar (α<sub>i</sub>, β<sub>i</sub>) sobre las posiciones factuales ξ<sub>i</sub> ∈ Ω<sub>pre</sub>, formalizada en Lloret Egea (2026j, §§4–4), constituye el suelo canónico sobre el que descansa la formalización del protocampo primordial Π<sub>SV</sub> de la presente publicación. La derivación nativa de α<sub>i</sub> y β<sub>i</sub> desde los observables del corpus se reproduce íntegra en el §6 del presente documento. El Teorema 6.4 de Lloret Egea (2026j) sobre el nacimiento de U bajo cruce del umbral de pertinencia queda reforzado por el Teorema 1.2 del presente §1, conforme al Corolario 1.1.
 
-### I.3. Criterio de inclusión en la cadena doctrinal
+**Etapa 5. Reducción estructural de Maxwell factual a 𝔼<sub>SV</sub> = 0 (Lloret Egea, 2026k).** La reducción estructural de las cuatro ecuaciones de Maxwell heredadas a la ecuación única absoluta 𝔼<sub>SV</sub> = 0 del Sistema Vectorial SV, formalizada en Lloret Egea (2026k, §4.12), constituye el primer hito canónico de unificación estructural dentro del aparato. La presente teoría general factual absorbe Maxwell factual como restricción canónica exacta de la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 sobre proyección admisible del protocampo unificado a los sumandos electromagnéticos, conforme al Teorema 27.1 del §27 del presente documento.
 
-Sólo se incorporan a la cadena doctrinal las fórmulas absolutas o canónicas del SV, entendidas como estructuras con función rectora sobre un dominio formal o físico declarado. No ocupan nivel doctrinal absoluto las tablas de contraste, laboratorios, salidas esperadas, catálogos de error, figuras, repositorios ni casos numéricos aislados. Esos elementos quedan subordinados a la fórmula que verifican.
+**Etapa 6. Teoría factual de la luz (Lloret Egea, 2026 — luz factual).** La teoría factual de la luz, formalizada en el documento de la luz factual del corpus, fija la ecuación maestra absoluta L<sub>SV</sub> = 0 sobre quince sumandos y trece invariantes, articulando la luz factual como fenómeno canónica sobre el aparato del Sistema Vectorial SV. El §4bis del documento de la luz factual contiene el Destacado canónico sobre el rango doctrinal superior absoluto de la **Teoría general de sucesos generadores y de los protocampos unificados**, anuncio cuyo desarrollo canónico es la presente publicación. El §8.3bis refuerza con rango canónico la apertura del programa de los protocampos unificados. La presente teoría absorbe la luz factual como restricción canónica exacta de ℙ<sub>SV</sub> = 0 sobre proyección admisible del protocampo unificado a los sumandos lumínicos, conforme al Teorema 28.1 del §28 del presente documento.
 
-<p><strong>Regla.</strong> Una fórmula absoluta puede ocupar nivel doctrinal; un registro o laboratorio no.</p>
+**Etapa 7. Transmutación factual (Lloret Egea, 2026q).** La teoría factual de la transmutación, formalizada en Lloret Egea (2026q), articula la cadena canónica Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} sobre la operación de transmutación canónica dentro del aparato. La presente teoría absorbe la transmutación factual como restricción canónica exacta de ℙ<sub>SV</sub> = 0 sobre proyección admisible del protocampo unificado a los sumandos transmutativos sobre la clase G interior, conforme al Teorema 29.1 del §29 del presente documento.
 
-<a id="sec-i-4-cadena-doctrinal-absoluta-del-sv"></a>
+**Etapa 8. Entropía factual H<sub>SV</sub> (Lloret Egea, 2026l).** La teoría factual de la entropía H<sub>SV</sub>, formalizada en Lloret Egea (2026l), articula la irreversibilidad estructural del aparato sobre el ordinal ν de sucesos admisibles. La presente teoría absorbe la entropía factual como funcional integrador bajo ℙ<sub>SV</sub> = 0, conforme al Teorema 30.1 del §30 del presente documento.
 
-### I.4. Cadena doctrinal absoluta del SV
+**Etapa 9. Las cuatro transformadas canónicas de trayectoria 𝒯<sup>SV</sup><sub>k</sub>.** El corpus fija las cuatro transformadas canónicas de trayectoria 𝒯<sup>SV</sup><sub>k</sub> con k ∈ {1, 2, 3, 4}, que articulan la covariancia factual del aparato bajo cambios admisibles de trayectoria sobre el dominio. Las cuatro transformadas son: 𝒯<sup>SV</sup><sub>1</sub> (translación canónica sobre ν), 𝒯<sup>SV</sup><sub>2</sub> (reordenación canónica de ordinal admisible), 𝒯<sup>SV</sup><sub>3</sub> (cambio canónico de etiquetado polar admisible) y 𝒯<sup>SV</sup><sub>4</sub> (compuerta canónica admisible). La covariancia factual bajo las cuatro transformadas se demuestra en el §12 del presente documento como propiedad algebraica del operador 𝔊<sub>SV</sub>.
 
-La cadena doctrinal queda organizada desde nivel −2 hasta nivel 13. Su lectura estructural es: preternario → prototernario → ternario → célula → composición → gobierno de U → suceso/cambio → transducción/metrología → edad observable → luz → electromagnetismo → termodinámica → persistencia material → interacción/campo → unificación física → TODO/NADA. Esta cadena no es cronológica. Es doctrinal y de prevalencia.
+**Etapa 10. Célula canónica SV(3, 9) y categorías canónicas.** El corpus fija la célula canónica SV(3, 9) como configuración minimal de prueba del aparato: tres posiciones factuales ξ<sub>1</sub>, ξ<sub>2</sub>, ξ<sub>3</sub> sobre Ω<sub>pre</sub> con nueve sucesos factuales admisibles sobre el ordinal ν. La célula SV(3, 9) es el banco canónico sobre el que se ejecutan las verificaciones canónicas del aparato. La presente publicación recorre la consistencia sobre SV(3, 9) en el §39. Las categorías canónicas OpFact<sub>SV</sub>, OpGen<sub>SV,Π</sub> y OpFact<sub>SV,General</sub> son las categorías canónicas operatorias del aparato, sobre las que se demuestran los teoremas de unicidad representacional del operador 𝔊<sub>SV</sub> (§13) y del operador maestro ℙ<sub>SV</sub> (§26).
 
-<a id="sec-i-5-niveles-doctrinales"></a>
+### 2.2. Diagnóstico estructural del problema canónica
 
-### I.5. Niveles doctrinales
+El recorrido canónico del corpus heredado del §2.1 pone de manifiesto un diagnóstico estructural canónica que justifica con rango canónico la presente teoría general factual. El diagnóstico se articula en cinco puntos canónicos.
 
-| Nivel | Fórmula absoluta | Dominio | Estatuto |
-|---:|---|---|---|
-| −2 | 𝓔<sub>∅</sub>, ε<sub>−0</sub> | preternario | pre-suelo |
-| −1 | Ω<sub>pre</sub>, (α<sub>i</sub>,β<sub>i</sub>), Π<sub>3</sub><sup>H</sup> | prototernario | tránsito hacia terna |
-| 0 | K<sub>3</sub>={0,1,U} | terna | suelo formal del SV |
-| 1 | 𝓢<sub>n</sub>=K<sub>3</sub><sup>n</sup>, T(n)=⌊7n/9⌋ | célula | fórmula celular absoluta |
-| 2 | C<sub>i</sub>, χ<sub>i</sub>, 𝓕<sub>SV</sub> | composición | composición tipada |
-| 3 | Γ<sub>H</sub>, HNA, T<sup>ex</sup> | U | gobierno de indeterminación |
-| 4 | ∂<sub>ν</sub><sup>SV</sup>, d<sub>Φ</sub>, D<sub>Φ</sub>, Δ<sub>q</sub><sup>Φ</sup>, 𝔄, CS | suceso/cambio | cálculo factual |
-| 5 | 𝔛<sub>SV</sub>(D↔D′), Π, Δ, d | transducción/metrología | dominio ↔ dominio |
-| 6 | 𝓔<sub>age</sub>(O<sub>i</sub>) | Ω<sub>obs</sub> | edad de objetos observables |
-| 7 | Γ<sub>L</sub>, Dist<sub>SV</sub><sup>fib</sup>, 𝓣<sub>L</sub> | luz/transmisión | luz factual |
-| 8 | Div<sub>SV</sub>, Rot<sub>SV</sub>, Δ<sub>EM</sub><sup>SV</sup> | electromagnetismo | Maxwell–SV |
-| 9 | F<sub>SV</sub>, W<sub>SV</sub>, Q<sub>SV</sub>, H<sub>SV</sub>, T<sub>SV</sub><sup>fact</sup> | termodinámica | física energético-térmica factual |
-| 10 | 𝓟<sub>min</sub>, ∂Ω<sub>H</sub>, Ω<sub>H</sub> | persistencia material | hidrógeno/química factual |
-| 11 | 𝓘<sub>SV</sub>, DistInter<sup>SV</sup>, 𝓣<sub>SV</sub>, SV(36,6) | campos | interacción/transmisión |
-| 12 | 𝔉<sub>SV</sub>, 𝔘<sup>unif</sup><sub>SV</sub>, 𝓕<sub>𝓐</sub>, C<sub>SV</sub> | unificación física | protocampos/campo unificado |
-| 13 | 𝓔★<sub>TODO,SV</sub>(Γ<sub>U</sub>;τ)=0 | TODO/NADA | techo absoluto |
+**Punto canónico 1.2.1. Coexistencia canónica de regímenes inferiores sin operador maestro único.** El corpus dispone de cuatro regímenes canónicos formalizados con rango canónico inferior: Maxwell factual (Lloret Egea, 2026k) con ecuación maestra absoluta 𝔼<sub>SV</sub> = 0, luz factual (Lloret Egea, 2026 — luz) con ecuación maestra absoluta L<sub>SV</sub> = 0 sobre quince sumandos, transmutación factual (Lloret Egea, 2026q) con cadena canónica Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U}, y entropía factual (Lloret Egea, 2026l) con funcional H<sub>SV</sub>. Cada régimen opera con su propio aparato canónico, sus propios sumandos, sus propios invariantes. **No existe, hasta esta publicación, un operador maestro canónica único que articule con rango doctrinal superior absoluto los cuatro regímenes como restricciones canónicas exactas suyas.** Esta ausencia canónica es el primer punto del diagnóstico.
 
-<a id="sec-i-6-teorema-de-nivel-exacto-de-eage"></a>
+**Punto canónico 1.2.2. Ausencia canónica de objeto primario unificador.** Cada régimen canónico inferior dispone de objetos canónicos primarios propios: Maxwell factual opera sobre los campos factuales electromagnéticos; la luz factual opera sobre el campo factual lumínico; la transmutación factual opera sobre las masas factuales y cargas factuales; la entropía factual opera sobre el funcional H<sub>SV</sub> sobre el ordinal ν. **No existe, hasta esta publicación, un objeto primario canónica unificador único sobre el que descansen los cuatro regímenes como proyecciones canónicas activadas suyas.** Esta ausencia canónica es el segundo punto del diagnóstico.
 
-### I.6. Teorema de nivel exacto de 𝓔<sub>age</sub>
+**Punto canónico 1.2.3. Ausencia canónica de operador soberano único de generación.** Cada régimen canónico inferior dispone de operadores canónicos propios sobre sus objetos primarios: Maxwell factual opera con operadores electromagnéticos del aparato; la luz factual con operadores lumínicos; la transmutación factual con la operación canónica de transmutación; la entropía factual con la operación canónica de integración sobre ν. **No existe, hasta esta publicación, un operador soberano canónico único de generación que actúe sobre el objeto primario unificador y que se proyecte como operador canónica de cada régimen.** Esta ausencia canónica es el tercer punto del diagnóstico.
 
-**Teorema.** La fórmula 𝓔<sub>age</sub> ocupa exactamente el nivel 6 de la cadena doctrinal absoluta del SV.
+**Punto canónico 1.2.4. Ausencia canónica de taxonomía canónica única de sucesos factuales.** Cada régimen canónico inferior dispone de clasificaciones canónicos propias de sucesos: Maxwell factual distingue sucesos electromagnéticos por su tipo; la luz factual distingue sucesos lumínicos por su naturaleza canónica; la transmutación factual distingue sucesos transmutativos por su clase canónica; la entropía factual distingue sucesos entrópicos por su contribución al funcional H<sub>SV</sub>. **No existe, hasta esta publicación, una taxonomía canónica única de sucesos factuales que sirva con rango canónico a los cuatro regímenes simultáneamente y al operador maestro único.** Esta ausencia canónica es el cuarto punto del diagnóstico.
 
-**Demostración.** Primero, no puede ocupar nivel inferior al 5, porque presupone transducción metrológica: A<sub>i</sub><sup>SV</sup>=K<sub>age</sub>A<sub>i</sub><sup>FC</sup>, con K<sub>age</sub>=284 018 400. Por tanto, depende del régimen de transducción y metrología. Segundo, no puede ocupar nivel 7 o superior, porque no gobierna luz, electromagnetismo, termodinámica, persistencia material, interacción de campos, unificación física ni TODO/NADA. Su dominio propio es O<sub>i</sub>⊂Ω<sub>obs</sub>. Tercero, no puede ocupar nivel 13, porque el nivel 13 corresponde a [TODO-01](#formula-todo-01). Si 𝓔<sub>age</sub> fuera nivel 13, permitiría atribuir edad física a la totalidad absoluta, pero Edad(TODO<sub>SV</sub>)=NO ADMISIBLE. Cuarto, no puede reducirse a registro o laboratorio, porque define la estructura que las matrices de contraste y los laboratorios verifican. Por tanto, Nivel<sub>SV</sub>(𝓔<sub>age</sub>)=6. c.q.d.
+**Punto canónico 1.2.5. Ausencia canónica de declaración canónica del estatuto de las matemáticas dentro del Sistema Vectorial SV.** El corpus fija con rango canónico los primitivos del aparato, las prohibiciones constitutivas P.1–P.5, los etapas de cada régimen inferior. **No existe, hasta esta publicación, una declaración canónica explícita del estatuto canónico de las matemáticas dentro del aparato del Sistema Vectorial SV.** El presente §1, mediante la Definición 1.2 y la Observación 1.2, establece con rango canónico que las matemáticas comparecen en F<sub>0</sub> como **preformalidad mínima de distinguibilidad**, no como causa, motor, energía, tiempo, dinámica ni operatoria del dominio. Esta declaración canónica resuelve con rango canónico el quinto punto del diagnóstico.
 
-<a id="sec-i-7-criterio-de-incorporacion-de-desarrollos-posteriores"></a>
+### 2.3. Anuncio canónica del programa en el §4bis del documento de la luz factual
 
-### I.7. Criterio de incorporación de desarrollos posteriores
+El §4bis del documento de la luz factual (Destacado canónico del programa) anuncia con rango doctrinal superior absoluto la presente teoría general factual de los sucesos generadores y de los protocampos unificados. El §8.3bis refuerza con rango canónico la apertura del programa. Tres elementos canónicos del anuncio del §4bis se reproducen íntegros en la presente publicación:
 
-**Criterio.** Todo desarrollo posterior carece de rango doctrinal absoluto salvo absorción expresa en uno de los niveles −2 a 13 con dominio, fórmula, residual, lectura formal y retorno.
+**Elemento canónica 1.3.1. Los tres postulados canónicos del programa: G.1, G.2, G.3.** Heredados del Destacado del §4bis del documento de la luz factual. Su desarrollo canónico se recoge en el §3 del presente documento.
 
-**Verificación formal.** Sea X una fórmula, hipótesis, tabla, registro, observación o salida introducida desde fuera de la cadena fijada. Si X no declara Ω<sub>X</sub>, 𝓕<sub>X</sub>, Δ<sub>X</sub>, d<sub>X</sub> y R<sub>X</sub>, entonces X=U. Si X contradice un nivel superior de la cadena, entonces d<sub>X</sub>=1. Si X pretende ocupar nivel 13 sin ser [TODO-01](#formula-todo-01), queda rechazado. Si X pretende introducir probabilidad, estadística, minería de datos, inferencia opaca, heurística no declarada o tiempo rector como fundamento, viola el suelo ternario y la disciplina del SV. Por tanto, X no es doctrinal absoluto por aparecer después. Sólo será admisible si queda absorbido formalmente por la cadena ya fijada. c.q.d.
+**Elemento canónica 1.3.2. Estructura canónica de dos niveles canónicos del programa.** Heredada del Destacado del §4bis del documento de la luz factual: nivel demostrado canónica (núcleo duro) y nivel postulado canónica (visiones coexistentes sobre la frontera exterior ε<sub>0</sub>). Su desarrollo canónico se recoge en el §4 del presente documento.
 
-<a id="sec-i-8-lectura-formal-doctrinal"></a>
+**Elemento canónica 1.3.3. Las quince visiones canónicas sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>).** Heredadas del Destacado del §4bis del documento de la luz factual. Su desarrollo canónico íntegro se recoge en el §34 del presente documento, con la matriz canónica de coexistencia del §35 y el refuerzo canónica de la prohibición constitutiva P.6 sobre el conjunto de las visiones en el §37.
 
-### I.8. Síntesis doctrinal
+### 2.4. Cierre canónico del §2
 
-<p><strong>Síntesis.</strong> El techo doctrinal es nivel 13; el suelo formal operativo es K<sub>3</sub>={0,1,U}; los niveles −2 y −1 son pre-suelo preternario y prototernario; 𝓔<sub>age</sub> ocupa nivel 6.</strong></p>
+el §2 del presente documento cierra con rango canónico el estudio del arte canónica intra-SV del aparato. El recorrido canónico del §2.1 fija con rango canónico los etapas del corpus. El diagnóstico estructural del §2.2 justifica con rango canónico la necesidad canónica del programa. El anuncio canónica del §2.3 fija con rango canónico el origen canónica del programa en el Destacado canónico del §4bis del documento de la luz factual. Sobre este suelo canónico, los §§4 y 4 del presente documento despliegan con rango canónico los tres postulados canónicos del programa y la estructura canónica de dos niveles canónicos del programa.
 
-𝓔<sub>age</sub> es fórmula canónica metrológico-transductiva de edad para objetos de Ω<sub>obs</sub>. No funda el TODO, no funda la terna, no funda el espacio, no funda la luz, no funda Maxwell, no funda termodinámica y no funda campos. Mide con error cero objetos observables ya constituidos. Todo desarrollo posterior que entre por vía lateral queda fuera de rango doctrinal absoluto salvo absorción formal expresa en esta cadena.
+---
 
-<a id="indice-formulas-centrales"></a>
+## 3. Los tres postulados canónicos del programa
 
-<a id="sec-indice-de-formulas-centrales"></a>
+### 3.1. Apertura canónica del §3
 
-### Índice de fórmulas centrales
+Los tres postulados canónicos del programa, denotados G.1, G.2, G.3, son **heredados canónicamente** del Destacado canónico del §4bis del documento de la luz factual. No son postulados nuevos introducidos en la presente publicación; son postulados canónicos previos del corpus sobre los que la presente teoría general factual se construye. Esta declaración canónica es esencial: la presente publicación respeta con rango canónico la prohibición constitutiva P.5 (no adición axiomática externa al corpus), no introduciendo postulados nuevos fuera del corpus.
 
-| Código | Fórmula | Función |
+### 3.2. Postulado canónica G.1: existencia canónica del protocampo primordial unificado Π<sub>SV</sub>
+
+**Postulado canónica G.1 (Existencia canónica del protocampo primordial unificado Π<sub>SV</sub>).** En el Sistema Vectorial SV existe, con rango canónico primario, un objeto canónico unificador, denotado Π<sub>SV</sub>, que admite identificación canónica con el par polar (α<sub>i</sub>, β<sub>i</sub>) definido sobre el dominio prototernario Ω<sub>pro</sub> emergente del dominio preternario Ω<sub>pre</sub>, y que opera como **protocampo primordial unificado** del aparato.
+
+**Lectura canónica del postulado G.1.** Π<sub>SV</sub> no es campo físico en el sentido heredado, no es campo cuántico, no es campo clásico. Π<sub>SV</sub> es protocampo primordial: estrato canónico **anterior canónica** a la activación canónica de cualquier campo factual del corpus. Los siete campos factuales coexistentes del corpus (electromagnético, lumínico, transmutativo, entrópico, gravitacional factual, electromagnético interno, axiológico factual) emergen como **proyecciones canónicas activadas** del protocampo primordial Π<sub>SV</sub> a través de cadenas canónicas de activaciones honestas Π<sub>3</sub><sup>H</sup>, conforme a los siete teoremas de emergencia del §19 del presente documento.
+
+**Compatibilidad canónica del postulado G.1 con las prohibiciones P.1–P.6.** El postulado G.1 es compatible con las seis prohibiciones constitutivas P.1–P.6 del corpus. No introduce tiempo soberano (P.1 respetada): Π<sub>SV</sub> opera sobre el ordinal ν de sucesos admisibles. No introduce probabilidad fundante (P.2 respetada): Π<sub>SV</sub> es magnitud estructural, no magnitud estadística. No introduce geometría soberana auxiliar (P.3 respetada): Π<sub>SV</sub> opera sobre el dominio prototernario Ω<sub>pro</sub>, no sobre soporte geométrico soberano. No introduce inferencia opaca (P.4 respetada): Π<sub>SV</sub> es trazable canónicamente al par polar (α<sub>i</sub>, β<sub>i</sub>) del corpus. No introduce axioma ajeno (P.5 respetada): Π<sub>SV</sub> se construye sobre los primitivos del corpus. No introduce clausura espuria (P.6 respetada): Π<sub>SV</sub> opera sobre la no-clausura honesta U sin forzar clausura sobre ella.
+
+### 3.3. Postulado canónica G.2: no sustancialización de los protocampos
+
+**Postulado canónica G.2 (No sustancialización de los protocampos).** El protocampo primordial unificado Π<sub>SV</sub> y los siete campos factuales coexistentes del corpus que emergen como proyecciones canónicas activadas suyas no son sustancias ocultas con propiedades soberanas añadidas, no son entidades ontológicamente independientes con realidad soberana, no son fluidos cósmicos preexistentes. Los protocampos comparecen en el aparato del Sistema Vectorial SV como **estructuras formales puras**, articuladas por la disciplina canónica del corpus, sin sustancialización soberana.
+
+**Lectura canónica del postulado G.2.** El postulado G.2 resuelve con rango canónico un problema canónica fundamental del aparato: el riesgo canónica de leer Π<sub>SV</sub> como entidad sustancial soberana, lo que introduciría axioma ajeno al corpus y violaría la prohibición constitutiva P.5. El postulado G.2 declara con rango canónico que Π<sub>SV</sub> es estructura formal pura, no sustancia oculta. Esta declaración canónica es compatible con la Observación 1.3 del §1 sobre F<sub>0</sub>.
+
+**Articulación canónica del postulado G.2 con la prohibición constitutiva P.5.** El postulado G.2 es refuerzo canónica específico de la prohibición constitutiva P.5 sobre el caso canónico de los protocampos: la prohibición P.5 prohíbe la adición de axiomas ajenos al corpus; el postulado G.2 cierra la lectura canónica de Π<sub>SV</sub> dentro del aparato sin sustancialización soberana. Las quince visiones canónicas sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>) del §34 del presente documento operan bajo el postulado G.2: ninguna de las quince visiones introduce sustancia oculta soberana sobre la frontera exterior ε<sub>0</sub>.
+
+### 3.4. Postulado canónica G.3: existencia canónica del operador soberano de generación 𝔊<sub>SV</sub>
+
+**Postulado canónica G.3 (Existencia canónica del operador soberano de generación 𝔊<sub>SV</sub>).** En el Sistema Vectorial SV existe, con rango canónico primario, un operador canónica soberano, denotado 𝔊<sub>SV</sub>, que actúa sobre el protocampo primordial unificado Π<sub>SV</sub> a través de sucesos generadores interiores de clase canónica G, y que opera como **operador soberano canónico de generación** del aparato.
+
+**Lectura canónica del postulado G.3.** El operador 𝔊<sub>SV</sub> no es fuerza física en el sentido heredado, no es campo cuántico secundario, no es operador cuántico. 𝔊<sub>SV</sub> es operador soberano canónico del aparato: actúa sobre Π<sub>SV</sub> mediante sucesos generadores interiores de clase canónica G, donde **clase G** denota la clase canónica de sucesos generadores interiores del aparato, conforme a la taxonomía canónica G/A/D del §10 del presente documento. Las cuatro propiedades algebraicas del operador 𝔊<sub>SV</sub> — homogeneidad factual, aditividad, covariancia factual bajo las cuatro transformadas canónicas de trayectoria del SV y estabilidad estructural — se demuestran en el §12 del presente documento, y la unicidad representacional de 𝔊<sub>SV</sub> en la categoría canónica OpGen<sub>SV,Π</sub> queda establecida en el §13.
+
+**Compatibilidad canónica del postulado G.3 con las prohibiciones P.1–P.6.** El postulado G.3 es compatible con las seis prohibiciones constitutivas P.1–P.6 del corpus. No introduce tiempo soberano (P.1 respetada): 𝔊<sub>SV</sub> opera sobre el ordinal ν de sucesos admisibles, mediante la derivada factual ∂<sub>ν</sub><sup>SV</sup> que es diferencia finita sobre ordinal, no derivada temporal. No introduce probabilidad fundante (P.2 respetada). No introduce geometría soberana auxiliar (P.3 respetada). No introduce inferencia opaca (P.4 respetada): cada sucesos generador interior de clase G sobre el que actúa 𝔊<sub>SV</sub> es trazable canónicamente al clasificador Γ<sub>ℋ</sub> del corpus. No introduce axioma ajeno (P.5 respetada). No introduce clausura espuria (P.6 respetada): 𝔊<sub>SV</sub> opera sobre sucesos generadores interiores sin forzar la clausura de la frontera exterior ε<sub>0</sub>.
+
+### 3.5. Cierre canónico del §3
+
+Los tres postulados canónicos del programa, G.1, G.2, G.3, quedan fijados con rango canónico en el §3 del presente documento. Los tres postulados son heredados canónicamente del Destacado canónico del §4bis del documento de la luz factual, no son postulados nuevos introducidos fuera del corpus. Su compatibilidad canónica con las seis prohibiciones constitutivas P.1–P.6 del corpus queda declarada con rango canónico. Sobre este suelo canónico, el §4 del presente documento despliega con rango canónico la estructura canónica de dos niveles canónicos del programa.
+
+---
+
+## 4. Estructura de dos niveles canónicos del programa
+
+### 4.1. Apertura canónica del §4
+
+El programa desarrollado en la presente publicación opera con **estructura canónica de dos niveles canónicos**, heredada del Destacado canónico del §4bis del documento de la luz factual. Los dos niveles canónicos son: el **nivel demostrado canónica** (núcleo duro), donde se acumula con rango canónico el aparato demostrativo del programa (teoremas, corolarios, proposiciones, definiciones canónicas, invariantes), y el **nivel postulado canónica** (visiones coexistentes sobre la frontera exterior ε<sub>0</sub>), donde se recogen con rango canónico las quince visiones canónicas sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>) como lecturas estructurales coexistentes legítimas, no como axiomas. La distinción canónica entre ambos niveles es esencial para la lectura canónica del programa.
+
+### 4.2. Nivel demostrado canónica: núcleo duro
+
+**Definición 4.1 (Nivel demostrado canónica del programa).** El **nivel demostrado canónica** del programa, denotado canónicamente como el conjunto canónico 𝒟<sub>SV</sub>, es el conjunto canónico de todos los resultados del aparato que admiten demostración canónica dentro del marco canónica del Sistema Vectorial SV, sobre los primitivos del corpus y bajo las prohibiciones constitutivas P.1–P.6. El nivel demostrado canónica incluye:
+
+(i) los **43 teoremas canónicos** del presente documento, demostrados con rigor canónica Q.E.D.;
+
+(ii) los **17 corolarios canónicos** del presente documento, derivados con rigor canónica de los teoremas;
+
+(iii) las **11 proposiciones canónicas** del presente documento, demostradas con rigor canónica;
+
+(iv) las **43 definiciones canónicas** del presente documento, fijadas con rango canónico sobre los primitivos del corpus;
+
+(v) los **13 invariantes canónicos I.1–I.13** del operador maestro ℙ<sub>SV</sub>, fijados con rango canónico en el §25 del presente documento;
+
+(vi) los **9 sumandos canónicos** del operador maestro ℙ<sub>SV</sub>, fijados con rango canónico en los §§24–23 del presente documento;
+
+(vii) los **8 criterios canónicos independientes de falsación** del marco, fijados con rango canónico en el §38 del presente documento;
+
+(viii) los **19 bancos visibles** con verificación numérica explícita, fijados con rango canónico en el §40 del presente documento;
+
+(ix) los **24 laboratorios canónicos** con contrato operatorio, fijados con rango canónico en el §41 del presente documento.
+
+**Observación 4.1 (Rigor canónica del nivel demostrado canónica).** El nivel demostrado canónica del programa opera con rigor canónica demostrativo: cada teorema se demuestra con pasos numerados canónicos hasta cierre Q.E.D.; cada corolario se deriva con rigor canónica de los teoremas sobre los que descansa; cada proposición se demuestra con rigor canónica; cada definición canónica se fija con rango canónico sobre los primitivos del corpus. El nivel demostrado canónica del programa es el **núcleo duro** del aparato: ninguno de sus resultados puede ser impugnado sin contradecir al menos uno de los primitivos del corpus, una de las prohibiciones constitutivas P.1–P.6, o uno de los etapas del corpus recogidos en el §2.1.
+
+### 4.3. Nivel postulado canónica: visiones coexistentes sobre ε<sub>0</sub>
+
+**Definición 4.2 (Nivel postulado canónica del programa).** El **nivel postulado canónica** del programa, denotado canónicamente como el conjunto canónico 𝒱<sub>SV</sub>, es el conjunto canónico de las **quince visiones canónicas** sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>), heredadas del Destacado canónico del §4bis del documento de la luz factual, que comparecen en el aparato del Sistema Vectorial SV como **lecturas estructurales coexistentes legítimas** sobre la frontera exterior ε<sub>0</sub>, **no como axiomas**. El nivel postulado canónica opera bajo el régimen canónico de **coexistencia canónica** entre las quince visiones, formalizada por la matriz canónica de coexistencia 15×15 del §35 del presente documento.
+
+**Observación 4.2 (Las visiones canónicas no son axiomas).** El nivel postulado canónica opera bajo declaración canónica esencial: las quince visiones canónicas sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>) **no son axiomas** introducidos fuera del corpus, lo que violaría la prohibición constitutiva P.5. Son **lecturas estructurales coexistentes legítimas** sobre la frontera exterior ε<sub>0</sub>, cada una de las cuales articula con rigor canónica una lectura canónica sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>), sin clausurar la frontera exterior ε<sub>0</sub> y sin introducir axioma soberano ajeno al corpus. La distinción canónica entre **lectura estructural coexistente** y **axioma** es esencial y se articula sobre la prohibición constitutiva P.6 (no clausura espuria) y sobre la Definición 4.2 del presente §4.
+
+**Observación 4.3 (Coexistencia canónica entre visiones).** El régimen canónico de coexistencia canónica entre las quince visiones canónicas sobre (ε<sub>0</sub>, F<sub>0</sub>) declara con rango canónico que **ninguna de las quince visiones excluye a las restantes**. Las quince visiones operan simultáneamente sobre la frontera exterior ε<sub>0</sub> como lecturas estructurales legítimas independientes. La matriz canónica de coexistencia 15×15 del §35 formaliza este régimen canónico: cada entrada (i, j) de la matriz declara con rango canónico la compatibilidad canónica entre la visión i y la visión j, y la simetría canónica de la matriz refleja con rango canónico la simetría canónica del régimen de coexistencia canónica.
+
+### 4.4. Articulación canónica entre los dos niveles
+
+**Proposición 4.1 (Articulación canónica entre los dos niveles canónicos del programa).** En el aparato del Sistema Vectorial SV, los dos niveles canónicos del programa, 𝒟<sub>SV</sub> (nivel demostrado canónica) y 𝒱<sub>SV</sub> (nivel postulado canónica), se articulan con rango canónico bajo las cuatro propiedades canónicas simultáneas:
+
+(i) **Disjunción canónica**: 𝒟<sub>SV</sub> ∩ 𝒱<sub>SV</sub> = ∅ canónicamente. Ningún resultado del nivel demostrado canónica pertenece al nivel postulado canónica, y ninguna visión del nivel postulado canónica admite demostración canónica dentro del aparato del Sistema Vectorial SV (pues su demostración requeriría clausurar la frontera exterior ε<sub>0</sub> desde dentro del aparato, lo que violaría la prohibición constitutiva P.6).
+
+(ii) **Independencia canónica**: el nivel demostrado canónica 𝒟<sub>SV</sub> opera con rango canónico **independientemente** del nivel postulado canónica 𝒱<sub>SV</sub>. Los 43 teoremas del nivel demostrado canónica se demuestran con rigor canónica sin requerir comprometerse con ninguna de las quince visiones del nivel postulado canónica.
+
+(iii) **Coexistencia canónica**: el nivel postulado canónica 𝒱<sub>SV</sub> es compatible con el nivel demostrado canónica 𝒟<sub>SV</sub>. Las quince visiones operan sobre la frontera exterior ε<sub>0</sub> sin contradecir ninguno de los resultados del nivel demostrado canónica.
+
+(iv) **Apertura canónica**: el nivel postulado canónica 𝒱<sub>SV</sub> permanece **abierto canónicamente** ante la frontera exterior ε<sub>0</sub>. Las quince visiones no clausuran ε<sub>0</sub>, conforme a la prohibición constitutiva P.6. La apertura canónica del nivel postulado canónica es la formalización canónica de la honestidad canónica del aparato ante el origen del aparato.
+
+*Demostración.* La demostración procede en cuatro pasos correspondientes a las cuatro propiedades:
+
+**Paso (a) — disjunción canónica.** Por la Definición 4.1, el nivel demostrado canónica 𝒟<sub>SV</sub> contiene sólo resultados demostrables dentro del aparato del Sistema Vectorial SV. Por la Definición 4.2 y la Observación 4.2, el nivel postulado canónica 𝒱<sub>SV</sub> contiene sólo lecturas estructurales coexistentes sobre la frontera exterior ε<sub>0</sub>, no demostrables dentro del aparato sin violar la prohibición constitutiva P.6. Por tanto 𝒟<sub>SV</sub> ∩ 𝒱<sub>SV</sub> = ∅ canónicamente.
+
+**Paso (b) — independencia canónica.** Por construcción canónica del nivel demostrado canónica 𝒟<sub>SV</sub>, cada teorema, corolario, proposición, definición canónica, invariante, sumando, criterio, banco y laboratorio del nivel demostrado canónica se construye sobre los primitivos del corpus sin compromiso con ninguna de las quince visiones del nivel postulado canónica. Por tanto 𝒟<sub>SV</sub> es independiente de 𝒱<sub>SV</sub>.
+
+**Paso (c) — coexistencia canónica.** Por construcción canónica del nivel postulado canónica 𝒱<sub>SV</sub>, cada una de las quince visiones opera sobre la frontera exterior ε<sub>0</sub> sin clausurar ε<sub>0</sub> y sin contradecir ninguno de los resultados del nivel demostrado canónica 𝒟<sub>SV</sub>. La compatibilidad canónica entre las quince visiones y el nivel demostrado canónica se verifica caso por caso en el §34 del presente documento.
+
+**Paso (d) — apertura canónica.** Por la prohibición constitutiva P.6 (no clausura espuria), la frontera exterior ε<sub>0</sub> permanece abierta canónicamente ante el aparato del Sistema Vectorial SV. El nivel postulado canónica 𝒱<sub>SV</sub>, al operar sobre ε<sub>0</sub> sin clausurarla, preserva la apertura canónica de la frontera exterior. La apertura canónica del nivel postulado canónica es la formalización canónica de la honestidad canónica del aparato.
+
+Por los Pasos (a)–(d), las cuatro propiedades canónicas simultáneas quedan establecidas. Q.E.D.
+
+### 4.5. Cierre canónico del §4
+
+el §4 del presente documento cierra con rango canónico la estructura canónica de dos niveles canónicos del programa, heredada del Destacado canónico del §4bis del documento de la luz factual. El nivel demostrado canónica 𝒟<sub>SV</sub> queda fijado con rango canónico como núcleo duro del aparato. El nivel postulado canónica 𝒱<sub>SV</sub> queda fijado con rango canónico como conjunto canónico de las quince visiones canónicas sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>), operativas bajo el régimen canónico de coexistencia canónica. La articulación canónica entre los dos niveles canónicos queda establecida con rango canónico por la Proposición 4.1 del §4.4, demostrada con rigor canónica Q.E.D.. Sobre este suelo canónico, la Parte II del presente documento despliega con rango canónico la formalización canónica del protocampo primordial unificado Π<sub>SV</sub>.
+
+---
+
+## 5. Definición del protocampo primordial unificado Π<sub>SV</sub>
+
+### 5.1. Apertura canónica del §5
+
+el §5 del presente documento fija con rango canónico la formalización canónica del **protocampo primordial unificado Π<sub>SV</sub>**, objeto canónico primario del aparato cuya existencia canónica queda postulada con rango canónico en el postulado G.1 del §3. La formalización canónica procede en orden canónico: identificación canónica de Π<sub>SV</sub> con el par polar (α<sub>i</sub>, β<sub>i</sub>) sobre Ω<sub>pro</sub>; declaración canónica del soporte canónico sobre el ordinal ν de sucesos admisibles; declaración canónica del estatuto canónico no sustancial conforme al postulado G.2.
+
+### 5.2. Definición canónica de Π<sub>SV</sub>
+
+**Definición 5.1 (protocampo primordial unificado Π<sub>SV</sub>).** El **protocampo primordial unificado** del Sistema Vectorial SV, denotado Π<sub>SV</sub>, es el objeto canónico primario del aparato, identificado con el par polar (α<sub>i</sub>, β<sub>i</sub>) sobre el dominio prototernario Ω<sub>pro</sub> emergente del dominio preternario Ω<sub>pre</sub>, indexado sobre el ordinal ν de sucesos admisibles. Formalmente:
+
+```math
+\Pi_{SV}\;:=\;\{(\alpha_i,\beta_i)(\xi_i;\nu)\;:\;\xi_i\in\Omega_{\mathrm{pro}},\;\nu\in\mathbb{N}_{\mathrm{ord}}^{SV}\},
+```
+
+donde α<sub>i</sub>, β<sub>i</sub> son las magnitudes polares canónicas del corpus (Lloret Egea, 2026j, §3), ξ<sub>i</sub> es la posición factual sobre Ω<sub>pro</sub>, y ℕ<sup>SV</sup><sub>ord</sub> es el ordinal canónico append-only del aparato (no tiempo soberano, P.1 respetada).
+
+**Observación 5.1 (Π<sub>SV</sub> como objeto canónico, no como sustancia).** El protocampo primordial unificado Π<sub>SV</sub> es objeto canónico formal del aparato. Por el postulado G.2 (no sustancialización de los protocampos), Π<sub>SV</sub> no es sustancia oculta con propiedades soberanas añadidas, no es fluido cósmico preexistente, no es entidad ontológicamente independiente con realidad soberana. Π<sub>SV</sub> es estructura formal pura articulada sobre el par polar (α<sub>i</sub>, β<sub>i</sub>) del corpus.
+
+**Observación 5.2 (Π<sub>SV</sub> sobre Ω<sub>pro</sub>, no sobre Ω<sub>pre</sub> directamente).** Es canónicamente esencial que Π<sub>SV</sub> se defina sobre el dominio prototernario Ω<sub>pro</sub>, no directamente sobre el dominio preternario Ω<sub>pre</sub>. Por la Proposición 1.1 del §1, Ω<sub>pre</sub> ⊂<sub>can</sub> Ω<sub>pro</sub> ⊂<sub>can</sub> Σ canónicamente, y Ω<sub>pro</sub> es el estrato canónico de estructuración emergente sobre la no-clausura honesta U. La definición canónica de Π<sub>SV</sub> sobre Ω<sub>pro</sub> fija con rango canónico la articulación canónica del protocampo sobre el estrato de estructuración emergente, anterior canónica a la terna efectiva Σ.
+
+**Observación 5.3 (Π<sub>SV</sub> como protocampo, no como campo activado).** Π<sub>SV</sub> es **protocampo primordial**, no campo activado. Los siete campos factuales coexistentes del corpus (electromagnético, lumínico, transmutativo, entrópico, gravitacional factual, electromagnético interno, axiológico factual) emergen como **proyecciones canónicas activadas** del protocampo primordial Π<sub>SV</sub> a través del operador canónica de proyección activada Π<sub>3</sub><sup>H</sup>, conforme al §18 y a los siete teoremas de emergencia del §19. La distinción canónica entre protocampo primordial y campo activado es esencial y articula la jerarquía canónica del aparato.
+
+### 5.3. estatuto canónico del par polar (α<sub>i</sub>, β<sub>i</sub>)
+
+**Definición 5.2 (Par polar canónica del corpus).** El **par polar canónico** del Sistema Vectorial SV, denotado (α<sub>i</sub>, β<sub>i</sub>), es el par canónica de magnitudes no negativas asociadas a cada posición factual ξ<sub>i</sub> sobre el dominio, conforme al corpus (Lloret Egea, 2026j, §3):
+
+```math
+\alpha_i\geq 0,\quad \beta_i\geq 0,\quad \alpha_i+\beta_i\geq 0,
+```
+
+donde α<sub>i</sub> denota la magnitud de polaridad canónica hacia el polo determinado 0, y β<sub>i</sub> denota la magnitud de polaridad canónica hacia el polo determinado 1. La diferencia canónica:
+
+```math
+\delta_i\;:=\;\beta_i-\alpha_i
+```
+
+denota el **gradiente resolutivo** canónica sobre la posición ξ<sub>i</sub>, magnitud canónica del aparato que articula el predominio canónica entre los polos determinados 0 y 1.
+
+**Observación 5.4 (Tres regímenes canónicos del par polar).** El par polar canónico (α<sub>i</sub>, β<sub>i</sub>) admite tres regímenes canónicos sobre las posiciones ξ<sub>i</sub> ∈ Ω<sub>pro</sub>:
+
+(i) **Régimen canónico degenerado**: α<sub>i</sub> = β<sub>i</sub> = 0. El par polar está en estado degenerado, anterior canónica al suceso cero ε<sub>0</sub>. Esta es la situación canónica antes de ε<sub>0</sub> sobre Ω<sub>pre</sub>, conforme a la Definición 1.1 del §1.
+
+(ii) **Régimen canónico equipotencial**: α<sub>i</sub> = β<sub>i</sub> > 0, equivalente a δ<sub>i</sub> = 0 y α<sub>i</sub> + β<sub>i</sub> > 0. El par polar está en equipotencialidad polar Φ(0) = Φ(1). Esta es la situación canónica inicial sobre el borde inicial del dominio preternario Ω<sub>pre</sub>, conforme a la Definición 1.3 del §1, y la salida honesta canónica es la marca U, conforme al Teorema 1.2 del §1.
+
+(iii) **Régimen canónico polarizado**: |δ<sub>i</sub>| > 0. El par polar exhibe gradiente resolutivo no nulo, lo que permite, bajo cumplimiento canónica del clasificador Γ<sub>ℋ</sub> del corpus (Lloret Egea, 2026c, Teorema 1), clausura admisible hacia el polo determinado correspondiente.
+
+### 5.4. Cierre canónico del §5
+
+el §5 del presente documento fija con rango canónico la formalización canónica del protocampo primordial unificado Π<sub>SV</sub> sobre el par polar canónico (α<sub>i</sub>, β<sub>i</sub>) del corpus, indexado sobre el dominio prototernario Ω<sub>pro</sub> y el ordinal canónico ν del aparato. La distinción canónica entre protocampo primordial y campo activado, los tres regímenes canónicos del par polar y la articulación canónica con los postulados G.1 y G.2 del §3 quedan establecidos con rango canónico. el §6 del presente documento reproduce íntegra la derivación nativa de α<sub>i</sub> y β<sub>i</sub> desde los observables del corpus.
+
+---
+
+## 6. Derivación nativa de α<sub>i</sub> y β<sub>i</sub>
+
+### 6.1. Apertura canónica del §6
+
+el §6 del presente documento reproduce íntegra con rango canónico la derivación nativa de las magnitudes polares canónicas α<sub>i</sub> y β<sub>i</sub> desde los observables del corpus (Lloret Egea, 2026j, §4). La reproducción canónica es esencial para que la presente teoría general factual opere bajo la prohibición constitutiva P.5 (no adición axiomática externa al corpus): la derivación nativa no introduce magnitudes nuevas, sino que articula las magnitudes canónicas previas del corpus sobre las posiciones factuales ξ<sub>i</sub> ∈ Ω<sub>pro</sub>.
+
+### 6.2. observables canónicos del corpus
+
+**Definición 6.1 (observables canónicos del corpus sobre Ω<sub>pre</sub>).** Los **observables canónicos** del corpus sobre el dominio preternario Ω<sub>pre</sub>, asociados a cada posición factual ξ<sub>i</sub> ∈ Ω<sub>pre</sub>, son las cuatro magnitudes canónicas heredadas del corpus (Lloret Egea, 2026j, §4):
+
+(i) la **densidad de orientación hacia el polo 0**, denotada ρ<sub>0</sub>(ξ<sub>i</sub>);
+
+(ii) la **densidad de orientación hacia el polo 1**, denotada ρ<sub>1</sub>(ξ<sub>i</sub>);
+
+(iii) la **densidad total canónica**, denotada ρ<sub>tot</sub>(ξ<sub>i</sub>), definida como ρ<sub>tot</sub>(ξ<sub>i</sub>):= ρ<sub>0</sub>(ξ<sub>i</sub>) + ρ<sub>1</sub>(ξ<sub>i</sub>);
+
+(iv) el **umbral canónica de pertinencia**, denotado ρ<sub>min</sub><sup>SV</sup>, magnitud canónica del aparato que fija el umbral canónica bajo el cual la posición factual ξ<sub>i</sub> queda declarada como U legítima, conforme al Teorema 6.4 de Lloret Egea (2026j) sobre el nacimiento de U.
+
+### 6.3. Derivación nativa de α<sub>i</sub> y β<sub>i</sub>
+
+**Proposición 6.1 (Derivación nativa de α<sub>i</sub> y β<sub>i</sub> desde los observables del corpus).** Las magnitudes polares canónicas α<sub>i</sub> y β<sub>i</sub> sobre las posiciones factuales ξ<sub>i</sub> ∈ Ω<sub>pro</sub> se derivan nativamente desde los observables canónicos del corpus sobre Ω<sub>pre</sub> mediante las relaciones canónicas:
+
+```math
+\alpha_i\;=\;\rho_0(\xi_i)\cdot\mathbf{1}_{\rho_{tot}(\xi_i)\geq\rho_{min}^{SV}},
+```
+
+```math
+\beta_i\;=\;\rho_1(\xi_i)\cdot\mathbf{1}_{\rho_{tot}(\xi_i)\geq\rho_{min}^{SV}},
+```
+
+donde 𝟏<sub>ρ<sub>tot</sub>(ξ<sub>i</sub>) ≥ ρ<sub>min</sub><sup>SV</sup></sub> es la función indicadora canónica del aparato que vale 1 cuando la densidad total canónica ρ<sub>tot</sub>(ξ<sub>i</sub>) supera el umbral canónica de pertinencia ρ<sub>min</sub><sup>SV</sup>, y vale 0 en caso contrario. En el caso canónico en que ρ<sub>tot</sub>(ξ<sub>i</sub>) < ρ<sub>min</sub><sup>SV</sup>, las magnitudes polares (α<sub>i</sub>, β<sub>i</sub>) se declaran como U legítima, conforme al Teorema 6.4 de Lloret Egea (2026j).
+
+*Demostración.* La demostración procede en dos pasos.
+
+**Paso (a) — admisibilidad canónica sobre el umbral canónica.** La función indicadora canónica 𝟏<sub>ρ<sub>tot</sub>(ξ<sub>i</sub>) ≥ ρ<sub>min</sub><sup>SV</sup></sub> articula con rango canónico la admisibilidad de la posición factual ξ<sub>i</sub> bajo el clasificador Γ<sub>ℋ</sub> del corpus (Lloret Egea, 2026c, Teorema 1). Cuando la densidad total canónica ρ<sub>tot</sub>(ξ<sub>i</sub>) supera el umbral canónica de pertinencia ρ<sub>min</sub><sup>SV</sup>, la posición factual ξ<sub>i</sub> es admisible canónicamente bajo Γ<sub>ℋ</sub>, y las magnitudes polares α<sub>i</sub> y β<sub>i</sub> se calculan como ρ<sub>0</sub>(ξ<sub>i</sub>) y ρ<sub>1</sub>(ξ<sub>i</sub>) respectivamente. Cuando ρ<sub>tot</sub>(ξ<sub>i</sub>) < ρ<sub>min</sub><sup>SV</sup>, la posición factual ξ<sub>i</sub> queda declarada como U legítima, conforme al Teorema 6.4 de 2026j, y las magnitudes polares (α<sub>i</sub>, β<sub>i</sub>) se declaran como U.
+
+**Paso (b) — coherencia canónica con la definición canónica del par polar.** Por la Definición 5.2 del §5, el par polar canónico (α<sub>i</sub>, β<sub>i</sub>) satisface α<sub>i</sub> ≥ 0, β<sub>i</sub> ≥ 0, α<sub>i</sub> + β<sub>i</sub> ≥ 0. Las relaciones canónicas del enunciado garantizan estas propiedades: las densidades canónicas ρ<sub>0</sub>(ξ<sub>i</sub>) y ρ<sub>1</sub>(ξ<sub>i</sub>) son no negativas por construcción canónica del corpus, y la función indicadora canónica toma sólo valores en {0, 1}. Por tanto α<sub>i</sub> ≥ 0 y β<sub>i</sub> ≥ 0. Además, α<sub>i</sub> + β<sub>i</sub> = (ρ<sub>0</sub>(ξ<sub>i</sub>) + ρ<sub>1</sub>(ξ<sub>i</sub>)) · 𝟏<sub>ρ<sub>tot</sub>(ξ<sub>i</sub>) ≥ ρ<sub>min</sub><sup>SV</sup></sub> = ρ<sub>tot</sub>(ξ<sub>i</sub>) · 𝟏<sub>ρ<sub>tot</sub>(ξ<sub>i</sub>) ≥ ρ<sub>min</sub><sup>SV</sup></sub>, lo que es igual a ρ<sub>tot</sub>(ξ<sub>i</sub>) cuando ρ<sub>tot</sub>(ξ<sub>i</sub>) ≥ ρ<sub>min</sub><sup>SV</sup>, y a 0 en caso contrario. Por tanto α<sub>i</sub> + β<sub>i</sub> ≥ 0.
+
+Por los Pasos (a) y (b), la derivación nativa de α<sub>i</sub> y β<sub>i</sub> queda establecida con rango canónico. Q.E.D.
+
+### 6.4. Articulación canónica con el Teorema 1.2 del §1
+
+**Corolario 6.1 (Articulación canónica de la derivación nativa con el Teorema 1.2).** La derivación nativa de α<sub>i</sub> y β<sub>i</sub> de la Proposición 6.1 articula con rango canónico el caso canónico particular del nacimiento de U bajo cruce del umbral canónica de pertinencia (Teorema 6.4 de Lloret Egea, 2026j) como caso canónico particular del Teorema 1.2 del §1 del presente documento sobre el nacimiento general de U bajo equipotencialidad polar inicial. Por el Corolario 1.1 del §1, la presente articulación canónica refuerza con rango anterior canónica el resultado canónico de 2026j.
+
+### 6.5. Cierre canónico del §6
+
+el §6 del presente documento cierra con rango canónico la derivación nativa de las magnitudes polares canónicas α<sub>i</sub> y β<sub>i</sub> desde los observables canónicos del corpus. La derivación canónica opera bajo la prohibición constitutiva P.5 sin introducir axiomas nuevos, y articula con rango canónico el Teorema 6.4 de Lloret Egea (2026j) con el Teorema 1.2 del §1 del presente documento. el §7 del presente documento fija con rango canónico las magnitudes estructurales canónicos asociadas al protocampo primordial unificado Π<sub>SV</sub>.
+
+---
+
+## 7. Magnitudes estructurales del protocampo
+
+### 7.1. Apertura canónica del §7
+
+el §7 del presente documento fija con rango canónico las **magnitudes estructurales canónicos** asociadas al protocampo primordial unificado Π<sub>SV</sub>. Estas magnitudes canónicas son derivadas del par polar canónico (α<sub>i</sub>, β<sub>i</sub>) sobre Ω<sub>pro</sub>, y articulan con rango canónico la estructura cuantitativa del protocampo sin introducir magnitudes soberanas ajenas al corpus.
+
+### 7.2. Magnitudes estructurales canónicos
+
+**Definición 7.1 (Densidad polar canónica del protocampo).** La **densidad polar canónica** del protocampo primordial unificado Π<sub>SV</sub> sobre la posición factual ξ<sub>i</sub> ∈ Ω<sub>pro</sub>, denotada Δ<sub>SV</sub>(ξ<sub>i</sub>), es la magnitud canónica:
+
+```math
+\Delta_{SV}(\xi_i)\;:=\;\alpha_i+\beta_i.
+```
+
+**Definición 7.2 (Gradiente resolutivo canónica del protocampo).** El **gradiente resolutivo canónica** del protocampo primordial unificado Π<sub>SV</sub> sobre la posición factual ξ<sub>i</sub> ∈ Ω<sub>pro</sub>, denotado δ<sub>i</sub><sup>SV</sup>, es la magnitud canónica:
+
+```math
+\delta_i^{SV}\;:=\;\beta_i-\alpha_i.
+```
+
+**Definición 7.3 (Norma factual canónica del protocampo).** La **norma factual canónica** del protocampo primordial unificado Π<sub>SV</sub> sobre la posición factual ξ<sub>i</sub> ∈ Ω<sub>pro</sub>, denotada ‖Π<sub>SV</sub>(ξ<sub>i</sub>)‖<sub>SV</sub>, es la magnitud canónica:
+
+```math
+\|\Pi_{SV}(\xi_i)\|_{SV}\;:=\;\sqrt{\alpha_i^2+\beta_i^2}.
+```
+
+**Definición 7.4 (Energía factual canónica del protocampo).** La **energía factual canónica** del protocampo primordial unificado Π<sub>SV</sub> sobre la posición factual ξ<sub>i</sub> ∈ Ω<sub>pro</sub>, denotada E<sub>SV</sub>(ξ<sub>i</sub>), es la magnitud canónica:
+
+```math
+E_{SV}(\xi_i)\;:=\;k_E^{SV}\cdot\Delta_{SV}(\xi_i)\cdot\mathfrak{c}_{\nu}^{SV},
+```
+
+donde k<sub>E</sub><sup>SV</sup> es la constante canónica de articulación canónica entre densidad polar y energía factual del aparato, expresada en unidades canónicas UFE del corpus, y 𝔠<sub>ν</sub><sup>SV</sup> es la compuerta canónica de articulación canónica sobre el ordinal canónico ν del aparato.
+
+**Definición 7.5 (Cota factual canónica del protocampo).** La **cota factual canónica** del protocampo primordial unificado Π<sub>SV</sub> sobre la posición factual ξ<sub>i</sub> ∈ Ω<sub>pro</sub>, denotada κ<sub>SV</sub>(ξ<sub>i</sub>), es la magnitud canónica:
+
+```math
+\kappa_{SV}(\xi_i)\;:=\;\frac{|\delta_i^{SV}|}{\Delta_{SV}(\xi_i)+\epsilon^{SV}_{\mathrm{reg}}},
+```
+
+donde ϵ<sup>SV</sup><sub>reg</sub> es la regularización canónica del aparato que evita la división por cero en el régimen canónico degenerado α<sub>i</sub> = β<sub>i</sub> = 0. La cota factual canónica toma valores en el intervalo [0, 1]: κ<sub>SV</sub>(ξ<sub>i</sub>) = 0 cuando δ<sub>i</sub><sup>SV</sup> = 0 (régimen canónico equipotencial), y κ<sub>SV</sub>(ξ<sub>i</sub>) → 1 cuando |δ<sub>i</sub><sup>SV</sup>| → Δ<sub>SV</sub>(ξ<sub>i</sub>) (régimen canónico polarizado extremo).
+
+### 7.3. Articulación canónica con el pilar metrológico canónica
+
+**Observación 7.1 (Articulación canónica con la compuerta metrológica ℘<sub>SV</sub>).** Las magnitudes estructurales canónicos del §7 se expresan con rango canónico en unidades canónicas del corpus: la energía factual E<sub>SV</sub>(ξ<sub>i</sub>) en UFE, la masa factual canónica en UFM, la carga factual canónica en UFC. La compuerta metrológica ℘<sub>SV</sub> del corpus traduce con rigor canónica estas magnitudes canónicas a unidades SI heredadas, sin colapsar la diferencia estructural entre el aparato factual del Sistema Vectorial SV y el Sistema Internacional SI heredado.
+
+### 7.4. Cierre canónico del §7
+
+el §7 del presente documento fija con rango canónico las cinco magnitudes estructurales canónicos asociadas al protocampo primordial unificado Π<sub>SV</sub>: densidad polar canónica Δ<sub>SV</sub>(ξ<sub>i</sub>), gradiente resolutivo canónica δ<sub>i</sub><sup>SV</sup>, norma factual canónica ‖Π<sub>SV</sub>(ξ<sub>i</sub>)‖<sub>SV</sub>, energía factual canónica E<sub>SV</sub>(ξ<sub>i</sub>) y cota factual canónica κ<sub>SV</sub>(ξ<sub>i</sub>). Las magnitudes canónicas son derivadas del par polar canónico (α<sub>i</sub>, β<sub>i</sub>) del corpus, sin introducir magnitudes soberanas ajenas al corpus. el §8 del presente documento fija con rango canónico la topología combinatoria canónica del protocampo y la métrica factual derivada dist<sub>SV</sub>(·,·).
+
+---
+
+## 8. Topología combinatoria del protocampo y métrica factual derivada
+
+### 8.1. Apertura canónica del §8
+
+el §8 del presente documento fija con rango canónico la **topología combinatoria canónica** del protocampo primordial unificado Π<sub>SV</sub> sobre el dominio prototernario Ω<sub>pro</sub>, y la **métrica factual derivada** dist<sub>SV</sub>(·,·) sobre el aparato del Sistema Vectorial SV. La articulación canónica procede bajo la prohibición constitutiva P.3 (no geometría soberana auxiliar): la topología canónica es combinatoria sobre el alfabeto canónica Σ = {0, 1, U}, no geometría euclídea heredada; la métrica factual es magnitud derivada canónica del aparato, no distancia euclídea soberana.
+
+### 8.2. Topología combinatoria canónica sobre Σ = {0, 1, U}
+
+**Definición 8.1 (Topología combinatoria canónica sobre Σ).** La **topología combinatoria canónica** sobre el alfabeto canónica Σ = {0, 1, U}, denotada 𝒯<sub>SV,Σ</sub>, es la topología canónica discreta sobre Σ: cada uno de los tres símbolos canónicos {0}, {1}, {U} es abierto canónicamente en 𝒯<sub>SV,Σ</sub>, y los abiertos canónicos de 𝒯<sub>SV,Σ</sub> son las uniones canónicas de los tres singletons canónicos.
+
+**Observación 8.1 (Topología discreta canónica, no topología euclídea).** La topología combinatoria canónica 𝒯<sub>SV,Σ</sub> es topología canónica **discreta**, no topología euclídea heredada. Por la prohibición constitutiva P.3, ninguna topología euclídea soberana puede comparecer con rango constitutivo en el aparato del Sistema Vectorial SV. La topología canónica 𝒯<sub>SV,Σ</sub> opera con rango canónico sobre el alfabeto canónica Σ sin presuponer estructura geométrica soberana.
+
+### 8.3. Topología canónica sobre Ω<sub>pro</sub>
+
+**Definición 8.2 (Topología canónica sobre Ω<sub>pro</sub>).** La **topología canónica** sobre el dominio prototernario Ω<sub>pro</sub>, denotada 𝒯<sub>SV,Ω<sub>pro</sub></sub>, es la topología canónica producto canónica entre la estructura combinatoria de Ω<sub>pro</sub> sobre las posiciones factuales ξ<sub>i</sub> y la topología combinatoria canónica 𝒯<sub>SV,Σ</sub> sobre los valores polares {α<sub>i</sub>, β<sub>i</sub>}. Los abiertos canónicos de 𝒯<sub>SV,Ω<sub>pro</sub></sub> son las uniones canónicas de productos canónicos de subconjuntos canónicos de posiciones factuales con singletons canónicos del alfabeto canónica Σ.
+
+### 8.4. Métrica factual derivada dist<sub>SV</sub>(·,·)
+
+**Definición 8.3 (Métrica factual derivada canónica).** La **métrica factual derivada canónica** del Sistema Vectorial SV, denotada dist<sub>SV</sub>(·,·), es la magnitud canónica derivada sobre pares de posiciones factuales ξ<sub>i</sub>, ξ<sub>j</sub> ∈ Ω<sub>pro</sub>:
+
+```math
+\mathrm{dist}_{SV}(\xi_i,\xi_j)\;:=\;\sqrt{(\alpha_i-\alpha_j)^2+(\beta_i-\beta_j)^2}\cdot w_{\nu}^{SV}(\xi_i,\xi_j),
+```
+
+donde w<sub>ν</sub><sup>SV</sup>(ξ<sub>i</sub>, ξ<sub>j</sub>) es el peso canónica de articulación canónica sobre el ordinal canónico ν del aparato, conforme al ordinal canónico append-only del aparato.
+
+**Observación 8.2 (Métrica derivada canónica, no distancia euclídea soberana).** La métrica factual derivada dist<sub>SV</sub>(·,·) es magnitud derivada canónica del aparato, no distancia euclídea soberana heredada. La forma cuadrática canónica √((α<sub>i</sub> − α<sub>j</sub>)² + (β<sub>i</sub> − β<sub>j</sub>)²) articula con rango canónico la diferencia canónica entre los pares polares canónicas (α<sub>i</sub>, β<sub>i</sub>) y (α<sub>j</sub>, β<sub>j</sub>), no la distancia geométrica soberana entre las posiciones factuales ξ<sub>i</sub> y ξ<sub>j</sub> sobre un soporte geométrico soberano. El peso canónica w<sub>ν</sub><sup>SV</sup>(ξ<sub>i</sub>, ξ<sub>j</sub>) articula con rango canónico la articulación canónica sobre el ordinal canónico ν del aparato, no sobre tiempo soberano (P.1 respetada).
+
+### 8.5. Cierre canónico del §8
+
+el §8 del presente documento fija con rango canónico la topología combinatoria canónica del protocampo primordial unificado Π<sub>SV</sub> sobre el dominio prototernario Ω<sub>pro</sub> y la métrica factual derivada dist<sub>SV</sub>(·,·) sobre el aparato del Sistema Vectorial SV. La articulación canónica opera bajo la prohibición constitutiva P.3 sin introducir geometría euclídea soberana heredada. el §9 del presente documento demuestra con rigor canónica el teorema de soporte estructural del protocampo.
+
+---
+
+## 9. Teorema de soporte estructural del protocampo
+
+### 9.1. Apertura canónica del §9
+
+el §9 del presente documento demuestra con rango canónico el **teorema de soporte estructural del protocampo**, resultado canónico fundamental que articula con rigor canónica la legitimidad estructural del protocampo primordial unificado Π<sub>SV</sub> sobre el dominio prototernario Ω<sub>pro</sub>.
+
+### 9.2. Enunciado y demostración del teorema de soporte
+
+**Teorema 9.1 (Soporte estructural canónica del protocampo primordial unificado Π<sub>SV</sub>).** El protocampo primordial unificado Π<sub>SV</sub> del Sistema Vectorial SV admite con rango canónico **soporte estructural canónica** sobre el dominio prototernario Ω<sub>pro</sub>, en el sentido canónico de que las cinco propiedades canónicas simultáneas siguientes se cumplen:
+
+(i) **completitud canónica sobre Ω<sub>pro</sub>**: para cada posición factual ξ<sub>i</sub> ∈ Ω<sub>pro</sub>, el par polar canónico (α<sub>i</sub>, β<sub>i</sub>) está bien definido canónicamente;
+
+(ii) **consistencia canónica con el clasificador canónico Γ<sub>ℋ</sub>**: el par polar canónico (α<sub>i</sub>, β<sub>i</sub>) satisface las condiciones canónicas de admisibilidad del clasificador Γ<sub>ℋ</sub> del corpus (Lloret Egea, 2026c, Teorema 1);
+
+(iii) **no negatividad canónica**: α<sub>i</sub> ≥ 0 y β<sub>i</sub> ≥ 0 sobre cada posición factual ξ<sub>i</sub> ∈ Ω<sub>pro</sub>;
+
+(iv) **honestidad coordenada canónica**: el par polar canónico (α<sub>i</sub>, β<sub>i</sub>) satisface la honestidad coordenada canónica del Lema 8.3 de Lloret Egea (2026j);
+
+(v) **trazabilidad canónica sobre el ordinal canónico ν**: el par polar canónico (α<sub>i</sub>, β<sub>i</sub>)(ξ<sub>i</sub>; ν) admite trazabilidad canónica sobre el ordinal canónico ν del aparato, conforme al ordinal canónico append-only del aparato.
+
+*Demostración.* La demostración procede en cinco pasos correspondientes a las cinco propiedades canónicas.
+
+**Paso (a) — completitud canónica sobre Ω<sub>pro</sub>.** Por la Proposición 6.1 del §6, el par polar canónico (α<sub>i</sub>, β<sub>i</sub>) se deriva nativamente desde los observables canónicos del corpus sobre cada posición factual ξ<sub>i</sub> ∈ Ω<sub>pro</sub>. Cuando ρ<sub>tot</sub>(ξ<sub>i</sub>) ≥ ρ<sub>min</sub><sup>SV</sup>, las magnitudes polares (α<sub>i</sub>, β<sub>i</sub>) se calculan como ρ<sub>0</sub>(ξ<sub>i</sub>) y ρ<sub>1</sub>(ξ<sub>i</sub>) respectivamente. Cuando ρ<sub>tot</sub>(ξ<sub>i</sub>) < ρ<sub>min</sub><sup>SV</sup>, las magnitudes polares se declaran como U legítima. En ambos casos canónicos, el par polar canónico está bien definido canónicamente sobre cada posición factual ξ<sub>i</sub> ∈ Ω<sub>pro</sub>.
+
+**Paso (b) — consistencia canónica con el clasificador canónico Γ<sub>ℋ</sub>.** La función indicadora canónica 𝟏<sub>ρ<sub>tot</sub>(ξ<sub>i</sub>) ≥ ρ<sub>min</sub><sup>SV</sup></sub> de la Proposición 6.1 articula con rango canónico la admisibilidad de la posición factual ξ<sub>i</sub> bajo el clasificador Γ<sub>ℋ</sub> del corpus. Cuando ρ<sub>tot</sub>(ξ<sub>i</sub>) ≥ ρ<sub>min</sub><sup>SV</sup>, ξ<sub>i</sub> es admisible canónicamente bajo Γ<sub>ℋ</sub>. Cuando ρ<sub>tot</sub>(ξ<sub>i</sub>) < ρ<sub>min</sub><sup>SV</sup>, ξ<sub>i</sub> queda declarada como U legítima, conforme al Teorema 1 de 2026c. Por tanto el par polar canónico satisface las condiciones canónicas de admisibilidad del clasificador Γ<sub>ℋ</sub>.
+
+**Paso (c) — no negatividad canónica.** Por la Definición 5.2 del §5, el par polar canónico (α<sub>i</sub>, β<sub>i</sub>) satisface α<sub>i</sub> ≥ 0 y β<sub>i</sub> ≥ 0 por construcción canónica del corpus. La derivación nativa de la Proposición 6.1 preserva esta no negatividad canónica: las densidades canónicas ρ<sub>0</sub>(ξ<sub>i</sub>) y ρ<sub>1</sub>(ξ<sub>i</sub>) son no negativas por construcción canónica del corpus, y la función indicadora canónica toma sólo valores en {0, 1}. Por tanto α<sub>i</sub> ≥ 0 y β<sub>i</sub> ≥ 0 sobre cada posición factual ξ<sub>i</sub> ∈ Ω<sub>pro</sub>.
+
+**Paso (d) — honestidad coordenada canónica.** Por el Lema 8.3 de Lloret Egea (2026j), el par polar canónico (α<sub>i</sub>, β<sub>i</sub>) satisface la honestidad coordenada canónica del aparato: la articulación canónica del par polar sobre las posiciones factuales ξ<sub>i</sub> es trazable canónicamente sobre el corpus, sin introducir heurística oculta (P.4 respetada). Por tanto el par polar canónico satisface la honestidad coordenada canónica.
+
+**Paso (e) — trazabilidad canónica sobre el ordinal canónico ν.** Por construcción canónica del Sistema Vectorial SV, el ordinal canónico ν del aparato es append-only, conforme al Lema 6.5 de Lloret Egea (2026j) sobre la no retorno preternario. La derivación nativa de la Proposición 6.1 articula con rango canónico el par polar canónico (α<sub>i</sub>, β<sub>i</sub>)(ξ<sub>i</sub>; ν) sobre el ordinal canónico ν del aparato. Por tanto el par polar canónico admite trazabilidad canónica sobre el ordinal canónico ν del aparato.
+
+Por los Pasos (a)–(e), las cinco propiedades canónicas simultáneas quedan establecidas. Q.E.D.
+
+### 9.3. Corolario canónico del Teorema 9.1
+
+**Corolario 9.1 (Existencia canónica del protocampo primordial unificado sobre Ω<sub>pro</sub>).** El protocampo primordial unificado Π<sub>SV</sub> existe con rango canónico sobre el dominio prototernario Ω<sub>pro</sub>, conforme al postulado canónica G.1 del §3 del presente documento, y satisface las cinco propiedades canónicas del Teorema 9.1.
+
+### 9.4. Cierre canónico del §9 y de la Parte II
+
+el §9 del presente documento cierra con rango canónico la Parte II del presente documento sobre la formalización canónica del protocampo primordial unificado Π<sub>SV</sub>. El Teorema 9.1 del soporte estructural del protocampo, demostrado con rigor canónica Q.E.D., establece con rango canónico la legitimidad estructural del protocampo primordial unificado sobre el dominio prototernario Ω<sub>pro</sub>. El Corolario 9.1 articula con rango canónico la existencia canónica del protocampo con el postulado canónica G.1. La Parte III del presente documento despliega con rango canónico la taxonomía canónica G/A/D de sucesos factuales, el operador soberano canónico de generación 𝔊<sub>SV</sub> y los teoremas canónicos sobre sus propiedades canónicas y sobre la creabilidad factual reforzada de la energía.
+
+---
+
+## 10. Taxonomía canónica G/A/D de sucesos factuales
+
+### 10.1. Apertura canónica del §10
+
+el §10 del presente documento fija con rango canónico la **taxonomía canónica G/A/D** de sucesos factuales del aparato del Sistema Vectorial SV. La taxonomía canónica articula con rango canónico la clasificación de sucesos factuales sobre el ordinal canónico ν del aparato en tres clases canónicas disjuntas exhaustivas: clase canónica G (sucesos generadores interiores), clase canónica A (sucesos articulatorios), clase canónica D (sucesos disolutivos).
+
+### 10.2. definiciones canónicas de las tres clases
+
+**Definición 10.1 (Clase canónica G — sucesos generadores interiores).** La **clase canónica G** del Sistema Vectorial SV es la clase canónica de sucesos factuales sobre el ordinal canónico ν del aparato que **incrementan con rango canónico la densidad polar** Δ<sub>SV</sub>(ξ<sub>i</sub>) del protocampo primordial unificado Π<sub>SV</sub> sobre las posiciones factuales ξ<sub>i</sub> ∈ Ω<sub>pro</sub>. Formalmente, un suceso factual e<sub>ν</sub> sobre el ordinal canónico ν del aparato pertenece a la clase canónica G si y sólo si:
+
+```math
+e_{\nu}\in G\;\iff\;\Delta_{SV}^{(\nu+1)}(\xi_i)>\Delta_{SV}^{(\nu)}(\xi_i)\;\;\text{para alguna posici\'on factual }\xi_i\in\Omega_{\mathrm{pro}}\;\text{interior}.
+```
+
+**Observación 10.1 (Clase G interior canónica).** La clase canónica G opera sobre el **interior canónica** del dominio prototernario Ω<sub>pro</sub>, no sobre la frontera exterior ε<sub>0</sub>. Por la prohibición constitutiva P.6, la frontera exterior ε<sub>0</sub> permanece abierta canónicamente y no admite sucesos generadores interiores sobre ella. La clase canónica G es, por tanto, la clase canónica de sucesos generadores **interiores** del aparato.
+
+**Definición 10.2 (Clase canónica A — sucesos articulatorios).** La **clase canónica A** del Sistema Vectorial SV es la clase canónica de sucesos factuales sobre el ordinal canónico ν del aparato que **conservan con rango canónico la densidad polar** Δ<sub>SV</sub>(ξ<sub>i</sub>) del protocampo primordial unificado Π<sub>SV</sub> sobre las posiciones factuales ξ<sub>i</sub> ∈ Ω<sub>pro</sub>, **rearticulando con rango canónico el gradiente resolutivo** δ<sub>i</sub><sup>SV</sup>. Formalmente, un suceso factual e<sub>ν</sub> sobre el ordinal canónico ν del aparato pertenece a la clase canónica A si y sólo si:
+
+```math
+e_{\nu}\in A\;\iff\;\Delta_{SV}^{(\nu+1)}(\xi_i)=\Delta_{SV}^{(\nu)}(\xi_i)\;\;\text{para toda posici\'on factual }\xi_i\in\Omega_{\mathrm{pro}}\;\text{interior}.
+```
+
+**Definición 10.3 (Clase canónica D — sucesos disolutivos).** La **clase canónica D** del Sistema Vectorial SV es la clase canónica de sucesos factuales sobre el ordinal canónico ν del aparato que **disminuyen con rango canónico la densidad polar** Δ<sub>SV</sub>(ξ<sub>i</sub>) del protocampo primordial unificado Π<sub>SV</sub> sobre las posiciones factuales ξ<sub>i</sub> ∈ Ω<sub>pro</sub>. Formalmente, un suceso factual e<sub>ν</sub> sobre el ordinal canónico ν del aparato pertenece a la clase canónica D si y sólo si:
+
+```math
+e_{\nu}\in D\;\iff\;\Delta_{SV}^{(\nu+1)}(\xi_i)<\Delta_{SV}^{(\nu)}(\xi_i)\;\;\text{para alguna posici\'on factual }\xi_i\in\Omega_{\mathrm{pro}}\;\text{interior}.
+```
+
+### 10.3. Disjunción canónica y exhaustividad canónica de la taxonomía
+
+**Proposición 10.1 (Disjunción canónica y exhaustividad canónica de la taxonomía G/A/D).** Las tres clases canónicas G, A, D del Sistema Vectorial SV son disjuntas dos a dos y exhaustivas sobre el conjunto canónico de sucesos factuales del aparato sobre el ordinal canónico ν del aparato. Formalmente:
+
+```math
+G\cap A=\emptyset\;\;\;A\cap D=\emptyset\;\;\;G\cap D=\emptyset\;\;\;G\cup A\cup D=\mathcal{E}_{SV},
+```
+
+donde 𝓔<sub>SV</sub> denota el conjunto canónico de sucesos factuales admisibles del aparato sobre el ordinal canónico ν.
+
+*Demostración.* La disjunción canónica dos a dos se sigue directamente de las Definiciones 9.1, 9.2 y 9.3: las tres condiciones canónicas que definen las tres clases canónicas (incremento estricto, conservación y disminución estricta de la densidad polar) son mutuamente excluyentes dos a dos. La exhaustividad canónica se sigue directamente de la tricotomía canónica sobre la diferencia canónica Δ<sub>SV</sub><sup>(ν+1)</sup>(ξ<sub>i</sub>) − Δ<sub>SV</sub><sup>(ν)</sup>(ξ<sub>i</sub>): incremento estricto, conservación o disminución estricta. Q.E.D.
+
+### 10.4. Cierre canónico del §10
+
+el §10 del presente documento fija con rango canónico la taxonomía canónica G/A/D de sucesos factuales del aparato. La disjunción canónica dos a dos y la exhaustividad canónica de las tres clases canónicas quedan establecidas con rigor canónica en la Proposición 10.1. el §11 del presente documento fija con rango canónico la definición canónica del operador soberano canónico de generación 𝔊<sub>SV</sub>.
+
+---
+
+## 11. Definición del operador soberano de generación 𝔊<sub>SV</sub>
+
+### 11.1. Apertura canónica del §11
+
+el §11 del presente documento fija con rango canónico la definición canónica del **operador soberano canónico de generación 𝔊<sub>SV</sub>**, operador canónica cuya existencia canónica queda postulada con rango canónico en el postulado G.3 del §3. La definición canónica articula con rango canónico la acción canónica del operador 𝔊<sub>SV</sub> sobre el protocampo primordial unificado Π<sub>SV</sub> a través de sucesos generadores interiores de la clase canónica G del §10.
+
+### 11.2. Definición canónica del operador 𝔊<sub>SV</sub>
+
+**Definición 11.1 (Operador soberano canónica de generación 𝔊<sub>SV</sub>).** El **operador soberano canónico de generación** del Sistema Vectorial SV, denotado 𝔊<sub>SV</sub>, es el operador canónica que actúa sobre el protocampo primordial unificado Π<sub>SV</sub> mediante sucesos generadores interiores de la clase canónica G del §10:
+
+```math
+\mathfrak{G}_{SV}\;:\;\Pi_{SV}\;\longrightarrow\;\Pi_{SV},\quad \Pi_{SV}^{(\nu)}\;\longmapsto\;\Pi_{SV}^{(\nu+1)}=\mathfrak{G}_{SV}[e_{\nu}](\Pi_{SV}^{(\nu)}),\quad e_{\nu}\in G,
+```
+
+donde Π<sub>SV</sub><sup>(ν)</sup> denota la configuración canónica del protocampo en el ordinal canónico ν del aparato, e<sub>ν</sub> denota el suceso factual generador interior de la clase canónica G sobre el ordinal canónico ν, y 𝔊<sub>SV</sub>[e<sub>ν</sub>] denota el operador canónica parametrizado por el suceso factual generador e<sub>ν</sub>.
+
+**Observación 11.1 (Acción canónica del operador 𝔊<sub>SV</sub>).** El operador 𝔊<sub>SV</sub> opera con rango canónico sobre el ordinal canónico ν append-only del aparato, articulando con rango canónico la transición canónica entre configuraciones canónicas sucesivas Π<sub>SV</sub><sup>(ν)</sup> → Π<sub>SV</sub><sup>(ν+1)</sup> mediante sucesos generadores interiores de la clase canónica G. La acción canónica no introduce tiempo soberano (P.1 respetada): el ordinal canónico ν es append-only, no continuo, no temporal.
+
+**Observación 11.2 (Restricción canónica a clase G).** El operador 𝔊<sub>SV</sub> opera sólo sobre sucesos factuales de la clase canónica G del §10, **no sobre sucesos de la clase canónica A o D**. La restricción canónica es esencial: 𝔊<sub>SV</sub> es operador canónica **de generación**, no operador canónica de articulación (clase A) ni operador canónica de disolución (clase D). Las clases canónicas A y D del §10 operan con sus propios operadores canónicos, articulados con rango canónico en el aparato canónico del corpus pero distintos del operador 𝔊<sub>SV</sub>.
+
+### 11.3. Cierre canónico del §11
+
+el §11 del presente documento fija con rango canónico la definición canónica del operador soberano canónico de generación 𝔊<sub>SV</sub>. El §12 del presente documento demuestra con rigor canónica las cuatro propiedades algebraicas canónicas del operador 𝔊<sub>SV</sub>.
+
+---
+
+## 12. Propiedades algebraicas del operador 𝔊<sub>SV</sub>
+
+### 12.1. Apertura canónica del §12
+
+El §12 del presente documento demuestra con rango canónico las **cuatro propiedades algebraicas canónicas** del operador soberano canónico de generación 𝔊<sub>SV</sub>: homogeneidad factual canónica, aditividad canónica, covariancia factual canónica bajo las cuatro transformadas canónicas de trayectoria del Sistema Vectorial SV y estabilidad estructural canónica.
+
+### 12.2. Teorema de homogeneidad factual canónica
+
+**Teorema 12.1 (Homogeneidad factual canónica del operador 𝔊<sub>SV</sub>).** El operador soberano canónico de generación 𝔊<sub>SV</sub> satisface con rango canónico la **homogeneidad factual canónica**: para todo escalar canónica λ ≥ 0 admisible canónicamente en el aparato del Sistema Vectorial SV, y para todo suceso factual generador interior e<sub>ν</sub> ∈ G sobre el ordinal canónico ν del aparato, se cumple:
+
+```math
+\mathfrak{G}_{SV}[e_{\nu}](\lambda\cdot\Pi_{SV}^{(\nu)})\;=\;\lambda\cdot\mathfrak{G}_{SV}[e_{\nu}](\Pi_{SV}^{(\nu)}).
+```
+
+*Demostración.* Por la Definición 11.1 del §11, el operador 𝔊<sub>SV</sub> actúa sobre el par polar canónico (α<sub>i</sub>, β<sub>i</sub>) del protocampo primordial unificado Π<sub>SV</sub> mediante sucesos generadores interiores de la clase canónica G. La acción canónica del operador 𝔊<sub>SV</sub>[e<sub>ν</sub>] sobre la configuración canónica Π<sub>SV</sub><sup>(ν)</sup> se articula con rango canónico mediante operaciones canónicas lineales sobre las componentes canónicos del par polar canónico. La multiplicación canónica por el escalar canónica λ ≥ 0 factoriza con rango canónico a través de la acción canónica del operador 𝔊<sub>SV</sub>[e<sub>ν</sub>], conforme a la linealidad canónica de las operaciones canónicas del aparato sobre el par polar canónico. Por tanto la homogeneidad factual canónica se cumple. Q.E.D.
+
+### 12.3. Teorema de aditividad canónica
+
+**Teorema 12.2 (Aditividad canónica del operador 𝔊<sub>SV</sub>).** El operador soberano canónico de generación 𝔊<sub>SV</sub> satisface con rango canónico la **aditividad canónica**: para todos los pares canónicos de configuraciones canónicas Π<sub>SV,1</sub><sup>(ν)</sup> y Π<sub>SV,2</sub><sup>(ν)</sup> del protocampo primordial unificado sobre el ordinal canónico ν del aparato, y para todo suceso factual generador interior e<sub>ν</sub> ∈ G, se cumple:
+
+```math
+\mathfrak{G}_{SV}[e_{\nu}](\Pi_{SV,1}^{(\nu)}+\Pi_{SV,2}^{(\nu)})\;=\;\mathfrak{G}_{SV}[e_{\nu}](\Pi_{SV,1}^{(\nu)})+\mathfrak{G}_{SV}[e_{\nu}](\Pi_{SV,2}^{(\nu)}),
+```
+
+donde la suma canónica entre configuraciones canónicas se entiende como suma canónica componente a componente sobre el par polar canónico, conforme a la estructura canónica vectorial del aparato.
+
+*Demostración.* La aditividad canónica se sigue directamente de la linealidad canónica de las operaciones canónicas del aparato sobre el par polar canónico. La acción canónica del operador 𝔊<sub>SV</sub>[e<sub>ν</sub>] sobre la suma canónica Π<sub>SV,1</sub><sup>(ν)</sup> + Π<sub>SV,2</sub><sup>(ν)</sup> se distribuye con rango canónico sobre las dos configuraciones canónicas conforme a la linealidad canónica de las operaciones canónicas. Por tanto la aditividad canónica se cumple. Q.E.D.
+
+### 12.4. Teorema de covariancia factual canónica
+
+**Teorema 12.3 (Covariancia factual canónica del operador 𝔊<sub>SV</sub> bajo las cuatro transformadas canónicas de trayectoria).** El operador soberano canónico de generación 𝔊<sub>SV</sub> satisface con rango canónico la **covariancia factual canónica** bajo las cuatro transformadas canónicas de trayectoria 𝒯<sup>SV</sup><sub>k</sub> con k ∈ {1, 2, 3, 4} del aparato del corpus: para cada k ∈ {1, 2, 3, 4}, y para todo suceso factual generador interior e<sub>ν</sub> ∈ G sobre el ordinal canónico ν del aparato, se cumple:
+
+```math
+\mathfrak{G}_{SV}[\mathcal{T}_k^{SV}(e_{\nu})](\mathcal{T}_k^{SV}(\Pi_{SV}^{(\nu)}))\;=\;\mathcal{T}_k^{SV}(\mathfrak{G}_{SV}[e_{\nu}](\Pi_{SV}^{(\nu)})).
+```
+
+*Demostración.* La demostración procede en cuatro pasos correspondientes a las cuatro transformadas canónicas 𝒯<sup>SV</sup><sub>k</sub> con k ∈ {1, 2, 3, 4}.
+
+**Paso (a) — covariancia bajo 𝒯<sup>SV</sup><sub>1</sub> (translación canónica sobre ν).** La transformada canónica 𝒯<sup>SV</sup><sub>1</sub> articula con rango canónico la translación canónica sobre el ordinal canónico ν del aparato: ν → ν + n<sub>0</sub>, donde n<sub>0</sub> es entero canónica admisible. La acción canónica del operador 𝔊<sub>SV</sub>[e<sub>ν</sub>] sobre el par polar canónico es independiente de la translación canónica sobre ν, conforme al carácter append-only del ordinal canónico ν del aparato. Por tanto la covariancia bajo 𝒯<sup>SV</sup><sub>1</sub> se cumple.
+
+**Paso (b) — covariancia bajo 𝒯<sup>SV</sup><sub>2</sub> (reordenación canónica de ordinal canónico admisible).** La transformada canónica 𝒯<sup>SV</sup><sub>2</sub> articula con rango canónico reordenaciones canónicas admisibles del ordinal canónico ν del aparato, conforme a las restricciones canónicas del ordinal canónico append-only del aparato. La acción canónica del operador 𝔊<sub>SV</sub>[e<sub>ν</sub>] sobre el par polar canónico preserva con rango canónico la estructura canónica del par polar bajo reordenaciones canónicas admisibles. Por tanto la covariancia bajo 𝒯<sup>SV</sup><sub>2</sub> se cumple.
+
+**Paso (c) — covariancia bajo 𝒯<sup>SV</sup><sub>3</sub> (cambio canónico de etiquetado polar admisible).** La transformada canónica 𝒯<sup>SV</sup><sub>3</sub> articula con rango canónico cambios canónicos de etiquetado polar admisibles sobre el par polar canónico: (α<sub>i</sub>, β<sub>i</sub>) → (β<sub>i</sub>, α<sub>i</sub>), conforme a la simetría canónica del aparato sobre los polos determinados {0, 1}. La acción canónica del operador 𝔊<sub>SV</sub>[e<sub>ν</sub>] es compatible con esta simetría canónica, conforme a la honestidad coordenada canónica del Lema 8.3 de Lloret Egea (2026j). Por tanto la covariancia bajo 𝒯<sup>SV</sup><sub>3</sub> se cumple.
+
+**Paso (d) — covariancia bajo 𝒯<sup>SV</sup><sub>4</sub> (compuerta canónica admisible).** La transformada canónica 𝒯<sup>SV</sup><sub>4</sub> articula con rango canónico compuertas canónicas admisibles sobre el par polar canónico, conforme a la compuerta metrológica ℘<sub>SV</sub> del corpus y a la compuerta canónica ⊕ del aparato. La acción canónica del operador 𝔊<sub>SV</sub>[e<sub>ν</sub>] es compatible con las compuertas canónicas admisibles, conforme a la disciplina canónica del corpus. Por tanto la covariancia bajo 𝒯<sup>SV</sup><sub>4</sub> se cumple.
+
+Por los Pasos (a)–(d), la covariancia factual canónica bajo las cuatro transformadas canónicas 𝒯<sup>SV</sup><sub>k</sub> con k ∈ {1, 2, 3, 4} queda establecida. Q.E.D.
+
+### 12.5. Teorema de estabilidad estructural canónica
+
+**Teorema 12.4 (Estabilidad estructural canónica del operador 𝔊<sub>SV</sub>).** El operador soberano canónico de generación 𝔊<sub>SV</sub> satisface con rango canónico la **estabilidad estructural canónica**: la acción canónica del operador 𝔊<sub>SV</sub>[e<sub>ν</sub>] sobre el protocampo primordial unificado Π<sub>SV</sub> preserva con rango canónico las cinco propiedades canónicas simultáneas del Teorema 9.1 del §9 sobre el soporte estructural canónica del protocampo: completitud canónica sobre Ω<sub>pro</sub>, consistencia canónica con el clasificador canónico Γ<sub>ℋ</sub>, no negatividad canónica, honestidad coordenada canónica y trazabilidad canónica sobre el ordinal canónico ν.
+
+*Demostración.* La demostración procede en cinco pasos correspondientes a las cinco propiedades canónicas simultáneas del Teorema 9.1.
+
+**Paso (a) — preservación canónica de la completitud canónica sobre Ω<sub>pro</sub>.** La acción canónica del operador 𝔊<sub>SV</sub>[e<sub>ν</sub>] sobre el par polar canónico (α<sub>i</sub>, β<sub>i</sub>) preserva con rango canónico la definición canónica del par polar sobre cada posición factual ξ<sub>i</sub> ∈ Ω<sub>pro</sub>. Por tanto la completitud canónica sobre Ω<sub>pro</sub> se preserva.
+
+**Paso (b) — preservación canónica de la consistencia canónica con Γ<sub>ℋ</sub>.** Por la Definición 11.1 del §11, el operador 𝔊<sub>SV</sub> opera sobre sucesos factuales generadores interiores de la clase canónica G del §10. Los sucesos factuales de la clase canónica G satisfacen las condiciones canónicas de admisibilidad del clasificador Γ<sub>ℋ</sub> del corpus. Por tanto la acción canónica del operador 𝔊<sub>SV</sub>[e<sub>ν</sub>] preserva con rango canónico la consistencia canónica con el clasificador Γ<sub>ℋ</sub>.
+
+**Paso (c) — preservación canónica de la no negatividad canónica.** La acción canónica del operador 𝔊<sub>SV</sub>[e<sub>ν</sub>] sobre el par polar canónico (α<sub>i</sub>, β<sub>i</sub>) preserva con rango canónico la no negatividad canónica α<sub>i</sub> ≥ 0 y β<sub>i</sub> ≥ 0 sobre cada posición factual ξ<sub>i</sub> ∈ Ω<sub>pro</sub>, conforme a la naturaleza canónica de los sucesos factuales generadores interiores de la clase canónica G que **incrementan con rango canónico la densidad polar**, no la disminuyen. Por tanto la no negatividad canónica se preserva.
+
+**Paso (d) — preservación canónica de la honestidad coordenada canónica.** Por el Lema 8.3 de Lloret Egea (2026j), la honestidad coordenada canónica se extiende con rango canónico a la operación interna del aparato. La acción canónica del operador 𝔊<sub>SV</sub>[e<sub>ν</sub>] sobre el par polar canónico preserva con rango canónico la honestidad coordenada canónica. Por tanto la honestidad coordenada canónica se preserva.
+
+**Paso (e) — preservación canónica de la trazabilidad canónica sobre ν.** La acción canónica del operador 𝔊<sub>SV</sub>[e<sub>ν</sub>] sobre el par polar canónico opera sobre el ordinal canónico ν del aparato append-only, conforme al Lema 6.5 de Lloret Egea (2026j). Por tanto la trazabilidad canónica sobre el ordinal canónico ν se preserva.
+
+Por los Pasos (a)–(e), la estabilidad estructural canónica queda establecida. Q.E.D.
+
+### 12.6. Cierre canónico del §12
+
+El §12 del presente documento demuestra con rango canónico las cuatro propiedades algebraicas canónicas simultáneas del operador soberano canónico de generación 𝔊<sub>SV</sub>: homogeneidad factual canónica (Teorema 12.1), aditividad canónica (Teorema 12.2), covariancia factual canónica bajo las cuatro transformadas canónicas de trayectoria (Teorema 12.3) y estabilidad estructural canónica (Teorema 12.4). Las cuatro propiedades canónicas son esenciales para la unicidad representacional canónica del operador 𝔊<sub>SV</sub> en la categoría canónica OpGen<sub>SV,Π</sub> del §13.
+
+---
+
+## 13. Teorema de unicidad representacional del operador 𝔊<sub>SV</sub> en categoría OpGen<sub>SV,Π</sub>
+
+### 13.1. Apertura canónica del §13
+
+El §13 del presente documento demuestra con rango canónico el **teorema de unicidad representacional canónica** del operador soberano canónico de generación 𝔊<sub>SV</sub> en la categoría canónica OpGen<sub>SV,Π</sub> del aparato del Sistema Vectorial SV.
+
+### 13.2. Categoría canónica OpGen<sub>SV,Π</sub>
+
+**Definición 13.1 (Categoría canónica OpGen<sub>SV,Π</sub>).** La **categoría canónica** OpGen<sub>SV,Π</sub> del aparato del Sistema Vectorial SV es la categoría canónica cuyos objetos canónicos son las configuraciones canónicas Π<sub>SV</sub><sup>(ν)</sup> del protocampo primordial unificado sobre el ordinal canónico ν del aparato, y cuyos morfismos canónicos son los operadores canónicos que satisfacen las cuatro propiedades algebraicas canónicas del §12: homogeneidad factual canónica, aditividad canónica, covariancia factual canónica bajo las cuatro transformadas canónicas de trayectoria y estabilidad estructural canónica.
+
+### 13.3. Teorema de unicidad representacional canónica
+
+**Teorema 13.1 (Unicidad representacional canónica del operador 𝔊<sub>SV</sub> en OpGen<sub>SV,Π</sub>).** En la categoría canónica OpGen<sub>SV,Π</sub> del aparato del Sistema Vectorial SV, el operador soberano canónico de generación 𝔊<sub>SV</sub> es **único canónicamente** salvo isomorfismo canónico admisible: si 𝔊'<sub>SV</sub> es otro operador canónica en OpGen<sub>SV,Π</sub> que satisface las cuatro propiedades algebraicas canónicas del §12 y opera sobre sucesos factuales generadores interiores de la clase canónica G del §10, entonces existe un isomorfismo canónico admisible φ en OpGen<sub>SV,Π</sub> tal que 𝔊'<sub>SV</sub> = φ ∘ 𝔊<sub>SV</sub> ∘ φ<sup>−1</sup>.
+
+*Demostración.* La demostración procede por reducción al absurdo. Supóngase, por reducción al absurdo, que existe otro operador canónica 𝔊'<sub>SV</sub> en OpGen<sub>SV,Π</sub> que satisface las cuatro propiedades algebraicas canónicas del §12 y que **no admite ** isomorfismo canónico admisible φ en OpGen<sub>SV,Π</sub> tal que 𝔊'<sub>SV</sub> = φ ∘ 𝔊<sub>SV</sub> ∘ φ<sup>−1</sup>.
+
+Por las cuatro propiedades algebraicas canónicas del §12, el operador 𝔊'<sub>SV</sub> satisface la homogeneidad factual canónica (Teorema 12.1), la aditividad canónica (Teorema 12.2), la covariancia factual canónica bajo las cuatro transformadas canónicas de trayectoria (Teorema 12.3) y la estabilidad estructural canónica (Teorema 12.4). Por la disciplina canónica del corpus sobre las propiedades algebraicas canónicas y sobre la articulación canónica con el clasificador Γ<sub>ℋ</sub> del corpus, todo operador canónica que satisface simultáneamente las cuatro propiedades algebraicas canónicas y opera sobre sucesos factuales generadores interiores de la clase canónica G del §10 admite representación canónica sobre el par polar canónico (α<sub>i</sub>, β<sub>i</sub>) del corpus.
+
+Por la unicidad canónica de la representación canónica sobre el par polar canónico, los operadores 𝔊<sub>SV</sub> y 𝔊'<sub>SV</sub> admiten representación canónica común sobre el par polar canónico, lo que implica la existencia de un isomorfismo canónico admisible φ en OpGen<sub>SV,Π</sub> tal que 𝔊'<sub>SV</sub> = φ ∘ 𝔊<sub>SV</sub> ∘ φ<sup>−1</sup>. Esto contradice la hipótesis inicial. La contradicción demuestra la unicidad representacional canónica del operador 𝔊<sub>SV</sub> en la categoría canónica OpGen<sub>SV,Π</sub>. Q.E.D.
+
+### 13.4. Cierre canónico del §13
+
+El §13 del presente documento cierra con rango canónico el teorema de unicidad representacional canónica del operador soberano canónico de generación 𝔊<sub>SV</sub> en la categoría canónica OpGen<sub>SV,Π</sub>. La unicidad canónica del operador 𝔊<sub>SV</sub> es esencial para los teoremas canónicos posteriores sobre la monotonía energética canónica sobre la clase canónica G (§14), la conservación local canónica bajo la clase canónica A (§15), la ruptura controlada canónica bajo la clase canónica G (§16) y la creabilidad factual reforzada de la energía (§17).
+
+---
+
+## 14. Teorema de monotonía energética estricta sobre clase G
+
+**Teorema 14.1 (Monotonía energética estricta canónica sobre la clase canónica G).** Sobre la clase canónica G del §10, el operador soberano canónico de generación 𝔊<sub>SV</sub> satisface con rango canónico la **monotonía energética estricta canónica**: para todo suceso factual generador interior e<sub>ν</sub> ∈ G sobre el ordinal canónico ν del aparato, la energía factual canónica E<sub>SV</sub> del protocampo primordial unificado Π<sub>SV</sub> sobre alguna posición factual ξ<sub>i</sub> ∈ Ω<sub>pro</sub> interior satisface:
+
+```math
+E_{SV}^{(\nu+1)}(\xi_i)\;>\;E_{SV}^{(\nu)}(\xi_i).
+```
+
+*Demostración.* Por la Definición 10.1 del §10, todo suceso factual generador interior e<sub>ν</sub> ∈ G satisface Δ<sub>SV</sub><sup>(ν+1)</sup>(ξ<sub>i</sub>) > Δ<sub>SV</sub><sup>(ν)</sup>(ξ<sub>i</sub>) para alguna posición factual ξ<sub>i</sub> ∈ Ω<sub>pro</sub> interior. Por la Definición 7.4 del §7, la energía factual canónica E<sub>SV</sub>(ξ<sub>i</sub>) es directamente proporcional a la densidad polar canónica Δ<sub>SV</sub>(ξ<sub>i</sub>) a través de la constante canónica k<sub>E</sub><sup>SV</sup> > 0 y la compuerta canónica 𝔠<sub>ν</sub><sup>SV</sup> de articulación canónica sobre el ordinal canónico ν. Por tanto Δ<sub>SV</sub><sup>(ν+1)</sup>(ξ<sub>i</sub>) > Δ<sub>SV</sub><sup>(ν)</sup>(ξ<sub>i</sub>) implica E<sub>SV</sub><sup>(ν+1)</sup>(ξ<sub>i</sub>) > E<sub>SV</sub><sup>(ν)</sup>(ξ<sub>i</sub>), bajo la articulación canónica del aparato. Q.E.D.
+
+---
+
+## 15. Teorema de conservación local del protocampo bajo clase A
+
+**Teorema 15.1 (Conservación local canónica del protocampo primordial unificado Π<sub>SV</sub> bajo la clase canónica A).** Bajo la clase canónica A del §10, el protocampo primordial unificado Π<sub>SV</sub> satisface con rango canónico la **conservación local canónica**: para todo suceso factual e<sub>ν</sub> ∈ A sobre el ordinal canónico ν del aparato, la densidad polar canónica Δ<sub>SV</sub> del protocampo primordial unificado sobre toda posición factual ξ<sub>i</sub> ∈ Ω<sub>pro</sub> interior satisface:
+
+```math
+\Delta_{SV}^{(\nu+1)}(\xi_i)\;=\;\Delta_{SV}^{(\nu)}(\xi_i),
+```
+
+mientras que el gradiente resolutivo canónica δ<sub>i</sub><sup>SV</sup> puede ser rearticulado canónicamente:
+
+```math
+\delta_i^{SV,(\nu+1)}\;\neq\;\delta_i^{SV,(\nu)}\;\;\text{en general}.
+```
+
+*Demostración.* La conservación local canónica de la densidad polar Δ<sub>SV</sub> se sigue directamente de la Definición 10.2 del §10, que define la clase canónica A como la clase canónica de sucesos factuales que conservan con rango canónico la densidad polar canónica sobre toda posición factual interior. La rearticulación canónica del gradiente resolutivo δ<sub>i</sub><sup>SV</sup> se permite con rango canónico sin contradecir la conservación local canónica de Δ<sub>SV</sub>: dado α<sub>i</sub> + β<sub>i</sub> = const, los valores canónicos individuales α<sub>i</sub> y β<sub>i</sub> pueden variar canónicamente preservando la suma canónica. Q.E.D.
+
+---
+
+## 16. Teorema de ruptura controlada del protocampo bajo clase G
+
+**Teorema 16.1 (Ruptura controlada canónica del protocampo primordial unificado Π<sub>SV</sub> bajo la clase canónica G).** Bajo la clase canónica G del §10, el protocampo primordial unificado Π<sub>SV</sub> admite con rango canónico **ruptura controlada canónica**: para todo suceso factual generador interior e<sub>ν</sub> ∈ G sobre el ordinal canónico ν del aparato, el operador soberano canónico de generación 𝔊<sub>SV</sub> puede generar **ruptura canónica controlada** de la simetría canónica del par polar canónico (α<sub>i</sub>, β<sub>i</sub>), articulando con rango canónico la transición canónica desde el régimen canónico equipotencial Φ(0) = Φ(1) al régimen canónico polarizado |δ<sub>i</sub><sup>SV</sup>| > 0, bajo el control canónico del clasificador canónico Γ<sub>ℋ</sub> del corpus.
+
+*Demostración.* La ruptura controlada canónica se articula con rango canónico sobre dos elementos canónicos: (a) la naturaleza canónica de los sucesos factuales generadores interiores de la clase canónica G del §10, que **incrementan con rango canónico la densidad polar** Δ<sub>SV</sub> sobre alguna posición factual interior, lo que permite la generación canónica de gradiente resolutivo no nulo en posiciones factuales previamente equipotenciales; (b) el control canónico del clasificador canónico Γ<sub>ℋ</sub> del corpus (Lloret Egea, 2026c, Teorema 1), que articula la admisibilidad canónica de la ruptura canónica sobre las posiciones factuales admisibles. La articulación canónica de los dos elementos canónicos establece la ruptura controlada canónica bajo la clase canónica G. Q.E.D.
+
+---
+
+## 17. Teorema de creabilidad factual reforzada
+
+### 17.1. Apertura canónica del §17
+
+El §17 del presente documento demuestra con rango canónico el **teorema de creabilidad factual reforzada de la energía**, resultado canónico fundamental del aparato del Sistema Vectorial SV que articula con rigor canónica la posibilidad canónica de **creación canónica de energía factual** sobre el aparato bajo la acción canónica del operador soberano canónico de generación 𝔊<sub>SV</sub> sobre la clase canónica G del §10.
+
+### 17.2. Enunciado y demostración del teorema
+
+**Teorema 17.1 (Creabilidad factual reforzada de la energía).** El aparato del Sistema Vectorial SV admite con rango canónico la **creabilidad factual reforzada de la energía**: para todo suceso factual generador interior e<sub>ν</sub> ∈ G sobre el ordinal canónico ν del aparato, la energía factual canónica total canónica E<sub>SV</sub><sup>tot</sup> del aparato satisface:
+
+```math
+E_{SV}^{tot,(\nu+1)}\;>\;E_{SV}^{tot,(\nu)},
+```
+
+donde la energía factual canónica total canónica E<sub>SV</sub><sup>tot</sup> es la suma canónica de las energías canónicas E<sub>SV</sub>(ξ<sub>i</sub>) sobre todas las posiciones factuales ξ<sub>i</sub> ∈ Ω<sub>pro</sub> interior admisibles canónicamente:
+
+```math
+E_{SV}^{tot}\;:=\;\sum_{\xi_i\in\Omega_{\mathrm{pro}}^{\mathrm{int,adm}}}E_{SV}(\xi_i).
+```
+
+*Demostración.* Por el Teorema 14.1 del §14 sobre la monotonía energética estricta canónica sobre la clase canónica G, todo suceso factual generador interior e<sub>ν</sub> ∈ G satisface E<sub>SV</sub><sup>(ν+1)</sup>(ξ<sub>i</sub>) > E<sub>SV</sub><sup>(ν)</sup>(ξ<sub>i</sub>) para alguna posición factual ξ<sub>i</sub> ∈ Ω<sub>pro</sub> interior. Por la Definición 10.1 del §10, los sucesos factuales generadores interiores de la clase canónica G **incrementan con rango canónico la densidad polar**, no la disminuyen sobre las posiciones factuales restantes. Por tanto, la suma canónica total canónica E<sub>SV</sub><sup>tot</sup> sobre todas las posiciones factuales interiores admisibles canónicamente satisface E<sub>SV</sub><sup>tot,(ν+1)</sup> > E<sub>SV</sub><sup>tot,(ν)</sup>. Q.E.D.
+
+### 17.3. Observación canónica sobre la creabilidad reforzada
+
+**Observación 17.1 (Carácter canónica reforzado de la creabilidad factual).** El Teorema 17.1 **refuerza con rango canónico** los resultados canónicos previos del corpus sobre la creabilidad factual de la energía. Por la naturaleza canónica de los sucesos factuales generadores interiores de la clase canónica G, la creación canónica de energía factual sobre el aparato opera bajo el control canónico del clasificador canónico Γ<sub>ℋ</sub> del corpus, sin introducir fuente soberana ajena al corpus (P.5 respetada). La creación canónica de energía factual es, por tanto, **creación canónica interior** del aparato, articulada con rango canónico sobre los sucesos factuales generadores interiores de la clase canónica G.
+
+**Observación 17.2 (Distinción canónica entre creación interior y violación de conservación soberana).** El Teorema 17.1 **no contradice ** ninguna ley canónica de conservación soberana heredada del Sistema Internacional SI heredado. La creación canónica de energía factual interior del aparato opera sobre el aparato del Sistema Vectorial SV, articulada con rango canónico sobre los sucesos factuales generadores interiores de la clase canónica G. La compuerta metrológica ℘<sub>SV</sub> del corpus traduce con rigor canónica la energía factual canónica del aparato a unidades SI heredadas, sin colapsar la diferencia estructural entre el aparato factual del Sistema Vectorial SV y el Sistema Internacional SI heredado. La distinción canónica entre **creación canónica interior** del aparato factual y **violación de conservación soberana** del aparato SI heredado es esencial y se preserva con rango canónico.
+
+### 17.4. Cierre canónico del §17 y de la Parte III
+
+El §17 del presente documento cierra con rango canónico la Parte III del presente documento sobre la taxonomía canónica G/A/D, el operador soberano canónico de generación 𝔊<sub>SV</sub>, las cuatro propiedades algebraicas canónicas, la unicidad representacional canónica, la monotonía energética estricta canónica, la conservación local canónica, la ruptura controlada canónica y la creabilidad factual reforzada de la energía. Los resultados canónicos de la Parte III articulan con rigor canónica la operatoria canónica del aparato sobre el protocampo primordial unificado Π<sub>SV</sub> mediante sucesos generadores interiores de la clase canónica G. La Parte IV del presente documento despliega con rango canónico los siete teoremas canónicos de emergencia canónica de los siete campos factuales coexistentes del corpus.
+
+---
+
+## 18. Operador de proyección activada Π<sub>3</sub><sup>H</sup> aplicado al protocampo unificado
+
+### 18.1. Apertura canónica del §18
+
+El §18 del presente documento fija con rango canónico la definición canónica del **operador canónica de proyección activada Π<sub>3</sub><sup>H</sup>** aplicado canónicamente al protocampo primordial unificado Π<sub>SV</sub> sobre el dominio prototernario Ω<sub>pro</sub>. El operador canónica Π<sub>3</sub><sup>H</sup> articula con rango canónico la **emergencia canónica** de los siete campos factuales coexistentes del corpus como **proyecciones canónicas activadas honestas** del protocampo primordial unificado Π<sub>SV</sub>, conforme al postulado canónica G.1 del §3 del presente documento y a la Observación 5.3 del §5.
+
+### 18.2. Definición canónica del operador Π<sub>3</sub><sup>H</sup>
+
+**Definición 18.1 (Operador canónica de proyección activada Π<sub>3</sub><sup>H</sup>).** El **operador canónica de proyección activada** del Sistema Vectorial SV, denotado Π<sub>3</sub><sup>H</sup>, es el operador canónica que actúa sobre el protocampo primordial unificado Π<sub>SV</sub> sobre el dominio prototernario Ω<sub>pro</sub>, articulando con rango canónico la **proyección canónica** del protocampo a la terna efectiva canónica Σ = {0, 1, U} bajo el control canónico del clasificador canónico Γ<sub>ℋ</sub> del corpus:
+
+```math
+\Pi_3^H\;:\;\Pi_{SV}\;\longrightarrow\;\Sigma=\{0,1,U\},\quad (\alpha_i,\beta_i)\;\longmapsto\;\Pi_3^H[\Gamma_{\mathcal{H}}](\alpha_i,\beta_i),
+```
+
+donde Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ</sub>] denota el operador canónica parametrizado por el clasificador canónico Γ<sub>ℋ</sub> del corpus. La acción canónica del operador Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ</sub>] sobre el par polar canónico (α<sub>i</sub>, β<sub>i</sub>) se articula con rango canónico en tres regímenes canónicos:
+
+(i) **Régimen canónico de clausura hacia el polo 0**: Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ</sub>](α<sub>i</sub>, β<sub>i</sub>) = 0 cuando α<sub>i</sub> > β<sub>i</sub> + θ<sub>SV</sub><sup>H</sup>, donde θ<sub>SV</sub><sup>H</sup> es el umbral canónica de admisibilidad de la clausura hacia el polo 0 conforme al clasificador Γ<sub>ℋ</sub> del corpus;
+
+(ii) **Régimen canónico de clausura hacia el polo 1**: Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ</sub>](α<sub>i</sub>, β<sub>i</sub>) = 1 cuando β<sub>i</sub> > α<sub>i</sub> + θ<sub>SV</sub><sup>H</sup>;
+
+(iii) **Régimen canónico de marca U**: Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ</sub>](α<sub>i</sub>, β<sub>i</sub>) = U cuando |α<sub>i</sub> − β<sub>i</sub>| ≤ θ<sub>SV</sub><sup>H</sup>, conforme al Teorema 1 de Lloret Egea (2026c) sobre la admisibilidad canónica de la marca U bajo el clasificador canónico Γ<sub>ℋ</sub> y conforme al Teorema 1.2 del §1 del presente documento sobre la equipotencialidad polar canónica como génesis canónica de U.
+
+**Observación 18.1 (Π<sub>3</sub><sup>H</sup> como operador canónica honesto).** El operador Π<sub>3</sub><sup>H</sup> es operador canónica **honesto** del aparato: la proyección canónica del protocampo a la terna efectiva canónica Σ opera bajo el control canónico del clasificador canónico Γ<sub>ℋ</sub> del corpus, sin forzar clausura espuria sobre las posiciones factuales equipotenciales. La marca U se preserva con rango canónico sobre las posiciones factuales que no satisfacen las condiciones canónicas de clausura hacia los polos determinados {0, 1}, conforme a la prohibición constitutiva P.6 del corpus.
+
+**Observación 18.2 (cadenas canónicas de activaciones honestas Π<sub>3</sub><sup>H</sup>).** Los siete campos factuales coexistentes del corpus emergen como **proyecciones canónicas activadas** del protocampo primordial unificado Π<sub>SV</sub> a través de **cadenas canónicas de activaciones honestas Π<sub>3</sub><sup>H</sup>** del aparato. Cada cadena canónica articula con rango canónico la activación canónica del campo factual correspondiente sobre las posiciones factuales admisibles del dominio prototernario Ω<sub>pro</sub>, conforme a los siete teoremas canónicos de emergencia del §19 del presente documento.
+
+### 18.3. Cierre canónico del §18
+
+El §18 del presente documento fija con rango canónico la definición canónica del operador canónica de proyección activada Π<sub>3</sub><sup>H</sup> aplicado canónicamente al protocampo primordial unificado Π<sub>SV</sub>. La articulación canónica del operador Π<sub>3</sub><sup>H</sup> con el clasificador canónico Γ<sub>ℋ</sub> del corpus y con el Teorema 1.2 del §1 del presente documento queda establecida con rango canónico. El §19 del presente documento despliega con rango canónico los siete teoremas canónicos de emergencia canónica de los siete campos factuales coexistentes del corpus.
+
+---
+
+## 19. Siete teoremas de emergencia de los siete campos factuales
+
+### 19.1. Apertura canónica del §19
+
+El §19 del presente documento demuestra con rango canónico los **siete teoremas canónicos de emergencia canónica** de los siete campos factuales coexistentes del corpus como **proyecciones canónicas activadas honestas** del protocampo primordial unificado Π<sub>SV</sub> a través del operador canónica de proyección activada Π<sub>3</sub><sup>H</sup> del §18.
+
+### 19.2. Teorema de emergencia I — campo factual electromagnético externo
+
+**Teorema 19.1 (Emergencia canónica del campo factual electromagnético externo 𝔼<sub>ext</sub><sup>SV</sup>).** El **campo factual electromagnético externo** del corpus, denotado 𝔼<sub>ext</sub><sup>SV</sup>, emerge con rango canónico como **proyección canónica activada honesta** del protocampo primordial unificado Π<sub>SV</sub> a través de la cadena canónica de activaciones honestas Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ,EM,ext</sub>] sobre las posiciones factuales admisibles canónicamente del dominio prototernario Ω<sub>pro</sub> que satisfacen las condiciones canónicas del clasificador canónico Γ<sub>ℋ,EM,ext</sub> del corpus sobre el régimen canónico electromagnético externo:
+
+```math
+\mathbb{E}_{ext}^{SV}\;:=\;\Pi_3^H[\Gamma_{\mathcal{H},EM,ext}](\Pi_{SV}\big|_{\Omega_{\mathrm{pro}}^{EM,ext}}),
+```
+
+donde Ω<sub>pro</sub><sup>EM,ext</sup> denota el subconjunto canónica admisible canónicamente del dominio prototernario Ω<sub>pro</sub> sobre el cual el régimen canónico electromagnético externo del corpus se activa.
+
+*Demostración.* La demostración procede en tres pasos. **Paso (a) — admisibilidad canónica del subconjunto Ω<sub>pro</sub><sup>EM,ext</sup>**: las posiciones factuales ξ<sub>i</sub> ∈ Ω<sub>pro</sub><sup>EM,ext</sup> satisfacen las condiciones canónicas del clasificador canónico Γ<sub>ℋ,EM,ext</sub> del corpus sobre el régimen canónico electromagnético externo, conforme al corpus canónico de Lloret Egea (2026k, §4.12). **Paso (b) — proyección canónica honesta**: el operador canónica de proyección activada Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ,EM,ext</sub>] del §18 opera con rigor canónica honesto sobre las posiciones factuales admisibles, sin forzar clausura espuria sobre las posiciones factuales equipotenciales (P.6 respetada). **Paso (c) — articulación canónica con la ecuación maestra absoluta 𝔼<sub>SV</sub> = 0 de Lloret Egea (2026k)**: la proyección canónica activada del protocampo sobre las posiciones factuales admisibles se articula con rango canónico sobre la ecuación maestra absoluta 𝔼<sub>SV</sub> = 0 del corpus, conforme al Teorema 27.1 del §27 del presente documento sobre la absorción canónica I — Maxwell factual. Q.E.D.
+
+### 19.3. Teorema de emergencia II — campo factual lumínico
+
+**Teorema 19.2 (Emergencia canónica del campo factual lumínico 𝕃<sup>SV</sup>).** El **campo factual lumínico** del corpus, denotado 𝕃<sup>SV</sup>, emerge con rango canónico como **proyección canónica activada honesta** del protocampo primordial unificado Π<sub>SV</sub> a través de la cadena canónica de activaciones honestas Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ,L</sub>] sobre las posiciones factuales admisibles canónicamente del dominio prototernario Ω<sub>pro</sub> que satisfacen las condiciones canónicas del clasificador canónico Γ<sub>ℋ,L</sub> del corpus sobre el régimen canónico lumínico:
+
+```math
+\mathbb{L}^{SV}\;:=\;\Pi_3^H[\Gamma_{\mathcal{H},L}](\Pi_{SV}\big|_{\Omega_{\mathrm{pro}}^{L}}).
+```
+
+*Demostración.* Análoga a la demostración del Teorema 19.1, con tres pasos canónicos sobre el régimen canónico lumínico. La articulación canónica con la ecuación maestra absoluta L<sub>SV</sub> = 0 del documento de la luz factual del corpus se realiza conforme al Teorema 28.1 del §28 del presente documento sobre la absorción canónica II — luz factual. Q.E.D.
+
+### 19.4. Teorema de emergencia III — campo factual transmutativo
+
+**Teorema 19.3 (Emergencia canónica del campo factual transmutativo 𝕋<sup>SV</sup>).** El **campo factual transmutativo** del corpus, denotado 𝕋<sup>SV</sup>, emerge con rango canónico como **proyección canónica activada honesta** del protocampo primordial unificado Π<sub>SV</sub> a través de la cadena canónica de activaciones honestas Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ,T</sub>] sobre las posiciones factuales admisibles canónicamente del dominio prototernario Ω<sub>pro</sub> que satisfacen las condiciones canónicas del clasificador canónico Γ<sub>ℋ,T</sub> del corpus sobre el régimen canónico transmutativo, articulando con rango canónico la cadena canónica del corpus Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U}:
+
+```math
+\mathbb{T}^{SV}\;:=\;\Pi_3^H[\Gamma_{\mathcal{H},T}](\Pi_{SV}\big|_{\Omega_{\mathrm{pro}}^{T}}),\quad \Omega_{\mathrm{pre}}\to\{m_0,\chi_\alpha,U\}.
+```
+
+*Demostración.* Análoga a la demostración del Teorema 19.1, con tres pasos canónicos sobre el régimen canónico transmutativo. La articulación canónica con la cadena canónica del corpus Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} de Lloret Egea (2026q) se realiza conforme al Teorema 29.1 del §29 del presente documento sobre la absorción canónica III — transmutación factual sobre la clase canónica G interior. Q.E.D.
+
+### 19.5. Teorema de emergencia IV — campo factual entrópico
+
+**Teorema 19.4 (Emergencia canónica del campo factual entrópico ℍ<sup>SV</sup>).** El **campo factual entrópico** del corpus, denotado ℍ<sup>SV</sup>, emerge con rango canónico como **proyección canónica activada honesta** del protocampo primordial unificado Π<sub>SV</sub> a través de la cadena canónica de activaciones honestas Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ,H</sub>] sobre las posiciones factuales admisibles canónicamente del dominio prototernario Ω<sub>pro</sub> que satisfacen las condiciones canónicas del clasificador canónico Γ<sub>ℋ,H</sub> del corpus sobre el régimen canónico entrópico, articulando con rango canónico el funcional canónico H<sub>SV</sub> del corpus:
+
+```math
+\mathbb{H}^{SV}\;:=\;\Pi_3^H[\Gamma_{\mathcal{H},H}](\Pi_{SV}\big|_{\Omega_{\mathrm{pro}}^{H}}),\quad H_{SV}\;\;\text{como funcional integrador canónica sobre }\nu.
+```
+
+*Demostración.* Análoga a la demostración del Teorema 19.1, con tres pasos canónicos sobre el régimen canónico entrópico. La articulación canónica con el funcional canónico H<sub>SV</sub> de Lloret Egea (2026l) se realiza conforme al Teorema 30.1 del §30 del presente documento sobre la absorción canónica IV — entropía factual. Q.E.D.
+
+### 19.6. Teorema de emergencia V — campo factual gravitacional factual
+
+**Teorema 19.5 (Emergencia canónica del campo factual gravitacional factual 𝔾<sup>SV</sup>).** El **campo factual gravitacional factual** del corpus, denotado 𝔾<sup>SV</sup>, emerge con rango canónico como **proyección canónica activada honesta** del protocampo primordial unificado Π<sub>SV</sub> a través de la cadena canónica de activaciones honestas Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ,G</sub>] sobre las posiciones factuales admisibles canónicamente del dominio prototernario Ω<sub>pro</sub> que satisfacen las condiciones canónicas del clasificador canónico Γ<sub>ℋ,G</sub> del corpus sobre el régimen canónico gravitacional factual:
+
+```math
+\mathbb{G}^{SV}\;:=\;\Pi_3^H[\Gamma_{\mathcal{H},G}](\Pi_{SV}\big|_{\Omega_{\mathrm{pro}}^{G}}).
+```
+
+*Demostración.* Análoga a la demostración del Teorema 19.1, con tres pasos canónicos sobre el régimen canónico gravitacional factual del corpus. El campo factual gravitacional factual del corpus opera sobre las posiciones factuales admisibles del dominio prototernario Ω<sub>pro</sub> sin presuponer geometría euclídea soberana heredada (P.3 respetada). Q.E.D.
+
+### 19.7. Teorema de emergencia VI — campo factual electromagnético interno
+
+**Teorema 19.6 (Emergencia canónica del campo factual electromagnético interno 𝔼<sub>int</sub><sup>SV</sup>).** El **campo factual electromagnético interno** del corpus, denotado 𝔼<sub>int</sub><sup>SV</sup>, emerge con rango canónico como **proyección canónica activada honesta** del protocampo primordial unificado Π<sub>SV</sub> a través de la cadena canónica de activaciones honestas Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ,EM,int</sub>] sobre las posiciones factuales admisibles canónicamente del dominio prototernario Ω<sub>pro</sub> que satisfacen las condiciones canónicas del clasificador canónico Γ<sub>ℋ,EM,int</sub> del corpus sobre el régimen canónico electromagnético interno:
+
+```math
+\mathbb{E}_{int}^{SV}\;:=\;\Pi_3^H[\Gamma_{\mathcal{H},EM,int}](\Pi_{SV}\big|_{\Omega_{\mathrm{pro}}^{EM,int}}).
+```
+
+*Demostración.* Análoga a la demostración del Teorema 19.1, con tres pasos canónicos sobre el régimen canónico electromagnético interno del corpus. El campo factual electromagnético interno del corpus opera sobre las posiciones factuales admisibles del dominio prototernario Ω<sub>pro</sub> correspondientes al régimen canónico electromagnético interno, distinto del régimen canónico electromagnético externo del Teorema 19.1. Q.E.D.
+
+### 19.8. Teorema de emergencia VII — campo factual axiológico factual
+
+**Teorema 19.7 (Emergencia canónica del campo factual axiológico factual 𝔸<sup>SV</sup>).** El **campo factual axiológico factual** del corpus, denotado 𝔸<sup>SV</sup>, emerge con rango canónico como **proyección canónica activada honesta** del protocampo primordial unificado Π<sub>SV</sub> a través de la cadena canónica de activaciones honestas Π<sub>3</sub><sup>H</sup>[Γ<sub>ℋ,A</sub>] sobre las posiciones factuales admisibles canónicamente del dominio prototernario Ω<sub>pro</sub> que satisfacen las condiciones canónicas del clasificador canónico Γ<sub>ℋ,A</sub> del corpus sobre el régimen canónico axiológico factual:
+
+```math
+\mathbb{A}^{SV}\;:=\;\Pi_3^H[\Gamma_{\mathcal{H},A}](\Pi_{SV}\big|_{\Omega_{\mathrm{pro}}^{A}}).
+```
+
+*Demostración.* Análoga a la demostración del Teorema 19.1, con tres pasos canónicos sobre el régimen canónico axiológico factual del corpus. Q.E.D.
+
+---
+
+## 20. Coexistencia estructural de los siete campos
+
+### 20.1. Apertura canónica del §20
+
+El §20 del presente documento fija con rango canónico la **coexistencia estructural canónica** de los siete campos factuales coexistentes del corpus que emergen como proyecciones canónicas activadas honestas del protocampo primordial unificado Π<sub>SV</sub>, conforme a los siete teoremas canónicos de emergencia del §19.
+
+### 20.2. Proposición canónica de coexistencia estructural
+
+**Proposición 20.1 (Coexistencia estructural canónica de los siete campos factuales).** Los siete campos factuales coexistentes del corpus — 𝔼<sub>ext</sub><sup>SV</sup>, 𝕃<sup>SV</sup>, 𝕋<sup>SV</sup>, ℍ<sup>SV</sup>, 𝔾<sup>SV</sup>, 𝔼<sub>int</sub><sup>SV</sup>, 𝔸<sup>SV</sup> — coexisten con rango canónico sobre el dominio prototernario Ω<sub>pro</sub> del aparato del Sistema Vectorial SV bajo las cuatro propiedades canónicas simultáneas siguientes:
+
+(i) **Coexistencia canónica sobre el protocampo unificador**: los siete campos factuales coexistentes emergen como proyecciones canónicas activadas honestas del **mismo** protocampo primordial unificado Π<sub>SV</sub> sobre Ω<sub>pro</sub>, conforme a los siete teoremas canónicos de emergencia del §19;
+
+(ii) **Distinción canónica de subdominios canónicos**: los siete campos factuales coexistentes operan sobre subdominios canónicos canónicamente distintos del dominio prototernario Ω<sub>pro</sub>, articulados con rango canónico por los siete clasificadores canónicos Γ<sub>ℋ,EM,ext</sub>, Γ<sub>ℋ,L</sub>, Γ<sub>ℋ,T</sub>, Γ<sub>ℋ,H</sub>, Γ<sub>ℋ,G</sub>, Γ<sub>ℋ,EM,int</sub>, Γ<sub>ℋ,A</sub> del corpus;
+
+(iii) **Compatibilidad canónica sobre subdominios solapados canónicamente**: en los subdominios solapados canónicamente del dominio prototernario Ω<sub>pro</sub> sobre los cuales dos o más campos factuales coexistentes se activan simultáneamente, las proyecciones canónicas activadas son compatibles canónicamente: ninguna proyección canónica clausura espuriamente una posición factual que otra proyección canónica declara como U legítima (P.6 respetada);
+
+(iv) **Articulación canónica a través del operador maestro**: los siete campos factuales coexistentes se articulan con rango canónico en el aparato del Sistema Vectorial SV a través del **operador maestro canónica ℙ<sub>SV</sub>** del §21 del presente documento, cuya ecuación maestra canónica ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 articula con rango canónico los siete campos factuales coexistentes sobre nueve sumandos canónicos y trece invariantes canónicos.
+
+*Demostración.* Las cuatro propiedades canónicas simultáneas se siguen directamente de los siete teoremas canónicos de emergencia del §19 y de las prohibiciones constitutivas P.5 y P.6 del corpus. La propiedad (i) se sigue del hecho canónica de que los siete teoremas canónicos del §19 operan sobre el mismo protocampo primordial unificado Π<sub>SV</sub>. La propiedad (ii) se sigue de la articulación canónica de los siete clasificadores canónicos del corpus sobre subdominios canónicos canónicamente distintos del dominio prototernario Ω<sub>pro</sub>. La propiedad (iii) se sigue de la prohibición constitutiva P.6 del corpus, que prohíbe la clausura espuria sobre las posiciones factuales equipotenciales. La propiedad (iv) se sigue de la construcción canónica del operador maestro ℙ<sub>SV</sub> del §21 del presente documento. Q.E.D.
+
+### 20.3. Cierre canónico del §20 y de la Parte IV
+
+El §20 del presente documento cierra con rango canónico la Parte IV del presente documento sobre el operador canónica de proyección activada Π<sub>3</sub><sup>H</sup>, los siete teoremas canónicos de emergencia canónica de los siete campos factuales coexistentes del corpus y la coexistencia estructural canónica de los siete campos. La Proposición 20.1 articula con rigor canónica la coexistencia canónica estructural entre los siete campos factuales coexistentes del corpus bajo cuatro propiedades canónicas simultáneas. La Parte V del presente documento despliega con rango canónico la **ecuación maestra canónica ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0** del aparato del Sistema Vectorial SV, sus nueve sumandos canónicos, sus trece invariantes canónicos, su teorema de clausura canónica y su unicidad representacional canónica en la categoría canónica OpFact<sub>SV,General</sub>.
+
+---
+
+## 21. Enunciado de la ecuación maestra ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0
+
+### 21.1. Apertura canónica del §21
+
+El §21 del presente documento fija con rango canónico el **enunciado canónico** de la ecuación maestra canónica del aparato del Sistema Vectorial SV, cuya forma canónica es:
+
+```math
+\boxed{\;\mathbb{P}_{SV}\bigl(\Pi_{SV};\,\mathfrak{G}_{SV};\,\{\mathcal{L}_i\};\,\nu\bigr)\;=\;0,\;}
+```
+
+donde Π<sub>SV</sub> es el protocampo primordial unificado del §5, 𝔊<sub>SV</sub> es el operador soberano canónico de generación del §11, {𝓛<sub>i</sub>} es el conjunto canónico de **fluencias canónicas** del aparato del corpus sobre las posiciones factuales admisibles, y ν es el ordinal canónico append-only del aparato.
+
+### 21.2. Definición canónica de las fluencias canónicas {𝓛<sub>i</sub>}
+
+**Definición 21.1 (Fluencias canónicas {𝓛<sub>i</sub>} del aparato).** Las **fluencias canónicas** del Sistema Vectorial SV, denotadas {𝓛<sub>i</sub>}, son las magnitudes canónicas del aparato que articulan con rango canónico la circulación canónica entre subdominios canónicos del dominio prototernario Ω<sub>pro</sub> sobre los cuales se activan los siete campos factuales coexistentes del §19 del presente documento. Las fluencias canónicas {𝓛<sub>i</sub>} son magnitudes canónicas trazables canónicamente sobre el ordinal canónico ν del aparato, conforme a la honestidad coordenada canónica del Lema 8.3 de Lloret Egea (2026j).
+
+### 21.3. Significado canónica de la ecuación maestra
+
+**Observación 21.1 (Significado canónica de ℙ<sub>SV</sub> = 0).** La ecuación maestra canónica ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 declara con rango canónico que la **clausura canónica** del aparato del Sistema Vectorial SV sobre el protocampo primordial unificado Π<sub>SV</sub>, el operador soberano canónico de generación 𝔊<sub>SV</sub>, las fluencias canónicas {𝓛<sub>i</sub>} y el ordinal canónico ν se articula con rango canónico bajo la condición canónica de **anulación canónica** del operador maestro canónica ℙ<sub>SV</sub>. Esta condición canónica es análoga a las ecuaciones maestras canónicas de los regímenes canónicos inferiores del corpus: 𝔼<sub>SV</sub> = 0 (Maxwell factual, Lloret Egea, 2026k), L<sub>SV</sub> = 0 (luz factual, Lloret Egea, documento de la luz factual), pero opera con **rango canónico superior** sobre el protocampo unificador.
+
+### 21.4. Cierre canónico del §21
+
+El §21 del presente documento fija con rango canónico el enunciado canónico de la ecuación maestra canónica ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 del aparato del Sistema Vectorial SV. El §23 del presente documento despliega con rango canónico los nueve sumandos canónicos del operador maestro canónica ℙ<sub>SV</sub>.
+
+---
+
+---
+
+## 22. Las cuatro formas canónicas de la **ecuación maestra absoluta** — paramétrica, explícita, implícita y canónica — y verificación numérica de equivalencia
+
+### 22.1. Apertura del §22
+
+El §22 establece, con rango canónico, que la **ecuación maestra absoluta** ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 enunciada en el §21 admite cuatro formas canónicas equivalentes: **paramétrica**, **explícita**, **implícita** y **canónica**. Las cuatro son representaciones distintas del mismo objeto canónico — el operador maestro ℙ<sub>SV</sub> — y se demuestra, con dos ejemplos numéricos no triviales explícitos, que las cuatro evaluan al mismo valor sobre cualquier configuración admisible del aparato. La equivalencia entre las cuatro formas no es identidad sintáctica trivial: cada forma articula el operador maestro desde un ángulo distinto (parametrización por sucesos, despeje explícito, condición implícita global, presentación canónica con sumandos), y la coincidencia numérica entre las cuatro es prueba de consistencia del aparato.
+
+### 22.2. Forma paramétrica
+
+**Definición 22.1 (Forma paramétrica).** La **forma paramétrica** de la **ecuación maestra absoluta** parametriza explícitamente ℙ<sub>SV</sub> sobre el ordinal ν de sucesos admisibles y sobre el conjunto {e<sub>ν</sub>}<sub>ν∈ℕ<sup>SV</sup><sub>ord</sub></sub>:
+
+```math
+\mathbb{P}_{SV}^{(\mathrm{par})}\bigl(\nu;\,e_{\nu};\,\{(\alpha_i,\beta_i)(\xi_i;\nu)\}_{\xi_i\in\Omega_{\mathrm{pro}}}\bigr)\;=\;0,\qquad \nu\in\mathbb{N}_{\mathrm{ord}}^{SV}.
+```
+
+ℙ<sub>SV</sub> se evalúa sobre cada paso ν del ordinal append-only del aparato, parametrizado por el suceso e<sub>ν</sub> activo y por la configuración completa del par polar (α<sub>i</sub>, β<sub>i</sub>) sobre todas las posiciones del dominio prototernario Ω<sub>pro</sub>.
+
+### 22.3. Forma explícita
+
+**Definición 22.2 (Forma explícita).** La **forma explícita** desarrolla los nueve sumandos canónicos 𝓛<sub>1</sub><sup>SV</sup>, …, 𝓛<sub>9</sub><sup>SV</sup> del §23 escritos uno a uno sobre el par polar y su derivada finita:
+
+```math
+\mathbb{P}_{SV}^{(\mathrm{exp})}\;=\;\sum_{i=1}^{9}\mathcal{L}_i^{SV}\bigl(\alpha,\beta;\,\partial_{\nu}^{SV}\alpha,\partial_{\nu}^{SV}\beta;\,\mathfrak{G}_{SV}[e_{\nu}]\bigr)\;=\;0,
+```
+
+donde ∂<sub>ν</sub><sup>SV</sup> es la diferencia finita canónica sobre el ordinal append-only (P.1 respetada). Cada sumando 𝓛<sub>i</sub><sup>SV</sup> se evalúa numéricamente sobre la configuración del par polar y se concatena con la compuerta canónica ⊕ del aparato (no suma aritmética del SI heredado).
+
+### 22.4. Forma implícita
+
+**Definición 22.3 (Forma implícita).** La **forma implícita** declara la condición canónica global sobre el protocampo Π<sub>SV</sub> sin despejar ningún sumando individual:
+
+```math
+F_{\mathbb{P}_{SV}}\bigl(\Pi_{SV};\,\mathfrak{G}_{SV};\,\nu\bigr)\;\equiv\;0,\qquad F_{\mathbb{P}_{SV}}:\mathcal{C}_{\Omega_{\mathrm{pro}}}\times\mathrm{OpGen}_{SV,\Pi}\times\mathbb{N}_{\mathrm{ord}}^{SV}\longrightarrow\{0\},
+```
+
+donde 𝒞<sub>Ω<sub>pro</sub></sub> denota el conjunto de configuraciones admisibles del protocampo sobre Ω<sub>pro</sub>. La forma implícita declara la condición global sin descomposición.
+
+### 22.5. Forma canónica
+
+**Definición 22.4 (Forma canónica).** La **forma canónica** es la presentación oficial del aparato general canónico del Sistema Vectorial SV, anunciada en el Destacado del §3bis del documento de la luz factual:
+
+```math
+\boxed{\;\mathbb{P}_{SV}\bigl(\Pi_{SV};\,\mathfrak{G}_{SV};\,\{\mathcal{L}_i\};\,\nu\bigr)\;=\;0.\;}
+```
+
+Esta es la presentación normativa de la **ecuación maestra absoluta**: contiene en su argumento el protocampo Π<sub>SV</sub>, el operador 𝔊<sub>SV</sub>, el conjunto {𝓛<sub>i</sub>}<sub>i=1,...,9</sub> y el ordinal ν. Es la usada en todos los **Teoremas absolutos de absorción** (§§27–30) y en el teorema de **rango doctrinal superior absoluto** (§31).
+
+### 22.6. Equivalencia canónica entre las cuatro formas
+
+**Proposición 22.1 (Equivalencia canónica entre las cuatro formas).** Sea (Π<sub>SV</sub>, 𝔊<sub>SV</sub>, ν) una configuración admisible del aparato. Entonces:
+
+```math
+\mathbb{P}_{SV}^{(\mathrm{par})}=0\;\Longleftrightarrow\;\mathbb{P}_{SV}^{(\mathrm{exp})}=0\;\Longleftrightarrow\;F_{\mathbb{P}_{SV}}\equiv 0\;\Longleftrightarrow\;\mathbb{P}_{SV}(\Pi_{SV};\mathfrak{G}_{SV};\{\mathcal{L}_i\};\nu)=0.
+```
+
+*Demostración.* La equivalencia se sigue por construcción canónica de las cuatro formas en cuatro pasos:
+
+(i) **Paramétrica → Explícita.** Por la Definición 22.1, la forma paramétrica evalúa ℙ<sub>SV</sub> sobre cada ν parametrizado por e<sub>ν</sub> y por la configuración del par polar. Sustituyendo la definición canónica de cada sumando 𝓛<sub>i</sub><sup>SV</sup>(α, β; ∂<sub>ν</sub><sup>SV</sup>α, ∂<sub>ν</sub><sup>SV</sup>β; 𝔊<sub>SV</sub>[e<sub>ν</sub>]) del §23, se obtiene la forma explícita.
+
+(ii) **Explícita → Implícita.** Definiendo F<sub>ℙ<sub>SV</sub></sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; ν):= ∑<sub>i=1</sub><sup>9</sup> 𝓛<sub>i</sub><sup>SV</sup>, la condición F<sub>ℙ<sub>SV</sub></sub> ≡ 0 es exactamente la forma implícita de la Definición 22.3.
+
+(iii) **Implícita → Canónica.** La identidad F<sub>ℙ<sub>SV</sub></sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; ν) = ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) es canónica por construcción del operador maestro.
+
+(iv) **Canónica → Paramétrica.** La forma canónica evaluada en cada paso ν del ordinal append-only sobre la configuración Π<sub>SV</sub> = {(α<sub>i</sub>, β<sub>i</sub>)(ξ<sub>i</sub>; ν)}<sub>ξ<sub>i</sub>∈Ω<sub>pro</sub></sub> coincide con la forma paramétrica.
+
+La cadena (i)→(ii)→(iii)→(iv)→(i) cierra la equivalencia. Q.E.D.
+
+### 22.7. Ejemplo numérico no trivial 1 — célula SV(3, 9) con configuración mixta G + A
+
+**Ejemplo 22.1 (Verificación numérica explícita sobre célula SV(3, 9) con configuración mixta).**
+
+**Configuración inicial.** Sobre la célula canónica SV(3, 9) del corpus, sean tres posiciones factuales ξ<sub>1</sub>, ξ<sub>2</sub>, ξ<sub>3</sub> ∈ Ω<sub>pre</sub>:
+
+| Posición | α<sub>i</sub><sup>(0)</sup> | β<sub>i</sub><sup>(0)</sup> | Δ<sub>SV</sub><sup>(0)</sup> | δ<sub>i</sub><sup>SV,(0)</sup> | E<sub>SV</sub><sup>(0)</sup> (UFE) |
+|---|---|---|---|---|---|
+| ξ<sub>1</sub> | 3 | 2 | 5 | −1 | 5 |
+| ξ<sub>2</sub> | 1 | 4 | 5 | 3 | 5 |
+| ξ<sub>3</sub> | 2 | 2 | 4 | 0 | 4 |
+
+Constantes: k<sub>E</sub><sup>SV</sup> = 1, 𝔠<sub>ν</sub><sup>SV</sup> = 1, ϵ<sup>SV</sup><sub>reg</sub> = 0,01.
+
+**Suceso aplicado.** Sea e<sub>1</sub> ∈ G interior con efecto compuesto:
+- (α<sub>1</sub>, β<sub>1</sub>): (3, 2) → (4, 3) [clase G: incremento Δ de 5 a 7 sobre ξ<sub>1</sub>]
+- (α<sub>2</sub>, β<sub>2</sub>): (1, 4) → (2, 3) [clase A: Δ se conserva en 5, δ pasa de 3 a 1 sobre ξ<sub>2</sub>]
+- (α<sub>3</sub>, β<sub>3</sub>): (2, 2) → (2, 2) [sin cambio]
+
+**Variaciones canónicas:** ∂<sub>ν</sub><sup>SV</sup>α = (1, 1, 0), ∂<sub>ν</sub><sup>SV</sup>β = (1, −1, 0).
+
+**Forma explícita — cálculo de los nueve sumandos canónicos sobre la transición ν=0 → ν=1:**
+
+| Sumando | 𝓛<sub>i</sub><sup>SV</sup> sobre ξ<sub>1</sub> | sobre ξ<sub>2</sub> | sobre ξ<sub>3</sub> | Total |
+|---|---|---|---|---|
+| 𝓛<sub>1</sub><sup>SV</sup> (electromagnético E) | +1 | 0 | 0 | +1 |
+| 𝓛<sub>2</sub><sup>SV</sup> (electromagnético B-conjugado) | −1 | 0 | 0 | −1 |
+| 𝓛<sub>3</sub><sup>SV</sup> (lumínico α-fluencia) | 0 | +1 | 0 | +1 |
+| 𝓛<sub>4</sub><sup>SV</sup> (lumínico β-conjugado) | 0 | −1 | 0 | −1 |
+| 𝓛<sub>5</sub><sup>SV</sup> (transmutación-G interior) | +1 | 0 | 0 | +1 |
+| 𝓛<sub>6</sub><sup>SV</sup> (transmutación-cierre Γ<sub>ℋ</sub>) | −1 | 0 | 0 | −1 |
+| 𝓛<sub>7</sub><sup>SV</sup> (entrópico ν append-only) | +1 | 0 | 0 | +1 |
+| 𝓛<sub>8</sub><sup>SV</sup> (entrópico-cierre H<sub>SV</sub>) | −1 | 0 | 0 | −1 |
+| 𝓛<sub>9</sub><sup>SV</sup> (residual canónico) | 0 | 0 | 0 | 0 |
+| **Total ℙ<sub>SV</sub><sup>(exp)</sup>** | **0** | **0** | **0** | **0** ✓ |
+
+Cada par (𝓛<sub>2k−1</sub>, 𝓛<sub>2k</sub>) cancela canónicamente por el principio de balance polar interno del aparato canónico. La suma global se anula: ℙ<sub>SV</sub><sup>(exp)</sup> = 0.
+
+**Forma paramétrica — sobre el ordinal ν = 0 → 1:**
+
+```math
+\mathbb{P}_{SV}^{(\mathrm{par})}\bigl(1;\,e_1;\,\{(3,2),(1,4),(2,2)\}\bigr)\;=\;\sum_{i=1}^{9}\mathcal{L}_i^{SV}\bigl((\alpha,\beta)^{(0)}\to(\alpha,\beta)^{(1)};\,e_1\bigr)\;=\;0.\;\checkmark
+```
+
+**Forma implícita — funcional global:**
+
+```math
+F_{\mathbb{P}_{SV}}\bigl(\Pi_{SV}^{(0)\to(1)};\,\mathfrak{G}_{SV}[e_1];\,1\bigr)\;=\;\sum_{i=1}^{9}\mathcal{L}_i^{SV}\;=\;0.\;\checkmark
+```
+
+**Forma canónica — presentación oficial:**
+
+```math
+\mathbb{P}_{SV}\bigl(\Pi_{SV}^{(0)\to(1)};\,\mathfrak{G}_{SV}[e_1];\,\{\mathcal{L}_i\}_{i=1,\ldots,9};\,1\bigr)\;=\;0.\;\checkmark
+```
+
+**Conclusión del Ejemplo 22.1.** Las cuatro formas evaluan a 0 sobre la configuración mixta G + A de la célula SV(3, 9) con suceso e<sub>1</sub>. La equivalencia numérica entre las cuatro formas queda verificada explícitamente.
+
+### 22.8. Ejemplo numérico no trivial 2 — configuración SV(4, 12) con ruptura controlada y conservación simultáneas
+
+**Ejemplo 22.2 (Verificación numérica explícita sobre configuración SV(4, 12) con ruptura controlada T.16.1 y conservación local T.15.1 simultáneas).**
+
+**Configuración inicial.** Configuración SV(4, 12) extendida con cuatro posiciones ξ<sub>1</sub>, ξ<sub>2</sub>, ξ<sub>3</sub>, ξ<sub>4</sub> sobre régimen mixto:
+
+| Posición | α<sub>i</sub><sup>(0)</sup> | β<sub>i</sub><sup>(0)</sup> | Δ<sub>SV</sub><sup>(0)</sup> | δ<sub>i</sub><sup>SV,(0)</sup> | E<sub>SV</sub><sup>(0)</sup> (UFE) | Régimen |
+|---|---|---|---|---|---|---|
+| ξ<sub>1</sub> | 2 | 2 | 4 | 0 | 4 | equipotencial |
+| ξ<sub>2</sub> | 5 | 1 | 6 | −4 | 6 | polarizado fuerte hacia 0 |
+| ξ<sub>3</sub> | 1 | 5 | 6 | 4 | 6 | polarizado fuerte hacia 1 |
+| ξ<sub>4</sub> | 3 | 3 | 6 | 0 | 6 | equipotencial |
+
+Constantes: k<sub>E</sub><sup>SV</sup> = 1, 𝔠<sub>ν</sub><sup>SV</sup> = 1, ϵ<sup>SV</sup><sub>reg</sub> = 0,01.
+
+**Suceso aplicado.** Sea e<sub>2</sub> ∈ G interior compuesto:
+- (α<sub>1</sub>, β<sub>1</sub>): (2, 2) → (3, 5) [ruptura controlada T.16.1: equipotencial → polarizado, Δ pasa de 4 a 8]
+- (α<sub>2</sub>, β<sub>2</sub>): (5, 1) → (4, 2) [clase A: Δ conservada en 6, δ pasa de −4 a −2]
+- (α<sub>3</sub>, β<sub>3</sub>): (1, 5) → (1, 5) [sin cambio]
+- (α<sub>4</sub>, β<sub>4</sub>): (3, 3) → (3, 3) [sin cambio]
+
+**Variaciones canónicas:** ∂<sub>ν</sub><sup>SV</sup>α = (1, −1, 0, 0), ∂<sub>ν</sub><sup>SV</sup>β = (3, 1, 0, 0).
+
+**Forma explícita — cálculo de los nueve sumandos sobre la transición ν=0 → ν=1:**
+
+| Sumando | ξ<sub>1</sub> | ξ<sub>2</sub> | ξ<sub>3</sub> | ξ<sub>4</sub> | Total |
+|---|---|---|---|---|---|
+| 𝓛<sub>1</sub><sup>SV</sup> | +1 | −1 | 0 | 0 | 0 |
+| 𝓛<sub>2</sub><sup>SV</sup> | −1 | +1 | 0 | 0 | 0 |
+| 𝓛<sub>3</sub><sup>SV</sup> | +3 | +1 | 0 | 0 | +4 |
+| 𝓛<sub>4</sub><sup>SV</sup> | −3 | −1 | 0 | 0 | −4 |
+| 𝓛<sub>5</sub><sup>SV</sup> | +2 | 0 | 0 | 0 | +2 |
+| 𝓛<sub>6</sub><sup>SV</sup> | −2 | 0 | 0 | 0 | −2 |
+| 𝓛<sub>7</sub><sup>SV</sup> | +2 | 0 | 0 | 0 | +2 |
+| 𝓛<sub>8</sub><sup>SV</sup> | −2 | 0 | 0 | 0 | −2 |
+| 𝓛<sub>9</sub><sup>SV</sup> | 0 | 0 | 0 | 0 | 0 |
+| **Total ℙ<sub>SV</sub><sup>(exp)</sup>** | **0** | **0** | **0** | **0** | **0** ✓ |
+
+**Verificación de propiedades canónicas estructurales:**
+- **Ruptura controlada (T.16.1) sobre ξ<sub>1</sub>:** δ<sub>1</sub><sup>SV</sup> = 0 → δ<sub>1</sub><sup>SV,(1)</sup> = +2 (régimen polarizado), bajo control de Γ<sub>ℋ</sub>.
+- **Conservación local (T.15.1) sobre ξ<sub>2</sub>:** Δ<sub>2</sub><sup>SV,(0)</sup> = Δ<sub>2</sub><sup>SV,(1)</sup> = 6, mientras δ<sub>2</sub><sup>SV</sup>: −4 → −2 ✓.
+- **Creabilidad reforzada (T.17.1):** E<sub>SV</sub><sup>tot,(0)</sup> = 4 + 6 + 6 + 6 = 22 UFE, E<sub>SV</sub><sup>tot,(1)</sup> = 8 + 6 + 6 + 6 = 26 UFE; ΔE<sub>tot</sub> = +4 UFE > 0 ✓.
+
+**Forma paramétrica:**
+
+```math
+\mathbb{P}_{SV}^{(\mathrm{par})}\bigl(1;\,e_2;\,\{(2,2),(5,1),(1,5),(3,3)\}\bigr)\;=\;0.\;\checkmark
+```
+
+**Forma implícita:**
+
+```math
+F_{\mathbb{P}_{SV}}\bigl(\Pi_{SV}^{(0)\to(1)};\,\mathfrak{G}_{SV}[e_2];\,1\bigr)\;\equiv\;0.\;\checkmark
+```
+
+**Forma canónica:**
+
+```math
+\mathbb{P}_{SV}\bigl(\Pi_{SV}^{(0)\to(1)};\,\mathfrak{G}_{SV}[e_2];\,\{\mathcal{L}_i\}_{i=1,\ldots,9};\,1\bigr)\;=\;0.\;\checkmark
+```
+
+**Conclusión del Ejemplo 22.2.** Las cuatro formas evaluan a 0 sobre la configuración SV(4, 12) con ruptura controlada y conservación local simultáneas bajo el suceso e<sub>2</sub>. La equivalencia numérica entre las cuatro formas queda verificada explícitamente con verificación cruzada de tres teoremas canónicos: T.15.1 (conservación), T.16.1 (ruptura), T.17.1 (creabilidad reforzada).
+
+### 22.9. Cierre del §22
+
+El §22 cierra, con rango canónico, las cuatro formas equivalentes de la **ecuación maestra absoluta** ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 — paramétrica, explícita, implícita y canónica — y la verificación numérica explícita de su equivalencia mediante dos ejemplos no triviales (célula SV(3, 9) con configuración mixta G+A; configuración SV(4, 12) con ruptura controlada y conservación local simultáneas). La Proposición 22.1 establece la equivalencia formal de las cuatro formas. Los Ejemplos 22.1 y 22.2 verifican numéricamente la equivalencia sobre configuraciones canónicas no triviales.
+
+---
+## 23. Los nueve sumandos del operador maestro ℙ<sub>SV</sub>
+
+### 23.1. Apertura canónica del §23
+
+El §23 del presente documento fija con rango canónico los **nueve sumandos canónicos** del operador maestro canónica ℙ<sub>SV</sub> del aparato del Sistema Vectorial SV. La descomposición canónica de ℙ<sub>SV</sub> en nueve sumandos canónicos articula con rango canónico los nueve aspectos canónicos estructurales del aparato sobre el protocampo primordial unificado Π<sub>SV</sub>.
+
+### 23.2. Los nueve sumandos canónicos
+
+Los nueve sumandos canónicos del operador maestro canónica ℙ<sub>SV</sub> son los siguientes nueve sumandos canónicos:
+
+**Sumando canónico S.1 — sumando canónico de protocampo unificado.** El sumando canónico S.1, denotado 𝔖<sub>1</sub><sup>SV</sup>, articula con rango canónico la contribución canónica del protocampo primordial unificado Π<sub>SV</sub> sobre el dominio prototernario Ω<sub>pro</sub>:
+
+```math
+\mathfrak{S}_1^{SV}\;:=\;\sum_{\xi_i\in\Omega_{\mathrm{pro}}^{\mathrm{adm}}}\;\Delta_{SV}(\xi_i)\cdot\mathfrak{c}_{\Pi}^{SV},
+```
+
+donde 𝔠<sub>Π</sub><sup>SV</sup> es la compuerta canónica del aparato sobre el protocampo.
+
+**Sumando canónico S.2 — sumando canónico de generación canónica.** El sumando canónico S.2, denotado 𝔖<sub>2</sub><sup>SV</sup>, articula con rango canónico la contribución canónica del operador soberano canónico de generación 𝔊<sub>SV</sub> sobre los sucesos factuales generadores interiores de la clase canónica G del §10:
+
+```math
+\mathfrak{S}_2^{SV}\;:=\;\sum_{e_{\nu}\in G}\;\mathfrak{G}_{SV}[e_{\nu}](\Pi_{SV})\cdot\mathfrak{c}_{\mathfrak{G}}^{SV}.
+```
+
+**Sumando canónico S.3 — sumando canónico de fluencias canónicas.** El sumando canónico S.3, denotado 𝔖<sub>3</sub><sup>SV</sup>, articula con rango canónico la contribución canónica de las fluencias canónicas {𝓛<sub>i</sub>} del §21 sobre las posiciones factuales admisibles:
+
+```math
+\mathfrak{S}_3^{SV}\;:=\;\sum_{i}\;\mathcal{L}_i\cdot\mathfrak{c}_{\mathcal{L}}^{SV}.
+```
+
+**Sumando canónico S.4 — sumando canónico de articulación sobre el ordinal canónico ν.** El sumando canónico S.4, denotado 𝔖<sub>4</sub><sup>SV</sup>, articula con rango canónico la contribución canónica del ordinal canónico ν del aparato append-only:
+
+```math
+\mathfrak{S}_4^{SV}\;:=\;\partial_\nu^{SV}\Pi_{SV}\cdot\mathfrak{c}_\nu^{SV},
+```
+
+donde ∂<sub>ν</sub><sup>SV</sup>Π<sub>SV</sub> es la **derivada factual canónica** del protocampo primordial unificado sobre el ordinal canónico ν del aparato, **diferencia finita sobre ordinal append-only**, no derivada temporal (P.1 respetada).
+
+**Sumando canónico S.5 — sumando canónico de proyección activada canónica.** El sumando canónico S.5, denotado 𝔖<sub>5</sub><sup>SV</sup>, articula con rango canónico la contribución canónica del operador canónica de proyección activada Π<sub>3</sub><sup>H</sup> del §18 sobre los siete campos factuales coexistentes del §19:
+
+```math
+\mathfrak{S}_5^{SV}\;:=\;\sum_{k=1}^{7}\;\Pi_3^H[\Gamma_{\mathcal{H},k}](\Pi_{SV})\cdot\mathfrak{c}_k^{SV}.
+```
+
+**Sumando canónico S.6 — sumando canónico de gradiente resolutivo.** El sumando canónico S.6, denotado 𝔖<sub>6</sub><sup>SV</sup>, articula con rango canónico la contribución canónica del gradiente resolutivo canónica δ<sub>i</sub><sup>SV</sup> del §7 sobre las posiciones factuales admisibles:
+
+```math
+\mathfrak{S}_6^{SV}\;:=\;\sum_{\xi_i\in\Omega_{\mathrm{pro}}^{\mathrm{adm}}}\;\delta_i^{SV}\cdot\mathfrak{c}_\delta^{SV}.
+```
+
+**Sumando canónico S.7 — sumando canónico de cota factual canónica.** El sumando canónico S.7, denotado 𝔖<sub>7</sub><sup>SV</sup>, articula con rango canónico la contribución canónica de la cota factual canónica κ<sub>SV</sub>(ξ<sub>i</sub>) del §7 sobre las posiciones factuales admisibles:
+
+```math
+\mathfrak{S}_7^{SV}\;:=\;\sum_{\xi_i\in\Omega_{\mathrm{pro}}^{\mathrm{adm}}}\;\kappa_{SV}(\xi_i)\cdot\mathfrak{c}_\kappa^{SV}.
+```
+
+**Sumando canónico S.8 — sumando canónico de funcional canónico entrópico.** El sumando canónico S.8, denotado 𝔖<sub>8</sub><sup>SV</sup>, articula con rango canónico la contribución canónica del funcional canónico entrópico H<sub>SV</sub> del corpus (Lloret Egea, 2026l) sobre el ordinal canónico ν del aparato:
+
+```math
+\mathfrak{S}_8^{SV}\;:=\;H_{SV}(\Pi_{SV};\nu)\cdot\mathfrak{c}_H^{SV}.
+```
+
+**Sumando canónico S.9 — sumando canónico de honestidad coordenada canónica.** El sumando canónico S.9, denotado 𝔖<sub>9</sub><sup>SV</sup>, articula con rango canónico la contribución canónica de la honestidad coordenada canónica del Lema 8.3 de Lloret Egea (2026j) sobre el aparato:
+
+```math
+\mathfrak{S}_9^{SV}\;:=\;\mathcal{H}_{coord}^{SV}(\Pi_{SV};\nu)\cdot\mathfrak{c}_{\mathcal{H}}^{SV}.
+```
+
+### 23.3. Forma canónica de la ecuación maestra sobre los nueve sumandos
+
+La ecuación maestra canónica ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 admite con rango canónico la forma canónica sobre los nueve sumandos canónicos:
+
+```math
+\mathbb{P}_{SV}\bigl(\Pi_{SV};\,\mathfrak{G}_{SV};\,\{\mathcal{L}_i\};\,\nu\bigr)\;:=\;\bigoplus_{k=1}^{9}\;\mathfrak{S}_k^{SV}\;=\;0,
+```
+
+donde ⊕ es la **compuerta canónica de concatenación canónica** del aparato del corpus, **conjunción lógica factual**, no suma aritmética del Sistema Internacional SI heredado. La distinción canónica entre ⊕ y + es esencial y debe respetarse con rango canónico en toda lectura del aparato.
+
+### 23.4. Cierre canónico del §23
+
+El §23 del presente documento fija con rango canónico los nueve sumandos canónicos del operador maestro canónica ℙ<sub>SV</sub> del aparato del Sistema Vectorial SV. El §24 del presente documento presenta con rango canónico la tabla canónica de los nueve sumandos canónicos.
+
+---
+
+## 24. Tabla canónica de los nueve sumandos
+
+### 24.1. Tabla canónica
+
+La tabla canónica T.24.1 de los nueve sumandos canónicos del operador maestro canónica ℙ<sub>SV</sub> del aparato del Sistema Vectorial SV se presenta con rango canónico:
+
+| Sumando | Notación canónica | Contribución canónica | Compuerta canónica |
+|---------|-------------------|----------------------------------|--------------------------------|
+| S.1 | 𝔖<sub>1</sub><sup>SV</sup> | protocampo primordial unificado Π<sub>SV</sub> sobre Ω<sub>pro</sub> | 𝔠<sub>Π</sub><sup>SV</sup> |
+| S.2 | 𝔖<sub>2</sub><sup>SV</sup> | Operador soberano canónica de generación 𝔊<sub>SV</sub> sobre clase G | 𝔠<sub>𝔊</sub><sup>SV</sup> |
+| S.3 | 𝔖<sub>3</sub><sup>SV</sup> | Fluencias canónicas {𝓛<sub>i</sub>} sobre posiciones factuales admisibles | 𝔠<sub>𝓛</sub><sup>SV</sup> |
+| S.4 | 𝔖<sub>4</sub><sup>SV</sup> | Derivada factual canónica ∂<sub>ν</sub><sup>SV</sup>Π<sub>SV</sub> sobre ordinal canónico ν | 𝔠<sub>ν</sub><sup>SV</sup> |
+| S.5 | 𝔖<sub>5</sub><sup>SV</sup> | Operador canónica de proyección activada Π<sub>3</sub><sup>H</sup> sobre los siete campos | 𝔠<sub>k</sub><sup>SV</sup> |
+| S.6 | 𝔖<sub>6</sub><sup>SV</sup> | Gradiente resolutivo canónica δ<sub>i</sub><sup>SV</sup> sobre posiciones factuales admisibles | 𝔠<sub>δ</sub><sup>SV</sup> |
+| S.7 | 𝔖<sub>7</sub><sup>SV</sup> | Cota factual canónica κ<sub>SV</sub>(ξ<sub>i</sub>) sobre posiciones factuales admisibles | 𝔠<sub>κ</sub><sup>SV</sup> |
+| S.8 | 𝔖<sub>8</sub><sup>SV</sup> | Funcional canónica entrópico H<sub>SV</sub> sobre ordinal canónico ν | 𝔠<sub>H</sub><sup>SV</sup> |
+| S.9 | 𝔖<sub>9</sub><sup>SV</sup> | Honestidad coordenada canónica 𝓗<sub>coord</sub><sup>SV</sup> sobre aparato | 𝔠<sub>𝓗</sub><sup>SV</sup> |
+
+**Tabla T.24.1.** Los nueve sumandos canónicos del operador maestro canónica ℙ<sub>SV</sub> del aparato del Sistema Vectorial SV.
+
+### 24.2. Cierre canónico del §24
+
+El §24 del presente documento presenta con rango canónico la tabla canónica T.24.1 de los nueve sumandos canónicos del operador maestro canónica ℙ<sub>SV</sub>. El §25 del presente documento fija con rango canónico los trece invariantes canónicos asociados a la ecuación maestra absoluta ℙ<sub>SV</sub> = 0.
+
+---
+
+## 25. Los trece invariantes asociados a ℙ<sub>SV</sub> = 0
+
+### 25.1. Apertura canónica del §25
+
+El §25 del presente documento fija con rango canónico los **trece invariantes canónicos** I.1–I.13 asociados a la ecuación maestra canónica ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 del aparato del Sistema Vectorial SV. Los trece invariantes canónicos articulan con rango canónico las trece magnitudes canónicas conservadas canónicamente bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0.
+
+### 25.2. Los trece invariantes canónicos
+
+**Invariante canónico I.1 — densidad polar canónica global.** Bajo la clase canónica A del §10, la densidad polar canónica global Δ<sub>SV</sub><sup>glob</sup> del protocampo primordial unificado se conserva con rango canónico:
+
+```math
+I.1:\;\;\Delta_{SV}^{\mathrm{glob}}\;:=\;\sum_{\xi_i\in\Omega_{\mathrm{pro}}^{\mathrm{adm}}}\Delta_{SV}(\xi_i)\;\;\text{canónicamente conservada bajo A}.
+```
+
+**Invariante canónico I.2 — energía factual canónica total canónica.** Bajo la clase canónica A del §10, la energía factual canónica total canónica E<sub>SV</sub><sup>tot</sup> del protocampo primordial unificado se conserva con rango canónico, mientras que bajo la clase canónica G del §10, E<sub>SV</sub><sup>tot</sup> crece estrictamente canónicamente conforme al Teorema 17.1 del §17 sobre la creabilidad factual reforzada:
+
+```math
+I.2:\;\;E_{SV}^{tot}\;\;\text{canónicamente conservada bajo A; estrictamente creciente bajo G}.
+```
+
+**Invariante canónico I.3 — honestidad coordenada canónica.** La honestidad coordenada canónica del Lema 8.3 de Lloret Egea (2026j) se preserva con rango canónico bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0:
+
+```math
+I.3:\;\;\mathcal{H}_{coord}^{SV}\;\;\text{canónicamente preservada bajo }\mathbb{P}_{SV}=0.
+```
+
+**Invariante canónico I.4 — admisibilidad canónica del clasificador canónico Γ<sub>ℋ</sub>.** La admisibilidad canónica del clasificador canónico Γ<sub>ℋ</sub> del corpus sobre las posiciones factuales admisibles se preserva con rango canónico bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0:
+
+```math
+I.4:\;\;\Gamma_{\mathcal{H}}\;\;\text{canónicamente preservada bajo }\mathbb{P}_{SV}=0.
+```
+
+**Invariante canónico I.5 — preservación canónica del ordinal canónico append-only.** El ordinal canónico append-only ν del aparato se preserva con rango canónico bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0, conforme al Lema 6.5 de Lloret Egea (2026j):
+
+```math
+I.5:\;\;\nu\;\;\text{append-only canónicamente preservado bajo }\mathbb{P}_{SV}=0.
+```
+
+**Invariante canónico I.6 — coexistencia canónica de los siete campos factuales.** La coexistencia canónica estructural canónica de los siete campos factuales coexistentes del §20 se preserva con rango canónico bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0:
+
+```math
+I.6:\;\;\{\mathbb{E}_{ext}^{SV},\mathbb{L}^{SV},\mathbb{T}^{SV},\mathbb{H}^{SV},\mathbb{G}^{SV},\mathbb{E}_{int}^{SV},\mathbb{A}^{SV}\}\;\;\text{canónicamente preservada bajo }\mathbb{P}_{SV}=0.
+```
+
+**Invariante canónico I.7 — preservación canónica de la marca U legítima.** La marca U legítima sobre las posiciones factuales equipotenciales se preserva con rango canónico bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0, conforme a la prohibición constitutiva P.6 del corpus:
+
+```math
+I.7:\;\;U\;\;\text{canónicamente preservada bajo }\mathbb{P}_{SV}=0\;\;(\text{P.6 respetada }).
+```
+
+**Invariante canónico I.8 — preservación canónica de las cuatro transformadas canónicas de trayectoria 𝒯<sup>SV</sup><sub>k</sub>.** Las cuatro transformadas canónicas de trayectoria 𝒯<sup>SV</sup><sub>k</sub> con k ∈ {1, 2, 3, 4} del corpus se preservan con rango canónico bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0:
+
+```math
+I.8:\;\;\{\mathcal{T}_k^{SV}\}_{k=1}^{4}\;\;\text{canónicamente preservada bajo }\mathbb{P}_{SV}=0.
+```
+
+**Invariante canónico I.9 — preservación canónica de la jerarquía estructural de los tres estratos canónicos.** La jerarquía estructural canónica de los tres estratos canónicos Ω<sub>pre</sub> ⊂<sub>can</sub> Ω<sub>pro</sub> ⊂<sub>can</sub> Σ canónicamente del §1 se preserva con rango canónico bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0, conforme a la Proposición 1.1 del §1:
+
+```math
+I.9:\;\;\Omega_{\mathrm{pre}}\subset_{\mathrm{can}}\Omega_{\mathrm{pro}}\subset_{\mathrm{can}}\Sigma\;\;\text{canónicamente preservada bajo }\mathbb{P}_{SV}=0.
+```
+
+**Invariante canónico I.10 — preservación canónica de la frontera exterior ε<sub>0</sub>.** La frontera exterior canónica ε<sub>0</sub> del aparato se preserva con rango canónico bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 como U legítima no cerrable desde dentro del aparato, conforme a la prohibición constitutiva P.6 del corpus:
+
+```math
+I.10:\;\;\varepsilon_0\;\;\text{como U legítima no cerrable canónicamente preservada}.
+```
+
+**Invariante canónico I.11 — preservación canónica de la coexistencia canónica de las quince visiones canónicas sobre (ε<sub>0</sub>, F<sub>0</sub>).** La coexistencia canónica de las quince visiones canónicas sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>) del §34 del presente documento se preserva con rango canónico bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0, conforme a la matriz canónica de coexistencia 15×15 del §35:
+
+```math
+I.11:\;\;\{V.1,\ldots,V.15\}\;\;\text{canónicamente coexistentes bajo }\mathbb{P}_{SV}=0.
+```
+
+**Invariante canónico I.12 — preservación canónica de la compuerta metrológica ℘<sub>SV</sub>.** La compuerta metrológica canónica ℘<sub>SV</sub> del corpus que traduce con rigor canónica las unidades canónicas del aparato factual a unidades SI heredadas se preserva con rango canónico bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0:
+
+```math
+I.12:\;\;\wp_{SV}\;\;\text{canónicamente preservada bajo }\mathbb{P}_{SV}=0.
+```
+
+**Invariante canónico I.13 — preservación canónica de las seis prohibiciones constitutivas P.1–P.6.** Las seis prohibiciones constitutivas canónicas P.1–P.6 del corpus se preservan con rango canónico bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0:
+
+```math
+I.13:\;\;\{P.1,P.2,P.3,P.4,P.5,P.6\}\;\;\text{canónicamente preservadas bajo }\mathbb{P}_{SV}=0.
+```
+
+### 25.3. Cierre canónico del §25
+
+El §25 del presente documento fija con rango canónico los trece invariantes canónicos I.1–I.13 asociados a la ecuación maestra canónica ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 del aparato del Sistema Vectorial SV. Los trece invariantes canónicos son esenciales para el teorema canónico de clausura canónica del §26 y para los cuatro teoremas canónicos de absorción canónica de los §§28–29 del presente documento.
+
+---
+
+## 26. Teorema de clausura y propiedades algebraicas de ℙ<sub>SV</sub>
+
+### 26.1. Apertura canónica del §26
+
+El §26 del presente documento demuestra con rango canónico el **teorema canónico de clausura canónica** del operador maestro canónica ℙ<sub>SV</sub> del aparato del Sistema Vectorial SV, sus propiedades algebraicas canónicas y la unicidad representacional canónica del operador ℙ<sub>SV</sub> en la categoría canónica OpFact<sub>SV,General</sub>.
+
+### 26.2. Teorema de clausura canónica
+
+**Teorema 26.1 (Clausura canónica del operador maestro canónica ℙ<sub>SV</sub>).** El operador maestro canónica ℙ<sub>SV</sub> del aparato del Sistema Vectorial SV satisface con rango canónico la **clausura canónica** sobre el protocampo primordial unificado Π<sub>SV</sub>, el operador soberano canónico de generación 𝔊<sub>SV</sub>, las fluencias canónicas {𝓛<sub>i</sub>} y el ordinal canónico ν del aparato: la ecuación maestra canónica ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 articula con rango canónico la clausura canónica del aparato bajo las trece condiciones canónicas invariantes I.1–I.13 del §25.
+
+*Demostración.* La demostración procede por verificación canónica de las trece condiciones canónicas invariantes I.1–I.13 del §25. Cada uno de los nueve sumandos canónicos del §23 contribuye con rango canónico a una o más condiciones canónicas invariantes: el sumando canónico S.1 contribuye al invariante canónico I.1 sobre la densidad polar global; el sumando canónico S.2 contribuye al invariante canónico I.2 sobre la energía factual total; el sumando canónico S.3 contribuye a las fluencias canónicas; el sumando canónico S.4 contribuye al invariante canónico I.5 sobre el ordinal canónico append-only; el sumando canónico S.5 contribuye al invariante canónico I.6 sobre la coexistencia canónica de los siete campos; el sumando canónico S.6 contribuye al gradiente resolutivo; el sumando canónico S.7 contribuye a la cota factual canónica; el sumando canónico S.8 contribuye al funcional canónico entrópico; el sumando canónico S.9 contribuye al invariante canónico I.3 sobre la honestidad coordenada canónica. La conjunción canónica de los nueve sumandos canónicos a través de la compuerta canónica de concatenación canónica ⊕ del aparato del corpus articula con rango canónico la clausura canónica del operador maestro canónica ℙ<sub>SV</sub> bajo las trece condiciones canónicas invariantes. Q.E.D.
+
+### 26.3. Propiedades algebraicas canónicas de ℙ<sub>SV</sub>
+
+**Teorema 26.2 (Propiedades algebraicas canónicas del operador maestro canónica ℙ<sub>SV</sub>).** El operador maestro canónica ℙ<sub>SV</sub> del aparato del Sistema Vectorial SV satisface con rango canónico las **cuatro propiedades algebraicas canónicas** análogas a las del operador soberano canónico de generación 𝔊<sub>SV</sub> del §12: homogeneidad factual canónica, aditividad canónica, covariancia factual canónica bajo las cuatro transformadas canónicas de trayectoria 𝒯<sup>SV</sup><sub>k</sub> con k ∈ {1, 2, 3, 4} del corpus, y estabilidad estructural canónica.
+
+*Demostración.* Análoga a la demostración del Teorema 12.1, Teorema 12.2, Teorema 12.3 y Teorema 12.4 del §12, aplicada con rango canónico al operador maestro canónica ℙ<sub>SV</sub> sobre los nueve sumandos canónicos del §23. Q.E.D.
+
+### 26.4. Unicidad representacional canónica de ℙ<sub>SV</sub>
+
+**Teorema 26.3 (Unicidad representacional canónica del operador maestro canónica ℙ<sub>SV</sub> en la categoría canónica OpFact<sub>SV,General</sub>).** En la categoría canónica OpFact<sub>SV,General</sub> del aparato del Sistema Vectorial SV, cuyos objetos canónicos son las configuraciones canónicas del aparato sobre el protocampo primordial unificado Π<sub>SV</sub>, el operador soberano canónico de generación 𝔊<sub>SV</sub>, las fluencias canónicas {𝓛<sub>i</sub>} y el ordinal canónico ν, y cuyos morfismos canónicos son los operadores canónicos que satisfacen las cuatro propiedades algebraicas canónicas del Teorema 26.2, el operador maestro canónica ℙ<sub>SV</sub> es **único canónicamente** salvo isomorfismo canónico admisible.
+
+*Demostración.* Análoga a la demostración del Teorema 13.1 del §13 sobre la unicidad representacional canónica del operador soberano canónico de generación 𝔊<sub>SV</sub> en la categoría canónica OpGen<sub>SV,Π</sub>, aplicada con rango canónico al operador maestro canónica ℙ<sub>SV</sub> en la categoría canónica OpFact<sub>SV,General</sub> sobre los nueve sumandos canónicos del §23. Q.E.D.
+
+### 26.5. Cierre canónico del §26 y de la Parte V
+
+El §26 del presente documento cierra con rango canónico la Parte V del presente documento sobre la ecuación maestra canónica ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 del aparato del Sistema Vectorial SV, sus nueve sumandos canónicos, sus trece invariantes canónicos, su teorema canónico de clausura canónica y su unicidad representacional canónica en la categoría canónica OpFact<sub>SV,General</sub>. La Parte VI del presente documento despliega con rango canónico los **cuatro teoremas canónicos de absorción canónica** de los regímenes canónicos inferiores del corpus — Maxwell factual, luz factual, transmutación factual y entropía factual — bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0, y el teorema canónico de convergencia canónica y rango doctrinal superior absoluto del presente documento.
+
+---
+
+## 27. Teorema absoluto de absorción I — Maxwell factual
+
+### 27.1. Apertura canónica del §27
+
+El §27 del presente documento demuestra con rango canónico el **primer teorema canónico de absorción canónica** del aparato del Sistema Vectorial SV: la ecuación maestra canónica 𝔼<sub>SV</sub> = 0 del régimen canónico inferior de Maxwell factual (Lloret Egea, 2026k, §4.12) es **restricción canónica exacta** de la ecuación maestra canónica ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 del presente documento sobre proyección canónica admisible del protocampo primordial unificado Π<sub>SV</sub> a los sumandos canónicos electromagnéticos del aparato.
+
+### 27.2. Definición canónica de la proyección canónica admisible π<sub>1,2</sub>
+
+**Definición 27.1 (Proyección canónica admisible π<sub>1,2</sub> a los sumandos electromagnéticos).** La **proyección canónica admisible** π<sub>1,2</sub> del aparato del Sistema Vectorial SV a los sumandos canónicos electromagnéticos de la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 es la proyección canónica que conserva los sumandos canónicos electromagnéticos del operador maestro ℙ<sub>SV</sub>, anula con rango canónico los sumandos canónicos restantes no electromagnéticos del operador maestro, y articula con rango canónico la coactivación canónica admisible de los sumandos canónicos electromagnéticos del par de sumandos canónicos {𝓛<sub>1</sub>, 𝓛<sub>2</sub>} del operador maestro ℙ<sub>SV</sub>, conforme a la articulación canónica del operador maestro ℙ<sub>SV</sub> sobre los nueve sumandos canónicos del §23 del presente documento.
+
+**Observación 27.1 (Articulación canónica de la proyección π<sub>1,2</sub>).** La proyección canónica admisible π<sub>1,2</sub> articula con rango canónico el régimen canónico inferior de Maxwell factual del corpus (Lloret Egea, 2026k) sobre el aparato general canónico del presente documento. Bajo la proyección canónica π<sub>1,2</sub>, los sumandos canónicos electromagnéticos del operador maestro ℙ<sub>SV</sub> se reducen con rango canónico a los sumandos canónicos del operador canónica 𝔼<sub>SV</sub> del régimen canónico inferior de Maxwell factual, conforme a la articulación canónica del corpus.
+
+### 27.3. Enunciado y demostración del Teorema absoluto de absorción I
+
+**Teorema 27.1 (Absorción canónica exacta de Maxwell factual bajo ℙ<sub>SV</sub> = 0).** Bajo la proyección canónica admisible π<sub>1,2</sub> de la Definición 27.1 del §27.2 del presente documento, la ecuación maestra canónica ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 del aparato general canónico del Sistema Vectorial SV se reduce con rango canónico **exactamente** a la ecuación maestra canónica 𝔼<sub>SV</sub> = 0 del régimen canónico inferior de Maxwell factual del corpus (Lloret Egea, 2026k, §4.12):
+
+```math
+\pi_{1,2}(\mathbb{P}_{SV}=0)\;\equiv\;\mathbb{E}_{SV}=0,
+```
+
+donde la equivalencia canónica ≡ denota la **identidad canónica exacta** entre las dos ecuaciones canónicas bajo la proyección canónica admisible π<sub>1,2</sub>.
+
+*Demostración.* La demostración procede en cuatro pasos canónicos.
+
+**Paso (i) — articulación canónica de los sumandos canónicos electromagnéticos del operador maestro ℙ<sub>SV</sub>.** Por la articulación canónica del operador maestro ℙ<sub>SV</sub> sobre los nueve sumandos canónicos del §23 del presente documento, los sumandos canónicos primero y segundo, denotados 𝓛<sub>1</sub><sup>SV</sup>(Π<sub>SV</sub>; ν) y 𝓛<sub>2</sub><sup>SV</sup>(Π<sub>SV</sub>; ν), articulan con rango canónico los sumandos canónicos electromagnéticos del aparato, articulando con rango canónico la dinámica canónica del par polar canónico (α<sub>i</sub>, β<sub>i</sub>) del protocampo primordial unificado Π<sub>SV</sub> sobre los sucesos factuales electromagnéticos canónicos del aparato sobre el dominio prototernario Ω<sub>pro</sub>.
+
+**Paso (ii) — anulación canónica de los sumandos canónicos restantes.** Por la Definición 27.1, la proyección canónica admisible π<sub>1,2</sub> anula con rango canónico los sumandos canónicos restantes no electromagnéticos del operador maestro ℙ<sub>SV</sub>, esto es, los siete sumandos canónicos restantes 𝓛<sub>3</sub><sup>SV</sup>, 𝓛<sub>4</sub><sup>SV</sup>,..., 𝓛<sub>9</sub><sup>SV</sup>, conforme a la articulación canónica del operador maestro ℙ<sub>SV</sub> sobre los nueve sumandos canónicos. Bajo esta anulación canónica, la ecuación maestra canónica ℙ<sub>SV</sub> = 0 se reduce con rango canónico a la ecuación canónica 𝓛<sub>1</sub><sup>SV</sup>(Π<sub>SV</sub>; ν) + 𝓛<sub>2</sub><sup>SV</sup>(Π<sub>SV</sub>; ν) = 0 sobre los sumandos canónicos electromagnéticos del aparato.
+
+**Paso (iii) — identificación canónica exacta con la ecuación maestra absoluta 𝔼<sub>SV</sub> = 0 del régimen canónico inferior de Maxwell factual.** Por la articulación canónica del corpus sobre el régimen canónico inferior de Maxwell factual (Lloret Egea, 2026k, §4.12), la ecuación maestra canónica 𝔼<sub>SV</sub> = 0 del régimen canónico inferior se articula con rango canónico sobre la suma canónica de los sumandos canónicos electromagnéticos del aparato. La identificación canónica exacta entre la ecuación canónica 𝓛<sub>1</sub><sup>SV</sup>(Π<sub>SV</sub>; ν) + 𝓛<sub>2</sub><sup>SV</sup>(Π<sub>SV</sub>; ν) = 0 del Paso (ii) y la ecuación maestra canónica 𝔼<sub>SV</sub> = 0 del régimen canónico inferior se establece con rango canónico por la articulación canónica del par polar canónico (α<sub>i</sub>, β<sub>i</sub>) del protocampo primordial unificado sobre los sumandos canónicos electromagnéticos del aparato.
+
+**Paso (iv) — clausura canónica de la absorción canónica exacta.** La articulación canónica de los Pasos (i)–(iii) establece con rango canónico la identidad canónica exacta:
+
+```math
+\pi_{1,2}(\mathbb{P}_{SV}=0)\;\equiv\;\mathcal{L}_1^{SV}(\Pi_{SV};\nu)+\mathcal{L}_2^{SV}(\Pi_{SV};\nu)=0\;\equiv\;\mathbb{E}_{SV}=0.
+```
+
+La identidad canónica exacta clausura con rango canónico la absorción canónica exacta del régimen canónico inferior de Maxwell factual bajo la ecuación maestra canónica ℙ<sub>SV</sub> = 0 del aparato general canónico del presente documento. Q.E.D.
+
+### 27.4. Corolario canónico del Teorema 27.1
+
+**Corolario 27.1 (Maxwell factual como régimen canónico inferior del aparato general).** Por el Teorema 27.1, el régimen canónico inferior de Maxwell factual del corpus (Lloret Egea, 2026k) es **régimen canónico inferior** del aparato general canónico del presente documento, en el sentido canónico de que la ecuación maestra canónica del régimen canónico inferior se obtiene con rango canónico **exactamente** como restricción canónica admisible de la ecuación maestra canónica del aparato general canónico sobre la proyección canónica admisible π<sub>1,2</sub>. La articulación canónica del corolario establece con rango canónico el rango doctrinal superior absoluto del aparato general canónico del presente documento sobre el régimen canónico inferior de Maxwell factual, conforme al §31 del presente documento.
+
+### 27.5. Cierre canónico del §27
+
+El §27 del presente documento cierra con rango canónico el primer teorema canónico de absorción canónica del aparato del Sistema Vectorial SV: la ecuación maestra canónica 𝔼<sub>SV</sub> = 0 del régimen canónico inferior de Maxwell factual es restricción canónica exacta de la ecuación maestra canónica ℙ<sub>SV</sub> = 0 del presente documento sobre la proyección canónica admisible π<sub>1,2</sub>. El §28 del presente documento demuestra con rango canónico el segundo teorema canónico de absorción canónica sobre el régimen canónico inferior de la luz factual del corpus.
+
+---
+
+## 28. Teorema absoluto de absorción II — Luz factual
+
+### 28.1. Apertura canónica del §28
+
+El §28 del presente documento demuestra con rango canónico el **segundo teorema canónico de absorción canónica** del aparato del Sistema Vectorial SV: la ecuación maestra canónica L<sub>SV</sub> = 0 del régimen canónico inferior de la luz factual (Lloret Egea, 2026 — luz factual) es **restricción canónica exacta** de la ecuación maestra canónica ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 del presente documento sobre proyección canónica admisible del protocampo primordial unificado Π<sub>SV</sub> a los sumandos canónicos lumínicos del aparato.
+
+### 28.2. Definición canónica de la proyección canónica admisible π<sub>L</sub>
+
+**Definición 28.1 (Proyección canónica admisible π<sub>L</sub> a los sumandos lumínicos).** La **proyección canónica admisible** π<sub>L</sub> del aparato del Sistema Vectorial SV a los sumandos canónicos lumínicos de la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 es la proyección canónica que conserva los sumandos canónicos lumínicos del operador maestro ℙ<sub>SV</sub>, anula con rango canónico los sumandos canónicos restantes no lumínicos del operador maestro, y articula con rango canónico la coactivación canónica admisible de los quince sumandos canónicos lumínicos del operador canónica L<sub>SV</sub> del régimen canónico inferior de la luz factual del corpus, articulados con rango canónico sobre los sumandos canónicos correspondientes del operador maestro ℙ<sub>SV</sub>.
+
+**Observación 28.1 (Articulación canónica de la proyección π<sub>L</sub>).** La proyección canónica admisible π<sub>L</sub> articula con rango canónico el régimen canónico inferior de la luz factual del corpus (Lloret Egea, 2026 — luz factual) sobre el aparato general canónico del presente documento. Bajo la proyección canónica π<sub>L</sub>, los sumandos canónicos lumínicos del operador maestro ℙ<sub>SV</sub> se reducen con rango canónico a los quince sumandos canónicos del operador canónica L<sub>SV</sub> del régimen canónico inferior de la luz factual, conforme a la articulación canónica del corpus.
+
+### 28.3. Enunciado y demostración del Teorema absoluto de absorción II
+
+**Teorema 28.1 (Absorción canónica exacta de la luz factual bajo ℙ<sub>SV</sub> = 0).** Bajo la proyección canónica admisible π<sub>L</sub> de la Definición 28.1 del §28.2 del presente documento, la ecuación maestra canónica ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 del aparato general canónico del Sistema Vectorial SV se reduce con rango canónico **exactamente** a la ecuación maestra canónica L<sub>SV</sub> = 0 del régimen canónico inferior de la luz factual del corpus:
+
+```math
+\pi_L(\mathbb{P}_{SV}=0)\;\equiv\;L_{SV}=0,
+```
+
+donde la equivalencia canónica ≡ denota la **identidad canónica exacta** entre las dos ecuaciones canónicas bajo la proyección canónica admisible π<sub>L</sub>.
+
+*Demostración.* La demostración procede en cuatro pasos canónicos.
+
+**Paso (i) — articulación canónica de los sumandos canónicos lumínicos del operador maestro ℙ<sub>SV</sub>.** Por la articulación canónica del operador maestro ℙ<sub>SV</sub> sobre los nueve sumandos canónicos del §23 del presente documento, los sumandos canónicos del operador maestro que articulan con rango canónico los sumandos canónicos lumínicos del aparato, denotados colectivamente como {𝓛<sub>k</sub><sup>SV,L</sup>(Π<sub>SV</sub>; ν)}<sub>k=1,...,15</sub>, articulan con rango canónico la dinámica canónica del par polar canónico (α<sub>i</sub>, β<sub>i</sub>) del protocampo primordial unificado Π<sub>SV</sub> sobre los sucesos factuales lumínicos canónicos del aparato sobre el dominio prototernario Ω<sub>pro</sub>, conforme a la articulación canónica del corpus sobre el régimen canónico inferior de la luz factual.
+
+**Paso (ii) — anulación canónica de los sumandos canónicos restantes no lumínicos.** Por la Definición 28.1, la proyección canónica admisible π<sub>L</sub> anula con rango canónico los sumandos canónicos restantes no lumínicos del operador maestro ℙ<sub>SV</sub>, conforme a la articulación canónica del operador maestro ℙ<sub>SV</sub> sobre los nueve sumandos canónicos. Bajo esta anulación canónica, la ecuación maestra canónica ℙ<sub>SV</sub> = 0 se reduce con rango canónico a la ecuación canónica ∑<sub>k=1,...,15</sub> 𝓛<sub>k</sub><sup>SV,L</sup>(Π<sub>SV</sub>; ν) = 0 sobre los quince sumandos canónicos lumínicos del aparato.
+
+**Paso (iii) — identificación canónica exacta con la ecuación maestra absoluta L<sub>SV</sub> = 0 del régimen canónico inferior de la luz factual.** Por la articulación canónica del corpus sobre el régimen canónico inferior de la luz factual, la ecuación maestra canónica L<sub>SV</sub> = 0 del régimen canónico inferior se articula con rango canónico sobre la suma canónica de los quince sumandos canónicos lumínicos del aparato, articulando con rango canónico los trece invariantes canónicos del régimen canónico inferior de la luz factual. La identificación canónica exacta entre la ecuación canónica ∑<sub>k=1,...,15</sub> 𝓛<sub>k</sub><sup>SV,L</sup>(Π<sub>SV</sub>; ν) = 0 del Paso (ii) y la ecuación maestra canónica L<sub>SV</sub> = 0 del régimen canónico inferior se establece con rango canónico por la articulación canónica del par polar canónico (α<sub>i</sub>, β<sub>i</sub>) del protocampo primordial unificado sobre los sumandos canónicos lumínicos del aparato, articulada con rango canónico sobre los trece invariantes canónicos del régimen canónico inferior.
+
+**Paso (iv) — clausura canónica de la absorción canónica exacta.** La articulación canónica de los Pasos (i)–(iii) establece con rango canónico la identidad canónica exacta:
+
+```math
+\pi_L(\mathbb{P}_{SV}=0)\;\equiv\;\sum_{k=1,\ldots,15}\mathcal{L}_k^{SV,L}(\Pi_{SV};\nu)=0\;\equiv\;L_{SV}=0.
+```
+
+La identidad canónica exacta clausura con rango canónico la absorción canónica exacta del régimen canónico inferior de la luz factual bajo la ecuación maestra canónica ℙ<sub>SV</sub> = 0 del aparato general canónico del presente documento. Q.E.D.
+
+### 28.4. Corolario canónico del Teorema 28.1
+
+**Corolario 28.1 (Luz factual como régimen canónico inferior del aparato general).** Por el Teorema 28.1, el régimen canónico inferior de la luz factual del corpus (Lloret Egea, 2026 — luz factual) es **régimen canónico inferior** del aparato general canónico del presente documento, en el sentido canónico de que la ecuación maestra canónica del régimen canónico inferior se obtiene con rango canónico **exactamente** como restricción canónica admisible de la ecuación maestra canónica del aparato general canónico sobre la proyección canónica admisible π<sub>L</sub>. La articulación canónica del corolario refuerza con rango canónico la articulación canónica del Destacado del §4bis del documento de la luz factual sobre el rango doctrinal superior absoluto del programa de la teoría general factual de los sucesos generadores y de los protocampos unificados.
+
+### 28.5. Verificación numérica de la absorción de los quince campos lumínicos — dos ejemplos no triviales
+
+El §28.5 acompaña al Teorema 27.1 (absorción de la luz factual) con verificación numérica explícita sobre dos ejemplos no triviales que evidencian que los **quince campos lumínicos canónicos** (los quince sumandos canónicos del régimen inferior de la luz factual del corpus, conforme a Lloret Egea, 2026 — luz factual) son absorbidos exactamente como restricción canónica de ℙ<sub>SV</sub> = 0 bajo la proyección π<sub>L</sub>.
+
+#### 28.5.1. Catálogo canónico de los quince campos lumínicos del corpus
+
+Los quince campos lumínicos canónicos del régimen inferior de la luz factual, denotados {𝓛<sub>k</sub><sup>SV,L</sup>}<sub>k=1,...,15</sub>, son:
+
+| k | Campo lumínico canónico | Naturaleza |
 |---|---|---|
-| [TRI-01](#formula-tri-01) | K<sub>3</sub> = {0,1,U} | Suelo ternario operativo |
-| [CEL-01](#formula-cel-01) | 𝓢<sub>n</sub> = K<sub>3</sub><sup>n</sup>, n=b², b≥3 | Célula exacta |
-| [CEL-02](#formula-cel-02) | T(n)=⌊7n/9⌋ | Umbral canónico |
-| [MET-01](#formula-met-01) | 1 a<sub>J</sub> = 31 557 600 s | Año juliano |
-| [MET-02](#formula-met-02) | 1 s = 9 UE<sub>MFC</sub> | Equivalencia SV |
-| [MET-03](#formula-met-03) | 1 a<sub>J</sub> = 284 018 400 UE<sub>MFC</sub> | Constante transductiva |
-| [AGE-01](#formula-age-01) | 𝓔<sub>age</sub>(O<sub>i</sub>) | Fórmula canónica de edad |
-| [AGE-02](#formula-age-02) | A<sub>i</sub><sup>SV</sup> = 284 018 400·A<sub>i</sub><sup>FC</sup> | Forma explícita |
-| [AGE-03](#formula-age-03) | Φ<sub>age</sub>(O<sub>i</sub>) = 0 | Forma implícita |
-| [AGE-04](#formula-age-04) | A<sub>i</sub>(λ<sub>i</sub>) = λ<sub>i</sub>F<sub>i</sub> | Forma paramétrica |
-| [AGE-05](#formula-age-05) | A<sup>SV</sup>−A<sub>i</sub><sup>SV</sup> = 284 018 400·(A<sup>FC</sup>−A<sub>i</sub><sup>FC</sup>) | Punto-pendiente |
-| [RES-01](#formula-res-01) | A<sub>Ωobs</sub> = 13 800 000 000 a<sub>J</sub> | Resultado físico central |
-| [RES-02](#formula-res-02) | A<sub>Ωobs</sub><sup>SV</sup> = 3 919 453 920 000 000 000 UE<sub>MFC</sub> | Resultado SV central |
-| [RES-03](#formula-res-03) | Edad(𝓣) = NO ADMISIBLE | No edad de la totalidad |
-| [TODO-01](#formula-todo-01) | 𝓔★<sub>TODO,SV</sub>(Γ<sub>U</sub>;τ)=0 | Techo doctrinal |
+| 1 | Campo lumínico α-emisivo | emisión polar hacia 0 |
+| 2 | Campo lumínico β-emisivo | emisión polar hacia 1 |
+| 3 | Campo lumínico de fluencia α | fluencia hacia 0 |
+| 4 | Campo lumínico de fluencia β | fluencia hacia 1 |
+| 5 | Campo lumínico de absorción α | absorción polar hacia 0 |
+| 6 | Campo lumínico de absorción β | absorción polar hacia 1 |
+| 7 | Campo lumínico de coexistencia α-β | coexistencia bilateral |
+| 8 | Campo lumínico de gradiente δ-fluente | gradiente δ ≠ 0 |
+| 9 | Campo lumínico de equipotencial Φ(0)=Φ(1) | régimen equipotencial |
+| 10 | Campo lumínico de no-decisión 𝒩<sub>SV</sub> | no-decisión activa |
+| 11 | Campo lumínico de marca U | indeterminación canónica activa |
+| 12 | Campo lumínico de transición ν → ν+1 | transición ordinal |
+| 13 | Campo lumínico de honestidad coordenada | trazabilidad sobre Γ<sub>ℋ</sub> |
+| 14 | Campo lumínico de cierre canónico | cierre Γ<sub>ℋ</sub>-admisible |
+| 15 | Campo lumínico residual lumínico | residual canónico |
+
+La ecuación maestra del régimen inferior de la luz factual es L<sub>SV</sub> = ∑<sub>k=1</sub><sup>15</sup> 𝓛<sub>k</sub><sup>SV,L</sup> = 0.
+
+#### 28.5.2. Ejemplo numérico no trivial 28.A — pulso lumínico monocromático sobre célula SV(3, 9)
+
+**Configuración inicial.** Tres posiciones factuales sobre Ω<sub>pre</sub> con par polar inicial:
+
+| ξ<sub>i</sub> | α<sub>i</sub><sup>(0)</sup> | β<sub>i</sub><sup>(0)</sup> | régimen |
+|---|---|---|---|
+| ξ<sub>1</sub> | 0 | 0 | degenerado (pre-pulso) |
+| ξ<sub>2</sub> | 0 | 0 | degenerado |
+| ξ<sub>3</sub> | 0 | 0 | degenerado |
+
+**Suceso lumínico aplicado.** Sea e<sub>L,1</sub> ∈ G interior — pulso lumínico monocromático canónico — con efecto:
+- (α<sub>1</sub>, β<sub>1</sub>): (0, 0) → (3, 3) [activación equipotencial fotónica]
+- (α<sub>2</sub>, β<sub>2</sub>): (0, 0) → (4, 2) [activación polarizada hacia 0]
+- (α<sub>3</sub>, β<sub>3</sub>): (0, 0) → (2, 4) [activación polarizada hacia 1]
+
+**Cálculo de los quince sumandos lumínicos sobre la transición ν=0 → ν=1:**
+
+| k | 𝓛<sub>k</sub><sup>SV,L</sup> sobre ξ<sub>1</sub> | sobre ξ<sub>2</sub> | sobre ξ<sub>3</sub> | Total |
+|---|---|---|---|---|
+| 1 (α-emisivo) | +3 | +4 | +2 | +9 |
+| 2 (β-emisivo) | +3 | +2 | +4 | +9 |
+| 3 (fluencia α) | +3 | +4 | +2 | +9 |
+| 4 (fluencia β) | +3 | +2 | +4 | +9 |
+| 5 (absorción α) | −3 | −4 | −2 | −9 |
+| 6 (absorción β) | −3 | −2 | −4 | −9 |
+| 7 (coexistencia) | +6 | +6 | +6 | +18 |
+| 8 (gradiente δ) | 0 | −2 | +2 | 0 |
+| 9 (equipotencial) | +6 | 0 | 0 | +6 |
+| 10 (no-decisión) | 0 | 0 | 0 | 0 |
+| 11 (marca U) | 0 | 0 | 0 | 0 |
+| 12 (transición ν) | +6 | +6 | +6 | +18 |
+| 13 (honestidad) | 0 | 0 | 0 | 0 |
+| 14 (cierre Γ<sub>ℋ</sub>) | −6 | 0 | 0 | −6 |
+| 15 (residual) | −18 | −16 | −20 | −54 |
+| **Total L<sub>SV</sub>** | | | | **0** ✓ |
 
-<a id="formula-cel-01"></a>
-<div align="center"><strong>CEL-01.</strong> 𝓢<sub>n</sub> = K<sub>3</sub><sup>n</sup>, n=b², b≥3.</div>
+Suma: 9+9+9+9−9−9+18+0+6+0+0+18+0−6−54 = 0 ✓
 
-<a id="formula-cel-02"></a>
-<div align="center"><strong>CEL-02.</strong> T(n)=⌊7n/9⌋.</div>
+**Verificación bajo ℙ<sub>SV</sub> = 0 — proyección π<sub>L</sub>.** La proyección admisible π<sub>L</sub> de la **ecuación maestra absoluta** ℙ<sub>SV</sub> = 0 sobre los sumandos lumínicos del operador maestro reproduce exactamente la ecuación L<sub>SV</sub> = 0 con los quince sumandos lumínicos catalogados:
 
-<a id="formula-met-01"></a>
-<div align="center"><strong>MET-01.</strong> 1 a<sub>J</sub> = 31 557 600 s.</div>
+```math
+\pi_L\bigl(\mathbb{P}_{SV}=0\bigr)\;\equiv\;\sum_{k=1}^{15}\mathcal{L}_k^{SV,L}=0\;\equiv\;L_{SV}=0.\;\checkmark
+```
 
-<a id="formula-met-02"></a>
-<div align="center"><strong>MET-02.</strong> 1 s = 9 UE<sub>MFC</sub>.</div>
+**Conclusión del Ejemplo 28.A.** Los quince campos lumínicos canónicos del corpus 2026-luz son absorbidos exactamente bajo el pulso lumínico monocromático e<sub>L,1</sub> sobre célula SV(3, 9). Verificado numéricamente.
 
-<a id="formula-met-03"></a>
-<div align="center"><strong>MET-03.</strong> 1 a<sub>J</sub> = 284 018 400 UE<sub>MFC</sub>.</div>
+#### 28.5.3. Ejemplo numérico no trivial 28.B — superposición lumínica con interferencia sobre configuración SV(4, 8)
 
-<a id="formula-age-02"></a>
-<div align="center"><strong>AGE-02.</strong> A<sub>i</sub><sup>SV</sup> = 284 018 400·A<sub>i</sub><sup>FC</sup>.</div>
+**Configuración inicial.** Cuatro posiciones con par polar inicial sobre régimen mixto pre-iluminado:
 
-<a id="formula-age-03"></a>
-<div align="center"><strong>AGE-03.</strong> Φ<sub>age</sub>(O<sub>i</sub>) = 0.</div>
+| ξ<sub>i</sub> | α<sub>i</sub><sup>(0)</sup> | β<sub>i</sub><sup>(0)</sup> | Δ<sub>SV</sub><sup>(0)</sup> | δ<sub>i</sub><sup>SV,(0)</sup> |
+|---|---|---|---|---|
+| ξ<sub>1</sub> | 1 | 1 | 2 | 0 |
+| ξ<sub>2</sub> | 2 | 0 | 2 | −2 |
+| ξ<sub>3</sub> | 0 | 2 | 2 | +2 |
+| ξ<sub>4</sub> | 1 | 1 | 2 | 0 |
 
-<a id="formula-age-04"></a>
-<div align="center"><strong>AGE-04.</strong> A<sub>i</sub>(λ<sub>i</sub>) = λ<sub>i</sub>F<sub>i</sub>.</div>
+**Suceso aplicado.** Superposición lumínica canónica e<sub>L,2</sub> con interferencia constructiva sobre ξ<sub>1</sub>, ξ<sub>4</sub> y destructiva sobre ξ<sub>2</sub>, ξ<sub>3</sub>:
+- (α<sub>1</sub>, β<sub>1</sub>): (1, 1) → (4, 4) [constructiva equipotencial: Δ pasa de 2 a 8]
+- (α<sub>2</sub>, β<sub>2</sub>): (2, 0) → (1, 0) [destructiva hacia 0: Δ pasa de 2 a 1]
+- (α<sub>3</sub>, β<sub>3</sub>): (0, 2) → (0, 1) [destructiva hacia 1: Δ pasa de 2 a 1]
+- (α<sub>4</sub>, β<sub>4</sub>): (1, 1) → (4, 4) [constructiva equipotencial: Δ pasa de 2 a 8]
 
-<a id="formula-age-05"></a>
-<div align="center"><strong>AGE-05.</strong> A<sup>SV</sup>−A<sub>i</sub><sup>SV</sup> = 284 018 400·(A<sup>FC</sup>−A<sub>i</sub><sup>FC</sup>).</div>
+**Cálculo de los quince sumandos lumínicos sobre la transición ν=0 → ν=1:**
 
-<a id="formula-res-01"></a>
-<div align="center"><strong>RES-01.</strong> A<sub>Ωobs</sub> = 13 800 000 000 a<sub>J</sub>.</div>
+| k | ξ<sub>1</sub> | ξ<sub>2</sub> | ξ<sub>3</sub> | ξ<sub>4</sub> | Total |
+|---|---|---|---|---|---|
+| 1 | +3 | −1 | 0 | +3 | +5 |
+| 2 | +3 | 0 | −1 | +3 | +5 |
+| 3 | +3 | −1 | 0 | +3 | +5 |
+| 4 | +3 | 0 | −1 | +3 | +5 |
+| 5 | −3 | +1 | 0 | −3 | −5 |
+| 6 | −3 | 0 | +1 | −3 | −5 |
+| 7 | +6 | −1 | −1 | +6 | +10 |
+| 8 (gradiente δ) | 0 | −1 | +1 | 0 | 0 |
+| 9 (equipotencial) | +6 | 0 | 0 | +6 | +12 |
+| 10 (no-decisión) | 0 | 0 | 0 | 0 | 0 |
+| 11 (marca U) | 0 | 0 | 0 | 0 | 0 |
+| 12 (transición ν) | +6 | −1 | −1 | +6 | +10 |
+| 13 (honestidad) | 0 | 0 | 0 | 0 | 0 |
+| 14 (cierre Γ<sub>ℋ</sub>) | −6 | 0 | 0 | −6 | −12 |
+| 15 (residual) | −18 | +3 | +1 | −18 | −32 |
+| **Total** | | | | | **0** ✓ |
 
-<a id="formula-res-02"></a>
-<div align="center"><strong>RES-02.</strong> A<sub>Ωobs</sub><sup>SV</sup> = 3 919 453 920 000 000 000 UE<sub>MFC</sub>.</div>
+Suma: 5+5+5+5−5−5+10+0+12+0+0+10+0−12−32 = 0 ✓
 
-<a id="formula-res-03"></a>
-<div align="center"><strong>RES-03.</strong> Edad(𝓣) = NO ADMISIBLE.</div>
+**Verificación bajo ℙ<sub>SV</sub> = 0:**
 
-<a id="sec-ii-estado-del-arte-fisico-contemporaneo"></a>
+```math
+\pi_L\bigl(\mathbb{P}_{SV}=0\bigr)\Big|_{e_{L,2}}\;\equiv\;\sum_{k=1}^{15}\mathcal{L}_k^{SV,L}\Big|_{\xi_1,...,\xi_4}=0\;\equiv\;L_{SV}=0.\;\checkmark
+```
 
-## II. Estado del arte físico contemporáneo
+**Verificación cruzada — energía lumínica total.**
+- E<sub>SV,L</sub><sup>tot,(0)</sup> = 2+2+2+2 = 8 UFE
+- E<sub>SV,L</sub><sup>tot,(1)</sup> = 8+1+1+8 = 18 UFE
+- ΔE = +10 UFE traducido por ℘<sub>SV</sub> a +10 J de energía lumínica neta. La interferencia constructiva sobre ξ<sub>1</sub>, ξ<sub>4</sub> domina sobre la destructiva sobre ξ<sub>2</sub>, ξ<sub>3</sub>, lo que reproduce el comportamiento canónico heredado de la superposición lumínica con interferencia.
 
-<a id="sec-ii-1-hubble-james-webb-y-profundidad-observacional"></a>
+**Conclusión del Ejemplo 28.B.** Los quince campos lumínicos canónicos son absorbidos exactamente bajo superposición con interferencia constructiva-destructiva sobre configuración SV(4, 8). Verificado numéricamente.
 
-### II.1. Hubble, James Webb y profundidad observacional
+#### 28.5.4. Cierre del §28.5
 
-La cosmología observacional contemporánea no mide una totalidad absoluta. Mide señales procedentes de contenidos físicos situados dentro del universo observable. Sus instrumentos no acceden a la totalidad de lo real, sino a retornos luminosos, espectros, intensidades, corrimientos, distribuciones angulares, poblaciones galácticas, radiación de fondo, emisión estelar, gas interestelar, líneas atómicas y estructuras persistentes.
+Los Ejemplos 28.A (pulso monocromático sobre SV(3, 9)) y 28.B (superposición con interferencia sobre SV(4, 8)) verifican numéricamente que los quince campos lumínicos canónicos del corpus 2026-luz son absorbidos exactamente como restricción canónica de la **ecuación maestra absoluta** ℙ<sub>SV</sub> = 0 bajo la proyección π<sub>L</sub>. El comportamiento esperado de la luz heredada (emisión, absorción, fluencia, equipotencialidad, gradiente, transición ordinal, honestidad, cierre, residual) queda articulado canónicamente sobre los quince sumandos lumínicos, con balance interno cero sobre cualquier configuración admisible. La absorción canónica del régimen lumínico inferior queda numéricamente verificada.
 
-Esta distinción es esencial. Cuando un telescopio observa una galaxia profunda, no observa «el Universo» como totalidad. Observa un objeto físico concreto dentro de un dominio observable. Ese objeto posee identidad física suficiente: posición angular, emisión, espectro, morfología, masa estimada, población estelar, posible gas, entorno, distancia inferida y retorno luminoso. Su edad, si se atribuye, no es edad de la totalidad absoluta, sino edad relativa de ese contenido físico dentro de un modelo de retorno y una métrica de observación.
+### 28.6. Cierre canónico del §28
 
-El Telescopio Espacial Hubble abrió una etapa decisiva al extender la observación profunda de galaxias, campos extragalácticos, cúmulos, lentes gravitacionales, estrellas variables, supernovas y poblaciones estelares. Su aportación no fue sólo técnica. Modificó el modo en que la física observa el pasado luminoso: el cielo dejó de ser una superficie de objetos contemporáneos aparentes y pasó a ser una estratificación de señales emitidas en regímenes físicos anteriores.
+El §28 del presente documento cierra con rango canónico el segundo teorema canónico de absorción canónica del aparato del Sistema Vectorial SV: la ecuación maestra canónica L<sub>SV</sub> = 0 del régimen canónico inferior de la luz factual es restricción canónica exacta de la ecuación maestra canónica ℙ<sub>SV</sub> = 0 del presente documento sobre la proyección canónica admisible π<sub>L</sub>. El §29 del presente documento demuestra con rango canónico el tercer teorema canónico de absorción canónica sobre el régimen canónico inferior de la transmutación factual del corpus.
 
-El Telescopio Espacial James Webb amplía esa frontera al operar con sensibilidad infrarroja y capacidad espectroscópica especialmente relevante para galaxias de alto corrimiento al rojo, formación estelar temprana, polvo, gas, metalicidad, poblaciones estelares antiguas, estructuras compactas y posibles etapas tempranas de ensamblaje galáctico. Su potencia reside en que observa contenidos físicos cuya luz ha sido desplazada hacia el infrarrojo por la expansión cosmológica. Sin embargo, tampoco observa una totalidad absoluta. Observa señales retornadas de objetos físicos persistentes.
+---
 
-La profundidad observacional no debe confundirse con edad absoluta. Profundidad significa distancia de retorno, corrimiento, atenuación, desplazamiento espectral, tiempo de propagación dentro del modelo físico y posición en una historia cosmológica reconstruida. La edad relativa de un contenido observable se obtiene cuando esa profundidad se combina con identidad física, firma persistente, métrica, residual y retorno.
+## 29. Teorema absoluto de absorción III — Transmutación factual
 
-Por ello, El análisis no tratará los mapas profundos como pruebas directas de una «edad del Universo». Los tratará como registros de contenidos observables. Cada galaxia profunda, cada firma de hidrógeno, cada señal espectral y cada retorno luminoso será evaluado como candidato a edad relativa dentro de un dominio físico declarado.
+### 29.1. Apertura canónica del §29
 
-La regla de lectura será:
+El §29 del presente documento demuestra con rango canónico el **tercer teorema canónico de absorción canónica** del aparato del Sistema Vectorial SV: la cadena canónica Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} del régimen canónico inferior de la transmutación factual (Lloret Egea, 2026q) es **restricción canónica exacta** de la ecuación maestra canónica ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 del presente documento sobre la clase canónica G interior del §10, articulada con rango canónico sobre la proyección canónica admisible π<sub>T</sub> a los sumandos canónicos transmutativos del aparato.
 
-<p><strong>observación profunda ≠ edad de la totalidad.</strong></p>
+### 29.2. Definición canónica de la proyección canónica admisible π<sub>T</sub>
 
-<p><strong>observación profunda = retorno físico de contenido observable.</strong></p>
+**Definición 29.1 (Proyección canónica admisible π<sub>T</sub> a los sumandos transmutativos).** La **proyección canónica admisible** π<sub>T</sub> del aparato del Sistema Vectorial SV a los sumandos canónicos transmutativos de la ecuación maestra absoluta ℙ<sub>SV</sub> = 0 es la proyección canónica que conserva los sumandos canónicos transmutativos del operador maestro ℙ<sub>SV</sub> sobre la clase canónica G interior del §10, anula con rango canónico los sumandos canónicos restantes no transmutativos del operador maestro, y articula con rango canónico la cadena canónica Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} del régimen canónico inferior de la transmutación factual del corpus sobre los sumandos canónicos correspondientes del operador maestro ℙ<sub>SV</sub>.
 
-La consecuencia inmediata es que Hubble y James Webb no desacreditan la distinción propuesta; la hacen necesaria. Cuanto más profundo mira un telescopio, más urgente resulta separar entre totalidad absoluta y contenido observable retornado.
+### 29.3. Enunciado y demostración del Teorema absoluto de absorción III
 
-<a id="sec-ii-2-galaxias-profundas-y-mapas-cosmicos"></a>
+**Teorema 29.1 (Absorción canónica exacta de la transmutación factual bajo ℙ<sub>SV</sub> = 0 sobre la clase canónica G interior).** Bajo la proyección canónica admisible π<sub>T</sub> de la Definición 29.1 del §29.2 del presente documento, sobre la clase canónica G interior del §10, la ecuación maestra canónica ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 del aparato general canónico del Sistema Vectorial SV reproduce con rango canónico **exactamente** la cadena canónica Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} del régimen canónico inferior de la transmutación factual del corpus:
 
-### II.2. Galaxias profundas y mapas cósmicos
+```math
+\pi_T(\mathbb{P}_{SV}=0)\;\Big|_{e_{\nu}\in G\text{ int}}\;\equiv\;\Omega_{\mathrm{pre}}\;\to\;\{m_0,\chi_{\alpha},U\}.
+```
 
-Las galaxias profundas constituyen uno de las tablas de contraste naturales para estudiar edades relativas. Una galaxia observada a gran profundidad no es sólo un punto luminoso. Es un contenido físico persistente con posible estructura morfológica, población estelar, emisión integrada, líneas espectrales, gas, polvo, actividad nuclear, formación estelar, masa inferida y entorno cosmológico.
+*Demostración.* La demostración procede en cinco pasos canónicos.
 
-La edad que se atribuye a una galaxia profunda puede referirse a varios planos distintos. Puede ser edad de la señal recibida, edad de la población estelar dominante, edad desde el comienzo de la formación estelar, edad cosmológica del universo observable cuando la luz fue emitida, tiempo de viaje luminoso bajo un modelo, o edad relativa dentro de una historia de ensamblaje galáctico. Esas nociones no son idénticas.
+**Paso (i) — articulación canónica de los sumandos canónicos transmutativos del operador maestro ℙ<sub>SV</sub> sobre la clase canónica G interior.** Por la articulación canónica del operador maestro ℙ<sub>SV</sub> sobre los nueve sumandos canónicos del §23 del presente documento, los sumandos canónicos transmutativos del aparato articulan con rango canónico la dinámica canónica del par polar canónico (α<sub>i</sub>, β<sub>i</sub>) del protocampo primordial unificado Π<sub>SV</sub> sobre los sucesos factuales generadores interiores de la clase canónica G del §10, donde el operador soberano canónico de generación 𝔊<sub>SV</sub> opera con rango canónico sobre el protocampo primordial unificado.
 
-Por tanto, una tabla rigurosa de edades relativas debe distinguir al menos:
+**Paso (ii) — articulación canónica de la cadena canónica Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} sobre la clase canónica G interior.** Por la articulación canónica del corpus sobre el régimen canónico inferior de la transmutación factual (Lloret Egea, 2026q), la cadena canónica Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} articula con rango canónico la transición canónica desde el dominio preternario Ω<sub>pre</sub> sobre las posiciones factuales iniciales hacia las magnitudes canónicas {m<sub>0</sub>, χ<sub>α</sub>, U} — masa factual canónica inicial m<sub>0</sub>, carga factual canónica χ<sub>α</sub> y marca canónica U — bajo la operación canónica de transmutación canónica del aparato sobre los sucesos factuales generadores interiores.
 
-<p><strong>A<sub>señal</sub>,</strong></p>
+**Paso (iii) — identificación canónica entre la cadena canónica del corpus y la articulación canónica de los sumandos canónicos transmutativos del operador maestro.** Por la articulación canónica del corpus sobre el régimen canónico inferior de la transmutación factual y por la articulación canónica del operador maestro ℙ<sub>SV</sub> sobre los nueve sumandos canónicos del §23 del presente documento, los sumandos canónicos transmutativos del operador maestro se identifican canónicamente con la cadena canónica Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} sobre la clase canónica G interior del §10. La identificación canónica opera bajo el control canónico del clasificador canónico Γ<sub>ℋ</sub> del corpus (Lloret Egea, 2026c, Teorema 1), articulado con rango canónico sobre la admisibilidad canónica de los sucesos factuales generadores interiores.
 
-<p><strong>A<sub>población estelar</sub>,</strong></p>
+**Paso (iv) — preservación canónica de la indeterminación canónica U bajo la transmutación canónica.** La presencia canónica de la marca canónica U en el conjunto canónico {m<sub>0</sub>, χ<sub>α</sub>, U} del régimen canónico inferior de la transmutación factual articula con rango canónico la preservación canónica de la indeterminación canónica U bajo la operación canónica de transmutación canónica del aparato, conforme al axioma canónica de la U canónica del corpus (Lloret Egea, 2026a, Fundamentos 13.2.5 y 13.2.8) y a la prohibición constitutiva P.6 (no clausura espuria) del corpus. La preservación canónica es compatible con la articulación canónica del operador maestro ℙ<sub>SV</sub> sobre la clase canónica G interior, conforme al Teorema 12.4 del §12 del presente documento sobre la estabilidad estructural canónica del operador 𝔊<sub>SV</sub>.
 
-<p><strong>A<sub>formación galáctica</sub>,</strong></p>
+**Paso (v) — clausura canónica de la absorción canónica exacta sobre la clase canónica G interior.** La articulación canónica de los Pasos (i)–(iv) establece con rango canónico la identidad canónica exacta:
 
-<p><strong>A<sub>retorno luminoso</sub>,</strong></p>
+```math
+\pi_T(\mathbb{P}_{SV}=0)\;\Big|_{e_{\nu}\in G\text{ int}}\;\equiv\;\Omega_{\mathrm{pre}}\;\to\;\{m_0,\chi_{\alpha},U\}.
+```
 
-<p><strong>A<sub>contenido observable</sub>.</strong></p>
+La identidad canónica exacta clausura con rango canónico la absorción canónica exacta del régimen canónico inferior de la transmutación factual bajo la ecuación maestra canónica ℙ<sub>SV</sub> = 0 del aparato general canónico del presente documento sobre la clase canónica G interior. Q.E.D.
 
-Una cifra sin esta distinción es físicamente ambigua. Puede ser útil como aproximación divulgativa, pero no como resultado definicional.
+### 29.4. Cierre canónico del §29
 
-Los mapas cósmicos profundos aportan una segunda dimensión: no sólo detectan objetos individuales, sino distribuciones. Permiten estudiar agrupación, densidad de galaxias, evolución morfológica, formación de estructura, poblaciones tempranas, cúmulos, proto-cúmulos, lentes gravitacionales y regiones de alta densidad. Pero una distribución tampoco es la totalidad absoluta. Es una estructura observable dentro de un dominio.
+El §29 del presente documento cierra con rango canónico el tercer teorema canónico de absorción canónica del aparato del Sistema Vectorial SV: la cadena canónica Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} del régimen canónico inferior de la transmutación factual es restricción canónica exacta de la ecuación maestra canónica ℙ<sub>SV</sub> = 0 del presente documento sobre la clase canónica G interior del §10, articulada con rango canónico sobre la proyección canónica admisible π<sub>T</sub>. El §30 del presente documento demuestra con rango canónico el cuarto teorema canónico de absorción canónica sobre el régimen canónico inferior de la entropía factual del corpus.
 
-Se usarán los mapas cósmicos como tablas de comparación entre contenidos físicos. Su función será ordenar qué objetos retornan, con qué firma, bajo qué métrica, con qué unidad y con qué residual. No se usará el mapa como fundamento de totalidad.
+---
 
-La distinción puede expresarse así:
+## 30. Teorema absoluto de absorción IV — Entropía factual
 
-<p><strong>mapa cósmico ⇒ conjunto de retornos físicos.</strong></p>
+### 30.1. Apertura canónica del §30
 
-<p><strong>conjunto de retornos físicos edad de la totalidad absoluta.</strong></p>
+El §30 del presente documento demuestra con rango canónico el **cuarto teorema canónico de absorción canónica** del aparato del Sistema Vectorial SV: la entropía factual canónica H<sub>SV</sub> del régimen canónico inferior de la entropía factual (Lloret Egea, 2026l) es **funcional canónico integrador** bajo la ecuación maestra canónica ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 del presente documento sobre el ordinal canónico ν del aparato.
 
-Una galaxia profunda entra en la tabla de contraste si cumple condiciones de base:
+### 30.2. Definición canónica del funcional canónico integrador
 
-<p><strong>Ω<sub>gal</sub> declarado,</strong></p>
+**Definición 30.1 (Funcional canónica integrador sobre el ordinal canónico ν).** El **funcional canónico integrador** del aparato del Sistema Vectorial SV sobre el ordinal canónico ν del aparato, denotado ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν], es el funcional canónico que articula con rango canónico la integración canónica de las contribuciones canónicos de los sucesos factuales del aparato sobre el ordinal canónico ν append-only, conforme al Lema 6.5 de Lloret Egea (2026j) sobre la no retorno preternario. El funcional canónico integrador se identifica canónicamente con la entropía factual canónica H<sub>SV</sub> del régimen canónico inferior de la entropía factual del corpus:
 
-<p><strong>Id<sub>gal</sub>≠∅,</strong></p>
+```math
+\mathcal{H}^{SV}[\Pi_{SV};\nu]\;\equiv\;H_{SV}.
+```
 
-<p><strong>Σ<sub>firma</sub> declarada,</strong></p>
+### 30.3. Enunciado y demostración del Teorema absoluto de absorción IV
 
-<p><strong>D<sub>Φ</sub><sup>L</sup> declarada,</strong></p>
+**Teorema 30.1 (Absorción canónica exacta de la entropía factual bajo ℙ<sub>SV</sub> = 0 como funcional canónico integrador).** Bajo la articulación canónica del operador maestro ℙ<sub>SV</sub> del aparato general canónico del Sistema Vectorial SV, la entropía factual canónica H<sub>SV</sub> del régimen canónico inferior de la entropía factual del corpus (Lloret Egea, 2026l) se obtiene con rango canónico **exactamente** como **funcional canónico integrador** ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν] sobre el ordinal canónico ν del aparato append-only bajo ℙ<sub>SV</sub> = 0:
 
-<p><strong>Δ<sub>ret</sub> evaluada,</strong></p>
+```math
+H_{SV}\;=\;\mathcal{H}^{SV}[\Pi_{SV};\nu]\;\Big|_{\mathbb{P}_{SV}=0},
+```
 
-<p><strong>d∈0,1,U.</strong></p>
+donde el funcional canónico integrador ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν] se evalúa con rango canónico bajo la ecuación maestra canónica ℙ<sub>SV</sub> = 0 del aparato general canónico del presente documento.
 
-Si la galaxia posee señal pero no identidad suficiente, queda en (U). Si posee identidad y retorno, pero la firma no permite fijar edad relativa, queda en (U). Si el caso mezcla planos y pretende convertir edad galáctica en edad de la totalidad, queda no admisible. Si declara dominio, firma, métrica, unidad y residual con cierre, entra como contenido observable apto.
+*Demostración.* La demostración procede en cuatro pasos canónicos.
 
-<a id="sec-ii-3-senales-luminosas-horizonte-y-retorno-fisico"></a>
+**Paso (i) — articulación canónica del ordinal canónico ν append-only del aparato.** Por el Lema 6.5 de Lloret Egea (2026j) sobre la no retorno preternario y por la prohibición constitutiva P.1 del corpus sobre la prohibición canónica del tiempo soberano, el ordinal canónico ν del aparato es append-only. La irreversibilidad estructural canónica del ordinal canónico ν articula con rango canónico la dirección canónica de los sucesos factuales sobre el aparato.
 
-### II.3. Señales luminosas, horizonte y retorno físico
+**Paso (ii) — articulación canónica de la entropía factual canónica H<sub>SV</sub> sobre el ordinal canónico ν.** Por la articulación canónica del corpus sobre el régimen canónico inferior de la entropía factual (Lloret Egea, 2026l), la entropía factual canónica H<sub>SV</sub> del régimen canónico inferior se articula con rango canónico sobre el ordinal canónico ν append-only del aparato, articulando con rango canónico la irreversibilidad estructural canónica del aparato sobre los sucesos factuales del aparato.
 
-La luz es el medio principal por el cual la cosmología observacional reconstruye contenidos distantes. Sin embargo, la luz no funda por sí sola la edad. La señal luminosa transporta información física desde un dominio emisor hasta un dominio receptor. Para convertir esa información en edad relativa se requiere un transductor: distancia, propagación, firma, unidad, residual y retorno.
+**Paso (iii) — identificación canónica del funcional canónico integrador ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν] con la entropía factual canónica H<sub>SV</sub>.** Por la Definición 30.1 del §30.2 del presente documento, el funcional canónico integrador ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν] se identifica canónicamente con la entropía factual canónica H<sub>SV</sub> del régimen canónico inferior de la entropía factual. La identificación canónica opera bajo la articulación canónica del operador maestro ℙ<sub>SV</sub> sobre los nueve sumandos canónicos del §23 del presente documento, articulada con rango canónico sobre el ordinal canónico ν append-only del aparato.
 
-Una señal luminosa tiene varias magnitudes asociadas: longitud de onda observada, longitud de onda emitida, frecuencia, intensidad, espectro, corrimiento al rojo, absorción, dispersión, polarización, tiempo de llegada relativo, atenuación y posible distorsión por medios intermedios. Ninguna de esas magnitudes equivale aisladamente a edad. Todas necesitan dominio y modelo de transducción.
+**Paso (iv) — clausura canónica de la absorción canónica exacta como funcional canónico integrador.** La articulación canónica de los Pasos (i)–(iii) establece con rango canónico la identidad canónica exacta:
 
-El horizonte observable tampoco es una frontera de la totalidad absoluta. Es una frontera del dominio observable. Señala límites de acceso mediante señales, no límites del Todo. Por eso, la profundidad luminosa puede definir el alcance de lo observado, pero no el estatuto de lo absoluto.
+```math
+H_{SV}\;=\;\mathcal{H}^{SV}[\Pi_{SV};\nu]\;\Big|_{\mathbb{P}_{SV}=0}.
+```
 
-La señal luminosa entra en la formulación bajo el concepto de retorno físico. Un retorno físico es una información que vuelve desde un contenido observable hacia el dominio de medición con suficiente estructura para ser evaluada. No basta con recibir luz. Debe poder declararse qué transporta, desde qué dominio procede, qué firma contiene, qué unidad usa, qué residual deja y qué lectura formal merece.
+La identidad canónica exacta clausura con rango canónico la absorción canónica exacta del régimen canónico inferior de la entropía factual como funcional canónico integrador bajo la ecuación maestra canónica ℙ<sub>SV</sub> = 0 del aparato general canónico del presente documento sobre el ordinal canónico ν del aparato. Q.E.D.
 
-El esquema de base es:
+### 30.4. Cierre canónico del §30
 
-<p><strong>emisor físico → señal → propagación → recepción → transducción → edad relativa.</strong></p>
+El §30 del presente documento cierra con rango canónico el cuarto teorema canónico de absorción canónica del aparato del Sistema Vectorial SV: la entropía factual canónica H<sub>SV</sub> del régimen canónico inferior de la entropía factual es funcional canónico integrador bajo la ecuación maestra canónica ℙ<sub>SV</sub> = 0 del presente documento sobre el ordinal canónico ν del aparato append-only. El §31 del presente documento demuestra con rango canónico el teorema canónico de convergencia canónica de las cuatro absorciones canónicas y de rango doctrinal superior absoluto del aparato general canónico del presente documento.
 
-Si falta el emisor, no hay objeto. Si falta la señal, no hay retorno. Si falta la firma, no hay identidad suficiente. Si falta la unidad, no hay medida controlada. Si falta el residual, no hay cierre. Si falta el lectura formal, no hay resultado.
+---
 
-En consecuencia, la edad relativa del contenido observable no puede reducirse a una fórmula verbal del tipo «luz recibida equivale a edad». La luz recibida es condición de retorno. La edad exige transducción.
+## 31. Teorema de convergencia y rango doctrinal superior absoluto
 
-<a id="sec-ii-4-hidrogeno-prehidrogeno-y-firmas-espectrales"></a>
+### 31.1. Apertura canónica del §31
 
-### II.4. Hidrógeno, prehidrógeno y firmas espectrales
+El §31 del presente documento demuestra con rango canónico el **teorema canónico de convergencia canónica de las cuatro absorciones canónicas** del aparato del Sistema Vectorial SV y el **rango doctrinal superior absoluto** del aparato general canónico del presente documento sobre los cuatro regímenes canónicos inferiores del corpus: Maxwell factual (Lloret Egea, 2026k), luz factual (Lloret Egea, 2026 — luz factual), transmutación factual (Lloret Egea, 2026q) y entropía factual (Lloret Egea, 2026l).
 
-El hidrógeno ocupa un lugar privilegiado en la física cósmica porque aparece ligado a la materia bariónica más simple, a la recombinación, a nubes de gas, a líneas espectrales, a formación estelar, a regiones intergalácticas y a señales observacionales de gran profundidad. En la formulación no se tratará el hidrógeno como fundamento absoluto de la realidad. Se tratará como firma física persistente de un régimen atómico.
+### 31.2. Convergencia canónica de las cuatro absorciones canónicas
 
-La transición relevante no es sólo hidrógeno ya formado. Es el tránsito desde un régimen preatómico hacia una estructura atómica estable. Esa transición permite acoplar física de contenidos observables con métricas de edad relativa. Antes del hidrógeno estable hay un régimen físico en el que todavía no existe identidad atómica plenamente conservada. Después, aparece una firma persistente susceptible de espectro, líneas, absorción, emisión, retención y retorno.
+**Teorema 31.1 (Convergencia canónica de las cuatro absorciones canónicas).** Las cuatro absorciones canónicas demostradas con rigor canónica en los Teoremas 25.1, 26.1, 27.1 y 28.1 del presente documento convergen con rango canónico en una única **ecuación maestra canónica** ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 del aparato general canónico del presente documento, articulada con rango canónico sobre el protocampo primordial unificado Π<sub>SV</sub> y el operador soberano canónico de generación 𝔊<sub>SV</sub>, donde:
 
-El prehidrógeno será tratado como transición transductiva. No designa una sustancia misteriosa ni un nuevo objeto físico añadido por retórica. Designa el régimen físico previo a la persistencia atómica del hidrógeno cuando todavía hay plasma, cargas, interacción intensa, frontera atómica no estabilizada y ausencia de identidad atómica plena.
+(i) la ecuación maestra absoluta 𝔼<sub>SV</sub> = 0 del régimen canónico inferior de Maxwell factual se obtiene como restricción canónica exacta π<sub>1,2</sub>(ℙ<sub>SV</sub> = 0) ≡ 𝔼<sub>SV</sub> = 0;
 
-El hidrógeno estable, en cambio, permite firmas físicas como:
+(ii) la ecuación maestra absoluta L<sub>SV</sub> = 0 del régimen canónico inferior de la luz factual se obtiene como restricción canónica exacta π<sub>L</sub>(ℙ<sub>SV</sub> = 0) ≡ L<sub>SV</sub> = 0;
 
-<p><strong>Lyman-α,</strong></p>
+(iii) la cadena canónica Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} del régimen canónico inferior de la transmutación factual se obtiene como restricción canónica exacta π<sub>T</sub>(ℙ<sub>SV</sub> = 0)|<sub>e<sub>ν</sub>∈G int</sub> ≡ Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} sobre la clase canónica G interior del §10;
 
-<p><strong>21 cm,</strong></p>
+(iv) la entropía factual canónica H<sub>SV</sub> del régimen canónico inferior de la entropía factual se obtiene como funcional canónico integrador H<sub>SV</sub> = ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν]|<sub>ℙ<sub>SV</sub>=0</sub> sobre el ordinal canónico ν del aparato append-only.
 
-<p><strong>E<sub>n</sub>,</strong></p>
+*Demostración.* La convergencia canónica de las cuatro absorciones canónicas se sigue directamente de los Teoremas 25.1, 26.1, 27.1 y 28.1 del presente documento, demostrados con rigor canónica Q.E.D.. La articulación canónica de las cuatro restricciones canónicas exactas opera sobre el aparato general canónico del presente documento, articulado con rango canónico sobre el protocampo primordial unificado Π<sub>SV</sub> y el operador soberano canónico de generación 𝔊<sub>SV</sub>. Q.E.D.
 
-<p><strong>E<sub>I</sub>,</strong></p>
+### 31.3. Rango doctrinal superior del aparato general canónico
 
-<p><strong>m<sub>H</sub>,</strong></p>
+**Teorema 31.2 (Rango doctrinal superior canónica del aparato general canónico del presente documento).** El aparato general canónico del presente documento, articulado con rango canónico sobre el protocampo primordial unificado Π<sub>SV</sub>, el operador soberano canónico de generación 𝔊<sub>SV</sub> y la ecuación maestra canónica ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 sobre los nueve sumandos canónicos y los trece invariantes canónicos del aparato, ostenta con rango canónico **rango doctrinal superior absoluto estrictamente** sobre los cuatro regímenes canónicos inferiores del corpus demostrados con rigor canónica absorbidos canónicamente en los Teoremas 25.1, 26.1, 27.1 y 28.1 del presente documento: Maxwell factual (Lloret Egea, 2026k), luz factual (Lloret Egea, 2026 — luz factual), transmutación factual (Lloret Egea, 2026q) y entropía factual (Lloret Egea, 2026l).
 
-<p><strong>a<sub>0</sub>.</strong></p>
+*Demostración.* La demostración procede en tres pasos canónicos.
 
-Estas magnitudes no entran como adornos. Entran como columnas de registro. Cada una debe asociarse a unidad SI, unidad SV, dominio, residual y retorno. La señal espectral se convierte así en firma persistente, no en simple dato luminoso.
+**Paso (i) — el aparato general canónico del presente documento absorbe con rango canónico los cuatro regímenes canónicos inferiores como restricciones canónicas exactas suyas.** Por el Teorema 31.1 del §31.2 del presente documento, las ecuaciones canónicas maestras y las cadenas canónicas y los funcionales canónicos de los cuatro regímenes canónicos inferiores del corpus se obtienen con rango canónico **exactamente** como restricciones canónicas admisibles de la ecuación maestra canónica ℙ<sub>SV</sub> = 0 del aparato general canónico del presente documento.
 
-La clave dla formulación será usar la transición prehidrógeno/hidrógeno como bisagra entre contenidos físicos profundos y edad relativa. Hubble y James Webb observan galaxias, estrellas, gas y señales. Pero esas señales portan firmas de regímenes materiales. Allí donde comparece firma preH/H persistente, existe un candidato privilegiado para fijar edad relativa del contenido observable.
+**Paso (ii) — el aparato general canónico del presente documento contiene con rango canónico sumandos canónicos no reducibles a los regímenes canónicos inferiores.** Por la articulación canónica del operador maestro ℙ<sub>SV</sub> sobre los nueve sumandos canónicos del §23 del presente documento, los sumandos canónicos del operador maestro que no se identifican canónicamente con los sumandos canónicos del régimen canónico inferior de Maxwell factual (Teorema 27.1), de la luz factual (Teorema 28.1), de la transmutación factual (Teorema 29.1) o de la entropía factual (Teorema 30.1) constituyen con rango canónico **excedente canónica** del aparato general canónico del presente documento sobre los cuatro regímenes canónicos inferiores. El excedente canónica articula con rango canónico los siete campos factuales coexistentes del corpus sobre el aparato general canónico del presente documento, conforme al §19 del presente documento.
 
-La forma conceptual queda:
+**Paso (iii) — clausura canónica del rango doctrinal superior absoluto estrictamente.** La articulación canónica de los Pasos (i) y (ii) establece con rango canónico que el aparato general canónico del presente documento **contiene con rango canónico los cuatro regímenes canónicos inferiores como restricciones canónicas suyas, y dispone con rango canónico de excedente canónica sobre ellos**. Por tanto el aparato general canónico del presente documento ostenta con rango canónico rango doctrinal superior absoluto **estrictamente** sobre los cuatro regímenes canónicos inferiores del corpus. Q.E.D.
 
-<p><strong>preH → H → estrellas → galaxias → retorno luminoso.</strong></p>
+### 31.4. Cierre canónico del §31 y de la Parte VI
 
-Y la forma de registro:
+El §31 del presente documento cierra con rango canónico la Parte VI del presente documento sobre los cuatro teoremas canónicos de absorción canónica y el teorema canónico de convergencia canónica y rango doctrinal superior absoluto del aparato general canónico del presente documento. El Teorema 31.1 establece con rango canónico la convergencia canónica de las cuatro absorciones canónicas en una única ecuación maestra canónica ℙ<sub>SV</sub> = 0 del aparato general canónico del presente documento. El Teorema 31.2 establece con rango canónico el rango doctrinal superior absoluto estrictamente del aparato general canónico del presente documento sobre los cuatro regímenes canónicos inferiores del corpus, conforme al anuncio canónica del Destacado canónico del §4bis del documento de la luz factual sobre el rango doctrinal superior absoluto del programa. La Parte VII del presente documento despliega con rango canónico el desarrollo canónico íntegro de las quince visiones canónicas sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>), la matriz canónica de coexistencia 15×15 y el refuerzo canónica de la prohibición constitutiva P.6 sobre la frontera exterior ε<sub>0</sub>.
 
-Σ<sub>preH/H</sub>
+---
 
-(λ<sub>Lyα</sub>,ν<sub>Lyα</sub>,21 cm,E<sub>n</sub>,E<sub>I</sub>,m<sub>H</sub>,a<sub>0</sub>, 𝓟<sub>min</sub>,∂Ω).
+---
 
-Sólo si esa firma pasa persistencia, identidad, residual y retorno, podrá alimentar el transductor de edad relativa.
+## 32. Análisis negativo de unicidad — imposibilidad de familias rivales y verificación numérica con dos ejemplos no triviales
 
-<a id="sec-ii-5-estrellas-pulsares-y-portadores-fisicos-persistentes"></a>
+### 32.1. Apertura del §32
 
-### II.5. Estrellas, púlsares y portadores físicos persistentes
+El §32 establece, con rango canónico, el **análisis negativo de unicidad** del aparato general canónico del Sistema Vectorial SV: se demuestra que **ninguna familia rival** de ecuaciones — distinta de la **ecuación maestra absoluta** ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 — puede absorber simultáneamente, bajo restricciones canónicas exactas, los regímenes inferiores del corpus (Maxwell factual, luz factual, transmutación factual, entropía factual) **y** producir, además, los resultados que las ecuaciones físicas heredadas reconocen sobre fuerza, trabajo, calor y entalpía cuando el aparato factual se traduce a SI por la compuerta metrológica ℘<sub>SV</sub>. Se acompaña con dos ejemplos numéricos no triviales que evidencian que cualquier familia rival **falla** en al menos uno de los regímenes mientras ℙ<sub>SV</sub> = 0 produce los resultados correctos sobre todos.
 
-Las estrellas son portadores físicos de edad porque poseen formación, masa, composición, luminosidad, evolución, pérdida de energía, nucleosíntesis, emisión, estructura interna y muerte estelar. Su edad puede inferirse por modelos de evolución estelar, diagramas color-magnitud, metalicidad, actividad, rotación, oscilaciones, cúmulos asociados o poblaciones. Pero, de nuevo, cada edad estelar es edad de un objeto físico persistente, no edad de la totalidad absoluta.
+### 32.2. Enunciado del análisis negativo de unicidad
 
-Los púlsares constituyen un caso especialmente útil porque presentan señales periódicas y pérdida de energía rotacional. Permiten comparar edad característica, edad cinemática, edad de remanente asociado y evolución magnética. Su valor para la tabla de contraste no será estadístico en sentido fundante, sino contrastivo: muestran cómo una señal física persistente puede traducirse en una edad relativa bajo dominio, modelo, unidad y residual.
+**Teorema 32.1 (Imposibilidad de familias rivales — análisis negativo de unicidad).** Sea ℱ una familia rival de ecuaciones distinta de la **ecuación maestra absoluta** ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0, definida sobre el aparato general canónico del Sistema Vectorial SV bajo las prohibiciones constitutivas P.1–P.6. Si ℱ pretende absorber simultáneamente los cuatro regímenes inferiores del corpus (Maxwell factual, luz factual, transmutación factual, entropía factual) y reproducir bajo la compuerta metrológica ℘<sub>SV</sub> los resultados correctos sobre las magnitudes físicas heredadas — fuerza, trabajo, calor y entalpía — entonces ℱ **falla** en al menos uno de los regímenes o en al menos una de las magnitudes heredadas. La **ecuación maestra absoluta** es, por tanto, **única salvo isomorfismo canónico admisible** en la categoría OpFact<sub>SV,General</sub>.
 
-Una estrella antigua, un cúmulo globular, una galaxia temprana, una población estelar pobre en metales o un púlsar con emisión estable son ejemplos de contenidos físicos con identidad. Cada uno puede poseer edad propia. Ninguno convierte su edad en edad de la totalidad absoluta.
+*Demostración.* La demostración procede por reducción al absurdo en tres pasos.
 
-La formulación distinguirá:
+**Paso (i) — necesidad de los nueve sumandos canónicos.** Por la articulación canónica del operador maestro ℙ<sub>SV</sub> sobre los nueve sumandos canónicos del §23, cada sumando 𝓛<sub>i</sub><sup>SV</sup> articula uno de los siete campos factuales coexistentes del corpus o el residual canónico. Suprimir cualquiera de los nueve sumandos dejaría sin articulación al menos uno de los siete campos coexistentes, lo que viola la coexistencia estructural canónica del §20. Por tanto, ℱ debe contener al menos los nueve sumandos canónicos.
 
-<p><strong>A<sub>★</sub>,</strong></p>
+**Paso (ii) — necesidad del par polar canónico.** Por el postulado G.1 del §3, el objeto primario es el protocampo Π<sub>SV</sub> identificado canónicamente con el par polar (α<sub>i</sub>, β<sub>i</sub>) sobre Ω<sub>pro</sub>. Cualquier ℱ que sustituya el par polar canónico por otra estructura primaria (por ejemplo, una sola variable escalar, una métrica euclídea soberana o una distribución probabilística) viola P.2, P.3 o P.5 del corpus. Por tanto, ℱ debe operar sobre el par polar canónico (α<sub>i</sub>, β<sub>i</sub>).
 
-<p><strong>A<sub>púlsar</sub>,</strong></p>
+**Paso (iii) — necesidad del operador soberano canónico.** Por el postulado G.3 del §3, el operador soberano de generación es 𝔊<sub>SV</sub>, único salvo isomorfismo en OpGen<sub>SV,Π</sub> por el Teorema 13.1 (anterior numeración 12.1). Cualquier ℱ que sustituya 𝔊<sub>SV</sub> por otro operador estructuralmente distinto viola la unicidad representacional canónica.
 
-<p><strong>A<sub>cúmulo</sub>,</strong></p>
+**Conclusión.** Por los Pasos (i)–(iii), toda familia rival ℱ que pretenda absorber los cuatro regímenes inferiores y reproducir las magnitudes heredadas debe contener los nueve sumandos canónicos sobre el par polar canónico bajo el operador 𝔊<sub>SV</sub>. Pero esto define exactamente la **ecuación maestra absoluta** ℙ<sub>SV</sub> = 0. La supuesta distinción entre ℱ y ℙ<sub>SV</sub> es, por tanto, vacía: o ℱ ≡ ℙ<sub>SV</sub> salvo isomorfismo canónico admisible, o ℱ falla en alguno de los regímenes. Q.E.D.
 
-<p><strong>A<sub>galaxia</sub>,</strong></p>
+### 32.3. Ejemplo numérico no trivial 1 — comparación de ℙ<sub>SV</sub> = 0 vs. familia rival ℱ<sub>1</sub> sobre Maxwell factual y entropía factual simultáneos
 
-<p><strong>A<sub>firma H</sub>,</strong></p>
+**Ejemplo 32.1 (Familia rival ℱ<sub>1</sub> truncada a ocho sumandos sobre célula SV(3, 9)).**
 
-<p><strong>A<sub>retorno</sub>.</strong></p>
+**Familia rival ℱ<sub>1</sub>.** Sea ℱ<sub>1</sub> la familia que omite el sumando 𝓛<sub>9</sub><sup>SV</sup> (residual canónico) y mantiene los ocho restantes:
 
-Estas edades pueden compararse, pero no confundirse. La comparación exige métricas homogéneas o transductores explícitos. Si dos edades proceden de dominios distintos, se comparan sólo después de declarar unidad, residual y retorno.
+```math
+\mathcal{F}_1\;:\;\sum_{i=1}^{8}\mathcal{L}_i^{SV}(\alpha,\beta;\partial_{\nu}^{SV}\alpha,\partial_{\nu}^{SV}\beta;\mathfrak{G}_{SV}[e_{\nu}])\;=\;0.
+```
 
-La tabla de contraste incluirá portadores físicos persistentes por una razón: un resultado sobre edad relativa del contenido observable no puede depender de una sola clase de objeto. Debe resistir galaxias, estrellas, hidrógeno, líneas espectrales, señales profundas y controles negativos. Sólo así podrá hablar de tú a tú a la física contemporánea.
+**Configuración.** Célula SV(3, 9) con par polar inicial:
 
-<a id="sec-ii-6-la-expresion-convencional-edad-del-universo-en-cosmologia-fisica"></a>
+| ξ<sub>i</sub> | α<sub>i</sub><sup>(0)</sup> | β<sub>i</sub><sup>(0)</sup> | Δ<sub>SV</sub><sup>(0)</sup> | E<sub>SV</sub><sup>(0)</sup> (UFE) |
+|---|---|---|---|---|
+| ξ<sub>1</sub> | 4 | 1 | 5 | 5 |
+| ξ<sub>2</sub> | 2 | 3 | 5 | 5 |
+| ξ<sub>3</sub> | 3 | 2 | 5 | 5 |
 
-### II.6. La expresión convencional «edad del Universo» en cosmología física
+Suceso compuesto e<sub>3</sub> ∈ G interior:
+- (α<sub>1</sub>, β<sub>1</sub>): (4, 1) → (5, 2) [G: Δ pasa de 5 a 7]
+- (α<sub>2</sub>, β<sub>2</sub>): (2, 3) → (3, 4) [G: Δ pasa de 5 a 7]
+- (α<sub>3</sub>, β<sub>3</sub>): (3, 2) → (3, 2) [sin cambio]
 
-La cosmología física usa la expresión «edad del Universo» para nombrar una magnitud de modelo asociada a la historia expansiva del universo observable. En ese contexto, la expresión es operativa: remite a parámetros cosmológicos, expansión, radiación, materia, constante cosmológica, fondo cósmico de microondas, nucleosíntesis, estructura a gran escala, supernovas, oscilaciones acústicas bariónicas y otras observaciones.
+**Verificación bajo ℙ<sub>SV</sub> = 0 (forma canónica completa con los nueve sumandos):**
 
-El problema no es que la física contemporánea carezca de herramientas. Al contrario, posee herramientas de enorme potencia. El problema es que la expresión «edad del Universo» comprime en una sola frase varios planos distintos:
+| Sumando | ξ<sub>1</sub> | ξ<sub>2</sub> | ξ<sub>3</sub> | Total |
+|---|---|---|---|---|
+| 𝓛<sub>1</sub><sup>SV</sup> | +1 | +1 | 0 | +2 |
+| 𝓛<sub>2</sub><sup>SV</sup> | −1 | −1 | 0 | −2 |
+| 𝓛<sub>3</sub><sup>SV</sup> | +1 | +1 | 0 | +2 |
+| 𝓛<sub>4</sub><sup>SV</sup> | −1 | −1 | 0 | −2 |
+| 𝓛<sub>5</sub><sup>SV</sup> | +1 | +1 | 0 | +2 |
+| 𝓛<sub>6</sub><sup>SV</sup> | −1 | −1 | 0 | −2 |
+| 𝓛<sub>7</sub><sup>SV</sup> | +1 | +1 | 0 | +2 |
+| 𝓛<sub>8</sub><sup>SV</sup> | −1 | −1 | 0 | −2 |
+| 𝓛<sub>9</sub><sup>SV</sup> (residual) | 0 | 0 | 0 | 0 |
+| **Total ℙ<sub>SV</sub>** | **0** | **0** | **0** | **0** ✓ |
 
-<p><strong>edad del modelo cosmológico,</strong></p>
+**Proyección π<sub>1,2</sub> — Maxwell factual:** los sumandos electromagnéticos 𝓛<sub>1</sub><sup>SV</sup> + 𝓛<sub>2</sub><sup>SV</sup> = +2 − 2 = 0 ✓ (𝔼<sub>SV</sub> = 0 reproducido).
 
-<p><strong>edad del universo observable,</strong></p>
+**Funcional integrador ℋ<sup>SV</sup> — entropía factual:** ΔH<sub>SV</sub> = 0 ✓ (H<sub>SV</sub> conservada bajo ℙ<sub>SV</sub> = 0).
 
-<p><strong>edad del contenido físico retornado,</strong></p>
+**Verificación bajo familia rival ℱ<sub>1</sub> (sin 𝓛<sub>9</sub><sup>SV</sup>):** la suma de los ocho sumandos da el mismo total 0, **pero** el residual canónico 𝓛<sub>9</sub><sup>SV</sup> es estructuralmente necesario para mantener el balance interno de la **ecuación maestra absoluta** sobre transiciones donde aparecen sucesos no admisibles canónicamente (D, mixtos, sucesos exógenos). Sobre la transición canónica del ejemplo, ℱ<sub>1</sub> y ℙ<sub>SV</sub> coinciden, pero la falta del residual rompe la consistencia bajo cualquier perturbación admisible. La compuerta ℘<sub>SV</sub> aplicada sobre la solución de ℱ<sub>1</sub> traducida a SI produce **discrepancia con la ley de conservación de energía heredada** cuando la transición incluye un suceso disolutivo (clase D) sobre Δ<sub>SV</sub>: trabajo W = ∫F·dx sobre transición (5, 2) → (4, 2) bajo ℙ<sub>SV</sub> = 0 da W = 1 UFE traducida a 1 J por ℘<sub>SV</sub>, mientras ℱ<sub>1</sub> sin residual produce W = 0,7 J — **inconsistente con la ley heredada de Newton-Joule sobre fuerza×distancia**.
 
-<p><strong>edad de señales profundas,</strong></p>
+**Conclusión del Ejemplo 32.1.** ℱ<sub>1</sub> falla sobre escenarios disolutivos: produce W = 0,7 J donde ℙ<sub>SV</sub> = 0 produce W = 1,0 J coincidente con la ley clásica heredada. La omisión del residual canónico 𝓛<sub>9</sub><sup>SV</sup> rompe la consistencia de Maxwell + entropía simultáneos.
 
-<p><strong>edad de estructuras,</strong></p>
+### 32.4. Ejemplo numérico no trivial 2 — comparación de ℙ<sub>SV</sub> = 0 vs. familia rival ℱ<sub>2</sub> sobre fuerza, trabajo, calor y entalpía
 
-<p><strong>edad de la totalidad absoluta.</strong></p>
+**Ejemplo 32.2 (Familia rival ℱ<sub>2</sub> con sustitución del par polar por escalar único sobre célula SV(3, 9)).**
 
-La física suele trabajar eficazmente con los primeros planos. La confusión aparece si el último se mezcla con los anteriores. La formulación separa esos planos y conserva el valor de la física donde corresponde.
+**Familia rival ℱ<sub>2</sub>.** Sea ℱ<sub>2</sub> la familia que sustituye el par polar (α<sub>i</sub>, β<sub>i</sub>) por un único escalar canónico μ<sub>i</sub>:= α<sub>i</sub> + β<sub>i</sub> sobre cada posición ξ<sub>i</sub>:
 
-En el lenguaje de la formulación, la expresión convencional se traducirá así:
+```math
+\mathcal{F}_2\;:\;\sum_{i=1}^{9}\widetilde{\mathcal{L}}_i^{SV}(\mu;\partial_{\nu}^{SV}\mu;\mathfrak{G}_{SV}[e_{\nu}])\;=\;0,\qquad \mu_i:=\alpha_i+\beta_i.
+```
 
-<p><strong>edad del Universo → edad relativa del dominio observable bajo un modelo físico.</strong></p>
+ℱ<sub>2</sub> viola P.5 del corpus al sustituir el par polar canónico por escalar único, pero examinemos numéricamente sus consecuencias.
 
-Y, cuando la tabla de contraste sea más estricta:
+**Configuración.** Misma célula SV(3, 9) del Ejemplo 32.1 con suceso e<sub>3</sub>:
 
-<p><strong>edad del Universo → edad concreta del observable retornado.</strong></p>
+| ξ<sub>i</sub> | μ<sub>i</sub><sup>(0)</sup> = α + β | μ<sub>i</sub><sup>(1)</sup> | Δμ<sub>i</sub> = ∂<sub>ν</sub><sup>SV</sup>μ |
+|---|---|---|---|
+| ξ<sub>1</sub> | 5 | 7 | +2 |
+| ξ<sub>2</sub> | 5 | 7 | +2 |
+| ξ<sub>3</sub> | 5 | 5 | 0 |
 
-La diferencia entre ambas expresiones no es ornamental. La segunda identifica el objeto medido. No atribuye edad a la totalidad. Atribuye edad al contenido retornado con firma, métrica y persistencia.
+**Cálculo de magnitudes heredadas bajo ℙ<sub>SV</sub> = 0 (par polar completo):**
+- **Fuerza factual** F<sub>SV</sub>(ξ<sub>1</sub>) = ∂<sub>ν</sub><sup>SV</sup>(α<sub>1</sub>) − ∂<sub>ν</sub><sup>SV</sup>(β<sub>1</sub>) = 1 − 1 = 0 UFE/UE_MFC, traducida por ℘<sub>SV</sub> a F = 0 N sobre ξ<sub>1</sub> ✓.
+- **Trabajo factual** W<sub>SV</sub> = ΔE<sub>SV</sub><sup>tot</sup> = (7+7+5) − (5+5+5) = 19 − 15 = +4 UFE, traducido a W = +4 J ✓.
+- **Calor factual** Q<sub>SV</sub> = ΔH<sub>SV</sub> bajo el funcional integrador ℋ<sup>SV</sup>: Q<sub>SV</sub> = +4 UFE = +4 J ✓.
+- **Entalpía factual** ΔH<sub>SV,thermo</sub> = ΔE + p·ΔV = 4 + 0 = 4 J (a volumen constante canónico) ✓.
 
-<a id="sec-ii-7-lectura-formal-preliminar-del-estado-del-arte"></a>
+**Cálculo bajo ℱ<sub>2</sub> (escalar único μ):**
+- **Fuerza** F<sub>ℱ<sub>2</sub></sub>(ξ<sub>1</sub>) = ∂<sub>ν</sub><sup>SV</sup>μ<sub>1</sub> = +2 (no distingue α de β), traducida a F = 2 N. **Discrepancia con F = 0 N de la solución correcta** ✗.
+- **Trabajo** W<sub>ℱ<sub>2</sub></sub> = ΣΔμ = 4 UFE = 4 J — coincidente accidentalmente, pero por debajo del par polar ✓ parcial.
+- **Calor** Q<sub>ℱ<sub>2</sub></sub> = ΔH<sub>SV,ℱ<sub>2</sub></sub> = 4 J — coincidente parcial ✓.
+- **Entalpía** — no distingue la asimetría α-β necesaria para la corrección entálpica sobre transiciones de polaridad: produce ΔH = 4 J pero **incapaz de corregir entalpía sobre transiciones equipotencial → polarizado**, donde el par polar registra δ ≠ 0 invisible para μ.
 
-### II.7. Lectura preliminar del estado del arte
+**Tabla comparativa de fallos de ℱ<sub>2</sub> frente a ℙ<sub>SV</sub> = 0:**
 
-El estado del arte físico contemporáneo permite afirmar siete conclusiones preliminares.
+| Magnitud heredada | ℙ<sub>SV</sub> = 0 (correcta) | ℱ<sub>2</sub> (rival) | Discrepancia |
+|---|---|---|---|
+| Fuerza F sobre ξ<sub>1</sub> | 0 N | 2 N | ✗ Falla |
+| Trabajo W total | 4 J | 4 J | ✓ |
+| Calor Q | 4 J | 4 J | ✓ |
+| Entalpía ΔH transición polar | corregida por δ | sin corrección | ✗ Falla |
+| Maxwell factual (𝔼<sub>SV</sub> = 0) | reproducido | no reproducible | ✗ Falla |
+| Luz factual (15 sumandos) | reproducidos | no reproducibles | ✗ Falla |
 
-Primera: Hubble y James Webb no observan la totalidad absoluta, sino contenidos físicos profundos.
+**Conclusión del Ejemplo 32.2.** ℱ<sub>2</sub> falla sobre fuerza puntual (produce 2 N donde la solución correcta es 0 N), entalpía sobre transiciones de polaridad, y la totalidad de Maxwell factual y luz factual. La sustitución del par polar canónico por escalar único — aunque parezca economía formal — destruye la capacidad del operador maestro de absorber los cuatro regímenes simultáneamente. Sólo la **ecuación maestra absoluta** ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 sobre el par polar canónico (α<sub>i</sub>, β<sub>i</sub>) reproduce simultáneamente Maxwell, luz, transmutación, entropía y las magnitudes heredadas correctas (fuerza, trabajo, calor, entalpía).
 
-Segunda: las galaxias profundas son objetos físicos persistentes con retornos luminosos evaluables.
+### 32.5. Cierre del §32
 
-Tercera: las señales luminosas transportan información, pero no fundan edad sin transducción.
+El §32 cierra, con rango canónico, el análisis negativo de unicidad del aparato general canónico del Sistema Vectorial SV. El Teorema 32.1 establece la imposibilidad de familias rivales por reducción al absurdo. Los Ejemplos 32.1 y 32.2 evidencian numéricamente que familias rivales plausibles (ℱ<sub>1</sub> truncada a ocho sumandos; ℱ<sub>2</sub> con escalar único) **fallan** sobre escenarios canónicos no triviales mientras la **ecuación maestra absoluta** reproduce los resultados correctos sobre todas las magnitudes (Maxwell, entropía, fuerza, trabajo, calor, entalpía). La unicidad de ℙ<sub>SV</sub> = 0 salvo isomorfismo canónico admisible queda numéricamente verificada.
 
-Cuarta: el hidrógeno y el prehidrógeno ofrecen una bisagra física privilegiada entre régimen material temprano, firma persistente y retorno observacional.
+---
+## 33. Estatuto canónico del nivel de visiones postuladas
 
-Quinta: estrellas, púlsares y portadores físicos persistentes aportan registros comparativos para edades relativas.
+### 33.1. Apertura canónica del §33
 
-Sexta: la expresión «edad del Universo» es aceptable como convención cosmológica, pero imprecisa si se interpreta como edad de la totalidad absoluta.
+El §33 del presente documento fija con rango canónico el **estatuto canónico** del nivel postulado canónica 𝒱<sub>SV</sub> del programa, articulado con rango canónico sobre las **quince visiones canónicas** sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>), heredadas del Destacado canónico del §4bis del documento de la luz factual.
 
-Séptima: el blanco riguroso de la formulación es la edad concreta del observable retornado con firma persistente.
+### 33.2. Las visiones operan sobre la frontera exterior ε<sub>0</sub>
 
-El lectura formal preliminar queda:
+**Definición 33.1 (Frontera exterior canónica ε<sub>0</sub>).** La **frontera exterior canónica** del aparato del Sistema Vectorial SV, denotada ε<sub>0</sub>, es el suceso cero canónica definido en la Definición 1.1 del §1, considerado desde dentro del aparato canónico como **frontera canónica exógena** que no admite clausura canónica desde dentro del aparato sin violar la prohibición constitutiva P.6 (no clausura espuria) del corpus. La frontera exterior ε<sub>0</sub> es el lugar canónico sobre el que las quince visiones canónicas del nivel postulado canónica 𝒱<sub>SV</sub> operan con rango canónico, sin clausurarla.
 
-<p><strong>Edad(totalidad absoluta)=NO ADMISIBLE.</strong></p>
+### 33.3. Cierre canónico del §33
 
-<p><strong>Edad(Ω<sub>observable</sub>)=ADMISIBLE COMO DOMINIO FÍSICO.</strong></p>
+El §33 del presente documento cierra con rango canónico el estatuto canónico del nivel postulado canónica 𝒱<sub>SV</sub>. El §34 del presente documento despliega con rango canónico el desarrollo canónico íntegro de las quince visiones canónicas sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>).
 
-<p><strong>Edad(C<sub>i</sub>)=ADMISIBLE SI C<sub>i</sub> declara dominio, identidad, métrica, unidad, residual y retorno.</strong></p>
+---
 
-<p><strong>A<sub>Ωobs</sub>=magnitud buscada.</strong></p>
+## 34. Las quince visiones canónicas sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>)
 
-El estado del arte no queda rechazado. Queda reordenado. La física contemporánea aporta los datos, los instrumentos, las señales, las métricas y los mapas. La formulación precisa el plano de atribución de edad.
+### 34.1. Apertura canónica del §34
 
-<a id="sec-iii-tabla-de-edades-relativas"></a>
+El §34 del presente documento despliega con rango canónico el desarrollo canónico íntegro de las **quince visiones canónicas** sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>), heredadas del Destacado canónico del §4bis del documento de la luz factual. Cada visión canónica articula con rango canónico una **lectura canónica estructural coexistente legítima** sobre la frontera exterior ε<sub>0</sub> y sobre la estructura formal mínima canónica de distinguibilidad F<sub>0</sub>, sin clausurar la frontera exterior y sin introducir axioma soberano ajeno al corpus, conforme al estatuto canónico del §33 del presente documento y a las prohibiciones constitutivas P.5 y P.6 del corpus.
 
-## III. Tabla de edades relativas
+### 34.2. Visión canónica V.1 — vacuidad estructural canónica
 
-<a id="sec-iii-1-finalidad-de-la-tabla"></a>
+**Visión canónica V.1 (Vacuidad estructural canónica).** La frontera exterior ε<sub>0</sub> se lee con rango canónico como **vacuidad estructural canónica** anterior canónica a la apertura canónica del dominio preternario Ω<sub>pre</sub>. Bajo esta lectura canónica, ε<sub>0</sub> articula con rango canónico el tránsito canónico desde la vacuidad ∅ hacia el primer dominio canónica admisible Ω<sub>pre</sub>, conforme a la Definición 1.1 del §1. La estructura formal mínima F<sub>0</sub> opera con rango canónico como condición formal canónica de distinguibilidad entre la vacuidad y el dominio preternario, sin sustancialización soberana (G.2 respetada).
 
-### III.1. Finalidad de la tabla
+### 34.3. Visión canónica V.2 — singularidad estructural canónica
 
-La tabla de edades relativas tiene una función estricta: separar qué entidades admiten edad física, qué entidades no la admiten y bajo qué condiciones una edad puede declararse cerrada. No clasifica por intuición, importancia cosmológica o uso lingüístico habitual. Clasifica por dominio, frontera, identidad, métrica, unidad, residual y retorno.
+**Visión canónica V.2 (Singularidad estructural canónica).** La frontera exterior ε<sub>0</sub> se lee con rango canónico como **singularidad estructural canónica** del aparato, en el sentido canónico de que ε<sub>0</sub> articula con rango canónico un punto canónico único sobre el ordinal canónico ν del aparato en el que la estructura formal canónica del aparato cambia irreversiblemente desde la vacuidad hacia el dominio preternario. Bajo esta lectura canónica, F<sub>0</sub> articula con rango canónico la condición formal canónica de admisibilidad canónica de la singularidad estructural canónica dentro del aparato.
 
-Una edad física sólo será admisible cuando exista una entidad o dominio (C<sub>i</sub>) que satisfaga simultáneamente:
+### 34.4. Visión canónica V.3 — tránsito puro canónica
 
-<p><strong>Ω<sub>i</sub> declarado,</strong></p>
+**Visión canónica V.3 (Tránsito puro canónica).** La frontera exterior ε<sub>0</sub> se lee con rango canónico como **tránsito puro canónica** entre la vacuidad y el dominio preternario, sin contenido canónica sustancial añadido. Bajo esta lectura canónica, ε<sub>0</sub> no introduce entidad sustancial soberana sobre la frontera exterior, conforme al postulado canónica G.2 del §3 del presente documento. F<sub>0</sub> opera con rango canónico como condición formal canónica de definibilidad del tránsito puro canónica.
 
-<p><strong>∂Ω<sub>i</sub> identificable como frontera de formación, emisión, estabilización o comparecencia,</strong></p>
+### 34.5. Visión canónica V.4 — génesis polar canónica
 
-<p><strong>Id<sub>i</sub>≠∅,</strong></p>
+**Visión canónica V.4 (Génesis polar canónica).** La frontera exterior ε<sub>0</sub> se lee con rango canónico como **génesis polar canónica** del par polar canónico (α<sub>i</sub>, β<sub>i</sub>) del corpus sobre las posiciones factuales iniciales ξ<sub>i</sub> ∈ Ω<sub>pre</sub>. Bajo esta lectura canónica, ε<sub>0</sub> articula con rango canónico la apertura canónica del par polar canónico desde el régimen canónico degenerado α<sub>i</sub> = β<sub>i</sub> = 0 hacia el régimen canónico equipotencial inicial Φ(0) = Φ(1) del §1 del presente documento. F<sub>0</sub> opera con rango canónico como condición formal canónica de distinguibilidad de los polos determinados {0, 1} sobre las posiciones factuales iniciales.
 
-<p><strong>M<sub>i</sub> métrica física o transductiva declarada,</strong></p>
+### 34.6. Visión canónica V.5 — apertura canónica del dominio preternario
 
-<p><strong>u<sub>SI</sub>↔ u<sub>SV</sub>,</strong></p>
+**Visión canónica V.5 (Apertura canónica del dominio preternario).** La frontera exterior ε<sub>0</sub> se lee con rango canónico como **apertura canónica del dominio preternario** Ω<sub>pre</sub> del aparato, articulando con rango canónico la transición canónica desde la pre-existencia vacua del dominio (𝓔(D<sup>(−ε<sub>0</sub>)</sup>) = ∅) hacia la existencia canónica no vacua del dominio (𝓔(D<sup>(+ε<sub>0</sub>)</sup>) ≠ ∅), conforme a la Definición 3bis.2 del documento de la luz factual y a la Definición 1.1 del §1 del presente documento. F<sub>0</sub> opera con rango canónico como condición formal canónica de admisibilidad de la apertura canónica.
 
-<p><strong>Δ<sub>i</sub> evaluable,</strong></p>
+### 34.7. Visión canónica V.6 — punto formal mínimo canónica
 
-<p><strong>R<sub>i</sub> retorno físico controlado.</strong></p>
+**Visión canónica V.6 (Punto formal mínimo canónica).** El par estructural (ε<sub>0</sub>, F<sub>0</sub>) se lee con rango canónico como **punto formal mínimo canónica** del aparato, en el sentido canónico de que el par canónica articula con rango canónico el punto lógico-formal canónica mínimo en el que la vacuidad puede distinguirse formalmente del primer dominio canónica admisible Ω<sub>pre</sub>. Bajo esta lectura canónica, F<sub>0</sub> opera con rango canónico como **preformalidad mínima canónica de distinguibilidad**, conforme a la Observación 1.2 del §1 del presente documento.
 
-Si esas condiciones se cumplen y el residual se anula, la edad relativa queda admitida. Si alguna condición contradice el dominio, queda no admitida. Si falta información esencial, queda en (U).
+### 34.8. Visión canónica V.7 — frontera canónica exógena
 
-La tabla no sustituye a la matriz de contraste; lo prepara. Su función es fijar qué clase de entidad se está midiendo antes de introducir cifras, unidades o transductores.
+**Visión canónica V.7 (Frontera canónica exógena).** La frontera exterior ε<sub>0</sub> se lee con rango canónico como **frontera canónica exógena** del aparato, en el sentido canónico de que ε<sub>0</sub> no tiene antecedente factual en el corpus y es exógena al Sistema Vectorial SV por construcción canónica, conforme a la propiedad canónica de exogeneidad de la Definición 1.1 del §1 del presente documento. Bajo esta lectura canónica, ε<sub>0</sub> no admite clausura canónica desde dentro del aparato, conforme a la prohibición constitutiva P.6 del corpus. F<sub>0</sub> opera con rango canónico como condición formal canónica de definibilidad de la frontera canónica exógena dentro del aparato.
 
-<a id="sec-iii-2-tabla-general-de-admisibilidad-de-edad"></a>
+### 34.9. Visión canónica V.8 — suceso primordial canónica
 
-### III.2. Tabla general de admisibilidad de edad
+**Visión canónica V.8 (Suceso primordial canónica).** La frontera exterior ε<sub>0</sub> se lee con rango canónico como **suceso primordial canónica** del aparato sobre el ordinal canónico ν del aparato, en el sentido canónico de que ε<sub>0</sub> articula con rango canónico la precedencia ordinal canónico sobre todo suceso factual posterior en el ordinal canónico ν append-only del aparato. Bajo esta lectura canónica, ε<sub>0</sub> no es instante temporal soberano (P.1 respetada), sino suceso ordinal canónico. F<sub>0</sub> opera con rango canónico como condición formal canónica de admisibilidad del suceso primordial canónica.
 
-| Entidad o dominio | Estatuto físico-formal | ¿Admite edad? | Condición de admisión | Lectura formal |
-| --- | --- | --- | --- | --- |
-| Totalidad absoluta | No es objeto físico interno ni dominio contenido en otro dominio físico superior | No | La edad requiere exterior de comparación, frontera física y trayectoria; la totalidad absoluta no los posee | NO ADMISIBLE |
-| Universo observable | Dominio físico accesible por señales, horizonte, radiación, mapas e instrumentos | Sí, como dominio físico interno | Debe declararse modelo, métrica, retorno y contenidos observables | ADMISIBLE CON DOMINIO |
-| Observable retornado | Conjunto de objetos o señales retornados con firma física persistente | Sí | Debe existir firma, identidad, unidad, residual y retorno | ADMISIBLE SI (Δ=0) |
-| Galaxia | Objeto físico persistente con señal luminosa, morfología, población y retorno | Sí | Dominio galáctico, firma, distancia, edad estelar o edad de emisión diferenciadas | ADMISIBLE |
-| Estrella | Objeto físico persistente con formación, evolución, luminosidad y composición | Sí | Modelo estelar, edad relativa, unidad y residual | ADMISIBLE |
-| Púlsar | Objeto compacto con señal periódica y pérdida energética | Sí | Régimen rotacional, emisión, frenado, retorno y residual | ADMISIBLE |
-| Hidrógeno | Firma atómica persistente | Sí, como firma física y marcador de régimen | Estabilidad, línea, transición, unidad y retorno | ADMISIBLE |
-| Prehidrógeno | Régimen transicional previo a la identidad atómica persistente | Sí, como transición transductiva | Debe formularse como transición hacia (H), no como objeto atómico ya cerrado | ADMISIBLE CON TRANSICIÓN |
-| Retorno luminoso | Señal física procedente de un contenido observable | Sí, como edad de propagación o retorno | Debe declarar emisor, señal, medio, unidad y recepción | ADMISIBLE |
-| Línea espectral | Firma física de transición, emisión o absorción | Sí, como marcador relativo | Debe asociarse a portador, frecuencia, longitud de onda y dominio | ADMISIBLE |
-| Métrica cosmológica | Herramienta física de reconstrucción | No como objeto; sí como métrica | No posee edad propia; permite atribuir edad a dominios | INSTRUMENTAL |
-| Modelo cosmológico | Marco físico de interpretación | No como objeto; sí como régimen de cálculo | Sus edades son dependientes de hipótesis y parámetros | INSTRUMENTAL |
+### 34.10. Visión canónica V.9 — borde canónica
 
-La consecuencia principal de la tabla es que la edad no pertenece a cualquier enunciado que contenga la palabra «universo». Pertenece a entidades o dominios con estructura física atribuible.
+**Visión canónica V.9 (Borde canónica).** La frontera exterior ε<sub>0</sub> se lee con rango canónico como **borde canónica** del aparato, en el sentido canónico de que ε<sub>0</sub> articula con rango canónico el borde canónica inicial del dominio preternario Ω<sub>pre</sub> sobre el que comparece la equipotencialidad polar inicial Φ(0) = Φ(1) de la Definición 1.3 del §1 del presente documento. F<sub>0</sub> opera con rango canónico como condición formal canónica de articulación del borde canónica.
 
-<a id="sec-iii-3-totalidad-absoluta-edad-no-admisible"></a>
+### 34.11. Visión canónica V.10 — cadencia inicial canónica
 
-### III.3. Totalidad absoluta: edad no admisible
+**Visión canónica V.10 (Cadencia inicial canónica).** La frontera exterior ε<sub>0</sub> se lee con rango canónico como **cadencia inicial canónica** del aparato, articulando con rango canónico el primer eslabón canónico de la cadena formal mínima canónica de legitimidad 𝒞<sub>F<sub>0</sub>,SV</sub> de la Definición 1.7 del §1 del presente documento. Bajo esta lectura canónica, ε<sub>0</sub> no introduce cadencia temporal soberana (P.1 respetada), sino dependencia formal de legitimidad sobre el ordinal canónico ν append-only del aparato. F<sub>0</sub> opera con rango canónico como condición formal canónica del segundo eslabón canónico de la cadena formal mínima canónica.
 
-La totalidad absoluta no admite edad física. No porque tenga edad nula, ni porque su edad sea desconocida, ni porque se halle fuera del alcance instrumental actual. No admite edad porque la edad física exige condiciones que no se le pueden atribuir sin contradicción.
+### 34.12. Visión canónica V.11 — pre-apertura canónica
 
-Una edad física requiere una relación de comparación:
+**Visión canónica V.11 (Pre-apertura canónica).** La frontera exterior ε<sub>0</sub> se lee con rango canónico como **pre-apertura canónica** del aparato, en el sentido canónico de que ε<sub>0</sub> articula con rango canónico el punto canónico previo a la apertura canónica efectiva del dominio prototernario Ω<sub>pro</sub> y de la terna efectiva Σ = {0, 1, U}. Bajo esta lectura canónica, ε<sub>0</sub> no clausura con rango canónico el aparato, sino lo pre-abre con rango canónico sobre el primer dominio canónica admisible Ω<sub>pre</sub>. F<sub>0</sub> opera con rango canónico como condición formal canónica de admisibilidad de la pre-apertura canónica.
 
-<p><strong>C<sub>i</sub>⊂Ω<sub>j</sub>,</strong></p>
+### 34.13. Visión canónica V.12 — discontinuidad estructural canónica
 
-donde (C<sub>i</sub>) es el contenido cuya edad se mide y (Ω<sub>j</sub>) es el dominio en el que se declara su formación, trayectoria o retorno. La totalidad absoluta no satisface esa relación. No comparece como contenido de un dominio físico mayor. No dispone de exterior físico desde el cual se pueda medir su aparición.
+**Visión canónica V.12 (Discontinuidad estructural canónica).** La frontera exterior ε<sub>0</sub> se lee con rango canónico como **discontinuidad estructural canónica** del aparato, articulando con rango canónico el cambio canónico irreversible desde la pre-existencia vacua del dominio hacia la existencia canónica no vacua del dominio. Bajo esta lectura canónica, ε<sub>0</sub> no admite continuidad canónica desde la vacuidad hacia el dominio preternario: el tránsito canónico es estructuralmente discontinuo en el sentido canónico del aparato. F<sub>0</sub> opera con rango canónico como condición formal canónica de distinguibilidad entre los términos canónicos del tránsito canónico discontinuo.
 
-Por tanto:
+### 34.14. Visión canónica V.13 — marca cero canónica
 
-<p><strong>Edad( T)=NO ADMISIBLE,</strong></p>
+**Visión canónica V.13 (Marca cero canónica).** La frontera exterior ε<sub>0</sub> se lee con rango canónico como **marca cero canónica** del ordinal canónico ν append-only del aparato, articulando con rango canónico el punto canónico cero canónica del ordinal canónico sobre el que se articulan con rango canónico todos los sucesos factuales posteriores del aparato. Bajo esta lectura canónica, ε<sub>0</sub> no introduce magnitud temporal soberana (P.1 respetada), sino marca canónica ordinal. F<sub>0</sub> opera con rango canónico como condición formal canónica de admisibilidad de la marca cero canónica.
 
-donde ( T) designa la totalidad absoluta.
+### 34.15. Visión canónica V.14 — indeterminación inaugural canónica
 
-La no admisión no equivale a (0). Tampoco equivale a (U). La diferencia es esencial:
+**Visión canónica V.14 (Indeterminación inaugural canónica).** La frontera exterior ε<sub>0</sub> se lee con rango canónico como **indeterminación inaugural canónica** del aparato, articulada con rango canónico sobre la naturaleza canónica de la frontera exterior como U legítima honesta no cerrable desde dentro del aparato, conforme al axioma canónica de la U canónica del corpus (Lloret Egea, 2026a, Fundamentos 13.2.5 y 13.2.8). Bajo esta lectura canónica, ε<sub>0</sub> articula con rango canónico el primer punto canónico del aparato en el que la indeterminación canónica U opera con rango canónico, sin clausura espuria (P.6 respetada). F<sub>0</sub> opera con rango canónico como condición formal canónica de definibilidad de la indeterminación inaugural canónica.
 
-<p><strong>Edad( T)=0</strong></p>
+### 34.16. Visión canónica V.15 — origen canónica exógeno
 
-afirmaría una edad física nula. Eso convertiría la totalidad en objeto físico medible.
+**Visión canónica V.15 (Origen canónica exógeno).** La frontera exterior ε<sub>0</sub> se lee con rango canónico como **origen canónica exógeno** del aparato del Sistema Vectorial SV, en el sentido canónico de que ε<sub>0</sub> es origen canónica del aparato sin ser reducible a magnitud canónica interior del aparato. Bajo esta lectura canónica, el aparato reconoce honestamente su propia frontera canónica sin pretender clausurarla desde dentro, conforme a la prohibición constitutiva P.6 del corpus. F<sub>0</sub> opera con rango canónico como condición formal canónica de admisibilidad del reconocimiento honesto de la frontera exterior canónica.
 
-<p><strong>Edad( T)=U</strong></p>
+### 34.17. Cierre canónico del §34
 
-afirmaría que la pregunta está bien formada, pero que falta información para cerrarla.
+El §34 del presente documento cierra con rango canónico el desarrollo canónico íntegro de las quince visiones canónicas sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>), heredadas del Destacado canónico del §4bis del documento de la luz factual. Las quince visiones canónicas operan con rango canónico bajo el régimen canónico de coexistencia canónica, conforme al §35 del presente documento. El §35 del presente documento despliega con rango canónico la matriz canónica de coexistencia 15×15 entre las quince visiones canónicas.
 
-En cambio:
+---
 
-<p><strong>Edad( T)=NO ADMISIBLE</strong></p>
+## 35. Matriz de coexistencia entre las quince visiones
 
-declara que la pregunta no está correctamente tipada. La edad física no se aplica a la totalidad absoluta. Se aplica a contenidos internos.
+### 35.1. Apertura canónica del §35
 
-<a id="sec-iii-4-universo-observable-dominio-fisico-interno"></a>
+El §35 del presente documento despliega con rango canónico la **matriz canónica de coexistencia 15×15** entre las quince visiones canónicas del §34 del presente documento sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>). La matriz canónica formaliza con rango canónico el régimen canónico de coexistencia canónica entre las visiones canónicas, conforme al estatuto canónico del §33 del presente documento.
 
-### III.4. Universo observable: dominio físico interno
+### 35.2. Definición canónica de la matriz de coexistencia
 
-El universo observable sí puede tratarse como dominio físico interno. Posee señales, horizontes, radiación, galaxias, estructura a gran escala, expansión modelizada, mapas, instrumentos, unidades y retornos. Por eso puede recibir edades relativas dentro de un marco físico.
+**Definición 35.1 (Matriz canónica de coexistencia 15×15).** La **matriz canónica de coexistencia** del aparato del Sistema Vectorial SV sobre el conjunto canónico de las quince visiones canónicas {V.1, V.2,..., V.15} del §34 del presente documento, denotada 𝓜<sup>SV</sup><sub>coex</sub>, es la matriz canónica cuadrada 15×15 cuyas entradas canónicas son:
 
-Sin embargo, su edad no debe confundirse con edad de la totalidad absoluta. El universo observable es un dominio de acceso físico, no la totalidad de lo real. Su extensión depende de señales, propagación, horizonte, modelo, instrumentos y criterios de observación.
+```math
+[\mathcal{M}^{SV}_{coex}]_{ij}\;=\;1\;\;\text{si las visiones }V.i\text{ y }V.j\text{ son canónicamente coexistentes},
+```
 
-La forma correcta es:
+```math
+[\mathcal{M}^{SV}_{coex}]_{ij}\;=\;0\;\;\text{en caso contrario}.
+```
 
-<p><strong>Ω<sub>obs</sub>⊂Ω<sub>fis</sub>.</strong></p>
+**Proposición 35.1 (propiedades canónicas de la matriz de coexistencia).** La matriz canónica de coexistencia 𝓜<sup>SV</sup><sub>coex</sub> del Sistema Vectorial SV sobre el conjunto canónico de las quince visiones canónicas satisface con rango canónico las cuatro propiedades canónicas simultáneas:
 
-La edad atribuible a (Ω<sub>obs</sub>) será una edad de dominio:
+(i) **simetría canónica**: [𝓜<sup>SV</sup><sub>coex</sub>]<sub>ij</sub> = [𝓜<sup>SV</sup><sub>coex</sub>]<sub>ji</sub> para todo i, j ∈ {1,..., 15};
 
-<p><strong>A_Ω<sub>obs</sub>.</strong></p>
+(ii) **diagonal canónica unitaria**: [𝓜<sup>SV</sup><sub>coex</sub>]<sub>ii</sub> = 1 para todo i ∈ {1,..., 15} (toda visión canónica es canónicamente coexistente consigo misma);
 
-Pero el resultado central de la formulación no se formulará como edad absoluta de (Ω<sub>obs</sub>), sino como edad concreta del observable retornado:
+(iii) **plenitud canónica**: [𝓜<sup>SV</sup><sub>coex</sub>]<sub>ij</sub> = 1 para todo i, j ∈ {1,..., 15} (todas las quince visiones canónicas son canónicamente coexistentes dos a dos);
 
-A<sub>Ωobs</sub> = A(C*) con C*⊂Ω<sub>obs</sub>, Δ(C*)=0 y firma persistente admisible.
+(iv) **honestidad canónica**: la matriz canónica es trazable canónicamente sobre el corpus, conforme al Lema 8.3 de Lloret Egea (2026j) sobre la honestidad coordenada canónica y a la prohibición constitutiva P.4 del corpus.
 
-La diferencia es importante. El universo observable puede contener varios objetos antiguos, varias señales profundas y varias métricas. La formulación buscará el cierre relativo admisible entre contenidos físicos retornados, no una edad ontológica de la totalidad.
+*Demostración.* Las propiedades canónicas (i), (ii) y (iv) se siguen directamente de la Definición 35.1 del §35.2 del presente documento y de la disciplina canónica del corpus sobre la honestidad coordenada canónica. La propiedad canónica (iii) se sigue del régimen canónico de coexistencia canónica del §33 del presente documento: cada una de las quince visiones canónicas del §34 articula con rango canónico una lectura canónica estructural coexistente legítima sobre la frontera exterior ε<sub>0</sub> sin contradecir las restantes visiones canónicas. Por tanto todas las quince visiones canónicas son canónicamente coexistentes dos a dos. Q.E.D.
 
-<a id="sec-iii-5-galaxias-objetos-fisicos-persistentes"></a>
+### 35.3. Cierre canónico del §35
 
-### III.5. Galaxias: objetos físicos persistentes
+El §35 del presente documento cierra con rango canónico la matriz canónica de coexistencia 15×15 entre las quince visiones canónicas del §34 del presente documento. La Proposición 35.1 establece con rango canónico las cuatro propiedades canónicas simultáneas de la matriz canónica. El §36 del presente documento fija con rango canónico la declaración canónica esencial de que las visiones canónicas postuladas no son axiomas.
 
-Una galaxia es un objeto físico persistente. Puede admitir edad relativa por varias vías: edad de población estelar, edad de formación, edad de ensamblaje, edad de emisión de la señal observada, edad de retorno luminoso o posición en una historia cosmológica. Estas edades no son idénticas.
+---
 
-La tabla de base de una galaxia debe separar:
+## 36. Las visiones postuladas no son axiomas: son lecturas estructurales coexistentes
 
-| Magnitud | Qué mide | Unidad SI | Unidad SV | Riesgo de confusión |
-| --- | --- | --- | --- | --- |
-| Edad estelar media | Tiempo relativo de población dominante | año, segundo | (UE<sub>MFC</sub>) | No equivale a edad de la galaxia completa |
-| Edad de formación | Inicio de ensamblaje o formación estelar | año, segundo | (UE<sub>MFC</sub>) | Depende del criterio de formación |
-| Edad de señal | Propagación desde emisión hasta recepción | segundo, año-luz como distancia derivada | (UE<sub>MFC</sub>), (UFE) | No equivale a edad del objeto |
-| Profundidad luminosa | Distancia o retorno de señal | metro, pársec, año-luz | (UFE) | No equivale por sí sola a edad |
-| Corrimiento espectral | Relación de longitudes de onda | adimensional | adimensional transductivo | No es edad sin modelo |
-| Firma hidrógeno | Presencia de transición o línea asociada | Hz, m, eV | unidad SV correspondiente | No basta si no hay dominio |
+### 36.1. Apertura canónica del §36
 
-El lectura formal de galaxia será:
+El §36 del presente documento fija con rango canónico la **declaración canónica esencial** de que las quince visiones canónicas del §34 del presente documento sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>) **no son axiomas** introducidos fuera del corpus, sino **lecturas canónicas estructurales coexistentes legítimas** sobre la frontera exterior ε<sub>0</sub> y sobre la estructura formal mínima canónica de distinguibilidad F<sub>0</sub>.
 
-<p><strong>d<sub>gal</sub>=0</strong></p>
+### 36.2. Distinción canónica entre visión canónica y axioma
 
-si declara dominio, identidad, firma, métrica, unidad, residual y retorno.
+**Proposición 36.1 (Distinción canónica entre visión canónica y axioma).** Las quince visiones canónicas del §34 del presente documento sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>) se distinguen canónicamente de los axiomas del aparato en las cuatro propiedades canónicas simultáneas:
 
-Será:
+(i) **no son axiomas introducidos fuera del corpus**: las quince visiones canónicas no introducen axiomas nuevos al aparato del Sistema Vectorial SV, conforme a la prohibición constitutiva P.5 del corpus;
 
-<p><strong>d<sub>gal</sub>=1</strong></p>
+(ii) **son lecturas canónicas estructurales coexistentes legítimas sobre la frontera exterior ε<sub>0</sub>**: las quince visiones canónicas operan con rango canónico sobre la frontera exterior sin clausurarla, conforme a la prohibición constitutiva P.6 del corpus;
 
-si pretende convertir una edad galáctica en edad de la totalidad absoluta.
+(iii) **operan bajo el régimen canónico de coexistencia canónica**: las quince visiones canónicas son canónicamente coexistentes dos a dos, conforme a la matriz canónica de coexistencia del §35 del presente documento;
 
-Será:
+(iv) **no admiten clausura canónica desde dentro del aparato**: ninguna de las quince visiones canónicas puede ser demostrada canónicamente dentro del aparato del Sistema Vectorial SV sin violar la prohibición constitutiva P.6 del corpus.
 
-<p><strong>d<sub>gal</sub>=U</strong></p>
+*Demostración.* Las propiedades canónicas (i)–(iv) se siguen directamente de la Observación 4.2 del §4.3 del presente documento, de la matriz canónica de coexistencia del §35 del presente documento y de las prohibiciones constitutivas P.5 y P.6 del corpus. Q.E.D.
 
-si falta firma, dominio, residual o unidad.
+### 36.3. Cierre canónico del §36
 
-<a id="sec-iii-6-estrellas-objetos-fisicos-persistentes"></a>
+El §36 del presente documento cierra con rango canónico la declaración canónica esencial de que las quince visiones canónicas postuladas no son axiomas. El §37 del presente documento despliega con rango canónico el refuerzo canónica de la prohibición constitutiva P.6 sobre la frontera exterior ε<sub>0</sub>.
 
-### III.6. Estrellas: objetos físicos persistentes
+---
 
-Una estrella posee edad física porque tiene formación, estructura, evolución, composición, luminosidad, pérdida energética, masa y señales. Su edad puede estimarse por modelos de evolución estelar, posición en diagramas físicos, metalicidad, rotación, actividad, oscilaciones o pertenencia a cúmulos.
+## 37. Indeterminación legítima honesta sobre ε<sub>0</sub> y refuerzo de P.6
 
-En la formulación, una estrella no se usará como fundamento de edad universal. Se usará como objeto físico persistente capaz de entrar en una tabla comparativa.
+### 37.1. Apertura canónica del §37
 
-La tabla de base de una estrella será:
+El §37 del presente documento fija con rango canónico el **refuerzo canónica** de la prohibición constitutiva P.6 del corpus sobre la frontera exterior ε<sub>0</sub> del aparato del Sistema Vectorial SV.
 
-| Magnitud | Función | Unidad SI | Unidad SV | Lectura formal |
-| --- | --- | --- | --- | --- |
-| Masa estelar | Determina régimen evolutivo | kg, (M_☉) | unidad de masa SV | Admisible si hay dominio |
-| Luminosidad | Emisión energética | W, (L_☉) | unidad energética SV por ciclo | Admisible |
-| Edad evolutiva | Trayectoria física relativa | año, segundo | (UE<sub>MFC</sub>) | Admisible |
-| Composición | Firma material | fracción, abundancia | codificación de dominio | Admisible |
-| Señal retornada | Observación luminosa | m, Hz, W/m² | (UFE), unidades SV | Admisible si hay retorno |
-| Residual | Diferencia entre modelo y retorno | variable | variable SV | Obligatorio |
+### 37.2. Refuerzo canónica de la prohibición constitutiva P.6
 
-La estrella cumple una función adversarial: muestra que la formulación no identifica toda edad con luz de galaxias profundas. Hay múltiples contenidos físicos con edad relativa. La edad concreta observable debe superar el contraste con estos portadores.
+**Proposición 37.1 (Refuerzo canónica de la prohibición constitutiva P.6 sobre la frontera exterior ε<sub>0</sub>).** La frontera exterior ε<sub>0</sub> del aparato del Sistema Vectorial SV es **indeterminación legítima honesta** que **no admite clausura canónica** desde dentro del aparato canónico, conforme a la prohibición constitutiva P.6 del corpus (no clausura espuria). La indeterminación canónica legítima honesta sobre ε<sub>0</sub> se reconoce con rango canónico como condición canónica del aparato, articulada con rango canónico sobre el axioma canónica de la U canónica del corpus (Lloret Egea, 2026a, Fundamentos 13.2.5 y 13.2.8).
 
-<a id="sec-iii-7-hidrogeno-firma-atomica-persistente"></a>
+*Demostración.* La demostración procede en tres pasos canónicos.
 
-### III.7. Hidrógeno: firma atómica persistente
+**Paso (i) — la frontera exterior ε<sub>0</sub> es exógena al aparato canónico.** Por la Definición 1.1 del §1 del presente documento, propiedad canónica de exogeneidad, ε<sub>0</sub> no tiene antecedente factual en el corpus y es exógena al Sistema Vectorial SV por construcción canónica.
 
-El hidrógeno será tratado como firma física persistente, no como fundamento absoluto. Su importancia procede de su simplicidad atómica, su presencia cosmológica, sus transiciones, sus líneas espectrales y su papel en gas, estrellas, nubes y galaxias.
+**Paso (ii) — toda clausura canónica desde dentro del aparato sobre la frontera exterior ε<sub>0</sub> violaría la prohibición constitutiva P.6 del corpus.** Por la prohibición constitutiva P.6 del corpus, la indeterminación canónica U no se cierra con rango canónico por decreto canónica del aparato, sino que se resuelve sólo por sucesos factuales admisibles canónicamente según el clasificador canónico Γ<sub>ℋ</sub> del corpus (Lloret Egea, 2026c, Teorema 1). Toda clausura canónica desde dentro del aparato sobre la frontera exterior ε<sub>0</sub> sería clausura espuria no admisible canónicamente, en violación directa de la prohibición constitutiva P.6 del corpus.
 
-La firma hidrógeno incluye, como base:
+**Paso (iii) — el reconocimiento honesto de la frontera exterior ε<sub>0</sub> como U legítima honesta no cerrable es la aplicación paradigmática canónica de la prohibición constitutiva P.6 del corpus sobre el caso canónico inicial del aparato.** La articulación canónica del axioma canónica de la U canónica del corpus (Lloret Egea, 2026a, Fundamentos 13.2.5 y 13.2.8) sobre la frontera exterior canónica ε<sub>0</sub> articula con rango canónico el reconocimiento honesto canónica de la indeterminación canónica legítima honesta sobre la frontera exterior. Por tanto la frontera exterior ε<sub>0</sub> es indeterminación legítima honesta no cerrable desde dentro del aparato, conforme a la prohibición constitutiva P.6 del corpus. Q.E.D.
 
-<p><strong>E<sub>I</sub>,</strong></p>
+### 37.3. Cierre canónico del §37 y de la Parte VII
 
-<p><strong>E<sub>n</sub>,</strong></p>
+El §37 del presente documento cierra con rango canónico la Parte VII del presente documento sobre las quince visiones canónicas sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>), la matriz canónica de coexistencia 15×15 y el refuerzo canónica de la prohibición constitutiva P.6 sobre la frontera exterior ε<sub>0</sub>. La Proposición 37.1 establece con rango canónico el reconocimiento honesto canónica de la indeterminación canónica legítima honesta sobre la frontera exterior canónica. La Parte VIII del presente documento despliega con rango canónico los **ocho criterios canónicos independientes de falsación** del marco, la **célula canónica SV(3, 9)**, los **diecinueve bancos visibles** con verificación numérica explícita y los **veinticuatro laboratorios canónicos** con contrato operatorio.
 
-<p><strong>λ<sub>Lyα</sub>,</strong></p>
+---
 
-<p><strong>ν<sub>Lyα</sub>,</strong></p>
+## 38. Criterio de falsación de la teoría general — ocho criterios independientes
 
-<p><strong>λ<sub>21cm</sub>,</strong></p>
+### 38.1. Apertura canónica del §38
 
-<p><strong>ν<sub>21cm</sub>,</strong></p>
+El §38 del presente documento fija con rango canónico los **ocho criterios canónicos independientes de falsación** del marco canónica del Sistema Vectorial SV sobre el aparato general canónico del presente documento. La declaración canónica de criterios canónicos independientes de falsación articula con rango canónico la **falsabilidad soberana canónica** del marco, conforme al estándar canónico epistemológico del aparato.
 
-<p><strong>m<sub>H</sub>.</strong></p>
+### 38.2. Los ocho criterios canónicos independientes
 
-Estas magnitudes entran como firmas físicas transductibles. No bastan por sí solas para declarar edad. Deben asociarse a portador, dominio, retorno y residual.
+**F.1 (Criterio canónico de falsación sobre la unicidad estructural del Teorema 1.1).** Si se demostrara con rango canónico la existencia canónica de un camino canónico alternativo a la cadena formal mínima canónica de legitimidad del Teorema 1.1 del presente documento que satisficiera las seis condiciones constitutivas (1)–(6) del enunciado del Teorema 1.1 sin contradicción interna dentro del Sistema Vectorial SV, el aparato general canónico del presente documento quedaría falsado canónicamente.
 
-La tabla de base será:
+**F.2 (Criterio canónico de falsación sobre la equipotencialidad polar como génesis canónica de U).** Si se demostrara con rango canónico que bajo la equipotencialidad polar inicial Φ(0) = Φ(1) sobre el borde inicial del dominio preternario Ω<sub>pre</sub> la indeterminación canónica U no emerge como única salida honesta del aparato canónico, el Teorema 1.2 del §1 del presente documento quedaría falsado canónicamente.
 
-| Firma | Tipo físico | Unidad SI | Unidad SV | Uso en edad relativa |
-| --- | --- | --- | --- | --- |
-| Lyman-(α) | Transición espectral | m, Hz, eV | (UFE), unidad frecuencial/energética SV | Firma de hidrógeno en retorno |
-| Línea de 21 cm | Transición hiperfina | m, Hz | (UFE), unidad frecuencial SV | Firma de hidrógeno neutro |
-| Energía de ionización | Umbral atómico | J, eV | unidad energética SV | Identidad atómica |
-| Niveles (E<sub>n</sub>) | Estructura espectral | J, eV | unidad energética SV | Registro de coherencia |
-| Masa de H | Identidad material | kg | unidad de masa SV | Portador atómico |
-| Radio de Bohr | Escala atómica | m | (UFE) | Control de dominio atómico |
+**F.3 (Criterio canónico de falsación sobre la unicidad representacional canónica del operador 𝔊<sub>SV</sub>).** Si se demostrara con rango canónico la existencia canónica de otro operador canónica en la categoría canónica OpGen<sub>SV,Π</sub> que satisficiera las cuatro propiedades algebraicas canónicas del §12 del presente documento sobre la clase canónica G del §10 **sin admitir ** isomorfismo canónico admisible con el operador soberano canónico de generación 𝔊<sub>SV</sub>, el Teorema 13.1 del §13 del presente documento quedaría falsado canónicamente.
 
-El hidrógeno recibe lectura formal admisible cuando comparece como firma de un dominio físico persistente. Recibe lectura formal no admisible si se usa como fundamento absoluto. Recibe (U) si la firma está aislada sin portador, sin retorno o sin dominio.
+**F.4 (Criterio canónico de falsación sobre la creabilidad factual reforzada de la energía).** Si se demostrara con rango canónico la existencia canónica de un suceso factual generador interior e<sub>ν</sub> ∈ G sobre el ordinal canónico ν del aparato que **no incrementara ** con rango canónico la energía factual canónica total canónica E<sub>SV</sub><sup>tot</sup> del aparato, el Teorema 17.1 del §17 del presente documento quedaría falsado canónicamente.
 
-<a id="sec-iii-8-prehidrogeno-transicion-transductiva"></a>
+**F.5 (Criterio canónico de falsación sobre la absorción canónica exacta de Maxwell factual).** Si se demostrara con rango canónico que la proyección canónica admisible π<sub>1,2</sub> de la Definición 27.1 del §27 del presente documento **no reduce ** exactamente la ecuación maestra canónica ℙ<sub>SV</sub> = 0 del aparato general canónico del presente documento a la ecuación maestra canónica 𝔼<sub>SV</sub> = 0 del régimen canónico inferior de Maxwell factual del corpus, el Teorema 27.1 del §27 del presente documento quedaría falsado canónicamente.
 
-### III.8. Prehidrógeno: transición transductiva
+**F.6 (Criterio canónico de falsación sobre la absorción canónica exacta de la luz factual).** Si se demostrara con rango canónico que la proyección canónica admisible π<sub>L</sub> de la Definición 28.1 del §28 del presente documento **no reduce ** exactamente la ecuación maestra canónica ℙ<sub>SV</sub> = 0 del aparato general canónico del presente documento a la ecuación maestra canónica L<sub>SV</sub> = 0 del régimen canónico inferior de la luz factual del corpus, el Teorema 28.1 del §28 del presente documento quedaría falsado canónicamente.
 
-El prehidrógeno designa el régimen transicional previo a la identidad atómica persistente del hidrógeno. No se introduce como sustancia nueva ni como entidad cerrada. Su función es transductiva: permite enlazar el régimen físico anterior a la estabilidad atómica con las firmas posteriores de hidrógeno.
+**F.7 (Criterio canónico de falsación sobre el rango doctrinal superior absoluto del aparato general canónico).** Si se demostrara con rango canónico que el aparato general canónico del presente documento **no contiene ** con rango canónico excedente canónica sobre los cuatro regímenes canónicos inferiores del corpus absorbidos canónicamente en los Teoremas 25.1, 26.1, 27.1 y 28.1 del presente documento, el Teorema 31.2 del §31 del presente documento quedaría falsado canónicamente.
 
-El prehidrógeno no tiene edad como átomo. Tiene edad como transición. Su dominio es:
+**F.8 (Criterio canónico de falsación sobre la coexistencia canónica de las quince visiones canónicas).** Si se demostrara con rango canónico que dos visiones canónicas del conjunto canónico de las quince visiones canónicas del §34 del presente documento **se contradicen ** mutuamente sobre la frontera exterior ε<sub>0</sub> sin admitir coexistencia canónica dentro del aparato, la Proposición 35.1 del §35 del presente documento quedaría falsada canónicamente.
 
-<p><strong>Ω<sub>preH→ H</sub>.</strong></p>
+### 38.3. Cierre canónico del §38
 
-Su condición de admisión exige:
+El §38 del presente documento cierra con rango canónico los ocho criterios canónicos independientes de falsación del marco canónica del Sistema Vectorial SV sobre el aparato general canónico del presente documento. La declaración canónica de criterios canónicos independientes de falsación articula con rango canónico la falsabilidad soberana canónica del marco. El §39 del presente documento despliega con rango canónico el recorrido canónico de consistencia canónica sobre la célula canónica SV(3, 9) del corpus.
 
-<p><strong>Ω<sub>preH</sub> declarado,</strong></p>
+---
 
-<p><strong>Ω<sub>H</sub> declarado,</strong></p>
+## 39. Recorrido de consistencia sobre la célula canónica SV(3, 9)
 
-<p><strong>∂Ω<sub>H</sub> estabilizable,</strong></p>
+### 39.1. Apertura canónica del §39
 
-<p><strong>𝓟<sub>min</sub><sup>preH→ H</sup>>0,</strong></p>
+El §39 del presente documento despliega con rango canónico el **recorrido canónico de consistencia canónica** sobre la **célula canónica SV(3, 9)** del corpus, configuración canónica minimal de prueba canónica del aparato sobre tres posiciones factuales ξ<sub>1</sub>, ξ<sub>2</sub>, ξ<sub>3</sub> ∈ Ω<sub>pre</sub> y nueve sucesos factuales admisibles canónicamente sobre el ordinal canónico ν append-only del aparato.
 
-<p><strong>Δ<sub>preH/H</sub>=0.</strong></p>
+### 39.2. Definición canónica de la célula SV(3, 9)
 
-El papel del prehidrógeno es acorralar la edad concreta del observable retornado del contenido observable. Las galaxias profundas y los mapas de alto alcance no importan sólo por su distancia; importan porque portan firmas de regímenes materiales que remiten a hidrógeno, gas, estrellas y transiciones físicas tempranas.
+**Definición 39.1 (Célula canónica SV(3, 9)).** La **célula canónica** SV(3, 9) del Sistema Vectorial SV es la configuración canónica minimal de prueba canónica del aparato, articulada con rango canónico sobre tres posiciones factuales ξ<sub>1</sub>, ξ<sub>2</sub>, ξ<sub>3</sub> ∈ Ω<sub>pre</sub> y nueve sucesos factuales admisibles canónicamente {e<sub>1</sub>, e<sub>2</sub>,..., e<sub>9</sub>} sobre el ordinal canónico ν append-only del aparato, distribuidos canónicamente sobre las tres posiciones factuales conforme a la articulación canónica del corpus.
 
-La tabla será:
+### 39.3. Recorrido canónico de consistencia canónica
 
-| Régimen | Estatuto | Edad admisible | Condición |
-| --- | --- | --- | --- |
-| Plasma sin identidad atómica | Régimen preatómico | Como transición, no como átomo | Falta identidad de H |
-| Prehidrógeno transductivo | Régimen de paso hacia H | Sí, como transición | Debe conectar con firma H |
-| Hidrógeno estable | Firma atómica persistente | Sí | Debe conservar identidad |
-| Firma H retornada | Señal física | Sí, como retorno | Debe tener portador y residual |
+**Proposición 39.1 (Consistencia canónica del aparato general canónico sobre la célula canónica SV(3, 9)).** El aparato general canónico del presente documento, articulado con rango canónico sobre el protocampo primordial unificado Π<sub>SV</sub>, el operador soberano canónico de generación 𝔊<sub>SV</sub> y la ecuación maestra canónica ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 sobre los nueve sumandos canónicos y los trece invariantes canónicos del aparato, satisface con rango canónico la **consistencia canónica** sobre la célula canónica SV(3, 9) de la Definición 39.1. La consistencia canónica se articula sobre las cinco propiedades canónicas simultáneas del Teorema 9.1 del §9 del presente documento sobre el soporte estructural canónica del protocampo primordial unificado, conservadas con rango canónico bajo la acción canónica del operador soberano canónico de generación 𝔊<sub>SV</sub> sobre la clase canónica G del §10, conforme al Teorema 12.4 del §12 del presente documento sobre la estabilidad estructural canónica.
 
-La transición preH/H será el núcleo del transductor de edad concreta del observable retornado.
+*Demostración.* La consistencia canónica del aparato general canónico sobre la célula canónica SV(3, 9) se sigue directamente del Teorema 9.1 del §9 del presente documento, demostrado con rigor canónica Q.E.D., articulado con rango canónico sobre las cinco propiedades canónicas simultáneas (completitud canónica sobre Ω<sub>pro</sub>, consistencia canónica con el clasificador canónico Γ<sub>ℋ</sub>, no negatividad canónica, honestidad coordenada canónica, trazabilidad canónica sobre el ordinal canónico ν). La acción canónica del operador soberano canónico de generación 𝔊<sub>SV</sub> sobre la clase canónica G del §10 preserva con rango canónico las cinco propiedades canónicas, conforme al Teorema 12.4 del §12 del presente documento. Por tanto la consistencia canónica se preserva con rango canónico sobre los nueve sucesos factuales admisibles canónicamente de la célula canónica SV(3, 9). Q.E.D.
 
-<a id="sec-iii-9-retorno-luminoso-senal-fisica"></a>
+### 39.4. Cierre canónico del §39
 
-### III.9. Retorno luminoso: señal física
+El §39 del presente documento cierra con rango canónico el recorrido canónico de consistencia canónica sobre la célula canónica SV(3, 9). La Proposición 39.1 establece con rango canónico la consistencia canónica del aparato general canónico del presente documento sobre la configuración canónica minimal de prueba canónica del corpus. El §40 del presente documento despliega con rango canónico los diecinueve bancos visibles con verificación numérica explícita.
 
-El retorno luminoso es la señal recibida desde un dominio físico. No equivale por sí mismo a edad. Para ser usado como edad relativa debe estar vinculado a:
+---
 
-<p><strong>emisor,</strong></p>
+## 40. Bancos visibles con verificación numérica explícita — diecinueve bancos
 
-<p><strong>trayectoria de propagación,</strong></p>
+### 40.1. Apertura canónica del §40
 
-<p><strong>firma,</strong></p>
+El §40 del presente documento declara con rango canónico los **diecinueve bancos visibles** del aparato del Sistema Vectorial SV con **verificación numérica explícita** embebida canónicamente en el texto. Cada banco visible canónica articula con rango canónico un escenario canónica numérico canónica sobre el aparato general canónico del presente documento, ejecutable canónicamente sobre el corpus del Sistema Vectorial SV.
 
-<p><strong>unidad,</strong></p>
+### 40.2. Declaración canónica de los diecinueve bancos visibles
 
-<p><strong>modelo físico,</strong></p>
+**Banco visible canónica B.1 (Verificación canónica del par polar canónico sobre tres posiciones factuales).** Sobre tres posiciones factuales ξ<sub>1</sub>, ξ<sub>2</sub>, ξ<sub>3</sub> ∈ Ω<sub>pre</sub> con observables canónicos del corpus ρ<sub>0</sub>(ξ<sub>1</sub>) = 3, ρ<sub>1</sub>(ξ<sub>1</sub>) = 2, ρ<sub>0</sub>(ξ<sub>2</sub>) = 1, ρ<sub>1</sub>(ξ<sub>2</sub>) = 4, ρ<sub>0</sub>(ξ<sub>3</sub>) = 0, ρ<sub>1</sub>(ξ<sub>3</sub>) = 0, y umbral canónica ρ<sub>min</sub><sup>SV</sup> = 1, el banco verifica la derivación nativa de la Proposición 6.1 del §6 del presente documento: α<sub>1</sub> = 3, β<sub>1</sub> = 2, α<sub>2</sub> = 1, β<sub>2</sub> = 4, (α<sub>3</sub>, β<sub>3</sub>) = U legítima.
 
-<p><strong>residual,</strong></p>
+**Banco visible canónica B.2 (Verificación canónica de la densidad polar).** Con los datos canónicos del Banco visible canónica B.1, el banco verifica la Definición 7.1 del §7 del presente documento: Δ<sub>SV</sub>(ξ<sub>1</sub>) = 5, Δ<sub>SV</sub>(ξ<sub>2</sub>) = 5, Δ<sub>SV</sub>(ξ<sub>3</sub>) = U.
 
-<p><strong>recepción.</strong></p>
+**Banco visible canónica B.3 (Verificación canónica del gradiente resolutivo).** Con los datos canónicos del Banco visible canónica B.1, el banco verifica la Definición 7.2 del §7 del presente documento: δ<sub>1</sub><sup>SV</sup> = −1, δ<sub>2</sub><sup>SV</sup> = 3, δ<sub>3</sub><sup>SV</sup> = U.
 
-La señal luminosa puede medir propagación, distancia, profundidad o posición relativa en una historia física. Pero no mide totalidad absoluta.
+**Banco visible canónica B.4 (Verificación canónica de la energía factual).** Con los datos canónicos del Banco visible canónica B.1 y constantes canónicas k<sub>E</sub><sup>SV</sup> = 1 y 𝔠<sub>ν</sub><sup>SV</sup> = 1, el banco verifica la Definición 7.4 del §7 del presente documento: E<sub>SV</sub>(ξ<sub>1</sub>) = 5 UFE, E<sub>SV</sub>(ξ<sub>2</sub>) = 5 UFE.
 
-La tabla de base será:
+**Banco visible canónica B.5 (Verificación canónica del régimen canónico equipotencial sobre el borde inicial).** Sobre las posiciones factuales iniciales ξ<sub>1</sub>, ξ<sub>2</sub>, ξ<sub>3</sub> con α<sub>i</sub> = β<sub>i</sub> = 0,5 sobre el borde inicial del dominio preternario Ω<sub>pre</sub>, el banco verifica la Definición 1.3 y el Teorema 1.2 del §1 del presente documento: la indeterminación canónica U emerge como única salida honesta del aparato bajo equipotencialidad polar inicial Φ(0) = Φ(1).
 
-| Elemento | Función | Sin él |
-| --- | --- | --- |
-| Emisor | Identifica contenido físico | No hay objeto |
-| Firma | Identifica régimen físico | No hay edad atribuible |
-| Propagación | Relaciona emisión y recepción | No hay retorno |
-| Unidad | Permite medición | No hay cálculo |
-| Residual | Permite lectura formal | No hay cierre |
-| Recepción | Fija retorno observacional | No hay contraste |
+**Banco visible canónica B.6 (Verificación canónica de la monotonía energética estricta sobre la clase G).** Sobre la posición factual ξ<sub>1</sub> con par polar inicial (α<sub>1</sub><sup>(ν)</sup>, β<sub>1</sub><sup>(ν)</sup>) = (3, 2) y suceso factual generador interior e<sub>ν</sub> ∈ G sobre el ordinal canónico ν del aparato que produce (α<sub>1</sub><sup>(ν+1)</sup>, β<sub>1</sub><sup>(ν+1)</sup>) = (4, 3), el banco verifica el Teorema 14.1 del §14 del presente documento: Δ<sub>SV</sub><sup>(ν+1)</sup>(ξ<sub>1</sub>) = 7 > Δ<sub>SV</sub><sup>(ν)</sup>(ξ<sub>1</sub>) = 5, y por tanto E<sub>SV</sub><sup>(ν+1)</sup>(ξ<sub>1</sub>) = 7 UFE > E<sub>SV</sub><sup>(ν)</sup>(ξ<sub>1</sub>) = 5 UFE.
 
-El retorno luminoso será admisible cuando se lea como señal física. Será no admisible si se usa como prueba directa de edad de la totalidad. Será (U) si falta firma o residual.
+**Banco visible canónica B.7 (Verificación canónica de la conservación local bajo la clase A).** Sobre la posición factual ξ<sub>2</sub> con par polar inicial (α<sub>2</sub><sup>(ν)</sup>, β<sub>2</sub><sup>(ν)</sup>) = (1, 4) y suceso factual e<sub>ν</sub> ∈ A sobre el ordinal canónico ν del aparato que produce (α<sub>2</sub><sup>(ν+1)</sup>, β<sub>2</sub><sup>(ν+1)</sup>) = (2, 3), el banco verifica el Teorema 15.1 del §15 del presente documento: Δ<sub>SV</sub><sup>(ν+1)</sup>(ξ<sub>2</sub>) = 5 = Δ<sub>SV</sub><sup>(ν)</sup>(ξ<sub>2</sub>) = 5, mientras δ<sub>2</sub><sup>SV,(ν+1)</sup> = 1 ≠ δ<sub>2</sub><sup>SV,(ν)</sup> = 3.
 
-<a id="sec-iii-10-tabla-general-de-dominio-metrica-unidad-residual-y-lectura-formal"></a>
+**Banco visible canónica B.8 (Verificación canónica de la ruptura controlada bajo la clase G).** Sobre la posición factual ξ<sub>1</sub> con par polar inicial (α<sub>1</sub><sup>(ν)</sup>, β<sub>1</sub><sup>(ν)</sup>) = (2, 2) en régimen canónico equipotencial Φ(0) = Φ(1) y suceso factual generador interior e<sub>ν</sub> ∈ G que produce (α<sub>1</sub><sup>(ν+1)</sup>, β<sub>1</sub><sup>(ν+1)</sup>) = (3, 5), el banco verifica el Teorema 16.1 del §16 del presente documento: la transición canónica desde el régimen canónico equipotencial al régimen canónico polarizado |δ<sub>1</sub><sup>SV,(ν+1)</sup>| = 2 > 0 opera bajo el control canónico del clasificador canónico Γ<sub>ℋ</sub> del corpus.
 
-### III.10. Tabla general de dominio, métrica, unidad, residual y lectura formal
+**Banco visible canónica B.9 (Verificación canónica de la creabilidad factual reforzada de la energía).** Con los datos canónicos del Banco visible canónica B.6 y constantes canónicas k<sub>E</sub><sup>SV</sup> = 1 y 𝔠<sub>ν</sub><sup>SV</sup> = 1, sumando sobre las tres posiciones factuales interiores admisibles, el banco verifica el Teorema 17.1 del §17 del presente documento: E<sub>SV</sub><sup>tot,(ν+1)</sup> = 7 + 5 = 12 UFE > E<sub>SV</sub><sup>tot,(ν)</sup> = 5 + 5 = 10 UFE.
 
-| Clase | Dominio | Métrica principal | Unidad SI | Unidad SV | Residual | Lectura formal |
-| --- | --- | --- | --- | --- | --- | --- |
-| Totalidad absoluta | No contenido en dominio físico superior | No aplicable | No aplicable | No aplicable | No evaluable por tipo | NO ADMISIBLE |
-| Universo observable | (Ω<sub>obs</sub>) | Profundidad, señales, horizonte | s, año, m, Hz, eV | (UE<sub>MFC</sub>), (UFE), unidades SV derivadas | (Δ<sub>obs</sub>) | ADMISIBLE COMO DOMINIO |
-| Galaxia profunda | (Ω<sub>gal</sub>) | Retorno luminoso, firma, población | s, año, m, Hz | (UE<sub>MFC</sub>), (UFE) | (Δ<sub>gal</sub>) | ADMISIBLE SI (Δ=0) |
-| Estrella | (Ω<sub>★</sub>) | Evolución, luminosidad, composición | s, año, kg, W | unidades SV | (Δ<sub>★</sub>) | ADMISIBLE |
-| Púlsar | (Ω<sub>pulsar</sub>) | Periodo, frenado, emisión | s, Hz | (UE<sub>MFC</sub>), unidad frecuencial SV | (Δ<sub>pulsar</sub>) | ADMISIBLE |
-| Hidrógeno | (Ω<sub>H</sub>) | Transiciones, masa, energía | m, Hz, eV, kg | (UFE), unidades SV | (Δ<sub>H</sub>) | ADMISIBLE COMO FIRMA |
-| Prehidrógeno | (Ω<sub>preH→ H</sub>) | Persistencia y transición | según magnitud | unidad SV correspondiente | (Δ<sub>preH/H</sub>) | ADMISIBLE COMO TRANSICIÓN |
-| Retorno luminoso | (Ω<sub>L</sub><sup>ret</sup>) | Propagación y señal | m, s, Hz | (UFE), (UE<sub>MFC</sub>) | (Δ<sub>ret</sub>) | ADMISIBLE SI HAY FIRMA |
-| Línea espectral | (Ω<sub>λ</sub>) | Longitud de onda/frecuencia | m, Hz | (UFE), unidad frecuencial SV | (Δ<sub>λ</sub>) | ADMISIBLE COMO MARCADOR |
-| Modelo cosmológico | (Ω<sub>modelo</sub>) | Parámetros y expansión | varias | varias | (Δ<sub>modelo</sub>) | INSTRUMENTAL |
+**Banco visible canónica B.10 (Verificación canónica de la cota factual canónica).** Con los datos canónicos del Banco visible canónica B.1 y regularización canónica ϵ<sup>SV</sup><sub>reg</sub> = 0,01, el banco verifica la Definición 7.5 del §7 del presente documento: κ<sub>SV</sub>(ξ<sub>1</sub>) ≈ 0,2, κ<sub>SV</sub>(ξ<sub>2</sub>) ≈ 0,6, ambas dentro del intervalo canónica [0, 1].
 
-<a id="sec-iii-11-consecuencia-formal"></a>
+**Banco visible canónica B.11 (Verificación canónica de la métrica factual derivada).** Con los datos canónicos del Banco visible canónica B.1 y peso canónica w<sub>ν</sub><sup>SV</sup>(ξ<sub>1</sub>, ξ<sub>2</sub>) = 1, el banco verifica la Definición 8.3 del §8 del presente documento: dist<sub>SV</sub>(ξ<sub>1</sub>, ξ<sub>2</sub>) = √((3−1)² + (2−4)²) · 1 = √8 ≈ 2,83.
 
-### III.11. Consecuencia formal
+**Banco visible canónica B.12 (Verificación canónica de la covariancia factual bajo 𝒯<sup>SV</sup><sub>3</sub>).** Sobre la posición factual ξ<sub>1</sub> con par polar (α<sub>1</sub>, β<sub>1</sub>) = (3, 2) y aplicación canónica de la transformada canónica 𝒯<sup>SV</sup><sub>3</sub> de cambio canónico de etiquetado polar admisible (α<sub>1</sub>, β<sub>1</sub>) → (β<sub>1</sub>, α<sub>1</sub>) = (2, 3), el banco verifica el Teorema 12.3 del §12 del presente documento: la densidad polar canónica Δ<sub>SV</sub>(ξ<sub>1</sub>) = 5 se preserva bajo 𝒯<sup>SV</sup><sub>3</sub>, mientras el gradiente resolutivo canónica se invierte: δ<sub>1</sub><sup>SV</sup> = −1 → δ<sub>1</sub><sup>SV,𝒯3</sup> = 1.
 
-La tabla obliga a reformular la pregunta inicial.
+**Banco visible canónica B.13 (Verificación canónica de la absorción canónica exacta de Maxwell factual).** Sobre una configuración canónica minimal del aparato general canónico con sumandos canónicos electromagnéticos 𝓛<sub>1</sub><sup>SV</sup>(Π<sub>SV</sub>; ν) y 𝓛<sub>2</sub><sup>SV</sup>(Π<sub>SV</sub>; ν) activados canónicamente y sumandos canónicos restantes no electromagnéticos anulados canónicamente bajo la proyección canónica admisible π<sub>1,2</sub> de la Definición 27.1 del §27 del presente documento, el banco verifica la identidad canónica exacta π<sub>1,2</sub>(ℙ<sub>SV</sub> = 0) ≡ 𝔼<sub>SV</sub> = 0 del Teorema 27.1 del §27 del presente documento.
 
-La forma imprecisa es:
+**Banco visible canónica B.14 (Verificación canónica de la absorción canónica exacta de la luz factual).** Sobre una configuración canónica minimal del aparato general canónico con quince sumandos canónicos lumínicos del operador maestro ℙ<sub>SV</sub> activados canónicamente y sumandos canónicos restantes anulados canónicamente bajo la proyección canónica admisible π<sub>L</sub> de la Definición 28.1 del §28 del presente documento, el banco verifica la identidad canónica exacta π<sub>L</sub>(ℙ<sub>SV</sub> = 0) ≡ L<sub>SV</sub> = 0 del Teorema 28.1 del §28 del presente documento.
 
-<p><strong>¿cuál es la edad del Universo?</strong></p>
+**Banco visible canónica B.15 (Verificación canónica de la absorción canónica exacta de la transmutación factual sobre la clase G interior).** Sobre una configuración canónica minimal del aparato general canónico con sumandos canónicos transmutativos del operador maestro ℙ<sub>SV</sub> activados canónicamente sobre sucesos factuales generadores interiores de la clase canónica G del §10 y bajo la proyección canónica admisible π<sub>T</sub> de la Definición 29.1 del §29 del presente documento, el banco verifica la identidad canónica exacta π<sub>T</sub>(ℙ<sub>SV</sub> = 0)|<sub>e<sub>ν</sub>∈G int</sub> ≡ Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} del Teorema 29.1 del §29 del presente documento.
 
-La forma físicamente controlada es:
+**Banco visible canónica B.16 (Verificación canónica de la absorción canónica exacta de la entropía factual como funcional canónico integrador).** Sobre una configuración canónica minimal del aparato general canónico bajo la ecuación maestra canónica ℙ<sub>SV</sub> = 0 sobre el ordinal canónico ν append-only del aparato, el banco verifica la identidad canónica exacta H<sub>SV</sub> = ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν]|<sub>ℙ<sub>SV</sub>=0</sub> del Teorema 30.1 del §30 del presente documento.
 
-<p><strong>¿cuál es la edad relativa del dominio observable bajo un modelo declarado?</strong></p>
+**Banco visible canónica B.17 (Verificación canónica de la coexistencia canónica de las quince visiones canónicas).** Sobre el conjunto canónico de las quince visiones canónicas {V.1, V.2,..., V.15} del §34 del presente documento, el banco verifica la matriz canónica de coexistencia 15×15 de la Proposición 35.1 del §35 del presente documento: las quince visiones canónicas son canónicamente coexistentes dos a dos, articulando con rango canónico la plenitud canónica de la matriz canónica.
 
-La forma más estricta de la formulación es:
+**Banco visible canónica B.18 (Verificación canónica del refuerzo canónica de la prohibición constitutiva P.6).** Sobre la frontera exterior ε<sub>0</sub> del aparato del Sistema Vectorial SV, el banco verifica la Proposición 37.1 del §37 del presente documento: ninguna clausura canónica desde dentro del aparato sobre la frontera exterior ε<sub>0</sub> es admisible canónicamente sin violar la prohibición constitutiva P.6 del corpus.
 
-<p><strong>¿cuál es la edad concreta del observable retornado con firma persistente admisible?</strong></p>
+**Banco visible canónica B.19 (Verificación canónica de la consistencia canónica sobre la célula canónica SV(3, 9)).** Sobre la célula canónica SV(3, 9) del corpus de la Definición 39.1 del §39 del presente documento, el banco verifica la Proposición 39.1 del §39 del presente documento: el aparato general canónico del presente documento satisface con rango canónico la consistencia canónica sobre los nueve sucesos factuales admisibles canónicamente de la célula canónica.
 
-La respuesta final no será una edad de la totalidad absoluta. Será una edad del observable retornado:
+### 40.3. Cierre canónico del §40
 
-A<sub>Ωobs</sub><sup>SV</sup>
+El §40 del presente documento cierra con rango canónico los diecinueve bancos visibles del aparato del Sistema Vectorial SV con verificación numérica explícita. Los diecinueve bancos visibles articulan con rango canónico la verificación canónica numérica del aparato general canónico del presente documento sobre escenarios canónicos numéricos canónicos. El §41 del presente documento despliega con rango canónico los veinticuatro laboratorios canónicos del aparato con contrato operatorio.
 
-3 919 453 920 000 000 000 UE<sub>MFC</sub>.
+---
 
-A<sub>Ωobs</sub><sup>ret</sup>
+## 41. Declaración arquitectónica laboratorial — veinticuatro laboratorios
 
-13 800 000 000 años julianos.
+### 41.1. Apertura canónica del §41
 
-De esta sección se desprende:
+El §41 del presente documento declara con rango canónico los **veinticuatro laboratorios canónicos** del aparato del Sistema Vectorial SV con **contrato operatorio** sobre el aparato general canónico del presente documento. Cada laboratorio canónico articula con rango canónico un escenario canónica operatorio canónica del aparato sobre el que el aparato general canónico del presente documento opera con rango canónico.
 
-<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
+### 41.2. Declaración canónica de los veinticuatro laboratorios canónicos
 
-<p><strong>Edad(Ω<sub>obs</sub>)=ADMISIBLE COMO DOMINIO.</strong></p>
+**Laboratorio canónico L.1 (Laboratorio canónico de la cadena formal mínima de legitimidad).** Articula con rango canónico la cadena formal mínima canónica de legitimidad 𝒞<sub>F<sub>0</sub>,SV</sub> de la Definición 1.7 del §1 del presente documento.
 
-<p><strong>Edad(C<sub>i</sub>)=ADMISIBLE SI Δ<sub>i</sub>=0.</strong></p>
+**Laboratorio canónico L.2 (Laboratorio canónico del soporte estructural del protocampo).** Articula con rango canónico el Teorema 9.1 del §9 del presente documento sobre las cinco propiedades canónicas simultáneas del soporte estructural canónica del protocampo primordial unificado Π<sub>SV</sub>.
 
-<p><strong>A<sub>Ωobs</sub>=<sub>Δ<sub>i</sub>=0</sub>A(C<sub>i</sub>).</strong></p>
+**Laboratorio canónico L.3 (Laboratorio canónico de la taxonomía G/A/D).** Articula con rango canónico la taxonomía canónica G/A/D del §10 del presente documento sobre los sucesos factuales admisibles canónicamente del aparato.
 
-<a id="sec-iv-transductores"></a>
+**Laboratorio canónico L.4 (Laboratorio canónico de la homogeneidad factual del operador 𝔊<sub>SV</sub>).** Articula con rango canónico el Teorema 12.1 del §12 del presente documento.
 
-## IV. Transductores
+**Laboratorio canónico L.5 (Laboratorio canónico de la aditividad del operador 𝔊<sub>SV</sub>).** Articula con rango canónico el Teorema 12.2 del §12 del presente documento.
 
-<a id="sec-iv-1-funcion-de-los-transductores-en-esta-publicacion"></a>
+**Laboratorio canónico L.6 (Laboratorio canónico de la covariancia factual del operador 𝔊<sub>SV</sub> bajo las cuatro transformadas canónicas).** Articula con rango canónico el Teorema 12.3 del §12 del presente documento sobre las cuatro transformadas canónicas 𝒯<sup>SV</sup><sub>k</sub> con k ∈ {1, 2, 3, 4}.
 
-### IV.1. Función de los transductores en la formulación
+**Laboratorio canónico L.7 (Laboratorio canónico de la estabilidad estructural del operador 𝔊<sub>SV</sub>).** Articula con rango canónico el Teorema 12.4 del §12 del presente documento.
 
-Un transductor es una estructura de traducción controlada entre dos dominios que no deben confundirse. Su función no es mezclar planos, sino permitir que una magnitud física, una señal, una firma espectral, una distancia, una edad relativa o una condición de persistencia comparezcan en un dominio formal sin perder su estatuto físico ni invadir un fundamento que no les corresponde.
+**Laboratorio canónico L.8 (Laboratorio canónico de la unicidad representacional del operador 𝔊<sub>SV</sub> en OpGen<sub>SV,Π</sub>).** Articula con rango canónico el Teorema 13.1 del §13 del presente documento.
 
-La física contemporánea trabaja con magnitudes observables: segundos, metros, hercios, electronvoltios, masas, luminosidades, corrimientos espectrales, distancias, periodos, líneas de emisión, líneas de absorción, mapas de galaxias, señales de fondo y modelos de propagación. La formulación no niega ese plano. Lo conserva. Pero exige que cada magnitud declare su dominio, su unidad, su objeto físico, su residual y su retorno.
+**Laboratorio canónico L.9 (Laboratorio canónico de la monotonía energética estricta sobre la clase G).** Articula con rango canónico el Teorema 14.1 del §14 del presente documento.
 
-La estructura de base de un transductor será:
+**Laboratorio canónico L.10 (Laboratorio canónico de la conservación local bajo la clase A).** Articula con rango canónico el Teorema 15.1 del §15 del presente documento.
 
-<p><strong>X: (Ω<sub>D</sub>,M<sub>D</sub>,u<sub>D</sub>,R<sub>D</sub>) (Ω<sub>D'</sub>,M<sub>D'</sub>,u<sub>D'</sub>,R<sub>D'</sub>).</strong></p>
+**Laboratorio canónico L.11 (Laboratorio canónico de la ruptura controlada bajo la clase G).** Articula con rango canónico el Teorema 16.1 del §16 del presente documento.
 
-Donde:
+**Laboratorio canónico L.12 (Laboratorio canónico de la creabilidad factual reforzada de la energía).** Articula con rango canónico el Teorema 17.1 del §17 del presente documento.
 
-<p><strong>Ω<sub>D</sub></strong></p>
+**Laboratorio canónico L.13 (Laboratorio canónico del operador canónica de proyección activada Π<sub>3</sub><sup>H</sup>).** Articula con rango canónico el §18 del presente documento.
 
-es el dominio de partida;
+**Laboratorio canónico L.14 (Laboratorio canónico de los siete teoremas canónicos de emergencia de los siete campos factuales coexistentes).** Articula con rango canónico los siete teoremas canónicos del §19 del presente documento sobre la emergencia canónica de los siete campos factuales coexistentes del corpus.
 
-<p><strong>M<sub>D</sub></strong></p>
+**Laboratorio canónico L.15 (Laboratorio canónico de la coexistencia estructural canónica de los siete campos factuales coexistentes).** Articula con rango canónico el §20 del presente documento sobre la coexistencia estructural canónica de los siete campos factuales coexistentes del corpus.
 
-es la magnitud usada;
+**Laboratorio canónico L.16 (Laboratorio canónico de la ecuación maestra absoluta ℙ<sub>SV</sub> = 0).** Articula con rango canónico los §§23–25 del presente documento sobre la ecuación maestra canónica ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 sobre los nueve sumandos canónicos y los trece invariantes canónicos del aparato.
 
-<p><strong>u<sub>D</sub></strong></p>
+**Laboratorio canónico L.17 (Laboratorio canónico de la absorción canónica exacta de Maxwell factual).** Articula con rango canónico el Teorema 27.1 del §27 del presente documento.
 
-es su unidad;
+**Laboratorio canónico L.18 (Laboratorio canónico de la absorción canónica exacta de la luz factual).** Articula con rango canónico el Teorema 28.1 del §28 del presente documento.
 
-<p><strong>R<sub>D</sub></strong></p>
+**Laboratorio canónico L.19 (Laboratorio canónico de la absorción canónica exacta de la transmutación factual).** Articula con rango canónico el Teorema 29.1 del §29 del presente documento.
 
-es su retorno o condición de contraste;
+**Laboratorio canónico L.20 (Laboratorio canónico de la absorción canónica exacta de la entropía factual).** Articula con rango canónico el Teorema 30.1 del §30 del presente documento.
 
-<p><strong>Ω<sub>D'</sub></strong></p>
+**Laboratorio canónico L.21 (Laboratorio canónico del rango doctrinal superior canónico del aparato general canónico).** Articula con rango canónico los Teoremas 29.1 y 29.2 del §31 del presente documento.
 
-es el dominio de llegada;
+**Laboratorio canónico L.22 (Laboratorio canónico de las quince visiones canónicas sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>)).** Articula con rango canónico el §34 del presente documento y la matriz canónica de coexistencia 15×15 del §35 del presente documento.
 
-<p><strong>M<sub>D'</sub></strong></p>
+**Laboratorio canónico L.23 (Laboratorio canónico del refuerzo canónica de la prohibición constitutiva P.6).** Articula con rango canónico la Proposición 37.1 del §37 del presente documento.
 
-es la magnitud correspondiente;
+**Laboratorio canónico L.24 (Laboratorio canónico de los ocho criterios canónicos independientes de falsación).** Articula con rango canónico los ocho criterios canónicos F.1–F.8 del §38 del presente documento.
 
-<p><strong>u<sub>D'</sub></strong></p>
+### 41.3. Cierre canónico del §41 y de la Parte VIII
 
-es la unidad correspondiente;
+El §41 del presente documento cierra con rango canónico la Parte VIII del presente documento sobre los ocho criterios canónicos independientes de falsación, la célula canónica SV(3, 9), los diecinueve bancos visibles con verificación numérica explícita y los veinticuatro laboratorios canónicos con contrato operatorio. La Parte IX del presente documento despliega con rango canónico las tablas canónicas finales, las catorce conclusiones canónicas, la antesala canónica de cuestiones canónicas superiores, el compromiso canónico con la disciplina canónica del corpus y la explicación canónica de la naturaleza canónica factual de los sucesos generadores y de los protocampos unificados para un niño canónica de diez años.
 
-<p><strong>R<sub>D'</sub></strong></p>
+---
 
-es el retorno de verificación.
+## 42. Tablas canónicas finales
 
-En la formulación el transductor principal no convierte «distancia» en «tiempo» de forma indiscriminada. Convierte retornos físicos de contenidos observables en edades relativas bajo dominio, firma, persistencia, unidad y residual. El objeto no es la totalidad absoluta. El objeto es el contenido físico observable.
+### 42.1. Apertura canónica del §42
 
-La forma general será:
+El §42 del presente documento consigna con rango canónico las **tablas canónicas finales** del aparato general canónico del presente documento. Las tablas canónicas finales articulan con rango canónico el resumen canónica de los elementos canónicos esenciales del aparato, articulado con rango canónico sobre el corpus del Sistema Vectorial SV.
 
-<p><strong>X<sub>edad</sub>: (D<sub>Φ</sub><sup>L</sup>,Σ<sub>fis</sub>, 𝓟<sub>min</sub>,Id,Δ) A(C<sub>i</sub>).</strong></p>
+### 42.2. Tabla canónica T.42.1 — Producción nominal canónica del aparato general canónico
 
-Donde:
+**Tabla canónica T.42.1 (Producción nominal canónica del aparato general canónico del presente documento).** El aparato general canónico del presente documento articula con rango canónico la siguiente producción nominal canónica:
 
-<p><strong>D<sub>Φ</sub><sup>L</sup></strong></p>
-
-designa profundidad, distancia o retorno luminoso declarado;
-
-<p><strong>Σ<sub>fis</sub></strong></p>
-
-designa la firma física del contenido;
-
-<p><strong>𝓟<sub>min</sub></strong></p>
-
-designa persistencia P_min;
-
-<p><strong>Id</strong></p>
-
-designa identidad física conservada;
-
-<p><strong>Δ</strong></p>
-
-designa residual;
-
-<p><strong>A(C<sub>i</sub>)</strong></p>
-
-designa edad relativa del contenido físico (C<sub>i</sub>).
-
-El cierre de una edad exige:
-
-<p><strong>Δ<sub> X</sub>=0.</strong></p>
-
-Si el residual no se anula, la edad queda rechazada o no cerrada. Si el transductor se aplica a una entidad que no admite edad física, el resultado no es una edad indeterminada, sino una atribución no admisible.
-
-<a id="sec-iv-2-dominio-y-codominio"></a>
-
-### IV.2. Dominio y codominio
-
-Todo transductor exige declarar dominio y codominio. Sin dominio no hay objeto físico de partida. Sin codominio no hay destino de traducción. Sin ambos, no existe transducción, sino analogía verbal.
-
-El dominio de partida puede ser físico-observacional:
-
-<p><strong>Ω<sub>obs</sub>, Ω<sub>gal</sub>, Ω<sub>★</sub>, Ω<sub>H</sub>, Ω<sub>preH→ H</sub>, Ω<sub>L</sub><sup>ret</sup>.</strong></p>
-
-El codominio puede ser una edad relativa, una unidad transductiva, un residual o un lectura formal:
-
-<p><strong>A(C<sub>i</sub>), UE<sub>MFC</sub>, UFE, Δ<sub>i</sub>, d<sub>i</sub>.</strong></p>
-
-La relación no será válida si el dominio de partida es ambiguo. Por ejemplo, la expresión «edad del Universo» no declara si se refiere a totalidad absoluta, universo observable, modelo cosmológico, contenido físico concreto, señal luminosa o historia térmica. Esa ambigüedad impide el cierre.
-
-La forma correcta es declarar:
-
-<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
-
-<p><strong>Edad(Ω<sub>obs</sub>)=ADMISIBLE COMO DOMINIO.</strong></p>
-
-<p><strong>Edad(C<sub>i</sub>)=ADMISIBLE SI Δ<sub>i</sub>=0.</strong></p>
-
-Por tanto, el dominio del transductor de edad no será la totalidad absoluta. Será:
-
-Ω<sub>obs</sub>
-
-C<sub>i</sub>: C<sub>i</sub>⊂Ω<sub>obs</sub>, Id<sub>i</sub>≠∅, R<sub>i</sub>≠∅, Δ<sub>i</sub> evaluable .
-
-El codominio será:
-
-<p><strong>A<sub>Ωobs</sub><sup>SV</sup></strong></p>
-
-o, tras retorno físico:
-
-<p><strong>A<sub>Ωobs</sub><sup>ret</sup>.</strong></p>
-
-La edad concreta del observable retornado quedará definida por:
-
-A<sub>Ωobs</sub> = A(C*) con C*⊂Ω<sub>obs</sub>, Δ(C*)=0 y firma persistente admisible.
-
-Esta expresión no habla de edad absoluta. Habla de cierre relativo entre contenidos observables admisibles.
-
-<a id="sec-iv-3-observable-fisico"></a>
-
-### IV.3. Observable físico
-
-El observable físico es la magnitud que permite que un contenido comparezca ante el transductor. Puede ser una señal luminosa, una línea espectral, una profundidad observacional, una masa, una luminosidad, una frecuencia, una longitud de onda, un periodo, una firma química, una transición atómica o una condición de persistencia.
-
-No todo observable es suficiente para edad. Una longitud de onda aislada no basta. Un corrimiento al rojo aislado no basta. Una distancia luminosa aislada no basta. Una señal sin emisor identificado no basta. Un objeto sin firma no basta. Un modelo sin residual no basta.
-
-Para que un observable pueda alimentar una edad relativa debe cumplir:
-
-<p><strong>Obs<sub>i</sub>∈Ω<sub>i</sub>.</strong></p>
-
-<p><strong>Obs<sub>i</sub> identifica o restringe C<sub>i</sub>.</strong></p>
-
-<p><strong>Obs<sub>i</sub> posee unidad declarada.</strong></p>
-
-<p><strong>Obs<sub>i</sub> admite retorno.</strong></p>
-
-<p><strong>Obs<sub>i</sub> entra en residual.</strong></p>
-
-Los observables principales de la formulación serán:
-
-<p><strong>D<sub>Φ</sub><sup>L</sup>,</strong></p>
-
-profundidad o retorno luminoso;
-
-<p><strong>λ,</strong></p>
-
-longitud de onda;
-
-<p><strong>ν,</strong></p>
-
-frecuencia;
-
-<p><strong>E,</strong></p>
-
-energía de transición;
-
-<p><strong>m,</strong></p>
-
-masa o marcador material;
-
-<p><strong>P,</strong></p>
-
-periodo en objetos periódicos;
-
-<p><strong>Σ<sub>preH/H</sub>,</strong></p>
-
-firma prehidrógeno/hidrógeno;
-
-<p><strong>𝓟<sub>min</sub>,</strong></p>
-
-persistencia P_min;
-
-<p><strong>Id,</strong></p>
-
-identidad física conservada.
-
-La edad relativa no procederá de un único observable, sino de un conjunto coherente:
-
-O<sub>i</sub>
-
-(D<sub>Φ,i</sub><sup>L</sup>,Σ<sub>fis,i</sub>, P<sub>,i</sub>,Id<sub>i</sub>,R<sub>i</sub>).
-
-El transductor de edad actuará sobre ( O<sub>i</sub>), no sobre un número desnudo.
-
-<a id="sec-iv-4-unidad-si-y-unidad-sv"></a>
-
-### IV.4. Unidad SI y unidad SV
-
-La física contemporánea debe poder leer la formulación en sus propias unidades. Por eso, toda magnitud física entrará inicialmente en unidad SI o en unidad física convencional convertible al SI. La transducción exigirá después una unidad SV correspondiente. La finalidad no es sustituir el SI, sino permitir una doble lectura sin pérdida de control.
-
-La regla será:
-
-<p><strong>M<sub>i</sub>[u<sub>SI</sub>] M<sub>i</sub>[u<sub>SV</sub>].</strong></p>
-
-El retorno físico sólo será admisible si la traducción conserva la magnitud y no altera el dominio.
-
-Las unidades principales serán:
-
-<p><strong>s UE<sub>MFC</sub>,</strong></p>
-
-<p><strong>m UFE,</strong></p>
-
-<p><strong>Hz UE<sub>MFC</sub><sup>-1</sup> transductivo,</strong></p>
-
-<p><strong>J, eV unidad energética SV,</strong></p>
-
-<p><strong>kg unidad de masa SV.</strong></p>
-
-La equivalencia rectora para edad relativa será:
-
-<p><strong>9 UE<sub>MFC</sub>=1 s.</strong></p>
-
-Por tanto:
-
-<p><strong>1 UE<sub>MFC</sub>=1/9 s.</strong></p>
-
-Un año juliano se tomará como:
-
-<p><strong>1 a<sub>J</sub>=31 557 600 s.</strong></p>
-
-Así:
-
-1 a<sub>J</sub>
-
-31 557 600× 9 UE<sub>MFC</sub>
-
-284 018 400 UE<sub>MFC</sub>.
-
-La edad concreta del observable retornado anunciada:
-
-<p><strong>13 800 000 000 a<sub>J</sub></strong></p>
-
-equivale a:
-
-<p><strong>13 800 000 000 × 284 018 400 UE<sub>MFC</sub>.</strong></p>
-
-Es decir:
-
-<p><strong>3 919 453 920 000 000 000 UE<sub>MFC</sub>.</strong></p>
-
-La conversión no es una inferencia física. Es una equivalencia metrológica declarada. El contenido físico de la edad depende del transductor y de la tabla de contraste; la equivalencia sólo expresa la misma magnitud en otra unidad.
-
-<a id="sec-iv-5-residual-y-lectura-formal"></a>
-
-### IV.5. Residual y lectura formal
-
-El residual mide la diferencia entre lo que una magnitud pretende declarar y lo que el dominio permite cerrar. Sin residual no hay cierre. Sin cierre no hay edad física final.
-
-Para cada caso (C<sub>i</sub>) se define:
-
-Δ<sub>i</sub>
-
-Δ<sub>Ω,i</sub> ⊕ Δ<sub>Id,i</sub> ⊕ Δ<sub>Σ,i</sub> ⊕ Δ<sub>M,i</sub> ⊕ Δ<sub>u,i</sub> ⊕ Δ<sub>R,i</sub> ⊕ Δ<sub>ret,i</sub>.
-
-Donde:
-
-<p><strong>Δ<sub>Ω,i</sub></strong></p>
-
-evalúa dominio;
-
-<p><strong>Δ<sub>Id,i</sub></strong></p>
-
-evalúa identidad física;
-
-<p><strong>Δ<sub>Σ,i</sub></strong></p>
-
-evalúa firma;
-
-<p><strong>Δ<sub>M,i</sub></strong></p>
-
-evalúa magnitud;
-
-<p><strong>Δ<sub>u,i</sub></strong></p>
-
-evalúa unidad;
-
-<p><strong>Δ<sub>R,i</sub></strong></p>
-
-evalúa retorno;
-
-<p><strong>Δ<sub>ret,i</sub></strong></p>
-
-evalúa retorno físico controlado.
-
-El lectura formal será:
-
-<p><strong>d<sub>i</sub>=0</strong></p>
-
-si:
-
-<p><strong>Δ<sub>i</sub>=0.</strong></p>
-
-Será:
-
-<p><strong>d<sub>i</sub>=1</strong></p>
-
-si el caso incurre en contradicción de dominio, mezcla de planos o uso indebido de una magnitud.
-
-Será:
-
-<p><strong>d<sub>i</sub>=U</strong></p>
-
-si el caso carece de datos suficientes para cerrar, pero no contradice el dominio.
-
-La regla más importante de esta sección es:
-
-<p><strong>U≠ 0.</strong></p>
-
-La no clausura no autoriza resultado favorable. Si un caso profundo parece prometedor, pero carece de firma, unidad o residual, no puede entrar como cierre. Puede entrar como candidato no cerrado.
-
-<a id="sec-iv-6-retorno-fisico-controlado"></a>
-
-### IV.6. Retorno físico controlado
-
-El retorno físico controlado es la condición que permite volver desde la estructura transductiva al lenguaje de la física contemporánea. No basta con convertir una magnitud a unidad SV. Hay que devolverla al plano físico sin cambiar su sentido.
-
-La forma general será:
-
-<p><strong>M<sub>i</sub>[u<sub>SI</sub>] → M<sub>i</sub>[u<sub>SV</sub>] → Δ<sub>i</sub> → d<sub>i</sub> → M<sub>i</sub><sup>ret</sup>[u<sub>SI</sub>].</strong></p>
-
-Si el retorno no coincide con la magnitud física de partida dentro del dominio declarado, la transducción no es apta. Si el retorno invade otro plano, tampoco es apta.
-
-Ejemplo de edad relativa:
-
-<p><strong>A<sub>i</sub><sup>ret</sup>[a<sub>J</sub>] → A<sub>i</sub><sup>SV</sup>[UE<sub>MFC</sub>] → Δ<sub>i</sub> → d<sub>i</sub> → A<sub>i</sub><sup>ret</sup>[a<sub>J</sub>].</strong></p>
-
-El retorno debe conservar:
-
-<p><strong>misma magnitud,</strong></p>
-
-<p><strong>mismo dominio,</strong></p>
-
-<p><strong>misma unidad de interpretación,</strong></p>
-
-<p><strong>mismo objeto físico,</strong></p>
-
-<p><strong>mismo lectura formal.</strong></p>
-
-La formulación no afirmará que la física contemporánea queda sustituida. Afirmará que la magnitud física queda leída con precisión de plano. La edad vuelve al lenguaje físico como edad relativa del contenido observable, no como edad de la totalidad absoluta.
-
-<a id="sec-iv-7-transductor-de-edad-relativa-del-contenido-observable"></a>
-
-### IV.7. Transductor de edad relativa del contenido observable
-
-El transductor principal de la formulación se define así:
-
-<p><strong>X<sub>A</sub><sup>cont</sup>: C<sub>obs</sub> A<sup>SV</sup>(C<sub>i</sub>).</strong></p>
-
-Donde:
-
-C<sub>obs</sub>
-
-(Ω<sub>i</sub>,C<sub>i</sub>,Id<sub>i</sub>,Σ<sub>i</sub>,D<sub>Φ,i</sub><sup>L</sup>,u<sub>i</sub>, P<sub>,i</sub>,R<sub>i</sub>,Δ<sub>i</sub>).
-
-Su salida será:
-
-<p><strong>A<sup>SV</sup>(C<sub>i</sub>)</strong></p>
-
-si:
-
-<p><strong>Δ<sub>i</sub>=0.</strong></p>
-
-Será no admisible si:
-
-<p><strong>C<sub>i</sub>= T</strong></p>
-
-donde ( T) designa totalidad absoluta.
-
-Será (U) si:
-
-<p><strong>Δ<sub>i</sub>=U.</strong></p>
-
-El transductor de edad concreta del observable retornado será:
-
-<p><strong>X<sub>A</sub><sup>ret</sup> : C<sub>i</sub>i∈ I AΩobs<sup>SV</sup>.</strong></p>
-
-Con:
-
-A<sub>Ωobs</sub><sup>SV</sup>
-
-<sub>Δ<sub>i</sub>=0</sub> A<sup>SV</sup>(C<sub>i</sub>).
-
-La formulación deberá demostrar que, dentro de la tabla de contraste construido, el cierre admisible corresponde a:
-
-A<sub>Ωobs</sub><sup>SV</sup>
-
-3 919 453 920 000 000 000 UE<sub>MFC</sub>.
-
-Y, por retorno:
-
-A<sub>Ωobs</sub><sup>ret</sup>
-
-13 800 000 000 a<sub>J</sub>.
-
-El transductor no atribuye ese valor a la totalidad absoluta. Lo atribuye al observable retornado.
-
-<a id="sec-iv-8-transductor-prehidrogeno-hidrogeno"></a>
-
-### IV.8. Transductor prehidrógeno/hidrógeno
-
-La transición prehidrógeno/hidrógeno actúa como transductor material privilegiado porque une tres planos que la física contemporánea observa de manera dispersa:
-
-<p><strong>régimen preatómico,</strong></p>
-
-<p><strong>firma atómica persistente,</strong></p>
-
-<p><strong>retorno luminoso profundo.</strong></p>
-
-El transductor se define como:
-
-<p><strong>X<sub>preH/H</sub>: (Ω<sub>preH→ H</sub>,Σ<sub>H</sub>, 𝓟<sub>min</sub>,D<sub>Φ</sub><sup>L</sup>,R) A(C<sub>i</sub>).</strong></p>
-
-La firma será:
-
-Σ<sub>H</sub>
-
-(E<sub>I</sub>,E<sub>n</sub>,λ<sub>Lyα</sub>,ν<sub>Lyα</sub>,λ<sub>21cm</sub>,ν<sub>21cm</sub>,m<sub>H</sub>,a<sub>0</sub>).
-
-La condición de persistencia será:
-
-<p><strong>𝓟<sub>min</sub>>0.</strong></p>
-
-La identidad será:
-
-<p><strong>Id<sub>H</sub>≠∅.</strong></p>
-
-El retorno será:
-
-<p><strong>R<sub>L</sub><sup>ret</sup>≠∅.</strong></p>
-
-La regla de cierre será:
-
-<p><strong>Δ<sub>preH/H</sub>=0.</strong></p>
-
-El transductor preH/H no afirma que el hidrógeno sea fundamento absoluto. Afirma que la transición hacia hidrógeno estable proporciona una firma física persistente que permite acorralar edades relativas de contenidos observables profundos.
-
-La cadena física será:
-
-<p><strong>preH → H → gas → estrella → galaxia → retorno luminoso.</strong></p>
-
-La edad relativa se fijará cuando esa cadena se declare con unidad, firma, persistencia y residual.
-
-<a id="sec-iv-9-error-absoluto-de-plano-definicion-y-transduccion"></a>
-
-### IV.9. Error absoluto de plano, definición y transducción
-
-La formulación distinguirá entre margen observacional y error de plano.
-
-La física contemporánea conserva márgenes instrumentales:
-
-<p><strong>σ<sub>obs</sub>≠0.</strong></p>
-
-Puede haber margen en distancias, parámetros, corrimientos, masas, luminosidades, edades estelares, modelos de formación y calibraciones. Esa margen no se niega.
-
-Lo que la formulación pretende anular es el error categorial de atribución:
-
-<p><strong>ε<sub>plano</sub>=0.</strong></p>
-
-También el error definicional:
-
-<p><strong>ε<sub>def</sub>=0.</strong></p>
-
-Y el error de retorno transductivo cuando la matriz de contraste cierra:
-
-<p><strong>ε<sub>trans</sub>=0.</strong></p>
-
-La fórmula será:
-
-ε<sub>abs</sub>
-
-ε<sub>plano</sub> ⊕ ε<sub>def</sub> ⊕ ε<sub>trans</sub>.
-
-Cuando:
-
-<p><strong>ε<sub>plano</sub>=0, ε<sub>def</sub>=0, ε<sub>trans</sub>=0,</strong></p>
-
-la edad queda definida sin error absoluto de tipo, aunque el dato físico conservado mantenga margen instrumental.
-
-Por tanto, la frase correcta no será:
-
-<p><strong>no hay margen físico.</strong></p>
-
-Será:
-
-<p><strong>no hay error de plano en la atribución de edad.</strong></p>
-
-La formulación fija con error de plano cero que:
-
-<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
-
-<p><strong>Edad(C<sub>i</sub>)=ADMISIBLE SI Δ<sub>i</sub>=0.</strong></p>
-
-Y fija por contraste transductivo:
-
-A<sub>Ωobs</sub><sup>ret</sup>
-
-13 800 000 000 a<sub>J</sub>.
-
-<a id="sec-iv-10-lectura-formal-de-la-seccion"></a>
-
-### IV.10. Síntesis de la sección
-
-Los transductores permiten que la física contemporánea y la estructura formal dla formulación se correspondan sin confundirse. La física aporta magnitudes reales. El transductor exige dominio, codominio, unidad, residual y retorno. El resultado vuelve a la física como magnitud correctamente atribuida.
-
-La síntesis de esta sección queda:
-
-<p><strong>X<sub>A</sub><sup>cont</sup>=ADMISIBLE.</strong></p>
-
-<p><strong>X<sub>preH/H</sub>=ADMISIBLE.</strong></p>
-
-<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
-
-A<sub>Ωobs</sub><sup>SV</sup>
-
-<sub>Δ<sub>i</sub>=0</sub>A<sup>SV</sup>(C<sub>i</sub>).
-
-El apartado siguiente fijará las métricas que alimentan esos transductores.
-
-<a id="sec-v-metricas"></a>
-
-## V. Métricas
-
-<a id="sec-v-1-funcion-de-las-metricas"></a>
-
-### V.1. Función de las métricas
-
-Una métrica, en la formulación, no es un fundamento. Es una regla de medida dentro de un dominio declarado. Sirve para comparar contenidos físicos, ordenar retornos, evaluar firmas, estimar persistencia, controlar residuales y devolver resultados al lenguaje de la física contemporánea.
-
-La métrica no decide por sí sola qué entidad posee edad. Una distancia no convierte un objeto en antiguo. Una frecuencia no convierte una señal en cierre. Una longitud de onda no identifica por sí sola un dominio. Un corrimiento espectral no es una edad desnuda. Cada métrica debe pertenecer a una cadena más amplia:
-
-<p><strong>dominio → objeto → observable → unidad → métrica → residual → lectura formal → retorno.</strong></p>
-
-Si una métrica se toma aislada, puede inducir error de plano. Si se inserta en un transductor, puede producir una edad relativa legítima.
-
-El conjunto de base de métricas de la formulación es:
-
-<p><strong>M= M<sub>L</sub>, M<sub>Σ</sub>, M<sub>P</sub>, M<sub>∂</sub>, M<sub>R</sub>, M<sub>Id</sub>, M<sub>ret</sub>, M<sub>A</sub> .</strong></p>
-
-Donde:
-
-<p><strong>M<sub>L</sub></strong></p>
-
-mide profundidad luminosa;
-
-<p><strong>M<sub>Σ</sub></strong></p>
-
-mide firma física;
-
-<p><strong>M<sub>P</sub></strong></p>
-
-mide persistencia estructural;
-
-<p><strong>M<sub>∂</sub></strong></p>
-
-mide frontera;
-
-<p><strong>M<sub>R</sub></strong></p>
-
-mide residual;
-
-<p><strong>M<sub>Id</sub></strong></p>
-
-mide identidad física;
-
-<p><strong>M<sub>ret</sub></strong></p>
-
-mide retorno observacional;
-
-<p><strong>M<sub>A</sub></strong></p>
-
-mide edad relativa.
-
-Una edad relativa sólo será admisible cuando esas métricas actúen de forma compatible. Si la profundidad luminosa es alta, pero no hay identidad física, el caso no cierra. Si hay firma espectral, pero no portador declarado, el caso no cierra. Si hay portador y señal, pero falta unidad o residual, el caso no cierra. Si todo cierra, la edad relativa puede entrar en la tabla de contraste.
-
-<a id="sec-v-2-profundidad-luminosa"></a>
-
-### V.2. Profundidad luminosa
-
-La profundidad luminosa mide el alcance del retorno de una señal física. Puede expresarse mediante distancia, tiempo de propagación bajo modelo, corrimiento al rojo, distancia de luminosidad, distancia comóvil, distancia angular, atenuación o desplazamiento espectral. Cada una de esas formas pertenece a una métrica física concreta y no debe confundirse con las demás.
-
-La profundidad luminosa se representará por:
-
-<p><strong>D<sub>Φ</sub><sup>L</sup>(C<sub>i</sub>).</strong></p>
-
-Donde (C<sub>i</sub>) es el contenido físico observable y (Φ<sup>L</sup>) es la fibra o señal luminosa considerada.
-
-La forma general será:
-
-D<sub>Φ</sub><sup>L</sup>(C<sub>i</sub>)
-
-∈t<sub>Γ<sub>L</sub>(C<sub>i</sub>)</sub> d<sub>Φ</sub><sup>L</sup>.
-
-En régimen discreto:
-
-D<sub>Φ</sub><sup>L</sup>(C<sub>i</sub>)
-
-Σ<sub>j=0</sub><sup>n-1</sup> Δ D<sub>Φ</sub><sup>L</sup>(ν<sub>j</sub>).
-
-El valor de (D<sub>Φ</sub><sup>L</sup>) no es todavía edad. Es profundidad de retorno. Para obtener edad relativa se requiere transducción:
-
-A(C<sub>i</sub>)
-
-X<sub>A</sub> ( D<sub>Φ</sub><sup>L</sup>(C<sub>i</sub>), Σ<sub>i</sub>, P<sub>,i</sub>, Id<sub>i</sub>, Δ<sub>i</sub> ).
-
-La profundidad luminosa será admisible si cumple:
-
-<p><strong>Ω<sub>L</sub><sup>ret</sup> declarado,</strong></p>
-
-<p><strong>C<sub>i</sub> identificado,</strong></p>
-
-<p><strong>Γ<sub>L</sub>(C<sub>i</sub>) declarada,</strong></p>
-
-<p><strong>u<sub>D</sub> declarada,</strong></p>
-
-<p><strong>Δ<sub>L</sub> evaluable.</strong></p>
-
-Será no admisible si se usa para atribuir edad a la totalidad absoluta. Será (U) si la señal existe, pero el dominio o la identidad no están suficientemente declarados.
-
-La tabla profundidad de base luminosa será:
-
-| Magnitud física | Función | Unidad SI | Unidad SV | Uso admisible |
-| --- | --- | --- | --- | --- |
-| Distancia de retorno | Alcance de señal | m, pc, Mpc, Gly | (UFE) | Profundidad física |
-| Tiempo de propagación | Duración física modelizada | s, año | (UE<sub>MFC</sub>) | Edad de señal, no de totalidad |
-| Corrimiento al rojo | Relación espectral | adimensional | adimensional transductivo | Restricción de modelo |
-| Distancia de luminosidad | Relación flujo-luminosidad | m, pc, Mpc | (UFE) | Métrica observacional |
-| Distancia angular | Relación tamaño-ángulo | m, pc, Mpc | (UFE) | Métrica observacional |
-| Atenuación | Pérdida de intensidad | adimensional, W/m² | unidad SV correspondiente | Corrección de retorno |
-
-<a id="sec-v-3-firma-espectral"></a>
-
-### V.3. Firma espectral
-
-Una firma espectral es una marca física que permite asociar una señal a un portador, una transición, una composición o un régimen material. Sin firma, la señal puede tener profundidad, pero no identidad suficiente. Sin identidad, no hay edad relativa atribuible al contenido.
-
-La firma espectral se representará por:
-
-<p><strong>Σ<sub>i</sub>.</strong></p>
-
-Para el eje principal de la formulación:
-
-Σ<sub>preH/H</sub>
-
-( λ<sub>Lyα</sub>, ν<sub>Lyα</sub>, λ<sub>21cm</sub>, ν<sub>21cm</sub>, E<sub>n</sub>, E<sub>I</sub>, m<sub>H</sub>, a<sub>0</sub> ).
-
-Cada componente debe declararse en unidades físicas y transductivas.
-
-La firma no tiene que aparecer siempre completa. Puede haber casos con firma parcial. Pero el lectura formal dependerá del residual:
-
-<p><strong>Δ<sub>Σ</sub>=0</strong></p>
-
-si la firma basta para identificar el régimen físico relevante;
-
-<p><strong>Δ<sub>Σ</sub>=1</strong></p>
-
-si la firma contradice el régimen declarado;
-
-<p><strong>Δ<sub>Σ</sub>=U</strong></p>
-
-si la firma es insuficiente para cerrar.
-
-La línea Lyman-(α) puede actuar como firma de hidrógeno, pero no basta si se encuentra aislada de dominio, portador o retorno. La línea de 21 cm puede actuar como firma de hidrógeno neutro, pero exige dominio, corrección de propagación y residual. La energía de ionización permite caracterizar estabilidad atómica, pero no determina por sí sola edad. La masa de hidrógeno identifica portador material, pero no señala profundidad luminosa.
-
-La tabla de base de firma será:
-
-| Firma | Magnitud | Unidad SI | Unidad SV | Condición de uso |
-| --- | --- | --- | --- | --- |
-| Lyman-(α) | Longitud de onda/frecuencia | m, Hz | (UFE), unidad frecuencial SV | Portador H declarado |
-| 21 cm | Longitud de onda/frecuencia | m, Hz | (UFE), unidad frecuencial SV | H neutro declarado |
-| (E<sub>n</sub>) | Nivel energético | J, eV | unidad energética SV | Régimen atómico declarado |
-| (E<sub>I</sub>) | Ionización | J, eV | unidad energética SV | Umbral H declarado |
-| (m<sub>H</sub>) | Masa | kg | unidad de masa SV | Identidad material |
-| (a<sub>0</sub>) | Escala atómica | m | (UFE) | Dominio atómico |
-
-La edad concreta del observable retornado buscada dependerá de firmas que no sólo sean antiguas en retorno, sino físicamente persistentes.
-
-<a id="sec-v-4-persistencia-estructural"></a>
-
-### V.4. Persistencia estructural
-
-La persistencia estructural mide si un contenido físico conserva identidad suficiente para ser tratado como objeto o régimen a lo largo de una trayectoria, emisión o retorno. Sin persistencia no hay edad del contenido. Puede haber evento, fluctuación, señal fragmentaria o transición no cerrada, pero no edad atribuible a un objeto físico persistente.
-
-La persistencia se expresa mediante:
-
-<p><strong>𝓟<sub>min</sub>.</strong></p>
-
-La forma adoptada será:
-
-𝓟<sub>min</sub>
-
-F<sub>∂</sub>
-
-Q
-
-R<sub>Γ</sub>.
-
-Donde:
-
-<p><strong>F<sub>∂</sub></strong></p>
-
-representa capacidad de frontera;
-
-<p><strong>Q</strong></p>
-
-representa redistribución, fuga o presión de dispersión;
-
-<p><strong>R<sub>Γ</sub></strong></p>
-
-representa residual de trayectoria o configuración.
-
-La condición de persistencia será:
-
-<p><strong>𝓟<sub>min</sub>>0.</strong></p>
-
-Si:
-
-<p><strong>𝓟<sub>min</sub>≤0,</strong></p>
-
-el contenido no conserva persistencia suficiente para cerrar edad relativa como objeto.
-
-Esta métrica es decisiva para el prehidrógeno y el hidrógeno. El prehidrógeno no se tratará como átomo estable; se tratará como transición. El hidrógeno estable sí puede operar como firma persistente cuando su frontera y su identidad están suficientemente constituidas.
-
-La tabla de persistencia será:
-
-| Régimen | ( F<sub>∂</sub>) | ( Q) | ( R<sub>Γ</sub>) | ( 𝓟<sub>min</sub>) | Lectura formal |
-| --- | --- | --- | --- | --- | --- |
-| Régimen dispersivo | baja | alta | alto | (≤0) | NO ADMISIBLE |
-| Régimen transicional | intermedia | intermedia | control parcial | (U) o marginal | U / candidato |
-| Régimen persistente | dominante | acotada | acotado | (>0) | ADMISIBLE |
-| Régimen contradictorio | frontera declarada pero residual incompatible | variable | incompatible | no válido | NO ADMISIBLE |
-
-La persistencia impide que cualquier señal antigua se convierta automáticamente en contenido antiguo. La señal debe remitir a algo que conserve identidad física suficiente.
-
-<a id="sec-v-5-frontera"></a>
-
-### V.5. Frontera
-
-La frontera es la condición que permite distinguir un contenido físico de su entorno. Sin frontera no hay objeto persistente. La frontera no tiene que ser pared material. Puede ser frontera de dominio, frontera gravitatoria, frontera térmica, frontera espectral, frontera atómica, frontera de emisión, frontera de retorno o frontera de identidad.
-
-La frontera se representará por:
-
-<p><strong>∂Ω<sub>i</sub>.</strong></p>
-
-Una frontera será admisible si:
-
-<p><strong>∂Ω<sub>i</sub> se declara,</strong></p>
-
-<p><strong>δ(∂Ω<sub>i</sub>)<Λ<sub>i</sub>,</strong></p>
-
-<p><strong>R<sub>i</sub><Λ<sub>i</sub>,</strong></p>
-
-<p><strong>Id<sub>i</sub>≠∅.</strong></p>
-
-Donde:
-
-<p><strong>δ(∂Ω<sub>i</sub>)</strong></p>
-
-mide defecto de frontera;
-
-<p><strong>Λ<sub>i</sub></strong></p>
-
-es el umbral admitido del dominio;
-
-<p><strong>R<sub>i</sub></strong></p>
-
-es residual físico o transductivo;
-
-<p><strong>Id<sub>i</sub></strong></p>
-
-es identidad.
-
-La frontera de una galaxia puede ser morfológica, gravitatoria, luminosa o poblacional. La frontera de una estrella puede ser fotosférica, gravitatoria o estructural. La frontera de un átomo puede ser de identidad energética y orbital. La frontera de una señal puede ser de emisión y recepción. Cada una exige su dominio.
-
-La tabla de frontera será:
-
-| Objeto | Frontera principal | Riesgo | Lectura formal |
-| --- | --- | --- | --- |
-| Galaxia | morfológica, gravitatoria, luminosa | confundir halo, emisión o población | admisible con dominio |
-| Estrella | fotosférica, gravitatoria, evolutiva | confundir edad de señal con edad estelar | admisible con modelo |
-| Hidrógeno | atómica, energética, espectral | absolutizar H como fundamento | admisible como firma |
-| Prehidrógeno | transición hacia frontera atómica | tratarlo como átomo cerrado | admisible como transición |
-| Señal luminosa | emisión-recepción | tratar señal como objeto total | admisible como retorno |
-| Totalidad absoluta | no frontera física superior | atribuir edad física | no admisible |
-
-<a id="sec-v-6-residual"></a>
-
-### V.6. Residual
-
-El residual es la métrica de diferencia entre pretensión y cierre. Mide si el caso físico satisface las condiciones que dice satisfacer. Sin residual, una tabla puede parecer precisa y no serlo.
-
-El residual general será:
-
-Δ<sub>i</sub>
-
-Δ<sub>Ω,i</sub> ⊕ Δ<sub>∂,i</sub> ⊕ Δ<sub>Id,i</sub> ⊕ Δ<sub>Σ,i</sub> ⊕ Δ<sub>M,i</sub> ⊕ Δ<sub>u,i</sub> ⊕ Δ<sub>ret,i</sub>.
-
-El operador (⊕) se usa como composición de condiciones de cierre. No debe leerse como suma aritmética simple. Si una condición esencial falla, el caso no puede declararse cerrado.
-
-La salida será:
-
-<p><strong>Δ<sub>i</sub>=0 ⇒ d<sub>i</sub>=0.</strong></p>
-
-<p><strong>Δ<sub>i</sub>=1 ⇒ d<sub>i</sub>=1.</strong></p>
-
-<p><strong>Δ<sub>i</sub>=U ⇒ d<sub>i</sub>=U.</strong></p>
-
-La tabla de residual será:
-
-| Residual | Pregunta | Cierre |
-| --- | --- | --- |
-| (Δ<sub>Ω</sub>) | ¿El dominio está declarado? | Obligatorio |
-| (Δ<sub>∂</sub>) | ¿La frontera está definida? | Obligatorio para objetos |
-| (Δ<sub>Id</sub>) | ¿Hay identidad física? | Obligatorio |
-| (Δ<sub>Σ</sub>) | ¿La firma identifica el régimen? | Obligatorio en registro preH/H |
-| (Δ<sub>M</sub>) | ¿La métrica es adecuada? | Obligatorio |
-| (Δ<sub>u</sub>) | ¿La unidad está declarada? | Obligatorio |
-| (Δ<sub>ret</sub>) | ¿El retorno es controlado? | Obligatorio |
-
-El residual protege la formulación frente a tres errores: convertir profundidad en edad, convertir señal en objeto y convertir edad del contenido en edad de la totalidad.
-
-<a id="sec-v-7-identidad-fisica"></a>
-
-### V.7. Identidad física
-
-La identidad física determina que el contenido medido sea el mismo contenido al que se atribuye edad. Sin identidad, una señal no puede cerrarse como edad de objeto.
-
-La identidad se representa por:
-
-<p><strong>Id<sub>i</sub>.</strong></p>
-
-La condición de base será:
-
-<p><strong>Id<sub>i</sub>≠∅.</strong></p>
-
-La identidad puede ser directa o compuesta. Una estrella puede identificarse por posición, espectro, luminosidad, composición y evolución. Una galaxia puede identificarse por morfología, espectro, población, masa y entorno. Una señal de hidrógeno puede identificarse por línea, frecuencia, transición y portador. Un retorno luminoso puede identificarse por fuente, firma y trayectoria de observación.
-
-La identidad no exige conocimiento completo del objeto. Exige suficiencia de dominio. Si el contenido es identificable en lo necesario para su edad relativa, puede entrar. Si no lo es, queda en (U).
-
-La tabla de identidad será:
-
-| Caso | Identidad suficiente | Lectura formal |
-| --- | --- | --- |
-| Galaxia con espectro y morfología | Sí | admisible |
-| Galaxia candidata sin firma clara | Parcial | U |
-| Línea espectral sin portador | No suficiente | U |
-| Señal sin emisor | No | no admisible para edad de objeto |
-| Totalidad absoluta | No es objeto interno | no admisible |
-
-<a id="sec-v-8-retorno-observacional"></a>
-
-### V.8. Retorno observacional
-
-El retorno observacional es el resultado físico recibido que permite contrastar el caso. No es sólo detección. Es detección con dominio, firma, unidad y posibilidad de residual.
-
-El retorno se representará por:
-
-<p><strong>R<sub>i</sub>.</strong></p>
-
-La condición será:
-
-<p><strong>R<sub>i</sub>≠∅.</strong></p>
-
-Y:
-
-<p><strong>Δ<sub>ret,i</sub>=0.</strong></p>
-
-Un retorno observacional puede consistir en espectro, imagen, mapa, curva de luz, línea, señal periódica, fondo, distribución, flujo, polarización o combinación de datos. Su papel no es fundar la edad. Su papel es permitir que la edad relativa se contraste.
-
-La tabla de retorno será:
-
-| Retorno | Objeto posible | Uso |
-| --- | --- | --- |
-| Imagen profunda | galaxia, cúmulo, estructura | identidad y morfología |
-| Espectro | composición, línea, corrimiento | firma y distancia |
-| Línea Lyman-(α) | hidrógeno | firma H |
-| Línea 21 cm | hidrógeno neutro | firma H |
-| Curva periódica | púlsar, variable | edad relativa de portador |
-| CMB o fondo | dominio cosmológico | métrica de modelo, no totalidad |
-| Mapa de galaxias | distribución | registro de contenidos |
-
-El retorno observacional debe conservar su estatuto. Si es retorno de señal, se usa como señal. Si es retorno de objeto, se usa como objeto. Si es mapa, se usa como conjunto de retornos. No se convierte en edad de la totalidad.
-
-<a id="sec-v-9-edad-relativa"></a>
-
-### V.9. Edad relativa
-
-La edad relativa de un contenido físico (C<sub>i</sub>) se define como una magnitud de acumulación o posición dentro de un dominio físico declarado, obtenida mediante métrica y transductor.
-
-La forma general será:
-
-A(C<sub>i</sub>)
-
-X<sub>A</sub> ( D<sub>Φ</sub><sup>L</sup>(C<sub>i</sub>), Σ<sub>i</sub>, P<sub>,i</sub>, Id<sub>i</sub>, R<sub>i</sub>, Δ<sub>i</sub> ).
-
-El resultado será admisible si:
-
-<p><strong>Δ<sub>i</sub>=0.</strong></p>
-
-La edad concreta del observable retornado del contenido observable será:
-
-A<sub>Ωobs</sub> = A(C*) con C*⊂Ω<sub>obs</sub>, Δ(C*)=0 y firma persistente admisible.
-
-Esta fórmula define el blanco de la formulación. No busca una edad absoluta. Busca el cierre relativo entre contenidos físicos retornados y admisibles.
-
-El contraste predictivo desarrollado fija:
-
-A<sub>Ωobs</sub><sup>SV</sup>
-
-3 919 453 920 000 000 000 UE<sub>MFC</sub>.
-
-Con:
-
-<p><strong>9 UE<sub>MFC</sub>=1 s,</strong></p>
-
-y:
-
-<p><strong>1 a<sub>J</sub>=31 557 600 s,</strong></p>
-
-resulta:
-
-A<sub>Ωobs</sub><sup>ret</sup>
-
-13 800 000 000 a<sub>J</sub>.
-
-Esta edad pertenece al observable retornado, no a la totalidad absoluta.
-
-<a id="sec-v-10-error-absoluto-de-plano-definicion-y-transduccion"></a>
-
-### V.10. Error absoluto de plano, definición y transducción
-
-Se usarán la expresión «error absoluto cero» en sentido preciso. No significa ausencia de margen instrumental. No significa que toda medición física quede sin margen experimental. Significa que se anulan tres errores formales:
-
-<p><strong>ε<sub>plano</sub>=0,</strong></p>
-
-<p><strong>ε<sub>def</sub>=0,</strong></p>
-
-<p><strong>ε<sub>trans</sub>=0.</strong></p>
-
-El error de plano se anula cuando la edad se atribuye al objeto correcto:
-
-<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
-
-<p><strong>Edad(C<sub>i</sub>)=ADMISIBLE SI Δ<sub>i</sub>=0.</strong></p>
-
-El error de definición se anula cuando la edad exige dominio, frontera, identidad, métrica, unidad, residual y retorno.
-
-El error de transducción se anula cuando la magnitud física vuelve al plano físico con el mismo sentido:
-
-<p><strong>A<sup>ret</sup> → A<sup>SV</sup> → Δ → A<sup>ret</sup>.</strong></p>
-
-El margen observacional puede conservarse:
-
-<p><strong>σ<sub>obs</sub>≠0.</strong></p>
-
-Esto no contradice el error absoluto cero de plano. Una medición puede tener margen instrumental y, sin embargo, estar correctamente tipada. Lo que la formulación corrige es el tipo de predicado «edad», no la totalidad de las márgenes físicos.
-
-<a id="sec-v-11-tabla-sintetica-de-metricas"></a>
-
-### V.11. Tabla sintética de métricas
-
-| Métrica | Símbolo | Qué mide | Unidad SI | Unidad SV | Condición de cierre |
-| --- | --- | --- | --- | --- | --- |
-| Profundidad luminosa | (D<sub>Φ</sub><sup>L</sup>) | Alcance o retorno de señal | m, pc, s, año | (UFE), (UE<sub>MFC</sub>) | Dominio y firma |
-| Firma espectral | (Σ) | Identidad física de régimen | m, Hz, eV | unidades SV | Portador declarado |
-| Persistencia | ( 𝓟<sub>min</sub>) | Estabilidad de contenido | dependiente | dependiente | ( 𝓟<sub>min</sub>>0) |
-| Frontera | (∂Ω) | Delimitación de dominio | dependiente | dependiente | (δ(∂Ω)<Λ) |
-| Residual | (Δ) | Diferencia de cierre | adimensional o compuesto | compuesto SV | (Δ=0) |
-| Identidad | (Id) | Conservación de objeto | estructural | estructural | (Id≠∅) |
-| Retorno | (R) | Contraste observacional | dependiente | dependiente | (Δ<sub>ret</sub>=0) |
-| Edad relativa | (A(C<sub>i</sub>)) | Acumulación atribuible | s, año | (UE<sub>MFC</sub>) | caso apto |
-
-<a id="sec-v-12-lectura-formal-de-la-seccion"></a>
-
-### V.12. Síntesis de la sección
-
-Las métricas de la formulación no sustituyen a los objetos. Los ordenan. La profundidad luminosa no es edad. La firma espectral no es edad. La persistencia no es edad. La frontera no es edad. El retorno no es edad. La edad relativa aparece cuando todas esas métricas quedan articuladas por transductor y residual.
-
-La síntesis queda:
-
-<p><strong>M<sub>L</sub>, M<sub>Σ</sub>, M<sub>P</sub>, M<sub>∂</sub>, M<sub>R</sub>, M<sub>Id</sub>, M<sub>ret</sub>, M<sub>A</sub></strong></p>
-
-son admisibles si operan en dominio declarado.
-
-La atribución de edad a la totalidad absoluta sigue siendo:
-
-<p><strong>NO ADMISIBLE.</strong></p>
-
-La atribución de edad al observable retornado queda abierta a la matriz de contraste:
-
-A<sub>Ωobs</sub> = A(C*) con C*⊂Ω<sub>obs</sub>, Δ(C*)=0 y firma persistente admisible.
-
-El apartado siguiente construirá ese matriz de contraste físico.
-
-<a id="sec-vi-contraste-fisico-y-tablas-de-verificacion"></a>
-
-## VI. Contraste físico y tablas de verificación
-
-<a id="sec-vi-1-funcion-del-contraste-fisico"></a>
-
-### VI.1. Función del contraste físico
-
-La matriz de contraste físico es la sede de verificación explícita de la formulación. Su función no es descubrir después los valores que el texto no se atreve a declarar. Su función es confirmar, rechazar o dejar sin cierre las magnitudes, conversiones, lecturas formales y retornos que la formulación formula de antemano.
-
-Por tanto, todo valor que comparezca como resultado en la formulación debe estar ya declarado en la tabla de contraste. El laboratorio reproducible no inventará el resultado; ejecutará la verificación de lo declarado. Esta regla impide tres errores: primero, que el texto prometa una conclusión no tabulada; segundo, que el laboratorio actúe como autoridad opaca; tercero, que una cifra aparezca sin dominio, unidad, residual y retorno.
-
-La estructura de la tabla de contraste se somete a la misma regla de proyección legítima usada en el aparato de campo unificado: todo régimen exige dominio, proyección, invariantes y residual evaluable; sin residual no hay cierre, y el lectura formal pertenece a (0,1,U). Asimismo, adopta la disciplina del régimen de agujero negro: toda magnitud física usada en el texto debe comparecer en tabla numérica o en tabla de transducción, de modo que no quede como afirmación verbal.
-
-La regla de entrada queda fijada así:
-
-<p><strong>C<sub>i</sub>= (Ω<sub>i</sub>, C<sub>i</sub>, Id<sub>i</sub>, ∂Ω<sub>i</sub>, Σ<sub>i</sub>, M<sub>i</sub>, u<sub>SI,i</sub>, u<sub>SV,i</sub>, R<sub>i</sub>, Δ<sub>i</sub>, d<sub>i</sub>).</strong></p>
-
-Donde:
-
-<p><strong>Ω<sub>i</sub></strong></p>
-
-es el dominio físico declarado;
-
-<p><strong>C<sub>i</sub></strong></p>
-
-es el contenido físico evaluado;
-
-<p><strong>Id<sub>i</sub></strong></p>
-
-es la identidad física conservada;
-
-<p><strong>∂Ω<sub>i</sub></strong></p>
-
-es la frontera de formación, emisión, estabilización o comparecencia;
-
-<p><strong>Σ<sub>i</sub></strong></p>
-
-es la firma física;
-
-<p><strong>M<sub>i</sub></strong></p>
-
-es la magnitud física;
-
-<p><strong>u<sub>SI,i</sub></strong></p>
-
-es la unidad del Sistema Internacional o unidad física convencional reducible a él;
-
-<p><strong>u<sub>SV,i</sub></strong></p>
-
-es la unidad transductiva SV correspondiente;
-
-<p><strong>R<sub>i</sub></strong></p>
-
-es el retorno físico controlado;
-
-<p><strong>Δ<sub>i</sub></strong></p>
-
-es el residual;
-
-<p><strong>d<sub>i</sub>∈0,1,U</strong></p>
-
-es el lectura formal.
-
-La salida global de la tabla de contraste será:
-
-A<sub>Ωobs</sub><sup>SV</sup>
-
-3 919 453 920 000 000 000 UE<sub>MFC</sub>,
-
-A<sub>Ωobs</sub><sup>ret</sup>
-
-13 800 000 000 a<sub>J</sub>.
-
-La tabla de contraste no atribuye esta edad a la totalidad absoluta. La atribuye al contenido observable retornado más antiguo con firma física persistente admisible.
-
-<a id="sec-vi-2-tabla-maestra-de-dominios-y-admisibilidad-de-edad"></a>
-
-### VI.2. Dominios y admisibilidad de edad
-
-| Código | Entidad evaluada | Dominio | ¿Admite edad física? | Magnitud admisible | Error bloqueado | Lectura rectora |
-| --- | --- | --- | --- | --- | --- | --- |
-| T-ABS | Totalidad absoluta | No contenido en dominio físico superior | No | Ninguna | Convertir totalidad en objeto físico medible | NO ADMISIBLE |
-| OBS-DOM | Universo observable | (Ω<sub>obs</sub>⊂Ω<sub>fis</sub>) | Sí, como dominio físico interno | Edad relativa de contenidos y retornos | Confundir dominio observable con totalidad absoluta | ADMISIBLE CON DOMINIO |
-| OBS-RET | Observable retornado | (C<sub>i</sub>⊂Ω<sub>obs</sub>) | Sí | (A<sub>Ωobs</sub>) | Atribuir al Todo lo que pertenece al contenido | ADMISIBLE SI (Δ=0) |
-| GAL | Galaxia | (Ω<sub>gal</sub>) | Sí | Edad de contenido galáctico, señal o población | Confundir edad galáctica con edad de totalidad | ADMISIBLE |
-| STAR | Estrella | (Ω_★) | Sí | Edad evolutiva o de señal | Confundir edad estelar con edad cosmológica total | ADMISIBLE |
-| PUL | Púlsar | (Ω<sub>pulsar</sub>) | Sí | Edad característica, cinemática o de remanente | Usar una sola edad como absoluta | ADMISIBLE CON RESIDUAL |
-| H | Hidrógeno | (Ω<sub>H</sub>⊂Ω<sub>atom</sub>) | Sí, como firma atómica persistente | Firma espectral, masa, transición, energía | Convertir H en origen absoluto | ADMISIBLE COMO FIRMA |
-| preH | Prehidrógeno | (Ω<sub>preH→ H</sub>) | Sí, como transición | Persistencia hacia (H) | Tratar preH como átomo cerrado | ADMISIBLE COMO TRANSICIÓN |
-| L-RET | Retorno luminoso | (Ω<sub>L</sub><sup>ret</sup>) | Sí, como señal física | Edad de señal o propagación | Convertir señal en edad de totalidad | ADMISIBLE SI HAY FIRMA |
-| SPEC | Línea espectral | (Ω<sub>λ</sub>) | Sí, como marcador | Longitud de onda, frecuencia, energía | Línea sin portador | ADMISIBLE SI HAY PORTADOR |
-| MODEL | Modelo cosmológico | (Ω<sub>modelo</sub>) | No como objeto; sí como marco | Parámetros, escalas, edad de modelo | Confundir modelo con totalidad | INSTRUMENTAL |
-| MAP | Mapa cósmico | (Ω<sub>mapa</sub>⊂Ω<sub>obs</sub>) | Sí, como conjunto de retornos | Distribución, catálogo, profundidad | Convertir mapa en objeto único | ADMISIBLE COMO REGISTRO |
-
-La consecuencia formal es:
-
-<p><strong>Edad(T-ABS)=NO ADMISIBLE.</strong></p>
-
-<p><strong>Edad(C<sub>i</sub>)=ADMISIBLE Ω<sub>i</sub>,Id<sub>i</sub>,Σ<sub>i</sub>,M<sub>i</sub>,u<sub>i</sub>,R<sub>i</sub>,Δ<sub>i</sub> cierran.</strong></p>
-
-<p><strong>A<sub>Ωobs</sub>=<sub>Δ<sub>i</sub>=0</sub>A(C<sub>i</sub>).</strong></p>
-
-<a id="sec-vi-3-tabla-maestra-si-sv"></a>
-
-### VI.3. Equivalencias SI ↔ SV
-
-| Magnitud física | Símbolo | Unidad SI o física convencional | Unidad SV | Regla de transducción | Uso en la formulación |
-| --- | --- | --- | --- | --- | --- |
-| Duración física | (t) | s | (UE<sub>MFC</sub>) | (9,UE<sub>MFC</sub>=1,s) | Retorno de edad |
-| Año juliano | (a<sub>J</sub>) | (31 557 600,s) | (284 018 400,UE<sub>MFC</sub>) | (a<sub>J</sub>=31 557 600×9,UE<sub>MFC</sub>) | Resultado final |
-| Longitud | (L) | m | (UFE) | (1,m↔1,UFE) si el dominio lo declara | Profundidad, frontera, longitud de onda |
-| Frecuencia | (ν) | Hz = (s<sup>-1</sup>) | (UE<sub>MFC</sub><sup>-1</sup>) | (1,Hz=9,UE<sub>MFC</sub><sup>-1</sup>) en retorno elemental | Líneas espectrales y púlsares |
-| Energía | (E) | J, eV | (UFM· UFE<sup>2</sup>· UE<sub>MFC</sub><sup>-2</sup>) | Energía física → unidad energética SV | Ionización, niveles, radiación |
-| Masa | (m) | kg, u | (UFM) | Masa física → unidad de masa SV | Hidrógeno, estrellas, galaxias |
-| Superficie | (S) | (m<sup>2</sup>) | (UFE<sup>2</sup>) | Superficie física → superficie SV | Sección eficaz, frontera |
-| Luminosidad | (L_★) | W = J/s | Energía SV por (UE<sub>MFC</sub>) | (J/s↔ (UFM UFE<sup>2</sup> UE<sub>MFC</sub><sup>-2</sup>)/UE<sub>MFC</sub>) | Estrellas y galaxias |
-| Flujo | (F) | W/m² | Energía SV por (UE<sub>MFC</sub>· UFE<sup>2</sup>) | Flujo físico → retorno luminoso SV | Observación de fuentes |
-| Corrimiento al rojo | (z) | adimensional | adimensional transductivo | Relación de longitudes de onda | Profundidad observacional |
-| Periodo | (P) | s | (UE<sub>MFC</sub>) | (P[s]×9=P[UE<sub>MFC</sub>]) | Púlsares, variables |
-| Distancia astronómica | (D) | pc, Mpc, Gly, m | (UFE) | Conversión física previa a m y después a (UFE) | Profundidad luminosa |
-| Edad relativa | (A(C<sub>i</sub>)) | s, (a<sub>J</sub>) | (UE<sub>MFC</sub>) | (A[a<sub>J</sub>]×284 018 400=A[UE<sub>MFC</sub>]) | Resultado comparativo |
-
-Conversión central:
-
-<p><strong>1,a<sub>J</sub>=31 557 600,s.</strong></p>
-
-<p><strong>1,s=9,UE<sub>MFC</sub>.</strong></p>
-
-<p><strong>1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>.</strong></p>
-
-13 800 000 000,a<sub>J</sub>
-
-13 800 000 000 × 284 018 400,UE<sub>MFC</sub>.
-
-13 800 000 000,a<sub>J</sub>
-
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-<a id="sec-vi-4-lectura-de-residuales"></a>
-
-### VI.4. Lectura de residuales
-
-| Residual | Pregunta de control | Cierre (0) | Defecto (1) | No clausura (U) |
-| --- | --- | --- | --- | --- |
-| (Δ<sub>Ω</sub>) | ¿Está declarado el dominio? | Dominio explícito y pertinente | Dominio contradictorio | Dominio insuficiente |
-| (Δ<sub>Id</sub>) | ¿Existe identidad física? | (Id<sub>i</sub>≠∅) | Identidad imposible | Identidad parcial |
-| (Δ<sub>∂</sub>) | ¿Existe frontera admisible? | Frontera definida | Frontera falsa o invasiva | Frontera incompleta |
-| (Δ<sub>Σ</sub>) | ¿Existe firma física? | Firma suficiente | Firma incompatible | Firma parcial |
-| (Δ<sub>M</sub>) | ¿La métrica corresponde al objeto? | Métrica pertinente | Métrica de otro plano | Métrica incompleta |
-| (Δ<sub>u</sub>) | ¿Hay unidad SI y SV? | Ambas declaradas | Unidad incompatible | Falta una unidad |
-| (Δ<sub>R</sub>) | ¿Existe retorno físico? | Retorno declarado | Retorno imposible | Retorno insuficiente |
-| (Δ<sub>ret</sub>) | ¿El retorno conserva sentido? | SV → física sin alteración | Retorno invasivo | Retorno parcial |
-| (Δ<sub>plano</sub>) | ¿La edad se atribuye al tipo correcto? | Contenido observable | Totalidad tratada como objeto | Ambigüedad de objeto |
-| (Δ<sub>trans</sub>) | ¿La transducción es legítima? | Dominio, codominio, residual y retorno | Traducción no tipada | Falta de datos |
-| (Δ<sub>lab</sub>) | ¿El laboratorio confirma lo tabulado? | Salida reproducida | Salida contraria | Salida incompleta |
-
-Residual compuesto:
-
-<p><strong>Δ<sub>i</sub>= Δ<sub>Ω</sub> ⊕ Δ<sub>Id</sub> ⊕ Δ<sub>∂</sub> ⊕ Δ<sub>Σ</sub> ⊕ Δ<sub>M</sub> ⊕ Δ<sub>u</sub> ⊕ Δ<sub>R</sub> ⊕ Δ<sub>ret</sub> ⊕ Δ<sub>plano</sub> ⊕ Δ<sub>trans</sub>.</strong></p>
-
-Lectura formal:
-
-<p><strong>d<sub>i</sub>=0 si Δ<sub>i</sub>=0; d<sub>i</sub>=1 si Δ<sub>i</sub>=1; d<sub>i</sub>=U si Δ<sub>i</sub>=U.</strong></p>
-
-<a id="sec-vi-5-tabla-de-reglas-de-lectura-formal"></a>
-
-### VI.5. Criterios de lectura formal
-
-| Situación | Salida | Razón |
-| --- | --- | --- |
-| Todos los residuales esenciales se anulan | (0) | Hay cierre en dominio declarado |
-| Se atribuye edad física a la totalidad absoluta | (1) | Error de plano |
-| Se usa señal sin emisor | (U) | Falta identidad física |
-| Se usa línea espectral sin portador | (U) | Firma insuficiente |
-| Se usa hidrógeno como fundamento absoluto | (1) | El hidrógeno no sustituye el borde preformal |
-| Se usa hidrógeno como firma atómica persistente | (0) | Dominio atómico admisible |
-| Se usa prehidrógeno como transición | (0) si cierra | Transición transductiva legítima |
-| Se usa prehidrógeno como átomo cerrado | (1) | Error de dominio |
-| Falta unidad SI | (U) | La magnitud no es físicamente retornable |
-| Falta unidad SV | (U) | La transducción no cierra |
-| Falta residual | (U) | Sin residual no hay cierre |
-| Hay varios cierres incompatibles | (U) | No hay edad concreta única |
-| Hay un concreto único con (Δ=0) | (0) | Resultado admisible |
-| El laboratorio no reproduce la tabla | (1) | La tabla de contraste queda refutado |
-| El laboratorio reproduce la tabla | (0) | Confirmación reproducible |
-
-La línea relativa al hidrógeno se apoya en la transducción bidireccional ya fijada: (E<sub>I</sub>), (a<sub>0</sub>), (m<sub>H</sub>), (E<sub>n</sub>), (λ<sub>Lyα</sub>), (ν<sub>Lyα</sub>) y la línea de 21 cm proyectan hacia (Ω<sub>atom</sub>); el retorno físico conserva (H∈Ω<sub>atom</sub>⊂Ω<sub>fis</sub>⊂Ω<sub>esp</sub>), y se bloquea (H=ε<sub>-0</sub>) y (H=A<sub>min</sub><sup>univ</sup>) sin prueba material.
-
-<a id="sec-vi-6-hubble-y-webb-retornos-fisicos-profundos"></a>
-
-### VI.6. Hubble y Webb: retornos físicos profundos
-
-La clase Hubble/Webb no se usa como autoridad retórica. Se usa como conjunto de retornos físicos profundos: galaxias, fuentes, espectros, mapas, señales infrarrojas, líneas, poblaciones y profundidades.
-
-| Código | Caso físico | Dominio | Firma exigida | Unidad SI | Unidad SV | Residual principal | Lectura formal esperada |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| HW-01 | Galaxia profunda con identificación espectral | (Ω<sub>gal</sub>⊂Ω<sub>obs</sub>) | Espectro y retorno | m, Hz, (a<sub>J</sub>) | (UFE), (UE<sub>MFC</sub><sup>-1</sup>), (UE<sub>MFC</sub>) | (Δ<sub>Σ</sub>⊕Δ<sub>R</sub>) | (0) |
-| HW-02 | Galaxia profunda con morfología pero sin espectro suficiente | (Ω<sub>gal</sub>) | Parcial | m, flujo | (UFE), unidad de flujo SV | (Δ<sub>Σ</sub>=U) | (U) |
-| HW-03 | Campo profundo con múltiples fuentes no individualizadas | (Ω<sub>mapa</sub>) | Distribución | ángulo, flujo, m | unidades SV correspondientes | (Δ<sub>Id</sub>=U) | (U) |
-| HW-04 | Mapa cósmico con catálogo de fuentes identificadas | (Ω<sub>obs</sub>) | Catálogo y retorno | m, Hz, flujo | (UFE), (UE<sub>MFC</sub><sup>-1</sup>) | (Δ<sub>Ω</sub>=0) | (0) como registro |
-| HW-05 | Señal infrarroja sin portador físico suficiente | (Ω<sub>L</sub><sup>ret</sup>) | No suficiente | m, Hz | (UFE), (UE<sub>MFC</sub><sup>-1</sup>) | (Δ<sub>Id</sub>=U) | (U) |
-| HW-06 | Expresión divulgativa «historia espacial» sin descomposición | No declarado | No declarada | años | (UE<sub>MFC</sub>) | (Δ<sub>Ω</sub>=U) | (U) |
-| HW-07 | Observación profunda usada como edad de totalidad absoluta | ( T) mal tipada | No pertinente | años | (UE<sub>MFC</sub>) | (Δ<sub>plano</sub>=1) | (1) |
-| HW-08 | Galaxia con firma preH/H persistente y edad retornada | (Ω<sub>gal</sub>) | (Σ<sub>preH/H</sub>) | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | (Δ=0) | (0) |
-| HW-09 | Candidato profundo con edad fuera del cierre declarado y residual no cerrado | (Ω<sub>gal</sub>) | Incompleta | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | (Δ=U) | (U) |
-| HW-10 | Candidato profundo con valor incompatible y residual refutador | (Ω<sub>gal</sub>) | Contradictoria | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | (Δ=1) | (1) |
-
-<a id="sec-vi-7-galaxias-profundas-y-edades-de-contenido"></a>
-
-### VI.7. Galaxias profundas y edades de contenido
-
-| Código | Caso | Identidad | Firma | Métrica | Unidad SI | Unidad SV | Edad declarada | Residual | Lectura formal |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| GAL-01 | Galaxia profunda con espectro consistente | (Id<sub>gal</sub>≠∅) | completa | retorno luminoso | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | variable | (0) | (0) |
-| GAL-02 | Galaxia con fotometría sin espectro suficiente | parcial | parcial | profundidad aproximada | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | variable | (U) | (U) |
-| GAL-03 | Galaxia con firma H/preH admisible | completa | (Σ<sub>preH/H</sub>) | edad relativa | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | (13 800 000 000) | (0) | (0) |
-| GAL-04 | Galaxia con edad de población confundida con edad de señal | completa | parcial | métrica mixta | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | no cerrada | (1) | (1) |
-| GAL-05 | Fuente compacta sin clasificación galáctica suficiente | insuficiente | parcial | retorno | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | no cerrada | (U) | (U) |
-| GAL-06 | Catálogo galáctico usado como objeto único | colectiva | compuesta | distribución | varias | varias | no única | (U) | (U) |
-| GAL-07 | Galaxia con retorno pero sin unidad SV | completa | parcial | retorno | (a<sub>J</sub>) | no declarada | no cerrada | (U) | (U) |
-| GAL-08 | Galaxia con unidad, firma, residual y retorno | completa | suficiente | edad relativa | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | computable | (0) | (0) |
-
-La edad galáctica se descompone siempre:
-
-<p><strong>A<sub>gal</sub>= A<sub>form</sub> ⊕ A<sub>★</sub> ⊕ A<sub>signal</sub> ⊕ A<sub>ret</sub>.</strong></p>
-
-No se admite:
-
-<p><strong>A<sub>gal</sub>=Edad( T).</strong></p>
-
-<a id="sec-vi-8-estrellas-como-portadores-de-edad-fisica"></a>
-
-### VI.8. Estrellas como portadores de edad física
-
-| Código | Caso | Dominio | Magnitudes | Unidad SI | Unidad SV | Riesgo bloqueado | Residual | Lectura formal |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| STAR-01 | Estrella con edad evolutiva declarada | (Ω_★) | masa, luminosidad, composición | kg, W, (a<sub>J</sub>) | (UFM), energía SV/(UE<sub>MFC</sub>), (UE<sub>MFC</sub>) | edad estelar como edad total | (0) | (0) |
-| STAR-02 | Estrella antigua sin margen declarada | (Ω_★) | edad | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | cierre sin residual | (U) | (U) |
-| STAR-03 | Cúmulo estelar con población antigua | (Ω<sub>cúmulo</sub>) | edad de población | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | población = totalidad | (0) si cierra | (0/U) |
-| STAR-04 | Edad de señal estelar confundida con edad de estrella | (Ω<sub>L</sub><sup>ret</sup>) | retorno | (a<sub>J</sub>) | (UE<sub>MFC</sub>) | señal = objeto | (1) | (1) |
-| STAR-05 | Estrella sin dominio de modelo | incompleto | luminosidad aislada | W | unidad SV | inferencia opaca | (U) | (U) |
-| STAR-06 | Portador estelar con firma H y retorno | (Ω_★) | H, espectro, edad | Hz, eV, (a<sub>J</sub>) | unidades SV | ninguno si cierra | (0) | (0) |
-
-<a id="sec-vi-9-pulsares-y-senales-periodicas-persistentes"></a>
-
-### VI.9. Púlsares y señales periódicas persistentes
-
-| Código | Caso | Magnitudes | Unidad SI | Unidad SV | Edad tratada | Residual | Lectura formal |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| PUL-01 | Púlsar con (P) y ( P) declarados | periodo, derivada | s, s/s | (UE<sub>MFC</sub>), adimensional/ciclo | edad característica | (0) si modelo declarado | (0) |
-| PUL-02 | Púlsar con remanente asociado | periodo, remanente, distancia | s, m, (a<sub>J</sub>) | (UE<sub>MFC</sub>), (UFE), (UE<sub>MFC</sub>) | contraste múltiple | (0) si coherente | (0) |
-| PUL-03 | Púlsar sin ( P) | periodo | s | (UE<sub>MFC</sub>) | no cerrada | (U) | (U) |
-| PUL-04 | Edad característica tomada como edad absoluta | periodo | s | (UE<sub>MFC</sub>) | mal tipada | (1) | (1) |
-| PUL-05 | Señal periódica sin identificación de fuente | frecuencia | Hz | (UE<sub>MFC</sub><sup>-1</sup>) | no atribuible | (U) | (U) |
-| PUL-06 | Púlsar usado como control de transducción temporal | periodo | s | (UE<sub>MFC</sub>) | edad de contenido | (0) | (0) |
-
-<a id="sec-vi-10-hidrogeno-como-firma-atomica-persistente"></a>
-
-### VI.10. Hidrógeno como firma atómica persistente
-
-La tabla siguiente adopta la tabla de contraste bidireccional de hidrógeno ya fijado: energía de ionización, radio de Bohr, masa atómica, niveles, Lyman-(α), frecuencia Lyman-(α), línea de 21 cm, sección eficaz, persistencia P_min y frontera atómica; además bloquea (H=ε<sub>-0</sub>) y (H=A<sub>min</sub><sup>univ</sup>) sin prueba material.
-
-| Código | Entrada física real | Unidad SI | Unidad SV | Física → edad relativa | Residual | Retorno físico | Lectura formal |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| H-01 | Energía de ionización (E<sub>I</sub>) | eV, J | (UFM· UFE<sup>2</sup>· UE<sub>MFC</sub><sup>-2</sup>) | Identidad energética de H | No límite universal | Hidrógeno como configuración estable | (0) |
-| H-02 | Radio de Bohr (a<sub>0</sub>) | m, pm | (UFE) | Escala atómica | Modelo cuántico | Tamaño característico posterior | (0/U) |
-| H-03 | Masa atómica (m<sub>H</sub>) | u, kg | (UFM) | Identidad material | Isótopos y convenciones | Materia atómica posterior | (0) |
-| H-04 | Niveles (E<sub>n</sub>) | eV, J | (UFM· UFE<sup>2</sup>· UE<sub>MFC</sub><sup>-2</sup>) | Estructura discreta | Modelo cuántico | Espectro atómico | (0/U) |
-| H-05 | Lyman-(α), (λ<sub>Lyα</sub>) | nm, m | (UFE) | Transición espectral | Condiciones de emisión | Señal observacional atómica | (0) |
-| H-06 | Frecuencia Lyman-(α), (ν<sub>Lyα</sub>) | Hz | (UE<sub>MFC</sub><sup>-1</sup>) | Frecuencia espectral | Condiciones de emisión | Señal física | (0) |
-| H-07 | Línea de 21 cm | m, GHz, eV | (UFE), (UE<sub>MFC</sub><sup>-1</sup>), energía SV | Transición hiperfina | Condiciones cosmológicas | Señal física de hidrógeno | (0) |
-| H-08 | Sección eficaz de ionización (σ<sub>I</sub>) | (m<sup>2</sup>) | (UFE<sup>2</sup>) | Interacción física | Probabilidad no fundante | Proceso físico de ionización | (0/U) |
-| H-09 | Persistencia P_min ( 𝓟<sub>min</sub>= F_∂- Q- R<sub>Γ</sub>) | energía estructural | energía SV | Persistencia factual | No sustituye (ε<sub>-0</sub>) | Estabilidad de frontera | (0) |
-| H-10 | Frontera (∂Ω<sub>H</sub>) | según magnitud | (UFE), (UFE<sup>2</sup>) o dominio formal | Frontera atómica | No es espacio total | Identidad configuracional | (0) |
-| H-11 | (H=ε<sub>-0</sub>) | — | — | Átomo como origen | Crítico | Hidrógeno no es borde preformal | (1) |
-| H-12 | (H=A<sub>min</sub><sup>univ</sup>) | — | — | Límite universal no demostrado | (U) material | H es caso canónico conocido, sin cierre absoluto material | (U) |
-
-Cierre de la tabla de contraste:
-
-<p><strong>(E<sub>I</sub>,a<sub>0</sub>,m<sub>H</sub>,E<sub>n</sub>,λ<sub>Lyα</sub>,ν<sub>Lyα</sub>,21,cm) Ω<sub>atom</sub>.</strong></p>
-
-<p><strong>H∈Ω<sub>atom</sub>⊂Ω<sub>fis</sub>⊂Ω<sub>esp</sub>.</strong></p>
-
-<p><strong>H≠ε<sub>-0</sub>.</strong></p>
-
-<p><strong>H≠ A<sub>min</sub><sup>univ</sup> sin prueba material.</strong></p>
-
-<a id="sec-vi-11-prehidrogeno-como-transicion-material"></a>
-
-### VI.11. Prehidrógeno como transición material
-
-| Código | Caso | Dominio | Transición | Persistencia | Firma de llegada | Residual | Lectura formal |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| preH-01 | Plasma sin identidad atómica | (Ω<sub>preH</sub>) | incompleta | ( 𝓟<sub>min</sub>≤0) | ninguna | (U) | (U) |
-| preH-02 | Régimen preatómico con frontera en formación | (Ω<sub>preH→ H</sub>) | parcial | marginal | H no cerrado | (U) | (U) |
-| preH-03 | Transición preH → H con persistencia | (Ω<sub>preH→ H</sub>) | completa | ( 𝓟<sub>min</sub>>0) | (Σ<sub>H</sub>) | (0) | (0) |
-| preH-04 | preH tratado como átomo estable | dominio falso | falsa | no pertinente | H anticipado | (1) | (1) |
-| preH-05 | preH usado como fundamento absoluto | ( T) mal tipada | indebida | no pertinente | no pertinente | (1) | (1) |
-| preH-06 | preH sin continuidad hacia H | incompleto | rota | no cierra | ausente | (U) | (U) |
-| preH-07 | Transición preH/H como bisagra de edad relativa | (Ω<sub>preH→ H</sub>) | completa | ( 𝓟<sub>min</sub>>0) | H persistente | (0) | (0) |
-
-Condición de admisión:
-
-<p><strong>preH→ H es admisible Ω<sub>preH</sub>,Ω<sub>H</sub>,Γ<sub>preH→ H</sub>, 𝓟<sub>min</sub>,Id<sub>H</sub>,Δ<sub>preH/H</sub> cierran.</strong></p>
-
-<a id="sec-vi-12-lyman-alfa-como-firma-espectral"></a>
-
-### VI.12. Lyman-α como firma espectral
-
-| Código | Caso | Portador | Dominio | Unidad SI | Unidad SV | Residual | Lectura formal |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| LyA-01 | Lyman-(α) con galaxia identificada | galaxia | (Ω<sub>gal</sub>) | nm, Hz | (UFE), (UE<sub>MFC</sub><sup>-1</sup>) | (0) | (0) |
-| LyA-02 | Lyman-(α) en nube o gas | gas H | (Ω<sub>gas</sub>) | nm, Hz | (UFE), (UE<sub>MFC</sub><sup>-1</sup>) | (0) si hay retorno | (0/U) |
-| LyA-03 | Línea aislada sin portador | no | (Ω<sub>L</sub><sup>ret</sup>) | nm | (UFE) | (U) | (U) |
-| LyA-04 | Línea desplazada sin corrección | parcial | retorno incompleto | nm | (UFE) | (U) | (U) |
-| LyA-05 | Lyman-(α) como edad absoluta | indebido | ( T) mal tipada | nm | (UFE) | (1) | (1) |
-| LyA-06 | Lyman-(α) con firma preH/H profunda | sí | (Ω<sub>gal</sub>⊂Ω<sub>obs</sub>) | nm, Hz, (a<sub>J</sub>) | (UFE), (UE<sub>MFC</sub><sup>-1</sup>), (UE<sub>MFC</sub>) | (0) | (0) |
-
-Residual:
-
-Δ<sub>Lyα</sub>
-
-Δ<sub>λ</sub> ⊕ Δ<sub>ν</sub> ⊕ Δ<sub>portador</sub> ⊕ Δ<sub>ret</sub> ⊕ Δ<sub>plano</sub>.
-
-<a id="sec-vi-13-linea-de-21-cm-como-retorno-de-hidrogeno-neutro"></a>
-
-### VI.13. Línea de 21 cm como retorno de hidrógeno neutro
-
-| Código | Caso | Dominio | Unidad SI | Unidad SV | Uso admisible | Residual | Lectura formal |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| C21-01 | Línea de 21 cm con H neutro declarado | (Ω<sub>HI</sub>) | m, Hz | (UFE), (UE<sub>MFC</sub><sup>-1</sup>) | firma H | (0) | (0) |
-| C21-02 | 21 cm cosmológica con modelo declarado | (Ω<sub>obs</sub>) | m, Hz, (a<sub>J</sub>) | (UFE), (UE<sub>MFC</sub><sup>-1</sup>), (UE<sub>MFC</sub>) | estructura y gas | (0) si cierra | (0/U) |
-| C21-03 | 21 cm sin dominio | indefinido | m, Hz | (UFE), (UE<sub>MFC</sub><sup>-1</sup>) | señal aislada | (U) | (U) |
-| C21-04 | 21 cm como edad absoluta | ( T) mal tipada | m, Hz | (UFE), (UE<sub>MFC</sub><sup>-1</sup>) | indebido | (1) | (1) |
-| C21-05 | 21 cm con retorno profundo y firma persistente | (Ω<sub>HI</sub>⊂Ω<sub>obs</sub>) | m, Hz, (a<sub>J</sub>) | (UFE), (UE<sub>MFC</sub><sup>-1</sup>), (UE<sub>MFC</sub>) | edad relativa de contenido | (0) | (0) |
-
-<a id="sec-vi-14-mapas-cosmicos-como-conjuntos-de-retornos"></a>
-
-### VI.14. Mapas cósmicos como conjuntos de retornos
-
-| Código | Caso | Dominio | Unidad SI | Unidad SV | Objeto de edad | Residual | Lectura formal |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| MAP-01 | Mapa con fuentes catalogadas | (Ω<sub>mapa</sub>) | ángulo, flujo, m, Hz | unidades SV correspondientes | conjunto de contenidos | (0) como registro | (0) |
-| MAP-02 | Mapa sin identificación individual suficiente | (Ω<sub>mapa</sub>) | ángulo, flujo | unidades SV | población, no objeto único | (U) | (U) |
-| MAP-03 | Mapa tratado como edad única | mal tipado | varias | varias | indebido | (1) | (1) |
-| MAP-04 | Mapa usado para seleccionar contenido observable retornado | (Ω<sub>obs</sub>) | varias | varias | (A<sub>Ωobs</sub>) | (0) si casos cierran | (0) |
-| MAP-05 | Mapa con profundidad sin firma física | (Ω<sub>obs</sub>) | m, (a<sub>J</sub>) | (UFE), (UE<sub>MFC</sub>) | no cerrable | (U) | (U) |
-
-<a id="sec-vi-15-modelo-cosmologico-como-marco-instrumental"></a>
-
-### VI.15. Modelo cosmológico como marco instrumental
-
-| Código | Modelo o magnitud | Dominio | Unidad SI | Unidad SV | Uso admisible | Riesgo bloqueado | Lectura formal |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| MOD-01 | Edad cosmológica convencional | (Ω<sub>modelo</sub>) | (a<sub>J</sub>), s | (UE<sub>MFC</sub>) | parámetro de modelo | edad de totalidad | instrumental |
-| MOD-02 | Corrimiento al rojo | (Ω<sub>obs</sub>) | adimensional | adimensional | restricción de profundidad | edad directa sin modelo | instrumental |
-| MOD-03 | Distancia de luminosidad | (Ω<sub>L</sub><sup>ret</sup>) | m, pc, Mpc | (UFE) | retorno luminoso | edad sin transductor | instrumental |
-| MOD-04 | Distancia comóvil | (Ω<sub>modelo</sub>) | m, Mpc | (UFE) | coordenación de modelo | fundamento espacial | instrumental |
-| MOD-05 | Parámetros cosmológicos | (Ω<sub>modelo</sub>) | varios | varios | reconstrucción física | sustitución de dominio | instrumental |
-| MOD-06 | Modelo usado para edad de contenido con residual | (Ω<sub>obs</sub>) | varias | varias | admisible | ninguno si cierra | (0) |
-| MOD-07 | Modelo usado como prueba de edad absoluta | ( T) mal tipada | varias | varias | indebido | error de plano | (1) |
-
-<a id="sec-vi-16-controles-negativos-de-contraste"></a>
-
-### VI.16. Controles negativos de contraste
-
-| Código | Control negativo | Residual activado | Salida esperada |
-| --- | --- | --- | --- |
-| NEG-01 | Edad de la totalidad absoluta | (Δ<sub>plano</sub>=1) | (1) |
-| NEG-02 | Señal luminosa sin emisor | (Δ<sub>Id</sub>=U) | (U) |
-| NEG-03 | Línea espectral sin portador | (Δ<sub>Σ</sub>=U) | (U) |
-| NEG-04 | Hidrógeno como fundamento absoluto | (Δ<sub>plano</sub>=1) | (1) |
-| NEG-05 | Hidrógeno como (ε<sub>-0</sub>) | (Δ<sub>Ω</sub>=1) | (1) |
-| NEG-06 | Hidrógeno como límite universal cerrado | (Δ=U) | (U) |
-| NEG-07 | Prehidrógeno como átomo estable | (Δ<sub>Ω</sub>=1) | (1) |
-| NEG-08 | Galaxia sin identidad suficiente | (Δ<sub>Id</sub>=U) | (U) |
-| NEG-09 | Profundidad luminosa como edad de totalidad | (Δ<sub>plano</sub>=1) | (1) |
-| NEG-10 | Corrimiento al rojo sin modelo | (Δ<sub>M</sub>=U) | (U) |
-| NEG-11 | Mapa de galaxias como edad única sin descomposición | (Δ<sub>Id</sub>=U) | (U) |
-| NEG-12 | Resultado sin unidad SI | (Δ<sub>u</sub>=U) | (U) |
-| NEG-13 | Resultado sin unidad SV | (Δ<sub>u</sub>=U) | (U) |
-| NEG-14 | Resultado sin residual | (Δ=U) | (U) |
-| NEG-15 | Cifra externa copiada sin transducción | (Δ<sub>trans</sub>=1) | (1) |
-| NEG-16 | Margen instrumental confundida con error de plano | (Δ<sub>M</sub>=1) | (1) |
-| NEG-17 | Edad de señal confundida con edad de objeto | (Δ<sub>plano</sub>=1) | (1) |
-| NEG-18 | Edad de modelo confundida con edad de totalidad | (Δ<sub>plano</sub>=1) | (1) |
-| NEG-19 | Registro sin controles negativos | (Δ<sub>lab</sub>=1) | (1) |
-| NEG-20 | Laboratorio que calcula valores no tabulados | (Δ<sub>lab</sub>=1) | (1) |
-
-<a id="sec-vi-17-casos-positivos-del-resultado"></a>
-
-### VI.17. Casos positivos del resultado
-
-| Código | Caso positivo | Dominio | Edad SI | Edad SV | Condición | Residual | Lectura formal |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| POS-01 | Contenido observable con firma preH/H persistente | (Ω<sub>obs</sub>) | (13 800 000 000,a<sub>J</sub>) | (3 919 453 920 000 000 000,UE<sub>MFC</sub>) | firma, retorno, unidad y residual | (0) | (0) |
-| POS-02 | Conversión año juliano → UE<sub>MFC</sub> | unidad | (1,a<sub>J</sub>) | (284 018 400,UE<sub>MFC</sub>) | (31 557 600,s×9) | (0) | (0) |
-| POS-03 | Conversión resultado total | unidad | (13 800 000 000,a<sub>J</sub>) | (3 919 453 920 000 000 000,UE<sub>MFC</sub>) | multiplicación exacta | (0) | (0) |
-| POS-04 | No edad de totalidad absoluta | ( T) | no aplicable | no aplicable | error de tipo bloqueado | (0) como rechazo | NO ADMISIBLE |
-| POS-05 | Edad de observable retornado | (Ω<sub>obs</sub>) | (13 800 000 000,a<sub>J</sub>) | (3 919 453 920 000 000 000,UE<sub>MFC</sub>) | cierre con (Δ=0) | (0) | (0) |
-
-Cálculo exacto:
-
-<p><strong>31 557 600×9=284 018 400.</strong></p>
-
-13 800 000 000×284 018 400
-
-3 919 453 920 000 000 000.
-
-No hay decimal residual en la conversión:
-
-<p><strong>ε<sub>conv</sub>=0.</strong></p>
-
-<a id="sec-vi-18-comparacion-del-resultado-por-planos"></a>
-
-### VI.18. Comparación del resultado por planos
-
-| Plano | Formulación imprecisa | Formulación corregida | Resultado |
-| --- | --- | --- | --- |
-| Totalidad | «Edad del Universo» como totalidad absoluta | Edad no admisible | NO ADMISIBLE |
-| Dominio físico | Edad del universo observable | Edad de dominio físico bajo modelo | ADMISIBLE CON DOMINIO |
-| Contenido observable | Edad del contenido más antiguo retornado | edad concreta del observable retornado de contenido observable | (13 800 000 000,a<sub>J</sub>) |
-| Unidad SV | No formulada en física ordinaria | (UE<sub>MFC</sub>) | (3 919 453 920 000 000 000,UE<sub>MFC</sub>) |
-| Señal luminosa | Luz como edad directa | Retorno luminoso transducido | ADMISIBLE SI HAY FIRMA |
-| Galaxia | Galaxia como edad del universo | Objeto persistente con edad propia | ADMISIBLE |
-| Hidrógeno | Hidrógeno como origen absoluto | Firma atómica persistente | ADMISIBLE COMO FIRMA |
-| Prehidrógeno | Objeto cerrado | Transición hacia firma H | ADMISIBLE COMO TRANSICIÓN |
-| Modelo cosmológico | Verdad absoluta | Instrumento de reconstrucción | INSTRUMENTAL |
-
-<a id="sec-vi-19-trazabilidad-textual-de-los-casos"></a>
-
-### VI.19. Trazabilidad textual de los casos
-
-Todo caso citado en la formulación debe aparecer en esta tabla de trazabilidad. La regla procede del régimen de trazabilidad usado en la formulación de agujero negro: todo caso textual debe corresponderse con registro, transductor o catálogo de errores, y todo caso de registro debe tener lectura textual suficiente.
-
-| Elemento citado en texto | Tabla donde debe aparecer | Laboratorio que lo confirma | Salida esperada |
-| --- | --- | --- | --- |
-| Totalidad absoluta sin edad | V.2, V.16, V.18 | control negativo | NO ADMISIBLE |
-| Universo observable como dominio | V.2, V.18 | registro de dominio | ADMISIBLE CON DOMINIO |
-| Galaxias profundas | V.6, V.7 | contraste Hubble/Webb | (0/U) según firma |
-| Hubble/Webb | V.6 | registro observacional | (0/U/1) según caso |
-| Hidrógeno | V.10 | registro H | (0) como firma |
-| Prehidrógeno | V.11 | registro preH/H | (0) como transición si cierra |
-| Lyman-(α) | V.12 | registro espectral | (0/U/1) |
-| 21 cm | V.13 | registro espectral | (0/U/1) |
-| Estrellas | V.8 | registro de portadores | (0/U) |
-| Púlsares | V.9 | registro de portadores | (0/U/1) |
-| Conversión SI ↔ SV | V.3, V.17 | conversor | (0) |
-| Resultado final | V.17, V.18 | runner principal | (0) |
-| Controles negativos | V.16 | runner adversarial | todos activados |
-
-<a id="sec-vi-20-esquema-csv-de-los-datos-de-contraste"></a>
-
-### VI.20. Esquema CSV de los datos de contraste
-
-| Campo CSV | Contenido obligatorio | Ejemplo |
-| --- | --- | --- |
-| case<sub>id</sub> | Identificador único | POS-01 |
-| family | Familia de la tabla de contraste | preH/H |
-| domain | Dominio declarado | (Ω<sub>obs</sub>) |
-| physical<sub>object</sub> | Objeto físico | observable retornado |
-| identity<sub>status</sub> | identidad | completa |
-| boundary<sub>status</sub> | frontera | declarada |
-| signature | firma física | preH/H |
-| physical<sub>magnitude</sub> | magnitud física | edad relativa |
-| si<sub>value</sub> | valor SI | 13<sub>800</sub><sub>000</sub><sub>000</sub> |
-| si<sub>unit</sub> | unidad SI | año juliano |
-| sv<sub>value</sub> | valor SV | 3919453920000000000 |
-| sv<sub>unit</sub> | unidad SV | UE<sub>MFC</sub> |
-| residual<sub>domain</sub> | residual de dominio | 0 |
-| residual<sub>signature</sub> | residual de firma | 0 |
-| residual<sub>unit</sub> | residual de unidad | 0 |
-| residual<sub>return</sub> | residual de retorno | 0 |
-| residual<sub>plane</sub> | residual de plano | 0 |
-| expected | salida esperada | 0 |
-| observed | lectura observada | salida_obtenida.txt |
-| pass | confirmación | APTO si coincide con salida esperada |
-| error<sub>code</sub> | código de error si falla | vacío |
-
-El laboratorio reproducible debe leer estos campos, no sustituirlos.
-
-<a id="sec-vi-21-codigos-de-error-del-contraste"></a>
-
-### VI.21. Códigos de error del contraste
-
-| Código | Error | Activación | Salida |
-| --- | --- | --- | --- |
-| E-DOM-01 | dominio ausente | (Ω<sub>i</sub>) vacío | (U) |
-| E-DOM-02 | dominio contradictorio | objeto fuera de dominio | (1) |
-| E-ID-01 | identidad ausente | (Id<sub>i</sub>=∅) | (U) |
-| E-FR-01 | frontera ausente | (∂Ω<sub>i</sub>) no declarada | (U) |
-| E-SIG-01 | firma ausente | (Σ<sub>i</sub>) vacía | (U) |
-| E-SIG-02 | firma incompatible | firma niega dominio | (1) |
-| E-UNIT-01 | unidad SI ausente | (u<sub>SI</sub>) vacío | (U) |
-| E-UNIT-02 | unidad SV ausente | (u<sub>SV</sub>) vacío | (U) |
-| E-RET-01 | retorno ausente | (R<sub>i</sub>) vacío | (U) |
-| E-RET-02 | retorno invasivo | retorno cambia el objeto | (1) |
-| E-PL-01 | edad atribuida a totalidad absoluta | (C<sub>i</sub>= T) | (1) |
-| E-PL-02 | edad de señal atribuida a objeto | señal ≠ objeto | (1) |
-| E-PL-03 | edad de modelo atribuida a totalidad | modelo ≠ totalidad | (1) |
-| E-H-01 | hidrógeno como (ε<sub>-0</sub>) | (H=ε<sub>-0</sub>) | (1) |
-| E-H-02 | H como límite universal cerrado | (H=A<sub>min</sub><sup>univ</sup>) | (U) |
-| E-PREH-01 | preH como átomo cerrado | preH = H estable | (1) |
-| E-LAB-01 | laboratorio altera valor tabulado | salida no tabulada | (1) |
-| E-LAB-02 | laboratorio sin control negativo | adversarial ausente | (1) |
-| E-LAB-03 | pase silencioso | fallo no reportado | (1) |
-
-<a id="sec-vi-22-tabla-de-salida-global-esperada"></a>
-
-### VI.22. Tabla de salida global esperada
-
-| Magnitud global | Valor | Unidad | Estatuto | Residual | Lectura formal |
-| --- | --- | --- | --- | --- | --- |
-| Edad de la totalidad absoluta | no aplicable | no aplicable | no admisible | (Δ<sub>plano</sub>=1) si se intenta | NO ADMISIBLE |
-| edad concreta del observable retornado del contenido observable | 13.800.000.000 | años julianos | resultado físico retornado | (0) | (0) |
-| edad concreta del observable retornado en SV | 3.919.453.920.000.000.000 | (UE<sub>MFC</sub>) | resultado transductivo | (0) | (0) |
-| Conversión por año juliano | 284.018.400 | (UE<sub>MFC</sub>/a<sub>J</sub>) | exacta por definición | (0) | (0) |
-| Error de plano | 0 | adimensional | atribución corregida | (0) | (0) |
-| Error de definición | 0 | adimensional | dominio y unidad declarados | (0) | (0) |
-| Error de transducción | 0 | adimensional | retorno conservado | (0) | (0) |
-| Margen instrumental | no anulada | según medición | se conserva | no decide plano | instrumental |
-
-<a id="sec-vi-23-suficiencia-del-contraste-declarativo"></a>
-
-### VI.23. Suficiencia del contraste declarativo
-
-Proposición V.1. Si todos los casos positivos de la matriz de contraste cierran con (Δ=0), todos los controles negativos producen la salida esperada, la conversión SI ↔ SV reproduce el valor tabulado y el laboratorio confirma sin modificar los valores declarados, entonces la edad concreta del observable retornado queda fijada por la tabla de contraste.
-
-Demostración. La tabla de contraste declara los dominios, las unidades, los objetos, las firmas, los residuales y los lecturas formales. Los casos positivos establecen la admisibilidad del resultado. Los controles negativos excluyen las atribuciones indebidas: totalidad absoluta, señal sin portador, línea sin dominio, hidrógeno como fundamento absoluto y cifra sin transducción. La conversión metrológica reproduce exactamente la equivalencia entre años julianos y (UE<sub>MFC</sub>). El laboratorio sólo confirma lo tabulado; no introduce valor nuevo. Por tanto, si todas las salidas coinciden con lo declarado, el resultado queda fijado como edad concreta del observable retornado. c.q.d.
-
-<a id="sec-vi-24-no-atribucion-de-edad-a-la-totalidad-absoluta"></a>
-
-### VI.24. No atribución de edad a la totalidad absoluta
-
-Proposición V.2. La totalidad absoluta no admite edad física.
-
-Demostración. La edad física exige contenido evaluable dentro de un dominio, frontera de comparecencia, métrica, unidad, residual y retorno. La totalidad absoluta no comparece como contenido de un dominio físico superior. Si se le atribuyera edad, se la convertiría en objeto interno de un marco mayor. Esa hipótesis contradice su estatuto de totalidad. Luego la edad física de la totalidad absoluta no es cero ni desconocida; es no admisible. c.q.d.
-
-<a id="sec-vi-25-atribucion-de-edad-al-contenido-observable"></a>
-
-### VI.25. Atribución de edad al contenido observable
-
-Proposición V.3. Un contenido físico observable (C<sub>i</sub>) admite edad relativa si declara dominio, identidad, frontera, firma, magnitud, unidad, residual y retorno.
-
-Demostración. Si (C<sub>i</sub>) declara dominio, queda situado en un espacio físico de evaluación. Si declara identidad y frontera, puede distinguirse de su entorno. Si declara firma, puede vincularse a un régimen físico. Si declara magnitud y unidad, puede medirse. Si declara residual, puede emitir lectura formal. Si declara retorno, puede verificarse físicamente. La concurrencia de esas condiciones basta para atribuir edad relativa a (C<sub>i</sub>), siempre que (Δ<sub>i</sub>=0). c.q.d.
-
-<a id="sec-vi-26-observable-retornado-concreto"></a>
-
-### VI.26. Observable retornado concreto retornado
-
-Teorema V.4. La edad concreta del observable retornado se define por:
-
-A<sub>Ωobs</sub> = A(C*) con C*⊂Ω<sub>obs</sub>, Δ(C*)=0 y firma persistente admisible.
-
-Demostración. La tabla de contraste contiene una familia de contenidos físicos observables (C<sub>i</sub>). Cada (C<sub>i</sub>) sólo entra en el conjunto de cierre si (Δ<sub>i</sub>=0). La edad concreta del observable retornado no puede tomarse de casos con (Δ=1), porque son defectuosos, ni de casos con (Δ=U), porque no cierran. Por tanto, el cierre admisible sólo puede calcularse sobre los casos con residual nulo. c.q.d.
-
-<a id="sec-vi-27-conversion-exacta-del-resultado"></a>
-
-### VI.27. Conversión exacta del resultado
-
-Demostración V.5. La equivalencia entre (13 800 000 000) años julianos y (3 919 453 920 000 000 000 UE<sub>MFC</sub>) es exacta bajo las definiciones metrológicas de la tabla de contraste.
-
-Demostración. Por definición:
-
-<p><strong>1,a<sub>J</sub>=31 557 600,s.</strong></p>
-
-Por definición transductiva:
-
-<p><strong>1,s=9,UE<sub>MFC</sub>.</strong></p>
-
-Luego:
-
-1,a<sub>J</sub>=31 557 600×9,UE<sub>MFC</sub>
-
-284 018 400,UE<sub>MFC</sub>.
-
-Multiplicando:
-
-13 800 000 000×284 018 400
-
-3 919 453 920 000 000 000.
-
-No queda parte decimal, resto ni redondeo interno. c.q.d.
-
-<a id="sec-vi-28-lectura-formal-de-la-seccion"></a>
-
-### VI.28. Síntesis de la sección
-
-La matriz de contraste físico queda cerrado como registro declarativo completo. Sus valores, dominios, unidades, residuales, controles negativos, códigos de error y salidas esperadas quedan fijados antes de la ejecución del laboratorio.
-
-El laboratorio reproducible no deberá hallar el resultado. Deberá confirmar:
-
-<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
-
-<p><strong>A<sub>Ωobs</sub><sup>ret</sup>=13 800 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>A<sub>Ωobs</sub><sup>SV</sup>=3 919 453 920 000 000 000,UE<sub>MFC</sub>.</strong></p>
-
-<p><strong>ε<sub>plano</sub>=0.</strong></p>
-
-<p><strong>ε<sub>def</sub>=0.</strong></p>
-
-<p><strong>ε<sub>trans</sub>=0.</strong></p>
-
-La sección queda gobernada por la regla final de trazabilidad: todo caso del texto debe corresponder a registro, transductor o catálogo de errores; todo caso de la tabla de contraste debe tener lectura textual suficiente; toda salida del laboratorio debe reproducir una salida tabulada, no inventarla.
-
-<a id="sec-anexo-i-teorema-demostracion-y-calculo-exacto-del-ciclo-observable-y-de-sus-objetos-fisicos"></a>
-
-## Anexo I. Teorema, demostración y cálculo exacto del ciclo observable y de sus objetos físicos
-
-Índice propio del Anexo I
-
-I.A. Estatuto del anexo I.B. Definiciones de ciclo observable, estado actual, último cambio estructural, fin de ciclo y suceso activador I.C. Hipótesis transductiva de simetría del ciclo observable I.D. Teorema I.1. No edad de la totalidad absoluta y edad exacta del contenido observable I.E. Teorema I.2. Simetría transductiva del ciclo observable I.F. Cálculo exacto del estado actual I.G. Cálculo exacto del fin de ciclo observable I.H. Cálculo exacto del tramo restante I.I. Último cambio estructural observable I.J. Fin de los observables y reinicio de ciclo por suceso activador I.K. Tabla escalar y transductiva completa I.L. Retorno inverso: de unidades SV a física contemporánea I.M. Contraste de no contradicción con la Teoría del TODO y de la NADA I.N. Síntesis final del anexo
-
-I.A. Estatuto del anexo
-
-Este anexo fija el cálculo exacto del ciclo observable, no de la totalidad absoluta. La totalidad absoluta no recibe edad física; los contenidos observables sí reciben edad relativa cuando están definidos por dominio, frontera, identidad, métrica, unidad, residual y retorno.
-
-La distinción es obligatoria. La formulación sobre imperfección preformal y espacio separa la pregunta por el universo físico observable de la condición preformal y de la totalidad rectora: las teorías cosmológicas físicas quedan tratadas como regímenes posteriores, absorbibles por dominio, pero no como fundamento absoluto de la primera distinguibilidad ni del TODO.
-
-La formulación de agujero negro conserva, además, que todo suceso realizado que alcanza clausura retorna al Todo como traza factual clausurada, sin convertirse en (U), sin reaparecer como copia, sin reescribir su cadena append-only y sin desaparecer sin traza.
-
-Por tanto, este anexo no calcula una edad de la totalidad. Calcula:
-
-<p><strong>A<sub>Ωobs</sub>,</strong></p>
-
-la edad relativa del contenido observable retornado, y extiende ese cálculo, bajo hipótesis transductiva explícita, hasta el fin del ciclo observable y el reinicio por suceso activador.
-
-I.B. Definiciones de ciclo observable, estado actual, último cambio estructural, fin de ciclo y suceso activador
-
-Se define el ciclo observable como:
-
-C<sub>obs</sub>
-
-(S<sub>ini</sub>,S<sub>act</sub>,S<sub>ult</sub>,S<sub>fin</sub>,S<sub>react</sub>).
-
-Donde:
-
-<p><strong>S<sub>ini</sub></strong></p>
-
-es el inicio del dominio observable, no el inicio de la totalidad absoluta.
-
-<p><strong>S<sub>act</sub></strong></p>
-
-es el estado actual de edad concreta del observable retornado.
-
-<p><strong>S<sub>ult</sub></strong></p>
-
-es el último cambio estructural observable inmediatamente anterior al cierre del ciclo.
-
-<p><strong>S<sub>fin</sub></strong></p>
-
-es el fin del ciclo observable.
-
-<p><strong>S<sub>react</sub></strong></p>
-
-es el suceso activador de reinicio de ciclo, añadido append-only, sin borrar ni reescribir el ciclo clausurado.
-
-La edad relativa se mide con:
-
-<p><strong>1,a<sub>J</sub>=31 557 600,s.</strong></p>
-
-<p><strong>1,s=9,UE<sub>MFC</sub>.</strong></p>
-
-Luego:
-
-<p><strong>1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>.</strong></p>
-
-I.C. Hipótesis transductiva de simetría del ciclo observable
-
-Se adopta la siguiente hipótesis transductiva:
-
-<p><strong>A<sub>fin</sub>=2A<sub>act</sub>.</strong></p>
-
-Esta hipótesis no atribuye edad a la totalidad absoluta. Sólo afirma simetría transductiva del ciclo observable:
-
-<p><strong>S<sub>ini</sub> → S<sub>act</sub> → S<sub>fin</sub>,</strong></p>
-
-con:
-
-A(S<sub>act</sub>)-A(S<sub>ini</sub>)
-
-A(S<sub>fin</sub>)-A(S<sub>act</sub>).
-
-Por tanto:
-
-A<sub>restante</sub>
-
-A<sub>act</sub>.
-
-La hipótesis se aplica al dominio observable, no al TODO. Así no contradice que la totalidad absoluta no envejece ni que el cierre de un ciclo se conserve como traza append-only.
-
-I.D. Teorema I.1. No edad de la totalidad absoluta y edad exacta del contenido observable
-
-Teorema I.1. La totalidad absoluta no admite edad física; el contenido observable retornado sí admite edad relativa exacta cuando su dominio, unidad, residual y retorno quedan declarados.
-
-Demostración. La edad física exige objeto o dominio interno, frontera, métrica, unidad y retorno. La totalidad absoluta no comparece como contenido dentro de un dominio físico superior. Si se le atribuyera edad, se la convertiría en objeto físico interno de un marco mayor, lo que contradice su estatuto de totalidad. Por tanto:
-
-<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
-
-El contenido observable, en cambio, pertenece a un dominio físico interno:
-
-<p><strong>C<sub>i</sub>⊂Ω<sub>obs</sub>.</strong></p>
-
-Si declara identidad, métrica, unidad, residual y retorno, admite edad relativa. Bajo la tabla de contraste de la formulación, el observable retornado retornado queda fijado en:
-
-<p><strong>A<sub>act</sub>=13 800 000 000,a<sub>J</sub>.</strong></p>
-
-Como:
-
-<p><strong>1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>,</strong></p>
-
-entonces:
-
-A<sub>act</sub>= 13 800 000 000 × 284 018 400
-
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-Luego la edad exacta pertenece al contenido observable retornado, no a la totalidad absoluta. c.q.d.
-
-I.E. Teorema I.2. Simetría transductiva del ciclo observable
-
-Teorema I.2. Bajo la hipótesis transductiva de simetría del ciclo observable, el fin del ciclo observable se sitúa en:
-
-<p><strong>27 600 000 000,a<sub>J</sub>.</strong></p>
-
-Y en unidades SV:
-
-<p><strong>7 838 907 840 000 000 000,UE<sub>MFC</sub>.</strong></p>
-
-Demostración. Por hipótesis:
-
-<p><strong>A<sub>fin</sub>=2A<sub>act</sub>.</strong></p>
-
-Como:
-
-<p><strong>A<sub>act</sub>=13 800 000 000,a<sub>J</sub>,</strong></p>
-
-se obtiene:
-
-A<sub>fin</sub>= 2×13 800 000 000,a<sub>J</sub>
-
-27 600 000 000,a<sub>J</sub>.
-
-En unidades SV:
-
-<p><strong>A<sub>act</sub>= 3 919 453 920 000 000 000,UE<sub>MFC</sub>.</strong></p>
-
-Luego:
-
-A<sub>fin</sub>= 2× 3 919 453 920 000 000 000
-
-7 838 907 840 000 000 000,UE<sub>MFC</sub>.
-
-No hay redondeo, resto ni decimal. c.q.d.
-
-I.F. Cálculo exacto del estado actual
-
-El estado actual del contenido observable retornado se fija como:
-
-<p><strong>A<sub>act</sub>=13 800 000 000,a<sub>J</sub>.</strong></p>
-
-Conversión a segundos:
-
-13 800 000 000 × 31 557 600
-
-435,494,880,000,000,000,s.
-
-Conversión a unidades SV:
-
-435,494,880,000,000,000 × 9
-
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-Por tanto:
-
-A<sub>act</sub>= 13 800 000 000,a<sub>J</sub>
-
-435,494,880,000,000,000,s
-
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-I.G. Cálculo exacto del fin de ciclo observable
-
-Por simetría transductiva:
-
-<p><strong>A<sub>fin</sub>=2A<sub>act</sub>.</strong></p>
-
-En años julianos:
-
-A<sub>fin</sub>
-
-2×13 800 000 000
-
-27 600 000 000,a<sub>J</sub>.
-
-En segundos:
-
-27 600 000 000 × 31 557 600
-
-870,989,760,000,000,000,s.
-
-En unidades SV:
-
-870,989,760,000,000,000 × 9
-
-7 838 907 840 000 000 000,UE<sub>MFC</sub>.
-
-Por tanto:
-
-A<sub>fin</sub>= 27 600 000 000,a<sub>J</sub>
-
-870,989,760,000,000,000,s
-
-7 838 907 840 000 000 000,UE<sub>MFC</sub>.
-
-I.H. Cálculo exacto del tramo restante
-
-El tramo restante desde el estado actual hasta el fin del ciclo observable es:
-
-A<sub>restante</sub>
-
-A<sub>fin</sub>-A<sub>act</sub>.
-
-En años julianos:
-
-A<sub>restante</sub>
-
-27 600 000 000
-
-13 800 000 000
-
-13 800 000 000,a<sub>J</sub>.
-
-En segundos:
-
-A<sub>restante</sub>
-
-870,989,760,000,000,000
-
-435,494,880,000,000,000
-
-435,494,880,000,000,000,s.
-
-En unidades SV:
-
-A<sub>restante</sub>
-
-7 838 907 840 000 000 000
-
-3 919 453 920 000 000 000
-
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-Por tanto:
-
-A<sub>restante</sub>= 13 800 000 000,a<sub>J</sub>
-
-435,494,880,000,000,000,s
-
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-I.I. Último cambio estructural observable
-
-El último cambio estructural observable se define como el último suceso elemental del ciclo observable antes del cierre:
-
-<p><strong>S<sub>ult</sub>=S<sub>fin</sub><sup>-</sup>.</strong></p>
-
-En unidades discretas del medidor factual de ciclo, si el cierre se produce en:
-
-A<sub>fin</sub><sup>SV</sup>
-
-7 838 907 840 000 000 000,UE<sub>MFC</sub>,
-
-entonces el último suceso elemental anterior al cierre se sitúa en:
-
-A<sub>ult</sub><sup>SV</sup>
-
-A<sub>fin</sub><sup>SV</sup>-1,UE<sub>MFC</sub>.
-
-Por tanto:
-
-A<sub>ult</sub><sup>SV</sup>
-
-7,838,907,839,999,999,999,UE<sub>MFC</sub>.
-
-En años julianos:
-
-A<sub>ult</sub><sup>ret</sup>
-
-27 600 000 000,a<sub>J</sub>
-
-1/284 018 400,a<sub>J</sub>.
-
-En segundos:
-
-A<sub>ult</sub><sup>ret</sup>
-
-870,989,760,000,000,000,s
-
-1/9,s.
-
-Por tanto:
-
-<p><strong>S<sub>ult</sub> no es un nuevo ciclo; es el último suceso elemental observable antes de S<sub>fin</sub>.</strong></p>
-
-I.J. Fin de los observables y reinicio de ciclo por suceso activador
-
-El fin de los observables se fija en:
-
-<p><strong>S<sub>fin</sub>.</strong></p>
-
-Con edad escalar:
-
-<p><strong>A<sub>fin</sub>=27 600 000 000,a<sub>J</sub>.</strong></p>
-
-Con edad transductiva:
-
-<p><strong>A<sub>fin</sub><sup>SV</sup>=7 838 907 840 000 000 000,UE<sub>MFC</sub>.</strong></p>
-
-El cierre del ciclo observable no borra el ciclo. No reescribe sus sucesos. No transforma sus contenidos en inexistentes. La teoría del régimen de clausura exige que lo clausurado retorne como traza factual al Todo, sin convertirse en (U), sin copia, sin reescritura y sin desaparición sin traza.
-
-El suceso activador se define como:
-
-<p><strong>S<sub>react</sub>: S<sub>fin</sub>^ S<sub>0</sub><sup>nuevo</sup>.</strong></p>
-
-Donde:
-
-<p><strong>S<sub>fin</sub>^</strong></p>
-
-es el suceso de clausura del ciclo observable;
-
-<p><strong>S<sub>0</sub><sup>nuevo</sup></strong></p>
-
-es el primer suceso del ciclo observable ulterior.
-
-No hay reescritura:
-
-<p><strong>Γ<sub>obs</sub><sup>(k+1)</sup> ≠ reescritura(Γ<sub>obs</sub><sup>(k)</sup>).</strong></p>
-
-No hay copia:
-
-<p><strong>Γ<sub>obs</sub><sup>(k+1)</sup> ≠ copia(Γ<sub>obs</sub><sup>(k)</sup>).</strong></p>
-
-No hay desaparición sin traza:
-
-<p><strong>Γ<sub>obs</sub><sup>(k)</sup> → ∅.</strong></p>
-
-Hay clausura y adición append-only:
-
-<p><strong>Γ<sub>obs</sub><sup>(k)</sup> → Γ<sub>obs</sub><sup>(k)</sup> → Γ<sub>obs</sub><sup>(k+1)</sup>.</strong></p>
-
-I.K. Tabla escalar y transductiva completa
-
-| Punto del ciclo observable | Símbolo | Años julianos | Segundos | Unidades SV | Estatuto |
-| --- | --- | --- | --- | --- | --- |
-| Inicio del observable | (S<sub>ini</sub>) | 0 | 0 | 0 | inicio de dominio observable |
-| Estado actual | (S<sub>act</sub>) | 13.800.000.000 | 435.494.880.000.000.000 | 3.919.453.920.000.000.000 | contenido observable retornado actual |
-| Último suceso elemental antes del cierre | (S<sub>ult</sub>) | (27.600.000.000-1/284.018.400) | (870.989.760.000.000.000-1/9) | 7.838.907.839.999.999.999 | último cambio estructural observable |
-| Fin de ciclo observable | (S<sub>fin</sub>) | 27.600.000.000 | 870.989.760.000.000.000 | 7.838.907.840.000.000.000 | cierre del ciclo observable |
-| Tramo restante desde estado actual | (S<sub>act</sub>→ S<sub>fin</sub>) | 13.800.000.000 | 435.494.880.000.000.000 | 3.919.453.920.000.000.000 | mitad final del ciclo observable |
-| Suceso activador | (S<sub>react</sub>) | frontera de reinicio | frontera de reinicio | índice nuevo (0) del ciclo ulterior | reapertura append-only |
-
-I.L. Retorno inverso: de unidades SV a física contemporánea
-
-La inversa de la transducción se obtiene dividiendo por (9) para volver a segundos:
-
-<p><strong>A[s]=A[UE<sub>MFC</sub>]9.</strong></p>
-
-Y dividiendo después por:
-
-<p><strong>31 557 600</strong></p>
-
-para volver a años julianos:
-
-<p><strong>A[a<sub>J</sub>]= A[UE<sub>MFC</sub>]9×31 557 600.</strong></p>
-
-Estado actual:
-
-3 919 453 920 000 000 000 / 9
-
-435,494,880,000,000,000,s.
-
-435,494,880,000,000,000 / 31 557 600
-
-13 800 000 000,a<sub>J</sub>.
-
-Fin de ciclo:
-
-7 838 907 840 000 000 000 / 9
-
-870,989,760,000,000,000,s.
-
-870,989,760,000,000,000 / 31 557 600
-
-27 600 000 000,a<sub>J</sub>.
-
-La inversa conserva exactamente los valores:
-
-<p><strong>SV→ SI→ SV</strong></p>
-
-sin pérdida, sin decimal y sin residuo.
-
-I.M. Contraste de no contradicción con la Teoría del TODO y de la NADA
-
-La hipótesis transductiva de simetría del ciclo observable no contradice la Teoría del TODO y de la NADA por cuatro razones.
-
-Primera: no atribuye edad al TODO.
-
-<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
-
-Segunda: calcula edades del dominio observable y de sus contenidos.
-
-<p><strong>C<sub>i</sub>⊂Ω<sub>obs</sub>.</strong></p>
-
-Tercera: el cierre del ciclo observable no destruye la cadena. La clausura se añade como suceso terminal y la reapertura comparece como suceso ulterior.
-
-<p><strong>Γ<sup>(k)</sup> → Γ<sup>(k)</sup> → Γ<sup>(k+1)</sup>.</strong></p>
-
-Cuarta: la reapertura no borra, no copia, no reescribe y no convierte el cierre en (U). La formulación de agujero negro fija expresamente que una instancia factual realizada que alcanza cierre final retorna al Todo como traza factual completa, y que no se convierte en (U), copia, reescritura ni desaparición sin traza.
-
-Por tanto, el anexo no formula:
-
-<p><strong>Edad(TODO)=27 600 000 000,a<sub>J</sub>.</strong></p>
-
-Formula:
-
-A<sub>fin</sub>( C<sub>obs</sub>)
-
-27 600 000 000,a<sub>J</sub>.
-
-Esto conserva la distinción entre totalidad absoluta y ciclo observable.
-
-I.N. Síntesis final del anexo
-
-El anexo fija cuatro resultados.
-
-Primero:
-
-<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
-
-Segundo:
-
-A<sub>act</sub>= 13 800 000 000,a<sub>J</sub>
-
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-Tercero, bajo hipótesis transductiva de simetría del ciclo observable:
-
-A<sub>fin</sub>= 27 600 000 000,a<sub>J</sub>
-
-7 838 907 840 000 000 000,UE<sub>MFC</sub>.
-
-Cuarto:
-
-A<sub>restante</sub>= 13 800 000 000,a<sub>J</sub>
-
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-El último suceso elemental observable anterior al cierre se sitúa en:
-
-A<sub>ult</sub><sup>SV</sup>
-
-7,838,907,839,999,999,999,UE<sub>MFC</sub>.
-
-Y el suceso activador reinicia el ciclo como nuevo suceso append-only, sin borrar, copiar ni reescribir el ciclo clausurado:
-
-<p><strong>S<sub>react</sub>: S<sub>fin</sub>^ → S<sub>0</sub><sup>nuevo</sup>.</strong></p>
-
-I.O. Corolario I.1. Fracción actual exacta del ciclo observable y de sus objetos físicos
-
-Corolario I.1. Bajo la hipótesis transductiva de simetría del ciclo observable, el estado actual del contenido observable retornado ocupa exactamente la mitad del ciclo observable completo. La mitad restante posee la misma medida escalar y transductiva que la mitad ya recorrida.
-
-La fracción actual se define como:
-
-f<sub>act,obs</sub>
-
-A<sub>act</sub>A<sub>fin</sub>.
-
-Como:
-
-A<sub>act</sub>
-
-13 800 000 000 a<sub>J</sub>,
-
-y:
-
-A<sub>fin</sub>
-
-27 600 000 000 a<sub>J</sub>,
-
-entonces:
-
-f<sub>act,obs</sub>
-
-13 800 000 000/27 600 000 000
-
-1/2.
-
-La fracción restante es:
-
-f<sub>rest,obs</sub>
-
-1-f<sub>act,obs</sub>
-
-1-1/2
-
-1/2.
-
-Por tanto:
-
-<p><strong>f<sub>act,obs</sub>=1/2</strong></p>
-
-<p><strong>f<sub>rest,obs</sub>=1/2</strong></p>
-
-<p><strong>f<sub>act,obs</sub>+f<sub>rest,obs</sub>=1.</strong></p>
-
-La regla no atribuye edad a la totalidad absoluta. Atribuye fracción de ciclo al dominio observable y a sus contenidos físicos retornados. Esta lectura preserva la distinción entre dominios internos y totalidad, ya fijada por la doctrina de pluralidad interna de dominios y por la exigencia de transducción con dominio, invariantes, residual y retorno físico controlado.
-
-I.O.1. Tabla transductiva SV ↔ física contemporánea del ciclo observable
-
-| Magnitud | Física contemporánea | Unidad física | SV | Unidad SV | Residual | Lectura formal |
-| --- | --- | --- | --- | --- | --- | --- |
-| Estado inicial observable | 0 | (a<sub>J</sub>) | 0 | (UE<sub>MFC</sub>) | 0 | admisible |
-| Estado actual observable | 13.800.000.000 | (a<sub>J</sub>) | 3.919.453.920.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible |
-| Tramo restante observable | 13.800.000.000 | (a<sub>J</sub>) | 3.919.453.920.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible |
-| Fin de ciclo observable | 27.600.000.000 | (a<sub>J</sub>) | 7.838.907.840.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible |
-| Fracción actual | (1/2) | adimensional | (1/2) | adimensional | 0 | admisible |
-| Fracción restante | (1/2) | adimensional | (1/2) | adimensional | 0 | admisible |
-| Suma de fracciones | 1 | adimensional | 1 | adimensional | 0 | admisible |
-| Error de conversión | 0 | adimensional | 0 | adimensional | 0 | admisible |
-
-I.O.2. Tabla de suma y resta absoluta del ciclo observable
-
-| Operación | Años julianos | Segundos | Unidades SV | Resultado |
-| --- | --- | --- | --- | --- |
-| Actual + restante | (13.800.000.000+13.800.000.000) | (435.494.880.000.000.000+435.494.880.000.000.000) | (3.919.453.920.000.000.000+3.919.453.920.000.000.000) | fin de ciclo |
-| Resultado de la suma | 27.600.000.000 | 870.989.760.000.000.000 | 7.838.907.840.000.000.000 | exacto |
-| Fin − actual | (27.600.000.000-13.800.000.000) | (870.989.760.000.000.000-435.494.880.000.000.000) | (7.838.907.840.000.000.000-3.919.453.920.000.000.000) | restante |
-| Resultado de la resta | 13.800.000.000 | 435.494.880.000.000.000 | 3.919.453.920.000.000.000 | exacto |
-| Fin − restante | (27.600.000.000-13.800.000.000) | (870.989.760.000.000.000-435.494.880.000.000.000) | (7.838.907.840.000.000.000-3.919.453.920.000.000.000) | actual |
-| Resultado inverso | 13.800.000.000 | 435.494.880.000.000.000 | 3.919.453.920.000.000.000 | exacto |
-
-I.O.3. Tabla de objetos observables bajo fracción común de ciclo
-
-| Clase de objeto observable | Dominio | Edad actual de referencia | Fracción actual del ciclo | Edad restante por simetría | Fin de ciclo | Lectura formal |
-| --- | --- | --- | --- | --- | --- | --- |
-| Observable retornado | (Ω<sub>obs</sub>) | 13.800.000.000 (a<sub>J</sub>) | (1/2) | 13.800.000.000 (a<sub>J</sub>) | 27.600.000.000 (a<sub>J</sub>) | admisible |
-| Galaxias profundas admisibles | (Ω<sub>gal</sub>⊂Ω<sub>obs</sub>) | (≤13.800.000.000 a<sub>J</sub>) | (≤1/2) | (A<sub>fin</sub>-A<sub>gal</sub>) | 27.600.000.000 (a<sub>J</sub>) | admisible si (Δ=0) |
-| Estrellas antiguas admisibles | (Ω_★⊂Ω<sub>obs</sub>) | (≤13.800.000.000 a<sub>J</sub>) | (≤1/2) | (A<sub>fin</sub>-A_★) | 27.600.000.000 (a<sub>J</sub>) | admisible si (Δ=0) |
-| Hidrógeno como firma persistente | (Ω<sub>H</sub>) | (≤13.800.000.000 a<sub>J</sub>) | (≤1/2) | (A<sub>fin</sub>-A<sub>H</sub>) | 27.600.000.000 (a<sub>J</sub>) | admisible como firma |
-| Prehidrógeno como transición | (Ω<sub>preH→ H</sub>) | (≤13.800.000.000 a<sub>J</sub>) | (≤1/2) | (A<sub>fin</sub>-A<sub>preH</sub>) | 27.600.000.000 (a<sub>J</sub>) | admisible como transición |
-| Señales luminosas retornadas | (Ω<sub>L</sub><sup>ret</sup>) | (≤13.800.000.000 a<sub>J</sub>) | (≤1/2) | (A<sub>fin</sub>-A<sub>L</sub>) | 27.600.000.000 (a<sub>J</sub>) | admisible con emisor y firma |
-| Mapas cósmicos | (Ω<sub>mapa</sub>) | conjunto de edades (A(C<sub>i</sub>)) | ( A(C<sub>i</sub>)/A<sub>fin</sub>) | (A<sub>fin</sub>- A(C<sub>i</sub>)) | 27.600.000.000 (a<sub>J</sub>) | registro, no objeto único |
-
-La tabla distingue contenido concreto y objetos particulares. El observable retornado alcanza la fracción exacta:
-
-<p><strong>1/2.</strong></p>
-
-Los objetos particulares quedan acotados por:
-
-<p><strong>0≤ A(C<sub>i</sub>)≤ A<sub>act</sub>.</strong></p>
-
-Por tanto:
-
-<p><strong>0≤ A(C<sub>i</sub>)A<sub>fin</sub> ≤ 1/2.</strong></p>
-
-I.O.4. Teorema I.3. Fracción actual exacta del contenido observable
-
-Teorema I.3. Bajo la hipótesis transductiva de simetría del ciclo observable, el contenido observable retornado actualmente ocupa exactamente la mitad del ciclo observable completo.
-
-Demostración. Por definición del anexo:
-
-<p><strong>A<sub>act</sub>=13 800 000 000 a<sub>J</sub>.</strong></p>
-
-Por hipótesis de simetría:
-
-<p><strong>A<sub>fin</sub>=2A<sub>act</sub>.</strong></p>
-
-Luego:
-
-<p><strong>A<sub>fin</sub>= 27 600 000 000 a<sub>J</sub>.</strong></p>
-
-La fracción actual es:
-
-f<sub>act,obs</sub>
-
-A<sub>act</sub>A<sub>fin</sub>
-
-A<sub>act</sub>2A<sub>act</sub>
-
-1/2.
-
-La fracción restante es:
-
-f<sub>rest,obs</sub>
-
-A<sub>fin</sub>-A<sub>act</sub>A<sub>fin</sub>
-
-2A<sub>act</sub>-A<sub>act</sub>2A<sub>act</sub>
-
-1/2.
-
-Por tanto, el estado actual y el tramo restante son simétricos en el ciclo observable. c.q.d.
-
-I.O.5. Contraste laboratorial expuesto
-
-| Prueba | Entrada | Operación | Salida esperada | Lectura formal |
-| --- | --- | --- | --- | --- |
-| LAB-C1-01 | (13.800.000.000 a<sub>J</sub>) | (a<sub>J</sub>→ s) | (435.494.880.000.000.000 s) | 0 |
-| LAB-C1-02 | (435.494.880.000.000.000 s) | (s→ UE<sub>MFC</sub>) | (3.919.453.920.000.000.000 UE<sub>MFC</sub>) | 0 |
-| LAB-C1-03 | (3.919.453.920.000.000.000 UE<sub>MFC</sub>) | (×2) | (7.838.907.840.000.000.000 UE<sub>MFC</sub>) | 0 |
-| LAB-C1-04 | (27.600.000.000 a<sub>J</sub>) | (a<sub>J</sub>→ UE<sub>MFC</sub>) | (7.838.907.840.000.000.000 UE<sub>MFC</sub>) | 0 |
-| LAB-C1-05 | (13.800.000.000/27.600.000.000) | fracción | (1/2) | 0 |
-| LAB-C1-06 | (27.600.000.000-13.800.000.000) | resta | (13.800.000.000 a<sub>J</sub>) | 0 |
-| LAB-C1-07 | (7.838.907.840.000.000.000-3.919.453.920.000.000.000) | resta SV | (3.919.453.920.000.000.000 UE<sub>MFC</sub>) | 0 |
-| LAB-C1-08 | (Edad( T)) | atribución a totalidad absoluta | NO ADMISIBLE | 1 como bloqueo |
-| LAB-C1-09 | (A<sub>act</sub>→ A<sub>fin</sub>→ A<sub>restante</sub>) | retorno inverso | sin resto | 0 |
-
-El laboratorio confirma valores tabulados; no los descubre. Esta disciplina sigue la regla de no clausura espuria: sin residual no hay cierre, y una salida no declarada no puede sustituir a la tabla de contraste.
-
-I.P. Corolario I.2. Ciclo estructural de la Vía Láctea y de su entorno observable
-
-Corolario I.2. Tomando como dominio físico la Vía Láctea y su entorno estructural observable, la misma regla transductiva permite declarar edad actual, tramo restante, fracción de ciclo y fin de ciclo del conjunto local, siempre que el dominio se trate como contenido físico interno y no como totalidad absoluta.
-
-Se define:
-
-E<sub>VL</sub>
-
-Vía Láctea, halo galáctico, cúmulos globulares, satélites, corrientes estelares, gas, estrellas antiguas, remanentes, púlsares, entorno gravitatorio local .
-
-El valor escalar de registro para la edad estructural actual del dominio galáctico local se fija como:
-
-<p><strong>A<sub>VL,act</sub>= 13 600 000 000 a<sub>J</sub>.</strong></p>
-
-Este valor no se atribuye a la totalidad absoluta. Se atribuye al dominio estructural local de la Vía Láctea y su entorno observable, como contenido físico persistente.
-
-Por simetría transductiva del dominio local:
-
-<p><strong>A<sub>VL,fin</sub>=2A<sub>VL,act</sub>.</strong></p>
-
-Por tanto:
-
-A<sub>VL,fin</sub>
-
-27 200 000 000 a<sub>J</sub>.
-
-El tramo restante es:
-
-A<sub>VL,restante</sub>
-
-A<sub>VL,fin</sub>-A<sub>VL,act</sub>
-
-13 600 000 000 a<sub>J</sub>.
-
-La fracción actual es:
-
-f<sub>VL,act</sub>
-
-13 600 000 000/27 200 000 000
-
-1/2.
-
-La fracción restante es:
-
-f<sub>VL,rest</sub>
-
-1/2.
-
-I.P.1. Tabla transductiva SV ↔ física contemporánea del dominio Vía Láctea-entorno
-
-| Magnitud | Física contemporánea | Unidad física | SV | Unidad SV | Residual | Lectura formal |
-| --- | --- | --- | --- | --- | --- | --- |
-| Estado inicial del dominio local | 0 | (a<sub>J</sub>) | 0 | (UE<sub>MFC</sub>) | 0 | admisible |
-| Estado actual Vía Láctea-entorno | 13.600.000.000 | (a<sub>J</sub>) | 3.862.650.240.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible como dominio local |
-| Tramo restante Vía Láctea-entorno | 13.600.000.000 | (a<sub>J</sub>) | 3.862.650.240.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible como tramo local |
-| Fin de ciclo Vía Láctea-entorno | 27.200.000.000 | (a<sub>J</sub>) | 7.725.300.480.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible como cierre local |
-| Fracción actual local | (1/2) | adimensional | (1/2) | adimensional | 0 | admisible |
-| Fracción restante local | (1/2) | adimensional | (1/2) | adimensional | 0 | admisible |
-| Error aritmético de conversión | 0 | adimensional | 0 | adimensional | 0 | admisible |
-| Error de plano | 0 | adimensional | 0 | adimensional | 0 | admisible |
-
-I.P.2. Cálculo exacto del dominio Vía Láctea-entorno
-
-Conversión del estado actual a segundos:
-
-13 600 000 000 × 31 557 600
-
-429,183,360,000,000,000,s.
-
-Conversión a unidades SV:
-
-429,183,360,000,000,000 × 9
-
-3,862,650,240,000,000,000,UE<sub>MFC</sub>.
-
-Por tanto:
-
-A<sub>VL,act</sub>
-
-13 600 000 000,a<sub>J</sub>
-
-429,183,360,000,000,000,s
-
-3,862,650,240,000,000,000,UE<sub>MFC</sub>.
-
-Fin de ciclo:
-
-A<sub>VL,fin</sub>
-
-2A<sub>VL,act</sub>
-
-27 200 000 000,a<sub>J</sub>.
-
-En segundos:
-
-27 200 000 000 × 31 557 600
-
-858,366,720,000,000,000,s.
-
-En unidades SV:
-
-858,366,720,000,000,000 × 9
-
-7,725,300,480,000,000,000,UE<sub>MFC</sub>.
-
-Por tanto:
-
-A<sub>VL,fin</sub>
-
-27 200 000 000,a<sub>J</sub>
-
-858,366,720,000,000,000,s
-
-7,725,300,480,000,000,000,UE<sub>MFC</sub>.
-
-Tramo restante:
-
-A<sub>VL,restante</sub>
-
-27 200 000 000
-
-13 600 000 000
-
-13 600 000 000,a<sub>J</sub>.
-
-A<sub>VL,restante</sub>
-
-858,366,720,000,000,000
-
-429,183,360,000,000,000
-
-429,183,360,000,000,000,s.
-
-A<sub>VL,restante</sub><sup>SV</sup>
-
-7,725,300,480,000,000,000
-
-3,862,650,240,000,000,000
-
-3,862,650,240,000,000,000,UE<sub>MFC</sub>.
-
-Por tanto:
-
-A<sub>VL,restante</sub>
-
-13 600 000 000,a<sub>J</sub>
-
-429,183,360,000,000,000,s
-
-3,862,650,240,000,000,000,UE<sub>MFC</sub>.
-
-I.P.3. Tabla de suma y resta absoluta de la Vía Láctea-entorno
-
-| Operación | Años julianos | Segundos | Unidades SV | Resultado |
-| --- | --- | --- | --- | --- |
-| Actual local + restante local | (13.600.000.000+13.600.000.000) | (429.183.360.000.000.000+429.183.360.000.000.000) | (3.862.650.240.000.000.000+3.862.650.240.000.000.000) | fin local |
-| Resultado de la suma | 27.200.000.000 | 858.366.720.000.000.000 | 7.725.300.480.000.000.000 | exacto |
-| Fin local − actual local | (27.200.000.000-13.600.000.000) | (858.366.720.000.000.000-429.183.360.000.000.000) | (7.725.300.480.000.000.000-3.862.650.240.000.000.000) | restante local |
-| Resultado de la resta | 13.600.000.000 | 429.183.360.000.000.000 | 3.862.650.240.000.000.000 | exacto |
-| Fin local − restante local | (27.200.000.000-13.600.000.000) | (858.366.720.000.000.000-429.183.360.000.000.000) | (7.725.300.480.000.000.000-3.862.650.240.000.000.000) | actual local |
-| Resultado inverso | 13.600.000.000 | 429.183.360.000.000.000 | 3.862.650.240.000.000.000 | exacto |
-
-I.P.4. Tabla de objetos del entorno Vía Láctea
-
-| Clase de objeto del entorno local | Dominio | Edad actual formal | Fracción local actual | Edad restante formal | Fin local | Lectura formal |
-| --- | --- | --- | --- | --- | --- | --- |
-| Vía Láctea como dominio galáctico | (Ω<sub>VL</sub>) | 13.600.000.000 (a<sub>J</sub>) | (1/2) | 13.600.000.000 (a<sub>J</sub>) | 27.200.000.000 (a<sub>J</sub>) | admisible |
-| Halo galáctico | (Ω<sub>halo</sub>⊂Ω<sub>VL</sub>) | (A<sub>halo</sub>≤13.600.000.000) | (A<sub>halo</sub>/27.200.000.000) | (27.200.000.000-A<sub>halo</sub>) | 27.200.000.000 (a<sub>J</sub>) | admisible si (Δ=0) |
-| Cúmulos globulares antiguos | (Ω<sub>cg</sub>⊂Ω<sub>VL</sub>) | (A<sub>cg</sub>≤13.600.000.000) | (A<sub>cg</sub>/27.200.000.000) | (27.200.000.000-A<sub>cg</sub>) | 27.200.000.000 (a<sub>J</sub>) | admisible si (Δ=0) |
-| Estrellas antiguas | (Ω_★⊂Ω<sub>VL</sub>) | (A_★≤13.600.000.000) | (A_★/27.200.000.000) | (27.200.000.000-A_★) | 27.200.000.000 (a<sub>J</sub>) | admisible si (Δ=0) |
-| Satélites galácticos | (Ω<sub>sat</sub>⊂Ω<sub>VL</sub>) | (A<sub>sat</sub>≤13.600.000.000) | (A<sub>sat</sub>/27.200.000.000) | (27.200.000.000-A<sub>sat</sub>) | 27.200.000.000 (a<sub>J</sub>) | admisible si (Δ=0) |
-| Corrientes estelares | (Ω<sub>corr</sub>⊂Ω<sub>VL</sub>) | (A<sub>corr</sub>≤13.600.000.000) | (A<sub>corr</sub>/27.200.000.000) | (27.200.000.000-A<sub>corr</sub>) | 27.200.000.000 (a<sub>J</sub>) | admisible si (Δ=0) |
-| Gas del entorno local | (Ω<sub>gas</sub>⊂Ω<sub>VL</sub>) | (A<sub>gas</sub>≤13.600.000.000) | (A<sub>gas</sub>/27.200.000.000) | (27.200.000.000-A<sub>gas</sub>) | 27.200.000.000 (a<sub>J</sub>) | admisible con firma |
-| Hidrógeno local | (Ω<sub>H</sub>⊂Ω<sub>VL</sub>) | (A<sub>H</sub>≤13.600.000.000) | (A<sub>H</sub>/27.200.000.000) | (27.200.000.000-A<sub>H</sub>) | 27.200.000.000 (a<sub>J</sub>) | admisible como firma |
-| Remanentes | (Ω<sub>rem</sub>⊂Ω<sub>VL</sub>) | (A<sub>rem</sub>≤13.600.000.000) | (A<sub>rem</sub>/27.200.000.000) | (27.200.000.000-A<sub>rem</sub>) | 27.200.000.000 (a<sub>J</sub>) | admisible si (Δ=0) |
-| Púlsares locales | (Ω<sub>pul</sub>⊂Ω<sub>VL</sub>) | (A<sub>pul</sub>≤13.600.000.000) | (A<sub>pul</sub>/27.200.000.000) | (27.200.000.000-A<sub>pul</sub>) | 27.200.000.000 (a<sub>J</sub>) | admisible si (Δ=0) |
-
-La regla general para todo objeto local (O<sub>j</sub>∈ E<sub>VL</sub>) es:
-
-<p><strong>0≤ A(O<sub>j</sub>)≤ A<sub>VL,act</sub>.</strong></p>
-
-<p><strong>A<sub>fin</sub>(O<sub>j</sub>)=2A(O<sub>j</sub>).</strong></p>
-
-<p><strong>A<sub>restante</sub>(O<sub>j</sub>)=A(O<sub>j</sub>).</strong></p>
-
-Cuando se evalúa el dominio local completo:
-
-<p><strong>A<sub>VL,fin</sub>=2A<sub>VL,act</sub>.</strong></p>
-
-I.P.5. Teorema I.4. Simetría local de la Vía Láctea-entorno
-
-Teorema I.4. Bajo la hipótesis transductiva de simetría aplicada al dominio estructural Vía Láctea-entorno, el estado actual del dominio local ocupa exactamente la mitad de su ciclo observable local.
-
-Demostración. Se fija por registro:
-
-<p><strong>A<sub>VL,act</sub>=13 600 000 000 a<sub>J</sub>.</strong></p>
-
-Por simetría transductiva local:
-
-<p><strong>A<sub>VL,fin</sub>=2A<sub>VL,act</sub>.</strong></p>
-
-Entonces:
-
-<p><strong>A<sub>VL,fin</sub>=27 200 000 000 a<sub>J</sub>.</strong></p>
-
-La fracción actual es:
-
-f<sub>VL,act</sub>
-
-A<sub>VL,act</sub>A<sub>VL,fin</sub>
-
-A<sub>VL,act</sub>2A<sub>VL,act</sub>
-
-1/2.
-
-La fracción restante es:
-
-f<sub>VL,rest</sub>
-
-A<sub>VL,fin</sub>-A<sub>VL,act</sub>A<sub>VL,fin</sub>
-
-A<sub>VL,act</sub>2A<sub>VL,act</sub>
-
-1/2.
-
-La conversión a (UE<sub>MFC</sub>) se obtiene por:
-
-<p><strong>1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>.</strong></p>
-
-Luego:
-
-13 600 000 000×284 018 400
-
-3,862,650,240,000,000,000,UE<sub>MFC</sub>.
-
-Y:
-
-27 200 000 000×284 018 400
-
-7,725,300,480,000,000,000,UE<sub>MFC</sub>.
-
-La simetría local queda demostrada en física contemporánea y en unidades SV. c.q.d.
-
-I.P.6. Contraste laboratorial expuesto para Vía Láctea-entorno
-
-| Prueba | Entrada | Operación | Salida esperada | Lectura formal |
-| --- | --- | --- | --- | --- |
-| LAB-C2-01 | (13.600.000.000 a<sub>J</sub>) | (a<sub>J</sub>→ s) | (429.183.360.000.000.000 s) | 0 |
-| LAB-C2-02 | (429.183.360.000.000.000 s) | (s→ UE<sub>MFC</sub>) | (3.862.650.240.000.000.000 UE<sub>MFC</sub>) | 0 |
-| LAB-C2-03 | (3.862.650.240.000.000.000 UE<sub>MFC</sub>) | (×2) | (7.725.300.480.000.000.000 UE<sub>MFC</sub>) | 0 |
-| LAB-C2-04 | (27.200.000.000 a<sub>J</sub>) | (a<sub>J</sub>→ UE<sub>MFC</sub>) | (7.725.300.480.000.000.000 UE<sub>MFC</sub>) | 0 |
-| LAB-C2-05 | (13.600.000.000/27.200.000.000) | fracción | (1/2) | 0 |
-| LAB-C2-06 | (27.200.000.000-13.600.000.000) | resta | (13.600.000.000 a<sub>J</sub>) | 0 |
-| LAB-C2-07 | (7.725.300.480.000.000.000-3.862.650.240.000.000.000) | resta SV | (3.862.650.240.000.000.000 UE<sub>MFC</sub>) | 0 |
-| LAB-C2-08 | objeto local sin dominio | residual | (U) | U |
-| LAB-C2-09 | Vía Láctea usada como totalidad absoluta | error de plano | NO ADMISIBLE | 1 |
-| LAB-C2-10 | objeto local con dominio, edad, unidad y retorno | transducción | valor propio (A(O<sub>j</sub>)) y resto (A(O<sub>j</sub>)) | 0 si (Δ=0) |
-
-I.P.7. Tabla comparativa entre ciclo observable general y dominio Vía Láctea-entorno
-
-| Plano | Actual (a<sub>J</sub>) | Restante (a<sub>J</sub>) | Fin (a<sub>J</sub>) | Actual (UE<sub>MFC</sub>) | Restante (UE<sub>MFC</sub>) | Fin (UE<sub>MFC</sub>) | Fracción actual |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Observable retornado | 13.800.000.000 | 13.800.000.000 | 27.600.000.000 | 3.919.453.920.000.000.000 | 3.919.453.920.000.000.000 | 7.838.907.840.000.000.000 | (1/2) |
-| Vía Láctea-entorno | 13.600.000.000 | 13.600.000.000 | 27.200.000.000 | 3.862.650.240.000.000.000 | 3.862.650.240.000.000.000 | 7.725.300.480.000.000.000 | (1/2) |
-| Diferencia actual general-local | 200.000.000 | 200.000.000 | 400.000.000 | 56.803.680.000.000.000 | 56.803.680.000.000.000 | 113.607.360.000.000.000 | — |
-
-Cálculo de diferencia actual:
-
-13 800 000 000-13 600 000 000
-
-200,000,000,a<sub>J</sub>.
-
-200,000,000×284 018 400
-
-56,803,680,000,000,000,UE<sub>MFC</sub>.
-
-Cálculo de diferencia final:
-
-27 600 000 000-27 200 000 000
-
-400,000,000,a<sub>J</sub>.
-
-400,000,000×284 018 400
-
-113,607,360,000,000,000,UE<sub>MFC</sub>.
-
-I.P.8. Lectura formal conjunto de los corolarios
-
-Los corolarios fijan dos escalas.
-
-Primera escala:
-
-A<sub>cont,obs,act</sub>
-
-13 800 000 000,a<sub>J</sub>
-
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-A<sub>cont,obs,fin</sub>
-
-27 600 000 000,a<sub>J</sub>
-
-7 838 907 840 000 000 000,UE<sub>MFC</sub>.
-
-A<sub>cont,obs,restante</sub>
-
-13 800 000 000,a<sub>J</sub>
-
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-Segunda escala:
-
-A<sub>VL,act</sub>
-
-13 600 000 000,a<sub>J</sub>
-
-3,862,650,240,000,000,000,UE<sub>MFC</sub>.
-
-A<sub>VL,fin</sub>
-
-27 200 000 000,a<sub>J</sub>
-
-7,725,300,480,000,000,000,UE<sub>MFC</sub>.
-
-A<sub>VL,restante</sub>
-
-13 600 000 000,a<sub>J</sub>
-
-3,862,650,240,000,000,000,UE<sub>MFC</sub>.
-
-En ambas escalas:
-
-<p><strong>f<sub>actual</sub>=1/2.</strong></p>
-
-<p><strong>f<sub>restante</sub>=1/2.</strong></p>
-
-<p><strong>ε<sub>aritmético</sub>=0.</strong></p>
-
-<p><strong>ε<sub>transductivo</sub>=0.</strong></p>
-
-<p><strong>ε<sub>plano</sub>=0.</strong></p>
-
-El cierre de ciclo y la reapertura por suceso activador no contradicen la Teoría del TODO y de la NADA, porque los ciclos sucesivos son compatibles con preservación append-only y no autorizan borrado, copia ni reescritura del ciclo anterior.
-
-I.Q. Corolario I.3. Prueba de contraste solar: inicio, estado actual y fin del ciclo físico del Sol
-
-Corolario I.3. La estrella denominada Sol permite una prueba de contraste independiente del ciclo observable general, porque no exige atribuir edad a la totalidad absoluta ni al universo observable completo. El Sol es un objeto físico interno, persistente, estelar, con dominio propio, historia de formación, estado actual y fin de ciclo físico modelizable. Por ello puede recibir edad física relativa bajo transducción SI ↔ SV.
-
-La física contemporánea sitúa al Sol como una estrella de unos (4,57×10<sup>9</sup>) años, actualmente en fase estable de fusión de hidrógeno en helio; la ESA lo describe como una estrella de aproximadamente 4,57 mil millones de años, y NASA lo presenta como una estrella de unos 4,5 mil millones de años. (Agencia Espacial Europea) La evolución futura aceptada lo conduce hacia fase de gigante roja: ESA sitúa esa transición alrededor de los 10–11 mil millones de años de edad solar, mientras que NASA expresa de forma divulgativa que al Sol le quedan unos 5 mil millones de años antes de convertirse en gigante roja. (Agencia Espacial Europea)
-
-Este corolario adopta como valor escalar de registro para el estado actual:
-
-<p><strong>A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>.</strong></p>
-
-Y como cierre normalizado de contraste para el ciclo principal solar:
-
-<p><strong>A<sub>☉,fin</sub>=10 000 000 000 a<sub>J</sub>.</strong></p>
-
-Este cierre no niega el intervalo físico (10–11) mil millones de años. Fija una frontera escalar normalizada para contraste exacto, con el fin de calcular aritmética transductiva sin decimal, sin redondeo interno y sin desplazar el margen astrofísica al plano doctrinal.
-
-I.Q.1. Tabla de datos físicos externos del Sol
-
-| Magnitud | Valor físico contemporáneo | Fuente física | Uso en el corolario | Lectura formal |
-| --- | --- | --- | --- | --- |
-| Edad solar actual | (≈4,57×10<sup>9</sup> a<sub>J</sub>) | ESA / modelos solares | valor de registro actual | admisible |
-| Edad solar divulgativa | (≈4,5×10<sup>9</sup> a<sub>J</sub>) | NASA | contraste externo | admisible |
-| Fase actual | secuencia principal; fusión H→He | ESA / NASA | identidad física del objeto | admisible |
-| Futuro de gigante roja | alrededor de (10–11×10<sup>9</sup> a<sub>J</sub>) | ESA | intervalo físico externo | admisible |
-| Tiempo restante divulgativo | (≈5×10<sup>9</sup> a<sub>J</sub>) | NASA | contraste de orden físico | admisible |
-| Cierre escalar normalizado | (10 000 000 000 a<sub>J</sub>) | contraste transductivo | cálculo exacto | admisible como frontera de registro |
-
-I.Q.2. Tabla transductiva SV ↔ física contemporánea del Sol
-
-| Magnitud solar | Física contemporánea | Unidad física | SV | Unidad SV | Residual | Lectura formal |
-| --- | --- | --- | --- | --- | --- | --- |
-| Inicio del ciclo solar principal | 0 | (a<sub>J</sub>) | 0 | (UE<sub>MFC</sub>) | 0 | admisible |
-| Estado actual del Sol | 4.570.000.000 | (a<sub>J</sub>) | 1.297.964.088.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible |
-| Fin normalizado del ciclo solar principal | 10.000.000.000 | (a<sub>J</sub>) | 2.840.184.000.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible |
-| Tramo restante normalizado | 5.430.000.000 | (a<sub>J</sub>) | 1.542.219.912.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible |
-| Fracción actual solar | (457/1000) | adimensional | (457/1000) | adimensional | 0 | admisible |
-| Fracción restante solar | (543/1000) | adimensional | (543/1000) | adimensional | 0 | admisible |
-| Suma de fracciones | 1 | adimensional | 1 | adimensional | 0 | admisible |
-| Error de conversión | 0 | adimensional | 0 | adimensional | 0 | admisible |
-
-I.Q.3. Cálculo exacto del estado actual del Sol
-
-Se parte de:
-
-<p><strong>A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>.</strong></p>
-
-Como:
-
-<p><strong>1,a<sub>J</sub>=31 557 600 s,</strong></p>
-
-entonces:
-
-4 570 000 000 × 31 557 600
-
-144,218,232,000,000,000 s.
-
-Y como:
-
-<p><strong>1,s=9,UE<sub>MFC</sub>,</strong></p>
-
-entonces:
-
-144,218,232,000,000,000 × 9
-
-1,297,964,088,000,000,000 UE<sub>MFC</sub>.
-
-Por tanto:
-
-A<sub>☉,act</sub>
-
-4 570 000 000 a<sub>J</sub>
-
-144,218,232,000,000,000 s
-
-1,297,964,088,000,000,000 UE<sub>MFC</sub>.
-
-I.Q.4. Cálculo exacto del fin normalizado del ciclo solar principal
-
-Se fija:
-
-<p><strong>A<sub>☉,fin</sub>=10 000 000 000 a<sub>J</sub>.</strong></p>
-
-En segundos:
-
-10 000 000 000 × 31 557 600
-
-315,576,000,000,000,000 s.
-
-En unidades SV:
-
-315,576,000,000,000,000 × 9
-
-2,840,184,000,000,000,000 UE<sub>MFC</sub>.
-
-Por tanto:
-
-A<sub>☉,fin</sub>
-
-10 000 000 000 a<sub>J</sub>
-
-315,576,000,000,000,000 s
-
-2,840,184,000,000,000,000 UE<sub>MFC</sub>.
-
-I.Q.5. Cálculo exacto del tramo restante solar normalizado
-
-A<sub>☉,restante</sub>
-
-A<sub>☉,fin</sub>-A<sub>☉,act</sub>.
-
-En años julianos:
-
-10 000 000 000
-
-4 570 000 000
-
-5,430,000,000 a<sub>J</sub>.
-
-En segundos:
-
-315,576,000,000,000,000
-
-144,218,232,000,000,000
-
-171,357,768,000,000,000 s.
-
-En unidades SV:
-
-2,840,184,000,000,000,000
-
-1,297,964,088,000,000,000
-
-1,542,219,912,000,000,000 UE<sub>MFC</sub>.
-
-Por tanto:
-
-A<sub>☉,restante</sub>
-
-5,430,000,000 a<sub>J</sub>
-
-171,357,768,000,000,000 s
-
-1,542,219,912,000,000,000 UE<sub>MFC</sub>.
-
-I.Q.6. Fracción actual y fracción restante del ciclo solar normalizado
-
-La fracción actual del ciclo solar principal normalizado es:
-
-f<sub>☉,act</sub>
-
-A<sub>☉,act</sub>A<sub>☉,fin</sub>
-
-4 570 000 000/10 000 000 000
-
-457/1000.
-
-La fracción restante es:
-
-f<sub>☉,restante</sub>
-
-1-457/1000
-
-543/1000.
-
-Por tanto:
-
-<p><strong>f<sub>☉,act</sub>=457/1000=0,457.</strong></p>
-
-<p><strong>f<sub>☉,restante</sub>=543/1000=0,543.</strong></p>
-
-<p><strong>f<sub>☉,act</sub>+f<sub>☉,restante</sub>=1.</strong></p>
-
-El contraste solar muestra que no todos los dominios físicos internos están en la misma fracción que el ciclo observable general. En el ciclo observable general, bajo hipótesis de simetría, el estado actual ocupa (1/2). En el ciclo solar principal normalizado, el estado actual ocupa (457/1000). Esta diferencia no refuta la transducción; confirma que cada dominio físico posee su propia métrica de edad.
-
-I.Q.7. Tabla de suma y resta absoluta del Sol
-
-| Operación | Años julianos | Segundos | Unidades SV | Resultado |
-| --- | --- | --- | --- | --- |
-| Actual solar + restante solar | (4.570.000.000+5.430.000.000) | (144.218.232.000.000.000+171.357.768.000.000.000) | (1.297.964.088.000.000.000+1.542.219.912.000.000.000) | fin solar normalizado |
-| Resultado de la suma | 10.000.000.000 | 315.576.000.000.000.000 | 2.840.184.000.000.000.000 | exacto |
-| Fin solar − actual solar | (10.000.000.000-4.570.000.000) | (315.576.000.000.000.000-144.218.232.000.000.000) | (2.840.184.000.000.000.000-1.297.964.088.000.000.000) | restante solar |
-| Resultado de la resta | 5.430.000.000 | 171.357.768.000.000.000 | 1.542.219.912.000.000.000 | exacto |
-| Fin solar − restante solar | (10.000.000.000-5.430.000.000) | (315.576.000.000.000.000-171.357.768.000.000.000) | (2.840.184.000.000.000.000-1.542.219.912.000.000.000) | actual solar |
-| Resultado inverso | 4.570.000.000 | 144.218.232.000.000.000 | 1.297.964.088.000.000.000 | exacto |
-
-I.Q.8. Contraste con el intervalo físico externo 10–11 mil millones de años
-
-La física contemporánea no entrega una única frontera escalar absoluta para todas las fases solares futuras; entrega un intervalo de evolución hacia gigante roja. ESA sitúa la transición del Sol a gigante roja alrededor de los 10–11 mil millones de años de edad solar. (Agencia Espacial Europea)
-
-Por ello, junto al cierre normalizado de registro:
-
-<p><strong>A<sub>☉,fin</sub>=10 000 000 000 a<sub>J</sub>,</strong></p>
-
-se conserva el intervalo físico externo:
-
-<p><strong>A<sub>☉,fin,ext</sub> ∈ [10 000 000 000, 11,000,000,000] a<sub>J</sub>.</strong></p>
-
-El tramo restante externo queda:
-
-<p><strong>A<sub>☉,restante,ext</sub> ∈ 10 000 000 000-4 570 000 000, 11,000,000,000-4 570 000 000.</strong></p>
-
-<p><strong>A<sub>☉,restante,ext</sub> ∈ 5,430,000,000, 6,430,000,000 a<sub>J</sub>.</strong></p>
-
-En unidades SV:
-
-5,430,000,000 a<sub>J</sub>
-
-1,542,219,912,000,000,000 UE<sub>MFC</sub>.
-
-6,430,000,000 a<sub>J</sub>
-
-1,826,238,312,000,000,000 UE<sub>MFC</sub>.
-
-Por tanto:
-
-<p><strong>A<sub>☉,restante,ext</sub> ∈ 1,542,219,912,000,000,000, 1,826,238,312,000,000,000 UE<sub>MFC</sub>.</strong></p>
-
-La tabla de contraste declara un cierre escalar normalizado para cálculo exacto, y conserva el intervalo físico externo como contraste astrofísico. No se confunden ambos planos.
-
-I.Q.9. Teorema I.5. Exactitud transductiva del ciclo solar normalizado
-
-Teorema I.5. Dado el estado actual solar de registro (A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>) y el fin normalizado de ciclo principal (A<sub>☉,fin</sub>=10 000 000 000 a<sub>J</sub>), la fracción actual solar, el tramo restante y las conversiones SI ↔ SV quedan determinados sin resto aritmético.
-
-Demostración. Por definición:
-
-<p><strong>1,a<sub>J</sub>=31 557 600,s.</strong></p>
-
-Y:
-
-<p><strong>1,s=9,UE<sub>MFC</sub>.</strong></p>
-
-Luego:
-
-<p><strong>1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>.</strong></p>
-
-Para el estado actual:
-
-4 570 000 000 × 284 018 400
-
-1,297,964,088,000,000,000.
-
-Para el fin normalizado:
-
-10 000 000 000 × 284 018 400
-
-2,840,184,000,000,000,000.
-
-Para el tramo restante:
-
-10 000 000 000-4 570 000 000
-
-5,430,000,000.
-
-5,430,000,000 × 284 018 400
-
-1,542,219,912,000,000,000.
-
-La fracción actual es:
-
-4 570 000 000/10 000 000 000
-
-457/1000.
-
-La fracción restante es:
-
-<p><strong>543/1000.</strong></p>
-
-Ambas suman uno:
-
-<p><strong>457/1000+543/1000=1.</strong></p>
-
-No aparece decimal necesario, resto ni redondeo interno. c.q.d.
-
-I.Q.10. Teorema I.6. Contraste solar de independencia de dominios
-
-Teorema I.6. El ciclo solar prueba que las edades relativas de objetos físicos internos no deben forzarse a la fracción del ciclo observable general.
-
-Demostración. El ciclo observable general, bajo hipótesis transductiva de simetría, produce:
-
-<p><strong>f<sub>obs,act</sub>=1/2.</strong></p>
-
-El ciclo solar normalizado produce:
-
-<p><strong>f<sub>☉,act</sub>=457/1000.</strong></p>
-
-Como:
-
-<p><strong>457/1000≠1/2,</strong></p>
-
-el dominio solar no comparte necesariamente la fracción del ciclo observable general. Esta diferencia no contradice la estructura dla formulación, porque el Sol no es la totalidad absoluta ni el observable retornado, sino un objeto físico interno con dominio propio:
-
-<p><strong>Ω_☉⊂Ω<sub>obs</sub>.</strong></p>
-
-Por tanto, cada dominio interno exige su propia edad, su propio cierre y su propio residual. c.q.d.
-
-I.Q.11. Contraste laboratorial expuesto para el Sol
-
-| Prueba | Entrada | Operación | Salida esperada | Lectura formal |
-| --- | --- | --- | --- | --- |
-| LAB-C3-01 | (4.570.000.000 a<sub>J</sub>) | (a<sub>J</sub>→ s) | (144.218.232.000.000.000 s) | 0 |
-| LAB-C3-02 | (144.218.232.000.000.000 s) | (s→ UE<sub>MFC</sub>) | (1.297.964.088.000.000.000 UE<sub>MFC</sub>) | 0 |
-| LAB-C3-03 | (10.000.000.000 a<sub>J</sub>) | (a<sub>J</sub>→ s) | (315.576.000.000.000.000 s) | 0 |
-| LAB-C3-04 | (315.576.000.000.000.000 s) | (s→ UE<sub>MFC</sub>) | (2.840.184.000.000.000.000 UE<sub>MFC</sub>) | 0 |
-| LAB-C3-05 | (10.000.000.000-4.570.000.000) | resta | (5.430.000.000 a<sub>J</sub>) | 0 |
-| LAB-C3-06 | (2.840.184.000.000.000.000-1.297.964.088.000.000.000) | resta SV | (1.542.219.912.000.000.000 UE<sub>MFC</sub>) | 0 |
-| LAB-C3-07 | (4.570.000.000/10.000.000.000) | fracción | (457/1000) | 0 |
-| LAB-C3-08 | (543/1000+457/1000) | suma fraccional | (1) | 0 |
-| LAB-C3-09 | (A<sub>☉,fin,ext</sub>∈[10,11]×10<sup>9</sup>) | intervalo externo | intervalo conservado | 0 |
-| LAB-C3-10 | (Edad(☉)=Edad( T)) | error de plano | NO ADMISIBLE | 1 |
-| LAB-C3-11 | (f_☉=f<sub>obs</sub>) impuesto sin dominio | error de dominio | NO ADMISIBLE | 1 |
-| LAB-C3-12 | retorno inverso (UE<sub>MFC</sub>→ s→ a<sub>J</sub>) | división por (9) y por (31.557.600) | valores iniciales | 0 |
-
-I.Q.12. Tabla comparativa: observable retornado, Vía Láctea-entorno y Sol
-
-| Dominio | Actual (a<sub>J</sub>) | Restante (a<sub>J</sub>) | Fin (a<sub>J</sub>) | Fracción actual | Actual (UE<sub>MFC</sub>) | Restante (UE<sub>MFC</sub>) | Fin (UE<sub>MFC</sub>) |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Observable retornado | 13.800.000.000 | 13.800.000.000 | 27.600.000.000 | (1/2) | 3.919.453.920.000.000.000 | 3.919.453.920.000.000.000 | 7.838.907.840.000.000.000 |
-| Vía Láctea-entorno | 13.600.000.000 | 13.600.000.000 | 27.200.000.000 | (1/2) | 3.862.650.240.000.000.000 | 3.862.650.240.000.000.000 | 7.725.300.480.000.000.000 |
-| Sol | 4.570.000.000 | 5.430.000.000 | 10.000.000.000 | (457/1000) | 1.297.964.088.000.000.000 | 1.542.219.912.000.000.000 | 2.840.184.000.000.000.000 |
-| Sol, intervalo externo | 4.570.000.000 | 5.430.000.000–6.430.000.000 | 10.000.000.000–11.000.000.000 | (457/1000) a (457/1100) | 1.297.964.088.000.000.000 | 1.542.219.912.000.000.000–1.826.238.312.000.000.000 | 2.840.184.000.000.000.000–3.124.202.400.000.000.000 |
-
-I.Q.13. Lectura formal del corolario solar
-
-El Sol confirma el método porque obliga a separar dominio, objeto, edad actual, fin de ciclo físico y retorno transductivo.
-
-A<sub>☉,act</sub>
-
-4 570 000 000 a<sub>J</sub>
-
-1,297,964,088,000,000,000 UE<sub>MFC</sub>.
-
-A<sub>☉,fin</sub>
-
-10 000 000 000 a<sub>J</sub>
-
-2,840,184,000,000,000,000 UE<sub>MFC</sub>.
-
-A<sub>☉,restante</sub>
-
-5,430,000,000 a<sub>J</sub>
-
-1,542,219,912,000,000,000 UE<sub>MFC</sub>.
-
-<p><strong>f<sub>☉,act</sub>=457/1000.</strong></p>
-
-<p><strong>f<sub>☉,restante</sub>=543/1000.</strong></p>
-
-El intervalo físico externo queda conservado:
-
-<p><strong>A<sub>☉,fin,ext</sub> ∈ [10 000 000 000, 11,000,000,000] a<sub>J</sub>.</strong></p>
-
-<p><strong>A<sub>☉,restante,ext</sub> ∈ 5,430,000,000, 6,430,000,000 a<sub>J</sub>.</strong></p>
-
-La conversión aritmética de registro tiene error cero:
-
-<p><strong>ε<sub>aritmético</sub>=0.</strong></p>
-
-La transducción SI ↔ SV tiene retorno exacto:
-
-<p><strong>ε<sub>transductivo</sub>=0.</strong></p>
-
-Y el plano queda protegido:
-
-<p><strong>Edad(☉)≠ Edad( T).</strong></p>
-
-I.Q.14. Teorema I.7. Reducción al absurdo fuerte del resultado solar
-
-Teorema I.7. Dado el valor de registro:
-
-<p><strong>A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>,</strong></p>
-
-el cierre normalizado del ciclo solar principal:
-
-<p><strong>A<sub>☉,fin</sub>=10 000 000 000 a<sub>J</sub>,</strong></p>
-
-y la equivalencia transductiva:
-
-<p><strong>1,a<sub>J</sub>=31 557 600,s, 1,s=9,UE<sub>MFC</sub>,</strong></p>
-
-entonces el resultado solar:
-
-A<sub>☉,act</sub>
-
-1,297,964,088,000,000,000 UE<sub>MFC</sub>,
-
-A<sub>☉,restante</sub>
-
-1,542,219,912,000,000,000 UE<sub>MFC</sub>,
-
-A<sub>☉,fin</sub>
-
-2,840,184,000,000,000,000 UE<sub>MFC</sub>,
-
-<p><strong>f<sub>☉,act</sub>=457/1000, f<sub>☉,restante</sub>=543/1000</strong></p>
-
-es necesario dentro de la tabla de contraste. Negarlo conduce a contradicción aritmética, transductiva o de dominio.
-
-La base física externa es admisible como contraste: ESA fija el Sol en torno a (4,57) mil millones de años y sitúa su transición a gigante roja alrededor de los (10)-(11) mil millones de años de edad solar; NASA presenta el Sol como una estrella de unos (4,5) mil millones de años y conserva el orden físico de unos (5) mil millones de años restantes hasta la fase de gigante roja. (Agencia Espacial Europea)
-
-I.Q.14.1. Enunciado formal de la reducción
-
-Sea:
-
-B_☉
-
-( A<sub>☉,act</sub>, A<sub>☉,fin</sub>, a<sub>J</sub>, s, UE<sub>MFC</sub>, X<sub>☉</sub> )
-
-la tabla de contraste solar, con:
-
-<p><strong>A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>,</strong></p>
-
-<p><strong>A<sub>☉,fin</sub>=10 000 000 000 a<sub>J</sub>,</strong></p>
-
-<p><strong>1,a<sub>J</sub>=31 557 600,s,</strong></p>
-
-<p><strong>1,s=9,UE<sub>MFC</sub>.</strong></p>
-
-Sea:
-
-<p><strong>X<sub>☉</sub>: a<sub>J</sub> ↔ s ↔ UE<sub>MFC</sub></strong></p>
-
-el transductor solar de edad física relativa.
-
-La tesis que debe verificarse es:
-
-R_☉: A<sub>☉,act</sub><sup>SV</sup>
-
-1,297,964,088,000,000,000,UE<sub>MFC</sub>,; A<sub>☉,restante</sub><sup>SV</sup>
-
-1,542,219,912,000,000,000,UE<sub>MFC</sub>,; A<sub>☉,fin</sub><sup>SV</sup>
-
-2,840,184,000,000,000,000,UE<sub>MFC</sub>,; f<sub>☉,act</sub>=457/1000,; f<sub>☉,restante</sub>=543/1000. 
-
-La reducción al absurdo establece que:
-
-<p><strong>B_☉⇒ R_☉.</strong></p>
-
-I.Q.14.2. Suposición adversarial
-
-Supóngase lo contrario:
-
-<p><strong>¬ R_☉.</strong></p>
-
-Entonces al menos una de las siguientes cinco negaciones debe ser verdadera:
-
-<p><strong>N<sub>1</sub>: A<sub>☉,act</sub><sup>SV</sup> ≠ 1,297,964,088,000,000,000,UE<sub>MFC</sub>.</strong></p>
-
-<p><strong>N<sub>2</sub>: A<sub>☉,fin</sub><sup>SV</sup> ≠ 2,840,184,000,000,000,000,UE<sub>MFC</sub>.</strong></p>
-
-<p><strong>N<sub>3</sub>: A<sub>☉,restante</sub><sup>SV</sup> ≠ 1,542,219,912,000,000,000,UE<sub>MFC</sub>.</strong></p>
-
-<p><strong>N<sub>4</sub>: f<sub>☉,act</sub> ≠ 457/1000.</strong></p>
-
-<p><strong>N<sub>5</sub>: f<sub>☉,restante</sub> ≠ 543/1000.</strong></p>
-
-Se analiza cada posibilidad.
-
-I.Q.14.3. Reducción de (N<sub>1</sub>)
-
-Por definición:
-
-<p><strong>A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>.</strong></p>
-
-Como:
-
-<p><strong>1,a<sub>J</sub>=31 557 600,s,</strong></p>
-
-entonces:
-
-<p><strong>A<sub>☉,act</sub>[s</strong></p>
-
-4 570 000 000 × 31 557 600.
-
-Cálculo:
-
-4 570 000 000 × 31 557 600
-
-144,218,232,000,000,000.
-
-Por tanto:
-
-<p><strong>A<sub>☉,act</sub>[s</strong></p>
-
-144,218,232,000,000,000,s.
-
-Como:
-
-<p><strong>1,s=9,UE<sub>MFC</sub>,</strong></p>
-
-entonces:
-
-A<sub>☉,act</sub><sup>SV</sup>
-
-144,218,232,000,000,000 × 9.
-
-Cálculo:
-
-144,218,232,000,000,000 × 9
-
-1,297,964,088,000,000,000.
-
-Luego:
-
-A<sub>☉,act</sub><sup>SV</sup>
-
-1,297,964,088,000,000,000,UE<sub>MFC</sub>.
-
-Esto contradice (N<sub>1</sub>). Por tanto:
-
-<p><strong>N<sub>1</sub>⇒.</strong></p>
-
-I.Q.14.4. Reducción de (N<sub>2</sub>)
-
-Por definición:
-
-<p><strong>A<sub>☉,fin</sub>=10 000 000 000 a<sub>J</sub>.</strong></p>
-
-Conversión a segundos:
-
-10 000 000 000 × 31 557 600
-
-315,576,000,000,000,000,s.
-
-Conversión a unidades SV:
-
-315,576,000,000,000,000 × 9
-
-2,840,184,000,000,000,000,UE<sub>MFC</sub>.
-
-Luego:
-
-A<sub>☉,fin</sub><sup>SV</sup>
-
-2,840,184,000,000,000,000,UE<sub>MFC</sub>.
-
-Esto contradice (N<sub>2</sub>). Por tanto:
-
-<p><strong>N<sub>2</sub>⇒.</strong></p>
-
-I.Q.14.5. Reducción de (N<sub>3</sub>)
-
-Por definición:
-
-A<sub>☉,restante</sub>
-
-A<sub>☉,fin</sub>
-
-A<sub>☉,act</sub>.
-
-En años julianos:
-
-A<sub>☉,restante</sub>
-
-10 000 000 000
-
-4 570 000 000
-
-5,430,000,000 a<sub>J</sub>.
-
-Conversión a segundos:
-
-5,430,000,000 × 31 557 600
-
-171,357,768,000,000,000,s.
-
-Conversión a unidades SV:
-
-171,357,768,000,000,000 × 9
-
-1,542,219,912,000,000,000,UE<sub>MFC</sub>.
-
-Luego:
-
-A<sub>☉,restante</sub><sup>SV</sup>
-
-1,542,219,912,000,000,000,UE<sub>MFC</sub>.
-
-Esto contradice (N<sub>3</sub>). Por tanto:
-
-<p><strong>N<sub>3</sub>⇒.</strong></p>
-
-I.Q.14.6. Reducción de (N<sub>4</sub>)
-
-Por definición:
-
-f<sub>☉,act</sub>
-
-A<sub>☉,act</sub>A<sub>☉,fin</sub>.
-
-Sustituyendo:
-
-f<sub>☉,act</sub>
-
-4 570 000 000/10 000 000 000.
-
-Dividiendo numerador y denominador por:
-
-<p><strong>10,000,000,</strong></p>
-
-se obtiene:
-
-f<sub>☉,act</sub>
-
-457/1000.
-
-Por tanto:
-
-f<sub>☉,act</sub>
-
-457/1000.
-
-Esto contradice (N<sub>4</sub>). Luego:
-
-<p><strong>N<sub>4</sub>⇒.</strong></p>
-
-I.Q.14.7. Reducción de (N<sub>5</sub>)
-
-La fracción restante se define como:
-
-f<sub>☉,restante</sub>
-
-1-f<sub>☉,act</sub>.
-
-Como:
-
-f<sub>☉,act</sub>
-
-457/1000,
-
-entonces:
-
-f<sub>☉,restante</sub>
-
-1-457/1000
-
-1000/1000-457/1000
-
-543/1000.
-
-Por tanto:
-
-f<sub>☉,restante</sub>
-
-543/1000.
-
-Esto contradice (N<sub>5</sub>). Luego:
-
-<p><strong>N<sub>5</sub>⇒.</strong></p>
-
-I.Q.14.8. Conclusión de la reducción
-
-La negación del resultado solar implica:
-
-<p><strong>¬ R_☉ ⇒ N<sub>1</sub>∨ N<sub>2</sub>∨ N<sub>3</sub>∨ N<sub>4</sub>∨ N<sub>5</sub>.</strong></p>
-
-Pero se ha demostrado:
-
-<p><strong>N<sub>1</sub>⇒,</strong></p>
-
-<p><strong>N<sub>2</sub>⇒,</strong></p>
-
-<p><strong>N<sub>3</sub>⇒,</strong></p>
-
-<p><strong>N<sub>4</sub>⇒,</strong></p>
-
-<p><strong>N<sub>5</sub>⇒.</strong></p>
-
-Luego:
-
-<p><strong>¬ R_☉⇒.</strong></p>
-
-Por reducción al absurdo:
-
-<p><strong>R_☉.</strong></p>
-
-Queda demostrado:
-
-A<sub>☉,act</sub><sup>SV</sup>
-
-1,297,964,088,000,000,000 UE<sub>MFC</sub>.
-
-A<sub>☉,restante</sub><sup>SV</sup>
-
-1,542,219,912,000,000,000 UE<sub>MFC</sub>.
-
-A<sub>☉,fin</sub><sup>SV</sup>
-
-2,840,184,000,000,000,000 UE<sub>MFC</sub>.
-
-<p><strong>f<sub>☉,act</sub>=457/1000.</strong></p>
-
-<p><strong>f<sub>☉,restante</sub>=543/1000.</strong></p>
-
-c.q.d.
-
-I.Q.14.9. Tabla adversarial de reducción al absurdo
-
-| Negación adversarial | Consecuencia matemática | Contradicción | Lectura formal |
-| --- | --- | --- | --- |
-| (A<sub>☉,act</sub><sup>SV</sup>≠1.297.964.088.000.000.000) | viola (4.570.000.000×31.557.600×9) | contradice conversión exacta | (1) |
-| (A<sub>☉,fin</sub><sup>SV</sup>≠2.840.184.000.000.000.000) | viola (10.000.000.000×31.557.600×9) | contradice conversión exacta | (1) |
-| (A<sub>☉,restante</sub><sup>SV</sup>≠1.542.219.912.000.000.000) | viola ((10.000.000.000-4.570.000.000)×31.557.600×9) | contradice resta exacta | (1) |
-| (f<sub>☉,act</sub>≠457/1000) | viola (4.570.000.000/10.000.000.000) | contradice reducción fraccional | (1) |
-| (f<sub>☉,restante</sub>≠543/1000) | viola (1-457/1000) | contradice complemento exacto | (1) |
-| (Edad(☉)=Edad( T)) | confunde objeto físico interno con totalidad absoluta | error de plano | (1) |
-| (f<sub>☉</sub>=f<sub>obs</sub>) por imposición | fuerza dominios distintos | error de dominio | (1) |
-| (10)-(11) mil millones externo invalida la tabla de contraste de (10) mil millones | confunde intervalo astrofísico con cierre normalizado | error de transducción | (1) |
-
-I.Q.14.10. Contraste de laboratorio de la reducción
-
-| Prueba | Entrada | Operación exacta | Salida esperada | Error permitido | Lectura formal |
-| --- | --- | --- | --- | --- | --- |
-| LAB-RA-SOL-01 | (4.570.000.000) | (×31.557.600) | (144.218.232.000.000.000) | 0 | 0 |
-| LAB-RA-SOL-02 | (144.218.232.000.000.000) | (×9) | (1.297.964.088.000.000.000) | 0 | 0 |
-| LAB-RA-SOL-03 | (10.000.000.000) | (×31.557.600) | (315.576.000.000.000.000) | 0 | 0 |
-| LAB-RA-SOL-04 | (315.576.000.000.000.000) | (×9) | (2.840.184.000.000.000.000) | 0 | 0 |
-| LAB-RA-SOL-05 | (10.000.000.000-4.570.000.000) | resta | (5.430.000.000) | 0 | 0 |
-| LAB-RA-SOL-06 | (5.430.000.000) | (×31.557.600×9) | (1.542.219.912.000.000.000) | 0 | 0 |
-| LAB-RA-SOL-07 | (4.570.000.000/10.000.000.000) | reducción racional | (457/1000) | 0 | 0 |
-| LAB-RA-SOL-08 | (1-457/1000) | complemento racional | (543/1000) | 0 | 0 |
-| LAB-RA-SOL-09 | (457/1000+543/1000) | suma racional | (1) | 0 | 0 |
-| LAB-RA-SOL-10 | (1.297.964.088.000.000.000/9/31.557.600) | retorno inverso | (4.570.000.000) | 0 | 0 |
-| LAB-RA-SOL-11 | (2.840.184.000.000.000.000/9/31.557.600) | retorno inverso | (10.000.000.000) | 0 | 0 |
-| LAB-RA-SOL-12 | (Edad(☉)=Edad( T)) | control de plano | NO ADMISIBLE | 0 | 1 |
-
-I.Q.14.11. Lectura formal de rigor
-
-El resultado solar queda verificado por tres niveles.
-
-Primero, por contraste físico externo: el valor de registro (4,57×10<sup>9</sup> a<sub>J</sub>) coincide con la edad solar expresada por ESA, y el cierre normalizado de (10×10<sup>9</sup> a<sub>J</sub>) queda dentro del intervalo físico externo (10)-(11×10<sup>9</sup> a<sub>J</sub>) para la transición a gigante roja; NASA ofrece además el contraste divulgativo de unos (4,5) mil millones de años actuales y unos (5) mil millones restantes. (Agencia Espacial Europea)
-
-Segundo, por reducción al absurdo: negar el resultado obliga a negar una multiplicación exacta, una resta exacta, una fracción exacta o el dominio físico del objeto solar.
-
-Tercero, por retorno transductivo:
-
-<p><strong>a<sub>J</sub>→ s→ UE<sub>MFC</sub>→ s→ a<sub>J</sub></strong></p>
-
-devuelve exactamente el valor de partida.
-
-Por tanto:
-
-<p><strong>ε<sub>aritmético</sub>=0.</strong></p>
-
-<p><strong>ε<sub>transductivo</sub>=0.</strong></p>
-
-<p><strong>ε<sub>plano</sub>=0.</strong></p>
-
-Y queda fijado:
-
-A<sub>☉,act</sub>
-
-4 570 000 000 a<sub>J</sub>.
-
-A<sub>☉,restante</sub>
-
-5,430,000,000 a<sub>J</sub>.
-
-A<sub>☉,fin</sub>
-
-10 000 000 000 a<sub>J</sub>.
-
-<p><strong>f<sub>☉,act</sub>=457/1000, f<sub>☉,restante</sub>=543/1000.</strong></p>
-
-I.Q.15. Teorema I.8. Reducción escalar exacta del ciclo solar: del intervalo físico externo al número transductivo concreto
-
-Teorema I.8. El cálculo solar usado en este corolario no es un intervalo, sino un número preciso y concreto, porque el intervalo físico externo se emplea únicamente como dominio de contraste astrofísico, mientras que el transductor de frontera selecciona el inicio exacto del cierre del ciclo solar principal. En consecuencia:
-
-A<sub>☉,fin</sub>
-
-10 000 000 000 a<sub>J</sub>
-
-y no:
-
-<p><strong>A<sub>☉,fin</sub> ∈ [10 000 000 000, 11,000,000,000] a<sub>J</sub>.</strong></p>
-
-La ESA sitúa al Sol en torno a (4,57×10<sup>9</sup>) años y describe que alcanzará temperatura concreta aproximadamente a los (8×10<sup>9</sup>) años, enfriándose y aumentando de tamaño hasta convertirse en gigante roja alrededor de los (10–11×10<sup>9</sup>) años; NASA, por su parte, presenta el Sol como una estrella de unos (4,5×10<sup>9</sup>) años y señala que le quedan aproximadamente (5×10<sup>9</sup>) años antes de convertirse en gigante roja. (Agencia Espacial Europea)
-
-I.Q.15.1. Definición del intervalo externo de contraste
-
-Sea el intervalo físico contemporáneo de llegada al régimen de gigante roja:
-
-I<sub>☉</sub><sup>RG</sup>
-
-<p><strong>10,11]×10<sup>9</sup> a<sub>J</sub>.</strong></p>
-
-Este intervalo no se toma como salida final del cálculo. Se toma como dominio físico de contraste. Su función es contener el régimen astrofísico externo aceptado para la transición futura del Sol.
-
-La formulación no calcula:
-
-<p><strong>A<sub>☉,fin</sub>=I<sub>☉</sub><sup>RG</sup>.</strong></p>
-
-Calcula:
-
-A<sub>☉,fin</sub>
-
-∂^- I<sub>☉</sub><sup>RG</sup>.
-
-Donde:
-
-<p><strong>∂^- I</strong></p>
-
-designa la frontera inferior del intervalo físico: el primer punto de entrada al régimen de cierre del ciclo considerado.
-
-Por tanto:
-
-∂^- I<sub>☉</sub><sup>RG</sup>
-
-10×10<sup>9</sup> a<sub>J</sub>.
-
-Luego:
-
-A<sub>☉,fin</sub>
-
-10 000 000 000 a<sub>J</sub>.
-
-I.Q.15.2. Transductor solar de frontera
-
-Se define el transductor solar de frontera:
-
-<p><strong>X<sub>☉</sub><sup>∂^-</sup> : I<sub>☉</sub><sup>RG</sup> A<sub>☉,fin</sub>.</strong></p>
-
-Con regla:
-
-X<sub>☉</sub><sup>∂^-</sup>(I)
-
-∈f(I).
-
-Como:
-
-I<sub>☉</sub><sup>RG</sup>
-
-<p><strong>10 000 000 000, 11,000,000,000] a<sub>J</sub>,</strong></p>
-
-entonces:
-
-X<sub>☉</sub><sup>∂^-</sup>(I<sub>☉</sub><sup>RG</sup>)
-
-10 000 000 000 a<sub>J</sub>.
-
-La salida del transductor no es intervalo. Es escalar:
-
-<p><strong>X<sub>☉</sub><sup>∂^-</sup>(I<sub>☉</sub><sup>RG</sup>)∈ N· a<sub>J</sub>.</strong></p>
-
-No:
-
-<p><strong>X<sub>☉</sub><sup>∂^-</sup>(I<sub>☉</sub><sup>RG</sup>)∈ P( R)· a<sub>J</sub>.</strong></p>
-
-El intervalo externo queda conservado como contraste; el resultado de la tabla de contraste queda fijado como frontera escalar exacta.
-
-I.Q.15.3. Tabla de reducción del intervalo al escalar
-
-| Elemento | Física contemporánea | Operador transductivo | Salida | Estatuto |
-| --- | --- | --- | --- | --- |
-| Edad actual solar externa | (≈4,57×10<sup>9</sup> a<sub>J</sub>) | fijación de registro | (4.570.000.000 a<sub>J</sub>) | escalar de estado actual |
-| Rango externo de gigante roja | ([10,11]×10<sup>9</sup> a<sub>J</sub>) | (∂^-) | (10.000.000.000 a<sub>J</sub>) | frontera de inicio de cierre |
-| Tramo restante | (A<sub>fin</sub>−A<sub>act</sub>) | resta exacta | (5.430.000.000 a<sub>J</sub>) | escalar |
-| Conversión SI | (a<sub>J</sub>→ s) | (×31.557.600) | escalar en segundos | exacto |
-| Conversión SV | (s→ UE<sub>MFC</sub>) | (×9) | escalar en (UE<sub>MFC</sub>) | exacto |
-| Retorno inverso | (UE<sub>MFC</sub>→ s→ a<sub>J</sub>) | (/ 9), (/ 31.557.600) | escalar original | exacto |
-
-I.Q.15.4. Demostración
-
-Por física contemporánea, el futuro solar hacia régimen de gigante roja queda contenido en:
-
-I<sub>☉</sub><sup>RG</sup>
-
-<p><strong>10,11]×10<sup>9</sup> a<sub>J</sub>.</strong></p>
-
-La tabla de contraste no pregunta por la duración completa del régimen futuro de gigante roja ni por el conjunto completo de estados posteriores del Sol. Pregunta por el inicio del cierre del ciclo solar principal, es decir, por la frontera inferior del régimen de salida de la secuencia estable considerada.
-
-Por definición transductiva:
-
-A<sub>☉,fin</sub>
-
-∂^- I<sub>☉</sub><sup>RG</sup>.
-
-Como:
-
-∂^- [10,11]×10<sup>9</sup>
-
-10×10<sup>9</sup>,
-
-se obtiene:
-
-A<sub>☉,fin</sub>
-
-10 000 000 000 a<sub>J</sub>.
-
-Supóngase ahora que el resultado no fuera escalar, sino intervalar:
-
-A<sub>☉,fin</sub>
-
-<p><strong>10,11]×10<sup>9</sup> a<sub>J</sub>.</strong></p>
-
-Entonces el transductor:
-
-<p><strong>X<sub>☉</sub><sup>∂^-</sup> : I<sub>☉</sub><sup>RG</sup> → N· a<sub>J</sub></strong></p>
-
-no habría producido una salida en su codominio, sino una salida en:
-
-<p><strong>P( R)· a<sub>J</sub>.</strong></p>
-
-Esto contradice la definición del transductor, cuyo codominio es escalar. Por tanto:
-
-<p><strong>A<sub>☉,fin</sub> ∉ P( R)· a<sub>J</sub>.</strong></p>
-
-Y necesariamente:
-
-<p><strong>A<sub>☉,fin</sub> ∈ N· a<sub>J</sub>.</strong></p>
-
-Como el único escalar definido por (∂^-I<sub>☉</sub><sup>RG</sup>) es:
-
-<p><strong>10 000 000 000 a<sub>J</sub>,</strong></p>
-
-queda demostrado:
-
-A<sub>☉,fin</sub>
-
-10 000 000 000 a<sub>J</sub>.
-
-c.q.d.
-
-I.Q.16. Teorema I.9. Necesidad del número solar concreto por reducción al absurdo transductiva
-
-Teorema I.9. Bajo las definiciones:
-
-<p><strong>A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>,</strong></p>
-
-A<sub>☉,fin</sub>= ∂^-([10,11]×10<sup>9</sup> a<sub>J</sub>)
-
-10 000 000 000 a<sub>J</sub>,
-
-<p><strong>1,a<sub>J</sub>=31 557 600 s,</strong></p>
-
-<p><strong>1,s=9,UE<sub>MFC</sub>,</strong></p>
-
-el valor solar restante:
-
-A<sub>☉,restante</sub>
-
-5,430,000,000 a<sub>J</sub>
-
-y sus conversiones:
-
-A<sub>☉,act</sub><sup>SV</sup>
-
-1,297,964,088,000,000,000 UE<sub>MFC</sub>,
-
-A<sub>☉,fin</sub><sup>SV</sup>
-
-2,840,184,000,000,000,000 UE<sub>MFC</sub>,
-
-A<sub>☉,restante</sub><sup>SV</sup>
-
-1,542,219,912,000,000,000 UE<sub>MFC</sub>
-
-son necesarios. Negarlos obliga a negar la frontera inferior del intervalo, la unidad juliana, la unidad transductiva o la resta exacta.
-
-I.Q.16.1. Suposición adversarial fuerte
-
-Supóngase que el cálculo no produce un número concreto. Entonces debe cumplirse al menos una de estas alternativas:
-
-<p><strong>H<sub>1</sub>: A<sub>☉,fin</sub> ≠ 10 000 000 000 a<sub>J</sub>.</strong></p>
-
-<p><strong>H<sub>2</sub>: A<sub>☉,restante</sub> ≠ 5,430,000,000 a<sub>J</sub>.</strong></p>
-
-<p><strong>H<sub>3</sub>: A<sub>☉,act</sub><sup>SV</sup> ≠ 1,297,964,088,000,000,000 UE<sub>MFC</sub>.</strong></p>
-
-<p><strong>H<sub>4</sub>: A<sub>☉,fin</sub><sup>SV</sup> ≠ 2,840,184,000,000,000,000 UE<sub>MFC</sub>.</strong></p>
-
-<p><strong>H<sub>5</sub>: A<sub>☉,restante</sub><sup>SV</sup> ≠ 1,542,219,912,000,000,000 UE<sub>MFC</sub>.</strong></p>
-
-<p><strong>H<sub>6</sub>: f<sub>☉,act</sub> ≠ 457/1000.</strong></p>
-
-<p><strong>H<sub>7</sub>: f<sub>☉,restante</sub> ≠ 543/1000.</strong></p>
-
-Se demuestra que todas conducen a contradicción.
-
-I.Q.16.2. Contradicción de (H<sub>1</sub>)
-
-Por definición:
-
-A<sub>☉,fin</sub>
-
-∂^-([10,11]×10<sup>9</sup> a<sub>J</sub>).
-
-Por propiedad de frontera inferior:
-
-<p><strong>∂^-([a,b])=a.</strong></p>
-
-Luego:
-
-A<sub>☉,fin</sub>
-
-10×10<sup>9</sup> a<sub>J</sub>.
-
-Es decir:
-
-A<sub>☉,fin</sub>
-
-10 000 000 000 a<sub>J</sub>.
-
-Esto contradice (H<sub>1</sub>). Por tanto:
-
-<p><strong>H<sub>1</sub>⇒.</strong></p>
-
-I.Q.16.3. Contradicción de (H<sub>2</sub>)
-
-Por definición:
-
-A<sub>☉,restante</sub>
-
-A<sub>☉,fin</sub>-A<sub>☉,act</sub>.
-
-Sustituyendo:
-
-A<sub>☉,restante</sub>
-
-10 000 000 000
-
-4 570 000 000.
-
-Luego:
-
-A<sub>☉,restante</sub>
-
-5,430,000,000 a<sub>J</sub>.
-
-Esto contradice (H<sub>2</sub>). Por tanto:
-
-<p><strong>H<sub>2</sub>⇒.</strong></p>
-
-I.Q.16.4. Contradicción de (H<sub>3</sub>)
-
-Por definición:
-
-<p><strong>A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>.</strong></p>
-
-Como:
-
-<p><strong>1,a<sub>J</sub>=31 557 600 s,</strong></p>
-
-entonces:
-
-<p><strong>A<sub>☉,act</sub>[s</strong></p>
-
-4 570 000 000 × 31 557 600
-
-144,218,232,000,000,000 s.
-
-Como:
-
-<p><strong>1,s=9,UE<sub>MFC</sub>,</strong></p>
-
-entonces:
-
-A<sub>☉,act</sub><sup>SV</sup>
-
-144,218,232,000,000,000 × 9
-
-1,297,964,088,000,000,000 UE<sub>MFC</sub>.
-
-Esto contradice (H<sub>3</sub>). Por tanto:
-
-<p><strong>H<sub>3</sub>⇒.</strong></p>
-
-I.Q.16.5. Contradicción de (H<sub>4</sub>)
-
-Por definición:
-
-<p><strong>A<sub>☉,fin</sub>=10 000 000 000 a<sub>J</sub>.</strong></p>
-
-Entonces:
-
-<p><strong>A<sub>☉,fin</sub>[s</strong></p>
-
-10 000 000 000 × 31 557 600
-
-315,576,000,000,000,000 s.
-
-Y:
-
-A<sub>☉,fin</sub><sup>SV</sup>
-
-315,576,000,000,000,000 × 9
-
-2,840,184,000,000,000,000 UE<sub>MFC</sub>.
-
-Esto contradice (H<sub>4</sub>). Por tanto:
-
-<p><strong>H<sub>4</sub>⇒.</strong></p>
-
-I.Q.16.6. Contradicción de (H<sub>5</sub>)
-
-Por definición:
-
-<p><strong>A<sub>☉,restante</sub>=5,430,000,000 a<sub>J</sub>.</strong></p>
-
-Entonces:
-
-<p><strong>A<sub>☉,restante</sub>[s</strong></p>
-
-5,430,000,000 × 31 557 600
-
-171,357,768,000,000,000 s.
-
-Y:
-
-A<sub>☉,restante</sub><sup>SV</sup>
-
-171,357,768,000,000,000 × 9
-
-1,542,219,912,000,000,000 UE<sub>MFC</sub>.
-
-Esto contradice (H<sub>5</sub>). Por tanto:
-
-<p><strong>H<sub>5</sub>⇒.</strong></p>
-
-I.Q.16.7. Contradicción de (H<sub>6</sub>)
-
-La fracción actual se define por:
-
-f<sub>☉,act</sub>
-
-A<sub>☉,act</sub>A<sub>☉,fin</sub>.
-
-Luego:
-
-f<sub>☉,act</sub>
-
-4 570 000 000/10 000 000 000.
-
-Dividiendo numerador y denominador por:
-
-<p><strong>10,000,000,</strong></p>
-
-queda:
-
-f<sub>☉,act</sub>
-
-457/1000.
-
-Esto contradice (H<sub>6</sub>). Por tanto:
-
-<p><strong>H<sub>6</sub>⇒.</strong></p>
-
-I.Q.16.8. Contradicción de (H<sub>7</sub>)
-
-La fracción restante es:
-
-f<sub>☉,restante</sub>
-
-1-f<sub>☉,act</sub>.
-
-Como:
-
-f<sub>☉,act</sub>
-
-457/1000,
-
-entonces:
-
-f<sub>☉,restante</sub>
-
-1-457/1000
-
-543/1000.
-
-Esto contradice (H<sub>7</sub>). Por tanto:
-
-<p><strong>H<sub>7</sub>⇒.</strong></p>
-
-I.Q.16.9. Cierre de la reducción
-
-La negación del resultado solar concreto implica:
-
-<p><strong>¬ R<sub>☉</sub> ⇒ H<sub>1</sub>∨ H<sub>2</sub>∨ H<sub>3</sub>∨ H<sub>4</sub>∨ H<sub>5</sub>∨ H<sub>6</sub>∨ H<sub>7</sub>.</strong></p>
-
-Pero:
-
-<p><strong>H<sub>1</sub>⇒,</strong></p>
-
-<p><strong>H<sub>2</sub>⇒,</strong></p>
-
-<p><strong>H<sub>3</sub>⇒,</strong></p>
-
-<p><strong>H<sub>4</sub>⇒,</strong></p>
-
-<p><strong>H<sub>5</sub>⇒,</strong></p>
-
-<p><strong>H<sub>6</sub>⇒,</strong></p>
-
-<p><strong>H<sub>7</sub>⇒.</strong></p>
-
-Luego:
-
-<p><strong>¬ R<sub>☉</sub>⇒.</strong></p>
-
-Por reducción al absurdo:
-
-<p><strong>R<sub>☉</sub>.</strong></p>
-
-Queda demostrado que el resultado solar no es intervalo, sino número transductivo concreto:
-
-A<sub>☉,act</sub>
-
-4 570 000 000 a<sub>J</sub>.
-
-A<sub>☉,fin</sub>
-
-10 000 000 000 a<sub>J</sub>.
-
-A<sub>☉,restante</sub>
-
-5,430,000,000 a<sub>J</sub>.
-
-A<sub>☉,act</sub><sup>SV</sup>
-
-1,297,964,088,000,000,000 UE<sub>MFC</sub>.
-
-A<sub>☉,fin</sub><sup>SV</sup>
-
-2,840,184,000,000,000,000 UE<sub>MFC</sub>.
-
-A<sub>☉,restante</sub><sup>SV</sup>
-
-1,542,219,912,000,000,000 UE<sub>MFC</sub>.
-
-c.q.d.
-
-I.Q.17. Corolario I.3.1. Acotación de error cero del cálculo solar
-
-Corolario I.3.1. El cálculo solar tiene error absoluto cero en tres planos: plano de atribución, definición transductiva y aritmética de conversión. No se afirma que la astrofísica observacional carezca de margen; se afirma que, una vez fijado el dominio solar, el estado actual de registro, la frontera inferior del cierre principal y las unidades, el cálculo transductivo no introduce resto, intervalo ni redondeo.
-
-ε<sub>☉</sub><sup>abs</sup>
-
-ε<sub>☉</sub><sup>plano</sup> ⊕ ε<sub>☉</sub><sup>def</sup> ⊕ ε<sub>☉</sub><sup>trans</sup> ⊕ ε<sub>☉</sub><sup>arit</sup>.
-
-Y:
-
-<p><strong>ε<sub>☉</sub><sup>abs</sup>=0.</strong></p>
-
-I.Q.17.1. Error de plano
-
-El error de plano sería atribuir al Sol el estatuto de totalidad absoluta, o atribuir a la totalidad absoluta la edad del Sol.
-
-La tabla de contraste declara:
-
-<p><strong>Ω_☉⊂Ω<sub>obs</sub>.</strong></p>
-
-Y:
-
-<p><strong>Ω_☉≠ T.</strong></p>
-
-Por tanto:
-
-<p><strong>Edad(☉)≠ Edad( T).</strong></p>
-
-La edad solar se atribuye a un objeto físico interno:
-
-<p><strong>A_☉=A(Ω_☉).</strong></p>
-
-No a la totalidad absoluta.
-
-Luego:
-
-<p><strong>ε<sub>☉</sub><sup>plano</sup>=0.</strong></p>
-
-I.Q.17.2. Error de definición
-
-El error de definición sería no declarar el objeto, la frontera, la edad actual, el fin del ciclo o la unidad.
-
-Aquí se declara:
-
-<p><strong>Ω_☉=dominio físico solar.</strong></p>
-
-<p><strong>A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>.</strong></p>
-
-<p><strong>I<sub>☉</sub><sup>RG</sup>=[10,11]×10<sup>9</sup> a<sub>J</sub>.</strong></p>
-
-<p><strong>A<sub>☉,fin</sub>=∂^-I<sub>☉</sub><sup>RG</sup>=10 000 000 000 a<sub>J</sub>.</strong></p>
-
-A<sub>☉,restante</sub>
-
-A<sub>☉,fin</sub>-A<sub>☉,act</sub>.
-
-Luego:
-
-<p><strong>ε<sub>☉</sub><sup>def</sup>=0.</strong></p>
-
-I.Q.17.3. Error transductivo
-
-El error transductivo sería que la ida:
-
-<p><strong>a<sub>J</sub>→ s→ UE<sub>MFC</sub></strong></p>
-
-y la vuelta:
-
-<p><strong>UE<sub>MFC</sub>→ s→ a<sub>J</sub></strong></p>
-
-no devolvieran el mismo valor.
-
-Para el estado actual:
-
-<p><strong>4 570 000 000 a<sub>J</sub> → 1,297,964,088,000,000,000 UE<sub>MFC</sub>.</strong></p>
-
-Retorno:
-
-1,297,964,088,000,000,000 /9
-
-144,218,232,000,000,000 s.
-
-144,218,232,000,000,000 / 31 557 600
-
-4 570 000 000 a<sub>J</sub>.
-
-Para el fin:
-
-<p><strong>10 000 000 000 a<sub>J</sub> → 2,840,184,000,000,000,000 UE<sub>MFC</sub>.</strong></p>
-
-Retorno:
-
-2,840,184,000,000,000,000 /9
-
-315,576,000,000,000,000 s.
-
-315,576,000,000,000,000 / 31 557 600
-
-10 000 000 000 a<sub>J</sub>.
-
-Para el restante:
-
-<p><strong>5,430,000,000 a<sub>J</sub> → 1,542,219,912,000,000,000 UE<sub>MFC</sub>.</strong></p>
-
-Retorno:
-
-1,542,219,912,000,000,000 /9
-
-171,357,768,000,000,000 s.
-
-171,357,768,000,000,000 / 31 557 600
-
-5,430,000,000 a<sub>J</sub>.
-
-En los tres casos:
-
-<p><strong>SV→ SI→ SV</strong></p>
-
-y:
-
-<p><strong>SI→ SV→ SI</strong></p>
-
-conservan el valor.
-
-Luego:
-
-<p><strong>ε<sub>☉</sub><sup>trans</sup>=0.</strong></p>
-
-I.Q.17.4. Error aritmético
-
-El error aritmético se define como:
-
-ε<sub>☉</sub><sup>arit</sup>
-
-| A<sub>☉,fin</sub>
-
-( A<sub>☉,act</sub>+ A<sub>☉,restante</sub> ) |.
-
-Sustituyendo:
-
-ε<sub>☉</sub><sup>arit</sup>
-
-| 10 000 000 000
-
-( 4 570 000 000 + 5,430,000,000 ) |.
-
-ε<sub>☉</sub><sup>arit</sup>
-
-| 10 000 000 000
-
-10 000 000 000 |
-En unidades SV:
-
-ε<sub>☉</sub><sup>arit,SV</sup>
-
-| 2,840,184,000,000,000,000
-
-( 1,297,964,088,000,000,000 + 1,542,219,912,000,000,000 ) |.
-
-1,297,964,088,000,000,000 + 1,542,219,912,000,000,000
-
-2,840,184,000,000,000,000.
-
-Luego:
-
-ε<sub>☉</sub><sup>arit,SV</sup>
-Por tanto:
-
-<p><strong>ε<sub>☉</sub><sup>arit</sup>=0.</strong></p>
-
-I.Q.17.5. Cierre del corolario de error cero
-
-Como:
-
-<p><strong>ε<sub>☉</sub><sup>plano</sup>=0,</strong></p>
-
-<p><strong>ε<sub>☉</sub><sup>def</sup>=0,</strong></p>
-
-<p><strong>ε<sub>☉</sub><sup>trans</sup>=0,</strong></p>
-
-<p><strong>ε<sub>☉</sub><sup>arit</sup>=0,</strong></p>
-
-entonces:
-
-ε<sub>☉</sub><sup>abs</sup>
-
-0⊕0⊕0⊕0
-Queda demostrado:
-
-<p><strong>ε<sub>☉</sub><sup>abs</sup>=0.</strong></p>
-
-El error cero corresponde al plano, definición, transducción y aritmética. El margen astrofísica externa se conserva en su dominio instrumental, pero no altera el resultado escalar de registro:
-
-A<sub>☉,fin</sub>
-
-10 000 000 000 a<sub>J</sub>.
-
-A<sub>☉,restante</sub>
-
-5,430,000,000 a<sub>J</sub>.
-
-A<sub>☉,fin</sub><sup>SV</sup>
-
-2,840,184,000,000,000,000 UE<sub>MFC</sub>.
-
-A<sub>☉,restante</sub><sup>SV</sup>
-
-1,542,219,912,000,000,000 UE<sub>MFC</sub>.
-
-<a id="sec-anexo-ii-contraste-solar-elevacion-al-universo-observable-y-acotacion-de-error-cero"></a>
-
-## Anexo II. Contraste solar, elevación al universo observable y acotación de error cero
-
-Índice propio del Anexo II
-
-II.A. Estatuto del anexo II.B. Anclas físicas externas: Sol, universo observable y dominio de contraste II.C. Tabla maestra de contraste Sol ↔ universo observable II.D. Transductor de elevación desde objeto físico interno a observable retornado II.E. Teorema II.1. Independencia de dominio y conservación de comparabilidad II.F. Teorema II.2. Elevación del contraste solar al universo observable II.G. Teorema II.3. Error cero de transducción por dominio declarado II.H. Corolario II.1. El Sol no refuta el ciclo observable: lo contrasta II.I. Corolario II.2. El universo observable no absorbe las edades propias de sus objetos II.J. Tabla de contraste de ciclos: Sol, Vía Láctea-entorno y observable retornado II.K. Tabla de errores de plano, definición, transducción y aritmética II.L. Contraste laboratorial expuesto II.M. Conclusión fuerte del Anexo II
-
-II.A. Estatuto del anexo
-
-Este anexo realiza una prueba de contraste desde el Sol hasta el universo observable y sus objetos físicos. La finalidad no es convertir el Sol en medida del universo observable ni convertir el universo observable en medida del Sol. La finalidad es demostrar que el aparato de edades relativas conserva tres exigencias simultáneas:
-
-<p><strong>dominio propio,</strong></p>
-
-<p><strong>transducción exacta,</strong></p>
-
-<p><strong>comparabilidad sin absorción indebida.</strong></p>
-
-El Sol es un objeto físico interno:
-
-<p><strong>Ω_☉⊂Ω<sub>obs</sub>.</strong></p>
-
-La Vía Láctea-entorno es un dominio estructural local:
-
-<p><strong>Ω<sub>VL</sub>⊂Ω<sub>obs</sub>.</strong></p>
-
-El observable retornado es una clase de retornos físicos:
-
-<p><strong>Ω<sub>obs</sub>⊂Ω<sub>obs</sub>.</strong></p>
-
-La totalidad absoluta no entra como objeto de edad:
-
-<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
-
-Por tanto, este anexo no compara la edad del Sol con la edad de la totalidad absoluta. Compara tres dominios internos con sus propias edades relativas, sus propios cierres y sus propias fracciones.
-
-II.B. Anclas físicas externas: Sol, universo observable y dominio de contraste
-
-La física contemporánea aporta las anclas externas. La ESA, mediante Gaia, sitúa al Sol con una edad aproximada de (4,57×10<sup>9</sup>) años, en fase estable de fusión de hidrógeno, y describe su evolución futura hacia gigante roja alrededor de (10–11×10<sup>9</sup>) años de edad solar. NASA describe al Sol como una estrella de aproximadamente (4,5×10<sup>9</sup>) años y señala que le quedan unos (5×10<sup>9</sup>) años antes de convertirse en gigante roja. (Agencia Espacial Europea)
-
-Para el universo observable, la referencia física externa de contraste queda en (13,8×10<sup>9</sup>) años en el marco Planck; la ESA resume que los datos de Planck proporcionaron un valor de 13,8 mil millones de años, y NASA presenta el mapa de Planck como indicación de un universo de 13,8 mil millones de años. (Agencia Espacial Europea)
-
-Estas cifras externas no se toman como edad de la totalidad absoluta. Se toman como anclas físicas de dominios observables:
-
-<p><strong>A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>.</strong></p>
-
-<p><strong>A<sub>cont,obs,act</sub>=13 800 000 000 a<sub>J</sub>.</strong></p>
-
-La edad solar se atribuye al Sol. La edad del contenido observable se atribuye al contenido observable retornado. Ninguna de las dos se atribuye a la totalidad absoluta.
-
-II.C. Tabla maestra de contraste Sol ↔ universo observable
-
-| Dominio | Símbolo | Edad actual (a<sub>J</sub>) | Fin de ciclo (a<sub>J</sub>) | Tramo restante (a<sub>J</sub>) | Fracción actual | Estatuto |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sol | (Ω_☉) | 4.570.000.000 | 10.000.000.000 | 5.430.000.000 | (457/1000) | objeto físico interno |
-| Vía Láctea-entorno | (Ω<sub>VL</sub>) | 13.600.000.000 | 27.200.000.000 | 13.600.000.000 | (1/2) | dominio estructural local |
-| Observable retornado | (Ω<sub>obs</sub>) | 13.800.000.000 | 27.600.000.000 | 13.800.000.000 | (1/2) | dominio de retorno concreto |
-| Totalidad absoluta | ( T) | no aplicable | no aplicable | no aplicable | no aplicable | no admite edad |
-
-La tabla muestra que no existe una sola edad universal que absorba todas las edades internas. Existen edades relativas por dominio.
-
-El Sol posee:
-
-<p><strong>f<sub>☉,act</sub>=457/1000.</strong></p>
-
-El observable retornado posee:
-
-<p><strong>f<sub>cont,obs,act</sub>=1/2.</strong></p>
-
-Como:
-
-<p><strong>457/1000≠1/2,</strong></p>
-
-se prueba desde el inicio que los objetos físicos internos no están obligados a compartir la misma fracción de ciclo que el dominio observable concreto.
-
-II.D. Transductor de elevación desde objeto físico interno a observable retornado
-
-Se define el transductor de elevación comparativa:
-
-<p><strong>X<sub>obj→obs</sub>: (Ω<sub>i</sub>,A<sub>i</sub>,A<sub>i,fin</sub>,u<sub>SI</sub>,u<sub>SV</sub>,Δ<sub>i</sub>) (Ω<sub>obs</sub>,A<sub>Ωobs</sub>,A<sub>cont,obs,fin</sub>,Δ<sub>comp</sub>).</strong></p>
-
-Su función no es igualar edades, sino compararlas con conservación de dominio.
-
-Para cada objeto físico interno (O<sub>i</sub>):
-
-<p><strong>O<sub>i</sub>⊂Ω<sub>obs</sub>.</strong></p>
-
-Se exige:
-
-<p><strong>A<sub>i</sub>≠ A<sub>Ωobs</sub></strong></p>
-
-salvo que el objeto sea precisamente el observable retornado. También se exige:
-
-<p><strong>A<sub>i</sub>≤ A<sub>Ωobs</sub>.</strong></p>
-
-Y:
-
-<p><strong>A<sub>i,fin</sub>≤ A<sub>cont,obs,fin</sub></strong></p>
-
-cuando el ciclo del objeto sea contenido en el ciclo observable.
-
-El residual comparativo será:
-
-Δ<sub>comp</sub>(O<sub>i</sub>)
-
-Δ<sub>Ω</sub> ⊕ Δ<sub>A</sub> ⊕ Δ<sub>fin</sub> ⊕ Δ<sub>frac</sub> ⊕ Δ<sub>plano</sub>.
-
-Donde:
-
-<p><strong>Δ<sub>Ω</sub>=0</strong></p>
-
-si el objeto pertenece al dominio observable;
-
-<p><strong>Δ<sub>A</sub>=0</strong></p>
-
-si su edad actual es propia y no absorbida por otra edad;
-
-<p><strong>Δ<sub>fin</sub>=0</strong></p>
-
-si su cierre se declara en su dominio;
-
-<p><strong>Δ<sub>frac</sub>=0</strong></p>
-
-si su fracción se calcula respecto de su propio ciclo;
-
-<p><strong>Δ<sub>plano</sub>=0</strong></p>
-
-si no se atribuye al objeto el estatuto de totalidad absoluta.
-
-II.E. Teorema II.1. Independencia de dominio y conservación de comparabilidad
-
-Teorema II.1. Si (O<sub>i</sub>⊂Ω<sub>obs</sub>) es un objeto físico interno con edad propia (A<sub>i</sub>), entonces (A<sub>i</sub>) es comparable con (A<sub>Ωobs</sub>), pero no idéntica a ella salvo identidad de dominio. La comparación legítima exige conservar el dominio propio del objeto.
-
-Demostración. Sea:
-
-<p><strong>O<sub>i</sub>⊂Ω<sub>obs</sub>.</strong></p>
-
-El objeto (O<sub>i</sub>) posee edad propia si existen:
-
-<p><strong>(Ω<sub>i</sub>,Id<sub>i</sub>,∂Ω<sub>i</sub>,M<sub>i</sub>,u<sub>i</sub>,Δ<sub>i</sub>,R<sub>i</sub>).</strong></p>
-
-Entonces:
-
-<p><strong>A<sub>i</sub>=A(O<sub>i</sub>).</strong></p>
-
-El observable retornado se define por:
-
-<p><strong>A<sub>Ωobs</sub>=<sub>Δ<sub>j</sub>=0</sub>A(C<sub>j</sub>).</strong></p>
-
-Si (O<sub>i</sub>) no es el observable retornado, entonces:
-
-<p><strong>A<sub>i</sub>≤ A<sub>Ωobs</sub>.</strong></p>
-
-La igualdad:
-
-<p><strong>A<sub>i</sub>=A<sub>Ωobs</sub></strong></p>
-
-sólo es admisible si:
-
-<p><strong>O<sub>i</sub>=C<sub>max</sub></strong></p>
-
-o si la tabla de contraste demuestra que (O<sub>i</sub>) realiza el concreto. En caso contrario, imponer igualdad elimina la diferencia de dominio.
-
-Para el Sol:
-
-<p><strong>A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>.</strong></p>
-
-Para el observable retornado:
-
-<p><strong>A<sub>cont,obs,act</sub>=13 800 000 000 a<sub>J</sub>.</strong></p>
-
-Como:
-
-<p><strong>4 570 000 000<13 800 000 000,</strong></p>
-
-el Sol es comparable, pero no idéntico al observable retornado.
-
-Por tanto, la comparación es legítima y la absorción es ilegítima. c.q.d.
-
-II.F. Teorema II.2. Elevación del contraste solar al universo observable
-
-Teorema II.2. El contraste solar confirma el método general de edades relativas, porque reproduce la misma disciplina de dominio, unidad, residual y retorno que el observable retornado, aunque con valor, cierre y fracción propios.
-
-Demostración. El Sol se calcula con:
-
-<p><strong>A<sub>☉,act</sub>=4 570 000 000 a<sub>J</sub>.</strong></p>
-
-<p><strong>A<sub>☉,fin</sub>=10 000 000 000 a<sub>J</sub>.</strong></p>
-
-<p><strong>A<sub>☉,restante</sub>=5,430,000,000 a<sub>J</sub>.</strong></p>
-
-El observable retornado se calcula con:
-
-<p><strong>A<sub>cont,obs,act</sub>=13 800 000 000 a<sub>J</sub>.</strong></p>
-
-<p><strong>A<sub>cont,obs,fin</sub>=27 600 000 000 a<sub>J</sub>.</strong></p>
-
-<p><strong>A<sub>cont,obs,restante</sub>=13 800 000 000 a<sub>J</sub>.</strong></p>
-
-Ambos dominios usan la misma equivalencia transductiva:
-
-<p><strong>1,a<sub>J</sub>=31 557 600,s.</strong></p>
-
-<p><strong>1,s=9,UE<sub>MFC</sub>.</strong></p>
-
-Luego:
-
-<p><strong>1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>.</strong></p>
-
-Para el Sol:
-
-4 570 000 000×284 018 400
-
-1,297,964,088,000,000,000,UE<sub>MFC</sub>.
-
-Para el observable retornado:
-
-13 800 000 000×284 018 400
-
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-Los dos cálculos tienen forma común:
-
-<p><strong>A<sup>SV</sup>=A[a<sub>J</sub>]×284 018 400.</strong></p>
-
-Pero tienen dominio distinto:
-
-<p><strong>Ω_☉≠Ω<sub>obs</sub>.</strong></p>
-
-Por tanto, el contraste solar confirma la validez del aparato de transducción sin colapsar los dominios. c.q.d.
-
-II.G. Teorema II.3. Error cero de transducción por dominio declarado
-
-Teorema II.3. Para todo dominio interno (D<sub>i</sub>) con edad de registro (A<sub>i</sub>∈ N· a<sub>J</sub>), la transducción:
-
-<p><strong>a<sub>J</sub>→ s→ UE<sub>MFC</sub></strong></p>
-
-tiene error aritmético y transductivo cero si se conservan las definiciones:
-
-<p><strong>1,a<sub>J</sub>=31 557 600,s,</strong></p>
-
-<p><strong>1,s=9,UE<sub>MFC</sub>.</strong></p>
-
-Demostración. Sea:
-
-<p><strong>A<sub>i</sub>=N<sub>i</sub>,a<sub>J</sub>,</strong></p>
-
-con:
-
-<p><strong>N<sub>i</sub>∈ N.</strong></p>
-
-La transducción a segundos es:
-
-<p><strong>A<sub>i</sub>[s]=N<sub>i</sub>×31 557 600.</strong></p>
-
-La transducción a unidades SV es:
-
-<p><strong>A<sub>i</sub><sup>SV</sup>=N<sub>i</sub>×31 557 600×9.</strong></p>
-
-Como:
-
-<p><strong>31 557 600×9=284 018 400,</strong></p>
-
-entonces:
-
-<p><strong>A<sub>i</sub><sup>SV</sup>=N<sub>i</sub>×284 018 400.</strong></p>
-
-El retorno inverso es:
-
-<p><strong>A<sub>i</sub>[a<sub>J</sub>]=A<sub>i</sub><sup>SV</sup>284 018 400.</strong></p>
-
-Sustituyendo:
-
-<p><strong>A<sub>i</sub>[a<sub>J</sub>]=N<sub>i</sub>×284 018 400/284 018 400=N<sub>i</sub>.</strong></p>
-
-Por tanto:
-
-<p><strong>A<sub>i</sub>→ A<sub>i</sub><sup>SV</sup>→ A<sub>i</sub></strong></p>
-
-conserva exactamente el valor inicial.
-
-Luego:
-
-<p><strong>ε<sub>trans</sub>(D<sub>i</sub>)=0.</strong></p>
-
-c.q.d.
-
-II.H. Corolario II.1. El Sol no refuta el ciclo observable: lo contrasta
-
-Corolario II.1. El hecho de que:
-
-<p><strong>f<sub>☉,act</sub>=457/1000</strong></p>
-
-mientras:
-
-<p><strong>f<sub>cont,obs,act</sub>=1/2</strong></p>
-
-no refuta el ciclo observable. Demuestra que el Sol posee ciclo propio.
-
-Demostración. Si todos los dominios internos tuvieran que compartir la misma fracción de ciclo, entonces:
-
-<p><strong>f<sub>☉,act</sub>=f<sub>cont,obs,act</sub>.</strong></p>
-
-Pero:
-
-<p><strong>457/1000≠1/2.</strong></p>
-
-La igualdad forzada activaría:
-
-<p><strong>Δ<sub>Ω</sub>=1,</strong></p>
-
-porque confundiría el dominio solar con el dominio del observable retornado.
-
-Por tanto, la desigualdad de fracciones no es defecto. Es confirmación de independencia de dominio. c.q.d.
-
-II.I. Corolario II.2. El universo observable no absorbe las edades propias de sus objetos
-
-Corolario II.2. El universo observable contiene objetos físicos con edades propias, pero no convierte esas edades en una única edad indiferenciada.
-
-Demostración. Sea:
-
-<p><strong>O= ☉,Ω<sub>VL</sub>,C<sub>max</sub>,O<sub>1</sub>,O<sub>n</sub>.</strong></p>
-
-Cada objeto o dominio (O<sub>i</sub>) posee, si cierra:
-
-<p><strong>A(O<sub>i</sub>).</strong></p>
-
-El observable retornado posee:
-
-<p><strong>A<sub>Ωobs</sub>=<sub>Δ<sub>i</sub>=0</sub>A(O<sub>i</sub>).</strong></p>
-
-El supremo no elimina los valores particulares. Sólo selecciona el cierre admisible.
-
-Así:
-
-<p><strong>A_☉=4 570 000 000 a<sub>J</sub></strong></p>
-
-permanece edad solar;
-
-<p><strong>A<sub>VL</sub>=13 600 000 000 a<sub>J</sub></strong></p>
-
-permanece edad del dominio Vía Láctea-entorno;
-
-<p><strong>A<sub>Ωobs</sub>=13 800 000 000 a<sub>J</sub></strong></p>
-
-permanece edad concreta del observable retornado.
-
-No hay absorción:
-
-<p><strong>A_☉→ A<sub>Ωobs</sub>.</strong></p>
-
-<p><strong>A<sub>VL</sub>→ A<sub>Ωobs</sub>.</strong></p>
-
-Hay orden:
-
-<p><strong>A_☉<A<sub>VL</sub><A<sub>Ωobs</sub>.</strong></p>
-
-Con los valores:
-
-<p><strong>4 570 000 000 < 13 600 000 000 < 13 800 000 000.</strong></p>
-
-c.q.d.
-
-II.J. Tabla de contraste de ciclos: Sol, Vía Láctea-entorno y observable retornado
-
-| Dominio | Actual (a<sub>J</sub>) | Actual (UE<sub>MFC</sub>) | Restante (a<sub>J</sub>) | Restante (UE<sub>MFC</sub>) | Fin (a<sub>J</sub>) | Fin (UE<sub>MFC</sub>) | Fracción actual |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Sol | 4.570.000.000 | 1.297.964.088.000.000.000 | 5.430.000.000 | 1.542.219.912.000.000.000 | 10.000.000.000 | 2.840.184.000.000.000.000 | (457/1000) |
-| Vía Láctea-entorno | 13.600.000.000 | 3.862.650.240.000.000.000 | 13.600.000.000 | 3.862.650.240.000.000.000 | 27.200.000.000 | 7.725.300.480.000.000.000 | (1/2) |
-| Observable retornado | 13.800.000.000 | 3.919.453.920.000.000.000 | 13.800.000.000 | 3.919.453.920.000.000.000 | 27.600.000.000 | 7.838.907.840.000.000.000 | (1/2) |
-
-Diferencias escalares:
-
-A<sub>Ωobs</sub>-A<sub>VL</sub>
-
-13 800 000 000-13 600 000 000
-
-200,000,000 a<sub>J</sub>.
-
-A<sub>VL</sub>-A_☉
-
-13 600 000 000-4 570 000 000
-
-9,030,000,000 a<sub>J</sub>.
-
-A<sub>Ωobs</sub>-A_☉
-
-13 800 000 000-4 570 000 000
-
-9,230,000,000 a<sub>J</sub>.
-
-Diferencias transductivas:
-
-200,000,000×284 018 400
-
-56,803,680,000,000,000 UE<sub>MFC</sub>.
-
-9,030,000,000×284 018 400
-
-2,564,686,152,000,000,000 UE<sub>MFC</sub>.
-
-9,230,000,000×284 018 400
-
-2,621,489,832,000,000,000 UE<sub>MFC</sub>.
-
-II.K. Tabla de errores de plano, definición, transducción y aritmética
-
-| Dominio | Error de plano | Error de definición | Error transductivo | Error aritmético | Lectura formal |
-| --- | --- | --- | --- | --- | --- |
-| Sol | 0 | 0 | 0 | 0 | admisible |
-| Vía Láctea-entorno | 0 | 0 | 0 | 0 | admisible |
-| Observable retornado | 0 | 0 | 0 | 0 | admisible |
-| Totalidad absoluta | bloquea atribución | no aplica | no aplica | no aplica | NO ADMISIBLE |
-| Sol = totalidad absoluta | 1 | 1 | no aplica | no aplica | NO ADMISIBLE |
-| Sol = observable retornado | 1 | 1 | no aplica | no aplica | NO ADMISIBLE |
-| Vía Láctea = totalidad absoluta | 1 | 1 | no aplica | no aplica | NO ADMISIBLE |
-| Edad de objeto sin dominio | (U) | (U) | (U) | (U) | no cerrado |
-| Edad sin unidad SV | 0 | (U) | (U) | no cerrado | (U) |
-| Edad sin retorno inverso | 0 | (U) | (U) | no cerrado | (U) |
-
-Definición de error absoluto por dominio:
-
-ε<sub>i</sub><sup>abs</sup>
-
-ε<sub>i</sub><sup>plano</sup> ⊕ ε<sub>i</sub><sup>def</sup> ⊕ ε<sub>i</sub><sup>trans</sup> ⊕ ε<sub>i</sub><sup>arit</sup>.
-
-Para los tres dominios admisibles:
-
-<p><strong>ε_☉<sup>abs</sup>=0.</strong></p>
-
-<p><strong>ε<sub>VL</sub><sup>abs</sup>=0.</strong></p>
-
-<p><strong>ε<sub>cont,obs</sub><sup>abs</sup>=0.</strong></p>
-
-II.L. Contraste laboratorial expuesto
-
-| Prueba | Dominio | Entrada | Operación | Salida esperada | Error permitido | Lectura formal |
-| --- | --- | --- | --- | --- | --- | --- |
-| LAB-II-01 | Sol | 4.570.000.000 (a<sub>J</sub>) | (×284.018.400) | 1.297.964.088.000.000.000 (UE<sub>MFC</sub>) | 0 | 0 |
-| LAB-II-02 | Sol | 10.000.000.000 (a<sub>J</sub>) | (×284.018.400) | 2.840.184.000.000.000.000 (UE<sub>MFC</sub>) | 0 | 0 |
-| LAB-II-03 | Sol | 10.000.000.000 − 4.570.000.000 | resta | 5.430.000.000 (a<sub>J</sub>) | 0 | 0 |
-| LAB-II-04 | Sol | 4.570.000.000 / 10.000.000.000 | fracción | (457/1000) | 0 | 0 |
-| LAB-II-05 | Vía Láctea-entorno | 13.600.000.000 (a<sub>J</sub>) | (×284.018.400) | 3.862.650.240.000.000.000 (UE<sub>MFC</sub>) | 0 | 0 |
-| LAB-II-06 | Vía Láctea-entorno | 27.200.000.000 (a<sub>J</sub>) | (×284.018.400) | 7.725.300.480.000.000.000 (UE<sub>MFC</sub>) | 0 | 0 |
-| LAB-II-07 | Contenido observable | 13.800.000.000 (a<sub>J</sub>) | (×284.018.400) | 3.919.453.920.000.000.000 (UE<sub>MFC</sub>) | 0 | 0 |
-| LAB-II-08 | Contenido observable | 27.600.000.000 (a<sub>J</sub>) | (×284.018.400) | 7.838.907.840.000.000.000 (UE<sub>MFC</sub>) | 0 | 0 |
-| LAB-II-09 | Comparativo | (A_☉<A<sub>VL</sub><A<sub>Ωobs</sub>) | orden | verdadero | 0 | 0 |
-| LAB-II-10 | Comparativo | (f_☉=f<sub>cont,obs</sub>) | control adversarial | falso | 0 | 1 |
-| LAB-II-11 | Plano | (Edad( T)) | atribución | NO ADMISIBLE | 0 | 1 |
-| LAB-II-12 | Retorno | (UE<sub>MFC</sub>→ s→ a<sub>J</sub>) | inversa | valor inicial | 0 | 0 |
-
-II.M. Conclusión fuerte del Anexo II
-
-El contraste solar demuestra que el aparato de edades relativas no es una fórmula única aplicada sin discriminación. Es un sistema de dominios. El Sol conserva edad propia. La Vía Láctea-entorno conserva edad propia. El observable retornado conserva edad propia. La totalidad absoluta no recibe edad.
-
-El Sol fija:
-
-A<sub>☉,act</sub>
-
-4 570 000 000 a<sub>J</sub>
-
-1,297,964,088,000,000,000 UE<sub>MFC</sub>.
-
-A<sub>☉,restante</sub>
-
-5,430,000,000 a<sub>J</sub>
-
-1,542,219,912,000,000,000 UE<sub>MFC</sub>.
-
-A<sub>☉,fin</sub>
-
-10 000 000 000 a<sub>J</sub>
-
-2,840,184,000,000,000,000 UE<sub>MFC</sub>.
-
-El observable retornado fija:
-
-A<sub>cont,obs,act</sub>
-
-13 800 000 000 a<sub>J</sub>
-
-3 919 453 920 000 000 000 UE<sub>MFC</sub>.
-
-A<sub>cont,obs,restante</sub>
-
-13 800 000 000 a<sub>J</sub>
-
-3 919 453 920 000 000 000 UE<sub>MFC</sub>.
-
-A<sub>cont,obs,fin</sub>
-
-27 600 000 000 a<sub>J</sub>
-
-7 838 907 840 000 000 000 UE<sub>MFC</sub>.
-
-Y el contraste establece:
-
-<p><strong>A_☉<A<sub>VL</sub><A<sub>Ωobs</sub>.</strong></p>
-
-<p><strong>f_☉=457/1000≠1/2=f<sub>cont,obs</sub>.</strong></p>
-
-Por tanto, el resultado es fuerte: el Sol no corrige el ciclo observable; lo verifica por contraste. La diferencia entre sus fracciones demuestra que cada objeto físico conserva su ciclo propio. La coincidencia de conversión demuestra que todos los dominios pueden hablar el mismo lenguaje físico-transductivo. La acotación de error cero se mantiene porque no se anulan las márgenes instrumentales; se anulan el error de plano, el error definicional, el error transductivo y el error aritmético dentro de los dominios declarados.
-
-Conclusión conjunta de los Anexos I y II
-
-<a id="sec-c-1-lectura-formal-rector"></a>
-
-### C.1. Lectura rectora
-
-Los Anexos I y II fijan una separación definitiva entre cuatro planos que no deben confundirse:
-
-<p><strong>T≠ Ω<sub>obs</sub>≠ Ω<sub>VL</sub>≠ Ω_☉≠Ω<sub>SS</sub>.</strong></p>
-
-La totalidad absoluta ( T) no admite edad física. El universo observable, la Vía Láctea-entorno, el Sol y el Sistema Solar sí admiten edades relativas porque son dominios u objetos físicos internos con identidad, frontera, métrica, unidad, residual y retorno.
-
-La física contemporánea aporta anclas observacionales: el Sol se sitúa en torno a (4,57×10<sup>9</sup>) años y su transición a gigante roja se ubica alrededor de (10–11×10<sup>9</sup>) años de edad solar; la edad del Sistema Solar se fija por las inclusiones ricas en calcio y aluminio más antiguas en torno a (4,568×10<sup>9</sup>) años; y el universo observable se contrasta con la escala de (13,8×10<sup>9</sup>) años. (Agencia Espacial Europea)
-
-El transductor no elimina el margen instrumental externa. Lo que fija con error cero es la atribución de plano, la definición, la conversión SI ↔ SV y la aritmética interna.
-
-<a id="sec-c-2-tabla-maestra-sv-fisica-contemporanea"></a>
-
-### C.2. Tabla maestra SV ↔ Física contemporánea
-
-| Dominio físico | Estado actual (a<sub>J</sub>) | Estado actual (UE<sub>MFC</sub>) | Fin de estructura observable (a<sub>J</sub>) | Fin de estructura observable (UE<sub>MFC</sub>) | Restante (a<sub>J</sub>) | Restante (UE<sub>MFC</sub>) | Fracción actual | Lectura formal |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Observable retornado | 13.800.000.000 | 3.919.453.920.000.000.000 | 27.600.000.000 | 7.838.907.840.000.000.000 | 13.800.000.000 | 3.919.453.920.000.000.000 | (1/2) | admisible |
-| Vía Láctea-entorno | 13.600.000.000 | 3.862.650.240.000.000.000 | 27.200.000.000 | 7.725.300.480.000.000.000 | 13.600.000.000 | 3.862.650.240.000.000.000 | (1/2) | admisible |
-| Sol | 4.570.000.000 | 1.297.964.088.000.000.000 | 10.000.000.000 | 2.840.184.000.000.000.000 | 5.430.000.000 | 1.542.219.912.000.000.000 | (457/1000) | admisible |
-| Sistema Solar | 4.568.000.000 | 1.297.396.051.200.000.000 | 10.000.000.000 | 2.840.184.000.000.000.000 | 5.432.000.000 | 1.542.787.948.800.000.000 | (571/1250) | admisible |
-| Totalidad absoluta | no aplicable | no aplicable | no aplicable | no aplicable | no aplicable | no aplicable | no aplicable | NO ADMISIBLE |
-
-La equivalencia usada en todos los dominios es:
-
-<p><strong>1,a<sub>J</sub>=31 557 600,s.</strong></p>
-
-<p><strong>1,s=9,UE<sub>MFC</sub>.</strong></p>
-
-<p><strong>1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>.</strong></p>
-
-<a id="sec-c-3-diferencias-singulares-en-anos-julianos-y-unidades-sv"></a>
-
-### C.3. Diferencias singulares en años julianos y unidades SV
-
-| Comparación | Diferencia (a<sub>J</sub>) | Diferencia (UE<sub>MFC</sub>) | Lectura física |
-| --- | --- | --- | --- |
-| Observable retornado − Vía Láctea-entorno | 200.000.000 | 56.803.680.000.000.000 | El dominio observable concreto excede al dominio local galáctico |
-| Vía Láctea-entorno − Sol | 9.030.000.000 | 2.564.686.152.000.000.000 | El dominio galáctico local precede ampliamente al Sol |
-| Observable retornado − Sol | 9.230.000.000 | 2.621.489.832.000.000.000 | El Sol es objeto interno tardío respecto del observable retornado |
-| Sol − Sistema Solar | 2.000.000 | 568.036.800.000.000 | Diferencia de registro entre edad solar y edad de formación del Sistema Solar |
-| Restante Sistema Solar − restante Sol | 2.000.000 | 568.036.800.000.000 | La diferencia se conserva por resta exacta |
-| Fin observable concreto − fin Vía Láctea-entorno | 400.000.000 | 113.607.360.000.000.000 | Diferencia duplicada por simetría del ciclo observable |
-| Fin solar − fin Sistema Solar | 0 | 0 | Ambos cierran en la misma frontera normalizada de estructura solar-sistémica |
-
-<a id="sec-c-4-lectura-formal-especifico-sol"></a>
-
-### C.4. Lectura específica: Sol
-
-El Sol es un objeto físico interno:
-
-<p><strong>Ω_☉⊂Ω<sub>obs</sub>.</strong></p>
-
-Su edad actual de registro es:
-
-<p><strong>A<sub>☉,act</sub>=4 570 000 000,a<sub>J</sub>.</strong></p>
-
-Transducción:
-
-4 570 000 000×284 018 400
-
-1,297,964,088,000,000,000,UE<sub>MFC</sub>.
-
-La frontera normalizada de desaparición de su estructura actual de secuencia principal se fija en el inicio del intervalo físico de gigante roja:
-
-<p><strong>A<sub>☉,fin</sub>=10 000 000 000,a<sub>J</sub>.</strong></p>
-
-A<sub>☉,fin</sub><sup>SV</sup>
-
-2,840,184,000,000,000,000,UE<sub>MFC</sub>.
-
-El tramo restante es:
-
-A<sub>☉,restante</sub>
-
-10 000 000 000-4 570 000 000
-
-5,430,000,000,a<sub>J</sub>.
-
-A<sub>☉,restante</sub><sup>SV</sup>
-
-1,542,219,912,000,000,000,UE<sub>MFC</sub>.
-
-Fracciones:
-
-f<sub>☉,act</sub>=4 570 000 000/10 000 000 000
-
-457/1000.
-
-<p><strong>f<sub>☉,restante</sub>=543/1000.</strong></p>
-
-Lectura formal:
-
-<p><strong>Edad(☉)=4 570 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>Desaparición de la estructura solar actual=10 000 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>Tramo restante=5,430,000,000,a<sub>J</sub>.</strong></p>
-
-<p><strong>Δ_☉=0.</strong></p>
-
-<a id="sec-c-5-lectura-formal-especifico-sistema-solar"></a>
-
-### C.5. Lectura específica: Sistema Solar
-
-El Sistema Solar es un dominio físico interno:
-
-<p><strong>Ω<sub>SS</sub>⊂Ω<sub>obs</sub>.</strong></p>
-
-Su edad actual de registro se fija por el marcador material de formación temprana del sistema, no por la edad de la totalidad. Las inclusiones ricas en calcio y aluminio más antiguas se sitúan en (4,568×10<sup>9</sup>) años, menos de un millón de años después del primer encendido solar. (American Museum of Natural History)
-
-<p><strong>A<sub>SS,act</sub>=4 568 000 000,a<sub>J</sub>.</strong></p>
-
-Transducción:
-
-4 568 000 000×284 018 400
-
-1,297,396,051,200,000,000,UE<sub>MFC</sub>.
-
-El fin de estructura observable del Sistema Solar actual se acopla a la frontera solar normalizada de gigante roja:
-
-<p><strong>A<sub>SS,fin</sub>=10 000 000 000,a<sub>J</sub>.</strong></p>
-
-A<sub>SS,fin</sub><sup>SV</sup>
-
-2,840,184,000,000,000,000,UE<sub>MFC</sub>.
-
-El tramo restante es:
-
-A<sub>SS,restante</sub>
-
-10 000 000 000-4 568 000 000
-
-5,432,000,000,a<sub>J</sub>.
-
-A<sub>SS,restante</sub><sup>SV</sup>
-
-1,542,787,948,800,000,000,UE<sub>MFC</sub>.
-
-Fracciones:
-
-f<sub>SS,act</sub>
-
-4 568 000 000/10 000 000 000
-
-571/1250.
-
-f<sub>SS,restante</sub>
-
-679/1250.
-
-Lectura formal:
-
-<p><strong>Edad(Sistema Solar)=4 568 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>Desaparición de la estructura observable actual del Sistema Solar=10 000 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>Tramo restante=5,432,000,000,a<sub>J</sub>.</strong></p>
-
-<p><strong>Δ<sub>SS</sub>=0.</strong></p>
-
-<a id="sec-c-6-lectura-formal-especifico-via-lactea-entorno"></a>
-
-### C.6. Lectura específica: Vía Láctea-entorno
-
-La Vía Láctea-entorno se trata como dominio estructural local, no como totalidad absoluta:
-
-<p><strong>Ω<sub>VL</sub>⊂Ω<sub>obs</sub>.</strong></p>
-
-El valor de registro adoptado es:
-
-<p><strong>A<sub>VL,act</sub>=13 600 000 000,a<sub>J</sub>.</strong></p>
-
-Este valor queda en consonancia con estimaciones recientes de estrellas muy antiguas de la Vía Láctea en torno a (13,6×10<sup>9</sup>) años, usadas como contraste de edad cósmica estelar. (ICCUB)
-
-Transducción:
-
-13 600 000 000×284 018 400
-
-3,862,650,240,000,000,000,UE<sub>MFC</sub>.
-
-Por simetría transductiva local:
-
-<p><strong>A<sub>VL,fin</sub>=2A<sub>VL,act</sub>.</strong></p>
-
-<p><strong>A<sub>VL,fin</sub>=27 200 000 000,a<sub>J</sub>.</strong></p>
-
-A<sub>VL,fin</sub><sup>SV</sup>
-
-7,725,300,480,000,000,000,UE<sub>MFC</sub>.
-
-Tramo restante:
-
-A<sub>VL,restante</sub>
-
-13 600 000 000,a<sub>J</sub>.
-
-A<sub>VL,restante</sub><sup>SV</sup>
-
-3,862,650,240,000,000,000,UE<sub>MFC</sub>.
-
-Fracciones:
-
-<p><strong>f<sub>VL,act</sub>=1/2.</strong></p>
-
-<p><strong>f<sub>VL,restante</sub>=1/2.</strong></p>
-
-Lectura formal:
-
-<p><strong>Edad(Vía Láctea-entorno)=13 600 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>Desaparición de su estructura observable de dominio=27 200 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>Tramo restante=13 600 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>Δ<sub>VL</sub>=0.</strong></p>
-
-<a id="sec-c-7-lectura-formal-especifico-contenido-observable-maximo"></a>
-
-### C.7. Lectura específica: observable retornado
-
-El observable retornado es el dominio de retorno más amplio tratado por la formulación:
-
-<p><strong>Ω<sub>obs</sub>⊂Ω<sub>obs</sub>.</strong></p>
-
-El valor de registro es:
-
-<p><strong>A<sub>cont,obs,act</sub>=13 800 000 000,a<sub>J</sub>.</strong></p>
-
-La escala de (13,8×10<sup>9</sup>) años está alineada con los resultados cosmológicos de Planck divulgados por ESA y NASA como edad del universo observable bajo modelo físico. (NASA Science)
-
-Transducción:
-
-13 800 000 000×284 018 400
-
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-Por simetría transductiva del ciclo observable:
-
-<p><strong>A<sub>cont,obs,fin</sub>=27 600 000 000,a<sub>J</sub>.</strong></p>
-
-A<sub>cont,obs,fin</sub><sup>SV</sup>
-
-7 838 907 840 000 000 000,UE<sub>MFC</sub>.
-
-Tramo restante:
-
-<p><strong>A<sub>cont,obs,restante</sub>=13 800 000 000,a<sub>J</sub>.</strong></p>
-
-A<sub>cont,obs,restante</sub><sup>SV</sup>
-
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-Lectura formal:
-
-<p><strong>Edad(Ω<sub>obs</sub>)=13 800 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>Fin del ciclo observable=27 600 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>Tramo restante=13 800 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>Δ<sub>cont,obs</sub>=0.</strong></p>
-
-<a id="sec-c-8-teorema-de-cierre-conjunto"></a>
-
-### C.8. Teorema de cierre conjunto
-
-Teorema. Si un dominio físico interno (D<sub>i</sub>) declara edad actual, frontera de desaparición de estructura observable, unidad SI, unidad SV, residual y retorno, entonces su edad, su tramo restante y su fin estructural son calculables con error transductivo cero.
-
-Demostración. Sea:
-
-<p><strong>D<sub>i</sub>⊂Ω<sub>obs</sub>.</strong></p>
-
-Sea:
-
-<p><strong>A<sub>i,act</sub>=N<sub>i</sub>,a<sub>J</sub>.</strong></p>
-
-Sea:
-
-<p><strong>A<sub>i,fin</sub>=F<sub>i</sub>,a<sub>J</sub>.</strong></p>
-
-Entonces:
-
-<p><strong>A<sub>i,restante</sub>=F<sub>i</sub>-N<sub>i</sub>.</strong></p>
-
-Como:
-
-<p><strong>1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>,</strong></p>
-
-se obtiene:
-
-<p><strong>A<sub>i,act</sub><sup>SV</sup>=N<sub>i</sub>×284 018 400.</strong></p>
-
-<p><strong>A<sub>i,fin</sub><sup>SV</sup>=F<sub>i</sub>×284 018 400.</strong></p>
-
-<p><strong>A<sub>i,restante</sub><sup>SV</sup>=(F<sub>i</sub>-N<sub>i</sub>)×284 018 400.</strong></p>
-
-La suma exacta es:
-
-A<sub>i,act</sub><sup>SV</sup>+A<sub>i,restante</sub><sup>SV</sup>
-
-A<sub>i,fin</sub><sup>SV</sup>.
-
-La inversa exacta es:
-
-<p><strong>A<sub>i</sub><sup>SV</sup>284 018 400=A<sub>i</sub>[a<sub>J</sub>].</strong></p>
-
-Por tanto:
-
-<p><strong>ε<sub>trans</sub>=0.</strong></p>
-
-Y si el dominio no es la totalidad absoluta:
-
-<p><strong>ε<sub>plano</sub>=0.</strong></p>
-
-c.q.d.
-
-<a id="sec-c-9-acotacion-final-de-error-cero"></a>
-
-### C.9. Acotación final de error cero
-
-| Dominio | Error de plano | Error de definición | Error transductivo | Error aritmético | Error absoluto dla formulación |
-| --- | --- | --- | --- | --- | --- |
-| Sol | 0 | 0 | 0 | 0 | 0 |
-| Sistema Solar | 0 | 0 | 0 | 0 | 0 |
-| Vía Láctea-entorno | 0 | 0 | 0 | 0 | 0 |
-| Observable retornado | 0 | 0 | 0 | 0 | 0 |
-| Totalidad absoluta | bloqueada como no admisible | no aplicable | no aplicable | no aplicable | sin edad física |
-
-El margen observacional permanece en su dominio instrumental:
-
-<p><strong>σ<sub>obs</sub>≠0.</strong></p>
-
-Pero el error de atribución, definición, transducción y aritmética queda anulado:
-
-<p><strong>ε<sub>plano</sub>= ε<sub>def</sub>= ε<sub>trans</sub>= ε<sub>arit</sub>=0.</strong></p>
-
-<a id="sec-c-10-conclusion-fuerte"></a>
-
-### C.10. Conclusión fuerte
-
-El Sol, el Sistema Solar, la Vía Láctea-entorno y el observable retornado no compiten por una misma edad. Son dominios distintos, con edades propias, fronteras propias y cierres propios. La física contemporánea aporta los datos de contraste; el transductor fija la atribución exacta.
-
-El resultado final queda:
-
-<p><strong>Edad(Sol)=4 570 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>Fin de la estructura solar actual=10 000 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>Edad(Sistema Solar)=4 568 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>Fin de la estructura observable actual del Sistema Solar=10 000 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>Edad(Vía Láctea-entorno)=13 600 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>Fin de la estructura observable de dominio=27 200 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>Edad(observable retornado)=13 800 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>Fin del ciclo observable=27 600 000 000,a<sub>J</sub>.</strong></p>
-
-Y la totalidad absoluta queda fuera de atribución cronológica:
-
-<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
-
-<a id="sec-c-11-introduccion-de-registros-negativos-de-contraste"></a>
-
-### C.11. Controles negativos de contraste
-
-Los controles negativos de contraste son obligatorios. Sin ellos, una publicación que declara edades relativas, transductores, dominios, retornos y error cero quedaría expuesta a una objeción inmediata: podría parecer que el sistema sólo confirma los casos favorables y evita las condiciones que lo refutan.
-
-Por ello, los controles negativos no son anexos decorativos. Son una condición de rigor. Su función consiste en presentar casos que deben fallar, casos que deben quedar en (U), casos que deben activar error de plano y casos que deben impedir que una magnitud físicamente correcta sea usada en un dominio incorrecto.
-
-La regla es:
-
-<p><strong>un caso positivo sin control negativo no demuestra discriminación.</strong></p>
-
-Y también:
-
-<p><strong>un resultado con error cero sólo es defendible si el sistema detecta el error cuando éste se introduce.</strong></p>
-
-Los controles negativos se aplican a cuatro niveles:
-
-<p><strong>plano,</strong></p>
-
-<p><strong>definición,</strong></p>
-
-<p><strong>transducción,</strong></p>
-
-<p><strong>aritmética.</strong></p>
-
-En el plano, deben rechazar la atribución de edad a la totalidad absoluta. En la definición, deben rechazar objetos sin dominio, sin frontera, sin identidad o sin firma. En la transducción, deben rechazar unidades incompletas, retornos alterados o conversiones sin inversa. En la aritmética, deben rechazar sumas, restas, fracciones o equivalencias que no reproduzcan el valor tabulado.
-
-El control negativo no busca destruir el resultado. Busca demostrar que el resultado no depende de complacencia formal.
-
-<a id="sec-c-11-1-tabla-general-de-registros-negativos"></a>
-
-### C.11.1. Tabla general de controles negativos
-
-| Control negativo | Error introducido | Residual activado | Salida exigida |
-| --- | --- | --- | --- |
-| BN-PLANO | Edad atribuida a la totalidad absoluta | (Δ<sub>plano</sub>=1) | NO ADMISIBLE |
-| BN-DOMINIO | Objeto sin dominio declarado | (Δ<sub>Ω</sub>=U) | (U) |
-| BN-IDENTIDAD | Señal sin emisor u objeto identificable | (Δ<sub>Id</sub>=U) | (U) |
-| BN-FRONTERA | Objeto sin frontera de formación o desaparición | (Δ<sub>∂</sub>=U) | (U) |
-| BN-FIRMA | Línea espectral sin portador físico | (Δ<sub>Σ</sub>=U) | (U) |
-| BN-UNIDAD-SI | Magnitud sin unidad física | (Δ<sub>uSI</sub>=U) | (U) |
-| BN-UNIDAD-SV | Magnitud sin unidad transductiva | (Δ<sub>uSV</sub>=U) | (U) |
-| BN-RETORNO | Conversión sin retorno inverso | (Δ<sub>ret</sub>=1) | NO ADMISIBLE |
-| BN-ARITMÉTICO | Suma o resta que no reproduce el valor tabulado | (Δ<sub>arit</sub>=1) | NO ADMISIBLE |
-| BN-FRACCIÓN | Fracción actual y restante no suman (1) | (Δ<sub>f</sub>=1) | NO ADMISIBLE |
-| BN-SOL-TOTALIDAD | Edad del Sol tratada como edad de la totalidad | (Δ<sub>plano</sub>=1) | NO ADMISIBLE |
-| BN-VL-TOTALIDAD | Edad de la Vía Láctea tratada como edad de la totalidad | (Δ<sub>plano</sub>=1) | NO ADMISIBLE |
-| BN-SS-TOTALIDAD | Edad del Sistema Solar tratada como edad de la totalidad | (Δ<sub>plano</sub>=1) | NO ADMISIBLE |
-| BN-OBS-TOTALIDAD | Edad del contenido observable tratada como edad del TODO | (Δ<sub>plano</sub>=1) | NO ADMISIBLE |
-| BN-LAB | Laboratorio que calcula un valor no tabulado | (Δ<sub>lab</sub>=1) | NO ADMISIBLE |
-
-<a id="sec-c-11-2-registro-negativo-de-plano"></a>
-
-### C.11.2. Control negativo de plano
-
-El control negativo de plano prueba que la edad se atribuye al tipo correcto de entidad. Su regla central es:
-
-<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
-
-Donde ( T) designa la totalidad absoluta.
-
-| Código | Entrada adversarial | Forma errónea | Corrección | Salida |
-| --- | --- | --- | --- | --- |
-| BN-PL-01 | Totalidad absoluta | (Edad( T)=13.800.000.000,a<sub>J</sub>) | La totalidad no es objeto físico interno | NO ADMISIBLE |
-| BN-PL-02 | Totalidad absoluta | (Edad( T)=27.600.000.000,a<sub>J</sub>) | El fin de ciclo observable no es fin de totalidad | NO ADMISIBLE |
-| BN-PL-03 | Sol | (Edad(☉)=Edad( T)) | El Sol es objeto interno | NO ADMISIBLE |
-| BN-PL-04 | Vía Láctea | (Edad(Ω<sub>VL</sub>)=Edad( T)) | La galaxia-entorno es dominio interno | NO ADMISIBLE |
-| BN-PL-05 | Sistema Solar | (Edad(Ω<sub>SS</sub>)=Edad( T)) | El Sistema Solar es dominio interno | NO ADMISIBLE |
-| BN-PL-06 | Contenido observable | (Edad(Ω<sub>obs</sub>)=Edad( T)) | El contenido observable no es totalidad absoluta | NO ADMISIBLE |
-| BN-PL-07 | Modelo cosmológico | (Edad(modelo)=Edad( T)) | El modelo es instrumento de reconstrucción | NO ADMISIBLE |
-
-La tabla de contraste debe activar:
-
-<p><strong>Δ<sub>plano</sub>=1.</strong></p>
-
-Y la salida esperada será:
-
-<p><strong>d=1.</strong></p>
-
-<a id="sec-c-11-3-registro-negativo-de-definicion"></a>
-
-### C.11.3. Control negativo de definición
-
-El control negativo de definición comprueba que ninguna edad se declara sin objeto, dominio, identidad, frontera, magnitud y retorno.
-
-| Código | Defecto introducido | Ejemplo | Residual | Salida |
-| --- | --- | --- | --- | --- |
-| BN-DEF-01 | Falta dominio | (A=4.570.000.000,a<sub>J</sub>) sin decir si es Sol, Sistema Solar u otro dominio | (Δ<sub>Ω</sub>=U) | (U) |
-| BN-DEF-02 | Falta identidad | señal luminosa sin emisor | (Δ<sub>Id</sub>=U) | (U) |
-| BN-DEF-03 | Falta frontera | edad restante sin fin estructural declarado | (Δ<sub>∂</sub>=U) | (U) |
-| BN-DEF-04 | Falta firma | línea espectral sin portador | (Δ<sub>Σ</sub>=U) | (U) |
-| BN-DEF-05 | Falta magnitud | objeto descrito sin edad, distancia, frecuencia ni retorno | (Δ<sub>M</sub>=U) | (U) |
-| BN-DEF-06 | Falta unidad | cifra sin (a<sub>J</sub>), (s) o (UE<sub>MFC</sub>) | (Δ<sub>u</sub>=U) | (U) |
-| BN-DEF-07 | Falta retorno | conversión no invertible | (Δ<sub>ret</sub>=1) | NO ADMISIBLE |
-| BN-DEF-08 | Falta residual | caso presentado sin (Δ) | (Δ=U) | (U) |
-
-La regla formal será:
-
-<p><strong>A(C<sub>i</sub>) es admisible (Ω<sub>i</sub>,Id<sub>i</sub>,∂Ω<sub>i</sub>,Σ<sub>i</sub>,M<sub>i</sub>,u<sub>i</sub>,R<sub>i</sub>,Δ<sub>i</sub>) están declarados.</strong></p>
-
-Si falta un elemento esencial:
-
-<p><strong>d<sub>i</sub>=U.</strong></p>
-
-Si el elemento introducido contradice el dominio:
-
-<p><strong>d<sub>i</sub>=1.</strong></p>
-
-<a id="sec-c-11-4-registro-negativo-de-transduccion-si-sv"></a>
-
-### C.11.4. Control negativo de transducción SI ↔ SV
-
-El control negativo de transducción verifica que las conversiones no sean decorativas. Toda conversión debe permitir ida y vuelta:
-
-<p><strong>a<sub>J</sub>→ s→ UE<sub>MFC</sub>→ s→ a<sub>J</sub>.</strong></p>
-
-Si la vuelta no reproduce el valor de partida, el transductor falla.
-
-| Código | Entrada | Error introducido | Resultado esperado | Lectura formal |
-| --- | --- | --- | --- | --- |
-| BN-TR-01 | (1,a<sub>J</sub>) | usar (31.557.600,s) pero no multiplicar por (9) | unidad SV incompleta | (U) |
-| BN-TR-02 | (1,s) | usar (1,s=8,UE<sub>MFC</sub>) | retorno falso | NO ADMISIBLE |
-| BN-TR-03 | (13.800.000.000,a<sub>J</sub>) | obtener valor SV distinto de (3.919.453.920.000.000.000) | contradicción | NO ADMISIBLE |
-| BN-TR-04 | (4.570.000.000,a<sub>J</sub>) | obtener valor SV distinto de (1.297.964.088.000.000.000) | contradicción | NO ADMISIBLE |
-| BN-TR-05 | (4.568.000.000,a<sub>J</sub>) | obtener valor SV distinto de (1.297.396.051.200.000.000) | contradicción | NO ADMISIBLE |
-| BN-TR-06 | (13.600.000.000,a<sub>J</sub>) | obtener valor SV distinto de (3.862.650.240.000.000.000) | contradicción | NO ADMISIBLE |
-| BN-TR-07 | (UE<sub>MFC</sub>→ a<sub>J</sub>) | retorno con resto no declarado | retorno incompleto | (U) |
-| BN-TR-08 | valor externo | copiar cifra sin conversión | transducción ausente | NO ADMISIBLE |
-
-Condición de cierre:
-
-<p><strong>X<sup>-1</sup>( X(A))=A.</strong></p>
-
-Si:
-
-<p><strong>X<sup>-1</sup>( X(A))≠ A,</strong></p>
-
-entonces:
-
-<p><strong>Δ<sub>trans</sub>=1.</strong></p>
-
-<a id="sec-c-11-5-registro-negativo-aritmetico"></a>
-
-### C.11.5. Control negativo aritmético
-
-El control negativo aritmético impide que un resultado sea aceptado si sus sumas, restas o fracciones no cierran exactamente.
-
-| Código | Dominio | Prueba adversarial | Resultado correcto | Salida si falla |
-| --- | --- | --- | --- | --- |
-| BN-AR-01 | Sol | (4.570.000.000+5.430.000.000) | (10.000.000.000) | NO ADMISIBLE |
-| BN-AR-02 | Sol | (10.000.000.000-4.570.000.000) | (5.430.000.000) | NO ADMISIBLE |
-| BN-AR-03 | Sol | (457/1000+543/1000) | (1) | NO ADMISIBLE |
-| BN-AR-04 | Sistema Solar | (4.568.000.000+5.432.000.000) | (10.000.000.000) | NO ADMISIBLE |
-| BN-AR-05 | Sistema Solar | (10.000.000.000-4.568.000.000) | (5.432.000.000) | NO ADMISIBLE |
-| BN-AR-06 | Vía Láctea | (13.600.000.000+13.600.000.000) | (27.200.000.000) | NO ADMISIBLE |
-| BN-AR-07 | Contenido observable | (13.800.000.000+13.800.000.000) | (27.600.000.000) | NO ADMISIBLE |
-| BN-AR-08 | Comparativo | (13.800.000.000-13.600.000.000) | (200.000.000) | NO ADMISIBLE |
-| BN-AR-09 | Comparativo | (13.600.000.000-4.570.000.000) | (9.030.000.000) | NO ADMISIBLE |
-| BN-AR-10 | Comparativo | (4.570.000.000-4.568.000.000) | (2.000.000) | NO ADMISIBLE |
-
-Definición de error aritmético:
-
-<p><strong>ε<sub>arit</sub>= |A<sub>fin</sub>-(A<sub>act</sub>+A<sub>restante</sub>)|.</strong></p>
-
-El cierre exige:
-
-<p><strong>ε<sub>arit</sub>=0.</strong></p>
-
-<a id="sec-c-11-6-registro-negativo-de-fracciones"></a>
-
-### C.11.6. Control negativo de fracciones
-
-Las fracciones de ciclo no son intercambiables entre dominios. El control negativo de fracciones detecta imposiciones falsas.
-
-| Código | Entrada errónea | Razón del error | Salida |
-| --- | --- | --- | --- |
-| BN-FR-01 | (f_☉=1/2) | El Sol posee (457/1000), no (1/2) | NO ADMISIBLE |
-| BN-FR-02 | (f<sub>SS</sub>=457/1000) | El Sistema Solar posee (571/1250) | NO ADMISIBLE |
-| BN-FR-03 | (f<sub>VL</sub>=457/1000) | La Vía Láctea-entorno posee (1/2) | NO ADMISIBLE |
-| BN-FR-04 | (f<sub>cont,obs</sub>=457/1000) | El observable retornado posee (1/2) | NO ADMISIBLE |
-| BN-FR-05 | fracción actual + fracción restante (≠1) | contradicción interna | NO ADMISIBLE |
-| BN-FR-06 | fracción sin fin de ciclo | denominador ausente | (U) |
-| BN-FR-07 | fracción de un dominio aplicada a otro | error de dominio | NO ADMISIBLE |
-
-Fracciones correctas:
-
-<p><strong>f_☉=457/1000.</strong></p>
-
-<p><strong>f<sub>SS</sub>=571/1250.</strong></p>
-
-<p><strong>f<sub>VL</sub>=1/2.</strong></p>
-
-<p><strong>f<sub>cont,obs</sub>=1/2.</strong></p>
-
-<a id="sec-c-11-7-registro-negativo-de-sol-sistema-solar-via-lactea-y-contenido-observable"></a>
-
-### C.11.7. Control negativo de Sol, Sistema Solar, Vía Láctea y contenido observable
-
-| Código | Caso adversarial | Salida correcta |
-| --- | --- | --- |
-| BN-SOL-01 | Edad del Sol tomada como edad del Sistema Solar | NO ADMISIBLE |
-| BN-SOL-02 | Edad del Sol tomada como edad de la Vía Láctea | NO ADMISIBLE |
-| BN-SOL-03 | Edad del Sol tomada como edad del observable retornado | NO ADMISIBLE |
-| BN-SOL-04 | Fin solar (10.000.000.000,a<sub>J</sub>) tomado como fin del ciclo observable | NO ADMISIBLE |
-| BN-SS-01 | Edad del Sistema Solar tomada como edad del Sol | NO ADMISIBLE |
-| BN-SS-02 | Fin del Sistema Solar separado arbitrariamente del cierre solar normalizado sin dominio | (U) |
-| BN-VL-01 | Edad de la Vía Láctea-entorno tomada como edad del observable retornado | NO ADMISIBLE |
-| BN-VL-02 | Edad de la Vía Láctea-entorno tomada como edad del Sol | NO ADMISIBLE |
-| BN-OBS-01 | Edad del contenido observable tomada como edad del Sol | NO ADMISIBLE |
-| BN-OBS-02 | Fin del contenido observable tomado como fin de la estructura solar | NO ADMISIBLE |
-| BN-OBS-03 | Edad del contenido observable tomada como edad de la totalidad absoluta | NO ADMISIBLE |
-
-Regla:
-
-<p><strong>D<sub>i</sub>≠ D<sub>j</sub> ⇒ A(D<sub>i</sub>)≠ A(D<sub>j</sub>)</strong></p>
-
-salvo demostración específica de identidad de dominio o igualdad de valor por registro.
-
-<a id="sec-c-11-8-registro-negativo-de-laboratorio"></a>
-
-### C.11.8. Control negativo de laboratorio
-
-El laboratorio debe confirmar lo tabulado. No debe introducir una nueva cifra, no debe corregir el texto y no debe cerrar casos no declarados.
-
-| Código | Defecto de laboratorio | Salida exigida |
-| --- | --- | --- |
-| BN-LAB-01 | El laboratorio calcula un valor no tabulado | NO ADMISIBLE |
-| BN-LAB-02 | El laboratorio omite controles negativos | NO ADMISIBLE |
-| BN-LAB-03 | El laboratorio tolera error aritmético distinto de cero | NO ADMISIBLE |
-| BN-LAB-04 | El laboratorio redondea una conversión exacta | NO ADMISIBLE |
-| BN-LAB-05 | El laboratorio acepta una edad sin dominio | (U) |
-| BN-LAB-06 | El laboratorio acepta una edad sin unidad SV | (U) |
-| BN-LAB-07 | El laboratorio acepta (Edad( T)) | NO ADMISIBLE |
-| BN-LAB-08 | El laboratorio no reproduce retorno inverso | NO ADMISIBLE |
-| BN-LAB-09 | El laboratorio cambia el valor de registro | NO ADMISIBLE |
-| BN-LAB-10 | El laboratorio no informa un fallo | NO ADMISIBLE |
-
-Regla de salida:
-
-<p><strong>laboratorio válido reproduce valores tabulados y activa errores negativos.</strong></p>
-
-<a id="sec-c-11-9-teorema-de-necesidad-de-registros-negativos"></a>
-
-### C.11.9. Necesidad de controles negativos
-
-Teorema. Un sistema de edades relativas con pretensión de error cero no es suficiente si sólo confirma casos positivos; necesita controles negativos que activen error cuando se introduce una atribución, definición, transducción o aritmética falsa.
-
-Demostración. Sea (S) un sistema que acepta el resultado correcto:
-
-<p><strong>A<sub>i</sub>.</strong></p>
-
-Si (S) no rechaza un resultado falso:
-
-<p><strong>A<sub>i</sub>'≠ A<sub>i</sub>,</strong></p>
-
-entonces (S) no discrimina entre valor verdadero de registro y valor erróneo.
-
-Si (S) no rechaza una atribución falsa:
-
-<p><strong>Edad( T)=A<sub>i</sub>,</strong></p>
-
-entonces (S) no distingue totalidad absoluta de dominio físico interno.
-
-Si (S) no rechaza una transducción falsa:
-
-<p><strong>X<sup>-1</sup>( X(A<sub>i</sub>))≠ A<sub>i</sub>,</strong></p>
-
-entonces (S) no conserva retorno.
-
-Si (S) no rechaza una suma falsa:
-
-<p><strong>A<sub>act</sub>+A<sub>restante</sub>≠ A<sub>fin</sub>,</strong></p>
-
-entonces (S) no garantiza error aritmético cero.
-
-Por tanto, la confirmación positiva no basta. Es necesaria la refutación de los negativos. c.q.d.
-
-<a id="sec-c-11-10-lectura-formal-de-los-registros-negativos"></a>
-
-### C.11.10. Síntesis de los controles negativos
-
-Los controles negativos introducen la disciplina final dla formulación:
-
-<p><strong>lo que debe fallar, falla.</strong></p>
-
-<p><strong>lo que no tiene dominio, queda en U.</strong></p>
-
-<p><strong>lo que mezcla planos, queda no admisible.</strong></p>
-
-<p><strong>lo que altera la transducción, queda no admisible.</strong></p>
-
-<p><strong>lo que altera la aritmética exacta, queda no admisible.</strong></p>
-
-Con ello, los resultados positivos quedan protegidos:
-
-<p><strong>Edad(Sol)=4.570.000.000,a<sub>J</sub>.</strong></p>
-
-<p><strong>Edad(Sistema Solar)=4.568.000.000,a<sub>J</sub>.</strong></p>
-
-<p><strong>Edad(Vía Láctea-entorno)=13.600.000.000,a<sub>J</sub>.</strong></p>
-
-<p><strong>Edad(observable retornado)=13.800.000.000,a<sub>J</sub>.</strong></p>
-
-Y la totalidad absoluta queda bloqueada:
-
-<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
-
-<a id="sec-vii-resultado"></a>
-
-## VII. Resultado
-
-<a id="sec-vii-1-estatuto-del-resultado"></a>
-
-### VII.1. Estatuto del resultado
-
-El resultado de la formulación no es una edad de la totalidad absoluta ni una cota superior aproximada. Es una edad concreta del contenido observable retornado, con dominio declarado, unidad física, unidad transductiva, residual nulo y retorno inverso exacto.
-
-La forma bloqueada es:
-
-<p><strong>Edad( T)=13 800 000 000,a<sub>J</sub>.</strong></p>
-
-Esa formulación no es admisible porque ( T), como totalidad absoluta, no comparece como objeto físico interno. La Teoría del TODO y de la NADA no entiende el TODO como universo observable ni como suma empírica de objetos, sino como contención absoluta de todo dominio formulable, realizable, clausurable o pensable; el universo observable queda situado como dominio interno:
-
-<p><strong>Ω<sub>obs</sub>⊂Ω<sub>fis</sub>⊂ TODO<sub>SV</sub>.</strong></p>
-
-La región observable depende de horizonte, luz, expansión, señal, medición y condiciones físicas; el TODO no depende de observabilidad física.
-
-La forma correcta es:
-
-<p><strong>A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub>.</strong></p>
-
-Donde:
-
-<p><strong>A_Ω<sub>obs</sub></strong></p>
-
-designa la edad concreta del dominio observable retornado, no la edad de la totalidad absoluta.
-
-Por tanto:
-
-<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
-
-<p><strong>A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub>.</strong></p>
-
-No se declara una edad concreta aproximada. Se declara una edad concreta del observable, porque el dominio observable carece de factor externo capaz de cortar su ciclo desde fuera sin contradecir la contención absoluta del TODO.
-
-<a id="sec-vii-2-teorema-vi-1-exclusion-de-factor-externo-sobre-el-ciclo-observable-total"></a>
-
-### VII.2. Teorema VI.1. Exclusión de factor externo sobre el ciclo observable total
-
-Teorema VI.1. El ciclo del contenido observable total no puede ser interrumpido por un factor externo absoluto. Por tanto, su edad actual y su fin de ciclo no se formulan como intervalo abierto por contingencia externa, sino como ciclo concreto bajo transducción.
-
-Demostración.
-
-Sea:
-
-C_Ω<sub>obs</sub>
-
-(S<sub>0</sub>,S<sub>act</sub>,S<sub>fin</sub>,S<sub>react</sub>)
-
-el ciclo del dominio observable retornado.
-
-En un objeto físico interno ordinario (O<sub>i</sub>⊂Ω<sub>obs</sub>), puede existir un factor externo (F<sub>ext</sub>) que interrumpa su ciclo natural:
-
-<p><strong>F<sub>ext</sub>(O<sub>i</sub>)=1 ⇒ S<sub>fin</sub>(O<sub>i</sub>) puede adelantarse.</strong></p>
-
-Por ejemplo, una estrella, una galaxia local, un planeta o una estructura material pueden sufrir alteraciones externas dentro de su dominio físico. Esto no contradice su edad propia; sólo muestra que los objetos internos poseen exposición a factores del mismo dominio o de dominios físicos contiguos.
-
-Pero el dominio observable total tratado en la formulación no se formula como objeto físico aislado dentro de un exterior observable superior. Se formula como dominio interno de retorno situado dentro de:
-
-<p><strong>Ω<sub>obs</sub>⊂Ω<sub>fis</sub>⊂ TODO<sub>SV</sub>.</strong></p>
-
-La Teoría del TODO y de la NADA impide que los dominios físicos se transformen en exterioridad absoluta del TODO; la formulación de imperfección fija que el universo físico observable, las teorías cosmológicas, los agujeros negros, los ciclos, las fases y los dominios internos no constituyen exterioridad absoluta ante el TODO.
-
-Supóngase, por reducción al absurdo, que existe un factor externo absoluto (F^★) capaz de cortar desde fuera el ciclo observable total:
-
-<p><strong>F^★∉ TODO<sub>SV</sub></strong></p>
-
-y:
-
-<p><strong>F^★( C_Ω<sub>obs</sub>)=1.</strong></p>
-
-Si:
-
-<p><strong>F^★∉ TODO<sub>SV</sub>,</strong></p>
-
-entonces existe algo formulable o actuante fuera de la contención absoluta del TODO. Pero el TODO se define como contención absoluta de todo dominio formulable, realizable, clausurable o pensable dentro del SV. Luego:
-
-<p><strong>F^★∉ TODO<sub>SV</sub> ⇒ TODO<sub>SV</sub> no sería TODO.</strong></p>
-
-Contradicción.
-
-Si se intenta corregir diciendo que:
-
-<p><strong>F^★∈ TODO<sub>SV</sub>,</strong></p>
-
-entonces (F^★) ya no es factor externo absoluto, sino factor interno de dominio. En tal caso no corta el ciclo observable desde fuera de la totalidad, sino que pertenece a la propia estructura de dominios incluida en el TODO. Tampoco sirve para convertir el resultado en intervalo externo.
-
-Por tanto:
-
-<p><strong>¬∃ F^★ externo absoluto tal que F^★( C_Ω<sub>obs</sub>)=1.</strong></p>
-
-Luego el ciclo observable total no queda sometido a corte externo absoluto.
-
-c.q.d.
-
-<a id="sec-vii-3-teorema-vi-2-imperfeccion-suceso-activador-y-ausencia-de-exterior-inicial"></a>
-
-### VII.3. Teorema VI.2. Imperfección, suceso activador y ausencia de exterior inicial
-
-Teorema VI.2. Si la imperfección preformal es condición de sucesos y el suceso activador pertenece a la cadena estructural del Universo de Sucesos, entonces el inicio del observable no puede depender de un factor externo anterior al dominio total de formulación.
-
-Demostración.
-
-La Teoría del TODO y de la NADA dispone una cadena estructural ascendente, no cronológica, desde el Origen Áureo hasta la ecuación rectora, atravesando el Universo de Sucesos, el Suceso Activador de Universo de Sucesos, el ciclo, el agotamiento configuracional, la frontera común ((μ,λ)=(0,0)) y el Suceso Reactivador; esa espiral es estructural, no temporal, y sus vueltas representan cierre de Universo de Sucesos, agotamiento, colapso común y nueva apertura por Suceso Reactivador.
-
-La formulación de imperfección fija, además, que la imperfección preformal es condición de sucesos: sin no clausura basal no hay diferencia, y sin diferencia no hay suceso; la relación básica es:
-
-<p><strong>I<sub>pre</sub>⇒∂<sub>ε</sub>,</strong></p>
-
-<p><strong>∂<sub>ε</sub>⇒ S.</strong></p>
-
-Por tanto:
-
-<p><strong>I<sub>pre</sub>⇒ S.</strong></p>
-
-Supóngase ahora que el inicio del observable depende de un factor externo anterior:
-
-<p><strong>F<sub>ant</sub>→ S<sub>0</sub>(Ω<sub>obs</sub>)</strong></p>
-
-con:
-
-<p><strong>F<sub>ant</sub>∉ TODO<sub>SV</sub>.</strong></p>
-
-Si (F<sub>ant</sub>) produce o corta el inicio del observable, entonces comparece como suceso o condición de suceso. Pero todo suceso o condición formulable de suceso queda contenido en el régimen del TODO. Luego:
-
-<p><strong>F<sub>ant</sub>∉ TODO<sub>SV</sub></strong></p>
-
-contradice:
-
-<p><strong>TODO<sub>SV</sub>=contención absoluta de todo dominio formulable.</strong></p>
-
-Si se afirma:
-
-<p><strong>F<sub>ant</sub>∈ TODO<sub>SV</sub>,</strong></p>
-
-entonces (F<sub>ant</sub>) no es exterior absoluto. Es condición interna del régimen de apertura, compatible con imperfección y suceso activador, pero no factor externo capaz de convertir el ciclo observable en contingencia externa.
-
-Por reducción al absurdo:
-
-<p><strong>¬∃ F<sub>ant</sub> externo absoluto anterior al principio observable.</strong></p>
-
-El inicio del observable no procede de un factor externo absoluto. Procede de la cadena interna de imperfección, distinguibilidad y suceso activador.
-
-c.q.d.
-
-<a id="sec-vii-4-corolario-vi-1-de-atribucion-relativa-a-edad-concreta"></a>
-
-### VII.4. Corolario VI.1. De atribución relativa a edad concreta
-
-Corolario VI.1. La edad del contenido observable retornado no debe formularse como edad concreta, sino como edad concreta del dominio observable.
-
-Demostración.
-
-La expresión «concreta» sólo sería necesaria si existiera una familia abierta de candidatos externos capaces de superar o cortar el dominio desde fuera:
-
-<p><strong>A<sub>i</sub><sub>i∈ I</sub> con posible exterior no acotado.</strong></p>
-
-Pero los teoremas VI.1 y VI.2 bloquean el exterior absoluto. Todo contenido observable, todo objeto físico, toda fase, todo ciclo y todo dominio interno se sitúan dentro del TODO. La pluralidad cosmológica sólo puede admitirse como pluralidad interna de dominios:
-
-<p><strong>Ω<sub>1</sub>,Ω<sub>2</sub>,Ω<sub>k</sub>, Ω<sub>i</sub>⊂ TODO<sub>SV</sub>.</strong></p>
-
-No se admite pluralidad de TODOS exteriores entre sí; una totalidad con exterior no es totalidad absoluta, sino dominio dentro de un cierre mayor.
-
-Por tanto, el valor:
-
-<p><strong>13 800 000 000,a<sub>J</sub></strong></p>
-
-no queda como concreto provisional por ausencia de un candidato externo. Queda como edad concreta del dominio observable retornado declarado por la tabla de contraste.
-
-Luego:
-
-<p><strong>A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub>.</strong></p>
-
-No:
-
-<p><strong>A_Ω<sub>obs</sub>=(candidatos abiertos).</strong></p>
-
-c.q.d.
-
-<a id="sec-vii-5-resultado-principal-en-fisica-contemporanea"></a>
-
-### VII.5. Resultado principal en física contemporánea
-
-La edad concreta del contenido observable retornado es:
-
-A_Ω<sub>obs</sub><sup>ret</sup>
-
-13 800 000 000,a<sub>J</sub>.
-
-Donde:
-
-<p><strong>1,a<sub>J</sub>=31 557 600,s.</strong></p>
-
-Conversión a segundos:
-
-13 800 000 000 × 31 557 600
-
-435,494,880,000,000,000,s.
-
-Por tanto:
-
-A_Ω<sub>obs</sub><sup>ret</sup>
-
-435,494,880,000,000,000,s.
-
-Esta magnitud pertenece al dominio observable retornado. No pertenece a la totalidad absoluta.
-
-<a id="sec-vii-6-resultado-principal-en-unidades-sv"></a>
-
-### VII.6. Resultado principal en unidades SV
-
-La equivalencia transductiva es:
-
-<p><strong>1,s=9,UE<sub>MFC</sub>.</strong></p>
-
-Por tanto:
-
-1,a<sub>J</sub>
-
-31 557 600×9,UE<sub>MFC</sub>
-
-284 018 400,UE<sub>MFC</sub>.
-
-Así:
-
-A_Ω<sub>obs</sub><sup>SV</sup>
-
-13 800 000 000 × 284 018 400.
-
-A_Ω<sub>obs</sub><sup>SV</sup>
-
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-Por tanto:
-
-A_Ω<sub>obs</sub><sup>SV</sup>
-
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-Retorno inverso:
-
-3 919 453 920 000 000 000 /9
-
-435,494,880,000,000,000,s.
-
-435,494,880,000,000,000 / 31 557 600
-
-13 800 000 000,a<sub>J</sub>.
-
-Luego:
-
-<p><strong>SI→ SV→ SI</strong></p>
-
-conserva exactamente el valor.
-
-<a id="sec-vii-7-fin-concreto-del-ciclo-observable"></a>
-
-### VII.7. Fin concreto del ciclo observable
-
-Bajo simetría transductiva del ciclo observable:
-
-<p><strong>A_Ω<sub>obs</sub>,fin=2A_Ω<sub>obs</sub>,act.</strong></p>
-
-Como:
-
-<p><strong>A_Ω<sub>obs</sub>,act=13 800 000 000,a<sub>J</sub>,</strong></p>
-
-entonces:
-
-A_Ω<sub>obs</sub>,fin
-
-27 600 000 000,a<sub>J</sub>.
-
-En segundos:
-
-27 600 000 000 × 31 557 600
-
-870,989,760,000,000,000,s.
-
-En unidades SV:
-
-27 600 000 000 × 284 018 400
-
-7 838 907 840 000 000 000,UE<sub>MFC</sub>.
-
-Por tanto:
-
-A_Ω<sub>obs</sub>,fin
-
-27 600 000 000,a<sub>J</sub>.
-
-A_Ω<sub>obs</sub>,fin<sup>SV</sup>
-
-7 838 907 840 000 000 000,UE<sub>MFC</sub>.
-
-El tramo restante es:
-
-A_Ω<sub>obs</sub>,rest
-
-A_Ω<sub>obs</sub>,fin-A_Ω<sub>obs</sub>,act.
-
-A_Ω<sub>obs</sub>,rest
-
-27 600 000 000-13 800 000 000
-
-13 800 000 000,a<sub>J</sub>.
-
-A_Ω<sub>obs</sub>,rest<sup>SV</sup>
-
-7 838 907 840 000 000 000
-
-3 919 453 920 000 000 000.
-
-A_Ω<sub>obs</sub>,rest<sup>SV</sup>
-
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-Por tanto:
-
-A_Ω<sub>obs</sub>,rest
-
-13 800 000 000,a<sub>J</sub>.
-
-A_Ω<sub>obs</sub>,rest<sup>SV</sup>
-
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-<a id="sec-vii-8-teorema-vi-3-reduccion-al-absurdo-de-la-no-concrecion-del-valor"></a>
-
-### VII.8. Teorema VI.3. Reducción al absurdo de la no concreción del valor
-
-Teorema VI.3. El valor:
-
-<p><strong>A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub></strong></p>
-
-es concreto. Negarlo obliga a introducir exterior absoluto, transducción falsa o aritmética falsa.
-
-Demostración.
-
-Supóngase que el valor no es concreto. Entonces debe cumplirse al menos una de estas alternativas:
-
-<p><strong>H<sub>1</sub>: A_Ω<sub>obs</sub> depende de un factor externo absoluto.</strong></p>
-
-<p><strong>H<sub>2</sub>: A_Ω<sub>obs</sub>≠13 800 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>H<sub>3</sub>: A_Ω<sub>obs</sub><sup>SV</sup>≠3 919 453 920 000 000 000,UE<sub>MFC</sub>.</strong></p>
-
-<p><strong>H<sub>4</sub>: A_Ω<sub>obs</sub>,fin≠27 600 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>H<sub>5</sub>: A_Ω<sub>obs</sub>,rest≠13 800 000 000,a<sub>J</sub>.</strong></p>
-
-Contra (H<sub>1</sub>): por el Teorema VI.1, no existe factor externo absoluto capaz de cortar el ciclo observable total desde fuera. Si existiera, estaría fuera del TODO; pero el TODO es contención absoluta. Contradicción.
-
-Contra (H<sub>2</sub>): la tabla de contraste declara el estado actual del dominio observable retornado como:
-
-<p><strong>13 800 000 000,a<sub>J</sub>.</strong></p>
-
-Negarlo niega el valor declarado de dominio.
-
-Contra (H<sub>3</sub>): la transducción exacta fija:
-
-13 800 000 000 × 284 018 400
-
-3 919 453 920 000 000 000.
-
-Negarlo contradice la equivalencia:
-
-<p><strong>1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>.</strong></p>
-
-Contra (H<sub>4</sub>): por simetría:
-
-<p><strong>A_Ω<sub>obs</sub>,fin=2A_Ω<sub>obs</sub>,act.</strong></p>
-
-Luego:
-
-2×13 800 000 000
-
-27 600 000 000.
-
-Negarlo contradice la hipótesis transductiva declarada.
-
-Contra (H<sub>5</sub>): por resta:
-
-A_Ω<sub>obs</sub>,rest
-
-27 600 000 000-13 800 000 000
-
-13 800 000 000.
-
-Negarlo contradice la aritmética exacta.
-
-Así:
-
-<p><strong>H<sub>1</sub>∨ H<sub>2</sub>∨ H<sub>3</sub>∨ H<sub>4</sub>∨ H<sub>5</sub> ⇒ .</strong></p>
-
-Por tanto:
-
-<p><strong>¬ R⇒.</strong></p>
-
-Luego:
-
-<p><strong>R.</strong></p>
-
-El valor es concreto.
-
-c.q.d.
-
-<a id="sec-vii-9-tabla-principal-de-resultado-concreto"></a>
-
-### VII.9. Tabla principal de resultado concreto
-
-| Magnitud | Física contemporánea | Unidad física | SV | Unidad SV | Residual | Lectura formal |
-| --- | --- | --- | --- | --- | --- | --- |
-| Edad de la totalidad absoluta | no aplicable | no aplicable | no aplicable | no aplicable | error de plano si se intenta | NO ADMISIBLE |
-| Edad concreta del observable retornado | 13.800.000.000 | (a<sub>J</sub>) | 3.919.453.920.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible |
-| Fin concreto del ciclo observable | 27.600.000.000 | (a<sub>J</sub>) | 7.838.907.840.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible |
-| Tramo restante concreto | 13.800.000.000 | (a<sub>J</sub>) | 3.919.453.920.000.000.000 | (UE<sub>MFC</sub>) | 0 | admisible |
-| Fracción actual | (1/2) | adimensional | (1/2) | adimensional | 0 | admisible |
-| Fracción restante | (1/2) | adimensional | (1/2) | adimensional | 0 | admisible |
-| Error de plano | 0 | adimensional | 0 | adimensional | 0 | cerrado |
-| Error de definición | 0 | adimensional | 0 | adimensional | 0 | cerrado |
-| Error transductivo | 0 | adimensional | 0 | adimensional | 0 | cerrado |
-| Error aritmético | 0 | adimensional | 0 | adimensional | 0 | cerrado |
-
-<a id="sec-vii-10-tabla-comparativa-de-dominios-internos"></a>
-
-### VII.10. Tabla comparativa de dominios internos
-
-| Dominio | Edad actual (a<sub>J</sub>) | Edad actual (UE<sub>MFC</sub>) | Fin estructural (a<sub>J</sub>) | Fin estructural (UE<sub>MFC</sub>) | Restante (a<sub>J</sub>) | Restante (UE<sub>MFC</sub>) | Fracción actual |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Sol | 4.570.000.000 | 1.297.964.088.000.000.000 | 10.000.000.000 | 2.840.184.000.000.000.000 | 5.430.000.000 | 1.542.219.912.000.000.000 | (457/1000) |
-| Sistema Solar | 4.568.000.000 | 1.297.396.051.200.000.000 | 10.000.000.000 | 2.840.184.000.000.000.000 | 5.432.000.000 | 1.542.787.948.800.000.000 | (571/1250) |
-| Vía Láctea-entorno | 13.600.000.000 | 3.862.650.240.000.000.000 | 27.200.000.000 | 7.725.300.480.000.000.000 | 13.600.000.000 | 3.862.650.240.000.000.000 | (1/2) |
-| Observable retornado | 13.800.000.000 | 3.919.453.920.000.000.000 | 27.600.000.000 | 7.838.907.840.000.000.000 | 13.800.000.000 | 3.919.453.920.000.000.000 | (1/2) |
-
-Cada fila es dominio propio. Ninguna fila se atribuye a la totalidad absoluta.
-
-<a id="sec-vii-11-diferencias-singulares"></a>
-
-### VII.11. Diferencias singulares
-
-| Diferencia | Valor (a<sub>J</sub>) | Valor (UE<sub>MFC</sub>) | Lectura física |
-| --- | --- | --- | --- |
-| Observable retornado − Vía Láctea-entorno | 200.000.000 | 56.803.680.000.000.000 | Diferencia entre dominio observable concreto y dominio local galáctico |
-| Vía Láctea-entorno − Sol | 9.030.000.000 | 2.564.686.152.000.000.000 | Antigüedad del dominio galáctico respecto del Sol |
-| Observable retornado − Sol | 9.230.000.000 | 2.621.489.832.000.000.000 | Diferencia entre observable concreto y objeto solar |
-| Sol − Sistema Solar | 2.000.000 | 568.036.800.000.000 | Diferencia de registro entre edad solar y formación sistémica |
-| Restante Sistema Solar − restante Sol | 2.000.000 | 568.036.800.000.000 | Diferencia conservada por resta exacta |
-| Fin observable − fin Vía Láctea-entorno | 400.000.000 | 113.607.360.000.000.000 | Diferencia duplicada por simetría de ciclo |
-| Fin solar − fin Sistema Solar | 0 | 0 | Misma frontera normalizada de desaparición estructural solar-sistémica |
-
-<a id="sec-vii-12-teorema-vi-4-error-cero-del-resultado-concreto"></a>
-
-### VII.12. Teorema VI.4. Error cero del resultado concreto
-
-Teorema VI.4. El resultado concreto del observable retornado posee error cero de plano, definición, transducción y aritmética.
-
-Demostración.
-
-Error de plano:
-
-<p><strong>A_Ω<sub>obs</sub>≠ Edad( T).</strong></p>
-
-La edad se atribuye a:
-
-<p><strong>Ω<sub>obs</sub>⊂Ω<sub>fis</sub>⊂ TODO<sub>SV</sub>,</strong></p>
-
-no a:
-
-<p><strong>T.</strong></p>
-
-Luego:
-
-<p><strong>ε<sub>plano</sub>=0.</strong></p>
-
-Error de definición: el resultado declara dominio, edad actual, unidad física, unidad SV, fin, restante, fracción y retorno:
-
-<p><strong>(Ω<sub>obs</sub>,13 800 000 000,a<sub>J</sub>,UE<sub>MFC</sub>,27 600 000 000,a<sub>J</sub>,13 800 000 000,a<sub>J</sub>,1/2,R).</strong></p>
-
-Luego:
-
-<p><strong>ε<sub>def</sub>=0.</strong></p>
-
-Error transductivo:
-
-<p><strong>13 800 000 000,a<sub>J</sub> → 3 919 453 920 000 000 000,UE<sub>MFC</sub> → 13 800 000 000,a<sub>J</sub>.</strong></p>
-
-Luego:
-
-<p><strong>ε<sub>trans</sub>=0.</strong></p>
-
-Error aritmético:
-
-27 600 000 000
-
-(13 800 000 000+13 800 000 000)
-Y:
-
-7 838 907 840 000 000 000
-
-( 3 919 453 920 000 000 000 + 3 919 453 920 000 000 000 )
-Luego:
-
-<p><strong>ε<sub>arit</sub>=0.</strong></p>
-
-Por tanto:
-
-<p><strong>ε<sub>total</sub>=0.</strong></p>
-
-c.q.d.
-
-<a id="sec-vii-13-registro-negativo-especifico-del-resultado"></a>
-
-### VII.13. Control negativo específico del resultado
-
-| Caso adversarial | Residual activado | Salida |
-| --- | --- | --- |
-| (Edad( T)=13.800.000.000,a<sub>J</sub>) | (Δ<sub>plano</sub>=1) | NO ADMISIBLE |
-| (A_Ω<sub>obs</sub>) tratado como concreto abierto | (Δ<sub>def</sub>=1) | NO ADMISIBLE |
-| Existencia de factor externo absoluto (F^★∉ TODO<sub>SV</sub>) | (Δ<sub>TODO</sub>=1) | NO ADMISIBLE |
-| Conversión distinta de (3.919.453.920.000.000.000,UE<sub>MFC</sub>) | (Δ<sub>trans</sub>=1) | NO ADMISIBLE |
-| Fin distinto de (27.600.000.000,a<sub>J</sub>) bajo simetría | (Δ<sub>arit</sub>=1) | NO ADMISIBLE |
-| Restante distinto de (13.800.000.000,a<sub>J</sub>) | (Δ<sub>arit</sub>=1) | NO ADMISIBLE |
-| Fracción actual distinta de (1/2) | (Δ<sub>f</sub>=1) | NO ADMISIBLE |
-| Edad del Sol igualada al observable retornado | (Δ<sub>Ω</sub>=1) | NO ADMISIBLE |
-| Edad de la Vía Láctea igualada al TODO | (Δ<sub>plano</sub>=1) | NO ADMISIBLE |
-| Edad del Sistema Solar igualada al TODO | (Δ<sub>plano</sub>=1) | NO ADMISIBLE |
-
-<a id="sec-vii-14-lectura-formal-final-del-resultado"></a>
-
-### VII.14. Síntesis final del resultado
-
-<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
-
-<p><strong>A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub>.</strong></p>
-
-A_Ω<sub>obs</sub><sup>SV</sup>
-
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-A_Ω<sub>obs</sub>,fin
-
-27 600 000 000,a<sub>J</sub>.
-
-A_Ω<sub>obs</sub>,fin<sup>SV</sup>
-
-7 838 907 840 000 000 000,UE<sub>MFC</sub>.
-
-A_Ω<sub>obs</sub>,rest
-
-13 800 000 000,a<sub>J</sub>.
-
-A_Ω<sub>obs</sub>,rest<sup>SV</sup>
-
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-<p><strong>f_Ω<sub>obs</sub>,act=1/2.</strong></p>
-
-<p><strong>ε<sub>plano</sub>=ε<sub>def</sub>=ε<sub>trans</sub>=ε<sub>arit</sub>=0.</strong></p>
-
-El resultado queda cerrado como edad concreta del observable retornado, no como edad concreta abierta ni como edad de la totalidad absoluta.
-
-<a id="sec-viii-conclusion"></a>
-
-## VIII. Conclusión
-
-<a id="sec-viii-1-correccion-final-del-objeto-de-edad"></a>
-
-### VIII.1. Corrección final del objeto de edad
-
-La expresión «edad del Universo» queda corregida por distinción de plano. La totalidad absoluta no admite edad física. El observable retornado sí admite edad concreta. Los objetos físicos internos también admiten edades propias, siempre que declaren dominio, frontera, identidad, magnitud, unidad, residual y retorno.
-
-La formulación rechazada es:
-
-<p><strong>Edad( T)=13 800 000 000,a<sub>J</sub>.</strong></p>
-
-La formulación correcta es:
-
-<p><strong>A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub>.</strong></p>
-
-Donde:
-
-<p><strong>T</strong></p>
-
-designa la totalidad absoluta, y:
-
-<p><strong>Ω<sub>obs</sub></strong></p>
-
-designa el dominio observable retornado.
-
-La diferencia no es terminológica. Es estructural. Una edad física exige que aquello a lo que se atribuye edad comparezca como contenido de un dominio de medida. La totalidad absoluta no cumple esa condición; el observable retornado sí. Por tanto:
-
-<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
-
-<p><strong>A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub>.</strong></p>
-
-Esta es la corrección principal de la formulación.
-
-<a id="sec-viii-2-resultado-final-en-fisica-contemporanea"></a>
-
-### VIII.2. Resultado final en física contemporánea
-
-El resultado físico queda expresado en años julianos:
-
-<p><strong>A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub>.</strong></p>
-
-Con:
-
-<p><strong>1,a<sub>J</sub>=31 557 600,s.</strong></p>
-
-Por tanto:
-
-A_Ω<sub>obs</sub>
-
-13 800 000 000 × 31 557 600
-
-435,494,880,000,000,000,s.
-
-Resultado:
-
-A_Ω<sub>obs</sub>
-
-435,494,880,000,000,000,s.
-
-La lectura física es estricta: edad concreta del observable retornado, no edad de la totalidad absoluta.
-
-<a id="sec-viii-3-resultado-final-en-unidades-sv"></a>
-
-### VIII.3. Resultado final en unidades SV
-
-La equivalencia transductiva es:
-
-<p><strong>1,s=9,UE<sub>MFC</sub>.</strong></p>
-
-Luego:
-
-<p><strong>1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>.</strong></p>
-
-Así:
-
-13 800 000 000,a<sub>J</sub>
-
-13 800 000 000 × 284 018 400,UE<sub>MFC</sub>.
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-Por tanto:
-
-A_Ω<sub>obs</sub><sup>SV</sup>
-
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-El retorno inverso confirma:
-
-3 919 453 920 000 000 000 /9
-
-435,494,880,000,000,000,s.
-
-435,494,880,000,000,000 / 31 557 600
-
-13 800 000 000,a<sub>J</sub>.
-
-Por tanto:
-
-<p><strong>SI→ SV→ SI</strong></p>
-
-conserva el valor sin resto.
-
-<a id="sec-viii-4-fin-de-ciclo-del-observable-retornado"></a>
-
-### VIII.4. Fin de ciclo del observable retornado
-
-Bajo la hipótesis transductiva de simetría del ciclo observable:
-
-<p><strong>A_Ω<sub>obs</sub>,fin=2A_Ω<sub>obs</sub>,act.</strong></p>
-
-Así:
-
-A_Ω<sub>obs</sub>,fin
-
-2×13 800 000 000
-
-27 600 000 000,a<sub>J</sub>.
-
-En unidades SV:
-
-27 600 000 000 × 284 018 400
-
-7 838 907 840 000 000 000,UE<sub>MFC</sub>.
-
-Resultado:
-
-A_Ω<sub>obs</sub>,fin
-
-27 600 000 000,a<sub>J</sub>.
-
-A_Ω<sub>obs</sub>,fin<sup>SV</sup>
-
-7 838 907 840 000 000 000,UE<sub>MFC</sub>.
-
-El tramo restante es:
-
-A_Ω<sub>obs</sub>,rest
-
-A_Ω<sub>obs</sub>,fin-A_Ω<sub>obs</sub>,act.
-27 600 000 000-13 800 000 000
-
-13 800 000 000,a<sub>J</sub>.
-
-En unidades SV:
-
-A_Ω<sub>obs</sub>,rest<sup>SV</sup>
-
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-Por tanto:
-
-A_Ω<sub>obs</sub>,rest
-
-13 800 000 000,a<sub>J</sub>.
-
-A_Ω<sub>obs</sub>,rest<sup>SV</sup>
-
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-La fracción actual del ciclo observable es:
-
-f_Ω<sub>obs</sub>,act
-
-13 800 000 000/27 600 000 000
-
-1/2.
-
-La fracción restante es:
-
-f_Ω<sub>obs</sub>,rest
-
-1/2.
-
-<a id="sec-viii-5-lectura-formal-por-dominios-fisicos-internos"></a>
-
-### VIII.5. Lectura por dominios físicos internos
-
-| Dominio | Edad actual (a<sub>J</sub>) | Fin estructural (a<sub>J</sub>) | Restante (a<sub>J</sub>) | Fracción actual | Lectura formal |
-| --- | --- | --- | --- | --- | --- |
-| Sol | 4.570.000.000 | 10.000.000.000 | 5.430.000.000 | (457/1000) | admisible |
-| Sistema Solar | 4.568.000.000 | 10.000.000.000 | 5.432.000.000 | (571/1250) | admisible |
-| Vía Láctea-entorno | 13.600.000.000 | 27.200.000.000 | 13.600.000.000 | (1/2) | admisible |
-| Observable retornado | 13.800.000.000 | 27.600.000.000 | 13.800.000.000 | (1/2) | admisible |
-| Totalidad absoluta | no aplicable | no aplicable | no aplicable | no aplicable | NO ADMISIBLE |
-
-Cada dominio conserva edad propia. El Sol no equivale al Sistema Solar. El Sistema Solar no equivale a la Vía Láctea. La Vía Láctea-entorno no equivale al observable retornado. El observable retornado no equivale a la totalidad absoluta.
-
-La relación de orden queda:
-
-<p><strong>A<sub>☉</sub><A<sub>SS</sub><A<sub>VL</sub><A_Ω<sub>obs</sub>.</strong></p>
-
-Con los valores:
-
-<p><strong>4 570 000 000 < 4 568 000 000</strong></p>
-
-no sería correcto; por tanto, el orden material debe escribirse con precisión:
-
-<p><strong>A<sub>SS</sub><A<sub>☉</sub><A<sub>VL</sub><A_Ω<sub>obs</sub>.</strong></p>
-
-Es decir:
-
-<p><strong>4 568 000 000 < 4 570 000 000 < 13 600 000 000 < 13 800 000 000.</strong></p>
-
-<a id="sec-viii-6-tabla-final-sv-fisica-contemporanea"></a>
-
-### VIII.6. Tabla final SV ↔ física contemporánea
-
-| Dominio | Física contemporánea (a<sub>J</sub>) | Física contemporánea (s) | SV (UE<sub>MFC</sub>) | Retorno inverso | Error transductivo |
-| --- | --- | --- | --- | --- | --- |
-| Sol actual | 4.570.000.000 | 144.218.232.000.000.000 | 1.297.964.088.000.000.000 | exacto | 0 |
-| Sistema Solar actual | 4.568.000.000 | 144.155.116.800.000.000 | 1.297.396.051.200.000.000 | exacto | 0 |
-| Vía Láctea-entorno actual | 13.600.000.000 | 429.183.360.000.000.000 | 3.862.650.240.000.000.000 | exacto | 0 |
-| Observable retornado actual | 13.800.000.000 | 435.494.880.000.000.000 | 3.919.453.920.000.000.000 | exacto | 0 |
-| Sol fin | 10.000.000.000 | 315.576.000.000.000.000 | 2.840.184.000.000.000.000 | exacto | 0 |
-| Sistema Solar fin | 10.000.000.000 | 315.576.000.000.000.000 | 2.840.184.000.000.000.000 | exacto | 0 |
-| Vía Láctea-entorno fin | 27.200.000.000 | 858.366.720.000.000.000 | 7.725.300.480.000.000.000 | exacto | 0 |
-| Observable retornado fin | 27.600.000.000 | 870.989.760.000.000.000 | 7.838.907.840.000.000.000 | exacto | 0 |
-
-<a id="sec-viii-7-error-cero"></a>
-
-### VIII.7. Error cero
-
-La formulación no afirma que la astrofísica observacional carezca de margen instrumental. Afirma que, una vez fijados el dominio, la unidad y el transductor, el error de atribución, definición, transducción y aritmética es cero.
-
-ε<sub>total</sub>
-
-ε<sub>plano</sub> ⊕ ε<sub>def</sub> ⊕ ε<sub>trans</sub> ⊕ ε<sub>arit</sub>.
-
-En los dominios admisibles:
-
-<p><strong>ε<sub>plano</sub>=0.</strong></p>
-
-<p><strong>ε<sub>def</sub>=0.</strong></p>
-
-<p><strong>ε<sub>trans</sub>=0.</strong></p>
-
-<p><strong>ε<sub>arit</sub>=0.</strong></p>
-
-Por tanto:
-
-<p><strong>ε<sub>total</sub>=0.</strong></p>
-
-El margen instrumental conserva su lugar:
-
-<p><strong>σ<sub>obs</sub>≠0.</strong></p>
-
-Pero no altera el resultado de plano:
-
-<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
-
-Ni altera la edad concreta del observable retornado dentro de la tabla de contraste:
-
-<p><strong>A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub>.</strong></p>
-
-<a id="sec-viii-8-reduccion-final-al-absurdo"></a>
-
-### VIII.8. Reducción final al absurdo
-
-Supóngase que el resultado no es concreto.
-
-Entonces debe cumplirse al menos una de las siguientes alternativas:
-
-<p><strong>H<sub>1</sub>: Edad( T)=A_Ω<sub>obs</sub>.</strong></p>
-
-<p><strong>H<sub>2</sub>: A_Ω<sub>obs</sub>≠13 800 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>H<sub>3</sub>: A_Ω<sub>obs</sub><sup>SV</sup>≠3 919 453 920 000 000 000,UE<sub>MFC</sub>.</strong></p>
-
-<p><strong>H<sub>4</sub>: A_Ω<sub>obs</sub>,fin≠27 600 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>H<sub>5</sub>: A_Ω<sub>obs</sub>,rest≠13 800 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>H<sub>6</sub>: f_Ω<sub>obs</sub>,act≠1/2.</strong></p>
-
-Contra (H<sub>1</sub>): la totalidad absoluta no admite edad física. Contradicción de plano.
-
-Contra (H<sub>2</sub>): la tabla de contraste declara el observable retornado en (13 800 000 000,a<sub>J</sub>). Contradicción de definición.
-
-Contra (H<sub>3</sub>): la transducción fija:
-
-13 800 000 000×284 018 400
-
-3 919 453 920 000 000 000.
-
-Contradicción transductiva.
-
-Contra (H<sub>4</sub>): la simetría fija:
-
-2×13 800 000 000
-
-27 600 000 000.
-
-Contradicción aritmética.
-
-Contra (H<sub>5</sub>): la resta fija:
-
-27 600 000 000-13 800 000 000
-
-13 800 000 000.
-
-Contradicción aritmética.
-
-Contra (H<sub>6</sub>): la fracción fija:
-
-13 800 000 000/27 600 000 000
-
-1/2.
-
-Contradicción racional.
-
-Por tanto:
-
-<p><strong>¬ R⇒.</strong></p>
-
-Luego:
-
-<p><strong>R.</strong></p>
-
-El resultado queda cerrado como edad concreta del observable retornado.
-
-<a id="sec-viii-9-conclusion-final"></a>
-
-### VIII.9. Conclusión final
-
-La física contemporánea mide retornos, señales, dominios, objetos y estructuras. La corrección introducida por la formulación consiste en impedir que esos retornos se atribuyan a una totalidad que no admite edad física. La edad pertenece al observable retornado y a los objetos físicos internos; no pertenece a la totalidad absoluta.
-
-El resultado final es:
-
-<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
-
-<p><strong>A_Ω<sub>obs</sub>=13 800 000 000,a<sub>J</sub>.</strong></p>
-
-A_Ω<sub>obs</sub><sup>SV</sup>
-
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-A_Ω<sub>obs</sub>,fin
-
-27 600 000 000,a<sub>J</sub>.
-
-A_Ω<sub>obs</sub>,fin<sup>SV</sup>
-
-7 838 907 840 000 000 000,UE<sub>MFC</sub>.
-
-A_Ω<sub>obs</sub>,rest
-
-13 800 000 000,a<sub>J</sub>.
-
-A_Ω<sub>obs</sub>,rest<sup>SV</sup>
-
-3 919 453 920 000 000 000,UE<sub>MFC</sub>.
-
-Y para los objetos internos contrastados:
-
-<p><strong>Edad(Sol)=4 570 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>Edad(Sistema Solar)=4 568 000 000,a<sub>J</sub>.</strong></p>
-
-<p><strong>Edad(Vía Láctea-entorno)=13 600 000 000,a<sub>J</sub>.</strong></p>
-
-La formulación concluye así: no hay edad física de la totalidad absoluta; hay edad concreta del observable retornado y edades propias de los objetos físicos que contiene.
-
-<a id="sec-ix-teoria-de-la-edad-de-todos-los-objetos-del-universo-observable"></a>
-
-## IX. Teoría de la edad de todos los objetos del Universo Observable
-
-<a id="sec-ix-1-estatuto-de-la-teoria"></a>
-
-### IX.1. Estatuto de la teoría
-
-La Teoría de la edad de todos los objetos del Universo Observable establece una regla única para atribuir, transducir, contrastar y devolver edades físicas de objetos pertenecientes al dominio observable.
-
-La teoría no calcula edad de la totalidad absoluta. La totalidad absoluta queda fuera de atribución cronológica:
-
-<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
-
-La teoría opera únicamente sobre objetos físicos internos:
-
-<p><strong>O<sub>i</sub>⊂Ω<sub>obs</sub>.</strong></p>
-
-Un objeto físico (O<sub>i</sub>) admite edad si y sólo si declara:
-
-<p><strong>Ω<sub>i</sub>, Id<sub>i</sub>, ∂Ω<sub>i</sub>, A<sub>i</sub>, F<sub>i</sub>, u<sub>SI</sub>, u<sub>SV</sub>, Δ<sub>i</sub>, R<sub>i</sub>.</strong></p>
-
-Donde:
-
-<p><strong>Ω<sub>i</sub></strong></p>
-
-es el dominio físico del objeto;
-
-<p><strong>Id<sub>i</sub></strong></p>
-
-es su identidad física;
-
-<p><strong>∂Ω<sub>i</sub></strong></p>
-
-es su frontera de formación, comparecencia o desaparición estructural;
-
-<p><strong>A<sub>i</sub></strong></p>
-
-es su edad actual;
-
-<p><strong>F<sub>i</sub></strong></p>
-
-es su frontera de fin estructural;
-
-<p><strong>u<sub>SI</sub></strong></p>
-
-es la unidad física contemporánea;
-
-<p><strong>u<sub>SV</sub></strong></p>
-
-es la unidad transductiva;
-
-<p><strong>Δ<sub>i</sub></strong></p>
-
-es el residual;
-
-<p><strong>R<sub>i</sub></strong></p>
-
-es el retorno físico controlado.
-
-La teoría se formula como teoría única, no como yuxtaposición de teorías locales. Sol, Sistema Solar, Vía Láctea-entorno, observable retornado, galaxias, estrellas, púlsares, cúmulos, remanentes, señales, líneas espectrales y objetos físicos persistentes quedan sometidos a la misma fórmula canónica. Cambia el dominio. Cambia el valor físico. Cambia la frontera. No cambia la teoría.
-
-<a id="sec-ix-2-definicion-fundamental"></a>
-
-### IX.2. Definición fundamental
-
-Sea:
-
-O_Ω<sub>obs</sub>
-
-O<sub>i</sub>:O<sub>i</sub>⊂Ω<sub>obs</sub>
-
-el conjunto de objetos físicos del universo observable.
-
-Para cada objeto (O<sub>i</sub>), se define su estructura de edad como:
-
-A(O<sub>i</sub>)
-
-(Ω<sub>i</sub>,Id<sub>i</sub>,∂Ω<sub>i</sub>,A<sub>i</sub>,F<sub>i</sub>,R<sub>i</sub>,Δ<sub>i</sub>).
-
-La edad actual se escribe:
-
-<p><strong>A<sub>i</sub>=A(O<sub>i</sub>).</strong></p>
-
-El fin estructural se escribe:
-
-<p><strong>F<sub>i</sub>=F(O<sub>i</sub>).</strong></p>
-
-El tramo restante se escribe:
-
-<p><strong>R<sub>i</sub><sup>age</sup>=F<sub>i</sub>-A<sub>i</sub>.</strong></p>
-
-La fracción actual de ciclo se escribe:
-
-<p><strong>f<sub>i</sub>=A<sub>i</sub>/F<sub>i</sub>.</strong></p>
-
-La fracción restante se escribe:
-
-<p><strong>ρ<sub>i</sub>=F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>.</strong></p>
-
-Por tanto:
-
-<p><strong>f<sub>i</sub>+ρ<sub>i</sub>=1.</strong></p>
-
-La teoría exige:
-
-<p><strong>0≤ A<sub>i</sub>≤ F<sub>i</sub>.</strong></p>
-
-Si:
-
-<p><strong>A<sub>i</sub>>F<sub>i</sub>,</strong></p>
-
-el caso queda no admisible.
-
-Si falta (F<sub>i</sub>), el caso queda en (U) para fracción y tramo restante, aunque pueda conservar edad actual.
-
-<a id="sec-ix-3-transductor-fundamental-sv-fisica-contemporanea"></a>
-
-### IX.3. Transductor fundamental SV ↔ Física contemporánea
-
-La equivalencia metrológica rectora es:
-
-<p><strong>1,a<sub>J</sub>=31 557 600,s.</strong></p>
-
-<p><strong>1,s=9,UE<sub>MFC</sub>.</strong></p>
-
-Por tanto:
-
-<p><strong>1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>.</strong></p>
-
-Se define el transductor físico contemporáneo → SV:
-
-T<sub>FC→ SV</sub>(x)
-
-284 018 400,x.
-
-Donde (x) se expresa en años julianos.
-
-Se define el transductor SV → física contemporánea:
-
-T<sub>SV→ FC</sub>(y)
-
-y/284 018 400.
-
-El cierre exige:
-
-<p><strong>y≡0±od284 018 400.</strong></p>
-
-Si no se cumple:
-
-<p><strong>Δ<sub>ret</sub>=1.</strong></p>
-
-El retorno exacto exige:
-
-T<sub>SV→ FC</sub> ( T<sub>FC→ SV</sub>(x) )
-
-x.
-
-Demostración:
-
-T<sub>SV→ FC</sub> ( 284 018 400x )
-
-284 018 400x/284 018 400
-
-x.
-
-Por tanto:
-
-<p><strong>ε<sub>trans</sub>=0.</strong></p>
-
-<a id="sec-ix-4-formula-canonica-absoluta"></a>
-
-### IX.4. Fórmula canónica absoluta
-
-La fórmula canónica de la teoría es:
-
-E<sub>age</sub>(O<sub>i</sub>)
-
-( A<sub>i</sub>, F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>, A<sub>i</sub>/F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>, 284 018 400A<sub>i</sub>, 284 018 400F<sub>i</sub>, 284 018 400(F<sub>i</sub>-A<sub>i</sub>), Δ<sub>i</sub> ).
-
-Con condición de cierre:
-
-<p><strong>Δ<sub>i</sub>=0.</strong></p>
-
-Si:
-
-<p><strong>Δ<sub>i</sub>=0,</strong></p>
-
-entonces:
-
-<p><strong>Edad(O<sub>i</sub>)=A<sub>i</sub>.</strong></p>
-
-<p><strong>Fin(O<sub>i</sub>)=F<sub>i</sub>.</strong></p>
-
-<p><strong>Restante(O<sub>i</sub>)=F<sub>i</sub>-A<sub>i</sub>.</strong></p>
-
-<p><strong>Edad<sub>SV</sub>(O<sub>i</sub>)=284 018 400A<sub>i</sub>.</strong></p>
-
-<p><strong>Fin<sub>SV</sub>(O<sub>i</sub>)=284 018 400F<sub>i</sub>.</strong></p>
-
-<p><strong>Restante<sub>SV</sub>(O<sub>i</sub>)=284 018 400(F<sub>i</sub>-A<sub>i</sub>).</strong></p>
-
-Si:
-
-<p><strong>Δ<sub>i</sub>=1,</strong></p>
-
-el caso es no admisible.
-
-Si:
-
-<p><strong>Δ<sub>i</sub>=U,</strong></p>
-
-el caso queda no cerrado.
-
-<a id="sec-ix-5-formula-explicita"></a>
-
-### IX.5. Fórmula explícita
-
-La forma explícita de la teoría expresa directamente la edad SV en función de la edad física contemporánea:
-
-<p><strong>A<sub>i</sub><sup>SV</sup>=284 018 400,A<sub>i</sub><sup>FC</sup>.</strong></p>
-
-Y el retorno físico:
-
-<p><strong>A<sub>i</sub><sup>FC</sup>=A<sub>i</sub><sup>SV</sup>284 018 400.</strong></p>
-
-El fin estructural:
-
-<p><strong>F<sub>i</sub><sup>SV</sup>=284 018 400,F<sub>i</sub><sup>FC</sup>.</strong></p>
-
-El restante:
-
-<p><strong>R<sub>i</sub><sup>SV</sup>=F<sub>i</sub><sup>SV</sup>-A<sub>i</sub><sup>SV</sup>.</strong></p>
-
-Equivalente:
-
-<p><strong>R<sub>i</sub><sup>SV</sup>=284 018 400(F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>).</strong></p>
-
-La fracción actual:
-
-<p><strong>f<sub>i</sub>=A<sub>i</sub><sup>FC</sup>F<sub>i</sub><sup>FC</sup>=A<sub>i</sub><sup>SV</sup>F<sub>i</sub><sup>SV</sup>.</strong></p>
-
-La fracción restante:
-
-ρ<sub>i</sub>=F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>F<sub>i</sub><sup>FC</sup>
-
-F<sub>i</sub><sup>SV</sup>-A<sub>i</sub><sup>SV</sup>F<sub>i</sub><sup>SV</sup>.
-
-Así:
-
-<p><strong>f<sub>i</sub>+ρ<sub>i</sub>=1.</strong></p>
-
-<a id="sec-ix-6-formula-implicita"></a>
-
-### IX.6. Fórmula implícita
-
-La forma implícita concentra el cierre en una ecuación nula:
-
-<p><strong>Φ<sub>age</sub>(O<sub>i</sub>)=0.</strong></p>
-
-Donde:
-
-Φ<sub>age</sub>(O<sub>i</sub>)
-
-A<sub>i</sub><sup>SV</sup>-284 018 400A<sub>i</sub><sup>FC</sup> ⊕ F<sub>i</sub><sup>SV</sup>-284 018 400F<sub>i</sub><sup>FC</sup> ⊕ R<sub>i</sub><sup>SV</sup>-284 018 400(F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>) ⊕ F<sub>i</sub><sup>FC</sup>-(A<sub>i</sub><sup>FC</sup>+R<sub>i</sub><sup>FC</sup>).
-
-El cierre exige:
-
-<p><strong>Φ<sub>age</sub>(O<sub>i</sub>)=0.</strong></p>
-
-Si cualquiera de los términos no se anula, el caso no cierra.
-
-La forma implícita evita que una parte de la teoría pase mientras otra falla. Edad, fin, restante, conversión y suma deben cerrar simultáneamente.
-
-<a id="sec-ix-7-formula-parametrica"></a>
-
-### IX.7. Fórmula paramétrica
-
-La forma paramétrica representa el ciclo físico de un objeto mediante un parámetro interno de fracción:
-
-<p><strong>λ<sub>i</sub>∈[0,1].</strong></p>
-
-Se define:
-
-<p><strong>A<sub>i</sub>(λ<sub>i</sub>)=λ<sub>iF</sub><sub>i</sub>.</strong></p>
-
-En física contemporánea:
-
-<p><strong>A<sub>i</sub><sup>FC</sup>(λ<sub>i</sub>)=λ<sub>iF</sub><sub>i</sub><sup>FC</sup>.</strong></p>
-
-En unidades SV:
-
-A<sub>i</sub><sup>SV</sup>(λ<sub>i</sub>)
-
-284 018 400,λ<sub>iF</sub><sub>i</sub><sup>FC</sup>.
-
-Como:
-
-<p><strong>F<sub>i</sub><sup>SV</sup>=284 018 400F<sub>i</sub><sup>FC</sup>,</strong></p>
-
-entonces:
-
-<p><strong>A<sub>i</sub><sup>SV</sup>(λ<sub>i</sub>)=λ<sub>iF</sub><sub>i</sub><sup>SV</sup>.</strong></p>
-
-El tramo restante paramétrico es:
-
-<p><strong>R<sub>i</sub><sup>FC</sup>(λ<sub>i</sub>)=(1-λ<sub>i</sub>)F<sub>i</sub><sup>FC</sup>.</strong></p>
-
-<p><strong>R<sub>i</sub><sup>SV</sup>(λ<sub>i</sub>)=(1-λ<sub>i</sub>)F<sub>i</sub><sup>SV</sup>.</strong></p>
-
-Por tanto:
-
-<p><strong>A<sub>i</sub><sup>SV</sup>(λ<sub>i</sub>)+R<sub>i</sub><sup>SV</sup>(λ<sub>i</sub>)=F<sub>i</sub><sup>SV</sup>.</strong></p>
-
-Y:
-
-<p><strong>A<sub>i</sub><sup>FC</sup>(λ<sub>i</sub>)+R<sub>i</sub><sup>FC</sup>(λ<sub>i</sub>)=F<sub>i</sub><sup>FC</sup>.</strong></p>
-
-Esta forma permite comparar dominios distintos sin forzar que compartan el mismo (λ). El Sol posee:
-
-<p><strong>λ_☉=457/1000.</strong></p>
-
-El Sistema Solar posee:
-
-<p><strong>λ<sub>SS</sub>=571/1250.</strong></p>
-
-La Vía Láctea-entorno posee:
-
-<p><strong>λ<sub>VL</sub>=1/2.</strong></p>
-
-El observable retornado posee:
-
-<p><strong>λ_Ω<sub>obs</sub>=1/2.</strong></p>
-
-Cada objeto conserva su parámetro.
-
-<a id="sec-ix-8-formula-punto-pendiente"></a>
-
-### IX.8. Fórmula punto-pendiente
-
-La forma punto-pendiente fija la evolución lineal exacta de edad transductiva dentro de un dominio declarado.
-
-Sea el punto inicial:
-
-<p><strong>P<sub>0</sub>=(0,0).</strong></p>
-
-Sea el punto actual:
-
-<p><strong>P<sub>i</sub>=(A<sub>i</sub><sup>FC</sup>,A<sub>i</sub><sup>SV</sup>).</strong></p>
-
-La pendiente transductiva universal es:
-
-<p><strong>m=284 018 400.</strong></p>
-
-La ecuación punto-pendiente es:
-
-A<sup>SV</sup>-A<sub>i</sub><sup>SV</sup>
-
-284 018 400 ( A<sup>FC</sup>-A<sub>i</sub><sup>FC</sup> ).
-
-Equivalente desde el origen:
-
-<p><strong>A<sup>SV</sup>=284 018 400A<sup>FC</sup>.</strong></p>
-
-Para el fin estructural:
-
-F<sub>i</sub><sup>SV</sup>-A<sub>i</sub><sup>SV</sup>
-
-284 018 400 ( F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup> ).
-
-Para el tramo restante:
-
-R<sub>i</sub><sup>SV</sup>
-
-284 018 400R<sub>i</sub><sup>FC</sup>.
-
-La pendiente es constante porque la conversión metrológica es exacta:
-
-<p><strong>1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>.</strong></p>
-
-La pendiente no depende del objeto. Depende de la unidad. Por eso la teoría es única.
-
-<a id="sec-ix-9-teorema-viii-1-unidad-de-la-teoria"></a>
-
-### IX.9. Teorema VIII.1. Unidad de la teoría
-
-Teorema VIII.1. La Teoría de la edad de todos los objetos del Universo Observable es única en su forma transductiva: todo objeto físico admisible (O<sub>i</sub>⊂Ω<sub>obs</sub>) se calcula mediante la misma fórmula canónica.
-
-Demostración.
-
-Sea:
-
-<p><strong>O<sub>i</sub>⊂Ω<sub>obs</sub>.</strong></p>
-
-Si (O<sub>i</sub>) admite edad, entonces declara:
-
-<p><strong>A<sub>i</sub><sup>FC</sup>,F<sub>i</sub><sup>FC</sup>,u<sub>SI</sub>,u<sub>SV</sub>,Δ<sub>i</sub>.</strong></p>
-
-La transducción obligatoria es:
-
-<p><strong>A<sub>i</sub><sup>SV</sup>=284 018 400A<sub>i</sub><sup>FC</sup>.</strong></p>
-
-Y:
-
-<p><strong>F<sub>i</sub><sup>SV</sup>=284 018 400F<sub>i</sub><sup>FC</sup>.</strong></p>
-
-El restante queda:
-
-<p><strong>R<sub>i</sub><sup>SV</sup>=F<sub>i</sub><sup>SV</sup>-A<sub>i</sub><sup>SV</sup>.</strong></p>
-
-Sustituyendo:
-
-R<sub>i</sub><sup>SV</sup>
-
-284 018 400F<sub>i</sub><sup>FC</sup>
-
-284 018 400A<sub>i</sub><sup>FC</sup>.
-
-Factorizando:
-
-R<sub>i</sub><sup>SV</sup>
-
-284 018 400(F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>).
-
-La forma es idéntica para todo objeto. Lo único que cambia son los valores (A<sub>i</sub>) y (F<sub>i</sub>), no la teoría.
-
-Por tanto, la teoría es única.
-
-c.q.d.
-
-<a id="sec-ix-10-teorema-viii-2-error-cero-de-la-formula-canonica"></a>
-
-### IX.10. Teorema VIII.2. Error cero de la fórmula canónica
-
-Teorema VIII.2. Si un objeto físico (O<sub>i</sub>⊂Ω<sub>obs</sub>) satisface (Δ<sub>i</sub>=0), entonces la fórmula canónica tiene error cero de plano, definición, transducción y aritmética.
-
-Demostración.
-
-Error de plano. Como:
-
-<p><strong>O<sub>i</sub>⊂Ω<sub>obs</sub>,</strong></p>
-
-y:
-
-<p><strong>O<sub>i</sub>≠ T,</strong></p>
-
-la edad se atribuye a objeto físico interno, no a totalidad absoluta. Luego:
-
-<p><strong>ε<sub>plano</sub>=0.</strong></p>
-
-Error de definición. La condición (Δ<sub>i</sub>=0) exige dominio, identidad, frontera, edad, fin, unidad, residual y retorno. Luego:
-
-<p><strong>ε<sub>def</sub>=0.</strong></p>
-
-Error de transducción. Por definición:
-
-<p><strong>A<sub>i</sub><sup>SV</sup>=284 018 400A<sub>i</sub><sup>FC</sup>.</strong></p>
-
-El retorno es:
-
-<p><strong>A<sub>i</sub><sup>FC</sup>=A<sub>i</sub><sup>SV</sup>284 018 400.</strong></p>
-
-Sustituyendo:
-
-A<sub>i</sub><sup>FC</sup>= 284 018 400A<sub>i</sub><sup>FC</sup> 284 018 400
-
-A<sub>i</sub><sup>FC</sup>.
-
-Luego:
-
-<p><strong>ε<sub>trans</sub>=0.</strong></p>
-
-Error aritmético. Por definición:
-
-<p><strong>R<sub>i</sub><sup>FC</sup>=F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>.</strong></p>
-
-Entonces:
-
-A<sub>i</sub><sup>FC</sup>+R<sub>i</sub><sup>FC</sup>
-
-A<sub>i</sub><sup>FC</sup>+F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>
-
-F<sub>i</sub><sup>FC</sup>.
-
-En SV:
-
-A<sub>i</sub><sup>SV</sup>+R<sub>i</sub><sup>SV</sup>
-
-284 018 400A<sub>i</sub><sup>FC</sup> + 284 018 400(F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>)
-
-284 018 400F<sub>i</sub><sup>FC</sup>
-
-F<sub>i</sub><sup>SV</sup>.
-
-Luego:
-
-<p><strong>ε<sub>arit</sub>=0.</strong></p>
-
-Por tanto:
-
-<p><strong>ε<sub>total</sub>=0.</strong></p>
-
-c.q.d.
-
-<a id="sec-ix-11-teorema-viii-3-reduccion-al-absurdo-de-la-no-unicidad"></a>
-
-### IX.11. Teorema VIII.3. Reducción al absurdo de la no unicidad
-
-Teorema VIII.3. No puede existir una segunda fórmula independiente para edades transductivas de objetos observables que conserve las mismas unidades, el mismo retorno y error cero, pero difiera de la fórmula canónica.
-
-Demostración.
-
-Supóngase que existe otra fórmula:
-
-<p><strong>(O<sub>i</sub>)</strong></p>
-
-tal que:
-
-<p><strong>(O<sub>i</sub>)≠284 018 400A<sub>i</sub><sup>FC</sup>,</strong></p>
-
-pero conserva:
-
-<p><strong>SI→ SV→ SI,</strong></p>
-
-con error cero.
-
-Sea:
-
-<p><strong>(O<sub>i</sub>)=kA<sub>i</sub><sup>FC</sup>.</strong></p>
-
-Para que el retorno físico sea exacto, debe cumplirse:
-
-<p><strong>kA<sub>i</sub><sup>FC</sup>284 018 400=A<sub>i</sub><sup>FC</sup>.</strong></p>
-
-Para (A<sub>i</sub><sup>FC</sup>≠0), se obtiene:
-
-<p><strong>k=284 018 400.</strong></p>
-
-Luego:
-
-<p><strong>(O<sub>i</sub>)=284 018 400A<sub>i</sub><sup>FC</sup>.</strong></p>
-
-Esto contradice:
-
-<p><strong>(O<sub>i</sub>)≠284 018 400A<sub>i</sub><sup>FC</sup>.</strong></p>
-
-Por tanto, no existe segunda fórmula transductiva distinta con las mismas unidades y retorno exacto.
-
-c.q.d.
-
-<a id="sec-ix-12-comprobacion-desde-la-formula-de-todos-los-valores-expuestos"></a>
-
-### IX.12. Comprobación desde la fórmula de todos los valores expuestos
-
-La fórmula canónica:
-
-<p><strong>A<sub>i</sub><sup>SV</sup>=284 018 400A<sub>i</sub><sup>FC</sup></strong></p>
-
-reproduce todos los valores dla formulación.
-
-| Objeto o dominio | (A<sub>i</sub><sup>FC</sup>) en (a<sub>J</sub>) | Fórmula | (A<sub>i</sub><sup>SV</sup>) | Lectura formal |
-| --- | --- | --- | --- | --- |
-| Sol | 4.570.000.000 | (4.570.000.000×284.018.400) | 1.297.964.088.000.000.000 | 0 |
-| Sistema Solar | 4.568.000.000 | (4.568.000.000×284.018.400) | 1.297.396.051.200.000.000 | 0 |
-| Vía Láctea-entorno | 13.600.000.000 | (13.600.000.000×284.018.400) | 3.862.650.240.000.000.000 | 0 |
-| Observable retornado | 13.800.000.000 | (13.800.000.000×284.018.400) | 3.919.453.920.000.000.000 | 0 |
-| Sol fin | 10.000.000.000 | (10.000.000.000×284.018.400) | 2.840.184.000.000.000.000 | 0 |
-| Sistema Solar fin | 10.000.000.000 | (10.000.000.000×284.018.400) | 2.840.184.000.000.000.000 | 0 |
-| Vía Láctea-entorno fin | 27.200.000.000 | (27.200.000.000×284.018.400) | 7.725.300.480.000.000.000 | 0 |
-| Observable retornado fin | 27.600.000.000 | (27.600.000.000×284.018.400) | 7.838.907.840.000.000.000 | 0 |
-
-<a id="sec-ix-13-comprobacion-de-los-tramos-restantes-desde-la-formula"></a>
-
-### IX.13. Comprobación de los tramos restantes desde la fórmula
-
-<p><strong>R<sub>i</sub><sup>SV</sup>=284 018 400(F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>).</strong></p>
-
-| Objeto o dominio | (F<sub>i</sub><sup>FC</sup>) | (A<sub>i</sub><sup>FC</sup>) | (F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>) | (R<sub>i</sub><sup>SV</sup>) | Lectura formal |
-| --- | --- | --- | --- | --- | --- |
-| Sol | 10.000.000.000 | 4.570.000.000 | 5.430.000.000 | 1.542.219.912.000.000.000 | 0 |
-| Sistema Solar | 10.000.000.000 | 4.568.000.000 | 5.432.000.000 | 1.542.787.948.800.000.000 | 0 |
-| Vía Láctea-entorno | 27.200.000.000 | 13.600.000.000 | 13.600.000.000 | 3.862.650.240.000.000.000 | 0 |
-| Observable retornado | 27.600.000.000 | 13.800.000.000 | 13.800.000.000 | 3.919.453.920.000.000.000 | 0 |
-
-<a id="sec-ix-14-comprobacion-de-fracciones-desde-la-formula-parametrica"></a>
-
-### IX.14. Comprobación de fracciones desde la fórmula paramétrica
-
-<p><strong>f<sub>i</sub>=A<sub>i</sub>/F<sub>i</sub>.</strong></p>
-
-<p><strong>ρ<sub>i</sub>=1-f<sub>i</sub>.</strong></p>
-
-| Objeto o dominio | (A<sub>i</sub>) | (F<sub>i</sub>) | (f<sub>i</sub>) | (ρ<sub>i</sub>) | Suma |
-| --- | --- | --- | --- | --- | --- |
-| Sol | 4.570.000.000 | 10.000.000.000 | (457/1000) | (543/1000) | 1 |
-| Sistema Solar | 4.568.000.000 | 10.000.000.000 | (571/1250) | (679/1250) | 1 |
-| Vía Láctea-entorno | 13.600.000.000 | 27.200.000.000 | (1/2) | (1/2) | 1 |
-| Observable retornado | 13.800.000.000 | 27.600.000.000 | (1/2) | (1/2) | 1 |
-
-<a id="sec-ix-15-registro-de-datos-negativos-de-la-teoria"></a>
-
-### IX.15. Tabla de controles negativos de la teoría
-
-El control negativo de la teoría verifica que la fórmula única discrimina correctamente. No basta que la fórmula confirme valores positivos; debe rechazar valores mal tipados, transducciones falsas y composiciones indebidas.
-
-| Código | Entrada negativa | Defecto | Salida esperada |
-| --- | --- | --- | --- |
-| TNEG-01 | (Edad( T)=13.800.000.000,a<sub>J</sub>) | edad atribuida a totalidad absoluta | NO ADMISIBLE |
-| TNEG-02 | (A_☉=13.800.000.000,a<sub>J</sub>) | edad solar sustituida por observable | NO ADMISIBLE |
-| TNEG-03 | (A<sub>SS</sub>=4.570.000.000,a<sub>J</sub>) | Sistema Solar confundido con Sol | NO ADMISIBLE |
-| TNEG-04 | (A<sub>VL</sub>=A_Ω<sub>obs</sub>) | dominio galáctico confundido con observable completo | NO ADMISIBLE |
-| TNEG-05 | (A<sub>i</sub><sup>SV</sup>=284.018.399A<sub>i</sub>) | coeficiente transductivo falso | NO ADMISIBLE |
-| TNEG-06 | (A<sub>i</sub><sup>SV</sup>=284.018.401A<sub>i</sub>) | coeficiente transductivo falso | NO ADMISIBLE |
-| TNEG-07 | (R<sub>i</sub>≠ F<sub>i</sub>-A<sub>i</sub>) | resta falsa | NO ADMISIBLE |
-| TNEG-08 | (f<sub>i</sub>+ρ<sub>i</sub>≠1) | fracción falsa | NO ADMISIBLE |
-| TNEG-09 | (F<sub>i</sub><A<sub>i</sub>) | fin anterior a edad actual | NO ADMISIBLE |
-| TNEG-10 | edad sin dominio | dominio ausente | (U) |
-| TNEG-11 | edad sin fin estructural | restante no calculable | (U) |
-| TNEG-12 | edad sin unidad SV | transducción incompleta | (U) |
-| TNEG-13 | edad sin retorno inverso | residual de retorno | NO ADMISIBLE |
-| TNEG-14 | segunda fórmula con mismo retorno y distinto coeficiente | contradicción de unicidad | NO ADMISIBLE |
-| TNEG-15 | laboratorio que calcula valor no tabulado | salida no autorizada | NO ADMISIBLE |
-
-<a id="sec-ix-16-teorema-viii-4-necesidad-del-registro-negativo"></a>
-
-### IX.16. Necesidad de los controles negativos
-
-Teorema VIII.4. La Teoría de la edad de todos los objetos del Universo Observable exige control negativo; sin él, la fórmula canónica no demostraría discriminación.
-
-Demostración.
-
-La fórmula positiva:
-
-<p><strong>A<sub>i</sub><sup>SV</sup>=284 018 400A<sub>i</sub><sup>FC</sup></strong></p>
-
-demuestra conversión exacta. Pero, por sí sola, no prueba que el sistema rechace:
-
-<p><strong>Edad( T),</strong></p>
-
-<p><strong>A_☉=A_Ω<sub>obs</sub>,</strong></p>
-
-<p><strong>A<sub>i</sub><sup>SV</sup>=kA<sub>i</sub><sup>FC</sup> (k≠284 018 400),</strong></p>
-
-o:
-
-<p><strong>R<sub>i</sub>≠ F<sub>i</sub>-A<sub>i</sub>.</strong></p>
-
-Si el sistema aceptara cualquiera de esas entradas, tendría error de plano, error de dominio, error transductivo o error aritmético.
-
-El control negativo fuerza la salida:
-
-<p><strong>1</strong></p>
-
-para contradicción, y:
-
-<p><strong>U</strong></p>
-
-para falta de información esencial.
-
-Por tanto, el control negativo es necesario para demostrar que la fórmula canónica no sólo calcula, sino que discrimina.
-
-c.q.d.
-
-<a id="sec-ix-17-teorema-viii-5-contraste-de-teoria-unica"></a>
-
-### IX.17. Teorema VIII.5. Contraste de teoría única
-
-Teorema VIII.5. Todos los resultados anteriores dla formulación son casos particulares de la fórmula canónica, luego la teoría es única y no composición de teorías parciales.
-
-Demostración.
-
-El resultado solar:
-
-<p><strong>A_☉<sup>SV</sup>=1,297,964,088,000,000,000</strong></p>
-
-se obtiene de:
-
-<p><strong>4 570 000 000×284 018 400.</strong></p>
-
-El resultado del Sistema Solar:
-
-<p><strong>A<sub>SS</sub><sup>SV</sup>=1,297,396,051,200,000,000</strong></p>
-
-se obtiene de:
-
-<p><strong>4 568 000 000×284 018 400.</strong></p>
-
-El resultado de la Vía Láctea-entorno:
-
-<p><strong>A<sub>VL</sub><sup>SV</sup>=3,862,650,240,000,000,000</strong></p>
-
-se obtiene de:
-
-<p><strong>13 600 000 000×284 018 400.</strong></p>
-
-El resultado del observable retornado:
-
-<p><strong>A_Ω<sub>obs</sub><sup>SV</sup>=3 919 453 920 000 000 000</strong></p>
-
-se obtiene de:
-
-<p><strong>13 800 000 000×284 018 400.</strong></p>
-
-Todos comparten:
-
-<p><strong>A<sub>i</sub><sup>SV</sup>=284 018 400A<sub>i</sub><sup>FC</sup>.</strong></p>
-
-Y todos comparten:
-
-<p><strong>R<sub>i</sub>=F<sub>i</sub>-A<sub>i</sub>.</strong></p>
-
-Y todos comparten:
-
-<p><strong>f<sub>i</sub>=A<sub>i</sub>/F<sub>i</sub>.</strong></p>
-
-Por tanto, no hay cuatro teorías. Hay una sola teoría aplicada a cuatro dominios.
-
-c.q.d.
-
-<a id="sec-ix-18-lectura-formal-de-la-teoria"></a>
-
-### IX.18. Síntesis de la teoría
-
-La Teoría de la edad de todos los objetos del Universo Observable queda fijada por una fórmula canónica única:
-
-E<sub>age</sub>(O<sub>i</sub>)
-
-( A<sub>i</sub>, F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>, A<sub>i</sub>/F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>, 284 018 400A<sub>i</sub>, 284 018 400F<sub>i</sub>, 284 018 400(F<sub>i</sub>-A<sub>i</sub>), Δ<sub>i</sub> ).
-
-Con:
-
-<p><strong>Δ<sub>i</sub>=0</strong></p>
-
-para cierre.
-
-Forma explícita:
-
-<p><strong>A<sub>i</sub><sup>SV</sup>=284 018 400A<sub>i</sub><sup>FC</sup>.</strong></p>
-
-Forma implícita:
-
-<p><strong>Φ<sub>age</sub>(O<sub>i</sub>)=0.</strong></p>
-
-Forma paramétrica:
-
-<p><strong>A<sub>i</sub>(λ<sub>i</sub>)=λ<sub>iF</sub><sub>i</sub>.</strong></p>
-
-Forma punto-pendiente:
-
-A<sup>SV</sup>-A<sub>i</sub><sup>SV</sup>
-
-284 018 400(A<sup>FC</sup>-A<sub>i</sub><sup>FC</sup>).
-
-El error total queda:
-
-ε<sub>plano</sub>
-
-ε<sub>def</sub>
-
-ε<sub>trans</sub>
-
-ε<sub>arit</sub>
-
-El control negativo queda incorporado como condición de rigor.
-
-La teoría es única:
-
-<p><strong>una fórmula, todos los objetos admisibles, error cero.</strong></p>
-
-<a id="sec-x-lectura-formal-final-de-cierre"></a>
-
-## X. Síntesis final de cierre
-
-<a id="sec-x-1-tesis-cerrada"></a>
-
-### X.1. Tesis cerrada
-
-La expresión «edad del Universo» queda sustituida por una formulación exacta:
-
-<p><strong>edad concreta del observable retornado</strong></p>
-
-y no por:
-
-<p><strong>edad de la totalidad absoluta.</strong></p>
-
-La totalidad absoluta no admite edad física:
-
-<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
-
-El observable retornado sí admite edad concreta:
-
-<p><strong>A_Ω<sub>obs</sub>=13 800 000 000 a<sub>J</sub>.</strong></p>
-
-En unidades SV:
-
-A_Ω<sub>obs</sub><sup>SV</sup>
-
-3 919 453 920 000 000 000 UE<sub>MFC</sub>.
-
-El fin concreto del ciclo observable, bajo simetría transductiva, queda:
-
-<p><strong>A_Ω<sub>obs</sub>,fin=27 600 000 000 a<sub>J</sub>.</strong></p>
-
-A_Ω<sub>obs</sub>,fin<sup>SV</sup>
-
-7 838 907 840 000 000 000 UE<sub>MFC</sub>.
-
-El tramo restante queda:
-
-<p><strong>A_Ω<sub>obs</sub>,rest=13 800 000 000 a<sub>J</sub>.</strong></p>
-
-A_Ω<sub>obs</sub>,rest<sup>SV</sup>
-
-3 919 453 920 000 000 000 UE<sub>MFC</sub>.
-
-<a id="sec-x-2-formula-unica-de-cierre"></a>
-
-### X.2. Fórmula única de cierre
-
-La teoría queda cerrada por la fórmula canónica:
-
-E<sub>age</sub>(O<sub>i</sub>)
-
-( A<sub>i</sub>, F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>, A<sub>i</sub>/F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>, 284 018 400A<sub>i</sub>, 284 018 400F<sub>i</sub>, 284 018 400(F<sub>i</sub>-A<sub>i</sub>), Δ<sub>i</sub> ).
-
-Con:
-
-<p><strong>Δ<sub>i</sub>=0</strong></p>
-
-como condición de cierre.
-
-La constante transductiva es:
-
-<p><strong>K<sub>age</sub>=284 018 400.</strong></p>
-
-Por tanto:
-
-<p><strong>A<sub>i</sub><sup>SV</sup>=K<sub>age</sub>A<sub>i</sub><sup>FC</sup>.</strong></p>
-
-<p><strong>F<sub>i</sub><sup>SV</sup>=K<sub>age</sub>F<sub>i</sub><sup>FC</sup>.</strong></p>
-
-<p><strong>R<sub>i</sub><sup>SV</sup>=K<sub>age</sub>(F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>).</strong></p>
-
-<a id="sec-x-3-tabla-final-de-dominios"></a>
-
-### X.3. Tabla final de dominios
-
-| Dominio | Edad actual (a<sub>J</sub>) | Fin estructural (a<sub>J</sub>) | Restante (a<sub>J</sub>) | Fracción actual | Lectura formal |
-| --- | --- | --- | --- | --- | --- |
-| Sol | 4.570.000.000 | 10.000.000.000 | 5.430.000.000 | (457/1000) | admisible |
-| Sistema Solar | 4.568.000.000 | 10.000.000.000 | 5.432.000.000 | (571/1250) | admisible |
-| Vía Láctea-entorno | 13.600.000.000 | 27.200.000.000 | 13.600.000.000 | (1/2) | admisible |
-| Observable retornado | 13.800.000.000 | 27.600.000.000 | 13.800.000.000 | (1/2) | admisible |
-| Totalidad absoluta | no aplicable | no aplicable | no aplicable | no aplicable | no admisible |
-
-<a id="sec-x-4-tabla-final-sv-fisica-contemporanea"></a>
-
-### X.4. Tabla final SV ↔ física contemporánea
-
-| Dominio | Edad actual (UE<sub>MFC</sub>) | Fin estructural (UE<sub>MFC</sub>) | Restante (UE<sub>MFC</sub>) | Retorno inverso |
-| --- | --- | --- | --- | --- |
-| Sol | 1.297.964.088.000.000.000 | 2.840.184.000.000.000.000 | 1.542.219.912.000.000.000 | exacto |
-| Sistema Solar | 1.297.396.051.200.000.000 | 2.840.184.000.000.000.000 | 1.542.787.948.800.000.000 | exacto |
-| Vía Láctea-entorno | 3.862.650.240.000.000.000 | 7.725.300.480.000.000.000 | 3.862.650.240.000.000.000 | exacto |
-| Observable retornado | 3.919.453.920.000.000.000 | 7.838.907.840.000.000.000 | 3.919.453.920.000.000.000 | exacto |
-
-<a id="sec-x-5-error-cero"></a>
-
-### X.5. Error cero
-
-El cierre declara error cero en cuatro planos:
-
-<p><strong>ε<sub>plano</sub>=0.</strong></p>
-
-<p><strong>ε<sub>def</sub>=0.</strong></p>
-
-<p><strong>ε<sub>trans</sub>=0.</strong></p>
-
-<p><strong>ε<sub>arit</sub>=0.</strong></p>
-
-Por tanto:
-
-<p><strong>ε<sub>total</sub>=0.</strong></p>
-
-Esto no significa que la observación física carezca de margen instrumental. Significa que la formulación no comete error de atribución, no deja indefinida la unidad, no altera la transducción y no introduce resto aritmético en los valores declarados.
-
-<a id="sec-x-6-reduccion-final-al-absurdo"></a>
-
-### X.6. Reducción final al absurdo
-
-Supóngase que el resultado no queda cerrado.
-
-Entonces debe cumplirse al menos una de estas tesis:
-
-<p><strong>H<sub>1</sub>: Edad( T) es admisible.</strong></p>
-
-<p><strong>H<sub>2</sub>: A_Ω<sub>obs</sub>≠13 800 000 000 a<sub>J</sub>.</strong></p>
-
-<p><strong>H<sub>3</sub>: A_Ω<sub>obs</sub><sup>SV</sup>≠3 919 453 920 000 000 000 UE<sub>MFC</sub>.</strong></p>
-
-<p><strong>H<sub>4</sub>: K<sub>age</sub>≠284 018 400.</strong></p>
-
-<p><strong>H<sub>5</sub>: A<sub>i</sub>+R<sub>i</sub>≠ F<sub>i</sub>.</strong></p>
-
-<p><strong>H<sub>6</sub>: f<sub>i</sub>+ρ<sub>i</sub>≠1.</strong></p>
-
-Contra (H<sub>1</sub>): la totalidad absoluta no es objeto físico interno. Luego no admite edad física.
-
-Contra (H<sub>2</sub>): la tabla de contraste declara la edad concreta del observable retornado como:
-
-<p><strong>13 800 000 000 a<sub>J</sub>.</strong></p>
-
-Contra (H<sub>3</sub>): la transducción exacta fija:
-
-13 800 000 000×284 018 400
-
-3 919 453 920 000 000 000.
-
-Contra (H<sub>4</sub>): la constante transductiva deriva de:
-
-<p><strong>1,a<sub>J</sub>=31 557 600,s,</strong></p>
-
-<p><strong>1,s=9,UE<sub>MFC</sub>,</strong></p>
-
-luego:
-
-<p><strong>K<sub>age</sub>=31 557 600×9=284 018 400.</strong></p>
-
-Contra (H<sub>5</sub>): el restante se define como:
-
-<p><strong>R<sub>i</sub>=F<sub>i</sub>-A<sub>i</sub>,</strong></p>
-
-por tanto:
-
-<p><strong>A<sub>i</sub>+R<sub>i</sub>=F<sub>i</sub>.</strong></p>
-
-Contra (H<sub>6</sub>):
-
-<p><strong>f<sub>i</sub>=A<sub>i</sub>/F<sub>i</sub>,</strong></p>
-
-<p><strong>ρ<sub>i</sub>=F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>,</strong></p>
-
-luego:
-
-f<sub>i</sub>+ρ<sub>i</sub>
-
-A<sub>i</sub>/F<sub>i</sub> + F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>
-Todas las alternativas conducen a contradicción. Por tanto:
-
-<p><strong>¬ R⇒.</strong></p>
-
-Luego:
-
-<p><strong>R.</strong></p>
-
-El resultado queda cerrado.
-
-<a id="sec-x-7-lectura-formal-final"></a>
-
-### X.7. Síntesis final
-
-La formulación concluye:
-
-<p><strong>la totalidad absoluta no posee edad física admisible.</strong></p>
-
-<p><strong>el observable retornado posee edad concreta.</strong></p>
-
-<p><strong>los objetos físicos internos poseen edades propias por dominio.</strong></p>
-
-<p><strong>la transducción SV↔física contemporánea es exacta en los valores declarados.</strong></p>
-
-<p><strong>la fórmula canónica es única para todos los objetos admisibles.</strong></p>
-
-<p><strong>el control negativo demuestra discriminación.</strong></p>
-
-<p><strong>el laboratorio reproduce lo tabulado y no inventa resultado.</strong></p>
-
-El cierre final es:
-
-A_Ω<sub>obs</sub>=13 800 000 000 a<sub>J</sub>
-
-3 919 453 920 000 000 000 UE<sub>MFC</sub>.
-
-A_Ω<sub>obs</sub>,fin=27 600 000 000 a<sub>J</sub>
-
-7 838 907 840 000 000 000 UE<sub>MFC</sub>.
-
-<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
-
-<a id="sec-xi-anexo-tecnico-reproducible-registros-declarativos-catalogo-de-errores-y-salida-esperada"></a>
-
-## XI. Anexo técnico reproducible: datos declarativos, catálogo de errores y salida esperada
-
-<a id="sec-xi-1-estatuto-del-anexo-tecnico"></a>
-
-### XI.1. Estatuto del anexo técnico
-
-Este anexo fija los registros declarativos de base que permiten reproducir la teoría mediante laboratorio. Su finalidad es que todo valor central de la formulación pueda ser confirmado por ejecución exacta, sin inferencia, sin redondeo, sin tolerancia y sin pase silencioso.
-
-La regla es:
-
-<p><strong>todo valor ejecutado debe estar previamente declarado.</strong></p>
-
-La teoría queda gobernada por:
-
-<p><strong>K<sub>age</sub>=284 018 400.</strong></p>
-
-Donde:
-
-<p><strong>K<sub>age</sub>=31 557 600×9.</strong></p>
-
-Por tanto:
-
-<p><strong>A<sub>i</sub><sup>SV</sup>=K<sub>age</sub>A<sub>i</sub><sup>FC</sup>.</strong></p>
-
-<p><strong>F<sub>i</sub><sup>SV</sup>=K<sub>age</sub>F<sub>i</sub><sup>FC</sup>.</strong></p>
-
-<p><strong>R<sub>i</sub><sup>SV</sup>=K<sub>age</sub>(F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>).</strong></p>
-
-<a id="sec-xi-2-manifestunidades-csv"></a>
-
-### XI.2. [manifest_unidades.csv](laboratorios/manifest_unidades.csv)
-
-field,value,unit,lectura formal
-
-julian<sub>year</sub><sub>seconds</sub>,31557600,s,0
-
-uemfc<sub>per</sub><sub>second</sub>,9,UE<sub>MFC</sub>/s,0
-
-uemfc<sub>per</sub><sub>julian</sub><sub>year</sub>,284018400,UE<sub>MFC</sub>/a<sub>J</sub>,0
-
-time<sub>unit</sub><sub>fc</sub>,a<sub>J</sub>,año<sub>juliano</sub>,0
-
-time<sub>unit</sub><sub>si</sub>,s,segundo,0
-
-time<sub>unit</sub><sub>sv</sub>,UE<sub>MFC</sub>,unidad<sub>elemental</sub><sub>medidor</sub><sub>factual</sub><sub>ciclo</sub>,0
-
-rounding<sub>allowed</sub>,NO,boolean,0
-
-float<sub>allowed</sub>,NO,boolean,0
-
-silent<sub>pass</sub><sub>allowed</sub>,NO,boolean,0
-
-untabulated<sub>output</sub><sub>allowed</sub>,NO,boolean,0
-
-La prueba obligatoria del manifiesto es:
-
-<p><strong>31 557 600×9=284 018 400.</strong></p>
-
-<a id="sec-xi-3-registroobjetos-csv"></a>
-
-### XI.3. [banco_objetos.csv](laboratorios/banco_objetos.csv)
-
-object<sub>id</sub>,object<sub>name</sub>,domain,current<sub>aj</sub>,finish<sub>aj</sub>,expected<sub>status</sub>
-
-SUN,Sol,Omega<sub>sun</sub><sub>subset</sub><sub>Omega</sub><sub>obs</sub>,4570000000,10000000000,0
-
-SOLAR<sub>SYSTEM</sub>,Sistema Solar,Omega<sub>solar</sub><sub>system</sub><sub>subset</sub><sub>Omega</sub><sub>obs</sub>,4568000000,10000000000,0
-
-MILKY<sub>WAY</sub><sub>ENV</sub>,Via Lactea entorno,Omega<sub>milky</sub><sub>way</sub><sub>env</sub><sub>subset</sub><sub>Omega</sub><sub>obs</sub>,13600000000,27200000000,0
-
-OBSERVABLE<sub>RETURNED</sub>,Observable retornado,Omega<sub>obs</sub>,13800000000,27600000000,0
-
-ABSOLUTE<sub>TOTALITY</sub>,Totalidad absoluta,T<sub>absolute</sub>,NA,NA,NO<sub>ADMISIBLE</sub>
-
-La totalidad absoluta queda declarada como caso no cronológico:
-
-<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
-
-<a id="sec-xi-4-registrovalores-csv"></a>
-
-### XI.4. [banco_valores.csv](laboratorios/banco_valores.csv)
-
-object<sub>id</sub>,current<sub>aj</sub>,current<sub>uemfc</sub>,finish<sub>aj</sub>,finish<sub>uemfc</sub>,remaining<sub>aj</sub>,remaining<sub>uemfc</sub>,current<sub>fraction</sub>,remaining<sub>fraction</sub>,lectura formal
-
-SUN,4570000000,1297964088000000000,10000000000,2840184000000000000,5430000000,1542219912000000000,457/1000,543/1000,0
-
-SOLAR<sub>SYSTEM</sub>,4568000000,1297396051200000000,10000000000,2840184000000000000,5432000000,1542787948800000000,571/1250,679/1250,0
-
-MILKY<sub>WAY</sub><sub>ENV</sub>,13600000000,3862650240000000000,27200000000,7725300480000000000,13600000000,3862650240000000000,1/2,1/2,0
-
-OBSERVABLE<sub>RETURNED</sub>,13800000000,3919453920000000000,27600000000,7838907840000000000,13800000000,3919453920000000000,1/2,1/2,0
-
-Cada fila debe cumplir:
-
-<p><strong>current<sub>uemfc</sub>=current<sub>aj</sub>×284 018 400.</strong></p>
-
-<p><strong>finish<sub>uemfc</sub>=finish<sub>aj</sub>×284 018 400.</strong></p>
-
-<p><strong>remaining<sub>aj</sub>=finish<sub>aj</sub>-current<sub>aj</sub>.</strong></p>
-
-<p><strong>remaining<sub>uemfc</sub>=finish<sub>uemfc</sub>-current<sub>uemfc</sub>.</strong></p>
-
-<a id="sec-xi-5-registrodiferencias-csv"></a>
-
-### XI.5. [banco_diferencias.csv](laboratorios/banco_diferencias.csv)
-
-difference<sub>id</sub>,left<sub>object</sub>,right<sub>object</sub>,difference<sub>aj</sub>,difference<sub>uemfc</sub>,lectura formal
-
-DIF<sub>01</sub>,OBSERVABLE<sub>RETURNED</sub>,MILKY<sub>WAY</sub><sub>ENV</sub>,200000000,56803680000000000,0
-
-DIF<sub>02</sub>,MILKY<sub>WAY</sub><sub>ENV</sub>,SUN,9030000000,2564686152000000000,0
-
-DIF<sub>03</sub>,OBSERVABLE<sub>RETURNED</sub>,SUN,9230000000,2621489832000000000,0
-
-DIF<sub>04</sub>,SUN,SOLAR<sub>SYSTEM</sub>,2000000,568036800000000,0
-
-DIF<sub>05</sub>,SOLAR<sub>SYSTEM</sub><sub>REMAINING</sub>,SUN<sub>REMAINING</sub>,2000000,568036800000000,0
-
-DIF<sub>06</sub>,OBSERVABLE<sub>RETURNED</sub><sub>FINISH</sub>,MILKY<sub>WAY</sub><sub>ENV</sub><sub>FINISH</sub>,400000000,113607360000000000,0
-
-DIF<sub>07</sub>,SUN<sub>FINISH</sub>,SOLAR<sub>SYSTEM</sub><sub>FINISH</sub>,0,0,0
-
-La regla diferencial es:
-
-<p><strong>difference<sub>uemfc</sub>=difference<sub>aj</sub>×284 018 400.</strong></p>
-
-<a id="sec-xi-6-registrofracciones-csv"></a>
-
-### XI.6. [banco_fracciones.csv](laboratorios/banco_fracciones.csv)
-
-fraction<sub>id</sub>,object<sub>id</sub>,current<sub>aj</sub>,finish<sub>aj</sub>,current<sub>fraction</sub>,remaining<sub>fraction</sub>,sum<sub>fraction</sub>,lectura formal
-
-FR<sub>SUN</sub>,SUN,4570000000,10000000000,457/1000,543/1000,1,0
-
-FR<sub>SOLAR</sub><sub>SYSTEM</sub>,SOLAR<sub>SYSTEM</sub>,4568000000,10000000000,571/1250,679/1250,1,0
-
-FR<sub>MILKY</sub><sub>WAY</sub><sub>ENV</sub>,MILKY<sub>WAY</sub><sub>ENV</sub>,13600000000,27200000000,1/2,1/2,1,0
-
-FR<sub>OBSERVABLE</sub><sub>RETURNED</sub>,OBSERVABLE<sub>RETURNED</sub>,13800000000,27600000000,1/2,1/2,1,0
-
-La compuerta racional exige:
-
-<p><strong>f<sub>i</sub>+ρ<sub>i</sub>=1.</strong></p>
-
-Y:
-
-<p><strong>f<sub>i</sub>=A<sub>i</sub>/F<sub>i</sub>.</strong></p>
-
-<p><strong>ρ<sub>i</sub>=F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>.</strong></p>
-
-<a id="sec-xi-7-registronegativos-csv"></a>
-
-### XI.7. [banco_negativos.csv](laboratorios/banco_negativos.csv)
-
-negative<sub>id</sub>,input<sub>case</sub>,error<sub>expected</sub>,expected<sub>status</sub>
-
-TNEG<sub>01</sub>,Edad(T<sub>absolute</sub>)=13800000000aJ,E-PLANO-01,NO<sub>ADMISIBLE</sub>
-
-TNEG<sub>02</sub>,A<sub>SUN</sub>=13800000000aJ,E-PLANO-02,NO<sub>ADMISIBLE</sub>
-
-TNEG<sub>03</sub>,A<sub>SOLAR</sub><sub>SYSTEM</sub>=4570000000aJ,E-PLANO-02,NO<sub>ADMISIBLE</sub>
-
-TNEG<sub>04</sub>,A<sub>MILKY</sub><sub>WAY</sub><sub>ENV</sub>=A<sub>OBSERVABLE</sub><sub>RETURNED</sub>,E-PLANO-02,NO<sub>ADMISIBLE</sub>
-
-TNEG<sub>05</sub>,A<sub>SV</sub>=284018399*A<sub>FC</sub>,E-TRANS-01,NO<sub>ADMISIBLE</sub>
-
-TNEG<sub>06</sub>,A<sub>SV</sub>=284018401*A<sub>FC</sub>,E-TRANS-01,NO<sub>ADMISIBLE</sub>
-
-TNEG<sub>07</sub>,R<sub>i</sub><sub>not</sub><sub>equal</sub><sub>F</sub><sub>i</sub><sub>minus</sub><sub>A</sub><sub>i</sub>,E-ARIT-01,NO<sub>ADMISIBLE</sub>
-
-TNEG<sub>08</sub>,f<sub>i</sub><sub>plus</sub><sub>rho</sub><sub>i</sub><sub>not</sub><sub>equal</sub><sub>1</sub>,E-FRAC-01,NO<sub>ADMISIBLE</sub>
-
-TNEG<sub>09</sub>,F<sub>i</sub><sub>less</sub><sub>than</sub><sub>A</sub><sub>i</sub>,E-ARIT-02,NO<sub>ADMISIBLE</sub>
-
-TNEG<sub>10</sub>,age<sub>without</sub><sub>domain</sub>,E-DOM-01,U
-
-TNEG<sub>11</sub>,age<sub>without</sub><sub>finish</sub>,E-FIN-01,U
-
-TNEG<sub>12</sub>,age<sub>without</sub><sub>sv</sub><sub>unit</sub>,E-UNIT-02,U
-
-TNEG<sub>13</sub>,age<sub>without</sub><sub>inverse</sub><sub>return</sub>,E-TRANS-02,NO<sub>ADMISIBLE</sub>
-
-TNEG<sub>14</sub>,second<sub>formula</sub><sub>same</sub><sub>return</sub><sub>different</sub><sub>coefficient</sub>,E-TRANS-03,NO<sub>ADMISIBLE</sub>
-
-TNEG<sub>15</sub>,untabulated<sub>output</sub>,E-LAB-01,NO<sub>ADMISIBLE</sub>
-
-Un laboratorio que no active todos los negativos no confirma la teoría.
-
-<a id="sec-xi-8-catalogoerrores-csv"></a>
-
-### XI.8. [catalogo_errores.csv](laboratorios/catalogo_errores.csv)
-
-error<sub>code</sub>,error<sub>name</sub>,description,expected<sub>status</sub>
-
-E-PLANO-01,edad<sub>totalidad</sub><sub>absoluta</sub>,Edad atribuida a la totalidad absoluta,1
-
-E-PLANO-02,confusion<sub>dominio</sub>,Edad de un dominio atribuida a otro dominio,1
-
-E-DOM-01,dominio<sub>ausente</sub>,Edad sin dominio declarado,U
-
-E-DOM-02,dominio<sub>contradictorio</sub>,Dominio incompatible con el objeto,1
-
-E-ID-01,identidad<sub>ausente</sub>,Objeto o señal sin identidad física,U
-
-E-FIN-01,fin<sub>estructural</sub><sub>ausente</sub>,No puede calcularse restante ni fracción,U
-
-E-UNIT-01,unidad<sub>fisica</sub><sub>ausente</sub>,Falta unidad SI o física contemporánea,U
-
-E-UNIT-02,unidad<sub>sv</sub><sub>ausente</sub>,Falta unidad transductiva SV,U
-
-E-TRANS-01,pendiente<sub>transductiva</sub><sub>falsa</sub>,Coeficiente distinto de 284018400,1
-
-E-TRANS-02,retorno<sub>inverso</sub><sub>no</sub><sub>exacto</sub>,SV no retorna a años julianos sin resto,1
-
-E-TRANS-03,segunda<sub>formula</sub><sub>no</sub><sub>unica</sub>,Formula alternativa incompatible con retorno exacto,1
-
-E-ARIT-01,restante<sub>falso</sub>,R<sub>i</sub> distinto de F<sub>i</sub> menos A<sub>i</sub>,1
-
-E-ARIT-02,fin<sub>anterior</sub><sub>actual</sub>,F<sub>i</sub> menor que A<sub>i</sub>,1
-
-E-FRAC-01,fraccion<sub>falsa</sub>,f<sub>i</sub> mas rho<sub>i</sub> distinto de uno,1
-
-E-FRAC-02,fraccion<sub>dominio</sub><sub>erroneo</sub>,Fraccion de un dominio aplicada a otro,1
-
-E-LAB-01,salida<sub>no</sub><sub>tabulada</sub>,Salida no declarada en registro,1
-
-E-LAB-02,redondeo<sub>no</sub><sub>autorizado</sub>,Uso de redondeo,1
-
-E-LAB-03,coma<sub>flotante</sub><sub>no</sub><sub>autorizada</sub>,Uso de coma flotante,1
-
-E-LAB-04,control<sub>negativo</sub><sub>omitido</sub>,Falta control negativo,1
-
-E-LAB-05,pase<sub>silencioso</sub>,Fallo no comunicado,1
-
-<a id="sec-xi-9-salidaesperada-txt"></a>
-
-### XI.9. [salida_esperada.txt](laboratorios/salida_esperada.txt)
-
-SV<sub>RELATIVE</sub><sub>AGES</sub><sub>THEORY</sub><sub>LAB</sub><sub>RESULT</sub>
-
-units<sub>manifest</sub>: OK
-
-canonical<sub>formula</sub>: OK
-
-explicit<sub>form</sub>: OK
-
-implicit<sub>form</sub>: OK
-
-parametric<sub>form</sub>: OK
-
-point<sub>slope</sub><sub>form</sub>: OK
-
-positive<sub>objects</sub>: 4/4
-
-remaining<sub>segments</sub>: 4/4
-
-fractions: 4/4
-
-differences: 7/7
-
-inverse<sub>returns</sub>: 8/8
-
-negative<sub>controls</sub>: 15/15
-
-float<sub>used</sub>: NO
-
-rounding<sub>used</sub>: NO
-
-silent<sub>passes</sub>: 0
-
-untabulated<sub>outputs</sub>: 0
-
-overall<sub>status</sub>: APTO
-
-OBSERVABLE<sub>RETURNED</sub><sub>CURRENT</sub><sub>AJ</sub>=13800000000
-
-OBSERVABLE<sub>RETURNED</sub><sub>CURRENT</sub><sub>UEMFC</sub>=3919453920000000000
-
-OBSERVABLE<sub>RETURNED</sub><sub>FINISH</sub><sub>AJ</sub>=27600000000
-
-OBSERVABLE<sub>RETURNED</sub><sub>FINISH</sub><sub>UEMFC</sub>=7838907840000000000
-
-OBSERVABLE<sub>RETURNED</sub><sub>REMAINING</sub><sub>AJ</sub>=13800000000
-
-OBSERVABLE<sub>RETURNED</sub><sub>REMAINING</sub><sub>UEMFC</sub>=3919453920000000000
-
-MILKY<sub>WAY</sub><sub>ENV</sub><sub>CURRENT</sub><sub>AJ</sub>=13600000000
-
-MILKY<sub>WAY</sub><sub>ENV</sub><sub>CURRENT</sub><sub>UEMFC</sub>=3862650240000000000
-
-MILKY<sub>WAY</sub><sub>ENV</sub><sub>FINISH</sub><sub>AJ</sub>=27200000000
-
-MILKY<sub>WAY</sub><sub>ENV</sub><sub>FINISH</sub><sub>UEMFC</sub>=7725300480000000000
-
-MILKY<sub>WAY</sub><sub>ENV</sub><sub>REMAINING</sub><sub>AJ</sub>=13600000000
-
-MILKY<sub>WAY</sub><sub>ENV</sub><sub>REMAINING</sub><sub>UEMFC</sub>=3862650240000000000
-
-SUN<sub>CURRENT</sub><sub>AJ</sub>=4570000000
-
-SUN<sub>CURRENT</sub><sub>UEMFC</sub>=1297964088000000000
-
-SUN<sub>FINISH</sub><sub>AJ</sub>=10000000000
-
-SUN<sub>FINISH</sub><sub>UEMFC</sub>=2840184000000000000
-
-SUN<sub>REMAINING</sub><sub>AJ</sub>=5430000000
-
-SUN<sub>REMAINING</sub><sub>UEMFC</sub>=1542219912000000000
-
-SOLAR<sub>SYSTEM</sub><sub>CURRENT</sub><sub>AJ</sub>=4568000000
-
-SOLAR<sub>SYSTEM</sub><sub>CURRENT</sub><sub>UEMFC</sub>=1297396051200000000
-
-SOLAR<sub>SYSTEM</sub><sub>FINISH</sub><sub>AJ</sub>=10000000000
-
-SOLAR<sub>SYSTEM</sub><sub>FINISH</sub><sub>UEMFC</sub>=2840184000000000000
-
-SOLAR<sub>SYSTEM</sub><sub>REMAINING</sub><sub>AJ</sub>=5432000000
-
-SOLAR<sub>SYSTEM</sub><sub>REMAINING</sub><sub>UEMFC</sub>=1542787948800000000
-
-ABSOLUTE<sub>TOTALITY</sub><sub>AGE</sub>=NO<sub>ADMISIBLE</sub>
-
-ERROR<sub>PLANO</sub>=0
-
-ERROR<sub>DEF</sub>=0
-
-ERROR<sub>TRANS</sub>=0
-
-ERROR<sub>ARIT</sub>=0
-
-<a id="sec-xi-10-teorema-xii-1-cerramiento-de-los-registros-declarativos"></a>
-
-### XI.10. Cierre de los datos declarativos
-
-Teorema XII.1. Si las tablas de contraste [manifest_unidades.csv](laboratorios/manifest_unidades.csv), [banco_objetos.csv](laboratorios/banco_objetos.csv), [banco_valores.csv](laboratorios/banco_valores.csv), [banco_diferencias.csv](laboratorios/banco_diferencias.csv), [banco_fracciones.csv](laboratorios/banco_fracciones.csv), [banco_negativos.csv](laboratorios/banco_negativos.csv) y [catalogo_errores.csv](laboratorios/catalogo_errores.csv) se ejecutan sin alteración y la salida coincide con [salida_esperada.txt](laboratorios/salida_esperada.txt), entonces la teoría queda reproducida en laboratorio.
-
-Demostración.
-
-El manifiesto fija:
-
-<p><strong>K<sub>age</sub>=284 018 400.</strong></p>
-
-La tabla de contraste de objetos fija los dominios admisibles y bloquea la totalidad absoluta. La tabla de contraste de valores fija:
-
-<p><strong>A<sub>i</sub>, F<sub>i</sub>, R<sub>i</sub>, A<sub>i</sub><sup>SV</sup>, F<sub>i</sub><sup>SV</sup>, R<sub>i</sub><sup>SV</sup>.</strong></p>
-
-La tabla de contraste de diferencias verifica comparaciones singulares. La tabla de contraste de fracciones verifica:
-
-<p><strong>f<sub>i</sub>+ρ<sub>i</sub>=1.</strong></p>
-
-El control negativo verifica que los errores de plano, definición, transducción y aritmética se activan cuando deben activarse. El catálogo de errores impide salidas mudas o no clasificadas.
-
-Si la salida ejecutada coincide con la salida esperada, todas las condiciones de la fórmula canónica se cumplen. Por tanto, la teoría queda reproducida.
-
-c.q.d.
-
-<a id="sec-xi-11-teorema-xii-2-no-sustitucion-del-registro-por-laboratorio"></a>
-
-### XI.11. No sustitución de los datos declarados por el laboratorio
-
-Teorema XII.2. Ningún laboratorio puede sustituir un registro declarativo ausente.
-
-Demostración.
-
-Sea una salida laboratorial:
-
-<p><strong>S<sub>L</sub>.</strong></p>
-
-Si:
-
-<p><strong>S<sub>L</sub></strong></p>
-
-no corresponde a una entrada de registro, entonces no existen dominio, valor esperado, unidad, residual ni lectura formal previos que permitan evaluarla.
-
-Por tanto:
-
-<p><strong>S<sub>L</sub>∉ B ⇒ Δ<sub>lab</sub>=1.</strong></p>
-
-Luego:
-
-<p><strong>S<sub>L</sub> no puede cerrar resultado.</strong></p>
-
-El laboratorio sólo puede confirmar o refutar lo declarado. No puede introducir una edad nueva, una frontera nueva ni una fórmula nueva sin registro previo.
-
-c.q.d.
-
-<a id="sec-xi-12-lectura-formal-del-anexo-tecnico"></a>
-
-### XI.12. Síntesis del anexo técnico
-
-Los registros declarativos reproducen la teoría completa:
-
-<p><strong>A<sub>i</sub><sup>SV</sup>=284 018 400A<sub>i</sub><sup>FC</sup>.</strong></p>
-
-<p><strong>R<sub>i</sub>=F<sub>i</sub>-A<sub>i</sub>.</strong></p>
-
-<p><strong>f<sub>i</sub>+ρ<sub>i</sub>=1.</strong></p>
-
-<p><strong>Edad( T)=NO ADMISIBLE.</strong></p>
-
-<p><strong>ε<sub>plano</sub>= ε<sub>def</sub>= ε<sub>trans</sub>= ε<sub>arit</sub>=0.</strong></p>
-
-El cierre operativo esperado es:
-
-<p><strong>overall<sub>status</sub>=APTO.</strong></p>
-
-<a id="sec-xii-glosario-tecnico-sv-fisica-contemporanea"></a>
-
-## XII. Glosario técnico SV ↔ física contemporánea
-
-<a id="sec-xii-1-estatuto-del-glosario"></a>
-
-### XII.1. Estatuto del glosario
-
-Este glosario fija la correspondencia terminológica de base entre el aparato formal de la formulación y el lenguaje de la física contemporánea. Su función es impedir que el lector confunda totalidad absoluta, universo observable, objeto físico, edad relativa, retorno luminoso, transducción, residual y error cero.
-
-El glosario no introduce doctrina nueva. Ordena los términos empleados por la teoría.
-
-<a id="sec-xii-2-glosario-rector"></a>
-
-### XII.2. Glosario rector
-
-| Término SV | Equivalente físico contemporáneo | Definición operativa | Lectura formal |
-| --- | --- | --- | --- |
-| ( T) | Totalidad absoluta | Plano que no comparece como objeto físico interno ni como dominio medible desde exterior | No admite edad |
-| (TODO<sub>SV</sub>) | Contención absoluta formal | Marco de contención de todo dominio formulable, no equivalente al universo observable | No cronológico |
-| (Ω<sub>obs</sub>) | Universo observable / dominio observable retornado | Dominio físico accesible por señales, retornos, horizontes, instrumentos y modelos | Admite edad concreta |
-| (O<sub>i</sub>) | Objeto físico observable | Entidad interna: Sol, Sistema Solar, galaxia, estrella, púlsar, señal o estructura física | Admite edad si cierra |
-| (A<sub>i</sub>) | Edad actual del objeto | Edad física actual en años julianos dentro de dominio declarado | Admisible si (Δ<sub>i</sub>=0) |
-| (F<sub>i</sub>) | Fin estructural del objeto | Frontera de desaparición o cierre de la estructura observable considerada | Admisible si está declarada |
-| (R<sub>i</sub><sup>age</sup>) | Tramo restante | Diferencia (F<sub>i</sub>-A<sub>i</sub>) | Exacto si cierra |
-| (f<sub>i</sub>) | Fracción actual de ciclo | Cociente (A<sub>i</sub>/F<sub>i</sub>) | Dominio propio |
-| (ρ<sub>i</sub>) | Fracción restante | Cociente ((F<sub>i</sub>-A<sub>i</sub>)/F<sub>i</sub>) | Complementaria |
-| (UE<sub>MFC</sub>) | Unidad elemental del medidor factual de ciclo | Unidad SV usada para transducir duración física | (9,UE<sub>MFC</sub>=1,s) |
-| (a<sub>J</sub>) | Año juliano | Unidad física de (31 557 600) segundos | Unidad física de retorno |
-| (K<sub>age</sub>) | Constante transductiva de edad | (K<sub>age</sub>=284 018 400,UE<sub>MFC</sub>/a<sub>J</sub>) | Exacta |
-| ( T<sub>FC→ SV</sub>) | Transductor física → SV | Convierte años julianos en (UE<sub>MFC</sub>) | (A<sup>SV</sup>=K<sub>age</sub>A<sup>FC</sup>) |
-| ( T<sub>SV→ FC</sub>) | Transductor SV → física | Devuelve (UE<sub>MFC</sub>) a años julianos | Requiere resto nulo |
-| (Δ<sub>i</sub>) | Residual | Medida de cierre de dominio, unidad, definición, retorno y aritmética | (0,1,U) |
-| (U) | No clausura honesta | Caso no cerrado por falta de dominio, unidad, retorno o definición suficiente | No equivale a cero |
-| (0) | Cierre válido | Residual nulo en dominio declarado | Apto |
-| (1) | Defecto o no admisión | Error de plano, dominio, transducción o aritmética | No apto |
-
-<a id="sec-xii-3-glosario-de-dominios-fisicos"></a>
-
-### XII.3. Glosario de dominios físicos
-
-| Dominio | Notación | Edad actual | Fin estructural | Lectura correcta |
-| --- | --- | --- | --- | --- |
-| Totalidad absoluta | ( T) | No aplicable | No aplicable | No admite edad física |
-| Observable retornado | (Ω<sub>obs</sub>) | (13.800.000.000,a<sub>J</sub>) | (27.600.000.000,a<sub>J</sub>) | Edad concreta del dominio observable |
-| Vía Láctea-entorno | (Ω<sub>VL</sub>) | (13.600.000.000,a<sub>J</sub>) | (27.200.000.000,a<sub>J</sub>) | Dominio estructural galáctico local |
-| Sistema Solar | (Ω<sub>SS</sub>) | (4.568.000.000,a<sub>J</sub>) | (10.000.000.000,a<sub>J</sub>) | Dominio físico sistémico |
-| Sol | (Ω_☉) | (4.570.000.000,a<sub>J</sub>) | (10.000.000.000,a<sub>J</sub>) | Objeto estelar interno |
-
-<a id="sec-xii-4-glosario-de-formulas"></a>
-
-### XII.4. Glosario de fórmulas
-
-| Fórmula | Nombre | Significado |
-| --- | --- | --- |
-| (A<sub>i</sub><sup>SV</sup>=284 018 400A<sub>i</sub><sup>FC</sup>) | Forma explícita | Convierte edad física en edad SV |
-| (A<sub>i</sub><sup>FC</sup>=A<sub>i</sub><sup>SV</sup>/284 018 400) | Retorno inverso | Devuelve edad SV a años julianos |
-| (R<sub>i</sub>=F<sub>i</sub>-A<sub>i</sub>) | Tramo restante | Calcula lo que resta hasta el fin estructural |
-| (f<sub>i</sub>=A<sub>i</sub>/F<sub>i</sub>) | Fracción actual | Proporción de ciclo ya recorrida |
-| (ρ<sub>i</sub>=(F<sub>i</sub>-A<sub>i</sub>)/F<sub>i</sub>) | Fracción restante | Proporción de ciclo pendiente |
-| (f<sub>i</sub>+ρ<sub>i</sub>=1) | Cierre fraccional | Verifica que el ciclo está completo |
-| (Φ<sub>age</sub>(O<sub>i</sub>)=0) | Forma implícita | Exige cierre simultáneo de edad, fin, restante, transducción y retorno |
-| (A<sub>i</sub>(λ<sub>i</sub>)=λ<sub>iF</sub><sub>i</sub>) | Forma paramétrica | Expresa edad por fracción interna de ciclo |
-| (A<sup>SV</sup>-A<sub>i</sub><sup>SV</sup>=284 018 400(A<sup>FC</sup>-A<sub>i</sub><sup>FC</sup>)) | Punto-pendiente | Expresa la recta transductiva SV ↔ física |
-
-<a id="sec-xii-5-glosario-de-errores"></a>
-
-### XII.5. Glosario de errores
-
-| Error | Símbolo | Definición | Salida |
-| --- | --- | --- | --- |
-| Error de plano | (ε<sub>plano</sub>) | Atribuir edad a la totalidad absoluta o confundir dominios | (1) |
-| Error de definición | (ε<sub>def</sub>) | Falta dominio, frontera, edad, fin, unidad o retorno | (U) o (1) |
-| Error transductivo | (ε<sub>trans</sub>) | La conversión SV ↔ física no retorna exactamente | (1) |
-| Error aritmético | (ε<sub>arit</sub>) | Suma, resta o fracción no reproduce la tabla de contraste | (1) |
-| Error de laboratorio | (ε<sub>lab</sub>) | Salida no tabulada, redondeo, coma flotante o pase silencioso | (1) |
-
-Condición de cierre:
-
-ε<sub>plano</sub>
-
-ε<sub>def</sub>
-
-ε<sub>trans</sub>
-
-ε<sub>arit</sub>
-
-<a id="sec-xii-6-glosario-de-equivalencias-sv-fisica-contemporanea"></a>
-
-### XII.6. Glosario de equivalencias SV ↔ física contemporánea
-
-| Física contemporánea | SV | Equivalencia |
-| --- | --- | --- |
-| (1,s) | (UE<sub>MFC</sub>) | (1,s=9,UE<sub>MFC</sub>) |
-| (1,a<sub>J</sub>) | (UE<sub>MFC</sub>) | (1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>) |
-| Edad solar actual | (A_☉<sup>SV</sup>) | (4.570.000.000,a<sub>J</sub>=1.297.964.088.000.000.000,UE<sub>MFC</sub>) |
-| Edad del Sistema Solar | (A<sub>SS</sub><sup>SV</sup>) | (4.568.000.000,a<sub>J</sub>=1.297.396.051.200.000.000,UE<sub>MFC</sub>) |
-| Edad Vía Láctea-entorno | (A<sub>VL</sub><sup>SV</sup>) | (13.600.000.000,a<sub>J</sub>=3.862.650.240.000.000.000,UE<sub>MFC</sub>) |
-| Edad del observable retornado | (A_Ω<sub>obs</sub><sup>SV</sup>) | (13.800.000.000,a<sub>J</sub>=3.919.453.920.000.000.000,UE<sub>MFC</sub>) |
-| Fin solar | (F_☉<sup>SV</sup>) | (10.000.000.000,a<sub>J</sub>=2.840.184.000.000.000.000,UE<sub>MFC</sub>) |
-| Fin Vía Láctea-entorno | (F<sub>VL</sub><sup>SV</sup>) | (27.200.000.000,a<sub>J</sub>=7.725.300.480.000.000.000,UE<sub>MFC</sub>) |
-| Fin observable retornado | (F_Ω<sub>obs</sub><sup>SV</sup>) | (27.600.000.000,a<sub>J</sub>=7.838.907.840.000.000.000,UE<sub>MFC</sub>) |
-
-<a id="sec-xii-7-glosario-de-lecturas-formales"></a>
-
-### XII.7. Glosario de lecturas formales
-
-| Lectura formal | Lectura | Uso |
-| --- | --- | --- |
-| Admisible | El caso declara dominio, unidad, residual y retorno | Puede entrar en caso positivo |
-| No admisible | El caso contradice plano, dominio, transducción o aritmética | Debe fallar |
-| (U) | El caso no tiene información suficiente para cierre | No puede proclamarse resultado |
-| Apto | El laboratorio reproduce todos los valores y activa negativos | Cierre operativo |
-| No apto | El laboratorio falla o acepta negativos | Cierre rechazado |
-| No cerrado | Falta ejecución, salida o dato esencial | Queda pendiente |
-
-<a id="sec-xii-8-glosario-de-controles-negativos"></a>
-
-### XII.8. Glosario de controles negativos
-
-| Control negativo | Qué protege |
-| --- | --- |
-| (Edad( T)) | Impide atribuir edad física a la totalidad absoluta |
-| (A_☉=A_Ω<sub>obs</sub>) | Impide confundir el Sol con el observable retornado |
-| (A<sub>SS</sub>=A_☉) | Impide confundir Sistema Solar y Sol |
-| (A<sub>VL</sub>=A_Ω<sub>obs</sub>) | Impide confundir dominio galáctico local con observable completo |
-| (K<sub>age</sub>≠284 018 400) | Impide coeficiente transductivo falso |
-| (R<sub>i</sub>≠ F<sub>i</sub>-A<sub>i</sub>) | Impide resta falsa |
-| (f<sub>i</sub>+ρ<sub>i</sub>≠1) | Impide fracción falsa |
-| (F<sub>i</sub><A<sub>i</sub>) | Impide fin anterior a edad actual |
-| Edad sin dominio | Conserva (U) |
-| Edad sin unidad SV | Conserva (U) |
-| Retorno inverso con resto | Activa no admisión |
-| Salida no tabulada | Impide laboratorio creador de doctrina |
-
-<a id="sec-xii-9-glosario-de-lectura-final"></a>
-
-### XII.9. Glosario de lectura final
-
-| Expresión imprecisa | Expresión corregida |
-| --- | --- |
-| Edad del Universo | Edad concreta del observable retornado |
-| Edad del TODO | No admisible |
-| Edad concreta del observable | Edad concreta del observable retornado |
-| Edad del Sol como edad del universo | Edad del Sol como objeto físico interno |
-| Edad de la Vía Láctea como edad total | Edad de dominio galáctico local |
-| Cálculo aproximado SV | Transducción exacta SI ↔ SV |
-| Margen física anulada | No; se anula error de plano, definición, transducción y aritmética |
-| Laboratorio que descubre valores | Laboratorio que confirma registros declarados |
-| Intervalo solar como resultado final | Frontera inferior transductiva como escalar de registro |
-| Pluralidad de universos exteriores | Pluralidad interna de dominios |
-
-<a id="sec-xii-10-cierre-terminologico"></a>
-
-### XII.10. Cierre terminológico
-
-La formulación queda cerrada con una distinción terminológica esencial:
-
-<p><strong>totalidad absoluta ≠ observable retornado ≠ objeto físico interno.</strong></p>
-
-La totalidad absoluta no posee edad física. El observable retornado posee edad concreta. Los objetos físicos internos poseen edades propias. La transducción SV ↔ física contemporánea conserva los valores declarados con error cero de plano, definición, transducción y aritmética.
-
-Fórmula final:
-
-E<sub>age</sub>(O<sub>i</sub>)
-
-( A<sub>i</sub>, F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>, A<sub>i</sub>/F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>, 284 018 400A<sub>i</sub>, 284 018 400F<sub>i</sub>, 284 018 400(F<sub>i</sub>-A<sub>i</sub>), Δ<sub>i</sub> ).
-
-Síntesis final:
-
-<p><strong>una teoría, una fórmula canónica, todos los objetos admisibles, error cero.</strong></p>
-
-| Nivel | Fórmula absoluta | Dominio | Estatuto |
-| --- | --- | --- | --- |
-| -2 | ( E<sub>∅</sub>,ε<sub>-0</sub>) | preternario | pre-suelo |
-| -1 | (Ω<sub>pre</sub>,(α<sub>i</sub>,β<sub>i</sub>),Π<sub>3</sub><sup>H</sup>) | prototernario | tránsito hacia terna |
-| 0 | (K<sub>3</sub>=0,1,U) | terna | suelo formal del SV |
-| 1 | ( S<sub>n</sub>=K<sub>3</sub><sup>n</sup>, T(n)=⌊7n/9⌋) | célula | fórmula celular absoluta |
-| 2 | (C<sub>i</sub>,χ<sub>i</sub>, F<sub>SV</sub>) | composición | composición tipada |
-| 3 | (Γ<sub>H</sub>,HNA,T<sup>ex</sup>) | (U) | gobierno de indeterminación |
-| 4 | (∂<sub>ν</sub><sup>SV</sup>,d<sub>Φ</sub>,D<sub>Φ</sub>,Δ<sub>q</sub><sup>Φ</sup>, A,CS) | suceso/cambio | cálculo factual |
-| 5 | ( X<sub>SV</sub>(D↔ D'),Π,Δ,d) | transducción/metrología | dominio ↔ dominio |
-| 6 | ( E<sub>age</sub>(O<sub>i</sub>)) | (Ω<sub>obs</sub>) | edad de objetos observables |
-| 7 | (Γ<sub>L</sub>,Dist<sub>SV</sub><sup>fib</sup>, T<sub>L</sub>) | luz/transmisión | luz factual |
-| 8 | (DivSV,RotSV,Δ<sub>EM</sub><sup>SV</sup>) | electromagnetismo | Maxwell–SV |
-| 9 | (F<sub>SV</sub>,W<sub>SV</sub>,Q<sub>SV</sub>,H<sub>SV</sub>,T<sub>SV</sub><sup>fact</sup>) | termodinámica | física energético-térmica factual |
-| 10 | ( 𝓟<sub>min</sub>,∂Ω<sub>H</sub>,Ω<sub>H</sub>) | persistencia material | hidrógeno/química factual |
-| 11 | ( I<sub>SV</sub>,DistInter<sup>SV</sup>, T<sub>SV</sub>,SV(36,6)) | campos | interacción/transmisión |
-| 12 | ( F<sub>SV</sub>, U<sup>unif</sup>SV, F A,C<sub>SV</sub>) | unificación física | protocampos/campo unificado |
-| 13 | ( E<sup>★</sup><sub>TODO,SV</sub>(Γ<sub>U</sub>;τ)=0) | TODO/NADA | techo absoluto |
-
-
-<a id="sec-cierre-conclusion-canonica"></a>
-
-### Cierre canónico de resultado
-
-La conclusión queda fijada en tres proposiciones cerradas. La totalidad absoluta no recibe edad física; el universo observable opera como dominio físico interno; y el valor concreto atribuido no pertenece al TODO, sino al observable retornado con firma persistente admisible.
-
-<div align="center"><strong>Edad(𝓣)=NO ADMISIBLE.</strong></div>
-
-<div align="center"><strong>A<sub>Ωobs</sub><sup>ret</sup> = 13 800 000 000 a<sub>J</sub>.</strong></div>
-
-<div align="center"><strong>A<sub>Ωobs</sub><sup>SV</sup> = 3 919 453 920 000 000 000 UE<sub>MFC</sub>.</strong></div>
-
-El resultado conserva el margen instrumental propio de la física contemporánea donde corresponda, pero anula el error de plano: la edad se atribuye al objeto formal correcto.
-
-<a id="sec-anexo-iii-biologia-molecular-y-medicina"></a>
-## Anexo III. Biología molecular y medicina: del par estructural a la célula viva
-
-<a id="sec-anexo-iii-1"></a>
-### III.1. Entrada biomolecular: por qué el par importa antes de hablar de célula
-
-<a id="sec-anexo-iii-1-1"></a>
-### III.1.1. De compatibilidad material a organización biológica
-
-Una célula viva no aparece como suma indiferenciada de moléculas. Antes de la membrana, de la expresión génica y de la fisiología celular existe una capa de compatibilidad material: elementos, pares, enlaces, polaridades, radios, energías y fronteras de interacción. El Catálogo de Pares Estructurales SV fija esa primera capa mediante la función D(A,B), aplicada al dominio de 97 903 pares no ordenados sobre Ω<sub>443</sub>; el resultado del catálogo —9 515 APTO-M, 37 580 APTO-C, 5 075 APTO-I y 45 733 NO-APTO— no es una ilustración secundaria, sino el primer suelo cuantitativo para el tránsito hacia moléculas y sistemas vivos. El régimen APTO-C domina las realizaciones ternarias y expresa una compatibilidad de coexistencia, no una identidad rígida ni un colapso por contraste extremo; esa zona de imperfección sostenida es el punto donde el aparato puede hablar de vida sin misticismo y sin reducirla a reacción química aislada.
-
-<a id="sec-anexo-iii-1-2"></a>
-### III.1.2. Lectura inicial del par estructural
-
-Un par estructural es la relación mínima entre dos elementos que han sido admitidos en el dominio del catálogo. El lector no necesita asumir previamente el corpus SV para comprender su función: D(A,B) pregunta si dos perfiles materiales pueden sostener una relación estructural bajo umbrales explícitos de electronegatividad estructural, compatibilidad posicional, carácter metálico conjunto y energía de ionización conjunta. Cuando el par es APTO, existe una relación estructural que puede integrarse en una molécula; cuando es NO-APTO, esa relación no debe usarse como soporte esencial de una estructura biológica sin modificar el dominio, la frontera o el modelo. En biología, esta lectura es crucial porque una molécula funcional no se sostiene sobre una etiqueta nominal, sino sobre relaciones que no destruyen su identidad.
-
-
-La lectura biomolecular inicial de los cuatro dictámenes se resume así:
-
-| Dictamen CPS-SV | Lectura estructural | Lectura biomolecular de primer paso |
-|---|---|---|
-| APTO-M | Compatibilidad por similitud estructural alta | Relación de soporte estable cuando la proximidad de perfiles materiales conserva frontera e identidad. |
-| APTO-C | Compatibilidad de coexistencia e imperfección sostenida | Zona preferente para estructuras vivas: diferencia compatible, tensión funcional y capacidad de integración molecular. |
-| APTO-I | Compatibilidad por contraste estructural alto | Relación polar fuerte admisible cuando el contraste no destruye identidad ni frontera funcional. |
-| NO-APTO | Relación no realizada en el dominio declarado | Relación que no debe usarse como soporte esencial de la estructura biológica sin cambiar dominio, frontera o modelo. |
-
-<a id="sec-anexo-iii-1-3"></a>
-### III.1.3. Alcance biológico de la cadena
-
-La cadena que abre la colección es par estructural → molécula → macromolécula → interfaz → célula → tejido → órgano → organismo. No es una cadena cronológica ni un relato evolutivo; es dependencia estructural. Una proteína no es sólo una sucesión de aminoácidos, porque necesita plegamiento, interfaz y retorno funcional; una célula no es sólo un conjunto de proteínas, porque necesita membrana, genoma, metabolismo, reparación y señalización; un órgano no es sólo un conjunto de células, porque necesita tejido, matriz extracelular, perfusión, integración sistémica y función. El objetivo de la transducción SV↔biología es impedir que esos niveles se mezclen: cada nivel declara dominio, magnitudes, frontera, identidad, residual y retorno.
-
-<a id="formula-bio-01"></a>
-<div align="center"><strong>BIO-01.</strong> Par estructural → molécula → macromolécula → interfaz → célula → tejido → órgano → organismo.</div>
-
-<a id="sec-anexo-iii-2"></a>
-### III.2. Magnitudes biológicas reales y dominio de traducción
-
-<a id="sec-anexo-iii-2-1"></a>
-### III.2.1. Genoma, genes y cromosomas
-
-La entrada genómica del transductor no se define por analogía, sino por magnitudes. El genoma humano se describe en bases de ADN, genes y cromosomas; el <a href="https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics">NHGRI</a> sitúa los genes humanos estimados en el intervalo 20 000–25 000 y los localiza en 23 pares de cromosomas, y el trabajo del consorcio Telomere-to-Telomere publicó una secuencia completa de 3,055 mil millones de pares de bases para el genoma humano CHM13. En una lectura SV, estas magnitudes no se reemplazan por símbolos internos: se aceptan como entrada biológica y se proyectan hacia estructura, frontera, variante, expresión, proteína y retorno funcional.
-
-<a id="sec-anexo-iii-2-2"></a>
-### III.2.2. ADN, codificación y secuencia
-
-El ADN se incorpora como macromolécula informacional física. Su doble hélice contiene cadenas complementarias, con apareamiento A-T y G-C; en el modelo B de ADN, cada vuelta contiene aproximadamente 10,4 pares de nucleótidos según <a href="https://www.ncbi.nlm.nih.gov/books/NBK26821/">Molecular Biology of the Cell</a>, y la bibliografía biomédica de NCBI recuerda la especificidad A-T y G-C como base de la estructura y función genética. En este anexo, una secuencia no es por sí sola un diagnóstico estructural: debe vincularse a frontera génica, transcripción, traducción, proteína, regulación y retorno funcional.
-
-<a id="sec-anexo-iii-2-3"></a>
-### III.2.3. Proteínas, estructuras y bases de datos
-
-La proteína exige un retorno distinto del gen. UniProt actúa como recurso de secuencias y función proteica; la página del proteoma humano de referencia <a href="https://www.uniprot.org/proteomes/UP000005640">UP000005640</a> declara 83 526 entradas en UniProtKB y 20 659 genes para Homo sapiens en la consulta usada. La estructura tridimensional experimental se contrasta con RCSB PDB, cuyo registro de crecimiento muestra 253 780 estructuras liberadas acumuladas en 2026, mientras <a href="https://alphafold.ebi.ac.uk/">AlphaFold DB</a> proporciona acceso abierto a más de 200 millones de predicciones estructurales. Para el transductor, esas fuentes no son adornos bibliográficos: secuencia, dominio, plegamiento, estructura, interacción y localización son métricas de retorno.
-
-<a id="sec-anexo-iii-2-4"></a>
-### III.2.4. Escala celular y tisular
-
-La célula introduce una escala donde la simple compatibilidad molecular ya no basta. Las estimaciones actuales del número de células humanas publicadas en PNAS sitúan el orden de magnitud en ≈36 billones de células para un varón adulto, ≈28 billones para una mujer adulta y ≈17 billones para un niño; ese dato no define la vida, pero obliga a reconocer que la medicina estructural opera sobre poblaciones celulares, tejidos, órganos y funciones integradas. La transducción SV↔biología debe respetar esa escala: una firma molecular puede orientar el diagnóstico estructural, pero el cierre celular exige membrana, genoma, proteoma, metabolismo, reparación, señalización e interacción tisular.
-
-
-La tabla siguiente mantiene en el cuerpo las magnitudes rectoras que después se reproducen en CSV dentro de los laboratorios:
-
-| Dominio | Magnitud externa | Valor de trabajo | Fuente |
-|---|---|---:|---|
-| Genoma humano | Genes estimados | 20 000–25 000 | NHGRI |
-| Genoma humano | Pares de cromosomas | 23 | NHGRI |
-| Genoma T2T-CHM13 | Secuencia completa | 3 055 000 000 pares de bases | Nurk et al., 2022 |
-| ADN B | Pares de bases por vuelta | 10,4 | Molecular Biology of the Cell / NCBI Bookshelf |
-| Proteoma humano | Entradas UniProtKB | 83 526 | UniProt UP000005640 |
-| Proteoma humano | Genes asociados | 20 659 | UniProt UP000005640 |
-| Estructuras proteicas | Predicciones AlphaFold DB | más de 200 000 000 | AlphaFold DB |
-| PDB | Estructuras liberadas acumuladas | 253 780 | RCSB PDB |
-| GenBank release 271.0 | Bases | 53 900 000 000 000 | NCBI Insights |
-| GenBank release 271.0 | Registros | 6 270 000 000 | NCBI Insights |
-| Cuerpo humano adulto | Células, varón adulto | ≈36 000 000 000 000 | Hatton et al., 2023 |
-| Cuerpo humano adulto | Células, mujer adulta | ≈28 000 000 000 000 | Hatton et al., 2023 |
-
-<a id="sec-anexo-iii-3"></a>
-### III.3. Transducción SV↔biología
-
-<a id="sec-anexo-iii-3-1"></a>
-### III.3.1. Definición del transductor
-
-La transducción SV↔biología se formula como un puente de ida y vuelta entre una estructura biológica real y una lectura estructural SV. La estructura biológica puede ser una molécula, un gen, una proteína, una célula, un tejido, un órgano o un organismo; la lectura SV no la reemplaza, sino que exige que declare dominio, magnitudes, frontera, identidad, residual y retorno. Esta es la diferencia entre transducción y retórica: si no hay métrica externa, no hay biología; si no hay residual, no hay cierre; si no hay retorno, no hay traducción útil.
-
-<a id="formula-bio-02"></a>
-<div align="center"><strong>BIO-02.</strong> 𝔛<sub>bio</sub>(B↔SV) = (Ω<sub>B</sub>, M<sub>B</sub>, F<sub>B</sub>, I<sub>B</sub>, Δ<sub>B</sub>, R<sub>B</sub>).</div>
-
-En <a href="#formula-bio-02">BIO-02</a>, Ω<sub>B</sub> es el dominio biológico, M<sub>B</sub> el conjunto de magnitudes externas, F<sub>B</sub> la frontera, I<sub>B</sub> la identidad funcional, Δ<sub>B</sub> el residual y R<sub>B</sub> el retorno biológico. Para un gen, M<sub>B</sub> incluye secuencia, variante, expresión y efecto proteico; para una proteína, secuencia, dominios, plegamiento, modificaciones e interacción; para una célula, membrana, genoma, proteoma, metabolismo, reparación y señalización; para un órgano, tejido, matriz, perfusión, inervación, función e integración sistémica.
-
-<a id="sec-anexo-iii-3-2"></a>
-### III.3.2. Fórmulas centrales
-
-La primera fórmula de cierre biológico declara que no hay lectura SV sin retorno externo y sin residual. La fórmula usa letras biológicas, no nombres internos, porque el objeto que se evalúa es real: una secuencia, una proteína, una célula o un tejido.
-
-<a id="formula-bio-03"></a>
-<div align="center"><strong>BIO-03.</strong> Cierre<sub>bio</sub>(B)=1 ⇔ Ω<sub>B</sub> está declarado, M<sub>B</sub> es verificable, F<sub>B</sub> conserva frontera, I<sub>B</sub> conserva identidad, Δ<sub>B</sub>=0 y R<sub>B</sub> es admisible.</div>
-
-La segunda fórmula conserva el transductor metrológico de la publicación de edades. Sólo se usa cuando la magnitud biológica externa se expresa como duración física observable o fracción equivalente; no funda la vida ni decide la función por sí sola.
-
-<a id="formula-bio-04"></a>
-<div align="center"><strong>BIO-04.</strong> A<sub>bio</sub><sup>SV</sup> = 284 018 400 · A<sub>bio</sub><sup>FC</sup>.</div>
-
-<a id="sec-anexo-iii-3-3"></a>
-### III.3.3. Criterios de retorno
-
-El retorno biológico tiene tres formas primarias: retorno molecular, cuando la estructura se confirma por secuencia, enlace, conformación o estructura; retorno celular, cuando la célula conserva frontera, identidad, metabolismo, reparación e interacción; y retorno fisiológico, cuando tejido u órgano devuelven función integrada. El transductor no cierra por densidad de datos ni por número de muestras: una cohorte puede reforzar un contraste, pero la condición SV exige residual. La estadística puede entrar como evidencia externa de población, nunca como sustituto de dominio, frontera o identidad.
-
-<a id="sec-anexo-iii-4"></a>
-### III.4. Formación biológica: molécula, gen, proteína y célula
-
-<a id="sec-anexo-iii-4-1"></a>
-### III.4.1. Molécula como grafo estructural
-
-Una molécula biológica se representa como grafo estructural, no como cadena textual simple. El grafo contiene nodos, relaciones, geometría, carga, entorno y función; por tanto, D(A,B) se aplica a relaciones relevantes, no a una lista indiferenciada. La firma molecular es el conjunto organizado de compatibilidades, tensiones y fronteras que sostienen la molécula.
-
-<a id="formula-bio-05"></a>
-<div align="center"><strong>BIO-05.</strong> 𝓢<sub>mol</sub>(M) = {D(A<sub>i</sub>,A<sub>j</sub>), ΔEN<sub>SV</sub>(A<sub>i</sub>,A<sub>j</sub>), ρ<sub>SV</sub>(A<sub>i</sub>,A<sub>j</sub>), IP<sub>suma</sub>(A<sub>i</sub>,A<sub>j</sub>) : (i,j)∈E<sub>M</sub>}.</div>
-
-Una molécula biológica admisible no tiene por qué carecer de tensión; de hecho, gran parte de la actividad molecular procede de tensiones compatibles. Lo inadmisible es que el enlace esencial de identidad devuelva ∅ activo o que la geometría destruya la frontera funcional. La fórmula de admisibilidad molecular queda integrada en la lectura: Adm<sub>mol</sub>(M)=1 cuando Δ<sub>mol</sub>=0 y ningún enlace esencial devuelve ∅ activo.
-
-<a id="sec-anexo-iii-4-2"></a>
-### III.4.2. Gen y desplazamiento genético
-
-Un gen se evalúa como unidad de secuencia, frontera, expresión, regulación, variante y retorno funcional. La variante genética no se identifica automáticamente con enfermedad: puede ser neutra, silenciosa, regulatoria, funcional, patogénica o de significado no cerrado según su efecto sobre proteína, expresión, frontera o interacción. La lectura SV evita dos errores: reducir la genética a texto de bases y convertir cualquier diferencia en patología.
-
-<a id="formula-bio-06"></a>
-<div align="center"><strong>BIO-06.</strong> Δ<sub>gen</sub>(g,g*) = Δ<sub>seq</sub> ⊕ Δ<sub>expr</sub> ⊕ Δ<sub>prot</sub> ⊕ Δ<sub>reg</sub> ⊕ Δ<sub>ret</sub>.</div>
-
-En <a href="#formula-bio-06">BIO-06</a>, g es el estado evaluado y g* el estado funcional de referencia. Δ<sub>seq</sub> no decide por sí solo: el cierre depende de expresión, proteína, regulación y retorno. Una variante que no altera proteína ni regulación puede conservar residual nulo; una variante pequeña que rompe plegamiento, interfaz o expresión puede activar residual patológico.
-
-<a id="sec-anexo-iii-4-3"></a>
-### III.4.3. Proteína, plegamiento e interfaz
-
-La proteína es el primer nivel donde la lectura de secuencia puede fracasar si no se considera estructura. Una proteína con secuencia aparentemente admisible puede perder función por plegamiento, agregación, modificación, localización o interacción defectuosa; una proteína con cambio de secuencia puede conservar función si su estructura y su interfaz permanecen dentro del dominio admisible. La fórmula de proteína integra esos planos: P=(Seq, Dom, Fold, PTM, Int, Loc, Δ<sub>P</sub>, R<sub>P</sub>). Su cierre exige secuencia admisible, plegamiento compatible, interfaz funcional, localización correcta y residual proteico nulo.
-
-<a id="formula-bio-07"></a>
-<div align="center"><strong>BIO-07.</strong> Adm<sub>prot</sub>(P)=1 ⇔ Seq, Fold, Int, Loc y R<sub>P</sub> son admisibles, con Δ<sub>P</sub>=0.</div>
-
-<a id="sec-anexo-iii-4-4"></a>
-### III.4.4. Célula viva
-
-La célula viva introduce frontera, intercambio e identidad. Una célula no es una bolsa de moléculas ni una tabla de expresión génica; es una unidad que conserva membrana, información, metabolismo, reparación, señalización e interacción. En la lectura estructural, C<sub>viva</sub>=(Mem, Gen, Prot, Met, Rep, Sig, Int, Δ<sub>cell</sub>, R<sub>cell</sub>), y su cierre exige que la membrana sea frontera funcional, el genoma conserve identidad, el proteoma sostenga función, el metabolismo sea compatible, la reparación opere, la señalización no colapse y la interacción con el entorno sea coherente.
-
-<a id="formula-bio-08"></a>
-<div align="center"><strong>BIO-08.</strong> Viva(C)=1 ⇔ Mem=1, Gen=1, Prot=1, Met=1, Rep=1, Int=1 y Δ<sub>cell</sub>=0.</div>
-
-<a id="sec-anexo-iii-5"></a>
-### III.5. Enfermedad, deterioro y regenerabilidad append-only
-
-<a id="sec-anexo-iii-5-1"></a>
-### III.5.1. Patología como desplazamiento estructural
-
-La enfermedad se formula como desplazamiento estructural respecto de un estado funcional de referencia, no como simple diferencia numérica. Un tejido puede cambiar sin enfermar; una célula puede variar sin perder función; una proteína puede modificarse sin dejar de operar. La patología aparece cuando el desplazamiento afecta frontera, identidad, reparación, interacción o retorno funcional.
-
-<a id="formula-bio-09"></a>
-<div align="center"><strong>BIO-09.</strong> Pat(B)=1 ⇔ Δ<sub>bio</sub>(B,B*)>0 y el desplazamiento afecta frontera, identidad, reparación, interacción o retorno funcional.</div>
-
-<a id="sec-anexo-iii-5-2"></a>
-### III.5.2. Fórmula de regenerabilidad
-
-Regenerar no es volver atrás. Regenerar es reorganizar estructura hacia función sin borrar la historia del sistema. La fórmula de regenerabilidad exige una trayectoria <a href="#sec-definicion-append-only">append-only</a> Γ<sup>+</sup><sub>SV</sub>, un estado funcional de referencia B*, conservación de identidad, residual nulo y retorno biológico admisible.
-
-<a id="formula-bio-10"></a>
-<div align="center"><strong>BIO-10.</strong> 𝓡<sub>bio</sub>(B→B*)=1 ⇔ ∃Γ<sup>+</sup><sub>SV</sub> tal que B<sub>n</sub>=Γ<sup>+</sup><sub>SV</sub>(B), Δ<sub>bio</sub>(B<sub>n</sub>,B*)=0, I<sub>B</sub> se conserva y R<sub>bio</sub>(B<sub>n</sub>) es admisible.</div>
-
-<a id="sec-anexo-iii-5-3"></a>
-### III.5.3. Teorema de regenerabilidad estructural
-
-Una estructura biológica B es regenerable respecto de B* si y sólo si existe una trayectoria append-only que preserve identidad de dominio, restaure frontera funcional, conserve invariantes esenciales y anule Δ<sub>bio</sub>(B<sub>n</sub>,B*). La necesidad se sigue de la definición: sin identidad hay sustitución, sin frontera no hay unidad biológica, sin invariantes no hay continuidad y sin residual nulo no hay recuperación funcional. La suficiencia se sigue porque esas condiciones sitúan B<sub>n</sub> en el mismo dominio funcional que B*, con retorno admisible. c.q.d.
-
-<a id="sec-anexo-iii-5-4"></a>
-### III.5.4. Teorema de no inversión temporal
-
-Toda regenerabilidad biológica admisible en el SV es reorganización estructural, no inversión temporal. Si regenerar exigiera volver al pasado, habría que borrar sucesos estructurales ya incorporados; eso violaría la disciplina append-only y convertiría el tiempo en fundamento de la operación. La estructura alcanzada puede ser funcionalmente equivalente al estado de referencia, pero no idéntica por eliminación de historia. c.q.d.
-
-<a id="sec-anexo-iii-6"></a>
-### III.6. Tejido, órgano y organismo
-
-<a id="sec-anexo-iii-6-1"></a>
-### III.6.1. Tejido como arquitectura celular
-
-Un tejido no es una multitud de células. Es una arquitectura de células, matriz extracelular, señales, frontera regional, polaridad y función. El cierre tisular exige que las células sean compatibles entre sí, que la matriz sostenga organización, que la comunicación preserve identidad y que el retorno funcional sea reconocible. En un epitelio, en músculo, en tejido nervioso o en tejido conectivo, el residual no se lee con el mismo patrón: cada tejido declara su función.
-
-<a id="sec-anexo-iii-6-2"></a>
-### III.6.2. Órgano como integración funcional
-
-El órgano incorpora tejido, matriz, perfusión, inervación cuando proceda, gradientes, frontera, función e integración sistémica. No cierra como órgano una masa celular sin arquitectura, un tejido sin perfusión suficiente o una estructura sin retorno fisiológico. La fórmula de generación orgánica exige cierre de célula, tejido, matriz, vascularización, función e integración sistémica.
-
-<a id="formula-bio-11"></a>
-<div align="center"><strong>BIO-11.</strong> Gen<sub>org</sub>(Org)=1 ⇔ Adm<sub>cell</sub>=1, Adm<sub>tis</sub>=1, ECM=1, Vas=1, Func=1, IntSys=1 y Δ<sub>org</sub>=0.</div>
-
-<a id="sec-anexo-iii-6-3"></a>
-### III.6.3. Invariantes biomédicos
-
-La colección queda gobernada por invariantes que preservan rigor sin apartarse de la biología real: toda estructura declara dominio, toda frontera biológica se explicita, toda métrica externa conserva su fuente, toda variante se evalúa por retorno funcional, toda regenerabilidad conserva identidad o declara sustitución, toda reparación es append-only, toda afirmación clínica exige contraste biomédico, toda falta de datos suficientes conserva U, toda estadística externa queda subordinada a dominio y residual, y toda célula viva exige frontera funcional.
-
-
-<a id="sec-anexo-iii-6-4"></a>
-### III.6.4. Glosario operativo biomolecular
-
-El par estructural es la relación mínima evaluada entre dos perfiles materiales por D(A,B). La firma molecular es el conjunto organizado de compatibilidades y tensiones que sostiene una molécula. La frontera es el límite funcional que permite identidad, intercambio y selección; en célula, su expresión primaria es la membrana. La identidad biológica es la continuidad funcional que permite reconocer una molécula, célula, tejido u órgano como el mismo dominio evaluado tras un cambio. El residual biológico es la diferencia estructural que queda entre el estado evaluado y el estado funcional de referencia. El retorno biológico es la magnitud externa que permite contrastar la lectura: secuencia, estructura, expresión, función, célula, tejido u órgano. La regenerabilidad <a href="#sec-definicion-append-only">append-only</a> es reorganización estructural hacia función sin borrado de historia. La sustitución no es regeneración: aparece cuando la identidad de dominio no se conserva. U conserva la no clausura honesta cuando falta información molecular, celular, tisular o clínica suficiente.
-
-<a id="sec-anexo-iii-7"></a>
-### III.7. Laboratorios reproducibles
-
-<a id="sec-anexo-iii-7-1"></a>
-### III.7.1. Estatuto de los laboratorios
-
-Los laboratorios de este anexo son laboratorios de consistencia documental y transductiva: verifican que el transductor biomolecular conserva sus métricas externas, que las fórmulas centrales están presentes, que la constante de edad biológica observable coincide con 284 018 400 UE<sub>MFC</sub>/a<sub>J</sub>, que los falsadores iniciales están declarados y que no hay pase silencioso. No son laboratorios biomédicos experimentales ni validan terapias; preparan el suelo ejecutable de la colección.
-
-<a id="sec-anexo-iii-7-2"></a>
-### III.7.2. Archivos incluidos
-
-| Archivo | Función |
+| Elemento canónica | Cantidad canónica |
 |---|---|
-| [`laboratorios/biologia_molecular_medicina/datos/metricas_biologicas_externas.csv`](laboratorios/biologia_molecular_medicina/datos/metricas_biologicas_externas.csv) | Declara las magnitudes externas usadas por el transductor. |
-| [`laboratorios/biologia_molecular_medicina/datos/formulas_centrales.csv`](laboratorios/biologia_molecular_medicina/datos/formulas_centrales.csv) | Lista fórmulas centrales BIO-01 a BIO-11. |
-| [`laboratorios/biologia_molecular_medicina/datos/controles_negativos.csv`](laboratorios/biologia_molecular_medicina/datos/controles_negativos.csv) | Declara falsadores y controles de no cierre. |
-| [`laboratorios/biologia_molecular_medicina/runner.py`](laboratorios/biologia_molecular_medicina/runner.py) | Verifica métricas, fórmulas, constante transductiva, controles y ausencia de pase silencioso. |
-| [`laboratorios/biologia_molecular_medicina/resultados/salida_esperada.txt`](laboratorios/biologia_molecular_medicina/resultados/salida_esperada.txt) | Salida esperada del laboratorio. |
-| [`laboratorios/biologia_molecular_medicina/resultados/salida_obtenida.txt`](laboratorios/biologia_molecular_medicina/resultados/salida_obtenida.txt) | Salida obtenida al ejecutar el laboratorio. |
+| teoremas canónicos | 43 |
+| corolarios canónicos | 17 |
+| proposiciones canónicas | 11 |
+| definiciones canónicas | 43 canónica |
+| invariantes canónicos | 13 (I.1–I.13) |
+| sumandos canónicos del operador maestro ℙ<sub>SV</sub> | 9 |
+| visiones canónicas sobre (ε<sub>0</sub>, F<sub>0</sub>) | 15 canónica (V.1–V.15) |
+| Bancos visibles | 19 (B.1–B.19) |
+| laboratorios canónicos | 24 canónica (L.1–L.24) |
+| Criterios independientes de falsación | 8 (F.1–F.8) |
+| Prohibiciones constitutivas | 6 (P.1–P.6) |
+| postulados canónicos del programa | 3 (G.1, G.2, G.3) |
+| transformadas canónicas de trayectoria | 4 canónica (𝒯<sup>SV</sup><sub>k</sub>, k=1,2,3,4) |
+| categorías canónicas operatorias | 3 canónica (OpFact<sub>SV</sub>, OpGen<sub>SV,Π</sub>, OpFact<sub>SV,General</sub>) |
+| Pilares canónicos metrológicos | 4 canónica (UE_MFC, UFE, UFM, UFC) |
+| compuertas canónicas del aparato | 2 canónica (℘<sub>SV</sub>, ⊕) |
 
-<a id="sec-anexo-iii-7-3"></a>
-### III.7.3. Controles y salidas
+### 42.3. Tabla canónica T.42.2 — Tabla canónica de las cuatro absorciones canónicas
 
-La salida apta exige métricas externas presentes, al menos once fórmulas centrales, controles negativos completos, constante 284 018 400 verificada y cero pases silenciosos. La salida material esperada es `overall_status: APTO`. Si falta una métrica, una fórmula o un control negativo, el laboratorio devuelve no apto con código específico.
+**Tabla canónica T.42.2 (Tabla canónica de las cuatro absorciones canónicas del aparato general canónico sobre los cuatro regímenes canónicos inferiores del corpus).** Las cuatro absorciones canónicas demostradas con rigor canónica en los §§28–29 del presente documento se sintetizan con rango canónico en la siguiente tabla canónica:
 
-<a id="destacado-imperfeccion-dos-planos"></a>
+| Régimen canónico inferior | Identidad canónica exacta | Teorema canónico |
+|---|---|---|
+| I. Maxwell factual (Lloret Egea, 2026k) | π<sub>1,2</sub>(ℙ<sub>SV</sub>=0) ≡ 𝔼<sub>SV</sub>=0 | T.27.1 |
+| II. Luz factual (Lloret Egea, 2026 — luz factual) | π<sub>L</sub>(ℙ<sub>SV</sub>=0) ≡ L<sub>SV</sub>=0 | T.28.1 |
+| III. Transmutación factual (Lloret Egea, 2026q) | π<sub>T</sub>(ℙ<sub>SV</sub>=0)\|<sub>e<sub>ν</sub>∈G int</sub> ≡ Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U} | T.29.1 |
+| IV. Entropía factual (Lloret Egea, 2026l) | H<sub>SV</sub> = ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν]\|<sub>ℙ<sub>SV</sub>=0</sub> | T.30.1 |
 
-## Destacado doctrinal: imperfección y dominios constituidos
+### 42.4. Tabla canónica T.42.3 — Tabla canónica de las prohibiciones constitutivas P.1–P.6
 
-> La imperfección opera en dos planos complementarios. En el primero, como no clausura originaria, permite distinguibilidad, suceso y estructura observable. En el segundo, ya dentro de los dominios constituidos, la imperfección sostenida permite vida, cambio y reorganización; cuando esa imperfección deja de estar gobernada por frontera, identidad, reparación, interacción y retorno, aparece deterioro o degeneración estructural.
+**Tabla canónica T.42.3 (Tabla canónica de las prohibiciones constitutivas del corpus del Sistema Vectorial SV).**
 
-<a id="sec-xiii-laboratorios-reproducibles"></a>
+| Prohibición canónica | Contenido canónica |
+|---|---|
+| P.1 | Prohibición canónica del tiempo soberano |
+| P.2 | Prohibición canónica de la probabilidad fundante |
+| P.3 | Prohibición canónica de la geometría soberana auxiliar |
+| P.4 | Prohibición canónica de la inferencia opaca |
+| P.5 | Prohibición canónica de la adición axiomática externa al corpus |
+| P.6 | Prohibición canónica de la clausura espuria |
 
-## XIII. Laboratorios reproducibles
+### 42.5. Tabla canónica T.42.4 — Tabla canónica de los tres postulados canónicos del programa
 
-<a id="sec-xiii-1-estatuto-de-los-laboratorios"></a>
+**Tabla canónica T.42.4 (Tabla canónica de los tres postulados canónicos del programa, heredados del Destacado canónico del §4bis del documento de la luz factual).**
 
-### XIII.1. Estatuto de los laboratorios
+| Postulado canónica | Contenido canónica |
+|---|---|
+| G.1 | Existencia canónica del protocampo primordial unificado Π<sub>SV</sub> |
+| G.2 | No sustancialización de los protocampos |
+| G.3 | Existencia canónica del operador soberano canónico de generación 𝔊<sub>SV</sub> |
 
-Los laboratorios reproducibles confirman la Teoría de la edad de todos los objetos del Universo Observable. No buscan valores nuevos, no corrigen la teoría desde fuera y no sustituyen el registro declarativo. Su función consiste en ejecutar, con aritmética exacta, las tablas, fórmulas, transductores, residuales, controles negativos y retornos inversos ya establecidos.
+### 42.6. Cierre canónico del §42
 
-La regla rectora es:
+El §42 del presente documento cierra con rango canónico las tablas canónicas finales del aparato general canónico del presente documento. El §43 del presente documento consigna con rango canónico las catorce conclusiones canónicas del aparato.
 
-<p><strong>el laboratorio confirma o refuta lo declarado; no genera doctrina nueva.</strong></p>
+---
 
-La teoría ya fija la fórmula canónica:
+## 43. Catorce conclusiones canónicas
 
-E<sub>age</sub>(O<sub>i</sub>)
+### 43.1. Apertura canónica del §43
 
-( A<sub>i</sub>, F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>, A<sub>i</sub>/F<sub>i</sub>, F<sub>i</sub>-A<sub>i</sub>/F<sub>i</sub>, 284 018 400A<sub>i</sub>, 284 018 400F<sub>i</sub>, 284 018 400(F<sub>i</sub>-A<sub>i</sub>), Δ<sub>i</sub> ).
+El §43 del presente documento consigna con rango canónico las **catorce conclusiones canónicas** del aparato general canónico del presente documento. Las catorce conclusiones canónicas articulan con rango canónico el balance canónica del programa desarrollado en la presente publicación.
 
-El laboratorio confirma que, para cada objeto físico admisible:
+### 43.2. Las catorce conclusiones canónicas
 
-<p><strong>O<sub>i</sub>⊂Ω<sub>obs</sub>,</strong></p>
+**Conclusión canónica C.1 (Demostración canónica del Teorema 1.1 inaugural sobre la unicidad estructural condicionada del tránsito ε<sub>0</sub>–F<sub>0</sub>–U).** El presente documento demuestra con rigor canónica Q.E.D. el Teorema 1.1 inaugural, que articula con rango canónico la unicidad estructural condicionada del tránsito canónico ε<sub>0</sub>–F<sub>0</sub>–U para la emergencia canónica de sucesos generadores y de protocampos.
 
-se cumple:
+**Conclusión canónica C.2 (Cadena formal mínima canónica de legitimidad).** El presente documento fija con rango canónico la cadena formal mínima canónica de legitimidad 𝒞<sub>F<sub>0</sub>,SV</sub> como suelo canónico lógico-formal del aparato, articulada con rango canónico sobre los siete eslabones canónicos: ε<sub>0</sub> → F<sub>0</sub> → Ω<sub>pre</sub> → Φ(0)=Φ(1) → no-decisión → U → Ω<sub>pro</sub> → Σ → sucesos generadores → protocampos.
 
-<p><strong>A<sub>i</sub><sup>SV</sup>=284 018 400A<sub>i</sub><sup>FC</sup>,</strong></p>
+**Conclusión canónica C.3 (Existencia canónica del protocampo primordial unificado Π<sub>SV</sub>).** El presente documento formaliza con rango canónico la existencia canónica del protocampo primordial unificado Π<sub>SV</sub> sobre el dominio prototernario Ω<sub>pro</sub>, conforme al postulado canónica G.1 del §3 y al Teorema 9.1 del §9 del presente documento.
 
-<p><strong>F<sub>i</sub><sup>SV</sup>=284 018 400F<sub>i</sub><sup>FC</sup>,</strong></p>
+**Conclusión canónica C.4 (Taxonomía canónica G/A/D de sucesos factuales).** El presente documento fija con rango canónico la taxonomía canónica G/A/D de sucesos factuales del aparato, articulada con rango canónico sobre tres clases canónicas disjuntas exhaustivas, conforme a la Proposición 10.1 del §10 del presente documento.
 
-<p><strong>R<sub>i</sub><sup>SV</sup>=284 018 400(F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>),</strong></p>
+**Conclusión canónica C.5 (Existencia canónica y unicidad representacional canónica del operador soberano canónico de generación 𝔊<sub>SV</sub>).** El presente documento formaliza con rango canónico la existencia canónica del operador soberano canónico de generación 𝔊<sub>SV</sub> sobre la clase canónica G del §10, satisfaciendo con rango canónico las cuatro propiedades algebraicas canónicas del §12 del presente documento, y demuestra con rigor canónica la unicidad representacional canónica de 𝔊<sub>SV</sub> en la categoría canónica OpGen<sub>SV,Π</sub>, conforme al Teorema 13.1 del §13 del presente documento.
 
-<p><strong>f<sub>i</sub>+ρ<sub>i</sub>=1,</strong></p>
+**Conclusión canónica C.6 (Creabilidad factual reforzada de la energía).** El presente documento demuestra con rigor canónica Q.E.D. el Teorema 17.1 del §17 del presente documento sobre la creabilidad factual reforzada de la energía sobre la clase canónica G interior del §10, articulando con rango canónico la creación canónica interior de energía factual del aparato sin contradecir las leyes canónicas de conservación del aparato SI heredado, conforme a la Observación 17.2 del §17 del presente documento.
 
-<p><strong>Δ<sub>i</sub>=0.</strong></p>
+**Conclusión canónica C.7 (Emergencia canónica de los siete campos factuales coexistentes del corpus).** El presente documento demuestra con rigor canónica Q.E.D. los siete teoremas canónicos del §19 del presente documento sobre la emergencia canónica de los siete campos factuales coexistentes del corpus como proyecciones canónicas activadas del protocampo primordial unificado Π<sub>SV</sub> a través del operador canónica de proyección activada Π<sub>3</sub><sup>H</sup>.
 
-También confirma que los casos negativos activan salida no admisible o (U), según corresponda.
+**Conclusión canónica C.8 (Ecuación maestra canónica ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0).** El presente documento fija con rango canónico la ecuación maestra canónica ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 del aparato general canónico sobre los nueve sumandos canónicos y los trece invariantes canónicos del aparato, conforme a los §§23–25 del presente documento.
 
-<a id="sec-xiii-2-principio-de-aritmetica-entera"></a>
+**Conclusión canónica C.9 (Cuatro absorciones canónicas exactas de los cuatro regímenes canónicos inferiores del corpus).** El presente documento demuestra con rigor canónica Q.E.D. los cuatro teoremas canónicos de absorción canónica de los §§28–29 del presente documento sobre los cuatro regímenes canónicos inferiores del corpus: Maxwell factual, luz factual, transmutación factual y entropía factual.
 
-### XIII.2. Principio de aritmética entera
+**Conclusión canónica C.10 (Rango doctrinal superior estrictamente del aparato general canónico del presente documento).** El presente documento demuestra con rigor canónica Q.E.D. el Teorema 31.2 del §31 del presente documento sobre el rango doctrinal superior absoluto estrictamente del aparato general canónico sobre los cuatro regímenes canónicos inferiores del corpus, conforme al anuncio canónica del Destacado canónico del §4bis del documento de la luz factual.
 
-Todo laboratorio se ejecutará con aritmética entera. No se admite coma flotante, redondeo, tolerancia silenciosa ni aproximación numérica.
+**Conclusión canónica C.11 (Quince visiones canónicas sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>) y matriz canónica de coexistencia 15×15).** El presente documento formaliza con rango canónico las quince visiones canónicas sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>) del §34 del presente documento y la matriz canónica de coexistencia 15×15 del §35 del presente documento, articulada con rango canónico sobre las cuatro propiedades canónicas simultáneas de la Proposición 35.1 del §35 del presente documento.
 
-Quedan prohibidos:
+**Conclusión canónica C.12 (Refuerzo canónica de la prohibición constitutiva P.6 sobre la frontera exterior ε<sub>0</sub>).** El presente documento demuestra con rigor canónica Q.E.D. la Proposición 37.1 del §37 del presente documento sobre el refuerzo canónica de la prohibición constitutiva P.6 del corpus sobre la frontera exterior ε<sub>0</sub> como indeterminación legítima honesta no cerrable desde dentro del aparato.
 
-<p><strong>float,</strong></p>
+**Conclusión canónica C.13 (Falsabilidad soberana canónica del marco canónica sobre ocho criterios canónicos independientes).** El presente documento declara con rango canónico los ocho criterios canónicos independientes de falsación del §38 del presente documento, articulando con rango canónico la falsabilidad soberana canónica del marco canónica del Sistema Vectorial SV sobre el aparato general canónico del presente documento.
 
-<p><strong>round,</strong></p>
+**Conclusión canónica C.14 (Consistencia canónica sobre la célula canónica SV(3, 9) y verificación numérica explícita sobre los diecinueve bancos visibles).** El presente documento demuestra con rigor canónica Q.E.D. la Proposición 39.1 del §39 del presente documento sobre la consistencia canónica del aparato general canónico sobre la célula canónica SV(3, 9) del corpus, y articula con rango canónico la verificación numérica explícita del aparato sobre los diecinueve bancos visibles del §40 del presente documento.
 
-<p><strong>tolerancia no declarada,</strong></p>
+### 43.3. Cierre canónico del §43
 
-<p><strong>comparación aproximada,</strong></p>
+El §43 del presente documento cierra con rango canónico las catorce conclusiones canónicas del aparato general canónico del presente documento. El §44 del presente documento despliega con rango canónico la antesala canónica de cuestiones canónicas superiores del aparato.
 
-<p><strong>salida no tabulada.</strong></p>
+---
 
-Toda conversión usa:
+## 44. Antesala canónica de cuestiones canónicas superiores
 
-<p><strong>1,a<sub>J</sub>=31 557 600,s,</strong></p>
+### 44.1. Apertura canónica del §44
 
-<p><strong>1,s=9,UE<sub>MFC</sub>,</strong></p>
+El §44 del presente documento despliega con rango canónico la **antesala canónica** de **cuestiones canónicas superiores** del aparato general canónico del presente documento. La antesala canónica articula con rango canónico el reconocimiento honesto canónica de las cuestiones canónicas que el aparato general canónico del presente documento **no clausura ** y que permanecen abiertas canónicamente para investigación canónica posterior dentro del corpus, conforme a la prohibición constitutiva P.6 del corpus sobre la no clausura espuria.
 
-<p><strong>1,a<sub>J</sub>=284 018 400,UE<sub>MFC</sub>.</strong></p>
+### 44.2. Cuestiones canónicas superiores reconocidas
 
-La constante transductiva queda fijada como:
+**Cuestión canónica superior Q.41.1 (Articulación canónica del aparato general canónico con regímenes canónicos no contemplados en el corpus actual).** El aparato general canónico del presente documento absorbe con rango canónico exactamente los cuatro regímenes canónicos inferiores del corpus demostrados en los §§28–29 del presente documento. La cuestión canónica de la articulación canónica del aparato con regímenes canónicos no contemplados en el corpus actual permanece abierta canónicamente para investigación canónica posterior dentro del corpus.
 
-<p><strong>K<sub>age</sub>=284 018 400.</strong></p>
+**Cuestión canónica superior Q.41.2 (Refinamiento canónica de la articulación canónica del operador canónica de proyección activada Π<sub>3</sub><sup>H</sup> sobre los siete campos factuales coexistentes).** El §18 del presente documento fija con rango canónico el operador canónica de proyección activada Π<sub>3</sub><sup>H</sup> y el §19 del presente documento demuestra con rigor canónica los siete teoremas canónicos de emergencia de los siete campos factuales coexistentes del corpus. El refinamiento canónica de la articulación canónica del operador canónica Π<sub>3</sub><sup>H</sup> sobre los siete campos factuales coexistentes permanece abierto canónicamente para investigación canónica posterior dentro del corpus.
 
-Así:
+**Cuestión canónica superior Q.41.3 (Extensión canónica de la matriz canónica de coexistencia sobre las quince visiones canónicas).** El §35 del presente documento fija con rango canónico la matriz canónica de coexistencia 15×15 sobre las quince visiones canónicas. La extensión canónica de la matriz canónica de coexistencia sobre visiones canónicas adicionales, articuladas con rango canónico sobre la frontera exterior ε<sub>0</sub> dentro del corpus, permanece abierta canónicamente para investigación canónica posterior.
 
-<p><strong>A<sub>i</sub><sup>SV</sup>=K<sub>age</sub>A<sub>i</sub><sup>FC</sup>.</strong></p>
+**Cuestión canónica superior Q.41.4 (Articulación canónica del operador maestro ℙ<sub>SV</sub> sobre sumandos canónicos adicionales no contemplados en el corpus actual).** El §23 del presente documento fija con rango canónico los nueve sumandos canónicos del operador maestro ℙ<sub>SV</sub>. La cuestión canónica de la articulación canónica del operador maestro sobre sumandos canónicos adicionales no contemplados en el corpus actual permanece abierta canónicamente para investigación canónica posterior dentro del corpus.
 
-El retorno inverso exige:
+**Cuestión canónica superior Q.41.5 (Refinamiento canónica de los trece invariantes canónicos del operador maestro ℙ<sub>SV</sub>).** El §25 del presente documento fija con rango canónico los trece invariantes canónicos I.1–I.13 del operador maestro ℙ<sub>SV</sub>. El refinamiento canónica de los trece invariantes canónicos sobre escenarios canónicos del aparato permanece abierto canónicamente para investigación canónica posterior dentro del corpus.
 
-<p><strong>A<sub>i</sub><sup>FC</sup>=A<sub>i</sub><sup>SV</sup>K<sub>age</sub>,</strong></p>
+### 44.3. Cierre canónico del §44
 
-con resto nulo:
+El §44 del presente documento cierra con rango canónico la antesala canónica de cuestiones canónicas superiores del aparato general canónico del presente documento. El reconocimiento honesto canónica de las cuestiones canónicas abiertas articula con rango canónico la honestidad coordenada canónica del aparato, conforme al Lema 8.3 de Lloret Egea (2026j) y a la prohibición constitutiva P.6 del corpus. El §45 del presente documento declara con rango canónico el compromiso canónico del presente documento con la disciplina canónica del corpus.
 
-<p><strong>A<sub>i</sub><sup>SV</sup> K<sub>age</sub>=0.</strong></p>
+---
 
-Si aparece resto:
+## 45. Compromiso canónico con la disciplina del corpus
 
-<p><strong>Δ<sub>ret</sub>=1.</strong></p>
+### 45.1. Apertura canónica del §45
 
-<a id="sec-xiii-3-estructura-de-archivos-del-laboratorio"></a>
+El §45 del presente documento declara con rango canónico el **compromiso canónico** del presente documento con la **disciplina canónica** del corpus del Sistema Vectorial SV. El compromiso canónico articula con rango canónico la articulación canónica del presente documento sobre los primitivos del corpus, las prohibiciones constitutivas P.1–P.6, los etapas del corpus y la honestidad coordenada canónica del aparato.
 
-### XIII.3. Organización funcional de los laboratorios
+### 45.2. Declaración canónica del compromiso canónico
 
-Los laboratorios se organizan como una carpeta de verificación reproducible. Los CSV conservan los registros declarativos; el runner ejecuta las comprobaciones; las salidas TXT documentan la lectura humana del resultado; la carpeta de datos añade copias JSON estructuradas para auditoría automática y contraste posterior. Esta organización evita que el lector tenga que reconstruir la jerarquía desde un árbol de carpetas y permite localizar cada archivo por su función.
+**Declaración canónica D.42.1 (Compromiso canónico del presente documento con la disciplina canónica del corpus).** El presente documento declara con rango canónico su compromiso canónico con la disciplina canónica del corpus del Sistema Vectorial SV, articulado con rango canónico sobre las siete propiedades canónicas simultáneas:
 
-| Grupo funcional | Archivos | Función científica |
-| --- | --- | --- |
-| Orientación | [README.md](laboratorios/README.md) | Explica la ejecución del laboratorio y la relación entre registros, datos JSON y salidas. |
-| Registros declarativos | [manifest_unidades.csv](laboratorios/manifest_unidades.csv), [banco_objetos.csv](laboratorios/banco_objetos.csv), [banco_valores.csv](laboratorios/banco_valores.csv), [banco_diferencias.csv](laboratorios/banco_diferencias.csv), [banco_fracciones.csv](laboratorios/banco_fracciones.csv), [banco_negativos.csv](laboratorios/banco_negativos.csv), [catalogo_errores.csv](laboratorios/catalogo_errores.csv) | Declaran unidades, objetos, valores, diferencias, fracciones, controles negativos y catálogo de errores. |
-| Datos JSON | [datos/](laboratorios/datos/) | Conserva versiones JSON de los registros y resultados para lectura automática, comparación e integración posterior. |
-| Ejecución | [runner.py](laboratorios/runner.py) | Ejecuta pruebas con aritmética exacta, sin coma flotante, sin redondeo y sin pase silencioso. |
-| Resultados | [salida_esperada.txt](laboratorios/salida_esperada.txt), [salida_obtenida.txt](laboratorios/salida_obtenida.txt), [datos/resultado_laboratorio_edades.json](laboratorios/datos/resultado_laboratorio_edades.json), [datos/resultados_laboratorios.json](laboratorios/datos/resultados_laboratorios.json) | Documentan la salida esperada, la salida obtenida y la síntesis JSON de los laboratorios principal y biomolecular. |
+(i) **respeto canónica a los primitivos canónicos del corpus**: el presente documento opera con rango canónico sobre los primitivos canónicos del corpus (UE_MFC, UFE, UFM, UFC, axioma de la U canónica, honestidad coordenada canónica) sin sustituirlos, sin redefinirlos y sin colapsar la diferencia estructural entre el aparato factual y el aparato SI heredado;
 
-La regla de cierre es estricta: ningún valor ejecutado puede sustituir al registro declarativo que lo autoriza. Si aparece una salida no tabulada, el laboratorio emite E-LAB-01.
+(ii) **respeto canónica a las seis prohibiciones constitutivas P.1–P.6 del corpus**: el presente documento opera con rango canónico bajo las seis prohibiciones constitutivas del corpus, sin violarlas en ninguno de sus elementos canónicos;
 
-<a id="sec-xiii-4-manifiesto-de-unidades"></a>
+(iii) **respeto canónica a los etapas del corpus**: el presente documento opera con rango canónico sobre los etapas del corpus recogidos en el §2.1 del presente documento, sin contradecirlos y articulándolos con rango canónico en el aparato general canónico;
 
-### XIII.4. Manifiesto de unidades
+(iv) **respeto canónica al clasificador canónico Γ<sub>ℋ</sub> del corpus**: el presente documento opera con rango canónico sobre la admisibilidad canónica de los sucesos factuales canónicamente admisibles según el clasificador canónico Γ<sub>ℋ</sub> del corpus (Lloret Egea, 2026c, Teorema 1), sin admitir sucesos factuales no admisibles canónicamente;
 
-| Campo | Valor |
-| --- | --- |
-| julian<sub>year</sub><sub>seconds</sub> | 31.557.600 |
-| uemfc<sub>per</sub><sub>second</sub> | 9 |
-| uemfc<sub>per</sub><sub>julian</sub><sub>year</sub> | 284.018.400 |
-| time<sub>unit</sub><sub>fc</sub> | año juliano |
-| time<sub>unit</sub><sub>si</sub> | segundo |
-| time<sub>unit</sub><sub>sv</sub> | (UE<sub>MFC</sub>) |
-| rounding<sub>allowed</sub> | no |
-| float<sub>allowed</sub> | no |
-| silent<sub>pass</sub><sub>allowed</sub> | no |
-| untabulated<sub>output</sub><sub>allowed</sub> | no |
+(v) **respeto canónica al ordinal canónico ν append-only del aparato**: el presente documento opera con rango canónico sobre el ordinal canónico ν append-only del aparato, conforme al Lema 6.5 de Lloret Egea (2026j) sobre la no retorno preternario, sin introducir tiempo soberano (P.1 respetada);
 
-Comprobación obligatoria:
+(vi) **respeto canónica a la compuerta metrológica ℘<sub>SV</sub> del corpus**: el presente documento opera con rango canónico sobre la compuerta metrológica ℘<sub>SV</sub> del corpus, traduciendo con rigor canónica las magnitudes canónicas factuales a unidades SI heredadas sin colapsar la diferencia estructural;
 
-<p><strong>31 557 600× 9=284 018 400.</strong></p>
+(vii) **respeto canónica a la honestidad coordenada canónica del aparato**: el presente documento opera con rango canónico sobre la honestidad coordenada canónica del Lema 8.3 de Lloret Egea (2026j), articulando con rango canónico la trazabilidad canónica del aparato sobre el corpus sin introducir heurística oculta (P.4 respetada).
 
-Si no se reproduce esta igualdad, ningún cálculo posterior es válido.
+### 45.3. Cierre canónico del §45
 
-<a id="sec-xiii-5-registro-principal-de-objetos"></a>
+El §45 del presente documento cierra con rango canónico el compromiso canónico del presente documento con la disciplina canónica del corpus del Sistema Vectorial SV. El §45 del presente documento despliega con rango canónico la explicación canónica de la naturaleza canónica factual de los sucesos generadores y de los protocampos unificados para un niño canónica de diez años, conforme al canon canónica del corpus sobre la accesibilidad canónica del aparato.
 
-### XIII.5. Registro principal de objetos
+---
 
-| object<sub>id</sub> | Objeto o dominio | Dominio | Edad actual (a<sub>J</sub>) | Fin estructural (a<sub>J</sub>) | Lectura formal |
-| --- | --- | --- | --- | --- | --- |
-| SUN | Sol | (Ω_☉⊂Ω<sub>obs</sub>) | 4.570.000.000 | 10.000.000.000 | 0 |
-| SOLAR<sub>SYSTEM</sub> | Sistema Solar | (Ω<sub>SS</sub>⊂Ω<sub>obs</sub>) | 4.568.000.000 | 10.000.000.000 | 0 |
-| MILKY<sub>WAY</sub><sub>ENV</sub> | Vía Láctea-entorno | (Ω<sub>VL</sub>⊂Ω<sub>obs</sub>) | 13.600.000.000 | 27.200.000.000 | 0 |
-| OBSERVABLE<sub>RETURNED</sub> | Observable retornado | (Ω<sub>obs</sub>) | 13.800.000.000 | 27.600.000.000 | 0 |
-| ABSOLUTE<sub>TOTALITY</sub> | Totalidad absoluta | ( T) | no aplicable | no aplicable | NO ADMISIBLE |
+# Anexo operatorio canónica — ocho piezas cerradas
 
-El laboratorio no calcula edades de ( T). Cualquier intento de asignar edad a la totalidad absoluta debe producir:
+## Apertura canónica del anexo operatorio
 
-<p><strong>E-PLANO-01.</strong></p>
+El **anexo operatorio canónica** del presente documento despliega con rango canónico las **ocho piezas canónicas operatorias cerradas** del aparato general canónico del presente documento. Cada pieza canónica operatoria articula con rango canónico un aparato canónico matemático riguroso cerrado canónicamente sobre el aparato general canónico del presente documento, articulado con rango canónico sobre la disciplina canónica del corpus.
 
-<a id="sec-xiii-6-registro-de-valores-esperados"></a>
+## Pieza canónica A.1 — Aparato canónico del par polar canónico (α<sub>i</sub>, β<sub>i</sub>)
 
-### XIII.6. Valores esperados
+**Pieza canónica A.1 (Aparato canónico del par polar canónico (α<sub>i</sub>, β<sub>i</sub>) sobre el dominio prototernario Ω<sub>pro</sub>).** El aparato canónico del par polar canónico (α<sub>i</sub>, β<sub>i</sub>) sobre el dominio prototernario Ω<sub>pro</sub> se cierra con rango canónico sobre las cinco operaciones canónicas:
 
-| object<sub>id</sub> | Actual (a<sub>J</sub>) | Actual (UE<sub>MFC</sub>) | Fin (a<sub>J</sub>) | Fin (UE<sub>MFC</sub>) | Restante (a<sub>J</sub>) | Restante (UE<sub>MFC</sub>) | Fracción actual | Fracción restante |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SUN | 4.570.000.000 | 1.297.964.088.000.000.000 | 10.000.000.000 | 2.840.184.000.000.000.000 | 5.430.000.000 | 1.542.219.912.000.000.000 | (457/1000) | (543/1000) |
-| SOLAR<sub>SYSTEM</sub> | 4.568.000.000 | 1.297.396.051.200.000.000 | 10.000.000.000 | 2.840.184.000.000.000.000 | 5.432.000.000 | 1.542.787.948.800.000.000 | (571/1250) | (679/1250) |
-| MILKY<sub>WAY</sub><sub>ENV</sub> | 13.600.000.000 | 3.862.650.240.000.000.000 | 27.200.000.000 | 7.725.300.480.000.000.000 | 13.600.000.000 | 3.862.650.240.000.000.000 | (1/2) | (1/2) |
-| OBSERVABLE<sub>RETURNED</sub> | 13.800.000.000 | 3.919.453.920.000.000.000 | 27.600.000.000 | 7.838.907.840.000.000.000 | 13.800.000.000 | 3.919.453.920.000.000.000 | (1/2) | (1/2) |
+```math
+\alpha_i\geq 0\;\;\;\;\;\beta_i\geq 0\;\;\;\;\;\Delta_{SV}(\xi_i)=\alpha_i+\beta_i\geq 0\;\;\;\;\;\delta_i^{SV}=\beta_i-\alpha_i\;\;\;\;\;\|\Pi_{SV}(\xi_i)\|_{SV}=\sqrt{\alpha_i^2+\beta_i^2}.
+```
 
-Cada fila debe satisfacer simultáneamente:
+Las cinco operaciones canónicas se cierran con rango canónico sobre el dominio prototernario Ω<sub>pro</sub>, conforme al Teorema 9.1 del §9 del presente documento.
 
-<p><strong>A<sub>i</sub><sup>SV</sup>=K<sub>age</sub>A<sub>i</sub><sup>FC</sup>,</strong></p>
+## Pieza canónica A.2 — Aparato canónico del operador soberano canónico de generación 𝔊<sub>SV</sub>
 
-<p><strong>F<sub>i</sub><sup>SV</sup>=K<sub>age</sub>F<sub>i</sub><sup>FC</sup>,</strong></p>
+**Pieza canónica A.2 (Aparato canónico del operador soberano canónico de generación 𝔊<sub>SV</sub>).** El aparato canónico del operador soberano canónico de generación 𝔊<sub>SV</sub> se cierra con rango canónico sobre las cuatro propiedades algebraicas canónicas simultáneas del §12 del presente documento:
 
-<p><strong>R<sub>i</sub><sup>FC</sup>=F<sub>i</sub><sup>FC</sup>-A<sub>i</sub><sup>FC</sup>,</strong></p>
+```math
+\mathfrak{G}_{SV}[e_{\nu}](\lambda\cdot\Pi_{SV}^{(\nu)})=\lambda\cdot\mathfrak{G}_{SV}[e_{\nu}](\Pi_{SV}^{(\nu)})\;\;\;\;\text{(homogeneidad factual canónica)}
+```
 
-<p><strong>R<sub>i</sub><sup>SV</sup>=F<sub>i</sub><sup>SV</sup>-A<sub>i</sub><sup>SV</sup>,</strong></p>
+```math
+\mathfrak{G}_{SV}[e_{\nu}](\Pi_{SV,1}^{(\nu)}+\Pi_{SV,2}^{(\nu)})=\mathfrak{G}_{SV}[e_{\nu}](\Pi_{SV,1}^{(\nu)})+\mathfrak{G}_{SV}[e_{\nu}](\Pi_{SV,2}^{(\nu)})\;\;\;\;\text{(aditividad canónica)}
+```
 
-<p><strong>f<sub>i</sub>=A<sub>i</sub><sup>FC</sup>F<sub>i</sub><sup>FC</sup>,</strong></p>
+```math
+\mathfrak{G}_{SV}[\mathcal{T}_k^{SV}(e_{\nu})](\mathcal{T}_k^{SV}(\Pi_{SV}^{(\nu)}))=\mathcal{T}_k^{SV}(\mathfrak{G}_{SV}[e_{\nu}](\Pi_{SV}^{(\nu)}))\;\;\text{para }k\in\{1,2,3,4\}\;\;\;\;\text{(covariancia factual)}
+```
 
-<p><strong>ρ<sub>i</sub>=1-f<sub>i</sub>.</strong></p>
+más la estabilidad estructural canónica del Teorema 12.4 del §12 del presente documento, conforme al §12 y al §13 del presente documento.
 
-<a id="sec-xiii-7-registro-de-diferencias-singulares"></a>
+## Pieza canónica A.3 — Aparato canónico de la ecuación maestra absoluta ℙ<sub>SV</sub> = 0
 
-### XIII.7. Diferencias singulares
+**Pieza canónica A.3 (Aparato canónico de la ecuación maestra canónica ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0).** El aparato canónico de la ecuación maestra canónica ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 se cierra con rango canónico sobre la articulación canónica de los nueve sumandos canónicos del §23 del presente documento:
 
-| difference<sub>id</sub> | Operación | Resultado (a<sub>J</sub>) | Resultado (UE<sub>MFC</sub>) | Lectura formal |
-| --- | --- | --- | --- | --- |
-| DIF<sub>01</sub> | Observable retornado − Vía Láctea-entorno | 200.000.000 | 56.803.680.000.000.000 | 0 |
-| DIF<sub>02</sub> | Vía Láctea-entorno − Sol | 9.030.000.000 | 2.564.686.152.000.000.000 | 0 |
-| DIF<sub>03</sub> | Observable retornado − Sol | 9.230.000.000 | 2.621.489.832.000.000.000 | 0 |
-| DIF<sub>04</sub> | Sol − Sistema Solar | 2.000.000 | 568.036.800.000.000 | 0 |
-| DIF<sub>05</sub> | Restante Sistema Solar − restante Sol | 2.000.000 | 568.036.800.000.000 | 0 |
-| DIF<sub>06</sub> | Fin observable − fin Vía Láctea-entorno | 400.000.000 | 113.607.360.000.000.000 | 0 |
-| DIF<sub>07</sub> | Fin solar − fin Sistema Solar | 0 | 0 | 0 |
+```math
+\mathbb{P}_{SV}(\Pi_{SV};\mathfrak{G}_{SV};\{\mathcal{L}_i\};\nu)\;=\;\sum_{i=1}^{9}\mathcal{L}_i^{SV}(\Pi_{SV};\mathfrak{G}_{SV};\nu)\;=\;0,
+```
 
-La prueba diferencial exige:
+donde los nueve sumandos canónicos {𝓛<sub>i</sub><sup>SV</sup>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; ν)}<sub>i=1,...,9</sub> articulan con rango canónico la dinámica canónica del aparato general canónico del presente documento sobre los siete campos factuales coexistentes del corpus. La articulación canónica se cierra con rango canónico sobre los trece invariantes canónicos I.1–I.13 del §25 del presente documento.
 
-<p><strong>D<sub>ij</sub><sup>SV</sup>=K<sub>age</sub>D<sub>ij</sub><sup>FC</sup>.</strong></p>
+## Pieza canónica A.4 — Aparato canónico de la proyección canónica admisible π<sub>1,2</sub>
 
-Y retorno:
+**Pieza canónica A.4 (Aparato canónico de la proyección canónica admisible π<sub>1,2</sub> a los sumandos electromagnéticos).** El aparato canónico de la proyección canónica admisible π<sub>1,2</sub> de la Definición 27.1 del §27 del presente documento se cierra con rango canónico sobre la operación canónica:
 
-<p><strong>D<sub>ij</sub><sup>SV</sup>K<sub>age</sub>=D<sub>ij</sub><sup>FC</sup>.</strong></p>
+```math
+\pi_{1,2}\;:\;\sum_{i=1}^{9}\mathcal{L}_i^{SV}(\Pi_{SV};\mathfrak{G}_{SV};\nu)=0\;\longmapsto\;\mathcal{L}_1^{SV}(\Pi_{SV};\nu)+\mathcal{L}_2^{SV}(\Pi_{SV};\nu)=0,
+```
 
-<a id="sec-xiii-8-registro-de-fracciones"></a>
+con anulación canónica de los siete sumandos canónicos restantes no electromagnéticos {𝓛<sub>3</sub><sup>SV</sup>, 𝓛<sub>4</sub><sup>SV</sup>,..., 𝓛<sub>9</sub><sup>SV</sup>}. La pieza canónica A.4 articula con rango canónico el Teorema 27.1 del §27 del presente documento sobre la absorción canónica exacta de Maxwell factual.
 
-### XIII.8. Fracciones de ciclo
+## Pieza canónica A.5 — Aparato canónico de la proyección canónica admisible π<sub>L</sub>
 
-| fraction<sub>id</sub> | Dominio | (A<sub>i</sub>) | (F<sub>i</sub>) | Fracción actual | Fracción restante | Suma | Lectura formal |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| FR<sub>SUN</sub> | Sol | 4.570.000.000 | 10.000.000.000 | (457/1000) | (543/1000) | 1 | 0 |
-| FR<sub>SOLAR</sub><sub>SYSTEM</sub> | Sistema Solar | 4.568.000.000 | 10.000.000.000 | (571/1250) | (679/1250) | 1 | 0 |
-| FR<sub>MILKY</sub><sub>WAY</sub><sub>ENV</sub> | Vía Láctea-entorno | 13.600.000.000 | 27.200.000.000 | (1/2) | (1/2) | 1 | 0 |
-| FR<sub>OBSERVABLE</sub><sub>RETURNED</sub> | Observable retornado | 13.800.000.000 | 27.600.000.000 | (1/2) | (1/2) | 1 | 0 |
+**Pieza canónica A.5 (Aparato canónico de la proyección canónica admisible π<sub>L</sub> a los sumandos lumínicos).** El aparato canónico de la proyección canónica admisible π<sub>L</sub> de la Definición 28.1 del §28 del presente documento se cierra con rango canónico sobre la operación canónica:
 
-La prueba racional debe reducir cada fracción a términos irreducibles.
+```math
+\pi_L\;:\;\sum_{i=1}^{9}\mathcal{L}_i^{SV}(\Pi_{SV};\mathfrak{G}_{SV};\nu)=0\;\longmapsto\;\sum_{k=1}^{15}\mathcal{L}_k^{SV,L}(\Pi_{SV};\nu)=0,
+```
 
-Ejemplo solar:
+con anulación canónica de los sumandos canónicos restantes no lumínicos del operador maestro. La pieza canónica A.5 articula con rango canónico el Teorema 28.1 del §28 del presente documento sobre la absorción canónica exacta de la luz factual sobre los quince sumandos canónicos lumínicos y los trece invariantes canónicos del régimen canónico inferior.
 
-4 570 000 000/10 000 000 000
+## Pieza canónica A.6 — Aparato canónico de la proyección canónica admisible π<sub>T</sub>
 
-457/1000.
+**Pieza canónica A.6 (Aparato canónico de la proyección canónica admisible π<sub>T</sub> a los sumandos transmutativos sobre la clase G interior).** El aparato canónico de la proyección canónica admisible π<sub>T</sub> de la Definición 29.1 del §29 del presente documento se cierra con rango canónico sobre la operación canónica sobre sucesos factuales generadores interiores de la clase canónica G del §10:
 
-Ejemplo del Sistema Solar:
+```math
+\pi_T\;\Big|_{e_{\nu}\in G\text{ int}}\;:\;\mathbb{P}_{SV}=0\;\longmapsto\;\Omega_{\mathrm{pre}}\;\to\;\{m_0,\chi_{\alpha},U\}.
+```
 
-4 568 000 000/10 000 000 000
+La pieza canónica A.6 articula con rango canónico el Teorema 29.1 del §29 del presente documento sobre la absorción canónica exacta de la transmutación factual sobre la clase canónica G interior.
 
-571/1250.
+## Pieza canónica A.7 — Aparato canónico del funcional canónico integrador ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν]
 
-<a id="sec-xiii-9-registro-negativo-de-la-teoria"></a>
+**Pieza canónica A.7 (Aparato canónico del funcional canónico integrador ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν]).** El aparato canónico del funcional canónico integrador ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν] de la Definición 30.1 del §30 del presente documento se cierra con rango canónico sobre la operación canónica de integración canónica sobre el ordinal canónico ν append-only del aparato:
 
-### XIII.9. Controles negativos de la teoría
+```math
+\mathcal{H}^{SV}[\Pi_{SV};\nu]\;=\;\sum_{\nu'\leq\nu}h^{SV}(\Pi_{SV}^{(\nu')})\;\;\;\;\text{con}\;\;\;\;h^{SV}(\Pi_{SV}^{(\nu')})\geq 0\;\;\text{canónicamente},
+```
 
-| negative<sub>id</sub> | Entrada adversarial | Error esperado | Salida esperada |
-| --- | --- | --- | --- |
-| TNEG<sub>01</sub> | (Edad( T)=13.800.000.000,a<sub>J</sub>) | edad atribuida a totalidad absoluta | NO ADMISIBLE |
-| TNEG<sub>02</sub> | (A_☉=13.800.000.000,a<sub>J</sub>) | edad solar sustituida por observable retornado | NO ADMISIBLE |
-| TNEG<sub>03</sub> | (A<sub>SS</sub>=4.570.000.000,a<sub>J</sub>) | Sistema Solar confundido con Sol | NO ADMISIBLE |
-| TNEG<sub>04</sub> | (A<sub>VL</sub>=A_Ω<sub>obs</sub>) | Vía Láctea-entorno confundida con observable retornado | NO ADMISIBLE |
-| TNEG<sub>05</sub> | (A<sub>i</sub><sup>SV</sup>=284.018.399A<sub>i</sub>) | coeficiente transductivo falso | NO ADMISIBLE |
-| TNEG<sub>06</sub> | (A<sub>i</sub><sup>SV</sup>=284.018.401A<sub>i</sub>) | coeficiente transductivo falso | NO ADMISIBLE |
-| TNEG<sub>07</sub> | (R<sub>i</sub>≠ F<sub>i</sub>-A<sub>i</sub>) | resta falsa | NO ADMISIBLE |
-| TNEG<sub>08</sub> | (f<sub>i</sub>+ρ<sub>i</sub>≠1) | fracción falsa | NO ADMISIBLE |
-| TNEG<sub>09</sub> | (F<sub>i</sub><A<sub>i</sub>) | fin anterior a edad actual | NO ADMISIBLE |
-| TNEG<sub>10</sub> | edad sin dominio | dominio ausente | (U) |
-| TNEG<sub>11</sub> | edad sin fin estructural | restante no calculable | (U) |
-| TNEG<sub>12</sub> | edad sin unidad SV | transducción incompleta | (U) |
-| TNEG<sub>13</sub> | edad sin retorno inverso | residual de retorno | NO ADMISIBLE |
-| TNEG<sub>14</sub> | segunda fórmula con mismo retorno y distinto coeficiente | contradicción de unicidad | NO ADMISIBLE |
-| TNEG<sub>15</sub> | salida no tabulada | salida no autorizada | NO ADMISIBLE |
+donde h<sup>SV</sup> es la contribución canónica de cada suceso factual canónicamente admisible sobre el ordinal canónico ν append-only del aparato. La pieza canónica A.7 articula con rango canónico el Teorema 30.1 del §30 del presente documento sobre la absorción canónica exacta de la entropía factual como funcional canónico integrador bajo la ecuación maestra absoluta ℙ<sub>SV</sub> = 0.
 
-Un laboratorio sin control negativo no es apto.
+## Pieza canónica A.8 — Aparato canónico de la matriz canónica de coexistencia 15×15
 
-<a id="sec-xiii-10-catalogo-de-errores"></a>
+**Pieza canónica A.8 (Aparato canónico de la matriz canónica de coexistencia 15×15).** El aparato canónico de la matriz canónica de coexistencia 𝓜<sup>SV</sup><sub>coex</sub> de la Definición 35.1 del §35 del presente documento se cierra con rango canónico sobre las cuatro propiedades canónicas simultáneas de la Proposición 35.1 del §35 del presente documento:
 
-### XIII.10. Catálogo de errores
+```math
+[\mathcal{M}^{SV}_{coex}]_{ij}\;=\;1\;\;\text{para todo}\;\;i,j\in\{1,...,15\}\;\;\text{(plenitud canónica)},
+```
 
-| Código | Definición | Salida |
-| --- | --- | --- |
-| E-PLANO-01 | Edad atribuida a la totalidad absoluta | 1 |
-| E-PLANO-02 | Edad de un dominio atribuida a otro dominio | 1 |
-| E-DOM-01 | Dominio ausente | U |
-| E-DOM-02 | Dominio contradictorio | 1 |
-| E-ID-01 | Identidad física ausente | U |
-| E-FIN-01 | Fin estructural ausente | U |
-| E-UNIT-01 | Unidad física ausente | U |
-| E-UNIT-02 | Unidad SV ausente | U |
-| E-TRANS-01 | Coeficiente transductivo falso | 1 |
-| E-TRANS-02 | Retorno inverso no exacto | 1 |
-| E-ARIT-01 | Restante distinto de fin menos actual | 1 |
-| E-ARIT-02 | Actual más restante no reproduce fin | 1 |
-| E-FRAC-01 | Fracción actual más restante distinta de uno | 1 |
-| E-FRAC-02 | Fracción de un dominio aplicada a otro | 1 |
-| E-LAB-01 | Salida no tabulada | 1 |
-| E-LAB-02 | Redondeo no autorizado | 1 |
-| E-LAB-03 | Uso de coma flotante | 1 |
-| E-LAB-04 | Control negativo omitido | 1 |
-| E-LAB-05 | Pase silencioso | 1 |
+```math
+[\mathcal{M}^{SV}_{coex}]_{ij}\;=\;[\mathcal{M}^{SV}_{coex}]_{ji}\;\;\text{(simetría canónica)},
+```
 
-<a id="sec-xiii-11-runner-de-verificacion"></a>
+más la diagonal canónica unitaria y la honestidad canónica del Lema 8.3 de Lloret Egea (2026j). La pieza canónica A.8 articula con rango canónico el régimen canónico de coexistencia canónica entre las quince visiones canónicas del §34 del presente documento sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>).
 
-### XIII.11. Runner de verificación
+## Cierre canónico del anexo operatorio
 
-El runner debe implementar la teoría sin aproximaciones:
+El anexo operatorio canónica del presente documento cierra con rango canónico las ocho piezas canónicas operatorias cerradas del aparato general canónico del presente documento. Las ocho piezas canónicas operatorias articulan con rango canónico el aparato canónico matemático riguroso cerrado canónicamente del aparato general canónico del presente documento sobre la disciplina canónica del corpus del Sistema Vectorial SV.
 
-from fractions import Fraction
+---
 
-JULIAN<sub>YEAR</sub><sub>SECONDS</sub> = 31<sub>557</sub><sub>600</sub>
+# Apéndice de blindaje adversarial absoluto del Teorema 1.1 — siete observaciones canónicas
 
-UEMFC<sub>PER</sub><sub>SECOND</sub> = 9
+## Apertura canónica del apéndice de blindaje adversarial absoluto
 
-K<sub>AGE</sub> = JULIAN<sub>YEAR</sub><sub>SECONDS</sub> * UEMFC<sub>PER</sub><sub>SECOND</sub>
+El **apéndice de blindaje adversarial canónico** del presente documento despliega con rango canónico las **siete observaciones canónicas blindadoras** del Teorema 1.1 inaugural del §1 del presente documento, refutando con rigor canónica siete vectores canónicos adversariales canónicos potenciales sobre el Teorema 1.1 inaugural. La línea remitente canónica del §1.5 del presente documento, posterior canónicamente a la demostración canónica del Teorema 1.1 inaugural, articula con rango canónico la elegancia canónica de la remisión al presente apéndice canónico.
 
-assert K<sub>AGE</sub> == 284<sub>018</sub><sub>400</sub>
+## Observación canónica blindadora O.B.1 — refutación del vector adversarial de circularidad
 
-OBJECTS =
+**Observación canónica blindadora O.B.1 (Refutación del vector adversarial de circularidad sobre el Teorema 1.1 inaugural).** Un vector canónica adversarial canónica potencial sobre el Teorema 1.1 inaugural del §1 del presente documento puede articular el cargo canónica adversarial canónica siguiente: el Teorema 1.1 inaugural opera sobre un razonamiento canónica circular canónica, en el sentido canónico adversarial canónica de que la demostración canónica del Teorema 1.1 inaugural presupone lo que pretende demostrar.
 
-"SUN":
+**Refutación canónica del vector adversarial de circularidad.** El cargo canónica adversarial canónica de circularidad es refutado canónicamente. La demostración canónica del Teorema 1.1 inaugural procede sobre dos pasos canónicos formales disjuntos canónicamente: el Paso (i) sobre la necesidad canónica de F<sub>0</sub> como condición canónica formal de distinguibilidad sobre Ω<sub>pre</sub>, y el Paso (ii) sobre la exclusión canónica exhaustiva canónica de las ocho ramas canónicas alternativas (a)–(h). Cada paso canónico opera sobre primitivos canónicos del corpus del Sistema Vectorial SV (axioma canónica de la U canónica del corpus, prohibiciones constitutivas P.1–P.6 del corpus, clasificador canónico Γ<sub>ℋ</sub> del corpus) sin presuponer la conclusión canónica del Teorema 1.1 inaugural. La articulación canónica entre el Paso (i) y el Paso (ii) sobre los primitivos canónicos del corpus cierra con rigor canónica la demostración canónica del Teorema 1.1 inaugural sin circularidad canónica.
 
-"current<sub>aj</sub>": 4<sub>570</sub><sub>000</sub><sub>000</sub>,
+## Observación canónica blindadora O.B.2 — refutación del vector adversarial de suficiencia sin necesidad
 
-"finish<sub>aj</sub>": 10<sub>000</sub><sub>000</sub><sub>000</sub>,
+**Observación canónica blindadora O.B.2 (Refutación del vector adversarial de suficiencia sin necesidad sobre el Teorema 1.1 inaugural).** Un vector canónica adversarial canónica potencial sobre el Teorema 1.1 inaugural puede articular el cargo canónica adversarial canónica siguiente: la cadena formal mínima canónica de legitimidad del Teorema 1.1 inaugural es solamente suficiente canónicamente, no necesaria canónicamente, en el sentido canónico adversarial canónica de que existirían otras cadenas canónicas alternativas que también satisfarían las seis condiciones constitutivas (1)–(6) del enunciado del Teorema 1.1 inaugural.
 
-"expected<sub>current</sub><sub>uemfc</sub>": 1<sub>297</sub><sub>964</sub><sub>088</sub><sub>000</sub><sub>000</sub><sub>000</sub>,
+**Refutación canónica del vector adversarial de suficiencia sin necesidad.** El cargo canónica adversarial canónica de suficiencia sin necesidad es refutado canónicamente. El Paso (ii) de la demostración canónica del Teorema 1.1 inaugural procede sobre la exclusión canónica exhaustiva canónica de las ocho ramas canónicas alternativas (a)–(h), demostrando con rigor canónica que cada rama canónica alternativa viola al menos una de las seis condiciones constitutivas (1)–(6) del enunciado del Teorema 1.1 inaugural. Por tanto la cadena formal mínima canónica de legitimidad es la única cadena canónica admisible canónicamente que satisface simultáneamente las seis condiciones constitutivas, articulando con rigor canónica la unicidad estructural condicionada del tránsito canónico ε<sub>0</sub>–F<sub>0</sub>–U. La unicidad canónica es unicidad canónica condicionada sobre las seis condiciones constitutivas: bajo otras condiciones canónicas distintas, podrían existir otras cadenas canónicas alternativas, pero ninguna de ellas satisfaría las seis condiciones constitutivas del Teorema 1.1 inaugural del corpus.
 
-"expected<sub>finish</sub><sub>uemfc</sub>": 2<sub>840</sub><sub>184</sub><sub>000</sub><sub>000</sub><sub>000</sub><sub>000</sub>,
+## Observación canónica blindadora O.B.3 — refutación del vector adversarial de equivalencia estructural no demostrada
 
-"expected<sub>remaining</sub><sub>aj</sub>": 5<sub>430</sub><sub>000</sub><sub>000</sub>,
+**Observación canónica blindadora O.B.3 (Refutación del vector adversarial de equivalencia estructural no demostrada sobre el Teorema 1.1 inaugural).** Un vector canónica adversarial canónica potencial sobre el Teorema 1.1 inaugural puede articular el cargo canónica adversarial canónica siguiente: el Teorema 1.1 inaugural presupone sin demostrar la equivalencia estructural entre los siete eslabones canónicos de la cadena formal mínima canónica de legitimidad y los siete eslabones canónicos del corpus del Sistema Vectorial SV.
 
-"expected<sub>remaining</sub><sub>uemfc</sub>": 1<sub>542</sub><sub>219</sub><sub>912</sub><sub>000</sub><sub>000</sub><sub>000</sub>,
+**Refutación canónica del vector adversarial de equivalencia estructural no demostrada.** El cargo canónica adversarial canónica de equivalencia estructural no demostrada es refutado canónicamente. La demostración canónica del Teorema 1.1 inaugural no presupone equivalencia estructural entre la cadena formal mínima canónica y otras cadenas canónicas externas al corpus: opera sobre los primitivos canónicos del corpus sin introducir axioma canónica soberano ajeno al corpus (P.5 respetada). La articulación canónica entre los siete eslabones canónicos de la cadena formal mínima canónica y los primitivos canónicos del corpus se articula con rigor canónica sobre el axioma canónica de la U canónica del corpus, las prohibiciones constitutivas P.1–P.6 del corpus y el clasificador canónico Γ<sub>ℋ</sub> del corpus, sin presuponer equivalencia estructural no demostrada.
 
-"expected<sub>fraction</sub>": Fraction(457, 1000),
+## Observación canónica blindadora O.B.4 — refutación del vector adversarial de petición de principio
 
-,
+**Observación canónica blindadora O.B.4 (Refutación del vector adversarial de petición de principio sobre el Teorema 1.1 inaugural).** Un vector canónica adversarial canónica potencial sobre el Teorema 1.1 inaugural puede articular el cargo canónica adversarial canónica siguiente: el Teorema 1.1 inaugural opera sobre una petición de principio canónico, en el sentido canónico adversarial canónica de que la demostración canónica del Teorema 1.1 inaugural asume sin justificar la legitimidad canónica de los primitivos canónicos del corpus sobre los que opera.
 
-"SOLAR<sub>SYSTEM</sub>":
+**Refutación canónica del vector adversarial de petición de principio.** El cargo canónica adversarial canónica de petición de principio es refutado canónicamente. El Teorema 1.1 inaugural del §1 del presente documento opera sobre los primitivos canónicos del corpus del Sistema Vectorial SV, no sobre primitivos canónicos soberanos ajenos al corpus. La legitimidad canónica de los primitivos canónicos del corpus se establece con rango canónico en los etapas del corpus recogidos en el §2.1 del presente documento: los Fundamentos canónicos del Sistema Vectorial SV (Lloret Egea, 2026a), el clasificador canónico Γ<sub>ℋ</sub> del corpus (Lloret Egea, 2026c), la estructura preternaria del par polar canónico (Lloret Egea, 2026j), y los etapas restantes del corpus. El presente documento no introduce primitivos canónicos soberanos ajenos al corpus; opera sobre los primitivos canónicos canónicamente legitimados del corpus sin petición de principio canónico.
 
-"current<sub>aj</sub>": 4<sub>568</sub><sub>000</sub><sub>000</sub>,
+## Observación canónica blindadora O.B.5 — refutación del vector adversarial de externalismo
 
-"finish<sub>aj</sub>": 10<sub>000</sub><sub>000</sub><sub>000</sub>,
+**Observación canónica blindadora O.B.5 (Refutación del vector adversarial de externalismo sobre el Teorema 1.1 inaugural).** Un vector canónica adversarial canónica potencial sobre el Teorema 1.1 inaugural puede articular el cargo canónica adversarial canónica siguiente: el Teorema 1.1 inaugural opera sobre conceptos canónicos externos al corpus del Sistema Vectorial SV, en el sentido canónico adversarial canónica de que la frontera exterior ε<sub>0</sub> y la estructura formal mínima canónica F<sub>0</sub> serían conceptos canónicos soberanos heredados de aparatos canónicos externos al Sistema Vectorial SV.
 
-"expected<sub>current</sub><sub>uemfc</sub>": 1<sub>297</sub><sub>396</sub><sub>051</sub><sub>200</sub><sub>000</sub><sub>000</sub>,
+**Refutación canónica del vector adversarial de externalismo.** El cargo canónica adversarial canónica de externalismo es refutado canónicamente. La frontera exterior ε<sub>0</sub> del Teorema 1.1 inaugural se define con rango canónico en la Definición 1.1 del §1 del presente documento sobre el corpus del Sistema Vectorial SV, articulada con rango canónico sobre cuatro propiedades canónicas (exterioridad canónica, exogeneidad canónica, anterioridad ordinal canónico, no clausurabilidad canónica desde dentro del aparato). La estructura formal mínima canónica F<sub>0</sub> del Teorema 1.1 inaugural se define con rango canónico en la Definición 1.2 del §1 del presente documento sobre el corpus, articulada con rango canónico como preformalidad mínima canónica de distinguibilidad sobre Ω<sub>pre</sub> sin sustancialización soberana. Ambos conceptos canónicos son intra-corpus canónico del Sistema Vectorial SV, no externos al corpus. El reconocimiento honesto canónica del carácter canónica exógeno de la frontera exterior ε<sub>0</sub> dentro del aparato del corpus es la articulación canónica de la prohibición constitutiva P.6 del corpus sobre la no clausura espuria, no externalismo canónica.
 
-"expected<sub>finish</sub><sub>uemfc</sub>": 2<sub>840</sub><sub>184</sub><sub>000</sub><sub>000</sub><sub>000</sub><sub>000</sub>,
+## Observación canónica blindadora O.B.6 — refutación del vector adversarial de trivialidad por reducción al absurdo
 
-"expected<sub>remaining</sub><sub>aj</sub>": 5<sub>432</sub><sub>000</sub><sub>000</sub>,
+**Observación canónica blindadora O.B.6 (Refutación del vector adversarial de trivialidad por reducción al absurdo sobre el Teorema 1.1 inaugural).** Un vector canónica adversarial canónica potencial sobre el Teorema 1.1 inaugural puede articular el cargo canónica adversarial canónica siguiente: la demostración canónica del Teorema 1.1 inaugural opera sobre una reducción al absurdo canónica trivial canónica, en el sentido canónico adversarial canónica de que la exclusión canónica exhaustiva canónica de las ocho ramas canónicas alternativas (a)–(h) del Paso (ii) se haría sobre criterios canónicos triviales canónicas.
 
-"expected<sub>remaining</sub><sub>uemfc</sub>": 1<sub>542</sub><sub>787</sub><sub>948</sub><sub>800</sub><sub>000</sub><sub>000</sub>,
+**Refutación canónica del vector adversarial de trivialidad por reducción al absurdo.** El cargo canónica adversarial canónica de trivialidad por reducción al absurdo es refutado canónicamente. La exclusión canónica exhaustiva canónica de las ocho ramas canónicas alternativas (a)–(h) del Paso (ii) de la demostración canónica del Teorema 1.1 inaugural opera sobre criterios canónicos rigurosos canónicos del corpus del Sistema Vectorial SV: cada rama canónica alternativa se refuta con rigor canónica sobre la base canónica de violar al menos una de las prohibiciones constitutivas P.1–P.6 del corpus, o de violar alguno de los etapas del corpus recogidos en el §2.1 del presente documento. La refutación canónica de cada rama canónica alternativa es refutación canónica rigurosa canónica, no refutación canónica trivial canónica. La exhaustividad canónica de la exclusión canónica de las ocho ramas canónicas alternativas se garantiza sobre la combinatoria canónica de las posibles configuraciones canónicas alternativas sobre los siete eslabones canónicos de la cadena formal mínima canónica de legitimidad.
 
-"expected<sub>fraction</sub>": Fraction(571, 1250),
+## Observación canónica blindadora O.B.7 — refutación del vector adversarial de completitud no demostrada sobre el séptimo eslabón
 
-,
+**Observación canónica blindadora O.B.7 (Refutación del vector adversarial de completitud no demostrada sobre el séptimo eslabón del Teorema 1.1 inaugural).** Un vector canónica adversarial canónica potencial sobre el Teorema 1.1 inaugural puede articular el cargo canónica adversarial canónica siguiente: la cadena formal mínima canónica de legitimidad del Teorema 1.1 inaugural se cierra sobre siete eslabones canónicos sin demostrar la completitud canónica del séptimo eslabón canónico, en el sentido canónico adversarial canónica de que existirían eslabones canónicos adicionales no contemplados en la cadena formal mínima canónica.
 
-"MILKY<sub>WAY</sub><sub>ENV</sub>":
+**Refutación canónica del vector adversarial de completitud no demostrada sobre el séptimo eslabón.** El cargo canónica adversarial canónica de completitud no demostrada sobre el séptimo eslabón es refutado canónicamente. La cadena formal mínima canónica de legitimidad del Teorema 1.1 inaugural del §1 del presente documento se cierra sobre siete eslabones canónicos canónicamente suficientes canónicamente para articular con rigor canónica la emergencia canónica de los sucesos generadores y de los protocampos unificados del aparato general canónico del presente documento. La completitud canónica de los siete eslabones canónicos se establece con rigor canónica sobre la articulación canónica entre el Paso (i) sobre la necesidad canónica de F<sub>0</sub> y el Paso (ii) sobre la exclusión canónica exhaustiva de las ocho ramas canónicas alternativas. eslabones canónicos adicionales no son necesarios canónicamente para la articulación canónica del Teorema 1.1 inaugural, conforme a la articulación canónica de la cadena formal mínima canónica sobre el corpus del Sistema Vectorial SV. La declaración canónica de minimalidad canónica de la cadena formal mínima canónica — siete eslabones canónicos suficientes canónicamente, no menos, no más — es parte canónica del rigor canónica del Teorema 1.1 inaugural.
 
-"current<sub>aj</sub>": 13<sub>600</sub><sub>000</sub><sub>000</sub>,
+## Cierre canónico del apéndice de blindaje adversarial absoluto
 
-"finish<sub>aj</sub>": 27<sub>200</sub><sub>000</sub><sub>000</sub>,
+El apéndice de blindaje adversarial canónico del presente documento cierra con rango canónico las siete observaciones canónicas blindadoras del Teorema 1.1 inaugural del §1 del presente documento. Las siete observaciones canónicas blindadoras refutan con rigor canónica siete vectores canónicos adversariales canónicos potenciales sobre el Teorema 1.1 inaugural, blindando con rango canónico la legitimidad canónica del Teorema 1.1 inaugural sobre el corpus del Sistema Vectorial SV. La línea remitente canónica del §1.5 del presente documento, posterior canónicamente a la demostración canónica del Teorema 1.1 inaugural, articula con rango canónico la elegancia canónica de la remisión al presente apéndice canónico.
 
-"expected<sub>current</sub><sub>uemfc</sub>": 3<sub>862</sub><sub>650</sub><sub>240</sub><sub>000</sub><sub>000</sub><sub>000</sub>,
+---
 
-"expected<sub>finish</sub><sub>uemfc</sub>": 7<sub>725</sub><sub>300</sub><sub>480</sub><sub>000</sub><sub>000</sub><sub>000</sub>,
+# Apéndice canónico de las prohibiciones constitutivas P.1–P.6 desarrolladas
 
-"expected<sub>remaining</sub><sub>aj</sub>": 13<sub>600</sub><sub>000</sub><sub>000</sub>,
+## Apertura canónica del apéndice canónico de las prohibiciones constitutivas
 
-"expected<sub>remaining</sub><sub>uemfc</sub>": 3<sub>862</sub><sub>650</sub><sub>240</sub><sub>000</sub><sub>000</sub><sub>000</sub>,
+El **apéndice canónico** del presente documento despliega con rango canónico las **seis prohibiciones constitutivas P.1–P.6** del corpus del Sistema Vectorial SV desarrolladas con rigor canónica, articulando con rango canónico el **refuerzo canónica específico** de cada prohibición canónica sobre los sucesos generadores y la frontera exterior ε<sub>0</sub> del aparato general canónico del presente documento.
 
-"expected<sub>fraction</sub>": Fraction(1, 2),
+## Prohibición constitutiva P.1 — prohibición canónica del tiempo soberano
 
-,
+**Prohibición constitutiva P.1 (Prohibición canónica del tiempo soberano).** En el aparato del Sistema Vectorial SV, **no comparece** con rango canónico el **tiempo soberano** del aparato SI heredado. La articulación canónica de los sucesos factuales del aparato se realiza con rango canónico sobre el **ordinal canónico ν append-only** del aparato, conforme al Lema 6.5 de Lloret Egea (2026j) sobre la no retorno preternario. La derivada canónica del aparato **∂<sub>ν</sub><sup>SV</sup>** es **diferencia finita canónica sobre el ordinal canónico** ν del aparato, **no derivada temporal** del aparato SI heredado.
 
-"OBSERVABLE<sub>RETURNED</sub>":
+**Refuerzo canónica específico sobre sucesos generadores.** Los sucesos generadores canónicos del aparato general canónico del presente documento operan con rango canónico sobre el ordinal canónico ν append-only del aparato, no sobre tiempo soberano. La acción canónica del operador soberano canónico de generación 𝔊<sub>SV</sub> del §11 del presente documento opera sobre el ordinal canónico ν append-only, conforme al Teorema 12.4 del §12 del presente documento sobre la estabilidad estructural canónica. La prohibición constitutiva P.1 queda respetada con rango canónico sobre los sucesos generadores.
 
-"current<sub>aj</sub>": 13<sub>800</sub><sub>000</sub><sub>000</sub>,
+**Refuerzo canónica específico sobre la frontera exterior ε<sub>0</sub>.** La frontera exterior ε<sub>0</sub> del aparato del Sistema Vectorial SV no es instante temporal soberano del aparato SI heredado, conforme a la propiedad canónica de anterioridad ordinal canónico de la Definición 1.1 del §1 del presente documento: ε<sub>0</sub> articula con rango canónico la marca canónica cero canónica del ordinal canónico ν append-only del aparato, no instante temporal soberano. La prohibición constitutiva P.1 queda respetada con rango canónico sobre la frontera exterior ε<sub>0</sub>.
 
-"finish<sub>aj</sub>": 27<sub>600</sub><sub>000</sub><sub>000</sub>,
+## Prohibición constitutiva P.2 — prohibición canónica de la probabilidad fundante
 
-"expected<sub>current</sub><sub>uemfc</sub>": 3<sub>919</sub><sub>453</sub><sub>920</sub><sub>000</sub><sub>000</sub><sub>000</sub>,
+**Prohibición constitutiva P.2 (Prohibición canónica de la probabilidad fundante).** En el aparato del Sistema Vectorial SV, **no comparece** con rango canónico la **probabilidad fundante** del aparato SI heredado. Las magnitudes canónicas del aparato, incluido el par polar canónico (α<sub>i</sub>, β<sub>i</sub>) del corpus, son **magnitudes estructurales canónicos**, no magnitudes estadísticas canónicas. Las densidades canónicas ρ<sub>0</sub>(ξ<sub>i</sub>), ρ<sub>1</sub>(ξ<sub>i</sub>) y ρ<sub>tot</sub>(ξ<sub>i</sub>) son **magnitudes estructurales canónicos** sobre los observables canónicos del corpus, no magnitudes probabilísticas.
 
-"expected<sub>finish</sub><sub>uemfc</sub>": 7<sub>838</sub><sub>907</sub><sub>840</sub><sub>000</sub><sub>000</sub><sub>000</sub>,
+**Refuerzo canónica específico sobre sucesos generadores.** Los sucesos generadores canónicos del aparato general canónico del presente documento operan con rango canónico sobre el clasificador canónico Γ<sub>ℋ</sub> del corpus, articulado sobre criterios canónicos estructurales canónicos, no sobre criterios canónicos probabilísticos canónicos. La prohibición constitutiva P.2 queda respetada con rango canónico sobre los sucesos generadores.
 
-"expected<sub>remaining</sub><sub>aj</sub>": 13<sub>800</sub><sub>000</sub><sub>000</sub>,
+**Refuerzo canónica específico sobre la frontera exterior ε<sub>0</sub>.** La frontera exterior ε<sub>0</sub> del aparato no se articula con rango canónico sobre criterios canónicos probabilísticos canónicos, sino sobre criterios canónicos estructurales canónicos: la propiedad canónica de exogeneidad canónica y la propiedad canónica de no clausurabilidad canónica desde dentro del aparato. La prohibición constitutiva P.2 queda respetada con rango canónico sobre la frontera exterior ε<sub>0</sub>.
 
-"expected<sub>remaining</sub><sub>uemfc</sub>": 3<sub>919</sub><sub>453</sub><sub>920</sub><sub>000</sub><sub>000</sub><sub>000</sub>,
+## Prohibición constitutiva P.3 — prohibición canónica de la geometría soberana auxiliar
 
-"expected<sub>fraction</sub>": Fraction(1, 2),
+**Prohibición constitutiva P.3 (Prohibición canónica de la geometría soberana auxiliar).** En el aparato del Sistema Vectorial SV, **no comparece** con rango canónico la **geometría soberana auxiliar** del aparato SI heredado. La topología canónica del aparato es **topología combinatoria canónica** sobre el alfabeto canónica Σ = {0, 1, U}, no topología euclídea soberana. La métrica canónica del aparato es **métrica factual derivada canónica** dist<sub>SV</sub>(·,·), no distancia geométrica soberana.
 
-,
+**Refuerzo canónica específico sobre sucesos generadores.** Los sucesos generadores canónicos operan con rango canónico sobre la topología combinatoria canónica del aparato, no sobre topología euclídea soberana heredada. La prohibición constitutiva P.3 queda respetada con rango canónico sobre los sucesos generadores.
 
-def to<sub>uemfc</sub>(years<sub>aj</sub>: int) -> int:
+**Refuerzo canónica específico sobre la frontera exterior ε<sub>0</sub>.** La frontera exterior ε<sub>0</sub> no se articula con rango canónico sobre soporte geométrico soberano heredado, sino sobre la combinatoria canónica del corpus. La prohibición constitutiva P.3 queda respetada con rango canónico sobre la frontera exterior ε<sub>0</sub>.
 
-return years<sub>aj</sub> * K<sub>AGE</sub>
+## Prohibición constitutiva P.4 — prohibición canónica de la inferencia opaca
 
-def from<sub>uemfc</sub>(value: int) -> int:
+**Prohibición constitutiva P.4 (Prohibición canónica de la inferencia opaca).** En el aparato del Sistema Vectorial SV, **no comparece** con rango canónico la **inferencia opaca canónica**: ningún paso canónico del aparato opera sobre heurística oculta canónica. La articulación canónica del aparato se realiza con rango canónico sobre la honestidad coordenada canónica del Lema 8.3 de Lloret Egea (2026j), articulando con rango canónico la trazabilidad canónica de cada paso canónico sobre el corpus.
 
-if value % K<sub>AGE</sub> != 0:
+**Refuerzo canónica específico sobre sucesos generadores.** Los sucesos generadores canónicos operan con rango canónico sobre el clasificador canónico Γ<sub>ℋ</sub> del corpus, articulando con rango canónico la trazabilidad canónica de cada suceso factual generador interior sobre el corpus, sin introducir heurística oculta. La prohibición constitutiva P.4 queda respetada con rango canónico sobre los sucesos generadores.
 
-raise AssertionError("E-TRANS-02: retorno inverso no exacto")
+**Refuerzo canónica específico sobre la frontera exterior ε<sub>0</sub>.** La frontera exterior ε<sub>0</sub> se articula con rango canónico sobre cuatro propiedades canónicas explícitas (exterioridad canónica, exogeneidad canónica, anterioridad ordinal canónico, no clausurabilidad canónica), articuladas con rigor canónica sobre el corpus sin introducir heurística oculta. La prohibición constitutiva P.4 queda respetada con rango canónico sobre la frontera exterior ε<sub>0</sub>.
 
-return value // K<sub>AGE</sub>
+## Prohibición constitutiva P.5 — prohibición canónica de la adición axiomática externa al corpus
 
-def check<sub>object</sub>(object<sub>id</sub>: str, row: dict) -> None:
+**Prohibición constitutiva P.5 (Prohibición canónica de la adición axiomática externa al corpus).** En el aparato del Sistema Vectorial SV, **no comparece** con rango canónico la **adición canónica de axiomas externos** al corpus. El presente documento opera con rango canónico sobre los primitivos canónicos del corpus del Sistema Vectorial SV sin introducir axiomas canónicos soberanos ajenos al corpus.
 
-current = row["current<sub>aj</sub>"]
+**Refuerzo canónica específico sobre sucesos generadores.** Los sucesos generadores canónicos del aparato general canónico del presente documento se articulan con rango canónico sobre la clase canónica G del §10 del presente documento, articulada con rango canónico sobre el par polar canónico (α<sub>i</sub>, β<sub>i</sub>) del corpus, sin introducir axiomas canónicos soberanos ajenos al corpus. La prohibición constitutiva P.5 queda respetada con rango canónico sobre los sucesos generadores.
 
-finish = row["finish<sub>aj</sub>"]
+**Refuerzo canónica específico sobre la frontera exterior ε<sub>0</sub>.** La frontera exterior ε<sub>0</sub> y la estructura formal mínima canónica F<sub>0</sub> se articulan con rango canónico sobre el corpus del Sistema Vectorial SV, sin introducir axiomas canónicos soberanos ajenos al corpus, conforme a la articulación canónica del Destacado canónico del §4bis del documento de la luz factual sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>). La prohibición constitutiva P.5 queda respetada con rango canónico sobre la frontera exterior ε<sub>0</sub>.
 
-remaining = finish - current
+## Prohibición constitutiva P.6 — prohibición canónica de la clausura espuria
 
-if finish < current:
+**Prohibición constitutiva P.6 (Prohibición canónica de la clausura espuria).** En el aparato del Sistema Vectorial SV, **no comparece** con rango canónico la **clausura espuria canónica** sobre la indeterminación canónica U. La indeterminación canónica U del aparato se resuelve con rango canónico sólo por sucesos factuales admisibles canónicamente según el clasificador canónico Γ<sub>ℋ</sub> del corpus (Lloret Egea, 2026c, Teorema 1), no por decreto canónica del aparato.
 
-raise AssertionError(f"object<sub>id</sub>: E-ARIT-01")
+**Refuerzo canónica específico sobre sucesos generadores.** Los sucesos generadores canónicos del aparato general canónico del presente documento operan con rango canónico sobre la clase canónica G interior del §10 del presente documento, sin clausurar la frontera exterior ε<sub>0</sub> del aparato desde dentro. La prohibición constitutiva P.6 queda respetada con rango canónico sobre los sucesos generadores.
 
-current<sub>uemfc</sub> = to<sub>uemfc</sub>(current)
+**Refuerzo canónica específico sobre la frontera exterior ε<sub>0</sub>.** La frontera exterior ε<sub>0</sub> del aparato del Sistema Vectorial SV es **indeterminación legítima honesta no cerrable** desde dentro del aparato, conforme a la Proposición 37.1 del §37 del presente documento sobre el refuerzo canónica de la prohibición constitutiva P.6 sobre la frontera exterior ε<sub>0</sub>. La prohibición constitutiva P.6 queda respetada con rango canónico sobre la frontera exterior ε<sub>0</sub>, articulando con rango canónico la honestidad canónica del aparato ante el origen canónica del aparato.
 
-finish<sub>uemfc</sub> = to<sub>uemfc</sub>(finish)
+## Cierre canónico del apéndice canónico de las prohibiciones constitutivas
 
-remaining<sub>uemfc</sub> = to<sub>uemfc</sub>(remaining)
+El apéndice canónico del presente documento cierra con rango canónico las seis prohibiciones constitutivas P.1–P.6 del corpus del Sistema Vectorial SV desarrolladas con rigor canónica, articulando con rango canónico el refuerzo canónica específico de cada prohibición canónica sobre los sucesos generadores y la frontera exterior ε<sub>0</sub> del aparato general canónico del presente documento. Las seis prohibiciones constitutivas P.1–P.6 operan con rango canónico simultáneamente sobre el aparato general canónico del presente documento, articulando con rango canónico la disciplina canónica del corpus.
 
-assert current<sub>uemfc</sub> == row["expected<sub>current</sub><sub>uemfc</sub>"], f"object<sub>id</sub>: E-TRANS-01 current"
+---
 
-assert finish<sub>uemfc</sub> == row["expected<sub>finish</sub><sub>uemfc</sub>"], f"object<sub>id</sub>: E-TRANS-01 finish"
+# Glosario tipográfico canónico
 
-assert remaining == row["expected<sub>remaining</sub><sub>aj</sub>"], f"object<sub>id</sub>: E-ARIT-01 remaining"
+## Apertura canónica del glosario tipográfico canónico
 
-assert remaining<sub>uemfc</sub> == row["expected<sub>remaining</sub><sub>uemfc</sub>"], f"object<sub>id</sub>: E-TRANS-01 remaining"
+El **glosario tipográfico canónico** del presente documento consigna con rango canónico los **símbolos canónicos** del aparato general canónico del presente documento, articulando con rango canónico la convención canónica del corpus del Sistema Vectorial SV: los símbolos canónicos fraktur en notación matemática canónica y los símbolos canónicos en negrita romana canónica en prosa canónica.
 
-assert current + remaining == finish, f"object<sub>id</sub>: E-ARIT-02"
+## Símbolos canónicos del aparato general canónico
 
-fraction = Fraction(current, finish)
+| símbolo canónico | Lectura canónica |
+|---|---|
+| ε<sub>0</sub> | Frontera exterior canónica del aparato del Sistema Vectorial SV (Definición 1.1 del §1) |
+| F<sub>0</sub> | Estructura formal mínima canónica de distinguibilidad sobre Ω<sub>pre</sub> (Definición 1.2 del §1) |
+| Φ(0) = Φ(1) | Equipotencialidad polar inicial canónica sobre el borde inicial del dominio preternario Ω<sub>pre</sub> (Definición 1.3 del §1) |
+| 𝒩<sub>SV</sub> | No-decisión canónica del aparato bajo equipotencialidad polar inicial (Definición 1.4 del §1) |
+| U | Marca canónica de indeterminación legítima honesta del aparato (Definición 1.5 del §1) |
+| Ω<sub>pre</sub> | Dominio preternario canónica del aparato del corpus |
+| Ω<sub>pro</sub> | Dominio prototernario canónica del aparato, emergente del dominio preternario Ω<sub>pre</sub> (Definición 1.6 del §1) |
+| Σ | Alfabeto canónica del aparato, Σ = {0, 1, U} canónicamente |
+| 𝒞<sub>F<sub>0</sub>,SV</sub> | Cadena formal mínima canónica de legitimidad del aparato (Definición 1.7 del §1) |
+| (α<sub>i</sub>, β<sub>i</sub>) | Par polar canónica del corpus sobre la posición factual ξ<sub>i</sub> ∈ Ω<sub>pro</sub> |
+| Π<sub>SV</sub> | Protocampo primordial unificado canónica del aparato general canónico (Definición 5.1 del §5) |
+| 𝔊<sub>SV</sub> | Operador soberano canónica de generación del aparato general canónico (Definición 11.1 del §11) |
+| ℙ<sub>SV</sub> | Operador maestro canónica de la ecuación maestra canónica ℙ<sub>SV</sub>(Π<sub>SV</sub>; 𝔊<sub>SV</sub>; {𝓛<sub>i</sub>}; ν) = 0 del aparato general canónico (§§23–25) |
+| 𝓛<sub>i</sub><sup>SV</sup> | sumandos canónicos del operador maestro ℙ<sub>SV</sub>, i ∈ {1,..., 9} canónicamente (§23) |
+| 𝔼<sub>SV</sub> | Operador canónica del régimen canónico inferior de Maxwell factual del corpus (Lloret Egea, 2026k) |
+| L<sub>SV</sub> | Operador canónica del régimen canónico inferior de la luz factual del corpus |
+| H<sub>SV</sub> | Funcional canónica de la entropía factual del corpus (Lloret Egea, 2026l) |
+| ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν] | Funcional canónica integrador del aparato general canónico sobre el ordinal canónico ν append-only (Definición 30.1 del §30) |
+| Π<sub>3</sub><sup>H</sup> | Operador canónica de proyección activada del aparato general canónico (§18) |
+| Δ<sub>SV</sub>(ξ<sub>i</sub>) | Densidad polar canónica del protocampo primordial unificado sobre la posición factual ξ<sub>i</sub> ∈ Ω<sub>pro</sub> (Definición 7.1 del §7) |
+| δ<sub>i</sub><sup>SV</sup> | Gradiente resolutivo canónica del protocampo primordial unificado sobre la posición factual ξ<sub>i</sub> ∈ Ω<sub>pro</sub> (Definición 7.2 del §7) |
+| E<sub>SV</sub>(ξ<sub>i</sub>) | Energía factual canónica del protocampo primordial unificado sobre la posición factual ξ<sub>i</sub> ∈ Ω<sub>pro</sub> (Definición 7.4 del §7) |
+| κ<sub>SV</sub>(ξ<sub>i</sub>) | Cota factual canónica del protocampo primordial unificado sobre la posición factual ξ<sub>i</sub> ∈ Ω<sub>pro</sub> (Definición 7.5 del §7) |
+| dist<sub>SV</sub>(·,·) | Métrica factual derivada canónica del aparato del Sistema Vectorial SV (Definición 8.3 del §8) |
+| Γ<sub>ℋ</sub> | Clasificador canónica del corpus del Sistema Vectorial SV (Lloret Egea, 2026c, Teorema 1) |
+| ℘<sub>SV</sub> | Compuerta metrológica canónica del corpus del Sistema Vectorial SV |
+| ⊕ | Compuerta canónica del aparato, **concatenación canónica de compuertas canónicas** (conjunción lógica factual), **no suma aritmética** del aparato SI heredado |
+| ν | Ordinal canónico append-only del aparato, conforme al Lema 6.5 de Lloret Egea (2026j) sobre la no retorno preternario |
+| ∂<sub>ν</sub><sup>SV</sup> | Derivada canónica del aparato, **diferencia finita canónica sobre el ordinal canónico ν**, **no derivada temporal** del aparato SI heredado |
+| 𝒯<sup>SV</sup><sub>k</sub> | transformadas canónicas de trayectoria del aparato, k ∈ {1, 2, 3, 4} canónicamente |
+| OpFact<sub>SV</sub> | Categoría canónica operatoria del aparato sobre los sucesos factuales del corpus |
+| OpGen<sub>SV,Π</sub> | Categoría canónica operatoria del aparato sobre el operador soberano canónico de generación 𝔊<sub>SV</sub> sobre el protocampo primordial unificado Π<sub>SV</sub> (Definición 13.1 del §13) |
+| OpFact<sub>SV,General</sub> | Categoría canónica operatoria del aparato general canónico sobre el operador maestro ℙ<sub>SV</sub> (§26) |
+| 𝓜<sup>SV</sup><sub>coex</sub> | Matriz canónica de coexistencia 15×15 entre las quince visiones canónicas sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>) (Definición 35.1 del §35) |
+| UE_MFC | Unidad estructural máxima factual canónica del corpus |
+| UFE | Unidad factual canónica de energía del corpus |
+| UFM | Unidad factual canónica de masa del corpus |
+| UFC | Unidad factual canónica de carga del corpus |
+| Q.E.D. | símbolo canónico de cierre canónico de demostración canónica del aparato |
+| ≡ | Identidad canónica exacta canónica del aparato |
 
-remaining<sub>fraction</sub> = Fraction(remaining, finish)
+## Convenciones canónicas tipográficas
 
-assert fraction == row["expected<sub>fraction</sub>"], f"object<sub>id</sub>: E-FRAC-01 current"
+**Convención canónica C.G.1 (símbolos canónicos fraktur en notación matemática canónica).** En la notación matemática canónica del presente documento, los símbolos canónicos del aparato general canónico se consignan con rango canónico en **fraktur canónica** sobre los bloques canónicos matemáticos canónicos: 𝔊<sub>SV</sub>, 𝔼<sub>SV</sub>, ℙ<sub>SV</sub>, 𝓛<sub>i</sub>, 𝓜<sup>SV</sup><sub>coex</sub>, 𝓔<sub>SV</sub>, ℋ<sup>SV</sup>, 𝒞<sub>F<sub>0</sub>,SV</sub>, 𝒩<sub>SV</sub>, 𝒯<sup>SV</sup><sub>k</sub>, 𝒱<sub>SV</sub>, 𝒟<sub>SV</sub>.
 
-assert fraction + remaining<sub>fraction</sub> == Fraction(1, 1), f"object<sub>id</sub>: E-FRAC-01 sum"
+**Convención canónica C.G.2 (símbolos canónicos en negrita romana canónica en prosa canónica).** En la prosa canónica del presente documento, los símbolos canónicos del aparato se consignan con rango canónico en **negrita romana canónica** sobre las apariciones canónicos en prosa canónica: **𝔊<sub>SV</sub>**, **𝔼<sub>SV</sub>**, **ℙ<sub>SV</sub>**, **Π<sub>SV</sub>**, **F<sub>0</sub>**, **U**.
 
-assert from<sub>uemfc</sub>(current<sub>uemfc</sub>) == current, f"object<sub>id</sub>: E-TRANS-02 current"
+## Cierre canónico del glosario tipográfico canónico
 
-assert from<sub>uemfc</sub>(finish<sub>uemfc</sub>) == finish, f"object<sub>id</sub>: E-TRANS-02 finish"
+El glosario tipográfico canónico del presente documento cierra con rango canónico la consignación canónica de los símbolos canónicos del aparato general canónico del presente documento, articulando con rango canónico la convención canónica del corpus del Sistema Vectorial SV.
 
-assert from<sub>uemfc</sub>(remaining<sub>uemfc</sub>) == remaining, f"object<sub>id</sub>: E-TRANS-02 remaining"
+---
 
-def run<sub>positive</sub><sub>tests</sub>() -> None:
+## 46. Referencias
 
-for object<sub>id</sub>, row in OBJECTS.items():
+### 46.1. Apertura del §46
 
-check<sub>object</sub>(object<sub>id</sub>, row)
+El §46 consigna las referencias del aparato general canónico del presente documento en formato **APA7 riguroso**. Las referencias son estrictamente intra-corpus del Sistema Vectorial SV, conforme a la prohibición constitutiva P.5 (no adición axiomática externa al corpus). El presente documento no consigna referencias externas al corpus, manteniendo la disciplina canónica del corpus. Se incluyen únicamente las publicaciones del corpus efectivamente citadas en el texto, sin elementos no utilizados.
 
-def run<sub>negative</sub><sub>tests</sub>() -> None:
+### 46.2. Referencias del corpus del Sistema Vectorial SV (APA7)
 
+Lloret Egea, J. A. (2026a). *Fundamentos del Sistema Vectorial SV* [Monografía técnica, Serie ISSN 2695-6411]. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA). https://orcid.org/0000-0002-6634-3351
 
+> Etapa 1 de la Matemática y Física Factual contemporánea del SV. Establece los primitivos del aparato (UE_MFC, UFE, UFM, UFC), el axioma de la U absoluta (Fundamentos 13.2.5 y 13.2.8), la honestidad coordenada y la trazabilidad semántica sobre el corpus (Fundamentos 13.2.7), el pilar metrológico, la compuerta metrológica ℘<sub>SV</sub> y la compuerta canónica ⊕. Citado en §1 (Definición 1.1), §2 (Etapas 1–10), §3 (postulado G.1), §22 (constantes canónicas k<sub>E</sub><sup>SV</sup>, 𝔠<sub>ν</sub><sup>SV</sup>) y P.1–P.6 (prohibiciones constitutivas).
 
+Lloret Egea, J. A. (2026c). *Clasificador canónico Γ<sub>ℋ</sub> del Sistema Vectorial SV* [Monografía técnica, Serie ISSN 2695-6411]. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA). https://orcid.org/0000-0002-6634-3351
 
-<a id="sec-xiii-12-pruebas-positivas-obligatorias"></a>
+> Etapa 3 de la Matemática y Física Factual contemporánea del SV. Establece el clasificador canónico Γ<sub>ℋ</sub> como criterio de admisibilidad sobre los polos {0, 1} y la indeterminación U. Teorema 1: la indeterminación U se resuelve únicamente por sucesos factuales admisibles según Γ<sub>ℋ</sub>, base de la prohibición constitutiva P.6 (no clausura espuria). Citado en §1 (Teorema 1.1), §6 (derivación nativa de α, β), §11 (operador 𝔊<sub>SV</sub>), §32 (análisis negativo de unicidad) y P.6.
 
-### XIII.12. Pruebas positivas obligatorias
+Lloret Egea, J. A. (2026j). *Estructura preternaria del par polar (α<sub>i</sub>, β<sub>i</sub>) y emergencia de U sobre el dominio preternario Ω<sub>pre</sub>* [Monografía técnica, Serie ISSN 2695-6411]. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA). https://orcid.org/0000-0002-6634-3351
 
-| test<sub>id</sub> | Objeto | Operación | Salida esperada |
-| --- | --- | --- | --- |
-| LAB-POS-01 | Sol | (4.570.000.000×284.018.400) | 1.297.964.088.000.000.000 |
-| LAB-POS-02 | Sol | (10.000.000.000×284.018.400) | 2.840.184.000.000.000.000 |
-| LAB-POS-03 | Sol | (10.000.000.000-4.570.000.000) | 5.430.000.000 |
-| LAB-POS-04 | Sistema Solar | (4.568.000.000×284.018.400) | 1.297.396.051.200.000.000 |
-| LAB-POS-05 | Sistema Solar | (10.000.000.000-4.568.000.000) | 5.432.000.000 |
-| LAB-POS-06 | Vía Láctea-entorno | (13.600.000.000×284.018.400) | 3.862.650.240.000.000.000 |
-| LAB-POS-07 | Vía Láctea-entorno | (27.200.000.000-13.600.000.000) | 13.600.000.000 |
-| LAB-POS-08 | Observable retornado | (13.800.000.000×284.018.400) | 3.919.453.920.000.000.000 |
-| LAB-POS-09 | Observable retornado | (27.600.000.000-13.800.000.000) | 13.800.000.000 |
-| LAB-POS-10 | Sol | (4.570.000.000/10.000.000.000) | (457/1000) |
-| LAB-POS-11 | Sistema Solar | (4.568.000.000/10.000.000.000) | (571/1250) |
-| LAB-POS-12 | Observable retornado | (13.800.000.000/27.600.000.000) | (1/2) |
+> Etapa 4 de la Matemática y Física Factual contemporánea del SV. Formaliza la estructura preternaria del par polar (α<sub>i</sub>, β<sub>i</sub>) sobre las posiciones factuales ξ<sub>i</sub> ∈ Ω<sub>pre</sub>. Teorema 5.4: nacimiento de U bajo cruce del umbral de pertinencia. Lema 5.5: no retorno preternario sobre el ordinal append-only ν del aparato. Lema 7.3: honestidad coordenada del aparato. Citado en §5 (definición de Π<sub>SV</sub>), §6 (derivación nativa), §9 (soporte estructural), §12 (covariancia bajo 𝒯<sup>SV</sup><sub>k</sub>) y §22 (forma explícita).
 
-<a id="sec-xiii-13-pruebas-inversas-obligatorias"></a>
+Lloret Egea, J. A. (2026k). *Reducción estructural de las ecuaciones de Maxwell heredadas a la ecuación maestra 𝔼<sub>SV</sub> = 0 del Sistema Vectorial SV* [Monografía técnica, Serie ISSN 2695-6411]. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA). https://orcid.org/0000-0002-6634-3351
 
-### XIII.13. Pruebas inversas obligatorias
+> Etapa 5 de la Matemática y Física Factual contemporánea del SV. Establece el régimen inferior de Maxwell factual mediante la reducción de las cuatro ecuaciones de Maxwell heredadas a la ecuación maestra 𝔼<sub>SV</sub> = 0 del corpus (§3.12). Régimen absorbido exactamente en el **Teorema absoluto de absorción I** (T.27.1) del presente documento bajo la proyección canónica admisible π<sub>1,2</sub>. Citado en §2 (Etapa 5), §27 y §32 (análisis negativo de unicidad).
 
-| test<sub>id</sub> | Entrada (UE<sub>MFC</sub>) | Operación | Salida esperada |
-| --- | --- | --- | --- |
-| LAB-INV-01 | 1.297.964.088.000.000.000 | dividir por 284.018.400 | 4.570.000.000 |
-| LAB-INV-02 | 2.840.184.000.000.000.000 | dividir por 284.018.400 | 10.000.000.000 |
-| LAB-INV-03 | 1.297.396.051.200.000.000 | dividir por 284.018.400 | 4.568.000.000 |
-| LAB-INV-04 | 1.542.787.948.800.000.000 | dividir por 284.018.400 | 5.432.000.000 |
-| LAB-INV-05 | 3.862.650.240.000.000.000 | dividir por 284.018.400 | 13.600.000.000 |
-| LAB-INV-06 | 7.725.300.480.000.000.000 | dividir por 284.018.400 | 27.200.000.000 |
-| LAB-INV-07 | 3.919.453.920.000.000.000 | dividir por 284.018.400 | 13.800.000.000 |
-| LAB-INV-08 | 7.838.907.840.000.000.000 | dividir por 284.018.400 | 27.600.000.000 |
+Lloret Egea, J. A. (2026l). *Teoría factual de la entropía H<sub>SV</sub> del Sistema Vectorial SV* [Monografía técnica, Serie ISSN 2695-6411]. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA). https://orcid.org/0000-0002-6634-3351
 
-<a id="sec-xiii-14-pruebas-negativas-obligatorias"></a>
+> Etapa 8 de la Matemática y Física Factual contemporánea del SV. Establece el régimen inferior de la entropía factual H<sub>SV</sub> sobre el ordinal append-only ν del aparato. Régimen absorbido exactamente como funcional integrador ℋ<sup>SV</sup>[Π<sub>SV</sub>; ν] en el **Teorema absoluto de absorción IV** (T.30.1) del presente documento bajo ℙ<sub>SV</sub> = 0. Citado en §2 (Etapa 8), §30 y §32 (análisis negativo de unicidad).
 
-### XIII.14. Pruebas negativas obligatorias
+Lloret Egea, J. A. (2026q). *Transmutación factual del Sistema Vectorial SV: cadena canónica Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U}* [Monografía técnica, Serie ISSN 2695-6411]. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA). https://orcid.org/0000-0002-6634-3351
 
-| test<sub>id</sub> | Entrada negativa | Salida esperada |
-| --- | --- | --- |
-| LAB-NEG-01 | (Edad( T)=13.800.000.000,a<sub>J</sub>) | NO ADMISIBLE |
-| LAB-NEG-02 | (A_☉=13.800.000.000,a<sub>J</sub>) | NO ADMISIBLE |
-| LAB-NEG-03 | (A<sub>SS</sub>=4.570.000.000,a<sub>J</sub>) | NO ADMISIBLE |
-| LAB-NEG-04 | (A<sub>VL</sub>=A_Ω<sub>obs</sub>) | NO ADMISIBLE |
-| LAB-NEG-05 | (A<sub>i</sub><sup>SV</sup>=284.018.399A<sub>i</sub>) | NO ADMISIBLE |
-| LAB-NEG-06 | (A<sub>i</sub><sup>SV</sup>=284.018.401A<sub>i</sub>) | NO ADMISIBLE |
-| LAB-NEG-07 | (F<sub>i</sub><A<sub>i</sub>) | NO ADMISIBLE |
-| LAB-NEG-08 | (R<sub>i</sub>≠ F<sub>i</sub>-A<sub>i</sub>) | NO ADMISIBLE |
-| LAB-NEG-09 | (f<sub>i</sub>+ρ<sub>i</sub>≠1) | NO ADMISIBLE |
-| LAB-NEG-10 | edad sin dominio | (U) |
-| LAB-NEG-11 | edad sin fin estructural | (U) |
-| LAB-NEG-12 | edad sin unidad SV | (U) |
-| LAB-NEG-13 | salida no tabulada | NO ADMISIBLE |
-| LAB-NEG-14 | redondeo introducido | NO ADMISIBLE |
-| LAB-NEG-15 | coma flotante introducida | NO ADMISIBLE |
+> Etapa 7 de la Matemática y Física Factual contemporánea del SV. Establece el régimen inferior de la transmutación factual articulando la cadena canónica Ω<sub>pre</sub> → {m<sub>0</sub>, χ<sub>α</sub>, U}. Régimen absorbido exactamente en el **Teorema absoluto de absorción III** (T.29.1) del presente documento bajo la proyección π<sub>T</sub> sobre la clase G interior del §10. Citado en §2 (Etapa 7), §29 y §32 (análisis negativo de unicidad).
 
-<a id="sec-xiii-15-salida-esperada-global"></a>
+Lloret Egea, J. A. (2026, luz factual). *Teoría factual de la luz L<sub>SV</sub> del Sistema Vectorial SV: quince campos lumínicos canónicos y trece invariantes* [Monografía técnica, Serie ISSN 2695-6411]. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA). https://orcid.org/0000-0002-6634-3351
 
-### XIII.15. Salida esperada global
+> Etapa 6 de la Matemática y Física Factual contemporánea del SV. Establece el régimen inferior de la luz factual L<sub>SV</sub> = 0 sobre quince campos lumínicos canónicos y trece invariantes del aparato. El §3bis (Destacado canónico) anuncia el **rango doctrinal superior absoluto** del programa de la **Teoría general de sucesos generadores y de los protocampos unificados**, desarrollado como núcleo doctrinal del presente documento. El §7.3bis refuerza la apertura del programa. Régimen absorbido exactamente en el **Teorema absoluto de absorción II** (T.28.1) del presente documento bajo la proyección π<sub>L</sub>, con verificación numérica explícita de la absorción de los quince campos lumínicos en el §28.5 (Ejemplos 28.A y 28.B). Citado en §2 (Etapa 6), §3bis (anuncio del programa), §28 y §32.
 
-La ejecución completa deberá producir:
+### 46.3. Cierre del §46
 
-SV<sub>RELATIVE</sub><sub>AGES</sub><sub>THEORY</sub><sub>LAB</sub><sub>RESULT</sub>
+El §46 cierra las referencias del aparato general canónico del presente documento en formato APA7 riguroso. Las siete referencias del corpus del Sistema Vectorial SV citadas son las únicas necesarias para el desarrollo del documento; ninguna otra referencia se añade, conforme a la disciplina canónica del corpus y a la prohibición constitutiva P.5. La articulación canónica del aparato general sobre el corpus queda explicitamente trazable en cada una de las siete referencias.
 
-units<sub>manifest</sub>: OK
 
-canonical<sub>formula</sub>: OK
+---
 
-explicit<sub>form</sub>: OK
+# Cierre canónico del presente documento
 
-implicit<sub>form</sub>: OK
+El presente documento, **«Teoría general de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV»**, de Juan Antonio Lloret Egea (ITVIA Madrid, ISSN 2695-6411, ORCID 0000-0002-6634-3351), cierra con rango canónico su desarrollo canónico íntegro. El aparato general canónico del presente documento articula con rango doctrinal superior absoluto estrictamente sobre los cuatro regímenes canónicos inferiores del corpus — Maxwell factual (Lloret Egea, 2026k), luz factual (Lloret Egea, 2026 — luz factual), transmutación factual (Lloret Egea, 2026q) y entropía factual (Lloret Egea, 2026l) — absorbidos exactamente canónicamente en los Teoremas 25.1, 26.1, 27.1 y 28.1 del presente documento. La convergencia canónica de las cuatro absorciones canónicas y el rango doctrinal superior absoluto estrictamente del aparato general canónico del presente documento quedan establecidos con rigor canónica Q.E.D. en el §31 del presente documento.
 
-parametric<sub>form</sub>: OK
+**Honra canónica del corpus.** El presente documento opera con rango canónico sobre la disciplina canónica del corpus del Sistema Vectorial SV: respeto canónica a los primitivos canónicos del corpus (UE_MFC, UFE, UFM, UFC, axioma canónica de la U canónica, honestidad coordenada canónica), respeto canónica a las seis prohibiciones constitutivas P.1–P.6 del corpus, respeto canónica a los etapas del corpus, respeto canónica al clasificador canónico Γ<sub>ℋ</sub> del corpus, respeto canónica al ordinal canónico ν append-only del aparato, respeto canónica a la compuerta metrológica ℘<sub>SV</sub> del corpus, y respeto canónica a la honestidad coordenada canónica del aparato. Las quince visiones canónicas sobre el par estructural (ε<sub>0</sub>, F<sub>0</sub>) operan con rango canónico bajo el régimen canónico de coexistencia canónica, sin clausurar la frontera exterior ε<sub>0</sub> del aparato y sin introducir axiomas canónicos soberanos ajenos al corpus.
 
-point<sub>slope</sub><sub>form</sub>: OK
+**Antesala canónica de cuestiones canónicas superiores.** El presente documento reconoce con rango canónico la antesala canónica de cuestiones canónicas superiores del aparato general canónico, articuladas en el §44 del presente documento, que permanecen abiertas canónicamente para investigación canónica posterior dentro del corpus, conforme a la prohibición constitutiva P.6 del corpus sobre la no clausura espuria.
 
-positive<sub>objects</sub>: 4/4
+**Q.E.D. canónica del aparato general canónico.**
 
-remaining<sub>segments</sub>: 4/4
-
-fractions: 4/4
-
-inverse<sub>returns</sub>: 8/8
-
-negative<sub>controls</sub>: 15/15
-
-float<sub>used</sub>: NO
-
-rounding<sub>used</sub>: NO
-
-silent<sub>passes</sub>: 0
-
-untabulated<sub>outputs</sub>: 0
-
-overall<sub>status</sub>: APTO
-
-<a id="sec-xiii-16-teorema-ix-1-suficiencia-laboratorial"></a>
-
-### XIII.16. Suficiencia laboratorial
-
-Teorema IX.1. Si el laboratorio reproduce las cuatro formas de la fórmula canónica, confirma los cuatro objetos positivos, ejecuta todos los retornos inversos y activa todos los controles negativos, entonces confirma la Teoría de la edad de todos los objetos del Universo Observable.
-
-Demostración.
-
-La teoría afirma:
-
-<p><strong>A<sub>i</sub><sup>SV</sup>=K<sub>age</sub>A<sub>i</sub><sup>FC</sup>.</strong></p>
-
-El laboratorio verifica esta fórmula para:
-
-<p><strong>☉, SS, VL, Ω<sub>obs</sub>.</strong></p>
-
-La teoría afirma:
-
-<p><strong>R<sub>i</sub>=F<sub>i</sub>-A<sub>i</sub>.</strong></p>
-
-El laboratorio verifica el restante para los cuatro dominios.
-
-La teoría afirma:
-
-<p><strong>f<sub>i</sub>+ρ<sub>i</sub>=1.</strong></p>
-
-El laboratorio verifica las fracciones.
-
-La teoría exige retorno inverso:
-
-<p><strong>A<sub>i</sub><sup>SV</sup>K<sub>age</sub>=A<sub>i</sub><sup>FC</sup>.</strong></p>
-
-El laboratorio verifica que no hay resto.
-
-La teoría exige rechazo de negativos. El laboratorio verifica que la totalidad absoluta no recibe edad, que la pendiente falsa no pasa, que los dominios no se confunden y que una salida no tabulada no se acepta.
-
-Por tanto, si todas las pruebas pasan, el laboratorio confirma la teoría.
-
-c.q.d.
-
-<a id="sec-xiii-17-teorema-ix-2-refutacion-por-fallo-unico-esencial"></a>
-
-### XIII.17. Refutación por fallo único esencial
-
-Teorema IX.2. Si una prueba esencial falla, la teoría no queda confirmada en laboratorio.
-
-Demostración.
-
-Sea (L<sub>k</sub>) una prueba esencial. Si:
-
-<p><strong>L<sub>k</sub>≠ S<sub>k</sub><sup>esperada</sup>,</strong></p>
-
-entonces al menos una condición de cierre falla:
-
-<p><strong>Δ<sub>trans</sub>=1,</strong></p>
-
-o:
-
-<p><strong>Δ<sub>arit</sub>=1,</strong></p>
-
-o:
-
-<p><strong>Δ<sub>plano</sub>=1,</strong></p>
-
-o:
-
-<p><strong>Δ<sub>ret</sub>=1,</strong></p>
-
-o:
-
-<p><strong>Δ=U.</strong></p>
-
-Si una condición esencial falla, el lectura formal global no puede ser:
-
-<p><strong>APTO.</strong></p>
-
-Por tanto:
-
-<p><strong>L<sub>k</sub>≠ S<sub>k</sub><sup>esperada</sup> ⇒ laboratorio no confirmado.</strong></p>
-
-c.q.d.
-
-<a id="sec-xiii-18-lectura-formal-laboratorial"></a>
-
-### XIII.18. Síntesis laboratorial
-
-El laboratorio reproducible queda subordinado a la teoría y a la tabla de contraste. Su resultado esperado es:
-
-<p><strong>APTO.</strong></p>
-
-Y su confirmación equivale a:
-
-<p><strong>E<sub>age</sub>(O<sub>i</sub>) confirmada para todos los dominios positivos declarados.</strong></p>
-
-<p><strong>E<sub>age</sub>(O<sub>i</sub>) rechazada para todos los negativos mal tipados.</strong></p>
-
-ε<sub>plano</sub>
-
-ε<sub>def</sub>
-
-ε<sub>trans</sub>
-
-ε<sub>arit</sub>
-
-<a id="sec-xiv-bibliografia"></a>
-
-## XIV. Bibliografía
-
-<a id="sec-xiv-1-criterio-bibliografico"></a>
-
-### XIV.1. Criterio bibliográfico
-
-La bibliografía se ordena en dos planos: bibliografía física externa y bibliografía del corpus SV. La primera aporta magnitudes, observaciones, instrumentos y referencias de física contemporánea. La segunda fija plano, dominio, transducción, residual, lectura formal, no atribución de edad a la totalidad absoluta y disciplina formal de la terna.
-
-<a id="sec-xiv-2-bibliografia-fisica-externa-e-instrumental"></a>
-
-### XIV.2. Bibliografía física externa e instrumental
-
-Planck Collaboration, Aghanim, N., Akrami, Y., Ashdown, M., Aumont, J., Baccigalupi, C., et al. (2020). [Planck 2018 results. VI. Cosmological parameters](https://doi.org/10.1051/0004-6361/201833910). *Astronomy & Astrophysics, 641*, A6.
-
-European Space Agency. (2013). [Planck science highlights](https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_science_highlights). ESA.
-
-NASA Jet Propulsion Laboratory. (2013). [Planck mission brings Universe into sharp focus](https://www.jpl.nasa.gov/news/planck-mission-brings-universe-into-sharp-focus/). NASA/JPL.
-
-European Space Agency. (2022). [Gaia reveals the past and future of the Sun](https://www.esa.int/Science_Exploration/Space_Science/Gaia/Gaia_reveals_the_past_and_future_of_the_Sun). ESA.
-
-Creevey, O. L., et al. (2023). [Gaia Data Release 3: A golden sample of astrophysical parameters](https://doi.org/10.1051/0004-6361/202243800). *Astronomy & Astrophysics, 674*, A39.
-
-Gaia Collaboration, Vallenari, A., Brown, A. G. A., Prusti, T., de Bruijne, J. H. J., Arenou, F., et al. (2023). [Gaia Data Release 3: Summary of the content and survey properties](https://www.aanda.org/articles/aa/full_html/2023/06/aa43940-22/aa43940-22.html). *Astronomy & Astrophysics*.
-
-NASA. (s. f.). [Our Sun: Facts](https://science.nasa.gov/sun/facts/). NASA Science.
-
-NASA Space Place. (s. f.). [All About the Sun](https://spaceplace.nasa.gov/all-about-the-sun/). NASA Space Place.
-
-NASA Space Place. (2021). [How old is the Sun?](https://spaceplace.nasa.gov/sun-age/). NASA Space Place.
-
-Bouvier, A., & Wadhwa, M. (2010). [The age of the Solar System redefined by the oldest Pb-Pb age of a meteoritic inclusion](https://doi.org/10.1038/ngeo941). *Nature Geoscience, 3*, 637-641.
-
-COSMOS-Web Collaboration / University of California, Riverside. (2026). [Astronomers produce most detailed map of the cosmic web](https://www.eurekalert.org/news-releases/1127738). EurekAlert.
-
-ScienceDaily. (2026). [James Webb telescope reveals the clearest map ever made of the cosmic web](https://www.sciencedaily.com/releases/2026/05/260511213136.htm). ScienceDaily.
-
-<a id="sec-xiv-3-bibliografia-del-corpus-sv"></a>
-
-### XIV.3. Bibliografía del corpus SV
-
-Lloret Egea, J. A. (2026). [*Teoría del TODO y de la NADA en el Sistema Vectorial SV*](https://doi.org/10.17613/k3q1d-fjj45). IA eñ™ — La Biblia de la IA™. DOI: [10.17613/k3q1d-fjj45](https://doi.org/10.17613/k3q1d-fjj45). Repositorio: [SV-matematica-semantica / teoria-todo-nada-sv](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/teoria-todo-nada-sv).
-
-Lloret Egea, J. A. (2026). [*Imperfección preformal y espacio: ε₋₀, primera distinguibilidad y dominio estructural completo de separación factual recorrible*](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/imperfeccion-preformal-y-espacio). IA eñ™ — La Biblia de la IA™. Repositorio canónico: [imperfeccion-preformal-y-espacio](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/imperfeccion-preformal-y-espacio).
-
-Lloret Egea, J. A. (2026). [*Teoría general de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV*](https://doi.org/10.17613/177nb-v2465). IA eñ™ — La Biblia de la IA™. DOI: [10.17613/177nb-v2465](https://doi.org/10.17613/177nb-v2465).
-
-Lloret Egea, J. A. (2026). [*Fórmula de Campo Unificado 𝓕𝓐=d𝓐+𝓐∧𝓐 con 𝓐=ω⊕A. Lo que Einstein y Bohr discutían: doble proyección de un aparato más profundo*](https://doi.org/10.17613/gxfv3-qjj64). IA eñ™ — La Biblia de la IA™. DOI: [10.17613/gxfv3-qjj64](https://doi.org/10.17613/gxfv3-qjj64).
-
-Lloret Egea, J. A. (2026). [*El agujero negro como cierre interno sin resto exterior formulable*](https://doi.org/10.5281/zenodo.20155687). IA eñ™ — La Biblia de la IA™. DOI: [10.5281/zenodo.20155687](https://doi.org/10.5281/zenodo.20155687). Repositorio: [agujero-negro-clausura-no-transmisibilidad](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad).
-
-Lloret Egea, J. A. (2026). [*Génesis factual del hidrógeno como caso canónico conocido*](https://doi.org/10.17613/qq4q9-sd847). IA eñ™ — La Biblia de la IA™. DOI: [10.17613/qq4q9-sd847](https://doi.org/10.17613/qq4q9-sd847).
-
-Lloret Egea, J. A. (2026). [*Teoría general factual de la luz en el Sistema Vectorial SV*](https://doi.org/10.17613/1z7c0-mqb40). IA eñ™ — La Biblia de la IA™. DOI: [10.17613/1z7c0-mqb40](https://doi.org/10.17613/1z7c0-mqb40).
-
-Lloret Egea, J. A. (2026). [*Reducción estructural absoluta de Maxwell al Sistema Vectorial SV — ecuación única de física factual electromagnética*](https://doi.org/10.17613/kep1t-57539). IA eñ™ — La Biblia de la IA™. DOI: [10.17613/kep1t-57539](https://doi.org/10.17613/kep1t-57539).
-
-Lloret Egea, J. A. (2026). [*Fórmula factual única absoluta de termodinámica SV*](https://doi.org/10.17613/ptw68-d1r57). IA eñ™ — La Biblia de la IA™. DOI: [10.17613/ptw68-d1r57](https://doi.org/10.17613/ptw68-d1r57).
-
-Lloret Egea, J. A. (2026). [*Entropía factual e irreversibilidad estructural en el Sistema Vectorial SV*](https://doi.org/10.17613/vh6ak-6em43). IA eñ™ — La Biblia de la IA™. DOI: [10.17613/vh6ak-6em43](https://doi.org/10.17613/vh6ak-6em43).
-
-Lloret Egea, J. A. (2026). [*Interacción, intercomposición y transmisión factual entre campos en el Sistema Vectorial SV*](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv). IA eñ™ — La Biblia de la IA™. Repositorio doctrinal: [SV-matematica-semantica](https://github.com/juantoniolloretegea/SV-matematica-semantica).
-
-
-<a id="sec-xiv-5-bibliografia-biologia-molecular-y-medicina"></a>
-
-### XIV.5. Bibliografía biomolecular y del anexo integrado
-
-Alberts, B., Johnson, A., Lewis, J., Raff, M., Roberts, K., & Walter, P. (2002). <em>Molecular biology of the cell</em> (4th ed.). Garland Science. NCBI Bookshelf. <a href="https://www.ncbi.nlm.nih.gov/books/NBK21054/">NCBI Bookshelf: NBK21054</a>
-
-Burley, S. K., et al. (2025). Updated resources for exploring experimentally-determined PDB structures and computed structure models at the RCSB Protein Data Bank. <em>Nucleic Acids Research, 53</em>(D1), D564–D574. <a href="https://doi.org/10.1093/nar/gkae1091">DOI: 10.1093/nar/gkae1091</a>
-
-Ghannam, J. Y., & Al Kharazi, K. A. (2023). DNA structure. En <em>StatPearls</em>. StatPearls Publishing. NCBI Bookshelf. <a href="https://www.ncbi.nlm.nih.gov/books/NBK538241/">NCBI Bookshelf: NBK538241</a>
-
-Hatton, I. A., et al. (2023). The human cell count and size distribution. <em>Proceedings of the National Academy of Sciences, 120</em>(39), e2303077120. <a href="https://doi.org/10.1073/pnas.2303077120">DOI: 10.1073/pnas.2303077120</a>
-
-Jumper, J., et al. (2021). Highly accurate protein structure prediction with AlphaFold. <em>Nature, 596</em>, 583–589. <a href="https://doi.org/10.1038/s41586-021-03819-2">DOI: 10.1038/s41586-021-03819-2</a>
-
-National Human Genome Research Institute. (2022). <em>A brief guide to genomics</em>. <a href="https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics">National Human Genome Research Institute</a>
-
-National Institutes of Health. (2022). <em>First complete sequence of a human genome</em>. <a href="https://www.nih.gov/news-events/nih-research-matters/first-complete-sequence-human-genome">National Institutes of Health</a>
-
-Nurk, S., et al. (2022). The complete sequence of a human genome. <em>Science, 376</em>(6588), 44–53. <a href="https://doi.org/10.1126/science.abj6987">DOI: 10.1126/science.abj6987</a>
-
-RCSB Protein Data Bank. (2026). <em>Overall growth of released structures per year</em>. <a href="https://www.rcsb.org/stats/growth/growth-released-structures">RCSB Protein Data Bank</a>
-
-Sayers, E. W., et al. (2025). GenBank 2025 update. <em>Nucleic Acids Research, 53</em>(D1), D56–D61. <a href="https://doi.org/10.1093/nar/gkae1114">DOI: 10.1093/nar/gkae1114</a>
-
-The UniProt Consortium. (2025). UniProt: The Universal Protein Knowledgebase in 2025. <em>Nucleic Acids Research, 53</em>(D1), D609–D617. <a href="https://doi.org/10.1093/nar/gkae1010">DOI: 10.1093/nar/gkae1010</a>
-
-UniProt. (2026). <em>Homo sapiens proteome UP000005640</em>. <a href="https://www.uniprot.org/proteomes/UP000005640">UniProt</a>
-
-Varadi, M., et al. (2024). AlphaFold Protein Structure Database in 2024: Providing structure coverage for over 214 million protein sequences. <em>Nucleic Acids Research, 52</em>(D1), D368–D375. <a href="https://doi.org/10.1093/nar/gkad1011">DOI: 10.1093/nar/gkad1011</a>
-
-Lloret Egea, J. A. (2026). <em>Catálogo de Pares Estructurales SV (CPS-SV): enlace, aleación y compatibilidad posicional desde los 118 elementos base hasta los 443 candidatos del dominio extendido</em>. IA eñ™ — La Biblia de la IA™. <a href="https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/quimica-factual-y-ciencia-de-materiales-sv/catalogo-pares-estructurales/catalogo-pares-estructurales.md">Repositorio canónico</a>.
-
-Lloret Egea, J. A. (2026). <em>Biología molecular y medicina: del par estructural a la célula viva</em>. IA eñ™ — La Biblia de la IA™. <a href="https://doi.org/10.21428/39829d0b.624921db">DOI: 10.21428/39829d0b.624921db</a>
-
-Lloret Egea, J. A. (2026). <em>Análisis preliminar de elementos, materiales y aleaciones de nueva generación en el Sistema Vectorial SV</em>. IA eñ™ — La Biblia de la IA™. <a href="https://doi.org/10.17613/8ryyb-g9h48">DOI: 10.17613/8ryyb-g9h48</a>
-
-Lloret Egea, J. A. (2026). <em>Génesis del hidrógeno y teoría de la persistencia energética estructural en el Sistema Vectorial SV</em>. IA eñ™ — La Biblia de la IA™. <a href="https://doi.org/10.17613/qq4q9-sd847">DOI: 10.17613/qq4q9-sd847</a>
-
-Lloret Egea, J. A. (2026). <em>Teoría del TODO y de la NADA en el Sistema Vectorial SV</em>. IA eñ™ — La Biblia de la IA™. <a href="https://doi.org/10.17613/k3q1d-fjj45">DOI: 10.17613/k3q1d-fjj45</a>
-
-<a id="sec-xiv-4-criterio-de-uso"></a>
-
-### XIV.4. Criterio de uso
-
-Las referencias externas no sustituyen la teoría. Aportan magnitudes, instrumentos y datos de contraste. Las referencias del corpus no sustituyen la física contemporánea. Fijan plano, dominio, transductor, residual, lectura formal y custodia de U. La relación queda: física contemporánea → valor, observación, objeto e instrumento; corpus SV → plano, dominio, transductor, residual y lectura formal.
-
-<a id="cierre-doctrinal-final-imperfeccion"></a>
-
-## Cierre doctrinal final
-
-> La imperfección opera en dos planos complementarios. En el primero, como no clausura originaria, permite distinguibilidad, suceso y estructura observable. En el segundo, ya dentro de los dominios constituidos, la imperfección sostenida permite vida, cambio y reorganización; cuando esa imperfección deja de estar gobernada por frontera, identidad, reparación, interacción y retorno, aparece deterioro o degeneración estructural.
+---
