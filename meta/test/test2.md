@@ -228,4 +228,104 @@ Teorema: ningún transductor singular es legítimo si no deriva de 𝓖★TrU(D)
 ### III.6. Conclusión del apartado
 
 La familia universal de transductores queda fijada como derivación necesaria de 𝓒★ObsU mediante 𝓖★TrU(D): 𝔛obs conserva la forma general de observabilidad; los transductores de dominio tipan magnitudes, unidades y retornos; los transductores singulares permiten estudiar cepas, enfermedades, tumores, especies, humanos y documentos sin perder precisión material. La universalidad de la fórmula no elimina la singularidad del caso: la exige. Ninguna afirmación fuerte puede cerrar sin dominio, unidad, frontera, identidad, canal, barrera, residual, retorno y traza; ningún resultado SV queda completo si no vuelve a la ciencia contemporánea con unidades reales y límite declarado.
+## IV. Tablas de transducción SV↔ciencia contemporánea
+
+### IV.1. Tabla D→SV: recepción de dominios externos
+
+La recepción D→SV no convierte los dominios científicos en lenguaje interno ni reemplaza sus unidades por símbolos SV sin retorno; toma magnitudes reales, entidades observables, fronteras y trazas de la ciencia contemporánea, las proyecta mediante el transductor correspondiente y sólo admite cierre si el residual, el dictamen y el retorno quedan declarados. La tabla de entrada fija el mínimo común de recepción: cada dominio aporta aquello que su ciencia reconoce como dato, señal, magnitud, lesión, traza, función o documento, y el SV lo recibe como estructura evaluable sin alterar la identidad del dominio.
+
+| Dominio externo D | Entrada reconocible | Unidad externa o entidad de dominio | Transductor | Lectura SV | Salida de recepción |
+|---|---|---|---|---|---|
+| Física y cosmología observacional | Señal, línea espectral, mapa, edad relativa, distancia, no retorno | m, s, Hz, K, J, kg, mol, año, redshift, flujo, adimensional declarado | 𝔛phys | Dominio físico, canal, frontera, residual, retorno | Observable físico fuerte, rechazo o U |
+| Química | Elemento, par, enlace, fase, molécula, concentración | mol/L, kg/mol, Da, K, Pa, pH adimensional, fórmula química | 𝔛chem, 𝔛pair, 𝔛mol | Compatibilidad, grafo compositivo, frontera, residual | Identidad química, APTO, NO-APTO o U |
+| Medio prebiológico | Solvente, gradiente, protomembrana, flujo, intercambio | mol/L, K, Pa, m/s, m², m³, concentración relativa declarada | 𝔛prebio | Medio operativo, barrera, frontera, persistencia | Medio apto, parcial, no apto o U |
+| Biología molecular y celular | Gen, proteína, célula, tejido, órgano, organismo | nt, bp, aa, Da, copias/célula, células/mL, células/mm², mol/L | 𝔛bio | Función, frontera biológica, identidad, traza | Función biológica, disfunción, no cierre o U |
+| Mutación | Sustitución, inserción, deleción, recombinación, variante | nt, bp, posición, frecuencia alélica si se declara como dato auxiliar, efecto funcional | 𝔛mut | Residual compatible, identidad de linaje, retorno fenotípico | Mutación viable, no viable, neutra o U |
+| Variante viral | Cepa, linaje, carga, transmisión, tropismo, evasión, virulencia | nt, bp, copias/mL, Ct como dato instrumental, días, tasa declarada, fenotipo | 𝔛var | Canal replicativo, barrera huésped, viabilidad, retorno poblacional | Variante fuerte, variante no viable o U |
+| Enfermedad | Signo, síntoma, lesión, biomarcador, curso clínico | ng/mL, mg/dL, IU/L, mmHg, °C/K, escala clínica, imagen, histología | 𝔛dis | Residual patológico, barrera homeostática, retorno clínico | Enfermedad fuerte, hallazgo parcial, rechazo o U |
+| Cáncer | Tumor, clon, histología, perfil molecular, estadio, respuesta | mm, cm³, células/mm², ng/mL, Gy, mutación, estadio, imagen | 𝔛onc | Dominancia local, barreras de control, residual oncológico | Cáncer tipado, sospecha, progresión, respuesta o U |
+| Evolución y especie | Linaje, población, barrera reproductiva, fósil, genoma | años, bp, rasgos, frecuencia auxiliar, registro fósil, ubicación | 𝔛evo | Fibra de especie, continuidad, extinción, traza | Especie fuerte, extinción, hipótesis o U |
+| Humano y documento | Organismo, lenguaje, obra, versión, firma, hash, custodia | Identidad documental, fecha, hash, licencia, soporte, registro | 𝔛human, 𝔛doc | Proyección, autoría, traza, append-only | Proyección fuerte, documento fuerte, texto débil o rechazo |
+
+### IV.2. Tabla SV→D: retorno a ciencia contemporánea
+
+El retorno SV→D impide que la evaluación quede cerrada dentro del SV. Todo dictamen debe regresar al dominio externo con la unidad, entidad, escala o semántica que el dominio reconoce. Si el retorno no puede expresarse en el lenguaje científico correspondiente, el cierre fuerte no procede. La tabla de retorno fija qué puede devolverse y qué límite no debe cruzarse: ε−0 no retorna como objeto físico, U no retorna como aceptación, un residual no retorna como cierre favorable y la clausura factual no retorna como continuidad corporal local.
+
+| Resultado SV | Dominio de retorno | Transductor | Retorno externo admisible | Límite negativo |
+|---|---|---|---|---|
+| 𝓒★ObsU(x,D)=0 | Cualquier D declarado | 𝔛_{D↔SV} | Observable fuerte del dominio con unidad, frontera, identidad y traza | No vale fuera del dominio declarado |
+| 𝓒★ObsU(x,D)=1 | Cualquier D declarado | 𝔛_{D↔SV} | Rechazo por contradicción material, barrera, residual crítico o falta de dominio | No se transforma en U por prudencia retórica |
+| 𝓒★ObsU(x,D)=U | Cualquier D declarado | 𝔛_{D↔SV} | Indeterminación honesta por falta de cierre suficiente | No equivale a aceptación ni a negación |
+| ε−0 | Física, cosmología, biología, medicina | 𝔛obs | Condición preformal de distinguibilidad, no magnitud | No retorna como partícula, campo, instante o energía |
+| 𝓕−0^Obs | Dominio de observabilidad | 𝔛obs | Función observacional de ε−0 | No retorna como objeto material |
+| Δ_D crítico | Dominio de origen | 𝔛_D | Defecto, lesión, incompatibilidad, no aptitud, no cierre | No puede ocultarse ni declararse cierre favorable |
+| Predominancia compatible | Química, biología, evolución, clínica | 𝔛chem, 𝔛bio, 𝔛evo, 𝔛dis | Régimen APTO, función conservada, equilibrio no nulo | No equivale a clausura por sí misma |
+| Predominancia absorbente | Dominio afectado | 𝔛_D | NO-APTO, pérdida de canal, barrera infranqueable, pérdida de retorno | No se confunde con asimetría compatible |
+| Clausura local | Biología, documento, física | 𝔛bio, 𝔛doc, 𝔛phys | Muerte física, cierre documental, no transmisión, fin de función | No implica Nada absoluta ni continuidad local indefinida |
+| Retorno factual al Todo | SV↔dominio | 𝔛obs | Traza clausurada y cadena append-only | No implica copia, reaparición ni borrado |
+
+### IV.3. Tabla metrológica SI→SV y SV→SI
+
+La tabla metrológica fija la columna mínima que todo banco debe respetar: magnitud externa, unidad científica o SI, primitivo SV correspondiente, regla de ida, regla de vuelta, residual y error si falta trazabilidad. Las unidades biológicas y clínicas que no sean unidades SI simples se declaran como unidades de dominio y se transducen mediante conteo, volumen, masa, concentración, longitud, energía, tiempo o entidad adimensional declarada. Lo que no tenga unidad directa no queda libre de control: se declara como categoría, escala, marcador, estadio, histología, secuencia o documento, con retorno semántico y traza.
+
+| Magnitud o entidad | Unidad externa | Primitivo o forma SV | Regla D→SV | Regla SV→D | Error si falta |
+|---|---|---|---|---|---|
+| Longitud, tamaño tumoral, diámetro | m, mm, cm | UFE | valor externo→UFE | UFE→m/mm/cm | Error de unidad espacial |
+| Volumen tumoral, volumen de muestra | m³, cm³, mL | UFE³ | volumen→UFE³ | UFE³→volumen externo | Error de volumen |
+| Tiempo retornado, curso, incubación, duplicación | s, día, año | UE_MFC | tiempo externo→UE_MFC | UE_MFC→s/día/año | Error de retorno temporal |
+| Masa | kg, g, mg | UFM | masa→UFM | UFM→kg/g/mg | Error de masa |
+| Temperatura | K, °C convertida a K | UFT | temperatura→UFT | UFT→K/°C | Error térmico |
+| Carga eléctrica | C | UFC | carga→UFC | UFC→C | Error de carga |
+| Cantidad de sustancia | mol | UFCE | mol→UFCE | UFCE→mol | Error de cantidad |
+| Concentración | mol/L, ng/mL, mg/dL, IU/L | UFCE/UFE³, UFM/UFE³ o unidad clínica declarada | concentración→forma SV | forma SV→unidad clínica | Error de concentración |
+| Secuencia | nt, bp, aa, posición | conteo discreto tipado | posición→índice de dominio | índice→posición externa | Error de secuencia |
+| Carga viral | copias/mL, Ct como dato instrumental | entidades/UFE³ o señal instrumental declarada | carga→densidad SV | densidad SV→copias/mL o Ct declarado | Error de carga viral |
+| Densidad celular | células/mL, células/mm² | entidades/UFE³ o entidades/UFE² | densidad→SV | SV→densidad externa | Error de densidad |
+| Energía o dosis física | J, Gy, Bq | unidad SV derivada o dominio físico declarado | dosis→SV | SV→unidad externa | Error de dosis |
+| Estadio, histología, fenotipo, documento | categoría trazada | clase tipada con traza | categoría→clase SV | clase SV→categoría externa | Error de traza semántica |
+
+### IV.4. Tabla de transductores singulares
+
+La tabla de transductores singulares impide que los casos se traten por generalidad. Cada singular debe declarar entrada mínima, unidad o entidad, salida esperada y negativo principal. Sin esos cuatro planos, el caso queda en U o cae en 1 si se afirma cierre fuerte. La tabla no sustituye el laboratorio: fija la morfología de las filas que después deberán ejecutarse.
+
+| Transductor singular | Caso | Entrada mínima | Unidad o entidad | Salida esperada | Negativo principal |
+|---|---|---|---|---|---|
+| 𝔛var(V_i↔SV) | Variante viral concreta | Secuencia, linaje, huésped, fenotipo, vigilancia | nt, bp, copias/mL, días, fenotipo | Variante viable, no viable o U | Variante nombrada sin viabilidad ni retorno |
+| 𝔛mut(m↔SV) | Mutación concreta | Cambio, posición, dominio, efecto observado o pendiente | nt, bp, aa, posición, efecto | Mutación funcional, neutra, deletérea o U | Cambio sin traza o efecto atribuido sin retorno |
+| 𝔛dis(E_j↔SV) | Enfermedad singular | Clínica, lesión, biomarcador, curso, traza | unidad clínica, imagen, histología, escala | Enfermedad fuerte, parcial o U | Síntoma aislado como diagnóstico fuerte |
+| 𝔛onc(Ca_τ↔SV) | Tumor tipado | Órgano, histología, perfil molecular, estadio, traza | mm, cm³, marcador, mutación, estadio | Cáncer tipado, progresión, respuesta o U | Masa sin identidad tumoral |
+| 𝔛evo(E_k↔SV) | Especie o linaje | Linaje, población, barrera, traza | rasgo, bp, fósil, registro | Especie fuerte, extinción o U | Semejanza sin linaje ni barrera |
+| 𝔛human(H↔SV) | Humano singular | Organismo, identidad, lenguaje, documento, traza | unidad biológica, biográfica y documental | Fibra humana y proyecciones | Documento confundido con persona |
+| 𝔛doc(Doc↔SV) | Documento concreto | Texto, versión, autoría, firma, hash, custodia | hash, fecha, licencia, soporte | Documento fuerte o texto débil | Custodia sin traza |
+
+### IV.5. Tabla de límites negativos de transducción
+
+Los límites negativos fijan cuándo una transducción no puede cerrar. El objetivo no es castigar la incertidumbre, sino impedir cierre falso. Una fila negativa puede terminar en 1 si hay contradicción material o en U si falta cierre sin contradicción; nunca puede terminar en 0 por ausencia de datos, prestigio del nombre, analogía o apariencia formal. La tabla distingue error de dominio, error de unidad, error de retorno, error de traza y error de extrapolación.
+
+| Error de transducción | Dictamen |
+|---|---|
+| Totalidad absoluta tratada como objeto físico interno | 1 |
+| ε−0 convertido en partícula, instante, campo o energía | 1 |
+| Magnitud externa absorbida sin retorno a su unidad | 1 |
+| Fórmula SV aplicada sin transductor de dominio | 1 |
+| Señal sin frontera o sin identidad | 1/U según defecto |
+| Agua declarada vida | 1 |
+| Molécula orgánica declarada organismo | 1 |
+| Secuencia genética declarada organismo | 1 |
+| Mutación detectada sin efecto funcional suficiente | U |
+| Variante viral sin viabilidad | 1 |
+| Enfermedad sin dominio clínico ni retorno | 1/U según formulación |
+| Cáncer declarado sólo por sospecha sin traza | U |
+| Predominancia compatible tratada como clausura | 1 |
+| Predominancia absorbente tratada como equilibrio | 1 |
+| Fósil declarado especie viva actual | 1 |
+| Muerte física interpretada como Nada absoluta | 1 |
+| Clausura local interpretada como continuidad corporal indefinida | 1 |
+| Documento fuerte sin firma, versión, hash o custodia | 1 |
+| Subtrayectoria usada para borrar sucesos previos | 1 |
+| U convertido en cierre favorable | 1 |
+
+### IV.6. Conclusión del apartado
+
+La transducción SV↔ciencia contemporánea queda fijada como doble obligación: recibir el dominio externo con sus unidades, magnitudes, entidades, fronteras y trazas; y devolver el dictamen SV al mismo dominio sin sustituir su semántica científica. Las tablas establecen la entrada D→SV, el retorno SV→D, la regla metrológica, los transductores singulares y los límites negativos. Con ellas, la fórmula universal no queda en abstracción: cada señal, molécula, gen, virus, enfermedad, tumor, especie, humano o documento debe declarar unidad real, transductor, residual, dictamen, retorno y traza. La consecuencia es estricta: lo que no retorna con unidad, frontera y trazabilidad no cierra como observable fuerte.
 
