@@ -2,7 +2,7 @@
 
 ## Teoría de la Creación de Observables del Universo, transducción metrológica, mutación, enfermedad, cáncer y clausura factual
 
-## ## Índice
+## Índice
 
 I. Estatuto doctrinal, estado de la cuestión y fórmula universal
 I.1. Nivel doctrinal de la fórmula universal
