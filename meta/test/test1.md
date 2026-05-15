@@ -1,28 +1,3 @@
-# Edades relativas del universo observable y de sus objetos físicos
-
-## Teoría de la edad de todos los objetos del Universo Observable · Biología molecular y medicina: del par estructural a la célula viva
-
-![Portada de la publicación](https://raw.githubusercontent.com/juantoniolloretegea/SV-matematica-semantica/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos/imagenes/portada.png)
-
-- Autor: [Juan Antonio Lloret Egea](https://www.linkedin.com/in/juanantoniolloretegea/)
-- ORCID: [0000-0002-6634-3351](https://orcid.org/0000-0002-6634-3351)
-- Institución: [Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA)](https://www.itvia.online/)
-- Publicación: IA eñ™ — La Biblia de la IA™ · [ISSN 2695-6411](https://portal.issn.org/resource/ISSN/2695-6411)
-- Licencia: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es)
-- Fecha: Madrid, 14/05/2026
-- DOI de la publicación PubPub: [10.21428/39829d0b.b56ed853](https://doi.org/10.21428/39829d0b.b56ed853)
-- Release PubPub: [Release 3](https://www.itvia.online/pub/edades-relativas-del-universo-observable-y-de-sus-objetos-fisicos/release/3)
-- Colección PubPub «El Universo»: [10.21428/39829d0b.26484bfd](https://doi.org/10.21428/39829d0b.26484bfd)
-- URL de colección: [https://www.itvia.online/el-universo](https://www.itvia.online/el-universo)
-- Repositorio doctrinal: [SV-matematica-semantica](https://juantoniolloretegea.github.io/SV-matematica-semantica/)
-- Repositorio canónico: [edades relativas del universo observable y objetos físicos](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos)
-- Fuentes de continuidad SV: [Catálogo de Pares Estructurales SV (CPS-SV)](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/quimica-factual-y-ciencia-de-materiales-sv/catalogo-pares-estructurales) · [Teoría del TODO y de la NADA](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/teoria-todo-nada-sv) · [Imperfección preformal y espacio](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/imperfeccion-preformal-y-espacio)
-
----
-
-<a id="sec-definicion-append-only"></a>
-
-
 ## Índice
 
 **Índice general de la publicación**
