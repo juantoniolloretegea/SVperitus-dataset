@@ -129,6 +129,7 @@ La ciencia contemporánea no formula una teoría universal de creación de obser
 ### I.3. Fórmula universal de gobierno de observables
 
 La fórmula central de la Teoría de la Creación de Observables del Universo queda fijada así:  
+
 𝓒★ObsU(x,D)=𝓝★[ΩM_D(x),𝔛_{D↔SV}(x),F_D(x),I_D(x),C_D(x),B_D(x),Δ_D(x),R_D(x),Tr_D(x)]∈{0,1,U}.  
 
 Aquí x es un candidato a observable y D cualquier dominio declarable. ΩM_D declara dominio y magnitudes externas; 𝔛_{D↔SV} declara transducción bidireccional; F_D declara frontera; I_D declara identidad; C_D declara canal; B_D declara barrera; Δ_D declara residual; R_D declara retorno; Tr_D declara traza append-only. La fórmula no crea materialmente hidrógeno, galaxia, célula, virus, variante, enfermedad, cáncer, síntoma, especie, documento o persona; decide si ese contenido comparece como observable fuerte. El cierre fuerte se expresa como x∈ObsU(D) ⇔ 𝓒★ObsU(x,D)=0; si hay contradicción material, el dictamen es 1; si falta cierre suficiente sin contradicción, el dictamen es U. Es la fórmula universal: cualquier fórmula que omita una condición falla, cualquier fórmula que las contenga bajo otros nombres es equivalente y cualquier ampliación sólo aumenta resolución interna.
