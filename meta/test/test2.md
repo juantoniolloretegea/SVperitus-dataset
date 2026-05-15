@@ -1,223 +1,175 @@
 # Proyecciones biológicas de la fibra  
-## Base limpia para la Teoría de la Creación de Observables del Universo
+## Teoría de la Creación de Observables del Universo y transducción biológica de las proyecciones
 
 ## Índice
 
-I. Ubicación doctrinal de la fórmula universal de gobierno de observables  
-II. Tesis central de la Teoría de la Creación de Observables del Universo  
-III. Transductor bidireccional general de la fibra  
-IV. ε−0, función observacional y no duplicación del origen  
-V. Fórmula universal de gobierno de observables  
-VI. Unicidad de la fórmula universal y célula exacta de inscripción primaria  
-VII. Familias primarias de observabilidad y refinamientos por b²  
-VIII. Matriz fibrogénica de imperfección sostenida  
-IX. Suelo preternario, protoescisión polar y ternarización inducida  
-X. Semilla compositiva común, persistencia físico-química y umbral prebiológico  
-XI. Transductor biológico, Γbio-0, divergencia evolutiva y especie  
-XII. Fibra humana singular y proyecciones humanas  
-XIII. Canal, barrera, encaje, traza y no comunicación directa  
-XIV. Matriz positiva de contraste  
-XV. Matriz negativa de contraste  
-XVI. Casos U y conservación de la indeterminación honesta  
-XVII. Laboratorio reproducible y retorno externo  
-XVIII. Dictamen formal de cierre
+I. Estatuto doctrinal, estado de la cuestión y regla de lectura bidireccional  
+I.1. Ubicación doctrinal de la fórmula universal  
+I.2. Estado de la cuestión en ciencia contemporánea  
+I.3. Regla de doble lectura: dominio externo↔SV  
+I.4. ε−0, función observacional y fórmula de gobierno  
+I.5. Orientación polar de cierre como motor común de los observables  
+I.6. Mutación biológica como caso rector de residual compatible  
+I.7. Criterio de cierre del apartado  
+
+II. ε−0, fibra primigenia de observabilidad y no duplicación del origen  
+II.1. ε−0 como borde preformal de primera distinguibilidad  
+II.2. 𝓕−0^Obs como función observacional de ε−0  
+II.3. Distinción entre posibilidad preformal y gobierno formal  
+II.4. Teorema de identidad funcional restringida  
+
+III. Fórmula universal de gobierno de observables  
+III.1. Definición de 𝓒★ObsU  
+III.2. Dominio, magnitud, frontera, identidad, canal, barrera, residual, retorno y traza  
+III.3. Dictámenes 0, 1 y U  
+III.4. Teorema de gobierno no fundacional  
+
+IV. Unicidad de la fórmula universal y célula exacta de inscripción primaria  
+IV.1. Ley de inscripción n=b² con b≥3  
+IV.2. SV(9,3) como inscripción primaria de 𝓒★ObsU  
+IV.3. Refinamientos SV(16,4), SV(25,5), SV(36,6) y sucesivos  
+IV.4. Teorema de unicidad de la fórmula universal  
+
+V. Familias primarias de observabilidad y subfamilias  
+V.1. Nueve familias derivadas de 𝓒★ObsU  
+V.2. Lectura material de las familias en física, química, biología, evolución, humanidad y documento  
+V.3. Canal, barrera y retorno por familia  
+V.4. Subfamilias por refinamiento b²  
+
+VI. Matriz fibrogénica de imperfección sostenida  
+VI.1. Teoría del TODO y de la NADA y de la Imperfección  
+VI.2. Frontera de cierre (μ,λ)=(0,0) y dominio de realización sostenida  
+VI.3. Universo Vivo formal y persistencia de configuraciones  
+VI.4. Relación con ε−0 y con 𝓒★ObsU  
+
+VII. Suelo preternario, protoescisión polar y ternarización inducida  
+VII.1. Ωpre y posiciones ξi=(i,αi,βi)  
+VII.2. ρi, δi y separación polar inicial  
+VII.3. Π3H y nacimiento de K3  
+VII.4. U como no clausura honesta inducida  
+
+VIII. Semilla compositiva común y umbral orgánico-inorgánico  
+VIII.1. Σcomp-0=(E,P,M,F,R,Ret)  
+VIII.2. Orgánico, inorgánico y vida  
+VIII.3. Umbral bioquímico y acoplamiento material  
+VIII.4. Rechazo de saltos categoriales  
+
+IX. Persistencia físico-química, pares estructurales, moléculas y medio prebiológico  
+IX.1. Persistencia 𝓟min  
+IX.2. Dictamen de pares D(A,B)  
+IX.3. Grafo molecular y residual compositivo  
+IX.4. Ωprebio y condiciones de medio  
+
+X. Transductor biológico y Γbio-0  
+X.1. 𝔛bio(B↔SV)  
+X.2. Cadena par→molécula→macromolécula→interfaz→célula→tejido→órgano→organismo  
+X.3. Núcleo Γbio-0  
+X.4. No identificación de Γbio-0 con la fibra primigenia  
+
+XI. Mutación, variabilidad heredable y orientación polar de cierre  
+XI.1. Por qué se produce la mutación  
+XI.2. Mutación vírica y canal replicativo finito  
+XI.3. Mutación celular somática, germinal y poblacional  
+XI.4. Residual compatible, viabilidad, retorno fenotípico y traza  
+XI.5. Teorema de génesis polar-residual de la mutación  
+
+XII. Divergencia evolutiva, especie, extinción y reactivación condicionada  
+XII.1. Operador 𝒟evo,k  
+XII.2. Fibra de especie ΓEk  
+XII.3. Extinción como clausura viva y reproductiva  
+XII.4. Reactivación condicionada por canal, barrera y encaje  
+
+XIII. Fibra humana singular y proyecciones humanas  
+XIII.1. ΓH como derivada evolutiva y transducida  
+XIII.2. Genoma, organismo, neurocognición, lenguaje y documento  
+XIII.3. Proyecciones humanas y no identidad total  
+XIII.4. Familia proyectiva, autoría, sociedad y traza  
+
+XIV. Canal, barrera, encaje, traza y no comunicación directa  
+XIV.1. Fórmula 𝓧ij(c)  
+XIV.2. Procedencia común sin copia  
+XIV.3. Canal sin barrera, barrera sin canal y transmisión sin encaje  
+XIV.4. Append-only, subtrayectoria y compresión proyectiva  
+
+XV. Matrices de contraste y laboratorio reproducible  
+XV.1. Matriz positiva  
+XV.2. Matriz negativa  
+XV.3. Casos U  
+XV.4. Laboratorio reproducible y retorno externo  
+XV.5. Catálogo de errores y ausencia de pases silenciosos  
+
+XVI. Dictamen formal de cierre  
+XVI.1. Ubicación doctrinal  
+XVI.2. Cadena consolidada  
+XVI.3. Fórmula universal y mutación como caso rector  
+XVI.4. Condiciones para iniciar la redacción definitiva  
 
 ---
 
-## I. Ubicación doctrinal de la fórmula universal de gobierno de observables
+## I. Estatuto doctrinal, estado de la cuestión y regla de lectura bidireccional
 
-La fórmula 𝓒★ObsU pertenece al nivel doctrinal 6 de la cadena absoluta del Sistema Vectorial SV. Su dominio no es el TODO/NADA, ni la unificación física, ni la luz, ni el electromagnetismo, ni la termodinámica, ni la persistencia material como tal; su dominio propio es el universo de los observables constituidos y retornables, anterior a toda atribución particular de edad, señal, organismo, documento, linaje o especie. No puede ocupar un nivel inferior al 5, porque presupone transducción entre dominios, magnitudes externas, residual y retorno; tampoco puede confundirse con el nivel 5, porque no se limita a declarar el paso dominio↔dominio, sino que gobierna el estatuto de observable fuerte. No puede ocupar nivel 7 o superior, porque no gobierna de forma específica la luz, los campos, la termodinámica, la persistencia química, la interacción, la unificación física ni el cierre TODO/NADA. No puede ocupar nivel 13, porque el nivel 13 corresponde al techo absoluto de la Teoría del TODO y de la NADA, mientras que 𝓒★ObsU gobierna observables ya inscritos en dominios.
+### I.1. Ubicación doctrinal de la fórmula universal
+
+La fórmula 𝓒★ObsU pertenece al nivel doctrinal 6 de la cadena absoluta del Sistema Vectorial SV. Su dominio no es el TODO/NADA, ni la clausura última, ni la unificación física, ni la luz, ni el electromagnetismo, ni la termodinámica, ni la biología en sentido particular; su dominio propio es Ωobs, el universo de los observables constituidos y retornables. No puede ocupar un nivel inferior al 5, porque presupone transducción, magnitud externa, dominio, residual y retorno; tampoco puede quedar absorbida por el nivel 5, porque no se limita a traducir entre dominios, sino que decide si un contenido llega a estatuto de observable fuerte. No puede ocupar nivel 7 o superior, porque no gobierna una física sectorial, una biología sectorial ni una magnitud especializada; y no puede ocupar nivel 13, porque el nivel 13 corresponde al techo doctrinal de la Teoría del TODO y de la NADA y al borde preformal de primera distinguibilidad. Así, 𝓒★ObsU no sustituye ε−0, no desplaza 𝓔★TODO,SV(ΓU;τ)=0 y no compite con la Teoría del TODO y de la NADA; gobierna los observables una vez que la distinguibilidad y el dominio han quedado abiertos.
 
 Nivel<sub>SV</sub>(𝓒★ObsU)=6.
 
-La fórmula 𝓔age queda situada dentro del mismo nivel 6 como forma metrológico-transductiva especializada para edades de objetos observables; 𝓒★ObsU ocupa la función rectora general del nivel, porque decide previamente si un contenido x puede comparecer como observable fuerte en un dominio D. Dicho de forma estricta: 𝓔age mide edad de objetos observables ya constituidos, mientras que 𝓒★ObsU gobierna la constitución formal de lo observable. Por eso 𝓒★ObsU no desplaza el techo doctrinal de la cadena, no introduce nivel 14, no compite con 𝓔★TODO,SV(ΓU;τ)=0 y no sustituye ε−0; ubica la ley general de admisión de observables en el nivel que le corresponde: el nivel 6.
+La fórmula 𝓔age queda situada dentro de este mismo nivel como forma especializada de medición de edad para objetos observables ya constituidos. 𝓔age mide edad relativa de contenidos que han alcanzado dominio, magnitud y retorno; 𝓒★ObsU decide previamente si un x puede comparecer como observable fuerte en un dominio D. Por eso 𝓒★ObsU ocupa la función rectora general del nivel 6, mientras las fórmulas sectoriales de edad, señal, molécula, célula, especie o documento se subordinan a ella como instancias de dominio. El nivel doctrinal queda así precisado: ε−0 abre la distinguibilidad, 𝓕−0^Obs abre la función observacional de ese borde, 𝓒★ObsU gobierna el estatuto universal de observable, y las fórmulas sectoriales operan sobre observables ya constituidos.
 
-El teorema de nivel exacto queda así: 𝓒★ObsU ocupa exactamente el nivel 6 porque presupone el nivel 5 de transducción, gobierna el dominio Ωobs de los observables, funda la posibilidad formal de fórmulas observacionales especializadas como 𝓔age y no invade los niveles superiores. Si se situara en nivel 5, quedaría reducida indebidamente a mero transductor; si se situara en nivel 7 o superior, afirmaría gobernar dominios específicos que sólo aparecen después; si se situara en nivel 13, sustituiría el cierre TODO/NADA, lo cual es inadmisible. Por tanto, su lugar doctrinal es único: nivel 6.
+El teorema de ubicación exacta se formula así: 𝓒★ObsU ocupa exactamente el nivel 6 porque presupone la transducción del nivel 5, gobierna Ωobs y permite fórmulas observacionales especializadas sin invadir niveles superiores. Si se situara en nivel 5, quedaría reducida a mero transductor; si se situara en nivel 7 o superior, afirmaría gobernar dominios sectoriales que sólo aparecen después; si se situara en nivel 13, sustituiría indebidamente el cierre TODO/NADA o el borde preformal de primera distinguibilidad. Por tanto, su lugar doctrinal es único: nivel 6.
 
----
+### I.2. Estado de la cuestión en ciencia contemporánea
 
-## II. Tesis central de la Teoría de la Creación de Observables del Universo
+La ciencia contemporánea no formula una teoría universal de creación de observables en el sentido aquí empleado. En física y cosmología, trabaja con dominios observacionales, señales, instrumentos, modelos, constantes, hipótesis, métricas y retornos empíricos; por eso puede medir edades relativas de contenidos internos, detectar líneas espectrales, describir galaxias, inferir masas no luminosas o construir mapas observacionales, pero no convierte la totalidad absoluta en objeto interno sin introducir una restricción de dominio. En biología molecular y genética, la ciencia contemporánea identifica mutaciones como cambios de secuencia, alteraciones estructurales, daños del ADN, errores de replicación, recombinación, fallos o límites de reparación, acción de mutágenos, presión selectiva y retorno funcional. En virología, describe el papel de la fidelidad replicativa, especialmente en virus ARN, la aparición de variantes, el cambio de transmisibilidad, tropismo, evasión inmunitaria o virulencia y la necesidad de vigilancia genómica. Todo ello constituye un cuerpo externo de conocimiento indispensable: muestra mecanismos, magnitudes, secuencias, proteínas, células, linajes, poblaciones y efectos medibles.
 
-La Teoría de la Creación de Observables del Universo no afirma que una fórmula matemática funde el universo, ni que una estructura formal constituida produzca materialmente objetos físicos, químicos, biológicos, humanos o documentales. Afirma que ε−0, como borde preformal de imperfección anterior a la primera distinguibilidad, es el generador preformal único de la posibilidad de observabilidad; que su función observacional, 𝓕−0^Obs=ε−0|Obs, abre el tránsito hacia el dominio de lo observable; y que la fórmula universal 𝓒★ObsU gobierna, una vez constituido el lenguaje formal, la admisión, discriminación, transducción, retorno y trazabilidad de cualquier observable en cualquier dominio. La cadena rectora no es ε−0→objeto, sino ε−0→ε−0|Obs→𝓒★ObsU→ObsU(D).
+La limitación no reside en la calidad de esos hallazgos, sino en el plano de la pregunta. La ciencia contemporánea describe cómo se producen, se detectan y se seleccionan variaciones dentro de dominios ya abiertos; no formula, salvo parcialidades filosóficas o metodológicas, el porqué preformal de que pueda haber observable, diferencia, frontera, residual, retorno y traza. En genética, una mutación puede originarse por error de replicación, daño químico, radiación, recombinación o fallo de reparación; en virus ARN, la fidelidad de la polimerasa, el equilibrio entre velocidad de replicación y exactitud, la presión del huésped y la dinámica poblacional explican el comportamiento de variantes; en evolución, la selección, la deriva, el cuello de botella y la transmisión ordenan la fijación o pérdida de variantes. La teoría aquí propuesta no niega nada de eso: lo recibe como dominio externo. Su tesis es que esas causas próximas son retornos materiales de un régimen más profundo de orientación polar de cierre bajo imperfección sostenida.
 
-ε−0 pertenece al plano preformal; 𝓕−0^Obs es la restricción funcional observacional del mismo borde; 𝓒★ObsU es fórmula constituida de gobierno; ObsU(D) es la clase de observables retornables en un dominio D. La teoría no crea los entes materiales: crea, deniega o suspende el estatuto formal de observable fuerte según dominio, magnitudes, transducción bidireccional, frontera, identidad, canal, barrera, residual, retorno y traza. Esta distinción permite unificar imperfección preformal, espacio, observabilidad y ciencia contemporánea sin convertir la matemática en fundamento del universo ni reducirla a simple descripción posterior.
+El estado de la cuestión queda integrado mediante 𝔛fib(D↔SV). La mutación no se explica contra la biología molecular, sino a través de ella: una secuencia, una variante, una proteína, una célula o un virus se aceptan con sus magnitudes, fronteras y retornos propios; después se proyectan hacia residual, canal, barrera, identidad y dictamen; finalmente regresan al dominio externo como función, viabilidad, transmisibilidad, virulencia, tropismo, evasión, estabilidad o pérdida de aptitud. La teoría no sustituye la frase “la mutación puede derivar de errores de replicación o daño del ADN”; la sitúa en un plano más general: toda mutación fuerte exige una diferencia material que conserve identidad suficiente, atraviese un canal finito, supere barrera de viabilidad, produzca retorno funcional y deje traza.
 
-El universo no queda fundado por las matemáticas. La primera distinguibilidad y la posibilidad de observabilidad proceden de una condición preformal anterior a toda fórmula constituida. Sin embargo, una vez que hay dominio de observabilidad, las matemáticas pueden codificar, decodificar, discriminar, gobernar y retornar contenidos observables. La ciencia contemporánea busca leyes del universo observable; algunas son acertadas dentro de su dominio, otras sólo parcialmente y otras fallan como fundamento. La presente teoría recibe esas leyes mediante transducción bidireccional, conserva sus magnitudes y unidades, evalúa residual y devuelve un dictamen inteligible en el propio dominio externo.
+### I.3. Regla de doble lectura: dominio externo↔SV
 
----
+El documento queda gobernado por un transductor bidireccional general de la fibra. Su forma es 𝔛fib(D↔SV)=(ΩD,MD,FD,ID,ΔD,RD), donde ΩD es el dominio externo declarado, MD las magnitudes, unidades o variables propias del dominio, FD la frontera que separa el contenido de su entorno, ID la identidad física, química, biológica, evolutiva, humana o documental, ΔD el residual de transducción y RD el retorno externo controlado. La dirección D→SV recibe el dominio real y lo proyecta hacia estructura, frontera, residual y dictamen; la dirección SV→D devuelve el resultado al dominio de partida sin sustituir sus unidades ni sus criterios de reconocimiento. La teoría no pide a la ciencia contemporánea que hable primero en SV; recibe sus objetos con métrica externa y devuelve un dictamen que puede discutirse en el mismo dominio.
 
-## III. Transductor bidireccional general de la fibra
+El teorema de no cierre unilateral establece que una tesis fuerte T(D) sólo es admisible si existen ambas direcciones de transducción, el residual es evaluable y el retorno externo está declarado. Si sólo existe D→SV, el dominio externo queda absorbido en una lectura interna sin devolución; si sólo existe SV→D, el sistema emite afirmaciones externas sin aceptar previamente magnitudes, unidades, fronteras y restricciones del dominio. Sólo la bidireccionalidad conserva simultáneamente la exigencia científica externa y la función formal del SV. Por ello, cada apartado de la publicación debe poder leerse bajo la misma secuencia: dominio externo declarado→magnitudes externas→proyección SV→residual→dictamen→retorno externo.
 
-El documento se rige desde su comienzo por un transductor bidireccional general. La forma es 𝔛fib(D↔SV)=(ΩD,MD,FD,ID,ΔD,RD), donde ΩD es el dominio externo declarado, MD las magnitudes, unidades o variables propias del dominio, FD la frontera que separa el contenido de su entorno, ID la identidad física, química, biológica, evolutiva, humana o documental, ΔD el residual de transducción y RD el retorno externo controlado. Esta forma determina la lectura de toda la teoría: ningún contenido queda admitido por lenguaje interno sin retorno, y ningún dominio externo queda absorbido sin conservar sus magnitudes.
+En física, ese recorrido exige señal, unidad, frontera observacional, canal y retorno físico. En química, exige elemento, par estructural, enlace, fase, medio y residual compositivo. En biología, exige gen, proteína, célula, tejido, órgano u organismo con frontera funcional y retorno biológico. En evolución, exige linaje, población, barrera reproductiva, traza fósil o genética y retorno evolutivo. En documento, exige texto, versión, soporte, firma, hash, traza y custodia. El mismo principio ordena la mutación: no basta detectar una diferencia genética; debe declararse dominio, conservar identidad de linaje, identificar canal replicativo, superar barrera de viabilidad, medir residual, obtener retorno fenotípico y conservar traza.
 
-La dirección D→SV acepta el dominio real con sus restricciones y lo proyecta hacia estructura, frontera, residual y dictamen. La dirección SV→D devuelve el resultado al dominio de partida sin sustituir sus unidades ni sus criterios de reconocimiento. Así, una señal espectral retorna como magnitud física, una molécula como identidad química, una célula como función biológica, un fósil como traza evolutiva, un documento como entidad textual custodiada y una proyección humana como salida de dominio con identidad parcial. La teoría habla con la ciencia contemporánea en doble sentido: recibe sus objetos y devuelve dictámenes que pueden discutirse en el mismo dominio.
+### I.4. ε−0, función observacional y fórmula de gobierno
 
-El teorema de no cierre unilateral establece que una tesis fuerte T(D) sólo es admisible si existen ambas direcciones de transducción, el residual es evaluable y el retorno externo está declarado. Formalmente, T(D) fuerte ⇔ 𝔛fib→(D,SV) definido ∧ 𝔛fib←(SV,D) definido ∧ ΔD evaluable ∧ RD controlado. Si sólo existe D→SV, el dominio externo queda traducido a una lectura interna sin retorno; si sólo existe SV→D, el sistema proyecta afirmaciones sin haber aceptado antes magnitudes externas. Sólo la bidireccionalidad conserva simultáneamente la exigencia científica del dominio externo y la función de gobierno formal del SV.
+La fibra primigenia de observabilidad no introduce una segunda raíz junto a ε−0. La formulación correcta es funcional: 𝓕−0^Obs:=ε−0|Obs. ε−0 es el borde preformal de imperfección que hace posible la primera distinguibilidad; su restricción observacional es la función por la que esa distinguibilidad puede derivar en estatuto de observable. Si 𝓕−0^Obs se separara de ε−0 como origen independiente, habría que distinguir dos bordes antes de que la distinguibilidad estuviera disponible; si se identificara sin tipado con ε−0, toda primera distinguibilidad sería ya observabilidad plena. La única solución no contradictoria es la identidad material con diferencia funcional.
 
-La gramática transversal queda fijada como dominio externo declarado→magnitudes externas→proyección SV→residual→dictamen→retorno externo. En física, el dominio aporta señal, unidad, edad relativa, radiación, opacidad, masa o estructura. En química, elemento, par, enlace, fase, medio o molécula. En biología, gen, proteína, célula, tejido, órgano u organismo. En evolución, linaje, fósil, barrera reproductiva, población o especie. En documento, texto, versión, firma, hash, traza y custodia. Ningún apartado cierra una tesis fuerte sin conservar este doble recorrido.
+La cadena general queda como ε−0⊢∂ε⊢Dsep⊢Ωesp; la cadena observacional específica queda como ε−0|Obs⊢∂Obs⊢DObs⊢ObsU(D). La fórmula universal aparece después, no antes. No funda ε−0 ni 𝓕−0^Obs, porque toda fórmula exige signos, operadores, dominio, codominio, reglas y diferencia ya constituida; pero gobierna los observables una vez que el dominio de observabilidad se abre. Así queda evitada una doble confusión: la matemática no funda el universo, pero tampoco queda reducida a adorno descriptivo. Su función es codificar, discriminar, gobernar y retornar dominios observables.
 
----
-
-## IV. ε−0, función observacional y no duplicación del origen
-
-La fibra primigenia de observabilidad, 𝓕−0^Obs, no introduce un segundo origen junto a ε−0. Tampoco se identifica con ε−0 de forma plana, porque la primera distinguibilidad no equivale todavía a observabilidad completa. La solución correcta es funcional: 𝓕−0^Obs:=ε−0|Obs. ε−0 es el borde preformal de imperfección que hace posible la primera distinguibilidad; su restricción observacional es la función por la que esa distinguibilidad puede derivar en estatuto de observable. Así se evita duplicar el origen y se conserva la diferencia entre distinguir, separar, recorrer, transmitir, retornar y trazar.
-
-El teorema de identidad funcional restringida establece que 𝓕−0^Obs no es un segundo borde preformal distinto de ε−0, sino ε−0 bajo función de observabilidad. Toda observabilidad presupone distinguibilidad y toda distinguibilidad presupone ε−0. Si 𝓕−0^Obs fuese independiente de ε−0, tendría que distinguirse de ε−0 antes de que la distinguibilidad estuviera disponible, lo cual es contradictorio. Si fuese idéntico a ε−0 sin restricción funcional, toda primera distinguibilidad sería ya observabilidad plena, lo cual anula la diferencia entre borde, separación, dominio y retorno. Por tanto, la formulación válida es 𝓕−0^Obs=ε−0|Obs.
-
-La cadena general queda como ε−0⊢∂ε⊢Dsep⊢Ωesp. La cadena observacional específica queda como ε−0|Obs⊢∂Obs⊢DObs⊢ObsU(D). La fórmula universal no ocupa el primer lugar: aparece después como gobierno constituido del dominio observable. Así, 𝓕−0^Obs hace posible la observabilidad, 𝓒★ObsU la gobierna y 𝔛fib(D↔SV) asegura que ese gobierno pueda hablar con dominios externos sin encerrarse en lenguaje interno.
-
-Todo resultado de proyección observable del universo —organismo vivo, estructura no viva, señal luminosa, no retorno, molécula, especie, documento, persona, traza fósil o linaje— procede de ε−0 como generador preformal único. Sin embargo, sólo queda constituido como observable fuerte mediante la fórmula 𝓒★ObsU y las mediaciones de dominio. “Directo” significa dependencia preformal sin origen rival; no significa salto material sin familias, subfamilias, canal, barrera, residual, transducción y retorno.
-
----
-
-## V. Fórmula universal de gobierno de observables
-
-La fórmula central de la Teoría de la Creación de Observables del Universo queda fijada así:
+La fórmula central de la teoría se fija así:
 
 𝓒★ObsU(x,D)=𝓝★[ΩMD(x),𝔛D↔SV(x),FD(x),ID(x),CD(x),BD(x),ΔD(x),RD(x),TrD(x)]∈{0,1,U}.
 
-Aquí x es un candidato a observable y D cualquier dominio declarable. ΩMD declara dominio y magnitudes externas; 𝔛D↔SV declara transducción bidireccional; FD declara frontera; ID declara identidad; CD declara canal; BD declara barrera; ΔD declara residual; RD declara retorno al dominio; TrD declara traza append-only. La fórmula no es una entre varias: es la fórmula universal de gobierno de los observables. Cualquier fórmula que omita alguno de estos componentes falla; cualquier fórmula que los contenga bajo otros nombres es equivalente; cualquier ampliación no sustituye la fórmula, sino que aumenta resolución interna.
+Aquí x es un candidato a observable y D cualquier dominio declarable. ΩMD declara dominio y magnitudes externas; 𝔛D↔SV declara transducción bidireccional; FD declara frontera; ID declara identidad; CD declara canal; BD declara barrera; ΔD declara residual; RD declara retorno; TrD declara traza append-only. La fórmula no crea materialmente hidrógeno, galaxia, célula, virus, especie, documento o persona; decide si ese contenido comparece como observable fuerte. El cierre fuerte se expresa como x∈ObsU(D) ⇔ 𝓒★ObsU(x,D)=0. Si hay contradicción material, el dictamen es 1; si falta cierre suficiente sin contradicción, el dictamen es U.
 
-La fórmula no crea materialmente el ente observado. No crea hidrógeno, galaxia, célula, especie, texto, fósil o señal. Determina si un contenido comparece como observable fuerte en un dominio. Por eso se define x∈ObsU(D) ⇔ 𝓒★ObsU(x,D)=0. Si alguna condición contradice el dominio, el resultado es 1. Si falta cierre suficiente sin contradicción material, el resultado es U. La fórmula no elimina la indeterminación honesta; la conserva cuando el cierre no es legítimo.
+### I.5. Orientación polar de cierre como motor común de los observables
 
-El teorema de mediación formal necesaria establece que todo observable del universo procede de ε−0 como generador preformal único, pero sólo entra en régimen gobernado de observabilidad mediante 𝓒★ObsU. Sea x un observable fuerte en D. Para ser observable debe distinguirse de lo que no es x; por tanto, presupone primera distinguibilidad y ε−0. Pero ε−0 por sí solo no determina dominio, transducción, frontera, identidad, canal, barrera, residual, retorno ni traza. Esos criterios pertenecen al régimen formal constituido y son reunidos por 𝓒★ObsU. Si se elimina ε−0, la fórmula queda sin origen preformal de distinguibilidad; si se elimina 𝓒★ObsU, hay apertura, pero no gobierno universal de observabilidad. Luego ambos son necesarios en planos distintos.
+La teoría requiere un motor formal de los observables, no sólo una regla de admisión. Ese motor es la orientación polar de cierre. Todo observable constituido persiste en un régimen de imperfección sostenida porque está sometido a una orientación estructural de resolución: tiende a cerrar residual mediante equipotencialidad compatible, dominancia polar o clausura de frontera. La orientación no debe expresarse como voluntad psicológica de los polos, sino como tensión formal de cierre. Si el polo 1 capturara por completo la configuración, habría completitud sin tensión estructural; si el polo 0 la capturara por completo, habría absorción sin realización; la existencia persistente exige un régimen intermedio de frontera, residual, identidad compatible, transformación y dictamen.
 
-El teorema de gobierno no fundacional establece que 𝓒★ObsU no funda 𝓕−0^Obs, pero gobierna universalmente ObsU(D). 𝓕−0^Obs pertenece al plano preformal y no es objeto físico, fórmula matemática, célula SV ni dominio externo. 𝓒★ObsU exige signos, posiciones, operador, dominio, residual y dictamen; por ello no puede fundar aquello que hace posible la observabilidad. Sin embargo, una vez abierto el dominio observable, todo x fuerte requiere sus nueve componentes. Luego la fórmula no funda la fibra, pero gobierna su manifestación observable por dominio.
+El teorema de orientación polar de cierre de todo observable establece que todo Γ observable en un dominio D está dirigido por una orientación estructural de cierre polar. Sea Γ observable fuerte. Por ser observable, requiere frontera, identidad, residual y retorno; si no tuviera frontera, no se separaría; si no tuviera identidad, no habría retorno del mismo contenido; si no tuviera residual, no habría defecto evaluable; si no tuviera retorno, no comparecería como observable de dominio. Por tanto, Γ se sitúa en un régimen de diferencia activa y no clausura indiferenciada. Si no hubiera orientación de cierre, el residual sería defecto bruto sin gobierno; pero en SV el residual se somete a dictamen, cierre y retorno. Luego todo observable persistente no sólo está en imperfección sostenida: está orientado a resolverla.
 
----
+Esta orientación permite leer bajo una misma clave fenómenos que la ciencia externa trata por dominios distintos. La gravedad de un cuerpo mayor sobre otro puede describirse como interacción gravitatoria; en SV comparece también como dominancia de régimen dentro de un dominio físico. La depredación entre animales puede describirse como pérdida desde una fibra materna, alimentación desde otra y transferencia energética desde el dominio ecológico. El enlace químico puede leerse como compatibilidad, contraste o coexistencia. El agujero negro se sitúa como régimen extremo de clausura y no transmisibilidad. En todos los casos, el observable intenta resolver una imperfección de dominio sin que el cierre anule antes del dictamen frontera, identidad, canal, residual y retorno.
 
-## VI. Unicidad de la fórmula universal y célula exacta de inscripción primaria
+### I.6. Mutación biológica como caso rector de residual compatible
 
-La fórmula universal contiene nueve componentes porque la inscripción celular exacta del SV exige n=b² con b≥3. La base de inscripción primaria es b=3 y produce n=9. El número tres no es número de familias, sino base; la célula exacta de inscripción primaria tiene nueve posiciones. Los cuadrados superiores 16, 25, 36, 49, 64, 81, 100 y sucesivos no compiten con la fórmula: desarrollan su resolución.
+La mutación constituye el caso rector inicial porque muestra con claridad la diferencia entre causa próxima externa y porqué estructural. La ciencia contemporánea describe mecanismos: errores de replicación, daño químico, radiación, recombinación, fallos o límites de reparación, presión selectiva, deriva, cuello de botella, fidelidad de polimerasa y dinámica poblacional. La teoría los conserva. Pero la pregunta profunda es por qué un dominio vivo o bio-replicativo puede conservar identidad y, a la vez, diferir. La respuesta SV es que toda replicación intenta cerrar identidad entre fuente y derivado, pero lo hace mediante un canal material finito; ese canal no puede garantizar identidad absoluta sin residual. Si la copia fuera absolutamente idéntica, no habría mutación; si el residual destruyera identidad o viabilidad, no habría variante; si el residual conserva linaje, supera barrera de viabilidad y retorna como diferencia funcional o poblacional, hay mutación observable.
 
-n=b², b≥3; en la inscripción primaria b=3 y n=9.
+La mutación se formula como instancia biológica de 𝓒★ObsU. Su forma de dominio es 𝓒★Mut(m,B)=𝓝★[ΩMB(m),𝔛B↔SV(m),Fseq(m),Ilin(m),Crep(m),Bviab(m),Δmut(m),Rpheno(m),Trgen(m)]∈{0,1,U}. ΩMB declara dominio biológico, vírico, celular o poblacional; 𝔛B↔SV exige ida y vuelta con biología externa; Fseq delimita frontera secuencial o estructural; Ilin conserva identidad de linaje; Crep es canal replicativo o transmisivo; Bviab es barrera de viabilidad; Δmut es residual mutacional; Rpheno es retorno molecular, funcional, fenotípico, epidemiológico o poblacional; Trgen es traza genética, experimental, clínica o documental.
 
-El teorema de unicidad establece que no existe otra fórmula universal distinta de 𝓒★ObsU que cumpla las mismas premisas sin ser equivalente. Si otra fórmula carece de dominio y magnitudes, no sabe dónde comparece x. Si carece de transducción bidireccional, no puede circular entre dominio externo y SV. Si carece de frontera, no separa. Si carece de identidad, no preserva el mismo x. Si carece de canal, no permite comparecencia. Si carece de barrera, no conserva separación entre familias. Si carece de residual, no decide cierre, defecto o U. Si carece de retorno, no vuelve al dominio externo. Si carece de traza, viola append-only. Por tanto, toda fórmula universal suficiente debe contener esos nueve elementos o equivalentes funcionales. Si los contiene, es 𝓒★ObsU bajo otra presentación; si no los contiene, falla.
+El teorema de génesis polar-residual de la mutación establece que la mutación observable es residual compatible de reproducción bajo orientación polar de cierre. Sea ΓB una fibra biológica, celular, vírica o poblacional que se conserva por replicación, reproducción o transmisión. Toda conservación replicativa exige cierre de identidad entre fuente y derivado; pero, al realizarse en un canal material finito, ese cierre no puede ser simultáneamente absoluto, viable y generador de trayectoria evolutiva. Si el cierre fuera perfecto, no habría diferencia observable; si el residual destruyera identidad o viabilidad, no habría linaje; si el residual queda gobernado bajo frontera, identidad compatible, canal replicativo, barrera de viabilidad y retorno, aparece mutación observable. Por tanto, la mutación no es azar fundante ni simple error aislado: es la forma biológica replicativa del cierre identitario no consumado bajo imperfección sostenida.
 
-La célula SV(9,3) no convierte la fórmula en provisional. Sólo declara su inscripción primaria exacta. La fórmula universal permanece idéntica a través de los refinamientos. SV(16,4), SV(25,5), SV(36,6) y sucesivos no añaden otra ley; descomponen posiciones, aumentan resolución, distinguen subfamilias y permiten evaluación más fina. Por tanto, la universalidad de 𝓒★ObsU es absoluta dentro de su dominio doctrinal, mientras que los cuadrados superiores son ampliaciones de lectura.
+En un virus, esta estructura se ve de modo especialmente nítido. El virus conserva identidad de linaje sólo mediante copia molecular en células huésped, y cada copia atraviesa canal bioquímico, presión inmunitaria, barrera de viabilidad y retorno poblacional. Una sustitución puede aumentar transmisibilidad, reducirla, aumentar virulencia, atenuarla, modificar tropismo, favorecer evasión inmunitaria o destruir viabilidad. La fórmula no presupone el resultado: exige retorno. Si la variante replica, transmite y deja traza, el dictamen es 0 en el dominio correspondiente; si la mutación destruye la viabilidad, el dictamen es 1 como variante viable; si se detecta la sustitución sin efecto funcional suficiente, queda en U.
 
----
+### I.7. Criterio de cierre del apartado
 
-## VII. Familias primarias de observabilidad y refinamientos por b²
-
-Las nueve posiciones de 𝓒★ObsU generan nueve familias primarias de observabilidad. ΩMD genera dominio y magnitud; 𝔛D↔SV genera transducción y doble lenguaje; FD genera frontera y separación; ID genera identidad y persistencia; CD genera canal y transmisión; BD genera barrera y diferenciación de trayectorias; ΔD genera residual y dictamen; RD genera retorno externo; TrD genera traza, append-only y custodia de trayectoria. Esta es la separación primaria exacta.
-
-Cuando esas familias formales se proyectan sobre dominios físicos, químicos, biológicos, evolutivos, humanos o documentales, aparecen sus lecturas materiales: retorno y no retorno; dominio, frontera y barrera; persistencia material y traza; medio, fase y transporte; composición química; marcadores, ciclos y observables astronómicos; bioapertura de medio; linaje, especie y divergencia evolutiva; fibra humana y proyección reflexiva. Estas lecturas no son una lista externa añadida: son especializaciones de las nueve posiciones de la fórmula.
-
-La forma general queda Famk=Πk(𝓜fib-imp | Ck,Bk,Ωk,Rk,Retk), para k=1,...,9. Ck es canal, Bk barrera de potencial, Ωk dominio, Rk residual y Retk retorno. La procedencia común de una matriz fibrogénica no implica copia, comunicación directa ni identidad. Cada familia exige canal propio, barrera propia, dominio propio, residual propio y retorno propio.
-
-Los refinamientos surgen con b>3 y n=b². Dominio se refina en escala, unidad, magnitud y objeto; transducción en ida, vuelta, proyección y retorno; frontera en física, química, biológica, documental o semántica; barrera en energética, potencial, reproductiva, ecológica, lingüística o criptográfica; traza en fósil, genoma, documento, firma, hash o trayectoria. Los cuadrados superiores no sustituyen el nueve: lo desarrollan.
+El primer apartado cierra con una tesis única: todo observable del universo procede de ε−0 como generador preformal de la posibilidad de observabilidad, pero sólo entra en régimen gobernado mediante 𝓒★ObsU; todo observable persistente queda sometido a orientación polar de cierre; y toda mutación biológica fuerte es residual compatible de esa orientación en un dominio replicativo. La teoría no sustituye la ciencia externa, sino que la recibe por transducción bidireccional, conserva magnitudes, mide residual, devuelve retorno y distingue cierre, rechazo y U. La fórmula universal queda ubicada en nivel doctrinal 6, la mutación queda situada como caso rector de variación observable y el desarrollo posterior deberá mostrar cómo la misma ley organiza familias, subfamilias, biología, evolución, humanidad, documento y laboratorio reproducible.
 
 ---
 
-## VIII. Matriz fibrogénica de imperfección sostenida
+## Referencias de apoyo del apartado I
 
-Antes de la inscripción preternaria y de la fórmula constituida se sitúa la matriz fibrogénica de imperfección sostenida, 𝓜fib-imp. No es una cosa, una sustancia, un campo físico ni una vida biológica. Es la condición doctrinal por la cual una configuración factual puede persistir sin ser absorbida por un Todo perfecto inmóvil, sin disolverse como Nada y sin quedar en U como cierre final. Su forma compacta es 𝓜fib-imp=(TODO,NADA,Imperfección,F,R,I,Tr,Ret,D), donde F es frontera, R residual, I identidad compatible, Tr traza factual, Ret retorno y D dictamen.
-
-La matriz fibrogénica procede de la Teoría del TODO y de la NADA y de la Imperfección: conserva el cierre rector (μ,λ)=(0,0), pero reconoce que el universo físicamente realizado no es cierre perfecto inmóvil, sino dominio de configuraciones persistentes bajo imperfección sostenida. Universo Vivo no significa aquí vida biológica, sino existencia estructural sostenida: configuraciones con frontera, residual, identidad, interacción, traza y retorno. Átomos, moléculas, campos, luz no transmisiva, agujeros negros, medios prebiológicos, especies, organismos y documentos son casos posteriores o sectoriales.
-
-La matriz fibrogénica no compite con ε−0. ε−0 nombra el borde preformal de primera distinguibilidad; 𝓜fib-imp nombra el régimen de persistencia bajo imperfección sostenida que permite fibrogénesis de dominios. La función observacional de ε−0 abre el tránsito hacia observabilidad; la fórmula 𝓒★ObsU gobierna los observables ya constituidos. De esta forma, la raíz no se duplica: se tipa por función.
-
----
-
-## IX. Suelo preternario, protoescisión polar y ternarización inducida
-
-Tras la matriz fibrogénica y la función observacional de ε−0, el recorrido formal entra en Ωpre, dominio compatible anterior a la lectura ternaria constituida. En Ωpre comparecen posiciones ξi=(i,αi,βi), con ρi=αi+βi como manifestación factual previa y δi=βi−αi como separación polar inicial. En ese plano no operan todavía 0, 1 ni U como régimen constituido.
-
-La protoestructura formal es σproto,i=ξi=(i,αi,βi). El paso hacia régimen ternario requiere Π3H: Ωpre ⇀ K3, de modo que la semilla ternaria operativa queda como σ0=Π3H(Ωpre). La dirección correcta es Ωpre→Π3H→K3, no K3→Ωpre. K3 es suelo operativo, no borde preformal absoluto.
-
-U no pertenece al dominio preternario como valor ya disponible. U nace después de la activación pertinente, cuando la separabilidad polar y la base compatible no permiten clausura honesta hacia 0 o 1. U no es probabilidad, ignorancia vulgar ni ausencia: es no clausura honesta inducida. Esta disciplina impide convertir la falta de retorno en inexistencia o la falta de prueba en cierre favorable.
-
-La relación de niveles queda como 𝓜fib-imp→ε−0|Obs→Ωpre→ξi=(i,αi,βi)→Π3H→K3→σ0→célula exacta SV(9,3). Los niveles inferiores al suelo ternario no quedan forzados a tener nueve posiciones. La restricción n=b² empieza cuando la separación entra en inscripción celular exacta; antes hay matriz, borde preformal, función observacional y preternariedad.
-
----
-
-## X. Semilla compositiva común, persistencia físico-química y umbral prebiológico
-
-Una vez constituida la semilla ternaria inducida, se formula la semilla compositiva común Σcomp-0=(E,P,M,F,R,Ret), donde E recoge elementos persistentes, P pares estructurales admisibles, M moléculas persistentes, F frontera físico-química, R residual compositivo y Ret retorno químico o prebiológico. Esta semilla no equivale a vida; es el primer suelo compositivo apto para abrir química persistente bajo frontera y retorno.
-
-La separación tradicional entre orgánico e inorgánico no coincide con la separación entre vivo y no vivo. Lo orgánico no equivale a vivo y lo inorgánico no equivale a no vivo. La vida terrestre aparece cuando ramas orgánicas e inorgánicas se acoplan bajo frontera, metabolismo, herencia, residual y retorno. Carbono, hidrógeno, oxígeno, nitrógeno, fósforo, azufre, agua, iones, metales, fosfatos, membranas, gradientes y macromoléculas comparecen como dominios integrados, no como ramas autosuficientes.
-
-Toda fase biológica exige persistencia material compatible. La condición de persistencia se expresa como 𝓟min(Γ,n)=𝓕∂(Γ,n)−𝒬(Γ,n)−ℛΓ(n), con admisión si 𝓟min>0. Esta desigualdad no declara vida; habilita soporte físico-químico para moléculas, medio, frontera, intercambio, estabilidad relativa y retorno. La molécula no nace de elementos aislados, sino de relaciones compositivas dictaminadas mediante D(A,B)∈{APTO-M,APTO-C,APTO-I,NO-APTO}. Un resultado APTO habilita compatibilidad compositiva; no declara vida. Un resultado NO-APTO refuta una ruta concreta; no derriba toda la química.
-
-Una molécula candidata se representa como grafo compositivo GM=(VM,EM,DM), con residual Rcomp(M)=RD(M)⊕RF(M)⊕RI(M)⊕Rret(M). El medio prebiológico se formula como Ωprebio=(Mols,Solv,Grad,F,Flux,R,Ret). Agua, iones, fosfatos, sales, membranas o protomembranas y gradientes son condiciones materiales de operación, no vida por sí mismos. Sin Ωprebio admisible no procede banco LUCA fuerte.
-
----
-
-## XI. Transductor biológico, Γbio-0, divergencia evolutiva y especie
-
-La entrada biológica se rige por 𝔛bio(B↔SV)=(ΩB,MB,FB,IB,ΔB,RB), donde ΩB es dominio biológico, MB magnitud externa reconocible, FB frontera, IB identidad funcional, ΔB residual y RB retorno biológico. Este transductor no reemplaza genes, proteínas, células, tejidos, órganos, organismos, unidades bioquímicas ni datos evolutivos. Los recibe, los ordena por proyección, mide residual, emite dictamen y devuelve el resultado al lenguaje biológico correspondiente.
-
-La cadena biológica estructural se formula como par estructural→molécula→macromolécula→interfaz→célula→tejido→órgano→organismo. No es mera cronología, sino dependencia estructural. Cada nivel exige dominio, magnitud, frontera, identidad, residual y retorno. Γbio-0 se obtiene por cierre transductivo de invariantes biológicos comunes: Γbio-0=Núcleo(GC,RIB,ATP,AAchir,MEM,REP,TRN,MET,GENcore). GC designa código genético; RIB, ribosoma o síntesis proteica; ATP, acoplamiento bioenergético; AAchir, quiralidad aminoacídica; MEM, frontera celular o protocelular; REP, herencia o replicación; TRN, transcripción y traducción; MET, metabolismo basal; GENcore, núcleo génico o funcional conservado.
-
-Γbio-0 no es la fibra primigenia absoluta, porque exige medio prebiológico, transductor biológico, banco LUCA e invariantes biológicos. Si fuese la fibra primigenia absoluta, la vida celular quedaría convertida en fundamento de toda observabilidad, invirtiendo la cadena. Por tanto, Γbio-0 es raíz biológica transductiva de la vida celular actual, no raíz fibrogénica universal.
-
-Desde Γbio-0 se derivan fibras específicas, no copias. Para cada linaje o especie se formula ΓEk=ΠEk(𝒟evo,k(Γbio-0)), con 𝒟evo,k=(TPAlin,k,Cher,k,Bdev,k,Beco,k,Brep,k,Rlin,k,Retrep,k). La especie no aparece por salto desde una raíz común, sino por especificación transductiva de trayectorias diferenciales. La extinción se formula como clausura de proyecciones vivas y reproductivas, no como conversión de ΓE en Nada. Pueden persistir traza fósil, genética, ecológica, documental o SV.
-
----
-
-## XII. Fibra humana singular y proyecciones humanas
-
-La fibra humana singular se formula como derivada evolutiva y transducida: ΓH=ΠH(𝒟evo,H(Γbio-0))⊗𝔛bio(𝔅H↔SV). El humano no comparece como raíz, sino como fibra singular inscrita en una cadena evolutiva y en dominios materiales, funcionales, neurocognitivos, discursivos y documentales. La admisión fuerte exige doble cierre: Adm(ΓH)=SÍ ⇔ Devo,H=SÍ ∧ Dbank,H=SÍ.
-
-El banco humano incorpora, según alcance, genoma, ADN, proteoma, célula, tejido, órgano o sistema, neurocognición, discurso y documento. Cada nivel exige dominio, magnitud externa, frontera, identidad, residual, retorno y dictamen. La proyección genética no agota la identidad humana; la proyección celular no agota el organismo; la proyección neurocognitiva no agota el documento; la proyección documental conserva traza, no organismo vivo.
-
-Las proyecciones humanas se admiten como salidas de dominio: Pmol, Pgen, Pcell, Ptis, Porg, Pneuro, Pling, Pautor, Pfam, Psoc y Pdoc. Cada una debe declarar frontera, TPA-campo, residual y retorno. Ninguna equivale a ΓH completa. La familia proyectiva abre nuevas fibras con relación parcial de procedencia, pero no copia del origen. La descendencia no es duplicación de la fibra humana singular; la obra no sustituye al autor; el discurso no equivale al cuerpo; el documento no agota la identidad.
-
-El teorema de proyección fuerte establece PD-fuerte(Γ) ⇒ ∃TPAD(Γ). La TPA-campo permite medir apertura, resolución, acumulación, divergencia, curvatura, holonomía, residual y retorno. Sin TPA-campo, la proyección queda como denominación incompleta. Esta disciplina impide tratar familia, lenguaje, documento, obra, memoria social o descendencia como copias indiferenciadas de una fibra singular.
-
----
-
-## XIII. Canal, barrera, encaje, traza y no comunicación directa
-
-Las familias y proyecciones no se comunican directamente por compartir origen. La procedencia común desde 𝓜fib-imp o desde ΓH no implica identidad, copia ni comunicación inmediata. El cruce apto se decide por 𝓧ij(c)=𝓝★SV(χT,χB,χJ), donde c es canal candidato entre proyección origen y destino, χT mide defecto de transmisión, χB defecto de barrera y χJ defecto de encaje proyectivo. El cierre apto exige χT=0 ∧ χB=0 ∧ χJ=0.
-
-Canal sin barrera no basta; barrera superada sin canal no transporta; transmisión sin encaje no alcanza la proyección pretendida. U se conserva cuando no hay refutación y falta base de clausura; un defecto crítico refuta el tránsito. La barrera de potencial separa trayectorias, familias y dominios. La comunicación no se concede por origen común, sino por canal, barrera, encaje, residual y retorno.
-
-La regla append-only se incorpora a toda proyección. Si Γ=(S1,S2,S3,...,S10), cada suceso conserva su posición en la cadena fuente. Γ′=(S1,S3,S10) puede ser subtrayectoria o compresión proyectiva, pero nunca eliminación de S2,...,S9. La compresión proyectiva debe declarar residual, dominio y retorno. Esta regla gobierna TPA biológica, extinción, documento, traza autoral, publicación y banco.
-
----
-
-## XIV. Matriz positiva de contraste
-
-La matriz positiva de contraste declara casos en los que 𝓒★ObsU debe devolver 0 por cierre completo de sus nueve componentes. Una línea espectral de hidrógeno en una galaxia, con dominio astrofísico, unidad, frontera espectral, canal luminoso, residual controlado, retorno físico y registro observacional, produce 0. El universo observable tratado como dominio físico interno de señales, mapas, contenidos y retornos produce 0 cuando no se confunde con totalidad absoluta. Una molécula de agua en condiciones químicas declaradas produce 0 como observable químico, no como vida. Una célula viva con membrana, material hereditario, metabolismo, intercambio, reparación y retorno funcional produce 0 como observable biológico. Un fósil suficientemente identificado produce 0 como traza paleontológica, no como especie viva. Un organismo humano singular produce 0 como observable biológico-humano, y un documento firmado, fechado, versionado y custodiado produce 0 como observable documental.
-
-La matriz positiva no concede más de lo que cada dominio permite. La señal espectral no es totalidad cosmológica; el universo observable no es TODO; la molécula no es organismo; la célula no es especie; el fósil no es retorno vivo; el documento no es persona. La fórmula admite cada contenido en su dominio y rechaza su expansión ilegítima a otro dominio. Esa discriminación confirma que 𝓒★ObsU no funciona como fórmula permisiva universal, sino como gobierno de observabilidad con frontera y retorno.
-
----
-
-## XV. Matriz negativa de contraste
-
-La matriz negativa de contraste fija los rechazos obligatorios. Un observable sin dominio declarado devuelve 1, porque sin ΩMD no hay lugar de comparecencia. La totalidad absoluta tratada como objeto físico medible devuelve 1, porque carece de frontera externa y retorno como contenido interno. Una teoría sin transductor bidireccional devuelve 1, porque no recorre D↔SV. Una magnitud externa absorbida sin retorno devuelve 1. Un objeto sin frontera devuelve 1. Un retorno atribuido a un objeto distinto devuelve 1 por defecto de identidad. Una observación sin canal devuelve 1. Un cruce entre familias con barrera activa devuelve 1. Un residual crítico ignorado devuelve 1. Un documento fuerte sin versión, firma, hash, cadena material o registro devuelve 1.
-
-En los dominios físico-químicos y biológicos, el agua declarada vida devuelve 1; una molécula orgánica aislada declarada organismo devuelve 1; una secuencia genética aislada declarada organismo devuelve 1; una proteína aislada declarada célula devuelve 1; un par estructural NO-APTO usado como enlace fuerte devuelve 1; un conjunto molecular sin gradiente, flujo ni frontera declarado medio prebiológico fuerte devuelve 1. En evolución, un fósil declarado especie viva actual devuelve 1; un fragmento de ADN declarado reactivación lograda de especie extinta devuelve 1; una especie definida sin linaje, barrera reproductiva ni retorno suficiente queda rechazada o en U según el defecto. En proyección humana, la descendencia declarada copia idéntica de una fibra singular devuelve 1; un documento declarado idéntico a la persona devuelve 1; una comunicación entre familias por mero origen común devuelve 1; una subtrayectoria usada para borrar sucesos devuelve 1.
-
-La matriz negativa prueba que la fórmula no concede cierre por analogía, deseo, denominación, plausibilidad lingüística, apariencia formal, probabilidad, tiempo soberano, ausencia de datos o procedencia común. Si falta dominio, transducción, frontera, identidad, canal, barrera, residual, retorno o traza, el cierre fuerte no se admite. Si hay contradicción material, el dictamen es 1. Si falta cierre suficiente sin contradicción, el dictamen es U. Ningún caso negativo puede producir 0 salvo que se reformule y aporte los nueve cierres.
-
----
-
-## XVI. Casos U y conservación de la indeterminación honesta
-
-U no es fracaso de la fórmula. Es su garantía de honestidad cuando no hay contradicción material, pero falta cierre suficiente. Una línea espectral observada sin identificación robusta queda en U respecto de su atribución física, aunque pueda ser observable instrumental. Una masa no luminosa inferida por efecto gravitacional puede cerrar como efecto observable y quedar en U como sustancia plenamente identificada. Una hipótesis de reactivación de especie extinta queda en U si no afirma retorno logrado y declara barreras pendientes. Un texto visible sin trazabilidad fuerte queda en U como documento custodiado, aunque pueda admitirse como contenido textual. Un resto fósil parcial puede quedar en U si no cierra identidad taxonómica.
-
-La conservación de U impide dos errores. El primero sería aceptar como fuerte lo que sólo tiene indicio, efecto parcial o trazabilidad incompleta. El segundo sería rechazar como falso lo que todavía no ha cerrado pero tampoco contradice el dominio. U preserva la indeterminación honesta y mantiene abierto el trabajo de dominio, siempre subordinado a residual, retorno y trazabilidad.
-
----
-
-## XVII. Laboratorio reproducible y retorno externo
-
-El laboratorio reproducible debe materializar la doble lectura. Cada fila del banco declarará código, dominio, candidato x, vector de nueve componentes, dictamen esperado, dictamen obtenido, componente crítico, retorno externo y traza. La matriz positiva confirmará cierres 0; la matriz negativa confirmará rechazos 1; la matriz U confirmará suspensión honesta. Ninguna fila podrá pasar por omisión de componente. Ningún cierre favorable podrá producirse por defecto del código.
-
-El banco recorrerá 𝓜fib-imp→ε−0|Obs→Ωpre→K3→SV(9,3)→persistencia físico-química→pares estructurales→moléculas→medio prebiológico→LUCA→Γbio-0→especie→humano→proyección documental. Los dominios mínimos de prueba serán Dphys, Dchem, Dbio, Devo, Dhuman y Ddoc. En Dphys entran señal, hidrógeno, edad relativa, galaxia, retorno luminoso y no retorno. En Dchem entran elemento, par estructural, molécula, fase y medio. En Dbio entran gen, proteína, célula, tejido y órgano. En Devo entran linaje, fósil, barrera reproductiva y especie. En Dhuman entran genoma, neurocognición, lenguaje y familia. En Ddoc entran documento, versión, firma, hash y traza.
-
-El laboratorio no prueba que ε−0 sea un objeto ni que 𝓕−0^Obs sea una sustancia. Verifica que 𝓒★ObsU codifica con fidelidad, necesidad, suficiencia y retorno la función observacional derivada de ε−0. La prueba formal cierra la unicidad de la fórmula; el laboratorio muestra que esa fórmula no queda encerrada en lenguaje interno. Con banco positivo, negativo y U, el lector externo debe discutir dominio, magnitud, residual, retorno y casos de contraste.
-
----
-
-## XVIII. Dictamen formal de cierre
-
-La teoría queda ubicada en nivel doctrinal 6: 𝓒★ObsU es la fórmula universal de gobierno de observables. ε−0 permanece como borde preformal de primera distinguibilidad; 𝓕−0^Obs es ε−0 bajo función observacional; 𝓒★ObsU gobierna los observables constituidos; 𝔛fib(D↔SV) asegura la doble lectura entre SV y dominios externos. La fórmula no es provisional, ni meramente descriptiva, ni sustituible por una fórmula no equivalente.
-
-La línea consolidada queda como TODO/NADA/Imperfección→𝓜fib-imp→ε−0→ε−0|Obs=𝓕−0^Obs→∂Obs→DObs→𝓒★ObsU→familias SV(9,3)→refinamientos SV(b²,b)→dominios físico-químicos→medio prebiológico→Γbio-0→divergencia evolutiva→fibras de especie→fibra humana singular→proyecciones. Esta cadena no introduce una nueva raíz junto a ε−0; muestra que la fibra primigenia de observabilidad es la función observacional de la raíz ya fijada.
-
-El dictamen final es APTO MUY FUERTE: ε−0 es generador preformal único de la posibilidad de observabilidad; 𝓕−0^Obs es ε−0 bajo función observacional; 𝓒★ObsU es la fórmula universal de gobierno de observables; la bidireccionalidad es condición de entrada; las familias y subfamilias derivan de la fórmula y de sus refinamientos; canal, barrera, residual, retorno y traza impiden copia, comunicación directa y cierre espurio; la matriz negativa rechaza las atribuciones indebidas; los casos U conservan indeterminación honesta; el laboratorio reproducible devuelve la teoría a dominios externos.
+La base interna procede de las publicaciones SV sobre imperfección preformal y espacio, edades relativas del universo observable, agujero negro como cierre interno sin resto exterior formulable, nuevas matemáticas SV y anexo biomolecular de transducción SV↔biología. Como estado de la cuestión externo, se consideran las fuentes biomédicas y virológicas de referencia sobre mutación, daño del ADN, reparación, fidelidad replicativa, virus ARN y variantes virales: NCBI Bookshelf, *Mutation, Repair and Recombination*; NCBI Bookshelf, *DNA Repair*; Chatterjee y Walker, *Mechanisms of DNA damage, repair and mutagenesis*; Peck y Lauring, *Complexities of Viral Mutation Rates*; Kautz et al., *RNA Virus Fidelity Mutants*; Carabelli et al., *SARS-CoV-2 variant biology: immune escape, transmission and fitness*; CDC, informes sobre variantes de SARS-CoV-2 y transmisibilidad diferencial. Estas fuentes no fundan la teoría SV, sino que delimitan el dominio externo que la teoría debe recibir, transducir y retornar sin sustituirlo.
