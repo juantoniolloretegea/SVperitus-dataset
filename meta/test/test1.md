@@ -613,3 +613,118 @@ La tabla de transductores singulares impide que los casos se traten por generali
 | 𝔛evo(E_k↔SV) | Especie o linaje | Linaje, población, barrera, traza | rasgo, bp, fósil, registro | Especie fuerte, extinción o U | Semejanza sin linaje ni barrera |
 | 𝔛human(H↔SV) | Humano singular | Organismo, identidad, lenguaje, documento, traza | unidad biológica, biográfica y documental | Fibra humana y proyecciones | Documento confundido con persona |
 | 𝔛doc(Doc↔SV) | Documento concreto | Texto, versión, autoría, firma, hash, custodia | hash, fecha, licencia, soporte | Documento fuerte o texto débil | Custodia sin traza |
+
+## V. Inscripción celular exacta y familias primarias
+
+### V.1. La célula como observable biológico constituido
+
+La célula se define, en este dominio, como observable biológico constituido: una región material de frontera propia, intercambio gobernado, identidad operativa, reparación relativa y retorno verificable. No es fundamento último de la vida ni punto originario absoluto; es una realización posterior de la fibra en régimen biológico, donde la imperfección sostenida permite distinguir interior, exterior, canal, función, variación y persistencia. La célula no se identifica por estar “dentro” de un espacio físico, sino por conservar una frontera funcional que separa sin aislar: recibe, transforma, expulsa, repara, replica cuando procede, responde y retorna. Su estatuto SV exige, por tanto, más que membrana visible o contenido molecular; exige identidad de dominio, canal de intercambio, regla de conservación, residual gobernado y trazabilidad de función.
+
+<div align="center">Cel<sub>SV</sub>=1 ⇔ ∂Cel declarada ∧ Ω<sub>int</sub>/Ω<sub>ext</sub> distinguibles ∧ canal gobernado ∧ retorno funcional ∧ Δ<sub>cel</sub> absorbible.</div>
+
+La célula queda así separada de tres reducciones insuficientes. No es sólo un saco molecular, porque su identidad depende de relaciones reguladas entre frontera, genoma, metabolismo, señalización, reparación y entorno. No es sólo una unidad genética, porque el genoma no actúa fuera de soporte, canal, lectura, regulación y retorno. No es sólo una unidad morfológica, porque dos células semejantes en forma pueden pertenecer a regímenes funcionales distintos, y una misma familia celular puede adoptar estados diferentes sin perder necesariamente identidad. La célula, en sentido SV, es el primer dominio biológico donde la fibra muestra con claridad una frontera recorrible, una interioridad operativa y una respuesta capaz de retornar como conservación, variación, daño, reparación o U.
+
+| Elemento celular | Lectura biológica contemporánea | Lectura SV |
+|---|---|---|
+| Membrana o envoltura | límite físico-químico, transporte, señalización | frontera factual de intercambio gobernado |
+| Citoplasma | medio de reacciones y organización intracelular | dominio interno de transformación |
+| Genoma o material hereditario | soporte de información heredable | registro estructural transducible, no soberano por sí solo |
+| Metabolismo | producción y uso de energía, síntesis y degradación | canal de retorno funcional |
+| Señalización | recepción y transmisión de señales | canal semántico-biológico de respuesta |
+| Reparación | corrección de daño molecular o estructural | absorción local de residual |
+| División o replicación | continuidad celular o poblacional | proyección de identidad bajo frontera y residual |
+
+### V.2. Inscripción celular en la fibra
+
+La inscripción celular en la fibra no equivale a colocar una célula en una línea temporal. Equivale a reconocer una trayectoria de sucesos biológicos ordenados por dependencia factual: frontera constituida, intercambio, transformación, reparación, respuesta, división eventual, especialización o pérdida de retorno. La célula queda inscrita cuando puede distinguirse una continuidad suficiente entre sus estados sin convertir esa continuidad en identidad absoluta. Una célula viva conserva identidad porque gobierna su variación; una célula alterada conserva identidad mientras el residual no supere sus barreras; una célula patológica conserva una identidad desviada cuando impone retorno lesivo; una célula muerta pierde el régimen de retorno que la hacía operar como célula viva.
+
+<div align="center">Ins<sub>fibra</sub>(Cel)=1 ⇔ Γ<sub>Cel</sub> declarada ∧ ∂Cel persistente ∧ R<sub>Cel</sub> trazable ∧ Δ<sub>Cel</sub> no clausurante.</div>
+
+Esta inscripción exige distinguir entre continuidad material y continuidad funcional. Puede persistir material celular sin célula viva, como ocurre en restos celulares, cuerpos apoptóticos, necrosis o material extracelular. Puede persistir una función parcial sin identidad celular completa, como sucede en fragmentos, vesículas, organelos aislados o viriones dependientes de célula huésped. Y puede persistir identidad celular bajo variación, como ocurre en diferenciación, activación, reparación o adaptación compatible. La fibra celular, por tanto, no es una sustancia inmóvil, sino una secuencia estructural de conservación bajo cambio gobernado.
+
+La inscripción tampoco autoriza a convertir cualquier entidad biológica en célula. Un virus puede ser observable biológico y entidad replicativa dependiente, pero no célula si carece de metabolismo propio y de frontera celular operativa autónoma. Una bacteria sí es célula procariota si conserva frontera, metabolismo, material genético y retorno propio. Un tejido no es una célula grande, sino coordinación de células, matriz y señales. Un organismo no es una célula ampliada, sino una arquitectura jerárquica de retornos. Esta precisión evita que la fibra biológica se aplane y permite que cada observable sea tratado por el transductor específico que le corresponde.
+
+### V.3. Célula, frontera, canal y retorno
+
+La frontera celular es el lugar donde la célula deja de ser una masa química indiferenciada y pasa a constituirse como observable biológico. La frontera no debe entenderse sólo como membrana lipídica, aunque en muchas células sea su proyección física principal; incluye mecanismos de reconocimiento, permeabilidad, adhesión, polaridad, reparación, señalización y defensa. Una frontera apta no aísla absolutamente: separa para permitir intercambio gobernado. Si no separa, no hay identidad celular; si separa de forma absoluta, no hay vida celular; si intercambia sin gobierno, aparece deterioro, infección, transformación o muerte.
+
+El canal celular es la relación material y funcional por la que la célula recibe y devuelve. Hay canales de nutrientes, iones, metabolitos, agua, señales, contacto, antígeno, patógeno, matriz extracelular, presión mecánica, fármaco y daño. El canal no es todavía diálogo semántico pleno; puede ser presemántico cuando sólo hay contacto funcional, protosemántico cuando hay respuesta diferenciada, y semántico estructural cuando el intercambio activa un diccionario de dominio suficientemente estable. Una célula inmune que reconoce antígeno, una neurona que transmite señal, una célula epitelial que conserva barrera o una célula tumoral que evade control no “hablan” en sentido humano, pero sí establecen canales de retorno con semántica biológica transducible.
+
+El retorno celular es el resultado estructural de ese intercambio. Puede devolver conservación, activación, diferenciación, reparación, proliferación, apoptosis, senescencia, secreción, migración, daño, transformación o U. Sin retorno no hay dictamen. Una señal externa que no retorna como modificación trazable queda en U o como dato auxiliar. Un marcador aislado no define célula patológica si no retorna función, frontera, identidad o daño. Una alteración molecular no define enfermedad si no atraviesa canal y no produce residual no absorbido. La célula queda así gobernada por una regla de cierre estricta: sólo se nombra con fuerza lo que retorna.
+
+| Plano | Condición apta | Fallo característico |
+|---|---|---|
+| Frontera | separa e intercambia con gobierno | permeabilidad caótica, pérdida de identidad o aislamiento incompatible |
+| Canal | conecta estímulo, recepción y respuesta | contacto sin semántica o señal sin retorno |
+| Diccionario | asigna sentido biológico a la señal | semejanza funcional no demostrada |
+| Residual | mide lo que no se absorbe | daño oculto o U degradado |
+| Retorno | devuelve conservación, cambio, reparación o daño | dato sin efecto trazable |
+
+### V.4. Familias primarias de células y dominios de función
+
+Las familias primarias de células deben definirse por dominio de función y régimen de retorno, no por una lista enciclopédica. La biología contemporánea distingue múltiples tipos celulares por origen, morfología, expresión, tejido y función; el SV conserva esa riqueza, pero la ordena por frontera, canal, retorno y residual. Una familia celular primaria es una clase de células que comparte un modo rector de conservar identidad y de devolver función dentro de un dominio biológico. No es una especie rígida, porque una célula puede cambiar de estado, diferenciarse, activarse, envejecer, lesionarse o transformarse; tampoco es una etiqueta libre, porque cada familia exige condiciones constitutivas.
+
+| Familia primaria | Dominio de función | Canal característico | Retorno principal | Riesgo de cierre indebido |
+|---|---|---|---|---|
+| Procariota | autonomía celular simple, metabolismo y replicación | nutrientes, entorno, material genético, señales químicas | crecimiento, división, resistencia, adaptación | tratar toda variación como patología |
+| Eucariota somática | mantenimiento tisular y función especializada | señales tisulares, matriz, metabolismo, contacto | función, reparación, diferenciación limitada | confundir activación con transformación |
+| Germinal | transmisión heredable | meiosis, fecundación, linaje | continuidad generacional | confundir variante con destino absoluto |
+| Madre o progenitora | renovación y diferenciación | nicho, factores, señales de linaje | autorrenovación o destino celular | confundir plasticidad con malignidad |
+| Epitelial | barrera, intercambio y superficie | adhesión, polaridad, entorno, microbiota | protección, absorción, secreción | confundir lesión reactiva con cáncer |
+| Mesenquimal o conectiva | soporte, matriz, reparación | matriz extracelular, tensión, señal inflamatoria | sostén, reparación, cicatriz | confundir reparación con proliferación tumoral |
+| Neural | excitabilidad, conducción, integración | sinapsis, gradientes, señales eléctricas y químicas | transmisión, modulación, plasticidad | confundir señal con conciencia celular |
+| Inmunitaria | reconocimiento, defensa y tolerancia | antígeno, citoquinas, contacto, patrón de daño | activación, supresión, memoria, eliminación | confundir marcador con función efectiva |
+| Endocrina o secretora | coordinación por productos liberados | estímulo, síntesis, secreción, receptor | señal sistémica o local | confundir concentración con efecto |
+| Hematopoyética | producción y recambio celular sanguíneo | médula, factores, linaje, demanda | reposición, defensa, transporte | confundir citopenia con neoplasia |
+| Muscular | contracción, movimiento y tensión | calcio, energía, inervación, carga | fuerza, tono, reparación | confundir daño con pérdida de identidad |
+| Endotelial | interfaz vascular y barrera dinámica | flujo, presión, inflamación, coagulación | permeabilidad, tono, hemostasia | confundir activación con lesión irreversible |
+
+Esta tabla no agota la diversidad celular; fija el plano de lectura. La familia primaria se completa por el dominio concreto: una célula epitelial intestinal no equivale a una célula epitelial alveolar; un linfocito T no equivale a un macrófago; una célula madre hematopoyética no equivale a una célula madre neural. Sin embargo, todas pueden entrar en una misma gramática SV porque todas exigen frontera, canal, diccionario, residual y retorno. La unidad está en la forma de inscripción; la diferencia está en el dominio funcional.
+
+### V.5. Diferencia entre célula, tejido, órgano y organismo
+
+La célula es unidad de frontera biológica con retorno propio; el tejido es coordinación de células y matriz bajo función compartida; el órgano es integración de tejidos en una operación fisiológica especializada; el organismo es una arquitectura de retornos jerarquizados capaz de conservar unidad biológica global. La diferencia no es sólo de tamaño ni de complejidad acumulada. Una célula aislada puede estar viva y no constituir tejido; un tejido puede conservar estructura ex vivo y no constituir órgano funcional; un órgano puede tener función parcial sin sostener organismo; un organismo puede vivir con daño orgánico compensado mientras el retorno sistémico permanezca gobernado.
+
+| Nivel | Unidad de frontera | Canal dominante | Retorno | Error si se confunde |
+|---|---|---|---|---|
+| Célula | frontera celular | intercambio molecular, físico y señalizador | función celular o estado celular | atribuir función orgánica a una célula aislada |
+| Tejido | frontera histológica y matriz | coordinación intercelular | función tisular | reducir tejido a suma de células |
+| Órgano | frontera anatómico-funcional | integración vascular, neural, mecánica y molecular | función orgánica | llamar órgano a cualquier masa tisular |
+| Organismo | frontera corporal y sistémica | integración neuroendocrina, inmune, metabólica y conductual | retorno vital global | validar diagnóstico local por desenlace global |
+
+La jerarquía celular no es composición mecánica. Un tejido no se obtiene sumando células sin canal; un órgano no se obtiene acumulando tejidos sin integración; un organismo no se obtiene yuxtaponiendo órganos sin retorno sistémico. Cada nivel conserva su propio residual. Por eso una mutación celular puede no producir enfermedad tisular; una lesión tisular puede no producir fallo orgánico; un fallo orgánico puede ser compensado por el organismo; y una muerte física no valida por sí sola la etiqueta diagnóstica local que se hubiera propuesto antes. La precisión de nivel evita cierres espurios.
+
+### V.6. Célula normal, célula alterada y célula patológica
+
+La célula normal no es una célula perfecta, sino una célula con imperfección gobernada: intercambia, repara, cambia, responde y conserva retorno compatible con su dominio. La célula alterada es una célula que presenta desviación material o funcional, pero cuyo residual puede permanecer absorbido, compensado o indeterminado. La célula patológica es una célula cuya desviación rompe identidad, frontera, función, reparación o retorno de manera trazable y no absorbida. Esta distinción es esencial para no convertir toda variación en enfermedad ni toda anomalía molecular en cáncer.
+
+<div align="center">Pat<sub>SV</sub>(Cel)=1 ⇔ Δ<sub>id</sub>⊕Δ<sub>frontera</sub>⊕Δ<sub>función</sub>⊕Δ<sub>retorno</sub> no se absorbe y retorna daño de dominio.</div>
+
+Una célula puede estar normal en un plano y alterada en otro. Puede tener cambios epigenéticos sin daño funcional evidente; puede activarse por inflamación y volver a reposo; puede proliferar en reparación y no ser tumoral; puede acumular daño y entrar en senescencia protectora; puede sufrir apoptosis y contribuir a la conservación del tejido; puede escapar a control y entrar en dominancia patológica. El SV no decide por una sola marca. Exige preguntar qué frontera se ha modificado, qué canal se ha abierto o cerrado, qué función se ha perdido o impuesto, qué residual queda y qué retorno recibe el dominio superior.
+
+| Estado celular | Definición SV | Retorno | Dictamen |
+|---|---|---|---|
+| Normal gobernada | variación compatible con identidad y función | conservación funcional | 0 para patología |
+| Activada | respuesta reversible o finalista a estímulo | función aumentada o modificada | 0/U según retorno |
+| Adaptada | cambio estable compatible con dominio | conservación bajo nueva condición | 0/U |
+| Alterada | desviación con residual absorbido o no concluido | compensación o incertidumbre | U si falta cierre |
+| Lesionada | daño material con retorno trazable | reparación, muerte celular o disfunción | 0/1 según dominio |
+| Patológica | residual no absorbido con daño de dominio | enfermedad celular o tisular | 1 para patología |
+| Transformada | identidad desviada con dominancia potencial o efectiva | clon, proliferación, invasión o escape | 1 si cáncer cierra |
+| Muerta | pérdida de retorno celular vivo | restos, señal de daño o eliminación | cierre vital celular, no diagnóstico global |
+
+La célula patológica no se define sólo por daño visible. Una célula tumoral puede parecer viable y activa; una célula infectada puede producir viriones antes de morir; una célula autoinmune puede estar funcionalmente activa y ser lesiva para el organismo; una célula senescente puede ser protectora o contribuir a deterioro según contexto. La patología aparece cuando el retorno de la célula se vuelve incompatible con el dominio que debía conservar o cuando impone una dominancia que desorganiza frontera, tejido, órgano u organismo.
+
+### V.7. Célula viva como región de imperfección gobernada
+
+La célula viva existe porque no está cerrada de forma absoluta. Mantiene gradientes, consume, expulsa, repara, sintetiza, comunica y se expone a daño. Si su frontera se cerrara por completo, perdería intercambio; si su frontera se abriera sin gobierno, perdería identidad; si su variación desapareciera, no podría adaptarse; si su variación se desbordara, entraría en deterioro, transformación o muerte. La vida celular se sitúa en esa región precisa: imperfección suficiente para permitir suceso, cambio y respuesta; gobierno suficiente para conservar identidad, frontera y retorno.
+
+Esta formulación impide atribuir intención a la célula. La célula no quiere cerrar la imperfección, no decide imponerse y no dialoga en lenguaje humano. Pero sí manifiesta, por su estructura, tensiones de conservación, reparación, predominancia local, competencia de canales, absorción de residual y retorno. Una célula tumoral no “busca” dominar; su régimen de canal y frontera produce dominancia clonal. Una célula inmune no “comprende” en sentido humano; su diccionario receptor-efector permite reconocer y responder. Una bacteria no “razona” resistencia; su organización replicativa y molecular puede retornar adaptación bajo presión de dominio. La lectura SV conserva la fuerza estructural sin antropomorfismo.
+
+<div align="center">Vida<sub>Cel-SV</sub>=1 ⇔ intercambio no clausurado ∧ frontera gobernada ∧ variación absorbible ∧ retorno funcional.</div>
+
+La célula viva, por tanto, es una región de imperfección gobernada inscrita en la fibra. Desde ella pueden comprenderse la mutación, la enfermedad, el cáncer y la muerte física sin reducirlos a metáforas. La mutación será cambio con retorno; la enfermedad será pérdida de gobierno de retorno; el cáncer será dominancia local contra integración orgánica; la muerte celular será pérdida de retorno vivo en el nivel celular, y la muerte física será clausura sistémica de la fibra humana u orgánica. El paso siguiente no debe inflar lateralidades: debe continuar desde esta base celular hacia la matriz fibrogénica, donde la imperfección sostenida explica por qué la vida requiere frontera, cambio y residual gobernado.
+
+### V.8. Conclusión del apartado
+
+La inscripción celular exacta fija la primera gran estación biológica de la fibra. La célula aparece como observable constituido, no como fundamento absoluto: tiene frontera, canal, diccionario, residual y retorno; conserva identidad porque gobierna variación; enferma cuando el residual deja de absorberse; puede transformarse cuando la dominancia local reordena frontera y función; muere cuando pierde retorno celular vivo. Las familias celulares primarias no se ordenan por inventario cerrado, sino por dominio de función: procariota, somática, germinal, progenitora, epitelial, conectiva, neural, inmunitaria, secretora, hematopoyética, muscular, endotelial y demás clases que el dominio exija. La diferencia entre célula, tejido, órgano y organismo conserva la jerarquía de retornos y evita que una señal local cierre indebidamente un diagnóstico global. La célula viva queda definida como región de imperfección gobernada: abierta lo suficiente para vivir, cerrada lo suficiente para seguir siendo ella, variable lo suficiente para adaptarse y trazable lo suficiente para retornar.
