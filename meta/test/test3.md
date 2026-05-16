@@ -1,6 +1,11 @@
 # Proyecciones biológicas de la fibra
 
 **Teoría de la Creación de Observables del Universo, transducción metrológica, mutación, enfermedad, cáncer y clausura factual**
+**© 2026. Todos los derechos reservados.** | [**Juan Antonio Lloret Egea**](https://www.linkedin.com/in/juanantoniolloretegea/) | **DOI**[pendiente] ORCID: 0000-0002-6634-3351 | [Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA)](https://www.itvia.online/) | IA eñ™ — La Biblia de la IA™ | [**ISSN 2695-6411**](https://portal.issn.org/resource/ISSN/2695-6411) | **Licencia CC BY-NC-ND 4.0** | Madrid, 16/05/2026 | [**Repositorio doctrinal**](https://juantoniolloretegea.github.io/SV-matematica-semantica/)
+
+**Advertencia.** Esta publicación está protegida por [**CEDRO**](https://www.cedro.org/english?lng=en) y su aplicación en el campo de la Física y la Química, así como cualquier forma de explotación, reproducción o uso por parte de empresas, queda sujeta al copyright del autor y a los términos de la licencia indicada; la reproducción, distribución, comunicación pública o transformación de esta obra solo puede ser realizada con la autorización de sus titulares, salvo excepción prevista por la ley, y cualquier uso comercial sin autorización expresa queda prohibido y sujeto estrictamente al licenciamiento permitido.
+
+**Warning.** This publication is protected by [**CEDRO**](https://www.cedro.org/english?lng=en).Its application in the field of Physics and Chemistry, as well as any form of exploitation, reproduction, or use by corporate entities, is strictly subject to the author's copyright and the terms of the license indicated; any reproduction, distribution, public communication, or transformation of this work requires authorization from the rightsholders, except as provided by law, and any commercial use without express written consent is prohibited and strictly subject to permitted licensing.
 
 ## Resumen
 
@@ -13,12 +18,6 @@ El desarrollo aplica esta arquitectura a célula, tejido, órgano, organismo, vi
 This publication develops a theory of biological observable creation within the SV Vector System, connecting ε−0, the primordial fibre of observability, metrological transduction, mutation, disease, cancer, physical closure, and factual return. Its central thesis is that a biological content does not become a strong observable by name, appearance, or accumulation of signals, but through a declared domain, contemporary-science magnitude or entity, boundary, identity, channel, barrier, residual, return, and trace. The formula 𝓒★ObsU governs admission, rejection, or preservation of U, while the family 𝓖★TrU(D) generates sectorial transducers between SV and contemporary science without surrendering doctrinal hierarchy or losing external return.
 
 The work applies this architecture to cells, tissues, organs, organisms, viruses, bacteria, mutation, disease, cancer, physical death, evolution, species, human fibre, structural semantic channels, data banks, and laboratories. Annex I adds a clinical-biological diagnostic block with a simultaneous transducer, the SV(25,5) matrix, a closed bank, boundary cases of hairy cell leukemia and brain tumour diagnosis, adversarial negatives, legitimate U states, a deterministic runner, and reproducible output. The clinical scope is strictly bounded: it does not replace medical practice, does not diagnose real patients, does not provide therapeutic recommendations, and only allows zero-error claims within a closed bank, for a concrete label, under declared constitutive conditions.
-
-## Advertencia de derechos, autoría y licencia
-
-**Autor:** Juan Antonio Lloret Egea. **ORCID:** 0000-0002-6634-3351. **Institución:** Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA). **Publicación:** IA eñ™ — La Biblia de la IA™. **ISSN:** 2695-6411. **Licencia:** CC BY-NC-ND 4.0. **Fecha:** Madrid, 16/05/2026. **© 2026. Todos los derechos reservados.**
-
-Esta obra se ofrece como publicación doctrinal, matemática, semántica y científico-formal del Sistema Vectorial SV. Los apartados clínico-biológicos son material de teoría, auditoría estructural, transducción y reproducibilidad formal; no constituyen guía asistencial, diagnóstico clínico individual, recomendación terapéutica, informe médico, acto sanitario ni sustitución del criterio profesional. Cualquier lectura médica real exige historia clínica completa, exploración, pruebas, custodia documental, interpretación profesional y marco normativo aplicable. Las expresiones de error cero quedan limitadas al banco cerrado especificado, a etiquetas concretas y a condiciones constitutivas declaradas; fuera de ese perímetro, el estado correcto es U, NO_APTO, deuda abierta o validación externa pendiente.
 
 ## Índice
 
