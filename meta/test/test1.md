@@ -750,3 +750,193 @@ U no es desconocimiento cómodo, probabilidad suspendida ni cierre favorable por
 ### VI.5. Conclusión del apartado
 
 La matriz fibrogénica, la frontera de cierre, el suelo preternario y la compuerta ternaria fijan el plano donde la imperfección se vuelve realizable sin clausurarse por completo ni dispersarse sin retorno. 𝓜fib-imp ordena diferencia, polarización, frontera, residual y traza; (μ,λ)=(0,0) opera como límite de cierre, no como estado ordinario de los observables persistentes; Ωpre y ξi=(i,αi,βi) preparan la polaridad estructural; Π3H conserva la decisión honesta en Σ={0,1,U}; y K3 permite que la observabilidad posterior no nazca mutilada por binarismo. Con esta base, los regímenes de realización polar compatible pueden formularse sin afirmar que toda predominancia clausura, y los dominios biológicos, clínicos, evolutivos y documentales podrán distinguir realización, residual, U, no aptitud y cierre final con mayor precisión.
+
+## VII. Regímenes de realización polar compatible
+
+### VII.1. Predominancia compatible y predominancia absorbente
+
+La realización polar no se decide por igualdad aritmética entre polos ni por ausencia de predominancia, sino por compatibilidad estructural no nula. Una configuración polar Γ_D puede presentar predominancia de un polo sin clausurarse si conserva complemento operativo, canal, barrera compatible, residual gobernado, retorno y traza. La predominancia compatible pertenece al régimen de realización: un polo orienta, intensifica o estabiliza la relación sin anular al otro ni destruir el dominio común. La predominancia absorbente, por el contrario, rompe la complementariedad que sostenía la configuración: anula el complemento, bloquea el canal, vuelve infranqueable la barrera, destruye el morfismo de relación, impide retorno o reduce el dominio a una sola polaridad sin realización ternaria. La diferencia es decisiva para biología, clínica, evolución y documento: una célula puede responder a una señal dominante sin perder integración; un tejido puede reorganizarse bajo una señal reparadora; una especie puede conservar asimetrías internas compatibles; un idioma o una práctica puede dominar un dominio social sin borrar todo residual anterior. Sólo hay clausura cuando la predominancia deja de sostener realización y pasa a absorción, bloqueo o pérdida de retorno.
+
+### VII.2. APTO-M, APTO-C, APTO-I y NO-APTO como gramática de realización
+
+Los regímenes APTO-M, APTO-C, APTO-I y NO-APTO constituyen la gramática de realización polar. APTO-M expresa predominancia de similitud: los polos se acercan funcionalmente y la relación se estabiliza por afinidad dominante sin pérdida de realización. APTO-C expresa coexistencia activa: la imperfección se mantiene como doble accesibilidad, contraste gobernado y equilibrio operativo no nulo. APTO-I expresa contraste fuerte: los polos se mantienen diferenciados, incluso próximos al límite de incompatibilidad, pero sin absorción destructiva. NO-APTO aparece cuando no hay realización ternaria: el par no encuentra punto de equilibrio, el canal queda bloqueado, la barrera no se supera, el residual destruye la relación o una polaridad absorbe la posibilidad de la otra. Esta gramática evita el error de identificar toda asimetría con extinción. La asimetría puede realizar; el contraste puede realizar; la similitud puede realizar; lo que no realiza es la absorción que deja sin equilibrio no nulo, sin canal o sin retorno.
+
+### VII.3. Equilibrio de potencial no nulo y muerte estructural
+
+El criterio rector de los regímenes APTO es el equilibrio de potencial distinto de cero. Una realización no exige anulación de la diferencia ni identidad perfecta entre polos; exige que la relación produzca potencial operativo, retorno y traza sin quedar absorbida por Nada ni clausurada en inmovilidad. Si la igualación polar produjera potencial nulo, no habría vida de la relación, sino muerte estructural. Si el contraste fuese absoluto sin canal, tampoco habría realización, sino ruptura. La forma general puede escribirse así: Real_D(Γ)=0 ⇔ Eq^≠0_D(P_a,P_b) ∧ C_ab abierto ∧ B_ab compatible ∧ Δ_ab gobernado ∧ R_D conservado ∧ Tr_D declarada. La clausura, en cambio, aparece cuando falla alguna condición constitutiva: Claus_D(Γ)=0 ⇔ ¬P_a^op ∨ ¬P_b^op ∨ C_ab cerrado ∨ B_ab infranqueable ∨ Δ_ab destructivo ∨ R_D perdido. No hay estadística en esta formulación: la operatividad de los polos no se mide por mayoría, frecuencia o probabilidad, sino por conservación estructural de complementariedad, canal, barrera, residual y retorno.
+
+### VII.4. Transferencia del CPS-SV a observables biológicos, clínicos y evolutivos
+
+La transferencia del régimen CPS-SV a los observables biológicos, clínicos y evolutivos exige sustituir la lectura material de pares por una lectura de familias, órganos, células, linajes, patógenos, tumores y documentos. En biología, APTO-M puede aparecer como afinidad funcional entre señal y receptor, compatibilidad molecular o respuesta reparadora estabilizada; APTO-C, como coexistencia activa entre célula y medio, microbiota y huésped, señal inmune y tolerancia, o equilibrio dinámico entre daño y reparación; APTO-I, como contraste fuerte con frontera conservada, por ejemplo una respuesta inmune intensa pero no autodestructiva; NO-APTO, como pérdida de canal, citotoxicidad desbordada, infección dominante, tumor que rompe integración tisular, fallo orgánico o extinción reproductiva. En clínica, una alteración no es enfermedad fuerte por estar presente, sino por producir residual patológico con retorno; una dominancia celular no es cáncer fuerte si queda eliminada, contenida o reparada; una respuesta inmune no es patológica si conserva barrera y retorno compatible. En evolución, una predominancia de rasgo, linaje o estrategia puede ser realización compatible mientras conserve canal reproductivo, diversidad funcional suficiente y traza; se vuelve clausurante cuando elimina complemento operativo, rompe barrera reproductiva, destruye medio o pierde retorno.
+
+### VII.5. Teorema de no clausura por predominancia compatible
+
+Teorema: ninguna predominancia polar compatible clausura por sí misma un observable; sólo clausura la predominancia que se vuelve absorbente, bloqueante o destructiva del retorno. Demostración: sea Γ_D un observable polar con polos P_a y P_b. Si P_a predomina pero P_b conserva operatividad, C_ab permanece abierto, B_ab es compatible, Δ_ab queda gobernado, R_D se conserva y Tr_D está declarada, entonces Γ_D mantiene equilibrio de potencial no nulo y pertenece a un régimen APTO. Por tanto, la predominancia de P_a no basta para clausurar. Para que haya clausura debe fallar al menos una condición: pérdida de P_b, cierre del canal, barrera infranqueable, residual destructivo, pérdida de retorno o destrucción del dominio. Por reducción al absurdo, supóngase que toda predominancia clausura. Entonces APTO-M, que admite similitud dominante, y APTO-I, que admite contraste dominante sin absorción, serían imposibles; pero ambos son regímenes de realización compatible. La suposición contradice la gramática de realización. Queda demostrado que no clausura la predominancia como tal, sino la predominancia absorbente o destructiva.
+
+### VII.6. Conclusión del apartado
+
+Los regímenes de realización polar compatible corrigen la lectura excesiva según la cual toda predominancia conduce al final del observable. APTO-M, APTO-C y APTO-I muestran que similitud dominante, coexistencia activa y contraste fuerte pueden realizarse mientras exista equilibrio de potencial no nulo, canal, barrera compatible, residual gobernado, retorno y traza. NO-APTO aparece cuando la relación pierde realización ternaria por absorción, bloqueo, barrera infranqueable, pérdida de complemento operativo o destrucción del dominio. Esta sección prepara el paso hacia química, biología, mutación, enfermedad, cáncer, extinción y diálogo factual entre familias: en todos esos dominios habrá que distinguir predominancia compatible, dominancia patológica, absorción, clausura y U sin reducir la imperfección activa a simetría perfecta ni a muerte estructural.
+
+## VIII. Semilla compositiva, química persistente y medio prebiológico
+
+### VIII.1. Σcomp-0
+
+La semilla compositiva común, Σcomp-0, fija el plano en el que una configuración material puede pasar de mera presencia física a relación compositiva evaluable. No distingue todavía vida y no vida; distingue si un conjunto de elementos, posiciones, enlaces, fases, gradientes y retornos puede sostener composición sin perder dominio, frontera, identidad y residual. Su forma compacta queda definida como Σcomp-0=(E,P,M,F,R,Ret), donde E declara entidades materiales disponibles, P posiciones o compatibilidades estructurales, M medio de interacción, F frontera compositiva, R residual de enlace, fase o persistencia, y Ret retorno físico-químico. Esta semilla no afirma que toda composición sea organismo ni que toda molécula orgánica sea vida; afirma que orgánico, inorgánico y biológico comparten una condición anterior: sólo pueden comparecer si existe una base compositiva capaz de conservar identidad, interacción, límite y retorno. Si E falta, no hay entidad material; si P falta, no hay encaje; si M falta, no hay medio; si F falta, no hay separación compositiva; si R falta, no hay diferencia evaluable; si Ret falta, no hay contraste externo. La semilla compositiva actúa, por tanto, como suelo común entre química, prebiología y biología sin borrar sus umbrales.
+
+### VIII.2. Orgánico, inorgánico y vida
+
+La separación tradicional entre orgánico, inorgánico y vivo no puede formularse como corte absoluto de raíz, porque todos esos dominios requieren composición, frontera, persistencia y retorno. La diferencia no reside en que unos procedan de una semilla y otros de otra, sino en el grado de organización, acoplamiento, cierre compatible, canal interno, reparación, transmisión y respuesta. Un cristal, una sal, una molécula orgánica, una proteína, una membrana, una célula y un tejido no pertenecen al mismo nivel, pero todos comparecen sobre un suelo compositivo donde entidad, posición, medio, frontera, residual y retorno son obligatorios. La vida aparece cuando la composición no sólo persiste, sino que integra frontera, intercambio, identidad funcional, reparación, respuesta a perturbación, reproducción o continuidad de linaje y retorno biológico. Por eso una molécula orgánica no es vida; una mezcla prebiótica no es célula; una célula aislada no es tejido; un órgano no es organismo completo. La tesis fuerte no disuelve las diferencias: las ordena. Orgánico e inorgánico comparten semilla compositiva; la vida exige un cierre superior de integración biológica.
+
+### VIII.3. Persistencia 𝓟min
+
+La persistencia mínima, 𝓟min, declara cuándo una composición puede mantenerse como entidad reconocible bajo un dominio físico-químico. No equivale a vida, pero sí a estabilidad suficiente para que una estructura no desaparezca en el mismo acto de comparecer. Su forma puede expresarse como 𝓟min(x,D)=0 ⇔ F_D(x) ∧ I_D(x) ∧ C_D(x) ∧ B_D(x) ∧ Δ_D(x) gobernable ∧ R_D(x) conservado ∧ Tr_D(x) declarada. Una composición persiste si conserva frontera, identidad, canal de interacción, barrera compatible, residual no destructivo, retorno y traza; si se descompone sin retorno, queda en 1; si el dato es insuficiente, queda en U. En química, 𝓟min se observa como estabilidad de enlace, fase, concentración, estructura molecular o condición de reacción; en prebiología, como persistencia de gradiente, compartimento, membrana rudimentaria o medio; en biología, como condición inferior de una organización que después deberá demostrar intercambio, reparación, respuesta y linaje. La persistencia mínima evita declarar vida por estabilidad y evita negar relevancia a estructuras no vivas que preparan medio, frontera y canal.
+
+### VIII.4. Pares estructurales, moléculas y Ωprebio
+
+Los pares estructurales constituyen el primer laboratorio formal de compatibilidad compositiva. Un par A,B no se evalúa por semejanza superficial, sino por encaje posicional, compatibilidad de enlace, contraste, coexistencia, barrera y residual. La gramática CPS-SV permite distinguir APTO-M, APTO-C, APTO-I y NO-APTO: similitud dominante, coexistencia activa, contraste estable o ausencia de realización. Esta gramática impide declarar que toda predominancia clausura y permite reconocer que una molécula, una fase o un medio pueden realizarse por afinidad, por coexistencia o por contraste gobernado. El paso a molécula añade grafo compositivo, frontera molecular, identidad química, residual de enlace o fase y retorno analítico. El paso a Ωprebio exige además medio operativo: solvente, gradiente, frontera, concentración, temperatura, intercambio y persistencia. Ωprebio no es vida; es dominio prebiológico apto o parcialmente apto cuando las condiciones compositivas permiten que la química adquiera frontera, canal y retorno suficientes para preparar integración biológica posterior. Si el medio carece de frontera, intercambio, persistencia o retorno, no hay Ωprebio fuerte; si los conserva de modo incompleto sin contradicción, queda U.
+
+### VIII.5. Conclusión del apartado
+
+La semilla compositiva común permite formular orgánico, inorgánico, prebiológico y biológico sin saltos categoriales ni confusión de niveles. Σcomp-0=(E,P,M,F,R,Ret) fija el suelo material de composición; 𝓟min declara persistencia mínima; los pares estructurales ordenan compatibilidad, coexistencia, contraste y no aptitud; las moléculas añaden frontera e identidad química; Ωprebio incorpora medio operativo, gradiente, intercambio y persistencia sin convertirse todavía en vida. Con esta secuencia, la teoría evita dos errores simétricos: llamar vida a la química estable y negar que la vida necesita una base compositiva común con lo no vivo. El siguiente paso exige transducción biológica: sólo cuando composición, frontera, intercambio, reparación, canal interno, identidad funcional y retorno biológico se integran puede hablarse de Γbio-0 y de proyección viva.
+
+## IX. Transducción biológica y Γbio-0
+
+### IX.1. Definición de Γbio-0
+
+Γbio-0 designa la trayectoria mínima de constitución biológica por la que una semilla compositiva deja de ser sólo química persistente o protocelularidad parcial y entra en dominio de observable vivo constituido. No es un instante temporal, no es una fecha de origen, no es una célula histórica concreta ni una hipótesis empírica sobre un único escenario prebiótico; es la forma de paso que debe cumplirse para que frontera, canal, persistencia, registro, transformación, reparación y retorno puedan ser leídos como biología. Γbio-0 no sustituye a la investigación sobre origen de la vida, química prebiótica, protocélulas, ribozimas, metabolismo o membranas; fija el criterio SV que cualquier ruta empírica debe satisfacer para salir de química persistente hacia observable biológico fuerte.
+
+<div align="center">Γ<sub>bio-0</sub>=⟨∂<sub>em</sub>,C<sub>quim</sub><sup>Γ</sup>,𝓓<sub>prebio</sub><sup>⊥</sup>,R<sub>prebio</sub>,Δ<sub>bio-0</sub>,Tr⟩→Obs<sub>bio</sub>.</div>
+
+Γbio-0 exige seis planos. La frontera emergente ∂<sub>em</sub> separa sin aislar. El canal químico-biológico C<sub>quim</sub><sup>Γ</sup> permite entrada, transformación y salida. El diccionario prebiológico 𝓓<sub>prebio</sub><sup>⊥</sup> asigna sentido estructural a composición, gradiente, catálisis, membrana, secuencia o ciclo. El retorno prebiológico R<sub>prebio</sub> demuestra que el sistema no sólo reacciona, sino que conserva una diferencia operativa. El residual Δ<sub>bio-0</sub> declara fallos, subproductos, pérdida de frontera, error de copia, fuga, degradación o ruta lateral. La traza Tr impide que se cierre por descripción plausible. Sin estos seis planos, la ruta queda en química, protocélula parcial o U.
+
+| Plano de Γbio-0 | Función | Salida si falta |
+|---|---|---|
+| ∂<sub>em</sub> | frontera emergente de separación e intercambio | química dispersa o U |
+| C<sub>quim</sub><sup>Γ</sup> | canal de transformación y comunicación material | composición sin retorno |
+| 𝓓<sub>prebio</sub><sup>⊥</sup> | semántica estructural prebiológica | señal sin sentido de dominio |
+| R<sub>prebio</sub> | conservación, repetición o función parcial | reacción aislada |
+| Δ<sub>bio-0</sub> | residual de fuga, error, degradación o incompatibilidad | cierre espurio |
+| Tr | traza experimental, documental o formal | inferencia no verificable |
+
+### IX.2. Canal biológico primario
+
+El canal biológico primario es la relación mínima por la que un sistema químico organizado empieza a recibir diferencias del entorno, transformarlas y devolver un estado propio que no se agota en la reacción inmediata. En una célula constituida, este canal aparece como transporte, señalización, metabolismo, lectura genética, respuesta al daño, división, interacción inmune o comunicación tisular. En Γbio-0, el canal es más elemental: entrada de sustratos, mantenimiento de gradiente, retención de productos, catálisis repetible, permeabilidad selectiva, replicación parcial, acoplamiento energético o modificación de frontera. No hay todavía semántica biológica plena si sólo hay contacto; aparece presemántica cuando la diferencia produce respuesta; aparece protosemántica cuando la respuesta se repite de forma diferenciada; aparece semántica estructural cuando el sistema conserva un diccionario estable de correspondencias entre entrada, transformación y retorno.
+
+<div align="center">C<sub>bio-0</sub><sup>Γ</sup>=1 ⇔ entrada distinguible ∧ transformación interna ∧ salida/estado propio ∧ repetibilidad suficiente ∧ Δ declarado.</div>
+
+El canal biológico primario no debe confundirse con apertura indiscriminada. Un compartimento que deja pasar todo no constituye canal gobernado; una membrana impermeable tampoco; una superficie que cataliza una reacción única sin persistencia no basta; una secuencia que se copia una vez y se degrada sin retorno queda en U. El canal apto exige selectividad suficiente, transformación identificable y conservación parcial. En biología constituida, la selectividad puede estar mediada por proteínas, lípidos, receptores, gradientes, poros, transportadores o maquinaria molecular. En el plano prebiológico, puede estar mediada por propiedades físico-químicas más simples: anfipaticidad, carga, tamaño, mineral, pH, temperatura, hidratación, desecación, redox o concentración.
+
+| Forma de canal | En Γbio-0 | En biología constituida |
+|---|---|---|
+| Permeabilidad | paso selectivo por compartimento incipiente | transporte de membrana |
+| Gradiente | diferencia química o energética aprovechable | potencial electroquímico o metabolismo |
+| Catálisis | transformación repetible | enzima o ribozima funcional |
+| Retención | conservación local de producto | compartimentación celular |
+| Registro | secuencia o configuración copiable | genoma, epigenoma o memoria molecular |
+| Reconocimiento | afinidad estructural | receptor, ligando, antígeno, diana |
+| Respuesta | cambio de estado | señalización, expresión, reparación |
+
+El canal biológico primario conserva el eje de la publicación porque permite pasar de fibra a vida sin atribuir intención a la materia. Un sistema prebiológico no desea vivir, pero puede conservar una diferencia y devolver un estado propio. Una célula no habla en lenguaje humano, pero puede recibir una señal y responder según diccionario molecular. Un organismo no es suma de canales, sino integración jerárquica de canales con retorno. La transducción biológica empieza precisamente ahí: en demostrar qué canal existe, qué transforma y qué devuelve.
+
+### IX.3. Transductor biológico general
+
+El transductor biológico general convierte magnitudes, estructuras y procesos de la ciencia contemporánea en lectura SV del observable vivo, y devuelve al dominio científico un dictamen interpretable. Su función no es crear vida, diagnosticar por sí solo ni imponer semántica externa; es asegurar que el paso entre biología y SV conserve dominio, unidades, frontera, canal, diccionario, residual y retorno. Recibe datos como membrana, pH, concentración, gradiente, expresión génica, proteína, metabolito, receptor, célula, tejido, carga viral, cultivo, histología, imagen, secuencia, marcador, función o muerte celular; los proyecta a primitivos SV; evalúa si hay observable biológico, proceso, enfermedad, mutación, cáncer, clausura o U; y devuelve la salida al lenguaje científico sin perder traza.
+
+<div align="center">𝔛<sub>bio</sub>(D↔SV)=𝓝★[Ω<sub>D</sub>,M<sub>D</sub>,U<sub>D</sub>,P<sub>SV</sub>,∂O,C<sup>Γ</sup>,𝓓<sup>⊥</sup>,Δ,R<sub>D</sub>,Tr]→{0,1,U}.</div>
+
+El transductor biológico general exige dominio declarado. No se transduce del mismo modo una bacteria, un virus, una célula inmune, una neurona, un tejido epitelial, un tumor, una mutación germinal, una infección sistémica o una muerte física. Todos comparten forma de transducción, pero no comparten condiciones de cierre. Un virus puede tener genoma, cápside, tropismo y replicación dependiente, pero no metabolismo celular autónomo; una bacteria tiene célula procariota y retorno propio; una célula tumoral tiene frontera celular y dominancia local; un tejido tiene arquitectura y coordinación; un órgano tiene función integrada; un organismo tiene retorno vital sistémico. El transductor general evita mezclar planos, pero obliga a seleccionar transductor específico cuando el caso lo requiera.
+
+| Entrada biológica | Proyección SV | Retorno posible |
+|---|---|---|
+| Membrana, pared, cápside | frontera o envoltura de dominio | frontera apta, parcial, rota o U |
+| Gradiente/metabolismo | canal de transformación | función, fallo, toxicidad o U |
+| Genoma/secuencia | registro estructural | variante, linaje, función, U |
+| Receptor/ligando | canal semántico-biológico | reconocimiento, bloqueo, activación |
+| Célula | observable biológico constituido | normal, alterada, patológica, muerta |
+| Tejido | coordinación celular y matriz | función, reparación, lesión |
+| Órgano | integración funcional | suficiencia, insuficiencia, compensación |
+| Organismo | retorno vital global | vida, enfermedad, muerte física |
+| Patógeno | canal huésped-patógeno | colonización, infección, U |
+| Tumor | clon, tejido y frontera | cáncer, lesión benigna, U |
+
+### IX.4. Transducción de célula, tejido, órgano y organismo
+
+La transducción de célula, tejido, órgano y organismo debe conservar niveles. El error más grave consiste en dejar que un dato de nivel inferior cierre indebidamente un nivel superior o que un desenlace global valide una etiqueta local. Una mutación celular no cierra enfermedad orgánica sin retorno; una lesión tisular no cierra fallo de órgano sin función; un marcador tumoral no cierra cáncer sin tejido, clon y dominancia; una muerte física no cierra la causa diagnóstica previa si su dominio no retorna. La transducción por niveles impone que cada escala declare frontera, canal, residual y retorno propios.
+
+<div align="center">𝔛<sub>nivel</sub>=𝔛<sub>cel</sub>⊕𝔛<sub>tis</sub>⊕𝔛<sub>org</sub>⊕𝔛<sub>sist</sub>, con retorno separado por Ω.</div>
+
+La célula se transduce por frontera celular, metabolismo, señalización, estado, linaje, daño, reparación, división y muerte celular. El tejido se transduce por arquitectura, matriz, proporción celular, inflamación, vascularización, barrera, reparación y función local. El órgano se transduce por integración de tejidos y función específica: filtración, contracción, intercambio gaseoso, conducción, secreción, detoxificación, barrera o soporte. El organismo se transduce por retorno vital global: circulación, respiración, sistema nervioso, metabolismo, inmunidad, homeostasis, conciencia clínica cuando proceda, y capacidad de sostener integración. Cada nivel puede estar en 0, 1 o U respecto a una pregunta distinta.
+
+| Nivel | Frontera | Canal | Retorno | Error bloqueado |
+|---|---|---|---|---|
+| Célula | membrana, pared o envoltura celular | transporte, señal, metabolismo, genoma | estado celular | mutación=organismo enfermo |
+| Tejido | arquitectura y matriz | interacción celular y vascular | función tisular | célula aislada=lesión tisular |
+| Órgano | unidad anatómico-funcional | vascular, neural, mecánico, molecular | función orgánica | lesión local=fallo de órgano |
+| Organismo | frontera corporal sistémica | integración vital | vida, enfermedad sistémica o muerte | muerte=causa diagnóstica previa |
+
+La transducción por niveles permite comprender por qué la reparación puede ser cierre en un nivel y pérdida en otro. La apoptosis cierra retorno celular, pero puede conservar tejido. La cicatriz pierde función microscópica, pero puede conservar órgano. La fiebre altera homeostasis, pero puede sostener defensa. La resección de un tumor elimina tejido, pero puede conservar organismo. La muerte física clausura el organismo, aunque queden células viables durante un intervalo técnico o restos moleculares. La jerarquía de retorno impide que una lectura parcial usurpe el dictamen global.
+
+### IX.5. Transducción de virus, bacteria y microorganismo
+
+Virus, bacterias y microorganismos exigen transductores específicos porque no ocupan la misma posición ontológica ni funcional dentro del dominio biológico. Una bacteria es célula procariota con metabolismo, frontera, material genético y replicación propia bajo condiciones adecuadas. Un virus es entidad biológica replicativa dependiente, con material genético y estructura de entrada, pero sin metabolismo celular autónomo; necesita canal con célula huésped para producir retorno replicativo. Otros microorganismos —hongos, protozoos, arqueas o parásitos unicelulares— deben transducirse según su frontera, metabolismo, reproducción, interacción con huésped y retorno. La palabra “microorganismo” no cierra nada por sí sola.
+
+<div align="center">𝔛<sub>micro</sub>={𝔛<sub>virus</sub>,𝔛<sub>bact</sub>,𝔛<sub>fung</sub>,𝔛<sub>proto</sub>,𝔛<sub>micro-U</sub>}.</div>
+
+El virus se evalúa por genoma, cápside o envoltura, tropismo, receptor, entrada, replicación, ensamblaje, salida, transmisión, evasión y daño o latencia. Una mutación viral no significa automáticamente mayor contagiosidad o agresividad; debe retornar como cambio de tropismo, estabilidad, replicación, escape inmune, patogenicidad, transmisión o pérdida de aptitud. La bacteria se evalúa por pared o membrana, metabolismo, división, resistencia, virulencia, nicho, biofilm, toxina, respuesta inmune y daño. Una bacteria no es patógena en abstracto: depende de localización, carga, barrera, canal, huésped y retorno. El hongo o protozoo se evalúa por ciclo, forma, invasión, nicho, respuesta inmune y daño.
+
+| Observable | Frontera | Canal | Retorno | Cierre indebido |
+|---|---|---|---|---|
+| Virus | cápside/envoltura | receptor, entrada, célula huésped | replicación, latencia, daño, U | mutación=mayor agresividad |
+| Bacteria | pared/membrana | nutrientes, huésped, nicho, señales | crecimiento, resistencia, infección, comensalismo | presencia=patología |
+| Hongo | pared, forma, micelio/levadura | tejido, inmunidad, entorno | colonización, invasión, inflamación | cultivo=causa sin contexto |
+| Protozoo | membrana, ciclo vital | huésped, vector, tejido | infección, latencia, daño | exposición=enfermedad |
+| Microbiota | comunidad y nicho | huésped, dieta, inmunidad | simbiosis, disbiosis, U | diferencia=patología |
+
+Esta transducción conserva el eje central porque conecta mutación, infección, enfermedad y cáncer sin convertir la publicación en tratado microbiológico. El criterio común es siempre el mismo: frontera, canal, diccionario, residual y retorno. Un virus que muta debe demostrar qué canal cambia. Una bacteria resistente debe demostrar qué función de resistencia retorna. Un cultivo positivo debe demostrar si procede de lesión, colonización o contaminación. Una carga viral debe interpretarse por muestra, método, huésped, clínica y daño. Si no hay retorno suficiente, U permanece U.
+
+### IX.6. Diccionario biológico estructural
+
+El diccionario biológico estructural es el conjunto de correspondencias que permite interpretar una señal como función, daño, reparación, infección, mutación, cáncer, muerte celular o U dentro de un dominio. No es un glosario terminológico ni una lista de equivalencias literales; es un sistema de cierre semántico. Una misma señal puede significar cosas distintas según dominio: proliferación puede ser reparación o cáncer; inflamación puede ser defensa o lesión; mutación puede ser silencio o enfermedad; fiebre puede ser defensa o sepsis; apoptosis puede ser protección o pérdida tisular; carga microbiana puede ser colonización o infección. El diccionario impide que el dato se absolutice.
+
+<div align="center">𝓓<sub>bio</sub><sup>⊥</sup>: señal + dominio + canal + retorno → sentido biológico ∈ {función,daño,reparación,infección,mutación,cáncer,clausura,U}.</div>
+
+El diccionario biológico se organiza por niveles. En el nivel molecular, interpreta secuencia, expresión, plegamiento, catálisis, daño, reparación y señalización. En el nivel celular, interpreta estado, linaje, activación, senescencia, apoptosis, transformación e infección. En el nivel tisular, interpreta arquitectura, inflamación, fibrosis, displasia, invasión y reparación. En el nivel orgánico, interpreta suficiencia, insuficiencia, compensación y fallo. En el nivel sistémico, interpreta retorno vital, sepsis, shock, fallo multiorgánico y muerte física. Cada entrada del diccionario debe declarar qué condiciones cierran 0, qué condiciones refutan 1 y qué falta deja U.
+
+| Señal | Sentido posible | Condición de cierre |
+|---|---|---|
+| Mutación | silencio, adaptación, daño, cáncer, U | función, clon, dominio y retorno |
+| Proliferación | reparación, hiperplasia, cáncer | control, arquitectura, frontera y clon |
+| Inflamación | defensa, autoinmunidad, sepsis, reparación | diana, daño, resolución y retorno |
+| Apoptosis | protección, pérdida tisular, efecto terapéutico | nivel que se conserva o pierde |
+| Necrosis | daño local, infección, isquemia, tumor | tejido, causa, frontera y retorno |
+| Fiebre | respuesta inmune, infección, inflamación sistémica | canal clínico y daño |
+| Biomarcador | señal auxiliar o condición | método, unidad, dominio y función |
+| Imagen lesional | sospecha, daño, tumor, infección, vascular | histología, evolución o canal propio |
+| Cultivo | infección, colonización, contaminación | muestra, carga, lesión y contexto |
+| Muerte | clausura vital | pérdida de retorno sistémico trazada |
+
+El diccionario biológico estructural permite diálogo entre ciencia contemporánea y SV. La ciencia aporta mediciones y categorías; el SV exige que esas categorías respondan a su papel en el dominio. Cuando la correspondencia cierra, el dictamen puede ser 0. Cuando una condición constitutiva falla, el diagnóstico cae a 1. Cuando falta retorno, queda U. Esta gramática será imprescindible para mutación, enfermedad, cáncer y clausura física.
+
+### IX.7. Residual biológico y retorno
+
+El residual biológico es la diferencia no absorbida entre lo que el observable debería conservar en su dominio y lo que efectivamente devuelve después de canal, transformación o daño. No es simple error de medición ni resto retórico; puede ser molecular, celular, tisular, orgánico, sistémico, documental o semántico. Un residual molecular puede ser daño de ADN no reparado, proteína mal plegada, metabolito acumulado o variante funcional. Un residual celular puede ser senescencia, infección persistente, transformación o muerte. Un residual tisular puede ser fibrosis, inflamación crónica, displasia o cicatriz. Un residual sistémico puede ser shock, sepsis o fallo multiorgánico. Un residual documental puede impedir cierre aunque el caso parezca claro.
+
+<div align="center">Δ<sub>bio</sub>=Δ<sub>mol</sub>⊕Δ<sub>cel</sub>⊕Δ<sub>tis</sub>⊕Δ<sub>org</sub>⊕Δ<sub>sist</sub>⊕Δ<sub>doc</sub>⊕Δ<sub>sem</sub>.</div>
+
+El retorno decide el estatuto del residual. Si el residual se absorbe, hay conservación o reparación. Si se reduce pero deja huella, hay secuela, memoria, cicatriz o adaptación parcial. Si persiste y deteriora función, hay enfermedad. Si captura canal y domina nivel superior, hay patología de dominancia, como cáncer, infección persistente o fibrosis progresiva. Si clausura retorno vital, hay muerte física. Si no se dispone de datos suficientes para saber qué ocurre, hay U. El retorno no exige que el sistema vuelva a su estado previo; exige que el dominio pueda declarar qué se conserva, qué se pierde y qué queda indeterminado.
+
+| Tipo de residual | Ejemplo | Retorno posible |
+|---|---|---|
+| Molecular | mutación, rotura, plegamiento erróneo | reparación, silencio, daño, U |
+| Celular | infección, transformación, senescencia | eliminación, persistencia, patología |
+| Tisular | inflamación, fibrosis, cicatriz | resolución, secuela, deterioro |
+| Orgánico | pérdida parcial de función | compensación, insuficiencia, U |
+| Sistémico | sepsis, shock, fallo multiorgánico | recuperación, muerte física |
+| Documental | muestra débil, método ausente | U o fallo de cierre |
+| Semántico | señal mal interpretada | refutación o U |
+
+La transducción biológica termina en retorno, no en etiqueta. Nombrar “mutación”, “infección”, “tumor” o “muerte” no basta. Debe mostrarse qué residual queda, en qué nivel opera y qué devuelve al dominio externo. Esta exigencia preserva el rigor de toda la publicación: lo que no retorna no se cierra; lo que contradice condición constitutiva cae; lo que permanece incompleto se conserva como U.
+
+### IX.8. Conclusión del apartado
+
+La transducción biológica y Γbio-0 fijan el paso desde semilla compositiva a observable vivo constituido. Γbio-0 no es un momento histórico, sino una trayectoria mínima de frontera emergente, canal químico-biológico, diccionario prebiológico, retorno, residual y traza. El canal biológico primario muestra cómo una diferencia externa puede convertirse en respuesta propia sin antropomorfismo. El transductor biológico general permite pasar entre ciencia contemporánea y SV conservando unidades, dominio y retorno. La transducción por niveles impide que célula, tejido, órgano y organismo se confundan. Virus, bacterias y microorganismos entran por transductores específicos, porque no comparten el mismo estatuto celular ni el mismo canal. El diccionario biológico estructural asigna sentido sólo cuando señal, dominio, canal y retorno se articulan. El residual biológico declara lo no absorbido y el retorno decide conservación, reparación, enfermedad, dominancia, muerte física o U. Con este suelo queda preparado el análisis de mutación y variabilidad heredable: ya no como cambio aislado de secuencia, sino como modificación que sólo adquiere significado cuando atraviesa canal, dominio y retorno.
