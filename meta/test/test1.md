@@ -2,7 +2,6 @@
 
 ## Teoría de la Creación de Observables del Universo, transducción metrológica, mutación, enfermedad, cáncer y clausura factual
 
-## Índice completo reconfigurado
 
 ### Resumen
 
