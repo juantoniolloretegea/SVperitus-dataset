@@ -2268,3 +2268,421 @@ La fibra biológica queda formulada como estructura de vida bajo imperfección s
 La enfermedad aparece cuando ese régimen deja de gobernar su residual. La mutación es diferencia con retorno, no destino. La reparación es continuidad con huella, no restauración absoluta. La tolerancia es convivencia estructural, no ausencia de riesgo. El cáncer es dominancia local contra integración orgánica, no mera proliferación. La muerte física es clausura vital global, no explicación etiológica automática. La especie es dominio de continuidad bajo cambio, no esencia inmóvil. La reactivación condicionada es retorno parcial bajo traza, no recuperación de identidad absoluta. El diálogo biológico es canal, diccionario y retorno, no lenguaje humano proyectado sobre la célula.
 
 El resultado final es una arquitectura rigurosa para leer vida, mutación, enfermedad, cáncer, muerte, especie y diálogo entre observables sin ceder a reduccionismo molecular, metafísica biológica, diagnóstico por apariencia, cierre por autoridad, estadística fundante, probabilidad como verdad, inferencia opaca o degradación de U. La publicación entrega un aparato que permite a la ciencia contemporánea entrar con sus magnitudes y salir con dictámenes trazables, y permite al SV recibir esas magnitudes sin perder su disciplina doctrinal. Con ello, las proyecciones biológicas de la fibra quedan cerradas como cuerpo teórico-material: no como promesa clínica absoluta, sino como estructura de lectura, contraste y custodia para comprender cómo la vida aparece, se conserva, se altera, enferma, domina, se clausura y deja retorno factual dentro del Todo.
+
+## XIX. Bibliografía
+
+### XIX.1. Criterio bibliográfico
+
+La bibliografía se organiza como soporte externo de contraste, no como fundamento rector del aparato SV. Las fuentes de biología celular, origen de la vida, genética, inmunología, oncología, clasificación tumoral, patología, sepsis, muerte física, certificación de causa de muerte y evolución se emplean para fijar lenguaje contemporáneo, magnitudes, taxonomías y condiciones clínicas de retorno. La jerarquía del documento permanece inalterada: las fuentes externas aportan dominio, nomenclatura, evidencia y técnica; el cierre SV exige frontera, canal, diccionario, residual, retorno, U honesta y custodia.
+
+### XIX.2. Biología celular, membranas, química prebiológica y origen de la vida
+
+Alberts, B., Heald, R., Johnson, A., Morgan, D., Raff, M., Roberts, K., & Walter, P. (2022). *Molecular biology of the cell* (7.ª ed.). W. W. Norton & Company.
+
+Deamer, D. W. (2017). *Assembling life: How can life begin on Earth and other habitable planets?* Oxford University Press.
+
+Joyce, G. F. (2002). The antiquity of RNA-based evolution. *Nature, 418*(6894), 214–221. https://doi.org/10.1038/418214a
+
+Lane, N. (2015). *The vital question: Energy, evolution, and the origins of complex life*. W. W. Norton & Company.
+
+Luisi, P. L. (2006). *The emergence of life: From chemical origins to synthetic biology*. Cambridge University Press.
+
+Orgel, L. E. (2004). Prebiotic chemistry and the origin of the RNA world. *Critical Reviews in Biochemistry and Molecular Biology, 39*(2), 99–123. https://doi.org/10.1080/10409230490460765
+
+Powner, M. W., Gerland, B., & Sutherland, J. D. (2009). Synthesis of activated pyrimidine ribonucleotides in prebiotically plausible conditions. *Nature, 459*(7244), 239–242. https://doi.org/10.1038/nature08013
+
+Singer, S. J., & Nicolson, G. L. (1972). The fluid mosaic model of the structure of cell membranes. *Science, 175*(4023), 720–731. https://doi.org/10.1126/science.175.4023.720
+
+Szostak, J. W. (2009). Systems chemistry on early Earth. *Nature, 459*(7244), 171–172. https://doi.org/10.1038/459171a
+
+Szostak, J. W. (2012). The eightfold path to non-enzymatic RNA replication. *Journal of Systems Chemistry, 3*, 2. https://doi.org/10.1186/1759-2208-3-2
+
+### XIX.3. Evolución, especie, linaje y variabilidad
+
+Darwin, C. (1859). *On the origin of species by means of natural selection*. John Murray.
+
+Dobzhansky, T. (1973). Nothing in biology makes sense except in the light of evolution. *The American Biology Teacher, 35*(3), 125–129. https://doi.org/10.2307/4444260
+
+Futuyma, D. J., & Kirkpatrick, M. (2017). *Evolution* (4.ª ed.). Sinauer Associates.
+
+Koonin, E. V. (2011). *The logic of chance: The nature and origin of biological evolution*. FT Press.
+
+Mayr, E. (1942). *Systematics and the origin of species*. Columbia University Press.
+
+Mayr, E. (2001). *What evolution is*. Basic Books.
+
+Woese, C. R., Kandler, O., & Wheelis, M. L. (1990). Towards a natural system of organisms: Proposal for the domains Archaea, Bacteria, and Eucarya. *Proceedings of the National Academy of Sciences, 87*(12), 4576–4579. https://doi.org/10.1073/pnas.87.12.4576
+
+### XIX.4. Genética, variantes, genoma y diagnóstico molecular
+
+Aitman, T. J., Boone, C., Churchill, G. A., Hengartner, M. O., Mackay, T. F. C., & Stemple, D. L. (2011). The future of model organisms in human disease research. *Nature Reviews Genetics, 12*(8), 575–582. https://doi.org/10.1038/nrg3047
+
+Biesecker, L. G., & Green, R. C. (2014). Diagnostic clinical genome and exome sequencing. *The New England Journal of Medicine, 370*(25), 2418–2425. https://doi.org/10.1056/NEJMra1312543
+
+Cooper, G. M., & Shendure, J. (2011). Needles in stacks of needles: Finding disease-causal variants in a wealth of genomic data. *Nature Reviews Genetics, 12*(9), 628–640. https://doi.org/10.1038/nrg3046
+
+Ellard, S., Baple, E. L., Berry, I., Forrester, N., Turnbull, C., & Owens, M. (2020). *ACGS best practice guidelines for variant classification in rare disease 2020*. Association for Clinical Genomic Science.
+
+Lander, E. S., Linton, L. M., Birren, B., Nusbaum, C., Zody, M. C., Baldwin, J., Devon, K., Dewar, K., Doyle, M., FitzHugh, W., Funke, R., Gage, D., Harris, K., Heaford, A., Howland, J., Kann, L., Lehoczky, J., LeVine, R., McEwan, P., ... International Human Genome Sequencing Consortium. (2001). Initial sequencing and analysis of the human genome. *Nature, 409*(6822), 860–921. https://doi.org/10.1038/35057062
+
+MacArthur, D. G., Manolio, T. A., Dimmock, D. P., Rehm, H. L., Shendure, J., Abecasis, G. R., Adams, D. R., Altman, R. B., Antonarakis, S. E., Ashley, E. A., Barrett, J. C., Biesecker, L. G., Conrad, D. F., Cooper, G. M., Cox, N. J., Daly, M. J., Gerstein, M. B., Goldstein, D. B., Hirschhorn, J. N., ... Gunter, C. (2014). Guidelines for investigating causality of sequence variants in human disease. *Nature, 508*(7497), 469–476. https://doi.org/10.1038/nature13127
+
+Richards, S., Aziz, N., Bale, S., Bick, D., Das, S., Gastier-Foster, J., Grody, W. W., Hegde, M., Lyon, E., Spector, E., Voelkerding, K., Rehm, H. L., & ACMG Laboratory Quality Assurance Committee. (2015). Standards and guidelines for the interpretation of sequence variants: A joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology. *Genetics in Medicine, 17*(5), 405–424. https://doi.org/10.1038/gim.2015.30
+
+Strachan, T., & Read, A. P. (2018). *Human molecular genetics* (5.ª ed.). CRC Press.
+
+The 1000 Genomes Project Consortium. (2015). A global reference for human genetic variation. *Nature, 526*(7571), 68–74. https://doi.org/10.1038/nature15393
+
+### XIX.5. Inmunología, inflamación, tolerancia y respuesta biológica
+
+Abbas, A. K., Lichtman, A. H., & Pillai, S. (2021). *Cellular and molecular immunology* (10.ª ed.). Elsevier.
+
+Burnet, F. M. (1959). *The clonal selection theory of acquired immunity*. Cambridge University Press.
+
+Janeway, C. A., Jr. (1989). Approaching the asymptote? Evolution and revolution in immunology. *Cold Spring Harbor Symposia on Quantitative Biology, 54*, 1–13. https://doi.org/10.1101/SQB.1989.054.01.003
+
+Medzhitov, R. (2008). Origin and physiological roles of inflammation. *Nature, 454*(7203), 428–435. https://doi.org/10.1038/nature07201
+
+Murphy, K., Weaver, C., & Berg, L. J. (2022). *Janeway’s immunobiology* (10.ª ed.). W. W. Norton & Company.
+
+Murphy, K., & Weaver, C. (2016). *Janeway’s immunobiology* (9.ª ed.). Garland Science.
+
+Pancer, Z., & Cooper, M. D. (2006). The evolution of adaptive immunity. *Annual Review of Immunology, 24*, 497–518. https://doi.org/10.1146/annurev.immunol.24.021605.090542
+
+Sakaguchi, S., Yamaguchi, T., Nomura, T., & Ono, M. (2008). Regulatory T cells and immune tolerance. *Cell, 133*(5), 775–787. https://doi.org/10.1016/j.cell.2008.05.009
+
+### XIX.6. Microbiología, virus, bacterias y resistencia
+
+Casadevall, A., & Pirofski, L. A. (1999). Host-pathogen interactions: Redefining the basic concepts of virulence and pathogenicity. *Infection and Immunity, 67*(8), 3703–3713. https://doi.org/10.1128/IAI.67.8.3703-3713.1999
+
+Davies, J., & Davies, D. (2010). Origins and evolution of antibiotic resistance. *Microbiology and Molecular Biology Reviews, 74*(3), 417–433. https://doi.org/10.1128/MMBR.00016-10
+
+Fauci, A. S., & Morens, D. M. (2012). The perpetual challenge of infectious diseases. *The New England Journal of Medicine, 366*(5), 454–461. https://doi.org/10.1056/NEJMra1108296
+
+Flint, S. J., Racaniello, V. R., Rall, G. F., Skalka, A. M., & Enquist, L. W. (2020). *Principles of virology* (5.ª ed.). ASM Press.
+
+Knipe, D. M., & Howley, P. M. (Eds.). (2020). *Fields virology: Emerging viruses* (7.ª ed.). Wolters Kluwer.
+
+Murray, P. R., Rosenthal, K. S., & Pfaller, M. A. (2020). *Medical microbiology* (9.ª ed.). Elsevier.
+
+Nikaido, H. (2009). Multidrug resistance in bacteria. *Annual Review of Biochemistry, 78*, 119–146. https://doi.org/10.1146/annurev.biochem.78.082907.145923
+
+Relman, D. A. (2012). The human microbiome: Ecosystem resilience and health. *Nutrition Reviews, 70*(Suppl. 1), S2–S9. https://doi.org/10.1111/j.1753-4887.2012.00489.x
+
+### XIX.7. Patología, enfermedad, cáncer y clasificación tumoral
+
+Arber, D. A., Orazi, A., Hasserjian, R. P., Borowitz, M. J., Calvo, K. R., Kvasnicka, H. M., Wang, S. A., Bagg, A., Barbui, T., Branford, S., Bueso-Ramos, C. E., Cortes, J. E., Dal Cin, P., DiNardo, C. D., Dombret, H., Duncavage, E. J., Ebert, B. L., Estey, E. H., Facchetti, F., ... Vardiman, J. W. (2022). International Consensus Classification of myeloid neoplasms and acute leukemias: Integrating morphologic, clinical, and genomic data. *Blood, 140*(11), 1200–1228. https://doi.org/10.1182/blood.2022015850
+
+Campo, E., Jaffe, E. S., Cook, J. R., Quintanilla-Martinez, L., Swerdlow, S. H., Anderson, K. C., Brousset, P., Cerroni, L., de Leval, L., Dirnhofer, S., Dogan, A., Fedoriw, Y., Gaulard, P., Ghia, P., Goodlad, J. R., Harris, N. L., Hsi, E. D., Karube, K., Kluin, P. M., ... Zelenetz, A. D. (2022). The International Consensus Classification of Mature Lymphoid Neoplasms: A report from the Clinical Advisory Committee. *Blood, 140*(11), 1229–1253. https://doi.org/10.1182/blood.2022015851
+
+Hanahan, D. (2022). Hallmarks of cancer: New dimensions. *Cancer Discovery, 12*(1), 31–46. https://doi.org/10.1158/2159-8290.CD-21-1059
+
+Hanahan, D., & Weinberg, R. A. (2000). The hallmarks of cancer. *Cell, 100*(1), 57–70. https://doi.org/10.1016/S0092-8674(00)81683-9
+
+Hanahan, D., & Weinberg, R. A. (2011). Hallmarks of cancer: The next generation. *Cell, 144*(5), 646–674. https://doi.org/10.1016/j.cell.2011.02.013
+
+Kumar, V., Abbas, A. K., & Aster, J. C. (2020). *Robbins and Cotran pathologic basis of disease* (10.ª ed.). Elsevier.
+
+Louis, D. N., Perry, A., Wesseling, P., Brat, D. J., Cree, I. A., Figarella-Branger, D., Hawkins, C., Ng, H. K., Pfister, S. M., Reifenberger, G., Soffietti, R., von Deimling, A., & Ellison, D. W. (2021). The 2021 WHO Classification of Tumors of the Central Nervous System: A summary. *Neuro-Oncology, 23*(8), 1231–1251. https://doi.org/10.1093/neuonc/noab106
+
+Vogelstein, B., Papadopoulos, N., Velculescu, V. E., Zhou, S., Diaz, L. A., Jr., & Kinzler, K. W. (2013). Cancer genome landscapes. *Science, 339*(6127), 1546–1558. https://doi.org/10.1126/science.1235122
+
+World Health Organization Classification of Tumours Editorial Board. (2021). *Central nervous system tumours* (5.ª ed., Vol. 6). International Agency for Research on Cancer.
+
+World Health Organization Classification of Tumours Editorial Board. (2022). *Haematolymphoid tumours* (5.ª ed.). International Agency for Research on Cancer.
+
+### XIX.8. Sepsis, muerte física, certificación de causa de muerte y documentación clínica
+
+Greer, D. M., Shemie, S. D., Lewis, A., Torrance, S., Varelas, P., Goldenberg, F. D., Bernat, J. L., Souter, M., Topcuoglu, M. A., Alexandrov, A. V., Baldisseri, M., Bleck, T., Citerio, G., Dawson, R., Hoppe, A., Jacobe, S., Manara, A., Nakagawa, T. A., Pope, T. M., ... Sung, G. Y. (2020). Determination of brain death/death by neurologic criteria: The World Brain Death Project. *JAMA, 324*(11), 1078–1097. https://doi.org/10.1001/jama.2020.11586
+
+Shemie, S. D., Hornby, L., Baker, A., Teitelbaum, J., Torrance, S., Young, K., Capron, A. M., Bernat, J. L., Noel, L., & The International Guidelines for Determination of Death Phase 1 Participants. (2014). International guideline development for the determination of death. *Intensive Care Medicine, 40*(6), 788–797. https://doi.org/10.1007/s00134-014-3242-7
+
+Singer, M., Deutschman, C. S., Seymour, C. W., Shankar-Hari, M., Annane, D., Bauer, M., Bellomo, R., Bernard, G. R., Chiche, J. D., Coopersmith, C. M., Hotchkiss, R. S., Levy, M. M., Marshall, J. C., Martin, G. S., Opal, S. M., Rubenfeld, G. D., van der Poll, T., Vincent, J. L., & Angus, D. C. (2016). The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). *JAMA, 315*(8), 801–810. https://doi.org/10.1001/jama.2016.0287
+
+World Health Organization. (2016). *International statistical classification of diseases and related health problems* (10.ª rev., 5.ª ed.). World Health Organization.
+
+World Health Organization. (2024). *ICD-11 reference guide*. World Health Organization.
+
+World Health Organization. (2024). *WHO recommendations for conducting an external inspection of a body and filling in the medical certificate of cause of death*. World Health Organization.
+
+### XIX.9. Neurociencia, dolor, comunicación clínica y función humana
+
+Apkarian, A. V., Baliki, M. N., & Geha, P. Y. (2009). Towards a theory of chronic pain. *Progress in Neurobiology, 87*(2), 81–97. https://doi.org/10.1016/j.pneurobio.2008.09.018
+
+Basbaum, A. I., Bautista, D. M., Scherrer, G., & Julius, D. (2009). Cellular and molecular mechanisms of pain. *Cell, 139*(2), 267–284. https://doi.org/10.1016/j.cell.2009.09.028
+
+International Association for the Study of Pain. (2020). IASP announces revised definition of pain. *IASP*. https://www.iasp-pain.org
+
+Kandel, E. R., Koester, J. D., Mack, S. H., & Siegelbaum, S. A. (Eds.). (2021). *Principles of neural science* (6.ª ed.). McGraw Hill.
+
+Merskey, H., & Bogduk, N. (Eds.). (1994). *Classification of chronic pain* (2.ª ed.). IASP Press.
+
+Sullivan, M. J. L., Bishop, S. R., & Pivik, J. (1995). The Pain Catastrophizing Scale: Development and validation. *Psychological Assessment, 7*(4), 524–532. https://doi.org/10.1037/1040-3590.7.4.524
+
+Treede, R. D., Rief, W., Barke, A., Aziz, Q., Bennett, M. I., Benoliel, R., Cohen, M., Evers, S., Finnerup, N. B., First, M. B., Giamberardino, M. A., Kaasa, S., Kosek, E., Lavand’homme, P., Nicholas, M., Perrot, S., Scholz, J., Schug, S., Smith, B. H., ... Wang, S. J. (2015). A classification of chronic pain for ICD-11. *Pain, 156*(6), 1003–1007. https://doi.org/10.1097/j.pain.0000000000000160
+
+### XIX.10. Metrología, unidades, clasificación y reproducibilidad
+
+BIPM. (2019). *The International System of Units (SI)* (9.ª ed.). Bureau International des Poids et Mesures.
+
+ISO. (2019). *ISO 8601-1:2019. Date and time — Representations for information interchange — Part 1: Basic rules*. International Organization for Standardization.
+
+ISO. (2022). *ISO 15189:2022. Medical laboratories — Requirements for quality and competence*. International Organization for Standardization.
+
+NIST. (2019). *Guide for the use of the International System of Units (SI)*. National Institute of Standards and Technology.
+
+Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J. W., da Silva Santos, L. B., Bourne, P. E., Bouwman, J., Brookes, A. J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C. T., Finkers, R., ... Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. *Scientific Data, 3*, 160018. https://doi.org/10.1038/sdata.2016.18
+
+### XIX.11. Corpus SV y publicaciones relacionadas del autor
+
+Lloret Egea, J. A. (2026). *Teoría del TODO y de la NADA en el Sistema Vectorial SV*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™.
+
+Lloret Egea, J. A. (2026). *Imperfección preformal y espacio: ε−0, primera distinguibilidad y dominio estructural completo de separación factual recorrible*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™.
+
+Lloret Egea, J. A. (2026). *Teoría general de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™.
+
+Lloret Egea, J. A. (2026). *Teoría general factual de la luz en el Sistema Vectorial SV*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™.
+
+Lloret Egea, J. A. (2026). *El agujero negro como cierre interno sin resto exterior formulable*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™.
+
+Lloret Egea, J. A. (2026). *Edades relativas del universo observable y de sus objetos físicos. Biología molecular y medicina: del par estructural a la célula viva*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™. https://doi.org/10.21428/39829d0b.b56ed853
+
+Lloret Egea, J. A. (2026). *Catálogo de Pares Estructurales SV (CPS-SV): enlace, aleación y compatibilidad posicional desde los 118 elementos base hasta los 443 candidatos del dominio extendido*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™.
+
+Lloret Egea, J. A. (2026). *Proyecciones biológicas de la fibra: Teoría de la Creación de Observables del Universo, transducción metrológica, mutación, enfermedad, cáncer y clausura factual*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™.
+
+### XIX.12. Conclusión bibliográfica
+
+El conjunto bibliográfico sostiene tres funciones: aportar lenguaje científico externo verificable, fijar estándares contemporáneos de clasificación y diagnóstico, y permitir que las transducciones SV↔ciencia contemporánea se ejecuten con unidades, dominios y límites reconocibles. Las fuentes de biología celular y origen de la vida sostienen el paso desde química persistente a frontera y célula; las fuentes de genética y evolución sostienen mutación, variante, especie y linaje; las fuentes de inmunología y microbiología sostienen canal, reconocimiento, infección, tolerancia y respuesta; las fuentes de patología y oncología sostienen enfermedad, cáncer, clasificación y diagnóstico diferencial; las fuentes sobre sepsis, muerte y certificación sostienen la separación entre muerte física, mecanismo terminal y causa etiológica; las fuentes de metrología y reproducibilidad sostienen unidades, trazabilidad y custodia. La bibliografía no sustituye el cierre SV, pero impide que el aparato se desconecte del dominio externo que pretende transducir.
+
+# Anexo I. Bloque clínico-biológico diagnóstico: transductor simultáneo, banco cerrado y paquete reproducible
+
+## AI.1. Estatuto del anexo clínico-biológico diagnóstico
+
+### AI.1.1. Objeto del anexo
+
+El presente anexo desarrolla el bloque clínico-biológico diagnóstico como capa aplicada, cerrada y subordinada al cuerpo principal de la publicación. Su objeto no es ampliar lateralmente la obra hacia una medicina general, ni convertir el SV en sustituto del acto médico, sino demostrar cómo las fórmulas ya fijadas —observable biológico, transductor bidireccional, canal, diccionario semántico estructural, residual, retorno, mutación, enfermedad, cáncer y clausura vital— operan sobre un banco clínico cerrado, adversarial y reproducible. El anexo trabaja sobre casos límite de tricoleucemia y tumor cerebral porque ambos dominios permiten forzar errores frecuentes: cierre por apariencia, cierre por marcador, cierre por imagen, cierre por linaje parcial, cierre por masa, cierre por citopenia, cierre por muerte física y cierre por autoridad documental sin condiciones constitutivas completas.
+
+<div align="center">AI<sub>diag</sub>=⟨caso límite, transductor simultáneo, banco cerrado, negativo, U legítimo, retorno médico⟩.</div>
+
+El anexo queda limitado a diagnóstico estructural en banco cerrado. Diagnóstico estructural significa aquí identificación, refutación o conservación de U mediante condiciones constitutivas declaradas, no emisión de un juicio clínico asistencial sobre una persona real. Banco cerrado significa conjunto de casos, magnitudes, condiciones, transductores, negativos y salidas esperadas previamente tipados; no significa universalidad clínica, ni promesa terapéutica, ni extrapolación automática a pacientes. El error cero sólo puede afirmarse en un sentido acotado: si dentro del banco una etiqueta diagnóstica forzada contradice una condición necesaria, el sistema debe refutarla con error cero formal respecto de esa condición. Fuera del banco, toda conclusión exige nuevo dominio, nueva custodia, nueva traza y nuevo retorno.
+
+| Elemento | Función del anexo |
+|---|---|
+| Casos límite | obligar a separar apariencia, sospecha, entidad y retorno |
+| Transductor simultáneo | proyectar ciencia contemporánea→SV y SV→ciencia contemporánea sin pérdida |
+| Banco cerrado | permitir verificación formal de condiciones y negativos |
+| Negativos | forzar caída de diagnósticos espurios |
+| U legítimos | impedir cierre por falta de datos |
+| Error cero acotado | refutar una etiqueta imposible dentro del banco cerrado |
+| Retorno médico | devolver explicación interpretable al dominio clínico externo |
+
+### AI.1.2. Relación con el cuerpo principal
+
+El anexo no introduce doctrina nueva. Despliega, en un dominio clínico-biológico controlado, las definiciones ya fijadas en el cuerpo principal. La mutación sigue siendo modificación con retorno; la enfermedad sigue siendo pérdida de gobierno de retorno; el cáncer sigue siendo dominancia local contra integración orgánica; el diagnóstico sigue siendo retorno de identidad; la muerte física sigue sin retrovalidar causas; el canal y la semántica siguen siendo condiciones distintas; U sigue siendo indeterminación honesta. El anexo sólo estrecha el foco: toma un conjunto limitado de casos y muestra cómo esas reglas impiden que una lectura médica superficial cierre lo que no debe cerrar.
+
+<div align="center">Anexo I ⊂ aplicación clínica controlada de {𝔛<sub>bio</sub>,Diag<sub>AB</sub><sup>⊥</sup>,Dx<sub>SV</sub>,Ca<sub>SV</sub>,MF<sub>SV</sub>}.</div>
+
+La relación con el cuerpo principal es de subordinación material. El cuerpo principal fija ontología operativa, transducción, metrología, semántica estructural, enfermedad, cáncer, muerte y bancos generales. El anexo toma ese aparato y lo somete a casos concretos. Por tanto, ninguna salida del anexo puede corregir la doctrina principal; sólo puede demostrar su uso, señalar un límite, conservar U o exigir ampliación de banco. Si un caso clínico no cumple condiciones, no se ajusta la fórmula para hacerlo pasar: cae la etiqueta, se conserva U o se declara banco insuficiente. Esta regla preserva la cadena de prevalencia y evita que una aplicación clínica local reescriba el fundamento.
+
+| Cuerpo principal | Uso en el anexo |
+|---|---|
+| I. Fórmulas universales | fijan observable, transductor y canal |
+| III. Familia de transductores | aporta 𝔛<sub>bio</sub> y transductores específicos |
+| IV. Tablas SV↔ciencia | aportan magnitudes, unidades y primitivos |
+| X. Mutación | impide variante=destino |
+| XI. Enfermedad | exige residual no absorbido y nivel afectado |
+| XII. Cáncer | exige clon, barrera, dominancia y retorno |
+| XIII. Muerte física | impide muerte=causa diagnóstica |
+| XVI. Canal y semántica | separa canal, diccionario y retorno |
+| XVII. Bancos y laboratorios | aporta morfología adversarial y runner |
+
+### AI.1.3. Relación con XVII. Bancos de datos y laboratorios
+
+El anexo se integra con el apartado XVII como especialización clínica del banco general. El apartado XVII define once bancos, cincuenta y cuatro laboratorios, cuarenta y ocho errores, U legítimos, runner global y salida esperada. El anexo toma esa arquitectura y la aplica a un subbanco diagnóstico con casos de tricoleucemia clásica erróneamente forzada y tumor cerebral maligno erróneamente forzado. La finalidad no es repetir el banco general, sino construir un banco clínico de alta tensión: casos que parecen diagnósticos por una lectura externa incompleta, pero que deben caer cuando se exigen condiciones constitutivas completas.
+
+<div align="center">B<sub>AI</sub>=B<sub>clínico</sub>⊂Bancos<sub>XVII</sub>, con negativos diagnósticos de alta tensión.</div>
+
+El banco clínico-biológico diagnóstico debe heredar campos mínimos: dominio, observable, señal, unidad externa, primitivo SV, canal, diccionario, condición necesaria, estado de condición, residual, retorno, salida esperada y error bloqueado. Además, debe añadir campos propios de diagnóstico límite: diagnóstico externo forzado, motivo de sospecha, condición que lo refuta, retorno explicativo al dominio médico, etiqueta alternativa si procede y U residual si no procede cerrar. De este modo, el anexo no sólo dice que la ciencia contemporánea se equivocaría en ciertos casos; muestra exactamente dónde, cómo y por qué una etiqueta externa cae al pasar por transductor simultáneo.
+
+| Campo heredado de XVII | Campo añadido en Anexo I |
+|---|---|
+| id_caso | diagnóstico externo forzado |
+| dominio | motivo de sospecha |
+| observable | condición constitutiva evaluada |
+| señal | condición que refuta la etiqueta |
+| unidad externa | retorno médico explicativo |
+| primitivo SV | diagnóstico alternativo o U |
+| canal | salida de error cero acotado |
+| diccionario | límite de extrapolación |
+| residual | advertencia de no sustitución médica |
+| salida esperada | trazabilidad de refutación |
+
+La relación con los laboratorios es igualmente estricta. El anexo debe producir laboratorio de retorno diagnóstico, especificación ejecutable, runner determinista, catálogo de errores y salida reproducible. No basta con prosa diagnóstica. La tesis fuerte del anexo —refutación con error cero en banco cerrado— sólo es admisible si el banco permite que un runner detecte automáticamente cuándo una etiqueta diagnóstica contradice una condición necesaria. Si no hay runner, la tesis queda como argumento; si hay runner incompleto, queda U material; si el runner acepta un negativo prohibido, el anexo falla.
+
+### AI.1.4. Límites médicos y no sustitución del acto clínico
+
+El anexo no sustituye al acto clínico, a la evaluación médica presencial, a la anatomía patológica, a la hematología, a la neurología, a la neurooncología, a la radiología, a la microbiología, a la genética clínica, al comité de tumores, a la legislación sanitaria ni a las guías vigentes. Su función es formal: ordenar condiciones, detectar cierres indebidos, conservar U y devolver al dominio médico una explicación estructural de por qué una etiqueta diagnóstica se sostiene, cae o no puede cerrarse. Ninguna tabla del anexo debe usarse como instrucción terapéutica, recomendación individual, diagnóstico real de paciente o criterio de urgencia. Ante un caso real, prevalece siempre la atención clínica responsable.
+
+<div align="center">Uso<sub>AI-med</sub>=apoyo estructural; Sustitución<sub>acto clínico</sub>=0.</div>
+
+El límite del error cero requiere formulación precisa. El anexo puede decir que, dentro de un banco cerrado, una etiqueta como “tricoleucemia clásica” cae con error cero si falta una condición necesaria tipada y esa ausencia está materialmente declarada. Puede decir que, dentro de un banco cerrado, un “tumor cerebral maligno” forzado cae si la matriz demuestra que la imagen o la masa no satisfacen condiciones constitutivas y hay una alternativa o U mejor fundada. No puede decir que el SV garantice error cero en todos los diagnósticos reales. Tampoco puede decir que la ciencia contemporánea sea incapaz en general; sólo puede decir que una lectura externa incompleta, cuando opera por apariencia o condición parcial, puede cerrar indebidamente allí donde el SV exige mayor profundidad de dominio.
+
+| Prohibición médica del anexo | Razón |
+|---|---|
+| Diagnosticar pacientes reales desde el texto | falta acto clínico y custodia individual |
+| Prometer error cero general | el error cero sólo vale en banco cerrado |
+| Sustituir guías médicas | el anexo es estructural, no asistencial |
+| Decidir tratamiento | requiere profesional responsable |
+| Usar datos personales sin anonimización | vulnera custodia y ética |
+| Convertir sospecha en enfermedad | falta retorno de identidad |
+| Usar muerte como prueba diagnóstica | retrovalidación prohibida |
+| Degradar U | la incertidumbre honesta protege la verdad clínica |
+
+La no sustitución clínica no debilita el anexo; lo hace apto. Un sistema formal aplicado a medicina sólo es serio si conserva límites. Precisamente por ello, el anexo puede ser útil: no promete omnipotencia diagnóstica, sino detección de cierres espurios bajo condiciones explícitas. Su utilidad científica reside en decir con precisión qué falta, qué contradice la etiqueta, qué retorno médico se obtiene y qué debe permanecer U.
+
+### AI.1.5. Conclusión del apartado
+
+El anexo clínico-biológico diagnóstico queda definido como aplicación controlada, adversarial y reproducible del cuerpo principal. Su objeto es demostrar el funcionamiento del transductor simultáneo y del banco cerrado sobre casos límite de tricoleucemia y tumor cerebral, sin sustituir medicina ni extrapolar error cero fuera del dominio tipado. Su relación con el cuerpo principal es subordinada: aplica las fórmulas de observable, transducción, canal, semántica, enfermedad, cáncer, muerte física, U y bancos generales. Su relación con XVII es de especialización: toma la arquitectura de bancos y laboratorios y la convierte en subbanco clínico de alta tensión. Sus límites son explícitos: no diagnostica pacientes reales, no dicta tratamiento, no reemplaza guías ni acto clínico, y sólo declara error cero cuando una etiqueta forzada contradice una condición necesaria dentro de un banco cerrado. Con este estatuto, el anexo puede avanzar hacia los casos límite SV(25,5) sin mezclar aplicación diagnóstica, promesa clínica y cierre doctrinal.
+
+## AI.2. Transductor simultáneo clínico-biológico
+
+### AI.2.1. Definición de transductor simultáneo
+
+El transductor simultáneo clínico-biológico es el operador de doble dirección que proyecta un caso desde la ciencia contemporánea hacia el SV y, en el mismo acto lógico, devuelve al dominio médico una salida interpretable, con conservación de unidad, muestra, método, dominio, canal, diccionario, residual y retorno. No es un traductor verbal ni una tabla de equivalencias terminológicas. Es simultáneo porque impide que la primera dirección cierre sola: ningún dato externo queda aceptado como hecho diagnóstico sin pasar por condiciones SV, y ninguna salida SV queda admitida si no puede volver al dominio clínico en lenguaje médico verificable. La simultaneidad protege los dos extremos: evita que la ciencia externa cierre por apariencia y evita que el SV emita un dictamen interno no retornable.
+
+<div align="center">𝔛<sub>clin</sub><sup>↔</sup>(Caso)=D<sub>med</sub>→SV→D<sub>med</sub>, conservando Ω, unidad, muestra, canal, 𝓓<sup>⊥</sup>, Δ y R.</div>
+
+El transductor recibe datos clínicos, analíticos, citológicos, histológicos, inmunofenotípicos, moleculares, radiológicos, funcionales y documentales. Cada dato entra con su dominio y su límite. Una citopenia entra como magnitud hematológica, no como hemopatía cerrada; una lesión cerebral entra como hallazgo anatómico-radiológico, no como tumor cerrado; una mutación entra como variante, no como cáncer; una inmunofenotipia entra como patrón, no como entidad si falta condición constitutiva; una muerte física entra como clausura vital, no como causa. La salida al SV evalúa si la etiqueta diagnóstica propuesta conserva condiciones suficientes. El retorno médico explica qué se sostiene, qué cae, qué queda U y qué dato falta.
+
+| Dirección | Entrada | Operación | Salida |
+|---|---|---|---|
+| Ciencia→SV | datos clínicos con unidad, método y muestra | proyección a dominio, canal, diccionario y residual | matriz SV del caso |
+| SV interno | condiciones constitutivas | evaluación 0/1/U | cierre, refutación o U |
+| SV→Ciencia | dictamen y residual | retorno médico interpretable | explicación diagnóstica externa |
+| Control adversarial | etiqueta forzada | búsqueda de condición necesaria refutada | caída con error cero acotado |
+| Control de U | dato incompleto | conservación de indeterminación honesta | U documentada |
+
+El transductor simultáneo no decide por probabilidad ni por frecuencia. Puede reconocer que una lectura médica externa tendría una hipótesis plausible, pero la plausibilidad no equivale a cierre. Si una masa cerebral se comporta radiológicamente como tumor, pero falta tejido, evolución, perfusión, difusión, espectroscopia, infección descartada o molecular según el caso, la salida puede ser U o refutación de una etiqueta concreta, no cierre por apariencia. Si una citopenia con linfocitos de morfología sugerente parece tricoleucemia, pero falta el patrón constitutivo completo, la etiqueta clásica cae o queda U. La fuerza del transductor está en hacer visible qué condición decide.
+
+### AI.2.2. Dominio médico de entrada
+
+El dominio médico de entrada agrupa los datos tal como existen en la ciencia contemporánea antes de la proyección SV. Debe ser materialmente completo para la pregunta que pretende responder. No basta decir “sangre alterada”, “masa cerebral”, “marcador positivo” o “paciente fallecido”. Deben declararse muestra, método, unidad, escala, fecha si procede, localización, calidad y límite. En el banco cerrado no se trabaja con pacientes reales, sino con casos sintéticos tipados; aun así, cada caso debe respetar la forma de un dato clínico apto. Un caso sin muestra, sin unidad, sin método o sin dominio no puede cerrar diagnóstico aunque parezca muy sugestivo.
+
+<div align="center">D<sub>med</sub>=⟨muestra,método,unidad,localización,señal,contexto,límite⟩.</div>
+
+Para tricoleucemia, el dominio de entrada puede incluir hemograma, frotis, médula ósea, inmunofenotipo, marcadores moleculares, esplenomegalia, infecciones, citopenias y diagnóstico diferencial con otras neoplasias B esplénicas o linfoproliferativas. Para tumor cerebral, puede incluir clínica neurológica, RM/TC, localización, realce, edema, difusión, perfusión, espectroscopia, evolución, histología, inmunohistoquímica, molecular, infección, inflamación, vascular, desmielinización y diagnóstico diferencial. El transductor no exige que todo esté presente en cada caso; exige que se declare qué está presente y qué falta. Lo ausente no se inventa y lo incompleto no se convierte en favorable.
+
+| Dominio | Dato de entrada | Unidad o clase | Límite |
+|---|---|---|---|
+| Hematología | hemoglobina, neutrófilos, plaquetas, linfocitos | g/dL, células/L, % | no cierra entidad por sí solo |
+| Morfología | aspecto celular en frotis o médula | clase descriptiva | no sustituye inmunofenotipo/molecular |
+| Citometría | patrón de marcadores | % y clase positiva/negativa | exige panel y calidad |
+| Molecular | variante o firma | HGVS, VAF, clase | requiere interpretación y contexto |
+| Imagen cerebral | tamaño, localización, realce, edema | mm, cm³, clase radiológica | no cierra histología sola |
+| Histología | patrón tisular | clase diagnóstica | depende de muestra apta |
+| Clínica | síntomas, signos, función | escala o descripción tipada | orienta, no cierra sola |
+| Documento | informe, procedencia, método | clase de custodia | no apto si falta integridad |
+
+### AI.2.3. Proyección SV de entrada
+
+La proyección SV transforma el dominio médico de entrada en una matriz de condiciones. Cada dato se asigna a una función: frontera, canal, señal, receptor, diccionario, residual, retorno o custodia. Esta asignación impide que una señal use un puesto que no le corresponde. Una citopenia es señal de alteración hematológica, no receptor ni diagnóstico. Un marcador B positivo puede apoyar linaje, no entidad completa. Una lesión con realce puede apoyar lesión focal, no malignidad por sí sola. Una mutación puede apoyar identidad molecular, no cierre si falta canal tumoral o linaje. La proyección SV obliga a que cada pieza ocupe su lugar.
+
+<div align="center">Π<sub>SV</sub>(D<sub>med</sub>)=⟨Ω,∂,Canal,𝓓<sup>⊥</sup>,Condiciones,Δ,R,U⟩.</div>
+
+La matriz SV resultante no es una opinión. Es una tabla de estado. Cada condición recibe 1 si está materialmente satisfecha, 0 si está refutada, U si falta información o no puede cerrarse, y NA si no pertenece al diagnóstico evaluado. La salida 0 no significa “paciente sano”; significa que la condición evaluada no se cumple para esa etiqueta. La salida 1 no significa “verdad universal”; significa cierre dentro del banco y dominio. La salida U no significa desinterés; significa que el dato disponible no permite cierre honesto. El transductor simultáneo sólo puede devolver una etiqueta diagnóstica fuerte si ninguna condición necesaria está en 0 y las condiciones suficientes del banco retornan 1.
+
+| Elemento SV | Pregunta | Ejemplo en tricoleucemia | Ejemplo en tumor cerebral |
+|---|---|---|---|
+| Ω | ¿qué dominio se evalúa? | sangre/médula/linaje B | encéfalo/lesión focal |
+| ∂ | ¿qué frontera define el caso? | población celular clonal | lesión, tejido, barrera anatómica |
+| Canal | ¿cómo aparece la entidad? | proliferación/ocupación medular | crecimiento, infiltración o lesión |
+| 𝓓<sup>⊥</sup> | ¿qué significa cada señal? | citopenia, frotis, marcadores | realce, edema, difusión, histología |
+| Condición necesaria | ¿qué no puede faltar? | patrón constitutivo del diagnóstico | identidad tisular/molecular si se exige |
+| Δ | ¿qué residual queda? | datos discordantes o insuficientes | diferencial no resuelto |
+| R | ¿qué devuelve al médico? | diagnóstico, refutación o U | tumor, no tumor, U |
+| U | ¿qué falta? | panel incompleto, molecular ausente | tejido ausente, imagen inespecífica |
+
+### AI.2.4. Retorno médico de salida
+
+El retorno médico de salida es la traducción controlada del dictamen SV al lenguaje clínico externo. Debe ser comprensible, verificable y limitado. No basta devolver “0”, “1” o “U”. La salida debe explicar qué etiqueta se evaluó, qué condiciones se cumplieron, qué condición cayó, qué dato falta, qué diagnóstico alternativo queda abierto y por qué la lectura externa inicial pudo inducir error. En el banco cerrado, esta explicación puede ser fuerte porque los datos están tipados. En un caso real, la explicación tendría que ajustarse a la custodia clínica y a la responsabilidad profesional.
+
+<div align="center">R<sub>med</sub>=⟨dictamen,condición decisiva,explicación,alternativas,U residual,límite⟩.</div>
+
+El retorno puede adoptar cuatro formas. Retorno confirmatorio: la etiqueta diagnóstica conserva sus condiciones. Retorno refutatorio: una condición necesaria queda en 0 y la etiqueta cae. Retorno U: faltan condiciones críticas y no procede cierre. Retorno mixto: una etiqueta fuerte cae, pero queda una categoría más amplia o alternativa. Por ejemplo, puede caer “tricoleucemia clásica” y permanecer U como “neoplasia B esplénica no cerrada” si el banco lo prevé; puede caer “glioblastoma” y permanecer U como “lesión cerebral con realce de etiología no cerrada”; puede caer “metástasis” y mantenerse “lesión expansiva pendiente de identidad”. Este retorno no degrada ciencia; la hace más exacta.
+
+| Salida SV | Retorno médico | Forma pública apta |
+|---|---|---|
+| 1 | entidad cerrada en banco | “las condiciones constitutivas se satisfacen dentro del dominio tipado” |
+| 0 | etiqueta refutada | “la etiqueta cae porque contradice esta condición necesaria” |
+| U | cierre no permitido | “los datos no permiten decidir honestamente” |
+| 0+U | etiqueta concreta cae, categoría amplia queda abierta | “no es X; queda pendiente Y o diferencial” |
+| 1 parcial | condición de apoyo, no diagnóstico | “el dato apoya sospecha, pero no cierra entidad” |
+| no apto | dato inutilizable | “la muestra, método o documento no son aptos para cierre” |
+
+### AI.2.5. Regla de error cero acotado
+
+La regla de error cero acotado se aplica cuando una etiqueta diagnóstica forzada contradice una condición necesaria dentro de un banco cerrado. En ese caso, la caída de la etiqueta no depende de probabilidad ni de juicio clínico subjetivo; depende de incompatibilidad formal. Si el banco declara que una entidad requiere un conjunto de condiciones necesarias y una de ellas está materialmente en 0, la etiqueta no puede cerrar. El error cero se refiere a esa refutación concreta, no a la totalidad del diagnóstico médico, ni al pronóstico, ni al tratamiento, ni a entidades no evaluadas. Es una regla de imposibilidad tipada.
+
+<div align="center">Error0<sub>acotado</sub>(Dx)=1 ⇔ Condición<sub>necesaria</sub>(Dx)=0 dentro de B<sub>cerrado</sub>.</div>
+
+Esta regla es decisiva para los casos límite. Si un caso parece tricoleucemia por citopenia y morfología, pero el patrón constitutivo exigido por el banco está ausente o contradicho, el diagnóstico forzado de tricoleucemia clásica cae con error cero acotado. Si una lesión cerebral parece tumor maligno por imagen, pero el banco demuestra una condición necesaria refutada para esa etiqueta concreta, la etiqueta cae. Sin embargo, que caiga una etiqueta no significa que el paciente esté sano, ni que no haya otra enfermedad, ni que no exista lesión grave. Significa que esa etiqueta concreta no puede sostenerse con esos datos. La ciencia externa recibe así una explicación de por qué su cierre era excesivo: tomó una señal de sospecha como condición de identidad.
+
+| Situación | Error cero acotado | Motivo |
+|---|---|---|
+| Condición necesaria en 0 | sí | la etiqueta es incompatible con el banco |
+| Condición necesaria en U | no | falta dato; no hay refutación cerrada |
+| Condición de apoyo en 0 | no necesariamente | puede no ser constitutiva |
+| Condición suficiente incompleta | no | salida U o categoría parcial |
+| Etiqueta alternativa no evaluada | no | fuera de banco |
+| Caso real sin custodia plena | no | exige nuevo dominio clínico |
+| Muerte física posterior | no | no retrovalida ni refuta por sí sola |
+| Banco incompleto | no | salida no apta o U material |
+
+### AI.2.6. Matriz diagnóstica SV(25,5)
+
+La matriz diagnóstica SV(25,5) es la forma tabular de trabajo del anexo. Contiene veinticinco filas de condiciones por cinco columnas de salida. Las veinticinco filas cubren dominio, muestra, unidad, método, frontera, canal, diccionario, entidad, linaje, morfología, marcador, molecular, imagen o histología según proceda, barrera, residual, retorno, diferencial, U, negativo, muerte física y custodia. Las cinco columnas separan entrada médica, proyección SV, estado de condición, retorno médico y error bloqueado. Esta matriz permite que ninguna condición contamine a otra y que un runner pueda detectar cierres indebidos.
+
+<div align="center">SV(25,5)=Condiciones<sub>25</sub>×{D<sub>med</sub>,Π<sub>SV</sub>,Estado,R<sub>med</sub>,ErrorBloqueado}.</div>
+
+La matriz se usa para tricoleucemia y tumor cerebral con contenidos distintos, pero con arquitectura común. En tricoleucemia, las filas clínicas se orientan a hemograma, frotis, médula, inmunofenotipo, marcadores moleculares, esplenomegalia, linaje B, fibrosis medular, diagnóstico diferencial y citopenias. En tumor cerebral, se orientan a localización, imagen, realce, edema, difusión, perfusión, histología, inmunohistoquímica, molecular, infección, vascular, inflamación, desmielinización, metástasis, primario, barrera y evolución. En ambos dominios, la columna Estado impide que una señal parcial cierre. Si una fila necesaria cae, la etiqueta cae. Si una fila necesaria queda U, el diagnóstico no cierra.
+
+| Grupo de filas | Finalidad | Ejemplo hematológico | Ejemplo neurooncológico |
+|---|---|---|---|
+| 1–5 | custodia y dominio | muestra sanguínea/médula | RM/TC/biopsia |
+| 6–10 | frontera y canal | linaje B, clon, médula | lesión, tejido, barrera |
+| 11–15 | señales de apoyo | citopenia, morfología, bazo | realce, edema, clínica |
+| 16–20 | condiciones constitutivas | inmunofenotipo/molecular | histología/molecular/invasión |
+| 21–23 | diferenciales y U | otras neoplasias B | absceso, desmielinización, metástasis |
+| 24 | muerte física | no retrovalida entidad | no retrovalida tumor |
+| 25 | salida | refutación, cierre o U | refutación, cierre o U |
+
+### AI.2.7. Célula diagnóstica elemental
+
+La célula diagnóstica elemental es la unidad mínima de la matriz SV(25,5). Cada célula contiene un solo dato o una sola condición; no puede contener datos de otras células ni anticipar conclusiones. Esta regla fue fijada para evitar contaminación interna: una fila de citopenia no puede incorporar inmunofenotipo; una fila de imagen no puede incorporar histología; una fila molecular no puede incorporar evolución clínica; una fila de muerte física no puede incorporar causa. La célula puede referenciar un transductor común, pero no puede importar contenido de otra célula como si fuera propio. La matriz sólo se cierra después de evaluar todas las células pertinentes.
+
+<div align="center">Celda<sub>ij</sub>=dato único ∨ condición única; contaminación intercelda=0.</div>
+
+La célula diagnóstica tiene seis campos internos aunque visualmente pueda aparecer como una sola entrada: dato, unidad, dominio, condición, estado y retorno local. Si alguno falta, la célula no es apta. El retorno local no es diagnóstico global; sólo dice qué aporta esa célula. Una célula de “plaquetas bajas” retorna citopenia, no tricoleucemia. Una célula de “realce anular” retorna patrón radiológico, no glioblastoma. Una célula de “marcador positivo” retorna apoyo de linaje o canal, no entidad. Esta granularidad es imprescindible para que el transductor pueda explicar por qué la ciencia externa se equivocó: confundió retorno local con diagnóstico global.
+
+| Campo interno de célula | Función |
+|---|---|
+| dato | señal material introducida |
+| unidad | magnitud o clase tipada |
+| dominio | nivel donde opera |
+| condición | papel diagnóstico de la señal |
+| estado | 0, 1, U o NA |
+| retorno local | qué aporta, sin cerrar globalmente |
+
+| Regla de no contaminación | Ejemplo |
+|---|---|
+| una célula no anticipa diagnóstico | citopenia no dice tricoleucemia |
+| una célula no importa otra prueba | imagen no contiene histología |
+| una célula no transforma U en apoyo | marcador dudoso no suma como positivo |
+| una célula no usa muerte como causa | muerte no prueba tumor |
+| una célula no oculta unidad | tamaño sin mm/cm no es apto |
+| una célula no sustituye dominio | sangre periférica no equivale a médula si el banco exige médula |
+
+### AI.2.8. Conclusión del apartado
+
+El transductor simultáneo clínico-biológico queda definido como operador bidireccional D<sub>med</sub>→SV→D<sub>med</sub>, con conservación de unidad, muestra, método, dominio, canal, diccionario, residual y retorno. Su función es impedir que la ciencia externa cierre por apariencia y que el SV devuelva dictámenes no retornables. El dominio médico de entrada debe declarar muestra, método, unidad, localización y límite; la proyección SV convierte esos datos en condiciones 0/1/U; el retorno médico explica qué se sostiene, qué cae, qué queda indeterminado y por qué. La regla de error cero acotado sólo opera cuando una condición necesaria de una etiqueta forzada está materialmente en 0 dentro de un banco cerrado. La matriz SV(25,5) y la célula diagnóstica elemental garantizan que cada dato ocupe su lugar y que ninguna fila contamine a otra. Con esta arquitectura, el anexo puede pasar a los bancos concretos de tricoleucemia y tumor cerebral sin convertir sospecha, marcador, imagen, citopenia, masa o muerte física en diagnóstico por atajo.
