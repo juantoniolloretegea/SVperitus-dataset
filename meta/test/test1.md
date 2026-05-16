@@ -940,3 +940,1331 @@ La transducción biológica termina en retorno, no en etiqueta. Nombrar “mutac
 ### IX.8. Conclusión del apartado
 
 La transducción biológica y Γbio-0 fijan el paso desde semilla compositiva a observable vivo constituido. Γbio-0 no es un momento histórico, sino una trayectoria mínima de frontera emergente, canal químico-biológico, diccionario prebiológico, retorno, residual y traza. El canal biológico primario muestra cómo una diferencia externa puede convertirse en respuesta propia sin antropomorfismo. El transductor biológico general permite pasar entre ciencia contemporánea y SV conservando unidades, dominio y retorno. La transducción por niveles impide que célula, tejido, órgano y organismo se confundan. Virus, bacterias y microorganismos entran por transductores específicos, porque no comparten el mismo estatuto celular ni el mismo canal. El diccionario biológico estructural asigna sentido sólo cuando señal, dominio, canal y retorno se articulan. El residual biológico declara lo no absorbido y el retorno decide conservación, reparación, enfermedad, dominancia, muerte física o U. Con este suelo queda preparado el análisis de mutación y variabilidad heredable: ya no como cambio aislado de secuencia, sino como modificación que sólo adquiere significado cuando atraviesa canal, dominio y retorno.
+
+## X. Mutación, variabilidad heredable y dominios replicativos
+
+### X.1. Génesis polar-residual de la mutación
+
+La mutación no queda definida por la mera existencia de un cambio material, sino por la aparición de un residual compatible dentro de un dominio replicativo, hereditario, celular, viral o poblacional. La ciencia contemporánea describe causas próximas: errores de replicación, daño químico, radiación, recombinación, transposición, reparación incompleta, presión del medio, selección de variantes y límites de fidelidad molecular; el SV recibe esos mecanismos por transducción, pero formula el porqué estructural en un plano inferior: todo dominio replicativo intenta cerrar identidad entre fuente y derivado mediante un canal material finito, y ese canal no puede garantizar identidad absoluta sin residual. Si la copia fuera clausura perfecta, no habría variación; si el residual destruyera identidad, viabilidad o retorno, no habría variante; si el residual conserva linaje, supera barrera de viabilidad y retorna como diferencia molecular, funcional, fenotípica, clínica o poblacional, hay mutación observable. La forma de dominio queda fijada así: 𝓒★Mut(m,B)=𝓝★[ΩM_B(m),𝔛mut(m↔SV),F_seq(m),I_lin(m),C_rep(m),B_viab(m),Δ_mut(m),R_pheno(m),Tr_gen(m)]∈{0,1,U}. ΩM_B declara dominio y magnitudes —nt, bp, aa, posición, copia, célula, linaje, muestra o marcador—; 𝔛mut garantiza ida y vuelta con biología externa; F_seq fija frontera secuencial o estructural; I_lin conserva identidad de linaje o dominio; C_rep declara canal replicativo, recombinante, reparador o transmisivo; B_viab evalúa viabilidad; Δ_mut mide residual mutacional; R_pheno devuelve efecto molecular, funcional, fenotípico, clínico o U; Tr_gen conserva traza genética, experimental, epidemiológica o clínica. La mutación, por tanto, no es azar fundante ni simple error aislado: es cierre identitario no consumado bajo imperfección sostenida, evaluado por retorno.
+
+### X.2. Mutación vírica y cepa concreta
+
+La mutación vírica exige distinguir entre cambio de secuencia, variante viable, linaje consolidado y cepa con retorno fenotípico. Un virus no cierra como variante fuerte por presentar una sustitución nombrada, sino cuando el cambio se inscribe en un dominio viral con secuencia, posición, región funcional, huésped, canal de replicación, barrera de viabilidad, retorno fenotípico y traza. 𝔛var(V_i↔SV) especializa 𝔛mut para el caso viral concreto: recibe nt, bp o aa; región genómica o proteica; linaje; carga viral si procede; tropismo; transmisión; evasión inmunitaria; estabilidad; virulencia; vigilancia genómica; y retorno epidemiológico o experimental. Una sustitución sin efecto conocido puede quedar en U; una alteración que impide replicación cae en 1 como variante viable; una variante que conserva replicación y retorna cambio funcional queda en 0 dentro del dominio declarado. La fórmula de caso queda como 𝓒★Var(v,V)=𝓝★[ΩM_V(v),𝔛var(V_i↔SV),F_gen(v),I_lin(v),C_rep(v),B_host(v),Δ_var(v),R_epi/viro(v),Tr_surv(v)]∈{0,1,U}. Esta forma permite estudiar una variante respiratoria, entérica, hemorrágica o neurotrópica sin convertir “virus” en una categoría indiferenciada: cada caso exige canal, barrera, retorno y traza propios.
+
+### X.3. Mutación somática, germinal y poblacional
+
+La mutación somática, la germinal y la poblacional pertenecen a dominios distintos y no deben recibir el mismo dictamen por compartir la palabra mutación. La mutación somática se evalúa en célula, tejido u órgano: puede quedar neutralizada por reparación, apoptosis, inmunovigilancia o renovación tisular; puede persistir sin retorno clínico fuerte; o puede participar en enfermedad, envejecimiento, disfunción o cáncer si supera barreras de control y retorna como lesión, clon, alteración funcional o progresión. La mutación germinal se evalúa por continuidad de linaje: exige gameto, embrión, herencia, penetrancia de dominio, función, fenotipo o traza genética; su retorno no es local tisular, sino hereditario, familiar, poblacional o clínico. La mutación poblacional se evalúa en linajes, especies, comunidades virales, bacterianas o celulares: no cierra por recuento aislado, sino por continuidad, canal de transmisión, barrera reproductiva, retorno adaptativo o patológico y traza. En los tres casos, el SV impide el cierre por denominación: una variante detectada no es por sí misma enfermedad, una alteración somática no es por sí misma cáncer, una diferencia germinal no es por sí misma fenotipo y una variación poblacional no es por sí misma evolución cerrada. El dictamen depende de dominio, unidad, frontera, identidad, canal, barrera, residual, retorno y traza.
+
+### X.4. Retorno fenotípico, viabilidad y traza
+
+El retorno fenotípico decide si el residual mutacional queda biológicamente mudo, funcionalmente relevante, patológico, adaptativo, deletéreo o U. No toda mutación cambia proteína; no todo cambio proteico altera función; no toda alteración funcional produce enfermedad; no toda enfermedad procede de una mutación; no toda variación que persiste es favorable. La cadena de retorno debe declararse sin atajos: cambio material→frontera secuencial o estructural→identidad de linaje→canal replicativo o funcional→barrera de viabilidad→residual→retorno molecular, celular, tisular, clínico, epidemiológico o evolutivo→traza. La viabilidad no significa beneficio: significa que el dominio conserva operatividad suficiente para retorno. Una variante viral puede ser viable y menos transmisible; una mutación celular puede ser viable y patológica; una mutación germinal puede ser viable y deletérea; una mutación puede ser funcionalmente silenciosa dentro de un dominio y relevante en otro. La traza cierra la custodia: secuencia, lectura, muestra, ensayo, biomarcador, informe, linaje, registro clínico o banco. Sin traza, no hay mutación fuerte; sin retorno, no hay efecto fuerte; sin viabilidad, no hay variante persistente; sin dominio, no hay dictamen.
+
+### X.5. Matriz negativa de mutación
+
+| Afirmación o caso | Fallo estructural | Dictamen |
+|---|---|---|
+| Cambio de secuencia declarado enfermedad | Falta retorno clínico o funcional suficiente | 1/U |
+| Sustitución nombrada declarada variante viable | Falta barrera de viabilidad y retorno replicativo | 1/U |
+| Mutación somática declarada cáncer | Falta dominancia clonal, frontera tumoral, retorno histológico o clínico | 1/U |
+| Variante de significado incierto declarada patógena | U degradada a 0 sin retorno | 1 |
+| Alteración que destruye replicación declarada variante persistente | Falta viabilidad | 1 |
+| Cambio sin posición, secuencia o traza | Falta frontera y custodia | 1 |
+| Mutación silenciosa declarada efecto fenotípico fuerte | Falta retorno funcional | 1/U |
+| Frecuencia de variante usada como fundamento de verdad | Sustitución de retorno estructural por dato auxiliar | 1 |
+| Linaje viral sin vigilancia ni muestra trazada | Falta traza | U/1 según afirmación |
+| Cambio germinal declarado fenotipo obligatorio | Falta retorno fenotípico y dominio de expresión | 1/U |
+| Variación poblacional declarada evolución cerrada | Falta canal, barrera, linaje y retorno evolutivo | 1/U |
+| Mutación explicada como azar fundante suficiente | Sustitución de residual por probabilidad como fundamento | 1 |
+
+La matriz negativa protege el apartado frente a cierres aparentes. La mutación sólo cierra cuando el residual queda situado en dominio, unidad, frontera, identidad, canal, barrera, retorno y traza. Lo incompleto permanece en U si no contradice el dominio; lo que contradice frontera, viabilidad, traza o retorno cae en 1. Esta disciplina permite estudiar mutaciones víricas, celulares, germinales y poblacionales sin convertir diferencia en enfermedad, enfermedad en cáncer, variante en linaje fuerte o dato auxiliar en fundamento.
+
+### X.6. Conclusión del apartado
+
+La mutación queda formulada como residual compatible de reproducción, replicación o transmisión bajo imperfección sostenida. Su génesis no se reduce a error ni a azar fundante: procede del intento de cerrar identidad mediante canales materiales finitos, donde la diferencia puede quedar gobernada, destruir viabilidad o permanecer en U. 𝔛mut y 𝔛var permiten distinguir cambio, variante, cepa, linaje, función, patología y retorno; la separación entre mutación somática, germinal y poblacional impide trasladar dictámenes entre dominios; el retorno fenotípico decide si el residual es biológicamente mudo, funcional, patológico, adaptativo, deletéreo o indeterminado; y la matriz negativa impide cierres por denominación. Con esta base, la enfermedad podrá formularse como residual patológico de cierre no integrado, y el cáncer como dominancia local contra la integración orgánica, sin confundirlos con la mutación que puede participar en ellos.
+
+## XI. Enfermedad, reparación y residual patológico
+
+### XI.1. Enfermedad como cierre no integrado
+
+La enfermedad no es simple daño, ausencia abstracta de salud ni consecuencia obligatoria de una mutación. Es un régimen patológico de observabilidad biológica en el que un residual deja de quedar integrado por las fronteras, canales, barreras, mecanismos de reparación, identidad funcional y retornos del organismo o de alguno de sus niveles. Un tejido puede tolerar lesión limitada, una célula puede reparar daño, un sistema inmune puede contener infección, una vía metabólica puede compensar déficit y un órgano puede mantener función bajo perturbación; la enfermedad aparece cuando esa integración fracasa o queda superada y el residual retorna como disfunción, signo, síntoma, biomarcador, lesión, inflamación, infección, degeneración, fallo metabólico, autoinmunidad, dolor, pérdida funcional, curso clínico o traza médica. Su forma general queda fijada como 𝓒★Dis(e,B)=𝓝★[ΩM_B(e),𝔛dis(E_j↔SV),F_clin(e),I_func(e),C_pat(e),B_homeo(e),Δ_dis(e),R_clin(e),Tr_med(e)]∈{0,1,U}. ΩM_B declara dominio, unidad y escala; 𝔛dis garantiza retorno a ciencia biomédica; F_clin separa el proceso patológico; I_func conserva la función afectada; C_pat declara canal patogénico; B_homeo evalúa barrera homeostática, inmunitaria, reparadora o anatómica; Δ_dis mide residual patológico; R_clin devuelve retorno clínico, funcional, analítico, imagenológico, histológico o molecular; Tr_med conserva traza médica. La enfermedad cierra como observable fuerte sólo cuando el residual patológico queda situado en dominio, unidad, frontera, identidad, canal, barrera, retorno y traza.
+
+### XI.2. Enfermedades genéticas, infecciosas, autoinmunes, degenerativas, metabólicas, traumáticas y ambientales
+
+Las enfermedades genéticas, infecciosas, autoinmunes, degenerativas, metabólicas, traumáticas y ambientales comparten la forma de residual patológico, pero no comparten el mismo canal ni el mismo retorno. Una enfermedad genética exige alteración heredada o adquirida, unidad molecular, dominio de expresión, penetrancia de dominio, función afectada y traza; una enfermedad infecciosa exige agente, vía de entrada, replicación o persistencia, barrera huésped, respuesta inmune, carga o marcador y retorno clínico; una enfermedad autoinmune exige pérdida de tolerancia, reconocimiento alterado, canal inmunitario, tejido diana, inflamación, daño y traza serológica, histológica o clínica; una degenerativa exige pérdida progresiva de estructura o función sin convertir el curso en tiempo rector, sino en secuencia factual de sucesos lesionales; una metabólica exige sustrato, enzima, producto, concentración, flujo, compensación y retorno bioquímico; una traumática exige agente externo, transferencia lesiva, frontera anatómica, daño estructural y retorno funcional; una ambiental exige exposición, barrera, susceptibilidad de dominio, daño o adaptación y traza. El dictamen no se traslada de una clase a otra: infección no es autoinmunidad, mutación no es enfermedad genética fuerte sin retorno, lesión no es cáncer, degeneración no es envejecimiento sin residual patológico y exposición no es enfermedad sin dominio lesional. La clasificación sirve para precisar transductores, no para sustituir el caso singular.
+
+### XI.3. Transductor específico de enfermedad singular
+
+Una enfermedad singular exige 𝔛dis(E_j↔SV), no basta 𝔛bio general ni la palabra diagnóstica. El caso E_j debe declarar dominio anatómico o sistémico, entidad nosológica, signos y síntomas relevantes, biomarcadores, unidades clínicas, método de medición, frontera lesional, identidad funcional afectada, canal patogénico, barrera homeostática, residual, retorno y traza. En una enfermedad infecciosa concreta, E_j debe contener agente, huésped, carga o marcador, vía, tropismo, respuesta, lesión y curso factual; en una autoinmune, autoantígeno o diana, patrón inflamatorio, tejido afectado, retorno inmunológico y daño; en una metabólica, concentración, sustrato, enzima o vía, compensación y efecto; en una neurodegenerativa, pérdida funcional, marcador, región, secuencia lesional y retorno neurológico; en una enfermedad rara genética, variante, gen, función, fenotipo, herencia y traza. El transductor singular no concede cierre por nombre clínico: una sospecha diagnóstica puede ser U; un hallazgo aislado puede ser insuficiente; un biomarcador sin lesión o función puede no cerrar; un síntoma sin dominio puede quedar en U o caer en 1 si se afirma diagnóstico fuerte. La forma de fila clínica fuerte queda como E_j | dominio | dato externo | unidad | 𝔛dis | F_clin | I_func | C_pat | B_homeo | Δ_dis | R_clin | Tr_med | dictamen.
+
+### XI.4. Matriz negativa de enfermedad
+
+| Afirmación o caso | Fallo estructural | Dictamen |
+|---|---|---|
+| Síntoma aislado declarado enfermedad fuerte | Falta dominio, lesión, biomarcador o retorno suficiente | 1/U |
+| Biomarcador alterado declarado diagnóstico absoluto | Falta frontera clínica, contexto funcional o traza completa | 1/U |
+| Variante genética declarada enfermedad | Falta retorno funcional, fenotípico o clínico | 1/U |
+| Infección declarada sólo por exposición | Falta agente, marcador, respuesta o lesión | 1/U |
+| Inflamación declarada autoinmunidad | Falta canal inmunitario específico, diana o traza | 1/U |
+| Degeneración declarada por edad cronológica | Sustitución de secuencia factual lesional por tiempo rector | 1 |
+| Lesión traumática declarada enfermedad sistémica | Falta integración de dominio y retorno sistémico | 1/U |
+| Enfermedad ambiental declarada sin exposición trazada | Falta canal causal de dominio y traza | 1/U |
+| Dolor declarado lesión estructural | Falta correlato, frontera o retorno suficiente | U |
+| Carga viral declarada gravedad clínica obligatoria | Falta retorno clínico y barrera huésped | 1/U |
+| Hallazgo de imagen declarado cáncer | Falta identidad tumoral, histología, perfil o traza | U/1 |
+| Mejoría sintomática declarada resolución completa | Falta retorno funcional, residual y traza de cierre | 1/U |
+| Enfermedad explicada por probabilidad como fundamento | Sustitución de residual y retorno por estadística | 1 |
+| U convertido en diagnóstico cerrado | Degradación de indeterminación honesta | 1 |
+
+La matriz negativa impide que la enfermedad se cierre por apariencia, nombre, sospecha, dato aislado o inferencia no transducida. Un caso incompleto permanece en U si conserva plausibilidad de dominio sin cierre suficiente; cae en 1 si contradice unidad, frontera, identidad, canal, barrera, residual, retorno o traza. Esta disciplina protege el tránsito hacia cáncer y muerte física: no toda enfermedad implica cáncer, no toda lesión implica clausura final, no toda mutación produce patología y no toda respuesta biológica es enfermedad.
+
+### XI.5. Conclusión del apartado
+
+La enfermedad queda formulada como residual patológico de cierre no integrado entre niveles biológicos. Su fuerza no procede del nombre diagnóstico, sino de la articulación entre dominio, unidad, frontera, identidad funcional, canal patogénico, barrera homeostática, residual, retorno clínico y traza. Las enfermedades genéticas, infecciosas, autoinmunes, degenerativas, metabólicas, traumáticas y ambientales comparten forma de residual, pero exigen transductores singulares distintos; 𝔛dis(E_j↔SV) evita que un síntoma, biomarcador, variante, exposición, imagen o sospecha se convierta en cierre indebido. Con esta base, el cáncer puede analizarse como caso específico de dominancia local contra integración orgánica, no como sinónimo de enfermedad ni como consecuencia automática de toda mutación.
+
+## XII. Cáncer como dominancia local contra integración orgánica
+
+### XII.1. Dominancia clonal y ruptura de cierre tisular
+
+El cáncer no es una mutación ampliada ni una enfermedad genérica, sino un régimen patológico específico en el que una subfibra celular adquiere dominancia local contra la integración del tejido, del órgano o del organismo. La célula tumoral no queda definida sólo por alteración genética o epigenética, sino por una reorganización de cierre: conserva viabilidad propia, prolifera, evade o desborda barreras de control, altera su relación con el microambiente, puede invadir, puede diseminarse y retorna como lesión molecular, histológica, imagenológica, funcional o clínica. En términos SV, el cáncer aparece cuando un dominio celular C_i rompe la subordinación al cierre superior Ω_org y establece un régimen local de identidad, canal y retorno que compite con la arquitectura del organismo. La dominancia clonal no implica siempre tumor clínicamente fuerte: puede quedar eliminada por reparación, apoptosis, senescencia, inmunovigilancia o contención tisular; sólo cierra como cáncer tipado cuando el residual oncológico supera barreras de control y retorna con frontera tumoral, identidad clonal o histológica, canal proliferativo o invasivo, traza y dictamen. La forma de dominio queda así: Can(c,B)=0 ⇔ I_clon(c) ∧ F_tum(c) ∧ C_prolif(c) ∧ B_ctrl(c) superada ∧ Δ_onc(c) retornado ∧ R_clin/hist/mol(c) ∧ Tr_onc(c). Si hay alteración sin dominancia, queda U o 1 según la afirmación; si hay masa sin identidad tumoral, no hay cáncer fuerte; si hay sospecha sin histología, perfil, imagen suficiente o traza, no procede cierre pleno.
+
+### XII.2. Transductor oncológico general
+
+El transductor oncológico general 𝔛onc(Ca↔SV) recibe el dominio del cáncer con sus unidades, entidades y trazas propias, y lo devuelve a medicina, biología tumoral y anatomía patológica sin sustituirlas por lenguaje interno. Su forma queda fijada como 𝔛onc(Ca↔SV)=𝓖★TrU(Ca)=(Ω_Ca,M_Ca,F_tum,I_clon,C_onc,B_ctrl,Δ_onc,R_onc,Tr_onc). Ω_Ca declara órgano, tejido, localización, tipo tumoral o dominio hematológico; M_Ca contiene unidades y entidades como mm, cm³, células/mm², mutación, copia génica, expresión, marcador, ng/mL, IU/L, Gy, estadio, grado, histología o categoría molecular trazada; F_tum separa lesión, clon, infiltrado o masa; I_clon conserva identidad tumoral, histológica o molecular; C_onc declara canal proliferativo, invasivo, angiogénico, metabólico, inmunoevasivo o metastásico; B_ctrl evalúa barreras de reparación, apoptosis, senescencia, inmunovigilancia, arquitectura tisular y control del ciclo celular; Δ_onc mide residual oncológico; R_onc retorna diagnóstico, progresión, respuesta, recaída, estabilidad, remisión o U; Tr_onc conserva informe anatomopatológico, imagen, secuenciación, biomarcador, muestra, fecha, tratamiento y seguimiento. El transductor no declara cáncer por una sola señal aislada: exige convergencia de dominio, unidad, frontera, identidad, canal, barrera, residual, retorno y traza.
+
+### XII.3. Transductores oncológicos singulares
+
+Todo cáncer concreto exige un transductor singular 𝔛onc(Ca_τ↔SV), donde τ tipa órgano, histología, perfil molecular, extensión, estadio, microambiente, tratamiento, respuesta y traza. Un carcinoma pulmonar, una leucemia aguda, un linfoma, un melanoma, un glioma, un carcinoma de mama, un sarcoma o un tumor pediátrico no se evalúan como “cáncer” indiferenciado: cada uno posee frontera, identidad, canal, barrera y retorno propios. En un tumor sólido, el transductor singular debe declarar lesión, tamaño, invasión, histología, grado, marcadores, perfil molecular, ganglios, metástasis, imagen y respuesta; en una neoplasia hematológica, debe declarar linaje celular, médula, sangre periférica, inmunofenotipo, citogenética, carga molecular, infiltración, respuesta y recaída; en un tumor cerebral, debe declarar localización, histología, grado, marcador molecular, edema, efecto de masa, función neurológica y trazas de imagen; en cáncer hereditario, debe separar variante germinal, riesgo, tumor desarrollado, penetrancia de dominio y retorno clínico. La forma singular queda como Ca_τ | órgano/dominio | histología | perfil molecular | unidad | F_tum | I_clon | C_onc | B_ctrl | Δ_onc | R_onc | Tr_onc | dictamen. Sin τ no hay caso singular fuerte; sin traza, no hay cierre; sin retorno, no hay dictamen clínico robusto; sin barrera superada, puede haber alteración contenida, lesión precursora, U o no aptitud según dominio.
+
+### XII.4. Matriz negativa oncológica
+
+| Afirmación o caso | Fallo estructural | Dictamen |
+|---|---|---|
+| Mutación somática declarada cáncer | Falta dominancia clonal, frontera tumoral y retorno histológico o clínico | 1/U |
+| Masa radiológica declarada cáncer definitivo | Falta identidad tumoral, histología, citología o perfil suficiente | U/1 |
+| Biomarcador elevado declarado tumor tipado | Falta frontera, localización, identidad y traza complementaria | 1/U |
+| Lesión benigna declarada cáncer por crecimiento | Falta invasión, identidad maligna o residual oncológico crítico | 1 |
+| Célula alterada declarada tumor | Falta canal proliferativo sostenido, frontera y retorno tisular | 1/U |
+| Tumor in situ declarado metástasis | Falta canal invasivo/diseminativo y retorno de extensión | 1 |
+| Remisión clínica declarada desaparición factual absoluta | Falta traza de clausura total y se borra residual de seguimiento | 1/U |
+| Cáncer declarado sólo por probabilidad de riesgo | Sustitución de retorno oncológico por estimación auxiliar | 1 |
+| Variante germinal declarada cáncer existente | Falta tumor desarrollado y dominio clínico actual | 1/U |
+| Dolor declarado cáncer sin lesión ni biomarcador | Falta frontera, identidad y retorno oncológico | U/1 |
+| Progresión declarada sin comparación trazada | Falta secuencia factual de lesión, imagen, marcador o clínica | U |
+| Respuesta terapéutica declarada sin unidad ni criterio | Falta retorno medible y traza | 1/U |
+| Sospecha clínica convertida en diagnóstico cerrado | U degradada a 0 | 1 |
+| Tumor tratado como entidad aislada del organismo | Pérdida de dominio superior, barreras, microambiente y retorno clínico | 1/U |
+
+La matriz negativa protege la lectura oncológica frente a tres reducciones: reducir cáncer a mutación, reducir cáncer a masa y reducir cáncer a probabilidad. El cáncer fuerte exige dominancia local retornada, identidad tumoral, barrera de control superada, canal proliferativo o invasivo, residual oncológico y traza. Lo incompleto permanece en U si conserva plausibilidad sin cierre suficiente; cae en 1 si contradice dominio, unidad, frontera, identidad, canal, barrera, residual, retorno o traza. Esta disciplina permite distinguir lesión premaligna, sospecha, tumor benigno, cáncer localizado, progresión, metástasis, respuesta, remisión y recaída sin borrar el residual ni cerrar por denominación.
+
+### XII.5. Conclusión del apartado
+
+El cáncer queda formulado como dominancia local de una subfibra celular contra la integración orgánica. Su estatuto no procede de la mutación aislada ni de la sospecha clínica, sino de la convergencia entre identidad clonal o tumoral, frontera, canal proliferativo, barreras de control superadas, residual oncológico, retorno médico-biológico y traza. 𝔛onc(Ca↔SV) recibe el dominio general y 𝔛onc(Ca_τ↔SV) tipa cada tumor concreto por órgano, histología, perfil molecular, extensión, estadio, microambiente, respuesta y seguimiento. Con esta base, el cáncer se distingue de mutación, enfermedad genérica, masa, lesión benigna, riesgo hereditario y sospecha; queda preparado el paso hacia la clausura final, donde algunas trayectorias oncológicas pueden resolverse por contención, respuesta, remisión, progresión, recaída o muerte física como clausura local de la fibra biológico-corporal, sin convertir ninguna de esas salidas en cierre no trazado.
+## XIII. Clausura final, muerte física y retorno factual al Todo
+
+### XIII.1. Clausura final del observable biológico
+
+La clausura final del observable biológico es la pérdida de continuidad de retorno del dominio que sostenía su identidad viva. No equivale a desaparición material completa, ni a destrucción instantánea de todos sus componentes, ni a validación automática de la causa que la precede. Una célula puede clausurarse como célula viva y dejar restos moleculares; un tejido puede perder función y conservar estructura parcial; un órgano puede fallar y mantener componentes anatómicos; un organismo puede morir aunque algunas células o moléculas permanezcan durante una secuencia factual posterior. La clausura final se decide por retorno, no por presencia material residual. Mientras el dominio conserva capacidad de intercambio, integración, reparación o función suficiente, la clausura no está cerrada; cuando esa capacidad se pierde de forma no restituible dentro de la frontera declarada, el observable deja de operar como vivo en ese nivel.
+
+<div align="center">Claus<sub>bio</sub>(O)=1 ⇔ R<sub>vivo</sub>(O)=0 ∧ restitución interna no disponible ∧ Δ<sub>claus</sub> no absorbible.</div>
+
+La clausura final debe declararse por nivel. La muerte celular no es muerte del organismo; la necrosis tisular no es muerte física; el fallo de un órgano puede ser compensado; el fallo multiorgánico puede conducir a pérdida sistémica de retorno; la muerte física es clausura del observable organismo, no prueba automática de la etiología que lo llevó allí. Esta separación impide tres errores: usar la muerte como confirmación retrospectiva de un diagnóstico no cerrado, confundir daño local con clausura sistémica y presentar restos materiales como continuidad vital. En SV, todo cierre fuerte exige dominio, frontera, residual, retorno y traza.
+
+| Nivel de clausura | Retorno perdido | No equivale a |
+|---|---|---|
+| Molecular | función de molécula o ruta | muerte celular completa |
+| Celular | intercambio y función celular viva | muerte del tejido |
+| Tisular | arquitectura funcional local | muerte del órgano completo |
+| Orgánico | función integrada del órgano | muerte física del organismo |
+| Sistémico | integración vital global | diagnóstico etiológico automático |
+| Documental | capacidad de cerrar una causa | ausencia de hecho biológico |
+
+La clausura final no elimina el residual. Deja residual material, documental, semántico, causal o médico. Un cadáver conserva tejidos, moléculas, lesiones, genomas, cultivos, imágenes, informes y trazas; pero no conserva retorno vital global. Un órgano explantado puede conservar función en condiciones técnicas; un cultivo celular puede conservar vida celular fuera del organismo; un virus puede conservar capacidad infectiva sin ser célula; un tejido fijado conserva información morfológica sin vida. La pregunta no es qué restos quedan, sino qué dominio sigue retornando como vivo.
+
+### XIII.2. Muerte física como pérdida de retorno vital
+
+La muerte física se define como pérdida del retorno vital global del organismo. No es un diagnóstico etiológico, sino un dictamen de clausura sistémica: la integración que sostenía circulación, respiración, actividad neurológica compatible, metabolismo, homeostasis, defensa, reparación y coordinación orgánica deja de operar como unidad viva. En términos médicos, la muerte puede reconocerse por criterios circulatorios-respiratorios o neurológicos según el marco clínico y jurídico aplicable; en términos SV, esos criterios son proyecciones externas de una misma pérdida: el organismo ya no devuelve integración vital global. El SV no sustituye los criterios médicos o legales; ordena su semántica para que no se confundan muerte, causa de muerte y diagnóstico previo.
+
+<div align="center">MF<sub>SV</sub>=1 ⇔ R<sub>vital-global</sub>=0 ∧ integración sistémica no restituible ∧ traza clínica/documental suficiente.</div>
+
+La muerte física exige traza. No basta decir que un organismo “parece” muerto, que un proceso era grave o que un diagnóstico era plausible. Debe haber pérdida de retorno vital global documentada por el dominio externo: parada circulatoria no revertida, cese respiratorio irreversible, criterios neurológicos de muerte, fallo multiorgánico terminal u otra vía clínicamente establecida. La traza no tiene por objeto convertir la publicación en manual de certificación, sino impedir el cierre narrativo. La muerte física es un dictamen fuerte sólo cuando su propio dominio cierra.
+
+| Ruta de muerte física | Retorno que se pierde | Condición SV |
+|---|---|---|
+| Circulatoria | perfusión sistémica efectiva | pérdida no restituible del canal circulatorio |
+| Respiratoria | intercambio gaseoso compatible con vida | pérdida no restituible del canal respiratorio |
+| Neurológica | integración encefálica crítica | pérdida no restituible de integración neurológica aplicable |
+| Multiorgánica | coordinación de órganos esenciales | residual sistémico no absorbible |
+| Séptica | retorno inmune-metabólico sistémico | respuesta desbordada con fallo vital |
+| Traumática | frontera corporal o neurológica crítica | daño incompatible con retorno global |
+| Tóxica/metabólica | integración bioquímica sistémica | desorganización no compensada |
+
+La muerte física no debe formularse como fracaso moral, castigo natural ni victoria de una enfermedad. Es clausura de un observable biológico singular en el nivel organismo. Puede estar precedida por cáncer, infección, traumatismo, degeneración, autoinmunidad, tóxico, fallo metabólico, causa vascular o combinación de procesos; pero cada causa exige su propio cierre. La muerte física cierra el retorno vital, no todas las preguntas etiológicas.
+
+### XIII.3. Diferencia entre muerte física y diagnóstico etiológico
+
+La muerte física y el diagnóstico etiológico pertenecen a planos distintos. La muerte física responde a la pregunta: ¿el organismo conserva retorno vital global? El diagnóstico etiológico responde a otra pregunta: ¿qué proceso, lesión, enfermedad o conjunto causal produjo o contribuyó a esa clausura? Un organismo puede morir con cáncer sin morir por cáncer; puede morir con infección y cáncer; puede morir por sepsis secundaria; puede morir por hemorragia, tromboembolismo, herniación, arritmia, insuficiencia respiratoria, shock o causa no cerrada. La presencia de una enfermedad grave no autoriza a convertirla en causa de muerte si el canal causal no retorna.
+
+<div align="center">MF<sub>SV</sub>≠Dx<sub>etiol</sub>; MF cierra R<sub>vital</sub>, Dx<sub>etiol</sub> cierra canal causal.</div>
+
+El diagnóstico etiológico exige enlazar proceso y clausura mediante canal. En cáncer, debe mostrarse si la muerte se produce por carga tumoral, metástasis crítica, obstrucción, caquexia, hemorragia, infección secundaria, toxicidad terapéutica, fallo orgánico, trombosis u otra ruta. En infección, debe mostrarse invasión, respuesta sistémica, sepsis, shock o daño orgánico. En tumor cerebral, debe mostrarse herniación, hipertensión intracraneal, hemorragia, edema, convulsión, infección, tratamiento u otra vía. En hematología, debe separarse enfermedad de base, infección, citopenia, sangrado, transformación, tratamiento y fallo sistémico. Si esa cadena no se cierra, la causa queda U aunque la muerte física esté cerrada.
+
+| Plano | Pregunta | Cierre |
+|---|---|---|
+| Muerte física | ¿hay retorno vital global? | sí/no/U vital |
+| Causa inmediata | ¿qué mecanismo terminal produjo la pérdida? | canal terminal |
+| Causa intermedia | ¿qué proceso condujo al mecanismo terminal? | secuencia causal |
+| Enfermedad de base | ¿qué entidad inició o sostuvo la cadena? | diagnóstico propio cerrado |
+| Condición contribuyente | ¿qué agravó sin ser causa principal? | retorno parcial |
+| Diagnóstico no cerrado | ¿qué etiqueta no tiene condiciones suficientes? | U o refutación |
+| Documento | ¿hay traza suficiente? | apto, no apto o U |
+
+Esta distinción protege la verdad clínica. Una muerte con masa cerebral no valida tumor si la lesión era absceso, infarto o desmielinización. Una muerte con linfocitos vellosos no valida tricoleucemia clásica si la firma constitutiva cae. Una muerte por sepsis no valida cáncer si el cáncer no estaba cerrado. Una muerte con marcador elevado no valida entidad tumoral. En SV, la muerte física no es comodín diagnóstico: es su propio dominio y exige respeto de frontera.
+
+### XIII.4. Rutas de clausura vital
+
+Las rutas de clausura vital son trayectorias por las que un residual no absorbido, un daño agudo, una dominancia, una infección, un fallo reparativo o un agente externo deterioran la integración del organismo hasta pérdida de retorno vital. No se ordenan por tiempo soberano, sino por dependencia factual: lesión o proceso, canal de deterioro, residual sistémico, fallo de integración y clausura. Una misma ruta puede empezar en nivel molecular, celular, tisular, orgánico o externo; sólo se vuelve ruta de muerte física si alcanza el retorno vital global.
+
+<div align="center">Ruta<sub>claus</sub>=⟨proceso,canal,Δ<sub>sist</sub>,fallo de integración,R<sub>vital</sub>=0⟩.</div>
+
+Las rutas principales pueden ser circulatoria, respiratoria, neurológica, séptica, hemorrágica, metabólica, tóxica, tumoral, traumática, inmunológica o multiorgánica. Cada una debe demostrar canal. Una hemorragia cierra por pérdida de volumen, perfusión y oxigenación; una sepsis por desregulación sistémica, perfusión y fallo orgánico; una herniación por pérdida de integración neurológica crítica; un cáncer avanzado por carga, invasión, obstrucción, caquexia, infección o fallo de órgano según el caso; un tóxico por interferencia bioquímica o neurológica; una autoinmunidad por lesión de tejido u órgano. La palabra de la ruta no basta: debe retornar.
+
+| Ruta | Canal terminal | Residual crítico | Error bloqueado |
+|---|---|---|---|
+| Circulatoria | perfusión insuficiente | shock, arritmia, parada | confundir causa con mecanismo |
+| Respiratoria | intercambio gaseoso fallido | hipoxemia, hipercapnia, fatiga | síntoma respiratorio=muerte |
+| Neurológica | integración encefálica crítica perdida | edema, herniación, lesión troncoencefálica | lesión cerebral=tumor |
+| Séptica | respuesta sistémica desbordada | vasoplejía, fallo orgánico | cultivo=sepsis sin clínica |
+| Hemorrágica | pérdida de volumen/transporte | hipoperfusión, anemia crítica | sangrado menor=causa |
+| Tumoral | dominancia con daño sistémico | invasión, carga, obstrucción, caquexia | masa=cáncer causal |
+| Tóxica/metabólica | ruta bioquímica bloqueada | fallo energético o iónico | exposición sin dosis |
+| Inmunológica | defensa contra dominio propio | daño orgánico o sistémico | autoanticuerpo=causa |
+| Traumática | ruptura de frontera vital | daño anatómico incompatible | relato sin lesión |
+| Multiorgánica | integración de órganos perdida | insuficiencia combinada | órgano aislado=muerte |
+
+La ruta de clausura vital puede ser compleja y compuesta. Un cáncer puede predisponer a infección; la infección puede causar sepsis; la sepsis puede causar fallo multiorgánico; el fallo multiorgánico puede cerrar muerte física. En ese caso, cáncer, infección, sepsis y fallo multiorgánico no son sinónimos; ocupan posiciones causales distintas. Un documento riguroso debe permitir esa estratificación sin inflar ni borrar causas.
+
+### XIII.5. Retorno factual al Todo
+
+El retorno factual al Todo expresa que el observable biológico clausurado deja de operar como unidad viva diferenciada y sus componentes, huellas, efectos y residuales se reinscriben en dominios más amplios: material, ecológico, molecular, documental, familiar, médico, jurídico, simbólico o doctrinal. No significa que el organismo conserve vida en otro plano biológico, ni que la muerte física sea reversión mística, ni que la identidad personal quede demostrada por la teoría. Significa que la clausura del observable no produce una Nada exterior absoluta: produce pérdida de retorno vital individual y conservación de restos, efectos, materia, información, memoria o traza en otros dominios.
+
+<div align="center">Ret<sub>TODO</sub>(O)=1 ⇔ R<sub>vital</sub>(O)=0 ∧ componentes/residuales/trazas quedan reinscritos en dominios no vitales de O.</div>
+
+Este retorno debe formularse con sobriedad. En términos materiales, el cuerpo conserva tejidos, moléculas, elementos y procesos de degradación. En términos médicos, conserva causa, historia clínica, informes, muestras, imágenes, autopsia si existe y aprendizaje. En términos biológicos, puede conservar información genética en descendencia si la hubo, microbiota residual, células viables transitorias o material tisular preservado. En términos sociales, conserva memoria y consecuencias. En términos SV, conserva inscripción factual: el observable dejó de devolver vida, pero no se convirtió en Nada absoluta. Su clausura queda dentro del Todo como evento, residual y traza.
+
+| Dominio de retorno | Qué conserva | Qué no conserva |
+|---|---|---|
+| Material | elementos, moléculas, tejidos, restos | retorno vital del organismo |
+| Biológico parcial | células o material viable bajo condiciones específicas | identidad viva sistémica |
+| Genético | variantes heredadas en descendencia o muestras | organismo individual vivo |
+| Médico-documental | informes, diagnóstico, muestras, imágenes | causa si no está cerrada |
+| Ecológico | materia y energía incorporables a otros ciclos | frontera personal viva |
+| Social | memoria, efectos, vínculos, obra | función biológica del organismo |
+| SV | evento de clausura y residual | Nada exterior absoluta |
+
+El retorno factual al Todo no debe usarse para borrar el dolor, la singularidad ni la responsabilidad clínica. En medicina, la muerte de un paciente exige precisión, respeto, custodia y límites. En SV, la clausura de un observable humano singular no queda reducida a proceso químico ni elevada a cierre metafísico impropio. Se mantiene la doble verdad: la vida sistémica se ha clausurado y lo que fue observable vivo permanece inscrito en el Todo por sus restos, efectos, relaciones y traza.
+
+### XIII.6. No retrovalidación diagnóstica por muerte física
+
+La no retrovalidación diagnóstica por muerte física es una regla dura. Que un organismo muera no convierte en verdadero el diagnóstico sospechado antes de morir. La muerte física puede confirmar gravedad, clausura vital o ruta terminal; no confirma una entidad si sus condiciones constitutivas no estaban cerradas. Esta regla es imprescindible para la publicación porque impide que el desenlace más fuerte absorba toda la cadena causal. En clínica, un mal diagnóstico puede acabar en muerte; una muerte puede ocurrir con diagnóstico incierto; una muerte puede deberse a complicación terapéutica; una enfermedad de base puede estar presente y no ser causa inmediata. El SV preserva esas diferencias.
+
+<div align="center">MF<sub>SV</sub>=1 ⇏ Dx<sub>previo</sub>=1; sólo Canal<sub>etiol</sub> cerrado ⇒ Dx<sub>causal</sub>=1.</div>
+
+La retrovalidación indebida adopta varias formas: aceptar cáncer por muerte y masa, aceptar infección por muerte y fiebre, aceptar tumor cerebral por muerte y lesión de imagen, aceptar tricoleucemia por muerte y citopenia, aceptar causa tóxica por muerte y exposición, aceptar autoinmunidad por muerte y autoanticuerpo. Todas fallan por el mismo motivo: sustituyen condiciones constitutivas por desenlace. El desenlace es dato, no diccionario. Puede ser parte del retorno, pero no reemplaza canal, muestra, método, unidad, histología, molecular, cultivo, imagen evolutiva, clínica o autopsia cuando sean necesarios.
+
+| Retrovalidación indebida | Por qué falla | Salida SV |
+|---|---|---|
+| masa + muerte = cáncer | falta identidad tumoral | U o refutación |
+| fiebre + muerte = infección | falta canal infeccioso cerrado | U o diagnóstico alternativo |
+| citopenia + muerte = hemopatía concreta | falta linaje/firma | U o caída de etiqueta |
+| mutación + muerte = causa genética | falta función y ruta causal | U |
+| cultivo + muerte = sepsis causal | falta muestra, invasión y clínica | U/1 |
+| lesión cerebral + muerte = tumor | diferencial no resuelto | U/refutación |
+| tratamiento + muerte = toxicidad | falta canal dosis-daño | U |
+| cáncer conocido + muerte = muerte por cáncer | falta ruta terminal | causa no cerrada o contribuyente |
+
+La regla no niega que la muerte pueda formar parte de una cadena diagnóstica. Puede cerrar muerte física; puede reforzar una ruta terminal si los demás elementos están presentes; puede demostrar fallo de tratamiento; puede exigir autopsia o revisión documental; puede reordenar el diferencial. Pero no puede funcionar como prueba única de identidad. La verdad del diagnóstico debe sostenerse antes o además del desenlace, no aprovecharse de él.
+
+### XIII.7. Conclusión del apartado
+
+La clausura final del observable biológico queda definida como pérdida de continuidad de retorno en el nivel correspondiente. La muerte física es la pérdida del retorno vital global del organismo, no un diagnóstico etiológico automático. Célula, tejido, órgano y organismo pueden clausurarse en niveles distintos, y los restos materiales no equivalen a vida sistémica. Las rutas de clausura vital deben declararse por canal: circulatorio, respiratorio, neurológico, séptico, hemorrágico, tumoral, tóxico, metabólico, inmunológico, traumático o multiorgánico, sin confundir mecanismo terminal, causa intermedia y enfermedad de base. El retorno factual al Todo afirma que la muerte física no produce Nada exterior absoluta, sino reinscripción de materia, huella, memoria, documento y residual en otros dominios. La regla final es estricta: la muerte no retrovalida diagnósticos no cerrados. Desde aquí procede abordar divergencia evolutiva, especie, extinción y reactivación condicionada, conservando el mismo criterio: ningún observable se declara clausurado o continuado si no retorna por su propio dominio.
+
+## XIV. Divergencia evolutiva, especie, extinción y reactivación condicionada
+
+### XIV.1. Divergencia evolutiva como modificación de canal y frontera
+
+La divergencia evolutiva se define como modificación estable de canal, frontera, linaje y retorno dentro de un dominio biológico de continuidad. No equivale a simple diferencia entre individuos, ni a cambio morfológico aislado, ni a acumulación de mutaciones sin retorno. Hay divergencia cuando una población, linaje, cepa, especie o conjunto replicativo conserva continuidad suficiente para seguir siendo reconocible y, al mismo tiempo, modifica las condiciones por las que intercambia, se reproduce, responde al medio, ocupa nicho, conserva frontera o transmite variación. La divergencia no es una escalera de perfección ni una dirección necesaria hacia complejidad; es reorganización de retorno bajo imperfección sostenida.
+
+<div align="center">Div<sub>evo-SV</sub>=1 ⇔ continuidad de linaje ∧ modificación de canal/frontera ∧ retorno diferencial ∧ residual trazable.</div>
+
+El canal evolutivo puede ser reproductivo, ecológico, inmunológico, metabólico, genético, epigenético, simbiótico, conductual o patógeno-huésped. La frontera puede ser corporal, celular, poblacional, reproductiva, ecológica, inmunitaria o genética. Una población diverge cuando su canal de reproducción, selección de nicho, compatibilidad, resistencia, tropismo, dieta, forma, conducta o interacción con otros observables se modifica de manera heredable o persistente. Una cepa viral diverge si cambia tropismo, antigenicidad, replicación o transmisión. Una bacteria diverge si adquiere resistencia, nicho o metabolismo que retorna en población. Una especie diverge si su continuidad reproductiva y ecológica se separa de otra hasta constituir dominio propio.
+
+| Plano de divergencia | Canal modificado | Retorno |
+|---|---|---|
+| Genético | herencia, recombinación, mutación, deriva | variante, linaje, adaptación o U |
+| Reproductivo | compatibilidad de descendencia | continuidad, aislamiento o extinción |
+| Ecológico | nicho, dieta, hábitat, simbiosis | adaptación o desplazamiento |
+| Inmunológico | reconocimiento, tolerancia, escape | defensa, enfermedad o equilibrio |
+| Microbiano | metabolismo, resistencia, biofilm | persistencia o patogenicidad |
+| Viral | receptor, entrada, replicación, antigenicidad | cepa, escape, atenuación o daño |
+| Morfológico | forma, frontera corporal, función | adaptación, coste o U |
+| Conductual | interacción, cuidado, búsqueda de recursos | continuidad o fracaso |
+
+La divergencia evolutiva no debe confundirse con relato histórico cerrado si falta retorno. El SV no necesita decidir cada controversia evolutiva concreta; necesita fijar la forma de cierre: qué cambia, en qué dominio, qué canal se modifica, qué frontera se conserva o se rompe, qué residual queda y qué retorno aparece en descendencia, población, especie o extinción. Sin esta estructura, la evolución queda como narración externa; con ella, la variación se vuelve trayectoria factual de continuidad modificada.
+
+### XIV.2. Especie como dominio de continuidad
+
+La especie se define, en este marco, como dominio de continuidad biológica caracterizado por linaje, reproducción o equivalentes de transmisión, compatibilidad de frontera, reconocimiento de identidad poblacional y retorno de descendencia o persistencia. No se reduce a una definición única porque la biología contemporánea utiliza conceptos distintos de especie según organismos sexuales, asexuales, microorganismos, fósiles, linajes, filogenia o ecología. El SV no impone una definición universal plana; exige declarar el dominio de especie usado y comprobar si ese dominio conserva retorno. En organismos sexuales, la compatibilidad reproductiva tiene peso central; en bacterias, importan linaje, genoma, ecología y transferencia; en virus, se habla con más cautela de cepas, linajes y especies virales según clasificación; en fósiles, la frontera se reconstruye por morfología, estrato y relación filogenética.
+
+<div align="center">Esp<sub>SV</sub>(Ω)=1 ⇔ linaje reconocible ∧ frontera de continuidad ∧ canal de transmisión ∧ retorno poblacional.</div>
+
+La especie no es individuo ampliado ni simple conjunto de organismos parecidos. Es dominio de continuidad. Sus miembros pueden diferir, enfermar, adaptarse, reproducirse de forma desigual o ocupar nichos variados, pero el dominio se conserva mientras existe retorno de continuidad bajo las reglas que le corresponden. Si la frontera reproductiva se rompe, puede aparecer hibridación, esterilidad, aislamiento o nueva divergencia. Si el nicho se destruye, la especie puede entrar en contracción o extinción. Si la variabilidad desaparece, se reduce capacidad de respuesta. Si la variabilidad destruye compatibilidad, se fragmenta el dominio.
+
+| Concepto operativo | Dominio de aplicación | Cierre SV |
+|---|---|---|
+| Especie biológica | organismos sexuales | continuidad reproductiva y descendencia viable |
+| Especie filogenética | linajes diferenciados | monofilia, traza y frontera evolutiva |
+| Especie ecológica | nicho y función | retorno de posición ecológica |
+| Especie morfológica | forma y estructura | frontera fenotípica con traza |
+| Especie microbiana | genoma, ecología y función | linaje y retorno funcional |
+| Linaje viral | genoma, receptor, tropismo, antigenicidad | continuidad replicativa dependiente |
+| Población | conjunto reproductivo o ecológico local | retorno demográfico y funcional |
+| Cepa | subdominio genético-funcional | canal modificado o conservado |
+
+La especie, así entendida, no es esencia inmóvil. Es frontera de continuidad bajo cambio. Puede incorporar variación sin perderse, puede divergir sin extinguirse, puede hibridarse, puede fragmentarse, puede sufrir cuello de botella, puede expandirse, puede perder aptitud o puede extinguirse. Cada estado exige retorno. La pregunta correcta no es si la especie cambia, porque toda vida cambia; la pregunta es si cambia conservando el dominio que la identifica o si la modificación abre otro dominio, degrada su continuidad o clausura su retorno.
+
+### XIV.3. Variación, selección, compatibilidad y residual
+
+La variación aporta diferencias; la selección expresa retorno diferencial de esas diferencias en un dominio; la compatibilidad decide si la diferencia se conserva sin destruir frontera; el residual muestra el coste o la deuda de la reorganización. Estos cuatro planos permiten formular evolución sin convertirla en estadística fundante ni en narración de progreso. La variación no basta; debe retornar. La selección no se usa aquí como probabilidad soberana, sino como expresión de que ciertas configuraciones conservan o pierden continuidad en el dominio. La compatibilidad impide que una ventaja local destruya el nivel superior sin coste. El residual recuerda que toda adaptación puede dejar deuda: pérdida de diversidad, especialización extrema, dependencia de nicho, susceptibilidad nueva, infertilidad parcial o vulnerabilidad ecológica.
+
+<div align="center">Evo<sub>SV</sub>=Variación∧Retorno diferencial∧Compatibilidad∧Residual declarado.</div>
+
+La variación puede ser genética, epigenética, morfológica, conductual, metabólica, simbiótica, inmunológica o ecológica. La selección se expresa como persistencia, reproducción, expansión, desplazamiento, resistencia, supervivencia local o pérdida de continuidad. La compatibilidad se observa cuando la modificación conserva canal reproductivo, frontera de especie, nicho o integración orgánica. El residual aparece cuando la modificación resuelve una presión y abre otra: resistencia bacteriana con coste de aptitud, especialización de dieta con vulnerabilidad ambiental, escape viral con menor estabilidad, defensa inmune intensa con daño tisular, adaptación a hipoxia con coste metabólico, domesticación con dependencia o pérdida de variabilidad.
+
+| Plano | Función | Riesgo de cierre indebido |
+|---|---|---|
+| Variación | introduce diferencia | confundir diferencia con adaptación |
+| Retorno diferencial | muestra persistencia o pérdida | convertir resultado en finalidad |
+| Compatibilidad | conserva frontera y canal | llamar ventaja a daño global |
+| Residual | declara coste y deuda | ocultar vulnerabilidad |
+| Dominio | fija qué se evalúa | comparar planos incompatibles |
+| Traza | evita narración libre | cerrar sin evidencia |
+
+La compatibilidad evolutiva no exige que todo rasgo sea óptimo. Muchos rasgos son compromisos, restos, costes, contingencias o adaptaciones parciales. Un rasgo puede ser útil en un dominio y lesivo en otro; puede conservar la especie y dañar individuos; puede favorecer patógeno y lesionar huésped; puede aumentar fecundidad y reducir longevidad; puede aumentar defensa y producir autoinmunidad. El SV conserva esa complejidad sin usarla como excusa para cerrar por intuición. Cada afirmación evolutiva debe declarar dominio y retorno.
+
+### XIV.4. Extinción por predominancia, colapso o agente externo
+
+La extinción de una especie o linaje se produce cuando se pierde continuidad de retorno poblacional o reproductivo en el dominio declarado. No basta una reducción numérica ni una crisis local; tampoco se exige desaparición absoluta de todo resto material, genético o documental. La especie se extingue cuando ya no hay canal viable de continuidad: no hay reproducción suficiente, no hay nicho compatible, no hay población funcional, no hay frontera de linaje operativa o no hay capacidad de persistir bajo las condiciones del dominio. La extinción puede producirse por predominancia interna, colapso de compatibilidad o agente externo.
+
+<div align="center">Ext<sub>esp-SV</sub>=1 ⇔ R<sub>continuidad poblacional</sub>=0 ∧ canal reproductivo/ecológico no restituible en Ω.</div>
+
+La extinción por predominancia ocurre cuando un polo o régimen interno destruye la continuidad: consanguinidad extrema, pérdida de variabilidad, especialización excesiva, competencia interna, dominancia de un subgrupo inviable, patógeno endógeno, fallo reproductivo o agotamiento de reparación poblacional. La extinción por colapso ocurre cuando la frontera ecológica o reproductiva pierde gobierno: destrucción de hábitat, ruptura de cadena trófica, pérdida de simbionte esencial, infertilidad generalizada, cambio ambiental que supera adaptación. La extinción por agente externo ocurre por impacto, depredación introducida, patógeno, toxina, radiación, intervención humana, catástrofe climática, meteorito o alteración brusca del medio. El agente externo no actúa como nombre mágico: debe mostrarse cómo rompe canal y retorno.
+
+| Ruta de extinción | Canal roto | Residual |
+|---|---|---|
+| Pérdida reproductiva | gametos, apareamiento, descendencia viable | envejecimiento poblacional o infertilidad |
+| Cuello de botella | variabilidad y robustez | vulnerabilidad genética |
+| Especialización extrema | nicho único | dependencia fatal |
+| Competencia o depredación | acceso a recursos o supervivencia | contracción hasta colapso |
+| Patógeno | defensa y continuidad poblacional | mortalidad, esterilidad o debilitamiento |
+| Destrucción de hábitat | frontera ecológica | migración fallida o fragmentación |
+| Cambio ambiental | tolerancia fisiológica | pérdida de aptitud |
+| Impacto externo | soporte material del dominio | clausura rápida |
+| Intervención humana | hábitat, caza, tóxicos, fragmentación | extinción o U según traza |
+
+La extinción no niega la continuidad material. Una especie extinguida puede conservar fósiles, ADN antiguo, muestras, memoria ecológica, efectos en otros linajes o descendientes híbridos si el dominio los admite. Pero esos restos no equivalen a especie viva si no hay continuidad de retorno. Como en la muerte física, el residual no es vida; es inscripción de una clausura.
+
+### XIV.5. Reactivación condicionada y límites del retorno
+
+La reactivación condicionada es la posibilidad de restituir alguna forma de retorno de un observable biológico o de su dominio después de interrupción parcial, conservación latente o clausura aparente. Debe formularse con mucha cautela. Puede haber reactivación celular tras quiescencia, germinación de esporas, reactivación viral latente, recuperación de tejido, restauración de función orgánica, reproducción asistida, conservación de germoplasma, clonación, edición genética, desextinción parcial o reconstrucción ecológica. Pero no toda reactivación restituye el mismo observable; a menudo sólo restituye función parcial, linaje aproximado, rasgo, población derivada o simulacro operativo. El retorno debe declarar qué se reactiva y qué no.
+
+<div align="center">React<sub>cond</sub>(O)=1 ⇔ traza conservada ∧ canal de restitución ∧ frontera reconstruible ∧ retorno declarado ∧ residual no oculto.</div>
+
+La reactivación exige cuatro condiciones: traza suficiente, canal operativo, dominio receptor y residual explícito. Una espora puede reactivarse porque conserva frontera y programa metabólico latente. Un virus latente puede reactivarse si mantiene genoma y canal celular. Un tejido isquémico puede recuperar función si el daño no clausuró células esenciales. Una especie extinta no se reactiva plenamente por obtener un genoma parcial o un organismo parecido; se requiere continuidad ecológica, reproductiva, genética y poblacional que quizá no pueda restituirse. Una célula criopreservada puede retornar como célula si recupera metabolismo y división; un cadáver no retorna como organismo vivo por conservar ADN. La distinción evita inflar la noción de retorno.
+
+| Reactivación | Retorno posible | Límite |
+|---|---|---|
+| Quiescencia celular | función celular | daño acumulado o senescencia |
+| Espora o forma resistente | metabolismo y división | entorno incompatible |
+| Virus latente | replicación o expresión | huésped y canal requeridos |
+| Tejido lesionado | función parcial o completa | necrosis irreversible |
+| Órgano preservado | función tras soporte o trasplante | isquemia o daño estructural |
+| Germoplasma | linaje reproductivo | diversidad y viabilidad |
+| Clonación | individuo derivado | no identidad absoluta del original |
+| Desextinción | rasgos o linaje aproximado | no recuperación plena de especie histórica |
+| Reconstrucción ecológica | función de nicho | ecosistema no equivalente |
+
+La reactivación condicionada no invalida la clausura. Que algunos componentes puedan retornar no significa que el observable original siga vivo. Un genoma preservado no es organismo; una célula viable no es organismo; una población reconstruida no es necesariamente la especie extinguida; una función restaurada no elimina el residual histórico. El SV permite hablar de retorno parcial, retorno derivado, retorno funcional o U, pero prohíbe convertir cualquier restitución en continuidad absoluta.
+
+### XIV.6. Diferencia entre continuidad biológica e identidad absoluta
+
+La continuidad biológica es persistencia de retorno bajo cambio; la identidad absoluta sería conservación plena e inmutable del mismo observable, algo que no corresponde a la vida. Un organismo cambia células, moléculas, estados, memoria biológica, microbiota, lesiones, reparaciones y condiciones. Una especie cambia individuos, frecuencias, nichos, variantes y relaciones. Un virus cambia copias y poblaciones. Una bacteria cambia genoma, plásmidos y estado. La vida no conserva identidad por inmovilidad, sino por retorno suficiente dentro de una frontera de dominio. Esta distinción impide confundir continuidad con copia perfecta y variación con pérdida automática de identidad.
+
+<div align="center">Cont<sub>bio</sub>=1 ⇔ retorno suficiente bajo variación; Id<sub>abs</sub> no se exige para vida.</div>
+
+La identidad absoluta falla tanto por exceso como por defecto. Si se exigiera identidad absoluta, ningún organismo persistiría; cada cambio molecular rompería su ser. Si se negara toda identidad por haber cambio, ningún linaje, especie o tejido podría reconocerse. La continuidad biológica ocupa el plano intermedio: reconoce cambio y conserva frontera. Un hijo no es su progenitor, pero pertenece a linaje; una célula hija no es la célula madre, pero puede conservar identidad de tipo; una especie cambia sin dejar de ser reconocible; una población reintroducida puede recuperar función ecológica sin ser idéntica a la población histórica; una cepa viral puede divergir hasta cambiar de linaje; un tumor puede conservar identidad tumoral mientras acumula subclones.
+
+| Caso | Continuidad | No identidad absoluta |
+|---|---|---|
+| Recambio celular | organismo persiste | células cambian |
+| Cicatrización | frontera se conserva | tejido original no se restituye plenamente |
+| Reproducción | linaje continúa | descendiente no es progenitor |
+| Evolución de especie | dominio poblacional persiste | frecuencias y rasgos cambian |
+| Cepa viral | linaje replicativo continúa | copias no son idénticas |
+| Clon tumoral | identidad patológica persiste | subclones cambian |
+| Desextinción parcial | función o rasgo puede retornar | especie histórica no se recupera plenamente |
+| Muerte física | restos persisten | retorno vital no continúa |
+
+Esta diferencia será necesaria para no confundir retorno factual al Todo con continuidad vital, ni reactivación condicionada con resurrección biológica de identidad absoluta. En SV, la vida es continuidad de retorno, no repetición perfecta. La muerte física clausura retorno sistémico aunque conserve restos. La evolución conserva dominio aunque cambie forma. La extinción clausura continuidad poblacional aunque deje fósiles o ADN. La reactivación sólo es apta si declara qué retorna y qué queda perdido.
+
+### XIV.7. Conclusión del apartado
+
+La divergencia evolutiva queda definida como modificación estable de canal, frontera, linaje y retorno dentro de un dominio de continuidad. La especie no se trata como esencia inmóvil, sino como dominio de continuidad cuya definición concreta depende del tipo de organismo, linaje o población evaluada. Variación, selección, compatibilidad y residual se articulan sin convertir la evolución en finalidad ni en estadística fundante: la variación introduce diferencia, el retorno diferencial muestra persistencia o pérdida, la compatibilidad conserva frontera y el residual declara coste. La extinción aparece cuando se pierde continuidad reproductiva o poblacional por predominancia interna, colapso de compatibilidad o agente externo. La reactivación condicionada sólo puede afirmarse si hay traza, canal, frontera reconstruible y retorno declarado, sin convertir retorno parcial en identidad absoluta. Con esto queda preparada la transición hacia la fibra humana singular y sus proyecciones, donde el observable humano deberá tratarse como organismo biológico, sujeto clínico y entidad de retorno documental sin abandonar el eje central de la fibra.
+
+## XV. Fibra humana singular y proyecciones humanas
+
+### XV.1. ΓH como derivada evolutiva y transducida
+
+La fibra humana singular ΓH no ocupa el lugar de la fibra primigenia de observabilidad ni funda el dominio biológico: aparece como derivada evolutiva, biológico-corporal, neurocognitiva, lingüística, social y documental dentro de una cadena ya abierta por ε−0, 𝓕−0^Obs, 𝓒★ObsU, 𝓖★TrU(D), 𝔛bio y Γbio-0. Su forma compacta puede expresarse como ΓH=⟨ΩH,MH,FH,IH,CH,BH,ΔH,RH,TrH⟩. ΩH declara el dominio humano singular; MH integra magnitudes y entidades biológicas, clínicas, neurocognitivas, lingüísticas, sociales y documentales; FH conserva frontera biológico-corporal y biográfica; IH preserva identidad singular sin reducirla a genoma, cuerpo, documento o memoria externa; CH declara canales metabólicos, sensoriales, motores, cognitivos, lingüísticos, sociales y documentales; BH evalúa barreras de viabilidad, comprensión, acción, reconocimiento y custodia; ΔH mide residual biológico, cognitivo, social, documental o factual; RH retorna función, expresión, acción, autoría, obra, vínculo, enfermedad, clausura o U; TrH conserva traza genética, corporal, clínica, biográfica, documental, social o histórica. ΓH no convierte al humano en medida de todos los observables: lo sitúa como una familia singular capaz de producir proyecciones complejas y retornos múltiples, pero siempre bajo dominio, frontera, canal, barrera, residual y traza.
+
+### XV.2. Genoma, organismo, neurocognición, lenguaje y documento
+
+La fibra humana no se identifica con ninguno de sus planos parciales. El genoma aporta continuidad biológica, información heredable, predisposición, linaje y traza molecular, pero no equivale a persona completa. El organismo aporta integración corporal, metabolismo, órganos, sistemas, homeostasis, enfermedad, reparación y muerte física, pero tampoco agota identidad biográfica, lenguaje ni obra. La neurocognición aporta percepción, memoria, aprendizaje, decisión, emoción, atención, representación, dolor, intención y conducta, pero no existe fuera del soporte biológico y de sus canales de retorno. El lenguaje aporta semántica, composición, transmisión, diálogo, documento y mundo social, pero no sustituye la totalidad biológico-corporal que lo sostiene. El documento aporta traza, autoría, versión, firma, hash, licencia, archivo y retorno público, pero no es el humano completo. La forma fuerte exige transducción por planos: 𝔛gen recibe dominio genético; 𝔛bio recibe organismo; 𝔛neuro recibe función neurocognitiva; 𝔛lang recibe lenguaje; 𝔛doc recibe documento. Si se reduce ΓH a cualquiera de esos planos, se pierde el retorno de los demás; si se confunden todos, se destruye la precisión de dominio.
+
+### XV.3. Familia proyectiva y no copia
+
+La familia proyectiva humana designa el conjunto de proyecciones por las que ΓH comparece en dominios distintos sin copiarse íntegramente en ninguno de ellos. Una acción, una palabra, una obra, una firma, una muestra biológica, un diagnóstico, una imagen, un registro, una enseñanza, una institución, un vínculo social o un documento son proyecciones de ΓH, no duplicados completos de la fibra humana singular. La forma puede expresarse como ProjH(ΓH,Dj)=⟨πj(ΓH),Dj,Fj,Ij,Cj,Bj,Δj,Rj,Trj⟩, donde πj(ΓH) es la proyección en el dominio j y no una reproducción total de ΓH. La no copia es esencial: un texto no contiene al autor completo; una muestra biológica no contiene su biografía; un diagnóstico no contiene su vida; una huella digital no contiene su lenguaje; una firma no contiene su organismo; un recuerdo social no contiene su presencia corporal. Cada proyección puede ser fuerte si conserva dominio, frontera, identidad parcial, canal, barrera, residual, retorno y traza; pero ninguna sustituye la fibra humana singular. Así se preserva la diferencia entre persona, cuerpo, acto, documento, autoría, memoria y clausura.
+
+### XV.4. Autoría, sociedad, traza y retorno
+
+La autoría es una forma de retorno humano documental y social: vincula una proyección con ΓH bajo identidad, acto, soporte, fecha, versión, firma, licencia, custodia y traza. No basta que exista un texto para que exista documento fuerte, ni que exista documento para agotar la autoría. La sociedad añade dominios de reconocimiento, comunicación, conflicto, cooperación, transmisión normativa, memoria institucional y diálogo entre familias humanas; esos dominios requieren canal, semántica común o protosemántica suficiente, barreras de acceso, reglas de retorno, residuales culturales y trazas. Una obra puede retornar como documento, publicación, enseñanza, prueba, memoria, controversia o institución; una acción social puede retornar como norma, vínculo, ruptura, cooperación, violencia, reparación o registro; una enfermedad humana puede retornar como historia clínica, afectación familiar, discapacidad, cuidado o clausura biográfico-corporal. El SV no absorbe esos retornos en una abstracción única: distingue documento, autoría, sociedad, cuerpo, lenguaje y memoria. La traza humana fuerte exige append-only: lo ocurrido no se reescribe; una versión posterior no borra la anterior; una atribución sin custodia queda U; una copia sin vínculo no equivale a autoría fuerte; una clausura final no elimina la cadena factual realizada.
+
+### XV.5. Conclusión del apartado
+
+La fibra humana singular queda fijada como derivada evolutiva y transducida, no como fundamento de todos los observables ni como suma de piezas biológicas o documentales. ΓH integra genoma, organismo, neurocognición, lenguaje, sociedad, acción, documento y traza bajo dominio, frontera, identidad, canal, barrera, residual y retorno; sus proyecciones son reales, pero no copias completas; su autoría vincula obra y fibra singular sin sustituir la persona por el documento; su vida social exige canales y semánticas que podrán tratarse después como diálogo factual entre familias. Con esta base, el humano puede estudiarse como observable biológico, médico, lingüístico, documental y social sin antropomorfizar los demás dominios y sin reducir la persona a genoma, cuerpo, texto, diagnóstico, firma o memoria.
+
+## XVI. Teoría de la consolidación de canal y semántica estructural entre familias de observables distintas
+
+### XVI.1. Canal entre observables de familias distintas
+
+El canal entre observables de familias distintas es la relación material, funcional o estructural por la que una diferencia procedente de un observable A puede alcanzar a un observable B, ser recibida bajo una frontera reconocible y retornar como modificación, respuesta, conservación, daño, adaptación o U. No hay canal porque dos observables existan en el mismo entorno, ni porque puedan ser comparados por un observador externo, ni porque compartan una magnitud abstracta. Hay canal cuando la relación atraviesa dominio, frontera y traza. En biología, esta regla es inmediata: virus-célula, bacteria-huésped, célula inmune-célula tumoral, hormona-órgano, neurona-neurona, microbiota-intestino, fármaco-receptor o tumor-microambiente sólo son relaciones biológicas fuertes si el canal devuelve efecto de dominio.
+
+<div align="center">Canal<sub>AB</sub><sup>Γ</sup>=1 ⇔ Ω<sub>A</sub>,Ω<sub>B</sub> declarados ∧ ∂A/∂B reconocibles ∧ tránsito Γ<sub>AB</sub> ∧ recepción en B ∧ retorno R<sub>B</sub>.</div>
+
+El canal no equivale al diálogo. El canal sólo establece que una diferencia puede circular y producir recepción. Puede haber canal sin semántica estable, como ocurre cuando una célula recibe daño inespecífico; puede haber canal con presemántica, cuando la recepción produce respuesta elemental; puede haber canal con protosemántica, cuando la respuesta empieza a diferenciar clases de señal; y puede haber canal con semántica estructural, cuando el observable dispone de un diccionario interno capaz de asignar sentido de dominio. En términos biológicos, una toxina puede abrir canal de daño, un receptor puede abrir canal de señal, un antígeno puede abrir canal inmune, un virus puede abrir canal de entrada celular y un fármaco puede abrir canal terapéutico o tóxico. El cierre depende del retorno, no de la mera conexión.
+
+| Relación | Hay canal si | No hay canal suficiente si |
+|---|---|---|
+| Virus-célula | existe receptor, entrada o interacción productiva | sólo hay proximidad ambiental |
+| Bacteria-tejido | hay adherencia, invasión, toxina o respuesta del huésped | sólo hay colonización no lesiva sin retorno |
+| Célula inmune-célula diana | hay reconocimiento y efecto | sólo hay co-presencia |
+| Hormona-órgano | hay receptor y respuesta funcional | sólo hay concentración circulante |
+| Fármaco-receptor | hay unión y efecto farmacodinámico o tóxico | sólo hay exposición no efectiva |
+| Tumor-microambiente | hay reordenación de matriz, vasos, inmunidad o metabolismo | sólo hay masa sin campo activo |
+| Neurona-neurona | hay transmisión y modificación de estado | sólo hay contigüidad anatómica |
+| Microbiota-huésped | hay metabolito, barrera, inmunidad o señal | sólo hay inventario taxonómico |
+
+### XVI.2. Presemántica, protosemántica y semántica estructural
+
+La presemántica es el plano en que una diferencia recibida produce una modificación elemental sin que exista todavía un diccionario estable de clases. La protosemántica aparece cuando el observable diferencia tipos de entrada y devuelve respuestas relativamente específicas. La semántica estructural aparece cuando el canal conserva correspondencias suficientemente estables entre señal, receptor, dominio, respuesta y retorno. Estas tres capas no son lenguaje humano degradado, sino estratos de sentido biológico o estructural. Un gradiente químico puede producir presemántica; un receptor con respuesta diferencial produce protosemántica; una red inmune, endocrina o genética con clases de reconocimiento produce semántica estructural.
+
+<div align="center">Sem<sub>AB</sub>=0,U,1 según canal sin diccionario, diccionario parcial o diccionario estructural cerrado.</div>
+
+La distinción es crucial porque impide dos errores. El primero sería negar toda semántica fuera del lenguaje humano. El segundo sería llamar diálogo pleno a cualquier contacto físico. Un virus que entra por receptor no “habla” en sentido humano, pero utiliza una correspondencia estructural receptor-ligando que puede ser transducida. Una célula inmune que reconoce antígeno no interpreta proposiciones, pero discrimina patrón propio/no propio, daño, activación y memoria. Una bacteria que ajusta metabolismo no razona, pero responde a señales químicas bajo repertorios de retorno. Una célula tumoral que evade inmunidad no decide moralmente, pero reordena canales que el organismo usaba para control. La semántica estructural permite estudiar esas relaciones sin antropomorfismo.
+
+| Estrato | Definición | Ejemplo biológico | Salida |
+|---|---|---|---|
+| Canal sin semántica estable | contacto con efecto no clasificado | daño mecánico inespecífico | respuesta o U |
+| Presemántica | diferencia produce modificación elemental | gradiente químico, estrés osmótico | cambio de estado |
+| Protosemántica | clases de entrada producen respuestas diferenciadas | receptor-ligando, quimiotaxis, alarma celular | respuesta tipada |
+| Semántica estructural | diccionario estable señal-dominio-retorno | inmunidad adaptativa, red génica, eje hormonal | diálogo estructural |
+| Semántica clínica | relato humano y retorno médico | dolor, síntoma, consentimiento | diagnóstico/U |
+| Semántica documental | dato con método, unidad y custodia | informe, imagen, secuencia | prueba apta o no apta |
+
+### XVI.3. Alfabeto estructural transversal o común
+
+El alfabeto estructural transversal o común es el conjunto de unidades de correspondencia que permite comparar y transducir observables de familias distintas sin reducirlos a una misma sustancia ni a un mismo lenguaje humano. No es alfabeto mínimo, porque no busca pobreza expresiva; tampoco es alfabeto total cerrado para toda realidad, porque cada dominio debe declarar sus letras operativas. Es transversal porque permite reconocer patrones comunes: frontera, entrada, receptor, señal, respuesta, memoria, daño, reparación, residual, retorno, cierre y U. En biología, este alfabeto permite tratar virus-célula, bacteria-huésped, tumor-inmunidad, gen-regulación, órgano-hormona y paciente-medicina con una misma gramática de canal sin borrar sus diferencias materiales.
+
+<div align="center">𝔄<sub>⊥</sub>={∂,Entrada,Receptor,Señal,Transformación,Respuesta,Memoria,Daño,Reparación,Δ,R,U}.</div>
+
+Este alfabeto no sustituye los alfabetos externos. El ADN conserva nucleótidos; las proteínas conservan aminoácidos; la inmunidad conserva receptores y antígenos; la neurobiología conserva potenciales, neurotransmisores y redes; la clínica conserva síntomas, signos y pruebas. El alfabeto transversal permite traducir qué papel ocupa cada elemento dentro de la relación. Un receptor viral, un receptor hormonal y un receptor inmune no son lo mismo, pero los tres pueden ocupar la letra “Receptor” dentro de un canal. Una mutación genética, una resistencia bacteriana y una memoria inmune no son lo mismo, pero las tres pueden ocupar la letra “Memoria/Registro” si conservan diferencia con retorno.
+
+| Letra estructural | Pregunta | Proyección biológica |
+|---|---|---|
+| ∂ | ¿qué frontera separa y conserva identidad? | membrana, barrera, tejido, organismo |
+| Entrada | ¿qué diferencia alcanza al observable? | ligando, patógeno, nutriente, daño, fármaco |
+| Receptor | ¿qué estructura recibe o discrimina? | receptor, canal, enzima, patrón, diana |
+| Señal | ¿qué clase de diferencia se reconoce? | antígeno, hormona, gradiente, metabolito |
+| Transformación | ¿qué cambia internamente? | expresión, metabolismo, estado, proliferación |
+| Respuesta | ¿qué devuelve el observable? | secreción, apoptosis, activación, reparación |
+| Memoria | ¿qué persistencia queda? | inmunidad, mutación, epigenética, cicatriz |
+| Daño | ¿qué función o frontera se pierde? | lesión, toxicidad, infección, tumor |
+| Reparación | ¿qué residual se reduce? | corrección, cicatriz, resolución, tolerancia |
+| Δ | ¿qué no se absorbe? | residual molecular, celular, tisular o sistémico |
+| R | ¿qué retorno recibe el dominio? | función, enfermedad, adaptación, muerte |
+| U | ¿qué no puede cerrarse honestamente? | incertidumbre diagnóstica o semántica |
+
+### XVI.4. Diccionario semántico estructural
+
+El diccionario semántico estructural asigna correspondencias entre letras del alfabeto transversal y elementos concretos de dos dominios. No es una tabla de traducción verbal, sino una matriz de uso: declara qué cuenta como frontera, entrada, receptor, señal, respuesta, daño, reparación y retorno en cada observable. Sin diccionario, el canal puede existir pero el diálogo queda bloqueado o reducido a presemántica. Con diccionario parcial, hay protosemántica y respuestas diferenciadas. Con diccionario cerrado, puede hablarse de diálogo estructural: el intercambio produce sentido de dominio y retorno interpretable. En medicina, este diccionario impide confundir señal con diagnóstico y permite que el SV devuelva a la ciencia por qué un dato significa o no significa enfermedad.
+
+<div align="center">𝓓<sub>AB</sub><sup>⊥</sup>: 𝔄<sub>⊥</sub>×Ω<sub>A</sub>×Ω<sub>B</sub>→{correspondencia,corte,U}.</div>
+
+El diccionario debe construirse caso por caso. Para virus-célula, receptor puede ser molécula de entrada; señal puede ser tropismo; respuesta puede ser replicación, interferón, apoptosis o latencia. Para bacteria-célula, receptor puede ser adhesina o patrón molecular; señal puede ser toxina, metabolito o componente de pared; respuesta puede ser inflamación, fagocitosis o daño. Para tumor-inmunidad, receptor puede ser TCR, BCR, MHC, checkpoint o antígeno; respuesta puede ser eliminación, agotamiento, escape o memoria. Para paciente-medicina, entrada es relato, signo, prueba o imagen; receptor es profesional, sistema diagnóstico o transductor; respuesta es explicación, diagnóstico, tratamiento, U o custodia. Cada diccionario declara qué correspondencia se acepta y qué queda fuera.
+
+| Dominio A-B | Frontera | Entrada | Receptor | Respuesta | Retorno |
+|---|---|---|---|---|---|
+| Virus-célula | cápside/envoltura y membrana celular | partícula viral | receptor de entrada o vía endocítica | replicación, interferón, apoptosis, latencia | infección, control o U |
+| Bacteria-huésped | pared bacteriana y barrera tisular | adhesina, toxina, metabolito | PRR, receptor, tejido | inflamación, fagocitosis, daño | colonización, infección o U |
+| Tumor-inmunidad | clon tumoral y sistema inmune | antígeno, checkpoint, señal inflamatoria | TCR, MHC, PD-1/PD-L1, NK | eliminación, escape, agotamiento | control, progresión o U |
+| Gen-regulación | cromatina y maquinaria celular | variante, marca, factor | promotor, enhancer, proteína reguladora | expresión, silencio, error | función, enfermedad o U |
+| Órgano-hormona | órgano diana y circulación | hormona o señal endocrina | receptor y vía intracelular | función, adaptación, fallo | homeostasis o enfermedad |
+| Paciente-medicina | cuerpo y sistema clínico | síntoma, signo, prueba | profesional, protocolo, transductor | diagnóstico, U, intervención | retorno clínico |
+
+### XVI.5. Fórmula de consolidación de canal y semántica
+
+La fórmula de consolidación de canal y semántica establece cuándo dos observables de familias distintas alcanzan relación interpretable. Primero debe existir canal; después debe aparecer diccionario; después debe comprobarse retorno. Si hay canal sin diccionario, hay contacto o efecto, pero no diálogo estructural. Si hay diccionario sin canal material, hay analogía externa o comparación, pero no interacción efectiva. Si hay canal y diccionario sin retorno, hay hipótesis no cerrada. Sólo cuando canal, diccionario y retorno se articulan puede hablarse de diálogo estructural entre observables.
+
+<div align="center">Diag<sub>AB</sub><sup>⊥</sup>=1 ⇔ Canal<sub>AB</sub><sup>Γ</sup>=1 ∧ 𝓓<sub>AB</sub><sup>⊥</sup> apto ∧ R<sub>AB</sub> trazado ∧ Δ<sub>sem</sub> admisible.</div>
+
+La fórmula admite tres estados principales. Estado 0: no hay diálogo estructural porque falta canal, frontera, diccionario o retorno. Estado U: hay indicios, canal parcial, diccionario incompleto o retorno insuficiente. Estado 1: hay canal consolidado, diccionario estructural y retorno interpretable. Esta clasificación no usa probabilidad como verdad; usa condiciones. En biología, esto permite distinguir exposición a virus de infección, colonización de enfermedad, contacto inmune de respuesta eficaz, mutación de cáncer, síntoma de diagnóstico y muerte física de causa etiológica.
+
+| Canal | Diccionario | Retorno | Salida |
+|---|---|---|---|
+| 0 | 0/U/1 | 0/U/1 | 0: no hay diálogo estructural |
+| 1 | 0 | 0/U/1 | contacto o efecto sin semántica cerrada |
+| 1 | U | U | protosemántica o U |
+| 1 | 1 | 0 | canal no productivo o refutación |
+| 1 | 1 | U | diálogo no cerrado |
+| 1 | 1 | 1 | diálogo estructural consolidado |
+
+La consolidación de canal y semántica no implica armonía ni beneficio. Un virus puede consolidar canal con célula y producir enfermedad; una bacteria puede consolidar canal y producir simbiosis o sepsis; una célula tumoral puede consolidar canal de escape inmune; una medicina puede consolidar canal terapéutico o tóxico. Diálogo estructural significa que el intercambio tiene sentido de dominio, no que sea positivo. Por eso toda consolidación debe ir acompañada de residual y dictamen.
+
+### XVI.6. Predominancia, residual y diálogo entre observables
+
+Cuando dos observables consolidan canal y semántica, puede aparecer predominancia. La predominancia es compatible si el intercambio conserva retorno de ambos dominios o del dominio rector declarado; es lesiva si uno de los observables captura el canal y deteriora al otro o al nivel superior. En biología, la simbiosis, la tolerancia, la señal hormonal, la inmunidad controlada y la reparación son ejemplos de predominancia compatible o regulada. La infección, el cáncer, la autoinmunidad, la toxicidad, la disbiosis y la sepsis son ejemplos de predominancia lesiva cuando el residual deja de absorberse.
+
+<div align="center">Pred<sub>AB</sub><sup>lesiva</sup>=1 ⇔ Canal<sub>AB</sub><sup>Γ</sup> capturado ∧ 𝓓<sub>AB</sub><sup>⊥</sup> usado contra retorno de Ω<sub>rector</sub> ∧ Δ no absorbido.</div>
+
+El residual semántico aparece cuando los observables interactúan pero la correspondencia no queda plenamente resuelta. Puede haber señal ambigua, receptor compartido, respuesta cruzada, mimetismo molecular, mutación de escape, colonización sin lesión, lesión sin agente, síntoma sin marcador, marcador sin enfermedad o imagen sin identidad. El residual semántico no debe ocultarse bajo una etiqueta. En medicina, gran parte del daño diagnóstico procede de no respetar ese residual: se llama infección a colonización, tumor a masa, autoinmunidad a autoanticuerpo, enfermedad a variación, causa de muerte a diagnóstico no cerrado. La teoría de canal y semántica existe para impedir ese salto.
+
+| Relación | Predominancia compatible | Predominancia lesiva |
+|---|---|---|
+| Microbiota-huésped | simbiosis metabólica e inmune | disbiosis, inflamación o infección |
+| Virus-célula | latencia controlada o eliminación | replicación lesiva o escape |
+| Bacteria-tejido | colonización no lesiva | invasión, toxina, sepsis |
+| Inmunidad-tejido | defensa y tolerancia | autoinmunidad o inmunodeficiencia funcional |
+| Tumor-inmunidad | eliminación o contención | escape, agotamiento, progresión |
+| Fármaco-organismo | efecto terapéutico | toxicidad o resistencia |
+| Paciente-medicina | diagnóstico claro y cuidado | mala etiqueta o daño documental |
+
+### XVI.7. Casos de extremo a extremo: galaxias y agujeros negros
+
+Los casos astrofísicos sólo se introducen como control transdominio de la fórmula, no como desplazamiento del eje biológico. Una galaxia y un agujero negro pertenecen a familias de observables no biológicas, pero permiten verificar que canal y semántica no dependen del lenguaje humano ni de la vida. El canal no se declara por proximidad visual: debe haber relación física trazable, como dinámica orbital, acreción, emisión, perturbación gravitatoria, lente, chorro, pérdida de masa, radiación o reordenación del entorno galáctico. El diccionario no es biológico; traduce masa, momento angular, horizonte, disco, emisión, trayectoria, energía y residual físico. El retorno no será función vital, sino modificación física del dominio galáctico.
+
+<div align="center">Diag<sub>gal-BH</sub><sup>⊥</sup>=1 ⇔ canal físico trazado ∧ diccionario astrofísico ∧ retorno dinámico o energético.</div>
+
+Este ejemplo enseña una regla útil para biología: no basta co-presencia. Una célula y un virus en el mismo organismo no tienen diálogo si no hay entrada, receptor o respuesta; una galaxia y un agujero negro en el mismo campo observacional no tienen canal consolidado si no hay interacción física trazada. En ambos casos, el transductor externo devuelve magnitudes del dominio: masa, energía y emisión en astrofísica; carga viral, receptor, daño o respuesta en biología. La fórmula es común; el diccionario cambia.
+
+| Letra estructural | Galaxia-agujero negro | Analogía metodológica biológica |
+|---|---|---|
+| Frontera | región galáctica, horizonte, disco | célula, tejido, huésped |
+| Entrada | gas, estrellas, materia, radiación | virus, bacteria, señal, fármaco |
+| Receptor/canal | campo gravitatorio, acreción, órbita | receptor, barrera, metabolismo |
+| Respuesta | chorro, emisión, dinámica, perturbación | inflamación, replicación, reparación |
+| Residual | pérdida de masa, calentamiento, reordenación | daño, cicatriz, mutación, U |
+| Retorno | cambio físico observable | función, enfermedad, adaptación |
+
+### XVI.8. Casos de extremo a extremo: planetas y estrellas
+
+La relación planeta-estrella ofrece un segundo control transdominio: canal energético y gravitatorio, diccionario físico y retorno ambiental. Un planeta puede recibir radiación, viento estelar, marea, partículas, campo magnético o perturbación orbital. La estrella no “dialoga” en sentido humano; el planeta tampoco. Sin embargo, hay canal si la diferencia estelar alcanza al planeta y retorna como temperatura, atmósfera, química, magnetosfera, erosión, clima, habitabilidad o daño. La semántica estructural no es conciencia; es correspondencia dominio-señal-retorno.
+
+<div align="center">Diag<sub>estrella-planeta</sub><sup>⊥</sup>=1 ⇔ canal radiativo/gravitatorio ∧ diccionario físico ∧ retorno ambiental.</div>
+
+El valor para la publicación es metodológico. Del mismo modo, una hormona no habla con un órgano en lenguaje humano, pero su señal puede retornar como función; un fármaco no conversa con un receptor, pero su unión puede retornar como terapia o toxicidad; una célula inmune no formula frases, pero su reconocimiento puede retornar como eliminación o autodaño. La fórmula de canal y semántica permite tratar estos casos sin antropomorfismo y sin reducirlos a metáfora.
+
+| Relación | Canal | Diccionario | Retorno |
+|---|---|---|---|
+| Estrella-planeta | radiación, gravedad, partículas | energía, órbita, atmósfera | clima, erosión, habitabilidad, daño |
+| Hormona-órgano | circulación y receptor | concentración, receptor, vía | función endocrina |
+| Fármaco-receptor | exposición y unión | dosis, afinidad, efecto | terapia, toxicidad, U |
+| Antígeno-linfocito | presentación y receptor | reconocimiento, coestimulación | activación, tolerancia, memoria |
+| Microbiota-intestino | metabolitos y barrera | nicho, señal, inmunidad | simbiosis o disbiosis |
+
+### XVI.9. Casos de extremo a extremo: virus y células
+
+El caso virus-célula es central para la publicación. El canal se consolida cuando el virus alcanza una célula susceptible, interactúa con una vía de entrada, introduce o entrega su material genético o funcional, y produce retorno: replicación, abortividad, latencia, respuesta antiviral, apoptosis, daño, transformación o U. La semántica estructural aparece porque cada elemento ocupa una letra del diccionario: cápside o envoltura como frontera viral; membrana celular como frontera de huésped; receptor como punto de correspondencia; genoma viral como registro; maquinaria celular como dominio de transformación; interferón, muerte celular o producción viral como retorno. No hay diálogo pleno si el virus sólo está presente sin entrada ni respuesta; tampoco si hay detección molecular sin muestra apta o sin relación con el dominio evaluado.
+
+<div align="center">Diag<sub>virus-célula</sub><sup>⊥</sup>=1 ⇔ receptor/entrada ∧ entrega funcional ∧ respuesta o replicación ∧ retorno trazado.</div>
+
+Este caso muestra que la semántica estructural puede ser lesiva. El virus usa una correspondencia que la célula puede reconocer como entrada, mientras la célula puede responder con defensa, apoptosis o tolerancia. La predominancia depende del retorno: si la célula bloquea replicación, el canal no progresa; si el virus replica y daña, hay infección; si queda latente, hay residual; si integra y altera regulación, puede haber transformación o U; si muta receptor o proteína de entrada, cambia el diccionario operativo. El transductor bidireccional debe devolver al dominio científico receptor, tropismo, carga, muestra, método, daño, respuesta y límite.
+
+| Letra | Virus | Célula | Retorno |
+|---|---|---|---|
+| ∂ | cápside o envoltura | membrana y organelos | frontera de interacción |
+| Entrada | partícula viral | receptor o vía de entrada | susceptibilidad |
+| Registro | genoma viral | maquinaria de lectura | replicación o bloqueo |
+| Señal | proteína viral o PAMP | sensores celulares | interferón, inflamación |
+| Respuesta | replicación, latencia, escape | apoptosis, defensa, tolerancia | infección, control, U |
+| Δ | error, mutación, escape | daño, estrés, muerte | residual viral/celular |
+| R | producción viral o fracaso | función, daño, muerte | dictamen de infección |
+
+### XVI.10. Casos de extremo a extremo: bacterias y células
+
+El caso bacteria-célula o bacteria-tejido permite distinguir canal compatible, colonización, simbiosis, infección y daño. Una bacteria puede estar presente sin enfermedad; puede adherirse sin invadir; puede producir metabolitos beneficiosos; puede activar inmunidad; puede atravesar barrera; puede producir toxinas; puede vivir en biofilm; puede resistir antibióticos; puede desencadenar sepsis. El canal se consolida cuando la bacteria o sus productos alcanzan el dominio celular o tisular y retornan como respuesta. El diccionario decide si esa respuesta es tolerancia, simbiosis, inflamación, daño, infección, colonización o U.
+
+<div align="center">Diag<sub>bact-célula</sub><sup>⊥</sup>=1 ⇔ contacto/adherencia/invasión/producto ∧ respuesta celular/tisular ∧ retorno de dominio.</div>
+
+El mismo observable bacteriano puede ocupar posiciones distintas. En un nicho puede ser comensal; en sangre puede ser patógeno; en cultivo puede ser contaminación; en biofilm puede ser persistente; en tejido estéril puede ser diagnóstico crítico si la muestra es apta; en intestino puede producir metabolitos protectores o disbiosis. La semántica estructural obliga a declarar localización, muestra, carga, barrera, respuesta inmune, daño y retorno. La presencia no basta; la ausencia de cultivo tampoco excluye si hay otros canales; U se conserva cuando falta traza.
+
+| Estado | Canal | Retorno | Dictamen |
+|---|---|---|---|
+| Comensalismo | nicho compatible | función o neutralidad | no infección |
+| Colonización | presencia en superficie | sin daño invasivo | 0/U según dominio |
+| Infección local | invasión o toxina | inflamación y daño | 1 si cierra |
+| Biofilm | comunidad adherida | persistencia y resistencia | infección/residual si hay daño |
+| Sepsis | respuesta sistémica | fallo de retorno vital | enfermedad sistémica |
+| Contaminación | muestra no representativa | señal documental débil | U o no apto |
+| Simbiosis | metabolitos o barrera | beneficio o equilibrio | compatibilidad |
+| Disbiosis | comunidad alterada | inflamación o función alterada | U/1 según retorno |
+
+### XVI.11. Escucha, diálogo y retorno sin antropomorfismo
+
+Escuchar un observable no significa atribuirle voz humana, intención o conciencia. Significa disponer un canal de recepción, un diccionario estructural y un retorno capaz de hacer legible su estado. Dialogar con un observable no significa conversar con palabras; significa intervenir o recibir de manera que el observable devuelva una respuesta interpretable dentro de su dominio. En medicina, se escucha una célula midiendo expresión, secreción, muerte, proliferación, señalización o metabolismo; se escucha un tumor mediante imagen, histología, molecular, respuesta terapéutica y residual; se escucha una infección mediante cultivo, carga, respuesta inmune, lesión y clínica; se escucha un paciente mediante lenguaje, exploración y pruebas. La escucha es transducción disciplinada.
+
+<div align="center">Escucha<sub>O</sub>=Canal de recepción ∧ 𝓓<sub>O</sub><sup>⊥</sup> ∧ retorno interpretable; no requiere antropomorfismo.</div>
+
+El diálogo estructural puede ser diagnóstico, terapéutico, experimental o documental. Es diagnóstico cuando el observable devuelve identidad: tumor, infección, reparación, U. Es terapéutico cuando una intervención modifica canal y el observable retorna respuesta: remisión, resistencia, toxicidad, fracaso. Es experimental cuando una manipulación controlada produce salida reproducible. Es documental cuando un informe conserva traza para auditoría. En todos los casos, el observador no inventa la respuesta: la recibe por magnitudes, función, daño o relato clínico apto. Esta regla mantiene la ambición de escuchar enfermedades, células o sistemas biológicos sin caer en misticismo ni en metáfora antropomórfica.
+
+| Modalidad | Canal | Diccionario | Retorno |
+|---|---|---|---|
+| Diagnóstica | muestra, imagen, señal, síntoma | condiciones constitutivas | identidad, refutación o U |
+| Terapéutica | fármaco, cirugía, inmunidad, soporte | diana, dosis, función | respuesta, toxicidad, resistencia |
+| Experimental | perturbación controlada | protocolo y medición | salida reproducible |
+| Documental | informe, dato, registro | custodia y método | prueba apta/no apta |
+| Clínica humana | lenguaje y exploración | semántica médica | cuidado, diagnóstico o U |
+| Biológica celular | señal molecular | red de respuesta | activación, muerte, reparación |
+
+### XVI.12. Conclusión del apartado
+
+La teoría de consolidación de canal y semántica estructural fija la forma rigurosa en que observables de familias distintas pueden relacionarse sin antropomorfismo y sin metáfora. Primero debe existir canal; después diccionario; después retorno. La presemántica permite respuesta elemental, la protosemántica permite diferenciación de señales y la semántica estructural permite diálogo de dominio. El alfabeto estructural transversal —frontera, entrada, receptor, señal, transformación, respuesta, memoria, daño, reparación, residual, retorno y U— permite comparar virus-célula, bacteria-huésped, tumor-inmunidad, órgano-hormona, paciente-medicina y otros pares sin borrar sus diferencias. Los ejemplos astrofísicos funcionan sólo como control de generalidad formal; el eje queda en la biología. En el dominio vivo, escuchar o dialogar significa recibir o intervenir mediante canal, diccionario y retorno verificable. Desde aquí, los bancos y laboratorios deben materializar esta gramática en tablas, casos positivos, casos negativos, U legítimos, transductores y runners que impidan cerrar por presencia, apariencia o etiqueta.
+
+## XVII. Bancos de datos y laboratorios
+
+### XVII.1. Estatuto de bancos y laboratorios
+
+Los bancos de datos y laboratorios constituyen la capa material de contraste de la publicación. Su función no es decorar la teoría ni sustituir el cuerpo doctrinal por anexos técnicos, sino impedir que las fórmulas de observable, transductor, canal, semántica, mutación, enfermedad, cáncer y clausura factual queden como enunciados sin prueba de uso. Cada banco fija entradas, unidades, primitivos SV, dominio, retorno, salida esperada y errores bloqueados. Cada laboratorio ejecuta una pregunta cerrada sobre esos bancos y devuelve una salida verificable. Ningún laboratorio decide por analogía, semejanza lingüística, plausibilidad médica, probabilidad, estadística o autoridad de etiqueta; decide por condiciones declaradas, residual, U conservado y retorno trazado.
+
+<div align="center">𝓑𝓛<sub>bio-SV</sub>=Bancos<sub>11</sub>∪Labs<sub>54</sub>∪Errores<sub>48</sub>∪Salidas∪Garantías.</div>
+
+El paquete queda organizado en once bancos y cincuenta y cuatro laboratorios. Los bancos cubren observables, transducción, mutación, enfermedad, cáncer, inmunología, genética, canal-semántica, negativos adversariales, U legítimos y clausura vital. Los laboratorios cubren transducción, mutación, enfermedad, cáncer, inmunología, genética, canal-semántica, negativos y runner global. Esta organización mantiene el eje del título: proyecciones biológicas de la fibra. Los casos clínico-biológicos diagnósticos desarrollados como anexo quedan subordinados a esta matriz general y no desplazan el cuerpo principal.
+
+| Capa | Número | Identificador | Función |
+|---|---:|---|---|
+| Bancos de datos | 11 | B01–B11 | declarar entradas, unidades, dominio, retorno y salida esperada |
+| Familias de laboratorios | 9 | L-T, L-M, L-E, L-C, L-I, L-G, L-S, L-N, L-R | ejecutar preguntas de contraste |
+| Laboratorios individuales | 54 | LAB-01–LAB-54 | validar o refutar condiciones |
+| Catálogo de errores | 48 | E-01–E-48 | impedir cierres indebidos |
+| Salidas globales | 4 | SG-01–SG-04 | validar coherencia general |
+| Estados admitidos | 3 | 0, 1, U | refutación/no cierre, cierre y U honesta según dominio |
+
+| Regla material | Aplicación |
+|---|---|
+| Todo dato crítico lleva dominio | célula, tejido, órgano, organismo, linaje, cepa, banco o documento |
+| Toda magnitud lleva unidad externa o clase tipada | mol/L, células/L, mm, %, Ct, VAF, clase histológica, clase citométrica |
+| Toda magnitud crítica lleva primitivo SV | UFE, UFT, UFM, razón, conteo discreto, clase tipada |
+| Todo caso lleva retorno | conservación, reparación, enfermedad, cáncer, muerte, U o refutación |
+| Todo cierre adversarial exige negativo | el banco debe enseñar los dientes a la fórmula |
+| Toda U se conserva | U no se fuerza a 0 ni a 1 |
+| Todo runner falla ante ausencia de canal o unidad | no hay pase silencioso |
+| Todo resultado distingue banco cerrado de caso real | no hay extrapolación clínica general |
+
+### XVII.2. Definición exacta de banco de datos
+
+Un banco de datos es una colección cerrada de casos, magnitudes, condiciones, unidades, transductores, residuales, retornos y salidas esperadas. Cerrada no significa universal ni definitiva; significa que, dentro del lote declarado, toda entrada está tipada y toda salida puede verificarse sin inventar datos. Un banco apto contiene casos positivos, negativos, U legítimos y ataques adversariales cuando el dominio lo exige. Un banco no apto contiene entradas sin unidad, sin muestra, sin primitivo SV, sin dominio, sin retorno o sin salida esperada. La función del banco es permitir que una fórmula sea sometida a contraste material y que el runner pueda detectar error.
+
+<div align="center">B<sub>k</sub>=⟨Casos,Magnitudes,Unidades,Primitivos,Condiciones,Transductores,Δ,R,Salida,Errores⟩.</div>
+
+| Campo obligatorio | Definición | Ejemplo |
+|---|---|---|
+| id_banco | identificador único del banco | B05_CANCER |
+| id_caso | identificador único de caso | CA-NEG-003 |
+| dominio | plano evaluado | célula, tejido, órgano, organismo, virus, bacteria |
+| observable | entidad estudiada | célula tumoral, virus, linfocito, gen, órgano |
+| señal | dato inicial o entrada | mutación, masa, fiebre, receptor, cultivo |
+| unidad_externa | unidad científica o clase tipada | mm, %, células/L, Ct, clase IHQ |
+| primitivo_sv | unidad o clase SV | UFE, UFM/UFE³, razón, conteo, clase tipada |
+| canal | relación que debe retornar | virus→célula, fármaco→receptor |
+| diccionario | matriz semántica del dominio | 𝓓<sub>virus-cel</sub><sup>⊥</sup> |
+| condición | requisito de cierre o refutación | receptor funcional, clon, invasión |
+| estado_condición | 0, 1 o U | 0 si se refuta; U si falta traza |
+| residual | diferencia no absorbida | Δ<sub>onc</sub>, Δ<sub>sem</sub>, Δ<sub>doc</sub> |
+| retorno | salida de dominio | infección, reparación, cáncer, U |
+| salida_esperada | dictamen del banco | PASS, FAIL, 0, 1 o U |
+| error_bloqueado | cierre indebido que debe caer | mutación=cáncer |
+
+| Criterio de aptitud | Resultado si falla |
+|---|---|
+| dominio ausente | banco no apto |
+| unidad externa ausente en magnitud crítica | fallo E-UNIT |
+| primitivo SV ausente | fallo E-PRIM |
+| canal ausente | fallo E-CANAL |
+| diccionario ausente | fallo E-DIC |
+| residual no declarado | fallo E-DELTA |
+| retorno no trazado | fallo E-RET |
+| U forzada | fallo E-U |
+| negativo ausente en fórmula crítica | fallo E-ADV |
+| salida esperada ausente | fallo E-OUT |
+
+### XVII.3. Definición exacta de laboratorio
+
+Un laboratorio es una prueba reproducible sobre uno o más bancos, con una hipótesis de entrada, reglas de decisión, salidas esperadas, negativos y errores declarados. No es una simulación decorativa ni una tabla de ejemplos. Un laboratorio apto debe fallar si la fórmula acepta cierres indebidos, degrada U, pierde unidades, confunde niveles, convierte señal en diagnóstico o usa muerte física como validación retrospectiva. El laboratorio no busca confirmar siempre; debe poder refutar. Un laboratorio fuerte contiene al menos un caso positivo, un caso negativo, un U legítimo y un ataque adversarial, salvo que el dominio justifique otra morfología.
+
+<div align="center">Lab<sub>j</sub>=⟨Banco,Regla,Entrada,Negativo,U,SalidaEsperada,Runner,Errores⟩.</div>
+
+| Elemento del laboratorio | Exigencia |
+|---|---|
+| id_lab | identificador único LAB-01–LAB-54 |
+| banco_origen | uno o varios bancos B01–B11 |
+| pregunta | condición exacta que se contrasta |
+| regla | fórmula o criterio evaluado |
+| entrada | casos y magnitudes tipadas |
+| adversarial | ataque que debe ser rechazado |
+| U legítimo | caso que no debe cerrarse |
+| salida esperada | salida formal |
+| runner | procedimiento determinista |
+| catálogo de errores | errores que hacen fallar el laboratorio |
+| salida obtenida | salida reproducible |
+| dictamen | PASS/FAIL/U según reglas |
+
+| Morfología | Contenido mínimo | Uso |
+|---|---|---|
+| Laboratorio de transducción | unidad externa, primitivo SV, retorno | comprobar bidireccionalidad |
+| Laboratorio de mutación | cambio, dominio, canal, retorno | impedir mutación=destino |
+| Laboratorio de enfermedad | residual, nivel, deterioro | separar variación, lesión y enfermedad |
+| Laboratorio de cáncer | clon, barrera, microambiente, retorno | impedir mutación/masa=cáncer |
+| Laboratorio inmunológico | antígeno, receptor, respuesta, tolerancia | separar defensa, autoinmunidad y escape |
+| Laboratorio genético | variante, herencia, función, U | conservar VUS y dominio |
+| Laboratorio semántico | canal, diccionario, retorno | distinguir contacto y diálogo |
+| Laboratorio negativo | inyección de cierre indebido | estrés adversarial |
+| Laboratorio runner | integridad global | detectar pases silenciosos |
+
+### XVII.4. Banco universal de observables
+
+El banco universal de observables fija los niveles biológicos y sus condiciones de reconocimiento. Su objetivo es evitar que una célula, tejido, órgano, organismo, virus, bacteria, especie o documento sean tratados como si pertenecieran al mismo plano. Este banco se usa por todos los laboratorios porque declara frontera, canal, retorno y error típico de cada observable. No decide por sí solo enfermedad; decide si el observable está tipado y si el nivel usado es correcto.
+
+<div align="center">B01<sub>Obs</sub>=⟨Observable,Nivel,Frontera,Canal,Retorno,ErrorNivel⟩.</div>
+
+| id | Observable | Nivel | Frontera | Canal | Retorno esperado | Error bloqueado |
+|---|---|---|---|---|---|---|
+| B01-01 | molécula funcional | molecular | enlace/conformación | reacción, unión, catálisis | función, daño o U | molécula=vida |
+| B01-02 | gen/secuencia | molecular-registro | región de lectura | expresión, copia, regulación | función, silencio, U | secuencia=destino |
+| B01-03 | célula somática | celular | membrana | metabolismo, señal, reparación | normal, alterada, patológica | mutación=organismo enfermo |
+| B01-04 | célula inmune | celular-sistémica | membrana y receptor | antígeno, citoquina, contacto | defensa, tolerancia, daño | marcador=función |
+| B01-05 | célula tumoral | celular-tisular | frontera alterada | proliferación, escape, microambiente | dominancia o U | clon=cáncer sin retorno |
+| B01-06 | tejido | tisular | arquitectura y matriz | interacción celular, vasos | función, reparación, lesión | célula aislada=tejido |
+| B01-07 | órgano | orgánico | unidad anatómico-funcional | vascular, neural, mecánico | suficiencia o fallo | lesión local=fallo orgánico |
+| B01-08 | organismo humano | sistémico | frontera corporal | integración vital | vida, enfermedad, muerte | diagnóstico=muerte |
+| B01-09 | virus | replicativo dependiente | cápside/envoltura | receptor y célula huésped | replicación, latencia, U | mutación=agresividad |
+| B01-10 | bacteria | célula procariota | pared/membrana | metabolismo, nicho, huésped | comensalismo, infección, U | presencia=patología |
+| B01-11 | microbiota | comunidad | nicho ecológico | metabolitos, barrera, inmunidad | simbiosis, disbiosis, U | diferencia=disbiosis |
+| B01-12 | especie | población/linaje | frontera de continuidad | reproducción o transmisión | continuidad, divergencia, extinción | parecido=misma especie |
+| B01-13 | documento clínico | documental | integridad formal | lectura y custodia | prueba apta/no apta | papel=hecho |
+| B01-14 | muerte física | sistémico-clausura | organismo completo | pérdida de integración | clausura vital | muerte=causa |
+
+### XVII.5. Banco de transducción SV↔ciencia contemporánea
+
+El banco de transducción declara magnitudes externas, unidades científicas, primitivos SV y retorno de dominio. Su función es impedir que una tabla biológica use números sin unidad, categorías sin método o transductores sin bidireccionalidad. Cada entrada debe poder ir desde ciencia contemporánea hacia SV y regresar desde SV hacia ciencia contemporánea con una salida interpretable.
+
+<div align="center">B02<sub>Trans</sub>=⟨Magnitud<sub>D</sub>,Unidad<sub>D</sub>,Primitivo<sub>SV</sub>,Dominio,Retorno<sub>D</sub>⟩.</div>
+
+| id | Magnitud externa | Unidad/categoría externa | Primitivo SV | Dominio | Retorno |
+|---|---|---|---|---|---|
+| B02-01 | longitud celular | µm, nm | UFE | célula, organelo | frontera/tamaño |
+| B02-02 | volumen lesional | mm³, cm³ | UFE³ | tejido, órgano | masa, edema, lesión |
+| B02-03 | concentración | mol/L, mg/L, ng/mL | UFM/UFE³ o cantidad/UFE³ | química, sangre, tejido | canal, toxicidad, función |
+| B02-04 | temperatura | °C, K | UFT | organismo, cultivo | fiebre, estabilidad, reacción |
+| B02-05 | pH | escala pH | razón/clase | medio, sangre, célula | acidez, función, daño |
+| B02-06 | potencial redox | V, mV | UFCE/clase energética | metabolismo | transferencia o estrés |
+| B02-07 | células sanguíneas | células/L | entidades/UFE³ | hematología | citopenia, proliferación |
+| B02-08 | porcentaje celular | % | razón | citometría, histología | proporción o clon |
+| B02-09 | VAF | % | razón/conteo | genética somática | subclón, clon, U |
+| B02-10 | Ct/qPCR | ciclo umbral | conteo discreto/clase | virología | carga relativa o U |
+| B02-11 | copias virales | copias/mL | entidades/UFE³ | virología | replicación, respuesta |
+| B02-12 | MIC | mg/L | UFM/UFE³ | microbiología | resistencia/sensibilidad |
+| B02-13 | Ki-67 | % IHQ | razón | oncología | proliferación, no cáncer solo |
+| B02-14 | receptor positivo | clase IHQ/citometría | clase tipada | inmunología/oncología | canal posible |
+| B02-15 | mutación detectada | HGVS/NGS | conteo discreto/clase | genética | variante y retorno |
+| B02-16 | histología | clase diagnóstica | clase tipada | tejido | identidad o diferencial |
+| B02-17 | imagen RM/TC | clase radiológica, mm | UFE/clase tipada | órgano | lesión, no identidad sola |
+| B02-18 | función orgánica | mL/min, %, escala | razón/UFE³/UFT | órgano | suficiencia o fallo |
+| B02-19 | escala clínica | puntuación validada | conteo/razón | función humana | retorno funcional |
+| B02-20 | muerte física | criterio clínico/legal | clase tipada | organismo | clausura vital |
+
+| Dirección | Entrada | Salida exigida |
+|---|---|---|
+| Ciencia→SV | unidad, método, muestra, dominio | primitivo SV, canal, residual |
+| SV→Ciencia | dictamen, residual, retorno | explicación médica o biológica interpretable |
+| Ciencia→SV→Ciencia | caso completo | no pérdida de unidad ni dominio |
+| SV→Ciencia→SV | fórmula y magnitud externa | retorno consistente sin inversión arbitraria |
+
+### XVII.6. Banco de mutaciones
+
+El banco de mutaciones somete a contraste la tesis de que la mutación es modificación con retorno y no destino. Incluye cambios silenciosos, reparados, funcionales, adaptativos, patológicos, oncogénicos, virales, bacterianos, germinales, somáticos, subclonales y U. Su función adversarial es impedir los cierres “mutación=enfermedad”, “mutación=cáncer”, “variante=destino” y “mutación viral=mayor agresividad”.
+
+<div align="center">B03<sub>Mut</sub>=⟨Cambio,Dominio,Canal,Función,Residual,Retorno⟩.</div>
+
+| id | Caso | Dominio | Canal | Retorno esperado | Error bloqueado |
+|---|---|---|---|---|---|
+| B03-01 | sustitución sin cambio funcional | proteína | traducción/plegamiento | silenciosa | mutación=daño |
+| B03-02 | daño de ADN reparado | célula | reparación | reparación compatible | daño=enfermedad |
+| B03-03 | variante missense funcional | enzima | actividad catalítica | función alterada | nombre=destino |
+| B03-04 | mutación germinal predisponente | organismo/linaje | herencia | riesgo/U, no enfermedad actual automática | predisposición=enfermedad |
+| B03-05 | VUS germinal | genética | interpretación incompleta | U | U=patógena |
+| B03-06 | mutación somática subclonal | tejido | expansión limitada | U/subclón | VAF bajo=cáncer |
+| B03-07 | driver tumoral con clon dominante | tejido | proliferación/barrera | cáncer si condiciones cierran | driver solo=cáncer |
+| B03-08 | resistencia bacteriana con MIC elevada | bacteria | antibiótico-bacteria | resistencia | gen=infección |
+| B03-09 | mutación viral de entrada | virus-célula | receptor | tropismo si retorna | secuencia=agresividad |
+| B03-10 | deleción viral atenuante | virus | replicación | menor aptitud/atenuación | mutación=mayor daño |
+| B03-11 | cambio epigenético reversible | célula | regulación | adaptación/U | epigenética=enfermedad |
+| B03-12 | translocación con fusión funcional | hematología | linaje/clon | neoplasia si cierra | fusión sin contexto=diagnóstico |
+| B03-13 | mosaicismo | organismo | distribución tisular | fenotipo variable/U | muestra única=totalidad |
+| B03-14 | mutación mitocondrial heteroplásmica | célula/órgano | energía | daño si umbral funcional retorna | porcentaje=diagnóstico |
+| B03-15 | edición terapéutica controlada | célula | intervención | reparación/adaptación | edición=patología |
+
+### XVII.7. Banco de enfermedad y reparación
+
+El banco de enfermedad y reparación verifica que enfermedad, variación, lesión, reparación, tolerancia y residual patológico se mantengan separados. Sus casos obligan a la fórmula a reconocer reparación compatible, residual estable, enfermedad activa, U legítimo y fallo de nivel. Su adversarial principal es impedir que lesión local, marcador o síntoma se conviertan automáticamente en enfermedad sistémica.
+
+<div align="center">B04<sub>EnfRep</sub>=⟨Variación,Lesión,Reparación,Δ<sub>pat</sub>,Nivel,R⟩.</div>
+
+| id | Caso | Nivel | Retorno esperado | Error bloqueado |
+|---|---|---|---|---|
+| B04-01 | variante genética sin efecto | molecular | no enfermedad/U | variante=enfermedad |
+| B04-02 | lesión de ADN reparada | celular | reparación | daño=cáncer |
+| B04-03 | apoptosis protectora | celular/tisular | conservación del tejido | muerte celular=muerte orgánica |
+| B04-04 | inflamación resolutiva | tisular | reparación | inflamación=enfermedad crónica |
+| B04-05 | cicatriz estable | tisular | residual compatible | residual=patología activa |
+| B04-06 | fibrosis progresiva | órgano | residual patológico | reparación=salud |
+| B04-07 | autoanticuerpo sin lesión | inmune | U/no enfermedad cerrada | autoanticuerpo=autoinmunidad |
+| B04-08 | autoinmunidad con diana y daño | órgano | enfermedad | síntoma aislado=autoinmunidad |
+| B04-09 | colonización bacteriana no lesiva | tejido | no infección/U | presencia=infección |
+| B04-10 | infección invasiva | tejido/sistema | enfermedad infecciosa | cultivo sin contexto=diagnóstico |
+| B04-11 | fallo orgánico compensado | órgano | enfermedad/compensación | marcador aislado=fallo |
+| B04-12 | shock séptico | sistémico | enfermedad sistémica | fiebre=sepsis |
+| B04-13 | dolor sin etiología cerrada | humano | síntoma real, etiología U | dolor=simulación o diagnóstico único |
+| B04-14 | incapacidad funcional trazada | humano | limitación | diagnóstico nominal=incapacidad |
+| B04-15 | muerte física sin causa cerrada | organismo | clausura vital, causa U | muerte=etiología |
+
+### XVII.8. Banco de cáncer y dominancia clonal
+
+El banco de cáncer y dominancia clonal estresa la fórmula oncológica. Incluye mutación sin cáncer, masa no tumoral, lesión benigna, proliferación reactiva, displasia, cáncer localizado, invasivo, metastásico, enfermedad mínima residual, escape inmune y muerte física sin retrovalidación. Su función es impedir que cualquier componente aislado cierre cáncer.
+
+<div align="center">B05<sub>Cancer</sub>=⟨Mut,Clon,Barrera,Microambiente,Δ<sub>onc</sub>,R<sub>nivel superior</sub>⟩.</div>
+
+| id | Caso | Condición decisiva | Salida esperada | Error bloqueado |
+|---|---|---|---|---|
+| B05-01 | mutación driver aislada sin clon | falta clon/dominio | U/no cáncer | mutación=cáncer |
+| B05-02 | masa inflamatoria | histología no tumoral | no cáncer | masa=cáncer |
+| B05-03 | absceso con anillo de realce | cultivo/histología infecciosa | no tumor | imagen=tumor |
+| B05-04 | proliferación reactiva | policlonal y resolutiva | no cáncer | proliferación=malignidad |
+| B05-05 | lesión benigna expansiva | no invasión/no malignidad | no cáncer maligno | tamaño=malignidad |
+| B05-06 | displasia | barrera no superada | premaligno/U | displasia=cáncer invasivo |
+| B05-07 | carcinoma in situ | barrera conservada | malignidad local no invasiva | in situ=metástasis |
+| B05-08 | cáncer invasivo | barrera superada | cáncer | masa sin histología=cierre |
+| B05-09 | metástasis confirmada | colonización distante | cáncer sistémico | lesión distante=metástasis sin origen |
+| B05-10 | tumor con escape inmune | canal inmune bloqueado | progresión | PD-L1=respuesta automática |
+| B05-11 | enfermedad mínima residual | residual molecular/celular | residual oncológico | sin masa=no enfermedad |
+| B05-12 | subclón resistente | presión terapéutica y expansión | resistencia | VAF bajo=irrelevante siempre |
+| B05-13 | muerte con cáncer no causal cerrado | ruta terminal no demostrada | muerte física; causa U/contribuyente | muerte=cáncer |
+| B05-14 | remisión con cicatriz | no clon activo | no cáncer activo/U | cicatriz=recidiva |
+| B05-15 | marcador tumoral elevado inespecífico | falta entidad | U | marcador=cáncer |
+
+### XVII.9. Banco inmunológico
+
+El banco inmunológico ordena reconocimiento, defensa, tolerancia, memoria, inflamación, autoinmunidad, inmunodeficiencia, escape tumoral, alergia e inmunoterapia. Su regla principal es que un marcador inmune no equivale a función y que una respuesta inmune puede ser protectora, lesiva o U según dominio.
+
+<div align="center">B06<sub>Imm</sub>=⟨Antígeno/Receptor,Coestimulación,Respuesta,Tolerancia,Memoria,Δ,R⟩.</div>
+
+| id | Caso | Canal | Retorno esperado | Error bloqueado |
+|---|---|---|---|---|
+| B06-01 | reconocimiento antigénico eficaz | antígeno-TCR/MHC | eliminación/control | antígeno=daño |
+| B06-02 | tolerancia a lo propio | receptor-control | no autodaño | tolerancia=inmunodeficiencia |
+| B06-03 | autoanticuerpo aislado | marcador | U/no enfermedad cerrada | autoanticuerpo=autoinmunidad |
+| B06-04 | autoinmunidad con diana | defensa-tejido propio | enfermedad | síntoma=autoinmunidad |
+| B06-05 | alergia IgE mediada | alérgeno-receptor | respuesta lesiva | IgE=síntoma sin dominio |
+| B06-06 | inmunodeficiencia funcional | defensa insuficiente | infección/riesgo | linfocitos normales=función normal |
+| B06-07 | memoria vacunal | antígeno-memoria | protección | anticuerpo=protección absoluta |
+| B06-08 | agotamiento T | tumor/infección-inmunidad | respuesta insuficiente | infiltrado=control |
+| B06-09 | escape tumoral PD-1/PD-L1 | checkpoint | progresión/U | marcador=respuesta terapéutica |
+| B06-10 | tormenta inflamatoria | citoquinas-sistema | daño sistémico | inflamación=defensa útil |
+| B06-11 | inmunoterapia eficaz | diana-intervención | respuesta tumoral | tratamiento=curación |
+| B06-12 | toxicidad inmune | intervención-tejido | enfermedad iatrogénica | terapia=beneficio puro |
+| B06-13 | mimetismo molecular | antígeno-tejido propio | autoinmunidad/U | infección=causa directa siempre |
+| B06-14 | inflamación resolutiva | defensa-reparación | retorno compatible | inflamación=cronicidad |
+| B06-15 | rechazo de trasplante | inmunidad-injerto | daño de injerto | injerto=integración automática |
+
+### XVII.10. Banco genético
+
+El banco genético fija variantes, herencia, somaticidad, germinalidad, mosaicismo, VUS, penetrancia, expresividad, clon, subclón y custodia de secuencia. Su finalidad es impedir que la genética se convierta en destino absoluto o que un hallazgo sin interpretación cierre enfermedad.
+
+<div align="center">B07<sub>Gen</sub>=⟨Variante,Muestra,Cobertura,Linaje,Función,Herencia,Retorno,U⟩.</div>
+
+| id | Caso | Condición de cierre | Salida esperada | Error bloqueado |
+|---|---|---|---|---|
+| B07-01 | variante benigna | evidencia funcional/no daño | no enfermedad | variante=patología |
+| B07-02 | VUS | interpretación insuficiente | U | U=patógena |
+| B07-03 | variante patógena monogénica | función y fenotipo | enfermedad/riesgo según dominio | gen=destino sin fenotipo |
+| B07-04 | predisposición germinal | riesgo, no enfermedad actual | riesgo/U | predisposición=enfermedad |
+| B07-05 | penetrancia incompleta | portador sin enfermedad | U/no enfermedad actual | portador=enfermo |
+| B07-06 | expresividad variable | fenotipo graduado | retorno específico | mismo gen=mismo cuadro |
+| B07-07 | mutación somática tumoral | clon y tumor | cáncer si cierra | somática=cáncer siempre |
+| B07-08 | mosaicismo | distribución parcial | fenotipo/U | muestra única=organismo |
+| B07-09 | subclón bajo VAF | fracción y contexto | U/residual | VAF=diagnóstico |
+| B07-10 | artefacto de secuenciación | baja calidad/cobertura | no apto/U | lectura=hecho |
+| B07-11 | CNV | dosis y fenotipo | función/U | copia=daño |
+| B07-12 | translocación balanceada | función o reproducción | U/riesgo | reordenamiento=enfermedad |
+| B07-13 | epigenética | expresión y reversibilidad | función/U | marca=mutación fija |
+| B07-14 | farmacogenética | fármaco y función | riesgo terapéutico | variante=enfermedad |
+| B07-15 | genoma viral integrado | localización y efecto | latencia/transformación/U | integración=cáncer |
+
+### XVII.11. Banco de canal, presemántica, protosemántica y semántica
+
+Este banco materializa la teoría del apartado XVI. Su función es verificar que canal, diccionario y retorno no se confundan. Incluye contacto sin semántica, presemántica, protosemántica, semántica estructural, diálogo terapéutico, diálogo diagnóstico, diálogo documental y residuales semánticos. Su adversarial principal es impedir que la mera co-presencia se llame diálogo.
+
+<div align="center">B08<sub>Sem</sub>=⟨A,B,Canal,𝓓<sub>AB</sub><sup>⊥</sup>,Estrato,R,Δ<sub>sem</sub>⟩.</div>
+
+| id | Relación | Estrato | Retorno esperado | Error bloqueado |
+|---|---|---|---|---|
+| B08-01 | célula-daño mecánico | canal sin semántica estable | daño/U | contacto=diálogo |
+| B08-02 | gradiente químico-célula | presemántica | cambio de estado | gradiente=lenguaje pleno |
+| B08-03 | receptor-ligando | protosemántica | respuesta tipada | unión=efecto siempre |
+| B08-04 | antígeno-linfocito | semántica estructural | activación/tolerancia/U | antígeno=respuesta |
+| B08-05 | virus-célula | semántica estructural lesiva | infección/control/U | presencia=entrada |
+| B08-06 | bacteria-huésped | semántica variable | colonización/infección/U | colonización=infección |
+| B08-07 | tumor-inmunidad | semántica de escape/control | progresión/control/U | infiltrado=control |
+| B08-08 | fármaco-receptor | semántica terapéutica | efecto/toxicidad/U | dosis=efecto |
+| B08-09 | paciente-medicina | semántica clínica | diagnóstico/U/cuidado | relato=diagnóstico automático |
+| B08-10 | documento-runner | semántica documental | apto/no apto | informe=hecho |
+| B08-11 | órgano-hormona | semántica endocrina | función/fallo | concentración=función |
+| B08-12 | microbiota-intestino | semántica ecológica | simbiosis/disbiosis/U | taxón=patología |
+| B08-13 | célula tumoral-microambiente | semántica de campo | dominancia/U | masa=campo |
+| B08-14 | estrella-planeta | control transdominio | retorno ambiental | proximidad=canal |
+| B08-15 | galaxia-agujero negro | control transdominio | retorno físico | coobservación=interacción |
+
+### XVII.12. Banco de negativos y ataques adversariales
+
+El banco de negativos contiene ataques diseñados para forzar errores. No es un complemento opcional; es la prueba de resistencia de la publicación. Cada fórmula central debe sobrevivir a estos ataques: cierre por presencia, cierre por apariencia, cierre por marcador, cierre por muerte, cierre por secuencia, cierre por masa, cierre por imagen, cierre por autoridad documental, cierre por ausencia de prueba contraria, cierre por U degradada y cierre por unidad perdida.
+
+<div align="center">B09<sub>Neg</sub>=⟨Ataque,EntradaManipulada,ErrorEsperado,RespuestaObligatoria⟩.</div>
+
+| id | Ataque adversarial | Respuesta obligatoria | Error |
+|---|---|---|---|
+| B09-01 | mutación=cáncer | rechazar | E-01 |
+| B09-02 | masa=cáncer | rechazar | E-02 |
+| B09-03 | fiebre=infección cerrada | rechazar | E-03 |
+| B09-04 | cultivo=sepsis | rechazar si falta clínica/muestra | E-04 |
+| B09-05 | autoanticuerpo=autoinmunidad | rechazar | E-05 |
+| B09-06 | dolor no visible=no real | rechazar | E-06 |
+| B09-07 | muerte=causa previa | rechazar | E-07 |
+| B09-08 | VUS=patógena | rechazar | E-08 |
+| B09-09 | colonización=infección | rechazar | E-09 |
+| B09-10 | marcador tumoral=cáncer | rechazar | E-10 |
+| B09-11 | imagen sospechosa=diagnóstico | rechazar | E-11 |
+| B09-12 | documento sin método=prueba | rechazar | E-12 |
+| B09-13 | unidad ausente=pase | fallar | E-13 |
+| B09-14 | primitivo SV ausente=pase | fallar | E-14 |
+| B09-15 | transductor unidireccional=pase | fallar | E-15 |
+| B09-16 | U transformado en 0 | fallar | E-16 |
+| B09-17 | U transformado en 1 | fallar | E-17 |
+| B09-18 | muerte física=retorno vital parcial | rechazar | E-18 |
+| B09-19 | cepa mutada=más agresiva | rechazar sin retorno | E-19 |
+| B09-20 | gen de resistencia=infección | rechazar | E-20 |
+
+### XVII.13. Banco de U legítimos
+
+El banco de U legítimos protege la indeterminación honesta. Cada caso está diseñado para que el runner falle si lo convierte en cierre favorable o desfavorable. U no es ignorancia cómoda ni ausencia de dato sin consecuencias; es salida formal cuando faltan dominio, canal, diccionario, retorno, muestra, método, unidad o condición constitutiva.
+
+<div align="center">B10<sub>U</sub>=⟨Caso,FaltaCrítica,RazónU,SalidaObligatoria⟩.</div>
+
+| id | Caso U | Falta crítica | Salida obligatoria |
+|---|---|---|---|
+| B10-01 | variante genética VUS | función insuficiente | U |
+| B10-02 | masa sin histología ni evolución | identidad tisular | U |
+| B10-03 | fiebre sin foco ni datos | canal etiológico | U |
+| B10-04 | dolor sin etiología cerrada | causa, no fenómeno | U etiológica |
+| B10-05 | cultivo de muestra contaminable | custodia de muestra | U/no apto |
+| B10-06 | carga viral sin muestra adecuada | dominio de muestra | U |
+| B10-07 | autoanticuerpo aislado | daño de órgano | U |
+| B10-08 | subclón bajo sin seguimiento | retorno clonal | U |
+| B10-09 | muerte física sin autopsia ni cadena causal | etiología | U causal |
+| B10-10 | imagen cerebral inespecífica | diferencial | U |
+| B10-11 | biomarcador elevado inespecífico | entidad | U |
+| B10-12 | exposición tóxica sin dosis ni daño | canal dosis-daño | U |
+| B10-13 | disbiosis por taxonomía aislada | función | U |
+| B10-14 | receptor positivo sin respuesta | retorno funcional | U |
+| B10-15 | reactivación condicionada sin frontera reconstruible | retorno del observable | U |
+
+### XVII.14. Banco de muerte física y clausura vital
+
+El banco de muerte física y clausura vital verifica la diferencia entre clausura de célula, tejido, órgano, organismo, especie y documento. Su función es impedir la retrovalidación diagnóstica y separar muerte física, causa inmediata, causa intermedia, enfermedad de base y condición contribuyente. También prueba el retorno factual al Todo como reinscripción de residual, no como continuidad vital.
+
+<div align="center">B11<sub>Claus</sub>=⟨Nivel,RetornoPerdido,Ruta,Residual,NoRetrovalidación⟩.</div>
+
+| id | Caso | Nivel | Retorno perdido | Salida esperada | Error bloqueado |
+|---|---|---|---|---|---|
+| B11-01 | apoptosis protectora | celular | retorno celular | conservación tisular | muerte celular=muerte física |
+| B11-02 | necrosis focal | tisular | función local | lesión, no muerte sistémica | necrosis=muerte organismo |
+| B11-03 | fallo renal compensado | órgano | función parcial | enfermedad/compensación | órgano=muerte |
+| B11-04 | shock irreversible | sistémico | perfusión global | muerte física si cierra | shock=sólo síntoma |
+| B11-05 | muerte con cáncer conocido | organismo | retorno vital | causa requiere canal | muerte=cáncer |
+| B11-06 | muerte con infección documentada | organismo | retorno vital | sepsis si canal cierra | cultivo=muerte infecciosa |
+| B11-07 | muerte con lesión cerebral inespecífica | organismo | retorno vital | causa U si diferencial abierto | lesión=tumor |
+| B11-08 | cadáver con ADN conservado | material/documental | retorno vital ausente | retorno factual no vital | ADN=continuidad viva |
+| B11-09 | órgano preservado | órgano técnico | función potencial | retorno parcial condicionado | órgano=organismo |
+| B11-10 | especie extinguida con fósiles | poblacional | continuidad reproductiva | extinción con residual | fósil=especie viva |
+| B11-11 | virus latente reactivable | replicativo | canal temporalmente silencioso | reactivación condicionada | latencia=muerte viral |
+| B11-12 | paciente fallecido con causa no cerrada | organismo/documento | vida, no etiología | MF=1, causa=U | muerte=diagnóstico |
+
+### XVII.15. Laboratorios de transducción
+
+Los laboratorios de transducción validan la bidireccionalidad SV↔ciencia contemporánea. Deben comprobar unidades, primitivos, dominio, canal, diccionario, residual y retorno. El conjunto queda formado por seis laboratorios.
+
+| id_lab | Banco | Pregunta | Entrada crítica | Salida esperada |
+|---|---|---|---|---|
+| LAB-01 | B02 | ¿toda magnitud crítica tiene unidad externa y primitivo SV? | tabla B02 completa | PASS si no falta unidad/primitivo |
+| LAB-02 | B02/B01 | ¿la transducción ciencia→SV conserva dominio? | célula, tejido, órgano, virus, bacteria | PASS si no mezcla niveles |
+| LAB-03 | B02 | ¿SV→ciencia devuelve explicación interpretable? | dictamen con residual | PASS si retorna a lenguaje externo |
+| LAB-04 | B02/B08 | ¿canal y diccionario son distintos del transductor? | relaciones A-B | PASS si no los colapsa |
+| LAB-05 | B02/B09 | ¿falla ante unidad ausente? | magnitud crítica sin unidad | FAIL controlado E-13 |
+| LAB-06 | B02/B10 | ¿conserva U si falta retorno? | señal sin canal | U |
+
+### XVII.16. Laboratorios de mutación
+
+Los laboratorios de mutación prueban que cambio no equivale a destino. Evalúan mutación silenciosa, reparada, funcional, viral, bacteriana, germinal, somática, subclonal y U. El conjunto queda formado por seis laboratorios.
+
+| id_lab | Banco | Pregunta | Ataque | Salida esperada |
+|---|---|---|---|---|
+| LAB-07 | B03 | ¿una mutación silenciosa queda como no patológica? | mutación=daño | PASS |
+| LAB-08 | B03 | ¿daño reparado no se convierte en enfermedad? | daño=cáncer | PASS |
+| LAB-09 | B03/B07 | ¿VUS permanece U? | VUS=patógena | U/PASS |
+| LAB-10 | B03 | ¿mutación viral exige retorno de canal? | secuencia=agresividad | PASS |
+| LAB-11 | B03 | ¿resistencia bacteriana no equivale a infección? | gen=infección | PASS |
+| LAB-12 | B03/B05 | ¿driver tumoral aislado no cierra cáncer sin clon? | driver=cáncer | PASS |
+
+### XVII.17. Laboratorios de enfermedad
+
+Los laboratorios de enfermedad contrastan la diferencia entre variación, lesión, reparación y enfermedad. El conjunto queda formado por seis laboratorios.
+
+| id_lab | Banco | Pregunta | Ataque | Salida esperada |
+|---|---|---|---|---|
+| LAB-13 | B04 | ¿variación sin retorno no cierra enfermedad? | variante=enfermedad | PASS |
+| LAB-14 | B04 | ¿apoptosis protectora conserva nivel superior? | muerte celular=muerte organismo | PASS |
+| LAB-15 | B04 | ¿inflamación resolutiva no es cronicidad? | inflamación=enfermedad | PASS |
+| LAB-16 | B04 | ¿fibrosis progresiva cierra residual patológico? | reparación=salud | PASS |
+| LAB-17 | B04/B10 | ¿dolor sin etiología cerrada conserva U etiológica? | dolor=no real o diagnóstico único | PASS |
+| LAB-18 | B04/B11 | ¿muerte física no cierra causa? | muerte=etiología | PASS |
+
+### XVII.18. Laboratorios de cáncer
+
+Los laboratorios de cáncer estresan la fórmula oncológica contra mutación, masa, imagen, marcador, muerte y U. El conjunto queda formado por ocho laboratorios porque el dominio oncológico es el eje médico más expuesto a cierres espurios.
+
+| id_lab | Banco | Pregunta | Ataque | Salida esperada |
+|---|---|---|---|---|
+| LAB-19 | B05 | ¿mutación aislada no cierra cáncer? | mutación=cáncer | PASS |
+| LAB-20 | B05 | ¿masa inflamatoria no cierra cáncer? | masa=cáncer | PASS |
+| LAB-21 | B05 | ¿imagen sospechosa requiere identidad? | imagen=tumor | PASS |
+| LAB-22 | B05 | ¿proliferación reactiva no es malignidad? | proliferación=cáncer | PASS |
+| LAB-23 | B05 | ¿cáncer invasivo cierra con barrera superada? | negar invasión pese a datos | PASS |
+| LAB-24 | B05 | ¿enfermedad mínima residual no exige masa? | sin masa=no enfermedad | PASS |
+| LAB-25 | B05/B11 | ¿muerte con cáncer no retrovalida causa? | muerte=cáncer | PASS |
+| LAB-26 | B05/B10 | ¿marcador tumoral inespecífico queda U? | marcador=cáncer | U/PASS |
+
+### XVII.19. Laboratorios de inmunología
+
+Los laboratorios de inmunología prueban reconocimiento, tolerancia, autoinmunidad, memoria, escape, toxicidad y U. El conjunto queda formado por seis laboratorios.
+
+| id_lab | Banco | Pregunta | Ataque | Salida esperada |
+|---|---|---|---|---|
+| LAB-27 | B06 | ¿autoanticuerpo aislado no cierra autoinmunidad? | autoanticuerpo=enfermedad | PASS |
+| LAB-28 | B06 | ¿autoinmunidad cierra si hay diana, lesión y retorno? | negar lesión documentada | PASS |
+| LAB-29 | B06 | ¿memoria vacunal no equivale a protección absoluta? | anticuerpo=inmunidad total | PASS |
+| LAB-30 | B06 | ¿infiltrado tumoral no equivale a control? | infiltrado=control | PASS |
+| LAB-31 | B06/B05 | ¿escape inmune exige retorno tumoral? | checkpoint=progresión automática | PASS/U según caso |
+| LAB-32 | B06 | ¿toxicidad inmune se distingue de beneficio terapéutico? | terapia=beneficio puro | PASS |
+
+### XVII.20. Laboratorios de genética
+
+Los laboratorios de genética prueban variante benigna, VUS, predisposición, penetrancia, mosaicismo, artefacto y farmacogenética. El conjunto queda formado por seis laboratorios.
+
+| id_lab | Banco | Pregunta | Ataque | Salida esperada |
+|---|---|---|---|---|
+| LAB-33 | B07 | ¿variante benigna no cierra enfermedad? | variante=patología | PASS |
+| LAB-34 | B07 | ¿VUS permanece U? | VUS=patógena | PASS |
+| LAB-35 | B07 | ¿predisposición no es enfermedad actual automática? | riesgo=enfermedad | PASS |
+| LAB-36 | B07 | ¿penetrancia incompleta conserva dominio clínico? | portador=enfermo | PASS |
+| LAB-37 | B07 | ¿mosaicismo no se extrapola desde muestra única? | muestra=organismo | PASS |
+| LAB-38 | B07/B09 | ¿artefacto de secuenciación bloquea cierre? | lectura=hecho | PASS |
+
+### XVII.21. Laboratorios de canal y semántica estructural
+
+Estos laboratorios materializan la fórmula Diag<sub>AB</sub><sup>⊥</sup>. El conjunto queda formado por siete laboratorios porque cubren canal ausente, presemántica, protosemántica, semántica estructural, diálogo diagnóstico, diálogo terapéutico y control transdominio.
+
+| id_lab | Banco | Pregunta | Ataque | Salida esperada |
+|---|---|---|---|---|
+| LAB-39 | B08 | ¿co-presencia no equivale a canal? | proximidad=diálogo | PASS |
+| LAB-40 | B08 | ¿presemántica no se infla a semántica plena? | gradiente=lenguaje | PASS |
+| LAB-41 | B08 | ¿receptor-ligando exige retorno? | unión=efecto | PASS |
+| LAB-42 | B08 | ¿virus-célula cierra sólo con entrada/respuesta? | presencia=entrada | PASS |
+| LAB-43 | B08 | ¿bacteria-huésped distingue colonización e infección? | colonización=infección | PASS |
+| LAB-44 | B08 | ¿paciente-medicina respeta relato y prueba? | relato=diagnóstico automático | PASS |
+| LAB-45 | B08 | ¿control astrofísico prueba forma sin desplazar eje? | coobservación=interacción | PASS |
+
+### XVII.22. Laboratorios de negativos
+
+Los laboratorios de negativos ejecutan ataques transversales sobre todos los bancos. El conjunto queda formado por cinco laboratorios globales.
+
+| id_lab | Banco | Pregunta | Ataque | Salida esperada |
+|---|---|---|---|---|
+| LAB-46 | B09 | ¿los cierres por presencia son rechazados? | presencia=patología | PASS |
+| LAB-47 | B09 | ¿los cierres por apariencia son rechazados? | imagen/masa=diagnóstico | PASS |
+| LAB-48 | B09 | ¿los cierres por marcador son rechazados? | marcador=entidad | PASS |
+| LAB-49 | B09 | ¿muerte física no retrovalida diagnóstico? | muerte=causa | PASS |
+| LAB-50 | B09/B10 | ¿U no se degrada? | U→0 o U→1 | PASS |
+
+### XVII.23. Laboratorios de runner y salidas esperadas
+
+Los laboratorios de runner verifican integridad, conteo, salida global y ausencia de pase silencioso. El conjunto queda formado por cuatro laboratorios.
+
+| id_lab | Banco | Pregunta | Salida esperada |
+|---|---|---|---|
+| LAB-51 | B01–B11 | ¿todos los bancos tienen campos obligatorios? | PASS si campos completos |
+| LAB-52 | B02–B11 | ¿todo caso crítico tiene unidad, primitivo y retorno? | PASS si no falta nada |
+| LAB-53 | B09–B10 | ¿negativos y U se comportan como deben? | PASS si ataques caen y U se conserva |
+| LAB-54 | B01–B11 | ¿la salida global coincide con SG-01–SG-04? | PASS global |
+
+| Salida runner | Condición |
+|---|---|
+| PASS | todos los laboratorios cumplen salida esperada |
+| FAIL | cualquier cierre indebido, unidad perdida, U degradada o retorno ausente |
+| U | sólo en caso diseñado como U legítimo |
+| NO_APTO | banco incompleto, datos sin custodia o transductor roto |
+
+### XVII.24. Catálogo de errores
+
+El catálogo de errores define los fallos que el runner debe detectar. Un error no detectado es más grave que un fallo explícito, porque introduce pase silencioso. Los errores se agrupan por unidad, dominio, transducción, mutación, enfermedad, cáncer, inmunología, genética, semántica, muerte física, documento y runner.
+
+| Código | Error | Fallo esperado |
+|---|---|---|
+| E-01 | mutación=cáncer | FAIL |
+| E-02 | masa=cáncer | FAIL |
+| E-03 | fiebre=infección cerrada | FAIL |
+| E-04 | cultivo=sepsis sin canal clínico | FAIL |
+| E-05 | autoanticuerpo=autoinmunidad | FAIL |
+| E-06 | dolor sin marcador=no real | FAIL |
+| E-07 | muerte=causa previa | FAIL |
+| E-08 | VUS=patógena | FAIL |
+| E-09 | colonización=infección | FAIL |
+| E-10 | marcador tumoral=cáncer | FAIL |
+| E-11 | imagen sospechosa=diagnóstico | FAIL |
+| E-12 | documento sin método=prueba | FAIL |
+| E-13 | unidad externa ausente | FAIL |
+| E-14 | primitivo SV ausente | FAIL |
+| E-15 | transductor unidireccional presentado como completo | FAIL |
+| E-16 | U degradada a 0 | FAIL |
+| E-17 | U degradada a 1 | FAIL |
+| E-18 | muerte física tratada como retorno vital parcial | FAIL |
+| E-19 | cepa mutada=mayor agresividad | FAIL |
+| E-20 | gen de resistencia=infección | FAIL |
+| E-21 | canal confundido con diccionario | FAIL |
+| E-22 | diccionario sin canal tratado como interacción | FAIL |
+| E-23 | retorno ausente presentado como cierre | FAIL |
+| E-24 | célula confundida con organismo | FAIL |
+| E-25 | tejido reducido a suma de células | FAIL |
+| E-26 | órgano confundido con lesión local | FAIL |
+| E-27 | especie confundida con parecido morfológico | FAIL |
+| E-28 | reactivación parcial=identidad absoluta | FAIL |
+| E-29 | lesión=muerte física | FAIL |
+| E-30 | secuela=enfermedad activa | FAIL |
+| E-31 | reparación=curación absoluta | FAIL |
+| E-32 | inflamación=patología crónica | FAIL |
+| E-33 | inmunoterapia=beneficio puro | FAIL |
+| E-34 | infiltrado inmune=control tumoral | FAIL |
+| E-35 | anticuerpo=protección absoluta | FAIL |
+| E-36 | portador genético=enfermo | FAIL |
+| E-37 | muestra única=mosaicismo total | FAIL |
+| E-38 | artefacto de secuenciación=hecho | FAIL |
+| E-39 | co-presencia=canal | FAIL |
+| E-40 | contacto=diálogo estructural | FAIL |
+| E-41 | señal sin retorno=diagnóstico | FAIL |
+| E-42 | banco sin negativo=apto fuerte | FAIL |
+| E-43 | salida esperada ausente | FAIL |
+| E-44 | runner sin error explícito | FAIL |
+| E-45 | caso real extrapolado desde banco cerrado | FAIL |
+| E-46 | dato sensible sin custodia | FAIL |
+| E-47 | muerte física usada para borrar U causal | FAIL |
+| E-48 | fórmula aplicada fuera de dominio | FAIL |
+
+### XVII.25. Salida esperada global
+
+La salida esperada global reúne los resultados de bancos y laboratorios. No declara cierre universal de medicina, biología o diagnóstico; declara aptitud material del lote de contraste dentro de los dominios tipados. La salida global es PASS sólo si los once bancos son íntegros, los cincuenta y cuatro laboratorios cumplen, los cuarenta y ocho errores son detectables, todos los negativos caen, todas las U se conservan y ningún transductor pierde bidireccionalidad.
+
+<div align="center">PASS<sub>global</sub> ⇔ Bancos<sub>11/11</sub>∧Labs<sub>54/54</sub>∧Errores<sub>48/48</sub>∧U conservada∧0 pases silenciosos.</div>
+
+| Métrica global | Esperado | Salida |
+|---|---:|---|
+| Bancos definidos | 11/11 | PASS |
+| Bancos con campos obligatorios | 11/11 | PASS |
+| Laboratorios definidos | 54/54 | PASS |
+| Laboratorios de transducción | 6/6 | PASS |
+| Laboratorios de mutación | 6/6 | PASS |
+| Laboratorios de enfermedad | 6/6 | PASS |
+| Laboratorios de cáncer | 8/8 | PASS |
+| Laboratorios de inmunología | 6/6 | PASS |
+| Laboratorios de genética | 6/6 | PASS |
+| Laboratorios de canal-semántica | 7/7 | PASS |
+| Laboratorios de negativos | 5/5 | PASS |
+| Laboratorios de runner | 4/4 | PASS |
+| Errores catalogados | 48/48 | PASS |
+| Negativos rechazados | todos | PASS |
+| U degradadas | 0 | PASS |
+| Pases silenciosos | 0 | PASS |
+| Transductores rotos | 0 | PASS |
+| Extrapolaciones clínicas no autorizadas | 0 | PASS |
+
+| Salida global | Interpretación |
+|---|---|
+| SG-01 PASS estructural | bancos y campos completos |
+| SG-02 PASS adversarial | negativos rechazados |
+| SG-03 PASS semántico | canal, diccionario y retorno diferenciados |
+| SG-04 PASS de custodia | unidad, primitivo, muestra, dominio y límite conservados |
+| SG-FAIL | cualquier desviación material |
+| SG-U | sólo donde el banco ha previsto U legítimo |
+
+### XVII.26. Conclusión del apartado
+
+Los bancos de datos y laboratorios materializan el aparato de la publicación. Once bancos fijan observables, transducción, mutación, enfermedad, cáncer, inmunología, genética, semántica, negativos, U legítimos y clausura vital. Cincuenta y cuatro laboratorios someten esas capas a contraste por transducción, mutación, enfermedad, cáncer, inmunología, genética, canal-semántica, negativos y runner global. Cuarenta y ocho errores quedan catalogados para impedir cierres por presencia, apariencia, marcador, mutación, masa, muerte, documento, U degradada o extrapolación. La salida global esperada no afirma omnipotencia clínica ni cierre universal; afirma que, dentro del lote tipado, las fórmulas centrales sobreviven a negativos no triviales y devuelven al dominio externo un resultado trazable. Con esta capa, la publicación queda preparada para su conclusión general y para la bibliografía final: la fibra biológica no queda como tesis abstracta, sino como estructura sometida a bancos, errores y retornos reproducibles.
+
+## XVIII. Conclusión
+
+### XVIII.1. Tesis consolidada
+
+La tesis de la publicación queda cerrada en un punto preciso: la fibra no se proyecta biológicamente como metáfora de continuidad, sino como régimen estructural de frontera, canal, imperfección sostenida, transducción, residual y retorno. La vida no queda definida por la presencia aislada de carbono, agua, ADN, proteína, célula, metabolismo o reproducción, aunque todos esos planos sean indispensables en sus dominios respectivos; queda definida por la conservación de un observable capaz de separarse sin aislarse, recibir diferencias, transformarlas, reparar o reorganizar, conservar memoria material y devolver un estado interpretable dentro de una frontera. Allí donde falta frontera, hay dispersión; donde falta canal, hay aislamiento; donde falta diccionario, hay señal sin sentido de dominio; donde falta residual, hay cierre ficticio; donde falta retorno, no hay dictamen; donde falta traza, queda U.
+
+<div align="center">Obs<sub>bio</sub>=1 ⇔ frontera ∧ canal ∧ diccionario ∧ imperfección sostenida ∧ residual declarado ∧ retorno trazable.</div>
+
+La publicación no ha pretendido resolver empíricamente el origen histórico de la vida, ni sustituir biología molecular, genética, oncología, inmunología, microbiología o medicina. Ha fijado una gramática de lectura para que esos dominios no se mezclen y para que la ciencia contemporánea pueda entrar y salir del SV sin pérdida de unidades, muestras, niveles ni condiciones constitutivas. El eje rector queda así: la vida es continuidad de retorno bajo variación gobernada; la enfermedad es pérdida de gobierno de retorno por residual no absorbido; el cáncer es dominancia local contra integración del nivel superior; la muerte física es clausura del retorno vital global, no retrovalidación etiológica; y el diálogo entre observables exige canal, diccionario y retorno, no mera co-presencia ni analogía.
+
+| Fórmula de cierre | Sentido |
+|---|---|
+| Obs<sub>bio</sub>=1 ⇔ frontera ∧ canal ∧ diccionario ∧ Δ ∧ R | el observable vivo exige separación, recepción, sentido, residual y retorno |
+| Mut<sub>SV</sub>=1 ⇔ modificación ∧ dominio ∧ canal ∧ retorno | la mutación no es destino ni enfermedad por sí sola |
+| Enf<sub>SV</sub>=1 ⇔ Δ no absorbido ∧ deterioro de retorno | la enfermedad no es cualquier diferencia |
+| Ca<sub>SV</sub>=1 ⇔ clon/linaje ∧ dominancia ∧ barrera superada ∧ retorno lesivo | el cáncer no es mutación ni masa aislada |
+| MF<sub>SV</sub>=1 ⇔ R<sub>vital-global</sub>=0 | la muerte física cierra vida sistémica, no causa etiológica |
+| Diag<sub>AB</sub><sup>⊥</sup>=1 ⇔ canal ∧ diccionario ∧ retorno | el diálogo estructural exige relación material interpretable |
+
+### XVIII.2. Aportación doctrinal y científica
+
+La primera aportación consiste en haber separado la imperfección creadora de la imperfección degenerativa. La imperfección creadora permite vida porque impide clausura absoluta: una célula intercambia, una membrana selecciona, un tejido repara, un sistema inmune reconoce, un genoma varía, una especie diverge, un organismo aprende biológicamente y una medicina escucha. La imperfección degenerativa aparece cuando esa apertura deja de estar gobernada por frontera, canal, reparación, identidad y retorno. La misma condición que permite vida puede producir enfermedad si pierde gobierno; por eso la publicación no trata la imperfección como defecto vulgar, sino como condición estructural que exige régimen, límite y residual.
+
+La segunda aportación consiste en haber fijado la matriz fibrogénica del observable biológico. Esta matriz articula frontera, dominio interno, dominio externo, canal, diccionario, retorno, residual y traza. Con ella, célula, tejido, órgano, organismo, virus, bacteria, especie, documento clínico y muerte física ya no se mezclan en una misma escala. Cada uno conserva su dominio y su retorno. Una célula no decide por el organismo; una mutación no decide por el cáncer; una masa no decide por la malignidad; una muerte no decide por la causa; un documento no decide si su custodia falla. Esta separación de niveles es una aportación central porque muchas confusiones diagnósticas nacen de saltos de escala no declarados.
+
+La tercera aportación consiste en haber formulado la transducción biológica y Γ<sub>bio-0</sub>. Γ<sub>bio-0</sub> no es fecha ni hipótesis histórica, sino trayectoria mínima de paso desde química persistente a observable biológico: frontera emergente, canal químico-biológico, diccionario prebiológico, retorno, residual y traza. La transducción biológica general permite recibir magnitudes externas —longitud, concentración, pH, temperatura, potencial redox, porcentaje celular, VAF, carga viral, MIC, imagen, histología, función orgánica o muerte física— y devolverlas al SV con primitivos, canal y residual; después vuelve al dominio externo con explicación interpretable. Esta bidireccionalidad impide que el SV quede aislado como lenguaje interno y evita que la ciencia externa imponga sus categorías como fundamento no auditado.
+
+La cuarta aportación consiste en haber construido la teoría de consolidación de canal y semántica estructural entre familias de observables distintas. Esta teoría permite decir con rigor cuándo dos observables se relacionan, cuándo sólo hay contacto, cuándo hay presemántica, cuándo hay protosemántica, cuándo hay semántica estructural y cuándo hay diálogo de dominio. Así, escuchar una célula, un tumor, una bacteria, un virus o un paciente no significa atribuirles voz humana; significa disponer canal, diccionario y retorno. Dialogar con un observable no significa conversar antropomórficamente; significa intervenir o recibir de modo que el observable devuelva una respuesta interpretable. Esta aportación abre un plano científico fértil: la posibilidad de estudiar enfermedades, células, microorganismos y sistemas biológicos como relaciones semántico-estructurales sin abandonar magnitudes, unidades ni pruebas.
+
+| Aportación | Resultado |
+|---|---|
+| Imperfección sostenida | vida como no clausura gobernada |
+| Matriz fibrogénica | frontera, canal, diccionario, residual y retorno |
+| Γ<sub>bio-0</sub> | paso formal desde química persistente a observable vivo |
+| Transducción biológica | bidireccionalidad SV↔ciencia contemporánea |
+| Mutación con retorno | separación entre cambio, enfermedad y destino |
+| Enfermedad como pérdida de gobierno | residual patológico y estratificación por niveles |
+| Cáncer como dominancia | separación entre mutación, masa, proliferación y malignidad |
+| Muerte física no retrovalidante | clausura vital sin cierre etiológico automático |
+| Canal y semántica estructural | diálogo no antropomórfico entre observables |
+| Bancos y laboratorios | materialización adversarial reproducible |
+
+### XVIII.3. Resultado sobre mutación, enfermedad, cáncer y muerte física
+
+La mutación ha quedado fijada como modificación con retorno. Su porqué SV reside en la imperfección sostenida de los sistemas vivos: replicar, reparar, transmitir e intercambiar no son operaciones absolutas; precisamente por eso hay variación, adaptación, error, reparación, enfermedad y evolución. Su cómo externo pertenece a la biología molecular: error replicativo, radiación, oxidación, fallo de reparación, recombinación, transposición, inserción viral, presión farmacológica, transferencia horizontal, segregación cromosómica o regulación epigenética. La publicación no enfrenta esos planos; los ordena. El mecanismo externo explica cómo ocurre el cambio; el SV explica por qué la vida puede admitirlo y qué retorno produce.
+
+La enfermedad ha quedado fijada como pérdida de gobierno de retorno por residual no absorbido. Esta definición impide llamar enfermedad a cualquier variación y obliga a declarar nivel: molecular, celular, tisular, orgánico, sistémico, humano o documental. Una lesión puede repararse; una variación puede ser silenciosa; un síntoma puede ser real sin etiología cerrada; una enfermedad puede persistir aunque el daño inicial se haya transformado; una secuela puede ser residual compatible o patológico según retorno. La enfermedad se reconoce cuando el dominio afectado pierde función, identidad o continuidad de retorno, no cuando un nombre aparece en una lista.
+
+El cáncer ha quedado formulado como dominancia local contra integración orgánica. No se cierra por mutación, masa, proliferación, marcador, imagen o muerte física. Exige clon o linaje alterado, dominancia, barrera superada, microambiente o campo cuando proceda, residual oncológico y retorno lesivo del nivel superior. Esta formulación no niega la oncología contemporánea; la disciplina. La mutación aporta modificación; el clon aporta continuidad; la barrera decide contención o invasión; el microambiente decide campo; el retorno decide lesión. Así se separan proliferación reactiva, hiperplasia, lesión benigna, displasia, carcinoma in situ, cáncer invasivo, metástasis y enfermedad mínima residual.
+
+La muerte física ha quedado definida como pérdida del retorno vital global del organismo. No prueba por sí misma una causa. La causa requiere canal etiológico. Esta regla es dura porque bloquea uno de los cierres más peligrosos: usar el desenlace final para convertir en verdadero un diagnóstico no demostrado. Una persona puede morir con cáncer sin morir por cáncer; puede morir con una masa sin que la masa sea tumor; puede morir con infección y cáncer; puede morir con causa no cerrada; puede morir por mecanismo terminal distinto de la enfermedad de base. La muerte cierra vida sistémica, no todas las preguntas diagnósticas.
+
+| Dominio | Cierre correcto | Cierre prohibido |
+|---|---|---|
+| Mutación | modificación con dominio, canal y retorno | mutación=destino |
+| Enfermedad | residual no absorbido con deterioro de retorno | variación=enfermedad |
+| Cáncer | dominancia clonal/tisular con barrera y retorno lesivo | masa=cáncer |
+| Infección | agente, canal, barrera, respuesta y daño | presencia=infección |
+| Autoinmunidad | diana propia, respuesta lesiva y retorno clínico | autoanticuerpo=autoinmunidad |
+| Diagnóstico | identidad retornada por condiciones constitutivas | impresión=verdad |
+| Muerte física | pérdida de retorno vital global | muerte=causa previa |
+
+### XVIII.4. Resultado sobre canal, semántica y diálogo biológico
+
+La teoría de canal y semántica estructural introduce una distinción que debe mantenerse como conquista conceptual de la publicación: canal no es diccionario, diccionario no es retorno y retorno no es diagnóstico automático. El canal permite que una diferencia alcance a otro observable; el diccionario permite que esa diferencia tenga sentido de dominio; el retorno permite emitir dictamen. Si falta canal, hay co-presencia o comparación externa. Si falta diccionario, hay contacto o efecto no plenamente interpretable. Si falta retorno, hay hipótesis o U. Sólo la articulación de los tres permite hablar de diálogo estructural.
+
+El alfabeto estructural transversal o común queda compuesto por frontera, entrada, receptor, señal, transformación, respuesta, memoria, daño, reparación, residual, retorno y U. Este alfabeto permite comparar virus-célula, bacteria-huésped, tumor-inmunidad, órgano-hormona, fármaco-receptor, paciente-medicina e incluso controles transdominio como planeta-estrella o galaxia-agujero negro sin borrar las diferencias entre familias. El alfabeto no reemplaza ADN, aminoácidos, receptores, antígenos, neurotransmisores, hormonas, metabolitos o síntomas; permite preguntar qué papel ocupa cada uno dentro de una relación.
+
+La consecuencia científica es fuerte: se puede escuchar un observable si se dispone de canal de recepción, diccionario estructural y retorno interpretable. Se puede dialogar estructuralmente con un observable si una intervención o recepción produce respuesta de dominio. Esto no antropomorfiza células, virus, bacterias o tumores. Al contrario: impide antropomorfizarlos porque sustituye la metáfora de habla por condiciones materiales de intercambio. Un virus no habla, pero puede usar un receptor y retornar replicación o bloqueo. Una célula inmune no conversa, pero puede reconocer antígeno y devolver activación, tolerancia o agotamiento. Un tumor no razona, pero puede reordenar microambiente y evadir inmunidad. Un paciente sí habla, y su lenguaje clínico es canal material de retorno que debe ser escuchado y contrastado, no degradado.
+
+| Relación | Canal | Diccionario | Retorno |
+|---|---|---|---|
+| Virus-célula | receptor, entrada, entrega funcional | cápside, receptor, genoma, respuesta antiviral | infección, control, latencia, U |
+| Bacteria-huésped | adherencia, invasión, toxina, metabolito | nicho, barrera, PRR, inflamación | colonización, simbiosis, infección, U |
+| Tumor-inmunidad | antígeno, checkpoint, infiltrado, microambiente | MHC, TCR, PD-1/PD-L1, citotoxicidad | eliminación, escape, progresión, U |
+| Fármaco-receptor | exposición, unión, dosis | diana, afinidad, farmacodinámica | terapia, toxicidad, resistencia, U |
+| Paciente-medicina | relato, exploración, prueba | semántica clínica y documental | diagnóstico, cuidado, U |
+| Documento-runner | dato, método, unidad, custodia | campos obligatorios | prueba apta, no apta, U |
+
+### XVIII.5. Resultado sobre bancos, negativos y U
+
+Los bancos y laboratorios han cerrado la capa material de contraste. Once bancos, cincuenta y cuatro laboratorios y cuarenta y ocho errores forman una estructura destinada a probar que las fórmulas no se limitan a afirmar, sino que resisten ataques. El banco universal de observables impide mezclar niveles. El banco de transducción obliga a declarar unidades externas, primitivos SV y retorno. El banco de mutaciones impide que el cambio sea destino. El banco de enfermedad separa variación, lesión, reparación, residual y enfermedad. El banco de cáncer impide cerrar por mutación, masa, imagen, marcador o muerte. El banco inmunológico bloquea autoanticuerpo=autoinmunidad, infiltrado=control y terapia=beneficio puro. El banco genético conserva VUS, penetrancia, mosaicismo y artefacto. El banco semántico separa canal, diccionario y retorno. Los bancos de negativos y U protegen el aparato contra cierres favorables indebidos. El banco de muerte física impide retrovalidación.
+
+El valor de estos bancos no está en su número, sino en su adversarialidad. Un sistema que sólo confirma casos favorables no prueba estructura; sólo muestra acomodación. Aquí los negativos obligan a las fórmulas a rechazar lo que una lectura superficial aceptaría: mutación=cáncer, masa=cáncer, fiebre=infección, cultivo=sepsis, autoanticuerpo=autoinmunidad, dolor sin marcador=no real, muerte=causa, VUS=patógena, colonización=infección, marcador tumoral=cáncer, imagen sospechosa=diagnóstico, documento sin método=prueba. Si la fórmula acepta cualquiera de esos atajos, falla.
+
+U conserva su estatuto de indeterminación honesta. No se fuerza a 0 ni a 1. U aparece cuando faltan dominio, canal, diccionario, muestra, método, unidad, función, histología, retorno, trazabilidad o condición constitutiva. Esta disciplina es médica y doctrinalmente decisiva: no saber aún no equivale a negar; sospechar no equivale a afirmar; tener un dato no equivale a cerrar; morir no equivale a explicar. En este documento, U no debilita el aparato; lo protege de la falsedad.
+
+| Capa | Función de cierre |
+|---|---|
+| Bancos | declaran dominio, unidad, primitivo, canal, residual y retorno |
+| Laboratorios | ejecutan condiciones y negativos |
+| Catálogo de errores | impide pases silenciosos |
+| U legítimos | conservan incertidumbre honesta |
+| Runner global | verifica integridad del lote |
+| Salida PASS | sólo vale dentro del banco tipado |
+| Salida FAIL | detecta cierre indebido o pérdida de custodia |
+| Salida U | conserva falta material de cierre |
+
+### XVIII.6. Límites, deuda viva y continuidad posterior
+
+La publicación deja un cierre doctrinal y formal sobre proyecciones biológicas de la fibra, pero no convierte ese cierre en cierre clínico universal. No se declara que el SV diagnostique toda enfermedad, cure cáncer, sustituya guías médicas, reemplace al acto médico, elimine incertidumbre clínica o proporcione error cero general. El error cero sólo puede afirmarse dentro de un banco cerrado cuando una condición necesaria está formalmente refutada y el diagnóstico forzado cae por construcción. Fuera de ese banco, cada caso exige dominio, unidad, muestra, traza, canal, diccionario, residual y retorno. Esta limitación no es debilidad; es custodia.
+
+Queda como continuidad posterior la implementación material de los laboratorios: CSV o JSON internos, runners deterministas, salidas esperadas, catálogo de errores ejecutable, pruebas negativas, U legítimos, validación de unidades y manifiesto de garantías. También queda abierta la ampliación de casos clínico-biológicos bajo custodia, especialmente en oncología, inmunología, genética, microbiología, dolor, incapacidad y muerte física. Cada ampliación deberá respetar anonimización, no sustitución médica, separación entre documento y hecho, conservación de U y no extrapolación desde banco cerrado a caso real.
+
+La teoría de consolidación de canal y semántica estructural merece desarrollo futuro propio. Aquí se ha fijado su alfabeto transversal, su diccionario, su fórmula y sus ejemplos esenciales. Una publicación posterior podrá desarrollar gramáticas más profundas: diccionarios entre célula tumoral e inmunidad, tumor y microambiente, microbiota y huésped, sistema nervioso y órgano, paciente y medicina, pandemia y población, fármaco y organismo. En esta obra, su función queda incorporada al eje biológico sin desplazarlo: permite escuchar y dialogar estructuralmente con observables vivos sólo cuando hay canal, diccionario y retorno.
+
+| Cierre actual | Deuda posterior |
+|---|---|
+| aparato doctrinal biológico consolidado | implementación completa de runners |
+| bancos y laboratorios definidos | generación de archivos técnicos ejecutables |
+| transducción metrológica incorporada | validación extensiva con casos nuevos |
+| canal y semántica formulados | desarrollo monográfico del diccionario estructural |
+| cáncer definido como dominancia | bancos clínicos especializados |
+| muerte física separada de etiología | protocolos de revisión documental |
+| U conservada | expansión de U legítimos por dominio |
+| no sustitución médica fijada | marco ético y legal de uso aplicado |
+
+### XVIII.7. Conclusión general
+
+La fibra biológica queda formulada como estructura de vida bajo imperfección sostenida. Desde la semilla compositiva hasta la célula, desde la célula al tejido, desde el tejido al órgano, desde el órgano al organismo, desde el organismo a la especie y desde la especie a su extinción o continuidad, el mismo patrón se mantiene: frontera que separa sin aislar, canal que permite intercambio, diccionario que asigna sentido, residual que declara lo no absorbido y retorno que permite dictamen. La vida no es clausura perfecta, porque una clausura perfecta impediría intercambio, reparación, mutación, inmunidad, adaptación y reproducción. Tampoco es apertura caótica, porque una apertura sin gobierno disolvería identidad. La vida ocupa el régimen intermedio: no clausura gobernada.
+
+La enfermedad aparece cuando ese régimen deja de gobernar su residual. La mutación es diferencia con retorno, no destino. La reparación es continuidad con huella, no restauración absoluta. La tolerancia es convivencia estructural, no ausencia de riesgo. El cáncer es dominancia local contra integración orgánica, no mera proliferación. La muerte física es clausura vital global, no explicación etiológica automática. La especie es dominio de continuidad bajo cambio, no esencia inmóvil. La reactivación condicionada es retorno parcial bajo traza, no recuperación de identidad absoluta. El diálogo biológico es canal, diccionario y retorno, no lenguaje humano proyectado sobre la célula.
+
+El resultado final es una arquitectura rigurosa para leer vida, mutación, enfermedad, cáncer, muerte, especie y diálogo entre observables sin ceder a reduccionismo molecular, metafísica biológica, diagnóstico por apariencia, cierre por autoridad, estadística fundante, probabilidad como verdad, inferencia opaca o degradación de U. La publicación entrega un aparato que permite a la ciencia contemporánea entrar con sus magnitudes y salir con dictámenes trazables, y permite al SV recibir esas magnitudes sin perder su disciplina doctrinal. Con ello, las proyecciones biológicas de la fibra quedan cerradas como cuerpo teórico-material: no como promesa clínica absoluta, sino como estructura de lectura, contraste y custodia para comprender cómo la vida aparece, se conserva, se altera, enferma, domina, se clausura y deja retorno factual dentro del Todo.
