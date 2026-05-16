@@ -67,6 +67,7 @@ Esta obra se ofrece como publicación doctrinal, matemática, semántica y cient
 - <a href="#sec-iv-2">IV.2. Tabla SV→D: retorno a ciencia contemporánea</a>
 - <a href="#sec-iv-3">IV.3. Tabla metrológica SI→SV y SV→SI</a>
 - <a href="#sec-iv-4">IV.4. Tabla de transductores singulares</a>
+- <a href="#sec-iv-5">IV.5. Conclusión del apartado</a>
 
 </details>
 
@@ -287,7 +288,7 @@ Esta obra se ofrece como publicación doctrinal, matemática, semántica y cient
 <details>
 <summary><strong><a href="#sec-anexo-i">Anexo I. Bloque clínico-biológico diagnóstico: transductor simultáneo, banco cerrado y paquete reproducible</a></strong></summary>
 
-- Sin subapartados.
+- Los apartados AI.1–AI.16 se despliegan a continuación como bloque propio.
 
 </details>
 
@@ -592,6 +593,7 @@ Toda instancia factual realizada que alcanza cierre final no desaparece sin traz
 ### I.9. Conclusión del apartado
 
 La tesis inicial queda cerrada en una cadena estricta: ε−0 abre la posibilidad de distinguibilidad; 𝓕−0^Obs=ε−0|Obs abre la función observacional; 𝓒★ObsU gobierna todo observable; 𝓖★TrU(D) deriva los transductores de dominio; la regla metrológica SV↔ciencia contemporánea obliga a trabajar con unidades reales; la orientación polar de cierre explica el motor común; mutación, enfermedad y cáncer muestran variación, patología y dominancia local; la muerte física muestra clausura local del observable biológico-corporal y retorno factual de la traza al Todo. Desde esta base, la teoría dispone de fórmula universal, familia de transductores, unidades reales, dominios singulares, retorno externo y cierre factual.  
+
 <a id="sec-ii"></a>
 ## II. ε−0, fibra primigenia de observabilidad y dominio de lo observable
 
@@ -621,6 +623,7 @@ Teorema: 𝓕−0^Obs no es un segundo principio distinto de ε−0, sino la res
 ### II.5. Conclusión del apartado
 
 La fibra primigenia de observabilidad queda fijada sin duplicar el origen: 𝓕−0^Obs es ε−0 bajo función observacional, no una raíz nueva ni una fórmula física. ε−0 abre la primera distinguibilidad; 𝓕−0^Obs orienta esa apertura hacia observabilidad; ∂Obs separa la posibilidad observable; DObs constituye el dominio formal de observación; ObsU(D) recibe candidatos de dominio; 𝓒★ObsU gobierna su admisión, rechazo o U; 𝓖★TrU(D) deriva el transductor que los devuelve a la ciencia correspondiente. Con esta cadena, la teoría conserva el plano preformal, evita convertir ε−0 en objeto, impide que la fórmula universal sustituya al fundamento y prepara el paso hacia las familias de observabilidad, los dominios biológicos, la mutación, la enfermedad, el cáncer, la clausura final y el retorno factual al Todo.
+
 <a id="sec-iii"></a>
 ## III. Familia universal de transductores
 
@@ -657,6 +660,7 @@ Teorema: ningún transductor singular es legítimo si no deriva de 𝓖★TrU(D)
 ### III.6. Conclusión del apartado
 
 La familia universal de transductores queda fijada como derivación necesaria de 𝓒★ObsU mediante 𝓖★TrU(D): 𝔛obs conserva la forma general de observabilidad; los transductores de dominio tipan magnitudes, unidades y retornos; los transductores singulares permiten estudiar cepas, enfermedades, tumores, especies, humanos y documentos sin perder precisión material. La universalidad de la fórmula no elimina la singularidad del caso: la exige. Ninguna afirmación fuerte puede cerrar sin dominio, unidad, frontera, identidad, canal, barrera, residual, retorno y traza; ningún resultado SV queda completo si no vuelve a la ciencia contemporánea con unidades reales y límite declarado.
+
 <a id="sec-iv"></a>
 ## IV. Tablas de transducción SV↔ciencia contemporánea
 
@@ -731,6 +735,13 @@ La tabla de transductores singulares impide que los casos se traten por generali
 | 𝔛evo(E_k↔SV) | Especie o linaje | Linaje, población, barrera, traza | rasgo, bp, fósil, registro | Especie fuerte, extinción o U | Semejanza sin linaje ni barrera |
 | 𝔛human(H↔SV) | Humano singular | Organismo, identidad, lenguaje, documento, traza | unidad biológica, biográfica y documental | Fibra humana y proyecciones | Documento confundido con persona |
 | 𝔛doc(Doc↔SV) | Documento concreto | Texto, versión, autoría, firma, hash, custodia | hash, fecha, licencia, soporte | Documento fuerte o texto débil | Custodia sin traza |
+
+<a id="sec-iv-5"></a>
+### IV.5. Conclusión del apartado
+
+Las tablas de transducción fijan la obligación material de entrada y retorno entre SV y ciencia contemporánea. La recepción D→SV impide que una magnitud, señal, lesión, variante, célula, especie, documento o caso clínico entre sin dominio, unidad, frontera, identidad, canal, barrera, residual, retorno y traza. El retorno SV→D impide que el dictamen quede encerrado en lenguaje interno: toda salida debe volver al dominio externo con unidad, entidad, escala o semántica reconocible.
+
+La tabla metrológica conserva la correspondencia SI→SV y SV→SI, y las unidades biológicas o clínicas se declaran como unidades de dominio cuando no sean magnitudes SI simples. La tabla de transductores singulares evita que los casos se resuelvan por generalidad: cepa, mutación, enfermedad, tumor, especie, humano y documento requieren entrada mínima, unidad o entidad, salida esperada y negativo principal. Con ello, el apartado IV queda cerrado como puente técnico entre fórmula universal, transductores sectoriales y bancos posteriores: lo que no pueda entrar y retornar de forma declarada permanece en U, NO_APTO o rechazo según el residual.
 
 <a id="sec-v"></a>
 ## V. Inscripción celular exacta y familias primarias
@@ -1233,6 +1244,7 @@ La matriz negativa protege la lectura oncológica frente a tres reducciones: red
 ### XII.5. Conclusión del apartado
 
 El cáncer queda formulado como dominancia local de una subfibra celular contra la integración orgánica. Su estatuto no procede de la mutación aislada ni de la sospecha clínica, sino de la convergencia entre identidad clonal o tumoral, frontera, canal proliferativo, barreras de control superadas, residual oncológico, retorno médico-biológico y traza. 𝔛onc(Ca↔SV) recibe el dominio general y 𝔛onc(Ca_τ↔SV) tipa cada tumor concreto por órgano, histología, perfil molecular, extensión, estadio, microambiente, respuesta y seguimiento. Con esta base, el cáncer se distingue de mutación, enfermedad genérica, masa, lesión benigna, riesgo hereditario y sospecha; queda preparado el paso hacia la clausura final, donde algunas trayectorias oncológicas pueden resolverse por contención, respuesta, remisión, progresión, recaída o muerte física como clausura local de la fibra biológico-corporal, sin convertir ninguna de esas salidas en cierre no trazado.
+
 <a id="sec-xiii"></a>
 ## XIII. Clausura final, muerte física y retorno factual al Todo
 
