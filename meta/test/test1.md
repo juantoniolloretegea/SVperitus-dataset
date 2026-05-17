@@ -9,7 +9,7 @@ Advertencia de derechos, autoría, licencia, DOI, colección y repositorio
 
 Índice  
 
-0. Planteamiento general
+0 Planteamiento general
 
 0.1. Problema rector: distancia, retorno y separación entre observables
 0.2. Por qué “distancia del Universo” no es lo mismo que distancia entre observables
