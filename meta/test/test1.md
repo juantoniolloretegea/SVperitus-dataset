@@ -1,11 +1,16 @@
 # Distancia absoluta y relativa entre observables del Universo  
 
 Resumen  
+
 Abstract  
+
 Advertencia de derechos, autoría, licencia, DOI, colección y repositorio  
 
+
 Índice  
-0. Planteamiento general  
+
+0. Planteamiento general
+
 0.1. Problema rector: distancia, retorno y separación entre observables
 0.2. Por qué “distancia del Universo” no es lo mismo que distancia entre observables
 0.3. Totalidad, universo observable y contenido físico retornado
@@ -25,7 +30,9 @@ I.6. Separación entre d^{SV}_Φ, DistInter^{SV}_{a,b}(Γ), dist(Γ₀,𝒞) y �
 I.7. Por qué no se inventa operador nuevo si el aparato ya absorbe el dominio
 I.8. Criterio de apertura de transductor nuevo sólo por insuficiencia demostrada
 I.9. Tabla de operadores SV ya disponibles y función en esta publicación
+
 II. Estado del arte físico contemporáneo sobre distancias cosmológicas  
+
 II.1. Ley de Hubble-Lemaître y régimen local de bajo corrimiento al rojo
 II.2. Corrimiento al rojo cosmológico y factor de escala
 II.3. Distancia propia, distancia comóvil, distancia de luminosidad y distancia angular
@@ -39,7 +46,9 @@ II.10. JWST, galaxias de alto z y presión sobre formación temprana de estructu
 II.11. DESI y posibles indicios de energía oscura evolutiva
 II.12. Límites del estado del arte: qué mide la física y qué no mide
 II.13. Tabla preliminar de magnitudes físicas admitidas
+
 III. Corrección SV del problema: el Universo no se mide como objeto expansivo total  
+
 III.1. La totalidad no comparece como objeto físico interno
 III.2. El Universo como completitud estructural y no como cuerpo en expansión
 III.3. El universo observable como dominio de retornos físicos
@@ -51,7 +60,9 @@ III.8. Factor de escala: parámetro de modelo, no tiempo rector SV
 III.9. Velocidad recesional: magnitud física derivada, no primitiva SV
 III.10. Tesis de completitud y separación: formulación fuerte
 III.11. Primera tabla de errores de plano
+
 IV. Tipología estricta de distancias  
+
 IV.1. Distancia factual fibrosa local d^{SV}_Φ
 IV.2. Distancia factual fibrosa global D^{SV}_Φ(Γ)
 IV.3. Defecto telescópico Δ^Φ_q
@@ -66,7 +77,9 @@ IV.11. Separación relativa entre observables
 IV.12. Distancia absoluta respecto del origen formal de potencial
 IV.13. Distancia no admisible: totalidad absoluta como objeto medible
 IV.14. Tabla maestra de distancias, dominios, unidades, errores y retorno
+
 V. Dominio de observables cosmológicos  
+
 V.1. Definición de observable físico cosmológico admisible
 V.2. Galaxias profundas
 V.3. Cúmulos y supercúmulos
@@ -80,7 +93,9 @@ V.10. Hidrógeno, Lyman-α y línea de 21 cm
 V.11. Retornos luminosos extremos
 V.12. Objetos sin identidad suficiente: conservación de U
 V.13. Tabla de admisibilidad de observables
+
 VI. Transductor físico-factual de distancia cosmológica  
+
 VI.1. Necesidad del transductor 𝔛^{dist}_{SV↔FC}
 VI.2. Dominio físico contemporáneo Ω_FC^dist
 VI.3. Dominio SV de llegada Ω_SV^dist
@@ -93,7 +108,9 @@ VI.9. Dictamen {APTO, NO_APTO, U}
 VI.10. Criterio de error cero de plano, definición y transducción
 VI.11. Tabla de equivalencia entre magnitudes físicas y lectura SV
 VI.12. Teorema de no colapso del transductor en una sola dirección
+
 VII. Fórmula directriz de distancia absoluta y relativa entre observables  
+
 VII.1. Objeto formal de la fórmula
 VII.2. Observables 𝒪_i, 𝒪_j, trayectoria Γ, modelo físico 𝓜 y banco 𝓑
 VII.3. Residual compuesto Δ^{SV↔FC}_{dist}
@@ -106,7 +123,9 @@ VII.9. Teorema de legitimidad de la fórmula directriz
 VII.10. Teorema de no sustitución de Friedmann, Hubble-Lemaître ni ΛCDM
 VII.11. Teorema de absorción instrumental de distancias físicas
 VII.12. Teorema de separación entre completitud estructural y expansión de modelo
+
 VIII. Absorción, absorción parcial y rechazo de teorías y ecuaciones externas  
+
 VIII.1. Criterio general de absorción
 VIII.2. Ley de Hubble-Lemaître: absorción local condicionada
 VIII.3. Relación 1+z = a(t₀)/a(t_e): absorción espectral-expansiva
@@ -122,7 +141,9 @@ VIII.12. Big Bang como régimen físico de modelo retrospectivo: absorción parc
 VIII.13. Expansión de la totalidad absoluta: rechazo de plano
 VIII.14. Universo como cuerpo que crece en un exterior: rechazo de plano
 VIII.15. Tabla general de absorción de modelos contemporáneos
+
 IX. Galaxias, separación y velocidad: núcleo físico del documento  
+
 IX.1. Qué significa físicamente que dos galaxias se separen
 IX.2. Galaxias ligadas y galaxias comóviles
 IX.3. Separación propia y separación comóvil
@@ -136,7 +157,9 @@ IX.10. Lectura SV de la separación entre galaxias
 IX.11. Teorema de desambiguación de la velocidad cosmológica
 IX.12. Teorema de separación entre distanciamiento observable y expansión de totalidad
 IX.13. Banco de casos galácticos canónicos
+
 X. Distancia absoluta respecto del origen formal de potencial  
+
 X.1. Definición restringida de distancia absoluta
 X.2. Origen de potencial (0,0) y prohibición de espacialización
 X.3. Distancia absoluta como referencia formal, no como radio físico del Universo
@@ -149,7 +172,9 @@ X.9. Casos no aptos
 X.10. Casos U
 X.11. Teorema de no identificación entre origen formal y Big Bang  
 X.12. Tabla de distancias absolutas admisibles y no admisibles
+
 XI. Distancia relativa entre observables
+
 XI.1. Definición de distancia relativa
 XI.2. Par ordenado de observables (𝒪_i,𝒪_j)
 XI.3. Métrica homogénea o transductor obligatorio
@@ -162,7 +187,9 @@ XI.9. Distancia relativa física por magnitudes cosmológicas
 XI.10. Residual relativo Δ_rel
 XI.11. Teorema de comparación legítima entre observables
 XI.12. Tabla de pares observacionales
+
 XII. Teoremas centrales  
+
 XII.1. Teorema 1 — No medibilidad de la totalidad absoluta como distancia física
 XII.2. Teorema 2 — Legitimidad de la distancia entre observables físicos declarados
 XII.3. Teorema 3 — No equivalencia entre corrimiento al rojo y distancia sin modelo
@@ -174,7 +201,9 @@ XII.8. Teorema 8 — Retorno físico controlado de toda distancia absorbida
 XII.9. Teorema 9 — Error cero de plano, definición y transducción
 XII.10. Teorema 10 — Falsabilidad por bancos negativos
 XII.11. Corolarios de cierre
-XIII. Bancos de contraste inyectados en el texto  
+
+XIII. Bancos de contraste inyectados en el texto 
+
 XIII.1. Estatuto del banco: demostración, no decoración
 XIII.2. Banco B1 — Tipos de distancia cosmológica
 XIII.3. Banco B2 — Corrimiento al rojo y distancia
@@ -191,7 +220,9 @@ XIII.13. Banco B12 — Casos U por insuficiencia de firma o residual
 XIII.14. Banco B13 — Absorciones totales, parciales y rechazos
 XIII.15. Tabla maestra del banco completo
 XIII.16. Salida global esperada
+
 XIV. Bancos negativos y reducción al absurdo  
+
 XIV.1. Función de los negativos
 XIV.2. Negativo N1 — Usar v = cz para z alto
 XIV.3. Negativo N2 — Igualar distancia de luminosidad y distancia angular
@@ -204,7 +235,9 @@ XIV.9. Negativo N8 — Convertir energía oscura dinámica en cierre definitivo
 XIV.10. Negativo N9 — Confundir retorno luminoso con edad absoluta
 XIV.11. Negativo N10 — Declarar coincidencia SV↔física sin residual
 XIV.12. Tabla de negativos, error inducido, dictamen esperado y código
+
 XV. Laboratorios reproducibles  
+
 XV.1. Arquitectura del paquete laboratorial
 XV.2. Datos de entrada
 XV.3. Esquema CSV / JSON de trazabilidad
@@ -224,7 +257,9 @@ XV.16. LAB-12 — Runner integral
 XV.17. Salida esperada
 XV.18. Salida obtenida
 XV.19. Garantía de no pases silenciosos
+
 XVI. Catálogo de errores  
+
 XVI.1. E-DIST-01 — Distancia sin dominio
 XVI.2. E-DIST-02 — Magnitud sin unidad
 XVI.3. E-DIST-03 — Corrimiento al rojo usado como distancia directa
@@ -240,7 +275,9 @@ XVI.12. E-DIST-12 — U degradada a ignorancia o fallo
 XVI.13. E-DIST-13 — Banco positivo sin negativo correspondiente
 XVI.14. E-DIST-14 — Laboratorio con pase silencioso
 XVI.15. Tabla final del catálogo de errores
+
 XVII. Discusión física  
+
 XVII.1. Qué absorbe el SV de la cosmología contemporánea
 XVII.2. Qué absorbe parcialmente
 XVII.3. Qué rechaza como fundamento
@@ -251,7 +288,9 @@ XVII.7. Lectura de aceleración y energía oscura
 XVII.8. Lectura de JWST, alto z y formación temprana
 XVII.9. Lectura de la completitud estructural del Universo
 XVII.10. Límites honestos de la publicación
+
 XVIII. Conclusión  
+
 XVIII.1. Resultado doctrinal
 XVIII.2. Resultado técnico
 XVIII.3. Resultado físico-factual
@@ -259,12 +298,16 @@ XVIII.4. Resultado laboratorial
 XVIII.5. Fórmula directriz final
 XVIII.6. Dictamen de absorción global
 XVIII.7. Aperturas posteriores legítimas
+
 XIX. Referencias  
+
 XIX.1. Bibliografía física contemporánea
 XIX.2. Bibliografía cosmológica observacional
 XIX.3. Bibliografía del corpus SV
 XIX.4. Recursos de datos y misiones observacionales
+
 XX. Anexo A — Tablas completas de magnitudes, dominios y transductores  
+
 A.1. Tabla de magnitudes físicas
 A.2. Tabla de magnitudes SV
 A.3. Tabla de unidades SI ↔ SV
@@ -272,7 +315,9 @@ A.4. Tabla de dominios y codominios
 A.5. Tabla de invariantes
 A.6. Tabla de residuales
 A.7. Tabla de retorno físico controlado
+
 XXI. Anexo B — Especificación reproducible de bancos y laboratorios  
+
 B.1. Estructura de carpetas
 B.2. Contrato CSV
 B.3. Contrato JSON
