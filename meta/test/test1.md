@@ -1,6 +1,6 @@
-Distancia absoluta y relativa entre observables del Universo
-Resumen
-Abstract
+Distancia absoluta y relativa entre observables del Universo  
+Resumen  
+Abstract  
 Advertencia de derechos, autoría, licencia, DOI, colección y repositorio
 Índice
 0. Planteamiento general
