@@ -202,7 +202,7 @@ XII.9. Teorema 9 — Error cero de plano, definición y transducción
 XII.10. Teorema 10 — Falsabilidad por bancos negativos
 XII.11. Corolarios de cierre
 
-XIII. Bancos de contraste inyectados en el texto 
+XIII. Bancos de contraste
 
 XIII.1. Estatuto del banco: demostración, no decoración
 XIII.2. Banco B1 — Tipos de distancia cosmológica
@@ -1300,5 +1300,512 @@ Un banco queda admitido si contiene entradas no triviales, heterogéneas y traza
 
 La salida global esperada es una matriz de dictamen que no colapse la diversidad de casos. Las distancias físicas bien tipadas deben devolver `APTO`; las tensiones entre rutas competentes deben devolver `PARCIAL`; las formulaciones que tratan la totalidad como objeto, `z` como distancia, `D_L` como `D_A`, `v=cz` en alto redshift o `(0,0)` como Big Bang deben devolver `NO_APTO`; los candidatos sin firma suficiente deben devolver `U` hasta nueva base. La fórmula directriz queda validada sólo si acepta lo que debe aceptar y rechaza lo que debe rechazar. Si un banco negativo obtiene `APTO`, falla el aparato. Si un banco positivo bien tipado obtiene `NO_APTO`, hay sobrebloqueo. Si un caso sin firma obtiene cierre favorable, hay cierre espurio. El resultado correcto es, por tanto, una distribución no uniforme de dictámenes, con error cero de plano y retorno físico controlado en cada fila apta.
 
+# XIV. Bancos negativos y reducción al absurdo
+
+Los bancos negativos fuerzan al aparato a demostrar que no acepta formulaciones defectuosas. La reducción al absurdo opera así: se toma una afirmación cosmológica aparentemente comprensible, se le exige dominio, magnitud, unidad, ecuación, régimen, transductor y retorno, y se comprueba si la formulación conserva o rompe alguna compuerta. Si la rompe y aun así devuelve aptitud, la fórmula directriz falla; si la rompe y activa el defecto esperado, el banco confirma que el cierre no depende de simpatía teórica. Cada negativo tendrá una versión corregida para impedir que el rechazo parezca rechazo del fenómeno físico: se rechaza la forma defectuosa, no necesariamente el dato, la observación ni la ecuación física bien usada. El objetivo es que todo cierre favorable quede rodeado por casos que habrían podido derrotarlo.
+
+## XIV.1. Función de los negativos
+
+La función de los negativos es impedir que el análisis sea confirmatorio. Un banco con sólo casos aptos puede probar consistencia interna, pero no prueba capacidad de discriminación. Los negativos introducen errores deliberados de dominio, magnitud, unidad, ecuación, régimen, transducción, origen, totalidad y retorno. Si el error consiste en usar `z` como distancia, debe activarse `Δ_m` o `Δ_u`; si consiste en usar `v=cz` para alto redshift, debe activarse `Δ_reg`; si consiste en tratar `(0,0)` como Big Bang físico, debe activarse `Δ_{id0}` y `Δ_{temp0}`; si consiste en medir la totalidad como objeto, debe activarse `Δ_Ω`; si consiste en mezclar `D_L` y `D_A`, debe activarse `Δ_m`. Cada negativo tiene una predicción de fallo; sin esa predicción no hay reducción al absurdo, sólo listado de errores.
+
+## XIV.2. Negativo N1 — Usar `v = cz` para `z` alto
+
+El negativo N1 toma una galaxia de alto redshift y aplica `v=cz` como si el corrimiento al rojo fuera una velocidad ordinaria. La reducción al absurdo es inmediata: para `z=6`, `v=6c`; para `z=14`, `v=14c`; si se leyera como velocidad local, el resultado sería físicamente absurdo y violaría el tipo de magnitud. La salida correcta no consiste en negar la galaxia ni el redshift, sino en rechazar la ecuación usada fuera de régimen. La formulación apta reemplaza `v=cz` por cálculo cosmológico de distancia bajo `H(z)` y mantiene `v_rec` como magnitud de modelo si procede. Compueras esperadas: `Δ_reg=1`, `Δ_𝓔=1`, `Δ_ret=1` si se presenta como velocidad local. Dictamen: `NO_APTO`.
+
+## XIV.3. Negativo N2 — Igualar distancia de luminosidad y distancia angular
+
+El negativo N2 afirma `D_L=D_A` para objetos cosmológicos sin aplicar la relación de redshift correspondiente. La reducción al absurdo usa la propia estructura de distancias: en cosmología estándar, bajo las condiciones usuales de reciprocidad, `D_L=(1+z)^2D_A`. Si `z>0`, igualarlas sin justificación borra factores de energía, tasa de llegada y geometría observacional. La formulación defectuosa mezcla retorno luminoso con relación angular, dos magnitudes que responden a preguntas diferentes. La versión apta declara `D_L`, `D_A`, `D_M`, redshift y modelo, y sólo compara magnitudes tras conversión explícita. Compuertas esperadas: `Δ_m=1`, `Δ_𝓔=1`, y eventualmente `Δ_ret=1` si la salida física cambia de tipo. Dictamen: `NO_APTO`.
+
+## XIV.4. Negativo N3 — Tratar `(0,0)` como Big Bang físico
+
+El negativo N3 identifica el origen formal `(0,0)` con el Big Bang físico. La reducción al absurdo exige que una referencia formal sin unidad física reciba temperatura, densidad, curvatura, coordenada temporal, régimen dinámico y lugar en una historia cosmológica; esa transferencia rompe el tipo del origen. El Big Bang puede funcionar como régimen físico retrospectivo de modelo, con estados tempranos, redshift, temperatura, densidad y evolución de escala; no puede ser idéntico al origen formal del SV. La versión corregida separa `0_SV` como origen de potencial y Big Bang como régimen físico parcial de cosmología temprana. Compuertas esperadas: `Δ_{id0}=1`, `Δ_{temp0}=1`, `Δ_{met0}=1`, `Δ_ret=1`. Dictamen: `NO_APTO`.
+
+## XIV.5. Negativo N4 — Atribuir distancia física a la totalidad absoluta
+
+El negativo N4 pregunta por la distancia física de la totalidad absoluta o por el radio del Todo como si fuera un objeto más. La reducción al absurdo exige declarar un exterior desde el que medir, un borde externo, una métrica superior y un observador no contenido en la totalidad. Si esos elementos existen, la totalidad no era total; si no existen, la distancia no está definida. La versión corregida distingue tamaño del universo observable, horizonte de partículas, horizonte de eventos, distancia comóvil máxima de retorno o separación entre observables internos. Ninguna de esas magnitudes mide la totalidad absoluta como objeto. Compuertas esperadas: `Δ_Ω=1`, `Δ_ret=1`, y si se asignan unidades globales sin dominio, `Δ_u=1`. Dictamen: `NO_APTO`.
+
+## XIV.6. Negativo N5 — Mezclar `H₀` local y `H₀` CMB sin tipado
+
+El negativo N5 introduce una única fila con `H_0=67.4` y `H_0=73` como si ambos valores fueran mediciones homogéneas de una misma ruta. La reducción al absurdo muestra que comparten símbolo y unidad, pero no dominio: uno procede de inferencia temprana bajo modelo, el otro de escalera local y calibraciones tardías. Promediarlos o elegir uno sin declarar ruta borra precisamente la tensión que debe medirse. La versión apta conserva dos entradas: `H_0^{CMB/ΛCDM}` y `H_0^{local}`, cada una con método, unidad, incertidumbre, modelo y residual de ruta `Δ_H`. Compuertas esperadas: `Δ_𝓜=1`, `Δ_ret=1`, y posible `Δ_𝓑=1` si falta banco de comparación. Dictamen: `NO_APTO` para mezcla; `PARCIAL` para tensión tipada.
+
+## XIV.7. Negativo N6 — Decir “la velocidad aumenta” sin magnitud declarada
+
+El negativo N6 afirma que “la velocidad aumenta” sin especificar si habla de `H(t)`, `ȧ(t)`, `ä(t)`, `v_rec`, velocidad peculiar o velocidad radial observacional. La reducción al absurdo consiste en que cada magnitud tiene unidad, ecuación y sentido físico distinto: `H(t)` puede disminuir mientras `D_P(t)` crece; `ä(t)>0` no equivale a velocidad peculiar; `v_rec` depende de distancia; y velocidad local pertenece a otro régimen. Sin índice de magnitud, la afirmación no puede ser evaluada. La versión apta declara una magnitud concreta, su ecuación y su dominio. Compuertas esperadas: `Δ_m=1`, `Δ_u=1` si la unidad no puede fijarse, y `Δ_ret=1` si se devuelve como afirmación física ambigua. Dictamen: `NO_APTO`.
+
+## XIV.8. Negativo N7 — Usar JWST como refutación automática de ΛCDM
+
+El negativo N7 toma una galaxia temprana observada por JWST y concluye que ΛCDM queda refutado en bloque. La reducción al absurdo muestra que una fuente extrema puede tensionar formación de estructuras, eficiencia estelar, masas, polvo, selección, lente, población estelar o calibración, pero no decide por sí sola todo el marco cosmológico sin banco de comparación. El redshift alto y la masa inferida exigen incertidumbres, modelo estelar, confirmación espectroscópica cuando proceda y contraste con simulaciones. La versión apta trata JWST como banco extremo de retorno: puede producir absorción parcial, tensión o revisión de formación temprana, no cierre automático. Compuertas esperadas en la formulación defectuosa: `Δ_𝓑=1`, `Δ_𝓜=1`, `Δ_ret=1`. Dictamen: `NO_APTO` para refutación automática; `PARCIAL` para tensión tipada.
+
+## XIV.9. Negativo N8 — Convertir energía oscura dinámica en cierre definitivo
+
+El negativo N8 toma indicios de energía oscura dinámica y afirma un destino cosmológico definitivo. La reducción al absurdo es que una parametrización `w(z)` o `w_0-w_a` depende de combinación de datos, modelo, significación, covarianza y extrapolación futura; convertirla en cierre final elimina residual y frontera de validez. La versión apta usa energía oscura dinámica como contraste de modelos: se calculan diferencias en `H(z)`, `D_L`, `D_A` o crecimiento, se comparan con ΛCDM, y se declara absorción parcial si queda residual. Compuertas esperadas: `Δ_𝓔=1` si falta ecuación concreta, `Δ_𝓑=1` si falta banco, `Δ_ret=1` si la salida se convierte en destino absoluto. Dictamen: `NO_APTO` como cierre definitivo; `PARCIAL` como contraste.
+
+## XIV.10. Negativo N9 — Confundir retorno luminoso con edad absoluta
+
+El negativo N9 toma el tiempo de mirada atrás, la distancia de luminosidad o el redshift de una fuente y lo convierte en edad absoluta de la totalidad. La reducción al absurdo separa tres dominios: una señal fue emitida en un régimen físico, viajó bajo condiciones de propagación y fue recibida por un observador; esa cadena permite inferir tiempo de mirada atrás dentro de un modelo, no edad absoluta del Todo. Una galaxia vista a alto redshift no es “la edad del Universo” ni mide por sí misma la totalidad; es un retorno físico fechado por modelo. La versión apta habla de tiempo de mirada atrás, edad estimada del objeto, redshift o distancia de retorno, nunca de edad absoluta total salvo que el modelo lo declare y sin invadir el origen formal. Compuertas esperadas: `Δ_m=1`, `Δ_Ω=1`, `Δ_ret=1`. Dictamen: `NO_APTO`.
+
+## XIV.11. Negativo N10 — Declarar coincidencia SV↔física sin residual computado
+
+El negativo N10 declara que una magnitud física y una lectura SV coinciden sin calcular residual ni retorno. La reducción al absurdo es formal: si no se calcula `Δ_Ω`, `Δ_m`, `Δ_u`, `Δ_𝓔`, `Δ_reg`, `Δ_T`, `Δ_ret` y `Δ_𝓑`, no se sabe si la correspondencia conserva dominio, magnitud, unidad, ecuación, régimen, transducción ni banco. Una coincidencia verbal puede ocultar una mezcla de `D_L` y `D_A`, un redshift usado como distancia, un origen espacializado o una velocidad sin magnitud. La versión apta exige matriz de residual y salida física reconocible. Compuertas esperadas: `Δ_T=1` por transducción no demostrada, `Δ_ret=1` por retorno ausente, `Δ_𝓑=1` por falta de estrés. Dictamen: `NO_APTO`.
+
+## XIV.12. Tabla de negativos, error inducido, dictamen esperado y código
+
+| Negativo | Formulación defectuosa | Error inducido | Compuertas esperadas | Versión corregida | Dictamen esperado |
+|:---:|:---|:---|:---|:---|:---:|
+| N1 | `v=cz` para `z=6` o `z=14` | Aproximación local fuera de régimen | `Δ_reg`, `Δ_𝓔`, `Δ_ret` | Distancia integral con `H(z)` | NO_APTO |
+| N2 | `D_L=D_A` | Colapso de distancias distintas | `Δ_m`, `Δ_𝓔` | Relación con factores de redshift | NO_APTO |
+| N3 | `(0,0)=Big Bang` | Origen formal fisicalizado | `Δ_{id0}`, `Δ_{temp0}`, `Δ_{met0}` | Separar `0_SV` y régimen temprano | NO_APTO |
+| N4 | Distancia física de la totalidad | Totalidad como objeto medible | `Δ_Ω`, `Δ_ret` | Horizonte o distancia entre observables | NO_APTO |
+| N5 | `H_0` local y CMB mezclados | Rutas de medición colapsadas | `Δ_𝓜`, `Δ_ret` | Dos rutas y residual `Δ_H` | NO_APTO/PARCIAL |
+| N6 | “La velocidad aumenta” | Magnitud no declarada | `Δ_m`, `Δ_u`, `Δ_ret` | Declarar `H`, `ȧ`, `ä`, `v_rec` | NO_APTO |
+| N7 | JWST refuta ΛCDM en bloque | Retorno extremo como cierre global | `Δ_𝓑`, `Δ_𝓜`, `Δ_ret` | Banco de estrés de formación temprana | NO_APTO/PARCIAL |
+| N8 | `w(z)` decide el destino final | Parametrización como cierre absoluto | `Δ_𝓔`, `Δ_𝓑`, `Δ_ret` | Contraste dinámico parcial | NO_APTO/PARCIAL |
+| N9 | Retorno luminoso = edad absoluta | Señal convertida en totalidad | `Δ_m`, `Δ_Ω`, `Δ_ret` | Tiempo de mirada atrás tipado | NO_APTO |
+| N10 | Coincidencia SV↔física sin residual | Cierre no auditado | `Δ_T`, `Δ_ret`, `Δ_𝓑` | Matriz de residual completa | NO_APTO |
+
+# XV. Laboratorios reproducibles
+
+Los laboratorios reproducibles convierten las definiciones, transductores, teoremas y bancos en salidas auditables. La función de esta sección es fijar la arquitectura del paquete que después materializará los cálculos, no sustituir la ejecución ni anticipar resultados no obtenidos. Cada laboratorio deberá recibir entradas explícitas, aplicar reglas deterministas, producir salidas legibles, rechazar casos negativos y conservar trazabilidad de dominio, magnitud, unidad, modelo, transducción, residual y dictamen. No se admiten pases silenciosos, tolerancias ocultas, excepciones absorbidas, rutas de datos implícitas ni tablas favorables sin negativos. Un laboratorio de distancia sólo será válido si la misma lógica que acepta `D_C(z)` bajo modelo declarado rechaza `z` usado como distancia directa, si la misma lógica que absorbe `D_L` calibrada rechaza `D_L=D_A`, y si la misma lógica que conserva `H_0^{local}` y `H_0^{CMB}` como rutas separadas rechaza su mezcla sin tipado.
+
+## XV.1. Arquitectura del paquete laboratorial
+
+La arquitectura del paquete laboratorial se organiza en cinco planos: datos de entrada, especificaciones de dominio, motor de validación, salidas de dictamen y catálogo de errores. Los datos de entrada contendrán bancos positivos, negativos, parciales y `U`; las especificaciones de dominio declararán magnitud, unidad, modelo, ecuación, frontera y retorno; el motor de validación aplicará compuertas de residual; las salidas de dictamen producirán `APTO`, `PARCIAL`, `NO_APTO` o `U` según reglas explícitas; el catálogo de errores identificará la compuerta activada. La estructura mínima será `datos/`, `especificaciones/`, `src/`, `salidas/`, `errores/` y `README.md`, con ficheros tabulares y JSON de trazabilidad. Ningún cálculo dependerá de internet ni de servicios externos. Si un dato físico requiere fuente externa, su valor deberá estar congelado en el banco con referencia bibliográfica y fecha de consulta.
+
+## XV.2. Datos de entrada
+
+Los datos de entrada deben cubrir heterogeneidad real: galaxias locales, galaxias de alto redshift, supernovas Ia, señales BAO, rutas de `H_0`, casos ΛCDM, casos de energía oscura dinámica, señales CMB, retornos luminosos, distancias angulares, distancias de luminosidad, distancias comóviles, origen formal y formulaciones rechazadas. Cada fila tendrá campos obligatorios: `case_id`, `class`, `observable`, `claim`, `magnitude`, `unit`, `model`, `equation`, `regime`, `sv_projection`, `expected_residual`, `expected_dictamen` y `notes`. Los bancos no mezclarán datos empíricos con fórmulas defectuosas sin marcar clase. Un caso positivo tendrá magnitud y modelo completos; un negativo tendrá defecto deliberado; un parcial tendrá residual de ruta o de modelo; un `U` tendrá dato faltante declarado. La entrada que no contenga magnitud y unidad será inválida antes de pasar al motor.
+
+## XV.3. Esquema CSV / JSON de trazabilidad
+
+El esquema CSV servirá para lectura tabular humana y el JSON para trazabilidad estructurada. El CSV principal tendrá columnas fijas: `id,tipo,observable,magnitud,unidad,modelo,ecuacion,regimen,frontera,proyeccion_sv,residual_esperado,dictamen_esperado`. El JSON de cada caso contendrá los mismos campos y añadirá `residual_components`, `negative_trigger`, `return_statement` y `source_ref`. La clave `residual_components` contendrá valores para `Δ_Ω`, `Δ_m`, `Δ_u`, `Δ_𝓔`, `Δ_reg`, `Δ_T`, `Δ_ret`, `Δ_𝓑` y, cuando proceda, `Δ_orig` o `Δ_rel`. El runner no podrá inferir campos ausentes: si un campo obligatorio falta, debe devolver error de contrato. Así se evita que un caso incompleto sea interpretado como apto por defecto.
+
+## XV.4. Catálogo de errores
+
+El catálogo de errores será operativo y no ornamental. Cada error tendrá código, descripción, compuerta, condición de disparo y dictamen esperado. Por ejemplo, `E-DIST-03` se activará cuando `z` se use como distancia sin modelo; `E-DIST-05` cuando `v=cz` se use fuera de bajo redshift; `E-DIST-06` cuando `D_L` y `D_A` se confundan; `E-DIST-08` cuando `(0,0)` se espacialice o temporalice; `E-DIST-10` cuando no exista residual calculado; `E-DIST-14` cuando un laboratorio acepte una fila sin negativo correspondiente. El runner deberá devolver códigos acumulables, no un único error genérico. Si una fila activa varias compuertas, la salida deberá conservar todas. La primera garantía de calidad será que cada negativo conocido active exactamente las compuertas previstas.
+
+## XV.5. LAB-01 — Tipado de distancias físicas
+
+LAB-01 verifica que cada magnitud de distancia física pertenece a su tipo correcto. Las entradas incluirán `z`, `D_C`, `D_M`, `D_L`, `D_A`, `D_P`, `t_L`, `v_rec`, `H_0`, `q(t)` y `w(z)`. La regla será simple: cada magnitud debe declarar unidad, dominio y ecuación asociada; si `z` aparece con unidad de longitud, error; si `D_L` se usa como `D_A`, error; si `v_rec` aparece sin `H(t)` y distancia de modelo, error; si `t_L` se usa como tiempo rector SV, error. La salida esperada será una tabla de validación por magnitud, con columnas `tipo_correcto`, `unidad_correcta`, `ecuacion_presente`, `regimen_presente`, `dictamen`. Este laboratorio debe aceptar las distancias canónicas bien declaradas y rechazar sus sustituciones cruzadas.
+
+## XV.6. LAB-02 — Corrimiento al rojo y modelo de distancia
+
+LAB-02 verifica la cadena `z → modelo → distancia`. La entrada positiva será una línea espectral identificada con `λ_emit`, `λ_obs`, redshift calculado y modelo cosmológico declarado para obtener `D_C`, `D_L` o `D_A`. La entrada negativa será `z` usado como distancia directa o como velocidad `cz` en alto redshift. El algoritmo calculará o validará `z=(λ_obs−λ_emit)/λ_emit`, comprobará si existe `H(z)` o relación de distancia declarada, y devolverá `APTO` sólo cuando la conversión a distancia tenga modelo y unidad. El residual esperado para la entrada defectuosa será `Δ_𝓔=1` y `Δ_m=1`; para la conversión con modelo, cero de defecto transductivo, sin eliminar la incertidumbre física declarada.
+
+## XV.7. LAB-03 — Hubble local y alto `z`
+
+LAB-03 separa el régimen local de Hubble-Lemaître del régimen de alto redshift. Las entradas positivas serán objetos con bajo `z`, distancia local y uso explícito de `v_rec≈H_0D`; las entradas negativas serán objetos con `z=0.5`, `z=6` o `z=14` evaluados por `v=cz` como velocidad ordinaria. El runner deberá comprobar el campo `regime`: si `regime=low_z` y la ecuación es local, puede aceptar; si `regime=high_z` y la ecuación es `v=cz`, debe rechazar. La salida incluirá `Δ_reg`, `Δ_𝓔` y `Δ_ret`. Este laboratorio demostrará que el rechazo de `v=cz` en alto `z` no niega el redshift ni la galaxia; sólo rechaza la ecuación fuera de dominio.
+
+## XV.8. LAB-04 — Distancias `D_L`, `D_A`, `D_C`, `D_P`
+
+LAB-04 verifica que las distancias cosmológicas principales no se colapsan. Las entradas positivas incluirán relaciones `D_L=(1+z)D_M`, `D_A=D_M/(1+z)` y, en régimen plano, `D_P(t)=a(t)χ` cuando proceda; las negativas incluirán `D_L=D_A`, `D_C` usado como distancia recorrida por la luz sin declaración, y `D_P` aplicado a totalidad absoluta. El runner no necesita resolver una cosmología completa para esta fase; debe validar relaciones de tipo y consistencia de columnas. La salida esperada será `APTO` para relaciones tipadas, `NO_APTO` para igualaciones ilegítimas, y códigos `E-DIST-06` o `E-DIST-07` cuando se confundan distancias o se trate la totalidad como objeto.
+
+## XV.9. LAB-05 — Transductor SV↔física contemporánea
+
+LAB-05 verifica la bidireccionalidad de `𝔛^{dist}_{SV↔FC}`. Cada entrada física se proyectará a `Φ_𝒪`, `Γ`, frontera y residual SV; después deberá retornar como la misma magnitud física. Si entra `D_L`, debe salir como distancia de luminosidad; si entra `D_A`, debe salir como distancia angular; si entra `z`, debe salir como corrimiento al rojo o como distancia sólo si el modelo se declaró; si entra origen formal, debe salir como referencia formal y no como Big Bang. El laboratorio fallará si la salida cambia de tipo. La salida esperada tendrá dos columnas críticas: `sv_projection_ok` y `physical_return_ok`. Sólo cuando ambas sean verdaderas y el residual compuesto se anule podrá aparecer `APTO`.
+
+## XV.10. LAB-06 — Residual compuesto `Δ^{SV↔FC}_{dist}`
+
+LAB-06 calcula el residual compuesto por componentes. Para cada fila se evaluará `Δ_Ω`, `Δ_m`, `Δ_u`, `Δ_𝓔`, `Δ_reg`, `Δ_T`, `Δ_ret` y `Δ_𝓑`. La regla de cierre será determinista: si todas las compuertas son cero, `APTO`; si hay residual externo declarado pero no error de tipo, `PARCIAL`; si hay error de plano, magnitud, unidad, ecuación o retorno, `NO_APTO`; si falta firma sin contradicción, `U`. La salida deberá mostrar no sólo dictamen final, sino vector de defecto. Un resultado que muestre `NO_APTO` sin indicar compuerta será inválido. Un resultado que muestre `APTO` con alguna compuerta activada será fallo del runner. Este laboratorio será el centro de verificación de toda la arquitectura.
+
+## XV.11. LAB-07 — Absorción ΛCDM
+
+LAB-07 verifica que ΛCDM se absorbe como modelo instrumental y se rechaza como fundamento de totalidad. Las entradas positivas serán cálculos de `D_C`, `D_L`, `D_A` o `H(z)` bajo parámetros declarados; las entradas parciales incluirán tensión de Hubble o dependencia de parámetros; las negativas incluirán “ΛCDM demuestra que la totalidad se expande como cuerpo” o mezclas de parámetros incoherentes. La salida esperada será `APTO` para distancias internas bien tipadas, `PARCIAL` para tensiones o dependencia de rutas, y `NO_APTO` para extrapolaciones de totalidad. Este laboratorio debe probar que el SV no rechaza ΛCDM por nombre; distingue uso matemático válido, uso instrumental parcial y uso de fundamento indebido.
+
+## XV.12. LAB-08 — Absorción parcial de tensión de Hubble
+
+LAB-08 trata `H_0^{local}` y `H_0^{CMB}` como rutas separadas. La entrada contendrá valores orientativos, unidades, método, calibración, modelo, incertidumbre y dominio. El runner calculará una diferencia de ruta `Δ_H` cuando proceda, pero no promediará ni elegirá una ruta por preferencia. La salida correcta será `APTO` para cada ruta individual si está completa, `PARCIAL` para la comparación de tensión y `NO_APTO` para el promedio sin tipado. El laboratorio deberá detectar que dos cifras con la misma unidad pueden no ser homogéneas por dominio. Este punto es crucial porque demuestra que la absorción parcial no es indecisión, sino conservación explícita de un residual físico contemporáneo.
+
+## XV.13. LAB-09 — Galaxias JWST como retornos extremos
+
+LAB-09 somete a prueba galaxias de alto redshift como retornos extremos. Las entradas positivas requerirán redshift espectroscópico o fotométrico calificado, flujo, banda, modelo de población, masa inferida si se usa, incertidumbre y frontera instrumental. Las entradas negativas incluirán “JWST refuta ΛCDM en bloque” y `v=cz` aplicado a redshift extremo. Las entradas `U` incluirán candidatos sin confirmación suficiente. La salida esperada será `APTO` o `PARCIAL` para casos bien documentados según tensión de modelo, `NO_APTO` para extrapolación global, y `U` para firma insuficiente. Este laboratorio demostrará que una observación extrema no se degrada ni se sobredimensiona: se convierte en prueba de estrés con residual visible.
+
+## XV.14. LAB-10 — Bancos negativos
+
+LAB-10 ejecuta todos los negativos N1–N10 como batería obligatoria. Cada negativo tendrá dictamen esperado y compuertas esperadas. El runner deberá fallar si un negativo devuelve `APTO`, si activa una compuerta no relacionada sin activar la principal, o si oculta el defecto bajo una salida genérica. La matriz mínima será: N1 `Δ_reg`, N2 `Δ_m`, N3 `Δ_{id0}`, N4 `Δ_Ω`, N5 `Δ_𝓜`, N6 `Δ_m`, N7 `Δ_𝓑`, N8 `Δ_𝓔`, N9 `Δ_Ω`, N10 `Δ_T`. Este laboratorio no busca confirmar casos favorables; busca derrotar cierres defectuosos. Si LAB-10 no pasa, la fórmula directriz no queda validada.
+
+## XV.15. LAB-11 — Dictamen global de absorción
+
+LAB-11 agregará resultados de todos los bancos en una tabla global con conteos por dictamen y por error. La salida deberá contener número de casos `APTO`, `PARCIAL`, `NO_APTO` y `U`; frecuencia de cada compuerta; lista de negativos superados; lista de positivos aceptados; y casos bloqueados por falta de firma. No se admitirá una salida global que sólo dé un porcentaje de éxito, porque el objetivo no es maximizar aptos, sino distribuir correctamente los dictámenes. La fórmula queda defendida si los positivos tipados son aceptados, los parciales conservan residual, los negativos se rechazan y los incompletos quedan en `U`. El éxito global se mide por coincidencia exacta con el dictamen esperado de cada fila.
+
+## XV.16. LAB-12 — Runner integral
+
+LAB-12 ejecutará la cadena completa: lectura de CSV/JSON, validación de contrato, tipado de magnitud, verificación de ecuación, evaluación de régimen, transducción física → SV, retorno SV → física, cálculo de residual, dictamen, exportación de salidas y resumen global. El runner integral no deberá contener excepciones silenciosas; todo error de contrato abortará la fila con código específico. Tampoco deberá aceptar columnas desconocidas como si fueran válidas. La salida mínima será `salidas/resultados_globales.csv`, `salidas/residuales_por_caso.json`, `salidas/resumen_dictamen.json` y `errores/errores_detectados.csv`. El runner integral será considerado apto sólo si reproduce los dictámenes esperados de bancos positivos, parciales, negativos y `U`.
+
+## XV.17. Salida esperada
+
+La salida esperada contiene una matriz de resultados con dictamen exacto por caso. Los positivos tipados deben devolver `APTO`; las tensiones de ruta y modelos dinámicos no cerrados deben devolver `PARCIAL`; los negativos N1–N10 deben devolver `NO_APTO`; los candidatos sin firma deben devolver `U`. Además, cada caso debe mostrar vector de residual. Una salida como `APTO` con `Δ_m=1` será inválida; una salida como `NO_APTO` sin error declarado será inválida; una salida como `U` para un negativo formal claro será inválida; una salida como `APTO` para un candidato sin firma será inválida. La precisión no se mide por redondeo numérico, sino por coincidencia entre compuerta esperada y dictamen.
+
+## XV.18. Salida obtenida
+
+La salida obtenida se incorporará después de ejecutar el paquete completo. No deberá rellenarse por anticipación ni sustituirse por promesa de ejecución. Cuando los laboratorios se materialicen, esta subsección contendrá tabla con hash de bancos, versión del runner, fecha de ejecución, número de casos, distribución de dictámenes, negativos superados, positivos aceptados, parciales conservados, `U` mantenidos y errores detectados. Si alguna salida no coincide con la esperada, se reportará como fallo de laboratorio y no como excepción menor. La salida obtenida será parte del cierre técnico, no del razonamiento previo. Hasta ejecución real, la única forma correcta es declarar la especificación y reservar la tabla de resultados para la fase material.
+
+## XV.19. Garantía de no pases silenciosos
+
+La garantía de no pases silenciosos exige que ninguna fila pueda atravesar el runner sin contrato completo, sin magnitud tipada, sin unidad, sin modelo cuando lo requiere, sin residual visible o sin dictamen final. Toda ausencia debe convertirse en `U` o error de contrato; todo defecto formal debe convertirse en `NO_APTO`; todo residual físico declarado debe conservarse como `PARCIAL`; toda aptitud debe mostrar compuertas anuladas. El runner deberá operar en modo estricto: columnas obligatorias, enumeraciones cerradas, errores acumulables y salidas reproducibles. Esta garantía impide que el sistema obtenga resultados favorables por tolerancia implícita, por valores por defecto o por interpretaciones automáticas. El cierre sólo tendrá valor si el fallo queda tan trazable como el acierto.
+
+# XVI. Catálogo de errores
+
+El catálogo de errores fija las formas de fallo que impiden aceptar una distancia, una separación, una velocidad, un retorno o una absorción de modelo. Cada error nace de una ruptura concreta: dominio ausente, magnitud mal tipada, unidad incompatible, ecuación usada fuera de régimen, totalidad tratada como objeto, origen formal fisicalizado, residual omitido, retorno ausente o banco insuficiente. Su función es doble: orientar la lectura técnica y servir de contrato para los laboratorios. Un error no es una objeción retórica, sino una compuerta material que debe activarse de manera reproducible. Si el mismo caso defectuoso no dispara el mismo código en el banco y en el runner, el aparato de validación queda incompleto. La clasificación conserva una regla de hierro: no se rechaza una observación física por existir; se rechaza la formulación que la usa fuera de dominio.
+
+## XVI.1. E-DIST-01 — Distancia sin dominio
+
+`E-DIST-01` se activa cuando una distancia se enuncia sin declarar el dominio al que pertenece. La frase “está muy lejos”, “se aleja”, “mide tantos megapársecs” o “corresponde al origen” no basta si no se indica si la magnitud es `D_C`, `D_L`, `D_A`, `D_P`, `t_L`, `z`, `v_rec`, distancia factual fibrosa o referencia formal. El dominio determina qué se mide, con qué unidad, bajo qué modelo y con qué retorno. Sin dominio, el transductor no puede fijar `Ω^{dist}_{FC}` ni `Ω^{dist}_{SV}`, y el residual `Δ_Ω` queda activado. La corrección exige declarar observable, magnitud, modelo, frontera y tipo de comparación. Dictamen ordinario: `NO_APTO`; si falta dominio por carencia de datos y no por formulación errónea, podrá quedar `U` hasta completar identidad.
+
+## XVI.2. E-DIST-02 — Magnitud sin unidad
+
+`E-DIST-02` se activa cuando una magnitud aparece sin unidad o con unidad incompatible. `z` es adimensional; `D_C`, `D_L`, `D_A` y `D_P` son longitudes; `H_0` se expresa como tasa por distancia, usualmente `km s^{-1} Mpc^{-1}`; `v_rec` tiene unidad de velocidad; `t_L` pertenece al dominio de tiempo físico del modelo; `q(t)` es adimensional; `d^{SV}_Φ` pertenece a la escala interna del observable factual declarado. Si una fila asigna megapársecs a `z`, segundos a `D_L`, velocidad a `H_0` sin el cociente correcto o unidad SI al origen formal `0_SV`, se activa `Δ_u`. La corrección exige restaurar unidad y tipo. Dictamen ordinario: `NO_APTO`, salvo que el dato incompleto sea recuperable antes del cálculo.
+
+## XVI.3. E-DIST-03 — Corrimiento al rojo usado como distancia directa
+
+`E-DIST-03` se activa cuando `z` se usa como distancia sin modelo de conversión. El corrimiento al rojo es retorno espectral, no longitud. Puede alimentar una distancia comóvil, de luminosidad, angular o tiempo de mirada atrás si se declara `𝓜`, `H(z)`, parámetros y ecuación; no puede sustituir esas magnitudes. La forma defectuosa aparece como `D=z`, “la distancia es su redshift” o “mayor `z` equivale directamente a mayor distancia absoluta” sin frontera. La reducción al absurdo es inmediata: se sustituye una magnitud adimensional por longitud. Compueras activadas: `Δ_m`, `Δ_u` y `Δ_𝓔`. La corrección exige conservar `z` como `Φ_z` y aplicar modelo. Dictamen: `NO_APTO` para uso directo; `APTO condicionado` cuando `z` entra como dato de un cálculo bien tipado.
+
+## XVI.4. E-DIST-04 — Velocidad sin definición física
+
+`E-DIST-04` se activa cuando se habla de velocidad sin especificar si se trata de velocidad peculiar, radial observacional, recesional de modelo, `H(t)`, `ȧ(t)` o `ä(t)`. La palabra velocidad no fija por sí sola unidad, ecuación ni dominio. En cosmología, `v_rec=H(t)D_P(t)` no es velocidad local ordinaria, y `H(t)` ni siquiera tiene unidad de velocidad simple. Si una afirmación dice “la velocidad aumenta” sin declarar magnitud, el transductor no puede decidir qué entra como `m`. Compueras activadas: `Δ_m`, `Δ_u` y `Δ_ret`. La corrección exige formular una pregunta concreta: aumenta `D_P`, cambia `v_rec`, `q(t)<0`, `H(t)` disminuye o crece una velocidad peculiar. Dictamen ordinario: `NO_APTO`.
+
+## XVI.5. E-DIST-05 — `v = cz` fuera de dominio
+
+`E-DIST-05` se activa cuando la aproximación `v=cz` se aplica fuera del régimen de bajo redshift o se presenta como velocidad ordinaria universal. En bajo `z`, bajo condiciones controladas, puede servir como aproximación local; en alto `z`, el redshift exige historia del factor de escala y distancias integrales. Usar `v=cz` para `z=6` o `z=14` produce múltiplos de `c` si se lee como velocidad local, lo que revela la ruptura de tipo. Compueras activadas: `Δ_reg`, `Δ_𝓔` y `Δ_ret`. La corrección exige reemplazar la fórmula local por `D_C(z;𝓜)`, `D_L(z;𝓜)` o la magnitud cosmológica que corresponda, y reservar `v_rec` para su dominio de modelo. Dictamen: `NO_APTO` fuera de régimen.
+
+## XVI.6. E-DIST-06 — Confusión entre `D_L`, `D_A`, `D_C` y `D_P`
+
+`E-DIST-06` se activa cuando se igualan o sustituyen distancias cosmológicas distintas sin conversión. `D_L` pertenece al dominio flujo-luminosidad; `D_A` al dominio tamaño-ángulo; `D_C` a coordenada cosmológica integral; `D_P` a separación propia en una hipersuperficie de modelo. En regímenes cosmológicos, estas magnitudes pueden relacionarse, pero no son intercambiables. La forma defectuosa aparece como `D_L=D_A`, resta de `D_L` con `D_C` sin transductor, o uso de `D_P` como tamaño de totalidad. Compueras activadas: `Δ_m`, `Δ_𝓔`, `Δ_ret`. La corrección exige declarar relación cosmológica, factores de redshift, modelo y unidad. Dictamen: `NO_APTO` si hay sustitución; `APTO condicionado` si hay conversión legítima.
+
+## XVI.7. E-DIST-07 — Totalidad tratada como observable físico
+
+`E-DIST-07` se activa cuando la totalidad absoluta se usa como si fuera una galaxia, un horizonte, una señal, una esfera o un cuerpo con distancia física. La totalidad no tiene exterior físico declarado desde el que medirla ni segundo término externo que conserve el estatuto de totalidad. La forma defectuosa aparece como “distancia del Universo”, “radio físico del Todo”, “velocidad del Universo” o “borde absoluto del Universo” cuando no se reformula hacia universo observable, horizonte de retorno o separación entre observables internos. Compueras activadas: `Δ_Ω` y `Δ_ret`. La corrección exige sustituir totalidad por dominio observable o por par de contenidos físicos. Dictamen: `NO_APTO`. No se afecta la validez de distancias internas bien declaradas.
+
+## XVI.8. E-DIST-08 — `(0,0)` espacializado o temporalizado
+
+`E-DIST-08` se activa cuando el origen formal `(0,0)` o `0_SV` se trata como punto espacial, instante físico, Big Bang, centro geométrico, singularidad métrica o fuente física de las galaxias. El origen formal no posee unidad SI, coordenada, tiempo de emisión, temperatura ni densidad. Si se le asignan esas propiedades, se rompe su tipo. Compueras activadas: `Δ_{id0}`, `Δ_{esp0}`, `Δ_{temp0}`, `Δ_{met0}` y `Δ_ret` según la formulación. La corrección exige separar origen formal y régimen físico temprano: el primero opera como referencia de potencial; el segundo puede absorberse parcialmente como cosmología temprana. Dictamen: `NO_APTO` para identificación o espacialización; `APTO formal` para relación restringida no física.
+
+## XVI.9. E-DIST-09 — Modelo físico convertido en fundamento
+
+`E-DIST-09` se activa cuando un modelo físico eficaz se presenta como fundamento de la totalidad o como cierre doctrinal de todo dominio. ΛCDM, Friedmann, Hubble-Lemaître, BAO, supernovas, CMB, DESI o JWST pueden aportar magnitudes poderosas; ninguna de esas sedes, por sí misma, convierte su ecuación en origen formal ni en fundamento del SV. La forma defectuosa aparece como “ΛCDM demuestra que la totalidad se expande”, “JWST refuta todo el marco cosmológico”, o “la energía oscura explica cualquier distanciamiento” sin banco. Compueras activadas: `Δ_Ω`, `Δ_𝓜`, `Δ_𝓑` o `Δ_ret`. La corrección exige volver a magnitud, dominio, modelo y residual. Dictamen: `NO_APTO` como fundamento; `APTO` o `PARCIAL` como modelo instrumental.
+
+## XVI.10. E-DIST-10 — Residual no calculado
+
+`E-DIST-10` se activa cuando se declara coincidencia, absorción, rechazo o equivalencia sin calcular residual. Toda fila debe mostrar al menos las compuertas relevantes: `Δ_Ω`, `Δ_m`, `Δ_u`, `Δ_𝓔`, `Δ_reg`, `Δ_T`, `Δ_ret`, `Δ_𝓑`, y cuando proceda `Δ_orig` o `Δ_rel`. La ausencia de residual deja sin prueba si la magnitud conserva tipo, si la ecuación opera en régimen, si el retorno físico es correcto o si el banco ha estresado el cierre. La forma defectuosa aparece como “coincide exactamente” sin vector de defecto o “queda absorbido” sin condiciones. Compueras activadas: `Δ_T`, `Δ_ret`, `Δ_𝓑`. La corrección exige matriz de residual y dictamen por fila. Dictamen: `NO_APTO` hasta cálculo.
+
+## XVI.11. E-DIST-11 — Retorno físico ausente
+
+`E-DIST-11` se activa cuando una lectura SV no vuelve al dominio físico como magnitud reconocible. Si entra `D_L`, debe salir como distancia de luminosidad; si entra `D_A`, como distancia angular; si entra `z`, como corrimiento al rojo o como distancia sólo mediante modelo; si entra `H_0`, como ruta de medición con unidad; si entra origen formal, como referencia formal no espacial. Una salida que sólo sea inteligible en vocabulario interno falla como transducción científica. Compueras activadas: `Δ_ret` y, si hubo cambio de magnitud, `Δ_m`. La corrección exige redactar la salida física de retorno con unidad, régimen y alcance. Dictamen: `NO_APTO` si no retorna; `APTO` sólo cuando el retorno conserva tipo.
+
+## XVI.12. E-DIST-12 — U degradada a ignorancia o fallo
+
+`E-DIST-12` se activa cuando `U` se usa como desconocimiento vulgar, refugio argumental, fallo del aparato o licencia de cierre débil. `U` queda reservada para casos sin firma suficiente, sin identidad cerrada, sin modelo de lente, sin calibración o sin banco bastante, siempre que no exista error formal que obligue a rechazo. Si el caso es contradictorio, no es `U`: es `NO_APTO`. Si el caso está completo y las compuertas se anulan, no es `U`: es `APTO`. Si tiene tensión física competente, no es necesariamente `U`: puede ser `PARCIAL`. La corrección exige declarar qué falta y qué salida permitiría resolverlo. Compueras relacionadas: `Δ_pair` no cerrado, `Δ_𝓑` incompleto o dato ausente. Dictamen: `U` sólo bajo insuficiencia estructural precisa.
+
+## XVI.13. E-DIST-13 — Banco positivo sin negativo correspondiente
+
+`E-DIST-13` se activa cuando una tesis se apoya sólo en casos favorables. Un banco que acepta `D_C(z)` bajo modelo debe contener un negativo con `z` usado como distancia directa; un banco que acepta `D_L` debe contener un negativo `D_L=D_A`; un banco que acepta Hubble local debe contener `v=cz` en alto `z`; un banco que acepta origen formal debe contener `(0,0)=Big Bang`; un banco que acepta ΛCDM instrumental debe contener ΛCDM como fundamento de totalidad. Sin negativo correspondiente, el banco no demuestra capacidad discriminativa. Compueras activadas: `Δ_𝓑`. La corrección exige añadir negativos simétricos y dictamen esperado. Dictamen: `NO_APTO` para cierre probatorio; `PARCIAL` si sólo se presenta como exploración no cerrada.
+
+## XVI.14. E-DIST-14 — Laboratorio con pase silencioso
+
+`E-DIST-14` se activa cuando el runner acepta una fila incompleta, ignora una columna obligatoria, rellena valores por defecto, oculta una excepción, transforma un error de contrato en aptitud o no reporta las compuertas activadas. Un pase silencioso destruye la función probatoria del laboratorio porque permite que un caso favorable nazca por tolerancia implícita. La salida válida debe contener dictamen y vector de defecto por fila; si falta un campo obligatorio, debe aparecer error de contrato; si hay columna desconocida, debe reportarse; si se activa una compuerta, debe conservarse. Compueras relacionadas: `Δ_T`, `Δ_𝓑` y error de contrato. Dictamen: laboratorio `NO_APTO` hasta corregir. La garantía de calidad exige reproducibilidad estricta, no benevolencia del código.
+
+## XVI.15. Tabla final del catálogo de errores
+
+| Código | Nombre | Disparo principal | Compuertas | Dictamen ordinario | Corrección |
+|:---:|:---|:---|:---|:---:|:---|
+| E-DIST-01 | Distancia sin dominio | No se declara tipo de distancia | `Δ_Ω` | NO_APTO/U | Declarar dominio, magnitud y frontera |
+| E-DIST-02 | Magnitud sin unidad | Unidad ausente o incompatible | `Δ_u` | NO_APTO | Restaurar unidad correcta |
+| E-DIST-03 | Redshift como distancia | `z` usado como longitud | `Δ_m, Δ_u, Δ_𝓔` | NO_APTO | Aplicar modelo cosmológico |
+| E-DIST-04 | Velocidad indefinida | “Velocidad” sin magnitud | `Δ_m, Δ_u, Δ_ret` | NO_APTO | Declarar `H`, `ȧ`, `ä`, `v_rec` o peculiar |
+| E-DIST-05 | `v=cz` fuera de régimen | Alto `z` con fórmula local | `Δ_reg, Δ_𝓔, Δ_ret` | NO_APTO | Usar distancias integrales |
+| E-DIST-06 | Colapso de distancias | Confusión `D_L`, `D_A`, `D_C`, `D_P` | `Δ_m, Δ_𝓔` | NO_APTO | Convertir por relación tipada |
+| E-DIST-07 | Totalidad como observable | Todo tratado como objeto | `Δ_Ω, Δ_ret` | NO_APTO | Reformular a observables internos |
+| E-DIST-08 | Origen fisicalizado | `(0,0)` como punto, tiempo o Big Bang | `Δ_orig` | NO_APTO | Separar origen formal y régimen físico |
+| E-DIST-09 | Modelo como fundamento | Teoría externa como cierre total | `Δ_Ω, Δ_𝓜, Δ_𝓑` | NO_APTO/PARCIAL | Limitar a modelo instrumental |
+| E-DIST-10 | Residual ausente | Absorción sin vector de defecto | `Δ_T, Δ_ret, Δ_𝓑` | NO_APTO | Calcular residual compuesto |
+| E-DIST-11 | Retorno físico ausente | Salida no vuelve como magnitud física | `Δ_ret` | NO_APTO | Formular retorno con unidad y alcance |
+| E-DIST-12 | U degradada | U como ignorancia o licencia | `Δ_pair` no cerrado | U/NO_APTO según caso | Declarar dato faltante o defecto formal |
+| E-DIST-13 | Banco sin negativos | Sólo ejemplos favorables | `Δ_𝓑` | NO_APTO/PARCIAL | Añadir negativos simétricos |
+| E-DIST-14 | Pase silencioso | Runner oculta fallo o campo ausente | `Δ_T, Δ_𝓑` | NO_APTO | Modo estricto y errores acumulables |
+| E-DIST-15 | Mezcla de rutas de medición | `H_0` local y CMB colapsados | `Δ_𝓜, Δ_ret` | NO_APTO/PARCIAL | Separar rutas y calcular `Δ_H` |
+| E-DIST-16 | Trayectoria común ausente | `DistInter` con `Γ_i≠Γ_j` | `Δ_Γ` | NO_APTO | Declarar trayectoria común o transductor |
+| E-DIST-17 | Lente sin modelo de masa | Distancia inferida con magnificación no controlada | `Δ_𝓜, Δ_ret` | U/PARCIAL | Añadir modelo de lente |
+| E-DIST-18 | Retorno luminoso como edad total | Señal convertida en edad absoluta | `Δ_m, Δ_Ω, Δ_ret` | NO_APTO | Usar tiempo de mirada atrás tipado |
+
+# XVII. Discusión física
+
+La discusión física reúne los resultados formales, los bancos y los errores tipados para devolver una lectura cosmológica compatible con las magnitudes contemporáneas y con la disciplina SV. La conclusión central no es que la física mida mal, sino que el lenguaje ordinario tiende a mezclar lo que la física distingue: redshift, distancia, velocidad, horizonte, aceleración, modelo, retorno y totalidad. Cuando cada magnitud conserva su dominio, el SV absorbe una parte amplia del aparato contemporáneo: distancias integrales, ΛCDM como marco instrumental, Hubble-Lemaître local, supernovas, BAO, CMB, lentes, JWST como banco extremo y tensión de Hubble como residual de rutas. Cuando una formulación convierte esas herramientas en fundamento de la totalidad, en origen formal, en velocidad universal o en cierre sin banco, el dictamen cambia. La lectura final no reduce la cosmología; la precisa.
+
+## XVII.1. Qué absorbe el SV de la cosmología contemporánea
+
+El SV absorbe todo cálculo cosmológico que conserve su tipo: `z` como retorno espectral, `D_C` como distancia comóvil de modelo, `D_L` como distancia de luminosidad, `D_A` como distancia angular, `D_P` como separación propia interna, `H(z)` como tasa de expansión de modelo, `H_0` como parámetro de ruta declarada, `q(t)` como lectura de aceleración del factor de escala, BAO como patrón correlacional, supernovas Ia como candelas estandarizables, CMB como retorno temprano de alta precisión y lentes gravitacionales como relación entre geometría, masa y trayectorias luminosas. La absorción no requiere que esas magnitudes sean fundamentos del SV; requiere que funcionen en su dominio y que puedan volver a física contemporánea sin cambio de tipo. La regla es estricta: lo que entra como distancia de luminosidad debe salir como distancia de luminosidad, lo que entra como redshift debe salir como redshift o como distancia sólo mediante modelo, y lo que entra como ruta de `H_0` debe conservar su ruta.
+
+## XVII.2. Qué absorbe parcialmente
+
+El SV absorbe parcialmente aquello que funciona como aparato físico competente, pero conserva residual de ruta, parametrización, evidencia o interpretación. La tensión de Hubble es el caso más claro: `H_0^{local}` y `H_0^{CMB}` son rutas técnicas fuertes, pero no devuelven un único cierre sin residual. Los modelos de energía oscura dinámica también quedan en absorción parcial cuando permiten contrastar `w(z)` o `w_0-w_a`, pero no cierran un destino cosmológico definitivo. Las galaxias tempranas observadas por JWST quedan como retornos extremos: pueden tensionar formación de estructuras, masas, eficiencia estelar y selección, pero no refutan por sí solas todo el marco cosmológico. El Big Bang queda parcialmente absorbido como régimen físico retrospectivo de modelo, no como origen formal. En estos casos, la fuerza del dato se conserva y el exceso interpretativo queda limitado.
+
+## XVII.3. Qué rechaza como fundamento
+
+El rechazo se dirige a las formulaciones que rompen el dominio. Queda rechazado tratar el Universo completo como cuerpo que crece en un exterior, medir la totalidad absoluta como objeto, identificar `(0,0)` o `0_SV` con el Big Bang físico, usar `z` como distancia directa, aplicar `v=cz` a alto redshift, igualar `D_L` y `D_A`, mezclar `H_0^{local}` y `H_0^{CMB}` sin tipado, convertir una observación JWST aislada en cierre global, usar energía oscura como causa verbal de todo distanciamiento, o declarar coincidencia SV↔física sin vector de residual. El rechazo no invalida el fenómeno que suele estar detrás de esas frases; invalida la forma defectuosa. Así, se rechaza “el Universo se aleja”, pero se acepta separación interna entre observables; se rechaza “`z` es distancia”, pero se acepta `z` como entrada de distancia; se rechaza “`(0,0)` es Big Bang”, pero se acepta cosmología temprana como régimen físico.
+
+## XVII.4. Qué devuelve al dominio físico contemporáneo
+
+El retorno físico controlado devuelve una gramática más precisa: las galaxias no son marcadores de expansión absoluta, sino observables con señales, firmas y modelos; la velocidad cosmológica no es una palabra única, sino una familia de magnitudes; la distancia no es una sola entidad, sino un conjunto de lecturas con unidades y ecuaciones propias; el horizonte observable no es borde del Todo, sino frontera de retorno; la aceleración cósmica no es movimiento de la totalidad, sino comportamiento del factor de escala bajo modelo; la tensión de Hubble no es un fallo lógico, sino residual entre rutas; JWST no es refutación automática, sino banco extremo de formación temprana y retorno. Esta devolución puede expresarse en lenguaje físico ordinario sin perder rigor: las separaciones internas entre observables pueden crecer, las señales pueden desplazarse al rojo y las distancias pueden depender de modelo, pero la totalidad no comparece como objeto físico que se expande hacia un exterior.
+
+## XVII.5. Lectura de galaxias que se alejan
+
+La frase “las galaxias se alejan” queda aceptada sólo en su forma tipada: galaxias suficientemente separadas y no ligadas pueden aumentar su separación propia bajo un modelo cosmológico, mientras conservan coordenada comóvil ideal; sus señales llegan desplazadas al rojo; y las distancias inferidas dependen de `H(z)` y de parámetros cosmológicos. La misma frase queda rechazada si se aplica a sistemas ligados sin frontera dinámica, si convierte redshift en velocidad ordinaria, si usa `v=cz` fuera de bajo `z`, o si concluye que la totalidad se aleja de algo. La lectura física correcta distingue galaxias comóviles, galaxias ligadas, velocidades peculiares, retorno luminoso y distancia de modelo. La lectura SV añade que todo par de galaxias debe entrar como `𝒪_g^a`, `𝒪_g^b`, magnitud `m`, modelo `𝓜`, frontera `F` y residual. Sólo entonces “alejarse” deja de ser imagen verbal y pasa a relación calculable.
+
+## XVII.6. Lectura de velocidad cosmológica
+
+La velocidad cosmológica se divide en magnitudes que no deben colapsarse. `H(t)` es tasa relativa de expansión, `ȧ(t)` es variación del factor de escala, `ä(t)` es aceleración de escala, `v_rec=H(t)D_P` es velocidad recesional de modelo, la velocidad peculiar pertenece a dinámica local, y la velocidad radial observacional depende de retorno y correcciones. Preguntar si la velocidad aumenta exige elegir una de esas magnitudes. Bajo ΛCDM puede ocurrir que `H(t)` disminuya mientras el factor de escala crece y la expansión acelerada se expresa por `ä(t)>0` o `q(t)<0`. En consecuencia, la respuesta fuerte no es “sí” o “no” sin índice; es una tabla de magnitudes. El SV no borra la velocidad; la desambigua. Toda salida que use la palabra velocidad deberá devolver unidad, ecuación, régimen y observable asociado.
+
+## XVII.7. Lectura de aceleración y energía oscura
+
+La aceleración cósmica queda absorbida como comportamiento de segundo orden del factor de escala dentro de un modelo físico. La energía oscura constante, representada por `Λ`, funciona como componente instrumental del marco ΛCDM para ajustar distancias y aceleración; los modelos dinámicos `w(z)` funcionan como extensiones de contraste. Ninguna de estas piezas autoriza por sí sola una explicación final de la totalidad ni un destino cerrado sin banco. La lectura SV es precisa: `q(t)<0` puede ser apto como dictamen físico de aceleración de escala; `Ω_Λ` puede ser apto como término de modelo; `w(z)` puede quedar parcial como exploración dinámica; “la energía oscura causa todo distanciamiento” queda no apto si no declara ecuación, dominio y retorno. Así se conserva el valor físico de la aceleración y se impide su conversión en causa verbal total.
+
+## XVII.8. Lectura de JWST, alto `z` y formación temprana
+
+Las observaciones JWST de alto redshift se leen como retornos extremos de enorme valor probatorio, no como oráculos cosmológicos. Una fuente con espectro robusto, flujo, masa inferida y modelo de población puede tensar la formación temprana de galaxias, la eficiencia estelar, el polvo, la metalicidad o la selección; una fuente fotométrica sin confirmación suficiente queda en `U`; una fuente extrema usada como refutación global queda no apta. El SV aprovecha JWST como banco de estrés: allí donde el modelo estándar absorbe la fuente con residual controlado, hay aptitud; allí donde exige ajuste o conserva tensión, hay absorción parcial; allí donde se fuerza una conclusión total, hay rechazo. Esta lectura protege simultáneamente la fuerza observacional del telescopio y la necesidad de no convertir un retorno extremo en sustituto de un análisis de dominio.
+
+## XVII.9. Lectura de la completitud estructural del Universo
+
+La completitud estructural del Universo significa que la totalidad no necesita expandirse hacia un exterior para contener separaciones internas variables. La física puede describir crecimiento de distancias propias entre observables comóviles, redshift cosmológico, horizontes de señal, aceleración de escala y evolución de estructuras; ninguna de esas piezas exige que la totalidad sea un cuerpo situado dentro de otro espacio. La completitud estructural fija el plano de cierre; la cosmología física describe relaciones internas. Cuando ambos planos se distinguen, no hay contradicción entre absorber Friedmann-ΛCDM y rechazar la expansión de la totalidad absoluta. La frase fuerte queda así: el Universo no se mide como objeto expansivo total; se miden observables internos, señales retornadas, relaciones de distancia y modelos de separación. Ese enunciado no niega la cosmología contemporánea; impide leerla como metafísica de un contenedor externo.
+
+## XVII.10. Límites del desarrollo
+
+Los límites quedan definidos por el propio aparato. No se calcula aquí una nueva cosmología numérica completa, no se sustituyen las ecuaciones físicas que producen `D_C`, `D_L`, `D_A` o `H(z)`, no se decide la tensión de Hubble, no se declara un mecanismo último de energía oscura, no se transforma JWST en cierre total y no se convierte el origen formal en estado físico temprano. Lo que queda fijado es la gramática de correspondencia: qué magnitudes entran, cómo se tipan, qué absorbe el SV, qué absorbe parcialmente, qué rechaza y cómo se verifica por bancos y laboratorios. El alcance es deliberadamente estricto: si una afirmación cosmológica no puede declarar dominio, magnitud, unidad, ecuación, régimen, transducción, residual y retorno, no queda cerrada. Si puede hacerlo, entra en el banco y recibe dictamen.
+
+# XVIII. Conclusión
+
+La distancia absoluta y relativa entre observables del Universo queda cerrada como problema de correspondencia entre dominios, no como sustitución de una cosmología por otra. La tesis conserva simultáneamente dos resultados: la física contemporánea mide con potencia real retornos, redshifts, distancias, velocidades de modelo, horizontes, mapas, patrones y tensiones; el SV exige que cada una de esas magnitudes conserve dominio, unidad, ecuación, régimen, residual y retorno para no transformarse en afirmación de plano indebido. El Universo no comparece como cuerpo que crece hacia un exterior; comparecen observables internos, señales retornadas y separaciones modeladas. La completitud estructural no niega las distancias cosmológicas; impide que una distancia interna sea convertida en distancia de la totalidad. La fórmula directriz, los teoremas, los bancos y el catálogo de errores fijan una regla estable: todo cálculo físico bien tipado se absorbe en su alcance, toda tensión competente conserva residual, toda extrapolación de totalidad se rechaza y toda falta de firma permanece en `U` hasta nueva base.
+
+## XVIII.1. Resultado doctrinal
+
+El resultado doctrinal establece que la totalidad estructural no se mide como objeto físico interno y que el origen formal `0_SV` no se identifica con Big Bang, centro espacial, instante físico o singularidad métrica. La distancia absoluta queda permitida sólo como referencia formal restringida de un observable declarado frente al origen de potencial; la distancia relativa queda permitida como comparación entre observables físicos con magnitud homogénea o transductor explícito. Esta separación protege la cadena superior del SV sin empobrecer la física: las galaxias pueden separarse bajo modelo, las señales pueden desplazarse al rojo, las distancias pueden crecer o transformarse, y los horizontes pueden limitar retornos, pero ninguna de esas operaciones convierte la totalidad en cuerpo expansivo. La doctrina resultante es fuerte porque no se apoya en negación externa, sino en conservación de tipo: totalidad, observable, retorno, distancia y modelo son planos distintos.
+
+## XVIII.2. Resultado técnico
+
+El resultado técnico queda fijado por la compuerta `𝔇^{SV↔FC}_{dist}=0 ⇔ Δ^{SV↔FC}_{dist}=0`, con `Δ^{SV↔FC}_{dist}=Δ_Ω⊕Δ_m⊕Δ_u⊕Δ_𝓔⊕Δ_reg⊕Δ_T⊕Δ_ret⊕Δ_𝓑`. Esta forma no calcula por sí misma `D_C`, `D_L`, `D_A`, `H(z)` o `v_rec`; verifica que esas magnitudes, calculadas por su aparato físico propio, entren y salgan del SV sin defecto. El transductor `𝔛^{dist}_{SV↔FC}` queda restringido a distancia cosmológica entre observables y no reemplaza operadores ya disponibles: `d^{SV}_Φ`, `D^{SV}_Φ(Γ)`, `Δ^Φ_q`, `DistInter^{SV}_{a,b}(Γ)`, `𝓣_SV`, `𝓘_SV` y las sedes superiores permanecen intactas. El cierre técnico exige bidireccionalidad: física → SV para tipar y SV → física para retornar. Si cualquiera de esos sentidos falla, no hay absorción plena.
+
+## XVIII.3. Resultado físico-factual
+
+El resultado físico-factual devuelve una lectura precisa de galaxias, distancias y velocidades. Las galaxias no son pruebas de expansión absoluta, sino observables físicos con retorno luminoso, redshift, flujo, tamaño angular, masa inferida, entorno y modelo. La frase “las galaxias se alejan” queda absorbida cuando significa aumento de separación propia entre observables no ligados bajo métrica cosmológica; queda rechazada cuando significa movimiento de la totalidad o velocidad local universal. El redshift queda absorbido como retorno espectral y como entrada de modelo; queda rechazado como distancia directa. `v_rec` queda absorbida como magnitud derivada de modelo; queda rechazada como velocidad ordinaria sin régimen. ΛCDM queda absorbido como marco instrumental de distancias internas; queda limitado cuando conserva tensiones y rechazado cuando se usa como fundamento de totalidad. JWST, DESI, CMB, BAO, supernovas y lentes se conservan como sedes de contraste físico, no como autoridades indivisibles ni como cierres narrativos.
+
+## XVIII.4. Resultado laboratorial
+
+El resultado laboratorial queda especificado antes de ejecución material mediante una arquitectura de bancos, negativos, catálogo de errores, contrato CSV/JSON y runner estricto. Los laboratorios deberán aceptar casos como `D_C(z)` bajo modelo declarado, `D_L` de supernova calibrada, `D_A` con tamaño y ángulo, y rutas separadas de `H_0` cuando sus dominios consten; deberán rechazar `z` usado como distancia, `v=cz` en alto redshift, `D_L=D_A`, `(0,0)=Big Bang`, totalidad como objeto métrico, energía oscura como causa verbal total y coincidencia SV↔física sin residual; deberán conservar `U` para candidatos sin firma suficiente. La prueba decisiva no será obtener muchas salidas aptas, sino obtener la distribución correcta: aptos donde haya tipado, parciales donde haya residual físico competente, no aptos donde haya error de plano, y `U` donde falte firma sin contradicción formal.
+
+## XVIII.5. Fórmula directriz final
+
+La fórmula directriz final queda fijada como compuerta de correspondencia y no como métrica sustituta: `𝔇^{SV↔FC}_{dist}(𝒪_i,𝒪_j;Γ,𝓜,𝓑)=0 ⇔ Δ^{SV↔FC}_{dist}(𝒪_i,𝒪_j;Γ,𝓜,𝓑)=0`. Para distancia absoluta formal se usa `𝔇^{SV↔FC}_{abs}(𝒪_i,0_SV;Γ,𝓜,𝓑)=0` con residual de origen `Δ_orig=0`; para distancia relativa se usa `𝔇^{SV↔FC}_{rel}(𝒪_i,𝒪_j;Γ,𝓜,𝓑)=0` con residual relativo `Δ_rel=0`. El cero indica ausencia de defecto transductivo, no distancia nula. La función de esta forma es garantizar que todo enunciado distancial conserve identidad de observable, magnitud, unidad, ecuación, régimen, banco y retorno. Por tanto, la fórmula absorbe distancias físicas bien tipadas, conserva tensiones como residuales y rechaza extrapolaciones de totalidad, origen o velocidad.
+
+## XVIII.6. Dictamen de absorción global
+
+El dictamen global es de absorción amplia, parcialidad controlada y rechazo de plano donde corresponde. Se absorben distancias cosmológicas canónicas, Hubble-Lemaître en bajo redshift, relaciones redshift-factor de escala, Friedmann-ΛCDM como modelo interno, BAO, supernovas Ia, CMB, lentes y retornos luminosos cuando declaran dominio y unidad. Se absorben parcialmente tensión de Hubble, energía oscura dinámica, galaxias JWST extremas, Big Bang como régimen físico retrospectivo y modelos dependientes de parametrización o ruta. Se rechazan expansión de la totalidad absoluta, Universo como cuerpo en exterior, origen `(0,0)` como Big Bang físico, redshift como distancia directa, `v=cz` fuera de dominio, colapso de `D_L` y `D_A`, mezcla de rutas de `H_0` y cierre sin residual. La matriz resultante no es equidistante: acepta con fuerza lo que la física mide bien, conserva los residuales que la física no ha cerrado y bloquea las frases que destruyen el tipo de la pregunta.
+
+## XVIII.7. Aperturas posteriores legítimas
+
+Las aperturas posteriores legítimas quedan condicionadas por tres requisitos. Primero, cualquier ampliación numérica deberá materializar los laboratorios con bancos reales, datos congelados, salidas reproducibles, hashes y catálogo de errores ejecutado. Segundo, cualquier nuevo transductor u operador sólo podrá abrirse si se demuestra que no deriva de `𝔛_SV`, `d^{SV}_Φ`, `D^{SV}_Φ(Γ)`, `Δ^Φ_q`, `DistInter^{SV}_{a,b}(Γ)`, `𝓣_SV`, `𝓘_SV`, el vector de defecto de régimen o una fórmula superior ya existente. Tercero, cualquier lectura de datos contemporáneos nuevos —DESI, JWST, CMB, lentes, supernovas, BAO, 21 cm o futuras rutas de `H_0`— deberá entrar por magnitud, unidad, modelo, residual, banco negativo y retorno físico. La continuidad natural no será proclamar una cosmología alternativa, sino ejecutar bancos con datos reales y mostrar, caso por caso, qué queda absorbido, qué queda parcial, qué queda rechazado y qué permanece en `U` por falta de firma.
+# XIX. Referencias
+
+Las referencias se ordenan por función: fundamentos físicos y cosmológicos, observación cosmológica contemporánea, corpus SV y recursos de datos o misiones. La bibliografía externa se usa para fijar magnitudes, ecuaciones, rutas observacionales y estado técnico del problema; el corpus SV se usa para fijar jerarquía, operadores, transductores, distancia factual fibrosa, origen formal, residual y retorno. Ninguna referencia externa sustituye el transductor ni ninguna referencia SV sustituye la magnitud física: cada una conserva su dominio.
+
+## XIX.1. Bibliografía física contemporánea
+
+Aghanim, N., Akrami, Y., Ashdown, M., Aumont, J., Baccigalupi, C., Ballardini, M., Banday, A. J., Barreiro, R. B., Bartolo, N., Basak, S., Battye, R., Benabed, K., Bernard, J.-P., Bersanelli, M., Bielewicz, P., Bock, J. J., Bond, J. R., Borrill, J., Bouchet, F. R., … Planck Collaboration. (2020). Planck 2018 results. VI. Cosmological parameters. Astronomy & Astrophysics, 641, A6. https://doi.org/10.1051/0004-6361/201833910
+
+Carroll, S. M. (2001). The cosmological constant. Living Reviews in Relativity, 4, 1. https://doi.org/10.12942/lrr-2001-1
+
+Chevallier, M., & Polarski, D. (2001). Accelerating universes with scaling dark matter. International Journal of Modern Physics D, 10(2), 213–224. https://doi.org/10.1142/S0218271801000822
+
+Etherington, I. M. H. (1933). On the definition of distance in general relativity. The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science, 15(100), 761–773. https://doi.org/10.1080/14786443309462220
+
+Friedmann, A. (1922). Über die Krümmung des Raumes. Zeitschrift für Physik, 10, 377–386. https://doi.org/10.1007/BF01332580
+
+Friedmann, A. (1924). Über die Möglichkeit einer Welt mit konstanter negativer Krümmung des Raumes. Zeitschrift für Physik, 21, 326–332. https://doi.org/10.1007/BF01328280
+
+Hogg, D. W. (1999). Distance measures in cosmology. arXiv. https://arxiv.org/abs/astro-ph/9905116
+
+Hubble, E. (1929). A relation between distance and radial velocity among extra-galactic nebulae. Proceedings of the National Academy of Sciences, 15(3), 168–173. https://doi.org/10.1073/pnas.15.3.168
+
+Lemaître, G. (1927). Un univers homogène de masse constante et de rayon croissant rendant compte de la vitesse radiale des nébuleuses extra-galactiques. Annales de la Société Scientifique de Bruxelles, A47, 49–59.
+
+Linder, E. V. (2003). Exploring the expansion history of the universe. Physical Review Letters, 90(9), 091301. https://doi.org/10.1103/PhysRevLett.90.091301
+
+Peebles, P. J. E. (1993). Principles of physical cosmology. Princeton University Press.
+
+Robertson, H. P. (1935). Kinematics and world-structure. The Astrophysical Journal, 82, 284–301. https://doi.org/10.1086/143681
+
+Walker, A. G. (1937). On Milne’s theory of world-structure. Proceedings of the London Mathematical Society, s2-42(1), 90–127. https://doi.org/10.1112/plms/s2-42.1.90
+
+Weinberg, S. (1989). The cosmological constant problem. Reviews of Modern Physics, 61(1), 1–23. https://doi.org/10.1103/RevModPhys.61.1
+
+Weinberg, S. (2008). Cosmology. Oxford University Press.
+
+## XIX.2. Bibliografía cosmológica observacional
+
+Abdul-Karim, M., Aguilar, J., Ahlen, S., Alam, S., Alves, O., Anselmi, S., Avila, S., Bai, Y., Bault, A., Bautista, J. E., Bianchi, D., Brooks, D., Brownstein, J. R., Burtin, E., Chabanier, S., Chuang, C.-H., Comparat, J., Cuby, J.-G., Dawson, K. S., … DESI Collaboration. (2025). DESI DR2 results II: Measurements of baryon acoustic oscillations and cosmological constraints. arXiv. https://arxiv.org/abs/2503.14738
+
+Brout, D., Scolnic, D., Popovic, B., Riess, A. G., Zuntz, J., Kessler, R., Carr, A., Davis, T. M., Hinton, S., Jones, D., Kenworthy, W. D’Arcy, Said, K., Taylor, G., Ali, N., Armstrong, P., Charvu, P., Dwomoh, A., Palmese, A., Qu, H., … Wiseman, P. (2022). The Pantheon+ analysis: Cosmological constraints. The Astrophysical Journal, 938(2), 110. https://doi.org/10.3847/1538-4357/ac8e04
+
+Carniani, S., Hainline, K., D’Eugenio, F., Eisenstein, D. J., Jakobsen, P., Witstok, J., Robertson, B., Johnson, B. D., Curtis-Lake, E., Rieke, M., Tacchella, S., Williams, C. C., Willmer, C. N. A., Arribas, S., Baker, W. M., Bunker, A. J., Charlot, S., Chevallard, J., Curti, M., … JADES Collaboration. (2024). Spectroscopic confirmation of two luminous galaxies at a redshift of 14. Nature, 633, 318–322. https://doi.org/10.1038/s41586-024-07860-9
+
+Carniani, S., Hainline, K., D’Eugenio, F., Eisenstein, D. J., Jakobsen, P., Witstok, J., Robertson, B., Johnson, B. D., Curtis-Lake, E., Rieke, M., Tacchella, S., Williams, C. C., Willmer, C. N. A., Arribas, S., Baker, W. M., Bunker, A. J., Charlot, S., Chevallard, J., Curti, M., … JADES Collaboration. (2024). The eventful life of a luminous galaxy at z = 14. arXiv. https://arxiv.org/abs/2409.20533
+
+DESI Collaboration. (2025). DESI DR2 results I: Baryon acoustic oscillations from the Lyman-alpha forest. arXiv. https://arxiv.org/abs/2503.14739
+
+DESI Collaboration. (2025). DESI DR2 publications: Cosmology results. DESI Data. https://data.desi.lbl.gov/doc/papers/dr2/
+
+Eisenstein, D. J., Zehavi, I., Hogg, D. W., Scoccimarro, R., Blanton, M. R., Nichol, R. C., Scranton, R., Seo, H.-J., Tegmark, M., Zheng, Z., Anderson, S. F., Annis, J., Bahcall, N., Brinkmann, J., Burles, S., Castander, F. J., Connolly, A., Csabai, I., Doi, M., … York, D. G. (2005). Detection of the baryon acoustic peak in the large-scale correlation function of SDSS luminous red galaxies. The Astrophysical Journal, 633(2), 560–574. https://doi.org/10.1086/466512
+
+Gu, G., Wang, Y., & Zhao, G.-B. (2025). Dynamical dark energy in light of the DESI DR2 baryonic acoustic oscillations measurements. Nature Astronomy, 9, 1879–1888. https://doi.org/10.1038/s41550-025-02567-5
+
+Riess, A. G., Yuan, W., Macri, L. M., Scolnic, D., Brout, D., Casertano, S., Jones, D. O., Murakami, Y., Anand, G. S., Breuval, L., Brink, T. G., Filippenko, A. V., Hoffmann, S., Jha, S. W., D’Arcy Kenworthy, W., Mackenty, J., Stahl, B. E., & Zheng, W. (2022). A comprehensive measurement of the local value of the Hubble constant with 1 km s⁻¹ Mpc⁻¹ uncertainty from the Hubble Space Telescope and the SH0ES Team. The Astrophysical Journal Letters, 934(1), L7. https://doi.org/10.3847/2041-8213/ac5c5b
+
+Scolnic, D., Brout, D., Carr, A., Riess, A. G., Davis, T. M., Dwomoh, A., Jones, D. O., Ali, N., Charvu, P., Chen, R., Peterson, E. R., Popovic, B., Rose, B. M., Wood, C. M., Brown, P. J., Chambers, K. C., Coulter, D. A., Dettman, K. G., Dimitriadis, G., … Pantheon+ Collaboration. (2022). The Pantheon+ analysis: The full data set and light-curve release. The Astrophysical Journal, 938(2), 113. https://doi.org/10.3847/1538-4357/ac8b7a
+
+Wong, K. C., Suyu, S. H., Chen, G. C.-F., Rusu, C. E., Millon, M., Sluse, D., Bonvin, V., Fassnacht, C. D., Taubenberger, S., Auger, M. W., Birrer, S., Chan, J. H. H., Courbin, F., Hilbert, S., Tihhonova, O., Treu, T., Agnello, A., Ding, X., Jee, I., … H0LiCOW Collaboration. (2020). H0LiCOW XIII. A 2.4% measurement of H₀ from lensed quasars: 5.3σ tension between early- and late-Universe probes. Monthly Notices of the Royal Astronomical Society, 498(1), 1420–1439. https://doi.org/10.1093/mnras/stz3094
+
+## XIX.3. Bibliografía del corpus SV
+
+Lloret Egea, J. A. (2026). Teoría del TODO y de la NADA en el Sistema Vectorial SV — refundación factual del origen, la totalidad y la nada. GitHub. https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/teoria-todo-nada-sv
+
+Lloret Egea, J. A. (2026). Interacción, intercomposición y transmisión factual entre campos en el Sistema Vectorial SV: operadores 𝓘_SV y 𝓣_SV, distancia factual fibrosa, célula SV(36,6) y articulación serial con el corpus. PubPub. https://doi.org/10.21428/39829d0b.293e914a
+
+Lloret Egea, J. A. (2026). Interacción, intercomposición y transmisión factual entre campos en el Sistema Vectorial SV: operadores 𝓘_SV y 𝓣_SV, distancia factual fibrosa, célula SV(36,6) y articulación serial con el corpus. GitHub. https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/interaccion-intercomposicion-transmision-campos
+
+Lloret Egea, J. A. (2026). Distancia absoluta y relativa entre observables del Universo. GitHub. https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/interaccion-intercomposicion-transmision-campos/etapa-de-maduracion-matematica-para-version-final/distancia-absoluta-relativa-observables-universo
+
+Lloret Egea, J. A. (2026). Edades relativas del universo observable y de sus objetos físicos: teoría de la edad de todos los objetos del Universo Observable · Biología molecular y medicina: del par estructural a la célula viva. PubPub. https://doi.org/10.21428/39829d0b.b56ed853
+
+Lloret Egea, J. A. (2026). Edades relativas del universo observable y de sus objetos físicos. GitHub. https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos
+
+Lloret Egea, J. A. (2026). El agujero negro como cierre interno sin resto exterior formulable. GitHub. https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad
+
+Lloret Egea, J. A. (2026). Teoría general factual de la luz en el Sistema Vectorial SV. GitHub. https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/optica-factual-sv/teoria-general-factual-de-la-luz-en-el-sistema-vectorial-sv
+
+Lloret Egea, J. A. (2026). Imperfección preformal y espacio: ε₋₀, primera distinguibilidad y dominio estructural completo de separación factual recorrible. GitHub. https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/imperfeccion-preformal-y-espacio
+
+Lloret Egea, J. A. (2026). Fórmula de Campo Unificado 𝓕𝓐=d𝓐+𝓐∧𝓐 con 𝓐=ω⊕A. Lo que Einstein y Bohr discutían: doble proyección de un aparato más profundo. GitHub. https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv
+
+Lloret Egea, J. A. (2026). Fundamentos operatorios absolutos del electromagnetismo factual en el Sistema Vectorial SV. GitHub. https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv
+
+Lloret Egea, J. A. (2026). Reducción estructural absoluta de Maxwell al Sistema Vectorial SV — ecuación única de física factual electromagnética. GitHub. https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/ecuacion-factual-maxwell
+
+## XIX.4. Recursos de datos y misiones observacionales
+
+DESI Collaboration. (2025). DESI DR2 results: March 19 guide. Dark Energy Spectroscopic Instrument. https://www.desi.lbl.gov/2025/03/19/desi-dr2-results-march-19-guide/
+
+DESI Collaboration. (2025). DESI DR2 cosmology chains and data products released. Dark Energy Spectroscopic Instrument. https://www.desi.lbl.gov/2025/10/06/desi-dr2-cosmology-chains-and-data-products-released/
+
+DESI Collaboration. (2026). Dark Energy Spectroscopic Instrument. https://www.desi.lbl.gov/
+
+European Space Agency. (2018). Planck. ESA Science & Exploration. https://www.esa.int/Science_Exploration/Space_Science/Planck
+
+NASA. (2026). James Webb Space Telescope. NASA Science. https://science.nasa.gov/mission/webb/
+
+NASA. (2026). Hubble constant and tension. NASA Science. https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-constant-and-tension/
+
+NASA/IPAC Extragalactic Database. (2026). Level 5: Distance measures in cosmology, by David W. Hogg. Caltech/IPAC. https://ned.ipac.caltech.edu/level5/Hogg/Hogg_contents.html
+
+PubPub. (2026). El Universo. https://doi.org/10.21428/39829d0b.26484bfd
+# XIX. Referencias
+
+Las referencias se ordenan por función: fundamentos físicos y cosmológicos, observación cosmológica contemporánea, corpus SV y recursos de datos o misiones. La bibliografía externa se usa para fijar magnitudes, ecuaciones, rutas observacionales y estado técnico del problema; el corpus SV se usa para fijar jerarquía, operadores, transductores, distancia factual fibrosa, origen formal, residual y retorno. Ninguna referencia externa sustituye el transductor ni ninguna referencia SV sustituye la magnitud física: cada una conserva su dominio.
+
+## XIX.1. Bibliografía física contemporánea
+
+Aghanim, N., Akrami, Y., Ashdown, M., Aumont, J., Baccigalupi, C., Ballardini, M., Banday, A. J., Barreiro, R. B., Bartolo, N., Basak, S., Battye, R., Benabed, K., Bernard, J.-P., Bersanelli, M., Bielewicz, P., Bock, J. J., Bond, J. R., Borrill, J., Bouchet, F. R., … Planck Collaboration. (2020). Planck 2018 results. VI. Cosmological parameters. Astronomy & Astrophysics, 641, A6. https://doi.org/10.1051/0004-6361/201833910
+
+Carroll, S. M. (2001). The cosmological constant. Living Reviews in Relativity, 4, 1. https://doi.org/10.12942/lrr-2001-1
+
+Chevallier, M., & Polarski, D. (2001). Accelerating universes with scaling dark matter. International Journal of Modern Physics D, 10(2), 213–224. https://doi.org/10.1142/S0218271801000822
+
+Etherington, I. M. H. (1933). On the definition of distance in general relativity. The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science, 15(100), 761–773. https://doi.org/10.1080/14786443309462220
+
+Friedmann, A. (1922). Über die Krümmung des Raumes. Zeitschrift für Physik, 10, 377–386. https://doi.org/10.1007/BF01332580
+
+Friedmann, A. (1924). Über die Möglichkeit einer Welt mit konstanter negativer Krümmung des Raumes. Zeitschrift für Physik, 21, 326–332. https://doi.org/10.1007/BF01328280
+
+Hogg, D. W. (1999). Distance measures in cosmology. arXiv. https://arxiv.org/abs/astro-ph/9905116
+
+Hubble, E. (1929). A relation between distance and radial velocity among extra-galactic nebulae. Proceedings of the National Academy of Sciences, 15(3), 168–173. https://doi.org/10.1073/pnas.15.3.168
+
+Lemaître, G. (1927). Un univers homogène de masse constante et de rayon croissant rendant compte de la vitesse radiale des nébuleuses extra-galactiques. Annales de la Société Scientifique de Bruxelles, A47, 49–59.
+
+Linder, E. V. (2003). Exploring the expansion history of the universe. Physical Review Letters, 90(9), 091301. https://doi.org/10.1103/PhysRevLett.90.091301
+
+Peebles, P. J. E. (1993). Principles of physical cosmology. Princeton University Press.
+
+Robertson, H. P. (1935). Kinematics and world-structure. The Astrophysical Journal, 82, 284–301. https://doi.org/10.1086/143681
+
+Walker, A. G. (1937). On Milne’s theory of world-structure. Proceedings of the London Mathematical Society, s2-42(1), 90–127. https://doi.org/10.1112/plms/s2-42.1.90
+
+Weinberg, S. (1989). The cosmological constant problem. Reviews of Modern Physics, 61(1), 1–23. https://doi.org/10.1103/RevModPhys.61.1
+
+Weinberg, S. (2008). Cosmology. Oxford University Press.
+
+## XIX.2. Bibliografía cosmológica observacional
+
+Abdul-Karim, M., Aguilar, J., Ahlen, S., Alam, S., Alves, O., Anselmi, S., Avila, S., Bai, Y., Bault, A., Bautista, J. E., Bianchi, D., Brooks, D., Brownstein, J. R., Burtin, E., Chabanier, S., Chuang, C.-H., Comparat, J., Cuby, J.-G., Dawson, K. S., … DESI Collaboration. (2025). DESI DR2 results II: Measurements of baryon acoustic oscillations and cosmological constraints. arXiv. https://arxiv.org/abs/2503.14738
+
+Brout, D., Scolnic, D., Popovic, B., Riess, A. G., Zuntz, J., Kessler, R., Carr, A., Davis, T. M., Hinton, S., Jones, D., Kenworthy, W. D’Arcy, Said, K., Taylor, G., Ali, N., Armstrong, P., Charvu, P., Dwomoh, A., Palmese, A., Qu, H., … Wiseman, P. (2022). The Pantheon+ analysis: Cosmological constraints. The Astrophysical Journal, 938(2), 110. https://doi.org/10.3847/1538-4357/ac8e04
+
+Carniani, S., Hainline, K., D’Eugenio, F., Eisenstein, D. J., Jakobsen, P., Witstok, J., Robertson, B., Johnson, B. D., Curtis-Lake, E., Rieke, M., Tacchella, S., Williams, C. C., Willmer, C. N. A., Arribas, S., Baker, W. M., Bunker, A. J., Charlot, S., Chevallard, J., Curti, M., … JADES Collaboration. (2024). Spectroscopic confirmation of two luminous galaxies at a redshift of 14. Nature, 633, 318–322. https://doi.org/10.1038/s41586-024-07860-9
+
+Carniani, S., Hainline, K., D’Eugenio, F., Eisenstein, D. J., Jakobsen, P., Witstok, J., Robertson, B., Johnson, B. D., Curtis-Lake, E., Rieke, M., Tacchella, S., Williams, C. C., Willmer, C. N. A., Arribas, S., Baker, W. M., Bunker, A. J., Charlot, S., Chevallard, J., Curti, M., … JADES Collaboration. (2024). The eventful life of a luminous galaxy at z = 14. arXiv. https://arxiv.org/abs/2409.20533
+
+DESI Collaboration. (2025). DESI DR2 results I: Baryon acoustic oscillations from the Lyman-alpha forest. arXiv. https://arxiv.org/abs/2503.14739
+
+DESI Collaboration. (2025). DESI DR2 publications: Cosmology results. DESI Data. https://data.desi.lbl.gov/doc/papers/dr2/
+
+Eisenstein, D. J., Zehavi, I., Hogg, D. W., Scoccimarro, R., Blanton, M. R., Nichol, R. C., Scranton, R., Seo, H.-J., Tegmark, M., Zheng, Z., Anderson, S. F., Annis, J., Bahcall, N., Brinkmann, J., Burles, S., Castander, F. J., Connolly, A., Csabai, I., Doi, M., … York, D. G. (2005). Detection of the baryon acoustic peak in the large-scale correlation function of SDSS luminous red galaxies. The Astrophysical Journal, 633(2), 560–574. https://doi.org/10.1086/466512
+
+Gu, G., Wang, Y., & Zhao, G.-B. (2025). Dynamical dark energy in light of the DESI DR2 baryonic acoustic oscillations measurements. Nature Astronomy, 9, 1879–1888. https://doi.org/10.1038/s41550-025-02567-5
+
+Riess, A. G., Yuan, W., Macri, L. M., Scolnic, D., Brout, D., Casertano, S., Jones, D. O., Murakami, Y., Anand, G. S., Breuval, L., Brink, T. G., Filippenko, A. V., Hoffmann, S., Jha, S. W., D’Arcy Kenworthy, W., Mackenty, J., Stahl, B. E., & Zheng, W. (2022). A comprehensive measurement of the local value of the Hubble constant with 1 km s⁻¹ Mpc⁻¹ uncertainty from the Hubble Space Telescope and the SH0ES Team. The Astrophysical Journal Letters, 934(1), L7. https://doi.org/10.3847/2041-8213/ac5c5b
+
+Scolnic, D., Brout, D., Carr, A., Riess, A. G., Davis, T. M., Dwomoh, A., Jones, D. O., Ali, N., Charvu, P., Chen, R., Peterson, E. R., Popovic, B., Rose, B. M., Wood, C. M., Brown, P. J., Chambers, K. C., Coulter, D. A., Dettman, K. G., Dimitriadis, G., … Pantheon+ Collaboration. (2022). The Pantheon+ analysis: The full data set and light-curve release. The Astrophysical Journal, 938(2), 113. https://doi.org/10.3847/1538-4357/ac8b7a
+
+Wong, K. C., Suyu, S. H., Chen, G. C.-F., Rusu, C. E., Millon, M., Sluse, D., Bonvin, V., Fassnacht, C. D., Taubenberger, S., Auger, M. W., Birrer, S., Chan, J. H. H., Courbin, F., Hilbert, S., Tihhonova, O., Treu, T., Agnello, A., Ding, X., Jee, I., … H0LiCOW Collaboration. (2020). H0LiCOW XIII. A 2.4% measurement of H₀ from lensed quasars: 5.3σ tension between early- and late-Universe probes. Monthly Notices of the Royal Astronomical Society, 498(1), 1420–1439. https://doi.org/10.1093/mnras/stz3094
+
+## XIX.3. Bibliografía del corpus SV
+
+Lloret Egea, J. A. (2026). Teoría del TODO y de la NADA en el Sistema Vectorial SV — refundación factual del origen, la totalidad y la nada. GitHub. https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/teoria-todo-nada-sv
+
+Lloret Egea, J. A. (2026). Interacción, intercomposición y transmisión factual entre campos en el Sistema Vectorial SV: operadores 𝓘_SV y 𝓣_SV, distancia factual fibrosa, célula SV(36,6) y articulación serial con el corpus. PubPub. https://doi.org/10.21428/39829d0b.293e914a
+
+Lloret Egea, J. A. (2026). Interacción, intercomposición y transmisión factual entre campos en el Sistema Vectorial SV: operadores 𝓘_SV y 𝓣_SV, distancia factual fibrosa, célula SV(36,6) y articulación serial con el corpus. GitHub. https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/interaccion-intercomposicion-transmision-campos
+
+Lloret Egea, J. A. (2026). Distancia absoluta y relativa entre observables del Universo. GitHub. https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/interaccion-intercomposicion-transmision-campos/etapa-de-maduracion-matematica-para-version-final/distancia-absoluta-relativa-observables-universo
+
+Lloret Egea, J. A. (2026). Edades relativas del universo observable y de sus objetos físicos: teoría de la edad de todos los objetos del Universo Observable · Biología molecular y medicina: del par estructural a la célula viva. PubPub. https://doi.org/10.21428/39829d0b.b56ed853
+
+Lloret Egea, J. A. (2026). Edades relativas del universo observable y de sus objetos físicos. GitHub. https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/edades-relativas-universo-observable-y-objetos-fisicos
+
+Lloret Egea, J. A. (2026). El agujero negro como cierre interno sin resto exterior formulable. GitHub. https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/agujero-negro-clausura-no-transmisibilidad
+
+Lloret Egea, J. A. (2026). Teoría general factual de la luz en el Sistema Vectorial SV. GitHub. https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/optica-factual-sv/teoria-general-factual-de-la-luz-en-el-sistema-vectorial-sv
+
+Lloret Egea, J. A. (2026). Imperfección preformal y espacio: ε₋₀, primera distinguibilidad y dominio estructural completo de separación factual recorrible. GitHub. https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/imperfeccion-preformal-y-espacio
+
+Lloret Egea, J. A. (2026). Fórmula de Campo Unificado 𝓕𝓐=d𝓐+𝓐∧𝓐 con 𝓐=ω⊕A. Lo que Einstein y Bohr discutían: doble proyección de un aparato más profundo. GitHub. https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv
+
+Lloret Egea, J. A. (2026). Fundamentos operatorios absolutos del electromagnetismo factual en el Sistema Vectorial SV. GitHub. https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv
+
+Lloret Egea, J. A. (2026). Reducción estructural absoluta de Maxwell al Sistema Vectorial SV — ecuación única de física factual electromagnética. GitHub. https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/ecuacion-factual-maxwell
+
+## XIX.4. Recursos de datos y misiones observacionales
+
+DESI Collaboration. (2025). DESI DR2 results: March 19 guide. Dark Energy Spectroscopic Instrument. https://www.desi.lbl.gov/2025/03/19/desi-dr2-results-march-19-guide/
+
+DESI Collaboration. (2025). DESI DR2 cosmology chains and data products released. Dark Energy Spectroscopic Instrument. https://www.desi.lbl.gov/2025/10/06/desi-dr2-cosmology-chains-and-data-products-released/
+
+DESI Collaboration. (2026). Dark Energy Spectroscopic Instrument. https://www.desi.lbl.gov/
+
+European Space Agency. (2018). Planck. ESA Science & Exploration. https://www.esa.int/Science_Exploration/Space_Science/Planck
+
+NASA. (2026). James Webb Space Telescope. NASA Science. https://science.nasa.gov/mission/webb/
+
+NASA. (2026). Hubble constant and tension. NASA Science. https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-constant-and-tension/
+
+NASA/IPAC Extragalactic Database. (2026). Level 5: Distance measures in cosmology, by David W. Hogg. Caltech/IPAC. https://ned.ipac.caltech.edu/level5/Hogg/Hogg_contents.html
+
+PubPub. (2026). El Universo. https://doi.org/10.21428/39829d0b.26484bfd
 
 
