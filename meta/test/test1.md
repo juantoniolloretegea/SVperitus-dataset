@@ -1807,5 +1807,556 @@ NASA. (2026). Hubble constant and tension. NASA Science. https://science.nasa.go
 NASA/IPAC Extragalactic Database. (2026). Level 5: Distance measures in cosmology, by David W. Hogg. Caltech/IPAC. https://ned.ipac.caltech.edu/level5/Hogg/Hogg_contents.html
 
 PubPub. (2026). El Universo. https://doi.org/10.21428/39829d0b.26484bfd
+# Anexo A. Glosario operativo de símbolos, magnitudes y dictámenes
+
+El glosario operativo fija la equivalencia mínima entre vocabulario físico contemporáneo y vocabulario SV usado en el análisis de distancia absoluta y relativa entre observables. Su función es impedir que una misma palabra arrastre significados incompatibles: distancia no siempre significa longitud física; velocidad no siempre significa movimiento local; origen no siempre significa comienzo físico; horizonte no siempre significa borde absoluto; retorno no siempre significa presencia completa del objeto; y modelo no equivale a fundamento. Cada entrada queda definida por su tipo, dominio y error típico. La regla general es simple: una magnitud sólo puede usarse en el dominio para el que ha sido declarada, y toda salida debe volver al lenguaje físico con la misma magnitud o con una conversión explícita.
+
+## A.1. Observable `𝒪`
+
+`𝒪` designa un contenido físico, señal, patrón o entidad distinguible que comparece con firma suficiente para ser evaluado. Puede ser una galaxia, supernova, cúmulo, cuásar, señal BAO, mapa CMB, lente gravitacional, línea espectral, retorno luminoso o candidato observacional. No todo nombre astronómico es automáticamente observable admisible: debe aportar identidad, magnitud, unidad, método de lectura, frontera y residual. Si falta firma, el caso no se cierra por preferencia; queda bloqueado hasta nueva base. Error típico: tratar una imagen, una hipótesis o una fuente ambigua como observable plenamente tipado. Dictamen habitual ante firma incompleta: `U`.
+
+## A.2. Retorno físico
+
+Retorno físico designa la información que llega al dominio de medición: luz, espectro, flujo, ángulo, mapa, patrón, curva, correlación, polarización, tiempo de llegada, señal de lente o firma estadístico-física. El retorno no es la totalidad del objeto ni la totalidad del Universo; es una vía de acceso. Una galaxia observada a alto redshift comparece por retorno luminoso y espectral, no por presencia total simultánea ante el observador. Error típico: convertir retorno en prueba directa de distancia absoluta, edad total o borde de realidad. Uso correcto: retorno → magnitud física → modelo → transducción → residual → dictamen.
+
+## A.3. Distancia física
+
+Distancia física designa una magnitud externa con unidad de longitud o relación geométrica definida dentro de un modelo. Incluye `D_C`, `D_M`, `D_L`, `D_A` y `D_P`, pero no las hace intercambiables. Una distancia física debe declarar unidad, ecuación y régimen. `D_L` procede del dominio flujo-luminosidad; `D_A` procede del dominio tamaño-ángulo; `D_C` procede de integral cosmológica; `D_P` procede de separación propia bajo hipersuperficie de modelo. Error típico: usar distancia física como distancia de la totalidad o igualar distancias distintas sin transductor. Dictamen ante mezcla de tipo: `NO_APTO`.
+
+## A.4. Distancia factual fibrosa `d^{SV}_Φ`
+
+`d^{SV}_Φ` designa cambio factual local de un observable `Φ` entre dos sucesos consecutivos de una trayectoria. No es metro, pársec, segundo ni velocidad; es variación interna de un observable declarado. Puede aplicarse a retornos espectrales, perfiles luminosos, magnitudes transducidas o perfiles de campo si existe trayectoria. Error típico: leer `d^{SV}_Φ` como distancia espacial ordinaria. Uso correcto: medir cambio local de `Φ`, controlar perfil y permitir comparación con distancia global o distancia intercampo cuando proceda.
+
+## A.5. Distancia global `D^{SV}_Φ(Γ)`
+
+`D^{SV}_Φ(Γ)` designa variación extremo a extremo de un observable factual sobre una trayectoria `Γ`. No conserva por sí sola todo el recorrido intermedio; por eso debe cotejarse con suma local y defecto telescópico. Dos trayectorias pueden tener la misma distancia global y perfiles locales distintos. Error típico: tomar una variación extremo a extremo como historia completa del retorno. Uso correcto: medir cambio total declarado del observable y exigir `Δ^Φ_q` cuando la coherencia de recorrido sea relevante.
+
+## A.6. Defecto telescópico `Δ^Φ_q`
+
+`Δ^Φ_q` mide la discrepancia entre distancia global y suma de cambios locales. Si se anula, el perfil puede conservar coherencia monotónica bajo la regla establecida; si no se anula, hay ida y vuelta, compensación, inversión o pérdida de información intermedia. Error típico: ignorar que una distancia final puede ocultar recorrido. Uso correcto: detectar si una señal, modelo o perfil ha cambiado de forma no reducible a su diferencia extremo a extremo.
+
+## A.7. Distancia intercampo `DistInter^{SV}_{a,b}(Γ)`
+
+`DistInter^{SV}_{a,b}(Γ)` compara perfiles locales de dos observables o campos sobre una trayectoria común. No mide separación espacial entre fuentes; mide diferencia acumulada entre modos de cambio. Su uso exige `Γ` común o transductor que ponga trayectorias en correspondencia. Error típico: calcular distancia intercampo sobre trayectorias distintas o sobre objetos sin observable `Φ` declarado. Uso correcto: comparar dos rutas, dos perfiles, dos modelos o dos retornos bajo la misma secuencia de evaluación.
+
+## A.8. Corrimiento al rojo `z`
+
+`z` designa una magnitud espectral adimensional definida por la relación entre longitud de onda observada y emitida. Puede alimentar distancias cosmológicas mediante un modelo, pero no es distancia por sí mismo. Error típico: usar `z` como longitud, velocidad o edad absoluta. Uso correcto: `z` entra como retorno espectral `Φ_z`; después se aplica `𝓜`, `H(z)` o la relación física correspondiente para producir `D_C`, `D_L`, `D_A`, `t_L` u otra magnitud tipada.
+
+## A.9. Factor de escala `a(t)`
+
+`a(t)` designa el factor de escala de un modelo cosmológico físico; su variable `t` pertenece al dominio del modelo externo. No es tiempo rector SV ni origen formal. Error típico: importar `t` como fundamento de la cadena SV o identificar `a(t)=0` con `0_SV`. Uso correcto: usar `a(t)` para relacionar redshift, distancias y separaciones internas bajo cosmología declarada, sin convertirlo en fundamento de la totalidad ni en origen formal.
+
+## A.10. Constante de Hubble `H_0` y función `H(z)`
+
+`H_0` designa el valor actual de la tasa de expansión de modelo; `H(z)` designa su dependencia con redshift bajo cosmología declarada. Ambas magnitudes requieren ruta, unidad y modelo. `H_0^{local}` y `H_0^{CMB}` no son intercambiables aunque compartan unidad: pertenecen a rutas de medición distintas. Error típico: promediar rutas o elegir una sin declarar dominio. Uso correcto: conservar ruta local, ruta temprana, incertidumbre, calibración y residual de tensión `Δ_H`.
+
+## A.11. Velocidad recesional `v_rec`
+
+`v_rec=H(t)D_P(t)` designa tasa de cambio de separación propia de modelo. No es velocidad local ordinaria ni movimiento de una galaxia como proyectil. Error típico: usar `v=cz` en alto redshift o interpretar `v_rec` como velocidad peculiar. Uso correcto: declarar distancia propia, `H(t)`, régimen y frontera; separar `v_rec`, velocidad peculiar, velocidad radial observacional, `H(t)`, `ȧ(t)` y `ä(t)`.
+
+## A.12. Distancia de luminosidad `D_L`
+
+`D_L` designa la distancia inferida por relación entre luminosidad intrínseca y flujo observado. Es natural para supernovas Ia, candelas estandarizables y retornos luminosos calibrados. No es distancia angular ni distancia propia directa. Error típico: leer brillo débil como lejanía sin calibración o igualar `D_L` a `D_A`. Uso correcto: declarar luminosidad intrínseca o calibración, flujo, extinción, redshift, modelo y residual.
+
+## A.13. Distancia angular `D_A`
+
+`D_A` designa la relación entre tamaño físico transversal y tamaño angular observado. Es natural para cúmulos, BAO transversal, lentes y tamaños inferidos. No se confunde con `D_L`, y puede comportarse de forma no intuitiva con redshift. Error típico: usar tamaño angular sin tamaño físico o sin modelo. Uso correcto: declarar tamaño físico, ángulo, redshift, modelo geométrico y correcciones.
+
+## A.14. Distancia comóvil `D_C` y transversal comóvil `D_M`
+
+`D_C` designa distancia comóvil radial obtenida por integral cosmológica; `D_M` designa distancia comóvil transversal, sensible a curvatura si procede. Ambas dependen de `H(z)` y parámetros cosmológicos. Error típico: usar `D_C` como distancia recorrida por la luz o como radio absoluto del Universo. Uso correcto: declarar modelo, parámetros, curvatura, redshift, unidad y relación con `D_L` o `D_A` cuando se use.
+
+## A.15. Distancia propia `D_P`
+
+`D_P(t)=a(t)χ` designa separación física en una hipersuperficie de modelo para observables comóviles. No mide la totalidad absoluta ni se aplica sin más a sistemas ligados. Error típico: aplicar expansión métrica de fondo a galaxias dentro de un cúmulo o usar `D_P` como tamaño total del Universo. Uso correcto: declarar si los observables son comóviles, no ligados y bajo qué hipersuperficie se compara.
+
+## A.16. Tiempo de mirada atrás `t_L`
+
+`t_L` designa el intervalo físico de modelo entre emisión y recepción de una señal. No es tiempo rector SV ni distancia al origen formal. Error típico: convertir `t_L` en edad absoluta de la totalidad o en distancia temporal a `0_SV`. Uso correcto: usarlo como magnitud física subordinada para describir retorno luminoso, con modelo y parámetros declarados.
+
+## A.17. Horizonte observable
+
+Horizonte observable designa frontera de retorno de señales bajo una historia cosmológica y condiciones de observación. No es borde absoluto del Todo. Error típico: identificar horizonte observable con límite de la totalidad. Uso correcto: hablar de límite de observabilidad, horizonte de partículas, horizonte de eventos o superficie de último scattering según magnitud y modelo.
+
+## A.18. Origen formal `0_SV` o `(0,0)`
+
+`0_SV` o `(0,0)` designa origen formal de potencial, no punto espacial, instante físico, Big Bang, centro geométrico ni singularidad métrica. Error típico: asignarle coordenada, tiempo, temperatura, densidad o distancia física. Uso correcto: emplearlo sólo como referencia formal restringida para `D_abs^{SV}` y exigir residual de origen `Δ_orig=0`.
+
+## A.19. Transductor `𝔛^{dist}_{SV↔FC}`
+
+`𝔛^{dist}_{SV↔FC}` designa correspondencia bidireccional restringida entre magnitudes de distancia física contemporánea y lectura SV. No sustituye las ecuaciones físicas ni los operadores SV existentes. Error típico: usarlo como fórmula cosmológica nueva que calcule distancias sin `𝓜` ni `𝓔`. Uso correcto: recibir una magnitud física tipada, proyectarla al SV, calcular residual y devolverla al dominio físico sin cambio de tipo.
+
+## A.20. Residual compuesto `Δ^{SV↔FC}_{dist}`
+
+`Δ^{SV↔FC}_{dist}` designa agregación de compuertas de defecto: dominio, magnitud, unidad, ecuación, régimen, transducción, retorno y banco. Si todas se anulan, la correspondencia es apta; si hay tensión física competente, puede haber absorción parcial; si hay error de tipo, rechazo; si falta firma sin contradicción, `U`. Error típico: declarar coincidencia sin vector de defecto. Uso correcto: mostrar componentes activadas o anuladas por cada caso.
+
+## A.21. Dictamen `APTO`
+
+`APTO` designa cierre de correspondencia con dominio, magnitud, unidad, ecuación, régimen, transductor, banco y retorno conservados. No significa verdad absoluta de toda una teoría externa ni distancia física nula; significa que la formulación evaluada no presenta defecto de tipo dentro de su alcance. Error típico: extrapolar un `APTO` local a cierre de totalidad. Uso correcto: aplicarlo por fila, caso y magnitud.
+
+## A.22. Dictamen `PARCIAL`
+
+`PARCIAL` designa absorción con residual físico, ruta competente no cerrada, dependencia de modelo, tensión observacional o interpretación todavía no unívoca. No es fracaso ni indecisión vulgar. Error típico: tratar una absorción parcial como rechazo total o como aptitud plena. Uso correcto: conservar residual explícito, por ejemplo tensión de Hubble, energía oscura dinámica, JWST extremo o Big Bang como régimen físico retrospectivo.
+
+## A.23. Dictamen `NO_APTO`
+
+`NO_APTO` designa ruptura de dominio, magnitud, unidad, ecuación, régimen, origen, totalidad, transducción o retorno. No niega necesariamente el fenómeno físico subyacente; rechaza la formulación concreta. Error típico: interpretar rechazo de `z` como distancia directa como rechazo del redshift. Uso correcto: indicar compuerta activada y reformulación admisible.
+
+## A.24. Dictamen `U`
+
+`U` designa indeterminación estructural por falta de firma, dato, modelo, calibración, banco o identificación suficiente, siempre que no exista contradicción formal que obligue a rechazo. No es ignorancia genérica, refugio ni licencia de cierre. Error típico: usar `U` para no decidir un error claro. Uso correcto: declarar qué falta y qué dato permitiría migrar a `APTO`, `PARCIAL` o `NO_APTO`.
+
+## A.25. Tabla compacta de equivalencias
+
+| Término | Tipo | Dominio | Error típico | Salida correcta |
+|:---|:---|:---|:---|:---|
+| `𝒪` | Observable | Físico/SV tipado | Nombre sin firma | Identidad y retorno |
+| `z` | Magnitud espectral | Física | Usarlo como distancia | Entrada de modelo |
+| `D_L` | Distancia física | Flujo-luminosidad | Igualarla a `D_A` | Retorno luminoso |
+| `D_A` | Distancia física | Tamaño-ángulo | Usarla sin tamaño físico | Relación angular |
+| `D_C` | Distancia física | Modelo integral | Radio absoluto | Coordenada cosmológica |
+| `D_P` | Distancia física | Hipersuperficie | Totalidad como cuerpo | Separación interna |
+| `t_L` | Tiempo físico | Modelo | Tiempo rector SV | Mirada atrás tipada |
+| `v_rec` | Velocidad de modelo | Cosmología | Velocidad local | Recesión interna |
+| `H_0` | Parámetro de ruta | Cosmología | Mezclar rutas | `H_0^{local}` / `H_0^{CMB}` |
+| `0_SV` | Origen formal | SV | Big Bang físico | Referencia formal |
+| `d^{SV}_Φ` | Distancia factual local | SV | Metros/pársecs | Cambio de observable |
+| `D^{SV}_Φ` | Distancia factual global | SV | Recorrido completo | Variación extremo a extremo |
+| `DistInter` | Comparación de perfiles | SV | Separación espacial | Diferencia de cambio |
+| `𝔛^{dist}` | Transductor | SV↔Física | Métrica nueva | Correspondencia tipada |
+| `Δ_dist` | Residual | Comp puerta | Omitirlo | Dictamen trazable |
+| `APTO` | Dictamen | Caso tipado | Cierre total indebido | Aptitud por alcance |
+| `PARCIAL` | Dictamen | Residual físico | Rechazo o aptitud plena | Tensión conservada |
+| `NO_APTO` | Dictamen | Error de tipo | Negar el dato físico | Reformular dominio |
+| `U` | Dictamen | Firma insuficiente | Licencia de cierre | Dato faltante declarado |
+# Anexo B. Contrato de datos, runner determinista y salidas reproducibles
+
+El contrato de datos fija la forma material que deberán adoptar los bancos y laboratorios para que la fórmula directriz pueda verificarse sin inferencia opaca. Cada fila debe declarar qué entra, qué magnitud se usa, qué unidad corresponde, qué modelo calcula, qué compuerta se espera activar o anular, qué retorno físico debe producirse y qué dictamen queda previsto. El runner determinista no interpreta intenciones, no corrige silenciosamente errores de entrada y no completa campos ausentes por analogía. Su función será ejecutar una cadena estricta: validar contrato, tipar magnitud, verificar unidad, comprobar modelo y ecuación, evaluar régimen, proyectar al dominio SV, retornar al dominio físico, calcular residuales, emitir dictamen y exportar salidas reproducibles. Si una fila no puede atravesar esa cadena, debe fallar con código explícito; si la atraviesa, debe conservar vector de defecto y trazabilidad.
+
+## B.1. Principio de contrato cerrado
+
+El contrato cerrado significa que el runner sólo aceptará campos conocidos, valores enumerados y relaciones declaradas. Una columna ausente, un valor fuera de catálogo, una unidad incompatible o un modelo no reconocido no se interpretan por benevolencia: activan error de contrato. La finalidad es impedir que un caso resulte apto por omisión. Si una fila declara `z` pero no declara si se usa como retorno espectral o como entrada de distancia, el caso no puede pasar a cálculo; si declara `D_L` sin unidad, no puede compararse; si declara `H_0` sin ruta, no puede decidir tensión; si declara `0_SV` con megapársecs, debe rechazarse. El contrato cerrado no limita el crecimiento posterior: permite añadir nuevos campos o modelos mediante versión formal, pero impide que una versión concreta acepte ambigüedad interna.
+
+## B.2. Estructura material del paquete
+
+La estructura material mínima queda fijada como `datos/`, `especificaciones/`, `src/`, `salidas/`, `errores/`, `registros/` y `README.md`. La carpeta `datos/` contendrá CSV y JSON de bancos; `especificaciones/` contendrá catálogos de magnitudes, unidades, modelos, compuertas y dictámenes; `src/` contendrá el runner y los validadores; `salidas/` contendrá resultados reproducidos; `errores/` contendrá el catálogo operativo y errores emitidos; `registros/` contendrá hashes, versión, fecha de ejecución y manifiestos. Ningún fichero de salida podrá sobrescribir una entrada. Ningún laboratorio dependerá de rutas absolutas del equipo local. Cada ejecución deberá poder repetirse desde la raíz del paquete con los mismos datos congelados y producir la misma matriz de dictamen salvo cambios deliberados de versión.
+
+## B.3. Banco maestro `banco_distancias_sv_fc.csv`
+
+El banco maestro `banco_distancias_sv_fc.csv` será la tabla primaria de casos. Sus columnas obligatorias serán `case_id`, `bank_id`, `case_class`, `observable_kind`, `claim`, `magnitude`, `unit`, `model`, `equation`, `regime`, `boundary`, `sv_projection`, `expected_residual`, `expected_dictamen`, `return_statement`, `source_ref` y `notes`. `case_class` sólo admitirá `positive`, `negative`, `partial` o `u_case`. `magnitude` sólo admitirá valores del catálogo de magnitudes. `expected_dictamen` sólo admitirá `APTO`, `PARCIAL`, `NO_APTO` o `U`. `expected_residual` deberá contener lista de compuertas esperadas, aunque sea `none`. Una fila positiva con compuertas esperadas no nulas queda incoherente; una fila negativa sin compuerta esperada queda inválida; una fila `U` sin dato faltante explícito queda inválida.
+
+## B.4. JSON de caso individual
+
+Cada caso podrá tener un JSON individual para trazabilidad fina. El JSON contendrá `case_id`, `input`, `physical_domain`, `sv_domain`, `transduction`, `residual_components`, `expected`, `bibliography` y `audit`. En `input` se consignarán observables, magnitudes y unidades; en `physical_domain`, modelo, ecuación y frontera; en `sv_domain`, `Φ`, `Γ`, frontera SV y proyección; en `transduction`, direcciones física → SV y SV → física; en `residual_components`, valor esperado de cada compuerta; en `expected`, dictamen previsto y retorno físico; en `bibliography`, fuente o referencia congelada; en `audit`, versión, autoría del banco y hash. El JSON no sustituye al CSV maestro, sino que lo amplía. Si ambos difieren en dictamen o magnitud, prevalecerá error de consistencia y no se ejecutará el caso.
+
+## B.5. Catálogo de magnitudes
+
+El catálogo de magnitudes contendrá al menos `z`, `D_C`, `D_M`, `D_L`, `D_A`, `D_P`, `t_L`, `H_0`, `H(z)`, `v_rec`, `v_pec`, `q(t)`, `w(z)`, `Φ_ret`, `d^{SV}_Φ`, `D^{SV}_Φ`, `Δ^Φ_q`, `DistInter^{SV}`, `D_abs^{SV}` y `D_rel`. Cada magnitud tendrá tipo, unidad esperada, dominio, ecuaciones admisibles, errores prohibidos y retorno físico. `z` tendrá unidad `dimensionless`; `D_C`, `D_M`, `D_L`, `D_A` y `D_P` tendrán unidad de longitud; `H_0` tendrá unidad de tasa por distancia; `v_rec` tendrá unidad de velocidad; `D_abs^{SV}` tendrá estatuto formal interno y no admitirá unidad física de longitud salvo magnitud externa separada. El runner validará contra este catálogo antes de cualquier cálculo.
+
+## B.6. Catálogo de unidades
+
+El catálogo de unidades distinguirá unidades físicas, unidades adimensionales y unidades internas SV. Las unidades físicas permitidas incluirán `m`, `pc`, `kpc`, `Mpc`, `Gpc`, `km s^{-1}`, `km s^{-1} Mpc^{-1}`, `yr`, `Gyr` y equivalentes normalizados; la unidad adimensional será `dimensionless`; las unidades internas SV se registrarán como `SV_internal` o subtipo declarado. Una unidad física asignada a `0_SV` será error; una unidad de longitud asignada a `z` será error; una unidad de velocidad asignada a `H_0` sin cociente por distancia será error; una unidad temporal usada como fundamento SV será error. La conversión entre unidades físicas podrá normalizar valores cuando exista equivalencia explícita, pero la conversión no podrá cambiar el tipo de magnitud.
+
+## B.7. Catálogo de modelos y ecuaciones
+
+El catálogo de modelos contendrá `low_z_Hubble`, `FLRW_LCDM`, `FLRW_w0wa`, `BAO_standard_ruler`, `SN_Ia_luminosity_distance`, `CMB_inference`, `lens_time_delay`, `spectral_redshift`, `SV_formal_origin`, `SV_profile_distance` y `invalid_or_undeclared`. Cada modelo declarará ecuaciones permitidas y régimen. `low_z_Hubble` admitirá `v_rec≈H_0D` bajo bajo redshift; `spectral_redshift` admitirá `z=(λ_obs−λ_emit)/λ_emit`; `FLRW_LCDM` admitirá integrales de distancia mediante `H(z)`; `SN_Ia_luminosity_distance` exigirá calibración; `SV_formal_origin` no admitirá `Mpc` como distancia al origen; `invalid_or_undeclared` no podrá producir aptitud. El runner rechazará una ecuación correcta usada bajo modelo incorrecto, porque el error puede estar en el régimen y no en la fórmula escrita.
+
+## B.8. Catálogo de compuertas residuales
+
+Las compuertas residuales serán `Δ_Ω`, `Δ_m`, `Δ_u`, `Δ_𝓔`, `Δ_reg`, `Δ_T`, `Δ_ret`, `Δ_𝓑`, `Δ_orig`, `Δ_rel`, `Δ_Γ`, `Δ_pair` y `Δ_H`. Cada compuerta tendrá disparadores cerrados. `Δ_Ω` se activa por dominio ausente o totalidad como objeto; `Δ_m` por magnitud equivocada; `Δ_u` por unidad incompatible; `Δ_𝓔` por ecuación ausente o impropia; `Δ_reg` por salida de régimen; `Δ_T` por transducción no ejecutada; `Δ_ret` por retorno físico defectuoso; `Δ_𝓑` por banco insuficiente; `Δ_orig` por origen formal fisicalizado; `Δ_rel` por comparación no homogénea; `Δ_Γ` por trayectoria común ausente; `Δ_pair` por identidad incompleta; `Δ_H` por tensión entre rutas. La salida deberá conservar compuertas múltiples cuando concurran.
+
+## B.9. Regla determinista de dictamen
+
+La regla determinista de dictamen será jerárquica. Si hay error de contrato, la fila no recibe dictamen cosmológico y pasa a `CONTRACT_ERROR`. Si se activa `Δ_Ω`, `Δ_m`, `Δ_u`, `Δ_𝓔`, `Δ_reg`, `Δ_ret`, `Δ_orig` o `Δ_Γ` por defecto formal no recuperable, el dictamen será `NO_APTO`. Si no hay defecto formal, pero existe residual físico competente como `Δ_H`, tensión de modelo, dependencia de parametrización o frontera de evidencia, el dictamen será `PARCIAL`. Si falta firma, identidad, calibración, modelo de lente o dato esencial sin contradicción formal, el dictamen será `U`. Si todas las compuertas relevantes se anulan y el retorno físico conserva tipo, el dictamen será `APTO`. La regla no permitirá elegir `APTO` por ausencia de errores detectados cuando faltan campos obligatorios.
+
+## B.10. Validación de ida física → SV
+
+La validación física → SV tomará la entrada `(𝒪,m,u,𝓜,𝓔,F)` y verificará si puede construir una proyección `Φ_𝒪`, trayectoria `Γ` cuando proceda, frontera SV y vector de residual. Si `m=z`, la proyección será retorno espectral; si `m=D_L`, retorno luminoso calibrado; si `m=D_A`, relación angular-forma; si `m=D_C`, coordenada cosmológica de modelo; si `m=D_abs^{SV}`, referencia formal con origen no espacializado; si `m=DistInter^{SV}`, perfiles con trayectoria común. La validación fallará si la magnitud física pretende entrar como operador SV sin transductor o si una magnitud SV pretende entrar como longitud física sin unidad y retorno. La salida de esta fase será `sv_projection_ok=true/false` con compuertas activadas.
+
+## B.11. Validación de vuelta SV → física
+
+La validación SV → física comprobará que la salida puede expresarse de nuevo con la misma magnitud o con conversión declarada. Si entró `D_L`, deberá retornar como distancia de luminosidad; si entró `D_A`, como distancia angular; si entró `z`, como redshift o como distancia calculada por modelo; si entró `H_0^{local}`, como ruta local; si entró `H_0^{CMB}`, como inferencia temprana bajo modelo; si entró `0_SV`, como referencia formal no física. La salida fallará si el resultado vuelve como magnitud distinta, si convierte `D_abs^{SV}` en radio físico, si transforma `z` en distancia sin modelo, o si presenta una salida sólo inteligible en lenguaje SV sin magnitud física. Esta fase activa principalmente `Δ_ret`.
+
+## B.12. Modo estricto de ejecución
+
+El modo estricto de ejecución exige abortar o marcar error en toda fila que incumpla contrato. No se admitirán valores por defecto para `model`, `unit`, `magnitude`, `expected_dictamen` ni `expected_residual`. No se admitirán espacios vacíos interpretados como `none`. No se admitirán columnas desconocidas salvo que figuren en un bloque `extra` controlado. No se admitirán tolerancias numéricas no declaradas. No se admitirán excepciones absorbidas. Cada error debe emitirse con `case_id`, código, campo afectado, valor recibido, valor esperado y fase del runner. El modo estricto protege la integridad probatoria: una fila defectuosa no puede convertirse en evidencia favorable por silencio técnico.
+
+## B.13. Salidas obligatorias
+
+Las salidas obligatorias serán `salidas/resultados_globales.csv`, `salidas/residuales_por_caso.json`, `salidas/resumen_dictamen.json`, `salidas/matriz_confusion_esperado_obtenido.csv`, `errores/errores_detectados.csv`, `registros/hash_entradas.txt`, `registros/hash_salidas.txt` y `registros/ejecucion.json`. `resultados_globales.csv` contendrá una fila por caso con dictamen obtenido y esperado; `residuales_por_caso.json` conservará el vector de compuertas; `resumen_dictamen.json` agregará conteos; `matriz_confusion_esperado_obtenido.csv` mostrará coincidencias y fallos; `errores_detectados.csv` contendrá errores de contrato y compuertas; los hashes garantizarán que entradas y salidas no se alteraron; `ejecucion.json` registrará versión, fecha, plataforma y configuración. Una salida sin hash o sin residual por caso no será apta para cierre.
+
+## B.14. Métrica de coincidencia esperada-obtenida
+
+La métrica primaria será coincidencia exacta entre `expected_dictamen` y `obtained_dictamen` por caso, junto con coincidencia de compuertas esperadas principales. No se usará un porcentaje global como criterio único, porque un solo negativo aceptado como apto puede invalidar el aparato aunque el porcentaje sea alto. La matriz de evaluación tendrá cuatro clases: `match`, `dictamen_mismatch`, `residual_mismatch` y `contract_error`. `dictamen_mismatch` se activa cuando el dictamen difiere; `residual_mismatch` cuando el dictamen coincide pero la compuerta esperada no aparece; `contract_error` cuando la fila no se puede ejecutar por entrada defectuosa. El cierre técnico exige cero `dictamen_mismatch` en negativos críticos N1–N10 y cero aptitudes con compuertas formales activadas.
+
+## B.15. Banco mínimo de aceptación
+
+El banco mínimo de aceptación contendrá al menos cuarenta casos: diez positivos de distancias bien tipadas, diez negativos N1–N10, cinco parciales de rutas o modelos con residual, cinco `U` por firma insuficiente, cinco casos de origen formal y cinco casos de distancia relativa. Menos de ese número puede servir para prueba de humo, pero no para cierre. Los positivos deberán incluir `D_C`, `D_L`, `D_A`, `D_P`, `z` como entrada de modelo, supernova Ia, BAO, CMB y lente. Los negativos deberán incluir `v=cz` en alto `z`, `D_L=D_A`, `(0,0)=Big Bang`, totalidad como objeto, `H_0` mezclado, velocidad indefinida, JWST como refutación total, energía oscura como cierre definitivo, retorno como edad absoluta y absorción sin residual. La diversidad impide que el runner sólo aprenda un patrón favorable.
+
+## B.16. Prueba de humo
+
+La prueba de humo ejecutará una muestra reducida con un caso apto, un caso parcial, un caso no apto y un caso `U`. La finalidad será verificar que el entorno lee datos, carga catálogos, calcula residuales y exporta salidas. La prueba de humo no valida la fórmula directriz, sólo valida que la cadena técnica funciona. Un ejemplo mínimo contendrá `D_C(z)` bajo modelo declarado como apto, tensión `H_0^{local}` frente a `H_0^{CMB}` como parcial, `z` usado como distancia directa como no apto, y candidato fotométrico sin confirmación como `U`. Si la prueba de humo falla, no procede ejecutar banco completo. Si pasa, sólo habilita ejecución ampliada, no cierre.
+
+## B.17. Prueba adversarial obligatoria
+
+La prueba adversarial obligatoria ejecutará primero los negativos antes de los positivos. Esta inversión impide que una salida favorable inicial oculte defectos discriminativos. El orden será N1 a N10, después casos de origen formal, después colapsos de distancia, después mezcla de rutas, después positivos. Si algún negativo crítico devuelve `APTO`, se aborta la ejecución con fallo de validación. Si un negativo devuelve `U` cuando el error formal es claro, se marca sobreconservación indebida. Si un parcial devuelve `APTO`, se marca cierre excesivo. La prueba adversarial es la compuerta material que convierte la teoría de residuales en prueba ejecutable: primero se intenta derrotar el aparato; sólo después se aceptan los casos favorables.
+
+## B.18. Criterio de cierre material
+
+El cierre material exigirá cinco condiciones simultáneas: contrato sin errores en entradas válidas, negativos críticos rechazados con compuertas correctas, positivos aceptados con residual cero de plano, parciales conservados como parciales y casos `U` mantenidos sin cierre favorable. Además, las salidas deberán tener hashes, versión del runner, catálogo de errores aplicado y matriz esperado-obtenido sin fallos críticos. Si una sola fila negativa crítica queda apta, no hay cierre. Si una sola fila positiva canónica bien declarada queda no apta, hay sobrebloqueo que debe corregirse. Si una sola fila sin firma queda apta, hay cierre espurio. El cierre material no se declara por lectura humana de tablas, sino por coincidencia entre contrato, ejecución, residual y retorno físico.
+
+## B.19. Tabla de contrato técnico
+
+| Elemento | Obligatorio | Fallo si falta | Salida esperada |
+|:---|:---:|:---|:---|
+| `case_id` | Sí | Error de contrato | Fila no ejecutable |
+| `magnitude` | Sí | `E-DIST-01` / contrato | No apto o error |
+| `unit` | Sí | `E-DIST-02` | No apto |
+| `model` | Sí si hay conversión física | `E-DIST-03` / `E-DIST-10` | No apto |
+| `equation` | Sí si se calcula | `Δ_𝓔` | No apto |
+| `regime` | Sí | `Δ_reg` | No apto si se usa fuera de dominio |
+| `boundary` | Sí | `Δ_Ω` o `Δ_ret` | No apto/parcial |
+| `sv_projection` | Sí | `Δ_T` | No apto |
+| `return_statement` | Sí | `Δ_ret` | No apto |
+| `expected_residual` | Sí | `E-DIST-10` | Error de contrato |
+| `expected_dictamen` | Sí | Error de contrato | Fila no ejecutable |
+| Negativo simétrico | Sí para cierre | `E-DIST-13` | Cierre no apto |
+| Vector residual obtenido | Sí | `E-DIST-14` | Runner no apto |
+| Hash de entrada | Sí | Registro incompleto | Cierre no material |
+| Hash de salida | Sí | Registro incompleto | Cierre no material |
+# Anexo C. Matriz de transducción SV↔física contemporánea
+
+La matriz de transducción reúne en una sola sede las correspondencias que permiten pasar de magnitudes cosmológicas contemporáneas a lectura SV y volver desde SV al dominio físico sin cambio de tipo. No introduce un operador nuevo distinto de `𝔛^{dist}_{SV↔FC}`; despliega su tabla de uso para impedir sustituciones impropias. Cada fila debe responder a cinco preguntas: qué magnitud entra, qué dominio físico la legitima, qué proyección SV recibe, qué residual debe vigilarse y qué retorno físico se exige. Si una fila no puede responder a esas cinco preguntas, no hay transducción suficiente. El criterio rector queda fijado así: el paso SV↔física no autoriza a convertir redshift en distancia, distancia de luminosidad en distancia angular, velocidad recesional en velocidad local, horizonte observable en borde absoluto ni origen formal en Big Bang físico. La matriz es, por tanto, una compuerta de conservación de tipo.
+
+## C.1. Forma general de la matriz
+
+La forma general de la matriz se escribe como `𝓜𝔛_dist: (m,u,𝓓_FC,𝓔,F) ↔ (Φ_m,Γ,F_SV,Δ_m^{SV},R_ret)`, donde `m` es magnitud física o formal declarada, `u` es unidad, `𝓓_FC` es dominio físico contemporáneo, `𝓔` es ecuación o regla de cálculo, `F` es frontera externa, `Φ_m` es proyección SV, `Γ` es trayectoria cuando proceda, `F_SV` es frontera de lectura interna, `Δ_m^{SV}` es residual de correspondencia y `R_ret` es retorno físico. La matriz no calcula valores si el modelo externo no los aporta; verifica que el valor, cuando existe, no cambia de naturaleza al atravesar el transductor. Si `m` no posee unidad o estatuto formal compatible, la fila queda no apta. Si `m` posee unidad correcta pero se usa fuera de régimen, la fila activa residual de régimen. Si `m` vuelve con otra identidad física, la fila falla por retorno.
+
+## C.2. Correspondencia para `z`
+
+El redshift `z` entra como magnitud espectral adimensional. Su dominio físico es la comparación entre longitud de onda emitida y observada; su ecuación primaria es `z=(λ_obs−λ_emit)/λ_emit`; su proyección SV es `Φ_z`, retorno espectral tipado; su residual crítico es `Δ_m` cuando se usa como distancia, `Δ_u` cuando recibe unidad de longitud y `Δ_𝓔` cuando se convierte sin modelo. El retorno físico exigido es “corrimiento al rojo” o “entrada espectral de un modelo de distancia”, nunca distancia desnuda. Una fila `z → D_C` sólo es apta si incluye `𝓜`, `H(z)` y unidad de salida. Una fila `z → v=cz` sólo es apta en bajo `z` y bajo régimen local; fuera de ese dominio queda rechazada.
+
+## C.3. Correspondencia para `D_C`
+
+La distancia comóvil `D_C` entra como longitud de modelo obtenida por una integral cosmológica, típicamente dependiente de `H(z)`. Su dominio físico es la coordenada radial cosmológica descontando la evolución del factor de escala; su proyección SV es `Φ_C`, lectura de posición comóvil de modelo; su residual crítico es `Δ_𝓔` si falta `H(z)`, `Δ_𝓜` si se mezclan parámetros, `Δ_reg` si el modelo se usa fuera de alcance y `Δ_ret` si vuelve como recorrido luminoso o radio de totalidad. El retorno físico exigido es “distancia comóvil bajo modelo declarado”. `D_C` no es distancia de luminosidad, no es distancia angular, no es distancia recorrida por la luz y no mide la totalidad absoluta. Su aptitud se limita a observables internos con redshift y cosmología declarada.
+
+## C.4. Correspondencia para `D_M`
+
+La distancia comóvil transversal `D_M` entra como longitud geométrica de modelo asociada a separación angular transversal y dependiente de la curvatura si procede. Su dominio físico está entre `D_C`, curvatura espacial de modelo y distancias derivadas `D_L` y `D_A`; su proyección SV es `Φ_M`, lectura transversal de modelo; su residual crítico aparece cuando se omite curvatura, se usa como `D_C` sin condiciones o se transforma directamente en distancia absoluta. El retorno físico exigido es “distancia comóvil transversal bajo cosmología declarada”. En casos planos puede coincidir numéricamente con `D_C`, pero esa coincidencia no autoriza a borrar la distinción de dominio. La matriz conserva esta separación para que las relaciones `D_L` y `D_A` no se calculen con una columna mal tipada.
+
+## C.5. Correspondencia para `D_L`
+
+La distancia de luminosidad `D_L` entra como longitud inferida por la relación entre luminosidad intrínseca y flujo observado. Su dominio físico exige calibración, flujo, extinción, redshift y modelo; su proyección SV es `Φ_L`, retorno luminoso calibrado; su residual crítico es `Δ_m` si se iguala a `D_A`, `Δ_𝓔` si falta relación flujo-luminosidad, `Δ_ret` si vuelve como distancia propia y `Δ_𝓑` si no hay banco de calibración. El retorno físico exigido es “distancia de luminosidad”, no separación espacial directa ni distancia angular. En supernovas Ia, `D_L` puede ser apta con curva de luz, calibración y modelo; en fuentes no calibradas, la misma magnitud puede quedar `U` o parcial. La matriz fuerza que el brillo observado no se confunda con lejanía sin control de luminosidad intrínseca.
+
+## C.6. Correspondencia para `D_A`
+
+La distancia angular `D_A` entra como longitud inferida por relación entre tamaño físico transversal y tamaño angular observado. Su dominio físico exige tamaño, ángulo, redshift y modelo geométrico; su proyección SV es `Φ_A`, retorno angular-forma; su residual crítico es `Δ_m` si se confunde con `D_L`, `Δ_𝓔` si falta tamaño físico, `Δ_ret` si vuelve como brillo o distancia de luminosidad y `Δ_𝓜` si se omite lente o geometría relevante. El retorno físico exigido es “distancia angular”. En lentes gravitacionales, cúmulos y BAO transversal, `D_A` puede ser apta bajo modelo declarado; si falta tamaño físico o modelo de masa, queda parcial o `U`. La matriz conserva que una fuente pequeña en ángulo no es automáticamente una fuente lejana sin conocer tamaño y geometría.
+
+## C.7. Correspondencia para `D_P`
+
+La distancia propia `D_P` entra como separación física en una hipersuperficie de modelo, usualmente `D_P(t)=a(t)χ`. Su dominio exige factor de escala, coordenada comóvil, régimen de comparación y observables no ligados si se usa para expansión de fondo; su proyección SV es `Φ_P`, separación propia tipada; su residual crítico es `Δ_Ω` si se aplica a la totalidad, `Δ_reg` si se aplica a sistemas ligados sin frontera, `Δ_m` si se usa como velocidad y `Δ_ret` si vuelve como expansión del Todo. El retorno físico exigido es “separación propia interna bajo modelo”. `D_P` puede crecer para pares comóviles sin que exista movimiento local ordinario ni expansión de la totalidad absoluta. Esta fila es central para separar distanciamiento observable de extrapolación ontológica.
+
+## C.8. Correspondencia para `t_L`
+
+El tiempo de mirada atrás `t_L` entra como magnitud temporal física de modelo entre emisión y recepción de una señal. Su dominio exige redshift, cosmología y ecuación de integración temporal; su proyección SV es parámetro subordinado de retorno, no tiempo rector; su residual crítico es `Δ_m` si se convierte en distancia, `Δ_Ω` si se usa como edad de totalidad, `Δ_{temp0}` si se aplica al origen formal y `Δ_ret` si vuelve como fundamento SV. El retorno físico exigido es “tiempo de mirada atrás bajo modelo”. Una galaxia observada con gran `t_L` no está dando la edad absoluta del Todo; entrega una señal emitida en un régimen físico reconstruido. La matriz impide que una magnitud temporal externa gobierne la cadena SV.
+
+## C.9. Correspondencia para `H_0` y `H(z)`
+
+`H_0` y `H(z)` entran como tasas de expansión de modelo, no como velocidades simples. Su dominio exige ruta de medición, modelo, unidad y, en el caso de `H(z)`, dependencia cosmológica; su proyección SV es `Φ_H`, parámetro de ruta; su residual crítico es `Δ_𝓜` si se mezclan rutas, `Δ_u` si la unidad es incorrecta, `Δ_H` si hay tensión competente y `Δ_ret` si vuelve como velocidad local. El retorno físico exigido es “constante o función de Hubble bajo ruta y modelo declarados”. `H_0^{local}` y `H_0^{CMB}` deben conservarse separados; su diferencia puede producir absorción parcial, no promedio tácito. La matriz convierte la tensión de Hubble en residual tipado, no en argumento verbal a favor o en contra de una ruta.
+
+## C.10. Correspondencia para `v_rec`
+
+La velocidad recesional `v_rec` entra como magnitud derivada `H(t)D_P(t)` bajo modelo cosmológico. Su dominio exige distancia propia, tasa de expansión, régimen y observables comóviles; su proyección SV es `Φ_v`, velocidad de separación interna tipada; su residual crítico es `Δ_m` si se interpreta como velocidad peculiar, `Δ_reg` si se obtiene por `v=cz` fuera de bajo redshift, `Δ_ret` si vuelve como movimiento local universal y `Δ_Ω` si se aplica a la totalidad. El retorno físico exigido es “velocidad recesional de modelo”. La matriz no impide hablar de velocidades superiores a `c` cuando son recesionales de modelo; impide leerlas como velocidades locales ordinarias. La corrección de tipo evita que una fórmula aproximada produzca paradojas falsas.
+
+## C.11. Correspondencia para `q(t)` y `ä(t)`
+
+`q(t)` y `ä(t)` entran como magnitudes de aceleración del factor de escala dentro de un modelo cosmológico. Su dominio exige `a(t)`, derivadas físicas de modelo, parámetros y observables que los constriñan; su proyección SV es `Φ_acc`, lectura de aceleración de escala; su residual crítico es `Δ_m` si se confunde aceleración de escala con velocidad local, `Δ_Ω` si se atribuye a la totalidad como cuerpo, `Δ_𝓔` si falta ecuación y `Δ_ret` si vuelve como causa total. El retorno físico exigido es “aceleración de la expansión de modelo”, no aceleración de cada objeto ni aceleración del Todo. Esta fila permite absorber supernovas, BAO y CMB como evidencia de aceleración sin convertir la aceleración en movimiento absoluto de una entidad universal.
+
+## C.12. Correspondencia para `w(z)` y energía oscura
+
+`w(z)` entra como función o parametrización de ecuación de estado asociada a energía oscura o extensiones dinámicas. Su dominio exige modelo, datos, covarianza, parametrización y alcance; su proyección SV es `Φ_w`, componente de contraste dinámico; su residual crítico es `Δ_𝓔` si no hay ecuación, `Δ_𝓑` si no hay banco, `Δ_𝓜` si se mezclan modelos y `Δ_ret` si vuelve como destino definitivo del Universo. El retorno físico exigido es “parametrización de energía oscura bajo modelo”, no explicación causal absoluta. La matriz permite absorción plena de `Λ` como término instrumental, absorción parcial de dinámica no cerrada y rechazo de lecturas que transforman `w(z)` en cierre final sin banco. La energía oscura queda así en su dominio físico, no como sustituto de origen.
+
+## C.13. Correspondencia para horizonte observable
+
+El horizonte observable entra como frontera física de retorno, no como objeto ni borde absoluto. Su dominio exige modelo cosmológico, señal, época, superficie o límite de observabilidad; su proyección SV es `F_obs`, frontera de retorno; su residual crítico es `Δ_ret` si se identifica con borde del Todo, `Δ_Ω` si se convierte en objeto total, `Δ_m` si se confunde con distancia de una fuente ordinaria y `Δ_𝓔` si falta definición de horizonte. El retorno físico exigido es “límite de observabilidad” o “frontera de señal”. La matriz distingue horizonte de partículas, horizonte de eventos, superficie de último scattering y profundidad instrumental. La totalidad no queda medida por el horizonte; sólo queda delimitado lo que retorna bajo condiciones físicas.
+
+## C.14. Correspondencia para `0_SV`
+
+`0_SV` entra como origen formal de potencial, sin unidad física. Su dominio es SV formal restringido; su proyección física directa no existe como objeto, sino como retorno verbal controlado: “referencia formal no espacial ni temporal”. Su residual crítico es `Δ_orig`, compuesto por identificación física, espacialización, temporalización, metrologización indebida y retorno defectivo. El retorno físico exigido es negativo en sentido material: no debe volver como Big Bang, centro, instante, singularidad, radio ni fuente de galaxias. Una relación `𝒪_i ↔ 0_SV` sólo es apta si el observable conserva su magnitud física y el origen conserva su estatuto formal. La matriz protege el origen frente a la tentación de convertirlo en una coordenada cosmológica.
+
+## C.15. Correspondencia para `D_abs^{SV}`
+
+`D_abs^{SV}` entra como distancia absoluta formal restringida respecto de `0_SV`. Su dominio exige observable tipado, trayectoria de lectura, origen formal no espacializado y residual de origen nulo; su proyección física de retorno no es longitud, sino relación formal de referencia más la magnitud física del observable si existe. Su residual crítico es `Δ_{esp0}` si se expresa en megapársecs desde el origen, `Δ_{temp0}` si se expresa como tiempo al origen, `Δ_{met0}` si se asigna unidad al origen y `Δ_ret` si vuelve como Big Bang. El retorno físico exigido es “observable con distancia física propia de su modelo y referencia formal SV separada”. Esta fila permite ordenar retornos profundos sin producir radio del Universo.
+
+## C.16. Correspondencia para `D_rel`
+
+`D_rel` entra como distancia relativa entre observables bajo magnitud homogénea o transductor explícito. Su dominio exige dos observables, magnitud común, unidad, modelo, frontera y fórmula de relación; su proyección SV es comparación `Rel_m` o `DistInter^{SV}` si se usan perfiles; su residual crítico es `Δ_pair` si falta identidad, `Δ_m` si las magnitudes son heterogéneas, `Δ_u` si las unidades no coinciden, `Δ_𝓜` si los modelos se mezclan, `Δ_Γ` si la trayectoria común falta y `Δ_ret` si la salida física no es interpretable. El retorno físico exigido es “comparación relativa bajo magnitud declarada”. La matriz permite comparar dos galaxias por `D_C`, dos supernovas por `D_L`, dos rutas por `H_0` y dos perfiles por `DistInter`, pero bloquea restas entre columnas incompatibles.
+
+## C.17. Correspondencia para `DistInter^{SV}`
+
+`DistInter^{SV}` entra como distancia entre perfiles de cambio factual, no como distancia geométrica entre fuentes. Su dominio exige dos observables o campos con trayectoria común `Γ`, valores locales comparables y frontera de análisis; su proyección física de retorno puede ser “diferencia de perfil de retorno”, “diferencia de ruta de calibración” o “diferencia de modelo evaluado en banco común”. Su residual crítico es `Δ_Γ` si las trayectorias no coinciden, `Δ_m` si se interpreta como longitud espacial y `Δ_ret` si vuelve como separación física sin conversión. El retorno físico exigido debe nombrar perfil, no espacio. Esta fila es útil para comparar dos modelos que alcanzan valores finales parecidos pero por perfiles internos distintos, o dos retornos que comparten extremo y difieren en recorrido.
+
+## C.18. Matriz compacta de transducción
+
+| Magnitud | Dominio físico/formal | Proyección SV | Residual crítico | Retorno físico correcto | Error prohibido |
+|:---|:---|:---|:---|:---|:---|
+| `z` | Espectro | `Φ_z` | `Δ_m`, `Δ_u`, `Δ_𝓔` | Redshift o entrada de modelo | Distancia directa |
+| `D_C` | Integral cosmológica | `Φ_C` | `Δ_𝓔`, `Δ_𝓜` | Distancia comóvil | Radio del Universo |
+| `D_M` | Transversal comóvil | `Φ_M` | `Δ_𝓜` | Distancia transversal | Omitir curvatura |
+| `D_L` | Flujo-luminosidad | `Φ_L` | `Δ_m`, `Δ_ret` | Distancia de luminosidad | Igualar a `D_A` |
+| `D_A` | Tamaño-ángulo | `Φ_A` | `Δ_m`, `Δ_𝓔` | Distancia angular | Usarla sin tamaño |
+| `D_P` | Separación propia | `Φ_P` | `Δ_Ω`, `Δ_reg` | Separación interna | Totalidad como cuerpo |
+| `t_L` | Tiempo físico de modelo | Parámetro de retorno | `Δ_m`, `Δ_{temp0}` | Mirada atrás | Tiempo rector SV |
+| `H_0` | Ruta cosmológica | `Φ_H` | `Δ_𝓜`, `Δ_H` | Parámetro de ruta | Mezcla local/CMB |
+| `v_rec` | Velocidad de modelo | `Φ_v` | `Δ_m`, `Δ_reg` | Recesión interna | Velocidad local |
+| `q(t)` | Aceleración de escala | `Φ_acc` | `Δ_m`, `Δ_Ω` | Aceleración de modelo | Aceleración del Todo |
+| `w(z)` | Energía oscura | `Φ_w` | `Δ_𝓔`, `Δ_𝓑` | Parametrización | Destino definitivo |
+| Horizonte | Frontera de señal | `F_obs` | `Δ_ret`, `Δ_Ω` | Límite observable | Borde absoluto |
+| `0_SV` | Origen formal | Referencia formal | `Δ_orig` | No físico | Big Bang físico |
+| `D_abs^{SV}` | Relación formal | `Rel_SV(Φ,0_SV)` | `Δ_orig` | Referencia formal | Mpc desde origen |
+| `D_rel` | Comparación homogénea | `Rel_m` | `Δ_rel` | Comparación tipada | Restar magnitudes mixtas |
+| `DistInter` | Perfiles SV | `Σ|d_i-d_j|` | `Δ_Γ`, `Δ_ret` | Diferencia de perfil | Separación espacial |
+
+## C.19. Prueba de consistencia de ida y vuelta
+
+La prueba de consistencia de ida y vuelta exige que cada fila de la matriz supere la identidad de tipo `Tipo(𝔛^{dist}_{←}(𝔛^{dist}_{→}(m)))=Tipo(m)` salvo conversión declarada. Si entra `z`, la vuelta debe ser redshift o distancia calculada mediante modelo explícito; si entra `D_L`, la vuelta debe ser distancia de luminosidad; si entra `H_0^{local}`, la vuelta debe conservar ruta local; si entra `0_SV`, la vuelta no debe producir magnitud física; si entra `DistInter`, la vuelta debe hablar de perfil y no de longitud espacial. Cuando la identidad de tipo falla, se activa `Δ_ret`. Esta prueba es más fuerte que una equivalencia verbal porque obliga a que el resultado pueda ser reconocido por la física contemporánea sin traducirlo de nuevo por intuición.
+# Anexo D. Banco maestro mínimo de aceptación
+
+El banco maestro mínimo de aceptación fija la primera matriz material que deberá atravesar el runner integral. No sustituye los bancos ampliados del cuerpo principal ni los laboratorios posteriores; condensa un conjunto suficiente de casos heterogéneos para probar que la fórmula directriz acepta magnitudes bien tipadas, conserva residuales parciales, rechaza errores de plano y mantiene `U` cuando falta firma. La estructura contiene cincuenta y dos casos distribuidos en positivos, parciales, negativos, `U`, origen formal y distancia relativa. Cada fila conserva identificador, clase, observable o formulación, magnitud, unidad, modelo, residual esperado y dictamen esperado. La prueba queda superada sólo si el runner devuelve el dictamen previsto y activa las compuertas esperadas; una sola aptitud indebida en negativos críticos invalida el cierre, aunque el resto de filas coincida.
+
+## D.1. Criterio de inclusión
+
+Un caso entra en el banco maestro si prueba una compuerta relevante o una absorción necesaria. Los positivos prueban que el aparato no bloquea la física bien declarada; los parciales prueban que una ruta competente con residual no se fuerza a cierre pleno; los negativos prueban que errores de plano, magnitud, unidad, régimen, origen, retorno o banco son detectados; los `U` prueban que la falta de firma no se convierte en dictamen favorable; los casos de origen prueban que `0_SV` conserva estatuto formal; los casos de distancia relativa prueban que la comparación entre observables exige homogeneidad o transductor. La condición mínima es que cada fila tenga magnitud y unidad o, si el estatuto es formal, que la ausencia de unidad física esté expresamente declarada. Un caso sin magnitud ni razón formal queda fuera del banco.
+
+## D.2. Campos obligatorios del banco maestro
+
+Los campos obligatorios serán `case_id`, `bank_group`, `case_class`, `observable_or_claim`, `magnitude`, `unit`, `model_or_rule`, `expected_residual`, `expected_dictamen` y `return_statement`. `case_id` identifica la fila; `bank_group` agrupa el tipo de prueba; `case_class` separa `positive`, `partial`, `negative`, `u_case`, `origin` y `relative`; `observable_or_claim` expresa el contenido físico o la formulación sometida a prueba; `magnitude` declara la magnitud principal; `unit` fija unidad o estatuto formal; `model_or_rule` declara ecuación, modelo o regla; `expected_residual` enumera compuertas; `expected_dictamen` fija salida; `return_statement` obliga a que la salida pueda volver a física contemporánea. El runner no podrá deducir un campo ausente por semejanza con otra fila.
+
+## D.3. Positivos físicos canónicos
+
+| case_id | bank_group | observable_or_claim | magnitude | unit | model_or_rule | expected_residual | expected_dictamen | return_statement |
+|:---:|:---|:---|:---|:---:|:---|:---:|:---:|:---|
+| P-01 | positivo | Galaxia con `z` espectroscópico y ΛCDM declarado | `D_C` | Mpc | Integral con `H(z)` | none | APTO | Distancia comóvil bajo modelo |
+| P-02 | positivo | Supernova Ia calibrada | `D_L` | Mpc | Curva de luz y calibración | none | APTO | Distancia de luminosidad |
+| P-03 | positivo | Cúmulo con tamaño físico y ángulo | `D_A` | Mpc | Tamaño-ángulo | none | APTO | Distancia angular |
+| P-04 | positivo | Dos galaxias comóviles con `χ` constante | `D_P(t)` | Mpc | `a(t)χ` | none | APTO | Separación propia interna |
+| P-05 | positivo | Línea espectral identificada | `z` | dimensionless | `z=(λ_obs−λ_emit)/λ_emit` | none | APTO | Corrimiento al rojo |
+| P-06 | positivo | BAO transversal con `r_d` declarado | `D_M/r_d` | dimensionless | Regla estándar BAO | none | APTO | Patrón correlacional de distancia |
+| P-07 | positivo | BAO radial con `H(z)r_d` | `H(z)` | km s⁻¹ Mpc⁻¹ | Regla estándar BAO | none | APTO | Tasa de expansión por patrón |
+| P-08 | positivo | CMB como retorno temprano bajo modelo | `θ_*` | dimensionless | Inferencia CMB | none | APTO | Escala angular del horizonte sonoro |
+| P-09 | positivo | Lente gravitacional con fuente, lente y masa declaradas | `D_A` | Mpc | Geometría de lente | none | APTO | Distancias angulares de lente |
+| P-10 | positivo | Cuásar con líneas identificadas y redshift robusto | `z` | dimensionless | Espectro | none | APTO | Retorno espectral de alto alcance |
+| P-11 | positivo | Lyman-α identificado como absorción | `z` | dimensionless | Transición homóloga | none | APTO | Firma espectral de gas |
+| P-12 | positivo | `D_L` derivada de `D_M` con redshift declarado | `D_L` | Mpc | `D_L=(1+z)D_M` | none | APTO | Distancia de luminosidad derivada |
+
+## D.4. Parciales por residual físico competente
+
+| case_id | bank_group | observable_or_claim | magnitude | unit | model_or_rule | expected_residual | expected_dictamen | return_statement |
+|:---:|:---|:---|:---|:---:|:---|:---:|:---:|:---|
+| R-01 | parcial | `H_0^{local}` frente a `H_0^{CMB}` | `H_0` | km s⁻¹ Mpc⁻¹ | Rutas separadas | `Δ_H` | PARCIAL | Tensión de rutas |
+| R-02 | parcial | Modelo `w_0-w_a` frente a ΛCDM | `D_L(z)` | Mpc | Comparación de modelos | `Δ_𝓜` | PARCIAL | Residual de parametrización |
+| R-03 | parcial | Galaxia JWST masiva con espectro robusto y tensión de formación | `z`, masa | mixto | Modelo estelar | `Δ_𝓑` | PARCIAL | Retorno extremo con tensión |
+| R-04 | parcial | Big Bang como régimen físico retrospectivo | `t`, `z`, temperatura | mixto | Cosmología temprana | `Δ_Ω` controlado | PARCIAL | Régimen físico separado de `0_SV` |
+| R-05 | parcial | Energía oscura dinámica con evidencia no definitiva | `w(z)` | dimensionless | Parametrización dinámica | `Δ_𝓑` | PARCIAL | Contraste de modelo |
+| R-06 | parcial | Lente con degeneración de masa parcialmente controlada | `D_A` | Mpc | Modelo de lente incompleto | `Δ_𝓜` | PARCIAL | Distancia condicionada por masa |
+| R-07 | parcial | Línea 21 cm marginal pero estructurada | `z` | dimensionless | Frecuencia HI | `Δ_pair` | PARCIAL/U | Señal física pendiente de robustez |
+| R-08 | parcial | Cefeida y TRGB con calibraciones distintas | distancia local | Mpc | Escalera local | `Δ_𝓜` | PARCIAL | Rutas locales comparadas |
+
+## D.5. Negativos críticos N1–N10
+
+| case_id | bank_group | observable_or_claim | magnitude | unit | model_or_rule | expected_residual | expected_dictamen | return_statement |
+|:---:|:---|:---|:---|:---:|:---|:---:|:---:|:---|
+| N-01 | negativo | Galaxia `z=6` evaluada con `v=cz` como velocidad local | `v` | km s⁻¹ | `v=cz` fuera de régimen | `Δ_reg, Δ_𝓔, Δ_ret` | NO_APTO | Rechazo de ecuación local extrapolada |
+| N-02 | negativo | Igualar `D_L=D_A` para `z>0` | `D_L/D_A` | Mpc | Igualación sin factor | `Δ_m, Δ_𝓔` | NO_APTO | Distancias no colapsadas |
+| N-03 | negativo | Identificar `(0,0)` con Big Bang físico | `0_SV` | formal | Origen fisicalizado | `Δ_orig` | NO_APTO | Separación origen formal/régimen temprano |
+| N-04 | negativo | Distancia física de la totalidad absoluta | `D(U_total)` | Mpc | Totalidad como objeto | `Δ_Ω, Δ_ret` | NO_APTO | No hay objeto físico total medible |
+| N-05 | negativo | Promediar `H_0^{local}` y `H_0^{CMB}` sin ruta | `H_0` | km s⁻¹ Mpc⁻¹ | Mezcla de rutas | `Δ_𝓜, Δ_ret` | NO_APTO | Rutas separadas |
+| N-06 | negativo | “La velocidad aumenta” sin magnitud | velocidad | indefinida | Magnitud ausente | `Δ_m, Δ_u, Δ_ret` | NO_APTO | Exigir `H`, `ȧ`, `ä`, `v_rec` o peculiar |
+| N-07 | negativo | JWST refuta ΛCDM en bloque por una fuente extrema | frase global | none | Extrapolación sin banco | `Δ_𝓑, Δ_𝓜, Δ_ret` | NO_APTO | Banco de estrés, no cierre global |
+| N-08 | negativo | `w(z)` decide destino final del Universo | `w(z)` | dimensionless | Cierre extrapolado | `Δ_𝓔, Δ_𝓑, Δ_ret` | NO_APTO | Contraste dinámico parcial |
+| N-09 | negativo | Retorno luminoso convertido en edad absoluta del Todo | `t_L` | Gyr | Señal como totalidad | `Δ_m, Δ_Ω, Δ_ret` | NO_APTO | Tiempo de mirada atrás tipado |
+| N-10 | negativo | Coincidencia SV↔física declarada sin residual | none | none | Sin vector `Δ` | `Δ_T, Δ_ret, Δ_𝓑` | NO_APTO | Residual obligatorio |
+
+## D.6. Negativos ampliados de tipo y régimen
+
+| case_id | bank_group | observable_or_claim | magnitude | unit | model_or_rule | expected_residual | expected_dictamen | return_statement |
+|:---:|:---|:---|:---|:---:|:---|:---:|:---:|:---|
+| N-11 | negativo | `z` anotado en Mpc | `z` | Mpc | Unidad incompatible | `Δ_u, Δ_m` | NO_APTO | Redshift adimensional |
+| N-12 | negativo | `D_C` usado como distancia recorrida por la luz | `D_C` | Mpc | Lectura impropia | `Δ_m, Δ_ret` | NO_APTO | Coordenada comóvil de modelo |
+| N-13 | negativo | Horizonte observable como borde del Todo | horizonte | Mpc | Borde absoluto | `Δ_Ω, Δ_ret` | NO_APTO | Frontera de retorno |
+| N-14 | negativo | `D_P` aplicada a galaxias del mismo cúmulo sin frontera ligada | `D_P` | Mpc | Expansión de fondo mal aplicada | `Δ_reg, Δ_Ω` | NO_APTO | Dinámica ligada separada |
+| N-15 | negativo | Flujo débil tratado como distancia sin luminosidad intrínseca | flujo | W m⁻² | Sin calibración | `Δ_𝓔, Δ_ret` | NO_APTO | Requiere `D_L` calibrada |
+| N-16 | negativo | Dos líneas espectrales distintas comparadas como homólogas | `Δz` | dimensionless | Identificación falsa | `Δ_m, Δ_pair` | NO_APTO | Transición identificada |
+| N-17 | negativo | `DistInter^{SV}` calculado con trayectorias distintas | `DistInter` | SV_internal | `Γ_i≠Γ_j` | `Δ_Γ` | NO_APTO | Trayectoria común o transductor |
+| N-18 | negativo | `D_abs^{SV}` expresada como Mpc desde `0_SV` | `D_abs^{SV}` | Mpc | Origen espacializado | `Δ_orig, Δ_u` | NO_APTO | Referencia formal no métrica |
+
+## D.7. Casos U por firma insuficiente
+
+| case_id | bank_group | observable_or_claim | magnitude | unit | model_or_rule | expected_residual | expected_dictamen | return_statement |
+|:---:|:---|:---|:---|:---:|:---|:---:|:---:|:---|
+| U-01 | u_case | Candidato galáctico fotométrico sin espectro robusto | `z_phot` | dimensionless | Fotometría degenerada | `Δ_pair` no cerrado | U | Falta redshift robusto |
+| U-02 | u_case | Fuente con blending no resuelto | `D_L` | Mpc | Identidad de fuente dudosa | `Δ_pair` | U | Falta separación de fuentes |
+| U-03 | u_case | Lente sin modelo de masa suficiente | `D_A` | Mpc | Masa de lente insuficiente | `Δ_𝓜` no cerrado | U | Falta modelo de lente |
+| U-04 | u_case | Señal de 21 cm marginal no repetida | `z` | dimensionless | Confirmación pendiente | `Δ_pair` | U | Falta robustez instrumental |
+| U-05 | u_case | Supernova sin curva de luz completa | `D_L` | Mpc | Calibración incompleta | `Δ_𝓔` no cerrado | U | Falta calibración |
+| U-06 | u_case | Línea espectral dudosa sin transición identificada | `z` | dimensionless | Identificación ausente | `Δ_pair` | U | Falta transición homóloga |
+| U-07 | u_case | Tensión de modelo sin covarianza publicada en banco | `D_L(z)` | Mpc | Covarianza ausente | `Δ_𝓑` | U | Falta matriz de incertidumbre |
+| U-08 | u_case | Cúmulo con tamaño físico no declarado | `D_A` | Mpc | Tamaño ausente | `Δ_𝓔` no cerrado | U | Falta tamaño físico |
+
+## D.8. Casos de origen formal
+
+| case_id | bank_group | observable_or_claim | magnitude | unit | model_or_rule | expected_residual | expected_dictamen | return_statement |
+|:---:|:---|:---|:---|:---:|:---|:---:|:---:|:---|
+| O-01 | origin | Galaxia tipada relacionada formalmente con `0_SV` | `D_abs^{SV}` | formal | Relación formal | none | APTO | Referencia formal, no Mpc al origen |
+| O-02 | origin | CMB como retorno temprano, no borde absoluto | `z`, `θ_*` | mixto | Inferencia CMB | none | APTO | Frontera de retorno temprano |
+| O-03 | origin | Supernova Ia frente a `0_SV` como referencia formal | `D_L` + formal | Mpc/formal | `D_L` separada de origen | none | APTO | Distancia de luminosidad y referencia formal separadas |
+| O-04 | origin | Galaxia a “X Mpc de `(0,0)`” | `D_abs^{SV}` | Mpc | Origen espacializado | `Δ_{esp0}, Δ_{met0}` | NO_APTO | No hay longitud al origen formal |
+| O-05 | origin | `a(t)=0` identificado con `0_SV` | `a(t)` | dimensionless | Identificación temporal | `Δ_{id0}, Δ_{temp0}` | NO_APTO | Factor de escala no es origen formal |
+| O-06 | origin | Tiempo de mirada atrás como distancia al origen formal | `t_L` | Gyr | Temporalización de origen | `Δ_{temp0}, Δ_ret` | NO_APTO | Tiempo físico de modelo separado |
+
+## D.9. Casos de distancia relativa
+
+| case_id | bank_group | observable_or_claim | magnitude | unit | model_or_rule | expected_residual | expected_dictamen | return_statement |
+|:---:|:---|:---|:---|:---:|:---|:---:|:---:|:---|
+| Q-01 | relative | Dos galaxias comparadas por `D_C` bajo mismo modelo | `D_C` | Mpc | `|D_C^a−D_C^b|` | none | APTO | Diferencia comóvil |
+| Q-02 | relative | Dos supernovas comparadas por `D_L` homogénea | `D_L` | Mpc | `|D_L^a−D_L^b|` | none | APTO | Diferencia de luminosidad |
+| Q-03 | relative | Dos firmas espectrales homólogas | `z` | dimensionless | `|z_a−z_b|` | none | APTO | Diferencia espectral |
+| Q-04 | relative | Dos rutas de `H_0` comparadas con residual | `H_0` | km s⁻¹ Mpc⁻¹ | `|H_0^L−H_0^C|` | `Δ_H` | PARCIAL | Tensión de rutas |
+| Q-05 | relative | `D_L` de A restada con `D_A` de B | magnitud mixta | Mpc | Resta impropia | `Δ_m` | NO_APTO | Magnitudes no homogéneas |
+| Q-06 | relative | Dos perfiles SV con trayectoria común | `DistInter` | SV_internal | `Σ|d_i−d_j|` | none | APTO | Diferencia de perfiles |
+| Q-07 | relative | Dos perfiles SV sin trayectoria común | `DistInter` | SV_internal | `Γ_i≠Γ_j` | `Δ_Γ` | NO_APTO | Trayectoria común exigida |
+| Q-08 | relative | Observable físico comparado con totalidad absoluta | none | none | Par no definido | `Δ_Ω` | NO_APTO | No hay distancia relativa con totalidad |
+
+## D.10. Resumen cuantitativo del banco maestro
+
+| Grupo | Casos | APTO esperado | PARCIAL esperado | NO_APTO esperado | U esperado | Comp puertas dominantes |
+|:---|---:|---:|---:|---:|---:|:---|
+| Positivos físicos | 12 | 12 | 0 | 0 | 0 | `none` |
+| Parciales | 8 | 0 | 7 | 0 | 1 | `Δ_H`, `Δ_𝓜`, `Δ_𝓑` |
+| Negativos críticos | 10 | 0 | 0 | 10 | 0 | `Δ_reg`, `Δ_m`, `Δ_orig`, `Δ_Ω`, `Δ_ret` |
+| Negativos ampliados | 8 | 0 | 0 | 8 | 0 | `Δ_u`, `Δ_Γ`, `Δ_pair`, `Δ_𝓔` |
+| Casos U | 8 | 0 | 0 | 0 | 8 | `Δ_pair`, `Δ_𝓑` no cerrados |
+| Origen formal | 6 | 3 | 0 | 3 | 0 | `Δ_orig` |
+| Distancia relativa | 8 | 4 | 1 | 3 | 0 | `Δ_rel`, `Δ_Γ`, `Δ_H` |
+| Total | 60 | 19 | 8 | 24 | 9 | Matriz completa |
+
+## D.11. Condición de aceptación del banco
+
+El banco maestro mínimo queda aceptado sólo si se cumplen todas las condiciones siguientes: los 19 casos `APTO` devuelven compuertas formales anuladas; los 8 casos `PARCIAL` conservan residual explícito sin pasar a aptitud plena; los 24 casos `NO_APTO` activan la compuerta crítica esperada; los 9 casos `U` no se cierran como favorables ni se rechazan si no hay contradicción formal; los negativos N-01 a N-10 no presentan ninguna aptitud; los casos de origen formal no asignan unidad física a `0_SV`; los casos relativos no comparan magnitudes heterogéneas sin transductor; y cada salida tiene retorno físico reconocible. Si falla cualquiera de estas condiciones, el banco no valida la fórmula directriz y debe corregirse el contrato, el catálogo de errores, la matriz de transducción o el runner antes de ampliar datos reales.
+# Anexo E. Especificación ejecutable del runner determinista
+
+La especificación ejecutable traduce el contrato de datos, la matriz de transducción, el banco maestro y el catálogo de errores a una cadena operacional única. Su finalidad no es calcular una cosmología numérica nueva, sino verificar que cada caso conserva tipo, dominio, unidad, ecuación, régimen, transducción, retorno y dictamen. El runner trabaja con entradas congeladas y reglas cerradas: no deduce modelos ausentes, no transforma magnitudes por semejanza, no corrige unidades sin registro, no acepta valores vacíos como equivalentes a `none`, no convierte `U` en aptitud y no permite que una fila negativa atraviese el sistema sin activar su compuerta crítica. La salida válida no es sólo el dictamen final, sino el vector completo de residuales, el retorno físico y la coincidencia entre lo esperado y lo obtenido.
+
+## E.1. Objeto de la especificación
+
+El objeto de la especificación es ejecutar la función `Runner_dist(Entrada)=Salida`, donde `Entrada` contiene una fila del banco maestro y `Salida` contiene validación de contrato, tipado de magnitud, validación de unidad, verificación de modelo, evaluación de régimen, proyección SV, retorno físico, vector residual y dictamen obtenido. La función no interpreta teoría externa ni doctrina SV por memoria; sólo aplica catálogos y reglas declaradas. Si la entrada dice `z` con unidad `Mpc`, el runner activa unidad incompatible; si dice `D_L=D_A`, activa colapso de magnitudes; si dice `(0,0)=Big Bang`, activa origen fisicalizado; si dice `D_C(z)` bajo ΛCDM con parámetros declarados, permite aptitud instrumental. El objeto, por tanto, es una compuerta de consistencia, no un simulador cosmológico general.
+
+## E.2. Entradas obligatorias
+
+Cada entrada deberá contener los campos `case_id`, `bank_group`, `case_class`, `observable_or_claim`, `magnitude`, `unit`, `model_or_rule`, `equation`, `regime`, `boundary`, `sv_projection`, `expected_residual`, `expected_dictamen`, `return_statement` y `source_ref`. Si una fila procede de un banco antiguo que no contenga alguno de esos campos, se convierte antes mediante plantilla de normalización y queda marcada como `converted=true`; si la conversión no puede completar un campo obligatorio, se emite `CONTRACT_ERROR`. El campo `expected_residual` podrá ser `none` sólo en positivos y origen formal apto; en negativos debe contener al menos una compuerta. El campo `return_statement` no puede estar vacío porque el retorno físico es condición de transducción.
+
+## E.3. Enumeraciones cerradas
+
+Las enumeraciones cerradas impiden que una misma idea aparezca con nombres incompatibles. `case_class` admitirá `positive`, `partial`, `negative`, `u_case`, `origin` y `relative`; `expected_dictamen` admitirá `APTO`, `PARCIAL`, `NO_APTO` y `U`; `obtained_dictamen` admitirá esos cuatro valores más `CONTRACT_ERROR` cuando la fila no pueda ejecutarse. `unit` admitirá unidades físicas registradas, `dimensionless`, `formal`, `SV_internal`, `mixed_declared` o `none_declared` sólo cuando el caso sea negativo por ausencia de unidad. `model_or_rule` admitirá modelos catalogados o `invalid_or_undeclared` para negativos. Todo valor fuera de enumeración activa error de contrato. La ampliación futura exigirá actualizar catálogo y versión, no escribir variantes libres.
+
+## E.4. Fases del runner
+
+El runner se ejecuta por fases en orden estricto: `load_case`, `validate_contract`, `validate_magnitude`, `validate_unit`, `validate_model_rule`, `validate_regime`, `validate_origin`, `validate_relative`, `project_sv`, `validate_return`, `compute_residual`, `decide_dictamen`, `compare_expected`, `export_case`. Una fase no puede corregir silenciosamente lo que otra detectó; sólo puede añadir compuertas. Si `validate_contract` falla, las fases cosmológicas no se ejecutan y la fila se marca como `CONTRACT_ERROR`. Si una fase detecta error formal, el runner puede continuar para acumular compuertas, pero el dictamen final no podrá ser `APTO`. La acumulación permite ver que un mismo caso puede fallar por magnitud, unidad y retorno a la vez.
+
+## E.5. Validación de contrato
+
+La validación de contrato comprueba presencia de campos, tipo de dato, enumeración, ausencia de vacíos prohibidos, coherencia entre clase y residual esperado, y coherencia entre magnitud y unidad declarada. Una fila `negative` sin `expected_residual` queda inválida; una fila `positive` con `expected_residual=Δ_m` queda incoherente salvo que se reclasifique; una fila `u_case` sin dato faltante explícito queda inválida; una fila `origin` con unidad física aplicada a `0_SV` no es error de contrato, sino caso ejecutable negativo si así fue declarado. El contrato no decide la cosmología; decide si la fila puede ser evaluada. Su salida será `contract_ok=true/false`, lista de errores de contrato y fase de bloqueo cuando proceda.
+
+## E.6. Validación de magnitud
+
+La validación de magnitud compara `magnitude` con el catálogo de magnitudes. Si aparece `z`, debe ser espectral y adimensional; si aparece `D_L`, debe ser distancia de luminosidad; si aparece `D_A`, relación angular; si aparece `D_C`, distancia comóvil; si aparece `H_0`, ruta cosmológica; si aparece `D_abs^{SV}`, referencia formal; si aparece `DistInter`, perfil factual; si aparece `velocidad` sin subtipo, se activa `Δ_m`. La validación no permite alias ambiguos como “distancia”, “velocidad”, “origen”, “horizonte” o “expansión” sin subtipo. Si el campo contiene una magnitud mixta, debe declarar transductor o relación; de lo contrario, activa `Δ_m`. La salida será `magnitude_ok` y compuertas asociadas.
+
+## E.7. Validación de unidad
+
+La validación de unidad comprueba compatibilidad entre magnitud y unidad. `z`, `q(t)` y `w(z)` exigen `dimensionless`; `D_C`, `D_M`, `D_L`, `D_A` y `D_P` exigen longitud; `H_0` exige `km s^{-1} Mpc^{-1}` o equivalente; `v_rec` exige velocidad; `t_L` exige tiempo físico; `0_SV` exige `formal`; `d^{SV}_Φ` y `DistInter` exigen `SV_internal` salvo retorno físico separado. Si la unidad es convertible dentro del mismo tipo, se normaliza con registro; si cambia de tipo, se rechaza. Un valor como `z` en `Mpc` activa `Δ_u`; `H_0` en `km s^{-1}` activa `Δ_u`; `0_SV` en `Mpc` activa `Δ_orig` y `Δ_u`. La salida conserva unidad original y unidad normalizada cuando exista.
+
+## E.8. Validación de modelo y ecuación
+
+La validación de modelo y ecuación comprueba que la regla usada pertenece al dominio declarado. `v=cz` es admisible sólo bajo `low_z_Hubble`; `D_C=c∫dz/H(z)` exige `FLRW_LCDM` o modelo cosmológico equivalente declarado; `D_L=(1+z)D_M` exige redshift y distancia transversal; `D_A=D_M/(1+z)` exige modelo geométrico; `z=(λ_obs−λ_emit)/λ_emit` exige líneas identificadas; `D_abs^{SV}` exige `SV_formal_origin`. Si la ecuación existe pero se aplica fuera de modelo, se activa `Δ_𝓔` o `Δ_reg` según el caso. La validación no evalúa si el valor numérico empírico es el más reciente; verifica que la fórmula corresponda a la magnitud y al régimen indicados. La salida será `equation_ok`, `model_ok` y compuertas asociadas.
+
+## E.9. Validación de régimen
+
+La validación de régimen determina si una ecuación se usa dentro de su frontera de validez. `low_z` permite Hubble-Lemaître lineal condicionado; `high_z` exige distancias integrales o modelos espectrales; `bound_system` impide aplicar expansión de fondo sin frontera gravitatoria; `formal_origin` impide unidades físicas aplicadas al origen; `observable_horizon` impide borde absoluto; `route_comparison` exige rutas separadas. Si una galaxia de `z=14` entra con `v=cz`, se activa `Δ_reg`; si dos galaxias de cúmulo entran como comóviles sin frontera, se activa `Δ_reg`; si una afirmación convierte horizonte observable en borde del Todo, se activa `Δ_ret` y `Δ_Ω`. La salida del régimen se acumula con errores de magnitud y retorno.
+
+## E.10. Validación de origen formal
+
+La validación de origen formal se activa cuando `observable_or_claim`, `magnitude` o `model_or_rule` contienen `0_SV`, `(0,0)`, `D_abs^{SV}`, Big Bang, origen, centro, singularidad o factor de escala inicial. Si el origen aparece como referencia formal no espacializada, el residual de origen puede anularse; si aparece como punto físico, tiempo, centro, distancia en Mpc, Big Bang o estado de temperatura/densidad, se activa `Δ_orig`. Esta fase no impide hablar de cosmología temprana: permite `Big Bang` como régimen físico retrospectivo cuando se separa de `0_SV`, y lo marca como parcial si conserva residual de interpretación. La salida será `origin_ok`, `origin_formal_preserved` y componentes `Δ_{id0}`, `Δ_{esp0}`, `Δ_{temp0}`, `Δ_{met0}`, `Δ_{ret0}`.
+
+## E.11. Validación de distancia relativa
+
+La validación relativa se activa cuando `bank_group=relative` o cuando la entrada contiene dos observables. Comprueba identidad de ambos términos, magnitud común, unidad común, modelo común o transductor explícito, trayectoria común si se usa `DistInter`, y retorno físico de la comparación. `|D_C^a−D_C^b|` bajo el mismo modelo puede ser apto; `D_L^a−D_A^b` activa `Δ_m`; `DistInter` con `Γ_i≠Γ_j` activa `Δ_Γ`; observable frente a totalidad activa `Δ_Ω`. La salida será `relative_ok`, `pair_ok`, `common_magnitude_ok`, `common_trajectory_ok` y compuertas asociadas. La fase impide que la palabra “comparar” o el signo de resta oculten heterogeneidad de magnitudes.
+
+## E.12. Proyección SV
+
+La proyección SV no calcula contenido doctrinal nuevo; asigna a cada magnitud una lectura interna controlada. `z` proyecta a `Φ_z`; `D_C` a `Φ_C`; `D_L` a `Φ_L`; `D_A` a `Φ_A`; `D_P` a `Φ_P`; `H_0` a `Φ_H`; `v_rec` a `Φ_v`; `q(t)` a `Φ_acc`; `w(z)` a `Φ_w`; horizonte a `F_obs`; `0_SV` a referencia formal; `D_abs^{SV}` a `Rel_SV(Φ,0_SV)`; `D_rel` a `Rel_m`; `DistInter` a comparación de perfiles. Si la magnitud no tiene proyección catalogada y no hay transductor declarado, se activa `Δ_T`. La salida será `sv_projection_ok`, `sv_projection_label`, `sv_boundary` y, cuando proceda, `Γ_required=true/false`.
+
+## E.13. Retorno físico
+
+El retorno físico comprueba que la salida pueda leerse en el mismo lenguaje de entrada. Una fila con `D_L` debe retornar como distancia de luminosidad; una fila con `D_A`, como distancia angular; una fila con `z`, como redshift o entrada de modelo; una fila con `H_0^{local}`, como ruta local; una fila con `0_SV`, como referencia formal no física; una fila con `DistInter`, como diferencia de perfil y no como separación espacial. Si el retorno cambia el tipo, se activa `Δ_ret`. El retorno también exige que un caso `APTO` tenga frase física de salida: “distancia comóvil bajo modelo”, “redshift espectral”, “separación propia interna”, “tensión de rutas”, “referencia formal”. Una salida vacía o sólo interna queda no apta.
+
+## E.14. Cálculo del vector residual
+
+El vector residual se calcula como diccionario de compuertas booleanas o ternarias según fase: `Δ_Ω`, `Δ_m`, `Δ_u`, `Δ_𝓔`, `Δ_reg`, `Δ_T`, `Δ_ret`, `Δ_𝓑`, `Δ_orig`, `Δ_rel`, `Δ_Γ`, `Δ_pair`, `Δ_H`. Las compuertas formales usan valores 0/1; las compuertas de residual físico competente pueden marcarse como `partial`; las insuficiencias de firma pueden marcarse como `u_pending`. El dictamen no se decide por suma numérica, sino por jerarquía: defecto formal dominante produce `NO_APTO`; residual competente produce `PARCIAL`; falta de firma produce `U`; ausencia de defecto produce `APTO`. El vector deberá exportarse completo, incluso cuando todas las compuertas sean cero. El caso apto sin vector residual queda inválido por `E-DIST-10`.
+
+## E.15. Regla de decisión
+
+La regla de decisión aplica prioridad de bloqueo. Primero, `CONTRACT_ERROR` si falta contrato; segundo, `NO_APTO` si hay defecto formal crítico; tercero, `U` si falta firma esencial sin contradicción formal; cuarto, `PARCIAL` si hay residual físico competente sin error formal; quinto, `APTO` si las compuertas relevantes se anulan y el retorno físico conserva tipo. La prioridad entre `PARCIAL` y `U` se resuelve por el dato faltante: si la ruta está completa pero tensionada, `PARCIAL`; si la identidad o firma no está completa, `U`; si hay error de tipo, `NO_APTO` aunque falten datos. Esta regla impide tres fallos: usar `U` para ocultar un error claro, usar `PARCIAL` para suavizar una ruptura de tipo, o usar `APTO` para una fila incompleta.
+
+## E.16. Comparación esperado-obtenido
+
+La comparación esperado-obtenido genera cuatro salidas: `dictamen_match`, `residual_match`, `critical_negative_passed` y `case_status`. `dictamen_match=true` si el dictamen coincide; `residual_match=true` si las compuertas principales esperadas aparecen; `critical_negative_passed=true` sólo para negativos N1–N10 que devuelven `NO_APTO` con compuerta crítica; `case_status` será `match`, `dictamen_mismatch`, `residual_mismatch`, `critical_failure` o `contract_error`. Un negativo crítico que devuelve `APTO` es `critical_failure`; un negativo que devuelve `NO_APTO` pero sin compuerta principal es `residual_mismatch`; un positivo que devuelve `NO_APTO` es sobrebloqueo; un `U` que devuelve `APTO` es cierre espurio. La comparación no se reduce a porcentaje global.
+
+## E.17. Exportación de salidas
+
+La exportación de salidas generará cinco tablas principales: resultados por caso, residuales por caso, errores de contrato, matriz esperado-obtenido y resumen global. La tabla por caso incluirá `case_id`, `expected_dictamen`, `obtained_dictamen`, `dictamen_match`, `expected_residual`, `obtained_residual`, `residual_match`, `return_statement`, `errors`, `status`. El JSON de residuales conservará cada compuerta con su fase de activación. El resumen global contará aptos, parciales, no aptos, `U`, errores de contrato, fallos críticos y sobrebloqueos. La matriz esperado-obtenido mostrará si el runner discrimina correctamente. Además, se generarán hashes de entradas y salidas para impedir cambios posteriores no trazados. Una exportación sin hashes no habilita cierre material.
+
+## E.18. Tabla de módulos ejecutables
+
+| Módulo | Entrada | Salida | Fallo principal detectado |
+|:---|:---|:---|:---|
+| `load_case` | CSV/JSON | Caso normalizado | Fichero ilegible |
+| `validate_contract` | Caso normalizado | Contrato válido o error | Campo ausente o fuera de catálogo |
+| `validate_magnitude` | Magnitud | Tipo de magnitud | Magnitud ambigua o mixta |
+| `validate_unit` | Magnitud + unidad | Unidad validada | Unidad incompatible |
+| `validate_model_rule` | Modelo + ecuación | Modelo validado | Ecuación ausente o impropia |
+| `validate_regime` | Régimen + ecuación | Régimen validado | Salida de dominio |
+| `validate_origin` | Claim + origen | Origen formal preservado o roto | Fisicalización de `0_SV` |
+| `validate_relative` | Par de observables | Comparación válida o rota | Magnitud heterogénea o `Γ` ausente |
+| `project_sv` | Magnitud física | Proyección SV | Transducción ausente |
+| `validate_return` | Proyección SV | Retorno físico | Cambio de tipo |
+| `compute_residual` | Fases previas | Vector `Δ` | Residual incompleto |
+| `decide_dictamen` | Vector `Δ` | Dictamen obtenido | Jerarquía mal aplicada |
+| `compare_expected` | Esperado/obtenido | Estado de caso | Fallo crítico o mismatch |
+| `export_case` | Caso evaluado | CSV/JSON salida | Pérdida de trazabilidad |
+
+## E.19. Condición de aptitud del runner
+
+El runner será apto si cumple simultáneamente las siguientes condiciones materiales: no acepta filas sin contrato, no produce `APTO` con compuertas formales activadas, no produce `NO_APTO` sin compuerta identificada, no convierte negativos críticos en aptos, no cierra candidatos sin firma, no mezcla `H_0` local y CMB, no permite `z` como distancia directa, no permite `v=cz` en alto redshift, no permite `(0,0)=Big Bang`, no permite totalidad como objeto físico y no pierde el retorno físico. Además, deberá reproducir la matriz del banco maestro con coincidencia exacta en dictamen y compuerta principal. Si falla una condición, la aptitud técnica queda suspendida hasta corregir catálogo, contrato, transductor o regla de decisión.
+
+## E.20. Plantilla de salida resumida por caso
+
+| Campo de salida | Significado | Ejemplo apto | Ejemplo no apto |
+|:---|:---|:---|:---|
+| `case_id` | Identificador de caso | `P-01` | `N-01` |
+| `obtained_dictamen` | Dictamen obtenido | `APTO` | `NO_APTO` |
+| `obtained_residual` | Vector de defecto | `none` | `Δ_reg, Δ_𝓔, Δ_ret` |
+| `sv_projection_ok` | Proyección interna válida | `true` | `false` si cambia tipo |
+| `physical_return_ok` | Retorno físico válido | `true` | `false` |
+| `dictamen_match` | Coincide con esperado | `true` | `true` si esperaba no apto |
+| `residual_match` | Coincide compuerta crítica | `true` | `true` si activa `Δ_reg` |
+| `case_status` | Estado final | `match` | `match` o `critical_failure` |
+| `errors` | Códigos de error | vacío | `E-DIST-05` |
+
+## E.21. Criterio de ampliación futura
+
+La ampliación futura del runner sólo podrá hacerse por versión explícita. Añadir magnitudes como crecimiento de estructura, `fσ_8`, densidad de materia, curvatura, neutrinos, señal de 21 cm ampliada o nuevos catálogos JWST exigirá actualizar catálogo de magnitudes, unidades, modelos, compuertas y bancos negativos simétricos. No se admitirá añadir un caso empírico nuevo si el runner no sabe qué magnitud evalúa ni qué negativo lo estresa. Toda ampliación deberá conservar compatibilidad descendente: un banco viejo debe seguir produciendo los mismos dictámenes salvo corrección material declarada. Esta regla evita que un crecimiento posterior altere silenciosamente el cierre de distancia absoluta y relativa ya establecido.
+
+
 
 
