@@ -735,3 +735,570 @@ El error cero exigido aquí no significa incertidumbre instrumental nula ni ause
 ## VI.12. Teorema de no colapso del transductor en una sola dirección
 
 Teorema: `𝔛^{dist}_{SV↔FC}` no puede reducirse a una traducción unidireccional sin pérdida de control. Demostración: si sólo existiera la dirección física → SV, una magnitud como `D_L` podría proyectarse a un observable interno sin demostrar que vuelve como distancia de luminosidad y no como distancia propia, distancia factual o conclusión sobre totalidad; por tanto, se perdería retorno físico. Si sólo existiera la dirección SV → física, una estructura interna como `d^{SV}_Φ` podría presentarse como magnitud física sin haber recibido unidad, ecuación ni régimen; por tanto, se perdería dominio de entrada. En ambos casos desaparece al menos uno de los invariantes: tipo de magnitud, unidad, ecuación, régimen o retorno. Como el residual transductivo exige la conservación conjunta de esos invariantes, la bidireccionalidad es condición necesaria. Luego el transductor de distancia sólo queda definido como correspondencia de ida y vuelta con residual compuesto. Q.E.D.
+# VII. Fórmula directriz de distancia absoluta y relativa entre observables
+
+La fórmula directriz no crea una métrica nueva ni compite con Friedmann, Hubble-Lemaître, distancias de luminosidad, distancias angulares o distancia factual fibrosa. Su función es más estricta: establecer cuándo una afirmación de distancia entre observables conserva correspondencia exacta entre física contemporánea y SV. El cero de la fórmula no significa que dos observables estén a distancia nula, ni que desaparezca la incertidumbre instrumental, ni que se anule el modelo físico; significa que no queda defecto de dominio, magnitud, unidad, ecuación, régimen, transducción ni retorno. La fórmula opera como compuerta de correspondencia: acepta la distancia física donde está bien tipada, la devuelve al SV sin confundir planos, y la retorna al lenguaje físico con el mismo alcance. Así puede absorber una ecuación externa, absorberla parcialmente o rechazarla sin convertir la decisión en preferencia interpretativa.
+
+## VII.1. Objeto formal de la fórmula
+
+El objeto formal de la fórmula es la relación distancial entre dos observables declarados `𝒪_i` y `𝒪_j`, o entre un observable `𝒪_i` y el origen formal restringido `0_SV` cuando se trate de distancia absoluta formal. La entrada no es una frase cosmológica, sino una tupla tipada: observable, magnitud, unidad, modelo, ecuación, frontera y residual. La fórmula evalúa si esa tupla puede pasar al SV y volver al dominio físico sin cambiar de tipo. Si `𝒪_i` es una galaxia y `𝒪_j` otra galaxia, la distancia puede ser comóvil, propia, angular, de luminosidad o relativa por perfil; si `𝒪_j=0_SV`, la distancia sólo puede ser formal, nunca espacial ni temporal. En ambos casos, el objeto formal no es la distancia desnuda, sino la correspondencia completa que la hace admisible.
+
+## VII.2. Observables `𝒪_i`, `𝒪_j`, trayectoria `Γ`, modelo físico `𝓜` y banco `𝓑`
+
+La fórmula trabaja con cinco piezas: `𝒪_i`, `𝒪_j`, `Γ`, `𝓜` y `𝓑`. Los observables `𝒪_i` y `𝒪_j` deben tener identidad física o estatuto formal declarado; `Γ` fija la trayectoria factual de lectura o transmisión; `𝓜` fija el modelo físico que transforma la magnitud observada en distancia; `𝓑` fija el banco de contraste con casos positivos, negativos y límites de indeterminación estructural. Sin `𝓜`, un redshift no produce distancia cosmológica; sin `Γ`, no hay lectura SV del cambio; sin `𝓑`, no hay estrés adversarial; sin `𝒪_i` y `𝒪_j`, la distancia no tiene términos. La forma compacta de entrada queda `Entrada_dist=(𝒪_i,𝒪_j,Γ,𝓜,𝓑;m,u,𝓔,F)`, donde `m` es magnitud, `u` unidad, `𝓔` ecuación y `F` frontera de validez.
+
+## VII.3. Residual compuesto `Δ^{SV↔FC}_{dist}`
+
+El residual compuesto se define como `Δ^{SV↔FC}_{dist}(𝒪_i,𝒪_j)=Δ_Ω⊕Δ_m⊕Δ_u⊕Δ_𝓔⊕Δ_reg⊕Δ_T⊕Δ_ret⊕Δ_𝓑`, donde `Δ_Ω` detecta error de dominio, `Δ_m` error de magnitud, `Δ_u` error de unidad, `Δ_𝓔` error de ecuación, `Δ_reg` salida de régimen, `Δ_T` fallo de transducción, `Δ_ret` fallo de retorno físico y `Δ_𝓑` fallo de banco. La agregación `⊕` preserva el defecto: si una componente queda activada, el cierre pleno no procede. Un caso con buena medición física puede fallar por retorno; un caso con buena fórmula puede fallar por unidad; un caso con buena unidad puede fallar por régimen. La anulación del residual compuesto exige que todas las compuertas relevantes se anulen de forma simultánea.
+
+## VII.4. Forma fuerte de la ecuación directriz
+
+La forma fuerte queda `𝔇^{SV↔FC}_{dist}(𝒪_i,𝒪_j;Γ,𝓜,𝓑)=0 ⇔ Δ^{SV↔FC}_{dist}(𝒪_i,𝒪_j;Γ,𝓜,𝓑)=0`. Cuando la relación es absoluta formal, se usa `𝔇^{SV↔FC}_{abs}(𝒪_i,0_SV;Γ,𝓜,𝓑)=0`; cuando es relativa entre observables, se usa `𝔇^{SV↔FC}_{rel}(𝒪_i,𝒪_j;Γ,𝓜,𝓑)=0`. La diferencia no está en el rigor de cierre, sino en el tipo de segundo término: `0_SV` no es objeto físico, y `𝒪_j` sí debe ser observable físico o patrón físico declarado. En ambos casos, la ecuación exige entrada física reconocible, proyección SV, residual y retorno. Si el residual no se anula, la fórmula no permite afirmar correspondencia plena, aunque una parte física del cálculo sea correcta.
+
+## VII.5. Cero de residual transductivo frente a distancia cero
+
+El cero de la fórmula es cero de defecto, no cero de separación. `𝔇^{SV↔FC}_{dist}=0` no afirma que `D_L=0`, `D_C=0`, `D_A=0`, `d^{SV}_Φ=0` ni `DistInter^{SV}_{a,b}=0`; afirma que la distancia usada conserva su dominio, su magnitud, su unidad, su ecuación, su régimen, su transducción y su retorno. Dos galaxias pueden estar muy separadas y producir `𝔇=0` si la relación distancial está bien tipada. Dos observables pueden tener distancia numérica pequeña y producir `𝔇≠0` si la magnitud se mezcló o si el retorno físico falla. La distinción es crucial porque evita la lectura ingenua del símbolo cero. El cero no mide cercanía física; mide ausencia de defecto formal en la correspondencia.
+
+## VII.6. Condiciones de aptitud
+
+La condición `APTO` exige ocho requisitos simultáneos: observables declarados, magnitud correcta, unidad compatible, ecuación válida, régimen de uso respetado, transductor bidireccional sin pérdida, banco adversarial superado y retorno físico controlado. Una distancia de luminosidad de supernova puede ser apta si hay curva de luz, calibración, flujo, redshift, modelo y residual; una distancia angular de lente puede ser apta si hay fuente, lente, modelo de masa y geometría; una distancia comóvil puede ser apta si hay redshift, parámetros cosmológicos y ecuación integral; una distancia absoluta formal puede ser apta si no espacializa el origen `0_SV`. En todos los casos, la aptitud pertenece a la relación tipada, no al objeto de modo aislado. No hay galaxia “apta” en abstracto; hay relación distancial apta bajo condiciones declaradas.
+
+## VII.7. Condiciones de rechazo
+
+El rechazo procede cuando el defecto no es una incertidumbre instrumental, sino una ruptura de tipo. Queda rechazado usar `z` como distancia directa, aplicar `v=cz` a alto redshift como velocidad ordinaria, igualar `D_L` y `D_A`, leer `H_0^{local}` y `H_0^{CMB}` como una sola medición sin ruta, tomar el horizonte observable como borde de totalidad, tratar `(0,0)` como Big Bang físico, convertir una distancia propia interna en tamaño de la totalidad, o usar JWST como refutación global sin banco de formación, masa, selección y modelo. En notación de compuertas, basta `Δ_Ω=1` o `Δ_m=1` o `Δ_ret=1` para impedir cierre. El rechazo no niega necesariamente el dato físico; niega la formulación que lo saca de dominio.
+
+## VII.8. Conservación de U tras agotamiento de derivación y contraste
+
+La marca `U` queda reservada para casos en los que no hay defecto formal suficiente para rechazar, pero faltan firma, dato, modelo, banco o reducción de degeneración para cerrar. No se usa para suavizar una contradicción, ni para detener el desarrollo, ni para evitar formular teoremas. Antes de conservar `U`, deben agotarse cuatro pasos: búsqueda de operador ya disponible, derivación desde fórmula de mayor rango, transducción con residuales explícitos y banco negativo asociado. Si después de esos pasos falta espectro, calibración, ruta de medición, identificación o frontera, el caso queda en `U` hasta nueva base. Si aparece la base, el caso debe migrar a `APTO`, `NO_APTO` o absorción parcial. Así `U` conserva su función estructural sin convertirse en licencia de cierre débil.
+
+## VII.9. Teorema de legitimidad de la fórmula directriz
+
+Teorema: la fórmula `𝔇^{SV↔FC}_{dist}=0 ⇔ Δ^{SV↔FC}_{dist}=0` es legítima como compuerta de correspondencia entre distancia física y lectura SV. Demostración: una distancia física admisible exige dominio, magnitud, unidad, ecuación y régimen; una lectura SV admisible exige observable, trayectoria, frontera, residual y dictamen; una correspondencia entre ambas exige además transducción y retorno. El residual compuesto enumera exactamente esas condiciones como compuertas `Δ_Ω`, `Δ_m`, `Δ_u`, `Δ_𝓔`, `Δ_reg`, `Δ_T`, `Δ_ret` y `Δ_𝓑`. Si todas se anulan, no queda defecto de correspondencia y la relación distancial puede declararse apta en su alcance. Si alguna no se anula, falta una condición necesaria. Luego la equivalencia entre anulación del residual compuesto y aptitud de correspondencia es necesaria y suficiente para la función declarada. Q.E.D.
+
+## VII.10. Teorema de no sustitución de Friedmann, Hubble-Lemaître ni ΛCDM
+
+Teorema: la fórmula directriz no sustituye las ecuaciones de Friedmann, la ley de Hubble-Lemaître ni el modelo ΛCDM. Demostración: Friedmann calcula la dinámica del factor de escala bajo hipótesis de contenido y geometría; Hubble-Lemaître da relación local o parametrizada entre distancia y recesión; ΛCDM organiza parámetros físicos y predicciones observacionales. La fórmula `𝔇^{SV↔FC}_{dist}` no calcula por sí misma `H(z)`, `D_L`, `D_A` ni `D_C`; sólo verifica si esas magnitudes, una vez calculadas por su aparato físico propio, conservan dominio, unidad, régimen y retorno al atravesar el transductor. Si la fórmula sustituyera esas ecuaciones, tendría que producir sus valores sin `𝓜` ni `𝓔`, lo cual contradice su definición. Luego su función es de absorción y control de correspondencia, no de reemplazo físico. Q.E.D.
+
+## VII.11. Teorema de absorción instrumental de distancias físicas
+
+Teorema: toda distancia física contemporánea bien tipada puede ser absorbida instrumentalmente por la fórmula directriz sin convertirse en fundamento del SV. Demostración: sea `m` una distancia física perteneciente a `Ω^{dist}_{FC}` con observable `𝒪`, unidad `u`, modelo `𝓜`, ecuación `𝓔`, frontera `F` y residual físico declarado. Si `m` conserva su tipo y el transductor produce `Φ_𝒪`, `Γ`, residual SV y retorno físico sin activar compuertas, entonces `Δ^{SV↔FC}_{dist}=0`. La absorción resultante no afirma que `m` funda la totalidad ni que sea primitiva SV; afirma que `m` puede operar como magnitud física válida dentro de su dominio y que su lectura SV no introduce defecto de plano. Por tanto, la fórmula absorbe instrumentalmente las distancias físicas bien tipadas y rechaza sólo sus extrapolaciones indebidas. Q.E.D.
+
+## VII.12. Teorema de separación entre completitud estructural y expansión de modelo
+
+Teorema: la completitud estructural del Universo y la expansión cosmológica de modelo no son proposiciones contradictorias si se distinguen sus dominios. Demostración: la completitud estructural afirma que la totalidad no comparece como objeto físico interno medible desde un exterior; la expansión de modelo afirma que ciertas separaciones propias entre observables comóviles varían según el factor de escala y las ecuaciones cosmológicas. La primera proposición tiene dominio formal de cierre; la segunda tiene dominio físico-métrico interno. La contradicción sólo aparece si se identifica expansión interna de separaciones con expansión de la totalidad como cuerpo. Esa identificación exige exterior, observador externo y métrica superior no declarada, lo cual activa `Δ_Ω` y `Δ_ret`. Si se mantiene la separación de dominios, ΛCDM, Friedmann y Hubble-Lemaître pueden ser absorbidos como modelos internos, mientras la totalidad queda fuera de medición física ordinaria. Luego completitud estructural y expansión de modelo son compatibles bajo transducción tipada y no equivalentes por fundamento. Q.E.D.
+# VIII. Absorción, absorción parcial y rechazo de teorías y ecuaciones externas
+
+La absorción no significa adhesión doctrinal a una teoría externa ni rechazo de la física contemporánea cuando el SV corrige su alcance. Absorber una ecuación significa reconocer que funciona dentro de su dominio, con sus magnitudes, unidades, hipótesis y retornos; absorber parcialmente significa reconocer potencia instrumental junto a residual no cerrado, dependencia de modelo o extrapolación inadmisible como fundamento; rechazar significa detectar error de plano, sustitución de magnitud, salida de régimen o imposibilidad de retorno. La misma teoría puede contener piezas absorbidas, piezas parcialmente absorbidas y piezas rechazadas según el uso. Así, ΛCDM puede ser absorbido como modelo de distancias internas y rechazado si se formula como demostración de expansión de la totalidad absoluta; Hubble-Lemaître puede ser absorbido en bajo redshift y rechazado si `v=cz` se aplica a galaxias extremas; el Big Bang puede operar como régimen retrospectivo de modelo y quedar rechazado si se identifica con el origen formal `(0,0)`.
+
+## VIII.1. Criterio general de absorción
+
+El criterio general se expresa mediante el residual `Δ^{SV↔FC}_{dist}`. Hay absorción total cuando `Δ_Ω=Δ_m=Δ_u=Δ_𝓔=Δ_reg=Δ_T=Δ_ret=Δ_𝓑=0`; hay absorción parcial cuando una teoría externa conserva dominio físico y utilidad predictiva, pero mantiene residual de modelo, tensión entre rutas, dependencia de parámetros no cerrada o interpretación excedida; hay rechazo cuando alguna compuerta crítica detecta error de plano, magnitud o retorno. Esta regla impide dos errores simétricos: declarar falsa una ecuación física eficaz porque no funda el SV, o declarar verdadero todo un marco externo porque una parte de sus cálculos funciona. La unidad de evaluación no es el nombre de la teoría, sino cada afirmación tipada: magnitud, ecuación, régimen, observable y retorno.
+
+## VIII.2. Ley de Hubble-Lemaître: absorción local condicionada
+
+La ley de Hubble-Lemaître `v_rec≃H_0D` queda absorbida como relación local de bajo redshift entre distancia y recesión de modelo. Su validez exige declarar `H_0`, distancia usada, régimen aproximado, unidad y ausencia de extrapolación a alto `z`. Cuando se usa como lectura local, con galaxias suficientemente próximas y velocidades corregidas por movimientos peculiares cuando proceda, el residual de dominio puede anularse. Cuando se usa como equivalencia universal, o cuando `v=cz` sustituye el cálculo cosmológico integral, se activa `Δ_reg` por salida de régimen y `Δ_m` por confusión de magnitud. La absorción es por tanto fuerte en su dominio y nula fuera de él. La ley no demuestra que el Universo total se aleje; describe una relación interna entre observables bajo modelo.
+
+## VIII.3. Relación `1+z = a(t₀)/a(t_e)`: absorción espectral-expansiva
+
+La relación `1+z=a(t_0)/a(t_e)` queda absorbida como puente entre corrimiento al rojo y factor de escala del modelo cosmológico. Su dominio es físico-espectral y métrico: conecta longitud de onda observada, longitud de onda emitida y evolución de escala del modelo. La absorción exige conservar tres distinciones: `z` no es distancia, `a(t)` no es tiempo rector SV, y `t_e`, `t_0` pertenecen al dominio físico de emisión y recepción, no a la cadena formal de dependencia. Si se respeta esa frontera, la relación es apta como transductor físico primario entre retorno espectral y modelo de separación. Si se usa para transformar redshift en distancia sin parámetros cosmológicos o para temporalizar el origen formal, queda rechazada por `Δ_𝓔` y `Δ_ret`.
+
+## VIII.4. Friedmann-ΛCDM: absorción como modelo instrumental
+
+Friedmann-ΛCDM queda absorbido como modelo instrumental de alto rango para distancias internas, evolución del factor de escala, parámetros de densidad y relaciones entre `H(z)`, `D_C`, `D_L`, `D_A`, `t_L` y observables cosmológicos. La absorción no lo convierte en fundamento de la totalidad ni en prueba de un Universo-cuerpo que crece en un exterior. Su dominio legítimo es el cálculo físico bajo hipótesis de homogeneidad, isotropía efectiva, contenido material-radiativo, curvatura y constante cosmológica o extensión dinámica. Cuando produce distancias a partir de redshift y parámetros declarados, puede anular el residual transductivo. Cuando se presenta como ontología final de la totalidad o como cierre de todo régimen cosmológico, la absorción pasa a parcial o el caso se rechaza según la formulación. La regla SV conserva el cálculo y limita la extrapolación.
+
+## VIII.5. Distancias cosmológicas integrales: absorción por dominio declarado
+
+Las distancias cosmológicas integrales, como `D_C(z)=c∫_0^z dz'/H(z')`, quedan absorbidas cuando se declaran modelo, parámetros, curvatura, régimen de redshift y unidad. La integral no es un adorno matemático: es la pieza que impide convertir `z` en distancia directa. `D_L`, `D_A` y `D_M` se absorben de forma derivada si sus relaciones con `D_C` y el factor de escala permanecen tipadas. El rechazo aparece cuando una distancia integral se usa sin especificar `H(z)`, cuando se mezclan parámetros de modelos distintos, cuando se omite curvatura en un caso que la requiere o cuando se convierte una distancia observacional en distancia de totalidad. El banco positivo usará casos donde cada integral conserva dominio; el banco negativo usará exactamente las mismas formas con una columna rota para verificar que el residual detecta el fallo.
+
+## VIII.6. Aceleración cósmica `q(t)<0`: absorción condicionada por modelo
+
+La condición `q(t)=-a(t)ä(t)/ȧ(t)^2<0` queda absorbida como lectura física de aceleración del factor de escala dentro de un modelo cosmológico. No significa que toda galaxia local acelere, ni que todas las distancias crezcan igual, ni que la totalidad se acelere como cuerpo. Su absorción exige declarar `a(t)`, derivadas físicas de modelo, parámetros y observable que permite inferir la aceleración, típicamente supernovas, BAO, CMB u otras combinaciones. Si se usa como afirmación sobre separaciones internas bajo métrica, el residual puede anularse; si se usa como causa absoluta, como velocidad ordinaria o como expansión de totalidad, se activa error de plano. La fórmula directriz conserva el contenido físico de la aceleración y rechaza su lectura vulgar como movimiento de un objeto universal.
+
+## VIII.7. Energía oscura constante: absorción parcial como término de modelo
+
+La constante cosmológica `Λ` y su lectura como energía oscura constante se absorben como término del modelo que permite ajustar aceleración, distancias y evolución a gran escala. Su absorción es plena cuando se usa como parámetro dentro de ΛCDM para calcular `H(z)` o distancias; es parcial cuando se pretende convertirla en explicación física última sin especificar mecanismo; y se rechaza cuando se usa como nombre causal suficiente para cualquier distanciamiento observable sin banco ni ecuación. En SV, `Ω_Λ` no funda la completitud estructural ni sustituye el transductor: entra como componente física de modelo. El dictamen sobre distancias no depende de aceptar una esencia de energía oscura, sino de verificar si el término matemático usado conserva dominio, parámetros, ecuación y retorno físico.
+
+## VIII.8. Energía oscura dinámica: absorción parcial bajo evidencia no cerrada
+
+Los modelos de energía oscura dinámica, formulados mediante `w(z)`, `w_0-w_a` u otras funciones, se absorben parcialmente cuando sirven para contrastar desviaciones respecto de `Λ` constante y mejorar o tensionar ajustes de distancias. La absorción es parcial porque el campo contemporáneo mantiene dependencia de combinación de datos, parametrización y significación estadística, y porque no existe una única lectura cerrada de mecanismo físico. SV puede aceptar sus ecuaciones como modelos de prueba y sus parámetros como entradas de banco, pero no permitirá que una indicación dinámica se transforme en destino cosmológico definitivo sin residual. La regla será: apto como contraste de modelo, parcial como interpretación física, no apto como cierre absoluto si falta demostración externa y retorno unívoco.
+
+## VIII.9. Tensión de Hubble: absorción parcial como incompatibilidad de mediciones tipadas
+
+La tensión de Hubble se absorbe parcialmente como incompatibilidad entre rutas de medición tipadas. `H_0^{local}` y `H_0^{CMB}` no son dos números intercambiables dentro de una misma casilla: proceden de dominios, calibraciones y modelos distintos. La absorción parcial reconoce que ambas rutas pueden ser físicamente competentes y, sin embargo, devolver valores discordantes bajo las hipótesis vigentes. SV no resuelve la tensión por promedio ni por preferencia de una escuela; la convierte en residual de ruta: `Δ_H=|H_0^{local}−H_0^{CMB}|` queda acompañado de dominio, método, calibración y modelo. Si una formulación mezcla ambos valores sin tipado, queda rechazada. Si los mantiene separados y declara residual, queda parcialmente absorbida como tensión física real pendiente de cierre externo.
+
+## VIII.10. JWST y galaxias tempranas: banco extremo de retorno, no refutación automática
+
+Las galaxias tempranas observadas por JWST se absorben como retornos extremos de alto redshift, con potencial para tensionar modelos de formación de estructuras, masas, eficiencia estelar, polvo, metalicidad y selección. No se absorben como refutación automática de ΛCDM ni como prueba directa de una teoría alternativa. Cada caso debe declarar método de redshift, robustez espectroscópica o fotométrica, flujo, masa inferida, modelo de población estelar, incertidumbre y frontera instrumental. En SV, su función principal será banco de estrés: si una galaxia extrema conserva firma y el modelo la absorbe con residual controlado, el caso es apto; si exige ajuste parcial, queda como absorción parcial; si se usa como proclamación global sin banco, queda no apto. El retorno extremo obliga a más disciplina, no a menos.
+
+## VIII.11. Big Bang como singularidad métrica inicial: rechazo como fundamento
+
+El Big Bang entendido como singularidad métrica inicial, punto físico de origen o instante absoluto que coincide con `(0,0)` queda rechazado como fundamento del SV. La razón es formal: identifica una extrapolación física de modelo con un origen de potencial que no es espacial ni temporal, y convierte el límite retrospectivo de una ecuación en sede doctrinal. La cosmología puede usar estados tempranos, nucleosíntesis, desacoplamiento, inflación o singularidades de modelos como elementos físicos de reconstrucción; lo que no puede hacer dentro de esta tesis es sustituir el origen formal por un evento físico ordinario. El rechazo no niega la validez de la cosmología temprana como dominio físico; niega que una singularidad métrica pueda funcionar como origen absoluto del aparato SV.
+
+## VIII.12. Big Bang como régimen físico de modelo retrospectivo: absorción parcial
+
+El Big Bang como régimen físico retrospectivo queda absorbido parcialmente: no como origen formal, sino como nombre del marco cosmológico temprano desde el que se ordenan expansión térmica, nucleosíntesis, desacoplamiento, fondo cósmico, formación de estructura y evolución del factor de escala. Su absorción parcial conserva su enorme utilidad física y rechaza su conversión en punto externo de creación espacial. En términos de transductor, la física temprana puede aportar `t_L`, `z`, temperatura, densidad, composición y horizontes de señal; el SV los recibe como magnitudes de modelo y retornos, no como fundamento. La parte absorbida es empírica y matemática; la parte rechazada es la lectura que identifica frontera retrospectiva de modelo con origen formal de la totalidad.
+
+## VIII.13. Expansión de la totalidad absoluta: rechazo de plano
+
+La expansión de la totalidad absoluta queda rechazada porque exige convertir el Todo en objeto físico dentro de un espacio mayor. Para que la totalidad “se expanda” como cuerpo, habría que declarar exterior, borde, métrica superior, observador externo y relación entre la totalidad y algo que no es ella. Esa estructura no pertenece al dominio físico observable ni al dominio SV de completitud. Lo que sí queda absorbido es la expansión de separaciones internas bajo un modelo, el corrimiento al rojo de señales, la evolución del factor de escala y la aceleración de ciertas relaciones métricas. La diferencia es estricta: expansión interna de observables, apta bajo condiciones; expansión de la totalidad como objeto, no apta. El banco negativo incluirá esta formulación porque es una fuente común de confusión divulgativa.
+
+## VIII.14. Universo como cuerpo que crece en un exterior: rechazo de plano
+
+La imagen del Universo como cuerpo que crece dentro de un exterior queda rechazada por la misma razón que la expansión de totalidad, con un defecto adicional: introduce una geometría contenedora no declarada. Esa imagen puede tener valor pedagógico limitado en divulgación, pero no puede actuar como formulación científica de distancia. Si el Universo crece “dentro de algo”, ese algo debe tener estatuto físico, métrica, frontera y relación con el dominio interno; al no declararse, se activa `Δ_Ω`. Si se declara, deja de ser totalidad y pasa a ser un dominio físico mayor que requiere nueva formulación. En ambos casos, la imagen no puede fundar el análisis. La forma admisible será siempre interna: observables, señales, métricas de modelo, retornos y separaciones.
+
+## VIII.15. Tabla general de absorción de modelos contemporáneos
+
+| Teoría, ecuación o lectura | Dominio legítimo | Absorción SV | Residual crítico | Rechazo si se formula como | Dictamen |
+|:---|:---|:---|:---|:---|:---:|
+| Hubble-Lemaître `v_rec≃H_0D` | Bajo `z`, régimen local | Relación local distancia-recesión | Extrapolación a alto `z` | Velocidad universal ordinaria | APTO condicionado |
+| `v=cz` | Aproximación de bajo redshift | Cálculo local auxiliar | Salida de régimen | Distancia/velocidad en alto `z` | APTO/NO_APTO |
+| `1+z=a(t_0)/a(t_e)` | Redshift-factor de escala | Puente espectral-expansivo | Usar `z` como distancia directa | Distancia sin modelo | APTO |
+| Friedmann | Dinámica de escala | Modelo físico interno | Hipótesis de contenido/curvatura | Fundamento de totalidad | APTO condicionado |
+| ΛCDM | Marco cosmológico estándar | Modelo instrumental de distancias | Tensiones y parámetros | Ontología final del Todo | APTO/PARCIAL |
+| Distancia comóvil `D_C` | Modelo con `H(z)` | Distancia integral tipada | Parámetros no declarados | Radio absoluto del Universo | APTO condicionado |
+| Distancia de luminosidad `D_L` | Flujo-luminosidad | Retorno luminoso calibrado | Calibración y modelo | Distancia propia directa | APTO condicionado |
+| Distancia angular `D_A` | Tamaño-ángulo | Relación angular-forma | Tamaño físico no declarado | Distancia de luminosidad | APTO condicionado |
+| Aceleración `q(t)<0` | Dinámica de factor de escala | Aceleración interna de modelo | Magnitud no declarada | Aceleración de totalidad | APTO condicionado |
+| Energía oscura `Λ` | Término de modelo | Componente instrumental | Interpretación física última | Causa verbal total | APTO/PARCIAL |
+| Energía oscura dinámica `w(z)` | Extensión de modelo | Contraste de parametrización | Evidencia no cerrada | Destino definitivo | PARCIAL |
+| Tensión de Hubble | Rutas de medición | Residual de dominio | Mezcla de rutas | Promedio sin tipado | PARCIAL |
+| JWST alto `z` | Retornos extremos | Banco de estrés | Masa, selección, redshift | Refutación automática | APTO/PARCIAL |
+| Big Bang físico temprano | Régimen retrospectivo | Cosmología temprana | Identificación con origen formal | `(0,0)` físico | PARCIAL/NO_APTO |
+| Big Bang singularidad absoluta | Extrapolación límite | No funda SV | Temporalización del origen | Origen formal del Todo | NO_APTO |
+| Horizonte observable | Frontera de retorno | Límite de observabilidad | Confusión con borde absoluto | Borde del Todo | APTO/NO_APTO |
+| Universo-cuerpo en exterior | Imagen divulgativa | Sin dominio científico | Exterior no declarado | Totalidad que crece | NO_APTO |
+
+# IX. Galaxias, separación y velocidad: núcleo físico del desarrollo
+
+La afirmación de que las galaxias se alejan sólo es científicamente admisible si se especifica qué galaxias, qué régimen dinámico, qué distancia, qué modelo y qué velocidad. Una galaxia ligada gravitatoriamente a un cúmulo no se comporta como marcador comóvil ideal; una galaxia de alto redshift no entrega velocidad ordinaria por el mero valor de `z`; una separación propia creciente no equivale a expansión de la totalidad; y una aceleración del factor de escala no equivale a que todo objeto físico acelere localmente. La lectura SV impone una corrección de tipo: las galaxias son observables físicos internos, sus señales son retornos luminosos, sus distancias proceden de modelos, sus velocidades recesionales son magnitudes derivadas, y el dictamen sólo puede cerrarse cuando la cadena `observable → magnitud → modelo → transductor → residual → retorno` conserva todos sus invariantes.
+
+## IX.1. Qué significa físicamente que dos galaxias se separen
+
+Decir que dos galaxias se separan puede significar al menos cuatro cosas distintas: que aumenta su distancia propia bajo una métrica cosmológica, que conservan coordenadas comóviles mientras crece el factor de escala, que tienen velocidades peculiares relativas dentro de un entorno gravitatorio, o que sus retornos luminosos presentan redshifts distintos que el modelo traduce en distancias distintas. La física contemporánea suele usar la expansión para describir el crecimiento de separaciones entre observadores comóviles idealizados, no el movimiento local de cada galaxia a través de un espacio fijo. El SV conserva esa distinción y añade una compuerta: la separación sólo queda aceptada si se declara la magnitud usada. Si se habla de `D_P(t)`, la separación es propia; si se habla de `D_C`, es comóvil; si se habla de `z`, aún no hay distancia; si se habla de `v_rec`, se trata de magnitud derivada del modelo.
+
+## IX.2. Galaxias ligadas y galaxias comóviles
+
+La expansión cosmológica no actúa del mismo modo sobre sistemas ligados y sobre observables comóviles ideales. Galaxias dentro de cúmulos, grupos, pares en interacción o sistemas gravitacionalmente ligados pueden tener dinámica dominada por potencial local, velocidades peculiares, fusiones, caída hacia centros de masa y efectos de entorno; no son marcadores puros del flujo de Hubble. Galaxias suficientemente separadas, sin vínculo gravitatorio dominante y tratadas dentro del modelo de fondo, pueden funcionar como aproximaciones comóviles para distancias cosmológicas. Esta distinción bloquea una extrapolación frecuente: aplicar expansión métrica de fondo a toda separación galáctica sin preguntar si el sistema está ligado. En SV, el estado ligado activa una frontera dinámica `F_grav`; el estado comóvil activa una frontera cosmológica `F_cos`; mezclar ambas produce defecto de dominio.
+
+## IX.3. Separación propia y separación comóvil
+
+La separación propia `D_P(t)=a(t)χ` cambia con el factor de escala si la coordenada comóvil `χ` permanece constante; la separación comóvil `χ` mantiene fija la posición en coordenadas de expansión ideal, descontando el crecimiento de `a(t)`. Esta pareja de magnitudes explica por qué dos formulaciones aparentemente opuestas pueden ser simultáneamente correctas: las coordenadas comóviles de dos galaxias pueden permanecer constantes mientras su distancia propia aumenta. En SV, esta dualidad se absorbe como diferencia de magnitud, no como contradicción. `D_P` entra como distancia física dependiente del régimen de escala; `D_C` entra como distancia de coordenada cosmológica; ninguna de las dos mide la totalidad ni sustituye a la distancia factual fibrosa. El banco de contraste deberá incluir casos en los que `χ` sea constante y `D_P` crezca para mostrar que el aumento de separación propia no implica desplazamiento de la totalidad.
+
+## IX.4. Corrimiento al rojo y retorno luminoso galáctico
+
+El redshift galáctico es una firma del retorno luminoso: compara longitud de onda observada y longitud de onda emitida, y se interpreta mediante contribuciones cosmológicas, peculiares, gravitacionales o de otro tipo según el caso. En escalas cosmológicas dominadas por el modelo de fondo, `z` se conecta con el factor de escala; en sistemas locales o peculiares, puede contener componentes de movimiento propio; en entornos gravitatorios intensos, puede requerir correcciones adicionales. Por eso `z` no debe usarse como distancia desnuda. En SV, el redshift entra como observable `Φ_z` de retorno espectral; su conversión en distancia exige `𝓜`, `𝓔`, unidad, frontera y residual. El retorno luminoso no dice por sí solo “la galaxia está a tal distancia”; dice “la señal ha llegado con esta modificación espectral”, y la distancia nace al aplicar una conversión tipada.
+
+## IX.5. Velocidad recesional como magnitud de modelo
+
+La velocidad recesional `v_rec=H(t)D_P(t)` mide la tasa de cambio de una separación propia en el modelo cosmológico, no la velocidad local de una galaxia atravesando el espacio como proyectil. Esta diferencia permite que ciertas velocidades recesionales superen `c` sin contradecir la relatividad especial, porque no describen movimiento local en un mismo marco inercial. El error aparece cuando se transforma `v_rec` en velocidad ordinaria universal o cuando se usa `v=cz` fuera de bajo redshift. En SV, `v_rec` entra como magnitud física derivada con unidad de velocidad, ligada a `H(t)` y a una distancia de modelo; no entra como primitiva. Su aptitud exige declarar distancia usada, `H(t)`, redshift, régimen y retorno. Sin esa declaración, la palabra velocidad queda bloqueada.
+
+## IX.6. Por qué `v = cz` falla fuera de bajo `z`
+
+La fórmula `v=cz` funciona como aproximación local para redshifts pequeños, donde el corrimiento puede relacionarse linealmente con recesión. Fuera de ese régimen, el redshift incorpora la historia del factor de escala y la distancia se calcula mediante integrales cosmológicas; tratar `cz` como velocidad ordinaria en alto `z` mezcla aproximación local con dominio profundo. El fallo no es sólo numérico: es de tipo. Un redshift alto no se traduce en velocidad por multiplicación directa; requiere modelo, parámetros y definición de distancia. En la compuerta SV, usar `v=cz` con `z` alto activa `Δ_reg` por salida de régimen, `Δ_𝓔` por ecuación impropia y `Δ_ret` si la salida se presenta como velocidad física local. El banco negativo debe incluir varios `z` altos para comprobar que el rechazo no depende de una cifra concreta.
+
+## IX.7. `H(t)`, `ȧ(t)`, `ä(t)` y `v_rec = H(t)D`: cuatro lecturas distintas
+
+La frase “la velocidad aumenta” es incompleta porque puede referirse a magnitudes diferentes. `H(t)=ȧ(t)/a(t)` mide tasa relativa de expansión; `ȧ(t)` mide cambio del factor de escala; `ä(t)` mide aceleración del factor de escala; `v_rec=H(t)D_P` mide tasa de cambio de separación propia de modelo. Es posible que `H(t)` disminuya mientras `a(t)` aumenta, que `ä(t)>0` indique aceleración de escala, y que `v_rec` dependa además de la distancia propia considerada. En SV, estas cuatro lecturas no pueden colapsarse. Toda afirmación sobre aumento o disminución debe declarar cuál de las cuatro magnitudes evalúa. Si no lo hace, el residual de magnitud `Δ_m` queda activo y el dictamen no puede ser apto.
+
+## IX.8. La velocidad no “aumenta” sin declarar magnitud
+
+Una galaxia no queda caracterizada por una velocidad única salvo que se declare el régimen físico: velocidad peculiar local, velocidad radial observada, velocidad recesional de modelo, tasa de cambio de distancia propia, evolución del factor de escala o aceleración cosmológica. La pregunta correcta no es si “la velocidad del Universo” aumenta, porque la totalidad no tiene velocidad física respecto de un exterior. La pregunta correcta es si aumenta `D_P(t)`, si cambia `v_rec`, si `q(t)<0`, si `H(t)` sube o baja, o si una ruta observacional infiere evolución de energía oscura. Esta precisión transforma una frase ambigua en un conjunto de preguntas calculables. El SV no prohíbe hablar de velocidad; prohíbe que la palabra velocidad funcione sin índice, unidad, ecuación y frontera.
+
+## IX.9. Aceleración de la expansión frente a crecimiento de distancia propia
+
+La aceleración de la expansión se expresa mediante `ä(t)>0` o `q(t)<0`, no simplemente por el hecho de que una distancia propia crezca. Una distancia propia puede crecer en un universo desacelerado si el factor de escala sigue aumentando; la aceleración exige información de segundo orden sobre el factor de escala. Esta distinción es decisiva para el destino del distanciamiento: bajo ΛCDM con constante cosmológica, la expansión acelerada tiende a separar cada vez más observables no ligados; bajo modelos dinámicos de energía oscura, el futuro puede cambiar según `w(z)` o su continuación; bajo escenarios alternativos, la aceleración puede variar. En SV, el crecimiento de `D_P` y la aceleración `q<0` son magnitudes distintas. Si una conclusión sobre el futuro usa sólo distancia creciente sin evaluar aceleración o modelo, queda parcialmente absorbida o rechazada.
+
+## IX.10. Lectura SV de la separación entre galaxias
+
+La separación entre galaxias se transduce como relación entre observables `𝒪_g^a` y `𝒪_g^b` bajo magnitud física `m`, modelo `𝓜`, trayectoria `Γ` y frontera `F`. Si `m=D_C`, se compara coordenada comóvil; si `m=D_P`, separación propia; si `m=z`, sólo diferencia espectral; si `m=D_L`, retorno luminoso comparado; si `m=DistInter^{SV}_{a,b}`, comparación de perfiles factuales. La lectura SV no sustituye la distancia física: verifica si el par conserva tipo. La forma apta queda `Sep_g(𝒪_g^a,𝒪_g^b;m,𝓜)=APTO ⇔ Δ^{SV↔FC}_{dist}=0`. La forma no apta queda cuando se comparan galaxias con métricas distintas, cuando una está ligada y otra se trata como comóvil sin frontera, o cuando se convierte el par en prueba de expansión de la totalidad.
+
+## IX.11. Teorema de desambiguación de la velocidad cosmológica
+
+Teorema: ningún enunciado sobre aumento, disminución o valor de “la velocidad” en cosmología es apto si no declara la magnitud `H(t)`, `ȧ(t)`, `ä(t)`, `v_rec`, velocidad peculiar o velocidad radial observacional. Demostración: esas seis magnitudes tienen dominios, unidades, ecuaciones y retornos distintos. Si un enunciado usa “velocidad” sin declarar cuál, entonces no puede determinarse si la unidad es `s^{-1}`, longitud por tiempo, aceleración de escala, relación adimensional derivada o componente local; por tanto, el transductor no puede fijar `m` en `Ω^{dist}_{FC}`. Al no quedar fijada la magnitud, se activa `Δ_m`. Como `Δ_m=1` impide `Δ^{SV↔FC}_{dist}=0`, el enunciado no puede ser apto. Luego toda afirmación cosmológica sobre velocidad exige magnitud declarada. Q.E.D.
+
+## IX.12. Teorema de separación entre distanciamiento observable y expansión de totalidad
+
+Teorema: el distanciamiento entre galaxias comóviles bajo modelo no implica expansión física de la totalidad absoluta. Demostración: el distanciamiento observable se define sobre un par `𝒪_g^a,𝒪_g^b` con magnitud `D_P(t)` o `D_C`, modelo `𝓜` y frontera cosmológica `F_cos`; la expansión de la totalidad absoluta exigiría un objeto `U_total`, un exterior `E_ext`, una métrica `g_ext` y una relación de cambio entre `U_total` y `E_ext`. La primera estructura pertenece al dominio físico interno; la segunda introduce un dominio superior no declarado. Si se identifica la primera con la segunda, se sustituye par interno por totalidad, se activa `Δ_Ω` y falla el retorno físico. En cambio, si se mantiene la separación de dominios, el crecimiento de `D_P(t)` puede ser absorbido como distancia interna sin convertir la totalidad en cuerpo expansivo. Luego distanciamiento observable y expansión de totalidad no son equivalentes. Q.E.D.
+
+## IX.13. Banco de casos galácticos canónicos
+
+| Caso | Entrada física | Magnitud usada | Frontera | Error buscado | Dictamen SV |
+|:---:|:---|:---|:---|:---|:---:|
+| G-01 | Dos galaxias comóviles con `χ` constante | `D_P(t)=a(t)χ` | `F_cos` | Ninguno | APTO |
+| G-02 | Dos galaxias del mismo cúmulo | Velocidad peculiar y dinámica ligada | `F_grav` | Aplicar flujo de Hubble puro | PARCIAL/NO_APTO según uso |
+| G-03 | Galaxia local de bajo `z` | `v_rec≃H_0D` | Bajo `z` | Ninguno si régimen se conserva | APTO |
+| G-04 | Galaxia de alto `z` | `v=cz` | Alto `z` | Ecuación local extrapolada | NO_APTO |
+| G-05 | Galaxia con `z` espectroscópico | `z` | Retorno espectral | Usar `z` como distancia directa | NO_APTO si no hay modelo |
+| G-06 | Galaxia con `z` y ΛCDM declarado | `D_C(z)` | Modelo integral | Ninguno si parámetros constan | APTO |
+| G-07 | Galaxia con flujo calibrado | `D_L` | Retorno luminoso | Tratar `D_L` como `D_A` | NO_APTO si se colapsa |
+| G-08 | Galaxia con tamaño angular | `D_A` | Geometría angular | Falta tamaño físico | U/PARCIAL |
+| G-09 | Dos rutas de `H_0` aplicadas a la misma muestra | `H_0^{local}`, `H_0^{CMB}` | Rutas separadas | Mezcla sin tipado | NO_APTO |
+| G-10 | Galaxia JWST de alto `z` confirmada | `z`, `D_L`, modelo de población | Frontera instrumental | Refutación automática de ΛCDM | PARCIAL si tensiona |
+| G-11 | Candidato fotométrico ambiguo | `z_phot` | Firma incompleta | Cierre por preferencia | U |
+| G-12 | Par de galaxias comparado por perfiles SV | `DistInter^{SV}_{a,b}` | Trayectoria común | Trayectorias distintas | APTO sólo si común |
+| G-13 | Galaxia frente a origen `0_SV` | `D_abs^{SV}` | Origen formal | Leerlo como Big Bang físico | APTO formal/NO_APTO si se espacializa |
+| G-14 | “El Universo se aleja” | Sin par observable | Ninguna | Totalidad como objeto móvil | NO_APTO |
+| G-15 | “La velocidad aumenta” | No declarada | Ninguna | Magnitud ambigua | NO_APTO |
+
+# X. Distancia absoluta respecto del origen formal de potencial
+
+La distancia absoluta respecto del origen formal de potencial sólo puede formularse como relación formal restringida entre un observable declarado y `0_SV`, nunca como radio físico del Universo, distancia al Big Bang, separación respecto de un centro espacial o medida desde un exterior. Su finalidad no es producir una cosmometría alternativa, sino fijar una referencia de orden para saber cuándo un observable físico puede ser comparado con el origen formal sin degradar ese origen a suceso, coordenada o singularidad. La operación queda subordinada a la fórmula directriz: `𝔇^{SV↔FC}_{abs}(𝒪_i,0_SV;Γ,𝓜,𝓑)=0 ⇔ Δ^{SV↔FC}_{abs}=0`. El cero del dictamen no significa que el observable esté físicamente “en el origen”, sino que la comparación con el origen formal no ha introducido defecto de plano, magnitud, unidad, ecuación, transducción o retorno.
+
+## X.1. Definición restringida de distancia absoluta
+
+La distancia absoluta restringida se define como `D^{SV}_{abs}(𝒪_i;0_SV,Γ)=Rel_SV(Φ_{𝒪_i},0_SV;Γ)`, donde `𝒪_i` es observable físico admitido o retorno físico tipado, `Φ_{𝒪_i}` es su observable factual asociado, `0_SV` es origen formal de potencial, `Γ` es trayectoria de lectura y `Rel_SV` es relación formal de referencia, no métrica espacial. Esta definición no añade operador cosmológico nuevo: deriva del uso controlado de observable, trayectoria, distancia factual fibrosa y residual transductivo. Su dominio excluye la totalidad absoluta como objeto y sólo admite contenidos retornados. Si `𝒪_i` no tiene identidad, firma, magnitud y frontera, `D^{SV}_{abs}` no se calcula; si `0_SV` se espacializa o temporaliza, el caso queda rechazado.
+
+## X.2. Origen de potencial `(0,0)` y prohibición de espacialización
+
+El origen de potencial `(0,0)` designa una referencia formal interna del aparato SV; no designa un lugar, un instante, una singularidad física, una temperatura inicial, una densidad infinita ni una región desde la que las galaxias se hayan desplazado. Espacializarlo obliga a imaginar un centro físico del Universo; temporalizarlo obliga a identificarlo con un comienzo cronológico; ambas operaciones introducen un dominio externo no declarado y rompen el tipo formal del origen. La prohibición es estructural: si `(0,0)` se transforma en coordenada física, entonces toda distancia absoluta queda contaminada por una métrica ajena. Por tanto, sólo se permite decir que un observable se relaciona formalmente con `0_SV`; no se permite decir que está físicamente a tantos megapársecs de `(0,0)`.
+
+## X.3. Distancia absoluta como referencia formal, no como radio físico del Universo
+
+La distancia absoluta formal no mide el tamaño del Universo ni la distancia de una galaxia al centro de una expansión. Mide la posición relacional de un observable tipado frente a una referencia de potencial dentro del aparato SV, con el único fin de ordenar su lectura de origen, retorno y residual. Un radio físico exige centro, borde, métrica y exterior; la completitud estructural no ofrece esos elementos porque no es un cuerpo contenido en otro dominio. En cambio, una referencia formal sí puede servir para comparar retornos físicos: una galaxia de alto `z`, una señal CMB, un patrón BAO o una supernova pueden ordenarse respecto de `0_SV` como relación formal si sus magnitudes físicas se mantienen en el carril de modelo y no invaden el origen. Así se conserva la utilidad comparativa sin producir cosmología vulgar.
+
+## X.4. Observable frente a origen formal: condiciones de legitimidad
+
+La relación `𝒪_i ↔ 0_SV` queda legitimada si se cumplen seis condiciones: `𝒪_i` tiene identidad física o estatuto de retorno declarado; la magnitud física `m` no se presenta como magnitud del origen; la trayectoria `Γ` pertenece a la lectura del observable, no a una ruta espacial desde el origen; el modelo `𝓜` opera sólo sobre el observable físico; el origen formal no recibe unidad SI; y el residual `Δ_orig` se anula. Una galaxia con `z` y modelo puede relacionarse formalmente con `0_SV` como retorno profundo, pero no como objeto situado a cierta distancia del punto inicial. Una señal CMB puede relacionarse como frontera de retorno temprano, pero no como pared absoluta. Una supernova puede aportar `D_L`, pero no distancia al origen formal. La legitimidad depende de conservar estas seis fronteras.
+
+## X.5. Residual de origen `Δ_orig`
+
+El residual de origen se define como `Δ_orig=Δ_{id0}⊕Δ_{esp0}⊕Δ_{temp0}⊕Δ_{met0}⊕Δ_{ret0}`, donde `Δ_{id0}` detecta identificación del origen formal con entidad física, `Δ_{esp0}` detecta espacialización, `Δ_{temp0}` detecta temporalización, `Δ_{met0}` detecta asignación de unidad física al origen y `Δ_{ret0}` detecta fallo de retorno físico de la comparación. La condición de aptitud formal queda `Δ_orig=0`. Si se dice que `(0,0)` es el Big Bang físico, `Δ_{id0}=1` y `Δ_{temp0}=1`; si se dice que una galaxia está a una distancia física de `(0,0)`, `Δ_{esp0}=1`; si se asignan megapársecs al origen, `Δ_{met0}=1`; si la salida no puede traducirse al dominio físico sin confusión, `Δ_{ret0}=1`. La anulación exige que el origen permanezca formal.
+
+## X.6. Relación con `D^{SV}_Φ(Γ)`
+
+`D^{SV}_{abs}(𝒪_i;0_SV,Γ)` no es idéntica a `D^{SV}_Φ(Γ)`, aunque puede apoyarse en ella. `D^{SV}_Φ(Γ)` mide variación extremo a extremo del observable `Φ` sobre una trayectoria; `D^{SV}_{abs}` mide relación formal restringida entre el observable y el origen de potencial. Si el observable se lee como trayectoria desde una frontera de entrada hasta una frontera de retorno, `D^{SV}_Φ(Γ)` puede aportar el cambio factual de la señal; pero la referencia a `0_SV` añade una condición de origen formal que no pertenece a la métrica física. La regla es: `D^{SV}_Φ(Γ)` controla variación; `D^{SV}_{abs}` controla referencia formal; `Δ_orig` controla que ambas no se confundan. Si se igualan sin más, el caso queda mal tipado.
+
+## X.7. Relación con retorno luminoso y profundidad observacional
+
+El retorno luminoso y la profundidad observacional permiten ordenar señales respecto de un límite de acceso, pero no convierten el origen formal en fuente física. Una galaxia temprana puede tener alto `z`, gran tiempo de mirada atrás y elevada distancia de luminosidad; eso la sitúa en una región extrema del dominio observable, no en una vecindad física del origen `0_SV`. La profundidad observacional indica hasta dónde llega un instrumento o una estrategia de detección; no indica cuánto falta para el origen formal. En SV, el retorno luminoso se proyecta como `Φ_ret`, la profundidad como frontera `F_obs`, y la distancia absoluta formal como relación con `0_SV` bajo residual de origen. Sólo si esas tres piezas permanecen separadas puede hablarse de observables próximos al origen en sentido formal, nunca espacial.
+
+## X.8. Casos aptos
+
+Son casos aptos aquellos en los que el observable físico está tipado, el origen permanece formal y el retorno físico no cambia de magnitud. Una galaxia con redshift espectroscópico y modelo declarado puede tener `D^{SV}_{abs}` apta si la relación se formula como referencia formal de profundidad, no como radio desde el Big Bang. Una señal del CMB puede ser apta si se formula como retorno temprano del modelo, no como borde absoluto del Todo. Una supernova Ia puede ser apta si su `D_L` se usa como distancia de luminosidad y no como distancia al origen. Una señal BAO puede ser apta si conserva su estatuto de patrón correlacional. En todos estos casos, la aptitud depende de `Δ_orig=0` y de la anulación del residual transductivo general.
+
+## X.9. Casos no aptos
+
+Son casos no aptos aquellos que convierten el origen formal en entidad física o convierten una magnitud física en medida del origen. Decir que `(0,0)` es el Big Bang físico, que las galaxias se alejan desde `(0,0)`, que existe un centro del Universo en el origen formal, que el CMB es la pared situada a cierta distancia del Todo, que una distancia de luminosidad mide distancia al punto inicial, o que el radio del Universo se calcula como distancia absoluta desde `0_SV`, activa defectos de plano. También queda rechazado usar `t_L` como distancia temporal al origen formal o presentar `a(t)=0` como equivalente de `0_SV`. En todos esos casos el dato físico puede conservar valor dentro de su dominio, pero la formulación concreta queda no apta por espacialización, temporalización o retorno defectivo.
+
+## X.10. Casos U
+
+Los casos `U` aparecen cuando no hay contradicción formal, pero falta firma suficiente para decidir la relación. Un candidato de alto redshift sin espectro robusto puede quedar en `U` respecto de su distancia absoluta formal; una señal fotométrica degenerada puede quedar en `U` hasta resolver identificación; una fuente lensada con modelo de masa insuficiente puede quedar en `U` hasta separar magnificación, redshift y luminosidad; un patrón estadístico incompleto puede quedar en `U` hasta declarar covarianza y frontera. La marca no autoriza cierre provisional favorable ni rechazo precipitado. Su salida exige nuevo dato, nueva firma, nuevo modelo o nuevo banco. Una vez completada la información, el caso deberá pasar a apto, parcial o no apto según residual.
+
+## X.11. Teorema de no identificación entre origen formal y Big Bang
+
+Teorema: el origen formal `0_SV` no puede identificarse con el Big Bang físico sin error de plano. Demostración: `0_SV` pertenece al dominio formal de referencia del aparato SV y no posee unidad física, coordenada espacial, temperatura, densidad, curvatura ni tiempo de emisión; el Big Bang físico, en sus lecturas cosmológicas, pertenece a modelos físicos retrospectivos con variables de escala, temperatura, densidad, redshift, tiempo cósmico y ecuaciones dinámicas. Si se identifican, una entidad formal sin unidad física recibe propiedades de un régimen físico; por tanto, se activan `Δ_{id0}`, `Δ_{temp0}` y `Δ_{met0}`. Como `Δ_orig≠0`, la distancia absoluta formal no puede cerrarse. Luego `0_SV` y Big Bang físico no son identificables, aunque el Big Bang pueda ser absorbido parcialmente como régimen físico de modelo. Q.E.D.
+
+## X.12. Tabla de distancias absolutas admisibles y no admisibles
+
+| Caso | Formulación | Magnitud física implicada | Residual de origen | Retorno correcto | Dictamen |
+|:---:|:---|:---|:---|:---|:---:|
+| A-01 | Galaxia con `z` espectroscópico relacionada formalmente con `0_SV` | `z`, `D_C` o `D_L` según modelo | `Δ_orig=0` si no se espacializa | Profundidad formal y distancia de modelo | APTO |
+| A-02 | CMB como retorno temprano bajo modelo | `z≈1100`, parámetros CMB | `Δ_orig=0` si no se toma como borde absoluto | Frontera de retorno temprano | APTO condicionado |
+| A-03 | Supernova Ia con distancia de luminosidad | `D_L` | `Δ_orig=0` si no mide origen | Candela estandarizada | APTO |
+| A-04 | BAO como patrón correlacional | `r_d`, `D_M`, `H(z)` | `Δ_orig=0` si conserva patrón | Regla estándar estadística | APTO |
+| A-05 | Galaxia JWST extrema con firma robusta | `z`, `D_L`, modelo estelar | `Δ_orig=0` si se trata como retorno extremo | Banco de profundidad | APTO/PARCIAL |
+| A-06 | Candidato fotométrico ambiguo | `z_phot` | No decidible | Falta firma | U |
+| A-07 | Fuente lensada con masa de lente insuficiente | `D_A`, magnificación | No decidible | Falta modelo de lente | U |
+| A-08 | “La galaxia está a X Mpc del origen `(0,0)`” | Longitud física | `Δ_{esp0}=1` | Ninguno sin reformulación | NO_APTO |
+| A-09 | “`(0,0)` es el Big Bang” | Tiempo/estado físico | `Δ_{id0}=1`, `Δ_{temp0}=1` | Régimen físico separado | NO_APTO |
+| A-10 | “El CMB es el borde del Todo” | Horizonte de retorno | `Δ_ret0=1` | Superficie de último scattering bajo modelo | NO_APTO |
+| A-11 | “El radio del Universo es distancia absoluta a `0_SV`” | Longitud global | `Δ_{esp0}=1`, `Δ_{met0}=1` | Tamaño observable sólo bajo modelo | NO_APTO |
+| A-12 | “El tiempo de mirada atrás mide distancia al origen formal” | `t_L` | `Δ_{temp0}=1` | Tiempo físico de modelo subordinado | NO_APTO |
+
+# XI. Distancia relativa entre observables
+
+La distancia relativa entre observables es la operación comparativa que permite decir si dos contenidos físicos del universo observable pueden ponerse en relación bajo una misma magnitud, un mismo régimen o un transductor explícito. Su forma general es `D_rel(𝒪_i,𝒪_j;m,𝓜,F)=Rel_m(𝒪_i,𝒪_j)` con `m` tipada, `𝓜` declarado y frontera `F` visible. La comparación no procede por semejanza verbal entre objetos, sino por homogeneidad de dominio: dos galaxias pueden compararse por `D_C`, dos supernovas por módulo de distancia, dos señales por redshift, dos rutas de `H_0` por residual de calibración, dos perfiles SV por `DistInter^{SV}_{a,b}(Γ)`, pero no puede restarse una distancia de luminosidad a una distancia angular ni comparar un retorno espectral con una distancia propia sin transductor. La distancia relativa será el instrumento principal para transformar frases cosmológicas vagas en relaciones verificables.
+
+## XI.1. Definición de distancia relativa
+
+La distancia relativa se define como `D^{SV↔FC}_{rel}(𝒪_i,𝒪_j;m,𝓜,Γ,F)=Rel_m(𝒪_i,𝒪_j)` si y sólo si `𝒪_i` y `𝒪_j` son observables declarados, `m` es una magnitud común o transducida, `𝓜` aporta ecuación de conversión, `Γ` permite lectura factual y `F` delimita el régimen de comparación. Si `m=D_C`, la relación compara coordenadas cosmológicas de modelo; si `m=D_L`, compara retornos de luminosidad; si `m=D_A`, compara relación angular; si `m=z`, compara desplazamiento espectral, no separación espacial; si `m=DistInter^{SV}_{a,b}`, compara perfiles factuales. La definición exige que el resultado vuelva al dominio físico como una comparación inteligible. Si la salida sólo dice “más lejos” o “más cerca” sin magnitud, el residual de definición queda activo.
+
+## XI.2. Par ordenado de observables `(𝒪_i,𝒪_j)`
+
+El par `(𝒪_i,𝒪_j)` no debe tratarse como conjunto indiferenciado cuando la relación tenga dirección, ruta, transmisión o dependencia de modelo. En distancia física simétrica, como una separación comóvil bajo la misma cosmología, el orden puede no alterar el valor; en retorno luminoso, transmisión, ruta de calibración, lente o comparación de perfiles, el orden puede conservar información operativa. Por eso se distingue entre relación simétrica `Rel_m({𝒪_i,𝒪_j})` y relación ordenada `Rel_m(𝒪_i→𝒪_j)`. Dos observables pueden compartir redshift parecido y no estar próximos angularmente; pueden tener distancias de luminosidad parecidas y tamaños físicos distintos; pueden tener perfiles SV divergentes aunque el modelo físico los sitúe en un rango similar. El par ordenado obliga a declarar qué se compara y desde qué dirección de lectura.
+
+## XI.3. Métrica homogénea o transductor obligatorio
+
+Toda distancia relativa exige métrica homogénea o transductor. La homogeneidad significa que ambos observables se comparan con la misma magnitud, unidad, modelo y régimen: `D_C(𝒪_i)-D_C(𝒪_j)`, `D_L(𝒪_i)-D_L(𝒪_j)`, `z_i-z_j`, `θ_i-θ_j` o `DistInter^{SV}_{i,j}(Γ)` bajo trayectoria común. Cuando las magnitudes no son homogéneas, el transductor debe justificar la equivalencia: comparar `D_L` con `D_A` requiere una relación cosmológica; comparar redshift con distancia requiere `𝓜`; comparar señal física con distancia factual requiere `Φ`, `Γ` y residual. Si no hay homogeneidad ni transductor, la comparación queda no apta aunque los números parezcan compatibles. Esta regla será usada en bancos negativos para detectar mezclas de columnas aparentemente inocentes.
+
+## XI.4. Distancia relativa entre galaxias
+
+La distancia relativa entre galaxias admite varias lecturas, cada una con alcance distinto. `Δz=z_i-z_j` compara retorno espectral; `ΔD_C=D_C(𝒪_i)-D_C(𝒪_j)` compara coordenada cosmológica bajo modelo; `ΔD_L` compara retorno de luminosidad; `ΔD_A` compara relación angular-forma; una separación tridimensional exige además posición angular y geometría; y una comparación dinámica exige saber si las galaxias son comóviles, ligadas o peculiares. El SV no acepta “galaxia A está más lejos que galaxia B” sin especificar qué distancia. Una galaxia puede tener mayor `D_L` y, en ciertos regímenes, relación angular no intuitiva; puede tener redshift mayor y estar afectada por lente; puede estar en un cúmulo donde la expansión de fondo no sea la dinámica dominante. La distancia relativa galáctica queda apta sólo cuando la magnitud y el régimen se declaran.
+
+## XI.5. Distancia relativa entre retornos luminosos
+
+Los retornos luminosos pueden compararse por flujo, luminosidad inferida, módulo de distancia, corrimiento al rojo, color, espectro, atenuación, magnificación por lente o tiempo de llegada. La distancia relativa entre retornos no es necesariamente distancia física entre fuentes: dos señales pueden diferir mucho en flujo por luminosidad intrínseca, polvo, lente o orientación, no sólo por separación cosmológica. En SV, cada retorno se representa como `Φ_ret,i` y `Φ_ret,j`; la comparación puede hacerse por magnitud física `m` o por perfil factual sobre trayectoria común. Si se comparan flujos, el retorno físico debe declarar luminosidad intrínseca o calibración; si se comparan redshifts, debe declararse modelo para traducirlos; si se comparan perfiles SV, debe existir frontera común. La relación queda no apta cuando se toma diferencia de brillo como distancia sin controlar fuente y medio.
+
+## XI.6. Distancia relativa entre firmas espectrales
+
+La distancia relativa entre firmas espectrales se formula mediante diferencias de longitud de onda, redshift, líneas identificadas, anchura, desplazamiento, absorción o patrón de emisión. Su uso cosmológico es fuerte porque una línea con longitud de onda de reposo conocida permite obtener `z`; sin embargo, la comparación espectral no es automáticamente separación espacial. Dos objetos con firmas espectrales próximas pueden estar separados angularmente, pertenecer a estructuras distintas o estar afectados por velocidades peculiares; dos firmas diferentes pueden proceder de transiciones distintas y no de distinta distancia. En SV, cada firma se tipa como `Φ_λ` con transición, reposo, observación y residual de identificación. La comparación queda apta si las líneas son homólogas o si el transductor declara equivalencia; queda no apta si se comparan líneas no identificadas o transiciones distintas como si fueran la misma magnitud.
+
+## XI.7. Distancia relativa entre modelos físicos
+
+La distancia relativa entre modelos físicos no compara galaxias, sino salidas de teorías o parametrizaciones para el mismo observable. Puede definirse como `Δ_𝓜(m;𝒪)=|m_{𝓜_1}(𝒪)-m_{𝓜_2}(𝒪)|` cuando ambos modelos producen la misma magnitud `m` con unidades compatibles. Así puede compararse `D_L` bajo ΛCDM y bajo un modelo `w_0-w_a`, `H_0^{local}` frente a `H_0^{CMB}`, o `D_C(z)` bajo curvatura distinta. Esta distancia es de modelo, no de objeto. Su valor informa sobre sensibilidad de la inferencia y residual entre marcos. En SV se absorbe como comparación instrumental si conserva columnas; queda rechazada si se usa para declarar verdadera una cosmología por mera cercanía numérica o para mezclar salidas de distinta magnitud. La distancia entre modelos será clave para absorciones parciales.
+
+## XI.8. Distancia relativa SV por perfiles de cambio factual
+
+La distancia relativa SV por perfiles se expresa mediante `DistInter^{SV}_{i,j}(Γ)=Σ|d^{SV}_{Φ_i}(S_{k+1},S_k)-d^{SV}_{Φ_j}(S_{k+1},S_k)|`. Su objeto no es la separación métrica entre fuentes, sino la discrepancia acumulada entre cambios de observables sobre una trayectoria común. Puede aplicarse a dos retornos espectrales procesados bajo la misma secuencia, a dos rutas de calibración, a dos modelos evaluados sobre el mismo banco, o a dos campos admitidos vinculados con señales cosmológicas. La condición central es trayectoria común. Si `Γ_i≠Γ_j` y no hay transductor que las ponga en correspondencia, la distancia intercampo no se calcula. La fuerza de esta magnitud es que detecta diferencias de perfil aunque los extremos coincidan: dos modelos pueden dar el mismo `D_L` final y, sin embargo, recorrer perfiles internos distintos.
+
+## XI.9. Distancia relativa física por magnitudes cosmológicas
+
+La distancia relativa física por magnitudes cosmológicas exige declarar una función `Rel_m` específica. Para redshift, `Rel_z(𝒪_i,𝒪_j)=|z_i-z_j|`; para distancia comóvil, `Rel_C=|D_C(z_i;𝓜)-D_C(z_j;𝓜)|`; para luminosidad, `Rel_L=|D_L(𝒪_i)-D_L(𝒪_j)|`; para distancia angular, `Rel_A=|D_A(𝒪_i)-D_A(𝒪_j)|`; para velocidades recesionales, `Rel_v=|H(t_i)D_i-H(t_j)D_j|` sólo si el modelo permite comparar épocas o regímenes. Cada fórmula conserva unidad y dominio. No hay una `Rel` universal que sirva para todo. La comparación física será apta cuando `m` sea común, `𝓜` sea único o transducido, y el retorno sea inteligible; será parcial si los modelos son distintos pero comparables; será no apta si las magnitudes se mezclan.
+
+## XI.10. Residual relativo `Δ_rel`
+
+El residual relativo se define como `Δ_rel(𝒪_i,𝒪_j;m)=Δ_pair⊕Δ_m⊕Δ_u⊕Δ_𝓜⊕Δ_Γ⊕Δ_F⊕Δ_ret`, donde `Δ_pair` detecta falta de identidad de alguno de los observables, `Δ_m` detecta magnitud no homogénea, `Δ_u` detecta unidad incompatible, `Δ_𝓜` detecta mezcla de modelos sin transductor, `Δ_Γ` detecta ausencia de trayectoria común cuando se usa perfil SV, `Δ_F` detecta frontera distinta no declarada y `Δ_ret` detecta salida física defectuosa. La condición de comparación plena queda `Δ_rel=0`. Si `Δ_rel≠0`, la diferencia numérica puede existir, pero no constituye distancia relativa válida. Esta distinción protege casos frecuentes: restar redshifts de objetos con identificación dudosa, comparar distancias de luminosidad obtenidas con modelos distintos, o usar perfiles SV sin trayectoria común.
+
+## XI.11. Teorema de comparación legítima entre observables
+
+Teorema: dos observables cosmológicos sólo admiten distancia relativa plena si comparten magnitud y régimen o si existe transductor que conserve sus invariantes. Demostración: una distancia relativa requiere que el resultado tenga significado físico y retorno SV. Si los observables usan magnitudes distintas, el resultado carece de unidad común; si usan modelos distintos sin transductor, el resultado mezcla hipótesis; si usan trayectorias distintas en `DistInter^{SV}`, el perfil no es comparable; si uno de los observables carece de identidad, el par no queda definido. En cada caso se activa al menos una compuerta de `Δ_rel`. Si, por el contrario, magnitud, unidad, modelo, trayectoria y frontera son comunes, o si un transductor los pone en correspondencia sin residual, entonces `Δ_rel=0` y la comparación queda legitimada. Luego la homogeneidad o el transductor son condición necesaria y suficiente para distancia relativa plena. Q.E.D.
+
+## XI.12. Tabla de pares observacionales
+
+| Par | Magnitud común | Fórmula relativa | Condición de aptitud | Error típico | Dictamen |
+|:---|:---|:---|:---|:---|:---:|
+| Galaxia A / galaxia B | `z` | `|z_A-z_B|` | Líneas comparables y redshift fiable | Tomar `Δz` como distancia espacial directa | APTO condicionado |
+| Galaxia A / galaxia B | `D_C` | `|D_C(z_A)-D_C(z_B)|` | Mismo modelo cosmológico | Parámetros distintos sin declarar | APTO |
+| Galaxia A / galaxia B | Separación 3D | Función de `D_C` y ángulo | Coordenadas y geometría | Ignorar separación angular | APTO condicionado |
+| Supernova A / supernova B | `D_L` | `|D_L^A-D_L^B|` | Calibración homogénea | Mezclar calibradores | APTO condicionado |
+| Cefeida / TRGB | Distancia local | Diferencia por escalera | Anclajes y población declarados | Promediar rutas sin residual | PARCIAL |
+| CMB / escalera local | `H_0` | `|H_0^{CMB}-H_0^{local}|` | Rutas separadas | Tratarlas como una medición única | PARCIAL |
+| BAO radial / BAO transversal | `H(z)`, `D_M` | Comparación por modelo | Covarianza y `r_d` declarados | Usar escala sin modelo | APTO condicionado |
+| Lente / fuente | `D_A` | Relaciones angular-distancia | Modelo de masa y redshifts | Omitir degeneración de lente | APTO/PARCIAL |
+| Retorno luminoso A / B | Flujo | `|F_A-F_B|` | Luminosidad o calibración | Usar flujo como distancia | NO_APTO si falta calibración |
+| Firma espectral A / B | Línea homóloga | `|z_A-z_B|` | Transición identificada | Comparar líneas distintas | NO_APTO |
+| Modelo ΛCDM / `w_0-w_a` | `D_L(z)` | `|D_L^{ΛCDM}-D_L^{w}|` | Misma entrada `z` | Cambiar datos de entrada | APTO/PARCIAL |
+| Perfil SV A / B | `d^{SV}_Φ` | `DistInter^{SV}_{A,B}(Γ)` | Trayectoria común | `Γ_A≠Γ_B` | APTO/NO_APTO |
+| Observable / origen formal | `D_abs^{SV}` | `Rel_SV(Φ,0_SV)` | Origen no espacializado | Leerlo como Big Bang físico | APTO formal/NO_APTO |
+| Totalidad / observable | Ninguna | No definida | No hay par físico | Medir la totalidad como objeto | NO_APTO |
+
+# XII. Teoremas centrales
+
+Los teoremas centrales fijan las invariantes que gobiernan la distancia absoluta formal, la distancia relativa entre observables, la absorción de cosmología contemporánea y el rechazo de las formulaciones que convierten la totalidad en objeto métrico. No introducen axiomas ni sustituyen el trabajo de banco; condensan las consecuencias necesarias de las definiciones ya establecidas: observable admisible, magnitud tipada, transductor bidireccional, residual compuesto, retorno físico y separación entre completitud estructural y expansión de modelo. Cada teorema opera con una función precisa dentro del desarrollo. Los primeros bloquean errores de plano; los intermedios fijan la relación entre corrimiento, distancia, velocidad y modelo; los últimos garantizan que el cierre sea falsable por negativos y no por confianza verbal en una teoría externa o en una formulación SV.
+
+## XII.1. Teorema 1 — No medibilidad de la totalidad absoluta como distancia física
+
+Teorema: la totalidad absoluta no admite distancia física ordinaria. Demostración: toda distancia física ordinaria exige al menos dos términos distinguibles dentro de un dominio métrico, una unidad, una regla de medición, una frontera y un observador interno o externo al par medido; si la totalidad absoluta se toma como uno de los términos, el segundo término debe estar fuera de ella o dentro de ella. Si está fuera, la totalidad deja de ser total; si está dentro, la relación ya no mide la totalidad sino un contenido interno. Además, medir la totalidad como cuerpo exigiría exterior, borde y métrica superior, ninguno de los cuales pertenece al dominio declarado. Por tanto, la expresión “distancia de la totalidad” activa `Δ_Ω=1` y `Δ_ret=1`. La totalidad puede funcionar como completitud estructural, pero no como objeto físico medible por distancia. Q.E.D.
+
+## XII.2. Teorema 2 — Legitimidad de la distancia entre observables físicos declarados
+
+Teorema: la distancia entre observables físicos declarados es legítima si conserva dominio, magnitud, unidad, modelo, frontera y retorno. Demostración: sean `𝒪_i` y `𝒪_j` dos observables con identidad física, firma de retorno y magnitud común `m` o transductor válido. Si existe modelo `𝓜`, ecuación `𝓔`, unidad `u`, trayectoria `Γ`, frontera `F` y residual `Δ_rel=0`, entonces la comparación produce una salida física inteligible y una lectura SV sin defecto de tipo. Si falta cualquiera de esos componentes, se activa al menos una compuerta de `Δ_rel`, y la relación numérica no basta para constituir distancia válida. Luego la distancia entre observables no queda prohibida por la crítica a la totalidad; queda legitimada exactamente cuando el par interno está tipado. Q.E.D.
+
+## XII.3. Teorema 3 — No equivalencia entre corrimiento al rojo y distancia sin modelo
+
+Teorema: el corrimiento al rojo `z` no equivale a distancia sin modelo cosmológico declarado. Demostración: `z` es una magnitud espectral adimensional definida por la relación entre longitud de onda observada y emitida; una distancia física como `D_C`, `D_L`, `D_A` o `D_P` posee unidad de longitud y depende de una ecuación de conversión que incluye `H(z)`, parámetros cosmológicos, curvatura o relaciones flujo-luminosidad/tamaño-ángulo. Si se identifica `z` con distancia, una magnitud adimensional sustituye a una magnitud de longitud y se activa `Δ_m=1` y `Δ_u=1`. Si se introduce `𝓜` y se calcula una distancia por su ecuación propia, `z` puede funcionar como entrada válida. Por tanto, `z` es retorno espectral y entrada de modelo, no distancia por sí mismo. Q.E.D.
+
+## XII.4. Teorema 4 — No equivalencia entre velocidad recesional y velocidad ordinaria universal
+
+Teorema: la velocidad recesional `v_rec=H(t)D_P(t)` no equivale a velocidad ordinaria universal de una galaxia atravesando espacio fijo. Demostración: una velocidad ordinaria local se define dentro de un régimen cinemático local y se somete a las restricciones de movimiento relativo en espacio-tiempo local; la velocidad recesional cosmológica expresa tasa de variación de separación propia bajo una métrica de modelo y depende de `H(t)` y de la distancia considerada. Esa magnitud puede describir separaciones internas de observables comóviles sin representar movimiento local de cada galaxia. Si se igualan ambas, se sustituye magnitud de modelo por velocidad local y se activa `Δ_m=1`. Si se conserva su tipo, `v_rec` puede ser absorbida como magnitud derivada de modelo. Luego toda afirmación sobre velocidad galáctica exige distinguir velocidad peculiar, radial observacional y recesional. Q.E.D.
+
+## XII.5. Teorema 5 — No expansión de la totalidad como objeto físico interno
+
+Teorema: la expansión cosmológica de separaciones internas no implica expansión de la totalidad como objeto físico. Demostración: la expansión física de modelo se formula mediante cambio del factor de escala y crecimiento de separaciones propias entre observables comóviles internos; la expansión de una totalidad como objeto exigiría que esa totalidad estuviera dentro de un dominio mayor, con exterior, borde, métrica superior y relación con algo distinto de ella. La primera estructura está definida en `Ω^{dist}_{FC}`; la segunda no pertenece al dominio de observables ni al dominio formal de completitud. Identificar ambas activa `Δ_Ω=1` por sustitución de par interno por totalidad y `Δ_ret=1` por imposibilidad de retorno físico. Luego el crecimiento de separaciones internas puede ser absorbido sin aceptar expansión de la totalidad absoluta. Q.E.D.
+
+## XII.6. Teorema 6 — Absorción instrumental de ΛCDM bajo dominio declarado
+
+Teorema: ΛCDM queda absorbido instrumentalmente cuando se usa para calcular magnitudes internas bajo dominio declarado. Demostración: ΛCDM aporta parámetros, ecuaciones y relaciones para `H(z)`, `D_C`, `D_M`, `D_L`, `D_A`, edad de mirada atrás, aceleración de escala y comparación de observables; si esas magnitudes se usan con unidad, régimen, parámetros y frontera, entran en `Ω^{dist}_{FC}` y el transductor puede proyectarlas al SV sin defecto. Esa absorción no convierte ΛCDM en fundamento de la totalidad ni en origen formal, porque el modelo opera sobre relaciones internas entre observables. Si ΛCDM se usa como ontología total, se activa error de plano; si se usa como modelo instrumental, el residual puede anularse. Luego ΛCDM es absorbible por dominio, no soberano por nombre. Q.E.D.
+
+## XII.7. Teorema 7 — Absorción parcial de tensiones cosmológicas como residuales de dominio
+
+Teorema: las tensiones cosmológicas, incluida la tensión de Hubble, se absorben parcialmente como residuales de dominio cuando las rutas de medición son competentes pero no coinciden. Demostración: si dos rutas producen la misma magnitud nominal, por ejemplo `H_0`, pero una procede de escalera local y otra de inferencia temprana bajo modelo, entonces comparten símbolo y unidad pero no dominio, calibración ni dependencia de hipótesis. Promediarlas sin tipado activa `Δ_𝓜=1`; rechazarlas por el mero desacuerdo ignora que cada ruta puede ser válida dentro de su dominio. La forma correcta es conservar ambas entradas, definir residual de ruta `Δ_H=|H_0^{local}-H_0^{CMB}|` con sus incertidumbres y devolver absorción parcial hasta cierre externo. Luego la tensión no es fallo lógico ni cierre favorable: es residual de dominio tipado. Q.E.D.
+
+## XII.8. Teorema 8 — Retorno físico controlado de toda distancia absorbida
+
+Teorema: ninguna distancia queda absorbida si no puede retornar al dominio físico con la misma magnitud, unidad y alcance. Demostración: la transducción física → SV puede producir una lectura interna de un observable; sin embargo, si la salida SV no vuelve como `D_L`, `D_A`, `D_C`, `z`, `H_0`, `v_rec`, `t_L` o la magnitud que entró, entonces el proceso ha cambiado el tipo de la afirmación. Ese cambio activa `Δ_ret=1`. Si, por el contrario, la salida vuelve como la misma magnitud física y conserva régimen, unidad, incertidumbre y frontera, el retorno queda controlado. Por tanto, el retorno físico no es un complemento editorial, sino condición necesaria de absorción. Toda distancia absorbida debe poder expresarse de nuevo en el lenguaje físico que permitió medirla. Q.E.D.
+
+## XII.9. Teorema 9 — Error cero de plano, definición y transducción
+
+Teorema: el cierre fuerte exige error cero de plano, definición y transducción, aunque admita incertidumbre física declarada. Demostración: una medición cosmológica puede contener barras de error, covarianza, dispersión intrínseca, incertidumbre de calibración o dependencia de modelo sin perder validez, siempre que esas incertidumbres pertenezcan al dominio físico declarado. En cambio, confundir `z` con distancia, `D_L` con `D_A`, `v_rec` con velocidad local, horizonte observable con borde absoluto o `0_SV` con Big Bang no es incertidumbre física: es error de tipo. La incertidumbre física entra como `R_phys`; el error de tipo activa compuertas de `Δ^{SV↔FC}_{dist}`. Si las compuertas de plano, definición y transducción se anulan, el caso puede ser apto con incertidumbre física; si no se anulan, no puede haber cierre pleno. Q.E.D.
+
+## XII.10. Teorema 10 — Falsabilidad por bancos negativos
+
+Teorema: la fórmula directriz es falsable por bancos negativos si un caso diseñado para romper dominio, magnitud, unidad, ecuación, régimen, transducción o retorno no activa el defecto correspondiente. Demostración: `Δ^{SV↔FC}_{dist}` declara compuertas específicas; por tanto, un banco negativo puede introducir deliberadamente `v=cz` en alto `z`, igualdad falsa `D_L=D_A`, mezcla de `H_0^{local}` y `H_0^{CMB}`, origen `(0,0)` espacializado, totalidad tratada como objeto o redshift sin modelo. Si el sistema devuelve `APTO` en cualquiera de esos casos, la compuerta falla y la fórmula queda refutada en su función de control. Si devuelve `NO_APTO` o `U` según corresponda, la fórmula supera el estrés. Luego la falsabilidad no depende de retórica externa: depende de que los negativos produzcan el defecto que la fórmula afirma detectar. Q.E.D.
+
+## XII.11. Corolarios de cierre
+
+Corolario 1: toda distancia física bien tipada puede ser absorbida sin que su modelo se convierta en fundamento de la totalidad. Corolario 2: toda formulación que mida la totalidad absoluta como objeto físico queda rechazada por error de plano. Corolario 3: el redshift es entrada espectral, no distancia directa. Corolario 4: la velocidad cosmológica exige magnitud declarada. Corolario 5: ΛCDM, Hubble-Lemaître, Friedmann, BAO, supernovas, CMB y JWST entran como dominios de contraste con distintos grados de absorción, no como autoridades indivisibles. Corolario 6: una tabla o laboratorio que no contenga negativos no prueba la fórmula directriz. Corolario 7: la marca `U` sólo permanece cuando faltan firma, ruta, modelo o banco después de agotar derivación y contraste. Corolario 8: el retorno físico controlado es obligatorio en todo cierre, porque sin retorno la transducción se convierte en lenguaje interno no verificable.
+
+# XIII. Bancos de contraste
+Los bancos de contraste convierten la fórmula directriz en una estructura verificable. Cada banco contiene una entrada física, una magnitud, una unidad, una condición de dominio, una proyección SV, un residual esperado y un dictamen. Su función no es ilustrar, sino obligar a que cada afirmación sobre distancia, separación, velocidad, retorno, origen o modelo se someta a una prueba explícita. Los bancos positivos verifican que una magnitud bien tipada queda absorbida; los bancos negativos verifican que una magnitud rota activa el defecto correspondiente; los bancos de indeterminación estructural verifican que la ausencia de firma no se cierre por preferencia. El criterio común será `Δ^{SV↔FC}_{dist}=0` para absorción plena, residual parcial declarado para absorción parcial, y defecto activo para rechazo.
+
+## XIII.1. Estatuto del banco: demostración, no decoración
+
+Un banco queda admitido si contiene entradas no triviales, heterogéneas y trazables. No basta una tabla de ejemplos favorables; cada bloque debe incluir casos aptos, casos parciales, casos no aptos y casos `U` cuando falte firma. La estructura obligatoria de cada fila será: identificador, observable o formulación, magnitud física, unidad, modelo o ecuación, transducción SV, residual activado o anulado y dictamen. Si una fila no declara magnitud, no entra en el banco. Si una fila no declara unidad, no entra en el banco. Si una fila no tiene negativo correspondiente, no prueba robustez. Si una fila produce dictamen favorable por ausencia de objeción, queda inválida. La demostración exige que el mismo aparato que acepta una distancia bien tipada rechace su versión mal tipada.
+
+## XIII.2. Banco B1 — Tipos de distancia cosmológica
+
+| ID | Entrada | Magnitud | Unidad | Condición de dominio | Proyección SV | Residual esperado | Dictamen |
+|:---:|:---|:---|:---:|:---|:---|:---:|:---:|
+| B1-01 | Galaxia con redshift y modelo ΛCDM | `D_C(z)` | Mpc | `H(z)` y parámetros declarados | `Φ_C` | 0 | APTO |
+| B1-02 | Supernova Ia calibrada | `D_L` | Mpc | Curva de luz, color, extinción | `Φ_L` | 0 | APTO |
+| B1-03 | Cúmulo con tamaño físico y ángulo | `D_A` | Mpc | Tamaño y ángulo declarados | `Φ_A` | 0 | APTO |
+| B1-04 | Redshift usado como distancia | `z → D` | — | Sin modelo | `Φ_z` mal retornada | `Δ_m, Δ_u, Δ_𝓔` | NO_APTO |
+| B1-05 | `D_L` igualada a `D_A` | `D_L=D_A` | Mpc | Falta factor cosmológico | Proyección colapsada | `Δ_m` | NO_APTO |
+| B1-06 | Distancia propia aplicada al Todo | `D_P(U_total)` | Mpc | Totalidad como objeto | No proyecta | `Δ_Ω, Δ_ret` | NO_APTO |
+| B1-07 | Candidato sin redshift confirmado | `D_C(z_phot)` | Mpc | Firma insuficiente | `Φ_z` incompleta | `Δ_pair` no cerrado | U |
+
+## XIII.3. Banco B2 — Corrimiento al rojo y distancia
+
+| ID | Entrada | Fórmula usada | Dominio | Error buscado | Residual | Dictamen |
+|:---:|:---|:---|:---|:---|:---:|:---:|
+| B2-01 | Línea identificada con `λ_obs` y `λ_emit` | `z=(λ_obs−λ_emit)/λ_emit` | Espectral | Ninguno | 0 | APTO |
+| B2-02 | `z` convertido en `D_C` con ΛCDM declarado | `D_C=c∫_0^z dz'/H(z')` | Cosmológico | Ninguno | 0 | APTO |
+| B2-03 | `z` convertido en distancia sin `H(z)` | `D=z` | Sin modelo | Redshift como distancia | `Δ_𝓔` | NO_APTO |
+| B2-04 | Dos líneas distintas comparadas como misma transición | `z_A−z_B` | Espectral roto | Identificación falsa | `Δ_m` | NO_APTO |
+| B2-05 | Redshift fotométrico degenerado | `z_phot` | Firma débil | Identidad insuficiente | No cerrado | U |
+| B2-06 | Redshift alto usado con `v=cz` | `v=cz` | Alto `z` | Aproximación local fuera de régimen | `Δ_reg` | NO_APTO |
+
+## XIII.4. Banco B3 — Hubble-Lemaître local frente a alto `z`
+
+| ID | Caso | `z` | Regla | Régimen | Resultado esperado | Dictamen |
+|:---:|:---|---:|:---|:---|:---|:---:|
+| B3-01 | Galaxia local corregida por peculiar | 0.005 | `v_rec≈H_0D` | Bajo `z` | Absorción local | APTO |
+| B3-02 | Galaxia local moderada | 0.03 | `v_rec≈H_0D` | Bajo `z` controlado | Absorción condicionada | APTO |
+| B3-03 | Galaxia intermedia | 0.5 | `v=cz` | Fuera de linealidad simple | Defecto de régimen | NO_APTO |
+| B3-04 | Galaxia temprana | 6 | `v=cz` | Alto `z` | Defecto de ecuación | NO_APTO |
+| B3-05 | Galaxia extrema JWST | 14 | `v=cz` | Alto `z` extremo | Defecto de régimen y retorno | NO_APTO |
+| B3-06 | Galaxia extrema con integral cosmológica | 14 | `D_C(z;𝓜)` | Modelo declarado | Absorción de distancia, no de velocidad local | APTO condicionado |
+
+## XIII.5. Banco B4 — ΛCDM como modelo instrumental
+
+| ID | Entrada | Magnitud | Parámetros | Uso | Residual | Dictamen |
+|:---:|:---|:---|:---|:---|:---:|:---:|
+| B4-01 | `D_C(z)` bajo ΛCDM plano | `D_C` | `H_0, Ω_m, Ω_Λ` | Distancia comóvil | 0 si parámetros constan | APTO |
+| B4-02 | `D_L(z)` bajo ΛCDM | `D_L` | `D_M(1+z)` | Retorno luminoso | 0 si calibración consta | APTO |
+| B4-03 | `D_A(z)` bajo ΛCDM | `D_A` | `D_M/(1+z)` | Tamaño angular | 0 si tamaño consta | APTO |
+| B4-04 | ΛCDM como prueba de expansión del Todo | Totalidad | No aplica | Fundamento total | `Δ_Ω, Δ_ret` | NO_APTO |
+| B4-05 | ΛCDM frente a tensión de Hubble | `H_0` | Ruta CMB | Residual de ruta | `Δ_H` declarado | PARCIAL |
+| B4-06 | ΛCDM con parámetros mezclados de otro modelo | `H(z)` | Incoherentes | Cálculo híbrido | `Δ_𝓜` | NO_APTO |
+
+## XIII.6. Banco B5 — Tensión de Hubble
+
+| ID | Ruta | Valor orientativo | Unidad | Dominio | Comparación | Dictamen |
+|:---:|:---|:---:|:---:|:---|:---|:---:|
+| B5-01 | CMB bajo ΛCDM | ~67–68 | km s⁻¹ Mpc⁻¹ | Temprano/modelo | Entrada separada | APTO condicionado |
+| B5-02 | Escalera local | ~73 | km s⁻¹ Mpc⁻¹ | Local/calibración | Entrada separada | APTO condicionado |
+| B5-03 | Diferencia de rutas | `|H_0^L−H_0^C|` | km s⁻¹ Mpc⁻¹ | Comparación tipada | Residual de tensión | PARCIAL |
+| B5-04 | Promedio sin ruta | Valor único | km s⁻¹ Mpc⁻¹ | Mezcla | Borra dominio | NO_APTO |
+| B5-05 | Elegir una ruta por preferencia | Una cifra | km s⁻¹ Mpc⁻¹ | Sesgo de dominio | Cierre no demostrado | NO_APTO |
+| B5-06 | Modelo nuevo contrastado con ambas rutas | `H_0` | km s⁻¹ Mpc⁻¹ | Doble banco | Residual evaluable | APTO/PARCIAL |
+
+## XIII.7. Banco B6 — Energía oscura constante y dinámica
+
+| ID | Modelo | Magnitud | Uso distancial | Residual crítico | Dictamen |
+|:---:|:---|:---|:---|:---:|:---:|
+| B6-01 | ΛCDM | `w=-1` | `H(z)` y distancias | 0 si se usa como término de modelo | APTO |
+| B6-02 | `w_0-w_a` | `w(a)=w_0+w_a(1−a)` | Contraste dinámico | Dependencia de datos | PARCIAL |
+| B6-03 | Energía oscura como causa verbal total | Sin ecuación | Explicación de todo distanciamiento | `Δ_𝓔, Δ_ret` | NO_APTO |
+| B6-04 | Indicio dinámico usado como destino definitivo | `w(z)` | Futuro cosmológico | Evidencia no cerrada | NO_APTO/PARCIAL |
+| B6-05 | Comparación ΛCDM vs `w(z)` para mismo `z` | `D_L(z)` | Distancia de modelo | Residual de modelo | APTO/PARCIAL |
+| B6-06 | `w(z)` sin dominio ni datos | Función libre | Ajuste narrativo | `Δ_Ω, Δ_𝓑` | NO_APTO |
+
+## XIII.8. Banco B7 — Galaxias JWST de alto corrimiento al rojo
+
+| ID | Entrada | Magnitudes | Requisito | Error buscado | Dictamen |
+|:---:|:---|:---|:---|:---|:---:|
+| B7-01 | Galaxia con espectro confirmado alto `z` | `z, D_L, D_C` | Espectro robusto y modelo | Ninguno | APTO condicionado |
+| B7-02 | Galaxia fotométrica candidata | `z_phot` | Confirmación pendiente | Cierre prematuro | U |
+| B7-03 | Galaxia temprana con masa alta inferida | Masa, `z`, población | Modelo estelar declarado | Tensión de formación | PARCIAL |
+| B7-04 | Galaxia JWST usada como refutación total de ΛCDM | Frase global | Banco ausente | Extrapolación | NO_APTO |
+| B7-05 | Galaxia extrema en banco de estrés | `z`, flujo, masa, selección | Incertidumbre visible | Estrés de modelo | APTO/PARCIAL |
+| B7-06 | Alto `z` usado como velocidad `cz` | `v=cz` | Alto `z` | Ecuación local | NO_APTO |
+
+## XIII.9. Banco B8 — Retornos luminosos y firmas espectrales
+
+| ID | Retorno | Firma | Magnitud | Condición de aptitud | Dictamen |
+|:---:|:---|:---|:---|:---|:---:|
+| B8-01 | Supernova Ia | Curva de luz | `D_L` | Calibración y extinción | APTO |
+| B8-02 | Línea Lyman-α | Transición identificada | `z` | Línea homóloga | APTO condicionado |
+| B8-03 | Bosque Lyman-α | Patrón de absorción | Estructura/BAO | Modelo de medio | APTO condicionado |
+| B8-04 | Línea 21 cm | Frecuencia HI | `z`, estructura | Señal robusta | APTO/PARCIAL |
+| B8-05 | Flujo débil sin fuente calibrada | `F` | Flujo | Sin luminosidad intrínseca | U/PARCIAL |
+| B8-06 | Dos líneas no identificadas comparadas | `Δλ` | Espectral | Transición desconocida | NO_APTO |
+| B8-07 | Lente con magnificación no modelada | Flujo alterado | `D_L` aparente | Falta modelo de lente | U/PARCIAL |
+
+## XIII.10. Banco B9 — Distancia absoluta frente a origen formal
+
+| ID | Formulación | Origen | Magnitud | Defecto esperado | Dictamen |
+|:---:|:---|:---|:---|:---:|:---:|
+| B9-01 | Observable tipado frente a `0_SV` | Formal | `D_abs^{SV}` | 0 | APTO formal |
+| B9-02 | Galaxia a X Mpc de `(0,0)` | Espacializado | Longitud | `Δ_{esp0}` | NO_APTO |
+| B9-03 | `(0,0)` como Big Bang físico | Temporalizado | Tiempo/estado | `Δ_{id0}, Δ_{temp0}` | NO_APTO |
+| B9-04 | CMB como retorno temprano | Formal no espacial | `z, t_L` físicos | 0 si no es borde del Todo | APTO condicionado |
+| B9-05 | CMB como pared absoluta | Físico absoluto | Horizonte | `Δ_ret0` | NO_APTO |
+| B9-06 | Candidato sin firma frente a `0_SV` | Formal | No cerrada | Falta identidad | U |
+
+## XIII.11. Banco B10 — Distancia relativa entre observables
+
+| ID | Par | Magnitud común | Relación | Residual esperado | Dictamen |
+|:---:|:---|:---|:---|:---:|:---:|
+| B10-01 | Dos galaxias con mismo modelo | `D_C` | `|D_C^a−D_C^b|` | 0 | APTO |
+| B10-02 | Dos supernovas calibradas | `D_L` | `|D_L^a−D_L^b|` | 0 | APTO |
+| B10-03 | Dos firmas homólogas | `z` | `|z_a−z_b|` | 0 si líneas constan | APTO condicionado |
+| B10-04 | `D_L` de A contra `D_A` de B | Mixta | Resta impropia | `Δ_m` | NO_APTO |
+| B10-05 | Dos perfiles SV con trayectoria común | `d^{SV}_Φ` | `DistInter` | 0 si `Γ` común | APTO |
+| B10-06 | Dos perfiles SV con trayectorias distintas | `d^{SV}_Φ` | `DistInter` mal definido | `Δ_Γ` | NO_APTO |
+| B10-07 | Observable físico contra totalidad | Ninguna | No definida | `Δ_Ω` | NO_APTO |
+
+## XIII.12. Banco B11 — Casos de rechazo por error de plano
+
+| ID | Formulación rechazada | Error de plano | Compuerta activada | Corrección admisible |
+|:---:|:---|:---|:---:|:---|
+| B11-01 | “El Universo se aleja” | Totalidad como objeto móvil | `Δ_Ω` | Separación entre observables |
+| B11-02 | “El Universo crece en un exterior” | Exterior no declarado | `Δ_Ω, Δ_ret` | Métrica interna de modelo |
+| B11-03 | “El borde observable es el borde del Todo” | Horizonte como límite absoluto | `Δ_ret` | Frontera de retorno |
+| B11-04 | “El Big Bang es `(0,0)`” | Origen formal fisicalizado | `Δ_{id0}` | Régimen temprano separado |
+| B11-05 | “La velocidad aumenta” | Magnitud no declarada | `Δ_m` | Declarar `H`, `ȧ`, `ä`, `v_rec` |
+| B11-06 | “`z` mide distancia” | Magnitud espectral como longitud | `Δ_m, Δ_u` | Redshift + modelo |
+| B11-07 | “JWST refuta todo por sí solo” | Retorno extremo como cierre global | `Δ_𝓑` | Banco de estrés |
+
+## XIII.13. Banco B12 — Casos U por insuficiencia de firma o residual
+
+| ID | Caso | Dato faltante | Por qué no se rechaza | Salida exigida |
+|:---:|:---|:---|:---|:---|
+| B12-01 | Galaxia fotométrica sin espectro | Redshift robusto | Puede ser fuente real | Nueva firma espectral |
+| B12-02 | Fuente lensada con masa de lente mal ajustada | Modelo de lente | La fuente puede ser válida | Modelo de masa |
+| B12-03 | Señal de 21 cm marginal | Confirmación instrumental | Puede ser señal física | Repetición/confirmación |
+| B12-04 | Línea espectral dudosa | Identificación de transición | Puede ser línea distinta | Identificación homóloga |
+| B12-05 | Supernova sin calibración suficiente | Curva o extinción | Puede ser candela utilizable | Calibración |
+| B12-06 | Tensión de modelo sin covarianza | Matriz de incertidumbre | Puede ser tensión real | Covarianza declarada |
+| B12-07 | Objeto confundido por blending | Separación de fuentes | Puede contener observable admisible | Deconvolución |
+
+## XIII.14. Banco B13 — Absorciones totales, parciales y rechazos
+
+| Clase | Condición formal | Ejemplo físico | Residual | Resultado |
+|:---|:---|:---|:---:|:---:|
+| Absorción total | Todas las compuertas anulan | `D_L` de supernova calibrada | 0 | APTO |
+| Absorción total | Modelo y unidad declarados | `D_C(z)` bajo ΛCDM | 0 | APTO |
+| Absorción parcial | Ruta válida con tensión | `H_0^{local}` vs `H_0^{CMB}` | `Δ_H` declarado | PARCIAL |
+| Absorción parcial | Retorno extremo tensiona formación | Galaxia JWST masiva | Residual de modelo | PARCIAL |
+| Absorción parcial | Energía oscura dinámica no cerrada | `w(z)` | Evidencia dependiente | PARCIAL |
+| Rechazo | Error de magnitud | `z=D` | `Δ_m` | NO_APTO |
+| Rechazo | Error de origen | `(0,0)=Big Bang` | `Δ_{id0}` | NO_APTO |
+| Rechazo | Error de totalidad | Universo como cuerpo expansivo | `Δ_Ω` | NO_APTO |
+| U | Falta de firma | Candidato fotométrico | No cerrado | U |
+
+## XIII.15. Tabla maestra del banco completo
+
+| Banco | Núcleo probado | Positivos | Negativos | U | Métrica principal | Dictamen rector |
+|:---:|:---|---:|---:|---:|:---|:---:|
+| B1 | Tipos de distancia | 3 | 3 | 1 | `Δ_m, Δ_u` | Mixto |
+| B2 | Redshift | 2 | 3 | 1 | `Δ_𝓔` | Mixto |
+| B3 | Hubble local/alto `z` | 3 | 3 | 0 | `Δ_reg` | Mixto |
+| B4 | ΛCDM | 3 | 2 | 1 parcial | `Δ_𝓜` | Mixto |
+| B5 | Tensión de Hubble | 2 | 2 | 0 | `Δ_H` | PARCIAL |
+| B6 | Energía oscura | 2 | 2 | 2 parciales | `Δ_𝓔` | Mixto |
+| B7 | JWST | 2 | 2 | 1 | `Δ_𝓑` | Mixto |
+| B8 | Retornos luminosos | 4 | 1 | 2 | `Δ_ret` | Mixto |
+| B9 | Origen formal | 2 | 3 | 1 | `Δ_orig` | Mixto |
+| B10 | Distancia relativa | 4 | 3 | 0 | `Δ_rel` | Mixto |
+| B11 | Errores de plano | 0 | 7 | 0 | `Δ_Ω` | NO_APTO |
+| B12 | Insuficiencia de firma | 0 | 0 | 7 | `Δ_pair` | U |
+| B13 | Síntesis | 2 | 3 | 1 | `Δ^{SV↔FC}_{dist}` | Mixto |
+
+## XIII.16. Salida global esperada
+
+La salida global esperada es una matriz de dictamen que no colapse la diversidad de casos. Las distancias físicas bien tipadas deben devolver `APTO`; las tensiones entre rutas competentes deben devolver `PARCIAL`; las formulaciones que tratan la totalidad como objeto, `z` como distancia, `D_L` como `D_A`, `v=cz` en alto redshift o `(0,0)` como Big Bang deben devolver `NO_APTO`; los candidatos sin firma suficiente deben devolver `U` hasta nueva base. La fórmula directriz queda validada sólo si acepta lo que debe aceptar y rechaza lo que debe rechazar. Si un banco negativo obtiene `APTO`, falla el aparato. Si un banco positivo bien tipado obtiene `NO_APTO`, hay sobrebloqueo. Si un caso sin firma obtiene cierre favorable, hay cierre espurio. El resultado correcto es, por tanto, una distribución no uniforme de dictámenes, con error cero de plano y retorno físico controlado en cada fila apta.
+
+
+
