@@ -2464,5 +2464,286 @@ El fichero `datos/smoke_test.csv` contendrá cuatro casos: un apto, un parcial, 
 | `registros/MANIFIESTO_SHA256.txt` | Custodia | Sí | Ficheros no verificables |
 | `README.md` | Uso operativo | Sí | Paquete no autocontenible |
 
+# Anexo G. Matriz de integración serial con el corpus SV
 
+La matriz de integración serial fija cómo se inserta la distancia absoluta y relativa entre observables del Universo dentro del corpus SV sin duplicar operadores, sin alterar jerarquías ya cerradas y sin convertir una fórmula de correspondencia en fundamento autónomo. La cadena de prevalencia se conserva así: completitud y origen formal en la Teoría del TODO y de la NADA; primera distinguibilidad, espacio y retorno físico en la línea de imperfección preformal; campos, interacción, intercomposición y transmisión en la sede de `𝓘_SV`, `𝓣_SV`, distancia factual fibrosa y célula `SV(36,6)`; edades y retornos cosmológicos como transducción física de señales, objetos y magnitudes; agujero negro como caso de clausura extrema y no transmisibilidad; y, finalmente, distancia absoluta y relativa como compuerta de correspondencia entre observables cosmológicos y lectura SV. Esta matriz impide que `𝔛^{dist}_{SV↔FC}` se confunda con transductor universal, con métrica física nueva, con sustituto de Friedmann, con operador de interacción o con origen formal.
+
+## G.1. Regla de no duplicación
+
+La regla de no duplicación exige comprobar, antes de introducir cualquier forma nueva, si el trabajo queda cubierto por operadores ya existentes: `𝔛_SV` como familia de transductores de dominio, `d^{SV}_Φ` como distancia factual fibrosa local, `D^{SV}_Φ(Γ)` como distancia global de observable, `Δ^Φ_q` como defecto telescópico, `DistInter^{SV}_{a,b}(Γ)` como distancia entre perfiles, `𝓘_SV` como interacción entre campos, `𝓣_SV` como transmisión factual, `𝔗_SV` como transmutación, `Π_D` como proyección de dominio, y los residuales superiores de cierre. La distancia entre observables cosmológicos no necesita crear un operador de campo ni una nueva métrica universal; necesita una instancia restringida de correspondencia que conserve magnitud física y retorno. La novedad legítima no está en inventar una física paralela, sino en fijar una compuerta de tipado que impida mezclar redshift, distancia, velocidad, origen y totalidad.
+
+## G.2. Relación con la Teoría del TODO y de la NADA
+
+La Teoría del TODO y de la NADA aporta el techo formal que impide tratar la totalidad como objeto físico medible. Desde ese plano se heredan dos restricciones: la totalidad no comparece como cuerpo en un exterior y el origen formal no puede degradarse a punto espacial, instante físico o singularidad cosmológica. La distancia absoluta respecto de `0_SV` sólo es admisible como referencia formal restringida de un observable ya tipado; cualquier lectura como radio, centro o Big Bang activa `Δ_orig`. La relación correcta no dice que una galaxia esté a una longitud física del origen formal; dice que una galaxia con distancia física propia de su modelo puede, además, ordenarse formalmente frente a `0_SV` sin invadirlo. Así se conserva el techo doctrinal y se permite contraste físico.
+
+## G.3. Relación con imperfección preformal y espacio
+
+La línea de imperfección preformal y espacio aporta la separación entre origen formal, primera distinguibilidad, dominio estructural de separación y física constituida. Esta separación es decisiva para no confundir expansión métrica de modelo con expansión de la totalidad. Las distancias cosmológicas pertenecen a la física constituida: `D_C`, `D_L`, `D_A`, `D_P`, `z`, `H(z)` y `t_L` son magnitudes de retorno y modelo. El espacio como dominio estructural completo de separación factual recorrible no se reduce a coordenadas FLRW ni a un contenedor absoluto; permite que existan separaciones internas sin que la totalidad necesite desplazarse hacia un exterior. Por eso la absorción de distancias físicas no altera el estatuto del espacio SV: sólo declara qué magnitudes externas entran como retornos controlados.
+
+## G.4. Relación con interacción, intercomposición y transmisión entre campos
+
+La sede de interacción, intercomposición y transmisión entre campos aporta el aparato operativo para leer cambios, perfiles, trayectorias y relaciones dirigidas. `d^{SV}_Φ`, `D^{SV}_Φ(Γ)`, `Δ^Φ_q` y `DistInter^{SV}_{a,b}(Γ)` no se reescriben; se reutilizan como instrumentos de perfil cuando una señal cosmológica, una ruta de calibración o un modelo físico se representa como observable factual sobre una trayectoria común. La distancia absoluta y relativa entre observables no sustituye a `𝓘_SV` ni a `𝓣_SV`: cuando dos campos interactúan, gobierna `𝓘_SV`; cuando un estado se transmite, gobierna `𝓣_SV`; cuando dos observables cosmológicos se comparan por magnitud física o perfil factual, opera `𝔛^{dist}_{SV↔FC}` como compuerta de correspondencia. La distinción evita que una comparación cosmológica se convierta indebidamente en interacción de campos.
+
+## G.5. Relación con edades relativas del universo observable
+
+La línea de edades relativas aporta la disciplina de retorno luminoso, objeto físico, edad, distancia y unidad. De ella se conserva que una señal recibida no equivale a presencia total del objeto ni a edad absoluta de la totalidad. El tiempo de mirada atrás, la edad inferida de una galaxia, la distancia de luminosidad y el redshift pertenecen a un modelo físico que debe retornar con unidad y alcance. La distancia absoluta y relativa aprovecha esa disciplina para impedir que alto redshift signifique automáticamente origen, que mirada atrás signifique edad del Todo, o que distancia de luminosidad signifique separación absoluta respecto de `0_SV`. La continuidad es clara: edades ordena retornos temporales y objetuales; distancia ordena relaciones métricas, espectrales y formales entre esos retornos.
+
+## G.6. Relación con agujero negro y clausura sin resto exterior
+
+La sede de agujero negro aporta la disciplina de frontera, clausura, no transmisibilidad y retorno físico controlado. Su lección serial es que una frontera física extrema no autoriza a postular un exterior formulable ni a convertir lo no retornado en objeto disponible. En cosmología, el horizonte observable cumple una función análoga de prudencia: delimita retorno, no totalidad. El CMB, el horizonte de partículas, el horizonte de eventos o una frontera instrumental no son borde absoluto del Todo; son fronteras de señal, modelo o observación. La distancia entre observables hereda de agujero negro la regla de no invasión: si una magnitud física se agota en su frontera de retorno, no se prolonga verbalmente hasta una totalidad no medida. Así se impide que el horizonte se convierta en contenedor último.
+
+## G.7. Relación con campo unificado, Einstein–Bohr y transducción bidireccional
+
+La línea Einstein–Bohr y campo unificado aporta una disciplina de traducción bidireccional entre regímenes sin confundirlos. La enseñanza útil aquí no es el correlador angular ni la clase cuántica concreta, sino el principio: una proyección externa puede ser correcta dentro de su régimen sin fundar el aparato superior. De modo análogo, ΛCDM, BAO, CMB, supernovas, lentes y JWST pueden ser correctos como dominios físicos de medición sin convertirse en fundamento de la totalidad. `𝔛^{dist}_{SV↔FC}` exige ida y vuelta: si entra `D_L`, vuelve `D_L`; si entra `z`, vuelve `z` o distancia modelada; si entra `H_0`, vuelve ruta de `H_0`; si entra `0_SV`, no vuelve Big Bang. La bidireccionalidad es la garantía contra apropiación de plano.
+
+## G.8. Relación con protocampos y sucesos generadores
+
+La línea de sucesos generadores y protocampos aporta el plano de constitución de campos, concentración, canal, transmutación y aparición de magnitudes físicas dentro de dominios ya diferenciados. La distancia entre observables no crea un protocampo nuevo ni modifica el catálogo de campos; trabaja sobre retornos físicos y magnitudes cosmológicas constituidas. Cuando un observable cosmológico se expresa como perfil `Φ`, puede pasar por distancia factual fibrosa; cuando dos perfiles se comparan, puede usar `DistInter`; cuando una magnitud externa necesita correspondencia, pasa por `𝔛^{dist}_{SV↔FC}`. La integración con protocampos es, por tanto, subordinada y serial: los protocampos fijan profundidad de constitución; la distancia cosmológica fija control de lectura en un dominio físico ya constituido.
+
+## G.9. Relación con metrología SV↔SI
+
+La metrología SV↔SI aporta la obligación de no presentar magnitudes físicas sin unidad ni retorno. Toda distancia cosmológica que use `Mpc`, `Gpc`, `km s^{-1} Mpc^{-1}`, `Gyr`, flujo, frecuencia, longitud de onda o ángulo debe declarar unidad y, cuando corresponda, conversión. La distancia factual fibrosa no se confunde con megapársecs; una unidad interna SV no se usa como metro; `0_SV` no recibe unidad física. Esta disciplina es decisiva porque muchas formulaciones cosmológicas erróneas nacen al cambiar la unidad sin cambiar la palabra: `z` se pronuncia como distancia, `H_0` se pronuncia como velocidad, `t_L` se pronuncia como edad absoluta, `D_L` se pronuncia como separación geométrica directa. La metrología impide esos saltos.
+
+## G.10. Relación con bancos y laboratorios previos
+
+Los bancos y laboratorios previos del corpus fijan una norma material: todo cierre fuerte debe aceptar positivos, rechazar negativos, conservar parciales y mantener `U` cuando falte firma. La distancia entre observables adopta esa norma y la especializa en cosmología. Los bancos positivos demuestran que no se bloquea la física bien tipada; los negativos demuestran que no se aceptan extrapolaciones defectuosas; los parciales conservan tensiones de ruta o modelo; los `U` impiden cierre por preferencia. Esta integración serial evita dos errores simétricos: convertir el SV en una negativa general contra la cosmología contemporánea o convertir la cosmología contemporánea en un fundamento que el SV deba aceptar sin compuertas. El banco es el punto de equilibrio material entre ambos dominios.
+
+## G.11. Matriz de correspondencia con sedes del corpus
+
+| Sede del corpus | Aporta | Uso en distancia absoluta y relativa | Riesgo bloqueado |
+|:---|:---|:---|:---|
+| Teoría del TODO y de la NADA | Totalidad, Nada, origen formal, cierre de plano | Prohibición de medir la totalidad como objeto y de fisicalizar `0_SV` | Big Bang como `0_SV`, radio del Todo |
+| Imperfección preformal y espacio | Primera distinguibilidad, espacio, retorno físico | Separación entre espacio SV y métricas físicas de modelo | Contenedor absoluto, expansión de totalidad |
+| Interacción, intercomposición y transmisión | `d^{SV}_Φ`, `D^{SV}_Φ`, `Δ^Φ_q`, `DistInter`, `𝓘_SV`, `𝓣_SV` | Comparación de perfiles y trayectorias sin reinventar operadores | Confundir distancia cosmológica con interacción de campos |
+| Edades relativas | Retorno luminoso, objeto, edad, unidad física | Separar mirada atrás, edad de objeto y distancia | Retorno como edad absoluta |
+| Agujero negro | Frontera, clausura, no transmisibilidad | Tratar horizonte observable como frontera de retorno, no borde total | Horizonte como pared del Todo |
+| Campo unificado Einstein–Bohr | Traducción bidireccional y régimen | Exigir ida y vuelta física↔SV sin cambio de tipo | Proyección externa como fundamento |
+| Protocampos | Constitución de campos y magnitudes | Subordinar retornos cosmológicos a dominios constituidos | Crear protocampo nuevo innecesario |
+| Metrología SV↔SI | Unidad, equivalencia y retorno | Exigir unidades físicas y evitar mezclas | `z` como Mpc, `0_SV` con unidad física |
+| Bancos y laboratorios | Negativos, parciales, U, trazabilidad | Validar fórmula directriz por estrés material | Cierre favorable por ausencia de prueba |
+
+## G.12. Integración serial
+
+La integración serial queda cerrada por una regla única: ninguna magnitud cosmológica corrige una sede superior, ninguna sede superior sustituye una magnitud física bien definida y ningún transductor local adquiere rango universal por utilidad en un dominio. La física contemporánea conserva sus ecuaciones cuando están bien tipadas; el SV conserva su jerarquía cuando evita que esas ecuaciones invadan totalidad, origen formal o cierre doctrinal; los bancos conservan el arbitraje cuando fuerzan positivos y negativos; los laboratorios conservarán la custodia cuando materialicen datos y salidas. Así, la distancia absoluta y relativa entre observables del Universo queda integrada como anexo funcional del tramo de interacción, intercomposición y transmisión, con dependencia ascendente del corpus y retorno descendente al dominio físico contemporáneo. No se abre fundamento nuevo; se fija una compuerta de correspondencia con capacidad de aceptar, parcializar, rechazar o mantener `U` según residual.
+
+# Anexo H. Trazabilidad de fórmulas centrales, teoremas, bancos y compuertas
+
+La trazabilidad interna reúne las piezas que sostienen el cierre de distancia absoluta y relativa: fórmulas directrices, definiciones operativas, teoremas, bancos, negativos, catálogos, laboratorios y anexos técnicos. Su función es permitir que cada afirmación fuerte pueda localizarse en una fórmula, una condición, una compuerta o una prueba material. Si una tesis no puede conectarse con al menos una fórmula central, una definición, un teorema o un banco, no debe emplearse como cierre. La trazabilidad evita dos desviaciones simétricas: multiplicar fórmulas que ya derivan de otras de mayor rango y presentar conclusiones sin ruta de verificación. La regla de lectura queda fijada así: fórmula → dominio → residual → dictamen → banco → retorno físico; si falta alguno de estos pasos, la afirmación queda sin cierre material.
+
+## H.1. Fórmulas centrales de correspondencia
+
+La fórmula central de correspondencia es `𝔇^{SV↔FC}_{dist}(𝒪_i,𝒪_j;Γ,𝓜,𝓑)=0 ⇔ Δ^{SV↔FC}_{dist}(𝒪_i,𝒪_j;Γ,𝓜,𝓑)=0`, y su papel es gobernar toda distancia entre observables físicos o entre un observable y una referencia formal. No calcula por sí sola una distancia cosmológica externa; verifica que la distancia física, cuando entra desde su modelo, conserva dominio, unidad, ecuación, régimen y retorno. Sus dos restricciones derivadas son `𝔇^{SV↔FC}_{abs}(𝒪_i,0_SV;Γ,𝓜,𝓑)=0 ⇔ Δ_orig=0` para distancia absoluta formal, y `𝔇^{SV↔FC}_{rel}(𝒪_i,𝒪_j;m,𝓜,Γ,F)=0 ⇔ Δ_rel=0` para distancia relativa. La primera impide espacializar `0_SV`; la segunda impide comparar magnitudes heterogéneas. Ambas derivan de la fórmula directriz, no abren soberanía algebraica independiente.
+
+## H.2. Fórmulas de residual
+
+El residual rector es `Δ^{SV↔FC}_{dist}=Δ_Ω⊕Δ_m⊕Δ_u⊕Δ_𝓔⊕Δ_reg⊕Δ_T⊕Δ_ret⊕Δ_𝓑`. Sus extensiones locales son `Δ_orig=Δ_{id0}⊕Δ_{esp0}⊕Δ_{temp0}⊕Δ_{met0}⊕Δ_{ret0}` para origen formal, y `Δ_rel=Δ_pair⊕Δ_m⊕Δ_u⊕Δ_𝓜⊕Δ_Γ⊕Δ_F⊕Δ_ret` para comparación relativa. Estas fórmulas son compuertas, no sumas numéricas de conveniencia. `⊕` indica acumulación estructural de defectos; basta una compuerta formal crítica activa para impedir `APTO`. El residual físico competente, como `Δ_H` en tensión de Hubble o `Δ_𝓜` en comparación de modelos, puede conservar absorción parcial si no destruye tipo. La trazabilidad exige que cada dictamen nombre qué residual se anuló, cuál se activó o cuál quedó pendiente por falta de firma.
+
+## H.3. Fórmulas físicas externas conservadas
+
+Las fórmulas físicas externas conservadas son aquellas que el desarrollo no sustituye: `z=(λ_obs−λ_emit)/λ_emit` para redshift espectral; `D_C=c∫_0^z dz'/H(z')` como forma integral de distancia comóvil bajo modelo; `D_L=(1+z)D_M` y `D_A=D_M/(1+z)` como relaciones de distancia bajo condiciones cosmológicas declaradas; `D_P(t)=a(t)χ` como separación propia de modelo; `v_rec=H(t)D_P(t)` como velocidad recesional; y las parametrizaciones `w(a)=w_0+w_a(1−a)` o equivalentes como contraste dinámico. La trazabilidad impone que estas fórmulas mantengan dominio físico externo. Ninguna de ellas se convierte en origen formal, fundamento de totalidad o prueba de expansión de un cuerpo universal. La absorción SV verifica su uso, no las reescribe.
+
+## H.4. Fórmulas SV reutilizadas sin duplicación
+
+Las fórmulas SV reutilizadas son `d^{SV}_Φ(S_{k+1},S_k)=|Φ(S_{k+1})−Φ(S_k)|`, `D^{SV}_Φ(Γ)=|Φ(S_r)−Φ(S_l)|`, `Δ^Φ_q=ζ_SV(|D^{SV}_Φ(Γ)−Σd^{SV}_Φ|)` y `DistInter^{SV}_{a,b}(Γ)=Σ|d^{SV}_{Φ_a}(S_{k+1},S_k)−d^{SV}_{Φ_b}(S_{k+1},S_k)|`. Su función aquí es leer cambios, perfiles y discrepancias de trayectoria cuando un observable físico o una ruta de modelo se ha proyectado como `Φ`. No son distancias en megapársecs, no sustituyen `D_C`, `D_L` o `D_A`, y no calculan redshift. La integración correcta es serial: física mide y modeliza; el transductor tipa; las fórmulas SV controlan perfil y residual; el retorno devuelve magnitud física. Usarlas como métrica externa directa activaría `Δ_ret`.
+
+## H.5. Trazabilidad de teoremas
+
+| Teorema | Núcleo | Fórmula o compuerta asociada | Banco principal | Riesgo que bloquea |
+|:---:|:---|:---|:---|:---|
+| T1 | No medibilidad de la totalidad absoluta | `Δ_Ω`, `Δ_ret` | B11, N4 | Totalidad como objeto físico |
+| T2 | Legitimidad de distancia entre observables | `Δ_rel=0` | B10 | Rechazo excesivo de física bien tipada |
+| T3 | `z` no equivale a distancia sin modelo | `Δ_m`, `Δ_u`, `Δ_𝓔` | B2, N1, E-DIST-03 | Redshift como longitud |
+| T4 | `v_rec` no equivale a velocidad local universal | `Δ_m`, `Δ_reg` | B3, N1, E-DIST-05 | `v=cz` fuera de dominio |
+| T5 | No expansión de totalidad como objeto | `Δ_Ω` | B11, N4 | Universo como cuerpo en exterior |
+| T6 | ΛCDM absorbido instrumentalmente | `Δ_𝓜`, `Δ_ret` | B4, LAB-07 | Modelo físico como fundamento |
+| T7 | Tensiones como residuales de dominio | `Δ_H` | B5, LAB-08 | Promedio ilegítimo de rutas |
+| T8 | Retorno físico obligatorio | `Δ_ret` | LAB-05, LAB-06 | Lenguaje interno no retornado |
+| T9 | Error cero de plano con incertidumbre física | `Δ^{SV↔FC}_{dist}` | B13, LAB-11 | Confundir incertidumbre con error de tipo |
+| T10 | Falsabilidad por negativos | `Δ_𝓑` | N1–N10, LAB-10 | Cierre no adversarial |
+
+## H.6. Trazabilidad de bancos
+
+Los bancos B1–B13 se distribuyen por función. B1 prueba tipos de distancia; B2 prueba redshift y distancia; B3 prueba Hubble local frente a alto `z`; B4 prueba ΛCDM instrumental; B5 prueba tensión de Hubble; B6 prueba energía oscura constante y dinámica; B7 prueba JWST y alto redshift; B8 prueba retornos luminosos y firmas espectrales; B9 prueba origen formal; B10 prueba distancia relativa; B11 prueba errores de plano; B12 prueba casos `U`; B13 sintetiza absorciones, parciales y rechazos. La trazabilidad exige que cada conclusión final remita a uno de estos bancos. Por ejemplo, “`z` no es distancia directa” remite a B2 y N1; “ΛCDM se absorbe instrumentalmente” remite a B4; “la totalidad no se mide como objeto” remite a B11; “la tensión de Hubble queda parcial” remite a B5; “JWST es banco extremo, no refutación total” remite a B7.
+
+## H.7. Trazabilidad de negativos críticos
+
+| Negativo | Defecto inducido | Comp puerta crítica | Teorema asociado | Laboratorio asociado |
+|:---:|:---|:---|:---:|:---:|
+| N1 | `v=cz` en alto `z` | `Δ_reg`, `Δ_𝓔` | T3, T4 | LAB-03, LAB-10 |
+| N2 | `D_L=D_A` | `Δ_m`, `Δ_𝓔` | T2, T9 | LAB-04, LAB-10 |
+| N3 | `(0,0)=Big Bang` | `Δ_orig` | T1, T5 | LAB-05, LAB-10 |
+| N4 | Distancia de la totalidad | `Δ_Ω`, `Δ_ret` | T1, T5 | LAB-07, LAB-10 |
+| N5 | Mezcla de rutas `H_0` | `Δ_𝓜`, `Δ_H` | T7 | LAB-08, LAB-10 |
+| N6 | Velocidad sin magnitud | `Δ_m`, `Δ_u` | T4 | LAB-01, LAB-10 |
+| N7 | JWST como refutación total | `Δ_𝓑`, `Δ_𝓜` | T9, T10 | LAB-09, LAB-10 |
+| N8 | `w(z)` como destino definitivo | `Δ_𝓔`, `Δ_𝓑` | T6, T9 | LAB-07, LAB-10 |
+| N9 | Retorno luminoso como edad total | `Δ_m`, `Δ_Ω` | T1, T8 | LAB-05, LAB-10 |
+| N10 | Coincidencia sin residual | `Δ_T`, `Δ_ret`, `Δ_𝓑` | T8, T10 | LAB-06, LAB-10 |
+
+## H.8. Trazabilidad de errores catalogados
+
+El catálogo E-DIST-01 a E-DIST-18 no es paralelo a los teoremas; es su operacionalización ejecutable. `E-DIST-01` y `E-DIST-02` protegen dominio y unidad; `E-DIST-03` protege redshift; `E-DIST-04` y `E-DIST-05` protegen velocidad; `E-DIST-06` protege distancias cosmológicas distintas; `E-DIST-07` protege totalidad; `E-DIST-08` protege origen formal; `E-DIST-09` protege jerarquía frente a modelos externos; `E-DIST-10` y `E-DIST-11` protegen residual y retorno; `E-DIST-12` protege `U`; `E-DIST-13` protege bancos con negativos; `E-DIST-14` protege ejecución sin pases silenciosos; `E-DIST-15` protege rutas de medición; `E-DIST-16` protege trayectoria común; `E-DIST-17` protege lentes; `E-DIST-18` protege retorno luminoso frente a edad total. Cada error debe disparar al menos una compuerta y devolver dictamen ordinario.
+
+## H.9. Trazabilidad de laboratorios
+
+| Laboratorio | Verifica | Entrada crítica | Salida crítica |
+|:---:|:---|:---|:---|
+| LAB-01 | Tipado de magnitudes | `z`, `D_L`, `H_0`, `v_rec`, `t_L` | Magnitud y unidad correctas |
+| LAB-02 | Redshift a distancia | Línea espectral y modelo | `z` aceptado como entrada, no como distancia |
+| LAB-03 | Hubble local/alto `z` | Bajo `z` frente a alto `z` | Rechazo de `v=cz` fuera de régimen |
+| LAB-04 | Distancias cosmológicas | `D_L`, `D_A`, `D_C`, `D_P` | No colapso de magnitudes |
+| LAB-05 | Transductor bidireccional | Física → SV → física | Retorno de mismo tipo |
+| LAB-06 | Residual compuesto | Todas las compuertas | Vector `Δ` completo |
+| LAB-07 | ΛCDM instrumental | Distancias y extrapolaciones | Apto/parcial/no apto según uso |
+| LAB-08 | Tensión de Hubble | Rutas local y CMB | `PARCIAL`, no promedio tácito |
+| LAB-09 | JWST extremo | Alto `z`, masa, firma | Estrés, no cierre total |
+| LAB-10 | Negativos | N1–N10 | Rechazo con compuerta crítica |
+| LAB-11 | Dictamen global | Banco completo | Distribución correcta |
+| LAB-12 | Runner integral | CSV/JSON/catálogos | Salidas reproducibles |
+
+## H.10. Trazabilidad de anexos técnicos
+
+Los anexos técnicos cumplen funciones no intercambiables. El Anexo A fija símbolos y magnitudes; el Anexo B fija contrato de datos y salidas; el Anexo C fija matriz de transducción; el Anexo D fija banco maestro mínimo; el Anexo E fija especificación ejecutable del runner; el Anexo F fija plantillas materiales; el Anexo G fija integración serial con el corpus; este Anexo H fija trazabilidad interna de fórmulas, teoremas, bancos y compuertas. La secuencia evita que el cierre dependa de memoria. Si se duda de un símbolo, se vuelve al Anexo A; si se duda del dato, al B; si se duda de la correspondencia, al C; si se duda del banco, al D; si se duda de ejecución, al E y F; si se duda de jerarquía, al G; si se duda de conexión interna, al H.
+
+## H.11. Tabla maestra de trazabilidad mínima
+
+| Afirmación fuerte | Fórmula | Teorema | Banco | Negativo | Error | Retorno |
+|:---|:---|:---:|:---:|:---:|:---:|:---|
+| `z` no es distancia directa | `z=(λ_obs−λ_emit)/λ_emit`; `Δ_m` | T3 | B2 | N1 | E-DIST-03 | Redshift o distancia por modelo |
+| `v=cz` no vale en alto `z` como velocidad local | `Δ_reg` | T4 | B3 | N1 | E-DIST-05 | Distancia integral o recesión de modelo |
+| `D_L` no es `D_A` | `D_L=(1+z)^2D_A` bajo reciprocidad | T2 | B1/B10 | N2 | E-DIST-06 | Magnitudes separadas |
+| La totalidad no tiene distancia física | `Δ_Ω` | T1/T5 | B11 | N4 | E-DIST-07 | Observables internos |
+| `0_SV` no es Big Bang | `Δ_orig` | T1 | B9 | N3 | E-DIST-08 | Referencia formal |
+| ΛCDM se absorbe instrumentalmente | `𝔇_dist=0` si `Δ=0` | T6 | B4 | N4/N10 | E-DIST-09 | Distancia/modelo físico |
+| Tensión de Hubble es residual de rutas | `Δ_H` | T7 | B5 | N5 | E-DIST-15 | Rutas separadas |
+| JWST no refuta todo por una fuente | `Δ_𝓑` | T10 | B7 | N7 | E-DIST-13 | Banco de estrés |
+| Retorno físico es obligatorio | `Δ_ret` | T8 | LAB-05 | N10 | E-DIST-11 | Misma magnitud física |
+| `U` no licencia cierre | `Δ_pair` no cerrado | T9 | B12 | — | E-DIST-12 | Dato faltante declarado |
+
+## H.12. Criterio de suficiencia trazable
+
+Una conclusión queda suficientemente trazada si cumple seis condiciones: se apoya en una fórmula o definición central; declara dominio físico o formal; nombra residual y dictamen; tiene al menos un banco positivo o parcial si afirma absorción; tiene al menos un negativo si afirma discriminación; y puede retornar al dominio físico sin cambio de tipo. Si falta fórmula, la conclusión es verbal. Si falta dominio, queda abierta `Δ_Ω`. Si falta residual, se activa `E-DIST-10`. Si falta negativo, se activa `E-DIST-13`. Si falta retorno, se activa `E-DIST-11`. Si falta banco, no hay cierre material. Esta regla permite depurar cualquier añadido futuro: ninguna frase cosmológica, por poderosa que parezca, debe sobrevivir si no puede atravesar estas seis condiciones.
+
+## H.13. Criterio de insuficiencia trazable
+
+Una conclusión queda insuficientemente trazada cuando descansa en expresiones como “se aleja”, “crece”, “aumenta”, “demuestra”, “refuta”, “explica” o “coincide” sin magnitud y sin compuerta. La frase “la velocidad aumenta” es insuficiente hasta declarar `H(t)`, `ȧ(t)`, `ä(t)`, `v_rec` o velocidad peculiar. La frase “JWST refuta ΛCDM” es insuficiente hasta declarar fuente, firma, masa, modelo, selección, banco y residual. La frase “el Universo se expande” es insuficiente si no distingue separaciones internas de totalidad. La frase “el origen está a distancia X” es insuficiente porque espacializa `0_SV`. La insuficiencia no siempre significa rechazo del fenómeno; significa que la formulación no puede cerrar. Su salida correcta será reformulación, `PARCIAL`, `U` o `NO_APTO` según compuerta.
+
+## H.14. Índice operativo de localización rápida
+
+| Necesidad de verificación | Lugar de control | Resultado esperado |
+|:---|:---|:---|
+| Saber si una magnitud está bien tipada | Anexo A + catálogo de magnitudes | Unidad y dominio correctos |
+| Saber si una distancia física se absorbe | Fórmula directriz + LAB-05 | Retorno físico sin cambio de tipo |
+| Saber si una comparación relativa es válida | XI + Anexo C | `Δ_rel=0` |
+| Saber si origen formal fue invadido | X + Anexo C.14/C.15 | `Δ_orig=0` o `NO_APTO` |
+| Saber si un modelo externo se usa bien | V–VIII + B4/B6 | APTO o PARCIAL por dominio |
+| Saber si una tensión debe cerrarse | B5 + LAB-08 | `PARCIAL` con `Δ_H` |
+| Saber si un negativo derrota el sistema | XIV + LAB-10 | `NO_APTO` con compuerta crítica |
+| Saber si un caso sin firma se cierra | B12 + E-DIST-12 | `U` con dato faltante |
+| Saber si el runner sirve | Anexos B, E y F | Coincidencia esperado-obtenido |
+| Saber si se duplicó operador | Anexo G | Derivación desde operador existente |
+
+## H.15. Cierre de trazabilidad
+
+El cierre de trazabilidad queda fijado por una condición simple: ninguna conclusión fuerte queda fuera de la red formada por fórmula, residual, banco, negativo, laboratorio y retorno. La distancia absoluta se traza por `D_abs^{SV}`, `Δ_orig`, B9, N3/N4 y retorno formal. La distancia relativa se traza por `D_rel`, `Δ_rel`, B10, Q-01–Q-08 y retorno comparativo. La absorción de cosmología contemporánea se traza por magnitudes externas conservadas, T6, B4, LAB-07 y retorno físico. La crítica a errores comunes se traza por E-DIST-01 a E-DIST-18 y N1–N10. La integración SV se traza por Anexo G. Con esta red, el desarrollo no depende de frases de autoridad, sino de pasos auditables: cada afirmación sabe de dónde viene, qué compuerta la protege, qué negativo intenta romperla y cómo vuelve a física contemporánea.
+# Anexo I. Protocolo de aplicación a casos cosmológicos nuevos
+
+El protocolo de aplicación a casos cosmológicos nuevos fija cómo debe evaluarse cualquier observación, dato, modelo, tensión o afirmación posterior sin reabrir la arquitectura ni improvisar transductores. Su finalidad es que una fuente JWST futura, una nueva publicación DESI, una ruta revisada de `H_0`, una señal de 21 cm, una supernova extrema, una lente con nueva masa, una revisión de `w(z)` o una hipótesis sobre expansión puedan entrar en el aparato con el mismo rigor que los casos ya tipados. El procedimiento no empieza por la conclusión, sino por el contrato: identificar observable, magnitud, unidad, modelo, ecuación, régimen, frontera, proyección SV, residual, banco negativo y retorno físico. Si el caso supera esas puertas, se absorbe o se absorbe parcialmente según residual; si rompe tipo, se rechaza; si carece de firma suficiente, queda en `U`. La regla protege la continuidad del corpus y evita que una novedad empírica sea tratada como fundamento por impacto mediático o como rechazo por incomodidad doctrinal.
+
+## I.1. Entrada de un caso nuevo
+
+Todo caso nuevo debe entrar como una fila material, no como una frase interpretativa. La fila mínima contendrá `case_id`, clase preliminar, observación o afirmación, magnitud principal, unidad, modelo o regla, ecuación, régimen, frontera, fuente, proyección SV prevista, residual esperado y retorno físico. Una frase como “esta galaxia es demasiado antigua”, “la expansión acelera”, “DESI cambia la energía oscura” o “JWST rompe ΛCDM” no es entrada suficiente. Debe traducirse a magnitudes: redshift espectroscópico o fotométrico, flujo, masa inferida, modelo de población, `D_L`, `D_C`, `H(z)`, `w(z)`, covarianza, significación, selección y banco de comparación. Si no se puede construir la fila, el caso no pasa a dictamen. Si se construye, entra en el runner como candidato a `APTO`, `PARCIAL`, `NO_APTO` o `U`.
+
+## I.2. Identificación del observable
+
+La primera operación es identificar el observable `𝒪`. Un observable puede ser una galaxia, una línea espectral, una supernova, una regla BAO, una ruta de `H_0`, una fuente lensada, una señal de 21 cm, una región CMB, una parametrización de energía oscura o un par de objetos comparados. La identificación exige distinguir objeto, señal, retorno y modelo. Una misma fuente puede tener redshift robusto y masa incierta; una lente puede tener fuente clara y modelo de masa insuficiente; una galaxia puede tener espectro confirmado y población estelar debatida. El protocolo separa esas capas para no convertir un dato fuerte en cierre total ni un dato débil en rechazo global. Si la identidad del observable falla, se activa `Δ_pair` y la salida ordinaria será `U`, salvo que además exista error formal.
+
+## I.3. Selección de magnitud rectora
+
+La segunda operación es seleccionar la magnitud rectora. Si se analiza distancia, debe indicarse `D_C`, `D_L`, `D_A`, `D_P`, `D_rel` o `D_abs^{SV}`; si se analiza señal, `z`, flujo, frecuencia, ángulo o patrón; si se analiza velocidad, `v_rec`, velocidad peculiar, velocidad radial, `H(t)`, `ȧ(t)` o `ä(t)`; si se analiza tensión, `H_0`, `w(z)`, `D_L(z)` o parámetro de modelo; si se analiza origen, debe separarse `0_SV` de régimen físico temprano. No se permite usar “distancia”, “velocidad”, “edad” u “origen” como magnitudes sin subtipo. El subtipo gobierna unidad, ecuación y retorno. Si la magnitud rectora no puede seleccionarse, se activa `Δ_m`; si se selecciona mal, el banco negativo correspondiente deberá derrotar la formulación.
+
+## I.4. Validación de unidad
+
+La tercera operación es validar unidad. El redshift será adimensional; las distancias se expresarán en unidades de longitud; `H_0` será tasa por distancia; `v_rec` será velocidad; `t_L` será tiempo físico de modelo; `0_SV` será formal; los perfiles SV serán internos salvo retorno físico separado. La unidad no es un detalle editorial: decide si la magnitud conserva tipo. Un caso con `z` en Mpc no es una conversión novedosa, sino ruptura de unidad; un caso con `H_0` como `km s^{-1}` pierde el divisor de distancia; un caso con `0_SV` en Gpc espacializa el origen. Si la unidad falta pero puede obtenerse de una fuente congelada, el caso queda pendiente de contrato; si la unidad contradice el tipo, el dictamen ordinario es `NO_APTO`.
+
+## I.5. Validación de modelo y ecuación
+
+La cuarta operación es declarar modelo y ecuación. Una distancia comóvil necesita `H(z)` o modelo equivalente; una distancia de luminosidad necesita calibración o relación flujo-luminosidad; una distancia angular necesita tamaño físico o regla estándar; una velocidad recesional necesita `H(t)` y distancia propia; una comparación de rutas de `H_0` necesita método, calibración e incertidumbre; una parametrización de energía oscura necesita función, datos y covarianza; una señal de 21 cm necesita frecuencia, identificación y control instrumental. El modelo no se introduce para dar autoridad, sino para delimitar cálculo. Si se usa una ecuación correcta fuera de régimen, se activa `Δ_reg`; si falta ecuación, `Δ_𝓔`; si se mezclan modelos sin declarar transductor, `Δ_𝓜`. La salida no puede ser apta sin modelo cuando la magnitud lo exige.
+
+## I.6. Determinación de régimen
+
+La quinta operación es determinar régimen. Bajo redshift, alto redshift, sistema ligado, observación extrema, frontera instrumental, ruta local, inferencia temprana, lente, retorno luminoso, señal espectral, comparación de modelos y origen formal son regímenes distintos. La misma fórmula puede ser legítima en uno e inválida en otro. `v=cz` puede operar como aproximación local bajo condiciones restringidas, pero no como velocidad local de una galaxia `z=14`; `D_P` puede describir separación propia de observables comóviles, pero no expansión interna de un sistema ligado sin frontera; `H_0^{CMB}` puede ser apto como inferencia temprana, pero no como ruta local. La determinación de régimen evita que una ecuación válida se convierta en error por traslado indebido.
+
+## I.7. Declaración de frontera
+
+La sexta operación es declarar frontera. La frontera puede ser observacional, instrumental, geométrica, dinámica, de retorno, de calibración, de trayectoria, de modelo o formal. Una galaxia JWST tiene frontera de banda, sensibilidad, selección y confirmación; una lente tiene frontera de masa y geometría; una supernova tiene frontera de curva de luz y extinción; el CMB tiene frontera de última dispersión e inferencia; el horizonte observable tiene frontera de retorno y no borde absoluto; `0_SV` tiene frontera formal que prohíbe unidad física. Sin frontera, el caso tiende a expandirse indebidamente. Si la frontera falta, puede aparecer `Δ_Ω`, `Δ_ret` o `Δ_𝓑` según el caso. La frontera no debilita la afirmación; la hace evaluable.
+
+## I.8. Proyección SV
+
+La séptima operación es proyectar al dominio SV sin inventar operador. La regla será usar la matriz de transducción: `z→Φ_z`, `D_C→Φ_C`, `D_L→Φ_L`, `D_A→Φ_A`, `D_P→Φ_P`, `H_0→Φ_H`, `v_rec→Φ_v`, `q(t)→Φ_acc`, `w(z)→Φ_w`, horizonte→`F_obs`, `0_SV`→referencia formal, `D_rel→Rel_m`, `DistInter→perfil comparativo`. Si la magnitud no encaja, no se crea operador nuevo automáticamente; se comprueba si deriva de un operador existente, de un transductor ya fijado o de una fórmula superior. Sólo tras fallo de derivación, lectura documental y banco negativo podría abrirse una pieza nueva. La proyección debe dejar trazable qué entra y qué queda fuera.
+
+## I.9. Cálculo de residual
+
+La octava operación es calcular residual. El vector mínimo será `Δ_Ω`, `Δ_m`, `Δ_u`, `Δ_𝓔`, `Δ_reg`, `Δ_T`, `Δ_ret`, `Δ_𝓑`, con extensiones `Δ_orig`, `Δ_rel`, `Δ_Γ`, `Δ_pair` y `Δ_H` cuando proceda. El residual no es una nota cualitativa, sino el fundamento del dictamen. Si todas las compuertas formales se anulan y el retorno físico conserva tipo, el caso puede ser `APTO`; si hay residual físico competente sin ruptura de tipo, `PARCIAL`; si hay ruptura de dominio, magnitud, unidad, ecuación, origen o retorno, `NO_APTO`; si falta firma esencial, `U`. El residual debe publicarse por caso y conservarse en salidas de laboratorio. Un dictamen sin residual queda no apto para cierre.
+
+## I.10. Banco negativo simétrico
+
+La novena operación es construir un banco negativo simétrico para el caso nuevo. Si se acepta una distancia de una galaxia por `D_C(z)`, debe existir su negativo `z` como distancia directa. Si se acepta una galaxia JWST como retorno extremo, debe existir el negativo “JWST refuta todo”. Si se acepta `w(z)` como contraste dinámico, debe existir el negativo “`w(z)` decide el destino definitivo”. Si se acepta una ruta de `H_0`, debe existir el negativo de mezcla de rutas. Si se acepta una señal de 21 cm, debe existir el negativo de señal marginal como cierre. Sin negativo simétrico, la aceptación no demuestra discriminación. El caso puede quedar exploratorio, pero no cerrado. Esta regla impide que la novedad empírica entre sólo por su versión favorable.
+
+## I.11. Retorno físico
+
+La décima operación es redactar retorno físico. La salida debe poder leerse en el dominio que originó el caso: “distancia comóvil bajo modelo”, “distancia de luminosidad calibrada”, “redshift espectroscópico”, “separación propia interna”, “tensión de rutas”, “parametrización dinámica de energía oscura”, “frontera de retorno”, “referencia formal no física”. Si la salida sólo dice que el SV absorbe el caso, falta retorno. Si una salida vuelve como una magnitud distinta de la que entró, se activa `Δ_ret`. Si una salida transforma `0_SV` en Big Bang, centro o radio, se activa `Δ_orig` y `Δ_ret`. El retorno físico es la garantía de que el análisis no queda encerrado en vocabulario interno.
+
+## I.12. Dictamen de caso nuevo
+
+El dictamen se emite después del residual y del retorno, no antes. `APTO` exige contrato completo, magnitud tipada, unidad compatible, modelo y ecuación correctos, régimen válido, frontera declarada, proyección SV reconocida, residual formal nulo, banco negativo superado y retorno físico del mismo tipo. `PARCIAL` exige ruta o modelo competente con residual físico declarado. `NO_APTO` exige error formal o ruptura de plano. `U` exige falta de firma, identidad, calibración, banco o dato esencial sin contradicción formal. Un mismo caso complejo puede producir dictámenes distintos por magnitud: una galaxia puede ser `APTO` por redshift, `PARCIAL` por masa inferida y `U` por metalicidad. El protocolo permite granularidad y evita dictámenes globales brutos.
+
+## I.13. Tratamiento de datos contemporáneos cambiantes
+
+Los datos cosmológicos contemporáneos cambian por nuevas observaciones, calibraciones, reducciones, catálogos y análisis. El protocolo no congela la ciencia externa; congela la forma de entrada. Si un valor de `H_0`, una masa JWST, un ajuste DESI o una señal de 21 cm cambia, se actualiza el banco con versión, fuente, fecha, magnitud, incertidumbre y hash, sin alterar la regla de dictamen salvo que el nuevo dato modifique residual. La versión anterior no se borra: queda como caso histórico o banco anterior. La actualización no autoriza a reescribir la fórmula directriz si el problema era de dato; tampoco permite mantener una conclusión si el residual nuevo la derrota. La trazabilidad de versiones será parte de la custodia.
+
+## I.14. Tratamiento de afirmaciones divulgativas o mediáticas
+
+Las afirmaciones divulgativas deben traducirse antes de evaluarse. “El Universo se expande más rápido”, “las galaxias huyen”, “JWST destruye el Big Bang”, “la energía oscura cambia”, “el tiempo empezó en cero” o “el horizonte es el borde” no entran como tesis cerradas. Se convierten en preguntas tipadas: qué magnitud, qué unidad, qué modelo, qué evidencia, qué frontera y qué retorno. Muchas frases divulgativas contienen un núcleo físico legítimo y una extrapolación defectuosa. El protocolo separa ambas capas. El núcleo puede quedar `APTO` o `PARCIAL`; la extrapolación puede quedar `NO_APTO`; la firma incompleta puede quedar `U`. Así se evita tanto el rechazo automático de la divulgación como su aceptación literal.
+
+## I.15. Tratamiento de hipótesis nuevas
+
+Una hipótesis nueva podrá entrar como postulado sometido a reducción al absurdo y banco negativo, no como axioma. Deberá declarar qué problema resuelve, qué magnitud afecta, qué ecuación cambia, qué predicción añade, qué modelos absorbe, qué casos negativos la derrotan y cómo retorna a física contemporánea. Si la hipótesis sólo renombra una pieza ya existente, se rechaza por duplicación. Si deriva de fórmula superior, se presenta como corolario o proposición derivada. Si contradice un operador ya fijado, debe aportar contradicción material y no preferencia expresiva. Si supera derivación, banco y retorno, puede incorporarse como pieza local. Esta regla permite avance sin pasos atrás y sin proliferación de operadores decorativos.
+
+## I.16. Tratamiento de conflictos entre modelos externos
+
+Cuando dos modelos externos producen lecturas distintas, el protocolo no decide por simpatía. Cada modelo entra con su dominio, ecuación, parámetros, datos, incertidumbre y banco. La comparación se hace por magnitud común o transductor explícito. Si ambos son competentes y difieren, la salida será `PARCIAL` con residual de modelo. Si uno rompe dominio, será `NO_APTO`. Si faltan datos, `U`. Si uno absorbe positivos y supera negativos mejor que otro, el banco lo reflejará como menor residual, no como autoridad nominal. Esta regla se aplica a ΛCDM frente a energía oscura dinámica, rutas de `H_0`, modelos de formación temprana, lentes, señales de 21 cm y futuras extensiones. El SV no necesita elegir antes de medir residual.
+
+## I.17. Tratamiento de pares de observables
+
+Todo par de observables exige homogeneidad. Para comparar dos galaxias por distancia comóvil, ambas deben tener `D_C` bajo modelo compatible; para comparar supernovas, `D_L` calibrada; para comparar redshifts, líneas homólogas; para comparar rutas de `H_0`, rutas declaradas y residual; para comparar perfiles SV, trayectoria común o transductor de trayectoria; para comparar un observable con `0_SV`, separación formal y no longitud física. El signo de resta no legitima magnitudes mixtas. Si `D_L` de A se resta con `D_A` de B, se activa `Δ_m`; si perfiles no comparten `Γ`, `Δ_Γ`; si se compara observable con totalidad, `Δ_Ω`. La distancia relativa queda así protegida contra comparaciones intuitivas no tipadas.
+
+## I.18. Tratamiento de horizonte y no retorno
+
+El horizonte se tratará como frontera de retorno, no como borde absoluto. Si un caso nuevo invoca horizonte de partículas, horizonte de eventos, superficie de último scattering, profundidad instrumental o límite de señal, deberá declarar qué frontera usa y qué magnitud retorna. No se admitirá “borde del Universo” como equivalente automático. La ausencia de retorno más allá de una frontera no autoriza a formular exterior positivo ni a medir totalidad. La regla heredada de clausura y no transmisibilidad se aplica estrictamente: donde no hay retorno físico, no se fabrica objeto exterior; donde hay frontera de observación, se declara frontera; donde hay modelo, se calcula dentro de él. Esta disciplina será obligatoria para cualquier caso de CMB, agujero negro cosmológico metafórico, horizonte o universo observable.
+
+## I.19. Tratamiento de cierre y revisión
+
+El cierre de un caso nuevo será siempre proporcional al nivel de prueba. Una fila aislada puede cerrar una formulación local; un banco puede cerrar una clase de errores; un laboratorio puede cerrar una versión técnica; una nueva teoría sólo puede abrirse tras demostrar que no deriva de fórmulas ya existentes y que supera negativos. Si una revisión posterior cambia un dato, no se reabre toda la arquitectura salvo contradicción material contra fórmula o compuerta. Se actualiza el banco y se vuelve a ejecutar. Si un nuevo dato derrota una conclusión, se corrige el dictamen del caso, no se oculta el residual. Si un nuevo dato confirma una lectura, se conserva trazabilidad. El cierre es material, no psicológico ni narrativo.
+
+## I.20. Tabla operativa del protocolo
+
+| Paso | Pregunta | Campo mínimo | Fallo principal | Salida |
+|:---:|:---|:---|:---|:---|
+| 1 | ¿Qué caso entra? | `case_id`, fuente | Caso verbal | Fila material |
+| 2 | ¿Qué observable es? | `𝒪`, firma | `Δ_pair` | Identidad o `U` |
+| 3 | ¿Qué magnitud gobierna? | `magnitude` | `Δ_m` | Tipo declarado |
+| 4 | ¿Qué unidad posee? | `unit` | `Δ_u` | Unidad validada |
+| 5 | ¿Qué modelo calcula? | `model`, `equation` | `Δ_𝓔` | Modelo tipado |
+| 6 | ¿En qué régimen opera? | `regime` | `Δ_reg` | Frontera de validez |
+| 7 | ¿Cuál es la frontera? | `boundary` | `Δ_Ω`, `Δ_ret` | Alcance explícito |
+| 8 | ¿Cómo proyecta al SV? | `sv_projection` | `Δ_T` | Proyección reconocida |
+| 9 | ¿Qué residual produce? | vector `Δ` | `E-DIST-10` | Dictamen trazable |
+| 10 | ¿Qué negativo lo estresa? | `negative_pair` | `Δ_𝓑` | Discriminación |
+| 11 | ¿Cómo vuelve a física? | `return_statement` | `Δ_ret` | Retorno físico |
+| 12 | ¿Qué dictamen obtiene? | `obtained_dictamen` | mismatch | `APTO/PARCIAL/NO_APTO/U` |
+
+## I.21. Dictamen de aplicabilidad
+
+El protocolo queda apto como regla de aplicación para casos cosmológicos nuevos si conserva cuatro propiedades: no introduce operadores por defecto, no permite magnitudes sin unidad, no acepta cierre sin residual y no pierde retorno físico. Su fuerza reside en que puede recibir datos contemporáneos cambiantes sin alterar la jerarquía SV y sin bloquear la física externa bien tipada. Una fuente nueva puede entrar; una ruta nueva de medición puede entrar; un modelo alternativo puede entrar; una tensión nueva puede entrar; una observación extrema puede entrar. Lo que no puede entrar sin ser corregido es una formulación que confunda totalidad, origen, distancia, redshift, velocidad, horizonte o retorno. Esta es la condición de continuidad: apertura máxima a datos y cierre máximo contra errores de plano.
 
