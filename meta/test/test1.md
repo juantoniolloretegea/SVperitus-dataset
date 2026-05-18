@@ -2357,6 +2357,112 @@ El runner será apto si cumple simultáneamente las siguientes condiciones mater
 
 La ampliación futura del runner sólo podrá hacerse por versión explícita. Añadir magnitudes como crecimiento de estructura, `fσ_8`, densidad de materia, curvatura, neutrinos, señal de 21 cm ampliada o nuevos catálogos JWST exigirá actualizar catálogo de magnitudes, unidades, modelos, compuertas y bancos negativos simétricos. No se admitirá añadir un caso empírico nuevo si el runner no sabe qué magnitud evalúa ni qué negativo lo estresa. Toda ampliación deberá conservar compatibilidad descendente: un banco viejo debe seguir produciendo los mismos dictámenes salvo corrección material declarada. Esta regla evita que un crecimiento posterior altere silenciosamente el cierre de distancia absoluta y relativa ya establecido.
 
+# Anexo F. Plantillas materiales de datos, salidas y registros
+
+Las plantillas materiales convierten el contrato del Anexo B y la especificación del Anexo E en ficheros concretos. Su finalidad es impedir que el banco, el runner y las salidas nazcan con formatos variables, columnas cambiantes o registros incompletos. Cada plantilla fija campos, orden, tipo, obligatoriedad y condición de rechazo. La regla material será estricta: una fila sin campo obligatorio no se ejecuta; una salida sin vector residual no cierra; un resumen sin hashes no acredita reproducibilidad; un banco sin negativos simétricos no demuestra discriminación; y un README que prometa resultados no obtenidos no sustituye la ejecución. Las plantillas aquí descritas no son decoración técnica, sino piezas de custodia: aseguran que la distancia absoluta, la distancia relativa, la absorción de modelos y el rechazo de errores de plano puedan ser verificados por terceros sin depender de interpretación verbal.
+
+## F.1. Árbol material mínimo
+
+El árbol material mínimo queda definido como una estructura de trabajo reproducible con carpetas separadas por función: `datos/` para bancos congelados, `especificaciones/` para catálogos de magnitudes, unidades, modelos, compuertas y dictámenes, `src/` para runner y validadores, `salidas/` para resultados obtenidos, `errores/` para códigos emitidos, `registros/` para hashes y manifiestos, y `README.md` para lectura operativa. Esta separación evita que una salida modifique una entrada, que un catálogo se confunda con un banco, o que un error de ejecución quede escondido en el código. Cada carpeta deberá contener al menos un fichero de propósito claro. Si una carpeta está vacía en la versión inicial, deberá conservar un `.gitkeep` o una nota mínima de estatuto, sin prometer resultados no ejecutados. La raíz del paquete deberá permitir una ejecución completa sin rutas absolutas locales.
+
+## F.2. Plantilla del banco maestro CSV
+
+El fichero `datos/banco_distancias_sv_fc.csv` tendrá encabezado cerrado y orden estable: `case_id,bank_group,case_class,observable_or_claim,magnitude,unit,model_or_rule,equation,regime,boundary,sv_projection,expected_residual,expected_dictamen,return_statement,source_ref,notes`. La columna `case_id` será única; `bank_group` agrupará positivos, parciales, negativos, casos `U`, origen y relativos; `case_class` determinará regla de dictamen; `observable_or_claim` contendrá el caso evaluado; `magnitude` y `unit` fijarán tipo; `model_or_rule`, `equation`, `regime` y `boundary` fijarán dominio; `sv_projection` fijará la lectura interna; `expected_residual` y `expected_dictamen` permitirán comparar salida; `return_statement` exigirá retorno físico; `source_ref` conectará con fuente o banco; `notes` quedará para aclaración breve. El runner no aceptará columnas renombradas ni encabezados incompletos.
+
+## F.3. Ejemplo de filas CSV canónicas
+
+| case_id | bank_group | case_class | observable_or_claim | magnitude | unit | model_or_rule | equation | regime | boundary | sv_projection | expected_residual | expected_dictamen | return_statement |
+|:---:|:---|:---|:---|:---|:---:|:---|:---|:---|:---|:---|:---:|:---:|:---|
+| P-01 | positivos | positive | Galaxia con redshift espectroscópico y ΛCDM declarado | `D_C` | Mpc | `FLRW_LCDM` | `c∫dz/H(z)` | `cosmological` | `F_cos` | `Φ_C` | none | APTO | Distancia comóvil bajo modelo |
+| N-01 | negativos | negative | Galaxia `z=6` evaluada con `v=cz` como velocidad local | `v` | km s⁻¹ | `low_z_Hubble` | `v=cz` | `high_z` | `F_cos` | `Φ_v` | `Δ_reg,Δ_𝓔,Δ_ret` | NO_APTO | Rechazo de ecuación local extrapolada |
+| R-01 | parciales | partial | `H_0^{local}` frente a `H_0^{CMB}` | `H_0` | km s⁻¹ Mpc⁻¹ | `route_comparison` | `abs(H0_L-H0_C)` | `route_split` | `F_route` | `Φ_H` | `Δ_H` | PARCIAL | Tensión de rutas |
+| U-01 | u_cases | u_case | Candidato fotométrico sin espectro robusto | `z_phot` | dimensionless | `photometric_redshift` | `photometric_fit` | `signature_pending` | `F_obs` | `Φ_z` | `Δ_pair` | U | Falta redshift robusto |
+| O-04 | origen | origin | Galaxia a X Mpc de `(0,0)` | `D_abs^{SV}` | Mpc | `SV_formal_origin` | `Rel_SV(Φ,0_SV)` | `formal_origin` | `F_orig` | `Rel_SV` | `Δ_orig,Δ_u` | NO_APTO | No hay longitud física al origen formal |
+
+## F.4. Plantilla JSON de caso
+
+El fichero JSON individual de caso tendrá estructura estable con siete bloques: `metadata`, `input`, `physical_domain`, `sv_domain`, `residual_components`, `expected` y `audit`. `metadata` contendrá `case_id`, versión y grupo; `input` contendrá observable, afirmación, magnitud y unidad; `physical_domain` contendrá modelo, ecuación, régimen, frontera y fuente; `sv_domain` contendrá proyección, trayectoria si procede, frontera interna y retorno; `residual_components` contendrá compuertas esperadas; `expected` contendrá dictamen y declaración física de salida; `audit` contendrá hash, fecha de congelación y procedencia. El JSON no podrá contradecir el CSV maestro. Si el CSV declara `NO_APTO` y el JSON declara `APTO`, el runner deberá emitir error de consistencia antes de validar la física. La finalidad del JSON es granularidad, no libertad semántica.
+
+## F.5. Esqueleto JSON canónico
+
+`{"metadata":{"case_id":"N-01","version":"1.0","bank_group":"negativos","case_class":"negative"},"input":{"observable_or_claim":"Galaxia z=6 evaluada con v=cz como velocidad local","magnitude":"v","unit":"km s^-1"},"physical_domain":{"model_or_rule":"low_z_Hubble","equation":"v=cz","regime":"high_z","boundary":"F_cos","source_ref":"banco_maestro"},"sv_domain":{"sv_projection":"Φ_v","trajectory_required":false,"sv_boundary":"F_SV_dist","return_statement":"Rechazo de ecuación local extrapolada"},"residual_components":{"Δ_Ω":0,"Δ_m":0,"Δ_u":0,"Δ_𝓔":1,"Δ_reg":1,"Δ_T":0,"Δ_ret":1,"Δ_𝓑":0},"expected":{"expected_residual":["Δ_reg","Δ_𝓔","Δ_ret"],"expected_dictamen":"NO_APTO"},"audit":{"frozen":true,"hash":"pending_until_materialization","notes":"Caso negativo crítico N1"}}`. Este esqueleto muestra la densidad mínima exigible: no basta con una frase de entrada y un dictamen esperado; la fila debe exponer modelo, régimen, retorno y compuertas. La versión material podrá dividirlo en varias líneas, pero no podrá eliminar bloques obligatorios.
+
+## F.6. Catálogo de magnitudes en CSV
+
+El fichero `especificaciones/catalogo_magnitudes.csv` tendrá las columnas `magnitude,type,expected_unit,domain,allowed_models,sv_projection,forbidden_use,return_type`. Ejemplos: `z,spectral,dimensionless,redshift,spectral_redshift,Φ_z,distance_without_model,redshift`; `D_L,length,Mpc,luminosity_distance,SN_Ia_luminosity_distance|FLRW_LCDM,Φ_L,equal_to_D_A,luminosity_distance`; `H_0,rate,km s^-1 Mpc^-1,hubble_route,CMB_inference|local_ladder|route_comparison,Φ_H,mixed_routes_without_residual,hubble_parameter`; `0_SV,formal,formal,sv_formal_origin,SV_formal_origin,formal_reference,physical_point_or_big_bang,formal_reference`. El runner deberá cargar este catálogo antes del banco maestro. Una magnitud ausente del catálogo no se evalúa; una magnitud con unidad no compatible activa error de unidad; una magnitud con uso prohibido activa la compuerta prevista.
+
+## F.7. Catálogo de unidades
+
+El fichero `especificaciones/catalogo_unidades.csv` contendrá `unit,unit_type,compatible_magnitudes,normalization_rule,forbidden_for`. Las unidades de longitud admitirán `m`, `pc`, `kpc`, `Mpc` y `Gpc`; las tasas admitirán `km s^-1 Mpc^-1`; las velocidades admitirán `km s^-1`; los tiempos físicos admitirán `yr` y `Gyr`; `dimensionless` se reservará para magnitudes adimensionales; `formal` se reservará para `0_SV` y relaciones formales; `SV_internal` se reservará para perfiles SV. La normalización de unidades sólo podrá convertir dentro del mismo tipo. No podrá convertir `dimensionless` en longitud ni `formal` en `Mpc`. El campo `forbidden_for` deberá incluir explícitamente `z` para unidades de longitud y `0_SV` para unidades físicas. La salida conservará siempre unidad original y unidad normalizada si procede.
+
+## F.8. Catálogo de modelos y reglas
+
+El fichero `especificaciones/catalogo_modelos.csv` tendrá las columnas `model_or_rule,domain,allowed_equations,allowed_regimes,required_fields,forbidden_claims`. `low_z_Hubble` admitirá `v_rec≈H_0D` y `v=cz` sólo en bajo redshift; `FLRW_LCDM` admitirá integrales de distancia y relaciones `D_L`, `D_A`, `D_M`; `SN_Ia_luminosity_distance` exigirá calibración; `spectral_redshift` exigirá línea emitida y observada; `route_comparison` exigirá dos rutas y sus incertidumbres; `SV_formal_origin` exigirá origen no espacializado; `SV_profile_distance` exigirá trayectoria común si usa `DistInter`. El catálogo deberá incluir reglas prohibidas: `z_as_distance`, `DL_equals_DA`, `origin_as_big_bang`, `universe_as_object`, `high_z_v_equals_cz`. El runner comparará cada fila con este catálogo antes de proyectar al dominio SV.
+
+## F.9. Catálogo de compuertas
+
+El fichero `especificaciones/catalogo_compuertas.csv` tendrá `gate,description,trigger,ordinary_dictamen,repair`. `Δ_Ω` se activará por dominio ausente o totalidad tratada como objeto; `Δ_m` por magnitud equivocada; `Δ_u` por unidad incompatible; `Δ_𝓔` por ecuación ausente o impropia; `Δ_reg` por salida de régimen; `Δ_T` por transducción no ejecutada; `Δ_ret` por retorno físico defectuoso; `Δ_𝓑` por banco insuficiente; `Δ_orig` por fisicalización de origen; `Δ_rel` por comparación no homogénea; `Δ_Γ` por trayectoria común ausente; `Δ_pair` por identidad incompleta; `Δ_H` por tensión entre rutas. La columna `repair` no repara automáticamente la fila; sólo indica la reformulación admisible. La emisión de una compuerta debe quedar trazada por fase y campo afectado.
+
+## F.10. Catálogo de errores
+
+El fichero `errores/catalogo_errores.csv` tomará la tabla del apartado XVI y la hará ejecutable con columnas `error_code,error_name,gate,trigger,phase,ordinary_dictamen,repair`. `E-DIST-03` quedará ligado a `Δ_m,Δ_u,Δ_𝓔`; `E-DIST-05` a `Δ_reg,Δ_𝓔,Δ_ret`; `E-DIST-08` a `Δ_orig`; `E-DIST-10` a `Δ_T,Δ_ret,Δ_𝓑`; `E-DIST-14` a pase silencioso. El runner no deberá emitir mensajes libres sin código cuando detecte errores catalogados. Si aparece un fallo no catalogado, se emitirá `E-DIST-UNK` y el caso quedará no apto para cierre hasta ampliar el catálogo. Esta regla impide que las excepciones técnicas se conviertan en ruido no trazable.
+
+## F.11. Plantilla de resultados globales
+
+El fichero `salidas/resultados_globales.csv` tendrá las columnas `case_id,expected_dictamen,obtained_dictamen,dictamen_match,expected_residual,obtained_residual,residual_match,sv_projection_ok,physical_return_ok,case_status,error_codes,return_statement`. Una fila apta deberá tener `sv_projection_ok=true`, `physical_return_ok=true`, `obtained_residual=none` o vector formal anulado, y `case_status=match`; una fila negativa deberá tener `obtained_dictamen=NO_APTO`, compuerta crítica en `obtained_residual`, y `case_status=match` si coincide con lo esperado; una fila parcial deberá conservar residual competente; una fila `U` deberá indicar dato faltante. El fichero no podrá resumir casos sin preservar su fila individual. Cualquier salida agregada sin esta tabla queda insuficiente para auditoría.
+
+## F.12. Plantilla de residuales por caso
+
+El fichero `salidas/residuales_por_caso.json` contendrá un objeto por `case_id` con todas las compuertas, fase de activación y campo responsable. La estructura mínima será `{"case_id":{"gates":{"Δ_Ω":0,"Δ_m":0,"Δ_u":0,"Δ_𝓔":0,"Δ_reg":0,"Δ_T":0,"Δ_ret":0,"Δ_𝓑":0,"Δ_orig":0,"Δ_rel":0,"Δ_Γ":0,"Δ_pair":0,"Δ_H":0},"phase_triggers":[],"critical_gate_match":true}}`. En negativos, `phase_triggers` deberá contener fase y campo, por ejemplo `validate_regime:equation:v=cz`. En parciales, el residual podrá marcarse como `partial` con causa. En casos `U`, la compuerta de identidad o firma podrá marcarse como `u_pending`. Esta salida evita que el dictamen final oculte por qué se produjo.
+
+## F.13. Plantilla de matriz esperado-obtenido
+
+El fichero `salidas/matriz_confusion_esperado_obtenido.csv` tendrá filas por dictamen esperado y columnas por dictamen obtenido: `expected,obtained_APTO,obtained_PARCIAL,obtained_NO_APTO,obtained_U,obtained_CONTRACT_ERROR,total`. Además, deberá existir una tabla complementaria `salidas/fallos_criticos.csv` con `case_id,expected,obtained,expected_residual,obtained_residual,error_type`. El objetivo no es sólo contar aciertos, sino detectar el tipo de desviación: positivo sobrebloqueado, negativo aceptado, parcial cerrado en exceso, `U` cerrado favorablemente o error de contrato. La matriz no sustituye los resultados por caso. Su función es mostrar si el runner discrimina adecuadamente por clase y si los negativos críticos están protegidos.
+
+## F.14. Plantilla de resumen de dictamen
+
+El fichero `salidas/resumen_dictamen.json` contendrá `{"total_cases":0,"APTO":0,"PARCIAL":0,"NO_APTO":0,"U":0,"CONTRACT_ERROR":0,"critical_failures":0,"dictamen_mismatches":0,"residual_mismatches":0,"negative_cases_passed":0,"positive_cases_blocked":0,"u_cases_closed_as_apto":0}` con valores reales tras ejecución. El campo `negative_cases_passed` debe ser cero; `u_cases_closed_as_apto` debe ser cero; `critical_failures` debe ser cero. Un resumen que sólo informe porcentaje de acierto no será suficiente. Este JSON permite comprobar de forma rápida si el runner ha fallado en alguna categoría crítica antes de leer tablas completas. Si alguno de los contadores críticos es distinto de cero, no puede declararse cierre material.
+
+## F.15. Plantilla de errores detectados
+
+El fichero `errores/errores_detectados.csv` tendrá `case_id,error_code,error_name,gate,phase,field,value,expected,ordinary_dictamen`. Cada error deberá conservar el valor recibido y el valor esperado. Para `N-01`, por ejemplo, deberá aparecer `E-DIST-05`, fase `validate_regime`, campo `equation/regime`, valor `v=cz/high_z`, esperado `low_z`, y dictamen ordinario `NO_APTO`. Para un campo obligatorio ausente, aparecerá error de contrato con fase `validate_contract`. La tabla de errores permitirá distinguir fallo del caso y fallo del runner. Si el runner se equivoca pero no produce error, el fallo aparecerá en matriz esperado-obtenido; si el caso está mal construido, aparecerá aquí como error de contrato o inconsistencia.
+
+## F.16. Plantilla de registro de ejecución
+
+El fichero `registros/ejecucion.json` tendrá `version_runner`, `version_banco`, `version_catalogos`, `datetime_utc`, `python_version`, `platform`, `input_hashes`, `output_hashes`, `command`, `strict_mode`, `case_count`, `status`. `strict_mode` deberá ser `true`; `status` sólo podrá ser `PASS`, `FAIL` o `CONTRACT_FAIL`. Si hay errores de contrato, `status` no puede ser `PASS`; si hay fallos críticos, `status=FAIL`; si todos los casos coinciden, `status=PASS`. El campo `command` deberá contener la orden reproducible de ejecución. Los hashes deberán calcularse sobre ficheros reales, no sobre nombres. Este registro será la pieza de custodia que permita repetir el laboratorio y verificar que no se alteraron entradas después de obtener salidas.
+
+## F.17. Plantilla de manifiesto de hashes
+
+El fichero `registros/MANIFIESTO_SHA256.txt` listará cada fichero relevante con su SHA-256: bancos CSV, JSON individuales si existen, catálogos, runner, salidas, errores y README. El formato será `SHA256  ruta_relativa`. El manifiesto deberá generarse después de obtener salidas, no antes. Si se modifica un CSV, una salida o el runner, el manifiesto queda obsoleto y debe regenerarse. El hash del ZIP final, cuando exista, deberá estar en un manifiesto separado para evitar circularidad. La función del manifiesto no es estética: permite demostrar que el paquete ejecutado es el paquete entregado. Sin manifiesto, la ejecución puede ser útil, pero no queda materialmente custodiada.
+
+## F.18. Plantilla README del paquete
+
+El `README.md` del paquete deberá explicar finalidad, estructura, forma de ejecución, ficheros de entrada, ficheros de salida, dictámenes posibles, catálogo de errores y criterio de cierre. No deberá incluir resultados no ejecutados ni promesas de validación. La redacción mínima debe indicar que el paquete valida correspondencias de distancia entre SV y física contemporánea mediante bancos positivos, parciales, negativos y `U`; que el runner opera en modo estricto; que los negativos críticos se ejecutan como prueba adversarial; y que las salidas se consideran aptas sólo con coincidencia esperado-obtenido y hashes. El README no reemplaza las tablas ni los registros. Su papel es permitir que un tercero ejecute sin preguntar por contexto externo.
+
+## F.19. Plantilla de prueba de humo
+
+El fichero `datos/smoke_test.csv` contendrá cuatro casos: un apto, un parcial, un no apto y un `U`. La fila apta será `D_C(z)` bajo modelo declarado; la parcial será comparación `H_0^{local}` frente a `H_0^{CMB}`; la no apta será `z` usado como distancia directa; la `U` será candidato fotométrico sin espectro. La salida esperada será exactamente `APTO`, `PARCIAL`, `NO_APTO`, `U`. Si la prueba de humo no reproduce esos cuatro dictámenes, no se ejecuta el banco maestro. Si los reproduce, sólo se habilita ejecución completa; no se declara cierre. Esta plantilla protege el desarrollo técnico de errores básicos de lectura, enumeraciones o jerarquía de dictamen antes de cargar las sesenta filas del banco maestro.
+
+## F.20. Tabla de correspondencia entre ficheros y condición de cierre
+
+| Fichero | Función | Obligatorio para cierre | Fallo si falta |
+|:---|:---|:---:|:---|
+| `datos/banco_distancias_sv_fc.csv` | Banco maestro | Sí | No hay matriz de casos |
+| `datos/smoke_test.csv` | Prueba inicial | Sí | No se verifica cadena mínima |
+| `especificaciones/catalogo_magnitudes.csv` | Tipado de magnitudes | Sí | Magnitudes ambiguas |
+| `especificaciones/catalogo_unidades.csv` | Tipado de unidades | Sí | Unidades no controladas |
+| `especificaciones/catalogo_modelos.csv` | Modelos y ecuaciones | Sí | Fórmulas sin dominio |
+| `especificaciones/catalogo_compuertas.csv` | Residuales | Sí | Fallos no trazables |
+| `errores/catalogo_errores.csv` | Errores operativos | Sí | Códigos ausentes |
+| `src/runner_distancias.py` | Ejecución | Sí | No hay prueba material |
+| `salidas/resultados_globales.csv` | Dictamen por caso | Sí | No hay auditoría |
+| `salidas/residuales_por_caso.json` | Vector de compuertas | Sí | Dictamen sin causa |
+| `salidas/matriz_confusion_esperado_obtenido.csv` | Comparación | Sí | No se detectan desviaciones |
+| `salidas/resumen_dictamen.json` | Resumen | Sí | No hay visión global |
+| `errores/errores_detectados.csv` | Fallos emitidos | Sí | Errores ocultos |
+| `registros/ejecucion.json` | Trazabilidad | Sí | Ejecución no reproducible |
+| `registros/MANIFIESTO_SHA256.txt` | Custodia | Sí | Ficheros no verificables |
+| `README.md` | Uso operativo | Sí | Paquete no autocontenible |
 
 
 
