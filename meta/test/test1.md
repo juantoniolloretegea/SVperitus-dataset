@@ -831,6 +831,113 @@ La *Teoría del TODO y de la NADA* no permite usar la NADA como sinónimo de vac
 
 El dictamen de este apartado es que la investigación resulta absorbible por proyección en la *Teoría del TODO y de la NADA* bajo una condición estricta: cada magnitud debe conservar dominio, unidad, residual, retorno y transducción. Se absorben la gravitación clásica, la relatividad general, el electromagnetismo, el régimen luminoso, QCD, equivalencia masa–energía, G local, Λ cosmológica y las distancias tipadas cuando cada una permanece en su régimen. Se absorben parcialmente Higgs como explicación de masa elemental, energía oscura como denominación efectiva, DESI como presión observacional, ΛCDM como modelo de contraste y energía de vacío como problema físico mediado, no como identidad directa. Se rechazan la confusión de campo y energía, la reducción de masa a cualquier energía, la conversión de G en causa, la lectura de Λ como fuerza local, el uso de distancias cosmológicas como separación clásica, la sustancialización de la energía oscura y cualquier cierre basado en estadística, inferencia opaca o ausencia de prueba. La proyección final no declara que todo sea verdadero: declara qué queda absorbido, qué permanece parcialmente incorporado y qué debe excluirse para que la cadena campo–energía–masa–gravedad–G–Λ conserve validez física y coherencia estructural.
 
+## XIV. Conclusión
+
+La tesis desarrollada queda cerrada en una conclusión material: campo, energía, masa, gravedad, constante de gravitación universal y constante cosmológica no son nombres intercambiables de una misma entidad física, sino momentos distintos de una cadena de dominio, eficacia, frontera, persistencia, separación, retorno local y curvatura cosmológica. La física contemporánea aporta resultados decisivos y absorbibles en sus regímenes: la gravitación clásica calcula con gran eficacia el retorno local entre masas positivas; la relatividad general describe con potencia geométrica la relación entre contenido energía-momento y curvatura; el mecanismo de Higgs explica contribuciones elementales de masa; QCD y el confinamiento explican gran parte de la masa hadrónica; la equivalencia E = mc² conserva valor metrológico fundamental; Maxwell ordena el campo electromagnético en su sector; ΛCDM, supernovas Ia, CMB, BAO y estructura a gran escala sostienen el régimen cosmológico observable; y las tensiones contemporáneas sobre energía oscura dinámica obligan a mantener vigilancia técnica. La aportación específica del Sistema Vectorial SV no consiste en negar esos aciertos, sino en impedir que se transformen en extrapolaciones indebidas: cada magnitud queda admitida sólo si declara dominio, unidad, ecuación, residual, transducción y retorno. Desde esa disciplina, la energía queda definida como eficacia estructural no nula de dominio; la masa, como persistencia material de energía de dominio retenida por frontera compatible; la gravedad, como respuesta del dominio de separación ante persistencia material; la atracción, como retorno local entre persistencias materiales positivas; G, como coeficiente metrológico de retorno fuente-respuesta; y Λ, como curvatura efectiva ciclo-distancial del dominio cosmológico observable retornado.
+
+### XIV.1. Resultado principal
+
+El resultado principal es que la secuencia posibilidad de diferencia → dominio realizado → eficacia estructural no nula → energía → frontera compatible → masa persistente → dominio de separación → campo gravitatorio → atracción local → G → dominio cosmológico observable → Λ conserva coherencia física si, y sólo si, cada tránsito mantiene su tipo. La energía no funda por sí sola la masa; la masa no funda por sí sola la gravedad; G no funda la atracción; Λ no funda una fuerza local; y la energía oscura no funda una sustancia material ordinaria. La cadena queda admitida porque cada magnitud comparece en su función: energía como eficacia, masa como persistencia, gravedad como respuesta de separación, G como coeficiente de retorno local y Λ como curvatura cosmológica efectiva. Si cualquiera de esos términos invade el dominio de otro, el banco activa rechazo. Este cierre permite formular una conclusión precisa: el fenómeno gravitatorio local y el régimen cosmológico acelerado son compatibles, pero no reducibles entre sí; G y Λ pueden aparecer en una arquitectura común, pero no cumplen la misma función física.
+
+| Magnitud | Definición conclusiva | Dominio admisible | Retorno físico | Error que queda excluido |
+|---|---|---|---|---|
+| Energía | Eficacia estructural no nula de dominio | Dominio físico declarado | J, eV, densidad o magnitud derivada | Energía como sustancia originaria indiferenciada |
+| Masa | Persistencia material de energía de dominio retenida por frontera compatible | Elemental, hadrónico, atómico, macroscópico | kg, eV/c², masa inercial o gravitatoria | Toda energía es masa |
+| Gravedad | Respuesta del dominio de separación ante persistencia material | Local, relativista o geométrico declarado | Campo, potencial, aceleración, curvatura o geodesia | Gravedad como emisión sustancial |
+| Atracción | Retorno local entre persistencias materiales positivas | Régimen local o relativista apto | Fuerza, aceleración o trayectoria | Acción inexplicada o fuerza sin dominio |
+| G | Coeficiente metrológico de retorno local fuente-respuesta | Gravitación local y acoplamiento relativista | m³·kg⁻¹·s⁻² | G como causa última |
+| Λ | Curvatura efectiva ciclo-distancial del dominio observable retornado | Cosmología observable | m⁻² | Λ como fuerza local o sustancia |
+| Energía oscura | Denominación efectiva de régimen cosmológico | ΛCDM o extensiones declaradas | ρ<sub>Λ</sub>, p<sub>Λ</sub>, w, H(z), distancias | Energía oscura como materia ordinaria oculta |
+
+### XIV.2. Conclusiones numéricas
+
+Las magnitudes calculadas obligan a separar retorno local y curvatura cosmológica. En régimen local, con G = 6,67430 × 10⁻¹¹ m³·kg⁻¹·s⁻², M<sub>Tierra</sub> = 5,9722 × 10²⁴ kg y R<sub>Tierra</sub> = 6,371 × 10⁶ m, se obtiene g ≈ 9,820 m·s⁻²; con M<sub>Luna</sub> = 7,342 × 10²² kg y r<sub>Tierra–Luna</sub> = 3,844 × 10⁸ m, la fuerza Tierra–Luna retorna F ≈ 1,982 × 10²⁰ N; con M<sub>Sol</sub> = 1,98847 × 10³⁰ kg y 1 UA = 1,495978707 × 10¹¹ m, la aceleración solar sobre la Tierra retorna a ≈ 5,930 × 10⁻³ m·s⁻². En el régimen cosmológico, con c = 299.792.458 m·s⁻¹ y T<sub>obs</sub> = 435.494.880.000.000.000 s, la transducción pura da Λ<sub>SV,puro</sub> ≈ 1,7600043527547774 × 10⁻⁵² m⁻²; con H₀ = 67,4 km·s⁻¹·Mpc⁻¹ y Ω<sub>Λ</sub> = 0,685, el retorno mixto da Λ<sub>SV,ret</sub> ≈ 1,0909105028380932 × 10⁻⁵² m⁻². La prueba adversarial decisiva es local: el término Λ a 1 UA produce a<sub>Λ</sub> ≈ 4,895 × 10⁻²⁵ m·s⁻², y su cociente frente a la aceleración solar local es ≈ 8,255 × 10⁻²³. Por tanto, Λ no explica la dinámica orbital local; G no explica por sí sola la curvatura cosmológica; y ambas constantes quedan separadas por dimensión, dominio y retorno.
+
+| Resultado | Valor | Unidad | Conclusión física | Dictamen |
+|---|---:|---|---|---|
+| g terrestre | ≈ 9,820 | m·s⁻² | G retorna aceleración local con masa y radio homogéneos | Absorción |
+| F Tierra–Luna | ≈ 1,982 × 10²⁰ | N | La atracción local entre persistencias materiales es calculable | Absorción |
+| a lunar por Tierra | ≈ 2,697 × 10⁻³ | m·s⁻² | G opera como retorno fuente-respuesta | Absorción |
+| F Sol–Tierra | ≈ 3,542 × 10²² | N | La ley clásica conserva eficacia heliocéntrica en régimen débil | Absorción |
+| a solar sobre Tierra | ≈ 5,930 × 10⁻³ | m·s⁻² | La dinámica orbital local pertenece al dominio de G | Absorción |
+| Λ<sub>SV,puro</sub> | ≈ 1,7600043527547774 × 10⁻⁵² | m⁻² | Λ retorna como curvatura efectiva de dominio observable | Absorción |
+| Λ<sub>SV,ret</sub> | ≈ 1,0909105028380932 × 10⁻⁵² | m⁻² | El retorno mixto conserva parámetros cosmológicos | Absorción con residual |
+| Λ<sub>ret</sub>/Λ<sub>puro</sub> | ≈ 0,619834 | adimensional | El residual entre cierre puro y retorno mixto queda declarado | Absorción parcial |
+| a<sub>Λ</sub> a 1 UA | ≈ 4,895 × 10⁻²⁵ | m·s⁻² | Λ no gobierna la atracción orbital | Rechazo de uso local |
+| a<sub>Λ</sub>/a<sub>Sol</sub> | ≈ 8,255 × 10⁻²³ | adimensional | La constante cosmológica no sustituye G en régimen local | Rechazo del intercambio |
+
+### XIV.3. Qué absorbe el Sistema Vectorial SV de la física contemporánea
+
+El Sistema Vectorial SV absorbe todo resultado físico contemporáneo que conserve dominio y retorno. Absorbe la ley de gravitación universal como retorno local débil entre masas positivas con separación homogénea; absorbe la relatividad general como formulación geométrica del campo gravitatorio cuando declara fuente, métrica, acción, curvatura y retorno; absorbe la equivalencia operacional entre masa inercial y gravitatoria como condición experimental de dominio; absorbe el mecanismo de Higgs en el régimen electrodébil; absorbe QCD y confinamiento en la masa hadrónica; absorbe E = mc² como traducción metrológica relativista; absorbe Maxwell como cierre electromagnético sectorial; absorbe el régimen luminoso cuando se trata como dominio físico propio; absorbe ΛCDM como modelo de contraste cosmológico; y absorbe las distancias cosmológicas cuando se mantienen tipadas. Esta absorción no significa subordinación nominal ni aceptación acrítica: significa incorporación por compatibilidad de unidad, operación, residual y retorno.
+
+| Elemento de física contemporánea | Motivo de absorción | Límite conservado |
+|---|---|---|
+| Gravitación clásica | Calcula retorno local con masas y r homogénea | No es cosmología total |
+| Relatividad general | Describe campo gravitatorio mediante geometría física | No sustituye génesis de masa ni frontera |
+| Principio de equivalencia | Conserva equivalencia operacional inercial-gravitatoria | No explica toda la masa |
+| Higgs | Explica masa elemental acoplada | No explica toda masa física |
+| QCD y confinamiento | Explican masa hadrónica dominante | No fundan toda persistencia material |
+| E = mc² | Traduce masa y energía con potencia metrológica | No decide cuándo hay masa persistente |
+| Maxwell | Ordena campo electromagnético, fuentes y balance | No equivale a toda energía ni toda luz |
+| ΛCDM | Ajusta el dominio cosmológico observable | No clausura naturaleza última de energía oscura |
+| DESI | Introduce presión observacional sobre w y ΛCDM | No cierra mecanismo final |
+| Distancias cosmológicas | Permiten retorno luminoso, angular o comóvil | No sustituyen r local |
+
+### XIV.4. Qué absorbe parcialmente
+
+La absorción parcial aparece cuando una formulación acierta en su dominio, pero se vuelve defectuosa al extenderse. El mecanismo de Higgs queda parcialmente absorbido porque explica una contribución real a la masa de partículas elementales, pero no toda la masa hadrónica, atómica o macroscópica. QCD queda fuertemente absorbida en hadrones, aunque no funda toda persistencia material. La curvatura relativista se absorbe como formulación de la gravedad, pero no como explicación autosuficiente de masa, energía, frontera y retorno. La energía oscura se absorbe como denominación efectiva de un régimen cosmológico, pero no como sustancia física ordinaria. ΛCDM se absorbe como modelo de alto rendimiento observacional, aunque no cierre por sí solo la naturaleza de Λ. DESI se absorbe parcialmente como tensión observacional relevante, no como fundamento definitivo. La absorción parcial tiene valor positivo: conserva el acierto y evita que su exceso de alcance degrade el resultado.
+
+| Elemento | Acierto conservado | Residual | Dictamen |
+|---|---|---|---|
+| Higgs | Masa elemental acoplada | No cubre toda masa | Absorción parcial fuerte |
+| QCD fuera de hadrones | Masa por confinamiento en dominio hadrónico | No funda toda persistencia | Absorción parcial por dominio |
+| Curvatura relativista | Descripción geométrica de gravedad | No sustituye fuente, acción y retorno | Absorción parcial si se absolutiza |
+| Energía oscura | Etiqueta efectiva de régimen cosmológico | Naturaleza física no cerrada por el nombre | Absorción parcial |
+| ΛCDM | Ajuste cosmológico robusto | No clausura fundamento de Λ | Absorción parcial como modelo |
+| DESI | Presión sobre energía oscura dinámica | No constituye mecanismo final | Absorción parcial |
+| Energía de vacío | Problema físico real | Requiere mediación, renormalización y acoplamiento | Absorción parcial si hay transducción |
+| κ = 8πG/c⁴ | Acoplamiento relativista | No convierte G en causa última | Absorción parcial en régimen geométrico |
+
+### XIV.5. Qué rechaza
+
+El rechazo se dirige a usos, no a tradiciones científicas enteras. Se rechaza usar G como causa última de la gravedad; usar Λ como fuerza local; convertir energía oscura en sustancia material ordinaria; tomar presión negativa como empuje mecánico sobre galaxias individuales; igualar energía de vacío desnuda y Λ física sin mediación; sustituir r local por D<sub>L</sub>, D<sub>A</sub> o D<sub>M</sub>; tratar T<sub>obs</sub> como tiempo rector; leer distancia factual como longitud SI sin transducción; convertir cualquier energía en masa; reducir toda masa al Higgs; extender QCD a toda persistencia material; identificar campo y energía; usar curvatura sin fuente, acción ni retorno; tomar G como constante definitoria exacta del SI; y convertir una preferencia estadística o ajuste de modelo en fundamento físico. Estos rechazos son necesarios porque protegen los aciertos: sin ellos, la misma ecuación que calcula bien en un dominio puede producir una conclusión falsa en otro.
+
+| Rechazo | Motivo | Error activado |
+|---|---|---|
+| G como causa última | Confunde coeficiente de retorno con fundamento | E-G-01 |
+| Λ como fuerza local | Traslada curvatura cosmológica a dinámica ordinaria | E-LAM-01 |
+| Λ como calor o temperatura | Confunde dimensión m⁻² con magnitud térmica | E-LAM-02 |
+| Energía oscura sustancializada | Convierte término efectivo en materia ordinaria | E-DE-01 |
+| Vacío desnudo = Λ física | Omite mediación y renormalización | E-VAC-01 |
+| Toda energía es masa | Falta frontera, traza y persistencia | E-MASA-01 |
+| Higgs como toda masa | Excede el dominio electrodébil | E-MASA-02 |
+| QCD como toda persistencia | Excede el dominio hadrónico | E-HAD-01 |
+| Campo = energía | Sustituye relación por sinonimia | E-CAMPO-01 |
+| Curvatura sin fuente ni acción | Omite dinámica y retorno | E-GEM-01 |
+| G exacta por definición | Confunde constante experimental y definitoria | E-SI-01 |
+| Ajuste estadístico como fundamento | Toma preferencia de modelo como verdad física | E-STAT-01 |
+| T<sub>obs</sub> como tiempo rector | Confunde escala de retorno con causa temporal | E-TIME-01 |
+| Distancia factual como metro ordinario | Mezcla dominios sin transducción | E-SV-01 |
+| Pase silencioso | Acepta salida no tabulada o no comprobada | E-LAB-01 |
+
+### XIV.6. Aportación diferencial frente a la física contemporánea
+
+La aportación diferencial del Sistema Vectorial SV se resume en cinco operaciones que la física contemporánea no siempre impone como disciplina explícita. Primera, separa el dominio antes de calcular, de modo que una magnitud local no se convierta en magnitud cosmológica por semejanza formal. Segunda, exige transducción bidireccional, por lo que una afirmación estructural debe volver a unidad física y una magnitud física debe declarar residual estructural. Tercera, distingue absorción, absorción parcial y rechazo, evitando tanto la negación de aciertos consolidados como su absolutización. Cuarta, impide el cierre por nombre: energía, masa, gravedad, G, Λ y energía oscura sólo quedan admitidas por retorno, no por tradición terminológica. Quinta, obliga a banco positivo y negativo, de modo que una teoría no sólo muestre lo que acepta, sino también lo que necesariamente debe fallar. Con ello, el SV no reemplaza la física experimental; la hace pasar por una disciplina de dominio, unidad, residual y retorno que fortalece sus aciertos y deja visibles sus excesos conceptuales.
+
+| Aportación SV | Función | Resultado frente a lectura no transducida |
+|---|---|---|
+| Declaración de dominio | Impide extrapolación de ecuaciones | G local no se convierte en cosmología total |
+| Transducción bidireccional | Obliga a ida y vuelta entre estructura y física | Λ retorna en m⁻², no como sustancia |
+| Residual explícito | Muestra lo que no cierra | Energía oscura queda acotada |
+| Matriz de absorción | Clasifica por uso y dominio | Se conservan aciertos sin absolutizarlos |
+| Banco negativo | Comprueba que el aparato rechaza errores | No pasan distancias mal tipadas ni fuerzas indebidas |
+| Separación G–Λ | Evita intercambio de constantes | Retorno local y curvatura cosmológica quedan diferenciados |
+| Definición de masa por frontera | Exige persistencia y traza | No toda energía se convierte en masa |
+| Control metrológico | Unidad como barrera técnica | Dimensiones incompatibles activan rechazo |
+
+### XIV.7. Conclusión final
+
+La conclusión final es que la gravedad no queda definida de manera suficiente como fuerza, curvatura, constante, aceleración o geometría aislada. Su definición física completa exige la cadena que la hace posible: dominio realizado, eficacia estructural, energía, frontera, masa persistente, dominio de separación y respuesta relacional. La atracción entre masas positivas es el retorno local de esa respuesta bajo separación homogénea; G es el coeficiente que permite cuantificarla en el régimen apto; y Λ pertenece a otro plano, el de la curvatura efectiva del dominio cosmológico observable retornado. La física contemporánea acierta de forma muy fuerte allí donde calcula con dominio, unidad y ecuación; acierta parcialmente cuando describe o ajusta un régimen sin cerrar su fundamento; y yerra cuando convierte éxitos locales o efectivos en explicaciones totales. El Sistema Vectorial SV aporta una respuesta técnica a ese problema: no sustituye el dato, no altera la constante y no niega la ecuación; exige que cada afirmación vuelva con dominio, unidad, residual, transducción, banco y retorno. Por eso el resultado de esta investigación puede formularse de modo estricto: la masa no es cualquier energía, la gravedad no es G, la atracción no es una emisión de la masa, Λ no es una fuerza local, la energía oscura no es una sustancia ordinaria, y la expansión cosmológica no se reduce a gravitación newtoniana ampliada. Cada magnitud queda en su sitio; cada acierto se absorbe; cada exceso se acota; cada error de dominio se rechaza.
 
 
 
