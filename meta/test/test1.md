@@ -562,6 +562,211 @@ La distancia constituye uno de los puntos más delicados de esta investigación.
 
 El dictamen de conjunto establece que la física contemporánea queda ampliamente absorbida en sus dominios de cálculo, predicción y contraste, pero requiere separación de planos para no convertir resultados locales, geométricos, cuánticos o cosmológicos en explicaciones totales. La ley de gravitación universal queda absorbida en régimen local; la relatividad general queda absorbida como formulación geométrica de enorme alcance; el Higgs y QCD quedan integrados como explicaciones parciales y fuertes de masa en sus dominios; Maxwell y el régimen luminoso quedan diferenciados sin reducción indebida; G queda delimitada como coeficiente metrológico de retorno local; Λ queda definida como curvatura efectiva ciclo-distancial del dominio observable; y la energía oscura queda absorbida parcialmente como denominación efectiva, no como sustancia ordinaria. Se rechazan la mezcla de distancias, la sustancialización de Λ, la conversión de G en causa, la identificación directa entre vacío desnudo y constante cosmológica física, la reducción de masa a energía sin frontera, la equiparación entre campo y energía, y cualquier cierre que ignore dominio, unidad, residual y retorno. La matriz final no debilita los resultados físicos: los hace evaluables y evita que su éxito local se transforme en extrapolación indebida.
 
+## XII. Laboratorios y bancos de prueba
+
+Los laboratorios y bancos de prueba no fundan las conclusiones de esta investigación ni crean por ejecución aquello que el desarrollo físico no haya justificado antes; su función es comprobar, someter a retorno y hacer reproducible lo ya formulado en los apartados anteriores. La prueba material debe operar en dos planos complementarios: un plano visible, inyectado por completo en el cuerpo del texto mediante tablas con entradas, unidades, operaciones, resultados, residuales y dictámenes; y un plano ejecutable, enlazado mediante URLs absolutas a los ficheros de laboratorio, datos, runner, catálogo de errores, salida esperada y salida obtenida. La exigencia es estricta: ningún banco puede limitarse a enumerar intenciones, ningún laboratorio puede presentarse como demostración si sólo comprueba, ninguna salida favorable puede ocultar un defecto de dominio, y ninguna magnitud puede quedar admitida sin unidad, transducción, residual y retorno. Por ello, el banco trabaja con casos positivos, casos de absorción parcial y una batería negativa fuerte de falsación local; incluye magnitudes físicas reales, conversiones SI, transducción bidireccional ciencia contemporánea ↔ Sistema Vectorial SV, separación G–Λ, control de distancia, y dictamen explícito de absorción, absorción parcial o rechazo.
+
+### XII.1. Conclusiones operativas del banco
+
+Las conclusiones operativas que el banco debe poner en firme son seis. Primera: campo y energía se articulan por dominio, no por sinonimia; el electromagnetismo y el régimen luminoso se absorben cuando declaran fuente, unidad, frontera, balance y retorno, pero se rechaza toda equivalencia universal campo = energía. Segunda: la masa se confirma como persistencia material de energía de dominio retenida por frontera compatible, residual acotado, retorno y traza; por tanto, se absorben Higgs, QCD, defecto de masa y masa atómica en sus dominios, pero se rechaza toda reducción de masa a cualquier energía sin frontera. Tercera: la gravedad se confirma como respuesta del dominio de separación ante persistencia material y contenido energía-momento retornable; por ello, la formulación clásica queda absorbida en régimen local y la relatividad general queda absorbida como formulación geométrica de alto alcance, pero se rechaza convertir fuerza, curvatura o G en causa total. Cuarta: G queda delimitada como coeficiente metrológico de retorno local fuente-respuesta, con dimensión m³·kg⁻¹·s⁻² y uso apto sólo cuando masa, separación y régimen están declarados. Quinta: Λ queda delimitada como curvatura efectiva ciclo-distancial del dominio observable retornado, con dimensión m⁻², sin estatuto de fuerza local, calor, temperatura, sustancia material o causa mecánica de galaxias individuales. Sexta: la aportación diferencial del Sistema Vectorial SV consiste en convertir cada afirmación física en una operación evaluable por dominio, unidad, transducción, residual, retorno y banco; esto conserva los aciertos de la física contemporánea, acota sus excesos de alcance y rechaza las mezclas de plano que producen conclusiones físicamente defectuosas.
+
+### XII.2. Banco numérico maestro no construido para confirmar
+
+El banco numérico maestro no se elige por comodidad algebraica, sino porque cruza cuatro regímenes suficientemente heterogéneos: gravitación local terrestre, gravitación local heliocéntrica, constante cosmológica por transducción ciclo-distancial y retorno cosmológico mixto por parámetros ΛCDM. Esta combinación permite observar simultáneamente qué calcula correctamente la física contemporánea, qué separa el Sistema Vectorial SV y qué errores aparecen al intercambiar dominios. Las constantes de entrada son las ya usadas o compatibles con el desarrollo: c = 299.792.458 m·s⁻¹; G = 6,67430 × 10⁻¹¹ m³·kg⁻¹·s⁻²; T<sub>obs</sub> = 435.494.880.000.000.000 s; H₀ = 67,4 km·s⁻¹·Mpc⁻¹; Ω<sub>Λ</sub> = 0,685; 1 Mpc = 3,0856775814913673 × 10²² m. Para los casos locales se emplean valores astronómicos de uso ordinario como banco físico de escala: M<sub>Tierra</sub> = 5,9722 × 10²⁴ kg, R<sub>Tierra</sub> = 6,371 × 10⁶ m, M<sub>Luna</sub> = 7,342 × 10²² kg, r<sub>Tierra–Luna</sub> = 3,844 × 10⁸ m, M<sub>Sol</sub> = 1,98847 × 10³⁰ kg y 1 UA = 1,495978707 × 10¹¹ m. El objetivo del banco no es demostrar que esas constantes existan, sino comprobar si el uso de cada magnitud respeta su dominio.
+
+| ID | Dominio | Entrada | Operación | Resultado | Lectura física | Dictamen |
+|---|---|---|---|---|---|---|
+| BN-01 | Gravitación local terrestre | G, M<sub>Tierra</sub>, R<sub>Tierra</sub> | g = GM/R² | g ≈ 9,820 m·s⁻² | Retorno local de aceleración gravitatoria bajo separación radial terrestre | Absorción local |
+| BN-02 | Sistema Tierra–Luna | G, M<sub>Tierra</sub>, M<sub>Luna</sub>, r<sub>Tierra–Luna</sub> | F = GMm/r² | F ≈ 1,982 × 10²⁰ N | Fuerza local entre dos persistencias materiales positivas con r homogénea | Absorción local |
+| BN-03 | Aceleración lunar por fuente terrestre | G, M<sub>Tierra</sub>, r<sub>Tierra–Luna</sub> | a = GM/r² | a ≈ 2,697 × 10⁻³ m·s⁻² | Retorno local fuente-respuesta, no causa última de la gravedad | Absorción local |
+| BN-04 | Sistema Sol–Tierra | G, M<sub>Sol</sub>, M<sub>Tierra</sub>, 1 UA | F = GMm/r² | F ≈ 3,542 × 10²² N | Gravitación clásica apta en régimen heliocéntrico débil | Absorción local |
+| BN-05 | Aceleración terrestre por fuente solar | G, M<sub>Sol</sub>, 1 UA | a = GM/r² | a ≈ 5,930 × 10⁻³ m·s⁻² | Aceleración local de dominio orbital, no expansión cosmológica | Absorción local |
+| BN-06 | Transducción Λ de dominio puro | c, T<sub>obs</sub> | Λ<sub>SV,puro</sub> = 3/(c²T<sub>obs</sub>²) | 1,7600043527547774 × 10⁻⁵² m⁻² | Curvatura efectiva ciclo-distancial del dominio observable retornado | Absorción cosmológica |
+| BN-07 | Retorno ΛCDM mixto | Ω<sub>Λ</sub>, H₀, c | Λ<sub>SV,ret</sub> = 3Ω<sub>Λ</sub>H₀²/c² | 1,0909105028380932 × 10⁻⁵² m⁻² | Retorno cosmológico por parámetros observacionales | Absorción con dominio |
+| BN-08 | Comparación Λ puro / Λ retorno | Λ<sub>SV,puro</sub>, Λ<sub>SV,ret</sub> | Λ<sub>ret</sub>/Λ<sub>puro</sub> | ≈ 0,619834 | Residual de retorno entre cierre puro y retorno mixto; no contradicción local | Absorción parcial con residual |
+| BN-09 | Efecto Λ a 1 UA | Λ<sub>SV,ret</sub>, c, r = 1 UA | a<sub>Λ</sub> = Λc²r/3 | ≈ 4,895 × 10⁻²⁵ m·s⁻² | Término cosmológico localmente despreciable frente a a<sub>Sol</sub> | Rechazo de Λ como fuerza local |
+| BN-10 | Relación a<sub>Λ</sub>/a<sub>Sol</sub> a 1 UA | a<sub>Λ</sub>, a<sub>Sol</sub> | cociente | ≈ 8,255 × 10⁻²³ | Λ no gobierna la atracción orbital local | Rechazo del intercambio Λ→G |
+| BN-11 | Efecto Λ a 1 Mpc | Λ<sub>SV,ret</sub>, c, 1 Mpc | a<sub>Λ</sub> = Λc²r/3 | ≈ 1,008 × 10⁻¹³ m·s⁻² | Magnitud de escala cosmológica, no fuerza entre dos masas puntuales | Absorción cosmológica |
+| BN-12 | Distancia cosmológica usada como r local | G, masas locales, D<sub>L</sub> o D<sub>A</sub> | F = GMm/D² | Resultado numérico formal | El número no tiene retorno local si D no es separación homogénea | Rechazo |
+| BN-13 | Energía de vacío desnuda → Λ | ρ<sub>vac,desnuda</sub>, Λ | Igualdad directa | No admisible | Falta renormalización, acoplamiento, dominio y retorno cosmológico | Rechazo |
+| BN-14 | Higgs → toda masa | Mecanismo de Higgs, masa hadrónica, masa macroscópica | Extensión universal | No admisible | Higgs explica una contribución de dominio, no toda persistencia material | Absorción parcial / rechazo del exceso |
+| BN-15 | Campo = energía | Campo, energía de campo, energía de reposo, Λ | Identidad universal | No admisible | Campo y energía se articulan por dominio, no por sinonimia | Rechazo |
+
+### XII.3. Banco de conclusiones numéricas
+
+Las conclusiones numéricas del banco separan tres niveles. En el nivel local, G devuelve magnitudes coherentes para Tierra, Luna y Sol cuando las masas y separaciones son homogéneas; esto confirma la absorción de la gravitación clásica en su dominio. En el nivel cosmológico, Λ<sub>SV,puro</sub> y Λ<sub>SV,ret</sub> devuelven magnitudes del orden 10⁻⁵² m⁻²; esto confirma que la constante cosmológica pertenece a un régimen de curvatura efectiva, no a una fuerza local ordinaria. En el nivel adversarial, el efecto Λ a 1 UA resulta unas 10²² veces menor que la aceleración solar local; esto impide usar Λ como explicación de la atracción orbital y, simétricamente, impide usar G como explicación total de la aceleración cosmológica. El resultado puesto sobre la mesa es concreto: la física contemporánea acierta al calcular G en régimen local y Λ en régimen cosmológico; el Sistema Vectorial SV aporta la separación de dominio que impide convertir esos aciertos en extrapolaciones falsas; el residual no se oculta, se declara.
+
+| Conclusión | Dato material | Resultado | Lo que queda en firme | Dictamen |
+|---|---|---:|---|---|
+| G funciona en régimen local | Tierra–Luna | F ≈ 1,982 × 10²⁰ N | La atracción local entre masas positivas es retornable con r homogénea | Absorción |
+| G funciona en órbita heliocéntrica | Sol–Tierra | a ≈ 5,930 × 10⁻³ m·s⁻² | La gravitación clásica conserva eficacia en dominio débil | Absorción |
+| Λ tiene dimensión cosmológica | T<sub>obs</sub>, c | Λ<sub>puro</sub> ≈ 1,760 × 10⁻⁵² m⁻² | Λ es curvatura efectiva, no sustancia ni fuerza local | Absorción |
+| Λ retorna con parámetros ΛCDM | H₀, Ω<sub>Λ</sub>, c | Λ<sub>ret</sub> ≈ 1,091 × 10⁻⁵² m⁻² | El retorno mixto conserva dominio observacional | Absorción con residual |
+| Λ no explica la atracción local | 1 UA | a<sub>Λ</sub>/a<sub>Sol</sub> ≈ 8,255 × 10⁻²³ | La constante cosmológica no gobierna la dinámica orbital local | Rechazo del uso local |
+| G no explica Λ | comparación dimensional | m³·kg⁻¹·s⁻² frente a m⁻² | Las constantes no son intercambiables | Rechazo del intercambio |
+| Energía no basta para masa | energía sin frontera | sin identidad material | La masa exige retención, retorno y traza | Rechazo de “toda energía es masa” |
+| Campo no equivale a energía | campo sin retorno energético | sin unidad energética apta | La articulación exige dominio y ecuación | Rechazo de sinonimia |
+
+### XII.4. Arquitectura material de laboratorios enlazados
+
+La carpeta de laboratorios debe quedar vinculada con URLs absolutas desde este apartado para que el lector pueda localizar cada comprobación sin depender de enlaces relativos que PubPub pueda reinterpretar. La raíz canónica prevista para este conjunto es [laboratorios/](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios). El [README de laboratorios](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/README.md) debe explicar ejecución, dependencias, política de error, relación entre bancos visibles y scripts, y prohibición de pase silencioso. El [runner maestro](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/runner.py) debe ejecutar todos los laboratorios y detenerse ante el primer fallo. El [catálogo de errores](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/catalogo_errores.csv) debe recoger los códigos de rechazo, absorción parcial e indeterminación honesta. La [salida esperada](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/salida_esperada.txt) y la [salida obtenida](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/salida_obtenida.txt) deben permitir cotejo textual. Los datos tabulares deben residir en [datos/](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/datos), sin sustituir las tablas completas ya inyectadas en este .md.
+
+| Elemento | URL absoluta | Función |
+|---|---|---|
+| Raíz de laboratorios | [laboratorios/](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios) | Carpeta material de verificación reproducible |
+| README | [README.md](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/README.md) | Instrucciones de ejecución, criterio de dictamen y trazabilidad |
+| Runner maestro | [runner.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/runner.py) | Ejecuta todos los laboratorios y bloquea pase silencioso |
+| Constantes | [datos/constantes.csv](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/datos/constantes.csv) | Declara c, G, H₀, Ω<sub>Λ</sub>, T<sub>obs</sub>, Mpc y magnitudes astronómicas usadas |
+| Banco positivo | [datos/banco_positivo.csv](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/datos/banco_positivo.csv) | Recoge casos de absorción y absorción parcial |
+| Banco negativo | [datos/banco_negativo.csv](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/datos/banco_negativo.csv) | Recoge la batería de rechazo N-01 a N-15 |
+| Banco de transducción | [datos/banco_transduccion.csv](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/datos/banco_transduccion.csv) | Declara dirección ciencia contemporánea ↔ SV, unidad, residual y retorno |
+| Catálogo de errores | [catalogo_errores.csv](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/catalogo_errores.csv) | Asocia errores a defectos de dominio, unidad, transducción y retorno |
+| Salida esperada | [salida_esperada.txt](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/salida_esperada.txt) | Resultado textual que debe reproducir el runner |
+| Salida obtenida | [salida_obtenida.txt](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/salida_obtenida.txt) | Registro de ejecución reproducida |
+
+### XII.5. Índice detallado de laboratorios
+
+Cada laboratorio verifica una afirmación ya formulada; no introduce doctrina nueva, no sustituye la demostración conceptual y no modifica el dominio que comprueba. La relación entre banco visible y fichero ejecutable debe ser uno a uno: el banco imprime las tablas y resultados en el texto; el script reproduce la operación y detecta desviaciones. Esta arquitectura permite que un tercero compruebe el cálculo manualmente desde el .md o automáticamente desde el runner.
+
+| ID | Banco textual | Laboratorio enlazado | Qué comprueba | Salida esperada |
+|---|---|---|---|---|
+| LAB-01 | Campo–energía | [LAB-01_campo_energia.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/LAB-01_campo_energia.py) | Comprueba que campo y energía sólo se articulan con dominio, unidad, ecuación y retorno | Absorción del régimen cerrado; rechazo de sinonimia universal |
+| LAB-02 | Masa y frontera | [LAB-02_masa_frontera.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/LAB-02_masa_frontera.py) | Verifica que energía sin frontera no constituye masa persistente | Rechazo de “toda energía es masa” |
+| LAB-03 | Hidrógeno como caso canónico | [LAB-03_hidrogeno_persistencia.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/LAB-03_hidrogeno_persistencia.py) | Comprueba identidad atómica, masa, espectro, retorno y traza como caso de persistencia | Absorción de caso canónico conocido |
+| LAB-04 | Campo gravitatorio | [LAB-04_campo_gravitatorio.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/LAB-04_campo_gravitatorio.py) | Separa masa persistente, campo formado, dominio de separación y respuesta gravitatoria | Absorción de campo como respuesta de dominio |
+| LAB-05 | Atracción local | [LAB-05_atraccion_local.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/LAB-05_atraccion_local.py) | Calcula F = Gm₁m₂/r² con masas y r homogénea | Absorción local |
+| LAB-06 | Distancias tipadas | [LAB-06_distancias_tipadas.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/LAB-06_distancias_tipadas.py) | Distingue r local, D<sub>L</sub>, D<sub>A</sub>, D<sub>M</sub>, distancia factual y retorno luminoso | Rechazo de sustitución sin transducción |
+| LAB-07 | G local | [LAB-07_constante_G.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/LAB-07_constante_G.py) | Comprueba G como coeficiente metrológico de retorno local | Absorción metrológica |
+| LAB-08 | Λ puro | [LAB-08_lambda_puro.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/LAB-08_lambda_puro.py) | Calcula Λ<sub>SV,puro</sub> = 3/(c²T<sub>obs</sub>²) | Absorción cosmológica |
+| LAB-09 | Λ retorno mixto | [LAB-09_lambda_retorno.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/LAB-09_lambda_retorno.py) | Calcula Λ<sub>SV,ret</sub> = 3Ω<sub>Λ</sub>H₀²/c² | Absorción con residual |
+| LAB-10 | Separación G–Λ | [LAB-10_separacion_G_Lambda.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/LAB-10_separacion_G_Lambda.py) | Comprueba dimensiones, dominios y retornos no intercambiables | Rechazo del intercambio |
+| LAB-11 | Vacío cuántico y Λ | [LAB-11_vacio_lambda.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/LAB-11_vacio_lambda.py) | Detecta proyección directa de energía de vacío desnuda sobre Λ física | Rechazo sin mediación |
+| LAB-12 | Energía oscura dinámica | [LAB-12_energia_oscura_dinamica.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/LAB-12_energia_oscura_dinamica.py) | Separa tensión observacional, parametrización w(z) y mecanismo físico | Absorción parcial |
+| LAB-13 | Transducción bidireccional | [LAB-13_transduccion_bidireccional.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/LAB-13_transduccion_bidireccional.py) | Verifica ida y vuelta ciencia contemporánea ↔ SV con unidad y residual | Absorción si hay retorno físico |
+| LAB-14 | Matriz de absorción | [LAB-14_matriz_absorcion.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/LAB-14_matriz_absorcion.py) | Comprueba que el dictamen se emite por uso y dominio, no por nombre | Absorción, absorción parcial o rechazo |
+| LAB-15 | Banco negativo integral | [LAB-15_banco_negativo_integral.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/LAB-15_banco_negativo_integral.py) | Ejecuta los quince negativos críticos y verifica que ninguno pasa | Rechazo de todos los negativos |
+| LAB-16 | Salida global | [LAB-16_salida_global.py](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/campo-energia-masa-gravedad/laboratorios/LAB-16_salida_global.py) | Compara salida obtenida con salida esperada y verifica ausencia de pase silencioso | APTO sólo si todo coincide |
+
+### XII.6. Banco positivo de absorción y absorción parcial
+
+El banco positivo recoge operaciones que deben pasar cuando dominio, unidad, ecuación y retorno están declarados. No todos los positivos son absorciones totales: algunos son absorciones parciales porque el resultado físico se conserva sólo con frontera, residual o limitación de alcance. La finalidad de esta tabla es impedir que “positivo” se confunda con “fundamento total”.
+
+| Código | Afirmación comprobada | Entrada mínima | Operación | Retorno | Dictamen |
+|---|---|---|---|---|---|
+| P-01 | La gravitación clásica calcula retorno local | G, m₁, m₂, r local | F = Gm₁m₂/r² | N | Absorción local |
+| P-02 | G devuelve aceleración local | G, M, r local | g = GM/r² | m·s⁻² | Absorción metrológica |
+| P-03 | Λ puro devuelve curvatura efectiva | c, T<sub>obs</sub> | 3/(c²T<sub>obs</sub>²) | m⁻² | Absorción cosmológica |
+| P-04 | Λ retorno mixto conserva modelo | Ω<sub>Λ</sub>, H₀, c | 3Ω<sub>Λ</sub>H₀²/c² | m⁻² | Absorción con residual |
+| P-05 | La distancia local admite fuerza | r homogénea | uso en F = Gm₁m₂/r² | N | Absorción |
+| P-06 | D<sub>L</sub> funciona como distancia cosmológica | z, H(z), modelo | retorno luminoso | m o Mpc | Absorción tipada |
+| P-07 | Higgs aporta masa elemental | campo de Higgs, acoplamiento | masa de reposo elemental | eV/c² o kg | Absorción parcial fuerte |
+| P-08 | QCD explica masa hadrónica | confinamiento, energía de campos | masa efectiva hadrónica | MeV/c² o kg | Absorción de dominio |
+| P-09 | E = mc² traduce masa y energía | m, c | E = mc² | J | Absorción metrológica |
+| P-10 | El hidrógeno conserva persistencia atómica | frontera, espectro, masa | retorno atómico | masa, línea espectral, traza | Absorción de caso canónico |
+| P-11 | El régimen Maxwell retorna energía de campo | campo, fuentes, frontera | balance electromagnético | J o J·m⁻³ | Absorción sectorial |
+| P-12 | DESI presiona el modelo sin cerrarlo | BAO, CMB, supernovas | contraste de tensión | hipótesis parcial | Absorción parcial |
+
+### XII.7. Banco negativo fuerte de estrés
+
+El banco negativo debe contener, como mínimo, quince casos diseñados para fallar. Su función es demostrar que el aparato no concede cierres favorables por apariencia matemática, por autoridad de una ecuación, por éxito empírico parcial, por vocabulario físico heredado ni por afinidad formal. Cada negativo activa un error distinto y debe producir rechazo o absorción parcial estrictamente delimitada.
+
+| Código | Entrada defectuosa | Operación indebida | Error activado | Resultado esperado |
+|---|---|---|---|---|
+| N-01 | D<sub>L</sub> como r local | F = Gm₁m₂/D<sub>L</sub>² | Distancia cosmológica usada como separación local | Rechazo |
+| N-02 | D<sub>A</sub> como r local | g = GM/D<sub>A</sub>² | Sustitución de distancia angular por r gravitatoria | Rechazo |
+| N-03 | Coordenada comóvil como distancia de fuerza | F = Gm₁m₂/D<sub>M</sub>² | Uso dinámico local de distancia de modelo | Rechazo |
+| N-04 | Λ como fuerza orbital | a = Λc²r/3 para explicar órbita local | Término cosmológico tratado como fuerza local | Rechazo |
+| N-05 | G como causa de expansión | G explica Λ | Intercambio de constante local y curvatura cosmológica | Rechazo |
+| N-06 | Λ como calor | Λ = temperatura | Confusión de curvatura con magnitud térmica | Rechazo |
+| N-07 | Energía oscura como sustancia material | ρ<sub>Λ</sub> = materia ordinaria oculta | Sustancialización del término efectivo | Rechazo |
+| N-08 | Energía de vacío desnuda = Λ física | igualdad directa | Falta renormalización, acoplamiento, dominio y retorno | Rechazo |
+| N-09 | Toda energía es masa | E cualquiera → m | Ausencia de frontera, residual y traza | Rechazo |
+| N-10 | Higgs explica toda masa | Higgs → masa hadrónica y macroscópica total | Exceso de alcance de mecanismo parcial | Rechazo del exceso |
+| N-11 | QCD explica toda persistencia material | confinamiento → toda masa | Extrapolación de dominio hadrónico | Rechazo del exceso |
+| N-12 | Campo = energía | identidad universal | Sinonimia sin unidad ni retorno | Rechazo |
+| N-13 | Curvatura sin fuente ni acción | “curvatura” como explicación total | Falta fuente, acción, variación y retorno | Rechazo |
+| N-14 | G exacta por definición | G como constante definitoria SI | Confusión metrológica | Rechazo |
+| N-15 | Preferencia estadística como fundamento | ajuste w(z) → mecanismo final | Estadística o ajuste como cierre físico | Rechazo |
+| N-16 | T<sub>obs</sub> como tiempo soberano | T<sub>obs</sub> causa cronológica | Confusión de escala de retorno con tiempo rector | Rechazo |
+| N-17 | Distancia factual como longitud ordinaria | d<sup>SV</sup> usada como metro físico sin transducción | Mezcla de distancia factual y longitud SI | Rechazo |
+| N-18 | Salida no tabulada aceptada | resultado ausente de tablas | Pase silencioso | Rechazo |
+
+### XII.8. Catálogo de errores asociado
+
+El catálogo de errores debe permitir que el laboratorio emita un código inequívoco cuando detecte una desviación. El código no sustituye el razonamiento, pero impide que un fallo quede descrito de forma ambigua. Cada error se asocia a negativos y laboratorios concretos.
+
+| Código de error | Descripción | Negativos asociados | Laboratorios asociados | Dictamen |
+|---|---|---|---|---|
+| E-DOM-01 | Magnitud sin dominio declarado | N-01, N-02, N-03 | LAB-06, LAB-15 | Rechazo |
+| E-DIST-01 | Distancia cosmológica usada como r local | N-01, N-02, N-03 | LAB-05, LAB-06, LAB-15 | Rechazo |
+| E-G-01 | G tratada como causa última | N-05 | LAB-07, LAB-10, LAB-15 | Rechazo |
+| E-LAM-01 | Λ tratada como fuerza local | N-04 | LAB-08, LAB-09, LAB-10, LAB-15 | Rechazo |
+| E-LAM-02 | Λ tratada como calor o temperatura | N-06 | LAB-09, LAB-15 | Rechazo |
+| E-DE-01 | Energía oscura sustancializada | N-07 | LAB-12, LAB-15 | Rechazo |
+| E-VAC-01 | Vacío desnudo proyectado directamente sobre Λ | N-08 | LAB-11, LAB-15 | Rechazo |
+| E-MASA-01 | Energía sin frontera tratada como masa | N-09 | LAB-02, LAB-15 | Rechazo |
+| E-MASA-02 | Higgs usado como explicación total | N-10 | LAB-02, LAB-15 | Rechazo del exceso |
+| E-HAD-01 | QCD extendida fuera de dominio | N-11 | LAB-02, LAB-15 | Rechazo del exceso |
+| E-CAMPO-01 | Campo y energía identificados universalmente | N-12 | LAB-01, LAB-15 | Rechazo |
+| E-GEM-01 | Curvatura sin fuente, acción ni retorno | N-13 | LAB-04, LAB-15 | Rechazo |
+| E-SI-01 | Constante experimental tratada como definitoria | N-14 | LAB-07, LAB-15 | Rechazo |
+| E-STAT-01 | Ajuste estadístico usado como fundamento | N-15 | LAB-12, LAB-15 | Rechazo |
+| E-TIME-01 | Escala de retorno tratada como tiempo rector | N-16 | LAB-08, LAB-15 | Rechazo |
+| E-SV-01 | Distancia factual leída como longitud física sin mediación | N-17 | LAB-06, LAB-13, LAB-15 | Rechazo |
+| E-LAB-01 | Salida no tabulada o pase silencioso | N-18 | LAB-16 | Rechazo |
+
+### XII.9. Banco de transducción extremo a extremo
+
+El banco de transducción extremo a extremo muestra qué aporta el Sistema Vectorial SV frente a una lectura física no transducida: no cambia la constante, no altera el dato empírico y no sustituye el lenguaje físico, sino que fuerza una cadena completa de dominio, unidad, residual y retorno. La dirección ciencia contemporánea → SV recibe la magnitud física y detecta su tipo; la dirección SV → ciencia contemporánea devuelve unidad SI o magnitud evaluable. La operación es apta si la ida y la vuelta conservan dominio; queda parcial si falta una mediación concreta; se rechaza si la vuelta sólo conserva vocabulario.
+
+| ID | Entrada física | Dirección ciencia contemporánea → SV | Residual | Dirección SV → ciencia contemporánea | Salida evaluable | Dictamen |
+|---|---|---|---|---|---|---|
+| T-01 | F = Gm₁m₂/r² | Gravitación local con r homogénea | Δ = 0 si dominio local | Retorno fuerza | N | Absorción |
+| T-02 | g = GM/r² | Fuente local y separación radial | Δ = 0 si r local | Retorno aceleración | m·s⁻² | Absorción |
+| T-03 | κ = 8πG/c⁴ | Acoplamiento relativista | Δ parcial por dominio geométrico | Retorno geométrico | acoplamiento SI | Absorción parcial |
+| T-04 | Λ<sub>SV,puro</sub> | Escala ciclo-distancial | Δ = 0 en dominio puro | Curvatura efectiva | m⁻² | Absorción |
+| T-05 | Λ<sub>SV,ret</sub> | Retorno cosmológico mixto | Δ observacional/modelo | Curvatura por H₀ y Ω<sub>Λ</sub> | m⁻² | Absorción con residual |
+| T-06 | D<sub>L</sub> | Distancia de luminosidad | Δ si se usa como r local | Retorno luminoso | m o Mpc | Absorción sólo cosmológica |
+| T-07 | ρ<sub>Λ</sub>, p<sub>Λ</sub> | Término efectivo ΛCDM | Δ si se sustancializa | Densidad/presión efectiva | J·m⁻³, Pa | Absorción parcial |
+| T-08 | Energía de vacío desnuda | Dominio microfísico sin mediación | Δ crítico | Sin retorno directo a Λ | No apto | Rechazo |
+| T-09 | Masa por Higgs | Régimen electrodébil | Δ por masa no cubierta | Retorno masa elemental | eV/c² o kg | Absorción parcial fuerte |
+| T-10 | Masa hadrónica | QCD/confinamiento | Δ fuera de hadrones | Retorno masa efectiva | MeV/c² o kg | Absorción de dominio |
+| T-11 | Energía de dominio retenida | Frontera, residual, traza | Δ = 0 si hay identidad | Retorno masa | kg, eV/c² | Absorción |
+| T-12 | Campo electromagnético | Fuente, frontera, balance | Δ = 0 si Maxwell cierra | Energía/campo retornable | J, J·m⁻³ | Absorción sectorial |
+
+### XII.10. Política de ejecución y cierre del runner
+
+La ejecución del runner debe respetar una política conservadora. Todo banco positivo debe devolver el resultado esperado dentro de tolerancia declarada; todo banco negativo debe fallar con el código de error previsto; toda salida debe estar tabulada; ninguna excepción puede transformarse en pase; ningún valor calculado puede sustituir al dato declarativo; ninguna magnitud puede convertirse en apta por ausencia de fallo; y ninguna U puede cerrarse por comodidad. El runner sólo puede emitir APTO si se cumplen simultáneamente las cuatro condiciones siguientes: todos los positivos retornan con unidad correcta, todos los negativos son detectados, todas las transducciones conservan dominio y todas las salidas obtenidas coinciden con la salida esperada.
+
+| Condición | Exigencia | Fallo correspondiente | Dictamen si falla |
+|---|---|---|---|
+| C-01 | Todos los positivos calculan unidad y retorno correctos | Error numérico, dimensional o de dominio | NO APTO |
+| C-02 | Todos los negativos fallan con código previsto | Negativo aceptado | NO APTO |
+| C-03 | No hay salida no tabulada | Resultado sin banco visible | NO APTO |
+| C-04 | No hay pase silencioso | Excepción, ausencia de prueba o default favorable | NO APTO |
+| C-05 | Toda transducción tiene ida y vuelta | Lenguaje sin retorno físico | NO APTO |
+| C-06 | Toda U queda materialmente justificada | Indeterminación usada como refugio | NO APTO |
+| C-07 | Toda URL absoluta apunta al elemento nombrado | Enlace roto o relativo | NO APTO |
+| C-08 | Bibliografía y constantes son trazables | Magnitud no referenciada o no declarada | NO APTO |
+
+### XII.11. Salida esperada global
+
+La salida esperada global no debe redactarse como mera satisfacción del runner, sino como conclusión material del banco: el conjunto es apto si confirma absorción local de G, absorción cosmológica de Λ, absorción parcial de energía oscura dinámica, rechazo de intercambios G–Λ, rechazo de distancias no tipadas, rechazo de energía sin frontera como masa y rechazo de cualquier pase silencioso. La salida esperada debe quedar en texto y en JSON o CSV, pero el cuerpo de este apartado conserva la tabla completa para que la lectura humana no dependa de la ejecución.
+
+| Grupo | Esperado | Razón | Dictamen global |
+|---|---|---|---|
+| Positivos P-01 a P-12 | Todos pasan | Dominio, unidad y retorno declarados | APTO positivo |
+| Negativos N-01 a N-18 | Todos fallan | Defectos de dominio, unidad, transducción o retorno | APTO adversarial |
+| Transducciones T-01 a T-12 | Retorno físico evaluable o rechazo justificado | Doble dirección controlada | APTO transductivo |
+| G local | Retorna fuerza/aceleración | m³·kg⁻¹·s⁻² con masas y r local | Absorción |
+| Λ cosmológica | Retorna m⁻² | Curvatura efectiva del dominio observable | Absorción |
+| Energía oscura dinámica | No cierra mecanismo final | Parámetro o tensión, no sustancia | Absorción parcial |
+| Intercambio G–Λ | No pasa | Dominios y dimensiones incompatibles | Rechazo |
+| Salida global | Sin fallos silenciosos | Todo resultado está tabulado | APTO sólo si coincide |
+
+### XII.12. Dictamen del apartado
+
+El dictamen de este apartado es que los laboratorios deben hacer retornable lo afirmado y falsable lo rechazado. El desarrollo anterior concluye algo materialmente preciso: la física contemporánea acierta con gran potencia cuando calcula dentro de sus dominios; el Sistema Vectorial SV aporta la disciplina que impide transformar esos aciertos en extrapolaciones indebidas; G queda absorbida como coeficiente metrológico de retorno local; Λ queda absorbida como curvatura efectiva ciclo-distancial del dominio observable; la energía oscura queda absorbida parcialmente como denominación efectiva; y las lecturas que mezclan distancia, unidad, constante, sustancia, campo, energía, masa o régimen quedan rechazadas. El laboratorio no crea estas conclusiones: las comprueba. La tabla visible permite reproducir el razonamiento en el texto; la arquitectura enlazada permite reejecutar el banco; la batería negativa impide cierres favorables por apariencia formal; y la salida global exige que los positivos pasen, los negativos fallen y toda transducción tenga retorno físico.
 
 
 ## Bibliografía
