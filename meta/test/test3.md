@@ -46,62 +46,8 @@ El resultado esperado es una arquitectura de cálculo capaz de distinguir cuatro
 
 ### Bibliografía interna del corpus SV
 
-Lloret Egea, J. A. (2026). *Teoría del TODO y de la NADA en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™.
-
-Lloret Egea, J. A. (2026). *Teoría general de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™.
-
-Lloret Egea, J. A. (2026). *Primitivos metrológicos del Sistema Vectorial SV: instanciaciones contingentes de las constantes fundacionales del Sistema Internacional, justificación algebraica y tabla de equivalencias factuales*. IA eñ™ — La Biblia de la IA™.
-
-Lloret Egea, J. A. (2026). *Imperfección preformal y espacio: ε−0, primera distinguibilidad y dominio estructural completo de separación factual recorrible*. IA eñ™ — La Biblia de la IA™.
-
-Lloret Egea, J. A. (2026). *Campo y energía, génesis de la masa y definición física de la gravedad: gravitación universal, constante cosmológica y dominio observable*. IA eñ™ — La Biblia de la IA™.
-
-Lloret Egea, J. A. (2026). *Teorema de resolución física de la constante cosmológica: transducción ciclo-distancial SV de Λ, energía oscura y expansión cosmológica*. IA eñ™ — La Biblia de la IA™.
-
-Lloret Egea, J. A. (2026). *Distancia absoluta y relativa entre observables del Universo*. IA eñ™ — La Biblia de la IA™.
-
-Lloret Egea, J. A. (2026). *Edades relativas del universo observable y de sus objetos físicos*. IA eñ™ — La Biblia de la IA™.
-
-Lloret Egea, J. A. (2026). *Del contenido físico factual del suceso a las clases factuales emergentes*. IA eñ™ — La Biblia de la IA™.
-
-Lloret Egea, J. A. (2026). *Del contenido físico factual del suceso a la entidad soberana del campo en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™.
+Lloret Egea, J. A. (2026). *Teoría del TODO y de la NADA en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™; Lloret Egea, J. A. (2026). *Teoría general de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™; Lloret Egea, J. A. (2026). *Primitivos metrológicos del Sistema Vectorial SV: instanciaciones contingentes de las constantes fundacionales del Sistema Internacional, justificación algebraica y tabla de equivalencias factuales*. IA eñ™ — La Biblia de la IA™; Lloret Egea, J. A. (2026). *Imperfección preformal y espacio: ε−0, primera distinguibilidad y dominio estructural completo de separación factual recorrible*. IA eñ™ — La Biblia de la IA™; Lloret Egea, J. A. (2026). *Campo y energía, génesis de la masa y definición física de la gravedad: gravitación universal, constante cosmológica y dominio observable*. IA eñ™ — La Biblia de la IA™; Lloret Egea, J. A. (2026). *Teorema de resolución física de la constante cosmológica: transducción ciclo-distancial SV de Λ, energía oscura y expansión cosmológica*. IA eñ™ — La Biblia de la IA™; Lloret Egea, J. A. (2026). *Distancia absoluta y relativa entre observables del Universo*. IA eñ™ — La Biblia de la IA™; Lloret Egea, J. A. (2026). *Edades relativas del universo observable y de sus objetos físicos*. IA eñ™ — La Biblia de la IA™; Lloret Egea, J. A. (2026). *Del contenido físico factual del suceso a las clases factuales emergentes*. IA eñ™ — La Biblia de la IA™; Lloret Egea, J. A. (2026). *Del contenido físico factual del suceso a la entidad soberana del campo en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™.
 
 ### Bibliografía externa inicial
 
-Babcock, H. W. (1939). The rotation of the Andromeda Nebula. *Lick Observatory Bulletin, 19*, 41–51.
-
-Bekenstein, J. D. (2004). Relativistic gravitation theory for the MOND paradigm. *Physical Review D, 70*, 083509. https://doi.org/10.1103/PhysRevD.70.083509
-
-Bosma, A. (1981). 21-cm line studies of spiral galaxies. I. Observational facts. *The Astronomical Journal, 86*, 1791–1846.
-
-Burkert, A. (1995). The structure of dark matter halos in dwarf galaxies. *The Astrophysical Journal Letters, 447*, L25–L28.
-
-Carr, B. J., & Hawking, S. W. (1974). Black holes in the early Universe. *Monthly Notices of the Royal Astronomical Society, 168*(2), 399–415.
-
-Clowe, D., Bradač, M., Gonzalez, A. H., Markevitch, M., Randall, S. W., Jones, C., & Zaritsky, D. (2006). A direct empirical proof of the existence of dark matter. *The Astrophysical Journal Letters, 648*(2), L109–L113.
-
-DESI Collaboration, Adame, A. G., Aguilar, J., Ahlen, S., Alam, S., Alexander, D. M., et al. (2024). DESI 2024 VI: Cosmological constraints from the measurements of baryon acoustic oscillations. *arXiv*. https://arxiv.org/abs/2404.03002
-
-Freeman, K. C. (1970). On the disks of spiral and S0 galaxies. *The Astrophysical Journal, 160*, 811–830.
-
-Hawking, S. W. (1971). Gravitationally collapsed objects of very low mass. *Monthly Notices of the Royal Astronomical Society, 152*(1), 75–78.
-
-Milgrom, M. (1983). A modification of the Newtonian dynamics as a possible alternative to the hidden mass hypothesis. *The Astrophysical Journal, 270*, 365–370. https://doi.org/10.1086/161130
-
-Navarro, J. F., Frenk, C. S., & White, S. D. M. (1996). The structure of cold dark matter halos. *The Astrophysical Journal, 462*, 563–575. https://doi.org/10.1086/177173
-
-Oort, J. H. (1932). The force exerted by the stellar system in the direction perpendicular to the galactic plane and some related problems. *Bulletin of the Astronomical Institutes of the Netherlands, 6*, 249–287.
-
-Peccei, R. D., & Quinn, H. R. (1977). CP conservation in the presence of pseudoparticles. *Physical Review Letters, 38*(25), 1440–1443.
-
-Planck Collaboration, Aghanim, N., Akrami, Y., Ashdown, M., Aumont, J., Baccigalupi, C., et al. (2020). Planck 2018 results. VI. Cosmological parameters. *Astronomy & Astrophysics, 641*, A6. https://doi.org/10.1051/0004-6361/201833910
-
-Rubin, V. C., & Ford, W. K., Jr. (1970). Rotation of the Andromeda Nebula from a spectroscopic survey of emission regions. *The Astrophysical Journal, 159*, 379–403. https://doi.org/10.1086/150317
-
-Spergel, D. N., & Steinhardt, P. J. (2000). Observational evidence for self-interacting cold dark matter. *Physical Review Letters, 84*(17), 3760–3763.
-
-Weinberg, S. (1978). A new light boson? *Physical Review Letters, 40*(4), 223–226.
-
-Wilczek, F. (1978). Problem of strong P and T invariance in the presence of instantons. *Physical Review Letters, 40*(5), 279–282.
-
-Zwicky, F. (1933). Die Rotverschiebung von extragalaktischen Nebeln. *Helvetica Physica Acta, 6*, 110–127.
+Babcock, H. W. (1939). The rotation of the Andromeda Nebula. *Lick Observatory Bulletin, 19*, 41–51; Bekenstein, J. D. (2004). Relativistic gravitation theory for the MOND paradigm. *Physical Review D, 70*, 083509. https://doi.org/10.1103/PhysRevD.70.083509; Bosma, A. (1981). 21-cm line studies of spiral galaxies. I. Observational facts. *The Astronomical Journal, 86*, 1791–1846. https://doi.org/10.1086/113063; Burkert, A. (1995). The structure of dark matter halos in dwarf galaxies. *The Astrophysical Journal Letters, 447*, L25–L28. https://doi.org/10.1086/309560; Carr, B. J., & Hawking, S. W. (1974). Black holes in the early Universe. *Monthly Notices of the Royal Astronomical Society, 168*(2), 399–415. https://doi.org/10.1093/mnras/168.2.399; Clowe, D., Bradač, M., Gonzalez, A. H., Markevitch, M., Randall, S. W., Jones, C., & Zaritsky, D. (2006). A direct empirical proof of the existence of dark matter. *The Astrophysical Journal Letters, 648*(2), L109–L113; DESI Collaboration, Adame, A. G., Aguilar, J., Ahlen, S., Alam, S., Alexander, D. M., et al. (2024). DESI 2024 VI: Cosmological constraints from the measurements of baryon acoustic oscillations. *arXiv*. https://arxiv.org/abs/2404.03002; Dodelson, S., & Widrow, L. M. (1994). Sterile neutrinos as dark matter. *Physical Review Letters, 72*(1), 17–20. https://doi.org/10.1103/PhysRevLett.72.17; Einasto, J. (1965). On the construction of a composite model for the Galaxy and on the determination of the system of Galactic parameters. *Trudy Astrofizicheskogo Instituta Alma-Ata, 5*, 87–100; Freeman, K. C. (1970). On the disks of spiral and S0 galaxies. *The Astrophysical Journal, 160*, 811–830. https://doi.org/10.1086/150474; Hawking, S. W. (1971). Gravitationally collapsed objects of very low mass. *Monthly Notices of the Royal Astronomical Society, 152*(1), 75–78; Hinshaw, G., Larson, D., Komatsu, E., Spergel, D. N., Bennett, C. L., Dunkley, J., Nolta, M. R., Halpern, M., Hill, R. S., Odegard, N., Page, L., Smith, K. M., Weiland, J. L., Gold, B., Jarosik, N., Kogut, A., Limon, M., Meyer, S. S., Tucker, G. S., Wollack, E., & Wright, E. L. (2013). Nine-year Wilkinson Microwave Anisotropy Probe (WMAP) observations: Cosmological parameter results. *The Astrophysical Journal Supplement Series, 208*(2), 19. https://doi.org/10.1088/0067-0049/208/2/19; Milgrom, M. (1983). A modification of the Newtonian dynamics as a possible alternative to the hidden mass hypothesis. *The Astrophysical Journal, 270*, 365–370. https://doi.org/10.1086/161130; Moore, B., Ghigna, S., Governato, F., Lake, G., Quinn, T., Stadel, J., & Tozzi, P. (1999). Dark matter substructure within galactic halos. *The Astrophysical Journal Letters, 524*(1), L19–L22; Navarro, J. F., Frenk, C. S., & White, S. D. M. (1996). The structure of cold dark matter halos. *The Astrophysical Journal, 462*, 563–575. https://doi.org/10.1086/177173; Oort, J. H. (1932). The force exerted by the stellar system in the direction perpendicular to the galactic plane and some related problems. *Bulletin of the Astronomical Institutes of the Netherlands, 6*, 249–287; Ostriker, J. P., & Peebles, P. J. E. (1973). A numerical study of the stability of flattened galaxies: Or, can cold galaxies survive? *The Astrophysical Journal, 186*, 467–480. https://doi.org/10.1086/152513; Peccei, R. D., & Quinn, H. R. (1977). CP conservation in the presence of pseudoparticles. *Physical Review Letters, 38*(25), 1440–1443; Planck Collaboration, Aghanim, N., Akrami, Y., Ashdown, M., Aumont, J., Baccigalupi, C., et al. (2020). Planck 2018 results. VI. Cosmological parameters. *Astronomy & Astrophysics, 641*, A6. https://doi.org/10.1051/0004-6361/201833910; Roberts, M. S., & Whitehurst, R. N. (1975). The rotation curve and geometry of M31 at large galactocentric distances. *The Astrophysical Journal, 201*, 327–346. https://doi.org/10.1086/153889; Rubin, V. C., & Ford, W. K., Jr. (1970). Rotation of the Andromeda Nebula from a spectroscopic survey of emission regions. *The Astrophysical Journal, 159*, 379–403. https://doi.org/10.1086/150317; Shi, X., & Fuller, G. M. (1999). A new dark matter candidate: Nonthermal sterile neutrinos. *Physical Review Letters, 82*(14), 2832–2835. https://doi.org/10.1103/PhysRevLett.82.2832; Spergel, D. N., & Steinhardt, P. J. (2000). Observational evidence for self-interacting cold dark matter. *Physical Review Letters, 84*(17), 3760–3763. https://doi.org/10.1103/PhysRevLett.84.3760; Spergel, D. N., Verde, L., Peiris, H. V., Komatsu, E., Nolta, M. R., Bennett, C. L., Halpern, M., Hinshaw, G., Jarosik, N., Kogut, A., Limon, M., Meyer, S. S., Page, L., Tucker, G. S., Weiland, J. L., Wollack, E., & Wright, E. L. (2003). First-year Wilkinson Microwave Anisotropy Probe (WMAP) observations: Determination of cosmological parameters. *The Astrophysical Journal Supplement Series, 148*, 175–194. https://doi.org/10.1086/377226; Weinberg, S. (1978). A new light boson? *Physical Review Letters, 40*(4), 223–226; Wilczek, F. (1978). Problem of strong P and T invariance in the presence of instantons. *Physical Review Letters, 40*(5), 279–282; Zwicky, F. (1933). Die Rotverschiebung von extragalaktischen Nebeln. *Helvetica Physica Acta, 6*, 110–127.
