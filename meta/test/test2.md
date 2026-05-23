@@ -263,6 +263,10 @@ El anexo B es más breve que el anexo A por razón doctrinal: el aparato Ξ_H,SV
 
 Una vez ambos anexos cumplen su función, la cadena editorial de la publicación queda así:
 
+Analizar previamente: ε−0: [Frontera regresiva de no nulidad polar en el Sistema Vectorial SV]( https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/imperfeccion-preformal-y-espacio/desarrollos-relacionados/frontera-regresiva-no-nulidad-polar)
+Tomar como referencia: [C:\SV\38_Masa energia\Fase III inmadura](C:\SV\38_Masa energia\Fase III inmadura\materia-oscura-con-nota-stop-seguimiento-v2.md)
+
+
 1. **Introducción y secciones del cuerpo principal**. Plantean el problema, articulan el aparato raigal, fijan dominios y restricciones.
 2. **Anexo A (helio)**. Introduce el operador Cant_SV en diálogo con la pieza del hidrógeno, aplica el operador a Ξ_He,SV y produce 𝓜_SV(Ω_He).
 3. **Anexo B (hidrógeno)**. Aplica el operador Cant_SV a Ξ_H,SV, produce 𝓜_SV(Ω_H), y cierra la cadena por suma de Ω_ret^M.
