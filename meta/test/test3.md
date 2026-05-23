@@ -1,3 +1,5 @@
+C:\SV\38_Masa energia\Fase II\calculo-materia-oscura-universo_punto_control_1_canonico_doi_corpus_v2 (1).md
+
 # Cálculo de la materia oscura del universo físico realizado
 
 ## Diferencia másica, Raigal, proyección másica y restricción oscura
