@@ -1,12 +1,10 @@
-
-
 # Cálculo de la materia oscura del universo físico realizado
 
 ## Diferencia másica, Raigal, proyección másica y restricción oscura
 
 **© 2026. Todos los derechos reservados.** | **Juan Antonio Lloret Egea** | **DOI pendiente** | ORCID: **0000-0002-6634-3351** | **Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA)** | **IA eñ™ — La Biblia de la IA™** | **ISSN 2695-6411** | **Licencia CC BY-NC-ND 4.0** | Madrid, 23/05/2026
 
-**Repositorio canónico previsto:** [https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/calculo-materia-oscura-universo](https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/calculo-materia-oscura-universo)
+**Repositorio canónico previsto:** https://github.com/juantoniolloretegea/SV-matematica-semantica/tree/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/calculo-materia-oscura-universo
 
 ## Resumen
 
@@ -24,184 +22,38 @@ This work addresses the dark matter problem through the physical-factual formula
 
 La materia oscura ocupa una posición singular en la física contemporánea. Su presencia no procede de observación luminosa directa, sino de una convergencia de retornos gravitatorios y cosmológicos: curvas de rotación galáctica, dinámica de cúmulos, lentes gravitacionales, separación entre materia bariónica y potencial gravitatorio en cúmulos en colisión, anisotropías del fondo cósmico de microondas, formación de estructura a gran escala y ajustes de modelo dentro de ΛCDM. Esa base empírica es demasiado robusta para despacharla como ilusión instrumental, pero tampoco clausura por sí sola la naturaleza física de lo oscuro. La dificultad aparece cuando una magnitud inferida por efecto gravitatorio recibe nombre material antes de haber pasado por dominio, unidad, proyección, residual, retorno y restricción. El problema no consiste sólo en preguntar cuánta masa no retorna por luz; exige determinar qué parte de una diferencia másica puede nombrarse materia oscura sin confundirla con energía oscura, agujeros negros identificados, vacío físico, error observacional, clase factual emergente no másica o indeterminación honesta. El estudio adopta como punto de partida una separación de planos. La física contemporánea entra con sus autores, modelos, observaciones, constantes, parámetros y tensiones: Zwicky y el problema de masa faltante; Oort, Babcock, Rubin, Ford y Roberts en dinámica galáctica; Ostriker, Peebles, Freeman y Bosma en la consolidación de halos; Navarro, Frenk, White, Einasto, Burkert y Moore en perfiles de distribución; Milgrom y Bekenstein en alternativas de gravedad modificada; Spergel y Steinhardt en materia oscura autointeractuante; Peccei, Quinn, Weinberg y Wilczek en axiones; Hawking y Carr en agujeros negros primordiales; Planck, WMAP, DESI y otros bancos cosmológicos en parámetros observacionales. Este mapa no agota el estado del arte, que recibirá desarrollo propio, pero fija la obligación académica de trabajar con teorías, métodos y evidencias reales. Sin ese suelo, cualquier cálculo de materia oscura correría el riesgo de convertirse en sustitución verbal de un problema físico efectivo. La tesis que se defiende es distinta de la resta ingenua. No basta decir “masa total menos masa visible”. El dominio visible no coincide con el dominio material retornado; el dominio observable no coincide con el universo físico realizado; una masa dinámica no equivale sin más a una masa material; una inferencia gravitatoria no autoriza por sí sola entidad oscura; y un residuo observacional no debe confundirse con U si el defecto procede de unidad, frontera, banco o doble cómputo. La formulación adoptada distingue tres niveles de trabajo: el registro intrínseco raigal, el registro observacional de banco y el registro de retorno auditado. En el primero, el cálculo opera desde Raigal_SV(Ω) := Ξ_SV(Ω), es decir, desde el contenido físico-factual preproyectivo del dominio. En el segundo, los datos contemporáneos ingresan como banco declarado, con magnitud, unidad, método, incertidumbre y alcance. En el tercero, el retorno se expresa como tupla auditada con valor, unidad, banco, incertidumbre, residual y dictamen. Esta arquitectura impide dos desviaciones: importar por la puerta de atrás una fórmula dimensional externa como cálculo intrínseco, o dejar el aparato raigal sin retorno físico. El núcleo operativo queda fijado por la cadena Ω_pre → Π₃ᴴ → K₃ⁿ → ε_Γ → Raigal_SV ≡ Ξ_SV → π_M → 𝓜_SV. Ω_pre nombra el estrato preternario; Π₃ᴴ induce la proyección ternaria; K₃ⁿ aporta marcos ternarios; ε_Γ designa el suceso factual operativo sobre marcos ya ternarizados, no ε₀; Raigal_SV identifica el contenido físico-factual preproyectivo; π_M ejecuta la proyección másica; y 𝓜_SV devuelve masa de dominio. La masa no comparece aquí como sustancia primaria, ni como cualquier energía, ni como simple cociente energético, sino como clausura másica del Raigal bajo identidad material, frontera compatible, residual gobernado, retorno material/gravitatorio y traza. Por ello, el dimensionamiento queda formulado como 𝓜_SV(Ω)=N_M^SV(Ω)·UFM, con N_M^SV(Ω) como número másico raigal y UFM como unidad factual de masa. La construcción del número másico raigal exige operación explícita y control de soporte. Cada posición preternaria ξ_i=(i,α_i,β_i) aporta ρ_i=α_i+β_i y δ_i=β_i−α_i. Desde esas magnitudes se introduce el complejo factual raigal Z_i^R=ρ_i+i_SVδ_i, equivalente en notación nativa a Z_i^R≡(ρ_i,δ_i), y su conjugado Z̄_i^R=ρ_i−i_SVδ_i, equivalente a Z̄_i^R≡(ρ_i,−δ_i). El invariante local asociado es I_i^R=Z_i^R·Z̄_i^R=ρ_i²+δ_i². La admisión másica local se rige por μ_i^M(Ω)∈{1,0,U}: devuelve 1 si la posición supera frontera compatible, residual gobernado, retorno material/gravitatorio y traza; devuelve 0 si falla materialmente alguna condición; y conserva U si la base no permite decidir sin forzar cierre. La suma no recorre una totalidad metafísica ni un continuo no declarado, sino el soporte operativo finito del dominio de cálculo: Soporte_M(Ω):={i∈Ω : I_i^R está declarado y la posición pertenece al espacio finito de definición de la proyección másica}. Este soporte declara el espacio sobre el que μ_i^M(Ω) opera; no se deriva de la admisión local y, por tanto, no introduce circularidad. La regla canónica adopta pesos uniformes, de manera que N_M^SV(Ω):=Σ_{i∈Soporte_M(Ω)} μ_i^M(Ω)·I_i^R. Si existe i∈Soporte_M(Ω) con μ_i^M(Ω)=U e I_i^R>0, el escalar no se fuerza: el dictamen del agregado se conserva como U honesta o se reporta como tupla auditada con residual vivo. Si I_i^R=0, la posición no contribuye al número másico. La diferencia másica oscura candidata se expresa, entonces, como Δ𝓜_osc^SV := 𝓜_SV(Ω_U0) − 𝓜_SV(Ω_ret^M), y también como Δ𝓜_osc^SV := π_M(Raigal_SV(Ω_U0)) − π_M(Raigal_SV(Ω_ret^M)). El término Ω_U0 no designa el TODO ni una totalidad metafísica; designa el universo físico realizado como dominio de cálculo. El término Ω_ret^M no equivale a lo visible; designa el dominio material efectivamente retornado por observables, con inclusión de componentes bariónicas no estelares, gas, polvo, plasma, remanentes, retorno dinámico, lentes y trazas materiales cuando cumplan condiciones de banco. La diferencia entre ambos dominios sólo puede nombrarse masa oscura admitida si supera 𝒞_osc, la restricción oscura. Esa restricción exige clausura como masa, presencia gravitatoria, retorno luminoso-material insuficiente y exclusión de energía oscura, agujeros negros identificados, vacío, NADA, error de frontera, error instrumental, clase factual emergente no másica y U no resuelta. El cálculo no buscará una cifra por autoridad de modelo ni por atajo dimensional. Expresiones como c³T/G o c²R/G podrán entrar como estimadores externos de contraste cuando el banco lo justifique, pero no como cálculo intrínseco. Del mismo modo, una masa atómica canónica derivada de constantes ancla podrá servir como auditoría metrológica secundaria, nunca como generador del Raigal. La regla de retorno se mantiene más limpia: N_M^SV(Ω) produce el escalar formal de masa del dominio; UFM lo dimensiona; la equivalencia física en kg pertenece al retorno metrológico. Así se evita importar mecánica cuántica, gravitación newtoniana o cosmología estándar como fundamento encubierto del cálculo. El aparato contemporáneo se conserva como contraste indispensable, no como sustituto de la cadena raigal. El desarrollo tendrá que hablar con números, pero no antes de construir su dominio. Por eso el cuerpo principal incluirá tablas completas de registros, valores, soportes operativos, invariantes, admisiones locales, sumas, unidades, diferencias, restricciones y dictámenes. También incorporará un ejemplo extremo a extremo: desde posiciones preternarias declaradas, cálculo de ρ_i y δ_i, construcción de Z_i^R, obtención de I_i^R, aplicación de μ_i^M, agregación de N_M^SV, retorno en UFM, comparación entre Ω_U0 y Ω_ret^M, diferencia Δ𝓜_osc^SV, evaluación de 𝒞_osc y salida APTO, NO_APTO o U. Ese ejemplo no sustituirá el banco cosmológico; servirá como célula de control formal. Después se añadirá el banco físico-factual con datos externos, siempre subordinado a dominio, unidad, residual y retorno. Los laboratorios reproducibles no introducirán resultados nuevos: verificarán que las tablas del texto se ejecutan sin desviación y que los negativos fallan cuando deben fallar. La expresión “error cero de cálculo” queda acotada desde el inicio. No significa ausencia de incertidumbre experimental, ni precisión infinita de observaciones, ni clausura de toda cosmología. Significa cero error formal en el plano declarado: dominio correctamente separado, unidades homogéneas, soporte operativo finito, invariante calculado sin desviación, función μ_i^M aplicada según condiciones explícitas, suma reproducible, retorno dimensional correcto, resta entre magnitudes compatibles, restricción oscura evaluada sin cambio de plano y dictamen conservado. Cuando el banco observacional incorpore incertidumbres, éstas permanecerán en su registro; cuando haya residual vivo, el texto no lo maquillará como cierre; cuando aparezca U, no se convertirá en cifra por conveniencia. La ambición del trabajo no es eliminar el mundo experimental, sino impedir que un error de dominio se disfrace de descubrimiento. El resultado esperado es una arquitectura de cálculo capaz de distinguir cuatro salidas: masa oscura admitida, diferencia másica no apta, clase factual emergente no másica y U estructural. La primera requiere Δ𝓜_osc^SV con clausura másica y 𝒞_osc = APTO; la segunda aparece cuando la diferencia existe pero falla una condición material; la tercera comparece si el residuo pertenece a χ_α o a otra salida no reducible a masa; la cuarta se conserva cuando falta base suficiente para decidir. Esta clasificación protege tanto a la física contemporánea como al SV: no niega la evidencia gravitatoria acumulada, pero tampoco convierte toda discrepancia en materia oscura. El cálculo de la materia oscura del universo físico realizado, conforme al subtítulo, sólo puede nacer de diferencia másica, Raigal, proyección másica y restricción oscura.
 
-0.1. Problema rector: de la resta observacional a la diferencia másica raigal
+### 0.1. Problema rector: de la resta observacional a la diferencia másica raigal
 
 El problema rector no consiste en sustituir la expresión “masa que falta” por una fórmula nueva, sino en impedir que una discrepancia gravitatoria, una ausencia luminosa o una insuficiencia de inventario se nombren como materia oscura antes de haber pasado por dominio, unidad, soporte, proyección, residual, retorno y restricción. La física contemporánea aporta un conjunto robusto de indicios gravitatorios y cosmológicos; sin embargo, esa robustez empírica no basta para cerrar por sí sola la identidad material de lo oscuro. La formulación aquí adoptada desplaza el centro del problema desde la resta observacional ordinaria hacia una diferencia másica raigal: Δ𝓜_osc^SV := 𝓜_SV(Ω_U0) − 𝓜_SV(Ω_ret^M). La resta sólo es admisible si sus términos pertenecen a dominios formalmente separados y si la diferencia resultante supera la restricción oscura 𝒞_osc.
 
-0.2. Tesis central: la materia oscura sólo se nombra tras restricción oscura
+### 0.2. Tesis central: la materia oscura sólo se nombra tras restricción oscura
 
 La tesis central sostiene que la materia oscura del universo físico realizado no se define como masa invisible, masa no detectada, partícula hipotética, fase material desconocida ni residuo gravitatorio sin tipado. Sólo puede nombrarse como masa oscura admitida cuando una diferencia másica raigal entre Ω_U0 y Ω_ret^M cierra como masa y supera 𝒞_osc. La forma canónica de admisión es 𝒞_osc(Δ𝓜_osc^SV) ∈ {APTO, NO_APTO, U} y, únicamente bajo 𝒞_osc = APTO, procede escribir 𝓜_osc^SV := Δ𝓜_osc^SV. Esta regla preserva la posibilidad de que una diferencia no sea materia oscura: puede resultar diferencia másica no apta, clase factual emergente no másica o U estructural si falta base suficiente para clausura honesta.
 
-0.3. Universo físico realizado, dominio observable y dominio material retornado
+### 0.3. Universo físico realizado, dominio observable y dominio material retornado
 
 El cálculo exige distinguir tres planos que la lectura cosmológica ordinaria tiende a aproximar con demasiada rapidez: el universo físico realizado, el dominio observable y el dominio material retornado. Ω_U0 designa el universo físico realizado como dominio de cálculo, sin confundirse con el TODO ni con una totalidad metafísica exterior al aparato. El dominio observable remite a aquello que comparece bajo observación física, medición, señal, distancia, lente, radiación, dinámica o modelo de retorno. Ω_ret^M designa sólo el dominio material que retorna con aptitud de masa, incorporando materia bariónica visible y no visible cuando esté debidamente inventariada, trazada y auditada. La diferencia entre Ω_U0 y Ω_ret^M no puede reducirse a “visible frente a invisible”, porque lo visible no agota lo material y lo no visible no queda automáticamente admitido como materia oscura.
 
-0.4. Por qué Ω_U0 no es el TODO y Ω_ret^M no agota el universo físico realizado
+### 0.4. Por qué Ω_U0 no es el TODO y Ω_ret^M no agota el universo físico realizado
 
 Ω_U0 no es el TODO porque el TODO pertenece al plano rector de clausura absoluta del SV y no puede ser convertido en un dominio operativo de resta física. Ω_U0 es un dominio declarado dentro del universo físico realizado, apto para cálculo bajo frontera, soporte, proyección, unidad y retorno. Del mismo modo, Ω_ret^M no agota el universo físico realizado: sólo contiene lo que retorna como materialidad bajo banco observacional, inventario físico, traza gravitatoria admisible, unidad homogénea y residual controlado. Si Ω_ret^M se confundiera con todo lo visible, excluiría gas frío, gas caliente, plasma intracumular, polvo, remanentes, bariones difusos y componentes no luminosas pero materialmente retornables; si se confundiera con todo lo inferido, absorbería como materia retornada aquello que todavía puede pertenecer a error de frontera, doble cómputo, energía oscura, agujero negro identificado, vacío, clase factual emergente o U.
 
-0.5. Formulación rectora inicial
+### 0.5. Formulación rectora inicial
 
 La formulación rectora inicial queda establecida por la cadena Ω_pre → Π₃ᴴ → K₃ⁿ → ε_Γ → Raigal_SV ≡ Ξ_SV → π_M → 𝓜_SV, donde ε_Γ designa el suceso factual operativo sobre marcos ya ternarizados y no debe confundirse con ε₀. El Raigal no añade un operador independiente, sino que nombra conceptualmente el contenido físico-factual preproyectivo del dominio: Raigal_SV(Ω) := Ξ_SV(Ω). La proyección másica π_M produce la masa de dominio mediante 𝓜_SV(Ω)=N_M^SV(Ω)·UFM, siendo N_M^SV(Ω) el número másico raigal y UFM la unidad factual de masa en retorno metrológico. La diferencia candidata se expresa como Δ𝓜_osc^SV := π_M(Raigal_SV(Ω_U0)) − π_M(Raigal_SV(Ω_ret^M)); su admisión requiere 𝒞_osc.
 
-0.6. Registros de cálculo: intrínseco raigal, observacional de banco y retorno auditado
+### 0.6. Registros de cálculo: intrínseco raigal, observacional de banco y retorno auditado
 
 El trabajo distingue tres registros para evitar contaminación de planos. El registro intrínseco raigal opera desde el contenido físico-factual preproyectivo del dominio y produce N_M^SV(Ω) bajo soporte, invariante y admisión local. El registro observacional de banco incorpora magnitudes físicas contemporáneas —curvas de rotación, lentes, dinámica de cúmulos, fondo cósmico de microondas, estructura a gran escala, inventarios bariónicos y parámetros cosmológicos— con método, unidad, incertidumbre y alcance declarados. El registro de retorno auditado expresa el resultado físico como tupla trazable: valor, unidad, banco, incertidumbre, residual y dictamen. Esta separación permite que la física contemporánea actúe como contraste indispensable sin convertirse en fundamento sustitutorio del cálculo raigal, y permite que el SV produzca cálculo formal sin quedar desligado del retorno físico.
 
-0.7. Estatuto de 𝒞_osc como restricción oscura
+### 0.7. Estatuto de 𝒞_osc como restricción oscura
 
 𝒞_osc no es una etiqueta favorable ni una licencia para nombrar materia oscura toda diferencia positiva. Su función es restringir el uso del término “materia oscura” a diferencias que cierren como masa, presenten compatibilidad gravitatoria, carezcan de retorno luminoso-material suficiente dentro de Ω_ret^M y excluyan energía oscura, agujeros negros identificados, vacío, NADA, error instrumental, error de frontera, doble cómputo, clase factual emergente no másica y U no resuelta. El resultado NO_APTO conserva valor técnico cuando una diferencia existe pero falla alguna condición material. El resultado U conserva indeterminación honesta cuando falta base suficiente para decidir. Sólo APTO autoriza la denominación masa oscura admitida.
 
-0.8. Qué se calcula, qué se contrasta, qué se retorna y qué debe permanecer en U
+### 0.8. Qué se calcula, qué se contrasta, qué se retorna y qué debe permanecer en U
 
 Se calcula la diferencia másica raigal entre Ω_U0 y Ω_ret^M, no una masa invisible por inferencia directa. Se contrasta con física contemporánea mediante bancos observacionales y referencias externas, sin importar sus fórmulas como fundamento encubierto. Se retorna físicamente en UFM y, cuando proceda, en equivalencia metrológica con kg, conservando incertidumbre, residual y dictamen. Debe permanecer en U todo aquello que no pueda decidirse sin forzar dominio, soporte, unidad, admisión, frontera o retorno. La cuestión general de los estados de la materia, sus fases ordinarias, regímenes extremos y tipología física no se incorpora como parte rectora de este cálculo, porque la materia oscura no queda admitida por ser un estado adicional de la materia. Ese desarrollo se reserva como investigación singular prevista del corpus, titulada Estados de la materia y tipología, con sede prevista en el ámbito termodinámico-material del repositorio canónico: termodinamica-gases-fluidos-sv/estados-materia-tipologia. Esa ubicación resulta adecuada porque el problema pertenece al estudio de estados, fases, transiciones, agregación, régimen material y retorno físico de la materia constituida, no al cálculo cosmológico de una diferencia másica raigal bajo restricción oscura.
 
-0.9. Error cero de cálculo y deuda viva del banco físico
+### 0.9. Error cero de cálculo y deuda viva del banco físico
 
 La expresión “error cero de cálculo” sólo tiene sentido en el plano formal declarado. Significa cero error de dominio, unidad, homogeneidad, soporte, invariante, admisión, suma, retorno dimensional, diferencia, restricción y conservación de dictamen. No significa ausencia de incertidumbre experimental, precisión infinita de los datos cosmológicos ni cierre físico definitivo de la materia oscura. La deuda viva queda explícita: los bancos observacionales deberán declarar valores, métodos, incertidumbres, unidades, procedencia, límites y posibles solapamientos; los inventarios de materia retornada deberán impedir doble cómputo; las salidas NO_APTO y U deberán conservarse cuando correspondan; y los laboratorios reproducibles sólo podrán verificar material ya expuesto en tablas y ejemplos del cuerpo principal. La publicación no cierra por ausencia de alternativa: sólo admite aquello que supera la cadena formal y la restricción oscura.
-
-
-
-
-## XI. Regla operacional de proyección másica del Raigal
-
-### XI.1. Función de este núcleo técnico
-
-La proyección másica del Raigal constituye el núcleo operativo del cálculo. Su función no consiste en traducir una masa observacional ya conocida al vocabulario del Sistema Vectorial SV, ni en tomar una discrepancia gravitatoria externa como masa oscura por simple denominación, sino en establecer la ruta formal por la que un dominio físico-factual declarado adquiere número másico raigal, retorno dimensional en UFM y aptitud para participar en una diferencia oscura candidata. La cadena de trabajo es Ω_pre → Π₃ᴴ → K₃ⁿ → ε_Γ → Raigal_SV ≡ Ξ_SV → π_M → 𝓜_SV, con ε_Γ como suceso factual operativo sobre marcos ya ternarizados, distinto de ε₀. La operación no arranca en una constante externa, ni en un estimador de horizonte, ni en una resta visible/invisible, sino en el contenido físico-factual preproyectivo del dominio y en la restricción que decide si ese contenido puede cerrar como masa.
-
-### XI.2. Dominio de entrada y exclusión de totalidad no declarada
-
-El cálculo exige declarar un dominio Ω antes de proyectar masa. Ω puede comparecer como Ω_U0, cuando se trabaja con el universo físico realizado como dominio de cálculo, o como Ω_ret^M, cuando se trabaja con el dominio material retornado por observables, pero en ningún caso se identifica con el TODO ni con una totalidad metafísica sin frontera operativa. La proyección π_M sólo actúa sobre posiciones incluidas en un soporte finito de definición, de modo que ninguna suma recorre un continuo no declarado, una totalidad absoluta, una nube semántica o una inferencia cosmológica no tipada. La condición mínima de entrada es que el dominio aporte posiciones, frontera, traza, régimen de retorno y residual; si alguno de esos elementos no puede declararse con suficiencia, el cálculo no se completa por aproximación retórica y conserva U.
-
-### XI.3. Posición preternaria y magnitudes raigales locales
-
-Cada posición admitida al análisis se representa como ξ_i=(i,α_i,β_i), donde i identifica la posición dentro del soporte operativo y α_i, β_i son componentes preternarias asociadas al marco de cálculo. A partir de esa posición se obtienen dos magnitudes locales: ρ_i=α_i+β_i y δ_i=β_i−α_i. ρ_i recoge la acumulación raigal local disponible para proyección, mientras que δ_i expresa el desajuste orientado entre las dos componentes de la posición. Esta pareja no equivale todavía a masa, partícula, energía, densidad ni observable físico externo; constituye la materia formal mínima desde la que puede construirse un invariante másico local si la posición supera después las condiciones de admisión.
-
-### XI.4. Complejo factual raigal y notación nativa
-
-El complejo factual raigal de una posición se expresa como Z_i^R=ρ_i+i_SVδ_i, con equivalencia nativa Z_i^R≡(ρ_i,δ_i). Su conjugado se expresa como Z̄_i^R=ρ_i−i_SVδ_i, equivalente a Z̄_i^R≡(ρ_i,−δ_i). La notación compleja no introduce análisis complejo externo como fundamento ni convierte i_SV en número imaginario ordinario gobernante; opera como forma compacta de registrar acumulación y desajuste bajo una sintaxis compatible con conjugación, invariante y producto local. La lectura nativa conserva el sentido del aparato: cada posición queda registrada por una pareja raigal ordenada cuyo contenido todavía debe pasar por frontera, residual, retorno y traza antes de contribuir al número másico del dominio.
-
-### XI.5. Invariante raigal local
-
-El invariante raigal local asociado a ξ_i se obtiene por producto con el conjugado: I_i^R=Z_i^R·Z̄_i^R=ρ_i²+δ_i². En forma expandida, I_i^R=(α_i+β_i)²+(β_i−α_i)²=2(α_i²+β_i²). Esta magnitud no declara por sí sola masa física; declara contribución raigal local disponible para evaluación másica. Su valor sólo entra en N_M^SV(Ω) cuando la posición pertenece al soporte operativo finito y cuando la función de admisión másica local no la excluye. Si I_i^R=0, la posición no aporta contribución másica aunque pertenezca al soporte; si I_i^R>0 y la admisión queda en U, el escalar agregado no puede forzarse sin romper la disciplina ternaria.
-
-### XI.6. Soporte operativo finito de la proyección másica
-
-El soporte operativo finito de la proyección másica queda formulado como Soporte_M(Ω):={i∈Ω : I_i^R está declarado y la posición pertenece al espacio finito de definición de la proyección másica}. Este soporte no se deriva de μ_i^M(Ω), no depende de que la posición sea admitida como masa y no constituye una selección posterior favorable al resultado. Su función es declarar el espacio finito sobre el que la proyección π_M puede operar sin circularidad. Primero se fija el soporte; después se calcula el invariante local; después se aplica la admisión másica; finalmente se agrega el número másico raigal. La inversión de ese orden produciría cierre espurio, porque escogería el dominio desde el resultado y no desde las condiciones materiales del cálculo.
-
-### XI.7. Admisión másica local
-
-La función de admisión másica local se expresa como μ_i^M(Ω)∈{1,0,U}. Devuelve 1 cuando la posición presenta frontera compatible, residual gobernado, retorno material/gravitatorio y traza suficiente para contribuir a la masa del dominio; devuelve 0 cuando falla materialmente alguna de esas condiciones; conserva U cuando la base disponible no permite decidir sin convertir indeterminación en resultado. Esta función no mide probabilidad, frecuencia, expectativa estadística ni confianza instrumental; emite dictamen ternario local. Una posición con μ_i^M(Ω)=0 queda excluida de la suma másica aunque su invariante local sea positivo. Una posición con μ_i^M(Ω)=U e I_i^R>0 bloquea la clausura escalar completa del agregado salvo que el desarrollo la reporte expresamente como residual vivo.
-
-### XI.8. Agregación canónica sin pesos ajustables
-
-El número másico raigal del dominio se obtiene mediante agregación uniforme: N_M^SV(Ω):=Σ_{i∈Soporte_M(Ω)} μ_i^M(Ω)·I_i^R. No se introducen pesos ajustables, coeficientes de conveniencia ni parámetros de calibración destinados a aproximar una cifra cosmológica externa. La uniformidad de la suma protege el cálculo frente a manipulación de resultado: cada posición del soporte declarado aporta según su invariante y su admisión ternaria, no según una ponderación elegida después de mirar el banco. Cuando el dominio requiera estratificación por subdominios, ésta deberá declararse como partición previa de Ω y no como peso corrector de N_M^SV(Ω). La regla central conserva así la diferencia entre estructura formal, retorno metrológico y contraste observacional.
-
-### XI.9. Retorno dimensional en UFM
-
-La masa formal de un dominio se expresa como 𝓜_SV(Ω)=N_M^SV(Ω)·UFM. UFM actúa como unidad factual de masa en el retorno metrológico y permite que el número másico raigal adquiera dimensión física sin importar una teoría externa como fundamento. La equivalencia física en kg pertenece al retorno, no a la generación de N_M^SV(Ω). Por eso c³T/G, c²R/G, masas críticas, densidades cosmológicas o masas dinámicas pueden entrar como estimadores de banco o contraste, pero no sustituyen a la proyección π_M del Raigal. La diferencia es decisiva: el cálculo interno produce un número másico raigal y lo dimensiona; el banco externo comprueba, tensiona o devuelve equivalencias físicas bajo unidad, incertidumbre, residual y dictamen.
-
-### XI.10. Propagación de U y salida auditada
-
-Si existe i∈Soporte_M(Ω) con μ_i^M(Ω)=U e I_i^R>0, el cálculo no puede cerrar el escalar N_M^SV(Ω) como si todas las posiciones hubieran quedado resueltas. En ese caso, la salida correcta adopta una de dos formas: U honesta del agregado cuando la indeterminación afecta a la clausura del dominio, o tupla auditada cuando puede separarse una parte resuelta de un residual vivo. La forma mínima de reporte es ⟨N_M^resuelto, U_activo, soporte afectado, residual, dictamen⟩, con indicación expresa de las posiciones que impiden el cierre escalar. Esta disciplina impide que la falta de datos, la frontera incompleta o la ambigüedad material se maquillen como masa oscura admitida.
-
-### XI.11. Diferencia másica oscura candidata
-
-Una vez obtenidas las masas de dominio, la diferencia candidata se formula como Δ𝓜_osc^SV := 𝓜_SV(Ω_U0) − 𝓜_SV(Ω_ret^M), y, en forma expandida, como Δ𝓜_osc^SV := π_M(Raigal_SV(Ω_U0)) − π_M(Raigal_SV(Ω_ret^M)). Esta diferencia sólo es válida si ambas masas pertenecen al mismo régimen de retorno, comparten unidad homogénea, proceden de soportes declarados y conservan trazabilidad de residual. Si Ω_U0 queda cerrado y Ω_ret^M conserva U activo, la diferencia no se fuerza; si Ω_ret^M incorpora doble cómputo observacional, el residual debe corregirse antes de restar; si el dominio retornado se confunde con lo visible, el cálculo falla de plano. La diferencia oscura candidata no nace de ausencia luminosa, sino de una resta entre masas de dominio formalmente compatibles.
-
-### XI.12. Restricción oscura
-
-La restricción oscura se expresa como 𝒞_osc(Δ𝓜_osc^SV)∈{APTO, NO_APTO, U}. Su tarea consiste en impedir que toda diferencia positiva reciba automáticamente el nombre de materia oscura. Para obtener APTO, la diferencia debe cerrar como masa, presentar compatibilidad gravitatoria, carecer de retorno luminoso-material suficiente dentro de Ω_ret^M y excluir energía oscura, agujeros negros identificados, vacío, NADA, error instrumental, error de frontera, doble cómputo, clase factual emergente no másica y U no resuelta. El resultado NO_APTO aparece cuando la diferencia existe pero falla alguna condición material. U se conserva cuando la base no permite decidir sin forzar cierre. Sólo bajo 𝒞_osc = APTO puede escribirse 𝓜_osc^SV := Δ𝓜_osc^SV, entendida como masa oscura admitida.
-
-### XI.13. Ejemplo mínimo de control formal
-
-Sea un dominio Ω con Soporte_M(Ω)={1,2,3}. Para ξ_1=(1,2,1), se obtiene ρ_1=3, δ_1=−1 e I_1^R=10; si μ_1^M(Ω)=1, la posición aporta 10. Para ξ_2=(2,1,1), se obtiene ρ_2=2, δ_2=0 e I_2^R=4; si μ_2^M(Ω)=0, la posición no aporta masa aunque su invariante sea positivo. Para ξ_3=(3,2,3), se obtiene ρ_3=5, δ_3=1 e I_3^R=26; si μ_3^M(Ω)=U, el dominio no puede cerrarse como N_M^SV(Ω)=10 por simple omisión de la indeterminación. La salida correcta es ⟨10, U_activo={3}, residual vivo⟩. Si una auditoría posterior resolviera μ_3^M(Ω)=1, entonces N_M^SV(Ω)=36 y 𝓜_SV(Ω)=36·UFM; si resolviera μ_3^M(Ω)=0, entonces N_M^SV(Ω)=10 y 𝓜_SV(Ω)=10·UFM. Mientras μ_3^M(Ω)=U, no hay cierre escalar honesto.
-
-### XI.14. Ejemplo mínimo de diferencia entre dominios
-
-Supóngase que Ω_U0 y Ω_ret^M pertenecen al mismo régimen formal de retorno y que ambos tienen soporte finito declarado. Si Ω_U0 arroja 𝓜_SV(Ω_U0)=100·UFM y Ω_ret^M arroja 𝓜_SV(Ω_ret^M)=72·UFM, la diferencia candidata es Δ𝓜_osc^SV=28·UFM. Esa cifra todavía no es masa oscura admitida: debe pasar 𝒞_osc. Si la diferencia corresponde a componentes bariónicas no retornadas por banco incompleto, el dictamen es NO_APTO o U según el residual; si procede de doble cómputo entre gas, lente y masa dinámica, el cálculo debe corregirse antes de emitir dictamen; si se explica por energía oscura, agujeros negros identificados, vacío o clase factual emergente no másica, no puede nombrarse masa oscura admitida. Sólo cuando la diferencia cierre como masa gravitante no retornada materialmente y supere todas las exclusiones, se obtiene 𝒞_osc(28·UFM)=APTO y 𝓜_osc^SV := 28·UFM.
-
-### XI.15. Salida operativa del núcleo XI
-
-El núcleo XI entrega cuatro salidas posibles. La primera es masa oscura admitida: Δ𝓜_osc^SV con 𝒞_osc = APTO. La segunda es diferencia másica no apta: existe diferencia, pero falla clausura, retorno, exclusión o compatibilidad material. La tercera es clase factual emergente no másica: el residual pertenece a χ_α u otra salida no reducible a masa. La cuarta es U estructural: falta base suficiente para decidir sin violentar el dominio. Esta clasificación constituye la protección central del cálculo. No toda diferencia es materia oscura; no toda ausencia luminosa es masa; no toda traza gravitatoria autoriza entidad material; y no toda indeterminación puede convertirse en resultado. El cálculo sólo avanza cuando dominio, soporte, invariante, admisión, unidad, diferencia y restricción conservan el mismo plano.
-
-
-## Bibliografía inicial
-
-### Bibliografía interna del corpus SV
-
-Lloret Egea, J. A. (2026). *Teoría del TODO y de la NADA en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.17613/k3q1d-fjj45
-
-Lloret Egea, J. A. (2026). *Teoría general de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.17613/177nb-v2465
-
-Lloret Egea, J. A. (2026). *Primitivos metrológicos del Sistema Vectorial SV: instanciaciones contingentes de las constantes fundacionales del Sistema Internacional, justificación algebraica y tabla de equivalencias factuales*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.c8ec692e
-
-Lloret Egea, J. A. (2026). *Imperfección preformal y espacio: ε−0, primera distinguibilidad y dominio estructural completo de separación factual recorrible*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.9c57c046
-
-Lloret Egea, J. A. (2026). *Campo y energía, génesis de la masa y definición física de la gravedad: gravitación universal, constante cosmológica y dominio observable*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.41afec0f
-
-Lloret Egea, J. A. (2026). *Teorema de resolución física de la constante cosmológica: transducción ciclo-distancial SV de Λ, energía oscura y expansión cosmológica*. IA eñ™ — La Biblia de la IA™. Adenda integrante de *Imperfección preformal y espacio: ε−0, primera distinguibilidad y dominio estructural completo de separación factual recorrible*. https://doi.org/10.21428/39829d0b.9c57c046
-
-Lloret Egea, J. A. (2026). *Distancia absoluta y relativa entre observables del Universo*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.c394e160
-
-Lloret Egea, J. A. (2026). *Edades relativas del universo observable y de sus objetos físicos*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.b56ed853
-
-Lloret Egea, J. A. (2026). *Del contenido físico factual del suceso a las clases factuales emergentes: programa de transmutación factual en el Sistema SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.b37864ef
-
-Lloret Egea, J. A. (2026). *Del contenido físico factual del suceso a la entidad soberana del campo en el Sistema Vectorial SV: absorción basal exacta, unificación fuerte de gravitación, electricidad y magnetismo, y apertura a clases factuales emergentes*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.25bd99ae
-
-### Bibliografía externa inicial
-
-Babcock, H. W. (1939). The rotation of the Andromeda Nebula. *Lick Observatory Bulletin, 19*, 41–51. https://doi.org/10.5479/ADS/bib/1939LicOB.19.41B
-
-Bekenstein, J. D. (2004). Relativistic gravitation theory for the MOND paradigm. *Physical Review D, 70*, 083509. https://doi.org/10.1103/PhysRevD.70.083509
-
-Bosma, A. (1981). 21-cm line studies of spiral galaxies. I. Observational facts. *The Astronomical Journal, 86*, 1791–1846. https://doi.org/10.1086/113063
-
-Burkert, A. (1995). The structure of dark matter halos in dwarf galaxies. *The Astrophysical Journal Letters, 447*, L25–L28. https://doi.org/10.1086/309560
-
-Carr, B. J., & Hawking, S. W. (1974). Black holes in the early Universe. *Monthly Notices of the Royal Astronomical Society, 168*(2), 399–415. https://doi.org/10.1093/mnras/168.2.399
-
-Clowe, D., Bradač, M., Gonzalez, A. H., Markevitch, M., Randall, S. W., Jones, C., & Zaritsky, D. (2006). A direct empirical proof of the existence of dark matter. *The Astrophysical Journal Letters, 648*(2), L109–L113. https://doi.org/10.1086/508162
-
-DESI Collaboration, Adame, A. G., Aguilar, J., Ahlen, S., Alam, S., Alexander, D. M., et al. (2025). DESI 2024 VI: Cosmological constraints from the measurements of baryon acoustic oscillations. *Journal of Cosmology and Astroparticle Physics, 2025*(02), 021. https://doi.org/10.1088/1475-7516/2025/02/021
-
-Dodelson, S., & Widrow, L. M. (1994). Sterile neutrinos as dark matter. *Physical Review Letters, 72*(1), 17–20. https://doi.org/10.1103/PhysRevLett.72.17
-
-Einasto, J. (1965). On the construction of a composite model for the Galaxy and on the determination of the system of Galactic parameters. *Trudy Astrofizicheskogo Instituta Alma-Ata, 5*, 87–100.
-
-Freeman, K. C. (1970). On the disks of spiral and S0 galaxies. *The Astrophysical Journal, 160*, 811–830. https://doi.org/10.1086/150474
-
-Hawking, S. W. (1971). Gravitationally collapsed objects of very low mass. *Monthly Notices of the Royal Astronomical Society, 152*(1), 75–78. https://doi.org/10.1093/mnras/152.1.75
-
-Hinshaw, G., Larson, D., Komatsu, E., Spergel, D. N., Bennett, C. L., Dunkley, J., Nolta, M. R., Halpern, M., Hill, R. S., Odegard, N., Page, L., Smith, K. M., Weiland, J. L., Gold, B., Jarosik, N., Kogut, A., Limon, M., Meyer, S. S., Tucker, G. S., Wollack, E., & Wright, E. L. (2013). Nine-year Wilkinson Microwave Anisotropy Probe (WMAP) observations: Cosmological parameter results. *The Astrophysical Journal Supplement Series, 208*(2), 19. https://doi.org/10.1088/0067-0049/208/2/19
-
-Milgrom, M. (1983). A modification of the Newtonian dynamics as a possible alternative to the hidden mass hypothesis. *The Astrophysical Journal, 270*, 365–370. https://doi.org/10.1086/161130
-
-Moore, B., Ghigna, S., Governato, F., Lake, G., Quinn, T., Stadel, J., & Tozzi, P. (1999). Dark matter substructure within galactic halos. *The Astrophysical Journal Letters, 524*(1), L19–L22. https://doi.org/10.1086/312287
-
-Navarro, J. F., Frenk, C. S., & White, S. D. M. (1996). The structure of cold dark matter halos. *The Astrophysical Journal, 462*, 563–575. https://doi.org/10.1086/177173
-
-Oort, J. H. (1932). The force exerted by the stellar system in the direction perpendicular to the galactic plane and some related problems. *Bulletin of the Astronomical Institutes of the Netherlands, 6*, 249–287.
-
-Ostriker, J. P., & Peebles, P. J. E. (1973). A numerical study of the stability of flattened galaxies: Or, can cold galaxies survive? *The Astrophysical Journal, 186*, 467–480. https://doi.org/10.1086/152513
-
-Peccei, R. D., & Quinn, H. R. (1977). CP conservation in the presence of pseudoparticles. *Physical Review Letters, 38*(25), 1440–1443. https://doi.org/10.1103/PhysRevLett.38.1440
-
-Planck Collaboration, Aghanim, N., Akrami, Y., Ashdown, M., Aumont, J., Baccigalupi, C., et al. (2020). Planck 2018 results. VI. Cosmological parameters. *Astronomy & Astrophysics, 641*, A6. https://doi.org/10.1051/0004-6361/201833910
-
-Roberts, M. S., & Whitehurst, R. N. (1975). The rotation curve and geometry of M31 at large galactocentric distances. *The Astrophysical Journal, 201*, 327–346. https://doi.org/10.1086/153889
-
-Rubin, V. C., & Ford, W. K., Jr. (1970). Rotation of the Andromeda Nebula from a spectroscopic survey of emission regions. *The Astrophysical Journal, 159*, 379–403. https://doi.org/10.1086/150317
-
-Shi, X., & Fuller, G. M. (1999). A new dark matter candidate: Nonthermal sterile neutrinos. *Physical Review Letters, 82*(14), 2832–2835. https://doi.org/10.1103/PhysRevLett.82.2832
-
-Spergel, D. N., & Steinhardt, P. J. (2000). Observational evidence for self-interacting cold dark matter. *Physical Review Letters, 84*(17), 3760–3763. https://doi.org/10.1103/PhysRevLett.84.3760
-
-Spergel, D. N., Verde, L., Peiris, H. V., Komatsu, E., Nolta, M. R., Bennett, C. L., Halpern, M., Hinshaw, G., Jarosik, N., Kogut, A., Limon, M., Meyer, S. S., Page, L., Tucker, G. S., Weiland, J. L., Wollack, E., & Wright, E. L. (2003). First-year Wilkinson Microwave Anisotropy Probe (WMAP) observations: Determination of cosmological parameters. *The Astrophysical Journal Supplement Series, 148*, 175–194. https://doi.org/10.1086/377226
-
-Weinberg, S. (1978). A new light boson? *Physical Review Letters, 40*(4), 223–226. https://doi.org/10.1103/PhysRevLett.40.223
-
-Wilczek, F. (1978). Problem of strong P and T invariance in the presence of instantons. *Physical Review Letters, 40*(5), 279–282. https://doi.org/10.1103/PhysRevLett.40.279
-
-Zwicky, F. (1933). Die Rotverschiebung von extragalaktischen Nebeln. *Helvetica Physica Acta, 6*, 110–127. https://doi.org/10.5169/seals-110267
