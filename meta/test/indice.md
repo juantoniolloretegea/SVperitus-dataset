@@ -1,27 +1,21 @@
-Buenos días, Claude. Te traigo una nueva sorpresa para que con mirada de Halcón la valores.
-
-
-Título: Cálculo de la materia oscura del universo físico realizado
-
-Subtítulo: Diferencia másica, Raigal, proyección másica y restricción oscura
-
-Introducción
-El problema de la materia oscura no puede formularse rigurosamente como una simple ausencia luminosa ni como una resta inmediata entre una masa total supuesta y una masa visible parcial. La física contemporánea ha acumulado indicios gravitatorios robustos —dinámica galáctica, cúmulos, lentes gravitacionales, fondo cósmico de microondas, estructura a gran escala y discrepancias bariónicas—, pero mantiene abierto el soporte último de esa componente: partícula, campo, modificación gravitatoria, sector oscuro, clase efectiva o combinación de regímenes. En este contexto, el Sistema Vectorial SV no sustituye el estado del arte ni impone una ontología interna cerrada; introduce una disciplina formal de dominio, retorno, proyección, restricción y dictamen para distinguir la diferencia másica admisible de la mera masa no retornada por observables.
-La tesis de esta publicación es que la materia oscura del universo físico realizado debe calcularse, en régimen SV, como una diferencia másica entre dos dominios estrictamente separados: el dominio del universo físico realizado, Ω_U0, y el dominio material retornado por observables, Ω_ret^M. Esa diferencia no se nombra de inmediato como materia oscura. Primero debe ser proyectada desde el Raigal del dominio, entendido como nombre conceptual del contenido físico-factual preproyectivo; después debe clausurar como masa; finalmente debe superar la restricción oscura, 𝒞_osc, que exige presencia gravitatoria, retorno luminoso-material insuficiente y exclusión de energía oscura, agujeros negros identificados, vacío, NADA, error de frontera, error instrumental, clase factual emergente no másica o U.
-La formulación rectora queda expresada en dos pasos. Primero, la diferencia másica oscura candidata:
-Δ𝓜_osc^SV := 𝓜_SV(Ω_U0) − 𝓜_SV(Ω_ret^M)
-y, de forma expandida:
-Δ𝓜_osc^SV := π_M(Raigal_SV(Ω_U0)) − π_M(Raigal_SV(Ω_ret^M))
-Segundo, la admisión estricta:
-𝒞_osc(Δ𝓜_osc^SV) ∈ {APTO, NO_APTO, U}
-𝓜_osc^SV := Δ𝓜_osc^SV bajo 𝒞_osc = APTO
-La conclusión material previa a los laboratorios tendrá un objetivo preciso: ponderar y determinar, con error cero de cálculo en el plano formal declarado, los valores que la publicación haya hecho comparables: dominio empleado, masa total proyectada, masa material retornada, diferencia másica candidata, estado de la restricción oscura, unidad metrológica de retorno, equivalencia física y dictamen. Ese error cero no significa ausencia de incertidumbre experimental ni eliminación de error observacional; significa ausencia de error de plano, dominio, unidad, homogeneidad, resta, proyección, restricción y retorno dentro del cálculo SV ejecutado.
 Índice
+
 Resumen
+
 Abstract
+
 Advertencia de alcance, autoría, derechos y licencia
+
 0. Planteamiento general
-0.1. Problema rector: de la resta observacional a la diferencia másica raigal 0.2. Tesis central: la materia oscura sólo se nombra tras restricción oscura 0.3. Universo físico realizado, dominio observable y dominio material retornado 0.4. Por qué Ω_U0 no es el TODO y Ω_ret^M no agota el universo físico realizado 0.5. Formulación rectora inicial 0.6. Estatuto de 𝒞_osc como restricción oscura 0.7. Error cero de cálculo: plano formal, dominio, unidad, proyección, resta, restricción y retorno 0.8. Qué se calcula, qué se contrasta, qué se retorna y qué debe permanecer en U
+1. 
+0.1. Problema rector: de la resta observacional a la diferencia másica raigal
+0.2. Tesis central: la materia oscura sólo se nombra tras restricción oscura
+0.3. Universo físico realizado, dominio observable y dominio material retornado
+0.4. Por qué Ω_U0 no es el TODO y Ω_ret^M no agota el universo físico realizado
+0.5. Formulación rectora inicial
+0.6. Estatuto de 𝒞_osc como restricción oscura
+0.7. Error cero de cálculo: plano formal, dominio, unidad, proyección, resta, restricción y retorno
+0.8. Qué se calcula, qué se contrasta, qué se retorna y qué debe permanecer en U
 I. Estado del arte físico contemporáneo de la materia oscura
 I.1. Fritz Zwicky y el problema de masa faltante en el cúmulo de Coma I.2. Jan Oort, Horace Babcock y los primeros indicios dinámicos galácticos I.3. Vera Rubin, Kent Ford y Morton Roberts: curvas de rotación galáctica I.4. Ostriker, Peebles y la estabilización dinámica de discos galácticos mediante halos I.5. Freeman, Bosma y la consolidación observacional del problema de halos galácticos I.6. Cúmulos de galaxias: masa dinámica, gas caliente y discrepancia bariónica I.7. Lentes gravitacionales fuertes y débiles como lectura independiente de masa proyectada I.8. Bullet Cluster y cúmulos en colisión: separación entre gas bariónico y potencial gravitatorio I.9. Fondo cósmico de microondas: COBE, WMAP, Planck y el inventario cosmológico de componentes I.10. Formación de estructura a gran escala y necesidad de componente gravitante no luminosa I.11. ΛCDM como marco estándar: materia oscura fría, constante cosmológica y expansión I.12. Perfiles de halo: Navarro, Frenk y White; Einasto; Burkert; Moore; perfiles cuspados y perfiles con núcleo I.13. Tensiones internas del paradigma de halos: cúspide-núcleo, satélites faltantes, too-big-to-fail y diversidad de curvas de rotación I.14. Materia bariónica ordinaria no estelar: gas, polvo, remanentes, MACHOs y límites observacionales I.15. WIMPs: motivación supersimétrica, milagro térmico, búsquedas directas, indirectas y en colisionadores I.16. Axiones y ALPs: Peccei-Quinn, Weinberg, Wilczek y sector oscuro ultraligero I.17. Neutrinos estériles: Dodelson-Widrow, Shi-Fuller y materia oscura templada I.18. Agujeros negros primordiales: Hawking, Carr y límites por microlente, CMB, ondas gravitacionales y dinámica I.19. Materia oscura autointeractuante: Spergel-Steinhardt y problemas de pequeña escala I.20. Materia oscura difusa, fuzzy dark matter y campos ultraligeros I.21. Sectores oscuros, fotones oscuros, milicarga, FIMPs, SIMPs y escenarios de portal I.22. MOND de Milgrom: aceleración crítica, éxitos galácticos y problemas en cúmulos I.23. TeVeS de Bekenstein y relativizaciones de MOND I.24. MOG/STVG de Moffat, gravedad f(R), gravedad entrópica y familias de gravedad modificada I.25. Comparación fuerte: componente gravitante no luminosa frente a modificación de la ley gravitatoria I.26. Estado actual del problema: evidencia gravitatoria robusta, soporte microfísico no identificado y pluralidad de modelos abiertos
 II. Estado del arte metrológico, observacional y computacional del cálculo de masa oscura
