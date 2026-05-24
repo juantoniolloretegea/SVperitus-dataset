@@ -878,6 +878,8 @@ El núcleo XI entrega cuatro salidas posibles. La primera es masa oscura admitid
 
 Este anexo fija la restricción de no interiorización aplicable a toda constante, parámetro, magnitud, estimador o salida de modelo procedente de la física contemporánea, de la metrología SI, de la cosmología observacional, de simulaciones, de bancos astrofísicos o de reconstrucciones dinámicas. Su función no es negar esas entradas, sino impedir que operen como verdades internas del cálculo SV sin pasar por dominio, unidad, aparato matemático, banco, residual y resultado de admisibilidad. Una entrada externa puede quedar absorbida, absorbida parcialmente, rechazada o mantenida en `U`, pero no puede incorporarse por prestigio físico, por uso extendido, por definición SI, por ajuste estadístico, por eficacia de modelo ni por ausencia de alternativa.
 
+Las unidades SV de retorno empleadas por esta obra —`UE_MFC`, `UFE`, `UFM`, `UFC`, `UFT` y `UFCE`— no son entradas externas sometidas a esta restricción: constituyen el aparato interno de retorno ya fijado por la sede metrológica del corpus. En este anexo se usan como unidades internas y no se clasifican como absorbidas, absorbidas parcialmente o rechazadas. La clasificación recae sólo sobre lo que intenta entrar desde fuera: constantes ancla, parámetros cosmológicos, estimadores, densidades, horizontes, volúmenes, relaciones masa-luz, simulaciones y retornos de banco.
+
 La norma rectora es:
 
 `entrada externa ≠ verdad SV`
@@ -894,7 +896,7 @@ La norma rectora es:
 
 En esta investigación, “factual” designa la lectura física de hechos declarados como sucesos evaluables. Un hecho no queda admitido porque haya sido mencionado, medido, ajustado por un modelo o expresado mediante una constante; debe poder situarse en un dominio, con magnitud, unidad, frontera, residual y retorno. Esta definición permite distinguir una entrada física útil de una verdad interna del cálculo. Una constante exacta, un parámetro cosmológico, una masa reconstruida por lente, una densidad crítica o una salida de simulación pueden ser informativos, pero sólo resultan admisibles en el rango que su dominio y su retorno permitan.
 
-La colección *Sucesos, horizontes y cambio estructural — Una aproximación algebraica desde el Sistema Vectorial SV* desarrolla la base algebraica de esta lectura. VII.0 desplaza el cambio desde el mero transcurso hacia la comparecencia de sucesos admisibles en horizonte declarado; VII.1 formaliza el suceso admisible como objeto tipado; la nota sobre suceso local, suceso envolvente y reevaluación situacional precisa cómo puede haber modificación efectiva sin volver al tiempo fuerte; VII.2 estudia comparabilidad, afectación, precedencia y compatibilidad; VII.3 trabaja cadenas, acumulación y regímenes de paso; VII.4 introduce respuesta estructural, umbral y transición de régimen; VII.5 fija el enlace entre acumulaciones sucesivas; y el trabajo sobre equivalencia parcial, preservación e invariancia local impide convertir una relación parcial entre regímenes en identidad global. En conjunto, esa base permite evaluar entradas externas sin transformar mediciones, parámetros, promedios o estimadores en fundamentos internos.
+La colección *Sucesos, horizontes y cambio estructural — Una aproximación algebraica desde el Sistema Vectorial SV* actúa aquí como obra marco para el desarrollo algebraico ampliado de suceso, horizonte declarado, reevaluación situacional, precedencia, compatibilidad, afectación, cadenas y regímenes de paso. Esta referencia no sustituye la definición operativa de este anexo: sólo sitúa su base conceptual dentro del corpus y evita que una medición, un parámetro, un promedio o un estimador se transformen por simple uso en fundamento interno.
 
 Con ello, una entrada externa sólo será tratada como hecho admisible si declara qué afecta, en qué dominio opera, qué unidad usa, qué frontera conserva, qué residual deja y qué retorno permite. Si cumple esas condiciones, podrá quedar absorbida o absorbida parcialmente; si las incumple por mezcla de planos, doble cómputo, sustancialización, estadística como cierre o parámetro de modelo como realidad interna, deberá rechazarse; si falta base material para decidir, permanecerá en `U`.
 
@@ -936,14 +938,14 @@ La restricción se aplica a cuatro familias principales. La primera familia comp
 | BD-NI-18 | masa por lente | estimador observacional | reconstrucción gravitatoria | absorber retorno gravitatorio como materialidad | banco de contraste de masa | entrar directa en `Ω_ret^M` | absorción parcial |
 | BD-NI-19 | masa dinámica/virial | estimador observacional | modelo de equilibrio/dinámica | hipótesis de equilibrio como verdad | banco con residual | cerrar masa oscura sin restricción | absorción parcial |
 | BD-NI-20 | masa hidrostática | estimador astrofísico | gas/plasma/equilibrio | equilibrio supuesto, sesgo térmico | inventario bariónico y contraste | sustituir soporte másico | absorción parcial / U |
-| BD-NI-21 | parámetros de simulación | modelo computacional | supuestos numéricos | simulación como realidad | banco de estrés | cerrar verdad interna | rechazo como fundamento; banco parcial |
+| BD-NI-21 | parámetros de simulación | modelo computacional | supuestos numéricos | simulación como realidad | banco de contraste | cerrar verdad interna | rechazo como fundamento; banco parcial |
 | BD-NI-22 | relación masa-luz | observación/fotometría | estimador dependiente de población | visibilidad como materialidad | contraste estelar | agotar materia retornada | absorción parcial |
 
 ### AX.6. Banco positivo
 
 | ID | Caso positivo | Entrada | Condición cumplida | Resultado admitido |
 |---|---|---|---|---|
-| BP-NI-01 | masa interna expresada en unidad de retorno | `𝓜_SV(Ω)=N_M^SV(Ω)·UFM` | `N_M^SV` procede de soporte, invariante y admisión; `UFM` sólo dimensiona la salida | uso apto de `UFM` como unidad |
+| BP-NI-01 | masa interna expresada en unidad interna de retorno | `𝓜_SV(Ω)=N_M^SV(Ω)·UFM` | `N_M^SV` procede de soporte, invariante y admisión; `UFM` sólo dimensiona la salida | salida dimensional correcta |
 | BP-NI-02 | extensión física de un dominio de banco | radio, volumen o escala en `UFE` | dominio espacial declarado y sin función fundante | uso apto de extensión |
 | BP-NI-03 | temperatura de gas intracumular | `k_B`, `UFT`, banco térmico | gas/plasma declarado, unidad y residual | inventario o contraste bariónico |
 | BP-NI-04 | corriente o plasma | `e`, `UFC` | retorno electromagnético delimitado | componente material identificable o residual |
@@ -989,29 +991,27 @@ El uso correcto es `Ω_c[B] → banco cosmológico de contraste`. El uso prohibi
 
 Se toma como entrada externa `h`. `h` puede intervenir en la definición SI del kilogramo y, por remisión al documento de primitivos metrológicos, en la equivalencia pública de `UFM`. Pero no calcula masa SV. La masa de dominio procede de `𝓜_SV(Ω)=N_M^SV(Ω)·UFM`, donde `N_M^SV(Ω)` depende de soporte, invariante local, admisión y residual. `h` no decide `μ_i^M`, no define `I_i^R`, no construye `Raigal_SV(Ω)` y no autoriza convertir energía en materia oscura. El uso permitido es `h → equivalencia metrológica externa de UFM`; el uso prohibido es `h → fundamento de masa oscura`. Resultado: absorción parcial como ancla de interfaz; rechazo como fundamento de cálculo.
 
-### AX.11. Tabla de resultados de admisibilidad
+### AX.11. Matriz de clasificación de entradas externas
 
-| Entrada | Resultado | Rango de uso |
+| Entrada externa | Resultado | Rango de uso |
 |---|---|---|
-| `UFM` | absorbida como unidad de salida | expresar masa SV ya calculada |
-| `UFE` | absorbida parcialmente | extensión de dominios físicos declarados |
-| `UE_MFC` | absorbida parcialmente | escala de interfaz, nunca tiempo rector |
-| `UFT` | absorbida parcialmente | temperatura de banco, no verdad estadística |
-| `UFC` | absorbida parcialmente | corriente/plasma si el banco lo exige |
-| `UFCE` | absorbida parcialmente | inventario de entidad ordinaria |
-| `K_cd` | rechazada como primitivo | sólo fotometría de banco |
-| `c` | absorbida parcialmente | retorno dimensional y transducción tipada |
-| `h` | absorbida parcialmente | interfaz de `UFM`, no cálculo de masa |
-| `k_B` | absorbida parcialmente / U | banco térmico con dominio declarado |
-| `G` | absorbida localmente | contraste gravitatorio, no causa |
-| `H₀` | absorbida parcialmente | banco cosmológico |
-| `Ω_m`, `Ω_b`, `Ω_c`, `Ω_Λ` | absorbidas parcialmente | contraste externo con residual |
-| `σ₈`, `S₈` | absorbidas parcialmente | tensión de estructura, no cierre |
-| `Λ_obs[B]` | absorbida parcialmente | retorno cosmológico auditado |
-| densidad crítica | absorbida parcialmente | escala de modelo, no contenido interno |
-| volúmenes/horizontes | parcial / U | frontera de banco, no totalidad |
-| masas por lente/dinámica/virial | absorbidas parcialmente | bancos de contraste |
-| parámetros de simulación | rechazo como fundamento | estrés y comparación, no verdad |
+| `c` | absorción parcial | retorno dimensional y propagación tipada; no geometría fundante |
+| `h` | absorción parcial | ancla SI de interfaz para kg; no cálculo de masa SV |
+| `k_B` | absorción parcial / `U` | banco térmico declarado; no estadística fundante |
+| `e` | absorción parcial | plasma, corriente y retorno electromagnético; no sector oscuro |
+| `N_A` | absorción parcial | inventario de entidad ordinaria; no fundamento químico |
+| `Δν_Cs` | absorción parcial | escala de interfaz; no tiempo rector |
+| `K_cd` | rechazo como fundamento | sólo fotometría de banco |
+| `G` | absorción local parcial | contraste gravitatorio; no causa de la gravedad ni generador de masa |
+| `H₀` | absorción parcial | banco cosmológico con modelo y residual |
+| `Ω_m`, `Ω_b`, `Ω_c`, `Ω_Λ` | absorción parcial | contraste cosmológico; no contenido interno |
+| `σ₈`, `S₈` | absorción parcial | tensión de estructura; no cierre |
+| `Λ_obs[B]` | absorción parcial | retorno cosmológico auditado; no masa |
+| densidad crítica | absorción parcial | escala de modelo; no contenido raigal |
+| volúmenes/horizontes | parcial / `U` | frontera de banco; no totalidad |
+| masas por lente/dinámica/virial/hidrostática | absorción parcial | bancos de contraste; no `Ω_ret^M` automática |
+| relación masa-luz | absorción parcial | estimador fotométrico; no criterio de materialidad |
+| parámetros de simulación | rechazo como fundamento | contraste y comparación; no verdad interna |
 
 ### AX.12. Laboratorios propios del anexo
 
@@ -1021,7 +1021,7 @@ Los laboratorios de este anexo no tienen por función crear el resultado, sino c
 |---|---|---|---|
 | LAB-NI-01 | clasificación de constantes SI | `c`, `h`, `k_B`, `e`, `N_A`, `Δν_Cs`, `K_cd` | parcial, parcial, parcial/U, parcial, parcial, parcial, rechazo como primitivo |
 | LAB-NI-02 | prohibición de cálculo de masa desde `h` | `h → 𝓜_SV` | rechazo |
-| LAB-NI-03 | uso apto de `UFM` | `N_M^SV·UFM` | absorción |
+| LAB-NI-03 | uso correcto de unidad interna de salida | `N_M^SV·UFM` | salida dimensional correcta; no clasificación externa |
 | LAB-NI-04 | parámetro cosmológico como banco | `Ω_c[B]` | absorción parcial |
 | LAB-NI-05 | parámetro cosmológico como masa | `Ω_c[B] → 𝓜_osc^SV` | rechazo |
 | LAB-NI-06 | lente como contraste | `M_lens(B)` | absorción parcial |
@@ -1031,7 +1031,7 @@ Los laboratorios de este anexo no tienen por función crear el resultado, sino c
 | LAB-NI-10 | temperatura como materia oscura | `k_B T → 𝓜_osc^SV` | rechazo |
 | LAB-NI-11 | densidad crítica como contraste | `ρ_crit(B)` | absorción parcial |
 | LAB-NI-12 | densidad crítica como Raigal | `ρ_crit(B) → Raigal_SV(Ω)` | rechazo |
-| LAB-NI-13 | simulación como estrés | parámetros N-body | absorción parcial |
+| LAB-NI-13 | simulación como contraste | parámetros N-body | absorción parcial |
 | LAB-NI-14 | simulación como cierre | salida N-body → verdad SV | rechazo |
 | LAB-NI-15 | conservación de `U` | entrada con frontera insuficiente | U |
 
@@ -1069,22 +1069,6 @@ Lloret Egea, J. A. (2026). *Del contenido físico factual del suceso a las clase
 Lloret Egea, J. A. (2026). *Del contenido físico factual del suceso a la entidad soberana del campo en el Sistema Vectorial SV: absorción basal exacta, unificación fuerte de gravitación, electricidad y magnetismo, y apertura a clases factuales emergentes*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.25bd99ae
 
 Lloret Egea, J. A. (2026). *Sucesos, horizontes y cambio estructural — Una aproximación algebraica desde el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.229d91e4
-
-Lloret Egea, J. A. (2026). *Documento VII.0 — Hacia una geometría eventivo-espacial sin tiempo canónico: horizonte declarado, sucesos y reevaluación situacional en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.89e77c19
-
-Lloret Egea, J. A. (2026). *Teoría rigurosa del suceso admisible en el Sistema Vectorial SV. Doc VII.1*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.1608c18c
-
-Lloret Egea, J. A. (2026). *VII.2 — Precedencia, compatibilidad y afectación entre sucesos admisibles en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.1f58d8a2
-
-Lloret Egea, J. A. (2026). *Suceso local, suceso envolvente y reevaluación situacional en horizonte declarado en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.09daf43b
-
-Lloret Egea, J. A. (2026). *VII.3 — Cadenas, acumulación y regímenes de paso entre sucesos admisibles en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.6326ca96
-
-Lloret Egea, J. A. (2026). *VII.4 — Respuesta estructural, umbral, transición de régimen y preparación de células especializadas en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.300a3099
-
-Lloret Egea, J. A. (2026). *VII.5 — Enlace formal entre acumulaciones sucesivas en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.55f0e22d
-
-Lloret Egea, J. A. (2026). *Equivalencia parcial, preservación e invariancia local entre regímenes en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.9d3f0a9d
 
 
 ### Bibliografía externa de física contemporánea
