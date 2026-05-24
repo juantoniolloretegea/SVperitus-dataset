@@ -1,4 +1,4 @@
-# Cálculo de la materia oscura del universo físico realizado
+``# Cálculo de la materia oscura del universo físico realizado
 
 ## Diferencia másica, Raigal, proyección másica y restricción oscura
 
@@ -1161,3 +1161,4 @@ Bureau International des Poids et Mesures. (2025). *Le Système international d�
 ### Fuentes observacionales y cosmológicas usadas como banco de contraste
 
 Pendiente de depuración final conforme se consoliden los bancos de datos, parámetros cosmológicos, retornos observacionales y laboratorios.
+``
