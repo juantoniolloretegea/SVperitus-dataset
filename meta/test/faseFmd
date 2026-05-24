@@ -146,18 +146,18 @@ Advertencia de derechos, autoría y licencia
 
 </details>
 <details>
-<summary>VIII. Primitivos metrológicos y retorno físico</summary>
+<summary>VIII. Retorno metrológico bajo restricción de no interiorización</summary>
 
-- VIII.1. Necesidad de primitivos metrológicos para no dejar el cálculo en formalismo interno
-- VIII.2. UE_MFC: escala factual de ciclo
-- VIII.3. UFE: extensión
-- VIII.4. UFM: masa
-- VIII.5. UFC: corriente
-- VIII.6. UFT: temperatura
-- VIII.7. UFCE: cantidad de entidad
+- VIII.1. Norma de uso: unidad SV antes que constante externa
+- VIII.2. UE_MFC: escala de ciclo en retorno, no tiempo rector
+- VIII.3. UFE: extensión declarada de dominio físico
+- VIII.4. UFM: masa de salida del cálculo
+- VIII.5. UFC: corriente y plasma como datos auxiliares de banco
+- VIII.6. UFT: temperatura de banco, no estadística fundante
+- VIII.7. UFCE: cantidad de entidad para inventario material retornado
 - VIII.8. Candela diferida y límites de la fotometría
-- VIII.9. Dimensiones físicas necesarias para masa, energía, fuerza y potencia
-- VIII.10. Delimitación negativa: adoptar constantes ancla no importa sus teorías de origen
+- VIII.9. Dimensiones físicas necesarias para contraste y retorno
+- VIII.10. Restricción de no interiorización de constantes, parámetros y magnitudes externas
 
 </details>
 <details>
@@ -368,6 +368,7 @@ Advertencia de derechos, autoría y licencia
 - Anexo G. Especificación del programa de validación
 - Anexo H. Matriz de errores y falsación
 - Anexo I. Plantilla de informe de masa oscura admitida
+- Anexo X. Restricción de no interiorización de constantes, parámetros y magnitudes externas
 
 </details>
 
@@ -416,7 +417,7 @@ El cálculo exige distinguir tres planos que la lectura cosmológica ordinaria t
 ### 0.5. Formulación rectora inicial
 
 
-La formulación rectora inicial, conforme al aparato de sucesos generadores de Lloret Egea (2026), queda establecida por la cadena Ω_pre → Π₃ᴴ → K₃ⁿ → ε_Γ → Raigal_SV ≡ Ξ_SV → π_M → 𝓜_SV, donde ε_Γ designa el suceso factual operativo sobre marcos ya ternarizados y no debe confundirse con ε₀. El Raigal no añade un operador independiente, sino que nombra conceptualmente el contenido físico-factual preproyectivo del dominio: Raigal_SV(Ω) := Ξ_SV(Ω). Su raíz lingüística no es decorativa: expresa que antes de hablar de masa, energía, campo o clase emergente debe declararse el contenido común que soporta esas proyecciones. La proyección másica π_M produce la masa de dominio mediante 𝓜_SV(Ω)=N_M^SV(Ω)·UFM, siendo N_M^SV(Ω) el número másico raigal y UFM la unidad factual de masa en retorno metrológico. La energía y la materia quedan así tratadas como proyecciones diferenciadas, no como nombres intercambiables; cuando haya transición entre ambas, la operación deberá conservar soporte, invariante, unidad SV y equivalencia SI para evitar error de plano. La diferencia candidata se expresa como Δ𝓜_osc^SV := π_M(Raigal_SV(Ω_U0)) − π_M(Raigal_SV(Ω_ret^M)); su admisión requiere 𝒞_osc. Esta rama operativa específica del cálculo de masa de dominio no sustituye la cadena canónica completa del corpus: Ω_pre → Π₃ᴴ → K₃ⁿ → ε → Ξ_SV → 𝔎_SV → Σ_conc → 𝔥_SV → Σ_canal → 𝔗_SV → {m₀, χ_α, U}, fijada por Lloret Egea (2026) en *Teoría general de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV* y en la formulación preternaria del corpus. π_M queda habilitada aquí como proyección operativa másica del Raigal, sin sustituir la salida canónica tripartita {m₀, χ_α, U} ni cerrar todavía su alcance doctrinal general fuera de esta obra. El alias Raigal_SV(Ω) := Ξ_SV(Ω) conserva la definición canónica de Ξ_SV como contenido físico factual del suceso. Su uso responde al valor semántico de raíz preproyectiva: facilita la lectura científica externa sin alterar el operador de origen ni crear una entidad nueva. ε_Γ, por su parte, designa el suceso factual operativo sobre marcos ya ternarizados y opera como instancia local tipada de ε_k en el dominio Γ, distinta de ε₀ por su posición posterior a Π₃ᴴ. La equivalencia con ε_k se mantiene sólo en su función de transición entre marcos consecutivos del soporte, no como identidad bruta que borre el tipo de dominio.
+La formulación rectora inicial, conforme al aparato de sucesos generadores de Lloret Egea (2026), queda establecida por la cadena Ω_pre → Π₃ᴴ → K₃ⁿ → ε_Γ → Raigal_SV ≡ Ξ_SV → π_M → 𝓜_SV, donde ε_Γ designa el suceso factual operativo sobre marcos ya ternarizados y no debe confundirse con ε₀. El Raigal no añade un operador independiente, sino que nombra conceptualmente el contenido físico-factual preproyectivo del dominio: Raigal_SV(Ω) := Ξ_SV(Ω). Su raíz lingüística no es retórica: expresa que antes de hablar de masa, energía, campo o clase emergente debe declararse el contenido común que soporta esas proyecciones. La proyección másica π_M produce la masa de dominio mediante 𝓜_SV(Ω)=N_M^SV(Ω)·UFM, siendo N_M^SV(Ω) el número másico raigal y UFM la unidad factual de masa en retorno metrológico. La energía y la materia quedan así tratadas como proyecciones diferenciadas, no como nombres intercambiables; cuando haya transición entre ambas, la operación deberá conservar soporte, invariante, unidad SV y equivalencia SI para evitar error de plano. La diferencia candidata se expresa como Δ𝓜_osc^SV := π_M(Raigal_SV(Ω_U0)) − π_M(Raigal_SV(Ω_ret^M)); su admisión requiere 𝒞_osc. Esta rama operativa específica del cálculo de masa de dominio no sustituye la cadena canónica completa del corpus: Ω_pre → Π₃ᴴ → K₃ⁿ → ε → Ξ_SV → 𝔎_SV → Σ_conc → 𝔥_SV → Σ_canal → 𝔗_SV → {m₀, χ_α, U}, fijada por Lloret Egea (2026) en *Teoría general de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV* y en la formulación preternaria del corpus. π_M queda habilitada aquí como proyección operativa másica del Raigal, sin sustituir la salida canónica tripartita {m₀, χ_α, U} ni cerrar todavía su alcance doctrinal general fuera de esta obra. El alias Raigal_SV(Ω) := Ξ_SV(Ω) conserva la definición canónica de Ξ_SV como contenido físico factual del suceso. Su uso responde al valor semántico de raíz preproyectiva: facilita la lectura científica externa sin alterar el operador de origen ni crear una entidad nueva. ε_Γ, por su parte, designa el suceso factual operativo sobre marcos ya ternarizados y opera como instancia local tipada de ε_k en el dominio Γ, distinta de ε₀ por su posición posterior a Π₃ᴴ. La equivalencia con ε_k se mantiene sólo en su función de transición entre marcos consecutivos del soporte, no como identidad bruta que borre el tipo de dominio.
 
 ### 0.6. Registros de cálculo: intrínseco raigal, observacional de banco y retorno auditado
 
@@ -476,7 +477,7 @@ El fondo cósmico de microondas introdujo una vía cosmológica de enorme potenc
 ### I.7. Oscilaciones acústicas bariónicas, DESI y tensión contemporánea del régimen cosmológico
 
 
-Las oscilaciones acústicas bariónicas aportan una regla estándar de distancia cosmológica vinculada al horizonte acústico temprano y permiten medir distancias transversales, expansión y geometría cosmológica a distintas profundidades. DESI Collaboration et al. (2025) ha reforzado este banco con medidas BAO de alta precisión sobre galaxias, cuásares y bosque Lyman-α, y ha situado de nuevo en primer plano la tensión entre ΛCDM, energía oscura constante y modelos de energía oscura dinámica. En un estudio sobre materia oscura, este punto no debe confundirse: BAO y DESI no calculan directamente materia oscura como masa raigal, pero sí fijan un entorno cosmológico donde materia, energía oscura, expansión y geometría se correlacionan. Ese entorno es necesario para evitar una lectura aislada de Δ𝓜_osc^SV. Si una diferencia másica raigal pretende describir el universo físico realizado, deberá respetar el banco cosmológico que condiciona expansión, densidad de materia y distancias. Al mismo tiempo, las posibles tensiones sobre energía oscura no autorizan mezclar energía oscura y materia oscura: una variación en el régimen de w(z), una discrepancia con ΛCDM o una tensión en H(z) no se convierte en masa oscura. La función de DESI será, por tanto, doble: banco de cosmología observacional y compuerta contra contaminación Λ/DE/DM. DESI BAO debe entrar como retorno cosmológico tipado, con modelo, corrimiento al rojo, magnitud, incertidumbre y residual; nunca como fórmula sustitutiva de π_M ni como argumento para cerrar materia oscura por inferencia de expansión.
+Las oscilaciones acústicas bariónicas aportan una regla estándar de distancia cosmológica vinculada al horizonte acústico temprano y permiten medir distancias transversales, expansión y geometría cosmológica a distintas profundidades. DESI Collaboration et al. (2025) ha reforzado este banco con medidas BAO de alta precisión sobre galaxias, cuásares y bosque Lyman-α, y ha situado de nuevo en primer plano la tensión entre ΛCDM, energía oscura constante y modelos de energía oscura dinámica. En un estudio sobre materia oscura, este punto no debe confundirse: BAO y DESI no calculan directamente materia oscura como masa raigal, pero sí fijan un entorno cosmológico donde materia, energía oscura, expansión y geometría se correlacionan. Ese entorno es necesario para evitar una lectura aislada de Δ𝓜_osc^SV. Si una diferencia másica raigal pretende describir el universo físico realizado, deberá respetar el banco cosmológico que condiciona expansión, densidad de materia y distancias. Al mismo tiempo, las posibles tensiones sobre energía oscura no autorizan mezclar energía oscura y materia oscura: una variación en el régimen de w(z), una discrepancia con ΛCDM o una tensión en H(z) no se convierte en masa oscura. La función de DESI será, por tanto, doble: banco de cosmología observacional y restricción contra contaminación Λ/DE/DM. DESI BAO debe entrar como retorno cosmológico tipado, con modelo, corrimiento al rojo, magnitud, incertidumbre y residual; nunca como fórmula sustitutiva de π_M ni como argumento para cerrar materia oscura por inferencia de expansión.
 
 ### I.8. Perfiles de halo, simulaciones y subestructura: NFW, Einasto, Burkert y Moore
 
@@ -667,7 +668,7 @@ Cada posición preternaria se expresa como `ξ_i = (i, α_i, β_i)`, donde `i` i
 
 ### V.6. Tensión preternaria 𝒯_pre y cuello director ν_*
 
-`𝒯_pre` expresa la tensión formal de una región de `Ω_pre` hacia resolución, sin convertir esa tensión en tiempo, fuerza física, probabilidad o causa dinámica. Nombra la organización interna por la cual una posición no queda indiferente ante la lectura: puede orientarse hacia admisión, exclusión, conservación de `U` o bloqueo de clausura. `ν_*` designa el régimen de paso en el que esa tensión concentra la posibilidad de resolución. No es un instante temporal ni una coordenada física necesaria; es una condición formal de conducción entre apertura preternaria y lectura operativa. En el marco de esta obra, ambos conceptos sirven para delimitar que el Raigal no es una colección plana de posiciones ni una suma de datos externos. El universo físico analógico presenta estructuras, umbrales, fronteras, transiciones y retornos; el SV necesita una forma de representar esa organización antes de decidir masa. `𝒯_pre` y `ν_*` aportan esa mediación, pero no producen materia oscura ni sustituyen a `π_M`. Sólo preparan el dominio para que el contenido físico-factual pueda ser leído con suficiente estructura y después contrastado por transductores frente a observables reales.
+`𝒯_pre` expresa la tensión formal de una región de `Ω_pre` hacia resolución, sin convertir esa tensión en tiempo, fuerza física, probabilidad o causa dinámica. Nombra la organización interna por la cual una posición no queda indiferente ante la lectura: puede orientarse hacia admisión, exclusión, conservación de `U` o bloqueo de clausura. `ν_*` designa el régimen de paso en el que esa tensión concentra la posibilidad de resolución. No es un instante temporal ni una coordenada física necesaria; es una condición formal de conducción entre apertura preternaria y lectura operativa. En el marco de esta obra, ambos conceptos sirven para delimitar que el Raigal no es una colección plana de posiciones ni una suma de datos externos. El universo físico analógico presenta estructuras, umbrales, fronteras, transiciones y retornos; el SV necesita una forma de representar esa organización antes de decidir masa. `𝒯_pre` y `ν_*` aportan esa mediación, pero no producen materia oscura ni sustituyen a `π_M`. Sólo preparan el dominio para que el contenido físico-factual pueda ser leído con suficiente estructura y después contrastado por transductores respecto de observables reales.
 
 ### V.7. Proyección ternaria inducida Π₃ᴴ
 
@@ -698,11 +699,11 @@ El invariante local queda fijado por `I_i^R = Z_i^R · Z̄_i^R = ρ_i² + δ_i²
 
 ### VI.5. Recuperación de α_i y β_i desde ρ_i y δ_i
 
-Las componentes preternarias pueden recuperarse desde `ρ_i` y `δ_i` mediante `α_i = (ρ_i − δ_i)/2` y `β_i = (ρ_i + δ_i)/2`. Esta recuperación demuestra que el paso al par raigal no destruye la información original de la posición. La operación es importante porque permite ir en ambos sentidos: desde `α_i, β_i` hacia acumulación y separación, y desde `ρ_i, δ_i` hacia las componentes que originaron la lectura local. En términos de transducción, esta reversibilidad parcial ofrece una garantía técnica: el complejo factual raigal no funciona como una caja cerrada que absorbe datos físicos y devuelve resultados sin trazabilidad. Conserva una ruta de retorno hacia las componentes de apertura y orientación. Si una auditoría del banco exige revisar una posición, puede reconstruirse la relación entre su contenido local y su par raigal. Esa trazabilidad protege el cálculo frente a cierres opacos y permite que la comparación con física contemporánea conserve dominio, unidad, residual y procedencia.
+Las componentes preternarias pueden recuperarse desde `ρ_i` y `δ_i` mediante `α_i = (ρ_i − δ_i)/2` y `β_i = (ρ_i + δ_i)/2`. Esta recuperación demuestra que el paso al par raigal no destruye la información original de la posición. La operación es importante porque permite ir en ambos sentidos: desde `α_i, β_i` hacia acumulación y separación, y desde `ρ_i, δ_i` hacia las componentes que originaron la lectura local. En términos de transducción, esta reversibilidad parcial ofrece una garantía técnica: el complejo factual raigal no funciona como una caja cerrada que absorbe datos físicos y devuelve resultados sin trazabilidad. Conserva una ruta de retorno hacia las componentes de apertura y orientación. Si una auditoría del banco exige revisar una posición, puede reconstruirse la relación entre su contenido local y su par raigal. Esa trazabilidad protege el cálculo ante cierres opacos y permite que la comparación con física contemporánea conserve dominio, unidad, residual y procedencia.
 
 ### VI.6. Índice normalizado de sesgo polar δ_i/ρ_i
 
-El cociente `δ_i/ρ_i`, cuando `ρ_i≠0`, permite leer el sesgo polar relativo de la posición. No mide probabilidad, no expresa porcentaje de materia oscura ni funciona como parámetro de ajuste. Su valor orienta la lectura de cuánto pesa la separación interna respecto de la acumulación factual local. Si `δ_i` es pequeño frente a `ρ_i`, la posición presenta acumulación dominante con baja separación relativa; si `δ_i` es comparable a `ρ_i`, la polaridad local adquiere relevancia formal; si `ρ_i=0`, el cociente no debe forzarse y la posición exige tratamiento específico. Este índice puede ayudar a clasificar perfiles de dominio antes de la proyección másica, pero no sustituye al invariante ni a la admisión. En diálogo con física contemporánea, su utilidad estará en distinguir regiones con acumulación semejante pero organización interna distinta, algo especialmente relevante cuando se comparen mapas de masa, perfiles de halo, retornos gravitatorios o dominios con materialidad incompleta. El sesgo polar orienta; no decide.
+El cociente `δ_i/ρ_i`, cuando `ρ_i≠0`, permite leer el sesgo polar relativo de la posición. No mide probabilidad, no expresa porcentaje de materia oscura ni funciona como parámetro de ajuste. Su valor orienta la lectura de cuánto pesa la separación interna respecto de la acumulación factual local. Si `δ_i` es pequeño respecto de `ρ_i`, la posición presenta acumulación dominante con baja separación relativa; si `δ_i` es comparable a `ρ_i`, la polaridad local adquiere relevancia formal; si `ρ_i=0`, el cociente no debe forzarse y la posición exige tratamiento específico. Este índice puede ayudar a clasificar perfiles de dominio antes de la proyección másica, pero no sustituye al invariante ni a la admisión. En diálogo con física contemporánea, su utilidad estará en distinguir regiones con acumulación semejante pero organización interna distinta, algo especialmente relevante cuando se comparen mapas de masa, perfiles de halo, retornos gravitatorios o dominios con materialidad incompleta. El sesgo polar orienta; no decide.
 
 ### VI.7. Lectura ternaria inducida desde inclinación polar preternaria
 
@@ -715,7 +716,7 @@ El agregado raigal de dominio se expresa como `Z_R(Ω) = Σ_{i∈Soporte_R(Ω)} 
 
 ## VII. Magnitudes internas del Raigal
 
-Las magnitudes internas del Raigal permiten pasar de la posición preternaria al dominio comparable sin convertir todavía el contenido físico-factual en masa, energía, campo o clase emergente. Conviene fijar aquí una sola vez el sentido de “factual”: designa la física del suceso, es decir, el análisis de hechos declarados que se mapean contra sucesos con dominio, magnitud, unidad, frontera, residual y retorno. No es un adjetivo ornamental ni una forma de aislar el SV de la física contemporánea; sitúa el cálculo en el campo de los hechos y evita que herramientas no primitivas —tiempo rector, estadística fundante, ajuste de modelo o inferencia opaca— ocupen el lugar de la estructura observada. Cuando proceda hablar de distancia factual fibrosa, no se tratará de duración ni de distancia métrica ordinaria, sino de cambio estructural entre sucesos consecutivos de una trayectoria para un observable declarado. Una curva de rotación, una lente, una densidad cosmológica o una masa hidrostática pertenecen al banco físico; `ρ_i`, `δ_i`, `A_i`, `C_i`, `M_i`, `B_i`, `a(p_i)`, `c(p_i)`, `π(p_i)`, `φ(S_k)`, `ρ_U(S_k)`, `𝒯_U(S_k)`, `κ_U(S_k)` y `(A_Γ, B_Γ, ‖J_Γ‖₁, R_Γ)` pertenecen a la lectura interna del dominio. La exigencia de mantener ambos planos separados impide tanto la abstracción sin retorno físico como la importación acrítica de cifras externas: el SV lee hechos como sucesos, ordena sus magnitudes internas y devuelve contraste físico por transductores, unidades, residuales y retorno.
+Las magnitudes internas del Raigal permiten pasar de la posición preternaria al dominio comparable sin convertir todavía el contenido físico-factual en masa, energía, campo o clase emergente. Conviene fijar aquí una sola vez el sentido de “factual”: designa la lectura física de hechos declarados como sucesos evaluables, con dominio, magnitud, unidad, frontera, residual y retorno. No sustituye el lenguaje experimental de la física contemporánea ni pretende aislar el SV de sus bancos observacionales; su función es impedir que tiempo rector, estadística fundante, ajuste de modelo, inferencia opaca o mera ausencia de señal ocupen el lugar de la estructura observada. La colección *Sucesos, horizontes y cambio estructural — Una aproximación algebraica desde el Sistema Vectorial SV* desarrolla el marco algebraico de esta lectura mediante suceso admisible, horizonte declarado, reevaluación situacional, precedencia, compatibilidad, afectación, cadenas, acumulación y regímenes de paso. En esta obra basta conservar la consecuencia técnica: un hecho físico no entra en el cálculo por estar nombrado, medido o ajustado, sino porque puede declarar qué afecta, en qué dominio opera, qué unidad usa, qué frontera conserva, qué residual deja y qué retorno permite. Cuando proceda hablar de distancia factual fibrosa, no se tratará de duración ni de distancia métrica ordinaria, sino de cambio estructural entre sucesos consecutivos de una trayectoria para un observable declarado. Una curva de rotación, una lente, una densidad cosmológica o una masa hidrostática pertenecen al banco físico; `ρ_i`, `δ_i`, `A_i`, `C_i`, `M_i`, `B_i`, `a(p_i)`, `c(p_i)`, `π(p_i)`, `φ(S_k)`, `ρ_U(S_k)`, `𝒯_U(S_k)`, `κ_U(S_k)` y `(A_Γ, B_Γ, ‖J_Γ‖₁, R_Γ)` pertenecen a la lectura interna del dominio. La exigencia de mantener ambos planos separados impide tanto la abstracción sin retorno físico como la importación acrítica de cifras externas: el SV lee hechos como sucesos, ordena sus magnitudes internas y devuelve contraste físico por transductores, unidades, residuales y retorno.
 
 ### VII.1. Magnitudes preternarias: ρ_i, δ_i, A_i, C_i, M_i, B_i
 
@@ -749,49 +750,49 @@ El descriptor del Raigal de un dominio `Γ` se expresa como `(A_Γ, B_Γ, ‖J_�
 
 Dos dominios raigales sólo pueden compararse si cumplen condiciones de homogeneidad suficientes. Deben declarar tipo de dominio, frontera, soporte, magnitudes internas, unidad de retorno, régimen de proyección, residual y relación con el banco físico. `Ω_U0` y `Ω_ret^M` no pueden restarse si uno está definido por horizonte cosmológico externo y otro por inventario luminoso parcial; tampoco si uno conserva `U` activo y el otro se trata como escalar cerrado; tampoco si uno incluye masa por lente total y el otro suma componentes ya incluidas; tampoco si sus unidades o retornos no son equivalentes. La homogeneidad no exige que los dominios sean iguales, sino que sean comparables sin cambio de plano. En la diferencia másica oscura, esta condición es innegociable: `Δ𝓜_osc^SV` sólo tiene sentido cuando `𝓜_SV(Ω_U0)` y `𝓜_SV(Ω_ret^M)` han sido obtenidas bajo reglas compatibles. La transducción con física contemporánea deberá respetar esta homogeneidad: cada dato externo se incorporará como contraste, retorno, residual o exclusión, pero no como atajo para igualar dominios heterogéneos. La conclusión de esta parte es que las magnitudes internas del Raigal no son aparato formal aislado; son el sistema de control que permite pasar de hechos mapeados como sucesos a cálculo comparativo, sin perder dominio, unidad, residual ni `U`.
 
-## VIII. Primitivos metrológicos y retorno físico
+## VIII. Retorno metrológico bajo restricción de no interiorización
 
-El cálculo de la materia oscura no puede quedar encerrado en una arquitectura formal sin retorno físico. Si `Raigal_SV(Ω)` nombra el contenido preproyectivo de un dominio y `π_M` permite evaluar su salida másica, el resultado sólo adquiere valor científico cuando puede expresarse con unidades, constantes ancla, equivalencias, límites y residuales compatibles con la física contemporánea. Conforme a Lloret Egea (2026, *Primitivos metrológicos del Sistema Vectorial SV: instanciaciones contingentes de las constantes fundacionales del Sistema Internacional, justificación algebraica y tabla de equivalencias factuales*), los primitivos metrológicos del SV articulan esa devolución sin refundar la doctrina ni importar como fundamento las teorías físicas asociadas a cada constante. Su papel en esta obra es preciso: impedir que `𝓜_SV(Ω_U0)`, `𝓜_SV(Ω_ret^M)` y `Δ𝓜_osc^SV` queden como símbolos sin escala; permitir que la masa retorne en `UFM`; conservar extensión, corriente, temperatura y cantidad de entidad cuando el banco lo requiera; y separar con limpieza unidad de retorno, dato externo, proyección raigal y restricción oscura. El Sistema Internacional de Unidades entra como referencia metrológica externa, de acuerdo con el Bureau International des Poids et Mesures (2025, *Le Système international d’unités / The International System of Units [Brochure]*, 9.ª ed.), no como sustituto del cálculo.
+El cálculo de la materia oscura necesita retorno físico, pero no puede interiorizar como verdad SV las constantes, parámetros, estimadores o magnitudes externas que usa para expresarse ante la física contemporánea. La salida interna procede de dominio, Raigal, soporte, invariante, admisión, proyección másica, diferencia y restricción oscura; las unidades y bancos externos sólo intervienen en el rango fijado por la restricción de no interiorización desarrollada en el Anexo X. En consecuencia, `𝓜_SV(Ω_U0)`, `𝓜_SV(Ω_ret^M)` y `Δ𝓜_osc^SV` se devuelven con unidad y contraste, pero no se generan desde `c`, `h`, `G`, `H₀`, `Ω_c`, densidades críticas, masas por lente, masas viriales ni parámetros de simulación. El Sistema Internacional de Unidades comparece como referencia pública de escala; los primitivos metrológicos del SV permiten el retorno; el cálculo permanece en su cadena propia.
 
-### VIII.1. Necesidad de primitivos metrológicos para no dejar el cálculo en formalismo interno
+### VIII.1. Norma de uso: unidad SV antes que constante externa
 
-Un cálculo de materia oscura que no devuelva unidades físicas controladas sería insuficiente. Podría ordenar dominios, expresar diferencias y conservar `U`, pero no podría dialogar con curvas de rotación, masas de cúmulos, lentes gravitacionales, densidades cosmológicas, inventarios bariónicos, gas caliente, plasma, polvo, remanentes o parámetros observacionales. Los primitivos metrológicos evitan esa ruptura: permiten que una salida SV tenga equivalencia material contrastable sin que el sistema adopte como fundamento las teorías externas que fijaron las constantes de escala. Esta diferencia es esencial. Adoptar `c` como ancla de extensión no importa relatividad como principio rector; adoptar `h` como ancla de masa no introduce mecánica cuántica ni probabilidad; adoptar `k_B` como ancla térmica no convierte la mecánica estadística en base; adoptar `e` o `N_A` no sustituye la estructura de dominio por electrodinámica o química molecular. Las constantes ancla fijan escala; no deciden doctrina, dominio ni cierre. En materia oscura, esta separación permite usar datos físicos con rigor sin reducir el cálculo a una inferencia cosmológica ordinaria.
+Toda magnitud externa que intervenga en el cálculo debe distinguir tres planos: unidad SV de retorno, ancla metrológica externa y banco físico de contraste. La unidad SV permite expresar la salida; la ancla externa permite equivalencia pública; el banco físico permite comprobar o tensionar el resultado. Ninguna de esas entradas sustituye a `π_M`, a `N_M^SV(Ω)` ni a `𝒞_osc`. La regla operativa es simple: se declara la unidad necesaria, se usa en el rango admitido y se conserva residual cuando la entrada arrastra modelo, convención, promedio, incertidumbre o frontera no resuelta.
 
-### VIII.2. UE_MFC: escala de ciclo
+### VIII.2. UE_MFC: escala de ciclo en retorno, no tiempo rector
 
-`UE_MFC` es la Unidad Elemental del Medidor Factual de Ciclo. En esta obra se usa como escala de ciclo y como referencia de retorno para magnitudes que requieren dimensión de tipo `[T]`, sin convertir el tiempo en fundamento del cálculo. Bajo la instanciación recogida por el corpus, `9 UE_MFC = 1 s_SI`, con anclaje en la transición hiperfina del cesio-133. La importancia de esta unidad no reside en introducir una cronología rectora, sino en permitir que las magnitudes físicas externas que usan segundo SI puedan traducirse de forma controlada. La diferencia es decisiva: una velocidad, una energía, una potencia o una temperatura pueden necesitar una dimensión relacionada con el segundo para su expresión metrológica, pero el análisis del suceso no queda gobernado por duración. En el cálculo de materia oscura, `UE_MFC` aparecerá en magnitudes derivadas como energía, fuerza, potencia, presión o campo magnético, pero no decidirá por sí misma la existencia de masa oscura. Su función es devolver escala, no introducir tiempo como causa.
+`UE_MFC` opera como escala de ciclo para magnitudes que requieren dimensión de tipo `[T]` en el retorno físico. Su equivalencia con el segundo SI pertenece al plano metrológico y no convierte el tiempo en fundamento del cálculo. Velocidades, energías, potencias o presiones pueden requerir esa dimensión para expresarse, pero la admisión de masa oscura no nace de duración, cronología ni tasa temporal.
 
-### VIII.3. UFE: extensión
+### VIII.3. UFE: extensión declarada de dominio físico
 
-`UFE` es la Unidad Factual de Extensión y permite expresar longitudes, radios, distancias físicas, dominios espaciales de retorno, tamaños de halo, escalas de cúmulo, extensiones de lente y volúmenes de contraste. Bajo la instanciación adoptada, `1 UFE = 1 m_SI`, con `c = 299 792 458 m/s` como constante ancla exacta. Esta adopción no importa geometría diferencial, relatividad especial ni relatividad general como fundamento interno; sólo fija una equivalencia metrológica que permite comparar dominios con la física contemporánea. En materia oscura, `UFE` será necesaria para interpretar radios galácticos, perfiles de masa, superficies de lente, densidades, volúmenes cosmológicos y escalas de estructura. Sin `UFE`, la masa retornada podría expresarse como número abstracto; con `UFE`, puede situarse dentro de un dominio físico con extensión declarada. La extensión tampoco decide por sí sola materialidad: una región amplia puede tener retorno pobre, un halo puede mostrar presencia gravitatoria sin soporte identificado y una escala cosmológica puede depender de modelo. `UFE` da medida; no cierra la naturaleza del contenido.
+`UFE` permite expresar longitudes, radios, superficies, volúmenes, escalas de halo, extensiones de lente y dominios espaciales de contraste. Su uso exige frontera física declarada. Una extensión no decide materialidad: delimita el dominio donde una masa, densidad, lente o perfil puede compararse. Cuando una escala cosmológica externa dependa de horizonte, volumen o modelo, su entrada deberá conservar el rango asignado por el Anexo X.
 
-### VIII.4. UFM: masa
+### VIII.4. UFM: masa de salida del cálculo
 
-`UFM` es la Unidad Factual de Masa y constituye la unidad decisiva de este trabajo. Bajo la instanciación adoptada, `1 UFM = 1 kg_SI`, con la constante de Planck `h = 6,62607015 × 10⁻³⁴ J·s` como ancla exacta del SI. Esta adopción no introduce mecánica cuántica, principio de incertidumbre, estadística cuántica ni interpretación probabilista. Sólo permite que la salida másica del SV pueda expresarse en una unidad físicamente reconocible. La regla operativa de la obra será `𝓜_SV(Ω)=N_M^SV(Ω)·UFM`: primero se calcula el número másico del dominio bajo soporte, invariante, admisión y residual; después se devuelve la masa en `UFM`. Esto evita dos errores: tratar una masa externa como si fuese ya el resultado interno, o dejar el resultado interno sin equivalencia física. `UFM` no convierte automáticamente energía en masa, no autoriza masa relativista como sustituto de masa invariante y no nombra materia oscura. Sólo cuando la diferencia entre `𝓜_SV(Ω_U0)` y `𝓜_SV(Ω_ret^M)` supere `𝒞_osc`, podrá escribirse `𝓜_osc^SV`.
+`UFM` es la unidad principal de esta investigación. La salida másica se formula como `𝓜_SV(Ω)=N_M^SV(Ω)·UFM`. Primero se obtiene `N_M^SV(Ω)` mediante soporte, invariante y admisión; después se expresa la masa. La equivalencia pública con kg pertenece al retorno metrológico. `h` puede comparecer como ancla SI del kilogramo en el plano externo, pero no calcula masa SV ni autoriza materia oscura.
 
-### VIII.5. UFC: corriente
+### VIII.5. UFC: corriente y plasma como datos auxiliares de banco
 
-`UFC` es la Unidad Factual de Corriente y permite devolver magnitudes eléctricas cuando el banco físico lo requiera. Bajo la instanciación adoptada, `1 UFC = 1 A_SI`, con la carga elemental `e = 1,602176634 × 10⁻¹⁹ C` como constante ancla exacta. Su entrada no importa electrodinámica cuántica ni convierte el cálculo oscuro en teoría electromagnética. En esta obra, `UFC` será secundaria respecto de `UFM`, pero puede resultar necesaria cuando el retorno material incluya plasma, gas ionizado, campos magnéticos, emisión sincrotrón, procesos de corriente o magnitudes electromagnéticas derivadas. La materia oscura no se define por corriente eléctrica, pero el dominio material retornado puede contener componentes bariónicas o radiativas cuyo inventario exige magnitudes eléctricas. `UFC` permite no expulsar esos datos del banco ni confundirlos con masa oscura. Si una contribución electromagnética explica parte del retorno, debe entrar como materialidad identificable, exclusión, residual o contraste; no como oscuridad por defecto.
+`UFC` sólo interviene si el banco físico incorpora corriente, plasma, gas ionizado, emisión sincrotrón, campos electromagnéticos o magnitudes derivadas. Su uso ayuda a inventariar materia ordinaria retornada o a declarar residuales de banco. No funda sector oscuro ni convierte una señal electromagnética en masa.
 
-### VIII.6. UFT: temperatura
+### VIII.6. UFT: temperatura de banco, no estadística fundante
 
-`UFT` es la Unidad Factual de Temperatura y permite expresar temperatura termodinámica cuando el dominio físico la exige. Bajo la instanciación adoptada, `1 UFT = 1 K_SI`, con `k_B = 1,380649 × 10⁻²³ J/K` como constante ancla exacta. Esta adopción no introduce mecánica estadística como fundamento del SV, ni distribuciones de Maxwell-Boltzmann, ni ensembles de Gibbs, ni fluctuaciones térmicas como criterio de verdad. Fija escala para retornar temperatura cuando el banco la contiene. En materia oscura, `UFT` importa especialmente en cúmulos y medios astrofísicos donde el gas caliente, el plasma intracumular o las masas hidrostáticas intervienen en la estimación de componentes bariónicas y no bariónicas. Una temperatura observada puede ayudar a inventariar materia retornada, presión, energía térmica o equilibrio aproximado; pero no decide por sí sola la diferencia oscura. Si el banco térmico identifica masa bariónica, reduce el residuo; si muestra insuficiencia de retorno, exige contraste; si depende de supuestos de equilibrio no cumplidos, conserva residual.
+`UFT` permite tratar temperatura en gas caliente, plasma intracumular, presión hidrostática y retornos térmicos. `k_B` puede actuar como ancla de equivalencia externa, pero no introduce estadística como criterio de verdad ni convierte equilibrio supuesto en cierre material. Una temperatura puede ayudar a devolver materia ordinaria o a tensar un banco; no decide por sí sola `𝓜_osc^SV`.
 
-### VIII.7. UFCE: cantidad de entidad
+### VIII.7. UFCE: cantidad de entidad para inventario material retornado
 
-`UFCE` es la Unidad Factual de Cantidad de Entidad y permite expresar conteos materiales compatibles con moles, entidades elementales, composición química, gas, polvo, plasma, átomos, moléculas o inventarios bariónicos. Bajo la instanciación adoptada, `1 UFCE = 1 mol_SI`, con el número de Avogadro `N_A = 6,02214076 × 10²³ mol⁻¹` como constante ancla exacta. Esta adopción no importa química molecular como fundamento del cálculo; ofrece escala para traducir cantidad de entidad cuando el banco físico la aporta. En materia oscura, `UFCE` ayuda a separar masa no retornada de materia ordinaria mal inventariada. Si un dominio contiene gas difuso, polvo, plasma o remanentes con estimación de composición, `UFCE` puede intervenir en la conversión entre entidad, masa molar, temperatura y retorno material. La unidad protege el cálculo de una inflación artificial del residuo oscuro: aquello que pueda volver como materia ordinaria, aunque sea débilmente luminoso o difícil de observar, no debe computarse como masa oscura admitida sin pasar por inventario, frontera y no doble cómputo.
+`UFCE` permite expresar cantidad de entidad cuando el banco contiene composición, gas, polvo, plasma, moléculas, átomos o inventarios bariónicos. Su función es impedir que materia ordinaria débilmente luminosa o difícil de observar quede indebidamente en el residuo oscuro. `N_A` queda como ancla externa de equivalencia, no como fundamento químico de la diferencia másica.
 
 ### VIII.8. Candela diferida y límites de la fotometría
 
-La candela no se eleva aquí a primitivo SV porque su ancla SI, `K_cd = 683 lm/W`, depende de la eficacia luminosa para el ojo humano promedio y pertenece a un régimen psicofísico. Esto no significa que la luz, la luminosidad o la fotometría carezcan de valor para el banco observacional; significa que no se convierten en fundamento metrológico interno. En materia oscura, esta decisión es especialmente importante. La masa oscura no es “lo que no se ve” en sentido fotométrico; es una diferencia másica que, tras separar dominios, inventariar retornos materiales y aplicar restricción, puede recibir nombre oscuro. La fotometría ayuda a medir brillo, luminosidad, masa estelar estimada, relación masa-luz y ausencia de retorno luminoso; pero no agota la materialidad. Gas no estelar, plasma, polvo frío, remanentes, bariones difusos o componentes no luminosas identificables pueden pertenecer a `Ω_ret^M` aunque no comparezcan como brillo ordinario. Por eso la candela queda diferida: se usa el SI cuando un dominio fotométrico lo exija, pero no se deja que la visibilidad gobierne la definición de materia.
+La candela no gobierna la materialidad. La fotometría puede aportar luminosidad, relación masa-luz, brillo superficial o ausencia de retorno óptico, pero la materia oscura no se define como lo no visible. Gas no estelar, plasma, polvo frío, remanentes y bariones difusos pueden pertenecer a `Ω_ret^M` aunque su retorno luminoso sea pobre. Por tanto, `K_cd` sólo puede operar como referencia fotométrica de banco, nunca como criterio de masa.
 
-### VIII.9. Dimensiones físicas necesarias para masa, energía, fuerza y potencia
+### VIII.9. Dimensiones físicas necesarias para contraste y retorno
 
-El retorno físico del cálculo exige dimensiones derivadas claras. La masa se expresa en `UFM`; la energía en `UFM·UFE²·UE_MFC⁻²`; la fuerza en `UFM·UFE·UE_MFC⁻²`; la potencia en `UFM·UFE²·UE_MFC⁻³`; la presión en `UFM·UFE⁻¹·UE_MFC⁻²`; la entropía en `UFM·UFE²·UE_MFC⁻²·UFT⁻¹`; y las magnitudes electromagnéticas, cuando procedan, incorporan `UFC` según su dimensión. Estas expresiones son condiciones de higiene del cálculo. Si una masa de cúmulo entra como kg, debe devolver `UFM`; si una energía térmica de gas entra como joule, debe regresar como combinación de masa, extensión y escala de ciclo; si una presión hidrostática interviene, debe declarar sus dimensiones; si una potencia radiativa afecta al inventario, debe separarse de masa material. La diferencia oscura candidata no puede mezclar masa con energía, luminosidad, presión o potencia sin transducción. En esta obra, la unidad de salida principal será `UFM`, pero las magnitudes derivadas serán necesarias para depurar el banco físico y evitar que componentes retornadas queden indebidamente en el residuo oscuro.
+La unidad de salida principal es `UFM`. Las magnitudes derivadas sólo se usan cuando el banco las exige: energía como `UFM·UFE²·UE_MFC⁻²`, fuerza como `UFM·UFE·UE_MFC⁻²`, potencia como `UFM·UFE²·UE_MFC⁻³`, presión como `UFM·UFE⁻¹·UE_MFC⁻²`, entropía como `UFM·UFE²·UE_MFC⁻²·UFT⁻¹`, y magnitudes electromagnéticas con `UFC` cuando proceda. La diferencia oscura candidata no mezcla masa, energía, luminosidad, presión o potencia sin transducción y residual.
 
-### VIII.10. Delimitación negativa: adoptar constantes ancla no importa sus teorías de origen
+### VIII.10. Restricción de no interiorización de constantes, parámetros y magnitudes externas
 
-La adopción de constantes ancla tiene una delimitación negativa estricta. `Δν_Cs` no introduce tiempo rector; `c` no introduce geometría relativista como fundamento del cálculo; `h` no introduce mecánica cuántica ni probabilidad; `e` no introduce electrodinámica cuántica; `k_B` no introduce mecánica estadística; `N_A` no introduce química molecular como base doctrinal; `K_cd`, cuando se use por referencia SI, no convierte la fotometría en criterio de materialidad. Cada constante fija una escala exacta de retorno y nada más. Esta regla permite que el SV dialogue con la física contemporánea sin quedar absorbido por ella y sin aislarse en formalismo interno. En materia oscura, la consecuencia es directa: el cálculo puede usar masas, longitudes, temperaturas, corrientes, cantidades de entidad, energías, presiones, lentes y datos cosmológicos, pero cada entrada debe conservar dominio, unidad, procedencia, residual y función. Lo que retorna como materia ordinaria se descuenta de `Ω_ret^M`; lo que pertenece a energía oscura, fotometría, error, frontera o clase no másica se excluye o conserva como `U`; lo que queda como diferencia másica sólo recibirá nombre oscuro si supera `𝒞_osc`.
+Toda constante, parámetro o estimador externo queda sometido a restricción de no interiorización. `c`, `h`, `k_B`, `e`, `N_A`, `Δν_Cs`, `K_cd`, `G`, `H₀`, `Ω_m`, `Ω_b`, `Ω_c`, `Ω_Λ`, `σ₈`, `S₈`, `Λ_obs[B]`, densidad crítica, volúmenes, horizontes, masas por lente, masas dinámicas, masas viriales, masas hidrostáticas, relaciones masa-luz y parámetros de simulación no entran como verdades internas del cálculo por el hecho de existir en la física contemporánea. Sólo pueden operar como unidad de retorno, interfaz metrológica, banco de contraste, estimador auditado, absorción parcial, rechazo o `U`, según el resultado de admisibilidad fijado por el Anexo X.
 
 ## XI. Regla operacional de proyección másica del Raigal
 
@@ -871,9 +872,179 @@ Supóngase que Ω_U0 y Ω_ret^M pertenecen al mismo régimen formal de retorno y
 
 El núcleo XI entrega cuatro salidas posibles. La primera es masa oscura admitida: Δ𝓜_osc^SV con 𝒞_osc = APTO. La segunda es diferencia másica no apta: existe diferencia, pero falla clausura, retorno, exclusión o compatibilidad material. La tercera es clase factual emergente no másica: el residual pertenece a χ_α u otra salida no reducible a masa, conforme al programa de clases factuales emergentes de Lloret Egea (2026). La cuarta es U estructural: falta base suficiente para decidir sin violentar el dominio. Esta clasificación constituye la protección central del cálculo. No toda diferencia es materia oscura; no toda ausencia luminosa es masa; no toda traza gravitatoria autoriza entidad material; y no toda indeterminación puede convertirse en resultado. El cálculo sólo avanza cuando dominio, soporte, invariante, admisión, unidad, diferencia y restricción conservan el mismo plano.
 
+## Anexo X. Restricción de no interiorización de constantes, parámetros y magnitudes externas
+
+### AX.1. Función del anexo
+
+Este anexo fija la restricción de no interiorización aplicable a toda constante, parámetro, magnitud, estimador o salida de modelo procedente de la física contemporánea, de la metrología SI, de la cosmología observacional, de simulaciones, de bancos astrofísicos o de reconstrucciones dinámicas. Su función no es negar esas entradas, sino impedir que operen como verdades internas del cálculo SV sin pasar por dominio, unidad, aparato matemático, banco, residual y resultado de admisibilidad. Una entrada externa puede quedar absorbida, absorbida parcialmente, rechazada o mantenida en `U`, pero no puede incorporarse por prestigio físico, por uso extendido, por definición SI, por ajuste estadístico, por eficacia de modelo ni por ausencia de alternativa.
+
+La norma rectora es:
+
+`entrada externa ≠ verdad SV`
+
+`constante exacta SI ≠ magnitud constitutiva del cálculo SV`
+
+`parámetro cosmológico ≠ dominio físico realizado`
+
+`estimador observacional ≠ masa retornada sin restricción`
+
+`banco apto ≠ cierre interno`
+
+### AX.2. Factual, suceso y horizonte declarado
+
+En esta investigación, “factual” designa la lectura física de hechos declarados como sucesos evaluables. Un hecho no queda admitido porque haya sido mencionado, medido, ajustado por un modelo o expresado mediante una constante; debe poder situarse en un dominio, con magnitud, unidad, frontera, residual y retorno. Esta definición permite distinguir una entrada física útil de una verdad interna del cálculo. Una constante exacta, un parámetro cosmológico, una masa reconstruida por lente, una densidad crítica o una salida de simulación pueden ser informativos, pero sólo resultan admisibles en el rango que su dominio y su retorno permitan.
+
+La colección *Sucesos, horizontes y cambio estructural — Una aproximación algebraica desde el Sistema Vectorial SV* desarrolla la base algebraica de esta lectura. VII.0 desplaza el cambio desde el mero transcurso hacia la comparecencia de sucesos admisibles en horizonte declarado; VII.1 formaliza el suceso admisible como objeto tipado; VII.2 estudia comparabilidad, afectación, precedencia y compatibilidad; VII.3 trabaja cadenas, acumulación y regímenes de paso; VII.4 introduce respuesta estructural, umbral y transición de régimen; VII.5 fija el enlace entre acumulaciones sucesivas; y el trabajo sobre equivalencia parcial, preservación e invariancia local impide convertir una relación parcial entre regímenes en identidad global. En conjunto, esa base permite evaluar entradas externas sin transformar mediciones, parámetros, promedios o estimadores en fundamentos internos.
+
+Con ello, una entrada externa sólo será tratada como hecho admisible si declara qué afecta, en qué dominio opera, qué unidad usa, qué frontera conserva, qué residual deja y qué retorno permite. Si cumple esas condiciones, podrá quedar absorbida o absorbida parcialmente; si las incumple por mezcla de planos, doble cómputo, sustancialización, estadística como cierre o parámetro de modelo como realidad interna, deberá rechazarse; si falta base material para decidir, permanecerá en `U`.
+
+### AX.3. Criterio de absorción, absorción parcial, rechazo y U
+
+Una entrada externa queda **absorbida** cuando el aparato SV puede incorporarla sin cambio de plano: declara dominio, unidad, función, cálculo, retorno y residual compatible. Una entrada queda **absorbida parcialmente** cuando posee valor físico, metrológico u observacional, pero sólo como interfaz, banco, contraste, estimador o retorno auditado; en ese caso no funda el cálculo. Una entrada queda **rechazada** cuando introduce como fundamento un arrastre incompatible: tiempo rector, estadística como verdad, probabilidad fundante, causalidad falsa, sustancialización, psicofísica como base, parámetro de modelo como realidad interna, doble cómputo o mezcla de dominios. Una entrada queda en **U** cuando no hay base suficiente para decidir sin forzar la frontera.
+
+La decisión se toma por una cadena de evaluación:
+
+`entrada → naturaleza → dominio → unidad → ecuación o procedimiento → arrastre potencial → aparato SV aplicable → uso permitido → uso prohibido → residual → resultado`
+
+Esta cadena impide que una constante exacta entre como fundamento porque el SI la haya fijado, que una masa inferida entre como materia retornada porque un método la calcule, o que un parámetro cosmológico entre como contenido real porque un modelo lo ajuste.
+
+### AX.4. Familias de entradas sometidas a restricción
+
+La restricción se aplica a cuatro familias principales. La primera familia comprende constantes de interfaz metrológica: `Δν_Cs`, `c`, `h`, `e`, `k_B`, `N_A` y `K_cd`. Su riesgo principal es introducir, junto con la unidad, teoría de origen, cronología, estadística, mecánica cuántica, electrodinámica, química molecular o psicofísica. La segunda familia comprende constantes y coeficientes físicos de contraste: `G`, `Λ_obs[B]`, constantes radiativas, secciones eficaces o coeficientes de interacción si el banco los exigiera; su riesgo consiste en convertir coeficiente de retorno en causa, o valor de banco en fundamento interno. La tercera familia comprende parámetros cosmológicos y de modelo: `H₀`, `Ω_m`, `Ω_b`, `Ω_c`, `Ω_Λ`, `σ₈`, `S₈`, densidad crítica, radio de horizonte, volumen cosmológico, fracción bariónica, relación masa-luz y parámetros de halo; su riesgo es sustituir `Ω_U0`, `Ω_ret^M` o `Δ𝓜_osc^SV` por un ajuste externo. La cuarta familia comprende estimadores y reconstrucciones observacionales de masa: masas por lente gravitacional, masas dinámicas, masas viriales, masas hidrostáticas, masas por rotación, masas por dispersión de velocidades, mapas de cúmulos, simulaciones de halos y catálogos de estructura; su riesgo es entrar como materia retornada sin separar método, unidad, dominio, solapamiento, incertidumbre, sesgo y frontera.
+
+### AX.5. Banco de datos de restricción
+
+| ID | Entrada | Familia | Naturaleza externa | Riesgo principal | Uso permitido | Uso prohibido | Resultado |
+|---|---|---|---|---|---|---|---|
+| BD-NI-01 | `Δν_Cs` | interfaz metrológica | frecuencia SI exacta | introducir tiempo rector | escala de equivalencia declarada | fundar sucesos por cronología | absorción parcial |
+| BD-NI-02 | `c` | interfaz / propagación | constante SI exacta | importar geometría, relatividad o tiempo como fundamento | extensión, conversión dimensional, retorno físico | fundar dominio, masa u oscuridad | absorción parcial |
+| BD-NI-03 | `h` | interfaz metrológica | ancla SI del kg | importar mecánica cuántica y probabilidad | equivalencia pública de `UFM` por documento metrológico | calcular masa SV o materia oscura | absorción parcial |
+| BD-NI-04 | `e` | interfaz eléctrica | carga elemental SI | importar electrodinámica cuántica | plasma, corriente, inventario electromagnético de banco | fundar sector oscuro | absorción parcial |
+| BD-NI-05 | `k_B` | interfaz térmica | constante SI | importar estadística, promedio o equilibrio supuesto | gas, plasma, temperatura de banco | fundar verdad o masa oscura | absorción parcial / U según dominio |
+| BD-NI-06 | `N_A` | cantidad de entidad | número de entidades por mol | importar química molecular como fundamento | inventario bariónico, gas, polvo, composición | convertir química en base del cálculo oscuro | absorción parcial |
+| BD-NI-07 | `K_cd` | fotometría | eficacia luminosa psicofísica | visibilidad como materialidad | referencia SI si hay fotometría | fundar retorno material o masa | rechazo como primitivo; uso de banco |
+| BD-NI-08 | `G` | contraste gravitatorio | constante experimental | convertir coeficiente en causa | retorno gravitatorio local, lente, dinámica | generar masa o explicar cosmología total | absorción local parcial |
+| BD-NI-09 | `H₀` | cosmología | parámetro de modelo/banco | convertir ajuste en dominio realizado | contraste cosmológico con fuente y residual | fundar `Ω_U0` | absorción parcial |
+| BD-NI-10 | `Ω_m` | cosmología | parámetro de densidad | sustituir cálculo de masa de dominio | contraste de composición cosmológica | definir masa interna SV | absorción parcial |
+| BD-NI-11 | `Ω_b` | cosmología | fracción bariónica de modelo | convertir bariones de modelo en inventario retornado | banco comparativo | cerrar `Ω_ret^M` sin inventario | absorción parcial |
+| BD-NI-12 | `Ω_c` | cosmología | materia oscura fría de modelo | tomar ΛCDM como resultado SV | contraste externo | nombrar `𝓜_osc^SV` | rechazo como fundamento; banco parcial |
+| BD-NI-13 | `Ω_Λ` | cosmología | parámetro de energía oscura | sustancializar energía oscura | retorno de banco para Λ | entrar como masa o energía sustancial | absorción parcial |
+| BD-NI-14 | `σ₈`, `S₈` | estructura | parámetros de amplitud/tensión | estadística como cierre | contraste de estructura | fundar masa oscura | absorción parcial |
+| BD-NI-15 | `Λ_obs[B]` | retorno cosmológico | valor dependiente de banco | confundir banco con valor interno | retorno auditado | sustituir `Λ_SV,puro` o masa oscura | absorción parcial |
+| BD-NI-16 | densidad crítica | cosmología | construcción dependiente de `H₀` | convertir escala de modelo en contenido | contraste dimensional | fundar universo realizado | absorción parcial |
+| BD-NI-17 | volumen/horizonte cosmológico | dominio observacional | frontera de modelo | sustituir `Ω_U0` | contraste de escala | cerrar dominio absoluto | absorción parcial / U |
+| BD-NI-18 | masa por lente | estimador observacional | reconstrucción gravitatoria | absorber retorno gravitatorio como materialidad | banco de contraste de masa | entrar directa en `Ω_ret^M` | absorción parcial |
+| BD-NI-19 | masa dinámica/virial | estimador observacional | modelo de equilibrio/dinámica | hipótesis de equilibrio como verdad | banco con residual | cerrar masa oscura sin restricción | absorción parcial |
+| BD-NI-20 | masa hidrostática | estimador astrofísico | gas/plasma/equilibrio | equilibrio supuesto, sesgo térmico | inventario bariónico y contraste | sustituir soporte másico | absorción parcial / U |
+| BD-NI-21 | parámetros de simulación | modelo computacional | supuestos numéricos | simulación como realidad | banco de estrés | cerrar verdad interna | rechazo como fundamento; banco parcial |
+| BD-NI-22 | relación masa-luz | observación/fotometría | estimador dependiente de población | visibilidad como materialidad | contraste estelar | agotar materia retornada | absorción parcial |
+
+### AX.6. Banco positivo
+
+| ID | Caso positivo | Entrada | Condición cumplida | Resultado admitido |
+|---|---|---|---|---|
+| BP-NI-01 | masa interna expresada en unidad de retorno | `𝓜_SV(Ω)=N_M^SV(Ω)·UFM` | `N_M^SV` procede de soporte, invariante y admisión; `UFM` sólo dimensiona la salida | uso apto de `UFM` como unidad |
+| BP-NI-02 | extensión física de un dominio de banco | radio, volumen o escala en `UFE` | dominio espacial declarado y sin función fundante | uso apto de extensión |
+| BP-NI-03 | temperatura de gas intracumular | `k_B`, `UFT`, banco térmico | gas/plasma declarado, unidad y residual | inventario o contraste bariónico |
+| BP-NI-04 | corriente o plasma | `e`, `UFC` | retorno electromagnético delimitado | componente material identificable o residual |
+| BP-NI-05 | cantidad de entidad en gas/polvo | `N_A`, `UFCE` | composición o inventario declarado | retorno material ordinario |
+| BP-NI-06 | lente gravitacional como contraste | masa por lente | método, unidad, dominio y residual declarados | banco de masa total, no materia retornada automática |
+| BP-NI-07 | `G` en dinámica local | retorno gravitatorio | separación homogénea y régimen apto | contraste dinámico válido |
+| BP-NI-08 | `H₀`, `Ω_m`, `Ω_c` como banco | cosmología | fuente, modelo y residual visibles | comparación externa, no cálculo interno |
+
+### AX.7. Banco negativo
+
+| ID | Caso negativo | Entrada indebida | Error activado | Resultado |
+|---|---|---|---|---|
+| BN-NI-01 | calcular masa SV desde `h` | `h → 𝓜_SV` | mecánica cuántica como fundamento de masa | rechazo |
+| BN-NI-02 | convertir `Ω_c` en `𝓜_osc^SV` | `Ω_c → materia oscura admitida` | parámetro ΛCDM como cierre interno | rechazo |
+| BN-NI-03 | usar `H₀` como dominio realizado | `H₀ → Ω_U0` | escala de modelo como universo físico realizado | rechazo |
+| BN-NI-04 | tratar masa por lente como materia retornada | lente → `Ω_ret^M` | retorno gravitatorio absorbido como materialidad | rechazo |
+| BN-NI-05 | identificar densidad crítica con contenido raigal | `ρ_crit → Raigal_SV(Ω_U0)` | magnitud de modelo como contenido interno | rechazo |
+| BN-NI-06 | usar temperatura para fundar oscuridad | `k_B T → materia oscura` | estadística/equilibrio como verdad | rechazo |
+| BN-NI-07 | usar fotometría como criterio de materialidad | luminosidad ausente → masa oscura | visibilidad como materia | rechazo |
+| BN-NI-08 | cerrar `U` por media estadística | incertidumbre → valor esperado | estadística como clausura | rechazo |
+| BN-NI-09 | aceptar simulación como realidad de cálculo | parámetros N-body → dominio SV | modelo computacional como verdad | rechazo |
+| BN-NI-10 | doble cómputo entre lente y masa virial | dos estimadores solapados | suma de retornos no independientes | rechazo |
+| BN-NI-11 | usar `Λ_obs[B]` como masa | Λ → materia oscura | energía oscura o curvatura como masa | rechazo |
+| BN-NI-12 | tomar `K_cd` como primitivo material | candela → materialidad | psicofísica como fundamento físico | rechazo |
+
+### AX.8. Demostración de inicio a fin: masa por lente gravitacional
+
+Se toma como entrada externa una masa por lente gravitacional de un cúmulo, `M_lens(B)`. Esta entrada no es una masa interna SV. Es una reconstrucción observacional dependiente de método, geometría de lente, distribución de fuentes, modelo de potencial, calibración, unidad y banco `B`.
+
+El riesgo consiste en tomar `M_lens(B)` como masa material retornada o como materia oscura admitida. Ese paso sería ilegítimo, porque la lente devuelve masa gravitatoria total proyectada o reconstruida, no inventario material clasificado. Su entrada sólo puede admitirse como banco de contraste de masa gravitatoria total. Debe declarar dominio, unidad, método, frontera, incertidumbre, solapamiento con otros estimadores y residual.
+
+El dominio de lente no equivale a `Ω_ret^M`. Parte de lo que la lente detecta puede corresponder a materia ordinaria retornada; parte puede ser diferencia oscura candidata; parte puede quedar en `U`; parte puede solaparse con masas dinámicas o viriales. Por tanto, `M_lens(B)` puede comparar la salida `𝓜_SV(Ω_U0)` o presionar la diferencia `Δ𝓜_osc^SV`, siempre como banco de contraste, pero no permite escribir `M_lens(B)=𝓜_osc^SV`. Tampoco puede sumarse directamente a masa virial, hidrostática o dinámica si no se declara independencia y no doble cómputo.
+
+El resultado de admisibilidad es absorción parcial: `M_lens(B)` es banco fuerte de contraste gravitatorio, no fundamento interno ni materia retornada automática. La diferencia oscura sólo podrá nombrarse si se obtiene por `Δ𝓜_osc^SV := 𝓜_SV(Ω_U0) − 𝓜_SV(Ω_ret^M)` y si después supera `𝒞_osc(Δ𝓜_osc^SV) = APTO`. La masa por lente puede tensionar, contrastar o corregir banco; no sustituye soporte, invariante, admisión ni restricción.
+
+### AX.9. Demostración con parámetro cosmológico
+
+Se toma como entrada externa `Ω_c` del modelo ΛCDM. `Ω_c` no entra como materia oscura admitida por el SV. Es un parámetro de densidad asociado a materia oscura fría dentro de un modelo cosmológico, dependiente de hipótesis, banco, ajuste y combinación observacional. Puede ser un contraste externo muy fuerte, pero no equivale al cálculo interno de `𝓜_osc^SV`.
+
+El uso correcto es `Ω_c[B] → banco cosmológico de contraste`. El uso prohibido es `Ω_c[B] → 𝓜_osc^SV`. El resultado es absorción parcial: se conserva su valor como parámetro de contraste de la física contemporánea, pero se rechaza su interiorización como resultado SV.
+
+### AX.10. Demostración con constante metrológica
+
+Se toma como entrada externa `h`. `h` puede intervenir en la definición SI del kilogramo y, por remisión al documento de primitivos metrológicos, en la equivalencia pública de `UFM`. Pero no calcula masa SV. La masa de dominio procede de `𝓜_SV(Ω)=N_M^SV(Ω)·UFM`, donde `N_M^SV(Ω)` depende de soporte, invariante local, admisión y residual. `h` no decide `μ_i^M`, no define `I_i^R`, no construye `Raigal_SV(Ω)` y no autoriza convertir energía en materia oscura. El uso permitido es `h → equivalencia metrológica externa de UFM`; el uso prohibido es `h → fundamento de masa oscura`. Resultado: absorción parcial como ancla de interfaz; rechazo como fundamento de cálculo.
+
+### AX.11. Tabla de resultados de admisibilidad
+
+| Entrada | Resultado | Rango de uso |
+|---|---|---|
+| `UFM` | absorbida como unidad de salida | expresar masa SV ya calculada |
+| `UFE` | absorbida parcialmente | extensión de dominios físicos declarados |
+| `UE_MFC` | absorbida parcialmente | escala de interfaz, nunca tiempo rector |
+| `UFT` | absorbida parcialmente | temperatura de banco, no verdad estadística |
+| `UFC` | absorbida parcialmente | corriente/plasma si el banco lo exige |
+| `UFCE` | absorbida parcialmente | inventario de entidad ordinaria |
+| `K_cd` | rechazada como primitivo | sólo fotometría de banco |
+| `c` | absorbida parcialmente | retorno dimensional y transducción tipada |
+| `h` | absorbida parcialmente | interfaz de `UFM`, no cálculo de masa |
+| `k_B` | absorbida parcialmente / U | banco térmico con dominio declarado |
+| `G` | absorbida localmente | contraste gravitatorio, no causa |
+| `H₀` | absorbida parcialmente | banco cosmológico |
+| `Ω_m`, `Ω_b`, `Ω_c`, `Ω_Λ` | absorbidas parcialmente | contraste externo con residual |
+| `σ₈`, `S₈` | absorbidas parcialmente | tensión de estructura, no cierre |
+| `Λ_obs[B]` | absorbida parcialmente | retorno cosmológico auditado |
+| densidad crítica | absorbida parcialmente | escala de modelo, no contenido interno |
+| volúmenes/horizontes | parcial / U | frontera de banco, no totalidad |
+| masas por lente/dinámica/virial | absorbidas parcialmente | bancos de contraste |
+| parámetros de simulación | rechazo como fundamento | estrés y comparación, no verdad |
+
+### AX.12. Laboratorios propios del anexo
+
+Los laboratorios de este anexo no tienen por función crear el resultado, sino comprobar que las restricciones se cumplen. Ejecutan casos positivos, negativos y de indeterminación, con salida esperada y salida obtenida.
+
+| ID | Nombre | Entrada | Salida esperada |
+|---|---|---|---|
+| LAB-NI-01 | clasificación de constantes SI | `c`, `h`, `k_B`, `e`, `N_A`, `Δν_Cs`, `K_cd` | parcial, parcial, parcial/U, parcial, parcial, parcial, rechazo como primitivo |
+| LAB-NI-02 | prohibición de cálculo de masa desde `h` | `h → 𝓜_SV` | rechazo |
+| LAB-NI-03 | uso apto de `UFM` | `N_M^SV·UFM` | absorción |
+| LAB-NI-04 | parámetro cosmológico como banco | `Ω_c[B]` | absorción parcial |
+| LAB-NI-05 | parámetro cosmológico como masa | `Ω_c[B] → 𝓜_osc^SV` | rechazo |
+| LAB-NI-06 | lente como contraste | `M_lens(B)` | absorción parcial |
+| LAB-NI-07 | lente como materia retornada directa | `M_lens(B) → Ω_ret^M` | rechazo |
+| LAB-NI-08 | doble cómputo de estimadores | lente + virial sin independencia | rechazo |
+| LAB-NI-09 | temperatura como inventario bariónico | `k_B T` con gas declarado | absorción parcial |
+| LAB-NI-10 | temperatura como materia oscura | `k_B T → 𝓜_osc^SV` | rechazo |
+| LAB-NI-11 | densidad crítica como contraste | `ρ_crit(B)` | absorción parcial |
+| LAB-NI-12 | densidad crítica como Raigal | `ρ_crit(B) → Raigal_SV(Ω)` | rechazo |
+| LAB-NI-13 | simulación como estrés | parámetros N-body | absorción parcial |
+| LAB-NI-14 | simulación como cierre | salida N-body → verdad SV | rechazo |
+| LAB-NI-15 | conservación de `U` | entrada con frontera insuficiente | U |
+
+La versión material del anexo deberá acompañarse de carpeta propia de laboratorios: `anexo-no-interiorizacion/`, con `README.md`, bancos `banco_constantes.csv`, `banco_parametros_cosmologicos.csv`, `banco_estimadores_masa.csv`, `banco_negativo.csv`, programas de comprobación, salidas esperadas, salidas obtenidas y catálogo de errores de no interiorización.
+
+### AX.13. Resultado operativo del anexo
+
+La restricción de no interiorización queda fijada como condición de admisibilidad para constantes, parámetros, estimadores y magnitudes externas. Ninguna entrada procedente del SI, de la física contemporánea, de la cosmología observacional, de métodos dinámicos, de lentes gravitacionales, de masas viriales, de densidades críticas, de horizontes, de volúmenes o de simulaciones puede operar como fundamento interno del cálculo SV si no ha sido clasificada previamente por dominio, unidad, aparato matemático, banco, residual y resultado de admisibilidad. Las entradas absorbidas pueden usarse en el rango definido; las absorbidas parcialmente quedan limitadas a interfaz, banco, contraste, estimador o retorno auditado; las rechazadas no pueden fundar cálculo ni cierre; y las entradas en `U` conservan indeterminación honesta hasta que exista base suficiente para decidir.
+
+
 ## Bibliografía provisional de trabajo
 
-Esta bibliografía tiene carácter provisional mientras el índice rector permanezca abierto. Su función es preservar las fuentes efectivamente usadas o necesarias para el desarrollo, evitar bibliografía decorativa y permitir que cada afirmación externa del cuerpo quede amarrada a una fuente revisable. El cierre bibliográfico sólo procederá cuando el cuerpo completo, los bancos y los laboratorios hayan quedado materialmente estabilizados.
+Esta bibliografía tiene carácter provisional mientras el índice rector permanezca abierto. Su función es preservar las fuentes efectivamente usadas o necesarias para el desarrollo, evitar bibliografía no usada y permitir que cada afirmación externa del cuerpo quede amarrada a una fuente revisable. El cierre bibliográfico sólo procederá cuando el cuerpo completo, los bancos y los laboratorios hayan quedado materialmente estabilizados.
 
 ### Bibliografía interna del corpus SV
 
@@ -896,6 +1067,19 @@ Lloret Egea, J. A. (2026). *Edades relativas del universo observable y de sus ob
 Lloret Egea, J. A. (2026). *Del contenido físico factual del suceso a las clases factuales emergentes: programa de transmutación factual en el Sistema SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.b37864ef
 
 Lloret Egea, J. A. (2026). *Del contenido físico factual del suceso a la entidad soberana del campo en el Sistema Vectorial SV: absorción basal exacta, unificación fuerte de gravitación, electricidad y magnetismo, y apertura a clases factuales emergentes*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.25bd99ae
+
+Lloret Egea, J. A. (2026). *Sucesos, horizontes y cambio estructural — Una aproximación algebraica desde el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.229d91e4
+
+Lloret Egea, J. A. (2026). *Documento VII.0 — Hacia una geometría eventivo-espacial sin tiempo canónico: horizonte declarado, sucesos y reevaluación situacional en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.89e77c19
+
+Lloret Egea, J. A. (2026). *Teoría rigurosa del suceso admisible en el Sistema Vectorial SV. Doc VII.1*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.1608c18c
+
+Lloret Egea, J. A. (2026). *VII.2 — Precedencia, compatibilidad y afectación entre sucesos admisibles en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.1f58d8a2
+
+Lloret Egea, J. A. (2026). *VII.3 — Cadenas, acumulación y regímenes de paso entre sucesos admisibles en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://www.itvia.online/pub/vii3--cadenas-acumulacion-y-regimenes-de-paso-entre-sucesos-admisibles-en-el-sistema-vectorial-sv
+
+Lloret Egea, J. A. (2026). *Equivalencia parcial, preservación e invariancia local entre regímenes en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://www.itvia.online/pub/equivalencia-parcial-preservacion-e-invariancia-local-entre-regimenes-en-el-sistema-vectorial-sv
+
 
 ### Bibliografía externa de física contemporánea
 
