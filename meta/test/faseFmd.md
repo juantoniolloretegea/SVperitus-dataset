@@ -84,13 +84,13 @@ Advertencia de derechos, autoría y licencia
 
 </details>
 <details>
-<summary>III. Suelo doctrinal y condiciones de admisibilidad</summary>
+<summary>III. Base doctrinal y condiciones de admisibilidad</summary>
 
 - III.1. No tiempo rector, no probabilidad fundante, no cierre por ausencia de prueba
 - III.2. U como indeterminación honesta, no como ignorancia estadística
 - III.3. Dominio físico realizado, dominio observable y dominio material retornado
 - III.4. Principio de no destrucción factual silenciosa
-- III.5. Teoría del TODO y de la NADA como instancia rectora de cierre
+- III.5. Teoría del TODO y de la NADA como instancia rectora
 - III.6. Ningún resultado oscuro se nombra sin restricción
 - III.7. Diferencia entre cierre material, elementos sujetos a contraste y habilitación algebraica
 
@@ -347,16 +347,6 @@ Advertencia de derechos, autoría y licencia
 </details>
 
 <details>
-<summary>Bibliografía provisional de trabajo</summary>
-
-- Bibliografía interna del SV
-- Bibliografía externa de física contemporánea
-- Fuentes metrológicas y SI 2019
-- Fuentes observacionales y cosmológicas usadas como banco de contraste
-
-</details>
-
-<details>
 <summary>Anexos</summary>
 
 - Anexo A. Glosario técnico del Raigal
@@ -369,6 +359,16 @@ Advertencia de derechos, autoría y licencia
 - Anexo H. Matriz de errores y falsación
 - Anexo I. Plantilla de informe de masa oscura admitida
 - Anexo X. Restricción de no interiorización de constantes, parámetros y magnitudes externas
+
+</details>
+
+<details>
+<summary>Bibliografía provisional de trabajo</summary>
+
+- Bibliografía interna del SV
+- Bibliografía externa de física contemporánea
+- Fuentes metrológicas y SI 2019
+- Fuentes observacionales y cosmológicas usadas como banco de contraste
 
 </details>
 
@@ -752,7 +752,7 @@ Dos dominios raigales sólo pueden compararse si cumplen condiciones de homogene
 
 ## VIII. Retorno metrológico bajo restricción de no interiorización
 
-El cálculo de la materia oscura necesita retorno físico, pero no puede interiorizar como verdad SV las constantes, parámetros, estimadores o magnitudes externas que usa para expresarse ante la física contemporánea. La salida interna procede de dominio, Raigal, soporte, invariante, admisión, proyección másica, diferencia y restricción oscura; las unidades y bancos externos sólo intervienen en el rango fijado por la restricción de no interiorización desarrollada en el Anexo X. En consecuencia, `𝓜_SV(Ω_U0)`, `𝓜_SV(Ω_ret^M)` y `Δ𝓜_osc^SV` se devuelven con unidad y contraste, pero no se generan desde `c`, `h`, `G`, `H₀`, `Ω_c`, densidades críticas, masas por lente, masas viriales ni parámetros de simulación. El Sistema Internacional de Unidades comparece como referencia pública de escala; los primitivos metrológicos del SV permiten el retorno; el cálculo permanece en su cadena propia.
+El cálculo de la materia oscura necesita retorno físico, pero no puede interiorizar como verdad SV las constantes, parámetros, estimadores o magnitudes externas que usa para expresarse ante la física contemporánea. La salida interna procede de dominio, Raigal, soporte, invariante, admisión, proyección másica, diferencia y restricción oscura; las unidades y bancos externos sólo intervienen en el rango fijado por la restricción de no interiorización. En consecuencia, `𝓜_SV(Ω_U0)`, `𝓜_SV(Ω_ret^M)` y `Δ𝓜_osc^SV` se devuelven con unidad y contraste, pero no se generan desde `c`, `h`, `G`, `H₀`, `Ω_c`, densidades críticas, masas por lente, masas viriales ni parámetros de simulación. El Sistema Internacional de Unidades comparece como referencia pública de escala; los primitivos metrológicos del SV permiten el retorno; el cálculo permanece en su cadena propia.
 
 ### VIII.1. Norma de uso: unidad SV antes que constante externa
 
@@ -764,7 +764,7 @@ Toda magnitud externa que intervenga en el cálculo debe distinguir tres planos:
 
 ### VIII.3. UFE: extensión declarada de dominio físico
 
-`UFE` permite expresar longitudes, radios, superficies, volúmenes, escalas de halo, extensiones de lente y dominios espaciales de contraste. Su uso exige frontera física declarada. Una extensión no decide materialidad: delimita el dominio donde una masa, densidad, lente o perfil puede compararse. Cuando una escala cosmológica externa dependa de horizonte, volumen o modelo, su entrada deberá conservar el rango asignado por el Anexo X.
+`UFE` permite expresar longitudes, radios, superficies, volúmenes, escalas de halo, extensiones de lente y dominios espaciales de contraste. Su uso exige frontera física declarada. Una extensión no decide materialidad: delimita el dominio donde una masa, densidad, lente o perfil puede compararse. Cuando una escala cosmológica externa dependa de horizonte, volumen o modelo, su entrada deberá conservar el rango asignado por esa restricción.
 
 ### VIII.4. UFM: masa de salida del cálculo
 
@@ -792,7 +792,7 @@ La unidad de salida principal es `UFM`. Las magnitudes derivadas sólo se usan c
 
 ### VIII.10. Restricción de no interiorización de constantes, parámetros y magnitudes externas
 
-Toda constante, parámetro o estimador externo queda sometido a restricción de no interiorización. `c`, `h`, `k_B`, `e`, `N_A`, `Δν_Cs`, `K_cd`, `G`, `H₀`, `Ω_m`, `Ω_b`, `Ω_c`, `Ω_Λ`, `σ₈`, `S₈`, `Λ_obs[B]`, densidad crítica, volúmenes, horizontes, masas por lente, masas dinámicas, masas viriales, masas hidrostáticas, relaciones masa-luz y parámetros de simulación no entran como verdades internas del cálculo por el hecho de existir en la física contemporánea. Sólo pueden operar como unidad de retorno, interfaz metrológica, banco de contraste, estimador auditado, absorción parcial, rechazo o `U`, según el resultado de admisibilidad fijado por el Anexo X.
+Toda constante, parámetro o estimador externo queda sometido a restricción de no interiorización. `c`, `h`, `k_B`, `e`, `N_A`, `Δν_Cs`, `K_cd`, `G`, `H₀`, `Ω_m`, `Ω_b`, `Ω_c`, `Ω_Λ`, `σ₈`, `S₈`, `Λ_obs[B]`, densidad crítica, volúmenes, horizontes, masas por lente, masas dinámicas, masas viriales, masas hidrostáticas, relaciones masa-luz y parámetros de simulación no entran como verdades internas del cálculo por el hecho de existir en la física contemporánea. Sólo pueden operar como unidad de retorno, interfaz metrológica, banco de contraste, estimador auditado, absorción parcial, rechazo o `U`, según el resultado de admisibilidad que corresponda.
 
 ## XI. Regla operacional de proyección másica del Raigal
 
@@ -894,7 +894,7 @@ La norma rectora es:
 
 En esta investigación, “factual” designa la lectura física de hechos declarados como sucesos evaluables. Un hecho no queda admitido porque haya sido mencionado, medido, ajustado por un modelo o expresado mediante una constante; debe poder situarse en un dominio, con magnitud, unidad, frontera, residual y retorno. Esta definición permite distinguir una entrada física útil de una verdad interna del cálculo. Una constante exacta, un parámetro cosmológico, una masa reconstruida por lente, una densidad crítica o una salida de simulación pueden ser informativos, pero sólo resultan admisibles en el rango que su dominio y su retorno permitan.
 
-La colección *Sucesos, horizontes y cambio estructural — Una aproximación algebraica desde el Sistema Vectorial SV* desarrolla la base algebraica de esta lectura. VII.0 desplaza el cambio desde el mero transcurso hacia la comparecencia de sucesos admisibles en horizonte declarado; VII.1 formaliza el suceso admisible como objeto tipado; VII.2 estudia comparabilidad, afectación, precedencia y compatibilidad; VII.3 trabaja cadenas, acumulación y regímenes de paso; VII.4 introduce respuesta estructural, umbral y transición de régimen; VII.5 fija el enlace entre acumulaciones sucesivas; y el trabajo sobre equivalencia parcial, preservación e invariancia local impide convertir una relación parcial entre regímenes en identidad global. En conjunto, esa base permite evaluar entradas externas sin transformar mediciones, parámetros, promedios o estimadores en fundamentos internos.
+La colección *Sucesos, horizontes y cambio estructural — Una aproximación algebraica desde el Sistema Vectorial SV* desarrolla la base algebraica de esta lectura. VII.0 desplaza el cambio desde el mero transcurso hacia la comparecencia de sucesos admisibles en horizonte declarado; VII.1 formaliza el suceso admisible como objeto tipado; la nota sobre suceso local, suceso envolvente y reevaluación situacional precisa cómo puede haber modificación efectiva sin volver al tiempo fuerte; VII.2 estudia comparabilidad, afectación, precedencia y compatibilidad; VII.3 trabaja cadenas, acumulación y regímenes de paso; VII.4 introduce respuesta estructural, umbral y transición de régimen; VII.5 fija el enlace entre acumulaciones sucesivas; y el trabajo sobre equivalencia parcial, preservación e invariancia local impide convertir una relación parcial entre regímenes en identidad global. En conjunto, esa base permite evaluar entradas externas sin transformar mediciones, parámetros, promedios o estimadores en fundamentos internos.
 
 Con ello, una entrada externa sólo será tratada como hecho admisible si declara qué afecta, en qué dominio opera, qué unidad usa, qué frontera conserva, qué residual deja y qué retorno permite. Si cumple esas condiciones, podrá quedar absorbida o absorbida parcialmente; si las incumple por mezcla de planos, doble cómputo, sustancialización, estadística como cierre o parámetro de modelo como realidad interna, deberá rechazarse; si falta base material para decidir, permanecerá en `U`.
 
@@ -1044,7 +1044,7 @@ La restricción de no interiorización queda fijada como condición de admisibil
 
 ## Bibliografía provisional de trabajo
 
-Esta bibliografía tiene carácter provisional mientras el índice rector permanezca abierto. Su función es preservar las fuentes efectivamente usadas o necesarias para el desarrollo, evitar bibliografía no usada y permitir que cada afirmación externa del cuerpo quede amarrada a una fuente revisable. El cierre bibliográfico sólo procederá cuando el cuerpo completo, los bancos y los laboratorios hayan quedado materialmente estabilizados.
+Esta bibliografía tiene carácter provisional mientras el índice rector permanezca abierto. Su función es preservar las fuentes citadas o materialmente activadas por el desarrollo, evitar entradas sin función textual y permitir que cada afirmación externa o interna relevante quede amarrada a una fuente revisable. El cierre bibliográfico sólo procederá cuando el cuerpo completo, los bancos y los laboratorios hayan quedado materialmente estabilizados.
 
 ### Bibliografía interna del corpus SV
 
@@ -1076,9 +1076,15 @@ Lloret Egea, J. A. (2026). *Teoría rigurosa del suceso admisible en el Sistema 
 
 Lloret Egea, J. A. (2026). *VII.2 — Precedencia, compatibilidad y afectación entre sucesos admisibles en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.1f58d8a2
 
-Lloret Egea, J. A. (2026). *VII.3 — Cadenas, acumulación y regímenes de paso entre sucesos admisibles en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://www.itvia.online/pub/vii3--cadenas-acumulacion-y-regimenes-de-paso-entre-sucesos-admisibles-en-el-sistema-vectorial-sv
+Lloret Egea, J. A. (2026). *Suceso local, suceso envolvente y reevaluación situacional en horizonte declarado en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.09daf43b
 
-Lloret Egea, J. A. (2026). *Equivalencia parcial, preservación e invariancia local entre regímenes en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://www.itvia.online/pub/equivalencia-parcial-preservacion-e-invariancia-local-entre-regimenes-en-el-sistema-vectorial-sv
+Lloret Egea, J. A. (2026). *VII.3 — Cadenas, acumulación y regímenes de paso entre sucesos admisibles en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.6326ca96
+
+Lloret Egea, J. A. (2026). *VII.4 — Respuesta estructural, umbral, transición de régimen y preparación de células especializadas en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.300a3099
+
+Lloret Egea, J. A. (2026). *VII.5 — Enlace formal entre acumulaciones sucesivas en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.55f0e22d
+
+Lloret Egea, J. A. (2026). *Equivalencia parcial, preservación e invariancia local entre regímenes en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.9d3f0a9d
 
 
 ### Bibliografía externa de física contemporánea
