@@ -1,4 +1,4 @@
-``# Cálculo de la materia oscura del universo físico realizado
+# Cálculo de la materia oscura del universo físico realizado
 
 ## Diferencia másica, Raigal, proyección másica y restricción oscura
 
