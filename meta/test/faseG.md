@@ -1051,6 +1051,149 @@ La restricción de campo establece que ningún retorno gravitatorio autoriza por
 
 La conexión `Raigal → B_F → 𝓤_F → χ_α` expresa la ruta por la que un contenido físico-factual puede abandonar la rama estrictamente másica y conservar una salida no reducible a `𝓜_SV(Ω)`. `Raigal_SV(Ω)` declara el contenido preproyectivo; `B_F` puede leerse como base o frontera de campo cuando el dominio muestra respuesta organizada; `𝓤_F` expresa entidad de campo con régimen propio; y `χ_α` conserva clase emergente cuando la salida no se deja reducir a masa basal. Esta cadena no compite con `π_M`; la complementa. Si el contenido cierra como masa, se proyecta por `π_M` y puede contribuir a `Δ𝓜_osc^SV`; si el contenido se organiza como campo no másico, pasa por `B_F` y `𝓤_F`; si emerge como clase, se registra como `χ_α`; si no puede decidirse, permanece en `U`. Con ello, el sector oscuro queda protegido frente a la reducción indebida: una parte puede ser masa oscura admitida, otra puede ser campo, otra clase emergente y otra indeterminación honesta. El cierre de este apartado es, por tanto, operativo: el retorno no luminoso sólo contribuye a materia oscura cuando cierra como masa bajo restricción; todo lo demás debe conservar su ruta propia.
 
+## XV. Banco físico-factual de cálculo
+
+El banco físico-factual de cálculo reúne los registros necesarios para que la diferencia másica raigal pueda evaluarse sin salto de plano. Su función no es proclamar todavía una cifra final ni cerrar la conclusión material de la obra, sino dejar trazados los dominios, las magnitudes, las unidades, los retornos, los residuales, las exclusiones y las condiciones de admisibilidad que harán posible determinar después si una salida pertenece a masa oscura admitida, diferencia no apta, clase emergente no másica o `U`. El banco se organiza sobre la cadena ya fijada: `Raigal_SV(Ω) := Ξ_SV(Ω)`, `π_M(Raigal_SV(Ω)) := 𝓜_SV(Ω)`, `𝓜_SV(Ω)=N_M^SV(Ω)·UFM`, `Δ𝓜_osc^SV := 𝓜_SV(Ω_U0) − 𝓜_SV(Ω_ret^M)` y `𝒞_osc(Δ𝓜_osc^SV)∈{APTO, NO_APTO, U}`. Cada registro del banco debe indicar qué dominio habla, qué magnitud devuelve, qué unidad usa, qué función cumple, qué residual conserva y qué resultado provisional permite. Sin ese orden, una cifra cosmológica, una masa por lente, una masa dinámica, un parámetro de modelo o una ausencia luminosa podrían entrar como fundamento indebido. Con este banco, ninguna entrada externa sustituye el cálculo raigal y ninguna salida interna queda sin retorno físico.
+
+### XV.1. Banco de dominio Ω_U0
+
+El banco de dominio `Ω_U0` declara el universo físico realizado como dominio operativo de cálculo, sin confundirlo con el TODO, con el universo observable tomado sin transducción, con un volumen cosmológico externo ni con un parámetro de modelo. Su función es preparar la masa de referencia `𝓜_SV(Ω_U0)` bajo soporte, invariante, admisión local y retorno en `UFM`. Toda entrada que pretenda hablar de `Ω_U0` debe distinguir si aporta frontera, escala de contraste, estimador cosmológico, retorno gravitatorio, inventario material, residual o simple banco externo. En este dominio no se admite que `H₀`, `Ω_m`, `Ω_c`, densidad crítica, horizonte observable o volumen comóvil definan por sí solos el universo físico realizado; sólo pueden operar como contraste si declaran banco, unidad, método, incertidumbre y residual.
+
+| Registro | Objeto | Función en `Ω_U0` | Uso permitido | Uso prohibido | Residual vigilado |
+|---|---|---|---|---|---|
+| U0-01 | `Ω_U0` | dominio físico realizado de cálculo | soporte para `𝓜_SV(Ω_U0)` | confundirse con TODO o con universo observable sin transducción | `R_dom` |
+| U0-02 | `Soporte_M(Ω_U0)` | posiciones aptas para evaluación másica | declarar espacio finito de suma | deducirse después del resultado | `R_soporte` |
+| U0-03 | `I_i^R` | invariante raigal local | aportar contribución evaluable | declarar masa por sí solo | `R_inv` |
+| U0-04 | `μ_i^M(Ω_U0)` | admisión másica local | decidir `1`, `0` o `U` por condición material | usar pesos de ajuste o probabilidad | `R_adm` |
+| U0-05 | `N_M^SV(Ω_U0)` | número másico raigal del dominio realizado | suma de invariantes admitidos | importar masa cosmológica externa | `R_suma` |
+| U0-06 | `𝓜_SV(Ω_U0)` | masa de dominio realizado | salida en `UFM` | confundirse con masa observable total de un modelo | `R_ret` |
+| U0-07 | `H₀`, `Ω_m`, `Ω_c`, `ρ_crit` | bancos cosmológicos externos | contraste dimensional y físico | definir `Ω_U0` o sustituir `N_M^SV` | `R_ext` |
+| U0-08 | horizonte, volumen, radio cosmológico | frontera externa de banco | comparación de escala si está declarada | cerrar dominio absoluto | `R_frontera` |
+
+### XV.2. Banco de dominio Ω_ret^M
+
+El banco de dominio `Ω_ret^M` declara la materialidad retornada por observables con aptitud de masa. No equivale a luz visible ni a toda masa inferida por gravedad. Su función es evitar que el cálculo fabrique materia oscura por omisión de materia ordinaria o que borre materia oscura candidata absorbiendo como materialidad lo que sólo es estimador gravitatorio. `Ω_ret^M` debe incorporar todo retorno material suficientemente trazado: estrellas, gas frío, gas molecular, gas caliente, plasma, polvo, remanentes, bariones difusos, objetos compactos identificados y componentes no luminosas materialmente reconocibles. Cada componente debe declarar método, unidad, dominio, incertidumbre, solapamiento y residual. Lo que sólo comparece como lente, dinámica, masa virial, masa hidrostática o parámetro cosmológico no entra automáticamente como materialidad retornada.
+
+| Registro | Componente | Entrada en `Ω_ret^M` | Condición de admisión | Riesgo principal | Resultado si falla |
+|---|---|---|---|---|---|
+| RM-01 | estrellas y población estelar | materialidad retornada | fotometría/espectro/modelo poblacional trazado | relación masa-luz fuera de régimen | residual o `U` |
+| RM-02 | gas frío | materialidad retornada | trazador, unidad, conversión y frontera | subinventario bariónico | residual |
+| RM-03 | gas molecular | materialidad retornada | método y factor de conversión declarados | conversión opaca | `U` parcial |
+| RM-04 | gas caliente y plasma | materialidad retornada | rayos X, temperatura, densidad o SZ con residual | equilibrio supuesto como cierre | residual o `NO_APTO` |
+| RM-05 | polvo | materialidad retornada | emisión, extinción o modelo de composición | confundir opacidad con oscuridad | residual |
+| RM-06 | remanentes y compactos identificados | materialidad retornada específica | población, dinámica o identificación | tratarlos como oscuridad difusa | exclusión de `𝓜_osc^SV` |
+| RM-07 | bariones difusos | materialidad retornada si hay banco suficiente | absorción, emisión débil o banco cosmológico | omisión bariónica | `U` o corrección |
+| RM-08 | agujeros negros identificados | componente compacta o exclusión | identificación y masa trazada | absorberlos como materia oscura genérica | `NO_APTO` como oscuridad difusa |
+| RM-09 | masa por lente total | no entra como materialidad directa | contraste gravitatorio | absorber potencial como materia retornada | rechazo como entrada directa |
+| RM-10 | masa dinámica/virial | no entra como materialidad directa | contraste con hipótesis declaradas | doble cómputo con componentes | rechazo o residual |
+
+### XV.3. Banco de observables materiales retornados
+
+El banco de observables materiales retornados clasifica las vías por las que una componente puede incorporarse a `Ω_ret^M`. La clave es que un observable no entra por existir, sino por devolver materialidad con método, unidad, frontera y residual. Una observación luminosa puede identificar estrellas, pero no agota materia; una observación espectral puede devolver gas o composición; una señal térmica puede devolver plasma; una emisión infrarroja puede devolver polvo; una absorción puede localizar bariones difusos; una microlente puede limitar compactos; una reconstrucción dinámica puede orientar el inventario, pero no sustituye el retorno material. La función de este banco es depurar `Ω_ret^M` antes de formar la diferencia oscura candidata.
+
+| Observable | Magnitud devuelta | Función permitida | Condición mínima | No debe usarse para |
+|---|---|---|---|---|
+| fotometría óptica/IR | luminosidad, población estelar, brillo | inventario estelar y masa-luz con residual | población, calibración y unidad | agotar materia retornada |
+| espectroscopía | líneas, composición, velocidad radial | gas, polvo, metalicidad, cinemática | línea, modelo y frontera | convertir velocidad en masa oscura directa |
+| HI 21 cm y trazadores de gas | gas frío, extensión, rotación | inventario bariónico y dinámica auxiliar | conversión y sensibilidad | omitir gas no luminoso |
+| CO y trazadores moleculares | gas molecular | componente material ordinaria | factor de conversión declarado | cerrar masa sin incertidumbre |
+| rayos X | gas caliente, temperatura, densidad | plasma intracumular y masa hidrostática condicionada | equilibrio y residual visibles | fundar oscuridad por temperatura |
+| SZ | presión integrada de plasma | contraste de gas caliente | modelo de electrones y frontera | sustituir masa total |
+| infrarrojo/submilimétrico | polvo, emisión fría | inventario material no óptico | modelo de emisión | confundir opacidad con materia oscura |
+| absorción intergaláctica | bariones difusos | materialidad débilmente retornada | línea, columna y banco | cerrar inventario sin residual |
+| microlente | compactos y límites | acotar MACHOs/compactos | población y sensibilidad | llamar oscuro a todo compacto |
+| mapas de lente | masa proyectada | contraste gravitatorio | geometría, fuentes, incertidumbre | entrar directa en `Ω_ret^M` |
+
+### XV.4. Banco de retorno gravitatorio
+
+El banco de retorno gravitatorio reúne las pruebas físicas que pueden sostener presencia gravitatoria no luminosa. Su papel es imprescindible, pero no suficiente. Una curva de rotación, una lente, una dispersión de velocidades, una masa virial, una separación bariones-potencial o un ajuste de estructura no bastan para nombrar materia oscura si no se ha construido `Ω_ret^M` y si la diferencia no supera `𝒞_osc`. Este banco aporta compatibilidad gravitatoria y presión física sobre la diferencia candidata; no decide por sí solo la salida final. Toda entrada gravitatoria debe conservar método, unidad, dominio, incertidumbre, posible solapamiento y función: contraste total, componente parcial, estimador de frontera, banco de exclusión o residual.
+
+| Retorno gravitatorio | Qué aporta | Uso correcto | Riesgo bloqueado | Salida posible |
+|---|---|---|---|---|
+| curvas de rotación | masa efectiva radial | contraste dinámico galáctico | halo como sustancia automática | diferencia candidata o residual |
+| dispersión de velocidades | masa dinámica | contraste de sistemas ligados | equilibrio supuesto sin control | residual o banco parcial |
+| teorema virial | masa de sistema | estimador condicionado | suma con componentes ya incluidas | rechazo si hay solapamiento |
+| lente fuerte | masa proyectada localizada | banco de presencia gravitatoria | entrar como materialidad directa | contraste fuerte |
+| lente débil | mapa de masa estadístico/proyectado | contraste de cúmulos y estructura | estadística como verdad material | banco con residual |
+| Bullet Cluster y cúmulos en colisión | separación plasma-potencial | exclusión de bariones dominantes locales | cierre ontológico total | banco positivo fuerte |
+| CMB/BAO/LSS | composición y crecimiento de estructura | contraste cosmológico | parámetro como masa interna | banco externo |
+| dinámica de cúmulos | masa gravitante a gran escala | contraste con gas y galaxias | no equilibrio ignorado | residual |
+| formación de estructura | necesidad de componente agrupable | contraste cosmológico | simulación como realidad | absorción parcial |
+
+### XV.5. Banco de exclusiones: energía oscura, agujeros negros, vacío, NADA, clase emergente y U
+
+El banco de exclusiones impide que la diferencia oscura candidata absorba aquello que no puede recibir el nombre de materia oscura. Cada exclusión debe operar antes del resultado `APTO`. Si la diferencia pertenece a energía oscura, `Λ`, agujero negro identificado, vacío, NADA mal invocada, error instrumental, error de frontera, doble cómputo, clase emergente no másica o `U` activa, no puede cerrarse como `𝓜_osc^SV`. Este banco no niega que algunas entradas excluidas sean físicamente reales; sólo niega que puedan operar como masa oscura admitida dentro de esta obra.
+
+| Exclusión | Motivo | Resultado en `𝒞_osc` | Registro exigido |
+|---|---|---|---|
+| energía oscura / `Λ` | curvatura cosmológica o régimen expansivo, no masa agrupada | `NO_APTO` como materia oscura | banco cosmológico separado |
+| `Λ_obs[B]`, `Ω_Λ` | retorno de banco externo para energía oscura | `NO_APTO` como masa | fuente, unidad y residual |
+| agujero negro identificado | objeto compacto con régimen propio | exclusión de oscuridad difusa | masa, población y trazabilidad |
+| agujeros negros primordiales hipotéticos | candidato no cerrado por defecto | `U` o banco parcial | límites observacionales |
+| vacío físico | régimen teórico distinto de masa | `NO_APTO` salvo transducción específica no másica | dominio y unidad |
+| NADA | no es depósito físico ni región oscura | `NO_APTO` | rechazo de plano |
+| error instrumental | defecto de medida | `NO_APTO` o repetición de banco | fuente del error |
+| error de frontera | dominio mal declarado | `NO_APTO` o `U` | frontera corregida |
+| doble cómputo | suma no independiente | `NO_APTO` | matriz de solapamiento |
+| clase emergente no másica | salida `χ_α` | no entra en `𝓜_osc^SV` | dominio y firma propia |
+| `U` activa | falta base para decidir | `U` | condición pendiente declarada |
+
+### XV.6. Banco de unidades SV y retorno SI
+
+El banco de unidades distingue unidades internas del SV, anclas externas y magnitudes derivadas. Las unidades SV se usan como aparato interno ya fijado; no se clasifican como entradas externas absorbidas o rechazadas. La restricción de no interiorización se aplica a constantes, parámetros y estimadores externos, no a `UFM`, `UFE`, `UE_MFC`, `UFC`, `UFT` o `UFCE`. La salida principal de este trabajo es masa en `UFM`, con equivalencia física en kg cuando proceda por retorno metrológico. Las demás unidades intervienen sólo si el banco lo exige: extensión, ciclo de retorno, temperatura, corriente, cantidad de entidad o energía basal condicionada.
+
+| Unidad o interfaz | Función en el banco | Uso permitido | Uso prohibido |
+|---|---|---|---|
+| `UFM` | unidad interna de masa | dimensionar `𝓜_SV(Ω)` y `𝓜_osc^SV` | tratarla como entrada externa sometida a absorción |
+| kg | retorno SI público | equivalencia metrológica | fundar `N_M^SV` |
+| `UFE` | extensión de dominio | radios, volúmenes, escalas físicas | cerrar frontera sin banco |
+| `UE_MFC` | ciclo de retorno | magnitudes derivadas con dimensión temporal | introducir tiempo rector |
+| `UFT` | temperatura de banco | gas, plasma, equilibrio declarado | fundar masa oscura |
+| `UFC` | corriente/plasma | retornos electromagnéticos auxiliares | convertir señal en oscuridad |
+| `UFCE` | cantidad de entidad | inventario químico/bariónico | sustituir materialidad por química abstracta |
+| `c` | interfaz externa de propagación/dimensión | retorno, equivalencia, contraste | fundar masa u oscuridad |
+| `G` | coeficiente externo de retorno gravitatorio | dinámica, lente, contraste | causa última o generador de masa |
+| `h`, `k_B`, `e`, `N_A`, `K_cd` | anclas externas SI | equivalencias de banco | fundamento interno del cálculo |
+
+### XV.7. Banco de residuales
+
+El banco de residuales conserva lo que no puede cerrarse sin pérdida de rigor. Un residual no es un fracaso del cálculo; es la condición que impide convertir incertidumbre, solapamiento, falta de dominio o salida no másica en una cifra espuria. Cada registro debe indicar el residual activado y su efecto: corrección de banco, exclusión, absorción parcial, salida `U` o paso a clase emergente. El residual debe permanecer visible hasta que una condición material lo resuelva.
+
+| Residual | Activación | Efecto sobre el cálculo | Salida posible |
+|---|---|---|---|
+| `R_dom` | dominio no declarado o mezclado | bloquea comparación | `U` o `NO_APTO` |
+| `R_frontera` | frontera espacial/cosmológica dudosa | impide resta limpia | corrección o `U` |
+| `R_unid` | unidad no homogénea | bloquea diferencia | `NO_APTO` |
+| `R_soporte` | soporte no finito o elegido a posteriori | bloquea `N_M^SV` | `U` |
+| `R_inv` | invariante incompleto | bloquea contribución local | `U` |
+| `R_adm` | admisión local no decidida | impide cierre escalar | tupla auditada o `U` |
+| `R_bar` | inventario bariónico incompleto | impide `APTO` | corrección o `U` |
+| `R_grav` | retorno gravitatorio insuficiente | impide masa oscura admitida | `NO_APTO` o `U` |
+| `R_dup` | doble cómputo | invalida suma | rehacer banco |
+| `R_ext` | parámetro externo importado como fundamento | rechaza entrada | `NO_APTO` |
+| `R_modelo` | dependencia fuerte de modelo | absorción parcial | residual visible |
+| `R_χ` | firma de clase no másica | evita reducción a masa | `χ_α` |
+| `R_U` | indeterminación estructural | conserva no clausura | `U` |
+
+### XV.8. Banco de resultados
+
+El banco de resultados clasifica las salidas posibles antes de la conclusión material. No emite todavía la determinación final, pero fija qué condiciones deben cumplirse para que una salida pueda leerse de una u otra forma. La clasificación evita que una diferencia real se convierta automáticamente en materia oscura y evita también que una salida no másica sea descartada por no ser masa. Cada resultado debe conservar fórmula, dominio, unidad, residual y retorno.
+
+| Resultado | Condición formal | Retorno | Forma de registro |
+|---|---|---|---|
+| masa oscura admitida | `𝒞_osc(Δ𝓜_osc^SV)=APTO` | `UFM` y banco gravitatorio compatible | `𝓜_osc^SV := Δ𝓜_osc^SV` |
+| diferencia másica no apta | hay diferencia, pero falla una condición material | causa de fallo visible | `Δ𝓜_no_apta` con residual |
+| materialidad ordinaria corregida | la diferencia procede de materia retornada omitida | entra en `Ω_ret^M` | corrección de banco |
+| retorno gravitatorio no material | presencia gravitatoria sin clausura como masa | banco de contraste | residual o `U` |
+| clase emergente no másica | firma `χ_α` o campo no reducible a masa | dominio propio | `χ_α` |
+| exclusión por energía oscura / Λ | pertenece a régimen cosmológico | banco separado | `NO_APTO` como masa |
+| exclusión por agujero negro identificado | objeto compacto trazado | componente específica | `NO_APTO` como oscuridad difusa |
+| error de banco | frontera, unidad, solapamiento o instrumento fallan | rehacer entrada | `NO_APTO` |
+| indeterminación honesta | falta base suficiente | conservación de no cierre | `U` |
+
+### XV.9. Requisitos técnicos para no publicar cifra espuria
+
+Una cifra de masa oscura sólo puede publicarse si supera nueve requisitos técnicos. Primero, los dominios `Ω_U0` y `Ω_ret^M` deben estar separados. Segundo, cada dominio debe declarar soporte operativo. Tercero, los invariantes locales deben estar calculados y trazados. Cuarto, la admisión local debe conservar `1`, `0` o `U` sin forzar cierre. Quinto, la masa de cada dominio debe expresarse en `UFM` bajo la misma regla. Sexto, la resta debe ser homogénea y positiva en el régimen declarado. Séptimo, `Ω_ret^M` debe haber descontado toda materialidad ordinaria retornada sin doble cómputo. Octavo, la diferencia debe poseer retorno gravitatorio compatible. Noveno, `𝒞_osc` debe excluir energía oscura, `Λ`, agujeros negros identificados, vacío, NADA, error de frontera, error instrumental, clase emergente no másica y `U` activa. Si cualquiera de estos requisitos falla, no se publica una cifra como masa oscura admitida. Se publica, en su caso, diferencia no apta, corrección de banco, clase emergente o `U`. El banco queda así preparado para la determinación posterior: la salida no dependerá de una intuición favorable, sino de una cadena auditable de dominio, unidad, cálculo, residual y retorno.
 
 
 ## Anexo X. Restricción de no interiorización de constantes, parámetros y magnitudes externas
