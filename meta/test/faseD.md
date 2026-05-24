@@ -200,8 +200,8 @@ Advertencia de derechos, autoría y licencia
 - XI.10. Propagación de U y salida auditada
 - XI.11. Diferencia másica oscura candidata
 - XI.12. Restricción oscura
-- XI.13. Ejemplo mínimo de control formal
-- XI.14. Ejemplo mínimo de diferencia entre dominios
+- XI.13. Ejemplo de control formal
+- XI.14. Ejemplo de diferencia entre dominios
 - XI.15. Salida operativa del núcleo XI
 
 </details>
@@ -259,7 +259,7 @@ Advertencia de derechos, autoría y licencia
 - XV.6. Banco de unidades SV y retorno SI
 - XV.7. Banco de residuales
 - XV.8. Banco de dictámenes
-- XV.9. Requisitos mínimos para no publicar cifra espuria
+- XV.9. Requisitos técnicos para no publicar cifra espuria
 
 </details>
 <details>
@@ -365,7 +365,7 @@ Advertencia de derechos, autoría y licencia
 - Anexo D. Protocolo de datos para Ω_U0
 - Anexo E. Protocolo de datos para Ω_ret^M
 - Anexo F. Protocolo de laboratorio
-- Anexo G. Especificación mínima del ejecutor
+- Anexo G. Especificación del programa de validación
 - Anexo H. Matriz de errores y falsación
 - Anexo I. Plantilla de informe de masa oscura admitida
 
@@ -524,12 +524,12 @@ La proyección másica del Raigal constituye el núcleo operativo del cálculo. 
 ### XI.2. Dominio de entrada y exclusión de totalidad no declarada
 
 
-El cálculo exige declarar un dominio Ω antes de proyectar masa. Ω puede comparecer como Ω_U0, cuando se trabaja con el universo físico realizado como dominio de cálculo, o como Ω_ret^M, cuando se trabaja con el dominio material retornado por observables, pero en ningún caso se identifica con el TODO ni con una totalidad metafísica sin frontera operativa. La proyección π_M sólo actúa sobre posiciones incluidas en un soporte finito de definición, de modo que ninguna suma recorre un continuo no declarado, una totalidad absoluta, una nube semántica o una inferencia cosmológica no tipada. La condición mínima de entrada es que el dominio aporte posiciones, frontera, traza, régimen de retorno y residual; si alguno de esos elementos no puede declararse con suficiencia, el cálculo no se completa por aproximación retórica y conserva U.
+El cálculo exige declarar un dominio Ω antes de proyectar masa. Ω puede comparecer como Ω_U0, cuando se trabaja con el universo físico realizado como dominio de cálculo, o como Ω_ret^M, cuando se trabaja con el dominio material retornado por observables, pero en ningún caso se identifica con el TODO ni con una totalidad metafísica sin frontera operativa. La proyección π_M sólo actúa sobre posiciones incluidas en un soporte finito de definición, de modo que ninguna suma recorre un continuo no declarado, una totalidad absoluta, una nube semántica o una inferencia cosmológica no tipada. La condición de entrada exige que el dominio aporte posiciones, frontera, traza, régimen de retorno y residual; si alguno de esos elementos no puede declararse con suficiencia, el cálculo no se completa por aproximación retórica y conserva U.
 
 ### XI.3. Posición preternaria y magnitudes raigales locales
 
 
-Cada posición admitida al análisis se representa como ξ_i=(i,α_i,β_i), donde i identifica la posición dentro del soporte operativo y α_i, β_i son componentes preternarias asociadas al marco de cálculo. A partir de esa posición se obtienen dos magnitudes locales: ρ_i=α_i+β_i y δ_i=β_i−α_i. ρ_i recoge la acumulación raigal local disponible para proyección, mientras que δ_i expresa el desajuste orientado entre las dos componentes de la posición. Esta pareja no equivale todavía a masa, partícula, energía, densidad ni observable físico externo; constituye la materia formal mínima desde la que puede construirse un invariante másico local si la posición supera después las condiciones de admisión.
+Cada posición admitida al análisis se representa como ξ_i=(i,α_i,β_i), donde i identifica la posición dentro del soporte operativo y α_i, β_i son componentes preternarias asociadas al marco de cálculo. A partir de esa posición se obtienen dos magnitudes locales: ρ_i=α_i+β_i y δ_i=β_i−α_i. ρ_i recoge la acumulación raigal local disponible para proyección, mientras que δ_i expresa el desajuste orientado entre las dos componentes de la posición. Esta pareja no equivale todavía a masa, partícula, energía, densidad ni observable físico externo; constituye la base formal desde la que puede construirse un invariante másico local si la posición supera después las condiciones de admisión.
 
 ### XI.4. Complejo factual raigal y notación nativa
 
@@ -564,7 +564,7 @@ La masa formal de un dominio se expresa como 𝓜_SV(Ω)=N_M^SV(Ω)·UFM. UFM ac
 ### XI.10. Propagación de U y salida auditada
 
 
-Si existe i∈Soporte_M(Ω) con μ_i^M(Ω)=U e I_i^R>0, el cálculo no puede cerrar el escalar N_M^SV(Ω) como si todas las posiciones hubieran quedado resueltas. En ese caso, la salida correcta adopta una de dos formas: U honesta del agregado cuando la indeterminación afecta a la clausura del dominio, o tupla auditada cuando puede separarse una parte resuelta de un residual vivo. La forma mínima de reporte es ⟨N_M^resuelto, U_activo, soporte afectado, residual, dictamen⟩, con indicación expresa de las posiciones que impiden el cierre escalar. Esta disciplina impide que la falta de datos, la frontera incompleta o la ambigüedad material se maquillen como masa oscura admitida.
+Si existe i∈Soporte_M(Ω) con μ_i^M(Ω)=U e I_i^R>0, el cálculo no puede cerrar el escalar N_M^SV(Ω) como si todas las posiciones hubieran quedado resueltas. En ese caso, la salida correcta adopta una de dos formas: U honesta del agregado cuando la indeterminación afecta a la clausura del dominio, o tupla auditada cuando puede separarse una parte resuelta de un residual vivo. La forma de reporte es ⟨N_M^resuelto, U_activo, soporte afectado, residual, dictamen⟩, con indicación expresa de las posiciones que impiden el cierre escalar. Esta disciplina impide que la falta de datos, la frontera incompleta o la ambigüedad material se maquillen como masa oscura admitida.
 
 ### XI.11. Diferencia másica oscura candidata
 
@@ -576,15 +576,15 @@ Una vez obtenidas las masas de dominio, la diferencia candidata se formula como 
 
 La restricción oscura se expresa como 𝒞_osc(Δ𝓜_osc^SV)∈{APTO, NO_APTO, U}. Su tarea consiste en impedir que toda diferencia positiva reciba automáticamente el nombre de materia oscura. Para obtener APTO, la diferencia debe cerrar como masa, presentar compatibilidad gravitatoria, carecer de retorno luminoso-material suficiente dentro de Ω_ret^M y excluir energía oscura, agujeros negros identificados, vacío, NADA, error instrumental, error de frontera, doble cómputo, clase factual emergente no másica y U no resuelta. El resultado NO_APTO aparece cuando la diferencia existe pero falla alguna condición material. U se conserva cuando la base no permite decidir sin forzar cierre. Sólo bajo 𝒞_osc = APTO puede escribirse 𝓜_osc^SV := Δ𝓜_osc^SV, entendida como masa oscura admitida.
 
-### XI.13. Ejemplo mínimo de control formal
+### XI.13. Ejemplo de control formal
 
 
-Sea un dominio Ω con Soporte_M(Ω)={1,2,3}. Para ξ_1=(1,2,1), se obtiene ρ_1=3, δ_1=−1 e I_1^R=10; si μ_1^M(Ω)=1, la posición aporta 10. Para ξ_2=(2,1,1), se obtiene ρ_2=2, δ_2=0 e I_2^R=4; si μ_2^M(Ω)=0, la posición no aporta masa aunque su invariante sea positivo. Para ξ_3=(3,2,3), se obtiene ρ_3=5, δ_3=1 e I_3^R=26; si μ_3^M(Ω)=U, el dominio no puede cerrarse como N_M^SV(Ω)=10 por simple omisión de la indeterminación. La salida correcta es ⟨10, U_activo={3}, residual vivo⟩. Si una auditoría posterior resolviera μ_3^M(Ω)=1, entonces N_M^SV(Ω)=36 y 𝓜_SV(Ω)=36·UFM; si resolviera μ_3^M(Ω)=0, entonces N_M^SV(Ω)=10 y 𝓜_SV(Ω)=10·UFM. Mientras μ_3^M(Ω)=U, no hay cierre escalar honesto.
+Sea un dominio Ω con Soporte_M(Ω)={1,2,3}. Para ξ_1=(1,2,1), se obtiene ρ_1=3, δ_1=−1 e I_1^R=10; si μ_1^M(Ω)=1, la posición aporta 10. Para ξ_2=(2,1,1), se obtiene ρ_2=2, δ_2=0 e I_2^R=4; si μ_2^M(Ω)=0, la posición no aporta masa aunque su invariante sea positivo. Para ξ_3=(3,2,3), se obtiene ρ_3=5, δ_3=1 e I_3^R=26; si μ_3^M(Ω)=U, el dominio no puede cerrarse como N_M^SV(Ω)=10 por simple omisión de la indeterminación. La salida correcta es ⟨10, U_activo={3}, residual vivo⟩. Si una auditoría posterior resolviera μ_3^M(Ω)=1, entonces N_M^SV(Ω)=36 y 𝓜_SV(Ω)=36·UFM; si resolviera μ_3^M(Ω)=0, entonces N_M^SV(Ω)=10 y 𝓜_SV(Ω)=10·UFM. Mientras μ_3^M(Ω)=U, no hay cierre escalar honesto: la prueba muestra que la indeterminación con invariante positivo conserva residual material y no puede desaparecer por conveniencia del resultado.
 
-### XI.14. Ejemplo mínimo de diferencia entre dominios
+### XI.14. Ejemplo de diferencia entre dominios
 
 
-Supóngase que Ω_U0 y Ω_ret^M pertenecen al mismo régimen formal de retorno y que ambos tienen soporte finito declarado. Si Ω_U0 arroja 𝓜_SV(Ω_U0)=100·UFM y Ω_ret^M arroja 𝓜_SV(Ω_ret^M)=72·UFM, la diferencia candidata es Δ𝓜_osc^SV=28·UFM. Esa cifra todavía no es masa oscura admitida: debe pasar 𝒞_osc. Si la diferencia corresponde a componentes bariónicas no retornadas por banco incompleto, el dictamen es NO_APTO o U según el residual; si procede de doble cómputo entre gas, lente y masa dinámica, el cálculo debe corregirse antes de emitir dictamen; si se explica por energía oscura, agujeros negros identificados, vacío o clase factual emergente no másica, no puede nombrarse masa oscura admitida. Sólo cuando la diferencia cierre como masa gravitante no retornada materialmente y supere todas las exclusiones, se obtiene 𝒞_osc(28·UFM)=APTO y 𝓜_osc^SV := 28·UFM.
+Supóngase que Ω_U0 y Ω_ret^M pertenecen al mismo régimen formal de retorno y que ambos tienen soporte finito declarado. Si Ω_U0 arroja 𝓜_SV(Ω_U0)=100·UFM y Ω_ret^M arroja 𝓜_SV(Ω_ret^M)=72·UFM, la diferencia candidata es Δ𝓜_osc^SV=28·UFM. Esa cifra todavía no es masa oscura admitida: debe pasar 𝒞_osc. Si la diferencia corresponde a componentes bariónicas no retornadas por banco incompleto, el dictamen es NO_APTO o U según el residual; si procede de doble cómputo entre gas, lente y masa dinámica, el cálculo debe corregirse antes de emitir dictamen; si se explica por energía oscura, agujeros negros identificados, vacío o clase factual emergente no másica, no puede nombrarse masa oscura admitida. Sólo cuando la diferencia cierre como masa gravitante no retornada materialmente y supere todas las exclusiones, se obtiene 𝒞_osc(28·UFM)=APTO y 𝓜_osc^SV := 28·UFM. La prueba fija la separación entre diferencia candidata y masa oscura admitida: la resta compatible abre el cálculo, pero la denominación sólo nace después de la restricción.
 
 ### XI.15. Salida operativa del núcleo XI
 
