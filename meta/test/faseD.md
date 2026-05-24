@@ -26,7 +26,7 @@ Advertencia de derechos, autoría y licencia
 - 0.6. Registros de cálculo: intrínseco raigal, observacional de banco y retorno auditado
 - 0.7. Estatuto de 𝒞_osc como restricción oscura
 - 0.8. Qué se calcula, qué se contrasta, qué se retorna y qué debe permanecer en U
-- 0.9. Error cero de cálculo y deuda viva del banco físico
+- 0.9. Error cero de cálculo y elementos a contrastar por el banco físico
 
 </details>
 
@@ -92,7 +92,7 @@ Advertencia de derechos, autoría y licencia
 - III.4. Principio de no destrucción factual silenciosa
 - III.5. Teoría del TODO y de la NADA como instancia rectora de cierre
 - III.6. Ningún resultado oscuro se nombra sin restricción
-- III.7. Diferencia entre cierre material, deuda viva y habilitación algebraica
+- III.7. Diferencia entre cierre material, elementos sujetos a contraste y habilitación algebraica
 
 </details>
 <details>
@@ -278,7 +278,7 @@ Advertencia de derechos, autoría y licencia
 - XVI.11. Valor energético basal condicionado: retorno en UFM·UFE²·UE_MFC⁻² sólo si procede
 - XVI.12. Tabla de salida: APTO, NO_APTO o U
 - XVI.13. Condiciones de error cero de cálculo: homogeneidad de dominio, unidad, proyección, resta, restricción y retorno
-- XVI.14. Qué queda materialmente cerrado por cálculo y qué permanece como deuda viva
+- XVI.14. Qué queda materialmente cerrado por cálculo y qué permanece sujeto a contraste
 
 </details>
 <details>
@@ -342,7 +342,7 @@ Advertencia de derechos, autoría y licencia
 - XXI.3. Resultado metrológico
 - XXI.4. Resultado epistemológico
 - XXI.5. Fórmula final de cierre
-- XXI.6. Deuda viva y trabajo posterior
+- XXI.6. Elementos sujetos a contraste y trabajo posterior
 
 </details>
 
@@ -433,10 +433,10 @@ El trabajo distingue tres registros para evitar contaminación de planos. El reg
 
 Se calcula la diferencia másica raigal entre Ω_U0 y Ω_ret^M, no una masa invisible por inferencia directa. Se contrasta con física contemporánea mediante bancos observacionales y referencias externas, sin importar sus fórmulas como fundamento encubierto. Se retorna físicamente en UFM y, cuando proceda, en equivalencia metrológica con kg, conservando incertidumbre, residual y dictamen. Debe permanecer en U todo aquello que no pueda decidirse sin forzar dominio, soporte, unidad, admisión, frontera o retorno. La cuestión general de los estados de la materia, sus fases ordinarias, regímenes extremos y tipología física no se incorpora como parte rectora de este cálculo, porque la materia oscura no queda admitida por ser un estado adicional de la materia. Ese desarrollo se reserva como investigación singular prevista del corpus, titulada Estados de la materia y tipología, con sede prevista en el ámbito termodinámico-material del repositorio canónico: termodinamica-gases-fluidos-sv/estados-materia-tipologia. Esa ubicación resulta adecuada porque el problema pertenece al estudio de estados, fases, transiciones, agregación, régimen material y retorno físico de la materia constituida, no al cálculo cosmológico de una diferencia másica raigal bajo restricción oscura.
 
-### 0.9. Error cero de cálculo y deuda viva del banco físico
+### 0.9. Error cero de cálculo y elementos a contrastar por el banco físico
 
 
-La expresión “error cero de cálculo” sólo tiene sentido en el plano formal declarado. Significa cero error de dominio, unidad, homogeneidad, soporte, invariante, admisión, suma, retorno dimensional, diferencia, restricción y conservación de dictamen. No significa ausencia de incertidumbre experimental, precisión infinita de los datos cosmológicos ni cierre físico definitivo de la materia oscura. La deuda viva queda explícita: los bancos observacionales deberán declarar valores, métodos, incertidumbres, unidades, procedencia, límites y posibles solapamientos; los inventarios de materia retornada deberán impedir doble cómputo; las salidas NO_APTO y U deberán conservarse cuando correspondan; y los laboratorios reproducibles sólo podrán verificar material ya expuesto en tablas y ejemplos del cuerpo principal. El trabajo no cierra por ausencia de alternativa: sólo admite aquello que supera la cadena formal y la restricción oscura.
+La expresión “error cero de cálculo” sólo tiene sentido en el plano formal declarado. Significa cero error de dominio, unidad, homogeneidad, soporte, invariante, admisión, suma, retorno dimensional, diferencia, restricción y conservación de dictamen. No significa ausencia de incertidumbre experimental, precisión infinita de los datos cosmológicos ni cierre físico definitivo de la materia oscura. Los elementos que deberán contrastar los bancos físicos quedan declarados: los bancos observacionales deberán declarar valores, métodos, incertidumbres, unidades, procedencia, límites y posibles solapamientos; los inventarios de materia retornada deberán impedir doble cómputo; las salidas NO_APTO y U deberán conservarse cuando correspondan; y los laboratorios reproducibles cotejarán y verificarán material ya expuesto en tablas y ejemplos del cuerpo principal, además de poner a prueba sus afirmaciones mediante bancos positivos, bancos negativos y salidas comparables con la ciencia contemporánea. El trabajo no cierra por ausencia de alternativa: sólo admite aquello que supera la cadena formal y la restricción oscura.
 
 ## I. Estado del arte físico contemporáneo de la materia oscura
 
