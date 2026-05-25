@@ -1,4 +1,4 @@
-# La materia oscura no existe como sustancia
+#  La No existencia de la materia oscura como sustancia
 
 ## Densidad gravitatoria efectiva de sutura, capacidad estructural y retorno material del dominio físico realizado
 
