@@ -543,3 +543,140 @@ The dictionary protects formally sensitive terms such as `Σ={0,1,U}`, `U`, even
 The term “factual” is defined as physics of the event: the analysis of declared facts mapped onto events with domain, magnitude, unit, boundary, residual and return. The dictionary prevents the term from becoming a generic adjective. Likewise, Raigal is fixed as the physical-factual preprojective content of the domain, raigal complex as the structural form `Z_i^R=ρ_i+i_SVδ_i`, and raigal invariant as `I_i^R=Z_i^R·Z̄_i^R=ρ_i²+δ_i²`, prior to any material reading.
 
 The work is organised through thematic blocks and alphabetical consultation. It first presents the entry norm, the system core, fact and event, ternarity, preformality, domain, trajectory, Raigal, projection, metrology, materiality, fields, operators, computation, banks, frequent errors, controlled translation into contemporary physics and major concepts of the corpus. It then provides a Spanish alphabetical dictionary, a controlled English dictionary and technical annexes covering symbols, operators, gates, domains, residuals, transducers, errors and equivalences.
+
+## 0. Apertura editorial
+
+### 0.1. Finalidad del diccionario
+
+El presente diccionario fija el uso técnico de los términos principales del Sistema Vectorial SV. Su finalidad no es acompañar externamente al corpus, sino estabilizar la lengua formal con la que el corpus se escribe, se interpreta, se contrasta y se implementa. Cada término recogido aquí debe poder funcionar como entrada de lectura, como referencia matemática, como criterio de uso y como advertencia frente a errores frecuentes. La obra nace, por tanto, como instrumento de precisión: ordena nombres, fórmulas, dominios, compuertas, transductores, residuales y retornos para que el lector pueda distinguir entre definición formal, analogía física, uso computacional, resultado por banco y límite no clausurado.
+
+El SV emplea voces que, fuera de su aparato, pueden inducir confusión. “Suceso”, “factual”, “retorno”, “residual”, “Raigal”, “sutura”, “clausura”, “transducción” o `U` no se usan aquí como adornos terminológicos ni como simples equivalentes de palabras ordinarias. Tienen una posición interna, una función y una frontera. El diccionario existe para impedir que esas voces se lean por intuición lingüística cuando exigen dominio, magnitud, unidad, residual y dictamen.
+
+### 0.2. Alcance: etimología interna, definición matemática y disciplina de uso
+
+Cada entrada combina tres planos. El primero es etimológico en sentido interno: explica por qué el término se nombra así dentro del SV y qué problema de lectura resuelve. El segundo es matemático: fija la forma, el símbolo, la relación o la estructura que le corresponde. El tercero es disciplinario: declara qué permite decir y qué prohíbe decir. Esta triple forma evita que el diccionario se convierta en un vocabulario plano. Una voz SV no queda definida hasta que se sabe qué significa, dónde opera, qué fórmula la expresa, con qué entradas se relaciona y qué uso queda excluido.
+
+El alcance del diccionario incluye términos fundacionales, algebraicos, físicos, metrológicos, computacionales, lexicográficos y de contraste con la ciencia contemporánea. No todas las entradas tendrán la misma longitud ni la misma densidad formal, pero todas deberán obedecer la misma plantilla. Un término muy formal exigirá fórmula y dominio; un término de frontera exigirá advertencia de traducción y de no interiorización; una voz de uso común exigirá separación entre sentido ordinario y sentido SV.
+
+### 0.3. Qué no es este diccionario
+
+Este diccionario no es un repertorio superficial de palabras del corpus. Tampoco es un manual introductorio pensado para rebajar la dificultad del SV, ni una síntesis empobrecida de publicaciones previas. Su función no es sustituir las obras del corpus, sino permitir que sus términos se usen con exactitud. Una entrada no reemplaza la demostración de una publicación, pero sí fija el significado técnico que esa publicación presupone.
+
+Tampoco es un diccionario de física contemporánea, aunque incluya términos de contraste como masa, densidad crítica, materia oscura, energía oscura, constante cosmológica, lente gravitacional o curva de rotación. Esas voces se incorporan cuando resultan necesarias para transducción, comparación o retorno físico. Su presencia no implica absorción sin control. Cada término externo debe entrar con plano declarado: magnitud física, banco de contraste, retorno SI, analogía limitada o concepto no interiorizado.
+
+### 0.4. Regla de lectura: término, definición, fórmula, dominio, prohibición y ejemplo
+
+La lectura de cada entrada seguirá una regla estable. Primero aparece el término y su forma canónica. Después se ofrece una definición SV, una razón semántica interna y una definición matemática cuando proceda. A continuación se declara su dominio de uso, las afirmaciones que autoriza y las formulaciones que prohíbe. Finalmente se añaden relaciones con otras entradas, un ejemplo de uso y errores frecuentes. Esta arquitectura permite que la entrada sea útil para lectura humana, revisión editorial, implementación computacional y control de consistencia.
+
+La entrada no debe cerrarse por belleza verbal. Una definición clara pero sin dominio puede inducir errores; una fórmula sin explicación puede producir automatismo; una traducción sin frontera puede contaminar planos. Por eso el diccionario exige que el lector sepa no sólo qué significa una voz, sino también cuándo no debe utilizarse.
+
+### 0.5. Plantilla uniforme de entrada
+
+La plantilla maestra queda fijada así: término; forma canónica; definición SV; razón etimológica o semántica interna; definición matemática; dominio de uso; qué permite decir; qué prohíbe decir; relaciones con otras entradas; ejemplo de uso; errores frecuentes; equivalencia inglesa; notas de frontera. Esta plantilla podrá comprimirse en entradas breves, pero no podrá alterarse en las voces rectoras del corpus.
+
+En términos como `Σ={0,1,U}`, `U`, “factual”, `Ξ_SV`, `Z_i^R`, `I_i^R`, `π_M`, transducción, no interiorización, sutura, capacidad estructural, banco, residual y dictamen, la plantilla debe aplicarse de forma completa. Son voces capaces de arrastrar errores de interpretación si se definen de manera parcial. En entradas secundarias podrá bastar una forma reducida, siempre que el dominio y la prohibición de uso queden visibles.
+
+### 0.6. Criterios de inclusión, actualización y trazabilidad
+
+Una voz entra en el diccionario cuando cumple una de estas condiciones: aparece como término formal del corpus, sostiene una fórmula, gobierna una compuerta, interviene en una transducción, forma parte de un banco o laboratorio, tiene riesgo de lectura ambigua, requiere equivalencia inglesa controlada o aparece repetidamente en publicaciones SV con función técnica. No basta que una palabra sea frecuente; debe tener peso formal, semántico o operativo.
+
+Las actualizaciones deberán conservar trazabilidad. Una entrada podrá ampliarse, corregirse o dividirse cuando una publicación posterior precise su alcance, pero no deberá reescribirse de manera que borre el uso ya consolidado sin declarar la razón. Si una voz cambia de posición, se dejará constancia de la nueva lectura y de la relación con su uso anterior. El diccionario debe crecer sin desordenar el corpus.
+
+### 0.7. Uso bilingüe: español rector e inglés técnico equivalente
+
+El español mantiene la posición rectora del diccionario. El inglés se incorpora como equivalencia técnica controlada, no como traducción libre. Algunas voces se traducen literalmente; otras exigen traducción funcional; otras deben conservarse como término SV. “Raigal”, por ejemplo, puede mantenerse como voz técnica retenida; “sutura” puede traducirse como “suture” con definición estricta; `U` debe explicarse como “honest indeterminacy”, no como “uncertainty” probabilística sin más.
+
+La versión inglesa no debe suavizar los términos ni sustituir su forma interna por equivalentes cómodos. Debe permitir lectura internacional sin perder precisión. Cuando una palabra inglesa tenga uso científico previo que pueda contaminar el concepto SV, la entrada deberá señalarlo. El objetivo no es sonar natural en inglés ordinario, sino preservar equivalencia técnica.
+
+### 0.8. Notación general del diccionario
+
+La notación matemática se mantendrá en forma compatible con Markdown y lectura editorial ordinaria. Los símbolos se escribirán preferentemente en línea, con código cuando convenga proteger su forma: `Σ={0,1,U}`, `Ξ_SV`, `Z_i^R`, `I_i^R`, `π_M`, `ρ_ret^SV`, `ρ_sut,grav^SV`, `ρ_C^SV`. Las fórmulas deberán ser legibles sin depender de renderizados frágiles. Cuando una fórmula sea larga, se ofrecerá en una línea separada, manteniendo sintaxis estable.
+
+Las letras griegas, subíndices, superíndices y operadores se usarán sólo cuando tengan función real. No se introducirán variantes tipográficas sin necesidad. Si una misma magnitud aparece con notaciones cercanas, el diccionario fijará la forma preferente y remitirá las variantes a ella. La claridad formal prevalece sobre la ornamentación simbólica.
+
+### 0.9. Términos de frontera: analogía física, transducción y no sustitución de la realidad
+
+El diccionario prestará atención especial a términos que conectan el SV con la física contemporánea, la matemática externa o el lenguaje natural ordinario. Esas voces requieren frontera explícita. Una constante física puede operar como retorno metrológico sin convertirse en fundamento interno. Una densidad puede expresarse en unidades SI sin volverse sustancia. Una magnitud observacional puede entrar como banco de contraste sin ser absorbida como verdad constitutiva. Una palabra ordinaria puede conservar una resonancia semántica y, al mismo tiempo, adquirir un sentido SV más restringido.
+
+La regla general es transducción sin sustitución. El SV no reemplaza la realidad física por una nomenclatura interna; la lee mediante dominio, magnitud, unidad, frontera, residual y retorno. Tampoco entrega su fundamento a parámetros externos. El diccionario debe sostener esa doble disciplina: permitir el puente y evitar la contaminación de planos.
+
+## I. Norma de entrada lexicográfica SV
+
+### I.1. Término
+
+El término es la unidad visible de consulta. Puede consistir en una palabra, una expresión compuesta, un símbolo, una fórmula breve, un operador, una magnitud, una compuerta, una clase, una familia conceptual o una voz de traducción controlada. Su función no es meramente nominal: identifica una posición dentro del corpus y permite localizar el dominio de uso correspondiente. Cuando una voz ordinaria recibe sentido SV, el término debe declarar esa diferencia desde el comienzo para impedir que el lector proyecte sobre él su acepción común.
+
+Un término puede conservar una resonancia etimológica externa, pero su definición válida es la que queda fijada por el aparato. “Suceso”, “frontera”, “retorno”, “residual”, “sutura” o “campo” no se leen aquí por intuición lingüística, sino por función formal. Cuando el término sea simbólico, como `Σ={0,1,U}`, `Ξ_SV`, `Z_i^R`, `I_i^R`, `π_M` o `ρ_sut,grav^SV`, deberá conservarse la forma exacta y remitirse cualquier variante a la entrada canónica.
+
+### I.2. Forma canónica
+
+La forma canónica es la escritura preferente del término. Fija grafía, símbolo, subíndice, superíndice, orden de componentes y uso de mayúsculas o minúsculas. Su finalidad es impedir la proliferación de variantes que parezcan equivalentes pero introduzcan ambigüedad. La forma `Σ={0,1,U}` no debe alternarse libremente con ternas descriptivas si el contexto exige referencia formal; `Ξ_SV` no debe sustituirse por expresiones vagas como “raíz” o “contenido base”; `Z_i^R` e `I_i^R` deben conservar su relación con complejo e invariante raigal.
+
+La entrada podrá recoger variantes históricas o traducciones auxiliares, pero la forma canónica mantiene prioridad. Cuando una obra anterior haya usado una forma próxima, el diccionario indicará la relación y fijará la escritura que debe prevalecer en adelante. Esta norma protege tanto la lectura humana como la implementación computacional, donde una variación simbólica puede producir confusión de dominio.
+
+### I.3. Definición SV
+
+La definición SV expresa lo que el término significa dentro del Sistema Vectorial. Debe ser suficiente para distinguir la voz de su uso ordinario, de sus analogías físicas y de conceptos cercanos del propio corpus. Una definición correcta no se limita a una frase nominal; declara la función del término, el plano en que opera y el tipo de operación que autoriza. Por ejemplo, `U` no es ignorancia subjetiva ni probabilidad baja; es indeterminación honesta cuando el dominio no autoriza cierre. “Factual” no equivale a real en lenguaje común; designa física del suceso: hechos declarados mapeados contra sucesos con dominio, magnitud, unidad, frontera, residual y retorno.
+
+La definición debe evitar cierres excesivos. Si una voz tiene uso formal cerrado y uso operacional por banco, ambos planos deben separarse. Si una magnitud se define en el plano SV y retorna después en SI, la definición no debe confundir estructura y medición. Si un término tiene sentido preproyectivo, como Raigal, no debe definirse como masa, energía o campo ya constituido.
+
+### I.4. Razón etimológica o semántica interna
+
+La razón etimológica o semántica interna explica por qué la voz se denomina así dentro del corpus. No se trata de construir una historia lingüística externa, sino de aclarar la necesidad formal del nombre. “Raigal” nombra el contenido físico-factual preproyectivo del dominio porque remite a raíz interna de lectura, no a materia ya constituida. “Sutura” nombra una clausura estructural que une capacidad y retorno sin introducir una sustancia adicional. “Transducción” nombra el paso controlado entre planos con dominio, codominio, unidad y residual, no una traducción informal.
+
+Esta sección debe ser sobria. No debe convertir la etimología interna en literatura ni en justificación retórica. Su función es prevenir malentendidos: mostrar qué problema resuelve el término y por qué no puede ser sustituido por una palabra más común sin pérdida formal.
+
+### I.5. Definición matemática
+
+La definición matemática fija la forma operativa del término cuando la voz admite formulación simbólica. Puede ser una ecuación, una relación, una compuerta, una función, una partición, una clase, una tupla o una condición de dominio. En entradas como `Σ={0,1,U}`, `Π_3^H`, `Z_i^R`, `I_i^R`, `ρ_ret^SV`, `ρ_sut,grav^SV`, `𝔛_SV` o `π_M`, esta sección es obligatoria. La fórmula no sustituye la definición verbal; la disciplina.
+
+La definición matemática debe indicar sus condiciones de aplicación. Una fórmula sin dominio es insuficiente. `I_i^R=Z_i^R·Z̄_i^R=ρ_i²+δ_i²` sólo tiene sentido después de definir posición raigal, intensidad y diferencia polar. `ρ_sut,grav^SV=ρ_cap^SV−ρ_ret^SV−ρ_C^SV` sólo es correcta cuando se declara dominio, banco y residual. El diccionario debe impedir el uso ornamental de fórmulas aisladas.
+
+### I.6. Dominio de uso
+
+El dominio de uso declara dónde opera el término y en qué plano debe leerse. Puede tratarse de un dominio preformal, algebraico, físico, metrológico, computacional, lingüístico, observacional o de contraste con ciencia contemporánea. Una voz puede operar en varios dominios, pero cada uso debe quedar diferenciado. “Campo” no significa lo mismo como campo físico contemporáneo, campo SV admitido, herramienta auxiliar o retorno de una proyección. “Masa” no significa lo mismo como magnitud SI, materialidad retornada, proyección másica o inferencia gravitatoria.
+
+Esta sección es decisiva para evitar confusión de planos. Si una entrada no declara dominio, el lector puede usarla fuera de su sede. Si se usa fuera de dominio, el término pierde fuerza o produce contradicción aparente. El diccionario debe mostrar no sólo dónde puede operar una voz, sino también dónde no debe operar sin transductor, compuerta o banco.
+
+### I.7. Qué permite decir
+
+Esta sección declara las afirmaciones autorizadas por el término. No enumera opiniones, sino consecuencias legítimas de la definición. La entrada `U` permite decir que un dominio conserva indeterminación honesta; no permite decir que cualquier falta de información se vuelve indecidible por comodidad. La entrada `Raigal` permite hablar de contenido preproyectivo del dominio; no permite hablar todavía de masa, energía o materia sin proyección. La entrada `transducción` permite pasar entre SV y física contemporánea bajo condiciones declaradas; no permite absorber magnitudes externas como fundamento interno.
+
+El valor de esta sección es disciplinario. Una definición formal puede ser comprendida y, aun así, mal usada. Declarar qué permite decir ayuda a mantener la escritura del corpus dentro de sus límites. También ayuda a los bancos y laboratorios: si una entrada autoriza una operación, esa operación puede diseñarse; si no la autoriza, debe introducirse transductor, compuerta o residual.
+
+### I.8. Qué prohíbe decir
+
+Cada entrada debe señalar las formulaciones que el término excluye. Esta sección no es negativa en sentido retórico; protege la consistencia del corpus. `Σ={0,1,U}` prohíbe leer el SV como reducción de la realidad física a tres etiquetas. `ρ_DM,sustancia^SV=0` prohíbe decir que el retorno gravitatorio desaparece; anula la sustancia, no el fenómeno. `G` como retorno metrológico prohíbe interiorizar la constante como fundamento del SV. `ρ_sut,grav^SV` prohíbe llamar materia oscura renombrada a la sutura.
+
+La prohibición debe formularse de manera precisa. No basta decir “uso incorrecto”. Hay que indicar qué error se comete: confusión de plano, sustitución de dominio, cierre prematuro, doble cómputo, sustancialización, inferencia opaca, uso estadístico como verdad constitutiva o conversión de `U` en refugio. Esta sección será esencial en las entradas de errores frecuentes.
+
+### I.9. Relaciones con otras entradas
+
+Ninguna entrada importante del SV opera aislada. La relación con otras voces permite ubicarla en una red formal. `Ξ_SV` se relaciona con posición raigal, complejo, invariante, proyección másica, materialidad retornada, sutura y residual. `Σ={0,1,U}` se relaciona con compuerta ternaria, dictamen, `U`, cierre, no clausura y sombra binaria. “Factual” se relaciona con hecho declarado, suceso, dominio, magnitud, frontera, residual y retorno. “No interiorización” se relaciona con transducción, constantes externas, retorno SI y física contemporánea.
+
+La relación no debe degenerar en lista interminable. Debe señalar vínculos necesarios para comprender el término y prevenir errores. Si una entrada depende de otra, se indicará. Si una entrada corrige una lectura habitual de otra, se indicará. Si una entrada pertenece a una familia mayor, se ubicará en ella.
+
+### I.10. Ejemplo de uso
+
+El ejemplo de uso debe mostrar la entrada funcionando en una frase o fórmula breve. No debe ser una escena didáctica extensa ni un caso artificial. Su objetivo es que el lector vea cómo se escribe correctamente el término dentro del corpus. Para `U`, un ejemplo puede ser: “El banco conserva `U(causa;B)` porque el dominio no autoriza clausura material.” Para `π_M`: “La proyección másica `π_M` sólo admite invariantes raigales que superan compuerta de materialidad.” Para `ρ_sut,grav^SV`: “La sutura se calcula por banco, no por ajuste a `ρ_DM` contemporánea.”
+
+El ejemplo debe respetar la misma disciplina que la definición. No puede introducir una licencia que la entrada prohíbe. Si una voz exige dominio, el ejemplo debe incluirlo o presuponerlo de forma clara. Si una magnitud exige banco, el ejemplo debe nombrarlo. Si una voz tiene riesgo de ambigüedad, el ejemplo debe elegir la formulación más segura.
+
+### I.11. Errores frecuentes
+
+La sección de errores frecuentes recoge desviaciones previsibles. Puede incluir errores de lectura ordinaria, errores de traducción, errores matemáticos, errores de dominio, errores de cierre o errores de transducción. En el SV son especialmente graves: confundir `U` con ignorancia psicológica; convertir `Σ={0,1,U}` en sustituto de la realidad; llamar “materia” a todo retorno gravitatorio; usar “factual” como adjetivo genérico; tomar una constante SI como fundamento; proyectar masa sin compuerta; leer el Raigal como materia; reducir sutura a resta métrica externa.
+
+Estos errores deben escribirse de forma concreta y corregible. La entrada debe decir cuál es el error y cuál es la formulación correcta. Si un error procede de lenguaje natural ordinario, se indicará. Si procede de física contemporánea, se separarán plano externo y plano SV. Si procede de una fórmula incompleta, se exigirá dominio, banco o residual.
+
+### I.12. Equivalencia inglesa
+
+La equivalencia inglesa debe preservar la función formal del término. No toda voz admite traducción directa. Algunas deben mantenerse en español como término técnico; otras pueden traducirse literalmente; otras requieren una equivalencia funcional. “Raigal” puede conservarse como `Raigal`; “sutura” puede traducirse como `suture` siempre que se defina como clausura estructural y no como costura material; “factual” puede mantenerse como `factual` sólo bajo definición controlada; `U` debe explicarse como `honest indeterminacy`, no como `uncertainty` probabilística.
+
+La equivalencia inglesa no debe gobernar el término español. El español conserva prioridad en el corpus. El inglés permite circulación técnica, pero no corrige la forma canónica. Si una traducción inglesa introduce un riesgo de confusión con uso científico existente, la entrada deberá advertirlo y fijar la lectura SV.
+
+### I.13. Notas de frontera con física, matemática o lenguaje natural ordinario
+
+Las notas de frontera aclaran cómo se relaciona el término con usos externos. Algunas voces coinciden con palabras de física contemporánea; otras con términos matemáticos clásicos; otras con lenguaje común. El diccionario debe declarar si hay analogía, transducción, equivalencia parcial, diferencia de dominio o ausencia de equivalencia. “Campo”, “masa”, “energía”, “densidad”, “curvatura”, “constante”, “evento”, “fact”, “closure” o “suture” son voces que pueden inducir contaminación si no se marca la frontera.
+
+La regla general es simple: una semejanza verbal no autoriza identidad formal. Una fórmula semejante no autoriza equivalencia de plano. Una magnitud retornada en SI no autoriza interiorización. Un término físico contemporáneo no entra en SV sin dominio, transductor, residual y dictamen. Las notas de frontera protegen precisamente ese paso: permiten comparar sin confundir y traducir sin sustituir.
+
