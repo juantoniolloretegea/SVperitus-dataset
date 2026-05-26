@@ -586,6 +586,137 @@ El retorno biológico de la organización material se expresa en señales, estru
 
 El alcance de la lectura biológica queda delimitado: la vida muestra una reorganización posterior de la materia ordinaria, pero no redefine el origen material del universo observable. Su presencia confirma que la cadena H–He → elementos → pares → enlaces → moléculas puede conducir a organización biológica bajo condiciones adecuadas; su ausencia en otros dominios no invalidaría la prioridad material del régimen H–He. Esta precisión es esencial para evitar una tesis finalista. La vida no es meta necesaria del hidrógeno, ni destino obligado del helio, ni criterio último de verdad de la materia ordinaria. Es un dominio posterior con restricciones propias. Por eso, el resultado de XI debe mantenerse sobrio: la vida presupone el régimen H–He y la materia organizada posterior; reorganiza agua, carbono, oxígeno, hidrógeno, nitrógeno, fósforo, azufre, enlaces, moléculas y membranas; aporta retorno biológico; pero no funda el régimen, no sustituye la tabla periódica, no reemplaza CPS-SV y no invade los planos preformales. Con este límite, el desarrollo queda preparado para la matriz de contraste: ya se han separado origen preformal, origen material ordinario, energía ⇄ masa, H, He, Sol, tabla periódica, pares, moléculas y vida. El paso siguiente deberá convertir esa arquitectura en casos evaluables, con salidas de admisión, defecto y no determinación legítima.
 
+
+# XII. Matriz de contraste y admisibilidad
+
+## XII.1. Función de la matriz
+
+La matriz de contraste y admisibilidad convierte la arquitectura desarrollada en casos evaluables. Su función no es repetir la tesis, sino someterla a entradas diferenciadas: hidrógeno, helio, Sol, tabla periódica estructural, dominio extendido, pares, aleaciones, moléculas y vida biológica. Cada caso debe declarar dominio, entrada física o estructural, condición exigida, residual y salida. Con ello se evita que el régimen H–He quede admitido por formulación general sin pasar por contraste. La matriz opera con tres familias de salida: admisión cuando el residual se anula bajo dominio declarado; defecto cuando una condición constitutiva falla; no determinación legítima cuando falta cierre suficiente sin contradicción material. Esta regla preserva el sentido de los apartados anteriores: H no se admite por ser nombrado; He no se admite por acompañar a H; el Sol no se admite como origen; SV-443 no se admite como detección empírica; CPS-SV no se confunde con molécula completa; la vida no se admite por presencia de moléculas orgánicas. El objetivo es que cada afirmación vuelva a una condición verificable, a un residual concreto y a un retorno físico o estructural. La matriz tampoco sustituye los laboratorios reproducibles del apartado XIV; los prepara. Aquí se fija qué debe evaluarse y qué salidas son legítimas. Después, los laboratorios podrán convertir esas filas en ejecución, datos de entrada, resultados esperados, resultados obtenidos y trazabilidad.
+
+| Caso | Dominio de entrada | Condición exigida | Residual principal | Salida admisible |
+|---|---|---|---|---|
+| H material | Núcleo, átomo, plasma, gas, señal o molécula | Dominio, frontera, masa, traza y retorno | `R_H^{circ}` | Admisión, defecto o no determinación legítima |
+| He material | Núcleo, abundancia, estrella o producto nuclear | Estabilidad ligera, función diferenciada y retorno | Residual de estabilización | Admisión, defecto o no determinación legítima |
+| Sol | Estrella H–He próxima | Composición, plasma, fusión, radiación, neutrinos y frontera | Residual solar de régimen | Referencia física, no origen |
+| SV-443 | Dominio estructural extendido | Diferenciar detectado, candidato y U | Residual de contraste empírico | Subdominio detectado o candidato no determinado |
+| CPS-SV | Pares de `Ω_443` | `D(A,B)`, B.1–B.5 y salidas APTO/NO-APTO | Residual de compatibilidad | Par admisible, no admisible o U |
+| Molécula | Configuración compuesta | Pares compatibles, composición, geometría, frontera y retorno | Residual molecular | Molécula admisible, parcial o no determinada |
+| Vida | Dominio biológico | Frontera, canal, reparación, residual, retorno y traza | Residual biológico | Dominio posterior, no origen material |
+
+## XII.2. Casos de hidrógeno
+
+Los casos de hidrógeno deben distinguir símbolo, núcleo, átomo neutro, plasma, señal espectral, componente estelar y participación molecular. La salida fuerte sólo procede cuando H comparece como identidad material ordinaria bajo dominio declarado, frontera suficiente, masa persistente, traza y retorno. La condición `A_H^{SV}(Γ_M,F)=0 ⇔ R_H^{circ}(Γ_M,F)=0` no declara H por nombre; exige que el residual se anule. En el estado del arte físico, el hidrógeno posee retornos fuertes por espectro, línea de 21 cm, Lyman-α, abundancia ligera, recombinación, gas neutro, plasma estelar y enlaces posteriores (Bohr, 1913; Ewen & Purcell, 1951; Particle Data Group, 2025). En el documento *Génesis del hidrógeno y teoría de la persistencia energética estructural: Masa, frontera, residual e identidad física bajo compatibilidad operatoria universal*, su lectura como firma material exige masa, frontera, residual e identidad física bajo compatibilidad operatoria (Lloret Egea, 2026c). Por tanto, la matriz no pregunta si “hay H” en abstracto, sino si el caso examinado posee dominio físico suficiente para ser admitido como hidrógeno material ordinario.
+
+| Entrada | Condición que debe cumplirse | Fallo que impide cierre | Salida |
+|---|---|---|---|
+| Símbolo `H` aislado | Ninguna condición física suficiente por sí sola | Etiqueta sin dominio ni retorno | Defecto |
+| Núcleo ligero compatible | Masa, carga, dominio nuclear y retorno de composición | Núcleo nombrado sin régimen | Admisión o no determinación legítima |
+| Átomo neutro de H | Frontera atómica, espectro, estado y retorno | Confusión con plasma o molécula | Admisión |
+| Plasma con hidrógeno | Composición, ionización, frontera de régimen y retorno | Exigir frontera atómica neutra donde no procede | Admisión bajo régimen |
+| Línea espectral de H | Identificación instrumental, transición y dominio | Señal no atribuible o sin traza | Admisión, defecto o no determinación legítima |
+| Hidrógeno en agua o hidrocarburo | Enlace, molécula y configuración mayor | Leer H como átomo aislado | Admisión molecular subordinada |
+| H convertido en fundamento absoluto | Ninguna; invade plano superior | Confusión con origen preformal o totalidad | Defecto |
+
+## XII.3. Casos de helio
+
+Los casos de helio deben evaluar estabilidad ligera, abundancia primordial, función nuclear, presencia estelar y diferencia respecto del hidrógeno. El helio no entra como simple acompañante ni como cierre absoluto. Su admisión dentro del régimen H–He exige que actúe como primera estabilización ligera local, con retorno físico por abundancia, estabilidad nuclear, composición solar o producto de fusión. La nucleosíntesis primordial y la física estelar proporcionan el contraste externo principal para esta posición (Cyburt, Fields, Olive, & Yeh, 2016; Burbidge, Burbidge, Fowler, & Hoyle, 1957; Christensen-Dalsgaard, 2021). La matriz debe impedir dos fallos: degradar He a dato secundario sin función, o convertirlo en clausura total de la materia. Su papel correcto es estabilizador y delimitado: aporta suficiencia nuclear ligera dentro del primer régimen ordinario, pero no funda la química posterior, no sustituye a H y no agota la materia.
+
+| Entrada | Condición que debe cumplirse | Fallo que impide cierre | Salida |
+|---|---|---|---|
+| Helio-4 primordial | Abundancia, estabilidad nuclear y dominio cosmológico | Abundancia sin retorno ni función | Admisión |
+| Helio en el Sol | Composición, evolución nuclear y lectura estelar | Tratarlo como residuo indiferente | Admisión |
+| Helio como producto de fusión | Canal nuclear, productos, radiación y neutrinos | Confundir fusión con combustión | Admisión bajo régimen |
+| Helio como química ordinaria amplia | Declarar enlace o función química concreta | Extrapolar reactividad no procedente | Defecto o no determinación legítima |
+| Helio como cierre absoluto | Ninguna; excede su dominio | Invasión de plano | Defecto |
+| Helio sin diferencia frente a H | Función propia de estabilización ligera | Absorción conceptual por H | Defecto |
+| Helio como estabilización local | Estabilidad nuclear, frontera y retorno | Falta de dominio o traza | Admisión o no determinación legítima |
+
+## XII.4. Casos solares
+
+Los casos solares deben tratar el Sol como referencia física principal del régimen H–He, no como origen material ni como analogía. La matriz debe evaluar composición dominante, plasma, confinamiento gravitatorio, presión, densidad, fusión, radiación, neutrinos, elementos pesados minoritarios y retorno terrestre. La composición solar y la estructura estelar proporcionan bancos externos robustos para este tramo (Asplund, Amarsi, & Grevesse, 2021; Christensen-Dalsgaard, 2021). La salida admisible no será “el Sol funda H–He”, sino “el Sol funciona como referencia física del régimen H–He bajo frontera estelar y retorno”. Si se confunde el Sol con origen, si se reduce la fusión a combustión, si se lee la radiación como todo el proceso o si se ignora la fracción pesada, el caso no cierra correctamente.
+
+| Entrada solar | Condición que debe cumplirse | Fallo que impide cierre | Salida |
+|---|---|---|---|
+| Composición H–He solar | Dominancia de H y He con fracción pesada declarada | Ignorar elementos pesados o absolutizar el Sol | Referencia física admisible |
+| Plasma interior | Estado ionizado, presión, densidad y frontera estelar | Leerlo como gas químico ordinario | Admisión bajo régimen |
+| Fusión H → He | Canal nuclear, producto, energía, neutrinos y radiación | Confundir con combustión | Admisión |
+| Radiación solar terrestre | Retorno energético hacia dominio planetario | Convertir luz solar en origen de vida | Admisión subordinada |
+| Neutrinos solares | Retorno interno de proceso nuclear | Omitir su función de contraste | Admisión si hay traza |
+| Fracción pesada solar | Continuidad hacia química posterior | Desplazar dominancia H–He | Admisión como continuidad |
+| Sol como origen material | Ninguna; no cumple esa función | Confusión entre referencia y origen | Defecto |
+
+## XII.5. Casos de tabla periódica estructural y dominio extendido
+
+La matriz del dominio extendido debe separar tabla periódica reconocida, frontera experimental de superpesados, catálogo SV-443, candidatos estructurales y materiales de nueva generación. La tabla reconocida entra como subdominio físico detectado; los candidatos `k=119…443` entran como formulación estructural no detectada empíricamente; los materiales de nueva generación entran como dominio de búsqueda, no como inventario físico ya confirmado. Esta separación preserva el estado del arte contemporáneo sobre superpesados y límites de la tabla periódica (Smits, Düllmann, Indelicato, Nazarewicz, & Schwerdtfeger, 2024; Gates et al., 2024), y conserva la formulación interna de SV-443 sin confundir admisibilidad estructural con detección externa (Lloret Egea, 2026d). La salida correcta no debe autodebilitar la extensión estructural, pero tampoco debe convertirla en empiria no contrastada.
+
+| Entrada | Condición que debe cumplirse | Fallo que impide cierre | Salida |
+|---|---|---|---|
+| Elementos 1–118 | Reconocimiento físico, químico o nuclear | Tratar lo detectado como mera hipótesis | Admisión empírica |
+| Superpesados explorados | Síntesis, vida media, decaimiento y traza experimental | Presentar frontera experimental como cerrada | Admisión limitada o no determinación legítima |
+| SV-443 completo | Generación estructural y reglas del catálogo | Declarar existencia física de todos los candidatos | Dominio estructural admisible |
+| Candidatos `k=119…443` | Admisibilidad estructural sin detección empírica | Promoción indebida a elemento observado | No determinación legítima |
+| Propiedades estructurales tabuladas | Magnitudes internas y coherencia de tabla | Confundirlas con mediciones de laboratorio | Admisión estructural |
+| Materiales de nueva generación | Combinación, compatibilidad, función y retorno futuro | Tratar posibilidad como aplicación confirmada | Dominio de búsqueda |
+| Tabla periódica como límite final | Ninguna; contradice frontera abierta | Clausura conceptual del dominio material | Defecto |
+
+## XII.6. Casos de pares estructurales y aleaciones
+
+Los casos de pares estructurales deben evaluarse mediante CPS-SV, no mediante afinidad verbal entre elementos. El paso desde elemento a relación exige `D(A,B)`, pertenencia al dominio `Ω_443`, diferencia de electronegatividad estructural, compatibilidad posicional, carácter metálico conjunto, suma de energías de ionización y criterios B.1–B.5 (Lloret Egea, 2026e). Las salidas APTO-M, APTO-C, APTO-I y NO-APTO no equivalen sin mediación a enlace metálico, covalente o iónico convencional; son categorías estructurales de admisibilidad de par. La matriz debe impedir que un par APTO se convierta automáticamente en molécula completa, aleación real de laboratorio o material aplicado. También debe impedir que un candidato extendido se presente como empíricamente contrastado sin retorno externo.
+
+| Entrada | Condición que debe cumplirse | Fallo que impide cierre | Salida |
+|---|---|---|---|
+| Par base×base | Ambos elementos reconocidos y `D(A,B)` evaluada | Afinidad verbal sin cálculo | APTO-M, APTO-C, APTO-I o NO-APTO |
+| Par base×extendido | Un elemento detectado y un candidato estructural | Presentarlo como par experimental confirmado | Salida estructural con U física |
+| Par extendido×extendido | Ambos candidatos en `Ω_443` | Convertir admisión estructural en empiria | Salida estructural con U física |
+| APTO-M | Similitud, carácter metálico, compatibilidad posicional y energía admisible | Llamar aleación real sin banco externo | Aleación metálica estructural |
+| APTO-C | Zona de enlace covalente estructural | Confundir con química cuántica completa | Enlace covalente estructural |
+| APTO-I | Diferencia estructural compatible con persistencia | Convertir contraste en incompatibilidad automática | Enlace iónico estructural |
+| NO-APTO | Fallo de régimen, posición, energía o dominio | Forzar combinación por interés material | No admisión |
+
+## XII.7. Casos moleculares
+
+Los casos moleculares deben situarse después de pares y enlaces, no antes. Una molécula exige composición, relaciones elementales, geometría, estabilidad, frontera molecular, condiciones de entorno y retorno físico, químico o biológico. Un par APTO puede ser condición necesaria para una molécula, pero no basta para declarar una configuración molecular completa. Esta cautela resulta especialmente importante en agua, hidrocarburos, proteínas, ácidos nucleicos, membranas y química prebiótica. La teoría del enlace químico, la estructura del ADN y los trabajos sobre química prebiótica proporcionan referencias externas suficientes para no transformar moléculas en nombres sin organización (Pauling, 1932; Watson & Crick, 1953; Miller, 1953; Powner, Gerland, & Sutherland, 2009). La matriz molecular debe conservar la diferencia entre elemento, par, enlace, molécula, macromolécula, interfaz y célula viva, reforzada por el anexo biomolecular de *Edades relativas del universo observable y de sus objetos físicos* (Lloret Egea, 2026j).
+
+| Entrada molecular | Condición que debe cumplirse | Fallo que impide cierre | Salida |
+|---|---|---|---|
+| Agua | Relación H–O, geometría, polaridad, estados y retorno | Reducirla a H + O nominal | Molécula admisible |
+| Hidrocarburo | Enlace C–H, cadena o estructura, estabilidad y retorno | Nombrar C e H sin organización | Molécula admisible o parcial |
+| Aminoácido | Composición, grupos funcionales, entorno y retorno | Llamarlo proteína | Molécula orgánica, no vida |
+| Nucleótido | Base, azúcar, fosfato, enlace y retorno | Declarar ADN completo | Unidad molecular, no sistema vivo |
+| Proteína | Secuencia, plegamiento, función y entorno | Reducir a lista de aminoácidos | Macromolécula funcional si retorna |
+| ADN | Estructura, complementariedad, replicación y soporte celular | Leerlo como vida aislada | Macromolécula informacional |
+| Membrana | Frontera, composición, permeabilidad y gradiente | Confundir compartimento con célula viva | Interfaz biológica parcial o admisible |
+
+## XII.8. Casos biológicos
+
+Los casos biológicos deben entrar como dominio posterior de alta complejidad. La vida no cierra por agua, carbono, molécula orgánica, ADN, membrana o proteína aislada. Requiere organización interna, frontera funcional, canal, reparación, metabolismo, reproducción o continuidad de procesos, residual, retorno y traza. La publicación *Proyecciones biológicas de la fibra* aporta la restricción de que un contenido biológico sólo adquiere fuerza cuando composición, frontera, canal, identidad funcional, reparación, residual, retorno y traza quedan integrados (Lloret Egea, 2026m). En esta matriz, esa restricción se usa con alcance limitado: no para abrir teoría clínica, mutacional u oncológica, sino para impedir el salto desde molécula a vida. La evidencia fósil y la biología molecular aportan retornos externos, pero una señal compatible con vida no debe convertirse automáticamente en vida cerrada (Schopf, 2006).
+
+| Entrada biológica | Condición que debe cumplirse | Fallo que impide cierre | Salida |
+|---|---|---|---|
+| Molécula orgánica | Composición y retorno químico | Llamarla vida por interés prebiótico | Dominio químico, no vida |
+| Medio prebiótico | Gradiente, solvente, concentración y persistencia | Declarar célula sin frontera funcional | Parcial o no determinación legítima |
+| Protocélula | Compartimento, intercambio y persistencia | Falta de reparación o continuidad | Parcial, admisible o U según retorno |
+| Célula viva | Frontera, metabolismo, información, reparación y reproducción | Reducirla a membrana o ADN | Dominio biológico admisible |
+| Proteína funcional | Secuencia, plegamiento y función | Declararla organismo | Función molecular |
+| ADN en sistema celular | Información, lectura, replicación y canal | Declarar vida por ADN aislado | Componente biológico |
+| Fósil o biomarcador | Traza, dominio, método y retorno | Convertir compatibilidad en certeza | Admisión, defecto o U |
+| Vida como origen H–He | Ninguna; invierte el orden | Finalismo biológico | Defecto |
+
+## XII.9. Salidas en cierre, defecto y no determinación legítima
+
+La matriz queda cerrada por una regla de salida. Una admisión sólo procede cuando el dominio está declarado, la condición material se cumple, el residual se anula y el retorno físico, estructural o biológico vuelve al plano correspondiente. El defecto aparece cuando una condición constitutiva falla: confusión de planos, falta de frontera, ausencia de retorno, extrapolación empírica, reducción de molécula a vida, uso del Sol como origen, promoción de candidatos no detectados a elementos físicos o conversión de una señal parcial en cierre. La no determinación legítima aparece cuando falta cierre suficiente sin contradicción material: candidato estructural no detectado, señal incompleta, molécula posible no contrastada, configuración prebiótica parcial o caso biológico sin retorno bastante. Esta regla permite que el desarrollo avance hacia fórmulas centrales y laboratorios sin perder precisión: las fórmulas del apartado XIII recogerán condiciones ya usadas; los laboratorios del XIV deberán ejecutar casos positivos, casos de exclusión y casos de no determinación legítima; la conclusión sólo podrá afirmar lo que haya pasado por matriz, residual y retorno.
+
+| Salida | Condición | Qué permite afirmar | Qué no permite afirmar |
+|---|---|---|---|
+| Admisión | Residual anulado bajo dominio y retorno | El caso cumple la condición declarada | Que valga fuera de su dominio |
+| Defecto | Falla una condición constitutiva | La afirmación no procede como está formulada | Que todo el dominio quede refutado |
+| No determinación legítima | Falta cierre sin contradicción material | La salida permanece abierta con razón declarada | Que haya admisión favorable |
+| Admisión estructural | Coherencia interna sin retorno empírico completo | Candidato o par estructural formulable | Existencia física confirmada |
+| Admisión empírica | Retorno externo suficiente | Caso detectado o medido en su dominio | Fundamento absoluto |
+| Rechazo de plano | Invasión de origen preformal, totalidad o vida como fundamento | La formulación debe corregirse | Que el objeto físico pierda valor en su dominio |
+
+El resultado operativo de XII es una depuración: H–He queda como primera organización material ordinaria sólo cuando su residual conjunto se anula; la tabla reconocida queda como subdominio físico detectado; SV-443 queda como dominio estructural extendido con candidatos en no determinación legítima cuando falte detección; CPS-SV queda como evaluación de pares, no como molécula completa; la molécula queda como configuración compuesta, no como vida; y la vida queda como dominio posterior, no como origen material. Con esta matriz, el apartado siguiente puede presentar las fórmulas centrales sin introducir fórmulas nuevas por adorno: cada fórmula deberá corresponder a una condición ya aplicada por la matriz.
+
 ## PLACEHOLDER OPERATIVO NO PUBLICABLE: mapa de uso de documentación y continuidad Watson
 
 Este bloque es una guía de trabajo y debe retirarse o transformarse antes de la versión pública final. Su función es impedir pérdida de dirección, lectura indiscriminada de documentos, mezcla de planos o crecimiento lateral no controlado. La publicación avanza desde el inicio canónico ya cerrado hasta el estado del arte físico contemporáneo y, después, hacia la formulación SV del régimen H–He. El punto 0 queda como suelo de lectura; la redacción nueva empieza desde I. Estado del arte físico contemporáneo del régimen H–He. En cada entrega, la unidad Watson debe dar el texto completo desde el título sólo cuando se genere artefacto `.md`; para redacción ordinaria debe entregar únicamente el apartado solicitado en texto plano, horizontal, sin punto aparte dentro de subapartados, y esperar aprobación.
