@@ -6,7 +6,7 @@
 
 ## Hidrógeno, helio y materia ordinaria: régimen H–He, referencia solar, tabla periódica estructural, moléculas y vida biológica
 
-**Autor:** Juan Antonio Lloret Egea | **ORCID:** 0000-0002-6634-3351 | **Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA)** | **IA eñ™ — La Biblia de la IA™** | **ISSN:** 2695-6411 | **Licencia:** CC BY-NC-ND 4.0 | **Madrid, 2026**
+**Juan Antonio Lloret Egea** · ORCID: [0000-0002-6634-3351](https://orcid.org/0000-0002-6634-3351) · Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) · IA eñ™ — La Biblia de la IA™ · [DOI 10.21428/39829d0b.7b41835f](https://doi.org/10.21428/39829d0b.7b41835f) . ISSN [2695-6411](https://portal.issn.org/resource/ISSN/2695-6411) · Licencia [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) · Madrid, 27 de mayo de 2026
 
 ## Resumen
 
