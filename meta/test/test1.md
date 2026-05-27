@@ -214,43 +214,160 @@ El aparato general debe producir una salida verificable: definir tránsito por d
 
 ## III. Bancos directrices de control: agua, Sol/H–He y régimen próximo a 0 K
 
-El desarrollo material de este apartado se incorporará en el Paso 3.
+### III.1. Función de los bancos directrices
+
+Los bancos directrices no introducen una fuente externa de verdad ni desplazan el aparato general de tránsito. Su función es ejercer presión material sobre la formulación: obligan a que la ley conserve dominio, unidad, frontera, canal, traza, residual y retorno ante casos físicamente distintos. El agua controla el tránsito local de estado sin pérdida nominal ni igualdad entre fases; el Sol/H–He controla la alta respuesta energética y nuclear en un dominio donde H y He comparecen bajo plasma, confinamiento, fusión, radiación y retorno; el régimen próximo a 0 K controla la baja excitación extrema y obliga a tratar temperatura como magnitud retornada, no como fundamento. Si la fórmula general funciona sólo en uno de esos bancos, no es general; si falla al devolver unidad y retorno, no contrasta; si absorbe el banco como fundamento, incurre en error de plano.
+
+### III.2. Banco H₂O: tránsito local de estado
+
+El banco H₂O opera sobre una identidad molecular tipada que atraviesa estados distintos: `D_H2O^liq`, `D_H2O^sol`, `D_H2O^vap` y `D_H2O^triple`. La tesis que controla este banco es simple y fuerte: `H₂O_líquida ≠ H₂O_sólida ≠ H₂O_vapor`, pero la identidad molecular puede conservarse bajo dominio, frontera de fase, canal termodinámico, traza material, residual y retorno. Por tanto, el banco H₂O impide confundir continuidad con igualdad y permite formular `Id_trans^SV(H₂O;Γ_H2O)=1` sólo si el residual de tránsito de fase queda anulado o gobernado. En el plano externo, este banco devuelve magnitudes como temperatura, presión, fase, calor de transición, densidad y punto triple; en el plano SV, esas magnitudes entran como control de dominio, frontera, canal y retorno, no como primitivos doctrinales.
+
+### III.3. Banco Sol/H–He: alta respuesta energética y nuclear
+
+El banco Sol/H–He opera sobre un dominio de alta respuesta energética donde H y He comparecen junto a plasma, confinamiento, fusión, radiación, neutrinos, masa persistente y retorno observacional. Su función no es convertir el Sol en origen, sino mostrar que una identidad material puede conservarse bajo transformación extrema sin reducirse a igualdad de estado. H solar no es H molecular, H plasmático no es H atómico, He no cancela H y la radiación no equivale al contenido material completo. El banco exige declarar dominio estelar, frontera de confinamiento, canal nuclear-radiativo, traza, residual, retorno energético y retorno gravitatorio. En el plano externo, puede devolver luminosidad, composición, temperatura de régimen, flujo de neutrinos, masa, espectro y abundancias; en el plano SV, esas magnitudes controlan si la transición H/H–He conserva identidad tipada y predominancia compatible o si incurre en ruptura, absorción o `U`.
+
+### III.4. Banco próximo a 0 K: baja excitación extrema
+
+El banco próximo a 0 K no se usa para fundar la realidad física ni para convertir temperatura en causa primera. Su función es controlar el tránsito por dominios cuando la excitación accesible tiende a un límite inferior físico y las respuestas materiales quedan restringidas. Este banco obliga a distinguir entre magnitud externa de temperatura, unidad metrológica, estado material, frontera, canal, residual y retorno. El régimen de baja excitación extrema puede estabilizar, congelar o restringir respuestas, pero no elimina por sí mismo identidad, dominio ni residual. En el plano externo, devuelve temperatura, fase, energía de excitación, presión y régimen material; en el plano SV, controla `U3` como umbral de baja excitación, sin que esa notación se confunda con `U` ternaria ni con un cuarto polo semántico.
+
+### III.5. Tres umbrales de régimen
+
+Los tres bancos directrices permiten distinguir tres umbrales de régimen: `U1` para estabilidad ordinaria y tránsito local de estado, `U2` para alta respuesta energética y nuclear, y `U3` para baja excitación extrema. La notación `U1`, `U2` y `U3` designa umbrales de régimen, no la `U` ternaria ni una causa del tránsito. Las inclusiones de trabajo quedan fijadas así: `D_H2O ⊂ U1`, `D_⊙,HHe ⊂ U2` y `D_0K^lim ⊂ U3`. La fórmula de control de umbral será `R_Uk^SV(D_i,D_j;x)=Δ_dom ⊕ Δ_id ⊕ Δ_Ereg ⊕ Δ_F ⊕ Δ_C ⊕ Δ_Tr ⊕ Δ_R`. Sólo si ese residual queda anulado o gobernado puede declararse tránsito apto en el umbral correspondiente.
 
 ## IV. Tabla maestra de dominios físicos y problema de tránsito
 
-El desarrollo material de este apartado se incorporará en el Paso 3.
+La tabla maestra fija el problema material que exige la ley general. Cada fila separa dominio externo, dato o magnitud, capacidad de medición, límite formal, recepción SV y residual de plano. Su función es impedir que el anexo cierre por intuición verbal o por continuidad nominal.
+
+| Dominio físico o científico | Dato, magnitud u objeto externo | Qué mide o describe el dominio externo | Qué no resuelve por sí solo | Dominio SV receptor | Residual de plano si falla |
+|---|---|---|---|---|---|
+| Cosmología física | Abundancias ligeras, materia bariónica, CMB, BBN, recombinación | Composición, radiación retornada, parámetros de modelo, historia física del observable | No convierte composición cosmológica en identidad atómica completa ni funda H como origen absoluto | `D_cosm→SV` | Sustitución de modelo por fundamento |
+| Física nuclear | Protón, núcleo ligero, fusión H→He, emisión nuclear | Estabilidad nuclear, transformación, energía liberada, productos de reacción | No conserva por sí sola identidad atómica, molecular o espectral | `D_nuc→SV` | Reducción de identidad material a reacción |
+| Plasma | Ionización, acoplamiento colectivo, recombinación | Estado ionizado, carga libre, interacción colectiva, transición hacia neutralidad | No equivale a átomo neutro ni a molécula | `D_plasma→SV` | Igualación indebida plasma/átomo |
+| Física atómica | H neutro, niveles, transición electrónica | Estados discretos y líneas de emisión/absorción | No equivale a todo el recorrido material de H | `D_atom→SV` | Reducción de H a átomo neutro |
+| Espectroscopía | Lyman-α, 21 cm, señal radiativa | Traza, canal y retorno observacional | La señal no es el objeto completo | `D_spect→SV` | Sustitución de objeto por señal |
+| Astrofísica solar | Composición solar, plasma, fusión, radiación, neutrinos | Alta respuesta energética, confinamiento y retorno | El Sol no funda la teoría ni agota el régimen H–He | `D_⊙→SV` | Banco convertido en fundamento |
+| Agua y fases | Líquido, hielo, vapor, punto triple | Tránsito local de estado, fase, temperatura, presión | No explica por sí sola H cosmológico ni H–He nuclear | `D_H2O→SV` | Analogía sin transducción |
+| Criogenia | Proximidad a 0 K, baja excitación, restricción de respuesta | Límite físico de excitación y cambios de régimen | No funda temperatura ni elimina residual | `D_0K→SV` | Temperatura convertida en primitivo |
+| Química y molécula | Enlace, molécula, agua, hidrocarburos, estabilidad | Composición, enlace, fase, reacción, estructura molecular | No equivale al H nuclear ni al H cosmológico | `D_chem→SV` | Molécula confundida con átomo aislado |
+| Gravitación y masa | Masa bariónica, retorno gravitatorio, persistencia material | Respuesta local o cosmológica ante contenido material | No explica por sí sola identidad química o atómica | `D_grav→SV` | Masa retornada tomada como identidad total |
 
 ## V. Tabla de extracción SV: fórmulas, métricas, residuales y dictamen
 
-El desarrollo material de este apartado se incorporará en el Paso 3.
+La extracción SV declara qué toma el aparato de cada tránsito una vez recibido el dominio externo. La tabla no sustituye los datos físicos; ordena su recepción mediante fórmulas, métricas internas y salida ternaria. Toda fila debe conservar dominio, identidad, estado, frontera, canal, traza, residual y retorno.
+
+| Entrada de dominio | Extracción SV | Fórmula o forma de control | Métrica SV | Residual | Dictamen |
+|---|---|---|---|---|---|
+| Tránsito simple `D_i→D_j` | Continuidad tipada de un contenido `x` | `T_D^SV(D_i,D_j;x)=0 ⇔ R_D^SV(D_i,D_j;x)=0` | Anulación o gobierno de residual | `R_D^SV` | `0`, `1` o `U` |
+| Cadena de dominios `Γ_D` | Identidad de transición a lo largo de la cadena | `Id_trans^SV(x;Γ_D)=1 ⇔ ⊕ R_D^SV(D_i,D_{i+1};x)=0` | Suma lógica factual de residuales locales | `⊕ R_i` | Aptitud de cadena |
+| Cambio de estado | Diferencia de estado con identidad conservable | `D_i ≠ D_j ∧ Id_trans=1` | Conservación de identidad tipada | `Δ_estado` | Tránsito apto si residual gobernado |
+| Frontera de tránsito | Límite operativo entre dominios | `Δ_F=0` si la frontera está declarada y no absorbe identidad | Compatibilidad de frontera | `Δ_F` | `0` o defecto |
+| Canal | Vía física, material, radiativa o metrológica | `Δ_C=0` si el canal conserva paso y retorno | Apertura y trazabilidad de canal | `Δ_C` | `0`, `1` o `U` |
+| Traza | Señal, registro, firma o marca material | `Δ_Tr=0` si la traza permite reconstrucción declarada | Trazabilidad append-only | `Δ_Tr` | `0` o `U` |
+| Retorno | Magnitud externa legible | `Δ_R=0` si existe retorno científico con unidad o entidad | Retorno SI/ciencia contemporánea | `Δ_R` | `0` o no cierre |
+| Raigal y proyecciones | Paso desde `Ξ_SV` a proyecciones materiales/energéticas | `C_{Ξ→M/E}^SV(Γ,F)=0 ⇔ R_{Ξ→M/E}^SV(Γ,F)=0` | Acoplamiento de proyecciones sin primacía de masa o energía | `R_{Ξ→M/E}` | Cierre si no hay inversión de fundamento |
+| Doble flecha energía⇄masa | Acoplamiento condicionado entre proyecciones | `C_{E⇄M}^SV(Γ,F)=0 ⇔ R_{E⇄M}^SV(Γ,F)=0` | Compatibilidad de `Π_E` y `Π_M` bajo frontera | `R_{E⇄M}` | Apto sólo bajo dominio declarado |
+| Error cero de plano | Control de ida y vuelta | `Err_plano^{SV↔SI}=Δ_dom ⊕ Δ_unidad ⊕ Δ_trans ⊕ Δ_ret ⊕ Δ_no_importación` | Cero de plano, unidad, transducción y retorno | `Err_plano` | Contraste apto si vale `0` |
 
 ## VI. Tabla SV→SI/ciencia contemporánea: retorno físico, unidades y bancos
 
-El desarrollo material de este apartado se incorporará en el Paso 3.
+La salida SV→SI/ciencia contemporánea impide que el aparato quede clausurado dentro de su propio lenguaje. Cada salida interna debe devolver una magnitud externa o una entidad científica reconocible, con unidad, banco y límite.
+
+| Salida SV | Retorno externo admisible | Unidad o entidad externa | Banco de contraste | Regla de vuelta | Error si falla |
+|---|---|---|---|---|---|
+| `Π_M(Ξ_SV)` | Masa/persistencia material retornada | kg, u, masa bariónica declarada | Gravitación, composición, materia ordinaria | Proyección material→magnitud de masa o entidad material | Masa tratada como sustancia absoluta |
+| `Π_E(Ξ_SV)` | Energía de régimen | J, eV, energía liberada o retenida | Sol/H–He, nuclear, térmico | Proyección energética→magnitud de régimen | Energía tomada como origen |
+| Frontera `F_D` | Cambio de fase, confinamiento, barrera, superficie de separación | K, Pa, eV, condición física, fase | Agua, Sol, plasma, átomo | Frontera SV→condición externa declarada | Frontera verbal sin unidad |
+| Canal `C_D` | Transmisión, radiación, recombinación, enlace, señal | Hz, m, nm, cm, entidad química | Espectros, química, radiación | Canal SV→mecanismo externo de paso | Canal confundido con mezcla |
+| Traza `Tr_D` | Línea, abundancia, firma, registro, composición | Línea espectral, fracción declarada, señal, registro | Lyman-α, 21 cm, CMB, composición solar | Traza SV→dato externo rastreable | Traza sin retorno |
+| Residual `R_D` | Defecto, discrepancia, no cierre, incertidumbre estructural | Magnitud de diferencia o dictamen cualitativo declarado | Bancos positivos y negativos | Residual SV→defecto externo o `U` | Residual ocultado |
+| `Id_trans^SV` | Continuidad tipada entre dominios | Entidad de dominio, fase, estado, señal | Agua, H, Sol/H–He | Identidad de tránsito→continuidad externa delimitada | Igualdad falsa entre estados |
+| `Pred_comp` | Predominancia compatible | Relación tipada entre polos o contenidos | H–He, dominios polares | Predominancia SV→coexistencia sin anulación | Dominancia convertida en absorción |
+| `Err_plano=0` | Contraste bidireccional apto | Declaración de dominio, unidad y retorno | Todos los bancos | Cero interno→aptitud externa de plano | Importación de teoría externa |
 
 ## VII. Tabla SI/ciencia contemporánea→SV: recepción, transducción y contraste
 
-El desarrollo material de este apartado se incorporará en el Paso 3.
+La recepción SI/ciencia contemporánea→SV exige que todo dato externo entre con dominio, unidad, transductor, residual y dictamen. La tabla fija el sentido inverso de contraste: no todo dato externo cierra, pero todo dato usado debe poder recibirse sin cambiar de plano.
+
+| Dato externo | Unidad o entidad externa | Dominio declarado | Transductor | Entrada SV | Residual de recepción | Salida SV |
+|---|---|---|---|---|---|---|
+| Punto triple del agua | K, Pa, coexistencia de fases | `D_H2O` | `𝔛_{H2O↔SV}` | `D_liq`, `D_sol`, `D_vap`, `D_triple` | `Δ_estado`, `Δ_F`, `Δ_R` | Control `U1` |
+| Cambio líquido↔hielo↔vapor | K, Pa, fase, densidad | `D_H2O` | `𝔛_{fase↔SV}` | Tránsito local de estado | `R_D^SV(H₂O)` | Identidad de tránsito si residual gobernado |
+| Composición solar H–He | Fracción de masa o número declarada | `D_⊙,HHe` | `𝔛_{⊙↔SV}` | Predominancia H–He | `Δ_dom`, `Δ_id`, `Δ_ret` | Control `U2` |
+| Fusión H→He | Energía, productos, neutrinos, régimen nuclear | `D_nuc,⊙` | `𝔛_{nuc↔SV}` | Transformación con continuidad de régimen | `Δ_C`, `Δ_Tr`, `Δ_R` | Estabilización compatible o defecto |
+| Lyman-α | Longitud de onda o frecuencia | `D_spect,H` | `𝔛_{spect↔SV}` | Traza espectral de H | `Δ_Tr`, `Δ_R` | Retorno de señal |
+| Línea de 21 cm | cm, Hz, señal | `D_H neutro` | `𝔛_{21cm↔SV}` | H neutro como traza | `Δ_estado`, `Δ_Tr` | Retorno observacional |
+| Régimen próximo a 0 K | K, estado material, baja excitación | `D_0K^lim` | `𝔛_{0K↔SV}` | Umbral `U3` | `Δ_Ereg`, `Δ_unidad` | Baja excitación como banco |
+| Masa bariónica | kg, fracción declarada, densidad si procede | `D_grav,cosm` | `𝔛_{mass↔SV}` | Persistencia material retornada | `Δ_dom`, `Δ_R` | Retorno gravitatorio |
+| Molécula H₂O | Fórmula, fase, masa molar, enlace | `D_chem,H2O` | `𝔛_{chem↔SV}` | H en molécula | `Δ_id`, `Δ_C`, `Δ_ret` | Continuidad molecular subordinada |
+| Parámetro cosmológico | Magnitud o parámetro de modelo declarado | `D_cosm` | `𝔛_{cosm↔SV}` | Banco de contraste, no fundamento | `Δ_no_importación` | `0`, `1` o `U` según retorno |
 
 ## VIII. Error cero de plano y regla de no importación de fundamento externo
 
-El desarrollo material de este apartado se incorporará en el Paso 3.
+### VIII.1. Definición de error cero de plano
+
+El error cero de plano no significa ausencia de incertidumbre experimental ni conocimiento total de todos los dominios; significa que el tránsito no ha cambiado de plano sin declararlo. La condición se formula así: `Err_plano^{SV↔SI}=Δ_dom ⊕ Δ_unidad ⊕ Δ_trans ⊕ Δ_ret ⊕ Δ_no_importación`. Hay error de dominio si una señal se toma como objeto completo, si una abundancia se toma como fundamento o si un banco se toma como teoría rectora. Hay error de unidad si una magnitud externa entra sin unidad o entidad científica reconocible. Hay error de transducción si sólo se declara ida o sólo se declara vuelta. Hay error de retorno si el resultado no puede volver al dominio externo. Hay error de importación si el uso de SI, ΛCDM, agua, Sol, termodinámica o 0 K introduce su teoría de origen como fundamento del SV.
+
+### VIII.2. Condición de contraste bidireccional apto
+
+El contraste bidireccional es apto si y sólo si `Err_plano^{SV↔SI}=0`. Esta condición no declara que todos los datos externos estén libres de incertidumbre, ni que el SV haya absorbido la teoría externa, ni que el banco físico agote el fenómeno. Declara únicamente que el paso entre planos ha conservado dominio, unidad, transducción, retorno y no importación. Si `Err_plano≠0`, el cierre queda prohibido. Si el fallo es contradicción material, la salida es `1`; si el fallo es falta de base suficiente sin contradicción, la salida es `U`.
+
+### VIII.3. Regla de no importación
+
+La regla de no importación establece que adoptar una unidad, una constante, un modelo o un banco no importa la teoría de origen como fundamento del aparato. Usar K no convierte la temperatura en causa; usar Pa no convierte presión en fundamento; usar ΛCDM no convierte el modelo cosmológico en verdad constitutiva; usar el punto triple del agua no convierte el agua en origen de la materia; usar el Sol no convierte la astrofísica solar en fuente doctrinal; usar datos espectrales no convierte la señal en sustancia. La transducción toma magnitudes y las devuelve, pero no entrega el gobierno del tránsito a la teoría externa.
 
 ## IX. Definición general de tránsito por dominios
 
-El desarrollo material de este apartado se incorporará en el Paso 3.
+### IX.1. Dominio, contenido y tránsito
+
+Sea `x` un contenido material, físico, químico, observacional o metrológico que se pretende seguir entre dominios. Sean `D_i` y `D_j` dos dominios declarados, no necesariamente equivalentes, y sea `Γ_ij=(D_i,D_j)` el tránsito local que los conecta. Cada tránsito debe declarar identidad tipada `Id_x`, estado `E_x`, frontera `F_ij`, canal `C_ij`, traza `Tr_ij`, residual `R_ij` y retorno `Ret_ij`. No hay tránsito fuerte si falta dominio de salida, dominio de llegada, identidad tipada, frontera, canal, traza, residual o retorno.
+
+### IX.2. Fórmula general de tránsito
+
+La fórmula general queda fijada así: `T_D^SV(D_i,D_j;x)=0 ⇔ R_D^SV(D_i,D_j;x)=0`, donde `R_D^SV(D_i,D_j;x)=Δ_dom ⊕ Δ_id ⊕ Δ_estado ⊕ Δ_F ⊕ Δ_C ⊕ Δ_Tr ⊕ Δ_R`. El operador `⊕` se usa aquí como conjunción lógica factual de compuertas: el tránsito sólo cierra si todas las condiciones requeridas cierran. `Δ_dom` controla dominio; `Δ_id` controla identidad tipada; `Δ_estado` controla cambio de estado; `Δ_F` controla frontera; `Δ_C` controla canal; `Δ_Tr` controla traza; `Δ_R` controla retorno.
+
+### IX.3. Identidad de transición
+
+La identidad de transición se define como conservación tipada de `x` a través de dominios distintos sin exigir igualdad de estado. Su forma compacta es: `Id_trans(D_i,D_j;x)=1 ⇔ R_D^SV(D_i,D_j;x)=0`. La consecuencia inmediata es que `D_i ≠ D_j` puede coexistir con `Id_trans=1`. Por tanto, el tránsito apto no declara que dos estados sean iguales, sino que la diferencia de estado no destruye la identidad tipada bajo dominio, frontera, canal, traza, residual y retorno.
+
+### IX.4. Cadena de tránsito
+
+Para una cadena `Γ_D=(D_0,D_1,...,D_n)`, la identidad de tránsito se define por composición de tránsitos locales: `Id_trans^SV(x;Γ_D)=1 ⇔ ⊕_{i=0}^{n-1} R_D^SV(D_i,D_{i+1};x)=0`. Si algún tránsito local falla, la cadena completa no puede declararse cerrada. Si todos los residuales locales quedan anulados o gobernados bajo salida apta, la cadena conserva identidad tipada sin necesidad de igualdad entre los estados intermedios.
 
 ## X. Teorema de identidad de tránsito por dominios
 
-El desarrollo material de este apartado se incorporará en el Paso 3.
+### X.1. Enunciado
+
+Sea `Γ_D=(D_0,D_1,...,D_n)` una cadena finita de dominios declarados y sea `x` un contenido con identidad tipada en el dominio de salida. Existe identidad de tránsito de `x` desde `D_0` hasta `D_n` si y sólo si cada tránsito local `D_i→D_{i+1}` conserva dominio, identidad tipada, estado declarado, frontera, canal, traza y retorno con residual nulo o gobernado. La continuidad no exige igualdad de estados; exige conservación estructural de tránsito.
+
+### X.2. Forma compacta
+
+La forma compacta del teorema es: `Id_trans^SV(x;Γ_D)=1 ⇔ ⊕_{i=0}^{n-1} R_D^SV(D_i,D_{i+1};x)=0`. Esta forma afirma simultáneamente necesidad y suficiencia: si la identidad de tránsito existe, todos los residuales locales deben cerrar; si todos los residuales locales cierran, la identidad de tránsito queda declarada en la cadena.
+
+### X.3. Alcance
+
+El teorema opera sobre dominios realizados y no reabre la primera distinguibilidad preformal. No afirma que todo tránsito físico sea conocido, ni que toda identidad se conserve siempre, ni que una palabra común baste para declarar continuidad. Afirma que, si se pretende conservar identidad entre dominios, debe demostrarse mediante residual de tránsito y retorno. El teorema puede aplicarse a agua, Sol/H–He, régimen próximo a 0 K, hidrógeno, señal espectral, molécula, masa bariónica y otros dominios siempre que cada caso declare sus magnitudes y límites.
 
 ## XI. Demostración
 
-El desarrollo material de este apartado se incorporará en el Paso 3.
+### XI.1. Necesidad
+
+Supóngase que existe identidad de tránsito de `x` sobre `Γ_D`. Entonces `x` no puede quedar reducido a una etiqueta nominal, porque el tránsito se declara entre dominios distintos. Para que la identidad sea algo más que nombre, cada paso `D_i→D_{i+1}` debe conservar dominio de salida y llegada, identidad tipada, estado declarado, frontera, canal, traza y retorno. Si falla `Δ_dom`, no se sabe qué dominio transita; si falla `Δ_id`, no se sabe qué contenido se conserva; si falla `Δ_estado`, se igualan indebidamente estados distintos o se declara ruptura sin criterio; si falla `Δ_F`, no hay frontera de paso; si falla `Δ_C`, no hay canal; si falla `Δ_Tr`, no hay trazabilidad; si falla `Δ_R`, no hay retorno. En cualquiera de esos fallos, `R_D^SV(D_i,D_{i+1};x)≠0`, y la identidad de tránsito no puede declararse. Por tanto, si existe identidad de tránsito, todos los residuales locales deben cerrar o quedar gobernados.
+
+### XI.2. Suficiencia
+
+Supóngase ahora que para todo `i` se cumple `R_D^SV(D_i,D_{i+1};x)=0`. Entonces cada tránsito local conserva dominio, identidad tipada, estado declarado, frontera, canal, traza y retorno. La diferencia entre dominios no destruye la identidad porque la fórmula no exige igualdad de estado, sino cierre del residual de tránsito. Al componerse todos los pasos mediante `⊕`, no queda ningún tránsito local sin declarar ni residual oculto. Por tanto, la cadena completa `Γ_D` conserva identidad de transición de `x`, y se cumple `Id_trans^SV(x;Γ_D)=1`.
+
+### XI.3. Exclusión de igualdad como criterio
+
+Si se exigiera `D_i=D_j` para declarar continuidad, no habría tránsito real, sino permanencia dentro del mismo dominio. Si se declarara continuidad sólo por compartir nombre, cualquier sustitución de dominio quedaría autorizada sin residual. Ambas alternativas fallan: la primera elimina el tránsito; la segunda elimina el control. La identidad de transición resuelve el problema porque permite `D_i≠D_j` bajo conservación tipada, pero exige residual nulo o gobernado. Con ello, la continuidad queda demostrada por estructura, no por igualdad ni por denominación.
+
+### XI.4. Conclusión de la demostración
+
+Queda demostrado que una identidad puede atravesar dominios distintos si y sólo si todos los tránsitos locales conservan las condiciones estructurales exigidas por el residual general. La continuidad material no exige igualdad de estados; exige dominio, identidad tipada, frontera, canal, traza, residual y retorno. Esta conclusión habilita la aplicación posterior al hidrógeno y al régimen H–He.
 
 ## XII. Conclusión fuerte de la Primera parte
 
-El desarrollo material de este apartado se incorporará en el Paso 3.
+La Primera parte deja fijado el patrón general: el tránsito por dominios no se gobierna por igualdad de estados, por analogía, por nombre compartido ni por importación de una teoría externa, sino por identidad de transición bajo residual controlado. Agua, Sol/H–He y régimen próximo a 0 K muestran tres bancos directrices suficientes para presionar la fórmula en estabilidad ordinaria, alta respuesta energética y baja excitación extrema. Las tablas bidireccionales demuestran que el aparato debe extraer estructura en el plano SV y devolver magnitudes al SI o a la ciencia contemporánea sin error de plano. La fórmula `T_D^SV(D_i,D_j;x)=0 ⇔ R_D^SV(D_i,D_j;x)=0` y el teorema `Id_trans^SV(x;Γ_D)=1 ⇔ ⊕ R_D^SV(D_i,D_{i+1};x)=0` fijan la ley general que la Segunda parte restringirá al hidrógeno y al régimen H–He. El resultado obtenido no es una introducción conceptual: es una regla matemática de continuidad tipada entre dominios realizados.
 
 ## Bibliografía específica de la Primera parte
 
