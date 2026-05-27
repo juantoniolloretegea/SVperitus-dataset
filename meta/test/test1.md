@@ -43,11 +43,12 @@ La publicación principal fija el régimen H–He como primera organización mat
 - [V. Tabla de extracción SV: fórmulas, métricas, residuales y dictamen](#v-tabla-de-extracción-sv-fórmulas-métricas-residuales-y-dictamen)
 - [VI. Tabla SV→SI/ciencia contemporánea: retorno físico, unidades y bancos](#vi-tabla-svsiciencia-contemporánea-retorno-físico-unidades-y-bancos)
 - [VII. Tabla SI/ciencia contemporánea→SV: recepción, transducción y contraste](#vii-tabla-siciencia-contemporáneasv-recepción-transducción-y-contraste)
-- [VIII. Error cero de plano y regla de no importación de fundamento externo](#viii-error-cero-de-plano-y-regla-de-no-importación-de-fundamento-externo)
-- [IX. Definición general de tránsito por dominios](#ix-definición-general-de-tránsito-por-dominios)
-- [X. Teorema de identidad de tránsito por dominios](#x-teorema-de-identidad-de-tránsito-por-dominios)
-- [XI. Demostración](#xi-demostración)
-- [XII. Conclusión fuerte de la Primera parte](#xii-conclusión-fuerte-de-la-primera-parte)
+- [VIII. Banco trazado de inicio a fin: cantidad, densidad, volumen y tránsito de régimen](#viii-banco-trazado-de-inicio-a-fin-cantidad-densidad-volumen-y-tránsito-de-régimen)
+- [IX. Error cero de plano y regla de no importación de fundamento externo](#ix-error-cero-de-plano-y-regla-de-no-importación-de-fundamento-externo)
+- [X. Definición general de tránsito por dominios](#x-definición-general-de-tránsito-por-dominios)
+- [XI. Teorema de identidad de tránsito por dominios](#xi-teorema-de-identidad-de-tránsito-por-dominios)
+- [XII. Demostración](#xii-demostración)
+- [XIII. Conclusión fuerte de la Primera parte](#xiii-conclusión-fuerte-de-la-primera-parte)
 - [Bibliografía específica de la Primera parte](#bibliografía-específica-de-la-primera-parte)
 
 </details>
@@ -301,71 +302,167 @@ La recepción SI/ciencia contemporánea→SV exige que todo dato externo entre c
 | Molécula H₂O | Fórmula, fase, masa molar, enlace | `D_chem,H2O` | `𝔛_{chem↔SV}` | H en molécula | `Δ_id`, `Δ_C`, `Δ_ret` | Continuidad molecular subordinada |
 | Parámetro cosmológico | Magnitud o parámetro de modelo declarado | `D_cosm` | `𝔛_{cosm↔SV}` | Banco de contraste, no fundamento | `Δ_no_importación` | `0`, `1` o `U` según retorno |
 
-## VIII. Error cero de plano y regla de no importación de fundamento externo
+## VIII. Banco trazado de inicio a fin: cantidad, densidad, volumen y tránsito de régimen
 
-### VIII.1. Definición de error cero de plano
+### VIII.1. Estatuto del banco trazado
+
+El banco trazado introduce un caso numérico completo para que el lector externo pueda evaluar el aparato con objetos físicos reconocibles. El caso elegido es `1 mol de H₂O` porque permite recorrer cantidad de entidad, composición, masa, densidad, volumen, fase, tránsito local de estado, extracción subordinada de H, control de alta respuesta energética y control de baja excitación extrema sin introducir un caso singular ni forzar una cosmología completa. La regla es estricta: en el SI, algunos valores de banco son aproximados o condicionados por temperatura, presión, composición isotópica y fuente; en el SV, el cociente formal `V_SV=m_SV/ρ_SV` no es aproximación interna, sino resultado exacto respecto de las entradas declaradas. Si las entradas externas tienen incertidumbre, esa incertidumbre pertenece al banco externo y entra como residual metrológico o de fuente, no como error de plano SV.
+
+### VIII.2. Caso principal: `1 UFCE` de agua ordinaria como `1 mol` de H₂O
+
+El caso principal se declara así: `n(H₂O)=1 mol_SI ⇔ 1 UFCE` bajo transducción de cantidad de entidad; `N_A=6,02214076×10²³ mol⁻¹` como constante definitoria de conteo; `N(H₂O)=N_A`; `N_H=2N_A`; `N_O=N_A`; `M_B(H₂O)=18,01528 g·mol⁻¹` como masa molar de banco para agua ordinaria; `m_B(H₂O)=18,01528 g`; `ρ_B(H₂O,líquida,25 °C,1 atm)=0,997047 g·cm⁻³` como densidad externa de banco; `V_B=m_B/ρ_B=18,068636684 cm³=1,8068636684×10⁻⁵ m³`. La densidad se usa como valor de banco condicionado, no como verdad constitutiva; el volumen SI se expresa con decimales porque depende de la densidad externa adoptada, mientras que el volumen SV se formula como `V_SV=m_SV/ρ_SV` y queda exacto respecto de `m_SV` y `ρ_SV` una vez ambos han sido declarados por transducción.
+
+| Magnitud declarada | Valor de banco | Unidad externa | Entrada SV | Observación de custodia |
+|---|---:|---|---|---|
+| Cantidad de entidad de H₂O | 1 | mol | `1 UFCE` | Conteo de entidades, no teoría química como fundamento |
+| Constante de Avogadro | 6,02214076×10²³ | mol⁻¹ | Regla de conteo `UFCE` | Valor definitorio del SI |
+| Moléculas de H₂O | 6,02214076×10²³ | moléculas | Entidades H₂O tipadas | Exacto respecto de `1 mol` |
+| Átomos de H inscritos | 1,204428152×10²⁴ | átomos de H | `2 UFCE` de H en H₂O | H subordinado a dominio molecular |
+| Átomos de O inscritos | 6,02214076×10²³ | átomos de O | `1 UFCE` de O en H₂O | O subordinado a dominio molecular |
+| Masa molar de banco | 18,01528 | g·mol⁻¹ | Entrada de masa por `UFM` | Valor condicionado por composición isotópica ordinaria |
+| Masa del caso | 18,01528 | g | `m_SV=τ_M(18,01528 g)` | Exacta respecto de la masa molar de banco |
+| Densidad líquida de banco | 0,997047 | g·cm⁻³ | `ρ_SV=τ_ρ(0,997047 g·cm⁻³)` | Condicionada a 25 °C y 1 atm |
+| Volumen retornado | 18,068636684 | cm³ | `V_SV=m_SV/ρ_SV` | Exacto respecto de entradas; decimal en SI por banco |
+| Umbral de régimen | `U1` | régimen ordinario | Tránsito local de estado | `U1` no es `U` ternaria |
+
+### VIII.3. Recepción SI/ciencia contemporánea→SV del caso H₂O
+
+La recepción del caso no empieza por una afirmación sobre el origen del hidrógeno, sino por una entrada metrológica y compositiva: cantidad de entidad, masa, densidad, volumen, fase, frontera y retorno. La composición `H₂O` permite extraer `2 UFCE` de H inscrito y `1 UFCE` de O inscrito, pero esa extracción no convierte el H molecular en H nuclear, H plasmático o H atómico libre. El transductor declara que H comparece aquí bajo dominio molecular H₂O, con frontera química y fase externa declarada. Cualquier salto desde este H molecular hacia H nuclear, H solar o H cosmológico exige nuevo tránsito y nuevo residual.
+
+| Dato externo | Transductor | Entrada SV | Residual de recepción | Dictamen |
+|---|---|---|---|---|
+| `1 mol de H₂O` | `𝔛_UFCE` | `1 UFCE` de H₂O | `Δ_unidad=0` | Recepción apta |
+| `N_A` entidades por mol | `𝔛_conteo` | Conteo exacto de entidades | `Δ_entidad=0` | Recepción apta |
+| Fórmula H₂O | `𝔛_chem` | `2 UFCE H + 1 UFCE O` en dominio molecular | `Δ_id=0` si se mantiene H subordinado a H₂O | Recepción apta |
+| Masa molar de banco | `𝔛_M` | Magnitud de masa por `UFM` | `Δ_fuente` gobernado por banco externo | Apta condicionada |
+| Densidad líquida de banco | `𝔛_ρ` | Magnitud derivada masa/volumen | `Δ_condición=0` si se fija 25 °C y 1 atm | Apta condicionada |
+| Fase líquida | `𝔛_fase` | `D_H2O^liq` | `Δ_estado=0` | Apta |
+| Volumen por densidad | `𝔛_V` | `V_SV=m_SV/ρ_SV` | `Δ_ret=0` si vuelve a cm³ o m³ | Apta |
+| Extracción de H | `𝔛_H|H2O` | H molecular subordinado | `Δ_dom=0` si no se lo iguala a H libre | Apta |
+| Proyección a U1 | `𝔛_U1` | Tránsito de fase ordinario | `R_U1` gobernado | Control apto |
+| Proyección potencial a U2/U3 | `𝔛_U2/U3` | Sólo habilitación de tránsito posterior | `U` si faltan datos energéticos o criogénicos | No cierre prematuro |
+
+### VIII.4. Cálculo SV de masa, densidad y volumen
+
+El cálculo central del banco queda expresado por `ρ_SV=m_SV/V_SV` y `V_SV=m_SV/ρ_SV`. En el retorno SI, con las entradas declaradas, `V_SI=18,01528 g / 0,997047 g·cm⁻³ = 18,068636684 cm³`. En el plano SV no se afirma que el agua tenga un volumen absoluto independiente de condición; se afirma que, dado un dominio de fase, una masa de banco y una densidad de banco, el volumen estructural retornado queda determinado por el cociente. La aproximación pertenece a la densidad y a la masa molar externas; el tránsito SV conserva forma exacta respecto de las entradas declaradas. Si se modifica fase, temperatura, presión, composición isotópica o densidad, cambia el banco y debe recalcularse `V_SV`; no procede arrastrar el valor de un dominio a otro.
+
+| Operación | Forma SV | Retorno SI | Control |
+|---|---|---:|---|
+| Conteo molecular | `N(H₂O)=1·N_A` | 6,02214076×10²³ moléculas | Exacto por definición de mol |
+| Conteo de H inscrito | `N_H=2·N_A` | 1,204428152×10²⁴ átomos de H | Exacto respecto de fórmula H₂O |
+| Conteo de O inscrito | `N_O=1·N_A` | 6,02214076×10²³ átomos de O | Exacto respecto de fórmula H₂O |
+| Masa de banco | `m_SV=τ_M(M_B·1 UFCE)` | 18,01528 g | Condicionada por masa molar de banco |
+| Densidad de banco | `ρ_SV=τ_ρ(ρ_B)` | 0,997047 g·cm⁻³ | Condicionada por 25 °C y 1 atm |
+| Volumen estructural retornado | `V_SV=m_SV/ρ_SV` | 18,068636684 cm³ | Exacto respecto de entradas |
+| Volumen en m³ | `τ_V(V_SV)` | 1,8068636684×10⁻⁵ m³ | Retorno por `UFE³` |
+| Fracción de H en entidades | `2/(2+1)` | 66,666… % de átomos | Conteo, no masa |
+| Fracción de O en entidades | `1/(2+1)` | 33,333… % de átomos | Conteo, no masa |
+| Fracción másica de H de banco | `m_H/m_H2O` | ≈11,19 % | Requiere masas atómicas de banco |
+
+### VIII.5. Proyección a U1: tránsito local de estado
+
+La proyección `U1` toma el caso H₂O como banco de tránsito ordinario de fase. La cadena de trabajo puede escribirse como `Γ_H2O=(D_H2O^liq,D_H2O^sol,D_H2O^vap,D_H2O^triple)` sin afirmar que todos los estados sean iguales. La identidad de tránsito se expresa como `Id_trans^SV(H₂O;Γ_H2O)=1 ⇔ ⊕R_D^SV(D_i,D_{i+1};H₂O)=0`. En `U1`, el objeto de control es que la molécula o composición H₂O conserve identidad tipada bajo cambio de fase, frontera, canal térmico, traza y retorno. Si se toma la densidad líquida para hielo o vapor sin declarar cambio de dominio, aparece `Δ_dom≠0`; si se igualan líquido y vapor sin frontera de fase, aparece `Δ_estado≠0`; si se conserva dominio y se recalculan magnitudes, el tránsito puede ser apto.
+
+| Tránsito U1 | Identidad tipada | Cambio de estado | Residual esperado | Salida |
+|---|---|---|---|---|
+| `D_H2O^liq→D_H2O^sol` | H₂O conservada bajo fase declarada | Líquido a sólido | `Δ_estado=0` si la frontera de fase se declara | Tránsito apto condicionado |
+| `D_H2O^liq→D_H2O^vap` | H₂O conservada bajo fase declarada | Líquido a vapor | `Δ_F=0` si canal térmico y retorno se declaran | Tránsito apto condicionado |
+| `D_H2O^liq→D_H2O^triple` | H₂O conservada en confluencia de fases | Coexistencia de dominios | `Δ_dom=0` si no se mezclan fases | Tránsito apto condicionado |
+| Uso de `ρ_liq` para vapor | H₂O nominal | Dominio sustituido | `Δ_dom≠0` | No apto |
+| Declarar fase sin temperatura/presión | H₂O nominal | Frontera incompleta | `Δ_F` o `U` | No cierre |
+
+### VIII.6. Proyección a U2 y U3: alta respuesta energética y baja excitación extrema
+
+La proyección `U2` no convierte el mol de agua en cálculo solar ni en cadena nuclear completa. Extrae del caso la cantidad de H inscrito y habilita una transición troncal posterior: `4 UFCE H_nuclear → 1 UFCE He-4` como balance de entidad nuclear idealizado de control, cuyo cierre energético sólo procede si se declaran masas nucleares, energía liberada, canal, traza y retorno. La proyección `U3` toma el mismo dominio material y lo somete a baja excitación extrema como banco de control de régimen, usando temperatura externa por `UFT` sin convertirla en fundamento. De este modo, el banco H₂O permite conectar `U1` con `U2` y `U3` sin mezclar planos: fase ordinaria, alta respuesta energética y baja excitación extrema son umbrales distintos, no estados intercambiables.
+
+| Umbral | Entrada desde el banco H₂O | Operación permitida | Dato externo necesario | Residual si falta | Salida |
+|---|---|---|---|---|---|
+| `U1` | `1 UFCE H₂O` con masa, densidad y fase | Tránsito líquido/sólido/vapor | Temperatura, presión, densidad o fase | `Δ_estado`, `Δ_F` | Control ordinario de fase |
+| `U2` | `2 UFCE H` inscritos en H₂O | Habilitación de balance nuclear troncal | Masas nucleares, energía, canal, traza | `U` si no se declaran | Control de alta respuesta, no cierre solar |
+| `U2` | `4 UFCE H_nuclear` | `4H→He-4` como balance de entidad | Banco nuclear completo | `Δ_Ereg` si no hay energía retornada | Apto sólo con datos nucleares |
+| `U3` | H₂O como dominio material | Baja excitación extrema | K, fase, presión, estado material | `Δ_unidad` o `Δ_dom` | Control criogénico |
+| Comparación U1/U2/U3 | Mismo contenido leído bajo umbrales distintos | No igualdad entre umbrales | Transductores separados | `Δ_dom` si se arrastra una magnitud | Error de plano si se mezclan |
+
+### VIII.7. Comparativa de plano con ΛCDM como modelo segregado de dominio
+
+La comparativa con ΛCDM debe limitarse al plano que le corresponde. ΛCDM puede devolver composición cosmológica, fracciones, densidades, expansión y retornos observacionales; no puede, por sí solo y sin transductor, cerrar continuidad H nuclear→H atómico→H molecular→H₂O→volumen local→retorno gravitatorio. El banco trazado muestra que el SV no suma partes sin declarar dominio: recibe cantidad, masa, densidad, volumen, fase, H molecular, umbral de régimen y retorno. Si un modelo cosmológico se usa para cerrar una continuidad atómica, molecular o local sin declarar tránsito, aparece residual de segregación de dominio. Esta comparación no rechaza ΛCDM como modelo cosmológico; delimita su uso para evitar error de plano.
+
+| Ruta | Qué calcula o devuelve | Continuidad que conserva | Límite | Residual de plano |
+|---|---|---|---|---|
+| SV con banco H₂O | Cantidad, composición, masa, densidad, volumen, fase, umbral y retorno | Identidad de tránsito bajo dominio, frontera, canal, traza y residual | Depende de entradas declaradas | `Err_plano=0` si no hay sustitución |
+| ΛCDM en su dominio | Composición cosmológica, densidades, expansión, retornos observacionales | Continuidad cosmológica del observable | No cierra por sí solo química local ni molécula | `Δ_dom≠0` si se usa fuera de dominio |
+| Suma externa de partes | Masa, fracciones o componentes agregados | Agregación numérica | Puede perder frontera, canal y traza | `Δ_trans` o `Δ_ret` |
+| Transducción bidireccional | Dato externo→SV→retorno externo | Continuidad tipada entre planos | Exige unidad y banco | Apta si `Err_plano=0` |
+
+### VIII.8. Dictamen del banco trazado
+
+El banco `1 UFCE de H₂O` confirma que la ley de tránsito requiere objetos numéricos y no sólo tablas formales. La cantidad de entidad proporciona conteo exacto; la masa y la densidad proporcionan volumen condicionado; la fase introduce frontera; el tránsito local controla `U1`; la extracción de H prepara `U2`; la baja excitación controla `U3`; y la comparación con ΛCDM delimita el uso de modelos cosmológicos sin convertirlos en fundamento. El resultado no es que el agua explique el universo, ni que el mol de agua sustituya la cosmología, sino que el aparato puede recibir un objeto externo real, calcular su traza interna, devolver magnitudes SI y mostrar dónde aparece error de plano si se mezclan dominios.
+
+## IX. Error cero de plano y regla de no importación de fundamento externo
+
+### IX.1. Definición de error cero de plano
 
 El error cero de plano no significa ausencia de incertidumbre experimental ni conocimiento total de todos los dominios; significa que el tránsito no ha cambiado de plano sin declararlo. La condición se formula así: `Err_plano^{SV↔SI}=Δ_dom ⊕ Δ_unidad ⊕ Δ_trans ⊕ Δ_ret ⊕ Δ_no_importación`. Hay error de dominio si una señal se toma como objeto completo, si una abundancia se toma como fundamento o si un banco se toma como teoría rectora. Hay error de unidad si una magnitud externa entra sin unidad o entidad científica reconocible. Hay error de transducción si sólo se declara ida o sólo se declara vuelta. Hay error de retorno si el resultado no puede volver al dominio externo. Hay error de importación si el uso de SI, ΛCDM, agua, Sol, termodinámica o 0 K introduce su teoría de origen como fundamento del SV.
 
-### VIII.2. Condición de contraste bidireccional apto
+### IX.2. Condición de contraste bidireccional apto
 
 El contraste bidireccional es apto si y sólo si `Err_plano^{SV↔SI}=0`. Esta condición no declara que todos los datos externos estén libres de incertidumbre, ni que el SV haya absorbido la teoría externa, ni que el banco físico agote el fenómeno. Declara únicamente que el paso entre planos ha conservado dominio, unidad, transducción, retorno y no importación. Si `Err_plano≠0`, el cierre queda prohibido. Si el fallo es contradicción material, la salida es `1`; si el fallo es falta de base suficiente sin contradicción, la salida es `U`.
 
-### VIII.3. Regla de no importación
+### IX.3. Regla de no importación
 
 La regla de no importación establece que adoptar una unidad, una constante, un modelo o un banco no importa la teoría de origen como fundamento del aparato. Usar K no convierte la temperatura en causa; usar Pa no convierte presión en fundamento; usar ΛCDM no convierte el modelo cosmológico en verdad constitutiva; usar el punto triple del agua no convierte el agua en origen de la materia; usar el Sol no convierte la astrofísica solar en fuente doctrinal; usar datos espectrales no convierte la señal en sustancia. La transducción toma magnitudes y las devuelve, pero no entrega el gobierno del tránsito a la teoría externa.
 
-## IX. Definición general de tránsito por dominios
+## X. Definición general de tránsito por dominios
 
-### IX.1. Dominio, contenido y tránsito
+### X.1. Dominio, contenido y tránsito
 
 Sea `x` un contenido material, físico, químico, observacional o metrológico que se pretende seguir entre dominios. Sean `D_i` y `D_j` dos dominios declarados, no necesariamente equivalentes, y sea `Γ_ij=(D_i,D_j)` el tránsito local que los conecta. Cada tránsito debe declarar identidad tipada `Id_x`, estado `E_x`, frontera `F_ij`, canal `C_ij`, traza `Tr_ij`, residual `R_ij` y retorno `Ret_ij`. No hay tránsito fuerte si falta dominio de salida, dominio de llegada, identidad tipada, frontera, canal, traza, residual o retorno.
 
-### IX.2. Fórmula general de tránsito
+### X.2. Fórmula general de tránsito
 
 La fórmula general queda fijada así: `T_D^SV(D_i,D_j;x)=0 ⇔ R_D^SV(D_i,D_j;x)=0`, donde `R_D^SV(D_i,D_j;x)=Δ_dom ⊕ Δ_id ⊕ Δ_estado ⊕ Δ_F ⊕ Δ_C ⊕ Δ_Tr ⊕ Δ_R`. El operador `⊕` se usa aquí como conjunción lógica factual de compuertas: el tránsito sólo cierra si todas las condiciones requeridas cierran. `Δ_dom` controla dominio; `Δ_id` controla identidad tipada; `Δ_estado` controla cambio de estado; `Δ_F` controla frontera; `Δ_C` controla canal; `Δ_Tr` controla traza; `Δ_R` controla retorno.
 
-### IX.3. Identidad de transición
+### X.3. Identidad de transición
 
 La identidad de transición se define como conservación tipada de `x` a través de dominios distintos sin exigir igualdad de estado. Su forma compacta es: `Id_trans(D_i,D_j;x)=1 ⇔ R_D^SV(D_i,D_j;x)=0`. La consecuencia inmediata es que `D_i ≠ D_j` puede coexistir con `Id_trans=1`. Por tanto, el tránsito apto no declara que dos estados sean iguales, sino que la diferencia de estado no destruye la identidad tipada bajo dominio, frontera, canal, traza, residual y retorno.
 
-### IX.4. Cadena de tránsito
+### X.4. Cadena de tránsito
 
 Para una cadena `Γ_D=(D_0,D_1,...,D_n)`, la identidad de tránsito se define por composición de tránsitos locales: `Id_trans^SV(x;Γ_D)=1 ⇔ ⊕_{i=0}^{n-1} R_D^SV(D_i,D_{i+1};x)=0`. Si algún tránsito local falla, la cadena completa no puede declararse cerrada. Si todos los residuales locales quedan anulados o gobernados bajo salida apta, la cadena conserva identidad tipada sin necesidad de igualdad entre los estados intermedios.
 
-## X. Teorema de identidad de tránsito por dominios
+## XI. Teorema de identidad de tránsito por dominios
 
-### X.1. Enunciado
+### XI.1. Enunciado
 
 Sea `Γ_D=(D_0,D_1,...,D_n)` una cadena finita de dominios declarados y sea `x` un contenido con identidad tipada en el dominio de salida. Existe identidad de tránsito de `x` desde `D_0` hasta `D_n` si y sólo si cada tránsito local `D_i→D_{i+1}` conserva dominio, identidad tipada, estado declarado, frontera, canal, traza y retorno con residual nulo o gobernado. La continuidad no exige igualdad de estados; exige conservación estructural de tránsito.
 
-### X.2. Forma compacta
+### XI.2. Forma compacta
 
 La forma compacta del teorema es: `Id_trans^SV(x;Γ_D)=1 ⇔ ⊕_{i=0}^{n-1} R_D^SV(D_i,D_{i+1};x)=0`. Esta forma afirma simultáneamente necesidad y suficiencia: si la identidad de tránsito existe, todos los residuales locales deben cerrar; si todos los residuales locales cierran, la identidad de tránsito queda declarada en la cadena.
 
-### X.3. Alcance
+### XI.3. Alcance
 
 El teorema opera sobre dominios realizados y no reabre la primera distinguibilidad preformal. No afirma que todo tránsito físico sea conocido, ni que toda identidad se conserve siempre, ni que una palabra común baste para declarar continuidad. Afirma que, si se pretende conservar identidad entre dominios, debe demostrarse mediante residual de tránsito y retorno. El teorema puede aplicarse a agua, Sol/H–He, régimen próximo a 0 K, hidrógeno, señal espectral, molécula, masa bariónica y otros dominios siempre que cada caso declare sus magnitudes y límites.
 
-## XI. Demostración
+## XII. Demostración
 
-### XI.1. Necesidad
+### XII.1. Necesidad
 
 Supóngase que existe identidad de tránsito de `x` sobre `Γ_D`. Entonces `x` no puede quedar reducido a una etiqueta nominal, porque el tránsito se declara entre dominios distintos. Para que la identidad sea algo más que nombre, cada paso `D_i→D_{i+1}` debe conservar dominio de salida y llegada, identidad tipada, estado declarado, frontera, canal, traza y retorno. Si falla `Δ_dom`, no se sabe qué dominio transita; si falla `Δ_id`, no se sabe qué contenido se conserva; si falla `Δ_estado`, se igualan indebidamente estados distintos o se declara ruptura sin criterio; si falla `Δ_F`, no hay frontera de paso; si falla `Δ_C`, no hay canal; si falla `Δ_Tr`, no hay trazabilidad; si falla `Δ_R`, no hay retorno. En cualquiera de esos fallos, `R_D^SV(D_i,D_{i+1};x)≠0`, y la identidad de tránsito no puede declararse. Por tanto, si existe identidad de tránsito, todos los residuales locales deben cerrar o quedar gobernados.
 
-### XI.2. Suficiencia
+### XII.2. Suficiencia
 
 Supóngase ahora que para todo `i` se cumple `R_D^SV(D_i,D_{i+1};x)=0`. Entonces cada tránsito local conserva dominio, identidad tipada, estado declarado, frontera, canal, traza y retorno. La diferencia entre dominios no destruye la identidad porque la fórmula no exige igualdad de estado, sino cierre del residual de tránsito. Al componerse todos los pasos mediante `⊕`, no queda ningún tránsito local sin declarar ni residual oculto. Por tanto, la cadena completa `Γ_D` conserva identidad de transición de `x`, y se cumple `Id_trans^SV(x;Γ_D)=1`.
 
-### XI.3. Exclusión de igualdad como criterio
+### XII.3. Exclusión de igualdad como criterio
 
 Si se exigiera `D_i=D_j` para declarar continuidad, no habría tránsito real, sino permanencia dentro del mismo dominio. Si se declarara continuidad sólo por compartir nombre, cualquier sustitución de dominio quedaría autorizada sin residual. Ambas alternativas fallan: la primera elimina el tránsito; la segunda elimina el control. La identidad de transición resuelve el problema porque permite `D_i≠D_j` bajo conservación tipada, pero exige residual nulo o gobernado. Con ello, la continuidad queda demostrada por estructura, no por igualdad ni por denominación.
 
-### XI.4. Conclusión de la demostración
+### XII.4. Conclusión de la demostración
 
 Queda demostrado que una identidad puede atravesar dominios distintos si y sólo si todos los tránsitos locales conservan las condiciones estructurales exigidas por el residual general. La continuidad material no exige igualdad de estados; exige dominio, identidad tipada, frontera, canal, traza, residual y retorno. Esta conclusión habilita la aplicación posterior al hidrógeno y al régimen H–He.
 
-## XII. Conclusión fuerte de la Primera parte
+## XIII. Conclusión fuerte de la Primera parte
 
 La Primera parte deja fijado el patrón general: el tránsito por dominios no se gobierna por igualdad de estados, por analogía, por nombre compartido ni por importación de una teoría externa, sino por identidad de transición bajo residual controlado. Agua, Sol/H–He y régimen próximo a 0 K muestran tres bancos directrices suficientes para presionar la fórmula en estabilidad ordinaria, alta respuesta energética y baja excitación extrema. Las tablas bidireccionales demuestran que el aparato debe extraer estructura en el plano SV y devolver magnitudes al SI o a la ciencia contemporánea sin error de plano. La fórmula `T_D^SV(D_i,D_j;x)=0 ⇔ R_D^SV(D_i,D_j;x)=0` y el teorema `Id_trans^SV(x;Γ_D)=1 ⇔ ⊕ R_D^SV(D_i,D_{i+1};x)=0` fijan la ley general que la Segunda parte restringirá al hidrógeno y al régimen H–He. El resultado obtenido no es una introducción conceptual: es una regla matemática de continuidad tipada entre dominios realizados.
 
