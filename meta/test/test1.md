@@ -1,8 +1,8 @@
-# El origen material del universo observable y la relación entre física contemporánea y Sistema Vectorial SV en el tránsito por dominios: errores de plano, contraste entre aparatos y continuidad H–He de la materia ordinaria
-
+# El origen material ordinario del universo observable y la relación entre física contemporánea y Sistema Vectorial SV en el tránsito por dominios: errores de plano, contraste entre aparatos y continuidad H–He de la materia ordinaria
 <p align="center">
-  <img src="portada.png" alt="Portada" width="100%">
+  <img src="portada/portada.png" alt="Portada" width="100%">
 </p>
+
 
 ## Hidrógeno, helio y materia ordinaria: régimen H–He, referencia solar, tabla periódica estructural, moléculas y vida biológica
 
@@ -10,7 +10,11 @@
 
 ## Resumen
 
+El trabajo formula el origen material ordinario del universo observable como problema de tránsito entre dominios, no como simple enumeración cosmológica, química o biológica. La tesis distingue entre condición preformal, activador primero, espacio, materia ordinaria y continuidad posterior, de modo que el hidrógeno no ocupa el lugar de `ε₋₀`, `ε₀`, espacio ni fundamento absoluto. El apartado I establece la ley general de tránsito por dominios mediante identidad tipada, frontera, canal, traza, residual y retorno; el apartado II aplica esa arquitectura al régimen H–He como primera organización material ordinaria; el apartado III restringe la ley general al hidrógeno como caso patrón de continuidad interdominio; el apartado IV incorpora el blindaje físico-doctrinal exigido por la comparación con la densidad gravitatoria efectiva de sutura: el régimen H–He pertenece a la materialidad ordinaria retornada, no a la totalidad estructural del dominio físico realizado, y debe leerse frente a `ρ_cap^SV`, `ρ_ret^SV`, `ρ_sut,grav^SV` y `ρ_C^SV`. La condición `A_H^{SV}(Γ_M,F)=0 ⇔ R_H^{circ}(Γ_M,F)=0` se fija como regla computable de admisibilidad por vector residual tipado, no como ecuación física autónoma. El catálogo SV-443 se incorpora mediante síntesis generativa material: doce familias tipológicas, 720 configuraciones candidatas, 675 configuraciones prequímicas admitidas y 443 elementos estructurales tras transición química; el CPS-SV se incorpora como dominio de 97.903 pares no ordenados con salidas APTO-M, APTO-C, APTO-I y NO-APTO. La bibliografía queda auditada por función: cada referencia externa se clasifica por magnitud, dominio, distinción técnica, matriz o soporte contextual, evitando uso no material.
+
 ## Abstract
+
+This work formulates the ordinary material origin of the observable universe as a problem of transit across domains, not as a mere cosmological, chemical or biological inventory. The thesis separates the preformal condition, the first activating event, space, ordinary matter and later material continuity; therefore, hydrogen is not identified with `ε₋₀`, `ε₀`, space or an absolute foundation. Section I establishes a general law of domain transit through typed identity, boundary, channel, trace, residual and return. Section II applies that architecture to the H–He regime as the first ordinary material organization. Section III restricts the general law to hydrogen as the guiding case of interdomain continuity. Section IV adds the physical-doctrinal safeguard required by comparison with the effective gravitational density of suture: the H–He regime belongs to ordinary returned materiality, not to the total structural capacity of the physically realised domain, and must be read against `ρ_cap^SV`, `ρ_ret^SV`, `ρ_sut,grav^SV` and `ρ_C^SV`. The condition `A_H^{SV}(Γ_M,F)=0 ⇔ R_H^{circ}(Γ_M,F)=0` is fixed as a computable admissibility rule by typed residual vector, not as an autonomous physical equation. The SV-443 catalogue is incorporated through a material generative synthesis: twelve typological families, 720 candidate configurations, 675 admitted prechemical configurations and 443 structural elements after chemical transition; CPS-SV is incorporated as a domain of 97,903 unordered pairs with APTO-M, APTO-C, APTO-I and NO-APTO outputs. The bibliography is audited by function: every external reference is classified by magnitude, domain, technical distinction, matrix or contextual support, avoiding non-material citation.
 
 ## Índice general
 
@@ -21,18 +25,27 @@
   - [0.1. Estado del arte](#01-estado-del-arte)
   - [0.2. Problema rector, alcance y método de lectura](#02-problema-rector-alcance-y-método-de-lectura)
 - [I. Gobierno matemático del tránsito entre dominios y contraste de plano](#i-gobierno-matemático-del-tránsito-entre-dominios-y-contraste-de-plano)
-- [II. Origen material del universo observable, régimen H–He y materia ordinaria](#ii-origen-material-del-universo-observable-régimen-hhe-y-materia-ordinaria)
-- [III. Aplicación al hidrógeno, régimen H–He y continuidad material ordinaria](#iii-aplicación-al-hidrógeno-régimen-hhe-y-continuidad-material-ordinaria)
-- [IV. Laboratorios](#iv-laboratorios)
-- [V. Bibliografía](#v-bibliografía)
+- [II. Origen material ordinario del universo observable, régimen H–He y materia ordinaria](#ii-origen-material-ordinario-del-universo-observable-régimen-h-he-y-materia-ordinaria)
+- [III. Aplicación al hidrógeno, régimen H–He y continuidad material ordinaria](#iii-aplicación-al-hidrógeno-régimen-h-he-y-continuidad-material-ordinaria)
+- [IV. Blindaje físico-doctrinal: sutura, residual vectorial, falsabilidad y alcance](#iv-blindaje-físico-doctrinal-sutura-residual-vectorial-falsabilidad-y-alcance)
+- [V. Laboratorios](#v-laboratorios)
+- [VI. Bibliografía](#vi-bibliografía)
+  - [VI.5. Auditoría funcional de bibliografía externa](#vi5-auditoría-funcional-de-bibliografía-externa)
+  - [VI.6. Auditoría funcional del corpus SV y correspondencia APA7 inline](#vi6-auditoría-funcional-del-corpus-sv-y-correspondencia-apa7-inline)
 
 </details>
 
 # 0. Introducción
 
+La publicación aborda una pregunta físicamente concreta y formalmente delicada: bajo qué condiciones puede hablarse de origen material ordinario del universo observable sin confundir esa pregunta con el origen preformal, con el activador primero, con el espacio, con una teoría cosmológica tomada como fundamento o con una lista de elementos. La respuesta se construye por dominios. Primero se formula una ley general de tránsito entre dominios realizados; después se determina el régimen H–He como primera organización material ordinaria; finalmente se aplica la ley al hidrógeno como caso patrón de continuidad material sin igualdad de estado. La lectura queda acotada desde el inicio: H–He no agota la capacidad estructural del dominio físico realizado, no sustituye la densidad gravitatoria efectiva de sutura y no cancela el residual de no clausura. El régimen H–He tiene prioridad material ordinaria, pero no clausura la materia posterior; abre continuidad hacia tabla periódica estructural, elementos pesados, pares, enlaces, moléculas, agua y vida biológica bajo residual y retorno.
+
 ## 0.1. Estado del arte
 
+El estado del arte físico contemporáneo ofrece una superficie de contraste potente: nucleosíntesis primordial, recombinación, fondo cósmico de microondas, abundancias ligeras, hidrógeno neutro, líneas espectrales, Lyman-α, línea de 21 cm, física solar, fusión H–He, nucleosíntesis estelar, tabla periódica, superpesados, química del enlace, moléculas y continuidad prebiótica. Esa superficie no se toma como fundamento rector ni como clausura ontológica, sino como conjunto de bancos externos que permiten exigir retorno. La cosmología física aporta composición y señal; la física nuclear aporta estabilidad y transición; la física atómica aporta frontera y espectro; la química aporta enlace y molécula; la astrofísica solar aporta régimen de plasma, fusión, radiación, neutrinos y retorno terrestre; la biología aporta un dominio posterior que presupone materia ordinaria organizada. El problema común es que esos dominios calculan con fuerza dentro de su plano, pero no proporcionan por sí solos una ley única de identidad de tránsito entre todos ellos.
+
 ## 0.2. Problema rector, alcance y método de lectura
+
+El problema rector consiste en decidir cuándo una identidad material se conserva al atravesar dominios que no son iguales. El método exige declarar, en cada paso, dominio de salida, dominio de llegada, identidad tipada, frontera, canal, traza, residual y retorno. La salida ternaria conserva cierre apto, defecto o indeterminación honesta; `U` no funciona como probabilidad, causa, tendencia ni refugio retórico. La lectura se organiza en tres apartados principales: el primero fija el gobierno matemático del tránsito entre dominios y el error cero de plano; el segundo determina el régimen H–He como origen material ordinario del universo observable; el tercero aplica el aparato al hidrógeno y al régimen H–He con bancos, teoremas y corolarios. Los laboratorios y la bibliografía cierran después la trazabilidad material y el soporte académico del desarrollo.
 
 # I. Gobierno matemático del tránsito entre dominios y contraste de plano
 
@@ -55,10 +68,10 @@
   - [I.3.3. Necesidad de transducción bidireccional](#i33-necesidad-de-transducción-bidireccional)
   - [I.3.4. Residual de tránsito y salida ternaria](#i34-residual-de-tránsito-y-salida-ternaria)
   - [I.3.5. Resultado exigido al aparato general](#i35-resultado-exigido-al-aparato-general)
-- [I.4. Bancos directrices de control: agua, Sol/H–He y régimen próximo a 0 K](#i4-bancos-directrices-de-control-agua-solhhe-y-régimen-próximo-a-0-k)
+- [I.4. Bancos directrices de control: agua, Sol/H–He y régimen próximo a 0 K](#i4-bancos-directrices-de-control-agua-solh-he-y-régimen-próximo-a-0-k)
   - [I.4.1. Función de los bancos directrices](#i41-función-de-los-bancos-directrices)
   - [I.4.2. Banco H₂O: tránsito local de estado](#i42-banco-h₂o-tránsito-local-de-estado)
-  - [I.4.3. Banco Sol/H–He: alta respuesta energética y nuclear](#i43-banco-solhhe-alta-respuesta-energética-y-nuclear)
+  - [I.4.3. Banco Sol/H–He: alta respuesta energética y nuclear](#i43-banco-solh-he-alta-respuesta-energética-y-nuclear)
   - [I.4.4. Banco próximo a 0 K: baja excitación extrema](#i44-banco-próximo-a-0-k-baja-excitación-extrema)
   - [I.4.5. Tres umbrales de régimen](#i45-tres-umbrales-de-régimen)
 - [I.5. Tabla maestra de dominios físicos y problema de tránsito](#i5-tabla-maestra-de-dominios-físicos-y-problema-de-tránsito)
@@ -144,7 +157,7 @@ El problema formal puede expresarse así: `D_i ≠ D_j` no basta para negar cont
 
 ### I.3.2. Error de plano por sustitución de dominio
 
-El error de plano aparece cuando un dominio ocupa el lugar de otro sin declaración. Hay error si una señal espectral se trata como objeto completo; si una abundancia cosmológica se trata como fundamento material; si una temperatura se trata como causa primera; si un parámetro de modelo se toma como realidad constitutiva; si un cambio de fase se interpreta como pérdida de identidad; si una molécula se confunde con átomo aislado; o si un dato SI se incorpora como soberanía doctrinal. El error de plano no se corrige con estilo, sino con transducción: cada paso debe declarar dominio, unidad, magnitud, frontera, canal, traza, residual y retorno. Si falta una de esas posiciones, el cierre fuerte no procede.
+El error de plano aparece cuando un dominio ocupa el lugar de otro sin declaración. Hay error si una señal espectral se trata como objeto completo; si una abundancia cosmológica se trata como fundamento material; si una temperatura se trata como causa primera; si un parámetro de modelo se toma como realidad constitutiva; si un cambio de fase se interpreta como pérdida de identidad; si una molécula se confunde con átomo aislado; o si un dato SI se incorpora como fundamento rector. El error de plano no se corrige con estilo, sino con transducción: cada paso debe declarar dominio, unidad, magnitud, frontera, canal, traza, residual y retorno. Si falta una de esas posiciones, el cierre fuerte no procede.
 
 ### I.3.3. Necesidad de transducción bidireccional
 
@@ -283,7 +296,7 @@ La recepción del caso no empieza por una afirmación sobre el origen del hidró
 | Densidad líquida de banco | `𝔛_ρ` | Magnitud derivada masa/volumen | `Δ_condición=0` si se fija 25 °C y 1 atm | Apta condicionada |
 | Fase líquida | `𝔛_fase` | `D_H2O^liq` | `Δ_estado=0` | Apta |
 | Volumen por densidad | `𝔛_V` | `V_SV=m_SV/ρ_SV` | `Δ_ret=0` si vuelve a cm³ o m³ | Apta |
-| Extracción de H | `𝔛_H|H2O` | H molecular subordinado | `Δ_dom=0` si no se lo iguala a H libre | Apta |
+| Extracción de H | `𝔛_H∣H2O` | H molecular subordinado | `Δ_dom=0` si no se lo iguala a H libre | Apta |
 | Proyección a U1 | `𝔛_U1` | Tránsito de fase ordinario | `R_U1` gobernado | Control apto |
 | Proyección potencial a U2/U3 | `𝔛_U2/U3` | Sólo habilitación de tránsito posterior | `U` si faltan datos energéticos o criogénicos | No cierre prematuro |
 
@@ -355,7 +368,7 @@ La conclusión técnica es precisa: la diferencia no se corrige mediante un ajus
 
 La comparación cuantitativa no debe reducirse a una diferencia porcentual entre dos números finales, porque el problema no es sólo aritmético. La publicación `Fórmula factual única absoluta de la termodinámica SV` fija que el dominio termodinámico factual se gobierna por la forma implícita `𝖤_thermo^SV(Γ,n;θ):=𝔇_ΓΩ_SV(Γ,n;θ)·𝖦_SV=0`, desplegada como `𝔇_Γ𝒜_SV = 𝒲_SV + 𝒬_SV + 𝒰_SV`. En esta expresión, `Γ` es la trayectoria factual de sucesos; `n` es el índice ordinal del suceso evaluado, no un tiempo rector; `θ` recoge los parámetros de la sección; `Ω_SV` es la sección termodinámica factual; `𝔇_Γ` es la diferencia factual entre sucesos consecutivos; `𝖦_SV` es el vector normal de balance; `𝒜_SV` es el contenido factual; `𝒲_SV` es el trabajo factual; `𝒬_SV` es el calor factual; y `𝒰_SV` es la no-clausura factual. La misma publicación introduce el vector director `u_SV:=𝔇_ΓΩ_SV`, de modo que la intensidad por suceso no se obtiene dividiendo por tiempo, sino leyendo la variación factual de la sección entre `S_n` y `S_{n+1}`. Sólo en el retorno externo puede expresarse una potencia SI mediante `P_ret=ΔE_ret/Δt_ret`, siempre que `Δt_ret` se declare como magnitud metrológica de retorno y no como fundamento del cálculo.
 
-El banco `1 UFCE de H₂O` permite mostrar el gradiente con valores externos sin confundir exactitud SV y precisión experimental. La entrada `1 mol de H₂O` se transduce como `1 UFCE` cuando la entidad especificada es la molécula de agua; por definición SI, ese mol contiene exactamente `6,02214076×10²³` entidades. NIST identifica el agua como `H₂O` y da peso molecular `18,0153`; para el cálculo se adopta el banco `M_B(H₂O)=18,01528 g·mol⁻¹`, junto con la densidad externa declarada `ρ_B(H₂O,líquida,25 °C,1 atm)=0,997047 g·cm⁻³`. Con esas entradas, el retorno volumétrico es `V_B=m_B/ρ_B=18,068636684 cm³`. En el SV, la forma `V_SV=m_SV/ρ_SV` no es aproximada respecto de sus entradas: la incertidumbre pertenece al banco externo que aporta `m_B` y `ρ_B`. La diferencia estructural aparece cuando una composición disciplinar arrastra una magnitud fuera de dominio sin frontera, canal, traza ni residual; por ejemplo, usar el volumen líquido de `18,068636684 cm³` como si representara el tránsito a vapor. Bajo contraste gaseoso ideal a `100 °C` y `1 atm`, `1 mol` ocuparía aproximadamente `30,619706 L`, es decir, `30.619,706 cm³`; frente al volumen líquido, la razón de escala es `1.694,63` y el incremento relativo `169.363,29 %`. Esta comparación no sustituye un banco real de vapor por gas ideal: muestra que el cambio de dominio domina el retorno. El defecto no es un pequeño error decimal, sino `Δ_dom≠0` cuando se transporta una densidad, un volumen o una energía fuera de su dominio sin declarar frontera de fase y residual termodinámico.
+El banco `1 UFCE de H₂O` permite mostrar el gradiente con valores externos sin confundir exactitud SV y precisión experimental. La entrada `1 mol de H₂O` se transduce como `1 UFCE` cuando la entidad especificada es la molécula de agua; por definición SI tomada del BIPM, ese mol contiene exactamente `6,02214076×10²³` entidades (Bureau International des Poids et Mesures, 2024). El NIST Chemistry WebBook identifica el agua como `H₂O` y da peso molecular `18,0153`; para el cálculo se adopta el banco `M_B(H₂O)=18,01528 g·mol⁻¹`, junto con la densidad externa declarada `ρ_B(H₂O,líquida,25 °C,1 atm)=0,997047 g·cm⁻³` (National Institute of Standards and Technology, n.d.). Con esas entradas, el retorno volumétrico es `V_B=m_B/ρ_B=18,068636684 cm³`. En el SV, la forma `V_SV=m_SV/ρ_SV` no es aproximada respecto de sus entradas: la incertidumbre pertenece al banco externo que aporta `m_B` y `ρ_B`. La diferencia estructural aparece cuando una composición disciplinar arrastra una magnitud fuera de dominio sin frontera, canal, traza ni residual; por ejemplo, usar el volumen líquido de `18,068636684 cm³` como si representara el tránsito a vapor. Bajo contraste gaseoso ideal a `100 °C` y `1 atm`, `1 mol` ocuparía aproximadamente `30,619706 L`, es decir, `30.619,706 cm³`; frente al volumen líquido, la razón de escala es `1.694,63` y el incremento relativo `169.363,29 %`. Esta comparación no sustituye un banco real de vapor por gas ideal: muestra que el cambio de dominio domina el retorno. El defecto no es un error decimal menor, sino `Δ_dom≠0` cuando se transporta una densidad, un volumen o una energía fuera de su dominio sin declarar frontera de fase y residual termodinámico.
 
 | Caso local | Valor usado | Dominio correcto | Uso indebido de composición segregada | Diferencia de retorno | Dictamen SV |
 |---|---:|---|---|---:|---|
@@ -364,7 +377,7 @@ El banco `1 UFCE de H₂O` permite mostrar el gradiente con valores externos sin
 | Tránsito líquido→vapor | Requiere frontera de fase | `U1` con canal térmico y cambio de estado | Omitir frontera y calor latente | Residual termodinámico | No cierre si falta `𝒬_SV` de transición |
 | Volumen SV | `V_SV=m_SV/ρ_SV` | Exacto respecto de entradas | Trasladar `ρ_liq` a otro dominio | `Δ_dom≠0` | Error de plano |
 
-La segunda diferencia aparece en energía de régimen. Calentar aproximadamente `1 mol` de agua líquida desde `25 °C` hasta `100 °C` con capacidad calorífica de banco `C_p≈75,3 J·mol⁻¹·K⁻¹` devuelve `𝒬_calor≈5,6475 kJ·mol⁻¹`; vaporizar en el punto de ebullición introduce un banco de transición de fase del orden de `𝒬_vap≈40,65 kJ·mol⁻¹`; el recorrido completo devuelve aproximadamente `𝒬_total≈46,2975 kJ·mol⁻¹`. Si una composición parte a parte conserva el calentamiento pero omite la frontera de vaporización, el residual energético no es pequeño: falta `40,65 kJ·mol⁻¹`, que representa aproximadamente `87,80 %` del recorrido completo y `719,79 %` del calor sensible previo. En notación SV, el problema se expresa como `𝔇_Γ𝒜_SV − 𝒲_SV − 𝒬_SV − 𝒰_SV ≠ 0` si el canal de fase no se declara; no se trata de corregir un decimal, sino de reabrir el balance factual.
+La segunda diferencia aparece en energía de régimen. Calentar aproximadamente `1 mol` de agua líquida desde `25 °C` hasta `100 °C` con capacidad calorífica de banco `C_p≈75,3 J·mol⁻¹·K⁻¹` devuelve `𝒬_calor≈5,6475 kJ·mol⁻¹`; vaporizar en el punto de ebullición introduce un banco de transición de fase del orden de `𝒬_vap≈40,65 kJ·mol⁻¹`; el recorrido completo devuelve aproximadamente `𝒬_total≈46,2975 kJ·mol⁻¹`. Si una composición parte a parte conserva el calentamiento pero omite la frontera de vaporización, el residual energético no es menor: falta `40,65 kJ·mol⁻¹`, que representa aproximadamente `87,80 %` del recorrido completo y `719,79 %` del calor sensible previo. En notación SV, el problema se expresa como `𝔇_Γ𝒜_SV − 𝒲_SV − 𝒬_SV − 𝒰_SV ≠ 0` si el canal de fase no se declara; no se trata de corregir un decimal, sino de reabrir el balance factual.
 
 | Tramo energético de banco | Valor por mol | Canal SV dominante | Qué ocurre si se omite | Residual |
 |---|---:|---|---|---|
@@ -472,13 +485,13 @@ Queda demostrado que una identidad puede atravesar dominios distintos si y sólo
 
 El apartado I deja fijado el patrón general: el tránsito por dominios no se gobierna por igualdad de estados, por analogía, por nombre compartido ni por importación de una teoría externa, sino por identidad de transición bajo residual controlado. Agua, Sol/H–He y régimen próximo a 0 K muestran tres bancos directrices suficientes para presionar la fórmula en estabilidad ordinaria, alta respuesta energética y baja excitación extrema. Las tablas bidireccionales demuestran que el aparato debe extraer estructura en el plano SV y devolver magnitudes al SI o a la ciencia contemporánea sin error de plano. La fórmula `T_D^SV(D_i,D_j;x)=0 ⇔ R_D^SV(D_i,D_j;x)=0` y el teorema `Id_trans^SV(x;Γ_D)=1 ⇔ ⊕ R_D^SV(D_i,D_{i+1};x)=0` fijan la ley general que el apartado III restringirá al hidrógeno y al régimen H–He. El resultado obtenido no es una introducción conceptual: es una regla matemática de continuidad tipada entre dominios realizados.
 
-# II. Origen material del universo observable, régimen H–He y materia ordinaria
+# II. Origen material ordinario del universo observable, régimen H–He y materia ordinaria
 
 <details>
 <summary><strong>Mostrar / ocultar índice del apartado II</strong></summary>
 
-- [II.1. Estado del arte físico contemporáneo del régimen H–He](#ii1-estado-del-arte-físico-contemporáneo-del-régimen-hhe)
-  - [II.1.1. Régimen H–He en cosmología física: nucleosíntesis primordial, recombinación y dominio observable](#ii11-régimen-hhe-en-cosmología-física-nucleosíntesis-primordial-recombinación-y-dominio-observable)
+- [II.1. Estado del arte físico contemporáneo del régimen H–He](#ii1-estado-del-arte-físico-contemporáneo-del-régimen-h-he)
+  - [II.1.1. Régimen H–He en cosmología física: nucleosíntesis primordial, recombinación y dominio observable](#ii11-régimen-h-he-en-cosmología-física-nucleosíntesis-primordial-recombinación-y-dominio-observable)
   - [II.1.2. Hidrógeno: abundancia, estructura atómica, líneas espectrales y retorno observacional](#ii12-hidrógeno-abundancia-estructura-atómica-líneas-espectrales-y-retorno-observacional)
   - [II.1.3. Helio: abundancia primordial, estabilidad nuclear y papel en estrellas](#ii13-helio-abundancia-primordial-estabilidad-nuclear-y-papel-en-estrellas)
   - [II.1.4. El Sol como referencia física: composición, estructura, fusión y retorno terrestre](#ii14-el-sol-como-referencia-física-composición-estructura-fusión-y-retorno-terrestre)
@@ -504,15 +517,15 @@ El apartado I deja fijado el patrón general: el tránsito por dominios no se go
   - [II.3.5. Residual de admisibilidad](#ii35-residual-de-admisibilidad)
   - [II.3.6. Indeterminación legítima cuando no hay cierre](#ii36-indeterminación-legítima-cuando-no-hay-cierre)
   - [II.3.7. Cierre material y no cierre material](#ii37-cierre-material-y-no-cierre-material)
-- [II.4. Raigal, proyecciones y energía ⇄ masa: identidad transaccional condicionada](#ii4-raigal-proyecciones-y-energía-⇄-masa-identidad-transaccional-condicionada)
-  - [II.4.1. Por qué `E₀=m₀c²` no agota la transición](#ii41-por-qué-e₀=m₀c²-no-agota-la-transición)
+- [II.4. Raigal, proyecciones y energía-masa: identidad transaccional condicionada](#ii4-raigal-proyecciones-y-energía-masa-identidad-transaccional-condicionada)
+  - [II.4.1. Por qué `E₀=m₀c²` no agota la transición](#ii41-por-qué-e₀m₀c²-no-agota-la-transición)
   - [II.4.2. Raigal y familia de proyecciones](#ii42-raigal-y-familia-de-proyecciones)
   - [II.4.3. Proyección material y proyección energética](#ii43-proyección-material-y-proyección-energética)
   - [II.4.4. Retención material: proyección material con contenido energético retenido](#ii44-retención-material-proyección-material-con-contenido-energético-retenido)
   - [II.4.5. Liberación y reorganización: pérdida de frontera o cambio de régimen](#ii45-liberación-y-reorganización-pérdida-de-frontera-o-cambio-de-régimen)
   - [II.4.6. Combustión, reorganización química y productos materiales](#ii46-combustión-reorganización-química-y-productos-materiales)
   - [II.4.7. Fusión nuclear y régimen estelar](#ii47-fusión-nuclear-y-régimen-estelar)
-  - [II.4.8. Fórmula rectora de acoplamiento materia/energía](#ii48-fórmula-rectora-de-acoplamiento-materia/energía)
+  - [II.4.8. Fórmula rectora de acoplamiento materia-energía](#ii48-fórmula-rectora-de-acoplamiento-materia-energía)
   - [II.4.9. Residuales de retención, liberación, frontera y traza](#ii49-residuales-de-retención-liberación-frontera-y-traza)
 - [II.5. Hidrógeno: primera identidad material ordinaria abierta](#ii5-hidrógeno-primera-identidad-material-ordinaria-abierta)
   - [II.5.1. Hidrógeno como firma material, no como símbolo aislado](#ii51-hidrógeno-como-firma-material-no-como-símbolo-aislado)
@@ -520,7 +533,7 @@ El apartado I deja fijado el patrón general: el tránsito por dominios no se go
   - [II.5.3. Frontera atómica, masa y persistencia](#ii53-frontera-atómica-masa-y-persistencia)
   - [II.5.4. Trazas espectrales y retorno observacional](#ii54-trazas-espectrales-y-retorno-observacional)
   - [II.5.5. Condición local de admisibilidad material del hidrógeno](#ii55-condición-local-de-admisibilidad-material-del-hidrógeno)
-  - [II.5.6. Residual `R_H^{circ}`](#ii56-residual-r_h^circ)
+  - [II.5.6. Residual `R_H^{circ}`](#ii56-residual-r_hcirc)
   - [II.5.7. Hidrógeno, apertura y no clausura plena](#ii57-hidrógeno-apertura-y-no-clausura-plena)
 - [II.6. Helio: primera estabilización ligera local](#ii6-helio-primera-estabilización-ligera-local)
   - [II.6.1. Helio y suficiencia material](#ii61-helio-y-suficiencia-material)
@@ -528,26 +541,26 @@ El apartado I deja fijado el patrón general: el tránsito por dominios no se go
   - [II.6.3. Helio e hidrógeno: continuidad y diferencia](#ii63-helio-e-hidrógeno-continuidad-y-diferencia)
   - [II.6.4. Helio en estrellas y régimen nuclear](#ii64-helio-en-estrellas-y-régimen-nuclear)
   - [II.6.5. Helio como estabilización, no como cancelación de apertura](#ii65-helio-como-estabilización-no-como-cancelación-de-apertura)
-  - [II.6.6. Papel del helio en el régimen H–He](#ii66-papel-del-helio-en-el-régimen-hhe)
+  - [II.6.6. Papel del helio en el régimen H–He](#ii66-papel-del-helio-en-el-régimen-h-he)
   - [II.6.7. Residual del régimen conjunto](#ii67-residual-del-régimen-conjunto)
-- [II.7. El Sol como referencia física del régimen H–He](#ii7-el-sol-como-referencia-física-del-régimen-hhe)
+- [II.7. El Sol como referencia física del régimen H–He](#ii7-el-sol-como-referencia-física-del-régimen-h-he)
   - [II.7.1. Composición material dominante: hidrógeno, helio y fracción pesada](#ii71-composición-material-dominante-hidrógeno-helio-y-fracción-pesada)
   - [II.7.2. Plasma estelar y régimen nuclear](#ii72-plasma-estelar-y-régimen-nuclear)
   - [II.7.3. Confinamiento gravitatorio, presión, densidad y frontera solar](#ii73-confinamiento-gravitatorio-presión-densidad-y-frontera-solar)
-  - [II.7.4. Fusión H–He e identidad transaccional energía ⇄ masa](#ii74-fusión-hhe-e-identidad-transaccional-energía-⇄-masa)
+  - [II.7.4. Fusión H–He e identidad transaccional energía-masa](#ii74-fusión-h-he-e-identidad-transaccional-energía-masa)
   - [II.7.5. Radiación, neutrinos y retorno físico de la transición](#ii75-radiación-neutrinos-y-retorno-físico-de-la-transición)
   - [II.7.6. Elementos pesados y dominio químico posterior](#ii76-elementos-pesados-y-dominio-químico-posterior)
   - [II.7.7. Retorno terrestre: luz solar, química, agua, moléculas y vida biológica](#ii77-retorno-terrestre-luz-solar-química-agua-moléculas-y-vida-biológica)
-- [II.8. Régimen H–He como primera organización material ordinaria](#ii8-régimen-hhe-como-primera-organización-material-ordinaria)
-  - [II.8.1. Fórmula rectora del régimen H–He](#ii81-fórmula-rectora-del-régimen-hhe)
+- [II.8. Régimen H–He como primera organización material ordinaria](#ii8-régimen-h-he-como-primera-organización-material-ordinaria)
+  - [II.8.1. Fórmula rectora del régimen H–He](#ii81-fórmula-rectora-del-régimen-h-he)
   - [II.8.2. Dominancia material y no absolutización](#ii82-dominancia-material-y-no-absolutización)
   - [II.8.3. Apertura por H y estabilización por He](#ii83-apertura-por-h-y-estabilización-por-he)
   - [II.8.4. Frontera de régimen y continuidad física](#ii84-frontera-de-régimen-y-continuidad-física)
-  - [II.8.5. Residual `R_{HHe}^{SV}`](#ii85-residual-r_hhe^sv)
+  - [II.8.5. Residual `R_{HHe}^{SV}`](#ii85-residual-r_hhesv)
   - [II.8.6. Criterio de admisibilidad](#ii86-criterio-de-admisibilidad)
   - [II.8.7. Resultado de cierre del régimen](#ii87-resultado-de-cierre-del-régimen)
 - [II.9. Tabla periódica estructural, elementos y dominio material extendido](#ii9-tabla-periódica-estructural-elementos-y-dominio-material-extendido)
-  - [II.9.1. De H–He al dominio químico conocido](#ii91-de-hhe-al-dominio-químico-conocido)
+  - [II.9.1. De H–He al dominio químico conocido](#ii91-de-h-he-al-dominio-químico-conocido)
   - [II.9.2. Tabla periódica reconocida como subdominio físico detectado](#ii92-tabla-periódica-reconocida-como-subdominio-físico-detectado)
   - [II.9.3. Catálogo SV-443 y extensión estructural de elementos](#ii93-catálogo-sv-443-y-extensión-estructural-de-elementos)
   - [II.9.4. Materiales de nueva generación y dominio estructural ampliado](#ii94-materiales-de-nueva-generación-y-dominio-estructural-ampliado)
@@ -564,7 +577,7 @@ El apartado I deja fijado el patrón general: el tránsito por dominios no se go
   - [II.10.7. Agua, hidrocarburos y moléculas biológicas como casos fuertes](#ii107-agua-hidrocarburos-y-moléculas-biológicas-como-casos-fuertes)
   - [II.10.8. Organización material y continuidad hacia vida biológica](#ii108-organización-material-y-continuidad-hacia-vida-biológica)
 - [II.11. Vida biológica como dominio posterior, no origen material](#ii11-vida-biológica-como-dominio-posterior-no-origen-material)
-  - [II.11.1. La vida no funda el régimen H–He](#ii111-la-vida-no-funda-el-régimen-hhe)
+  - [II.11.1. La vida no funda el régimen H–He](#ii111-la-vida-no-funda-el-régimen-h-he)
   - [II.11.2. La vida presupone materia ordinaria organizada](#ii112-la-vida-presupone-materia-ordinaria-organizada)
   - [II.11.3. Agua, carbono, oxígeno, hidrógeno y moléculas biológicas](#ii113-agua-carbono-oxígeno-hidrógeno-y-moléculas-biológicas)
   - [II.11.4. Proteínas, ADN, membranas y célula](#ii114-proteínas-adn-membranas-y-célula)
@@ -582,30 +595,30 @@ El apartado I deja fijado el patrón general: el tránsito por dominios no se go
   - [II.12.8. Casos biológicos](#ii128-casos-biológicos)
   - [II.12.9. Salidas en cierre, defecto y no determinación legítima](#ii129-salidas-en-cierre-defecto-y-no-determinación-legítima)
 - [II.13. Fórmulas centrales del desarrollo](#ii13-fórmulas-centrales-del-desarrollo)
-  - [II.13.1. Condición de acoplamiento raigal-material/energético](#ii131-condición-de-acoplamiento-raigal-material/energético)
-  - [II.13.2. Fórmula de transacción energía ⇄ masa](#ii132-fórmula-de-transacción-energía-⇄-masa)
+  - [II.13.1. Condición de acoplamiento raigal, material y energético](#ii131-condición-de-acoplamiento-raigal-material-y-energético)
+  - [II.13.2. Fórmula de transacción energía-masa](#ii132-fórmula-de-transacción-energía-masa)
   - [II.13.3. Condición local de admisibilidad material del hidrógeno](#ii133-condición-local-de-admisibilidad-material-del-hidrógeno)
-  - [II.13.4. Condición rectora del régimen H–He](#ii134-condición-rectora-del-régimen-hhe)
+  - [II.13.4. Condición rectora del régimen H–He](#ii134-condición-rectora-del-régimen-h-he)
   - [II.13.5. Residuales asociados](#ii135-residuales-asociados)
   - [II.13.6. Retorno físico de los resultados establecidos por las fórmulas](#ii136-retorno-físico-de-los-resultados-establecidos-por-las-fórmulas)
   - [II.13.7. Tabla de símbolos](#ii137-tabla-de-símbolos)
   - [II.13.8. Lectura de alcance y límite](#ii138-lectura-de-alcance-y-límite)
-- [II.14. Demostración de doble frontera y continuidad raigal-material del régimen H–He](#ii14-demostración-de-doble-frontera-y-continuidad-raigal-material-del-régimen-hhe)
+- [II.14. Demostración de doble frontera y continuidad raigal-material del régimen H–He](#ii14-demostración-de-doble-frontera-y-continuidad-raigal-material-del-régimen-h-he)
   - [II.14.1. Problema de doble frontera](#ii141-problema-de-doble-frontera)
   - [II.14.2. Frontera progresiva y frontera regresiva](#ii142-frontera-progresiva-y-frontera-regresiva)
   - [II.14.3. Lema de no nulidad polar en dominio realizado](#ii143-lema-de-no-nulidad-polar-en-dominio-realizado)
   - [II.14.4. Lema de no identidad entre raigal y proyecciones](#ii144-lema-de-no-identidad-entre-raigal-y-proyecciones)
-  - [II.14.5. Lema de acoplamiento proyectivo materia/energía](#ii145-lema-de-acoplamiento-proyectivo-materia/energía)
+  - [II.14.5. Lema de acoplamiento proyectivo materia-energía](#ii145-lema-de-acoplamiento-proyectivo-materia-energía)
   - [II.14.6. Hidrógeno como primera retención material ordinaria](#ii146-hidrógeno-como-primera-retención-material-ordinaria)
   - [II.14.7. Helio como estabilización ligera local](#ii147-helio-como-estabilización-ligera-local)
-  - [II.14.8. Teorema de polaridad material compatible H–He](#ii148-teorema-de-polaridad-material-compatible-hhe)
-  - [II.14.9. Teorema de doble frontera del régimen H–He](#ii149-teorema-de-doble-frontera-del-régimen-hhe)
+  - [II.14.8. Teorema de polaridad material compatible H–He](#ii148-teorema-de-polaridad-material-compatible-h-he)
+  - [II.14.9. Teorema de doble frontera del régimen H–He](#ii149-teorema-de-doble-frontera-del-régimen-h-he)
   - [II.14.10. Continuidad hacia tabla estructural, pares y moléculas](#ii1410-continuidad-hacia-tabla-estructural-pares-y-moléculas)
   - [II.14.11. Corolario solar de articulación](#ii1411-corolario-solar-de-articulación)
   - [II.14.12. Resultado formal de la doble frontera](#ii1412-resultado-formal-de-la-doble-frontera)
 - [II.15. Conclusión del apartado II](#ii15-conclusión-del-apartado-ii)
   - [II.15.1. Resultado físico-formal](#ii151-resultado-físico-formal)
-  - [II.15.2. Régimen H–He y origen material ordinario](#ii152-régimen-hhe-y-origen-material-ordinario)
+  - [II.15.2. Régimen H–He y origen material ordinario](#ii152-régimen-h-he-y-origen-material-ordinario)
   - [II.15.3. Raigal, proyecciones y doble frontera](#ii153-raigal-proyecciones-y-doble-frontera)
   - [II.15.4. Papel del Sol como referencia física](#ii154-papel-del-sol-como-referencia-física)
   - [II.15.5. Continuidad hacia tabla periódica estructural, pares, moléculas y vida](#ii155-continuidad-hacia-tabla-periódica-estructural-pares-moléculas-y-vida)
@@ -715,9 +728,9 @@ Cuando no hay cierre material, la salida correcta no es fabricar una certeza, si
 
 ### II.3.7. Cierre material y no cierre material
 
-El cierre material se produce sólo cuando una configuración satisface dominio, frontera, concentración, canal, masa persistente, salida tipada, traza, residual anulado y retorno científico. El no cierre material aparece cuando una o varias de esas condiciones fallan, permanecen incompletas o no pueden decidirse sin mezcla de planos. Esta distinción permite ordenar los apartados siguientes. En IV, la relación energía ⇄ masa deberá mostrar cuándo una configuración retiene identidad material, cuándo libera energía, cuándo se reorganiza y cuándo pierde frontera. En V, el hidrógeno deberá pasar por condición local de admisibilidad material, residual propio y retorno físico. En VI, el helio deberá comparecer como estabilización ligera local, no como simple acompañamiento. En VII, el Sol funcionará como referencia física del régimen H–He bajo composición, plasma, fusión, radiación y retorno terrestre. En VIII, el régimen conjunto deberá demostrar si puede admitirse como primera organización material ordinaria. Después, la continuidad hacia tabla periódica estructural, SV-443, materiales de nueva generación, pares, aleaciones, enlaces, moléculas y vida deberá respetar el mismo criterio, sin cerrar por inventario ni por ausencia de rigor teórico (Lloret Egea, 2026d, 2026e). Con ello, el desarrollo queda preparado para avanzar: ya no se pregunta si H “es importante” ni si He “aparece pronto”, sino bajo qué condiciones una identidad material persiste, qué residual conserva y qué retorno permite declararla admisible.
+El cierre material se produce sólo cuando una configuración satisface dominio, frontera, concentración, canal, masa persistente, salida tipada, traza, residual anulado y retorno científico. El no cierre material aparece cuando una o varias de esas condiciones fallan, permanecen incompletas o no pueden decidirse sin mezcla de planos. Esta distinción permite ordenar los apartados siguientes. En II.4, la relación energía ⇄ masa deberá mostrar cuándo una configuración retiene identidad material, cuándo libera energía, cuándo se reorganiza y cuándo pierde frontera. En II.5, el hidrógeno deberá pasar por condición local de admisibilidad material, residual propio y retorno físico. En II.6, el helio deberá comparecer como estabilización ligera local, no como simple acompañamiento. En II.7, el Sol funcionará como referencia física del régimen H–He bajo composición, plasma, fusión, radiación y retorno terrestre. En II.8, el régimen conjunto deberá demostrar si puede admitirse como primera organización material ordinaria. Después, la continuidad hacia tabla periódica estructural, SV-443, materiales de nueva generación, pares, aleaciones, enlaces, moléculas y vida deberá respetar el mismo criterio, sin cerrar por inventario ni por ausencia de rigor teórico (Lloret Egea, 2026d, 2026e). Con ello, el desarrollo queda preparado para avanzar: ya no se pregunta si H “es importante” ni si He “aparece pronto”, sino bajo qué condiciones una identidad material persiste, qué residual conserva y qué retorno permite declararla admisible.
 
-## II.4. Raigal, proyecciones y energía ⇄ masa: identidad transaccional condicionada
+## II.4. Raigal, proyecciones y energía-masa: identidad transaccional condicionada
 
 ### II.4.1. Por qué `E₀=m₀c²` no agota la transición
 
@@ -747,13 +760,13 @@ La combustión ordinaria es un caso útil porque muestra con claridad que energ�
 
 La fusión nuclear pertenece a un régimen distinto del químico. En el Sol, el hidrógeno participa en procesos nucleares bajo condiciones de plasma, presión, densidad, confinamiento gravitatorio, transporte radiativo y equilibrio estelar. La identidad transaccional energía ⇄ masa se manifiesta aquí de modo distinto al de la combustión: no se reorganizan sólo enlaces electrónicos, sino núcleos y energías de enlace nuclear. El helio aparece como producto estable de procesos de fusión de hidrógeno, y la energía liberada retorna en forma de radiación, neutrinos y transporte energético hasta alcanzar la superficie solar y, finalmente, el entorno terrestre. La estructura y evolución solar ofrecen un banco físico principal para estudiar esa transición, porque conectan composición H–He, frontera estelar, régimen nuclear y retorno observacional (Christensen-Dalsgaard, 2021). La composición solar, con predominio de hidrógeno y helio y fracción menor de elementos pesados, refuerza además la función del Sol como referencia física del régimen H–He (Asplund, Amarsi, & Grevesse, 2021). La fusión no debe presentarse como una versión intensa de la combustión ni como simple confirmación de `E₀=m₀c²`. Es un dominio material y nuclear específico: exige presión, temperatura, plasma, confinamiento, sección eficaz, productos, emisión y estabilidad estelar. Dentro de la presente tesis, su función consiste en mostrar que la relación energía ⇄ masa sólo puede entenderse bajo régimen; sin régimen, frontera y retorno, la equivalencia basal queda físicamente válida pero insuficiente para decidir identidad material persistente.
 
-### II.4.8. Fórmula rectora de acoplamiento materia/energía
+### II.4.8. Fórmula rectora de acoplamiento materia-energía
 
 La condición rectora del tramo es `C_{Ξ→M/E}^{SV}(Γ,F)=0 ⇔ R_{Ξ→M/E}^{SV}(Γ,F)=0`. Esta fórmula no reemplaza a `E₀=m₀c²`; tampoco sustituye la condición de transacción energía ⇄ masa `C_{E⇄M}^{SV}(Γ,F)=0 ⇔ R_{E⇄M}^{SV}(Γ,F)=0`. Su función es anterior: declarar que materia y energía entran como proyecciones acopladas del raigal bajo dominio y frontera, no como entidades autónomas sin raíz formal. La fórmula subordinada `C_{E⇄M}^{SV}` opera una vez que el dominio proyectivo ya permite distinguir retención material, liberación energética, productos, traza y retorno. La equivalencia basal queda preservada como sector de reposo, pero el cierre de identidad material exige más: retención, liberación, reorganización, balance, frontera, traza y retorno. Si el residual `R_{Ξ→M/E}^{SV}` se anula, la articulación entre proyección material y proyección energética queda admitida en el dominio declarado. Si se anula además `R_{E⇄M}^{SV}`, la transacción interna entre masa y energía puede considerarse admisible en ese mismo dominio. Si alguno de esos residuales no se anula, el resultado debe conservar transición parcial, configuración no admitida o no determinación legítima. Esta arquitectura evita tres simplificaciones: la lectura de la masa como sustancia inmóvil, la lectura de la energía como causa absoluta y la lectura de toda transformación como conversión directa de una en otra. La pregunta operativa pasa a ser: qué se retiene, qué se libera, qué frontera se conserva o se pierde, qué productos aparecen y qué retorno permite verificar la transición.
 
 ### II.4.9. Residuales de retención, liberación, frontera y traza
 
-Los residuales asociados a este bloque deben separar al menos cinco componentes: proyección, retención, liberación, frontera y traza. El residual de proyección pregunta si la lectura material/energética conserva relación con el raigal sin convertirlo en elemento, masa o energía ordinaria. El residual de retención pregunta si una configuración conserva identidad material suficiente para ser tratada como masa persistente bajo dominio. El residual de liberación pregunta si la energía emitida, transferida o redistribuida procede de una transición declarada y no de una formulación indiferenciada. El residual de frontera pregunta si la identidad inicial conserva, pierde o transforma su límite material de manera trazable. El residual de traza pregunta si el proceso vuelve a señales, productos, espectros, magnitudes, bancos o resultados reproducibles. Estos residuales son condiciones de control: impiden cerrar por intuición, por inventario o por ausencia de rigor teórico. En una combustión, deberán distinguir reactivos, productos, calor, emisión, frontera inicial y retorno químico. En una fusión nuclear, deberán distinguir plasma, núcleo, producto, energía de enlace, radiación, neutrinos y frontera estelar. En el hidrógeno como identidad material ordinaria, deberán distinguir masa, estado, espectro, ionización, neutralización, enlace y retorno. Con esta estructura, el análisis queda preparado para el bloque siguiente: ya no basta decir que masa y energía son equivalentes; hay que decidir bajo qué condiciones esa equivalencia participa en una identidad material persistente, qué residual conserva y qué retorno permite admitirla en el régimen H–He.
+Los residuales asociados a este apartado deben separar al menos cinco componentes: proyección, retención, liberación, frontera y traza. El residual de proyección pregunta si la lectura material/energética conserva relación con el raigal sin convertirlo en elemento, masa o energía ordinaria. El residual de retención pregunta si una configuración conserva identidad material suficiente para ser tratada como masa persistente bajo dominio. El residual de liberación pregunta si la energía emitida, transferida o redistribuida procede de una transición declarada y no de una formulación indiferenciada. El residual de frontera pregunta si la identidad inicial conserva, pierde o transforma su límite material de manera trazable. El residual de traza pregunta si el proceso vuelve a señales, productos, espectros, magnitudes, bancos o resultados reproducibles. Estos residuales son condiciones de control: impiden cerrar por intuición, por inventario o por ausencia de rigor teórico. En una combustión, deberán distinguir reactivos, productos, calor, emisión, frontera inicial y retorno químico. En una fusión nuclear, deberán distinguir plasma, núcleo, producto, energía de enlace, radiación, neutrinos y frontera estelar. En el hidrógeno como identidad material ordinaria, deberán distinguir masa, estado, espectro, ionización, neutralización, enlace y retorno. Con esta estructura, el análisis queda preparado para el apartado siguiente: ya no basta decir que masa y energía son equivalentes; hay que decidir bajo qué condiciones esa equivalencia participa en una identidad material persistente, qué residual conserva y qué retorno permite admitirla en el régimen H–He.
 
 ## II.5. Hidrógeno: primera identidad material ordinaria abierta
 
@@ -829,7 +842,7 @@ El interior solar no debe leerse como gas químico ordinario. En las regiones in
 
 La fusión solar requiere un dominio físico que retenga, organice y sostenga la materia en condiciones extremas. Ese dominio no se reduce a “alta temperatura” ni a cantidad de hidrógeno disponible. El confinamiento gravitatorio, la presión, la densidad, la opacidad, el equilibrio hidrostático y la frontera estelar participan en la posibilidad de que el Sol conserve una identidad física persistente mientras genera energía por procesos nucleares. La frontera solar no debe confundirse con una superficie rígida: es una condición física de organización estelar que separa interior, transporte energético, fotosfera, emisión, entorno heliosférico y retorno observacional. En esta estructura, la masa solar no es cifra aislada; opera como condición de confinamiento y de régimen. La presión y la densidad interiores no son acompañamientos descriptivos; forman parte de la posibilidad de que el hidrógeno participe en fusión y de que el helio aparezca como producto estable. Las investigaciones sobre estructura y evolución solar muestran que la identidad del Sol depende de una articulación fina entre gravedad, composición, temperatura, opacidad, transporte de energía y reacciones nucleares, no de una propiedad única tomada como fundamento (Christensen-Dalsgaard, 2021). Para esta formulación, el Sol permite comprobar que la relación H–He sólo se vuelve físicamente fuerte cuando se declara la frontera que la sostiene. Sin confinamiento, presión, densidad y régimen, la abundancia de hidrógeno no basta para explicar la transición nuclear ni el retorno radiativo.
 
-### II.7.4. Fusión H–He e identidad transaccional energía ⇄ masa
+### II.7.4. Fusión H–He e identidad transaccional energía-masa
 
 La fusión solar permite leer la identidad transaccional energía ⇄ masa en un dominio físico especialmente exigente. En el Sol, el hidrógeno participa en procesos nucleares que conducen a helio bajo condiciones de plasma, confinamiento y equilibrio estelar. La energía liberada no procede de una combustión química ni de una desaparición simple de materia, sino de diferencias de energía de enlace nuclear dentro de procesos tipados. Por eso la transición H → He no debe formularse como una conversión vulgar de masa en energía, sino como reorganización nuclear bajo frontera estelar y retorno físico. La equivalencia basal `E₀=m₀c²` sigue siendo físicamente válida como relación entre masa y energía, pero no agota la lectura del proceso: hay que declarar reactivos nucleares, productos, energía de enlace, emisión de neutrinos, radiación, transporte interno y frontera solar. La síntesis de elementos en estrellas ya mostró que la producción nuclear de elementos exige condiciones de régimen, no una prolongación directa de la química ordinaria (Burbidge, Burbidge, Fowler, & Hoyle, 1957). En esta sección, la fórmula `C_{E⇄M}^{SV}(Γ,F)=0 ⇔ R_{E⇄M}^{SV}(Γ,F)=0` encuentra un contraste fuerte: si el residual de retención, liberación, frontera y traza se anula en el dominio solar declarado, la transición puede leerse como transacción admisible; si no se declaran esas condiciones, la afirmación queda incompleta. La fusión H–He no es una ilustración secundaria, sino un contraste de régimen.
 
@@ -843,14 +856,14 @@ La presencia de elementos pesados en el Sol no debilita la lectura H–He; la co
 
 ### II.7.7. Retorno terrestre: luz solar, química, agua, moléculas y vida biológica
 
-El retorno terrestre de la radiación solar permite conectar el régimen H–He con química, agua, moléculas y vida biológica sin confundir planos. La luz solar no funda la vida por sí sola, ni convierte el Sol en origen material absoluto, ni sustituye la organización molecular posterior. Su función es física: aporta energía radiativa a un dominio planetario donde pueden operar atmósfera, agua, ciclos químicos, gradientes, superficies, moléculas orgánicas, fotosíntesis y sistemas biológicos. En la Tierra, el retorno solar participa en condiciones de habitabilidad y organización, pero siempre junto a composición planetaria, agua, carbono, oxígeno, nitrógeno, fósforo, minerales, dinámica atmosférica y procesos químicos. Esta relación confirma una continuidad importante: el régimen H–He, observado en el Sol como composición dominante y transición nuclear, retorna a un dominio donde la materia ordinaria posterior puede reorganizarse en moléculas y vida. La vida, sin embargo, no debe entrar aquí como fundamento; entra como dominio posterior de alta complejidad. Agua, hidrocarburos, proteínas, ácidos nucleicos, membranas y células presuponen elementos, enlaces y condiciones materiales que no se reducen a radiación solar. Por eso el cierre de VII debe ser sobrio: el Sol funciona como referencia física principal del régimen H–He porque permite ver composición, plasma, fusión, energía ⇄ masa, radiación, neutrinos y retorno terrestre en una misma estructura. Ese retorno enlaza con química y vida, pero no clausura todavía el régimen H–He ni sustituye los apartados posteriores sobre tabla periódica estructural, pares, moléculas y dominio biológico. Como se formulará en el apartado siguiente, esta acumulación de condiciones prepara la regla conjunta `𝓗_{HHe}^{SV}(Γ_M)=0 ⇔ R_{HHe}^{SV}(Γ_M)=0`, donde el régimen H–He sólo podrá admitirse si el residual del dominio material se anula bajo composición, frontera, transición, traza, retorno y continuidad posterior.
+El retorno terrestre de la radiación solar permite conectar el régimen H–He con química, agua, moléculas y vida biológica sin confundir planos. La luz solar no funda la vida por sí sola, ni convierte el Sol en origen material absoluto, ni sustituye la organización molecular posterior. Su función es física: aporta energía radiativa a un dominio planetario donde pueden operar atmósfera, agua, ciclos químicos, gradientes, superficies, moléculas orgánicas, fotosíntesis y sistemas biológicos. En la Tierra, el retorno solar participa en condiciones de habitabilidad y organización, pero siempre junto a composición planetaria, agua, carbono, oxígeno, nitrógeno, fósforo, minerales, dinámica atmosférica y procesos químicos. Esta relación confirma una continuidad importante: el régimen H–He, observado en el Sol como composición dominante y transición nuclear, retorna a un dominio donde la materia ordinaria posterior puede reorganizarse en moléculas y vida. La vida, sin embargo, no debe entrar aquí como fundamento; entra como dominio posterior de alta complejidad. Agua, hidrocarburos, proteínas, ácidos nucleicos, membranas y células presuponen elementos, enlaces y condiciones materiales que no se reducen a radiación solar. Por eso el cierre de II.7 debe ser sobrio: el Sol funciona como referencia física principal del régimen H–He porque permite ver composición, plasma, fusión, energía ⇄ masa, radiación, neutrinos y retorno terrestre en una misma estructura. Ese retorno enlaza con química y vida, pero no clausura todavía el régimen H–He ni sustituye los apartados posteriores sobre tabla periódica estructural, pares, moléculas y dominio biológico. Como se formulará en el apartado siguiente, esta acumulación de condiciones prepara la regla conjunta `𝓗_{HHe}^{SV}(Γ_M)=0 ⇔ R_{HHe}^{SV}(Γ_M)=0`, donde el régimen H–He sólo podrá admitirse si el residual del dominio material se anula bajo composición, frontera, transición, traza, retorno y continuidad posterior.
 
 
 ## II.8. Régimen H–He como primera organización material ordinaria
 
 ### II.8.1. Fórmula rectora del régimen H–He
 
-Antes de utilizar la condición `𝓗_{HHe}^{SV}(Γ_M)=0 ⇔ R_{HHe}^{SV}(Γ_M)=0`, hay que fijar su regla de uso. No es una ecuación física externa, no sustituye una magnitud cosmológica y no introduce una ley nueva de la naturaleza. Es una condición formal de admisibilidad material: declara cuándo el régimen formado por hidrógeno y helio puede ser tratado como primera organización material ordinaria del universo observable dentro del dominio examinado. La notación `𝓗_{HHe}^{SV}` designa la condición de régimen H–He bajo lectura SV; el subíndice `HHe` indica que no se evalúa hidrógeno aislado ni helio aislado, sino la relación funcional entre apertura material por H y estabilización ligera por He; el superíndice `SV` indica que la evaluación exige dominio, frontera, residual y retorno, no simple abundancia ni etiqueta química. `Γ_M` designa el recorrido material o dominio material examinado: núcleos ligeros, átomos, plasma, gas, estrella, señal, composición, transición nuclear o continuidad hacia materia posterior, según el caso. El signo `=0` no significa que el régimen sea “nada” ni que una magnitud física se anule; significa que la condición de admisibilidad queda satisfecha porque el residual correspondiente se ha anulado. Por eso la fórmula se escribe como equivalencia: `𝓗_{HHe}^{SV}(Γ_M)=0 ⇔ R_{HHe}^{SV}(Γ_M)=0`. El lado izquierdo expresa la admisión del régimen; el lado derecho expresa que no quedan defectos materiales relevantes en el dominio declarado. El residual `R_{HHe}^{SV}` reúne, como mínimo, dominio material, composición dominante, función de apertura de H, función de estabilización de He, frontera de régimen, traza espectral o nuclear, transición energía ⇄ masa, retorno físico y continuidad hacia materia posterior. La fórmula procede de los apartados anteriores: III fija que toda identidad material requiere dominio, frontera, traza, residual y retorno; IV separa energía ⇄ masa bajo régimen; V formula la admisibilidad local del hidrógeno mediante `A_H^{SV}(Γ_M,F)=0 ⇔ R_H^{circ}(Γ_M,F)=0`; VI distingue el papel del helio como estabilización ligera local; VII aporta el Sol como referencia física donde H y He comparecen bajo plasma, fusión, radiación, neutrinos y retorno. VIII recoge esas condiciones y las concentra en una sola regla de régimen. Por tanto, la expresión no cae desde fuera: sintetiza lo ya construido y lo somete a una prueba conjunta. Si `R_{HHe}^{SV}(Γ_M)` se anula, H–He queda admitido como primera organización material ordinaria dentro del alcance declarado. Si no se anula, el resultado debe conservar parcialidad, defecto o no determinación legítima.
+Antes de utilizar la condición `𝓗_{HHe}^{SV}(Γ_M)=0 ⇔ R_{HHe}^{SV}(Γ_M)=0`, hay que fijar su regla de uso. No es una ecuación física externa, no sustituye una magnitud cosmológica y no introduce una ley nueva de la naturaleza. Es una condición formal de admisibilidad material: declara cuándo el régimen formado por hidrógeno y helio puede ser tratado como primera organización material ordinaria del universo observable dentro del dominio examinado. La notación `𝓗_{HHe}^{SV}` designa la condición de régimen H–He bajo lectura SV; el subíndice `HHe` indica que no se evalúa hidrógeno aislado ni helio aislado, sino la relación funcional entre apertura material por H y estabilización ligera por He; el superíndice `SV` indica que la evaluación exige dominio, frontera, residual y retorno, no simple abundancia ni etiqueta química. `Γ_M` designa el recorrido material o dominio material examinado: núcleos ligeros, átomos, plasma, gas, estrella, señal, composición, transición nuclear o continuidad hacia materia posterior, según el caso. El signo `=0` no significa que el régimen sea “nada” ni que una magnitud física se anule; significa que la condición de admisibilidad queda satisfecha porque el residual correspondiente se ha anulado. Por eso la fórmula se escribe como equivalencia: `𝓗_{HHe}^{SV}(Γ_M)=0 ⇔ R_{HHe}^{SV}(Γ_M)=0`. El lado izquierdo expresa la admisión del régimen; el lado derecho expresa que no quedan defectos materiales relevantes en el dominio declarado. El residual `R_{HHe}^{SV}` reúne, como mínimo, dominio material, composición dominante, función de apertura de H, función de estabilización de He, frontera de régimen, traza espectral o nuclear, transición energía ⇄ masa, retorno físico y continuidad hacia materia posterior. La fórmula procede de los apartados anteriores: II.3 fija que toda identidad material requiere dominio, frontera, traza, residual y retorno; II.4 separa energía ⇄ masa bajo régimen; II.5 formula la admisibilidad local del hidrógeno mediante `A_H^{SV}(Γ_M,F)=0 ⇔ R_H^{circ}(Γ_M,F)=0`; II.6 distingue el papel del helio como estabilización ligera local; II.7 aporta el Sol como referencia física donde H y He comparecen bajo plasma, fusión, radiación, neutrinos y retorno. II.8 recoge esas condiciones y las concentra en una sola regla de régimen. Por tanto, la expresión no cae desde fuera: sintetiza lo ya construido y lo somete a una prueba conjunta. Si `R_{HHe}^{SV}(Γ_M)` se anula, H–He queda admitido como primera organización material ordinaria dentro del alcance declarado. Si no se anula, el resultado debe conservar parcialidad, defecto o no determinación legítima.
 
 ### II.8.2. Dominancia material y no absolutización
 
@@ -874,7 +887,7 @@ El criterio de admisibilidad del régimen H–He puede formularse así: H–He q
 
 ### II.8.7. Resultado de cierre del régimen
 
-El resultado de cierre del régimen puede enunciarse con precisión: bajo dominio material declarado, retorno físico suficiente y residual anulado, H–He queda admitido como primera organización material ordinaria del universo observable. El hidrógeno aporta apertura material; el helio aporta estabilización ligera; el Sol ofrece una referencia física principal; la transición energía ⇄ masa exige régimen; la materia posterior queda abierta hacia elementos pesados, tabla periódica estructural, materiales de nueva generación, pares, enlaces, aleaciones, moléculas y vida. El cierre no afirma que H–He sea origen absoluto, ni que agote lo físico, ni que sustituya la física contemporánea. Afirma que, dentro de la materia ordinaria observable, no hay una organización anterior con el mismo conjunto de condiciones: identidad, masa, frontera, composición dominante, traza, transición energética, retorno y continuidad. Ese resultado prepara el paso natural hacia el bloque siguiente. Una vez admitido H–He como primer régimen ordinario, el análisis debe descender al dominio material extendido: tabla periódica reconocida, frontera superpesada, catálogo SV-443, materiales de nueva generación, elementos biogénicos, aleaciones y retornos físicos. El régimen H–He queda así cerrado en su alcance propio y abierto en su consecuencia: inaugura la cadena material, pero no la clausura.
+El resultado de cierre del régimen puede enunciarse con precisión: bajo dominio material declarado, retorno físico suficiente y residual anulado, H–He queda admitido como primera organización material ordinaria del universo observable. El hidrógeno aporta apertura material; el helio aporta estabilización ligera; el Sol ofrece una referencia física principal; la transición energía ⇄ masa exige régimen; la materia posterior queda abierta hacia elementos pesados, tabla periódica estructural, materiales de nueva generación, pares, enlaces, aleaciones, moléculas y vida. El cierre no afirma que H–He sea origen absoluto, ni que agote lo físico, ni que sustituya la física contemporánea. Afirma que, dentro de la materia ordinaria observable, no hay una organización anterior con el mismo conjunto de condiciones: identidad, masa, frontera, composición dominante, traza, transición energética, retorno y continuidad. Ese resultado prepara el paso natural hacia el apartado siguiente. Una vez admitido H–He como primer régimen ordinario, el análisis debe descender al dominio material extendido: tabla periódica reconocida, frontera superpesada, catálogo SV-443, materiales de nueva generación, elementos biogénicos, aleaciones y retornos físicos. El régimen H–He queda así cerrado en su alcance propio y abierto en su consecuencia: inaugura la cadena material, pero no la clausura.
 
 ## II.9. Tabla periódica estructural, elementos y dominio material extendido
 
@@ -900,18 +913,18 @@ Carbono, oxígeno, hidrógeno, nitrógeno, fósforo y azufre poseen una función
 
 ### II.9.6. Elementos pesados, materiales y aleaciones
 
-Los elementos pesados introducen propiedades y comportamientos que no aparecen en el régimen H–He: diversidad electrónica, estados de oxidación, densidades elevadas, propiedades magnéticas, radiactividad, estabilidad nuclear limitada, conductividad, resistencia, dureza, reactividad y capacidad de formar materiales complejos. En física y química contemporáneas, esos elementos permiten minerales, metales, semiconductores, catalizadores, aleaciones, materiales biomédicos, estructuras industriales y tecnologías avanzadas. En la formulación estructural extendida, además, la pregunta no se limita a qué elementos existen, sino a qué combinaciones pueden sostener organización material. Una aleación no es suma nominal de elementos; exige compatibilidad, proporción, fase, frontera material, propiedades mecánicas, estabilidad y retorno. Un material médico o científico tampoco queda definido por la presencia de un elemento aislado, sino por su comportamiento bajo dominio de uso, interacción, resistencia, toxicidad, función y trazabilidad. El *Catálogo de Pares Estructurales SV (CPS-SV)* formaliza precisamente ese paso al evaluar pares no ordenados del dominio `Ω_443`, con salida APTO-M, APTO-C, APTO-I o NO-APTO según criterios B.1–B.5, magnitudes de par y función de evaluación `D(A,B)` (Lloret Egea, 2026e). Por eso, el paso IX no debe detenerse en la tabla periódica. Debe preparar X, donde el elemento aislado cederá protagonismo al par estructural, al enlace, a la compatibilidad posicional y a la organización molecular. Los elementos pesados y las aleaciones muestran que la materia posterior a H–He no crece sólo por acumulación nuclear, sino por relaciones estructurales entre componentes. Esa transición exige una regla distinta de lectura: del elemento al par, del par al enlace, del enlace al material.
+Los elementos pesados introducen propiedades y comportamientos que no aparecen en el régimen H–He: diversidad electrónica, estados de oxidación, densidades elevadas, propiedades magnéticas, radiactividad, estabilidad nuclear limitada, conductividad, resistencia, dureza, reactividad y capacidad de formar materiales complejos. En física y química contemporáneas, esos elementos permiten minerales, metales, semiconductores, catalizadores, aleaciones, materiales biomédicos, estructuras industriales y tecnologías avanzadas. En la formulación estructural extendida, además, la pregunta no se limita a qué elementos existen, sino a qué combinaciones pueden sostener organización material. Una aleación no es suma nominal de elementos; exige compatibilidad, proporción, fase, frontera material, propiedades mecánicas, estabilidad y retorno. Un material médico o científico tampoco queda definido por la presencia de un elemento aislado, sino por su comportamiento bajo dominio de uso, interacción, resistencia, toxicidad, función y trazabilidad. El *Catálogo de Pares Estructurales SV (CPS-SV)* formaliza precisamente ese paso al evaluar pares no ordenados del dominio `Ω_443`, con salida APTO-M, APTO-C, APTO-I o NO-APTO según criterios B.1–B.5, magnitudes de par y función de evaluación `D(A,B)` (Lloret Egea, 2026e). Por eso, el paso II.9 no debe detenerse en la tabla periódica. Debe preparar II.10, donde el elemento aislado cederá protagonismo al par estructural, al enlace, a la compatibilidad posicional y a la organización molecular. Los elementos pesados y las aleaciones muestran que la materia posterior a H–He no crece sólo por acumulación nuclear, sino por relaciones estructurales entre componentes. Esa transición exige una regla distinta de lectura: del elemento al par, del par al enlace, del enlace al material.
 
 ### II.9.7. Dominio material abierto: elementos, pares, moléculas y retornos físicos
 
-El resultado de IX puede formularse con precisión: el régimen H–He queda confirmado como inicio de la organización material ordinaria, pero la materia posterior exige un dominio abierto de elementos, candidatos estructurales, pares, enlaces, aleaciones, moléculas y retornos físicos. La tabla periódica reconocida aporta el subdominio empírico estabilizado; el catálogo SV-443 aporta un dominio estructural ampliado con salida `U` para regiones pendientes de retorno físico específico; los materiales de nueva generación muestran que la búsqueda no se reduce a elementos aislados; los biogénicos muestran continuidad hacia vida sin fundarla; los elementos pesados y las aleaciones preparan el paso hacia compatibilidad material (Lloret Egea, 2026d, 2026e). En ningún punto debe confundirse una formulación estructural con detección empírica, ni una detección empírica con fundamento absoluto. La regla que conserva el desarrollo es la misma que gobierna H–He: dominio, frontera, residual, traza y retorno. Si un elemento está detectado, entra como subdominio físico reconocido. Si una configuración pertenece al dominio estructural de búsqueda y permanece pendiente de retorno físico específico, conserva `U`. Si una combinación material no declara compatibilidad, frontera y retorno, no se cierra. Si una molécula participa en vida, debe evaluarse como dominio posterior, no como origen material. IX cierra así el tránsito desde H–He hacia la materia extendida y abre el bloque X: ya no bastará hablar de elementos; habrá que examinar pares, enlaces, compatibilidad posicional y organización molecular.
+El resultado de II.9 puede formularse con precisión: el régimen H–He queda confirmado como inicio de la organización material ordinaria, pero la materia posterior exige un dominio abierto de elementos, candidatos estructurales, pares, enlaces, aleaciones, moléculas y retornos físicos. La tabla periódica reconocida aporta el subdominio empírico estabilizado; el catálogo SV-443 aporta un dominio estructural ampliado con salida `U` para regiones pendientes de retorno físico específico; los materiales de nueva generación muestran que la búsqueda no se reduce a elementos aislados; los biogénicos muestran continuidad hacia vida sin fundarla; los elementos pesados y las aleaciones preparan el paso hacia compatibilidad material (Lloret Egea, 2026d, 2026e). En ningún punto debe confundirse una formulación estructural con detección empírica, ni una detección empírica con fundamento absoluto. La regla que conserva el desarrollo es la misma que gobierna H–He: dominio, frontera, residual, traza y retorno. Si un elemento está detectado, entra como subdominio físico reconocido. Si una configuración pertenece al dominio estructural de búsqueda y permanece pendiente de retorno físico específico, conserva `U`. Si una combinación material no declara compatibilidad, frontera y retorno, no se cierra. Si una molécula participa en vida, debe evaluarse como dominio posterior, no como origen material. II.9 cierra así el tránsito desde H–He hacia la materia extendida y abre el apartado II.10: ya no bastará hablar de elementos; habrá que examinar pares, enlaces, compatibilidad posicional y organización molecular.
 
 
 ## II.10. Molécula, enlace y organización material
 
 ### II.10.1. Del elemento aislado al par estructural
 
-El paso desde la tabla periódica hacia la organización molecular exige abandonar la lectura del elemento aislado como unidad suficiente. Un elemento posee identidad, masa, propiedades, posición y retorno; pero una molécula, una aleación o un material organizado no nacen de la simple presencia de elementos, sino de relaciones entre ellos. El par estructural es el primer nivel donde esa relación puede evaluarse de manera explícita: dos componentes entran en un dominio común, sus propiedades dejan de operar como rasgos separados y aparecen magnitudes de relación, compatibilidad, diferencia, persistencia conjunta y posibilidad de enlace. Esta transición es decisiva para la publicación porque impide que el régimen H–He desemboque en una tabla estática. H–He abre la primera organización material ordinaria; IX amplía el dominio hacia elementos reconocidos, candidatos estructurales y materiales; X introduce el paso formal desde elemento a relación. Sin ese paso, agua, hidrocarburos, proteínas, ácidos nucleicos, aleaciones y materiales biomédicos quedarían tratados como nombres compuestos, no como organizaciones materiales. El par estructural no agota la molécula, pero permite iniciar su análisis con disciplina: antes de hablar de moléculas complejas hay que preguntar si los componentes pueden formar una relación admisible, bajo qué modo, con qué compatibilidad posicional, con qué frontera material y con qué retorno físico. Así, el análisis pasa del inventario al vínculo, del símbolo químico a la relación material y de la presencia de elementos a la posibilidad de organización. Este núcleo supone un soporte documental concreto: el *Catálogo de Pares Estructurales SV*, citado en adelante como CPS-SV, que evalúa pares de elementos del dominio extendido `Ω_443` mediante una función `D(A,B)` y criterios explícitos de enlace, aleación y compatibilidad posicional.
+El paso desde la tabla periódica hacia la organización molecular exige abandonar la lectura del elemento aislado como unidad suficiente. Un elemento posee identidad, masa, propiedades, posición y retorno; pero una molécula, una aleación o un material organizado no nacen de la simple presencia de elementos, sino de relaciones entre ellos. El par estructural es el primer nivel donde esa relación puede evaluarse de manera explícita: dos componentes entran en un dominio común, sus propiedades dejan de operar como rasgos separados y aparecen magnitudes de relación, compatibilidad, diferencia, persistencia conjunta y posibilidad de enlace. Esta transición es decisiva para la publicación porque impide que el régimen H–He desemboque en una tabla estática. H–He abre la primera organización material ordinaria; II.9 amplía el dominio hacia elementos reconocidos, candidatos estructurales y materiales; II.10 introduce el paso formal desde elemento a relación. Sin ese paso, agua, hidrocarburos, proteínas, ácidos nucleicos, aleaciones y materiales biomédicos quedarían tratados como nombres compuestos, no como organizaciones materiales. El par estructural no agota la molécula, pero permite iniciar su análisis con disciplina: antes de hablar de moléculas complejas hay que preguntar si los componentes pueden formar una relación admisible, bajo qué modo, con qué compatibilidad posicional, con qué frontera material y con qué retorno físico. Así, el análisis pasa del inventario al vínculo, del símbolo químico a la relación material y de la presencia de elementos a la posibilidad de organización. Este núcleo supone un soporte documental concreto: el *Catálogo de Pares Estructurales SV*, citado en adelante como CPS-SV, que evalúa pares de elementos del dominio extendido `Ω_443` mediante una función `D(A,B)` y criterios explícitos de enlace, aleación y compatibilidad posicional.
 
 ### II.10.2. Catálogo de Pares Estructurales SV (CPS-SV)
 
@@ -931,7 +944,7 @@ La organización molecular exige pares, pero no se reduce a pares. Una molécula
 
 ### II.10.6. De pares a moléculas estructurales
 
-El tránsito desde pares estructurales hacia moléculas estructurales debe formularse con cautela. CPS-SV trabaja sobre pares no ordenados de `Ω_443`; una molécula exige configuraciones de orden superior, no meras parejas aisladas. Por tanto, no procede declarar aquí un catálogo molecular completo si no se han fijado todavía todos sus criterios de composición. Lo que sí puede afirmarse es la regla de continuidad: una molécula estructural sólo podrá ser admisible si sus relaciones elementales pasan por pares compatibles, si la composición global conserva frontera, si la organización no viola los límites del dominio y si existe retorno físico, químico o biológico suficiente. Esta regla permite preparar el bloque posterior sin inventar una capa no demostrada. En CPS-SV, el propio desarrollo reserva la continuidad hacia moléculas estructurales como nivel siguiente, después del catálogo de pares (Lloret Egea, 2026e). La presente publicación aprovecha esa reserva de manera controlada: no sustituye el futuro aparato molecular, pero sí fija su necesidad dentro de la cadena material. H–He abre el primer régimen ordinario; la tabla periódica extendida abre el dominio de elementos; CPS-SV abre el dominio de vínculos; la molécula deberá abrir el dominio de configuraciones compuestas. Esta secuencia impide que la vida biológica aparezca de golpe. Antes de célula, hay molécula; antes de molécula compleja, hay enlace; antes de enlace, hay par; antes de par, hay elemento; antes de elemento posterior, hay régimen H–He.
+El tránsito desde pares estructurales hacia moléculas estructurales debe formularse con cautela. CPS-SV trabaja sobre pares no ordenados de `Ω_443`; una molécula exige configuraciones de orden superior, no meras parejas aisladas. Por tanto, no procede declarar aquí un catálogo molecular completo si no se han fijado todavía todos sus criterios de composición. Lo que sí puede afirmarse es la regla de continuidad: una molécula estructural sólo podrá ser admisible si sus relaciones elementales pasan por pares compatibles, si la composición global conserva frontera, si la organización no viola los límites del dominio y si existe retorno físico, químico o biológico suficiente. Esta regla permite preparar el apartado posterior sin inventar una capa no demostrada. En CPS-SV, el propio desarrollo reserva la continuidad hacia moléculas estructurales como nivel siguiente, después del catálogo de pares (Lloret Egea, 2026e). La presente publicación aprovecha esa reserva de manera controlada: no sustituye el futuro aparato molecular, pero sí fija su necesidad dentro de la cadena material. H–He abre el primer régimen ordinario; la tabla periódica extendida abre el dominio de elementos; CPS-SV abre el dominio de vínculos; la molécula deberá abrir el dominio de configuraciones compuestas. Esta secuencia impide que la vida biológica aparezca de golpe. Antes de célula, hay molécula; antes de molécula compleja, hay enlace; antes de enlace, hay par; antes de par, hay elemento; antes de elemento posterior, hay régimen H–He.
 
 ### II.10.7. Agua, hidrocarburos y moléculas biológicas como casos fuertes
 
@@ -939,7 +952,7 @@ Agua, hidrocarburos y moléculas biológicas son casos fuertes porque muestran c
 
 ### II.10.8. Organización material y continuidad hacia vida biológica
 
-El resultado de X puede formularse así: la materia ordinaria posterior al régimen H–He sólo se vuelve inteligible cuando pasa del elemento al vínculo, del vínculo a la molécula y de la molécula al dominio biológico. La tabla periódica reconocida y el catálogo extendido proporcionan el dominio de elementos; CPS-SV introduce la evaluación de pares; los enlaces y aleaciones muestran relaciones materiales de primer orden; las moléculas organizan relaciones múltiples; la vida biológica presupone esa organización y la eleva a sistemas con frontera, metabolismo, información, reparación, reproducción y retorno. Esta continuidad no autoriza a cerrar por anticipado. Un par APTO no es una molécula completa; una molécula relevante no es todavía vida; una vida biológica no funda la materia ordinaria; y un región estructural todavía no incorporada al subdominio reconocido no debe presentarse como elemento empírico. Cada nivel exige su propia frontera y su propio residual. Lo que sí queda establecido es la necesidad del tránsito: H–He no puede conducir directamente a biología sin pasar por elementos pesados, tabla periódica, pares, enlaces, agua, carbono, oxígeno y moléculas. La organización material aparece así como una cadena de dominios sucesivos, no como salto. El apartado siguiente podrá tratar la vida biológica con una restricción clara: la vida entra como dominio posterior de alta complejidad, no como origen material. Su función será mostrar qué presupone, qué reorganiza y qué retornos aporta, sin desplazar el cierre ya alcanzado para el régimen H–He ni invadir el plano preformal.
+El resultado de II.10 puede formularse así: la materia ordinaria posterior al régimen H–He sólo se vuelve inteligible cuando pasa del elemento al vínculo, del vínculo a la molécula y de la molécula al dominio biológico. La tabla periódica reconocida y el catálogo extendido proporcionan el dominio de elementos; CPS-SV introduce la evaluación de pares; los enlaces y aleaciones muestran relaciones materiales de primer orden; las moléculas organizan relaciones múltiples; la vida biológica presupone esa organización y la eleva a sistemas con frontera, metabolismo, información, reparación, reproducción y retorno. Esta continuidad no autoriza a cerrar por anticipado. Un par APTO no es una molécula completa; una molécula relevante no es todavía vida; una vida biológica no funda la materia ordinaria; y un región estructural todavía no incorporada al subdominio reconocido no debe presentarse como elemento empírico. Cada nivel exige su propia frontera y su propio residual. Lo que sí queda establecido es la necesidad del tránsito: H–He no puede conducir directamente a biología sin pasar por elementos pesados, tabla periódica, pares, enlaces, agua, carbono, oxígeno y moléculas. La organización material aparece así como una cadena de dominios sucesivos, no como salto. El apartado siguiente podrá tratar la vida biológica con una restricción clara: la vida entra como dominio posterior de alta complejidad, no como origen material. Su función será mostrar qué presupone, qué reorganiza y qué retornos aporta, sin desplazar el cierre ya alcanzado para el régimen H–He ni invadir el plano preformal.
 
 
 ## II.11. Vida biológica como dominio posterior, no origen material
@@ -970,7 +983,7 @@ El retorno biológico de la organización material se expresa en señales, estru
 
 ### II.11.7. Alcance y límite de la lectura biológica
 
-El alcance de la lectura biológica queda delimitado: la vida muestra una reorganización posterior de la materia ordinaria, pero no redefine el origen material del universo observable. Su presencia confirma que la cadena H–He → elementos → pares → enlaces → moléculas puede conducir a organización biológica bajo condiciones adecuadas; su ausencia en otros dominios no invalidaría la prioridad material del régimen H–He. Esta precisión es esencial para evitar una tesis finalista. La vida no es meta necesaria del hidrógeno, ni destino obligado del helio, ni criterio último de verdad de la materia ordinaria. Es un dominio posterior con restricciones propias. Por eso, el resultado de XI debe mantenerse sobrio: la vida presupone el régimen H–He y la materia organizada posterior; reorganiza agua, carbono, oxígeno, hidrógeno, nitrógeno, fósforo, azufre, enlaces, moléculas y membranas; aporta retorno biológico; pero no funda el régimen, no sustituye la tabla periódica, no reemplaza CPS-SV y no invade los planos preformales. Con este límite, el desarrollo queda preparado para la matriz de contraste: ya se han separado origen preformal, origen material ordinario, energía ⇄ masa, H, He, Sol, tabla periódica, pares, moléculas y vida. El paso siguiente deberá convertir esa arquitectura en casos evaluables, con salidas de admisión, defecto y no determinación legítima.
+El alcance de la lectura biológica queda delimitado: la vida muestra una reorganización posterior de la materia ordinaria, pero no redefine el origen material del universo observable. Su presencia confirma que la cadena H–He → elementos → pares → enlaces → moléculas puede conducir a organización biológica bajo condiciones adecuadas; su ausencia en otros dominios no invalidaría la prioridad material del régimen H–He. Esta precisión es esencial para evitar una tesis finalista. La vida no es meta necesaria del hidrógeno, ni destino obligado del helio, ni criterio último de verdad de la materia ordinaria. Es un dominio posterior con restricciones propias. Por eso, el resultado de II.11 debe mantenerse sobrio: la vida presupone el régimen H–He y la materia organizada posterior; reorganiza agua, carbono, oxígeno, hidrógeno, nitrógeno, fósforo, azufre, enlaces, moléculas y membranas; aporta retorno biológico; pero no funda el régimen, no sustituye la tabla periódica, no reemplaza CPS-SV y no invade los planos preformales. Con este límite, el desarrollo queda preparado para la matriz de contraste: ya se han separado origen preformal, origen material ordinario, energía ⇄ masa, H, He, Sol, tabla periódica, pares, moléculas y vida. El paso siguiente deberá convertir esa arquitectura en casos evaluables, con salidas de admisión, defecto y no determinación legítima.
 
 
 ## II.12. Matriz de contraste y admisibilidad
@@ -1101,15 +1114,15 @@ La matriz queda cerrada por una regla de salida. Una admisión sólo procede cua
 | Admisión empírica | Retorno externo suficiente | Caso detectado o medido en su dominio | Fundamento absoluto |
 | Rechazo de plano | Invasión de origen preformal, totalidad o vida como fundamento | La formulación debe corregirse | Que el objeto físico pierda valor en su dominio |
 
-El resultado operativo de XII es una depuración: H–He queda como primera organización material ordinaria sólo cuando su residual conjunto se anula; la tabla reconocida queda como subdominio físico detectado; SV-443 queda como dominio estructural extendido con candidatos en no determinación legítima cuando falte detección; CPS-SV queda como evaluación de pares, no como molécula completa; la molécula queda como configuración compuesta, no como vida; y la vida queda como dominio posterior, no como origen material. Con esta matriz, el apartado siguiente puede presentar las fórmulas centrales sin introducir fórmulas nuevas sin función material: cada fórmula deberá corresponder a una condición ya aplicada por la matriz.
+El resultado operativo de II.12 es una depuración: H–He queda como primera organización material ordinaria sólo cuando su residual conjunto se anula; la tabla reconocida queda como subdominio físico detectado; SV-443 queda como dominio estructural extendido con candidatos en no determinación legítima cuando falte detección; CPS-SV queda como evaluación de pares, no como molécula completa; la molécula queda como configuración compuesta, no como vida; y la vida queda como dominio posterior, no como origen material. Con esta matriz, el apartado siguiente puede presentar las fórmulas centrales sin introducir fórmulas nuevas sin función material: cada fórmula deberá corresponder a una condición ya aplicada por la matriz.
 
 ## II.13. Fórmulas centrales del desarrollo
 
-### II.13.1. Condición de acoplamiento raigal-material/energético
+### II.13.1. Condición de acoplamiento raigal, material y energético
 
 La condición de acoplamiento raigal-material/energético es `C_{Ξ→M/E}^{SV}(Γ,F)=0 ⇔ R_{Ξ→M/E}^{SV}(Γ,F)=0`. Su función consiste en declarar que la relación entre materia y energía no entra en esta tesis como conversión desnuda entre dos entidades autónomas, sino como acoplamiento condicionado de proyecciones del raigal bajo dominio, frontera, canal, residual y retorno. `Ξ_SV` no es hidrógeno, no es helio, no es masa ordinaria, no es energía ordinaria y no sustituye a una magnitud física externa. Opera como fibra primitiva de generación cuya lectura material exige proyección y retorno. `Π_M(Ξ_SV)` designa la proyección material; `Π_E(Ξ_SV)` designa la proyección energética; `Γ` designa el recorrido físico-formal examinado; `F` designa la frontera de evaluación. El residual `R_{Ξ→M/E}^{SV}` recoge los defectos que impiden admitir que ambas proyecciones se articulen en un dominio material: falta de frontera, ausencia de canal, pérdida de traza, retorno insuficiente, confusión entre raigal y elemento químico, o reducción indebida de materia y energía a las únicas salidas posibles. Si este residual no se anula, la doble flecha energía ⇄ masa queda sin suelo formal suficiente. Si se anula, la fórmula subordinada de transacción energía ⇄ masa puede operar sin parecer un añadido lateral.
 
-### II.13.2. Fórmula de transacción energía ⇄ masa
+### II.13.2. Fórmula de transacción energía-masa
 
 La fórmula de transacción energía ⇄ masa es `C_{E⇄M}^{SV}(Γ,F)=0 ⇔ R_{E⇄M}^{SV}(Γ,F)=0`. Su función no consiste en reemplazar la equivalencia basal `E₀=m₀c²`, sino en impedir que esa equivalencia sea usada como cierre suficiente allí donde todavía faltan dominio, frontera, régimen, traza y retorno. `C_{E⇄M}^{SV}` expresa la condición de transacción entre energía y masa dentro del dominio ya proyectado; `Γ` designa la trayectoria o recorrido físico-formal de la configuración examinada; `F` designa la frontera material bajo la cual la identidad puede conservarse, perderse o reorganizarse; `R_{E⇄M}^{SV}` concentra los defectos que impiden declarar admisible la transacción. La fórmula conserva la equivalencia de Einstein como sector basal, pero añade una exigencia material: no basta con afirmar que masa y energía están relacionadas; hay que decidir qué se retiene, qué se libera, qué frontera permanece, qué productos aparecen, qué señal retorna y qué régimen físico gobierna el proceso. En una combustión, el canal es químico y los productos materiales deben declararse; en una fusión nuclear, el canal es nuclear y exige plasma, presión, densidad, producto, radiación y neutrinos; en una reorganización molecular, los enlaces y la configuración resultante deben conservar retorno químico o físico. Por eso, la fórmula no autoriza una flecha simple `masa → energía` ni una lectura inversa igualmente simple. Energía y masa comparecen como identidad transaccional condicionada: una configuración puede retener energía como masa persistente, liberar energía al reorganizarse, conservar productos materiales, perder frontera o cambiar de régimen. La admisión sólo procede cuando `R_{E⇄M}^{SV}(Γ,F)` se anula en el dominio declarado.
 
@@ -1119,11 +1132,11 @@ La condición local de admisibilidad material del hidrógeno es `A_H^{SV}(Γ_M,F
 
 ### II.13.4. Condición rectora del régimen H–He
 
-La condición del régimen H–He es `𝓗_{HHe}^{SV}(Γ_M)=0 ⇔ R_{HHe}^{SV}(Γ_M)=0`. Esta fórmula no evalúa hidrógeno aislado ni helio aislado, sino la relación funcional entre apertura material por H y estabilización ligera por He dentro de un dominio material declarado. `𝓗_{HHe}^{SV}` designa la condición de régimen; `Γ_M` designa el recorrido material examinado; `R_{HHe}^{SV}` recoge los defectos que impiden admitir el par H–He como primera organización material ordinaria del universo observable. La fórmula exige que se conserven simultáneamente varias condiciones: H debe comparecer como identidad material ordinaria abierta; He debe comparecer como estabilización ligera local; el dominio debe ser material y no preformal; la frontera de régimen debe estar declarada; la composición dominante debe tener retorno físico; la transacción energía ⇄ masa debe mantenerse bajo régimen y bajo la condición raigal-material previa; el Sol puede entrar como referencia física, no como origen; la continuidad hacia tabla periódica, pares, moléculas y vida debe permanecer abierta sin convertir esos dominios posteriores en fundamento. Si falta la función diferenciada de He, el régimen se degrada a hidrógeno privilegiado. Si H se absolutiza, el régimen invade planos que no le corresponden. Si el Sol se toma como origen, la referencia se deforma. Si SV-443, CPS-SV, moléculas o vida se adelantan como cierre del régimen, se pierde el orden material. La fórmula H–He no introduce un resultado por autoridad formal; concentra las condiciones ya trabajadas en III–XII y las somete a residual conjunto. Sólo cuando `R_{HHe}^{SV}(Γ_M)` se anula puede afirmarse que H–He queda admitido como primera organización material ordinaria dentro del alcance declarado.
+La condición del régimen H–He es `𝓗_{HHe}^{SV}(Γ_M)=0 ⇔ R_{HHe}^{SV}(Γ_M)=0`. Esta fórmula no evalúa hidrógeno aislado ni helio aislado, sino la relación funcional entre apertura material por H y estabilización ligera por He dentro de un dominio material declarado. `𝓗_{HHe}^{SV}` designa la condición de régimen; `Γ_M` designa el recorrido material examinado; `R_{HHe}^{SV}` recoge los defectos que impiden admitir el par H–He como primera organización material ordinaria del universo observable. La fórmula exige que se conserven simultáneamente varias condiciones: H debe comparecer como identidad material ordinaria abierta; He debe comparecer como estabilización ligera local; el dominio debe ser material y no preformal; la frontera de régimen debe estar declarada; la composición dominante debe tener retorno físico; la transacción energía ⇄ masa debe mantenerse bajo régimen y bajo la condición raigal-material previa; el Sol puede entrar como referencia física, no como origen; la continuidad hacia tabla periódica, pares, moléculas y vida debe permanecer abierta sin convertir esos dominios posteriores en fundamento. Si falta la función diferenciada de He, el régimen se degrada a hidrógeno privilegiado. Si H se absolutiza, el régimen invade planos que no le corresponden. Si el Sol se toma como origen, la referencia se deforma. Si SV-443, CPS-SV, moléculas o vida se adelantan como cierre del régimen, se pierde el orden material. La fórmula H–He no introduce un resultado por autoridad formal; concentra las condiciones ya trabajadas en II.3–II.12 y las somete a residual conjunto. Sólo cuando `R_{HHe}^{SV}(Γ_M)` se anula puede afirmarse que H–He queda admitido como primera organización material ordinaria dentro del alcance declarado.
 
 ### II.13.5. Residuales asociados
 
-Los residuales asociados cumplen la función de separar formulación, admisión y límite. No son cautelas genéricas ni incertidumbres estadísticas: son condiciones materiales no satisfechas o aún no retornadas en el dominio examinado. `R_{Ξ→M/E}^{SV}` controla el acoplamiento entre proyección material y proyección energética del raigal; `R_{E⇄M}^{SV}` controla la transacción energía ⇄ masa en el dominio proyectado; `R_H^{circ}` controla la admisibilidad local del hidrógeno; `R_{HHe}^{SV}` controla la admisibilidad del régimen conjunto. Cada residual debe leerse por componentes, no como una palabra genérica de prudencia. En el acoplamiento raigal-material/energético importan proyección, canal, frontera, traza y retorno. En energía ⇄ masa importan retención, liberación, balance, canal, frontera y traza. En hidrógeno importan cadena material, concentración, canal, salida tipada, masa persistente, frontera, traza, protección de la no determinación legítima y conservación del sector basal. En H–He importan dominio, composición, apertura por H, estabilización por He, frontera de régimen, transición, retorno y continuidad posterior. Esta estructura impide tres errores: declarar cierre por plausibilidad, rechazar un dominio por falta de contraste completo cuando corresponde conservar no determinación legítima, o trasladar una salida válida fuera de su dominio. La matriz XII ya mostró cómo operan estos residuales en casos concretos; XIII los concentra en las fórmulas que gobernarán la demostración formal y los laboratorios posteriores.
+Los residuales asociados cumplen la función de separar formulación, admisión y límite. No son cautelas genéricas ni incertidumbres estadísticas: son condiciones materiales no satisfechas o aún no retornadas en el dominio examinado. `R_{Ξ→M/E}^{SV}` controla el acoplamiento entre proyección material y proyección energética del raigal; `R_{E⇄M}^{SV}` controla la transacción energía ⇄ masa en el dominio proyectado; `R_H^{circ}` controla la admisibilidad local del hidrógeno; `R_{HHe}^{SV}` controla la admisibilidad del régimen conjunto. Cada residual debe leerse por componentes, no como una palabra genérica de prudencia. En el acoplamiento raigal-material/energético importan proyección, canal, frontera, traza y retorno. En energía ⇄ masa importan retención, liberación, balance, canal, frontera y traza. En hidrógeno importan cadena material, concentración, canal, salida tipada, masa persistente, frontera, traza, protección de la no determinación legítima y conservación del sector basal. En H–He importan dominio, composición, apertura por H, estabilización por He, frontera de régimen, transición, retorno y continuidad posterior. Esta estructura impide tres errores: declarar cierre por plausibilidad, rechazar un dominio por falta de contraste completo cuando corresponde conservar no determinación legítima, o trasladar una salida válida fuera de su dominio. La matriz II.12 ya mostró cómo operan estos residuales en casos concretos; II.13 los concentra en las fórmulas que gobernarán la demostración formal y los laboratorios posteriores.
 
 | Residual | Dominio de aplicación | Componentes principales | Falla típica que detecta | Salida correcta |
 |---|---|---|---|---|
@@ -1166,7 +1179,7 @@ La tabla de símbolos fija el vocabulario necesario para leer las fórmulas sin 
 
 ### II.13.8. Lectura de alcance y límite
 
-El alcance de los resultados que establecen las fórmulas queda delimitado por el objeto de la investigación: formular el origen material ordinario del universo observable desde el régimen H–He, sin confundir ese régimen con origen preformal, activador primero, espacio, totalidad, tabla completa, molécula o vida. `C_{Ξ→M/E}^{SV}` ordena el acoplamiento entre proyección material y proyección energética del raigal; `C_{E⇄M}^{SV}` ordena la relación energía ⇄ masa bajo frontera y retorno; `A_H^{SV}` decide cuándo el hidrógeno puede operar como identidad material ordinaria abierta; `𝓗_{HHe}^{SV}` decide cuándo el par H–He puede admitirse como primera organización material ordinaria. Ninguna de estas fórmulas sustituye la física contemporánea, ni elimina la necesidad de bancos, datos, señales, espectros, composición solar, química, CPS-SV o laboratorios. Su fuerza procede de su límite: cada una actúa sólo en su dominio, exige residual y debe volver al resultado físico o estructural correspondiente. Con esto se evita convertir la publicación en acumulación formal. Las fórmulas centrales recogen lo ya construido por el recorrido argumental y por la matriz XII, pero todavía exigen una bloque demostrativo: la doble frontera y la continuidad raigal-material del régimen H–He. Sólo después de esa demostración procede llevar los casos a laboratorios reproducibles.
+El alcance de los resultados que establecen las fórmulas queda delimitado por el objeto de la investigación: formular el origen material ordinario del universo observable desde el régimen H–He, sin confundir ese régimen con origen preformal, activador primero, espacio, totalidad, tabla completa, molécula o vida. `C_{Ξ→M/E}^{SV}` ordena el acoplamiento entre proyección material y proyección energética del raigal; `C_{E⇄M}^{SV}` ordena la relación energía ⇄ masa bajo frontera y retorno; `A_H^{SV}` decide cuándo el hidrógeno puede operar como identidad material ordinaria abierta; `𝓗_{HHe}^{SV}` decide cuándo el par H–He puede admitirse como primera organización material ordinaria. Ninguna de estas fórmulas sustituye la física contemporánea, ni elimina la necesidad de bancos, datos, señales, espectros, composición solar, química, CPS-SV o laboratorios. Su fuerza procede de su límite: cada una actúa sólo en su dominio, exige residual y debe volver al resultado físico o estructural correspondiente. Con esto se evita convertir la publicación en acumulación formal. Las fórmulas centrales recogen lo ya construido por el recorrido argumental y por la matriz II.12, pero todavía exigen una demostración específica: la doble frontera y la continuidad raigal-material del régimen H–He. Sólo después de esa demostración procede llevar los casos a laboratorios reproducibles.
 
 ## II.14. Demostración de doble frontera y continuidad raigal-material del régimen H–He
 
@@ -1186,7 +1199,7 @@ Lema 1. Si un dominio `D` está realizado, entonces no procede atribuir su reali
 
 Lema 2. El raigal `Ξ_SV` no se identifica con ninguna de sus proyecciones. Demostración. Si `Ξ_SV` se identificara con `Π_M(Ξ_SV)`, el raigal quedaría reducido a materia ordinaria y no podría explicar la apertura de otras lecturas de dominio. Si se identificara con `Π_E(Ξ_SV)`, quedaría reducido a energía ordinaria y la proyección material aparecería subordinada a una magnitud que no puede ocupar por sí sola la condición generativa. Si se identificara con hidrógeno, helio, masa, señal, radiación o campo ordinario, se perdería la distinción entre fibra primitiva de generación y salidas físicas ya constituidas. Por tanto, el raigal sólo puede comparecer aquí como raíz formal de lectura proyectiva: `Ξ_SV ⟶ {Π_M,Π_E,Π_G,Π_R,...}`. Las proyecciones son lecturas condicionadas, no identidades del raigal. Esta separación permite que H–He tenga padre formal sin convertir ese padre en elemento químico ni en magnitud física ordinaria.
 
-### II.14.5. Lema de acoplamiento proyectivo materia/energía
+### II.14.5. Lema de acoplamiento proyectivo materia-energía
 
 Lema 3. La relación energía ⇄ masa sólo puede operar en esta tesis como caso subordinado del acoplamiento proyectivo entre `Π_M(Ξ_SV)` y `Π_E(Ξ_SV)`. Demostración. La expresión `E₀=m₀c²` conserva una equivalencia basal de reposo, pero no decide por sí sola dominio, frontera, canal, traza, retención, liberación ni retorno. Si se toma la doble flecha energía ⇄ masa como fundamento autónomo, materia y energía quedan tratadas como entidades independientes que se intercambian sin raíz formal. Para evitarlo, debe formularse primero `C_{Ξ→M/E}^{SV}(Γ,F)=0 ⇔ R_{Ξ→M/E}^{SV}(Γ,F)=0`: sólo si la proyección material y la proyección energética comparecen bajo un mismo dominio con frontera, canal, residual y retorno puede operar después `C_{E⇄M}^{SV}(Γ,F)=0 ⇔ R_{E⇄M}^{SV}(Γ,F)=0`. La masa persistente se lee entonces como proyección material con contenido energético retenido bajo frontera, no como energía que se vuelve materia sin mediación. La energía liberada se lee como retorno de reorganización bajo régimen, no como desaparición simple de materia. Queda establecida la subordinación formal de la doble flecha.
 
@@ -1258,51 +1271,486 @@ La tesis queda cerrada en su alcance declarado: el régimen H–He, leído desde
 - [III.3. Planteamiento del problema H: continuidad material sin igualdad de estado](#iii3-planteamiento-del-problema-h-continuidad-material-sin-igualdad-de-estado)
 - [III.4. Restricción H de la ley general de tránsito](#iii4-restricción-h-de-la-ley-general-de-tránsito)
 - [III.5. Cadena de dominios del hidrógeno](#iii5-cadena-de-dominios-del-hidrógeno)
-- [III.6. H–He como predominancia compatible y estabilización ligera](#iii6-hhe-como-predominancia-compatible-y-estabilización-ligera)
-- [III.7. Raigal, proyecciones y doble flecha energía⇄masa en el régimen H–He](#iii7-raigal-proyecciones-y-doble-flecha-energíamasa-en-el-régimen-hhe)
-- [III.8. Tabla bidireccional H/H–He: SV→SI y SI→SV](#iii8-tabla-bidireccional-hhhe-svsi-y-sisv)
-- [III.9. Banco positivo H/H–He](#iii9-banco-positivo-hhhe)
-- [III.10. Banco negativo H/H–He](#iii10-banco-negativo-hhhe)
+- [III.6. H–He como predominancia compatible y estabilización ligera](#iii6-h-he-como-predominancia-compatible-y-estabilización-ligera)
+- [III.7. Raigal, proyecciones y doble flecha energía-masa en el régimen H–He](#iii7-raigal-proyecciones-y-doble-flecha-energía-masa-en-el-régimen-h-he)
+- [III.8. Tabla bidireccional H/H–He: SV a SI y SI a SV](#iii8-tabla-bidireccional-hh-he-sv-a-si-y-si-a-sv)
+- [III.9. Banco positivo H/H–He](#iii9-banco-positivo-hh-he)
+- [III.10. Banco negativo H/H–He](#iii10-banco-negativo-hh-he)
 - [III.11. Teorema H de identidad de tránsito](#iii11-teorema-h-de-identidad-de-tránsito)
-- [III.12. Teorema H–He de predominancia compatible](#iii12-teorema-hhe-de-predominancia-compatible)
+- [III.12. Teorema H–He de predominancia compatible](#iii12-teorema-h-he-de-predominancia-compatible)
 - [III.13. Corolario hacia materia pesada, agua, molécula y vida](#iii13-corolario-hacia-materia-pesada-agua-molécula-y-vida)
 - [III.14. Conclusión fuerte del apartado III](#iii14-conclusión-fuerte-del-apartado-iii)
 
 </details>
 
-# IV. Laboratorios
+## III.1. Introducción del apartado III
+
+El apartado III aplica al hidrógeno y al régimen H–He la ley general de tránsito formulada en el apartado I y el desarrollo material establecido en el apartado II. Su función no es repetir que el hidrógeno es abundante ni que el helio estabiliza el dominio ligero, sino demostrar cómo la continuidad material ordinaria puede seguirse a través de dominios que no son iguales: núcleo, plasma, átomo, señal, estrella, molécula, agua, masa bariónica y retorno gravitatorio. El criterio rector será siempre el mismo: una identidad no atraviesa dominios por nombre, intuición o continuidad narrativa, sino por conservación tipada bajo dominio, frontera, canal, traza, residual y retorno. Por eso el hidrógeno no se evalúa como símbolo aislado `H`, sino como identidad de tránsito `H` bajo cadena declarada `Γ_H`; y el régimen H–He no se evalúa como suma de dos elementos, sino como predominancia compatible entre apertura material por H y estabilización ligera por He. El apartado III restringe la fórmula general `T_D^SV(D_i,D_j;x)=0 ⇔ R_D^SV(D_i,D_j;x)=0` al caso del hidrógeno y formula `T_H^SV:=T_D^SV|_{x=H,Γ_D=Γ_H}`. A partir de ahí, el análisis recorre la cadena `Γ_H=(D_H^nuc,D_H^plasma,D_H^atom,D_H^spect,D_H^stellar,D_H^mol,D_H^grav)` sin imponer igualdad entre estados y sin cortar la continuidad por especialización disciplinar. La pregunta ya no es si H aparece en muchos lugares, sino si puede conservar identidad tipada entre esos lugares sin error de plano. Esta aplicación cierra el arco principal de la publicación: el apartado I proporciona el aparato; el apartado II fija el origen material observable como régimen H–He; el apartado III demuestra la continuidad aplicada del caso patrón.
+
+## III.2. Estado del arte específico del hidrógeno y el helio
+
+El estado del arte específico confirma que hidrógeno y helio no comparecen como objetos simples, sino como contenidos físicos leídos por dominios distintos. El hidrógeno aparece como núcleo ligero, protón, átomo neutro, plasma, gas interestelar, línea espectral, señal de 21 cm, componente estelar, combustible nuclear, parte de moléculas y componente de agua y materia biológica. El helio aparece como núcleo ligero estable, producto de nucleosíntesis primordial, componente estelar, producto de fusión de hidrógeno, referencia de estabilidad nuclear ligera y elemento químicamente poco reactivo en condiciones ordinarias. La física contemporánea puede calcular con gran precisión muchos tramos de esa estructura: masas nucleares, niveles atómicos, transiciones espectrales, recombinación, abundancias, fusión solar, composición estelar, enlace químico, termodinámica de fases y retornos observacionales. Pero esa potencia no elimina el problema central: cada tramo usa lenguaje, frontera, unidad y régimen propios. La cosmología física no calcula por sí sola una molécula de agua; la física atómica no decide la identidad material completa de una estrella; la química no sustituye la lectura nuclear; la señal espectral no es el objeto total; y la masa bariónica no agota la identidad química ni biológica. El valor del SV en este apartado no consiste en negar esos dominios, sino en impedir que se unan por empalme tácito. La aplicación H/H–He exige que cada paso declare qué se conserva y qué cambia: si H es núcleo, átomo, plasma, señal, combustible estelar o H molecular subordinado, el dominio cambia; si el dominio cambia, debe aparecer residual; si el residual queda gobernado, la continuidad tipada se conserva; si no queda gobernado, la salida no puede cerrarse.
+
+## III.3. Planteamiento del problema H: continuidad material sin igualdad de estado
+
+El problema H puede formularse de manera directa: `H_nuclear ≠ H_plasmático ≠ H_atómico ≠ H_espectral ≠ H_estelar ≠ H_molecular ≠ H_gravitante`, pero esa desigualdad no implica ruptura absoluta de identidad. Si se exige igualdad de estado, el hidrógeno no podría transitar; si se acepta continuidad sólo por nombre, cualquier dominio podría ser sustituido por otro. Ambas vías son defectuosas. La continuidad material ordinaria exige una tercera posición: identidad de transición. El hidrógeno conserva identidad tipada cuando el paso entre dominios declara frontera, canal, traza, residual y retorno. Un protón en plasma no es un átomo neutro, pero puede participar en una cadena que conduce a neutralización; una línea de 21 cm no es el hidrógeno entero, pero puede funcionar como traza de H neutro; un H en agua no es H libre, pero conserva inscripción subordinada en dominio molecular; H solar no es H químico ordinario, pero participa en el régimen H–He bajo plasma, fusión, radiación y retorno. El planteamiento obliga a separar dos errores de plano: por un lado, cortar la continuidad cuando cambia el estado; por otro, declarar continuidad sin tipar el cambio. La aplicación del aparato general consiste en demostrar que H puede recorrer dominios distintos sin convertirse en fundamento absoluto ni perder su condición de primera identidad material ordinaria abierta.
+
+## III.4. Restricción H de la ley general de tránsito
+
+La restricción H toma la fórmula general del apartado I y la aplica al contenido hidrógeno. Se define `T_H^SV:=T_D^SV|_{x=H,Γ_D=Γ_H}`, con `Γ_H=(D_H^nuc,D_H^plasma,D_H^atom,D_H^spect,D_H^stellar,D_H^mol,D_H^grav)`. El residual correspondiente queda fijado como `R_H^SV(D_i,D_j)=Δ_dom ⊕ Δ_idH ⊕ Δ_estado ⊕ Δ_F ⊕ Δ_C ⊕ Δ_Tr ⊕ Δ_R`, donde `Δ_dom` controla sustitución de dominio, `Δ_idH` controla conservación tipada de H, `Δ_estado` controla cambio de estado, `Δ_F` controla frontera, `Δ_C` controla canal, `Δ_Tr` controla traza y `Δ_R` controla retorno. La condición local se expresa como `T_H^SV(D_i,D_j)=0 ⇔ R_H^SV(D_i,D_j)=0`. Esta restricción no afirma que todos los estados de H sean equivalentes; afirma que cada paso puede ser evaluado por la misma compuerta. Cuando el residual local se anula o queda gobernado, el tránsito es apto; cuando el residual falla por contradicción, sustitución o pérdida de retorno, la salida es no apta; cuando faltan datos suficientes, se conserva `U`. La restricción H impide que la física compuesta por dominios cierre por costumbre: cada cambio de régimen debe mostrar su custodia estructural.
+
+## III.5. Cadena de dominios del hidrógeno
+
+La cadena `Γ_H` organiza el recorrido aplicado. `D_H^nuc` designa el soporte nuclear o protónico; `D_H^plasma` designa el régimen ionizado o colectivo; `D_H^atom` designa el átomo neutro o dominio atómico; `D_H^spect` designa la traza espectral o retorno radiativo; `D_H^stellar` designa el dominio solar o estelar; `D_H^mol` designa el hidrógeno inscrito en moléculas; `D_H^grav` designa el retorno material por masa, composición o respuesta gravitatoria. Ninguno de esos dominios absorbe a los demás. La cadena no debe leerse como cronología única ni como historia lineal obligatoria; funciona como matriz de tránsito: permite evaluar qué se conserva y qué cambia cuando el hidrógeno comparece en regímenes distintos. El tránsito `D_H^nuc→D_H^plasma` exige dominio de ionización y canal colectivo; `D_H^plasma→D_H^atom` exige recombinación o neutralización bajo frontera electrónica; `D_H^atom→D_H^spect` exige canal radiativo y traza; `D_H^atom→D_H^mol` exige enlace y dominio químico; `D_H^stellar→D_He^stellar` exige régimen nuclear, no química; `D_H^mol→D_H^bio` exige moléculas, agua, carbono, oxígeno y dominio posterior; `D_H^grav` devuelve masa o composición, pero no sustituye el contenido químico. La cadena sólo cierra si cada tramo conserva residual gobernado. Así se obtiene una continuidad fuerte: no por igualdad de estado, sino por tránsito tipado.
+
+| Dominio de H | Lectura física | Qué conserva | Qué cambia | Residual principal |
+|---|---|---|---|---|
+| `D_H^nuc` | Protón o soporte nuclear ligero | Identidad nuclear de H | Estado electrónico ausente | `Δ_estado`, `Δ_C` |
+| `D_H^plasma` | H ionizado en régimen colectivo | Composición ligera y carga | Frontera atómica neutral | `Δ_F`, `Δ_estado` |
+| `D_H^atom` | H neutro | Frontera atómica y niveles | Ionización previa o enlace posterior | `Δ_idH`, `Δ_R` |
+| `D_H^spect` | Línea o señal | Traza de H | Objeto completo no presente | `Δ_Tr`, `Δ_R` |
+| `D_H^stellar` | H en estrella | Régimen H–He bajo plasma | Dominio químico ordinario | `Δ_dom`, `Δ_Ereg` |
+| `D_H^mol` | H inscrito en molécula | H subordinado a enlace | H libre no conservado como tal | `Δ_dom`, `Δ_idH` |
+| `D_H^grav` | Retorno por masa/composición | Persistencia material | Identidad química no agotada | `Δ_R`, `Δ_no_importación` |
+
+## III.6. H–He como predominancia compatible y estabilización ligera
+
+El régimen H–He se formula como predominancia compatible, no como suma elemental ni como cierre absoluto. La predominancia de H expresa apertura material ordinaria, abundancia y capacidad de continuidad; la estabilización de He expresa suficiencia nuclear ligera y contraste interno. La forma de control puede escribirse como `Pred_comp(P_H,P_He) ∧ R_HHe^SV=0 ⇒ ¬Claus_HHe(Γ)`, donde `Pred_comp(P_H,P_He)` indica predominancia compatible de funciones H y He, `R_HHe^SV` recoge el residual conjunto, y `¬Claus_HHe(Γ)` impide leer el régimen como clausura total. Esta fórmula es decisiva: si H domina y He estabiliza, no se sigue que la materia ordinaria quede agotada; se sigue que el primer régimen ordinario posee estructura interna. H abre continuidad hacia átomo, señal, estrella, enlace, agua, molécula y vida; He introduce estabilidad ligera y lectura nuclear, pero no cancela la apertura de H. La predominancia compatible conserva diferencia sin convertirla en oposición destructiva. Si H absorbe a He, se pierde estabilización; si He cancela a H, se pierde apertura; si ambos se tratan como inventario, se pierde régimen; si se convierten en fundamento absoluto, se pierde plano. El cierre correcto es más fino: H–He inaugura la organización material ordinaria, pero queda abierto hacia elementos pesados, tabla periódica estructural, pares, materiales, moléculas y biología.
+
+## III.7. Raigal, proyecciones y doble flecha energía-masa en el régimen H–He
+
+La aplicación H–He debe conservar la arquitectura raigal del apartado II. La relación energía-masa no se toma como punto primero ni como consigna suficiente. Antes de la doble flecha hay proyección: `Ξ_SV → Π_M(Ξ_SV), Π_E(Ξ_SV), Π_G(Ξ_SV), Π_R(Ξ_SV), ...`. La proyección material `Π_M` permite leer masa persistente e identidad de dominio; la proyección energética `Π_E` permite leer eficacia, liberación, retención o redistribución de régimen; la proyección gravitatoria `Π_G` devuelve respuesta del dominio de separación; la proyección radiativa o de señal `Π_R` devuelve traza. En H–He, el acoplamiento se formula como `C_{Ξ→HHe}^SV(Γ,F)=0 ⇔ R_{Ξ→HHe}^SV(Γ,F)=0`, y sólo después como `C_{E-M,HHe}^SV(Γ,F)=0 ⇔ R_{E-M,HHe}^SV(Γ,F)=0`. Esta secuencia evita invertir el fundamento: no se declara que H sea energía convertida en masa sin dominio, ni que He sea simple producto energético, ni que la fusión solar agote la identidad material. El régimen H–He conserva masa, energía, frontera, productos, radiación, neutrinos, composición y retorno bajo condiciones de régimen. Si el residual `R_{Ξ→HHe}^SV` se anula, la articulación raigal-proyectiva queda apta; si se anula `R_{E-M,HHe}^SV`, la transacción energía-masa queda admisible dentro del régimen; si alguno falla, el cierre queda prohibido o conserva `U`.
+
+## III.8. Tabla bidireccional H/H–He: SV a SI y SI a SV
+
+La aplicación necesita una tabla bidireccional para que el tránsito no quede en formulación interna. La dirección SI/ciencia contemporánea a SV recibe masa, abundancia, espectro, composición, línea, fusión, energía, molécula o retorno gravitatorio con dominio declarado. La dirección SV a SI/ciencia contemporánea devuelve entidad, unidad, señal, banco o magnitud. Esta tabla no pretende sustituir los cálculos físicos externos; fija la custodia que permite usarlos sin error de plano.
+
+| Entrada externa | Dominio externo | Recepción SV | Residual | Retorno SV a ciencia contemporánea |
+|---|---|---|---|---|
+| Protón/H nuclear | Física nuclear | `D_H^nuc` | `Δ_idH`, `Δ_C` | Identidad nuclear de H bajo dominio declarado |
+| Plasma de H | Física del plasma | `D_H^plasma` | `Δ_estado`, `Δ_F` | H ionizado sin igualarlo a átomo neutro |
+| H neutro | Física atómica | `D_H^atom` | `Δ_estado`, `Δ_R` | Identidad atómica de H con frontera electrónica |
+| Lyman-α | Espectroscopía | `D_H^spect` | `Δ_Tr`, `Δ_R` | Traza espectral, no objeto completo |
+| Línea de 21 cm | Radioastronomía | `D_H^spect` | `Δ_Tr`, `Δ_estado` | Retorno de H neutro |
+| Fusión H→He | Física nuclear estelar | `D_HHe^stellar` | `Δ_Ereg`, `Δ_C` | Transición nuclear bajo régimen, no combustión |
+| Composición solar H–He | Astrofísica solar | `D_⊙,HHe` | `Δ_dom`, `Δ_R` | Referencia física del régimen H–He |
+| H en H₂O | Química/fases | `D_H^mol` | `Δ_dom`, `Δ_idH` | H molecular subordinado, no H libre |
+| Masa bariónica | Cosmología/gravitación | `D_HHe^grav` | `Δ_no_importación` | Retorno material o gravitatorio, no fundamento |
+| Abundancia H–He | Cosmología física | `D_cosm,HHe` | `R_HHe^SV` | Banco de predominancia compatible |
+
+## III.9. Banco positivo H/H–He
+
+El banco positivo recoge casos donde la continuidad H/H–He puede admitirse si se declaran dominio, frontera, canal, traza, residual y retorno. No son ejemplos no material; son pruebas de aptitud de tránsito.
+
+| Caso | Tránsito o lectura | Condición de aptitud | Dictamen |
+|---|---|---|---|
+| H nuclear a H plasmático | `D_H^nuc→D_H^plasma` | Dominio de ionización declarado | Apto condicionado |
+| Plasma a H neutro | `D_H^plasma→D_H^atom` | Frontera electrónica y recombinación declaradas | Apto condicionado |
+| H neutro a línea de 21 cm | `D_H^atom→D_H^spect` | Canal hiperfino y señal retornada | Apto |
+| H atómico a Lyman-α | `D_H^atom→D_H^spect` | Transición radiativa tipada | Apto |
+| H solar en plasma | `D_H^stellar` | Dominio estelar, plasma y confinamiento declarados | Apto condicionado |
+| H→He en régimen solar | `D_H^stellar→D_He^stellar` | Fusión nuclear, productos y retorno declarados | Apto condicionado |
+| H en H₂O | `D_H^atom/mol→D_H^mol` | Enlace y dominio molecular declarados | Apto subordinado |
+| H en molécula biológica | `D_H^mol→D_H^bio` | Dominio molecular-biológico declarado | Apto subordinado |
+| H–He como composición dominante ligera | `D_cosm,HHe` | Predominancia compatible, no absolutización | Apto |
+| Masa bariónica H–He | `D_HHe^grav` | Retorno gravitatorio sin sustituir química | Apto condicionado |
+
+## III.10. Banco negativo H/H–He
+
+El banco negativo fija usos no aptos. Su función es impedir que la continuidad se convierta en licencia retórica.
+
+| Caso | Error de plano | Residual | Dictamen |
+|---|---|---|---|
+| Declarar que H es `ε₋₀` | Sustitución de plano preformal por elemento | `Δ_dom≠0` | No apto |
+| Declarar que H es `ε₀` | Confusión entre activador y objeto material | `Δ_dom≠0` | No apto |
+| Igualar H plasmático y H atómico sin frontera | Eliminación de cambio de estado | `Δ_estado≠0` | No apto |
+| Tratar Lyman-α como H completo | Señal tomada como objeto total | `Δ_Tr≠0` | No apto |
+| Usar H en agua como H libre | Sustitución de dominio molecular | `Δ_idH≠0` | No apto |
+| Reducir H–He a abundancia | Banco cosmológico usado como fundamento | `Δ_no_importación≠0` | No apto |
+| Tomar el Sol como origen H–He | Referencia física convertida en fundamento | `Δ_dom≠0` | No apto |
+| Leer He como cancelación de H | Estabilización convertida en clausura absoluta | `R_HHe^SV≠0` | No apto |
+| Convertir energía-masa en explicación total | Equivalencia basal sin dominio ni frontera | `R_{E-M}≠0` | No apto |
+| Cerrar elementos pesados por inventario corto | Continuidad posterior empobrecida | `Δ_R` o `U` | No cierre |
+
+## III.11. Teorema H de identidad de tránsito
+
+**Teorema H.** Sea `Γ_H=(D_H^nuc,D_H^plasma,D_H^atom,D_H^spect,D_H^stellar,D_H^mol,D_H^grav)` una cadena de dominios en la que el hidrógeno comparece bajo estados no idénticos. Existe identidad de tránsito de H sobre `Γ_H` si y sólo si todo tránsito local `D_i^H→D_{i+1}^H` conserva identidad tipada de H con dominio, frontera, canal, traza, residual y retorno declarados. Forma compacta: `Id_trans^SV(H;Γ_H)=1 ⇔ ⊕ R_H^SV(D_i^H,D_{i+1}^H)=0`. Demostración: si existe identidad de tránsito, cada paso debe conservar `Δ_dom=0`, `Δ_idH=0`, `Δ_F=0`, `Δ_C=0`, `Δ_Tr=0` y `Δ_R=0`, porque de lo contrario no se sabe qué H transita, por qué frontera, mediante qué canal, con qué traza o con qué retorno; por tanto, todos los residuales locales deben cerrarse. En sentido inverso, si todos los residuales locales se anulan o quedan gobernados, ningún cambio de dominio destruye la identidad tipada de H; los estados pueden ser distintos sin que la continuidad quede rota. Luego la identidad de tránsito existe. El teorema no declara igualdad entre H nuclear, plasmático, atómico, espectral, estelar, molecular o gravitante; declara continuidad tipada bajo custodia estructural.
+
+## III.12. Teorema H–He de predominancia compatible
+
+**Teorema H–He.** Sea `Γ_HHe` un dominio material ordinario en el que H y He comparecen como contenidos ligeros con funciones diferenciadas. Si H opera como apertura material ordinaria, He opera como estabilización ligera local, el residual conjunto `R_HHe^SV` se anula y la relación cumple `Pred_comp(P_H,P_He)`, entonces H–He queda admitido como primer régimen material ordinario sin clausurar la materia ordinaria posterior. Forma compacta: `Pred_comp(P_H,P_He) ∧ R_HHe^SV=0 ⇒ Adm_HHe^SV=1 ∧ ¬Claus_HHe(Γ)`. Demostración: H aislado no basta para cerrar el régimen porque conserva apertura sin estabilización ligera; He aislado no basta porque estabiliza sin abrir la continuidad química y espectral propia de H; la suma nominal de ambos tampoco basta si no declara dominio, frontera, traza y retorno. Cuando la predominancia compatible conserva la función de H y la función de He, y el residual conjunto se anula, el régimen puede admitirse como primera organización material ordinaria. Pero esa admisión no implica clausura total porque la materia posterior exige elementos pesados, tabla periódica estructural, pares, moléculas, agua y vida. Luego H–He cierra como régimen inicial ordinario y permanece abierto como cadena material.
+
+## III.13. Corolario hacia materia pesada, agua, molécula y vida
+
+Del teorema H y del teorema H–He se sigue que la continuidad material ordinaria no termina en H–He. Si H conserva identidad tipada por tránsito y H–He se admite como predominancia compatible, entonces la materia posterior debe leerse como desarrollo de dominios nuevos, no como apéndice no material ni como inventario cerrado. La cadena continúa hacia elementos pesados, tabla periódica estructural, SV-443 como frontera formal del dominio estructural ampliado, materiales de nueva generación, Catálogo de Pares Estructurales SV, enlaces, aleaciones, moléculas, agua, hidrocarburos, moléculas biológicas y vida. Cada uno de esos tramos exige su propio dominio, frontera, canal, traza, residual y retorno. El agua no es analogía externa: contiene hidrógeno y muestra tránsito de fase; las moléculas orgánicas no son simple suma de elementos: exigen enlace y compatibilidad; la vida no funda el régimen H–He: presupone materia ordinaria organizada. El corolario puede formularse así: `Adm_HHe^SV=1 ⇒ Apertura(Γ_materia posterior)`, pero `Apertura(Γ_materia posterior)` no implica cierre automático de todos sus dominios. Se preserva así la fuerza de H–He sin empobrecer el resto de la materia ordinaria.
+
+## III.14. Conclusión fuerte del apartado III
+
+El apartado III deja cerrado el uso aplicado de la ley de tránsito: el hidrógeno no conserva identidad por igualdad de estado ni por etiqueta química, sino por tránsito tipado entre dominios. La cadena `Γ_H` permite seguir H como núcleo, plasma, átomo, señal, dominio estelar, molécula y retorno material sin reducir esos estados a una única entidad indiferenciada ni romper su continuidad. El régimen H–He queda admitido como primera organización material ordinaria cuando H aporta apertura, He aporta estabilización ligera, la predominancia es compatible y el residual conjunto se anula. La doble flecha energía-masa queda subordinada a dominio, proyección, frontera, canal, traza y retorno; no opera como fundamento desnudo. El resultado aplicado es fuerte y acotado: H–He inaugura la materia ordinaria observable, pero no la clausura; abre continuidad hacia tabla periódica estructural, elementos pesados, pares, materiales, moléculas, agua y vida. Con ello, la publicación obtiene una línea completa: primero, ley general de tránsito; después, régimen H–He como origen material ordinario; finalmente, aplicación del hidrógeno como caso patrón de continuidad interdominio.
+
+# IV. Blindaje físico-doctrinal: sutura, residual vectorial, falsabilidad y alcance
 
 <details>
 <summary><strong>Mostrar / ocultar índice del apartado IV</strong></summary>
 
-- [IV.1. Función de los laboratorios](#iv1-función-de-los-laboratorios)
-- [IV.2. Banco de Contraste de Admisibilidad Material H–He](#iv2-banco-de-contraste-de-admisibilidad-material-hhe)
-- [IV.3. Reproducibilidad, trazabilidad y resultado ejecutado](#iv3-reproducibilidad-trazabilidad-y-resultado-ejecutado)
+- [IV.1. Alcance corregido: origen material ordinario y no totalidad física](#iv1-alcance-corregido-origen-material-ordinario-y-no-totalidad-física)
+- [IV.2. Encaje cuantitativo con sutura, capacidad y materialidad retornada](#iv2-encaje-cuantitativo-con-sutura-capacidad-y-materialidad-retornada)
+- [IV.3. Residual vectorial de admisibilidad material del hidrógeno](#iv3-residual-vectorial-de-admisibilidad-material-del-hidrógeno)
+- [IV.4. Aporte propio frente a la génesis del hidrógeno de 2026c](#iv4-aporte-propio-frente-a-la-génesis-del-hidrógeno-de-2026c)
+- [IV.5. Generador SV-443, transición química y CPS-SV](#iv5-generador-sv-443-transición-química-y-cps-sv)
+- [IV.6. Falsabilidad y condiciones de refutación](#iv6-falsabilidad-y-condiciones-de-refutación)
+- [IV.7. Rango del laboratorio BCAM-HHe](#iv7-rango-del-laboratorio-bcam-hhe)
+- [IV.8. Banco de materialidad ordinaria retornada usado en esta obra](#iv8-banco-de-materialidad-ordinaria-retornada-usado-en-esta-obra)
+- [IV.9. Resultado de blindaje](#iv9-resultado-de-blindaje)
 
 </details>
 
-## IV.1. Función de los laboratorios
+## IV.1. Alcance corregido: origen material ordinario y no totalidad física
 
-## IV.2. Banco de Contraste de Admisibilidad Material H–He
+El título y la tesis deben leerse con el adjetivo decisivo: origen material ordinario. La publicación no afirma que H–He sea origen absoluto, no afirma que agote lo físico y no afirma que la materia ordinaria coincida con la capacidad estructural total del dominio realizado. Afirma que el régimen H–He constituye la primera organización material ordinaria en la que comparecen identidad material persistente, masa, frontera, señal, retorno y continuidad hacia materia posterior. Por tanto, H–He no se coloca en el lugar de `ρ_cap^SV`, no se identifica con la sutura y no elimina `ρ_C^SV`; se sitúa dentro de la materialidad retornada, principalmente bajo la componente admitida `ρ_A^SV` del inventario físico.
 
-## IV.3. Reproducibilidad, trazabilidad y resultado ejecutado
+## IV.2. Encaje cuantitativo con sutura, capacidad y materialidad retornada
 
-# V. Bibliografía
+La ecuación de encaje cosmológico que impide el error de plano es `ρ_cap^SV(Ω_T) = ρ_ret^SV(Ω_T;B) + ρ_sut,grav^SV(Ω_T;B) + ρ_C^SV(Ω_T;B)` y debe leerse en continuidad con el teorema de resolución física de la constante cosmológica y con la reidentificación de la materia oscura como densidad gravitatoria efectiva de sutura, no como sustancia material (Lloret Egea, 2026i, 2026o). La forma despejada es `ρ_sut,grav^SV(Ω_T;B) = ρ_cap^SV(Ω_T) − ρ_ret^SV(Ω_T;B) − ρ_C^SV(Ω_T;B)`. Bajo el inventario conservador `B₀`, la fuente de sutura fija `ρ_cap^SV(Ω_T)=9,429953786784435 × 10⁻²⁷ kg·m⁻³`, `m_cap^SV(Ω_T)=8,790416297944350 × 10⁵² kg`, `V_T^SV=9,321802096489209 × 10⁷⁸ m³`, `ρ_A^SV(Ω_T;B₀)≈4,3 × 10⁻²⁸ kg·m⁻³`, `m_A^SV(Ω_T;B₀)≈4,008374901490360 × 10⁵¹ kg` y `m_sut,SI^SV(Ω_T;B₀)≈8,389578807795314 × 10⁵² kg`. De esas magnitudes se obtiene `ρ_sut,grav^SV(Ω_T;B₀)≈8,999953786784435 × 10⁻²⁷ kg·m⁻³` cuando `ρ_C^SV=0` en la comparación orientativa de inventario. La proporción exacta asociada a ese banco es `ρ_A^SV/ρ_cap^SV≈4,559937511 %` y `ρ_sut,grav^SV/ρ_cap^SV≈95,440062489 %`. Esta proporción no convierte la sutura en materia ni rebaja H–He a irrelevancia: fija que H–He pertenece a la fracción material ordinaria retornada, mientras la mayor parte de la capacidad estructural comparativa queda fuera del inventario material admitido y debe tratarse como sutura o residual según dominio e inventario. Si `ρ_C^SV` no es nulo, la proporción no se fuerza: se declara el residual y se recalcula el reparto.
+
+| Magnitud | Valor bajo `B₀` | Función en esta publicación | Error excluido |
+|---|---:|---|---|
+| `ρ_cap^SV(Ω_T)` | `9,429953786784435 × 10⁻²⁷ kg·m⁻³` | capacidad estructural del dominio físico realizado | leer capacidad como materia contenida |
+| `ρ_A^SV(Ω_T;B₀)` | `≈4,3 × 10⁻²⁸ kg·m⁻³` | materialidad ordinaria admitida de inventario conservador | confundir H–He con totalidad física |
+| `ρ_sut,grav^SV(Ω_T;B₀)` | `≈8,999953786784435 × 10⁻²⁷ kg·m⁻³` | retorno gravitatorio estructural de sutura | leer sutura como sustancia material |
+| `m_cap^SV(Ω_T)` | `8,790416297944350 × 10⁵² kg` | capacidad integrada transducida | inventario material oculto |
+| `m_A^SV(Ω_T;B₀)` | `≈4,008374901490360 × 10⁵¹ kg` | materialidad admitida integrada | cierre total de materia ordinaria |
+| `m_sut,SI^SV(Ω_T;B₀)` | `≈8,389578807795314 × 10⁵² kg` | masa equivalente de sutura inicial | materia oscura sustancializada |
+
+## IV.3. Residual vectorial de admisibilidad material del hidrógeno
+
+La condición `A_H^{SV}(Γ_M,F)=0 ⇔ R_H^{circ}(Γ_M,F)=0` no debe leerse como ecuación física autónoma ni como sustituto de un cálculo externo de espectros, masas o abundancias. Es una regla de admisibilidad computable. Su forma explícita queda fijada como vector residual tipado: `R_H^{circ}(Γ_M,F)=(r_dom,r_F,r_M,r_K,r_C,r_S,r_Tr,r_R,r_plane) ∈ {0,1,U}⁹`, donde `r_dom` controla dominio declarado, `r_F` frontera física, `r_M` masa persistente, `r_K` concentración o canal, `r_C` compatibilidad de cadena material, `r_S` salida tipada, `r_Tr` traza física, `r_R` retorno científico y `r_plane` ausencia de mezcla de planos. La salida se calcula por regla conservadora: `A_H^{SV}=0` si y sólo si todos los componentes valen `0`; si algún componente vale `1`, la admisión queda rechazada; si no hay `1` y existe al menos un `U`, la salida conserva indeterminación honesta. Así, la fórmula deja de operar como equivalencia verbal y pasa a ser una compuerta discreta de nueve predicados verificables, coherente con la ejecución del banco BCAM-HHe.
+
+| Componente | Pregunta de control | Salida que impide |
+|---|---|---|
+| `r_dom` | ¿Existe dominio material declarado? | cierre por nombre aislado |
+| `r_F` | ¿Hay frontera física suficiente? | admisión sin límite |
+| `r_M` | ¿Hay masa persistente retornable? | símbolo sin materialidad |
+| `r_K` | ¿Hay concentración o canal estructural? | dispersión no admisible |
+| `r_C` | ¿La cadena material es compatible? | salto de plano |
+| `r_S` | ¿La salida está tipada? | dictamen ambiguo |
+| `r_Tr` | ¿Existe traza física? | afirmación sin señal |
+| `r_R` | ¿Existe retorno científico? | cierre sin contraste |
+| `r_plane` | ¿Se evita sustituir dominio? | error de plano |
+
+## IV.4. Aporte propio frente a la génesis del hidrógeno de 2026c
+
+La publicación recibe de 2026c la tesis de que el hidrógeno debe leerse como firma material con masa, frontera, residual e identidad física bajo compatibilidad operatoria. No la reescribe como si naciera aquí. El aporte propio de esta obra es otro: sitúa esa firma dentro del régimen H–He, la hace pasar por la ley general de tránsito entre dominios, la confronta con la referencia solar, la proyecta hacia tabla periódica estructural, pares, moléculas y vida, la ejecuta en BCAM-HHe y la ubica frente a capacidad total, sutura y residual de no clausura. Por tanto, 2026c sostiene el caso H; esta publicación formula el régimen material ordinario H–He y su continuidad interdominio.
+
+| Fuente o plano | Recibido de 2026c | Añadido aquí |
+|---|---|---|
+| Hidrógeno | firma material, masa, frontera y residual | restricción H dentro de una ley general de tránsito |
+| Helio | no gobierna 2026c | estabilización ligera local del régimen H–He |
+| Energía y masa | compatibilidad operatoria | acoplamiento materia-energía bajo régimen H–He y referencia solar |
+| Dominio posterior | continuidad abierta | tabla estructural, pares, moléculas, agua y vida como continuidad material |
+| Laboratorio | no gobierna esta obra | BCAM-HHe como ejecución de matriz formal |
+| Cosmología SV reciente | no era el objeto directo | encaje frente a `ρ_cap^SV`, `ρ_ret^SV`, `ρ_sut,grav^SV` y `ρ_C^SV` |
+
+## IV.5. Generador SV-443, transición química y CPS-SV
+
+El catálogo SV-443 no se introduce aquí como predicción empírica cerrada ni como sustituto de la física nuclear contemporánea. Su fuente generativa queda resumida en tres filtros. Primero, las doce familias tipológicas `Σ₁…Σ₁₂` operan sobre la célula `SV(3,9)` mediante cinco parámetros: apertura inicial `φ(S₀)∈{1,3,5,7,9}`, amplitud baja/media/alta, velocidad gradual/rápida, régimen de acoplamiento débil/fuerte y tipo de residual persistente por familia. El producto es `5 × 3 × 2 × 2 = 60` configuraciones por familia; con doce familias, `12 × 60 = 720` configuraciones candidatas. Segundo, las condiciones de admisibilidad prequímica reducen esas 720 configuraciones a 675 mediante persistencia positiva, frontera discreta subumbral, acoplamiento estructural, oposición de derivadas factuales, correlador angular único y compatibilidad con la ecuación rectora proyectada. Tercero, los criterios de transición química reducen las 675 configuraciones prequímicas a 443 elementos estructurales mediante cierre posicional completo, acoplamiento pleno, densidad de no clausura posicional máxima, oposición factual plena y compatibilidad con la ecuación rectora universal completa. La tabla reconocida de 118 elementos se conserva como subdominio propio `SV-118 ⊂ SV-443`; los candidatos `k=119…443` permanecen en `U` hasta contraste empírico externo verificable.
+
+| Fase | Cardinalidad | Criterio operativo | Salida |
+|---|---:|---|---|
+| Configuraciones candidatas | `720` | doce familias tipológicas × 60 configuraciones por familia | dominio generativo inicial |
+| Configuraciones prequímicas admitidas | `675` | seis condiciones de admisibilidad prequímica | filtrado estructural |
+| Elementos estructurales SV | `443` | cinco criterios de transición química | catálogo SV-443 |
+| Subdominio físico reconocido | `118` | contraste empírico externo directo o indirecto | SV-118 |
+| Dominio extendido | `325` | candidatos `k=119…443` no detectados empíricamente | `U` honesta |
+
+El CPS-SV usa después `Ω₄₄₃` como dominio de pares no ordenados. Su cardinalidad es `C(443,2)=97.903` protopares. La función de dictamen `D(A,B)` aplica cinco criterios `B.1–B.5` sobre magnitudes de la Tabla Global y devuelve cuatro clases: `APTO-M`, `APTO-C`, `APTO-I` o `NO-APTO`. El resultado material declarado del CPS-SV es: `9.515` pares `APTO-M`, `37.580` pares `APTO-C`, `5.075` pares `APTO-I` y `45.733` pares `NO-APTO`. Esta publicación no convierte esos pares en existencia física observada; los usa para impedir que la continuidad H–He se detenga artificialmente en la tabla periódica reconocida.
+
+## IV.6. Falsabilidad y condiciones de refutación
+
+La tesis principal queda expuesta a refutación en varios planos. Primero, sería refutada si se demostrara con retorno físico auditado que existe una organización material ordinaria anterior al régimen H–He, con masa persistente, frontera, señal y continuidad material, sin depender de H ni de He como régimen de arranque. Segundo, sería refutada si los bancos cosmológicos, nucleares o espectrales mostrasen que H–He no constituye el primer régimen dominante de materia ordinaria tras el dominio preatómico, conservando dominio, magnitud y retorno más fuertes que los usados aquí. Tercero, sería refutada formalmente si apareciera un caso con `R_H^{circ}=0` y, sin embargo, sin dominio, frontera, masa, traza o retorno; o, inversamente, un caso con esos componentes cerrados y salida no admitida por la regla. Cuarto, el catálogo SV-443 sería corregido si el dominio físico detecta de forma reproducible elementos fuera del catálogo o invalida candidatos internos con retorno negativo suficiente. Quinto, el encaje con sutura sería corregido si un inventario auditado `B` satisface `ρ_ret^SV(Ω_T;B)=ρ_cap^SV(Ω_T)` con `ρ_C^SV=0`, caso en el que la sutura cosmológica inicial quedaría anulada para ese dominio e inventario; si sólo cambia el inventario, se actualiza la proporción, no se fuerza cierre. Sexto, el laboratorio BCAM-HHe sería inválido como implementación si una fila con predicados declarados produce una salida distinta de la regla conservadora. Estas condiciones no convierten `U` en refugio: cuando falta retorno, la salida es `U`; cuando existe retorno contrario, se corrige o se rechaza.
+
+## IV.7. Rango del laboratorio BCAM-HHe
+
+BCAM-HHe no debe describirse como validación experimental externa del régimen H–He. Es un laboratorio de consistencia formal y ejecución de matriz: toma predicados declarados, aplica reglas visibles y verifica que la salida obtenida coincide con la salida esperada bajo la compuerta. Su fuerza reside en reproducibilidad, trazabilidad y control de no mezcla de planos; su límite reside en que no descubre Lyman-α, línea de 21 cm, nucleosíntesis, helio primordial ni composición solar. Esas magnitudes pertenecen a la física contemporánea y entran como superficie de contraste. La contribución SV del banco es otra: impedir que el documento cierre por nombre, símbolo, abundancia, analogía o ausencia de prueba, y conservar `U` cuando el retorno físico no alcanza cierre.
+
+## IV.8. Banco de materialidad ordinaria retornada usado en esta obra
+
+El banco de materialidad ordinaria retornada de esta publicación queda deliberadamente acotado y se apoya en la disciplina metrológica interna, en la resolución ciclo-distancial de `Λ` y en la sutura gravitatoria efectiva ya formulada en el corpus (Lloret Egea, 2026g, 2026i, 2026o). No pretende inventariar toda la materia del universo observable, sino fijar el lugar del régimen H–He dentro de la componente admitida `ρ_A^SV` y separarlo de sutura, energía retornada y residual. Su base de lectura es `B₀`: bariones cosmológicos de contraste, término mínimo de neutrinos masivos en reposo cuando procede por cota, exclusión de inferencias gravitatorias sustancializadas, separación de radiación y conservación de `U` para materialidad candidata no clausurada. En ese banco, H–He entra como organización material ordinaria admitida dentro de `ρ_A^SV`, no como `ρ_cap^SV`, no como `ρ_sut,grav^SV` y no como `ρ_C^SV`.
+
+| Entrada de banco | Tratamiento | Razón |
+|---|---|---|
+| H–He primordial y ordinario | `ρ_A^SV` | materialidad ordinaria con dominio, masa, frontera, señal y retorno |
+| Bariones cosmológicos de contraste | `ρ_A^SV` o inventario material auditado | sostienen la componente material ordinaria del banco |
+| Neutrinos masivos bajo cota | `ρ_A^SV` o `U` según cierre | masa en reposo admitible si el inventario fija cota suficiente |
+| Radiación, CMB y retornos energéticos | `ρ_E^SV` | no se computan como materia ordinaria por equivalencia dimensional |
+| Diferencias gravitatorias no sustancializadas | `ρ_sut,grav^SV` | retorno estructural sin identidad material directa |
+| Materialidad candidata no cerrada | `ρ_U^SV` | no se fuerza cifra cuando falta frontera de inventario |
+| Residual de no clausura | `ρ_C^SV` | conserva lo no cerrado por frontera de banco |
+
+
+## IV.9. Resultado de blindaje
+
+Con este blindaje, la publicación no compite con el cálculo de materia oscura en el mismo plano cuantitativo. Su rango queda corregido: formula la primera organización material ordinaria y su tránsito interdominio, la sitúa dentro de la materialidad retornada, separa esa materialidad de la sutura gravitatoria efectiva, explicita el residual vectorial de admisibilidad, declara condiciones de refutación, ubica el catálogo SV-443 y CPS-SV sobre fuentes materiales, y rebaja el laboratorio BCAM-HHe a su función exacta. La tesis deja de poder leerse como afirmación de que H–He agota el contenido físico del universo observable. Lo que afirma es más preciso: H–He abre la continuidad material ordinaria; la capacidad estructural total del dominio físico realizado exige además sutura, residual y bancos de retorno propios.
+
+# V. Laboratorios
+
+<details>
+<summary><strong>Mostrar / ocultar índice del apartado V</strong></summary>
+
+- [V.1. Función de los laboratorios](#v1-función-de-los-laboratorios)
+- [V.2. Banco de Contraste de Admisibilidad Material H–He](#v2-banco-de-contraste-de-admisibilidad-material-h-he)
+- [V.3. Control de completitud y salida explícita](#v3-control-de-completitud-y-salida-explícita)
+- [V.4. Casos positivos](#v4-casos-positivos)
+- [V.5. Casos de exclusión](#v5-casos-de-exclusión)
+- [V.6. Casos de no determinación legítima](#v6-casos-de-no-determinación-legítima)
+- [V.7. Catálogo de ejecución y salidas esperadas](#v7-catálogo-de-ejecución-y-salidas-esperadas)
+- [V.8. Reproducibilidad, trazabilidad y resultado ejecutado](#v8-reproducibilidad-trazabilidad-y-resultado-ejecutado)
+
+</details>
+
+## V.1. Función de los laboratorios
+
+Los laboratorios reproducibles materializan operativamente la matriz de admisibilidad. Su función consiste en transformar las condiciones de los apartados II.12–II.14 y el blindaje del apartado IV en casos ejecutables, con entrada, dominio, condición aplicada, residual controlado, salida esperada, salida obtenida y trazabilidad. La cadena formal queda articulada mediante doble frontera, raigal, proyecciones, H como retención material, He como estabilización, polaridad compatible y residual vectorial; V ejecuta esa arquitectura en un banco reproducible y verifica que la matriz discrimina casos reales y estructurales sin cerrar por nombre, abundancia, intuición o comodidad. Este banco no se presenta como validación física externa comparable a una detección observacional independiente; se presenta como laboratorio de consistencia formal, ejecución de matriz y reproducibilidad computable. Su valor público está en permitir que un tercero revise entradas, condiciones, salidas y trazabilidad del banco, sabiendo que el contraste físico externo pertenece a las magnitudes, señales, dominios y retornos citados en el cuerpo principal.
+
+## V.2. Banco de Contraste de Admisibilidad Material H–He
+
+El Banco de Contraste de Admisibilidad Material H–He, abreviado como `BCAM-HHe`, es el catálogo específico de ejecución formal del desarrollo; no es una observación física externa ni pretende sustituir bancos empíricos contemporáneos. Su cometido es recibir casos heterogéneos y obligar al sistema a distinguirlos: símbolo e identidad material, plasma y átomo neutro, Sol como referencia y Sol como origen indebido, región estructural de búsqueda y subdominio reconocido, par APTO y molécula, molécula orgánica y vida. El banco no usa salidas libres. Las salidas admitidas son `ADMISION`, `DEFECTO`, `U`, `APTO-M`, `APTO-C`, `APTO-I` y `NO-APTO`. Cada fila debe declarar `id`, familia, objeto, dominio, condición aplicada, `residual_controlado`, regla, salida esperada y motivo. Si una fila carece de dominio, residual controlado, regla, salida o motivo, el caso no se considera ejecutable. Esta regla no añade una formalidad externa; protege el núcleo de la publicación: nada entra por nombre, nada cierra por apariencia, nada se promueve de estructural a empírico sin retorno, nada se degrada a inexistente cuando corresponde conservar no determinación legítima.
+
+## V.3. Control de completitud y salida explícita
+
+La ejecución se considera materialmente válida sólo si todos los casos producen salida explícita dentro del catálogo permitido. La tabla siguiente fija el control mínimo de completitud. No se usa la expresión “correcto” como salida sustantiva; la salida debe indicar admisión, defecto, `U`, aptitud de par o no aptitud. La coincidencia entre salida esperada y salida obtenida pertenece a la comprobación de ejecución, no a la definición de verdad de la tesis. Una salida vacía, ambigua o fuera de catálogo invalida el caso; un motivo ausente invalida la fila; un dominio no declarado impide evaluar residual; un candidato estructural tratado como elemento detectado produce defecto; una molécula orgánica tratada como vida produce defecto; una señal compatible sin atribución suficiente conserva `U`.
+
+| Campo | Función | Fallo si falta |
+|---|---|---|
+| `id` | Identificar el caso | El caso no puede trazarse |
+| `familia` | Situar H, He, Sol, SV-443, CPS-SV, molécula o vida | El caso queda sin dominio operativo |
+| `objeto` | Declarar qué se evalúa | La salida queda indeterminada por falta de objeto |
+| `dominio` | Fijar el plano material, estructural o biológico | No puede calcularse residual |
+| `condición_aplicada` | Vincular el caso con fórmula o matriz | La fila queda como descripción sin evaluación |
+| `residual_controlado` | Identificar qué falta o qué se anula | No hay criterio de admisión |
+| `salida_esperada` | Declarar salida antes de ejecución | No hay cotejo reproducible |
+| `motivo` | Explicar la salida | La decisión queda opaca |
+
+## V.4. Casos positivos
+
+Los casos positivos son aquellos en los que el dominio, la condición aplicada, el residual y el retorno permiten salida favorable dentro del alcance declarado. No todos los positivos son iguales. H material puede devolver `ADMISION`; un par de CPS-SV puede devolver `APTO-M`, `APTO-C` o `APTO-I`; el Sol puede devolver admisión como referencia física, no como origen; una molécula puede quedar admitida como molécula y no como vida; una célula puede quedar admitida como dominio biológico posterior. La positividad no autoriza trasladar la salida fuera de su dominio.
+
+| Código | Entrada | Condición aplicada | Salida esperada | Motivo |
+|---|---|---|---|---|
+| `H-01` | Átomo neutro de H con espectro y dominio | `A_H^{SV}` | `ADMISION` | Hay frontera, traza y retorno |
+| `H-02` | Hidrógeno en plasma estelar | `A_H^{SV}` bajo régimen | `ADMISION` | La identidad material opera bajo plasma, no como átomo neutro |
+| `HE-01` | Helio-4 con estabilidad nuclear | Estabilización ligera | `ADMISION` | Aporta suficiencia nuclear local |
+| `HHE-01` | Régimen H–He con apertura y estabilización | `𝓗_{HHe}^{SV}` | `ADMISION` | El residual conjunto se anula en su alcance |
+| `SOL-01` | Sol como estructura H–He con fusión y retorno | Corolario solar | `ADMISION` | Es referencia física, no origen |
+| `SV443-01` | Elementos 1–118 reconocidos | Subdominio detectado | `ADMISION` | Hay reconocimiento empírico del dominio |
+| `CPS-01` | Par base×base evaluado por `D(A,B)` | CPS-SV | `APTO-M`, `APTO-C`, `APTO-I` o `NO-APTO` | La salida depende de criterios B.1–B.5 |
+| `MOL-01` | Agua con composición, geometría y retorno | Residual molecular | `ADMISION` | Molécula admisible bajo dominio químico |
+| `BIO-01` | Célula con frontera, metabolismo, reparación y retorno | Residual biológico | `ADMISION` | Dominio biológico posterior, no origen material |
+
+## V.5. Casos de exclusión
+
+Los casos de exclusión son necesarios porque protegen la publicación contra las lecturas que parecen intuitivas pero rompen el plano. No basta con admitir H; hay que impedir que H sea convertido en `ε₋₀`, `ε₀`, espacio o totalidad. No basta con usar el Sol; hay que impedir que el Sol sea tratado como origen. No basta con formular SV-443; hay que impedir que regiones pendientes de retorno físico específico se presenten como elementos empíricos. No basta con usar CPS-SV; hay que impedir que un par APTO sea declarado molécula completa. No basta con introducir moléculas orgánicas; hay que impedir que se llamen vida por contener componentes biológicos.
+
+| Código | Entrada | Condición que falla | Salida esperada | Motivo |
+|---|---|---|---|---|
+| `EX-01` | `H` como símbolo aislado | Falta dominio y retorno | `DEFECTO` | Nombrar H no admite identidad material |
+| `EX-02` | H identificado con `ε₋₀` | Mezcla de plano preformal y material | `DEFECTO` | H no es borde preformal |
+| `EX-03` | H identificado con `ε₀` | Mezcla con activador primero | `DEFECTO` | H no es suceso activador |
+| `EX-04` | H identificado con espacio | Inversión entre dominio y objeto | `DEFECTO` | H ocupa espacio; no lo funda |
+| `EX-05` | H como fundamento absoluto | Invasión de totalidad | `DEFECTO` | H es apertura material ordinaria, no totalidad |
+| `EX-06` | Sol como origen material | Confusión entre referencia y origen | `DEFECTO` | El Sol contrasta el régimen; no lo funda |
+| `EX-07` | Fusión solar tratada como combustión | Régimen nuclear confundido con químico | `DEFECTO` | Cambia el canal físico |
+| `EX-08` | Candidato `k=119…443` como detectado | Promoción empírica indebida | `DEFECTO` | Lo estructural no equivale a detección |
+| `EX-09` | Par APTO declarado molécula completa | Salto de par a configuración compuesta | `DEFECTO` | El par es condición, no molécula |
+| `EX-10` | ADN aislado tratado como vida completa | Falta integración biológica | `DEFECTO` | Componente informacional no equivale a organismo |
+
+## V.6. Casos de no determinación legítima
+
+Los casos de no determinación legítima conservan la disciplina ternaria. `U` no actúa como motor, causa, probabilidad ni permiso de cierre favorable. Señala que una configuración no puede admitirse ni rechazarse plenamente sin violentar el dominio. En esta publicación, `U` aparece sobre todo en regiones estructurales pendientes de retorno físico, señales insuficientemente atribuidas, pares extendidos sin retorno físico, configuraciones prebióticas parciales y biomarcadores compatibles pero no concluyentes.
+
+| Código | Entrada | Falta concreta | Salida esperada | Motivo |
+|---|---|---|---|---|
+| `U-01` | Candidato `k=119…443` estructuralmente formulado | Detección empírica externa | `U` | Se conserva admisibilidad estructural sin confirmación física |
+| `U-02` | Señal compatible con H sin atribución suficiente | Dominio instrumental cerrado | `U` | La señal no basta para admitir ni rechazar |
+| `U-03` | Par base×extendido | Retorno físico del candidato extendido | `U` | La relación estructural no clausura existencia empírica |
+| `U-04` | Molécula posible sin estabilidad contrastada | Geometría, estabilidad o retorno | `U` | Falta cierre molecular |
+| `U-05` | Medio prebiótico parcial | Frontera funcional y continuidad | `U` | No basta para vida ni para rechazo total |
+| `U-06` | Biomarcador compatible | Método, dominio y exclusión de alternativas | `U` | Compatibilidad no equivale a cierre biológico |
+
+## V.7. Catálogo de ejecución y salidas esperadas
+
+El catálogo mínimo de ejecución reúne veinticinco casos y ejercita todas las familias de salida del banco: seis admisiones materiales o estructurales directas, cuatro casos específicos de CPS-SV, nueve defectos y seis no determinaciones legítimas. Esta cifra no tiene valor estadístico fundante; es un número de control material para asegurar que el banco ejercita admisión, defecto, `U` y salidas específicas de pares estructurales. La ejecución reproducible produce una salida por fila y un motivo por salida. Si todas las filas generan salida dentro del catálogo y ninguna queda vacía, el banco confirma operativamente la matriz. Si alguna fila queda sin salida, si una exclusión se admite por nombre, si una región estructural de búsqueda se incorpora al subdominio reconocido sin retorno físico específico o si una `U` se cierra favorablemente, el laboratorio falla.
+
+| Familia de salida | Número de casos | Salidas ejercitadas | Función de control |
+|---|---:|---|---|
+| Admisiones | 6 | `ADMISION` | Confirmar admisión bajo dominio declarado |
+| CPS-SV | 4 | `APTO-M`, `APTO-C`, `APTO-I`, `NO-APTO` | Verificar evaluación de pares estructurales |
+| Defectos | 9 | `DEFECTO` | Detectar mezcla de planos y saltos indebidos |
+| No determinación legítima | 6 | `U` | Preservar no cierre donde falta retorno |
+| Total | 25 | Catálogo completo | Confirmar discriminación material del banco |
+
+## V.8. Reproducibilidad, trazabilidad y resultado ejecutado
+
+La ejecución reproducible del Banco de Contraste de Admisibilidad Material H–He (`BCAM-HHe`) confirma operativamente la matriz de admisibilidad del desarrollo: 25 casos ejecutados, 25 filas completas, 0 filas incompletas, 0 salidas vacías, 0 salidas esperadas fuera de catálogo, 0 salidas obtenidas fuera de catálogo, 25 coincidencias entre salida esperada y salida obtenida, 0 divergencias y veredicto global `APTO`. La distribución obtenida es: `ADMISION` 6, `APTO-M` 1, `APTO-C` 1, `APTO-I` 1, `NO-APTO` 1, `DEFECTO` 9 y `U` 6. Estos resultados respaldan materialmente la distinción entre admisión, defecto, no determinación legítima y salidas específicas de CPS-SV, y verifican que el banco no produce salidas vacías, salidas fuera de catálogo ni cierres favorables donde corresponde conservar `U`. La ejecución queda acompañada por archivo de datos, runner determinista y salida CSV obtenida; la salida CSV ejecutada tiene SHA-256 `c7654b22b58758a6e933ab4022e8b8f744f25b3518e7103dede694dc0213d115d`. 
+
+| Elemento reproducible | Archivo |
+|---|---|
+| Lectura del banco | [README.md](laboratorios_BCAM-HHe/README.md) |
+| Datos de casos | [bcam_hhe_casos.csv](laboratorios_BCAM-HHe/datos/bcam_hhe_casos.csv) |
+| Runner determinista | [runner_bcam_hhe.py](laboratorios_BCAM-HHe/scripts/runner_bcam_hhe.py) |
+| Salida CSV obtenida | [bcam_hhe_salidas_obtenidas.csv](laboratorios_BCAM-HHe/salidas/bcam_hhe_salidas_obtenidas.csv) |
+
+
+# VI. Bibliografía
 
 <details>
 <summary><strong>Mostrar / ocultar índice bibliográfico</strong></summary>
 
-- [V.1. Corpus SV](#v1-corpus-sv)
-- [V.2. Física, química y biología externa](#v2-física-química-y-biología-externa)
-- [V.3. Metrología, constantes, datos termofísicos y bancos de contraste](#v3-metrología-constantes-datos-termofísicos-y-bancos-de-contraste)
-- [V.4. Ampliaciones externas recientes incorporadas](#v4-ampliaciones-externas-recientes-incorporadas)
+- [VI.1. Corpus SV](#vi1-corpus-sv)
+- [VI.2. Física, química y biología externa](#vi2-física-química-y-biología-externa)
+- [VI.3. Metrología, constantes, datos termofísicos y bancos de contraste](#vi3-metrología-constantes-datos-termofísicos-y-bancos-de-contraste)
+- [VI.4. Ampliaciones externas recientes incorporadas](#vi4-ampliaciones-externas-recientes-incorporadas)
+- [VI.5. Auditoría funcional de bibliografía externa](#vi5-auditoría-funcional-de-bibliografía-externa)
+- [VI.6. Auditoría funcional del corpus SV y correspondencia APA7 inline](#vi6-auditoría-funcional-del-corpus-sv-y-correspondencia-apa7-inline)
 
 </details>
 
-## V.1. Corpus SV
+## VI.1. Corpus SV
 
-## V.2. Física, química y biología externa
+Lloret Egea, J. A. (2026a). Imperfección preformal y espacio: ε−0, primera distinguibilidad y dominio estructural completo de separación factual recorrible. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.9c57c046
 
-## V.3. Metrología, constantes, datos termofísicos y bancos de contraste
+Lloret Egea, J. A. (2026b). Teoría general de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV. IA eñ™ — La Biblia de la IA™. https://doi.org/10.17613/177nb-v2465
 
-## V.4. Ampliaciones externas recientes incorporadas
+Lloret Egea, J. A. (2026c). Génesis del hidrógeno y teoría de la persistencia energética estructural: Masa, frontera, residual e identidad física bajo compatibilidad operatoria universal. IA eñ™ — La Biblia de la IA™. https://doi.org/10.17613/qq4q9-sd847
+
+Lloret Egea, J. A. (2026d). Análisis preliminar de elementos químicos, materiales y aleaciones de nueva generación para usos médicos y científicos. IA eñ™ — La Biblia de la IA™. https://doi.org/10.17613/8ryyb-g9h48
+
+Lloret Egea, J. A. (2026e). Catálogo de Pares Estructurales SV (CPS-SV): Enlace, aleación y compatibilidad posicional desde los 118 elementos base hasta los 443 candidatos del dominio extendido. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.a56b9cd7
+
+Lloret Egea, J. A. (2026f). Teoría del TODO y de la NADA en el Sistema Vectorial SV. IA eñ™ — La Biblia de la IA™. https://doi.org/10.17613/k3q1d-fjj45
+
+Lloret Egea, J. A. (2026g). Primitivos metrológicos del Sistema Vectorial SV: Instanciaciones contingentes de las constantes fundacionales del Sistema Internacional, justificación algebraica y tabla de equivalencias factuales. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.c8ec692e
+
+Lloret Egea, J. A. (2026h). Fuerza, trabajo, calor, entalpía, temperatura, principios y fundamentos de la termodinámica y la correlación entre ellos en el SV. IA eñ™ — La Biblia de la IA™. https://doi.org/10.17613/ptw68-d1r57
+
+Lloret Egea, J. A. (2026i). *Teorema de resolución física de la constante cosmológica: transducción ciclo-distancial SV de Λ, energía oscura y expansión cosmológica*. ITVIA — IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.41afec0f
+
+
+Lloret Egea, J. A. (2026j). Edades relativas del universo observable y de sus objetos físicos. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.b56ed853
+
+Lloret Egea, J. A. (2026k). El agujero negro como cierre interno sin resto exterior formulable. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.b757ccc4
+
+Lloret Egea, J. A. (2026l). Fórmula de Campo Unificado 𝓕𝓐 = d𝓐 + 𝓐 ∧ 𝓐 con 𝓐 = ω ⊕ A. IA eñ™ — La Biblia de la IA™. https://doi.org/10.17613/gxfv3-qjj64
+
+Lloret Egea, J. A. (2026m). Proyecciones biológicas de la fibra: Teoría de la Creación de Observables del Universo, transducción metrológica, mutación, enfermedad, cáncer y clausura factual. IA eñ™ — La Biblia de la IA™. https://www.itvia.online/pub/proyecciones-biologicas-de-la-fibra
+
+Lloret Egea, J. A. (2026n). *Frontera regresiva de no nulidad polar en el Sistema Vectorial SV: realización de dominio, predominancia compatible y clausura por absorción* [README técnico]. Sistema Vectorial SV. https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/imperfeccion-preformal-y-espacio/desarrollos-relacionados/frontera-regresiva-no-nulidad-polar/README.md
+
+Lloret Egea, J. A. (2026o). La materia oscura no existe como sustancia: Demostración formal de nulidad sustancial, densidad gravitatoria efectiva de sutura y contraste físico escalable. IA eñ™ — La Biblia de la IA™. https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/calculo-materia-oscura-universo/materia_oscura_no_existe_como_sustancia.md
+
+## VI.2. Física, química y biología externa
+
+Aghanim, N., Akrami, Y., Ashdown, M., Aumont, J., Baccigalupi, C., Ballardini, M., Banday, A. J., Barreiro, R. B., Bartolo, N., Basak, S., Benabed, K., Bernard, J.-P., Bersanelli, M., Bielewicz, P., Bock, J. J., Bond, J. R., Borrill, J., Bouchet, F. R., Boulanger, F., … Planck Collaboration. (2020). Planck 2018 results. VI. Cosmological parameters. Astronomy & Astrophysics, 641, A6. https://doi.org/10.1051/0004-6361/201833910
+
+Asplund, M., Amarsi, A. M., & Grevesse, N. (2021). The chemical make-up of the Sun: A 2020 vision. Astronomy & Astrophysics, 653, A141. https://doi.org/10.1051/0004-6361/202140445
+
+Bahcall, J. N., Serenelli, A. M., & Basu, S. (2005). New solar opacities, abundances, helioseismology, and neutrino fluxes. The Astrophysical Journal Letters, 621(1), L85–L88. https://doi.org/10.1086/428929
+
+Bohr, N. (1913). On the constitution of atoms and molecules. The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science, 26(151), 1–25. https://doi.org/10.1080/14786441308634955
+
+Burbidge, E. M., Burbidge, G. R., Fowler, W. A., & Hoyle, F. (1957). Synthesis of the elements in stars. Reviews of Modern Physics, 29(4), 547–650. https://doi.org/10.1103/RevModPhys.29.547
+
+Christensen-Dalsgaard, J. (2021). Solar structure and evolution. Living Reviews in Solar Physics, 18, Article 2. https://doi.org/10.1007/s41116-020-00028-3
+
+Cyburt, R. H., Fields, B. D., Olive, K. A., & Yeh, T.-H. (2016). Big bang nucleosynthesis: Present status. Reviews of Modern Physics, 88(1), 015004. https://doi.org/10.1103/RevModPhys.88.015004
+
+Einstein, A. (1905). Ist die Trägheit eines Körpers von seinem Energieinhalt abhängig? Annalen der Physik, 323(13), 639–641. https://doi.org/10.1002/andp.19053231314
+
+Ewen, H. I., & Purcell, E. M. (1951). Observation of a line in the galactic radio spectrum: Radiation from galactic hydrogen at 1,420 Mc./sec. Nature, 168, 356. https://doi.org/10.1038/168356a0
+
+Fricke, B., Greiner, W., & Waber, J. T. (1971). The continuation of the periodic table up to Z = 172. Theoretica Chimica Acta, 21, 235–260. https://doi.org/10.1007/BF01172015
+
+Gates, J. M., Orford, R., Rudolph, D., Appleton, C., Barrios, B. M., Benitez, J. Y., Bordeau, M., Botha, W., Campbell, C. M., Chadderton, J., Chemey, A. T., Clark, R. M., Crawford, H. L., Despotopulos, J. D., Dorvaux, O., Esker, N. E., Fallon, P., Folden, C. M., Gall, B. J. P., … Wooddy, P. T. (2024). Toward the discovery of new elements: Production of livermorium (Z = 116) with ⁵⁰Ti. Physical Review Letters, 133, 172502. https://doi.org/10.1103/PhysRevLett.133.172502
+
+Miller, S. L. (1953). A production of amino acids under possible primitive Earth conditions. Science, 117(3046), 528–529. https://doi.org/10.1126/science.117.3046.528
+
+Oganessian, Y. T., & Utyonkov, V. K. (2015). Super-heavy element research. Reports on Progress in Physics, 78(3), 036301. https://doi.org/10.1088/0034-4885/78/3/036301
+
+Pauling, L. (1932). The nature of the chemical bond. IV. The energy of single bonds and the relative electronegativity of atoms. Journal of the American Chemical Society, 54(9), 3570–3582. https://doi.org/10.1021/ja01348a011
+
+Peebles, P. J. E. (1968). Recombination of the primeval plasma. The Astrophysical Journal, 153, 1. https://doi.org/10.1086/149628
+
+Seager, S., Sasselov, D. D., & Scott, D. (2000). How exactly did the universe become neutral? The Astrophysical Journal Supplement Series, 128(2), 407–430. https://doi.org/10.1086/313388
+
+Powner, M. W., Gerland, B., & Sutherland, J. D. (2009). Synthesis of activated pyrimidine ribonucleotides in prebiotically plausible conditions. Nature, 459, 239–242. https://doi.org/10.1038/nature08013
+
+Pyykkö, P. (2011). A suggested periodic table up to Z ≤ 172, based on Dirac–Fock calculations on atoms and ions. Physical Chemistry Chemical Physics, 13(1), 161–168. https://doi.org/10.1039/C0CP01575J
+
+Schopf, J. W. (2006). Fossil evidence of Archaean life. Philosophical Transactions of the Royal Society B: Biological Sciences, 361(1470), 869–885. https://doi.org/10.1098/rstb.2006.1834
+
+Smits, O. R., Düllmann, C. E., Indelicato, P., Nazarewicz, W., & Schwerdtfeger, P. (2024). The quest for superheavy elements and the limit of the periodic table. Nature Reviews Physics, 6, 86–98. https://doi.org/10.1038/s42254-023-00668-y
+
+Terranova, M. L., & Tavares, O. A. P. (2022). The periodic table of the elements: The search for transactinides and beyond. Rendiconti Lincei. Scienze Fisiche e Naturali, 33, 267–281. https://doi.org/10.1007/s12210-022-01057-w
+
+Watson, J. D., & Crick, F. H. C. (1953). Molecular structure of nucleic acids: A structure for deoxyribose nucleic acid. Nature, 171, 737–738. https://doi.org/10.1038/171737a0
+
+## VI.3. Metrología, constantes, datos termofísicos y bancos de contraste
+
+Bureau International des Poids et Mesures. (2024). Mise en pratique for the definition of the mole in the SI. BIPM. https://www.bipm.org/documents/20126/41489679/SI-App2-mole.pdf
+
+National Institute of Standards and Technology. (n.d.). Water. NIST Chemistry WebBook, NIST Standard Reference Database Number 69. https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185
+
+## VI.4. Ampliaciones externas recientes incorporadas
+
+Particle Data Group. (2025). *Big Bang nucleosynthesis*. En *Review of Particle Physics*. https://pdg.lbl.gov/2025/reviews/rpp2025-rev-bbang-nucleosynthesis.pdf
+
+Witstok, J., Jakobsen, P., Maiolino, R., Helton, J. M., Johnson, B. D., Robertson, B. E., Tacchella, S., Cameron, A. J., Smit, R., Bunker, A. J., Saxena, A., Sun, F., Alberts, S., Arribas, S., Baker, W. M., Bhatawdekar, R., Boyett, K., Cargile, P. A., Carniani, S., ... Zhu, Y. (2025a). Witnessing the onset of reionization through Lyman-α emission at redshift 13. *Nature, 639*, 897–901. https://doi.org/10.1038/s41586-025-08779-5
+
+Witstok, J., Saxena, A., Jones, G. C., Smit, R., Bunker, A. J., Cameron, A. J., Curti, M., D’Eugenio, F., Hainline, K. N., Maiolino, R., Robertson, B. E., Tacchella, S., Willott, C., et al. (2025b). JADES: Primaeval Lyman-α emitting galaxies reveal early sites of reionization out to redshift z≈9. *Monthly Notices of the Royal Astronomical Society, 536*(1), 27–50. https://doi.org/10.1093/mnras/stae2535
+
+## VI.5. Auditoría funcional de bibliografía externa
+
+La bibliografía externa se conserva sólo cuando sostiene una afirmación material del cuerpo: magnitud, dominio, distinción técnica, matriz de contraste, estado del arte o banco. Las referencias que no sostienen cálculo central se mantienen únicamente como soporte de dominio posterior o lectura contextual, sin convertirlas en prueba de la tesis.
+
+| Referencia | Función material en el cuerpo | Tipo de soporte |
+|---|---|---|
+| Planck Collaboration / Aghanim et al. (2020) | composición cosmológica de referencia, `Ω_b`, `Ω_c`, `Ω_m`, `Ω_Λ`, contraste de materialidad ordinaria y componentes oscuras | magnitud y banco cosmológico |
+| Cyburt et al. (2016) y Particle Data Group (2025) | estado de nucleosíntesis primordial y régimen H–He temprano | dominio físico y banco externo |
+| Peebles (1968), Seager et al. (2000) | recombinación, neutralidad y tránsito desde plasma a átomo | distinción técnica de dominio |
+| Ewen y Purcell (1951) | línea de 21 cm como retorno físico del hidrógeno neutro | señal observacional |
+| Witstok et al. (2025a, 2025b) | Lyman-α, galaxias tempranas y reionización como banco reciente de retorno del hidrógeno | señal observacional reciente |
+| Bohr (1913) | estructura atómica del hidrógeno y base histórica del retorno espectral | soporte físico-histórico |
+| Burbidge et al. (1957) | nucleosíntesis estelar y continuidad hacia elementos pesados | dominio posterior |
+| Asplund et al. (2021), Bahcall et al. (2005), Christensen-Dalsgaard (2021) | composición solar, estructura solar y neutrinos como referencia H–He | banco solar |
+| Einstein (1905) | equivalencia energía-masa como contraste externo de transducción | distinción técnica |
+| Fricke et al. (1971), Pyykkö (2011), Oganessian y Utyonkov (2015), Gates et al. (2024), Smits et al. (2024), Terranova y Tavares (2022) | frontera externa de superpesados y límite de tabla periódica contemporánea | contraste de dominio extendido |
+| Pauling (1932) | electronegatividad y enlace como contraste externo de CPS-SV, no como fundamento de `EN_SV` | contraste técnico |
+| Miller (1953), Powner et al. (2009), Watson y Crick (1953), Schopf (2006) | continuidad hacia química prebiótica, nucleótidos, ADN y vida; no sostienen el cálculo H–He ni la sutura | soporte contextual de dominio posterior |
+| BIPM (2024) | definición metrológica del mol y constante de Avogadro | metrología |
+| NIST Chemistry WebBook | propiedades del agua usadas en el banco trazado H₂O | dato termofísico |
+
+La regla de uso queda cerrada así: Planck, BBN, recombinación, señal H, Sol, superpesados, BIPM y NIST sostienen magnitudes o dominios usados materialmente; Miller, Powner, Watson–Crick y Schopf sostienen la continuidad posterior hacia química prebiótica y vida, sin intervenir en el cálculo central del régimen H–He ni en la formulación de la sutura.
+
+## VI.6. Auditoría funcional del corpus SV y correspondencia APA7 inline
+
+El teorema de resolución física de la constante cosmológica figura de forma expresa porque sostiene la curvatura ciclo-distancial `Λ_SV,puro = 3/(c²·T_obs²)` y el paso que alimenta `ρ_cap^SV`; no debe quedar absorbido de manera indirecta por la publicación sobre materia oscura. La regla de esta sección es simple: toda entrada del corpus SV que aparezca en VI.1 debe tener función material en el cuerpo y correspondencia APA7 inline.
+
+| Entrada del corpus | Cita inline principal | Función material |
+|---|---|---|
+| Imperfección preformal y espacio | `(Lloret Egea, 2026a)` | separación `ε₋₀`, espacio y origen material ordinario |
+| Sucesos generadores y protocampos | `(Lloret Egea, 2026b)` | dominio, concentración, canal y raíz preproyectiva |
+| Génesis del hidrógeno | `(Lloret Egea, 2026c)` | H como firma material con masa, frontera y residual |
+| Elementos y materiales de nueva generación | `(Lloret Egea, 2026d)` | generador SV-443 y dominio extendido |
+| Catálogo de Pares Estructurales SV | `(Lloret Egea, 2026e)` | CPS-SV, pares, enlaces y compatibilidad posicional |
+| Teoría del TODO y de la NADA | `(Lloret Egea, 2026f)` | no absolutización de H–He y marco de totalidad no reductiva |
+| Primitivos metrológicos SV | `(Lloret Egea, 2026g)` | UFM, retorno metrológico y disciplina de transducción |
+| Termodinámica SV | `(Lloret Egea, 2026h)` | transición energía ⇄ masa y lectura de reorganización material |
+| Teorema de la constante cosmológica | `(Lloret Egea, 2026i)` | `Λ_SV,puro`, curvatura ciclo-distancial y soporte de `ρ_cap^SV` |
+| Edades relativas del universo observable | `(Lloret Egea, 2026j)` | `T_obs`, edad estructural y retorno cosmológico |
+| Agujero negro como cierre interno | `(Lloret Egea, 2026k)` | separación de materia ordinaria frente a cierre compacto |
+| Campo unificado | `(Lloret Egea, 2026l)` | separación de materia ordinaria respecto de campos y conexión |
+| Proyecciones biológicas de la fibra | `(Lloret Egea, 2026m)` | continuidad hacia vida, moléculas, célula y frontera biológica |
+| Frontera regresiva de no nulidad polar | `(Lloret Egea, 2026n)` | frontera regresiva, raigal y no sustitución de planos |
+| Materia oscura no sustancial | `(Lloret Egea, 2026o)` | `ρ_sut,grav^SV`, sutura y materialidad retornada frente a capacidad |
+
+La entrada `Lloret Egea (2026i)` queda añadida con DOI propio `10.21428/39829d0b.41afec0f`, de modo que la lectura de `Λ_SV,puro` no depende de una remisión indirecta. La entrada `Lloret Egea (2026o)` conserva la función de integrar el anexo doctrinal y operativo de sutura, pero no absorbe ni sustituye al teorema de la constante cosmológica. Esta separación evita dos errores: ocultar el precedente de energía oscura bajo el trabajo de materia oscura y convertir la sutura en único soporte de `ρ_cap^SV`.
