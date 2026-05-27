@@ -35,7 +35,7 @@ This work formulates the ordinary material origin of the observable universe as 
 
 </details>
 
-# 0. Introducción
+## 0. Introducción
 
 La publicación aborda una pregunta físicamente concreta y formalmente delicada: bajo qué condiciones puede hablarse de origen material ordinario del universo observable sin confundir esa pregunta con el origen preformal, con el activador primero, con el espacio, con una teoría cosmológica tomada como fundamento o con una lista de elementos. La respuesta se construye por dominios. Primero se formula una ley general de tránsito entre dominios realizados; después se determina el régimen H–He como primera organización material ordinaria; finalmente se aplica la ley al hidrógeno como caso patrón de continuidad material sin igualdad de estado. La lectura queda acotada desde el inicio: H–He no agota la capacidad estructural del dominio físico realizado, no sustituye la densidad gravitatoria efectiva de sutura y no cancela el residual de no clausura. El régimen H–He tiene prioridad material ordinaria, pero no clausura la materia posterior; abre continuidad hacia tabla periódica estructural, elementos pesados, pares, enlaces, moléculas, agua y vida biológica bajo residual y retorno.
 
@@ -47,7 +47,7 @@ El estado del arte físico contemporáneo ofrece una superficie de contraste pot
 
 El problema rector consiste en decidir cuándo una identidad material se conserva al atravesar dominios que no son iguales. El método exige declarar, en cada paso, dominio de salida, dominio de llegada, identidad tipada, frontera, canal, traza, residual y retorno. La salida ternaria conserva cierre apto, defecto o indeterminación honesta; `U` no funciona como probabilidad, causa, tendencia ni refugio retórico. La lectura se organiza en tres apartados principales: el primero fija el gobierno matemático del tránsito entre dominios y el error cero de plano; el segundo determina el régimen H–He como origen material ordinario del universo observable; el tercero aplica el aparato al hidrógeno y al régimen H–He con bancos, teoremas y corolarios. Los laboratorios y la bibliografía cierran después la trazabilidad material y el soporte académico del desarrollo.
 
-# I. Gobierno matemático del tránsito entre dominios y contraste de plano
+## I. Gobierno matemático del tránsito entre dominios y contraste de plano
 
 <details>
 <summary><strong>Mostrar / ocultar índice del apartado I</strong></summary>
