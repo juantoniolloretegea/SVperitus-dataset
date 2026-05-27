@@ -166,31 +166,16 @@
 <summary><strong>Mostrar / ocultar índice del apartado IV</strong></summary>
 
 - [IV.1. Función de los laboratorios](#iv1-función-de-los-laboratorios)
-- [IV.2. Tabla general de laboratorios y artefactos reproducibles](#iv2-tabla-general-de-laboratorios-y-artefactos-reproducibles)
-- [IV.3. Banco de Contraste de Admisibilidad Material H–He](#iv3-banco-de-contraste-de-admisibilidad-material-hhe)
-- [IV.4. Banco trazado H₂O/U1–U2–U3 y gradiente de segregación](#iv4-banco-trazado-h₂ou1u2u3-y-gradiente-de-segregación)
-- [IV.5. Control de completitud y salida explícita](#iv5-control-de-completitud-y-salida-explícita)
-- [IV.6. Reproducibilidad, trazabilidad y resultado ejecutado](#iv6-reproducibilidad-trazabilidad-y-resultado-ejecutado)
+- [IV.2. Banco de Contraste de Admisibilidad Material H–He](#iv2-banco-de-contraste-de-admisibilidad-material-hhe)
+- [IV.3. Reproducibilidad, trazabilidad y resultado ejecutado](#iv3-reproducibilidad-trazabilidad-y-resultado-ejecutado)
 
 </details>
 
 ## IV.1. Función de los laboratorios
 
-## IV.2. Tabla general de laboratorios y artefactos reproducibles
+## IV.2. Banco de Contraste de Admisibilidad Material H–He
 
-| Categoría | Laboratorio | Archivo `.py` | Datos `.csv` | Salidas | Descripción breve | Resultado |
-|---|---|---|---|---|---|---|
-| Admisibilidad material H–He | Banco BCAM-HHe | URL absoluta al `runner_bcam_hhe.py` en el repositorio canónico | URL absoluta al `bcam_hhe_casos.csv` en el repositorio canónico | URL absoluta a salidas reproducibles | Evalúa casos positivos, negativos y de no determinación legítima del régimen H–He | 25 casos evaluados; resultado ejecutado apto en el paquete vigente |
-| Tránsito H₂O/U1–U2–U3 | Banco trazado de cantidad, densidad, volumen y gradiente | URL absoluta al script cuando se materialice en el repositorio canónico | URL absoluta al banco de datos cuando se materialice en el repositorio canónico | URL absoluta a salidas reproducibles | Evalúa cantidad de entidad, masa, densidad, volumen, frontera de fase, divergencia porcentual y amplificación por escala | Se incorporará sólo si se genera laboratorio reproducible específico |
-| Gradiente termodinámico de segregación | Banco de trabajo, calor, no-clausura y familia de sucesos | URL absoluta al script cuando se materialice en el repositorio canónico | URL absoluta al banco de datos cuando se materialice en el repositorio canónico | URL absoluta a salidas reproducibles | Evalúa divergencia energética por frontera omitida y acumulación en familia incremental de sucesos | Se incorporará sólo si se genera laboratorio reproducible específico |
-
-## IV.3. Banco de Contraste de Admisibilidad Material H–He
-
-## IV.4. Banco trazado H₂O/U1–U2–U3 y gradiente de segregación
-
-## IV.5. Control de completitud y salida explícita
-
-## IV.6. Reproducibilidad, trazabilidad y resultado ejecutado
+## IV.3. Reproducibilidad, trazabilidad y resultado ejecutado
 
 # V. Bibliografía
 
