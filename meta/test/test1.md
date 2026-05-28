@@ -25,7 +25,7 @@ El documento formaliza el marco de autogobierno y de la comunicación estructura
 ## Índice
 
 - **Introducción**
-- **I. Leyes doctrinales y principio rector**
+- **I. Fundamentos y principio rector**
 - **II. Imperfección preformal y fibra primigenia de observabilidad**
 
 **Parte A — Autogobierno del Universo físico**
@@ -70,7 +70,7 @@ Quedan deslindados los planos teológicos, espiritualistas y panpsiquistas. El t
 
 ---
 
-## I. Leyes doctrinales y principio rector
+## I. Fundamentos y principio rector
 
 ### I.1. Plano físico-formal del Universo realizado
 
@@ -80,7 +80,7 @@ El plano físico-formal se separa con rigor de dos planos vecinos. Del plano pur
 
 ### I.2. Subordinación de la estructura matemática al cierre rector
 
-La estructura matemática que describe el Universo físico realizado no lo funda como instancia exterior. Codifica y decodifica su funcionamiento, comparece después de la primera distinguibilidad y queda subordinada al cierre rector. La distinción es decisiva, porque evita simultáneamente dos errores doctrinales opuestos.
+La estructura matemática que describe el Universo físico realizado no lo funda como instancia exterior. Codifica y decodifica su funcionamiento, comparece después de la primera distinguibilidad y queda subordinada al cierre rector. La distinción es decisiva, porque evita simultáneamente dos errores opuestos.
 
 El primer error consistiría en afirmar equivalencia ontológica fuerte entre realidad física y estructura matemática, identificando ambas sin restricción, según la línea tegmarkiana en su forma máxima (Tegmark, 2008, [10.1007/s10701-007-9186-9](https://doi.org/10.1007/s10701-007-9186-9)). El marco no asume esa equivalencia. El segundo error consistiría en negar estructura formal al dominio físico, tratándola como construcción humana superpuesta sin propiedad operativa intrínseca. El marco tampoco acepta esa negación.
 
