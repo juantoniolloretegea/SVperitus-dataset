@@ -1037,23 +1037,23 @@ Jackson, J. D. (1999). *Classical electrodynamics* (3rd ed.). Wiley.
 
 Landau, L. D., y Lifshitz, E. M. (1975). *The classical theory of fields* (4th ed.). Pergamon Press.
 
-Lloret Egea, J. A. (2026a). *Fundamentos algebraico-semánticos del Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://www.itvia.online/pub/fundamentos-algebraico-semanticos-del-sistema-vectorial-sv/release/3
+Lloret Egea, J. A. (2026a). *Fundamentos algebraico-semánticos del Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. [https://doi.org/10.21428/39829d0b.b0cf9a13](https://doi.org/10.21428/39829d0b.b0cf9a13)
 
-Lloret Egea, J. A. (2026b). *Origen doctrinal, definición y alcance de la U en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.a2c17dcf
+Lloret Egea, J. A. (2026b). *Origen doctrinal, definición y alcance de la U en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. [https://doi.org/10.21428/39829d0b.a2c17dcf](https://doi.org/10.21428/39829d0b.f433065f)
 
-Lloret Egea, J. A. (2026c). *Nuevas matemáticas del Sistema Vectorial SV y Física factual como conjunto iniciador*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.67195860
+Lloret Egea, J. A. (2026c). *Nuevas matemáticas del Sistema Vectorial SV y Física factual como conjunto iniciador*. IA eñ™ — La Biblia de la IA™. [https://doi.org/10.21428/39829d0b.67195860](https://doi.org/10.21428/39829d0b.67195860)
 
-Lloret Egea, J. A. (2026d). *Conjunto matemático unificado del cambio factual, ciclos, medición factual y trayectorias poligonales de activación en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://www.itvia.online/pub/conjunto-matematico-unificado-del-cambio-factual-ciclos-medicion-factual-y-trayectorias-poligonales-de-activacion-en-el-sistema-vectorial-sv
+Lloret Egea, J. A. (2026d). *Conjunto matemático unificado del cambio factual, ciclos, medición factual y trayectorias poligonales de activación en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. [https://www.itvia.online/pub/conjunto-matematico-unificado-del-cambio-factual-ciclos-medicion-factual-y-trayectorias-poligonales-de-activacion-en-el-sistema-vectorial-sv](https://doi.org/10.21428/39829d0b.2b3c9808)
 
 Lloret Egea, J. A. (2026e). *Teoría del TODO y de la NADA en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.17613/k3q1d-fjj45
 
-Lloret Egea, J. A. (2026f). *Imperfección preformal y espacio: ε₋₀, primera distinguibilidad y dominio estructural completo de separación factual recorrible*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.9c57c046
+Lloret Egea, J. A. (2026f). *Imperfección preformal y espacio: ε₋₀, primera distinguibilidad y dominio estructural completo de separación factual recorrible*. IA eñ™ — La Biblia de la IA™. [https://doi.org/10.21428/39829d0b.9c57c046](https://doi.org/10.21428/39829d0b.9c57c046)
 
 Lloret Egea, J. A. (2026g). *Teoría general de sucesos generadores y de los protocampos unificados en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.17613/177nb-v2465
 
-Lloret Egea, J. A. (2026h). *Primitivos metrológicos del Sistema Vectorial SV: Instanciaciones contingentes de las constantes fundacionales del Sistema Internacional, justificación algebraica y tabla de equivalencias factuales*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.c8ec692e
+Lloret Egea, J. A. (2026h). *Primitivos metrológicos del Sistema Vectorial SV: Instanciaciones contingentes de las constantes fundacionales del Sistema Internacional, justificación algebraica y tabla de equivalencias factuales*. IA eñ™ — La Biblia de la IA™. [https://doi.org/10.21428/39829d0b.c8ec692e](https://doi.org/10.21428/39829d0b.c8ec692e)
 
-Lloret Egea, J. A. (2026i). *Fundamentos operatorios absolutos del electromagnetismo factual en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.17613/w1kb2-m6k81
+Lloret Egea, J. A. (2026i). *Fundamentos operatorios absolutos del electromagnetismo factual en el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. [https://doi.org/10.17613/w1kb2-m6k81](https://doi.org/10.21428/39829d0b.0cb6137e)
 
 Lloret Egea, J. A. (2026j). *Reducción estructural absoluta de Maxwell en el Sistema Vectorial SV y ecuación única de la física factual electromagnética — con desarrollo algebraico del operador maestro absoluto 𝔼SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.17613/kep1t-57539
 
@@ -1061,23 +1061,23 @@ Lloret Egea, J. A. (2026k). *Fuerza, trabajo, calor, entalpía, temperatura, pri
 
 Lloret Egea, J. A. (2026l). *Fórmula de Campo Unificado 𝓕𝓐 = d𝓐 + 𝓐 ∧ 𝓐 con 𝓐 = ω ⊕ A. Lo que Einstein y Bohr discutían: doble proyección de un aparato más profundo*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.17613/gxfv3-qjj64
 
-Lloret Egea, J. A. (2026m). *Interacción, intercomposición y transmisión factual entre campos en el Sistema Vectorial SV: operadores 𝓘SV y 𝓣SV, distancia factual fibrosa, célula SV(36,6) y articulación serial con el corpus*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.293e914a
+Lloret Egea, J. A. (2026m). *Interacción, intercomposición y transmisión factual entre campos en el Sistema Vectorial SV: operadores 𝓘SV y 𝓣SV, distancia factual fibrosa, célula SV(36,6) y articulación serial con el corpus*. IA eñ™ — La Biblia de la IA™. [https://doi.org/10.21428/39829d0b.293e914a](https://doi.org/10.21428/39829d0b.293e914a)
 
-Lloret Egea, J. A. (2026n). *Distancia absoluta y relativa entre observables del Universo*. IA eñ™ — La Biblia de la IA™. https://www.itvia.online/pub/distancia-absoluta-y-relativa-entre-observables-del-universo
+Lloret Egea, J. A. (2026n). *Distancia absoluta y relativa entre observables del Universo*. IA eñ™ — La Biblia de la IA™. [https://www.itvia.online/pub/distancia-absoluta-y-relativa-entre-observables-del-universo](https://doi.org/10.21428/39829d0b.c394e160)
 
-Lloret Egea, J. A. (2026o). *Edades relativas del universo observable y de sus objetos físicos*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.b56ed853
+Lloret Egea, J. A. (2026o). *Edades relativas del universo observable y de sus objetos físicos*. IA eñ™ — La Biblia de la IA™. [https://doi.org/10.21428/39829d0b.b56ed853](https://doi.org/10.21428/39829d0b.b56ed853)
 
-Lloret Egea, J. A. (2026p). *Campo y energía, génesis de la masa y definición física de la gravedad: gravitación universal, constante cosmológica y dominio observable*. IA eñ™ — La Biblia de la IA™. https://www.itvia.online/pub/campo-y-energia-genesis-de-la-masa-y-definicion-fisica-de-la-gravedad-gravitacion-universal-constante-cosmologica-y-dominio-observable
+Lloret Egea, J. A. (2026p). *Campo y energía, génesis de la masa y definición física de la gravedad: gravitación universal, constante cosmológica y dominio observable*. IA eñ™ — La Biblia de la IA™. [https://www.itvia.online/pub/campo-y-energia-genesis-de-la-masa-y-definicion-fisica-de-la-gravedad-gravitacion-universal-constante-cosmologica-y-dominio-observable](https://doi.org/10.21428/39829d0b.41afec0f)
 
-Lloret Egea, J. A. (2026q). *Proyecciones biológicas de la fibra: Teoría de la Creación de Observables del Universo, transducción metrológica, mutación, enfermedad, cáncer y clausura factual*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.1ab33893
+Lloret Egea, J. A. (2026q). *Proyecciones biológicas de la fibra: Teoría de la Creación de Observables del Universo, transducción metrológica, mutación, enfermedad, cáncer y clausura factual*. IA eñ™ — La Biblia de la IA™. [https://doi.org/10.21428/39829d0b.1ab33893](https://doi.org/10.21428/39829d0b.1ab33893)
 
-Lloret Egea, J. A. (2026r). *Teorema de resolución física de la constante cosmológica: transducción ciclo-distancial SV de Λ, energía oscura y expansión cosmológica*. ITVIA — IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.41afec0f
+Lloret Egea, J. A. (2026r). *Teorema de resolución física de la constante cosmológica: transducción ciclo-distancial SV de Λ, energía oscura y expansión cosmológica*. ITVIA — IA eñ™ — La Biblia de la IA™. [https://doi.org/10.21428/39829d0b.41afec0f](https://doi.org/10.21428/39829d0b.41afec0f)
 
-Lloret Egea, J. A. (2026s). *Catálogo de Pares Estructurales SV (CPS-SV): enlace, aleación y compatibilidad posicional desde los 118 elementos base hasta los 443 candidatos del dominio extendido*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.a56b9cd7
+Lloret Egea, J. A. (2026s). *Catálogo de Pares Estructurales SV (CPS-SV): enlace, aleación y compatibilidad posicional desde los 118 elementos base hasta los 443 candidatos del dominio extendido*. IA eñ™ — La Biblia de la IA™. [https://doi.org/10.21428/39829d0b.a56b9cd7](https://doi.org/10.21428/39829d0b.a56b9cd7)
 
-Lloret Egea, J. A. (2026t). *La materia oscura no existe como sustancia: demostración formal de nulidad sustancial, densidad gravitatoria efectiva de sutura y contraste físico escalable*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.7b41835f
+Lloret Egea, J. A. (2026t). *La materia oscura no existe como sustancia: demostración formal de nulidad sustancial, densidad gravitatoria efectiva de sutura y contraste físico escalable*. IA eñ™ — La Biblia de la IA™. [https://doi.org/10.21428/39829d0b.7b41835f](https://doi.org/10.21428/39829d0b.7b41835f)
 
-Lloret Egea, J. A. (2026u). *Agujero negro como cierre interno sin resto exterior formulable bajo el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.b757ccc4
+Lloret Egea, J. A. (2026u). *Agujero negro como cierre interno sin resto exterior formulable bajo el Sistema Vectorial SV*. IA eñ™ — La Biblia de la IA™. [https://doi.org/10.21428/39829d0b.b757ccc4](https://doi.org/10.21428/39829d0b.b757ccc4)``
 
 Lloret Egea, J. A. (2026v). *Génesis del hidrógeno y teoría de la persistencia energética estructural: masa, frontera, residual e identidad física bajo compatibilidad operatoria universal*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.17613/qq4q9-sd847
 
