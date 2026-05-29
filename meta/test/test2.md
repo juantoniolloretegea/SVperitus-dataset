@@ -6,234 +6,235 @@ This work formulates the potential of an event as a structural magnitude of pola
 ## Palabras clave
 Potencial de un suceso; equipotencialidad originaria; diferencia polar; suceso admisible; imagen del suceso; frame; distancia factual fibrosa; clases de sucesos; identidad del suceso; registro irreversible y acumulativo; indeterminación honesta; U; residual de admisibilidad; métrica por dominios; transducción; comunicación estructural; Universo físico realizado.
 ## Índice
-**0. Planteamiento general**  
-0.1. El problema del potencial aplicado al suceso  
-0.2. Diferencia polar, equipotencialidad y dominio  
-0.3. Separación respecto de energía, fuerza, voltaje y campo  
-0.4. Alcance matemático y físico de la formulación
-**I. Estado del arte y errores de plano**  
-I.1. El potencial en la física contemporánea  
-I.2. Energía potencial, potencial eléctrico y potencial gravitatorio  
-I.3. Diferencia, gradiente y equilibrio  
-I.4. Límites de las formulaciones heredadas ante el suceso  
-I.5. Dominio, residual y retorno como condiciones de lectura
-**II. Equipotencialidad originaria y frontera formal**  
-II.1. El par ordenado `(μ,λ)`  
-II.2. La frontera común `(μ,λ)=(0,0)`  
-II.3. Origen formal y equilibrio realizado  
-II.4. Igualdad polar con intensidad positiva  
-II.5. El ejemplo `(12,12)` dentro de la familia `(a,a)` con `a>0`
-**III. Suceso admisible y lectura polar**  
-III.1. Reevaluación estructural en horizonte declarado  
-III.2. Horizonte de partida y horizonte resultante  
-III.3. Soporte declarado y operador de reevaluación  
-III.4. Registro irreversible y acumulativo (*append-only*)  
-III.5. Legibilidad, diferencia efectiva y compatibilidad observacional  
-III.6. Imagen o *frame* del suceso  
-III.7. Distancia factual fibrosa e identidad trazable  
-III.8. Lectura polar del suceso admisible
-**IV. Potencial de un suceso**  
-IV.1. Magnitud estructural de separación polar  
-IV.2. Definición del potencial y medida primaria  
-IV.3. Polo uno o polo izquierdo  
-IV.4. Polo cero o polo derecho  
-IV.5. Par ordenado `(μ_D(e),λ_D(e))`  
-IV.6. Potencial del suceso: `P_D(e)=μ_D(e)−λ_D(e)`  
-IV.7. Intensidad polar: `I_D(e)=μ_D(e)+λ_D(e)`  
-IV.8. Potencial nulo e intensidad nula  
-IV.9. Potencial nulo con intensidad positiva
-**V. Diferencia de potencial entre sucesos**  
-V.1. Suceso de partida y suceso de llegada  
-V.2. Comparabilidad entre sucesos admisibles  
-V.3. Diferencia en un dominio declarado  
-V.4. Diferencia entre dominios transducidos  
-V.5. Forma compacta de la diferencia  
-V.6. Desarrollo sobre el par ordenado  
-V.7. Diferencia nominal y potencial admisible  
-V.8. Límites de la comparación
-**VI. Residual de admisibilidad del potencial**  
-VI.1. Función del residual  
-VI.2. Dominio y horizonte  
-VI.3. Identidad y lectura polar  
-VI.4. Trayectoria, frontera y soporte  
-VI.5. Canal y transporte de observables  
-VI.6. Traza y registro irreversible  
-VI.7. Unidad, transducción y retorno  
-VI.8. Condición de admisibilidad del potencial
-**VII. Teorema central del potencial de un suceso**  
-VII.1. Enunciado  
-VII.2. Hipótesis  
-VII.3. Existencia del potencial  
-VII.4. Medida primaria  
-VII.5. Diferencia entre sucesos  
-VII.6. Cierre por residual  
-VII.7. No admisibilidad e indeterminación honesta  
-VII.8. Alcance del teorema
-**VIII. Demostración**  
-VIII.1. Equipotencialidad originaria  
-VIII.2. Suceso admisible y lectura polar  
-VIII.3. Separación polar del suceso  
-VIII.4. Medida por diferencia de polos  
-VIII.5. Intensidad polar, origen y equilibrio realizado  
-VIII.6. Comparación entre sucesos  
-VIII.7. Residual de admisibilidad  
-VIII.8. Transducción y retorno  
-VIII.9. Conclusión demostrativa
-**IX. Métrica absoluta del potencial**  
-IX.1. Magnitud interna sin unidad física inmediata  
-IX.2. Signo y predominancia polar  
-IX.3. Módulo de separación polar  
-IX.4. Intensidad polar  
-IX.5. Nulidad originaria  
-IX.6. Equilibrio realizado  
-IX.7. Potencial positivo y potencial negativo  
-IX.8. Métrica relativa condicionada  
-IX.9. Acumulación sobre trayectoria
-**X. Cálculo del potencial en trayectoria**  
-X.1. Trayectoria de sucesos admisibles  
-X.2. Potencial local  
-X.3. Variación entre sucesos consecutivos  
-X.4. Derivada de potencial sobre trayectoria  
-X.5. Acumulación de potencial  
-X.6. Acumulación de variación  
-X.7. Cierre por telescopía  
-X.8. Ruptura de dominio  
-X.9. Cálculo incompleto e indeterminación honesta
-**XI. Métrica por dominios**  
-XI.1. Lectura formal  
-XI.2. Expresión energética  
-XI.3. Expresión electromagnética  
-XI.4. Expresión termodinámica  
-XI.5. Expresión gravitatoria  
-XI.6. Expresión cosmológica y observacional  
-XI.7. Expresión biológica  
-XI.8. Expresión documental y semántica estructural  
-XI.9. Unidad externa, transducción y retorno
-**XII. Transducción a física contemporánea**  
-XII.1. Transductor universal  
-XII.2. Transductores específicos por dominio  
-XII.3. Magnitud interna y expresión externa  
-XII.4. Unidad, escala y retorno  
-XII.5. Preservación de identidad  
-XII.6. Potencial eléctrico como caso sectorial  
-XII.7. Potencial energético y termodinámico  
-XII.8. Potencial gravitatorio y cosmológico  
-XII.9. Dictamen de expresión física
-**XIII. Comunicación estructural en el Universo físico realizado**  
-XIII.1. Diferencia de potencial y relación entre sucesos  
-XIII.2. Canal, frontera y traza  
-XIII.3. Retorno y conservación de identidad  
-XIII.4. Transmisión admisible de diferencia  
-XIII.5. Comunicación sin sintiencia ni propósito  
-XIII.6. Sucesos, observables y dominios  
-XIII.7. Potencial, equilibrio realizado y cierre local  
-XIII.8. Potencial y mantenimiento de diferencia bajo residual
-**XIV. Matriz de contraste**  
-XIV.1. Origen formal `(0,0)`  
-XIV.2. Equilibrio realizado `(a,a)` con `a>0`  
-XIV.3. Potencial con predominancia del polo uno  
-XIV.4. Potencial con predominancia del polo cero  
-XIV.5. Sucesos comparables en un dominio declarado  
-XIV.6. Sucesos sin comparabilidad suficiente  
-XIV.7. Transducción física cerrada  
-XIV.8. Transducción física no cerrada  
-XIV.9. Salidas de admisibilidad
-**XV. Matriz de consistencia**  
-XV.1. Potencial y diferencia aritmética  
-XV.2. Potencial y magnitudes físicas heredadas  
-XV.3. Origen formal y equilibrio realizado  
-XV.4. Indeterminación honesta  
-XV.5. Lecturas teleológicas o sintientes  
-XV.6. Horizonte y comparabilidad  
-XV.7. Unidad, transducción y retorno  
-XV.8. Registro irreversible y acumulativo  
-XV.9. Resultado de consistencia
-**XVI. Conclusión**  
-XVI.1. Resultado alcanzado  
-XVI.2. Potencial como magnitud estructural del suceso  
-XVI.3. Fórmula rectora y residual  
-XVI.4. Métrica absoluta y métrica por dominios  
-XVI.5. Comunicación estructural en el régimen de sucesos  
-XVI.6. Alcance de la formulación
-**XVII. Corolario de estratificación**  
-XVII.1. Resultado formal obtenido  
-XVII.2. Dependencias superiores satisfechas  
-XVII.3. Aparato matemático empleado  
-XVII.4. Alcance transductivo  
-XVII.5. Tabla final de estratificación
-**Anexo del Suceso**  
-A.1. Definición de suceso  
-A.2. Ejemplos de cálculo del Potencial de un suceso: comunicación estructural en el Universo físico realizado, equipotencialidad, diferencia polar y métrica  
-A.2.1. Potencial de un suceso con predominancia del polo uno  
-A.2.2. Potencial de un suceso con predominancia del polo cero  
-A.2.3. Potencial nulo con intensidad nula  
-A.2.4. Potencial nulo con intensidad positiva  
-A.2.5. Diferencia de potencial entre sucesos comparables  
-A.2.6. Diferencia de potencial entre sucesos no comparables  
-A.2.7. Diferencial de potencial en trayectoria admisible  
-A.2.8. Acumulación de potencial sobre cadena de sucesos  
-A.2.9. Ruptura de horizonte y salida `U`  
-A.2.10. Transducción de potencial a dominio físico declarado  
-A.3. Glosario técnico  
-A.3.1. Suceso  
-A.3.2. Suceso admisible  
-A.3.3. Configuración legible  
-A.3.4. Horizonte de partida  
-A.3.5. Horizonte resultante  
-A.3.6. Soporte declarado  
-A.3.7. Operador de reevaluación  
-A.3.8. Diferencia eventiva  
-A.3.9. Afectación débil  
-A.3.10. Afectación fuerte  
-A.3.11. Precedencia estructural  
-A.3.12. Cadena de sucesos  
-A.3.13. Acumulación eventiva  
-A.3.14. Régimen de paso  
-A.3.15. Umbral  
-A.3.16. Transición  
-A.3.17. Enlace  
-A.3.18. Equivalencia parcial  
-A.3.19. Traza  
-A.3.20. Registro irreversible y acumulativo (*append-only*)  
-A.4. Célula, imagen del suceso e indeterminación honesta  
-A.4.1. Plano exacto y representación auxiliar  
-A.4.2. Imagen o *frame* del suceso  
-A.4.3. Célula, configuración y lectura visible  
-A.4.4. `U` como no determinación actual  
-A.4.5. `U` legítima, resolución y reapertura  
-A.4.6. Identidad, trazabilidad y validez operativa  
-A.5. Identidad del suceso, imagen, potencial y distancia factual fibrosa  
-A.5.1. Célula de definición de imagen o *frame*  
-A.5.2. Igualdad de potencial e insuficiencia por sí sola  
-A.5.3. Distancia factual fibrosa nula  
-A.5.4. Familia de dominio y pertenencia común  
-A.5.5. Traza de identidad y registro irreversible  
-A.5.6. Mismo suceso, suceso distinto e indeterminación honesta  
-A.6. Suceso cero y sucesos interiores  
-A.7. Horizonte declarado  
-A.8. Soporte de afectación  
-A.9. Operador de reevaluación  
-A.10. Legibilidad antes y después  
-A.11. Diferencia efectiva  
-A.12. Control exterior suficiente  
-A.13. Compatibilidad observacional  
-A.14. Comparabilidad entre sucesos  
-A.15. Afectación, precedencia y cadena  
-A.16. Acumulación eventiva  
-A.17. Régimen de paso, umbral y transición  
-A.18. Enlace y equivalencia parcial  
-A.19. Registro irreversible y acumulativo (*append-only*)  
-A.20. Síntesis del suceso admisible
-**Laboratorios**  
-L.1. Banco de origen y equilibrio  
-L.2. Banco de predominancia polar  
-L.3. Banco de comparabilidad entre sucesos  
-L.4. Banco de ruptura de horizonte e identidad  
-L.5. Banco de transducción física  
-L.6. Banco de indeterminación honesta  
-L.7. Matriz de resultados  
-L.8. Salidas de admisibilidad
-**Bibliografía**
+**0. Planteamiento general**<br>
+0.1. El problema del potencial aplicado al suceso<br>
+0.2. Diferencia polar, equipotencialidad y dominio<br>
+0.3. Separación respecto de energía, fuerza, voltaje y campo<br>
+0.4. Alcance matemático y físico de la formulación<br>
+**I. Estado del arte y errores de plano**<br>
+I.1. El potencial en la física contemporánea<br>
+I.2. Energía potencial, potencial eléctrico y potencial gravitatorio<br>
+I.3. Diferencia, gradiente, jacobiano y equilibrio<br>
+I.4. Límites de las formulaciones heredadas ante el suceso<br>
+I.5. Dominio, residual y retorno como condiciones de lectura<br>
+**II. Equipotencialidad originaria y frontera formal**<br>
+II.1. El par ordenado `(μ,λ)`<br>
+II.2. La frontera común `(μ,λ)=(0,0)`<br>
+II.3. Origen formal y equilibrio realizado<br>
+II.4. Igualdad polar con intensidad positiva<br>
+II.5. El ejemplo `(12,12)` dentro de la familia `(a,a)` con `a>0`<br>
+**III. Suceso admisible y lectura polar**<br>
+III.1. Reevaluación estructural en horizonte declarado<br>
+III.2. Horizonte de partida y horizonte resultante<br>
+III.3. Soporte declarado y operador de reevaluación<br>
+III.4. Registro irreversible y acumulativo (*append-only*)<br>
+III.5. Legibilidad, diferencia efectiva y compatibilidad observacional<br>
+III.6. Imagen o *frame* del suceso<br>
+III.7. Distancia factual fibrosa e identidad trazable<br>
+III.8. Lectura polar del suceso admisible<br>
+**IV. Potencial de un suceso**<br>
+IV.1. Magnitud estructural de separación polar<br>
+IV.2. Definición del potencial y medida primaria<br>
+IV.3. Polo uno o polo izquierdo<br>
+IV.4. Polo cero o polo derecho<br>
+IV.5. Par ordenado `(μ_D(e),λ_D(e))`<br>
+IV.6. Potencial del suceso: `P_D(e)=μ_D(e)−λ_D(e)`<br>
+IV.7. Intensidad polar: `I_D(e)=μ_D(e)+λ_D(e)`<br>
+IV.8. Potencial nulo e intensidad nula<br>
+IV.9. Potencial nulo con intensidad positiva<br>
+**V. Diferencia de potencial entre sucesos**<br>
+V.1. Suceso de partida y suceso de llegada<br>
+V.2. Comparabilidad entre sucesos admisibles<br>
+V.3. Diferencia en un dominio declarado<br>
+V.4. Diferencia entre dominios transducidos<br>
+V.5. Forma compacta de la diferencia<br>
+V.6. Desarrollo sobre el par ordenado<br>
+V.7. Diferencia nominal y potencial admisible<br>
+V.8. Límites de la comparación<br>
+**VI. Residual de admisibilidad del potencial**<br>
+VI.1. Función del residual<br>
+VI.2. Dominio y horizonte<br>
+VI.3. Identidad y lectura polar<br>
+VI.4. Trayectoria, frontera y soporte<br>
+VI.5. Canal y transporte de observables<br>
+VI.6. Traza y registro irreversible<br>
+VI.7. Unidad, transducción y retorno<br>
+VI.8. Condición de admisibilidad del potencial<br>
+**VII. Teorema central del potencial de un suceso**<br>
+VII.1. Enunciado<br>
+VII.2. Hipótesis<br>
+VII.3. Existencia del potencial<br>
+VII.4. Medida primaria<br>
+VII.5. Diferencia entre sucesos<br>
+VII.6. Cierre por residual<br>
+VII.7. No admisibilidad e indeterminación honesta<br>
+VII.8. Alcance del teorema<br>
+**VIII. Demostración**<br>
+VIII.1. Equipotencialidad originaria<br>
+VIII.2. Suceso admisible y lectura polar<br>
+VIII.3. Separación polar del suceso<br>
+VIII.4. Medida por diferencia de polos<br>
+VIII.5. Intensidad polar, origen y equilibrio realizado<br>
+VIII.6. Comparación entre sucesos<br>
+VIII.7. Residual de admisibilidad<br>
+VIII.8. Transducción y retorno<br>
+VIII.9. Conclusión demostrativa<br>
+**IX. Métrica absoluta del potencial**<br>
+IX.1. Magnitud interna sin unidad física inmediata<br>
+IX.2. Signo y predominancia polar<br>
+IX.3. Módulo de separación polar<br>
+IX.4. Intensidad polar<br>
+IX.5. Nulidad originaria<br>
+IX.6. Equilibrio realizado<br>
+IX.7. Potencial positivo y potencial negativo<br>
+IX.8. Métrica relativa condicionada<br>
+IX.9. Acumulación sobre trayectoria<br>
+**X. Cálculo del potencial en trayectoria**<br>
+X.1. Trayectoria de sucesos admisibles<br>
+X.2. Potencial local<br>
+X.3. Variación entre sucesos consecutivos<br>
+X.4. Derivada de potencial sobre trayectoria<br>
+X.5. Acumulación de potencial<br>
+X.6. Acumulación de variación<br>
+X.7. Cierre por telescopía<br>
+X.8. Ruptura de dominio<br>
+X.9. Cálculo incompleto e indeterminación honesta<br>
+**XI. Métrica por dominios**<br>
+XI.1. Lectura formal<br>
+XI.2. Expresión energética<br>
+XI.3. Expresión electromagnética<br>
+XI.4. Expresión termodinámica<br>
+XI.5. Expresión gravitatoria<br>
+XI.6. Expresión cosmológica y observacional<br>
+XI.7. Expresión biológica<br>
+XI.8. Expresión documental y semántica estructural<br>
+XI.9. Unidad externa, transducción y retorno<br>
+**XII. Transducción a física contemporánea**<br>
+XII.1. Transductor universal<br>
+XII.2. Transductores específicos por dominio<br>
+XII.3. Magnitud interna y expresión externa<br>
+XII.4. Unidad, escala y retorno<br>
+XII.5. Preservación de identidad<br>
+XII.6. Potencial eléctrico como caso sectorial<br>
+XII.7. Potencial energético y termodinámico<br>
+XII.8. Potencial gravitatorio y cosmológico<br>
+XII.9. Dictamen de expresión física<br>
+**XIII. Comunicación estructural en el Universo físico realizado**<br>
+XIII.1. Diferencia de potencial y relación entre sucesos<br>
+XIII.2. Canal, frontera y traza<br>
+XIII.3. Retorno y conservación de identidad<br>
+XIII.4. Transmisión admisible de diferencia<br>
+XIII.5. Comunicación sin sintiencia ni propósito<br>
+XIII.6. Sucesos, observables y dominios<br>
+XIII.7. Potencial, equilibrio realizado y cierre local<br>
+XIII.8. Potencial y mantenimiento de diferencia bajo residual<br>
+**XIV. Matriz de contraste**<br>
+XIV.1. Origen formal `(0,0)`<br>
+XIV.2. Equilibrio realizado `(a,a)` con `a>0`<br>
+XIV.3. Potencial con predominancia del polo uno<br>
+XIV.4. Potencial con predominancia del polo cero<br>
+XIV.5. Sucesos comparables en un dominio declarado<br>
+XIV.6. Sucesos sin comparabilidad suficiente<br>
+XIV.7. Transducción física cerrada<br>
+XIV.8. Transducción física no cerrada<br>
+XIV.9. Salidas de admisibilidad<br>
+**XV. Matriz de consistencia**<br>
+XV.1. Potencial y diferencia aritmética<br>
+XV.2. Potencial y magnitudes físicas heredadas<br>
+XV.3. Origen formal y equilibrio realizado<br>
+XV.4. Indeterminación honesta<br>
+XV.5. Lecturas teleológicas o sintientes<br>
+XV.6. Horizonte y comparabilidad<br>
+XV.7. Unidad, transducción y retorno<br>
+XV.8. Registro irreversible y acumulativo<br>
+XV.9. Resultado de consistencia<br>
+**XVI. Conclusión**<br>
+XVI.1. Resultado alcanzado<br>
+XVI.2. Potencial como magnitud estructural del suceso<br>
+XVI.3. Fórmula rectora y residual<br>
+XVI.4. Métrica absoluta y métrica por dominios<br>
+XVI.5. Comunicación estructural en el régimen de sucesos<br>
+XVI.6. Alcance de la formulación<br>
+**XVII. Corolario de estratificación**<br>
+XVII.1. Resultado formal obtenido<br>
+XVII.2. Dependencias superiores satisfechas<br>
+XVII.3. Aparato matemático empleado<br>
+XVII.4. Alcance transductivo<br>
+XVII.5. Tabla final de estratificación<br>
+**Anexo del Suceso**<br>
+A.1. Definición de suceso<br>
+A.2. Ejemplos de cálculo del Potencial de un suceso: comunicación estructural en el Universo físico realizado, equipotencialidad, diferencia polar y métrica<br>
+A.2.1. Potencial de un suceso con predominancia del polo uno<br>
+A.2.2. Potencial de un suceso con predominancia del polo cero<br>
+A.2.3. Potencial nulo con intensidad nula<br>
+A.2.4. Potencial nulo con intensidad positiva<br>
+A.2.5. Diferencia de potencial entre sucesos comparables<br>
+A.2.6. Diferencia de potencial entre sucesos no comparables<br>
+A.2.7. Diferencial de potencial en trayectoria admisible<br>
+A.2.8. Acumulación de potencial sobre cadena de sucesos<br>
+A.2.9. Ruptura de horizonte y salida `U`<br>
+A.2.10. Transducción de potencial a dominio físico declarado<br>
+A.3. Glosario técnico<br>
+A.3.1. Suceso<br>
+A.3.2. Suceso admisible<br>
+A.3.3. Configuración legible<br>
+A.3.4. Horizonte de partida<br>
+A.3.5. Horizonte resultante<br>
+A.3.6. Soporte declarado<br>
+A.3.7. Operador de reevaluación<br>
+A.3.8. Diferencia eventiva<br>
+A.3.9. Afectación débil<br>
+A.3.10. Afectación fuerte<br>
+A.3.11. Precedencia estructural<br>
+A.3.12. Cadena de sucesos<br>
+A.3.13. Acumulación eventiva<br>
+A.3.14. Régimen de paso<br>
+A.3.15. Umbral<br>
+A.3.16. Transición<br>
+A.3.17. Enlace<br>
+A.3.18. Equivalencia parcial<br>
+A.3.19. Traza<br>
+A.3.20. Registro irreversible y acumulativo (*append-only*)<br>
+A.4. Célula, imagen del suceso e indeterminación honesta<br>
+A.4.1. Plano exacto y representación auxiliar<br>
+A.4.2. Imagen o *frame* del suceso<br>
+A.4.3. Célula, configuración y lectura visible<br>
+A.4.4. `U` como no determinación actual<br>
+A.4.5. `U` legítima, resolución y reapertura<br>
+A.4.6. Identidad, trazabilidad y validez operativa<br>
+A.5. Identidad del suceso, imagen, potencial y distancia factual fibrosa<br>
+A.5.1. Célula de definición de imagen o *frame*<br>
+A.5.2. Igualdad de potencial e insuficiencia por sí sola<br>
+A.5.3. Distancia factual fibrosa nula<br>
+A.5.4. Familia de dominio y pertenencia común<br>
+A.5.5. Traza de identidad y registro irreversible<br>
+A.5.6. Mismo suceso, suceso distinto e indeterminación honesta<br>
+A.6. Suceso cero y sucesos interiores<br>
+A.7. Horizonte declarado<br>
+A.8. Soporte de afectación<br>
+A.9. Operador de reevaluación<br>
+A.10. Legibilidad antes y después<br>
+A.11. Diferencia efectiva<br>
+A.12. Control exterior suficiente<br>
+A.13. Compatibilidad observacional<br>
+A.14. Comparabilidad entre sucesos<br>
+A.15. Afectación, precedencia y cadena<br>
+A.16. Acumulación eventiva<br>
+A.17. Régimen de paso, umbral y transición<br>
+A.18. Enlace y equivalencia parcial<br>
+A.19. Registro irreversible y acumulativo (*append-only*)<br>
+A.20. Síntesis del suceso admisible<br>
+**Laboratorios**<br>
+L.1. Banco de origen y equilibrio<br>
+L.2. Banco de predominancia polar<br>
+L.3. Banco de comparabilidad entre sucesos<br>
+L.4. Banco de ruptura de horizonte e identidad<br>
+L.5. Banco de transducción física<br>
+L.6. Banco de indeterminación honesta<br>
+L.7. Matriz de resultados<br>
+L.8. Salidas de admisibilidad<br>
+**Bibliografía**<br>
+
 ## 0. Planteamiento general
 ### 0.1. El problema del potencial aplicado al suceso
 El potencial de un suceso plantea un problema más amplio que la simple traslación de una magnitud física conocida. En física contemporánea, el término potencial puede designar energía potencial, potencial eléctrico, potencial gravitatorio, potencial químico, función auxiliar, campo escalar o instrumento de cálculo dependiente del dominio. Esa pluralidad resulta legítima dentro de cada aparato, pero no basta para definir el potencial de un suceso, porque un suceso no es una partícula, un punto geométrico, una carga eléctrica, una masa ni una variable de estado aislada. Un suceso es una reevaluación estructural admisible dentro de un horizonte declarado; por ello, su potencial debe formularse antes como magnitud propia de separación polar y sólo después, si el dominio lo permite, podrá adquirir expresión energética, electromagnética, termodinámica, gravitatoria, cosmológica, biológica, documental u observacional. La dificultad central consiste en impedir dos errores simétricos. El primero reduce el potencial a una resta entre dos valores, como si escribir una diferencia bastara para constituir una magnitud admisible. El segundo importa sin control una noción física heredada y la proyecta sobre el suceso como si todo potencial fuese, desde el comienzo, energía, voltaje, gradiente o campo. Ambos errores rompen el objeto que se quiere estudiar. El potencial de un suceso exige una definición anterior al dominio físico sectorial y posterior a la constitución del suceso admisible: debe expresar el grado y el sentido en que una reevaluación estructural se separa de la equipotencialidad originaria, bajo identidad, horizonte, soporte, traza, residual y retorno. La formulación adoptada parte de una distinción necesaria entre el suceso y sus componentes de lectura. Un suceso puede tener imagen o *frame*, distancia factual fibrosa respecto de otros sucesos o configuraciones, potencial, clase, trayectoria, soporte y retorno; ninguno de esos componentes agota por sí solo el objeto completo. Dos sucesos pueden presentar igual potencial y no ser el mismo suceso; también pueden compartir imagen y diferir por potencial, horizonte, traza o pertenencia de dominio. Por tanto, el potencial no sustituye a la identidad del suceso, sino que mide una dimensión estructural de su dinámica polar.
@@ -248,8 +249,13 @@ La formulación alcanza tres planos articulados. En el plano matemático, fija e
 El término potencial posee una historia amplia y técnicamente fértil en la física contemporánea. En mecánica clásica, el potencial aparece ligado a la energía asociada a una configuración y a la posibilidad de obtener fuerzas mediante gradientes bajo condiciones apropiadas. En electromagnetismo, el potencial escalar y el potencial vectorial permiten formular campos eléctricos y magnéticos con una estructura matemática más flexible que la descripción directa por campos; sin embargo, su significado depende de elección de gauge, frontera, dominio y régimen físico. En gravitación newtoniana, el potencial gravitatorio expresa una función escalar ligada a la interacción entre masas; en relatividad general, la geometría del espaciotiempo desplaza el tratamiento hacia métrica, conexión y curvatura, de modo que el potencial newtoniano queda como aproximación o límite en regímenes determinados. En termodinámica, los potenciales aparecen como funciones de estado obtenidas mediante transformaciones de Legendre: energía interna, entalpía, energía libre de Helmholtz, energía libre de Gibbs y potencial químico ordenan intercambios bajo restricciones de temperatura, presión, volumen, entropía, composición o número de partículas (Gibbs, 1873; Maxwell, 1873; Einstein, 1915; Landau y Lifshitz, 1975; Jackson, 1999). La riqueza de estas formulaciones muestra que “potencial” no nombra una sola cosa. Nombra una familia de usos matemáticos y físicos dependientes del dominio, de las variables admitidas, de las simetrías disponibles, de las unidades empleadas y del tipo de retorno que se exige. Un potencial puede ser función auxiliar, magnitud física con unidad, herramienta variacional, generador de campo, energía disponible, variable intensiva o expresión de equilibrio. Por tanto, cualquier intento de definir el potencial de un suceso mediante una traslación directa desde una de esas tradiciones produciría una reducción prematura. El suceso no entra como masa puntual, carga eléctrica, coordenada lagrangiana, estado termodinámico ordinario ni región de un campo ya constituido; entra como reevaluación estructural admisible dentro de un horizonte declarado. La cuestión que aquí se abre no consiste en negar los potenciales físicos heredados, sino en impedir que alguno de ellos se arrogue la definición general. La física contemporánea conserva resultados sólidos dentro de sus regímenes: el potencial eléctrico pertenece al régimen electromagnético; el potencial gravitatorio newtoniano pertenece a una aproximación gravitatoria determinada; los potenciales termodinámicos pertenecen a funciones de estado bajo restricciones precisas; los potenciales efectivos aparecen en modelos de campo o en teorías cuánticas bajo construcción formal específica. El potencial de un suceso necesita un plano previo: una magnitud estructural de separación polar que pueda, más adelante, expresarse en esos dominios cuando las condiciones de transducción lo autoricen.
 ### I.2. Energía potencial, potencial eléctrico y potencial gravitatorio
 La energía potencial expresa, en mecánica clásica, una relación entre configuración e interacción bajo una regla que permite obtener trabajo, fuerza o estabilidad. Su utilidad es indiscutible cuando existe una variable configuracional adecuada, una referencia de energía, un régimen conservativo o una aproximación que permita tratar el sistema mediante funciones escalares. Sin embargo, la energía potencial presupone ya un aparato físico determinado: cuerpos, posiciones, interacción, fuerza, conservación o al menos un régimen efectivo donde esa lectura sea admisible. El potencial de un suceso no puede nacer ahí, porque el suceso puede anteceder a la expresión física sectorial de la diferencia que introduce. El potencial eléctrico ofrece un ejemplo todavía más delicado. En electromagnetismo, la diferencia de potencial puede asociarse a trabajo por unidad de carga y a campos eléctricos bajo condiciones precisas. No obstante, la lectura eléctrica exige carga, régimen electromagnético, unidad, frontera, campo, trayectoria o diferencia entre puntos del dominio. Además, los potenciales electromagnéticos poseen libertad de gauge: distintas representaciones pueden producir los mismos campos observables. La lección es doble. Por un lado, el potencial puede ser extraordinariamente fecundo como aparato de cálculo; por otro, su significado depende de dominio, representación y retorno. Una definición del potencial de un suceso no puede confundirse con voltaje salvo cuando el suceso esté ya dentro de un régimen electromagnético transducido. El potencial gravitatorio newtoniano presenta una tercera advertencia. En el régimen clásico permite describir la interacción gravitatoria mediante una función escalar asociada a masas y distancias. Pero la relatividad general reformula la gravitación como geometría, de modo que la intuición de un potencial gravitatorio universal pierde rango fuera de los límites apropiados. Esto impide usar “potencial gravitatorio” como matriz universal del potencial del suceso. Cuando un suceso tenga expresión gravitatoria o cosmológica, esa expresión deberá pasar por dominio, métrica, retorno, unidad, residual y transducción. Sin esos elementos, la analogía gravitatoria sería una sustitución ilegítima.
-### I.3. Diferencia, gradiente y equilibrio
-La diferencia es condición frecuente de cálculo, pero no toda diferencia constituye potencial. Una resta entre dos valores puede expresar contraste, error, desplazamiento, cambio, gradiente, residuo, distancia o simple desigualdad aritmética. Para que una diferencia sea potencial debe poseer régimen propio de lectura: referencia, orientación, dominio, magnitud, unidad cuando proceda, frontera y retorno. El potencial de un suceso exige además que la diferencia nazca de una lectura polar admisible, no de una comparación externa añadida sobre una configuración sin identidad. El gradiente introduce otra distinción necesaria. En muchos regímenes físicos, un potencial permite obtener un campo o una fuerza mediante derivación espacial, variacional o funcional. Sin embargo, esa relación presupone continuidad, coordenadas, diferenciabilidad, dominio geométrico y regla de derivación. El suceso, en cambio, puede operar en régimen discreto, eventivo, ternario o transductivo. Por ello, el potencial de un suceso no se define desde un gradiente espacial heredado, aunque pueda generar, en dominios concretos, una expresión derivada sobre trayectoria, frontera, acumulación o cambio de dominio. El equilibrio tampoco basta para definir el origen. Un equilibrio realizado puede tener diferencia polar nula y conservar intensidad positiva. En ese caso hay igualdad entre polos dentro de un dominio ya abierto, pero no equipotencialidad originaria. La frontera `(μ,λ)=(0,0)` exige simultáneamente potencial nulo e intensidad nula. Por eso la familia `(a,a)` con `a>0` debe separarse del origen formal: expresa equilibrio local, no posición originaria. Esta distinción resulta esencial para evitar que cualquier igualdad observada se confunda con la referencia formal de la que parte el potencial.
+### I.3. Diferencia, gradiente, jacobiano y equilibrio
+La diferencia es condición frecuente de cálculo, pero no toda diferencia constituye potencial. Una resta entre dos valores puede expresar contraste, error, desplazamiento, cambio, gradiente, residuo, distancia o simple desigualdad aritmética. En el SV, la diferencia admisible no nace de convertir la célula ternaria en una recta real continua: la célula exacta pertenece al plano `𝒮ₙ={0,1,U}ⁿ`, y su codificación numérica, cuando se use, conserva rango auxiliar respecto del plano exacto. Por tanto, si `x` e `y` son dos magnitudes comparadas sin dominio, horizonte, identidad ni retorno, la expresión `y−x` sólo produce una diferencia escalar ordinaria. En cambio, si `e_i` y `e_j` son sucesos admisibles en un dominio `D`, con lectura polar cerrada, el potencial local se expresa como `P_D(e)=μ_D(e)−λ_D(e)` y la diferencia de potencial entre sucesos como `ΔP_D(e_i,e_j)=P_D(e_j)−P_D(e_i)`. Esta diferencia sólo queda admitida cuando el residual correspondiente cierra: `R_P^D(e_i,e_j)=0`. Si el residual no cierra, la escritura puede existir como resta, pero no como potencial admisible del suceso.
+La métrica SV de comparación se apoya en la arquitectura del cambio factual. Sea `D` un dominio estructural declarado y sea `𝓗_D` su horizonte. La base factual del dominio se expresa como `𝓑_D=(S,U_res,U_irr,R_D,L_D)`, donde `S` denota la familia de *frames* compatibles, `U_res` la indeterminación resoluble en el horizonte actual, `U_irr` la indeterminación irreducible en ese horizonte, `R_D` el residual estructural y `L_D` el límite estructural del dominio. Sobre una sucesión factual declarada `Γ=(S_0,S_1,…,S_m)` y un observable compatible `q`, la derivada de suceso se define como `Δ_{ν_j}q=q(S_{j+1})−q(S_j)`, y, cuando existe coeficiente factual compatible `c_j>0`, su forma normalizada se expresa como `𝔇_Γq(j)=(q(S_{j+1})−q(S_j))/c_j`. Esta forma no introduce velocidad, tiempo soberano ni continuidad clásica: compara variaciones factuales entre tramos bajo escala declarada. Aplicada al potencial, la lectura de trayectoria queda `Δ_{ν_j}P_D=P_D(S_{j+1})−P_D(S_j)` y `𝔇_ΓP_D(j)=(P_D(S_{j+1})−P_D(S_j))/c_j`, siempre que `P_D` sea observable compatible del dominio.
+El jacobiano entra por sensibilidad estructural, no como sustituto de la definición del potencial. Si `p` es un parámetro compatible, la sensibilidad factual queda definida como `Σ_q(p)=Δq/Δp` cuando el cociente factual esté bien definido. Si `Q=(q_1,…,q_n)` y `P=(p_1,…,p_n)`, el jacobiano estructural se define como `J_{Q,P}=((Δq_i)/(Δp_j))_{i,j}`. Su función es decidir si el dominio ha cambiado sólo localmente o si ha cambiado de régimen. En este apartado, basta aplicarlo al vector de observables del suceso `Q_P=(P_D,I_D,R_P^D)` frente a una familia de parámetros compatibles `P=(p_1,…,p_n)`, de modo que `J_{Q_P,P}=((Δq_i)/(Δp_j))_{i,j}` registra sensibilidad del potencial, de la intensidad polar y del residual de admisibilidad respecto de variaciones declaradas del dominio. Si esa sensibilidad no altera residual, identidad ni retorno, la variación permanece local; si modifica régimen, frontera, trazabilidad o clausura, la comparación exige reapertura de lectura.
+El gradiente se define en el SV desde derivadas parciales factuales, no por importación directa del gradiente clásico. Para un observable `f`, la parcial paramétrica respecto de `x_a` en el suceso `ν_j` se define como `∂^{SV}_{x_a}f(ν_j)=(f_j(x_a+Δx_a)−f_j(x_a))/Δx_a`; si el observable tiene componentes o posiciones internas tipadas, la parcial posicional se define como `∂^{SV}_i f(ν_j)=(f_j^{(i,+)}−f_j^{(i,−)})/δ_i`. A partir de ellas, el gradiente posicional queda `∇^{SV}_{pos}f(ν_j)=(∂^{SV}_1f(ν_j),…,∂^{SV}_nf(ν_j))` y el gradiente paramétrico queda `∇^{SV}_x f(ν_j)=(∂^{SV}_{x_1}f(ν_j),…,∂^{SV}_{x_p}f(ν_j))`. La derivada direccional factual se expresa como `D^{SV}_v f(ν_j)=⟨∇^{SV}_{pos}f(ν_j),v⟩_{SV}` cuando la contracción factual compatible está legitimada en el dominio. Aplicado al potencial, el gradiente sólo opera si `P_D` ha quedado autorizado como observable compatible; fuera de esa autorización, no hay gradiente del potencial, sino analogía impropia.
+El equilibrio tampoco basta para definir el origen. Un equilibrio realizado puede tener diferencia polar nula y conservar intensidad positiva. En ese caso hay igualdad entre polos dentro de un dominio ya abierto, pero no equipotencialidad originaria. La frontera `(μ,λ)=(0,0)` exige simultáneamente potencial nulo e intensidad nula. Por eso la familia `(a,a)` con `a>0` debe separarse del origen formal: expresa equilibrio local, no posición originaria. Esta distinción resulta esencial para evitar que cualquier igualdad observada se confunda con la referencia formal de la que parte el potencial.
+
 ### I.4. Límites de las formulaciones heredadas ante el suceso
 Las formulaciones heredadas del potencial resultan insuficientes cuando se aplican al suceso sin mediación. La razón principal es que el suceso no equivale a una variable física ordinaria. Un suceso admisible incorpora horizonte, soporte de afectación, operador de reevaluación, legibilidad antes y después, diferencia efectiva, traza, comparabilidad y retorno. Ningún potencial sectorial contiene por sí solo todo ese aparato. Una función de energía no decide identidad del suceso; un voltaje no gobierna trazabilidad; un potencial gravitatorio no fija registro irreversible; un potencial termodinámico no resuelve por sí mismo imagen, frame, distancia factual fibrosa ni pertenencia de dominio. El segundo límite aparece en la identidad. Dos sucesos pueden compartir potencial y no ser el mismo suceso. También pueden presentar distancia factual fibrosa nula bajo ciertas lecturas y, aun así, no cerrar identidad si fallan familia de dominio, célula de definición de imagen, traza o retorno. La física heredada suele comparar estados, campos, posiciones, energías o variables; el potencial de un suceso debe comparar registros eventivos con identidad trazable. Por ello, la igualdad de magnitud no basta. La identidad del suceso exige cierre conjunto de las restricciones propias del objeto eventivo. El tercer límite concierne a la indeterminación. En muchas formulaciones físicas, la falta de información se trata como error, incertidumbre estadística, distribución, aproximación o ruido. En el régimen aquí adoptado, `U` conserva no determinación actual cuando no existe fundamento suficiente para cerrar. Esto afecta directamente al potencial: si falta identidad, trazabilidad, horizonte, soporte, retorno, unidad o transducción, no se fuerza la comparación. La salida puede quedar en `U` sin degradarse a probabilidad ni a ignorancia informal. Ese límite preserva el rigor de la formulación y bloquea cierres aparentes.
 ### I.5. Dominio, residual y retorno como condiciones de lectura
