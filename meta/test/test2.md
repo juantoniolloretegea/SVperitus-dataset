@@ -791,3 +791,222 @@ La comunicación estructural queda definida como relación admisible entre suces
 
 ### XVI.6. Alcance de la formulación
 El alcance de la formulación queda delimitado por sus propias restricciones. Define el potencial del suceso, su intensidad, la diferencia entre sucesos, el residual de admisibilidad, la métrica tipada, la métrica por dominios, la transducción física y la comunicación estructural. No sustituye los potenciales sectoriales de la física contemporánea, pero permite ordenarlos como expresiones de retorno cuando el dominio correspondiente cierra. No declara identidad por igualdad de potencial, no convierte `U` en número, no absorbe unidades externas sin transducción y no reescribe sucesos previos para cerrar trayectorias. El resultado final es una arquitectura de cálculo donde el potencial puede ser definido, medido, comparado, acumulado, transmitido y expresado por dominios sin romper el objeto que lo soporta: el suceso admisible como reevaluación estructural con horizonte, soporte, traza, residual y retorno.
+
+## XVII. Corolario de estratificación
+
+### XVII.1. Resultado formal obtenido
+Del desarrollo anterior se obtiene un corolario de estratificación: el potencial de un suceso no ocupa el plano de los fundamentos primeros, ni el plano de las magnitudes físicas sectoriales, ni el plano de una simple operación aritmética. Su posición formal queda situada entre la constitución del suceso admisible y las expresiones por dominio. Primero debe existir suceso con horizonte, soporte, operador de reevaluación, traza, residual y retorno; después puede declararse lectura polar; sólo entonces aparece `P_D(e)=μ_D(e)−λ_D(e)` como magnitud estructural de separación polar. A partir de ahí se habilitan la diferencia entre sucesos, la trayectoria, la métrica tipada, la transducción física y la comunicación estructural. El corolario impide invertir el orden: no se parte de energía, voltaje, señal, dato, intención o unidad externa para fabricar el potencial; se parte del suceso admisible y se asciende hacia expresiones cuando el dominio las autoriza.
+
+### XVII.2. Dependencias superiores satisfechas
+La formulación satisface las dependencias superiores que gobiernan el uso del suceso, de la polaridad y de la indeterminación honesta. Conserva la frontera formal `(μ,λ)=(0,0)` como referencia de equipotencialidad originaria; distingue esa frontera del equilibrio realizado `(a,a)` con `a>0`; mantiene `U` como no determinación actual; impide que una célula, imagen formal o *frame* sustituya al suceso completo; exige registro irreversible y acumulativo (*append-only*); y conserva el residual como condición interna de admisibilidad. También preserva la separación entre potencial local, identidad del suceso, distancia factual fibrosa y comunicación estructural. Ninguna igualdad de potencial decide identidad; ninguna diferencia escrita decide comparación; ningún retorno sectorial redefine el potencial. El resultado queda, por tanto, subordinado al régimen de suceso admisible y no desplaza las capas que lo hacen posible.
+
+### XVII.3. Aparato matemático empleado
+El aparato matemático empleado queda estratificado en operaciones compatibles. En el plano local, el potencial se mide por `P_D(e)=μ_D(e)−λ_D(e)` y la intensidad por `I_D(e)=μ_D(e)+λ_D(e)`. En el plano comparativo, la diferencia queda `ΔP_D(e_i,e_j)=P_D(e_j)−P_D(e_i)` bajo residual cerrado. En el plano de trayectoria, se emplean variación factual, derivada normalizada cuando existe coeficiente compatible, acumulación de potencial, acumulación de variación, cierre telescópico, longitud factual recorrida, saldo de frontera y defecto factual de recorrido. En el plano tipado, comparecen `USP_SV^tipo`, soporte activo, parámetros críticos y no críticos, célula portadora suficiente, medidor factual y retorno. En el plano de expresión, operan transductores `T_{D→Ω}` con unidad sectorial sólo cuando `R_{D→Ω}=0`. Cada operación queda situada en su plano; ninguna se usa para ocupar el lugar de otra.
+
+### XVII.4. Alcance transductivo
+El alcance transductivo del potencial queda limitado por dominio, unidad, residual y retorno. El potencial puede recibir expresión energética, electromagnética, termodinámica, gravitatoria, cosmológica, biológica o informacional cuando el transductor específico conserva identidad, orientación polar, traza, frontera y retorno. Fuera de ese cierre, la magnitud interna conserva su validez dentro del dominio del suceso, pero no produce salida sectorial admisible. Esta restricción permite dialogar con la física contemporánea sin entregar la definición del potencial a una magnitud heredada. La física puede recibir retornos del potencial; no lo funda por sustitución. Del mismo modo, la comunicación estructural puede formularse como relación entre sucesos sin atribuir intención, conciencia ni propósito al dominio físico. El alcance transductivo es amplio, pero no incondicionado: cada salida requiere su propio cierre.
+
+### XVII.5. Tabla final de estratificación
+| Plano | Objeto | Forma operativa | Condición de cierre | Salida autorizada |
+|---|---|---|---|---|
+| Frontera formal | Equipotencialidad originaria | `(μ,λ)=(0,0)` | `P=0 ∧ I=0` | Origen formal de lectura polar |
+| Suceso admisible | Reevaluación estructural | `e=(H,H′,σ,R_e)` | Horizonte, soporte, operador, traza y retorno | Suceso apto para lectura polar |
+| Lectura polar | Par ordenado del suceso | `Π_pol^D(e)=(μ_D(e),λ_D(e))` | Polos definidos y orientación declarada | Base del potencial local |
+| Potencial local | Separación polar | `P_D(e)=μ_D(e)−λ_D(e)` | `R_{P_D,F}(e)=0` | Potencial admisible del suceso |
+| Intensidad polar | Presencia polar total | `I_D(e)=μ_D(e)+λ_D(e)` | Lectura polar cerrada | Distinción entre origen y equilibrio |
+| Diferencia entre sucesos | Comparación de potenciales | `ΔP_D(e_i,e_j)=P_D(e_j)−P_D(e_i)` | `R_{ΔP_D,F}(e_i,e_j)=0` | Diferencia admisible |
+| Identidad del suceso | Mismidad operativa o diferencia cerrada | `R_id^D(e_i,e_j)` | Familia, imagen formal, potencial, distancia fibrosa y traza | Mismo suceso, suceso distinto o `U` |
+| Trayectoria | Sucesión factual declarada | `Γ_D=(e_0,e_1,…,e_m)` | Tramos con residual cerrado | Variación, acumulación y recorrido |
+| Métrica tipada | Cálculo material por tipo | `P_tipo`, `USP_SV^tipo`, `𝓜_tipo` | Tipo, soporte activo, orientación y retorno | Distancia, longitud, saldo, defecto y área |
+| Transducción | Expresión por dominio | `T_{D→Ω}(P_D)` o `T_{D→Ω}(ΔP_D)` | `R_{D→Ω}=0` | Retorno sectorial admisible |
+| Comunicación estructural | Relación entre sucesos | `COM_D(e_i,e_j)=1` | Canal, frontera, traza, residual y retorno | Comunicación sin sintiencia ni propósito |
+
+El corolario final es que el potencial de un suceso queda estratificado como magnitud estructural intermedia: nace después de la admisión del suceso, antes de la expresión física o informacional, y sólo opera con cierre cuando dominio, identidad, residual, unidad cuando proceda, transducción y retorno se mantienen visibles.
+
+## Anexo del Suceso
+
+### A.1. Definición de suceso
+Un suceso es una reevaluación estructural admisible dentro de un horizonte declarado. No es un instante, una marca cronológica, una variación genérica, una imagen aislada ni una diferencia escrita entre dos valores. Su forma general queda `e=(H,H′,σ,R_e)`, donde `H` es el horizonte de partida, `H′` el horizonte resultante, `σ⊆I_H` es el soporte declarado de afectación y `R_e:D_e→X_H′` es el operador de reevaluación definido sobre un dominio no vacío `D_e⊆X_H`. El suceso exige legibilidad antes y después, diferencia efectiva sobre algún observable compatible, traza, control exterior suficiente, residual y retorno. Si falta horizonte, no se sabe desde dónde se lee; si falta soporte, no se sabe sobre qué recae la afectación; si falta operador, no hay reevaluación; si falta traza, no se conserva identidad de inscripción; si falta retorno, el resultado no vuelve al dominio en el que debe sostener sentido. Por ello, una imagen formal, un *frame*, una señal, un registro, una igualdad de potencial o una diferencia aritmética pueden participar en la lectura del suceso, pero no sustituyen al suceso completo. El Sistema Vectorial SV sólo admite sucesos con registro irreversible y acumulativo (*append-only*): lo inscrito no se borra ni se reescribe para favorecer un cierre posterior; toda corrección material, ampliación, partición, reapertura o transducción debe quedar incorporada como nuevo tramo trazable.
+
+### A.2. Ejemplos de cálculo del Potencial de un suceso: comunicación estructural en el Universo físico realizado, equipotencialidad, diferencia polar y métrica
+Los ejemplos siguientes no añaden una teoría paralela al cuerpo principal. Sólo muestran cómo se usa la definición del potencial bajo dominio, lectura polar, intensidad, residual y retorno. En todos los casos se presupone que el suceso pertenece a una familia admisible `𝓔_D^adm`, que la lectura polar está autorizada y que los polos `μ_D(e)` y `λ_D(e)` cumplen la convención de no negatividad. La salida de cada ejemplo queda condicionada por el residual correspondiente: si cierra, hay cálculo operativo; si falla materialmente, no hay admisión; si falta determinación suficiente, la salida permanece en `U`.
+
+### A.2.1. Potencial de un suceso con predominancia del polo uno
+Sea `e_1` un suceso admisible en un dominio `D` con lectura polar `Π_pol^D(e_1)=(8,3)`. El potencial queda `P_D(e_1)=8−3=5`, y la intensidad polar queda `I_D(e_1)=8+3=11`. La salida expresa predominancia del polo uno o izquierdo, no superioridad ontológica ni magnitud física heredada. La admisión exige `R_{P_D,F}(e_1)=0`. Si el dominio declara que esos valores proceden de parámetros compatibles, que la orientación polar estaba fijada antes del cálculo y que el retorno conserva sentido, el potencial local queda admitido como `P_D(e_1)=5`. Si esos valores son sólo números sin soporte, el ejemplo no pasa de diferencia nominal.
+
+### A.2.2. Potencial de un suceso con predominancia del polo cero
+Sea `e_2` un suceso admisible con lectura polar `Π_pol^D(e_2)=(4,9)`. El potencial queda `P_D(e_2)=4−9=−5`, y la intensidad polar queda `I_D(e_2)=4+9=13`. El signo negativo no expresa defecto, ausencia ni error; expresa predominancia del polo cero o derecho bajo la orientación declarada. El cálculo es admisible si `R_{P_D,F}(e_2)=0`. Si la orientación del par se invirtió después de ver el resultado, la lectura no cierra. Si la orientación estaba fijada antes, el potencial negativo es tan operativo como el positivo.
+
+### A.2.3. Potencial nulo con intensidad nula
+Sea `e_0` un suceso o una lectura de frontera con `Π_pol^D(e_0)=(0,0)`. Entonces `P_D(e_0)=0−0=0` e `I_D(e_0)=0+0=0`. Esta es la forma de la equipotencialidad originaria en la lectura polar. No debe confundirse con equilibrio realizado ni con igualdad local entre valores ya activos. La admisión de este caso exige que el dominio permita tratar esa lectura como frontera formal y que no se haya importado una interpretación física, cosmológica o métrica no declarada. Si `R_{P_D,F}(e_0)=0`, la salida es origen formal de lectura polar; si el dominio no autoriza esa lectura, no se declara origen.
+
+### A.2.4. Potencial nulo con intensidad positiva
+Sea `e_eq` un suceso admisible con `Π_pol^D(e_eq)=(12,12)`. Entonces `P_D(e_eq)=12−12=0`, pero `I_D(e_eq)=12+12=24`. El potencial se anula, pero la intensidad permanece positiva; por tanto, el caso corresponde a equilibrio realizado, no a equipotencialidad originaria. La igualdad de potencial no autoriza identidad con `(0,0)`, ni retorno al origen formal, ni equivalencia entre sucesos. Para declarar equilibrio realizado deben cerrar lectura polar, dominio, intensidad positiva, residual y retorno. Si otro suceso presenta también `P=0`, no se identifica con `e_eq` salvo que cierren familia de dominio, imagen formal, distancia factual fibrosa, traza y residual de identidad.
+
+### A.2.5. Diferencia de potencial entre sucesos comparables
+Sean `e_i` y `e_j` sucesos admisibles y comparables en `D`, con `P_D(e_i)=5` y `P_D(e_j)=−2`. Si `R_{ΔP_D,F}(e_i,e_j)=0`, la diferencia queda `ΔP_D(e_i,e_j)=P_D(e_j)−P_D(e_i)=−2−5=−7`. La salida indica desplazamiento relativo hacia el polo cero en el paso declarado, no fallo de cálculo. La comparación sólo se admite si ambos sucesos pertenecen a dominio compatible, la identidad o diferencia operativa no queda en `U`, la trayectoria o relación de comparación está declarada y el retorno cierra. Si esos valores proceden de dominios distintos sin transductor, la resta `−7` existe como cálculo externo, pero no como diferencia de potencial admisible.
+
+### A.2.6. Diferencia de potencial entre sucesos no comparables
+Sean `e_a` y `e_b` dos registros con potenciales escritos `P(e_a)=4` y `P(e_b)=4`, pero con familias de dominio distintas, trazas no coincidentes y sin transductor declarado. La igualdad numérica no autoriza comparabilidad ni identidad. La salida correcta no es `ΔP=0` como conclusión operativa, sino no admisión o `U` según el caso. Si se constata contradicción material en dominio, soporte o traza, la comparación se rechaza. Si sólo falta información suficiente para decidir si existe transducción, la salida permanece en `U`. Este ejemplo muestra que el potencial no sustituye la identidad del suceso: dos registros con igual valor pueden pertenecer a sucesos distintos.
+
+### A.2.7. Diferencial de potencial en trayectoria admisible
+Sea `Γ_D=(e_0,e_1,e_2)` una trayectoria de sucesos admisibles con `P_D(e_0)=1`, `P_D(e_1)=4` y `P_D(e_2)=2`. Si los tramos cierran residual, las variaciones son `Δ_ΓP_D(0)=4−1=3` y `Δ_ΓP_D(1)=2−4=−2`. Si existen coeficientes factuales compatibles `c_0=1` y `c_1=2`, las derivadas normalizadas quedan `𝔇_ΓP_D(0)=3/1=3` y `𝔇_ΓP_D(1)=−2/2=−1`. La derivada no introduce tiempo rector ni velocidad física: expresa variación factual por coeficiente de paso declarado. Si los coeficientes no están definidos por el dominio, se conservan las variaciones, pero no se presentan como derivadas normalizadas.
+
+### A.2.8. Acumulación de potencial sobre cadena de sucesos
+Con la misma trayectoria `Γ_D=(e_0,e_1,e_2)` y potenciales `1,4,2`, la acumulación firmada de variación queda `ΣΔP=(4−1)+(2−4)=3−2=1`, que coincide con el saldo de frontera `P_D(e_2)−P_D(e_0)=2−1=1`. La acumulación recorrida queda `Σ|ΔP|=|3|+|−2|=5`. El saldo extremo y el recorrido no coinciden. La trayectoria ha recorrido cinco unidades internas de cambio, aunque el saldo final sea una unidad. Este ejemplo muestra por qué la telescopía no sustituye la trayectoria: el resultado extremo puede ocultar inversión, compensación o recorrido estructural intermedio.
+
+### A.2.9. Ruptura de horizonte y salida `U`
+Sea una trayectoria `Γ_D=(e_0,e_1,e_2)` donde `e_0→e_1` cierra en `D`, pero `e_1→e_2` cambia horizonte, soporte y familia de observables sin transductor declarado. Aunque `P_D(e_1)` y un valor escrito para `e_2` puedan compararse numéricamente, el tramo `e_1→e_2` no queda admitido. Si se constata que el nuevo horizonte pertenece a otro dominio incompatible, la salida es no admisión para el tramo. Si existe indicio de transducción posible pero no hay elementos suficientes para cerrarla, la salida es `U`. La trayectoria no debe completarse por continuidad aparente, ni por semejanza de valores, ni por conveniencia algebraica.
+
+### A.2.10. Transducción de potencial a dominio físico declarado
+Sea `P_D(e)=6 [USP_SV^tipo]` un potencial interno admitido. Para expresarlo en un dominio físico `Ω`, debe existir `T_{D→Ω}` con unidad `u_Ω`, residual `R_{D→Ω}` y retorno `Ret_Ω`. Sólo si `R_{D→Ω}=0` puede escribirse `Expr_Ω(P_D(e))=T_{D→Ω}(6,USP_SV^tipo,u_Ω,Ret_Ω)`. La transducción no convierte automáticamente `6 [USP_SV^tipo]` en joules, voltios, kelvin, señal observacional o magnitud biológica. El dominio físico debe declarar qué magnitud recibe la separación polar, qué unidad opera, qué frontera se conserva, qué traza se transporta y qué retorno permite contrastar el resultado. Si esa cadena no cierra, el potencial interno conserva validez en su dominio, pero no produce expresión física cerrada.
+
+### A.3. Glosario técnico
+El glosario recoge términos operativos empleados en este trabajo. Su función no es sustituir las definiciones formales del cuerpo principal, sino concentrar las condiciones de uso para evitar mezclas de plano. Cada entrada debe leerse bajo dominio, residual y retorno; ninguna autoriza cierre fuera de las restricciones declaradas.
+
+### A.3.1. Suceso
+Reevaluación estructural admisible dentro de un horizonte declarado, con forma `e=(H,H′,σ,R_e)`. Incluye horizonte de partida, horizonte resultante, soporte declarado, operador de reevaluación, dominio de entrada, legibilidad, traza, residual y retorno. No equivale a instante, imagen, señal, registro aislado ni diferencia numérica.
+
+### A.3.2. Suceso admisible
+Suceso que satisface las condiciones necesarias para operar en un dominio: dominio no vacío, soporte declarado, legibilidad antes y después, diferencia efectiva sobre observable compatible, traza, control exterior suficiente, residual y retorno. Si alguna condición material falla, no hay admisión; si queda sin determinación suficiente, la salida es `U`.
+
+### A.3.3. Configuración legible
+Configuración perteneciente al horizonte de lectura y compatible con las reglas del dominio. Puede representarse como `S∈Σⁿ`, con `Σ={0,1,U}`, cuando el dominio trabaja sobre célula formal. La configuración legible no sustituye al suceso; sólo aporta una base de lectura.
+
+### A.3.4. Horizonte de partida
+Régimen desde el cual se lee el suceso. Fija índices, relaciones internas, configuraciones legibles y observables compatibles. Sin horizonte de partida no se puede saber qué cambia, desde dónde cambia ni qué cuenta como entrada admisible.
+
+### A.3.5. Horizonte resultante
+Régimen hacia el que conduce la reevaluación. Puede coincidir con el horizonte de partida o abrir una lectura distinta. Si cambia sin declaración, se rompe comparabilidad; si cambia bajo transducción cerrada, puede admitirse paso de dominio.
+
+### A.3.6. Soporte declarado
+Región, conjunto de posiciones, índices o componentes sobre los que recae la afectación del suceso. Se expresa como `σ⊆I_H`. Sin soporte declarado, no hay afectación operativa; sólo hay cambio aparente o descripción incompleta.
+
+### A.3.7. Operador de reevaluación
+Aplicación `R_e:D_e→X_H′` que lleva configuraciones legibles del horizonte de partida a configuraciones legibles del horizonte resultante. Debe tener dominio no vacío y pertenecer al régimen declarado. No es transformación libre ni sustitución de nombre.
+
+### A.3.8. Diferencia eventiva
+Diferencia producida por un suceso sobre un observable compatible. Puede escribirse como `Δ_eF(x)=F_H′(R_e(x))−F_H(x)` cuando la lectura está autorizada. Acredita que la reevaluación no es vacía, pero no constituye por sí sola potencial.
+
+### A.3.9. Afectación débil
+Afectación que modifica lectura, contexto, intensidad, detalle o parámetro no crítico sin romper el tipo del suceso ni el dominio operativo. Puede alterar potencial, distancia o acumulación, pero no obliga por sí misma a declarar ruptura de dominio.
+
+### A.3.10. Afectación fuerte
+Afectación que modifica parámetros críticos, horizonte, soporte, frontera, traza o retorno de modo que el suceso cambia de régimen. Puede exigir nuevo dominio, transducción, partición de trayectoria o salida no admisible si hay contradicción material.
+
+### A.3.11. Precedencia estructural
+Relación de orden operativo entre sucesos dentro de una trayectoria declarada. No introduce tiempo rector; sólo fija qué registro opera como antecedente y cuál como resultante dentro de una secuencia factual con traza.
+
+### A.3.12. Cadena de sucesos
+Sucesión `Γ_D=(e_0,e_1,…,e_m)` de sucesos admisibles o parcialmente evaluados bajo reglas de dominio. Una cadena puede contener tramos cerrados, tramos no admitidos y tramos en `U`; no debe presentarse como cerrada si alguno de sus componentes necesarios no cierra.
+
+### A.3.13. Acumulación eventiva
+Registro acumulado de variaciones, potenciales, trazas o efectos de una cadena de sucesos. Puede ser firmada, recorrida, por activación o por retorno sectorial según el dominio. No equivale necesariamente al saldo extremo.
+
+### A.3.14. Régimen de paso
+Condición que gobierna el tránsito entre sucesos, horizontes o dominios. Si el régimen de paso conserva identidad, canal, frontera, traza y retorno, el tramo puede cerrar. Si lo rompe, debe declararse ruptura, transducción o `U`.
+
+### A.3.15. Umbral
+Condición declarada por el dominio para admitir predominancia, suficiencia o cambio de régimen. No opera como número universal independiente del tipo. Debe aplicarse sobre soporte activo declarado y no sobre posiciones no usadas de la célula portadora.
+
+### A.3.16. Transición
+Paso entre configuraciones, sucesos, horizontes o dominios bajo regla declarada. Una transición puede ser interna al dominio, transducida o no admitida. No toda transición visible produce suceso admisible; debe conservar condiciones de lectura.
+
+### A.3.17. Enlace
+Relación trazable entre sucesos o registros que permite conservar continuidad operativa sin declarar identidad plena. El enlace exige soporte, canal, traza y residual compatibles. Si el enlace no se verifica, no puede sostener trayectoria cerrada.
+
+### A.3.18. Equivalencia parcial
+Coincidencia limitada entre sucesos, imágenes, potenciales, soportes o retornos. No equivale a identidad. Una equivalencia parcial debe declarar qué conserva y qué no conserva; si se usa como identidad plena sin cierre, la lectura no queda admitida.
+
+### A.3.19. Traza
+Inscripción que permite reconocer procedencia, continuidad, identidad o diferencia operativa de un suceso. La traza pertenece al régimen irreversible y acumulativo (*append-only*): no se borra ni se reescribe para favorecer resultados posteriores.
+
+### A.3.20. Registro irreversible y acumulativo (*append-only*)
+Regla por la cual todo suceso incorporado permanece como antecedente trazable. La trayectoria puede ampliarse o reabrirse, pero no corregir silenciosamente registros previos. Si una corrección material cambia el objeto, debe inscribirse como nuevo suceso o reapertura declarada.
+
+### A.4. Célula, imagen del suceso e indeterminación honesta
+El suceso puede tener representación celular, imagen formal o *frame*, pero no se reduce a ellos. La célula hace visible una configuración; la imagen permite auditar una lectura; el *frame* puede estabilizar comparación; la indeterminación honesta `U` conserva no determinación actual. Ninguno de esos elementos sustituye horizonte, soporte, operador, traza, residual y retorno.
+
+### A.4.1. Plano exacto y representación auxiliar
+El plano exacto del SV opera sobre `Σ={0,1,U}` y configuraciones `𝒮ₙ={0,1,U}ⁿ`, con las restricciones de célula admisible que correspondan. Una representación numérica, gráfica, tabular o textual puede auxiliar la lectura, pero no reemplaza el plano exacto. Si una representación pierde `U`, altera orientación o cambia soporte, no conserva el suceso.
+
+### A.4.2. Imagen o *frame* del suceso
+La imagen o *frame* del suceso es la representación estable que permite leer cómo comparece una reevaluación sobre configuraciones, posiciones, soporte, observables y horizonte. No agota el suceso. Dos sucesos pueden compartir imagen y diferir por horizonte, soporte, operador, potencial, traza o retorno.
+
+### A.4.3. Célula, configuración y lectura visible
+La célula proporciona soporte formal; la configuración asigna valores a sus posiciones; la lectura visible interpreta esos valores bajo dominio y orientación. Una célula no tipada o sin dominio declarado no autoriza cálculo del potencial. Para operar, debe declararse qué posiciones están activas, qué polos se leen y qué residual controla la salida.
+
+### A.4.4. `U` como no determinación actual
+`U` expresa no determinación actual. No es cero, no es uno, no es valor medio, no es probabilidad, no es ignorancia informal ni error. Si una posición, condición o restricción queda en `U`, el cálculo debe conservar esa salida mientras el dominio no aporte fundamento suficiente para cerrar.
+
+### A.4.5. `U` legítima, resolución y reapertura
+Una `U` es legítima cuando el dominio reconoce que no hay base suficiente para cerrar sin inventar información. Puede resolverse si aparece nuevo soporte, nueva traza, nuevo retorno o transducción cerrada. También puede motivar reapertura declarada del régimen de lectura. Lo que no puede hacerse es degradarla a cierre favorable o rechazo automático.
+
+### A.4.6. Identidad, trazabilidad y validez operativa
+La identidad del suceso exige más que imagen, valor o potencial. Requiere familia de dominio, imagen formal compatible cuando proceda, potencial, distancia factual fibrosa nula, traza y residual de identidad cerrado. Si alguna condición queda en `U`, no hay identidad operativa cerrada. Si falla materialmente, hay suceso distinto.
+
+### A.5. Identidad del suceso, imagen, potencial y distancia factual fibrosa
+La identidad del suceso se decide por cierre conjunto, no por coincidencia parcial. Imagen, potencial y distancia factual fibrosa participan en la lectura de identidad, pero ninguna basta por sí sola. La regla protege el cálculo frente a equivalencias aparentes: dos registros pueden parecer iguales y ser sucesos distintos; también pueden diferir en algún componente y conservar relación trazable sin identidad plena.
+
+### A.5.1. Célula de definición de imagen o *frame*
+La célula de definición de imagen o *frame* fija el soporte formal donde una imagen del suceso queda representada. Debe ser admisible, estar tipada y tener soporte activo declarado. Si dos registros no comparten célula de definición o no existe transducción entre sus imágenes, no se declara identidad por apariencia visual.
+
+### A.5.2. Igualdad de potencial e insuficiencia por sí sola
+La igualdad `P_D(e_i)=P_D(e_j)` no identifica sucesos. Sólo indica que ambos tienen igual valor de potencial en una lectura admitida. Para identidad se necesitan familia de dominio, imagen formal compatible, distancia factual fibrosa nula, traza y residual de identidad cerrado. La igualdad de potencial puede convivir con sucesos distintos.
+
+### A.5.3. Distancia factual fibrosa nula
+La distancia factual fibrosa nula indica que, dentro de una fibra de imagen compatible, no se detecta separación en componentes no visibles relevantes: horizonte, horizonte resultante, soporte u operador de reevaluación, según el dominio. No sustituye la traza ni la familia de dominio. Participa en la identidad, pero no la decide sola.
+
+### A.5.4. Familia de dominio y pertenencia común
+La familia de dominio agrupa sucesos compatibles bajo tipo, horizonte, soporte y reglas de lectura. Dos sucesos sólo pueden compararse directamente si pertenecen a una familia común o si existe transducción cerrada. La pertenencia común no implica identidad; sólo habilita comparabilidad.
+
+### A.5.5. Traza de identidad y registro irreversible
+La traza de identidad recoge inscripción, componentes del suceso y procedencia bajo registro irreversible y acumulativo (*append-only*). Si dos registros no conservan traza compatible, no designan el mismo suceso. Si la traza queda incompleta, la identidad permanece en `U`.
+
+### A.5.6. Mismo suceso, suceso distinto e indeterminación honesta
+Dos registros designan el mismo suceso sólo si cierran familia de dominio, imagen formal, potencial, distancia factual fibrosa nula, traza y residual de identidad. Si alguna condición falla materialmente, hay suceso distinto. Si alguna condición queda en `U`, no se declara identidad ni diferencia operativa cerrada.
+
+### A.6. Suceso cero y sucesos interiores
+El suceso cero designa la apertura formal de la lectura eventiva cuando el dominio permite situar una primera reevaluación admisible. No debe confundirse con una partícula, instante físico, origen cosmológico ni valor empírico. Los sucesos interiores son reevaluaciones ya inscritas dentro de un dominio constituido, con horizonte, soporte, operador, traza y retorno propios. La diferencia entre suceso cero y sucesos interiores evita que toda primera aparición de una trayectoria se trate como origen formal absoluto. En este trabajo, el suceso cero sólo opera si el dominio lo declara y si el residual correspondiente cierra; en caso contrario, la lectura inicial permanece como antecedente formal, no como resultado físico.
+
+### A.7. Horizonte declarado
+El horizonte declarado fija el campo de legibilidad del suceso. Incluye dominio de índices, relaciones internas, configuraciones legibles y observables compatibles. Sin horizonte no hay suceso admisible ni potencial operativo. El horizonte impide que una comparación tome valores de contextos distintos como si pertenecieran a una misma lectura. Si el horizonte cambia, debe declararse si hay continuidad, ruptura, transducción o `U`. La trayectoria entre sucesos sólo cierra cuando los horizontes consecutivos conservan comparabilidad o cuando el paso entre ellos ha sido formalmente transducido.
+
+### A.8. Soporte de afectación
+El soporte de afectación identifica dónde comparece la reevaluación. Puede ser un conjunto de posiciones celulares, componentes de un sistema, registros, parámetros o regiones de un dominio. La condición esencial es que esté declarado antes del cálculo. Un cambio sin soporte no permite saber qué ha sido afectado; una diferencia sin soporte puede ser mera variación externa. En el potencial de un suceso, el soporte decide qué parámetros participan en la lectura polar y cuáles quedan fuera. Si el soporte se desplaza sin declaración, el residual no cierra.
+
+### A.9. Operador de reevaluación
+El operador de reevaluación realiza el paso estructural del horizonte de partida al horizonte resultante. Su forma `R_e:D_e→X_H′` exige dominio no vacío, compatibilidad con el horizonte de entrada y salida legible en el horizonte resultante. No toda transformación es reevaluación admisible: una sustitución nominal, una reescritura externa o una alteración sin soporte declarado no constituyen operador de suceso. El potencial sólo puede calcularse después de que el operador haya quedado identificado como parte de un suceso admisible.
+
+### A.10. Legibilidad antes y después
+La legibilidad antes y después exige que el registro de entrada pertenezca al horizonte de partida y que el registro resultante pertenezca al horizonte de llegada. Si una configuración no es legible antes, no hay base de reevaluación; si no es legible después, no hay salida admisible. La legibilidad no exige que todo quede cerrado en `0` o `1`; puede conservar `U` cuando proceda. Lo decisivo es que el dominio reconozca qué puede leerse, qué queda indeterminado y qué no pertenece al régimen.
+
+### A.11. Diferencia efectiva
+La diferencia efectiva exige que la reevaluación produzca cambio sobre algún observable compatible. Si `R_e` no altera ningún observable relevante, el supuesto suceso puede ser renominación, duplicación o inscripción sin afectación. La diferencia efectiva no basta para definir potencial: sólo acredita que hay variación admisible sobre un observable. Para que haya potencial, esa variación debe pasar por lectura polar compatible, residual local y retorno.
+
+### A.12. Control exterior suficiente
+El control exterior suficiente exige que la lectura del suceso no dependa únicamente de una autoasignación interna sin posibilidad de contraste en el dominio. No se trata de introducir una autoridad externa, sino de asegurar que soporte, traza, residual y retorno puedan auditarse desde la regla declarada. Si no hay control exterior suficiente, una reevaluación puede parecer válida dentro de una notación, pero no sostener operación pública en el dominio.
+
+### A.13. Compatibilidad observacional
+La compatibilidad observacional exige que los observables empleados antes y después pertenezcan a una misma familia de lectura o a familias transducidas. No basta que dos valores tengan forma numérica comparable. Si un observable cambia de significado, unidad, soporte, escala o frontera, la comparación no cierra. En el potencial, esta condición protege `μ`, `λ`, `P`, `I` y `ΔP` frente a mezclas de dominio.
+
+### A.14. Comparabilidad entre sucesos
+Dos sucesos son comparables cuando comparten dominio o transducción cerrada, poseen potenciales locales admitidos, conservan identidad o diferencia operativa cerrada, mantienen soporte y retorno, y el residual comparativo se anula. La comparabilidad no exige que sean el mismo suceso; exige que la comparación no cambie el objeto. Si la identidad queda en `U`, la comparación cerrada no se autoriza.
+
+### A.15. Afectación, precedencia y cadena
+La afectación declara qué modifica el suceso; la precedencia ordena los registros dentro de una trayectoria; la cadena reúne sucesos bajo una regla de continuidad o paso. Ninguno de esos elementos introduce tiempo rector. La cadena puede producir variación, acumulación, cierre telescópico, ruptura o transducción. La consistencia exige que cada tramo conserve traza y que ninguna incorporación posterior reescriba el antecedente.
+
+### A.16. Acumulación eventiva
+La acumulación eventiva registra el efecto conjunto de una cadena de sucesos. Puede acumular valores locales, variaciones, recorridos, áreas de activación, defectos de recorrido o retornos sectoriales. La acumulación firmada puede cancelar signos; la acumulación recorrida conserva cambio total; la acumulación por activación registra carga sostenida. Por ello, la acumulación debe declarar qué magnitud suma y qué conserva.
+
+### A.17. Régimen de paso, umbral y transición
+El régimen de paso decide si un tramo permanece en el mismo dominio, abre otro dominio, exige transducción o queda sin cierre. El umbral determina condiciones de suficiencia o predominancia cuando el dominio lo declara. La transición es el paso efectivo entre estados, sucesos u horizontes. Si un parámetro crítico falla, no procede tratar la variación como mayor distancia dentro del mismo tipo; debe reconocerse cambio de régimen, no admisión o `U`.
+
+### A.18. Enlace y equivalencia parcial
+El enlace conserva relación trazable entre sucesos sin declarar identidad plena. La equivalencia parcial conserva algún componente común, como imagen, potencial, soporte, retorno o familia, pero no todos. Ambas nociones permiten trabajar con continuidad limitada sin falsificar identidad. Si se usa equivalencia parcial como identidad completa, el residual de identidad no cierra. Si el enlace queda sin traza, la continuidad no se admite.
+
+### A.19. Registro irreversible y acumulativo (*append-only*)
+El registro irreversible y acumulativo (*append-only*) impide que un suceso ya incorporado sea modificado para acomodar lecturas posteriores. Todo cambio material posterior se inscribe como nuevo suceso, nueva lectura, reapertura o transducción declarada. Esta regla sostiene la identidad, la trayectoria y la comunicación estructural. Sin ella, la diferencia de potencial podría fabricarse alterando el punto de partida y el cálculo perdería trazabilidad.
+
+### A.20. Síntesis del suceso admisible
+Un suceso admisible queda sintetizado como reevaluación estructural con horizonte de partida, horizonte resultante, soporte declarado, operador de reevaluación, dominio no vacío, legibilidad antes y después, diferencia efectiva, compatibilidad observacional, traza, residual, retorno y registro irreversible y acumulativo (*append-only*). Sólo después de esa admisión procede lectura polar, potencial local, intensidad, diferencia entre sucesos, trayectoria, métrica tipada, transducción y comunicación estructural. Si alguna condición material falla, el suceso no se admite en ese régimen; si falta determinación suficiente, se conserva `U`. Esta síntesis fija el suelo del trabajo: el potencial se calcula sobre sucesos admisibles, no sobre nombres, imágenes, analogías ni restas aisladas.
