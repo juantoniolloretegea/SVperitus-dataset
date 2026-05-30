@@ -149,11 +149,7 @@ La dinámica del lazo bajo realimentación queda formalizada como gradiente estr
 
 ### V.1. Por qué el sistema no clausura al reposo absoluto
 
-La dinámica del lazo, en ausencia de `ξ(ε−0)`, llevaría a `Φ → 0` cuando `τ → ∞`. Ese sería el estado de clausura absoluta: `Φ = 0` significa equipotencialidad recobrada, ausencia de diferencia entre polos, retorno a la NADA. En ese estado, no habría observables, no habría dominio realizado, no habría Universo físico. La existencia sostenida del dominio realizado exige que la clausura absoluta no se alcance. La condición estructural que impide la clausura es la persistencia de `ξ(ε−0)`. Si `ε−0` se anulara, el lazo cerraría y el dominio realizado terminaría. Como `ε−0` es borde preformal estructural —condición sin la cual no habría dominio en absoluto—, su persistencia es condición previa de todo el aparato, no hipótesis *ad hoc*. La formulación queda fijada como:
-
-> `lim_{τ→∞} Φ(τ) = Φ_∞ ≠ 0` *bajo* `ξ(ε−0)` *sostenida.*
-
-El sistema converge asintóticamente a un estado de imperfección gobernada `Φ_∞`, no al reposo absoluto. La convergencia es asintótica, no efectiva. La existencia de `Φ_∞ ≠ 0` es lo que sostiene la persistencia del dominio realizado.
+La dinámica del lazo, en ausencia de `ξ(ε−0)`, llevaría a `Φ → 0` cuando `τ → ∞`. Ese sería el estado de clausura absoluta: `Φ = 0` significa equipotencialidad recobrada, ausencia de diferencia entre polos, retorno a la NADA. En ese estado, no habría observables, no habría dominio realizado, no habría Universo físico. La existencia sostenida del dominio realizado exige que la clausura absoluta no se alcance. La condición estructural que impide la clausura es la persistencia de `ξ(ε−0)`. Si `ε−0` se anulara, el lazo cerraría y el dominio realizado terminaría. Como `ε−0` es borde preformal estructural —condición sin la cual no habría dominio en absoluto—, su persistencia es condición previa de todo el aparato, no hipótesis *ad hoc*. La formulación queda fijada como: `lim_{τ→∞} Φ(τ) = Φ_∞ ≠ 0` *bajo* `ξ(ε−0)` *sostenida.* El sistema converge asintóticamente a un estado de imperfección gobernada `Φ_∞`, no al reposo absoluto. La convergencia es asintótica, no efectiva. La existencia de `Φ_∞ ≠ 0` es lo que sostiene la persistencia del dominio realizado.
 
 ### V.2. Imperfección sostenida como condición de la existencia realizada
 
@@ -170,19 +166,11 @@ La formulación queda: el conjunto de estados terminales del aparato es `{0, 1, 
 
 ### VI.1. T_obs como horizonte estructural
 
-El régimen ciclo-distancial `T_obs` queda formalizado en el *Teorema de resolución física de la constante cosmológica del Sistema Vectorial SV* (Lloret Egea, 2026h, [10.21428/39829d0b.41afec0f](https://doi.org/10.21428/39829d0b.41afec0f)). El valor canónico es:
-
-> `T_obs ≈ 4,354948800 × 10¹⁷ s`
-
-`T_obs` no es duración temporal rectora ni edad cosmológica en sentido convencional. Es régimen ciclo-distancial estructural que fija el horizonte de cualquier comunicación física coherente dentro del Universo físico realizado bajo régimen propagativo. Toda propagación causal queda acotada por `c · T_obs` como distancia máxima compatible con coherencia simultánea propagativa.
+El régimen ciclo-distancial `T_obs` queda formalizado en el *Teorema de resolución física de la constante cosmológica del Sistema Vectorial SV* (Lloret Egea, 2026h, [10.21428/39829d0b.41afec0f](https://doi.org/10.21428/39829d0b.41afec0f)). El valor canónico es: `T_obs ≈ 4,354948800 × 10¹⁷ s`. `T_obs` no es duración temporal rectora ni edad cosmológica en sentido convencional. Es régimen ciclo-distancial estructural que fija el horizonte de cualquier comunicación física coherente dentro del Universo físico realizado bajo régimen propagativo. Toda propagación causal queda acotada por `c · T_obs` como distancia máxima compatible con coherencia simultánea propagativa.
 
 ### VI.2. Ciclo completo apertura-cierre
 
-El ciclo completo del dominio realizado queda formalizado como `T_obs × 2`. La duplicación tiene fundamento estructural en la geometría del lazo. La fase de apertura, desde la ruptura simétrica espontánea hasta la magnitud máxima de `Φ`, requiere un cuarto de ciclo de un oscilador clásico, o equivalentemente `T_obs` bajo régimen ciclo-distancial. La fase de relajación asintótica hacia `Φ_∞` requiere un periodo análogo. El ciclo completo apertura-cierre del dominio realizado queda del orden de:
-
-> `T_ciclo ≈ T_obs × 2 ≈ 8,71 × 10¹⁷ s`
-
-El ciclo completo no constituye reposo absoluto al final: constituye configuración residual de `Φ_∞` bajo `ξ(ε−0)` sostenida. La duplicación es geometría del ciclo, no constante arbitraria. El valor exacto del coeficiente multiplicador puede afinarse formalmente bajo desarrollo posterior; el orden de magnitud queda fijado por la geometría del lazo.
+El ciclo completo del dominio realizado queda formalizado como `T_obs × 2`. La duplicación tiene fundamento estructural en la geometría del lazo. La fase de apertura, desde la ruptura simétrica espontánea hasta la magnitud máxima de `Φ`, requiere un cuarto de ciclo de un oscilador clásico, o equivalentemente `T_obs` bajo régimen ciclo-distancial. La fase de relajación asintótica hacia `Φ_∞` requiere un periodo análogo. El ciclo completo apertura-cierre del dominio realizado queda del orden de: `T_ciclo ≈ T_obs × 2 ≈ 8,71 × 10¹⁷ s`. El ciclo completo no constituye reposo absoluto al final: constituye configuración residual de `Φ_∞` bajo `ξ(ε−0)` sostenida. La duplicación es geometría del ciclo, no constante arbitraria. El valor exacto del coeficiente multiplicador puede afinarse formalmente bajo desarrollo posterior; el orden de magnitud queda fijado por la geometría del lazo.
 
 ### VI.3. Latencia del cambio físico subyacente y propiedad estructural sin transmisión
 
@@ -198,21 +186,11 @@ El lazo realimentado admite distintas configuraciones según el régimen de capt
 
 ### VII.2. Régimen compatible
 
-La predominancia compatible se caracteriza por captura asimétrica del lazo sin destrucción funcional de los polos. La configuración formal queda:
-
-> `Pred_AB^compat = 1 ⇔ Φ_AB ≠ 0 ∧ R_polo_A trazado ∧ R_polo_B trazado ∧ Δ_AB absorbido`
-
-donde `R_polo_i` es retorno operativo del polo `i` dentro del sub-lazo, y `Δ_AB` es residual de la dinámica asimétrica entre los polos `A` y `B`. El régimen compatible conserva la operatividad de ambos polos y absorbe el residual sin transferirlo como daño estructural a niveles superiores. En astrofísica, la predominancia compatible entre planeta y estrella sostiene órbita estable, habitabilidad, intercambio energético gobernado. En biología, la simbiosis metabólica, la inmunidad regulada, la señalización hormonal coordinada y la microbiota equilibrada con tejido huésped son configuraciones de predominancia compatible. En tejido inmunológico, la tolerancia inmune y la respuesta proporcionada al patógeno son configuraciones compatibles.
+La predominancia compatible se caracteriza por captura asimétrica del lazo sin destrucción funcional de los polos. La configuración formal queda: `Pred_AB^compat = 1 ⇔ Φ_AB ≠ 0 ∧ R_polo_A trazado ∧ R_polo_B trazado ∧ Δ_AB absorbido` donde `R_polo_i` es retorno operativo del polo `i` dentro del sub-lazo, y `Δ_AB` es residual de la dinámica asimétrica entre los polos `A` y `B`. El régimen compatible conserva la operatividad de ambos polos y absorbe el residual sin transferirlo como daño estructural a niveles superiores. En astrofísica, la predominancia compatible entre planeta y estrella sostiene órbita estable, habitabilidad, intercambio energético gobernado. En biología, la simbiosis metabólica, la inmunidad regulada, la señalización hormonal coordinada y la microbiota equilibrada con tejido huésped son configuraciones de predominancia compatible. En tejido inmunológico, la tolerancia inmune y la respuesta proporcionada al patógeno son configuraciones compatibles.
 
 ### VII.3. Régimen lesivo
 
-La predominancia lesiva se caracteriza por captura del lazo con destrucción funcional del polo subordinado o transferencia de residual no absorbido a niveles superiores. La configuración formal queda:
-
-> `Pred_AB^lesiva = 1 ⇔ Canal_AB^Γ capturado ∧ 𝓓_AB^⊥ usado contra retorno de Ω_rector ∧ Δ no absorbido`
-
-donde `Canal_AB^Γ` es canal estructural del sub-lazo, `𝓓_AB^⊥` es diccionario semántico estructural entre `A` y `B`, y `Ω_rector` es el dominio rector cuyo retorno queda comprometido. La predominancia lesiva captura el canal del sub-lazo, redirige el diccionario contra la coherencia del dominio rector y deja residual sin absorber.
-
-En astrofísica, la acreción destructiva de una compañera estelar por agujero negro, sin equilibrio orbital, es predominancia lesiva. En biología, la infección no controlada, el cáncer con escape inmune, la autoinmunidad crónica, la sepsis y la toxicidad sistémica son configuraciones lesivas. En tejido inmunológico, la tormenta de citoquinas y el agotamiento de células T efectoras son regímenes lesivos del sub-lazo correspondiente. La distinción entre compatible y lesiva no es valorativa en sentido moral: es estructural. Predominancia compatible y predominancia lesiva quedan identificadas por condiciones formales del aparato, no por juicio externo. El daño es propiedad del sub-lazo bajo captura, no testimonio de intención del polo capturador.
+La predominancia lesiva se caracteriza por captura del lazo con destrucción funcional del polo subordinado o transferencia de residual no absorbido a niveles superiores. La configuración formal queda: `Pred_AB^lesiva = 1 ⇔ Canal_AB^Γ capturado ∧ 𝓓_AB^⊥ usado contra retorno de Ω_rector ∧ Δ no absorbido` donde `Canal_AB^Γ` es canal estructural del sub-lazo, `𝓓_AB^⊥` es diccionario semántico estructural entre `A` y `B`, y `Ω_rector` es el dominio rector cuyo retorno queda comprometido. La predominancia lesiva captura el canal del sub-lazo, redirige el diccionario contra la coherencia del dominio rector y deja residual sin absorber. En astrofísica, la acreción destructiva de una compañera estelar por agujero negro, sin equilibrio orbital, es predominancia lesiva. En biología, la infección no controlada, el cáncer con escape inmune, la autoinmunidad crónica, la sepsis y la toxicidad sistémica son configuraciones lesivas. En tejido inmunológico, la tormenta de citoquinas y el agotamiento de células T efectoras son regímenes lesivos del sub-lazo correspondiente. La distinción entre compatible y lesiva no es valorativa en sentido moral: es estructural. Predominancia compatible y predominancia lesiva quedan identificadas por condiciones formales del aparato, no por juicio externo. El daño es propiedad del sub-lazo bajo captura, no testimonio de intención del polo capturador.
 
 ---
 
@@ -236,11 +214,7 @@ No se afirma sintiencia distribuida, no afirma protoconsciencia atribuida a obse
 
 ### IX.1. Fórmula rectora del tránsito
 
-La ley general del tránsito por dominios queda formulada bajo el Sistema Vectorial SV mediante la equivalencia rectora:
-
-> `T_D^SV(D_i, D_j; x) = 0 ⇔ R_D^SV(D_i, D_j; x) = 0`
-
-donde `D_i` y `D_j` son dominios distinguibles, `x` es candidato a contenido transitivo, `T_D^SV(D_i, D_j; x)` es la función de tránsito declarada del candidato `x` entre los dominios `D_i` y `D_j`, y `R_D^SV(D_i, D_j; x)` es el residual estructural de ese tránsito. El tránsito es legítimo cuando, y solo cuando, el residual estructural se anula bajo las restricciones declaradas. La equivalencia rectora se hereda del manuscrito sobre el régimen H-He ordinario (Lloret Egea, 2026k, [10.21428/39829d0b.90fce13d](https://doi.org/10.21428/39829d0b.90fce13d)), donde queda establecida como ley general del tránsito por dominios bajo el Sistema Vectorial SV.
+La ley general del tránsito por dominios queda formulada bajo el Sistema Vectorial SV mediante la equivalencia rectora: `T_D^SV(D_i, D_j; x) = 0 ⇔ R_D^SV(D_i, D_j; x) = 0` donde `D_i` y `D_j` son dominios distinguibles, `x` es candidato a contenido transitivo, `T_D^SV(D_i, D_j; x)` es la función de tránsito declarada del candidato `x` entre los dominios `D_i` y `D_j`, y `R_D^SV(D_i, D_j; x)` es el residual estructural de ese tránsito. El tránsito es legítimo cuando, y solo cuando, el residual estructural se anula bajo las restricciones declaradas. La equivalencia rectora se hereda del manuscrito sobre el régimen H-He ordinario (Lloret Egea, 2026k, [10.21428/39829d0b.90fce13d](https://doi.org/10.21428/39829d0b.90fce13d)), donde queda establecida como ley general del tránsito por dominios bajo el Sistema Vectorial SV.
 
 ### IX.2. Descomposición del residual en restricciones independientes
 
@@ -252,11 +226,7 @@ donde `r_dom` controla pertenencia tipada al dominio de partida y al dominio de 
 
 ### IX.3. Teorema de identidad de tránsito
 
-El teorema de identidad de tránsito establece la condición necesaria y suficiente para que una identidad atraviese una cadena finita de dominios:
-
-> `Id_trans^SV(x; Γ_D) = 1 ⇔ ⊕_i R_D^SV(D_i, D_{i+1}; x) = 0`
-
-donde `Γ_D = (D_0, D_1, …, D_n)` es cadena finita de dominios distinguibles y `x` es candidato cuya identidad pretende conservarse a lo largo de la cadena. El teorema demuestra que la continuidad material entre dominios no se gobierna por igualdad de estados, por analogía, por nombre compartido ni por importación de teoría externa, sino por identidad de transición bajo residual controlado.
+El teorema de identidad de tránsito establece la condición necesaria y suficiente para que una identidad atraviese una cadena finita de dominios: `Id_trans^SV(x; Γ_D) = 1 ⇔ ⊕_i R_D^SV(D_i, D_{i+1}; x) = 0` donde `Γ_D = (D_0, D_1, …, D_n)` es cadena finita de dominios distinguibles y `x` es candidato cuya identidad pretende conservarse a lo largo de la cadena. El teorema demuestra que la continuidad material entre dominios no se gobierna por igualdad de estados, por analogía, por nombre compartido ni por importación de teoría externa, sino por identidad de transición bajo residual controlado.
 
 ### IX.4. Continuidad estructural sin importación de teoría externa
 
@@ -268,23 +238,11 @@ La aplicación canónica del aparato `T_D^SV — R_D^SV — Id_trans^SV` se ejec
 
 ### X.1. Fórmula universal y restricciones constitutivas
 
-La fórmula universal de gobierno de observables del Universo físico realizado queda fijada bajo el Sistema Vectorial SV como:
-
-> `𝓒★ObsU(x, D) = 𝓝★[ΩM_D(x), 𝔛_{D↔SV}(x), F_D(x), I_D(x), C_D(x), B_D(x), Δ_D(x), R_D(x), Tr_D(x)] ∈ {0, 1, U}`
-
-donde `x` es candidato a observable y `D` es dominio declarable. Las restricciones constitutivas son: `ΩM_D` declara dominio y magnitudes externas; `𝔛_{D↔SV}` declara transducción bidireccional entre dominio externo y aparato SV; `F_D` declara frontera; `I_D` declara identidad; `C_D` declara canal; `B_D` declara barrera; `Δ_D` declara residual; `R_D` declara retorno; `Tr_D` declara traza *append-only*. La fórmula no crea materialmente hidrógeno, galaxia, célula, virus, variante, enfermedad, cáncer, síntoma, especie, documento o persona. Decide si ese contenido comparece como observable fuerte. El cierre fuerte queda formalizado como:
-
-> `x ∈ ObsU(D) ⇔ 𝓒★ObsU(x, D) = 0`
-
-El valor `1` indica contradicción material; el valor `U` indica falta de cierre suficiente sin contradicción, sosteniendo indeterminación honesta. Cualquier fórmula que omita una restricción falla; cualquier fórmula que las contenga bajo otros nombres es equivalente; cualquier ampliación solo aumenta resolución interna. La fórmula universal constituye condición necesaria y suficiente para la admisibilidad estructural de un observable en su dominio (Lloret Egea, 2026l, [10.21428/39829d0b.1ab33893](https://doi.org/10.21428/39829d0b.1ab33893)).
+La fórmula universal de gobierno de observables del Universo físico realizado queda fijada bajo el Sistema Vectorial SV como: `𝓒★ObsU(x, D) = 𝓝★[ΩM_D(x), 𝔛_{D↔SV}(x), F_D(x), I_D(x), C_D(x), B_D(x), Δ_D(x), R_D(x), Tr_D(x)] ∈ {0, 1, U}` donde `x` es candidato a observable y `D` es dominio declarable. Las restricciones constitutivas son: `ΩM_D` declara dominio y magnitudes externas; `𝔛_{D↔SV}` declara transducción bidireccional entre dominio externo y aparato SV; `F_D` declara frontera; `I_D` declara identidad; `C_D` declara canal; `B_D` declara barrera; `Δ_D` declara residual; `R_D` declara retorno; `Tr_D` declara traza *append-only*. La fórmula no crea materialmente hidrógeno, galaxia, célula, virus, variante, enfermedad, cáncer, síntoma, especie, documento o persona. Decide si ese contenido comparece como observable fuerte. El cierre fuerte queda formalizado como: `x ∈ ObsU(D) ⇔ 𝓒★ObsU(x, D) = 0`. El valor `1` indica contradicción material; el valor `U` indica falta de cierre suficiente sin contradicción, sosteniendo indeterminación honesta. Cualquier fórmula que omita una restricción falla; cualquier fórmula que las contenga bajo otros nombres es equivalente; cualquier ampliación solo aumenta resolución interna. La fórmula universal constituye condición necesaria y suficiente para la admisibilidad estructural de un observable en su dominio (Lloret Egea, 2026l, [10.21428/39829d0b.1ab33893](https://doi.org/10.21428/39829d0b.1ab33893)).
 
 ### X.2. Familia universal de transductores
 
-La familia de transductores no nace por enumeración local, sino por derivación directa de `𝓒★ObsU`. Todo transductor legítimo es especialización de la fórmula universal sobre un dominio `D`, con selección tipada de magnitudes, frontera, identidad, canal, barrera, residual, retorno y traza. La forma universal queda fijada como:
-
-> `𝓖★TrU(D) = 𝔛_{D↔SV} = (Ω_D, M_D, F_D, I_D, C_D, B_D, Δ_D, R_D, Tr_D)`
-
-`𝓖★TrU(D)` cumple la función de paso desde la ley universal hacia el caso de dominio. Primero queda fijada la ley de observabilidad; después se deriva el transductor que permite leer una señal física, una molécula, un gen, una célula, una cepa viral, una enfermedad, un tumor, una especie, un humano singular, un documento, una galaxia o un agujero negro. La derivación no es opcional. Cualquier transductor introducido sin pasar por `𝓒★ObsU` queda fuera del aparato; cualquier puente nombrado por analogía sin satisfacer las restricciones constitutivas no constituye transductor legítimo. La disciplina garantiza coherencia universal bajo especialización tipada.
+La familia de transductores no nace por enumeración local, sino por derivación directa de `𝓒★ObsU`. Todo transductor legítimo es especialización de la fórmula universal sobre un dominio `D`, con selección tipada de magnitudes, frontera, identidad, canal, barrera, residual, retorno y traza. La forma universal queda fijada como: `𝓖★TrU(D) = 𝔛_{D↔SV} = (Ω_D, M_D, F_D, I_D, C_D, B_D, Δ_D, R_D, Tr_D)`. `𝓖★TrU(D)` cumple la función de paso desde la ley universal hacia el caso de dominio. Primero queda fijada la ley de observabilidad; después se deriva el transductor que permite leer una señal física, una molécula, un gen, una célula, una cepa viral, una enfermedad, un tumor, una especie, un humano singular, un documento, una galaxia o un agujero negro. La derivación no es opcional. Cualquier transductor introducido sin pasar por `𝓒★ObsU` queda fuera del aparato; cualquier puente nombrado por analogía sin satisfacer las restricciones constitutivas no constituye transductor legítimo. La disciplina garantiza coherencia universal bajo especialización tipada.
 
 ### X.3. Especialización tipada por dominio
 
@@ -300,19 +258,11 @@ La comunicación estructural entre familias distintas de observables exige canal
 
 ### XI.2. Diccionario semántico estructural
 
-El diccionario semántico estructural asigna correspondencias entre letras del alfabeto transversal y elementos concretos de dos dominios `A` y `B`. La estructura formal es:
-
-> `𝓓_AB^⊥: 𝔄_⊥ × Ω_A × Ω_B → {correspondencia, corte, U}`
-
-donde `𝔄_⊥` es alfabeto transversal de elementos estructurales (frontera, entrada, receptor, señal, respuesta, daño, reparación, retorno), `Ω_A` y `Ω_B` son codominios respectivos de `A` y `B`, y el resultado es asignación de correspondencia legítima, corte explícito o indeterminación honesta `U`. El diccionario no es tabla de traducción verbal: es matriz de uso. Declara qué cuenta como frontera, entrada, receptor, señal, respuesta, daño, reparación y retorno en cada observable. Sin diccionario, el canal puede existir pero el diálogo estructural queda bloqueado o reducido a presemántica. Con diccionario parcial, hay protosemántica y respuestas diferenciadas. Con diccionario cerrado, puede hablarse de diálogo estructural: el intercambio produce sentido de dominio y retorno interpretable. El diccionario se construye caso por caso. Para virus-célula, el receptor puede ser molécula de entrada; la señal puede ser tropismo; la respuesta puede ser replicación, interferón, apoptosis o latencia. Para galaxia-agujero negro, el receptor puede ser campo gravitatorio o disco de acreción; la señal puede ser perturbación dinámica; la respuesta puede ser chorro, emisión o reordenación galáctica. Para planeta-estrella, el receptor puede ser campo gravitatorio o atmósfera; la señal puede ser radiación, viento estelar o marea; la respuesta puede ser efecto físico ambiental. Para bacteria-célula, el receptor puede ser adhesina o patrón molecular; la respuesta puede ser inflamación, fagocitosis o daño tisular.
+El diccionario semántico estructural asigna correspondencias entre letras del alfabeto transversal y elementos concretos de dos dominios `A` y `B`. La estructura formal es: `𝓓_AB^⊥: 𝔄_⊥ × Ω_A × Ω_B → {correspondencia, corte, U}` donde `𝔄_⊥` es alfabeto transversal de elementos estructurales (frontera, entrada, receptor, señal, respuesta, daño, reparación, retorno), `Ω_A` y `Ω_B` son codominios respectivos de `A` y `B`, y el resultado es asignación de correspondencia legítima, corte explícito o indeterminación honesta `U`. El diccionario no es tabla de traducción verbal: es matriz de uso. Declara qué cuenta como frontera, entrada, receptor, señal, respuesta, daño, reparación y retorno en cada observable. Sin diccionario, el canal puede existir pero el diálogo estructural queda bloqueado o reducido a presemántica. Con diccionario parcial, hay protosemántica y respuestas diferenciadas. Con diccionario cerrado, puede hablarse de diálogo estructural: el intercambio produce sentido de dominio y retorno interpretable. El diccionario se construye caso por caso. Para virus-célula, el receptor puede ser molécula de entrada; la señal puede ser tropismo; la respuesta puede ser replicación, interferón, apoptosis o latencia. Para galaxia-agujero negro, el receptor puede ser campo gravitatorio o disco de acreción; la señal puede ser perturbación dinámica; la respuesta puede ser chorro, emisión o reordenación galáctica. Para planeta-estrella, el receptor puede ser campo gravitatorio o atmósfera; la señal puede ser radiación, viento estelar o marea; la respuesta puede ser efecto físico ambiental. Para bacteria-célula, el receptor puede ser adhesina o patrón molecular; la respuesta puede ser inflamación, fagocitosis o daño tisular.
 
 ### XI.3. Fórmula de consolidación de canal y semántica
 
-La fórmula de consolidación establece cuándo dos observables de familias distintas alcanzan relación estructural interpretable:
-
-> `Diag_AB^⊥ = 1 ⇔ Canal_AB^Γ = 1 ∧ 𝓓_AB^⊥ apto ∧ R_AB trazado ∧ Δ_sem admisible`
-
-donde `Canal_AB^Γ` es canal consolidado, `𝓓_AB^⊥ apto` es diccionario cerrado o suficiente, `R_AB` es retorno trazado entre `A` y `B`, y `Δ_sem` es residual semántico admisible. La fórmula admite tres estados principales. Estado 0: no hay diálogo estructural porque falta canal, frontera, diccionario o retorno. Estado U: hay indicios, canal parcial, diccionario incompleto o retorno insuficiente; queda indeterminación honesta. Estado 1: hay canal consolidado, diccionario estructural y retorno interpretable. La clasificación no usa probabilidad como verdad; usa condiciones. La consolidación de canal y semántica no implica armonía, beneficio ni intención. Un virus puede consolidar canal con célula y producir enfermedad; una galaxia puede consolidar canal con agujero negro y producir reordenación dinámica; una bacteria puede consolidar canal y producir simbiosis o sepsis. Diálogo estructural significa que el intercambio tiene sentido de dominio, no que sea positivo. Por eso toda consolidación debe ir acompañada de residual y resultado.
+La fórmula de consolidación establece cuándo dos observables de familias distintas alcanzan relación estructural interpretable: `Diag_AB^⊥ = 1 ⇔ Canal_AB^Γ = 1 ∧ 𝓓_AB^⊥ apto ∧ R_AB trazado ∧ Δ_sem admisible` donde `Canal_AB^Γ` es canal consolidado, `𝓓_AB^⊥ apto` es diccionario cerrado o suficiente, `R_AB` es retorno trazado entre `A` y `B`, y `Δ_sem` es residual semántico admisible. La fórmula admite tres estados principales. Estado 0: no hay diálogo estructural porque falta canal, frontera, diccionario o retorno. Estado U: hay indicios, canal parcial, diccionario incompleto o retorno insuficiente; queda indeterminación honesta. Estado 1: hay canal consolidado, diccionario estructural y retorno interpretable. La clasificación no usa probabilidad como verdad; usa condiciones. La consolidación de canal y semántica no implica armonía, beneficio ni intención. Un virus puede consolidar canal con célula y producir enfermedad; una galaxia puede consolidar canal con agujero negro y producir reordenación dinámica; una bacteria puede consolidar canal y producir simbiosis o sepsis. Diálogo estructural significa que el intercambio tiene sentido de dominio, no que sea positivo. Por eso toda consolidación debe ir acompañada de residual y resultado.
 
 ### XI.4. Residual semántico y retorno
 
