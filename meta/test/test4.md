@@ -2,7 +2,7 @@
 
 ## Humanos, especies, estrellas y dominios recursivos bajo circularidad no agotada y lectura armónica por Fourier
 
-© 2026. Todos los derechos reservados. | [Juan Antonio Lloret Egea](https://orcid.org/0000-0002-6634-3351) | DOI [pendiente| | [ORCID: 0000-0002-6634-3351](https://orcid.org/0000-0002-6634-3351) | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ — La Biblia de la IA™ | ISSN 2695-6411 | Licencia [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es) | Madrid, 31/05/2026 |
+© 2026. Todos los derechos reservados. | [Juan Antonio Lloret Egea](https://orcid.org/0000-0002-6634-3351) | DOI [pendiente] | [ORCID: 0000-0002-6634-3351](https://orcid.org/0000-0002-6634-3351) | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ — La Biblia de la IA™ | ISSN 2695-6411 | Licencia [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es) | Madrid, 31/05/2026 |
 
 ## Resumen
 
@@ -21,6 +21,7 @@ Se formula una teoría formal de vida y clausura de observables realizados. Part
 - VII. Teorema de recursión de vida y clausura del observable realizado
 - Conclusión general
 - Anexo I. Observabilidad y comunicación estructural de la instancia: persona, especie y dominio-universo
+- Anexo II. Recorrido extremo a extremo: de la circularidad rectora a la instancia humana y sus subdominios
 - Bibliografía
 
 ## 0. Introducción
@@ -90,7 +91,7 @@ El potencial de un suceso se introduce para impedir que la vida de instancia sea
 
 ### III.2. Círculo rector y ciclo acotado
 
-El círculo no entra como figura estética ni como objeto físico situado fuera del universo. Cumple aquí una función precisa: expresar no exterioridad rectora, igualdad radial de lectura y ausencia de predominancia absoluta en el plano de fundamentos. Esa circularidad no debe confundirse con el ciclo acotado de una instancia. La instancia nace, despliega presencia y se clausura; la circularidad rectora no queda consumida por ninguna de esas vidas locales. Por eso se conservan dos fases distintas: `φ_i∈[0,2π]`, `φ_rectora∈ℝ` en la que  `φ_i` pertenece a la instancia. Sirve para leer su ciclo formal de comparecencia, despliegue y clausura. `φ_rectora` nombra la apertura no agotada de la circularidad en el plano de fundamentos. No es tiempo físico infinito, no es una edad del TODO/NADA y no convierte la totalidad absoluta en objeto medible. La diferencia entre ambas fases impide tres errores: creer que una instancia agota el círculo rector, creer que la circularidad rectora es una cronología interminable, o creer que el cierre local de una vida de instancia equivale al cierre del fundamento. La lectura polar de un círculo puede expresarse mediante componentes no negativas: `μ_rectora(φ)=ρ_rectora·cos²(φ/2)`, `λ_rectora(φ)=ρ_rectora·sin²(φ/2)`. Entonces: `I_rectora(φ)=μ_rectora(φ)+λ_rectora(φ)=ρ_rectora`, `P_rectora(φ)=μ_rectora(φ)−λ_rectora(φ)=ρ_rectora·cosφ. 
+El círculo no entra como figura estética ni como objeto físico situado fuera del universo. Cumple aquí una función precisa: expresar no exterioridad rectora, igualdad radial de lectura y ausencia de predominancia absoluta en el plano de fundamentos. Esa circularidad no debe confundirse con el ciclo acotado de una instancia. La instancia nace, despliega presencia y se clausura; la circularidad rectora no queda consumida por ninguna de esas vidas locales. Por eso se conservan dos fases distintas: `φ_i∈[0,2π]`, `φ_rectora∈ℝ` en la que  `φ_i` pertenece a la instancia. Sirve para leer su ciclo formal de comparecencia, despliegue y clausura. `φ_rectora` nombra la apertura no agotada de la circularidad en el plano de fundamentos. No es tiempo físico infinito, no es una edad del TODO/NADA y no convierte la totalidad absoluta en objeto medible. La diferencia entre ambas fases impide tres errores: creer que una instancia agota el círculo rector, creer que la circularidad rectora es una cronología interminable, o creer que el cierre local de una vida de instancia equivale al cierre del fundamento. La lectura polar de un círculo puede expresarse mediante componentes no negativas: `μ_rectora(φ)=ρ_rectora·cos²(φ/2)`, `λ_rectora(φ)=ρ_rectora·sin²(φ/2)`. Entonces: `I_rectora(φ)=μ_rectora(φ)+λ_rectora(φ)=ρ_rectora`, `P_rectora(φ)=μ_rectora(φ)−λ_rectora(φ)=ρ_rectora·cosφ`. 
 Esta formulación sólo debe usarse como lectura formal de orientación y conservación de intensidad rectora. No convierte el TODO/NADA en campo físico, partícula, onda, instante cosmológico ni magnitud externa. La suma expresa conservación de intensidad en la lectura; la diferencia expresa orientación polar. La instancia, en cambio, exige envolvente propia, residual propio y clausura propia. Por eso `φ_rectora∈ℝ` puede coexistir con `φ_i∈[0,2π]` sin contradicción: pertenecen a registros distintos.
 
 ### III.3. Sinusoidal de instancia y envolvente de vida formal
@@ -441,6 +442,54 @@ Esta formulación deja abiertas dos continuidades dirigidas. La primera continui
 ### I.13. Restricción
 
 Este anexo no añade un nuevo fundamento. No modifica el teorema de recursión de vida y clausura. No convierte la vida formal de instancia en vida biológica universal. No convierte la comunicación estructural en lenguaje sintiente. No atribuye agencia a persona clausurada, especie, galaxia, universo observable ni TODO/NADA. Su función es más precisa: mostrar que la instancia admitida bajo dominio puede conservar comunicación estructural por traza y retorno, y que una persona viva se sostiene por integración de sub-lazos internos bajo retorno vital global, siempre que esa integración no sea confundida con conciencia central ni con participación privilegiada en el lazo global. La persona clausurada puede permanecer como traza documental, genética, social, jurídica, histórica o intelectual; no por ello sigue viva como instancia. Algunas células, moléculas, restos o señales pueden conservar sub-retornos parciales; no por ello permanece el retorno vital global del dominio persona. La especie extinta puede permanecer como traza fósil, genómica, ecológica o arqueológica; no por ello continúa como población activa. El dominio-universo observable puede conservar señales físicas y retornos cosmológicos; no por ello ocupa el lugar del TODO/NADA. La comunicación estructural conserva inscripción y retorno; la clausura conserva su límite; `U` conserva lo no cerrado. Con esta precisión, la arquitectura de la investigación queda reforzada: vida, clausura, observabilidad, comparador, lazo, tránsito por dominios, comunicación estructural y dominio no son planos separados ni mezclados libremente. Forman una secuencia disciplinada: instancia bajo dominio, admisión por observabilidad, vida formal o biológica según caso, sub-lazos locales cuando el dominio es compuesto, tránsito antecedente y derivado cuando procede, intervención externa sólo como línea posterior declarada, clausura local, traza, comunicación estructural por canal y diccionario, residual explícito, retorno y conservación de `U` cuando el cierre no procede.
+
+
+## Anexo II. Recorrido extremo a extremo: de la circularidad rectora a la instancia humana y sus subdominios
+
+### II.1. Función del recorrido
+
+Este anexo añade un recorrido de extremo a extremo para hacer verificable, en una sola cadena, la tesis formal ya demostrada: la circularidad rectora no se agota en ninguna instancia; la primera distinguibilidad no se identifica con un banco físico; los dominios sólo admiten tránsito cuando declaran frontera, identidad, canal, traza, residual y retorno; y la instancia humana comparece como proyección singular de una fibra, no como cierre de la vida ni del fundamento. El recorrido no introduce un nuevo teorema, no sustituye la prueba inversa y no convierte las cifras en fundamento. Las cifras sólo hacen visible el paso de dominio en dominio bajo la misma regla de admisibilidad, residual y retorno.
+
+La cadena de lectura queda declarada así: `Γ_EE=(D_0,D_1,D_2,D_3,D_4,D_5,D_6,D_7,D_8,D_9,D_10)`, con `D_0=TODO/NADA`, `D_1=ε−0`, `D_2=Ω_obs`, `D_3=Ω_Vía-Láctea`, `D_4=Ω_Sistema-Solar`, `D_5=Ω_Tierra`, `D_6=Ω_química-prebiótica`, `D_7=Ω_vida-terrestre`, `D_8=F_sapiens`, `D_9=persona_98` y `D_10=Ω_P`. La regla del paso queda: `Paso_EE(k)=0 ⇔ dominio(D_k,D_{k+1}) declarado ∧ frontera declarada ∧ identidad tipada ∧ canal admisible ∧ Tr_k conservada ∧ R_k gobernado ∧ retorno_k compatible`. Si aparece salto de plano, la salida cae como `1`; si no hay contradicción material pero falta cierre suficiente, la salida conserva `U`.
+
+### II.2. Matriz de recorrido
+
+| Paso | Dominio de lectura | Cifra o dato de contraste | Qué conserva el tránsito | Residual vigilado | Retorno admisible |
+|---|---|---|---|---|---|
+| 0 | `TODO/NADA` | sin edad física | circularidad rectora no agotada | conversión indebida en objeto físico | no procede retorno físico |
+| 1 | `ε−0` | sin cronología física | borde preformal de primera distinguibilidad | identificación con Big Bang, CMB o señal física | condición formal de separación, no banco cosmológico |
+| 2 | `Ω_obs` | `13.800.000.000 años` como edad física de dominio | frontera de observación, señal, métrica, contenido y traza cosmológica | `Ω_obs ≠ TODO/NADA`; `origen_cosmológico_externo(Ω_obs) ≠ ε−0` | retorno cosmológico bajo banco físico |
+| 3 | `Ω_Vía-Láctea` | `≈13.000.000.000 años` como escala galáctica aproximada | dominio galáctico, estrellas, gas, polvo, metalicidad y dinámica | galaxia ≠ origen absoluto | retorno astrofísico de dominio |
+| 4 | `Ω_Sistema-Solar` y `Ω_Tierra` | `≈4.570.000.000 años` para el sistema solar; `4.540.000.000 años` para la Tierra | soporte planetario-solar, agua, minerales, energía de régimen y geología | soporte físico ≠ vida; planeta ≠ fundamento | retorno geofísico y astroquímico |
+| 5 | `Ω_química-prebiótica` | `6` familias elementales de referencia `CHNOPS` | soporte molecular, compuestos orgánicos, agua, minerales y condiciones químicas | componentes ≠ vida | retorno químico parcial; `U` para origen vivo completo si falta cierre |
+| 6 | `Ω_vida-terrestre` | `≥3.500.000.000 años` como escala de vida temprana bajo banco externo | frontera funcional, intercambio, información operativa, reparación y continuidad | soporte biológico ≠ causa total del linaje humano | retorno biológico bajo dominio |
+| 7 | `F_sapiens` | `300.000–350.000 años` como profundidad aproximada de humanos modernos | fibra humana, población, reproducción, cultura, traza genética y fósil | individuo ≠ especie; especie ≠ vida total | retorno paleogenético, paleontológico y cultural |
+| 8 | `persona_98` | `98 años` | proyección singular, identidad biográfico-corporal, traza documental y retorno vital durante la vida | persona ≠ fibra humana; traza ≠ continuidad plena | retorno vital hasta clausura; retorno estructural por trazas después |
+| 9 | `Ω_P` | `9` subdominios rectores declarados | órganos, tejidos, células, inmunidad, microbiota, neuroendocrino, metabolismo, documentación y dimensión social | subdominio ≠ persona completa; autonomía local ≠ independencia absoluta | retorno vital global del dominio persona |
+| 10 | subdominios comunicantes | salidas `0`, `1` o `U` | canal, diccionario, señal, respuesta, reparación, daño, residual y traza | canal compatible, canal lesivo o falta de cierre | comunicación estructural si hay canal, diccionario, residual y retorno |
+
+La matriz no declara una cadena causal lineal ni una producción física directa del humano desde el fundamento. Declara un recorrido de lectura: cada paso exige dominio propio y no autoriza que el cierre de un nivel sustituya al siguiente. El paso `0→1` no es cosmología física; el paso `1→2` no convierte `ε−0` en Big Bang; el paso `2→7` no convierte el universo observable en especie; el paso `7→8` no convierte la especie en persona individual; el paso `8→10` no convierte la persona en conciencia central de sus subdominios. Todo tránsito queda sometido a residual, retorno y conservación de `U` cuando el cierre no procede.
+
+### II.3. Instancia humana y subdominios comunicantes
+
+El tramo humano del recorrido se lee así: `persona_98 ∈ F_sapiens^Ω_bio`, `Π_sing^Ω_bio(F_sapiens^Ω_bio,κ_98^comp)=persona_98`, `Cl_ΩP(persona_98)=1 ⇔ Ret_vital(Ω_P)=0 ∧ R_global^ΩP ≻ L_retorno^ΩP ∧ Tr_ΩP declarada`. La cifra `98` no funda la persona; sólo fija una instancia guía con duración biográfica declarada. La persona no agota la especie, la especie no agota la vida, y la vida terrestre no agota el dominio físico. La traza documental, genética, social o intelectual de la persona conserva retorno estructural, pero no reabre la instancia viva.
+
+El dominio persona queda compuesto por `𝓢(Ω_P)={Ω_órgano, Ω_tejido, Ω_célula, Ω_inmunidad, Ω_microbiota, Ω_neuroendocrino, Ω_metabólico, Ω_documental, Ω_social}`. Estos `9` subdominios no actúan como sujetos independientes ni como conciencia distribuida. Conservan frontera, canal, residual y retorno propios, y se integran bajo retorno vital global. La comunicación estructural local se expresa: `L_ij=1 ⇔ Canal_ij^Γ=1 ∧ 𝓓_ij^⊥ apto ∧ R_ij trazado ∧ Ret_ΩP(D_i,D_j) compatible`. Si el canal conserva retorno, la salida es compatible; si captura el canal y deteriora el dominio rector, la salida cae; si falta cierre suficiente sobre diana, canal, subdominio no diana, retorno o traza, la salida conserva `U`.
+
+| Subdominio A | Subdominio B | Canal declarado | Residual principal | Salida posible |
+|---|---|---|---|---|
+| `Ω_inmunidad` | `Ω_tejido` | reconocimiento de daño, señal inflamatoria, presentación antigénica o reparación | defensa compatible, exceso inflamatorio o fallo de respuesta | `0`, `1` o `U` según retorno de `Ω_P` |
+| `Ω_microbiota` | `Ω_tejido` | metabolito, barrera, tolerancia, simbiosis o disbiosis | compatibilidad, captura lesiva del canal o indeterminación | `0`, `1` o `U` según canal y retorno |
+| `Ω_célula` | `Ω_organismo` | señalización, apoptosis, proliferación, daño o reparación | proliferación admisible, lesión, cáncer, reparación insuficiente o no cierre | `0`, `1` o `U` según residual y retorno global |
+| `Ω_documental` | `Ω_social` | autoría, registro, expediente, obra, memoria o publicación | documento ≠ persona; memoria ≠ continuidad plena | retorno estructural si hay trazabilidad |
+
+El recorrido muestra que la misma regla formal cambia de dominio sin perder disciplina: circularidad no agotada, primera distinguibilidad, dominio físico, dominio galáctico, soporte planetario, soporte químico, vida, fibra humana, proyección singular, dominio persona y subdominios comunicantes. La unidad del análisis no está en igualar esos objetos, sino en exigir para cada tránsito dominio declarado, frontera, identidad tipada, canal, traza, residual, retorno y `U` cuando no procede cierre.
+
+### II.4. Resultado del recorrido
+
+El resultado del recorrido es una verificación de lectura. Si se pretende cerrar el TODO/NADA como edad física, el residual de plano cae. Si se pretende identificar `ε−0` con una señal cosmológica, el residual de plano cae. Si se pretende convertir química en vida por inventario de componentes, el resultado conserva `U`. Si se pretende convertir especie en persona, traza en continuidad plena o subdominio en sujeto independiente, el resultado cae. Si cada dominio conserva su frontera, su canal, su residual y su retorno, el recorrido pasa como cadena admisible de lectura.
+
+La forma final queda: `Eval_EE=0 ⇔ ∀k Paso_EE(k)=0 ∧ R_plano=0`; `Eval_EE=1 ⇔ ∃k R_plano(k)=1 ∨ contradicción_material(k)=1`; `Eval_EE=U ⇔ (∀k Eval_k≠1) ∧ (∃j Eval_j=U)`. Así, el recorrido no amplía el teorema: lo hace verificable en una cadena única, desde la circularidad rectora hasta la instancia humana y sus subdominios comunicantes, sin convertir ningún paso en fundamento de otro por analogía, escala o semejanza.
 
 ## Bibliografía
 
