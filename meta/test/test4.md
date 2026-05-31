@@ -2,251 +2,1091 @@
 
 ## Humanos, especies, estrellas y dominios recursivos bajo circularidad no agotada y lectura armónica por Fourier
 
-## Manifiesto
+**Autor:** Juan Antonio Lloret Egea  
+**ORCID:** 0000-0002-6634-3351  
+**Publicación:** IA eñ™ — La Biblia de la IA™  
+**ISSN:** 2695-6411  
+**Licencia:** CC BY-NC-ND 4.0  
+**Lugar y fecha:** Madrid, 2026
 
-Una persona concreta permite entrar en el problema sin forzar abstracción. Nace, respira, se alimenta, absorbe nutrientes, transforma energía, crece, enferma o se repara, puede reproducirse o no, envejece y muere. Su vida no consiste en una cifra añadida al calendario ni en una línea desnuda de duración. Es una trayectoria de dominio: frontera corporal, identidad, soporte, metabolismo, interacción, daño posible, reparación parcial, residual, retorno y clausura. La vida celular ya muestra esta exigencia: no basta con enumerar moléculas, membrana, ADN o proteínas; una célula viva requiere frontera funcional, intercambio regulado, información operativa, metabolismo, reparación, reproducción o continuidad de procesos, residual controlado y retorno biológico suficiente (Lloret Egea, 2026d).
+## Resumen
 
-Una fibra designa aquí la estructura generativa de clase que, dentro de un dominio declarado, permite la comparecencia de instancias compatibles sin reducir la clase a una sola de ellas. No es una sustancia oculta ni una metáfora biológica; nombra una condición formal de lectura: frontera de identidad, soporte, generación o reproducción, selección, residual y retorno. La fibra humana se proyecta singularmente en personas; la fibra estelar, en estrellas concretas; la fibra biológica, en especies o linajes según el dominio; y una fibra de universos, si queda declarada bajo una generatriz superior, puede proyectarse en dominios-universo. Cada proyección singular produce una instancia observable, y ninguna instancia agota por sí sola la fibra que la hace admisible (Lloret Egea, 2026c, 2026d).
+Se formula una teoría formal de vida y clausura de observables realizados. Parte de una distinción estricta entre vida biológica y vida formal de instancia: una persona, una especie, una estrella, una galaxia o un dominio-universo sólo comparecen con fuerza cuando declaran dominio, frontera, identidad, soporte, traza, residual y retorno. La fórmula `𝓡VC_SV` se construye, se somete a prueba inversa contra bancos de contraste y se eleva finalmente al teorema de recursión de vida y clausura del observable realizado. El resultado no identifica el universo observable con el TODO/NADA, no atribuye edad física a la totalidad absoluta, no convierte Fourier en fundamento y conserva `U` cuando falta cierre suficiente sin contradicción material (Fourier, 1822; Lloret Egea, 2026a, 2026b, 2026c, 2026d, 2026e).
 
-La muerte de esa persona clausura una instancia observable —una proyección singular de la fibra humana—, no necesariamente la fibra humana. La fibra humana puede seguir generando nuevas personas si conserva condiciones de reproducción, soporte, identidad, entorno, viabilidad, selección y retorno. Pero esa misma fibra, observada desde un dominio superior, puede comparecer como observable de orden mayor: una especie nace, despliega población, variación, transmisión, daño acumulado, adaptación, enfermedad colectiva posible, esterilidad, presión ambiental y eventual extinción. La extinción de una especie clausura una fibra local; no clausura por sí misma la vida. La vida, a su vez, tampoco nace por acumulación nominal de materiales, sino por organización bajo frontera, canal, energía, reparación, continuidad y retorno; por eso la biología no debe apropiarse de la idea general ni reducirla a su mecanismo propio (Lloret Egea, 2026d).
+## Palabras clave
 
-La misma regla asciende hacia lo físico. Una estrella nace en un dominio de formación estelar, se sostiene por un régimen material y energético, transforma composición, emite, consume condiciones internas, atraviesa fases y se clausura como estrella concreta. Su muerte no clausura necesariamente la formación estelar de una galaxia. Una galaxia puede contener estrellas nacientes, maduras, terminales y extinguidas; puede mantener o perder capacidad de formación. Un universo observable, entendido con precisión como dominio-universo o universo-suceso, también puede nacer, desplegar contenidos, alojar subdominios, conservar retornos, acumular trazas y clausurarse como ciclo observable. Esa clausura no debe confundirse con nacimiento o muerte del TODO absoluto. La totalidad absoluta no comparece como objeto dentro de un dominio físico superior y, por ello, no admite edad física; las edades pertenecen a dominios internos y objetos observables declarados mediante frontera, identidad, métrica, unidad, residual y retorno (Lloret Egea, 2026a).
+Sistema Vectorial SV; observable; instancia; fibra; clausura; traza; residual; `U`; dominio-universo; Fourier; TODO/NADA; `𝓡VC_SV`.
 
-La regla general puede formularse de manera compacta: `o_i^C ∈ F_C^Ω`. El observable concreto `o_i^C` pertenece a una fibra de clase `F_C^Ω` dentro de un dominio `Ω`. La clausura de la instancia no equivale a la clausura de la fibra: `Clausura(o_i^C) ≠ Clausura(F_C^Ω)`, salvo demostración específica. A su vez, la clausura de una fibra local no equivale a la clausura del dominio superior: `Clausura(F_C^Ω) ≠ Clausura(Ω)`, salvo prueba propia del dominio. Esta recursividad impide que una parte usurpe el conjunto que la contiene: persona no equivale a humanidad; especie no equivale a vida; estrella no equivale a galaxia; universo observable no equivale a TODO absoluto.
+## Índice
 
-La instanciación de la fibra puede formularse como proyección singular admisible. En forma semántica expandida: `Proyección_singular_en_Ω(Fibra_de_clase_C_en_Ω, Condiciones_de_comparecencia_i)=Observable_instancia_i_de_clase_C`. En forma compacta: `Π_sing^Ω(F_C^Ω, κ_i^comp)=o_i^C`. Aquí `Π_sing^Ω` significa proyección singular en el dominio `Ω`; `F_C^Ω` significa fibra de clase `C` en el dominio `Ω`; `κ_i^comp` agrupa las condiciones de comparecencia singular —frontera, identidad, soporte, generación o reproducción, selección, residual y retorno—; y `o_i^C` designa la instancia observable concreta de la clase `C`. La admisión queda tipada por residual: `Adm_proyección_singular^Ω(o_i^C)=1 ⇔ Δ_comparecencia,Ω,C,i=0`; si hay contradicción material de dominio, identidad o retorno, la salida es `0`; si falta determinación suficiente, la salida es `U`. Así, una persona concreta, una estrella concreta, una especie concreta o un dominio-universo concreto no son la fibra misma, sino proyecciones singulares admisibles cuando su comparecencia cierra bajo dominio declarado (Lloret Egea, 2026c).
+- 0. Introducción
+- I. Apertura formal: observable, instancia, fibra y ciclo acotado
+- II. Clausura local, traza, residual y `U`
+- III. Potencial, círculo, sinusoidal y Fourier
+- IV. Dominio-universo y no identificación con TODO/NADA
+- V. Fórmula rectora candidata y protocolo de prueba inversa
+- VI. Prueba inversa contra bancos
+- VII. Teorema de recursión de vida y clausura del observable realizado
+- Conclusión general
+- Anexo I. Observabilidad y comunicación estructural de la instancia: persona, especie y dominio-universo
+- Bibliografía
 
-La imperfección preformal da la condición de apertura de esta arquitectura. `ε−0` no es partícula, instante, azar, vacío físico, probabilidad, fluctuación ni magnitud cosmológica. Nombra el borde anterior a la primera distinguibilidad. Su función no consiste en adornar una cosmología, sino en impedir que una clausura perfecta e indiferenciada bloquee toda diferencia. La relación `ε−0 ⊢ ∂ε ⊢ D_sep ⊢ Ω_esp` declara que sin imperfección preformal no hay primera distinguibilidad, sin primera distinguibilidad no hay separación, y sin separación no hay espacio recorrible. Además, la pluralidad de dominios internos no multiplica TODOS exteriores: `{Ω_1, Ω_2, ..., Ω_k} ⊂ TODO_SV`, no `TODO_1, TODO_2, ..., TODO_k` como totalidades autónomas entre sí (Lloret Egea, 2026b).
+## 0. Introducción
 
-El potencial de un suceso permite leer cada instancia sin convertirla en metáfora. El par polar `(μ,λ)` opera con componentes no negativas y sólo adquiere rango admisible cuando hay suceso, dominio, horizonte, soporte, identidad, traza, residual y retorno. El potencial `P_D(e)=μ_D(e)−λ_D(e)` mide orientación y separación; la intensidad `I_D(e)=μ_D(e)+λ_D(e)` mide presencia polar total. Esta doble lectura impide confundir origen formal con equilibrio realizado: `(0,0)` implica potencial nulo e intensidad nula, mientras que `(a,a)` con `a>0` implica potencial nulo con intensidad positiva, es decir, equilibrio en dominio ya realizado. La igualdad de potencial no autoriza por sí sola identidad, retorno al origen ni clausura automática (Lloret Egea, 2026c).
+El punto de partida es una pregunta precisa: si toda instancia observable nace, despliega presencia, deja traza y puede clausurarse bajo dominio, ¿puede esa misma regla aplicarse al universo observable sin convertirlo en organismo ni identificarlo con la totalidad absoluta? La respuesta se construye por grados. Primero se separan instancia, fibra y dominio; después se distinguen clausura local, traza, residual y `U`; luego se incorporan potencial, ciclo acotado, circularidad rectora y lectura armónica por Fourier; finalmente, el universo observable entra sólo como dominio físico o dominio-universo, nunca como TODO/NADA. La fórmula `𝓡VC_SV` se presenta como síntesis de esa arquitectura, se somete a prueba inversa contra bancos de contraste y se cierra mediante un teorema refutable: ningún observable realizado puede ocupar el lugar de totalidad absoluta si para comparecer necesita dominio, frontera, traza, residual y retorno (Fourier, 1822; Lloret Egea, 2026a, 2026b, 2026c, 2026d, 2026e).
 
-La circularidad rectora del TODO/NADA no debe representarse como círculo geométrico inerte ni como una onda física que fabrique la realidad. El círculo aporta igualdad radial, ausencia de exterior y nulidad de predominancia rectora. La lectura armónica aporta recurrencia, alternancia polar y posibilidad de expresar una manifestación periódica por senos y cosenos. Fourier entra ahí como lenguaje de codificación y decodificación, no como fundamento. La matemática comparece después de la primera distinguibilidad y permanece subordinada al cierre rector: codifica y decodifica el universo realizado, pero no lo funda como instancia exterior (Fourier, 1822; Lloret Egea, 2026b).
+## I. Apertura formal: observable, instancia, fibra y ciclo acotado
 
-La forma técnica de base para un dominio puede escribirse así: `F_D(φ)=a_0^D+Σ_{n=1}^{N_D}[a_n^D cos(nφ)+b_n^D sin(nφ)]+R_{D,N}(φ)`. El número de armónicos `N_D` no mide grandeza ontológica ni cercanía al TODO. Mide resolución de lectura en un dominio o subdominio determinado. Un ser humano, una especie, una estrella, una galaxia y un universo observable no requieren la misma descomposición, porque no comparten frontera, escala, soporte, unidad, residual ni retorno. Fourier no aproxima el TODO como si el TODO fuera una figura medible desde fuera; permite codificar una manifestación periódica cuando el dominio ya está declarado y el residual queda visible.
+### I.1. Entrada del problema
 
-Cada observable concreto requiere una envolvente de vida. Si `A_i(φ)` representa esa envolvente, entonces `A_i(0)=0`, `A_i(2π)=0` y `A_i(φ)>0` para `0<φ<2π`. La instancia nace, despliega intensidad, atraviesa predominancias y equilibrios, se sostiene mediante soporte, puede reproducirse o no, acumula residual y se clausura. El régimen rector, en cambio, no queda acotado por la envolvente de una instancia. Por eso debe distinguirse entre ciclo acotado del observable y circularidad rectora no agotada.
+El análisis parte de una distinción que debe quedar fijada antes de cualquier desarrollo físico, biológico o cosmológico: un observable realizado no comparece como entidad aislada ni como fragmento autosuficiente, sino como instancia de dominio. Esto significa que una persona concreta, una especie, una estrella, una galaxia o un universo observable sólo pueden leerse con fuerza formal cuando declaran el dominio en que aparecen, la frontera que los separa, la identidad que conservan, el soporte que los sostiene, el residual que no queda absorbido, el retorno que los hace evaluables y la traza que impide borrar la cadena ocurrida. Sin esa arquitectura, la palabra «vida» se vuelve equívoca, la clausura se exagera y el universo observable puede ser indebidamente elevado a totalidad absoluta.
 
-La formulación completa puede condensarse así: `TODO/NADA → ε−0 → dominio → subdominio → fibra de clase → proyección singular admisible → observable-instancia → vida acotada → clausura → traza`. La Teoría del TODO y de la NADA sostiene el cierre rector `𝓔★_TODO,SV(Γ_U;τ)=0`; la imperfección preformal abre la primera distinguibilidad; los dominios y subdominios permiten descender sin perder el conjunto; las fibras generan instancias; las instancias viven y mueren; la lectura polar mide predominancia e intensidad; Fourier codifica la recurrencia armónica de cada dominio; el residual decide si hay cierre, defecto o no clausura honesta. La teoría superior formula una cadena estructural, no una cronología ordinaria, y sitúa la frontera común `(μ,λ)=(0,0)` dentro de una arquitectura de cierre y reapertura no reducible a edad física de la totalidad (Lloret Egea, 2026e).
+El título exige, por tanto, una lectura doble. Por un lado, hay vidas biológicas estrictas: células, organismos, especies y linajes que requieren frontera funcional, intercambio gobernado, información operativa, reparación, continuidad y retorno biológico. Por otro, hay vida formal de instancia: nacimiento de comparecencia, despliegue bajo dominio, persistencia suficiente, acumulación de residual, traza y clausura local. Esta segunda acepción permite hablar de una estrella, de una galaxia o de un dominio-universo sin convertirlos en organismos ni proyectar sobre ellos metabolismo, célula, enfermedad o clínica. La restricción es esencial: la biología aporta precisión de frontera, pero no gobierna el alcance del título (Lloret Egea, 2026d).
 
-La fuerza del ejemplo humano consiste en impedir que el manifiesto se disuelva en abstracción. Una persona no es una fórmula; pero su vida puede ser leída formalmente si se declaran dominio, frontera, identidad, soporte, metabolismo, reparación, reproducción posible, enfermedad, residual y retorno. Una especie no es una suma de personas; pero su continuidad puede ser leída por conservación o clausura de una fibra biológica. Una estrella no es un símbolo; pero su ciclo físico puede ser leído por formación, régimen interno, emisión, consumo, transformación y cierre. Un universo observable no es el TODO; pero puede comparecer como dominio-universo con nacimiento, despliegue y clausura respecto de una generatriz superior.
+La fórmula elemental de arranque es:
 
-Este manifiesto sostiene, por tanto, una tesis precisa: todo observable realizado nace y muere como instancia; toda instancia comparece como proyección singular admisible de una fibra de clase; toda fibra local puede generar nuevas instancias mientras conserve condiciones de dominio; toda fibra local puede clausurarse cuando se la mira desde un dominio superior; y ninguna clausura local agota por sí misma la circularidad rectora del TODO/NADA. La realidad observable no queda reducida a biografía, biología, astrofísica o cosmología. Esos planos muestran dominios distintos de una misma regla formal de comparecencia, sostenimiento, generación, residual y clausura.
+`o_i^C ∈ F_C^Ω`
 
-La circularidad no agotada no significa eternidad temporal. Significa no agotamiento estructural por ninguna instancia local. La lectura armónica por Fourier no significa que una serie matemática funde los universos, las estrellas o las personas. Significa que una circularidad, cuando se proyecta en dominios analizables, puede ser codificada por armónicos, con residual declarado y retorno controlado. El círculo aporta la forma de no exterioridad; la serie armónica aporta la lectura de recurrencia; la envolvente de vida aporta nacimiento y clausura; el residual impide declarar cierre por entusiasmo, analogía o ausencia de refutación.
+El observable concreto `o_i^C` pertenece a una fibra de clase `F_C^Ω` dentro de un dominio `Ω`. La expresión no dice que todos los observables sean iguales; dice que todos requieren pertenencia tipada. Cambian el dominio, la escala, el soporte, la frontera, la clase, el residual y el retorno. Una persona pertenece a una fibra humana en un dominio biológico, social y documental; una estrella pertenece a una fibra estelar en un dominio galáctico; una especie pertenece a una fibra biológica de continuidad; un universo observable, si se formula como dominio-universo, pertenece a una fibra de universos sólo bajo una generatriz superior declarada. La igualdad formal de la regla no elimina la diferencia material de los dominios.
 
-Así queda fijada la posición del manifiesto: no sustituye dominio, frontera, soporte, identidad, residual ni retorno por intuición verbal; no convierte Fourier en fundamento; no declara nacimiento o muerte del TODO absoluto; no trata el universo observable como totalidad última; no reduce la vida a química aislada ni la especie a individuos. Propone una lectura escalable de la vida y clausura de los universos y sus observables: desde una persona que nace y muere hasta una especie que puede extinguirse; desde una estrella que se apaga hasta un universo observable que puede cerrarse; siempre bajo circularidad rectora no agotada y lectura armónica por dominio.
+### I.2. Instancia y fibra
 
+Una instancia es una comparecencia singular. Nace, se sostiene durante un tramo de dominio, devuelve señales o efectos, conserva trazas y puede clausurarse. La fibra, en cambio, designa la capacidad de clase que permite que una instancia comparezca sin agotar la clase entera. La muerte de una persona no clausura por sí misma la fibra humana; la clausura de una especie no clausura por sí misma la vida; la extinción de una estrella concreta no clausura por sí misma la formación estelar; la clausura de un dominio-universo observable no autoriza a declarar clausura del TODO/NADA.
 
-## Ejemplo completo: de una persona concreta a la circularidad rectora
+La formulación de proyección singular permite expresar esta diferencia (Lloret Egea, 2026c, 2026d):
 
-Considérese una persona concreta, `h_1`, situada en un dominio biológico, terrestre, social y físico determinado. `h_1` no es la humanidad, ni la especie, ni la vida; es una instancia observable. Comparece porque una fibra de clase —la fibra humana dentro del dominio biológico declarado— admite una proyección singular bajo condiciones de frontera, identidad, soporte, reproducción posible, selección, residual y retorno. En prosa: nace una persona, no nace toda la humanidad; muere una persona, no muere necesariamente la fibra humana. Esta lectura conserva el ejemplo humano sin reducir la tesis a biología, porque la misma estructura puede elevarse después a especie, estrella, galaxia y dominio-universo (Lloret Egea, 2026a, 2026d).
+`Π_sing^Ω(F_C^Ω, κ_i^comp)=o_i^C`
 
-La expresión semántica completa puede escribirse así: `Proyección_singular_en_dominio_biológico(Fibra_humana_en_dominio_biológico, Condiciones_de_comparecencia_de_h_1)=Persona_h_1`. La forma compacta correspondiente es: `Π_sing^Ω_bio(F_humano^Ω_bio, κ_h_1^comp)=h_1^humano`. Aquí `Ω_bio` designa el dominio biológico declarado; `F_humano^Ω_bio` designa la fibra humana dentro de ese dominio; `κ_h_1^comp` agrupa frontera corporal, identidad, soporte metabólico, nutrición, reparación, reproducción posible, selección, residual y retorno; y `h_1^humano` designa la instancia observable resultante. La admisión no depende de la belleza de la fórmula, sino del residual: `Adm_proyección_singular^Ω_bio(h_1^humano)=1 ⇔ Δ_comparecencia,Ω_bio,humano,h_1=0`. Si hay contradicción de dominio, identidad o retorno, la salida no es admisible; si falta determinación suficiente, queda `U`.
+Aquí `Π_sing^Ω` nombra la proyección singular en el dominio `Ω`; `F_C^Ω` nombra la fibra de clase `C` en ese dominio; `κ_i^comp` agrupa las condiciones de comparecencia de la instancia; y `o_i^C` es el observable-instancia resultante. Las condiciones de comparecencia no son una enumeración formalmente vacía. Deben incluir, según el dominio, frontera, identidad, soporte, canal, barrera, residual, retorno y traza. Si el dominio es biológico, esas condiciones pueden exigir metabolismo, reparación o continuidad de linaje; si el dominio es estelar, exigirán masa, composición, régimen energético, emisión, transformación y retorno observacional; si el dominio es cosmológico externo, exigirán métrica, señal, horizonte, trazas, modelo físico y residual declarado.
 
-La vida de `h_1` puede leerse como ciclo acotado: `φ_h_1∈[0,2π]`. Ese parámetro no es tiempo rector; es lectura formal del ciclo de la instancia. La envolvente de vida `A_h_1(φ)` expresa que la instancia nace y se clausura: `A_h_1(0)=0`, `A_h_1(2π)=0` y `A_h_1(φ)>0` para `0<φ<2π`. Dentro de esa envolvente comparecen soporte, nutrición, metabolismo, reparación, daño, enfermedad posible, reproducción posible, declive y clausura. Por eso `h_1` no queda descrita por una sola cifra de edad: queda descrita por dominio, frontera, soporte, residual, retorno y ciclo de vida acotado.
+La admisión de una proyección singular no se obtiene por analogía. Se obtiene por cierre de residual en el dominio declarado:
 
-La lectura polar de esa vida puede formularse mediante polos no negativos. Si `μ_h_1(φ)` representa el polo de soporte, continuidad, reparación, viabilidad o predominancia de conservación, y `λ_h_1(φ)` representa el polo de coste, daño, deterioro, pérdida o predominancia de clausura, entonces `μ_h_1(φ)≥0` y `λ_h_1(φ)≥0`. El potencial de la instancia queda: `P_h_1(φ)=μ_h_1(φ)−λ_h_1(φ)`. La intensidad queda: `I_h_1(φ)=μ_h_1(φ)+λ_h_1(φ)`. Esta distinción impide confundir equilibrio con origen o muerte: si `P_h_1=0` e `I_h_1>0`, hay equilibrio realizado dentro de una vida activa; si `P_h_1=0` e `I_h_1=0`, estamos en frontera de nulidad de esa instancia. La igualdad polar no clausura por sí sola; el residual decide (Lloret Egea, 2026c).
+`Adm_proyección_singular^Ω(o_i^C)=1 ⇔ Δ_comparecencia,Ω,C,i=0`
 
-La misma lectura puede elevarse un nivel. La especie humana puede actuar como fibra respecto de personas, pero también como observable respecto de la vida. En forma semántica: `Proyección_singular_en_dominio_biológico_superior(Fibra_de_vida, Condiciones_de_comparecencia_de_especie_humana)=Especie_humana`. En forma compacta: `Π_sing^Ω_vida(F_vida^Ω_vida, κ_Homo^comp)=O_especie_humana`. Si la especie se extingue, se clausura una fibra local de generación humana; no se clausura necesariamente la vida. Así se conserva la regla: una fibra puede sostener instancias hacia abajo y comparecer como instancia hacia arriba.
+Si hay contradicción material entre la instancia y el dominio, la admisión cae. Si falta determinación suficiente sin contradicción, la salida debe conservar `U`. Esta regla impide dos errores simétricos: declarar instancia fuerte a un contenido que sólo ha sido nombrado, o negar toda comparecencia cuando el dominio conserva posibilidad honesta pero todavía no permite cierre. `U` no autoriza entusiasmo ni rechazo retórico; conserva indeterminación hasta que frontera, identidad, residual y retorno permitan resolver.
 
-El mismo esquema se traslada a una estrella. Una estrella concreta `s_1` comparece como proyección singular de una fibra estelar en un dominio galáctico: `Π_sing^Ω_gal(F_estrella^Ω_gal, κ_s_1^comp)=s_1^estrella`. Sus condiciones de comparecencia no son nutrición o reproducción biológica, sino frontera gravitatoria y material, régimen energético, composición, emisión, transformación interna, residual y retorno observacional. La estrella nace y se clausura como instancia estelar; su muerte no clausura necesariamente la formación estelar del dominio galáctico. La forma general no cambia; cambian dominio, soporte, frontera, residual y retorno.
+### I.3. Vida formal de instancia
 
-También puede elevarse al dominio-universo. Un universo observable concreto no es el TODO absoluto: es un dominio-universo que puede comparecer como instancia respecto de una generatriz superior. Su formulación debe decir: `Π_sing^Ω_gen(F_universo^Ω_gen, κ_U_i^comp)=U_i^dominio-universo`. Si `U_i` se clausura, se clausura ese dominio-universo; no se declara por ello clausura del TODO. La publicación sobre edades relativas exige precisamente esa separación: la totalidad absoluta no recibe edad física, mientras que el universo observable y sus contenidos sí admiten edades relativas cuando hay dominio, frontera, identidad, métrica, unidad, residual y retorno (Lloret Egea, 2026a).
+La vida formal de instancia no equivale a vida biológica. La primera describe la estructura de comparecencia, despliegue y clausura de un observable; la segunda exige condiciones propias de sistemas vivos. Esta distinción permite conservar el alcance del título sin caer en antropomorfismo ni en biologización del universo. Una estrella puede tener formación, régimen activo, agotamiento y cierre sin respirar, nutrirse o reproducirse como organismo. Una galaxia puede tener ensamblaje, fusión, formación estelar, enriquecimiento químico y transformación sin ser una especie. Un universo observable puede comparecer como dominio físico con nacimiento cosmológico externo, trazas, expansión, contenidos y eventual clausura sin ser una célula ni el TODO/NADA.
 
-La traducción geométrica-armónica permite visualizar lo anterior sin convertir la imagen en fundamento. La circularidad rectora puede representarse mediante un círculo de lectura, no como objeto físico externo ni como radio medible desde fuera. En esa lectura, dos polos ortogonales no negativos conservan una resultante rectora de no predominancia. Una forma segura es: `μ_rectora(φ)=ρ_rectora·cos²(φ/2)` y `λ_rectora(φ)=ρ_rectora·sin²(φ/2)`. Así, `μ_rectora(φ)+λ_rectora(φ)=ρ_rectora` y `P_rectora(φ)=μ_rectora(φ)−λ_rectora(φ)=ρ_rectora·cosφ`. La suma conserva la circularidad; la diferencia expresa orientación; ninguna de las dos convierte el TODO en objeto medible. La recurrencia rectora no está acotada por una instancia: `φ_rectora∈ℝ`, sin último ciclo declarado.
+El ciclo de instancia se expresa mediante una fase acotada:
 
-La instancia observable, en cambio, sí queda acotada. Para `h_1`, `s_1`, una especie o un dominio-universo concreto, se usa una envolvente propia: `A_i(0)=0`, `A_i(2π)=0`, `A_i(φ)>0` en el interior. Esa envolvente convierte la recurrencia armónica en vida de instancia. En prosa: la circularidad rectora no se agota; la instancia sí nace y muere. En matemática: `φ_rectora∈ℝ`, pero `φ_i∈[0,2π]`. En dominio: el TODO/NADA sostiene cierre rector; el observable-instancia recibe frontera de vida, soporte, residual y clausura.
+`φ_i ∈ [0,2π]`
 
-Fourier permite expresar la forma armónica de cada dominio cuando la manifestación no es un círculo perfecto ni una sinusoidal elemental. Para un dominio declarado `D`, la lectura puede escribirse como: `Lectura_armónica_del_dominio_D(φ)=a_0^D+Σ_{n=1}^{N_D}[a_n^D cos(nφ)+b_n^D sin(nφ)]+R_residual,D,N(φ)`. En forma compacta: `F_D(φ)=a_0^D+Σ_{n=1}^{N_D}[a_n^D cos(nφ)+b_n^D sin(nφ)]+R_{D,N}(φ)`. Los armónicos no acercan el dominio al TODO; aumentan o ajustan la resolución de lectura de una manifestación concreta. El residual `R_{D,N}` impide declarar una codificación completa cuando el dominio exige más estructura, otro soporte, distinta frontera o retorno no cerrado (Fourier, 1822; Lloret Egea, 2026a, 2026b).
+Sobre esa fase se declara una envolvente de vida de instancia:
 
-El cierre del ejemplo queda así: `h_1` nace y muere como persona; la fibra humana puede persistir. La especie humana puede clausurarse como fibra local; la vida puede persistir. Una estrella puede apagarse; la formación estelar puede persistir. Un dominio-universo puede clausurarse; la circularidad rectora del TODO/NADA no queda agotada por ese cierre. La regla no se sostiene por metáfora, sino por dominio, proyección singular, ciclo acotado, potencial polar, residual, retorno y lectura armónica. La expresión final es: `TODO/NADA → ε−0 → dominio → subdominio → fibra de clase → Π_sing → observable-instancia → A_i(φ)·F_D(φ) → clausura → traza`.
+`A_i(0)=0`
 
+`A_i(2π)=0`
 
-## Banco arábigo de aplicación: Homo sapiens sapiens, individuo de 98 años y neandertales
+`A_i(φ)>0 para 0<φ<2π`
 
-El ejemplo anterior queda más legible si se acompaña de números arábigos. Se toma `Homo sapiens sapiens` como rótulo operativo de la humanidad moderna solicitada, sin abrir aquí una discusión taxonómica adicional: el dato externo de profundidad se refiere a *Homo sapiens* y a los fósiles de Jebel Irhoud, situados en torno a 300.000–350.000 años antes del presente según la literatura paleontológica contemporánea (Hublin et al., 2017). Para no convertir el banco en estadística fundante, se fija además un intervalo convencional de lectura generacional de `25 años`. Ese número no define la verdad biológica de la especie; sólo permite traducir la sucesión fibra → proyección singular → instancia en una escala arábiga transparente.
+Esta envolvente no mide valor, dignidad, verdad ni grandeza ontológica. Declara que la instancia no está presente antes de comparecer, conserva presencia durante su tramo de dominio y se clausura al cerrar su ciclo. La persona concreta nace y muere; la estrella concreta se forma y se extingue; la especie puede aparecer y desaparecer; el dominio-universo observable puede tener comienzo físico externo, despliegue de contenidos y clausura como observable. Ninguno de esos cierres autoriza automáticamente la clausura de la fibra, del dominio superior ni de la circularidad rectora.
 
-| Parámetro de lectura | Valor arábigo | Función en el ejemplo |
-|---|---:|---|
-| Profundidad paleontológica de referencia para *Homo sapiens* | 300.000 años | Extensión externa aproximada de la fibra humana moderna usada como dominio de lectura. |
-| Intervalo convencional de generación | 25 años | Unidad de paso para leer una línea singular de procedencia. |
-| Generaciones aproximadas en 300.000 años | 12.000 | `300.000 / 25 = 12.000`; no agota el árbol genealógico, sólo marca profundidad de lectura. |
-| Vida de la persona ejemplo `h_1` | 98 años | Ciclo acotado de una instancia observable. |
-| Fase inicial de `h_1` | 0 años | Nacimiento de la instancia; no nacimiento de la fibra. |
-| Fase final de `h_1` | 98 años | Clausura de la instancia; no clausura necesaria de la fibra humana. |
+La forma combinada del observable de dominio puede escribirse así:
 
-La persona `h_1` puede fijarse, por ejemplo, como nacida en 1928 y fallecida en 2026, con 98 años de vida. La cadena singular de procedencia no pretende reconstruir todos sus antepasados, sino mostrar cómo una instancia observable procede de otra anterior dentro de una fibra de clase. En una genealogía real, el número de antepasados se ramifica; aquí se declara una línea singular de lectura para no confundir árbol genealógico con fibra.
+`O_i(φ)=A_i(φ)·F_Ω(φ)`
 
-| Paso generacional singular | Distancia hacia atrás | Año orientativo | Lectura SV |
-|---:|---:|---:|---|
-| 0 | 0 años | 1928–2026 | `h_1`: instancia observable nacida y clausurada a los 98 años. |
-| 1 | 25 años | 1903 | Proyección singular anterior que permite la procedencia inmediata. |
-| 2 | 50 años | 1878 | Segunda procedencia singular declarada. |
-| 3 | 75 años | 1853 | Persistencia de la fibra humana por generación. |
-| 4 | 100 años | 1828 | La instancia cambia; la fibra no queda agotada por ninguna instancia. |
-| 5 | 125 años | 1803 | Continuidad de dominio biológico y social bajo variación. |
-| 10 | 250 años | 1678 | Profundidad histórica todavía interna a la misma fibra humana moderna. |
-| 100 | 2.500 años | ≈573 a. C. | Lectura de largo recorrido cultural y biológico. |
-| 1.000 | 25.000 años | ≈23.073 a. C. | Profundidad prehistórica de una línea singular. |
-| 12.000 | 300.000 años | ≈298.073 a. C. | Horizonte arábigo de referencia para la fibra humana moderna en este banco. |
+`A_i(φ)` acota la vida de la instancia; `F_Ω(φ)` recoge la lectura del dominio. La instancia no se confunde con el dominio: aparece en él, recibe su gramática, lo atraviesa bajo condiciones propias y deja traza al clausurarse. La multiplicación formal no debe leerse como operación física universal, sino como composición controlada entre ciclo de comparecencia y lectura de dominio. Si el dominio no está declarado, la expresión no tiene rango fuerte. Si la envolvente se omite, se pierde la clausura de la instancia. Si el residual desaparece de la formulación, se produce cierre aparente sin control.
 
-La vida de `h_1` se expresa entonces como ciclo acotado. Se define `x_vida,h_1 = edad / 98`, de modo que `x_vida,h_1∈[0,1]`; se define `φ_vida,h_1 = 2π·x_vida,h_1`, de modo que `φ_vida,h_1∈[0,2π]`; y se toma una envolvente no negativa `A_vida,h_1(φ)=sin(φ/2)`, que nace en `0`, alcanza valor alto en el interior y vuelve a `0` al cierre de la instancia. Esta envolvente no mide dignidad humana, valor biográfico ni riqueza histórica; sólo traduce la forma formal nacimiento → despliegue → clausura.
+### I.4. Persona, especie, estrella y dominio-universo
 
-| Edad de `h_1` | Fracción `x=edad/98` | Fase `φ=2πx` | Envolvente `A=sin(φ/2)` | Lectura de instancia |
-|---:|---:|---:|---:|---|
-| 0 años | 0,0000 | 0,0000 | 0,0000 | Nacimiento de la instancia. |
-| 24,5 años | 0,2500 | 1,5708 | 0,7071 | Despliegue ascendente de vida. |
-| 49 años | 0,5000 | 3,1416 | 1,0000 | Intensidad central de ciclo de instancia. |
-| 73,5 años | 0,7500 | 4,7124 | 0,7071 | Despliegue descendente con persistencia de vida. |
-| 98 años | 1,0000 | 6,2832 | 0,0000 | Clausura de la instancia. |
+La secuencia de ejemplos debe conservar la diferencia de dominios. Una persona concreta comparece como proyección singular de una fibra humana. Su nacimiento no inaugura la humanidad; su muerte no clausura la fibra humana. La especie, observada en un dominio superior, puede comparecer como observable de orden mayor: nace como continuidad de linaje, despliega variación, conserva o pierde canal reproductivo y puede extinguirse como fibra local. Esa extinción no clausura la vida, igual que la muerte de una persona no clausura la especie.
 
-La misma fase puede proyectarse sobre la lectura circular de los polos rectores, sin convertir esa lectura en biología. Se usan polos no negativos: `μ_círculo(φ)=cos²(φ/2)` y `λ_círculo(φ)=sin²(φ/2)`. La intensidad circular queda siempre `I_círculo(φ)=μ_círculo(φ)+λ_círculo(φ)=1`; el potencial queda `P_círculo(φ)=μ_círculo(φ)−λ_círculo(φ)=cos(φ)`. Esta tabla no dice que la persona sea un círculo; dice que una instancia finita puede leerse sobre una fase acotada, mientras la circularidad rectora no queda agotada por esa instancia.
+La misma lectura asciende hacia lo físico. Una estrella concreta comparece como proyección singular de una fibra estelar en un dominio galáctico. Se forma bajo condiciones materiales y gravitatorias, sostiene un régimen energético, transforma composición, emite, consume condiciones internas, deja residuos y se clausura como estrella. Su muerte no clausura necesariamente la galaxia ni la posibilidad de formación estelar. Una galaxia, a su vez, puede funcionar como dominio de acumulación estelar, enriquecimiento químico, fusiones, corrientes, formación de sistemas planetarios y conservación de trazas. Tampoco la galaxia ocupa el lugar de totalidad absoluta.
 
-| Edad de `h_1` | `μ_círculo=cos²(φ/2)` | `λ_círculo=sin²(φ/2)` | `I=μ+λ` | `P=μ−λ` | Lectura polar |
-|---:|---:|---:|---:|---:|---|
-| 0 años | 1,0000 | 0,0000 | 1,0000 | 1,0000 | Predominio inicial de un polo de lectura. |
-| 24,5 años | 0,5000 | 0,5000 | 1,0000 | 0,0000 | Equilibrio polar realizado, no origen. |
-| 49 años | 0,0000 | 1,0000 | 1,0000 | −1,0000 | Predominio opuesto dentro del ciclo. |
-| 73,5 años | 0,5000 | 0,5000 | 1,0000 | 0,0000 | Nuevo equilibrio polar realizado. |
-| 98 años | 1,0000 | 0,0000 | 1,0000 | 1,0000 | Cierre de fase de la instancia, no cierre del círculo rector. |
-
-La lectura sinusoidal de la instancia se diferencia así de la circularidad rectora. Para `h_1`, `φ_vida,h_1` queda acotada entre `0` y `2π`; para la circularidad rectora, `φ_rectora∈ℝ`. En prosa: la persona nace y muere; la fibra humana puede seguir; la circularidad rectora no queda agotada. En matemática: `h_1 = A_vida,h_1(φ)·F_Ω_bio(φ)` con `φ∈[0,2π]`, mientras que el régimen rector se expresa sin último ciclo declarado. La fórmula completa del ejemplo humano queda: `Π_sing^Ω_bio(F_humano^Ω_bio, κ_h_1^comp)=h_1^humano`, `Vida(h_1)=98 años`, `A_vida,h_1(0)=0`, `A_vida,h_1(2π)=0`, `Clausura(h_1)=1`, `Clausura(F_humano^Ω_bio)≠1` salvo prueba propia del dominio.
-
-El caso neandertal permite mostrar la diferencia entre clausura de fibra local, traza y no clausura del conjunto vida. A efectos de banco, se toma `Homo neanderthalensis` como fibra humana neandertal dentro de un dominio paleontológico eurasiático. La literatura sitúa la desaparición arqueológica neandertal en torno a 41.030–39.260 años calibrados antes del presente en Europa, con solapamiento previo con humanos modernos (Higham et al., 2014). La genética, además, muestra contribución neandertal en humanos actuales fuera de África, por lo que la traza no equivale a instancia neandertal viva ni a continuidad plena de la fibra neandertal como generadora de nuevos neandertales (Green et al., 2010).
-
-| Parámetro neandertal | Valor arábigo | Lectura SV |
-|---|---:|---|
-| Desaparición arqueológica europea estimada | 41.030–39.260 años antes del presente | Umbral externo de clausura de la fibra neandertal local como generadora de nuevas instancias observables. |
-| Valor redondeado de trabajo | 40.000 años | Cifra arábiga útil para banco de lectura, no sustituto de datación fina. |
-| Intervalo convencional de generación | 25 años | Misma unidad de paso que en el banco humano. |
-| Intervalos generacionales desde 40.000 años | 1.600 | `40.000 / 25 = 1.600`; profundidad desde la clausura inferida hasta el presente. |
-| Traza genética en humanos actuales no africanos | 1–4 % | Retorno de traza; no prueba de instancia neandertal actual. |
-| Instancias neandertales actuales verificadas por el banco externo | 0 | Cierre de fibra local como especie observable, bajo el banco paleontológico declarado. |
-
-La comparación con `h_1` queda entonces nítida. En la fibra humana moderna, `h_1` nace en 1928, muere en 2026 y clausura una instancia de 98 años, mientras la fibra humana continúa generando nuevas proyecciones singulares. En la fibra neandertal, el banco externo no muestra nuevas instancias neandertales tras el umbral de 41.030–39.260 años antes del presente; por eso la salida de fibra local activa queda `0` bajo ese dominio de lectura. Pero la traza genética de 1–4 % en humanos actuales no africanos obliga a no confundir clausura de instancia o especie con borrado absoluto de traza.
-
-| Caso | Instancia | Fibra local | Traza | Resultado SV |
-|---|---|---|---|---|
-| Persona humana `h_1` | Nace en 1928 y muere en 2026 | Fibra humana activa | Traza biográfica, genética, social o documental según dominio | Clausura de instancia; no clausura de fibra. |
-| *Homo sapiens sapiens* como humanidad moderna | Muchas instancias sucesivas | Fibra humana moderna activa | Continuidad biológica y cultural variable | Fibra generativa no agotada por una persona. |
-| Neandertal individual `n_i` | Instancia clausurada | Fibra neandertal local sin nuevas instancias verificadas | Traza genética parcial en humanos actuales | Clausura de fibra local; persistencia de traza. |
-| Vida como dominio superior | No se reduce a una especie | Fibra biológica plural | Trazas, linajes, especies y extinciones | La extinción neandertal no clausura la vida. |
-| TODO/NADA | No es instancia biológica ni cosmológica | No recibe edad física | No se agota por trazas internas | Ninguna clausura local clausura la circularidad rectora. |
-
-La expresión final del banco arábigo puede escribirse así: `h_1(98 años) ⊂ F_humano^Ω_bio`; `F_humano^Ω_bio` permanece activa si admite nuevas proyecciones singulares; `F_neandertal^Ω_paleo` queda clausurada como fibra local si `Instancias_neandertales_actuales=0` bajo el banco externo declarado; `Traza_neandertal=1–4 %` en humanos actuales no africanos opera como retorno parcial de traza, no como nacimiento de un nuevo neandertal; y `TODO/NADA` permanece fuera de edad, fuera de especie y fuera de clausura local. En términos de círculo y sinusoidal: `h_1` tiene `φ_h_1∈[0,2π]`; la fibra humana opera por sucesión de proyecciones singulares; la fibra neandertal muestra clausura local con traza; y la circularidad rectora mantiene `φ_rectora∈ℝ`, sin confundirse con ninguna de esas vidas acotadas.
-
-
-## Banco arábigo II: ancestro común operativo, bifurcación sapiens-neandertal y retorno a la instancia de 98 años
-
-Para cerrar el ejemplo sin desplazarlo hacia una discusión taxonómica, se declara un rótulo prudente: `Población_ancestral_común_NS`. La letra `N` remite a la línea neandertal y la letra `S` a la línea sapiens; no se decide aquí si esa población debe nombrarse como *Homo heidelbergensis*, *Homo antecessor* u otro taxón. La fuente oficial del Natural History Museum recuerda que no se conoce con certeza el último ancestro común de *Homo sapiens* y los neandertales, aunque la evidencia genética lo sitúa aproximadamente entre 500.000 y 700.000 años, mientras que la comparación dental empuja la separación al menos hacia 800.000 años; el Smithsonian presenta *Homo heidelbergensis* como ancestro compartido más probable en su ficha de *Homo sapiens*; y la documentación de Atapuerca recoge el desplazamiento de las estimaciones genéticas hasta un límite temporal inferior de 765.000 años, cercano a la antigüedad de *Homo antecessor* (Natural History Museum, s. f.; Smithsonian Institution, 2024; Fundación Atapuerca, 2020). Para el banco arábigo se adopta, por tanto, un intervalo operativo no polémico: `T_AC∈[550.000,765.000]` años antes del presente, con centro de lectura `T_AC,centro=657.500` años. Ese intervalo no resuelve el nombre del ancestro; sólo fija una escala suficiente para que el ejemplo numérico cumpla su función.
-
-| Magnitud de lectura | Valor arábigo | Función en el banco |
-|---|---:|---|
-| Límite reciente del ancestro común operativo `T_AC,reciente` | 550.000 años | Borde inferior de trabajo para la separación sapiens-neandertal. |
-| Límite antiguo del ancestro común operativo `T_AC,antiguo` | 765.000 años | Borde superior de trabajo compatible con la ventana extendida. |
-| Centro arábigo de lectura `T_AC,centro` | 657.500 años | `(550.000+765.000)/2=657.500`; no sustituye al dato paleontológico. |
-| Intervalo convencional de generación `g` | 25 años | Unidad arábiga de lectura, no ley biológica fundante. |
-| Pasos generacionales desde `T_AC,reciente` | 22.000 | `550.000/25=22.000`. |
-| Pasos generacionales desde `T_AC,antiguo` | 30.600 | `765.000/25=30.600`. |
-| Pasos generacionales desde `T_AC,centro` | 26.300 | `657.500/25=26.300`. |
-
-La bifurcación se expresa como descenso de una fibra ancestral común hacia dos fibras locales diferenciadas, sin que el documento necesite resolver el nombre taxonómico del ancestro. En forma semántica: `Fibra_ancestral_común_NS_en_dominio_Homo → divergencia_operativa → Fibra_sapiens + Fibra_neandertal`. En forma compacta: `F_AC,NS^Ω_Homo →_{T_AC∈[550.000,765.000]} {F_sapiens^Ω_Homo, F_neandertal^Ω_Homo}`. Esa formulación evita la trampa de convertir el ejemplo en debate: el banco no afirma que *Homo heidelbergensis* o *Homo antecessor* queden cerrados como respuesta final; sólo usa una población ancestral común declarada para ordenar números, fibras, proyecciones singulares y clausuras.
-
-| Rama de lectura | Punto arábigo | Distancia desde `T_AC,centro` | Pasos de 25 años | Resultado de dominio |
-|---|---:|---:|---:|---|
-| Población ancestral común `P_AC,NS` | 657.500 años antes del presente | 0 años | 0 | Raíz operativa común para las dos ramas de lectura. |
-| Referencia fósil de *Homo sapiens* usada antes | 300.000 años antes del presente | 357.500 años | 14.300 | La fibra sapiens ya comparece como dominio humano moderno de lectura. |
-| Desaparición arqueológica neandertal redondeada | 40.000 años antes del presente | 617.500 años | 24.700 | Clausura externa de la fibra neandertal local como generadora de nuevas instancias verificadas. |
-| Presente de lectura | 0 años antes del presente | 657.500 años | 26.300 | La fibra sapiens continúa; la fibra neandertal no muestra nuevas instancias, aunque conserva traza. |
-
-La línea sapiens puede llevarse hasta la persona concreta `h_1` de 98 años sin confundir escala evolutiva con biografía. Se conserva el rótulo solicitado `Homo sapiens sapiens` como denominación operativa de humanidad moderna; las fuentes oficiales consultadas suelen exponer el taxón como *Homo sapiens*. La cadena arábiga queda así: `P_AC,NS → F_sapiens^Ω_Homo → F_humano^Ω_bio → Π_sing^Ω_bio(F_humano^Ω_bio,κ_h_1^comp)=h_1^humano`. Si `h_1` nace en 1928 y muere en 2026, su ciclo dura 98 años. La distancia desde el centro del ancestro común operativo hasta el presente de lectura es de 657.500 años, es decir, 26.300 pasos convencionales de 25 años; dentro de esa profundidad, los 98 años de `h_1` son una instancia singular, no la fibra.
-
-| Escala sapiens-humano | Valor arábigo | Lectura SV |
-|---|---:|---|
-| Centro del ancestro común operativo `T_AC,centro` | 657.500 años | Raíz de lectura para sapiens y neandertales. |
-| Referencia sapiens de 300.000 años | 300.000 años | Profundidad ya usada para la fibra humana moderna. |
-| Distancia desde `T_AC,centro` hasta 300.000 años | 357.500 años | `657.500−300.000=357.500`. |
-| Pasos entre `T_AC,centro` y 300.000 años | 14.300 | `357.500/25=14.300`. |
-| Pasos entre 300.000 años y presente | 12.000 | `300.000/25=12.000`. |
-| Pasos entre `T_AC,centro` y presente | 26.300 | `657.500/25=26.300`. |
-| Vida de `h_1` | 98 años | Ciclo acotado de una proyección singular. |
-| Vida de `h_1` en intervalos de 25 años | 3,92 | `98/25=3,92`; biografía singular, no escala de especie. |
-
-La línea neandertal se expresa de manera paralela, con cierre distinto. Desde `P_AC,NS`, la fibra neandertal despliega instancias propias durante un tramo amplio del Pleistoceno; después, bajo el banco externo declarado, deja de mostrar nuevas instancias verificadas. Si se toma el umbral redondeado de 40.000 años antes del presente, la rama neandertal desde `T_AC,centro=657.500` hasta su clausura arqueológica de trabajo recorre 617.500 años, es decir, 24.700 pasos convencionales de 25 años. Desde esa clausura hasta el presente hay 40.000 años, es decir, 1.600 pasos convencionales sin nuevas instancias neandertales verificadas; la traza genética no se borra, pero tampoco equivale a una nueva instancia neandertal.
-
-| Escala neandertal | Valor arábigo | Lectura SV |
-|---|---:|---|
-| Centro del ancestro común operativo `T_AC,centro` | 657.500 años | Raíz de lectura compartida con sapiens. |
-| Clausura arqueológica redondeada de la fibra neandertal local | 40.000 años | Valor de trabajo tomado del banco anterior. |
-| Duración de rama desde `T_AC,centro` hasta 40.000 años | 617.500 años | `657.500−40.000=617.500`. |
-| Pasos entre `T_AC,centro` y clausura neandertal redondeada | 24.700 | `617.500/25=24.700`. |
-| Tiempo desde clausura redondeada hasta presente | 40.000 años | Tramo sin nuevas instancias neandertales verificadas. |
-| Pasos desde clausura redondeada hasta presente | 1.600 | `40.000/25=1.600`. |
-| Traza genética neandertal en humanos actuales no africanos | 1–4 % | Retorno parcial de traza; no continuidad plena de instancia neandertal. |
-
-La comparación entre ambos recorridos muestra exactamente lo que el manifiesto necesita cerrar. La fibra sapiens mantiene proyecciones singulares actuales: `h_1`, sus ascendientes y sus descendientes posibles son instancias de una fibra que no queda agotada por ninguna biografía. La fibra neandertal, en cambio, aparece como fibra local clausurada bajo el banco externo: no genera nuevas instancias neandertales verificadas en el presente, aunque conserva trazas incorporadas en otra rama humana. En forma compacta: `F_sapiens^Ω_Homo → Π_sing(h_i)=1` para instancias actuales admisibles; `F_neandertal^Ω_Homo → Π_sing(n_i actual)=0` bajo el banco externo; `Traza_neandertal_en_sapiens∈[0,01,0,04]` como retorno parcial, no como restitución de la fibra extinguida.
-
-| Caso comparado | Instancia actual | Fibra local | Traza | Conclusión del banco |
-|---|---:|---|---:|---|
-| Persona `h_1` | 1 | Fibra humana activa | Variable por dominio | Clausura de instancia a los 98 años; no clausura de fibra. |
-| *Homo sapiens sapiens* operativo | 1 | Fibra sapiens activa | Continuidad biológica y cultural | Proyecciones singulares actuales admisibles. |
-| Neandertal actual | 0 | Fibra neandertal local clausurada | 1–4 % en humanos actuales no africanos | No hay nueva instancia neandertal; sí retorno parcial de traza. |
-| Población ancestral común `P_AC,NS` | No es instancia actual | Raíz operativa de divergencia | Conservada por ramas derivadas | No se fija nombre taxonómico cerrado. |
-| TODO/NADA | No es especie ni ancestro | No recibe edad física | No depende de linajes internos | Ninguna rama local agota la circularidad rectora. |
-
-En términos del círculo y de la sinusoidal, el banco exige tres escalas distintas. Primera: la circularidad rectora permanece sin último ciclo declarado, `φ_rectora∈ℝ`, y no nace ni muere con sapiens, neandertales o cualquier ancestro común. Segunda: cada rama evolutiva recibe coordenada de lectura, pero no debe tratarse como biografía individual; por ejemplo, desde `T_AC,centro` hasta el presente puede usarse `x_rama=(T_AC,centro−T_evento)/657.500`, con `x_rama∈[0,1]` sólo como escala de lectura. Tercera: la persona `h_1` sí admite envolvente de vida acotada: `x_vida,h_1=edad/98`, `φ_vida,h_1=2π·x_vida,h_1`, `A_vida,h_1(0)=0`, `A_vida,h_1(2π)=0`. Así se evita el error de convertir una rama evolutiva en individuo o el TODO/NADA en edad.
-
-| Evento de rama desde `T_AC,centro` | `T_evento` antes del presente | `x_rama=(657.500−T_evento)/657.500` | `φ_rama=2π·x_rama` | Lectura |
-|---|---:|---:|---:|---|
-| Población ancestral común operativa | 657.500 años | 0,0000 | 0,0000 | Punto de bifurcación de lectura. |
-| Referencia sapiens de 300.000 años | 300.000 años | 0,5437 | 3,4160 | Rama sapiens ya diferenciada en el banco. |
-| Clausura neandertal redondeada | 40.000 años | 0,9392 | 5,9009 | Fibra neandertal local sin nuevas instancias después del umbral declarado. |
-| Presente de lectura | 0 años | 1,0000 | 6,2832 | Fibra sapiens activa; neandertal como traza parcial. |
-
-El cierre arábigo conjunto queda entonces formulado así: `F_AC,NS^Ω_Homo →_{657.500 años centro} {F_sapiens^Ω_Homo, F_neandertal^Ω_Homo}`; `F_sapiens^Ω_Homo → F_humano^Ω_bio → h_1(98 años)`; `F_neandertal^Ω_Homo → clausura_local≈40.000 años antes del presente + traza 1–4 %`; `h_1` tiene ciclo sinusoidal acotado; las ramas tienen escala arábiga de lectura; y `TODO/NADA` conserva circularidad rectora sin edad física. El ejemplo queda así cerrado con números sin desplazar la tesis al problema abierto del nombre taxonómico del ancestro común.
-
-
-## Banco genómico III: separación de patrón, traza y clausura local de la fibra neandertal
-
-El tercer banco no sustituye los dos bancos arábigos anteriores: los prolonga sobre material genómico. Los repositorios genéticos no usan el término `fibra` en sentido SV; lo que ofrecen es un patrón externo homologable: secuencias antiguas comparadas con genomas de referencia, alineamientos, diferencias derivadas y ancestrales, regiones candidatas de flujo génico, zonas de depuración, trazas introgresadas y ausencia de nuevas instancias neandertales actuales. En términos del manifiesto, ese material permite leer una fibra ancestral común operativa que se bifurca, una rama sapiens que continúa generando proyecciones singulares actuales, una rama neandertal clausurada como generadora de nuevas instancias, y una traza parcial que retorna dentro de otra rama humana sin reconstruir la fibra extinguida como instancia viva.
-
-La forma general del banco puede escribirse así: `F_AC,NS^Ω_Homo → {F_sapiens^Ω_Homo, F_neandertal^Ω_Homo}`. En lectura genómica, `F_AC,NS^Ω_Homo` no se observa como individuo ni como nombre taxonómico cerrado, sino como comparabilidad de patrones entre secuencias humanas modernas, neandertales, chimpancé y secuencia ancestral inferida. Ensembl declara que las lecturas neandertales fueron mapeadas contra el genoma humano `hg18`, el genoma de chimpancé `pantro2` y una secuencia ancestral humano-chimpancé inferida; Max Planck conserva alineamientos de secuencias neandertales contra genoma humano y chimpancé en formato `BAM`; y UCSC dispone de pistas para alelos neandertales, polimorfismos, regiones candidatas de flujo génico y barridos selectivos. El banco, por tanto, no necesita resolver el nombre del ancestro: le basta con mostrar que existe una matriz comparativa de separación.
-
-| Capa del banco genómico | Registro externo | Lectura SV |
+El universo observable exige la máxima prudencia. Puede tratarse como dominio-universo o universo-suceso sólo si se conserva su condición de observable físico: frontera de lectura, escala externa, trazas cosmológicas, contenidos internos, residual y retorno. No puede identificarse con el TODO/NADA. El estudio sobre edades relativas ya fija la restricción decisiva: la totalidad absoluta no admite edad física; el universo observable y sus contenidos sí admiten edad cuando hay dominio, frontera, identidad, métrica, unidad, residual y retorno. Por eso el origen cosmológico externo del universo observable físico no equivale a nacimiento del TODO/NADA, y una eventual clausura del universo observable no equivaldría a clausura de la circularidad rectora (Lloret Egea, 2026a, 2026e).
+
+Esta regla se resume así:
+
+`Cl(o_i^C) ≠ Cl(F_C^Ω)`, salvo demostración propia del dominio.
+
+`Cl(F_C^Ω) ≠ Cl(Ω)`, salvo demostración propia del dominio.
+
+El resultado protege toda la arquitectura. La instancia puede cerrarse; la fibra puede persistir. La fibra local puede cerrarse; el dominio superior puede persistir. Un dominio físico observable puede cerrarse; el plano de fundamentos no queda por ello clausurado. El análisis no busca una cadena infinita de objetos, sino una recursividad de dominios donde cada cierre declara exactamente qué se cierra y qué no se cierra.
+
+### I.5. Síntesis
+
+Queda fijado el suelo formal del análisis. Un observable realizado comparece como instancia de dominio; una instancia pertenece a una fibra de clase; una fibra no queda agotada por una sola proyección; la admisión de la proyección depende del residual; la vida formal de instancia se representa mediante una envolvente acotada; la clausura local no autoriza clausura del dominio superior; y el universo observable sólo puede entrar como dominio físico, no como totalidad absoluta.
+
+A partir de esta delimitación, el núcleo del título queda preservado. La palabra «vida» queda protegida: en biología conserva sus requisitos propios; en dominios no biológicos nombra estructura formal de comparecencia, despliegue, traza y clausura. La palabra «clausura» queda igualmente delimitada: no borra la traza, no agota necesariamente la fibra, no convierte una extinción local en desaparición de la vida y no transforma el cierre de un dominio observable en final del TODO/NADA. La clausura local, la traza, el residual y `U` precisan qué permanece, qué se pierde y qué no puede cerrarse honestamente.
+
+## II. Clausura local, traza, residual y U
+
+### II.1. Clausura local y conservación de traza
+
+La clausura local nombra el cierre de una instancia en un dominio declarado, no la desaparición absoluta de todo lo que esa instancia fue, produjo o dejó inscrito. Una persona puede morir y conservar trazas corporales, genéticas, documentales, sociales o históricas; una especie puede extinguirse y conservar fósiles, ADN, huellas ecológicas o memoria científica; una estrella puede agotar su régimen activo y dejar restos materiales, radiación, enriquecimiento químico o perturbaciones; un dominio-universo observable podría clausurarse como observable físico sin que esa clausura autorizara la muerte del TODO/NADA. La primera regla es, por tanto, negativa y protectora: cerrar una instancia no equivale a borrar su cadena ni a clausurar el plano que la hacía posible.
+
+La forma general puede expresarse así:
+
+`Cl_Ω(o_i^C)=1 ⇔ retorno_de_instancia(o_i^C,Ω)=0 ∧ Δ_clausura,Ω(o_i^C) no absorbible ∧ Tr_Ω(o_i^C) declarada`
+
+La clausura exige dominio, pérdida de retorno de la instancia, residual no absorbible y traza. Si falta dominio, no se sabe qué se cierra. Si falta retorno, no se sabe qué dejó de operar. Si falta residual, el cierre se vuelve nominal. Si falta traza, la clausura queda sin custodia y puede degradarse en relato. Esta formulación impide declarar cierre por impresión, por analogía o por dramatización del desenlace. También impide lo contrario: negar una clausura local porque subsisten restos, documentos, moléculas, radiación, memoria o efectos. La traza conserva inscripción; no conserva necesariamente vida, presencia, función ni continuidad de la instancia.
+
+La distinción queda fijada por dos restricciones:
+
+`Tr_Ω(o_i^C) ≠ o_i^C`
+
+`Tr_Ω(o_i^C) ≠ continuidad_plena(o_i^C)`
+
+La traza de una persona no es la persona; la traza de una especie extinguida no es la especie viva; la luz antigua de una estrella no es la estrella en el mismo régimen que produjo esa luz; la radiación cosmológica no es la totalidad absoluta. La traza permite retorno de lectura, no restitución automática de la instancia. Esta distinción resulta decisiva ante bancos físicos y científicos: ningún dato de traza debe ocupar el lugar de la cosa clausurada, y ninguna clausura local debe aprovecharse para declarar clausura del dominio superior.
+
+### II.2. Residual como condición de cierre
+
+El residual es la diferencia que el dominio no puede absorber sin alterar el resultado. No es un resto vulgar ni una molestia técnica. En esta investigación cumple una función central: decide si una comparecencia queda admitida, si una clausura puede declararse, si una traza permite retorno suficiente o si el caso debe conservar `U`. Toda instancia se sostiene mientras su residual queda gobernado por frontera, identidad, canal, barrera y retorno. Se clausura cuando el residual rompe el retorno propio de la instancia o cuando el dominio ya no puede sostener las condiciones que la hacían comparecer.
+
+Una expresión útil para esta lectura es:
+
+`Δ_Ω(o_i^C)=Δ_dom ⊕ Δ_id ⊕ Δ_frontera ⊕ Δ_soporte ⊕ Δ_canal ⊕ Δ_retorno ⊕ Δ_traza`
+
+No todos esos componentes tienen la misma forma en todos los dominios. En una persona, el residual puede afectar soporte orgánico, identidad biográfica, retorno vital, documento o memoria. En una especie, puede afectar continuidad reproductiva, población, nicho, traza fósil o genética. En una estrella, puede afectar régimen energético, composición, masa, emisión o resto. En un dominio-universo, sólo podría formularse bajo condiciones físicas declaradas: frontera de lectura, señal, horizonte, contenido, métrica, residual cosmológico y retorno externo. La regla formal es común; la materia del residual cambia con el dominio.
+
+El residual permite evitar cuatro cierres indebidos. Primero, evita cerrar por semejanza: algo parecido a una especie no es especie activa si no conserva canal de continuidad. Segundo, evita cerrar por resto: una traza genética, mineral, lumínica o documental no equivale a continuidad plena. Tercero, evita cerrar por escala: que un observable sea inmenso no lo convierte en totalidad absoluta. Cuarto, evita cerrar por ausencia de refutación: si no hay contradicción pero tampoco cierre suficiente, la salida no es afirmación fuerte, sino `U`.
+
+La admisión y la clausura deben distinguirse. La admisión de una instancia exige que el residual de comparecencia quede resuelto dentro del dominio declarado. La clausura exige que el retorno propio de esa instancia haya cesado o se haya vuelto no restituible en su régimen. Una instancia puede haber sido admisible y después clausurarse; una traza puede ser admisible como traza sin reabrir la instancia; una fibra puede persistir aunque una instancia se cierre; y una fibra local puede clausurarse sin clausurar el dominio superior. Esta precisión evita confundir vida, huella, retorno, extinción, final físico y circularidad rectora.
+
+### II.3. U como no cierre honesto
+
+`U` no es ignorancia retórica, probabilidad suspendida ni permiso para completar con entusiasmo lo que el dominio no ha cerrado. `U` es una salida honesta cuando falta determinación suficiente y no hay contradicción material que autorice rechazo. Su función es proteger la investigación frente a cierres prematuros. Si una instancia no tiene dominio declarado, si la traza no permite continuidad, si el residual no está medido o si el retorno no queda probado, el caso no debe cerrarse por belleza formal ni por coherencia narrativa.
+
+La regla puede escribirse así:
+
+`Eval_Ω(x)=U ⇔ cierre_suficiente(x,Ω)=0 ∧ contradicción_material(x,Ω)=0`
+
+En cambio:
+
+`Eval_Ω(x)=0 ⇔ cierre_suficiente(x,Ω)=1 ∧ residual_admisible(x,Ω)=1`
+
+`Eval_Ω(x)=1 ⇔ contradicción_material(x,Ω)=1`
+
+Conviene fijar aquí la convención para que no haya cruce de signos entre admisión booleana y salida ternaria. `Adm=1` expresa admisión de una proyección en sentido funcional: la comparecencia queda autorizada dentro del dominio declarado. En cambio, `Eval_Ω(x)=0` expresa cierre compatible dentro de la convención ternaria de resultado: el residual no bloquea la salida; `Eval_Ω(x)=1` expresa contradicción material o fallo de dominio; y `Eval_Ω(x)=U` conserva no cierre honesto. Por tanto, `Adm=1` y `Eval=0` no se contradicen: pertenecen a registros distintos, uno de admisión funcional y otro de evaluación ternaria.
+
+La notación `0`, `1` y `U` debe leerse dentro de la pregunta declarada, no como etiqueta universal del objeto. Un mismo contenido puede ser admisible como traza, no admisible como continuidad viva y `U` como causa última. Un fósil puede cerrar como traza paleontológica y no cerrar como especie activa. Una señal cosmológica puede cerrar como registro físico y no cerrar como primera distinguibilidad preformal. Un documento puede cerrar como versión custodiada y no cerrar como prueba de totalidad. Esta disciplina impide que una respuesta válida en un plano usurpe otro plano.
+
+`U` también protege el límite cosmológico y el plano de fundamentos. El origen cosmológico externo del universo observable físico puede recibir tratamiento por bancos, señales y modelos; pero no se convierte por ello en `ε−0`, ni en nacimiento del TODO/NADA, ni en clausura de la circularidad rectora. Si el dato físico llega a su borde, el SV no rellena ese borde con una cosmología imaginada. Conserva separación de planos: banco físico externo por un lado; fundamento preformal y circularidad rectora por otro.
+
+### II.4. Qué permanece, qué se pierde y qué queda en U
+
+La clausura local exige formular tres preguntas separadas. Primera: qué permanece como traza. Segunda: qué se pierde como retorno de instancia. Tercera: qué queda en `U` por falta de cierre suficiente. Si esas preguntas se mezclan, la distinción pierde precisión. Una persona muerta puede permanecer en memoria, obra, genética, documentación o efectos, pero pierde retorno vital de instancia. Una especie extinguida puede permanecer como fósil o traza genética, pero pierde continuidad poblacional o reproductiva. Una estrella clausurada puede permanecer como resto, radiación o enriquecimiento químico, pero pierde su régimen estelar anterior. Un universo observable, si alguna vez se formula su clausura física, podría dejar trazas internas o externas según dominio declarado, pero no por ello quedaría clausurado el TODO/NADA.
+
+| Caso | Qué se clausura | Qué puede permanecer como traza | Qué no se autoriza cerrar |
+|---|---|---|---|
+| Persona concreta | Retorno vital de la instancia biográfico-corporal. | Genética, memoria, documentos, obra, efectos, restos materiales. | Fibra humana, especie humana, vida o totalidad absoluta. |
+| Especie o linaje | Continuidad reproductiva o poblacional bajo dominio declarado. | Fósiles, ADN, huellas ecológicas, registros científicos, descendencias parciales si el dominio las admite. | Vida como dominio superior ni toda biología. |
+| Estrella concreta | Régimen estelar activo de esa instancia. | Remanentes, radiación, elementos, perturbaciones, registros observacionales. | Formación estelar, galaxia o dominio físico superior. |
+| Galaxia o dominio galáctico | Sólo lo que el dominio físico pueda declarar como cierre de esa estructura. | Estrellas, corrientes, radiación, restos, distribución química, registros. | Universo observable ni TODO/NADA. |
+| Dominio-universo observable | Eventual retorno físico de ese observable como dominio, si se declarara. | Trazas físicas según dominio, residual y frontera de lectura. | Circularidad rectora, fundamento preformal o totalidad absoluta. |
+
+La tabla no pretende cerrar casos físicos que todavía no se han formalizado. Su función es disciplinar la lectura. Cada fila obliga a declarar el nivel de clausura y a impedir que la traza sea confundida con continuidad plena. La permanencia de restos no niega la clausura; la clausura no borra la traza; la traza no reabre la instancia; y el `U` conserva lo no resuelto. Esta separación habilita la incorporación de potencial, circularidad y Fourier, porque una lectura armónica sólo es legítima si declara qué ciclo lee, qué residual conserva y qué no puede afirmar.
+
+### II.5. Síntesis
+
+Queda fijada la gramática de clausura requerida por la distinción inicial entre instancia, fibra y dominio. La instancia se clausura localmente cuando pierde su retorno propio en el dominio declarado y deja residual no absorbible con traza. La traza conserva inscripción, pero no equivale a continuidad plena. El residual decide admisión, cierre, rechazo o no cierre. `U` preserva indeterminación honesta cuando no hay cierre suficiente ni contradicción material. La clausura de una persona, una especie, una estrella, una galaxia o un dominio-universo no autoriza por sí misma clausura del plano superior ni de la circularidad rectora.
+
+Esta base permite incorporar potencial, círculo, sinusoidal y Fourier sin convertir la matemática en recurso expositivo sin función formal. El potencial declara dominio, polos, intensidad y residual; la circularidad distingue ciclo acotado de instancia y no agotamiento rector; Fourier aparece sólo como lectura armónica por dominio, con residual visible y sin ocupar el lugar del fundamento.
+
+## III. Potencial, círculo, sinusoidal y Fourier
+
+### III.1. Potencial del suceso: orientación, intensidad y dominio
+
+El potencial de un suceso se introduce para impedir que la vida de instancia sea leída como duración desnuda, progreso lineal o metáfora de ascenso y caída (Lloret Egea, 2026c). Una instancia no sólo ocupa un tramo de dominio: comparece bajo tensiones de soporte, pérdida, conservación, transformación y clausura. Para leer esas tensiones sin convertirlas en psicología, biología impropia o cronología absoluta, se introducen dos magnitudes formales inseparables: potencial e intensidad. El potencial expresa orientación polar; la intensidad expresa presencia polar total. Ninguno de los dos tiene rango fuerte si falta dominio, suceso, frontera, identidad, residual, retorno y traza.
+
+La forma básica queda fijada así:
+
+`P_D(e)=μ_D(e)−λ_D(e)`
+
+`I_D(e)=μ_D(e)+λ_D(e)`
+
+`μ_D(e)≥0`, `λ_D(e)≥0`
+
+`P_D(e)` mide orientación o predominancia dentro del dominio `D`; `I_D(e)` mide presencia polar total. Esta distinción protege una dificultad central: potencial nulo no significa origen, identidad plena ni clausura. Si `μ_D(e)=0` y `λ_D(e)=0`, hay nulidad de presencia polar para la pregunta declarada. Si `μ_D(e)=λ_D(e)=a` con `a>0`, el potencial es nulo, pero la intensidad es positiva: hay equilibrio realizado, no ausencia de instancia. La igualdad de potencial no autoriza retorno al origen ni clausura automática; sólo declara una simetría polar local cuya lectura depende del dominio, del residual y del retorno.
+
+La admisión del potencial exige control de residual:
+
+`Adm_P^D(e)=1 ⇔ R_{P_D,F}(e)=0`
+
+Esta condición impide que `P_D(e)` opere como palabra elegante sin soporte técnico. En una persona, el dominio puede leer conservación orgánica, daño, reparación, memoria, retorno vital o clausura. En una estrella, puede leer régimen material, emisión, transformación, agotamiento o remanente. En una especie, puede leer continuidad, presión, variación, pérdida de canal reproductivo o extinción. En un dominio-universo observable, cualquier lectura polar tendría que declararse físicamente: contenido, frontera de lectura, señal, horizonte, residual y retorno. Sin esa declaración, el potencial queda fuera de rango fuerte.
+
+### III.2. Círculo rector y ciclo acotado
+
+El círculo no entra como figura estética ni como objeto físico situado fuera del universo. Cumple aquí una función precisa: expresar no exterioridad rectora, igualdad radial de lectura y ausencia de predominancia absoluta en el plano de fundamentos. Esa circularidad no debe confundirse con el ciclo acotado de una instancia. La instancia nace, despliega presencia y se clausura; la circularidad rectora no queda consumida por ninguna de esas vidas locales. Por eso se conservan dos fases distintas:
+
+`φ_i∈[0,2π]`
+
+`φ_rectora∈ℝ`
+
+`φ_i` pertenece a la instancia. Sirve para leer su ciclo formal de comparecencia, despliegue y clausura. `φ_rectora` nombra la apertura no agotada de la circularidad en el plano de fundamentos. No es tiempo físico infinito, no es una edad del TODO/NADA y no convierte la totalidad absoluta en objeto medible. La diferencia entre ambas fases impide tres errores: creer que una instancia agota el círculo rector, creer que la circularidad rectora es una cronología interminable, o creer que el cierre local de una vida de instancia equivale al cierre del fundamento.
+
+La lectura polar de un círculo puede expresarse mediante componentes no negativas:
+
+`μ_rectora(φ)=ρ_rectora·cos²(φ/2)`
+
+`λ_rectora(φ)=ρ_rectora·sin²(φ/2)`
+
+Entonces:
+
+`I_rectora(φ)=μ_rectora(φ)+λ_rectora(φ)=ρ_rectora`
+
+`P_rectora(φ)=μ_rectora(φ)−λ_rectora(φ)=ρ_rectora·cosφ`
+
+Esta formulación sólo debe usarse como lectura formal de orientación y conservación de intensidad rectora. No convierte el TODO/NADA en campo físico, partícula, onda, instante cosmológico ni magnitud externa. La suma expresa conservación de intensidad en la lectura; la diferencia expresa orientación polar. La instancia, en cambio, exige envolvente propia, residual propio y clausura propia. Por eso `φ_rectora∈ℝ` puede coexistir con `φ_i∈[0,2π]` sin contradicción: pertenecen a registros distintos.
+
+### III.3. Sinusoidal de instancia y envolvente de vida formal
+
+La sinusoidal permite representar el ciclo de una instancia sin afirmar que la instancia sea una onda física. Su función es formal: mostrar que una vida de instancia aparece, alcanza presencia, atraviesa equilibrios y predominancias, y se clausura. La envolvente ya fijada en el arranque formal conserva esa disciplina:
+
+`A_i(0)=0`
+
+`A_i(2π)=0`
+
+`A_i(φ)>0 para 0<φ<2π`
+
+Si se combina con la lectura de dominio, se obtiene:
+
+`O_i(φ)=A_i(φ)·F_Ω(φ)`
+
+La función `A_i(φ)` no mide dignidad, valor, superioridad, perfección ni finalidad. Acota la comparecencia de la instancia. `F_Ω(φ)` no funda la instancia; recoge la lectura del dominio donde esa instancia comparece. La composición sólo es válida cuando el dominio está declarado y el residual queda visible. Si se aplica a una persona, el ciclo es biográfico-corporal y debe respetar vida biológica. Si se aplica a una estrella, el ciclo es físico-estelar y no biológico. Si se aplica a una especie, el ciclo es continuidad o clausura de linaje bajo dominio. Si se aplica a un dominio-universo observable, el ciclo sólo puede ser físico y nunca equivalente al nacimiento o muerte del TODO/NADA.
+
+La relación entre potencial y envolvente permite leer estados internos del ciclo. Puede haber intensidad alta con potencial nulo; puede haber predominancia de conservación sin clausura; puede haber predominancia de pérdida sin cierre todavía; puede haber residual creciente sin retorno bloqueado; y puede haber clausura cuando el retorno propio de la instancia cae bajo el dominio declarado. Ninguna de esas situaciones se decide por la forma sinusoidal sola. La forma ayuda a leer; el dominio, el residual y el retorno deciden.
+
+### III.4. Fourier como lectura armónica por dominio
+
+Fourier entra sólo como lenguaje de lectura armónica de dominios ya declarados. No funda el mundo, no produce la instancia, no sustituye el SV, no prueba el TODO/NADA y no autoriza cierre sin residual (Fourier, 1822; Lloret Egea, 2026b, 2026e). Su utilidad consiste en descomponer una manifestación periódica, recurrente o compleja dentro de un dominio mediante componentes armónicas, siempre con una diferencia restante declarada. La forma operativa queda así:
+
+`F_Ω(φ)=a_0^Ω+Σ_{n=1}^{N_Ω}[a_n^Ω cos(nφ)+b_n^Ω sin(nφ)]+R_{Ω,N}(φ)`
+
+Aquí `Ω` declara el dominio; `N_Ω` declara la resolución armónica adoptada para ese dominio; los coeficientes `a_n^Ω` y `b_n^Ω` no son sustancias ni causas; y `R_{Ω,N}(φ)` conserva el residual de lectura. Si el residual se oculta, la serie se convierte en una apariencia de cierre. Si el dominio no se declara, la serie no sabe qué está leyendo. Si se pretende usar Fourier como fundamento, se invade un plano que no le corresponde.
+
+La lectura armónica puede ser distinta para una persona, una especie, una estrella, una galaxia o un dominio-universo. No porque unas instancias sean más verdaderas que otras, sino porque poseen fronteras, soportes, escalas, retornos y residuales distintos. La vida de una persona no se descompone con la misma semántica que la evolución de una especie, la formación de una estrella o la historia de una galaxia. El número de armónicos no mide cercanía al fundamento ni jerarquía ontológica; mide resolución de lectura dentro de un dominio concreto.
+
+El residual de Fourier cumple la misma función estructural que el residual de clausura: impedir cierre total impropio. Una lectura armónica puede aproximar, ordenar o codificar recurrencias; no puede borrar lo que el dominio no permite cerrar. Por eso `R_{Ω,N}(φ)` no es una vergüenza matemática, sino una garantía de honestidad formal. Si el residual no se anula, no se declara cierre completo. Si el residual exige otro dominio, se declara cambio de dominio. Si la pregunta excede la lectura armónica, el resultado debe conservar `U`.
+
+### III.5. Aplicación controlada a persona, especie, estrella y dominio-universo
+
+Una persona concreta puede leerse mediante ciclo acotado, potencial polar y traza, pero no se reduce a una función. Su vida biológica conserva frontera corporal, metabolismo, reparación, interacción, retorno vital, documentación y memoria. La envolvente `A_i(φ)` expresa comparecencia y clausura; el potencial permite leer orientación interna de conservación o pérdida; la traza preserva inscripción; el residual decide qué no queda resuelto. Nada de esto reemplaza la persona ni convierte sus documentos, restos o memoria en continuidad plena.
+
+Una especie puede leerse como fibra local con proyecciones singulares, continuidad, variación, residual, traza y posible extinción. La lectura armónica puede ayudar a codificar ciclos poblacionales, expansiones, contracciones o recurrencias bajo dominio declarado; pero no convierte la especie en organismo único ni convierte la extinción en desaparición de la vida. Si quedan fósiles, ADN, huellas ecológicas o descendencias parciales, esas trazas deben leerse como trazas, no como continuidad plena de la misma fibra local.
+
+Una estrella concreta puede leerse mediante formación, régimen activo, transformación y clausura. El potencial no nombra voluntad estelar; nombra orientación formal de estados y predominancias físicas cuando el dominio los declara. Fourier puede leer recurrencias o señales periódicas si el dato físico lo autoriza, no porque toda estrella sea una serie armónica abstracta. Su clausura deja remanentes, elementos, radiación o perturbaciones; no clausura la formación estelar de la galaxia ni el dominio físico superior.
+
+El dominio-universo observable exige la restricción más severa. Puede tener lectura física de ciclo, trazas cosmológicas, frontera de observación, contenidos, residual y retorno de banco. Pero no se biologiza, no se convierte en organismo y no se identifica con el TODO/NADA. El círculo rector no es su edad; Fourier no es su causa; la sinusoidal no es su sustancia; el potencial no es una fuerza importada sin dominio. Sólo si se declaran escala física, frontera, señal, residual y retorno puede hablarse de lectura armónica del universo observable como dominio físico.
+
+### III.6. Síntesis
+
+Queda fijado el régimen matemático de lectura requerido por la instancia y la clausura. El potencial distingue orientación e intensidad sin convertir equilibrio en origen ni potencial nulo en muerte automática. El círculo expresa no exterioridad rectora, no objeto físico externo. La sinusoidal permite leer el ciclo acotado de una instancia, no fundar su existencia. Fourier codifica recurrencia por dominio declarado y conserva residual visible. La distinción `φ_i∈[0,2π]` frente a `φ_rectora∈ℝ` protege el núcleo del análisis: las instancias nacen y se clausuran; la circularidad rectora no queda agotada por ninguna instancia local.
+
+Esta delimitación permite tratar el dominio-universo con separación suficiente entre vida biológica y vida formal de instancia; clausura local y clausura absoluta; traza y continuidad plena; potencial e intensidad; ciclo de instancia y circularidad rectora; y Fourier como lectura armónica por dominio, no como fundamento. El universo observable físico se aborda desde esas restricciones, sin identificación con el TODO/NADA y sin conversión del banco cosmológico externo en fundamento preformal.
+
+## IV. Dominio-universo y no identificación con TODO/NADA
+
+### IV.1. Entrada del dominio-universo
+
+El paso al universo observable exige una restricción más severa que los ejemplos anteriores (Lloret Egea, 2026a, 2026b, 2026e). Una persona, una especie, una estrella o una galaxia pueden mostrarse como instancias dentro de dominios más amplios; el universo observable, en cambio, se sitúa en el límite físico de nuestra lectura externa. Esa posición límite puede inducir un error: tomar el borde del banco cosmológico por el plano de fundamentos. La restricción debe impedirlo desde el principio. El universo observable físico puede tratarse como dominio-universo, universo-suceso u observable de máxima escala física declarada; no puede tratarse como TODO/NADA, ni como totalidad absoluta, ni como origen preformal.
+
+La relación de inclusión debe quedar explícita:
+
+`Ω_obs ⊂ Ω_fis`
+
+`Ω_obs ≠ TODO/NADA`
+
+`origen_cosmológico_externo(Ω_obs) ≠ ε−0`
+
+`Ω_obs` designa el universo observable bajo dominio físico: frontera de observación, señal, métrica, contenidos, horizonte, residual y retorno. `Ω_fis` designa el dominio físico más amplio en el que esa lectura puede formularse, sin elevarlo por ello a totalidad absoluta. `ε−0` pertenece al plano preformal de primera distinguibilidad; no es Big Bang, CMB, vacío físico, fluctuación, singularidad matemática ni límite de un modelo cosmológico. Esta triple separación permite usar bancos cosmológicos sin convertirlos en fundamento.
+
+El dominio-universo conserva la misma regla formal ya establecida, pero con cautela reforzada. Puede tener comparecencia, despliegue, trazas, señales, residual y eventual clausura como observable físico. Lo que no puede recibir es vida biológica, agencia, organismo, edad de totalidad absoluta o cierre del TODO/NADA. Cuando se use la expresión vida formal del dominio-universo, significa sólo esto: comparecencia física bajo dominio, despliegue de contenidos, conservación de trazas, residual evaluable y clausura local posible del observable, si el dominio lo autoriza.
+
+### IV.2. Universo observable como instancia física de dominio
+
+El universo observable puede leerse como instancia física sólo si se declara el régimen que lo hace observable. No basta nombrarlo. Deben comparecer frontera de lectura, horizonte, señales, contenidos, métrica, unidad, residual y retorno. Sin esos elementos, el rótulo “universo” se vuelve absoluto por inercia lingüística. Con ellos, en cambio, puede formularse una instancia de dominio: un observable físico que no agota el plano rector que permite su lectura.
+
+La forma condicional de proyección puede escribirse así:
+
+`Π_sing^Ω_gen(F_universo^Ω_gen,κ_Ωobs^comp)=Ω_obs^inst`
+
+Esta expresión no afirma una población empírica de universos ni introduce una física de multiversos. Declara una posibilidad formal: si existe una generatriz superior de dominio declarada, y si una fibra de universos en ese dominio tiene condiciones de comparecencia `κ_Ωobs^comp`, entonces el universo observable puede tratarse como instancia `Ω_obs^inst`. Si esa generatriz no está declarada, la fórmula no se usa como cierre físico. Queda como lectura condicionada, no como afirmación cosmológica añadida.
+
+Las condiciones `κ_Ωobs^comp` deben incluir, al menos, frontera de observación, horizonte de señal, identidad del dominio físico, contenido material y energético, métrica admitida, traza cosmológica, residual y retorno. La radiación cósmica de microondas, la nucleosíntesis primordial, las primeras galaxias o la formación de estructuras pueden actuar como trazas y bancos físicos, pero no como fundamento preformal. La señal física pertenece al dominio físico; la primera distinguibilidad SV pertenece al plano preformal. Mezclar ambos planos produciría una falsa equivalencia entre cosmología y fundamentos.
+
+La admisión del dominio-universo queda sometida a residual:
+
+`Adm_Ωobs(Ω_obs)=1 ⇔ R_{Ω_obs}(frontera,señal,métrica,contenido,traza,retorno)=0`
+
+Si el residual físico no cierra para una pregunta concreta, la salida no debe convertirse en afirmación fuerte. Si hay contradicción entre dominio, señal o métrica, la admisión cae. Si falta determinación suficiente sin contradicción, la salida conserva `U`. Este uso de `U` resulta especialmente importante en el borde cosmológico: no todo límite de observación autoriza una tesis de origen.
+
+### IV.3. Origen cosmológico externo y fundamento preformal
+
+El origen cosmológico externo del universo observable físico pertenece al banco físico (Lloret Egea, 2026a, 2026b). Puede ser tratado mediante señales, modelos, parámetros, horizontes, estimaciones y retornos propios de la física contemporánea. Pero ese origen externo no equivale al fundamento preformal del SV. La distinción se puede escribir de manera directa:
+
+`origen_cosmológico_externo(Ω_obs) ∈ banco_físico_externo`
+
+`ε−0 ∈ plano_preformal_de_distinguibilidad`
+
+`origen_cosmológico_externo(Ω_obs) ≠ ε−0`
+
+Esta separación protege dos operaciones necesarias. La primera permite usar el banco cosmológico sin despreciarlo: CMB, nucleosíntesis primordial, formación de galaxias, Vía Láctea, nebulosa solar, Tierra joven, química prebiótica, vida, especie y persona forman una cadena física y científica de retroceso. La segunda impide que esa cadena sea confundida con una demostración directa del TODO/NADA. El banco muestra no autosuficiencia del observable y necesidad de dominios antecedentes; no prueba por sí solo el plano rector.
+
+La primera distinguibilidad SV no se obtiene observando más lejos con un instrumento ni refinando una datación cosmológica. Pertenece a la condición formal que permite que haya separación, dominio y espacio recorrible. Por eso el límite de señal de un universo observable puede funcionar como frontera física de lectura, pero no como frontera preformal. El CMB puede cerrar como traza cosmológica; no cierra como `ε−0`. La nucleosíntesis primordial puede cerrar como banco de formación de núcleos ligeros; no cierra como origen absoluto. Las primeras galaxias pueden cerrar como estructuras físicas tempranas; no cierran como fundamento del ser.
+
+La consecuencia editorial y formal es simple: no debe escribirse que el universo observable “nace” en sentido absoluto. Debe escribirse, cuando proceda, que tiene un comienzo físico externo de banco, una frontera de lectura, una historia de contenidos y una edad admisible sólo como dominio físico. El TODO/NADA no nace ni muere como objeto físico; el dominio-universo observable puede comparecer, desplegar contenidos y clausurarse como observable si el dominio lo permite.
+
+### IV.4. Edad, frontera, señal y retorno
+
+La edad del universo observable sólo puede admitirse como edad de dominio físico (Lloret Egea, 2026a). No es edad de totalidad absoluta. Toda edad exige frontera, identidad, métrica, unidad, residual y retorno. La fórmula de restricción puede quedar así:
+
+`Edad(totalidad_absoluta)=NO ADMISIBLE`
+
+`Edad(Ω_obs)=ADMISIBLE ⇔ dominio(Ω_obs) declarado ∧ frontera declarada ∧ métrica declarada ∧ unidad declarada ∧ R_edad(Ω_obs)=0`
+
+Esta restricción no niega la utilidad de la edad cosmológica externa. La ubica. Una magnitud física de edad puede ser válida dentro del dominio cosmológico que la define, con sus parámetros, señales, modelos y residuales. Pero no puede saltar de ahí al plano rector. Decir que el universo observable tiene edad física no autoriza decir que el TODO/NADA tenga edad. Decir que una señal cosmológica tiene antigüedad no autoriza decir que esa señal sea primera distinguibilidad preformal.
+
+La frontera de observación tampoco es frontera absoluta. Un horizonte de señal define qué puede comparecer para una lectura física; no define el límite de todo lo que puede ser. El retorno observacional confirma que hay banco físico evaluable; no confirma que el banco físico agote la realidad formal. El residual conserva esa diferencia. Si una pregunta cosmológica se responde con señal, métrica y retorno, queda cerrada en su dominio. Si la pregunta intenta saltar a totalidad absoluta, la respuesta debe detenerse: falta dominio superior físico, y el resultado no se cierra por extrapolación.
+
+Esta disciplina permite usar sin confusión los bancos de la propia investigación. La persona de 98 años tiene edad biográfica; la especie tiene profundidad paleontológica; la Tierra tiene edad planetaria; la Vía Láctea tiene edad galáctica aproximada; el universo observable tiene edad cosmológica externa. Cada una de esas edades pertenece a un dominio distinto. Ninguna de ellas entrega edad del TODO/NADA. La unidad común no es cronología absoluta, sino dominio declarado con frontera, residual y retorno.
+
+### IV.5. Clausura del dominio-universo
+
+Hablar de clausura del dominio-universo requiere todavía más precisión que hablar de su edad. La clausura de una persona, una especie o una estrella puede formularse por pérdida de retorno propio bajo dominio declarado. En el caso del universo observable, sólo podría hablarse de clausura si se declara qué retorno físico cesa, qué frontera se cierra, qué señal queda indisponible, qué residual no se absorbe y qué traza permanece. Sin esas condiciones, “clausura del universo” sería una expresión demasiado amplia.
+
+La forma condicional es:
+
+`Cl_Ωobs(Ω_obs)=1 ⇔ retorno_físico(Ω_obs)=0 ∧ Δ_clausura,Ωobs no absorbible ∧ Tr_Ωobs declarada`
+
+Esta fórmula no afirma que el universo observable esté clausurado. Sólo fija qué exigiría una clausura admisible. Debe haber dominio físico declarado, pérdida de retorno del observable como dominio, residual de clausura y traza. Si sólo hay final de un modelo, límite de cálculo, horizonte de señal o extrapolación, no hay clausura fuerte del dominio-universo. Si quedan trazas físicas, esas trazas no reabren por sí solas el dominio clausurado; pero tampoco borran la cadena ocurrida. Se conserva la misma regla: traza no equivale a continuidad plena, y clausura no equivale a desaparición absoluta.
+
+La clausura del dominio-universo, incluso si se formulara, no clausuraría el plano rector:
+
+`Cl_Ωobs(Ω_obs) ≠ Cl(TODO/NADA)`
+
+`Tr_Ωobs(Ω_obs) ≠ TODO/NADA`
+
+`R_Ωobs=U ⇔ falta cierre físico suficiente sin contradicción material`
+
+Estas restricciones protegen el final de la escala. El universo observable puede ser el máximo dominio físico tratado por el análisis, pero no por ello ocupa el lugar de totalidad absoluta. Su eventual cierre sería local respecto del plano de fundamentos. Su traza sería traza física, no sustituto del fundamento. Su residual decidiría qué queda cerrado, qué queda rechazado y qué debe conservar `U`.
+
+### IV.6. Síntesis
+
+Las restricciones ya fijadas se aplican al universo observable. El universo observable sólo entra como dominio físico, dominio-universo o universo-suceso bajo frontera, señal, métrica, contenido, residual, retorno y traza. No entra como organismo, no entra como vida biológica, no entra como TODO/NADA y no entra como `ε−0`. Su origen cosmológico externo pertenece al banco físico; su edad es admisible sólo como edad de dominio; su eventual clausura exigiría pérdida de retorno físico, residual no absorbible y traza declarada. Ninguna de esas operaciones autoriza clausura de la circularidad rectora.
+
+Quedan articulados cuatro apoyos: instancia y fibra; clausura, traza, residual y `U`; potencial, círculo, sinusoidal y Fourier; y dominio-universo separado del TODO/NADA. Sobre ellos se formula `𝓡VC_SV` con dominio, codominio, admisión, residual y caso `U`, sometida a prueba inversa antes de cualquier cierre fuerte.
+
+## V. Fórmula rectora candidata y protocolo de prueba inversa
+
+### V.1. Función de la fórmula rectora candidata
+
+Las restricciones anteriores permiten formular una síntesis, pero no autorizan cerrarla como resultado definitivo sin contraste. La fórmula rectora candidata debe cumplir una función precisa: reunir observable de partida, dominio, fibra, proyección singular, ciclo acotado, clausura local, traza, residual, `U`, potencial, lectura armónica y circularidad rectora sin confundir sus planos. No debe presentarse como descubrimiento cerrado antes de su prueba inversa; tampoco debe operar como resumen retórico de lo ya dicho. Su función es convertir la arquitectura formal en un operador de lectura que pueda ser contrastado banco por banco.
+
+La forma candidata queda así:
+
+`𝓡VC_SV(o₀)=⟨o₀ ←[Tr₁,R₁,Eval₁] Ω₁ ←[Tr₂,R₂,Eval₂] Ω₂ ← ... ←[Trₙ,Rₙ,Evalₙ] Ωₙ ; Φ_rectora⟩`
+
+Aquí `o₀` designa el observable de partida; cada `Ω_k` designa un dominio antecedente o envolvente; cada `Tr_k` conserva la traza que permite retorno de lectura; cada `R_k` conserva el residual del paso; cada `Eval_k` aplica la convención ternaria fijada antes; y `Φ_rectora` nombra la circularidad no agotada que no queda consumida por ninguna instancia local. La fórmula no dice que todos los dominios sean iguales. Declara que cada observable admisible exige una cadena tipada de dependencia, traza y residual antes de poder hablar de vida formal, clausura o continuidad.
+
+La lectura debe permanecer condicionada. Si los dominios no están declarados, la fórmula no tiene rango fuerte. Si una traza se confunde con continuidad plena, la fórmula queda mal usada. Si un residual se oculta, aparece cierre aparente. Si `Φ_rectora` se trata como edad física, campo, sustancia o causa cosmológica directa, la fórmula abandona su plano. Por eso la formulación conserva carácter condicionado y fija las condiciones bajo las cuales la fórmula se somete a prueba inversa.
+
+### V.2. Dominio de entrada y codominio de salida
+
+El dominio de entrada de `𝓡VC_SV` no es cualquier palabra nombrada como observable. Sólo entra un observable de partida si puede declararse como instancia bajo dominio, frontera, identidad, soporte, residual, retorno y traza. La condición de entrada queda expresada así:
+
+`Dom(𝓡VC_SV)={o₀ | ∃Ω₀, C : o₀^C∈F_C^Ω₀ ∧ Adm_proyección_singular^Ω₀(o₀^C)=1}`
+
+Esta condición conserva la regla de la formulación inicial: no hay observable fuerte sin pertenencia tipada. Una persona, una especie, una estrella, una galaxia o un dominio-universo sólo entran si hay dominio declarado y admisión de comparecencia. Si sólo hay nombre, intuición, semejanza o imagen verbal, la entrada no pasa. Si hay posibilidad honesta sin cierre suficiente, la entrada puede quedar en `U`, pero no se transforma en admisión fuerte.
+
+El codominio de salida no es una cifra única ni una etiqueta final. La salida de `𝓡VC_SV` debe ser una cadena estructurada:
+
+`Cod(𝓡VC_SV)=⟨Cadena_dominios, Cadena_trazas, Cadena_residuales, Cadena_Eval, Φ_rectora⟩`
+
+En forma expandida:
+
+`𝓡VC_SV(o₀)=⟨(Ω₀,F₀,Π₀,o₀),(Ω₁,Tr₁,R₁,Eval₁),...,(Ωₙ,Trₙ,Rₙ,Evalₙ); Φ_rectora⟩`
+
+La salida no sustituye a los bancos; los ordena. Tampoco sustituye a la prueba material; la exige. Un resultado será fuerte sólo si cada paso declara dominio, traza, residual y evaluación. Si un paso queda en `U`, la cadena no se descarta automáticamente, pero tampoco se cierra como completa. Si aparece contradicción material, se marca fallo de dominio o de transición.
+
+### V.3. Evaluación ternaria de la cadena
+
+La fórmula candidata necesita una evaluación global que conserve la convención ya fijada sobre clausura, residual y `U`. `Eval=0` expresa cierre compatible dentro del dominio declarado; `Eval=1` expresa contradicción material, fallo de dominio o incompatibilidad; `Eval=U` conserva no cierre honesto. Esa convención se aplica a cada paso y después a la cadena completa.
+
+Para cada paso:
+
+`Eval_k=0 ⇔ dominio_k declarado ∧ Tr_k declarada ∧ R_k=0 ∧ retorno_k compatible`
+
+`Eval_k=1 ⇔ contradicción_material_k=1 ∨ dominio_k incompatible ∨ retorno_k imposible bajo la pregunta declarada`
+
+`Eval_k=U ⇔ cierre_suficiente_k=0 ∧ contradicción_material_k=0`
+
+Para la cadena completa:
+
+`Eval_𝓡(o₀)=0 ⇔ ∀k Eval_k=0 ∧ R_global(o₀)=0`
+
+`Eval_𝓡(o₀)=1 ⇔ ∃k Eval_k=1`
+
+`Eval_𝓡(o₀)=U ⇔ (∀k Eval_k≠1) ∧ (∃j Eval_j=U)`
+
+Esta evaluación impide tres errores. Primero, impide declarar cierre global cuando una transición interna queda indeterminada. Segundo, impide rechazar una cadena completa si no hay contradicción, pero sí falta determinación en un tramo. Tercero, impide cerrar por entusiasmo cuando una traza parcial parece sugerente. La salida `U` no es debilidad; es custodia de lo no resuelto.
+
+### V.4. Residual global y no agotamiento rector
+
+El residual global de la fórmula no debe confundirse con suma aritmética de restos. Es una composición estructural de diferencias no absorbidas por dominio, identidad, frontera, soporte, canal, retorno y traza. Una forma segura de lectura es:
+
+`R_global(o₀)=R_dom ⊕ R_id ⊕ R_frontera ⊕ R_soporte ⊕ R_canal ⊕ R_retorno ⊕ R_traza ⊕ R_escala ⊕ R_plano`
+
+`R_plano` es decisivo: marca el error de trasladar una respuesta válida de un plano a otro. Una señal cosmológica puede cerrar como traza física y fallar como primera distinguibilidad preformal. Una traza genética puede cerrar como retorno parcial y fallar como continuidad viva de una especie clausurada. Una edad cosmológica puede cerrar como magnitud de dominio físico y fallar como edad de totalidad absoluta. Sin `R_plano`, la fórmula podría parecer fuerte precisamente donde más debe detenerse.
+
+La circularidad rectora `Φ_rectora` no es un término añadido para cerrar lo que falte (Lloret Egea, 2026e). No corrige residuales, no rellena `U`, no transforma el banco físico en fundamento y no convierte Fourier en causa. Su función es conservar la no agotabilidad por instancia: ninguna persona agota la fibra humana; ninguna especie agota la vida; ninguna estrella agota la formación estelar; ninguna galaxia agota el dominio físico; ningún universo observable agota el TODO/NADA. Por eso la relación final debe leerse así:
+
+`Cl(o₀) no implica Cl(F_C^Ω₀)`
+
+`Cl(F_C^Ω₀) no implica Cl(Ω₀)`
+
+`Cl(Ω_obs) no implica Cl(TODO/NADA)`
+
+`Φ_rectora` permanece fuera de la edad física, fuera de la clausura local y fuera de la lectura armónica como fundamento. Puede ser referida como condición rectora de no agotamiento, no como objeto medible ni como dominio físico adicional.
+
+### V.5. Protocolo de prueba inversa
+
+La prueba inversa comprueba que `𝓡VC_SV` no se limita a resumir los bancos después de haberlos leído, sino que permite reconstruir las exigencias que esos bancos ya mostraban: instancia, fibra, dominio, traza, residual, clausura local, no agotamiento rector y lectura armónica por dominio.
+
+El protocolo de prueba es:
+
+| Paso | Pregunta de control | Salida exigida |
 |---|---|---|
-| Comparabilidad ancestral | Mapeo de lecturas neandertales contra humano, chimpancé y ancestro humano-chimpancé inferido. | `F_AC,NS^Ω_Homo` como raíz operativa de lectura, no como individuo observado. |
-| Rama neandertal | Secuencias antiguas neandertales alineadas contra referencias humanas y chimpancé. | `F_neandertal^Ω_Homo` como fibra local históricamente desplegada. |
-| Rama sapiens | Genoma humano de referencia y genomas humanos actuales comparados con alelos neandertales. | `F_sapiens^Ω_Homo` como fibra activa con proyecciones singulares actuales. |
-| Separación de patrón | SNPs, estados ancestrales/derivados, barridos selectivos y regiones con depleción de alelos neandertales. | `Δ_genómico_NS>0`: divergencia material de ramas. |
-| Flujo génico | Regiones candidatas de flujo génico neandertal hacia humanos no africanos. | `Traza_N→S>0`: retorno parcial de traza, no continuidad plena de instancia neandertal. |
-| Clausura local | Ausencia de nuevas instancias neandertales verificadas en el presente. | `Π_sing(F_neandertal,n_actual)=0` bajo el banco externo declarado. |
+| 1 | ¿Cuál es el observable de partida? | `o₀` declarado sin ambigüedad. |
+| 2 | ¿En qué dominio comparece? | `Ω₀` con frontera, identidad, soporte y retorno. |
+| 3 | ¿Qué fibra o clase lo hace admisible? | `F_C^Ω₀` y proyección singular. |
+| 4 | ¿Qué traza permite retorno de lectura? | `Tr_k` explícita, sin confundirla con continuidad plena. |
+| 5 | ¿Qué residual conserva el paso? | `R_k` declarado, no oculto. |
+| 6 | ¿Qué evaluación obtiene el paso? | `Eval_k∈{0,1,U}` según la convención fijada. |
+| 7 | ¿Qué dominio antecedente o envolvente exige? | `Ω_{k+1}` sin salto de plano. |
+| 8 | ¿Qué no queda clausurado por el cierre local? | Fibra, dominio superior o `Φ_rectora`, según el caso. |
 
-La igualdad parcial de base genética no borra la separación de fibra. NHGRI resume que el ADN neandertal es aproximadamente `99,7 %` idéntico al ADN humano actual, y que alrededor del `2 %` de los genomas de humanos actuales de Europa a Asia y hasta Papúa Nueva Guinea procede de neandertales. Esa cifra no autoriza a decir que el neandertal siga existiendo como instancia; autoriza a decir que hay traza parcial neandertal en ciertas poblaciones humanas actuales. En notación del banco: `Identidad_global(H_sapiens,N)=99,7 %` no implica `Instancia_neandertal_actual=1`; y `Traza_N_en_S≈2 %` no implica `F_neandertal_activa=1`. La semejanza global permite comparabilidad; la traza parcial permite retorno; la ausencia de nuevas instancias impide declarar continuidad plena de la fibra neandertal.
+La prueba inversa se aplica a los bancos declarados sin convertirlos en fundamento directo. Persona, especie, neandertales, grandes simios, mamíferos, química prebiótica, Tierra joven, Vía Láctea y universo observable físico operan como bancos de contraste. Si algún banco no puede reconstruirse sin forzar su dominio, la fórmula no resulta admisible. La reconstrucción de todos los bancos con residuales visibles y sin salto de plano habilita la formulación del teorema posterior.
 
-| Magnitud genética | Valor arábigo | Lectura controlada |
-|---|---:|---|
-| Identidad aproximada neandertal-humano actual | 99,7 % | Comparabilidad fuerte entre ramas humanas; no identidad de instancia ni de fibra activa. |
-| Aporte neandertal general citado por NHGRI en humanos no africanos | ≈2 % | Traza parcial de introgresión; no renacimiento de la fibra neandertal. |
-| Mitogenoma neandertal RefSeq `NC_011137.1` | 16.565 pb | Traza genética cerrada y secuenciada; no población viva. |
-| Topología del mitogenoma registrado | circular | Forma molecular de ADN mitocondrial; no circularidad rectora SV. |
-| Instancias neandertales actuales verificadas | 0 | Clausura local de la fibra neandertal como generadora de nuevas instancias. |
+### V.6. Síntesis
 
-La separación de patrón también se observa por depuración y selección. UCSC registra pistas de análisis neandertal que incluyen regiones candidatas de flujo génico hacia humanos modernos no africanos, regiones con señal de depleción de alelos derivados de neandertales y ventanas usadas para barridos selectivos. En lectura SV, esas zonas no deben llamarse “errores” ni “fallos” de la fibra; son residuales de dominio: fragmentos retenidos, fragmentos depurados, regiones incompatibles con el retorno de una rama en otra, y ventanas donde la historia genómica registra separación. La fórmula segura es: `R_genómico_NS = Retención_N→S ⊕ Depuración_N→S ⊕ Diferenciación_derivada/ancestral ⊕ Ventanas_no_retenidas`. Si `R_genómico_NS=0`, habría continuidad sin residual; pero el banco muestra residual distinto de cero, por lo que la salida no es identidad plena, sino traza parcial bajo divergencia.
+`𝓡VC_SV` queda fijada como fórmula rectora candidata, no como cierre definitivo. `𝓡VC_SV` recibe dominio de entrada, codominio de salida, evaluación ternaria, residual global y restricción de no agotamiento rector. La fórmula admite cadenas cerradas, cadenas fallidas y cadenas en `U`; no borra indeterminación ni transforma trazas en continuidad plena. `Φ_rectora` conserva circularidad no agotada sin ocupar el lugar de edad física, sustancia, causa cosmológica o fundamento sustituido por Fourier.
 
-El mitogenoma registrado por NCBI añade una pieza de control muy útil porque fija una traza concreta: `Homo sapiens neanderthalensis mitochondrion, complete genome`, RefSeq `NC_011137.1`, `16.565 bp`, ADN circular. En el manifiesto, esta circularidad molecular no debe confundirse con la circularidad rectora del TODO/NADA. Sirve como registro genético cerrado de una instancia o conjunto de instancias antiguas; no como prueba de vida neandertal actual. La lectura correcta es: `Tr_mit_N=NC_011137.1`; `Longitud(Tr_mit_N)=16.565 pb`; `Topología(Tr_mit_N)=circular`; `Función_SV(Tr_mit_N)=traza_genómica`, no `instancia_viva`.
+La prueba inversa somete los bancos declarados a la fórmula mediante observable de partida, dominio, fibra, traza, residual, evaluación, dominio antecedente y cierre no autorizado. De ese contraste depende la formulación del teorema de recursión de vida y clausura del observable realizado.
 
-| Objeto genómico | Lectura externa | Lectura SV |
-|---|---|---|
-| `NC_011137.1` | Mitogenoma completo neandertal de `16.565` pares de bases. | Traza cerrada de rama neandertal. |
-| Alineamientos `BAM` de Max Planck | Secuencias neandertales alineadas con genomas humano y chimpancé. | Banco de comparación entre ramas. |
-| Pistas UCSC de alelos neandertales | Alelos, SNPs, barridos selectivos y regiones candidatas de flujo génico. | Mapa de separación, retención y depuración. |
-| Dato NHGRI `≈2 %` | Aporte neandertal en humanos actuales no africanos. | Retorno parcial de traza dentro de la rama sapiens. |
-| Ausencia de neandertales actuales | No hay población neandertal viva verificable. | Clausura local de la fibra neandertal como generadora de instancias. |
+## VI. Prueba inversa contra bancos
 
-La lectura final del banco genómico queda así: `Alineamiento(G_N;G_H,G_C,G_AC)=1` como comparabilidad de lectura; `Δ_genómico_NS>0` como separación de patrón; `Intro_N→S≈2 %` como traza parcial incorporada en humanos actuales no africanos; `Depuración_N→S>0` como residual selectivo y zonas no retenidas; `Instancias_N_actuales=0` como clausura local de la fibra neandertal; y `F_sapiens^Ω_Homo` permanece activa si admite nuevas proyecciones singulares. El mapa genético, por tanto, no convierte el SV en genética ni la genética en fundamento del SV: ofrece un banco material donde la estructura fibra → divergencia → proyección singular → traza → residual → clausura local queda visible con números, secuencias y repositorios externos.
+### VI.1. Función y límites de la prueba inversa
 
+La prueba inversa no pretende convertir los bancos científicos en demostración directa del TODO/NADA. Su función es más precisa: someter la fórmula rectora candidata `𝓡VC_SV` a dominios ya recorridos y comprobar si, al aplicarla desde un observable de partida, exige exactamente aquello que los bancos habían mostrado antes por vías externas: dominio, fibra, proyección singular, traza, residual, evaluación ternaria, antecedente o envolvente y cierre no autorizado. Si la fórmula sólo reproduce palabras generales, no pasa. Si obliga a declarar cada transición sin salto de plano, conserva `U` cuando falta cierre y distingue traza de continuidad plena, queda validada como fórmula rectora candidata.
+
+La dirección de lectura cambia. Los bancos de contraste recorren la instancia hacia dominios anteriores: persona, especie, linaje, vida, química, planeta, galaxia y universo observable físico. Ahora se toma la fórmula y se pregunta qué debería aparecer si esa cadena no fuera una enumeración, sino una recursión formal. La exigencia es estricta: todo caso debe entregar un observable inicial `o₀`, un dominio `Ω₀`, una fibra `F_C^Ω₀`, una traza `Tr_k`, un residual `R_k`, una evaluación `Eval_k`, un dominio antecedente o envolvente `Ω_{k+1}` y una clausura que no puede extenderse sin demostración propia del dominio.
+
+La prueba se declara en rango de contraste formal fuerte, no en rango de cierre absoluto. Cada banco se usa como contraste de estructura. Si un banco aporta cierre suficiente, se marca `Eval_k=0`. Si aparece contradicción material, se marca `Eval_k=1`. Si la ciencia contemporánea no permite cierre suficiente pero tampoco contradice la transición formal, se conserva `Eval_k=U`. Esta disciplina impide la validación por mera acumulación de ejemplos o por ausencia de refutación. La fórmula sólo queda validada si cada banco conserva sus límites.
+
+### VI.2. Banco humano: persona concreta como instancia de fibra humana
+
+El primer banco toma una persona concreta como observable de partida. No se necesita aquí biografía completa; basta el caso guía de una persona que nace, vive noventa y ocho años y muere. El observable `h₁` comparece como instancia biográfico-corporal, social y documental. Su dominio no es el TODO/NADA, ni la humanidad entera, ni la vida en general. Es un dominio humano situado: cuerpo, identidad personal, continuidad biográfica, relaciones, documento, memoria, traza genética y retorno vital mientras la instancia permanece activa.
+
+La lectura por fórmula queda así:
+
+`o₀=h₁`
+
+`Ω₀=Ω_humano-biográfico-documental`
+
+`h₁ ∈ F_humano^Ω₀`
+
+`Π_sing^Ω₀(F_humano^Ω₀,κ_h₁^comp)=h₁`
+
+La clausura de `h₁` se produce cuando cesa el retorno vital de la instancia. Esa clausura no borra sus trazas ni clausura la fibra humana. La traza puede permanecer como memoria, obra, documentación, ADN, restos materiales, efectos sociales o inscripción histórica. Pero ninguna de esas trazas equivale a continuidad plena de la persona.
+
+| Elemento de prueba | Resultado en el banco humano |
+|---|---|
+| Observable de partida | `h₁`, persona concreta. |
+| Dominio | `Ω_humano-biográfico-documental`. |
+| Fibra | `F_humano^Ω₀`. |
+| Traza | memoria, documentos, ADN, restos, efectos. |
+| Residual | diferencia entre persona viva, traza y recuerdo. |
+| Evaluación | `Eval=0` para clausura local de instancia; `Eval=0` para traza; `Eval=U` para cualquier causa última no cerrada por el banco. |
+| Cierre no autorizado | muerte de `h₁` no implica clausura de `F_humano^Ω₀`, de la especie humana, de la vida ni del TODO/NADA. |
+
+El contraste resulta compatible con la fórmula: la instancia se clausura; la fibra no queda agotada; la traza permanece sin confundirse con continuidad plena; el residual impide convertir memoria o documento en persona viva.
+
+### VI.3. Banco de especie: Homo sapiens sapiens como fibra activa
+
+El segundo banco eleva la escala. La especie humana no se lee como una persona grande ni como organismo único (Hublin et al., 2017; Natural History Museum, s. f.-b; Smithsonian Institution, 2024b). Se lee como fibra biológica de continuidad bajo dominio evolutivo, reproductivo, genético, cultural y ecológico. Una persona concreta es proyección singular dentro de esa fibra; la especie, a su vez, puede funcionar como observable de orden superior si se declara su dominio de continuidad.
+
+La fórmula exige no confundir instancia y fibra:
+
+`h₁ ∈ F_sapiens^Ω_bio`
+
+`F_sapiens^Ω_bio ≠ h₁`
+
+`Cl(h₁) ≠ Cl(F_sapiens^Ω_bio)`
+
+La especie conserva trazas y continuidad mediante población, reproducción, herencia, variación, cultura, tecnología, lenguaje, memoria histórica y entorno. Su residual no se agota en genética, porque la fibra humana singular no se reduce a genoma. Tampoco se agota en documento, cuerpo individual o cultura aislada. El banco muestra que una fibra activa exige múltiples soportes de continuidad, y que ninguna instancia singular la consume.
+
+| Elemento de prueba | Resultado en el banco sapiens |
+|---|---|
+| Observable de partida | `F_sapiens^Ω_bio` como fibra activa de especie. |
+| Dominio | biológico-evolutivo, reproductivo, cultural y ambiental. |
+| Proyecciones | personas concretas, linajes, poblaciones, registros. |
+| Traza | ADN, fósiles, cultura material, lenguaje, documentos, memoria social. |
+| Residual | diferencia entre persona, población, especie, cultura y vida. |
+| Evaluación | `Eval=0` para distinción persona/especie; `Eval=U` para cierre último de origen humano si el banco no alcanza suficiente determinación. |
+| Cierre no autorizado | muerte de individuos no clausura especie; especie no agota vida; vida no agota circularidad rectora. |
+
+El contraste resulta compatible. La fórmula reconstruye la diferencia esencial: persona como instancia, especie como fibra, vida como dominio superior y circularidad rectora fuera de clausura local.
+
+### VI.4. Banco neandertal: clausura local de fibra y conservación de traza
+
+El banco neandertal es decisivo porque introduce una fibra local aparentemente clausurada (Ensembl Project, s. f.; Green et al., 2010; Higham et al., 2014; Max Planck Institute for Evolutionary Anthropology, s. f.; National Center for Biotechnology Information, s. f.; National Human Genome Research Institute, 2013; UCSC Genome Browser, s. f.). La rama neandertal no debe tratarse como persona individual ni como simple variación anecdótica. Debe leerse como fibra humana arcaica bajo dominio paleogenético, paleontológico y evolutivo. Su clausura local no implica desaparición total de traza ni anulación del dominio humano más amplio.
+
+La prueba exige distinguir tres niveles:
+
+`Cl(F_neandertal^Ω_paleo)=1` bajo dominio de continuidad poblacional activa, si el banco declara extinción.
+
+`Tr_Ω(F_neandertal^Ω_paleo)≠F_neandertal^Ω_paleo` como continuidad plena.
+
+`Cl(F_neandertal^Ω_paleo)≠Cl(F_humano^Ω_bio)`.
+
+La traza neandertal puede permanecer como fósil, ADN antiguo, introgresión genética parcial, industria material o registro arqueológico. Pero esa traza no reabre por sí sola la fibra neandertal como población viva. Tampoco convierte la clausura local en desaparición del dominio humano o de la vida.
+
+| Elemento de prueba | Resultado en el banco neandertal |
+|---|---|
+| Observable de partida | `F_neandertal^Ω_paleo`. |
+| Dominio | paleogenético, paleontológico, evolutivo y arqueológico. |
+| Traza | fósiles, ADN antiguo, introgresión, herramientas, registros. |
+| Residual | diferencia entre traza genética parcial y continuidad poblacional plena. |
+| Evaluación | `Eval=0` para clausura local si el dominio declara extinción; `Eval=0` para traza; `Eval=U` para detalles no cerrados de transición o interacción. |
+| Cierre no autorizado | extinción neandertal no clausura humanidad, vida, evolución ni plano rector. |
+
+El contraste resulta especialmente robusto: muestra clausura local con traza persistente. Esta es una de las pruebas más limpias contra la confusión entre cierre, desaparición y no agotamiento.
+
+### VI.5. Banco de grandes simios y antecedente común
+
+El banco de grandes simios desplaza la lectura desde la especie humana hacia un dominio antecedente compartido (Natural History Museum, s. f.-c; Scally et al., 2012; Smithsonian Institution, 2024a; Yoo et al., 2025). La fórmula no necesita resolver todo el debate taxonómico ni fijar de manera absoluta un individuo ancestral. Lo que exige es más sobrio: si humanos, chimpancés, gorilas y otros grandes simios muestran relaciones de parentesco y divergencia, entonces la lectura de una fibra humana aislada resulta insuficiente. Debe declararse un dominio envolvente de linaje primate y divergencia evolutiva.
+
+La cadena se formula así:
+
+`F_sapiens^Ω_bio ←[Tr,R,Eval] Ω_homínido/primate ←[Tr,R,Eval] Ω_mamífero`
+
+El antecedente común no se convierte en una persona concreta perfectamente cerrada si el banco no lo permite. Puede quedar como dominio de reconstrucción filogenética, fósil y genética. La evaluación debe conservar `U` allí donde falte determinación suficiente, sin perder el cierre estructural de la dependencia.
+
+| Elemento de prueba | Resultado en el banco de grandes simios |
+|---|---|
+| Observable de partida | fibra humana en relación con otros grandes simios. |
+| Dominio antecedente | dominio primate/hominoideo bajo reconstrucción genética y fósil. |
+| Traza | semejanzas genéticas, rasgos morfológicos, fósiles, conducta comparada. |
+| Residual | incertidumbre sobre formas exactas, datación fina y posición de ciertos taxones. |
+| Evaluación | `Eval=0` para necesidad de dominio antecedente; `Eval=U` para cierre exacto del ancestro concreto cuando el banco no baste. |
+| Cierre no autorizado | parentesco no reduce humanos a otro simio actual; divergencia no borra dominio común. |
+
+El contraste resulta compatible. La fórmula no exige certeza total del antepasado singular; exige dominio antecedente, traza y residual. Eso evita que la indeterminación de detalles destruya la lectura estructural.
+
+### VI.6. Banco mamífero y anterioridad biológica escalada
+
+El banco mamífero lleva la cadena más atrás (American Museum of Natural History, s. f.; NASA, s. f.-b; Natural History Museum, s. f.-a, 2024, 2025; U.S. Geological Survey, 2007). La vida humana aparece ahora como una proyección dentro de clases biológicas superiores: primates, mamíferos, vertebrados, animales, eucariotas u otros dominios según el grado de resolución elegido. La fórmula no debe convertir esos dominios en una escala lineal simplista. Debe leerlos como envolventes sucesivas con bifurcaciones, trazas, residuales y clausuras locales.
+
+La forma general es:
+
+`F_sapiens ← Ω_primate ← Ω_mamífero ← Ω_vertebrado ← Ω_animal ← Ω_eucariota`
+
+Cada flecha exige traza y residual. La traza puede ser genética, morfológica, embriológica, ecológica, conductual o fósil. El residual puede afectar dataciones, reconstrucciones, clasificación, pérdidas de linaje, cambios ambientales o discontinuidades del registro.
+
+| Elemento de prueba | Resultado en el banco mamífero |
+|---|---|
+| Observable de partida | especie humana como fibra dentro de dominios biológicos superiores. |
+| Dominio antecedente | primate, mamífero, vertebrado, animal, eucariota, según resolución. |
+| Traza | genes compartidos, morfología, fósiles, desarrollo, conducta, ecología. |
+| Residual | límites de registro fósil, clasificación, convergencias y lagunas. |
+| Evaluación | `Eval=0` para dependencia de dominios envolventes; `Eval=U` en transiciones no cerradas con suficiente detalle. |
+| Cierre no autorizado | una clase superior no borra la singularidad de sus subdominios; una rama clausurada no clausura el dominio entero. |
+
+El contraste resulta compatible porque la fórmula no aplana la biología. Conserva subdominios, no reemplaza cada nivel por el anterior y no clausura por ausencia de detalle completo.
+
+### VI.7. Banco prebiótico: aminoácidos, química y no equivalencia inmediata con vida
+
+El banco prebiótico introduce una frontera especialmente peligrosa: pasar de química a vida (European Space Agency, 2016; NASA, 2024b; NASA Astrobiology, 2026a, 2026b, 2026c; NASA Goddard Space Flight Center, s. f.). La fórmula debe impedir dos errores opuestos. El primero sería declarar vida por mera presencia de aminoácidos, nucleobases, agua o elementos químicos. El segundo sería negar la relevancia de esos soportes porque no cierran por sí solos el origen de la vida. La salida correcta es dominio químico antecedente con residual fuerte y `U` en el tránsito originario si el banco no permite cierre completo.
+
+La restricción puede formularse así:
+
+`CHNOPS + aminoácidos + condiciones_químicas ⇏ Vida=1`
+
+`química_prebiótica → soporte necesario bajo dominio, no causa total cerrada`
+
+El banco conserva trazas químicas, meteoríticas, geológicas y experimentales. Pero la presencia de componentes no equivale a célula viva, organismo, linaje ni retorno biológico. La vida exige frontera, intercambio gobernado, información operativa, reparación, continuidad y retorno. Si esos requisitos no se cierran, el tránsito queda en `U`.
+
+| Elemento de prueba | Resultado en el banco prebiótico |
+|---|---|
+| Observable de partida | química prebiótica como dominio antecedente de vida. |
+| Dominio | geoquímico, orgánico, planetario, energético y ambiental. |
+| Traza | aminoácidos, compuestos orgánicos, minerales, agua, registros químicos. |
+| Residual | salto entre disponibilidad química y vida con frontera y retorno. |
+| Evaluación | `Eval=0` para química como soporte antecedente; `Eval=U` para origen completo de vida si no hay cierre suficiente. |
+| Cierre no autorizado | componentes químicos no clausuran ni demuestran vida; vida no queda reducida a inventario molecular. |
+
+El contraste resulta compatible porque fuerza a la fórmula a conservar `U` sin perder dependencia estructural. Es un control importante contra el cierre prematuro.
+
+### VI.8. Banco Tierra joven, Sol y soporte planetario
+
+El banco Tierra joven sitúa la vida en un dominio físico-químico más amplio: planeta, Sol, agua, minerales, atmósfera, energía de régimen, impactos, geología y estabilidad relativa de condiciones (NASA, 2004; NASA Astrobiology, s. f.; NASA Earth Observatory, 2006; NASA, s. f.-b; U.S. Geological Survey, 2007). El objetivo no es construir una historia planetaria exhaustiva. La prueba busca verificar si la fórmula exige soporte de dominio antes de declarar vida terrestre. Lo exige.
+
+La cadena puede expresarse así:
+
+`vida_terrestre ← Ω_Tierra-joven/Sol ← Ω_Sistema-Solar ← Ω_galáctico`
+
+La Tierra no es causa única de vida; es dominio de soporte y frontera material. El Sol no es explicación total; es condición energética y gravitatoria de dominio. Los minerales, el agua y la composición química no son vida; son soportes, canales, restricciones y bancos de retorno. El residual decide qué parte queda cerrada y qué parte permanece abierta.
+
+| Elemento de prueba | Resultado en el banco Tierra-Sol |
+|---|---|
+| Observable de partida | vida terrestre o química prebiótica localizada. |
+| Dominio antecedente | Tierra joven, Sol, Sistema Solar, agua, minerales, energía y geología. |
+| Traza | rocas, isótopos, minerales, registros planetarios, composición solar y meteórica. |
+| Residual | incertidumbres de condiciones iniciales, rutas químicas y transición a vida. |
+| Evaluación | `Eval=0` para necesidad de soporte planetario-solar; `Eval=U` para origen vivo completo. |
+| Cierre no autorizado | soporte planetario no equivale a causa total; Tierra no clausura vida ni circularidad rectora. |
+
+El contraste resulta compatible. La fórmula reconstruye soporte, frontera, energía de dominio, traza geológica y residual sin transformar el planeta en causa absoluta.
+
+### VI.9. Banco Vía Láctea y dominio galáctico
+
+El banco galáctico obliga a ampliar el soporte (European Space Agency, 2018, 2022, 2023; NASA Space Place, 2019). La Tierra joven y el Sistema Solar no comparecen en vacío absoluto; pertenecen a un dominio galáctico con formación estelar, enriquecimiento químico, dinámica, gas, polvo, generaciones previas de estrellas y condiciones de composición. La fórmula debe mostrar que el dominio planetario exige un dominio envolvente, sin convertir la galaxia en origen absoluto.
+
+La lectura queda así:
+
+`Ω_Tierra/Sol ← Ω_Sistema-Solar ← Ω_Vía-Láctea`
+
+La traza galáctica puede aparecer en composición química, metalicidad, historia estelar, dinámica orbital, nubes moleculares, polvo, remanentes y poblaciones estelares. El residual afecta reconstrucción temporal, detalle de fusiones, formación concreta del entorno solar o límites observacionales. La galaxia puede actuar como dominio envolvente, no como TODO/NADA.
+
+| Elemento de prueba | Resultado en el banco Vía Láctea |
+|---|---|
+| Observable de partida | Sistema Solar, Tierra joven o composición prebiótica. |
+| Dominio antecedente | Vía Láctea como dominio galáctico. |
+| Traza | estrellas, gas, polvo, metalicidad, remanentes, nubes moleculares, dinámica. |
+| Residual | historia fina de formación, fusiones, composición local y límites observacionales. |
+| Evaluación | `Eval=0` para dependencia galáctica; `Eval=U` para detalles no cerrados. |
+| Cierre no autorizado | galaxia no equivale a origen absoluto ni a fundamento preformal. |
+
+El contraste resulta compatible porque la fórmula conserva escala sin absolutizarla. El salto de planeta a galaxia se gobierna por dominio, traza y residual.
+
+### VI.10. Banco universo observable físico
+
+El banco del universo observable físico es la prueba de máxima tensión (European Space Agency, s. f., 2013; NASA, 2012, 2021, 2023, 2024a, 2025, s. f.-a; NASA Goddard Space Flight Center, 2013). Si la fórmula falla aquí, la conclusión fuerte queda comprometida. El universo observable debe poder entrar como dominio-universo, pero nunca como TODO/NADA. Debe admitir edad, señales, CMB, nucleosíntesis primordial, primeras galaxias y formación de estructuras sólo como bancos físicos, no como fundamento preformal.
+
+La cadena se expresa así:
+
+`Ω_Vía-Láctea ← Ω_primeras-galaxias ← Ω_CMB ← Ω_nucleosíntesis-primordial ← origen_cosmológico_externo(Ω_obs)`
+
+Y queda protegida por:
+
+`Ω_obs ≠ TODO/NADA`
+
+`origen_cosmológico_externo(Ω_obs) ≠ ε−0`
+
+`Edad(Ω_obs)≠Edad(TODO/NADA)`
+
+El banco permite cierre físico de muchas trazas: señales cosmológicas, abundancias primordiales, fondo cósmico, formación de estructuras y edad de dominio según modelo. Pero no permite cerrar el TODO/NADA, ni la primera distinguibilidad preformal, ni la circularidad rectora. Si el dato físico alcanza su borde, no se rellena con cosmología imaginada; se declara límite y, si procede, `U`.
+
+| Elemento de prueba | Resultado en el banco universo observable |
+|---|---|
+| Observable de partida | `Ω_obs` como dominio-universo físico. |
+| Dominio | cosmológico físico: señal, horizonte, métrica, contenido, residual, retorno. |
+| Traza | CMB, nucleosíntesis primordial, primeras galaxias, formación de estructuras, edad cosmológica externa. |
+| Residual | salto entre banco físico, primera distinguibilidad preformal y TODO/NADA. |
+| Evaluación | `Eval=0` para banco físico si dominio y retorno cierran; `Eval=U` para fundamento preformal; `Eval=1` si se identifica `Ω_obs` con TODO/NADA. |
+| Cierre no autorizado | origen cosmológico externo no equivale a `ε−0`; clausura de `Ω_obs` no clausura `Φ_rectora`. |
+
+El contraste resulta compatible si se conserva la separación de planos. No sería admisible si se identifica Big Bang, CMB, origen cosmológico externo o edad física con TODO/NADA. Con esa restricción, la fórmula reconstruye el máximo dominio físico sin usurpar el plano rector.
+
+### VI.11. Resultado conjunto de la prueba inversa
+
+La prueba inversa muestra que `𝓡VC_SV` no funciona como simple resumen de los bancos. Funciona como regla de exigencia: cada banco sólo pasa cuando declara observable, dominio, fibra o clase, traza, residual, evaluación y cierre no autorizado. Allí donde el banco tiene cierre suficiente, la evaluación puede ser `0`; allí donde aparece contradicción material, debe ser `1`; allí donde la ciencia contemporánea no permite cierre completo pero tampoco contradice la dependencia estructural, debe conservarse `U`.
+
+La matriz conjunta queda así:
+
+| Banco | Resultado de prueba | Residual principal | Cierre no autorizado |
+|---|---|---|---|
+| Persona concreta | Compatible | persona viva ≠ traza | muerte individual ≠ clausura de fibra humana. |
+| Homo sapiens sapiens | Compatible | individuo ≠ especie | especie humana ≠ vida total. |
+| Neandertales | Compatible | traza genética ≠ continuidad poblacional plena | extinción local ≠ clausura de humanidad. |
+| Grandes simios | Compatible | ancestro común no siempre cerrado como instancia singular | parentesco ≠ reducción de un dominio a otro. |
+| Mamíferos y dominios biológicos superiores | Compatible | clasificación y registro parcial | clase superior ≠ borrado de subdominios. |
+| Química prebiótica | Compatible con `U` en origen vivo completo | componentes ≠ vida | química necesaria ≠ vida demostrada. |
+| Tierra joven y Sol | Compatible con `U` en rutas originarias | soporte ≠ causa total | planeta y estrella ≠ fundamento. |
+| Vía Láctea | Compatible | dominio galáctico ≠ origen absoluto | galaxia ≠ TODO/NADA. |
+| Universo observable físico | Compatible bajo separación estricta de planos | banco físico ≠ preformal | `Ω_obs` ≠ TODO/NADA. |
+
+La prueba inversa permite formular el teorema: todo observable tratado exige dominio, traza y residual; toda instancia puede clausurarse localmente; ninguna clausura local autoriza por sí misma clausura de fibra, dominio superior o circularidad rectora; y el universo observable puede recibir la misma regla como dominio-universo sin identificarse con TODO/NADA.
+
+### VI.12. Síntesis
+
+La prueba inversa reconstruye los bancos principales. La fórmula rectora candidata reconstruye persona, especie, neandertales, grandes simios, mamíferos, química prebiótica, Tierra joven, Vía Láctea y universo observable físico sin forzar identidad de plano. La prueba conserva cierres locales, residuales y `U`; no transforma trazas en continuidad plena; no convierte bancos físicos en fundamento; y no hace de Fourier una causa.
+
+Este resultado habilita la formulación del teorema de recursión de vida y clausura del observable realizado, junto con su criterio de refutación. El teorema no afirma que la ciencia contemporánea pruebe directamente el TODO/NADA; afirma que ningún observable realizado puede ocupar el lugar de totalidad absoluta, porque todo observable admisible exige dominio, frontera, traza, residual y retorno, y porque la clausura de una instancia no agota la circularidad rectora que permite nuevas proyecciones bajo dominio.
+
+## VII. Teorema de recursión de vida y clausura del observable realizado
+
+### VII.1. Función del cierre formal
+
+La cadena formal previa fija condiciones suficientes para formular el resultado principal sin sobreactuar su alcance. Primero se distinguieron observable, instancia, fibra y ciclo acotado; después se fijaron clausura local, traza, residual y `U`; luego se separaron potencial, círculo, sinusoidal y Fourier; más adelante se protegió el dominio-universo frente a la identificación con TODO/NADA; por último, `𝓡VC_SV` fue formulada como candidata y sometida a prueba inversa contra bancos de contraste. El cierre formal debe recoger exactamente ese recorrido: ni menos, porque entonces el desarrollo quedaría en enumeración; ni más, porque entonces invadiría planos que los bancos no han cerrado.
+
+El teorema no afirma que la ciencia contemporánea demuestre directamente el TODO/NADA (Lloret Egea, 2026a, 2026b, 2026e). Tampoco afirma que una persona, una especie, una estrella, una galaxia o un universo observable sean realidades equivalentes. Afirma una restricción más fuerte y más precisa: todo observable realizado que pretenda comparecer con rango formal debe entrar por dominio, frontera, traza, residual y retorno; por tanto, ningún observable realizado puede ocupar el lugar de totalidad absoluta. La clausura de una instancia puede ser real en su dominio, pero no agota por sí misma la fibra, el dominio superior ni la circularidad rectora.
+
+La forma del resultado queda expresada así:
+
+`Obs_adm(o,Ω)=1 ⇔ dominio(Ω) declarado ∧ frontera(o,Ω) declarada ∧ Tr_Ω(o) declarada ∧ R_Ω(o)=0 ∧ retorno_Ω(o) compatible`
+
+Cuando esa condición se cumple, el observable puede entrar en la cadena `𝓡VC_SV`. Cuando no se cumple, el resultado no puede cerrarse como afirmación fuerte. Si hay contradicción material, cae. Si falta cierre suficiente sin contradicción, conserva `U`.
+
+### VII.2. Enunciado del teorema
+
+**Teorema de recursión de vida y clausura del observable realizado.** Sea `o` un observable realizado admisible en un dominio `Ω`, con pertenencia tipada `o^C∈F_C^Ω`, proyección singular declarada, frontera, traza, residual y retorno compatibles para la pregunta formulada. Entonces:
+
+`o ≠ TODO/NADA`
+
+`Cl_Ω(o)=1 ⇏ Cl(F_C^Ω)`
+
+`Cl(F_C^Ω)=1 ⇏ Cl(Ω)`
+
+`Cl(Ω_obs)=1 ⇏ Cl(TODO/NADA)`
+
+`Tr_Ω(o) ≠ continuidad_plena(o)`
+
+`Eval_𝓡(o)=0 ⇔ ∀k Eval_k=0 ∧ R_global(o)=0`
+
+`Eval_𝓡(o)=U ⇔ (∀k Eval_k≠1) ∧ (∃j Eval_j=U)`
+
+`Eval_𝓡(o)=1 ⇔ ∃k Eval_k=1 ∨ R_plano(o)=1`
+
+El teorema significa que la vida formal de una instancia no es una sustancia añadida, sino una estructura de comparecencia bajo dominio; que la clausura local no borra la traza ni consume la fibra; que la fibra no agota necesariamente el dominio superior; que el universo observable físico no ocupa el lugar del TODO/NADA; y que cualquier salto de plano produce fallo o, si falta determinación sin contradicción, conserva `U`.
+
+La palabra «vida» conserva así doble lectura controlada (Lloret Egea, 2026d). En biología, exige frontera funcional, intercambio gobernado, información operativa, reparación, continuidad y retorno. En dominios no biológicos, sólo nombra comparecencia formal, despliegue, traza, residual, retorno y clausura local de instancia. La palabra «clausura» queda igualmente restringida: clausurar una instancia no equivale a borrar su traza, agotar su fibra, clausurar su dominio superior ni terminar el TODO/NADA.
+
+### VII.3. Demostración
+
+La demostración procede por composición de restricciones ya fijadas. Del primer tramo se obtiene que todo observable realizado exige pertenencia tipada: `o_i^C∈F_C^Ω`. Sin dominio, clase, frontera y condiciones de comparecencia, no hay observable fuerte. Por tanto, un observable realizado no puede ocupar el lugar del TODO/NADA, porque la totalidad absoluta no comparece como objeto de dominio con frontera física, traza externa y retorno medible.
+
+Del segundo tramo se obtiene que la clausura local exige pérdida de retorno propio, residual no absorbible y traza declarada. Además, `Tr_Ω(o)≠o` y `Tr_Ω(o)≠continuidad_plena(o)`. Luego la clausura de una persona, una especie local, una estrella o una estructura física no equivale a desaparición absoluta. La traza conserva inscripción; no restitución plena. Con ello queda probado que `Cl_Ω(o)=1` no implica por sí mismo `Cl(F_C^Ω)`.
+
+Del tercer tramo se obtiene que el ciclo acotado de instancia y la circularidad rectora pertenecen a registros distintos: `φ_i∈[0,2π]` y `φ_rectora∈ℝ` (Fourier, 1822; Lloret Egea, 2026e). La sinusoidal ayuda a leer el ciclo de comparecencia; Fourier ayuda a codificar recurrencia por dominio; ninguno de los dos funda la instancia ni clausura el fundamento. Por tanto, una instancia puede completar su ciclo sin agotar `Φ_rectora`.
+
+Del cuarto tramo se obtiene la protección del dominio-universo: `Ω_obs≠TODO/NADA`, `origen_cosmológico_externo(Ω_obs)≠ε−0` y `Edad(Ω_obs)≠Edad(TODO/NADA)` (Lloret Egea, 2026a, 2026b). El universo observable físico puede admitir edad, señales, horizonte, trazas y retorno en su dominio, pero no se convierte por ello en totalidad absoluta ni en fundamento preformal.
+
+Del quinto tramo se obtiene `𝓡VC_SV` como fórmula de cadena: observable de partida, dominios, trazas, residuales, evaluaciones y circularidad rectora. La fórmula introduce `R_plano` para impedir que una respuesta válida en un dominio sea trasladada a otro. Por tanto, si aparece identificación de traza con continuidad plena, de banco físico con fundamento preformal o de universo observable con TODO/NADA, la evaluación cae como `1` por salto de plano.
+
+Del sexto tramo se obtiene la prueba inversa. Persona, especie, neandertales, grandes simios, mamíferos, química prebiótica, Tierra joven, Vía Láctea y universo observable físico fueron reconstruidos por la fórmula sin forzar identidad de plano. Los cierres locales quedaron admitidos donde procedía; los residuales conservaron diferencia; `U` se mantuvo en origen vivo completo, ancestros concretos no cerrados, rutas originarias y fundamento preformal. Luego la fórmula no funciona como repetición verbal de los bancos, sino como regla de exigencia.
+
+De todos esos pasos se sigue el teorema: todo observable realizado admisible es recursivo por dominio, traza y residual; toda clausura de instancia es local salvo demostración propia del dominio superior; ninguna traza equivale automáticamente a continuidad plena; ningún banco físico entrega por sí solo el TODO/NADA; y la circularidad rectora no queda agotada por la clausura de una instancia.
+
+### VII.4. Criterio de refutación
+
+El teorema tiene criterio de caída. No queda protegido por formulación inmune. Bastaría demostrar, dentro del propio régimen formal, cualquiera de los siguientes casos:
+
+| Caso de caída | Consecuencia |
+|---|---|
+| Un observable realizado admisible sin dominio declarado, sin frontera, sin traza, sin residual y sin retorno. | Cae la condición de admisibilidad por dominio. |
+| Una traza que sea idéntica a continuidad plena de la instancia clausurada. | Cae la distinción entre traza y continuidad. |
+| Una clausura local que implique, sin premisa adicional, clausura de la fibra completa. | Cae la separación instancia/fibra. |
+| Una clausura de fibra que implique, sin prueba propia, clausura del dominio superior. | Cae la recursión por dominios. |
+| Una identificación material válida entre `Ω_obs` y `TODO/NADA`. | Cae la separación entre universo observable y totalidad absoluta. |
+| Una identificación material válida entre `origen_cosmológico_externo(Ω_obs)` y `ε−0`. | Cae la separación entre banco físico y plano preformal. |
+| Un uso de Fourier que funde el dominio en lugar de leerlo con residual. | Cae la restricción de lectura armónica por dominio. |
+| Un cierre de `U` por ausencia de prueba, analogía o plausibilidad. | Cae la evaluación ternaria honesta. |
+
+Si alguno de esos casos se demostrara, el teorema debería revisarse. Si el caso no se demuestra pero tampoco queda excluido con cierre suficiente, la salida no es confirmación ni rechazo, sino `U`. Esta condición de caída impide que el resultado se transforme en blindaje retórico.
+
+### VII.5. Alcance exacto
+
+El teorema afirma una regla formal de lectura para observables realizados: persona, especie, linaje, estrella, galaxia y dominio-universo sólo pueden entrar con fuerza cuando declaran dominio, frontera, traza, residual y retorno. Afirma también que la clausura de una instancia no agota por sí misma la fibra, que la clausura de una fibra no agota sin más el dominio superior y que el universo observable físico no ocupa el lugar de totalidad absoluta.
+
+El teorema no afirma que el universo sea organismo. No afirma que toda realidad sea biológica. No afirma que la física contemporánea haya demostrado el TODO/NADA. No afirma multiversos físicos. No afirma que Fourier sea fundamento. No afirma que la ciencia externa cierre el origen vivo completo, el ancestro singular exacto, las rutas originarias o la primera distinguibilidad preformal. Allí donde esas determinaciones no cierran, se conserva `U`.
+
+La fuerza del resultado está en su límite. El cierre no consiste en saberlo todo, sino en impedir que una instancia ocupe el lugar de la totalidad, que una traza ocupe el lugar de la continuidad plena, que un banco físico ocupe el lugar del fundamento o que una clausura local se exagere como clausura absoluta. Con esto, se alcanza la tesis formal: los observables viven y se clausuran bajo dominios; las fibras pueden persistir, transformarse o clausurarse localmente; los dominios pueden abrir nuevas envolventes; y la circularidad rectora no queda agotada por ninguna instancia realizada.
+
+### VII.6. Síntesis
+
+El teorema cierra la arquitectura formal del análisis. La fórmula `𝓡VC_SV`, ya sometida a prueba inversa, queda elevada a teorema de recursión de vida y clausura del observable realizado. El teorema tiene demostración, criterio de refutación y alcance exacto. No clausura el TODO/NADA, no convierte bancos físicos en fundamento, no biologiza el universo, no hace de Fourier una causa y no degrada `U`.
+
+La arquitectura formal queda cerrada en su alcance propio: demostración, criterio de refutación, separación de planos y conservación de `U`.
+
+## Conclusión general
+
+Se alcanza una conclusión formal delimitada: los observables realizados no comparecen como entidades autosuficientes, sino como instancias de dominio. Una instancia puede nacer, desplegarse, conservar trazas, acumular residual y clausurarse; esa clausura no agota por sí misma la fibra que la hace posible, ni el dominio superior que la contiene, ni la circularidad rectora que impide confundir un cierre local con una clausura absoluta. La regla opera en personas, especies, linajes, estrellas, galaxias y dominio-universo, pero en cada caso cambia el soporte material, la frontera, el retorno y el residual.
+
+El resultado principal es el teorema de recursión de vida y clausura del observable realizado. Su fuerza no reside en cerrar todo origen, sino en impedir cierres indebidos: una traza no equivale a continuidad plena; un banco físico no equivale al fundamento; la edad del universo observable no es edad del TODO/NADA; Fourier no funda el dominio; y `U` no se degrada en relleno interpretativo. La tesis formal queda cerrada en su alcance propio y abierta sólo allí donde el criterio de refutación exige conservar indeterminación honesta.
+
+## Anexo I. Observabilidad y comunicación estructural de la instancia: persona, especie y dominio-universo
+
+### I.1. Función del anexo
+
+La vida formal de una instancia no se agota en su nacimiento, despliegue, traza y clausura. Una instancia realizada también puede ser leída como observable admitido en un dominio si declara las condiciones que permiten su comparecencia: dominio, magnitud o entidad externa, frontera, identidad, canal, barrera, residual, retorno y traza. Esta precisión no modifica el teorema de recursión de vida y clausura del observable realizado; lo prolonga sobre el plano de la comunicación estructural y sobre la articulación entre instancia, subdominios internos y dominios envolventes. La persona concreta, la especie y el dominio-universo no sólo son instancias clausurables bajo dominio: también pueden entrar en relaciones estructurales con otros dominios cuando existe canal declarado, diccionario semántico suficiente, residual trazado y retorno interpretable.
+
+La función del anexo es impedir tres errores simétricos. El primero sería tratar la clausura de una instancia como desaparición absoluta de toda comunicación posible. El segundo sería confundir la persistencia de trazas con continuidad plena de la instancia clausurada. El tercero sería atribuir a la persona, a la especie o al dominio-universo una posición privilegiada en el comparador global del dominio realizado. Una persona muerta no sigue viva por el hecho de conservar documentos, memoria, ADN, obra o efectos; pero esas trazas pueden operar estructuralmente en otros dominios. Una especie extinta no permanece como población activa por conservar fósiles o material genético; pero esas trazas permiten comunicación científica, paleontológica y genética con dominios posteriores. Un dominio-universo observable no se identifica con el TODO/NADA por conservar señales cosmológicas; pero esas señales permiten retorno físico de lectura dentro de su dominio.
+
+La regla que gobierna este anexo es estricta: la comunicación estructural no reabre la instancia clausurada, no transforma la traza en presencia viva, no introduce agencia universal, no convierte el universo en organismo y no clausura `U`. Sólo declara que una instancia, viva o clausurada, puede mantener retornos estructurales bajo dominio si el aparato formal conserva canal, diccionario, residual y traza. Además, toda instancia debe situarse entre dominios antecedentes y dominios derivados cuando el análisis exige tránsito: ningún paso entre célula, tejido, órgano, persona, documento, especie, planeta, estrella o dominio-universo queda autorizado por nombre compartido, analogía o proximidad; exige identidad tipada, frontera, canal, traza, residual y retorno. En el caso de la persona, además, debe añadirse una precisión esencial: la persona no es sujeto privilegiado ni centro del lazo global, pero puede funcionar como dominio rector local mientras conserva retorno vital global mediante integración de sub-lazos orgánicos, celulares, inmunes, microbianos, neuroendocrinos, metabólicos, documentales y sociales.
+
+### I.2. Comparador global, sub-lazos locales y dominio persona
+
+El comparador global del dominio realizado no se reduce a persona, organismo, célula, especie ni dominio-universo observable. Su magnitud propia pertenece al plano global del autogobierno topológico y no debe confundirse con el potencial local de un suceso, con la vida de una instancia ni con la coordinación interna de un organismo. La separación de planos queda fijada así:
+
+`Φ_global(τ) ≠ Φ_Ωpersona(σ) ≠ Φ_Ωcélula(κ)`
+
+La desigualdad no niega homología formal entre dominios. Niega identidad de rango, función y objeto. `Φ_global(τ)` pertenece al dominio realizado como conjunto; `Φ_Ωpersona(σ)` sólo puede formularse como comparador local del dominio persona; `Φ_Ωcélula(κ)` sólo puede formularse como comparador local de una célula o de un subdominio celular. No se copia el lazo global como si cada persona o célula fuera una réplica local del TODO/NADA. Lo admisible es una homología funcional de dominio: donde hay frontera, canal, residual y retorno puede existir sub-lazo local, pero siempre bajo dominio declarado y sin usurpar el plano global.
+
+La persona, considerada como organismo y dominio local, no dirige conscientemente todas sus células, órganos, anticuerpos, linfocitos, bacterias, moléculas, documentos o trazas. El sujeto consciente no gobierna directamente cada subproceso interno. El organismo-persona integra subdominios mediante comunicación estructural tipada: receptor, señal, respuesta, daño, reparación, retorno y residual. Cuando aparece una alteración de frontera, lesión, antígeno, toxina, hipoxia, proliferación anómala, disbiosis, fallo metabólico o pérdida de barrera, no interviene una conciencia central; aparece un residual en el dominio rector local `Ω_persona`.
+
+La persona como dominio compuesto puede escribirse así:
+
+`Ω_persona = ⟨Ω_orgánico, Ω_tejido, Ω_célula, Ω_inmunidad, Ω_microbiota, Ω_neuroendocrino, Ω_metabólico, Ω_documental, Ω_social⟩`
+
+Cada subdominio conserva frontera, canal, residual y retorno propios, pero su operación no queda aislada. Un tejido responde a señales celulares; una célula inmune responde a antígenos y receptores; una bacteria puede operar como comensal, simbionte o agente lesivo según ubicación, canal y retorno; un órgano sostiene función local bajo retorno del organismo; un documento conserva identidad y traza en dominio externo. La unidad persona no nace de conciencia distributiva de esos subdominios, sino de integración de retornos bajo un dominio rector local.
+
+La relación de sub-lazo se formula así:
+
+`sub-lazo_AB=1 ⇔ Canal_AB^Γ trazado ∧ 𝓓_AB^⊥ apto ∧ R_AB trazado ∧ retorno_Ωpersona compatible`
+
+Si el retorno se conserva, el sub-lazo puede ser compatible: defensa, tolerancia, reparación, simbiosis, contención, regulación metabólica o coordinación funcional. Si el canal se captura y deteriora el retorno del dominio persona, el sub-lazo se vuelve lesivo: infección, autoinmunidad, cáncer, sepsis, toxicidad, disbiosis, fallo orgánico o ruptura de frontera. La necesidad no es deseo subjetivo. Es necesidad de retorno del dominio:
+
+`Necesidad_Ωpersona = R_Ωpersona ≠ 0 bajo frontera, soporte, canal o retorno vital comprometido`
+
+La respuesta de los subdominios queda entonces condicionada por canal y diccionario:
+
+`Respuesta_AB=1 ⇔ Canal_AB^Γ=1 ∧ 𝓓_AB^⊥ apto ∧ R_AB trazado ∧ retorno_Ωpersona exigido`
+
+Esta formulación permite decir que la persona vive por integración de sub-lazos internos sin convertirla en centro del lazo global ni en sujeto consciente de toda su coordinación interna.
+
+### I.3. Teorema de integración estructural del dominio persona
+
+**Teorema.** Sea `Ω_P` una persona considerada como dominio biológico singular, no como sujeto privilegiado del lazo global. `Ω_P` mantiene vida formal-biológica mientras conserva integración estructural suficiente de sus subdominios esenciales —órganos, tejidos, células, inmunidad, microbiota, sistema neuroendocrino, soporte metabólico y trazas documentales o sociales vinculadas— bajo frontera, canal, diccionario, residual gobernado, retorno vital y traza. Esa integración no exige conciencia del sujeto sobre sus subdominios, ni diálogo sintiente entre células, ni participación privilegiada en el comparador global `Φ_global(τ)`. Exige que los sub-lazos locales mantengan retorno compatible respecto del dominio rector local `Ω_P`. La clausura vital de la persona ocurre cuando el retorno vital global de `Ω_P` cae de forma no absorbible, aunque algunos subdominios, células, moléculas, documentos, memorias o trazas conserven retornos parciales o derivados.
+
+La fórmula rectora del teorema queda fijada así:
+
+`𝓘DP_SV(Ω_P)=𝓝★[𝓒★ObsU(Ω_P,D_bio), 𝓢(Ω_P), 𝓛(Ω_P), 𝓓^⊥(Ω_P), Pred(Ω_P), R_global^ΩP, Ret_vital(Ω_P), Tr_ΩP] ∈ {0,1,U}`
+
+donde:
+
+`𝓢(Ω_P)={Ω_órgano, Ω_tejido, Ω_célula, Ω_inmunidad, Ω_microbiota, Ω_neuroendocrino, Ω_metabólico, Ω_documental, Ω_social}`
+
+`𝓛(Ω_P)={L_ij : D_i,D_j ∈ 𝓢(Ω_P) ∧ Canal_ij^Γ declarado}`
+
+`L_ij=1 ⇔ Canal_ij^Γ=1 ∧ 𝓓_ij^⊥ apto ∧ R_ij trazado ∧ Ret_ΩP(D_i,D_j) compatible`
+
+`Pred_ij^compat=1 ⇔ L_ij=1 ∧ Δ_ij absorbido ∧ retorno_ΩP conservado`
+
+`Pred_ij^lesiva=1 ⇔ Canal_ij^Γ capturado ∧ 𝓓_ij^⊥ usado contra retorno_ΩP ∧ Δ_ij no absorbido`
+
+El residual global del dominio persona queda expresado como:
+
+`R_global^ΩP=R_frontera ⊕ R_identidad ⊕ R_soporte ⊕ R_canal ⊕ R_diccionario ⊕ R_predominancia ⊕ R_reparación ⊕ R_retorno ⊕ R_traza`
+
+La vida integrada queda:
+
+`𝓘DP_SV(Ω_P)=0 ⇔ 𝓒★ObsU(Ω_P,D_bio)=0 ∧ R_global^ΩP ⪯ L_retorno^ΩP ∧ ∀L_ij esencial, Pred_ij^lesiva≠1`
+
+La clausura vital queda:
+
+`Cl_ΩP(Ω_P)=1 ⇔ Ret_vital(Ω_P)=0 ∧ R_global^ΩP ≻ L_retorno^ΩP ∧ Tr_ΩP declarada`
+
+Y la separación de planos queda blindada:
+
+`Φ_global(τ) ≠ Φ_ΩP(σ) ≠ Φ_Ωcélula(κ)`
+
+**Demostración.** Una persona viva no puede comparecer como observable admitido si no declara dominio, frontera, identidad, canal, barrera, residual, retorno y traza. Esa condición viene dada por `𝓒★ObsU`. Pero una persona biológica no es una unidad simple: está compuesta por subdominios orgánicos, celulares, inmunes, microbianos, metabólicos, neuroendocrinos, documentales y sociales. Si esos subdominios no tuvieran canal, diccionario y retorno, no habría coordinación biológica sino yuxtaposición material. Cuando aparece una alteración —antígeno, lesión, toxina, hipoxia, disbiosis, proliferación anómala, fallo metabólico o pérdida de barrera— aparece un residual en el dominio `Ω_P`. Ese residual no es interpretado por la conciencia como mandato celular; es leído por subdominios especializados mediante canales y diccionarios: receptor, señal, respuesta, daño, reparación y retorno. Si la respuesta conserva retorno del dominio rector, hay predominancia compatible: defensa, tolerancia, reparación, simbiosis o contención. Si captura el canal y deteriora el retorno de `Ω_P`, hay predominancia lesiva: infección, autoinmunidad, sepsis, cáncer, toxicidad o disbiosis.
+
+Por tanto, el sujeto consciente no gobierna directamente sus células, anticuerpos o bacterias. La persona-organismo se sostiene porque `Ω_P` actúa como dominio rector local: integra sub-lazos y conserva retorno vital mientras el residual global permanece gobernado. Si el residual supera el límite de retorno del dominio persona, el retorno vital cae y se produce clausura vital. Esa clausura no borra trazas ni sub-retornos parciales; sólo declara que la instancia persona ya no conserva retorno vital global. C.Q.D.
+
+El teorema responde al punto central: las células, órganos, bacterias, anticuerpos y linfocitos no obedecen a una conciencia central, pero tampoco actúan como elementos aislados. Responden a residuales del dominio persona mediante canales y diccionarios estructurales, bajo retorno compatible o lesivo.
+
+### I.4. Tránsito antecedente y derivado de la instancia
+
+Una instancia no comparece como objeto aislado. Comparece entre dominios antecedentes y dominios derivados, bajo una cadena de tránsito que debe declarar qué se conserva, qué cambia, qué frontera se cruza, qué canal opera, qué traza permanece, qué residual queda abierto y qué retorno autoriza el cierre. Esta regla no introduce una nueva teoría dentro del anexo; sólo aplica al plano de la instancia la ley general de tránsito por dominios. La continuidad no se declara por igualdad de estado ni por nombre común. Se declara por identidad de transición bajo residual gobernado.
+
+La forma mínima de la cadena de instancia queda:
+
+`Γ_instancia=(D_antecedente,D_instancia,D_derivado)`
+
+`Id_trans^SV(x;Γ_instancia)=1 ⇔ R_D^SV(D_antecedente,D_instancia;x)=0 ∧ R_D^SV(D_instancia,D_derivado;x)=0`
+
+El residual de cada paso conserva la misma descomposición formal:
+
+`R_D^SV=Δ_dom ⊕ Δ_id ⊕ Δ_estado ⊕ Δ_F ⊕ Δ_C ⊕ Δ_Tr ⊕ Δ_R`
+
+La persona permite ver la necesidad de esta regla. Una persona tiene dominios antecedentes biológicos, celulares, orgánicos, genéticos, familiares y ambientales; comparece como instancia biográfico-corporal bajo `Ω_P`; y puede dejar dominios derivados documentales, sociales, jurídicos, genéticos, históricos o intelectuales. Ninguno de esos dominios equivale a la persona completa. La célula no es la persona, el órgano no es la persona, el documento no es la persona, la memoria no es la persona y la especie no es la persona. Pero cada uno puede sostener tránsito estructural si conserva identidad tipada, frontera, canal, traza, residual y retorno.
+
+La especie se lee de forma análoga, con escala propia. Una especie puede tener dominios antecedentes evolutivos, genéticos, ecológicos, poblacionales y ambientales; comparecer como fibra activa o instancia de orden superior; y dejar dominios derivados fósiles, genómicos, ecológicos, culturales o documentales. La extinción de una fibra local no borra la traza, pero la traza no reabre población activa. Sólo hay continuidad de tránsito cuando el residual entre dominio antecedente, dominio de especie y dominio derivado cierra bajo condiciones declaradas.
+
+El dominio-universo exige la misma disciplina con mayor restricción. Sus antecedentes físicos pertenecen a bancos cosmológicos, señales, métricas, horizontes y contenidos; sus derivados son trazas físicas de lectura, no continuidad plena de la totalidad absoluta. El tránsito desde señal cosmológica hacia fundamento preformal no queda autorizado: `Ω_obs ≠ TODO/NADA` y `origen_cosmológico_externo(Ω_obs) ≠ ε−0`. Por tanto, el tránsito antecedente-derivado no abre una cadena ilimitada de analogías; obliga a detenerse donde el residual de plano no cierra.
+
+La consecuencia para este anexo es directa: toda comunicación estructural de una instancia queda sometida a tránsito. Persona, especie y dominio-universo no comunican por semejanza ni por escala; comunican, cuando procede, porque una cadena de dominios conserva identidad tipada, canal, diccionario, residual, traza y retorno. Si alguno de esos elementos falta, no hay cierre. Si falta cierre suficiente sin contradicción material, la salida conserva `U`.
+
+### I.5. Persona como instancia observable y dominio compuesto
+
+Una persona concreta comparece en dos registros complementarios que no deben confundirse. En el primer registro, es instancia singular de una fibra humana en un dominio declarado; nace, despliega presencia, conserva identidad suficiente, deja traza y puede clausurarse. En el segundo registro, es dominio compuesto `Ω_P`: integra órganos, tejidos, células, inmunidad, microbiota, metabolismo, sistema neuroendocrino, documentos, relaciones, memoria, obra, inscripción social y retorno vital. El primer registro permite leer la clausura de la persona como instancia; el segundo permite entender por qué la persona vive mientras integra sub-lazos internos bajo retorno global.
+
+En formulación compacta:
+
+`persona_i ∈ F_humano^Ω_humano`
+
+`Π_sing^Ω_humano(F_humano^Ω_humano,κ_i^comp)=persona_i`
+
+`persona_i ↔ Ω_P` bajo dominio biológico-documental-social declarado
+
+La persona es proyección singular de una fibra humana en un dominio declarado. No es la fibra humana completa, no es la especie, no es la vida, no es el dominio social entero y no es la totalidad de sus trazas. Tampoco es una unidad biológica simple. La identidad de la persona se conserva mientras el dominio puede sostener frontera, retorno vital, continuidad suficiente y traza. Cuando el retorno vital global cae de forma no absorbible, la instancia se clausura localmente; pero esa clausura vital no anula automáticamente los sub-retornos estructurales que sus trazas, células, moléculas, documentos, efectos o memoria puedan mantener en otros dominios.
+
+La fórmula universal de observabilidad se aplica aquí sin biologizar otros planos:
+
+`𝓒★ObsU(persona_i,Ω_humano)=0 ⇔ ΩM_Ω(persona_i), 𝔛human(persona_i), F_Ω(persona_i), I_Ω(persona_i), C_Ω(persona_i), B_Ω(persona_i), Δ_Ω(persona_i), R_Ω(persona_i), Tr_Ω(persona_i) cierran bajo dominio declarado`
+
+La persona entra como observable admitido sólo si la cadena cierra. Si falta identidad, dominio, frontera, canal o retorno, no hay admisión plena. Si existe contradicción material, la salida cae. Si falta cierre suficiente sin contradicción, la salida conserva `U`. Esta regla impide convertir el nombre de una persona, una imagen, una huella genética, una célula aislada o un documento en la persona misma. También impide negar toda persistencia estructural cuando la traza conserva retorno verificable en otro dominio.
+
+### I.6. Clausura vital, retorno global y persistencia de sub-retornos
+
+La clausura vital de una persona no borra la cadena ocurrida. La muerte clausura el retorno vital global de la instancia biológico-corporal, pero pueden permanecer sub-retornos genéticos, celulares, moleculares, documentales, jurídicos, familiares, históricos, técnicos, intelectuales, patrimoniales o sociales. Esos sub-retornos no son la persona viva ni restituyen continuidad plena. Funcionan como retornos estructurales bajo dominios distintos.
+
+La distinción puede escribirse así:
+
+`Cl_ΩP(Ω_P)=1 ⇔ Ret_vital(Ω_P)=0 ∧ R_global^ΩP ≻ L_retorno^ΩP ∧ Tr_ΩP declarada`
+
+`Tr_ΩP(persona_i) ≠ persona_i`
+
+`sub-retorno_k(persona_i) ≠ continuidad_plena(persona_i)`
+
+La traza documental puede comunicar con un archivo, una institución, una obra, una genealogía, una memoria familiar o una investigación histórica. La traza genética puede comunicar con un dominio biológico o forense. La traza intelectual puede comunicar con un dominio académico. La traza jurídica puede comunicar con un dominio administrativo o probatorio. Algunas células, moléculas o tejidos pueden conservar viabilidad o señal parcial durante un tramo; ese sub-retorno tampoco equivale a persona viva. Cada comunicación requiere su propio transductor: no hay comunicación estructural por mera evocación, recuerdo, semejanza o resto material. Deben declararse dominio, canal, diccionario, residual y retorno.
+
+La persona clausurada no queda cancelada retrospectivamente, pero tampoco permanece como si siguiera viva. La formulación evita ambos excesos. La vida formal-biológica de la instancia concluye cuando cae el retorno vital global del dominio persona; la traza conserva inscripción; los sub-retornos pueden seguir operando en dominios derivados; y `U` preserva lo que no pueda cerrarse sin contradicción ni prueba suficiente.
+
+### I.7. Comunicación estructural interna y externa de la persona
+
+La comunicación estructural de una persona debe leerse en dos direcciones: interna y externa. La dirección interna comprende relaciones entre órganos, tejidos, células, inmunidad, microbiota, sistema neuroendocrino y metabolismo. La dirección externa comprende documento, memoria, especie, institución, entorno físico, comunidad, obra y registro. En ambos casos rige la misma disciplina: no hay comunicación estructural por proximidad, simultaneidad, semejanza o nombre compartido; debe haber canal, diccionario, residual y retorno.
+
+La expresión general es:
+
+`Diag_AB^⊥=1 ⇔ Canal_AB^Γ=1 ∧ 𝓓_AB^⊥ apto ∧ R_AB trazado ∧ Δ_sem admisible`
+
+En la comunicación interna, si `A=Ω_inmunidad` y `B=Ω_tejido`, el canal puede consistir en reconocimiento de daño, señal inflamatoria, presentación antigénica, reparación o contención. Si `A=Ω_microbiota` y `B=Ω_tejido`, el canal puede ser simbiosis, tolerancia, metabolito, disbiosis, inflamación o barrera epitelial. Si `A=Ω_célula` y `B=Ω_organismo`, el canal puede ser señalización, apoptosis, proliferación, daño, reparación o retorno funcional. Si `A=Ω_tumor` y `B=Ω_inmunidad`, el canal puede conservar control, quedar en `U` o volverse lesivo por escape inmune. La consolidación de canal no implica beneficio: puede haber simbiosis, tolerancia, defensa, reparación, infección, toxicidad, cáncer, autoinmunidad o sepsis.
+
+En la comunicación externa, si `A=persona_i` y `B=documento_j`, el canal puede consistir en autoría, firma, registro, imagen, texto, expediente, publicación, contrato o inscripción. El diccionario debe declarar qué cuenta como identidad, señal, frontera, soporte, retorno y traza en el dominio documental. Una firma no es la persona; una publicación no es la persona; un expediente no es la persona. Pero cada uno puede consolidar comunicación estructural si permite retorno verificable al dominio correspondiente.
+
+Si `A=persona_i` y `B=F_humano^Ω_bio`, la comunicación estructural se articula por filiación, herencia genética, reproducción posible, descendencia, parentesco, población y continuidad de especie. La persona no agota la fibra humana, pero la fibra puede proyectarse en personas. La muerte de una persona no clausura la especie; la persistencia de la especie no reabre la vida de esa persona. Si `A=persona_i` y `B=institución_k`, el canal puede ser jurídico, administrativo, académico, laboral, sanitario o documental; y la salida exige identidad declarada, expediente o registro, trazabilidad, retorno y residual. Si `A=persona_i` y `B=memoria_social`, el canal es más delicado: la memoria puede conservar traza, interpretación, obra o efecto, pero no continuidad plena. Sin soporte, la memoria queda como evocación no suficiente; con soporte y retorno, puede entrar como traza estructural.
+
+### I.8. Especie como instancia de orden superior y comunicación por trazas
+
+La especie opera en dos planos. Respecto de las personas, puede funcionar como fibra generativa: permite proyecciones singulares compatibles. Respecto de la vida o de dominios biológicos superiores, puede funcionar como instancia de orden mayor: aparece, despliega continuidad, conserva variación, deja trazas y puede extinguirse. Esta doble posición exige disciplina.
+
+`persona_i ∈ F_especie^Ω_bio`
+
+`Cl(persona_i) ≠ Cl(F_especie^Ω_bio)`
+
+`Cl(F_especie^Ω_bio) ≠ Cl(Ω_vida)`
+
+La comunicación estructural de una especie se sostiene mediante población, reproducción, genoma, fósiles, nicho, cultura material, registros, mutaciones, migraciones, extinciones parciales y trazas. Una especie extinta puede conservar comunicación estructural con dominios posteriores por fósiles, ADN antiguo, herramientas, marcas ecológicas o registros sedimentarios. Pero esa comunicación no equivale a continuidad poblacional plena. La traza de una especie extinta permite retorno de lectura; no reconstituye automáticamente la especie como fibra activa.
+
+El caso neandertal ilustra esta restricción. La clausura local de una fibra poblacional no borra la traza genética ni la traza fósil. La introgresión genética puede comunicar estructuralmente con humanos actuales; los fósiles pueden comunicar con paleontología; las herramientas pueden comunicar con arqueología; los genomas antiguos pueden comunicar con biología evolutiva. Pero ninguna de esas trazas autoriza declarar instancia neandertal actual si no existe retorno poblacional bajo dominio declarado.
+
+La especie no es una persona ampliada ni una sustancia colectiva. Es una fibra o instancia de orden superior según el dominio de lectura. Su comunicación estructural exige transductores biológicos, genéticos, paleontológicos, ecológicos, documentales o culturales. Cuando esos transductores cierran, hay retorno estructural. Cuando no cierran, se conserva `U`.
+
+### I.9. Dominio-universo como instancia comunicable sin identificación con totalidad absoluta
+
+El dominio-universo observable ocupa el extremo de escala de esta investigación, pero no cambia la regla. Sólo puede comunicarse estructuralmente mediante señales, trazas, fronteras de observación, métricas, contenidos, retorno físico y residual. No comunica como organismo, no comunica como consciencia, no comunica como voluntad y no comunica como totalidad absoluta. Su condición de observable físico exige dominio declarado.
+
+`Ω_obs ≠ TODO/NADA`
+
+`origen_cosmológico_externo(Ω_obs) ≠ ε−0`
+
+`Tr_Ωobs(Ω_obs) ≠ TODO/NADA`
+
+Las señales cosmológicas, el CMB, las abundancias primordiales, las primeras galaxias, la formación de estructuras, la expansión y los registros astrofísicos pueden operar como trazas físicas de dominio. Permiten comunicación estructural entre el dominio-universo observable y el dominio científico que lo lee. Pero no son el TODO/NADA, no son la primera distinguibilidad preformal y no son continuidad plena del fundamento. La comunicación estructural del universo observable es retorno de lectura bajo banco físico; no es diálogo del universo, no es sintiencia cósmica y no es transmisión al unísono de una voluntad.
+
+La fórmula de observabilidad aplica también aquí:
+
+`𝓒★ObsU(Ω_obs,Ω_fis)=0 ⇔ dominio, frontera, métrica, señal, contenido, canal, residual, retorno y traza cierran bajo banco físico`
+
+Si la pregunta es física y el banco cierra, el resultado puede admitirse en ese dominio. Si la pregunta salta al fundamento preformal, la evaluación debe detenerse: el banco físico no clausura `ε−0`. Si se identifica `Ω_obs` con TODO/NADA, aparece fallo de plano. Si no hay contradicción pero falta cierre suficiente, la salida conserva `U`.
+
+### I.10. Escalado transdominio sin analogía libre
+
+La misma arquitectura permite leer persona, especie y dominio-universo sin afirmar que sean lo mismo. La regla común no borra la diferencia material entre dominios. Cambian frontera, soporte, escala, canal, diccionario, residual y retorno. La persona exige transductor humano, biológico, orgánico, celular, inmune, microbiano, documental o social; la especie exige transductor biológico, genético, evolutivo o paleontológico; el dominio-universo exige transductor físico, cosmológico y metrológico. La universalidad de la regla reside en la exigencia de dominio y residual, no en la igualdad de los objetos.
+
+La familia de transductores expresa esta disciplina:
+
+`𝓖★TrU(D)=𝔛_{D↔SV}=(Ω_D,M_D,F_D,I_D,C_D,B_D,Δ_D,R_D,Tr_D)`
+
+Todo tránsito entre dominios debe pasar por especialización tipada. Una persona no comunica estructuralmente con una especie por metáfora, sino por filiación, genética, reproducción, población, traza y retorno biológico. Una célula no comunica estructuralmente con una persona por conciencia compartida, sino por canal, señal, respuesta y retorno del dominio. Una bacteria no comunica estructuralmente con un tejido por intención, sino por entrada, receptor, metabolito, daño, tolerancia, simbiosis o respuesta. Una persona no comunica estructuralmente con un documento por presencia nominal, sino por firma, autoría, registro, imagen, inscripción, soporte y retorno documental. Una especie no comunica con el dominio-universo por analogía cosmológica, sino por cadena material de dominios: química, Tierra, Sol, galaxia, universo observable, señales y retornos. Cada paso exige residual propio.
+
+La regla final es:
+
+`Comunicación_estructural(A,B)=1 ⇔ transductor_A declarado ∧ transductor_B declarado ∧ canal_AB trazado ∧ diccionario_AB apto ∧ residual_AB admisible ∧ retorno_AB verificable`
+
+La homología de comparadores no autoriza identidad de comparadores. Si falta canal, no hay comunicación estructural. Si falta diccionario, hay contacto o señal no interpretada, no comunicación consolidada. Si falta retorno, no hay cierre. Si falta residual explícito, el resultado no debe declararse cerrado. Si el residual conserva indeterminación sin contradicción, la salida es `U`.
+
+### I.11. Subdominios, intervención externa y retorno del dominio rector
+
+La arquitectura anterior habilita una continuidad de trabajo sobre enfermedad, intervención externa, toxicidad, fármaco, inmunidad, cáncer, microbiota, órgano, tejido y retorno del dominio rector. Esa continuidad no equivale a recomendación clínica, no sustituye diagnóstico, no fija tratamiento y no declara resultados biomédicos sin banco. Su función es formal: ordenar qué subdominio resulta afectado, por qué canal entra el agente, qué diana declara, qué subdominios no diana reciben impacto, qué residual queda abierto y qué retorno conserva o pierde el dominio rector.
+
+La forma general puede escribirse así:
+
+`𝓛T_sub(Ω_s,Ω_R,a)∈{0,1,U}`
+
+`𝓛T_sub(Ω_s,Ω_R,a)=0 ⇔ T_D^SV(D_a,D_s;a)=0 ∧ R_diana(a,Ω_s)=0 ∧ R_no-diana(a,Ω_R)⪯L_ΩR ∧ Ret_ΩR compatible`
+
+`a` designa un agente externo o perturbación: fármaco, quimioterapia, radiación, toxina, patógeno, señal ambiental, intervención quirúrgica o estímulo físico-químico. `Ω_s` designa el subdominio afectado: médula, tejido, célula, linfocito, sistema inmune, microbiota, pulmón, tumor, órgano, barrera, sangre o entorno local. `Ω_R` designa el dominio rector que contiene al subdominio: persona, organismo, planeta, estrella, sistema físico o dominio envolvente declarado. La salida no pregunta sólo si el agente actúa; pregunta si el agente transita por dominios declarados, alcanza una diana, conserva retorno compatible del dominio rector y no deja residuales no absorbibles en subdominios esenciales.
+
+La salida contraria queda:
+
+`𝓛T_sub=1 ⇔ Ret_ΩR incompatible ∨ Canal capturado de forma lesiva ∨ R_no-diana(a,Ω_R)≻L_ΩR`
+
+Y la salida indeterminada:
+
+`𝓛T_sub=U ⇔ falta cierre suficiente sobre diana, canal, subdominios no diana, retorno o traza, sin contradicción material`
+
+Esta regla permite formular con prudencia casos posteriores sin introducirlos como desarrollo dentro de este anexo. En una enfermedad clonal, no basta decir que existe una célula alterada: debe declararse dominio medular o tisular, célula o linaje afectado, canal, expansión, inmunidad, respuesta, residual y retorno de la persona. En una intervención farmacológica, no basta decir que el agente trata la enfermedad: debe declararse tránsito del agente, diana, efecto, daño no diana, recuperación posible, traza analítica o clínica, residual y retorno vital global. En un cáncer sólido, no basta decir que el tratamiento actúa sobre el tumor: debe declararse dominio tumoral, tejido de origen, inmunidad, órganos no diana, toxicidad, respuesta, resistencia, traza y retorno del organismo.
+
+La misma regla escala fuera de la medicina. Un corazón posee gobierno local, pero no independencia absoluta respecto del organismo. Una célula posee frontera y retorno local, pero no agota el tejido. Una bacteria puede ser comensal, simbionte o lesiva según dominio, ubicación, canal y retorno. La Tierra posee gobierno local, pero no independencia absoluta respecto del dominio solar, galáctico o físico que la contiene. Una estrella posee régimen propio, pero queda inscrita en un dominio galáctico. La autonomía local de un subdominio no autoriza aislamiento ontológico; exige doble lectura: gobierno local y dependencia del dominio envolvente.
+
+La fórmula mínima de esa doble lectura es:
+
+`Autonomía_local(Ω_s)=1 ⇔ Ω_s conserva frontera, canal, residual y retorno propios`
+
+`Independencia_absoluta(Ω_s)=0 si Ω_s ⊂ Ω_R`
+
+El anexo, por tanto, no desarrolla medicina SV, ecología SV ni física de subdominios como programas completos. Fija la arquitectura que permitirá analizarlos después sin reabrir los teoremas obtenidos: dominio rector, subdominio local, agente externo, tránsito, canal, diccionario, residual, retorno, traza y conservación de `U`.
+
+### I.12. Continuidad dirigida hacia biología, medicina y orden compartido
+
+Esta formulación deja abiertas dos continuidades dirigidas. La primera continuidad dirigida queda vinculada nominalmente a la colección *Biología molecular y medicina: del par estructural a la célula viva* (Lloret Egea, 2026f), DOI `https://doi.org/10.21428/39829d0b.624921db`, especialmente en continuidad con *Proyecciones biológicas de la fibra* (Lloret Egea, 2026d). La segunda continuidad dirigida queda vinculada nominalmente a la colección *Protocomunidades, protosemántica y orden compartido* (Lloret Egea, 2026g), DOI `https://doi.org/10.21428/39829d0b.04543fec`.
+
+La continuidad biológico-médica toma del anexo la noción de dominio rector y subdominio local. Una enfermedad, una respuesta inmune, una célula tumoral, una intervención farmacológica o una toxicidad no deben leerse como eventos aislados ni como metáforas de guerra, sino como tránsitos entre dominios con diana, subdominios no diana, canal, diccionario, residual, retorno y traza. El desarrollo posterior en *Biología molecular y medicina: del par estructural a la célula viva* tendrá que declarar bancos, límites, métricas externas y retorno clínico-biológico; este anexo no los anticipa ni los sustituye.
+
+La continuidad protocomunitaria toma del anexo la noción de comunicación estructural, señal, memoria, canal y diccionario. Una agrupación no se declara comunidad por nombre; una señal no se declara lenguaje por analogía; una regularidad no se declara regla por repetición; una cultura material no se declara civilización sin umbrales suficientes. La cadena presión vital → agrupación → individuación → protoindividuo → relación compatible → memoria de relación → señal compartida → protosemántica → coordinación → protocomunidad → orden compartido → regla → protoley → sacralidad → cultura → sociedad → civilización corresponde a la colección *Protocomunidades, protosemántica y orden compartido* (Lloret Egea, 2026g), DOI `https://doi.org/10.21428/39829d0b.04543fec`. El anexo sólo conserva el punto común: dominio, entidad, frontera, canal, memoria o traza, residual, retorno y `U`.
+
+La forma de continuidad dirigida queda:
+
+`Continuidad_dirigida(Ω_x)=1 ⇔ coleccion_posterior_declarada ∧ dominio_x delimitado ∧ tránsito_x no cerrado en este anexo ∧ R_x conservado ∧ U preservada`
+
+Y la restricción de alcance:
+
+`anexo_actual ≠ coleccion_Biologia_molecular_y_medicina ≠ coleccion_Protocomunidades`
+
+Esta continuidad impide dos errores. El primero sería abrir una publicación nueva dentro del anexo. El segundo sería dejar sin dirección formal los casos que el anexo ya habilita. La solución estable es declarar continuidad nominal y colección de desarrollo, no desarrollar el programa aquí. Así, el anexo cierra su función propia y deja preparadas las líneas posteriores sin invadirlas.
+
+### I.13. Restricción final del anexo
+
+Este anexo no añade un nuevo fundamento. No modifica el teorema de recursión de vida y clausura. No convierte la vida formal de instancia en vida biológica universal. No convierte la comunicación estructural en lenguaje sintiente. No atribuye agencia a persona clausurada, especie, galaxia, universo observable ni TODO/NADA. Su función es más precisa: mostrar que la instancia admitida bajo dominio puede conservar comunicación estructural por traza y retorno, y que una persona viva se sostiene por integración de sub-lazos internos bajo retorno vital global, siempre que esa integración no sea confundida con conciencia central ni con participación privilegiada en el lazo global.
+
+La persona clausurada puede permanecer como traza documental, genética, social, jurídica, histórica o intelectual; no por ello sigue viva como instancia. Algunas células, moléculas, restos o señales pueden conservar sub-retornos parciales; no por ello permanece el retorno vital global del dominio persona. La especie extinta puede permanecer como traza fósil, genómica, ecológica o arqueológica; no por ello continúa como población activa. El dominio-universo observable puede conservar señales físicas y retornos cosmológicos; no por ello ocupa el lugar del TODO/NADA. La comunicación estructural conserva inscripción y retorno; la clausura conserva su límite; `U` conserva lo no cerrado.
+
+Con esta precisión, la arquitectura de la investigación queda reforzada: vida, clausura, observabilidad, comparador, lazo, tránsito por dominios, comunicación estructural y dominio no son planos separados ni mezclados libremente. Forman una secuencia disciplinada: instancia bajo dominio, admisión por observabilidad, vida formal o biológica según caso, sub-lazos locales cuando el dominio es compuesto, tránsito antecedente y derivado cuando procede, intervención externa sólo como línea posterior declarada, clausura local, traza, comunicación estructural por canal y diccionario, residual explícito, retorno y conservación de `U` cuando el cierre no procede.
 
 ## Bibliografía
+
+American Museum of Natural History. (s. f.). *Hall of primitive mammals*. https://www.amnh.org/exhibitions/permanent/primitive-mammals
+
+Ensembl Project. (s. f.). *Neandertal Genome Browser*. European Bioinformatics Institute / Ensembl. https://projects.ensembl.org/neandertal/
+
+European Space Agency. (s. f.). *Planck and the cosmic microwave background*. https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_and_the_cosmic_microwave_background
+
+European Space Agency. (2013, 21 de marzo). *Planck reveals an almost perfect Universe*. https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_reveals_an_almost_perfect_Universe
+
+European Space Agency. (2016, 27 de mayo). *Rosetta's comet contains ingredients for life*. https://www.esa.int/Science_Exploration/Space_Science/Rosetta/Rosetta_s_comet_contains_ingredients_for_life
+
+European Space Agency. (2018, 31 de octubre). *Galactic ghosts: Gaia uncovers major event in the formation of the Milky Way*. https://www.esa.int/Science_Exploration/Space_Science/Gaia/Galactic_ghosts_Gaia_uncovers_major_event_in_the_formation_of_the_Milky_Way
+
+European Space Agency. (2022, 23 de marzo). *Gaia finds parts of the Milky Way much older than expected*. https://www.esa.int/Science_Exploration/Space_Science/Gaia/Gaia_finds_parts_of_the_Milky_Way_much_older_than_expected
+
+European Space Agency. (2023, 19 de diciembre). *Gaia's decade of discoveries: unravelling the intricacies of our galaxy*. https://www.esa.int/Science_Exploration/Space_Science/Gaia/Gaia_s_decade_of_discoveries_unravelling_the_intricacies_of_our_galaxy
 
 Fourier, J. B. J. (1822). *Théorie analytique de la chaleur*. Firmin Didot.
 
@@ -255,23 +1095,6 @@ Green, R. E., Krause, J., Briggs, A. W., Maricic, T., Stenzel, U., Kircher, M., 
 Higham, T., Douka, K., Wood, R., Bronk Ramsey, C., Brock, F., Basell, L., Camps, M., Arrizabalaga, A., Baena, J., Barroso-Ruíz, C., Bergman, C., Boitard, C., Boscato, P., Caparrós, M., Conard, N. J., Draily, C., Froment, A., Galván, B., Gambassini, P., ... Jacobi, R. (2014). The timing and spatiotemporal patterning of Neanderthal disappearance. *Nature, 512*(7514), 306–309. https://doi.org/10.1038/nature13621
 
 Hublin, J.-J., Ben-Ncer, A., Bailey, S. E., Freidline, S. E., Neubauer, S., Skinner, M. M., Bergmann, I., Le Cabec, A., Benazzi, S., Harvati, K., & Gunz, P. (2017). New fossils from Jebel Irhoud, Morocco and the pan-African origin of Homo sapiens. *Nature, 546*(7657), 289–292. https://doi.org/10.1038/nature22336
-
-Ensembl Project. (s. f.). *Neandertal Genome Browser*. European Bioinformatics Institute / Ensembl. https://projects.ensembl.org/neandertal/
-
-Max Planck Institute for Evolutionary Anthropology. (s. f.). *Draft Neandertal genome: Data*. https://www.eva.mpg.de/genetics/genome-projects/neandertal/draft-neandertal-genome/data/
-
-National Center for Biotechnology Information. (s. f.). *Homo sapiens neanderthalensis mitochondrion, complete genome* (RefSeq NC_011137.1). NCBI Nucleotide. https://www.ncbi.nlm.nih.gov/nuccore/196123578
-
-National Human Genome Research Institute. (2013, 11 de julio). *Complete Neanderthal genome sequenced*. Genome.gov. https://www.genome.gov/27539119/2010-release-complete-neanderthal-genome-sequenced
-
-UCSC Genome Browser. (s. f.). *Neandertal Genome Analysis Consortium Tracks at UCSC*. University of California Santa Cruz. https://genome.ucsc.edu/Neandertal/
-
-
-Fundación Atapuerca. (2020). *Las proteínas de Homo antecessor* [PDF]. https://www.atapuerca.org/media/doc/4b064434-f912-03f9-27a39b18d37218b0.pdf
-
-Natural History Museum. (s. f.). *Modern humans, Homo sapiens: When, where and how did we evolve?* https://www.nhm.ac.uk/discover/modern-humans-homo-sapiens-when-where-how-did-we-evolve.html
-
-Smithsonian Institution. (2024, 3 de enero). *Homo sapiens*. Smithsonian Human Origins Program. https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens
 
 Lloret Egea, J. A. (2026a). *Edades relativas del universo observable y de sus objetos físicos*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.b56ed853
 
@@ -282,3 +1105,69 @@ Lloret Egea, J. A. (2026c). *Potencial de un suceso: comunicación estructural e
 Lloret Egea, J. A. (2026d). *Proyecciones biológicas de la fibra: Teoría de la Creación de Observables del Universo, transducción metrológica, mutación, enfermedad, cáncer y clausura factual*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.1ab33893
 
 Lloret Egea, J. A. (2026e). *Teoría del TODO y de la NADA en el Sistema Vectorial SV: refundación factual sobre el corpus del suceso, distancia factual fibrosa, célula configuracional K₃ⁿ, frontera común (μ, λ) = (0, 0) y verificador ternario fuerte*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.17613/k3q1d-fjj45
+
+Lloret Egea, J. A. (2026f). *Biología molecular y medicina: del par estructural a la célula viva* [Colección]. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.624921db
+
+Lloret Egea, J. A. (2026g). *Protocomunidades, protosemántica y orden compartido* [Colección]. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.04543fec
+
+Max Planck Institute for Evolutionary Anthropology. (s. f.). *Draft Neandertal genome: Data*. https://www.eva.mpg.de/genetics/genome-projects/neandertal/draft-neandertal-genome/data/
+
+NASA. (s. f.-a). *Cosmic history*. NASA Science. https://science.nasa.gov/universe/overview/
+
+NASA. (s. f.-b). *Sun*. NASA Science. https://science.nasa.gov/sun/
+
+NASA. (2004, 12 de octubre). *Jack Hills, Australia*. https://www.nasa.gov/image-article/jack-hills-australia/
+
+NASA. (2012, 10 de mayo). *Basics — Composition — Nucleosynthesis*. NASA Cosmicopia. https://cosmicopia.gsfc.nasa.gov/nucleo.html
+
+NASA. (2021, 15 de septiembre). *How did the elemental composition of the Universe evolve?* NASA Imagine the Universe. https://imagine.gsfc.nasa.gov/science/questions/composition.html
+
+NASA. (2023, 28 de septiembre). *Galaxies over time*. NASA Science. https://science.nasa.gov/mission/webb/galaxies-over-time/
+
+NASA. (2024a, 22 de agosto). *Early Universe*. NASA Science / James Webb Space Telescope. https://science.nasa.gov/mission/webb/early-universe/
+
+NASA. (2024b, 21 de noviembre). *NASA: Mystery of life's handedness deepens*. https://www.nasa.gov/science-research/planetary-science/astrobiology/nasa-mystery-of-lifes-handedness-deepens/
+
+NASA. (2025, 26 de marzo). *NASA's Webb sees galaxy mysteriously clearing fog of early universe*. NASA Science. https://science.nasa.gov/missions/webb/nasas-webb-sees-galaxy-mysteriously-clearing-fog-of-early-universe/
+
+NASA Astrobiology. (s. f.). *How did our Solar System form?* NASA Astrobiology Learning Resources. https://astrobiology.nasa.gov/education/alp/how-did-our-solar-system-form/
+
+NASA Astrobiology. (2026a, 16 de mayo). *Are we really made of star stuff?* NASA Science. https://science.nasa.gov/astrobiology/learning-resources/alp/are-we-really-made-of-star-stuff/
+
+NASA Astrobiology. (2026b, 13 de mayo). *What are the sources of life's building blocks outside Earth?* NASA Science. https://science.nasa.gov/astrobiology/learning-resources/alp/sources-of-lifes-building-blocks-outside-earth/
+
+NASA Astrobiology. (2026c, 13 de mayo). *What are the sources of life's building blocks within Earth?* NASA Science. https://science.nasa.gov/astrobiology/learning-resources/alp/sources-of-lifes-building-blocks/
+
+NASA Earth Observatory. (2006, 1 de marzo). *Ancient crystals suggest earlier ocean*. NASA Science. https://science.nasa.gov/earth/earth-observatory/ancient-crystals-suggest-earlier-ocean/
+
+NASA Goddard Space Flight Center. (s. f.). *Murchison meteorite*. https://science.gsfc.nasa.gov/691/analytical/about/basic-explanation.html
+
+NASA Goddard Space Flight Center. (2013, 17 de octubre). *Oldest light in the universe*. NASA Scientific Visualization Studio. https://svs.gsfc.nasa.gov/30133/
+
+NASA Space Place. (2019, 24 de enero). *How old are galaxies?* NASA / Jet Propulsion Laboratory. https://spaceplace.nasa.gov/galaxies-age/
+
+National Center for Biotechnology Information. (s. f.). *Homo sapiens neanderthalensis mitochondrion, complete genome* (RefSeq NC_011137.1). NCBI Nucleotide. https://www.ncbi.nlm.nih.gov/nuccore/196123578
+
+National Human Genome Research Institute. (2013, 11 de julio). *Complete Neanderthal genome sequenced*. Genome.gov. https://www.genome.gov/27539119/2010-release-complete-neanderthal-genome-sequenced
+
+Natural History Museum. (s. f.-a). *The Cambrian Period: How animals exploded onto the scene*. https://www.nhm.ac.uk/discover/the-cambrian-period.html
+
+Natural History Museum. (s. f.-b). *Modern humans, Homo sapiens: When, where and how did we evolve?* https://www.nhm.ac.uk/discover/modern-humans-homo-sapiens-when-where-how-did-we-evolve.html
+
+Natural History Museum. (s. f.-c). *The origin of our species*. https://www.nhm.ac.uk/discover/the-origin-of-our-species.html
+
+Natural History Museum. (2024, 7 de agosto). *Early mammals lived for longer than their modern relatives*. https://www.nhm.ac.uk/discover/news/2024/august/early-mammals-lived-for-longer-than-their-modern-relatives.html
+
+Natural History Museum. (2025, 15 de mayo). *Earliest reptile footprints could be the first known signs of true terrestrial life*. https://www.nhm.ac.uk/discover/news/2025/may/earliest-reptile-footprints-could-be-first-known-signs-true-terrestrial-life.html
+
+Scally, A., Dutheil, J. Y., Hillier, L. W., et al. (2012). Insights into hominid evolution from the gorilla genome sequence. *Nature, 483*, 169–175. https://doi.org/10.1038/nature10842
+
+Smithsonian Institution. (2024a, 9 de julio). *Genetics*. Smithsonian Human Origins Program. https://humanorigins.si.edu/evidence/genetics
+
+Smithsonian Institution. (2024b, 3 de enero). *Homo sapiens*. Smithsonian Human Origins Program. https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens
+
+U.S. Geological Survey. (2007). *Geologic Time: Age of the Earth*. https://pubs.usgs.gov/gip/geotime/age.html
+
+UCSC Genome Browser. (s. f.). *Neandertal Genome Analysis Consortium Tracks at UCSC*. University of California Santa Cruz. https://genome.ucsc.edu/Neandertal/
+
+Yoo, D., Rhie, A., Hebbar, P., Antonacci, F., Logsdon, G. A., Solar, S. J., ... Eichler, E. E. (2025). Complete sequencing of ape genomes. *Nature, 641*(8062), 401–418. https://doi.org/10.1038/s41586-025-08816-3
