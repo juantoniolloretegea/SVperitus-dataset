@@ -2,12 +2,7 @@
 
 ## Humanos, especies, estrellas y dominios recursivos bajo circularidad no agotada y lectura armónica por Fourier
 
-**Autor:** Juan Antonio Lloret Egea  
-**ORCID:** 0000-0002-6634-3351  
-**Publicación:** IA eñ™ — La Biblia de la IA™  
-**ISSN:** 2695-6411  
-**Licencia:** CC BY-NC-ND 4.0  
-**Lugar y fecha:** Madrid, 2026
+© 2026. Todos los derechos reservados. | [Juan Antonio Lloret Egea](https://orcid.org/0000-0002-6634-3351) | DOI [pendiente| | [ORCID: 0000-0002-6634-3351](https://orcid.org/0000-0002-6634-3351) | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ — La Biblia de la IA™ | ISSN 2695-6411 | Licencia [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es) | Madrid, 31/05/2026 |
 
 ## Resumen
 
