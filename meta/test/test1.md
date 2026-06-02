@@ -21,14 +21,14 @@ II. Observable realizado, instancia y fibra
 III. Dominio, frontera, identidad y soporte  
 IV. Clausura local, traza, residual y conservación de `U`  
 V. Circularidad de retorno y ciclo acotado de instancia  
-VI. Reactivación espiral y no agotamiento del cierre  
-VII. Medida transducida, horizonte de retorno y referencia raigal  
+VI. Reactivación espiral y lectura no idéntica del cierre  
+VII. Medición transducida, horizonte de retorno y referencia raigal  
 VIII. Cuerpos, organismos, especies y linajes  
 IX. Estrellas, galaxias y dominios físicos de gran escala  
 X. Universo observable, dominio-universo y no identificación con totalidad absoluta  
-XI. Fórmula rectora de vida, clausura, retorno y medida de observables realizados  
+XI. Fórmula rectora de comparecencia, clausura, retorno y medición transducida  
 XII. Prueba inversa contra conjuntos de contraste  
-XIII. Teorema de comparecencia, clausura y retorno medido del observable realizado  
+XIII. Teorema de comparecencia, clausura y retorno del observable realizado  
 XIV. Criterio de refutación, límites de alcance y conservación de `U`  
 XV. Conclusión general  
 XVI. Bibliografía
@@ -186,3 +186,37 @@ La prueba de clausura local exige recorrer la cadena completa: dominio, frontera
 ### IV.8. Clausura local y circularidad de retorno
 
 La clausura local no termina en una nada indiferenciada. Todo cierre admisible devuelve algo al dominio: traza, residual, inscripción, pérdida, remanente, señal o límite de lectura. Ese retorno no repite la instancia ni la mantiene intacta; permite leer el cierre dentro de un ciclo acotado y distinguirlo de una clausura absoluta. La circularidad de retorno se sostiene sobre esa diferencia: una instancia puede quedar clausurada, pero su traza puede regresar al dominio como lectura, contraste o memoria material sin reabrir la presencia clausurada. Sólo hay circularidad de retorno si la clausura local conserva traza, residual y retorno atribuible; sólo hay ciclo de instancia si el cierre pertenece a un dominio declarado; sólo hay nueva lectura si `U` no se clausura por analogía. `CircRet_Ω(o)` designa la cadena formada por instancia admitida, clausura local, traza, residual, retorno y límite de dominio. Desde esa cadena, la circularidad no se convierte en geometría externa, metáfora autónoma ni repetición de la instancia cerrada.
+
+## V. Circularidad de retorno y ciclo acotado de instancia
+
+### V.1. Circularidad de retorno
+
+La circularidad de retorno nombra el régimen por el cual una instancia clausurada devuelve lectura al dominio sin repetirse como presencia activa. No añade una figura externa al análisis ni convierte la clausura en movimiento físico universal. Recoge lo ya ganado: dominio declarado, frontera o límite equivalente, identidad suficiente, soporte, traza, residual y retorno. Una persona fallecida no retorna como vida orgánica, pero su traza puede regresar al dominio documental, biográfico, relacional o material; una especie extinguida no retorna como población viva, pero su registro fósil, genético o ecológico puede mantener lectura; una estrella agotada no retorna como régimen activo, pero su remanente, su radiación o su composición devuelta al entorno conservan inscripción física. En el universo observable, el retorno procede mediante señal, horizonte, métrica, edad de dominio y contenido retornado, sin convertir ese dominio en totalidad absoluta. `CircRet_Ω(o)` designa la lectura circular de una clausura local: la instancia `o` se cierra en `Ω`, deja traza, conserva residual y permite retorno atribuible sin reabrir la presencia clausurada.
+
+### V.2. Ciclo acotado de instancia
+
+El ciclo acotado de instancia describe la secuencia de comparecencia, despliegue, pérdida de retorno propio, traza y clausura local dentro de un dominio. No equivale a ciclo eterno ni a repetición idéntica. Su límite procede del dominio que admite la instancia y de la frontera que la distingue. Un organismo nace, vive, deja trazas, pierde retorno vital y puede quedar inscrito en memoria material o documental; una especie aparece como población, despliega linajes, conserva variación, puede extinguirse y permanecer mediante registros; una estrella se forma, sostiene un régimen físico, transforma materia, agota su fase activa y deja remanente; una galaxia puede variar morfología, población estelar y señal manteniendo legibilidad de dominio. La notación `Cic_Ω(o)=⟨Comp_Ω(o), Despl_Ω(o), PérdRet_Ω(o), Tr_Ω(o), ClLoc_Ω(o)⟩` reúne esos momentos sin imponer cronología absoluta. El ciclo pertenece a la instancia; no agota la fibra ni el dominio que la sostiene.
+
+### V.3. Retorno sin repetición
+
+El retorno circular no repite la instancia. Devuelve al dominio una lectura transformada: traza, residual, remanente, señal, inscripción o límite. Esta diferencia evita dos errores. El primero consiste en confundir retorno con permanencia: la traza de una especie extinguida no equivale a población viva; la radiación o el remanente de una estrella no equivalen a régimen activo; la edad cosmológica de dominio no equivale a edad de totalidad. El segundo error consiste en negar todo retorno por haber cesado la instancia: una muerte no anula toda traza, una extinción no elimina todo registro, un agotamiento estelar no cancela todo retorno físico. `RetCirc_Ω(o)=1` queda admitido cuando la clausura local conserva inscripción legible y residual visible bajo dominio; `RetCirc_Ω(o)=0` expresa retorno compatible; `RetCirc_Ω(o)=U` preserva indeterminación si la traza no basta para cerrar la lectura. El retorno circular conserva la instancia como lectura, no como presencia.
+
+### V.4. Frontera del ciclo
+
+Todo ciclo acotado necesita frontera. Sin límite de dominio, la circularidad se vuelve figura sin prueba; sin residual, se vuelve cierre indebido; sin traza, se vuelve afirmación sin custodia; sin retorno, se vuelve clausura opaca. La frontera del ciclo puede aparecer como límite orgánico, continuidad de linaje, régimen físico, remanente estelar, horizonte de señal o marco documental. Cada caso decide su propia materia de frontera, pero la exigencia formal se mantiene: la instancia sólo puede circular como lectura si el dominio declara qué cierra, qué conserva y qué devuelve. `FronCic_Ω(o)=1` requiere límite de instancia, traza atribuible, residual visible y retorno compatible. Si la frontera se toma de otro dominio sin transducción, la lectura falla; si falta información sin contradicción, se conserva `U`.
+
+### V.5. Circularidad, fibra y dominio
+
+La circularidad de retorno no pertenece sólo a la instancia aislada. Actúa en la zona de contacto entre clausura local, fibra y dominio. La instancia se clausura; la fibra puede conservar continuidad de lectura; el dominio decide qué retorno resulta admisible. Una persona deja traza en una fibra familiar, documental o social; una especie deja registro en una fibra evolutiva; una estrella devuelve materia, radiación o perturbación al dominio físico; una galaxia conserva señales y transformaciones que permiten lectura de estructura; el universo observable conserva retornos físicos de horizonte, señal y métrica. La fórmula `CircRet_Ω(o) ⇒ ClLoc_Ω(o) ∧ Tr_Ω(o) ∧ Res_Ω(o) ∧ Ret_Ω(o)` fija la dependencia estricta: no hay circularidad de retorno sin clausura local, traza, residual y retorno. La fibra no queda clausurada por la instancia; el dominio no queda sustituido por la fibra; el retorno no reabre lo cerrado.
+
+### V.6. Ciclo acotado y medición posible
+
+La circularidad de retorno puede admitir medición transducida, pero no la exige siempre. Cuando el dominio declara magnitud, unidad, transductor, residual y traza, el retorno puede pasar a medición; cuando falta alguno de esos elementos, la circularidad puede conservar lectura sin cifra. Una edad de dominio, una señal radiativa, una masa remanente o una magnitud biológica sólo alcanzan valor medido si la cadena metrológica resulta declarada. En ausencia de esa cadena, la lectura puede seguir siendo válida como traza, registro o retorno cualitativo, sin clausura numérica. `MedCirc_Ω^X(o)=1` requiere magnitud `X`, dominio `Ω`, unidad nativa, unidad externa, transductor, residual y traza; `MedCirc_Ω^X(o)=U` conserva la indeterminación ante falta de alguno de esos elementos sin contradicción. La medición transducida, por tanto, se injerta sobre la circularidad; no sustituye la clausura local ni corrige la ausencia de dominio.
+
+### V.7. Fallos de circularidad
+
+La circularidad falla cuando se transforma en geometría autónoma, repetición de la instancia, continuidad plena sin prueba o cierre absoluto. También falla cuando el retorno se toma como identidad activa, cuando la traza se interpreta como presencia o cuando el ciclo de una instancia se usa para clausurar la fibra. Una especie extinguida no revive por conservar fósiles; una estrella agotada no permanece como estrella activa por dejar remanente; una señal cosmológica no convierte el universo observable en totalidad; una biografía no sustituye la vida orgánica. La salida `ErrCirc_Ω(o)=1` corresponde a esos saltos de plano. El cierre compatible exige dominio declarado, límite de instancia, traza, residual y retorno atribuible. Si la pregunta conserva forma válida y falta cierre suficiente, la salida se mantiene en `U`. La circularidad no autoriza conclusiones por analogía; sólo ordena retornos bajo dominio.
+
+### V.8. Resultado del apartado
+
+La circularidad de retorno queda establecida como lectura acotada de la clausura local. Su función consiste en impedir que el cierre de una instancia se confunda con desaparición absoluta o con permanencia intacta. Entre ambos errores, conserva la vía rigurosa: instancia clausurada, traza atribuible, residual visible, retorno de dominio y límite de lectura. El ciclo acotado permite seguir cuerpos, especies, estrellas, galaxias y universo observable sin igualarlos materialmente. Cada dominio decide la materia de su frontera, pero todos deben declarar qué cierra, qué retorna y qué permanece sin resolver. A partir de esta base, la reactivación espiral podrá formularse como lectura no idéntica del cierre, no como cronología física, progreso lineal ni repetición del ciclo clausurado.
