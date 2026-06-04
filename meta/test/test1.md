@@ -13,10 +13,9 @@
 
 ## **Resumen**
 
-
-
 La cosmología física contemporánea fija el régimen observacional de rotación, vorticidad, anisotropía y momento angular cosmológico mediante el CMB, `ΛCDM` y los límites de isotropía (Planck Collaboration, Aghanim, *et al*., 2020; Planck Collaboration, Akrami, et al., 2020; Saadeh et al., 2016). Este trabajo sitúa ahí la frontera externa de traducción y formula la tesis propia del Sistema Vectorial SV: el dominio-universo físico realizado presenta circulación de retorno bajo dominio, frontera, potencial, intensidad, centro de lectura, brazo, traza, residual y conservación *append-only*. Cuando esa circulación conserva centro, brazo y momento interno de retorno, el régimen se identifica como giro. **Ante una lectura externa superior, el dominio-universo físico comparece como átomo formal de clausura**, es decir, como unidad indivisa de dominio realizada bajo frontera, identidad, residual y retorno. La demostración no parte de la cosmología contemporánea, de la mecánica cuántica, de la geodinamo ni de la tabla periódica convencional como fuentes de verdad del SV; **esos marcos actúan como referencias externas de contraste y retorno**. La formulación parte de la Línea del Umbral SV, de la teoría de persistencia energética estructural desarrollada en la génesis del hidrógeno, del dominio extendido Ω₄₄₃ y del Catálogo de Pares Estructurales SV, donde ya se demuestra que el SV extiende un dominio no empírico, lo recorre de modo determinista y concluye formalmente su realización mediante criterios internos. La cadena resultante avanza por dominio, frontera, persistencia, traza, residual, retorno, conclusión formal y no agotamiento. La formulación incorpora el vector directriz de la Línea del Umbral SV, `υ_U^SV=(1,1)`, y su extensión al tránsito entre dominios mediante `u_D^SV:=𝔇_ΓΩ_D^SV`; así, la orientación polar, la variación factual y el vector residual ingresan en una misma condición de paso. El tránsito perfecto exige residual nulo; el tránsito gobernado admite residual declarado, acotado y visible, sin resolución simulada.
 
+---
 ## **Índice**
 
 Resumen
@@ -66,6 +65,7 @@ Conclusión final del autor
 Anexo A. Trivialización, TODO/NADA e Imperfección: la terna `1-0-U`, la U honesta y el corolario de transducción no confinante
 
 Bibliografía
+
 ---
 
 ## **Estado del arte físico y formal de referencia**
