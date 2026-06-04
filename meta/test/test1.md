@@ -65,8 +65,9 @@ Conclusión final del autor
 
 Anexo A. Trivialización, TODO/NADA e Imperfección: la terna `1-0-U`, la U honesta y el corolario de transducción no confinante
 
+---
+
 Bibliografía
-------------------------------------------------------------------------
 
 ## **Estado del arte físico y formal de referencia**
 
