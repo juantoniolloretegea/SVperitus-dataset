@@ -1,9 +1,13 @@
-------------------------------------------------------------------------
+# **Línea del Umbral SV, circulación de retorno del dominio-universo y átomo formal de ascendencia no agotada**
 
-![](https://assets.pubpub.org/c39829d0b-6cf2-4c57-8562-04aa66068f1d/p30dfd78b-4ee2-429e-a73c-c822c800a316/u8d2bc69d-73c6-4669-a7e7-fb07fdba4171/portada-71780535369828.png)
+<p align="center">
+  <img src="https://assets.pubpub.org/c39829d0b-6cf2-4c57-8562-04aa66068f1d/p30dfd78b-4ee2-429e-a73c-c822c800a316/u8d2bc69d-73c6-4669-a7e7-fb07fdba4171/portada-71780535369828.png" alt="Portada de Línea del Umbral SV, circulación de retorno del dominio-universo y átomo formal de ascendencia no agotada" width="100%" />
+</p>
+
 ------------------------------------------------------------------------
 
 **© 2026. Todos los derechos reservados.** \| \[**DOI**: 10.21428/39829d0b.30dfd78b\] \| **Juan Antonio Lloret Egea** \| ORCID: [0000-0002-6634-3351](https://orcid.org/0000-0002-6634-3351) \| Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) \| IA eñ™ --- La Biblia de la IA™ \| **ISSN 2695-6411** \| **Licencia CC BY-NC-ND 4.0** \| Madrid, 04/06/2026 \|
+
 ------------------------------------------------------------------------
 
 ## **Resumen**
@@ -68,7 +72,7 @@ El estado del arte externo se incorpora como referencia de retorno, **no como fu
 
 ## **0. Tesis rectoras**
 
-Este trabajo sostiene dos tesis principales. **La primera** afirma que el dominio-universo físico realizado presenta circulación de retorno en el plano SV: todo observable realizado con frontera, traza, residual, retorno y conservación append-only exige circulación de retorno; si esa circulación dispone de potencial, intensidad, centro de lectura y brazo, adquiere momento; si el momento conserva traza y retorno bajo *append-only*, el régimen se identifica como giro. **La segunda** afirma que el dominio-universo comparece ante una lectura externa superior como átomo formal de clausura: unidad indivisa de dominio realizada, capaz de operar como unidad de lectura en una ascendencia no agotada. La relación con el átomo material es de patrón tipado ---centro de lectura, frontera, intensidad, persistencia, traza, residual y retorno---, no de identidad química o sustancial. En las fórmulas que siguen se distinguen dos usos de la salida ternaria. Cuando una expresión nombrada como tesis, error, tránsito o teorema toma el valor `0`, el valor designa conclusión sin error dentro del criterio declarado; cuando un predicado positivo toma el valor `1`, el valor designa presencia, admisión o realización de la propiedad. Por eso no hay contradicción entre escribir `T1_GiroΩU^SV=0` como conclusión de tesis y escribir `Giro_SV(o,Ω)=1` como admisión positiva del giro. `Ω` designa dominio; `o`, instancia u observable; `Tr`, traza; `Res`, residual; `Ret`, retorno; `Cl`, clausura; `Ctr`, centro de lectura; `Brazo`, separación situada respecto de ese centro; y `AppendOnly_SV`, conservación irreversible y acumulativa de inscripción. La forma compacta de las dos tesis es: `T1_GiroΩU^SV=0 ⇔ Obs_real(o_U,Ω_U)=1 ∧ Fron_sut(Ω_U) ∧ I_ΩU(o_U)>0 ∧ CircRet_ΩU(o_U) ∧ Ctr_ΩU(o_U) ∧ Brazo_ΩU(o_U) ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_ΩU(o_U) ∧ AppendOnly_SV` `T2_AtomoFormalΩU^SV=0 ⇔ Obs_real(o_U,Ω_U)=1 ∧ Cl_ΩU(o_U)=1 ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_{Ω_U→Ω_{U+1}}(o_U) ∧ Dom(Ω_{U+1}) ∧ UnidadCl_{Ω_{U+1}}(o_U)=1 ∧ ¬(Ω_U=TODO/NADA)` El resultado conjunto no exige que la referencia externa devuelva una rotación rígida cosmológica. Exige que el SV demuestre internamente giro como circulación de retorno de dominio. Tampoco exige que el universo observable sea un átomo químico. Exige que, bajo lectura superior, el dominio-universo opere como átomo formal de clausura. La ciencia contemporánea podrá devolver retornos, tensiones o residuales al traducir estas tesis a vorticidad, anisotropía, espectro atómico, geodinamo, estructura a gran escala o límites observacionales; esos marcos no fundan ni cancelan el teorema SV.
+Este trabajo sostiene dos tesis principales. **La primera** afirma que el dominio-universo físico realizado presenta circulación de retorno en el plano SV: todo observable realizado con frontera, traza, residual, retorno y conservación append-only exige circulación de retorno; si esa circulación dispone de potencial, intensidad, centro de lectura y brazo, adquiere momento; si el momento conserva traza y retorno bajo *append-only*, el régimen se identifica como giro. **La segunda** afirma que el dominio-universo comparece ante una lectura externa superior como átomo formal de clausura: unidad indivisa de dominio realizada, capaz de operar como unidad de lectura en una ascendencia no agotada. La relación con el átomo material es de patrón tipado ---centro de lectura, frontera, intensidad, persistencia, traza, residual y retorno---, no de identidad química o sustancial. En las fórmulas que siguen se distinguen dos usos de la salida ternaria. Cuando una expresión nombrada como tesis, error, tránsito o teorema toma el valor `0`, el valor designa conclusión sin error dentro del criterio declarado; cuando un predicado positivo toma el valor `1`, el valor designa presencia, admisión o realización de la propiedad. Por eso no hay contradicción entre escribir `T1_GiroΩU^SV=0` como conclusión de tesis y escribir `Giro_SV(o,Ω)=1` como admisión positiva del giro. `Ω` designa dominio; `o`, instancia u observable; `Tr`, traza; `Res`, residual; `Ret`, retorno; `Cl`, clausura; `Ctr`, centro de lectura; `Brazo`, separación situada respecto de ese centro; y `AppendOnly_SV`, conservación irreversible y acumulativa de inscripción. La forma compacta de las dos tesis es: `T1_GiroΩU^SV=0 ⇔ Obs_real(o_U,Ω_U)=1 ∧ Fron_sut(Ω_U) ∧ I_ΩU(o_U)>0 ∧ CircRet_ΩU(o_U) ∧ Ctr_ΩU(o_U) ∧ Brazo_ΩU(o_U) ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_ΩU(o_U) ∧ AppendOnly_SV`; `T2_AtomoFormalΩU^SV=0 ⇔ Obs_real(o_U,Ω_U)=1 ∧ Cl_ΩU(o_U)=1 ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_{Ω_U→Ω_{U+1}}(o_U) ∧ Dom(Ω_{U+1}) ∧ UnidadCl_{Ω_{U+1}}(o_U)=1 ∧ ¬(Ω_U=TODO/NADA)`. El resultado conjunto no exige que la referencia externa devuelva una rotación rígida cosmológica. Exige que el SV demuestre internamente giro como circulación de retorno de dominio. Tampoco exige que el universo observable sea un átomo químico. Exige que, bajo lectura superior, el dominio-universo opere como átomo formal de clausura. La ciencia contemporánea podrá devolver retornos, tensiones o residuales al traducir estas tesis a vorticidad, anisotropía, espectro atómico, geodinamo, estructura a gran escala o límites observacionales; esos marcos no fundan ni cancelan el teorema SV.
 
 ## **I. Jerarquía de verdad, transducción y función de los retornos externos**
 
@@ -80,15 +84,15 @@ Es la recta de igualdad polar `μ=λ`: el umbral donde Totalidad y Nada se neutr
 
 ## **III. Vector directriz de la Línea del Umbral y tránsito entre dominios**
 
-Una recta no sólo fija un lugar; también fija una dirección. En geometría externa, una recta se declara mediante un punto y un vector paralelo a ella, denominado vector de dirección o vector directriz (Feldman, Rechnitzer, & Yeager, 2022; OpenStax, 2016a). Esta regla se recibe sin convertirla en fundamento externo. La Línea del Umbral `μ=λ` recibe un vector directriz propio, y ese vector distingue tres funciones: neutralización, orientación y tránsito. La directriz de la línea es `υ_U^SV=(1,1)`, porque todo desplazamiento de la forma `(a,a)` permanece sobre `μ=λ`; su vector normal polar es `n_U^SV=(1,−1)`, porque mide la salida de la igualdad. Para un punto polar `x=(μ,λ)`, el potencial actúa como componente normal `P=n_U^SV·x=μ−λ`, mientras la intensidad actúa como componente directriz `I=υ_U^SV·x=μ+λ`. Sobre la Línea del Umbral el potencial se neutraliza, pero la intensidad crece en dirección directriz; fuera de la línea, el potencial mide separación polar respecto de esa directriz. Esta distinción impide confundir `(0,0)` con `(a,a)`, y permite entender que la igualdad polar no es inmovilidad, sino permanencia sobre una dirección de intensidad positiva cuando `a>0`. El vector directriz de la Línea del Umbral se articula con el vector director ya fijado para el tránsito por dominios. *El origen material ordinario del universo observable* formula el tránsito entre dominios mediante dominio de salida, dominio de llegada, identidad tipada, frontera, canal, traza, residual y retorno; además incorpora el vector director termodinámico `u_SV:=𝔇_ΓΩ_SV`, entendido como variación factual de sección entre sucesos consecutivos y no como cociente temporal externo (Lloret Egea, 2026f). Esta conexión permite elevar la lectura: `υ_U^SV` orienta la recta polar; `u_D^SV:=𝔇_ΓΩ_D^SV` orienta el tránsito factual entre dominios; y el vector residual decide el rango del paso. La forma unificada es: `υ_U^SV=(1,1)` `n_U^SV=(1,−1)` `P(μ,λ)=n_U^SV·(μ,λ)=μ−λ` `I(μ,λ)=υ_U^SV·(μ,λ)=μ+λ` `u_D^SV(D_i,D_j;x):=𝔇_ΓΩ_D^SV(D_i,D_j;x)` `R_D^SV(D_i,D_j;x)=(Δ_dom,Δ_id,Δ_estado,Δ_F,Δ_C,Δ_Tr,Δ_R).` La condición de tránsito no consiste en proclamar continuidad por nombre común, sino en alinear dirección, dominio y residual. Si el tránsito sale de un dominio `D_i` hacia un dominio `D_j`, el vector director `u_D^SV` debe estar declarado; si falta, la flecha entre dominios permanece como notación sin gobierno. Si el vector existe, el residual decide el rango del paso. Residual nulo y residual gobernado no son equivalentes: el primero autoriza tránsito perfecto; el segundo autoriza tránsito gobernado bajo control explícito de las componentes no anuladas. La forma compacta se separa de la siguiente manera: `TrPerf_D^SV(D_i,D_j;x)=0 ⇔ u_D^SV(D_i,D_j;x) declarado ∧ R_D^SV(D_i,D_j;x)=0 ∧ Ret(D_i,D_j;x) ∧ 𝓔★(Γ_U;τ)=0` `TrGob_D^SV(D_i,D_j;x)=0 ⇔ u_D^SV(D_i,D_j;x) declarado ∧ R_D^SV(D_i,D_j;x)≠0 ∧ Gov(R_D^SV(D_i,D_j;x))=1 ∧ Ret(D_i,D_j;x) ∧ 𝓔★(Γ_U;τ)=0` `Err_Tr_D^SV=1 ⇔ u_D^SV no declarado ∨ Δ_dom no gobernado ∨ Δ_id no gobernado ∨ Δ_estado no gobernado ∨ Δ_F no gobernado ∨ Δ_C no gobernado ∨ Δ_Tr no gobernado ∨ Δ_R no gobernado` `U_Tr_D^SV ⇔ u_D^SV, dominio, frontera, canal, traza, residual o retorno insuficientes sin contradicción` `Gov(R_D^SV)=1:` significa que cada componente residual se declara, se acota, permanece visible y no se usa como resolución simulada. Con ello, la cadena de tránsito se tipa: tránsito perfecto cuando no hay residual; tránsito gobernado cuando el residual no se anula pero permanece bajo control material; error cuando alguna componente se oculta o se trata como irrelevante; `U` cuando faltan datos sin contradicción. En la Línea del Umbral SV, la directriz `υ_U^SV` conserva la igualdad polar con intensidad positiva; en el paso entre dominios, `u_D^SV` conserva la dirección factual de tránsito; en el régimen hidrógeno-helio, el residual `R_Uk^SV(D_i,D_j;x)=Δ_dom ⊕ Δ_id ⊕ Δ_Ereg ⊕ Δ_F ⊕ Δ_C ⊕ Δ_Tr ⊕ Δ_R` decide si el umbral se atraviesa sin defecto o bajo gobierno; en la clausura de observables, la reactivación espiral sólo procede si `Tr`, `Res` y `Ret` autorizan lectura nueva sin deshacer la instancia clausurada. Con ello, la cadena `Línea del Umbral → ruptura polar → persistencia → hidrógeno → CPS-SV → dipolo → dominio-universo → átomo formal superior` deja de depender de sucesión verbal: toda recta posee directriz, todo tránsito admisible posee vector director y todo tránsito exige residual nulo o residual gobernado.
+Una recta no sólo fija un lugar; también fija una dirección. En geometría externa, una recta se declara mediante un punto y un vector paralelo a ella, denominado vector de dirección o vector directriz (Feldman, Rechnitzer, & Yeager, 2022; OpenStax, 2016a). Esta regla se recibe sin convertirla en fundamento externo. La Línea del Umbral `μ=λ` recibe un vector directriz propio, y ese vector distingue tres funciones: neutralización, orientación y tránsito. La directriz de la línea es `υ_U^SV=(1,1)`, porque todo desplazamiento de la forma `(a,a)` permanece sobre `μ=λ`; su vector normal polar es `n_U^SV=(1,−1)`, porque mide la salida de la igualdad. Para un punto polar `x=(μ,λ)`, el potencial actúa como componente normal `P=n_U^SV·x=μ−λ`, mientras la intensidad actúa como componente directriz `I=υ_U^SV·x=μ+λ`. Sobre la Línea del Umbral el potencial se neutraliza, pero la intensidad crece en dirección directriz; fuera de la línea, el potencial mide separación polar respecto de esa directriz. Esta distinción impide confundir `(0,0)` con `(a,a)`, y permite entender que la igualdad polar no es inmovilidad, sino permanencia sobre una dirección de intensidad positiva cuando `a>0`. El vector directriz de la Línea del Umbral se articula con el vector director ya fijado para el tránsito por dominios. *El origen material ordinario del universo observable* formula el tránsito entre dominios mediante dominio de salida, dominio de llegada, identidad tipada, frontera, canal, traza, residual y retorno; además incorpora el vector director termodinámico `u_SV:=𝔇_ΓΩ_SV`, entendido como variación factual de sección entre sucesos consecutivos y no como cociente temporal externo (Lloret Egea, 2026f). Esta conexión permite elevar la lectura: `υ_U^SV` orienta la recta polar; `u_D^SV:=𝔇_ΓΩ_D^SV` orienta el tránsito factual entre dominios; y el vector residual decide el rango del paso. La forma unificada es: `υ_U^SV=(1,1)`; `n_U^SV=(1,−1)`; `P(μ,λ)=n_U^SV·(μ,λ)=μ−λ`; `I(μ,λ)=υ_U^SV·(μ,λ)=μ+λ`; `u_D^SV(D_i,D_j;x):=𝔇_ΓΩ_D^SV(D_i,D_j;x)`; `R_D^SV(D_i,D_j;x)=(Δ_dom,Δ_id,Δ_estado,Δ_F,Δ_C,Δ_Tr,Δ_R).` La condición de tránsito no consiste en proclamar continuidad por nombre común, sino en alinear dirección, dominio y residual. Si el tránsito sale de un dominio `D_i` hacia un dominio `D_j`, el vector director `u_D^SV` debe estar declarado; si falta, la flecha entre dominios permanece como notación sin gobierno. Si el vector existe, el residual decide el rango del paso. Residual nulo y residual gobernado no son equivalentes: el primero autoriza tránsito perfecto; el segundo autoriza tránsito gobernado bajo control explícito de las componentes no anuladas. La forma compacta se separa de la siguiente manera: `TrPerf_D^SV(D_i,D_j;x)=0 ⇔ u_D^SV(D_i,D_j;x) declarado ∧ R_D^SV(D_i,D_j;x)=0 ∧ Ret(D_i,D_j;x) ∧ 𝓔★(Γ_U;τ)=0`; `TrGob_D^SV(D_i,D_j;x)=0 ⇔ u_D^SV(D_i,D_j;x) declarado ∧ R_D^SV(D_i,D_j;x)≠0 ∧ Gov(R_D^SV(D_i,D_j;x))=1 ∧ Ret(D_i,D_j;x) ∧ 𝓔★(Γ_U;τ)=0`; `Err_Tr_D^SV=1 ⇔ u_D^SV no declarado ∨ Δ_dom no gobernado ∨ Δ_id no gobernado ∨ Δ_estado no gobernado ∨ Δ_F no gobernado ∨ Δ_C no gobernado ∨ Δ_Tr no gobernado ∨ Δ_R no gobernado`; `U_Tr_D^SV ⇔ u_D^SV, dominio, frontera, canal, traza, residual o retorno insuficientes sin contradicción`; `Gov(R_D^SV)=1:` significa que cada componente residual se declara, se acota, permanece visible y no se usa como resolución simulada. Con ello, la cadena de tránsito se tipa: tránsito perfecto cuando no hay residual; tránsito gobernado cuando el residual no se anula pero permanece bajo control material; error cuando alguna componente se oculta o se trata como irrelevante; `U` cuando faltan datos sin contradicción. En la Línea del Umbral SV, la directriz `υ_U^SV` conserva la igualdad polar con intensidad positiva; en el paso entre dominios, `u_D^SV` conserva la dirección factual de tránsito; en el régimen hidrógeno-helio, el residual `R_Uk^SV(D_i,D_j;x)=Δ_dom ⊕ Δ_id ⊕ Δ_Ereg ⊕ Δ_F ⊕ Δ_C ⊕ Δ_Tr ⊕ Δ_R` decide si el umbral se atraviesa sin defecto o bajo gobierno; en la clausura de observables, la reactivación espiral sólo procede si `Tr`, `Res` y `Ret` autorizan lectura nueva sin deshacer la instancia clausurada. Con ello, la cadena `Línea del Umbral → ruptura polar → persistencia → hidrógeno → CPS-SV → dipolo → dominio-universo → átomo formal superior` deja de depender de sucesión verbal: toda recta posee directriz, todo tránsito admisible posee vector director y todo tránsito exige residual nulo o residual gobernado.
 
 ## **IV. Persistencia energética estructural como fórmula rectora de la cadena**
 
-Nuestro trabajo *Génesis del hidrógeno y teoría de la persistencia energética estructural* aporta la fórmula rectora que identifica cualquier paso de la cadena sin depender de analogía de escala. Allí la cuestión física se desplaza desde la materia como punto de partida hacia la persistencia como problema transversal: una configuración energética persiste si conserva identidad compatible frente a redistribución y residual bajo frontera declarada (Lloret Egea, 2026d). La ecuación mínima es: `𝓟_min(Γ,n)=𝓕_∂(Γ,n)−𝒬(Γ,n)−ℛ_Γ(n)` La lectura es directa: `𝓕_∂` representa orientación y confinamiento de frontera; `𝒬`, redistribución energética efectiva; `ℛ_Γ`, residual estructural. Si `𝓟_min>0`, la configuración conserva persistencia compatible; si `𝓟_min≈0`, alcanza régimen crítico; si `𝓟_min<0`, la dispersión domina sobre la frontera. La masa estructural, bajo esta lectura, no es sustancia primaria, sino persistencia efectiva de frontera frente a redistribución y residual. Esta fórmula integra polos, régimen preatómico, hidrógeno, helio, pares estructurales, dipolos, campo geomagnético, estrellas, galaxias y dominio-universo bajo una disciplina común. No porque todos sean materialmente idénticos, sino porque todo paso de cadena debe declarar dominio, frontera, redistribución, residual, identidad y retorno. La fórmula general de admisión es: `Cad_SV(R_i)=0 ⇔ Dom(R_i) ∧ ∂Ω_i declarado ∧ 𝓟_min^{R_i}>0 ∧ Id_i compatible ∧ Tr_i ∧ Res_i visible ∧ Ret_i ∧ 𝓔★(Γ_U;τ)=0` El rechazo es: `Err_Cad_SV(R_i)=1 ⇔ Dom(R_i) no declarado ∨ ∂Ω_i ausente ∨ 𝓟_min^{R_i}≤0 ∨ Res_i omitido ∨ Ret_i inexistente ∨ 𝓔★(Γ_U;τ)≠0` La indeterminación es: `U_Cad_SV(R_i) ⇔ datos, dominio, frontera, residual o retorno insuficientes sin contradicción.`
+Nuestro trabajo *Génesis del hidrógeno y teoría de la persistencia energética estructural* aporta la fórmula rectora que identifica cualquier paso de la cadena sin depender de analogía de escala. Allí la cuestión física se desplaza desde la materia como punto de partida hacia la persistencia como problema transversal: una configuración energética persiste si conserva identidad compatible frente a redistribución y residual bajo frontera declarada (Lloret Egea, 2026d). La ecuación mínima es: `𝓟_min(Γ,n)=𝓕_∂(Γ,n)−𝒬(Γ,n)−ℛ_Γ(n)`. La lectura es directa: `𝓕_∂` representa orientación y confinamiento de frontera; `𝒬`, redistribución energética efectiva; `ℛ_Γ`, residual estructural. Si `𝓟_min>0`, la configuración conserva persistencia compatible; si `𝓟_min≈0`, alcanza régimen crítico; si `𝓟_min<0`, la dispersión domina sobre la frontera. La masa estructural, bajo esta lectura, no es sustancia primaria, sino persistencia efectiva de frontera frente a redistribución y residual. Esta fórmula integra polos, régimen preatómico, hidrógeno, helio, pares estructurales, dipolos, campo geomagnético, estrellas, galaxias y dominio-universo bajo una disciplina común. No porque todos sean materialmente idénticos, sino porque todo paso de cadena debe declarar dominio, frontera, redistribución, residual, identidad y retorno. La fórmula general de admisión es: `Cad_SV(R_i)=0 ⇔ Dom(R_i) ∧ ∂Ω_i declarado ∧ 𝓟_min^{R_i}>0 ∧ Id_i compatible ∧ Tr_i ∧ Res_i visible ∧ Ret_i ∧ 𝓔★(Γ_U;τ)=0`. El rechazo es: `Err_Cad_SV(R_i)=1 ⇔ Dom(R_i) no declarado ∨ ∂Ω_i ausente ∨ 𝓟_min^{R_i}≤0 ∨ Res_i omitido ∨ Ret_i inexistente ∨ 𝓔★(Γ_U;τ)≠0`. La indeterminación es: `U_Cad_SV(R_i) ⇔ datos, dominio, frontera, residual o retorno insuficientes sin contradicción.`
 
 ## **V. Del régimen preatómico al hidrógeno como primer caso conocido**
 
-El hidrógeno no opera como fundamento absoluto del Sistema Vectorial, ni como universal clausurado, ni como sustituto de ε−0. Opera como primer caso conocido de persistencia atómica discreta estable dentro del dominio físico ordinario. La génesis del hidrógeno establece que el átomo no debe entenderse como entidad ontológica primaria, sino como régimen discreto conocido de persistencia energética estructural estable; el hidrógeno se define como caso particular de esa condición, no como clausura del problema general (Lloret Egea, 2026d). La condición estructural del hidrógeno estable es: `𝓟_min^H(Γ,n)>0 ∧ δ(∂Ω_H)<Λ_H ∧ ℛ_H(n)<Λ_H ∧ Δ𝓗_H∈𝓢_disc^H ∧ 𝓔★(Γ_U;τ)=0` La transición correspondiente es: `Ω_pre → Ω_H` donde `Ω_pre` designa persistencia parcial sin frontera atómica plenamente estabilizada, y `Ω_H` designa régimen hidrógeno con frontera discreta, residual acotado, intercambio compatible e identidad conservada. La ciencia externa describe recombinación, estructura atómica, espectros y abundancia cosmológica; el SV conserva esos retornos como contraste, pero formula el resultado de otro modo: el hidrógeno aparece cuando una configuración preatómica estabiliza frontera discreta, acota residual y conserva identidad bajo intercambio energético compatible.
+El hidrógeno no opera como fundamento absoluto del Sistema Vectorial, ni como universal clausurado, ni como sustituto de ε−0. Opera como primer caso conocido de persistencia atómica discreta estable dentro del dominio físico ordinario. La génesis del hidrógeno establece que el átomo no debe entenderse como entidad ontológica primaria, sino como régimen discreto conocido de persistencia energética estructural estable; el hidrógeno se define como caso particular de esa condición, no como clausura del problema general (Lloret Egea, 2026d). La condición estructural del hidrógeno estable es: `𝓟_min^H(Γ,n)>0 ∧ δ(∂Ω_H)<Λ_H ∧ ℛ_H(n)<Λ_H ∧ Δ𝓗_H∈𝓢_disc^H ∧ 𝓔★(Γ_U;τ)=0`. La transición correspondiente es: `Ω_pre → Ω_H` donde `Ω_pre` designa persistencia parcial sin frontera atómica plenamente estabilizada, y `Ω_H` designa régimen hidrógeno con frontera discreta, residual acotado, intercambio compatible e identidad conservada. La ciencia externa describe recombinación, estructura atómica, espectros y abundancia cosmológica; el SV conserva esos retornos como contraste, pero formula el resultado de otro modo: el hidrógeno aparece cuando una configuración preatómica estabiliza frontera discreta, acota residual y conserva identidad bajo intercambio energético compatible.
 
 ## **VI. Helio, perfil radial de clausura y patrón atómico-sutural**
 
@@ -96,15 +100,15 @@ El helio sirve como segundo retorno de clausura atómica ligera, con simetría c
 
 ## **VII. CPS-SV: extensión periódica, 325 candidatos estructurales y pares realizados**
 
-El desarrollo de *Catálogo de Pares Estructurales SV (CPS-SV)* aporta el precedente matemático decisivo para la cadena ascendente. La ciencia contemporánea reconoce oficialmente hasta el elemento 118, y los candidatos 119--443 del SV no deben presentarse como elementos empíricamente descubiertos. En el CPS-SV comparecen como candidatos estructurales del dominio extendido. Esta precisión fortalece la tesis, porque el Sistema Vectorial no finge empiria donde opera una construcción matemática de dominio. El CPS-SV declara: `Ω₄₄₃=Ω₁₁₈∪Ω_ext` `Ω₁₁₈={1,…,118}` `Ω_ext={119,…,443}` `|Ω_ext|=325` y el espacio completo de pares no ordenados: `𝒫₄₄₃={ {A,B} | A,B∈Ω₄₄₃, A≠B }` `|𝒫₄₄₃|=C(443,2)=97.903` La función conclusiva del CPS-SV recorre ese dominio y devuelve: `D(A,B)∈{APTO-M, APTO-C, APTO-I, NO-APTO}` El resultado no es intuición de extensión, sino recorrido determinista de dominio: 9.515 pares APTO-M, 37.580 APTO-C, 5.075 APTO-I y 45.733 NO-APTO, con criterios de admisibilidad B.1--B.5, subdominios, familias tipológicas y laboratorio reproducible. La consecuencia para este trabajo es inmediata: el Sistema Vectorial (SV) ya ha demostrado que declara un dominio extendido no empírico, lo recorre, lo concluye formalmente y conserva refutabilidad. Por tanto, la cadena ascendente hacia el dominio-universo no se introduce como intuición nueva; continúa una lógica ya demostrada: dominio → frontera → persistencia → conclusión formal → realización → retorno. El CPS-SV también fija el principio transferible: allí donde exista arquitectura de cascada con niveles de evaluación, régimen de imperfección activa y salida reproducible, el enfoque se traslada a dominios superiores sin salto de plano. Para este trabajo, esa transferibilidad se reescribe así: `Transf_Cadena^SV(R)=0 ⇔ Dom(R) ∧ Cascada_R declarada ∧ D_R total ∧ Res_R visible ∧ Ret_R ∧ NoEmpiriaFingida=1 ∧ NoIdentMat=1 ∧ 𝓔★(Γ_U;τ)=0.`
+El desarrollo de *Catálogo de Pares Estructurales SV (CPS-SV)* aporta el precedente matemático decisivo para la cadena ascendente. La ciencia contemporánea reconoce oficialmente hasta el elemento 118, y los candidatos 119--443 del SV no deben presentarse como elementos empíricamente descubiertos. En el CPS-SV comparecen como candidatos estructurales del dominio extendido. Esta precisión fortalece la tesis, porque el Sistema Vectorial no finge empiria donde opera una construcción matemática de dominio. El CPS-SV declara: `Ω₄₄₃=Ω₁₁₈∪Ω_ext`; `Ω₁₁₈={1,…,118}`; `Ω_ext={119,…,443}`; `|Ω_ext|=325` y el espacio completo de pares no ordenados: `𝒫₄₄₃={ {A,B} | A,B∈Ω₄₄₃, A≠B }`; `|𝒫₄₄₃|=C(443,2)=97.903`. La función conclusiva del CPS-SV recorre ese dominio y devuelve: `D(A,B)∈{APTO-M, APTO-C, APTO-I, NO-APTO}`. El resultado no es intuición de extensión, sino recorrido determinista de dominio: 9.515 pares APTO-M, 37.580 APTO-C, 5.075 APTO-I y 45.733 NO-APTO, con criterios de admisibilidad B.1--B.5, subdominios, familias tipológicas y laboratorio reproducible. La consecuencia para este trabajo es inmediata: el Sistema Vectorial (SV) ya ha demostrado que declara un dominio extendido no empírico, lo recorre, lo concluye formalmente y conserva refutabilidad. Por tanto, la cadena ascendente hacia el dominio-universo no se introduce como intuición nueva; continúa una lógica ya demostrada: dominio → frontera → persistencia → conclusión formal → realización → retorno. El CPS-SV también fija el principio transferible: allí donde exista arquitectura de cascada con niveles de evaluación, régimen de imperfección activa y salida reproducible, el enfoque se traslada a dominios superiores sin salto de plano. Para este trabajo, esa transferibilidad se reescribe así: `Transf_Cadena^SV(R)=0 ⇔ Dom(R) ∧ Cascada_R declarada ∧ D_R total ∧ Res_R visible ∧ Ret_R ∧ NoEmpiriaFingida=1 ∧ NoIdentMat=1 ∧ 𝓔★(Γ_U;τ)=0.`
 
 ## **VIII. Circulación de retorno de dominio: definición de giro, momento y reducción al absurdo**
 
-Se define giro de dominio como circulación de retorno de una instancia bajo potencial, intensidad, dominio, frontera, centro de lectura, brazo, traza, residual y conservación append-only. El término "giro" no se toma como rotación rígida externa de un cuerpo, salvo cuando una referencia física lo devuelva expresamente. La forma es: `Giro_SV(o,Ω)=1 ⇔ Obs_real(o,Ω)=1 ∧ I_Ω(o)>0 ∧ Ret_Ω(o) ∧ CircRet_Ω(o) ∧ Ctr_Ω(o) ∧ Brazo_Ω(o) ∧ Tr_Ω(o) ∧ Res_Ω(o) ∧ AppendOnly_SV` En esta definición, `Ctr_Ω(o)` designa centro de lectura de dominio, no necesariamente centro material; `Brazo_Ω(o)` designa separación situada respecto de ese centro, no radio geométrico ordinario; `Ret_Ω(o)` designa retorno de la instancia a lectura bajo dominio; `CircRet_Ω(o)` designa régimen de retorno clausural, no imagen circular externa ni rotación rígida importada; `Tr_Ω(o)` conserva inscripción; `Res_Ω(o)` conserva el resto visible; `AppendOnly_SV` impide borrar inscripción para simular repetición idéntica. La Línea del Umbral SV ordena la transición: sobre `μ=λ`, el potencial se neutraliza; fuera de ella aparece orientación. Si `P_Ω(o)≠0`, la orientación se declara; si esa orientación se sitúa bajo centro y brazo, aparece momento; si el momento conserva traza y retorno bajo *append-only*, el giro se admite. La reducción al absurdo del giro no identifica retorno simple y circulación de retorno. Primero exige el lema de retorno clausural: si una instancia realizada conserva retorno bajo frontera, traza, residual y *append-only*, el retorno no desaparece como descarga lineal sin inscripción; opera como régimen clausural de lectura. Esa condición se escribe: `LemaRetCl_SV(o,Ω)=0 ⇔ Ret_Ω(o) ∧ Fron_Ω(o) ∧ Tr_Ω(o) ∧ Res_Ω(o) ∧ AppendOnly_SV ⇒ CircRet_Ω(o)=1.` Supóngase ahora un observable realizado `o` en un dominio `Ω`, con frontera, traza, residual y retorno clausural, pero sin circulación de retorno. Si no hay circulación de retorno, el retorno no opera como régimen; si el retorno no opera como régimen, la clausura local no devuelve lectura; si la clausura local no devuelve lectura, la instancia deja de cumplir la regla de observable realizado. La hipótesis niega una condición que ella misma presupone. Por tanto: `Obs_real(o,Ω)=1 ∧ Ret_Ω(o) ∧ Fron_Ω(o) ∧ Tr_Ω(o) ∧ Res_Ω(o) ∧ AppendOnly_SV ⇒ CircRet_Ω(o)=1` Si, además, la instancia posee intensidad positiva, potencial no nulo, centro de lectura y brazo, la circulación de retorno no permanece como neutralización abstracta; adquiere momento: `Obs_real(o,Ω)=1 ∧ I_Ω(o)>0 ∧ P_Ω(o)≠0 ∧ Ctr_Ω(o) ∧ Brazo_Ω(o) ⇒ Mom_SV(o,Ω)=1` `Mom_SV(o,Ω)=1 ∧ Tr_Ω(o) ∧ Res_Ω(o) ∧ Ret_Ω(o) ∧ AppendOnly_SV ⇒ Giro_SV(o,Ω)=1.`
+Se define giro de dominio como circulación de retorno de una instancia bajo potencial, intensidad, dominio, frontera, centro de lectura, brazo, traza, residual y conservación append-only. El término "giro" no se toma como rotación rígida externa de un cuerpo, salvo cuando una referencia física lo devuelva expresamente. La forma es: `Giro_SV(o,Ω)=1 ⇔ Obs_real(o,Ω)=1 ∧ I_Ω(o)>0 ∧ Ret_Ω(o) ∧ CircRet_Ω(o) ∧ Ctr_Ω(o) ∧ Brazo_Ω(o) ∧ Tr_Ω(o) ∧ Res_Ω(o) ∧ AppendOnly_SV`. En esta definición, `Ctr_Ω(o)` designa centro de lectura de dominio, no necesariamente centro material; `Brazo_Ω(o)` designa separación situada respecto de ese centro, no radio geométrico ordinario; `Ret_Ω(o)` designa retorno de la instancia a lectura bajo dominio; `CircRet_Ω(o)` designa régimen de retorno clausural, no imagen circular externa ni rotación rígida importada; `Tr_Ω(o)` conserva inscripción; `Res_Ω(o)` conserva el resto visible; `AppendOnly_SV` impide borrar inscripción para simular repetición idéntica. La Línea del Umbral SV ordena la transición: sobre `μ=λ`, el potencial se neutraliza; fuera de ella aparece orientación. Si `P_Ω(o)≠0`, la orientación se declara; si esa orientación se sitúa bajo centro y brazo, aparece momento; si el momento conserva traza y retorno bajo *append-only*, el giro se admite. La reducción al absurdo del giro no identifica retorno simple y circulación de retorno. Primero exige el lema de retorno clausural: si una instancia realizada conserva retorno bajo frontera, traza, residual y *append-only*, el retorno no desaparece como descarga lineal sin inscripción; opera como régimen clausural de lectura. Esa condición se escribe: `LemaRetCl_SV(o,Ω)=0 ⇔ Ret_Ω(o) ∧ Fron_Ω(o) ∧ Tr_Ω(o) ∧ Res_Ω(o) ∧ AppendOnly_SV ⇒ CircRet_Ω(o)=1.` Supóngase ahora un observable realizado `o` en un dominio `Ω`, con frontera, traza, residual y retorno clausural, pero sin circulación de retorno. Si no hay circulación de retorno, el retorno no opera como régimen; si el retorno no opera como régimen, la clausura local no devuelve lectura; si la clausura local no devuelve lectura, la instancia deja de cumplir la regla de observable realizado. La hipótesis niega una condición que ella misma presupone. Por tanto: `Obs_real(o,Ω)=1 ∧ Ret_Ω(o) ∧ Fron_Ω(o) ∧ Tr_Ω(o) ∧ Res_Ω(o) ∧ AppendOnly_SV ⇒ CircRet_Ω(o)=1`. Si, además, la instancia posee intensidad positiva, potencial no nulo, centro de lectura y brazo, la circulación de retorno no permanece como neutralización abstracta; adquiere momento: `Obs_real(o,Ω)=1 ∧ I_Ω(o)>0 ∧ P_Ω(o)≠0 ∧ Ctr_Ω(o) ∧ Brazo_Ω(o) ⇒ Mom_SV(o,Ω)=1`; `Mom_SV(o,Ω)=1 ∧ Tr_Ω(o) ∧ Res_Ω(o) ∧ Ret_Ω(o) ∧ AppendOnly_SV ⇒ Giro_SV(o,Ω)=1.`
 
 ## **IX. Circulación de retorno del dominio-universo físico realizado**
 
-La aplicación al dominio-universo no procede por analogía visual con el átomo ni por importación de una rotación cosmológica externa. Procede por pertenencia a la regla de observable realizado. Si `o_U` comparece como observable realizado del dominio-universo `Ω_U`, con frontera sutural, contenido retornado, residual, traza, medición transducida, balance termodinámico e irreversibilidad entrópica, no queda exento de la condición general de circulación de retorno sin introducir una excepción de escala. La excepción diría: todo observable realizado exige retorno, salvo el observable de máxima escala física. Esa excepción no se deduce del Sistema Vectorial; importa privilegio externo de escala. Por reducción al absurdo, si `o_U` es observable realizado y se niega su circulación de retorno como giro, se niega que su retorno tenga régimen de circulación; si se niega esa circulación, se anula la clausura de dominio que lo hace comparecer. `Obs_real(o_U,Ω_U)=1 ∧ Fron_sut(Ω_U) ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_ΩU(o_U) ∧ AppendOnly_SV ⇒ CircRet_ΩU(o_U)=1` `CircRet_ΩU(o_U)=1 ∧ I_ΩU(o_U)>0 ∧ Ctr_ΩU(o_U) ∧ Brazo_ΩU(o_U) ∧ AppendOnly_SV ⇒ Giro_SV(o_U,Ω_U)=1.` En esta aplicación, `o_U` nombra el observable del dominio-universo, `Ω_U` el dominio-universo físico realizado, `Fron_sut` la frontera sutural que permite distinguir dominio y exterior de lectura, `Tr_ΩU` la inscripción conservada, `Res_ΩU` el residual visible y `Ret_ΩU` el retorno de dominio. El enunciado "giro" se define aquí con rigor interno: el dominio-universo presenta circulación de retorno de dominio bajo frontera sutural, traza, residual, potencial, intensidad, centro de lectura, brazo y append-only. La transducción hacia rotación rígida, vorticidad métrica, anisotropía global o momento angular cosmológico exige dominio, magnitud, residual y retorno; no funda el teorema interno ni lo cancela.
+La aplicación al dominio-universo no procede por analogía visual con el átomo ni por importación de una rotación cosmológica externa. Procede por pertenencia a la regla de observable realizado. Si `o_U` comparece como observable realizado del dominio-universo `Ω_U`, con frontera sutural, contenido retornado, residual, traza, medición transducida, balance termodinámico e irreversibilidad entrópica, no queda exento de la condición general de circulación de retorno sin introducir una excepción de escala. La excepción diría: todo observable realizado exige retorno, salvo el observable de máxima escala física. Esa excepción no se deduce del Sistema Vectorial; importa privilegio externo de escala. Por reducción al absurdo, si `o_U` es observable realizado y se niega su circulación de retorno como giro, se niega que su retorno tenga régimen de circulación; si se niega esa circulación, se anula la clausura de dominio que lo hace comparecer. `Obs_real(o_U,Ω_U)=1 ∧ Fron_sut(Ω_U) ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_ΩU(o_U) ∧ AppendOnly_SV ⇒ CircRet_ΩU(o_U)=1`; `CircRet_ΩU(o_U)=1 ∧ I_ΩU(o_U)>0 ∧ Ctr_ΩU(o_U) ∧ Brazo_ΩU(o_U) ∧ AppendOnly_SV ⇒ Giro_SV(o_U,Ω_U)=1.` En esta aplicación, `o_U` nombra el observable del dominio-universo, `Ω_U` el dominio-universo físico realizado, `Fron_sut` la frontera sutural que permite distinguir dominio y exterior de lectura, `Tr_ΩU` la inscripción conservada, `Res_ΩU` el residual visible y `Ret_ΩU` el retorno de dominio. El enunciado "giro" se define aquí con rigor interno: el dominio-universo presenta circulación de retorno de dominio bajo frontera sutural, traza, residual, potencial, intensidad, centro de lectura, brazo y append-only. La transducción hacia rotación rígida, vorticidad métrica, anisotropía global o momento angular cosmológico exige dominio, magnitud, residual y retorno; no funda el teorema interno ni lo cancela.
 
 ## **X. Átomo formal de clausura**
 
@@ -116,15 +120,15 @@ El dominio-universo físico realizado comparece ante una lectura externa superio
 
 ## **XII. Ascendencia no agotada de dominios y no identificación con TODO/NADA**
 
-La ascendencia no agotada se deduce de la misma estructura. Sea una serie de dominios `Ω_0→Ω_1→Ω_2→...`, donde cada clausura admitida en `Ω_i` conserva traza, residual y retorno. La afirmación no introduce una enumeración empírica de universos observados; trabaja sobre la imposibilidad de que un observable físico realizado ocupe el lugar de TODO/NADA. Si una clausura realizada conserva inscripción y retorno, no se borra al cerrarse; permanece disponible para lectura ulterior. Si se postula un último dominio físico `Ω_N` que clausura toda ascendencia, entonces `Ω_N` ocuparía el lugar de Totalidad o de TODO/NADA. Pero el SV distingue dominio físico, dominio-universo y plano de fundamentos; ningún observable realizado ocupa la Totalidad ni clausura TODO/NADA por escala. Por tanto, la ascendencia no se agota en un último observable físico. `Clausura_realizada^SV(Ω_i)=1 ⇔ Obs_real(Ω_i)=1 ∧ Cl(Ω_i)=1 ∧ Tr(Ω_i) ∧ Res(Ω_i) ∧ Ret(Ω_i) ∧ AppendOnly_SV` `Clausura_realizada^SV(Ω_i)=1 ⇒ Lectura_ulterior_admisible^SV(Ω_i)=1` `Lectura_ulterior_admisible^SV(Ω_i)=1 ∧ ¬(Ω_i=TODO/NADA) ⇒ Ascendencia_no_agotada^SV(Ω_i)=1` `Ascendencia_no_agotada^SV(Ω_i)=1 ⇒ ∃Ω_{i+1} [Dom(Ω_{i+1}) ∧ Ret_{Ω_i→Ω_{i+1}}(Ω_i) ∧ Atomo_formal^SV(Ω_i,Ω_i→Ω_{i+1})=1]` `¬∃Ω_N físico : Ω_N=TODO/NADA` `Asc_SV=(Ω_0,Ω_1,Ω_2,...).` En esta cadena, `Clausura_realizada^SV` nombra una clausura que no destruye inscripción; `Lectura_ulterior_admisible^SV` nombra la disponibilidad de esa clausura para un dominio de lectura posterior; `Ascendencia_no_agotada^SV` expresa que la cadena no se clausura en un observable físico final. La Línea del Umbral SV conserva su función rectora en toda la cadena: sobre ella se neutraliza el predominio; fuera de ella aparece orientación; con centro y brazo comparece momento; con traza, residual y retorno aparece giro; con *append-only* el giro conserva inscripción y habilita reactivación espiral; con clausura, la instancia comparece como átomo formal de ascendencia ulterior.
+La ascendencia no agotada se deduce de la misma estructura. Sea una serie de dominios `Ω_0→Ω_1→Ω_2→...`, donde cada clausura admitida en `Ω_i` conserva traza, residual y retorno. La afirmación no introduce una enumeración empírica de universos observados; trabaja sobre la imposibilidad de que un observable físico realizado ocupe el lugar de TODO/NADA. Si una clausura realizada conserva inscripción y retorno, no se borra al cerrarse; permanece disponible para lectura ulterior. Si se postula un último dominio físico `Ω_N` que clausura toda ascendencia, entonces `Ω_N` ocuparía el lugar de Totalidad o de TODO/NADA. Pero el SV distingue dominio físico, dominio-universo y plano de fundamentos; ningún observable realizado ocupa la Totalidad ni clausura TODO/NADA por escala. Por tanto, la ascendencia no se agota en un último observable físico. `Clausura_realizada^SV(Ω_i)=1 ⇔ Obs_real(Ω_i)=1 ∧ Cl(Ω_i)=1 ∧ Tr(Ω_i) ∧ Res(Ω_i) ∧ Ret(Ω_i) ∧ AppendOnly_SV`; `Clausura_realizada^SV(Ω_i)=1 ⇒ Lectura_ulterior_admisible^SV(Ω_i)=1`; `Lectura_ulterior_admisible^SV(Ω_i)=1 ∧ ¬(Ω_i=TODO/NADA) ⇒ Ascendencia_no_agotada^SV(Ω_i)=1`; `Ascendencia_no_agotada^SV(Ω_i)=1 ⇒ ∃Ω_{i+1} [Dom(Ω_{i+1}) ∧ Ret_{Ω_i→Ω_{i+1}}(Ω_i) ∧ Atomo_formal^SV(Ω_i,Ω_i→Ω_{i+1})=1]`; `¬∃Ω_N físico : Ω_N=TODO/NADA`; `Asc_SV=(Ω_0,Ω_1,Ω_2,...).` En esta cadena, `Clausura_realizada^SV` nombra una clausura que no destruye inscripción; `Lectura_ulterior_admisible^SV` nombra la disponibilidad de esa clausura para un dominio de lectura posterior; `Ascendencia_no_agotada^SV` expresa que la cadena no se clausura en un observable físico final. La Línea del Umbral SV conserva su función rectora en toda la cadena: sobre ella se neutraliza el predominio; fuera de ella aparece orientación; con centro y brazo comparece momento; con traza, residual y retorno aparece giro; con *append-only* el giro conserva inscripción y habilita reactivación espiral; con clausura, la instancia comparece como átomo formal de ascendencia ulterior.
 
 ## **XIII. Dipolo electromagnético, inversión geomagnética y adopción lateral**
 
-El régimen electromagnético aporta una vía lateral ya tipada. En el caso magnético, el dipolo no debe entenderse como pareja de monopolos sustanciales separables. La ecuación Maxwell factual conserva `Div_SV(B)=0`, de modo que la polaridad magnética se formula como orientación no separable de campo que retorna por circulación, corriente, variación factual, constitución magnética y frontera (Lloret Egea, 2026a). La lectura sectorial es: `Π_pol,EM(q)=(α_EM(q),β_EM(q))` `P_EM(q)=α_EM(q)−β_EM(q)` `I_EM(q)=α_EM(q)+β_EM(q)` `𝓛_Umbral,EM^SV={q∈Ω_EM : P_EM(q)=0}.` El giro de campo aparece cuando la orientación polar entra en régimen de rotor y circulación: `Rot_SV(E)+∂_ν^SV B=0` `Rot_SV(H)−∂_ν^SV D=J.` La inversión geomagnética ofrece un caso lateral de orientación mutable bajo campo y frontera. La ciencia contemporánea conserva el dato de que el campo magnético terrestre invierte su polaridad y de que lavas o sedimentos registran firmas de campos antiguos (U.S. Geological Survey, 2024). En SV, la inversión se formula como tránsito de orientación sectorial de un campo sin monopolo, regido por rotor, corriente, constitución, frontera, traza, residual y retorno: `Inv_geoEM^SV(q)=1 ⇔ Ω_geoEM declarado ∧ Div_SV(B)=0 ∧ Rot_SV(E)+∂_ν^SV B=0 ∧ Rot_SV(H)−∂_ν^SV D=J_geo ∧ B=μ_SV(H) ∧ 𝓛_Umbral,geoEM^SV declarada ∧ transición de P_geoEM entre orientaciones opuestas ∧ I_geoEM redistribuida ∧ Fron_geoEM ∧ Tr_geoEM ∧ Res_geoEM ∧ Ret_geoEM.` Este caso no prueba por sí solo la circulación de retorno del dominio-universo; muestra que una instancia de campo cambia orientación sin perder dominio, traza ni retorno. Como vía lateral, adopta el enfoque con error de plano cero si declara dominio, frontera, centro de lectura, potencial, intensidad, residual, retorno y transducción, sin identificarse materialmente con el dominio-universo. La regla general de adopción lateral es: `Adopcion_lateral^SV(R,Ω_R)=0 ⇔ Dom(Ω_R) ∧ Ctr_R ∧ Fron_R ∧ I_R>0 ∧ P_R declarado ∧ 𝓟_min^R>0 ∧ Tr_R ∧ Res_R ∧ Ret_R ∧ Trans_R→SV declarada ∧ NoIdentMat=1 ∧ NoSaltoPlano=1` `Err_lateral^SV(R)=1 ⇔ Dom(Ω_R) omitido ∨ Fron_R ausente ∨ Res_R oculto ∨ Ret_R no declarado ∨ Trans_R→SV omitida ∨ identidad material forzada ∨ referencia_externa tratada como fuente interna.` Cualquier vía lateral declarada adopta el enfoque si satisface esta regla. El enfoque no se limita a dipolos, geodinamo, hidrógeno, helio, CPS-SV o dominio-universo; esas vías son retornos ya trabajados de una estructura general.
+El régimen electromagnético aporta una vía lateral ya tipada. En el caso magnético, el dipolo no debe entenderse como pareja de monopolos sustanciales separables. La ecuación Maxwell factual conserva `Div_SV(B)=0`, de modo que la polaridad magnética se formula como orientación no separable de campo que retorna por circulación, corriente, variación factual, constitución magnética y frontera (Lloret Egea, 2026a). La lectura sectorial es: `Π_pol,EM(q)=(α_EM(q),β_EM(q))`; `P_EM(q)=α_EM(q)−β_EM(q)`; `I_EM(q)=α_EM(q)+β_EM(q)`; `𝓛_Umbral,EM^SV={q∈Ω_EM : P_EM(q)=0}.` El giro de campo aparece cuando la orientación polar entra en régimen de rotor y circulación: `Rot_SV(E)+∂_ν^SV B=0`; `Rot_SV(H)−∂_ν^SV D=J.` La inversión geomagnética ofrece un caso lateral de orientación mutable bajo campo y frontera. La ciencia contemporánea conserva el dato de que el campo magnético terrestre invierte su polaridad y de que lavas o sedimentos registran firmas de campos antiguos (U.S. Geological Survey, 2024). En SV, la inversión se formula como tránsito de orientación sectorial de un campo sin monopolo, regido por rotor, corriente, constitución, frontera, traza, residual y retorno: `Inv_geoEM^SV(q)=1 ⇔ Ω_geoEM declarado ∧ Div_SV(B)=0 ∧ Rot_SV(E)+∂_ν^SV B=0 ∧ Rot_SV(H)−∂_ν^SV D=J_geo ∧ B=μ_SV(H) ∧ 𝓛_Umbral,geoEM^SV declarada ∧ transición de P_geoEM entre orientaciones opuestas ∧ I_geoEM redistribuida ∧ Fron_geoEM ∧ Tr_geoEM ∧ Res_geoEM ∧ Ret_geoEM.` Este caso no prueba por sí solo la circulación de retorno del dominio-universo; muestra que una instancia de campo cambia orientación sin perder dominio, traza ni retorno. Como vía lateral, adopta el enfoque con error de plano cero si declara dominio, frontera, centro de lectura, potencial, intensidad, residual, retorno y transducción, sin identificarse materialmente con el dominio-universo. La regla general de adopción lateral es: `Adopcion_lateral^SV(R,Ω_R)=0 ⇔ Dom(Ω_R) ∧ Ctr_R ∧ Fron_R ∧ I_R>0 ∧ P_R declarado ∧ 𝓟_min^R>0 ∧ Tr_R ∧ Res_R ∧ Ret_R ∧ Trans_R→SV declarada ∧ NoIdentMat=1 ∧ NoSaltoPlano=1`; `Err_lateral^SV(R)=1 ⇔ Dom(Ω_R) omitido ∨ Fron_R ausente ∨ Res_R oculto ∨ Ret_R no declarado ∨ Trans_R→SV omitida ∨ identidad material forzada ∨ referencia_externa tratada como fuente interna.` Cualquier vía lateral declarada adopta el enfoque si satisface esta regla. El enfoque no se limita a dipolos, geodinamo, hidrógeno, helio, CPS-SV o dominio-universo; esas vías son retornos ya trabajados de una estructura general.
 
 ## **XIV. Fórmula rectora de identificación de pasos anteriores y posteriores a lo observado**
 
-La cadena SV identifica pasos anteriores o posteriores a lo observado cuando el régimen cumple la fórmula rectora de persistencia, dominio, traza y retorno. El paso no exige empiria previa; exige dominio, frontera, residual y conclusión formal. Esta es la lección conjunta de la génesis del hidrógeno y el CPS-SV: el hidrógeno ancla el primer caso conocido; el CPS-SV demuestra que el Sistema Vectorial (SV) extiende dominio a candidatos no empíricos, los recorre y los concluye formalmente sin borrar la diferencia entre candidato estructural y elemento descubierto. La fórmula general es: `Paso_SV(R_i→R_{i+1})=0 ⇔ Dom(R_i) ∧ Dom(R_{i+1}) ∧ 𝓟_min^{R_i}>0 ∧ Cl(R_i) ∧ Tr(R_i) ∧ Res(R_i) ∧ Ret_{i→i+1}(R_i) ∧ UnidadCl_{R_{i+1}}(R_i)=1 ∧ D_{R_{i+1}} definido ∧ 𝓔★(Γ_U;τ)=0` Si el paso pertenece a régimen anterior a lo observado: `PrePaso_SV(R_{i−1}→R_i)=0 ⇔ Ω_pre declarado ∧ persistencia parcial ∧ frontera en estabilización ∧ residual visible ∧ transición de identidad ∧ 𝓟_min^{R_i}>0.` Si pertenece a régimen posterior a lo observado: `PostPaso_SV(R_i→R_{i+1})=0 ⇔ Cl(R_i) ∧ traza conservada ∧ retorno ulterior ∧ lectura superior declarada ∧ no identificación con TODO/NADA` Así se evita la improvisación de gradientes. No inventamos un trayecto; se sigue una cadena ya demostrada: polos, umbral, ruptura, persistencia, átomo, extensión, par, campo, observable, dominio-universo y átomo formal superior.
+La cadena SV identifica pasos anteriores o posteriores a lo observado cuando el régimen cumple la fórmula rectora de persistencia, dominio, traza y retorno. El paso no exige empiria previa; exige dominio, frontera, residual y conclusión formal. Esta es la lección conjunta de la génesis del hidrógeno y el CPS-SV: el hidrógeno ancla el primer caso conocido; el CPS-SV demuestra que el Sistema Vectorial (SV) extiende dominio a candidatos no empíricos, los recorre y los concluye formalmente sin borrar la diferencia entre candidato estructural y elemento descubierto. La fórmula general es: `Paso_SV(R_i→R_{i+1})=0 ⇔ Dom(R_i) ∧ Dom(R_{i+1}) ∧ 𝓟_min^{R_i}>0 ∧ Cl(R_i) ∧ Tr(R_i) ∧ Res(R_i) ∧ Ret_{i→i+1}(R_i) ∧ UnidadCl_{R_{i+1}}(R_i)=1 ∧ D_{R_{i+1}} definido ∧ 𝓔★(Γ_U;τ)=0`. Si el paso pertenece a régimen anterior a lo observado: `PrePaso_SV(R_{i−1}→R_i)=0 ⇔ Ω_pre declarado ∧ persistencia parcial ∧ frontera en estabilización ∧ residual visible ∧ transición de identidad ∧ 𝓟_min^{R_i}>0.` Si pertenece a régimen posterior a lo observado: `PostPaso_SV(R_i→R_{i+1})=0 ⇔ Cl(R_i) ∧ traza conservada ∧ retorno ulterior ∧ lectura superior declarada ∧ no identificación con TODO/NADA`. Así se evita la improvisación de gradientes. No inventamos un trayecto; se sigue una cadena ya demostrada: polos, umbral, ruptura, persistencia, átomo, extensión, par, campo, observable, dominio-universo y átomo formal superior.
 
 ## **XV. Teorema conjunto: circulación de retorno, átomo formal y ascendencia no agotada**
 
@@ -144,7 +148,7 @@ La cadena SV identifica pasos anteriores o posteriores a lo observado cuando el 
 
 ## **XVII. Criterios de refutación, conservación de U y error de plano**
 
-La tesis se refuta dentro del SV si se demuestra un observable realizado con frontera, traza, residual, retorno y *append-only*, pero sin circulación de retorno admisible. Se refuta la lectura de giro si se demuestra orientación situada, centro de lectura, brazo, traza y retorno sin momento formal. Se refuta la lectura de átomo formal si se demuestra una clausura con traza y retorno que no opera en ninguna lectura superior sin contradicción. Se refuta la ascendencia no agotada si se demuestra un dominio físico realizado que ocupa el lugar de TODO/NADA sin dejar de ser observable físico, lo que contradice la separación de planos del SV. También se refuta cualquier formulación que trate como perfecto un tránsito con residual no declarado o no gobernado. La salida `U` no se usa como refugio favorable. Sólo procede cuando falta dominio, referencia de contraste, transducción, magnitud, residual o retorno. En esos casos, `U` conserva indeterminación honesta; no confirma la tesis ni la niega. La regla es: `U_Tesis^SV ⇔ falta dominio, frontera, residual, transducción o retorno suficiente sin contradicción` `Err_Tesis^SV=1 ⇔ referencia_externa=fundamento_SV ∨ átomo=elemento_químico_literal ∨ giro=rotación_rígida_obligatoria ∨ Ω_U=TODO/NADA ∨ Res omitido ∨ Gov(Res) no acreditado ∨ U usada como confirmación`
+La tesis se refuta dentro del SV si se demuestra un observable realizado con frontera, traza, residual, retorno y *append-only*, pero sin circulación de retorno admisible. Se refuta la lectura de giro si se demuestra orientación situada, centro de lectura, brazo, traza y retorno sin momento formal. Se refuta la lectura de átomo formal si se demuestra una clausura con traza y retorno que no opera en ninguna lectura superior sin contradicción. Se refuta la ascendencia no agotada si se demuestra un dominio físico realizado que ocupa el lugar de TODO/NADA sin dejar de ser observable físico, lo que contradice la separación de planos del SV. También se refuta cualquier formulación que trate como perfecto un tránsito con residual no declarado o no gobernado. La salida `U` no se usa como refugio favorable. Sólo procede cuando falta dominio, referencia de contraste, transducción, magnitud, residual o retorno. En esos casos, `U` conserva indeterminación honesta; no confirma la tesis ni la niega. La regla es: `U_Tesis^SV ⇔ falta dominio, frontera, residual, transducción o retorno suficiente sin contradicción`; `Err_Tesis^SV=1 ⇔ referencia_externa=fundamento_SV ∨ átomo=elemento_químico_literal ∨ giro=rotación_rígida_obligatoria ∨ Ω_U=TODO/NADA ∨ Res omitido ∨ Gov(Res) no acreditado ∨ U usada como confirmación`
 
 ## **Conclusión**
 
@@ -216,11 +220,11 @@ La lectura autónoma exige fijar desde el comienzo las convenciones mínimas: `0
 
 La trivialización rigurosa se expresa por una condición general. Sea `Q` una cuestión sometida a análisis. Entonces:
 
-`Triv_SV(Q)=0 ⇔ Dom(Q) ∧ Fron(Q) ∧ Id(Q) ∧ P(Q) declarado ∧ I(Q) declarado ∧ Tr(Q) ∧ Res(Q) visible ∧ Ret(Q) ∧ d_Q∈{0,1,U} ∧ U no usada como confirmación`
+`Triv_SV(Q)=0 ⇔ Dom(Q) ∧ Fron(Q) ∧ Id(Q) ∧ P(Q) declarado ∧ I(Q) declarado ∧ Tr(Q) ∧ Res(Q) visible ∧ Ret(Q) ∧ d_Q∈{0,1,U} ∧ U no usada como confirmación`.
 
 En esta fórmula, `Dom(Q)` declara el dominio de lectura; `Fron(Q)` fija la frontera de régimen; `Id(Q)` conserva identidad tipada; `P(Q)` nombra potencial o diferencia orientada cuando procede; `I(Q)` nombra intensidad o presencia total de régimen; `Tr(Q)` conserva traza; `Res(Q)` conserva residual visible; `Ret(Q)` exige retorno; `d_Q` designa la conclusión ternaria; y `U` sólo puede comparecer como indeterminación honesta, no como confirmación, negación, refugio favorable ni sustituto del cálculo. El error correspondiente se declara así:
 
-`Err_Triv_SV(Q)=1 ⇔ Dom(Q) omitido ∨ Fron(Q) ausente ∨ Id(Q) confundida ∨ Res(Q) oculto ∨ Ret(Q) no acreditado ∨ U usada como confirmación ∨ referencia_externa=fundamento_SV`
+`Err_Triv_SV(Q)=1 ⇔ Dom(Q) omitido ∨ Fron(Q) ausente ∨ Id(Q) confundida ∨ Res(Q) oculto ∨ Ret(Q) no acreditado ∨ U usada como confirmación ∨ referencia_externa=fundamento_SV`.
 
 La investigación matriz tuvo que proteger dos afirmaciones por riesgo de lectura externa. La primera es que giro no equivale a rotación rígida cosmológica, vorticidad métrica, anisotropía global o momento angular cosmológico salvo transducción declarada. La segunda es que clausura circular no equivale a esfera física, imagen geométrica ordinaria ni átomo químico literal. La trivialización no retira esa protección; la hace más precisa. Una vez declarado el dominio de los términos, el SV no necesita pedir permiso semántico para decir giro. La empiria observa, mide, registra, contrasta y devuelve magnitudes dentro de su dominio; esa función es necesaria, pero no agota la verdad completa del régimen. La medición retorna; después, el dominio decide si ese retorno basta para conclusión formal, si exige residual adicional o si devuelve `U`.
 
@@ -228,11 +232,7 @@ El corolario de transducción no confinante gobierna esta lectura. En matemátic
 
 El corolario puede escribirse, de manera compacta, así:
 
-`Problema(D_ext) --𝔛--> Resolución(D_SV) --Ret,Res--> Conclusión formal(D_ext)`
-
-`Transd_no_conf^SV=0 ⇔ Dom(D_ext) ∧ Dom(D_SV) ∧ 𝔛(D_ext↔D_SV) declarado ∧ Res visible ∧ Ret(D_SV→D_ext) ∧ Conclusión formal(D_ext)`
-
-`Err_conf^SV=1 ⇔ 𝔛 declarado ∧ Ret(D_SV→D_ext) ∧ Conclusión formal(D_ext) ∧ objeción="sólo vale en D_SV"`
+`Problema(D_ext) --𝔛--> Resolución(D_SV) --Ret,Res--> Conclusión formal(D_ext)`; `Transd_no_conf^SV=0 ⇔ Dom(D_ext) ∧ Dom(D_SV) ∧ 𝔛(D_ext↔D_SV) declarado ∧ Res visible ∧ Ret(D_SV→D_ext) ∧ Conclusión formal(D_ext)`; `Err_conf^SV=1 ⇔ 𝔛 declarado ∧ Ret(D_SV→D_ext) ∧ Conclusión formal(D_ext) ∧ objeción="sólo vale en D_SV"`.
 
 Por tanto, no se añade una tesis lateral. Acredita que la trivialización SV permite responder con disciplina a preguntas de máximo alcance: qué significa que un observable realizado tenga clausura circular, qué significa que presente giro, qué significa que la espiral conserve inscripción *append-only*, qué función tiene `U` entre `0` y `1`, y por qué una transducción rigurosa no degrada el resultado al dominio auxiliar que permitió resolverlo.
 
@@ -248,17 +248,11 @@ Esta regla ordena las vías laterales sin permitir que ninguna dirija el aparato
 
 El cero no opera siempre como Nada. Puede nombrar origen, límite, neutralización, ausencia, clausura de tesis, denominador restrictivo, residual nulo o frontera de no retorno. Si se ignora su posición formal, se comete error de plano. La trivialización exige preguntar de qué cero se trata y qué régimen permanece activo. La expresión general queda así:
 
-`Cero_tipo(x)=Origen ∨ Límite ∨ Neutralización ∨ Ausencia ∨ Clausura ∨ Restricción ∨ Residual_nulo ∨ Frontera`
-
-`Err_0^SV=1 ⇔ 0 leído como NADA_SV sin Dom ∨ 0 leído como origen cuando I>0 ∨ 0 leído como residual nulo con Res no declarado ∨ 0 leído como clausura con Ret ausente`
+`Cero_tipo(x)=Origen ∨ Límite ∨ Neutralización ∨ Ausencia ∨ Clausura ∨ Restricción ∨ Residual_nulo ∨ Frontera`; `Err_0^SV=1 ⇔ 0 leído como NADA_SV sin Dom ∨ 0 leído como origen cuando I>0 ∨ 0 leído como residual nulo con Res no declarado ∨ 0 leído como clausura con Ret ausente`.
 
 La Línea del Umbral SV aporta el segundo pilar. En la formulación matriz, la recta `μ=λ` fija neutralización polar; sobre ella `P=μ−λ=0`, pero la intensidad `I=μ+λ` conserva valor positivo cuando `μ=λ=a` y `a>0`. Por tanto, `(0,0)` no equivale a `(5,5)` ni a `(64,64)`: todos pueden compartir neutralización polar, pero sólo `(0,0)` carece de intensidad. La trivialización convierte esta distinción en regla general: no basta ver `P=0` para declarar origen. La forma elemental es:
 
-`P(a,a)=a−a=0`
-
-`I(a,a)=a+a=2a`
-
-`a>0 ⇒ P=0 ∧ I>0`
+`P(a,a)=a−a=0`; `I(a,a)=a+a=2a`; `a>0 ⇒ P=0 ∧ I>0`
 
 Esto impide confundir igualdad polar con nulidad absoluta. También impide confundir clausura circular con quietud, giro con rotación externa, espiral con ciclo temporal y `U` con ignorancia favorable. Si hay intensidad positiva, hay presencia de régimen. Si hay traza, residual y retorno, hay inscripción conservada. Si hay centro de lectura y brazo, la circulación de retorno puede adquirir giro. Si hay conservación *append-only*, el giro no repite el origen: retorna con inscripción.
 
@@ -266,11 +260,7 @@ Las vías laterales quedan subordinadas a esta regla. Agua no se agota en `H₂O
 
 La regla general para cualquier lectura lateral es:
 
-`Adopcion_lateral^SV(R)=0 ⇔ Dom(R) ∧ Fron(R) ∧ Id(R) ∧ I_R>0 ∧ Tr_R ∧ Res_R ∧ Ret_R ∧ Trans_R↔SV declarada ∧ NoIdentMat=1 ∧ NoSaltoPlano=1`
-
-`U_lateral^SV(R) ⇔ Dom(R), Fron(R), Res(R), Ret(R) o Trans_R↔SV insuficientes sin contradicción`
-
-`Err_lateral^SV(R)=1 ⇔ identidad_material_forzada ∨ referencia_externa=fundamento_SV ∨ Res oculto ∨ Ret omitido ∨ U usada como resultado favorable`
+`Adopcion_lateral^SV(R)=0 ⇔ Dom(R) ∧ Fron(R) ∧ Id(R) ∧ I_R>0 ∧ Tr_R ∧ Res_R ∧ Ret_R ∧ Trans_R↔SV declarada ∧ NoIdentMat=1 ∧ NoSaltoPlano=1`; `U_lateral^SV(R) ⇔ Dom(R), Fron(R), Res(R), Ret(R) o Trans_R↔SV insuficientes sin contradicción`; `Err_lateral^SV(R)=1 ⇔ identidad_material_forzada ∨ referencia_externa=fundamento_SV ∨ Res oculto ∨ Ret omitido ∨ U usada como resultado favorable`.
 
 La trivialización rigurosa permite así una afirmación más fuerte y más limpia: el SV no convierte los casos externos en pruebas por analogía; los somete a dominio. Si pasan, retornan como lectura lateral. Si no pasan, devuelven `U` o error. La audacia científica no consiste en afirmar más de lo que el aparato permite; consiste en no callar cuando el dominio, la frontera, la traza, el residual y el retorno ya permiten conclusión formal.
 
@@ -280,13 +270,7 @@ La terna `Σ_SV={0,1,U}` se introduce como reducción mínima del resultado form
 
 La investigación de partida ya fija la regla que la trivialización toma como núcleo: `U` no opera como refugio favorable. Sólo procede cuando falta dominio, referencia de contraste, transducción, magnitud, residual o retorno; en ese caso conserva indeterminación honesta, sin confirmar ni negar la tesis. La formulación general es:
 
-`d_SV(x)=0 ⇔ Criterio(x) clausurado sin error`
-
-`d_SV(x)=1 ⇔ Propiedad(x) realizada con Dom, Fron, Tr, Res y Ret suficientes`
-
-`d_SV(x)=U ⇔ falta Dom ∨ falta Fron ∨ falta Res ∨ falta Trans ∨ falta Magnitud ∨ falta Ret, sin contradicción`
-
-`Err_U(x)=1 ⇔ U usada como confirmación ∨ U usada como negación ∨ U usada para ocultar Res ∨ U usada para evitar Ret`
+`d_SV(x)=0 ⇔ Criterio(x) clausurado sin error`; `d_SV(x)=1 ⇔ Propiedad(x) realizada con Dom, Fron, Tr, Res y Ret suficientes`; `d_SV(x)=U ⇔ falta Dom ∨ falta Fron ∨ falta Res ∨ falta Trans ∨ falta Magnitud ∨ falta Ret, sin contradicción`; `Err_U(x)=1 ⇔ U usada como confirmación ∨ U usada como negación ∨ U usada para ocultar Res ∨ U usada para evitar Ret`.
 
 Esta distinción impide dos errores. El primero consiste en forzar `1` cuando no hay dominio completo; el segundo, en usar `U` para no concluir formalmente cuando las condiciones ya concurren. La `U` honesta no debilita el SV: impide una clausura no acreditada en régimen SV. Suspende la clausura cuando falta estructura; exige conclusión formal cuando la estructura está declarada.
 
@@ -296,11 +280,7 @@ La terna exige separar identidad primitiva e igualdad operativa. La forma primar
 
 Bajo asignación SV:
 
-`R → U`
-
-`I → 1`
-
-`V → 0`
+`R → U`; `I → 1`; `V → 0`
 
 la identidad resultante es:
 
@@ -362,29 +342,19 @@ Con ello, la trivialización alcanza una formulación estable: una igualdad pued
 
 El cero no puede leerse como una entidad única dentro de una pregunta ya situada. La trivialización rigurosa exige determinar qué función cumple `0` antes de usarlo como conclusión formal, límite, origen o ausencia. En un régimen puede nombrar origen sin intensidad; en otro, límite no ocupable; en otro, neutralización de potencial; en otro, residual nulo; en otro, restricción que no puede anularse sin desbordamiento; en otro, clausura formal de una tesis. La confusión aparece cuando todos esos usos se reducen a Nada. El SV no autoriza esa reducción. `NADA_SV` no se obtiene por ver un símbolo `0`; exige dominio, frontera y separación de plano. La forma de control queda:
 
-`Tipo_0^SV(x) ∈ {Origen, Límite, Neutralización, Ausencia, Clausura, Restricción, Residual_nulo, Frontera}`
-
-`Lect_0^SV(x)=0 ⇔ Dom(x) ∧ Fron(x) ∧ Tipo_0^SV(x) declarado ∧ I(x) declarada ∧ Res(x) visible ∧ Ret(x)`
-
-`Err_0^SV(x)=1 ⇔ 0=NADA_SV sin Dom(x) ∨ 0=Origen con I(x)>0 ∨ 0=Residual_nulo con Res(x) no declarado ∨ 0=Clausura con Ret(x) ausente ∨ 0=Restricción anulada con régimen activo no tipado`
+`Tipo_0^SV(x) ∈ {Origen, Límite, Neutralización, Ausencia, Clausura, Restricción, Residual_nulo, Frontera}`; `Lect_0^SV(x)=0 ⇔ Dom(x) ∧ Fron(x) ∧ Tipo_0^SV(x) declarado ∧ I(x) declarada ∧ Res(x) visible ∧ Ret(x)`; `Err_0^SV(x)=1 ⇔ 0=NADA_SV sin Dom(x) ∨ 0=Origen con I(x)>0 ∨ 0=Residual_nulo con Res(x) no declarado ∨ 0=Clausura con Ret(x) ausente ∨ 0=Restricción anulada con régimen activo no tipado`.
 
 La distinción es obligatoria porque el mismo signo `0` puede ocupar lugares incompatibles. En la Línea del Umbral, `P=0` significa neutralización polar, no origen necesario; si `μ=λ=a` y `a>0`, la intensidad `I=2a` conserva presencia de régimen. En una relación de cociente, el denominador que tiende a `0` no actúa como origen, sino como restricción que se retira mientras el régimen activo permanece. En una conclusión formal de tesis, `0` puede indicar conclusión sin error dentro del criterio declarado. En un residual, `Res=0` indica ausencia de resto dentro de una transducción concreta, no anulación de todo dominio. Por eso la pregunta correcta no es si aparece un cero, sino dónde aparece, qué sostiene, qué anula, qué conserva y qué retorno exige.
 
 La forma de cociente muestra el problema con nitidez. En Ohm, el dominio externo formula `V=I·R` y permite `I=V/R`; OpenStax recoge la relación ordinaria entre tensión, corriente y resistencia en un circuito óhmico (OpenStax, 2016d). En gravitación universal, la formulación newtoniana externa expresa la fuerza como proporcional al producto de masas e inversamente proporcional al cuadrado de la distancia entre sus centros (NASA Goddard Space Flight Center, 2020). En ambos casos, al reducir la magnitud restrictiva hacia `0` con numerador activo, no se obtiene origen limpio: aparece no acotación, singularización formal o error de dominio. La forma abstracta es:
 
-`Coc_SV(Y;A,B)=0 ⇔ Y=A/B ∧ Dom(A,B,Y) ∧ B=Restricción ∧ A=Régimen_activo ∧ Ret(Y)`
-
-`B→0 ∧ A≠0 ⇒ NoAcot(Y) ∨ U_Coc ∨ Err_Dom`
-
-`B→0 ∧ A=0 ⇒ U_Coc`, salvo que el dominio declare una clausura específica.
+`Coc_SV(Y;A,B)=0 ⇔ Y=A/B ∧ Dom(A,B,Y) ∧ B=Restricción ∧ A=Régimen_activo ∧ Ret(Y)`; `B→0 ∧ A≠0 ⇒ NoAcot(Y) ∨ U_Coc ∨ Err_Dom`; `B→0 ∧ A=0 ⇒ U_Coc`, salvo que el dominio declare una clausura específica.
 
 La advertencia no autoriza extrapolar cualquier cociente a cualquier régimen. Sólo permite tipar una función formal: cuando la magnitud que limita, separa o transduce se anula sin anular el régimen activo, el resultado no vuelve al origen. La `U` honesta comparece si falta dominio, si la magnitud restrictiva no está tipada, si el numerador no ha sido declarado o si el retorno no permite decidir entre no acotación, residual o error. La trivialización no dice que Ohm, gravitación, temperatura límite y Línea del Umbral sean lo mismo; dice que todos obligan a distinguir el cero de origen, el cero de neutralización, el cero de restricción y el cero de residual.
 
 El cero absoluto sirve como ejemplo externo de límite, no como fundamento SV. NIST recuerda que Lord Kelvin calculó el límite de `−273,15 °C`, equivalente a `0 K`, como extremo inferior de temperatura (NIST, 2024). Para esta lectura, el dato externo no funda la terna: sólo muestra que un cero puede operar como límite no disponible para ocupación ordinaria. La forma SV es:
 
-`0_Lim^SV(x)=1 ⇔ Dom(x) ∧ Límite(x)=0 ∧ Aproximación_admisible(x) ∧ Ret_límite(x) ∧ ¬Ocupación_ordinaria(x)`
-
-`Err_Lim^SV=1 ⇔ Límite=Origen ∨ Límite=NADA_SV ∨ Aproximación=Clausura ∨ Ret_límite omitido`
+`0_Lim^SV(x)=1 ⇔ Dom(x) ∧ Límite(x)=0 ∧ Aproximación_admisible(x) ∧ Ret_límite(x) ∧ ¬Ocupación_ordinaria(x)`; `Err_Lim^SV=1 ⇔ Límite=Origen ∨ Límite=NADA_SV ∨ Aproximación=Clausura ∨ Ret_límite omitido`.
 
 La clausura de tesis añade un uso distinto. En esta lectura, cuando se escribe `Triv_SV(Q)=0`, el cero no significa nulidad de `Q`, sino conclusión del criterio de trivialización sin error. Cuando se escribe `Err_0^SV=1`, el uno no significa sustancia ni presencia material, sino comparecencia positiva del error. Esta convención debe mantenerse para evitar inversión semántica. El cero puede clausurar una tesis, neutralizar un potencial, anular un residual o señalar un límite; sólo bajo dominio adecuado puede ser origen. Si el lector confunde esos usos, convierte la trivialización en pobreza formal. Si los distingue, la trivialización recupera su fuerza: cada pregunta queda reducida a la posición exacta de sus `0`, sus `1` y sus `U`.
 
@@ -392,53 +362,35 @@ La clausura de tesis añade un uso distinto. En esta lectura, cuando se escribe 
 
 Las vías laterales no se incorporan como fundamentos del SV. Se incorporan como contrastes disciplinados para mostrar que la trivialización no opera por analogía libre, sino por declaración de dominio, frontera, identidad, residual y retorno. Una vía lateral sólo puede entrar si conserva su dominio externo, declara qué componente transporta, evita identificación material con el régimen SV y devuelve residual visible. La regla es:
 
-`VíaLat_SV(R)=0 ⇔ Dom_ext(R) ∧ Dom_SV(R) ∧ Trans_R↔SV declarada ∧ Id(R) no confundida ∧ Función_transportada(R) declarada ∧ Res_R visible ∧ Ret_R ∧ NoIdentMat(R)=1`
-
-`Err_VíaLat^SV(R)=1 ⇔ referencia_externa=fundamento_SV ∨ identidad_material_forzada ∨ función_transportada omitida ∨ Res_R oculto ∨ Ret_R ausente ∨ U usada como aceptación`
-
-`U_VíaLat^SV(R) ⇔ Dom_ext, Dom_SV, Trans_R↔SV, Res_R o Ret_R insuficientes sin contradicción`
+`VíaLat_SV(R)=0 ⇔ Dom_ext(R) ∧ Dom_SV(R) ∧ Trans_R↔SV declarada ∧ Id(R) no confundida ∧ Función_transportada(R) declarada ∧ Res_R visible ∧ Ret_R ∧ NoIdentMat(R)=1`; `Err_VíaLat^SV(R)=1 ⇔ referencia_externa=fundamento_SV ∨ identidad_material_forzada ∨ función_transportada omitida ∨ Res_R oculto ∨ Ret_R ausente ∨ U usada como aceptación`; `U_VíaLat^SV(R) ⇔ Dom_ext, Dom_SV, Trans_R↔SV, Res_R o Ret_R insuficientes sin contradicción`.
 
 La ley de Ohm transporta la función formal de restricción, no la electricidad como fundamento. El dominio externo declara tensión, corriente y resistencia; OpenStax formula `V=I·R` y la relación de resistencia con tensión e intensidad en un circuito óhmico (OpenStax, 2016d). En la lectura SV, la identidad primaria `V ≡ R·I` permite leer `R→U`, `I→1`, `V→0` en plano de identidad estructural, de donde resulta `0 ≡ U·1`; sólo después se admite la igualdad operativa `0=U·1`. La enseñanza no es eléctrica, sino formal: una restricción no puede borrarse sin coste cuando el régimen activo permanece. La función transportada es:
 
-`Func_Ohm^SV=Restricción_no_borrable`
-
-`Adop_Ohm^SV=0 ⇔ Dom_elec ∧ V≡R·I ∧ R→U ∧ I→1 ∧ V→0 ∧ Dist(≡,=) ∧ Res_visible ∧ Ret_formal`
+`Func_Ohm^SV=Restricción_no_borrable`; `Adop_Ohm^SV=0 ⇔ Dom_elec ∧ V≡R·I ∧ R→U ∧ I→1 ∧ V→0 ∧ Dist(≡,=) ∧ Res_visible ∧ Ret_formal`.
 
 La gravitación universal transporta la función de separación, no una cosmología. La formulación externa `F=G·m₁·m₂/r²` expresa una relación de atracción entre masas con dependencia inversa del cuadrado de la distancia, según la exposición de NASA Goddard sobre la ley de Newton (NASA Goddard Space Flight Center, 2020). En la lectura SV, `G` puede quedar como constante externa de dominio, mientras `r²` muestra la función restrictiva de separación. Si `r²→0` con `m₁·m₂≠0`, no se obtiene origen, sino no acotación formal o error de dominio. La función transportada es:
 
-`Func_Grav^SV=Separación_no_borrable`
-
-`Adop_Grav^SV=0 ⇔ Dom_grav ∧ F∝(m₁·m₂)/r² ∧ r²=Restricción_sep ∧ m₁·m₂=Régimen_activo ∧ Res_visible ∧ Ret_formal`
+`Func_Grav^SV=Separación_no_borrable`; `Adop_Grav^SV=0 ⇔ Dom_grav ∧ F∝(m₁·m₂)/r² ∧ r²=Restricción_sep ∧ m₁·m₂=Régimen_activo ∧ Res_visible ∧ Ret_formal`.
 
 El cero absoluto transporta la función de límite. No entra como temperatura SV ni como ontología de la materia. Su utilidad reside en mostrar que un cero puede ser límite de régimen sin convertirse en estado ordinario ni en Nada. La función transportada es:
 
-`Func_0K^SV=Límite_no_ocupable_como_origen`
-
-`Adop_0K^SV=0 ⇔ Dom_term_ext ∧ 0K=Límite ∧ ¬(0K=NADA_SV) ∧ Ret_límite ∧ Res_visible`
+`Func_0K^SV=Límite_no_ocupable_como_origen`; `Adop_0K^SV=0 ⇔ Dom_term_ext ∧ 0K=Límite ∧ ¬(0K=NADA_SV) ∧ Ret_límite ∧ Res_visible`.
 
 El agua transporta la distinción entre identidad y estado. El dominio externo identifica el agua como `H₂O`; NIST Chemistry WebBook registra el agua con fórmula `H₂O` y peso molecular `18,0153` (NIST Chemistry WebBook, s. f.). Sin embargo, la pregunta “qué es el agua” no queda agotada por la fórmula molecular si el régimen interrogado exige estado, frontera de transición y retorno. Hielo, líquido y vapor conservan identidad química bajo estados distintos; por tanto, la trivialización obliga a separar identidad material, régimen de estado y tránsito. La función transportada es:
 
-`Func_H2O^SV=Identidad_bajo_estado_y_tránsito`
-
-`Agua_SV^lat=0 ⇔ Id(H₂O) ∧ Estado(H₂O) declarado ∧ Fron_estado ∧ Tr_estado ∧ Res_estado ∧ Ret_estado`
+`Func_H2O^SV=Identidad_bajo_estado_y_tránsito`; `Agua_SV^lat=0 ⇔ Id(H₂O) ∧ Estado(H₂O) declarado ∧ Fron_estado ∧ Tr_estado ∧ Res_estado ∧ Ret_estado`.
 
 El fuego transporta la función de tránsito sostenido, no una sustancia. Como vía lateral, se lee por soporte, frontera, emisión, residuo y cese del régimen cuando falta continuidad de alimentación o intercambio. El fuego enseña que no todo cero opera igual: el cero de soporte extingue el tránsito; el cero de restricción puede desbordarlo. La función transportada es:
 
-`Func_Fuego^SV=Tránsito_sostenido_con_cese_por_pérdida_de_soporte`
-
-`Fuego_lat^SV=0 ⇔ Dom_comb ∧ Soporte ∧ Fron_trans ∧ Emisión ∧ Res_comb ∧ Ret_cese`
+`Func_Fuego^SV=Tránsito_sostenido_con_cese_por_pérdida_de_soporte`; `Fuego_lat^SV=0 ⇔ Dom_comb ∧ Soporte ∧ Fron_trans ∧ Emisión ∧ Res_comb ∧ Ret_cese`.
 
 El volcán transporta la función de frontera geológica bajo presión, emisión y depósito. USGS explica que, cuando el magma es viscoso y los gases no escapan fácilmente, la presión puede crecer hasta producir erupciones explosivas; también describe el ascenso del magma por flotabilidad y presión de gases (U.S. Geological Survey, s. f.-a, s. f.-c). En la lectura SV, el volcán no se usa por espectacularidad, sino porque muestra un régimen donde frontera, presión, emisión, depósito y traza no permiten retorno al origen sin resto. La función transportada es:
 
-`Func_Volc^SV=Frontera_activa_con_emisión_y_depósito`
-
-`Volc_lat^SV=0 ⇔ Dom_geo ∧ Presión ∧ Fron_geo ∧ Emisión ∧ Depósito ∧ Tr_geo ∧ Res_geo ∧ Ret_geo`
+`Func_Volc^SV=Frontera_activa_con_emisión_y_depósito`; `Volc_lat^SV=0 ⇔ Dom_geo ∧ Presión ∧ Fron_geo ∧ Emisión ∧ Depósito ∧ Tr_geo ∧ Res_geo ∧ Ret_geo`
 
 Las especies transportan la función de inscripción heredada y no retorno. La biología evolutiva externa define la evolución como descendencia con modificación y cambio en la información heredable transmitida entre generaciones (University of California Museum of Paleontology, s. f.). La lectura SV no importa azar, estadística ni tiempo rector como fundamento; conserva únicamente la función formal de traza heredada y modificación no borrable. Una especie puede extinguirse, transformarse o dejar residuo, pero no vuelve a no haber ocurrido. La función transportada es:
 
-`Func_Esp^SV=Traza_heredada_y_no_borrado_append_only`
-
-`Esp_lat^SV=0 ⇔ Dom_bio ∧ Id_bio ∧ Tr_heredada ∧ Variación ∧ Res_bio ∧ Ret_bio ∧ AppendOnly_SV`
+`Func_Esp^SV=Traza_heredada_y_no_borrado_append_only`; `Esp_lat^SV=0 ⇔ Dom_bio ∧ Id_bio ∧ Tr_heredada ∧ Variación ∧ Res_bio ∧ Ret_bio ∧ AppendOnly_SV`.
 
 La conclusión del apartado es estricta: las vías laterales sólo son admisibles si obedecen el aparato de trivialización. Ohm no funda `U`; gravitación no funda la Línea del Umbral; el cero absoluto no funda `NADA_SV`; el agua no funda la identidad SV; el fuego no funda el tránsito; el volcán no funda la frontera; las especies no fundan *append-only*. Cada vía devuelve una función tipada. La trivialización las subordina y las ajusta: si pasan por dominio, frontera, traza, residual y retorno, devuelven una función; si no pasan, devuelven `U` o error.
 
@@ -446,47 +398,25 @@ La conclusión del apartado es estricta: las vías laterales sólo son admisible
 
 La clausura circular del observable realizado no equivale a esfera física, globo cosmológico, contorno geométrico externo ni figura imaginada desde fuera. Designa un régimen de retorno de dominio. Un observable realizado presenta clausura circular cuando su identidad no se dispersa como suma de partes inconexas, sino que retorna a lectura bajo dominio, frontera, traza y residual. La circularidad, en este sentido, no describe la forma material del universo; describe la condición por la cual un dominio puede leerse como unidad retornada. La forma mínima es:
 
-`CircCl_SV(o,Ω)=1 ⇔ Obs_real(o,Ω)=1 ∧ Dom(Ω) ∧ Fron_Ω(o) ∧ Id_Ω(o) ∧ Tr_Ω(o) ∧ Res_Ω(o) ∧ Ret_Ω(o) ∧ Cl_Ω(o)=1`
-
-`Err_CircCl^SV=1 ⇔ CircCl=esfera_física ∨ CircCl=imagen_geométrica ∨ CircCl=rotación_externa ∨ Dom(Ω) omitido ∨ Fron_Ω omitida ∨ Res_Ω oculto ∨ Ret_Ω ausente`
-
-`U_CircCl^SV ⇔ Dom(Ω), Fron_Ω, Tr_Ω, Res_Ω o Ret_Ω insuficientes sin contradicción`
+`CircCl_SV(o,Ω)=1 ⇔ Obs_real(o,Ω)=1 ∧ Dom(Ω) ∧ Fron_Ω(o) ∧ Id_Ω(o) ∧ Tr_Ω(o) ∧ Res_Ω(o) ∧ Ret_Ω(o) ∧ Cl_Ω(o)=1`; `Err_CircCl^SV=1 ⇔ CircCl=esfera_física ∨ CircCl=imagen_geométrica ∨ CircCl=rotación_externa ∨ Dom(Ω) omitido ∨ Fron_Ω omitida ∨ Res_Ω oculto ∨ Ret_Ω ausente`; `U_CircCl^SV ⇔ Dom(Ω), Fron_Ω, Tr_Ω, Res_Ω o Ret_Ω insuficientes sin contradicción`.
 
 Esta definición conserva la orientación material ya fijada. Allí el dominio-universo físico realizado se formula como instancia con circulación de retorno bajo dominio, frontera, potencial, intensidad, centro de lectura, brazo, traza, residual y conservación *append-only*; además, ante lectura externa superior comparece como átomo formal de clausura, no como átomo químico literal ni esfera física. La clausura circular traduce ese núcleo a trivialización: si hay observable realizado, dominio declarado, frontera, identidad, traza, residual y retorno, puede hablarse de circularidad de clausura; si se exige que esa circularidad sea esfera física, se comete error de plano.
 
 La circularidad de clausura debe distinguirse de la representación geométrica. Un círculo externo tiene centro, radio, circunferencia y métrica gráfica. La clausura circular SV tiene centro de lectura, frontera de dominio, traza, residual y retorno. Puede adoptar recursos geométricos para ilustración, pero no depende de ellos como fundamento. La correspondencia tipada es:
 
-`centro_geométrico ↦ Ctr_Ω(o) como centro de lectura`
-
-`radio ↦ Brazo_Ω(o) como separación situada respecto del centro`
-
-`circunferencia ↦ Fron_Ω(o) como frontera de régimen`
-
-`vuelta ↦ Ret_Ω(o) como retorno de lectura`
-
-`área ↦ Dom(Ω) como dominio declarado`
-
-`trazo ↦ Tr_Ω(o) como inscripción conservada`
-
-`imperfección de clausura ↦ Res_Ω(o) como residual visible`
+`centro_geométrico ↦ Ctr_Ω(o) como centro de lectura`; `radio ↦ Brazo_Ω(o) como separación situada respecto del centro`; `circunferencia ↦ Fron_Ω(o) como frontera de régimen`; `vuelta ↦ Ret_Ω(o) como retorno de lectura`; `área ↦ Dom(Ω) como dominio declarado`; `trazo ↦ Tr_Ω(o) como inscripción conservada`; `imperfección de clausura ↦ Res_Ω(o) como residual visible`.
 
 La flecha `↦` no indica identidad material. Indica traducción de función bajo dominio. Si el lector exige que la clausura circular sea una esfera observable desde fuera, cambia de dominio sin declarar transducción. Si se permite una imagen circular sin residual, también se pierde el aparato. La clausura circular no es dibujo perfecto: es retorno de dominio con resto visible. Por eso admite residual gobernado y conserva `U` cuando falta información suficiente.
 
 La circularidad tampoco basta para afirmar giro. El giro exige una condición adicional: centro de lectura, brazo, intensidad y momento interno de retorno. Puede haber clausura circular como retorno de dominio sin que todavía se haya evaluado formalmente el régimen de giro. La transición se expresa así:
 
-`CircCl_SV(o,Ω)=1 ∧ I_Ω(o)>0 ∧ Ctr_Ω(o) ∧ Brazo_Ω(o) ∧ MomRet_Ω(o) ∧ AppendOnly_SV ⇒ Giro(o,Ω)=1`
-
-`CircCl_SV(o,Ω)=1 ∧ [Ctr_Ω(o) ∨ Brazo_Ω(o) ∨ MomRet_Ω(o)] insuficiente ⇒ U_Giro^SV`
-
-`Err_Giro^SV=1 ⇔ Giro=rotación_rígida_obligatoria ∨ Giro=momento_angular_externo_sin_transducción ∨ CircCl usada como esfera física ∨ Res omitido`
+`CircCl_SV(o,Ω)=1 ∧ I_Ω(o)>0 ∧ Ctr_Ω(o) ∧ Brazo_Ω(o) ∧ MomRet_Ω(o) ∧ AppendOnly_SV ⇒ Giro(o,Ω)=1`; `CircCl_SV(o,Ω)=1 ∧ [Ctr_Ω(o) ∨ Brazo_Ω(o) ∨ MomRet_Ω(o)] insuficiente ⇒ U_Giro^SV`; `Err_Giro^SV=1 ⇔ Giro=rotación_rígida_obligatoria ∨ Giro=momento_angular_externo_sin_transducción ∨ CircCl usada como esfera física ∨ Res omitido`.
 
 Esta separación conserva la secuencia conceptual. A.8 fija la circularidad de clausura; A.9 demostrará el giro como circulación de retorno con centro, brazo, intensidad, traza, residual y *append-only*; A.10 formulará la espiral como retorno con inscripción no repetida. La cadena no es imagen: `Clausura circular → Giro → Espiral append-only`. La primera impide dispersión del observable; el segundo introduce orientación situada y momento de retorno; la tercera impide repetición idéntica por conservación de inscripción.
 
 Aplicado al dominio-universo físico realizado, el resultado no se formula como “el universo es una esfera”, sino como: `CircCl_SV(o_U,Ω_U)=1` si `o_U` comparece como observable realizado, `Ω_U` declara dominio, `Fron_sut(Ω_U)` fija frontera sutural, `Tr_ΩU(o_U)` conserva inscripción, `Res_ΩU(o_U)` conserva residual visible, `Ret_ΩU(o_U)` devuelve lectura de dominio y `Cl_ΩU(o_U)=1` declara clausura. Desde ahí puede avanzarse hacia giro, pero no por licencia verbal ni por imagen, sino por condiciones adicionales. La forma es:
 
-`CircCl_SV(o_U,Ω_U)=1 ⇔ Obs_real(o_U,Ω_U)=1 ∧ Fron_sut(Ω_U) ∧ Id_ΩU(o_U) ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_ΩU(o_U) ∧ Cl_ΩU(o_U)=1`
-
-`Err_CircClΩU^SV=1 ⇔ Ω_U=esfera_física_obligatoria ∨ Ω_U=globo_cosmológico ∨ Ω_U=átomo_químico ∨ Ret_ΩU omitido ∨ Res_ΩU oculto ∨ referencia_externa=fundamento_SV`
+`CircCl_SV(o_U,Ω_U)=1 ⇔ Obs_real(o_U,Ω_U)=1 ∧ Fron_sut(Ω_U) ∧ Id_ΩU(o_U) ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_ΩU(o_U) ∧ Cl_ΩU(o_U)=1`; `Err_CircClΩU^SV=1 ⇔ Ω_U=esfera_física_obligatoria ∨ Ω_U=globo_cosmológico ∨ Ω_U=átomo_químico ∨ Ret_ΩU omitido ∨ Res_ΩU oculto ∨ referencia_externa=fundamento_SV`.
 
 La clausura circular queda así situada: no se pide permiso a la geometría externa para declarar retorno de dominio, pero tampoco se invade la geometría externa con una afirmación que no le pertenece. La ciencia empírica podrá traducir esta clausura a magnitudes de forma, curvatura, topología, observación o cosmología si declara dominio, transducción, residual y retorno. Sin esa transducción, no cancela ni confirma la resultado interno; devuelve `U` en su propio plano. El SV conserva su afirmación exacta: un observable realizado con dominio, frontera, identidad, traza, residual y retorno puede comparecer como clausura circular sin convertirse en esfera física.
 
@@ -494,29 +424,23 @@ La clausura circular queda así situada: no se pide permiso a la geometría exte
 
 El giro se define en esta lectura como circulación de retorno de una instancia realizada bajo dominio declarado. No equivale por defecto a rotación rígida externa, vorticidad métrica, anisotropía cosmológica ni momento angular físico. Tampoco queda reducido a imagen circular. El término se usa en sentido estricto cuando concurren las condiciones que lo hacen admisible: observable realizado, dominio, frontera, circulación de retorno, centro de lectura, brazo, intensidad positiva, traza, residual, retorno y conservación *append-only*. Una vez fijado ese dominio, el término no necesita una reserva verbal permanente: el régimen presenta giro si el aparato lo concluye formalmente. La forma mínima es:
 
-`Giro(o,Ω)=1 ⇔ Obs_real(o,Ω)=1 ∧ CircRet_Ω(o)=1 ∧ I_Ω(o)>0 ∧ Ctr_Ω(o) ∧ Brazo_Ω(o) ∧ MomRet_Ω(o) ∧ Tr_Ω(o) ∧ Res_Ω(o) ∧ Ret_Ω(o) ∧ AppendOnly_SV`
-
-`Err_Giro^SV=1 ⇔ Giro=rotación_rígida_externa ∨ Giro=vorticidad_métrica_sin_transducción ∨ Giro=momento_angular_cosmológico_sin_magnitud ∨ Ctr_Ω omitido ∨ Brazo_Ω omitido ∨ Res_Ω oculto ∨ Ret_Ω ausente`
-
-`U_Giro^SV ⇔ CircRet_Ω, Ctr_Ω, Brazo_Ω, I_Ω, Tr_Ω, Res_Ω o Ret_Ω insuficientes sin contradicción`
+`Giro(o,Ω)=1 ⇔ Obs_real(o,Ω)=1 ∧ CircRet_Ω(o)=1 ∧ I_Ω(o)>0 ∧ Ctr_Ω(o) ∧ Brazo_Ω(o) ∧ MomRet_Ω(o) ∧ Tr_Ω(o) ∧ Res_Ω(o) ∧ Ret_Ω(o) ∧ AppendOnly_SV`; `Err_Giro^SV=1 ⇔ Giro=rotación_rígida_externa ∨ Giro=vorticidad_métrica_sin_transducción ∨ Giro=momento_angular_cosmológico_sin_magnitud ∨ Ctr_Ω omitido ∨ Brazo_Ω omitido ∨ Res_Ω oculto ∨ Ret_Ω ausente`; `U_Giro^SV ⇔ CircRet_Ω, Ctr_Ω, Brazo_Ω, I_Ω, Tr_Ω, Res_Ω o Ret_Ω insuficientes sin contradicción`.
 
 La definición separa tres niveles. El primero es la clausura circular: el observable no se dispersa como suma inconexa, sino que retorna a lectura bajo dominio, frontera, traza y residual. El segundo es el momento interno de retorno: la circulación adquiere centro de lectura, brazo e intensidad positiva. El tercero es el giro: el momento de retorno conserva inscripción y residual bajo *append-only*. La cadena se expresa así:
 
-`CircCl_SV(o,Ω)=1 ∧ I_Ω(o)>0 ∧ Ctr_Ω(o) ∧ Brazo_Ω(o) ⇒ MomRet_Ω(o)=1`
-
-`MomRet_Ω(o)=1 ∧ Tr_Ω(o) ∧ Res_Ω(o) ∧ Ret_Ω(o) ∧ AppendOnly_SV ⇒ Giro(o,Ω)=1`
+`CircCl_SV(o,Ω)=1 ∧ I_Ω(o)>0 ∧ Ctr_Ω(o) ∧ Brazo_Ω(o) ⇒ MomRet_Ω(o)=1`; `MomRet_Ω(o)=1 ∧ Tr_Ω(o) ∧ Res_Ω(o) ∧ Ret_Ω(o) ∧ AppendOnly_SV ⇒ Giro(o,Ω)=1`.
 
 La diferencia entre giro y rotación externa no debilita el término; lo tipa. La rotación rígida pertenece al dominio físico externo cuando hay magnitud cinemática o dinámica declarada. La vorticidad pertenece a su propio régimen matemático y cosmológico cuando hay campo, métrica y operador adecuados. El momento angular pertenece a un dominio mecánico definido por magnitudes y unidades. El giro, en régimen SV, pertenece al dominio declarado cuando hay circulación de retorno con centro, brazo, intensidad, traza, residual y retorno. Si se desea traducir una forma a otra, la transducción debe declararse; sin esa transducción, la ciencia empírica no confirma ni cancela el giro, sino que devuelve `U` en su dominio propio.
 
 El papel de la Línea del Umbral permanece activo. En `μ=λ`, el potencial se neutraliza: `P=μ−λ=0`. Sin embargo, si `μ=λ=a` y `a>0`, la intensidad es positiva: `I=2a`. La neutralización polar no elimina el régimen. Cuando una instancia con intensidad positiva retorna bajo dominio, frontera, traza y residual, la circularidad de clausura puede adquirir momento. Si ese momento conserva inscripción y no borra el tránsito anterior, procede la conclusión formal de giro. En fórmula:
 
-`P(a,a)=0 ∧ I(a,a)=2a>0 ∧ CircRet(a,a)=1 ∧ Ctr(a,a) ∧ Brazo(a,a) ∧ Tr(a,a) ∧ Ret(a,a) ⇒ Giro(a,a)=1`
+`P(a,a)=0 ∧ I(a,a)=2a>0 ∧ CircRet(a,a)=1 ∧ Ctr(a,a) ∧ Brazo(a,a) ∧ Tr(a,a) ∧ Ret(a,a) ⇒ Giro(a,a)=1`.
 
 Este enunciado no convierte cualquier punto de la Línea del Umbral en giro. Exige dominio y retorno. Tampoco convierte cualquier retorno en giro. Exige centro, brazo e intensidad. El criterio evita dos errores: declarar giro por mera forma circular, o negar giro porque no se ha traducido aún a rotación física externa. La trivialización conserva la pregunta en su nivel exacto: si se pregunta por rotación física, se exige magnitud física; si se pregunta por circulación de retorno de dominio, se exige el aparato SV; si se mezclan ambos sin transducción, comparece `U`.
 
 Aplicado al dominio-universo físico realizado, el resultado se formula sin imagen externa: si `o_U` comparece como observable realizado de `Ω_U`, conserva frontera sutural, traza, residual, retorno, centro de lectura, brazo, intensidad positiva y *append-only*, entonces presenta giro. La forma queda:
 
-`Giro(o_U,Ω_U)=1 ⇔ Obs_real(o_U,Ω_U)=1 ∧ Fron_sut(Ω_U) ∧ CircRet_ΩU(o_U)=1 ∧ I_ΩU(o_U)>0 ∧ Ctr_ΩU(o_U) ∧ Brazo_ΩU(o_U) ∧ MomRet_ΩU(o_U) ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_ΩU(o_U) ∧ AppendOnly_SV`
+`Giro(o_U,Ω_U)=1 ⇔ Obs_real(o_U,Ω_U)=1 ∧ Fron_sut(Ω_U) ∧ CircRet_ΩU(o_U)=1 ∧ I_ΩU(o_U)>0 ∧ Ctr_ΩU(o_U) ∧ Brazo_ΩU(o_U) ∧ MomRet_ΩU(o_U) ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_ΩU(o_U) ∧ AppendOnly_SV`.
 
 La ciencia externa puede devolver restricciones al traducir este resultado a rotación rígida, vorticidad, anisotropía o momento angular cosmológico. Esa traducción es necesaria cuando se pretende hablar en sus magnitudes. Pero no funda ni anula la resultado interno: pertenece al retorno externo. El giro queda, por tanto, afirmado en su dominio exacto y abierto a transducción controlada, sin confusión de planos.
 
@@ -524,31 +448,21 @@ La ciencia externa puede devolver restricciones al traducir este resultado a rot
 
 La espiral *append-only* nombra el retorno que conserva inscripción y, por esa razón, no repite de modo idéntico el punto anterior. No introduce tiempo rector, no impone ciclo físico externo y no convierte el giro en cronología. Designa una consecuencia formal: si una instancia retorna bajo traza, residual y conservación *append-only*, el retorno no puede borrar lo ocurrido para simular origen. La clausura circular evita dispersión; el giro introduce circulación de retorno con centro, brazo e intensidad; la espiral conserva que cada retorno lleva inscripción. La forma mínima es:
 
-`Espiral_AO^SV(o,Ω)=1 ⇔ Giro(o,Ω)=1 ∧ Tr_Ω(o) ∧ Res_Ω(o) ∧ Ret_Ω(o) ∧ React_Ω(o) ∧ AppendOnly_SV ∧ ¬Repeticion_identica(o)`
-
-`Err_Espiral^SV=1 ⇔ Espiral=tiempo_rector ∨ Espiral=ciclo_idéntico ∨ Espiral=figura_geométrica_obligatoria ∨ Tr_Ω omitida ∨ Res_Ω oculto ∨ Ret_Ω ausente ∨ AppendOnly_SV negado`
-
-`U_Espiral^SV ⇔ Giro, Tr_Ω, Res_Ω, Ret_Ω, React_Ω o AppendOnly_SV insuficientes sin contradicción`
+`Espiral_AO^SV(o,Ω)=1 ⇔ Giro(o,Ω)=1 ∧ Tr_Ω(o) ∧ Res_Ω(o) ∧ Ret_Ω(o) ∧ React_Ω(o) ∧ AppendOnly_SV ∧ ¬Repeticion_identica(o)`; `Err_Espiral^SV=1 ⇔ Espiral=tiempo_rector ∨ Espiral=ciclo_idéntico ∨ Espiral=figura_geométrica_obligatoria ∨ Tr_Ω omitida ∨ Res_Ω oculto ∨ Ret_Ω ausente ∨ AppendOnly_SV negado`; `U_Espiral^SV ⇔ Giro, Tr_Ω, Res_Ω, Ret_Ω, React_Ω o AppendOnly_SV insuficientes sin contradicción`.
 
 La espiral se distingue del círculo. El círculo, como imagen externa, sugiere retorno al mismo punto. La clausura circular SV no dice eso: declara retorno de dominio. La espiral añade que el retorno conserva inscripción; por tanto, la instancia retornada no es indistinguible de su estado anterior. Si se borra la inscripción, se viola *append-only*; si se conserva, la repetición idéntica deja de ser admisible. La transición se formula así:
 
-`CircCl_SV(o,Ω)=1 ⇒ Ret_Ω(o)`
-
-`Giro(o,Ω)=1 ⇒ Ret_Ω(o) ∧ Ctr_Ω(o) ∧ Brazo_Ω(o) ∧ I_Ω(o)>0`
-
-`Espiral_AO^SV(o,Ω)=1 ⇒ Giro(o,Ω) ∧ Tr_Ω(o) ∧ ¬Repeticion_identica(o)`
+`CircCl_SV(o,Ω)=1 ⇒ Ret_Ω(o)`; `Giro(o,Ω)=1 ⇒ Ret_Ω(o) ∧ Ctr_Ω(o) ∧ Brazo_Ω(o) ∧ I_Ω(o)>0`; `Espiral_AO^SV(o,Ω)=1 ⇒ Giro(o,Ω) ∧ Tr_Ω(o) ∧ ¬Repeticion_identica(o)`.
 
 La `U` honesta conserva su función dentro de esta cadena. Si hay clausura circular pero no se ha declarado centro, brazo o intensidad, la conclusión formal de giro no procede: comparece `U_Giro^SV`. Si hay giro pero no se ha declarado traza, residual, retorno o conservación *append-only*, la conclusión formal de espiral no procede: comparece `U_Espiral^SV`. Si todas las condiciones están presentes, la indeterminación artificial no debe usarse para evitar el resultado. La forma de control es:
 
-`NoFuga_U^SV(o,Ω)=0 ⇔ [Condiciones(Espiral_AO^SV) completas ⇒ d_SV(Espiral)=1] ∧ [Condiciones incompletas ⇒ d_SV(Espiral)=U]`
-
-`Err_NoFuga_U^SV=1 ⇔ U usada para eludir resultado formal con condiciones completas ∨ 1 usado sin Tr,Res,Ret suficientes`
+`NoFuga_U^SV(o,Ω)=0 ⇔ [Condiciones(Espiral_AO^SV) completas ⇒ d_SV(Espiral)=1] ∧ [Condiciones incompletas ⇒ d_SV(Espiral)=U]`; `Err_NoFuga_U^SV=1 ⇔ U usada para eludir resultado formal con condiciones completas ∨ 1 usado sin Tr,Res,Ret suficientes`.
 
 La espiral *append-only* permite corregir la lectura del retorno en todos los niveles de la cadena. En el agua, la identidad química puede conservarse mientras cambia el estado; no hay retorno al origen, sino tránsito con memoria de régimen si el dominio lo declara. En el fuego, la extinción no borra el tránsito producido: quedan residuo, emisión, transformación o pérdida de soporte. En el volcán, la erupción no vuelve a inexistencia: deposita, inscribe y modifica frontera. En las especies, la descendencia con modificación conserva inscripción heredada y no borra lo ocurrido. Estos casos no fundan la espiral SV; devuelven funciones laterales que la trivialización ordena.
 
 Aplicada al dominio-universo físico realizado, la espiral se formula como reactivación de lectura, no como tiempo absoluto. Si `Ω_U` presenta clausura circular y giro, y si esa circulación de retorno conserva traza, residual y *append-only*, entonces el retorno no es una repetición perfecta del origen. La forma es:
 
-`Espiral_AO^SV(o_U,Ω_U)=1 ⇔ Giro(o_U,Ω_U)=1 ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_ΩU(o_U) ∧ React_ΩU(o_U) ∧ AppendOnly_SV ∧ ¬Repeticion_identica(o_U)`
+`Espiral_AO^SV(o_U,Ω_U)=1 ⇔ Giro(o_U,Ω_U)=1 ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_ΩU(o_U) ∧ React_ΩU(o_U) ∧ AppendOnly_SV ∧ ¬Repeticion_identica(o_U)`.
 
 La consecuencia para TODO/NADA es inmediata. Ningún observable realizado con inscripción puede ocupar el lugar de TODO/NADA. Si hay traza, hay régimen ya inscrito; si hay residual, hay no agotamiento; si hay retorno, hay lectura de dominio; si hay *append-only*, no hay borrado del tránsito. La espiral conserva, por tanto, una tesis central: el origen `(0,0)` no se recupera por repetición de lo ya realizado. Todo retorno de un observable inscrito es retorno con diferencia conservada o con residual declarado.
 
@@ -558,11 +472,7 @@ La empiria no se niega ni se absolutiza. Se sitúa. Observa, mide, registra, con
 
 La forma mínima de admisión empírica es:
 
-`Empiria(D_ext,x)=1 ⇔ Dom_ext(x) ∧ Magnitud(x) declarada ∧ Unidad(x) ∧ Instrumento(x) ∧ Protocolo(x) ∧ Incertidumbre(x) ∧ Res_ext(x) visible ∧ Ret_ext(x)`
-
-`Err_Emp^SV=1 ⇔ Medición=fundamento_total ∨ Magnitud sin Dom_ext ∨ Incertidumbre omitida ∨ Res_ext oculto ∨ Ret_ext usado fuera de dominio ∨ traducción externa usada para cancelar definición interna sin 𝔛`
-
-`U_Emp^SV ⇔ Dom_ext, magnitud, unidad, instrumento, incertidumbre, residual o retorno insuficientes sin contradicción`
+`Empiria(D_ext,x)=1 ⇔ Dom_ext(x) ∧ Magnitud(x) declarada ∧ Unidad(x) ∧ Instrumento(x) ∧ Protocolo(x) ∧ Incertidumbre(x) ∧ Res_ext(x) visible ∧ Ret_ext(x)`; `Err_Emp^SV=1 ⇔ Medición=fundamento_total ∨ Magnitud sin Dom_ext ∨ Incertidumbre omitida ∨ Res_ext oculto ∨ Ret_ext usado fuera de dominio ∨ traducción externa usada para cancelar definición interna sin 𝔛`; `U_Emp^SV ⇔ Dom_ext, magnitud, unidad, instrumento, incertidumbre, residual o retorno insuficientes sin contradicción`.
 
 La formulación respeta el método experimental. La tradición científica moderna no se funda en autoridad desnuda, sino en contraste y prueba. La Royal Society resume esa exigencia en el lema *Nullius in verba*, entendido oficialmente como determinación de resistir la dominación de la autoridad y verificar afirmaciones mediante hechos determinados por experimento. Esta referencia no se introduce como adorno histórico; sitúa una disciplina: ni autoridad institucional ni preferencia semántica sustituyen dominio, contraste y retorno. La empiria vale por lo que mide y por cómo lo devuelve; no por ocupar la totalidad de la verdad posible.
 
@@ -570,9 +480,7 @@ En el marco de esta lectura, la ciencia contemporánea conserva su dominio exact
 
 La regla de relación entre empiria y SV queda así:
 
-`Rel_Emp_SV(x)=0 ⇔ Def_SV(x) declarada ∧ Dem_SV(x) ∧ 𝔛(D_SV↔D_ext) opcional o declarada ∧ Res visible ∧ Ret(D_ext) cuando se reclame magnitud externa`
-
-`Err_Rel_Emp_SV=1 ⇔ D_ext usado para prohibir Def_SV sin transducción ∨ D_SV usado para fingir medición externa ∨ Ret_ext omitido ∨ Res oculto ∨ U usada como aceptación`
+`Rel_Emp_SV(x)=0 ⇔ Def_SV(x) declarada ∧ Dem_SV(x) ∧ 𝔛(D_SV↔D_ext) opcional o declarada ∧ Res visible ∧ Ret(D_ext) cuando se reclame magnitud externa`; `Err_Rel_Emp_SV=1 ⇔ D_ext usado para prohibir Def_SV sin transducción ∨ D_SV usado para fingir medición externa ∨ Ret_ext omitido ∨ Res oculto ∨ U usada como aceptación`.
 
 Esta regla evita dos errores simétricos. El primero consiste en exigir a la definición SV que nazca ya como magnitud empírica externa. El segundo consiste en presentar una tesis SV como si fuese medición externa ya realizada. La primera exigencia confunde dominio de formulación con dominio de retorno; la segunda confunde demostración interna con registro instrumental. La transducción correcta no permite ninguna de las dos cosas. Declara el dominio de salida, el dominio de llegada, el transductor, el residual, el retorno y la conclusión formal.
 
@@ -592,29 +500,17 @@ La conclusión del apartado es sobria. La empiria habla de lo que observa, mide,
 
 El corolario de transducción no confinante fija una regla necesaria para impedir que el cambio de dominio se confunda con una pérdida de alcance del resultado. Si una cuestión se formula en un dominio externo, se transduce a dominio SV, se resuelve allí bajo dominio, frontera, traza, residual y retorno, y después retorna al dominio interrogado, el resultado no queda limitado al dominio de cálculo por el solo hecho de haber atravesado ese dominio. El método no confina la verdad que transporta; la somete a condiciones de admisibilidad, residual y retorno. La expresión general queda así:
 
-`CorTransd_no_conf^SV=0 ⇔ Problema(D_ext) ∧ Dom(D_ext) ∧ 𝔛(D_ext↔D_SV) declarado ∧ Resolución(D_SV) ∧ Res(D_SV→D_ext) visible ∧ Ret(D_SV→D_ext) ∧ Conclusión formal(D_ext)`
-
-`Err_conf_met^SV=1 ⇔ Resolución(D_SV) ∧ Ret(D_SV→D_ext) ∧ Conclusión formal(D_ext) ∧ objeción="sólo vale en D_SV"`
-
-`U_conf_met^SV ⇔ 𝔛, Res, Ret o Conclusión formal insuficientes sin contradicción`
+`CorTransd_no_conf^SV=0 ⇔ Problema(D_ext) ∧ Dom(D_ext) ∧ 𝔛(D_ext↔D_SV) declarado ∧ Resolución(D_SV) ∧ Res(D_SV→D_ext) visible ∧ Ret(D_SV→D_ext) ∧ Conclusión formal(D_ext)`; `Err_conf_met^SV=1 ⇔ Resolución(D_SV) ∧ Ret(D_SV→D_ext) ∧ Conclusión formal(D_ext) ∧ objeción="sólo vale en D_SV"`; `U_conf_met^SV ⇔ 𝔛, Res, Ret o Conclusión formal insuficientes sin contradicción`.
 
 La regla se apoya en una estructura matemática elemental. En cálculo, una sustitución permite transformar una expresión difícil en otra más tratable; la variable auxiliar no se convierte en destino exclusivo del resultado. Si `y=f(u)` y `u=g(x)`, la regla de la cadena expresa `dy/dx=(dy/du)(du/dx)`. La derivada se transporta por el dominio intermedio `u` y retorna al dominio `x`. De forma análoga, una integral puede resolverse mediante sustitución y devolverse al dominio inicial al deshacer el cambio o al transformar correctamente los límites. La forma técnica es:
 
-`x=φ(t)`
-
-`dy/dt=(dy/dx)(dx/dt)`
-
-`dx/dt≠0 ⇒ dy/dx=(dy/dt)/(dx/dt)`
+`x=φ(t)`; `dy/dt=(dy/dx)(dx/dt)`; `dx/dt≠0 ⇒ dy/dx=(dy/dt)/(dx/dt)`.
 
 La conclusión formal no dice que `t` sea el dominio verdadero y `x` una apariencia. Dice que el paso por `t` permitió resolver una estructura que retorna a `x`. En el SV, `D_SV` cumple una función equivalente cuando actúa como dominio de resolución y no como destino exclusivo del resultado. El transductor `𝔛(D_ext↔D_SV)` ordena la cuestión, la transforma, la somete a residual y exige retorno. Si ese retorno existe, la objeción de confinamiento pierde validez formal.
 
 La formulación SV queda así:
 
-`D_ext --𝔛--> D_SV --Res,Ret--> D_ext`
-
-`Validez_retornada^SV(Q)=1 ⇔ Q∈D_ext ∧ 𝔛(Q,D_ext,D_SV) ∧ Sol_SV(Q) ∧ Res_Q visible ∧ Ret_Q(D_SV→D_ext) ∧ Conc_Q(D_ext)`
-
-`NoConf(Q)=1 ⇔ Validez_retornada^SV(Q)=1 ∧ ¬Confinamiento(Q,D_SV)`
+`D_ext --𝔛--> D_SV --Res,Ret--> D_ext`; `Validez_retornada^SV(Q)=1 ⇔ Q∈D_ext ∧ 𝔛(Q,D_ext,D_SV) ∧ Sol_SV(Q) ∧ Res_Q visible ∧ Ret_Q(D_SV→D_ext) ∧ Conc_Q(D_ext)`; `NoConf(Q)=1 ⇔ Validez_retornada^SV(Q)=1 ∧ ¬Confinamiento(Q,D_SV)`.
 
 En esta notación, `Q` nombra la cuestión interrogada; `D_ext`, el dominio externo de formulación o contraste; `D_SV`, el dominio de resolución; `𝔛`, el transductor; `Sol_SV(Q)`, la resolución interna bajo aparato SV; `Res_Q`, el residual; `Ret_Q`, el retorno; y `Conc_Q(D_ext)`, la conclusión formal devuelta al dominio interrogado. Si alguna de estas condiciones falta, no se proclama validez retornada: comparece `U` o error. Pero si todas concurren, no procede afirmar que el resultado pertenece sólo al dominio auxiliar.
 
@@ -622,9 +518,7 @@ El corolario impide una crítica recurrente contra cualquier formalismo que oper
 
 La forma negativa debe quedar igualmente explícita. El corolario no autoriza resolver cualquier cosa en cualquier dominio. Si no hay transductor, si el dominio externo se omite, si el residual desaparece del análisis, si el retorno no se formula o si la conclusión formal no vuelve al dominio interrogado, el resultado no puede presentarse como retornado. En tal caso procede `U` o error. La condición de no confinamiento exige disciplina completa:
 
-`NoConf_admisible^SV(Q)=1 ⇔ Dom_ext(Q) ∧ Dom_SV(Q) ∧ 𝔛(Q) ∧ Sol_SV(Q) ∧ Res_Q visible ∧ Ret_Q ∧ Conc_Q`
-
-`Err_NoConf^SV=1 ⇔ 𝔛 omitido ∨ Dom_ext omitido ∨ Res_Q oculto ∨ Ret_Q ausente ∨ Conc_Q no devuelto ∨ Sol_SV presentada como medición externa sin transducción`
+`NoConf_admisible^SV(Q)=1 ⇔ Dom_ext(Q) ∧ Dom_SV(Q) ∧ 𝔛(Q) ∧ Sol_SV(Q) ∧ Res_Q visible ∧ Ret_Q ∧ Conc_Q`; `Err_NoConf^SV=1 ⇔ 𝔛 omitido ∨ Dom_ext omitido ∨ Res_Q oculto ∨ Ret_Q ausente ∨ Conc_Q no devuelto ∨ Sol_SV presentada como medición externa sin transducción`.
 
 Este corolario prepara la aplicación mayor. Si la cuestión es si el dominio-universo físico realizado presenta clausura circular y giro, el SV no necesita convertir primero esos términos en esfera física o rotación rígida externa. Define dominio, frontera, traza, residual, retorno, centro, brazo, intensidad y conservación *append-only*; concluye formalmente en su dominio; y, si se reclama traducción empírica, activa transducción hacia magnitudes externas. El resultado no queda confinado al método, pero tampoco se disfraza de medición empírica no realizada.
 
@@ -632,43 +526,27 @@ Este corolario prepara la aplicación mayor. Si la cuestión es si el dominio-un
 
 El error de confinamiento por dominio auxiliar aparece cuando se declara inválido un resultado sólo porque ha sido obtenido mediante transducción a otro dominio. Su forma general consiste en confundir el medio de resolución con el lugar exclusivo de validez. Es un error distinto de la crítica empírica legítima. La crítica empírica exige magnitud, instrumento, unidad, incertidumbre y retorno dentro de un dominio externo. El confinamiento por dominio auxiliar afirma algo más débil: que atravesar `D_SV` basta para impedir que el resultado retorne a `D_ext`. La forma mínima es:
 
-`Err_conf_aux^SV(Q)=1 ⇔ Q∈D_ext ∧ 𝔛(D_ext↔D_SV) declarado ∧ Sol_SV(Q) ∧ Res_Q visible ∧ Ret_Q(D_SV→D_ext) ∧ Conc_Q(D_ext) ∧ Obj_conf(Q)`
-
-`Obj_conf(Q)="sólo vale en D_SV"`
+`Err_conf_aux^SV(Q)=1 ⇔ Q∈D_ext ∧ 𝔛(D_ext↔D_SV) declarado ∧ Sol_SV(Q) ∧ Res_Q visible ∧ Ret_Q(D_SV→D_ext) ∧ Conc_Q(D_ext) ∧ Obj_conf(Q)`; `Obj_conf(Q)="sólo vale en D_SV"`.
 
 La objeción es inválida cuando el retorno está declarado. Si no hay retorno, la crítica procede; si hay retorno, la crítica cambia de naturaleza y debe atacar el dominio, el transductor, el residual, la conclusión formal o la coherencia interna. No basta invocar que el resultado pasó por otro dominio. La forma correcta de refutación sería una de estas:
 
-`Ref_dom(Q)=1 ⇔ Dom_ext(Q) mal declarado ∨ Dom_SV(Q) incompatible`
-
-`Ref_𝔛(Q)=1 ⇔ 𝔛(D_ext↔D_SV) no preserva identidad, frontera o magnitud`
-
-`Ref_res(Q)=1 ⇔ Res_Q oculto, no acotado o contradictorio`
-
-`Ref_ret(Q)=1 ⇔ Ret_Q no devuelve conclusión formal al dominio interrogado`
-
-`Ref_conc(Q)=1 ⇔ Conc_Q no se sigue de Sol_SV(Q) ∧ Res_Q ∧ Ret_Q`
+`Ref_dom(Q)=1 ⇔ Dom_ext(Q) mal declarado ∨ Dom_SV(Q) incompatible`; `Ref_𝔛(Q)=1 ⇔ 𝔛(D_ext↔D_SV) no preserva identidad, frontera o magnitud`; `Ref_res(Q)=1 ⇔ Res_Q oculto, no acotado o contradictorio`; `Ref_ret(Q)=1 ⇔ Ret_Q no devuelve conclusión formal al dominio interrogado`; `Ref_conc(Q)=1 ⇔ Conc_Q no se sigue de Sol_SV(Q) ∧ Res_Q ∧ Ret_Q`
 
 Estas vías de refutación son legítimas porque trabajan sobre estructura. En cambio, la objeción de confinamiento por dominio auxiliar detiene el resultado por su itinerario. Tal detención sería equivalente a negar una derivada por haber sido resuelta mediante una sustitución admisible. Si el cambio de variable es válido y el retorno se ejecuta, el resultado pertenece al problema. Del mismo modo, si la transducción SV es válida y el retorno está declarado, la conclusión formal pertenece a la cuestión interrogada.
 
 El error tiene tres formas principales. La primera es la forma local: `D_SV` se trata como recinto sin retorno. La segunda es la forma empírica totalizante: `D_ext` se declara único tribunal posible incluso cuando la pregunta no se ha formulado en sus magnitudes. La tercera es la forma mixta: se exige retorno externo para aceptar la tesis, pero se niega la validez del transductor que permitiría producir ese retorno. En fórmula:
 
-`Err_conf_local=1 ⇔ Sol_SV(Q) ⇒ "sólo D_SV", aunque Ret_Q exista`
-
-`Err_emp_total=1 ⇔ D_ext usado como fundamento total sin 𝔛 ni Res`
-
-`Err_mixto=1 ⇔ se exige Ret_ext(Q) ∧ se niega por principio 𝔛(D_SV↔D_ext)`
+`Err_conf_local=1 ⇔ Sol_SV(Q) ⇒ "sólo D_SV", aunque Ret_Q exista`; `Err_emp_total=1 ⇔ D_ext usado como fundamento total sin 𝔛 ni Res`; `Err_mixto=1 ⇔ se exige Ret_ext(Q) ∧ se niega por principio 𝔛(D_SV↔D_ext)`.
 
 El SV no queda exento de control por denunciar este error. Al contrario, asume una carga más fuerte: debe declarar dominios, conservar frontera, mostrar residual, formular retorno y aceptar conclusión ternaria. Si esas condiciones faltan, no procede invocar el corolario de transducción no confinante. La forma de control interno es:
 
-`Control_no_conf^SV(Q)=0 ⇔ Dom_ext(Q) ∧ Dom_SV(Q) ∧ 𝔛(Q) ∧ Id_Q preservada ∧ Fron_Q preservada ∧ Tr_Q ∧ Res_Q visible ∧ Ret_Q ∧ d_Q∈{0,1,U}`
-
-`Err_control_no_conf^SV=1 ⇔ se invoca NoConf sin 𝔛 ∨ se invoca NoConf sin Ret ∨ se invoca NoConf ocultando Res ∨ se invoca NoConf para fingir medición externa`
+`Control_no_conf^SV(Q)=0 ⇔ Dom_ext(Q) ∧ Dom_SV(Q) ∧ 𝔛(Q) ∧ Id_Q preservada ∧ Fron_Q preservada ∧ Tr_Q ∧ Res_Q visible ∧ Ret_Q ∧ d_Q∈{0,1,U}`; `Err_control_no_conf^SV=1 ⇔ se invoca NoConf sin 𝔛 ∨ se invoca NoConf sin Ret ∨ se invoca NoConf ocultando Res ∨ se invoca NoConf para fingir medición externa`.
 
 La diferencia entre audacia y arbitrariedad se decide aquí. La audacia científica formula la conclusión formal cuando las condiciones están declaradas, aunque el resultado incomode a un régimen externo. La arbitrariedad salta de dominio sin transductor, oculta residual o presenta como medición lo que sólo es definición interna. La trivialización rechaza ambas debilidades: no acepta el confinamiento injustificado del SV, pero tampoco permite que el SV use su propio lenguaje para eludir retorno.
 
 Aplicado al giro, el error de confinamiento aparece cuando se afirma que, si el giro se define mediante circulación de retorno de dominio, entonces no dice nada sobre la cuestión del dominio-universo físico realizado. Esa objeción sólo sería admisible si la transducción no devolviera el resultado al dominio interrogado. Pero el retorno sí está declarado: dominio-universo físico realizado, frontera sutural, traza, residual, retorno, centro de lectura, brazo, intensidad y conservación *append-only*. La transducción externa hacia rotación rígida, vorticidad o momento angular cosmológico puede devolver residuales propios; esos residuales pertenecen a la traducción externa, no a la cancelación automática del resultado interno. La forma final es:
 
-`Err_conf_giro^SV=1 ⇔ Giro(o_U,Ω_U)=1 ∧ Ret_ΩU declarado ∧ Res_ΩU visible ∧ objeción="no vale porque no es rotación externa"`
+`Err_conf_giro^SV=1 ⇔ Giro(o_U,Ω_U)=1 ∧ Ret_ΩU declarado ∧ Res_ΩU visible ∧ objeción="no vale porque no es rotación externa"`.
 
 La respuesta correcta no es imponer una rotación externa, sino distinguir dominios: giro como circulación de retorno evaluada formalmente; rotación externa como magnitud física que exige transducción específica. Si se reclama esa traducción, se formula un problema distinto. Si se niega la resultado interno por no ser ya rotación externa, se comete error de confinamiento y error de plano.
 
@@ -676,21 +554,13 @@ La respuesta correcta no es imponer una rotación externa, sino distinguir domin
 
 La aplicación al dominio-universo físico realizado reúne los resultados de los apartados anteriores. La tesis no afirma esfera física, globo cosmológico, rotación rígida externa ni momento angular cosmológico sin transducción. Afirma que un observable realizado con dominio, frontera, identidad, traza, residual y retorno puede comparecer como clausura circular; y que, si esa circularidad conserva centro de lectura, brazo, intensidad, momento interno de retorno y conservación *append-only*, presenta giro. La forma completa es:
 
-`CircCl_SV(o_U,Ω_U)=1 ⇔ Obs_real(o_U,Ω_U)=1 ∧ Dom(Ω_U) ∧ Fron_sut(Ω_U) ∧ Id_ΩU(o_U) ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_ΩU(o_U) ∧ Cl_ΩU(o_U)=1`
-
-`Giro(o_U,Ω_U)=1 ⇔ CircCl_SV(o_U,Ω_U)=1 ∧ I_ΩU(o_U)>0 ∧ Ctr_ΩU(o_U) ∧ Brazo_ΩU(o_U) ∧ MomRet_ΩU(o_U) ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_ΩU(o_U) ∧ AppendOnly_SV`
-
-`Espiral_AO^SV(o_U,Ω_U)=1 ⇔ Giro(o_U,Ω_U)=1 ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_ΩU(o_U) ∧ React_ΩU(o_U) ∧ ¬Repeticion_identica(o_U)`
+`CircCl_SV(o_U,Ω_U)=1 ⇔ Obs_real(o_U,Ω_U)=1 ∧ Dom(Ω_U) ∧ Fron_sut(Ω_U) ∧ Id_ΩU(o_U) ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_ΩU(o_U) ∧ Cl_ΩU(o_U)=1`; `Giro(o_U,Ω_U)=1 ⇔ CircCl_SV(o_U,Ω_U)=1 ∧ I_ΩU(o_U)>0 ∧ Ctr_ΩU(o_U) ∧ Brazo_ΩU(o_U) ∧ MomRet_ΩU(o_U) ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_ΩU(o_U) ∧ AppendOnly_SV`; `Espiral_AO^SV(o_U,Ω_U)=1 ⇔ Giro(o_U,Ω_U)=1 ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_ΩU(o_U) ∧ React_ΩU(o_U) ∧ ¬Repeticion_identica(o_U)`.
 
 El primer resultado dice que el dominio-universo no se dispersa como suma inconexa cuando comparece bajo frontera sutural, traza, residual y retorno. El segundo dice que la clausura circular adquiere giro cuando posee centro de lectura, brazo, intensidad y momento interno de retorno. El tercero dice que el giro, bajo conservación *append-only*, no repite idénticamente el origen, sino que conserva inscripción. Ninguna de esas fórmulas exige traducir de inmediato el resultado a rotación rígida externa; todas exigen dominio, residual y retorno.
 
 El término “presenta giro” queda aquí autorizado por definición y demostración. No se añade una reserva permanente porque el dominio del término ya ha sido declarado. Si se hablara de rotación física externa, harían falta magnitudes cosmológicas, modelo, observación, unidad, incertidumbre y residual externo. Si se habla de giro en esta lectura, se habla de circulación de retorno con centro, brazo, intensidad, traza, residual y conservación *append-only*. La diferencia no es retirada semántica, sino precisión de dominio:
 
-`Giro(o_U,Ω_U)=1` no equivale a `Rot_ext(o_U)=1`
-
-`Rot_ext(o_U)=1 ⇒ Dom_cosm ∧ Magnitud_rot ∧ Unidad ∧ Instrumento/Modelo ∧ Incertidumbre ∧ Res_ext ∧ Ret_ext`
-
-`Giro(o_U,Ω_U)=1 ⇒ Dom_SV ∧ CircRet ∧ Ctr ∧ Brazo ∧ I>0 ∧ Tr ∧ Res ∧ Ret ∧ AppendOnly_SV`
+`Giro(o_U,Ω_U)=1` no equivale a `Rot_ext(o_U)=1`; `Rot_ext(o_U)=1 ⇒ Dom_cosm ∧ Magnitud_rot ∧ Unidad ∧ Instrumento/Modelo ∧ Incertidumbre ∧ Res_ext ∧ Ret_ext`; `Giro(o_U,Ω_U)=1 ⇒ Dom_SV ∧ CircRet ∧ Ctr ∧ Brazo ∧ I>0 ∧ Tr ∧ Res ∧ Ret ∧ AppendOnly_SV`.
 
 Si se reclama traducción entre ambas formas, se activa el transductor:
 
@@ -710,17 +580,15 @@ La traducción a forma, curvatura, topología u observación cosmológica exigir
 
 La reducción al absurdo se formula así. Supóngase que `o_U` es observable realizado de `Ω_U`, conserva frontera sutural, traza, residual y retorno, pero se niega toda clausura circular. Si no hay clausura circular, el retorno no puede operar como unidad de lectura; si el retorno no opera como unidad, el observable queda disperso; si queda disperso, no comparece como dominio-universo realizado bajo frontera y traza. La hipótesis niega la condición que presupone. Por tanto:
 
-`Obs_real(o_U,Ω_U)=1 ∧ Fron_sut(Ω_U) ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_ΩU(o_U) ⇒ CircCl_SV(o_U,Ω_U)=1`
+`Obs_real(o_U,Ω_U)=1 ∧ Fron_sut(Ω_U) ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_ΩU(o_U) ⇒ CircCl_SV(o_U,Ω_U)=1`.
 
 Supóngase ahora que hay clausura circular, intensidad positiva, centro de lectura, brazo y momento interno de retorno, pero se niega el giro. Si no hay giro, el momento de retorno queda sin régimen; si el momento queda sin régimen, centro y brazo se vuelven accesorios no operativos; si centro y brazo no operan, la circulación de retorno queda desactivada como orientación situada. La hipótesis conserva las condiciones y niega su resultado. Por tanto:
 
-`CircCl_SV(o_U,Ω_U)=1 ∧ I_ΩU(o_U)>0 ∧ Ctr_ΩU(o_U) ∧ Brazo_ΩU(o_U) ∧ MomRet_ΩU(o_U) ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_ΩU(o_U) ∧ AppendOnly_SV ⇒ Giro(o_U,Ω_U)=1`
+`CircCl_SV(o_U,Ω_U)=1 ∧ I_ΩU(o_U)>0 ∧ Ctr_ΩU(o_U) ∧ Brazo_ΩU(o_U) ∧ MomRet_ΩU(o_U) ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_ΩU(o_U) ∧ AppendOnly_SV ⇒ Giro(o_U,Ω_U)=1`.
 
 La `U` honesta permanece como control. Si falta frontera sutural, si la traza no está declarada, si el residual se oculta, si el retorno no se formula, si el centro de lectura o el brazo son insuficientes, no procede conclusión formal positiva. Comparece `U`. Pero si todas las condiciones están presentes, usar `U` para evitar el resultado sería un error de cautela artificial:
 
-`U_ΩU^SV=1 ⇔ Fron_sut, Tr_ΩU, Res_ΩU, Ret_ΩU, Ctr_ΩU, Brazo_ΩU o MomRet_ΩU insuficientes sin contradicción`
-
-`Err_U_ΩU^SV=1 ⇔ U usada para no declarar CircCl_SV o Giro con condiciones completas`
+`U_ΩU^SV=1 ⇔ Fron_sut, Tr_ΩU, Res_ΩU, Ret_ΩU, Ctr_ΩU, Brazo_ΩU o MomRet_ΩU insuficientes sin contradicción`; `Err_U_ΩU^SV=1 ⇔ U usada para no declarar CircCl_SV o Giro con condiciones completas`.
 
 La aplicación queda situada en su dominio exacto. El dominio-universo físico realizado comparece como clausura circular de observable realizado y presenta giro cuando concurren circulación de retorno, centro de lectura, brazo, intensidad, traza, residual, retorno y conservación *append-only*. La transducción empírica hacia rotación, vorticidad, anisotropía, momento angular, forma o curvatura pertenece a otro tramo de retorno. La trivialización no la niega; la exige cuando se reclame en su propio lenguaje. Tampoco deja que esa traducción externa anule por anticipado la resultado interno. Cada dominio responde con sus magnitudes; la trivialización impide confundir método, retorno y verdad de dominio.
 
@@ -728,35 +596,19 @@ La aplicación queda situada en su dominio exacto. El dominio-universo físico r
 
 El conclusión ternaria ordena la trivialización y evita que una pregunta quede reducida a una oposición binaria insuficiente. El valor `0` procede cuando el criterio declarado queda clausurado sin error, cuando una propiedad no comparece en el dominio interrogado o cuando una neutralización ha sido tipada como tal. El valor `1` procede cuando la propiedad positiva se realiza con dominio, frontera, identidad, traza, residual y retorno suficientes. El valor `U` comparece cuando no hay contradicción, pero falta alguna condición material para concluir formalmente: dominio, frontera, magnitud, transducción, residual, traza o retorno. La expresión general queda así:
 
-`d_SV(Q)=0 ⇔ Criterio_Q resuelto ∧ Dom(Q) ∧ Fron(Q) ∧ Ret(Q) ∧ ¬Error(Q)`
-
-`d_SV(Q)=1 ⇔ Propiedad_Q realizada ∧ Dom(Q) ∧ Fron(Q) ∧ Id(Q) ∧ Tr(Q) ∧ Res(Q) visible ∧ Ret(Q)`
-
-`d_SV(Q)=U ⇔ Insuf(Dom,Fron,Id,Tr,Res,Ret,𝔛,Magnitud) ∧ ¬Contradiccion(Q)`
-
-`Err_d^SV(Q)=1 ⇔ d=1 sin Dom ∨ d=0 como NADA_SV sin separación de plano ∨ d=U como confirmación ∨ d=U como negación ∨ Ret no acreditado ∨ Res oculto`
+`d_SV(Q)=0 ⇔ Criterio_Q resuelto ∧ Dom(Q) ∧ Fron(Q) ∧ Ret(Q) ∧ ¬Error(Q)`; `d_SV(Q)=1 ⇔ Propiedad_Q realizada ∧ Dom(Q) ∧ Fron(Q) ∧ Id(Q) ∧ Tr(Q) ∧ Res(Q) visible ∧ Ret(Q)`; `d_SV(Q)=U ⇔ Insuf(Dom,Fron,Id,Tr,Res,Ret,𝔛,Magnitud) ∧ ¬Contradiccion(Q)`; `Err_d^SV(Q)=1 ⇔ d=1 sin Dom ∨ d=0 como NADA_SV sin separación de plano ∨ d=U como confirmación ∨ d=U como negación ∨ Ret no acreditado ∨ Res oculto`.
 
 El conclusión formal no se decide por el prestigio del lenguaje usado para formular la pregunta, sino por la estructura que permite responderla. Una pregunta empírica exige magnitud empírica si pretende respuesta empírica; una pregunta formal exige dominio formal si pretende conclusión formal formal; una pregunta transducida exige transductor, residual y retorno. La trivialización no elimina esos niveles. Los separa. Por eso `0`, `1` y `U` no son etiquetas psicológicas, sino salidas de régimen. La pregunta por la rotación física externa del universo no recibe el mismo conclusión formal que la pregunta por el giro como circulación de retorno de dominio. Confundirlas genera error de plano; relacionarlas exige transducción declarada.
 
 La regla de decisión se expresa mediante una secuencia de admisión. Primero se declara el dominio: `Dom(Q)`. Después se fija la frontera: `Fron(Q)`. A continuación se preserva identidad: `Id(Q)`. Si el régimen admite magnitudes internas, se declaran potencial e intensidad: `P(Q)` e `I(Q)`. Luego se exige traza, residual y retorno: `Tr(Q)`, `Res(Q)`, `Ret(Q)`. Sólo entonces procede conclusión formal. En forma compacta:
 
-`Adm_Q^SV=0 ⇔ Dom(Q) ∧ Fron(Q) ∧ Id(Q) ∧ [P(Q),I(Q) si proceden] ∧ Tr(Q) ∧ Res(Q) visible ∧ Ret(Q)`
-
-`Adm_Q^SV=0 ∧ Propiedad_Q realizada ⇒ d_SV(Q)=1`
-
-`Adm_Q^SV=0 ∧ Propiedad_Q no realizada bajo criterio ⇒ d_SV(Q)=0`
-
-`Adm_Q^SV≠0 ∧ ¬Contradiccion(Q) ⇒ d_SV(Q)=U`
+`Adm_Q^SV=0 ⇔ Dom(Q) ∧ Fron(Q) ∧ Id(Q) ∧ [P(Q),I(Q) si proceden] ∧ Tr(Q) ∧ Res(Q) visible ∧ Ret(Q)`; `Adm_Q^SV=0 ∧ Propiedad_Q realizada ⇒ d_SV(Q)=1`; `Adm_Q^SV=0 ∧ Propiedad_Q no realizada bajo criterio ⇒ d_SV(Q)=0`; `Adm_Q^SV≠0 ∧ ¬Contradiccion(Q) ⇒ d_SV(Q)=U`.
 
 Este orden impide usar `U` como refugio favorable. Si el dominio está completo y la propiedad comparece, `U` no procede. Si el dominio está incompleto y no hay contradicción, `1` tampoco procede. La `U` honesta conserva el lugar donde la estructura todavía no alcanza conclusión formal, pero no bloquea la conclusión formal cuando la estructura ya lo permite. En el caso del dominio-universo físico realizado, si concurren frontera sutural, traza, residual, retorno, centro de lectura, brazo, intensidad, momento interno de retorno y conservación *append-only*, la conclusión formal positiva de giro procede en el dominio declarado. Si se reclama rotación externa, se formula otro dominio de pregunta y se exige transducción.
 
 La lectura ternaria también regula las vías laterales. En Ohm, gravitación, cero absoluto, agua, fuego, volcanes y especies, el SV no toma la imagen externa como fundamento. Cada vía devuelve una función tipada: restricción, separación, límite, identidad bajo estado, tránsito sostenido, frontera activa o inscripción heredada. Si la función está declarada y retorna, puede operar como contraste. Si falta dominio, residual o retorno, comparece `U`. Si se fuerza identidad material entre la vía lateral y el régimen SV, comparece error. La forma de control es:
 
-`Lat_Q^SV=1 ⇔ Función_transportada(Q) ∧ Dom_ext(Q) ∧ Dom_SV(Q) ∧ 𝔛(Q) ∧ Res(Q) ∧ Ret(Q)`
-
-`d_SV(Lat_Q)=U ⇔ Lat_Q incompleto sin contradicción`
-
-`Err_Lat_Q=1 ⇔ analogía libre ∨ identidad material forzada ∨ referencia externa como fundamento interno`
+`Lat_Q^SV=1 ⇔ Función_transportada(Q) ∧ Dom_ext(Q) ∧ Dom_SV(Q) ∧ 𝔛(Q) ∧ Res(Q) ∧ Ret(Q)`; `d_SV(Lat_Q)=U ⇔ Lat_Q incompleto sin contradicción`; `Err_Lat_Q=1 ⇔ analogía libre ∨ identidad material forzada ∨ referencia externa como fundamento interno`.
 
 El conclusión ternaria, por tanto, es el instrumento que mantiene la audacia dentro de disciplina formal. La audacia consiste en concluir formalmente cuando el dominio, la frontera, la traza, el residual y el retorno lo permiten. La disciplina consiste en devolver `U` cuando esas condiciones no están presentes. La trivialización no intensifica la tesis mediante retórica; la reduce a sus condiciones suficientes. Allí donde se cumplan, la conclusión formal no debe debilitarse por deferencia externa. Allí donde falten, no debe simularse completitud.
 
@@ -764,29 +616,19 @@ El conclusión ternaria, por tanto, es el instrumento que mantiene la audacia de
 
 Del conjunto de los apartados anteriores se sigue el corolario mayor. Todo observable realizado que conserva dominio, frontera, identidad, traza, residual, retorno y conservación *append-only* no puede ser tratado como suma dispersa, presencia muda ni repetición del origen. La trivialización rigurosa exige determinar si comparece clausura circular, si esa clausura adquiere giro y si el retorno conserva inscripción como espiral *append-only*. La expresión general queda así:
 
-`Obs_real(o,Ω)=1 ∧ Dom(Ω) ∧ Fron_Ω(o) ∧ Id_Ω(o) ∧ Tr_Ω(o) ∧ Res_Ω(o) ∧ Ret_Ω(o) ∧ AppendOnly_SV ⇒ CircCl_SV(o,Ω)=1 ∨ U_CircCl^SV`
-
-`CircCl_SV(o,Ω)=1 ∧ I_Ω(o)>0 ∧ Ctr_Ω(o) ∧ Brazo_Ω(o) ∧ MomRet_Ω(o) ∧ Tr_Ω(o) ∧ Res_Ω(o) ∧ Ret_Ω(o) ⇒ Giro(o,Ω)=1`
-
-`Giro(o,Ω)=1 ∧ Tr_Ω(o) ∧ Res_Ω(o) ∧ Ret_Ω(o) ∧ React_Ω(o) ∧ AppendOnly_SV ⇒ Espiral_AO^SV(o,Ω)=1`
+`Obs_real(o,Ω)=1 ∧ Dom(Ω) ∧ Fron_Ω(o) ∧ Id_Ω(o) ∧ Tr_Ω(o) ∧ Res_Ω(o) ∧ Ret_Ω(o) ∧ AppendOnly_SV ⇒ CircCl_SV(o,Ω)=1 ∨ U_CircCl^SV`; `CircCl_SV(o,Ω)=1 ∧ I_Ω(o)>0 ∧ Ctr_Ω(o) ∧ Brazo_Ω(o) ∧ MomRet_Ω(o) ∧ Tr_Ω(o) ∧ Res_Ω(o) ∧ Ret_Ω(o) ⇒ Giro(o,Ω)=1`; `Giro(o,Ω)=1 ∧ Tr_Ω(o) ∧ Res_Ω(o) ∧ Ret_Ω(o) ∧ React_Ω(o) ∧ AppendOnly_SV ⇒ Espiral_AO^SV(o,Ω)=1`.
 
 El primer tramo reconoce que un observable realizado con retorno no se agota como agregado. El segundo reconoce que la clausura circular, cuando conserva centro, brazo, intensidad y momento interno de retorno, presenta giro. El tercero reconoce que el giro, si conserva inscripción bajo *append-only*, no repite idénticamente el origen. El corolario no afirma esfera física, rotación rígida externa ni ciclo temporal. Afirma dominio, clausura circular, giro y espiral en sus condiciones propias. Si una lectura externa quiere traducir esos resultados a curvatura, topología, rotación, vorticidad, anisotropía o momento angular, debe declarar dominio externo, magnitudes, instrumentos, incertidumbre, residual y retorno.
 
 El enunciado aplicado al dominio-universo físico realizado queda así:
 
-`Obs_real(o_U,Ω_U)=1 ∧ Fron_sut(Ω_U) ∧ Id_ΩU(o_U) ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_ΩU(o_U) ⇒ CircCl_SV(o_U,Ω_U)=1`
-
-`CircCl_SV(o_U,Ω_U)=1 ∧ I_ΩU(o_U)>0 ∧ Ctr_ΩU(o_U) ∧ Brazo_ΩU(o_U) ∧ MomRet_ΩU(o_U) ∧ AppendOnly_SV ⇒ Giro(o_U,Ω_U)=1`
-
-`Giro(o_U,Ω_U)=1 ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_ΩU(o_U) ∧ React_ΩU(o_U) ⇒ Espiral_AO^SV(o_U,Ω_U)=1`
+`Obs_real(o_U,Ω_U)=1 ∧ Fron_sut(Ω_U) ∧ Id_ΩU(o_U) ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_ΩU(o_U) ⇒ CircCl_SV(o_U,Ω_U)=1`; `CircCl_SV(o_U,Ω_U)=1 ∧ I_ΩU(o_U)>0 ∧ Ctr_ΩU(o_U) ∧ Brazo_ΩU(o_U) ∧ MomRet_ΩU(o_U) ∧ AppendOnly_SV ⇒ Giro(o_U,Ω_U)=1`; `Giro(o_U,Ω_U)=1 ∧ Tr_ΩU(o_U) ∧ Res_ΩU(o_U) ∧ Ret_ΩU(o_U) ∧ React_ΩU(o_U) ⇒ Espiral_AO^SV(o_U,Ω_U)=1`.
 
 Este corolario resuelve las dos cautelas que la investigación matriz tuvo que delimitar con especial precisión. La clausura circular no se reduce a esfera física; el giro no se reduce a rotación rígida externa. La trivialización permite decir lo que corresponde: el dominio-universo físico realizado comparece como clausura circular de observable realizado y presenta giro cuando concurren circulación de retorno, centro de lectura, brazo, intensidad, traza, residual, retorno y conservación *append-only*. La ciencia empírica conserva su papel exacto: puede medir, contrastar y traducir en su dominio; no puede cancelar una conclusión formal de dominio por sustituir la pregunta formal por otra pregunta empírica sin transducción.
 
 El corolario mayor incorpora también la transducción no confinante. Si una cuestión de la ciencia contemporánea se lleva al SV mediante transductor declarado, se resuelve bajo dominio, frontera, traza, residual y retorno, y se devuelve al dominio interrogado, el resultado no queda confinado al dominio de resolución. Esta regla no exime al SV de control; lo obliga a declarar la cadena completa. Pero, cuando la cadena está completa, la objeción “sólo vale dentro del SV” deja de ser refutación estructural. La forma es:
 
-`Q∈D_ext ∧ 𝔛(D_ext↔D_SV) ∧ Sol_SV(Q) ∧ Res_Q visible ∧ Ret_Q(D_SV→D_ext) ∧ Conc_Q(D_ext) ⇒ NoConf(Q)=1`
-
-`NoConf(Q)=1 ∧ objeción="sólo vale en D_SV" ⇒ Err_conf_aux^SV=1`
+`Q∈D_ext ∧ 𝔛(D_ext↔D_SV) ∧ Sol_SV(Q) ∧ Res_Q visible ∧ Ret_Q(D_SV→D_ext) ∧ Conc_Q(D_ext) ⇒ NoConf(Q)=1`; `NoConf(Q)=1 ∧ objeción="sólo vale en D_SV" ⇒ Err_conf_aux^SV=1`.
 
 El corolario no sustituye la ciencia contemporánea. La obliga a conservar su propio rigor cuando reclama intervención sobre un resultado SV: dominio, magnitud, unidad, instrumento, incertidumbre, residual y retorno. Del mismo modo, obliga al SV a no presentar definición interna como medición empírica ya realizada. La relación queda equilibrada por transducción. Donde hay medición, se exige dominio empírico. Donde hay conclusión formal formal, se exige dominio SV. Donde hay paso entre ambos, se exige transductor y retorno. Donde falta cualquiera de esas condiciones, comparece `U`.
 
@@ -814,11 +656,7 @@ La línea completa puede resumirse así:
 
 La consecuencia final para el dominio-universo físico realizado es precisa. Si comparece como observable realizado bajo frontera sutural, identidad, traza, residual y retorno, puede concluir formalmentese clausura circular. Si esa clausura circular conserva intensidad, centro de lectura, brazo y momento interno de retorno, presenta giro. Si ese giro conserva inscripción bajo *append-only*, el retorno no es repetición idéntica, sino espiral de inscripción no borrada. La forma condensada es:
 
-`Obs_real(o_U,Ω_U) ∧ Fron_sut ∧ Tr ∧ Res ∧ Ret ⇒ CircCl_SV(o_U,Ω_U)=1`
-
-`CircCl_SV(o_U,Ω_U) ∧ I>0 ∧ Ctr ∧ Brazo ∧ MomRet ∧ AppendOnly_SV ⇒ Giro(o_U,Ω_U)=1`
-
-`Giro(o_U,Ω_U) ∧ Tr ∧ Res ∧ Ret ∧ React ∧ AppendOnly_SV ⇒ Espiral_AO^SV(o_U,Ω_U)=1`
+`Obs_real(o_U,Ω_U) ∧ Fron_sut ∧ Tr ∧ Res ∧ Ret ⇒ CircCl_SV(o_U,Ω_U)=1`; `CircCl_SV(o_U,Ω_U) ∧ I>0 ∧ Ctr ∧ Brazo ∧ MomRet ∧ AppendOnly_SV ⇒ Giro(o_U,Ω_U)=1`; `Giro(o_U,Ω_U) ∧ Tr ∧ Res ∧ Ret ∧ React ∧ AppendOnly_SV ⇒ Espiral_AO^SV(o_U,Ω_U)=1`.
 
 La ciencia empírica conserva íntegra su autoridad dentro del dominio que declara. Observa, mide, registra, contrasta, corrige y devuelve magnitudes. Pero no ocupa el lugar de totalidad rectora de toda pregunta. Cuando se le reclama rotación externa, vorticidad, anisotropía, momento angular, curvatura o topología, debe responder con sus magnitudes y sus incertidumbres. Cuando la pregunta se formula en el SV como circulación de retorno de dominio, la conclusión formal se decide por dominio SV y sólo se traduce externamente mediante transducción declarada. Esa separación no enfrenta dominios; impide que uno usurpe el lugar del otro.
 
