@@ -338,7 +338,7 @@ Anexo A. Del borde preformal a la polaridad humana: Línea del Umbral SV, realiz
 
 Anexo B. Del viviente mínimo a la pluralidad de especies: desdoblamientos, derivaciones y retorno de linajes bajo registro paleontológico
 
-Anexo C. Del bisabuelo formal al Universo físico viviente: descenso triprimitivo, organismo de dominio y transducción no confinante
+Anexo C. Del tercer nivel triprimitivo (bisabuelo formal) al Universo físico viviente: descenso triprimitivo, organismo de dominio y transducción no confinante
 
 Anexo D. Del átomo formal al átomo realizado: ciclo de constitución del átomo fundamental y retorno entre dominios
 
