@@ -1,6 +1,296 @@
 # Determinación dirigida del elemento químico SV-399 — Actinio (Ac) + 3 Oganesón (Og) + Tungsteno/Wolframio (W): aislamiento del residual actínico-refractario en microfronteras de scheelita y wolframita
 
 (Microdominios de transición de Tungsteno/Wolframio (W), situados en contactos, bordes, inclusiones, venillas, halos o zonas de reemplazo, asociados a Uranio (U), Torio (Th), tierras raras —REE/ETR, Rare Earth Elements / Elementos de Tierras Raras— y Zirconio (Zr): protocolo piloto de 16 semanas, medios técnicos, plantilla científica, controles NORM y coste estimado).
+© 2026. Todos los derechos reservados. | Juan Antonio Lloret Egea | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) | IA eñ™ — La Biblia de la IA™ | ISSN 2695-6411 | Licencia CC BY-NC-ND 4.0 | Madrid, 09/06/2026 |
+
+URL canónica: https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/quimica-factual-y-ciencia-de-materiales-sv/materiales-extremos/determinacion-elemento-sv-399/determinacion-dirigida-elemento-quimico-sv-399.md
+
+**Advertencia y reserva de derechos.** Esta publicación, incluyendo su texto, formulación, estructura expositiva, tablas, gráficos, imágenes, selección y disposición de contenidos, archivos auxiliares, código, laboratorios, salidas de verificación y documentación asociada, queda protegida por los derechos de propiedad intelectual de su autor y, en su caso, por la gestión de derechos que corresponda a través de CEDRO. Cualquier forma de explotación de la obra o de partes sustanciales de ella —incluidas su reproducción, distribución, comunicación pública, puesta a disposición, transformación, traducción, adaptación, incorporación a bases de datos, entrenamiento o evaluación de sistemas automatizados, integración en productos, servicios, informes, software, modelos, catálogos, materiales docentes, materiales industriales, publicaciones técnicas o desarrollos empresariales— sólo podrá realizarse conforme a la licencia indicada, con autorización expresa y por escrito de los titulares de derechos, o al amparo de una excepción legal aplicable. La licencia indicada no autoriza usos comerciales, explotación empresarial, transformación distribuida ni reutilización sustancial de la obra fuera de sus términos. La aplicación, implementación, explotación técnica o incorporación de los resultados, fórmulas, tablas, nomenclatura, metodología, transductores, criterios de admisión, dominios, laboratorios o conclusiones de esta obra en el campo de la Física, la Química, la ciencia de materiales, la ingeniería, la inteligencia artificial u otras ciencias derivadas queda reservada a la autorización expresa del autor cuando implique reproducción, transformación, comunicación pública, distribución, integración sustancial de la obra protegida, explotación comercial, desarrollo empresarial o uso no cubierto por la licencia. Nada de lo anterior limita los usos permitidos imperativamente por la ley.
+
+**Notice and reservation of rights.** This publication, including its text, formulation, expository structure, tables, graphics, images, selection and arrangement of contents, auxiliary files, code, laboratories, verification outputs and associated documentation, is protected by the author’s intellectual property rights and, where applicable, by the corresponding rights management through CEDRO. Any form of exploitation of the work or of substantial parts thereof —including reproduction, distribution, public communication, making available, transformation, translation, adaptation, incorporation into databases, training or evaluation of automated systems, integration into products, services, reports, software, models, catalogues, teaching materials, industrial materials, technical publications or business developments— may only be carried out in accordance with the indicated license, with the express written authorization of the rights holders, or under an applicable statutory exception. The indicated license does not authorize commercial uses, business exploitation, distributed transformation or substantial reuse of the work outside its terms. The application, implementation, technical exploitation or incorporation of the results, formulas, tables, nomenclature, transducers, admission criteria, domains, laboratories or conclusions of this work in the field of Physics, Chemistry, materials science, engineering, artificial intelligence or other derived sciences is reserved to the express authorization of the author where it entails reproduction, transformation, public communication, distribution, substantial integration of the protected work, commercial exploitation, business development or any use not covered by the license. Nothing herein shall limit uses that are mandatorily permitted by law.
+
+## Disposición sobre propiedad industrial potencial, colaboración técnica y reserva de explotación
+
+La formulación científica y técnica asociada a SV-399 puede dar lugar a desarrollo industrial posterior, especialmente en lo relativo al método de determinación dirigida de residuales actínico-refractarios en microdominios de Tungsteno/Wolframio (W) asociados a Uranio (U), Torio (Th), tierras raras —REE/ETR— y Zirconio (Zr), dentro de matrices de scheelita y wolframita, mediante protocolo instrumental, sustracción de la tabla reconocida, control de interferencias, trazabilidad radiológica, análisis de residual y decisión técnica de candidato, descarte o indeterminación material justificada.
+
+La publicación no constituye cesión, licencia, autorización de explotación industrial ni renuncia a derechos de propiedad intelectual o industrial sobre métodos, procedimientos, criterios técnicos, matrices de análisis, secuencias instrumentales, modelos de sustracción, sistemas de decisión, aplicaciones materiales o desarrollos derivados que puedan resultar patentables, registrables, protegibles como secreto empresarial o explotables mediante acuerdos de colaboración, licencia, transferencia o investigación conjunta.
+
+Todo laboratorio, universidad, centro tecnológico, empresa o entidad pública o privada que pretenda ejecutar, validar, ampliar, adaptar o explotar técnicamente el protocolo deberá formalizar previamente un acuerdo escrito con el autor o con la entidad designada por éste. El acuerdo podrá reconocer, según corresponda, participación técnica, preferencia de colaboración, coautoría científica, derechos de explotación, licencia, opción de patente, cotitularidad de resultados derivados o condiciones específicas de transferencia tecnológica, siempre que la contribución material del laboratorio quede documentada y aceptada por escrito.
+
+El primer laboratorio que acepte formalmente desarrollar el protocolo bajo condiciones pactadas podrá ser reconocido como colaborador preferente para la fase experimental inicial, sin perjuicio de los derechos previos del autor sobre la formulación, el método, la diana SV-399, el diseño del protocolo, los criterios de residual, la selección de matrices, la arquitectura de sustracción y la estructura general del Sistema Vectorial SV. Ninguna comunicación informal, lectura del documento, recepción de archivos, revisión técnica, comentario, cita o uso interno no autorizado generará derechos de explotación, prioridad técnica ni expectativa jurídica sobre el método.
+
+Esta disposición no limita la crítica científica, la revisión académica ni el contraste independiente dentro de los límites legales aplicables. Su finalidad es preservar la trazabilidad de autoría, la integridad del método, la eventual protección industrial posterior y la ordenación jurídica de futuras colaboraciones técnicas.
+
+## Provision on potential industrial property, technical collaboration and reservation of exploitation rights
+
+The scientific and technical formulation associated with SV-399 may give rise to subsequent industrial development, especially in relation to the method for the directed determination of actinic-refractory residuals in Tungsten/Wolfram (W) microdomains associated with Uranium (U), Thorium (Th), rare earth elements —REE/ETR— and Zirconium (Zr), within scheelite and wolframite matrices, through instrumental protocol, subtraction of the recognised periodic table, interference control, radiological traceability, residual analysis and technical decision of candidate, discard or materially justified indeterminacy.
+
+Publication does not constitute assignment, licence, authorisation for industrial exploitation or waiver of intellectual or industrial property rights over methods, procedures, technical criteria, analytical matrices, instrumental sequences, subtraction models, decision systems, material applications or derived developments that may be patentable, registrable, protectable as trade secrets or exploitable through collaboration, licensing, transfer or joint research agreements.
+
+Any laboratory, university, technology centre, company, public entity or private entity intending to execute, validate, expand, adapt or technically exploit the protocol must first formalise a written agreement with the author or with the entity designated by him. The agreement may recognise, as appropriate, technical participation, collaboration preference, scientific co-authorship, exploitation rights, licence, patent option, co-ownership of derived results or specific technology-transfer conditions, provided that the laboratory’s material contribution is documented and accepted in writing.
+
+The first laboratory that formally agrees to develop the protocol under agreed conditions may be recognised as preferential collaborator for the initial experimental phase, without prejudice to the author’s prior rights over the formulation, the method, the SV-399 target, the protocol design, the residual criteria, the matrix selection, the subtraction architecture and the general structure of the Vectorial System SV. No informal communication, reading of the document, receipt of files, technical review, comment, citation or unauthorised internal use shall generate exploitation rights, technical priority or legal expectation over the method.
+
+This provision does not limit scientific criticism, academic review or independent contrast within the applicable legal limits. Its purpose is to preserve authorship traceability, the integrity of the method, possible subsequent industrial protection and the legal organisation of future technical collaborations.
+
+
+## Justificación científica de la publicación previa al ensayo material
+
+La determinación dirigida de SV-399 no puede plantearse como una prueba privada, opaca o meramente instrumental. La diana pertenece a un dominio estructural que formula entradas no reconocidas por la tabla periódica vigente y exige, para cualquier contraste material serio, la intervención de laboratorios especializados en microanálisis, mineralogía de tungsteno, geoquímica U/Th–REE/Zr, control NORM, sustracción elemental e identificación de residuales persistentes. La publicación previa fija públicamente la diana, las restricciones, la matriz, el método, los criterios de descarte y la condición de retorno antes de que exista resultado experimental, de manera que ningún dictamen posterior pueda presentarse como reconstrucción oportunista del hallazgo.
+
+La relevancia científica del eventual retorno material de SV-399 excedería el interés local de una muestra o de un protocolo. Si un residual actínico-refractario persistente, co-localizado y no absorbible por la tabla reconocida superase los controles previstos, el resultado obligaría a revisar el alcance de suficiencia de la tabla periódica vigente frente al dominio transducido, sin convertir automáticamente SV-399 en elemento ordinario reconocido ni sustituir los procedimientos institucionales de validación. El valor del ensayo residiría precisamente en esa frontera: no proclamar reconocimiento externo, sino abrir una región de contraste material donde la tabla reconocida, la mineralogía, la geoquímica de trazas y el Sistema Vectorial SV puedan confrontarse bajo criterios declarados.
+
+La publicación previa también cumple una función de ordenación científica y jurídica. Permite que cualquier laboratorio interesado conozca con exactitud qué se le solicita, qué no se le solicita, qué condiciones debe cumplir, qué resultados son admisibles y qué efectos puede tener su colaboración. Al mismo tiempo, preserva la trazabilidad de autoría, delimita la reserva de propiedad intelectual e industrial y evita que la ejecución experimental quede separada de la formulación que la hace posible. Sin esta fijación pública, la fase material podría confundirse con una prospección genérica de anomalías; con ella, el ensayo queda situado como determinación dirigida de una diana previamente definida.
+
+La eventual obtención material de SV-399 tampoco afectaría sólo a un nodo aislado. Conforme al corolario de precedencia estructural, un resultado positivo reforzaría la cadena generativa que sitúa la diana dentro del dominio SV y obligaría a examinar los nodos previos como antecedentes estructurales necesarios, sin que ello equivalga por sí mismo a reconocimiento IUPAC automático. Por esa razón, la publicación previa no es una cortesía editorial ni un gesto de difusión: es condición de claridad científica, trazabilidad, contraste internacional y colaboración técnica ordenada.
+
+## Scientific justification for publication prior to material testing
+
+The directed determination of SV-399 cannot be framed as a private, opaque or merely instrumental test. The target belongs to a structural domain that formulates entries not recognised by the current periodic table and requires, for any serious material contrast, the intervention of laboratories specialised in microanalysis, tungsten mineralogy, U/Th–REE/Zr geochemistry, NORM control, elemental subtraction and identification of persistent residuals. Prior publication publicly fixes the target, the restrictions, the matrix, the method, the discard criteria and the return condition before any experimental result exists, so that no subsequent technical decision can be presented as an opportunistic reconstruction of a finding.
+
+The scientific relevance of a possible material return of SV-399 would exceed the local interest of a sample or a protocol. If a persistent, co-localised actinic-refractory residual not absorbable by the recognised periodic table were to pass the planned controls, the result would require reassessing the scope of sufficiency of the current periodic table in relation to the transduced domain, without automatically turning SV-399 into a recognised ordinary element and without replacing institutional validation procedures. The value of the test would lie precisely at that boundary: not in proclaiming external recognition, but in opening a region of material contrast where the recognised table, mineralogy, trace geochemistry and the Vectorial System SV may be confronted under declared criteria.
+
+Prior publication also fulfils a function of scientific and legal ordering. It enables any interested laboratory to know exactly what is being requested, what is not being requested, what conditions must be met, what results are admissible and what effects its collaboration may have. At the same time, it preserves authorship traceability, delimits the reservation of intellectual and industrial property rights and prevents the experimental execution from being separated from the formulation that makes it possible. Without this public fixation, the material phase could be confused with a generic prospecting of anomalies; with it, the test is situated as the directed determination of a previously defined target.
+
+A possible material obtainment of SV-399 would not affect only an isolated node either. In accordance with the corollary of structural precedence, a positive result would strengthen the generative chain that situates the target within the SV domain and would require examining the previous nodes as necessary structural antecedents, without this amounting by itself to automatic IUPAC recognition. For that reason, prior publication is neither an editorial courtesy nor a gesture of dissemination: it is a condition of scientific clarity, traceability, international contrast and ordered technical collaboration.
+
+# Índice
+
+## 0.I. Resumen
+
+## 0.II. Introducción al problema
+
+## 0.III. Estado del Arte.
+
+## I. Objeto de la investigación: SV-399 como diana definida
+
+### I.1. Denominación del elemento químico estructural SV-399.
+
+### I.2. Composición estructural: Actinio (Ac) + 3 Oganesón (Og) + Tungsteno/Wolframio (W).
+
+### I.3. Separación entre definición SV, tabla reconocida y ensayo material.
+
+### I.4. Alcance de la publicación: aislamiento dirigido del residual actínico-refractario.
+
+### I.5. Razón de selección inicial: diana definida, no una búsqueda abierta.
+
+## II. Fundamento de determinación: tres restricciones convergentes
+
+### II.1. Primera restricción: construcción desde H/He y tabla reconocida.
+
+### II.2. Segunda restricción: ancla refractaria W y dominio térmico SV-399.
+
+### II.3. Tercera restricción: residuo actínico medio.
+
+### II.4. Intersección formal de las tres restricciones.
+
+### II.5. ¿Por qué SV-399 no se busca como hipótesis abierta, sino como diana determinada?
+
+### II.6. Error cero de plano y condición material de contraste.
+
+## III. Traducción experimental de la diana
+
+### III.1. Qué se pretende aislar: residual actínico-refractario.
+
+### III.2. Qué no se pretende: síntesis nuclear, proclamación IUPAC o uso de Oganesón como reactivo.
+
+### III.3. Criterio de retorno material.
+
+### III.4. Criterio de exclusión: ausencia de residual tras agotamiento de la tabla reconocida.
+
+### III.5. Relación entre diana SV y resultado experimental: candidato, descarte o indeterminación justificada.
+
+## IV. Matriz mineralógica cerrada
+
+### IV.1. Scheelita y wolframita como matrices diana.
+
+### IV.2. Tungsteno/Wolframio (W) como ancla refractaria.
+
+### IV.3. Asociación exigida con Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr).
+
+### IV.4. Definición de REE/ETR: Rare Earth Elements / Elementos de Tierras Raras.
+
+### IV.5. Microdominio admisible: W mayoritario o estructuralmente dominante con vecindad U/Th–REE/Zr.
+
+### IV.6. Muestras excluidas: W aislado, U/Th sin W, minerales genéricos y matrices sin trazabilidad.
+
+### IV.7. Razón de cierre mineralógico: no se buscan minerales complejos en general, sino microdominios definidos.
+
+## V. Restricción tecnológica de interés: K_Θ > 4.500 °C y supervivencia estructural extrema
+
+### V.1. Por qué el umbral Θ_max > 4.500 °C convierte el problema SV en problema tecnológico de alto interés.
+
+### V.2. Por qué temperatura extrema no basta como criterio material.
+
+### V.3. Definición del índice de supervivencia estructural extrema.
+
+### V.4. Propiedades SV integradas: dureza, resistencia, flexibilidad, conductividad, oxidación, corrosión, cambio estructural y estabilidad térmica.
+
+### V.5. Componentes de estrés acoplado: resistencia mecánica, oxidación, corrosión, ablación, choque térmico, radiación y conservación microestructural.
+
+### V.6. Ciclos frío-calor y frontera de retorno.
+
+### V.7. Relevancia aeroespacial, hipersónica, nuclear, energética y de materiales refractarios.
+
+### V.8. Criterio de interés: sólo hay caso SV-399 si el residual térmico-refractario conserva frontera bajo estrés acoplado.
+
+
+## VI. Diseño del protocolo piloto de 16 semanas
+
+### VI.1. Número de muestras y controles.
+
+### VI.2. Montajes pulidos, blancos, duplicados y cadena de custodia.
+
+### VI.3. Semana 1–2: recepción, trazabilidad, radioprotección y preselección.
+
+### VI.4. Semana 3–5: cartografía mineralógica y selección de microdominios.
+
+### VI.5. Semana 6–9: análisis elemental y trazas por microanálisis.
+
+### VI.6. Semana 10–12: sustracción de la tabla reconocida e identificación de residuales.
+
+### VI.7. Semana 13–14: repetición instrumental y control de interferencias.
+
+### VI.8. Semana 15–16: dictamen de candidato, descarte o indeterminación material justificada.
+
+## VII. Medios técnicos requeridos
+
+### VII.1. SEM-BSE/EDS para textura, fases e inclusiones.
+
+### VII.2. EPMA-WDS para composición mayoritaria y minoritaria.
+
+### VII.3. Raman/XRD para confirmación mineralógica.
+
+### VII.4. LA-ICP-MS para mapas de trazas y microdominios.
+
+### VII.5. MC-ICP-MS, TIMS, SIMS o NanoSIMS como técnicas de confirmación condicionada.
+
+### VII.6. Software de integración espacial, co-localización y sustracción elemental.
+
+### VII.7. Requisitos mínimos de laboratorio: core facility geoquímica, materiales o laboratorio autorizado.
+
+## VIII. Controles radiológicos, NORM y cumplimiento normativo
+
+### VIII.1. Clasificación preventiva de muestras con U/Th.
+
+### VIII.2. Recepción, almacenamiento, manipulación y eliminación.
+
+### VIII.3. Responsable de radioprotección.
+
+### VIII.4. Exclusión expresa de manipulación no autorizada.
+
+### VIII.5. Condición de laboratorio admisible.
+
+### VIII.6. Trazabilidad normativa de toda muestra con radionucleidos naturales.
+
+## IX. Plantilla científica mínima
+
+### IX.1. Investigador principal de geoquímica, materiales o mineralogía analítica.
+
+### IX.2. Especialista en tungsteno, scheelita/wolframita y mineralogía de mena.
+
+### IX.3. Especialista en U–Th–REE/Zr y geoquímica actínica.
+
+### IX.4. Especialista LA-ICP-MS / ICP-MS.
+
+### IX.5. Especialista SEM-EPMA/WDS.
+
+### IX.6. Responsable de radioprotección/NORM.
+
+### IX.7. Técnico de preparación de muestras.
+
+### IX.8. Analista de datos, interferencias y residuales.
+
+## X. Modelo de sustracción de la tabla reconocida
+
+### X.1. Banco Ω118: todos los elementos reconocidos como absorbibles ordinarios.
+
+### X.2. Interferencias esperables: óxidos, hidruros, aductos, isótopos y matriz.
+
+### X.3. Productos radiogénicos y cadenas U/Th.
+
+### X.4. Impurezas, inclusiones y fases accesorias.
+
+### X.5. Condición R118 = 0: descarte.
+
+### X.6. Condición R118 > 0: paso a ventana actínico-refractaria.
+
+### X.7. Trazabilidad de la resta: ningún residual se acepta sin reconstrucción de lo absorbido.
+
+## XI. Criterio de identificación del residual actínico-refractario SV-399
+
+### XI.1. Restricción obligatoria: Tungsteno/Wolframio (W).
+
+### XI.2. Ventana obligatoria: vecindad U/Th–REE/Zr.
+
+### XI.3. Residual admisible: persistente, co-localizado y no absorbible por Ω118.
+
+### XI.4. Diferenciación frente a Fr+3Og+W, Ra+3Og+W y otros nodos vecinos.
+
+### XI.5. Criterio positivo de candidato SV-399.
+
+### XI.6. Criterio negativo de descarte.
+
+### XI.7. Criterio U: indeterminación material justificada y repetición necesaria.
+
+### XI.8. Criterio tecnológico adicional: conservación de frontera bajo estrés acoplado.
+
+## XII. Coste estimado, calendario y entregables
+
+### XII.1. Coste piloto recomendado: 120.000 €.
+
+### XII.2. Horquilla admisible: 90.000–140.000 €.
+
+### XII.3. Fase de confirmación condicionada: 120.000–220.000 €.
+
+### XII.4. Presupuesto total piloto + confirmación: 210.000–360.000 €.
+
+### XII.5. Entregables técnicos: mapas, espectros, tablas, residuales, dictamen y trazabilidad.
+
+### XII.6. Condición de parada económica y científica.
+
+### XII.7. Justificación de financiabilidad: diana cerrada, matriz cerrada, umbral térmico y valor tecnológico.
+
+## XIII. Conclusión y justificación del elemento químico SV-399
+
+### XIII.1. SV-399 como diana de determinación dirigida.
+
+### XIII.2. Residual actínico-refractario como objeto instrumental.
+
+### XIII.3. Scheelita/wolframita como matriz cerrada de primera elección.
+
+### XIII.4. Microdominios W–U/Th–REE/Zr como región de prueba.
+
+### XIII.5. Intersección entre propiedades SV, K_Θ > 4.500 °C y supervivencia estructural extrema.
+
+### XIII.6. Resultado esperado: candidato, descarte o indeterminación material justificada.
+
+### XIII.7. Cierre: por qué SV-399 es el primer candidato dirigido de esta línea experimental.
+
+### XIII.8. Corolario de precedencia estructural.
+# Anexos
+
+## Anexo A. Tabla de símbolos, nombres y funciones: Ac, Og, W, U, Th, REE/ETR y Zr.
+
+## Anexo B. Ficha técnica SV-399.
+
+## Anexo C. Plantilla de solicitud a laboratorios.
+
+## Anexo D. Matriz de controles positivos, negativos y blancos.
+
+## Anexo E. Matriz de interferencias Ω118.
+
+## Anexo F. Presupuesto detallado.
+
+## Anexo G. Cronograma operativo de 16 semanas.
+
+## Anexo H. Requisitos de seguridad radiológica y NORM.
+
+## Anexo I. Modelo de dictamen: positivo, negativo o U justificada.
+
+## Anexo J. Índice de supervivencia estructural extrema bajo estrés acoplado.
+
+
 
 © 2026. Todos los derechos reservados. | Juan Antonio Lloret Egea | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) | IA eñ™ — La Biblia de la IA™ | ISSN 2695-6411 | Licencia CC BY-NC-ND 4.0 | Madrid, 09/06/2026 |
 
@@ -55,72 +345,7 @@ Prior publication also fulfils a function of scientific and legal ordering. It e
 
 A possible material obtainment of SV-399 would not affect only an isolated node either. In accordance with the corollary of structural precedence, a positive result would strengthen the generative chain that situates the target within the SV domain and would require examining the previous nodes as necessary structural antecedents, without this amounting by itself to automatic IUPAC recognition. For that reason, prior publication is neither an editorial courtesy nor a gesture of dissemination: it is a condition of scientific clarity, traceability, international contrast and ordered technical collaboration.
 
-<details>
-<summary><strong>Índice</strong></summary>
 
-- 0.I. Resumen
-- 0.II. Introducción al problema
-- 0.III. Estado del Arte.
-- I. Objeto de la investigación: SV-399 como diana definida
-  - I.1. Denominación del elemento químico estructural SV-399.
-  - I.2. Composición estructural: Actinio (Ac) + 3 Oganesón (Og) + Tungsteno/Wolframio (W).
-  - I.3. Separación entre definición SV, tabla reconocida y ensayo material.
-  - I.4. Alcance de la publicación: aislamiento dirigido del residual actínico-refractario.
-  - I.5. Razón de selección inicial: diana definida, no una búsqueda abierta.
-- II. Fundamento de determinación: tres restricciones convergentes
-  - II.1. Primera restricción: construcción desde H/He y tabla reconocida.
-  - II.2. Segunda restricción: ancla refractaria de Tungsteno/Wolframio (W) y dominio térmico SV-399.
-  - II.3. Tercera restricción: residuo actínico medio.
-  - II.4. Intersección formal de las tres restricciones.
-  - II.5. ¿Por qué SV-399 no se busca como hipótesis abierta, sino como diana determinada?
-  - II.6. Error cero de plano y condición material de contraste.
-- III. Traducción experimental de la diana
-  - III.1. Qué se pretende aislar: residual actínico-refractario.
-  - III.2. Qué no se pretende: síntesis nuclear, proclamación IUPAC o uso de Oganesón como reactivo.
-  - III.3. Criterio de retorno material.
-  - III.4. Criterio de exclusión: ausencia de residual tras agotamiento de la tabla reconocida.
-  - III.5. Relación entre diana SV y resultado experimental: candidato, descarte o indeterminación justificada.
-- IV. Matriz mineralógica cerrada y regiones internas de transición
-  - IV.1. Scheelita y wolframita como matrices diana.
-  - IV.2. Tungsteno/Wolframio (W) como ancla refractaria.
-  - IV.3. Asociación exigida con Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr).
-  - IV.4. Definición de REE/ETR: Rare Earth Elements / Elementos de Tierras Raras.
-  - IV.5. Microdominio admisible: Tungsteno/Wolframio (W) mayoritario o estructuralmente dominante con contacto U/Th–REE/Zr.
-  - IV.6. Muestras excluidas: Tungsteno/Wolframio (W) aislado, Uranio (U) o Torio (Th) sin Tungsteno/Wolframio (W), minerales genéricos y matrices sin trazabilidad.
-  - IV.7. Razón de cierre mineralógico: no se buscan minerales complejos en general, sino regiones internas definidas.
-- V. Restricción tecnológica de interés: K_Θ > 4.500 °C y supervivencia estructural extrema
-  - V.1. Por qué el umbral Θ_max > 4.500 °C convierte el problema SV en problema tecnológico de alto interés.
-  - V.2. Por qué temperatura extrema no basta como criterio material.
-  - V.3. Definición del índice de supervivencia estructural extrema.
-  - V.4. Propiedades SV integradas: dureza, resistencia, flexibilidad, conductividad, oxidación, corrosión, cambio estructural y estabilidad térmica.
-  - V.5. Componentes de estrés acoplado: resistencia mecánica, oxidación, corrosión, ablación, choque térmico, radiación y conservación microestructural.
-  - V.6. Ciclos frío-calor y frontera de retorno.
-  - V.7. Relevancia aeroespacial, hipersónica, nuclear, energética y de materiales refractarios.
-  - V.8. Criterio de interés: sólo hay caso SV-399 si el residual térmico-refractario conserva frontera bajo estrés acoplado.
-- VI. Diseño del protocolo piloto de 16 semanas
-  - VI.1. Número de muestras y controles.
-  - VI.2. Montajes pulidos, blancos, duplicados y cadena de custodia.
-  - VI.3. Semana 1–2: recepción, trazabilidad, radioprotección y preselección.
-  - VI.4. Semana 3–5: cartografía mineralógica y selección de regiones internas de transición.
-  - VI.5. Semana 6–9: análisis elemental, trazas y co-localización en microdominios de transición.
-  - VI.6. Semana 10–12: sustracción de la tabla reconocida e identificación del residual en frontera material.
-  - VI.7. Semana 13–14: repetición instrumental y control de interferencias.
-  - VI.8. Semana 15–16: dictamen de candidato, descarte o indeterminación material justificada.
-- VII. Medios técnicos requeridos
-  - VII.1. SEM-BSE/EDS para textura, fases e inclusiones.
-  - VII.2. EPMA-WDS para composición mayoritaria y minoritaria.
-  - VII.3. Raman/XRD para confirmación mineralógica.
-  - VII.4. LA-ICP-MS para mapas de trazas y microdominios de transición.
-  - VII.5. MC-ICP-MS, TIMS, SIMS o NanoSIMS como técnicas de confirmación condicionada.
-  - VII.6. Software de integración espacial, co-localización y sustracción elemental en regiones internas de transición.
-  - VII.7. Requisitos de laboratorio admisible: core facility geoquímica, materiales o laboratorio autorizado.
-- VIII. Controles radiológicos, NORM y cumplimiento normativo
-  - VIII.1. Clasificación preventiva de muestras con U/Th.
-  - VIII.2. Recepción, almacenamiento, manipulación y eliminación.
-  - VIII.3. Responsable de radioprotección.
-  - VIII.4. Exclusión expresa de manipulación no autorizada.
-  - VIII.5. Condición de laboratorio admisible.
-  - VIII.6. Trazabilidad normativa de toda muestra con radionucleidos naturales.
 
 </details>
 
