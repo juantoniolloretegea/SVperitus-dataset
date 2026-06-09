@@ -170,14 +170,13 @@ A possible material obtainment of SV-399 would not affect only an isolated node 
 
 - Anexo A. Tabla de símbolos, nombres y funciones: Actinio (Ac), Oganesón (Og), Tungsteno/Wolframio (W), Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr).
 - Anexo B. Ficha técnica SV-399.
-- Anexo C. Plantilla de solicitud a laboratorios.
-- Anexo D. Matriz de controles positivos, negativos y blancos.
-- Anexo E. Matriz de interferencias Ω118.
-- Anexo F. Presupuesto detallado.
-- Anexo G. Cronograma operativo de 16 semanas.
-- Anexo H. Requisitos de seguridad radiológica y NORM.
-- Anexo I. Modelo de dictamen: positivo, negativo o U justificada.
-- Anexo J. Índice de supervivencia estructural extrema bajo estrés acoplado.
+- Anexo C. Matriz de controles positivos, negativos y blancos.
+- Anexo D. Matriz de interferencias Ω118.
+- Anexo E. Presupuesto detallado.
+- Anexo F. Cronograma operativo de 16 semanas.
+- Anexo G. Requisitos de seguridad radiológica y NORM.
+- Anexo H. Modelo de dictamen: positivo, negativo o U justificada.
+- Anexo I. Índice de supervivencia estructural extrema bajo estrés acoplado.
 
 </details>
 
