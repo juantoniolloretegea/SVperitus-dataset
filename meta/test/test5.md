@@ -124,10 +124,6 @@ A possible material obtainment of SV-399 would not affect only an isolated node 
   - VIII.5. Condición de laboratorio admisible.
   - VIII.6. Trazabilidad normativa de toda muestra con radionucleidos naturales.
 
----
-
-**Continuidad prevista**
-
 - IX. Plantilla científica de base para microfronteras W–U/Th–REE/Zr
   - IX.1. Investigador principal de geoquímica, ciencia de materiales o mineralogía analítica.
   - IX.2. Especialista en Tungsteno/Wolframio (W), scheelita/wolframita y mineralogía de mena.
@@ -172,9 +168,7 @@ A possible material obtainment of SV-399 would not affect only an isolated node 
   - XIII.7. Cierre: por qué SV-399 es el primer candidato dirigido de esta línea experimental.
   - XIII.8. Corolario de precedencia estructural.
 
----
-
-**Anexos previstos**
+**Anexos**
 
 - Anexo A. Tabla de símbolos, nombres y funciones: Actinio (Ac), Oganesón (Og), Tungsteno/Wolframio (W), Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr).
 - Anexo B. Ficha técnica SV-399.
