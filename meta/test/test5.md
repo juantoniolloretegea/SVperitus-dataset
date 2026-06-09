@@ -1018,4 +1018,60 @@ Si el ensayo devolviera un candidato SV-399, el resultado no afectaría sólo a 
 El corolario también opera en caso negativo. Un descarte local no destruye la cadena SV, pero delimita dónde no retorna la diana bajo las condiciones ensayadas. Una indeterminación material no confirma la cadena, pero conserva una frontera de repetición si la señal no puede absorberse ni aceptarse. Así, cada salida mantiene trazabilidad: candidato fortalece la precedencia, descarte acota el dominio de no retorno y `U` preserva la diferencia no decidida.
 
 La precedencia estructural impide tratar SV-399 como hallazgo desconectado. Si hay retorno, hay que reconstruir su camino: definición, posición, composición, matriz, microfrontera, sustracción, residual, dictamen y relación con los nodos vecinos. Si no hay retorno, hay que declarar qué condición falló. Este corolario cierra la justificación interna del trabajo: SV-399 no se presenta como nombre suelto, sino como diana trazada dentro de una cadena que sólo adquiere valor material cuando conserva frontera, residual y retorno.
+# Anexos
 
+## Anexo A. Tabla de símbolos, nombres y funciones: Actinio (Ac), Oganesón (Og), Tungsteno/Wolframio (W), Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr).
+
+Este anexo fija la lectura técnica de los símbolos que gobiernan la determinación dirigida de SV-399. Su función es impedir que una misma abreviatura cambie de plano durante el ensayo: una cosa es el símbolo químico reconocido, otra la función estructural que cumple dentro de la diana SV, otra la señal material que puede aparecer en microfrontera y otra el dictamen que permite aceptar, descartar o conservar `U` como indeterminación material justificada. La tabla siguiente no sustituye la nomenclatura química ordinaria ni introduce reconocimiento institucional nuevo; ordena el uso de los nombres y símbolos dentro de este protocolo.
+
+| Símbolo | Nombre | Función dentro de la diana SV-399 | Función dentro del protocolo material | Lectura excluida |
+|---|---|---|---|---|
+| `SV-399` | Elemento químico estructural SV-399 | Diana definida por `Ac+3Og+W`, situada en el dominio extendido SV y sometida a retorno material. | Objeto de determinación dirigida mediante residual actínico-refractario en microfronteras de scheelita y wolframita. | No es elemento IUPAC 399, no es síntesis nuclear proclamada y no es nombre genérico para anomalías pesadas. |
+| `Ac` | Actinio | Marca la componente actínica de la diana y el residuo medio que estructura la posición SV-399. | Orienta la lectura del residual hacia una ventana actínica sin exigir que Actinio (Ac) aparezca como sustancia aislada ordinaria. | No se busca Actinio (Ac) aislado ni se acepta una señal actínica sin ancla de Tungsteno/Wolframio (W). |
+| `Og` | Oganesón | Opera como término de frontera reconocida dentro de la composición estructural `Ac+3Og+W`. | No se manipula, no se mide como reactivo y no se exige como presencia mineral; gobierna la lectura estructural de la diana. | No es reactivo material, no es producto de laboratorio en este protocolo y no autoriza lectura de síntesis nuclear. |
+| `W` | Tungsteno/Wolframio | Aporta la ancla refractaria y conecta SV-399 con el dominio térmico `K_Θ`. | Define la matriz de ensayo mediante scheelita y wolframita, y exige microfrontera W–U/Th–REE/Zr. | No basta Tungsteno/Wolframio (W) aislado, ni una mena de W sin vecindad actínica-mineralógica. |
+| `U` | Uranio | Contribuye a la ventana actínica de contraste, subordinada a la diana SV-399. | Activa control NORM, trazabilidad radiológica y lectura de vecindad con W, Th, REE/ETR y Zr. | No equivale a candidato por sí mismo; una señal de Uranio (U) sin W y sin residual no identifica SV-399. |
+| `Th` | Torio | Contribuye a la ventana actínica de contraste junto a Uranio (U). | Activa control NORM, productos radiogénicos esperables y contraste de microdominios con W. | No equivale a residual admisible sin co-localización, sustracción y control de interferencias. |
+| `REE/ETR` | Rare Earth Elements / Elementos de Tierras Raras | Señalan una vecindad geoquímica relevante en el entorno W–U/Th–Zr. | Ayudan a seleccionar microdominios de transición y a distinguir fases accesorias, halos, inclusiones o zonas de reemplazo. | No son prueba autónoma de SV-399 ni sustituyen la exigencia de residual actínico-refractario. |
+| `Zr` | Zirconio | Opera como componente de vecindad geoquímica y de control en regiones internas de transición. | Ayuda a localizar microfronteras, fases accesorias y relaciones de alta estabilidad mineralógica con U/Th–REE. | No se interpreta como diana principal ni como sustituto de la ancla de Tungsteno/Wolframio (W). |
+
+La lectura conjunta de estos símbolos impide aceptar una señal parcial como candidato. SV-399 exige que la ancla de Tungsteno/Wolframio (W), la vecindad Uranio (U)/Torio (Th)–REE/ETR–Zirconio (Zr), la sustracción por `Ω118`, la persistencia del residual y la conservación de frontera se presenten de forma compatible. Si uno de los elementos de la tabla aparece sin los demás, el resultado puede tener valor mineralógico, geoquímico, radiológico o instrumental, pero no queda identificado como candidato SV-399.
+
+El uso de Oganesón (Og) merece una cautela adicional. Dentro de esta publicación, Oganesón (Og) no entra en el laboratorio como material de ensayo; comparece como término estructural de la fórmula SV. Por tanto, ninguna lectura experimental debe buscar Oganesón (Og) en scheelita, wolframita o microfrontera, ni convertir su ausencia material en descarte de la diana. La prueba no pregunta si hay Oganesón (Og) natural en la muestra; pregunta si una diana estructural que incorpora `3Og` como término de frontera devuelve un residual actínico-refractario no absorbible por la tabla reconocida.
+
+La salida correcta queda gobernada por esta matriz de símbolos: si hay co-localización, residual persistente y frontera material tras sustracción completa, puede formularse candidato; si todo queda absorbido por `Ω118` o por explicaciones ordinarias, procede descarte; si la señal no permite decisión honesta, procede `U` como indeterminación material justificada.
+
+
+## Anexo B. Ficha técnica SV-399.
+
+Esta ficha fija la diana SV-399 en una forma operativa única para lectura técnica, laboratorio, revisión externa y trazabilidad de dictamen. No sustituye el desarrollo argumental del cuerpo principal; lo concentra en una matriz de consulta que permite comprobar, antes de cualquier ensayo, qué se busca, dónde se busca, qué controles deben agotarse y qué salida puede admitirse. La ficha no convierte SV-399 en elemento reconocido por IUPAC ni en producto de síntesis nuclear; preserva su condición de elemento químico estructural sometido a determinación material dirigida.
+
+| Campo | Definición técnica |
+|---|---|
+| Denominación | SV-399. |
+| Naturaleza en este trabajo | Elemento químico estructural del dominio SV sometido a retorno material. |
+| Composición estructural | Actinio (Ac) + 3 Oganesón (Og) + Tungsteno/Wolframio (W). |
+| Lectura compacta | `Ac+3Og+W`. |
+| Índice estructural | `k=399`. |
+| Retorno estructural declarado | `Z_SV=517`. |
+| Dominio de contraste externo | Tabla reconocida hasta `Ω118`. |
+| Banco de sustracción | Todos los elementos reconocidos como absorbibles ordinarios, junto a productos radiogénicos, fases accesorias, impurezas e interferencias instrumentales. |
+| Matriz mineralógica de primera elección | Scheelita y wolframita. |
+| Ancla material obligatoria | Tungsteno/Wolframio (W) en microfrontera. |
+| Ventana geoquímica obligatoria | Vecindad Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr). |
+| Región interna admisible | Contactos, bordes, inclusiones, venillas, halos o zonas de reemplazo con relación W–U/Th–REE/Zr. |
+| Objeto instrumental | Residual actínico-refractario persistente, co-localizado y no absorbible por `Ω118`. |
+| Dominio térmico asociado | `K_Θ > 4.500 °C`. |
+| Magnitud térmica estructural declarada | `Θ_max=4.690 °C`. |
+| Criterio tecnológico adicional | Conservación de frontera bajo estrés acoplado. |
+| Técnicas de primera línea | SEM-BSE/EDS, EPMA-WDS, Raman/XRD y LA-ICP-MS. |
+| Técnicas de confirmación condicionada | MC-ICP-MS, TIMS, SIMS o NanoSIMS, según disponibilidad, sensibilidad y naturaleza del residual. |
+| Controles obligatorios | Blancos, duplicados, controles positivos, controles negativos, control NORM, control de interferencias y reconstrucción de lo absorbido. |
+| Salidas admisibles | Candidato SV-399, descarte o indeterminación material justificada. |
+| Lecturas excluidas | Síntesis nuclear, proclamación IUPAC, uso de Oganesón como reactivo, anomalía pesada genérica o señal W aislada sin ventana actínica. |
+
+La ficha obliga a leer SV-399 como diana compuesta por restricciones. El nombre no basta; la composición estructural tampoco basta; la matriz mineralógica tampoco basta; el umbral térmico tampoco basta. Sólo la concurrencia de composición SV, ancla de Tungsteno/Wolframio (W), ventana Uranio (U)/Torio (Th)–REE/ETR–Zirconio (Zr), sustracción `Ω118`, persistencia residual, frontera material y conservación bajo estrés acoplado permite formular candidato. Cualquier lectura parcial debe quedar devuelta a su dominio: química reconocida, mineralogía, radiogénesis, traza, interferencia, descarte o `U`.
+
+La ficha también fija una regla negativa. No se busca Oganesón (Og) natural en la muestra, no se exige Actinio (Ac) aislado como fase independiente y no se acepta Tungsteno/Wolframio (W) como indicador suficiente. La fórmula `Ac+3Og+W` define la diana en el dominio SV; el ensayo material sólo puede buscar su retorno mediante un residual actínico-refractario que sobreviva a la sustracción ordinaria y conserve localización en microfrontera. Si la señal no puede ser reconstruida con coordenada, fase, composición, traza, técnica, control y dictamen, no entra en la ficha como resultado admisible.
+
+La decisión final debe conservar trazabilidad. Un dictamen positivo debe indicar muestra, región, técnica, mapas, espectros, tabla de elementos absorbidos, residual persistente, control de interferencias, control radiológico y razón por la que el residual no queda absorbido por `Ω118`. Un dictamen negativo debe indicar qué absorbió la señal o qué condición faltó. Una indeterminación material justificada debe indicar qué impidió decidir y qué repetición o confirmación sería necesaria. Esta ficha, por tanto, convierte SV-399 en objeto técnico auditable, no en afirmación abierta.
