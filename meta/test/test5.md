@@ -58,8 +58,6 @@ A possible material obtainment of SV-399 would not affect only an isolated node 
 <details>
 <summary><strong>Índice</strong></summary>
 
-**Contenido redactado**
-
 - 0.I. Resumen
 - 0.II. Introducción al problema
 - 0.III. Estado del Arte.
@@ -683,3 +681,76 @@ Toda muestra con radionucleidos naturales debe conservar trazabilidad normativa 
 La trazabilidad debe permitir reconstruir quién recibió la muestra, quién la manipuló, bajo qué condiciones, qué controles se aplicaron, qué residuos produjo, dónde se almacenó y cómo se integró en el dictamen. Si esa reconstrucción no es posible, el resultado pierde admisibilidad. En especial, ningún residual actínico-refractario puede aceptarse como candidato SV-399 si el material que lo contiene no conserva registro suficiente de manipulación, control radiológico y continuidad analítica.
 
 El cierre de este apartado fija una regla de seguridad científica: el retorno material de SV-399 sólo puede evaluarse en muestras cuya historia normativa y analítica sea reconstruible. La cadena radiológica, la cadena mineralógica y la cadena instrumental deben converger en el mismo microdominio de transición. Cuando una de ellas se rompe, el dictamen no puede avanzar a candidato; debe quedar en descarte, exclusión operativa o indeterminación material justificada, según corresponda.
+
+# IX. Plantilla científica de base para microfronteras W–U/Th–REE/Zr
+
+El apartado IX fija la composición funcional del equipo científico necesario para ejecutar la determinación dirigida de SV-399 sin convertir el protocolo en una prospección mineralógica abierta. La plantilla científica de base no se define por número de personas ni por jerarquía administrativa, sino por funciones técnicas que deben quedar cubiertas: dirección geoquímica o mineralógica, lectura de Tungsteno/Wolframio (W) en scheelita y wolframita, control de Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr), cartografía de trazas, microanálisis, radioprotección/NORM, preparación de muestras y análisis de interferencias, sustracción `Ω118` y residuales. Cada función debe tener responsable identificable, trazabilidad de actuación y capacidad de devolver resultado documentado.
+
+La plantilla se subordina a la diana, no al revés. No se reúne un equipo para buscar anomalías en minerales complejos, sino para ejecutar una pregunta cerrada: si en microfronteras de scheelita y wolframita, dentro de microdominios de transición de Tungsteno/Wolframio (W) con vecindad Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr), queda un residual actínico-refractario persistente no absorbible por la tabla reconocida. Por ello, cada perfil se justifica por su papel en la cadena de retorno: matriz, microfrontera, co-localización, seguridad, sustracción, residual y dictamen.
+
+## IX.1. Investigador principal de geoquímica, ciencia de materiales o mineralogía analítica.
+
+El investigador principal debe gobernar la ejecución científica del protocolo y mantener la continuidad entre diana SV, matriz mineralógica, microdominios seleccionados, técnicas aplicadas y dictamen final. Su función no consiste en imponer una lectura favorable, sino en asegurar que cada decisión se adopta dentro del dominio declarado: muestra recibida, montaje preparado, región interna de transición, microdominio admisible, banco `Ω118`, residual, descarte o indeterminación material justificada. Debe poder leer simultáneamente la pregunta geoquímica, la restricción material y la finalidad SV del ensayo.
+
+Este perfil puede proceder de geoquímica, ciencia de materiales, mineralogía analítica o áreas equivalentes, siempre que pueda coordinar microanálisis, trazas, mineralogía de mena, control de interferencias y documentación de resultados. La autoridad científica del investigador principal no sustituye el criterio técnico de cada especialista; lo integra. Debe impedir que una señal elemental aislada se eleve a candidato, que una fase accesoria se confunda con residual, que una restricción radiológica se trate como trámite secundario o que una indeterminación se transforme en resultado conveniente.
+
+La responsabilidad principal incluye aprobar el plan de muestras, validar la secuencia instrumental, revisar los controles, exigir reconstrucción de lo absorbido y emitir o coordinar el dictamen final. Si hay candidato, debe quedar claro por qué no fue absorbido por `Ω118`; si hay descarte, debe quedar claro qué lo absorbió o qué condición faltó; si hay `U`, debe quedar delimitado qué impide cerrar. Sin esta dirección integradora, el protocolo se fragmentaría en análisis útiles pero no necesariamente convergentes hacia SV-399.
+
+## IX.2. Especialista en Tungsteno/Wolframio (W), scheelita/wolframita y mineralogía de mena.
+
+El especialista en Tungsteno/Wolframio (W), scheelita/wolframita y mineralogía de mena debe asegurar que la matriz declarada es real, que la fase portadora de Tungsteno/Wolframio (W) está correctamente identificada y que la selección de microfronteras no se apoya en una lectura visual o composicional insuficiente. Su función es separar scheelita, wolframita, fases accesorias, alteraciones, inclusiones, venillas, halos, bordes, zonas de reemplazo y contactos que puedan tener significado material para la diana. Sin esa lectura, el protocolo podría confundir una señal pesada con un microdominio admisible.
+
+Este perfil debe poder distinguir entre presencia general de Tungsteno/Wolframio (W) y ancla refractaria útil para SV-399. Una muestra rica en Tungsteno/Wolframio (W) no basta si no ofrece región interna de transición, co-localización o frontera material. También debe poder indicar qué zonas sirven como controles internos: regiones con Tungsteno/Wolframio (W) sin ventana actínica, fases accesorias que absorben la señal, áreas alteradas que no conservan textura y dominios donde la preparación haya destruido la relación espacial.
+
+La salida esperada de esta función debe incluir selección razonada de microdominios, identificación de fases, justificación de matriz diana, exclusión de regiones no admisibles y relación entre textura y técnica posterior. El especialista no decide por sí solo si hay SV-399, pero fija una condición necesaria: no hay residual actínico-refractario admisible si antes no existe soporte mineralógico W en scheelita o wolframita con frontera material trazada.
+
+## IX.3. Especialista en Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr) en regiones internas de transición.
+
+El especialista en Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr) debe gobernar la ventana actínica-mineralógica del protocolo. Su tarea es distinguir entre vecindad relevante, presencia accidental, producto radiogénico ordinario, fase accesoria, inclusión independiente, contaminación y señal de trazas que pueda sostener interés para la diana. La ventana U/Th–REE/Zr no se admite por mención nominal: debe estar situada en relación espacial con Tungsteno/Wolframio (W), dentro de matriz diana y bajo coordenadas reconstruibles.
+
+Este perfil debe conocer las asociaciones geoquímicas que pueden absorber o explicar señales actínicas y de tierras raras en scheelita, wolframita o fases asociadas. Debe poder indicar si una señal de Uranio (U) o Torio (Th) pertenece a mineral accesorio separado, si una concentración de REE/ETR forma fase propia, si Zirconio (Zr) aparece por inclusión resistente o si la co-localización tiene continuidad suficiente con el microdominio de transición. Su intervención evita que la ventana actínica se transforme en licencia para aceptar cualquier anomalía pesada.
+
+La salida esperada debe aportar interpretación de trazas, relación con fases, advertencias sobre productos radiogénicos, orientación para sustracción `Ω118` y criterios de exclusión. Si la ventana U/Th–REE/Zr queda fuera de la ancla Tungsteno/Wolframio (W), el microdominio no avanza. Si la ventana persiste y conserva relación con fase, textura y coordenada, puede pasar a la fase de sustracción e identificación residual.
+
+## IX.4. Especialista LA-ICP-MS / ICP-MS para mapas de trazas y co-localización.
+
+El especialista LA-ICP-MS / ICP-MS debe convertir la hipótesis espacial del protocolo en mapas, perfiles o series de datos que conserven coordenada, fase y textura. Su función no es producir una lista de concentraciones aisladas, sino comprobar si Tungsteno/Wolframio (W), Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr) mantienen co-localización en microdominios de transición. La técnica debe responder a la pregunta de dónde aparece la señal, con qué resolución, en qué relación con la matriz y bajo qué incertidumbre.
+
+Este perfil debe declarar tamaño de punto o traza de ablación, calibración, límites de detección, posibles memorias instrumentales, interferencias, normalizaciones, controles, blancos y relación con las imágenes previas. Debe trabajar coordinadamente con SEM-BSE/EDS, EPMA-WDS, Raman/XRD y software de integración espacial. Una señal de trazas que no pueda devolverse a la región cartografiada pierde valor para SV-399, aunque sea analíticamente interesante.
+
+La salida esperada debe incluir mapas o perfiles trazables, tablas de concentraciones con coordenadas, controles de calidad, identificación de zonas de co-localización y advertencias sobre interferencias. Si LA-ICP-MS / ICP-MS muestra que la ventana U/Th–REE/Zr se separa de Tungsteno/Wolframio (W), el microdominio queda excluido o pasa a control negativo. Si confirma co-localización persistente, habilita la sustracción detallada frente a `Ω118`.
+
+## IX.5. Especialista SEM-BSE/EDS y EPMA-WDS.
+
+El especialista SEM-BSE/EDS y EPMA-WDS debe aportar la base microestructural y composicional del protocolo. SEM-BSE permite reconocer contraste de fases, bordes, inclusiones, fracturas, venillas, halos, zonas de reemplazo y dominios de distinta respuesta composicional. EDS orienta la lectura elemental inicial. EPMA-WDS afina composición mayoritaria y minoritaria, separa señales próximas y permite comprobar si las fases portadoras pertenecen a scheelita, wolframita o unidades asociadas. Esta capa evita que el protocolo avance sobre una textura mal leída.
+
+La función de este perfil es disciplinar el paso desde imagen a dato y desde dato a microdominio. Una región brillante no es candidata; una señal pesada no es residual; una fase accesoria no es automáticamente ventana actínica. El especialista debe unir imagen, coordenada, punto analítico, fase, incertidumbre y posible interpretación. También debe detectar cuándo una preparación, pulido, resina, contaminante o deterioro de superficie invalida la lectura de una microfrontera.
+
+La salida esperada debe incluir imágenes calibradas, mapas preliminares, composiciones por fase, indicación de incertidumbres, relación entre puntos y coordenadas, y selección de regiones aptas para técnicas posteriores. Este perfil tampoco decide por sí solo el dictamen final, pero sin su trabajo no hay base para distinguir microdominio de transición, fase accesoria, control negativo, matriz ordinaria o región de interés.
+
+## IX.6. Responsable de radioprotección/NORM.
+
+El responsable de radioprotección/NORM debe asegurar que cualquier muestra con Uranio (U), Torio (Th) o radionucleidos naturales queda recibida, almacenada, manipulada, derivada y gestionada conforme a las condiciones aplicables. Su función no se limita a una autorización inicial: debe acompañar la cadena material cuando la muestra, el montaje, los residuos de preparación, los soportes o las derivaciones puedan tener relevancia radiológica. La seguridad forma parte de la admisibilidad del ensayo, no de una capa externa.
+
+Este perfil debe fijar clasificación preventiva, condiciones de manipulación, registro de responsables, posibles medidas de exposición, almacenamiento, transporte interno, salida a técnicas externas y destino final del material. También debe indicar cuándo un laboratorio experimental no puede recibir o procesar una muestra. En ese caso, la muestra se excluye o se deriva; no se fuerza su incorporación al protocolo por interés analítico.
+
+La salida esperada debe ser trazabilidad radiológica compatible con la trazabilidad científica. Ningún residual puede admitirse si la historia normativa del material queda rota. Si una muestra genera dudas de seguridad, el dictamen científico debe subordinarse al control de admisibilidad operativa. La radioprotección/NORM protege al personal, al laboratorio experimental, al documento y al resultado.
+
+## IX.7. Técnico de preparación de muestras y conservación de microfronteras.
+
+El técnico de preparación de muestras debe conservar la relación entre matriz, microfrontera y señal. Su función es crítica porque corte, pulido, encapsulado, limpieza, montaje o transporte pueden destruir bordes, inclusiones, venillas, halos o zonas de reemplazo que constituyen precisamente el dominio de prueba. Una muestra bien seleccionada puede quedar inutilizada si la preparación mezcla fases, arranca inclusiones, contamina superficie o pierde coordenadas.
+
+Este perfil debe trabajar con instrucciones específicas: preservar textura, evitar contaminación cruzada, registrar abrasivos y soportes, documentar orientación, conservar fragmentos, marcar coordenadas y mantener vinculación entre muestra original, montaje, imagen y punto analítico. La preparación no es una fase auxiliar; es el primer acto material que puede conservar o destruir la diana experimental. La cadena de custodia debe incluir cada manipulación, responsable, fecha y observación relevante.
+
+La salida esperada comprende montajes aptos para cartografía, blancos de preparación, duplicados cuando proceda, registro de procesos y advertencias sobre zonas dañadas o no interpretables. Si una microfrontera se pierde durante la preparación, no debe reconstruirse por suposición. Si queda alterada, se declara. Si se conserva, puede pasar a microanálisis con valor trazable.
+
+## IX.8. Analista de datos, interferencias, sustracción Ω118 y residuales.
+
+El analista de datos, interferencias, sustracción `Ω118` y residuales debe integrar las salidas instrumentales sin convertir la integración en inferencia opaca. Su función es reconstruir qué queda absorbido por la tabla reconocida, por productos radiogénicos, por fases accesorias, por impurezas, por interferencias, por contaminación o por matriz instrumental, y qué diferencia, si existe, permanece como residual persistente. El analista no inventa el residual; lo somete a exclusión.
+
+Este perfil debe trabajar con mapas, coordenadas, tablas, espectros, blancos, duplicados, límites de detección, incertidumbres, interferencias esperables y resultados de técnicas complementarias. Debe poder separar una coincidencia aparente de una co-localización válida, una concentración ordinaria de una diferencia relevante, una señal instrumental de una señal material y una indeterminación legítima de un candidato. Su tarea central es impedir que el protocolo cierre por conveniencia.
+
+La salida esperada es una matriz de decisión por microdominio: absorbido por `Ω118`, descartado por interferencia, excluido por falta de co-localización, indeterminado por insuficiencia material o candidato por persistencia residual. Cada salida debe poder reconstruirse. Si no puede reconstruirse, no se admite. Este perfil aporta el último control antes del dictamen y garantiza que candidato, descarte o `U` se emitan por trazabilidad, no por impresión analítica.
+
+El cierre del apartado IX queda en una regla de equipo: ningún perfil por sí solo determina SV-399. La plantilla científica de base funciona como una cadena de custodia intelectual y material. Cada especialista gobierna una frontera: matriz, ancla Tungsteno/Wolframio (W), ventana U/Th–REE/Zr, trazas, microestructura, radioprotección, preparación, sustracción y residual. Sólo cuando esas fronteras convergen puede emitirse un dictamen material compatible con la diana.
+
