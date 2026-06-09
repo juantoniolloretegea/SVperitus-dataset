@@ -270,6 +270,8 @@ A possible material obtainment of SV-399 would not affect only an isolated node 
 
 ### XIII.8. Corolario de precedencia estructural.
 
+(Nota: La obtención material de SV-399 no validaría un punto aislado, sino la eficacia de la cadena generativa que lo sitúa. En ese caso, los nodos anteriores no quedarían reconocidos automáticamente por IUPAC como elementos ordinarios detectados, pero sí quedarían reforzados como precedencia estructural necesaria dentro del dominio SV.)
+
 # Anexos
 
 ## Anexo A. Tabla de símbolos, nombres y funciones: Ac, Og, W, U, Th, REE/ETR y Zr.
@@ -474,6 +476,3 @@ El descarte procede cuando la señal queda absorbida por la tabla reconocida, po
 
 La indeterminación material justificada corresponde a los casos en que la señal no puede aceptarse ni descartarse con honestidad suficiente. Puede deberse a sensibilidad insuficiente, interferencia no resuelta, co-localización incompleta, preparación deficiente, repetición no concluyente o incompatibilidad entre técnicas. En ese caso, `U` no es probabilidad ni refugio retórico; es conservación explícita de una diferencia no decidida. El procedimiento conserva la indeterminación para impedir tanto la proclamación prematura como el descarte indebido. Así, la diana SV mantiene disciplina de retorno: sólo avanza lo que puede sostenerse materialmente, y sólo se descarta lo que ha sido efectivamente absorbido o excluido.
 
-# XIII.8. Corolario de precedencia estructural
-
-La obtención material de SV-399 no validaría un punto aislado, sino la eficacia de la cadena generativa que lo sitúa. En ese caso, los nodos anteriores no quedarían reconocidos automáticamente por IUPAC como elementos ordinarios detectados, pero sí quedarían reforzados como precedencia estructural necesaria dentro del dominio SV.
