@@ -178,6 +178,10 @@ A possible material obtainment of SV-399 would not affect only an isolated node 
 - Anexo H. Modelo de dictamen: positivo, negativo o U justificada.
 - Anexo I. Índice de supervivencia estructural extrema bajo estrés acoplado.
 
+**Conclusión**
+
+**Bibliografía**
+
 </details>
 
 # 0.I. Resumen
@@ -752,4 +756,68 @@ Este perfil debe trabajar con mapas, coordenadas, tablas, espectros, blancos, du
 La salida esperada es una matriz de decisión por microdominio: absorbido por `Ω118`, descartado por interferencia, excluido por falta de co-localización, indeterminado por insuficiencia material o candidato por persistencia residual. Cada salida debe poder reconstruirse. Si no puede reconstruirse, no se admite. Este perfil aporta el último control antes del dictamen y garantiza que candidato, descarte o `U` se emitan por trazabilidad, no por impresión analítica.
 
 El cierre del apartado IX queda en una regla de equipo: ningún perfil por sí solo determina SV-399. La plantilla científica de base funciona como una cadena de custodia intelectual y material. Cada especialista gobierna una frontera: matriz, ancla Tungsteno/Wolframio (W), ventana U/Th–REE/Zr, trazas, microestructura, radioprotección, preparación, sustracción y residual. Sólo cuando esas fronteras convergen puede emitirse un dictamen material compatible con la diana.
+
+# X. Modelo de sustracción de la tabla reconocida en microdominios de transición
+
+El modelo de sustracción de la tabla reconocida tiene una función precisa: impedir que una señal ordinaria, una interferencia instrumental, una fase accesoria, un producto radiogénico o una contaminación de preparación se conviertan indebidamente en candidato SV-399. La sustracción no se aplica a la muestra como bloque indiferenciado, sino al microdominio de transición previamente localizado, con coordenada, textura, fase, vecindad y frontera material declaradas. Sólo después de reconstruir lo absorbible por los elementos reconocidos y sus comportamientos esperables puede hablarse de residual.
+
+La tabla reconocida actúa aquí como banco `Ω118`. Ese banco no niega el dominio SV ni gobierna su estructura interna; proporciona el plano externo de absorción ordinaria. Todo elemento reconocido, toda combinación explicable, toda cadena radiogénica esperable, toda fase mineral identificada y toda interferencia instrumental plausible debe ser incorporada a la resta antes de emitir dictamen. La disciplina de este apartado consiste en hacer visible qué se ha absorbido, qué se ha excluido, qué permanece indeterminado y qué diferencia, si la hay, conserva valor residual.
+
+La unidad de trabajo no es el mineral completo ni el lote de muestra, sino la región interna de transición: contacto, borde, inclusión, venilla, halo, zona de reemplazo o microdominio donde Tungsteno/Wolframio (W) mantiene función de ancla y donde Uranio (U), Torio (Th), REE/ETR o Zirconio (Zr) comparecen como ventana actínico-mineralógica. La sustracción debe conservar esa escala. Si la señal sólo aparece por promediado masivo, mezcla de regiones, pérdida de coordenadas o lectura sin textura, no puede admitirse como residual SV-399.
+
+## X.1. Banco Ω118: todos los elementos reconocidos como absorbibles ordinarios.
+
+El banco `Ω118` reúne todos los elementos reconocidos por la tabla periódica vigente como absorbibles ordinarios dentro del modelo de sustracción. Su función no es cerrar la investigación antes del ensayo, sino evitar que el ensayo atribuya al dominio SV una señal que puede explicarse por química reconocida. Toda lectura elemental que pueda asignarse a un elemento reconocido, a una fase mineral ordinaria, a una impureza esperable o a una combinación instrumentalmente reconstruible debe ser absorbida por `Ω118`.
+
+La absorción debe operar por microdominio. En una región W–U/Th–REE/Zr de scheelita o wolframita, el banco debe registrar Tungsteno/Wolframio (W), Calcio (Ca), Hierro (Fe), Manganeso (Mn), Oxígeno (O), Uranio (U), Torio (Th), tierras raras —REE/ETR—, Zirconio (Zr), productos radiogénicos, elementos traza y elementos de preparación o soporte que puedan comparecer en la lectura. La presencia de esos elementos no constituye por sí misma residual; constituye materia absorbible mientras pueda ser reconstruida por mineralogía, geoquímica, matriz o técnica.
+
+La salida de `Ω118` debe ser una tabla de absorción por región: elemento detectado, intensidad o concentración, técnica de lectura, fase o textura asociada, explicación ordinaria, incertidumbre y estado de absorción. El residual sólo puede formularse después de esa tabla. Si la tabla de absorción no está completa, el resultado queda en `U` material justificada. Si todo queda absorbido, el dictamen es descarte. Si permanece diferencia no absorbida, se abre la ventana actínico-refractaria, pero todavía no se acepta candidato.
+
+## X.2. Interferencias esperables: óxidos, hidruros, aductos, isótopos y matriz.
+
+La primera defensa contra un falso residual es el control de interferencias. En microanálisis de trazas y masas, una señal puede proceder de óxidos, hidruros, aductos, solapamientos isotópicos, efectos de matriz, deriva instrumental, contaminación superficial o preparación de muestra. Ninguna señal situada en la ventana actínico-refractaria puede pasar a candidato si antes no se han declarado y controlado esas fuentes de confusión.
+
+El control de base de la técnica debe incluir blancos, duplicados, límites de detección, límites de cuantificación, patrones, masas interferentes, correcciones aplicadas y comportamiento de matriz. En LA-ICP-MS e ICP-MS, el efecto de matriz puede modificar intensidad y lectura; en SEM-BSE/EDS y EPMA-WDS, el solapamiento espectral y la topografía pueden inducir asignaciones parciales; en Raman/XRD, mezclas de fase o baja cristalinidad pueden alterar la identificación mineralógica. Cada técnica aporta potencia y riesgo; el protocolo debe registrar ambos.
+
+La regla de sustracción es estricta: una señal interferida no es residual; una señal corregida pero no reconstruible tampoco. Si la interferencia se resuelve, se documenta y la señal queda absorbida, hay descarte. Si la interferencia se resuelve y permanece una diferencia estable, se conserva para contraste posterior. Si no se resuelve, el dictamen es `U` material justificada. El modelo no acepta atajos: la duda instrumental no se convierte en candidato.
+
+## X.3. Productos radiogénicos y cadenas U/Th.
+
+La presencia de Uranio (U) y Torio (Th) en la ventana de búsqueda obliga a considerar productos radiogénicos y cadenas de desintegración naturales. Una señal pesada, una anomalía isotópica o una distribución local de elementos asociados puede pertenecer a la historia radiogénica ordinaria de la muestra. Antes de hablar de residual SV-399, el protocolo debe reconstruir qué parte de la lectura puede explicarse por Uranio (U), Torio (Th), sus productos de decaimiento, movilidad secundaria, alteración hidrotermal o redistribución en microfronteras.
+
+La cadena U/Th debe tratarse como explicación absorbible mientras conserve coherencia con la muestra, el microdominio y la mineralogía. Halos, venillas, inclusiones o zonas de reemplazo pueden concentrar productos asociados a procesos geológicos ordinarios. Esa concentración no es un defecto del protocolo; es precisamente una de las razones por las que la matriz debe ser cerrada y por las que el responsable NORM y el analista de residuales deben trabajar coordinados. Si la señal es radiogénica, se absorbe. Si no puede separarse con honestidad, queda en `U`.
+
+La salida debe declarar qué señales quedan atribuidas a cadenas U/Th, qué productos o familias se han considerado, qué incertidumbre permanece y qué relación espacial guardan con Tungsteno/Wolframio (W). Sólo una diferencia que no sea absorbida por la lectura radiogénica ordinaria, y que además conserve ancla W y frontera material, puede pasar al siguiente filtro. La proximidad a U/Th abre la ventana de búsqueda; no concede por sí misma valor SV.
+
+## X.4. Impurezas, inclusiones, halos, venillas, zonas de reemplazo y fases accesorias.
+
+Las impurezas, inclusiones, halos, venillas, zonas de reemplazo y fases accesorias constituyen un dominio de alto riesgo interpretativo. Son, al mismo tiempo, lugares privilegiados para localizar microfronteras y fuentes habituales de señales ordinarias complejas. Por eso no deben eliminarse por principio ni aceptarse como residuales sin más. Deben cartografiarse, describirse y someterse a sustracción.
+
+Cada región interna debe registrarse con textura, coordenada, mineral anfitrión, fase secundaria, borde de contacto, continuidad espacial y relación con W–U/Th–REE/Zr. Una inclusión rica en elementos pesados puede ser una fase accesoria perfectamente reconocida. Un halo puede proceder de alteración ordinaria. Una venilla puede introducir material externo. Una zona de reemplazo puede mezclar fases anteriores y posteriores. Nada de eso invalida la muestra; sólo obliga a reconstruirla antes de emitir dictamen.
+
+La regla es doble. Primero, toda fase accesoria identificable se absorbe por `Ω118` y por mineralogía ordinaria. Segundo, sólo se conserva como diferencia residual aquello que permanece tras explicar fases, impurezas, halos, venillas y reemplazos. El residual SV-399 no puede ser una fase accesoria mal nombrada ni una impureza no trabajada. Debe ser lo que resta cuando la región ha sido agotada por sus explicaciones materiales disponibles.
+
+## X.5. Condición R118 = 0: descarte.
+
+La condición `R118 = 0` expresa que, tras aplicar el banco `Ω118`, las interferencias, la reconstrucción radiogénica, la mineralogía de fases, las impurezas y los controles de matriz, no queda diferencia material persistente. En ese caso, el dictamen es descarte para el microdominio analizado. No hay residual SV-399 en esa región bajo las condiciones declaradas.
+
+El descarte no debe formularse como fracaso retórico ni como negación total del dominio SV. Es una salida científica necesaria. Un protocolo que no puede descartar no es un protocolo de determinación. La condición `R118 = 0` protege la investigación porque impide que una búsqueda dirigida se convierta en confirmación automática. Si el resultado queda absorbido, se cierra esa muestra, esa región o esa serie según corresponda.
+
+El acta de descarte debe conservar trazabilidad: muestra, montaje, región, técnicas aplicadas, señales absorbidas, explicación ordinaria, interferencias controladas y motivo final. Sólo así el descarte tiene valor. Un descarte sin reconstrucción no es sustracción; es ausencia de análisis suficiente. Un descarte con reconstrucción completa, en cambio, fortalece el método porque delimita con precisión dónde no retorna la diana.
+
+## X.6. Condición R118 > 0: paso a ventana actínico-refractaria.
+
+La condición `R118 > 0` expresa que, después de la sustracción ordinaria, permanece una diferencia material no absorbida por `Ω118` bajo las técnicas y controles declarados. Esta condición no equivale todavía a candidato SV-399. Sólo autoriza el paso a una ventana actínico-refractaria, donde la diferencia debe superar filtros adicionales: co-localización con Tungsteno/Wolframio (W), vecindad U/Th–REE/Zr, frontera material, repetición instrumental, exclusión de interferencias residuales y coherencia con la restricción térmico-refractaria.
+
+La diferencia `R118 > 0` debe quedar localizada. No basta una señal general de muestra ni una anomalía de lote. Debe conocerse dónde aparece, en qué fase o microfrontera se sitúa, con qué elementos convive, qué técnicas la detectan, qué incertidumbre la acompaña y qué explicaciones han sido descartadas. Sin localización, no hay ventana actínico-refractaria; hay indeterminación.
+
+El paso a ventana actínico-refractaria exige una segunda matriz de control. La primera matriz decide absorción por `Ω118`; la segunda decide compatibilidad con SV-399. Si la diferencia no conserva ancla W, se descarta para esta diana. Si no conserva vecindad U/Th–REE/Zr, se descarta para esta diana. Si no puede repetirse o confirmar su posición, queda en `U`. Si supera esas exigencias, puede avanzar hacia criterio positivo de candidato en el apartado XI.
+
+## X.7. Trazabilidad de la resta: ningún residual se acepta sin reconstrucción de lo absorbido.
+
+La trazabilidad de la resta es la condición de cierre del modelo. Ningún residual se acepta porque aparezca como diferencia final en una tabla sin historia. Debe poder reconstruirse todo lo absorbido: elementos reconocidos, fases ordinarias, productos radiogénicos, interferencias, impurezas, soporte, matriz, preparación, técnica y correcciones. El residual sólo tiene valor cuando se sabe exactamente de qué no procede.
+
+La reconstrucción debe ser material, no declarativa. Debe enlazar imagen, coordenada, fase, espectro, lectura cuantitativa, blanco, duplicado, incertidumbre, corrección y dictamen. Una señal que no puede volver a su microdominio no es residual admisible. Una resta que no muestra qué absorbió `Ω118` no tiene valor de exclusión. Una diferencia que sólo existe en una técnica y no admite control cruzado queda en `U` salvo justificación técnica suficiente.
+
+El modelo de sustracción se cierra así: primero se absorbe lo ordinario; después se controlan interferencias; luego se reconstruye radiogénesis y matriz; después se decide `R118 = 0` o `R118 > 0`; finalmente, si queda diferencia, se abre la ventana actínico-refractaria. La regla final es innegociable: candidato SV-399 sólo puede nacer de una resta reconstruida. Sin reconstrucción de lo absorbido, no hay residual; hay una lectura incompleta.
 
