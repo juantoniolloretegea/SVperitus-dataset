@@ -4042,4 +4042,365 @@ La Ruta 2 queda fundada, por tanto, en una doble continuidad: continuidad de ori
 
 El cierre de este apartado fija la regla de avance hacia los apartados siguientes. Primero se define con precisión `SV-399_Ψ`; después se clasifican moléculas compuestas y redes anfitrionas; después se ordena dónde y cómo buscar; finalmente se separa la bibliografía específica de esta ruta. En esa secuencia, la Ruta 2 mantiene su propio objeto: localizar una presencia residual ultraminoritaria alojada en anfitriones compuestos, sin sustituir la determinación dirigida de la Ruta 1 y sin convertir la búsqueda en prospección abierta. La obra conserva así dos accesos convergentes al mismo problema material: determinación de diana y localización de alojamiento residual.
 
+# 2. Definición operativa de `SV-399_Ψ`: presencia ultraminoritaria, alojamiento y no absorción por `Ω118`
+
+La Ruta 2 exige fijar con precisión qué designa `SV-399_Ψ` antes de seleccionar moléculas compuestas o redes minerales anfitrionas. La expresión no nombra una sustancia macroscópica separada, ni una molécula nueva en sentido estequiométrico ordinario, ni una fase mineral ya reconocida. `SV-399_Ψ` designa la diana SV-399 cuando comparece como presencia residual ultraminoritaria alojada en un anfitrión material. La diana sigue siendo SV-399; el subíndice `Ψ` no cambia su identidad estructural, sino que declara su modo de aparición en esta ruta: presencia minoritaria extrema, localizada, trazable y no absorbible por el inventario ordinario de la tabla reconocida y de sus explicaciones asociadas.
+
+El signo `Ψ` se introduce para evitar confusiones con otros símbolos ya fijados en los fundamentos del SV. `Ψ` no es `ε`, no es borde preformal, no es activador, no es probabilidad, no es `U`, no es coeficiente de mezcla y no es una unidad química. `Ψ` designa presencia residual ultraminoritaria bajo soporte material. Su función es declarar que el residual no tiene por qué aparecer como cuerpo separado, grano aislado o fase autónoma: puede quedar alojado en un defecto, borde, sustitución, microfrontera, inclusión fina, zona de reemplazo, red cristalina o molécula compuesta cuyo inventario mayoritario pertenece por completo a química reconocida. La notación permite buscar el residual sin exigirle una forma de aparición que la propia materia puede haber ocultado o subordinado durante su historia de formación y transformación.
+
+Formalmente, la relación mínima de alojamiento se expresa así:
+
+`M_anfitrión : SV-399_Ψ`.
+
+En esta expresión, `M_anfitrión` designa la molécula compuesta, fase mineral, red cristalina, microdominio o sistema material que aloja la presencia residual. El signo `:` significa alojamiento material subordinado: el anfitrión contiene, conserva, sitúa o enmascara la presencia `Ψ`, pero no se identifica con ella. `SV-399_Ψ` designa la presencia residual ultraminoritaria de la diana SV-399 dentro de ese anfitrión. La expresión no debe leerse como fórmula química, proporción estequiométrica, equivalencia de identidad o mezcla ordinaria. El anfitrión conserva su propia composición reconocida; el residual sólo entra en consideración si, tras la sustracción correspondiente, queda una diferencia localizada que no puede ser absorbida por `Ω118` ni por las explicaciones ordinarias del soporte.
+
+En lógica formal, la definición operativa de `SV-399_Ψ` puede formularse mediante la siguiente condición de admisión:
+
+`SV-399_Ψ = 1 ⇔ D_SV399 ∧ Ψ_loc ∧ M_anfitrión ∧ Aloj(M_anfitrión,Ψ) ∧ No_abs(Ω118) ∧ Ret_mat`.
+
+El signo `⇔` significa “si y sólo si” y el signo `∧` significa conjunción lógica. `D_SV399` designa la conservación de la diana estructural SV-399: la lectura no se desplaza a una anomalía genérica ni a otro nodo sin declaración. `Ψ_loc` designa localización efectiva de la presencia ultraminoritaria: la señal debe tener coordenada, frontera, fase, defecto, borde o región reconstruible. `M_anfitrión` exige un soporte material declarado. `Aloj(M_anfitrión,Ψ)` significa que el soporte aloja la presencia residual sin quedar identificado con ella. `No_abs(Ω118)` exige que el residual no sea explicado por elementos reconocidos, fases ordinarias, productos radiogénicos, contaminación, interferencias, matriz o historia mineralógica convencional. `Ret_mat` exige retorno material trazado: la señal debe poder volver a muestra, microdominio, técnica, control y dictamen. Si una de estas condiciones falla, no hay admisión positiva; si alguna queda sin resolver, la salida correcta es `U` material justificada.
+
+La presencia ultraminoritaria se distingue de la impureza ordinaria por su régimen de decisión. Una impureza ordinaria queda absorbida por inventario químico, fase accesoria, contaminación, matriz, proceso geológico o interferencia instrumental. `SV-399_Ψ` sólo permanece como objeto de la Ruta 2 cuando esa absorción fracasa de manera trazable y cuando la diferencia conserva relación con la diana. Por tanto, el umbral conceptual no es la cantidad absoluta de señal, sino su persistencia después de agotar las explicaciones ordinarias. Puede haber señales abundantes completamente absorbibles por `Ω118`; también puede haber una presencia mínima que conserve valor si está localizada, repetida y no absorbida. La cantidad no sustituye al dictamen.
+
+La condición de alojamiento exige que el anfitrión sea declarado antes de interpretar la señal. No basta decir que hay una anomalía en una muestra compleja. Debe indicarse qué anfitrión se examina, qué composición mayoritaria posee, qué región conserva la posible presencia `Ψ`, qué elementos reconocidos lo explican ordinariamente, qué fases accesorias se han descartado, qué interferencias se han controlado y qué parte de la señal queda sin absorción. En expresión operativa, el anfitrión no es un decorado material: es la frontera que permite decidir si la presencia residual existe, si se absorbe o si permanece indeterminada.
+
+La no absorción por `Ω118` conserva en la Ruta 2 el mismo rigor que en la determinación mineralógica de la Ruta 1, pero se aplica a un régimen más enmascarado. En la Ruta 1, la matriz inicial se concentra en microfronteras de scheelita y wolframita. En la Ruta 2, el anfitrión puede ser más amplio: molécula compuesta, red mineral, sustitución cristalina, borde de grano, fase secundaria, inclusión o microdominio de transición. Esa ampliación no relaja el criterio; lo endurece. Cuanto más complejo sea el anfitrión, mayor debe ser la reconstrucción de lo absorbido por tabla reconocida, matriz, fase, historia mineralógica, preparación, blanco e interferencia. La presencia `Ψ` sólo entra en la obra como residual si sobrevive a ese agotamiento.
+
+| Elemento formal | Significado operativo en la Ruta 2 | Lectura excluida |
+|---|---|---|
+| `SV-399` | Diana estructural que se conserva como referencia de la búsqueda. | No es elemento IUPAC 399 ni anomalía pesada genérica. |
+| `Ψ` | Presencia residual ultraminoritaria localizada, trazable y no absorbible. | No es probabilidad, no es `U`, no es `ε` y no es proporción estequiométrica. |
+| `SV-399_Ψ` | SV-399 bajo modo de presencia residual ultraminoritaria en un anfitrión material. | No es molécula nueva proclamada ni fase separada obligatoria. |
+| `M_anfitrión` | Soporte material que aloja, conserva o enmascara la presencia `Ψ`. | No equivale a SV-399 ni prueba por sí mismo el residual. |
+| `Aloj(M_anfitrión,Ψ)` | Relación de alojamiento material subordinado entre anfitrión y presencia residual. | No significa mezcla libre, identidad química ni composición cerrada nueva. |
+| `No_abs(Ω118)` | Exigencia de que la señal no quede explicada por el inventario ordinario y sus interferencias. | No convierte `Ω118` en autoridad ontológica ni en límite del dominio SV. |
+| `Ret_mat` | Retorno material trazado desde señal hasta muestra, técnica, control y dictamen. | No es impresión analítica ni señal sin reconstrucción. |
+
+La definición operativa también distingue tres salidas. Si la presencia cumple localización, alojamiento, no absorción y retorno, se admite `SV-399_Ψ` como candidato de la Ruta 2. Si la señal queda absorbida por `Ω118`, por el anfitrión ordinario, por una fase accesoria, por contaminación o por interferencia, se descarta para esta ruta. Si la señal conserva parte de la cadena pero no permite decisión suficiente, se declara `U` material justificada. Esta terna evita convertir la presencia ultraminoritaria en afirmación prematura y evita, al mismo tiempo, descartarla sólo porque no aparezca como fase separada.
+
+En expresión lógica, la salida de decisión queda ordenada así:
+
+`Dictamen_R2(M_anfitrión : SV-399_Ψ) ∈ {candidato, descarte, U}`.
+
+`candidato` procede cuando `SV-399_Ψ = 1` bajo las condiciones declaradas. `descarte` procede cuando la señal queda absorbida o pierde localización, alojamiento, diana o retorno. `U` procede cuando la señal no puede aceptarse ni descartarse con honestidad material suficiente. Esta fórmula no introduce una clasificación retórica; fija una compuerta de lectura para que cada anfitrión examinado termine en una salida auditable.
+
+La consecuencia metodológica es directa: la Ruta 2 no busca “más complejidad”, sino mejor alojamiento. Una molécula compuesta o red mineral sólo interesa si puede alojar `SV-399_Ψ` de manera que la presencia ultraminoritaria conserve frontera de retorno. Una red muy compleja que absorbe toda la señal por química ordinaria no aporta candidato. Un anfitrión más sencillo, pero con defecto, borde o microfrontera donde la presencia `Ψ` permanezca localizada y no absorbible, puede ser más valioso. El criterio de selección no es la espectacularidad del material, sino su capacidad para conservar y devolver una diferencia residual con trazabilidad.
+
+La definición operativa de `SV-399_Ψ` queda así cerrada para los apartados posteriores. El siguiente paso ya no debe preguntar qué significa la presencia ultraminoritaria, sino qué moléculas compuestas, redes minerales o microdominios pueden operar como anfitriones admisibles. La selección material deberá obedecer a esta definición: anfitrión declarado, alojamiento posible, localización de `Ψ`, no absorción por `Ω118`, retorno material y dictamen ternario. Sin esa cadena, no hay Ruta 2; con esa cadena, la búsqueda conserva profundidad sin convertirse en prospección abierta.
+
+
+
+# 3. Moléculas compuestas y redes minerales anfitrionas: criterio de selección material
+
+La Ruta 2 exige seleccionar anfitriones materiales capaces de alojar `SV-399_Ψ` sin confundir el anfitrión con la presencia residual. La unidad de búsqueda no es una sustancia nueva proclamada ni una fase separada obligatoria, sino una molécula compuesta, red mineral, microdominio cristalino o frontera material donde una presencia ultraminoritaria pueda conservarse de forma localizada, trazable y no absorbible por `Ω118`. Esta formulación desplaza el problema desde la pregunta general por “minerales complejos” hacia una selección material más fina: qué soportes ordinarios poseen capacidad de alojamiento, qué regiones internas conservan frontera suficiente y qué señales pueden devolver una diferencia residual después de agotar la explicación química reconocida.
+
+La expresión `M_anfitrión` designa el soporte material ordinario que aloja o conserva la presencia residual. Puede tratarse de una red cristalina, una fase mineral, una molécula compuesta estable dentro de un sistema mineral, una zona de sustitución, un borde de grano, una inclusión, una microvenilla, un halo, una zona de reemplazo o un dominio de alteración que conserve identidad suficiente. El anfitrión no es `SV-399_Ψ`; lo contiene, lo enmascara, lo conserva o lo sitúa bajo una forma ultraminoritaria. Por tanto, la lectura de Ruta 2 no busca que el anfitrión deje de ser lo que es, sino que, después de restar su composición ordinaria y sus explicaciones reconocidas, quede una presencia residual no absorbida.
+
+Formalmente, la admisibilidad de un anfitrión material se expresa así:
+
+`M_anfitrión admisible ⇔ C_dom ∧ C_comp ∧ C_def ∧ C_vec ∧ C_traza ∧ C_no_abs ∧ C_ret`.
+
+En esta expresión, `M_anfitrión admisible` significa que el soporte puede entrar en la Ruta 2 como lugar de búsqueda material de `SV-399_Ψ`. El signo `⇔` significa “si y sólo si” y el signo `∧` significa conjunción lógica: todas las condiciones deben concurrir. `C_dom` designa la condición de dominio: el anfitrión debe pertenecer a un dominio material declarado, no a una muestra indiferenciada. `C_comp` designa la condición de composición ordinaria: la red o molécula compuesta debe poder describirse primero con los elementos reconocidos y sus fases esperables. `C_def` designa la condición de defecto, sustitución, frontera o alojamiento: el anfitrión debe disponer de una región donde una presencia ultraminoritaria pueda situarse sin destruir la identidad mayoritaria del soporte. `C_vec` designa la condición de vecindad: el soporte debe conservar relación con los dominios materiales pertinentes para SV-399, especialmente Tungsteno/Wolframio (W), Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr), cuando actúen como regiones de contraste. `C_traza` designa la condición de trazabilidad: la presencia debe poder medirse, mapearse o reconstruirse en coordenada, fase o microfrontera. `C_no_abs` exige no absorción por `Ω118`, matriz, fase accesoria, contaminación, producto radiogénico o interferencia. `C_ret` exige retorno material: la señal debe poder volver desde el dictamen hasta la muestra, el anfitrión, la técnica, el control y la resta aplicada.
+
+Esta fórmula impide dos errores. El primero sería aceptar como Ruta 2 cualquier material complejo sólo por contener muchos elementos, sustituciones o trazas. La complejidad no es criterio de admisión. El segundo sería rechazar un anfitrión porque su composición mayoritaria quede explicada por la tabla reconocida. La Ruta 2 trabaja precisamente con soportes ordinarios: el anfitrión puede ser químicamente reconocido y, aun así, alojar una presencia `Ψ` si queda una diferencia ultraminoritaria, localizada y no absorbible después de la sustracción. La clave no está en que el anfitrión sea extraño, sino en que pueda conservar una diferencia no agotada por su lectura ordinaria.
+
+El criterio material de selección se organiza en cuatro familias de anfitriones. La primera familia corresponde a redes con componente refractario de Tungsteno/Wolframio (W) o proximidad estructural a dominios tungstato, donde la Ruta 2 conserva continuidad material con la diana SV-399 sin quedar limitada a la microfrontera cerrada de la Ruta 1. La segunda familia corresponde a redes capaces de alojar elementos de alta carga, tierras raras, Zirconio (Zr), Uranio (U) o Torio (Th) mediante sustituciones, defectos o fases accesorias trazables. La tercera familia corresponde a microfronteras de alteración, reemplazo, hidratación, recristalización o borde de grano, donde la continuidad de la red se interrumpe sin perder identidad material. La cuarta familia corresponde a moléculas compuestas, complejos locales o dominios mineral-orgánicos/inorgánicos donde la composición ordinaria puede enmascarar una presencia ultraminoritaria si el análisis se limita a promedio de muestra. Estas familias no son resultados; son clases de admisibilidad que deberán cerrarse mediante trazabilidad, sustracción y dictamen.
+
+| Familia de anfitrión | Función dentro de la Ruta 2 | Condición de admisibilidad | Lectura excluida |
+|---|---|---|---|
+| Redes con componente W o dominio tungstato | Conservan la referencia refractaria de Tungsteno/Wolframio (W). | Deben mostrar región de alojamiento distinta de la simple presencia ordinaria de W. | No basta una red rica en W si toda la señal queda absorbida por mineralogía ordinaria. |
+| Redes con U/Th–REE/Zr | Aportan vecindad actínica, tierras raras o Zirconio (Zr) bajo soporte material trazable. | Deben separar productos radiogénicos, fases accesorias e impurezas antes de admitir residual. | No convierten U, Th, REE/ETR o Zr en prueba autónoma de `SV-399_Ψ`. |
+| Microfronteras de alteración o reemplazo | Ofrecen zonas de transición donde una presencia ultraminoritaria puede quedar alojada. | Deben conservar coordenada, textura, fase, borde o transición reconstruible. | No valen halos o venillas si sólo expresan alteración ordinaria absorbible por `Ω118`. |
+| Moléculas compuestas o complejos locales | Permiten buscar alojamiento en soportes no reducibles a fase simple aislada. | Deben declarar composición mayoritaria, región de señal, control de matriz y retorno. | No equivalen a una nueva molécula proclamada ni a una fórmula estequiométrica de SV-399. |
+| Redes anfitrionas con defectos cristalinos | Permiten alojamiento por vacancia, sustitución, intersticio, borde o tensión local. | Deben demostrar que el defecto no queda explicado por composición, daño, preparación o interferencia. | No toda imperfección cristalina es `Ψ`; sólo cuenta la que conserva residual no absorbible. |
+
+La selección del anfitrión debe empezar por su composición ordinaria. Antes de hablar de `SV-399_Ψ`, el soporte debe quedar descrito como red, fase, molécula compuesta o microdominio reconocido. Esta exigencia no debilita la Ruta 2; la fortalece. Si no se conoce primero qué es el anfitrión, no puede saberse qué parte de la señal pertenece a su composición ordinaria, qué parte procede de alteración, qué parte pertenece a fases accesorias, qué parte deriva de contaminación y qué parte queda como residual. El anfitrión debe ser agotado antes de alojar la diferencia.
+
+En expresión lógica, la resta propia de la Ruta 2 se ordena así:
+
+`R_Ψ = R_medido − R_M − R_Ω118 − R_fase − R_rad − R_int − R_blanco`.
+
+`R_Ψ` designa el residual de presencia ultraminoritaria que permanece en el anfitrión. `R_medido` es la señal medida. `R_M` es la contribución ordinaria del anfitrión mayoritario. `R_Ω118` es la contribución de los elementos reconocidos y sus explicaciones ordinarias. `R_fase` representa fases accesorias, inclusiones o sustituciones identificadas. `R_rad` representa productos radiogénicos y cadenas U/Th cuando proceda. `R_int` representa interferencias instrumentales, efectos de matriz, óxidos, hidruros, aductos o desplazamientos de mapa. `R_blanco` representa blancos de preparación, soporte, secuencia o instrumento. Si `R_Ψ = 0`, el anfitrión no devuelve presencia `SV-399_Ψ` bajo las condiciones examinadas. Si `R_Ψ > 0` pero falta localización, alojamiento o retorno, la salida es `U`. Si `R_Ψ > 0` y además se conservan alojamiento, no absorción y retorno, el anfitrión puede pasar a candidato de la Ruta 2.
+
+La diferencia entre alojamiento y mezcla debe quedar fijada. Una mezcla ordinaria reparte componentes reconocidos en una muestra o fase. Un alojamiento `M_anfitrión : SV-399_Ψ` conserva una presencia ultraminoritaria subordinada dentro de un soporte material, sin que esa presencia se convierta necesariamente en fase independiente ni en fórmula química nueva. Por eso la Ruta 2 no exige aislar una partícula macroscópica de SV-399 ni declarar una molécula nueva desde el primer retorno. Exige localizar una diferencia que no se agota al describir el anfitrión. La presencia `Ψ` puede estar en un defecto, borde, sustitución, tensión local, microfrontera, inclusión no ordinaria, región de reemplazo o dominio de transición; lo decisivo es que no quede absorbida por la explicación ordinaria del soporte.
+
+El anfitrión debe conservar capacidad de retorno. Un soporte que contiene muchas trazas, pero no permite separar coordenada, fase, defecto y matriz, no es buen anfitrión para la Ruta 2. Un soporte más sobrio, pero con frontera clara y señal repetible, puede ser preferible. La selección material, por tanto, no debe maximizar complejidad, sino capacidad de decisión. Un anfitrión admisible es aquel que permite responder tres preguntas: qué parte de la señal pertenece al soporte, qué parte queda absorbida por `Ω118` y qué parte permanece como diferencia localizada. Si esas tres preguntas no pueden formularse con datos, el anfitrión no debe avanzar.
+
+El criterio de selección también exige distinguir entre anfitrión primario y anfitrión secundario. El anfitrión primario es la red, fase o molécula compuesta donde se localiza inicialmente la señal. El anfitrión secundario es la región interna que realmente aloja la presencia: borde, defecto, inclusión, halo, sustitución, microvenilla o zona de reemplazo. En muchos casos, el nombre mineral o molecular del anfitrión primario será insuficiente para decidir. La Ruta 2 deberá bajar al anfitrión secundario, porque `SV-399_Ψ` no se espera como propiedad promedio del soporte, sino como presencia residual situada. Esta distinción evita que una muestra completa sea tratada como candidata cuando sólo una región interna conserva interés.
+
+| Nivel de alojamiento | Unidad material | Función de lectura | Dictamen si falla |
+|---|---|---|---|
+| Anfitrión primario | Mineral, red, molécula compuesta o fase mayoritaria. | Declara el soporte ordinario que debe agotarse por composición y matriz. | Sin anfitrión primario declarado, no hay Ruta 2. |
+| Anfitrión secundario | Defecto, borde, inclusión, halo, venilla, sustitución o reemplazo. | Localiza dónde puede conservarse `Ψ`. | Sin localización secundaria, el resultado queda en `U` o descarte. |
+| Residual alojado | `SV-399_Ψ` en coordenada o frontera material. | Define la presencia ultraminoritaria no absorbible. | Si se absorbe por `Ω118`, procede descarte. |
+| Retorno | Datos, mapas, controles, blancos, repetición y dictamen. | Permite reconstruir la señal desde la muestra hasta la decisión. | Sin retorno, no hay candidato. |
+
+La selección de anfitriones debe evitar materiales que sólo aumentan ambigüedad. Quedan fuera, salvo justificación técnica fuerte, las muestras sin procedencia, los polvos mezclados sin microestructura, los concentrados sin cadena de custodia, los soportes con contaminación probable, los agregados donde no pueda separarse fase y matriz, y las redes cuya señal crítica dependa de promedio total. La Ruta 2 no busca el mayor inventario elemental, sino el mejor régimen de alojamiento. La complejidad sólo es útil si puede descomponerse en dominio, composición, frontera, sustracción, residual y retorno.
+
+La compatibilidad con la Ruta 1 se conserva por convergencia, no por subordinación. La Ruta 1 trabaja desde la diana SV-399 hacia la microfrontera actínico-refractaria en matrices de scheelita y wolframita. La Ruta 2 trabaja desde los anfitriones materiales hacia la presencia `SV-399_Ψ`. La primera reduce el campo por matriz cerrada; la segunda amplía el campo por alojamiento controlado. Ambas rutas se encuentran en la misma exigencia: ninguna señal se acepta sin `Ω118`, sin frontera, sin residual y sin retorno. La diferencia está en la unidad inicial de búsqueda: microfrontera mineralógica en la Ruta 1; anfitrión molecular, cristalino o mineral en la Ruta 2.
+
+Formalmente, la selección material de la Ruta 2 queda cerrada mediante una regla de admisión por anfitrión:
+
+`Admisión_R2(M_i) = 1 ⇔ M_i declarado ∧ Aloj_i trazable ∧ R_Ψ,i > 0 ∧ No_abs_i(Ω118) ∧ Ret_i = 1`.
+
+`M_i` designa el anfitrión concreto examinado. `Aloj_i trazable` significa que el alojamiento de la presencia se sitúa en una región reconstruible del anfitrión. `R_Ψ,i > 0` significa que queda residual ultraminoritario después de restar soporte, tabla reconocida, fases, radiogénesis, interferencias y blancos. `No_abs_i(Ω118)` exige no absorción por la tabla reconocida y sus explicaciones ordinarias para ese anfitrión concreto. `Ret_i = 1` significa que el retorno material se conserva con datos suficientes. Si el resultado es `0`, el anfitrión queda descartado para esta ruta. Si el resultado es `U`, el anfitrión queda pendiente de repetición, técnica complementaria o mejor localización.
+
+El cierre de este apartado fija el criterio de selección que gobernará el siguiente tramo. La Ruta 2 no debe elegir anfitriones por espectacularidad, rareza o acumulación elemental. Debe elegirlos por capacidad de alojamiento, localización de `Ψ`, agotamiento de `Ω118`, resistencia a falsas absorciones y retorno material. Con esa regla, las moléculas compuestas y redes minerales anfitrionas no dispersan la investigación; la hacen más fina. El siguiente apartado podrá ordenar dónde y cómo buscar, pero ya no sobre muestras indiferenciadas: sólo sobre anfitriones capaces de sostener la cadena `M_anfitrión : SV-399_Ψ` con trazabilidad suficiente.
+
+
+# 4. Dónde y cómo buscar: prioridad de anfitriones, microfronteras y retorno
+
+La búsqueda de la Ruta 2 no debe comenzar por una muestra completa, sino por una cadena de alojamiento. Primero se declara el anfitrión; después se identifica la región interna que puede alojar la presencia `Ψ`; después se reconstruye la composición ordinaria del soporte; después se aplica la sustracción por `Ω118`; sólo al final se pregunta si queda `SV-399_Ψ` como presencia residual ultraminoritaria. Esta secuencia evita que la complejidad mineral, la abundancia de trazas o la presencia de elementos pesados funcionen como sustitutos del residual. La Ruta 2 no busca más material, sino mejor localización.
+
+El primer lugar de búsqueda lo constituyen anfitriones con continuidad material con la diana SV-399: redes, fases o microdominios donde Tungsteno/Wolframio (W) conserve función de referencia, o donde la vecindad Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr) permita interrogar una diferencia actínico-refractaria. Esa prioridad no convierte a W, U, Th, REE/ETR o Zr en prueba positiva. Sólo los convierte en filtros de orientación. La admisión depende de que el anfitrión conserve una región interna donde `Ψ` pueda situarse sin quedar absorbida por la composición mayoritaria ni por las explicaciones ordinarias del soporte.
+
+Formalmente, el orden de búsqueda puede formularse así:
+
+`Búsqueda_R2(M_i)=1 ⇔ M_i declarado ∧ Región_Ψ,i localizada ∧ Sustracción_i completa ∧ R_Ψ,i > 0 ∧ Ret_i=1`.
+
+En esta expresión, `M_i` designa un anfitrión concreto. `Región_Ψ,i localizada` exige una región interna de alojamiento: defecto, borde, sustitución, inclusión, halo, venilla, zona de reemplazo, microfrontera, tensión local o dominio cristalino trazable. `Sustracción_i completa` significa que el anfitrión, sus fases, su matriz, sus elementos reconocidos, sus interferencias, sus productos radiogénicos, sus blancos y sus explicaciones ordinarias han sido trabajados antes de admitir residual. `R_Ψ,i > 0` significa que queda diferencia ultraminoritaria no absorbida. `Ret_i=1` exige retorno material: la señal debe poder volver a muestra, anfitrión, coordenada, técnica, control y dictamen. Si falta una de estas condiciones, no hay admisión positiva de la búsqueda en ese anfitrión.
+
+La prioridad de anfitriones debe ordenarse por capacidad de decisión, no por espectacularidad mineralógica. Un soporte químicamente complejo puede ser inútil si no permite separar fase, matriz, defecto, blanco e interferencia. Un soporte más sencillo puede ser preferible si conserva frontera clara, señal repetible y sustracción reconstruible. La Ruta 2 debe preferir anfitriones que permitan responder con precisión qué parte de la señal pertenece al soporte ordinario, qué parte queda absorbida por `Ω118` y qué parte permanece como diferencia localizada.
+
+| Prioridad | Dominio material de búsqueda | Pregunta que debe responder | Condición de avance | Salida si falla |
+|---|---|---|---|---|
+| 1 | Redes o fases con Tungsteno/Wolframio (W) y capacidad de frontera interna. | ¿Existe una región donde la referencia W conserve alojamiento posible para `Ψ`? | W localizado, región interna trazable y composición ordinaria reconstruida. | Descarte del anfitrión o paso a control negativo. |
+| 2 | Anfitriones con vecindad Uranio (U), Torio (Th), REE/ETR o Zirconio (Zr). | ¿La vecindad actínico-mineralógica conserva relación con una región de alojamiento? | Co-localización, fase identificada y productos radiogénicos controlados. | Absorción por geoquímica ordinaria, fase accesoria o `U`. |
+| 3 | Microfronteras de alteración, reemplazo, borde, inclusión, halo o venilla. | ¿La transición conserva frontera material y no sólo mezcla ordinaria? | Coordenada, textura, fase y relación con el anfitrión primario. | Descarte por falta de frontera o indeterminación material. |
+| 4 | Defectos cristalinos, sustituciones, vacancias, intersticios o tensiones locales. | ¿El defecto puede alojar una presencia ultraminoritaria sin destruir la red? | Defecto localizado y señal separable de daño, preparación o interferencia. | Absorción por defecto ordinario, preparación o matriz. |
+| 5 | Moléculas compuestas o dominios complejos locales. | ¿El inventario mayoritario enmascara una diferencia no absorbida? | Composición mayoritaria declarada, señal localizada y retorno analítico. | Descarte por promedio, contaminación o falta de región de señal. |
+
+La búsqueda debe ejecutarse por anillos de prioridad. El primer anillo conserva continuidad con el componente refractario de referencia: anfitriones donde Tungsteno/Wolframio (W) tenga presencia estructural, posición de borde, región de sustitución, fase asociada o proximidad mineralógica relevante. El segundo anillo examina vecindades actínicas y de alta capacidad de traza, especialmente cuando U/Th–REE/Zr se presentan en relación espacial con redes resistentes o dominios de transición. El tercer anillo desciende a microfronteras: zonas donde la materia ha cambiado, sustituido, alterado, recristalizado o conservado discontinuidades. El cuarto anillo trabaja defectos y alojamientos internos. El quinto anillo admite moléculas compuestas o dominios locales sólo si conservan una región de retorno suficientemente declarada.
+
+La búsqueda no debe saltar directamente al residual. Debe comenzar por un inventario de anfitriones. Ese inventario debe indicar nombre material ordinario, composición reconocida, fase o red, región interna de interés, razón de admisión, controles previsibles y vía de sustracción. Un anfitrión sin inventario no puede producir candidato, porque no se sabría qué se está restando. La presencia `SV-399_Ψ` sólo puede afirmarse después de agotar el soporte que la aloja. Sin agotamiento del anfitrión, la señal no es residual; es una lectura incompleta.
+
+En lógica formal, la prioridad de un anfitrión puede expresarse mediante una función de admisibilidad:
+
+`P_R2(M_i) = C_W ∨ C_act ∨ C_ZrREE ∨ C_def ∨ C_comp`.
+
+Esta expresión no declara candidato; sólo declara prioridad de examen. El signo `∨` significa disyunción lógica: basta una condición fuerte de orientación para justificar el examen del anfitrión. `C_W` indica continuidad con Tungsteno/Wolframio (W). `C_act` indica vecindad actínica por Uranio (U) o Torio (Th). `C_ZrREE` indica vecindad con Zirconio (Zr) o REE/ETR en red capaz de concentrar trazas. `C_def` indica presencia de defecto, borde, sustitución, microfrontera o discontinuidad interna. `C_comp` indica complejidad molecular o cristalina capaz de alojar una presencia ultraminoritaria. Aunque `P_R2(M_i)=1`, el anfitrión sólo queda priorizado; todavía debe pasar localización, sustracción y retorno.
+
+La búsqueda debe distinguir tres escalas. En la escala macroscópica se selecciona muestra o material. En la escala mesoscópica se identifica anfitrión primario: red mineral, fase, molécula compuesta o dominio cristalino. En la escala microscópica se localiza anfitrión secundario: defecto, borde, inclusión, venilla, halo, sustitución, microfrontera o zona de reemplazo. `SV-399_Ψ` no debe buscarse como promedio de la escala macroscópica. Debe buscarse en la escala microscópica donde el alojamiento pueda conservar frontera y retorno. Esta regla impide que una muestra rica en trazas parezca más relevante que una región pequeña pero mucho mejor trazada.
+
+| Escala | Unidad de trabajo | Función en la búsqueda | Riesgo principal | Control necesario |
+|---|---|---|---|---|
+| Macroscópica | Muestra, lote, roca, concentrado o material compuesto. | Permite selección inicial y cadena de custodia. | Promedio engañoso, mezcla o procedencia insuficiente. | Registro, procedencia, preparación y descarte de mezclas no trazables. |
+| Mesoscópica | Fase, red mineral, molécula compuesta o dominio cristalino. | Declara el anfitrión primario. | Confundir soporte ordinario con residual. | Composición mayoritaria, mineralogía y sustracción del anfitrión. |
+| Microscópica | Defecto, borde, inclusión, microfrontera, halo o sustitución. | Localiza el posible alojamiento `Ψ`. | Señal sin coordenada o fase accesoria mal interpretada. | Mapas, co-localización, blancos, duplicados y control de interferencias. |
+| Residual | Diferencia no absorbida en región localizada. | Decide si existe `SV-399_Ψ` como candidato. | Convertir una anomalía en candidato sin resta completa. | `Ω118`, matriz, radiogénesis, interferencias y retorno material. |
+
+El procedimiento de búsqueda debe seguir una secuencia de cinco pasos. Primero, selección de anfitriones por prioridad material. Segundo, cartografía del anfitrión primario y de sus regiones internas. Tercero, identificación del anfitrión secundario donde pueda alojarse `Ψ`. Cuarto, sustracción del soporte ordinario mediante `Ω118` y controles asociados. Quinto, dictamen por retorno: candidato, descarte o `U` material justificada. Esta secuencia evita que una técnica concreta gobierne la decisión. SEM-BSE/EDS, EPMA-WDS, Raman/XRD, LA-ICP-MS, SIMS, NanoSIMS u otras técnicas pueden intervenir según el caso, pero ninguna reemplaza la cadena de dominio, anfitrión, alojamiento, residual y retorno.
+
+El punto crítico de la Ruta 2 es la microfrontera. La microfrontera no se limita a la frontera mineral de la Ruta 1. Puede ser borde de grano, zona de sustitución, defecto cristalino, discontinuidad composicional, interfaz entre fases, relicto de alteración, dominio de hidratación, recristalización, venilla fina o zona de reemplazo. Lo decisivo no es el nombre geométrico de la frontera, sino su capacidad para conservar una diferencia localizada. Una microfrontera ordinaria queda absorbida por mineralogía o química reconocida. Una microfrontera admisible para Ruta 2 conserva una señal `Ψ` después de restar lo ordinario y permite reconstruir el retorno.
+
+La búsqueda debe evitar falsos anfitriones. Un falso anfitrión es un soporte que parece adecuado por complejidad, por presencia de elementos pesados, por riqueza en trazas o por relación nominal con la diana, pero que no permite alojar una presencia residual con trazabilidad suficiente. También es falso anfitrión una fase que absorbe toda la señal por composición ordinaria, un halo radiogénico explicable, una inclusión accesoria ya reconocida, una contaminación de preparación o una región cuyo mapa no puede alinearse entre técnicas. En todos esos casos, la salida no debe forzarse: descarte si la absorción es completa; `U` si la evidencia no permite decisión honesta.
+
+| Falso anfitrión | Motivo de exclusión | Salida correcta |
+|---|---|---|
+| Muestra compleja sin microdominio definido. | No permite localizar `Ψ`. | Descarte operativo o `U` por falta de región. |
+| Fase rica en elementos pesados pero ordinaria. | La señal queda absorbida por `Ω118` y mineralogía reconocida. | Descarte. |
+| Halo o venilla radiogénica explicable. | La diferencia procede de cadena U/Th o alteración ordinaria. | Absorción radiogénica y descarte. |
+| Defecto cristalino producido por preparación. | La señal deriva de corte, pulido, resina, abrasivo o contaminación. | Repreparación o descarte instrumental. |
+| Co-localización sólo aparente. | Los mapas no conservan coordenada suficiente entre técnicas. | `U` o repetición de cartografía. |
+| Promedio de muestra con traza no localizada. | No hay anfitrión secundario ni frontera de retorno. | No admitir candidato. |
+
+El retorno material de la Ruta 2 exige que cada anfitrión priorizado produzca una ficha de decisión. Esa ficha debe incluir: identificación del anfitrión, composición ordinaria, región interna examinada, razón de prioridad, técnicas aplicadas, elementos absorbidos por `Ω118`, fases accesorias descartadas, interferencias consideradas, estado de blancos y duplicados, valor de `R_Ψ`, dictamen y recomendación. La ficha no es una formalidad. Es el mecanismo que impide que la Ruta 2 se convierta en una búsqueda amplia de indicios. Cada anfitrión examinado debe terminar con una salida material.
+
+Formalmente, la ficha de retorno puede cerrarse mediante esta regla:
+
+`Ficha_R2(M_i) = {M_i, Región_i, Ω118_i, R_Ψ,i, Ret_i, Dictamen_i}`.
+
+`M_i` identifica el anfitrión. `Región_i` identifica el anfitrión secundario o microfrontera. `Ω118_i` recoge lo absorbido por la tabla reconocida y sus explicaciones asociadas. `R_Ψ,i` recoge la diferencia residual ultraminoritaria, si existe. `Ret_i` declara si la señal vuelve a muestra, técnica, control y frontera. `Dictamen_i` sólo puede tomar tres salidas: candidato, descarte o `U`. Esta ficha impide que el criterio de búsqueda dependa de memoria, impresión o acumulación de señales no comparables.
+
+El orden práctico de búsqueda debe comenzar por los anfitriones con mayor continuidad material con la diana y mayor capacidad de retorno. En primer lugar, redes con W y microfronteras asociadas a U/Th–REE/Zr. En segundo lugar, redes con U/Th–REE/Zr capaces de conservar defectos o inclusiones en relación con dominios refractarios. En tercer lugar, bordes y zonas de reemplazo donde la matriz ordinaria haya cambiado sin perder coordenada. En cuarto lugar, moléculas compuestas o dominios complejos donde la presencia ultraminoritaria sólo pueda aparecer como señal subordinada. Este orden no es jerarquía ontológica; es jerarquía de eficiencia material.
+
+La Ruta 2 queda así preparada para el último tramo específico: la bibliografía propia y las fuentes de contraste que sostienen la lectura de persistencia, anfitrión, defecto, red mineral, microfrontera, trazabilidad y residual. El apartado presente no cierra la comparación con la Ruta 1 ni decide presupuestos o recomendación final. Eso corresponde a las Conclusiones. Aquí se fija sólo el método de búsqueda: priorizar anfitriones, bajar a microfronteras, agotar `Ω118`, medir `R_Ψ`, conservar retorno y dictaminar sin forzar el resultado.
+
+# 5. Bibliografía específica de la Ruta 2
+
+La Ruta 2 se apoya en una bibliografía propia porque su pregunta no coincide plenamente con la de la Ruta 1. La Ruta 1 trabaja desde la diana SV-399, la matriz scheelita/wolframita, la microfrontera W–U/Th–REE/Zr y el aislamiento del residual actínico-refractario. La Ruta 2 trabaja desde la persistencia material, la red anfitriona, el alojamiento ultraminoritario `Ψ`, la molécula compuesta, el defecto, la sustitución, la inclusión y la no absorción por `Ω118`. Por tanto, sus fuentes no deben duplicar mecánicamente la bibliografía de la Ruta 1, sino sostener la segunda vía de lectura: cómo una presencia material residual puede quedar alojada, conservada y devuelta por un anfitrión compuesto sin ocupar el lugar de elemento ordinario reconocido ni de fase mineral mayoritaria.
+
+La bibliografía específica de la Ruta 2 se organiza en tres grupos. El primer grupo corresponde a los fundamentos SV que gobiernan persistencia, tránsito entre dominios, edad relativa del universo observable, origen material ordinario, hidrógeno como primer régimen discreto conocido de persistencia energética estructural y separación entre totalidad, dominio físico y observable retornado. El segundo grupo corresponde a los bancos externos de contraste mineralógico y geoquímico: sustitución, defectos cristalinos, inclusiones, fases accesorias, redes anfitrionas, trazas, tierras raras, Uranio (U), Torio (Th), Zirconio (Zr), monacita, xenotima, circón, minerales refractarios y microanálisis. El tercer grupo corresponde a técnicas de retorno: cartografía de trazas, LA-ICP-MS, EPMA-WDS, SEM-BSE/EDS, Raman/XRD, SIMS, NanoSIMS, controles de matriz, blancos, duplicados y reconstrucción espacial.
+
+Formalmente, la función de esta bibliografía puede expresarse así:
+
+`Bib_R2 = Bib_SV(persistencia, tránsito, H–He, observable, frontera) ∧ Bib_ext(anfitrión, defecto, inclusión, traza, red mineral) ∧ Bib_met(retorno, mapa, co-localización, sustracción)`.
+
+En esta expresión, `Bib_R2` designa la bibliografía específica de la Ruta 2. `Bib_SV` agrupa las fuentes internas que fundamentan por qué una presencia residual no debe tratarse como sustancia aislada, sino como retorno material bajo dominio, frontera, traza y residual. `Bib_ext` agrupa las fuentes externas que permiten contrastar la existencia de alojamiento mineral, sustitución, inclusiones, defectos, fases accesorias y distribución de trazas en redes reales. `Bib_met` agrupa las fuentes metodológicas que permiten medir, mapear, repetir y reconstruir el retorno. La conjunción `∧` indica que los tres grupos son necesarios: sin fundamentos SV, la Ruta 2 quedaría como geoquímica ordinaria; sin banco externo, perdería superficie de contraste; sin metodología de retorno, no podría distinguir `SV-399_Ψ` de una anomalía no trazada.
+
+## 5.1. Fundamentos SV aplicados a la Ruta 2
+
+Los fundamentos SV de la Ruta 2 no autorizan una lectura abstracta de `SV-399_Ψ`. Al contrario, obligan a mantener dominio, frontera, alojamiento, residual y retorno. La génesis del Hidrógeno (H), la persistencia energética estructural y el origen material ordinario del universo observable permiten formular que el soporte material no es una colección de elementos aislados, sino una cadena de persistencias, transformaciones, condensaciones, redes, moléculas, defectos y fronteras donde una presencia residual ultraminoritaria puede quedar alojada sin convertirse en componente mayoritario. La edad relativa del universo observable fija que el retorno pertenece a observables físicos, no a totalidad absoluta. La imperfección preformal y espacio fija que ninguna magnitud material debe confundirse con fundamento último.
+
+| Fuente SV | Función dentro de la Ruta 2 | Uso permitido | Uso excluido |
+|---|---|---|---|
+| Génesis del Hidrógeno y teoría de la persistencia energética estructural. | Fija Hidrógeno (H), frontera, residual, masa, identidad física y persistencia como régimen material de arranque. | Gobernar la continuidad desde H–He hacia moléculas, redes y anfitriones. | Convertir Hidrógeno (H) en fundamento absoluto o en causa única de `SV-399_Ψ`. |
+| El origen material ordinario del Universo observable. | Ordena el tránsito por dominios materiales y la continuidad H–He de la materia ordinaria. | Sostener la genealogía material de anfitriones terrestres. | Sustituir la búsqueda de `Ψ` por relato cosmológico general. |
+| Edades relativas del universo observable y de sus objetos físicos. | Delimita edad, retorno y observable físico con firma persistente. | Situar la cadena material en observables retornados. | Convertir edad del universo en prueba directa de SV-399. |
+| Imperfección preformal y espacio. | Separa borde preformal, dominio físico, espacio y observables. | Evitar que `Ψ` sea tratado como origen absoluto o entidad metafísica. | Usar `ε₋₀` o `ε` como fracción ultraminoritaria. |
+| Primitivos metrológicos del Sistema Vectorial SV. | Ordena unidad, transducción, residual, dictamen y retorno. | Exigir que cualquier magnitud externa entre por transducción. | Interiorizar unidades externas sin dominio ni residual. |
+| Tabla periódica estructural extendida del dominio térmico `K_Θ`. | Sitúa SV-399 dentro de la arquitectura estructural extendida y su dominio térmico. | Conservar la conexión entre SV-399 y materiales extremos. | Confundir `Z_SV` o `Θ_max` con magnitudes IUPAC o punto experimental ya medido. |
+
+En lógica formal, la Ruta 2 sólo puede apoyarse en estos fundamentos si conserva la subordinación material de cada símbolo:
+
+`SV-399_Ψ admisible ⇒ Dominio físico realizado ∧ anfitrión declarado ∧ región localizada ∧ Ω118 agotado ∧ retorno material`.
+
+Esta implicación evita que `SV-399_Ψ` sea interpretado como nombre libre, traza genérica o hipótesis sin sede. `SV-399_Ψ` exige dominio físico realizado; `M_anfitrión` exige soporte material ordinario; la región localizada exige microfrontera, defecto, inclusión o alojamiento; `Ω118 agotado` exige que la tabla reconocida y sus explicaciones ordinarias hayan sido restadas; el retorno material exige que la diferencia vuelva a muestra, técnica, coordenada, control y dictamen.
+
+## 5.2. Bancos externos de contraste para anfitriones, defectos e inclusiones
+
+Las fuentes externas de contraste no fundan la Ruta 2, pero permiten que su búsqueda material no quede aislada del conocimiento mineralógico y geoquímico disponible. La química cristalina, la geoquímica de trazas y la mineralogía de fases accesorias muestran que los elementos no siempre aparecen como fases mayoritarias visibles. Pueden alojarse por sustitución, defecto, inclusión, borde de grano, halo, venilla, reemplazo, zona de alteración, estructura cristalina flexible o fase accesoria ultraminoritaria. Esa superficie externa de contraste es relevante para `SV-399_Ψ`, porque la Ruta 2 busca precisamente una presencia ultraminoritaria alojada en anfitrión, no una sustancia aislada ni una fase macroscópica.
+
+| Banco externo | Función de contraste | Relación con Ruta 2 |
+|---|---|---|
+| Química cristalina y sustitución elemental. | Muestra cómo una red puede aceptar, rechazar o redistribuir cationes y trazas. | Permite formular `M_anfitrión : SV-399_Ψ` como alojamiento, no como mezcla. |
+| Defectos cristalinos y vacantes. | Explica cómo discontinuidades internas pueden alojar o concentrar trazas. | Permite buscar `Ψ` en defectos, no sólo en fases visibles. |
+| Inclusiones minerales. | Muestra que sólidos, fluidos o fases accesorias pueden quedar atrapados en anfitriones. | Permite distinguir alojamiento real de contaminación o fase externa. |
+| Fases accesorias REE–Y–Th–U. | Sitúa monacita, xenotima, circón y minerales afines como posibles concentradores ordinarios. | Obliga a agotar explicaciones ordinarias antes de admitir `SV-399_Ψ`. |
+| Procesos de reemplazo mineral. | Muestra que trazas y fluidos pueden gobernar texturas, sustituciones y redistribuciones. | Permite priorizar bordes, halos, venillas y zonas de reemplazo. |
+| Mineralogía de W, Zr, U, Th y REE/ETR. | Delimita anfitriones con continuidad material con Ruta 1 y con la genealogía de la diana. | Permite jerarquizar redes minerales y excluir soportes sin retorno. |
+
+El uso de estos bancos externos debe ser restrictivo. No basta que una fuente externa demuestre que un mineral puede alojar trazas para declarar `SV-399_Ψ`. Tampoco basta que una fase accesoria concentre Uranio (U), Torio (Th), REE/ETR o Zirconio (Zr). Esos hechos sólo habilitan superficie de búsqueda. La admisión de `SV-399_Ψ` exige que, después de aplicar `Ω118`, radiogénesis, interferencias, matriz y fase accesoria, permanezca una diferencia residual localizada y repetible.
+
+## 5.3. Fuentes metodológicas para retorno, cartografía y sustracción
+
+La Ruta 2 depende de una metodología capaz de distinguir alojamiento real, señal ordinaria, interferencia, matriz y residual. Por eso sus fuentes metodológicas deben cubrir cartografía de trazas, microanálisis, mapas elementales, co-localización, preparación de muestras, blancos, duplicados, controles de matriz y repetición. La medición de `SV-399_Ψ` no puede formularse como lectura global de muestra. Debe bajar a región, anfitrión secundario, coordenada y retorno.
+
+| Técnica o metodología | Función en Ruta 2 | Riesgo que controla |
+|---|---|---|
+| SEM-BSE/EDS. | Localiza textura, fases, inclusiones, bordes y discontinuidades. | Confundir fase accesoria o contaminación con anfitrión secundario. |
+| EPMA-WDS. | Afina composición mayoritaria y minoritaria del anfitrión. | Atribuir a `Ψ` una variación ordinaria de red. |
+| Raman/XRD. | Confirma fase, estructura y mineralogía del soporte. | Trabajar sobre anfitrión mal identificado. |
+| LA-ICP-MS. | Cartografía trazas y perfiles de co-localización. | Perder coordenada o aceptar promedio de muestra. |
+| SIMS/NanoSIMS. | Aumenta resolución espacial en alojamientos ultraminoritarios. | No resolver defectos, bordes o inclusiones finas. |
+| Blancos y duplicados. | Controlan preparación, memoria instrumental y repetición. | Convertir artefacto en señal. |
+| Matriz de sustracción `Ω118`. | Resta elementos reconocidos y explicaciones ordinarias. | Elevar anomalía absorbible a candidato. |
+
+La metodología debe cerrar cada caso mediante una salida declarada. Un anfitrión que no devuelve diferencia tras la resta se descarta. Un anfitrión que devuelve señal no resuelta queda en `U`. Un anfitrión que conserva `R_Ψ > 0`, región, co-localización, repetición y no absorción por `Ω118` puede abrir candidato de Ruta 2. No hay cuarta salida.
+
+Formalmente, la regla metodológica queda así:
+
+`Dictamen_R2(M_i) ∈ {candidato, descarte, U}`.
+
+`M_i` designa el anfitrión examinado. `Dictamen_R2(M_i)` designa la salida material de la Ruta 2 para ese anfitrión. La pertenencia al conjunto `{candidato, descarte, U}` impide convertir la bibliografía, los mapas o las trazas en relato abierto. Cada anfitrión termina en una decisión.
+
+## 5.4. Bibliografía específica de trabajo para la Ruta 2
+
+La bibliografía específica de la Ruta 2 queda fijada como bibliografía de trabajo subordinada a dominio, transducción, residual y retorno. Las referencias SV gobiernan la arquitectura interna. Las fuentes externas sólo aportan contraste técnico sobre redes, anfitriones, trazas, inclusiones, defectos y técnicas de medición. Ninguna fuente externa decide por sí misma la admisibilidad de `SV-399_Ψ`; ninguna fuente SV sustituye el retorno material. La Ruta 2 sólo se sostiene cuando ambas capas se encuentran bajo control de residual.
+
+### Fundamentos SV
+
+Lloret Egea, J. A. (2026). *Génesis del hidrógeno y teoría de la persistencia energética estructural: masa, frontera, residual e identidad física bajo compatibilidad operatoria universal*. IA eñ™ — La Biblia de la IA™.
+
+Lloret Egea, J. A. (2026). *El origen material ordinario del Universo observable y la relación entre física contemporánea y el SV en el tránsito por dominios: errores de plano, contraste entre aparatos y continuidad H–He de la materia ordinaria*. IA eñ™ — La Biblia de la IA™.
+
+Lloret Egea, J. A. (2026). *Edades relativas del universo observable y de sus objetos físicos*. IA eñ™ — La Biblia de la IA™.
+
+Lloret Egea, J. A. (2026). *Imperfección preformal y espacio*. IA eñ™ — La Biblia de la IA™.
+
+Lloret Egea, J. A. (2026). *Primitivos metrológicos del Sistema Vectorial SV: instanciaciones contingentes de las constantes fundacionales del Sistema Internacional, justificación algebraica y tabla de equivalencias factuales*. IA eñ™ — La Biblia de la IA™.
+
+Lloret Egea, J. A. (2026). *Tabla periódica estructural extendida del dominio térmico K_Θ: materiales por encima de 4.500 °C*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español.
+
+### Fuentes externas de contraste mineralógico, geoquímico y metodológico
+
+Bomal, F., Verstraeten, A., Tack, L., & Harlaux, M. (2025). Crystal chemistry and trace-element behaviour in tourmalines from the Gatumba area, Rwanda: Implications for the evolution of Nb–Ta–Sn mineralized pegmatites. *European Journal of Mineralogy, 37*, 709–735.
+
+Goldstein, J. I., Newbury, D. E., Michael, J. R., Ritchie, N. W. M., Scott, J. H. J., & Joy, D. C. (2018). *Scanning electron microscopy and X-ray microanalysis* (4.ª ed.). Springer.
+
+Liu, Y., Hu, Z., Li, M., & Gao, S. (2013). Applications of LA-ICP-MS in the elemental analyses of geological samples. *Chinese Science Bulletin, 58*, 3863–3878.
+
+Raimondo, T., Payne, J., Wade, B., Lanari, P., Clark, C., & Hand, M. (2017). Trace element mapping by LA-ICP-MS: Assessing geochemical mobility in garnet. *Contributions to Mineralogy and Petrology, 172*, 17.
+
+Reed, S. J. B. (2005). *Electron microprobe analysis and scanning electron microscopy in geology* (2.ª ed.). Cambridge University Press.
+
+Sylvester, P. J. (Ed.). (2008). *Laser ablation ICP-MS in the Earth sciences: Current practices and outstanding issues* (Short Course Series, Vol. 40). Mineralogical Association of Canada.
+
+Walter, M. J., Bulanova, G. P., Armstrong, L. S., Keshav, S., Blundy, J. D., Gudfinnsson, G., Lord, O. T., Lennie, A. R., Clark, S. M., Smith, C. B., & Gobbo, L. (2022). Geochemistry of silicate and oxide inclusions in sublithospheric diamonds. *Reviews in Mineralogy and Geochemistry, 88*, 393–450.
+
+Xing, Y., Brugger, J., Tomkins, A. G., Shvarov, Y., & Pearce, M. A. (2021). Trace element catalyses mineral replacement reactions and increases metal mobility. *Nature Communications, 12*, 1190.
+
+Zeh, A., Gerdes, A., & Barton, J. M. (2025). Authigenic growth of monazite, xenotime, rutile and zircon by dissolution-reprecipitation processes. *Contributions to Mineralogy and Petrology, 180*, 36.
+
+El cierre bibliográfico de la Ruta 2 queda en una regla simple: las fuentes no sustituyen el dictamen. Las fuentes SV fijan dominio y forma de lectura; las fuentes externas fijan bancos de contraste; las técnicas fijan retorno. Sólo la señal residual localizada, no absorbida y repetible puede convertir la Ruta 2 en candidato. La bibliografía no decide; permite que la decisión sea materialmente reconstruible.
+
 # Conclusiones. Comparación operativa entre Ruta 1 y Ruta 2: alcance, coste, tiempo, ventajas, límites y recomendación final
+La comparación entre Ruta 1 y Ruta 2 debe leerse como comparación entre dos accesos internos al mismo problema material. La Ruta 1 trabaja desde la diana SV-399 ya definida en el dominio SV y desciende hacia una matriz mineralógica cerrada: scheelita, wolframita, microfronteras W–U/Th–REE/Zr, sustracción `Ω118`, residual actínico-refractario y dictamen. La Ruta 2 trabaja desde la persistencia material y asciende desde moléculas compuestas, redes anfitrionas, defectos, inclusiones, bordes, sustituciones y alojamientos ultraminoritarios hacia la posible presencia `SV-399_Ψ`. Las dos rutas no se sustituyen, no se subordinan y no dividen la obra en momentos editoriales. Constituyen dos procedimientos convergentes: uno parte de la diana y cierra el lugar material de contraste; el otro parte del alojamiento y busca dónde puede conservarse la presencia residual ultraminoritaria.
+
+El término `SV-399_Ψ` designa SV-399 como presencia residual ultraminoritaria alojada en un anfitrión material. El símbolo `Ψ` no significa probabilidad, no significa indeterminación `U`, no significa fracción estequiométrica y no significa mezcla. Designa una presencia residual ultraminoritaria que sólo puede admitirse si queda localizada, trazada, repetida y no absorbida por `Ω118`. El término `M_anfitrión` designa la molécula compuesta, red mineral o soporte material ordinario que puede alojar esa presencia. Por tanto, la comparación no enfrenta una vía principal contra una vía secundaria. Contrasta dos formas de retorno: retorno por microfrontera actínico-refractaria y retorno por alojamiento ultraminoritario en anfitrión.
+
+## Alcance comparado de las dos rutas
+
+La Ruta 1 ofrece mayor cierre inicial porque declara de entrada la diana, la matriz y la microfrontera. Su pregunta es estrecha: si en scheelita o wolframita, dentro de microdominios W–U/Th–REE/Zr, queda un residual actínico-refractario no absorbible por la tabla reconocida. Ese cierre reduce dispersión, facilita presupuesto, permite control radiológico directo, ordena la instrumentación y produce dictamen con menor ambigüedad material.
+
+La Ruta 2 ofrece mayor profundidad de localización porque no presupone que la presencia residual deba aparecer sólo como residual actínico-refractario directo en la matriz principal. Su pregunta es distinta: si `SV-399_Ψ` puede conservarse alojado en moléculas compuestas, redes minerales anfitrionas, defectos, inclusiones, sustituciones, bordes o microfronteras secundarias derivadas de la genealogía material. Ese alcance aumenta la capacidad de encontrar presencias ultraminoritarias que la Ruta 1 podría no seleccionar como primera diana, pero exige más disciplina de filtrado, porque el número de anfitriones posibles aumenta y con él aumentan también los falsos positivos.
+
+| Criterio | Ruta 1 | Ruta 2 |
+|---|---|---|
+| Pregunta rectora | ¿Existe residual actínico-refractario SV-399 en microfronteras de scheelita/wolframita? | ¿Dónde puede alojarse `SV-399_Ψ` como presencia residual ultraminoritaria en anfitriones compuestos? |
+| Punto de partida | Diana SV-399 definida por `Ac+3Og+W`. | Persistencia material, red anfitriona y alojamiento `Ψ`. |
+| Soporte material inicial | Scheelita, wolframita y microdominios W–U/Th–REE/Zr. | Moléculas compuestas, redes minerales, defectos, inclusiones, bordes y sustituciones. |
+| Riesgo principal | No mirar fuera de la matriz inicial si el residual está alojado en otro anfitrión. | Abrir demasiado el campo y confundir trazas ordinarias con `SV-399_Ψ`. |
+| Fortaleza principal | Cierre instrumental inmediato y diana mineralógica fuerte. | Profundidad de localización y reducción de puntos ciegos de alojamiento. |
+| Dictamen esperado | Candidato, descarte o `U` por microdominio. | Candidato, descarte o `U` por anfitrión y región interna. |
+
+## Coste y tiempo comparados
+
+La Ruta 1 tiene un piloto recomendado de 120.000 €, con horquilla admisible de 90.000–140.000 €, y un calendario de 16 semanas. Si el piloto devuelve candidato o `U` material justificada con residual persistente, la confirmación condicionada se sitúa entre 120.000 € y 220.000 €, de modo que el programa piloto más confirmación queda entre 210.000 € y 360.000 €. Esta ruta concentra el gasto en muestra, microfrontera, técnicas de primera línea, sustracción `Ω118`, control NORM y dictamen.
+
+La Ruta 2 exige una estructura económica distinta. Su piloto se reparte entre selección de anfitriones, preselección de microdominios secundarios, cartografía de alojamiento, lectura de trazas y decisión por `R_Ψ`. La horquilla piloto admisible se sitúa entre 90.000 € y 192.000 €, con una duración de 12 a 17 semanas. La confirmación condicionada añade 90.000–160.000 € y 10 a 12 semanas, de modo que el recorrido completo de Ruta 2 queda entre 180.000 € y 352.000 €, con duración total de 22 a 29 semanas. La Ruta 2 puede ser más eficiente si encuentra pronto anfitriones fuertes, pero puede encarecerse si la búsqueda de alojamiento se dispersa.
+
+| Configuración operativa | Tiempo piloto | Coste piloto | Tiempo con confirmación condicionada | Coste total con confirmación condicionada |
+|---|---:|---:|---:|---:|
+| Ruta 1 | 16 semanas | 90.000–140.000 € | 24–30 semanas | 210.000–360.000 € |
+| Ruta 2 | 12–17 semanas | 90.000–192.000 € | 22–29 semanas | 180.000–352.000 € |
+| Ruta 1 + Ruta 2 en paralelo integrado | 18–20 semanas | 170.000–300.000 € | 28–36 semanas | 350.000–600.000 € |
+| Ruta 1 + Ruta 2 sin integración | 16–20 semanas para piloto, con duplicidades | 180.000–332.000 € para piloto | 30–38 semanas | 390.000–712.000 € |
+
+La opción sin integración no es recomendable. Duplica preparación, gestión de muestras, controles, cartografía, análisis de trazas, blancos, duplicados, sustracción y dictamen. En cambio, la ejecución en paralelo integrado aprovecha una misma cadena de custodia, una misma base de cartografía, un mismo control NORM y una misma matriz de sustracción. La Ruta 1 conserva la diana de microfrontera; la Ruta 2 usa esa información para buscar alojamiento `Ψ` sin rehacer todo el ensayo desde cero.
+
+## Ventajas y límites de la Ruta 1
+
+La ventaja principal de la Ruta 1 es su precisión. La diana `Ac+3Og+W`, la matriz scheelita/wolframita, la referencia Tungsteno/Wolframio (W), la ventana U/Th–REE/Zr, la sustracción `Ω118` y el protocolo de 16 semanas permiten ejecutar una prueba cerrada, financiable y auditable. La Ruta 1 reduce el espacio de interpretación y permite fallar con limpieza: si no hay microfrontera, si `Ω118` absorbe la señal, si la co-localización falla o si el control NORM no es admisible, el dictamen se cierra sin necesidad de extender la búsqueda.
+
+Su límite principal es que el cierre que la hace fuerte también puede dejar fuera alojamientos ultraminoritarios no situados en la primera matriz declarada. Si `SV-399_Ψ` se conserva como presencia residual subordinada en otra red anfitriona, en un defecto, en una inclusión secundaria o en una molécula compuesta que no aparezca como microfrontera W–U/Th–REE/Zr primaria, la Ruta 1 puede no captarla en el primer recorrido. Ese límite no invalida la ruta. Sólo indica que su potencia es máxima cuando el residual se expresa como microfrontera actínico-refractaria directa.
+
+## Ventajas y límites de la Ruta 2
+
+La ventaja principal de la Ruta 2 es su capacidad de localización fina. Permite buscar `SV-399_Ψ` donde una presencia ultraminoritaria puede quedar conservada sin aparecer como fase mayoritaria ni como residual directo de la matriz principal. Esta ruta es especialmente valiosa si el retorno material se aloja en redes minerales complejas, moléculas compuestas, defectos cristalinos, inclusiones, bordes, sustituciones o microfronteras secundarias. También mejora la lectura genealógica de la diana, porque conecta el problema SV-399 con persistencia material, tránsito H–He, historia solar-terrestre, condensación mineral y redes anfitrionas.
+
+Su límite principal es la amplitud. Cuantos más anfitriones se admiten, mayor es el riesgo de falsos positivos: trazas ordinarias, fases accesorias, halos radiogénicos, inclusiones reconocidas, defectos de preparación, co-localización aparente o señales absorbibles por `Ω118`. Por eso la Ruta 2 exige una disciplina especial: cada anfitrión debe terminar en ficha de retorno, cada señal debe bajar a región localizada y cada diferencia debe medirse como `R_Ψ`. Sin esa ficha, la Ruta 2 se convertiría en búsqueda amplia de indicios y perdería su fuerza.
+
+## Comparación de salidas y valor científico
+
+Las dos rutas comparten una misma disciplina de salida: candidato, descarte o `U`. Sin embargo, el objeto de decisión no es idéntico. La Ruta 1 decide por microdominio actínico-refractario en matriz W. La Ruta 2 decide por anfitrión y región interna de alojamiento. En la Ruta 1, el residual se formula como `R118 > 0` en microfrontera W–U/Th–REE/Zr. En la Ruta 2, el residual se formula como `R_Ψ > 0` en `M_anfitrión : SV-399_Ψ`. En ambas, la señal debe resistir `Ω118`, interferencias, matriz, blancos, duplicados y retorno.
+
+Formalmente, la comparación puede formularse así:
+
+`Ruta_1 ⇔ SV-399 ∧ matriz_W ∧ microfrontera_UThREEZr ∧ R118>0 ∧ retorno`.
+
+`Ruta_2 ⇔ M_anfitrión : SV-399_Ψ ∧ región_localizada ∧ R_Ψ>0 ∧ Ω118 agotado ∧ retorno`.
+
+En la primera expresión, `Ruta_1` designa la vía de determinación por diana directa; `matriz_W` designa scheelita/wolframita o matriz con referencia Tungsteno/Wolframio (W); `microfrontera_UThREEZr` designa el cruce material W–U/Th–REE/Zr; `R118>0` designa residual no absorbido por la tabla reconocida; `retorno` exige reconstrucción por muestra, técnica, control y dictamen. En la segunda expresión, `Ruta_2` designa la vía de alojamiento; `M_anfitrión : SV-399_Ψ` designa la presencia ultraminoritaria alojada; `región_localizada` designa defecto, borde, inclusión, red, sustitución o microfrontera secundaria; `R_Ψ>0` designa residual ultraminoritario persistente; `Ω118 agotado` exige que la tabla reconocida y sus explicaciones ordinarias no absorban la señal; `retorno` conserva la misma exigencia de trazabilidad material.
+
+## Recomendación operativa final
+
+La recomendación final es ejecutar ambas rutas de forma integrada cuando el presupuesto lo permita. La integración no significa mezclar los dictámenes ni duplicar el trabajo. Significa construir una única cadena material de muestras, trazabilidad, cartografía, controles, blancos, duplicados, sustracción y retorno, con dos lecturas internas: Ruta 1 para microfrontera actínico-refractaria y Ruta 2 para alojamiento `SV-399_Ψ`. Esta opción tiene mayor coste inicial que una ruta aislada, pero reduce duplicidades, mejora la cobertura material y disminuye el riesgo de no mirar en el lugar adecuado.
+
+Si debe elegirse una sola vía inicial, la Ruta 1 conserva prioridad operativa por cierre instrumental inmediato. Tiene matriz declarada, protocolo de 16 semanas, coste más acotado y dictamen directo sobre la diana. Es la vía más adecuada cuando el objetivo principal es producir una primera prueba financiable, auditable y estrictamente delimitada. La Ruta 2 conserva prioridad cuando la pregunta dominante sea localizar alojamiento residual ultraminoritario, reducir puntos ciegos de búsqueda o preparar una campaña de anfitriones con mayor profundidad genealógica y mineralógica.
+
+La decisión recomendada puede expresarse mediante una regla material:
+
+`Prioridad_operativa = Ruta_1` cuando el presupuesto sólo permite un piloto inicial cerrado.
+
+`Prioridad_integrada = Ruta_1 ∧ Ruta_2` cuando el presupuesto permite cubrir diana directa y alojamiento ultraminoritario sin duplicar cadena analítica.
+
+`Ruta_2 prioritaria` cuando exista evidencia previa de anfitrión fuerte, defecto localizado o presencia `Ψ` no capturable por la microfrontera principal.
+
+Estas reglas no son jerarquías ontológicas. Son criterios de ejecución. La Ruta 1 no es más verdadera que la Ruta 2; la Ruta 2 no sustituye a la Ruta 1. La primera reduce dispersión; la segunda aumenta profundidad. La ejecución integrada conserva ambas ventajas: una diana cerrada y una búsqueda fina de alojamiento.
+
+## Cierre
+
+La obra queda articulada como una investigación única con dos rutas convergentes. La Ruta 1 determina si SV-399 retorna como residual actínico-refractario en microfronteras de scheelita y wolframita. La Ruta 2 determina si `SV-399_Ψ` retorna como presencia residual ultraminoritaria alojada en moléculas compuestas y redes minerales anfitrionas. Las Conclusiones no convierten una ruta en complemento menor ni en sustitución de la otra; fijan el uso correcto de ambas: Ruta 1 para cierre directo, Ruta 2 para localización profunda, ejecución integrada cuando el presupuesto lo permita, y dictamen siempre subordinado a dominio, microfrontera, anfitrión, sustracción, residual y retorno.
+
+El resultado final conserva tres salidas para cada ruta: candidato, descarte o `U`. Si la señal se localiza, persiste, resiste `Ω118` y retorna con trazabilidad suficiente, se formula candidato bajo protocolo. Si queda absorbida por química reconocida, matriz, radiogénesis, fase accesoria o interferencia, se descarta. Si no puede decidirse con honestidad material, se conserva `U` y se ordena repetición o confirmación condicionada. Esa disciplina es común a ambas rutas y constituye la garantía principal del trabajo: no afirmar lo no retornado, no descartar lo no agotado y no confundir una presencia ultraminoritaria con una sustancia ordinaria aislada.
