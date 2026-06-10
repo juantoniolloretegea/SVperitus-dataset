@@ -4290,37 +4290,39 @@ La bibliografía específica de la Ruta 2 queda fijada como bibliografía de tra
 
 ### Fundamentos SV
 
-Lloret Egea, J. A. (2026). *Génesis del hidrógeno y teoría de la persistencia energética estructural: masa, frontera, residual e identidad física bajo compatibilidad operatoria universal*. IA eñ™ — La Biblia de la IA™.
+Lloret Egea, J. A. (2026). *Génesis del hidrógeno y teoría de la persistencia energética estructural: masa, frontera, residual e identidad física bajo compatibilidad operatoria universal*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.17613/qq4q9-sd847
 
-Lloret Egea, J. A. (2026). *El origen material ordinario del Universo observable y la relación entre física contemporánea y el SV en el tránsito por dominios: errores de plano, contraste entre aparatos y continuidad H–He de la materia ordinaria*. IA eñ™ — La Biblia de la IA™.
+Lloret Egea, J. A. (2026). *El origen material ordinario del Universo observable y la relación entre física contemporánea y el SV en el tránsito por dominios: errores de plano, contraste entre aparatos y continuidad H–He de la materia ordinaria*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.90fce13d
 
-Lloret Egea, J. A. (2026). *Edades relativas del universo observable y de sus objetos físicos*. IA eñ™ — La Biblia de la IA™.
+Lloret Egea, J. A. (2026). *Edades relativas del universo observable y de sus objetos físicos*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.b56ed853
 
-Lloret Egea, J. A. (2026). *Imperfección preformal y espacio*. IA eñ™ — La Biblia de la IA™.
+Lloret Egea, J. A. (2026). *Imperfección preformal y espacio: ε₋₀, primera distinguibilidad y dominio estructural completo de separación factual recorrible*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.9c57c046
 
-Lloret Egea, J. A. (2026). *Primitivos metrológicos del Sistema Vectorial SV: instanciaciones contingentes de las constantes fundacionales del Sistema Internacional, justificación algebraica y tabla de equivalencias factuales*. IA eñ™ — La Biblia de la IA™.
+Lloret Egea, J. A. (2026). *Primitivos metrológicos del Sistema Vectorial SV: instanciaciones contingentes de las constantes fundacionales del Sistema Internacional, justificación algebraica y tabla de equivalencias factuales*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.c8ec692e
 
-Lloret Egea, J. A. (2026). *Tabla periódica estructural extendida del dominio térmico K_Θ: materiales por encima de 4.500 °C*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español.
+Lloret Egea, J. A. (2026). *Tabla periódica estructural extendida del dominio térmico K_Θ: materiales por encima de 4.500 °C, columna 119/280/443 y retorno transductivo no subordinado*. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español. https://doi.org/10.21428/39829d0b.5fd2b270
 
-### Fuentes externas de contraste mineralógico, geoquímico y metodológico
 
-Bomal, F., Verstraeten, A., Tack, L., & Harlaux, M. (2025). Crystal chemistry and trace-element behaviour in tourmalines from the Gatumba area, Rwanda: Implications for the evolution of Nb–Ta–Sn mineralized pegmatites. *European Journal of Mineralogy, 37*, 709–735.
+## Fuentes externas de contraste mineralógico, geoquímico y metodológico
 
-Goldstein, J. I., Newbury, D. E., Michael, J. R., Ritchie, N. W. M., Scott, J. H. J., & Joy, D. C. (2018). *Scanning electron microscopy and X-ray microanalysis* (4.ª ed.). Springer.
+Bomal, F., Hatert, F., Philippo, S., Guennou, M., Depret, M., Wang, H., Lefèvre, P., & Erambert, M. (2025). *Crystal chemistry and trace-element behaviour in tourmalines from Minas Gerais, Brazil*. European Journal of Mineralogy, 37, 709–731. https://doi.org/10.5194/ejm-37-709-2025
 
-Liu, Y., Hu, Z., Li, M., & Gao, S. (2013). Applications of LA-ICP-MS in the elemental analyses of geological samples. *Chinese Science Bulletin, 58*, 3863–3878.
+Goldstein, J. I., Newbury, D. E., Michael, J. R., Ritchie, N. W. M., Scott, J. H. J., & Joy, D. C. (2018). *Scanning electron microscopy and X-ray microanalysis* (4.ª ed.). Springer. https://doi.org/10.1007/978-1-4939-6676-9
 
-Raimondo, T., Payne, J., Wade, B., Lanari, P., Clark, C., & Hand, M. (2017). Trace element mapping by LA-ICP-MS: Assessing geochemical mobility in garnet. *Contributions to Mineralogy and Petrology, 172*, 17.
+Liu, Y., Hu, Z., Li, M., & Gao, S. (2013). Applications of LA-ICP-MS in the elemental analyses of geological samples. *Chinese Science Bulletin, 58*, 3863–3878. https://doi.org/10.1007/s11434-013-5901-4
 
-Reed, S. J. B. (2005). *Electron microprobe analysis and scanning electron microscopy in geology* (2.ª ed.). Cambridge University Press.
+Raimondo, T., Payne, J., Wade, B., Lanari, P., Clark, C., & Hand, M. (2017). Trace element mapping by LA-ICP-MS: Assessing geochemical mobility in garnet. *Contributions to Mineralogy and Petrology, 172*, 17. https://doi.org/10.1007/s00410-017-1339-z
 
-Sylvester, P. J. (Ed.). (2008). *Laser ablation ICP-MS in the Earth sciences: Current practices and outstanding issues* (Short Course Series, Vol. 40). Mineralogical Association of Canada.
+Reed, S. J. B. (2005). *Electron microprobe analysis and scanning electron microscopy in geology* (2.ª ed.). Cambridge University Press. https://doi.org/10.1017/CBO9780511610561
 
-Walter, M. J., Bulanova, G. P., Armstrong, L. S., Keshav, S., Blundy, J. D., Gudfinnsson, G., Lord, O. T., Lennie, A. R., Clark, S. M., Smith, C. B., & Gobbo, L. (2022). Geochemistry of silicate and oxide inclusions in sublithospheric diamonds. *Reviews in Mineralogy and Geochemistry, 88*, 393–450.
+Sylvester, P. J. (Ed.). (2008). *Laser ablation ICP-MS in the Earth sciences: Current practices and outstanding issues* (Short Course Series, Vol. 40). Mineralogical Association of Canada. https://doi.org/10.3749/9780921294801
 
-Xing, Y., Brugger, J., Tomkins, A. G., Shvarov, Y., & Pearce, M. A. (2021). Trace element catalyses mineral replacement reactions and increases metal mobility. *Nature Communications, 12*, 1190.
+Walter, M. J., Thomson, A. R., & Smith, E. M. (2022). Geochemistry of silicate and oxide inclusions in sublithospheric diamonds. *Reviews in Mineralogy and Geochemistry, 88*, 393–450. https://doi.org/10.2138/rmg.2022.88.07
 
-Zeh, A., Gerdes, A., & Barton, J. M. (2025). Authigenic growth of monazite, xenotime, rutile and zircon by dissolution-reprecipitation processes. *Contributions to Mineralogy and Petrology, 180*, 36.
+Xing, Y., Brugger, J., Etschmann, B., Tomkins, A. G., Frierdich, A. J., & Fang, X. (2021). Trace element catalyses mineral replacement reactions and facilitates ore formation. *Nature Communications, 12*, 1388. https://doi.org/10.1038/s41467-021-21684-5
+
+Zeh, A., Lohmeier, S., Cabral, A. R., Gerdes, A., & Drüppel, K. (2025). Authigenic growth of monazite, xenotime, rutile and zircon by fluid-rock interaction in the Southern Serra do Espinhaço, Brazil. *Contributions to Mineralogy and Petrology, 180*, 55. https://doi.org/10.1007/s00410-025-02244-2
+
 
 El cierre bibliográfico de la Ruta 2 queda en una regla simple: las fuentes no sustituyen el dictamen. Las fuentes SV fijan dominio y forma de lectura; las fuentes externas fijan bancos de contraste; las técnicas fijan retorno. Sólo la señal residual localizada, no absorbida y repetible puede convertir la Ruta 2 en candidato. La bibliografía no decide; permite que la decisión sea materialmente reconstruible.
 
