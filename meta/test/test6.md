@@ -1,368 +1,220 @@
----
-article:
-  elocation-id: determinacion-dirigida-del-elemento-quimico-sv-399
-author:
-- Juan Antonio Lloret Egea
-bibliography: /tmp/tmp-20PouCVUgWx1sE.json
-copyright:
-  link: "https://creativecommons.org/licenses/by-nc-nd/4.0/"
-  text: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
-    International License
-  type: CC-BY-NC-ND
-csl: /app/dist/server/server/utils/citations/citeStyles/apa-7th-edition.csl
-date:
-  day: 09
-  month: 06
-  year: 2026
-journal:
-  publisher-name: IA eñ™ --- La Biblia de la IA™ · ISSN 2695-6411 ·
-    Instituto Tecnológico Virtual de la Inteligencia Artificial para el
-    Español (ITVIA).
-  title: IA eñ ™
-link-citations: true
-title: "Determinación dirigida del elemento químico SV-399 --- Actinio
-  (Ac) + 3 Oganesón (Og) + Tungsteno/Wolframio (W): aislamiento del
-  residual actínico-refractario en microfronteras de scheelita y
-  wolframita"
-uri: "https://www.itvia.online/pub/determinacion-dirigida-del-elemento-quimico-sv-399"
+# Determinación dirigida del elemento químico SV-399 — Actinio (Ac) + 3 Oganesón (Og) + Tungsteno/Wolframio (W): aislamiento del residual actínico-refractario en microfronteras de scheelita y wolframita
+![Portada de la determinación dirigida del elemento químico SV-399](https://assets.pubpub.org/c39829d0b-6cf2-4c57-8562-04aa66068f1d/p5211d837-30f8-4238-b85a-4b296dad5871/u8d2bc69d-73c6-4669-a7e7-fb07fdba4171/portada-51781044163730.png)
+
 ---
 
-![](https://assets.pubpub.org/c39829d0b-6cf2-4c57-8562-04aa66068f1d/p5211d837-30f8-4238-b85a-4b296dad5871/u8d2bc69d-73c6-4669-a7e7-fb07fdba4171/portada-51781044163730.png){#n3upiynpuqi}
+**© 2026. Todos los derechos reservados**. | **Autor**: Juan Antonio
+Lloret Egea | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico
+Virtual de la Inteligencia Artificial para el Español (ITVIA) | IA eñ™
+— La Biblia de la IA™ | ISSN 2695-6411 | Licencia CC BY-NC-ND 4.0 |
+Madrid, 09/06/2026 |
 
-------------------------------------------------------------------------
-
-**© 2026. Todos los derechos reservados**. \| **Autor**: Juan Antonio
-Lloret Egea \| ORCID: 0000-0002-6634-3351 \| Instituto Tecnológico
-Virtual de la Inteligencia Artificial para el Español (ITVIA) \| IA eñ™
---- La Biblia de la IA™ \| ISSN 2695-6411 \| Licencia CC BY-NC-ND 4.0 \|
-Madrid, 09/06/2026 \|
-
-------------------------------------------------------------------------
+---
 
 <details>
 <summary><strong>Índice general</strong></summary>
 
-- Ruta 1. Determinación dirigida del elemento químico SV-399: aislamiento del residual actínico-refractario en microfronteras de scheelita y wolframita.
-- Ruta 2. Localización de `SV-399_Ψ` como presencia residual ultraminoritaria en moléculas compuestas y redes minerales anfitrionas.
-- Conclusiones. Comparación operativa entre Ruta 1 y Ruta 2: alcance, coste, tiempo, ventajas, límites y recomendación final.
-- Cláusulas legales.
-
+- Ruta 1. Determinación dirigida del elemento químico SV-399:
+  aislamiento del residual actínico-refractario en microfronteras de
+  scheelita y wolframita.
+- Ruta 2. Localización de `SV-399_Ψ` como presencia residual
+  ultraminoritaria en moléculas compuestas y redes minerales
+  anfitrionas.
+- Conclusiones. Comparación operativa entre Ruta 1 y Ruta 2: alcance,
+  coste, tiempo, ventajas, límites y recomendación final.
 </details>
 
 # Ruta 1. Determinación dirigida del elemento químico SV-399: aislamiento del residual actínico-refractario en microfronteras de scheelita y wolframita
-
 <details>
 <summary><strong>Índice de la Ruta 1</strong></summary>
 
--   0.I. Resumen
-
--   0.II. Introducción al problema
-
--   0.III. Estado del Arte
-
--   I. Objeto de la investigación: SV-399 como diana definida
-
-    -   I.1. Denominación del elemento químico estructural SV-399
-
-    -   I.2. Composición estructural: Actinio (Ac) + 3 Oganesón (Og) +
-        Tungsteno/Wolframio (W)
-
-    -   I.3. Separación entre definición SV, tabla reconocida y ensayo
-        material
-
-    -   I.4. Alcance: aislamiento dirigido del residual
-        actínico-refractario
-
-    -   I.5. Razón de selección inicial: diana definida, no una búsqueda
-        abierta
-
--   II\. Fundamento de determinación: tres restricciones convergentes
-
-    -   II.1. Primera restricción: construcción desde Hidrógeno (H) /
-        Helio (He) y tabla reconocida
-
-    -   II.2. Segunda restricción: componente refractario de referencia
-        de Tungsteno/Wolframio (W) y dominio térmico SV-399
-
-    -   II.3. Tercera restricción: residuo actínico medio
-
-    -   II.4. Intersección formal de las tres restricciones
-
-    -   II.5. ¿Por qué SV-399 no se busca como hipótesis abierta, sino
-        como diana determinada?
-
-    -   II.6. Error cero de plano y condición material de contraste
-
--   III\. Traducción experimental de la diana
-
-    -   III.1. Qué se pretende aislar: residual actínico-refractario
-
-    -   III.2. Qué no se pretende: síntesis nuclear, proclamación IUPAC
-        o uso de Oganesón como reactivo
-
-    -   III.3. Criterio de retorno material
-
-    -   III.4. Criterio de exclusión: ausencia de residual tras
-        agotamiento de la tabla reconocida
-
-    -   III.5. Relación entre diana SV y resultado experimental:
-        candidato, descarte o indeterminación justificada
-
--   IV\. Matriz mineralógica cerrada y regiones internas de transición
-
-    -   IV.1. Scheelita y wolframita como matrices diana
-
-    -   IV.2. Tungsteno/Wolframio (W) como componente refractario de
-        referencia
-
-    -   IV.3. Asociación exigida con Uranio (U), Torio (Th), REE/ETR y
-        Zirconio (Zr)
-
-    -   IV.4. Definición de REE/ETR: *Rare Earth Elements* / Elementos
-        de Tierras Raras
-
-    -   IV.5. Microdominio admisible: Tungsteno/Wolframio (W)
-        mayoritario o estructuralmente dominante con contacto
-        U/Th--REE/Zr
-
-    -   IV.6. Muestras excluidas: Tungsteno/Wolframio (W) aislado,
-        Uranio (U) o Torio (Th) sin Tungsteno/Wolframio (W), minerales
-        genéricos y matrices sin trazabilidad
-
-    -   IV.7. Razón de cierre mineralógico: no se buscan minerales
-        complejos en general, sino regiones internas definidas
-
--   V. Restricción tecnológica de interés: K_Θ \> 4.500 °C y
+- 0.I. Resumen
+- 0.II. Introducción al problema
+- 0.III. Estado del Arte
+- I. Objeto de la investigación: SV-399 como diana definida
+  - I.1. Denominación del elemento químico estructural SV-399
+  - I.2. Composición estructural: Actinio (Ac) + 3 Oganesón (Og) +
+    Tungsteno/Wolframio (W)
+  - I.3. Separación entre definición SV, tabla reconocida y ensayo
+    material
+  - I.4. Alcance: aislamiento dirigido del residual actínico-refractario
+  - I.5. Razón de selección inicial: diana definida, no una búsqueda
+    abierta
+- II. Fundamento de determinación: tres restricciones convergentes
+  - II.1. Primera restricción: construcción desde Hidrógeno (H) / Helio
+    (He) y tabla reconocida
+  - II.2. Segunda restricción: componente refractario de referencia de
+    Tungsteno/Wolframio (W) y dominio térmico SV-399
+  - II.3. Tercera restricción: residuo actínico medio
+  - II.4. Intersección formal de las tres restricciones
+  - II.5. ¿Por qué SV-399 no se busca como hipótesis abierta, sino como
+    diana determinada?
+  - II.6. Error cero de plano y condición material de contraste
+- III. Traducción experimental de la diana
+  - III.1. Qué se pretende aislar: residual actínico-refractario
+  - III.2. Qué no se pretende: síntesis nuclear, proclamación IUPAC o
+    uso de Oganesón como reactivo
+  - III.3. Criterio de retorno material
+  - III.4. Criterio de exclusión: ausencia de residual tras agotamiento
+    de la tabla reconocida
+  - III.5. Relación entre diana SV y resultado experimental: candidato,
+    descarte o indeterminación justificada
+- IV. Matriz mineralógica cerrada y regiones internas de transición
+  - IV.1. Scheelita y wolframita como matrices diana
+  - IV.2. Tungsteno/Wolframio (W) como componente refractario de
+    referencia
+  - IV.3. Asociación exigida con Uranio (U), Torio (Th), REE/ETR y
+    Zirconio (Zr)
+  - IV.4. Definición de REE/ETR: *Rare Earth Elements* / Elementos de
+    Tierras Raras
+  - IV.5. Microdominio admisible: Tungsteno/Wolframio (W) mayoritario o
+    estructuralmente dominante con contacto U/Th–REE/Zr
+  - IV.6. Muestras excluidas: Tungsteno/Wolframio (W) aislado,
+    Uranio (U) o Torio (Th) sin Tungsteno/Wolframio (W), minerales
+    genéricos y matrices sin trazabilidad
+  - IV.7. Razón de cierre mineralógico: no se buscan minerales complejos
+    en general, sino regiones internas definidas
+- V. Restricción tecnológica de interés: K_Θ > 4.500 °C y supervivencia
+  estructural extrema
+  - V.1. Por qué el umbral de temperatura máxima estructural Θ_max >
+    4.500 °C convierte el problema SV en problema tecnológico de alto
+    interés
+  - V.2. Por qué temperatura extrema no basta como criterio material
+  - V.3. Definición del índice de supervivencia estructural extrema
+  - V.4. Propiedades SV integradas: dureza, resistencia, flexibilidad,
+    conductividad, oxidación, corrosión, cambio estructural y
+    estabilidad térmica
+  - V.5. Componentes de estrés acoplado: resistencia mecánica,
+    oxidación, corrosión, ablación, choque térmico, radiación y
+    conservación microestructural
+  - V.6. Ciclos frío-calor y frontera de retorno
+  - V.7. Relevancia aeroespacial, hipersónica, nuclear, energética y de
+    materiales refractarios
+  - V.8. Criterio de interés: sólo hay caso SV-399 si el residual
+    térmico-refractario conserva frontera bajo estrés acoplado
+- VI. Diseño del protocolo piloto de 16 semanas
+  - VI.1. Número de muestras y controles
+  - VI.2. Montajes pulidos, blancos, duplicados y cadena de custodia
+  - VI.3. Semana 1–2: recepción, trazabilidad, radioprotección y
+    preselección
+  - VI.4. Semana 3–5: cartografía mineralógica y selección de regiones
+    internas de transición
+  - VI.5. Semana 6–9: análisis elemental, trazas y co-localización en
+    microdominios de transición
+  - VI.6. Semana 10–12: sustracción de la tabla reconocida e
+    identificación del residual en frontera material
+  - VI.7. Semana 13–14: repetición instrumental y control de
+    interferencias
+  - VI.8. Semana 15–16: dictamen de candidato, descarte o
+    indeterminación material justificada
+- VII. Medios técnicos requeridos
+  - VII.1. SEM-BSE/EDS para textura, fases e inclusiones
+  - VII.2. EPMA-WDS para composición mayoritaria y minoritaria
+  - VII.3. Raman/XRD para confirmación mineralógica
+  - VII.4. LA-ICP-MS para mapas de trazas y microdominios de transición
+  - VII.5. MC-ICP-MS, TIMS, SIMS o NanoSIMS como técnicas de
+    confirmación condicionada
+  - VII.6. *Software* de integración espacial, co-localización y
+    sustracción elemental en regiones internas de transición
+  - VII.7. Requisitos de laboratorio admisible: plataforma técnica
+    central de geoquímica, materiales o laboratorio autorizado
+- VIII. Controles radiológicos, NORM y cumplimiento normativo
+  - VIII.1. Clasificación preventiva de muestras con U/Th
+  - VIII.2. Recepción, almacenamiento, manipulación y eliminación
+  - VIII.3. Responsable de radioprotección
+  - VIII.4. Exclusión expresa de manipulación no autorizada
+  - VIII.5. Condición de laboratorio admisible
+  - VIII.6. Trazabilidad normativa de toda muestra con radionucleidos
+    naturales
+- IX. Plantilla científica de base para microfronteras W–U/Th–REE/Zr
+  - IX.1. Investigador principal de geoquímica, ciencia de materiales o
+    mineralogía analítica
+  - IX.2. Especialista en Tungsteno/Wolframio (W), scheelita/wolframita
+    y mineralogía de mena
+  - IX.3. Especialista en Uranio (U), Torio (Th), REE/ETR y Zirconio
+    (Zr) en regiones internas de transición
+  - IX.4. Especialista LA-ICP-MS / ICP-MS para mapas de trazas y
+    co-localización
+  - IX.5. Especialista SEM-BSE/EDS y EPMA-WDS
+  - IX.6. Responsable de radioprotección/NORM
+  - IX.7. Técnico de preparación de muestras y conservación de
+    microfronteras
+  - IX.8. Analista de datos, interferencias, sustracción Ω118 y
+    residuales
+- X. Modelo de sustracción de la tabla reconocida en microdominios de
+  transición
+  - X.1. Banco Ω118: todos los elementos reconocidos como absorbibles
+    ordinarios
+  - X.2. Interferencias esperables: óxidos, hidruros, aductos, isótopos
+    y matriz
+  - X.3. Productos radiogénicos y cadenas U/Th
+  - X.4. Impurezas, inclusiones, halos, venillas, zonas de reemplazo y
+    fases accesorias
+  - X.5. Condición R118 = 0: descarte
+  - X.6. Condición R118 > 0: paso a ventana actínico-refractaria
+  - X.7. Trazabilidad de la resta: ningún residual se acepta sin
+    reconstrucción de lo absorbido
+- XI. Criterio de identificación del residual actínico-refractario
+  SV-399 en frontera material
+  - XI.1. Restricción obligatoria: Tungsteno/Wolframio (W) en
+    microfrontera
+  - XI.2. Ventana obligatoria: vecindad Uranio (U), Torio (Th), REE/ETR
+    y Zirconio (Zr)
+  - XI.3. Residual admisible: persistente, co-localizado, con frontera
+    material y no absorbible por Ω118
+  - XI.4. Diferenciación frente a Francio (Fr)+3Og+W, Radio (Ra)+3Og+W y
+    otros nodos vecinos
+  - XI.5. Criterio positivo de candidato SV-399
+  - XI.6. Criterio negativo de descarte
+  - XI.7. Criterio U: indeterminación material justificada y repetición
+    necesaria
+  - XI.8. Criterio tecnológico adicional: conservación de frontera bajo
+    estrés acoplado
+- XII. Coste estimado, calendario y entregables para protocolo de
+  microdominios
+  - XII.1. Coste piloto recomendado: 120.000 €
+  - XII.2. Horquilla admisible: 90.000–140.000 €
+  - XII.3. Fase de confirmación condicionada: 120.000–220.000 €
+  - XII.4. Presupuesto total piloto + confirmación: 210.000–360.000 €
+  - XII.5. Entregables técnicos: mapas, espectros, tablas, residuales,
+    dictamen y trazabilidad
+  - XII.6. Condición de parada económica y científica
+  - XII.7. Justificación de financiabilidad: diana cerrada, matriz
+    cerrada, microfrontera, umbral térmico y valor tecnológico
+- XIII. Conclusión y justificación del elemento químico SV-399
+  - XIII.1. SV-399 como diana de determinación dirigida
+  - XIII.2. Residual actínico-refractario como objeto instrumental
+  - XIII.3. Scheelita/wolframita como matriz cerrada de primera elección
+  - XIII.4. Microdominios de transición W–U/Th–REE/Zr como región de
+    prueba
+  - XIII.5. Intersección entre propiedades SV, K_Θ > 4.500 °C y
     supervivencia estructural extrema
-
-    -   V.1. Por qué el umbral de temperatura máxima estructural Θ_max
-        \> 4.500 °C convierte el problema SV en problema tecnológico de
-        alto interés
-
-    -   V.2. Por qué temperatura extrema no basta como criterio material
-
-    -   V.3. Definición del índice de supervivencia estructural extrema
-
-    -   V.4. Propiedades SV integradas: dureza, resistencia,
-        flexibilidad, conductividad, oxidación, corrosión, cambio
-        estructural y estabilidad térmica
-
-    -   V.5. Componentes de estrés acoplado: resistencia mecánica,
-        oxidación, corrosión, ablación, choque térmico, radiación y
-        conservación microestructural
-
-    -   V.6. Ciclos frío-calor y frontera de retorno
-
-    -   V.7. Relevancia aeroespacial, hipersónica, nuclear, energética y
-        de materiales refractarios
-
-    -   V.8. Criterio de interés: sólo hay caso SV-399 si el residual
-        térmico-refractario conserva frontera bajo estrés acoplado
-
--   VI\. Diseño del protocolo piloto de 16 semanas
-
-    -   VI.1. Número de muestras y controles
-
-    -   VI.2. Montajes pulidos, blancos, duplicados y cadena de custodia
-
-    -   VI.3. Semana 1--2: recepción, trazabilidad, radioprotección y
-        preselección
-
-    -   VI.4. Semana 3--5: cartografía mineralógica y selección de
-        regiones internas de transición
-
-    -   VI.5. Semana 6--9: análisis elemental, trazas y co-localización
-        en microdominios de transición
-
-    -   VI.6. Semana 10--12: sustracción de la tabla reconocida e
-        identificación del residual en frontera material
-
-    -   VI.7. Semana 13--14: repetición instrumental y control de
-        interferencias
-
-    -   VI.8. Semana 15--16: dictamen de candidato, descarte o
-        indeterminación material justificada
-
--   VII\. Medios técnicos requeridos
-
-    -   VII.1. SEM-BSE/EDS para textura, fases e inclusiones
-
-    -   VII.2. EPMA-WDS para composición mayoritaria y minoritaria
-
-    -   VII.3. Raman/XRD para confirmación mineralógica
-
-    -   VII.4. LA-ICP-MS para mapas de trazas y microdominios de
-        transición
-
-    -   VII.5. MC-ICP-MS, TIMS, SIMS o NanoSIMS como técnicas de
-        confirmación condicionada
-
-    -   VII.6. *Software* de integración espacial, co-localización y
-        sustracción elemental en regiones internas de transición
-
-    -   VII.7. Requisitos de laboratorio admisible: plataforma técnica
-        central de geoquímica, materiales o laboratorio autorizado
-
--   VIII\. Controles radiológicos, NORM y cumplimiento normativo
-
-    -   VIII.1. Clasificación preventiva de muestras con U/Th
-
-    -   VIII.2. Recepción, almacenamiento, manipulación y eliminación
-
-    -   VIII.3. Responsable de radioprotección
-
-    -   VIII.4. Exclusión expresa de manipulación no autorizada
-
-    -   VIII.5. Condición de laboratorio admisible
-
-    -   VIII.6. Trazabilidad normativa de toda muestra con
-        radionucleidos naturales
-
--   IX\. Plantilla científica de base para microfronteras
-    W--U/Th--REE/Zr
-
-    -   IX.1. Investigador principal de geoquímica, ciencia de
-        materiales o mineralogía analítica
-
-    -   IX.2. Especialista en Tungsteno/Wolframio (W),
-        scheelita/wolframita y mineralogía de mena
-
-    -   IX.3. Especialista en Uranio (U), Torio (Th), REE/ETR y Zirconio
-        (Zr) en regiones internas de transición
-
-    -   IX.4. Especialista LA-ICP-MS / ICP-MS para mapas de trazas y
-        co-localización
-
-    -   IX.5. Especialista SEM-BSE/EDS y EPMA-WDS
-
-    -   IX.6. Responsable de radioprotección/NORM
-
-    -   IX.7. Técnico de preparación de muestras y conservación de
-        microfronteras
-
-    -   IX.8. Analista de datos, interferencias, sustracción Ω118 y
-        residuales
-
--   X. Modelo de sustracción de la tabla reconocida en microdominios de
-    transición
-
-    -   X.1. Banco Ω118: todos los elementos reconocidos como
-        absorbibles ordinarios
-
-    -   X.2. Interferencias esperables: óxidos, hidruros, aductos,
-        isótopos y matriz
-
-    -   X.3. Productos radiogénicos y cadenas U/Th
-
-    -   X.4. Impurezas, inclusiones, halos, venillas, zonas de reemplazo
-        y fases accesorias
-
-    -   X.5. Condición R118 = 0: descarte
-
-    -   X.6. Condición R118 \> 0: paso a ventana actínico-refractaria
-
-    -   X.7. Trazabilidad de la resta: ningún residual se acepta sin
-        reconstrucción de lo absorbido
-
--   XI\. Criterio de identificación del residual actínico-refractario
-    SV-399 en frontera material
-
-    -   XI.1. Restricción obligatoria: Tungsteno/Wolframio (W) en
-        microfrontera
-
-    -   XI.2. Ventana obligatoria: vecindad Uranio (U), Torio (Th),
-        REE/ETR y Zirconio (Zr)
-
-    -   XI.3. Residual admisible: persistente, co-localizado, con
-        frontera material y no absorbible por Ω118
-
-    -   XI.4. Diferenciación frente a Francio (Fr)+3Og+W, Radio
-        (Ra)+3Og+W y otros nodos vecinos
-
-    -   XI.5. Criterio positivo de candidato SV-399
-
-    -   XI.6. Criterio negativo de descarte
-
-    -   XI.7. Criterio U: indeterminación material justificada y
-        repetición necesaria
-
-    -   XI.8. Criterio tecnológico adicional: conservación de frontera
-        bajo estrés acoplado
-
--   XII\. Coste estimado, calendario y entregables para protocolo de
-    microdominios
-
-    -   XII.1. Coste piloto recomendado: 120.000 €
-
-    -   XII.2. Horquilla admisible: 90.000--140.000 €
-
-    -   XII.3. Fase de confirmación condicionada: 120.000--220.000 €
-
-    -   XII.4. Presupuesto total piloto + confirmación: 210.000--360.000
-        €
-
-    -   XII.5. Entregables técnicos: mapas, espectros, tablas,
-        residuales, dictamen y trazabilidad
-
-    -   XII.6. Condición de parada económica y científica
-
-    -   XII.7. Justificación de financiabilidad: diana cerrada, matriz
-        cerrada, microfrontera, umbral térmico y valor tecnológico
-
--   XIII\. Conclusión y justificación del elemento químico SV-399
-
-    -   XIII.1. SV-399 como diana de determinación dirigida
-
-    -   XIII.2. Residual actínico-refractario como objeto instrumental
-
-    -   XIII.3. Scheelita/wolframita como matriz cerrada de primera
-        elección
-
-    -   XIII.4. Microdominios de transición W--U/Th--REE/Zr como región
-        de prueba
-
-    -   XIII.5. Intersección entre propiedades SV, K_Θ \> 4.500 °C y
-        supervivencia estructural extrema
-
-    -   XIII.6. Resultado esperado: candidato, descarte o
-        indeterminación material justificada
-
-    -   XIII.7. Cierre: por qué SV-399 es el primer candidato dirigido
-        de esta línea experimental
-
-    -   XIII.8. Corolario de precedencia estructural
-
+  - XIII.6. Resultado esperado: candidato, descarte o indeterminación
+    material justificada
+  - XIII.7. Cierre: por qué SV-399 es el primer candidato dirigido de
+    esta línea experimental
+  - XIII.8. Corolario de precedencia estructural
 **Anexos**
 
--   Anexo A. Tabla de símbolos, nombres y funciones: Actinio (Ac),
-    Oganesón (Og), Tungsteno/Wolframio (W), Uranio (U), Torio (Th),
-    REE/ETR y Zirconio (Zr)
-
--   Anexo B. Ficha técnica SV-399
-
--   Anexo C. Matriz de controles positivos, negativos y blancos
-
--   Anexo D. Matriz de interferencias Ω118
-
--   Anexo E. Presupuesto detallado
-
--   Anexo F. Cronograma operativo de 16 semanas
-
--   Anexo G. Requisitos de seguridad radiológica y NORM
-
--   Anexo H. Modelo de dictamen: positivo, negativo o U justificada
-
--   Anexo I. Índice de supervivencia estructural extrema bajo estrés
-    acoplado
-
+- Anexo A. Tabla de símbolos, nombres y funciones: Actinio (Ac),
+  Oganesón (Og), Tungsteno/Wolframio (W), Uranio (U), Torio (Th),
+  REE/ETR y Zirconio (Zr)
+- Anexo B. Ficha técnica SV-399
+- Anexo C. Matriz de controles positivos, negativos y blancos
+- Anexo D. Matriz de interferencias Ω118
+- Anexo E. Presupuesto detallado
+- Anexo F. Cronograma operativo de 16 semanas
+- Anexo G. Requisitos de seguridad radiológica y NORM
+- Anexo H. Modelo de dictamen: positivo, negativo o U justificada
+- Anexo I. Índice de supervivencia estructural extrema bajo estrés
+  acoplado
 **Conclusión general**
 
 **Bibliografía**
 
 </details>
 
-# **0.I. Resumen** {#0i-resumen}
-
+# 0.I. Resumen
 Este trabajo formula un protocolo de determinación dirigida para el
 elemento químico estructural SV-399, definido en el Sistema Vectorial SV
 por la composición Actinio (Ac) + 3 Oganesón (Og) + Tungsteno/Wolframio
@@ -371,32 +223,30 @@ búsqueda abierta ni una inferencia especulativa sobre minerales
 complejos, sino una diana formalmente determinada por tres restricciones
 convergentes: construcción periódica desde el dominio Hidrógeno (H) /
 Helio (He) y la tabla reconocida, pertenencia al dominio térmico
-estructural `K_Θ` ---dominio térmico estructural de referencia---, y
-residuo actínico medio. El objetivo experimental se formula como
-aislamiento de un residual actínico-refractario en microfronteras de
-scheelita y wolframita, dentro de microdominios de transición de
-Tungsteno/Wolframio (W), situados en contactos, bordes, inclusiones,
-venillas, halos o zonas de reemplazo, asociados a Uranio (U), Torio
-(Th), tierras raras ---REE/ETR--- y Zirconio (Zr). La justificación
-tecnológica no descansa sólo en superar un umbral térmico. El dominio
-K_Θ \> 4.500 °C opera como primera restricción de interés, pero el
-criterio material decisivo exige además supervivencia estructural
-extrema bajo estrés acoplado: resistencia mecánica, conservación
-microestructural, tolerancia a ciclos frío-calor, oxidación, corrosión,
-ablación, radiación y estabilidad bajo alta exigencia térmica. Esta
-segunda capa evita reducir SV-399 a una cifra de temperatura y lo sitúa
-como candidato dirigido para sectores que requieren materiales extremos:
-protección aeroespacial, reentrada, hipersónica, propulsión, energía
-nuclear, sensores de alta temperatura y matrices refractarias. El
-protocolo propuesto tiene una duración piloto de 16 semanas, con coste
-inicial estimado de 120.000 €, horquilla admisible de 90.000--140.000 €,
-controles radiológicos NORM, plantilla científica de base y criterios de
-parada. La salida del ensayo no queda formulada como creencia favorable,
-sino como decisión cerrada: candidato SV-399, descarte, o
-indeterminación material justificada.
+estructural `K_Θ` —dominio térmico estructural de referencia—, y residuo
+actínico medio. El objetivo experimental se formula como aislamiento de
+un residual actínico-refractario en microfronteras de scheelita y
+wolframita, dentro de microdominios de transición de Tungsteno/Wolframio
+(W), situados en contactos, bordes, inclusiones, venillas, halos o zonas
+de reemplazo, asociados a Uranio (U), Torio (Th), tierras raras
+—REE/ETR— y Zirconio (Zr). La justificación tecnológica no descansa sólo
+en superar un umbral térmico. El dominio K_Θ > 4.500 °C opera como
+primera restricción de interés, pero el criterio material decisivo exige
+además supervivencia estructural extrema bajo estrés acoplado:
+resistencia mecánica, conservación microestructural, tolerancia a ciclos
+frío-calor, oxidación, corrosión, ablación, radiación y estabilidad bajo
+alta exigencia térmica. Esta segunda capa evita reducir SV-399 a una
+cifra de temperatura y lo sitúa como candidato dirigido para sectores
+que requieren materiales extremos: protección aeroespacial, reentrada,
+hipersónica, propulsión, energía nuclear, sensores de alta temperatura y
+matrices refractarias. El protocolo propuesto tiene una duración piloto
+de 16 semanas, con coste inicial estimado de 120.000 €, horquilla
+admisible de 90.000–140.000 €, controles radiológicos NORM, plantilla
+científica de base y criterios de parada. La salida del ensayo no queda
+formulada como creencia favorable, sino como decisión cerrada: candidato
+SV-399, descarte, o indeterminación material justificada.
 
-# **0.II. Introducción al problema** {#0ii-introduccin-al-problema}
-
+# 0.II. Introducción al problema
 La ciencia contemporánea dispone de un conocimiento extraordinariamente
 preciso sobre la tabla periódica reconocida por IUPAC, los elementos
 superpesados, la mineralogía del tungsteno, la geoquímica de trazas, la
@@ -429,7 +279,7 @@ lectura confundiría planos. El problema correcto es si, bajo una matriz
 diana de scheelita y wolframita, pueden localizarse microdominios de
 transición de Tungsteno/Wolframio (W), situados en contactos, bordes,
 inclusiones, venillas, halos o zonas de reemplazo, asociados a Uranio
-(U), Torio (Th), tierras raras ---REE/ETR--- y Zirconio (Zr), y si, tras
+(U), Torio (Th), tierras raras —REE/ETR— y Zirconio (Zr), y si, tras
 agotar todo lo explicable por la tabla IUPAC actual y sus
 interferencias, permanece un residual actínico-refractario
 co-localizado, repetible y no absorbible por los elementos ordinarios,
@@ -439,7 +289,7 @@ accesorias o matriz instrumental.
 La elección de scheelita y wolframita no es casual. Ambas son matrices
 minerales directamente vinculadas al tungsteno, y el tungsteno opera
 aquí como componente refractario de referencia de SV-399. Tampoco es
-casual la exigencia de asociación con U/Th--REE/Zr: el residuo actínico
+casual la exigencia de asociación con U/Th–REE/Zr: el residuo actínico
 medio no puede buscarse en cualquier muestra rica en W, ni en cualquier
 mineral con uranio o torio. La diana exige el cruce material de ambos
 planos: restricción a W y ventana actínica-mineralógica. Si aparece
@@ -461,7 +311,7 @@ segunda restricción tecnológica: supervivencia estructural extrema. La
 hipótesis operativa del trabajo la podemos resumir como: SV-399 se
 convierte en candidato dirigido cuando confluyen cuatro condiciones:
 definición compositiva cerrada, pertenencia al dominio térmico `K_Θ`,
-matriz mineralógica W--U/Th--REE/Zr en scheelita/wolframita y
+matriz mineralógica W–U/Th–REE/Zr en scheelita/wolframita y
 supervivencia estructural extrema bajo estrés acoplado. Esta formulación
 no rebaja la diana a posibilidad vaga. La diana está definida. Lo que el
 protocolo experimental decide es si existe retorno material residual en
@@ -485,46 +335,45 @@ experimental acotado. Entrega una diana, una matriz, una restricción
 térmica, una restricción de supervivencia, una plantilla científica,
 controles radiológicos, costes, calendario y criterios de parada. La
 pregunta técnica cerrada es la siguiente: ¿existe, en microdominios de
-transición W--U/Th--REE/Zr en microfronteras de scheelita y wolframita,
-un residual actínico-refractario no absorbible por la tabla reconocida y
+transición W–U/Th–REE/Zr en microfronteras de scheelita y wolframita, un
+residual actínico-refractario no absorbible por la tabla reconocida y
 capaz de conservar frontera bajo estrés térmico-material extremo?
 
-# **0.III. Estado del Arte** {#0iii-estado-del-arte}
-
+# 0.III. Estado del Arte
 La determinación dirigida de SV-399 se sitúa en una zona de intersección
 entre cinco dominios ya constituidos: la tabla periódica reconocida, la
 investigación contemporánea sobre elementos superpesados, la mineralogía
 del Tungsteno/Wolframio (W), la geoquímica de microdominios con Uranio
-(U), Torio (Th), tierras raras ---REE/ETR, Rare Earth Elements /
-Elementos de Tierras Raras--- y Zirconio (Zr), y la ciencia de
-materiales extremos sometidos a temperatura, radiación, corrosión,
-oxidación, ablación y ciclos frío-calor. Esta investigación no sustituye
-ninguno de esos dominios. Los toma como plano externo de contraste para
-formular una pregunta más estrecha: si una diana SV ya definida por
-composición estructural, dominio térmico y residuo actínico medio puede
-ser sometida a un protocolo material cerrado de aislamiento residual en
-scheelita y wolframita. La tabla periódica reconocida por IUPAC
-constituye el primer límite externo de referencia. El elemento 118,
-Oganesón (Og), forma parte de la frontera institucional reconocida tras
-la aprobación de los nombres y símbolos de los elementos 113, 115, 117 y
-118 (International Union of Pure and Applied Chemistry, 2016; Karol et
-al., 2016a). Ese dato no se discute ni se reemplaza. En esta
-investigación, Oganesón (Og) no se usa como reactivo ni como objeto de
-manipulación experimental; comparece únicamente como componente
-estructural de la definición SV-399: Actinio (Ac) + 3 Oganesón (Og) +
-Tungsteno/Wolframio (W). La separación es esencial: una cosa es la tabla
-reconocida y otra la definición estructural SV que sirve de diana para
-retorno material. La investigación contemporánea sobre elementos
-superpesados muestra, además, que la síntesis nuclear de nuevos
-elementos más allá de los ya reconocidos es un dominio de extrema
-dificultad, sometido a producción átomo a átomo, detección de cadenas de
-desintegración, repetición experimental y reconocimiento institucional
-(Karol et al., 2016a, 2016b; Oganessian & Utyonkov, 2015; Smits et al.,
-2024). Por ello, este trabajo excluye desde el inicio una falsa lectura:
-no pretende sintetizar SV-399 como núcleo superpesado ordinario ni
-proclamar un nuevo elemento reconocido. El problema se formula en otro
-plano: aislar un residual actínico-refractario, materialmente
-contrastable, en una matriz mineralógica cerrada.
+(U), Torio (Th), tierras raras —REE/ETR, Rare Earth Elements / Elementos
+de Tierras Raras— y Zirconio (Zr), y la ciencia de materiales extremos
+sometidos a temperatura, radiación, corrosión, oxidación, ablación y
+ciclos frío-calor. Esta investigación no sustituye ninguno de esos
+dominios. Los toma como plano externo de contraste para formular una
+pregunta más estrecha: si una diana SV ya definida por composición
+estructural, dominio térmico y residuo actínico medio puede ser sometida
+a un protocolo material cerrado de aislamiento residual en scheelita y
+wolframita. La tabla periódica reconocida por IUPAC constituye el primer
+límite externo de referencia. El elemento 118, Oganesón (Og), forma
+parte de la frontera institucional reconocida tras la aprobación de los
+nombres y símbolos de los elementos 113, 115, 117 y 118 (International
+Union of Pure and Applied Chemistry, 2016; Karol et al., 2016a). Ese
+dato no se discute ni se reemplaza. En esta investigación, Oganesón (Og)
+no se usa como reactivo ni como objeto de manipulación experimental;
+comparece únicamente como componente estructural de la definición
+SV-399: Actinio (Ac) + 3 Oganesón (Og) + Tungsteno/Wolframio (W). La
+separación es esencial: una cosa es la tabla reconocida y otra la
+definición estructural SV que sirve de diana para retorno material. La
+investigación contemporánea sobre elementos superpesados muestra,
+además, que la síntesis nuclear de nuevos elementos más allá de los ya
+reconocidos es un dominio de extrema dificultad, sometido a producción
+átomo a átomo, detección de cadenas de desintegración, repetición
+experimental y reconocimiento institucional (Karol et al., 2016a, 2016b;
+Oganessian & Utyonkov, 2015; Smits et al., 2024). Por ello, este trabajo
+excluye desde el inicio una falsa lectura: no pretende sintetizar SV-399
+como núcleo superpesado ordinario ni proclamar un nuevo elemento
+reconocido. El problema se formula en otro plano: aislar un residual
+actínico-refractario, materialmente contrastable, en una matriz
+mineralógica cerrada.
 
 La selección de scheelita y wolframita como matrices diana, con atención
 preferente a sus regiones internas de transición, no es arbitraria.
@@ -566,7 +415,7 @@ Lo que no existe todavía es una prueba dirigida que combine esos
 dominios bajo una diana SV determinada: SV-399, definida por Actinio
 (Ac) + 3 Oganesón (Og) + Tungsteno/Wolframio (W), buscada no como
 síntesis nuclear ni como proclamación institucional, sino como residual
-actínico-refractario en microdominios de transición W--U/Th--REE/Zr en
+actínico-refractario en microdominios de transición W–U/Th–REE/Zr en
 microfronteras de scheelita y wolframita. La hipótesis operativa del
 trabajo la podemos resumir como una condición de cruce: sólo hay caso
 SV-399 si concurren definición compositiva cerrada, matriz mineralógica
@@ -576,10 +425,8 @@ co-localización microestructural y conservación de frontera bajo estrés
 térmico-material extremo. Si esas condiciones no concurren, el resultado
 no se fuerza: se dicta descarte o indeterminación material justificada.
 
-# **I. Objeto de la investigación: SV-399 como diana definida** {#i-objeto-de-la-investigacin-sv-399-como-diana-definida}
-
-## **I.1. Denominación del elemento químico estructural SV-399** {#i1-denominacin-del-elemento-qumico-estructural-sv-399}
-
+# I. Objeto de la investigación: SV-399 como diana definida
+## I.1. Denominación del elemento químico estructural SV-399
 SV-399 se denomina en este trabajo elemento químico estructural porque
 su identidad no se introduce como nombre convencional de la tabla
 reconocida ni como núcleo superpesado ya admitido por una institución
@@ -589,7 +436,7 @@ institucional; fija el objeto formal que será sometido a retorno
 material. En consecuencia, `SV-399` designa una diana de determinación
 dirigida: una posición estructural definida, con composición, dominio
 térmico, matriz de contraste, residual exigible y criterio de dictamen.
-La expresión "elemento químico estructural" debe leerse con precisión.
+La expresión “elemento químico estructural” debe leerse con precisión.
 No equivale a proclamar que SV-399 esté ya reconocido como elemento
 ordinario por la tabla periódica contemporánea, ni a afirmar que haya
 sido sintetizado por vía nuclear. Su función es delimitar una entidad
@@ -602,13 +449,12 @@ Tungsteno/Wolframio (W), Uranio (U), Torio (Th), REE/ETR y Zirconio
 claridad: SV-399 no es un rótulo especulativo ni una etiqueta
 provisional para cualquier anomalía pesada. Sólo conserva sentido cuando
 se mantiene unido a su definición estructural, a la matriz mineralógica
-cerrada, al banco de sustracción `Ω118` ---conjunto de los 118 elementos
-reconocidos como absorbibles ordinarios---, al dominio térmico `K_Θ` y
-al criterio de residual actínico-refractario. Fuera de esas condiciones,
-el nombre no autoriza extrapolaciones.
+cerrada, al banco de sustracción `Ω118` —conjunto de los 118 elementos
+reconocidos como absorbibles ordinarios—, al dominio térmico `K_Θ` y al
+criterio de residual actínico-refractario. Fuera de esas condiciones, el
+nombre no autoriza extrapolaciones.
 
-## **I.2. Composición estructural: Actinio (Ac) + 3 Oganesón (Og) + Tungsteno/Wolframio (W)** {#i2-composicin-estructural-actinio-ac-3-oganesn-og-tungstenowolframio-w}
-
+## I.2. Composición estructural: Actinio (Ac) + 3 Oganesón (Og) + Tungsteno/Wolframio (W)
 La composición estructural de SV-399 se formula como Actinio (Ac) + 3
 Oganesón (Og) + Tungsteno/Wolframio (W). Esta formulación no describe
 una receta química ordinaria, una mezcla preparativa ni una vía de
@@ -641,8 +487,7 @@ matriz mineralógica concreta. Si falta una de esas condiciones, el
 resultado puede ser mineralógico, radiogénico, instrumental o químico
 ordinario, pero no queda identificado como SV-399.
 
-## **I.3. Separación entre definición SV, tabla reconocida y ensayo material** {#i3-separacin-entre-definicin-sv-tabla-reconocida-y-ensayo-material}
-
+## I.3. Separación entre definición SV, tabla reconocida y ensayo material
 La investigación mantiene separados tres planos: definición SV, tabla
 reconocida y ensayo material. La definición SV determina la diana en el
 dominio propio del Sistema Vectorial. La tabla reconocida opera como
@@ -672,8 +517,7 @@ descarta; si persiste pero no cumple co-localización, matriz y ventana
 actínico-refractaria, no se acepta; si la instrumentación no resuelve,
 se conserva `U` como indeterminación material justificada.
 
-## **I.4. Alcance: aislamiento dirigido del residual actínico-refractario** {#i4-alcance-aislamiento-dirigido-del-residual-actnico-refractario}
-
+## I.4. Alcance: aislamiento dirigido del residual actínico-refractario
 El alcance de este trabajo queda limitado al aislamiento dirigido del
 residual actínico-refractario asociado a SV-399. No se formula aquí una
 teoría general de todos los elementos SV extendidos, ni una revisión
@@ -683,10 +527,10 @@ una diana, una matriz, una ventana de búsqueda, un banco de sustracción
 y un criterio de dictamen para comprobar si SV-399 retorna materialmente
 bajo condiciones declaradas. El residual actínico-refractario se define
 por persistencia tras sustracción, co-localización microestructural y
-pertenencia a la ventana W--U/Th--REE/Zr. No basta con detectar
-elementos pesados, ni señales actínicas, ni irregularidades en minerales
-de Tungsteno/Wolframio (W). El residual admisible debe conservar
-relación espacial con Tungsteno/Wolframio (W), aparecer en la matriz
+pertenencia a la ventana W–U/Th–REE/Zr. No basta con detectar elementos
+pesados, ni señales actínicas, ni irregularidades en minerales de
+Tungsteno/Wolframio (W). El residual admisible debe conservar relación
+espacial con Tungsteno/Wolframio (W), aparecer en la matriz
 scheelita/wolframita, resistir la absorción por la tabla reconocida y
 quedar sometido a control de interferencias. Esta formulación convierte
 la búsqueda en determinación: no se abre una exploración amplia de
@@ -701,8 +545,7 @@ oxidación, corrosión, ablación y ciclos frío-calor. Si el residual no
 puede sostener esa lectura, el interés tecnológico de SV-399 queda sin
 retorno suficiente.
 
-## **I.5. Razón de selección inicial: diana definida, no una búsqueda abierta** {#i5-razn-de-seleccin-inicial-diana-definida-no-una-bsqueda-abierta}
-
+## I.5. Razón de selección inicial: diana definida, no una búsqueda abierta
 SV-399 se selecciona porque reúne una concentración de restricciones que
 no aparece en una búsqueda abierta. Su posición no se escoge por
 conveniencia narrativa, sino por convergencia entre la construcción
@@ -730,14 +573,12 @@ todas las restricciones declaradas. La obtención de una anomalía no
 basta; la coincidencia elemental parcial no basta; una señal pesada sin
 reconstrucción de lo absorbido no basta. Sólo un residual persistente,
 co-localizado, no absorbible por la tabla reconocida, situado en
-microdominios de transición W--U/Th--REE/Zr en microfronteras de
-scheelita y wolframita y coherente con la supervivencia estructural
-extrema puede avanzar como candidato SV-399.
+microdominios de transición W–U/Th–REE/Zr en microfronteras de scheelita
+y wolframita y coherente con la supervivencia estructural extrema puede
+avanzar como candidato SV-399.
 
-# **II. Fundamento de determinación: tres restricciones convergentes** {#ii-fundamento-de-determinacin-tres-restricciones-convergentes}
-
-## **II.1. Primera restricción: construcción desde Hidrógeno (H) / Helio (He) y tabla reconocida** {#ii1-primera-restriccin-construccin-desde-hidrgeno-h-helio-he-y-tabla-reconocida}
-
+# II. Fundamento de determinación: tres restricciones convergentes
+## II.1. Primera restricción: construcción desde Hidrógeno (H) / Helio (He) y tabla reconocida
 La primera restricción no procede de la mineralogía inmediata ni de una
 intuición sobre menas ricas en elementos pesados. Procede de la
 construcción estructural que parte del régimen Hidrógeno (H) / Helio
@@ -758,7 +599,7 @@ contrario: permite que la transducción opere con disciplina. La tabla
 reconocida se respeta porque proporciona el plano externo de resta; no
 gobierna el dominio SV ni agota lo que éste puede resolver formalmente.
 La consecuencia metodológica es estricta: SV-399 no se alcanza empezando
-por "buscar tungsteno" ni por "buscar actínidos" en sentido genérico. La
+por “buscar tungsteno” ni por “buscar actínidos” en sentido genérico. La
 vía correcta exige primero reconocer el subdominio elemental ordinario,
 después declarar el dominio extendido SV y sólo entonces formular una
 diana que deba devolver retorno material. Si el retorno queda absorbido
@@ -768,41 +609,39 @@ evita tanto la credulidad como la subordinación externa: ni cualquier
 anomalía vale, ni la ausencia de reconocimiento previo bloquea una
 determinación transducida.
 
-## **II.2. Segunda restricción: componente refractario de referencia de Tungsteno/Wolframio (W) y dominio térmico SV-399** {#ii2-segunda-restriccin-componente-refractario-de-referencia-de-tungstenowolframio-w-y-dominio-trmico-sv-399}
-
+## II.2. Segunda restricción: componente refractario de referencia de Tungsteno/Wolframio (W) y dominio térmico SV-399
 La segunda restricción viene dada por la presencia estructural de
 Tungsteno/Wolframio (W) y por la pertenencia de SV-399 al dominio
 térmico `K_Θ`. Tungsteno/Wolframio (W) no comparece como simple metal de
 interés ni como reclamo tecnológico autónomo. En este trabajo cumple una
 función compositiva y material: permite trasladar la diana SV hacia
-matrices minerales reales ---scheelita y wolframita--- donde el
-componente refractario de referencia pueda ser examinado en
-microdominios con Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr). En el
-dominio térmico SV, SV-399 aparece como entrada admisible con
-composición `Ac+3Og+W`, índice estructural `k=399`, retorno estructural
-`Z_SV=517`, masa estructural declarada y `Θ_max=4.690 °C` (Lloret Egea,
-2026a, 2026f). El margen sobre el umbral `4.500 °C` no se presenta como
-punto de fusión experimental ya medido, sino como magnitud térmica
-estructural que obliga a retorno material. `K_Θ` no es, por tanto, un
-elemento formal accesorio ni una cifra aislada; es una restricción que
-exige que cualquier candidato conserve sentido bajo temperatura extrema,
-frontera funcional y supervivencia estructural. La vecindad inmediata
-refuerza la elección. `SV-397` y `SV-398` conservan la referencia W en
-las formas Francio (Fr) + 3 Oganesón (Og) + Tungsteno/Wolframio (W),
-abreviada `Fr+3Og+W`, y Radio (Ra) + 3 Oganesón (Og) +
-Tungsteno/Wolframio (W), abreviada `Ra+3Og+W`; `SV-399` introduce
-`Ac+3Og+W`; después, `SV-400` cambia de componente compositivo de
-referencia hacia Rutherfordio (Rf) + 3 Oganesón (Og) + Neodimio (Nd),
-formalmente abreviado `Rf+3Og+Nd`. Esta transición impide tratar SV-399
-como una señal cualquiera dentro de una zona pesada. La diana ocupa un
-lugar diferenciado: mantiene continuidad refractaria con los nodos
-vecinos previos, incorpora el valor actínico de Actinio (Ac) y conserva
-pertenencia al dominio térmico positivo. La consecuencia experimental es
-que el protocolo no busca Tungsteno/Wolframio (W) aislado, sino residual
-actínico-refractario bajo matriz y vecindad declaradas.
+matrices minerales reales —scheelita y wolframita— donde el componente
+refractario de referencia pueda ser examinado en microdominios con
+Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr). En el dominio térmico
+SV, SV-399 aparece como entrada admisible con composición `Ac+3Og+W`,
+índice estructural `k=399`, retorno estructural `Z_SV=517`, masa
+estructural declarada y `Θ_max=4.690 °C` (Lloret Egea, 2026a, 2026f). El
+margen sobre el umbral `4.500 °C` no se presenta como punto de fusión
+experimental ya medido, sino como magnitud térmica estructural que
+obliga a retorno material. `K_Θ` no es, por tanto, un elemento formal
+accesorio ni una cifra aislada; es una restricción que exige que
+cualquier candidato conserve sentido bajo temperatura extrema, frontera
+funcional y supervivencia estructural. La vecindad inmediata refuerza la
+elección. `SV-397` y `SV-398` conservan la referencia W en las formas
+Francio (Fr) + 3 Oganesón (Og) + Tungsteno/Wolframio (W), abreviada
+`Fr+3Og+W`, y Radio (Ra) + 3 Oganesón (Og) + Tungsteno/Wolframio (W),
+abreviada `Ra+3Og+W`; `SV-399` introduce `Ac+3Og+W`; después, `SV-400`
+cambia de componente compositivo de referencia hacia Rutherfordio (Rf) +
+3 Oganesón (Og) + Neodimio (Nd), formalmente abreviado `Rf+3Og+Nd`. Esta
+transición impide tratar SV-399 como una señal cualquiera dentro de una
+zona pesada. La diana ocupa un lugar diferenciado: mantiene continuidad
+refractaria con los nodos vecinos previos, incorpora el valor actínico
+de Actinio (Ac) y conserva pertenencia al dominio térmico positivo. La
+consecuencia experimental es que el protocolo no busca
+Tungsteno/Wolframio (W) aislado, sino residual actínico-refractario bajo
+matriz y vecindad declaradas.
 
-## **II.3. Tercera restricción: residuo actínico medio** {#ii3-tercera-restriccin-residuo-actnico-medio}
-
+## II.3. Tercera restricción: residuo actínico medio
 La tercera restricción procede del residuo actínico medio. La tabla
 reconocida fija un subdominio externo de 118 elementos; la extensión SV
 trabaja hasta 443 entradas estructurales. La diferencia `443−118=325` no
@@ -828,8 +667,7 @@ proclamación IUPAC. Es una coordenada SV que permite transducir una
 diana hacia una pregunta material: si esa estructura retorna, debe
 hacerlo como residual actínico-refractario y no como señal genérica.
 
-## **II.4. Intersección formal de las tres restricciones** {#ii4-interseccin-formal-de-las-tres-restricciones}
-
+## II.4. Intersección formal de las tres restricciones
 Las tres restricciones no se suman como argumentos independientes;
 convergen en una sola condición de determinación. La primera proporciona
 el banco externo de sustracción y evita que el resultado se confunda con
@@ -857,8 +695,7 @@ absorbible por `Ω118` queda fuera. Un retorno térmico sin
 co-localización queda fuera. Sólo la convergencia completa habilita el
 paso a candidato SV-399.
 
-## **II.5. ¿Por qué SV-399 no se busca como hipótesis abierta, sino como diana determinada?** {#ii5-por-qu-sv-399-no-se-busca-como-hiptesis-abierta-sino-como-diana-determinada}
-
+## II.5. ¿Por qué SV-399 no se busca como hipótesis abierta, sino como diana determinada?
 SV-399 no se busca como hipótesis abierta porque su selección antecede
 al ensayo. La diana queda fijada por reglas internas, por posición, por
 composición y por dominio térmico antes de entrar en la matriz
@@ -870,7 +707,7 @@ reduce el campo de error. No se examinan minerales complejos en general,
 ni muestras con tungsteno por sí mismas, ni concentraciones de Uranio
 (U) o Torio (Th) tomadas como indicio suficiente. La búsqueda se
 restringe a microdominios de scheelita y wolframita donde
-Tungsteno/Wolframio (W) esté asociado a U/Th--REE/Zr. Tampoco se acepta
+Tungsteno/Wolframio (W) esté asociado a U/Th–REE/Zr. Tampoco se acepta
 cualquier residuo instrumental: debe reconstruirse lo absorbido,
 controlar interferencias, descartar productos radiogénicos ordinarios y
 conservar co-localización material. La diana no queda definida por la
@@ -884,8 +721,7 @@ fuerza de SV-399 como diana procede precisamente de esa capacidad de
 quedar sometida a prueba negativa sin deshacer el aparato SV ni
 convertir la ausencia local de retorno en negación del dominio.
 
-## **II.6. Error cero de plano y condición material de contraste** {#ii6-error-cero-de-plano-y-condicin-material-de-contraste}
-
+## II.6. Error cero de plano y condición material de contraste
 El error cero de plano exige que ninguna magnitud cambie silenciosamente
 de dominio. `SV-399` no significa elemento IUPAC número 399. `Z_SV=517`
 no significa número atómico físico ordinario. `Θ_max=4.690 °C` no
@@ -907,16 +743,14 @@ apartado se expresa mediante una regla operativa: no hay SV-399 sin
 definición estructural, no hay definición operativa sin transducción, no
 hay transducción sin banco de sustracción, no hay banco de sustracción
 sin `Ω118`, no hay candidato sin residual persistente, y no hay residual
-admisible sin matriz W--U/Th--REE/Zr bajo scheelita/wolframita. Esta
-regla protege la investigación de dos deformaciones: la afirmación no
+admisible sin matriz W–U/Th–REE/Zr bajo scheelita/wolframita. Esta regla
+protege la investigación de dos deformaciones: la afirmación no
 contrastada y la negación por subordinación externa. SV-399 se sostiene
 sólo donde coinciden dominio, transducción, sustracción, residual,
 matriz y retorno.
 
-# **III. Traducción experimental de la diana** {#iii-traduccin-experimental-de-la-diana}
-
-## **III.1. Qué se pretende aislar: residual actínico-refractario** {#iii1-qu-se-pretende-aislar-residual-actnico-refractario}
-
+# III. Traducción experimental de la diana
+## III.1. Qué se pretende aislar: residual actínico-refractario
 El objeto experimental no es un elemento reconocido por la tabla
 periódica vigente ni una sustancia aislada de forma ordinaria, sino un
 residual actínico-refractario asociado a SV-399 bajo condiciones
@@ -931,26 +765,25 @@ diferencia material que conserve orientación actínica y componente
 refractario de referencia dentro de la matriz declarada. La expresión
 residual actínico-refractario contiene dos exigencias simultáneas. La
 primera es actínica: el retorno debe guardar relación con la ventana
-Uranio (U), Torio (Th), tierras raras ---REE/ETR--- y Zirconio (Zr), no
-como simple presencia ambiental, sino como vecindad analítica que
-justifique abrir la región de contraste. La segunda es refractaria: el
-retorno debe quedar ligado a Tungsteno/Wolframio (W) y al dominio
-térmico `K_Θ`, de manera que no pueda confundirse con un residuo
-radiogénico ordinario, una impureza accesoria o una fase pesada sin
-función dentro de la diana. Sólo la concurrencia de ambas exigencias
-habilita la lectura SV-399. El aislamiento no debe entenderse como
-separación macroscópica de una sustancia nueva, sino como obtención de
-una señal residual materialmente reconstruible: posición en muestra,
-fase o microdominio, composición mayoritaria y minoritaria, trazas,
-exclusión de interferencias, repetición instrumental y dictamen. La
-materialidad del residual se decide por trazabilidad y persistencia, no
-por nombre. Si el resultado no conserva relación con la diana definida,
-no se fuerza su interpretación; se devuelve al dominio que corresponda:
-química reconocida, mineralogía ordinaria, radiogénesis, interferencia
+Uranio (U), Torio (Th), tierras raras —REE/ETR— y Zirconio (Zr), no como
+simple presencia ambiental, sino como vecindad analítica que justifique
+abrir la región de contraste. La segunda es refractaria: el retorno debe
+quedar ligado a Tungsteno/Wolframio (W) y al dominio térmico `K_Θ`, de
+manera que no pueda confundirse con un residuo radiogénico ordinario,
+una impureza accesoria o una fase pesada sin función dentro de la diana.
+Sólo la concurrencia de ambas exigencias habilita la lectura SV-399. El
+aislamiento no debe entenderse como separación macroscópica de una
+sustancia nueva, sino como obtención de una señal residual materialmente
+reconstruible: posición en muestra, fase o microdominio, composición
+mayoritaria y minoritaria, trazas, exclusión de interferencias,
+repetición instrumental y dictamen. La materialidad del residual se
+decide por trazabilidad y persistencia, no por nombre. Si el resultado
+no conserva relación con la diana definida, no se fuerza su
+interpretación; se devuelve al dominio que corresponda: química
+reconocida, mineralogía ordinaria, radiogénesis, interferencia
 instrumental, descarte o indeterminación justificada.
 
-## **III.2. Qué no se pretende: síntesis nuclear, proclamación IUPAC o uso de Oganesón como reactivo** {#iii2-qu-no-se-pretende-sntesis-nuclear-proclamacin-iupac-o-uso-de-oganesn-como-reactivo}
-
+## III.2. Qué no se pretende: síntesis nuclear, proclamación IUPAC o uso de Oganesón como reactivo
 Este trabajo no pretende sintetizar SV-399 por una vía nuclear
 convencional. No se propone una reacción de fusión, captura, bombardeo,
 cadena de desintegración o producción átomo a átomo. Tampoco pretende
@@ -980,8 +813,7 @@ investigación se mantiene en su plano propio: determinación dirigida de
 un residual actínico-refractario bajo matriz, sustracción, traza,
 residual y retorno.
 
-## **III.3. Criterio de retorno material** {#iii3-criterio-de-retorno-material}
-
+## III.3. Criterio de retorno material
 El retorno material se define como persistencia de una diferencia
 analítica después de reconstruir lo absorbible por la tabla reconocida,
 por la mineralogía ordinaria de la muestra, por productos radiogénicos
@@ -991,7 +823,7 @@ concentración elevada de elementos pesados. La señal debe conservar
 posición, composición, co-localización, repetición y compatibilidad con
 la diana SV-399. En términos operativos, el retorno exige que el residuo
 sobreviva a la resta y mantenga relación con microdominios
-Tungsteno/Wolframio (W)--U/Th--REE/Zr en scheelita o wolframita. El
+Tungsteno/Wolframio (W)–U/Th–REE/Zr en scheelita o wolframita. El
 retorno debe ser reconstruible por una secuencia instrumental coherente.
 La cartografía mineralógica identifica textura, fase, inclusiones y
 región de interés; el análisis composicional distingue mayoritarios,
@@ -1009,8 +841,7 @@ si persiste, co-localiza y conserva la lectura actínico-refractaria,
 avanza como candidato. El retorno material es una condición de admisión,
 no una licencia para extrapolar.
 
-## **III.4. Criterio de exclusión: ausencia de residual tras agotamiento de la tabla reconocida** {#iii4-criterio-de-exclusin-ausencia-de-residual-tras-agotamiento-de-la-tabla-reconocida}
-
+## III.4. Criterio de exclusión: ausencia de residual tras agotamiento de la tabla reconocida
 La exclusión principal es sencilla: si tras agotar la tabla reconocida
 no queda residual persistente, no hay candidato SV-399 en la muestra
 analizada. `Ω118` debe absorber todo lo explicable por elementos
@@ -1032,13 +863,12 @@ condiciones declaradas. Una señal sin Tungsteno/Wolframio (W), una señal
 actínica sin matriz adecuada, una irregularidad que desaparece al
 cambiar de técnica, una concentración que se explica por productos
 radiogénicos o una anomalía espacialmente desconectada de la ventana
-W--U/Th--REE/Zr no son SV-399. La exclusión protege la investigación de
+W–U/Th–REE/Zr no son SV-399. La exclusión protege la investigación de
 dos errores: aceptar como candidato lo que pertenece a química o
 mineralogía ordinaria, y convertir una indeterminación instrumental en
 afirmación estructural.
 
-## **III.5. Relación entre diana SV y resultado experimental: candidato, descarte o indeterminación justificada** {#iii5-relacin-entre-diana-sv-y-resultado-experimental-candidato-descarte-o-indeterminacin-justificada}
-
+## III.5. Relación entre diana SV y resultado experimental: candidato, descarte o indeterminación justificada
 La relación entre diana SV y resultado experimental se expresa mediante
 tres salidas cerradas: candidato, descarte o indeterminación material
 justificada. Candidato SV-399 sólo procede cuando el residual
@@ -1069,10 +899,8 @@ Dentro de esa cadena de decisión, la diana SV mantiene disciplina de
 retorno: sólo avanza lo que puede sostenerse materialmente, y sólo se
 descarta lo que ha sido efectivamente absorbido o excluido.
 
-# **IV. Matriz mineralógica cerrada y regiones internas de transición** {#iv-matriz-mineralgica-cerrada-y-regiones-internas-de-transicin}
-
-## **IV.1. Scheelita y wolframita como matrices diana** {#iv1-scheelita-y-wolframita-como-matrices-diana}
-
+# IV. Matriz mineralógica cerrada y regiones internas de transición
+## IV.1. Scheelita y wolframita como matrices diana
 La matriz mineralógica de esta investigación queda cerrada en scheelita
 y wolframita porque ambas permiten trasladar la diana SV-399 al dominio
 material donde Tungsteno/Wolframio (W) aparece como componente
@@ -1080,28 +908,27 @@ estructuralmente relevante. La selección no se basa en una preferencia
 mineralógica general ni en la búsqueda amplia de menas complejas, sino
 en la necesidad de situar el componente refractario de referencia en
 matrices reales que puedan alojar microdominios con vecindad Uranio (U),
-Torio (Th), tierras raras ---REE/ETR--- y Zirconio (Zr). La scheelita y
-la wolframita ofrecen el lugar material de primera elección para
-comprobar si la definición estructural `Ac+3Og+W` puede devolver retorno
-residual bajo sustracción de la tabla reconocida. El cierre en estas
-matrices evita que el protocolo derive hacia prospección genérica. No se
-examina cualquier roca con Tungsteno/Wolframio (W), cualquier mineral
-pesado ni cualquier asociación geoquímica rica en elementos traza. La
-matriz diana debe contener una presencia material suficiente de
-Tungsteno/Wolframio (W) y permitir cartografiar regiones donde esa
-presencia quede próxima a Uranio (U), Torio (Th), REE/ETR o Zirconio
-(Zr). Si la muestra no permite esa lectura espacial, composicional y
-trazable, queda fuera del primer dominio de ensayo. Scheelita y
-wolframita funcionan aquí como matrices de retorno, no como prueba
-suficiente por sí mismas. Su presencia no prueba SV-399; sólo habilita
-el dominio mineralógico donde la diana puede ser interrogada. La prueba
-comienza cuando el microdominio queda caracterizado, cuando lo
-explicable por `Ω118` se resta de forma reconstruible y cuando una
-diferencia persistente conserva relación con el componente refractario
-de referencia y la ventana actínica-mineralógica.
+Torio (Th), tierras raras —REE/ETR— y Zirconio (Zr). La scheelita y la
+wolframita ofrecen el lugar material de primera elección para comprobar
+si la definición estructural `Ac+3Og+W` puede devolver retorno residual
+bajo sustracción de la tabla reconocida. El cierre en estas matrices
+evita que el protocolo derive hacia prospección genérica. No se examina
+cualquier roca con Tungsteno/Wolframio (W), cualquier mineral pesado ni
+cualquier asociación geoquímica rica en elementos traza. La matriz diana
+debe contener una presencia material suficiente de Tungsteno/Wolframio
+(W) y permitir cartografiar regiones donde esa presencia quede próxima a
+Uranio (U), Torio (Th), REE/ETR o Zirconio (Zr). Si la muestra no
+permite esa lectura espacial, composicional y trazable, queda fuera del
+primer dominio de ensayo. Scheelita y wolframita funcionan aquí como
+matrices de retorno, no como prueba suficiente por sí mismas. Su
+presencia no prueba SV-399; sólo habilita el dominio mineralógico donde
+la diana puede ser interrogada. La prueba comienza cuando el
+microdominio queda caracterizado, cuando lo explicable por `Ω118` se
+resta de forma reconstruible y cuando una diferencia persistente
+conserva relación con el componente refractario de referencia y la
+ventana actínica-mineralógica.
 
-## **IV.2. Tungsteno/Wolframio (W) como componente refractario de referencia** {#iv2-tungstenowolframio-w-como-componente-refractario-de-referencia}
-
+## IV.2. Tungsteno/Wolframio (W) como componente refractario de referencia
 Tungsteno/Wolframio (W) es el componente refractario de referencia de
 SV-399 porque su presencia estructura la traducción experimental de la
 diana. En la formulación `Ac+3Og+W`, Tungsteno/Wolframio (W) no se
@@ -1126,8 +953,7 @@ estrés acoplado, no sólo aparecer en un mineral reconocido. En ese
 marco, la referencia W opera simultáneamente como condición
 mineralógica, condición térmica y condición de orientación del residual.
 
-## **IV.3. Asociación exigida con Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr)** {#iv3-asociacin-exigida-con-uranio-u-torio-th-reeetr-y-zirconio-zr}
-
+## IV.3. Asociación exigida con Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr)
 La asociación con Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr) define
 la ventana actínica-mineralógica de la prueba. No se exige esa
 asociación como acumulación indiscriminada de elementos pesados, sino
@@ -1135,7 +961,7 @@ como vecindad capaz de justificar el tránsito desde una matriz de
 Tungsteno/Wolframio (W) hacia una región donde pueda aparecer un
 residual actínico-refractario. Uranio (U) y Torio (Th) aportan la
 dimensión radiogénica y actínica que debe controlarse; las tierras raras
----REE/ETR--- introducen un entorno geoquímico de alta capacidad de
+—REE/ETR— introducen un entorno geoquímico de alta capacidad de
 sustitución y concentración traza; Zirconio (Zr) añade una región
 resistente y trazable frecuente en contextos minerales complejos. La
 presencia de esos elementos no equivale a resultado positivo. Al
@@ -1144,7 +970,7 @@ asociada a Uranio (U) o Torio (Th) puede corresponder a productos
 radiogénicos ordinarios; una asociación con REE/ETR puede proceder de
 fases accesorias; una firma con Zirconio (Zr) puede pertenecer a
 minerales resistentes ordinarios. En consecuencia, la ventana
-U/Th--REE/Zr abre el dominio de contraste, pero no sustituye el criterio
+U/Th–REE/Zr abre el dominio de contraste, pero no sustituye el criterio
 de residual persistente. La condición material exige co-localización. La
 asociación debe acreditarse dentro del microdominio, no por promedio de
 muestra ni por presencia global de la mena. Si Tungsteno/Wolframio (W),
@@ -1153,8 +979,7 @@ separadas sin relación espacial reconstruible, el dominio no queda
 habilitado. La diana SV-399 requiere cruce material efectivo entre
 componente refractario de referencia y ventana actínica-mineralógica.
 
-## **IV.4. Definición de REE/ETR: Rare Earth Elements / Elementos de Tierras Raras** {#iv4-definicin-de-reeetr-rare-earth-elements-elementos-de-tierras-raras}
-
+## IV.4. Definición de REE/ETR: Rare Earth Elements / Elementos de Tierras Raras
 En este trabajo, REE/ETR designa el conjunto de tierras raras según la
 doble denominación técnica: `REE`, Rare Earth Elements, y `ETR`,
 Elementos de Tierras Raras; el empleo de esta familia como ventana
@@ -1178,8 +1003,7 @@ auxiliar de microdominio, no como criterio positivo autónomo. Esta
 precisión impide confundir riqueza traza, anomalía geoquímica o fase
 accesoria con retorno material de la diana.
 
-## **IV.5. Microdominio admisible: Tungsteno/Wolframio (W) mayoritario o estructuralmente dominante con contacto U/Th--REE/Zr** {#iv5-microdominio-admisible-tungstenowolframio-w-mayoritario-o-estructuralmente-dominante-con-contacto-uthreezr}
-
+## IV.5. Microdominio admisible: Tungsteno/Wolframio (W) mayoritario o estructuralmente dominante con contacto U/Th–REE/Zr
 Un microdominio admisible es una región de muestra en la que
 Tungsteno/Wolframio (W) aparece como componente mayoritario, dominante o
 estructuralmente rector de la lectura mineralógica, y donde existe
@@ -1205,8 +1029,7 @@ SV-399. Si sólo hay entorno actínico sin referencia W, queda fuera. Si
 la asociación aparece pero el residual se absorbe por la tabla
 reconocida, el dictamen será descarte.
 
-## **IV.6. Muestras excluidas: Tungsteno/Wolframio (W) aislado, Uranio (U) o Torio (Th) sin Tungsteno/Wolframio (W), minerales genéricos y matrices sin trazabilidad** {#iv6-muestras-excluidas-tungstenowolframio-w-aislado-uranio-u-o-torio-th-sin-tungstenowolframio-w-minerales-genricos-y-matrices-sin-trazabilidad}
-
+## IV.6. Muestras excluidas: Tungsteno/Wolframio (W) aislado, Uranio (U) o Torio (Th) sin Tungsteno/Wolframio (W), minerales genéricos y matrices sin trazabilidad
 Quedan excluidas las muestras en las que Tungsteno/Wolframio (W)
 aparezca aislado sin vecindad Uranio (U), Torio (Th), REE/ETR y Zirconio
 (Zr), aunque la muestra sea rica en W o proceda de una matriz
@@ -1220,7 +1043,7 @@ tierras raras puede generar señales complejas, pero no habilita la diana
 si el componente refractario de referencia no está dentro del
 microdominio. El protocolo no busca actínidos en general ni anomalías
 pesadas en matrices cualesquiera; busca el cruce material entre W y
-ventana U/Th--REE/Zr en scheelita o wolframita. Se excluyen además
+ventana U/Th–REE/Zr en scheelita o wolframita. Se excluyen además
 minerales genéricos, matrices sin procedencia clara, muestras sin cadena
 de custodia, materiales mezclados sin trazabilidad, concentrados no
 documentados y cualquier lote cuya preparación impida reconstruir el
@@ -1229,8 +1052,7 @@ científico de esos materiales en otros contextos. Sólo declara que no
 son admisibles para esta fase, porque no permiten aplicar con rigor la
 secuencia matriz, sustracción, residual y retorno.
 
-## **IV.7. Razón de cierre mineralógico: no se buscan minerales complejos en general, sino regiones internas definidas** {#iv7-razn-de-cierre-mineralgico-no-se-buscan-minerales-complejos-en-general-sino-regiones-internas-definidas}
-
+## IV.7. Razón de cierre mineralógico: no se buscan minerales complejos en general, sino regiones internas definidas
 El cierre mineralógico responde a una exigencia de determinación. Si la
 investigación se abriera a minerales complejos en general, el protocolo
 perdería la diana y quedaría convertido en prospección de anomalías. La
@@ -1253,10 +1075,8 @@ Zirconio (Zr) y sin microdominio trazable, no hay paso válido hacia
 residual actínico-refractario SV-399. La matriz cerrada no limita el
 alcance de la diana; impide que se confunda con una búsqueda abierta.
 
-# **V. Restricción tecnológica de interés: K_Θ \> 4.500 °C y supervivencia estructural extrema** {#v-restriccin-tecnolgica-de-inters-k-4500-c-y-supervivencia-estructural-extrema}
-
-## **V.1. Por qué el umbral de temperatura máxima estructural Θ_max \> 4.500 °C convierte el problema SV en problema tecnológico de alto interés** {#v1-por-qu-el-umbral-de-temperatura-mxima-estructural-max-4500-c-convierte-el-problema-sv-en-problema-tecnolgico-de-alto-inters}
-
+# V. Restricción tecnológica de interés: K_Θ > 4.500 °C y supervivencia estructural extrema
+## V.1. Por qué el umbral de temperatura máxima estructural Θ_max > 4.500 °C convierte el problema SV en problema tecnológico de alto interés
 El umbral `Θ_max > 4.500 °C` convierte SV-399 en una diana de interés
 tecnológico porque desplaza el problema desde la mera identificación
 residual hacia el dominio de materiales extremos. En este trabajo,
@@ -1284,8 +1104,7 @@ ensayo no busca probar una cifra aislada; busca comprobar si una diana
 estructural con `Θ_max=4.690 °C` puede conservar residual, frontera y
 función bajo una región extrema declarada.
 
-## **V.2. Por qué temperatura extrema no basta como criterio material** {#v2-por-qu-temperatura-extrema-no-basta-como-criterio-material}
-
+## V.2. Por qué temperatura extrema no basta como criterio material
 La temperatura extrema no basta como criterio material porque una
 magnitud térmica aislada no garantiza supervivencia estructural. Un
 material puede soportar una temperatura en una lectura parcial y, sin
@@ -1311,8 +1130,7 @@ estructural extrema decide si la selección conserva retorno material. La
 temperatura abre el dominio; el estrés acoplado decide la robustez del
 candidato.
 
-## **V.3. Definición del índice de supervivencia estructural extrema** {#v3-definicin-del-ndice-de-supervivencia-estructural-extrema}
-
+## V.3. Definición del índice de supervivencia estructural extrema
 Se define como criterio operativo derivado para evaluar si el residual
 asociado a SV-399 conserva identidad material bajo condiciones extremas
 acopladas. No introduce un fundamento nuevo del SV ni sustituye la
@@ -1377,8 +1195,7 @@ candidato, el índice `I_SEEA` ordena la fase posterior de confirmación
 material: el residual debe conservar frontera funcional y no sólo
 presencia analítica.
 
-## **V.4. Propiedades SV integradas: dureza, resistencia, flexibilidad, conductividad, oxidación, corrosión, cambio estructural y estabilidad térmica** {#v4-propiedades-sv-integradas-dureza-resistencia-flexibilidad-conductividad-oxidacin-corrosin-cambio-estructural-y-estabilidad-trmica}
-
+## V.4. Propiedades SV integradas: dureza, resistencia, flexibilidad, conductividad, oxidación, corrosión, cambio estructural y estabilidad térmica
 Las propiedades SV integradas no se tratan como lista acumulativa ni
 como catálogo de virtudes materiales. Cada una cumple una función dentro
 de la supervivencia estructural extrema. La dureza y la resistencia
@@ -1402,11 +1219,10 @@ busca un material extremo cualquiera para asignarle después lectura SV.
 Se parte de SV-399 y se pregunta si su eventual residual puede sostener
 propiedades compatibles con su dominio térmico y su componente
 refractario de referencia. Si las propiedades se desacoplan del
-microdominio de transición W--U/Th--REE/Zr, dejan de servir a la
+microdominio de transición W–U/Th–REE/Zr, dejan de servir a la
 determinación de SV-399 y pasan a pertenecer a otro análisis material.
 
-## **V.5. Componentes de estrés acoplado: resistencia mecánica, oxidación, corrosión, ablación, choque térmico, radiación y conservación microestructural** {#v5-componentes-de-estrs-acoplado-resistencia-mecnica-oxidacin-corrosin-ablacin-choque-trmico-radiacin-y-conservacin-microestructural}
-
+## V.5. Componentes de estrés acoplado: resistencia mecánica, oxidación, corrosión, ablación, choque térmico, radiación y conservación microestructural
 El estrés acoplado designa la exposición simultánea o sucesiva del
 microdominio de transición a varias agresiones materiales. La
 resistencia mecánica evalúa si el candidato conserva estructura bajo
@@ -1433,8 +1249,7 @@ con qué unidad, bajo qué frontera, con qué residual, con qué repetición
 y con qué retorno. Sin esa declaración, la supervivencia estructural
 extrema quedaría como rótulo verbal y no como criterio operativo.
 
-## **V.6. Ciclos frío-calor y frontera de retorno** {#v6-ciclos-fro-calor-y-frontera-de-retorno}
-
+## V.6. Ciclos frío-calor y frontera de retorno
 Los ciclos frío-calor son relevantes porque los materiales extremos rara
 vez trabajan en régimen térmico constante. La entrada y salida de
 temperatura, los gradientes, las pausas, la repetición de carga térmica
@@ -1449,7 +1264,7 @@ significa que no cambie nada; significa que la transformación, si
 ocurre, sea trazable y no destruya la identidad relevante. Si hay
 expansión, microfisura, redistribución, reordenación de fase o variación
 composicional, esos cambios deben quedar registrados. Si el candidato
-pierde relación con Tungsteno/Wolframio (W), con la ventana U/Th--REE/Zr
+pierde relación con Tungsteno/Wolframio (W), con la ventana U/Th–REE/Zr
 o con el residual no absorbible, el ciclo no conserva frontera
 suficiente. Esta exigencia es especialmente importante para distinguir
 señal analítica de candidato material. Un residual que aparece en una
@@ -1459,8 +1274,7 @@ diferencia entre ambos planos evita sobreinterpretar la primera
 detección y permite ordenar fases de confirmación sin convertir la
 prueba piloto en conclusión definitiva.
 
-## **V.7. Relevancia aeroespacial, hipersónica, nuclear, energética y de materiales refractarios** {#v7-relevancia-aeroespacial-hipersnica-nuclear-energtica-y-de-materiales-refractarios}
-
+## V.7. Relevancia aeroespacial, hipersónica, nuclear, energética y de materiales refractarios
 La relevancia de SV-399 procede de la región tecnológica donde convergen
 temperatura extrema, integridad estructural y retorno material. En el
 dominio aeroespacial y de reentrada, los sistemas de protección térmica
@@ -1488,8 +1302,7 @@ después, reproducibilidad; después, escalabilidad o aplicabilidad. El
 interés tecnológico de SV-399 queda formulado como ruta de contraste
 material, no como proclamación.
 
-## **V.8. Criterio de interés: sólo hay caso SV-399 si el residual térmico-refractario conserva frontera bajo estrés acoplado** {#v8-criterio-de-inters-slo-hay-caso-sv-399-si-el-residual-trmico-refractario-conserva-frontera-bajo-estrs-acoplado}
-
+## V.8. Criterio de interés: sólo hay caso SV-399 si el residual térmico-refractario conserva frontera bajo estrés acoplado
 El criterio de interés queda formulado de manera estricta: sólo hay caso
 SV-399 si el residual térmico-refractario conserva frontera bajo estrés
 acoplado. La detección de una diferencia no absorbible por `Ω118` puede
@@ -1506,8 +1319,8 @@ admisión tecnológica, la expresión queda formulada en estos términos:
 En esta formulación, `Caso_tecnológico(SV-399)` no significa existencia
 absoluta, aplicación industrial inmediata ni reconocimiento
 institucional externo. Designa la admisión tecnológica de la diana
-dentro de las condiciones declaradas. El signo `⇔` significa "si y sólo
-si": el caso tecnológico queda admitido únicamente cuando concurren las
+dentro de las condiciones declaradas. El signo `⇔` significa “si y sólo
+si”: el caso tecnológico queda admitido únicamente cuando concurren las
 condiciones situadas a la derecha, y esas condiciones bastan para
 declarar el caso tecnológico dentro del dominio de trabajo, sin
 extenderlo fuera de su frontera. `C_res` designa la condición de
@@ -1537,10 +1350,8 @@ aplicación extrema. Sólo la concurrencia de ambos permite sostener que
 SV-399 no es una anomalía aislada, sino una diana con retorno material y
 horizonte tecnológico verificable.
 
-# **VI. Diseño del protocolo piloto de 16 semanas** {#vi-diseo-del-protocolo-piloto-de-16-semanas}
-
-## **VI.1. Número de muestras y controles** {#vi1-nmero-de-muestras-y-controles}
-
+# VI. Diseño del protocolo piloto de 16 semanas
+## VI.1. Número de muestras y controles
 El protocolo piloto se diseña como una prueba acotada, no como una
 campaña extensa de prospección. El lote recomendado debe contener
 muestras diana suficientes para cubrir scheelita y wolframita, controles
@@ -1571,8 +1382,7 @@ protocolo podría detectar diferencias, pero no tendría base suficiente
 para decidir si esas diferencias pertenecen a la diana o a variación
 mineralógica, instrumental o radiogénica.
 
-## **VI.2. Montajes pulidos, blancos, duplicados y cadena de custodia** {#vi2-montajes-pulidos-blancos-duplicados-y-cadena-de-custodia}
-
+## VI.2. Montajes pulidos, blancos, duplicados y cadena de custodia
 Cada muestra admitida debe prepararse mediante montajes adecuados para
 microanálisis: secciones pulidas, probetas o formatos equivalentes que
 permitan cartografía óptica, SEM-BSE/EDS, EPMA-WDS, Raman/XRD y, cuando
@@ -1600,8 +1410,7 @@ muestra, de la preparación, de la técnica o de una contaminación
 cruzada. La trazabilidad protege tanto el resultado positivo como el
 descarte y la indeterminación justificada.
 
-## **VI.3. Semana 1--2: recepción, trazabilidad, radioprotección y preselección** {#vi3-semana-12-recepcin-trazabilidad-radioproteccin-y-preseleccin}
-
+## VI.3. Semana 1–2: recepción, trazabilidad, radioprotección y preselección
 Las dos primeras semanas deben concentrarse en recepción física,
 identificación, trazabilidad documental, clasificación preventiva y
 selección inicial. Cada muestra se registra antes de cualquier
@@ -1629,8 +1438,7 @@ radiológico no asumible o deterioro material que impida lectura
 microestructural. La fase inicial debe producir una lista de montajes
 previstos y una justificación breve de cada inclusión o descarte.
 
-## **VI.4. Semana 3--5: cartografía mineralógica y selección de regiones internas de transición** {#vi4-semana-35-cartografa-mineralgica-y-seleccin-de-regiones-internas-de-transicin}
-
+## VI.4. Semana 3–5: cartografía mineralógica y selección de regiones internas de transición
 Entre la tercera y la quinta semana se desarrolla la cartografía
 mineralógica. El objetivo no es medirlo todo, sino localizar regiones
 materialmente pertinentes, especialmente contactos, bordes, inclusiones,
@@ -1645,7 +1453,7 @@ microdominios de transición se rige por la coincidencia entre referencia
 de Tungsteno/Wolframio (W), frontera material reconocible y vecindad
 Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr). Una región rica en W
 sin entorno actínico-mineralógico puede quedar como control interno,
-pero no como microdominio candidato. Una región con U/Th--REE/Zr sin W
+pero no como microdominio candidato. Una región con U/Th–REE/Zr sin W
 queda fuera de la diana SV-399. Una inclusión compleja que no conserve
 relación espacial con scheelita o wolframita puede ser interesante
 mineralógicamente, pero no pertenece al dominio inicial del protocolo.
@@ -1660,8 +1468,7 @@ para análisis posterior. Sin esa justificación, la medición elemental de
 las semanas siguientes corre el riesgo de convertirse en acumulación de
 datos sin orientación.
 
-## **VI.5. Semana 6--9: análisis elemental, trazas y co-localización en microdominios de transición** {#vi5-semana-69-anlisis-elemental-trazas-y-co-localizacin-en-microdominios-de-transicin}
-
+## VI.5. Semana 6–9: análisis elemental, trazas y co-localización en microdominios de transición
 La fase de semanas seis a nueve concentra el análisis elemental
 mayoritario, minoritario y de trazas. EPMA-WDS permite afinar
 composición de fases y separar elementos próximos con mayor rigor que
@@ -1671,7 +1478,7 @@ REE/ETR y Zirconio (Zr) en los microdominios de transición
 seleccionados. La combinación de técnicas debe preservar la relación
 espacial: no basta una señal elemental si no puede asociarse a la región
 previamente cartografiada. El análisis debe registrar tanto presencia
-como ausencia. La ausencia de U/Th--REE/Zr en una región con
+como ausencia. La ausencia de U/Th–REE/Zr en una región con
 Tungsteno/Wolframio (W) puede convertirla en control negativo. La
 presencia de elementos actínicos o tierras raras fuera de la matriz
 Tungsteno/Wolframio (W) puede señalar otra fase o interferencia. La
@@ -1687,8 +1494,7 @@ de co-localización, incertidumbres, límites de detección y observaciones
 sobre interferencias previsibles. La calidad de esta matriz condiciona
 la validez de todo el protocolo.
 
-## **VI.6. Semana 10--12: sustracción de la tabla reconocida e identificación del residual en frontera material** {#vi6-semana-1012-sustraccin-de-la-tabla-reconocida-e-identificacin-del-residual-en-frontera-material}
-
+## VI.6. Semana 10–12: sustracción de la tabla reconocida e identificación del residual en frontera material
 Entre la décima y la duodécima semana se aplica la sustracción de la
 tabla reconocida. El banco `Ω118` absorbe todo lo explicable por
 elementos reconocidos, combinaciones ordinarias, productos radiogénicos,
@@ -1705,7 +1511,7 @@ material reconocible y no absorción por `Ω118`. Si la señal desaparece
 al corregir interferencias, se descarta. Si persiste pero queda
 espacialmente desconectada de Tungsteno/Wolframio (W), se excluye como
 SV-399. Si persiste en matriz Tungsteno/Wolframio (W) pero no presenta
-ventana U/Th--REE/Zr, no cumple la condición actínica. La sustracción
+ventana U/Th–REE/Zr, no cumple la condición actínica. La sustracción
 debe cerrar todas esas salidas antes de abrir candidato. La salida de
 esta fase debe distinguir residual inexistente, residual absorbido,
 residual no concluyente y residual persistente. Sólo el último puede
@@ -1714,8 +1520,7 @@ convierta en candidato sin reconstrucción de lo absorbido. Esta fase es
 el núcleo crítico del protocolo: decide si hay materia para contrastar
 SV-399 o si el ensayo queda en descarte o indeterminación.
 
-## **VI.7. Semana 13--14: repetición instrumental y control de interferencias** {#vi7-semana-1314-repeticin-instrumental-y-control-de-interferencias}
-
+## VI.7. Semana 13–14: repetición instrumental y control de interferencias
 Las semanas trece y catorce se reservan a repetición instrumental y
 control de interferencias. La repetición no significa duplicar
 mecánicamente todas las mediciones, sino volver sobre los microdominios
@@ -1739,8 +1544,7 @@ señales que merezcan confirmación por persistencia, relevancia y posible
 impacto. La repetición no debe sobredimensionar el ensayo inicial, pero
 sí impedir que una señal frágil se eleve indebidamente.
 
-## **VI.8. Semana 15--16: dictamen de candidato, descarte o indeterminación material justificada** {#vi8-semana-1516-dictamen-de-candidato-descarte-o-indeterminacin-material-justificada}
-
+## VI.8. Semana 15–16: dictamen de candidato, descarte o indeterminación material justificada
 Las dos últimas semanas integran resultados y emiten la salida técnica.
 El dictamen debe estar ligado a microdominios de transición concretos,
 no a la muestra entendida de manera general. Cada región analizada debe
@@ -1771,10 +1575,8 @@ muestra, control radiológico o reconstrucción adicional. La fase piloto
 concluye cuando cada salida queda trazada y no cuando se obtiene un
 resultado favorable.
 
-# **VII. Medios técnicos requeridos** {#vii-medios-tcnicos-requeridos}
-
-## **VII.1. SEM-BSE/EDS para textura, fases e inclusiones** {#vii1-sem-bseeds-para-textura-fases-e-inclusiones}
-
+# VII. Medios técnicos requeridos
+## VII.1. SEM-BSE/EDS para textura, fases e inclusiones
 La primera capa instrumental requerida es la microscopía electrónica de
 barrido (SEM), con imagen por electrones retrodispersados (BSE) y
 espectrometría de dispersión de energía de rayos X (EDS). SEM-BSE
@@ -1801,8 +1603,7 @@ mineralógico; la orientación composicional indica si merece avanzar
 hacia EPMA-WDS o LA-ICP-MS. Sin esta capa, el protocolo perdería la
 relación entre muestra física, región cartografiada y señal analítica.
 
-## **VII.2. EPMA-WDS para composición mayoritaria y minoritaria** {#vii2-epma-wds-para-composicin-mayoritaria-y-minoritaria}
-
+## VII.2. EPMA-WDS para composición mayoritaria y minoritaria
 La microsonda electrónica (EPMA) con espectrometría de dispersión de
 longitud de onda (WDS) debe emplearse para afinar la composición
 mayoritaria y minoritaria de las fases seleccionadas. EPMA-WDS permite
@@ -1824,10 +1625,9 @@ identificación de fases y relación entre punto analítico e imagen
 cartográfica. Si EPMA-WDS absorbe la diferencia como composición
 ordinaria o como fase accesoria reconocida, el microdominio puede pasar
 a control negativo o descarte. Si mantiene interés por vecindad
-W--U/Th--REE/Zr, avanza hacia análisis de trazas.
+W–U/Th–REE/Zr, avanza hacia análisis de trazas.
 
-## **VII.3. Raman/XRD para confirmación mineralógica** {#vii3-ramanxrd-para-confirmacin-mineralgica}
-
+## VII.3. Raman/XRD para confirmación mineralógica
 La espectroscopía Raman y la difracción de rayos X (XRD) se incorporan
 para confirmar identidad mineralógica y evitar que el protocolo se apoye
 sólo en contraste electrónico o composición elemental. Raman puede
@@ -1851,8 +1651,7 @@ localización espacial se sostengan mutuamente. Cuando una de esas capas
 falla, el microdominio no debe avanzar como candidato aunque conserve
 alguna señal pesada o una lectura elemental llamativa.
 
-## **VII.4. LA-ICP-MS para mapas de trazas y microdominios de transición** {#vii4-la-icp-ms-para-mapas-de-trazas-y-microdominios-de-transicin}
-
+## VII.4. LA-ICP-MS para mapas de trazas y microdominios de transición
 La ablación láser con plasma acoplado inductivamente y espectrometría de
 masas (LA-ICP-MS) es la técnica principal para cartografiar trazas en
 microdominios de transición seleccionados. Su función es evaluar la
@@ -1877,8 +1676,7 @@ señal conserva relación con W, matriz y vecindad Uranio (U), Torio (Th),
 REE/ETR y Zirconio (Zr), puede pasar a sustracción y control de
 residual.
 
-## **VII.5. MC-ICP-MS, TIMS, SIMS o NanoSIMS como técnicas de confirmación condicionada** {#vii5-mc-icp-ms-tims-sims-o-nanosims-como-tcnicas-de-confirmacin-condicionada}
-
+## VII.5. MC-ICP-MS, TIMS, SIMS o NanoSIMS como técnicas de confirmación condicionada
 La espectrometría de masas con plasma acoplado inductivamente y colector
 múltiple (MC-ICP-MS), la espectrometría de masas por ionización térmica
 (TIMS), la espectrometría de masas de iones secundarios (SIMS) y
@@ -1906,8 +1704,7 @@ mineralogía. Si la duda es isotópica o de interferencia, se selecciona
 la técnica correspondiente. Esta secuencia evita gasto instrumental sin
 avance y preserva la finalidad del protocolo.
 
-## **VII.6. Software de integración espacial, co-localización y sustracción elemental en regiones internas de transición** {#vii6-software-de-integracin-espacial-co-localizacin-y-sustraccin-elemental-en-regiones-internas-de-transicin}
-
+## VII.6. Software de integración espacial, co-localización y sustracción elemental en regiones internas de transición
 El software requerido debe integrar imágenes, mapas elementales,
 coordenadas, tablas de composición, trazas, blancos, duplicados y
 resultados de sustracción. Su función no es descubrir por sí mismo el
@@ -1931,8 +1728,7 @@ opaca: todo residual aceptado debe poder reconstruirse desde datos,
 mapas, controles y exclusiones explícitas. Sin esa reconstrucción, el
 residual no adquiere admisibilidad SV-399.
 
-## **VII.7. Requisitos de laboratorio admisible: plataforma técnica central de geoquímica, materiales o laboratorio autorizado** {#vii7-requisitos-de-laboratorio-admisible-plataforma-tcnica-central-de-geoqumica-materiales-o-laboratorio-autorizado}
-
+## VII.7. Requisitos de laboratorio admisible: plataforma técnica central de geoquímica, materiales o laboratorio autorizado
 El laboratorio experimental admisible debe disponer de infraestructura
 propia o acceso formal a técnicas de microanálisis mineralógico,
 composición mayoritaria, trazas, confirmación mineralógica, tratamiento
@@ -1967,10 +1763,8 @@ exclusiones y dictamen. Sólo esa forma de retorno permite que el
 protocolo mantenga continuidad entre dominio SV, química reconocida,
 mineralogía y ciencia de materiales.
 
-# **VIII. Controles radiológicos, NORM y cumplimiento normativo** {#viii-controles-radiolgicos-norm-y-cumplimiento-normativo}
-
-## **VIII.1. Clasificación preventiva de muestras con U/Th** {#viii1-clasificacin-preventiva-de-muestras-con-uth}
-
+# VIII. Controles radiológicos, NORM y cumplimiento normativo
+## VIII.1. Clasificación preventiva de muestras con U/Th
 La clasificación preventiva se aplica a toda muestra que contenga, pueda
 contener o declare asociación con Uranio (U), Torio (Th) o
 radionucleidos naturales vinculados a sus series de desintegración. La
@@ -2001,8 +1795,7 @@ selección de microdominios y la gestión posterior del material queden
 bajo una misma trazabilidad. La clasificación radiológica no sustituye
 el análisis científico: lo hace ejecutable sin pérdida de control.
 
-## **VIII.2. Recepción, almacenamiento, manipulación y eliminación** {#viii2-recepcin-almacenamiento-manipulacin-y-eliminacin}
-
+## VIII.2. Recepción, almacenamiento, manipulación y eliminación
 La recepción debe realizarse con identificación inequívoca de cada
 muestra, comprobación de embalaje, registro de estado físico,
 fotografías iniciales y verificación de la documentación disponible. Si
@@ -2028,8 +1821,7 @@ material no puede decidirse al margen del registro radiológico y de la
 normativa aplicable. La muestra no termina cuando termina el análisis:
 concluye cuando su destino queda documentado.
 
-## **VIII.3. Responsable de radioprotección** {#viii3-responsable-de-radioproteccin}
-
+## VIII.3. Responsable de radioprotección
 El protocolo exige una responsabilidad radiológica identificable cuando
 la muestra contenga o pueda contener Uranio (U), Torio (Th) o
 radionucleidos naturales con relevancia operativa. Esa responsabilidad
@@ -2054,8 +1846,7 @@ gestionarse, el responsable fija las condiciones que permiten continuar.
 La radioprotección no obstaculiza la investigación; define la frontera
 técnica que hace admisible el contraste material.
 
-## **VIII.4. Exclusión expresa de manipulación no autorizada** {#viii4-exclusin-expresa-de-manipulacin-no-autorizada}
-
+## VIII.4. Exclusión expresa de manipulación no autorizada
 Queda excluida cualquier manipulación no autorizada de muestras con
 posible contenido U/Th, radionucleidos naturales o relevancia NORM. Esta
 exclusión afecta a apertura de recipientes, corte, molienda, pulido,
@@ -2079,8 +1870,7 @@ microdominio de transición cuya historia de manipulación no pueda
 reconstruirse. La seguridad y la trazabilidad son condiciones de
 admisión, no anexos administrativos.
 
-## **VIII.5. Condición de laboratorio admisible** {#viii5-condicin-de-laboratorio-admisible}
-
+## VIII.5. Condición de laboratorio admisible
 Un laboratorio experimental admisible debe poder ejecutar el protocolo
 sin separar la capacidad analítica de la responsabilidad radiológica. No
 basta disponer de SEM-BSE/EDS, EPMA-WDS, Raman/XRD o LA-ICP-MS si las
@@ -2106,8 +1896,7 @@ transición. Si no puede documentar blancos, duplicados y cadena de
 custodia, no debe emitir candidato. La admisibilidad se mide por
 capacidad de retorno completo, no por prestigio institucional.
 
-## **VIII.6. Trazabilidad normativa de toda muestra con radionucleidos naturales** {#viii6-trazabilidad-normativa-de-toda-muestra-con-radionucleidos-naturales}
-
+## VIII.6. Trazabilidad normativa de toda muestra con radionucleidos naturales
 Toda muestra con radionucleidos naturales debe conservar trazabilidad
 normativa desde la recepción hasta su destino final. Esta trazabilidad
 incluye identificación, origen declarado, clasificación preventiva,
@@ -2132,8 +1921,7 @@ dictamen no puede avanzar a candidato; debe quedar en descarte,
 exclusión operativa o indeterminación material justificada, según
 corresponda.
 
-# **IX. Plantilla científica de base para microfronteras W--U/Th--REE/Zr** {#ix-plantilla-cientfica-de-base-para-microfronteras-wuthreezr}
-
+# IX. Plantilla científica de base para microfronteras W–U/Th–REE/Zr
 El apartado IX fija la composición funcional del equipo científico
 necesario para ejecutar la determinación dirigida de SV-399 sin
 convertir el protocolo en una prospección mineralógica abierta. La
@@ -2155,8 +1943,7 @@ absorbible por la tabla reconocida. Por ello, cada perfil se justifica
 por su papel en la cadena de retorno: matriz, microfrontera,
 co-localización, seguridad, sustracción, residual y dictamen.
 
-## **IX.1. Investigador principal de geoquímica, ciencia de materiales o mineralogía analítica** {#ix1-investigador-principal-de-geoqumica-ciencia-de-materiales-o-mineraloga-analtica}
-
+## IX.1. Investigador principal de geoquímica, ciencia de materiales o mineralogía analítica
 El investigador principal debe gobernar la ejecución científica del
 protocolo y mantener la continuidad entre diana SV, matriz mineralógica,
 microdominios seleccionados, técnicas aplicadas y dictamen final. Su
@@ -2183,8 +1970,7 @@ o qué condición faltó; si hay `U`, debe quedar delimitado qué impide
 cerrar. Sin esta dirección integradora, el protocolo se fragmentaría en
 análisis útiles pero no necesariamente convergentes hacia SV-399.
 
-## **IX.2. Especialista en Tungsteno/Wolframio (W), scheelita/wolframita y mineralogía de mena** {#ix2-especialista-en-tungstenowolframio-w-scheelitawolframita-y-mineraloga-de-mena}
-
+## IX.2. Especialista en Tungsteno/Wolframio (W), scheelita/wolframita y mineralogía de mena
 El especialista en Tungsteno/Wolframio (W), scheelita/wolframita y
 mineralogía de mena debe asegurar que la matriz declarada es real, que
 la fase portadora de Tungsteno/Wolframio (W) está correctamente
@@ -2210,14 +1996,13 @@ fija una condición necesaria: no hay residual actínico-refractario
 admisible si antes no existe soporte mineralógico W en scheelita o
 wolframita con frontera material trazada.
 
-## **IX.3. Especialista en Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr) en regiones internas de transición** {#ix3-especialista-en-uranio-u-torio-th-reeetr-y-zirconio-zr-en-regiones-internas-de-transicin}
-
+## IX.3. Especialista en Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr) en regiones internas de transición
 El especialista en Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr) debe
 gobernar la ventana actínica-mineralógica del protocolo. Su tarea es
 distinguir entre vecindad relevante, presencia accidental, producto
 radiogénico ordinario, fase accesoria, inclusión independiente,
 contaminación y señal de trazas que pueda sostener interés para la
-diana. La ventana U/Th--REE/Zr no se admite por mención nominal: debe
+diana. La ventana U/Th–REE/Zr no se admite por mención nominal: debe
 estar situada en relación espacial con Tungsteno/Wolframio (W), dentro
 de matriz diana y bajo coordenadas reconstruibles. Este perfil debe
 conocer las asociaciones geoquímicas que pueden absorber o explicar
@@ -2230,14 +2015,13 @@ de transición. Su intervención evita que la ventana actínica se
 transforme en licencia para aceptar cualquier anomalía pesada. La salida
 esperada debe aportar interpretación de trazas, relación con fases,
 advertencias sobre productos radiogénicos, orientación para sustracción
-`Ω118` y criterios de exclusión. Si la ventana U/Th--REE/Zr queda fuera
+`Ω118` y criterios de exclusión. Si la ventana U/Th–REE/Zr queda fuera
 del componente de referencia de Tungsteno/Wolframio (W), el microdominio
 no avanza. Si la ventana persiste y conserva relación con fase, textura
 y coordenada, puede pasar a la fase de sustracción e identificación
 residual.
 
-## **IX.4. Especialista LA-ICP-MS / ICP-MS para mapas de trazas y co-localización** {#ix4-especialista-la-icp-ms-icp-ms-para-mapas-de-trazas-y-co-localizacin}
-
+## IX.4. Especialista LA-ICP-MS / ICP-MS para mapas de trazas y co-localización
 El especialista LA-ICP-MS / ICP-MS debe convertir la hipótesis espacial
 del protocolo en mapas, perfiles o series de datos que conserven
 coordenada, fase y textura. Su función no es producir una lista de
@@ -2256,12 +2040,11 @@ sea analíticamente interesante. La salida esperada debe incluir mapas o
 perfiles trazables, tablas de concentraciones con coordenadas, controles
 de calidad, identificación de zonas de co-localización y advertencias
 sobre interferencias. Si LA-ICP-MS / ICP-MS muestra que la ventana
-U/Th--REE/Zr se separa de Tungsteno/Wolframio (W), el microdominio queda
+U/Th–REE/Zr se separa de Tungsteno/Wolframio (W), el microdominio queda
 excluido o pasa a control negativo. Si confirma co-localización
 persistente, habilita la sustracción detallada frente a `Ω118`.
 
-## **IX.5. Especialista SEM-BSE/EDS y EPMA-WDS** {#ix5-especialista-sem-bseeds-y-epma-wds}
-
+## IX.5. Especialista SEM-BSE/EDS y EPMA-WDS
 El especialista SEM-BSE/EDS y EPMA-WDS debe aportar la base
 microestructural y composicional del protocolo. SEM-BSE permite
 reconocer contraste de fases, bordes, inclusiones, fracturas, venillas,
@@ -2285,8 +2068,7 @@ sí solo el dictamen final, pero sin su trabajo no hay base para
 distinguir microdominio de transición, fase accesoria, control negativo,
 matriz ordinaria o región de interés.
 
-## **IX.6. Responsable de radioprotección/NORM** {#ix6-responsable-de-radioproteccinnorm}
-
+## IX.6. Responsable de radioprotección/NORM
 El responsable de radioprotección/NORM debe asegurar que cualquier
 muestra con Uranio (U), Torio (Th) o radionucleidos naturales queda
 recibida, almacenada, manipulada, derivada y gestionada conforme a las
@@ -2308,8 +2090,7 @@ seguridad, el dictamen científico debe subordinarse al control de
 admisibilidad operativa. La radioprotección/NORM protege al personal, al
 laboratorio experimental, al documento y al resultado.
 
-## **IX.7. Técnico de preparación de muestras y conservación de microfronteras** {#ix7-tcnico-de-preparacin-de-muestras-y-conservacin-de-microfronteras}
-
+## IX.7. Técnico de preparación de muestras y conservación de microfronteras
 El técnico de preparación de muestras debe conservar la relación entre
 matriz, microfrontera y señal. Su función es crítica porque corte,
 pulido, encapsulado, limpieza, montaje o transporte pueden destruir
@@ -2331,8 +2112,7 @@ microfrontera se pierde durante la preparación, no debe reconstruirse
 por suposición. Si queda alterada, se declara. Si se conserva, puede
 pasar a microanálisis con valor trazable.
 
-## **IX.8. Analista de datos, interferencias, sustracción Ω118 y residuales** {#ix8-analista-de-datos-interferencias-sustraccin-118-y-residuales}
-
+## IX.8. Analista de datos, interferencias, sustracción Ω118 y residuales
 El analista de datos, interferencias, sustracción `Ω118` y residuales
 debe integrar las salidas instrumentales sin convertir la integración en
 inferencia opaca. Su función es reconstruir qué queda absorbido por la
@@ -2358,12 +2138,11 @@ El cierre del apartado IX queda en una regla de equipo: ningún perfil
 por sí solo determina SV-399. La plantilla científica de base funciona
 como una cadena de custodia intelectual y material. Cada especialista
 gobierna una frontera: matriz, referencia de Tungsteno/Wolframio (W),
-ventana U/Th--REE/Zr, trazas, microestructura, radioprotección,
+ventana U/Th–REE/Zr, trazas, microestructura, radioprotección,
 preparación, sustracción y residual. Sólo cuando esas fronteras
 convergen puede emitirse un dictamen material compatible con la diana.
 
-# **X. Modelo de sustracción de la tabla reconocida en microdominios de transición** {#x-modelo-de-sustraccin-de-la-tabla-reconocida-en-microdominios-de-transicin}
-
+# X. Modelo de sustracción de la tabla reconocida en microdominios de transición
 El modelo de sustracción de la tabla reconocida tiene una función
 precisa: impedir que una señal ordinaria, una interferencia
 instrumental, una fase accesoria, un producto radiogénico o una
@@ -2391,8 +2170,7 @@ señal sólo aparece por promediado masivo, mezcla de regiones, pérdida de
 coordenadas o lectura sin textura, no puede admitirse como residual
 SV-399.
 
-## **X.1. Conjunto Ω118: todos los elementos reconocidos como absorbibles ordinarios** {#x1-conjunto-118-todos-los-elementos-reconocidos-como-absorbibles-ordinarios}
-
+## X.1. Conjunto Ω118: todos los elementos reconocidos como absorbibles ordinarios
 El grupo `Ω118` reúne todos los elementos reconocidos por la tabla
 periódica vigente como absorbibles ordinarios dentro del modelo de
 sustracción. Su función no es cerrar la investigación antes del ensayo,
@@ -2401,10 +2179,10 @@ explicarse por química reconocida. Toda lectura elemental que pueda
 asignarse a un elemento reconocido, a una fase mineral ordinaria, a una
 impureza esperable o a una combinación instrumentalmente reconstruible
 debe ser absorbida por `Ω118`. La absorción debe operar por
-microdominio. En una región W--U/Th--REE/Zr de scheelita o wolframita,
-el banco debe registrar Tungsteno/Wolframio (W), Calcio (Ca), Hierro
-(Fe), Manganeso (Mn), Oxígeno (O), Uranio (U), Torio (Th), tierras raras
----REE/ETR---, Zirconio (Zr), productos radiogénicos, elementos traza y
+microdominio. En una región W–U/Th–REE/Zr de scheelita o wolframita, el
+banco debe registrar Tungsteno/Wolframio (W), Calcio (Ca), Hierro (Fe),
+Manganeso (Mn), Oxígeno (O), Uranio (U), Torio (Th), tierras raras
+—REE/ETR—, Zirconio (Zr), productos radiogénicos, elementos traza y
 elementos de preparación o soporte que puedan comparecer en la lectura.
 La presencia de esos elementos no constituye por sí misma residual;
 constituye materia absorbible mientras pueda ser reconstruida por
@@ -2418,8 +2196,7 @@ absorbido, el dictamen es descarte. Si permanece diferencia no
 absorbida, se abre la ventana actínico-refractaria, pero todavía no se
 acepta candidato.
 
-## **X.2. Interferencias esperables: óxidos, hidruros, aductos, isótopos y matriz** {#x2-interferencias-esperables-xidos-hidruros-aductos-istopos-y-matriz}
-
+## X.2. Interferencias esperables: óxidos, hidruros, aductos, isótopos y matriz
 La primera defensa contra un falso residual es el control de
 interferencias. En microanálisis de trazas y masas, una señal puede
 proceder de óxidos, hidruros, aductos, solapamientos isotópicos, efectos
@@ -2443,8 +2220,7 @@ posterior. Si no se resuelve, el dictamen es `U` material justificada.
 El modelo no acepta atajos: la duda instrumental no se convierte en
 candidato.
 
-## **X.3. Productos radiogénicos y cadenas U/Th** {#x3-productos-radiognicos-y-cadenas-uth}
-
+## X.3. Productos radiogénicos y cadenas U/Th
 La presencia de Uranio (U) y Torio (Th) en la ventana de búsqueda obliga
 a considerar productos radiogénicos y cadenas de desintegración
 naturales. Una señal pesada, una anomalía isotópica o una distribución
@@ -2469,8 +2245,7 @@ ordinaria, y que además conserve referencia W y frontera material, puede
 pasar al siguiente filtro. La proximidad a U/Th abre la ventana de
 búsqueda; no concede por sí misma valor SV.
 
-## **X.4. Impurezas, inclusiones, halos, venillas, zonas de reemplazo y fases accesorias** {#x4-impurezas-inclusiones-halos-venillas-zonas-de-reemplazo-y-fases-accesorias}
-
+## X.4. Impurezas, inclusiones, halos, venillas, zonas de reemplazo y fases accesorias
 Las impurezas, inclusiones, halos, venillas, zonas de reemplazo y fases
 accesorias constituyen un dominio de alto riesgo interpretativo. Son, al
 mismo tiempo, lugares privilegiados para localizar microfronteras y
@@ -2479,7 +2254,7 @@ por principio ni aceptarse como residuales sin más. Deben
 cartografiarse, describirse y someterse a sustracción. Cada región
 interna debe registrarse con textura, coordenada, mineral anfitrión,
 fase secundaria, borde de contacto, continuidad espacial y relación con
-W--U/Th--REE/Zr. Una inclusión rica en elementos pesados puede ser una
+W–U/Th–REE/Zr. Una inclusión rica en elementos pesados puede ser una
 fase accesoria perfectamente reconocida. Un halo puede proceder de
 alteración ordinaria. Una venilla puede introducir material externo. Una
 zona de reemplazo puede mezclar fases anteriores y posteriores. Nada de
@@ -2492,8 +2267,7 @@ puede ser una fase accesoria mal nombrada ni una impureza no trabajada.
 Debe ser lo que resta cuando la región ha sido agotada por sus
 explicaciones materiales disponibles.
 
-## **X.5. Condición R118 = 0: descarte** {#x5-condicin-r118-0-descarte}
-
+## X.5. Condición R118 = 0: descarte
 La condición `R118 = 0` expresa que, tras aplicar el banco `Ω118`, las
 interferencias, la reconstrucción radiogénica, la mineralogía de fases,
 las impurezas y los controles de matriz, no queda diferencia material
@@ -2513,15 +2287,14 @@ reconstrucción no es sustracción; es ausencia de análisis suficiente. Un
 descarte con reconstrucción completa, en cambio, fortalece el método
 porque delimita con precisión dónde no retorna la diana.
 
-## **X.6. Condición R118 \> 0: paso a ventana actínico-refractaria** {#x6-condicin-r118-0-paso-a-ventana-actnico-refractaria}
-
+## X.6. Condición R118 > 0: paso a ventana actínico-refractaria
 La condición `R118 > 0` expresa que, después de la sustracción
 ordinaria, permanece una diferencia material no absorbida por `Ω118`
 bajo las técnicas y controles declarados. Esta condición no equivale
 todavía a candidato SV-399. Sólo autoriza el paso a una ventana
 actínico-refractaria, donde la diferencia debe superar filtros
 adicionales: co-localización con Tungsteno/Wolframio (W), vecindad
-U/Th--REE/Zr, frontera material, repetición instrumental, exclusión de
+U/Th–REE/Zr, frontera material, repetición instrumental, exclusión de
 interferencias residuales y coherencia con la restricción
 térmico-refractaria. La diferencia `R118 > 0` debe quedar localizada. No
 basta una señal general de muestra ni una anomalía de lote. Debe
@@ -2532,13 +2305,12 @@ hay ventana actínico-refractaria; hay indeterminación. El paso a ventana
 actínico-refractaria exige una segunda matriz de control. La primera
 matriz decide absorción por `Ω118`; la segunda decide compatibilidad con
 SV-399. Si la diferencia no conserva referencia W, se descarta para esta
-diana. Si no conserva vecindad U/Th--REE/Zr, se descarta para esta
-diana. Si no puede repetirse o confirmar su posición, queda en `U`. Si
-supera esas exigencias, puede avanzar hacia criterio positivo de
-candidato en el apartado XI.
+diana. Si no conserva vecindad U/Th–REE/Zr, se descarta para esta diana.
+Si no puede repetirse o confirmar su posición, queda en `U`. Si supera
+esas exigencias, puede avanzar hacia criterio positivo de candidato en
+el apartado XI.
 
-## **X.7. Trazabilidad de la resta: ningún residual se acepta sin reconstrucción de lo absorbido** {#x7-trazabilidad-de-la-resta-ningn-residual-se-acepta-sin-reconstruccin-de-lo-absorbido}
-
+## X.7. Trazabilidad de la resta: ningún residual se acepta sin reconstrucción de lo absorbido
 La trazabilidad de la resta es la condición de cierre del modelo. Ningún
 residual se acepta porque aparezca como diferencia final en una tabla
 sin historia. Debe poder reconstruirse todo lo absorbido: elementos
@@ -2561,8 +2333,7 @@ final es innegociable: candidato SV-399 sólo puede nacer de una resta
 reconstruida. Sin reconstrucción de lo absorbido, no hay residual; hay
 una lectura incompleta.
 
-# **XI. Criterio de identificación del residual actínico-refractario SV-399 en frontera material** {#xi-criterio-de-identificacin-del-residual-actnico-refractario-sv-399-en-frontera-material}
-
+# XI. Criterio de identificación del residual actínico-refractario SV-399 en frontera material
 El criterio de identificación no convierte cualquier diferencia
 analítica en candidato SV-399. Después del modelo de sustracción
 descrito en el apartado X, sólo puede abrirse lectura de candidato
@@ -2583,8 +2354,7 @@ mineralógico y sostener una lectura de vecindad. Esta exigencia es
 condición de admisión: determina si el retorno pertenece a una región
 material o si sólo expresa una diferencia instrumental no localizada.
 
-## **XI.1. Restricción obligatoria: Tungsteno/Wolframio (W) en microfrontera** {#xi1-restriccin-obligatoria-tungstenowolframio-w-en-microfrontera}
-
+## XI.1. Restricción obligatoria: Tungsteno/Wolframio (W) en microfrontera
 La primera restricción positiva del criterio es la presencia funcional
 de Tungsteno/Wolframio (W) en microfrontera. No basta con que la muestra
 contenga W en su composición general, ni con que pertenezca a una matriz
@@ -2609,8 +2379,7 @@ avanza a candidato y queda pendiente de repetición o técnica
 confirmatoria. Sólo `W_microfrontera = 1` permite pasar a la ventana de
 vecindad actínico-mineralógica.
 
-## **XI.2. Ventana obligatoria: vecindad Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr)** {#xi2-ventana-obligatoria-vecindad-uranio-u-torio-th-reeetr-y-zirconio-zr}
-
+## XI.2. Ventana obligatoria: vecindad Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr)
 La segunda restricción positiva es la vecindad Uranio (U), Torio (Th),
 REE/ETR y Zirconio (Zr). Esta vecindad no significa que todos esos
 grupos deban aparecer con igual intensidad ni que la muestra deba
@@ -2635,14 +2404,13 @@ ampliar resolución, repetir mapas o confirmar fases. Si
 `Vec_UThREEZr = 1`, la señal conserva la segunda condición y puede pasar
 al examen de persistencia y no absorción por `Ω118`.
 
-## **XI.3. Residual admisible: persistente, co-localizado, con frontera material y no absorbible por Ω118** {#xi3-residual-admisible-persistente-co-localizado-con-frontera-material-y-no-absorbible-por-118}
-
+## XI.3. Residual admisible: persistente, co-localizado, con frontera material y no absorbible por Ω118
 El residual admisible debe cumplir cuatro exigencias simultáneas:
 persistencia, co-localización, frontera material y no absorción por
 `Ω118`. Persistencia significa que la señal no desaparece al repetir la
 medición, al cruzar técnicas o al corregir interferencias.
 Co-localización significa que la señal comparte región con la referencia
-W y la ventana U/Th--REE/Zr. Frontera material significa que la señal
+W y la ventana U/Th–REE/Zr. Frontera material significa que la señal
 pertenece a un borde, contacto, inclusión, venilla, halo o zona de
 reemplazo reconstruible. No absorción por `Ω118` significa que la señal
 no queda explicada por elementos reconocidos, fases ordinarias,
@@ -2662,8 +2430,7 @@ justificada hasta completar la reconstrucción que falte. La regla
 protege el resultado de interpretaciones por exceso: el residual no se
 acepta por rareza, sino por trazabilidad completa.
 
-## **XI.4. Diferenciación frente a Francio (Fr)+3Og+W, Radio (Ra)+3Og+W y otros nodos vecinos** {#xi4-diferenciacin-frente-a-francio-fr3ogw-radio-ra3ogw-y-otros-nodos-vecinos}
-
+## XI.4. Diferenciación frente a Francio (Fr)+3Og+W, Radio (Ra)+3Og+W y otros nodos vecinos
 La diana SV-399 debe diferenciarse de los nodos vecinos que conservan
 referencia W. En particular, `Fr+3Og+W` y `Ra+3Og+W` expresan
 continuidad refractaria anterior, pero no equivalen a `Ac+3Og+W`. Por
@@ -2676,7 +2443,7 @@ ordinaria aislada. El problema no es encontrar esos elementos como
 sustancias simples en la muestra, sino evitar que el residual se asigne
 a SV-399 cuando podría pertenecer a otra relación estructural del
 entorno. Para ello, la lectura debe considerar posición del residual,
-ventana U/Th--REE/Zr, productos radiogénicos, fases accesorias,
+ventana U/Th–REE/Zr, productos radiogénicos, fases accesorias,
 gradientes, co-localización y coherencia con el residuo actínico medio.
 El dictamen debe registrar explícitamente si la señal queda mejor
 absorbida por una ruta vecina. Si la explicación `Fr+3Og+W` o `Ra+3Og+W`
@@ -2686,12 +2453,11 @@ Sólo cuando la reconstrucción favorece la lectura `Ac+3Og+W`, con
 referencia W, frontera material y residual no absorbible, puede
 formularse candidato SV-399.
 
-## **XI.5. Criterio positivo de candidato SV-399** {#xi5-criterio-positivo-de-candidato-sv-399}
-
+## XI.5. Criterio positivo de candidato SV-399
 El criterio positivo de candidato SV-399 exige una conjunción cerrada de
 condiciones. Debe existir `R118 > 0`; la señal debe situarse en
 microfrontera de Tungsteno/Wolframio (W); debe mantener vecindad
-U/Th--REE/Zr; debe persistir tras control de interferencias; debe
+U/Th–REE/Zr; debe persistir tras control de interferencias; debe
 conservar frontera material reconstruible; debe quedar fuera de `Ω118`;
 debe diferenciarse de nodos vecinos; y debe ser coherente con la
 restricción térmico-refractaria del dominio `K_Θ`. El candidato no nace
@@ -2712,11 +2478,10 @@ la prudencia necesaria: la señal ha atravesado las restricciones del
 protocolo, pero todavía puede requerir confirmación externa, repetición
 independiente y análisis comparado.
 
-## **XI.6. Criterio negativo de descarte** {#xi6-criterio-negativo-de-descarte}
-
+## XI.6. Criterio negativo de descarte
 El criterio negativo de descarte se activa cuando al menos una condición
 material necesaria queda anulada. Hay descarte si `R118 = 0`; si no hay
-microfrontera W; si no hay vecindad U/Th--REE/Zr; si la señal se explica
+microfrontera W; si no hay vecindad U/Th–REE/Zr; si la señal se explica
 por productos radiogénicos, interferencias, fases accesorias o
 impurezas; si la señal no se repite; si no existe frontera material; si
 la lectura queda mejor absorbida por un nodo vecino; o si la supuesta
@@ -2731,16 +2496,15 @@ descarta para SV-399. Si una región con Uranio (U) o Torio (Th) carece
 de referencia W, se descarta para SV-399. Si un residual se explica por
 matriz o interferencia, se descarta. La claridad del descarte protege la
 credibilidad del candidato cuando éste aparezca. El dictamen de descarte
-debe señalar la razón exacta de exclusión. No basta indicar "no
-identificado". Debe precisarse si la exclusión procede de absorción
+debe señalar la razón exacta de exclusión. No basta indicar “no
+identificado”. Debe precisarse si la exclusión procede de absorción
 `Ω118`, ausencia de microfrontera, falta de vecindad, interferencia,
 radiogénesis ordinaria, fase accesoria, contaminación, falta de
 repetición o insuficiencia de trazabilidad. Esa precisión convierte el
 descarte en resultado útil y evita que la indeterminación se confunda
 con negación o que una ausencia parcial se proyecte sobre toda la diana.
 
-## **XI.7. Criterio U: indeterminación material justificada y repetición necesaria** {#xi7-criterio-u-indeterminacin-material-justificada-y-repeticin-necesaria}
-
+## XI.7. Criterio U: indeterminación material justificada y repetición necesaria
 El criterio `U` se aplica cuando el sistema de medición no permite
 aceptar ni descartar con suficiencia material. `U` no significa
 probabilidad favorable ni aplazamiento retórico; significa conservación
@@ -2764,8 +2528,7 @@ señal compatible persiste parcialmente, pero falta al menos una
 reconstrucción necesaria para decidir. El paso posterior sólo puede ser
 repetición, confirmación o descarte fundado; nunca proclamación.
 
-## **XI.8. Criterio tecnológico adicional: conservación de frontera bajo estrés acoplado** {#xi8-criterio-tecnolgico-adicional-conservacin-de-frontera-bajo-estrs-acoplado}
-
+## XI.8. Criterio tecnológico adicional: conservación de frontera bajo estrés acoplado
 La identificación de SV-399 no queda completa por el residual analítico
 si se pierde la condición tecnológica que motivó la selección de la
 diana. La señal debe conservar coherencia con el dominio
@@ -2793,8 +2556,7 @@ pero no queda admitida como candidato completo. Si la conserva, el
 resultado puede pasar al siguiente nivel de dictamen formal, contraste y
 eventual confirmación.
 
-# **XII. Coste estimado, calendario y entregables para protocolo de microdominios** {#xii-coste-estimado-calendario-y-entregables-para-protocolo-de-microdominios}
-
+# XII. Coste estimado, calendario y entregables para protocolo de microdominios
 El protocolo de microdominios exige una estimación económica suficiente
 para que la determinación dirigida de SV-399 no quede formulada como
 intención abstracta. El coste no se introduce como elemento
@@ -2806,7 +2568,7 @@ dictamen y archivo técnico de salida. Sin esa cuantificación, la diana
 quedaría definida, pero no convertida todavía en programa experimental
 financiable. La estimación económica se organiza en dos niveles. El
 primero corresponde al piloto de 16 semanas, diseñado para decidir si
-existe señal residual suficiente en microfronteras W--U/Th--REE/Zr de
+existe señal residual suficiente en microfronteras W–U/Th–REE/Zr de
 scheelita y wolframita. El segundo corresponde a una confirmación
 condicionada, activable sólo si el piloto devuelve candidato o
 indeterminación material justificada con señal persistente. Esta
@@ -2814,8 +2576,7 @@ separación evita gastar recursos en confirmación cuando el piloto
 descarta, y evita cerrar prematuramente un caso cuando el residual exige
 técnica de mayor resolución o repetición independiente.
 
-## **XII.1. Coste piloto recomendado: 120.000 €** {#xii1-coste-piloto-recomendado-120000}
-
+## XII.1. Coste piloto recomendado: 120.000 €
 El coste piloto recomendado para la primera ejecución completa del
 protocolo se fija en 120.000 €. Esta cifra corresponde a una campaña
 instrumental realista, no a una prospección informal ni a una lectura
@@ -2835,15 +2596,14 @@ microdominios analizados con cadena completa. Por eso el coste piloto se
 vincula a calidad de decisión, no a cantidad de lecturas. El piloto de
 120.000 € debe incluir también el tiempo de especialistas. La
 determinación no puede delegarse sólo en instrumentación automática:
-requiere mineralogía de Tungsteno/Wolframio (W), lectura U/Th--REE/Zr,
+requiere mineralogía de Tungsteno/Wolframio (W), lectura U/Th–REE/Zr,
 control de cadenas radiogénicas, conocimiento de interferencias en
 ICP-MS, revisión de fases accesorias y análisis de residual. La cifra
 recomendada integra esa carga técnica porque el resultado buscado no es
 una lista elemental, sino una decisión sobre candidato, descarte o
 indeterminación material justificada.
 
-## **XII.2. Horquilla admisible: 90.000--140.000 €** {#xii2-horquilla-admisible-90000140000}
-
+## XII.2. Horquilla admisible: 90.000–140.000 €
 La horquilla admisible para el piloto se sitúa entre 90.000 € y 140.000
 €. La parte baja de la horquilla sólo es aceptable si el laboratorio ya
 dispone de infraestructura, personal especializado, flujo interno de
@@ -2857,7 +2617,7 @@ radiológico más exigente, preparación compleja, mayor número de
 microdominios, repetición instrumental adicional o control de
 interferencias más extenso. También puede justificarse cuando el
 laboratorio debe subcontratar una técnica específica o cuando las
-muestras contienen asociaciones U/Th--REE/Zr con fases accesorias
+muestras contienen asociaciones U/Th–REE/Zr con fases accesorias
 difíciles de separar. En ese caso, el incremento no debe financiar
 dispersión del estudio, sino mayor seguridad de dictamen. La horquilla
 no debe usarse para rebajar la exigencia material. Un piloto de 90.000 €
@@ -2868,8 +2628,7 @@ validez económica depende de la correspondencia entre coste y capacidad
 de decisión: cada partida debe contribuir a localizar, absorber,
 descartar, conservar o confirmar la diferencia material buscada.
 
-## **XII.3. Fase de confirmación condicionada: 120.000--220.000 €** {#xii3-fase-de-confirmacin-condicionada-120000220000}
-
+## XII.3. Fase de confirmación condicionada: 120.000–220.000 €
 La confirmación condicionada no forma parte automática del piloto. Sólo
 se activa si el resultado devuelve candidato SV-399 o `U` material
 justificada con residual persistente que no pueda cerrarse mediante la
@@ -2888,12 +2647,11 @@ contaminación o persistencia del residual. La confirmación condicionada
 también cumple una función de protección científica. Si el piloto
 devuelve una señal compatible, no debe proclamarse sin repetición
 suficiente; pero tampoco debe desecharse por falta de un segundo nivel.
-La horquilla 120.000--220.000 € permite reservar capacidad técnica para
+La horquilla 120.000–220.000 € permite reservar capacidad técnica para
 separar candidato fuerte, falso positivo e indeterminación honesta. Su
 activación depende del dictamen, no de una expectativa favorable previa.
 
-## **XII.4. Presupuesto total piloto + confirmación: 210.000--360.000 €** {#xii4-presupuesto-total-piloto-confirmacin-210000360000}
-
+## XII.4. Presupuesto total piloto + confirmación: 210.000–360.000 €
 El presupuesto total para piloto y confirmación se sitúa entre 210.000 €
 y 360.000 €. La cifra inferior corresponde a un piloto eficiente dentro
 de la horquilla baja y una confirmación limitada a una o dos técnicas
@@ -2917,8 +2675,7 @@ primer tramo entrega residual persistente o indeterminación material
 justificada. El presupuesto no se formula como gasto abierto, sino como
 secuencia condicionada por evidencia.
 
-## **XII.5. Entregables técnicos: mapas, espectros, tablas, residuales, dictamen y trazabilidad** {#xii5-entregables-tcnicos-mapas-espectros-tablas-residuales-dictamen-y-trazabilidad}
-
+## XII.5. Entregables técnicos: mapas, espectros, tablas, residuales, dictamen y trazabilidad
 Los entregables técnicos deben permitir reconstruir el ensayo sin
 depender de una declaración verbal del laboratorio. El primer grupo de
 entregables corresponde a las muestras: identificación, procedencia,
@@ -2935,14 +2692,13 @@ y trazabilidad suficiente para repetir la lectura o auditar el dictamen.
 El tercer grupo corresponde al análisis SV del residual: matriz `Ω118`
 de absorción, tabla de lo reconstruido, tabla de lo descartado, residual
 `R118`, localización del residual persistente, justificación de
-candidato, descarte o `U`, y relación con la ventana W--U/Th--REE/Zr. El
+candidato, descarte o `U`, y relación con la ventana W–U/Th–REE/Zr. El
 entregable final debe contener un dictamen técnico firmado o
 documentado, con anexos de datos, límites de detección, incertidumbres,
 criterios de exclusión y recomendación de cierre, repetición o
 confirmación condicionada.
 
-## **XII.6. Condición de parada económica y científica** {#xii6-condicin-de-parada-econmica-y-cientfica}
-
+## XII.6. Condición de parada económica y científica
 La condición de parada evita que el protocolo se convierta en búsqueda
 indefinida. El ensayo debe detenerse cuando el residual queda absorbido
 por `Ω118`, cuando la muestra no contiene microfrontera admisible,
@@ -2965,8 +2721,7 @@ de datos sin función. La determinación dirigida de SV-399 sólo conserva
 fuerza si puede aceptar tres finales: cierre por descarte, cierre por
 candidato o conservación de `U` con repetición técnicamente justificada.
 
-## **XII.7. Justificación de financiabilidad: diana cerrada, matriz cerrada, microfrontera, umbral térmico y valor tecnológico** {#xii7-justificacin-de-financiabilidad-diana-cerrada-matriz-cerrada-microfrontera-umbral-trmico-y-valor-tecnolgico}
-
+## XII.7. Justificación de financiabilidad: diana cerrada, matriz cerrada, microfrontera, umbral térmico y valor tecnológico
 La financiabilidad del protocolo se sostiene porque la diana no es
 abierta. SV-399 está definida por composición estructural, posición,
 residuo actínico medio, componente refractario de referencia de
@@ -2976,7 +2731,7 @@ instrumental con alcance, costes y salidas declaradas. La financiación
 no se pide para buscar anomalías genéricas, sino para decidir una diana
 concreta. La matriz también está cerrada. Scheelita y wolframita reducen
 el campo de muestra y fijan la referencia W. Las microfronteras
-W--U/Th--REE/Zr reducen todavía más el dominio experimental y evitan
+W–U/Th–REE/Zr reducen todavía más el dominio experimental y evitan
 dispersión hacia minerales complejos sin relación directa con la diana.
 La exigencia de co-localización y sustracción `Ω118` convierte el gasto
 en una prueba de contraste, no en una exploración difusa. Esa precisión
@@ -2994,15 +2749,13 @@ financiación habrá delimitado un descarte útil. Si es indeterminado,
 habrá fijado la repetición necesaria. Si es candidato, habrá abierto un
 campo material de alto valor bajo trazabilidad.
 
-# **XIII. Conclusión y justificación del elemento químico SV-399** {#xiii-conclusin-y-justificacin-del-elemento-qumico-sv-399}
-
-## **XIII.1. SV-399 como diana de determinación dirigida** {#xiii1-sv-399-como-diana-de-determinacin-dirigida}
-
+# XIII. Conclusión y justificación del elemento químico SV-399
+## XIII.1. SV-399 como diana de determinación dirigida
 SV-399 queda justificado en este trabajo como diana de determinación
 dirigida, no como nombre especulativo ni como búsqueda abierta de
-anomalías. Su definición estructural ---Actinio (Ac) + 3 Oganesón (Og) +
-Tungsteno/Wolframio (W)--- antecede al ensayo, fija el dominio de
-lectura y obliga a que cualquier retorno material conserve relación con
+anomalías. Su definición estructural —Actinio (Ac) + 3 Oganesón (Og) +
+Tungsteno/Wolframio (W)— antecede al ensayo, fija el dominio de lectura
+y obliga a que cualquier retorno material conserve relación con
 composición, matriz, microfrontera, sustracción y residual. La diana no
 nace de una muestra concreta; la muestra sólo puede devolver, descartar
 o dejar indeterminada la posibilidad de retorno bajo condiciones
@@ -3010,10 +2763,10 @@ declaradas. La determinación dirigida exige que el ensayo no se desplace
 hacia cualquier señal pesada, cualquier entorno actínico o cualquier
 mineral de Tungsteno/Wolframio (W). El caso SV-399 sólo puede abrirse
 cuando concurren matriz de scheelita o wolframita, microdominio de
-transición W--U/Th--REE/Zr, agotamiento de `Ω118`, persistencia residual
-y trazabilidad instrumental suficiente. La diana queda protegida frente
-a dos desviaciones: aceptar una irregularidad ordinaria como candidato,
-o negar el dominio SV por ausencia local de retorno en una muestra
+transición W–U/Th–REE/Zr, agotamiento de `Ω118`, persistencia residual y
+trazabilidad instrumental suficiente. La diana queda protegida frente a
+dos desviaciones: aceptar una irregularidad ordinaria como candidato, o
+negar el dominio SV por ausencia local de retorno en una muestra
 insuficiente. La fuerza de SV-399 reside en que puede fallar de forma
 controlada. Si no hay residual, se descarta. Si la señal no conserva
 co-localización, matriz o frontera, se descarta o queda como `U`
@@ -3022,8 +2775,7 @@ restricciones, avanza como candidato. La diana es seria precisamente
 porque no necesita forzar el resultado favorable: admite retorno
 positivo, descarte o indeterminación honesta.
 
-## **XIII.2. Residual actínico-refractario como objeto instrumental** {#xiii2-residual-actnico-refractario-como-objeto-instrumental}
-
+## XIII.2. Residual actínico-refractario como objeto instrumental
 El objeto instrumental de este estudio no es una sustancia aislada de
 forma macroscópica ni un nuevo elemento reconocido por vía
 institucional, sino un residual actínico-refractario materialmente
@@ -3048,15 +2800,14 @@ conserva y qué relación mantiene con la microfrontera. Sin esa cadena,
 no hay residual admisible; sólo hay dato incompleto, señal explicable o
 indeterminación material.
 
-## **XIII.3. Scheelita/wolframita como matriz cerrada de primera elección** {#xiii3-scheelitawolframita-como-matriz-cerrada-de-primera-eleccin}
-
+## XIII.3. Scheelita/wolframita como matriz cerrada de primera elección
 Scheelita y wolframita quedan justificadas como matriz cerrada de
 primera elección porque contienen la referencia material del
 Tungsteno/Wolframio (W) y permiten buscar la diana en un dominio
 mineralógico real, preparado para microanálisis y sustracción. La
 elección no abre una prospección genérica de minerales complejos. Al
 contrario, reduce el campo experimental a matrices donde la función
-refractaria de W puede ponerse en relación con la ventana U/Th--REE/Zr.
+refractaria de W puede ponerse en relación con la ventana U/Th–REE/Zr.
 La matriz cerrada evita tres falsos positivos. El primero sería aceptar
 un residual pesado fuera de scheelita o wolframita como si perteneciera
 al protocolo. El segundo sería aceptar una señal de Uranio (U), Torio
@@ -3068,12 +2819,11 @@ primera elección de scheelita y wolframita tampoco impide ensayos
 posteriores en otros dominios si una futura ampliación lo justificase
 formal y materialmente. En este trabajo, sin embargo, el protocolo queda
 cerrado donde debe quedar cerrado: matrices W, microfronteras
-W--U/Th--REE/Zr, controles NORM, sustracción `Ω118` y dictamen de
+W–U/Th–REE/Zr, controles NORM, sustracción `Ω118` y dictamen de
 candidato, descarte o `U`. Esa restricción hace financiable, auditable y
 refutable la prueba.
 
-## **XIII.4. Microdominios de transición W--U/Th--REE/Zr como región de prueba** {#xiii4-microdominios-de-transicin-wuthreezr-como-regin-de-prueba}
-
+## XIII.4. Microdominios de transición W–U/Th–REE/Zr como región de prueba
 La región de prueba no coincide con la muestra completa. Se sitúa en
 microdominios de transición de Tungsteno/Wolframio (W), localizados en
 contactos, bordes, inclusiones, venillas, halos o zonas de reemplazo,
@@ -3089,7 +2839,7 @@ que no conserva correspondencia espacial, una fase que no puede
 identificarse o una concentración que se explica por mineralogía
 ordinaria no bastan para abrir candidato. La región de prueba exige
 continuidad entre imagen, composición, traza, sustracción y residual. La
-microfrontera W--U/Th--REE/Zr es también la defensa frente a la
+microfrontera W–U/Th–REE/Zr es también la defensa frente a la
 arbitrariedad. No se busca todo lo extraño; se busca una diferencia
 persistente en un lugar material previamente definido. Por eso la prueba
 puede auditarse: se conocen las coordenadas, la fase, la vecindad
@@ -3097,8 +2847,7 @@ elemental, lo absorbido, lo persistente y el criterio de decisión. La
 región de prueba transforma la diana estructural en una pregunta
 instrumental precisa.
 
-## **XIII.5. Intersección entre propiedades SV, K_Θ \> 4.500 °C y supervivencia estructural extrema** {#xiii5-interseccin-entre-propiedades-sv-k-4500-c-y-supervivencia-estructural-extrema}
-
+## XIII.5. Intersección entre propiedades SV, K_Θ > 4.500 °C y supervivencia estructural extrema
 La justificación de SV-399 no depende sólo de su posición estructural ni
 sólo de su posible retorno analítico. El interés de la diana aumenta
 porque aparece vinculada al dominio térmico `K_Θ > 4.500 °C` y a la
@@ -3123,14 +2872,13 @@ exigiría confirmación condicionada. En los tres casos, el protocolo
 aporta conocimiento porque cruza definición SV, tabla reconocida,
 mineralogía, microanálisis y exigencia tecnológica.
 
-## **XIII.6. Resultado esperado: candidato, descarte o indeterminación material justificada** {#xiii6-resultado-esperado-candidato-descarte-o-indeterminacin-material-justificada}
-
+## XIII.6. Resultado esperado: candidato, descarte o indeterminación material justificada
 El resultado esperado no se formula como éxito obligatorio. El protocolo
 admite tres salidas: candidato SV-399, descarte o indeterminación
 material justificada. Esta triple salida conserva la honestidad del
 ensayo y evita convertir una diana estructural en una afirmación
 empírica sin retorno. El candidato sólo procede si el residual persiste
-tras `Ω118`, conserva co-localización W--U/Th--REE/Zr, pertenece a
+tras `Ω118`, conserva co-localización W–U/Th–REE/Zr, pertenece a
 scheelita o wolframita, atraviesa los controles de interferencia y
 mantiene compatibilidad con el dominio actínico-refractario. El descarte
 procede cuando la señal queda absorbida por la tabla reconocida, por
@@ -3147,8 +2895,7 @@ condicionada. `U` no es una concesión retórica. Es una decisión de
 frontera: lo no resuelto no se proclama ni se borra; queda trazado para
 repetición, mejora instrumental o parada.
 
-## **XIII.7. Cierre: por qué SV-399 es el primer candidato dirigido de esta línea experimental** {#xiii7-cierre-por-qu-sv-399-es-el-primer-candidato-dirigido-de-esta-lnea-experimental}
-
+## XIII.7. Cierre: por qué SV-399 es el primer candidato dirigido de esta línea experimental
 SV-399 se justifica como primer candidato dirigido de esta línea
 experimental porque reúne condiciones que permiten convertir una entrada
 estructural SV en protocolo material cerrado. Tiene composición
@@ -3162,7 +2909,7 @@ el único nodo relevante ni que el resultado positivo esté garantizado.
 Significa que es el nodo con mejor capacidad inicial de retorno
 instrumental bajo un protocolo cerrado. Otros nodos podrían requerir
 matrices, ventanas o técnicas distintas. SV-399, en cambio, permite una
-primera prueba donde la referencia W y la ventana U/Th--REE/Zr se
+primera prueba donde la referencia W y la ventana U/Th–REE/Zr se
 encuentran en dominios mineralógicos existentes, y donde el interés
 tecnológico por materiales extremos añade una razón fuerte para
 financiar el contraste. El estudio queda preparado para avanzar sin
@@ -3174,8 +2921,7 @@ caso. Por eso SV-399 puede ocupar el lugar de primer candidato dirigido:
 no por prioridad retórica, sino por concentración de restricciones y
 posibilidad de retorno auditado.
 
-## **XIII.8. Corolario de precedencia estructural** {#xiii8-corolario-de-precedencia-estructural}
-
+## XIII.8. Corolario de precedencia estructural
 Si el ensayo devolviera un candidato SV-399, el resultado no afectaría
 sólo a un punto aislado. Por precedencia estructural, la aparición de un
 residual actínico-refractario compatible con SV-399 reforzaría la cadena
@@ -3204,12 +2950,10 @@ trabajo: SV-399 no se presenta como nombre suelto, sino como diana
 trazada dentro de una cadena que sólo adquiere valor material cuando
 conserva frontera, residual y retorno.
 
-------------------------------------------------------------------------
+---
 
-# **Anexos**
-
-## **Anexo A. Tabla de símbolos, nombres y funciones: Actinio (Ac), Oganesón (Og), Tungsteno/Wolframio (W), Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr)** {#anexo-a-tabla-de-smbolos-nombres-y-funciones-actinio-ac-oganesn-og-tungstenowolframio-w-uranio-u-torio-th-reeetr-y-zirconio-zr}
-
+# Anexos
+## Anexo A. Tabla de símbolos, nombres y funciones: Actinio (Ac), Oganesón (Og), Tungsteno/Wolframio (W), Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr)
 Este anexo fija la lectura técnica de los símbolos que gobiernan la
 determinación dirigida de SV-399. Su función es impedir que una misma
 abreviatura cambie de plano durante el ensayo: una cosa es el símbolo
@@ -3220,21 +2964,21 @@ indeterminación material justificada. La tabla siguiente no sustituye la
 nomenclatura química ordinaria ni introduce reconocimiento institucional
 nuevo; ordena el uso de los nombres y símbolos dentro de este protocolo.
 
-  **Símbolo**   **Nombre**                                         **Función dentro de la diana SV-399**                                                              **Función dentro del protocolo material**                                                                                           **Lectura excluida**
-  ------------- -------------------------------------------------- -------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------
-  `SV-399`      Elemento químico estructural SV-399                Diana definida por `Ac+3Og+W`, situada en el dominio extendido SV y sometida a retorno material.   Objeto de determinación dirigida mediante residual actínico-refractario en microfronteras de scheelita y wolframita.                No es elemento IUPAC 399, no es síntesis nuclear proclamada y no es nombre genérico para anomalías pesadas.
-  `Ac`          Actinio                                            Marca la componente actínica de la diana y el residuo medio que estructura la posición SV-399.     Orienta la lectura del residual hacia una ventana actínica sin exigir que Actinio (Ac) aparezca como sustancia aislada ordinaria.   No se busca Actinio (Ac) aislado ni se acepta una señal actínica sin componente de referencia de Tungsteno/Wolframio (W).
-  `Og`          Oganesón                                           Opera como término de frontera reconocida dentro de la composición estructural `Ac+3Og+W`.         No se manipula, no se mide como reactivo y no se exige como presencia mineral; gobierna la lectura estructural de la diana.         No es reactivo material, no es producto de laboratorio en este protocolo y no autoriza lectura de síntesis nuclear.
-  `W`           Tungsteno/Wolframio                                Aporta el componente refractario de referencia y conecta SV-399 con el dominio térmico `K_Θ`.      Define la matriz de ensayo mediante scheelita y wolframita, y exige microfrontera W--U/Th--REE/Zr.                                  No basta Tungsteno/Wolframio (W) aislado, ni una mena de W sin vecindad actínica-mineralógica.
-  `U`           Uranio                                             Contribuye a la ventana actínica de contraste, subordinada a la diana SV-399.                      Activa control NORM, trazabilidad radiológica y lectura de vecindad con W, Th, REE/ETR y Zr.                                        No equivale a candidato por sí mismo; una señal de Uranio (U) sin W y sin residual no identifica SV-399.
-  `Th`          Torio                                              Contribuye a la ventana actínica de contraste junto a Uranio (U).                                  Activa control NORM, productos radiogénicos esperables y contraste de microdominios con W.                                          No equivale a residual admisible sin co-localización, sustracción y control de interferencias.
-  `REE/ETR`     Rare Earth Elements / Elementos de Tierras Raras   Señalan una vecindad geoquímica relevante en el entorno W--U/Th--Zr.                               Ayudan a seleccionar microdominios de transición y a distinguir fases accesorias, halos, inclusiones o zonas de reemplazo.          No son prueba autónoma de SV-399 ni sustituyen la exigencia de residual actínico-refractario.
-  `Zr`          Zirconio                                           Opera como componente de vecindad geoquímica y de control en regiones internas de transición.      Ayuda a localizar microfronteras, fases accesorias y relaciones de alta estabilidad mineralógica con U/Th--REE.                     No se interpreta como diana principal ni como sustituto del componente de referencia de Tungsteno/Wolframio (W).
+| **Símbolo** | **Nombre**                                       | **Función dentro de la diana SV-399**                                                            | **Función dentro del protocolo material**                                                                                         | **Lectura excluida**                                                                                                      |
+|:------------|:-------------------------------------------------|:-------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------|
+| `SV-399`    | Elemento químico estructural SV-399              | Diana definida por `Ac+3Og+W`, situada en el dominio extendido SV y sometida a retorno material. | Objeto de determinación dirigida mediante residual actínico-refractario en microfronteras de scheelita y wolframita.              | No es elemento IUPAC 399, no es síntesis nuclear proclamada y no es nombre genérico para anomalías pesadas.               |
+| `Ac`        | Actinio                                          | Marca la componente actínica de la diana y el residuo medio que estructura la posición SV-399.   | Orienta la lectura del residual hacia una ventana actínica sin exigir que Actinio (Ac) aparezca como sustancia aislada ordinaria. | No se busca Actinio (Ac) aislado ni se acepta una señal actínica sin componente de referencia de Tungsteno/Wolframio (W). |
+| `Og`        | Oganesón                                         | Opera como término de frontera reconocida dentro de la composición estructural `Ac+3Og+W`.       | No se manipula, no se mide como reactivo y no se exige como presencia mineral; gobierna la lectura estructural de la diana.       | No es reactivo material, no es producto de laboratorio en este protocolo y no autoriza lectura de síntesis nuclear.       |
+| `W`         | Tungsteno/Wolframio                              | Aporta el componente refractario de referencia y conecta SV-399 con el dominio térmico `K_Θ`.    | Define la matriz de ensayo mediante scheelita y wolframita, y exige microfrontera W–U/Th–REE/Zr.                                  | No basta Tungsteno/Wolframio (W) aislado, ni una mena de W sin vecindad actínica-mineralógica.                            |
+| `U`         | Uranio                                           | Contribuye a la ventana actínica de contraste, subordinada a la diana SV-399.                    | Activa control NORM, trazabilidad radiológica y lectura de vecindad con W, Th, REE/ETR y Zr.                                      | No equivale a candidato por sí mismo; una señal de Uranio (U) sin W y sin residual no identifica SV-399.                  |
+| `Th`        | Torio                                            | Contribuye a la ventana actínica de contraste junto a Uranio (U).                                | Activa control NORM, productos radiogénicos esperables y contraste de microdominios con W.                                        | No equivale a residual admisible sin co-localización, sustracción y control de interferencias.                            |
+| `REE/ETR`   | Rare Earth Elements / Elementos de Tierras Raras | Señalan una vecindad geoquímica relevante en el entorno W–U/Th–Zr.                               | Ayudan a seleccionar microdominios de transición y a distinguir fases accesorias, halos, inclusiones o zonas de reemplazo.        | No son prueba autónoma de SV-399 ni sustituyen la exigencia de residual actínico-refractario.                             |
+| `Zr`        | Zirconio                                         | Opera como componente de vecindad geoquímica y de control en regiones internas de transición.    | Ayuda a localizar microfronteras, fases accesorias y relaciones de alta estabilidad mineralógica con U/Th–REE.                    | No se interpreta como diana principal ni como sustituto del componente de referencia de Tungsteno/Wolframio (W).          |
 
 La lectura conjunta de estos símbolos impide aceptar una señal parcial
 como candidato. SV-399 exige que el componente de referencia de
 Tungsteno/Wolframio (W), la vecindad Uranio (U)/Torio
-(Th)--REE/ETR--Zirconio (Zr), la sustracción por `Ω118`, la persistencia
+(Th)–REE/ETR–Zirconio (Zr), la sustracción por `Ω118`, la persistencia
 del residual y la conservación de frontera se presenten de forma
 compatible. Si uno de los elementos de la tabla aparece sin los demás,
 el resultado puede tener valor mineralógico, geoquímico, radiológico o
@@ -3254,8 +2998,7 @@ queda absorbido por `Ω118` o por explicaciones ordinarias, procede
 descarte; si la señal no permite decisión honesta, procede `U` como
 indeterminación material justificada.
 
-## **Anexo B. Ficha técnica SV-399** {#anexo-b-ficha-tcnica-sv-399}
-
+## Anexo B. Ficha técnica SV-399
 Esta ficha fija la diana SV-399 en una forma operativa única para
 lectura técnica, laboratorio, revisión externa y trazabilidad de
 dictamen. No sustituye el desarrollo argumental del cuerpo principal; lo
@@ -3266,60 +3009,58 @@ elemento reconocido por IUPAC ni en producto de síntesis nuclear;
 preserva su condición de elemento químico estructural sometido a
 determinación material dirigida.
 
-  **Campo**                                 **Definición técnica**
-  ----------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------
-  Denominación                              SV-399.
-  Naturaleza en este trabajo                Elemento químico estructural del dominio SV sometido a retorno material.
-  Composición estructural                   Actinio (Ac) + 3 Oganesón (Og) + Tungsteno/Wolframio (W).
-  Lectura compacta                          `Ac+3Og+W`.
-  Índice estructural                        `k=399`.
-  Retorno estructural declarado             `Z_SV=517`.
-  Dominio de contraste externo              Tabla reconocida hasta `Ω118`.
-  Banco de sustracción                      Todos los elementos reconocidos como absorbibles ordinarios, junto a productos radiogénicos, fases accesorias, impurezas e interferencias instrumentales.
-  Matriz mineralógica de primera elección   Scheelita y wolframita.
-  Componente material obligatorio           Tungsteno/Wolframio (W) en microfrontera.
-  Ventana geoquímica obligatoria            Vecindad Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr).
-  Región interna admisible                  Contactos, bordes, inclusiones, venillas, halos o zonas de reemplazo con relación W--U/Th--REE/Zr.
-  Objeto instrumental                       Residual actínico-refractario persistente, co-localizado y no absorbible por `Ω118`.
-  Dominio térmico asociado                  `K_Θ > 4.500 °C`.
-  Magnitud térmica estructural declarada    `Θ_max=4.690 °C`.
-  Criterio tecnológico adicional            Conservación de frontera bajo estrés acoplado.
-  Técnicas de primera línea                 SEM-BSE/EDS, EPMA-WDS, Raman/XRD y LA-ICP-MS.
-  Técnicas de confirmación condicionada     MC-ICP-MS, TIMS, SIMS o NanoSIMS, según disponibilidad, sensibilidad y naturaleza del residual.
-  Controles obligatorios                    Blancos, duplicados, controles positivos, controles negativos, control NORM, control de interferencias y reconstrucción de lo absorbido.
-  Salidas admisibles                        Candidato SV-399, descarte o indeterminación material justificada.
-  Lecturas excluidas                        Síntesis nuclear, proclamación IUPAC, uso de Oganesón como reactivo, anomalía pesada genérica o señal W aislada sin ventana actínica.
+| **Campo**                               | **Definición técnica**                                                                                                                                    |
+|:----------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Denominación                            | SV-399.                                                                                                                                                   |
+| Naturaleza en este trabajo              | Elemento químico estructural del dominio SV sometido a retorno material.                                                                                  |
+| Composición estructural                 | Actinio (Ac) + 3 Oganesón (Og) + Tungsteno/Wolframio (W).                                                                                                 |
+| Lectura compacta                        | `Ac+3Og+W`.                                                                                                                                               |
+| Índice estructural                      | `k=399`.                                                                                                                                                  |
+| Retorno estructural declarado           | `Z_SV=517`.                                                                                                                                               |
+| Dominio de contraste externo            | Tabla reconocida hasta `Ω118`.                                                                                                                            |
+| Banco de sustracción                    | Todos los elementos reconocidos como absorbibles ordinarios, junto a productos radiogénicos, fases accesorias, impurezas e interferencias instrumentales. |
+| Matriz mineralógica de primera elección | Scheelita y wolframita.                                                                                                                                   |
+| Componente material obligatorio         | Tungsteno/Wolframio (W) en microfrontera.                                                                                                                 |
+| Ventana geoquímica obligatoria          | Vecindad Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr).                                                                                                 |
+| Región interna admisible                | Contactos, bordes, inclusiones, venillas, halos o zonas de reemplazo con relación W–U/Th–REE/Zr.                                                          |
+| Objeto instrumental                     | Residual actínico-refractario persistente, co-localizado y no absorbible por `Ω118`.                                                                      |
+| Dominio térmico asociado                | `K_Θ > 4.500 °C`.                                                                                                                                         |
+| Magnitud térmica estructural declarada  | `Θ_max=4.690 °C`.                                                                                                                                         |
+| Criterio tecnológico adicional          | Conservación de frontera bajo estrés acoplado.                                                                                                            |
+| Técnicas de primera línea               | SEM-BSE/EDS, EPMA-WDS, Raman/XRD y LA-ICP-MS.                                                                                                             |
+| Técnicas de confirmación condicionada   | MC-ICP-MS, TIMS, SIMS o NanoSIMS, según disponibilidad, sensibilidad y naturaleza del residual.                                                           |
+| Controles obligatorios                  | Blancos, duplicados, controles positivos, controles negativos, control NORM, control de interferencias y reconstrucción de lo absorbido.                  |
+| Salidas admisibles                      | Candidato SV-399, descarte o indeterminación material justificada.                                                                                        |
+| Lecturas excluidas                      | Síntesis nuclear, proclamación IUPAC, uso de Oganesón como reactivo, anomalía pesada genérica o señal W aislada sin ventana actínica.                     |
 
 La ficha obliga a leer SV-399 como diana compuesta por restricciones. El
 nombre no basta; la composición estructural tampoco basta; la matriz
 mineralógica tampoco basta; el umbral térmico tampoco basta. Sólo la
 concurrencia de composición SV, componente de referencia de
-Tungsteno/Wolframio (W), ventana Uranio (U)/Torio
-(Th)--REE/ETR--Zirconio (Zr), sustracción `Ω118`, persistencia residual,
-frontera material y conservación bajo estrés acoplado permite formular
-candidato. Cualquier lectura parcial debe quedar devuelta a su dominio:
-química reconocida, mineralogía, radiogénesis, traza, interferencia,
-descarte o `U`. La ficha también fija una regla negativa. No se busca
-Oganesón (Og) natural en la muestra, no se exige Actinio (Ac) aislado
-como fase independiente y no se acepta Tungsteno/Wolframio (W) como
-indicador suficiente. La fórmula `Ac+3Og+W` define la diana en el
-dominio SV; el ensayo material sólo puede buscar su retorno mediante un
-residual actínico-refractario que sobreviva a la sustracción ordinaria y
-conserve localización en microfrontera. Si la señal no puede ser
-reconstruida con coordenada, fase, composición, traza, técnica, control
-y dictamen, no entra en la ficha como resultado admisible. La decisión
-final debe conservar trazabilidad. Un dictamen positivo debe indicar
-muestra, región, técnica, mapas, espectros, tabla de elementos
-absorbidos, residual persistente, control de interferencias, control
-radiológico y razón por la que el residual no queda absorbido por
-`Ω118`. Un dictamen negativo debe indicar qué absorbió la señal o qué
-condición faltó. Una indeterminación material justificada debe indicar
-qué impidió decidir y qué repetición o confirmación sería necesaria.
-Esta ficha, por tanto, convierte SV-399 en objeto técnico auditable, no
-en afirmación abierta.
+Tungsteno/Wolframio (W), ventana Uranio (U)/Torio (Th)–REE/ETR–Zirconio
+(Zr), sustracción `Ω118`, persistencia residual, frontera material y
+conservación bajo estrés acoplado permite formular candidato. Cualquier
+lectura parcial debe quedar devuelta a su dominio: química reconocida,
+mineralogía, radiogénesis, traza, interferencia, descarte o `U`. La
+ficha también fija una regla negativa. No se busca Oganesón (Og) natural
+en la muestra, no se exige Actinio (Ac) aislado como fase independiente
+y no se acepta Tungsteno/Wolframio (W) como indicador suficiente. La
+fórmula `Ac+3Og+W` define la diana en el dominio SV; el ensayo material
+sólo puede buscar su retorno mediante un residual actínico-refractario
+que sobreviva a la sustracción ordinaria y conserve localización en
+microfrontera. Si la señal no puede ser reconstruida con coordenada,
+fase, composición, traza, técnica, control y dictamen, no entra en la
+ficha como resultado admisible. La decisión final debe conservar
+trazabilidad. Un dictamen positivo debe indicar muestra, región,
+técnica, mapas, espectros, tabla de elementos absorbidos, residual
+persistente, control de interferencias, control radiológico y razón por
+la que el residual no queda absorbido por `Ω118`. Un dictamen negativo
+debe indicar qué absorbió la señal o qué condición faltó. Una
+indeterminación material justificada debe indicar qué impidió decidir y
+qué repetición o confirmación sería necesaria. Esta ficha, por tanto,
+convierte SV-399 en objeto técnico auditable, no en afirmación abierta.
 
-## **Anexo C. Matriz de controles positivos, negativos y blancos** {#anexo-c-matriz-de-controles-positivos-negativos-y-blancos}
-
+## Anexo C. Matriz de controles positivos, negativos y blancos
 La matriz de controles fija las condiciones de aceptabilidad del
 protocolo antes de interpretar cualquier señal como retorno SV-399. Su
 función es impedir que una variación analítica ordinaria, una
@@ -3343,22 +3084,22 @@ resina, montaje, pulido, transporte, ambiente de medida, calibración y
 línea instrumental no introducen una señal que pueda confundirse con
 residual.
 
-  **Familia de control**                 **Material o región de control**                                                        **Función técnica**                                                            **Resultado esperado**                                                            **Dictamen si falla**
-  -------------------------------------- --------------------------------------------------------------------------------------- ------------------------------------------------------------------------------ --------------------------------------------------------------------------------- --------------------------------------------------------------------------------
-  Control positivo W                     Región conocida de scheelita o wolframita con señal clara de Tungsteno/Wolframio (W).   Confirmar que la referencia W se detecta, cartografía y conserva coordenada.   Señal W estable en SEM-BSE/EDS, EPMA-WDS y/o LA-ICP-MS, según técnica aplicada.   No interpretar microfronteras si la referencia W no se reconstruye.
-  Control positivo U/Th                  Región o patrón con Uranio (U) o Torio (Th) verificable.                                Confirmar sensibilidad y trazabilidad para ventana actínica.                   Señal U/Th detectada con coordenada y control radiológico compatible.             Suspender lectura actínica hasta repetir o corregir configuración.
-  Control positivo REE/ETR               Región o referencia con tierras raras identificables.                                   Verificar lectura de REE/ETR y separación frente a interferencias.             Perfil REE/ETR coherente y repetible.                                             No aceptar co-localización REE/ETR como soporte de ventana.
-  Control positivo Zr                    Región o referencia con Zirconio (Zr) verificable.                                      Controlar presencia de fases o microdominios asociados a Zr.                   Señal Zr localizada y separable de matriz.                                        No usar Zr como criterio auxiliar de frontera.
-  Control positivo de co-localización    Microdominio conocido o reconstruible con W y trazas U/Th--REE/Zr.                      Verificar que el sistema detecta asociaciones espaciales reales.               Superposición espacial compatible, sin desplazamiento artefactual entre mapas.    No admitir co-localización en muestras diana.
-  Control negativo W aislado             Región rica en Tungsteno/Wolframio (W) sin vecindad U/Th--REE/Zr.                       Acreditar que W por sí solo no genera candidato.                               Señal W absorbida por lectura mineralógica ordinaria.                             Si aparece residual compatible, revisar contaminación, interferencia o matriz.
-  Control negativo actínico sin W        Región con U/Th o REE/ETR sin referencia W.                                             Acreditar que la ventana actínica no basta sin Tungsteno/Wolframio (W).        Señal absorbida por geoquímica ordinaria o radiogénesis.                          Si aparece candidato aparente, descartar como SV-399 por falta de referencia.
-  Control negativo matriz no admisible   Mineral, soporte o región sin scheelita/wolframita ni microfrontera W.                  Confirmar que el protocolo no genera candidato fuera de matriz.                Ausencia de residual SV-399.                                                      Invalidar lectura si la señal aparece fuera de dominio.
-  Blanco de preparación                  Resina, soporte, lámina, pulido y montaje sin muestra activa.                           Detectar contaminación de preparación.                                         Ausencia de señal compatible con residual.                                        Repreparar muestra; no dictaminar.
-  Blanco instrumental                    Medición sin región diana o con zona inerte declarada.                                  Detectar arrastre, deriva o contribución instrumental.                         Ausencia de señal compatible con residual.                                        Recalibrar o repetir secuencia.
-  Blanco de secuencia                    Medición intercalada entre muestras.                                                    Controlar memoria instrumental y arrastre entre puntos.                        Señal de fondo estable, sin persistencia de la muestra anterior.                  No usar la serie afectada para dictamen.
-  Duplicado de muestra                   Segundo montaje o segunda región equivalente de la misma muestra.                       Verificar que el retorno no depende de una preparación aislada.                Reproducción compatible de coordenada, fase o patrón residual.                    Mantener `U` o descarte material según pérdida de reproducibilidad.
-  Repetición técnica                     Segunda medición con la misma técnica y parámetros declarados.                          Confirmar estabilidad de señal.                                                Persistencia compatible dentro de tolerancia técnica declarada.                   No admitir candidato por lectura única.
-  Confirmación cruzada                   Técnica distinta cuando el residual lo exija.                                           Separar señal real de artefacto específico de una técnica.                     Compatibilidad entre mapas, perfiles, fase y composición.                         Mantener `U` hasta confirmación o descarte.
+| **Familia de control**               | **Material o región de control**                                                      | **Función técnica**                                                          | **Resultado esperado**                                                          | **Dictamen si falla**                                                          |
+|:-------------------------------------|:--------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|:--------------------------------------------------------------------------------|:-------------------------------------------------------------------------------|
+| Control positivo W                   | Región conocida de scheelita o wolframita con señal clara de Tungsteno/Wolframio (W). | Confirmar que la referencia W se detecta, cartografía y conserva coordenada. | Señal W estable en SEM-BSE/EDS, EPMA-WDS y/o LA-ICP-MS, según técnica aplicada. | No interpretar microfronteras si la referencia W no se reconstruye.            |
+| Control positivo U/Th                | Región o patrón con Uranio (U) o Torio (Th) verificable.                              | Confirmar sensibilidad y trazabilidad para ventana actínica.                 | Señal U/Th detectada con coordenada y control radiológico compatible.           | Suspender lectura actínica hasta repetir o corregir configuración.             |
+| Control positivo REE/ETR             | Región o referencia con tierras raras identificables.                                 | Verificar lectura de REE/ETR y separación frente a interferencias.           | Perfil REE/ETR coherente y repetible.                                           | No aceptar co-localización REE/ETR como soporte de ventana.                    |
+| Control positivo Zr                  | Región o referencia con Zirconio (Zr) verificable.                                    | Controlar presencia de fases o microdominios asociados a Zr.                 | Señal Zr localizada y separable de matriz.                                      | No usar Zr como criterio auxiliar de frontera.                                 |
+| Control positivo de co-localización  | Microdominio conocido o reconstruible con W y trazas U/Th–REE/Zr.                     | Verificar que el sistema detecta asociaciones espaciales reales.             | Superposición espacial compatible, sin desplazamiento artefactual entre mapas.  | No admitir co-localización en muestras diana.                                  |
+| Control negativo W aislado           | Región rica en Tungsteno/Wolframio (W) sin vecindad U/Th–REE/Zr.                      | Acreditar que W por sí solo no genera candidato.                             | Señal W absorbida por lectura mineralógica ordinaria.                           | Si aparece residual compatible, revisar contaminación, interferencia o matriz. |
+| Control negativo actínico sin W      | Región con U/Th o REE/ETR sin referencia W.                                           | Acreditar que la ventana actínica no basta sin Tungsteno/Wolframio (W).      | Señal absorbida por geoquímica ordinaria o radiogénesis.                        | Si aparece candidato aparente, descartar como SV-399 por falta de referencia.  |
+| Control negativo matriz no admisible | Mineral, soporte o región sin scheelita/wolframita ni microfrontera W.                | Confirmar que el protocolo no genera candidato fuera de matriz.              | Ausencia de residual SV-399.                                                    | Invalidar lectura si la señal aparece fuera de dominio.                        |
+| Blanco de preparación                | Resina, soporte, lámina, pulido y montaje sin muestra activa.                         | Detectar contaminación de preparación.                                       | Ausencia de señal compatible con residual.                                      | Repreparar muestra; no dictaminar.                                             |
+| Blanco instrumental                  | Medición sin región diana o con zona inerte declarada.                                | Detectar arrastre, deriva o contribución instrumental.                       | Ausencia de señal compatible con residual.                                      | Recalibrar o repetir secuencia.                                                |
+| Blanco de secuencia                  | Medición intercalada entre muestras.                                                  | Controlar memoria instrumental y arrastre entre puntos.                      | Señal de fondo estable, sin persistencia de la muestra anterior.                | No usar la serie afectada para dictamen.                                       |
+| Duplicado de muestra                 | Segundo montaje o segunda región equivalente de la misma muestra.                     | Verificar que el retorno no depende de una preparación aislada.              | Reproducción compatible de coordenada, fase o patrón residual.                  | Mantener `U` o descarte material según pérdida de reproducibilidad.            |
+| Repetición técnica                   | Segunda medición con la misma técnica y parámetros declarados.                        | Confirmar estabilidad de señal.                                              | Persistencia compatible dentro de tolerancia técnica declarada.                 | No admitir candidato por lectura única.                                        |
+| Confirmación cruzada                 | Técnica distinta cuando el residual lo exija.                                         | Separar señal real de artefacto específico de una técnica.                   | Compatibilidad entre mapas, perfiles, fase y composición.                       | Mantener `U` hasta confirmación o descarte.                                    |
 
 La regla de aceptación de controles es estricta. Un candidato SV-399
 sólo puede formularse si los controles positivos acreditan capacidad de
@@ -3388,16 +3129,16 @@ compatible con candidato, la interpretación SV queda suspendida y debe
 investigarse la causa instrumental, mineralógica o de preparación. La
 matriz final de decisión queda fijada mediante la siguiente tabla:
 
-  **Situación de control**                                                                         **Lectura autorizada**
-  ------------------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------------------------------
-  Positivos válidos, negativos válidos y blancos limpios; residual persistente en muestra diana.   Puede abrirse dictamen de candidato, siempre que se cumplan co-localización, frontera y sustracción `Ω118`.
-  Positivos válidos, negativos válidos y blancos limpios; sin residual tras sustracción.           Descarte de muestra, región o lote analizado.
-  Positivos válidos, negativos válidos y blancos limpios; residual no repetible.                   `U` o descarte según pérdida de coordenada, fase y persistencia.
-  Fallo de control positivo.                                                                       No hay capacidad acreditada de lectura; repetir técnica o configuración.
-  Señal compatible en blanco.                                                                      Serie no admisible para dictamen; repetir preparación o medición.
-  Señal compatible en control negativo.                                                            Suspender lectura SV; investigar interferencia, contaminación, fase accesoria o matriz.
-  Co-localización incompleta o desplazada.                                                         No formular candidato; repetir mapas o conservar `U`.
-  Confirmación cruzada incompatible.                                                               No formular candidato; resolver conflicto técnico o descartar.
+| **Situación de control**                                                                       | **Lectura autorizada**                                                                                      |
+|:-----------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------|
+| Positivos válidos, negativos válidos y blancos limpios; residual persistente en muestra diana. | Puede abrirse dictamen de candidato, siempre que se cumplan co-localización, frontera y sustracción `Ω118`. |
+| Positivos válidos, negativos válidos y blancos limpios; sin residual tras sustracción.         | Descarte de muestra, región o lote analizado.                                                               |
+| Positivos válidos, negativos válidos y blancos limpios; residual no repetible.                 | `U` o descarte según pérdida de coordenada, fase y persistencia.                                            |
+| Fallo de control positivo.                                                                     | No hay capacidad acreditada de lectura; repetir técnica o configuración.                                    |
+| Señal compatible en blanco.                                                                    | Serie no admisible para dictamen; repetir preparación o medición.                                           |
+| Señal compatible en control negativo.                                                          | Suspender lectura SV; investigar interferencia, contaminación, fase accesoria o matriz.                     |
+| Co-localización incompleta o desplazada.                                                       | No formular candidato; repetir mapas o conservar `U`.                                                       |
+| Confirmación cruzada incompatible.                                                             | No formular candidato; resolver conflicto técnico o descartar.                                              |
 
 Esta matriz debe acompañar toda entrega técnica. Un informe que declare
 candidato SV-399 sin tabla de controles positivos, negativos, blancos,
@@ -3408,8 +3149,7 @@ ordinaria cerró el retorno. La matriz de controles protege la
 determinación frente a afirmación prematura, descarte insuficiente e
 indeterminación no justificada.
 
-## **Anexo D. Matriz de interferencias Ω118** {#anexo-d-matriz-de-interferencias-118}
-
+## Anexo D. Matriz de interferencias Ω118
 La matriz de interferencias `Ω118` fija el conjunto de explicaciones
 ordinarias que deben ser agotadas antes de admitir un residual
 actínico-refractario asociado a SV-399. Su función no es debilitar la
@@ -3426,9 +3166,9 @@ cuando una fuente ordinaria reconstruible basta para explicarla. A la
 inversa, una señal no se admite por no haber encontrado explicación
 inmediata; sólo avanza cuando se ha reconstruido materialmente lo
 absorbido, cuando la co-localización se conserva, cuando los blancos no
-explican el retorno y cuando la matriz W--U/Th--REE/Zr mantiene
-frontera. Siguiendo la cadena de sustracción material, la regla
-operativa puede expresarse en estos términos:
+explican el retorno y cuando la matriz W–U/Th–REE/Zr mantiene frontera.
+Siguiendo la cadena de sustracción material, la regla operativa puede
+expresarse en estos términos:
 `R_SV-399 = R_medido − R_Ω118 − R_interferencia − R_radiogénico − R_matriz − R_blanco`.
 En esa expresión, `R_SV-399` designa el residual imputable a la diana
 después de sustracción; `R_medido` es la señal medida; `R_Ω118` es la
@@ -3440,27 +3180,27 @@ es nulo, el dictamen es descarte para la muestra, región o lote. Si la
 resta conserva diferencia pero ésta no mantiene coordenada, frontera,
 fase o repetición, el dictamen queda en `U` material justificada. Si la
 diferencia persiste, co-localiza con Tungsteno/Wolframio (W), queda en
-vecindad U/Th--REE/Zr, no es absorbible por `Ω118` y supera controles,
+vecindad U/Th–REE/Zr, no es absorbible por `Ω118` y supera controles,
 puede abrirse dictamen de candidato.
 
-  **Familia de interferencia**          **Fuente ordinaria posible**                                                             **Modo de imitación del residual**                                             **Control exigido**                                                                       **Dictamen si explica la señal**
-  ------------------------------------- ---------------------------------------------------------------------------------------- ------------------------------------------------------------------------------ ----------------------------------------------------------------------------------------- ----------------------------------------------------
-  Interferencia elemental directa       Elementos reconocidos de `Ω118` presentes en scheelita, wolframita o fases accesorias.   Señal atribuida falsamente a residual por no separar elementos ordinarios.     EPMA-WDS, LA-ICP-MS, mapas EDS y tabla de composición mayoritaria/minoritaria.            Absorción por `Ω118`; no hay candidato.
-  Interferencia isotópica               Isótopos naturales, radiogénicos o trazas isotópicas ordinarias.                         Coincidencia de masa, señal parcial o perfil compatible con cadena conocida.   Resolución de masas, patrón isotópico y comparación con cadenas U/Th.                     Absorción isotópica; descarte o repetición.
-  Óxidos                                MO⁺, MO₂⁺ o especies oxidadas de W, U, Th, REE/ETR, Zr u otros elementos.                Desplazamiento aparente de masa o creación de señal en ventana pesada.         Control de tasas de óxido, calibración, blancos y comparación entre masas relacionadas.   Interferencia oxidada; no admitir residual.
-  Hidruros                              MH⁺ o especies hidrogenadas generadas durante análisis.                                  Señal desplazada por una unidad de masa o superposición parcial.               Control de hidruros, condiciones de plasma, patrón interno y repetición.                  Interferencia hidruro; repetir configuración.
-  Aductos y especies moleculares        Combinaciones de matriz, plasma, gas, resina, soporte o elementos de muestra.            Formación de señales compuestas que parecen no elementales.                    Blanco de preparación, blanco instrumental y análisis de especies plausibles.             Absorción por especie molecular; no hay candidato.
-  Iones doblemente cargados             Iones M²⁺ de elementos pesados.                                                          Aparición en masa aparente inferior o superposición con ventana analítica.     Ajuste instrumental, control de doble carga y revisión de masas correlativas.             Interferencia de carga; repetir o descartar.
-  Cola de pico y saturación             Señales intensas de W, U, Th, REE/ETR o Zr.                                              Extensión de señal hacia regiones contiguas que simula residual.               Control de linealidad, detector, tiempos muertos y perfil de pico.                        No admitir residual hasta corregir lectura.
-  Deriva de masa y sesgo instrumental   Cambio de calibración, deriva temporal o sesgo de sensibilidad.                          Desplazamiento aparente de señal entre mediciones.                             Estándares antes/después, calibración interna y repetición secuencial.                    Serie no admisible para dictamen.
-  Efecto de matriz                      Diferencia de ablación, ionización o respuesta por fase mineral.                         Variación aparente no debida a nuevo residual, sino a matriz local.            Estándares de matriz compatible, normalización y comparación entre fases.                 Absorción por matriz; no candidato.
-  Fraccionamiento en LA-ICP-MS          Ablación diferencial de W, U, Th, REE/ETR, Zr o fases accesorias.                        Perfil temporal que puede parecer microdominio residual.                       Señal resuelta en tiempo, mapas, controles de cráter y repetición.                        Repetir o descartar según persistencia.
-  Inclusiones submicrométricas          Monacita, xenotima, circón, uraninita, torita u otras fases accesorias.                  Señal localizada que parece residual por quedar dentro de una zona W.          SEM-BSE/EDS, EPMA-WDS, Raman/XRD cuando proceda y mapas de fase.                          Absorción por fase accesoria; no SV-399.
-  Productos radiogénicos                Pb, He, productos de cadenas U/Th y descendientes asociados.                             Señal actínica aparente generada por evolución radiogénica ordinaria.          Reconstrucción de cadenas U/Th, ratios isotópicos y co-localización.                      Absorción radiogénica; no candidato.
-  Alteración hidrotermal                Halos, venillas, reemplazos, fracturas y bordes enriquecidos.                            Concentración local de elementos que parece frontera SV.                       Lectura textural, relación con venilla/halo, mineralogía secundaria y mapas.              Si explica señal, descarte como SV-399.
-  Contaminación de preparación          Resina, pulido, adhesivo, soporte, abrasivo, manipulación o transporte.                  Señal externa incorporada a la superficie o al montaje.                        Blanco de preparación, duplicado y revisión de superficie.                                Repreparar; no dictaminar.
-  Memoria instrumental                  Arrastre de muestra anterior o persistencia de señal en línea.                           Señal falsa en blanco, control o muestra posterior.                            Blanco de secuencia y orden alterno de medición.                                          Serie bloqueada hasta limpiar y repetir.
-  Desplazamiento espacial entre mapas   Registro imperfecto entre SEM, EPMA, Raman/XRD y LA-ICP-MS.                              Co-localización aparente por mala alineación de imágenes o escalas.            Registro de coordenadas, marcas de referencia y corrección geométrica.                    No aceptar co-localización.
+| **Familia de interferencia**        | **Fuente ordinaria posible**                                                           | **Modo de imitación del residual**                                           | **Control exigido**                                                                     | **Dictamen si explica la señal**                   |
+|:------------------------------------|:---------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|:----------------------------------------------------------------------------------------|:---------------------------------------------------|
+| Interferencia elemental directa     | Elementos reconocidos de `Ω118` presentes en scheelita, wolframita o fases accesorias. | Señal atribuida falsamente a residual por no separar elementos ordinarios.   | EPMA-WDS, LA-ICP-MS, mapas EDS y tabla de composición mayoritaria/minoritaria.          | Absorción por `Ω118`; no hay candidato.            |
+| Interferencia isotópica             | Isótopos naturales, radiogénicos o trazas isotópicas ordinarias.                       | Coincidencia de masa, señal parcial o perfil compatible con cadena conocida. | Resolución de masas, patrón isotópico y comparación con cadenas U/Th.                   | Absorción isotópica; descarte o repetición.        |
+| Óxidos                              | MO⁺, MO₂⁺ o especies oxidadas de W, U, Th, REE/ETR, Zr u otros elementos.              | Desplazamiento aparente de masa o creación de señal en ventana pesada.       | Control de tasas de óxido, calibración, blancos y comparación entre masas relacionadas. | Interferencia oxidada; no admitir residual.        |
+| Hidruros                            | MH⁺ o especies hidrogenadas generadas durante análisis.                                | Señal desplazada por una unidad de masa o superposición parcial.             | Control de hidruros, condiciones de plasma, patrón interno y repetición.                | Interferencia hidruro; repetir configuración.      |
+| Aductos y especies moleculares      | Combinaciones de matriz, plasma, gas, resina, soporte o elementos de muestra.          | Formación de señales compuestas que parecen no elementales.                  | Blanco de preparación, blanco instrumental y análisis de especies plausibles.           | Absorción por especie molecular; no hay candidato. |
+| Iones doblemente cargados           | Iones M²⁺ de elementos pesados.                                                        | Aparición en masa aparente inferior o superposición con ventana analítica.   | Ajuste instrumental, control de doble carga y revisión de masas correlativas.           | Interferencia de carga; repetir o descartar.       |
+| Cola de pico y saturación           | Señales intensas de W, U, Th, REE/ETR o Zr.                                            | Extensión de señal hacia regiones contiguas que simula residual.             | Control de linealidad, detector, tiempos muertos y perfil de pico.                      | No admitir residual hasta corregir lectura.        |
+| Deriva de masa y sesgo instrumental | Cambio de calibración, deriva temporal o sesgo de sensibilidad.                        | Desplazamiento aparente de señal entre mediciones.                           | Estándares antes/después, calibración interna y repetición secuencial.                  | Serie no admisible para dictamen.                  |
+| Efecto de matriz                    | Diferencia de ablación, ionización o respuesta por fase mineral.                       | Variación aparente no debida a nuevo residual, sino a matriz local.          | Estándares de matriz compatible, normalización y comparación entre fases.               | Absorción por matriz; no candidato.                |
+| Fraccionamiento en LA-ICP-MS        | Ablación diferencial de W, U, Th, REE/ETR, Zr o fases accesorias.                      | Perfil temporal que puede parecer microdominio residual.                     | Señal resuelta en tiempo, mapas, controles de cráter y repetición.                      | Repetir o descartar según persistencia.            |
+| Inclusiones submicrométricas        | Monacita, xenotima, circón, uraninita, torita u otras fases accesorias.                | Señal localizada que parece residual por quedar dentro de una zona W.        | SEM-BSE/EDS, EPMA-WDS, Raman/XRD cuando proceda y mapas de fase.                        | Absorción por fase accesoria; no SV-399.           |
+| Productos radiogénicos              | Pb, He, productos de cadenas U/Th y descendientes asociados.                           | Señal actínica aparente generada por evolución radiogénica ordinaria.        | Reconstrucción de cadenas U/Th, ratios isotópicos y co-localización.                    | Absorción radiogénica; no candidato.               |
+| Alteración hidrotermal              | Halos, venillas, reemplazos, fracturas y bordes enriquecidos.                          | Concentración local de elementos que parece frontera SV.                     | Lectura textural, relación con venilla/halo, mineralogía secundaria y mapas.            | Si explica señal, descarte como SV-399.            |
+| Contaminación de preparación        | Resina, pulido, adhesivo, soporte, abrasivo, manipulación o transporte.                | Señal externa incorporada a la superficie o al montaje.                      | Blanco de preparación, duplicado y revisión de superficie.                              | Repreparar; no dictaminar.                         |
+| Memoria instrumental                | Arrastre de muestra anterior o persistencia de señal en línea.                         | Señal falsa en blanco, control o muestra posterior.                          | Blanco de secuencia y orden alterno de medición.                                        | Serie bloqueada hasta limpiar y repetir.           |
+| Desplazamiento espacial entre mapas | Registro imperfecto entre SEM, EPMA, Raman/XRD y LA-ICP-MS.                            | Co-localización aparente por mala alineación de imágenes o escalas.          | Registro de coordenadas, marcas de referencia y corrección geométrica.                  | No aceptar co-localización.                        |
 
 La matriz `Ω118` opera por agotamiento ordenado, no por descarte global.
 Cada interferencia se elimina con una prueba propia: la interferencia
@@ -3478,15 +3218,15 @@ interferencias descartadas, interferencias no resueltas, blancos,
 duplicados, repetición y dictamen. Sin esa tabla, la señal queda sin
 reconstrucción suficiente.
 
-  **Estado de interferencias**                                                                                             **Salida autorizada**
-  ------------------------------------------------------------------------------------------------------------------------ ----------------------------------------------------------------------------------------
-  Todas las interferencias críticas absorbidas; residual nulo.                                                             Descarte de muestra, región o lote.
-  Interferencia crítica no resuelta, pero señal materialmente persistente.                                                 `U` material justificada; repetir o confirmar.
-  Blanco compatible con la señal crítica.                                                                                  Serie no admisible; limpiar, recalibrar o repreparar.
-  Fase accesoria explica la señal.                                                                                         Absorción mineralógica; no hay candidato SV-399.
-  Radiogénesis ordinaria explica la señal.                                                                                 Absorción por cadena U/Th; no hay candidato SV-399.
-  Co-localización depende de alineación dudosa.                                                                            No admitir candidato; repetir mapas y coordenadas.
-  Interferencias absorbidas, blancos limpios, controles válidos y residual persistente en microfrontera W--U/Th--REE/Zr.   Puede abrirse dictamen de candidato, condicionado al resto de criterios del protocolo.
+| **Estado de interferencias**                                                                                         | **Salida autorizada**                                                                  |
+|:---------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------|
+| Todas las interferencias críticas absorbidas; residual nulo.                                                         | Descarte de muestra, región o lote.                                                    |
+| Interferencia crítica no resuelta, pero señal materialmente persistente.                                             | `U` material justificada; repetir o confirmar.                                         |
+| Blanco compatible con la señal crítica.                                                                              | Serie no admisible; limpiar, recalibrar o repreparar.                                  |
+| Fase accesoria explica la señal.                                                                                     | Absorción mineralógica; no hay candidato SV-399.                                       |
+| Radiogénesis ordinaria explica la señal.                                                                             | Absorción por cadena U/Th; no hay candidato SV-399.                                    |
+| Co-localización depende de alineación dudosa.                                                                        | No admitir candidato; repetir mapas y coordenadas.                                     |
+| Interferencias absorbidas, blancos limpios, controles válidos y residual persistente en microfrontera W–U/Th–REE/Zr. | Puede abrirse dictamen de candidato, condicionado al resto de criterios del protocolo. |
 
 La matriz de interferencias queda subordinada a una regla de honestidad
 material: una señal no se acepta porque sea interesante ni se rechaza
@@ -3498,53 +3238,52 @@ Esta regla conserva la diana SV-399 como objeto de determinación
 dirigida y evita convertir la investigación en búsqueda de anomalías no
 gobernadas.
 
-## **Anexo E. Presupuesto detallado** {#anexo-e-presupuesto-detallado}
-
+## Anexo E. Presupuesto detallado
 Este anexo descompone el presupuesto operativo del protocolo piloto de
 determinación dirigida de SV-399. La cifra de referencia se fija en
 120.000 €, no como cantidad simbólica, sino como coste técnico
 suficiente para ejecutar una prueba material con trazabilidad,
 controles, blancos, duplicados, preparación de muestras,
 microcartografía, análisis de trazas, sustracción `Ω118`, control NORM y
-dictamen. La horquilla admisible de 90.000--140.000 € permite adaptar el
+dictamen. La horquilla admisible de 90.000–140.000 € permite adaptar el
 protocolo a disponibilidad instrumental, número final de microdominios,
 tiempos de equipo, necesidad de repetición y coste de radioprotección,
 sin degradar las compuertas esenciales.
 
-  **Partida piloto**                                                                                  **Función técnica**                                                                                                                     **Coste estimado**
-  --------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------- --------------------
-  Dirección científica, diseño técnico y coordinación del protocolo                                   Mantener la diana SV-399, la matriz, los criterios de residual, la secuencia instrumental y el dictamen dentro del dominio declarado.   8.000 €
-  Recepción de muestras, trazabilidad, registro, cadena de custodia y clasificación preventiva NORM   Identificar muestra, lote, procedencia, riesgo radiológico, condiciones de recepción y admisibilidad inicial.                           9.000 €
-  Preparación de muestras, cortes, montajes pulidos, blancos de preparación y duplicados              Preservar microfronteras, evitar contaminación y asegurar que la región medida sea reconstruible.                                       10.000 €
-  SEM-BSE/EDS                                                                                         Localizar textura, fases, inclusiones, bordes, venillas, halos, zonas de reemplazo y regiones candidatas.                               12.000 €
-  EPMA-WDS                                                                                            Cuantificar mayoritarios y minoritarios con resolución composicional suficiente para distinguir matriz, fase y variación ordinaria.     14.000 €
-  Raman/XRD                                                                                           Confirmar mineralogía, fases accesorias, alteración, inclusiones y compatibilidad de la matriz.                                         8.000 €
-  LA-ICP-MS                                                                                           Generar mapas y perfiles de trazas W--U/Th--REE/Zr, con resolución espacial suficiente para evaluar co-localización.                    24.000 €
-  Controles radiológicos, gestión NORM y soporte de radioprotección                                   Garantizar recepción, manipulación, almacenamiento, medición y salida normativa de muestras con radionucleidos naturales.               8.000 €
-  Integración espacial, co-localización, reconstrucción de interferencias y sustracción `Ω118`        Unificar mapas, coordenadas, señales, controles, blancos y matriz de interferencias antes de admitir residual.                          12.000 €
-  Repetición instrumental, blancos, duplicados, estándares y control de secuencia                     Evitar dictamen sobre lectura aislada, deriva, memoria instrumental, efecto de matriz o desplazamiento espacial.                        8.000 €
-  Informe técnico, tablas, dictamen, archivo de datos y trazabilidad final                            Entregar mapas, espectros, tablas, residuales, criterio de salida y reconstrucción material del resultado.                              7.000 €
-  **Total piloto recomendado**                                                                        Protocolo piloto completo con salida candidato, descarte o `U` material justificada.                                                    **120.000 €**
+| **Partida piloto**                                                                                | **Función técnica**                                                                                                                   | **Coste estimado** |
+|:--------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------|:-------------------|
+| Dirección científica, diseño técnico y coordinación del protocolo                                 | Mantener la diana SV-399, la matriz, los criterios de residual, la secuencia instrumental y el dictamen dentro del dominio declarado. | 8.000 €            |
+| Recepción de muestras, trazabilidad, registro, cadena de custodia y clasificación preventiva NORM | Identificar muestra, lote, procedencia, riesgo radiológico, condiciones de recepción y admisibilidad inicial.                         | 9.000 €            |
+| Preparación de muestras, cortes, montajes pulidos, blancos de preparación y duplicados            | Preservar microfronteras, evitar contaminación y asegurar que la región medida sea reconstruible.                                     | 10.000 €           |
+| SEM-BSE/EDS                                                                                       | Localizar textura, fases, inclusiones, bordes, venillas, halos, zonas de reemplazo y regiones candidatas.                             | 12.000 €           |
+| EPMA-WDS                                                                                          | Cuantificar mayoritarios y minoritarios con resolución composicional suficiente para distinguir matriz, fase y variación ordinaria.   | 14.000 €           |
+| Raman/XRD                                                                                         | Confirmar mineralogía, fases accesorias, alteración, inclusiones y compatibilidad de la matriz.                                       | 8.000 €            |
+| LA-ICP-MS                                                                                         | Generar mapas y perfiles de trazas W–U/Th–REE/Zr, con resolución espacial suficiente para evaluar co-localización.                    | 24.000 €           |
+| Controles radiológicos, gestión NORM y soporte de radioprotección                                 | Garantizar recepción, manipulación, almacenamiento, medición y salida normativa de muestras con radionucleidos naturales.             | 8.000 €            |
+| Integración espacial, co-localización, reconstrucción de interferencias y sustracción `Ω118`      | Unificar mapas, coordenadas, señales, controles, blancos y matriz de interferencias antes de admitir residual.                        | 12.000 €           |
+| Repetición instrumental, blancos, duplicados, estándares y control de secuencia                   | Evitar dictamen sobre lectura aislada, deriva, memoria instrumental, efecto de matriz o desplazamiento espacial.                      | 8.000 €            |
+| Informe técnico, tablas, dictamen, archivo de datos y trazabilidad final                          | Entregar mapas, espectros, tablas, residuales, criterio de salida y reconstrucción material del resultado.                            | 7.000 €            |
+| **Total piloto recomendado**                                                                      | Protocolo piloto completo con salida candidato, descarte o `U` material justificada.                                                  | **120.000 €**      |
 
 La cifra de 120.000 € no autoriza gasto automático en todas las
 muestras. La liberación del presupuesto debe seguir una secuencia por
 compuertas. La primera compuerta verifica recepción, trazabilidad, NORM
 y admisibilidad de muestras; la segunda localiza microdominios
-W--U/Th--REE/Zr; la tercera ejecuta análisis composicional y mapas de
+W–U/Th–REE/Zr; la tercera ejecuta análisis composicional y mapas de
 trazas; la cuarta aplica sustracción `Ω118` y matriz de interferencias;
 la quinta formula dictamen. Si una compuerta material falla de forma
 concluyente, el gasto restante no debe ejecutarse.
 
-  **Tramo operativo**                                     **Gasto orientativo**   **Condición de liberación**                                                       **Salida si falla**
-  ------------------------------------------------------- ----------------------- --------------------------------------------------------------------------------- --------------------------------------------------------
-  Recepción, trazabilidad, NORM y preparación             20.000 €                Muestras admisibles, microfronteras conservadas y cadena de custodia completa.    Parada o sustitución de lote.
-  Cartografía mineralógica y selección de microdominios   25.000 €                Existencia de regiones W--U/Th--REE/Zr en scheelita o wolframita.                 Descarte de muestra o lote.
-  Análisis composicional y mapas de trazas                35.000 €                Señal material suficiente para aplicar sustracción y control de interferencias.   Parada por ausencia de residual operativo.
-  Sustracción `Ω118`, interferencias y repetición         25.000 €                Residual no absorbido o `U` material justificada que merezca repetición.          Descarte por absorción ordinaria.
-  Informe, dictamen y archivo trazable                    15.000 €                Datos completos, verificables y aptos para salida técnica.                        Informe de no admisibilidad o indeterminación técnica.
-  **Total**                                               **120.000 €**           Protocolo piloto completo.                                                        ---
+| **Tramo operativo**                                   | **Gasto orientativo** | **Condición de liberación**                                                     | **Salida si falla**                                    |
+|:------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------|:-------------------------------------------------------|
+| Recepción, trazabilidad, NORM y preparación           | 20.000 €              | Muestras admisibles, microfronteras conservadas y cadena de custodia completa.  | Parada o sustitución de lote.                          |
+| Cartografía mineralógica y selección de microdominios | 25.000 €              | Existencia de regiones W–U/Th–REE/Zr en scheelita o wolframita.                 | Descarte de muestra o lote.                            |
+| Análisis composicional y mapas de trazas              | 35.000 €              | Señal material suficiente para aplicar sustracción y control de interferencias. | Parada por ausencia de residual operativo.             |
+| Sustracción `Ω118`, interferencias y repetición       | 25.000 €              | Residual no absorbido o `U` material justificada que merezca repetición.        | Descarte por absorción ordinaria.                      |
+| Informe, dictamen y archivo trazable                  | 15.000 €              | Datos completos, verificables y aptos para salida técnica.                      | Informe de no admisibilidad o indeterminación técnica. |
+| **Total**                                             | **120.000 €**         | Protocolo piloto completo.                                                      | —                                                      |
 
-La horquilla admisible de 90.000--140.000 € depende de tres factores
+La horquilla admisible de 90.000–140.000 € depende de tres factores
 principales: complejidad mineralógica, disponibilidad instrumental y
 exigencia NORM. La parte baja de la horquilla sólo es aceptable si las
 muestras están bien preparadas, los equipos están disponibles en una
@@ -3557,11 +3296,11 @@ repetición o sensibilidad; por encima de 140.000 €, debe justificarse
 por incremento real de muestra, técnica o control, no por ampliación
 abierta del objetivo.
 
-  **Escenario piloto**             **Coste orientativo**   **Condición técnica**
-  -------------------------------- ----------------------- -----------------------------------------------------------------------------------------------------------
-  Escenario austero admisible      90.000--105.000 €       Pocas muestras, microdominios claros, acceso instrumental interno y NORM sencillo.
-  Escenario recomendado            115.000--125.000 €      Cobertura completa de muestras, controles, mapas, repetición y dictamen.
-  Escenario ampliado justificado   130.000--140.000 €      Mayor número de regiones, preparación adicional, repetición reforzada o control radiológico más exigente.
+| **Escenario piloto**           | **Coste orientativo** | **Condición técnica**                                                                                     |
+|:-------------------------------|:----------------------|:----------------------------------------------------------------------------------------------------------|
+| Escenario austero admisible    | 90.000–105.000 €      | Pocas muestras, microdominios claros, acceso instrumental interno y NORM sencillo.                        |
+| Escenario recomendado          | 115.000–125.000 €     | Cobertura completa de muestras, controles, mapas, repetición y dictamen.                                  |
+| Escenario ampliado justificado | 130.000–140.000 €     | Mayor número de regiones, preparación adicional, repetición reforzada o control radiológico más exigente. |
 
 La fase de confirmación condicionada no forma parte del gasto inicial
 obligatorio. Sólo se activa si el piloto produce candidato técnico o `U`
@@ -3570,14 +3309,14 @@ confirmación. En ese caso, el presupuesto adicional se sitúa entre
 120.000 € y 220.000 €, según técnicas requeridas, número de
 microdominios y necesidad de contraste externo.
 
-  **Partida de confirmación condicionada**    **Función técnica**                                                                 **Horquilla estimada**
-  ------------------------------------------- ----------------------------------------------------------------------------------- ------------------------
-  MC-ICP-MS o TIMS                            Confirmación isotópica de alta precisión cuando la señal lo exija.                  25.000--55.000 €
-  SIMS o NanoSIMS                             Confirmación espacial fina en microfrontera o inclusión crítica.                    30.000--70.000 €
-  Repetición interlaboratorio                 Control de reproducibilidad fuera de la primera infraestructura.                    30.000--60.000 €
-  Nueva preparación de microdominios          Repetición de cortes, montajes, blancos y duplicados sobre regiones equivalentes.   15.000--30.000 €
-  Integración comparada y dictamen ampliado   Comparación de series, controles, residuales y salida final.                        20.000--35.000 €
-  **Total confirmación condicionada**         Sólo si el piloto abre candidato o `U` material justificada fuerte.                 **120.000--220.000 €**
+| **Partida de confirmación condicionada**  | **Función técnica**                                                               | **Horquilla estimada** |
+|:------------------------------------------|:----------------------------------------------------------------------------------|:-----------------------|
+| MC-ICP-MS o TIMS                          | Confirmación isotópica de alta precisión cuando la señal lo exija.                | 25.000–55.000 €        |
+| SIMS o NanoSIMS                           | Confirmación espacial fina en microfrontera o inclusión crítica.                  | 30.000–70.000 €        |
+| Repetición interlaboratorio               | Control de reproducibilidad fuera de la primera infraestructura.                  | 30.000–60.000 €        |
+| Nueva preparación de microdominios        | Repetición de cortes, montajes, blancos y duplicados sobre regiones equivalentes. | 15.000–30.000 €        |
+| Integración comparada y dictamen ampliado | Comparación de series, controles, residuales y salida final.                      | 20.000–35.000 €        |
+| **Total confirmación condicionada**       | Sólo si el piloto abre candidato o `U` material justificada fuerte.               | **120.000–220.000 €**  |
 
 El coste total piloto más confirmación queda, por tanto, entre 210.000 €
 y 360.000 €. Esa cifra no debe presentarse como coste de entrada, sino
@@ -3601,8 +3340,7 @@ una señal persiste pero no cierra, se conserva `U`. Si una señal
 persiste, co-localiza y supera controles, se justifica la confirmación
 condicionada.
 
-## **Anexo F. Cronograma operativo de 16 semanas** {#anexo-f-cronograma-operativo-de-16-semanas}
-
+## Anexo F. Cronograma operativo de 16 semanas
 Este anexo fija la secuencia temporal del protocolo piloto de
 determinación dirigida de SV-399. El cronograma no funciona como una
 agenda administrativa, sino como una cadena material de dependencias:
@@ -3621,24 +3359,24 @@ una condición falla, el cronograma no se fuerza: se detiene, se
 sustituye el lote, se reduce el alcance o se emite dictamen negativo o
 indeterminado según corresponda.
 
-  **Semana**   **Objetivo operativo**                                            **Técnicas o acciones principales**                                                                                                        **Entregable de control**                                                                                                  **Compuerta de avance**
-  ------------ ----------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------
-  1            Recepción, identificación y admisibilidad inicial.                Registro de muestra, procedencia, lote, etiquetado, fotografía, cadena de custodia, revisión documental y clasificación preventiva NORM.   Ficha de recepción, ficha NORM, inventario de muestras y decisión de admisibilidad.                                        Sólo avanza la muestra con trazabilidad y manipulación admisible.
-  2            Preparación material y conservación de microfronteras.            Corte, montaje, pulido, duplicados, blancos de preparación, marcaje de regiones y control de contaminación.                                Montajes preparados, blancos documentados, duplicados y mapa inicial de orientación.                                       Sólo avanza el montaje que conserva borde, contacto, inclusión, halo, venilla o zona de reemplazo.
-  3            Cartografía mineralógica primaria.                                SEM-BSE/EDS, observación textural, identificación de fases, localización de scheelita, wolframita e inclusiones relevantes.                Mapa de textura, fases, coordenadas y regiones candidatas.                                                                 Sólo avanza la región con matriz W y lectura mineralógica coherente.
-  4            Confirmación composicional mayoritaria y minoritaria.             EPMA-WDS, control de mayoritarios, minoritarios, Ca/Fe/Mn/W, fases accesorias y bordes de transición.                                      Tabla composicional por punto, línea o región; descarte de fases ordinarias evidentes.                                     Sólo avanza la región donde el Tungsteno/Wolframio (W) queda materialmente integrado.
-  5            Confirmación mineralógica y selección cerrada de microdominios.   Raman/XRD cuando proceda, revisión SEM/EPMA, selección de microdominios W--U/Th--REE/Zr y exclusión de regiones no aptas.                  Lista cerrada de microdominios, coordenadas, imágenes y justificación de inclusión/exclusión.                              Sólo avanza el microdominio con matriz, frontera y vecindad suficientes.
-  6            Primer análisis de trazas.                                        LA-ICP-MS sobre regiones seleccionadas, perfiles, mapas de U, Th, REE/ETR, Zr y elementos asociados.                                       Primer mapa de trazas y matriz de co-localización.                                                                         Sólo avanza la señal espacialmente compatible con W--U/Th--REE/Zr.
-  7            Integración espacial de señales.                                  Cruce SEM-BSE/EDS, EPMA-WDS y LA-ICP-MS; superposición de mapas, coordenadas y microfronteras.                                             Mapa integrado de fase, composición, traza y frontera.                                                                     Sólo avanza la señal que conserva coordenada, fase y relación con la diana.
-  8            Repetición interna y control de estabilidad de señal.             Repetición de perfiles o mapas críticos, comparación de duplicados, revisión de blancos y control de deriva instrumental.                  Matriz de repetición, estabilidad, blancos y duplicados.                                                                   Sólo avanza la señal repetible o una `U` material con causa técnica documentada.
-  9            Preselección de señales para sustracción.                         Consolidación de microdominios, depuración de regiones no aptas, preparación de matriz `Ω118`.                                             Lista de señales sometidas a sustracción y lista de señales descartadas.                                                   Sólo avanza lo que no ha quedado explicado antes de la resta formal.
-  10           Sustracción `Ω118` de elementos reconocidos.                      Resta de elementos ordinarios, fases accesorias, impurezas, matriz mineral y asociaciones esperables.                                      Matriz de absorción ordinaria y primer residual calculado.                                                                 Si `R118=0`, descarte; si `R118>0`, paso a control de interferencias.
-  11           Control de interferencias.                                        Revisión de óxidos, hidruros, aductos, isótopos, productos radiogénicos, arrastre instrumental y blancos.                                  Matriz de interferencias resueltas, no resueltas y residuales persistentes.                                                Sólo avanza el residual no absorbido por interferencia reconstruible.
-  12           Consolidación del residual actínico-refractario.                  Cruce de residual, frontera, W, U/Th--REE/Zr, fase, repetición y control NORM.                                                             Dictamen intermedio: descarte, residual persistente o `U` material justificada.                                            Sólo el residual persistente o la `U` fuerte habilitan repetición reforzada.
-  13           Repetición instrumental reforzada.                                Nuevas mediciones en puntos críticos, duplicados, perfiles alternativos y contraste con blanco o región negativa.                          Serie repetida y comparación contra primera lectura.                                                                       Sólo avanza la señal que conserva frontera y co-localización.
-  14           Control final de coherencia material.                             Revisión conjunta de textura, composición, trazas, interferencias, NORM, sustracción y repetición.                                         Matriz final de admisión, descarte o `U`.                                                                                  Sólo avanza el caso con expediente técnico completo.
-  15           Redacción del informe técnico.                                    Integración de mapas, tablas, espectros, controles, residuales, costes ejecutados y criterio de salida.                                    Informe técnico preliminar con anexos de datos.                                                                            Sólo se emite dictamen si el informe permite reconstrucción inversa.
-  16           Dictamen y archivo trazable.                                      Revisión final, cierre de candidato, descarte o indeterminación material justificada; archivo de datos y cadena de custodia.               Dictamen final, conjunto documental de evidencias, trazabilidad y recomendación de confirmación condicionada si procede.   Cierre del protocolo piloto.
+| **Semana** | **Objetivo operativo**                                          | **Técnicas o acciones principales**                                                                                                      | **Entregable de control**                                                                                                | **Compuerta de avance**                                                                            |
+|:-----------|:----------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------|
+| 1          | Recepción, identificación y admisibilidad inicial.              | Registro de muestra, procedencia, lote, etiquetado, fotografía, cadena de custodia, revisión documental y clasificación preventiva NORM. | Ficha de recepción, ficha NORM, inventario de muestras y decisión de admisibilidad.                                      | Sólo avanza la muestra con trazabilidad y manipulación admisible.                                  |
+| 2          | Preparación material y conservación de microfronteras.          | Corte, montaje, pulido, duplicados, blancos de preparación, marcaje de regiones y control de contaminación.                              | Montajes preparados, blancos documentados, duplicados y mapa inicial de orientación.                                     | Sólo avanza el montaje que conserva borde, contacto, inclusión, halo, venilla o zona de reemplazo. |
+| 3          | Cartografía mineralógica primaria.                              | SEM-BSE/EDS, observación textural, identificación de fases, localización de scheelita, wolframita e inclusiones relevantes.              | Mapa de textura, fases, coordenadas y regiones candidatas.                                                               | Sólo avanza la región con matriz W y lectura mineralógica coherente.                               |
+| 4          | Confirmación composicional mayoritaria y minoritaria.           | EPMA-WDS, control de mayoritarios, minoritarios, Ca/Fe/Mn/W, fases accesorias y bordes de transición.                                    | Tabla composicional por punto, línea o región; descarte de fases ordinarias evidentes.                                   | Sólo avanza la región donde el Tungsteno/Wolframio (W) queda materialmente integrado.              |
+| 5          | Confirmación mineralógica y selección cerrada de microdominios. | Raman/XRD cuando proceda, revisión SEM/EPMA, selección de microdominios W–U/Th–REE/Zr y exclusión de regiones no aptas.                  | Lista cerrada de microdominios, coordenadas, imágenes y justificación de inclusión/exclusión.                            | Sólo avanza el microdominio con matriz, frontera y vecindad suficientes.                           |
+| 6          | Primer análisis de trazas.                                      | LA-ICP-MS sobre regiones seleccionadas, perfiles, mapas de U, Th, REE/ETR, Zr y elementos asociados.                                     | Primer mapa de trazas y matriz de co-localización.                                                                       | Sólo avanza la señal espacialmente compatible con W–U/Th–REE/Zr.                                   |
+| 7          | Integración espacial de señales.                                | Cruce SEM-BSE/EDS, EPMA-WDS y LA-ICP-MS; superposición de mapas, coordenadas y microfronteras.                                           | Mapa integrado de fase, composición, traza y frontera.                                                                   | Sólo avanza la señal que conserva coordenada, fase y relación con la diana.                        |
+| 8          | Repetición interna y control de estabilidad de señal.           | Repetición de perfiles o mapas críticos, comparación de duplicados, revisión de blancos y control de deriva instrumental.                | Matriz de repetición, estabilidad, blancos y duplicados.                                                                 | Sólo avanza la señal repetible o una `U` material con causa técnica documentada.                   |
+| 9          | Preselección de señales para sustracción.                       | Consolidación de microdominios, depuración de regiones no aptas, preparación de matriz `Ω118`.                                           | Lista de señales sometidas a sustracción y lista de señales descartadas.                                                 | Sólo avanza lo que no ha quedado explicado antes de la resta formal.                               |
+| 10         | Sustracción `Ω118` de elementos reconocidos.                    | Resta de elementos ordinarios, fases accesorias, impurezas, matriz mineral y asociaciones esperables.                                    | Matriz de absorción ordinaria y primer residual calculado.                                                               | Si `R118=0`, descarte; si `R118>0`, paso a control de interferencias.                              |
+| 11         | Control de interferencias.                                      | Revisión de óxidos, hidruros, aductos, isótopos, productos radiogénicos, arrastre instrumental y blancos.                                | Matriz de interferencias resueltas, no resueltas y residuales persistentes.                                              | Sólo avanza el residual no absorbido por interferencia reconstruible.                              |
+| 12         | Consolidación del residual actínico-refractario.                | Cruce de residual, frontera, W, U/Th–REE/Zr, fase, repetición y control NORM.                                                            | Dictamen intermedio: descarte, residual persistente o `U` material justificada.                                          | Sólo el residual persistente o la `U` fuerte habilitan repetición reforzada.                       |
+| 13         | Repetición instrumental reforzada.                              | Nuevas mediciones en puntos críticos, duplicados, perfiles alternativos y contraste con blanco o región negativa.                        | Serie repetida y comparación contra primera lectura.                                                                     | Sólo avanza la señal que conserva frontera y co-localización.                                      |
+| 14         | Control final de coherencia material.                           | Revisión conjunta de textura, composición, trazas, interferencias, NORM, sustracción y repetición.                                       | Matriz final de admisión, descarte o `U`.                                                                                | Sólo avanza el caso con expediente técnico completo.                                               |
+| 15         | Redacción del informe técnico.                                  | Integración de mapas, tablas, espectros, controles, residuales, costes ejecutados y criterio de salida.                                  | Informe técnico preliminar con anexos de datos.                                                                          | Sólo se emite dictamen si el informe permite reconstrucción inversa.                               |
+| 16         | Dictamen y archivo trazable.                                    | Revisión final, cierre de candidato, descarte o indeterminación material justificada; archivo de datos y cadena de custodia.             | Dictamen final, conjunto documental de evidencias, trazabilidad y recomendación de confirmación condicionada si procede. | Cierre del protocolo piloto.                                                                       |
 
 El cronograma no debe leerse como una lista rígida de tareas
 independientes. Las semanas 1 y 2 gobiernan la admisibilidad material;
@@ -3649,22 +3387,22 @@ repetición y coherencia; las semanas 15 y 16 gobiernan dictamen y
 archivo. Si una compuerta anterior falla, el tramo posterior no puede
 usarse para fabricar continuidad artificial.
 
-  **Bloque temporal**        **Semanas**   **Pregunta que debe responder**                                                               **Salida permitida**
-  -------------------------- ------------- --------------------------------------------------------------------------------------------- ---------------------------------------------------
-  Admisión y preparación     1--2          ¿La muestra puede entrar en el protocolo con trazabilidad, NORM y microfrontera conservada?   Avance, sustitución de muestra o parada.
-  Cartografía y selección    3--5          ¿Existe microdominio W--U/Th--REE/Zr en scheelita o wolframita?                               Avance, descarte de región o descarte de lote.
-  Trazas y co-localización   6--9          ¿La señal conserva relación espacial con la diana?                                            Avance, descarte o `U` por insuficiencia técnica.
-  Sustracción y residual     10--12        ¿Queda residual tras `Ω118` e interferencias?                                                 `R118=0`, `R118>0` o `U` material justificada.
-  Repetición y coherencia    13--14        ¿El residual conserva frontera, fase y co-localización al repetir?                            Candidato técnico, descarte o `U`.
-  Informe y dictamen         15--16        ¿La cadena completa permite reconstrucción inversa?                                           Dictamen final y archivo trazable.
+| **Bloque temporal**      | **Semanas** | **Pregunta que debe responder**                                                             | **Salida permitida**                              |
+|:-------------------------|:------------|:--------------------------------------------------------------------------------------------|:--------------------------------------------------|
+| Admisión y preparación   | 1–2         | ¿La muestra puede entrar en el protocolo con trazabilidad, NORM y microfrontera conservada? | Avance, sustitución de muestra o parada.          |
+| Cartografía y selección  | 3–5         | ¿Existe microdominio W–U/Th–REE/Zr en scheelita o wolframita?                               | Avance, descarte de región o descarte de lote.    |
+| Trazas y co-localización | 6–9         | ¿La señal conserva relación espacial con la diana?                                          | Avance, descarte o `U` por insuficiencia técnica. |
+| Sustracción y residual   | 10–12       | ¿Queda residual tras `Ω118` e interferencias?                                               | `R118=0`, `R118>0` o `U` material justificada.    |
+| Repetición y coherencia  | 13–14       | ¿El residual conserva frontera, fase y co-localización al repetir?                          | Candidato técnico, descarte o `U`.                |
+| Informe y dictamen       | 15–16       | ¿La cadena completa permite reconstrucción inversa?                                         | Dictamen final y archivo trazable.                |
 
 La condición de parada debe permanecer activa durante todo el
 calendario. No se espera a la semana 16 para reconocer que una muestra
 no sirve. Si en la semana 2 la preparación destruye la microfrontera, se
 detiene o se sustituye el lote. Si en la semana 5 no hay microdominio
-W--U/Th--REE/Zr, se descarta. Si en la semana 10 todo queda absorbido
-por `Ω118`, no procede repetición reforzada. Si en la semana 13 la señal
-no se conserva, no se eleva a candidato. El calendario protege la
+W–U/Th–REE/Zr, se descarta. Si en la semana 10 todo queda absorbido por
+`Ω118`, no procede repetición reforzada. Si en la semana 13 la señal no
+se conserva, no se eleva a candidato. El calendario protege la
 investigación precisamente porque impide gastar tiempo en una
 continuidad material que ya no existe. El cronograma también fija los
 entregables temporales. Cada bloque debe producir evidencia
@@ -3684,8 +3422,7 @@ honesta, procede `U` material justificada, con indicación precisa de qué
 debe repetirse o mejorar. El cronograma, por tanto, no sólo ordena
 semanas; ordena la responsabilidad del dictamen.
 
-## **Anexo G. Requisitos de seguridad radiológica y NORM** {#anexo-g-requisitos-de-seguridad-radiolgica-y-norm}
-
+## Anexo G. Requisitos de seguridad radiológica y NORM
 Este anexo fija los requisitos radiológicos mínimos de admisibilidad
 material del protocolo cuando las muestras de scheelita, wolframita o
 microdominios asociados incorporen Uranio (U), Torio (Th), productos
@@ -3698,7 +3435,7 @@ almacenamiento, manipulación, medición y salida trazable, la muestra no
 puede incorporarse al protocolo SV-399. La seguridad radiológica no es
 una capa exterior añadida al trabajo. En esta investigación forma parte
 de la propia admisibilidad del retorno, porque la ventana Uranio
-(U)/Torio (Th)--REE/ETR--Zirconio (Zr) puede introducir materiales con
+(U)/Torio (Th)–REE/ETR–Zirconio (Zr) puede introducir materiales con
 radionucleidos naturales y productos de cadena que deben separarse de
 cualquier residual actínico-refractario. Un resultado que no distinga
 exposición, contaminación, producto radiogénico, fase accesoria y
@@ -3706,17 +3443,17 @@ residual no puede avanzar como candidato. La protección radiológica, la
 trazabilidad NORM y la sustracción `Ω118` pertenecen al mismo régimen de
 control material.
 
-  **Ámbito de control**               **Requisito técnico**                                                                                             **Evidencia exigible**                                                                               **Condición de parada**
-  ----------------------------------- ----------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------
-  Admisión de muestra                 Identificación de origen, lote, masa, matriz mineralógica, embalaje y posible presencia de U/Th.                  Ficha de recepción, fotografías, código de muestra, cadena de custodia y clasificación preventiva.   Muestra sin origen, sin trazabilidad o con embalaje no admisible.
-  Clasificación NORM                  Evaluación preventiva de actividad, naturaleza de los radionucleidos naturales y requisitos de manipulación.      Registro de clasificación, lectura radiométrica inicial y dictamen interno de admisibilidad.         Imposibilidad de clasificar o actividad incompatible con los medios disponibles.
-  Responsable competente              Existencia de responsable de radioprotección o figura equivalente según el régimen del laboratorio.               Identificación funcional, procedimiento aprobado y autorización interna para manipulación.           Ausencia de responsable o imposibilidad de asumir la muestra.
-  Almacenamiento                      Custodia segregada, etiquetada, inventariada y compatible con el nivel de riesgo declarado.                       Registro de ubicación, condiciones de almacenamiento y control de acceso.                            Almacenamiento no trazable o no compatible con la muestra.
-  Preparación de muestra              Corte, montaje, pulido y limpieza bajo condiciones que eviten contaminación cruzada y pérdida de microfrontera.   Hoja de preparación, útiles empleados, blancos de preparación y registro de residuos.                Destrucción de microfrontera, contaminación cruzada o residuos sin control.
-  Medición instrumental               Uso de técnicas compatibles con muestra NORM, controles de blanco y prevención de arrastre.                       Registro de instrumento, método, calibración, blancos, duplicados y limpieza posterior.              Señal instrumental contaminada o imposibilidad de descontaminar y repetir.
-  Control de productos radiogénicos   Identificación de cadenas U/Th, descendientes esperables y señales absorbibles por `Ω118`.                        Tabla de productos radiogénicos considerados y razón de absorción o persistencia.                    Producto radiogénico ordinario suficiente para explicar la señal.
-  Gestión de residuos                 Retención, devolución, eliminación o archivo conforme al régimen del laboratorio.                                 Hoja de salida, inventario final y destino de material sobrante.                                     Residuo no trazable o destino no documentado.
-  Archivo técnico                     Conservación de datos radiológicos junto a mapas, espectros, tablas y dictamen.                                   Expediente final con trazabilidad material, radiológica e instrumental.                              Datos incompletos que impidan reconstrucción inversa.
+| **Ámbito de control**             | **Requisito técnico**                                                                                           | **Evidencia exigible**                                                                             | **Condición de parada**                                                          |
+|:----------------------------------|:----------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|
+| Admisión de muestra               | Identificación de origen, lote, masa, matriz mineralógica, embalaje y posible presencia de U/Th.                | Ficha de recepción, fotografías, código de muestra, cadena de custodia y clasificación preventiva. | Muestra sin origen, sin trazabilidad o con embalaje no admisible.                |
+| Clasificación NORM                | Evaluación preventiva de actividad, naturaleza de los radionucleidos naturales y requisitos de manipulación.    | Registro de clasificación, lectura radiométrica inicial y dictamen interno de admisibilidad.       | Imposibilidad de clasificar o actividad incompatible con los medios disponibles. |
+| Responsable competente            | Existencia de responsable de radioprotección o figura equivalente según el régimen del laboratorio.             | Identificación funcional, procedimiento aprobado y autorización interna para manipulación.         | Ausencia de responsable o imposibilidad de asumir la muestra.                    |
+| Almacenamiento                    | Custodia segregada, etiquetada, inventariada y compatible con el nivel de riesgo declarado.                     | Registro de ubicación, condiciones de almacenamiento y control de acceso.                          | Almacenamiento no trazable o no compatible con la muestra.                       |
+| Preparación de muestra            | Corte, montaje, pulido y limpieza bajo condiciones que eviten contaminación cruzada y pérdida de microfrontera. | Hoja de preparación, útiles empleados, blancos de preparación y registro de residuos.              | Destrucción de microfrontera, contaminación cruzada o residuos sin control.      |
+| Medición instrumental             | Uso de técnicas compatibles con muestra NORM, controles de blanco y prevención de arrastre.                     | Registro de instrumento, método, calibración, blancos, duplicados y limpieza posterior.            | Señal instrumental contaminada o imposibilidad de descontaminar y repetir.       |
+| Control de productos radiogénicos | Identificación de cadenas U/Th, descendientes esperables y señales absorbibles por `Ω118`.                      | Tabla de productos radiogénicos considerados y razón de absorción o persistencia.                  | Producto radiogénico ordinario suficiente para explicar la señal.                |
+| Gestión de residuos               | Retención, devolución, eliminación o archivo conforme al régimen del laboratorio.                               | Hoja de salida, inventario final y destino de material sobrante.                                   | Residuo no trazable o destino no documentado.                                    |
+| Archivo técnico                   | Conservación de datos radiológicos junto a mapas, espectros, tablas y dictamen.                                 | Expediente final con trazabilidad material, radiológica e instrumental.                            | Datos incompletos que impidan reconstrucción inversa.                            |
 
 La muestra debe entrar en el protocolo con una clasificación preventiva
 previa. Esa clasificación no presupone peligro grave ni convierte toda
@@ -3736,13 +3473,13 @@ posibilidad de contraste, pero también multiplica las causas ordinarias
 de señal. La seguridad radiológica y la sustracción elemental trabajan
 juntas: una protege la manipulación; la otra protege el dictamen.
 
-  **Tipo de señal vinculada a U/Th**   **Lectura ordinaria que debe agotarse**                                   **Evidencia que debe constar antes de avanzar**
-  ------------------------------------ ------------------------------------------------------------------------- ----------------------------------------------------------------------------------
-  Uranio (U) localizado                Fase uranífera, inclusión, halo, contaminación o producto de reemplazo.   Mapa, fase, posición respecto de W y razón por la que no basta como explicación.
-  Torio (Th) localizado                Fase torífera, accesorio pesado o asociación con REE/ETR.                 Mapa, perfil, relación con tierras raras y control de fase accesoria.
-  Productos radiogénicos               Cadena de desintegración ordinaria y descendientes esperables.            Tabla de descendientes considerados y absorción por `Ω118`.
-  Señal mixta U/Th--REE/Zr             Vecindad geoquímica ordinaria de mineralización o reemplazo.              Comparación con microdominios positivos, negativos y blancos.
-  Residual persistente tras resta      Diferencia no absorbida por tabla reconocida ni interferencias.           Repetición, co-localización con W y conservación de frontera material.
+| **Tipo de señal vinculada a U/Th** | **Lectura ordinaria que debe agotarse**                                 | **Evidencia que debe constar antes de avanzar**                                  |
+|:-----------------------------------|:------------------------------------------------------------------------|:---------------------------------------------------------------------------------|
+| Uranio (U) localizado              | Fase uranífera, inclusión, halo, contaminación o producto de reemplazo. | Mapa, fase, posición respecto de W y razón por la que no basta como explicación. |
+| Torio (Th) localizado              | Fase torífera, accesorio pesado o asociación con REE/ETR.               | Mapa, perfil, relación con tierras raras y control de fase accesoria.            |
+| Productos radiogénicos             | Cadena de desintegración ordinaria y descendientes esperables.          | Tabla de descendientes considerados y absorción por `Ω118`.                      |
+| Señal mixta U/Th–REE/Zr            | Vecindad geoquímica ordinaria de mineralización o reemplazo.            | Comparación con microdominios positivos, negativos y blancos.                    |
+| Residual persistente tras resta    | Diferencia no absorbida por tabla reconocida ni interferencias.         | Repetición, co-localización con W y conservación de frontera material.           |
 
 La preparación de muestras exige especial atención porque la
 microfrontera es el objeto de prueba. Un montaje pulido que mezcle
@@ -3772,8 +3509,7 @@ sino integrado en la reconstrucción material del residual. Si cualquiera
 de esas condiciones falla, la salida correcta no es candidato, sino
 descarte o `U` material justificada.
 
-## **Anexo H. Modelo de dictamen: positivo, negativo o U justificada** {#anexo-h-modelo-de-dictamen-positivo-negativo-o-u-justificada}
-
+## Anexo H. Modelo de dictamen: positivo, negativo o U justificada
 El dictamen final del protocolo no puede adoptar la forma de una opinión
 favorable, una estimación abierta o una narración posterior del
 resultado. Debe ser una salida técnica cerrada, reconstruible y enlazada
@@ -3787,17 +3523,17 @@ indeterminación material justificada. Ninguna de esas salidas equivale
 por sí misma a reconocimiento IUPAC, ni permite sustituir los
 procedimientos externos de validación de elementos.
 
-  **Campo obligatorio del dictamen**   **Contenido exigido**                                                                        **Función en la decisión**
-  ------------------------------------ -------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------
-  Identificación de muestra            Código de muestra, procedencia, matriz, lote, preparación, montaje y trazabilidad.           Impedir que el resultado quede separado del material efectivamente medido.
-  Matriz mineralógica                  Confirmación de scheelita o wolframita y descripción de fases accesorias.                    Verificar que la diana se ensaya dentro de la matriz cerrada.
-  Microdominio analizado               Contacto, borde, inclusión, venilla, halo, zona de reemplazo u otra frontera declarada.      Localizar el residual en región de prueba, no en lectura composicional dispersa.
-  Referencia W                         Evidencia de Tungsteno/Wolframio (W) mayoritario, dominante o estructuralmente relevante.    Confirmar que la señal no procede de una región ajena a la diana.
-  Ventana U/Th--REE/Zr                 Evidencia espacial y analítica de Uranio (U), Torio (Th), REE/ETR o Zirconio (Zr).           Abrir la ventana actínico-mineralógica sin convertirla en prueba por sí sola.
-  Control `Ω118`                       Lista de elementos reconocidos, fases, interferencias y productos radiogénicos absorbidos.   Mostrar qué queda explicado antes de hablar de residual.
-  Residual persistente                 Descripción de la diferencia no absorbida, con coordenada, técnica y repetición.             Definir el objeto instrumental que puede sostener la decisión.
-  Control NORM                         Clasificación, manipulación, custodia y cierre radiológico de la muestra.                    Garantizar que la evidencia material no queda fuera del control normativo.
-  Salida del dictamen                  Candidato SV-399, descarte o `U` material justificada.                                       Cerrar la decisión sin exceder el alcance del protocolo.
+| **Campo obligatorio del dictamen** | **Contenido exigido**                                                                      | **Función en la decisión**                                                       |
+|:-----------------------------------|:-------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|
+| Identificación de muestra          | Código de muestra, procedencia, matriz, lote, preparación, montaje y trazabilidad.         | Impedir que el resultado quede separado del material efectivamente medido.       |
+| Matriz mineralógica                | Confirmación de scheelita o wolframita y descripción de fases accesorias.                  | Verificar que la diana se ensaya dentro de la matriz cerrada.                    |
+| Microdominio analizado             | Contacto, borde, inclusión, venilla, halo, zona de reemplazo u otra frontera declarada.    | Localizar el residual en región de prueba, no en lectura composicional dispersa. |
+| Referencia W                       | Evidencia de Tungsteno/Wolframio (W) mayoritario, dominante o estructuralmente relevante.  | Confirmar que la señal no procede de una región ajena a la diana.                |
+| Ventana U/Th–REE/Zr                | Evidencia espacial y analítica de Uranio (U), Torio (Th), REE/ETR o Zirconio (Zr).         | Abrir la ventana actínico-mineralógica sin convertirla en prueba por sí sola.    |
+| Control `Ω118`                     | Lista de elementos reconocidos, fases, interferencias y productos radiogénicos absorbidos. | Mostrar qué queda explicado antes de hablar de residual.                         |
+| Residual persistente               | Descripción de la diferencia no absorbida, con coordenada, técnica y repetición.           | Definir el objeto instrumental que puede sostener la decisión.                   |
+| Control NORM                       | Clasificación, manipulación, custodia y cierre radiológico de la muestra.                  | Garantizar que la evidencia material no queda fuera del control normativo.       |
+| Salida del dictamen                | Candidato SV-399, descarte o `U` material justificada.                                     | Cerrar la decisión sin exceder el alcance del protocolo.                         |
 
 El dictamen positivo sólo puede formularse como candidato SV-399 cuando
 la señal residual persiste tras la sustracción de la tabla reconocida,
@@ -3809,36 +3545,36 @@ reconoce que el protocolo ha devuelto una señal material admisible
 dentro de la diana SV, pero no transforma automáticamente el resultado
 en elemento ordinario reconocido ni en cierre institucional externo.
 
-  **Condición positiva**     **Evidencia requerida**                                                                                              **Umbral de aceptación**
-  -------------------------- -------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------
-  Matriz correcta            Scheelita o wolframita confirmada por Raman, XRD, EPMA o combinación instrumental suficiente.                        La muestra pertenece al dominio mineralógico cerrado.
-  Microfrontera conservada   Imagen, mapa o perfil que muestre contacto, borde, inclusión, venilla, halo o reemplazo.                             El residual se sitúa en frontera material reconstruible.
-  Componente W efectivo      Tungsteno/Wolframio (W) aparece como componente mayoritario, dominante o estructuralmente rector del microdominio.   La señal no queda separada del componente refractario de referencia.
-  Ventana actínica abierta   Uranio (U), Torio (Th), REE/ETR o Zirconio (Zr) aparecen como vecindad analítica trazada.                            La región permite interrogar el residuo actínico-refractario.
-  Resta `Ω118` superada      Todo lo explicable por tabla reconocida, interferencias y radiogénesis queda documentado.                            Permanece diferencia no absorbida.
-  Repetición suficiente      Duplicado, técnica complementaria o confirmación condicionada según intensidad y criticidad.                         El residual no depende de una lectura aislada.
-  Dictamen positivo          Convergencia de matriz, microfrontera, referencia W, ventana actínica y residual persistente.                        Salida: candidato SV-399.
+| **Condición positiva**   | **Evidencia requerida**                                                                                            | **Umbral de aceptación**                                             |
+|:-------------------------|:-------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------|
+| Matriz correcta          | Scheelita o wolframita confirmada por Raman, XRD, EPMA o combinación instrumental suficiente.                      | La muestra pertenece al dominio mineralógico cerrado.                |
+| Microfrontera conservada | Imagen, mapa o perfil que muestre contacto, borde, inclusión, venilla, halo o reemplazo.                           | El residual se sitúa en frontera material reconstruible.             |
+| Componente W efectivo    | Tungsteno/Wolframio (W) aparece como componente mayoritario, dominante o estructuralmente rector del microdominio. | La señal no queda separada del componente refractario de referencia. |
+| Ventana actínica abierta | Uranio (U), Torio (Th), REE/ETR o Zirconio (Zr) aparecen como vecindad analítica trazada.                          | La región permite interrogar el residuo actínico-refractario.        |
+| Resta `Ω118` superada    | Todo lo explicable por tabla reconocida, interferencias y radiogénesis queda documentado.                          | Permanece diferencia no absorbida.                                   |
+| Repetición suficiente    | Duplicado, técnica complementaria o confirmación condicionada según intensidad y criticidad.                       | El residual no depende de una lectura aislada.                       |
+| Dictamen positivo        | Convergencia de matriz, microfrontera, referencia W, ventana actínica y residual persistente.                      | Salida: candidato SV-399.                                            |
 
 El dictamen negativo procede cuando la muestra, el microdominio o la
 señal no superan una de las compuertas materiales. Puede deberse a
 matriz incorrecta, ausencia de microfrontera admisible, falta de
-referencia W, ausencia de vecindad U/Th--REE/Zr, absorción completa por
+referencia W, ausencia de vecindad U/Th–REE/Zr, absorción completa por
 `Ω118`, explicación radiogénica suficiente, interferencia instrumental,
 contaminación, preparación defectuosa o pérdida de trazabilidad. El
 descarte no niega el dominio SV ni clausura la diana SV-399; sólo
 declara que el material analizado no devuelve candidato bajo las
 condiciones de este protocolo.
 
-  **Causa de descarte**           **Evidencia de descarte**                                                             **Alcance del dictamen**
-  ------------------------------- ------------------------------------------------------------------------------------- --------------------------------------------------
-  Matriz no admisible             La muestra no es scheelita, wolframita ni región compatible con ellas.                Descarte de muestra.
-  Microfrontera ausente           No hay contacto, borde, inclusión, venilla, halo, reemplazo o frontera preservada.    Descarte de microdominio.
-  Componente W insuficiente       Tungsteno/Wolframio (W) no aparece o queda separado de la señal.                      Descarte de lectura SV-399.
-  Ventana actínica cerrada        No hay Uranio (U), Torio (Th), REE/ETR ni Zirconio (Zr) asociados al microdominio.    Descarte de ventana de prueba.
-  Absorción por `Ω118`            La señal queda explicada por elementos reconocidos, fases o matriz.                   Descarte de residual.
-  Radiogénesis suficiente         Productos de cadenas U/Th explican la señal sin diferencia persistente.               Descarte por explicación ordinaria.
-  Interferencia o contaminación   Óxidos, hidruros, aductos, arrastre, preparación o instrumento explican la lectura.   Descarte instrumental o repetición no admisible.
-  Trazabilidad rota               No se puede volver del dictamen al punto medido, técnica y cadena de custodia.        Descarte o degradación a `U`.
+| **Causa de descarte**         | **Evidencia de descarte**                                                           | **Alcance del dictamen**                         |
+|:------------------------------|:------------------------------------------------------------------------------------|:-------------------------------------------------|
+| Matriz no admisible           | La muestra no es scheelita, wolframita ni región compatible con ellas.              | Descarte de muestra.                             |
+| Microfrontera ausente         | No hay contacto, borde, inclusión, venilla, halo, reemplazo o frontera preservada.  | Descarte de microdominio.                        |
+| Componente W insuficiente     | Tungsteno/Wolframio (W) no aparece o queda separado de la señal.                    | Descarte de lectura SV-399.                      |
+| Ventana actínica cerrada      | No hay Uranio (U), Torio (Th), REE/ETR ni Zirconio (Zr) asociados al microdominio.  | Descarte de ventana de prueba.                   |
+| Absorción por `Ω118`          | La señal queda explicada por elementos reconocidos, fases o matriz.                 | Descarte de residual.                            |
+| Radiogénesis suficiente       | Productos de cadenas U/Th explican la señal sin diferencia persistente.             | Descarte por explicación ordinaria.              |
+| Interferencia o contaminación | Óxidos, hidruros, aductos, arrastre, preparación o instrumento explican la lectura. | Descarte instrumental o repetición no admisible. |
+| Trazabilidad rota             | No se puede volver del dictamen al punto medido, técnica y cadena de custodia.      | Descarte o degradación a `U`.                    |
 
 La salida `U` corresponde a una indeterminación material justificada, no
 a una probabilidad favorable ni a una forma de mantener abierta la tesis
@@ -3850,38 +3586,38 @@ separada, pérdida parcial de frontera o imposibilidad de completar la
 confirmación condicionada. En esos casos, la salida correcta conserva la
 diferencia sin convertirla en candidato.
 
-  **Situación **`U`              **Razón de indeterminación**                                                                       **Acción técnica admisible**
-  ------------------------------ -------------------------------------------------------------------------------------------------- ----------------------------------------------------
-  Señal persistente pero débil   La diferencia sobrevive parcialmente a `Ω118`, pero no alcanza robustez instrumental suficiente.   Repetición dirigida o técnica de mayor resolución.
-  Co-localización incompleta     La señal se aproxima a W y a U/Th--REE/Zr, pero la frontera no queda plenamente reconstruida.      Nuevo mapa, perfil o corte de microdominio.
-  Técnicas discordantes          Una técnica sugiere residual y otra lo absorbe o no lo reproduce.                                  Control cruzado y revisión de interferencias.
-  Interferencia no cerrada       Óxido, hidruro, aducto, isótopo o matriz no pueden descartarse con seguridad.                      Ensayo complementario o mejora de calibración.
-  Frontera deteriorada           La preparación conserva parte del microdominio, pero no permite decisión plena.                    Nueva preparación o descarte del punto original.
-  Control NORM incompleto        La muestra puede medirse, pero el expediente radiológico no queda cerrado.                         Completar trazabilidad antes del dictamen final.
-  Confirmación no ejecutada      El piloto detecta una señal relevante, pero no se dispone aún de confirmación condicionada.        Mantener `U` hasta repetición o confirmación.
+| **Situación **`U`            | **Razón de indeterminación**                                                                     | **Acción técnica admisible**                       |
+|:-----------------------------|:-------------------------------------------------------------------------------------------------|:---------------------------------------------------|
+| Señal persistente pero débil | La diferencia sobrevive parcialmente a `Ω118`, pero no alcanza robustez instrumental suficiente. | Repetición dirigida o técnica de mayor resolución. |
+| Co-localización incompleta   | La señal se aproxima a W y a U/Th–REE/Zr, pero la frontera no queda plenamente reconstruida.     | Nuevo mapa, perfil o corte de microdominio.        |
+| Técnicas discordantes        | Una técnica sugiere residual y otra lo absorbe o no lo reproduce.                                | Control cruzado y revisión de interferencias.      |
+| Interferencia no cerrada     | Óxido, hidruro, aducto, isótopo o matriz no pueden descartarse con seguridad.                    | Ensayo complementario o mejora de calibración.     |
+| Frontera deteriorada         | La preparación conserva parte del microdominio, pero no permite decisión plena.                  | Nueva preparación o descarte del punto original.   |
+| Control NORM incompleto      | La muestra puede medirse, pero el expediente radiológico no queda cerrado.                       | Completar trazabilidad antes del dictamen final.   |
+| Confirmación no ejecutada    | El piloto detecta una señal relevante, pero no se dispone aún de confirmación condicionada.      | Mantener `U` hasta repetición o confirmación.      |
 
 El modelo de dictamen debe incluir una frase de cierre que impida
-extrapolaciones. En caso positivo, la fórmula adecuada es: "El
+extrapolaciones. En caso positivo, la fórmula adecuada es: “El
 microdominio analizado devuelve candidato SV-399 bajo las condiciones
 del protocolo, sin que ello implique reconocimiento automático por la
 Unión Internacional de Química Pura y Aplicada (IUPAC) ni síntesis
-nuclear del elemento". En caso negativo: "El microdominio analizado
+nuclear del elemento”. En caso negativo: “El microdominio analizado
 queda descartado como candidato SV-399 bajo las condiciones del
 protocolo, sin que ello constituya negación global de la diana
-estructural". En caso `U`: "El microdominio analizado conserva
+estructural”. En caso `U`: “El microdominio analizado conserva
 indeterminación material justificada; no se admite como candidato ni se
-descarta sin repetición o confirmación adicional".
+descarta sin repetición o confirmación adicional”.
 
-  **Salida**   **Fórmula de cierre**                                       **Efecto técnico**
-  ------------ ----------------------------------------------------------- -------------------------------------------------------------------------------------
-  Positivo     Candidato SV-399 bajo protocolo.                            Autoriza fase de confirmación condicionada y contraste interinstrumental.
-  Negativo     Descarte de muestra, microdominio o señal bajo protocolo.   Cierra el punto analizado y evita insistencia interpretativa.
-  `U`          Indeterminación material justificada.                       Conserva la diferencia y ordena repetición, mejora instrumental o cierre posterior.
+| **Salida** | **Fórmula de cierre**                                     | **Efecto técnico**                                                                  |
+|:-----------|:----------------------------------------------------------|:------------------------------------------------------------------------------------|
+| Positivo   | Candidato SV-399 bajo protocolo.                          | Autoriza fase de confirmación condicionada y contraste interinstrumental.           |
+| Negativo   | Descarte de muestra, microdominio o señal bajo protocolo. | Cierra el punto analizado y evita insistencia interpretativa.                       |
+| `U`        | Indeterminación material justificada.                     | Conserva la diferencia y ordena repetición, mejora instrumental o cierre posterior. |
 
 La matriz final de decisión puede expresarse como una compuerta de
 lectura: si no hay matriz cerrada, no hay protocolo; si no hay
 microfrontera, no hay región de prueba; si no hay referencia W, no hay
-diana SV-399; si no hay ventana U/Th--REE/Zr, no hay residuo
+diana SV-399; si no hay ventana U/Th–REE/Zr, no hay residuo
 actínico-refractario interrogable; si `Ω118` absorbe la señal, no hay
 residual; si queda residual persistente pero no se reconstruye, hay `U`;
 si el residual persiste, co-localiza, resiste controles y conserva
@@ -3892,12 +3628,11 @@ SEM-BSE/EDS, tablas EPMA-WDS, espectros Raman/XRD, mapas LA-ICP-MS,
 blancos, duplicados, calibraciones, matriz de interferencias, matriz
 NORM, sustracción `Ω118`, hoja de microdominio, coste ejecutado,
 calendario real y responsable técnico. Sin ese inventario, el resultado
-no queda suficientemente trazado. Con él, cada salida ---positiva,
-negativa o `U`--- puede reconstruirse desde el dato material hasta la
+no queda suficientemente trazado. Con él, cada salida —positiva,
+negativa o `U`— puede reconstruirse desde el dato material hasta la
 decisión final sin depender de autoridad verbal.
 
-## **Anexo I. Índice de supervivencia estructural extrema bajo estrés acoplado** {#anexo-i-ndice-de-supervivencia-estructural-extrema-bajo-estrs-acoplado}
-
+## Anexo I. Índice de supervivencia estructural extrema bajo estrés acoplado
 El índice de supervivencia estructural extrema bajo estrés acoplado se
 incorpora para impedir que SV-399 quede reducido a una detección
 residual sin valor tecnológico. La primera pregunta del protocolo es si
@@ -3926,19 +3661,19 @@ resultado tecnológico queda en `U`; si todas las condiciones se
 sostienen bajo trazabilidad suficiente, el candidato puede pasar a
 lectura tecnológica admisible.
 
-  **Condición**   **Contenido técnico**                                                                      **Función dentro del índice**                                         **Salida si falla**
-  --------------- ------------------------------------------------------------------------------------------ --------------------------------------------------------------------- -------------------------------------------------
-  `C_Θ`           Compatibilidad con el dominio `K_Θ > 4.500 °C`.                                            Evita que SV-399 se reduzca a señal química sin régimen extremo.      No hay admisión tecnológica.
-  `C_W`           Presencia material de Tungsteno/Wolframio (W) como componente refractario de referencia.   Impide abrir la lectura a residuales actínicos sin soporte W.         Descarte tecnológico de la diana.
-  `C_act`         Ventana Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr) asociada al microdominio.          Conserva la orientación actínica-mineralógica.                        No hay residual actínico-refractario admisible.
-  `C_micro`       Microfrontera reconocible en contacto, borde, inclusión, venilla, halo o reemplazo.        Exige lugar material definido y no señal dispersa.                    Pérdida de región de prueba.
-  `C_mec`         Resistencia o continuidad frente a carga, contacto, fractura o deformación.                Controla conservación mecánica de frontera.                           No hay supervivencia material suficiente.
-  `C_ox`          Respuesta frente a oxidación en condiciones declaradas.                                    Controla degradación química oxidante.                                Pérdida de frontera funcional.
-  `C_cor`         Respuesta frente a corrosión o ataque químico compatible con el ensayo.                    Controla estabilidad química del microdominio.                        Pérdida de admisibilidad extrema.
-  `C_ab`          Respuesta frente a ablación, erosión o retirada superficial bajo estrés.                   Controla permanencia de la región útil.                               Desaparición de soporte material.
-  `C_rad`         Respuesta bajo radiación o presencia de radionucleidos naturales cuando proceda.           Integra la ventana NORM y la exigencia de trazabilidad radiológica.   Lectura tecnológica no cerrada.
-  `C_ciclo`       Conservación bajo ciclos frío-calor y gradientes térmicos declarados.                      Evita confundir resistencia puntual con supervivencia por tránsito.   Pérdida de continuidad de frontera.
-  `C_ret`         Retorno analítico reconstruible después de la prueba o comparación de estados.             Une supervivencia material y trazabilidad instrumental.               No hay cierre tecnológico.
+| **Condición** | **Contenido técnico**                                                                    | **Función dentro del índice**                                       | **Salida si falla**                             |
+|:--------------|:-----------------------------------------------------------------------------------------|:--------------------------------------------------------------------|:------------------------------------------------|
+| `C_Θ`         | Compatibilidad con el dominio `K_Θ > 4.500 °C`.                                          | Evita que SV-399 se reduzca a señal química sin régimen extremo.    | No hay admisión tecnológica.                    |
+| `C_W`         | Presencia material de Tungsteno/Wolframio (W) como componente refractario de referencia. | Impide abrir la lectura a residuales actínicos sin soporte W.       | Descarte tecnológico de la diana.               |
+| `C_act`       | Ventana Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr) asociada al microdominio.        | Conserva la orientación actínica-mineralógica.                      | No hay residual actínico-refractario admisible. |
+| `C_micro`     | Microfrontera reconocible en contacto, borde, inclusión, venilla, halo o reemplazo.      | Exige lugar material definido y no señal dispersa.                  | Pérdida de región de prueba.                    |
+| `C_mec`       | Resistencia o continuidad frente a carga, contacto, fractura o deformación.              | Controla conservación mecánica de frontera.                         | No hay supervivencia material suficiente.       |
+| `C_ox`        | Respuesta frente a oxidación en condiciones declaradas.                                  | Controla degradación química oxidante.                              | Pérdida de frontera funcional.                  |
+| `C_cor`       | Respuesta frente a corrosión o ataque químico compatible con el ensayo.                  | Controla estabilidad química del microdominio.                      | Pérdida de admisibilidad extrema.               |
+| `C_ab`        | Respuesta frente a ablación, erosión o retirada superficial bajo estrés.                 | Controla permanencia de la región útil.                             | Desaparición de soporte material.               |
+| `C_rad`       | Respuesta bajo radiación o presencia de radionucleidos naturales cuando proceda.         | Integra la ventana NORM y la exigencia de trazabilidad radiológica. | Lectura tecnológica no cerrada.                 |
+| `C_ciclo`     | Conservación bajo ciclos frío-calor y gradientes térmicos declarados.                    | Evita confundir resistencia puntual con supervivencia por tránsito. | Pérdida de continuidad de frontera.             |
+| `C_ret`       | Retorno analítico reconstruible después de la prueba o comparación de estados.           | Une supervivencia material y trazabilidad instrumental.             | No hay cierre tecnológico.                      |
 
 La evaluación del índice usa la terna de decisión `1`, `0` y `U`. El
 valor `1` significa condición satisfecha bajo el protocolo declarado; el
@@ -3950,11 +3685,11 @@ positiva; una condición `0` no puede compensarse con otra favorable; una
 condición `1` sólo vale dentro de su dominio técnico y no autoriza
 extrapolación fuera de la muestra, microdominio o trayectoria ensayada.
 
-  **Valor**   **Significado**                                             **Uso permitido**                                                      **Uso prohibido**
-  ----------- ----------------------------------------------------------- ---------------------------------------------------------------------- -----------------------------------------------------------------
-  `1`         Condición satisfecha con trazabilidad suficiente.           Admitir la compuerta concreta dentro del protocolo.                    Extenderla a otros microdominios no ensayados.
-  `0`         Condición no satisfecha o contradicha por el ensayo.        Cerrar la admisión tecnológica de esa ruta.                            Forzar una lectura favorable por otras condiciones positivas.
-  `U`         Condición no decidida con honestidad material suficiente.   Ordenar repetición, mejora instrumental o confirmación condicionada.   Tratarla como probabilidad favorable o como candidato aceptado.
+| **Valor** | **Significado**                                           | **Uso permitido**                                                    | **Uso prohibido**                                               |
+|:----------|:----------------------------------------------------------|:---------------------------------------------------------------------|:----------------------------------------------------------------|
+| `1`       | Condición satisfecha con trazabilidad suficiente.         | Admitir la compuerta concreta dentro del protocolo.                  | Extenderla a otros microdominios no ensayados.                  |
+| `0`       | Condición no satisfecha o contradicha por el ensayo.      | Cerrar la admisión tecnológica de esa ruta.                          | Forzar una lectura favorable por otras condiciones positivas.   |
+| `U`       | Condición no decidida con honestidad material suficiente. | Ordenar repetición, mejora instrumental o confirmación condicionada. | Tratarla como probabilidad favorable o como candidato aceptado. |
 
 La admisión tecnológica de SV-399 puede expresarse mediante la siguiente
 regla:
@@ -3971,13 +3706,13 @@ tecnológico. El candidato analítico puede abrir la investigación; el
 candidato material exige residual, matriz y co-localización; el caso
 tecnológico exige además supervivencia estructural extrema.
 
-  **Nivel**                     **Condición de entrada**                                                                        **Dictamen admisible**
-  ----------------------------- ----------------------------------------------------------------------------------------------- -----------------------------------------
-  Candidato analítico           Señal persistente no absorbida inmediatamente por `Ω118`.                                       Requiere reconstrucción y controles.
-  Candidato material            Residual actínico-refractario con matriz, microfrontera, referencia W y ventana U/Th--REE/Zr.   Candidato SV-399 bajo protocolo.
-  Caso tecnológico              Candidato material con `C_Θ` y `I_SEEA=1`.                                                      Admisión tecnológica condicionada.
-  Indeterminación tecnológica   Candidato material con alguna compuerta `U` relevante.                                          `U` tecnológica y repetición dirigida.
-  Descarte tecnológico          Candidato material degradado por una compuerta `0` esencial.                                    Cierre de la ruta tecnológica ensayada.
+| **Nivel**                   | **Condición de entrada**                                                                     | **Dictamen admisible**                  |
+|:----------------------------|:---------------------------------------------------------------------------------------------|:----------------------------------------|
+| Candidato analítico         | Señal persistente no absorbida inmediatamente por `Ω118`.                                    | Requiere reconstrucción y controles.    |
+| Candidato material          | Residual actínico-refractario con matriz, microfrontera, referencia W y ventana U/Th–REE/Zr. | Candidato SV-399 bajo protocolo.        |
+| Caso tecnológico            | Candidato material con `C_Θ` y `I_SEEA=1`.                                                   | Admisión tecnológica condicionada.      |
+| Indeterminación tecnológica | Candidato material con alguna compuerta `U` relevante.                                       | `U` tecnológica y repetición dirigida.  |
+| Descarte tecnológico        | Candidato material degradado por una compuerta `0` esencial.                                 | Cierre de la ruta tecnológica ensayada. |
 
 El índice puede aplicarse en tres momentos distintos. En el piloto,
 sirve para no aceptar como candidato una señal que carece de región
@@ -3996,14 +3731,14 @@ composicional, la integridad de frontera y el dictamen de la compuerta.
 Estos campos no rebajan el alcance del índice: fijan las condiciones sin
 las cuales la evaluación no puede auditarse materialmente.
 
-  **Campo de aplicación**   **Exigencia documental**                                                **Razón de control**
-  ------------------------- ----------------------------------------------------------------------- -------------------------------------------------
-  Estado inicial            Mapa, fase, composición y coordenada del microdominio.                  Permite saber qué frontera se somete a prueba.
-  Estado comparado          Mapa o lectura posterior, repetida o complementaria.                    Permite evaluar conservación o pérdida.
-  Condición aplicada        Temperatura, ciclo, medio, carga, atmósfera, radiación o preparación.   Evita ensayos no declarados.
-  Instrumento               Técnica, calibración, resolución y responsable.                         Permite reconstruir la lectura.
-  Resultado de compuerta    `1`, `0` o `U` con justificación.                                       Impide convertir impresión técnica en dictamen.
-  Residual asociado         Relación con `Ω118`, referencia W y ventana U/Th--REE/Zr.               Conserva vínculo con SV-399.
+| **Campo de aplicación** | **Exigencia documental**                                              | **Razón de control**                            |
+|:------------------------|:----------------------------------------------------------------------|:------------------------------------------------|
+| Estado inicial          | Mapa, fase, composición y coordenada del microdominio.                | Permite saber qué frontera se somete a prueba.  |
+| Estado comparado        | Mapa o lectura posterior, repetida o complementaria.                  | Permite evaluar conservación o pérdida.         |
+| Condición aplicada      | Temperatura, ciclo, medio, carga, atmósfera, radiación o preparación. | Evita ensayos no declarados.                    |
+| Instrumento             | Técnica, calibración, resolución y responsable.                       | Permite reconstruir la lectura.                 |
+| Resultado de compuerta  | `1`, `0` o `U` con justificación.                                     | Impide convertir impresión técnica en dictamen. |
+| Residual asociado       | Relación con `Ω118`, referencia W y ventana U/Th–REE/Zr.              | Conserva vínculo con SV-399.                    |
 
 El índice queda subordinado al dictamen principal del trabajo. Si no hay
 residual material, no se aplica como admisión tecnológica. Si hay
@@ -4027,14 +3762,13 @@ resiste, se admite el caso tecnológico condicionado; si falla, se
 descarta; si no puede decidirse, se conserva `U` y se ordena repetición
 o confirmación.
 
-# **Conclusión general** {#conclusin-general}
-
+# Conclusión general
 Este trabajo queda cerrado como determinación dirigida de SV-399 en
 sentido estricto. La investigación no proclama un elemento ordinario
 reconocido, no propone una síntesis nuclear, no utiliza Oganesón (Og)
 como reactivo y no sustituye los procedimientos institucionales de
-validación externa. Fija una diana estructural del dominio SV ---Actinio
-(Ac) + 3 Oganesón (Og) + Tungsteno/Wolframio (W)--- y la convierte en un
+validación externa. Fija una diana estructural del dominio SV —Actinio
+(Ac) + 3 Oganesón (Og) + Tungsteno/Wolframio (W)— y la convierte en un
 protocolo material interrogable, con matriz, microfrontera, banco de
 sustracción, controles, costes, calendario, anexos técnicos y dictamen
 ternario. La diana queda determinada antes del ensayo. SV-399 no se
@@ -4045,7 +3779,7 @@ componente refractario de referencia de Tungsteno/Wolframio (W), el
 dominio térmico `K_Θ > 4.500 °C` y la localización material en scheelita
 o wolframita. Esa determinación previa obliga al ensayo a responder a
 una pregunta precisa: si existe, en microdominios de transición
-W--U/Th--REE/Zr, un residual actínico-refractario persistente,
+W–U/Th–REE/Zr, un residual actínico-refractario persistente,
 co-localizado, trazable y no absorbible por `Ω118`. La tabla reconocida
 cumple una función doble y controlada. Por un lado, ofrece el lenguaje
 externo ordinario de contraste; por otro, actúa como banco de
@@ -4057,7 +3791,7 @@ afirmación no contrastada y evita, simétricamente, subordinar el dominio
 transducido a la tabla reconocida como límite absoluto. La matriz
 mineralógica queda cerrada en scheelita y wolframita porque la diana
 exige Tungsteno/Wolframio (W) como componente refractario de referencia.
-La ventana U/Th--REE/Zr no se acepta como indicio suficiente si aparece
+La ventana U/Th–REE/Zr no se acepta como indicio suficiente si aparece
 separada de W, y W no se acepta como vía de SV-399 si aparece sin
 vecindad actínico-mineralógica. El protocolo sólo se abre donde hay
 región material común: contacto, borde, inclusión, venilla, halo, zona
@@ -4076,7 +3810,7 @@ trayectoria material declarada. La salida del trabajo conserva tres
 decisiones y sólo tres: candidato SV-399, descarte o `U` material
 justificada. El candidato exige residual persistente tras sustracción
 `Ω118`, matriz cerrada, microfrontera reconstruible, referencia W,
-ventana U/Th--REE/Zr, control de interferencias, trazabilidad
+ventana U/Th–REE/Zr, control de interferencias, trazabilidad
 instrumental y coherencia con el dominio térmico-material. El descarte
 procede cuando cualquiera de esas compuertas esenciales falla. `U`
 conserva la diferencia cuando no puede aceptarse ni descartarse con
@@ -4092,8 +3826,8 @@ ejecutable y falsable por laboratorios capaces de sostener
 microanálisis, radioprotección, sustracción elemental y trazabilidad
 material. El coste y el calendario refuerzan esa misma disciplina. El
 piloto recomendado de 120.000 €, la horquilla admisible de
-90.000--140.000 €, la confirmación condicionada de 120.000--220.000 € y
-el presupuesto total piloto + confirmación de 210.000--360.000 € no se
+90.000–140.000 €, la confirmación condicionada de 120.000–220.000 € y el
+presupuesto total piloto + confirmación de 210.000–360.000 € no se
 presentan como gasto abierto. Cada tramo queda sometido a condiciones de
 parada: ausencia de matriz, pérdida de microfrontera, absorción por
 `Ω118`, falta de co-localización, interferencia no resuelta,
@@ -4120,12 +3854,10 @@ resiste, se admite candidato bajo protocolo; si desaparece o se absorbe,
 se descarta; si no puede decidirse, se conserva `U` y se ordena
 repetición o confirmación.
 
-------------------------------------------------------------------------
+---
 
-# **Bibliografía** {#bibliografa}
-
-## **Fuentes externas de contraste científico y técnico** {#fuentes-externas-de-contraste-cientfico-y-tcnico}
-
+# Bibliografía
+## Fuentes externas de contraste científico y técnico
 Goldstein, J. I., Newbury, D. E., Michael, J. R., Ritchie, N. W. M.,
 Scott, J. H. J., & Joy, D. C. (2018). *Scanning electron microscopy and
 X-ray microanalysis* (4.ª ed.). Springer.
@@ -4164,17 +3896,17 @@ noviembre). *IUPAC announces the names of the elements 113, 115, 117 and
 Karol, P. J., Barber, R. C., Sherrill, B. M., Vardaci, E., & Yamazaki,
 T. (2016a). Discovery of the element with atomic number Z = 118
 completing the 7th row of the periodic table (IUPAC Technical Report).
-*Pure and Applied Chemistry, 88*(1--2), 155--160.
+*Pure and Applied Chemistry, 88*(1–2), 155–160.
 <https://doi.org/10.1515/pac-2015-0501>
 
 Karol, P. J., Barber, R. C., Sherrill, B. M., Vardaci, E., & Yamazaki,
 T. (2016b). Discovery of the elements with atomic numbers Z = 113, 115
-and 117 (IUPAC Technical Report). *Pure and Applied Chemistry,
-88*(1--2), 139--153. <https://doi.org/10.1515/pac-2015-0502>
+and 117 (IUPAC Technical Report). *Pure and Applied Chemistry, 88*(1–2),
+139–153. <https://doi.org/10.1515/pac-2015-0502>
 
 Liu, Y., Hu, Z., Li, M., & Gao, S. (2013). Applications of LA-ICP-MS in
 the elemental analyses of geological samples. *Chinese Science Bulletin,
-58*, 3863--3878. <https://doi.org/10.1007/s11434-013-5901-4>
+58*, 3863–3878. <https://doi.org/10.1007/s11434-013-5901-4>
 
 Mindat.org. (s. f.-a). *Scheelite*. Hudson Institute of Mineralogy.
 Recuperado el 9 de junio de 2026, de
@@ -4193,22 +3925,22 @@ electron microscopy in geology* (2.ª ed.). Cambridge University Press.
 
 Savino, R., Mungiguerra, S., & Di Martino, G. D. (2018). Testing
 ultra-high-temperature ceramics for thermal protection and rocket
-applications. *Advances in Applied Ceramics, 117*(1), 9--18.
+applications. *Advances in Applied Ceramics, 117*(1), 9–18.
 <https://doi.org/10.1080/17436753.2018.1509175>
 
 Shedd, K. B. (2012). Mineral resource of the month: Tungsten. *Earth
 Magazine*. U.S. Geological Survey.
 <https://www.usgs.gov/publications/mineral-resource-month-tungsten>
 
-Simonenko, E. P., Sevast'yanov, D. V., Simonenko, N. P., Kuznetsov, N.
-T., & Sevast'yanov, V. G. (2013). Promising ultra-high-temperature
+Simonenko, E. P., Sevast’yanov, D. V., Simonenko, N. P., Kuznetsov, N.
+T., & Sevast’yanov, V. G. (2013). Promising ultra-high-temperature
 ceramic materials for aerospace applications. *Russian Journal of
-Inorganic Chemistry, 58*(14), 1669--1693.
+Inorganic Chemistry, 58*(14), 1669–1693.
 <https://doi.org/10.1134/S0036023613140039>
 
 Smits, O. R., Düllmann, C. E., Indelicato, P., Nazarewicz, W., &
 Schwerdtfeger, P. (2024). The quest for superheavy elements and the
-limit of the periodic table. *Nature Reviews Physics, 6*, 86--98.
+limit of the periodic table. *Nature Reviews Physics, 6*, 86–98.
 <https://doi.org/10.1038/s42254-023-00668-y>
 
 Sylvester, P. J. (Ed.). (2008). *Laser ablation ICP-MS in the Earth
@@ -4223,33 +3955,32 @@ United States Geological Survey. (2025b). *Mineral commodity summaries
 2025: Tungsten*. U.S. Geological Survey.
 <https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-tungsten.pdf>
 
-## **Fundamentos SV y publicaciones relacionadas**
-
+## Fundamentos SV y publicaciones relacionadas
 Lloret Egea, J. A. (2026a). *Análisis preliminar de elementos químicos,
 materiales y aleaciones de nueva generación para usos médicos y
-científicos*. IA eñ™ --- La Biblia de la IA™.
+científicos*. IA eñ™ — La Biblia de la IA™.
 <https://doi.org/10.17613/8ryyb-g9h48>
 
 Lloret Egea, J. A. (2026b). *Catálogo de Pares Estructurales SV
 (CPS-SV): enlace, aleación y compatibilidad posicional desde los 118
-elementos base hasta los 443 candidatos del dominio extendido*. IA eñ™
---- La Biblia de la IA™. <https://doi.org/10.21428/39829d0b.a56b9cd7>
+elementos base hasta los 443 candidatos del dominio extendido*. IA eñ™ —
+La Biblia de la IA™. <https://doi.org/10.21428/39829d0b.a56b9cd7>
 
 Lloret Egea, J. A. (2026c). *El origen material ordinario del Universo
 observable y la relación entre física contemporánea y el SV en el
 tránsito por dominios: errores de plano, contraste entre aparatos y
-continuidad H--He de la materia ordinaria*. IA eñ™ --- La Biblia de la
-IA™. <https://doi.org/10.21428/39829d0b.90fce13d>
+continuidad H–He de la materia ordinaria*. IA eñ™ — La Biblia de la IA™.
+<https://doi.org/10.21428/39829d0b.90fce13d>
 
 Lloret Egea, J. A. (2026d). *Génesis del hidrógeno y teoría de la
 persistencia energética estructural: masa, frontera, residual e
-identidad física bajo compatibilidad operatoria universal*. IA eñ™ ---
-La Biblia de la IA™. <https://doi.org/10.17613/qq4q9-sd847>
+identidad física bajo compatibilidad operatoria universal*. IA eñ™ — La
+Biblia de la IA™. <https://doi.org/10.17613/qq4q9-sd847>
 
 Lloret Egea, J. A. (2026e). *Primitivos metrológicos del Sistema
 Vectorial SV: instanciaciones contingentes de las constantes
 fundacionales del Sistema Internacional, justificación algebraica y
-tabla de equivalencias factuales*. IA eñ™ --- La Biblia de la IA™.
+tabla de equivalencias factuales*. IA eñ™ — La Biblia de la IA™.
 <https://doi.org/10.21428/39829d0b.c8ec692e>
 
 Lloret Egea, J. A. (2026f). *Tabla periódica estructural extendida del
@@ -4257,263 +3988,21 @@ dominio térmico K_Θ: materiales por encima de 4.500 °C* . Instituto
 Tecnológico Virtual de la Inteligencia Artificial para el Español.
 <https://doi.org/10.21428/39829d0b.5fd2b270>
 
-------------------------------------------------------------------------
+---
 
 # Ruta 2. Localización de `SV-399_Ψ` como presencia residual ultraminoritaria en moléculas compuestas y redes minerales anfitrionas
-
 <details>
 <summary><strong>Índice de la Ruta 2</strong></summary>
 
-- 1. Fundamento de la Ruta 2: persistencia material, génesis H–He y residual heredado.
-- 2. Definición operativa de `SV-399_Ψ`: presencia ultraminoritaria, alojamiento y no absorción por `Ω118`.
-- 3. Moléculas compuestas y redes minerales anfitrionas: criterio de selección material.
-- 4. Dónde y cómo buscar: prioridad de anfitriones, microfronteras y retorno.
-- 5. Bibliografía específica de la Ruta 2.
-
+- 1.  Fundamento de la Ruta 2: persistencia material, génesis H–He y
+      residual heredado.
+- 2.  Definición operativa de `SV-399_Ψ`: presencia ultraminoritaria,
+      alojamiento y no absorción por `Ω118`.
+- 3.  Moléculas compuestas y redes minerales anfitrionas: criterio de
+      selección material.
+- 4.  Dónde y cómo buscar: prioridad de anfitriones, microfronteras y
+      retorno.
+- 5.  Bibliografía específica de la Ruta 2.
 </details>
 
 # Conclusiones. Comparación operativa entre Ruta 1 y Ruta 2: alcance, coste, tiempo, ventajas, límites y recomendación final
-
-# Cláusulas legales
-
-**Advertencia y reserva de derechos.** Esta publicación, incluyendo su
-texto, formulación, estructura expositiva, tablas, gráficos, imágenes,
-selección y disposición de contenidos, archivos auxiliares, código,
-laboratorios, salidas de verificación y documentación asociada, queda
-protegida por los derechos de propiedad intelectual de su autor y, en su
-caso, por la gestión de derechos que corresponda a través de CEDRO.
-Cualquier forma de explotación de la obra o de partes sustanciales de
-ella ---incluidas su reproducción, distribución, comunicación pública,
-puesta a disposición, transformación, traducción, adaptación,
-incorporación a bases de datos, entrenamiento o evaluación de sistemas
-automatizados, integración en productos, servicios, informes, software,
-modelos, catálogos, materiales docentes, materiales industriales,
-publicaciones técnicas o desarrollos empresariales--- sólo podrá
-realizarse conforme a la licencia indicada, con autorización expresa y
-por escrito de los titulares de derechos, o al amparo de una excepción
-legal aplicable. La licencia indicada no autoriza usos comerciales,
-explotación empresarial, transformación distribuida ni reutilización
-sustancial de la obra fuera de sus términos. La aplicación,
-implementación, explotación técnica o incorporación de los resultados,
-fórmulas, tablas, nomenclatura, metodología, transductores, criterios de
-admisión, dominios, laboratorios o conclusiones de esta obra en el campo
-de la Física, la Química, la ciencia de materiales, la ingeniería, la
-inteligencia artificial u otras ciencias derivadas queda reservada a la
-autorización expresa del autor cuando implique reproducción,
-transformación, comunicación pública, distribución, integración
-sustancial de la obra protegida, explotación comercial, desarrollo
-empresarial o uso no cubierto por la licencia. Nada de lo anterior
-limita los usos permitidos imperativamente por la ley.
-
-**Notice and reservation of rights.** *This publication, including its
-text, formulation, expository structure, tables, graphics, images,
-selection and arrangement of contents, auxiliary files, code,
-laboratories, verification outputs and associated documentation, is
-protected by the author's intellectual property rights and, where
-applicable, by the corresponding rights management through CEDRO. Any
-form of exploitation of the work or of substantial parts thereof
----including reproduction, distribution, public communication, making
-available, transformation, translation, adaptation, incorporation into
-databases, training or evaluation of automated systems, integration into
-products, services, reports, software, models, catalogues, teaching
-materials, industrial materials, technical publications or business
-developments--- may only be carried out in accordance with the indicated
-license, with the express written authorization of the rights holders,
-or under an applicable statutory exception. The indicated license does
-not authorize commercial uses, business exploitation, distributed
-transformation or substantial reuse of the work outside its terms. The
-application, implementation, technical exploitation or incorporation of
-the results, formulas, tables, nomenclature, transducers, admission
-criteria, domains, laboratories or conclusions of this work in the field
-of Physics, Chemistry, materials science, engineering, artificial
-intelligence or other derived sciences is reserved to the express
-authorization of the author where it entails reproduction,
-transformation, public communication, distribution, substantial
-integration of the protected work, commercial exploitation, business
-development or any use not covered by the license. Nothing herein shall
-limit uses that are mandatorily permitted by law.*
-
-## **Disposición sobre propiedad industrial potencial, colaboración técnica y reserva de explotación** {#disposicin-sobre-propiedad-industrial-potencial-colaboracin-tcnica-y-reserva-de-explotacin}
-
-La formulación científica y técnica asociada a SV-399 puede dar lugar a
-desarrollo industrial posterior, especialmente en lo relativo al método
-de determinación dirigida de residuales actínico-refractarios en
-microdominios de transición de Tungsteno/Wolframio (W), situados en
-contactos, bordes, inclusiones, venillas, halos o zonas de reemplazo,
-asociados a Uranio (U), Torio (Th), tierras raras ---REE/ETR--- y
-Zirconio (Zr), dentro de matrices de scheelita y wolframita, mediante
-protocolo instrumental, sustracción de la tabla reconocida, control de
-interferencias, trazabilidad radiológica, análisis de residual y
-decisión técnica de candidato, descarte o indeterminación material
-justificada. La publicación no constituye cesión, licencia, autorización
-de explotación industrial ni renuncia a derechos de propiedad
-intelectual o industrial sobre métodos, procedimientos, criterios
-técnicos, matrices de análisis, secuencias instrumentales, modelos de
-sustracción, sistemas de decisión, aplicaciones materiales o desarrollos
-derivados que puedan resultar patentables, registrables, protegibles
-como secreto empresarial o explotables mediante acuerdos de
-colaboración, licencia, transferencia o investigación conjunta. Todo
-laboratorio, universidad, centro tecnológico, empresa o entidad pública
-o privada que pretenda ejecutar, validar, ampliar, adaptar o explotar
-técnicamente el protocolo **deberá formalizar previamente un acuerdo
-escrito con el autor o con la entidad designada por éste**. El acuerdo
-podrá reconocer, según corresponda, participación técnica, preferencia
-de colaboración, coautoría científica, derechos de explotación,
-licencia, opción de patente, cotitularidad de resultados derivados o
-condiciones específicas de transferencia tecnológica, siempre que la
-contribución material del laboratorio quede documentada y aceptada por
-escrito. El primer laboratorio que acepte formalmente desarrollar el
-protocolo bajo condiciones pactadas podrá ser reconocido como
-colaborador preferente para la fase experimental inicial, sin perjuicio
-de los derechos previos del autor sobre la formulación, el método, la
-diana SV-399, el diseño del protocolo, los criterios de residual, la
-selección de matrices, la arquitectura de sustracción y la estructura
-general del Sistema Vectorial SV. Ninguna comunicación informal, lectura
-del documento, recepción de archivos, revisión técnica, comentario, cita
-o uso interno no autorizado generará derechos de explotación, prioridad
-técnica ni expectativa jurídica sobre el método. Esta disposición no
-limita la crítica científica, la revisión académica ni el contraste
-independiente dentro de los límites legales aplicables. Su finalidad es
-preservar la trazabilidad de autoría, la integridad del método, la
-eventual protección industrial posterior y la ordenación jurídica de
-futuras colaboraciones técnicas.
-
-## **Provision on potential industrial property, technical collaboration and reservation of exploitation rights**
-
-*The scientific and technical formulation associated with SV-399 may
-give rise to subsequent industrial development, especially in relation
-to the method for the directed determination of actinic-refractory
-residuals in transition microdomains of Tungsten/Wolfram (W), located at
-contacts, edges, inclusions, veinlets, halos or replacement zones, and
-associated with Uranium (U), Thorium (Th), rare earth elements
----REE/ETR--- and Zirconium (Zr), within scheelite and wolframite
-matrices, through instrumental protocol, subtraction of the recognised
-periodic table, interference control, radiological traceability,
-residual analysis and technical decision of candidate, discard or
-materially justified indeterminacy. Publication does not constitute
-assignment, licence, authorisation for industrial exploitation or waiver
-of intellectual or industrial property rights over methods, procedures,
-technical criteria, analytical matrices, instrumental sequences,
-subtraction models, decision systems, material applications or derived
-developments that may be patentable, registrable, protectable as trade
-secrets or exploitable through collaboration, licensing, transfer or
-joint research agreements. Any laboratory, university, technology
-centre, company, public entity or private entity intending to execute,
-validate, expand, adapt or technically exploit the protocol must first
-formalise a written agreement with the author or with the entity
-designated by him. The agreement may recognise, as appropriate,
-technical participation, collaboration preference, scientific
-co-authorship, exploitation rights, licence, patent option, co-ownership
-of derived results or specific technology-transfer conditions, provided
-that the laboratory's material contribution is documented and accepted
-in writing. The first laboratory that formally agrees to develop the
-protocol under agreed conditions may be recognised as preferential
-collaborator for the initial experimental phase, without prejudice to
-the author's prior rights over the formulation, the method, the SV-399
-target, the protocol design, the residual criteria, the matrix
-selection, the subtraction architecture and the general structure of the
-Vectorial System SV. No informal communication, reading of the document,
-receipt of files, technical review, comment, citation or unauthorised
-internal use shall generate exploitation rights, technical priority or
-legal expectation over the method. This provision does not limit
-scientific criticism, academic review or independent contrast within the
-applicable legal limits. Its purpose is to preserve authorship
-traceability, the integrity of the method, possible subsequent
-industrial protection and the legal organisation of future technical
-collaborations.*
-
-## **Justificación científica de la publicación previa al ensayo material** {#justificacin-cientfica-de-la-publicacin-previa-al-ensayo-material}
-
-La determinación dirigida de SV-399 no puede plantearse como una prueba
-privada, opaca o meramente instrumental. La diana pertenece a un dominio
-estructural que formula entradas no reconocidas por la tabla periódica
-vigente y exige, para cualquier contraste material serio, la
-intervención de laboratorios especializados en microanálisis,
-mineralogía de tungsteno, geoquímica U/Th--REE/Zr, control NORM
----materiales radiactivos de origen natural---, sustracción elemental e
-identificación de residuales persistentes. La publicación previa fija
-públicamente la diana, las restricciones, la matriz, el método, los
-criterios de descarte y la condición de retorno antes de que exista
-resultado experimental, **de manera que ningún dictamen posterior pueda
-presentarse como reconstrucción oportunista del hallazgo**. La
-relevancia científica del eventual retorno material de SV-399 excedería
-el interés local de una muestra o de un protocolo. Si un residual
-actínico-refractario persistente, co-localizado y no absorbible por la
-tabla reconocida superase los controles previstos, el resultado
-obligaría a revisar el alcance de suficiencia de la tabla periódica
-vigente frente al dominio transducido, sin convertir automáticamente
-SV-399 en elemento ordinario reconocido ni sustituir los procedimientos
-institucionales de validación. El valor del ensayo residiría
-precisamente en esa frontera: no proclamar reconocimiento externo, sino
-abrir una región de contraste material donde la tabla reconocida, la
-mineralogía, la geoquímica de trazas y el Sistema Vectorial SV puedan
-confrontarse bajo criterios declarados. **La publicación previa también
-cumple una función de ordenación científica y jurídica**. Permite que
-cualquier laboratorio interesado conozca con exactitud qué se le
-solicita, qué no se le solicita, qué condiciones debe cumplir, qué
-resultados son admisibles y qué efectos puede tener su colaboración. Al
-mismo tiempo, preserva la trazabilidad de autoría, delimita la reserva
-de propiedad intelectual e industrial y evita que la ejecución
-experimental quede separada de la formulación que la hace posible. Sin
-esta fijación pública, la fase material podría confundirse con una
-prospección genérica de anomalías; con ella, el ensayo queda situado
-como determinación dirigida de una diana previamente definida. La
-eventual obtención material de SV-399 tampoco afectaría sólo a un nodo
-aislado. Conforme al corolario de precedencia estructural, un resultado
-positivo reforzaría la cadena generativa que sitúa la diana dentro del
-dominio SV y obligaría a examinar los nodos previos como antecedentes
-estructurales necesarios, sin que ello equivalga por sí mismo a
-reconocimiento automático por la Unión Internacional de Química Pura y
-Aplicada (IUPAC). Por esa razón, la publicación previa no es una
-cortesía editorial ni un gesto de difusión: es condición de claridad
-científica, trazabilidad, contraste internacional y colaboración técnica
-ordenada.
-
-## **Scientific justification for publication prior to material testing**
-
-*The directed determination of SV-399 cannot be framed as a private,
-opaque or merely instrumental test. The target belongs to a structural
-domain that formulates entries not recognised by the current periodic
-table and requires, for any serious material contrast, the intervention
-of laboratories specialised in microanalysis, tungsten mineralogy,
-U/Th--REE/Zr geochemistry, NORM ---naturally occurring radioactive
-material--- control, elemental subtraction and identification of
-persistent residuals. Prior publication publicly fixes the target, the
-restrictions, the matrix, the method, the discard criteria and the
-return condition before any experimental result exists, so that no
-subsequent technical decision can be presented as an opportunistic
-reconstruction of a finding. The scientific relevance of a possible
-material return of SV-399 would exceed the local interest of a sample or
-a protocol. If a persistent, co-localised actinic-refractory residual
-not absorbable by the recognised periodic table were to pass the planned
-controls, the result would require reassessing the scope of sufficiency
-of the current periodic table in relation to the transduced domain,
-without automatically turning SV-399 into a recognised ordinary element
-and without replacing institutional validation procedures. The value of
-the test would lie precisely at that boundary: not in proclaiming
-external recognition, but in opening a region of material contrast where
-the recognised table, mineralogy, trace geochemistry and the Vectorial
-System SV may be confronted under declared criteria. Prior publication
-also fulfils a function of scientific and legal ordering. It enables any
-interested laboratory to know exactly what is being requested, what is
-not being requested, what conditions must be met, what results are
-admissible and what effects its collaboration may have. At the same
-time, it preserves authorship traceability, delimits the reservation of
-intellectual and industrial property rights and prevents the
-experimental execution from being separated from the formulation that
-makes it possible. Without this public fixation, the material phase
-could be confused with a generic prospecting of anomalies; with it, the
-test is situated as the directed determination of a previously defined
-target. A possible material obtainment of SV-399 would not affect only
-an isolated node either. In accordance with the corollary of structural
-precedence, a positive result would strengthen the generative chain that
-situates the target within the SV domain and would require examining the
-previous nodes as necessary structural antecedents, without this
-amounting by itself to automatic recognition by the International Union
-of Pure and Applied Chemistry (IUPAC). For that reason, prior
-publication is neither an editorial courtesy nor a gesture of
-dissemination: it is a condition of scientific clarity, traceability,
-international contrast and ordered technical collaboration.*
-
-URL canónica:
-<https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/main/documentos/adendas/matematica-fisica-factual-contemporanea-sv/quimica-factual-y-ciencia-de-materiales-sv/materiales-extremos/determinacion-elemento-sv-399/determinacion-dirigida-elemento-quimico-sv-399.md>
