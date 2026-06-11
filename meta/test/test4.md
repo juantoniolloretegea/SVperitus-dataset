@@ -35,7 +35,7 @@ III.2. Restricciones simultáneas de admisión
 III.3. Condición formal de admisión de Ruta 3  
 III.4. Condición formal de exclusión  
 III.5. Relación entre residual R118, residual R_Ψ y sustracción Ω118  
-III.6. Preservación de U como indeterminación material justificada  
+III.6. Preservación de U (indeterminación) como indeterminación material justificada  
 
 ## IV. Integración operativa con Ruta 1 y Ruta 2
 
@@ -51,7 +51,7 @@ V.1. Criterios mínimos de entrada
 V.2. Criterios de exclusión inmediata  
 V.3. Criterios de paso a ensayo  
 V.4. Criterios de descarte  
-V.5. Criterios de U  
+V.5. Criterios de U (indeterminación)  
 V.6. Criterios de candidato SV-399_Ψ  
 V.7. Índice de credibilidad y límites de su lectura  
 
@@ -161,15 +161,3 @@ Expresado de manera formal: `credibilidad_Ruta3(D_i) = índice_argumental(D_i) +
 | 16 | Gabón / Kenia | Gabón–Kenia | 5 | 2,0 | 2,5 | 1 | **10,5** | No admisible en inicio. |
 
 Nota de lectura. La credibilidad de Ruta 3 no declara candidato SV-399_Ψ. Sólo ordena dominios por fuerza de admisión técnica, económica y documental antes del ensayo. La condición de candidato queda reservada a una señal localizada, trazable, persistente, situada en microfrontera W–U/Th–REE/Zr, no absorbible por Ω118 y confirmada mediante mediciones no redundantes.
-
-## Bibliografía específica de esta versión
-
-Committee for Mineral Reserves International Reporting Standards. (2024). *International Reporting Template for the public reporting of Exploration Targets, Exploration Results, Mineral Resources and Mineral Reserves*. https://crirsco.com/wp-content/uploads/2024/04/International_Reporting_Template.pdf
-
-U.S. Geological Survey. (2024). *Grade and tonnage data for tungsten vein and greisen deposits*. https://www.usgs.gov/data/grade-and-tonnage-data-tungsten-vein-and-greisen-deposits
-
-Saloro. (s. f.). *Barruecopardo: overview*. https://www.saloro.com/en/barruecopardo-en/overview/
-
-Almonty Industries. (s. f.). *Panasqueira Mine*. https://almonty.com/project/panasqueira-mine/
-
-Mateus, A., et al. (2021). *Current and foreseen tungsten production in Portugal, and the need of safeguarding the access to relevant known resources*. *Resources, 10*(6), 64. https://www.mdpi.com/2079-9276/10/6/64
