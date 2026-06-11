@@ -1,16 +1,11 @@
 # Ruta 3. Restricción regional y geológica del dominio de prospección para SV-399_Ψ
 
-**Versión:** Versión.1.3  
-**Incremental:** 1/8  
-**Función de esta versión:** fijar la arquitectura rectora, el índice propio, la matriz de credibilidad, la regla de identificación numérica simple, los controles de continuidad, el sistema de versionado y el control final externo de integración.  
-**Estado:** texto técnico de arquitectura corregida. El desarrollo sustantivo comenzará en Versión.2.1 si esta versión queda aprobada.
-
 <details>
-<summary>Índice propio de Ruta 3</summary>
+<summary>Índice</summary>
 
 ## 0. Apertura del desarrollo
 
-0.I. Introducción: función de Ruta 3 dentro de la investigación sobre SV-399_Ψ  
+0.I. Función de Ruta 3 dentro de la investigación sobre SV-399_Ψ  
 0.II. Relación con Ruta 1 y Ruta 2  
 0.III. Alcance y límites de Ruta 3  
 0.IV. Condición de admisibilidad anterior al ensayo  
@@ -94,61 +89,59 @@ VIII.9. Anexo D. Secuencia lógica de dictamen
 
 </details>
 
-# 0. Criterio rector de Versión.1.3
+# 0. Apertura del desarrollo
 
-La Ruta 3 se fija como restricción regional y geológica del dominio de prospección para SV-399_Ψ. No introduce una ruta adicional ni altera la función de Ruta 1 y Ruta 2. Ruta 1 determina el objeto instrumental: residual actínico-refractario asociado a Tungsteno/Wolframio (W), Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr) en microfronteras de scheelita y wolframita. Ruta 2 determina el modo material de presencia: SV-399_Ψ como presencia residual ultraminoritaria alojada en red mineral, defecto, sustitución, inclusión, borde, halo, venilla, complejo local o zona de reemplazo. Ruta 3 determina el dominio de inicio: primero por escala regional-metalogenética y después por restricción geológico-mineralógica, microfrontera, sustracción Ω118, mediciones no redundantes y dictamen.
+## 0.I. Función de Ruta 3 dentro de la investigación sobre SV-399_Ψ
 
-La redacción efectiva empieza siempre después del cierre del índice propio. Ningún apartado sustantivo se redactará dentro de `<details>`. El índice ordena el desarrollo; no sustituye al cuerpo real del análisis. Cada incremento conservará íntegro lo aprobado y añadirá únicamente el bloque previsto por la versión correspondiente.
+La determinación material de SV-399_Ψ exige restringir el dominio de prospección antes de iniciar cualquier ensayo. Ruta 3 cumple esa función: ordena el comienzo del análisis por dominio regional, geológico y mineralógico, de manera que la búsqueda no se disperse en matrices genéricas, anomalías pesadas inespecíficas o señales que sólo adquieran sentido después de la interpretación.
 
-# 1. Triple control de consistencia antes del desarrollo
+Ruta 3 no sustituye Ruta 1 ni Ruta 2. Ruta 1 fija el objeto instrumental: el residual actínico-refractario asociado a Tungsteno/Wolframio (W), Uranio (U), Torio (Th), REE/ETR y Zirconio (Zr) en microfronteras de scheelita y wolframita. Ruta 2 fija el modo material de presencia: SV-399_Ψ como presencia residual ultraminoritaria alojada en red mineral, defecto, sustitución, inclusión, borde, halo, venilla, complejo local o zona de reemplazo. Ruta 3 fija el dominio de inicio en el que esas dos condiciones pueden concurrir materialmente.
 
-## 1.1. Control de continuidad interna
+## 0.II. Relación con Ruta 1 y Ruta 2
 
-Ruta 3 debe conservar la continuidad con Ruta 1 y Ruta 2. No puede formularse como búsqueda independiente, sustitución metodológica, ampliación abierta ni conclusión anticipada. Su función es anterior al ensayo: restringe el dominio regional y geológico en el que las condiciones de Ruta 1 y Ruta 2 pueden concurrir materialmente.
+La relación entre las tres rutas queda ordenada por tres planos distintos. Ruta 1 responde a qué se interroga instrumentalmente. Ruta 2 responde cómo puede comparecer materialmente una presencia residual ultraminoritaria. Ruta 3 responde dónde debe comenzar la prospección para que el objeto instrumental y el modo material de presencia no queden separados de su dominio geológico de mayor fuerza de admisión.
 
-Dictamen de continuidad: pasa si mantiene tres planos separados: objeto instrumental, modo material de presencia y dominio de inicio. Falla si confunde admisión del dominio con candidato SV-399_Ψ.
+La función de Ruta 3 es anterior al ensayo. Primero restringe la escala regional-metalogenética; después restringe el sistema geológico-mineralógico; finalmente exige microfrontera, sustracción Ω118, mediciones no redundantes y dictamen. Por ello, un dominio admitido por Ruta 3 no equivale a candidato SV-399_Ψ. Sólo habilita el comienzo del análisis bajo condiciones materiales más exigentes.
 
-## 1.2. Control lógico-formal
+## 0.III. Alcance y límites de Ruta 3
 
-La admisión de un dominio por Ruta 3 no declara candidato. Sólo permite iniciar el análisis. El candidato exige señal localizada, trazable, persistente, situada en microfrontera W–U/Th–REE/Zr, no absorbible por Ω118 y confirmada mediante mediciones no redundantes.
+Ruta 3 ordena dominios de prospección por fuerza de admisión técnica, económica y documental. No mide probabilidad, no declara hallazgo y no convierte la existencia de un dominio favorable en candidato. La condición de candidato queda reservada a una señal localizada, trazable, persistente, situada en microfrontera W–U/Th–REE/Zr, no absorbible por Ω118 y confirmada mediante mediciones no redundantes.
 
-En su forma lógica: `admisión_Ruta3(D_i) ≠ candidato_SV-399_Ψ`.
+El alcance de Ruta 3 incluye dominios regionales, distritos, minas, cinturones metalogenéticos y sistemas geológicos que conserven relación material con Tungsteno/Wolframio (W), mineralización W–Sn/W, wolframita, ferberita, scheelita, greisen, venas, granito evolucionado o sistema hidrotermal equivalente. Quedan fuera del inicio los contextos que no permitan declarar dominio, portador, microfrontera, conjunto externo de datos, coste extractivo relativo y trazabilidad analítica suficiente.
 
-En su forma lógica: `candidato_SV-399_Ψ ⇔ señal localizada ∧ trazable ∧ persistente ∧ microfrontera(W–U/Th–REE/Zr) ∧ no_absorbible_por_Ω118 ∧ confirmación_no_redundante`.
+## 0.IV. Condición de admisibilidad anterior al ensayo
 
-Dictamen lógico-formal: pasa si toda expresión simbólica o formal aparece precedida por una fórmula introductoria explícita. Falla si introduce cadenas lógicas sin declarar su rango formal.
+Expresado de manera formal: `admisión_Ruta3(D_i) ≠ candidato_SV-399_Ψ`.
 
-## 1.3. Control regional, geológico y económico
+La admisión de un dominio por Ruta 3 sólo establece que ese dominio merece ser interrogado. No autoriza a denominar candidato a ninguna señal. Para que exista candidato SV-399_Ψ debe cumplirse una cadena posterior de localización, persistencia, trazabilidad, microfrontera, sustracción Ω118 y confirmación instrumental no redundante.
 
-Ruta 3 debe ordenar dominios por fuerza de admisión técnica, económica y documental, no por preferencia geográfica ni por estimación estadística. La escala regional-metalogenética no basta por sí sola; debe quedar vinculada a dominio W–Sn/W, portadores de Tungsteno/Wolframio (W), microfrontera, conjunto externo de datos y menor coste extractivo relativo.
+La condición formal de candidato queda expresada así: `candidato_SV-399_Ψ ⇔ señal localizada ∧ trazable ∧ persistente ∧ microfrontera(W–U/Th–REE/Zr) ∧ no_absorbible_por_Ω118 ∧ confirmación_no_redundante`.
 
-Dictamen regional-geológico: pasa si el orden se construye desde índices declarados y si la tabla separa con claridad el caso técnico director, el inicio operativo preferente y las extensiones condicionadas. Falla si enumera países sin distrito, región, mina, cinturón o dominio minero concreto.
+# I. Restricción regional-metalogenética
 
-# 2. Índices de lectura de Ruta 3
+## I.1. Función de la escala regional en la determinación dirigida
 
-La Ruta 3 emplea índices de lectura para ordenar dominios de prospección. Estos índices no expresan estimación estadística. Expresan fuerza de admisión técnica, económica, jurídica y documental antes del ensayo.
+La escala regional evita que la prospección comience en un espacio demasiado amplio. Ruta 3 no pregunta en qué lugar podría aparecer cualquier anomalía pesada, sino qué dominio conserva mayor concurrencia de razones para iniciar la determinación material de SV-399_Ψ. Esa concurrencia exige historia minera, mineralización W–Sn/W, portadores de Tungsteno/Wolframio (W), dominios con lectura geológica verificable, conjunto externo de datos suficiente y coste extractivo relativo razonable.
 
-| Campo | Desarrollo del campo | Escala | Función |
-|---|---|---:|---|
-| ID | Identificador simple de posición en la tabla | 1, 2, 3… | Permite referirse a cada dominio sin repetir nombres extensos. |
-| Dominio de prospección | Zona, distrito, mina, cinturón o dominio minero evaluado | Texto | Delimita el objeto regional o minero sometido a admisión. |
-| País / jurisdicción | Marco administrativo del dominio | Texto | Sitúa el dominio en su régimen jurídico-operativo. |
-| IARM | Índice argumental regional-metalogenético | /20 | Mide el ajuste W–Sn/W, wolframita, ferberita, scheelita, greisen, venas, granito evolucionado o sistema hidrotermal equivalente. |
-| IMCER | Índice de menor coste extractivo relativo | /10 | Mide entrada material menos costosa por método extractivo, infraestructura, accesibilidad, calidad de mineralización y menor dispersión de muestras. |
-| ISJA | Índice de seguridad jurídica y administrativa | /5 | Valora estabilidad normativa, trazabilidad administrativa, seguridad contractual y menor carga de permisos. |
-| ICED | Índice de calidad del conjunto externo de datos | /5 | Valora informes técnicos, cartografía, literatura mineralógica, inventarios públicos y datos verificables. |
-| ICR3 | Índice de credibilidad de Ruta 3 | /40 | Suma razonada de los campos anteriores para ordenar el derecho de inicio del análisis. |
-| Lectura técnica | Traducción operativa del resultado | Texto | Indica si el dominio es inicio preferente, caso técnico director, contraste, extensión condicionada o exclusión previa. |
+La restricción regional-metalogenética permite distinguir entre dominio técnicamente fuerte, dominio operativo preferente, contraste útil, extensión condicionada y exclusión previa. La tabla de Ruta 3 no reemplaza el ensayo: ordena el comienzo.
 
-En su forma lógica: `ICR3(D_i) = IARM(D_i) + IMCER(D_i) + ISJA(D_i) + ICED(D_i)`.
+## I.2. Provincia, cinturón, distrito y dominio minero como primer recorte del análisis
 
-El ICR3 no declara candidato SV-399_Ψ. Sólo ordena la credibilidad de inicio del dominio. La condición de candidato queda reservada a la señal que atraviese la cadena completa de restricciones materiales, geológicas y metrológicas.
+El primer recorte de Ruta 3 no se realiza por país en sentido administrativo, sino por dominio regional o minero. El país importa como jurisdicción, pero la admisión se decide por distrito, cinturón, mina, provincia metalogenética o sistema geológico concreto. Por eso la tabla diferencia Barruecopardo–Salamanca, Panasqueira–Beira Baixa, La Parrilla–Cáceres, Galicia–Ourense, Galicia–A Coruña, Erzgebirge–Krušné hory, Hemerdon–Devon, Mittersill–Felbertal, Salau–Pirineos y otros dominios específicos.
 
-# 3. Tabla rectora inicial de dominios de Ruta 3
+Este recorte evita dos errores: atribuir fuerza material a un país entero sin distrito concreto y excluir indebidamente dominios locales dentro de un país con puntuación general menor. La unidad de lectura no es el Estado, sino el dominio de prospección.
 
-La tabla siguiente no mide estimación estadística. Ordena la credibilidad de inicio de cada dominio mediante una suma de razones declaradas: ajuste regional-metalogenético, menor coste extractivo relativo, seguridad jurídica-administrativa y calidad del conjunto externo de datos. El orden sigue el ICR3; cuando los valores quedan próximos, el desempate se resuelve por menor coste extractivo relativo y, después, por seguridad jurídica-administrativa y calidad del conjunto externo de datos.
+## I.3. Índice de credibilidad de Ruta 3: campos, lectura y orden de admisión
 
-| ID | Dominio de prospección | País / jurisdicción | IARM /20 índice argumental regional-metalogenético | IMCER /10 índice de menor coste extractivo relativo | ISJA /5 índice de seguridad jurídica y administrativa | ICED /5 índice de calidad del conjunto externo de datos | ICR3 /40 índice de credibilidad de Ruta 3 | Lectura técnica |
+La tabla siguiente no mide probabilidad. Ordena la credibilidad de inicio de cada dominio mediante una suma de razones declaradas: ajuste regional-metalogenético, menor coste extractivo relativo, seguridad jurídica-administrativa y calidad del conjunto externo de datos.
+
+La columna **ID** identifica cada dominio según su posición en la tabla. La columna **Dominio de prospección** nombra la zona, distrito, mina, cinturón o dominio minero evaluado. La columna **País / jurisdicción** sitúa el dominio en su marco administrativo. La columna **Índice argumental /20** mide el ajuste W–Sn/W, wolframita, ferberita, scheelita, greisen, venas, granito evolucionado o sistema hidrotermal equivalente. La columna **Coste relativo /10** mide si el dominio permite entrada material menos costosa por método extractivo, infraestructura, accesibilidad, calidad de mineralización y menor dispersión de muestras. La columna **Seguridad /5** valora estabilidad normativa, trazabilidad administrativa, seguridad contractual y menor carga de permisos. La columna **Datos externos /5** valora informes técnicos, cartografía, literatura mineralógica, inventarios públicos y datos verificables. La columna **Credibilidad /40** suma los campos anteriores. La columna **Lectura técnica** traduce el resultado a una decisión operativa.
+
+El orden de la tabla sigue la credibilidad de inicio. Cuando dos dominios presentan valores próximos, el desempate se resuelve por menor coste extractivo relativo y, después, por seguridad jurídica-administrativa y calidad del conjunto externo de datos.
+
+Expresado de manera formal: `credibilidad_Ruta3(D_i) = índice_argumental(D_i) + coste_relativo(D_i) + seguridad(D_i) + datos_externos(D_i)`.
+
+| ID | Dominio de prospección | País / jurisdicción | Índice argumental /20 | Coste relativo /10 | Seguridad /5 | Datos externos /5 | Credibilidad /40 | Lectura técnica |
 |---:|---|---|---:|---:|---:|---:|---:|---|
 | 1 | Barruecopardo–Salamanca | España | 19 | 9,0 | 5 | 4 | **37,0** | Credibilidad crítica; inicio operativo preferente. |
 | 2 | Panasqueira–Beira Baixa / Zona Centroibérica | Portugal | 20 | 7,5 | 5 | 5 | **37,5** | Credibilidad crítica; caso técnico director. |
@@ -167,37 +160,9 @@ La tabla siguiente no mide estimación estadística. Ordena la credibilidad de i
 | 15 | Karagwe-Ankole–Kibara ampliado | Burundi–RDC–Uganda–Tanzania | 11 | 3,0 | 2 | 2 | **18,0** | Insuficiente sin distrito concreto. |
 | 16 | Gabón / Kenia | Gabón–Kenia | 5 | 2,0 | 2,5 | 1 | **10,5** | No admisible en inicio. |
 
-Nota de lectura. La columna ID identifica cada dominio según su posición en la tabla. El índice de credibilidad de Ruta 3 no expresa estimación estadística. Integra el índice argumental regional-metalogenético, el índice de menor coste extractivo relativo, el índice de seguridad jurídica y administrativa, y el índice de calidad del conjunto externo de datos. Su función es ordenar dominios por fuerza de admisión técnica, económica y documental antes del ensayo. La condición de candidato SV-399_Ψ queda reservada a una señal localizada, trazable, persistente, situada en microfrontera W–U/Th–REE/Zr, no absorbible por Ω118 y confirmada mediante mediciones no redundantes.
+Nota de lectura. La credibilidad de Ruta 3 no declara candidato SV-399_Ψ. Sólo ordena dominios por fuerza de admisión técnica, económica y documental antes del ensayo. La condición de candidato queda reservada a una señal localizada, trazable, persistente, situada en microfrontera W–U/Th–REE/Zr, no absorbible por Ω118 y confirmada mediante mediciones no redundantes.
 
-# 4. Sistema de versionado
-
-El sistema de versionado queda fijado con la forma `Versión.X.Y`. El primer número identifica el bloque incremental; el segundo número identifica la corrección dentro de ese bloque. Si Versión.1.3 requiere corrección, continuará como Versión.1.4. Si el bloque 1 queda aprobado, el siguiente desarrollo comenzará como Versión.2.1.
-
-| Incremental | Versión inicial | Función |
-|---:|---|---|
-| 1 | Versión.1.3 | Arquitectura, índice propio, matriz de credibilidad, reglas léxicas, controles de continuidad, sistema de versionado y control final externo de integración. |
-| 2 | Versión.2.1 | Introducción, función de Ruta 3, relación con Ruta 1 y Ruta 2, explicación de la lógica de la tabla. |
-| 3 | Versión.3.1 | Restricción regional-metalogenética: desarrollo de dominios, tabla y justificación del orden. |
-| 4 | Versión.4.1 | Restricción geológico-mineralógica: greisen–vena W–Sn, portadores W, accesorios U–Th–REE–Zr y microfrontera. |
-| 5 | Versión.5.1 | Fundamento lógico-formal: admisión del dominio, exclusión y candidato. |
-| 6 | Versión.6.1 | Integración con Ruta 1 y Ruta 2; protocolo de admisibilidad, descarte, U y candidato. |
-| 7 | Versión.7.1 | Diseño analítico mínimo, sustracción Ω118, mediciones no redundantes y bibliografía específica. |
-| 8 | Versión.8.1 | Revisión final completa, texto técnico listo para incorporación manual y control externo de integración en el trabajo principal. |
-
-
-Control externo de integración final. Cuando Ruta 3 esté completa y aprobada, la incorporación al trabajo principal exigirá dos operaciones externas al índice propio de Ruta 3: añadir el nuevo apartado al índice general y ajustar la introducción general para que describa también Ruta 3. Este control no forma parte del índice propio de Ruta 3 ni del cuerpo sustantivo de la adenda. Se ejecuta únicamente en el cierre final, después de que Versión.8.1 quede aprobada.
-
-# 5. Reglas léxicas y formales
-
-Los sustantivos rectores admisibles son: investigación, trabajo, desarrollo, análisis, estudio, protocolo, formulación, tesis, apartado, adenda, texto técnico y redacción.
-
-No se usarán en la redacción pública de Ruta 3: obra, publicación, documento, manuscrito, sede, compuerta, pieza, paquete, carril, inflar, ruido, algo raro, promesa, aterrizaje, cocina, taller y andamiaje.
-
-No se usará la noción de probabilidad como fundamento de Ruta 3. Se emplearán las expresiones índice de credibilidad, índice argumental, fuerza de admisión, menor coste extractivo relativo, credibilidad de inicio, conjunto externo de datos y orden de admisión.
-
-Cuando aparezca una condición lógica, equivalencia, cadena simbólica o fórmula formal, irá precedida por una expresión introductoria explícita: “en su forma lógica”, “expresado de manera formal”, “la condición formal queda”, “la cadena lógica se expresa así”, “la restricción formal se formula así” o equivalente.
-
-# 6. Bibliografía de arranque
+## Bibliografía específica de esta versión
 
 Committee for Mineral Reserves International Reporting Standards. (2024). *International Reporting Template for the public reporting of Exploration Targets, Exploration Results, Mineral Resources and Mineral Reserves*. https://crirsco.com/wp-content/uploads/2024/04/International_Reporting_Template.pdf
 
@@ -207,8 +172,4 @@ Saloro. (s. f.). *Barruecopardo: overview*. https://www.saloro.com/en/barruecopa
 
 Almonty Industries. (s. f.). *Panasqueira Mine*. https://almonty.com/project/panasqueira-mine/
 
-Mateus, A., et al. (2021). *Current and foreseen tungsten production in Portugal, and the need of safeguarding the access to relevant known resources*. Resources, 10(6), 64. https://www.mdpi.com/2079-9276/10/6/64
-
-# 7. Cierre de Versión.1.3
-
-Versión.1.3 fija la arquitectura rectora de Ruta 3 y corrige la ubicación del control de integración final. El ajuste de la introducción general del trabajo principal no se introduce como punto del índice propio ni como apartado sustantivo de Ruta 3; queda reservado al cierre externo de incorporación manual. El siguiente incremento sólo podrá abrirse como Versión.2.1 si quedan aprobados el título, el índice propio, la matriz de credibilidad, la tabla de dominios, la regla de ID simple, la separación estricta entre índice y cuerpo, el sistema de versionado, las reglas léxicas y formales, y la reserva del ajuste de la introducción general para el cierre final.
+Mateus, A., et al. (2021). *Current and foreseen tungsten production in Portugal, and the need of safeguarding the access to relevant known resources*. *Resources, 10*(6), 64. https://www.mdpi.com/2079-9276/10/6/64
