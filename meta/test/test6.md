@@ -1,5 +1,23 @@
 # Determinación del radio y del volumen medio del universo observable: distancia relativa, patrón lunar y clausura geométrica auxiliar
 
+## Índice
+
+- I. Resumen
+- II. Abstract
+- III. Introducción al problema
+- IV. Estado del arte
+- V. Alcance formal
+- VI. Teorema de la recta generatriz del Universo Físico observable
+- VII. Ecuación del teorema
+- VIII. Demostración
+- IX. Radio medio equivalente del Universo Físico observable
+- X. Patrón lunar
+- XI. Distancia relativa media desde el centro de la Tierra hasta el límite de la esfera equivalente del Universo Físico observable
+- XII. Conclusión
+- XIII. Bibliografía
+  - XIII.I. Referencias internas del Corpus SV citadas
+  - XIII.II. Referencias externas de contraste
+
 ## I. Resumen
 
 ## II. Abstract
@@ -8,202 +26,7 @@
 
 ## IV. Estado del arte
 
-### IV.I. Universo observable y diámetro cosmológico de contraste
-
-### IV.II. Año luz juliano y conversión metrológica
-
-### IV.III. Distancia media Tierra–Luna como patrón auxiliar
-
-### IV.IV. Teoría SV de distancia absoluta y relativa entre observables
-
-### IV.V. Edades relativas del universo observable y retorno metrológico
-
-### IV.VI. Línea del Umbral SV, directriz y cierre uniparamétrico
-
-### IV.VII. Primitivos metrológicos SV y transducción SI↔SV
-
-### IV.VIII. Trazabilidad nominal de la Recta-Ómicron SV16
-
 ## V. Alcance formal
-
-### V.I. Dominio declarado de la determinación
-
-### V.II. Restricción rectora: Ω_F ≠ 𝓣
-
-### V.III. Distancia absoluta y exclusión del origen formal como centro métrico
-
-### V.IV. Estructura lógico-formal de la distancia relativa
-
-### V.V. Retorno metrológico externo, modelo declarado y transductor SI↔SV
-
-### V.VI. Datos externos de contraste: diámetro observable, año luz juliano y patrón lunar
-
-## VI. Teorema de la recta generatriz del Universo Físico observable
-
-### VI.I. Denominación interna: Recta-Ómicron SV16
-
-### VI.II. Función nominal y no fundacional de la denominación
-
-### VI.III. Trazabilidad nominal interna de SV16-Ómicron
-
-### VI.IV. Declaración del dominio Ω_F como Universo Físico observable retornado
-
-### VI.V. Espacio afín tipado de coordenación interna
-
-### VI.VI. Espacio vectorial residual asociado
-
-### VI.VII. Punto terminal interno del observable físico retornado
-
-### VI.VIII. Origen formal tipado de coordenación
-
-### VI.IX. Vector director asociado al desplazamiento O_∅→P_Ω^SV
-
-### VI.X. Recta generatriz completa
-
-### VI.XI. Tramo operativo de retorno
-
-### VI.XII. Dominio de retorno declarable
-
-### VI.XIII. Dominio de admisibilidad proyectiva
-
-### VI.XIV. Proyección interna de retorno
-
-### VI.XV. Cierre proyectivo local
-
-### VI.XVI. Condición de no nulidad terminal
-
-### VI.XVII. Determinación de coordenadas por parámetro único
-
-### VI.XVIII. Forma normalizada de la proyección
-
-## VII. Ecuación del teorema
-
-### VII.I. Ecuación local única de cierre proyectivo
-
-### VII.II. Forma abreviada en carta afín tipada
-
-### VII.III. Forma desarrollada en coordenadas residuales
-
-### VII.IV. Existencia y unicidad del parámetro de cierre
-
-### VII.V. Igualdad de razones adimensionales normalizadas
-
-### VII.VI. Lectura de la directriz única
-
-## VIII. Demostración
-
-### VIII.I. Declaración del espacio afín tipado y del espacio residual asociado
-
-### VIII.II. Definición del origen formal y del punto terminal interno
-
-### VIII.III. Existencia del vector director no nulo
-
-### VIII.IV. Existencia de la recta generatriz completa
-
-### VIII.V. Definición del tramo operativo de retorno
-
-### VIII.VI. Unicidad de la recta generatriz
-
-### VIII.VII. Cierre proyectivo por definición constructiva de admisibilidad
-
-### VIII.VIII. Pertenencia proyectiva frente a pertenencia material directa
-
-### VIII.IX. Determinación de dos coordenadas por una coordenada no nula
-
-### VIII.X. Forma normalizada del cierre proyectivo
-
-### VIII.XI. Reducción al absurdo de la no pertenencia proyectiva
-
-### VIII.XII. Reducción al absurdo de la indeterminación de coordenadas
-
-### VIII.XIII. Cierre de la demostración
-
-## IX. Radio medio equivalente del Universo Físico observable
-
-### IX.I. Clausura geométrica auxiliar y no fundamento externo del SV
-
-### IX.II. Definición de volumen medio equivalente
-
-### IX.III. Definición del radio medio equivalente
-
-### IX.IV. Especialización de la coordenada radial terminal
-
-### IX.V. Diámetro esférico equivalente de contraste
-
-### IX.VI. Cálculo del radio medio equivalente en años luz
-
-### IX.VII. Conversión del radio medio equivalente a kilómetros
-
-### IX.VIII. Conversión del radio medio equivalente a metros
-
-### IX.IX. Volumen medio equivalente en años luz cúbicos
-
-### IX.X. Volumen medio equivalente en kilómetros cúbicos
-
-### IX.XI. Volumen medio equivalente en metros cúbicos
-
-### IX.XII. Valor final del radio medio equivalente
-
-## X. Patrón lunar
-
-### X.I. Función auxiliar del patrón lunar
-
-### X.II. Distancia media Tierra–Luna adoptada como LD
-
-### X.III. Conversión del radio medio equivalente a patrón lunar
-
-### X.IV. Forma exacta fraccionaria irreducible
-
-### X.V. Lectura decimal redondeada
-
-### X.VI. Cota de error de redondeo
-
-### X.VII. Diámetro esférico equivalente en patrón lunar
-
-### X.VIII. Régimen de cautela del patrón lunar
-
-### X.IX. Cadena de retorno del patrón lunar
-
-## XI. Distancia relativa media desde el centro de la Tierra hasta el límite de la esfera equivalente del Universo Físico observable
-
-### XI.I. Función de la distancia relativa en la determinación
-
-### XI.II. Centro de la Tierra como punto metrológico externo
-
-### XI.III. Límite de la esfera perfecta equivalente
-
-### XI.IV. Definición de la distancia relativa media
-
-### XI.V. Correspondencia con el cierre terminal del tramo operativo
-
-### XI.VI. Distancia relativa media en años luz
-
-### XI.VII. Distancia relativa media en kilómetros
-
-### XI.VIII. Distancia relativa media en metros
-
-### XI.IX. Equivalencia en distancias medias Tierra–Luna
-
-### XI.X. Forma exacta fraccionaria irreducible
-
-### XI.XI. Lectura decimal y cota de error
-
-### XI.XII. Cadena final de la distancia relativa
-
-### XI.XIII. Aproximación humana en escala larga española
-
-## XII. Conclusión
-
-## XIII. Bibliografía
-
-### XIII.I. Referencias internas del Corpus SV citadas
-
-### XIII.II. Referencias externas de contraste
-
-
-
-
-## Alcance formal
 
 Esta determinación pertenece a la teoría de la distancia absoluta y relativa entre observables del Universo. Su objeto no es medir la totalidad absoluta, ni convertir el Universo Físico observable en totalidad de lo real, sino formular una clausura geométrica auxiliar aplicable al dominio `Ω_F` cuando éste se toma como Universo Físico observable retornado dentro del Sistema Vectorial SV (Lloret Egea, 2026a).
 
@@ -233,7 +56,7 @@ Esta investigación no calcula una distancia de la totalidad, sino una distancia
 
 En el plano físico de contraste, `93.000.000.000 ly` entra como convención declarada de diámetro esférico equivalente del universo observable; `1 ly = 9.460.730.472.580,8 km` entra como conversión metrológica del año luz juliano; y `LD := 384.400 km` entra como patrón lunar auxiliar. Ninguno de estos valores funda el SV. Todos ellos operan como retornos externos bajo dominio, unidad, modelo, residual y transductor declarados (Encyclopaedia Britannica, 2026; International Astronomical Union, s. f.; National Aeronautics and Space Administration, s. f.).
 
-## Teorema de la recta generatriz del Universo Físico observable
+## VI. Teorema de la recta generatriz del Universo Físico observable
 
 La recta generatriz definida en este teorema recibe, dentro de la nomenclatura interna del Sistema Vectorial SV, la denominación `Recta-Ómicron SV16`, con forma abreviada `Recta_Οmi_SV16`. Esta denominación identifica de manera estable la recta asociada al cierre uniparamétrico del Universo Físico observable retornado, y mantiene continuidad nominal con la formulación SV16-Ómicron ya fijada en trabajos previos del SV (Lloret Egea, 2026d, 2026e).
 
@@ -489,7 +312,7 @@ Esta forma normalizada explicita que la proyección cerrada conserva una sola di
 
 Por tanto, todo observable físico admisible posee una proyección interna de retorno sobre el tramo operativo de la recta generatriz del Universo Físico observable, y en esa proyección una coordenada no nula determina las otras dos. La ciencia contemporánea no funda este resultado; sólo puede contrastarlo, traducirlo o devolverlo en unidades externas cuando el SV declare el transductor correspondiente.
 
-## Ecuación del teorema
+## VII. Ecuación del teorema
 
 La ecuación local única que sostiene el teorema de la recta generatriz del Universo Físico observable es:
 
@@ -553,7 +376,7 @@ La forma normalizada:
 
 es la lectura tipada de la directriz única. No identifica edad, radio y profundidad como magnitudes materiales iguales; declara que, una vez normalizadas por sus terminales propios, las tres razones internas de retorno coinciden en un mismo parámetro estructural.
 
-## Demostración
+## VIII. Demostración
 
 Sea:
 
@@ -871,7 +694,7 @@ Por tanto, una coordenada no nula determina las otras dos dentro de la proyecci�
 
 Queda demostrado que `ℓ_Ω^SV` existe y es única si `P_Ω^SV ≠ O_∅`; que el tramo operativo `ℓ_{Ω,[0,1]}^SV` ordena el cierre proyectivo del observable retornado; que todo observable físico admisible posee una proyección de retorno sobre ese tramo operativo; y que, en esa proyección, si las tres componentes terminales son no nulas en sus dominios tipados, una sola coordenada no nula determina el parámetro estructural y, por tanto, determina las otras dos coordenadas internas de retorno. La ecuación local `𝓖_Ω^SV(O;s)=0_Ω` no funda el SV ni sustituye la ecuación rectora `𝓔★_TODO,SV(Γ_U;τ)=0`; sólo declara cierre proyectivo dentro del dominio observable retornado. La ciencia contemporánea no funda el resultado; sólo podrá aportar conjunto de datos de contraste, retorno metrológico o transducción externa cuando el SV declare el operador correspondiente. c.q.d. del teorema.
 
-## Radio medio equivalente del Universo Físico observable
+## IX. Radio medio equivalente del Universo Físico observable
 
 Una vez fijado el teorema de la recta generatriz del Universo Físico observable, la determinación del radio medio debe formularse como clausura geométrica auxiliar, no como fundamento externo del SV. El dominio `Ω_F` no se identifica con la totalidad absoluta `𝓣`; se trata de un dominio observable retornado, interno y formulable. Por tanto, el radio medio aquí calculado no mide el TODO absoluto, ni la totalidad de lo real, ni un exterior físico absoluto. Calcula el radio de la esfera perfecta que encerraría el mismo volumen declarado para el Universo Físico observable bajo retorno metrológico.
 
@@ -1001,7 +824,7 @@ Con el retorno metrológico externo declarado, el valor final es:
 
 `R̄_Ω = 46.500.000.000 ly = 439.923.966.975.007.200.000.000 km = 439.923.966.975.007.200.000.000.000 m`.
 
-## Patrón lunar
+## X. Patrón lunar
 
 El patrón lunar se incorpora como patrón auxiliar de distancia relativa, no como fuente del valor cosmológico ni como fundamento del SV. Su función es expresar el radio medio equivalente del Universo Físico observable en unidades de distancia media Tierra–Luna, de modo que el retorno metrológico externo pueda leerse mediante una escala astronómica próxima, intuitiva y controlada.
 
@@ -1127,7 +950,7 @@ Y, en lectura decimal con error de plano nulo:
 
 `R̄_Ω ≈ 1.144.443.202.328.322.580,645161290323 distancias medias Tierra–Luna`.
 
-## Distancia relativa media desde el centro de la Tierra hasta el límite de la esfera equivalente del Universo Físico observable
+## XI. Distancia relativa media desde el centro de la Tierra hasta el límite de la esfera equivalente del Universo Físico observable
 
 La distancia relativa se introduce para cerrar explícitamente el componente anunciado en el título de la investigación. No constituye una magnitud fundacional nueva del SV, ni sustituye el radio medio equivalente `R̄_Ω`, ni altera el patrón lunar ya definido. Su función es declarar, siguiendo el teorema de la recta generatriz y la ecuación local `𝓖_Ω^SV(O;s)=0_Ω`, la distancia media de retorno desde el centro de la Tierra hasta el límite de la esfera perfecta equivalente asignada al Universo Físico observable.
 
@@ -1265,7 +1088,11 @@ La distancia relativa queda así incorporada sin alterar la estructura del teore
 
 En escala larga española, equivale aproximadamente a `1,14` trillones de distancias medias Tierra–Luna; dicho de forma llana, algo más de un trillón de veces la distancia media entre la Tierra y la Luna.
 
-## Referencias internas del Corpus SV citadas
+## XII. Conclusión
+
+## XIII. Bibliografía
+
+### XIII.I. Referencias internas del Corpus SV citadas
 
 Lloret Egea, J. A. (2026a). *Distancia absoluta y relativa entre observables del Universo*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.c394e160
 
@@ -1281,7 +1108,7 @@ Lloret Egea, J. A. (2026f). *Edades relativas del universo observable y de sus o
 
 Lloret Egea, J. A. (2026g). *Línea del Umbral SV, circulación de retorno del dominio-universo y átomo formal de ascendencia no agotada*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.30dfd78b
 
-## Referencias externas de contraste
+### XIII.II. Referencias externas de contraste
 
 Encyclopaedia Britannica. (2026). *Observable universe: Definition, size, description, & facts*. Encyclopaedia Britannica. https://www.britannica.com/topic/observable-universe
 
