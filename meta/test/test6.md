@@ -1,5 +1,5 @@
 # Determinación del radio y del volumen medio del universo observable: distancia relativa, patrón lunar y clausura geométrica auxiliar
-## Subtítulo: referencias relativas y absolutas para satélites y vehículos aeroespaciales desde la Recta-Ómicron SV16 y extensión universal por herencia y descendencia de dominios
+## Referencias relativas y absolutas para satélites y vehículos aeroespaciales desde la Recta-Ómicron SV16 y extensión universal por edad rectora, herencia y descendencia de dominios
 
 ## Índice
 - 0. Prefacio
@@ -27,11 +27,13 @@
   - A.I. Introducción
   - A.II. Estado del arte actual de orientación, navegación y referencia aeroespacial
   - A.III. Dominio formal del anexo
-  - A.IV. Referencias absolutas formales, coordenadas radiales auxiliares y distancias relativas para vehículos aeroespaciales
-  - A.V. Tabla matriz de referencias sobre la Recta-Ómicron SV16
-  - A.VI. Tabla operativa para satélites y vehículos
+  - A.IV. Referencias absolutas formales, coordenadas absolutas auxiliares y distancias relativas para vehículos aeroespaciales
+  - A.V. Regla universal de cálculo por edad rectora
+  - A.VI. Tabla de cálculo por edad rectora sobre la Recta-Ómicron SV16
+  - A.VI.bis. Nodo de enlace de dominio y nodo singular de enlace solar
   - A.VII. Regla de incorporación de todos los cuerpos conocidos
-  - A.VIII. Corolario universal de extensión por herencia y descendencia de dominios
+  - A.VIII. Corolario universal de medida relativa y absoluta por edad rectora sobre la Recta-Ómicron SV16
+  - A.VIII.bis. Alcance formal condicional y no subordinación empírica del corolario
   - A.IX. Dictamen del anexo
 - XIV. Bibliografía
   - XIV.I. Referencias internas del Corpus SV citadas
@@ -1205,25 +1207,25 @@ La distancia relativa media desde `C_⊕` hasta `∂S_Ω` queda finalmente incor
 
 ### A.I. Introducción
 
-Este anexo formula un régimen de referencias relativas y absolutas para satélites, sondas, vehículos aeroespaciales y observables astronómicos tomando como soporte formal la recta generatriz del Universo Físico observable, denominada internamente `Recta-Ómicron SV16` (`Recta_Οmi_SV16`). Su objeto no es reconstruir efemérides externas ni convertir un catálogo observacional en fundamento del Sistema Vectorial SV. Su objeto es declarar cómo todo observable utilizado para orientación, navegación, seguimiento o referencia aeroespacial puede situarse sobre una directriz de retorno, con referencia absoluta formal no espacializada, coordenada radial auxiliar, distancia relativa, dominio, transductor, residual y retorno.
+Este anexo formula un régimen de referencias relativas y absolutas para satélites, sondas, vehículos aeroespaciales y observables astronómicos tomando como soporte formal la recta generatriz del Universo Físico observable, denominada internamente `Recta-Ómicron SV16` (`Recta_Οmi_SV16`). Su objeto no es reconstruir efemérides externas ni convertir un catálogo observacional en fundamento del Sistema Vectorial SV. Su objeto es declarar cómo todo observable utilizado para orientación, navegación, seguimiento o referencia aeroespacial puede situarse sobre una directriz de retorno, con referencia absoluta formal no espacializada, coordenada absoluta auxiliar por edad rectora, distancia relativa, dominio, residual y retorno.
 
-La tesis operativa del anexo es la siguiente: la orientación aeroespacial contemporánea trabaja con marcos de referencia, señales, sensores, catálogos estelares, radiometría, dinámica orbital, seguimiento desde estaciones terrestres y correcciones de navegación; la formulación SV toma ese aparato como plano de retorno externo y lo reordena sobre una directriz uniparamétrica. Por tanto, las referencias de Tierra, satélites, cuerpos del Sistema Solar, objetos galácticos y objetos cosmológicos no se introducen como distancias brutas independientes, sino como posiciones proyectivas o transducidas sobre `ℓ_{Ω,[0,1]}^SV`, bajo la clausura geométrica auxiliar ya fijada en la determinación matriz.
+La tesis operativa del anexo es la siguiente: la orientación aeroespacial contemporánea trabaja con marcos de referencia, señales, sensores, catálogos estelares, radiometría, dinámica orbital, seguimiento desde estaciones terrestres y correcciones de navegación; la formulación SV toma ese aparato como plano de contraste externo y lo reordena sobre una directriz uniparamétrica. Por tanto, las referencias de Tierra, satélites, cuerpos del Sistema Solar, objetos galácticos y objetos cosmológicos no se introducen como distancias brutas independientes, sino como posiciones proyectivas calculadas por edad rectora sobre `ℓ_Ω^SV` o sobre su tramo operativo `ℓ_{Ω,[0,1]}^SV`, bajo la clausura geométrica auxiliar ya fijada en la determinación matriz.
 
 La restricción central se conserva íntegra:
 
 `Ω_F ≠ 𝓣`.
 
-En consecuencia, ninguna referencia aeroespacial mide la totalidad absoluta, ninguna distancia física espacializa `0_SV`, ningún vehículo se orienta respecto del TODO y ningún catálogo astronómico externo se convierte en fundamento del SV. La referencia absoluta admisible en este anexo es absoluta sólo en el sentido formal restringido de `D_abs^{SV}(X,0_SV)`, sin convertir `0_SV` en punto espacial. La lectura operativa sobre la recta se denomina coordenada radial auxiliar de retorno, no distancia absoluta física ordinaria, para conservar separadas la referencia formal y la lectura metrológica externa.
+En consecuencia, ninguna referencia aeroespacial mide la totalidad absoluta, ninguna distancia física espacializa `0_SV`, ningún vehículo se orienta respecto del TODO y ningún catálogo astronómico externo se convierte en fundamento del SV. La referencia absoluta admisible en este anexo es absoluta sólo en el sentido formal restringido de `D_abs^{SV}(X,0_SV)`, sin convertir `0_SV` en punto espacial. La lectura operativa sobre la recta se denomina coordenada absoluta auxiliar por edad rectora, no distancia absoluta física ordinaria, para conservar separadas la referencia formal y la lectura calculada por el SV.
 
 ### A.II. Estado del arte actual de orientación, navegación y referencia aeroespacial
 
 La navegación espacial contemporánea distingue entre determinación de actitud, determinación orbital, guiado, navegación y control. En satélites y vehículos espaciales, la actitud puede determinarse mediante sensores de estrellas, sensores solares, magnetómetros, giróscopos, unidades inerciales, receptores GNSS cuando el régimen lo permite, actuadores y software de control. NASA describe el subsistema Guidance, Navigation and Control como el conjunto de componentes empleados para determinar posición y para el sistema de determinación y control de actitud; en órbita terrestre, la posición puede obtenerse con GPS o mediante seguimiento terrestre y propagación orbital (National Aeronautics and Space Administration, s. f.-a). En términos SV, este plano proporciona señal, traza instrumental, estado técnico y retorno externo.
 
-En misiones interplanetarias y de espacio profundo, la navegación no se reduce a una brújula local ni a una referencia visual inmediata. Se emplean seguimiento radiométrico, medidas de rango, Doppler, interferometría de base muy larga y técnicas como `Delta-DOR`, mediante las cuales estaciones terrestres separadas comparan señales de la nave y de fuentes de radio celestes para mejorar la localización angular. ESA describe `Delta-DOR` como una técnica empleada para localizar con precisión naves interplanetarias; también indica que puede ofrecer localizaciones de alta precisión incluso a distancias del orden de `100.000.000 km` (European Space Agency, s. f.-c, s. f.-d). En términos SV, este procedimiento muestra que la navegación real ya opera mediante diferencia, señal, transductor, geometría de estación, residual y retorno.
+En misiones interplanetarias y de espacio profundo, la navegación no se reduce a una brújula local ni a una referencia visual inmediata. Se emplean seguimiento radiométrico, medidas de rango, Doppler, interferometría de base muy larga y técnicas como `Delta-DOR`, mediante las cuales estaciones terrestres separadas comparan señales de la nave y de fuentes de radio celestes para mejorar la localización angular. ESA describe `Delta-DOR` como una técnica empleada para localizar con precisión naves interplanetarias; también indica que puede ofrecer localizaciones de alta precisión incluso a distancias del orden de `100.000.000 km` (European Space Agency, s. f.-c, s. f.-d). En términos SV, este procedimiento muestra que la navegación real ya opera mediante diferencia, señal, geometría de estación, residual y retorno.
 
-Los sensores estelares constituyen un puente técnico relevante para este anexo porque conectan navegación local y referencias astronómicas. ESA define los star trackers como instrumentos capaces de determinar la posición y actitud de un satélite analizando la ubicación de estrellas circundantes frente a un catálogo interno (European Space Agency, s. f.-e). En el régimen de este anexo, el catálogo estelar no funda la recta, pero puede alimentar `σ_Ω(X)` cuando un cuerpo, dirección o fuente astronómica se usa como referencia de orientación.
+Los sensores estelares constituyen un puente técnico relevante para este anexo porque conectan navegación local y referencias astronómicas. ESA define los star trackers como instrumentos capaces de determinar la posición y actitud de un satélite analizando la ubicación de estrellas circundantes frente a un catálogo interno (European Space Agency, s. f.-e). En el régimen de este anexo, el catálogo estelar no funda la recta, pero puede comparecer como contraste de orientación cuando un cuerpo, dirección o fuente astronómica se usa como referencia técnica.
 
-El estado del arte confirma que toda navegación aeroespacial necesita referencias, mediciones diferenciales, modelos, sensores, estaciones, catálogos y reconstrucción. La `Recta-Ómicron SV16` ordena ese conjunto sin convertir ningún elemento técnico en centro ontológico del Universo. La orientación técnica contemporánea sigue trabajando con marcos externos; el SV declara una lectura formal: toda referencia admitida se expresa como parámetro de retorno, coordenada radial auxiliar y distancia relativa respecto de otro observable declarado.
+El estado del arte confirma que toda navegación aeroespacial necesita referencias, mediciones diferenciales, modelos, sensores, estaciones, catálogos y reconstrucción. La `Recta-Ómicron SV16` ordena ese conjunto sin convertir ningún elemento técnico en centro ontológico del Universo. La orientación técnica contemporánea sigue trabajando con marcos externos; el SV declara una lectura formal propia: toda referencia admitida se expresa como edad rectora, parámetro de retorno, coordenada absoluta auxiliar y distancia relativa respecto de otro observable declarado.
 
 ### A.III. Dominio formal del anexo
 
@@ -1247,21 +1249,31 @@ Y:
 
 `R̄_Ω = 439.923.966.975.007.200.000.000.000 m`.
 
-El anexo introduce una función de posición proyectiva sobre la recta:
+En patrón lunar:
 
-`σ_Ω(X) ∈ [0,1]`.
+`R̄_Ω = (35.477.739.272.178.000.000 / 31) LD`.
 
-`σ_Ω(X)` no es una coordenada astronómica ordinaria, ni ascensión recta, ni declinación, ni longitud heliocéntrica, ni distancia radial euclídea directa. Es el parámetro de retorno de un observable `X` cuando éste ha sido declarado, transducido y cerrado sobre el tramo operativo de la `Recta-Ómicron SV16`.
+El anexo introduce una función de posición proyectiva por edad rectora:
 
-`σ_Ω(X)` tampoco agota la orientación tridimensional ni sustituye coordenadas angulares, efemérides, marcos inerciales, actitud, señal, estación, catálogo ni dinámica orbital. Declara la coordenada radial auxiliar de retorno de `X` sobre el tramo operativo de la `Recta-Ómicron SV16`; los componentes angulares, dinámicos, instrumentales y de control permanecen en el transductor `𝔛_nav↔SV` y en el residual declarado.
+`σ_Ω^age(X) := A_X/A_Ωobs`.
+
+`σ_Ω^age(X)` no es una coordenada astronómica ordinaria, ni ascensión recta, ni declinación, ni longitud heliocéntrica, ni distancia radial euclídea directa. Es el parámetro de retorno de un observable `X` cuando éste ha sido declarado, identificado y cerrado por edad rectora. En el interior del tramo operativo de `Ω_F` se cumple `0 ≤ σ_Ω^age(X) ≤ 1`. Sobre la recta completa puede ocurrir `σ_Ω^age(X)>1`, lo que no rompe la formulación: indica que el objeto o dominio excede el cierre terminal `∂S_Ω` de la clausura geométrica auxiliar y exige declarar el dominio heredero o descendente correspondiente.
 
 Para todo observable aeroespacial admisible `X`, se declara:
 
-`π_Ω(X) = ℓ_{Ω,[0,1]}^SV(σ_Ω(X))`.
+`π_Ω^age(X) = ℓ_Ω^SV(σ_Ω^age(X))`.
 
-La coordenada radial auxiliar de retorno de `X` sobre el tramo operativo se define como:
+Si `0 ≤ σ_Ω^age(X) ≤ 1`, entonces:
 
-`D_coord,Ω^aux(X) := σ_Ω(X) · R̄_Ω`.
+`π_Ω^age(X) ∈ ℓ_{Ω,[0,1]}^SV`.
+
+Si `σ_Ω^age(X)>1`, entonces:
+
+`π_Ω^age(X) ∈ ℓ_Ω^SV`.
+
+La coordenada absoluta auxiliar por edad rectora se define como:
+
+`D_coord,Ω^age(X) := σ_Ω^age(X) · R̄_Ω`.
 
 Esta coordenada no debe confundirse con `D_abs^{SV}(X,0_SV)` cuando `0_SV` designa el origen formal no espacializado. Si el origen mencionado es `0_SV`, no hay distancia física ordinaria desde la Tierra, desde un satélite ni desde ningún vehículo. Si el origen mencionado es el origen operativo auxiliar del tramo de lectura, entonces la Tierra tomada como referencia metrológica externa puede fijarse con parámetro nulo de lectura:
 
@@ -1269,7 +1281,7 @@ Esta coordenada no debe confundirse con `D_abs^{SV}(X,0_SV)` cuando `0_SV` desig
 
 Bajo esa convención auxiliar:
 
-`D_coord,Ω^aux(C_⊕) = 0`.
+`D_coord,Ω^age(C_⊕) = 0`.
 
 Y el límite equivalente de la esfera observable cumple:
 
@@ -1277,180 +1289,374 @@ Y el límite equivalente de la esfera observable cumple:
 
 Por tanto:
 
-`D_coord,Ω^aux(∂S_Ω) = R̄_Ω`.
+`D_coord,Ω^age(∂S_Ω) = R̄_Ω`.
 
 La distancia relativa entre dos observables admisibles `X` e `Y` sobre el mismo régimen de retorno se define como:
 
-`D_rel,Ω^aux(X,Y) := |σ_Ω(Y) − σ_Ω(X)| · R̄_Ω`.
+`D_rel,Ω^age(X,Y) := |σ_Ω^age(Y) − σ_Ω^age(X)| · R̄_Ω`.
 
 Si `X=C_⊕` y `Y=∂S_Ω`, se recupera el resultado matriz:
 
-`D_rel,Ω^aux(C_⊕,∂S_Ω) = R̄_Ω`.
+`D_rel,Ω^age(C_⊕,∂S_Ω) = R̄_Ω`.
 
-### A.IV. Referencias absolutas formales, coordenadas radiales auxiliares y distancias relativas para vehículos aeroespaciales
+### A.IV. Referencias absolutas formales, coordenadas absolutas auxiliares y distancias relativas para vehículos aeroespaciales
 
-Un satélite artificial, una sonda interplanetaria, una cápsula tripulada o un vehículo aeroespacial no comparece en el SV como simple punto geométrico. Comparece como observable técnico con dominio, estado, trayectoria, señal, control, orientación, residual y retorno. Por ello, su referencia sobre la `Recta-Ómicron SV16` exige declarar al menos:
+Un satélite artificial, una sonda interplanetaria, una cápsula tripulada o un vehículo aeroespacial no comparece en el SV como simple punto geométrico. Comparece como observable técnico con dominio, estado, trayectoria, señal, control, orientación, residual, retorno y edad operativa declarable. Por ello, su referencia sobre la `Recta-Ómicron SV16` exige declarar al menos:
 
 `Veh`.
 
 `Dom(Veh)`.
 
-`π_Ω(Veh)`.
+`A_Veh`.
 
-`σ_Ω(Veh)`.
+`𝓔_age(Veh)`.
+
+`Δ_Veh=0`.
+
+`σ_Ω^age(Veh)`.
+
+`π_Ω^age(Veh)`.
 
 `D_abs^{SV}(Veh,0_SV)`.
 
-`D_coord,Ω^aux(Veh)`.
+`D_coord,Ω^age(Veh)`.
 
-`D_rel,Ω^aux(Veh,C_⊕)`.
+`D_rel,Ω^age(Veh,C_⊕)`.
 
-`D_rel,Ω^aux(Veh,X_ref)`.
-
-`𝔛_nav↔SV`.
+`D_rel,Ω^age(Veh,X_ref)`.
 
 `Res_nav(Veh)`.
 
-Donde `X_ref` puede ser la Tierra, la Luna, el Sol, una estrella de referencia, el baricentro del Sistema Solar, una estación terrestre, una constelación GNSS, una fuente de radio, un planeta, una estrella guía o un límite auxiliar del dominio observable. El transductor `𝔛_nav↔SV` representa el paso entre el aparato técnico contemporáneo de navegación y la lectura SV.
+Donde `X_ref` puede ser la Tierra, la Luna, el Sol, una estrella de referencia, el baricentro del Sistema Solar, una estación terrestre, una constelación GNSS, una fuente de radio, un planeta, una estrella guía o un límite auxiliar del dominio observable. El aparato técnico contemporáneo conserva su función de señal, contraste y control; no calcula la coordenada SV si la edad rectora ya está cerrada.
 
 La referencia absoluta formal se conserva en su forma restringida:
 
 `D_abs^{SV}(Veh,0_SV)`.
 
-Y sólo se admite si `0_SV` no se espacializa. La lectura operativa sobre la recta se expresa, en cambio, como coordenada radial auxiliar:
+Y sólo se admite si `0_SV` no se espacializa. La lectura operativa sobre la recta se expresa, en cambio, como coordenada absoluta auxiliar por edad rectora:
 
-`D_coord,Ω^aux(Veh) = σ_Ω(Veh) · R̄_Ω`.
+`D_coord,Ω^age(Veh) = σ_Ω^age(Veh) · R̄_Ω`.
 
 La referencia relativa útil para navegación puede adoptar la forma:
 
-`D_rel,Ω^aux(Veh,C_⊕) = |σ_Ω(Veh) − σ_Ω(C_⊕)| · R̄_Ω`.
+`D_rel,Ω^age(Veh,C_⊕) = |σ_Ω^age(Veh) − σ_Ω(C_⊕)| · R̄_Ω`.
 
 Si `σ_Ω(C_⊕)=0`, entonces:
 
-`D_rel,Ω^aux(Veh,C_⊕) = σ_Ω(Veh) · R̄_Ω`.
+`D_rel,Ω^age(Veh,C_⊕) = σ_Ω^age(Veh) · R̄_Ω`.
 
 Si el vehículo se orienta respecto de una estrella o fuente externa `X_ref`, se obtiene:
 
-`D_rel,Ω^aux(Veh,X_ref) = |σ_Ω(X_ref) − σ_Ω(Veh)| · R̄_Ω`.
+`D_rel,Ω^age(Veh,X_ref) = |σ_Ω^age(X_ref) − σ_Ω^age(Veh)| · R̄_Ω`.
 
-La ventaja conceptual del régimen SV es que la orientación técnica queda reordenada como relación declarada entre observable, dominio, posición de retorno, transductor, coordenada radial auxiliar, distancia relativa y residual.
+La ventaja conceptual del régimen SV es que la orientación técnica queda reordenada como relación declarada entre observable, dominio, edad rectora, parámetro de retorno, coordenada absoluta auxiliar, distancia relativa y residual.
 
-### A.V. Tabla matriz de referencias sobre la Recta-Ómicron SV16
+### A.V. Regla universal de cálculo por edad rectora
 
-La tabla siguiente ofrece la matriz formal que permite incorporar cualquier cuerpo conocido del Sistema Solar, cualquier referencia galáctica y cualquier observable cosmológico relevante sobre la `Recta-Ómicron SV16`. Todo cuerpo conocido puede incorporarse mediante la misma regla formal, siempre que declare identificación, dominio, catálogo, transductor, residual y retorno.
+La referencia aeroespacial y cosmométrica no se construye tomando primero distancias externas de catálogo para proyectarlas después sobre la `Recta-Ómicron SV16`. Esa ruta invierte el orden de verdad del Sistema Vectorial SV. La recta no recibe su validez de una distancia externa previamente admitida; recibe su validez de la estructura interna ya declarada: dominio, origen formal tipado, punto terminal, vector director, tramo operativo, edad rectora, residual y retorno. Por tanto, la distancia relativa y la coordenada absoluta auxiliar de un objeto no se obtienen aquí desde su distancia física ordinaria, sino desde su edad física admisible.
 
-| Clase o cuerpo de referencia | Estatuto en el anexo | Parámetro sobre Recta-Ómicron SV16 | Referencia absoluta formal / coordenada auxiliar | Referencia relativa desde la Tierra | Dictamen de admisibilidad |
-|---|---|---|---|---|---|
-| Tierra, centro metrológico `C_⊕` | Origen operativo de lectura externa, no `0_SV` | `σ_Ω(C_⊕)=0` | `D_abs^{SV}(C_⊕,0_SV)` separado; `D_coord,Ω^aux(C_⊕)=0` | `D_rel,Ω^aux(C_⊕,C_⊕)=0` | Admisible como referencia metrológica, no como centro ontológico |
-| Origen formal `0_SV` | Origen formal no espacializado | No se asigna como punto físico | `D_abs^{SV}(X,0_SV)` sólo en régimen formal restringido | No procede como distancia física ordinaria | Admisible sólo si no se espacializa |
-| Límite equivalente `∂S_Ω` | Cierre terminal de la esfera auxiliar | `σ_Ω(∂S_Ω)=1` | `D_coord,Ω^aux(∂S_Ω)=R̄_Ω` | `R̄_Ω` | Admisible como límite auxiliar, no borde material |
-| Satélite terrestre artificial | Vehículo en dominio geocéntrico | `σ_Ω(Sat)` | `D_coord,Ω^aux(Sat)=σ_Ω(Sat)·R̄_Ω` | `|σ_Ω(Sat)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con órbita, estación, señal y residual |
-| Vehículo lunar | Vehículo Tierra-Luna | `σ_Ω(V_Luna)` | `D_coord,Ω^aux(V_Luna)=σ_Ω(V_Luna)·R̄_Ω` | `|σ_Ω(V_Luna)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con transductor navegación-SV |
-| Sonda interplanetaria | Vehículo heliocéntrico o planetocéntrico | `σ_Ω(Sonda)` | `D_coord,Ω^aux(Sonda)=σ_Ω(Sonda)·R̄_Ω` | `|σ_Ω(Sonda)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con efeméride declarada |
-| Luna | Cuerpo del sistema Tierra-Luna | `σ_Ω(Luna)` | `D_coord,Ω^aux(Luna)=σ_Ω(Luna)·R̄_Ω` | `|σ_Ω(Luna)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible; patrón `LD` puede operar como retorno externo |
-| Sol | Cuerpo rector heliocéntrico local | `σ_Ω(Sol)` | `D_coord,Ω^aux(Sol)=σ_Ω(Sol)·R̄_Ω` | `|σ_Ω(Sol)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible como referencia solar local |
-| Mercurio | Planeta del Sistema Solar | `σ_Ω(Mercurio)` | `D_coord,Ω^aux(Mercurio)=σ_Ω(Mercurio)·R̄_Ω` | `|σ_Ω(Mercurio)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con efeméride |
-| Venus | Planeta del Sistema Solar | `σ_Ω(Venus)` | `D_coord,Ω^aux(Venus)=σ_Ω(Venus)·R̄_Ω` | `|σ_Ω(Venus)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con efeméride |
-| Marte | Planeta del Sistema Solar | `σ_Ω(Marte)` | `D_coord,Ω^aux(Marte)=σ_Ω(Marte)·R̄_Ω` | `|σ_Ω(Marte)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con efeméride |
-| Júpiter | Planeta del Sistema Solar | `σ_Ω(Júpiter)` | `D_coord,Ω^aux(Júpiter)=σ_Ω(Júpiter)·R̄_Ω` | `|σ_Ω(Júpiter)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con efeméride |
-| Saturno | Planeta del Sistema Solar | `σ_Ω(Saturno)` | `D_coord,Ω^aux(Saturno)=σ_Ω(Saturno)·R̄_Ω` | `|σ_Ω(Saturno)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con efeméride |
-| Urano | Planeta del Sistema Solar | `σ_Ω(Urano)` | `D_coord,Ω^aux(Urano)=σ_Ω(Urano)·R̄_Ω` | `|σ_Ω(Urano)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con efeméride |
-| Neptuno | Planeta del Sistema Solar | `σ_Ω(Neptuno)` | `D_coord,Ω^aux(Neptuno)=σ_Ω(Neptuno)·R̄_Ω` | `|σ_Ω(Neptuno)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con efeméride |
-| Ceres | Planeta enano / cuerpo menor principal | `σ_Ω(Ceres)` | `D_coord,Ω^aux(Ceres)=σ_Ω(Ceres)·R̄_Ω` | `|σ_Ω(Ceres)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con catálogo declarado |
-| Plutón | Planeta enano transneptuniano | `σ_Ω(Plutón)` | `D_coord,Ω^aux(Plutón)=σ_Ω(Plutón)·R̄_Ω` | `|σ_Ω(Plutón)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con catálogo declarado |
-| Eris | Planeta enano transneptuniano | `σ_Ω(Eris)` | `D_coord,Ω^aux(Eris)=σ_Ω(Eris)·R̄_Ω` | `|σ_Ω(Eris)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con catálogo declarado |
-| Haumea | Planeta enano transneptuniano | `σ_Ω(Haumea)` | `D_coord,Ω^aux(Haumea)=σ_Ω(Haumea)·R̄_Ω` | `|σ_Ω(Haumea)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con catálogo declarado |
-| Makemake | Planeta enano transneptuniano | `σ_Ω(Makemake)` | `D_coord,Ω^aux(Makemake)=σ_Ω(Makemake)·R̄_Ω` | `|σ_Ω(Makemake)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con catálogo declarado |
-| Asteroide identificado `Ast_i` | Cuerpo menor conocido | `σ_Ω(Ast_i)` | `D_coord,Ω^aux(Ast_i)=σ_Ω(Ast_i)·R̄_Ω` | `|σ_Ω(Ast_i)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible si existe designación, órbita y residual |
-| Cometa identificado `Com_i` | Cuerpo menor conocido | `σ_Ω(Com_i)` | `D_coord,Ω^aux(Com_i)=σ_Ω(Com_i)·R̄_Ω` | `|σ_Ω(Com_i)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible si existe designación, órbita y residual |
-| Objeto transneptuniano `TNO_i` | Cuerpo menor exterior | `σ_Ω(TNO_i)` | `D_coord,Ω^aux(TNO_i)=σ_Ω(TNO_i)·R̄_Ω` | `|σ_Ω(TNO_i)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible si existe catálogo declarado |
-| Baricentro del Sistema Solar | Referencia dinámica heliocéntrica | `σ_Ω(BSS)` | `D_coord,Ω^aux(BSS)=σ_Ω(BSS)·R̄_Ω` | `|σ_Ω(BSS)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible como referencia dinámica |
-| Próxima Centauri | Estrella próxima de referencia | `σ_Ω(Proxima)` | `D_coord,Ω^aux(Proxima)=σ_Ω(Proxima)·R̄_Ω` | `|σ_Ω(Proxima)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con catálogo estelar |
-| Sirio | Estrella brillante de referencia | `σ_Ω(Sirio)` | `D_coord,Ω^aux(Sirio)=σ_Ω(Sirio)·R̄_Ω` | `|σ_Ω(Sirio)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con catálogo estelar |
-| Vega | Estrella de referencia fotométrica y astronómica | `σ_Ω(Vega)` | `D_coord,Ω^aux(Vega)=σ_Ω(Vega)·R̄_Ω` | `|σ_Ω(Vega)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con catálogo estelar |
-| Betelgeuse | Supergigante de referencia | `σ_Ω(Betelgeuse)` | `D_coord,Ω^aux(Betelgeuse)=σ_Ω(Betelgeuse)·R̄_Ω` | `|σ_Ω(Betelgeuse)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con incertidumbre catalogal |
-| Estrella Polar | Referencia histórica de orientación terrestre | `σ_Ω(Polaris)` | `D_coord,Ω^aux(Polaris)=σ_Ω(Polaris)·R̄_Ω` | `|σ_Ω(Polaris)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible; no es polo absoluto del Universo |
-| Centro galáctico / Sagitario A* | Referencia estructural de la Vía Láctea | `σ_Ω(SgrA*)` | `D_coord,Ω^aux(SgrA*)=σ_Ω(SgrA*)·R̄_Ω` | `|σ_Ω(SgrA*)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con catálogo y modelo galáctico |
-| Nube de Magallanes Mayor | Galaxia satélite de referencia | `σ_Ω(LMC)` | `D_coord,Ω^aux(LMC)=σ_Ω(LMC)·R̄_Ω` | `|σ_Ω(LMC)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible como referencia extragaláctica local |
-| Nube de Magallanes Menor | Galaxia satélite de referencia | `σ_Ω(SMC)` | `D_coord,Ω^aux(SMC)=σ_Ω(SMC)·R̄_Ω` | `|σ_Ω(SMC)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible como referencia extragaláctica local |
-| Galaxia de Andrómeda | Galaxia externa principal local | `σ_Ω(M31)` | `D_coord,Ω^aux(M31)=σ_Ω(M31)·R̄_Ω` | `|σ_Ω(M31)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con distancia observacional declarada |
-| Cúmulo de Virgo | Estructura extragaláctica relevante | `σ_Ω(Virgo)` | `D_coord,Ω^aux(Virgo)=σ_Ω(Virgo)·R̄_Ω` | `|σ_Ω(Virgo)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible como referencia de gran escala |
-| Gran Atractor | Estructura dinámica de gran escala | `σ_Ω(GA)` | `D_coord,Ω^aux(GA)=σ_Ω(GA)·R̄_Ω` | `|σ_Ω(GA)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con modelo cosmográfico |
-| Fondo cósmico de microondas | Retorno cosmológico de contraste | `σ_Ω(CMB)` | `D_coord,Ω^aux(CMB)=σ_Ω(CMB)·R̄_Ω` | `|σ_Ω(CMB)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible como referencia cosmológica instrumental |
-| Fuente de radio compacta `QSO_i` | Referencia astrométrica profunda | `σ_Ω(QSO_i)` | `D_coord,Ω^aux(QSO_i)=σ_Ω(QSO_i)·R̄_Ω` | `|σ_Ω(QSO_i)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible como referencia angular de fondo |
-| Cualquier cuerpo conocido `X_i` | Universal de incorporación | `σ_Ω(X_i)` | `D_abs^{SV}(X_i,0_SV)` separado; `D_coord,Ω^aux(X_i)=σ_Ω(X_i)·R̄_Ω` | `|σ_Ω(X_i)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible si declara dominio, catálogo, transductor y residual |
+La ecuación rectora procede de la teoría de la edad de todos los objetos del Universo observable. Para todo objeto físico admisible `O_i`, la fórmula canónica de edad es:
 
-### A.VI. Tabla operativa para satélites y vehículos
+`𝓔_age(O_i) = (A_i, F_i, F_i−A_i, A_i/F_i, (F_i−A_i)/F_i, 284.018.400·A_i, 284.018.400·F_i, 284.018.400·(F_i−A_i), Δ_i)`.
 
-| Vehículo o régimen | Referencia técnica habitual | Lectura SV sobre Recta-Ómicron SV16 | Coordenada radial auxiliar | Distancia relativa de uso operativo | Condición de retorno SV |
-|---|---|---|---|---|---|
-| Satélite en órbita baja terrestre | ECI/ECEF, GNSS, estaciones terrestres, sensores de actitud | `σ_Ω(Sat_LEO)` | `σ_Ω(Sat_LEO)·R̄_Ω` | `|σ_Ω(Sat_LEO)−σ_Ω(C_⊕)|·R̄_Ω` | Dominio orbital, señal, efeméride y residual declarados |
-| Satélite geoestacionario | Longitud orbital, estaciones, efeméride, actitud | `σ_Ω(Sat_GEO)` | `σ_Ω(Sat_GEO)·R̄_Ω` | `|σ_Ω(Sat_GEO)−σ_Ω(C_⊕)|·R̄_Ω` | Lectura local GEO tipada, no referencia universal |
-| Vehículo lunar | Navegación Tierra-Luna, seguimiento, dinámica cislunar | `σ_Ω(V_CisLunar)` | `σ_Ω(V_CisLunar)·R̄_Ω` | `|σ_Ω(V_CisLunar)−σ_Ω(C_⊕)|·R̄_Ω` | `LD` puede operar como patrón auxiliar declarado |
-| Sonda marciana | DSN/ESTRACK, efemérides, navegación óptica y radiométrica | `σ_Ω(Sonda_Marte)` | `σ_Ω(Sonda_Marte)·R̄_Ω` | `|σ_Ω(Sonda_Marte)−σ_Ω(Marte)|·R̄_Ω` | El planeta objetivo puede declararse como referencia relativa |
-| Sonda interplanetaria exterior | Seguimiento profundo, Delta-DOR, navegación óptica | `σ_Ω(Sonda_Ext)` | `σ_Ω(Sonda_Ext)·R̄_Ω` | `|σ_Ω(Sonda_Ext)−σ_Ω(X_ref)|·R̄_Ω` | `X_ref` debe declararse con dominio y residual |
-| Nave interestelar hipotética | Catálogo estelar, navegación inercial, fuentes de fondo | `σ_Ω(Nave_Interestelar)` | `σ_Ω(Nave_Interestelar)·R̄_Ω` | `|σ_Ω(Nave_Interestelar)−σ_Ω(Polaris/SgrA*/QSO_i)|·R̄_Ω` | Exige trazabilidad reforzada y residual explícito |
-| Vehículo de retorno terrestre | Tierra, atmósfera, estación, navegación inercial | `σ_Ω(V_Retorno)` | `σ_Ω(V_Retorno)·R̄_Ω` | `|σ_Ω(V_Retorno)−σ_Ω(C_⊕)|·R̄_Ω` | Régimen local transducido a la recta |
+Con:
 
-### A.VII. Regla de incorporación de todos los cuerpos conocidos
+`Δ_i = 0`.
 
-Para todo cuerpo conocido `X_i` perteneciente al Sistema Solar, a la Vía Láctea, al Universo observable o a un dominio heredero o descendente formalmente declarado, el anexo establece la misma regla de incorporación:
+La forma explícita de edad SV es:
 
-`X_i ∈ Ω_F^ret ⇔ Dom(X_i) ∧ Cat(X_i) ∧ Ret(X_i) ∧ 𝔛_obs↔SV(X_i) ∧ Res(X_i) declarado`.
+`A_i^SV = 284.018.400 · A_i^FC`.
 
-Si el cuerpo cumple esa condición dentro de `Ω_F`, se admite:
+Donde `A_i^FC` es la edad física del objeto expresada en años julianos y `A_i^SV` es su edad en unidades elementales del medidor factual de ciclo. La constante `284.018.400` procede de:
 
-`σ_Ω(X_i) ∈ [0,1]`.
+`1 a_J = 31.557.600 s`.
 
-Y se obtiene:
+`1 s = 9 UE_MFC`.
 
-`D_coord,Ω^aux(X_i) = σ_Ω(X_i) · R̄_Ω`.
+Por tanto:
+
+`1 a_J = 284.018.400 UE_MFC`.
+
+El observable retornado que cierra el dominio `Ω_F` mantiene:
+
+`A_Ωobs = 13.800.000.000 a_J`.
+
+Y:
+
+`A_Ωobs^SV = 3.919.453.920.000.000.000 UE_MFC`.
+
+La `Recta-Ómicron SV16` no necesita recibir una distancia externa de cada objeto. Le basta recibir la edad admisible del objeto. La edad fija el parámetro rector:
+
+`s_i := A_i / A_Ωobs`.
+
+Equivalente:
+
+`s_i := A_i^SV / A_Ωobs^SV`.
+
+Así, si `A_i` está cerrada por `𝓔_age(O_i)` con `Δ_i=0`, entonces el objeto queda situado sobre la recta por edad rectora:
+
+`π_Ω^age(O_i) = ℓ_Ω^SV(s_i)`.
+
+Cuando `0 ≤ s_i ≤ 1`, el objeto queda dentro del tramo operativo del Universo Físico observable retornado:
+
+`π_Ω^age(O_i) ∈ ℓ_{Ω,[0,1]}^SV`.
+
+Cuando `s_i > 1`, el objeto o dominio excede el cierre terminal del volumen medio calculado y se sitúa sobre la recta completa:
+
+`π_Ω^age(O_i) ∈ ℓ_Ω^SV`.
+
+Esto no rompe la formulación. Significa que el tramo `[0,1]` corresponde al dominio observable retornado `Ω_F`, mientras que la recta completa conserva la posibilidad de lectura por herencia y descendencia de dominios. La frontera `∂S_Ω` no es borde absoluto de la totalidad; es el cierre terminal de la clausura geométrica auxiliar del Universo Físico observable. Más allá de ese cierre, la fórmula no se invalida: exige declarar el dominio heredero, su edad y su residual.
+
+El radio medio equivalente ya calculado para el dominio observable es:
+
+`R̄_Ω = 46.500.000.000 ly`.
 
 También:
 
-`D_rel,Ω^aux(C_⊕,X_i) = |σ_Ω(X_i) − σ_Ω(C_⊕)| · R̄_Ω`.
+`R̄_Ω = 439.923.966.975.007.200.000.000 km`.
 
-Si `σ_Ω(C_⊕)=0`, queda:
+Y en patrón lunar:
 
-`D_rel,Ω^aux(C_⊕,X_i) = σ_Ω(X_i) · R̄_Ω`.
+`R̄_Ω = (35.477.739.272.178.000.000 / 31) LD`.
 
-La referencia absoluta formal, cuando proceda, se mantiene separada:
+La coordenada absoluta auxiliar por edad rectora queda entonces:
 
-`D_abs^{SV}(X_i,0_SV)`.
+`D_coord,Ω^age(O_i) := s_i · R̄_Ω`.
 
-Esta expresión no autoriza a convertir `0_SV` en punto físico ni en origen métrico ordinario. Si el cuerpo carece de catálogo estable, distancia trazable, dominio declarado o residual admisible, el caso no se fuerza. Permanece en `U`, entendida aquí como indeterminación honesta de no cierre.
+En patrón lunar:
 
-Esta regla evita dos errores de plano. Primero, evita convertir este anexo en un catálogo astronómico fechado. Segundo, evita importar al SV una distancia externa como si fuese fundamento. El anexo conserva la universalidad formal: todo cuerpo conocido entra por la misma forma de admisibilidad, y cada distancia concreta exige dominio, transductor, residual y retorno.
+`N_LD^age(O_i) := s_i · (35.477.739.272.178.000.000 / 31)`.
 
-### A.VIII. Corolario universal de extensión por herencia y descendencia de dominios
+La distancia relativa entre dos objetos admisibles `O_i` y `O_j` se calcula sin recurrir a su distancia física externa, sólo por diferencia de edad rectora:
 
-**Enunciado.** Si el Sistema Vectorial SV sostiene que la totalidad encierra cadenas de herencia y descendencia de dominios, incluido el propio Universo Físico observable como dominio retornado, entonces la forma de medida relativa y la forma de coordenación auxiliar derivadas de la `Recta-Ómicron SV16` son universales por estructura: sirven dentro de `Ω_F`, en su límite equivalente `∂S_Ω` y más allá de la clausura esférica auxiliar, siempre que se declare el dominio heredero o descendente correspondiente, su escala de cierre, su vector director, su transductor y su residual.
+`D_rel,Ω^age(O_i,O_j) := |s_j − s_i| · R̄_Ω`.
 
-Sea `D_h` un dominio heredero, descendente, envolvente o sucesor declarado en la cadena de dominios del SV. Sea:
+En patrón lunar:
 
-`ℓ_h^SV(s) := O_h + s v_h`, con `s ∈ ℝ`.
+`N_LD^age(O_i,O_j) := |s_j − s_i| · (35.477.739.272.178.000.000 / 31)`.
 
-Sea el tramo operativo declarado de ese dominio:
+Por tanto, la medida relativa y absoluta queda universalizada por edad. No se pregunta primero a qué distancia externa está el objeto; se pregunta cuál es su edad física admisible bajo `𝓔_age`. Cerrada la edad, queda cerrado el parámetro. Cerrado el parámetro, quedan cerradas la coordenada absoluta auxiliar y la distancia relativa sobre la `Recta-Ómicron SV16`.
 
-`ℓ_{h,[a,b]}^SV(s) := O_h + s v_h`, con `a ≤ s ≤ b`.
+### A.VI. Tabla de cálculo por edad rectora sobre la Recta-Ómicron SV16
 
-Sea `R_h^SV` la escala de cierre o longitud radial auxiliar del dominio `D_h` bajo su retorno propio. Para todo observable admisible `X ∈ D_h^ret`, se define:
+La tabla siguiente sustituye cualquier tabla fundada en distancias externas. Sus cifras no proceden de kilómetros, unidades astronómicas, pársecs ni años luz de catálogo. Proceden de la edad del objeto, normalizada por `A_Ωobs = 13.800.000.000 a_J`, y proyectada sobre el radio medio equivalente ya calculado.
 
-`π_h(X) = ℓ_{h,[a,b]}^SV(σ_h(X))`.
+| Objeto o dominio | Edad rectora `A_i` | Edad SV `A_i^SV` | Parámetro `s_i=A_i/A_Ωobs` | Coordenada absoluta auxiliar en `LD` | Dictamen |
+|---|---:|---:|---:|---:|---|
+| Observable retornado `Ω_obs` | `13.800.000.000 a_J` | `3.919.453.920.000.000.000 UE_MFC` | `1` | `1.144.443.202.328.322.580,645161290323 LD` | Cierre terminal del tramo operativo |
+| Vía Láctea-entorno | `13.600.000.000 a_J` | `3.862.650.240.000.000.000 UE_MFC` | `0,98550724637681159420` | `1.127.857.068.961.245.441,795231416550 LD` | Interior al tramo operativo |
+| Sol | `4.570.000.000 a_J` | `1.297.964.088.000.000.000 UE_MFC` | `0,33115942028985507246` | `378.993.147.437.712.622,720897615708 LD` | Interior al tramo operativo |
+| Sistema Solar | `4.568.000.000 a_J` | `1.297.396.051.200.000.000 UE_MFC` | `0,33101449275362318841` | `378.827.286.104.041.851,332398316971 LD` | Interior al tramo operativo |
+| Cuerpo planetario del dominio Sistema Solar | `4.568.000.000 a_J`, salvo edad propia declarada | `1.297.396.051.200.000.000 UE_MFC` | `0,33101449275362318841` | `378.827.286.104.041.851,332398316971 LD` | Interior al tramo operativo por herencia de dominio |
+| Satélite o vehículo técnico `Veh_i` | `A_Veh_i` | `284.018.400·A_Veh_i` | `A_Veh_i / 13.800.000.000` | `(A_Veh_i / 13.800.000.000) · (35.477.739.272.178.000.000 / 31) LD` | Admisible si declara edad operativa |
+| Vehículo técnico con `10 a_J` de edad operativa | `10 a_J` | `2.840.184.000 UE_MFC` | `0,00000000072463768115942029` | `829.306.668,353856942496 LD` | Interior al tramo operativo |
+| Dominio heredero con `20.000.000.000 a_J` | `20.000.000.000 a_J` | `5.680.368.000.000.000.000 UE_MFC` | `1,44927536231884057971` | `1.658.613.336.707.713.884,992987377279 LD` | Exterior al cierre `∂S_Ω`, admisible sobre recta completa |
+| Fin concreto del ciclo observable | `27.600.000.000 a_J` | `7.838.907.840.000.000.000 UE_MFC` | `2` | `2.288.886.404.656.645.161,290322580645 LD` | Exterior simétrico completo |
 
-Y la coordenada radial auxiliar de retorno queda:
+La fila de los cuerpos planetarios no dice que todos los planetas sean físicamente idénticos ni que carezcan de historia propia. Dice que, si el cuerpo se lee por herencia del dominio Sistema Solar y no se declara una edad propia diferenciada, la edad rectora heredada es `A_SS = 4.568.000.000 a_J`. Si un cuerpo concreto declara edad propia cerrada, se sustituye `A_SS` por `A_i` y se recalcula la fila sin modificar la fórmula.
 
-`D_coord,h^aux(X) := σ_h(X) · R_h^SV`.
+### A.VI.bis. Nodo de enlace de dominio y nodo singular de enlace solar
 
-Para dos observables admisibles `X,Y ∈ D_h^ret`, la distancia relativa auxiliar queda:
+El cálculo por edad rectora entrega correctamente el primer cierre: todos los planetas principales del Sistema Solar comparten el mismo nodo de enlace de dominio, porque pertenecen al mismo dominio físico sistémico `Ω_SS` cuando no se declara edad propia diferenciada. Esa coincidencia no constituye una deficiencia de la `Recta-Ómicron SV16`; es su lectura propia de dominio. La edad del Sistema Solar fija el parámetro común:
 
-`D_rel,h^aux(X,Y) := |σ_h(Y) − σ_h(X)| · R_h^SV`.
+`A_SS = 4.568.000.000 a_J`.
 
-La referencia absoluta formal conserva su escritura propia:
+`A_SS^SV = 1.297.396.051.200.000.000 UE_MFC`.
 
-`D_abs^{SV}(X,0_SV)`.
+`A_Ωobs = 13.800.000.000 a_J`.
 
-Esta fórmula no espacializa `0_SV`; sólo conserva la referencia formal restringida del SV. La coordenada radial auxiliar `D_coord,h^aux(X)` pertenece al dominio declarado `D_h`, no al origen formal absoluto. Por tanto, la medida relativa y la coordenación auxiliar no dependen de que `X` esté dentro del volumen medio equivalente de `Ω_F`; dependen de que exista dominio declarado, vector director, transductor, residual y retorno.
+`s_SS = A_SS/A_Ωobs`.
+
+Por tanto:
+
+`s_SS = 0,33101449275362318841`.
+
+La coordenada común de enlace del dominio queda:
+
+`N_Ω^age(Ω_SS) = s_SS · R̄_Ω`.
+
+En patrón lunar:
+
+`N_LD^age(Ω_SS) = 378.827.286.104.041.851,332398316971 LD`.
+
+Esta coordenada no distingue Mercurio, Venus, Tierra, Marte, Júpiter, Saturno, Urano y Neptuno porque no está diseñada para distinguirlos. Su función es identificar el nodo principal de pertenencia: todos esos cuerpos comparecen como contenidos del dominio `Ω_SS`, salvo que se declare una edad propia diferenciada o una carta singular de resolución interna.
+
+La resolución interna exige un nodo singular. En el régimen planetario, el nodo singular natural es el Sol, porque el Sistema Solar queda estructurado por referencia solar. Se declara entonces:
+
+`N_☉ := (A_☉,0_LD)`.
+
+Con:
+
+`A_☉ = 4.570.000.000 a_J`.
+
+`0_LD` designa el origen local de la carta singular solar en patrón Tierra–Luna. Para cada cuerpo planetario `P_i`, se introduce la coordenada singular solar:
+
+`q_{P_i|☉} := d_sing(P_i,☉)/LD`.
+
+La posición completa del planeta ya no se expresa sólo por la coordenada de dominio, sino por una composición de enlace:
+
+`Π_Ω^{age+☉}(P_i) := N_LD^age(Ω_SS) ⊕ q_{P_i|☉}`.
+
+Donde `⊕` no mezcla planos: el primer término fija el nodo de dominio sobre la `Recta-Ómicron SV16`; el segundo término fija la resolución singular dentro de ese dominio mediante la carta solar local. Así, dos planetas del mismo dominio comparten el nodo de enlace principal, pero quedan separados por su coordenada singular.
+
+La distancia relativa interna entre dos planetas `P_i` y `P_j` se obtiene por cancelación del nodo común:
+
+`D_rel,☉^sing(P_i,P_j) = |q_{P_j|☉} − q_{P_i|☉}| LD`.
+
+Y, en forma expandida:
+
+`D_rel,☉^sing(P_i,P_j) = |(Π_Ω^{age+☉}(P_j) − N_LD^age(Ω_SS)) − (Π_Ω^{age+☉}(P_i) − N_LD^age(Ω_SS))| LD`.
+
+Como el nodo común `N_LD^age(Ω_SS)` aparece en ambos términos, se anula en la diferencia. El resultado no procede de una distancia externa global importada, sino de la estructura de doble enlace: nodo de dominio por edad rectora y nodo singular solar por coordenada local. La ciencia contemporánea puede contrastar metrológicamente la carta singular mediante la definición IAU/JPL de la unidad astronómica y las distancias medias solares divulgadas por NASA, pero no funda ni el nodo de dominio ni la forma de composición; sólo verifica la lectura externa de la coordenada singular cuando ésta se expresa en unidades ordinarias (Jet Propulsion Laboratory, s. f.; National Aeronautics and Space Administration, s. f.-b).
+
+Las tablas siguientes muestran la diferencia entre ambos niveles de resolución. La primera tabla conserva el cálculo por edad rectora pura: todos los planetas principales comparten el mismo nodo de enlace, porque la recta está leyendo el dominio `Ω_SS`. La segunda tabla incorpora el nodo singular solar y muestra qué cambia al pasar de nodo común a carta local. La tercera tabla explicita la cancelación del nodo común y la aparición de distancias relativas internas.
+
+**Tabla A.VI.bis-1. Valor devuelto por la Recta-Ómicron SV16 en lectura por edad rectora pura**
+
+| Cuerpo | Edad rectora de dominio | Parámetro común `s_SS` | Nodo central devuelto por la recta `N_LD^age(Ω_SS)` | Distancia relativa por edad frente a Tierra | Dictamen |
+|---|---:|---:|---:|---:|---|
+| Mercurio | `4.568.000.000 a_J` | `0,33101449275362318841` | `378.827.286.104.041.851,332398 LD` | `0 LD` | Nodo común de dominio |
+| Venus | `4.568.000.000 a_J` | `0,33101449275362318841` | `378.827.286.104.041.851,332398 LD` | `0 LD` | Nodo común de dominio |
+| Tierra | `4.568.000.000 a_J` | `0,33101449275362318841` | `378.827.286.104.041.851,332398 LD` | `0 LD` | Nodo común de dominio |
+| Marte | `4.568.000.000 a_J` | `0,33101449275362318841` | `378.827.286.104.041.851,332398 LD` | `0 LD` | Nodo común de dominio |
+| Júpiter | `4.568.000.000 a_J` | `0,33101449275362318841` | `378.827.286.104.041.851,332398 LD` | `0 LD` | Nodo común de dominio |
+| Saturno | `4.568.000.000 a_J` | `0,33101449275362318841` | `378.827.286.104.041.851,332398 LD` | `0 LD` | Nodo común de dominio |
+| Urano | `4.568.000.000 a_J` | `0,33101449275362318841` | `378.827.286.104.041.851,332398 LD` | `0 LD` | Nodo común de dominio |
+| Neptuno | `4.568.000.000 a_J` | `0,33101449275362318841` | `378.827.286.104.041.851,332398 LD` | `0 LD` | Nodo común de dominio |
+
+Esta primera tabla demuestra el comportamiento de la recta en resolución de dominio: `Mercurio`, `Venus`, `Tierra`, `Marte`, `Júpiter`, `Saturno`, `Urano` y `Neptuno` no se separan porque todos han sido leídos por la misma edad rectora heredada de `Ω_SS`. La distancia relativa por edad entre ellos es nula:
+
+`D_rel,Ω^age(P_i,P_j)=0`.
+
+El resultado es correcto porque el cálculo pregunta por pertenencia de dominio, no por separación orbital interna. La separación interna comienza cuando se declara el nodo singular solar.
+
+**Tabla A.VI.bis-2. Paso del nodo central al nodo singular solar**
+
+| Cuerpo | Nodo central `N_LD^age(Ω_SS)` | Coordenada singular solar `q_{P|☉}` | Coordenada compuesta `Π_Ω^{age+☉}(P)` | Variación introducida por el nodo singular |
+|---|---:|---:|---:|---:|
+| Mercurio | `378.827.286.104.041.851,332398 LD` | `150,647858 LD` | `378.827.286.104.042.001,980256 LD` | `+150,647858 LD` |
+| Venus | `378.827.286.104.041.851,332398 LD` | `281,500851 LD` | `378.827.286.104.042.132,833249 LD` | `+281,500851 LD` |
+| Tierra | `378.827.286.104.041.851,332398 LD` | `389,172400 LD` | `378.827.286.104.042.240,504799 LD` | `+389,172400 LD` |
+| Marte | `378.827.286.104.041.851,332398 LD` | `592,973814 LD` | `378.827.286.104.042.444,306212 LD` | `+592,973814 LD` |
+| Júpiter | `378.827.286.104.041.851,332398 LD` | `2.024,708330 LD` | `378.827.286.104.043.876,040728 LD` | `+2.024,708330 LD` |
+| Saturno | `378.827.286.104.041.851,332398 LD` | `3.718,503368 LD` | `378.827.286.104.045.569,835767 LD` | `+3.718,503368 LD` |
+| Urano | `378.827.286.104.041.851,332398 LD` | `7.479,270859 LD` | `378.827.286.104.049.330,603257 LD` | `+7.479,270859 LD` |
+| Neptuno | `378.827.286.104.041.851,332398 LD` | `11.718,136644 LD` | `378.827.286.104.053.569,469042 LD` | `+11.718,136644 LD` |
+
+La segunda tabla muestra el refinamiento. La columna central permanece fija porque pertenece al nodo de dominio; la columna singular cambia porque pertenece a la carta solar. El valor compuesto no sustituye la edad ni redefine el dominio; sólo añade resolución interna sobre el nodo común.
+
+**Tabla A.VI.bis-3. Cancelación del nodo común y separación interna por carta singular solar**
+
+| Par de cuerpos | Diferencia por edad rectora pura | Cálculo por nodo singular solar | Distancia relativa singular |
+|---|---:|---|---:|
+| Tierra–Marte | `0 LD` | `|592,973814 − 389,172400| LD` | `203,801413 LD` |
+| Tierra–Júpiter | `0 LD` | `|2.024,708330 − 389,172400| LD` | `1.635,535930 LD` |
+| Marte–Júpiter | `0 LD` | `|2.024,708330 − 592,973814| LD` | `1.431,734516 LD` |
+| Mercurio–Neptuno | `0 LD` | `|11.718,136644 − 150,647858| LD` | `11.567,488786 LD` |
+| Venus–Saturno | `0 LD` | `|3.718,503368 − 281,500851| LD` | `3.437,002517 LD` |
+| Saturno–Neptuno | `0 LD` | `|11.718,136644 − 3.718,503368| LD` | `7.999,633276 LD` |
+
+Esta tercera tabla demuestra la diferencia formal entre ambos planos. En el plano de edad rectora pura, la distancia relativa entre planetas principales del Sistema Solar es nula porque todos comparten el nodo `Ω_SS`. En la carta singular solar, la distancia relativa aparece al restar las coordenadas locales `q_{P|☉}`. El nodo común no se abandona; se cancela al comparar dos elementos internos del mismo dominio.
+
+La prueba de separación queda inmediata. Entre Tierra y Marte:
+
+`D_rel,☉^sing(Tierra,Marte) = |592,973814 − 389,172400| LD`.
+
+Por tanto:
+
+`D_rel,☉^sing(Tierra,Marte) = 203,801413 LD`.
+
+Entre Tierra y Júpiter:
+
+`D_rel,☉^sing(Tierra,Júpiter) = |2.024,708330 − 389,172400| LD`.
+
+Por tanto:
+
+`D_rel,☉^sing(Tierra,Júpiter) = 1.635,535930 LD`.
+
+Entre Marte y Júpiter:
+
+`D_rel,☉^sing(Marte,Júpiter) = |2.024,708330 − 592,973814| LD`.
+
+Por tanto:
+
+`D_rel,☉^sing(Marte,Júpiter) = 1.431,734516 LD`.
+
+La estructura queda definida así:
+
+`Nodo de enlace de dominio: N_D := (A_D, R_D, D_D)`.
+
+`Nodo singular de enlace: N_k := (A_k,0_u)`.
+
+`Coordenada singular local: q_{X|k}`.
+
+`Posición compuesta: Π_D^{age+k}(X) := N_D^age ⊕ q_{X|k}`.
+
+`Distancia relativa singular: D_rel,k^sing(X,Y) := |q_{Y|k} − q_{X|k}|`.
+
+El nodo de enlace de dominio permite reconocer la familia, el régimen o el dominio común. El nodo singular de enlace permite distinguir los miembros internos de esa familia. La recta no falla cuando agrupa; agrupa porque está leyendo el dominio. La carta singular no contradice la recta; la afina dentro del dominio ya cerrado. Así, el Sistema Solar tiene un nodo común por edad rectora, y cada planeta obtiene su separación interna mediante el nodo singular solar. Cambia la resolución; no cambia la fórmula.
+
+### A.VII. Regla de incorporación de todos los cuerpos conocidos
+
+Para cualquier cuerpo conocido del Sistema Solar, de la Vía Láctea o del Universo Físico observable, la regla universal queda:
+
+`O_i ∈ Ω_F^adm ⇔ Dom(O_i) ∧ Id(O_i) ∧ Edad(O_i) cerrada por 𝓔_age ∧ Δ_i=0`.
+
+Entonces:
+
+`s_i = A_i/A_Ωobs`.
+
+`D_coord,Ω^age(O_i) = s_i · R̄_Ω`.
+
+`N_LD^age(O_i) = s_i · (35.477.739.272.178.000.000 / 31)`.
+
+Y para dos objetos:
+
+`D_rel,Ω^age(O_i,O_j) = |A_j−A_i|/A_Ωobs · R̄_Ω`.
+
+`N_LD^age(O_i,O_j) = |A_j−A_i|/A_Ωobs · (35.477.739.272.178.000.000 / 31)`.
+
+Este resultado demuestra que la distancia relativa y la coordenada absoluta auxiliar quedan calculadas desde la edad rectora, no desde una distancia externa. La ciencia contemporánea puede aportar después contraste, catálogo, incertidumbre, observación, navegación, señal o corrección instrumental; pero la tabla SV no nace de esa distancia externa. Nace de la edad del objeto cuando la edad queda cerrada por la fórmula canónica.
+
+### A.VIII. Corolario universal de medida relativa y absoluta por edad rectora sobre la Recta-Ómicron SV16
+
+**Enunciado.** Dado que el Sistema Vectorial SV sostiene que la totalidad encierra cadenas de herencia y descendencia de dominios, incluido el propio Universo Físico observable como dominio retornado, la forma de medida relativa y la coordenada absoluta auxiliar derivadas de la `Recta-Ómicron SV16` son universales por edad rectora: sirven dentro de `Ω_F`, en su límite equivalente `∂S_Ω` y más allá de la clausura esférica auxiliar, siempre que se declare el dominio heredero o descendente correspondiente, su edad rectora, su escala de cierre, su vector director y su residual.
+
+La extensión más allá del Universo Físico observable delimitado por el volumen medio calculado se formula del mismo modo. Sea `D_h` un dominio heredero o descendente de `Ω_F`, con edad rectora cerrada `A_h`. Si un objeto `X` pertenece a `D_h`, su parámetro local de dominio será:
+
+`s_X^h := A_X/A_h`.
+
+Su coordenada local será:
+
+`D_coord,h^age(X) := s_X^h · R_h`.
+
+Y su lectura sobre la recta completa referida al cierre de `Ω_F` será:
+
+`s_X^Ω := A_X/A_Ωobs`.
+
+Si `s_X^Ω > 1`, entonces `X` queda más allá de `∂S_Ω` en la lectura de la clausura geométrica auxiliar de `Ω_F`. La distancia excedente respecto del límite equivalente queda:
+
+`D_exc,Ω^age(X) := (s_X^Ω − 1) · R̄_Ω`.
+
+En patrón lunar:
+
+`N_LD,exc^age(X) := (s_X^Ω − 1) · (35.477.739.272.178.000.000 / 31)`.
+
+Así, para un dominio heredero con edad `20.000.000.000 a_J`:
+
+`s_h^Ω = 20.000.000.000 / 13.800.000.000 = 1,44927536231884057971`.
+
+La coordenada absoluta auxiliar sobre la recta completa es:
+
+`D_coord,Ω^age(D_h) = 1,44927536231884057971 · R̄_Ω`.
+
+En patrón lunar:
+
+`N_LD^age(D_h) = 1.658.613.336.707.713.884,992987377279 LD`.
+
+El excedente más allá del cierre equivalente `∂S_Ω` es:
+
+`N_LD,exc^age(D_h) = 514.170.134.379.391.304,347826086957 LD`.
 
 **Demostración.** En `Ω_F`, la determinación matriz ha fijado:
 
@@ -1462,37 +1668,50 @@ Y su tramo operativo:
 
 También ha fijado:
 
-`D_coord,Ω^aux(X) := σ_Ω(X) · R̄_Ω`.
+`D_coord,Ω^age(O_i) := (A_i/A_Ωobs) · R̄_Ω`.
 
 Y:
 
-`D_rel,Ω^aux(X,Y) := |σ_Ω(Y) − σ_Ω(X)| · R̄_Ω`.
+`D_rel,Ω^age(O_i,O_j) := |A_j−A_i|/A_Ωobs · R̄_Ω`.
 
-El contenido formal de estas expresiones no depende de que el nombre del dominio sea `Ω_F`; depende de cinco componentes: un dominio declarado, un origen operativo de lectura, un vector director no nulo, una escala de cierre y un parámetro de retorno. Si otro dominio `D_h` en la cadena de herencia o descendencia declara esos cinco componentes, la sustitución tipada:
+El contenido formal de estas expresiones no depende de una distancia externa de catálogo; depende de la edad rectora cerrada, del dominio declarado, del vector director no nulo, de la escala de cierre y del residual. Si otro dominio `D_h` en la cadena de herencia o descendencia declara esos componentes, la sustitución tipada:
 
 `Ω → h`,
 
 conserva la estructura de la fórmula. Por tanto:
 
-`D_coord,h^aux(X) := σ_h(X) · R_h^SV`.
+`D_coord,h^age(X) := (A_X/A_h) · R_h`.
 
 Y:
 
-`D_rel,h^aux(X,Y) := |σ_h(Y) − σ_h(X)| · R_h^SV`.
+`D_rel,h^age(X,Y) := |A_Y−A_X|/A_h · R_h`.
 
-Si un observable queda más allá del límite equivalente `∂S_Ω`, entonces no se fuerza su pertenencia al tramo `ℓ_{Ω,[0,1]}^SV`. Puede representarse de dos maneras, según el régimen declarado: como prolongación sobre la recta completa `ℓ_Ω^SV` mediante un parámetro `σ_Ω(X)>1`, o como observable propio de un dominio heredero o descendente `D_h`, con su propia escala `R_h^SV` y su propio parámetro `σ_h(X)`. En ambos casos, el resultado no procede de una frontera externa impuesta por la cosmología contemporánea, sino de la estructura calculada por el SV: dominio, recta, parámetro, escala, transductor, residual y retorno.
+Si un observable queda más allá del límite equivalente `∂S_Ω`, entonces no se fuerza su pertenencia al tramo `ℓ_{Ω,[0,1]}^SV`. Puede representarse como prolongación sobre la recta completa `ℓ_Ω^SV` mediante un parámetro `s_X^Ω>1`, o como observable propio de un dominio heredero o descendente `D_h`, con su propia escala `R_h` y su propio parámetro `s_X^h`. En ambos casos, el resultado no procede de una frontera externa impuesta por la cosmología contemporánea, sino de la estructura calculada por el SV: dominio, edad, recta, parámetro, escala, residual y retorno.
 
-Por tanto, la forma de medida relativa y la coordenada radial auxiliar son universales por herencia formal de dominio. No porque `Ω_F` agote la totalidad, sino precisamente porque `Ω_F ≠ 𝓣` y porque la recta completa `ℓ_Ω^SV(s)`, con `s ∈ ℝ`, permite distinguir tramo operativo, prolongación y dominio sucesor. c.q.d. del corolario.
+Por tanto, la fórmula de edad es universal para todo objeto físico o dominio admisible; la `Recta-Ómicron SV16` convierte esa edad en parámetro; el parámetro fija la coordenada absoluta auxiliar y la distancia relativa; y la extensión más allá del universo observable calculado no exige importar distancias externas, sino declarar el dominio heredero o descendente y cerrar su edad por la misma ecuación rectora. Cambia el dominio; no cambia la fórmula. c.q.d. del corolario.
 
-**Resultado del corolario.** Dentro del Universo Físico observable, la fórmula se lee sobre `Ω_F` y sobre `R̄_Ω`. En el límite equivalente, `σ_Ω(∂S_Ω)=1`. Más allá de ese límite, la fórmula no se rompe: se prolonga sobre la recta completa o se reemite en un dominio heredero o descendente declarado. Así, la medida relativa y la referencia absoluta formal adquieren alcance universal dentro del SV sin convertir el volumen medio calculado en frontera de la totalidad y sin entregar a la ciencia contemporánea la función de fuente constitutiva de verdad del SV.
+### A.VIII.bis. Alcance formal condicional y no subordinación empírica del corolario
+
+El corolario anterior no afirma acceso empírico directo a un régimen situado más allá de `∂S_Ω`; afirma la continuidad formal de una estructura de dominio cuando se cumplen sus condiciones de admisibilidad. La diferencia es esencial. El SV no necesita introducir un catálogo externo de objetos no retornados, ni una señal física procedente de un exterior no observable, ni un banco cosmológico suplementario para sostener la forma operatoria. Lo que exige es más estricto: dominio heredero o descendente declarado, edad rectora cerrada, escala de cierre, vector director, residual y dictamen.
+
+La sustitución tipada `Ω → h` no es una licencia verbal. Es una regla de conservación formal: allí donde un dominio `D_h` declara sus componentes, la misma forma que opera en `Ω_F` puede operar en `D_h` sin alterar la estructura de cálculo. En `Ω_F`, el cierre usa `A_Ωobs`, `R̄_Ω`, `v_Ω` y `𝓖_Ω^SV`. En `D_h`, el cierre usa `A_h`, `R_h`, `v_h` y su residual propio. La fórmula no se transporta por analogía retórica, sino por conservación de patrón: edad rectora, parámetro, coordenada auxiliar, distancia relativa y residual.
+
+Por tanto, la ausencia de catálogo empírico más allá de `∂S_Ω` no invalida el corolario. Sólo delimita el tipo de contraste disponible. La ciencia contemporánea puede contrastar donde dispone de señal, instrumento, catálogo, retorno luminoso o banco metrológico; donde no dispone de ellos, no aporta verificación empírica directa, pero tampoco corrige ni anula una estructura formal correctamente declarada. Si el dominio heredero carece de edad cerrada, escala, vector o residual, el caso queda en `U`. Si los declara y el residual se anula, la fórmula opera.
+
+El alcance del corolario es, por tanto, formal condicional fuerte. No se presenta como especulación física sobre lo no observado, ni como sustitución de la cosmología empírica, ni como afirmación material sin retorno. Se presenta como capacidad matemática de continuidad por dominio: la misma recta que ordena el Universo Físico observable puede prolongar su forma sobre dominios herederos o descendentes cuando éstos quedan declarados. Cambia el dominio; no cambia la arquitectura de cálculo.
+
+Esta precisión evita dos errores simétricos. El primero sería convertir el corolario en una afirmación empírica directa sobre lo que hay más allá del horizonte observable. El segundo sería rebajar su valor porque no procede de un catálogo externo. El SV no incurre en ninguno de los dos: no afirma observación donde no hay retorno físico; tampoco subordina la validez de una estructura matemática a que la ciencia contemporánea disponga de banco externo. Su afirmación es más precisa: si existe dominio declarado con edad rectora y residual cerrado, existe cálculo de coordenada y distancia por la misma forma operatoria.
 
 ### A.IX. Dictamen del anexo
 
-El régimen de referencias relativas y absolutas para satélites y vehículos aeroespaciales queda formulado de manera admisible sobre la `Recta-Ómicron SV16`. La Tierra puede operar como origen metrológico externo de lectura, `σ_Ω(C_⊕)=0`, siempre que no se confunda con `0_SV` ni con centro ontológico del Universo. El límite equivalente `∂S_Ω` opera como cierre terminal, `σ_Ω(∂S_Ω)=1`, siempre que no se confunda con borde material de la totalidad. Entre ambos extremos, cualquier satélite, vehículo, cuerpo planetario, estrella, fuente galáctica o referencia cosmológica puede recibir un parámetro `σ_Ω(X)` si declara dominio, catálogo, transductor, residual y retorno.
+El régimen de referencias relativas y absolutas para satélites y vehículos aeroespaciales queda formulado de manera admisible sobre la `Recta-Ómicron SV16`. La Tierra puede operar como origen metrológico externo de lectura, `σ_Ω(C_⊕)=0`, siempre que no se confunda con `0_SV` ni con centro ontológico del Universo. El límite equivalente `∂S_Ω` opera como cierre terminal, `σ_Ω(∂S_Ω)=1`, siempre que no se confunda con borde material de la totalidad. Entre ambos extremos, cualquier satélite, vehículo, cuerpo planetario, estrella, fuente galáctica o referencia cosmológica puede recibir un parámetro si declara dominio, identidad, edad cerrada por `𝓔_age`, residual y retorno.
 
-La referencia absoluta formal se mantiene como `D_abs^{SV}(X,0_SV)`, sin espacialización de `0_SV`. La coordenada radial auxiliar se formula como `D_coord,Ω^aux(X)=σ_Ω(X)·R̄_Ω`. La distancia relativa se formula como `D_rel,Ω^aux(X,Y)=|σ_Ω(Y)−σ_Ω(X)|·R̄_Ω`. Estas expresiones ordenan GNSS cuando proceda, dinámica orbital, sensores de actitud, seguimiento radiométrico, navegación óptica, `Delta-DOR` o catálogos estelares bajo una misma directriz de retorno, evitando que el vehículo, el planeta, la estrella o el catálogo se conviertan en fundamento.
+La referencia absoluta formal se mantiene como `D_abs^{SV}(X,0_SV)`, sin espacialización de `0_SV`. La coordenada absoluta auxiliar se formula como `D_coord,Ω^age(X)=σ_Ω^age(X)·R̄_Ω`. La distancia relativa se formula como `D_rel,Ω^age(X,Y)=|σ_Ω^age(Y)−σ_Ω^age(X)|·R̄_Ω`. Estas expresiones ordenan GNSS cuando proceda, dinámica orbital, sensores de actitud, seguimiento radiométrico, navegación óptica, `Delta-DOR` o catálogos estelares bajo una misma directriz de retorno, evitando que el vehículo, el planeta, la estrella o el catálogo se conviertan en fundamento.
 
-El anexo queda cerrado como extensión formal de la determinación matriz: no añade un nuevo radio del Universo, no modifica `R̄_Ω`, no altera el patrón lunar, no cambia la ecuación local `𝓖_Ω^SV(O;s)=0_Ω` y no introduce una referencia externa como principio. Declara un régimen de uso aeroespacial y universaliza la forma de medida por herencia y descendencia de dominios: toda orientación contemporánea y todo observable situado dentro o fuera de la clausura equivalente puede leerse como relación entre observables sobre una recta de retorno, siempre que exista dominio, transductor, residual y retorno.
+El anexo incorpora además la distinción entre nodo de enlace de dominio y nodo singular de enlace. El nodo de dominio `N_D` permite reconocer la pertenencia común de una familia de objetos, como ocurre con los planetas principales bajo `Ω_SS`; el nodo singular `N_k`, ejemplificado por el nodo solar `N_☉=(A_☉,0_LD)`, permite afinar la resolución interna sin romper la recta ni importar una distancia externa como principio. La carta singular se limita a resolver miembros internos de un dominio ya cerrado: conserva la edad rectora como enlace superior y añade la coordenada singular local como instrumento de diferenciación.
+
+El anexo queda cerrado como extensión formal de la determinación matriz: no añade un nuevo radio del Universo, no modifica `R̄_Ω`, no altera el patrón lunar, no cambia la ecuación local `𝓖_Ω^SV(O;s)=0_Ω` y no introduce una referencia externa como principio. Declara un régimen de uso aeroespacial y universaliza la forma de medida por edad rectora, herencia y descendencia de dominios: toda orientación contemporánea y todo observable situado dentro o fuera de la clausura equivalente puede leerse como relación entre observables sobre una recta de retorno, siempre que exista dominio, edad cerrada, residual y retorno.
+
 
 ## XIV. Bibliografía
 
@@ -1546,6 +1765,8 @@ European Space Agency. (s. f.-d). *Ultra-precise navigation*. ESA. https://www.e
 
 European Space Agency. (s. f.-e). *Advanced Star Tracker*. ESA. https://www.esa.int/Applications/Connectivity_and_Secure_Communications/Alphasat/Advanced_Star_Tracker
 
-European Space Operations Centre. (s. f.). *Our ground stations*. ESA/ESOC. https://esoc.esa.int/explore-our-ground-stations
-
 National Aeronautics and Space Administration. (s. f.-a). *Guidance, navigation, and control*. NASA Small Spacecraft Technology State of the Art. https://www.nasa.gov/smallsat-institute/sst-soa/guidance-navigation-and-control/
+
+Jet Propulsion Laboratory. (s. f.). *au (Astronomical Unit)*. NASA/JPL Center for Near-Earth Object Studies. https://cneos.jpl.nasa.gov/glossary/au.html
+
+National Aeronautics and Space Administration. (s. f.-b). *Planet sizes and locations in our solar system*. NASA Science. https://science.nasa.gov/solar-system/planets/planet-sizes-and-locations-in-our-solar-system/
