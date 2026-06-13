@@ -1,7 +1,8 @@
 # Determinación del radio y del volumen medio del universo observable: distancia relativa, patrón lunar y clausura geométrica auxiliar
+## Referencias relativas y absolutas para satélites y vehículos aeroespaciales desde la Recta-Ómicron SV16
 
 ## Índice
-
+- 0. Prefacio
 - I. Resumen
 - II. Abstract
 - III. Introducción al problema
@@ -25,6 +26,9 @@
 - XIII. Bibliografía
   - XIII.I. Referencias internas del Corpus SV citadas
   - XIII.II. Referencias externas de contraste
+- XIII. Anexo A. Referencias relativas y absolutas para satélites y vehículos aeroespaciales desde la Recta-Ómicron SV16
+
+## 0. Prefacio
 
 ## I. Resumen
 
@@ -1178,9 +1182,249 @@ El patrón lunar aporta una escala externa de lectura metrológica. La forma exa
 
 La distancia relativa media desde `C_⊕` hasta `∂S_Ω` queda finalmente incorporada sin alterar el teorema: `d_rel(C_⊕,∂S_Ω) := R̄_Ω`. La igualdad no introduce una nueva magnitud fundacional, sino una lectura radial externa del mismo radio medio equivalente bajo modelo esférico auxiliar, patrón lunar opcional y retorno metrológico declarado. El resultado final es, por tanto, una determinación cerrada, tipada y trazable: radio, volumen, patrón lunar y distancia relativa quedan coordinados sin medir la totalidad absoluta, sin geocentrismo, sin espacialización del origen formal y sin convertir la cosmología contemporánea en fuente soberana de verdad para el SV.
 
-## XIII. Bibliografía
+## XIII. Anexo A. Referencias relativas y absolutas para satélites y vehículos aeroespaciales desde la Recta-Ómicron SV16
 
-### XIII.I. Referencias internas del Corpus SV citadas
+# A.I. Introducción
+
+Este anexo formula un régimen de referencias relativas y absolutas para satélites, sondas, vehículos aeroespaciales y observables astronómicos tomando como soporte formal la recta generatriz del Universo Físico observable, denominada internamente `Recta-Ómicron SV16` (`Recta_Οmi_SV16`). Su objeto no es sustituir los sistemas contemporáneos de navegación espacial, ni reconstruir efemérides astronómicas externas, ni convertir un catálogo observacional en fundamento del Sistema Vectorial SV. Su objeto es declarar cómo todo observable utilizado para orientación, navegación, seguimiento o referencia aeroespacial puede situarse sobre una única directriz de retorno, con distancia absoluta auxiliar, distancia relativa, dominio, transductor, residual y dictamen.
+
+La tesis operativa del anexo es la siguiente: la orientación aeroespacial contemporánea trabaja con marcos de referencia, señales, sensores, catálogos estelares, radiometría, dinámica orbital, seguimiento desde estaciones terrestres y correcciones de navegación; la formulación SV no niega ese aparato, sino que lo reordena como retorno externo sobre una directriz uniparamétrica. Por tanto, las referencias de Tierra, satélites, cuerpos del Sistema Solar, objetos galácticos y objetos cosmológicos no se introducen como distancias brutas independientes, sino como posiciones proyectivas o transducidas sobre `ℓ_{Ω,[0,1]}^SV`, bajo la clausura geométrica auxiliar ya fijada en la determinación matriz.
+
+La restricción central se conserva íntegra:
+
+`Ω_F ≠ 𝓣`.
+
+En consecuencia, ninguna referencia aeroespacial mide la totalidad absoluta, ninguna distancia física espacializa `0_SV`, ningún vehículo se orienta respecto del TODO y ningún catálogo astronómico externo se convierte en fundamento del SV. La referencia absoluta admisible en este anexo es absoluta sólo en el sentido restringido de cierre auxiliar sobre la recta declarada; la referencia relativa es comparación entre observables o vehículos dentro del mismo régimen de retorno.
+
+## A.II. Estado del arte actual de orientación, navegación y referencia aeroespacial
+
+La navegación espacial contemporánea distingue, de forma ordinaria, entre determinación de actitud, determinación orbital, guiado, navegación y control. En satélites y vehículos espaciales, la actitud puede determinarse mediante sensores de estrellas, sensores solares, sensores de horizonte, magnetómetros, giróscopos y unidades inerciales; NASA describe estos elementos dentro de los sistemas de guiado, navegación y control, incluyendo actuadores y sensores que permiten determinar actitud, giro y maniobras de corrección. En términos SV, este plano no proporciona por sí mismo una verdad constitutiva del observable: proporciona señales, orientación local, traza instrumental y retorno de estado.
+
+En misiones interplanetarias y de espacio profundo, la orientación y navegación no se reducen a una brújula local ni a una referencia visual inmediata. Se emplean seguimiento radiométrico, medidas de rango, Doppler, interferometría de base muy larga y técnicas como `Delta-DOR`, mediante las cuales estaciones terrestres separadas comparan señales de la nave y de fuentes de radio celestes para mejorar la localización angular. ESA describe `Delta-DOR` como una técnica empleada para localizar con precisión naves interplanetarias, y sus estaciones de espacio profundo de `ESTRACK` disponen de capacidad `Delta-DOR` para seguimiento de naves distantes. En términos SV, este procedimiento muestra que la navegación real ya opera mediante diferencia, transducción, geometría de estación, señal, residual y retorno.
+
+Los sensores estelares tienen una función especialmente relevante para este anexo porque constituyen un puente natural entre navegación local y referencias astronómicas. ESA define los star trackers como instrumentos que determinan la posición y actitud de un satélite analizando la ubicación de las estrellas circundantes respecto de la carga útil, apoyándose en catálogos internos de estrellas. En el régimen de este anexo, el catálogo estelar no funda la recta, pero sí puede alimentar `σ_Ω(X)` cuando un cuerpo o dirección astronómica se usa como referencia de orientación.
+
+El estado del arte, por tanto, no obliga a abandonar la recta. Al contrario: confirma que toda navegación aeroespacial necesita referencias, mediciones diferenciales, modelos, sensores, estaciones, catálogos y reconstrucción. La `Recta-Ómicron SV16` permite ordenar ese conjunto sin confundirlo con un centro ontológico del Universo. La orientación técnica contemporánea sigue trabajando con marcos externos; el SV declara una lectura auxiliar: toda referencia admitida se expresa como parámetro de retorno, distancia absoluta auxiliar y distancia relativa respecto de otro observable declarado.
+
+## A.III. Dominio formal del anexo
+
+Sea `Ω_F` el Universo Físico observable retornado bajo la clausura geométrica auxiliar ya declarada. Sea `ℓ_Ω^SV` la recta generatriz completa:
+
+`ℓ_Ω^SV(s) := O_∅ + s v_Ω`, con `s ∈ ℝ`.
+
+Sea `ℓ_{Ω,[0,1]}^SV` el tramo operativo de retorno:
+
+`ℓ_{Ω,[0,1]}^SV(s) := O_∅ + s v_Ω`, con `0 ≤ s ≤ 1`.
+
+Sea `R̄_Ω` el radio medio equivalente del Universo Físico observable bajo retorno metrológico externo:
+
+`R̄_Ω = 46.500.000.000 ly`.
+
+También:
+
+`R̄_Ω = 439.923.966.975.007.200.000.000 km`.
+
+Y:
+
+`R̄_Ω = 439.923.966.975.007.200.000.000.000 m`.
+
+El anexo introduce una función de posición proyectiva sobre la recta:
+
+`σ_Ω(X) ∈ [0,1]`.
+
+`σ_Ω(X)` no es una coordenada astronómica ordinaria, ni ascensión recta, ni declinación, ni longitud heliocéntrica, ni distancia radial euclídea directa. Es el parámetro de retorno de un observable `X` cuando éste ha sido declarado, transducido y cerrado sobre el tramo operativo de la `Recta-Ómicron SV16`.
+
+Para todo observable aeroespacial admisible `X`, se declara:
+
+`π_Ω(X) = ℓ_{Ω,[0,1]}^SV(σ_Ω(X))`.
+
+La distancia absoluta auxiliar de `X` respecto del origen operativo de la recta se define como:
+
+`D_abs,Ω^aux(X) := σ_Ω(X) · R̄_Ω`.
+
+Esta distancia no debe confundirse con `D_abs^{SV}(X,0_SV)` cuando `0_SV` designa el origen formal no espacializado. Si el origen mencionado es `0_SV`, no hay distancia física ordinaria desde la Tierra ni desde ningún satélite. Si el origen mencionado es el origen operativo auxiliar del tramo de lectura, entonces la Tierra tomada como referencia metrológica externa puede fijarse con parámetro nulo de lectura:
+
+`σ_Ω(C_⊕) := 0`.
+
+Bajo esa convención auxiliar:
+
+`D_abs,Ω^aux(C_⊕) = 0`.
+
+Y el límite equivalente de la esfera observable cumple:
+
+`σ_Ω(∂S_Ω) := 1`.
+
+Por tanto:
+
+`D_abs,Ω^aux(∂S_Ω) = R̄_Ω`.
+
+La distancia relativa entre dos observables admisibles `X` e `Y` sobre el mismo régimen de retorno se define como:
+
+`D_rel,Ω^aux(X,Y) := |σ_Ω(Y) − σ_Ω(X)| · R̄_Ω`.
+
+Si `X=C_⊕` y `Y=∂S_Ω`, se recupera el resultado matriz:
+
+`D_rel,Ω^aux(C_⊕,∂S_Ω) = R̄_Ω`.
+
+## A.IV. Referencias absolutas y relativas para satélites y vehículos aeroespaciales
+
+Un satélite artificial, una sonda interplanetaria, una cápsula tripulada o un vehículo aeroespacial no comparece en el SV como simple punto geométrico. Comparece como observable técnico con dominio, estado, trayectoria, señal, control, orientación, residual y retorno. Por ello, su referencia sobre la `Recta-Ómicron SV16` exige declarar al menos:
+
+`Veh`.
+
+`Dom(Veh)`.
+
+`π_Ω(Veh)`.
+
+`σ_Ω(Veh)`.
+
+`D_abs,Ω^aux(Veh)`.
+
+`D_rel,Ω^aux(Veh,C_⊕)`.
+
+`D_rel,Ω^aux(Veh,X_ref)`.
+
+`𝔛_nav↔SV`.
+
+`Res_nav(Veh)`.
+
+Donde `X_ref` puede ser la Tierra, la Luna, el Sol, una estrella de referencia, el baricentro del Sistema Solar, una estación terrestre, una constelación GNSS, una fuente de radio, un planeta, una estrella guía o un límite auxiliar del dominio observable. El transductor `𝔛_nav↔SV` representa el paso entre el aparato técnico contemporáneo de navegación y la lectura SV.
+
+La referencia absoluta auxiliar de un vehículo no sustituye su órbita, su estado kepleriano, su vector de estado, su efeméride ni su actitud. Sólo declara su posición de retorno sobre la recta:
+
+`D_abs,Ω^aux(Veh) = σ_Ω(Veh) · R̄_Ω`.
+
+La referencia relativa útil para navegación puede adoptar la forma:
+
+`D_rel,Ω^aux(Veh,C_⊕) = |σ_Ω(Veh) − σ_Ω(C_⊕)| · R̄_Ω`.
+
+Si `σ_Ω(C_⊕)=0`, entonces:
+
+`D_rel,Ω^aux(Veh,C_⊕) = σ_Ω(Veh) · R̄_Ω`.
+
+Si el vehículo se orienta respecto de una estrella o fuente externa `X_ref`, se obtiene:
+
+`D_rel,Ω^aux(Veh,X_ref) = |σ_Ω(X_ref) − σ_Ω(Veh)| · R̄_Ω`.
+
+La ventaja conceptual del régimen SV es que la orientación técnica no queda aislada en una nube de datos. Cada referencia se convierte en relación explícita: observable, dominio, posición de retorno, distancia auxiliar, distancia relativa, transductor y residual.
+
+## A.V. Tabla matriz de referencias sobre la Recta-Ómicron SV16
+
+La tabla siguiente no sustituye efemérides contemporáneas ni pretende listar numéricamente todos los cuerpos menores conocidos. Su función es más estricta: ofrecer la matriz universal que permite incorporar cualquier cuerpo conocido del Sistema Solar, cualquier referencia galáctica y cualquier observable cosmológico relevante sobre la `Recta-Ómicron SV16`. Por tanto, “todos y cada uno” de los cuerpos conocidos entran por la misma regla formal: si el cuerpo está declarado, identificado y transducido, recibe un parámetro `σ_Ω(X)` y, con él, distancia absoluta auxiliar y distancia relativa.
+
+| Clase o cuerpo de referencia | Estatuto en el anexo | Parámetro sobre Recta-Ómicron SV16 | Referencia absoluta auxiliar | Referencia relativa desde la Tierra | Dictamen de admisibilidad |
+|---|---|---|---|---|---|
+| Tierra, centro metrológico `C_⊕` | Origen operativo de lectura externa, no `0_SV` | `σ_Ω(C_⊕)=0` | `D_abs,Ω^aux(C_⊕)=0` | `D_rel,Ω^aux(C_⊕,C_⊕)=0` | Admisible como referencia metrológica, no como centro ontológico |
+| Origen formal `0_SV` | Origen formal no espacializado | No se asigna como punto físico | `D_abs^{SV}(X,0_SV)` sólo en régimen formal restringido | No procede como distancia física ordinaria | Admisible sólo si no se espacializa |
+| Límite equivalente `∂S_Ω` | Cierre terminal de la esfera auxiliar | `σ_Ω(∂S_Ω)=1` | `R̄_Ω` | `R̄_Ω` | Admisible como límite auxiliar, no borde material |
+| Satélite terrestre artificial | Vehículo en dominio geocéntrico | `σ_Ω(Sat)` | `σ_Ω(Sat)·R̄_Ω` | `|σ_Ω(Sat)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con órbita, estación, señal y residual |
+| Vehículo lunar | Vehículo Tierra–Luna | `σ_Ω(V_Luna)` | `σ_Ω(V_Luna)·R̄_Ω` | `|σ_Ω(V_Luna)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con transductor navegación↔SV |
+| Sonda interplanetaria | Vehículo heliocéntrico o planetocéntrico | `σ_Ω(Sonda)` | `σ_Ω(Sonda)·R̄_Ω` | `|σ_Ω(Sonda)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con efeméride declarada |
+| Luna | Cuerpo del sistema Tierra–Luna | `σ_Ω(Luna)` | `σ_Ω(Luna)·R̄_Ω` | `|σ_Ω(Luna)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible; patrón `LD` puede operar como retorno externo |
+| Sol | Cuerpo rector heliocéntrico local | `σ_Ω(Sol)` | `σ_Ω(Sol)·R̄_Ω` | `|σ_Ω(Sol)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible como referencia solar local |
+| Mercurio | Planeta del Sistema Solar | `σ_Ω(Mercurio)` | `σ_Ω(Mercurio)·R̄_Ω` | `|σ_Ω(Mercurio)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con efeméride |
+| Venus | Planeta del Sistema Solar | `σ_Ω(Venus)` | `σ_Ω(Venus)·R̄_Ω` | `|σ_Ω(Venus)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con efeméride |
+| Marte | Planeta del Sistema Solar | `σ_Ω(Marte)` | `σ_Ω(Marte)·R̄_Ω` | `|σ_Ω(Marte)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con efeméride |
+| Júpiter | Planeta del Sistema Solar | `σ_Ω(Júpiter)` | `σ_Ω(Júpiter)·R̄_Ω` | `|σ_Ω(Júpiter)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con efeméride |
+| Saturno | Planeta del Sistema Solar | `σ_Ω(Saturno)` | `σ_Ω(Saturno)·R̄_Ω` | `|σ_Ω(Saturno)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con efeméride |
+| Urano | Planeta del Sistema Solar | `σ_Ω(Urano)` | `σ_Ω(Urano)·R̄_Ω` | `|σ_Ω(Urano)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con efeméride |
+| Neptuno | Planeta del Sistema Solar | `σ_Ω(Neptuno)` | `σ_Ω(Neptuno)·R̄_Ω` | `|σ_Ω(Neptuno)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con efeméride |
+| Ceres | Planeta enano / cuerpo menor principal | `σ_Ω(Ceres)` | `σ_Ω(Ceres)·R̄_Ω` | `|σ_Ω(Ceres)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con catálogo declarado |
+| Plutón | Planeta enano transneptuniano | `σ_Ω(Plutón)` | `σ_Ω(Plutón)·R̄_Ω` | `|σ_Ω(Plutón)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con catálogo declarado |
+| Eris | Planeta enano transneptuniano | `σ_Ω(Eris)` | `σ_Ω(Eris)·R̄_Ω` | `|σ_Ω(Eris)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con catálogo declarado |
+| Haumea | Planeta enano transneptuniano | `σ_Ω(Haumea)` | `σ_Ω(Haumea)·R̄_Ω` | `|σ_Ω(Haumea)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con catálogo declarado |
+| Makemake | Planeta enano transneptuniano | `σ_Ω(Makemake)` | `σ_Ω(Makemake)·R̄_Ω` | `|σ_Ω(Makemake)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con catálogo declarado |
+| Asteroide identificado `Ast_i` | Cuerpo menor conocido | `σ_Ω(Ast_i)` | `σ_Ω(Ast_i)·R̄_Ω` | `|σ_Ω(Ast_i)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible si existe designación, órbita y residual |
+| Cometa identificado `Com_i` | Cuerpo menor conocido | `σ_Ω(Com_i)` | `σ_Ω(Com_i)·R̄_Ω` | `|σ_Ω(Com_i)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible si existe designación, órbita y residual |
+| Objeto transneptuniano `TNO_i` | Cuerpo menor exterior | `σ_Ω(TNO_i)` | `σ_Ω(TNO_i)·R̄_Ω` | `|σ_Ω(TNO_i)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible si existe catálogo declarado |
+| Baricentro del Sistema Solar | Referencia dinámica heliocéntrica | `σ_Ω(BSS)` | `σ_Ω(BSS)·R̄_Ω` | `|σ_Ω(BSS)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible como referencia dinámica |
+| Próxima Centauri | Estrella próxima de referencia | `σ_Ω(Proxima)` | `σ_Ω(Proxima)·R̄_Ω` | `|σ_Ω(Proxima)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con catálogo estelar |
+| Sirio | Estrella brillante de referencia | `σ_Ω(Sirio)` | `σ_Ω(Sirio)·R̄_Ω` | `|σ_Ω(Sirio)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con catálogo estelar |
+| Vega | Estrella de referencia fotométrica y astronómica | `σ_Ω(Vega)` | `σ_Ω(Vega)·R̄_Ω` | `|σ_Ω(Vega)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con catálogo estelar |
+| Betelgeuse | Supergigante de referencia | `σ_Ω(Betelgeuse)` | `σ_Ω(Betelgeuse)·R̄_Ω` | `|σ_Ω(Betelgeuse)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con incertidumbre catalogal |
+| Estrella Polar | Referencia histórica de orientación terrestre | `σ_Ω(Polaris)` | `σ_Ω(Polaris)·R̄_Ω` | `|σ_Ω(Polaris)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible; no es polo absoluto del Universo |
+| Centro galáctico / Sagitario A* | Referencia estructural de la Vía Láctea | `σ_Ω(SgrA*)` | `σ_Ω(SgrA*)·R̄_Ω` | `|σ_Ω(SgrA*)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con catálogo y modelo galáctico |
+| Nube de Magallanes Mayor | Galaxia satélite de referencia | `σ_Ω(LMC)` | `σ_Ω(LMC)·R̄_Ω` | `|σ_Ω(LMC)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible como referencia extragaláctica local |
+| Nube de Magallanes Menor | Galaxia satélite de referencia | `σ_Ω(SMC)` | `σ_Ω(SMC)·R̄_Ω` | `|σ_Ω(SMC)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible como referencia extragaláctica local |
+| Galaxia de Andrómeda | Galaxia externa principal local | `σ_Ω(M31)` | `σ_Ω(M31)·R̄_Ω` | `|σ_Ω(M31)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con distancia observacional declarada |
+| Cúmulo de Virgo | Estructura extragaláctica relevante | `σ_Ω(Virgo)` | `σ_Ω(Virgo)·R̄_Ω` | `|σ_Ω(Virgo)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible como referencia de gran escala |
+| Gran Atractor | Estructura dinámica de gran escala | `σ_Ω(GA)` | `σ_Ω(GA)·R̄_Ω` | `|σ_Ω(GA)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible con modelo cosmográfico |
+| Fondo cósmico de microondas | Retorno cosmológico de contraste | `σ_Ω(CMB)` | `σ_Ω(CMB)·R̄_Ω` | `|σ_Ω(CMB)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible como referencia cosmológica instrumental |
+| Fuente de radio compacta `QSO_i` | Referencia astrométrica profunda | `σ_Ω(QSO_i)` | `σ_Ω(QSO_i)·R̄_Ω` | `|σ_Ω(QSO_i)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible como referencia angular de fondo |
+| Cualquier cuerpo conocido `X_i` | Universal de incorporación | `σ_Ω(X_i)` | `σ_Ω(X_i)·R̄_Ω` | `|σ_Ω(X_i)−σ_Ω(C_⊕)|·R̄_Ω` | Admisible si declara dominio, catálogo, transductor y residual |
+
+## A.VI. Tabla operativa para satélites y vehículos
+
+| Vehículo o régimen | Referencia contemporánea habitual | Lectura SV sobre Recta-Ómicron SV16 | Distancia absoluta auxiliar | Distancia relativa de uso operativo | Cautela |
+|---|---|---|---|---|---|
+| Satélite en órbita baja terrestre | ECI/ECEF, GNSS, estaciones terrestres, sensores de actitud | `σ_Ω(Sat_LEO)` | `σ_Ω(Sat_LEO)·R̄_Ω` | `|σ_Ω(Sat_LEO)−σ_Ω(C_⊕)|·R̄_Ω` | No sustituye elementos orbitales |
+| Satélite geoestacionario | Longitud orbital, estaciones, efeméride, actitud | `σ_Ω(Sat_GEO)` | `σ_Ω(Sat_GEO)·R̄_Ω` | `|σ_Ω(Sat_GEO)−σ_Ω(C_⊕)|·R̄_Ω` | No convierte GEO en referencia universal |
+| Vehículo lunar | Navegación Tierra–Luna, seguimiento, dinámica cislunar | `σ_Ω(V_CisLunar)` | `σ_Ω(V_CisLunar)·R̄_Ω` | `|σ_Ω(V_CisLunar)−σ_Ω(C_⊕)|·R̄_Ω` | `LD` puede operar como patrón auxiliar |
+| Sonda marciana | DSN/ESTRACK, efemérides, navegación óptica y radiométrica | `σ_Ω(Sonda_Marte)` | `σ_Ω(Sonda_Marte)·R̄_Ω` | `|σ_Ω(Sonda_Marte)−σ_Ω(Marte)|·R̄_Ω` | La referencia puede ser planeta objetivo |
+| Sonda interplanetaria exterior | Seguimiento profundo, Delta-DOR, navegación óptica | `σ_Ω(Sonda_Ext)` | `σ_Ω(Sonda_Ext)·R̄_Ω` | `|σ_Ω(Sonda_Ext)−σ_Ω(X_ref)|·R̄_Ω` | `X_ref` debe declararse |
+| Nave interestelar hipotética | Catálogo estelar, navegación inercial, fuentes de fondo | `σ_Ω(Nave_Interstellar)` | `σ_Ω(Nave_Interstellar)·R̄_Ω` | `|σ_Ω(Nave_Interstellar)−σ_Ω(Polaris/SgrA*/QSO_i)|·R̄_Ω` | Requiere residual alto y trazabilidad |
+| Vehículo de retorno terrestre | Tierra, atmósfera, estación, navegación inercial | `σ_Ω(V_Retorno)` | `σ_Ω(V_Retorno)·R̄_Ω` | `|σ_Ω(V_Retorno)−σ_Ω(C_⊕)|·R̄_Ω` | Régimen local, no cosmológico |
+
+## A.VII. Regla de incorporación de todos los cuerpos conocidos
+
+Para todo cuerpo conocido `X_i` perteneciente al Sistema Solar, a la Vía Láctea o al Universo observable, el anexo establece la misma regla de incorporación:
+
+`X_i ∈ Ω_F^ret ⇔ Dom(X_i) ∧ Cat(X_i) ∧ Ret(X_i) ∧ 𝔛_obs↔SV(X_i) ∧ Res(X_i) declarado`.
+
+Si el cuerpo cumple esa condición, se admite:
+
+`σ_Ω(X_i) ∈ [0,1]`.
+
+Y se obtiene:
+
+`D_abs,Ω^aux(X_i) = σ_Ω(X_i) · R̄_Ω`.
+
+También:
+
+`D_rel,Ω^aux(C_⊕,X_i) = |σ_Ω(X_i) − σ_Ω(C_⊕)| · R̄_Ω`.
+
+Si `σ_Ω(C_⊕)=0`, queda:
+
+`D_rel,Ω^aux(C_⊕,X_i) = σ_Ω(X_i) · R̄_Ω`.
+
+Si el cuerpo carece de catálogo estable, distancia trazable, dominio declarado o residual admisible, el caso no se fuerza. Permanece en `U`, entendida aquí como indeterminación honesta de no cierre.
+
+Esta regla evita dos errores. Primero, evita convertir este anexo en un catálogo astronómico fechado, que quedaría obsoleto con cada actualización observacional. Segundo, evita importar al SV una distancia externa como si fuese fundamento. El anexo conserva la universalidad formal: todo cuerpo conocido entra por la misma forma de admisibilidad, y cada distancia concreta exige transductor y residual.
+
+## A.VIII. Dictamen del anexo
+
+El régimen de referencias relativas y absolutas para satélites y vehículos aeroespaciales queda formulado de manera admisible sobre la `Recta-Ómicron SV16`. La Tierra puede operar como origen metrológico externo de lectura, `σ_Ω(C_⊕)=0`, siempre que no se confunda con `0_SV` ni con centro ontológico del Universo. El límite equivalente `∂S_Ω` opera como cierre terminal, `σ_Ω(∂S_Ω)=1`, siempre que no se confunda con borde material de la totalidad. Entre ambos extremos, cualquier satélite, vehículo, cuerpo planetario, estrella, fuente galáctica o referencia cosmológica puede recibir un parámetro `σ_Ω(X)` si declara dominio, catálogo, transductor, residual y retorno.
+
+La distancia absoluta auxiliar se formula como `D_abs,Ω^aux(X)=σ_Ω(X)·R̄_Ω`. La distancia relativa se formula como `D_rel,Ω^aux(X,Y)=|σ_Ω(Y)−σ_Ω(X)|·R̄_Ω`. Ninguna de estas expresiones sustituye la navegación real por GNSS, dinámica orbital, sensores de actitud, seguimiento radiométrico, navegación óptica, `Delta-DOR` o catálogos estelares. Su función es ordenar esas referencias bajo una misma directriz de retorno, evitando que el vehículo, el planeta, la estrella o el catálogo se conviertan en fundamento.
+
+El anexo queda, por tanto, cerrado como extensión formal de la determinación matriz: no añade un nuevo radio del Universo, no modifica `R̄_Ω`, no altera el patrón lunar, no cambia la ecuación local `𝓖_Ω^SV(O;s)=0_Ω` y no introduce una referencia externa como principio. Declara un régimen de uso aeroespacial: toda orientación contemporánea puede ser leída como relación entre observables sobre la `Recta-Ómicron SV16`, siempre que exista dominio, transductor, residual y retorno.
+
+## A.IX. Referencias internas
+
+Lloret Egea, J. A. (2026). *Determinación del radio y del volumen medio del universo observable: distancia relativa, patrón lunar y clausura geométrica auxiliar*. IA eñ™ — La Biblia de la IA™.
+
+Lloret Egea, J. A. (2026). *Distancia absoluta y relativa entre observables del Universo*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.c394e160
+
+Lloret Egea, J. A. (2026). *Edades relativas del universo observable y de sus objetos físicos*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.b56ed853
+
+Lloret Egea, J. A. (2026). *Primitivos metrológicos del Sistema Vectorial SV: instanciaciones contingentes de las constantes fundacionales del Sistema Internacional, justificación algebraica y tabla de equivalencias factuales*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.c8ec692e
+
+Lloret Egea, J. A. (2026). *Línea del Umbral SV, circulación de retorno del dominio-universo y átomo formal de ascendencia no agotada*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.30dfd78b
+
+## A.X. Referencias externas de estado del arte
+
+European Space Agency. (s. f.). *Advanced Star Tracker*. ESA. https://www.esa.int/Applications/Connectivity_and_Secure_Communications/Alphasat/Advanced_Star_Tracker
+
+European Space Agency. (s. f.). *Keeping track of spacecraft with Delta-DOR*. ESA. https://www.esa.int/Enabling_Support/Operations/Keeping_track_of_spacecraft_with_Delta-DOR
+
+European Space Operations Centre. (s. f.). *Our ground stations*. ESA/ESOC. https://esoc.esa.int/explore-our-ground-stations
+
+National Aeronautics and Space Administration. (s. f.). *Guidance, navigation, and control*. NASA Small Spacecraft Technology State of the Art. https://www.nasa.gov/smallsat-institute/sst-soa/guidance-navigation-and-control/
+
+
+## XIV. Bibliografía
+
+### XIV.I. Referencias internas del Corpus SV citadas
 
 Lloret Egea, J. A. (2026a). *Distancia absoluta y relativa entre observables del Universo*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.c394e160
 
@@ -1196,7 +1440,7 @@ Lloret Egea, J. A. (2026f). *Edades relativas del universo observable y de sus o
 
 Lloret Egea, J. A. (2026g). *Línea del Umbral SV, circulación de retorno del dominio-universo y átomo formal de ascendencia no agotada*. IA eñ™ — La Biblia de la IA™. https://doi.org/10.21428/39829d0b.30dfd78b
 
-### XIII.II. Referencias externas de contraste
+### XIV.II. Referencias externas de contraste
 
 American Physical Society. (2006, junio). *Eratosthenes measures Earth*. APS News. https://www.aps.org/apsnews/2006/06/eratosthenes-measures-earth
 
