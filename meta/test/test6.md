@@ -58,9 +58,9 @@ Cada componente tipada admite origen, unidad interna declarada y acción escalar
 
 El espacio vectorial residual asociado al producto afín tipado se declara como:
 
-`𝓡_Ω^SV := \vec E_A^SV × \vec E_R^SV × \vec E_D^SV`.
+`𝓡_Ω^SV := V_A^SV × V_R^SV × V_D^SV`.
 
-Donde `\vec E_A^SV`, `\vec E_R^SV` y `\vec E_D^SV` designan los espacios vectoriales asociados a los dominios afines tipados `E_A^SV`, `E_R^SV` y `E_D^SV`. Por tanto, la diferencia entre puntos del espacio afín `𝔼_Ω^SV` no se interpreta como un nuevo punto afín, sino como residual tipado en `𝓡_Ω^SV`.
+Donde `V_A^SV`, `V_R^SV` y `V_D^SV` designan los espacios vectoriales asociados a los dominios afines tipados `E_A^SV`, `E_R^SV` y `E_D^SV`. Por tanto, la diferencia entre puntos del espacio afín `𝔼_Ω^SV` no se interpreta como un nuevo punto afín, sino como residual tipado en `𝓡_Ω^SV`.
 
 Estas tres coordenadas no se toman de la ciencia contemporánea como fuente de verdad, sino que pertenecen a la formulación interna del SV. La ciencia contemporánea sólo podrá entrar después como conjunto de datos de contraste, retorno metrológico o transducción externa (Lloret Egea, 2026a, 2026c).
 
@@ -80,7 +80,7 @@ el origen formal tipado de coordenación. Este origen no se toma como cuerpo fí
 
 Se define el vector director asociado al desplazamiento desde el origen formal tipado hasta el punto terminal interno como:
 
-`v_Ω := \overrightarrow{O_∅P_Ω^SV} = P_Ω^SV − O_∅ ∈ 𝓡_Ω^SV`.
+`v_Ω := Δ(O_∅→P_Ω^SV) = P_Ω^SV − O_∅ ∈ 𝓡_Ω^SV`.
 
 La igualdad anterior se entiende como diferencia afín entre dos puntos de `𝔼_Ω^SV`, cuyo resultado pertenece al espacio vectorial residual asociado `𝓡_Ω^SV`. En la carta afín tipada con origen `O_∅`, el vector `v_Ω` tiene coordenadas:
 
@@ -96,7 +96,7 @@ Si:
 
 entonces:
 
-`v_Ω = \overrightarrow{O_∅P_Ω^SV} ≠ 0_Ω`.
+`v_Ω = Δ(O_∅→P_Ω^SV) ≠ 0_Ω`.
 
 Por geometría afín, un punto inicial y un vector director no nulo determinan una única recta. Por tanto, existe una única recta generatriz completa que pasa por `O_∅` y `P_Ω^SV`:
 
@@ -108,7 +108,7 @@ con:
 
 Sustituyendo el vector director declarado:
 
-`ℓ_Ω^SV(s) := O_∅ + s\overrightarrow{O_∅P_Ω^SV}`,
+`ℓ_Ω^SV(s) := O_∅ + s Δ(O_∅→P_Ω^SV)`,
 
 con:
 
@@ -186,11 +186,11 @@ En forma coordenada tipada:
 
 Su codominio residual no es el propio producto afín `E_A^SV × E_R^SV × E_D^SV`, sino el espacio vectorial asociado:
 
-`𝓖_Ω^SV(O;s) ∈ 𝓡_Ω^SV := \vec E_A^SV × \vec E_R^SV × \vec E_D^SV`.
+`𝓖_Ω^SV(O;s) ∈ 𝓡_Ω^SV := V_A^SV × V_R^SV × V_D^SV`.
 
 El cero residual tipado es:
 
-`0_Ω := (0_{\vec A},0_{\vec R},0_{\vec D})`.
+`0_Ω := (0_A^V,0_R^V,0_D^V)`.
 
 Por tanto, el cierre proyectivo local se escribe:
 
@@ -294,7 +294,7 @@ La ecuación local única que sostiene el teorema de la recta generatriz del Uni
 
 Con:
 
-`ℓ_{Ω,[0,1]}^SV(s)=O_∅+s\overrightarrow{O_∅P_Ω^SV}`,
+`ℓ_{Ω,[0,1]}^SV(s)=O_∅+s Δ(O_∅→P_Ω^SV)`,
 
 `π_Ω(O) = (A(O), R(O), D(O))`,
 
@@ -302,7 +302,7 @@ Con:
 
 `0 ≤ s ≤ 1`,
 
-`0_Ω=(0_{\vec A},0_{\vec R},0_{\vec D})`.
+`0_Ω=(0_A^V,0_R^V,0_D^V)`.
 
 En la carta afín tipada con origen `O_∅`, la ecuación puede escribirse abreviadamente como:
 
@@ -310,15 +310,15 @@ En la carta afín tipada con origen `O_∅`, la ecuación puede escribirse abrev
 
 En forma desarrollada:
 
-`𝓖_Ω^SV(O;s) = (A(O), R(O), D(O)) − s(A_Ω^SV, R_Ω^SV, D_Ω^SV) = (0_{\vec A},0_{\vec R},0_{\vec D})`.
+`𝓖_Ω^SV(O;s) = (A(O), R(O), D(O)) − s(A_Ω^SV, R_Ω^SV, D_Ω^SV) = (0_A^V,0_R^V,0_D^V)`.
 
 Equivalente en coordenadas residuales, pero no como tres fórmulas independientes:
 
-`A(O) − sA_Ω^SV = 0_{\vec A}`,
+`A(O) − sA_Ω^SV = 0_A^V`,
 
-`R(O) − sR_Ω^SV = 0_{\vec R}`,
+`R(O) − sR_Ω^SV = 0_R^V`,
 
-`D(O) − sD_Ω^SV = 0_{\vec D}`.
+`D(O) − sD_Ω^SV = 0_D^V`.
 
 La forma coordenada se subordina a la ecuación vectorial única. Por tanto, la formulación local no es una terna de ecuaciones rectoras, sino una sola ecuación vectorial de residual nulo:
 
@@ -342,7 +342,7 @@ Esto equivale a:
 
 Esta igualdad de cocientes no es una segunda ecuación local, ni una ecuación rectora paralela. Es la forma normalizada y despejada de `𝓖_Ω^SV(O;s)=0_Ω` bajo condición de no nulidad.
 
-La Línea del Umbral SV confirma la estructura de esta ecuación local: toda recta posee directriz; todo tránsito admisible exige vector director; todo cierre exige residual nulo o residual gobernado. En este teorema, `v_Ω=\overrightarrow{O_∅P_Ω^SV}` actúa como vector director local del retorno proyectivo, y `𝓖_Ω^SV(O;s)=0_Ω` declara anulación del residual proyectivo entre la proyección interna del observable y el tramo operativo de la recta generatriz del dominio observable retornado (Lloret Egea, 2026g).
+La Línea del Umbral SV confirma la estructura de esta ecuación local: toda recta posee directriz; todo tránsito admisible exige vector director; todo cierre exige residual nulo o residual gobernado. En este teorema, `v_Ω = Δ(O_∅→P_Ω^SV)` actúa como vector director local del retorno proyectivo, y `𝓖_Ω^SV(O;s)=0_Ω` declara anulación del residual proyectivo entre la proyección interna del observable y el tramo operativo de la recta generatriz del dominio observable retornado (Lloret Egea, 2026g).
 
 La forma normalizada:
 
@@ -362,7 +362,7 @@ el espacio afín tipado de coordenación interna del Universo Físico observable
 
 Sea:
 
-`𝓡_Ω^SV := \vec E_A^SV × \vec E_R^SV × \vec E_D^SV`
+`𝓡_Ω^SV := V_A^SV × V_R^SV × V_D^SV`
 
 el espacio vectorial residual asociado al producto afín tipado `𝔼_Ω^SV`.
 
@@ -380,7 +380,7 @@ el punto terminal interno del observable físico retornado. Por hipótesis:
 
 Se define:
 
-`v_Ω := \overrightarrow{O_∅P_Ω^SV} = P_Ω^SV − O_∅ ∈ 𝓡_Ω^SV`.
+`v_Ω := Δ(O_∅→P_Ω^SV) = P_Ω^SV − O_∅ ∈ 𝓡_Ω^SV`.
 
 Como `P_Ω^SV ≠ O_∅`, se obtiene:
 
@@ -392,7 +392,7 @@ En la carta afín tipada con origen `O_∅`, el vector director tiene coordenada
 
 Esta equivalencia es una identificación coordenada del vector director asociado al desplazamiento desde el origen formal tipado hasta el punto terminal interno, no una reducción del punto afín `P_Ω^SV` a residual indiferenciado.
 
-La Línea del Umbral SV fija que una recta conserva una dirección propia y que el origen formal no agota la recta cuando existe intensidad positiva en puntos no nulos. En la recta polar `μ=λ`, el vector directriz `υ_U^SV=(1,1)` conserva la igualdad polar sin reducir todo punto al origen. De modo análogo, en el espacio `𝔼_Ω^SV`, el vector `v_Ω=\overrightarrow{O_∅P_Ω^SV}` actúa como directriz local de la recta generatriz del observable retornado: todo punto del tramo operativo `O_∅+s v_Ω`, con `0≤s≤1`, conserva la orientación uniparamétrica de retorno respecto del punto terminal interno.
+La Línea del Umbral SV fija que una recta conserva una dirección propia y que el origen formal no agota la recta cuando existe intensidad positiva en puntos no nulos. En la recta polar `μ=λ`, el vector directriz `υ_U^SV=(1,1)` conserva la igualdad polar sin reducir todo punto al origen. De modo análogo, en el espacio `𝔼_Ω^SV`, el vector `v_Ω = Δ(O_∅→P_Ω^SV)` actúa como directriz local de la recta generatriz del observable retornado: todo punto del tramo operativo `O_∅+s v_Ω`, con `0≤s≤1`, conserva la orientación uniparamétrica de retorno respecto del punto terminal interno.
 
 En geometría afín, un punto inicial y un vector director no nulo determinan una recta. Por tanto, existe la recta completa:
 
@@ -404,11 +404,11 @@ con:
 
 Sustituyendo:
 
-`v_Ω=\overrightarrow{O_∅P_Ω^SV}`,
+`v_Ω = Δ(O_∅→P_Ω^SV)`,
 
 resulta:
 
-`ℓ_Ω^SV(s) = O_∅ + s\overrightarrow{O_∅P_Ω^SV}`,
+`ℓ_Ω^SV(s) = O_∅ + s Δ(O_∅→P_Ω^SV)`,
 
 con:
 
@@ -438,11 +438,11 @@ Queda probada la existencia de la recta generatriz completa y del tramo operativ
 
 Para demostrar la unicidad, supóngase que existen dos rectas `ℓ_1` y `ℓ_2` que pasan por `O_∅` y por `P_Ω^SV`. Toda recta que pasa por esos dos puntos tiene como vector director un vector proporcional a:
 
-`\overrightarrow{O_∅P_Ω^SV}`.
+`Δ(O_∅→P_Ω^SV)`.
 
 Pero:
 
-`\overrightarrow{O_∅P_Ω^SV}=v_Ω`,
+`Δ(O_∅→P_Ω^SV) = v_Ω`,
 
 y este vector es no nulo en `𝓡_Ω^SV`. Por tanto, `ℓ_1` y `ℓ_2` pasan por el mismo punto y poseen vectores directores proporcionales al mismo vector no nulo. Luego tienen el mismo soporte geométrico:
 
@@ -942,7 +942,7 @@ Esto no afirma que el centro de la Tierra sea fundamento cosmológico, centro on
 
 Expresado mediante el tramo operativo de la recta generatriz:
 
-`ℓ_{Ω,[0,1]}^SV(s)=O_∅+s\overrightarrow{O_∅P_Ω^SV}`,
+`ℓ_{Ω,[0,1]}^SV(s)=O_∅+s Δ(O_∅→P_Ω^SV)`,
 
 con:
 
