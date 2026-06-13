@@ -1,5 +1,192 @@
 # Determinación del radio y del volumen medio del universo observable: distancia relativa, patrón lunar y clausura geométrica auxiliar
 
+# Determinación del radio y del volumen medio del universo observable: distancia relativa, patrón lunar y clausura geométrica auxiliar
+
+## Resumen
+
+## Abstract
+
+## Introducción al problema
+
+## 1. Alcance formal
+
+### 1.1. Dominio declarado de la determinación
+
+### 1.2. Restricción rectora: Ω_F ≠ 𝓣
+
+### 1.3. Distancia absoluta y exclusión del origen formal como centro métrico
+
+### 1.4. Estructura lógico-formal de la distancia relativa
+
+### 1.5. Retorno metrológico externo, modelo declarado y transductor SI↔SV
+
+### 1.6. Datos externos de contraste: diámetro observable, año luz juliano y patrón lunar
+
+## 2. Teorema de la recta generatriz del Universo Físico observable
+
+### 2.1. Denominación interna: Recta-Ómicron SV16
+
+### 2.2. Función nominal y no fundacional de la denominación
+
+### 2.3. Trazabilidad nominal interna de SV16-Ómicron
+
+### 2.4. Declaración del dominio Ω_F como Universo Físico observable retornado
+
+### 2.5. Espacio afín tipado de coordenación interna
+
+### 2.6. Espacio vectorial residual asociado
+
+### 2.7. Punto terminal interno del observable físico retornado
+
+### 2.8. Origen formal tipado de coordenación
+
+### 2.9. Vector director asociado al desplazamiento O_∅→P_Ω^SV
+
+### 2.10. Recta generatriz completa
+
+### 2.11. Tramo operativo de retorno
+
+### 2.12. Dominio de retorno declarable
+
+### 2.13. Dominio de admisibilidad proyectiva
+
+### 2.14. Proyección interna de retorno
+
+### 2.15. Cierre proyectivo local
+
+### 2.16. Condición de no nulidad terminal
+
+### 2.17. Determinación de coordenadas por parámetro único
+
+### 2.18. Forma normalizada de la proyección
+
+## 3. Ecuación del teorema
+
+### 3.1. Ecuación local única de cierre proyectivo
+
+### 3.2. Forma abreviada en carta afín tipada
+
+### 3.3. Forma desarrollada en coordenadas residuales
+
+### 3.4. Existencia y unicidad del parámetro de cierre
+
+### 3.5. Igualdad de razones adimensionales normalizadas
+
+### 3.6. Lectura de la directriz única
+
+## 4. Demostración
+
+### 4.1. Declaración del espacio afín tipado y del espacio residual asociado
+
+### 4.2. Definición del origen formal y del punto terminal interno
+
+### 4.3. Existencia del vector director no nulo
+
+### 4.4. Existencia de la recta generatriz completa
+
+### 4.5. Definición del tramo operativo de retorno
+
+### 4.6. Unicidad de la recta generatriz
+
+### 4.7. Cierre proyectivo por definición constructiva de admisibilidad
+
+### 4.8. Pertenencia proyectiva frente a pertenencia material directa
+
+### 4.9. Determinación de dos coordenadas por una coordenada no nula
+
+### 4.10. Forma normalizada del cierre proyectivo
+
+### 4.11. Reducción al absurdo de la no pertenencia proyectiva
+
+### 4.12. Reducción al absurdo de la indeterminación de coordenadas
+
+### 4.13. Cierre de la demostración
+
+## 5. Radio medio equivalente del Universo Físico observable
+
+### 5.1. Clausura geométrica auxiliar y no fundamento externo del SV
+
+### 5.2. Definición de volumen medio equivalente
+
+### 5.3. Definición del radio medio equivalente
+
+### 5.4. Especialización de la coordenada radial terminal
+
+### 5.5. Diámetro esférico equivalente de contraste
+
+### 5.6. Cálculo del radio medio equivalente en años luz
+
+### 5.7. Conversión del radio medio equivalente a kilómetros
+
+### 5.8. Conversión del radio medio equivalente a metros
+
+### 5.9. Volumen medio equivalente en años luz cúbicos
+
+### 5.10. Volumen medio equivalente en kilómetros cúbicos
+
+### 5.11. Volumen medio equivalente en metros cúbicos
+
+### 5.12. Valor final del radio medio equivalente
+
+## 6. Patrón lunar
+
+### 6.1. Función auxiliar del patrón lunar
+
+### 6.2. Distancia media Tierra–Luna adoptada como LD
+
+### 6.3. Conversión del radio medio equivalente a patrón lunar
+
+### 6.4. Forma exacta fraccionaria irreducible
+
+### 6.5. Lectura decimal redondeada
+
+### 6.6. Cota de error de redondeo
+
+### 6.7. Diámetro esférico equivalente en patrón lunar
+
+### 6.8. Régimen de cautela del patrón lunar
+
+### 6.9. Cadena de retorno del patrón lunar
+
+## 7. Distancia relativa media desde el centro de la Tierra hasta el límite de la esfera equivalente del Universo Físico observable
+
+### 7.1. Función de la distancia relativa en la determinación
+
+### 7.2. Centro de la Tierra como punto metrológico externo
+
+### 7.3. Límite de la esfera perfecta equivalente
+
+### 7.4. Definición de la distancia relativa media
+
+### 7.5. Correspondencia con el cierre terminal del tramo operativo
+
+### 7.6. Distancia relativa media en años luz
+
+### 7.7. Distancia relativa media en kilómetros
+
+### 7.8. Distancia relativa media en metros
+
+### 7.9. Equivalencia en distancias medias Tierra–Luna
+
+### 7.10. Forma exacta fraccionaria irreducible
+
+### 7.11. Lectura decimal y cota de error
+
+### 7.12. Cadena final de la distancia relativa
+
+### 7.13. Aproximación humana en escala larga española
+
+## 8. Conclusión
+
+## 9. Bibliografía
+
+### 9.1. Referencias internas del Corpus SV citadas
+
+### 9.2. Referencias externas de contraste
+
+
+
+
 ## Alcance formal
 
 Esta determinación pertenece a la teoría de la distancia absoluta y relativa entre observables del Universo. Su objeto no es medir la totalidad absoluta, ni convertir el Universo Físico observable en totalidad de lo real, sino formular una clausura geométrica auxiliar aplicable al dominio `Ω_F` cuando éste se toma como Universo Físico observable retornado dentro del Sistema Vectorial SV (Lloret Egea, 2026a).
