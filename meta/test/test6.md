@@ -1,5 +1,5 @@
 # Determinación del radio y del volumen medio del universo observable: distancia relativa, patrón lunar y clausura geométrica auxiliar
-## Subtítulo: referencias relativas y absolutas para satélites y vehículos aeroespaciales desde la Recta-Ómicron SV16 y extensión universal por herencia y descendencia de dominios
+## Referencias relativas y absolutas para satélites y vehículos aeroespaciales desde la Recta-Ómicron SV16 y extensión universal por herencia y descendencia de dominios
 
 ## Índice
 - 0. Prefacio
