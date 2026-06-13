@@ -1,188 +1,204 @@
 # Determinación del radio y del volumen medio del universo observable: distancia relativa, patrón lunar y clausura geométrica auxiliar
 
-# Determinación del radio y del volumen medio del universo observable: distancia relativa, patrón lunar y clausura geométrica auxiliar
+## I. Resumen
 
-## Resumen
+## II. Abstract
 
-## Abstract
+## III. Introducción al problema
 
-## Introducción al problema
+## IV. Estado del arte
 
-## 1. Alcance formal
+### IV.I. Universo observable y diámetro cosmológico de contraste
 
-### 1.1. Dominio declarado de la determinación
+### IV.II. Año luz juliano y conversión metrológica
 
-### 1.2. Restricción rectora: Ω_F ≠ 𝓣
+### IV.III. Distancia media Tierra–Luna como patrón auxiliar
 
-### 1.3. Distancia absoluta y exclusión del origen formal como centro métrico
+### IV.IV. Teoría SV de distancia absoluta y relativa entre observables
 
-### 1.4. Estructura lógico-formal de la distancia relativa
+### IV.V. Edades relativas del universo observable y retorno metrológico
 
-### 1.5. Retorno metrológico externo, modelo declarado y transductor SI↔SV
+### IV.VI. Línea del Umbral SV, directriz y cierre uniparamétrico
 
-### 1.6. Datos externos de contraste: diámetro observable, año luz juliano y patrón lunar
+### IV.VII. Primitivos metrológicos SV y transducción SI↔SV
 
-## 2. Teorema de la recta generatriz del Universo Físico observable
+### IV.VIII. Trazabilidad nominal de la Recta-Ómicron SV16
 
-### 2.1. Denominación interna: Recta-Ómicron SV16
+## V. Alcance formal
 
-### 2.2. Función nominal y no fundacional de la denominación
+### V.I. Dominio declarado de la determinación
 
-### 2.3. Trazabilidad nominal interna de SV16-Ómicron
+### V.II. Restricción rectora: Ω_F ≠ 𝓣
 
-### 2.4. Declaración del dominio Ω_F como Universo Físico observable retornado
+### V.III. Distancia absoluta y exclusión del origen formal como centro métrico
 
-### 2.5. Espacio afín tipado de coordenación interna
+### V.IV. Estructura lógico-formal de la distancia relativa
 
-### 2.6. Espacio vectorial residual asociado
+### V.V. Retorno metrológico externo, modelo declarado y transductor SI↔SV
 
-### 2.7. Punto terminal interno del observable físico retornado
+### V.VI. Datos externos de contraste: diámetro observable, año luz juliano y patrón lunar
 
-### 2.8. Origen formal tipado de coordenación
+## VI. Teorema de la recta generatriz del Universo Físico observable
 
-### 2.9. Vector director asociado al desplazamiento O_∅→P_Ω^SV
+### VI.I. Denominación interna: Recta-Ómicron SV16
 
-### 2.10. Recta generatriz completa
+### VI.II. Función nominal y no fundacional de la denominación
 
-### 2.11. Tramo operativo de retorno
+### VI.III. Trazabilidad nominal interna de SV16-Ómicron
 
-### 2.12. Dominio de retorno declarable
+### VI.IV. Declaración del dominio Ω_F como Universo Físico observable retornado
 
-### 2.13. Dominio de admisibilidad proyectiva
+### VI.V. Espacio afín tipado de coordenación interna
 
-### 2.14. Proyección interna de retorno
+### VI.VI. Espacio vectorial residual asociado
 
-### 2.15. Cierre proyectivo local
+### VI.VII. Punto terminal interno del observable físico retornado
 
-### 2.16. Condición de no nulidad terminal
+### VI.VIII. Origen formal tipado de coordenación
 
-### 2.17. Determinación de coordenadas por parámetro único
+### VI.IX. Vector director asociado al desplazamiento O_∅→P_Ω^SV
 
-### 2.18. Forma normalizada de la proyección
+### VI.X. Recta generatriz completa
 
-## 3. Ecuación del teorema
+### VI.XI. Tramo operativo de retorno
 
-### 3.1. Ecuación local única de cierre proyectivo
+### VI.XII. Dominio de retorno declarable
 
-### 3.2. Forma abreviada en carta afín tipada
+### VI.XIII. Dominio de admisibilidad proyectiva
 
-### 3.3. Forma desarrollada en coordenadas residuales
+### VI.XIV. Proyección interna de retorno
 
-### 3.4. Existencia y unicidad del parámetro de cierre
+### VI.XV. Cierre proyectivo local
 
-### 3.5. Igualdad de razones adimensionales normalizadas
+### VI.XVI. Condición de no nulidad terminal
 
-### 3.6. Lectura de la directriz única
+### VI.XVII. Determinación de coordenadas por parámetro único
 
-## 4. Demostración
+### VI.XVIII. Forma normalizada de la proyección
 
-### 4.1. Declaración del espacio afín tipado y del espacio residual asociado
+## VII. Ecuación del teorema
 
-### 4.2. Definición del origen formal y del punto terminal interno
+### VII.I. Ecuación local única de cierre proyectivo
 
-### 4.3. Existencia del vector director no nulo
+### VII.II. Forma abreviada en carta afín tipada
 
-### 4.4. Existencia de la recta generatriz completa
+### VII.III. Forma desarrollada en coordenadas residuales
 
-### 4.5. Definición del tramo operativo de retorno
+### VII.IV. Existencia y unicidad del parámetro de cierre
 
-### 4.6. Unicidad de la recta generatriz
+### VII.V. Igualdad de razones adimensionales normalizadas
 
-### 4.7. Cierre proyectivo por definición constructiva de admisibilidad
+### VII.VI. Lectura de la directriz única
 
-### 4.8. Pertenencia proyectiva frente a pertenencia material directa
+## VIII. Demostración
 
-### 4.9. Determinación de dos coordenadas por una coordenada no nula
+### VIII.I. Declaración del espacio afín tipado y del espacio residual asociado
 
-### 4.10. Forma normalizada del cierre proyectivo
+### VIII.II. Definición del origen formal y del punto terminal interno
 
-### 4.11. Reducción al absurdo de la no pertenencia proyectiva
+### VIII.III. Existencia del vector director no nulo
 
-### 4.12. Reducción al absurdo de la indeterminación de coordenadas
+### VIII.IV. Existencia de la recta generatriz completa
 
-### 4.13. Cierre de la demostración
+### VIII.V. Definición del tramo operativo de retorno
 
-## 5. Radio medio equivalente del Universo Físico observable
+### VIII.VI. Unicidad de la recta generatriz
 
-### 5.1. Clausura geométrica auxiliar y no fundamento externo del SV
+### VIII.VII. Cierre proyectivo por definición constructiva de admisibilidad
 
-### 5.2. Definición de volumen medio equivalente
+### VIII.VIII. Pertenencia proyectiva frente a pertenencia material directa
 
-### 5.3. Definición del radio medio equivalente
+### VIII.IX. Determinación de dos coordenadas por una coordenada no nula
 
-### 5.4. Especialización de la coordenada radial terminal
+### VIII.X. Forma normalizada del cierre proyectivo
 
-### 5.5. Diámetro esférico equivalente de contraste
+### VIII.XI. Reducción al absurdo de la no pertenencia proyectiva
 
-### 5.6. Cálculo del radio medio equivalente en años luz
+### VIII.XII. Reducción al absurdo de la indeterminación de coordenadas
 
-### 5.7. Conversión del radio medio equivalente a kilómetros
+### VIII.XIII. Cierre de la demostración
 
-### 5.8. Conversión del radio medio equivalente a metros
+## IX. Radio medio equivalente del Universo Físico observable
 
-### 5.9. Volumen medio equivalente en años luz cúbicos
+### IX.I. Clausura geométrica auxiliar y no fundamento externo del SV
 
-### 5.10. Volumen medio equivalente en kilómetros cúbicos
+### IX.II. Definición de volumen medio equivalente
 
-### 5.11. Volumen medio equivalente en metros cúbicos
+### IX.III. Definición del radio medio equivalente
 
-### 5.12. Valor final del radio medio equivalente
+### IX.IV. Especialización de la coordenada radial terminal
 
-## 6. Patrón lunar
+### IX.V. Diámetro esférico equivalente de contraste
 
-### 6.1. Función auxiliar del patrón lunar
+### IX.VI. Cálculo del radio medio equivalente en años luz
 
-### 6.2. Distancia media Tierra–Luna adoptada como LD
+### IX.VII. Conversión del radio medio equivalente a kilómetros
 
-### 6.3. Conversión del radio medio equivalente a patrón lunar
+### IX.VIII. Conversión del radio medio equivalente a metros
 
-### 6.4. Forma exacta fraccionaria irreducible
+### IX.IX. Volumen medio equivalente en años luz cúbicos
 
-### 6.5. Lectura decimal redondeada
+### IX.X. Volumen medio equivalente en kilómetros cúbicos
 
-### 6.6. Cota de error de redondeo
+### IX.XI. Volumen medio equivalente en metros cúbicos
 
-### 6.7. Diámetro esférico equivalente en patrón lunar
+### IX.XII. Valor final del radio medio equivalente
 
-### 6.8. Régimen de cautela del patrón lunar
+## X. Patrón lunar
 
-### 6.9. Cadena de retorno del patrón lunar
+### X.I. Función auxiliar del patrón lunar
 
-## 7. Distancia relativa media desde el centro de la Tierra hasta el límite de la esfera equivalente del Universo Físico observable
+### X.II. Distancia media Tierra–Luna adoptada como LD
 
-### 7.1. Función de la distancia relativa en la determinación
+### X.III. Conversión del radio medio equivalente a patrón lunar
 
-### 7.2. Centro de la Tierra como punto metrológico externo
+### X.IV. Forma exacta fraccionaria irreducible
 
-### 7.3. Límite de la esfera perfecta equivalente
+### X.V. Lectura decimal redondeada
 
-### 7.4. Definición de la distancia relativa media
+### X.VI. Cota de error de redondeo
 
-### 7.5. Correspondencia con el cierre terminal del tramo operativo
+### X.VII. Diámetro esférico equivalente en patrón lunar
 
-### 7.6. Distancia relativa media en años luz
+### X.VIII. Régimen de cautela del patrón lunar
 
-### 7.7. Distancia relativa media en kilómetros
+### X.IX. Cadena de retorno del patrón lunar
 
-### 7.8. Distancia relativa media en metros
+## XI. Distancia relativa media desde el centro de la Tierra hasta el límite de la esfera equivalente del Universo Físico observable
 
-### 7.9. Equivalencia en distancias medias Tierra–Luna
+### XI.I. Función de la distancia relativa en la determinación
 
-### 7.10. Forma exacta fraccionaria irreducible
+### XI.II. Centro de la Tierra como punto metrológico externo
 
-### 7.11. Lectura decimal y cota de error
+### XI.III. Límite de la esfera perfecta equivalente
 
-### 7.12. Cadena final de la distancia relativa
+### XI.IV. Definición de la distancia relativa media
 
-### 7.13. Aproximación humana en escala larga española
+### XI.V. Correspondencia con el cierre terminal del tramo operativo
 
-## 8. Conclusión
+### XI.VI. Distancia relativa media en años luz
 
-## 9. Bibliografía
+### XI.VII. Distancia relativa media en kilómetros
 
-### 9.1. Referencias internas del Corpus SV citadas
+### XI.VIII. Distancia relativa media en metros
 
-### 9.2. Referencias externas de contraste
+### XI.IX. Equivalencia en distancias medias Tierra–Luna
+
+### XI.X. Forma exacta fraccionaria irreducible
+
+### XI.XI. Lectura decimal y cota de error
+
+### XI.XII. Cadena final de la distancia relativa
+
+### XI.XIII. Aproximación humana en escala larga española
+
+## XII. Conclusión
+
+## XIII. Bibliografía
+
+### XIII.I. Referencias internas del Corpus SV citadas
+
+### XIII.II. Referencias externas de contraste
 
 
 
