@@ -26,10 +26,10 @@ artificial para mitigar estas lesiones a los usuarios finales.
 
 Asimismo se postula el *framework* de manera que cumpla con las mayores
 expectativas de ser una herramienta útil para la sociedad y el ser
-humano, alineado con el «[Dictamen del Comité Europeo de las Regiones --
+humano, alineado con el «Dictamen del Comité Europeo de las Regiones --
 Libro Blanco sobre la inteligencia artificial -- Un enfoque europeo
 orientado a la excelencia y la
-confianza](https://op.europa.eu/es/publication-detail/-/publication/12738974-40d7-11eb-b27b-01aa75ed71a1/language-es/format-PDF/source-search)»
+confianza (URL: op.europa.eu/es/publication-detail/-/publication/12738974-40d7-11eb-b27b-01aa75ed71a1/language-es/format-PDF/source-search)»
 y que contribuya a evitar la mala *praxis* de generar cajas
 negras en el empleo de la inteligencia
 artificial haciendo de ella algo inexplicable.
@@ -75,7 +75,7 @@ El uso de *smartwatches*puede suponer una grave amenaza para la
 seguridad de niños y adolescentes. Los fallos de
 seguridad más importantes de los relojes de bajo coste se producen en
 las aplicaciones y en la conexión con los servidores que almacenan los
-datos. Las marcas de *smartwatch*más* *utilizadas por menores que hemos
+datos. Las marcas de *smartwatch*más utilizadas por menores que hemos
 analizado son: Carl Kids Watch, hellOO! Children's Smart Watch,
 SMA-WATCH-M2 y GATOR Watch. Los problemas más recurrentes que
 encontramos son: fallos en la implementación de certificados para
@@ -95,13 +95,13 @@ el mayor número de ventas del mercado: Samsung, Apple, Fitbit y Garmin.
 
 Crédito de imagen: Seguridad en dispositivos Samsung y Apple por Adrián
 Hernández, 2021, Mangosta
-(<https://mangosta.org/seguridad-en-los-dispositivos-samsung-y-apple/>)
+(mangosta.org/seguridad-en-los-dispositivos-samsung-y-apple/)
 
 ![](https://assets.pubpub.org/yjy9unxe/01625567427088.svg)
 
 Crédito de imagen: Seguridad en dispositivos Fitbit y Garmin por Adrián
 Hernández, 2021, Mangosta
-(<https://mangosta.org/seguridad-en-dispositivos-fitbit-y-garmin/>)
+(mangosta.org/seguridad-en-dispositivos-fitbit-y-garmin/)
 
 En la recopilación de datos, Samsung es la única marca que no compila
 información *online* de menores de 13 años.
@@ -125,246 +125,137 @@ cuáles han de ser estos parámetros debe ser fruto de la experiencia en
 el campo de la ciberseguridad y que más adelante
 nosotros propondremos y serán expuestos.
 
-### 2.1.-Definición algebraica
+### 2.1.- Definición algebraica
 
-Dado un número determinado de parámetros de intrusión denominado «n»,
-que es una sucesión numérica de términos
-∈ ℕ∧    a_n=b^2    /   b ≥3,
-característico para cada una de las instancias del *framework* a
-determinar; dado (vec(P_x)), compuesto por un grupo de términos o
-elementos vectores axiales dependiente de «n» →(vec(P_){x(1....n)})
-cuyo modulo |vec(P_){x(1...n)}| sólo toma los valores ternarios del
-intervalo cerrado [0,1, U]^[1]^, y un número máximo de vectores de
-(vec(P_x)) denominado «m» ∈ ℤ →
- [vec(P_){1}, vec(P_){2},vec(P_){3}...vec(P_){m}] _0^{f: {n→m}}
-determinado su valor por m=3^n; y dada una sucesión numérica continua
-de pares de términos ordenados (x(1...n), yi) que aplican
-biyectivamente que un elemento en el grupo (vec(P);x) tiene su imagen
-en el grupo (vec(Img); y), /
- ∀     término    x → y=x    _≤ m
-∧   i=(n-1,   n), definimos a este
-*framework* como:
+Dado un número determinado de parámetros de intrusión denominado «n», se toma como condición de construcción que n pertenezca a la sucesión de cuadrados perfectos n = b², con b ≥ 3. Para cada instancia del *framework* se define un grupo ordenado de parámetros Pₓ(1...n), cuyos valores sólo pueden pertenecer al intervalo ternario declarado [0, 1, U].
 
-Un **S**istema **V**ector de **intrusión **→
-vec(SV_){intrusión}= {[vec(P) x _{(1...n)}, vec(Img_){y_{i}}]_0^{3^{(n)}}}.
-Que cumple que una imagen asociada, o transducida, es función de un
-*array* de parámetros (p) →{p1, p2, p3, p4... pn}; vectorizados cada
-conjunto enésimo de éstos como (vec(P_x)) /:
-vec(Img) _{y_i}={f (vec(P){_{x(1...n)} })} _0^{3^{(n)}}, y que para
-cada uno de los vectores del conjunto (vec(P_x)) tiene una relación
-biyectiva  con su imagen reflejada (vec(Img_y)).
+El número máximo de configuraciones posibles se define como m = 3ⁿ. Cada configuración del grupo Pₓ tiene una imagen asociada Img_y, generada por una función de transducción desde el conjunto de parámetros hacia una representación gráfica en el plano.
 
-Así (vec(Img_y)) es la consecuencia de la transformación lineal del
-sistema de vectores (vec(P_x)), definido éste por el *array de*
-parámetros de intrusión (p), y que se construye dinámicamente
- ∀  x    ≤ m mediante la siguiente
-expresión:
+Forma general del sistema:
 
-  vec(Img){_y} _i ⇔  [vec(P_){x2} - vec(P_){x1},  vec(P_){x3}-vec(P_){x2},  vec(P_){x4} - vec(P_){x3},...,vec(P_){xn} - vec(P_){x({n-1})}, vec(P_){x1}-vec(P_){xn}]   ∀  n     ∈     ℕ.
+> SV_intrusión = [Pₓ(1...n), Img_yᵢ] desde 0 hasta 3ⁿ
 
- ∀    vec(Img){_y} _i ⇔  vec(P_){xn} - vec(P_){x({n-1})}
-/    ∀     término    x → y=x    _≤ m
-∧   i=(n-1,   n)
+Relación funcional entre parámetros e imagen:
 
--   La imagen poligonal cerrada, que asociará un determinado *array*de
-    parámetros intrusivos, para que ésta sea valorada por la
-    Inteligencia Artificial (IA), vendrá definida por la siguiente
-    expresión vectorial:
+> Img_yᵢ = f(Pₓ(1...n))
 
-> ### (Σ  _{j=1} ^{j=n}   (vec(Px_n)-vec(Px_){(n-1)}))-(vec(Px_1)-vec(Px_n))=0
+La imagen asociada es consecuencia de una transformación del sistema de parámetros Pₓ. En términos operativos, cada tramo de la imagen se obtiene mediante diferencias sucesivas entre parámetros ordenados:
 
-**A) DOMINIOS** DEL *FRAMEWORK*
+> Img_yᵢ ⇔ [Pₓ₂ − Pₓ₁, Pₓ₃ − Pₓ₂, Pₓ₄ − Pₓ₃, ..., Pₓₙ − Pₓₙ₋₁, Pₓ₁ − Pₓₙ]
 
-1) El dominio {D1}
- ∀     vec(P) _{x(1...n)} ∈     vec ℕ     ∧: xn ∈  [0,1,U].
+La imagen poligonal cerrada asociada a un determinado *array* de parámetros intrusivos queda determinada por la condición de cierre:
 
-2) El dominio {D2} de
-  vec(Img) _{y_i}={f (vec(P){_{x(1...n)} })} _0^{3^{(n)}}  ∈    vec ℝ^2 →  f: ℕ→ ℝ^2.
+> Σj=1^{n} (Pₓⱼ₊₁ − Pₓⱼ) = 0, con retorno final Pₓₙ → Pₓ₁
 
-3) El dominio {D3} del grupo (vec(P_x))  ∈  vec ℕ^n.
+**A) Dominios del framework**
 
-(vec(Px)) ⇔ (vec(P_1), vec(P_2), vec(P_3),...vec(P_m))    /    {D _1 [0,1,U]:   ∀  vec(P_){x(1...n)} ∈    vec ℕ} ∧ ∀  vec(P_x)   ∈  vec ℕ^n
+1. Dominio D1: Pₓ(1...n) pertenece al dominio ternario [0, 1, U].
+2. Dominio D2: Img_yᵢ = f(Pₓ(1...n)) pertenece a una representación gráfica en ℝ².
+3. Dominio D3: Pₓ pertenece a una estructura ordenada de n parámetros.
+4. Dominio D4: Img_y pertenece al conjunto de imágenes generadas por las configuraciones de Pₓ.
 
-4) El dominio {D4}(vec(Img_y))  ∈  vec ℝ^n.
+**B) Coordenadas polares del framework**
 
-**B) COORDENADAS POLARES DEL *****FRAMEWORK***
+La transformación anterior constituye una línea vectorial poligonal cerrada. En coordenadas polares, cada parámetro se representa mediante un radio vector con valor modular ternario 0, 1 o U, y con un ángulo α determinado por el número de parámetros usados en el escaneo de la intrusión.
 
-La transformación lineal anterior de (vec(Img_y)) constituiría una
-línea vectorial poligonal cerrada. Que en coordenadas polares, de fácil
-implementación mediante gráficos radiales[^3], implica para
-vec(P) _{x(1...n)}  un sistema generador de vectores
-vec(r)= |mod|_α de valor modular (0,1,U) y de ángulo α
-cuyo valor estará comprendido entre 0º y 360º dependiendo éste del
-número de parámetros usados en el escaneo de la intrusión asociados a
-sus ejes, y que para el caso de n=9 parámetros, y para una instancia
-determinada «x»,
- [vec(P_){x1}, vec(P_){x2},vec(P_){x3}...vec(P_){x9}], α
-tendrá un valor (o un desfase entre los vectores del sistema)
-(vec(P_){x (1...9)}α) de 40º → =frac{360º}{9}.
+Para n = 9 parámetros, el desfase angular entre ejes es:
 
-#### 2.1.1.- Naturaleza de las dimensiones del **S**istema **V**ector de **intrusión** vec(SV_){intrusión}= {[vec(P) x _{(1...n)}, vec(Img_){y_{i}}]_0^{3^{(n)}}}
+> α = 360° / 9 = 40°
 
-Al utilizarse aquí, como propuesta inicial de representación, gráficos
-radiales para generar imágenes y usar estos ejes a modo de radios
-vectores de una circunferencia en el plano separados un cierto ángulo
-α entre ellos, la parte que nos interesa, la gráfica, se ubica
-por completo en la aplicación lineal f: ℕ→ ℝ^2.
+Esta representación permite que el sistema genere una imagen radial, poligonal y cerrada para cada configuración de parámetros.
 
-Ahora bien, atendiendo a las coordenadas de cada vector y su naturaleza
-algebraica, la dimensión real sería la que sigue:
+#### 2.1.1.- Naturaleza de las dimensiones del Sistema Vector de intrusión
 
-1) El grupo de vectores vec(P) x _{(1...n)} {Dim1}ℕ=1.
+Al utilizar gráficos radiales para generar imágenes y emplear los ejes como radios vectores de una circunferencia en el plano, la parte gráfica queda ubicada en la aplicación:
 
-2) El grupo de vectores  vec(Img){_y} _i  {Dim2}ℝ=2.
+> f: ℕ → ℝ²
 
-3) El grupo de vectores vec(P_x) {Dim3}ℕ=n.
+La estructura dimensional puede expresarse así:
 
-4) El grupo de vectores  vec(Img_y) {Dim4}ℝ=n.
+1. Grupo de parámetros Pₓ(1...n): dimensión de lectura inicial 1.
+2. Grupo de imágenes Img_yᵢ: representación en el plano ℝ².
+3. Grupo de vectores Pₓ: dimensión n.
+4. Grupo de imágenes Img_y: dimensión n en el conjunto de configuraciones posibles.
 
-#### 2.1.2.- Propiedades algebraicas de vec(P) x _{(1...n)}, vec(Img_){y_{i}}que conforman vec(SV_){intrusión}= {[vec(P) x _{(1...n)}, vec(Img_){y_{i}}]_0^{3^{(n)}}}
+#### 2.1.2.- Propiedades algebraicas de Pₓ(1...n) e Img_yᵢ
 
-Las propiedades a analizar para este sistema vectorial van desde:
-elemento neutro, elemento
-simétrico, propiedad asociativa,
-conmutativa y distributiva;
-pasando por el análisis de vec(P) x _{(1...n)}, vec(Img_){y_{i}}como
-grupo abeliano, anillo,
-cuerpo y espacio vectorial... Se
-propone para una siguiente revisión de esta publicación su desarrollo,
-comprobación y demostración. Asimismo se omite en esta revisión en
-beneficio de una mayor conceptualización general del *framework* y de su
-focalización en el desarrollo efectuado en el laboratorio.
+Las propiedades a analizar para este sistema vectorial van desde elemento neutro, elemento simétrico, propiedad asociativa, conmutativa y distributiva, hasta su posible lectura como grupo abeliano, anillo, cuerpo o espacio vectorial. Esta publicación conserva esa formulación como horizonte algebraico de trabajo y centra su desarrollo en la construcción conceptual general del *framework* y en la implementación de laboratorio.
 
 ### 2.1.3.- Inferencias de la definición algebraica
 
-A este modelo matemático así definido puede aplicársele la teoría del
-Campo del Álgebra Lineal. Asimismo a los gráficos
-radiales, que encierran áreas en sus polígonos irregulares definidos por
-sus vértices, se les puede operar algebraicamente aplicando el
-determinante de Gauss o fórmula del área de
-Gauss y sus propiedades adscritas. Y también,
-propiedades de la lógica ternaria aplicable y del álgebra combinacional
-de Boole; entre otros... Por lo que el número de
-teoremas y corolarios a postular para este marco, y
-su aplicación en la IA y la detección de intrusiones, es motivo aún de
-un estudio amplio de posibilidades y vasto en posibles aplicaciones
-diferentes de las que aquí se describirán o enunciarán.
+A este modelo matemático así definido puede aplicársele la teoría del álgebra lineal. Asimismo, los gráficos radiales, que encierran áreas en sus polígonos irregulares definidos por vértices, pueden operarse algebraicamente mediante la fórmula del área de Gauss y sus propiedades adscritas. También resultan pertinentes la lógica ternaria aplicable y el álgebra combinacional de Boole, entre otros desarrollos posibles.
 
-![](https://assets.pubpub.org/0hd0530u/01626132349933.svg)
+![Ejemplo de fórmula del área de Gauss](https://assets.pubpub.org/0hd0530u/01626132349933.svg)
 
-Crédito imagen: Ejemplo de la fórmula del área de Gauss, Wikipedia,
-[Isalar](https://commons.wikimedia.org/w/index.php?title=User:Isalar&action=edit&redlink=1) derivative
-work: [Nat2](https://commons.wikimedia.org/wiki/User:Nat2) ([talk](https://commons.wikimedia.org/wiki/User_talk:Nat2)) - [Polygon_area_formula.jpg](https://commons.wikimedia.org/wiki/File:Polygon_area_formula.jpg),
-Mangosta (<https://mangosta.org/formula-del-area-de-gauss/>)
+Crédito imagen: Ejemplo de la fórmula del área de Gauss. Wikipedia, Isalar, derivative work: Nat2, Polygon_area_formula.jpg. Mangosta. URL de referencia: mangosta.org/formula-del-area-de-gauss/
 
 ### 2.2.- Cálculo del alcance y sistemática de uso
 
-El número máximo «m» de vectores posibles con el muestreo de n=9
-parámetros y lógica ternaria (0,1,U) es de
-→ m=3^9;→ Δ vec(r_){(n=9)}=19.683 vectores de intrusión. Que se
-irían incrementando conforme aumentáramos el número de parámetros «n» de
-16, a 25, 36, etc., siguiendo una lógica de matrices cuadradas y su
-propia sucesión numérica definida anteriormente. Para un número n ≤9 no
-queda suficientemente justificado el uso de la IA porque cualquier
-lenguaje de programación mediante un algoritmo o librería específica
-podría realizar esto de forma más o menos trivial, sin embargo, cuando
-n>9 sí queda justificada por la potencia de cálculo y la rapidez[^4] en
-el manejo de datos masivos que tienen actualmente los sistemas gráficos
-asociados a la inteligencia artificial de acuerdo a la
-tendencia actual de los proveedores de servicios, servidores y tarjetas
-gráficas, por ejemplo, como Google o IBM; entre otros. Y sin duda esta
-rapidez y potencia de la IA es totalmente diferenciadora en valores de
-«n» superiores a 25, porque éste ya supondría →
- m=3^{25}; → Δ vec(r_){(n=25)}=19.68347.288.609.443 vectores...,
-casi un billón de vectores. Lo que otorgaría al sistema una brillante
-precisión en sus estimaciones de intrusión. La metodología para la
-obtención de estos parámetros se propone inicialmente que sea mediante
-la captura de reglas en *logs* de IDS's, y el empleo
-de técnicas conocidas de monitorización de sistemas (*apps*, etc.); pero
-esto obviamente es flexible y abierto a otra metodología de obtención y
-el *framework*lo admitiría sin mayor problema.
+El número máximo «m» de vectores posibles con el muestreo de n = 9 parámetros y lógica ternaria (0, 1, U) es:
 
-Los parámetros de intrusión sirven como base para construir un modelo
-gráfico de positivos, negativos y de entrenamiento explícitamente
-separados y ordenados en unidades contenedoras, carpetas o directorios.
-Para cada nueva identidad de parámetros e imagen, una vez transferida la
-imagen a la unidad contenedora asignada, la inteligencia artificial
-(previamente entrenada) nos determinará si es o no es una intrusión.
-Asimismo para la decisión final de ¿si es o no es un intrusión?, el
-marco propone adicionar la posibilidad de que un humano afirme que lo
-dictaminado por la IA sea efectivamente una intrusión, o no. Supone por
-tanto la inteligencia artificial una sonda que pone en sobre aviso y
-escruta todas las intrusiones vía
-vec(SV_){intrusión}= {[vec(P) x _{(1...n)}, vec(Img_){y_{i}}]_0^{3^{(n)}}}para
-que finalmente sea el técnico humano quien decida. Por otro lado la
-gestión de una base de datos relacional de positivos ya declarados,
-anexos al sistema que integre o encapsule el marco, conjuntamente con la
-actuación de la IA para los positivos que no lo están aún, permitirá
-generar una base de datos de conocimiento mejorada que irá creciendo de
-acuerdo al número de peticiones de los usuarios que decidan utilizarlo.
+> m = 3⁹ = 19.683 configuraciones posibles
+
+El número de configuraciones aumenta conforme se incrementa el número de parámetros n a 16, 25, 36, etc., siguiendo la lógica de matrices cuadradas indicada. Para n ≤ 9, el uso de IA no queda suficientemente justificado, porque cualquier lenguaje de programación podría realizar esta clasificación con un algoritmo o librería específica. Sin embargo, cuando n > 9, la potencia de cálculo y la rapidez de los sistemas gráficos asociados a la inteligencia artificial justifican su empleo en el manejo de grandes volúmenes de datos.
+
+Para n = 25, la amplitud configuracional es:
+
+> m = 3²⁵ = 847.288.609.443 configuraciones posibles
+
+La metodología inicial para obtener estos parámetros se apoya en la captura de reglas en *logs* de IDS y en técnicas conocidas de monitorización de sistemas y aplicaciones. El *framework* admite también otras metodologías de obtención de parámetros, siempre que puedan declararse y traducirse a la estructura ternaria correspondiente.
+
+Los parámetros de intrusión sirven como base para construir un modelo gráfico de positivos, negativos y entrenamiento, explícitamente separados y ordenados en unidades contenedoras, carpetas o directorios. Para cada nueva identidad de parámetros e imagen, la inteligencia artificial previamente entrenada determina si existe o no una intrusión. La decisión final puede incorporar la confirmación humana, de manera que la IA actúe como sonda de alerta y escrutinio, mientras el técnico humano conserva la decisión final.
 
 ## 3.- Definiciones singulares y un ejemplo
 
 #### 3.1.- Definición en Programación Orientada a Objetos (POO)
 
-Al *framework* que hemos creado le podemos abstraer la idea de que
-definiría una clase denominada 'Intrusión', y la herencia de esta clase
-en otra determinada, definida mediante 9 parámetros, a su vez generaría
-la clase denominada 'Intrusiónbase9', y que es factible de
-implementar con cualquier lenguaje de programación existente
-actualmente. Para cada instancia de esa clase, obtendríamos un objeto de
-vec(SV_){intrusión}= {[vec(P) x _{(1...n)}, vec(Img_){y_{i}}]_0^{3^{(n)}}}
-para su posterior clasificación como intrusión [*True*/*False*].
+Al *framework* creado puede abstraérsele la idea de una clase denominada «Intrusión». La herencia de esta clase, definida mediante 9 parámetros, generaría una clase derivada denominada «Intrusiónbase9», implementable en cualquier lenguaje de programación. Para cada instancia de esa clase se obtiene un objeto del sistema:
+
+> SV_intrusión = [Pₓ(1...n), Img_yᵢ] desde 0 hasta 3ⁿ
+
+Ese objeto se clasifica posteriormente como intrusión verdadera o falsa.
 
 #### 3.2.- Definición de 9 parámetros
 
-Estos nueve parámetros significan una instancia del marco general
-descrito anteriormente. Por lo tanto heredaría todas las características
-de éste. Y donde los valores (0,1,U) especifican: apagado o no usado,
-encendido o en uso e indeterminado; respectivamente.
+Estos nueve parámetros significan una instancia del marco general descrito anteriormente. Por lo tanto heredan las características del *framework*. Los valores 0, 1 y U especifican, respectivamente: apagado o no usado, encendido o en uso, e indeterminado.
 
-| Núm. parámetro asociado a vec(Px(1...n)) | Definición del parámetro | Procedimiento de obtención recomendado |
+| Núm. parámetro asociado a Pₓ(1...n) | Definición del parámetro | Procedimiento de obtención recomendado |
 |---|---|---|
-| n=1 → Px1 | Destino de web (URL) desconocido o no autorizado | Regla Snort IDS o similar |
-| n=2 → Px2 | Comunicación no cifrada (HTTPS) | Regla Snort IDS o similar |
-| n=3 → Px3 | Traspaso de datos locales a otro almacenamiento | Regla Snort IDS o similar |
-| n=4 → Px4 | Uso o conexión a BSSID no permitida o desconocida | Regla Kismet-WIDS o similar |
-| n=5 → Px5 | Uso o conexión a puerto Bluetooth no permitida o desconocida | Regla Kismet-WIDS o similar |
-| n=6 → Px6 | Uso o conexión a GPS no permitida o no autorizada | Regla Kismet-WIDS o similar |
-| n=7 → Px7 | Uso o conexión a cámara no permitido o desconocido | Monitor de sistema o similar |
-| n=8 → Px8 | Uso de dispositivo de audio —micro/altavoz— no permitido o desconocido | Monitor de sistema o similar |
-| n=9 → Px9 | Monitorización de parámetros físicos —velocidad, temperatura, batería— con resultado anormal | Monitor de sistema o similar |
+| n = 1 → Pₓ₁ | Destino de web (URL) desconocido o no autorizado | Regla Snort IDS o similar |
+| n = 2 → Pₓ₂ | Comunicación no cifrada (HTTPS) | Regla Snort IDS o similar |
+| n = 3 → Pₓ₃ | Traspaso de datos locales a otro almacenamiento | Regla Snort IDS o similar |
+| n = 4 → Pₓ₄ | Uso o conexión a BSSID no permitida o desconocida | Regla Kismet-WIDS o similar |
+| n = 5 → Pₓ₅ | Uso o conexión a puerto Bluetooth no permitida o desconocida | Regla Kismet-WIDS o similar |
+| n = 6 → Pₓ₆ | Uso o conexión a GPS no permitida o no autorizada | Regla Kismet-WIDS o similar |
+| n = 7 → Pₓ₇ | Uso o conexión a cámara no permitido o desconocido | Monitor de sistema o similar |
+| n = 8 → Pₓ₈ | Uso de dispositivo de audio —micro/altavoz— no permitido o desconocido | Monitor de sistema o similar |
+| n = 9 → Pₓ₉ | Monitorización de parámetros físicos —velocidad, temperatura, batería— con resultado anormal | Monitor de sistema o similar |
 
 #### 3.3.- Un ejemplo de aplicación
 
-**De forma general se da
-**vec(Img) _{y_i}={f (vec(P){_{x(1...n)} })} _0^{3^{(n)}},** veamos
-un ejemplo cualquiera **con 9 parámetros de una imagen, en un instante
-de tiempo T1 determinado para una instancia
-x=1;→ vec(Img) 1{i}={f (vec(P){_{1   (1...9)} })}
-→vec(Img) 1_i= f (vec(P1_1), vec(P1_2), vec(P1_3), vec(P1_4), vec(P1_5), vec(P1_6), vec(P1_7), vec(P1_8), vec(P1_9)).
-Y la imagen gráfica a escrutar por la inteligencia artificial se crearía
-a partir de la transformación lineal siguiente:
+De forma general se tiene:
 
-vec(Img1){_i} ⇔  [vec(P1_2)- vec(P1_1),  vec(P1_3)-vec(P1_2),  vec(P1_4) -vec(P1_3),...,vec(P1_9)- vec(P1_8), vec(P1_1)- vec(P1_9)]
-Y en la que los vectores parciales del vector (vec(Img) 1_{i}) se
-irían construyendo dinámicamente en el sentido de las agujas del reloj a
-partir de los vectores vec(P1_){(1...9)} con un desfase entre ellos de
-40º.
+> Img_yᵢ = f(Pₓ(1...n))
 
-vec(Img1){_1}= vec(P1_2)- vec(P1_1);  vec(Img1){_2}= vec(P1_3)- vec(P1_2);  vec(Img1){_3}= vec(P1_4)- vec(P1_3);  vec(Img1){_4}= vec(P1_5)- vec(P1_4);  vec(Img1){_5}= vec(P1_6)- vec(P1_5);  vec(Img1){_6}= vec(P1_7)- vec(P1_6);  vec(Img1){_7}= vec(P1_8)- vec(P1_7); vec(Img1){_8}= vec(P1_9)- vec(P1_8);  vec(Img1){_9}= vec(P1_1)- vec(P1_9)
+Para una instancia x = 1 con nueve parámetros:
 
-Por lo que asignando valores, previamente escaneados, al *array* de
-parámetros (p1)=(0,1,U,0,1,1,0,U.0), éstos definirán de forma intrínseca
-(vec(P1_){(1...9)}), y su imagen gráfica asociada vec(Img1){_i} se
-construiría como la figura de abajo. Donde a nivel gráfico se ha
-asignado el valor «3» a las indeterminaciones «U». Y «1» ó «2» que
-corresponderían a los valores binarios de (0,1), respectivamente.
+> Img_1ᵢ = f(P1₁, P1₂, P1₃, P1₄, P1₅, P1₆, P1₇, P1₈, P1₉)
 
-![](https://assets.pubpub.org/9ubofqlj/51626256322218.svg)
+La imagen gráfica a escrutar por la inteligencia artificial se crea a partir de la transformación siguiente:
 
-Crédito imagen: Ejemplo de captura de parámetros por Juan Antonio Lloret
-Egea, 2021, Mangosta (<https://mangosta.org/i_parametros-3/>)
+> Img1ᵢ ⇔ [P1₂ − P1₁, P1₃ − P1₂, P1₄ − P1₃, ..., P1₉ − P1₈, P1₁ − P1₉]
+
+Los vectores parciales de Img1ᵢ se construyen dinámicamente en el sentido de las agujas del reloj a partir de los parámetros P1(1...9), con un desfase angular de 40°.
+
+Desarrollo de tramos:
+
+> Img1₁ = P1₂ − P1₁; Img1₂ = P1₃ − P1₂; Img1₃ = P1₄ − P1₃; Img1₄ = P1₅ − P1₄; Img1₅ = P1₆ − P1₅; Img1₆ = P1₇ − P1₆; Img1₇ = P1₈ − P1₇; Img1₈ = P1₉ − P1₈; Img1₉ = P1₁ − P1₉
+
+Asignando valores previamente escaneados al *array* de parámetros p1 = (0,1,U,0,1,1,0,U,0), estos definen de forma intrínseca P1(1...9), y su imagen gráfica asociada Img1ᵢ se construye como la figura de abajo. A nivel gráfico se asigna el valor «3» a las indeterminaciones U, y «1» o «2» a los valores binarios 0 y 1, respectivamente.
+
+![Ejemplo de captura de parámetros](https://assets.pubpub.org/9ubofqlj/51626256322218.svg)
+
+Crédito imagen: Ejemplo de captura de parámetros por Juan Antonio Lloret Egea, 2021, Mangosta. URL de referencia: mangosta.org/i_parametros-3/
 
 # II.- Laboratorio del *framework*
 
@@ -372,7 +263,7 @@ Egea, 2021, Mangosta (<https://mangosta.org/i_parametros-3/>)
 
 #### 4.1.- Destino de url desconocido o no autorizado
 
-> log tcp &#36;HOME_NET any -> !DireccionIPConfianza any (sid: 1000001;
+> log tcp HOME_NET any -> !DireccionIPConfianza any (sid: 1000001;
 > rev: 001;)
 
 > log tcp any any -> !DireccionIPConfianza any (sid: 1000001; rev:
@@ -390,7 +281,7 @@ dirección distinta a la dirección de confianza en cualquier puerto."
 
 #### 4.2.- Comunicación no cifrada (https)
 
-> log tcp &#36;HOME_NET any -> any any (content:"http"; sid: 1000002;
+> log tcp HOME_NET any -> any any (content:"http"; sid: 1000002;
 > rev: 001;)
 
 > log tcp any any -> any any (content:"http"; sid: 1000002; rev: 001;
@@ -408,7 +299,7 @@ dirección y puerto con contenido HTTP".
 
 #### 4.3.- Traspaso de datos locales a otro almacenamiento
 
-> log tcp &#36;HOME_NET !puerto_confianza -> any any(sid: 1000003; rev:
+> log tcp HOME_NET !puerto_confianza -> any any(sid: 1000003; rev:
 > 001;)
 
 > log tcp any !puerto_confianza -> any any(sid: 1000003; rev: 001;)
@@ -419,8 +310,8 @@ no sea el de confianza a cualquier dirección y puerto.
 
 #### 4.4.- Uso o conexión a BSSID no permitida o desconocida
 
-Para dispositivos Windows, se puede utilizar Kismet* *o bien integrarlo
-en Python, utilizando el modulo subprocess* *(a partir de Windows 7) que
+Para dispositivos Windows, se puede utilizar Kismet o bien integrarlo
+en Python, utilizando el modulo subprocess (a partir de Windows 7) que
 nos permite obtener el estado de los procesos de los dispositivos y la
 respuesta que nos ofrece el sistema operativo tras introducir una
 sentencia en la consola del mismo. En este caso para conocer el BSSID al
@@ -448,13 +339,13 @@ Para dispositivos Windows, se puede utilizar Kismet o bien integrarlo en
 Python, utilizando la librería PyBluez que nos permite obtener el estado
 de la conexión bluetooth.
 
-Para Android, se puede utilizar **BluetoothProfile***** ***interfaz
+Para Android, se puede utilizar **BluetoothProfile* **interfaz
 (colección de métodos y constantes), definida por Google para manejar el
 Bluetooth en los dispositivos Android. Además necesitaremos utilizar
-otra interfaz: **ServiceListener***** ***que nos permitirá listar de
+otra interfaz: **ServiceListener**** **que nos permitirá listar de
 manera más rápida los estados (constantes) que buscamos:
 
-**STATE_CONNECTING*****:*** Dispositivo en estado de conexión.
+**STATE_CONNECTING: Dispositivo en estado de conexión.
 **STATE_DISCONNECTING**: Dispositivo en estado de desconexión.
 **STATE_CONNECTED**: Dispositivo conectado.
 **STATE_DISCONNECTED**: Dispositivo desconectado.
@@ -478,7 +369,7 @@ valor como "1".
 Para Android se puede utilizar **GnssStatus.Callback*****,*** clase
 definida por Google para manejar el sistema global de navegación por
 satélite en los dispositivos Android. Otra de las posibilidades era
-trabajar con **GpsStatus***** ***pero no se podría monitorizar
+trabajar con **GpsStatus**** **pero no se podría monitorizar
 "GLONASS", "GALILEO","BEIDOU", etc. Por otra parte, utilizaremos el
 método definido **onStarted() **que nos avisa cuando GNSS se activa y
 **onStopped()**, su análogo para cuando el proceso se detiene.
@@ -496,7 +387,7 @@ aparece un mensaje como este:
 Crédito de imagen: Salida por consola estado del cámara online
 
 por Adrián Hernández, 2021, Mangosta
-(<https://mangosta.org/i_parametros-2/>)
+(mangosta.org/i_parametros-2/)
 
 Y además, almacenaremos el valor como "1" en la variable determinada
 para realizar el gráfico con el resto de parámetros. Si por el contrario
@@ -508,7 +399,7 @@ siguiente mensaje:
 Image credit: Console output offline camera status
 
 por Adrián Hernández, 2021, Mangosta
-(<https://mangosta.org/ii_parametros-2/>)
+(mangosta.org/ii_parametros-2/)
 
 En este caso se almacenaría el valor "0" a la hora de realizar el
 gráfico.
@@ -533,9 +424,9 @@ Crédito de imagen: Estado del micrófono mediante el uso de las ondas de
 audio
 
 por Adrián Hernández, 2021, Mangosta
-(<https://mangosta.org/iii_parametros-2/>)
+(mangosta.org/iii_parametros-2/)
 
-Para Android, se puede utilizar **AudioManager*****, ***una*** ***clase
+Para Android, se puede utilizar **AudioManager*****, ***una** **clase
 definida por Google para manejar el micrófono en los dispositivos
 Android. Además, necesitaremos utilizar la clase Context
 y la String AUDIO_SERVICE. Asimismo, podemos comprobar desde la API 11
@@ -586,7 +477,7 @@ gráficos a partir de datos contenidos en listas o *arrays*.
 ![](https://assets.pubpub.org/6iw9zu02/71626781601028.png)
 
 Crédito de imagen: Monitorización de parámetros físicos por Adrián
-Hernández, 2021, Mangosta (<https://mangosta.org/iv_parametros-2/>)
+Hernández, 2021, Mangosta (mangosta.org/iv_parametros-2/)
 
 #### 4.10.- Gráficos obtenidos tras analizar los parámetros
 
@@ -598,7 +489,7 @@ siguen este estilo:
 ![](https://assets.pubpub.org/5gyxzxzo/51626781828904.png)
 
 Crédito de imagen: Gráfico polar por Adrián Hernández, 2021, Mangosta
-(<https://mangosta.org/vi_parametros-2/>)
+(mangosta.org/vi_parametros-2/)
 
 ## 5.-  Diagramación y sistemática en la implementación del *framework*
 
@@ -637,12 +528,12 @@ podamos entender todos y cada uno de ellos.
 
 Crédito de imagen: Diagrama de flujo general del framework por Diana
 Díaz, 2021, Mangosta
-(<https://mangosta.org/diagramacion-general-framework/>)
+(mangosta.org/diagramacion-general-framework/)
 
 El diagrama general ha sido diseñado con la ayuda de la aplicación de
 diagramación de código abierto Drawio. Esta diagramación, en
 concreto, contiene otros dos diagramas; la conexión Java con la base de
-datos y el uso de* *fast.ai* + Google Colaboratory, también recogidos
+datos y el uso de fast.ai* + Google Colaboratory, también recogidos
 en la leyenda de la parte inferior del diagrama.
 
 En primer lugar, comenzamos con la instalación de la aplicación. Al
@@ -681,7 +572,7 @@ consulta SQL.
 Crédito de imagen: Diagrama de Java
 
 por Kimberly Riveros, 2021, Mangosta
-(<https://mangosta.org/diagramacion-de-java/>)
+(mangosta.org/diagramacion-de-java/)
 
 El *driver* JDBC, por sus siglas en inglés, (Java Database Connectivity)
 facilita la conexión entre un sistema gestor de base de datos (SGBD) y
@@ -690,7 +581,7 @@ cualquier *software*que trabaje con Java *. *Además del
 los archivos de la base de datos y la herramienta phpMyAdmin, disponible
 en XAMPP, para manejar la administración de MySQL. También, hemos
 trabajado en el entorno de Java conjuntamente con Eclipse. Eclipse es un
-*software*de entorno* *de desarrollo* *integrado para conectar la base
+*software*de entorno de desarrollo integrado para conectar la base
 de datos con Java *. *Es importante añadir que en el
 diseño de la diagramación de Java hemos utilizado como herramienta base
 el programa Draw.io, al igual que se ha hecho en el resto de
@@ -707,7 +598,7 @@ principio para evitar posibles errores de conexión.
 
 Crédito de imagen: Conexión a la base de datos - Java por Kimberly
 Riveros, 2021, Mangosta
-(<https://mangosta.org/conexion-a-la-base-de-datos-java/>)
+(mangosta.org/conexion-a-la-base-de-datos-java/)
 
 Posteriormente definimos en Eclipse el objeto "connection" para
 establecer la conexión y le indicamos la ruta del servidor junto con la
@@ -721,7 +612,7 @@ realizar la conexión desde la nube.
 ![](https://assets.pubpub.org/ryrcm470/41627034284629.svg)
 
 Acceso al código para docentes y estudiantes:
-<https://mangosta.org/conexion-a-la-base-de-datos-java001/>
+mangosta.org/conexion-a-la-base-de-datos-java001/
 
 Cada conexión, en local o en la nube, es independiente entre sí, es
 decir, cada una se hace en una clase distinta y lo único diferente que
@@ -732,7 +623,7 @@ tiene cada clase en Eclipse es la ruta.
 Crédito de imagen: Conexión a la base de datos Java
 
 por Kimberly Riveros, 2021, Mangosta
-(<https://mangosta.org/conexion-a-la-base-de-datos-java002/>)
+(mangosta.org/conexion-a-la-base-de-datos-java002/)
 
 Finalmente una vez comprobada la conexión de la base de datos, podemos
 realizar las consultas que deseemos, escribiendo en lenguaje SQL. Por
@@ -759,7 +650,7 @@ mediante el lenguaje de programación Python, definida como sistemática
 ![](https://assets.pubpub.org/a95dde3x/51627035791754.svg)
 
 Crédito de imagen: Diagrama de Python por Diana Díaz, 2021, Mangosta
-(<https://mangosta.org/diagramacion-conexion-base-de-datos-con-python/>)
+(mangosta.org/diagramacion-conexion-base-de-datos-con-python/)
 
 Las herramientas utilizadas para llevar a cabo este procedimiento son:
 Google Colaboratory, una aplicación de Google para crear entornos de
@@ -810,7 +701,7 @@ Crédito de imagen: Diagramación uso de la inteligencia artificial en
 Python
 
 por Adrián Hernández, 2021, Mangosta
-(<https://mangosta.org/diagramacion-uso-de-la-inteligencia-artificial-en-python/>)
+(mangosta.org/diagramacion-uso-de-la-inteligencia-artificial-en-python/)
 
 Para llevar a cabo este procedimiento, hemos utilizado Drawio para hacer
 el diagrama, Google Drive y Google Colaboratory, que incluye el lenguaje
@@ -829,12 +720,12 @@ imágenes, dependiendo del grupo al que pertenezcan.
 ![](https://assets.pubpub.org/zjah810k/11626516224484.svg)
 
 Crédito imagen: Almacenamiento imágenes de gatos por Kimberly Riveros,
-2021, Mangosta (<https://mangosta.org/gatos/>)
+2021, Mangosta (mangosta.org/gatos/)
 
 ![](https://assets.pubpub.org/3ovdns93/41626516567773.svg)
 
 Crédito imagen: Almacenamiento imágenes de gatos por Kimberly Riveros,
-2021, Mangosta (<https://mangosta.org/tigres/>)
+2021, Mangosta (mangosta.org/tigres/)
 
 Posteriormente accedemos a Google Colaboratory y en la primera celda,
 indicamos la ruta en la que estará ubicado nuestro *dataset *(conjunto
@@ -870,28 +761,28 @@ tigre cuando en realidad es un gato.
 
 Crédito de imagen: Respuesta Inteligencia Artificial por Kimberly
 Riveros, 2021, Mangosta
-(<https://mangosta.org/i_respuesta-inteligencia-artificial/>)
+(mangosta.org/i_respuesta-inteligencia-artificial/)
 
 ![](https://assets.pubpub.org/l335zn31/41626516826424.svg)
 
 Crédito de imagen: Respuesta Inteligencia Artificial (matriz de
 confusión) por Kimberly Riveros, 2021, Mangosta
-(<https://mangosta.org/ii_respuesta-inteligencia-artificial/>)
+(mangosta.org/ii_respuesta-inteligencia-artificial/)
 
 ## 6.- Paso a paso en el proceso de detectar intrusiones con Inteligencia Artificial: ResNet34, cuadernos Jupyter y Google Colaboratory
 
 Google Colab es un entorno de trabajo que nos permite ejecutar cuadernos
-Jupyter* *en el navegador. Entre sus ventajas destacamos la necesidad de
+Jupyter en el navegador. Entre sus ventajas destacamos la necesidad de
 no configurarlo previamente y la obtención de acceso gratuito a GPU's*
 *(Tesla T4 o Tesla K80). Por lo tanto, ofrece la posibilidad de entrenar
 y utilizar la inteligencia artificial sin emplear recursos *hardware* propios y/o pagar una suscripción para su uso.
 
-Un cuaderno Jupyter* *es un documento que permite ejecutar celdas de
+Un cuaderno Jupyter es un documento que permite ejecutar celdas de
 código en vivo, texto plano, ecuaciones, etc. La estructura que siguen
 estos cuadernos es una lista ordenada de entrada/salida. El nombre
-Jupyter* *proviene de: **Julia + *****Python *****+ R**, que son los
+Jupyter proviene de: **Julia + *****Python *****+ R**, que son los
 tres lenguajes de programación presentes en los cuadernos Jupyter. Los
-dos componentes principales de Jupyter Notebook* *son un conjunto de
+dos componentes principales de Jupyter Notebook son un conjunto de
 núcleos (*Interpreter*) y el *Dashboard*. De igual forma, cambiando el
 núcleo del cuaderno podemos ejecutar otros lenguajes desde Google Colab
 como podría ser Java.
@@ -903,30 +794,30 @@ a cabo.
 
 El primer paso es preparar el entorno de Google Colab, ya que por
 defecto no vamos a poder acceder sin activarlo. Para ello, desde nuestro
-Google Drive* *hacemos clic* *en Google Colaboratory.
+Google Drive hacemos clic en Google Colaboratory.
 
 ![](https://assets.pubpub.org/hqbijbo1/21625590448284.png)
 
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial: ResNet34, cuadernos Jupyter y Google Colaboratory por Adrián
 Hernández, 2021, Mangosta
-(<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial/>)
+(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial/)
 
-O bien, si no nos aparece la opción, hacemos clic* *en la siguiente URL:
-[**https://colab.research.google.com/**](https://colab.research.google.com/)
+O bien, si no nos aparece la opción, hacemos clic en la siguiente URL:
+**colab.research.google.com/** (URL: colab.research.google.com/)
 
 Una vez estemos dentro de Google Colab, tenemos los cuadernos
-predeterminados por Google* *para iniciarnos en Python* *desde la nube.
+predeterminados por Google para iniciarnos en Python desde la nube.
 Sin embargo, también podemos crear un cuaderno en blanco para empezar a
 realizar las pruebas pertinentes. Para realizar esta acción, hacemos*
-*clic* *en la opción: "Nuevo Cuaderno".
+*clic en la opción: "Nuevo Cuaderno".
 
 ![](https://assets.pubpub.org/u5hqlvst/41625590474668.png)
 
 Image credit: Process of detecting intrusions with Artificial
 Intelligence: ResNet34, Jupyter Notebooks and Google Colaboratory by
 Adrián Hernández, 2021, Mangosta
-(<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial001/>)
+(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial001/)
 
 Ahora, el nuevo cuaderno creado tiene la siguiente estructura:
 
@@ -935,7 +826,7 @@ Ahora, el nuevo cuaderno creado tiene la siguiente estructura:
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial: ResNet34, cuadernos Jupyter y Google Colaboratory por Adrián
 Hernández, 2021, Mangosta
-(<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial002/>)
+(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial002/)
 
 La celda que nos aparece inicialmente nos permite escribir código en
 Python y ejecutarlo directamente, utilizando el botón "*Play*", situado
@@ -946,9 +837,9 @@ en la misma celda.
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial: ResNet34, cuadernos Jupyter y Google Colaboratory por Adrián
 Hernández, 2021, Mangosta
-(<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial003/>)
+(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial003/)
 
-Por defecto, Google Colaboratory* *no viene configurado para utilizar
+Por defecto, Google Colaboratory no viene configurado para utilizar
 GPU's, así que debemos prepararlo. Para ello, es necesario ir a la
 opción de "Entorno de ejecución", "Cambiar tipo de entorno de
 ejecución".
@@ -958,9 +849,9 @@ ejecución".
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial: ResNet34, cuadernos Jupyter y Google Colaboratory por Adrián
 Hernández, 2021, Mangosta
-(<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial004/>)
+(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial004/)
 
-Una vez situados en la pestaña, hacer clic* *en el desplegable con la
+Una vez situados en la pestaña, hacer clic en el desplegable con la
 palabra "*none" *y reemplazarlo por "GPU*"*.
 
 ![](https://assets.pubpub.org/jkvodkca/51625590541250.png)
@@ -968,9 +859,9 @@ palabra "*none" *y reemplazarlo por "GPU*"*.
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial: ResNet34, cuadernos Jupyter y Google Colaboratory por Adrián
 Hernández, 2021, Mangosta
-(<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial005/>)
+(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial005/)
 
-En este momento, Google asignará una GPU* *para nuestro cuaderno
+En este momento, Google asignará una GPU para nuestro cuaderno
 Jupyter, la cual podremos comprobar, utilizando la siguiente instrucción
 en una celda de código:
 
@@ -979,16 +870,16 @@ en una celda de código:
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial: ResNet34, cuadernos Jupyter y Google Colaboratory por Adrián
 Hernández, 2021, Mangosta
-(<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial006/>)
+(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial006/)
 
 Como se puede apreciar en la imagen, nos asignan una Tesla T4, aunque
-podría haber sido una Tesla K80, ya que son las dos GPU's* *que Google*
+podría haber sido una Tesla K80, ya que son las dos GPU's que Google*
 *ofrece de manera gratuita. Ahora, ya tenemos configurado el entorno de
-Google Colab* *para trabajar sobre él con inteligencia artificial,
+Google Colab para trabajar sobre él con inteligencia artificial,
 aunque para entrenar nuestro modelo necesitamos crear la estructura de
 carpetas que vamos a utilizar. Esto se realizará desde Google Drive para
 reducir su complejidad, pero podría realizarse en un equipo local,
-configurando el entorno Colab* *para ello.
+configurando el entorno Colab para ello.
 
 Para realizar las primeras pruebas, utilizamos imágenes de gatos y
 tigres, persiguiendo que la inteligencia artificial sea capaz, dada una
@@ -1002,7 +893,7 @@ atribuirles la siguiente nomenclatura:
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial: ResNet34, cuadernos Jupyter y Google Colaboratory por Adrián
 Hernández, 2021, Mangosta
-(<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial007/>)
+(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial007/)
 
 Una carpeta *Test, *atribuida a las imágenes que la inteligencia
 artificial nunca ha visto y servirá para comprobar que la IA es capaz de
@@ -1022,7 +913,7 @@ estructura:
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial: ResNet34, cuadernos Jupyter y Google Colaboratory por Adrián
 Hernández, 2021, Mangosta
-(<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial008/>)
+(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial008/)
 
 Y dentro de cada carpeta, imágenes correspondientes a gatos o a tigres.
 Las imágenes de cada carpeta deben ser distintas, además, cuanto mayor
@@ -1038,15 +929,15 @@ servirán a la IA desde el cuaderno creado previamente.
 ![](https://assets.pubpub.org/wgns4eua/61625673067959.png)
 
 Acceso al código para docentes y estudiantes:
-<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc001/>
+mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc001/
 
 Una vez asociados los dos entornos, definimos qué rutas se van a
-utilizar, en este caso root_dir* *y base_dir.
+utilizar, en este caso root_dir y base_dir.
 
 ![](https://assets.pubpub.org/pl2fhkbm/31625673138473.png)
 
 Acceso al código para docentes y estudiantes:
-<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc002/>
+mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc002/
 
 De igual manera, definimos el *path*, es decir, la ruta de nuestro
 directorio principal a utilizar.
@@ -1054,7 +945,7 @@ directorio principal a utilizar.
 ![](https://assets.pubpub.org/txbrb2bk/51625673177577.png)
 
 Acceso al código para docentes y estudiantes:
-<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc003/>
+mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc003/
 
 Para realizar el entrenamiento del modelo de inteligencia artificial es
 necesario importar fastai. Restnet34 debe su nombre a "*residual*
@@ -1065,10 +956,10 @@ biblioteca:
 ![](https://assets.pubpub.org/is4al43k/11625673261162.png)
 
 Acceso al código para docentes y alumnos:
-<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc004/>
+mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc004/
 
-Estas tres instrucciones sirven para importar las bibliotecas fastai* *y
-fastai* *vision* *completas, además del "**error_rate**" de **fastai
+Estas tres instrucciones sirven para importar las bibliotecas fastai y
+fastai vision completas, además del "**error_rate**" de **fastai
 metrics**. "Error_rate" sirve para determinar el grado de error en
 nuestro modelo entrenado, es decir, para saber si según nuestros
 criterios, debemos mejorar el modelo o por el contrario, el error
@@ -1085,23 +976,23 @@ de la imagen utilizando la variable *path*) e img.show*().*
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial: ResNet34, cuadernos Jupyter y Google Colaboratory por Adrián
 Hernández, 2021, Mangosta
-(<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial013/>)
+(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial013/)
 (.) Acceso al código para docentes y alumnos:
-<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc005/>
+mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc005/
 
 Cuando comprobamos que la imagen se muestra correctamente, creamos los
 datos (muestra de imágenes) que nuestro modelo va a utilizar. Para
-empezar, vamos a definir el batch size* *o tamaño de batch, que nos
+empezar, vamos a definir el batch size o tamaño de batch, que nos
 permite indicar el número de imágenes que transitamos al mismo tiempo a
 la memoria. Como medida preventiva, es recomendable no utilizar un batch
-size* *muy alto o podríamos causar un error de memoria en la tarjeta
+size muy alto o podríamos causar un error de memoria en la tarjeta
 gráfica y por consiguiente, el detenimiento del proceso. Para definir el
 tamaño de batch*, *escribimos el siguiente código:
 
 ![](https://assets.pubpub.org/aorskhqt/01625673401540.png)
 
 Acceso al código para docentes y alumnos:
-<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc006/>
+mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc006/
 
 En este caso el número 6, indica la cantidad de imágenes transitadas a
 la memoria al mismo tiempo. Una vez hemos asignado el batch size,
@@ -1111,7 +1002,7 @@ ello, utilizamos la siguiente celda de código:
 ![](https://assets.pubpub.org/hetwxijb/21625673441651.png)
 
 Acceso al código para docentes y alumnos:
-<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc007/>
+mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc007/
 
 En esta celda definimos la variable *data*, partiendo de la estructura
 de carpetas que hemos creado previamente (*Train, Validation *y *Test*)
@@ -1125,11 +1016,11 @@ nuestro modelo. Antes de eso, creamos el modelo y cargamos Resnet34,***
 ![](https://assets.pubpub.org/0g00s3vf/11625673495268.png)
 
 Acceso al código para docentes y alumnos:
-<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc008/>
+mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc008/
 
-Utilizamos cnn_learner*** ***y le indicamos el conjunto de datos a
+Utilizamos cnn_learner y le indicamos el conjunto de datos a
 utilizar (*data*), el modelo que vamos a utilizar (**models.resnet34**)
-y además, queremos conocer el **error_rate***** ***importado
+y además, queremos conocer el **error_rate importado
 anteriormente de **fastai.metrics*****. ***Esta línea de código, por
 tanto, nos sirve para crear y cargar nuestro modelo, por lo que el
 siguiente paso es entrenarlo. Para eso utilizamos:
@@ -1137,7 +1028,7 @@ siguiente paso es entrenarlo. Para eso utilizamos:
 ![](https://assets.pubpub.org/og8h3rlo/01625673657619.png)
 
 Acceso al código para docentes y alumnos:
-<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc009/>
+mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc009/
 
 El número entre paréntesis indica el número de "***epoch***" que vamos a
 utilizar para el entrenamiento. Pero, ¿qué es un *epoch*? Llamamos
@@ -1151,14 +1042,14 @@ entrenamiento con 6 épocas, todas las imágenes de la carpeta *Train
 
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial por Adrián Hernández, 2021, Mangosta
-(<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial018/>)
+(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial018/)
 (.) Acceso al código para docentes y alumnos:
-<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial-resnet34-cuadernos-jupyter-y-google-colaboratoryc009bis/>
+mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial-resnet34-cuadernos-jupyter-y-google-colaboratoryc009bis/
 
-Al finalizar el entrenamiento obtendremos el error_rate* *final de
+Al finalizar el entrenamiento obtendremos el error_rate final de
 nuestro modelo de entrenamiento. En el caso de la imagen superior sería
 0.003165 o del 0.31%, aproximadamente. Otra de las cuestiones es conocer
-para qué sirve el error_rate*.**** ***Ofrece información sobre lo
+para qué sirve el error_rate*.*** **Ofrece información sobre lo
 preciso que es nuestro modelo y nos permite decidir si realizar un
 entrenamiento con más épocas o utilizar el modelo. Si no estamos seguros
 de cuánta precisión significa un error de 0.31%, podemos imprimir una
@@ -1169,7 +1060,7 @@ matriz de confusión donde se ve más claro utilizando:
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial: ResNet34, cuadernos Jupyter y Google Colaboratory por Adrián
 Hernández, 2021, Mangosta
-(<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial-019/>)
+(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial-019/)
 
 En esta matriz de confusión se comparan el eje de abscisas (eje X), las
 predicciones que realiza la Inteligencia Artificial (gatos o tigres) y
@@ -1177,7 +1068,7 @@ en el eje de ordenadas (eje Y), lo que realmente es la imagen. En este
 caso, la IA acierta en 331 imágenes de gatos y 299 imágenes de tigres,
 fallando en 2 imágenes en las que la IA predice que son gatos cuando
 realmente son tigres. Por lo tanto, el error que partiría de esta matriz
-de confusión sería de → frac{2}{632} = 0.316% %.
+de confusión sería de → 2/632 = 0.316% %.
 
 Una vez consideramos que el error es asumible, procedemos a guardar el
 modelo para poder utilizarlo más adelante. Este procedimiento se realiza
@@ -1186,7 +1077,7 @@ con la siguiente celda de código:
 ![](https://assets.pubpub.org/yvr8o8cj/11625673879783.png)
 
 Acceso al código para docentes y alumnos:
-<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc010/>
+mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc010/
 
 Entre paréntesis, indicamos la ruta y el nombre con el que vamos a
 guardar nuestro modelo. Una vez que el modelo está guardado, podemos
@@ -1198,13 +1089,13 @@ siguiente información:
 
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial por Adrián Hernández, 2021, Mangosta
-([https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial020/)](https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial020/)
+(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial020/) (URL: mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial020/)
 (.) Acceso al código para docentes y alumnos:
-<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc011/>
+mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc011/
 
 En este punto volvemos a utilizar el modelo almacenado en *learn *y le
 pasamos la imagen de la carpeta *Test*, en este caso la 520. Podemos
-imprimir la imagen dentro del propio Google Colab* *para verificar que
+imprimir la imagen dentro del propio Google Colab para verificar que
 realmente se cumple lo que la IA va a predecir en el siguiente paso.
 Para imprimir la imagen se utiliza **img.show(). **Para pedirle a la
 inteligencia artificial que analice la imagen que hemos cargado,
@@ -1214,14 +1105,14 @@ tendremos que usar la siguiente línea de código:
 
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial por Adrián Hernández, 2021, Mangosta
-(<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial021/>)
+(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial021/)
 (.) Acceso al código para docentes y alumnos:
-<https://mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc012/>
+mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc012/
 
 En este caso, volvemos a realizar una llamada a nuestro modelo con
 *learn *y utilizamos predict(img) para utilizar el modelo entrenado. El
-resultado en este caso nos lo ofrece como tensor(0)* *para los gatos y
-emplea tensor(1)* *para los tigres. Además entre corchetes nos da la
+resultado en este caso nos lo ofrece como tensor(0) para los gatos y
+emplea tensor(1) para los tigres. Además entre corchetes nos da la
 probabilidad de que en este caso sea un tigre (99.9%).
 
 ## 7.- Creación y estructura de la base de datos
@@ -1273,7 +1164,7 @@ si tiene o no una intrusión.
 ![](https://assets.pubpub.org/jczr0eqd/31625578022603.png)
 
 Crédito imagen: Diagrama entidad-relación por Diana Díaz, 2021, Mangosta
-(<https://mangosta.org/diagrama-entidad-relacion/>)
+(mangosta.org/diagrama-entidad-relacion/)
 
 Como podemos apreciar en la imagen este diagrama se compone de tres
 elementos fundamentales:
@@ -1303,7 +1194,7 @@ lógico en el que se presentan 3 valores: verdadero, falso o
 indeterminado. El tercer valor se interpreta como la posibilidad de que
 algo no sea ni verdadero ni falso, sino indefinido. En este contexto, el
 indicador categorizado como indeterminado, pues muestra ausencia de
-valor, se representa así: "null".
+valor, se representa así: .
 
 **Modelo Físico**
 
@@ -1314,7 +1205,7 @@ que la primary *key* de todas las tablas es nID.
 ![](https://assets.pubpub.org/onl3fq5t/61625578104797.png)
 
 Crédito imagen: Modelo físico por Diana Díaz, 2021, Mangosta
-(<https://mangosta.org/modelo-fisico-2/>)
+(mangosta.org/modelo-fisico-2/)
 
 **Uso de SQL y su sistema de gestión de base de datos**
 
@@ -1346,7 +1237,7 @@ Pero, ¿qué lo hace destacar frente a otras opciones como SQLite?  La
 base de datos ha sido diseñada en su mayoría con campos *booleanos*. Sin
 embargo, SQLite no dispone de esta opción. Entre sus clases de
 almacenamiento la única opción posible sería la conversión de
-*booleanos* a *integer*,* *ralentizando la base de datos. Asimismo se
+*booleanos* a *integer*, ralentizando la base de datos. Asimismo se
 trata de un sistema orientado a funcionar con poco tráfico, por lo que
 si introducimos una gran cantidad de datos, quizás su sistema no fuera
 todo lo eficiente que necesitaríamos. Por lo que consideramos mejor
@@ -1363,7 +1254,7 @@ Drupal.
 ![](https://assets.pubpub.org/zec01diq/11625578194737.png)
 
 Crédito de imagen: Instantánea de Dkan, 2021, Autoría de National Health
-Countil: <https://getdkan.org/>
+Countil: getdkan.org/
 
 Pero, ¿qué es drupal? Drupal es un *software* de gestión de contenidos
 (CMS), configurable que permite múltiples servicios como publicación de
@@ -1374,7 +1265,7 @@ editarlos en un entorno web.
 ![](https://assets.pubpub.org/jnr1rvsi/51625578254170.png)
 
 Crédito de imagen: Instantánea de Drupal, 2021, Autoría de Drupal:
-<https://www.drupal.org/>
+www.drupal.org/
 
 Ahora que hemos visto que ambos son similares pero DKAN es una versión
 *a priori *superior, consideramos más interesante el uso de esta
@@ -1393,7 +1284,7 @@ otros, así como instituciones sin ánimo de lucro.
 
 Para crear la base de datos hemos utilizado el código SQL. Como
 apreciamos, necesitamos usar UTF-8, un formato de codificación de
-caracteres* *Unicode e *ISO* 10646. El motivo de su uso es para
+caracteres Unicode e *ISO* 10646. El motivo de su uso es para
 detectar si hay palabras registradas en la base de datos que contengan
 caracteres especiales como el **uso de la Ñ,** por ejemplo en la palabra
 **sueño**. Por otra parte la tabla TDispositivo (la última en el código)
@@ -1403,14 +1294,14 @@ resto de tablas.
 ![](https://assets.pubpub.org/zj4ucxwz/51627036140694.jpeg)
 
 Crédito de imagen: Codificación SQL por Diana Díaz, 2021, Mangosta
-(<https://mangosta.org/iii_codificacion-sql/>) (.) Acceso al código para
-docentes y alumnos: <https://mangosta.org/codificacion-sql001/>
+(mangosta.org/iii_codificacion-sql/) (.) Acceso al código para
+docentes y alumnos: mangosta.org/codificacion-sql001/
 
 ![](https://assets.pubpub.org/pdv53nz3/61627036795988.jpeg)
 
 Crédito de imagen: Codificación SQL por Diana Díaz, 2021, Mangosta
-(<https://mangosta.org/iv_codificacion-sql/>) (.) Acceso al código para
-docentes y alumnos: <https://mangosta.org/codificacion-sql002/>
+(mangosta.org/iv_codificacion-sql/) (.) Acceso al código para
+docentes y alumnos: mangosta.org/codificacion-sql002/
 
 ### 8.2.- Codificación Java
 
@@ -1422,9 +1313,9 @@ librería java.sql para usar la base de datos desde Eclipse:
 ![](https://assets.pubpub.org/owyoi87v/01627037225052.svg)
 
 Crédito de imagen: Codificación Java por Kimberly Riveros, 2021,
-Mangosta (<https://mangosta.org/viii_codificacion-java/>) (.) Acceso al
+Mangosta (mangosta.org/viii_codificacion-java/) (.) Acceso al
 código para docentes y estudiantes:
-<https://mangosta.org/codificacion-java/>
+mangosta.org/codificacion-java/
 
 Más adelante, es necesario asegurarnos de que el *driver *JDBC esté
 debidamente conectado. A continuación, establecemos la conexión con la
@@ -1433,9 +1324,9 @@ base de datos por medio de estas instrucciones:
 ![](https://assets.pubpub.org/p7r3aold/31627037492712.svg)
 
 Crédito de imagen: Codificación Java por Kimberly Riveros, 2021,
-Mangosta (<https://mangosta.org/ix_codificacion-java/>) (.) Acceso al
+Mangosta (mangosta.org/ix_codificacion-java/) (.) Acceso al
 código para docentes y estudiantes:
-<https://mangosta.org/codificacion-java001/>
+mangosta.org/codificacion-java001/
 
 La clase DriverManager tiene un método **String **que contiene la ruta
 de la base de datos. Es importante recordar que para ello hemos
@@ -1447,9 +1338,9 @@ nube, cambiando la ruta de la base de datos.
 ![](https://assets.pubpub.org/cshm9cw3/31627037871710.svg)
 
 Crédito de imagen: Codificación Java por Kimberly Riveros, 2021,
-Mangosta (<https://mangosta.org/x_codificacion-java/>) (.) Acceso al
+Mangosta (mangosta.org/x_codificacion-java/) (.) Acceso al
 código para docentes y estudiantes:
-<https://mangosta.org/codificacion-java-002/>
+mangosta.org/codificacion-java-002/
 
 Por defecto, el servidor MySQL abre el puerto 3306. Es necesario
 conectarse a este puerto si queremos consultar la base de datos que
@@ -1459,9 +1350,9 @@ ello, seguimos el paso mostrado en la siguiente figura:
 ![](https://assets.pubpub.org/htuxv3y7/21627038019469.svg)
 
 Crédito de imagen: Codificación Java por Kimberly Riveros, 2021,
-Mangosta (<https://mangosta.org/xi_codificacion-java/>) (.) Acceso al
+Mangosta (mangosta.org/xi_codificacion-java/) (.) Acceso al
 código para docentes y estudiantes:
-<https://mangosta.org/codificacion-java-003/>
+mangosta.org/codificacion-java-003/
 
 Asimismo, el objeto "Resulset" nos permite obtener los resultados de la
 consulta. En nuestro caso, nos mostrará todos los registros de la tabla
@@ -1470,9 +1361,9 @@ demandada, es decir, TDispositivo:
 ![](https://assets.pubpub.org/muv0jzkx/21627038200555.svg)
 
 Crédito de imagen: Codificación Java por Kimberly Riveros, 2021,
-Mangosta (<https://mangosta.org/xii_codificacion-java/>) (.) Acceso al
+Mangosta (mangosta.org/xii_codificacion-java/) (.) Acceso al
 código para docentes y estudiantes:
-<https://mangosta.org/codificacion-java-004/>
+mangosta.org/codificacion-java-004/
 
 Ahora, es necesario utilizar el bucle "while" y la variable
 "miResultset" para obtener todos los resultados de nuestra consulta.
@@ -1480,9 +1371,9 @@ Ahora, es necesario utilizar el bucle "while" y la variable
 ![](https://assets.pubpub.org/0bzjn5x0/01627038401615.svg)
 
 Crédito de imagen: Codificación Java por Kimberly Riveros, 2021,
-Mangosta (<https://mangosta.org/xiii_codificacion-java/>) (.) Acceso al
+Mangosta (mangosta.org/xiii_codificacion-java/) (.) Acceso al
 código para docentes y estudiantes:
-<https://mangosta.org/codificacion-java-005/>
+mangosta.org/codificacion-java-005/
 
 En caso de no establecer la conexión de la base de datos en eclipse, al
 ejecutar se mostrará por pantalla: "No funciona". Realizados todos los
@@ -1492,7 +1383,7 @@ consultado:
 ![](https://assets.pubpub.org/3k3p56y3/61627038571730.svg)
 
 Crédito de imagen: Codificación Java por Kimberly Riveros, 2021,
-Mangosta (<https://mangosta.org/codificacion-java-2/>)
+Mangosta (mangosta.org/codificacion-java-2/)
 
 ### 8.3.- Codificación Python
 
@@ -1505,9 +1396,9 @@ servidores MySQL.
 ![](https://assets.pubpub.org/wh9bwq66/71627038784686.jpeg)
 
 Crédito de imagen: Codificación Python por Kimberly Riveros y Diana
-Díaz, 2021, Mangosta (<https://mangosta.org/i_codificacion-python/>) (.)
+Díaz, 2021, Mangosta (mangosta.org/i_codificacion-python/) (.)
 Acceso al código para docentes y alumnos:
-(<https://mangosta.org/ii_codificacion-python/>)
+(mangosta.org/ii_codificacion-python/)
 
 Seguidamente, realizamos el mismo proceso con PyMySQL, otro paquete para
 la interacción con bases de datos MySQL. Y, una vez instalado, lo
@@ -1516,16 +1407,16 @@ importamos.
 ![](https://assets.pubpub.org/9rg2zmi8/41627038978912.jpeg)
 
 Crédito de imagen: Codificación Python por Kimberly Riveros y Diana
-Díaz, 2021, Mangosta (<https://mangosta.org/iii_codificacion-python/>)
+Díaz, 2021, Mangosta (mangosta.org/iii_codificacion-python/)
 (.) Acceso al código para docentes y alumnos:
-(<https://mangosta.org/iv_codificacion-python/>)
+(mangosta.org/iv_codificacion-python/)
 
 ![](https://assets.pubpub.org/uh3sh5vw/41627039441931.jpeg)
 
 Crédito de imagen: Codificación Python por Kimberly Riveros y Diana
-Díaz, 2021, Mangosta (<https://mangosta.org/x_codificacion-python-2/>)
+Díaz, 2021, Mangosta (mangosta.org/x_codificacion-python-2/)
 (.) Acceso al código para docentes y alumnos:
-(<https://mangosta.org/iv_codificacion-python/>)
+(mangosta.org/iv_codificacion-python/)
 
 Teniendo ya los paquetes necesarios, nos conectamos a la base de datos
 "seguridad". Para ello, creamos una variable llamada "miConexión" y
@@ -1537,9 +1428,9 @@ datos.
 ![](https://assets.pubpub.org/o8okcecj/21627111637287.jpeg)
 
 Crédito de imagen: Codificación Python por Kimberly Riveros y Diana
-Díaz, 2021, Mangosta (<https://mangosta.org/xi_codificacion-python/>)
+Díaz, 2021, Mangosta (mangosta.org/xi_codificacion-python/)
 (.) Acceso al código para docentes y alumnos:
-(<https://mangosta.org/v_codificacion-python/>)
+(mangosta.org/v_codificacion-python/)
 
 El siguiente paso es convertir esta variable en un cursor. Para eso,
 ejecutamos el cursor con la consulta que deseemos realizar.
@@ -1547,16 +1438,16 @@ ejecutamos el cursor con la consulta que deseemos realizar.
 ![](https://assets.pubpub.org/zl19ca89/71627112096520.jpeg)
 
 Crédito de imagen: Codificación Python por Kimberly Riveros y Diana
-Díaz, 2021, Mangosta (<https://mangosta.org/xii_codificacion-python/>)
+Díaz, 2021, Mangosta (mangosta.org/xii_codificacion-python/)
 (.) Acceso al código para docentes y alumnos:
-(<https://mangosta.org/vi_codificacion-python/>)
+(mangosta.org/vi_codificacion-python/)
 
 ![](https://assets.pubpub.org/6j2wxpgi/11627112343971.jpeg)
 
 Crédito de imagen: Codificación Python por Kimberly Riveros y Diana
-Díaz, 2021, Mangosta (<https://mangosta.org/xiii_codificacion-python/>)
+Díaz, 2021, Mangosta (mangosta.org/xiii_codificacion-python/)
 (.) Acceso al código para docentes y alumnos:
-(<https://mangosta.org/vii_codigo-python/>)
+(mangosta.org/vii_codigo-python/)
 
 Ya, para terminar, imprimimos por pantalla el resultado de la consulta.
 Y, una vez acabado el trabajo en la base de datos, cerramos la conexión.
@@ -1564,25 +1455,25 @@ Y, una vez acabado el trabajo en la base de datos, cerramos la conexión.
 ![](https://assets.pubpub.org/d5zmlpny/21627112638078.jpeg)
 
 Crédito de imagen: Codificación Python por Kimberly Riveros y Diana
-Díaz, 2021, Mangosta (<https://mangosta.org/xiv_codificacion-python/>)
+Díaz, 2021, Mangosta (mangosta.org/xiv_codificacion-python/)
 (.) Acceso al código para docentes y alumnos:
-(<https://mangosta.org/viii_codificacion_python/>)
+(mangosta.org/viii_codificacion_python/)
 
 ![](https://assets.pubpub.org/9l3y2l3v/11627112953790.jpeg)
 
 Crédito de imagen: Codificación Python por Kimberly Riveros, 2021,
-Mangosta (<https://mangosta.org/x_codificacion-python/>)
+Mangosta (mangosta.org/x_codificacion-python/)
 
 ![](https://assets.pubpub.org/u7k6giww/51627113251765.jpeg)
 
 Crédito de imagen: Codificación Python por Kimberly Riveros y Diana
-Díaz, 2021, Mangosta (<https://mangosta.org/xv_codificacion-python/>)
+Díaz, 2021, Mangosta (mangosta.org/xv_codificacion-python/)
 (.) Acceso al código para docentes y alumnos:
-(<https://mangosta.org/ix_codificacion-python/>)
+(mangosta.org/ix_codificacion-python/)
 
 # 9.-  *Interfaces*
 
-Usaremos éstas para el *front-end** *de la aplicación
+Usaremos éstas para el *front-end* de la aplicación
 (UI / UX) o la parte interactiva donde el usuario
 interactúa con su aplicación y donde todas las entradas se dan a través
 de esta capa. La usabilidad y el diseño del entorno de las *interfaces
@@ -1710,7 +1601,7 @@ requerimientos mínimos aconsejados de *hardware*para el despliegue del
 
 Concebido para operar principalmente en el estadio E1. Se concibe en
 general el modo M3 para el diseño y gestión de la IA, así como el modo
-que embebe y gestiona el** **modo M1** **y el modo M2 de todos los
+que embebe y gestiona el* *modo M1* *y el modo M2 de todos los
 dispositivos relacionados en torno a él. Éste es propio de una
 infraestructura Cliente-Servidor. En base a la
 naturaleza de su ejecución establecemos dos clases:
@@ -1740,7 +1631,7 @@ operativo Linux o Windows. Asimismo para la gestión propia de la BD se
 ha de instalar Mysql o similar. Y Java JDK para el
 desarrollo y ejecución de la codificación en Java.
 
-Para este modo 3B* *el *hardware* ha de ser más específico y exigente,
+Para este modo 3B el *hardware* ha de ser más específico y exigente,
 aunque no debería exceder los 2.500 ó 3.000 euros a precio actual de
 mercado para una configuración óptima de un entorno de producción. Debe
 ser capaz de ejecutar un *software* similar a Anaconda Enterprise 4 ó
@@ -2369,7 +2260,7 @@ ejecutarse nuestro *framework*, en un entorno de S.O. reducido.
 |  |        |   |            |   |   |   |
 +---+--------+---+------------+---+---+---+
 
-Crédito figura 2: Versión actualizada mejorada de «Características *hardware*. Reloj inteligente. (2021, 15 de febrero). *Wikipedia, La enciclopedia libre*. Fecha de consulta: 13:44, julio 18, 2021 desde <https://es.wikipedia.org/w/index.php?title=Reloj_inteligente&oldid=133248752>.»
+Crédito figura 2: Versión actualizada mejorada de «Características *hardware*. Reloj inteligente. (2021, 15 de febrero). *Wikipedia, La enciclopedia libre*. Fecha de consulta: 13:44, julio 18, 2021 desde es.wikipedia.org/w/index.php?title=Reloj_inteligente&oldid=133248752.»
 
 > El *framework* para cualquier *smartwatch* debe asumir que el estadio
 > de funcionamiento recomendado es el **estadio E2** (ejecución de la
@@ -2405,8 +2296,8 @@ transversal. Un todo en uno.
 
 **Crédito imagen:** «**Tendencias de Internet 2021. Estadísticas y
 hechos por países». VPNMentor. URL:**
-<https://es.vpnmentor.com/blog/tendencias-de-internet-estadisticas-y-datos-en-los-estados-unidos-y-el-mundo/>,
-Mangosta (<https://mangosta.org/tendencias-2/>)
+es.vpnmentor.com/blog/tendencias-de-internet-estadisticas-y-datos-en-los-estados-unidos-y-el-mundo/,
+Mangosta (mangosta.org/tendencias-2/)
 
 ## 11.2.2.- Domótica
 
@@ -2418,11 +2309,11 @@ que probable en «*Bus* inteligente».
 ![](https://assets.pubpub.org/0936zh4g/31626930087898.png)
 
 **Todos los sensores y actuadores están conectados a través de un cable
-bus.** **El sistema completo es denominado "sistema bus"**. Crédito
+bus.* *El sistema completo es denominado "sistema bus"**. Crédito
 imagen: «KNX Conocimientos básicos del estándar KNX». V9-14. KNX.org.
 Accesado el 22/07/2021. Url:
-<https://www.knx.org/wAssets/docs/downloads/Marketing/Flyers/KNX-Basics/KNX-Basics_es.pdf>,
-Mangosta (<https://mangosta.org/conocimientos-basicos-2/>)
+www.knx.org/wAssets/docs/downloads/Marketing/Flyers/KNX-Basics/KNX-Basics_es.pdf,
+Mangosta (mangosta.org/conocimientos-basicos-2/)
 
 Actualmente todo un espacio de tecnología de comunicaciones inalámbricas
 coexiste: Bluetooth, WiFi, RFID, NFC y otros. Aunque las morfologías de
@@ -2529,8 +2420,8 @@ acceso... Y un largo etcétera de actuadores y módulos.
 **KNXnet/IP en el modelo de referencia OSI**. Crédito imagen: «KNX
 Conocimientos básicos del estándar KNX». V9-14. KNX.org. Accesado el
 22/07/2021. Url:
-<https://www.knx.org/wAssets/docs/downloads/Marketing/Flyers/KNX-Basics/KNX-Basics_es.pdf>,
-Mangosta (<https://mangosta.org/estandar-knx/>)
+www.knx.org/wAssets/docs/downloads/Marketing/Flyers/KNX-Basics/KNX-Basics_es.pdf,
+Mangosta (mangosta.org/estandar-knx/)
 
 Los ensayos realizados en laboratorio aportan el conocimiento suficiente
 para inferir que el marco puede ser embebido en un
@@ -2542,10 +2433,10 @@ necesaria.
 
 ![](https://assets.pubpub.org/j4824z67/21626932999454.png)
 
- **Montaje En** ***Protoboard*** **Del Sistema Pinguino.** Julio F. De
+ **Montaje En* **Protoboard** *Del Sistema Pinguino.** Julio F. De
 la Cruz G. Accesado el 22/07/200121. Url:
-http://3.bp.blogspot.com/-JtZH7qb-j-w/UhLyWQdHLjI/AAAAAAAAAjQ/cjoKPWOIxsw/s1600/image7923.png,
-Mangosta (<https://mangosta.org/montaje-en-protoboard/>)
+3.bp.blogspot.com/-JtZH7qb-j-w/UhLyWQdHLjI/AAAAAAAAAjQ/cjoKPWOIxsw/s1600/image7923.png,
+Mangosta (mangosta.org/montaje-en-protoboard/)
 
 El diseño de este dispositivo domótico DIID se concibe como una
 *appliance* que reúne como mínimo los requisitos
@@ -2596,7 +2487,7 @@ la humanidad.
 Podemos plantear este marco como un espacio generador de marcos, análogo
 a un espacio vectorial que genera subespacios
 vectoriales; y al
-vec(SV_){intrusión}= {[vec(P) x _{(1...n)}, vec(Img_){y_{i}}]_0^{3^{(n)}}}como
+SV_intrusión= {[Pₓ(1...n), Img_yᵢ]_0^{3^{(n)}}}como
 su sistema generador homólogo, en pro de la
 transparencia y la explicabilidad de tecnologías como la IA. Donde cada
 variable analógica, ambigua, difícilmente definible, amplia de espectro
@@ -2643,7 +2534,7 @@ Todo comportamiento humano, o pensamiento abstracto o entelequia de
 algo, puede ser escaneado (garabateado) por este *framework* de acuerdo
 a la expresión algebraica:
 
-> (Σ  _{j=1} ^{j=n}   (vec(Px_n)-vec(Px_){(n-1)}))-(vec(Px_1)-vec(Px_n))=0
+> (Σ j=1} ^{j=n}   (Pₓₙ-Pₓₙ₋₁))-(Pₓ₁-Pₓₙ)=0
 >.
 
 Esto último, llevado a sus extremos más negativos y crueles con la
@@ -2672,21 +2563,21 @@ lineal f: ℕ→ ℝ^2... Pero:
 «[...] Atendiendo a las coordenadas de cada vector y su naturaleza
 algebraica, la dimensión real sería la que sigue:
 
-1) El grupo de vectores vec(P) x _{(1...n)} {Dim1}ℕ=1.
+1) El grupo de vectores Pₓ(1...n) {Dim1}ℕ=1.
 
-2) El grupo de vectores  vec(Img){_y} _i  {Dim2}ℝ=2.
+2) El grupo de vectores  Img_yᵢ  {Dim2}ℝ=2.
 
-3) El grupo de vectores vec(P_x) {Dim3}ℕ=n.
+3) El grupo de vectores Pₓ {Dim3}ℕ=n.
 
-4) El grupo de vectores  vec(Img_y) {Dim4}ℝ=n. [...]».
+4) El grupo de vectores  Img_y {Dim4}ℝ=n. [...]».
 
-Por lo que se puede inferir que al ser  vec(Img_y) {Dim4}ℝ
+Por lo que se puede inferir que al ser  Img_y {Dim4}ℝ
 ene-dimensional, también puede pensarse un Universo teórico de
 posibilidades, similar al nuestro existencial, e ilimitado si seguimos
-el modelo expuesto aquí. Allí adonde más allá de vec(R)^3 nuestra
+el modelo expuesto aquí. Allí adonde más allá de ℝ³ nuestra
 propia existencia nos hace tiritar de dudas y escepticismo. Y que sin
 embargo queda resulto en planos gráficos (como nuestra propia existencia
-en fotografías de recuerdos) mediante  vec(Img){_y} _i
+en fotografías de recuerdos) mediante  Img_yᵢ
 {Dim2}ℝ=2; que lo vuelve visual y existencial: terrenal ante
 nuestros ojos. Si cabe afectado y/o compatible con el «Principio de
 Indeterminación de Heisenberg».
@@ -2741,14 +2632,14 @@ La terna `{0,1,U}` no funciona como simple codificación instrumental. En el SV 
 
 La imagen parametrizada adquiere así una función más amplia que la clasificación. La máquina puede procesar el vector; el ser humano puede reconocer la forma; la ciencia puede conservar la traza del dominio, la frontera y el residual. Esta convergencia permite una lectura común entre inteligencia artificial, operador humano y análisis científico. La imagen no sustituye al cálculo: lo hace visible. La célula no sustituye al mundo: lo parametriza bajo condiciones declaradas.
 
-El desarrollo posterior del Sistema Vectorial SV ha exigido además crear matemáticas factuales. La matemática heredada ofrece herramientas extraordinarias para magnitudes, funciones, continuidad, probabilidad, estadística, cálculo diferencial, cálculo integral y modelización; sin embargo, la física del suceso requiere otra capa formal cuando el objeto no es una función sobre el tiempo, sino una trayectoria de hechos declarados dentro de un dominio. Las matemáticas factuales del SV se orientan al cambio declarado, la acumulación, la sensibilidad estructural, la frontera, el residual, el retorno, la clausura y la reconfiguración.
+El desarrollo posterior del [Sistema Vectorial SV](https://doi.org/10.21428/39829d0b.06811a0d) ha exigido además crear matemáticas factuales. La matemática heredada ofrece herramientas extraordinarias para magnitudes, funciones, continuidad, probabilidad, estadística, cálculo diferencial, cálculo integral y modelización; sin embargo, la física del suceso requiere otra capa formal cuando el objeto no es una función sobre el tiempo, sino una trayectoria de hechos declarados dentro de un dominio. Las matemáticas factuales del SV se orientan al cambio declarado, la acumulación, la sensibilidad estructural, la frontera, el residual, el retorno, la clausura y la reconfiguración.
 
 Esta necesidad queda vinculada a la línea matemática posterior:
 
 - Nuevas matemáticas del Sistema Vectorial SV y Física factual como conjunto iniciador. DOI: 10.21428/39829d0b.67195860.
 - Conjunto matemático unificado del cambio factual, ciclos, medición factual y trayectorias poligonales de activación en el Sistema Vectorial SV. DOI: 10.21428/39829d0b.2b3c9808.
 - Fundamentos operatorios absolutos del electromagnetismo factual en el Sistema Vectorial SV. DOI: 10.21428/39829d0b.0cb6137e.
-- Álgebra de composición intercelular del Sistema Vectorial SV. DOI: 10.21428/39829d0b.4ebab177. Página pública: https://www.itvia.online/algebra-de-composicion-intercelularl-sv.
+- Álgebra de composición intercelular del Sistema Vectorial SV. DOI: 10.21428/39829d0b.4ebab177. Página pública: www.itvia.online/algebra-de-composicion-intercelularl-sv.
 
 La consecuencia conceptual es precisa: el tiempo puede entrar como medida, registro o comparación, pero no como primitivo de la lectura. El SV no empieza preguntando cuándo ocurre algo, sino qué dominio está declarado, qué cambia, bajo qué frontera, con qué traza, qué residual deja y qué retorno permite. Esta inversión evita que el tiempo, la estadística o la inferencia opaca ocupen el lugar de fundamento.
 
@@ -2783,7 +2674,7 @@ técnicas limitadas en esta plataforma.
 > humanidad, un signo de la mayor *loa* y respeto a todos los
 > científicos que nos hicieron posible llegar hasta aquí en el
 > conocimiento; aquellas mentes y hombros de «genios gigantes» sobre los
-> que nos montamos y logramos caminar mucho más rápido todos.^ ^
+> que nos montamos y logramos caminar mucho más rápido todos.
 >
 > ^**Juan Antonio Lloret Egea,** en nombre de todo el equipo de investigación.^
 
@@ -2792,23 +2683,23 @@ técnicas limitadas en esta plataforma.
 #ciberseguridad, #cybersecurity #español #educación #education
 #enseñanza #skills
 
-Licencia: [Attribution-NonCommercial-NoDerivatives 4.0 International (CC
+Licencia: Attribution-NonCommercial-NoDerivatives 4.0 International (CC
 BY-NC-ND
-4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+4.0) (URL: creativecommons.org/licenses/by-nc-nd/4.0/)
 
 # IX.- Agradecimientos
 
--   IES La Arboleda, Alcorcón, Madrid. <http://www.laarboleda.es/> por
+-   IES La Arboleda, Alcorcón, Madrid. www.laarboleda.es/ por
     contribuir con docentes del Departamento de Informática, y alumnado
     de 1º de Desarrollo de Aplicaciones Multiplataforma (DAM) y de 2º de
     Sistemas Microinformáticos en Red (SMR). Asimismo por el apoyo de
     todo el equipo directivo del instituto. Y por los recursos
     aportados, parte de éstos están / fueron expuestos en
-    https://arboledalan.net/ciberseguridad/
+    arboledalan.net/ciberseguridad/
 
 -   Biblioteca Regional de Murcia, por la ayuda a la difusión de la
     actividad:
-    https://bibliotecaregional.carm.es/agenda/presentacion-biblia-de-la-ia-ai-bible-publicacion-sobre-inteligencia-artificial/
+    bibliotecaregional.carm.es/agenda/presentacion-biblia-de-la-ia-ai-bible-publicacion-sobre-inteligencia-artificial/
 
 -   A título póstumo a *sir* Isaac Newton,  por
     enseñarnos a mirar y educarnos en la manera de hacerlo: «He sido
@@ -2845,7 +2736,7 @@ BY-NC-ND
     predicados graduales) procedentes de MVL.». Lógica trivalente.
     (2021, 22 de mayo). *Wikipedia, La enciclopedia libre*. Fecha de
     consulta: 14:58, julio 14, 2021
-    desde <https://es.wikipedia.org/w/index.php?title=L%C3%B3gica_trivalente&oldid=135730214>.
+    desde es.wikipedia.org/w/index.php?title=L%C3%B3gica_trivalente&oldid=135730214.
 
 [^3]: «Los gráficos radiales comparan varias variables cuantitativas y
     son útiles para visualizar qué variables tienen valores similares, o
@@ -2855,7 +2746,7 @@ BY-NC-ND
     útiles para determinar qué variables están puntuando alto o bajo
     dentro de un conjunto de datos». Fuente: IBM, "Gráficos radiales"
     accesible en
-    https://www.ibm.com/docs/es/spss-statistics/version-missing?topic=types-radar-charts
+    www.ibm.com/docs/es/spss-statistics/version-missing?topic=types-radar-charts
 
 [^4]: «Investigadores de la Universidad George Washington, junto con
     investigadores de la Universidad de California, Los Ángeles, y la
