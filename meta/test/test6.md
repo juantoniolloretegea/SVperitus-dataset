@@ -1718,549 +1718,115 @@ WatchOS y Tizen OS) son los más
 habituales. Esa tecnología digital es la plataforma donde puede
 ejecutarse nuestro *framework*, en un entorno de S.O. reducido.
 
-#### 11.1.1.*- Hardware *de algunos de los relojes inteligentes
+#### 11.1.1.- Hardware de algunos relojes inteligentes
 
-+---+--------+---+------------+---+---+---+
-|  | **P   |  | **Comunic |  |  |  |
-| | rocesa | | aciones** | | | B |
-| | dor** | |            | | | a |
-| D |        | M |            | P | C | t |
-| i |        | e |            | a | á | e |
-| s |        | m |            | n | m | r |
-| p |        | o |            | t | a | í |
-| o |        | r |            | a | r | a |
-| s |        | i |            | l | a |  |
-| i |        | a |            | l | |   |
-| t |        | |            | a | |   |
-| i |        | |            | |  |   |
-| v |        |  |            | |   |   |
-| o |        |   |            |  |   |   |
-| |        |   |            |   |   |   |
-| |        |   |            |   |   |   |
-|  |        |   |            |   |   |   |
-+===+========+===+============+===+===+===+
-| S | Dua    | 4 | Bluetooth  | 1 | 2 | 3 |
-| a | l-Core | G | 4.0 LE     |. |. | 0 |
-| m | 1 GHz  | B |            | 6 | 0 | 0 |
-| s | Exyn   | m |            | 3 | M | m |
-| u | os3250 | e |            | " | e | A |
-| n |        | m |            | S | g | h |
-| g |        | o |            | u | a |   |
-| G |        | r |            | p | p |   |
-| e |        | i |            | e | i |   |
-| a |        | a |            | r | x |   |
-| r |        | i |            | A | e |   |
-| 2 |        | n |            | M | l |   |
-|   |        | t |            | O | e |   |
-|   |        | e |            | L | s |   |
-|   |        | r |            | E |   |   |
-|   |        | n |            | D |   |   |
-|   |        | a |            | c |   |   |
-|   |        |, |            | o |   |   |
-|   |        | 5 |            | n |   |   |
-|   |        | 1 |            | r |   |   |
-|   |        | 2 |            | e |   |   |
-|   |        | M |            | s |   |   |
-|   |        | B |            | o |   |   |
-|   |        | R |            | l |   |   |
-|   |        | A |            | u |   |   |
-|   |        | M |            | c |   |   |
-|   |        |   |            | i |   |   |
-|   |        |   |            | ó |   |   |
-|   |        |   |            | n |   |   |
-|   |        |   |            | d |   |   |
-|   |        |   |            | e |   |   |
-|   |        |   |            | 3 |   |   |
-|   |        |   |            | 2 |   |   |
-|   |        |   |            | 0 |   |   |
-|   |        |   |            | x |   |   |
-|   |        |   |            | 3 |   |   |
-|   |        |   |            | 2 |   |   |
-|   |        |   |            | 0 |   |   |
-+---+--------+---+------------+---+---+---+
-| S | Qu     | 4 | Bluetooth  | A |   | 3 |
-| a | alcomm | G | 4.0,       | M |   | 0 |
-| m | Snap   | B | Wi-Fi, 3G  | O |   | 0 |
-| s | dragon | m |            | L |   | m |
-| u | 400 a  | e |            | E |   | A |
-| n | 1 GHz  | m |            | D |   | h |
-| g |        | o |            | d |   |   |
-| G |        | r |            | e |   |   |
-| e |        | i |            | 2 |   |   |
-| a |        | a |            |  |   |   |
-| r |        | i |            | " |   |   |
-| S |        | n |            | y |   |   |
-|   |        | t |            | 3 |   |   |
-|   |        | e |            | 6 |   |   |
-|   |        | r |            | 0 |   |   |
-|   |        | n |            | x |   |   |
-|   |        | a |            | 4 |   |   |
-|   |        |, |            | 8 |   |   |
-|   |        | 5 |            | 0 |   |   |
-|   |        | 1 |            | p |   |   |
-|   |        | 2 |            | í |   |   |
-|   |        | M |            | x |   |   |
-|   |        | B |            | e |   |   |
-|   |        | R |            | l |   |   |
-|   |        | A |            | e |   |   |
-|   |        | M |            | s |   |   |
-+---+--------+---+------------+---+---+---+
-| [| Exynos | 4 | Bluetooth, | s |   | 2 |
-| S | 3250   | G | BT4.1,     | A |   | 5 |
-| a |        | B | Wi-Fi, NFC | M |   | 0 |
-| m |        | m |            | O |   | m |
-| s |        | e |            | L |   | A |
-| u |        | m |            | E |   | h |
-| n |        | o |            | D |   |   |
-| g |        | r |            |  |   |   |
-| G |        | i |            | 3 |   |   |
-| e |        | a |            | 6 |   |   |
-| a |        | i |            | 0 |   |   |
-| r |        | n |            | X |   |   |
-| S |        | t |            | 3 |   |   |
-| 2 |        | e |            | 6 |   |   |
-|] |        | r |            | 0 |   |   |
-| (|        | n |            | (|   |   |
-| h |        | a |            | 3 |   |   |
-| t |        |, |            | 0 |   |   |
-| t |        | 5 |            | 2 |   |   |
-| p |        | 1 |            | p |   |   |
-| s |        | 2 |            | p |   |   |
-|: |        | M |            | i |   |   |
-| / |        | B |            |) |   |   |
-| / |        | R |            |   |   |   |
-| w |        | A |            |   |   |   |
-| w |        | M |            |   |   |   |
-| w |        |   |            |   |   |   |
-|. |        |   |            |   |   |   |
-| s |        |   |            |   |   |   |
-| a |        |   |            |   |   |   |
-| m |        |   |            |   |   |   |
-| s |        |   |            |   |   |   |
-| u |        |   |            |   |   |   |
-| n |        |   |            |   |   |   |
-| g |        |   |            |   |   |   |
-|. |        |   |            |   |   |   |
-| c |        |   |            |   |   |   |
-| o |        |   |            |   |   |   |
-| m |        |   |            |   |   |   |
-| / |        |   |            |   |   |   |
-| e |        |   |            |   |   |   |
-| s |        |   |            |   |   |   |
-| / |        |   |            |   |   |   |
-| w |        |   |            |   |   |   |
-| e |        |   |            |   |   |   |
-| a |        |   |            |   |   |   |
-| r |        |   |            |   |   |   |
-| a |        |   |            |   |   |   |
-| b |        |   |            |   |   |   |
-| l |        |   |            |   |   |   |
-| e |        |   |            |   |   |   |
-| s |        |   |            |   |   |   |
-| / |        |   |            |   |   |   |
-| g |        |   |            |   |   |   |
-| e |        |   |            |   |   |   |
-| a |        |   |            |   |   |   |
-| r |        |   |            |   |   |   |
-| - |        |   |            |   |   |   |
-| s |        |   |            |   |   |   |
-| 2 |        |   |            |   |   |   |
-| / |        |   |            |   |   |   |
-| s |        |   |            |   |   |   |
-| p |        |   |            |   |   |   |
-| e |        |   |            |   |   |   |
-| c |        |   |            |   |   |   |
-| s |        |   |            |   |   |   |
-| / |        |   |            |   |   |   |
-|   |        |   |            |   |   |   |
-| " |        |   |            |   |   |   |
-| n |        |   |            |   |   |   |
-| u |        |   |            |   |   |   |
-| l |        |   |            |   |   |   |
-| l |        |   |            |   |   |   |
-| " |        |   |            |   |   |   |
-|) |        |   |            |   |   |   |
-|. |        |   |            |   |   |   |
-|   |        |   |            |   |   |   |
-|  |        |   |            |   |   |   |
-| S |        |   |            |   |   |   |
-|. |        |   |            |   |   |   |
-| O |        |   |            |   |   |   |
-|: |        |   |            |   |   |   |
-|  |        |   |            |   |   |   |
-|   |        |   |            |   |   |   |
-| T |        |   |            |   |   |   |
-| i |        |   |            |   |   |   |
-| z |        |   |            |   |   |   |
-| e |        |   |            |   |   |   |
-| n |        |   |            |   |   |   |
-|  |        |   |            |   |   |   |
-+---+--------+---+------------+---+---+---+
-| [| Singl  | 4 | Bluetooth  | L |   | 3 |
-| M | e-Core | G | 4.0 LE /   | C |   | 2 |
-| o | 1 GHz  | B | Bluetooth  | D |   | 0 |
-| t | TI     | m | 4.2, Wi-Fi | d |   | m |
-| o | OMAP 3 | e | b/g/n,     | e |   | A |
-| 3 | **/    | m | NFC, GPS   | 1 |   | h |
-| 6 | **Qua  | o | **/        |. |   | / |
-| 0 | lcomm® | r | **GLONASS  | 5 |   | 3 |
-|] | Snapd  | i | / Beidou / | 6 |   | 5 |
-| (| ragon™ | a | Galileo    |  |   | 5 |
-| h | Wear   | i |            | " |   | m |
-| t | 3100   | n |            | c |   | A |
-| t |        | t |            | o |   | h |
-| p |        | e |            | n |   |   |
-| s |        | r |            | r |   |   |
-|: |        | n |            | e |   |   |
-| / |        | a |            | s |   |   |
-| / |        |, |            | o |   |   |
-| e |        | 5 |            | l |   |   |
-| s |        | 1 |            | u |   |   |
-|. |        | 2 |            | c |   |   |
-| w |        | M |            | i |   |   |
-| i |        | B |            | ó |   |   |
-| k |        | R |            | n |   |   |
-| i |        | A |            | d |   |   |
-| p |        | M |            | e |   |   |
-| e |        | |            | 3 |   |   |
-| d |        | |            | 2 |   |   |
-| i |        | / |            | 0 |   |   |
-| a |        | |            | x |   |   |
-|. |        | |            | 2 |   |   |
-| o |        | 1 |            | 9 |   |   |
-| r |        | G |            | 0 |   |   |
-| g |        | B |            |, |   |   |
-| / |        | R |            | 2 |   |   |
-| w |        | A |            | 0 |   |   |
-| i |        | M |            | 5 |   |   |
-| k |        |   |            | p |   |   |
-| i |        | + |            | p |   |   |
-| / |        | 8 |            | i |   |   |
-| M |        | G |            |, |   |   |
-| o |        | B |            | L |   |   |
-| t |        | M |            | C |   |   |
-| o |        | e |            | D |   |   |
-| _ |        | m |            | c |   |   |
-| 3 |        | o |            | o |   |   |
-| 6 |        | r |            | n |   |   |
-| 0 |        | i |            | r |   |   |
-|   |        | a |            | e |   |   |
-| " |        | I |            | t |   |   |
-| M |        | n |            | r |   |   |
-| o |        | t |            | o |   |   |
-| t |        | e |            | - |   |   |
-| o |        | r |            | i |   |   |
-|   |        | n |            | l |   |   |
-| 3 |        | a |            | u |   |   |
-| 6 |        |   |            | m |   |   |
-| 0 |        |   |            | i |   |   |
-| " |        |   |            | n |   |   |
-|) |        |   |            | a |   |   |
-|   |        |   |            | c |   |   |
-|  |        |   |            | i |   |   |
-| S |        |   |            | ó |   |   |
-| O |        |   |            | n |   |   |
-|: |        |   |            | / |   |   |
-|  |        |   |            | 1 |   |   |
-|   |        |   |            |. |   |   |
-| W |        |   |            | 2 |   |   |
-| e |        |   |            |  |   |   |
-| a |        |   |            | " |   |   |
-| r |        |   |            |  |   |   |
-|  |        |   |            | " |   |   |
-|   |        |   |            | C |   |   |
-| O |        |   |            | i |   |   |
-| S |        |   |            | r |   |   |
-|  |        |   |            | c |   |   |
-|   |        |   |            | u |   |   |
-| b |        |   |            | l |   |   |
-| y |        |   |            | a |   |   |
-|  |        |   |            | r |   |   |
-|   |        |   |            | A |   |   |
-| G |        |   |            | M |   |   |
-| o |        |   |            | O |   |   |
-| o |        |   |            | L |   |   |
-| g |        |   |            | E |   |   |
-| l |        |   |            | D |   |   |
-| e |        |   |            | (|   |   |
-| ™ |        |   |            | 3 |   |   |
-|  |        |   |            | 9 |   |   |
-|   |        |   |            | 0 |   |   |
-|   |        |   |            | x |   |   |
-|   |        |   |            | 3 |   |   |
-|   |        |   |            | 9 |   |   |
-|   |        |   |            | 0 |   |   |
-|   |        |   |            |) |   |   |
-+---+--------+---+------------+---+---+---+
-| L | Qu     | 4 | Bluetooth  | 1 |   | 4 |
-| G | alcomm | G | 4.0        |. |   | 0 |
-| G | Snap   | B |            | 6 |   | 0 |
-| W | dragon | m |            | 5 |   | m |
-| a | 400 a  | e |            |  |   | A |
-| t | 1.2    | m |            | " |   | h |
-| c | GHz    | o |            | I |   |   |
-| h |        | r |            | P |   |   |
-|   |        | i |            | S |   |   |
-|  |        | a |            | L |   |   |
-| S |        | i |            | C |   |   |
-| O |        | n |            | D |   |   |
-|: |        | t |            |   |   |   |
-|  |        | e |            |   |   |   |
-|   |        | r |            |   |   |   |
-| A |        | n |            |   |   |   |
-| n |        | a |            |   |   |   |
-| d |        |, |            |   |   |   |
-| r |        | 5 |            |   |   |   |
-| o |        | 1 |            |   |   |   |
-| i |        | 2 |            |   |   |   |
-| d |        | M |            |   |   |   |
-|  |        | B |            |   |   |   |
-|   |        | R |            |   |   |   |
-| 4 |        | A |            |   |   |   |
-|. |        | M |            |   |   |   |
-| 3 |        |   |            |   |   |   |
-|  |        |   |            |   |   |   |
-|   |        |   |            |   |   |   |
-| e |        |   |            |   |   |   |
-| n |        |   |            |   |   |   |
-|  |        |   |            |   |   |   |
-|   |        |   |            |   |   |   |
-| a |        |   |            |   |   |   |
-| d |        |   |            |   |   |   |
-| e |        |   |            |   |   |   |
-| l |        |   |            |   |   |   |
-| a |        |   |            |   |   |   |
-| n |        |   |            |   |   |   |
-| t |        |   |            |   |   |   |
-| e |        |   |            |   |   |   |
-|  |        |   |            |   |   |   |
-+---+--------+---+------------+---+---+---+
-| L | Qu     | 4 | Bluetooth  | P |   | 4 |
-| G | alcomm | G | 4.0        | - |   | 1 |
-| G | Snap   | B |            | O |   | 0 |
-| W | dragon | m |            | L |   | m |
-| a | 400 a  | e |            | E |   | A |
-| t | 1.2    | m |            | D |   | h |
-| c | GHz    | o |            | d |   |   |
-| h |        | r |            | e |   |   |
-| R |        | i |            | 1 |   |   |
-|   |        | a |            |. |   |   |
-|   |        | i |            | 3 |   |   |
-|   |        | n |            |  |   |   |
-|   |        | t |            | " |   |   |
-|   |        | e |            | y |   |   |
-|   |        | r |            | 3 |   |   |
-|   |        | n |            | 2 |   |   |
-|   |        | a |            | 0 |   |   |
-|   |        |, |            | x |   |   |
-|   |        | 5 |            | 3 |   |   |
-|   |        | 1 |            | 2 |   |   |
-|   |        | 2 |            | 0 |   |   |
-|   |        | M |            | p |   |   |
-|   |        | B |            | í |   |   |
-|   |        | R |            | x |   |   |
-|   |        | A |            | e |   |   |
-|   |        | M |            | l |   |   |
-|   |        |   |            | e |   |   |
-|   |        |   |            | s |   |   |
-+---+--------+---+------------+---+---+---+
-| S | Qua    | 4 | Bluetooth  | 1 |   | 4 |
-| o | d-core | G | 4.0, NFC   |. |   | 2 |
-| n | ARM    | B |            | 6 |   | 0 |
-| y | Cortex | m |            |  |   | m |
-| S | A7 a   | e |            | " |   | A |
-| m | 1,2GHz | m |            | y |   | h |
-| a |        | o |            | 3 |   |   |
-| r |        | r |            | 2 |   |   |
-| t |        | i |            | 0 |   |   |
-| W |        | a |            | x |   |   |
-| a |        | i |            | 3 |   |   |
-| t |        | n |            | 2 |   |   |
-| c |        | t |            | 0 |   |   |
-| h |        | e |            | p |   |   |
-| 3 |        | r |            | í |   |   |
-|   |        | n |            | x |   |   |
-|   |        | a |            | e |   |   |
-|   |        |, |            | l |   |   |
-|   |        | 5 |            | e |   |   |
-|   |        | 1 |            | s |   |   |
-|   |        | 2 |            |   |   |   |
-|   |        | M |            |   |   |   |
-|   |        | B |            |   |   |   |
-|   |        | R |            |   |   |   |
-|   |        | A |            |   |   |   |
-|   |        | M |            |   |   |   |
-+---+--------+---+------------+---+---+---+
-| A | Qu     | 4 | Bluetooth  | A |   | 3 |
-| s | alcomm | G | 4.0        | M |   | 6 |
-| u | Snap   | B |            | O |   | 9 |
-| s | dragon | m |            | L |   | m |
-| Z | 400 a  | e |            | E |   | A |
-| e | 1.2    | m |            | D |   | h |
-| n | GHz    | o |            | t |   |   |
-| W |        | r |            | o |   |   |
-| a |        | i |            | u |   |   |
-| t |        | a |            | c |   |   |
-| c |        | i |            | h |   |   |
-| h |        | n |            | s |   |   |
-|   |        | t |            | c |   |   |
-|   |        | e |            | r |   |   |
-|   |        | r |            | e |   |   |
-|   |        | n |            | e |   |   |
-|   |        | a |            | n |   |   |
-|   |        |, |            | c |   |   |
-|   |        | 5 |            | a |   |   |
-|   |        | 1 |            | p |   |   |
-|   |        | 2 |            | a |   |   |
-|   |        | M |            | c |   |   |
-|   |        | B |            | i |   |   |
-|   |        | R |            | t |   |   |
-|   |        | A |            | i |   |   |
-|   |        | M |            | v |   |   |
-|   |        |   |            | a |   |   |
-|   |        |   |            | d |   |   |
-|   |        |   |            | e |   |   |
-|   |        |   |            | 1 |   |   |
-|   |        |   |            |. |   |   |
-|   |        |   |            | 6 |   |   |
-|   |        |   |            | 3 |   |   |
-|   |        |   |            |  |   |   |
-|   |        |   |            | " |   |   |
-|   |        |   |            | y |   |   |
-|   |        |   |            | 3 |   |   |
-|   |        |   |            | 2 |   |   |
-|   |        |   |            | 0 |   |   |
-|   |        |   |            | x |   |   |
-|   |        |   |            | 3 |   |   |
-|   |        |   |            | 2 |   |   |
-|   |        |   |            | 0 |   |   |
-|   |        |   |            | p |   |   |
-|   |        |   |            | í |   |   |
-|   |        |   |            | x |   |   |
-|   |        |   |            | e |   |   |
-|   |        |   |            | l |   |   |
-|   |        |   |            | e |   |   |
-|   |        |   |            | s |   |   |
-+---+--------+---+------------+---+---+---+
-| [| Apple  | 8 | WiFi y GPS | R |   | H |
-| A | S1     | G | de iPhone  | e |   | a |
-| p |        | B |            | t |   | s |
-| p |        | m |            | i |   | t |
-| l |        | e |            | n |   | a |
-| e |        | m |            | a |   | 1 |
-| W |        | o |            | c |   | 8 |
-| a |        | r |            | o |   | h |
-| t |        | i |            | n |   | o |
-| c |        | a |            | F |   | r |
-| h |        | i |            | o |   | a |
-|] |        | n |            | r |   | s |
-| (|        | t |            | c |   | d |
-| h |        | e |            | e |   | e |
-| t |        | r |            | T |   | a |
-| t |        | n |            | o |   | u |
-| p |        | a |            | u |   | t |
-| s |        |, |            | c |   | o |
-|: |        | 5 |            | h |   | n |
-| / |        | 1 |            |   |   | o |
-| / |        | 2 |            |   |   | m |
-| e |        | M |            |   |   | í |
-| s |        | B |            |   |   | a |
-|. |        | R |            |   |   |   |
-| w |        | A |            |   |   |   |
-| i |        | M |            |   |   |   |
-| k |        |   |            |   |   |   |
-| i |        |   |            |   |   |   |
-| p |        |   |            |   |   |   |
-| e |        |   |            |   |   |   |
-| d |        |   |            |   |   |   |
-| i |        |   |            |   |   |   |
-| a |        |   |            |   |   |   |
-|. |        |   |            |   |   |   |
-| o |        |   |            |   |   |   |
-| r |        |   |            |   |   |   |
-| g |        |   |            |   |   |   |
-| / |        |   |            |   |   |   |
-| w |        |   |            |   |   |   |
-| i |        |   |            |   |   |   |
-| k |        |   |            |   |   |   |
-| i |        |   |            |   |   |   |
-| / |        |   |            |   |   |   |
-| A |        |   |            |   |   |   |
-| p |        |   |            |   |   |   |
-| p |        |   |            |   |   |   |
-| l |        |   |            |   |   |   |
-| e |        |   |            |   |   |   |
-| _ |        |   |            |   |   |   |
-| W |        |   |            |   |   |   |
-| a |        |   |            |   |   |   |
-| t |        |   |            |   |   |   |
-| c |        |   |            |   |   |   |
-| h |        |   |            |   |   |   |
-|   |        |   |            |   |   |   |
-| " |        |   |            |   |   |   |
-| A |        |   |            |   |   |   |
-| p |        |   |            |   |   |   |
-| p |        |   |            |   |   |   |
-| l |        |   |            |   |   |   |
-| e |        |   |            |   |   |   |
-|   |        |   |            |   |   |   |
-| W |        |   |            |   |   |   |
-| a |        |   |            |   |   |   |
-| t |        |   |            |   |   |   |
-| c |        |   |            |   |   |   |
-| h |        |   |            |   |   |   |
-| " |        |   |            |   |   |   |
-|) |        |   |            |   |   |   |
-+---+--------+---+------------+---+---+---+
-| A | S6     | 3 | **LTE y    | R |   | H |
-| p | 64-bit | 2 | UMTS,      | e |   | a |
-| p | dua    | G | Wi-Fi,     | t |   | s |
-| l | l-core | B | Bluetooth  | i |   | t |
-| e |        | m | 5.0** | n |   | a |
-| W |        | e |            | a |   | 1 |
-| a |        | m |            | O |   | 8 |
-| t |        | o |            | L |   | h |
-| c |        | r |            | E |   | o |
-| h |        | i |            | D |   | r |
-| S |        | a |            | L |   | a |
-| e |        | i |            | T |   | s |
-| r |        | n |            | P |   |   |
-| i |        | t |            | O |   |   |
-| e |        | e |            |   |   |   |
-| s |        | r |            |   |   |   |
-| 6 |        | n |            |   |   |   |
-|   |        | a |            |   |   |   |
-|  |        |, |            |   |   |   |
-| S |        | 1 |            |   |   |   |
-| O |        | G |            |   |   |   |
-|: |        | B |            |   |   |   |
-|  |        |   |            |   |   |   |
-|   |        |   |            |   |   |   |
-| i |        |   |            |   |   |   |
-| O |        |   |            |   |   |   |
-| S |        |   |            |   |   |   |
-|  |        |   |            |   |   |   |
-|   |        |   |            |   |   |   |
-| 1 |        |   |            |   |   |   |
-| 4 |        |   |            |   |   |   |
-|  |        |   |            |   |   |   |
-|   |        |   |            |   |   |   |
-| o |        |   |            |   |   |   |
-|  |        |   |            |   |   |   |
-|   |        |   |            |   |   |   |
-| p |        |   |            |   |   |   |
-| o |        |   |            |   |   |   |
-| s |        |   |            |   |   |   |
-| t |        |   |            |   |   |   |
-| e |        |   |            |   |   |   |
-| r |        |   |            |   |   |   |
-| i |        |   |            |   |   |   |
-| o |        |   |            |   |   |   |
-| r |        |   |            |   |   |   |
-|  |        |   |            |   |   |   |
-+---+--------+---+------------+---+---+---+
+<table>
+  <thead>
+    <tr>
+      <th>Dispositivo</th>
+      <th>Procesador</th>
+      <th>Memoria</th>
+      <th>Comunicaciones</th>
+      <th>Pantalla</th>
+      <th>Cámara</th>
+      <th>Batería</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Samsung Gear 2</td>
+      <td>Dual-Core 1 GHz Exynos 3250</td>
+      <td>4 GB de memoria interna; 512 MB RAM</td>
+      <td>Bluetooth 4.0 LE</td>
+      <td>1,63 pulgadas Super AMOLED; 320 × 320</td>
+      <td>2,0 megapíxeles</td>
+      <td>300 mAh</td>
+    </tr>
+    <tr>
+      <td>Samsung Gear S</td>
+      <td>Qualcomm Snapdragon 400 a 1 GHz</td>
+      <td>4 GB de memoria interna; 512 MB RAM</td>
+      <td>Bluetooth 4.0; Wi-Fi; 3G</td>
+      <td>AMOLED de 2 pulgadas; 360 × 480</td>
+      <td>—</td>
+      <td>300 mAh</td>
+    </tr>
+    <tr>
+      <td>Samsung Gear S2</td>
+      <td>Exynos 3250</td>
+      <td>4 GB de memoria interna; 512 MB RAM</td>
+      <td>Bluetooth; BT 4.1; Wi-Fi; NFC</td>
+      <td>sAMOLED; 360 × 360; 302 ppi</td>
+      <td>—</td>
+      <td>250 mAh</td>
+    </tr>
+    <tr>
+      <td>Moto 360</td>
+      <td>Single-Core 1 GHz TI OMAP 3 / Qualcomm Snapdragon Wear 3100</td>
+      <td>4 GB de memoria interna; 512 MB RAM / 1 GB RAM y 8 GB de memoria interna</td>
+      <td>Bluetooth 4.0 LE / Bluetooth 4.2; Wi-Fi b/g/n; NFC; GPS, GLONASS, Beidou y Galileo</td>
+      <td>LCD de 1,56 pulgadas; 320 × 290; 205 ppi / circular AMOLED de 1,2 pulgadas; 390 × 390</td>
+      <td>—</td>
+      <td>320 mAh / 355 mAh</td>
+    </tr>
+    <tr>
+      <td>LG G Watch</td>
+      <td>Qualcomm Snapdragon 400 a 1,2 GHz</td>
+      <td>4 GB de memoria interna; 512 MB RAM</td>
+      <td>Bluetooth 4.0</td>
+      <td>1,65 pulgadas IPS LCD</td>
+      <td>—</td>
+      <td>400 mAh</td>
+    </tr>
+    <tr>
+      <td>LG G Watch R</td>
+      <td>Qualcomm Snapdragon 400 a 1,2 GHz</td>
+      <td>4 GB de memoria interna; 512 MB RAM</td>
+      <td>Bluetooth 4.0</td>
+      <td>P-OLED de 1,3 pulgadas; 320 × 320</td>
+      <td>—</td>
+      <td>410 mAh</td>
+    </tr>
+    <tr>
+      <td>Sony SmartWatch 3</td>
+      <td>Quad-core ARM Cortex A7 a 1,2 GHz</td>
+      <td>4 GB de memoria interna; 512 MB RAM</td>
+      <td>Bluetooth 4.0; NFC</td>
+      <td>1,6 pulgadas; 320 × 320</td>
+      <td>—</td>
+      <td>420 mAh</td>
+    </tr>
+    <tr>
+      <td>Asus ZenWatch</td>
+      <td>Qualcomm Snapdragon 400 a 1,2 GHz</td>
+      <td>4 GB de memoria interna; 512 MB RAM</td>
+      <td>Bluetooth 4.0</td>
+      <td>AMOLED táctil capacitiva de 1,63 pulgadas; 320 × 320</td>
+      <td>—</td>
+      <td>369 mAh</td>
+    </tr>
+    <tr>
+      <td>Apple Watch</td>
+      <td>Apple S1</td>
+      <td>8 GB de memoria interna; 512 MB RAM</td>
+      <td>Wi-Fi y GPS del iPhone</td>
+      <td>Retina con Force Touch</td>
+      <td>—</td>
+      <td>Hasta 18 horas de autonomía</td>
+    </tr>
+    <tr>
+      <td>Apple Watch Series 6</td>
+      <td>S6 dual-core de 64 bits</td>
+      <td>32 GB de memoria interna; 1 GB RAM</td>
+      <td>LTE y UMTS; Wi-Fi; Bluetooth 5.0</td>
+      <td>Retina OLED LTPO</td>
+      <td>—</td>
+      <td>Hasta 18 horas</td>
+    </tr>
+  </tbody>
+</table>
 
-Crédito figura 2: Versión actualizada mejorada de «Características *hardware*. Reloj inteligente. (2021, 15 de febrero). *Wikipedia, La enciclopedia libre*. Fecha de consulta: 13:44, julio 18, 2021 desde es.wikipedia.org/w/index.php?title=Reloj_inteligente&oldid=133248752.»
+Crédito figura 2: versión actualizada y mejorada de «Características hardware. Reloj inteligente». Wikipedia, La enciclopedia libre, 15 de febrero de 2021. Consulta original: 18 de julio de 2021. URL de referencia conservada como texto plano: es.wikipedia.org/w/index.php?title=Reloj_inteligente&oldid=133248752.
 
 > El *framework* para cualquier *smartwatch* debe asumir que el estadio
 > de funcionamiento recomendado es el **estadio E2** (ejecución de la
@@ -2277,7 +1843,7 @@ contundente en la gama media del sector, son garantes y suficientes en
 general, con altas prestaciones tecnológicas y una baja economía de
 coste asociadas. Aunque las *tablets* parece que no terminan de
 conseguir un nicho final suficiente de mercado en función de algunos
-medidores asociados ([Imagen 66](#ne9cvxx4kmc)). Son durísimos rivales
+medidores asociados (Imagen 66 (#ne9cvxx4kmc)). Son durísimos rivales
 los *smartphones* y los PC's para ellas; porque, en comparación, en la
 relación tecnología y precio éstas salen perdiendo probablemente. Las
 *tablets* actualmente, ¿parecen más un 'capricho útil' que una necesidad
