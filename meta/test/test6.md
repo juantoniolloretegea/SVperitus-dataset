@@ -4,14 +4,14 @@
 
 ------------------------------------------------------------------------
 
-Se ha definido un *framework*[^1] conceptual y algebraicamente,
+Se ha definido un *framework*<sup id="nota-ref-1"><a href="#nota-1">1</a></sup> conceptual y algebraicamente,
 inexistente hasta ahora en su morfología, y pionero en aplicación en el
 campo de la Inteligencia Artificial (IA) de forma conjunta; e
 implementado en laboratorio, en sus aspectos más estructurales, como un
 modelo completamente operacional. Su mayor aportación a la IA a nivel
 cualitativo es aplicar la conversión o transducción de parámetros
 obtenidos con lógica ternaria (sistemas
-multivaluados)[^2] y asociarlos a una imagen, que es analizada mediante
+multivaluados)<sup id="nota-ref-2"><a href="#nota-2">2</a></sup> y asociarlos a una imagen, que es analizada mediante
 una red residual artificial
 ResNet34 para que nos advierta
 de una intrusión. El campo de aplicación de este *framework* va desde
@@ -29,7 +29,7 @@ expectativas de ser una herramienta útil para la sociedad y el ser
 humano, alineado con el «Dictamen del Comité Europeo de las Regiones --
 Libro Blanco sobre la inteligencia artificial -- Un enfoque europeo
 orientado a la excelencia y la
-confianza (URL: op.europa.eu/es/publication-detail/-/publication/12738974-40d7-11eb-b27b-01aa75ed71a1/language-es/format-PDF/source-search)»
+confianza (URL: `op.europa.eu/es/publication-detail/-/publication/12738974-40d7-11eb-b27b-01aa75ed71a1/language-es/format-PDF/source-search)`»
 y que contribuya a evitar la mala *praxis* de generar cajas
 negras en el empleo de la inteligencia
 artificial haciendo de ella algo inexplicable.
@@ -95,13 +95,13 @@ el mayor número de ventas del mercado: Samsung, Apple, Fitbit y Garmin.
 
 Crédito de imagen: Seguridad en dispositivos Samsung y Apple por Adrián
 Hernández, 2021, Mangosta
-(mangosta.org/seguridad-en-los-dispositivos-samsung-y-apple/)
+(`mangosta.org/seguridad-en-los-dispositivos-samsung-y-apple/)`
 
 ![](https://assets.pubpub.org/yjy9unxe/01625567427088.svg)
 
 Crédito de imagen: Seguridad en dispositivos Fitbit y Garmin por Adrián
 Hernández, 2021, Mangosta
-(mangosta.org/seguridad-en-dispositivos-fitbit-y-garmin/)
+(`mangosta.org/seguridad-en-dispositivos-fitbit-y-garmin/)`
 
 En la recopilación de datos, Samsung es la única marca que no compila
 información *online* de menores de 13 años.
@@ -187,7 +187,7 @@ A este modelo matemático así definido puede aplicársele la teoría del álgeb
 
 ![Ejemplo de fórmula del área de Gauss](https://assets.pubpub.org/0hd0530u/01626132349933.svg)
 
-Crédito imagen: Ejemplo de la fórmula del área de Gauss. Wikipedia, Isalar, derivative work: Nat2, Polygon_area_formula.jpg. Mangosta. URL de referencia: mangosta.org/formula-del-area-de-gauss/
+Crédito imagen: Ejemplo de la fórmula del área de Gauss. Wikipedia, Isalar, derivative work: Nat2, Polygon_area_formula.jpg. Mangosta. URL de referencia: `mangosta.org/formula-del-area-de-gauss/`
 
 ### 2.2.- Cálculo del alcance y sistemática de uso
 
@@ -255,7 +255,7 @@ Asignando valores previamente escaneados al *array* de parámetros p1 = (0,1,U,0
 
 ![Ejemplo de captura de parámetros](https://assets.pubpub.org/9ubofqlj/51626256322218.svg)
 
-Crédito imagen: Ejemplo de captura de parámetros por Juan Antonio Lloret Egea, 2021, Mangosta. URL de referencia: mangosta.org/i_parametros-3/
+Crédito imagen: Ejemplo de captura de parámetros por Juan Antonio Lloret Egea, 2021, Mangosta. URL de referencia: `mangosta.org/i_parametros-3/`
 
 # II.- Laboratorio del *framework*
 
@@ -366,7 +366,7 @@ ninguna posición y por lo tanto podremos almacenar el valor como "0".
 Por el contrario, si obtenemos una posición cualquiera, almacenaremos el
 valor como "1".
 
-Para Android se puede utilizar **GnssStatus.Callback*****,*** clase
+Para Android se puede utilizar **`GnssStatus.Callback`*****,*** clase
 definida por Google para manejar el sistema global de navegación por
 satélite en los dispositivos Android. Otra de las posibilidades era
 trabajar con **GpsStatus**** **pero no se podría monitorizar
@@ -387,7 +387,7 @@ aparece un mensaje como este:
 Crédito de imagen: Salida por consola estado del cámara online
 
 por Adrián Hernández, 2021, Mangosta
-(mangosta.org/i_parametros-2/)
+(`mangosta.org/i_parametros-2/)`
 
 Y además, almacenaremos el valor como "1" en la variable determinada
 para realizar el gráfico con el resto de parámetros. Si por el contrario
@@ -399,14 +399,14 @@ siguiente mensaje:
 Image credit: Console output offline camera status
 
 por Adrián Hernández, 2021, Mangosta
-(mangosta.org/ii_parametros-2/)
+(`mangosta.org/ii_parametros-2/)`
 
 En este caso se almacenaría el valor "0" a la hora de realizar el
 gráfico.
 
-Para dispositivos Android, utilizamos **android.hardware.camera2**
+Para dispositivos Android, utilizamos **`android.hardware.camera`2**
  y utilizamos el *callback *de Android:
-**CameraDevice.StateCallback** que incluye el método
+**`CameraDevice.StateCallback`** que incluye el método
 ***o*****nOpened(CameraDevice camera)*****, ***que nos devuelve si la
 cámara esta abierta o no.
 
@@ -424,7 +424,7 @@ Crédito de imagen: Estado del micrófono mediante el uso de las ondas de
 audio
 
 por Adrián Hernández, 2021, Mangosta
-(mangosta.org/iii_parametros-2/)
+(`mangosta.org/iii_parametros-2/)`
 
 Para Android, se puede utilizar **AudioManager*****, ***una** **clase
 definida por Google para manejar el micrófono en los dispositivos
@@ -436,13 +436,13 @@ MODE_IN_CALL.
 
 Los pasos a seguir para crear la estructura serían:
 
-1.- Utilizar getSystemService(java.lang.String)
+1.- Utilizar getSystemService(`java.lang.String`)
 
 2.- Incluir la clase Context y la String AUDIO_SERVICE:
-getSystemService(Context.AUDIO_SERVICE)
+getSystemService(`Context.AUDIO`_SERVICE)
 
 3.- Incluir la sentencia creada en el paso 2 en la clase AudioManager:
-(AudioManager)context.getSystemService(Context.AUDIO_SERVICE).
+(AudioManager)`context.getSystemService`(`Context.AUDIO`_SERVICE).
 
 4.- Actualmente el método getMode asociado a AudioManager nos ofrece 5
 resultados:
@@ -477,7 +477,7 @@ gráficos a partir de datos contenidos en listas o *arrays*.
 ![](https://assets.pubpub.org/6iw9zu02/71626781601028.png)
 
 Crédito de imagen: Monitorización de parámetros físicos por Adrián
-Hernández, 2021, Mangosta (mangosta.org/iv_parametros-2/)
+Hernández, 2021, Mangosta (`mangosta.org/iv_parametros-2/)`
 
 #### 4.10.- Gráficos obtenidos tras analizar los parámetros
 
@@ -489,7 +489,7 @@ siguen este estilo:
 ![](https://assets.pubpub.org/5gyxzxzo/51626781828904.png)
 
 Crédito de imagen: Gráfico polar por Adrián Hernández, 2021, Mangosta
-(mangosta.org/vi_parametros-2/)
+(`mangosta.org/vi_parametros-2/)`
 
 ## 5.-  Diagramación y sistemática en la implementación del *framework*
 
@@ -528,12 +528,12 @@ podamos entender todos y cada uno de ellos.
 
 Crédito de imagen: Diagrama de flujo general del framework por Diana
 Díaz, 2021, Mangosta
-(mangosta.org/diagramacion-general-framework/)
+(`mangosta.org/diagramacion-general-framework/)`
 
 El diagrama general ha sido diseñado con la ayuda de la aplicación de
 diagramación de código abierto Drawio. Esta diagramación, en
 concreto, contiene otros dos diagramas; la conexión Java con la base de
-datos y el uso de fast.ai* + Google Colaboratory, también recogidos
+datos y el uso de `fast.ai`* + Google Colaboratory, también recogidos
 en la leyenda de la parte inferior del diagrama.
 
 En primer lugar, comenzamos con la instalación de la aplicación. Al
@@ -554,7 +554,7 @@ inmediatamente. Además, la inteligencia artificial se emplea en este
 punto para comprobar si existe algún riesgo de intrusión. Para llevar a
 cabo este proceso, se realiza una captura de 9 parámetros
 predeterminados, que asignándoles un modelo preentrenado ResNet34 con
-fast.ai indica si realmente hay una intrusión. Con el resultado de la
+`fast.ai` indica si realmente hay una intrusión. Con el resultado de la
 IA, un profesional analizará los datos obtenidos y decidirá si son
 coherentes. Si es así, los datos se almacenan en la base de datos y
 posteriormente se le comunicaría al usuario, en caso contrario, estos
@@ -572,7 +572,7 @@ consulta SQL.
 Crédito de imagen: Diagrama de Java
 
 por Kimberly Riveros, 2021, Mangosta
-(mangosta.org/diagramacion-de-java/)
+(`mangosta.org/diagramacion-de-java/)`
 
 El *driver* JDBC, por sus siglas en inglés, (Java Database Connectivity)
 facilita la conexión entre un sistema gestor de base de datos (SGBD) y
@@ -584,7 +584,7 @@ trabajado en el entorno de Java conjuntamente con Eclipse. Eclipse es un
 *software*de entorno de desarrollo integrado para conectar la base
 de datos con Java *. *Es importante añadir que en el
 diseño de la diagramación de Java hemos utilizado como herramienta base
-el programa Draw.io, al igual que se ha hecho en el resto de
+el programa `Draw.io`, al igual que se ha hecho en el resto de
 diagramaciones (**S1, S2 **y **S3)**.
 
 En el siguiente apartado explicaremos cómo se realiza la conexión entre
@@ -598,7 +598,7 @@ principio para evitar posibles errores de conexión.
 
 Crédito de imagen: Conexión a la base de datos - Java por Kimberly
 Riveros, 2021, Mangosta
-(mangosta.org/conexion-a-la-base-de-datos-java/)
+(`mangosta.org/conexion-a-la-base-de-datos-java/)`
 
 Posteriormente definimos en Eclipse el objeto "connection" para
 establecer la conexión y le indicamos la ruta del servidor junto con la
@@ -612,7 +612,7 @@ realizar la conexión desde la nube.
 ![](https://assets.pubpub.org/ryrcm470/41627034284629.svg)
 
 Acceso al código para docentes y estudiantes:
-mangosta.org/conexion-a-la-base-de-datos-java001/
+`mangosta.org/conexion-a-la-base-de-datos-java001/`
 
 Cada conexión, en local o en la nube, es independiente entre sí, es
 decir, cada una se hace en una clase distinta y lo único diferente que
@@ -623,7 +623,7 @@ tiene cada clase en Eclipse es la ruta.
 Crédito de imagen: Conexión a la base de datos Java
 
 por Kimberly Riveros, 2021, Mangosta
-(mangosta.org/conexion-a-la-base-de-datos-java002/)
+(`mangosta.org/conexion-a-la-base-de-datos-java002/)`
 
 Finalmente una vez comprobada la conexión de la base de datos, podemos
 realizar las consultas que deseemos, escribiendo en lenguaje SQL. Por
@@ -650,7 +650,7 @@ mediante el lenguaje de programación Python, definida como sistemática
 ![](https://assets.pubpub.org/a95dde3x/51627035791754.svg)
 
 Crédito de imagen: Diagrama de Python por Diana Díaz, 2021, Mangosta
-(mangosta.org/diagramacion-conexion-base-de-datos-con-python/)
+(`mangosta.org/diagramacion-conexion-base-de-datos-con-python/)`
 
 Las herramientas utilizadas para llevar a cabo este procedimiento son:
 Google Colaboratory, una aplicación de Google para crear entornos de
@@ -701,12 +701,12 @@ Crédito de imagen: Diagramación uso de la inteligencia artificial en
 Python
 
 por Adrián Hernández, 2021, Mangosta
-(mangosta.org/diagramacion-uso-de-la-inteligencia-artificial-en-python/)
+(`mangosta.org/diagramacion-uso-de-la-inteligencia-artificial-en-python/)`
 
 Para llevar a cabo este procedimiento, hemos utilizado Drawio para hacer
 el diagrama, Google Drive y Google Colaboratory, que incluye el lenguaje
 de programación Python. Además de estas herramientas, trabajamos con
-fast.ai, esto es, una biblioteca de aprendizaje profundo que permite la
+`fast.ai`, esto es, una biblioteca de aprendizaje profundo que permite la
 carga de modelos preentrenados como ResNet34 para una posterior
 clasificación de las imágenes. Por tanto, no es necesario
 descargar ningún tipo de *software*, pues todo estos procesos los
@@ -720,12 +720,12 @@ imágenes, dependiendo del grupo al que pertenezcan.
 ![](https://assets.pubpub.org/zjah810k/11626516224484.svg)
 
 Crédito imagen: Almacenamiento imágenes de gatos por Kimberly Riveros,
-2021, Mangosta (mangosta.org/gatos/)
+2021, Mangosta (`mangosta.org/gatos/)`
 
 ![](https://assets.pubpub.org/3ovdns93/41626516567773.svg)
 
 Crédito imagen: Almacenamiento imágenes de gatos por Kimberly Riveros,
-2021, Mangosta (mangosta.org/tigres/)
+2021, Mangosta (`mangosta.org/tigres/)`
 
 Posteriormente accedemos a Google Colaboratory y en la primera celda,
 indicamos la ruta en la que estará ubicado nuestro *dataset *(conjunto
@@ -761,13 +761,13 @@ tigre cuando en realidad es un gato.
 
 Crédito de imagen: Respuesta Inteligencia Artificial por Kimberly
 Riveros, 2021, Mangosta
-(mangosta.org/i_respuesta-inteligencia-artificial/)
+(`mangosta.org/i_respuesta-inteligencia-artificial/)`
 
 ![](https://assets.pubpub.org/l335zn31/41626516826424.svg)
 
 Crédito de imagen: Respuesta Inteligencia Artificial (matriz de
 confusión) por Kimberly Riveros, 2021, Mangosta
-(mangosta.org/ii_respuesta-inteligencia-artificial/)
+(`mangosta.org/ii_respuesta-inteligencia-artificial/)`
 
 ## 6.- Paso a paso en el proceso de detectar intrusiones con Inteligencia Artificial: ResNet34, cuadernos Jupyter y Google Colaboratory
 
@@ -801,10 +801,10 @@ Google Drive hacemos clic en Google Colaboratory.
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial: ResNet34, cuadernos Jupyter y Google Colaboratory por Adrián
 Hernández, 2021, Mangosta
-(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial/)
+(`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial/)`
 
 O bien, si no nos aparece la opción, hacemos clic en la siguiente URL:
-**colab.research.google.com/** (URL: colab.research.google.com/)
+**`colab.research.google.com/**` (URL: `colab.research.google.com/)`
 
 Una vez estemos dentro de Google Colab, tenemos los cuadernos
 predeterminados por Google para iniciarnos en Python desde la nube.
@@ -817,7 +817,7 @@ realizar las pruebas pertinentes. Para realizar esta acción, hacemos*
 Image credit: Process of detecting intrusions with Artificial
 Intelligence: ResNet34, Jupyter Notebooks and Google Colaboratory by
 Adrián Hernández, 2021, Mangosta
-(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial001/)
+(`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial001/)`
 
 Ahora, el nuevo cuaderno creado tiene la siguiente estructura:
 
@@ -826,7 +826,7 @@ Ahora, el nuevo cuaderno creado tiene la siguiente estructura:
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial: ResNet34, cuadernos Jupyter y Google Colaboratory por Adrián
 Hernández, 2021, Mangosta
-(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial002/)
+(`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial002/)`
 
 La celda que nos aparece inicialmente nos permite escribir código en
 Python y ejecutarlo directamente, utilizando el botón "*Play*", situado
@@ -837,7 +837,7 @@ en la misma celda.
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial: ResNet34, cuadernos Jupyter y Google Colaboratory por Adrián
 Hernández, 2021, Mangosta
-(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial003/)
+(`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial003/)`
 
 Por defecto, Google Colaboratory no viene configurado para utilizar
 GPU's, así que debemos prepararlo. Para ello, es necesario ir a la
@@ -849,7 +849,7 @@ ejecución".
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial: ResNet34, cuadernos Jupyter y Google Colaboratory por Adrián
 Hernández, 2021, Mangosta
-(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial004/)
+(`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial004/)`
 
 Una vez situados en la pestaña, hacer clic en el desplegable con la
 palabra "*none" *y reemplazarlo por "GPU*"*.
@@ -859,7 +859,7 @@ palabra "*none" *y reemplazarlo por "GPU*"*.
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial: ResNet34, cuadernos Jupyter y Google Colaboratory por Adrián
 Hernández, 2021, Mangosta
-(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial005/)
+(`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial005/)`
 
 En este momento, Google asignará una GPU para nuestro cuaderno
 Jupyter, la cual podremos comprobar, utilizando la siguiente instrucción
@@ -870,7 +870,7 @@ en una celda de código:
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial: ResNet34, cuadernos Jupyter y Google Colaboratory por Adrián
 Hernández, 2021, Mangosta
-(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial006/)
+(`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial006/)`
 
 Como se puede apreciar en la imagen, nos asignan una Tesla T4, aunque
 podría haber sido una Tesla K80, ya que son las dos GPU's que Google*
@@ -893,7 +893,7 @@ atribuirles la siguiente nomenclatura:
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial: ResNet34, cuadernos Jupyter y Google Colaboratory por Adrián
 Hernández, 2021, Mangosta
-(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial007/)
+(`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial007/)`
 
 Una carpeta *Test, *atribuida a las imágenes que la inteligencia
 artificial nunca ha visto y servirá para comprobar que la IA es capaz de
@@ -913,7 +913,7 @@ estructura:
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial: ResNet34, cuadernos Jupyter y Google Colaboratory por Adrián
 Hernández, 2021, Mangosta
-(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial008/)
+(`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial008/)`
 
 Y dentro de cada carpeta, imágenes correspondientes a gatos o a tigres.
 Las imágenes de cada carpeta deben ser distintas, además, cuanto mayor
@@ -929,7 +929,7 @@ servirán a la IA desde el cuaderno creado previamente.
 ![](https://assets.pubpub.org/wgns4eua/61625673067959.png)
 
 Acceso al código para docentes y estudiantes:
-mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc001/
+`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc001/`
 
 Una vez asociados los dos entornos, definimos qué rutas se van a
 utilizar, en este caso root_dir y base_dir.
@@ -937,7 +937,7 @@ utilizar, en este caso root_dir y base_dir.
 ![](https://assets.pubpub.org/pl2fhkbm/31625673138473.png)
 
 Acceso al código para docentes y estudiantes:
-mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc002/
+`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc002/`
 
 De igual manera, definimos el *path*, es decir, la ruta de nuestro
 directorio principal a utilizar.
@@ -945,18 +945,18 @@ directorio principal a utilizar.
 ![](https://assets.pubpub.org/txbrb2bk/51625673177577.png)
 
 Acceso al código para docentes y estudiantes:
-mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc003/
+`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc003/`
 
 Para realizar el entrenamiento del modelo de inteligencia artificial es
 necesario importar fastai. Restnet34 debe su nombre a "*residual*
 *network*" y se refiere a una red residual que fue introducida por
-Microsoft en 2015. Una vez que conocemos fast.ai, importamos la
+Microsoft en 2015. Una vez que conocemos `fast.ai`, importamos la
 biblioteca:
 
 ![](https://assets.pubpub.org/is4al43k/11625673261162.png)
 
 Acceso al código para docentes y alumnos:
-mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc004/
+`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc004/`
 
 Estas tres instrucciones sirven para importar las bibliotecas fastai y
 fastai vision completas, además del "**error_rate**" de **fastai
@@ -969,16 +969,16 @@ Una vez importadas las bibliotecas necesarias, comprobamos que nuestra
 configuración del cuaderno sea correcta. Para ello, imprimimos en
 pantalla una imagen aleatoria utilizando el *path *que hemos definido
 previamente y con las siguientes instrucciones: **open_image**(y la ruta
-de la imagen utilizando la variable *path*) e img.show*().*
+de la imagen utilizando la variable *path*) e `img.show`*().*
 
 ![](https://assets.pubpub.org/az5lhdcj/11625673319553.png)
 
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial: ResNet34, cuadernos Jupyter y Google Colaboratory por Adrián
 Hernández, 2021, Mangosta
-(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial013/)
+(`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial013/)`
 (.) Acceso al código para docentes y alumnos:
-mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc005/
+`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc005/`
 
 Cuando comprobamos que la imagen se muestra correctamente, creamos los
 datos (muestra de imágenes) que nuestro modelo va a utilizar. Para
@@ -992,7 +992,7 @@ tamaño de batch*, *escribimos el siguiente código:
 ![](https://assets.pubpub.org/aorskhqt/01625673401540.png)
 
 Acceso al código para docentes y alumnos:
-mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc006/
+`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc006/`
 
 En este caso el número 6, indica la cantidad de imágenes transitadas a
 la memoria al mismo tiempo. Una vez hemos asignado el batch size,
@@ -1002,7 +1002,7 @@ ello, utilizamos la siguiente celda de código:
 ![](https://assets.pubpub.org/hetwxijb/21625673441651.png)
 
 Acceso al código para docentes y alumnos:
-mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc007/
+`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc007/`
 
 En esta celda definimos la variable *data*, partiendo de la estructura
 de carpetas que hemos creado previamente (*Train, Validation *y *Test*)
@@ -1016,19 +1016,19 @@ nuestro modelo. Antes de eso, creamos el modelo y cargamos Resnet34,***
 ![](https://assets.pubpub.org/0g00s3vf/11625673495268.png)
 
 Acceso al código para docentes y alumnos:
-mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc008/
+`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc008/`
 
 Utilizamos cnn_learner y le indicamos el conjunto de datos a
-utilizar (*data*), el modelo que vamos a utilizar (**models.resnet34**)
+utilizar (*data*), el modelo que vamos a utilizar (**`models.resnet`34**)
 y además, queremos conocer el **error_rate importado
-anteriormente de **fastai.metrics*****. ***Esta línea de código, por
+anteriormente de **`fastai.metrics`*****. ***Esta línea de código, por
 tanto, nos sirve para crear y cargar nuestro modelo, por lo que el
 siguiente paso es entrenarlo. Para eso utilizamos:
 
 ![](https://assets.pubpub.org/og8h3rlo/01625673657619.png)
 
 Acceso al código para docentes y alumnos:
-mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc009/
+`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc009/`
 
 El número entre paréntesis indica el número de "***epoch***" que vamos a
 utilizar para el entrenamiento. Pero, ¿qué es un *epoch*? Llamamos
@@ -1042,9 +1042,9 @@ entrenamiento con 6 épocas, todas las imágenes de la carpeta *Train
 
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial por Adrián Hernández, 2021, Mangosta
-(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial018/)
+(`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial018/)`
 (.) Acceso al código para docentes y alumnos:
-mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial-resnet34-cuadernos-jupyter-y-google-colaboratoryc009bis/
+`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial-resnet34-cuadernos-jupyter-y-google-colaboratoryc009bis/`
 
 Al finalizar el entrenamiento obtendremos el error_rate final de
 nuestro modelo de entrenamiento. En el caso de la imagen superior sería
@@ -1060,7 +1060,7 @@ matriz de confusión donde se ve más claro utilizando:
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial: ResNet34, cuadernos Jupyter y Google Colaboratory por Adrián
 Hernández, 2021, Mangosta
-(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial-019/)
+(`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial-019/)`
 
 En esta matriz de confusión se comparan el eje de abscisas (eje X), las
 predicciones que realiza la Inteligencia Artificial (gatos o tigres) y
@@ -1077,7 +1077,7 @@ con la siguiente celda de código:
 ![](https://assets.pubpub.org/yvr8o8cj/11625673879783.png)
 
 Acceso al código para docentes y alumnos:
-mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc010/
+`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc010/`
 
 Entre paréntesis, indicamos la ruta y el nombre con el que vamos a
 guardar nuestro modelo. Una vez que el modelo está guardado, podemos
@@ -1089,15 +1089,15 @@ siguiente información:
 
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial por Adrián Hernández, 2021, Mangosta
-(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial020/) (URL: mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial020/)
+(`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial020/)` (URL: `mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial020/)`
 (.) Acceso al código para docentes y alumnos:
-mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc011/
+`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc011/`
 
 En este punto volvemos a utilizar el modelo almacenado en *learn *y le
 pasamos la imagen de la carpeta *Test*, en este caso la 520. Podemos
 imprimir la imagen dentro del propio Google Colab para verificar que
 realmente se cumple lo que la IA va a predecir en el siguiente paso.
-Para imprimir la imagen se utiliza **img.show(). **Para pedirle a la
+Para imprimir la imagen se utiliza **`img.show`(). **Para pedirle a la
 inteligencia artificial que analice la imagen que hemos cargado,
 tendremos que usar la siguiente línea de código:
 
@@ -1105,9 +1105,9 @@ tendremos que usar la siguiente línea de código:
 
 Crédito imagen: Proceso de detectar intrusiones con Inteligencia
 Artificial por Adrián Hernández, 2021, Mangosta
-(mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial021/)
+(`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificial021/)`
 (.) Acceso al código para docentes y alumnos:
-mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc012/
+`mangosta.org/proceso-de-detectar-intrusiones-con-inteligencia-artificialc012/`
 
 En este caso, volvemos a realizar una llamada a nuestro modelo con
 *learn *y utilizamos predict(img) para utilizar el modelo entrenado. El
@@ -1164,7 +1164,7 @@ si tiene o no una intrusión.
 ![](https://assets.pubpub.org/jczr0eqd/31625578022603.png)
 
 Crédito imagen: Diagrama entidad-relación por Diana Díaz, 2021, Mangosta
-(mangosta.org/diagrama-entidad-relacion/)
+(`mangosta.org/diagrama-entidad-relacion/)`
 
 Como podemos apreciar en la imagen este diagrama se compone de tres
 elementos fundamentales:
@@ -1205,7 +1205,7 @@ que la primary *key* de todas las tablas es nID.
 ![](https://assets.pubpub.org/onl3fq5t/61625578104797.png)
 
 Crédito imagen: Modelo físico por Diana Díaz, 2021, Mangosta
-(mangosta.org/modelo-fisico-2/)
+(`mangosta.org/modelo-fisico-2/)`
 
 **Uso de SQL y su sistema de gestión de base de datos**
 
@@ -1254,7 +1254,7 @@ Drupal.
 ![](https://assets.pubpub.org/zec01diq/11625578194737.png)
 
 Crédito de imagen: Instantánea de Dkan, 2021, Autoría de National Health
-Countil: getdkan.org/
+Countil: `getdkan.org/`
 
 Pero, ¿qué es drupal? Drupal es un *software* de gestión de contenidos
 (CMS), configurable que permite múltiples servicios como publicación de
@@ -1265,7 +1265,7 @@ editarlos en un entorno web.
 ![](https://assets.pubpub.org/jnr1rvsi/51625578254170.png)
 
 Crédito de imagen: Instantánea de Drupal, 2021, Autoría de Drupal:
-www.drupal.org/
+`www.drupal.org/`
 
 Ahora que hemos visto que ambos son similares pero DKAN es una versión
 *a priori *superior, consideramos más interesante el uso de esta
@@ -1294,28 +1294,28 @@ resto de tablas.
 ![](https://assets.pubpub.org/zj4ucxwz/51627036140694.jpeg)
 
 Crédito de imagen: Codificación SQL por Diana Díaz, 2021, Mangosta
-(mangosta.org/iii_codificacion-sql/) (.) Acceso al código para
-docentes y alumnos: mangosta.org/codificacion-sql001/
+(`mangosta.org/iii_codificacion-sql/)` (.) Acceso al código para
+docentes y alumnos: `mangosta.org/codificacion-sql001/`
 
 ![](https://assets.pubpub.org/pdv53nz3/61627036795988.jpeg)
 
 Crédito de imagen: Codificación SQL por Diana Díaz, 2021, Mangosta
-(mangosta.org/iv_codificacion-sql/) (.) Acceso al código para
-docentes y alumnos: mangosta.org/codificacion-sql002/
+(`mangosta.org/iv_codificacion-sql/)` (.) Acceso al código para
+docentes y alumnos: `mangosta.org/codificacion-sql002/`
 
 ### 8.2.- Codificación Java
 
 En este apartado se añade el código Java  con el que hemos
 accedido a la base de datos llamada "seguridad", así como el resultado
 de hacer una consulta en lenguaje SQL. En primer lugar, importamos la
-librería java.sql para usar la base de datos desde Eclipse:
+librería `java.sql` para usar la base de datos desde Eclipse:
 
 ![](https://assets.pubpub.org/owyoi87v/01627037225052.svg)
 
 Crédito de imagen: Codificación Java por Kimberly Riveros, 2021,
-Mangosta (mangosta.org/viii_codificacion-java/) (.) Acceso al
+Mangosta (`mangosta.org/viii_codificacion-java/)` (.) Acceso al
 código para docentes y estudiantes:
-mangosta.org/codificacion-java/
+`mangosta.org/codificacion-java/`
 
 Más adelante, es necesario asegurarnos de que el *driver *JDBC esté
 debidamente conectado. A continuación, establecemos la conexión con la
@@ -1324,9 +1324,9 @@ base de datos por medio de estas instrucciones:
 ![](https://assets.pubpub.org/p7r3aold/31627037492712.svg)
 
 Crédito de imagen: Codificación Java por Kimberly Riveros, 2021,
-Mangosta (mangosta.org/ix_codificacion-java/) (.) Acceso al
+Mangosta (`mangosta.org/ix_codificacion-java/)` (.) Acceso al
 código para docentes y estudiantes:
-mangosta.org/codificacion-java001/
+`mangosta.org/codificacion-java001/`
 
 La clase DriverManager tiene un método **String **que contiene la ruta
 de la base de datos. Es importante recordar que para ello hemos
@@ -1338,9 +1338,9 @@ nube, cambiando la ruta de la base de datos.
 ![](https://assets.pubpub.org/cshm9cw3/31627037871710.svg)
 
 Crédito de imagen: Codificación Java por Kimberly Riveros, 2021,
-Mangosta (mangosta.org/x_codificacion-java/) (.) Acceso al
+Mangosta (`mangosta.org/x_codificacion-java/)` (.) Acceso al
 código para docentes y estudiantes:
-mangosta.org/codificacion-java-002/
+`mangosta.org/codificacion-java-002/`
 
 Por defecto, el servidor MySQL abre el puerto 3306. Es necesario
 conectarse a este puerto si queremos consultar la base de datos que
@@ -1350,9 +1350,9 @@ ello, seguimos el paso mostrado en la siguiente figura:
 ![](https://assets.pubpub.org/htuxv3y7/21627038019469.svg)
 
 Crédito de imagen: Codificación Java por Kimberly Riveros, 2021,
-Mangosta (mangosta.org/xi_codificacion-java/) (.) Acceso al
+Mangosta (`mangosta.org/xi_codificacion-java/)` (.) Acceso al
 código para docentes y estudiantes:
-mangosta.org/codificacion-java-003/
+`mangosta.org/codificacion-java-003/`
 
 Asimismo, el objeto "Resulset" nos permite obtener los resultados de la
 consulta. En nuestro caso, nos mostrará todos los registros de la tabla
@@ -1361,9 +1361,9 @@ demandada, es decir, TDispositivo:
 ![](https://assets.pubpub.org/muv0jzkx/21627038200555.svg)
 
 Crédito de imagen: Codificación Java por Kimberly Riveros, 2021,
-Mangosta (mangosta.org/xii_codificacion-java/) (.) Acceso al
+Mangosta (`mangosta.org/xii_codificacion-java/)` (.) Acceso al
 código para docentes y estudiantes:
-mangosta.org/codificacion-java-004/
+`mangosta.org/codificacion-java-004/`
 
 Ahora, es necesario utilizar el bucle "while" y la variable
 "miResultset" para obtener todos los resultados de nuestra consulta.
@@ -1371,9 +1371,9 @@ Ahora, es necesario utilizar el bucle "while" y la variable
 ![](https://assets.pubpub.org/0bzjn5x0/01627038401615.svg)
 
 Crédito de imagen: Codificación Java por Kimberly Riveros, 2021,
-Mangosta (mangosta.org/xiii_codificacion-java/) (.) Acceso al
+Mangosta (`mangosta.org/xiii_codificacion-java/)` (.) Acceso al
 código para docentes y estudiantes:
-mangosta.org/codificacion-java-005/
+`mangosta.org/codificacion-java-005/`
 
 En caso de no establecer la conexión de la base de datos en eclipse, al
 ejecutar se mostrará por pantalla: "No funciona". Realizados todos los
@@ -1383,7 +1383,7 @@ consultado:
 ![](https://assets.pubpub.org/3k3p56y3/61627038571730.svg)
 
 Crédito de imagen: Codificación Java por Kimberly Riveros, 2021,
-Mangosta (mangosta.org/codificacion-java-2/)
+Mangosta (`mangosta.org/codificacion-java-2/)`
 
 ### 8.3.- Codificación Python
 
@@ -1396,9 +1396,9 @@ servidores MySQL.
 ![](https://assets.pubpub.org/wh9bwq66/71627038784686.jpeg)
 
 Crédito de imagen: Codificación Python por Kimberly Riveros y Diana
-Díaz, 2021, Mangosta (mangosta.org/i_codificacion-python/) (.)
+Díaz, 2021, Mangosta (`mangosta.org/i_codificacion-python/)` (.)
 Acceso al código para docentes y alumnos:
-(mangosta.org/ii_codificacion-python/)
+(`mangosta.org/ii_codificacion-python/)`
 
 Seguidamente, realizamos el mismo proceso con PyMySQL, otro paquete para
 la interacción con bases de datos MySQL. Y, una vez instalado, lo
@@ -1407,16 +1407,16 @@ importamos.
 ![](https://assets.pubpub.org/9rg2zmi8/41627038978912.jpeg)
 
 Crédito de imagen: Codificación Python por Kimberly Riveros y Diana
-Díaz, 2021, Mangosta (mangosta.org/iii_codificacion-python/)
+Díaz, 2021, Mangosta (`mangosta.org/iii_codificacion-python/)`
 (.) Acceso al código para docentes y alumnos:
-(mangosta.org/iv_codificacion-python/)
+(`mangosta.org/iv_codificacion-python/)`
 
 ![](https://assets.pubpub.org/uh3sh5vw/41627039441931.jpeg)
 
 Crédito de imagen: Codificación Python por Kimberly Riveros y Diana
-Díaz, 2021, Mangosta (mangosta.org/x_codificacion-python-2/)
+Díaz, 2021, Mangosta (`mangosta.org/x_codificacion-python-2/)`
 (.) Acceso al código para docentes y alumnos:
-(mangosta.org/iv_codificacion-python/)
+(`mangosta.org/iv_codificacion-python/)`
 
 Teniendo ya los paquetes necesarios, nos conectamos a la base de datos
 "seguridad". Para ello, creamos una variable llamada "miConexión" y
@@ -1428,9 +1428,9 @@ datos.
 ![](https://assets.pubpub.org/o8okcecj/21627111637287.jpeg)
 
 Crédito de imagen: Codificación Python por Kimberly Riveros y Diana
-Díaz, 2021, Mangosta (mangosta.org/xi_codificacion-python/)
+Díaz, 2021, Mangosta (`mangosta.org/xi_codificacion-python/)`
 (.) Acceso al código para docentes y alumnos:
-(mangosta.org/v_codificacion-python/)
+(`mangosta.org/v_codificacion-python/)`
 
 El siguiente paso es convertir esta variable en un cursor. Para eso,
 ejecutamos el cursor con la consulta que deseemos realizar.
@@ -1438,16 +1438,16 @@ ejecutamos el cursor con la consulta que deseemos realizar.
 ![](https://assets.pubpub.org/zl19ca89/71627112096520.jpeg)
 
 Crédito de imagen: Codificación Python por Kimberly Riveros y Diana
-Díaz, 2021, Mangosta (mangosta.org/xii_codificacion-python/)
+Díaz, 2021, Mangosta (`mangosta.org/xii_codificacion-python/)`
 (.) Acceso al código para docentes y alumnos:
-(mangosta.org/vi_codificacion-python/)
+(`mangosta.org/vi_codificacion-python/)`
 
 ![](https://assets.pubpub.org/6j2wxpgi/11627112343971.jpeg)
 
 Crédito de imagen: Codificación Python por Kimberly Riveros y Diana
-Díaz, 2021, Mangosta (mangosta.org/xiii_codificacion-python/)
+Díaz, 2021, Mangosta (`mangosta.org/xiii_codificacion-python/)`
 (.) Acceso al código para docentes y alumnos:
-(mangosta.org/vii_codigo-python/)
+(`mangosta.org/vii_codigo-python/)`
 
 Ya, para terminar, imprimimos por pantalla el resultado de la consulta.
 Y, una vez acabado el trabajo en la base de datos, cerramos la conexión.
@@ -1455,21 +1455,21 @@ Y, una vez acabado el trabajo en la base de datos, cerramos la conexión.
 ![](https://assets.pubpub.org/d5zmlpny/21627112638078.jpeg)
 
 Crédito de imagen: Codificación Python por Kimberly Riveros y Diana
-Díaz, 2021, Mangosta (mangosta.org/xiv_codificacion-python/)
+Díaz, 2021, Mangosta (`mangosta.org/xiv_codificacion-python/)`
 (.) Acceso al código para docentes y alumnos:
-(mangosta.org/viii_codificacion_python/)
+(`mangosta.org/viii_codificacion_python/)`
 
 ![](https://assets.pubpub.org/9l3y2l3v/11627112953790.jpeg)
 
 Crédito de imagen: Codificación Python por Kimberly Riveros, 2021,
-Mangosta (mangosta.org/x_codificacion-python/)
+Mangosta (`mangosta.org/x_codificacion-python/)`
 
 ![](https://assets.pubpub.org/u7k6giww/51627113251765.jpeg)
 
 Crédito de imagen: Codificación Python por Kimberly Riveros y Diana
-Díaz, 2021, Mangosta (mangosta.org/xv_codificacion-python/)
+Díaz, 2021, Mangosta (`mangosta.org/xv_codificacion-python/)`
 (.) Acceso al código para docentes y alumnos:
-(mangosta.org/ix_codificacion-python/)
+(`mangosta.org/ix_codificacion-python/)`
 
 # 9.-  *Interfaces*
 
@@ -1826,7 +1826,7 @@ ejecutarse nuestro *framework*, en un entorno de S.O. reducido.
   </tbody>
 </table>
 
-Crédito figura 2: versión actualizada y mejorada de «Características hardware. Reloj inteligente». Wikipedia, La enciclopedia libre, 15 de febrero de 2021. Consulta original: 18 de julio de 2021. URL de referencia conservada como texto plano: es.wikipedia.org/w/index.php?title=Reloj_inteligente&oldid=133248752.
+Crédito figura 2: versión actualizada y mejorada de «Características hardware. Reloj inteligente». Wikipedia, La enciclopedia libre, 15 de febrero de 2021. Consulta original: 18 de julio de 2021. URL de referencia conservada como texto plano: `es.wikipedia.org/w/index.php?title=Reloj_inteligente&oldid=133248752.`
 
 > El *framework* para cualquier *smartwatch* debe asumir que el estadio
 > de funcionamiento recomendado es el **estadio E2** (ejecución de la
@@ -1843,7 +1843,7 @@ contundente en la gama media del sector, son garantes y suficientes en
 general, con altas prestaciones tecnológicas y una baja economía de
 coste asociadas. Aunque las *tablets* parece que no terminan de
 conseguir un nicho final suficiente de mercado en función de algunos
-medidores asociados (Imagen 66 (#ne9cvxx4kmc)). Son durísimos rivales
+medidores asociados (Imagen 66). Son durísimos rivales
 los *smartphones* y los PC's para ellas; porque, en comparación, en la
 relación tecnología y precio éstas salen perdiendo probablemente. Las
 *tablets* actualmente, ¿parecen más un 'capricho útil' que una necesidad
@@ -1862,8 +1862,8 @@ transversal. Un todo en uno.
 
 **Crédito imagen:** «**Tendencias de Internet 2021. Estadísticas y
 hechos por países». VPNMentor. URL:**
-es.vpnmentor.com/blog/tendencias-de-internet-estadisticas-y-datos-en-los-estados-unidos-y-el-mundo/,
-Mangosta (mangosta.org/tendencias-2/)
+`es.vpnmentor.com/blog/tendencias-de-internet-estadisticas-y-datos-en-los-estados-unidos-y-el-mundo/,`
+Mangosta (`mangosta.org/tendencias-2/)`
 
 ## 11.2.2.- Domótica
 
@@ -1876,10 +1876,10 @@ que probable en «*Bus* inteligente».
 
 **Todos los sensores y actuadores están conectados a través de un cable
 bus.* *El sistema completo es denominado "sistema bus"**. Crédito
-imagen: «KNX Conocimientos básicos del estándar KNX». V9-14. KNX.org.
+imagen: «KNX Conocimientos básicos del estándar KNX». V9-14. `KNX.org`.
 Accesado el 22/07/2021. Url:
-www.knx.org/wAssets/docs/downloads/Marketing/Flyers/KNX-Basics/KNX-Basics_es.pdf,
-Mangosta (mangosta.org/conocimientos-basicos-2/)
+`www.knx.org/wAssets/docs/downloads/Marketing/Flyers/KNX-Basics/KNX-Basics_es.pdf,`
+Mangosta (`mangosta.org/conocimientos-basicos-2/)`
 
 Actualmente todo un espacio de tecnología de comunicaciones inalámbricas
 coexiste: Bluetooth, WiFi, RFID, NFC y otros. Aunque las morfologías de
@@ -1984,10 +1984,10 @@ acceso... Y un largo etcétera de actuadores y módulos.
 ![](https://assets.pubpub.org/gu01824o/71626926965330.png)
 
 **KNXnet/IP en el modelo de referencia OSI**. Crédito imagen: «KNX
-Conocimientos básicos del estándar KNX». V9-14. KNX.org. Accesado el
+Conocimientos básicos del estándar KNX». V9-14. `KNX.org`. Accesado el
 22/07/2021. Url:
-www.knx.org/wAssets/docs/downloads/Marketing/Flyers/KNX-Basics/KNX-Basics_es.pdf,
-Mangosta (mangosta.org/estandar-knx/)
+`www.knx.org/wAssets/docs/downloads/Marketing/Flyers/KNX-Basics/KNX-Basics_es.pdf,`
+Mangosta (`mangosta.org/estandar-knx/)`
 
 Los ensayos realizados en laboratorio aportan el conocimiento suficiente
 para inferir que el marco puede ser embebido en un
@@ -2001,8 +2001,8 @@ necesaria.
 
  **Montaje En* **Protoboard** *Del Sistema Pinguino.** Julio F. De
 la Cruz G. Accesado el 22/07/200121. Url:
-3.bp.blogspot.com/-JtZH7qb-j-w/UhLyWQdHLjI/AAAAAAAAAjQ/cjoKPWOIxsw/s1600/image7923.png,
-Mangosta (mangosta.org/montaje-en-protoboard/)
+`3.bp.blogspot.com/-JtZH7qb-j-w/UhLyWQdHLjI/AAAAAAAAAjQ/cjoKPWOIxsw/s1600/image7923.png,`
+Mangosta (`mangosta.org/montaje-en-protoboard/)`
 
 El diseño de este dispositivo domótico DIID se concibe como una
 *appliance* que reúne como mínimo los requisitos
@@ -2205,7 +2205,7 @@ Esta necesidad queda vinculada a la línea matemática posterior:
 - Nuevas matemáticas del Sistema Vectorial SV y Física factual como conjunto iniciador. DOI: 10.21428/39829d0b.67195860.
 - Conjunto matemático unificado del cambio factual, ciclos, medición factual y trayectorias poligonales de activación en el Sistema Vectorial SV. DOI: 10.21428/39829d0b.2b3c9808.
 - Fundamentos operatorios absolutos del electromagnetismo factual en el Sistema Vectorial SV. DOI: 10.21428/39829d0b.0cb6137e.
-- Álgebra de composición intercelular del Sistema Vectorial SV. DOI: 10.21428/39829d0b.4ebab177. Página pública: www.itvia.online/algebra-de-composicion-intercelularl-sv.
+- Álgebra de composición intercelular del Sistema Vectorial SV. DOI: 10.21428/39829d0b.4ebab177. Página pública: `www.itvia.online/algebra-de-composicion-intercelularl-sv.`
 
 La consecuencia conceptual es precisa: el tiempo puede entrar como medida, registro o comparación, pero no como primitivo de la lectura. El SV no empieza preguntando cuándo ocurre algo, sino qué dominio está declarado, qué cambia, bajo qué frontera, con qué traza, qué residual deja y qué retorno permite. Esta inversión evita que el tiempo, la estadística o la inferencia opaca ocupen el lugar de fundamento.
 
@@ -2227,7 +2227,7 @@ ningún proyecto que pudiera aportarle financiación, ni tampoco bajo el
 patrocinio o esponsorización de ninguna marca u otra similar. Cada uno
 de los autores se representa así mismo, y actúa de forma independiente.
 Asimismo se declara la intención futura de lanzar un *software* definido
-en la url mangosta.org, y que a su vez este dominio y su *hosting
+en la url `mangosta.org`, y que a su vez este dominio y su *hosting
 *sirven como herramienta de esta publicación para lograr mejoras
 técnicas limitadas en esta plataforma.
 
@@ -2251,21 +2251,21 @@ técnicas limitadas en esta plataforma.
 
 Licencia: Attribution-NonCommercial-NoDerivatives 4.0 International (CC
 BY-NC-ND
-4.0) (URL: creativecommons.org/licenses/by-nc-nd/4.0/)
+4.0) (URL: `creativecommons.org/licenses/by-nc-nd/4.0/)`
 
 # IX.- Agradecimientos
 
--   IES La Arboleda, Alcorcón, Madrid. www.laarboleda.es/ por
+-   IES La Arboleda, Alcorcón, Madrid. `www.laarboleda.es/` por
     contribuir con docentes del Departamento de Informática, y alumnado
     de 1º de Desarrollo de Aplicaciones Multiplataforma (DAM) y de 2º de
     Sistemas Microinformáticos en Red (SMR). Asimismo por el apoyo de
     todo el equipo directivo del instituto. Y por los recursos
     aportados, parte de éstos están / fueron expuestos en
-    arboledalan.net/ciberseguridad/
+    `arboledalan.net/ciberseguridad/`
 
 -   Biblioteca Regional de Murcia, por la ayuda a la difusión de la
     actividad:
-    bibliotecaregional.carm.es/agenda/presentacion-biblia-de-la-ia-ai-bible-publicacion-sobre-inteligencia-artificial/
+    `bibliotecaregional.carm.es/agenda/presentacion-biblia-de-la-ia-ai-bible-publicacion-sobre-inteligencia-artificial/`
 
 -   A título póstumo a *sir* Isaac Newton,  por
     enseñarnos a mirar y educarnos en la manera de hacerlo: «He sido
@@ -2274,55 +2274,24 @@ BY-NC-ND
     concha más bonita, mientras el gran océano de la verdad se extiende
     sin descubrir ante mis ojos».
 
-[^1]: Para no perjudicar al idioma español, se usará en adelante de
-    forma indistinta la palabra «Framework» inglesa y la palabra «Marco»
-    del idioma español.
-
-[^2]: «La inteligencia artificial, AI (del inglés, *artificial
-    intelligence*), es realmente el campo más prometedor, que ofrece una
-    serie de ámbitos en los que se han utilizado sistemas de
-    multivaluados, MVL (del inglés, *multi-valued logics*) debido a su
-    posibilidad para abarcar un rango más amplio de estados.
-
-    Una primera área de aplicación la encontramos muy relacionada con la
-    posibilidad de representar preocupaciones, sentido común,
-    razonamientos, etc. por medio herramientas matemáticas como
-    conjuntos difusos y lógica difusa (del inglés, *fuzzy logic*).
-
-    Una segunda área de aplicación, relacionada con la anterior viene
-    dada por la automatización de datos y minería de conocimiento. Aquí,
-    merecen especial mención los métodos de *clustering* (procedimiento
-    basado en la unión de vectores que reúnen una determinada
-    característica). En este contexto también se están desarrollando
-    técnicas que automatizen sistemas MVL, así como en los métodos de la
-    lógica de programación para dichos sistemas. Parte de esta tendencia
-    se debe al desarrollo reciente de las lógicas de descripción
-    generalizada, llamadas lógicas de descripción difusa, que permiten
-    la inserción de herramientas técnicas (grados de verdad, conectivas,
-    predicados graduales) procedentes de MVL.». Lógica trivalente.
-    (2021, 22 de mayo). *Wikipedia, La enciclopedia libre*. Fecha de
-    consulta: 14:58, julio 14, 2021
-    desde es.wikipedia.org/w/index.php?title=L%C3%B3gica_trivalente&oldid=135730214.
-
-[^3]: «Los gráficos radiales comparan varias variables cuantitativas y
-    son útiles para visualizar qué variables tienen valores similares, o
-    si existen valores atípicos entre las variables. Los gráficos
-    radiales se componen de una secuencia de radios, con cada radio que
-    representa una sola variable. Los gráficos radiales también son
-    útiles para determinar qué variables están puntuando alto o bajo
-    dentro de un conjunto de datos». Fuente: IBM, "Gráficos radiales"
-    accesible en
-    www.ibm.com/docs/es/spss-statistics/version-missing?topic=types-radar-charts
-
-[^4]: «Investigadores de la Universidad George Washington, junto con
-    investigadores de la Universidad de California, Los Ángeles, y la
-    startup de tecnología profunda Optelligence LLC, han desarrollado un
-    acelerador de red neuronal convolucional óptico capaz de procesar
-    grandes cantidades de información, del orden de petabytes, por
-    segundo. Esta innovación, que aprovecha el paralelismo masivo de la
-    luz, presagia una nueva era de procesamiento de señales ópticas para
-    el aprendizaje automático con numerosas aplicaciones, que incluyen
-    automóviles autónomos, redes 5G, centros de datos, diagnósticos
-    biomédicos, seguridad de datos y más.». *Developing Smarter, Faster
-    Machine Intelligence with Light.* Universidad George Washington.
-    17/12/2020.
+## Notas internas de la publicación
+<div class="notas-internas-sv">
+<div id="nota-1" class="nota-interna-sv">
+<p><strong>1.</strong> <a href="#nota-ref-1">↩</a></p>
+<p>Para no perjudicar al idioma español, se usará en adelante de forma indistinta la palabra «Framework» inglesa y la palabra «Marco» del idioma español.</p>
+</div>
+<div id="nota-2" class="nota-interna-sv">
+<p><strong>2.</strong> <a href="#nota-ref-2">↩</a></p>
+<p>«La inteligencia artificial, AI (del inglés, <em>artificial intelligence</em>), es realmente el campo más prometedor, que ofrece una serie de ámbitos en los que se han utilizado sistemas de multivaluados, MVL (del inglés, <em>multi-valued logics</em>) debido a su posibilidad para abarcar un rango más amplio de estados.</p>
+<p>Una primera área de aplicación la encontramos muy relacionada con la posibilidad de representar preocupaciones, sentido común, razonamientos, etc. por medio herramientas matemáticas como conjuntos difusos y lógica difusa (del inglés, <em>fuzzy logic</em>).</p>
+<p>Una segunda área de aplicación, relacionada con la anterior viene dada por la automatización de datos y minería de conocimiento. Aquí, merecen especial mención los métodos de <em>clustering</em> (procedimiento basado en la unión de vectores que reúnen una determinada característica). En este contexto también se están desarrollando técnicas que automatizen sistemas MVL, así como en los métodos de la lógica de programación para dichos sistemas. Parte de esta tendencia se debe al desarrollo reciente de las lógicas de descripción generalizada, llamadas lógicas de descripción difusa, que permiten la inserción de herramientas técnicas (grados de verdad, conectivas, predicados graduales) procedentes de MVL.». Lógica trivalente. (2021, 22 de mayo). <em>Wikipedia, La enciclopedia libre</em>. Fecha de consulta: 14:58, julio 14, 2021 desde `es.wikipedia.org/w/index.php?title=L%C3%B3gica_trivalente&amp;oldid=135730214.`</p>
+</div>
+<div id="nota-3" class="nota-interna-sv">
+<p><strong>3.</strong></p>
+<p>«Los gráficos radiales comparan varias variables cuantitativas y son útiles para visualizar qué variables tienen valores similares, o si existen valores atípicos entre las variables. Los gráficos radiales se componen de una secuencia de radios, con cada radio que representa una sola variable. Los gráficos radiales también son útiles para determinar qué variables están puntuando alto o bajo dentro de un conjunto de datos». Fuente: IBM, "Gráficos radiales" accesible en `www.ibm.com/docs/es/spss-statistics/version-missing?topic=types-radar-charts`</p>
+</div>
+<div id="nota-4" class="nota-interna-sv">
+<p><strong>4.</strong></p>
+<p>«Investigadores de la Universidad George Washington, junto con investigadores de la Universidad de California, Los Ángeles, y la startup de tecnología profunda Optelligence LLC, han desarrollado un acelerador de red neuronal convolucional óptico capaz de procesar grandes cantidades de información, del orden de petabytes, por segundo. Esta innovación, que aprovecha el paralelismo masivo de la luz, presagia una nueva era de procesamiento de señales ópticas para el aprendizaje automático con numerosas aplicaciones, que incluyen automóviles autónomos, redes 5G, centros de datos, diagnósticos biomédicos, seguridad de datos y más.». <em>Developing Smarter, Faster Machine Intelligence with Light.</em> Universidad George Washington. 17/12/2020.</p>
+</div>
+</div>
