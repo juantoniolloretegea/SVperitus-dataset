@@ -1,8 +1,8 @@
 # Orientación universal y geográfica, potencial del suceso e interfaz de dominio desde el Universo y los seres biológicos: humanoide definido por el Sistema Vectorial SV
 **Diferencia polar, campo, determinación etaria, tránsito ternario y autogobierno orientativo bajo frame, suceso, residual y retorno**
 
-## Índice
-Prefacio``
+## Índice  
+Prefacio  
 0. Resumen
 0.1. Abstract
 0.2. Palabras clave y keywords
