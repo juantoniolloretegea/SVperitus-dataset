@@ -1,9 +1,17 @@
 # Orientación universal y geográfica, potencial del suceso e interfaz de dominio desde el Universo y los seres biológicos: humanoide definido por el Sistema Vectorial SV
 **Diferencia polar, campo, determinación etaria, tránsito ternario y autogobierno orientativo bajo frame, suceso, residual y retorno**
 
-## Índice  
-Prefacio 
+## Prefacio
+El término humanoide se emplea en este trabajo a partir de su uso común, pero no queda limitado por él. En la lengua general, [humanoide](https://dle.rae.es/humanoide) designa aquello que presenta forma o rasgos del ser humano. Esa acepción permite reconocer el punto de partida del término, aunque no basta para el alcance técnico que aquí se desarrolla. Cuando el análisis incorpora inteligencia artificial, agentes especializados, interfaces de dominio y orientación formal, el concepto necesita una delimitación más precisa.
 
+En el Sistema Vectorial SV, humanoide se trata como soporte técnico cuya relación con lo humano debe quedar definida por dominio declarado, estructura de soporte, capacidades operativas, interfaces, transducción, orientación, residual y retorno. La forma humana o la semejanza funcional pueden ser relevantes, pero no bastan para decidir el concepto. La pregunta central no es sólo qué rasgos presenta, sino qué dominio puede recibir, qué [interfaz](https://dle.rae.es/interfaz) lo conecta con ese dominio, qué tipo de tránsito puede sostener y bajo qué condiciones devuelve cierre, no admisión o indeterminación honesta.
+
+La interfaz ocupa aquí una función decisiva. Puede entenderse, en sentido general, como conexión o frontera común entre sistemas; en este estudio, además, se formula como condición de entrada de dominio. Una interfaz no se reduce a canal técnico de comunicación. Permite que una estructura externa ingrese en un soporte bajo condiciones de lectura, transformación y retorno. Por eso, un agente especializado sólo actúa con rigor cuando su dominio está declarado, sus capacidades están delimitadas y su operación conserva frontera, residual y dictamen. Una arquitectura multiagente sólo procede cuando varias capacidades o agentes diferenciados se articulan de forma tipada dentro de un régimen común de operación.
+
+La orientación introduce el punto de unión entre seres biológicos, humano, inteligencia artificial y humanoide. En los soportes vivos aparece como tránsito por dominio mediante señales, fronteras, potenciales, interfaces, residuales y retornos. En el humano añade lenguaje, memoria, territorio, vínculo y formalización. En el humanoide definido por el Sistema Vectorial SV, sólo podrá admitirse cuando esas condiciones se traduzcan a terna, frame, suceso, interfaz, trayectoria y dictamen. Por ello, el humanoide no se coloca al comienzo de la investigación, sino al final de una cadena previa: Universo, observables, seres biológicos, humano y soporte técnico orientable.
+
+## Índice
+Prefacio
 0. Resumen
 0.1. Abstract
 0.2. Palabras clave y keywords
@@ -101,22 +109,17 @@ Prefacio
 13.2. Bibliografía exterior subordinada
 13.3. Conjuntos externos de contraste, datación y orientación comparada
 
-## Prefacio
-De acuerdo a la RAE 'Humanoide' se define como que tiene forma o características del ser humano. La definición internacionalmente más admitida y estandarizada de Inteligencia Artificial (IA), promovida por organismos como la UNESCO, la Unión Europea y la RAE (Real Academia Española), es "Disciplina científica y campo de la informática que se ocupa de crear sistemas y programas informáticos capaces de realizar operaciones y funciones comparables a las que realiza la mente humana.". interfaz es defino por la RAE como "Conexión o frontera común entre dos aparatos o sistemas independientes", y "Conexión, física o lógica, entre una computadora y el usuario, un dispositivo periférico o un enlace de comunicaciones".
-Asimismo un agente especializado puede definirse como una Inteligencia Artificial que tiene capacidades específicas y definidas dentro de un dominio declarado. De manera que si el dominio se amplía de rango y o de alcance, puede ser denominado como multiagente de acuerdo a [*Estatuto del universo de sucesos, admisibilidad suficiente y composición tipada de agentes especializados en el Sistema Vectorial SV*](https://www.itvia.online/pub/estatuto-del-universo-de-sucesos-admisibilidad-suficiente-y-composicion-tipada-de-agentes-especializados-en-el-sistema-vectorial-sv/release/2?readingCollection=6a6c03e4)
-La estructura de soporte es sin duda una forma de identificar uno del otro, también sus capacidades que a su vez proporcionan determinadas interfaces. Es por lo tanto un cruce de caminos, o una frontera, que en una forma generalizada un humanoide es aquello con forma humana, y conducta humana, por lo menos en apariencia. El SV introduce un elemento importante para todo ser biológico: la orientación.Esta capacidad biológica, que a lo largo del trabajo se define y delimita, conjuntamente con otras interfaces ya definidas en el [*Programa de interfaces del Sistema Vectorial SV*](https://www.itvia.online/programa-de-interfaces-del-sistema-vectorial) (y otras aún por definir, por ejemplo oído y tacto), da licencia suficiente al SV para según que contextos usar el término Agente Especializado, Inteligencia Artificial o humanoide. En todo caso el dominio será siempre declarado. Si bien éste ultimo de forma rigurosoa necesita de una estructura en principio simétrica y definida con la misma morfología del humano, no impide que esta definición y licencia del SV sea formulada.
-
 ## 0. Resumen
 En este estudio se formula la orientación como tránsito autogobernado de dominio, no como GPS biológico, instinto, mapa externo, sensor aislado ni aprendizaje estadístico. El punto de partida es el Universo Épsilon-Atlas —universo físico realizado bajo referencia de suceso ε₀ y proyección Atlas—: todo observable distinguible comparece con dominio, frontera, traza, potencial de suceso, diferencia polar, intensidad, residual y retorno. Bajo esa lectura, la orientación no nace en el humanoide ni en una técnica de navegación, sino en la estructura misma del suceso cuando una diferencia de potencial puede dirigir una trayectoria hacia cierre, conservación, retorno o reorganización. La formulación se articula en tres líneas convergentes: orientación como tránsito de dominio; campo-orientación como interfaz de transducción de estructuras que el humano ordinario no percibe necesariamente; y potencial del suceso como causa directriz fundada en diferencia polar, intensidad, predominancia y anulación diferencial. La U —indeterminación honesta— no actúa como motor, no es probabilidad, no es inferencia, tampoco se basa en el tiempo como primitiva, aunque lo admita como herramienta de retorno, ni decide por sí misma la dominancia de uno de los dos polos; opera como signo de no clausura honesta resultante de la imperfección o de la tensión no resuelta entre polos (μ,λ).
 Se distingue una cadena de formalización: Universo Épsilon-Atlas, observables del universo físico, entes biológicos, humano y humanoide. La ciencia contemporánea intervendrá sólo como conjunto externo de contraste y especificación de subdominios cuando aporte datación fuerte, dominio, método, unidad, incertidumbre, frontera, residual y retorno. Paleontología, geología, estratigrafía, técnicas isotópicas, navegación animal, migración y neuroetología comparada pueden aportar datos relevantes, pero no sustituyen el sistema interno del SV. La determinación etaria procede primero del régimen autorizado por el SV; después se contrasta con datos externos, y el dictamen conserva 0, 1 o U según dominio y residual.
-Se propone proyectar la coordenada etaria de comparecencia de los observables sobre la Recta Atlas del SV, denominada también Lanzadera Ómicron-2 cuando opera como prolongación de cálculo sobre la Línea Umbral SV. La igualdad polar μ=λ no se identifica con el origen absoluto. Por ejemplo, (0,0), (5,5) y (64,64) comparten anulación diferencial, pero no intensidad. Esa distinción permite diferenciar origen, clase, especie, familia, grupo, individuo, montaña, estrella, planeta o soporte vivo por potencial, intensidad, frontera y traza. El cálculo orientativo se ordena mediante P(e)=μ(e)−λ(e) e I(e)=μ(e)+λ(e), con una escala acotada que permite situar observables primitivos, dominios físicos, especies biológicas e individuos sin introducir tiempo rector ni probabilidad fundante.
+La tesis propone proyectar la coordenada etaria de comparecencia de los observables sobre la Recta Atlas del SV, denominada también Lanzadera Ómicron-2 cuando opera como prolongación de cálculo sobre la Línea Umbral SV. La igualdad polar μ=λ no se identifica con el origen absoluto. Por ejemplo, (0,0), (5,5) y (64,64) comparten anulación diferencial, pero no intensidad. Esa distinción permite diferenciar origen, clase, especie, familia, grupo, individuo, montaña, estrella, planeta o soporte vivo por potencial, intensidad, frontera y traza. El cálculo orientativo se ordena mediante P(e)=μ(e)−λ(e) e I(e)=μ(e)+λ(e), con una escala acotada que permite situar observables primitivos, dominios físicos, especies biológicas e individuos sin introducir tiempo rector ni probabilidad fundante.
 La conclusión final es que los entes biológicos se orientan porque sus interfaces transducen potenciales, campos, gradientes, fronteras y diferencias de dominio según su soporte propio. La golondrina, el salmón, la ballena, el reptil, el perro o el humano no fundan la teoría: la ejemplifican en dominios distintos. Un humanoide, en el SV, aparece finalmente como formalización técnica de esa cadena. No recibe el universo como enciclopedia externa, sino como semántica de tránsito: traduce observables a terna, frame, suceso, interfaz, residual y retorno. Sólo así puede orientarse legítimamente dentro del Universo Épsilon-Atlas.
 Se incorpora además una matriz específica de individuación potencial: dos individuos de una misma especie pueden compartir potencial base de régimen, intensidad etaria y pertenencia común, pero quedar distinguidos por vector singular de identidad, posición, estado, memoria, vínculo, ruta, interfaz y residual. Esa distinción impide confundir igualdad de especie con identidad de individuo y evita declarar un `δ_i` numérico cuando no existe magnitud singular declarada.
 ### 0.1. Abstract
-Orientation is formulated within the Vectorial System SV as self-governed domain transit, not as biological GPS, instinct, external map, isolated sensor, or statistical learning. The starting point is the Epsilon-Atlas Universe: the realized physical universe under reference to event ε₀ and Atlas projection. Every distinguishable observable appears under domain, boundary, trace, event potential, polar difference, intensity, residual, and return. From this perspective, orientation does not originate in the humanoid or in a navigation technique, but in the structure of the event itself whenever a difference of potential can direct a trajectory toward closure, preservation, return, or reorganization. U is not treated as a motor, probability, or inference, nor is it grounded in time as a primitive; it operates as a mark of honest non-closure resulting from imperfection or unresolved polar tension.
-The formal sequence is strict: Epsilon-Atlas Universe, observables of that universe, biological beings, human beings, and finally the humanoid. Contemporary science enters only as an external set for contrast and subdomain specification when it provides strong dating, declared domain, method, unit, uncertainty, boundary, residual, and return. Paleontology, geology, stratigraphy, isotopic techniques, animal navigation, migration, and comparative neuroethology may provide relevant data, but they do not replace the internal system of SV. Age-related determination first proceeds from the regime authorized by SV; it is then contrasted with external data, and the verdict preserves 0, 1, or U according to domain and residual.
-The age-related coordinate of observables is projected onto the Atlas Line of SV, also called Omicron-2 Launcher when it operates as a continuation of calculation over the SV Threshold Line. The polar equality μ=λ is not identical to absolute origin: (0,0), (5,5), and (64,64) share differential cancellation, but not intensity. The orientative calculation is ordered through P(e)=μ(e)−λ(e), I(e)=μ(e)+λ(e), and the Atlas potential unit u_AT(η,Q). Route vectors are named according to local, national, international, and cosmic scope, and each route is expressed as a vector of Atlas components without numerical closure of δ_i unless a declared magnitude, trace, or external contrast set supports it.
-The final thesis is that biological beings orient themselves because their interfaces transduce potentials, fields, gradients, boundaries, and domain differences according to their own support. The Arctic tern, swallow, salmon, humpback whale, Serengeti–Mara migratory ungulate, desert insect, dog, or human being do not found the theory; they exemplify it across distinct domains and routes. The SV humanoid appears only at the end as the technical formalization of this chain. It does not receive the universe as an external encyclopedia, but as transit semantics: it translates observables into ternary values, frame, event, interface, potential, trajectory, residual, and return. Only in this way can it legitimately orient itself within the Epsilon-Atlas Universe. An individual-potential matrix is also incorporated: two individuals of the same species may share the same regime base, age-related intensity, and species membership, while remaining distinguishable through a singular vector of identity, position, state, memory, bond, route, interface, and residual. This prevents species-level equality from being confused with individual identity and blocks numerical closure of `δ_i` unless a singular declared magnitude supports it.
+This study formulates orientation within the Vectorial System SV as self-governed domain transit, not as biological GPS, instinct, external map, isolated sensor, or statistical learning. Its starting point is the Epsilon-Atlas Universe: the realized physical universe under reference to event ε₀ and Atlas projection. Every distinguishable observable appears under domain, boundary, trace, event potential, polar difference, intensity, residual, and return. From this perspective, orientation does not originate in the humanoid or in a navigation technique, but in the structure of the event itself whenever a difference of potential can direct a trajectory toward closure, preservation, return, or reorganization. U is not treated as a motor, probability, or inference, nor is it grounded in time as a primitive; it operates as a mark of honest non-closure resulting from imperfection or unresolved polar tension.
+The study follows a strict sequence of formalization: Epsilon-Atlas Universe, observables of that universe, biological beings, human beings, and finally the humanoid. Contemporary science enters only as an external set for contrast and subdomain specification when it provides strong dating, declared domain, method, unit, uncertainty, boundary, residual, and return. Paleontology, geology, stratigraphy, isotopic techniques, animal navigation, migration, and comparative neuroethology may provide relevant data, but they do not replace the internal system of SV. Age-related determination first proceeds from the regime authorized by SV; it is then contrasted with external data, and the verdict preserves 0, 1, or U according to domain and residual.
+The study projects the age-related coordinate of observables onto the Atlas Line of SV, also called Omicron-2 Launcher when it operates as a continuation of calculation over the SV Threshold Line. The polar equality μ=λ is not identical to absolute origin: (0,0), (5,5), and (64,64) share differential cancellation, but not intensity. The orientative calculation is ordered through P(e)=μ(e)−λ(e), I(e)=μ(e)+λ(e), and the Atlas potential unit u_AT(η,Q). Route vectors are named according to local, national, international, and cosmic scope, and each route is expressed as a vector of Atlas components without numerical closure of δ_i unless a declared magnitude, trace, or external contrast set supports it.
+The final thesis states that biological beings orient themselves because their interfaces transduce potentials, fields, gradients, boundaries, and domain differences according to their own support. The Arctic tern, swallow, salmon, humpback whale, Serengeti–Mara migratory ungulate, desert insect, dog, or human being do not found the theory; they exemplify it across distinct domains and routes. The SV humanoid appears only at the end as the technical formalization of this chain. It does not receive the universe as an external encyclopedia, but as transit semantics: it translates observables into ternary values, frame, event, interface, potential, trajectory, residual, and return. Only in this way can it legitimately orient itself within the Epsilon-Atlas Universe. This study also incorporates an individual-potential matrix: two individuals of the same species may share the same regime base, age-related intensity, and species membership, while remaining distinguishable through a singular vector of identity, position, state, memory, bond, route, interface, and residual. This prevents species-level equality from being confused with individual identity and blocks numerical closure of `δ_i` unless a singular declared magnitude supports it.
 ### 0.2. Palabras clave y keywords
 Palabras clave: Sistema Vectorial SV; Universo Épsilon-Atlas; Recta Atlas; Lanzadera Ómicron-2; orientación; potencial del suceso; Línea Umbral SV; unidades de potencial Atlas; u_AT(η,Q); rutas SV; campo; interfaz de dominio; observables; diferencia polar; intensidad; determinación etaria; terna {0,1,U}; frame; suceso; residual; retorno; entes biológicos; humano; humanoide; semántica de tránsito; individuación potencial; diferencial singular.
 Keywords: Vectorial System SV; Epsilon-Atlas Universe; Atlas Line; Omicron-2 Launcher; orientation; event potential; SV Threshold Line; Atlas potential units; u_AT(η,Q); SV routes; field; domain interface; observables; polar difference; intensity; age-related determination; ternary alphabet {0,1,U}; frame; event; residual; return; biological beings; human being; humanoid; transit semantics; potential individuation; singular differential.
@@ -139,7 +142,7 @@ La orientación universal aparece cuando un observable o soporte transita un dom
 La orientación geográfica no debe reducirse a geografía terrestre ni a cartografía convencional. Aquí, geográfica significa situada: orientación en un dominio concreto, con medio, región, frontera, trayectoria y retorno. Puede haber orientación geográfica en el aire, en el mar, en el desierto, en una cuenca fluvial, en un territorio animal, en una región geológica, en un entorno humano o en un espacio operativo del humanoide. Lo geográfico designa aquí localización efectiva bajo dominio, no simple dibujo de mapas.
 Un ave migratoria no atraviesa una abstracción geométrica: atraviesa capas de aire, gradientes, campos, vientos, referencias astronómicas, polarización, memoria de dominio, obstáculos y regiones de tránsito. Un salmón no retorna a una idea general de río: retorna a un dominio de origen con firma física, química, geográfica y biológica. Una ballena no se mueve por un océano indiferenciado: transita rutas, masas de agua, señales acústicas, campos, corrientes, profundidad, vínculo y retorno. Un reptil o insecto del desierto no opera en vacío: transduce luz, temperatura, textura, inclinación, campo, humedad, viento, memoria de recorrido y frontera. La ausencia de referencias visuales humanas no equivale a ausencia de estructura.
 La localización efectiva exige declarar el dominio. Sin dominio no hay orientación geográfica, sólo desplazamiento. Sin frontera no hay entrada ni salida. Sin retorno no hay cierre. Sin residual no hay evaluación de la trayectoria. Por eso, la orientación geográfica dentro del SV no se limita a saber “dónde está” un soporte. Exige saber qué tránsito realiza, bajo qué potencial, con qué interfaz, sobre qué frontera, con qué residual y hacia qué retorno.
-Esta definición permite unir la orientación biológica con la orientación humanoide sin copiar órganos, instintos ni sensores. El humanoide no necesita tener biología de golondrina, salmón o ballena. Necesita transducir dominio, clasificar indeterminaciones, conservar potencial directriz, calcular residual y sostener trayectoria. Lo geográfico, en él, será la capacidad de situarse en un dominio real sin reducir el universo a coordenadas externas ni a una enciclopedia previa.
+Esta definición permite unir la orientación biológica con la orientación humanoide sin copiar órganos, instintos ni sensores. La orientación humanoide no exige biología de golondrina, salmón o ballena. Exige transducción de dominio, clasificación de indeterminaciones, conservación de potencial directriz, cálculo de residual y trayectoria sostenida. Lo geográfico, en ese soporte, será la capacidad formal de situarse en un dominio real sin reducir el universo a coordenadas externas ni a una enciclopedia previa.
 ### 1.4. Error humano de percepción: lo no detectado por los sentidos humanos no queda por ello excluido del dominio real
 El humano posee interfaces sensoriales potentes, pero limitadas. La vista, el oído, el tacto, el olfato y el gusto no agotan lo real. Tampoco lo agotan los instrumentos que el humano diseña desde sus propias categorías iniciales. La historia de la ciencia muestra que muchos dominios físicos fueron reconocidos cuando se construyó la interfaz adecuada para medirlos, no cuando los sentidos ordinarios los percibieron. El error consiste en confundir ausencia de percepción humana con ausencia de estructura.
 Ese error se vuelve especialmente grave en orientación. Si el humano no detecta una diferencia de dominio, tiende a explicar la orientación animal mediante etiquetas parciales: instinto, olor, memoria, azar, aprendizaje, magnetismo o señal aislada. Cada una puede contener parte de verdad, pero ninguna sustituye la pregunta central: qué estructura real está siendo transducida por el soporte orientado. Allí donde el humano sólo ve cielo, mar, arena o distancia, puede haber campos, gradientes, polarizaciones, firmas químicas, resonancias, fronteras, texturas, intensidades, memorias de dominio y diferencias de potencial.
@@ -148,7 +151,7 @@ La orientación universal y geográfica se sitúa precisamente en ese punto. No 
 ### 1.5. Tesis central de la investigación
 La tesis central puede formularse así: la orientación es tránsito autogobernado por potencial del suceso en un dominio declarado, en continuidad con la formulación del potencial del suceso y del régimen de sucesos generadores del SV (Lloret Egea, 2026a, 2026c). Ese tránsito puede manifestarse en observables no biológicos, en seres vivos, en vínculos humanos y, finalmente, en un humanoide definido por el Sistema Vectorial SV. La diferencia entre esos casos no está en el patrón general, sino en el soporte, la interfaz, el dominio y la forma de retorno.
 La orientación universal aporta el patrón formal: todo observable distinguible comparece con potencial, intensidad, frontera, traza, residual y retorno. La orientación geográfica aporta la localización efectiva: un soporte transita un dominio concreto, con medio, frontera, trayectoria y cierre posible. El campo y la interfaz de dominio aportan el cómo: el soporte transduce estructuras reales que pueden no coincidir con la percepción humana ordinaria. El potencial del suceso aporta el porqué: una diferencia de potencial puede dirigir tránsito, conservación, retorno, predominancia o reorganización.
-El humanoide definido por el Sistema Vectorial SV entra al final porque no puede aprender lo que antes no ha sido formalizado. No recibe el universo como base externa de datos ni como suma de señales. Recibe dominios transducibles, observables distinguibles, potenciales de suceso, frames, interfaces, indeterminaciones, trayectorias, residuales y retornos. Su orientación legítima dependerá de que pueda traducir esa estructura a terna, suceso y semántica de tránsito sin clausurar U indebidamente.
+El humanoide definido por el Sistema Vectorial SV entra al final porque no debe tratar como cerrado aquello que no ha sido previamente formalizado. No recibe el universo como base externa de datos ni como suma de señales, sino como dominios transducibles, observables distinguibles, potenciales de suceso, frames, interfaces, indeterminaciones, trayectorias, residuales y retornos. Su orientación legítima dependerá de que pueda traducir esa estructura a terna, suceso y semántica de tránsito sin clausurar U indebidamente.
 Por tanto, no buscamos explicar animales mediante tecnología ni humanoides mediante zoología. Busca mostrar que orientación, campo, potencial y dominio obedecen a un patrón común del Universo Épsilon-Atlas. Los seres biológicos lo manifiestan en su soporte. El humano lo interpreta desde sus límites sensoriales. El humanoide sólo podrá incorporarlo si el Sistema Vectorial SV lo define como tránsito formal, no como imitación de una criatura ni como navegación artificial.
 ## 2. Estado del arte exterior subordinado: navegación animal, migración, retorno y datación de dominios
 El estado del arte exterior muestra un hecho persistente: numerosas criaturas se orientan, migran, retornan o conservan trayectoria en dominios donde la percepción humana ordinaria no identifica referencias suficientes. La ciencia contemporánea ha descrito mecanismos relevantes —magnetorrecepción, olfato, polarización de la luz, memoria de ruta, integración de trayectoria, señales acústicas, campos, corrientes, temperatura, textura, presión, vínculo social y aprendizaje local—, pero esos mecanismos aparecen frecuentemente como respuestas parciales a problemas separados. El ave se estudia por su vuelo, el salmón por su retorno natal, la ballena por su migración oceánica, la hormiga del desierto por su integración de recorrido, el perro por su vínculo y su retorno, y el fósil por su datación. Cada estudio aporta datos valiosos; ninguno agota por sí mismo el patrón formal de la orientación.
@@ -184,9 +187,7 @@ La orientación que aquí se formula requiere, además, ordenar lo etario. En do
 Paleontología, geología, estratigrafía, datación por carbono 14, series de uranio, uranio-plomo, argón-argón, potasio-argón, isótopos de estroncio, paleomagnetismo, termoluminiscencia, luminiscencia estimulada ópticamente, nucleidos cosmogénicos y otras técnicas no fundan el SV, pero pueden especificar subdominios (Reimer et al., 2020; Schoene, 2014; Dunai, 2010; Walker, 2005). Cada técnica posee ventana de uso, materiales adecuados, incertidumbre, calibración, limitaciones y régimen de interpretación. Un fósil datado no entrega por sí solo una filosofía de la orientación; entrega una posición de subdominio que puede ser transducida cuando se declaran unidad, frontera, residual y retorno.
 Esto es esencial para evitar dos errores. El primer error sería exigir que la Lanzadera Ómicron resuelva singularidades para las que no se ha declarado mapa o dominio específico. No procede. Una estructura de tránsito puede alcanzar nodo central, pero no debe inventar el subdominio singular. El segundo error sería permitir que una datación exterior sustituya al cierre SV. Tampoco procede. La datación exterior entra como especificación de subdominio cuando su método es sólido; el cierre pertenece al SV si la operación devuelve residual y error de plano nulos.
 En consecuencia, la regla de uso se expresa de este modo.
-
 SV determina dominio general → conjunto exterior especifica subdominio cuando hay medición fuerte → SV transduce → dictamen en {0,1,U}
-
 Si el conjunto exterior coincide con la determinación SV, se incorpora como contraste convergente. Si precisa un subdominio no singularizado antes, se usa para abrirlo. Si contradice la determinación SV en su dominio, no gobierna el cierre. Si carece de frontera, método o unidad suficiente, permanece en U.
 ### 2.7. Límite del estado del arte: descripción de mecanismos parciales sin detección del patrón formal completo
 El estado del arte exterior aporta mucho, pero no resuelve el núcleo de este estudio. Describe mecanismos, identifica canales, acumula observaciones, calcula trayectorias, mide campos, registra migraciones, data fósiles y reconstruye dominios. Todo eso es valioso. Sin embargo, cuando cada resultado queda encerrado en su caso particular, el patrón se fragmenta. El ave queda como problema de magnetismo y vuelo; el salmón como problema de olfato y río; la ballena como problema de océano; el insecto como integración de trayectoria; el perro como olfato y vínculo; el fósil como datación; el humanoide como ingeniería. Esa fragmentación oculta la estructura común.
@@ -306,9 +307,7 @@ Lo etario sólo será admisible cuando pertenezca a un dominio. No se hablará d
 El valor etario no decide por sí solo el potencial (Lloret Egea, 2026e). Lo habilita como coordenada de proyección. Si se toma una edad como cifra aislada, se pierde el dominio. Si se toma como cronología absoluta, se introduce un tiempo rector no admitido. Si se importa desde un conjunto exterior sin unidad, frontera e incertidumbre, se degrada la operación. Por eso, el valor etario entrará siempre con declaración de procedencia: determinación SV, derivación desde el SV, especificación de subdominio por conjunto exterior de contraste o salida U.
 La ciencia contemporánea puede aportar valores etarios muy valiosos en subdominios específicos: fósiles, estratos, yacimientos, linajes, formaciones geológicas, especies extinguidas, restos humanos antiguos, dataciones isotópicas o registros paleontológicos. Esos valores no fundan el sistema, pero sí pueden especificar subdominios cuando vienen con método, unidad, incertidumbre, frontera material y retorno. Allí donde un subdominio está bien medido, el SV puede transducirlo. Allí donde no lo está, no se inventa singularidad: se llega al nodo central correspondiente o se conserva U.
 La regla operativa se expresa formalmente en la cadena siguiente.
-
 `dominio declarado → valor etario admisible → transducción → coordenada de comparecencia → Recta Atlas → proyección de potencial → residual → dictamen`
-
 Si el dominio no está declarado, no hay valor etario admisible. Si el valor procede de un conjunto exterior sin frontera suficiente, se usa sólo como contraste débil o queda en U. Si el valor contradice el dominio SV cerrado con residual cero, no gobierna el cierre. Si coincide o especifica subdominio, entra como contraste convergente o como determinación auxiliar del subdominio.
 
 ### 6.2. Edad física admisible: dominio, frontera, identidad, métrica, unidad, residual y retorno
@@ -318,61 +317,38 @@ La edad física admisible no se confunde tampoco con la coordenada de comparecen
 
 ### 6.3. Coordenada etaria de comparecencia: E_i=A_Ωobs−A_i
 La coordenada etaria de comparecencia se define en la expresión siguiente.
-
 `E_i = A_Ωobs − A_i`
-
 donde `A_Ωobs` designa el valor etario del observable retornado de referencia y `A_i` designa la edad física admisible del observable `O_i`. Esta expresión no mide tiempo rector. Mide distancia etaria de comparecencia respecto del origen del Universo Épsilon-Atlas dentro del dominio observable declarado.
 Si `A_i` es muy próximo a `A_Ωobs`, entonces `E_i` es pequeño. El observable queda próximo al origen de la escala de comparecencia. Si `A_i` es mucho menor que `A_Ωobs`, entonces `E_i` crece. El observable aparece más alejado del origen: planetas, formaciones geológicas, especies biológicas recientes, individuos o vínculos concretos pertenecen a tramos posteriores de comparecencia. Esta inversión aparente no es contradicción: una galaxia antigua puede tener edad física elevada y, sin embargo, comparecencia temprana.
 La fórmula base se completa, cuando procede, con la transducción SV de la edad.
-
 `A_i^SV = K_age · A_i^FC`
-
 con `K_age = 284.018.400` cuando el valor físico se expresa en años julianos y se devuelve a unidades elementales del medidor factual de ciclo. Para el ciclo observable actual se conserva la referencia siguiente.
-
 `A_Ωobs = 13.800.000.000 a_J`
-
 y, cuando se requiera escala de ciclo completo del observable físico, se emplea la magnitud siguiente.
-
 `F_Ω = 27.600.000.000 a_J`
-
 El segundo valor no se introduce como narración temporal absoluta, sino como clausura acotada del ciclo observable declarado. Su función es normalizar posiciones, no fundar el tiempo.
 
 ### 6.4. Proyección sobre escala acotada
 La coordenada `E_i` debe proyectarse sobre una escala acotada para comparar observables muy distintos. La normalización básica adopta esta forma.
-
 `x_i = E_i / F_Ω`
-
 donde `F_Ω` es el intervalo de clausura del ciclo observable declarado. Así `x_i` queda situado entre `0` y `1` cuando el observable pertenece al dominio acotado. `x_i=0` corresponde a comparecencia próxima al origen de la escala; `x_i=1` corresponde a clausura del ciclo acotado. En el corte actual del observable retornado, si se toma `E=A_Ωobs`, se obtiene `x=1/2`.
 Para distribuir los observables sobre la Recta Atlas con mayor sensibilidad, se adopta una escala logarítmica normalizada.
-
 `S_η(x_i)=ln(1+x_i/η)/ln(1+1/η)`
-
 donde `η>0` es parámetro de sensibilidad. Esta función cumple `S_η(0)=0`, `S_η(1)=1` y permite distinguir mejor diferencias en los tramos próximos al origen sin perder acotación. La elección de `η` no podrá hacerse por conveniencia estética. Deberá declararse y mantenerse constante en cada tabla o laboratorio. Si se comparan varias sensibilidades, deberán figurar explícitamente.
 La proyección sobre la Línea Umbral mediante Recta Atlas se expresa formalmente así.
-
 `(μ_i^0, λ_i^0)=Q · S_η(x_i) · (1,1)`
-
 donde `Q` es el rango de representación elegido. El exponente `0` indica que el observable se sitúa inicialmente sobre igualdad polar, antes de introducir diferenciales singulares de individuo, grupo, frontera o traza.
 
 ### 6.5. Línea Umbral SV, Recta Atlas y distribución de observables por potencial
 Una vez proyectado el observable por la Recta Atlas, se obtiene el régimen inicial de igualdad polar.
-
 `P_i^0 = μ_i^0 − λ_i^0 = 0`
-
 `I_i^0 = μ_i^0 + λ_i^0 = 2Q · S_η(x_i)`
-
 Esta posición expresa anulación diferencial con intensidad determinada. No representa todavía la singularidad completa del observable, sino su régimen de comparecencia sobre la línea `μ=λ`. La incorporación de individuo, frontera, traza, vínculo o diferencia singular exige un diferencial `δ_i`.
-
 `μ_i = μ_i^0 + δ_i/2`
-
 `λ_i = λ_i^0 − δ_i/2`
-
 De ahí se obtiene lo siguiente.
-
 `P_i = μ_i − λ_i = δ_i`
-
 `I_i = μ_i + λ_i = I_i^0`
-
 El parámetro `δ_i` no puede inventarse. Deberá proceder de una magnitud declarada: diferencia de dominio, rasgo crítico, firma, distancia, gradiente, frontera, traza, vínculo, contraste o residual. Si no hay magnitud suficiente para `δ_i`, el observable puede situarse sobre la Recta Atlas como régimen, pero su singularidad orientativa queda en U.
 
 ### 6.6. Conjuntos externos de contraste: cuándo especifican subdominios y cuándo no
@@ -380,28 +356,21 @@ Los conjuntos externos de contraste son necesarios cuando la investigación entr
 Esos conjuntos serán admisibles como especificadores si cumplen: dominio material declarado; método de datación o medición identificado; unidad y escala; incertidumbre o margen reconocido; frontera de formación, depósito, fosilización, cristalización, emisión o comparecencia; compatibilidad con el dominio SV; residual y retorno. Ninguno de esos conjuntos sustituye el cierre SV; todos pueden aportar subdominio cuando están bien aplicados.
 Si un conjunto exterior carece de método, unidad, incertidumbre o frontera, no especifica subdominio. Si es anecdótico, divulgativo o no trazable, queda fuera del cálculo o se conserva como referencia no cerrada. Si dos conjuntos exteriores discrepan, no se elige el más conveniente; se declara residual, se revisa dominio y, si procede, se conserva U. Si un conjunto exterior coincide con la determinación SV, fortalece el contraste, pero no se convierte en fuente rectora.
 La regla final se expresa como cadena formal.
-
 `A_i admisible → E_i=A_Ωobs−A_i → x_i=E_i/F_Ω → S_η(x_i) → Recta Atlas → (μ_i^0,λ_i^0) → δ_i si existe magnitud singular → P_i, I_i → residual → dictamen`
 
 ### 6.7. Universo Épsilon-Atlas: ε₀ físico-formal y ε₋₀ preformal sin confusión de plano
 La denominación Universo Épsilon-Atlas se introduce para nombrar el dominio físico realizado como dominio de orientación y cálculo potencial, en continuidad con la separación de dominios y con el tránsito por dominios físicos ya trabajado en el SV (Lloret Egea, 2026j). Su primer término, Épsilon, remite a ε₀ como suceso de apertura del dominio físico realizado; su segundo término, Atlas, remite a la Recta Atlas como recta de proyección de potenciales y rutas. La denominación no altera la ontología del SV ni crea un universo paralelo. Ordena el lenguaje del estudio: cuando se hable de Universo Épsilon-Atlas se hablará del Universo Épsilon-Atlas bajo referencia de suceso ε₀ y retorno potencial Atlas.
 Debe mantenerse una separación estricta con ε₋₀. ε₋₀ nombra el borde preformal de imperfección anterior a la primera distinguibilidad. No es objeto físico, no es instante cosmológico, no es primer evento medible, no es átomo, no es campo, no es partícula y no entra como valor etario. ε₀, por su parte, no es elemento químico ni cuerpo físico; funciona como primer suceso de apertura del dominio en el plano donde ya puede hablarse de observable, frontera y retorno. Tampoco debe leerse como instante temporal ordinario, cronología absoluta ni identificación directa con el Big Bang físico tomado como modelo externo: en este estudio nombra el primer suceso formal de apertura del dominio donde ya procede hablar de observable. Confundir ε₀ y ε₋₀ destruiría la lectura: convertiría una precondición de posibilidad en objeto del universo o convertiría un suceso de apertura en borde preformal.
 Como fórmula de trabajo.
-
 `ε₋₀ → precondición preformal de imperfección y primera distinguibilidad posible`
-
 `ε₀ → primer suceso de apertura del dominio físico realizado`
-
 `Universo Épsilon-Atlas → Universo Épsilon-Atlas abierto desde ε₀ y proyectado por Recta Atlas`
-
 Esta distinción permite nombrar el dominio sin desplazar el fundamento. La orientación universal se estudia dentro del Universo Épsilon-Atlas, no en ε₋₀.
 
 ### 6.8. Unidades de potencial Atlas y nomenclatura de rutas
 Las unidades internas de potencial de este estudio se denominan unidades de potencial Atlas y se escriben `u_AT(η,Q)`. No son unidades SI. Son unidades normalizadas de proyección potencial sobre la Recta Atlas, dependientes de la sensibilidad `η` y del rango `Q`. Cuando `Q=64`, una coordenada `s_i=Q·S_η(x_i)` se expresa en `u_AT(η,64)`. La intensidad inicial de régimen se expresa como `I_i^0=2s_i u_AT`. El diferencial singular se expresa como `δ_i u_AT`; por tanto, `P_i=δ_i u_AT`. Si `δ_i` no está materialmente declarado, no se asigna número.
 Para las rutas, se emplea la definición siguiente.
-
 `Π_AT(R)=⟨P_origen, P_medio, P_campo, P_frontera, P_alimento, P_vínculo, P_retorno, P_residual⟩ u_AT`
-
 Cada componente debe proceder de dominio, medición, traza o conjunto exterior de contraste. Si una ruta es conocida pero sus componentes no tienen magnitud suficiente, la ruta se declara y se nombra, pero no se cierra numéricamente. No queda eliminada; queda abierta en la componente no declarada. Por tanto, un vector `Π_AT(R)` no equivale por sí solo a resultado métrico cerrado: es una forma normalizada de ordenar potencias de ruta. Sólo se convierte en cálculo numérico completo cuando cada componente dispone de magnitud, frontera, unidad interna o transducción declarada y residual evaluable.
 La nomenclatura de rutas seguirá el criterio de alcance territorial y dominio.
 `RUTA-SV-LOC-...` para rutas locales.
@@ -414,19 +383,12 @@ Después del alcance se declara el medio: `AER` para aéreo, `MAR` para marino, 
 Una vez fijadas la cadena formal de proyección etaria y la denominación Recta Atlas, el análisis pasa a los observables no biológicos. Su función no es llenar una tabla con cifras, sino mostrar cómo se calcula sin mezclar planos. El Universo Épsilon-Atlas, la galaxia o entorno galáctico, el Sistema Solar, el Sol, la Tierra, una montaña, una isla, un mar o un dominio geológico no se tratan como nombres generales, sino como observables, nodos o subdominios que deben entrar con frontera, identidad, valor etario admisible, residual y retorno.
 La primera distinción necesaria separa nodo central y subdominio singular. Un nodo central permite situar un régimen amplio: observable cosmológico retornado, entorno galáctico, Sistema Solar, Sol o Tierra. Un subdominio singular exige frontera propia: una montaña concreta, una isla concreta, un mar concreto, una formación geológica determinada, un cráter, un estrato, una cuenca, una roca datada o un dominio material específico. El SV puede alcanzar nodos centrales cuando el dominio queda formalmente declarado. Los subdominios singulares, en cambio, requieren mapa, frontera, método o conjunto material de contraste. Si la ciencia contemporánea entrega esos datos con dominio, unidad, método, incertidumbre, frontera y retorno, el subdominio no queda en U: entra como especificación exterior fuerte y el SV lo transduce. Si no los entrega, no se inventa precisión singular y la salida correcta será U.
 La tabla inicial usa `A_Ωobs=13.800.000.000 a_J`, `F_Ω=27.600.000.000 a_J`, `η=0,1` y `Q=64`. La función empleada se expresa así.
-
 `E_i=A_Ωobs−A_i`
-
 `x_i=E_i/F_Ω`
-
 `S_η(x_i)=ln(1+x_i/η)/ln(1+1/η)`
-
 `(μ_i^0,λ_i^0)=Q·S_η(x_i)·(1,1)`
-
 `P_i^0=0`
-
 `I_i^0=2Q·S_η(x_i) u_AT`
-
 Mientras no se declare diferencial singular `δ_i`, el potencial diferencial permanece anulado y sólo se obtiene intensidad de régimen. La singularidad orientativa se introduce después, si existe magnitud suficiente, mediante `P_i=δ_i u_AT`.
 
 ### 7.1. Matriz común de cálculo: observable, dominio, valor etario, potencial, intensidad, residual y dictamen
@@ -497,95 +459,63 @@ Cada caso biológico deberá responder a una matriz común: dominio, frontera, i
 ### 8.2. Aves migratorias: rutas aéreas internacionales y potencias Atlas
 Las aves migratorias manifiestan orientación aérea en dominios complejos. El aire contiene viento, presión, temperatura, luz, horizonte, referencias astronómicas, campo, polarización, obstáculos, regiones de alimentación, estaciones, rutas y memoria de tránsito. La migración integra múltiples entradas, y cada entrada debe situarse en el dominio correspondiente.
 La ruta internacional aérea de referencia recibe esta denominación.
-
 `RUTA-SV-INT-AER-ART-ANT-01 · Ruta Ártico–Antártica del charrán ártico`
-
 Dominio: aéreo-oceánico internacional. Trayectoria exterior reconocible: áreas de cría árticas o subárticas → corredores atlánticos y oceánicos → borde antártico o aguas australes → retorno a cría. Magnitud exterior de contraste: migraciones anuales del orden de decenas de miles de kilómetros en estudios de seguimiento, con valores medios citados para poblaciones de Groenlandia e Islandia alrededor de `70.900 km` (Egevang et al., 2010). La cifra exterior no funda el potencial; especifica la ruta.
 Vector de potencias Atlas.
-
 `Π_AT(RUTA-SV-INT-AER-ART-ANT-01)=⟨P_natal, P_fotoperiodo, P_viento, P_campo_magnético, P_alimento_marino, P_hielo_austral, P_retorno, P_residual⟩ u_AT`
-
 Lectura: `P_natal` conserva frontera de cría; `P_fotoperiodo` y `P_viento` organizan tránsito estacional; `P_campo_magnético` entra como conjunto exterior de contraste cuando está materialmente medido; `P_alimento_marino` y `P_hielo_austral` especifican dominio de alimentación; `P_retorno` cierra temporada; `P_residual` recoge desviaciones de ruta, mortalidad o falta de datos de individuo.
 Como ruta-tipo aérea Europa–África, todavía sin singularización taxonómica cerrada, se emplea la denominación siguiente.
-
 `RUTA-SV-INT-AER-EUR-AFR-02 · Ruta Europa–África de ave migratoria estacional`
-
 Vector de potencias.
-
 `Π_AT(RUTA-SV-INT-AER-EUR-AFR-02)=⟨P_nido, P_estación, P_insecto_alimento, P_clima, P_viento, P_campo_decl, P_retorno⟩ u_AT`
-
 Esta ruta queda definida como subdominio migratorio genérico. Si después se singulariza en una especie concreta —por ejemplo, golondrina común— deberán declararse especie, población, origen, destino, trazado exterior, método de seguimiento y fuente APA7 antes de calcular singularidad. Si sólo se invoca “golondrina” sin especie, población ni ruta, sirve como caso conceptual, pero no cierra singularidad.
 
 ### 8.3. Salmón: ruta marino-fluvial de retorno natal
 El salmón introduce una forma especialmente fuerte de orientación, el retorno de origen. Su ruta recibe esta denominación.
-
 `RUTA-SV-INT-MAR-FLU-SAL-01 · Ruta oceánica–fluvial de retorno natal del salmón`
-
 Dominio: marino-fluvial. Trayectoria exterior reconocible: nacimiento en río o arroyo → salida al océano → maduración en dominio marino → aproximación a costa o desembocadura → entrada fluvial → zona de desove, con la fase oceánica compatible con impronta geomagnética y cierre local por señales de retorno natal (Putman et al., 2013). La orientación opera por fases: una fase oceánica de aproximación regional y una fase fluvial de cierre singular por firma de origen.
 Vector de potencias Atlas.
-
 `Π_AT(RUTA-SV-INT-MAR-FLU-SAL-01)=⟨P_río_natal, P_océano, P_campo_geomagnético, P_corriente, P_temperatura, P_firma_química, P_desove, P_retorno⟩ u_AT`
-
 `P_campo_geomagnético` no cierra por sí solo; puede aproximar región. `P_firma_química` adquiere peso en el cierre local. `P_desove` expresa continuidad de especie. Si existe cuenca, especie, seguimiento, química del agua, genética de población o registro de retorno, el subdominio puede calcularse. Si sólo se dice “un salmón” o “un río”, no se cierra singularidad.
 
 ### 8.4. Ballena y cría: ruta oceánica internacional, vínculo y retorno
 La ballena añade un dominio de gran escala y un vínculo biológico evidente entre madre, cría, grupo y ruta. La ruta recibe esta denominación.
-
 `RUTA-SV-INT-MAR-BAL-01 · Ruta oceánica alimentación–reproducción de ballena jorobada`
-
 Dominio: marino internacional. Trayectoria exterior reconocible: zonas frías de alimentación en altas latitudes → corredores oceánicos → zonas tropicales o subtropicales de reproducción y cría → retorno a alimentación, con seguimiento satelital que ha documentado trayectorias largas y notablemente rectas en ballenas jorobadas (Horton et al., 2011). En el Pacífico Norte puede ejemplificarse como alimentación en Alaska o Columbia Británica y reproducción en Hawái, México o Centroamérica; en el hemisferio sur, como alimentación antártica y reproducción en dominios tropicales/subtropicales según población.
 Vector de potencias Atlas.
-
 `Π_AT(RUTA-SV-INT-MAR-BAL-01)=⟨P_alimento_polar, P_grasa_reserva, P_temperatura, P_acústico, P_campo, P_cría, P_grupo, P_retorno⟩ u_AT`
-
 La cría introduce el subvector siguiente.
-
 `Π_AT^cría(RUTA-SV-INT-MAR-BAL-01)=⟨P_vínculo_madre, P_proximidad, P_aprendizaje_ruta, P_protección, P_separación_residual⟩ u_AT`
-
 Si hay seguimiento satelital, fotoidentificación, acústica, genética poblacional o rutas migratorias con dominio definido, esos datos especifican subdominios. Si sólo se invoca “la ballena” como figura general, se mantiene como caso conceptual sin cálculo singular.
 
 ### 8.5. Animal terrestre migratorio y dominio estepario: ruta Serengeti–Mara
 La orientación terrestre migratoria exige incorporar agua, pasto, cría, depredación, frontera de parque, río y retorno estacional. La ruta recibe esta denominación.
-
 `RUTA-SV-INT-TER-SER-MAR-01 · Ruta Serengeti–Mara de ungulados migratorios`
-
 Dominio: terrestre transfronterizo. Trayectoria exterior reconocible: llanuras meridionales del Serengeti y Ngorongoro en época de cría → desplazamiento hacia el noroeste y Grumeti → cruce o acceso a Mara → permanencia en temporada seca → retorno al sur con las lluvias, con el sistema fluvial Mara actuando como frontera material y ecológica de alto impacto (Subalusky et al., 2017). La ruta no es una línea rígida. Puede variar con lluvias, agua superficial, pastos, presión de depredadores y obstáculos humanos.
 Vector de potencias Atlas.
-
 `Π_AT(RUTA-SV-INT-TER-SER-MAR-01)=⟨P_pasto, P_agua, P_cría, P_grupo, P_río_frontera, P_depredador, P_lluvia, P_retorno⟩ u_AT`
-
 `P_río_frontera` no es sólo obstáculo: marca transición de dominio, mortalidad posible y cierre de tramo. Si hay datos de telemetría, cartografía de corredores, conteo poblacional o delimitación de frontera, el subdominio puede calcularse. Si sólo se invoca “migración terrestre” sin dominio, ruta o especie, no cierra singularidad.
 
 ### 8.6. Insecto o animal de desierto: ruta local de integración y retorno
 El desierto permite mostrar que la ausencia de referencias humanas no equivale a ausencia de dominio. La ruta local de referencia recibe esta denominación.
-
 `RUTA-SV-LOC-DES-CAT-01 · Ruta local de integración y retorno en dominio desértico`
-
 Dominio: desértico local. Trayectoria exterior reconocible: nido o refugio → búsqueda de alimento en espacio abierto → integración de trayectoria → retorno al nido o refugio, con el odómetro de la hormiga del desierto como caso experimental de integración de pasos y longitud de zancada (Wittlinger et al., 2006). Este caso no exige cartografía completa. Exige vector de salida, actualización de desplazamientos, lectura de señales discretas y cierre de retorno.
 Vector de potencias Atlas.
-
 `Π_AT(RUTA-SV-LOC-DES-CAT-01)=⟨P_nido, P_sol, P_luz_polarizada, P_pasos, P_textura, P_temperatura, P_alimento, P_retorno⟩ u_AT`
-
 La magnitud singular puede venir de orientación solar, polarización, conteo de pasos, flujo óptico, textura o retorno al nido. Si especie, territorio, método de observación y ruta están especificados, se calcula. Si sólo se habla de “un reptil” o “un animal del desierto”, queda abierto.
 
 ### 8.7. Perro y humano: vínculo, firma relacional y retorno local
 El perro introduce una forma de orientación en la que el vínculo adquiere peso directo, con apoyo exterior limitado a sensibilidad magnética y retorno en condiciones experimentales controladas cuando proceda (Hart et al., 2013; Benediktová et al., 2020). La ruta recibe esta denominación.
-
 `RUTA-SV-LOC-REL-CAN-HUM-01 · Ruta local relacional perro–humano`
-
 Dominio: territorial-relacional. Trayectoria exterior reconocible: separación del humano o del hogar → exploración o desplazamiento → recuperación de firma territorial/relacional → retorno al nodo humano o doméstico. El humano aparece como nodo relacional, no sólo como objeto situado.
 Vector de potencias Atlas.
-
 `Π_AT(RUTA-SV-LOC-REL-CAN-HUM-01)=⟨P_olor, P_territorio, P_memoria, P_vínculo, P_rutina, P_campo_decl, P_reconocimiento, P_retorno⟩ u_AT`
-
 El vínculo no autoriza misticismo ni cierre anecdótico. Debe tratarse como dominio relacional con traza, frontera, reconocimiento, retorno y residual. Si existen datos controlados sobre comportamiento canino, retorno, seguimiento, olfato, orientación corporal o sensibilidad a campos, esos datos pueden entrar como conjuntos exteriores de contraste. Si se trata de relato anecdótico, no cierra singularidad.
 
 ### 8.8. La especie, la familia y el individuo como diferenciales de potencial
 Los casos anteriores muestran que la orientación biológica opera en varios niveles. La especie establece un régimen general: cuerpo, reproducción, soporte, ciclo, medio, capacidades de interfaz y continuidad. La familia o grupo introduce relación: cría, madre, manada, pareja, territorio, aprendizaje, cooperación, orden relacional o protección. El individuo introduce diferencial singular: posición, memoria, estado corporal, experiencia, vínculo, ruta concreta y respuesta. La orientación se compone entre esos niveles.
 La forma general se expresa así.
-
 `régimen de especie → dominio de grupo/familia → individuo → interfaz → diferencial singular δ_i u_AT → trayectoria → residual → retorno`
-
 El diferencial singular `δ_i` puede proceder de traza química, frontera de origen, relación de cría, vínculo, territorio, ruta, memoria, señal, estado corporal, posición o cualquier magnitud declarada. No se inventa. Si hay magnitud suficiente, se calcula; si no, queda en U. La especie no sustituye al individuo; el individuo no borra la especie. El SV necesita ambos planos para leer orientación real.
 
 ### 8.9. Matriz de individuación potencial: individuo A e individuo B dentro de una especie
@@ -626,7 +556,7 @@ La tabla de individuación potencial se presenta a continuación.
 | Residual | `κ_residual(A)` | `κ_residual(B)` | Diferencia de cierre o apertura |
 | Diferencial singular | `δ_A=Φ_AT(κ_A)` si procede | `δ_B=Φ_AT(κ_B)` si procede | `ΔP_AB=(δ_A−δ_B)u_AT` |
 
-En esta tabla se muestra que dos individuos pueden tener el mismo potencial base y, sin embargo, presentar potencial individual distinto. El dato preciso del potencial no debe expresarse sólo como una cifra aislada; debe expresarse como registro estructurado: `Dato_AT(j)=⟨B_AT(E),κ_j,δ_j,Π_AT(R_j),Res_AT(j),Dict(j)⟩`. Si `B_AT(E)` coincide pero `κ_A≠κ_B`, los individuos quedan distinguidos formalmente. Si `κ_A` y `κ_B` no están materialmente declarados, no se inventa `δ_A` ni `δ_B`; se declara igualdad de régimen y `U` en la singularidad. Si están declarados, el potencial individual puede diferenciarse sin romper la pertenencia común a la especie.
+Esta tabla muestra que dos individuos pueden tener el mismo potencial base y, sin embargo, presentar potencial individual distinto. El dato preciso del potencial no debe expresarse sólo como una cifra aislada; debe expresarse como registro estructurado: `Dato_AT(j)=⟨B_AT(E),κ_j,δ_j,Π_AT(R_j),Res_AT(j),Dict(j)⟩`. Si `B_AT(E)` coincide pero `κ_A≠κ_B`, los individuos quedan distinguidos formalmente. Si `κ_A` y `κ_B` no están materialmente declarados, no se inventa `δ_A` ni `δ_B`; se declara igualdad de régimen y `U` en la singularidad. Si están declarados, el potencial individual puede diferenciarse sin romper la pertenencia común a la especie.
 
 ## 9. Humano, grupo, territorio y límite perceptivo
 El humano introduce un régimen singular en la orientación porque conserva condición biológica y, al mismo tiempo, añade lenguaje, memoria histórica, técnica, cultura, territorio simbólico, pertenencia familiar, instituciones, mapas, instrumentos y transmisión intergeneracional. No deja de ser soporte vivo; por tanto, comparte con los demás seres biológicos frontera corporal, metabolismo, respuesta, vínculo, conservación, aprendizaje, riesgo y muerte. Pero su orientación no se agota en esa base biológica. El humano puede nombrar dominios, representarlos, narrarlos, heredarlos, cartografiarlos, juridificarlos, defenderlos, abandonarlos o reconstruirlos. Esa potencia simbólica amplía el alcance de la orientación, aunque también introduce errores de plano.
@@ -647,9 +577,7 @@ La dominancia humana debe tratarse con precisión. No se reduce a poder polític
 La conservación es una forma central de orientación humana. Un grupo puede orientarse para conservar territorio, lengua, prácticas simbólicas, linaje, oficio, archivo, memoria, derechos, recursos, rutas o instituciones. Esa conservación no siempre implica inmovilidad. Puede exigir migración, defensa, adaptación, reconstrucción o traducción de dominio. Un pueblo desplazado puede conservar orientación hacia su origen; una familia emigrada puede conservar lengua y memoria; una comunidad puede trasladar sus prácticas a otro territorio. El retorno puede ser físico, cultural, jurídico o simbólico.
 La posición de grupo añade un diferencial. Un individuo se orienta de modo distinto si pertenece a un grupo dominante, minoritario, expulsado, perseguido, nómada, sedentario, urbano, rural, marítimo, fronterizo, insular o diaspórico. El mismo territorio puede tener potencial distinto para grupos distintos. Una frontera puede ser protección para unos y obstáculo para otros. Una ruta puede ser comercio, huida, peregrinación, conquista, retorno o exilio según el dominio. Por eso, la orientación humana exige declarar el punto de vista de dominio sin caer en relativismo: no todo vale, pero no todo dominio orienta igual.
 La matriz formal se expresa así.
-
 grupo → frontera de pertenencia → potencial de conservación o retorno → posición del individuo → trayectoria → residual → dictamen
-
 Si el grupo, la frontera o el retorno no están definidos, no se cierra. Si lo están, la orientación humana puede analizarse con rigor. Esta matriz prepara el paso hacia el humanoide: una inteligencia formal no podrá orientarse en el universo humano si desconoce familia, grupo, pertenencia, territorio, frontera, dominancia estructural, retorno y residual.
 ### 9.4. Límite de los sentidos humanos ante campos, gradientes y dominios no percibidos
 El humano posee una percepción muy desarrollada, pero no universal. No percibe directamente todos los campos, gradientes, polarizaciones, composiciones, vibraciones, presiones, corrientes, firmas químicas, trazas geológicas o diferencias de dominio que pueden ser relevantes para otros soportes. Su visión domina su interpretación del espacio, pero el Universo Épsilon-Atlas no se agota en lo visible. Tampoco se agota en lo audible, tangible u olfativo para el humano.
@@ -657,61 +585,83 @@ Este límite produce un error recurrente: explicar lo real según lo que el huma
 La técnica humana amplía la interfaz, pero no elimina el problema. Un magnetómetro mide un campo; no por ello decide toda orientación. Un mapa representa territorio; no por ello sustituye dominio. Una datación sitúa un subdominio; no por ello agota su potencial. Un sensor registra una magnitud; no por ello construye trayectoria. La orientación requiere integrar diferencia, frontera, potencial, residual y retorno. El humano puede medir mucho y, aun así, no orientarse formalmente si no declara dominio.
 El límite perceptivo humano tiene una consecuencia directa para este estudio: la orientación universal y geográfica no puede depender del privilegio humano de percepción. El SV no niega la percepción humana; la sitúa en su dominio. Cuando el humano no percibe una diferencia, no se concluye inexistencia. Cuando la percibe, no se concluye cierre automático. En ambos casos se exige dominio, interfaz, residual y retorno. Esta disciplina evita que el humano se convierta en medida pobre de lo real.
 ### 9.5. El humano como tránsito hacia la formalización humanoide
-El humano es el tramo necesario antes del humanoide porque aporta la traducción cultural, lingüística, técnica y simbólica del Universo Épsilon-Atlas. El humanoide no puede recibir sólo datos físicos, ni sólo sensores, ni sólo mapas, ni sólo lenguaje. Debe recibir la estructura que el humano ha elaborado al vivir, nombrar, medir, recordar y formalizar dominios. Sin esa mediación, el humanoide quedaría ante un universo de señales sin semántica de tránsito.
-La orientación humana muestra qué debe preservarse y qué debe superarse. Debe preservarse la capacidad de nombrar dominios, conservar memoria, distinguir pertenencia, construir mapas, registrar trayectorias, medir, interpretar fronteras y transmitir experiencia. Debe superarse la reducción del mundo a percepción humana, sesgo cultural, mapa cerrado, estadística de uso, inferencia opaca o archivo enciclopédico. El humanoide definido por el Sistema Vectorial SV no será un imitador del humano, sino un soporte formal que recibe del humano la necesidad de dominio y del SV la disciplina de terna, frame, suceso, potencial, residual y retorno.
-Este tránsito exige una inversión. No se define primero el humanoide para después explicarle el mundo. Primero se define el mundo físico realizado, sus observables, sus dominios, sus seres vivos, sus orientaciones, sus límites humanos y sus formas de retorno. Después se determina qué debe recibir el humanoide: no una enciclopedia, sino una semántica de tránsito. El humanoide debe saber cuándo un dominio está cerrado, cuándo un subdominio está especificado, cuándo falta frontera, cuándo un dato exterior es contraste, cuándo una trayectoria conserva residual y cuándo debe devolver U.
-El humano queda así como puente, no como culminación. Su experiencia orientativa muestra el problema; su lenguaje permite transmitirlo; su límite perceptivo exige superarlo; su capacidad formal abre el camino al humanoide. La siguiente sección podrá entrar por fin en el humanoide definido por el Sistema Vectorial SV, no como criatura aislada ni como robot con sensores, sino como resultado formal de la cadena: Universo Épsilon-Atlas, observables, seres biológicos, humano y semántica de tránsito.
+El humano es el tramo necesario antes del humanoide porque aporta la traducción cultural, lingüística, técnica y simbólica del Universo Épsilon-Atlas. El soporte técnico orientable no puede quedar definido sólo por datos físicos, sensores, mapas o lenguaje. Debe recibir una estructura de dominio elaborada a través de la vida humana: nombrar, medir, recordar, formalizar, vincular, transmitir y corregir. Sin esa mediación, la operación humanoide quedaría ante un conjunto de señales sin semántica de tránsito.
+
+La orientación humana muestra qué debe preservarse y qué debe superarse. Debe preservarse la capacidad de nombrar dominios, conservar memoria, distinguir pertenencia, construir mapas, registrar trayectorias, medir, interpretar fronteras y transmitir experiencia. Debe superarse la reducción del mundo a percepción humana, sesgo cultural, mapa cerrado, estadística de uso, inferencia opaca o archivo enciclopédico. El humanoide definido por el Sistema Vectorial SV se entiende, por tanto, como soporte formal que recibe del humano la necesidad de dominio y del SV la disciplina de terna, frame, suceso, potencial, residual y retorno.
+
+Este tránsito exige una inversión. No se define primero el humanoide para después explicarle el mundo. Primero se define el mundo físico realizado, sus observables, sus dominios, sus seres vivos, sus orientaciones, sus límites humanos y sus formas de retorno. Después se determina qué debe admitir la operación humanoide: no una enciclopedia, sino una semántica de tránsito. Debe quedar formalmente establecido cuándo un dominio está cerrado, cuándo un subdominio está especificado, cuándo falta frontera, cuándo un dato exterior opera como contraste, cuándo una trayectoria conserva residual y cuándo procede devolver U.
+
+El humano queda así como puente, no como culminación. Su experiencia orientativa muestra el problema; su lenguaje permite transmitirlo; su límite perceptivo exige superarlo; su capacidad formal abre el camino al humanoide. A partir de esta secuencia puede abordarse el humanoide definido por el Sistema Vectorial SV como resultado formal de la cadena: Universo Épsilon-Atlas, observables, seres biológicos, humano y semántica de tránsito.
+
 ## 10. Humanoide definido por el Sistema Vectorial SV
-El humanoide definido por el Sistema Vectorial SV no aparece como culminación retórica ni como figura tecnológica añadida al final de una teoría de la orientación. Aparece porque la cadena anterior lo exige. Primero se ha declarado el Universo Épsilon-Atlas; después, sus observables; después, los seres biológicos que se orientan por dominio, potencial, interfaz y retorno; después, el humano como soporte biológico singular que añade lenguaje, memoria, territorio, cultura, técnica y formalización. Sólo entonces puede determinarse qué significa orientar un humanoide: no imitar externamente a una criatura viva, no acumular sensores, no almacenar mapas ni recibir una enciclopedia del mundo, sino traducir dominio a terna, frame, suceso, interfaz, potencial, trayectoria, residual y retorno.
-Un humanoide no posee de partida el arraigo corporal de un animal ni la historia biográfica de un humano. No nace en una especie biológica con frontera heredada, entorno evolutivo, vínculo de cría, territorio natural o memoria orgánica del dominio. Tampoco puede sustituir esa ausencia por una base de datos. Saber nombres de lugares, especies, rutas, señales, textos o mapas no equivale a orientarse. La orientación legítima exige que el soporte formal distinga dominio, frontera, diferencia, potencial, interfaz, residual y retorno. Si no puede hacerlo, no se orienta: sólo clasifica entradas, reproduce rutas o ejecuta instrucciones.
-El Sistema Vectorial SV define al humanoide en un sentido fuerte: no como robot con sensores, sino como soporte formal capaz de recibir el Universo Épsilon-Atlas bajo semántica de tránsito. Esa semántica no consiste en describir el mundo desde fuera, sino en convertir observables en sucesos evaluables. Un dominio entra si puede declararse; una diferencia entra si puede transducirse; una trayectoria entra si puede evaluarse; un cierre entra si devuelve residual controlado; una indeterminación permanece como U cuando no hay frontera suficiente. El humanoide no debe tapar la U; debe conservarla.
+El humanoide definido por el Sistema Vectorial SV se introduce cuando la cadena anterior ya ha declarado Universo, observables, seres biológicos y humano. Sólo entonces puede determinarse qué significa orientar un soporte técnico con rasgos o funciones humanoides: no por acumulación de sensores, mapas o datos, sino por traducción de dominio a terna, frame, suceso, interfaz, potencial, trayectoria, residual y retorno.
+
+Un soporte humanoide no posee de partida el arraigo corporal de un animal ni la historia biográfica de un humano. No nace en una especie biológica con frontera heredada, entorno evolutivo, vínculo de cría, territorio natural o memoria orgánica del dominio. Tampoco puede sustituir esa ausencia por una base de datos. Conservar nombres de lugares, especies, rutas, señales, textos o mapas no equivale a orientación. La orientación legítima exige que el soporte formal distinga dominio, frontera, diferencia, potencial, interfaz, residual y retorno. Si esas condiciones no concurren, la operación sólo clasifica entradas, reproduce rutas o ejecuta instrucciones.
+
+El Sistema Vectorial SV define al humanoide en sentido formal: soporte técnico capaz de recibir el Universo Épsilon-Atlas bajo semántica de tránsito. Esa semántica no consiste en describir el mundo desde fuera, sino en convertir observables en sucesos evaluables. Un dominio entra si puede declararse; una diferencia entra si puede transducirse; una trayectoria entra si puede evaluarse; un cierre entra si devuelve residual controlado; una indeterminación permanece como U cuando no hay frontera suficiente. La operación humanoide no debe cubrir la U, sino conservarla.
+
 ### 10.1. Por qué el humanoide entra al final
-El humanoide entra al final porque no puede aprender lo que no ha sido formalizado. Si se colocara al principio, se convertiría en origen falso de la investigación: una máquina intentando explicar el universo antes de que el universo haya sido declarado como dominio. Ese orden sería incorrecto. La orientación no nace del humanoide. Nace en el patrón del Universo Épsilon-Atlas: distinguibilidad, diferencia, frontera, potencial, intensidad, traza, residual y retorno. Los seres biológicos manifiestan ese patrón con soportes vivos; el humano lo traduce parcialmente mediante lenguaje, memoria y técnica; el humanoide sólo puede recibirlo después como sistema formal de tránsito.
-Colocar al humanoide al final no lo debilita. Lo define con más rigor. Un humanoide que apareciera al inicio quedaría reducido a inteligencia artificial convencional, sensorio técnico, modelo estadístico, robot móvil o procesador de información. En cambio, situado al final de la cadena, aparece como resultado de una arquitectura formal: debe heredar la lectura de dominios físicos, biológicos, humanos y relacionales; debe distinguir nodos centrales y subdominios singulares; debe saber cuándo un conjunto exterior de contraste especifica dominio y cuándo no; debe conservar U cuando falta frontera; debe calcular residual antes de declarar cierre.
+El humanoide entra al final porque, en el SV, no debe tratarse como dominio cerrado aquello que no ha sido previamente formalizado. Si se colocara al principio, el soporte técnico ocuparía un lugar que no le corresponde: intentar operar sobre el universo antes de que el universo haya sido declarado como dominio. Ese orden sería incorrecto. La orientación no nace del humanoide. Nace en el patrón del Universo Épsilon-Atlas: distinguibilidad, diferencia, frontera, potencial, intensidad, traza, residual y retorno. Los seres biológicos manifiestan ese patrón con soportes vivos; el humano lo traduce parcialmente mediante lenguaje, memoria y técnica; el humanoide sólo puede recibirlo después como sistema formal de tránsito.
+
+Situar al humanoide al final lo define con más rigor. Un humanoide colocado al inicio quedaría reducido a inteligencia artificial convencional, sensorio técnico, modelo estadístico, robot móvil o procesador de información. En cambio, situado al final de la cadena, aparece como resultado de una arquitectura formal: debe recibir la lectura de dominios físicos, biológicos, humanos y relacionales; debe distinguir nodos centrales y subdominios singulares; debe quedar sometido a la regla que separa conjuntos exteriores de contraste, dominio declarado, frontera suficiente, U y residual previo a todo cierre.
+
 La secuencia exigida es la siguiente.
 
-Universo Épsilon-Atlas → observables → seres biológicos → humano → humanoide
+`Universo Épsilon-Atlas → observables → seres biológicos → humano → humanoide`
 
-Si se altera esa secuencia, se confunden los planos. El humanoide no puede explicar la orientación animal si antes no se ha formulado qué es orientación en dominio. No puede orientarse en territorio humano si antes no se ha determinado qué son familia, grupo, vínculo, frontera, pertenencia y retorno. No puede interpretar datos geográficos si antes no distingue nodo central y subdominio singular. No puede corregir trayectoria si antes no posee criterio de residual.
-El humanoide entra al final porque su orientación debe ser derivada, no improvisada. Su función no es sustituir al humano ni copiar al animal, sino recibir una formalización que le permita orientarse sin reducir el mundo a señales aisladas. Esa formalización la proporciona el SV.
+Si se altera esa secuencia, se confunden los planos. La operación humanoide no puede explicar la orientación animal si antes no se ha formulado qué es orientación en dominio. No puede orientarse en territorio humano si antes no se ha determinado qué son familia, grupo, vínculo, frontera, pertenencia y retorno. No puede interpretar datos geográficos si antes no distingue nodo central y subdominio singular. No puede corregir trayectoria si antes no posee criterio de residual. El humanoide entra al final porque su orientación debe ser derivada, no improvisada. Su función no es sustituir al humano ni copiar al animal, sino recibir una formalización que permita orientación sin reducir el mundo a señales aisladas. Esa formalización la proporciona el SV.
+
 ### 10.2. El universo no se entrega como enciclopedia externa
-El universo no puede entregarse al humanoide como enciclopedia externa. Una enciclopedia contiene nombres, descripciones, relaciones, datos, clasificaciones y relatos. Puede ser útil, pero no constituye orientación. El humanoide puede conocer que existe un salmón, una ballena, una montaña, un río, una ciudad, una familia o una galaxia, y aun así no saber orientarse respecto de esos dominios. El conocimiento nominal no equivale a dominio declarado.
-Una enciclopedia puede decir qué es un río; no por ello declara el río concreto como dominio de retorno. Puede describir una montaña; no por ello fija su frontera geológica, su valor etario, su potencial y su traza. Puede listar rutas migratorias; no por ello transduce la diferencia que sostiene la orientación de un ave. Puede registrar la palabra “hogar”; no por ello capta la frontera relacional que orienta a un humano. Puede almacenar mapas; no por ello distingue qué residual queda al recorrerlos. El humanoide necesita más que datos: necesita semántica de tránsito.
+El universo no puede entregarse al humanoide como enciclopedia externa. Una enciclopedia contiene nombres, descripciones, relaciones, datos, clasificaciones y relatos. Puede ser útil, pero no constituye orientación. Un soporte humanoide puede registrar que existen salmones, ballenas, montañas, ríos, ciudades, familias o galaxias, y aun así no disponer de orientación formal respecto de esos dominios. El conocimiento nominal no equivale a dominio declarado.
+
+Una enciclopedia puede decir qué es un río; no por ello declara el río concreto como dominio de retorno. Puede describir una montaña; no por ello fija su frontera geológica, su valor etario, su potencial y su traza. Puede listar rutas migratorias; no por ello transduce la diferencia que sostiene la orientación de un ave. Puede registrar la palabra “hogar”; no por ello capta la frontera relacional que orienta a un humano. Puede almacenar mapas; no por ello distingue qué residual queda al recorrerlos. La orientación humanoide exige más que datos: exige semántica de tránsito.
+
 La semántica de tránsito convierte información en estructura orientativa. Para ello, cada entrada debe responder a una matriz necesaria: dominio, observable, frontera, interfaz, potencial, trayectoria, residual y retorno. Si una entrada no declara dominio, no orienta. Si declara dominio pero no frontera, queda abierta. Si tiene frontera pero no diferencial, puede situarse como régimen, pero no cerrar singularidad. Si tiene datos exteriores fuertes, pueden incorporarse como especificación de subdominio. Si no los tiene, debe conservar U.
-El universo entregado como enciclopedia produce un humanoide acumulador. El universo entregado como semántica de tránsito produce un humanoide orientable. La diferencia es decisiva. En el primer caso, el soporte responde con información; en el segundo, con dictamen de dominio. En el primer caso, parece saber; en el segundo, puede evaluar si sabe, si no sabe, si no procede o si debe permanecer en U.
+
+El universo entregado como enciclopedia produce acumulación informativa. El universo entregado como semántica de tránsito permite orientación formal. La diferencia es decisiva. En el primer caso, el soporte responde con información; en el segundo, devuelve un dictamen de suficiencia, insuficiencia, no procedencia o U.
+
 ### 10.3. Traducción del dominio a terna, frame, suceso e interfaz
 La orientación humanoide exige traducir dominio a estructura formal. La traducción de arranque tiene cuatro componentes: terna, frame, suceso e interfaz. La terna {0,1,U} permite clasificar cierre, no admisión e indeterminación honesta. El frame fija una imagen o configuración de lectura del dominio. El suceso introduce cambio, trayectoria, frontera y evaluación. La interfaz permite que el dominio entre en el soporte humanoide como diferencia transducible, no como dato aislado.
 El dominio no entra entero. Entra por interfaz. Esa interfaz puede incluir sensores, lenguaje, mapas, mediciones, imágenes, registros, protocolos, memoria formal, comunicación humana o conjuntos exteriores de contraste. Pero ninguna entrada basta por sí sola. Una cámara no ve dominio; registra imagen. Un magnetómetro no orienta; mide campo. Un mapa no cierra trayectoria; representa relaciones. Un texto no transduce mundo; describe. La orientación nace cuando esas entradas se integran en una estructura que puede decir: 0, 1 o U; frame válido o inválido; suceso admisible o no; trayectoria con residual o sin cierre.
 La traducción puede escribirse como cadena formal.
-
 entrada de dominio → interfaz → frame → suceso → terna → trayectoria → residual → retorno
-
 En esta cadena, la entrada de dominio puede proceder del mundo físico, de un conjunto exterior de contraste, de una medición, de una interacción humana o de una señal técnica. La interfaz la convierte en forma procesable. El frame organiza el estado. El suceso introduce tránsito. La terna clasifica el cierre. La trayectoria ejecuta orientación. El residual evalúa. El retorno decide si la operación queda cerrada, rechazada o en U.
-El humanoide definido por el SV no deberá tratar U como fallo operativo que debe ocultarse. Al contrario, U es parte de su orientación. Si no hay subdominio singular, no debe inventarlo. Si sólo hay nodo central, debe declarar nodo central. Si un dato exterior especifica frontera y método, debe incorporarlo como contraste fuerte. Si un dato exterior es débil, debe limitar su función. Si una ruta no reduce residual, debe revisarse. La inteligencia formal no se mide por cerrar siempre, sino por cerrar sólo cuando procede.
+En el humanoide definido por el SV, la U no debe tratarse como fallo operativo que deba ocultarse. Al contrario, U forma parte de su régimen de orientación. Si no hay subdominio singular, no debe inventarse. Si sólo hay nodo central, debe declararse nodo central. Si un dato exterior especifica frontera y método, debe incorporarse como contraste fuerte. Si un dato exterior es débil, debe limitarse su función. Si una ruta no reduce residual, debe revisarse la operación. La inteligencia formal no se mide por cierre permanente, sino por cierre sólo cuando procede.
 ### 10.4. Potencial lógico y recomposición orientativa bajo residual
-El humanoide necesita potencial lógico porque no posee potencial biológico heredado del mismo modo que un animal. Una golondrina, un salmón, una ballena, un perro o un humano están insertos en soportes vivos con historia de especie, cuerpo, necesidad, vínculo, reproducción, territorio y muerte. El humanoide no comparte esa inserción de partida. Su orientación debe construirse desde el sistema que lo define: dominio declarado, potencial del suceso, diferencia polar, intensidad, interfaz, trayectoria, residual y retorno.
-El potencial lógico no es una voluntad artificial. Tampoco es deseo, intención subjetiva ni finalidad autónoma. Es la capacidad de ordenar diferencias de dominio según una regla formal de tránsito. Si un dominio presenta varias rutas posibles, el humanoide debe evaluar cuál conserva frontera, reduce residual, respeta subdominio, evita error de plano y devuelve retorno. Si no puede hacerlo, debe conservar U o solicitar nueva interfaz. No debe elegir por mera probabilidad, costumbre de datos, frecuencia textual o semejanza superficial.
-La recomposición orientativa aparece cuando entradas parciales deben integrarse. Un humanoide puede recibir un mapa, una imagen, una descripción humana, una medición externa y un registro histórico. Ninguna de esas entradas por separado agota el dominio. La recomposición exige decidir qué pertenece al nodo central, qué pertenece al subdominio singular, qué dato especifica frontera, qué dato sólo contrasta, qué magnitud introduce diferencial δ_i, qué residual permanece y qué retorno se admite.
+La orientación humanoide requiere potencial lógico porque el soporte técnico no posee potencial biológico heredado del mismo modo que un animal. Una golondrina, un salmón, una ballena, un perro o un humano están insertos en soportes vivos con historia de especie, cuerpo, necesidad, vínculo, reproducción, territorio y muerte. El soporte humanoide no comparte esa inserción de partida. Su orientación debe construirse desde el sistema que lo define: dominio declarado, potencial del suceso, diferencia polar, intensidad, interfaz, trayectoria, residual y retorno.
+El potencial lógico no es una voluntad artificial. Tampoco es deseo, intención subjetiva ni finalidad autónoma. Es la capacidad de ordenar diferencias de dominio según una regla formal de tránsito. Si un dominio presenta varias rutas posibles, la operación humanoide debe determinar cuál conserva frontera, reduce residual, respeta subdominio, evita error de plano y devuelve retorno. Si esa determinación no puede realizarse, debe conservarse U o abrirse una nueva interfaz. No procede elegir por mera probabilidad, costumbre de datos, frecuencia textual o semejanza superficial.
+La recomposición orientativa aparece cuando entradas parciales deben integrarse. El soporte humanoide puede recibir un mapa, una imagen, una descripción humana, una medición externa y un registro histórico. Ninguna de esas entradas por separado agota el dominio. La recomposición exige decidir qué pertenece al nodo central, qué pertenece al subdominio singular, qué dato especifica frontera, qué dato sólo contrasta, qué magnitud introduce diferencial δ_i, qué residual permanece y qué retorno se admite.
 La cadena puede formularse del modo siguiente.
-
 entradas parciales → clasificación ternaria → recomposición de dominio → diferencial de potencial → trayectoria → residual → dictamen
-
-Si la recomposición devuelve residual cero en dominio declarado, el humanoide puede orientarse. Si devuelve contradicción, la salida será 1. Si faltan frontera, método, unidad o diferencial singular, la salida será U. Esta disciplina impide que el humanoide confunda fluidez lingüística con conocimiento, mapa con territorio, dato con dominio o ruta calculada con orientación legítima.
+Si la recomposición devuelve residual cero en dominio declarado, la orientación humanoide puede admitirse. Si devuelve contradicción, la salida será 1. Si faltan frontera, método, unidad o diferencial singular, la salida será U. Esta disciplina impide confundir fluidez lingüística con conocimiento, mapa con territorio, dato con dominio o ruta calculada con orientación legítima.
 ### 10.5. Orientación humanoide como semántica de tránsito
-La orientación humanoide no debe definirse como navegación técnica. Navegar puede significar desplazarse por un entorno usando sensores, mapas, coordenadas o instrucciones. Orientarse, en el sentido de este estudio, exige más: distinguir dominio, frontera, potencial, interfaz, trayectoria, residual y retorno. Un humanoide puede navegar sin orientarse formalmente. Puede seguir una ruta óptima y no saber qué dominio atraviesa; puede responder a una señal y no saber si pertenece al subdominio correcto; puede identificar objetos y no comprender su potencial de retorno.
-La semántica de tránsito es la estructura que permite superar esa limitación. Cada dominio se presenta al humanoide como conjunto de posibles sucesos: entradas, cambios, fronteras, diferencias, vínculos, trayectorias y retornos. La tarea del humanoide no es sólo nombrarlos, sino ubicarlos en una secuencia formal. Una montaña puede ser objeto visual, dominio geológico, referencia territorial, frontera climática, nodo cultural o subdominio datado. Un río puede ser agua, cuenca, origen de salmón, frontera humana, recurso, ruta o memoria. Un humano puede ser cuerpo, individuo, vínculo, hablante, familiar, autoridad, testigo o nodo relacional. La orientación depende de cuál de esos dominios esté declarado.
-La semántica de tránsito exige que el humanoide plantee estas preguntas formales.
-¿qué dominio está activo?
-¿qué observable comparece?
-¿qué frontera lo delimita?
-¿qué potencial orienta?
-¿qué interfaz entrega la entrada?
-¿qué trayectoria se propone?
-¿qué residual queda?
-¿qué retorno cierra o no cierra?
-Con esas preguntas, el humanoide deja de operar como acumulador de respuestas y pasa a operar como soporte formal de orientación. No imita al salmón, a la ballena, al perro ni al humano. Aprende de la estructura común que esos casos manifiestan: dominio, potencial, interfaz, trayectoria, residual y retorno.
+La orientación humanoide no debe definirse como navegación técnica. Navegar puede significar desplazarse por un entorno usando sensores, mapas, coordenadas o instrucciones. Orientarse, en el sentido de este estudio, exige más: distinguir dominio, frontera, potencial, interfaz, trayectoria, residual y retorno. Un soporte humanoide puede navegar sin orientarse formalmente. Puede seguir una ruta óptima y no quedar situado ante el dominio que atraviesa; puede responder a una señal y no determinar si pertenece al subdominio correcto; puede identificar objetos y no integrar su potencial de retorno.
+
+La semántica de tránsito permite superar esa limitación. Cada dominio se presenta como conjunto de posibles sucesos: entradas, cambios, fronteras, diferencias, vínculos, trayectorias y retornos. La operación humanoide no consiste sólo en nombrarlos, sino en ubicarlos en una secuencia formal. Una montaña puede ser objeto visual, dominio geológico, referencia territorial, frontera climática, nodo cultural o subdominio datado. Un río puede ser agua, cuenca, origen de salmón, frontera humana, recurso, ruta o memoria. Un humano puede ser cuerpo, individuo, vínculo, hablante, familiar, autoridad, testigo o nodo relacional. La orientación depende de cuál de esos dominios esté declarado.
+
+La semántica de tránsito exige que la operación humanoide quede sometida a una matriz formal de preguntas.
+
+¿Qué dominio está activo?
+
+¿Qué observable comparece?
+
+¿Qué frontera lo delimita?
+
+¿Qué potencial orienta?
+
+¿Qué interfaz entrega la entrada?
+
+¿Qué trayectoria se propone?
+
+¿Qué residual queda?
+
+¿Qué retorno cierra o no cierra?
+
+Con esa matriz, la operación humanoide deja de ser mera acumulación de respuestas y pasa a organizarse como soporte formal de orientación. No se imita al salmón, a la ballena, al perro ni al humano; se conserva la estructura común que esos casos manifiestan: dominio, potencial, interfaz, trayectoria, residual y retorno.
+
 ### 10.6. Condiciones para que el humanoide se oriente legítimamente
-Para que el humanoide se oriente legítimamente deben cumplirse condiciones estrictas. Primera: dominio declarado. Debe saber si opera en dominio físico, biológico, geográfico, humano, técnico, relacional o mixto. Segunda: frontera. Debe identificar qué delimita entrada, salida, pertenencia, origen, destino, retorno o cierre. Tercera: interfaz. Debe saber por qué vía entra la información: sensor, medición, lenguaje, mapa, registro, conjunto exterior de contraste, memoria formal o interacción humana. Cuarta: potencial. Debe determinar qué diferencia orienta el tránsito. Quinta: trayectoria. Debe construir o evaluar una secuencia de sucesos. Sexta: residual. Debe medir qué queda sin cerrar. Séptima: retorno. Debe devolver 0, 1 o U según cierre, contradicción o indeterminación honesta.
+Para que la orientación humanoide sea legítima deben cumplirse condiciones estrictas. Primera: dominio declarado. Debe quedar determinado si la operación actúa en dominio físico, biológico, geográfico, humano, técnico, relacional o mixto. Segunda: frontera. Debe identificarse formalmente qué delimita entrada, salida, pertenencia, origen, destino, retorno o cierre. Tercera: interfaz. Debe declararse por qué vía entra la información: sensor, medición, lenguaje, mapa, registro, conjunto exterior de contraste, memoria formal o interacción humana. Cuarta: potencial. Debe determinarse qué diferencia orienta el tránsito. Quinta: trayectoria. Debe construirse o evaluarse una secuencia de sucesos. Sexta: residual. Debe medirse qué queda sin cerrar. Séptima: retorno. Debe devolverse 0, 1 o U según cierre, contradicción o indeterminación honesta.
+
 Estas condiciones se resumen en la tabla siguiente.
 
 | Condición | Pregunta formal | Salida si falta |
@@ -724,7 +674,8 @@ Estas condiciones se resumen en la tabla siguiente.
 | Residual | ¿Qué error o apertura queda? | Sin cierre |
 | Retorno | ¿Qué dictamen devuelve? | Operación incompleta |
 
-La orientación legítima exige también error de plano cero. Un dato geográfico no puede resolver un vínculo familiar si no se declara el dominio relacional. Una datación geológica no puede sustituir el potencial de una especie. Un mapa cosmológico no puede cerrar una singularidad local no cartografiada. Un testimonio humano no puede convertirse en magnitud física sin transducción. Una señal sensorial no puede declararse campo sin dominio. El humanoide debe reconocer esos límites.
+La orientación legítima exige también error de plano cero. Un dato geográfico no puede resolver un vínculo familiar si no se declara el dominio relacional. Una datación geológica no puede sustituir el potencial de una especie. Un mapa cosmológico no puede cerrar una singularidad local no cartografiada. Un testimonio humano no puede convertirse en magnitud física sin transducción. Una señal sensorial no puede declararse campo sin dominio. La operación humanoide debe reconocer esos límites.
+
 El resultado final es una definición fuerte: un humanoide definido por el Sistema Vectorial SV se orienta cuando traduce el Universo Épsilon-Atlas y sus dominios a terna, frame, suceso, interfaz, potencial, trayectoria, residual y retorno, conservando U cuando falta cierre y evitando error de plano. Si sólo recibe datos, no se orienta. Si sólo navega, no se orienta en sentido SV. Si cierra sin residual, falla. Si conserva dominio y devuelve dictamen correcto, puede orientarse legítimamente.
 
 ## 11. Proposición central y casos calculados
@@ -747,7 +698,7 @@ La proposición no exige que todo componente de `Π_AT(R)` tenga cierre numéric
 ### 11.1. Proposición de orientación universal y geográfica en el SV
 La proposición central puede escribirse así: un observable, soporte o ruta se orienta en el Sistema Vectorial SV cuando transita un dominio declarado mediante sucesos ordenados por potencial, con interfaz admisible, frontera, vector de potencias Atlas, residual evaluable y retorno. Esa orientación es universal porque se apoya en el patrón formal del Universo Épsilon-Atlas —distinguibilidad, diferencia, frontera, potencial, intensidad, traza, residual y retorno—, y es geográfica porque todo tránsito se realiza en dominio situado: aire, mar, río, desierto, territorio, grupo, vínculo, nodo cosmológico o entorno humanoide.
 
-Se conservan tres restricciones. La ciencia contemporánea puede especificar subdominios cuando entrega datos fuertes, pero no funda el cierre SV. La Recta Atlas puede alcanzar nodos centrales y ordenar rutas, sin inventar singularidades no cartografiadas. Por último, `U` no es fracaso ni probabilidad, sino conservación honesta del límite cuando falta dominio, frontera, diferencial o retorno. La forma pública de la proposición es la siguiente.
+La proposición conserva tres restricciones. La ciencia contemporánea puede especificar subdominios cuando entrega datos fuertes, pero no funda el cierre SV. La Recta Atlas puede alcanzar nodos centrales y ordenar rutas, sin inventar singularidades no cartografiadas. Por último, `U` no es fracaso ni probabilidad, sino conservación honesta del límite cuando falta dominio, frontera, diferencial o retorno. La forma pública de la proposición es la siguiente.
 
 `Orientación_SV = tránsito de dominio por potencial del suceso, bajo interfaz, ruta, residual y retorno`
 
@@ -787,7 +738,7 @@ La forma general del caso se presenta en esta tabla.
 | Mar o cuenca | Frontera, régimen, historia material | Subdominio hidrogeográfico | `0` si hay método y retorno |
 | Nombre general | “montaña”, “isla”, “mar” sin frontera | Ninguno | `U` |
 
-La ruta territorial de referencia se formula del modo siguiente.
+La ruta territorial de referencia se formula como:
 
 `RUTA-SV-LOC-TER-GEO-01 · Ruta local de subdominio geológico especificado`
 
@@ -796,7 +747,7 @@ La ruta territorial de referencia se formula del modo siguiente.
 El caso geológico pasa si el subdominio trae dominio material, datación o método, frontera y residual. No pasa si se usa la edad de la Tierra como sustituto del subdominio. Queda en `U` si falta objeto material de cálculo. Esta regla impide que la Recta Atlas se use como aparato de precisión ficticia.
 
 ### 11.4. Caso biológico migratorio
-El caso biológico migratorio no se reduce a que un animal se desplace. Exige ruta, dominio, origen, medio, frontera, interfaz, retorno y residual. Se computa por vectores `Π_AT(R)`, no por analogía genérica. La tabla de ensamblaje de rutas se presenta a continuación.
+El caso biológico migratorio no se reduce a que un animal se desplace. Exige ruta, dominio, origen, medio, frontera, interfaz, retorno y residual. Se computa por vectores `Π_AT(R)` y no por analogía genérica. La tabla de ensamblaje de rutas queda:
 
 | Ruta SV | Dominio | Vector rector | Cierre actual |
 |---|---|---|---|
@@ -812,7 +763,7 @@ El charrán ártico aporta la ruta internacional aérea de mayor alcance dentro 
 El dictamen general del caso biológico migratorio es `0` para la admisión formal de rutas como dominios orientativos; `U` para diferenciales individuales no medidos; `1` para cualquier intento de convertir un mecanismo aislado en explicación total de la orientación.
 
 ### 11.5. Caso vínculo animal-humano
-El caso vínculo animal-humano se formula con la ruta siguiente.
+El caso vínculo animal-humano se formula con la ruta:
 
 `RUTA-SV-LOC-REL-CAN-HUM-01 · Ruta local relacional perro–humano`
 
@@ -823,7 +774,7 @@ El cierre no procede por anécdota. Procede cuando existen dominio territorial-r
 El dictamen del caso es `0` cuando hay ruta local, humano o hogar como nodo relacional, firma y retorno; `U` cuando sólo hay relato sin trazado, frontera o método; `1` cuando el vínculo se usa para cerrar sin residual o para sustituir dominio físico, químico o territorial.
 
 ### 11.6. Caso humanoide
-El humanoide definido por el Sistema Vectorial SV se orienta si traduce el Universo Épsilon-Atlas y sus dominios a terna, frame, suceso, interfaz, potencial, trayectoria, residual y retorno. Su ruta de referencia recibe esta denominación.
+El humanoide definido por el Sistema Vectorial SV queda orientativamente admitido si traduce el Universo Épsilon-Atlas y sus dominios a terna, frame, suceso, interfaz, potencial, trayectoria, residual y retorno. Su ruta de referencia recibe esta denominación.
 
 `RUTA-SV-LOC/INT-SEM-HUMANOIDE-01 · Ruta semántica de tránsito humanoide por dominio declarado`
 
@@ -831,12 +782,12 @@ La barra `LOC/INT` indica que la misma estructura puede operar localmente, en do
 
 `Π_AT(RUTA-SV-LOC/INT-SEM-HUMANOIDE-01)=⟨P_dominio, P_interfaz, P_frame, P_suceso, P_terna, P_trayectoria, P_residual, P_retorno⟩ u_AT`
 
-El caso humanoide se cierra en `0` si el soporte formal distingue dominio, frontera, interfaz, potencial, trayectoria, residual y retorno. Queda en `U` si recibe datos sin dominio suficiente, ruta sin frontera, mapa sin subdominio, lenguaje sin transducción o medición sin residual. Devuelve `1` si cierra por fluidez lingüística, estadística de uso, inferencia opaca, sensor aislado o sustitución de dominio por enciclopedia. El humanoide no aprende el universo como archivo; lo recibe como semántica de tránsito formal.
+El caso humanoide se cierra en `0` si el soporte formal distingue dominio, frontera, interfaz, potencial, trayectoria, residual y retorno. Queda en `U` si recibe datos sin dominio suficiente, ruta sin frontera, mapa sin subdominio, lenguaje sin transducción o medición sin residual. Devuelve `1` si cierra por fluidez lingüística, estadística de uso, inferencia opaca, sensor aislado o sustitución de dominio por enciclopedia. El humanoide no toma el universo como archivo externo; lo procesa como semántica formal de tránsito.
 
 ### 11.7. Dictamen general
 El ensamblaje de casos permite dictaminar que la orientación universal y geográfica en el SV queda formalmente articulada como formulación formal articulada y fuerte. El caso cosmológico cierra nodo de referencia sin atribuir edad a la totalidad absoluta. El caso geológico distingue nodo central y subdominio singular. El caso migratorio biológico define rutas con vectores de potencias Atlas sin inventar `δ_i`. El caso relacional perro-humano introduce vínculo como dominio materialmente trazable, no como licencia narrativa. El caso humanoide fija las condiciones estrictas de orientación formal.
 
-La tabla de articulación formal se ofrece a continuación.
+La tabla de articulación formal queda:
 
 | Caso | Cierre de régimen | Singularidad | Dictamen |
 |---|---:|---|---|
@@ -874,7 +825,7 @@ Esta matriz responde a la exigencia de precisión: el potencial de un suceso no 
 Se establece una formulación formal articulada de la orientación universal y geográfica como tránsito de dominio por potencial del suceso, con una matriz explícita de individuación potencial para distinguir sujetos dentro de una misma especie sin romper la base común de régimen. La tesis no parte del humanoide, ni de la navegación animal, ni de una técnica de cartografía. Parte del Universo Épsilon-Atlas: universo físico realizado bajo referencia de `ε₀`, separado de `ε₋₀`, y proyectable por Recta Atlas. En ese dominio, todo observable distinguible comparece con frontera, traza, potencial, intensidad, residual y retorno. La orientación aparece cuando una diferencia de potencial puede ordenar tránsito bajo interfaz admisible y devolver dictamen.
 
 ### 12.1. Resultado formal
-El resultado formal principal es la definición de orientación SV.
+El resultado formal principal es la definición de orientación SV:
 
 `Orientación_SV = tránsito autogobernado de dominio por potencial del suceso, bajo interfaz, ruta, residual y retorno`
 
@@ -887,7 +838,7 @@ Los entes biológicos no fundan la teoría; la manifiestan. El charrán ártico,
 El humano aparece como soporte biológico singular que añade lenguaje, memoria, territorio, cultura, técnica y representación. Su orientación puede ser física, territorial, familiar, grupal, simbólica, jurídica o relacional, siempre que se declare dominio. Sus sentidos no agotan lo real. Sus mapas no sustituyen el territorio. Sus instrumentos no eliminan el residual. Su posición es doble: permite formalizar dominios y, al mismo tiempo, puede empobrecerlos si convierte su percepción ordinaria en medida de existencia. El humano queda conservado como tránsito hacia la formalización humanoide, no como culminación absoluta.
 
 ### 12.4. Resultado para el humanoide definido por el Sistema Vectorial SV
-El humanoide definido por el Sistema Vectorial SV se orienta legítimamente sólo si traduce dominio a terna, frame, suceso, interfaz, potencial, trayectoria, residual y retorno. Si recibe datos sin dominio, no se orienta. Si navega sin semántica de tránsito, no se orienta en sentido SV. Si cierra sin residual, falla. Si conserva `U` cuando falta frontera y devuelve `0` sólo cuando el dominio cierra, se orienta legítimamente. La definición del humanoide queda subordinada a la cadena formal: Universo Épsilon-Atlas → observables → seres biológicos → humano → humanoide.
+El humanoide definido por el Sistema Vectorial SV sólo queda orientativamente admitido cuando traduce dominio a terna, frame, suceso, interfaz, potencial, trayectoria, residual y retorno. Si recibe datos sin dominio, no hay orientación formal. Si navega sin semántica de tránsito, no hay orientación en sentido SV. Si cierra sin residual, la operación falla. Si conserva `U` cuando falta frontera y devuelve `0` sólo cuando el dominio cierra, la orientación queda legítimamente admitida. La definición del humanoide queda subordinada a la cadena formal: Universo Épsilon-Atlas → observables → seres biológicos → humano → humanoide.
 
 ### 12.5. Objetivos declarados y desarrollos posteriores
 Quedan declarados objetivos materiales posteriores. Primero: mantener la revisión APA7 inline en cada afirmación exterior y depurar la bibliografía cuando se incorporen nuevas fuentes o rutas. Segundo: construir laboratorios de rutas con datos trazables para calcular `δ_i` cuando existan magnitudes suficientes. Tercero: separar rutas-tipo, especies singularizadas, poblaciones concretas e individuos con seguimiento. Cuarto: ampliar tablas geológicas con subdominios reales —montañas, islas, mares, cuencas, fósiles o estratos— sólo cuando existan método, unidad, frontera y residual. Quinto: desarrollar tablas de individuación potencial para especies, familias, grupos e individuos con trazas suficientes. Sexto: formular el módulo técnico de orientación humanoide sin convertirlo en sensorio agregado ni archivo enciclopédico. Estos objetivos declarados no invalidan el resultado formal; delimitan los desarrollos que deberán precisarse en trabajos posteriores.
