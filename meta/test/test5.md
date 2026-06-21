@@ -1,7 +1,7 @@
 # Orientación universal y geográfica, potencial del suceso e interfaz de dominio desde el Universo y los seres biológicos: humanoide definido por el Sistema Vectorial SV
 **Diferencia polar, campo, determinación etaria, tránsito ternario y autogobierno orientativo bajo frame, suceso, residual y retorno**  
 
-**© 2026. Todos los derechos reservados.** | [**Juan Antonio Lloret Egea**](https://www.linkedin.com/in/juanantoniolloretegea/)  ORCID: 0000-0002-6634-3351 | [Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA)](https://www.itvia.online/) | IA eñ™ — La Biblia de la IA™ | [**ISSN 2695-6411**](https://portal.issn.org/resource/ISSN/2695-6411) | **Licencia CC BY-NC-ND 4.0** | Madrid, 21/06/2026 |  
+**© 2026. Todos los derechos reservados.** | [**Juan Antonio Lloret Egea**](https://www.linkedin.com/in/juanantoniolloretegea/)  ORCID: 0000-0002-6634-3351 | [Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA)](https://www.itvia.online/) | IA eñ™ — La Biblia de la IA™ | [**ISSN 2695-6411**](https://portal.issn.org/resource/ISSN/2695-6411) | **Licencia CC BY-NC-ND 4.0** | Madrid, 21/06/2026 |   
 
 ## Prefacio
 El término humanoide se emplea en este trabajo a partir de su uso común, pero no queda limitado por él. En la lengua general, [humanoide](https://dle.rae.es/humanoide) designa aquello que presenta forma o rasgos del ser humano. Esa acepción permite reconocer el punto de partida del término, aunque no basta para el alcance técnico que aquí se desarrolla. Cuando el análisis incorpora inteligencia artificial, agentes especializados, interfaces de dominio y orientación formal, el concepto necesita una delimitación más precisa.
