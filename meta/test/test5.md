@@ -1,4 +1,4 @@
-# Orientación universal y geográfica, potencial del suceso e interfaz de dominio desde el Universo Épsilon-Atlas y los seres biológicos: humanoide definido por el Sistema Vectorial SV
+# Orientación universal y geográfica, potencial del suceso e interfaz de dominio desde el Universo y los seres biológicos: humanoide definido por el Sistema Vectorial SV
 **Diferencia polar, campo, determinación etaria, tránsito ternario y autogobierno orientativo bajo frame, suceso, residual y retorno**
 
 ## Índice
