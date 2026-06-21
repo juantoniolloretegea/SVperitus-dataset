@@ -2,7 +2,8 @@
 **Diferencia polar, campo, determinación etaria, tránsito ternario y autogobierno orientativo bajo frame, suceso, residual y retorno**
 
 ## Índice  
-Prefacio  
+Prefacio 
+
 0. Resumen
 0.1. Abstract
 0.2. Palabras clave y keywords
