@@ -282,7 +282,7 @@
 
 ## C.7. Condiciones de admisión del dominio envolvente: nodo, frontera, radio, residual, retorno y traza
 
-## C.8. La terna \((0,1,U)\) como límite de determinación
+## C.8. La terna (0, 1, U) como límite de determinación
 
 ## C.9. U como tránsito de no clausura entre determinaciones
 
@@ -290,7 +290,7 @@
 
 ## C.11. Imperfección preformal y primera distinguibilidad
 
-## C.12. De \(\varepsilon_{-0}\) a la separación: frontera, dominio y espacio recorrible
+## C.12. De ε₋₀ a la separación: frontera, dominio y espacio recorrible
 
 ## C.13. La distinguibilidad como condición de lectura orbital-generacional
 
@@ -320,11 +320,11 @@
 
 ## C.26. El cuarto nivel como excedente no fundado si procede de media externa
 
-## C.27. Cadena ternaria formal y suficiencia de \((0,1,U)\)
+## C.27. Cadena ternaria formal y suficiencia de (0, 1, U)
 
-## C.28. Configuración formal de la relación actual: \(D_1 \rightarrow U \rightarrow D_0\)
+## C.28. Configuración formal de la relación actual: D₁ → U → D₀
 
-## C.29. Identificación formal: \(D_1\) como Universo Versal y \(D_0\) como ε-Atlas
+## C.29. Identificación formal: D₁ como Universo Versal y D₀ como ε-Atlas
 
 ## C.30. Familia orbital y co-descendencia formal
 
@@ -346,7 +346,7 @@
 
 ## C.39. Límite del supranodo vigente por iteración retrospectiva
 
-## C.40. Clausura por \((\mu,\lambda)=(0,0)\)
+## C.40. Clausura por (μ, λ) = (0, 0)
 
 ## C.41. SRUS como reactivación estructural posterior
 
