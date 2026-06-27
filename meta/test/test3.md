@@ -56,7 +56,7 @@
 
 ## III.1. Definición operativa de ε-Atlas
 
-## III.2. Radio operativo `R_ε`
+## III.2. Definición del Radio `R_ε`
 
 ## III.3. Definición de la frontera `∂ε-Atlas`
 
