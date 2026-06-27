@@ -130,7 +130,7 @@
 
 ## VIII.1. Nodo versal y recorrido orbital
 
-## VIII.2. Longitud orbital interna de ε-Atlas en Universo Versal
+## VIII.2. Longitud orbital interna de ε-Atlas en el Universo Versal
 
 ## VIII.3. Duración de la traslación compuesta
 
@@ -166,11 +166,11 @@
 
 ## X.4. Diferencia entre efeméride externa y formalización SV
 
-## X.5. Qué puede transducirse y qué no
+## X.5. Qué puede transducirse y qué no puede transducirse
 
 ## X.6. Error de plano por uso indebido del conjunto externo de contraste
 
-# XI. Lanzadera Ómicron, Recta Atlas y Línea del Umbral SV
+# XI. Lanzadera Ómicron, Recta Atlas y Línea Umbral SV
 
 ## XI.1. Lanzadera Ómicron como operación de tránsito y devolución
 
@@ -182,7 +182,7 @@
 
 ## XI.5. Matriz de funciones diferenciadas
 
-# XII. Matriz de admisión, defecto y U
+# XII. Matriz de admisión, defecto y U (indeterinación)
 
 ## XII.1. Magnitudes determinadas
 
@@ -206,11 +206,11 @@
 
 ## XIII.5. Resultado transductivo
 
-## XIII.6. Fórmula sintética de Trilogía Exocósmica, Parte II
+## XIII.6. Fórmula de la Trilogía Exocósmica, Parte II
 
 # XIV. Discusión científica
 
-## XIV.1. Aporte de Trilogía Exocósmica, Parte II respecto de Trilogía Exocósmica, Parte I
+## XIV.1. Aporte de la Trilogía Exocósmica, Parte II respecto de Trilogía Exocósmica, Parte I
 
 ## XIV.2. Qué no determina por sí solo el conjunto externo contemporáneo
 
@@ -240,7 +240,7 @@
 
 ## XVI.3. Relación entre cálculo, contraste externo y retorno
 
-## XVI.4. Conclusión y preparación de Trilogía Exocósmica, Parte III
+## XVI.4. Conclusión y preparación de laTrilogía Exocósmica, Parte III
 
 # Bibliografía
 
@@ -252,7 +252,7 @@
 
 # Anexo A. Matriz orbital-transductiva de dominios acotados
 
-## A.1. Objeto del anexo
+## A.1. Objeto
 
 ## A.2. Regla general de dominio, nodo, radio, frontera y retorno
 
