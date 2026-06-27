@@ -272,7 +272,101 @@
 
 ## A.10. Conclusión
 
-# Corolario final del Anexo A. Corolario orbital-generacional: de la matriz transductiva a la genealogía exocósmica
+# Corolario final del Anexo A. Corolario orbital-generacional: de la matriz transductiva a la herencia-descendencia exocósmica
+
+## C.0. Régimen formal del corolario
+
+## C.1. Objeto formal del corolario
+
+## C.2. Posición del corolario entre la matriz orbital-transductiva y la Trilogía Exocósmica, Parte III
+
+## C.3. Alcance: herencia-descendencia formal sin cronología rectora
+
+## C.4. ε-Atlas como dominio físico realizado
+
+## C.5. Universo Versal como dominio formal envolvente de primer orden
+
+## C.6. Diferencia entre dominio realizado, dominio envolvente y Totalidad
+
+## C.7. Condiciones de admisión del dominio envolvente: nodo, frontera, radio, residual, retorno y traza
+
+## C.8. La terna \((0,1,U)\) como límite de determinación
+
+## C.9. U como tránsito de no clausura entre determinaciones
+
+## C.10. U no generativa: exclusión de motor, causa y agente de reactivación
+
+## C.11. Imperfección preformal y primera distinguibilidad
+
+## C.12. De \(\varepsilon_{-0}\) a la separación: frontera, dominio y espacio recorrible
+
+## C.13. La distinguibilidad como condición de lectura orbital-generacional
+
+## C.14. Lectura polar de la herencia-descendencia exocósmica
+
+## C.15. Predominancia, tránsito y oposición estructural
+
+## C.16. Polo predominante, tránsito por U y polo opuesto
+
+## C.17. Clausura central y clausura relacional
+
+## C.18. Esfera-raigal como clausura de centro propio
+
+## C.19. Elipse y órbita como clausura relacional de dos predominancias
+
+## C.20. Herencia-descendencia sin tiempo rector
+
+## C.21. Relación orbital-generacional suficiente: dominio envolvente, U y dominio realizado
+
+## C.22. No vigencia del antecedente remoto como dominio activo
+
+## C.23. Antecedente clausurado y conservación de traza factual
+
+## C.24. Restricción contra la prolongación genealógica por retrocálculo
+
+## C.25. Reducción al absurdo de la cadena cuaternaria
+
+## C.26. El cuarto nivel como excedente no fundado si procede de media externa
+
+## C.27. Cadena ternaria formal y suficiencia de \((0,1,U)\)
+
+## C.28. Configuración formal de la relación actual: \(D_1 \rightarrow U \rightarrow D_0\)
+
+## C.29. Identificación formal: \(D_1\) como Universo Versal y \(D_0\) como ε-Atlas
+
+## C.30. ε-Atlas como término descendente de la relación actual
+
+## C.31. ε-Atlas como principio estructural de la relación posterior tras clausura
+
+## C.32. Límite del descendiente exocósmico actual de ε-Atlas
+
+## C.33. Límite del supranodo vigente por iteración retrospectiva
+
+## C.34. Clausura por \((\mu,\lambda)=(0,0)\)
+
+## C.35. SRUS como reactivación estructural posterior
+
+## C.36. Reactivación sin resurrección: nuevo suceso, no repetición del dominio clausurado
+
+## C.37. Disciplina append-only y conservación de la cadena clausurada
+
+## C.38. Interrogación a la Teoría del TODO y de la NADA
+
+## C.39. Tupla de verificación y condición de defecto nulo
+
+## C.40. Compatibilidad con la teoría de edades: ciclo, mitad, clausura y tramo restante
+
+## C.41. Consecuencia para la matriz orbital-transductiva del Anexo A
+
+## C.42. Resultado formal del corolario
+
+## C.43. Alcance del cierre: determinaciones fijadas
+
+## C.44. Permanencia de U en niveles no declarados
+
+## C.45. Fórmula sintética orbital-generacional
+
+## C.46. Condición de entrada para la Trilogía Exocósmica, Parte III
 
 # Cláusulas legales
 
