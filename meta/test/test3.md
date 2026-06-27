@@ -264,7 +264,7 @@
 
 ## A.10. Conclusión
 
-# Corolario al «Anexo A. Matriz orbital-transductiva de dominios acotados. Corolario orbital-generacional: de la matriz transductiva a la herencia-descendencia exocósmica »
+# Corolario al «Anexo A. Matriz orbital-transductiva de dominios acotados. Corolario orbital-generacional: de la matriz transductiva a la herencia-descendencia exocósmica»
 
 ## C.0. Régimen formal del corolario
 
@@ -326,39 +326,59 @@
 
 ## C.29. Identificación formal: \(D_1\) como Universo Versal y \(D_0\) como ε-Atlas
 
-## C.30. ε-Atlas como término descendente de la relación actual
+## C.30. Familia orbital y co-descendencia formal
 
-## C.31. ε-Atlas como principio estructural de la relación posterior tras clausura
+## C.31. Dominios co-descendientes bajo un mismo régimen envolvente
 
-## C.32. Límite del descendiente exocósmico actual de ε-Atlas
+## C.32. Diferencia entre herencia-descendencia vertical y co-descendencia orbital
 
-## C.33. Límite del supranodo vigente por iteración retrospectiva
+## C.33. Co-pertenencia orbital: planetas, estrellas, agujeros negros y dominios exocósmicos
 
-## C.34. Clausura por \((\mu,\lambda)=(0,0)\)
+## C.34. Patrón originario e instancia derivada: lectura no sexual, no clonal y no biológica de la descendencia formal
 
-## C.35. SRUS como reactivación estructural posterior
+## C.35. Permanencia en U de los co-descendientes no declarados
 
-## C.36. Reactivación sin resurrección: nuevo suceso, no repetición del dominio clausurado
+## C.36. ε-Atlas como término descendente de la relación actual
 
-## C.37. Disciplina append-only y conservación de la cadena clausurada
+## C.37. ε-Atlas como principio estructural de la relación posterior tras clausura
 
-## C.38. Interrogación a la Teoría del TODO y de la NADA
+## C.38. Límite del descendiente exocósmico actual de ε-Atlas
 
-## C.39. Tupla de verificación y condición de defecto nulo
+## C.39. Límite del supranodo vigente por iteración retrospectiva
 
-## C.40. Compatibilidad con la teoría de edades: ciclo, mitad, clausura y tramo restante
+## C.40. Clausura por \((\mu,\lambda)=(0,0)\)
 
-## C.41. Consecuencia para la matriz orbital-transductiva del Anexo A
+## C.41. SRUS como reactivación estructural posterior
 
-## C.42. Resultado formal del corolario
+## C.42. Reactivación sin resurrección: nuevo suceso, no repetición del dominio clausurado
 
-## C.43. Alcance del cierre: determinaciones fijadas
+## C.43. Disciplina append-only y conservación de la cadena clausurada
 
-## C.44. Permanencia de U en niveles no declarados
+## C.44. Interrogación a la Teoría del TODO y de la NADA
 
-## C.45. Fórmula sintética orbital-generacional
+## C.45. Tupla de verificación y condición de defecto nulo
 
-## C.46. Condición de entrada para la Trilogía Exocósmica, Parte III
+## C.46. Compatibilidad con la teoría de edades: ciclo, mitad, clausura y tramo restante
+
+## C.47. Aplicación a la Recta Atlas: orientación, comparecencia y proyección intradominio
+
+## C.48. Aplicación a la Recta-Ómicron (Lanzadera): acceso, tránsito, frontera y devolución
+
+## C.49. Aplicación a la Línea del Umbral SV: igualdad polar, directriz y condición de paso
+
+## C.50. Integración conjunta de Recta Atlas, Recta-Ómicron y Línea del Umbral SV en la herencia-descendencia exocósmica
+
+## C.51. Consecuencia para la matriz orbital-transductiva del Anexo A
+
+## C.52. Resultado formal del corolario
+
+## C.53. Alcance del cierre: determinaciones fijadas
+
+## C.54. Permanencia de U en niveles no declarados
+
+## C.55. Fórmula sintética orbital-generacional
+
+## C.56. Condición de entrada para la Trilogía Exocósmica, Parte III
 
 
 ---
