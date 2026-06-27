@@ -477,6 +477,90 @@ El retorno traduce magnitudes calculadas a patrones metrológicos o externos de 
 
 El método conserva una restricción final. Ninguna magnitud se admitirá por semejanza, tamaño, autoridad externa o utilidad narrativa. La admisión exige dominio, nodo u origen, radio, frontera, unidad, residual y retorno. Allí donde falte alguno de esos elementos, no se fuerza continuidad. La salida correcta será `U` localizada.
 
+# II. Fundamentos principales, conjunto externo de contraste y transductores activos
+
+## II.1. Trilogía Exocósmica, Parte I como fuente de fundamentos
+
+La Trilogía Exocósmica, Parte II se apoya en la Parte I como fuente inmediata de fundamentos. Esa dependencia no es meramente editorial: fija el régimen de lectura, el dominio de partida, la denominación ε-Atlas, la frontera `∂ε-Atlas`, el radio operativo `R_ε` y la separación entre lectura estructural, lectura situada y contraste cosmológico externo.
+
+La Parte I determinó que el dominio-universo físico realizado que habitamos puede leerse, en esta trilogía, como ε-Atlas. Esa denominación no desplaza el régimen cosmológico anterior, sino que lo porta hacia una lectura exocósmica. Por eso, en esta Parte II se conserva la regla ya recibida:
+
+`ε-Atlas := Ωobs | lectura exocósmica portadora`
+
+`∂ε-Atlas := ∂Ωobs`
+
+`R_ε := R_U^SV`
+
+Esta continuidad impide reabrir el cierre material de la Parte I bajo la apariencia de un nuevo cálculo. El radio operativo de ε-Atlas no se elige de nuevo, no se toma de una escala externa y no se ajusta para coincidir con otra magnitud cosmológica. Se recibe como magnitud ya determinada y se somete ahora a una nueva operación: su desarrollo calculativo hacia radio versal, geometría auxiliar, órbita suprasistémica, retorno metrológico y matriz orbital-transductiva.
+
+La Parte II queda, por tanto, subordinada a una regla de fidelidad formal: no corregir en silencio la magnitud recibida, no confundir planos de lectura y no presentar como fundamento aquello que sólo actúa como contraste. El cálculo que sigue no pretende añadir una cosmología externa al SV, sino desplegar, con dominio declarado, la consecuencia exocósmica de la magnitud ya recibida.
+
+## II.2. Distancia, edades etarias, Lanzadera Ómicron y Recta Atlas
+
+El desarrollo exocósmico exige distinguir con precisión entre distancia estructural, lectura etaria y operación de tránsito. La distancia estructural corresponde al radio `R_ε`, que expresa la magnitud radial de ε-Atlas desde el origen formal-material `O_U=(0,0)` hasta la frontera `∂ε-Atlas`. Esta distancia no depende de un punto local de observación, sino del régimen de lectura ya fijado para el dominio.
+
+Las edades etarias aportan otra clase de lectura. No sustituyen el radio ni convierten la edad en fundamento absoluto. Su función consiste en ordenar relaciones de acceso, frontera y retorno cuando el dominio se analiza desde tramos temporales formalmente declarados. En ese plano opera la Lanzadera Ómicron, cuya cadena propia no debe confundirse con el radio estructural:
+
+`λ_acc → κ_∂←acc^SV → λ_∂ → Brazo_∂Ωobs^SV → R_aux,loc^SV`
+
+La magnitud `λ_acc` designa acceso; `λ_∂` designa brazo fronterizo; y `R_aux,loc^SV` designa lectura situada hacia la frontera. Ninguna de esas magnitudes reemplaza a `R_ε`. Su valor reside en mostrar cómo una frontera ya declarada puede leerse desde una base local sin alterar el radio estructural del dominio.
+
+La Recta Atlas cumple una función distinta. No calcula por sí sola el radio versal, ni sustituye la Lanzadera Ómicron, ni actúa como fuente externa de medida. Su función es orientar el dominio, proporcionar una interfaz intradominio y permitir que la lectura de posiciones, tránsitos y retornos no quede reducida a una cifra aislada. Allí donde la Lanzadera nombra tránsito y devolución, la Recta Atlas nombra orientación y comparecencia formal del dominio leído.
+
+De este modo, distancia, edad, Lanzadera y Recta Atlas quedan coordinadas sin confundirse. La distancia estructural fija el radio recibido; la lectura etaria permite ordenar acceso y frontera; la Lanzadera formaliza el tránsito situado; y la Recta Atlas orienta la lectura intradominio. La Parte II necesita las cuatro funciones, pero no las convierte en una sola magnitud.
+
+## II.3. Ciencia contemporánea como conjunto externo de contraste
+
+La Ciencia Contemporánea entra en esta investigación como conjunto externo de contraste. Su función no es fundar el cálculo SV, sino ofrecer referencias de comparación, parametrización, retorno metrológico y control de lectura. Esta distinción resulta decisiva, porque el SV no puede sustituir la declaración de dominio por la autoridad de una magnitud externa, ni puede convertir un dato cosmológico, orbital o metrológico en fuente constitutiva de verdad interna.
+
+Las magnitudes contemporáneas pueden cumplir funciones útiles. Pueden informar sobre unidades reconocidas, escalas aceptadas, parámetros orbitales, distancias astronómicas, constantes físicas o regímenes observacionales. Sin embargo, su incorporación debe ser tipada. Cuando una magnitud procede de ese conjunto externo, debe declararse como contraste, no como fundamento; como retorno, no como sustitución; como referencia de lectura, no como corrección silenciosa del dominio SV.
+
+Esta restricción se aplica con especial fuerza al radio comóvil externo. Dicho radio pertenece a un régimen cosmológico distinto del radio estructural `R_ε` y de la lectura situada `R_aux,loc^SV`. Puede conservar valor para comparación y para mostrar la diferencia entre planos, pero no gobierna el cálculo de la Parte II.
+
+La regla queda así:
+
+`R_ε := R_U^SV ≠ R_aux,loc^SV ≠ R_comóvil externo`
+
+La desigualdad no expresa sólo diferencia numérica. Expresa una separación de régimen. `R_ε` pertenece a la continuidad formal SV; `R_aux,loc^SV` pertenece a una operación situada de tránsito; el radio comóvil externo pertenece al conjunto contemporáneo de contraste. La Parte II podrá comparar esos planos, pero no fundirlos.
+
+## II.4. Kepler, JPL/Horizons y régimen orbital externo
+
+El régimen orbital externo aporta un marco de contraste especialmente valioso, porque permite examinar cómo la ciencia astronómica ordena centro, radio o semieje, periodo, recorrido, posición y retorno. Sin embargo, su presencia en esta investigación no convierte la órbita suprasistémica de ε-Atlas en una órbita física ordinaria, ni transforma el Universo Versal en un espacio externo directamente observable.
+
+Kepler entra como marco orbital externo de contraste. Sus relaciones permiten recordar que una órbita no se reduce a una distancia: exige centro o nodo de referencia, magnitud radial o equivalente orbital, periodo, recorrido y ley de retorno. Esta función es metodológica y comparativa. No prueba por sí misma el Universo Versal ni autoriza a leer cualquier semejanza geométrica como inclusión real.
+
+JPL/Horizons, por su parte, pertenece al plano de precisión y parametrización externa. Su valor para esta Parte II reside en que representa una práctica contemporánea de referencia para posiciones, efemérides, elementos orbitales y retornos astronómicos. Pero esa precisión externa no corrige el régimen SV. Cuando se use, se incorporará como contraste técnico, no como fuente de cierre interno.
+
+La órbita suprasistémica que se calculará en la Parte II queda bajo otro estatuto. No será una trayectoria física ordinaria en un espacio empírico disponible, sino una relación formal de dominio entre ε-Atlas y el Universo Versal. Por tanto, su cálculo deberá declarar nodo, radio versal, recorrido, periodo, tasa y retorno, sin trasladar indebidamente al régimen exocósmico las propiedades propias de las órbitas astronómicas locales.
+
+La función del marco externo queda limitada con precisión: ayuda a ordenar la lectura orbital, pero no sustituye la formalización SV; proporciona contraste, pero no fundamento; permite vigilar errores de plano, pero no autoriza una equiparación directa entre sistemas físicos locales y dominio exocósmico.
+
+## II.5. Tránsito por dominios y continuidad H–He como control metodológico
+
+El tránsito por dominios exige algo más que una semejanza de forma o una proporción de escala. Para que una lectura pueda pasar de un dominio a otro, debe declarar qué se conserva, qué se transforma, qué frontera se cruza, qué residual queda y qué retorno permite verificar la operación. Sin esa declaración, la comparación sólo produce apariencia de continuidad, no continuidad formal.
+
+La continuidad H–He funciona en esta investigación como control metodológico. No se introduce para desplazar el cálculo exocósmico hacia química, biología o genealogía material, sino para recordar una regla de tránsito: un símbolo aislado no basta para declarar dominio. Hidrógeno, helio, materia ordinaria, planeta, estrella, sistema local, ε-Atlas o Universo Versal sólo pueden entrar en una lectura transductiva si aparecen con dominio, frontera, función, residual y retorno suficientes.
+
+En la Parte II, esta cautela evita dos errores. El primero consistiría en creer que una magnitud mayor contiene formalmente a otra por simple tamaño. El segundo consistiría en proyectar una secuencia de dominios sin declarar nodo, frontera y retorno en cada paso. Ambos errores producen una falsa continuidad: parecen ordenar escalas, pero en realidad sustituyen la formalización por analogía.
+
+La regla general que deberá custodiar el Anexo A se formula de modo restringido:
+
+`D_i` sólo admite lectura orbital-transductiva si declara origen o nodo, radio, frontera, régimen orbital, retorno y residual.
+
+Esta regla no cierra linaje, no declara progenitura y no abre supranodos posteriores. Sólo fija las condiciones mínimas para que un dominio acotado pueda ser leído después bajo un régimen de ciclo. La Parte II deja preparado ese umbral, pero no lo clausura.
+
+## II.6. Criterio de admisión, defecto y U como indeterminación honesta
+
+El criterio de admisión de esta investigación es conservador. Una magnitud entra en el cálculo cuando puede declarar dominio, origen o nodo, unidad, radio o magnitud equivalente, frontera, función, residual y retorno. Si uno de esos elementos falta, la magnitud puede conservar valor descriptivo o externo, pero no puede operar como cierre interno de la Parte II.
+
+El defecto no se entiende aquí como fallo retórico, sino como insuficiencia formal localizada. Hay defecto cuando falta una condición necesaria para que la magnitud desempeñe la función que se le quiere atribuir. Puede faltar dominio, puede faltar nodo, puede faltar frontera, puede faltar residual, puede faltar retorno o puede faltar traza. En cualquiera de esos casos, la respuesta no debe completarse por semejanza, por comodidad expositiva ni por autoridad externa.
+
+La salida correcta ante defecto no resuelto es `U`. En el Sistema Vectorial SV, `U` conserva su sentido de indeterminación honesta. No equivale a probabilidad, no equivale a ignorancia genérica, no equivale a negación absoluta y no permite cerrar por ausencia de prueba. Su función es preservar la no determinación allí donde el patrón aún no dispone de condiciones suficientes.
+
+En esta Parte II, la `U` supranodal debe permanecer localizada. Se aplicará allí donde se pretenda extender el cálculo más allá del Universo Versal sin declarar dominio, nodo, frontera, residual, retorno y traza suficientes. Esa localización impide convertir `U` en cierre negativo general y evita, al mismo tiempo, una prolongación favorable sin fundamento.
+
+El criterio final puede formularse así: lo determinado se calcula; lo externo se contrasta; lo no intercambiable se separa; y lo no declarable queda en `U` localizada. Con esa disciplina, la Parte II puede avanzar hacia resultados geométricos, orbitales y metrológicos sin anticipar la genealogía exocósmica que corresponde a la Parte III.
+
 # Bibliografía
 
 ## Fuentes internas del Sistema Vectorial SV
