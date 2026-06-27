@@ -6,7 +6,7 @@
 
 ---
 
-© 2026. Todos los derechos reservados. | Juan Antonio Lloret Egea ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ — La Biblia de la IA™ | ISSN 2695-6411 | Licencia CC BY-NC-ND 4.0 | Madrid, 27/06/2026Colección: Trilogía Exocósmica: más allá del dominio-universo que habitamos, hacia el nodo versal | DOI de colección: 10.21428/39829d0b.f51da8e2 
+© 2026. Todos los derechos reservados. | Juan Antonio Lloret Egea ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ — La Biblia de la IA™ | ISSN 2695-6411 | Licencia CC BY-NC-ND 4.0 | Madrid, 27/06/2026 | Colección: Trilogía Exocósmica: más allá del dominio-universo que habitamos, hacia el nodo versal | DOI de colección: 10.21428/39829d0b.f51da8e2 
 
 ---
 
@@ -56,7 +56,7 @@
 
 ## III.1. Definición operativa de ε-Atlas
 
-## III.2. Definición del Radio `R_ε`
+## III.2. Definición del radio `R_ε`
 
 ## III.3. Definición de la frontera `∂ε-Atlas`
 
@@ -170,7 +170,7 @@
 
 ## X.6. Error de plano por uso indebido del conjunto externo de contraste
 
-# XI. Lanzadera Ómicron, Recta Atlas y Línea Umbral SV
+# XI. Lanzadera Ómicron, Recta Atlas y Línea del Umbral SV
 
 ## XI.1. Lanzadera Ómicron como operación de tránsito y devolución
 
@@ -182,7 +182,7 @@
 
 ## XI.5. Matriz de funciones diferenciadas
 
-# XII. Matriz de admisión, defecto y U (indeterinación)
+# XII. Matriz de admisión, defecto y U (indeterminación honesta)
 
 ## XII.1. Magnitudes determinadas
 
@@ -240,7 +240,7 @@
 
 ## XVI.3. Relación entre cálculo, contraste externo y retorno
 
-## XVI.4. Conclusión y preparación de laTrilogía Exocósmica, Parte III
+## XVI.4. Conclusión y preparación de la Trilogía Exocósmica, Parte III
 
 # Bibliografía
 
@@ -273,3 +273,70 @@
 ## A.10. Conclusión
 
 # Cláusulas legales
+
+---
+
+# 0. Descripción de continuidad formal
+
+## 0.1. Trilogía Exocósmica, Parte II como desarrollo calculativo de Trilogía Exocósmica, Parte I
+
+La Trilogía Exocósmica, Parte II recibe los resultados formales de la Parte I y los desarrolla en régimen calculativo. Su objeto no es reabrir la determinación de ε-Atlas, ni corregir el radio estructural ya fijado, ni sustituir la lectura exocósmica por una magnitud cosmológica externa. La operación propia de esta segunda parte consiste en tomar el dominio-universo físico realizado que habitamos, denominado ε-Atlas, y calcular desde él el sistema exocósmico de primer orden: radio versal, diámetro versal, circunferencia, superficie, volumen, órbita suprasistémica, retornos metrológicos y matriz orbital-transductiva.
+
+La Parte I fijó el tránsito desde el dominio observable tratado por la Trilogía Cosmológica hacia una lectura exocósmica portadora. Esta Parte II conserva esa continuidad y la somete a cálculo. Por ello, no introduce un segundo universo físico ni modifica el cierre anterior. Trabaja sobre el mismo dominio, ahora leído como soporte de tránsito hacia el nodo versal y hacia el Universo Versal.
+
+El desarrollo se organiza bajo una regla de conservación estricta: toda magnitud que entre en cálculo debe declarar dominio, origen, frontera, unidad, función, residual y retorno. Si una magnitud procede del Sistema Vectorial SV, se explicita su posición interna. Si procede de la Ciencia Contemporánea, se incorpora sólo como contraste externo. Si falta dominio, nodo, frontera, traza o retorno suficientes, no se completa por analogía y queda localizada en `U`.
+
+## 0.2. Regla de aplicación y definición de `R_ε := R_U^SV`
+
+La magnitud inicial de esta investigación es el radio operativo de ε-Atlas. Su definición no nace en esta Parte II, sino que se recibe por continuidad formal:
+
+`R_ε := R_U^SV`
+
+En esta expresión, `R_ε` designa el radio operativo de ε-Atlas dentro de la Trilogía Exocósmica. El símbolo `R_U^SV` designa el radio estructural del dominio-universo observable, calculado en el régimen propio de la Trilogía Cosmológica y heredado por la Parte I exocósmica. La igualdad no es una aproximación, ni una equivalencia externa, ni un ajuste para reproducir otro modelo. Es una regla de identidad formal entre la magnitud ya cerrada y su uso operativo en ε-Atlas.
+
+La definición completa queda formulada así:
+
+`ε-Atlas := Ωobs | lectura exocósmica portadora`
+
+`∂ε-Atlas := ∂Ωobs`
+
+`R_ε := R_U^SV = D(O_U, ∂Ωobs) = D(O_U, ∂ε-Atlas)`
+
+El símbolo `Ωobs` designa el universo observable en el régimen tratado por la Trilogía Cosmológica. La expresión `lectura exocósmica portadora` indica que ese dominio no se abandona ni se duplica, sino que se toma como soporte formal para el desarrollo exocósmico. La frontera `∂ε-Atlas` se identifica formalmente con `∂Ωobs`, no como pared física absoluta, sino como límite de lectura del dominio declarado. El origen `O_U=(0,0)` actúa como origen formal-material de la lectura radial.
+
+Bajo esta regla, el valor operativo recibido es:
+
+`R_ε = 13.800.000.000 ly_J`
+
+La unidad `ly_J` indica año luz juliano. Su uso conserva el vínculo entre distancia radial y retorno etario compatible cuando la magnitud se formula como trayectoria luminosa en el régimen declarado.
+
+## 0.3. Separación entre el radio estructural, la Lanzadera Ómicron y el radio comóvil externo
+
+La Parte II conserva tres planos que no deben confundirse.
+
+El primer plano es el radio estructural SV. En esta investigación aparece como `R_ε`, heredado de `R_U^SV`. Su función es fijar la magnitud radial de ε-Atlas desde `O_U` hasta `∂ε-Atlas`.
+
+El segundo plano es la lectura situada de la Lanzadera Ómicron. Su salida propia no es `R_ε`, sino `R_aux,loc^SV`, entendida como lectura desde una referencia local hacia la frontera del dominio. Cuando la referencia local es la Tierra, su forma puede expresarse como:
+
+`R_aux,loc^SV = D(Tierra, ∂ε-Atlas)`
+
+Esta magnitud no corrige el radio estructural ni lo sustituye. Lee la misma frontera desde otra base. La diferencia entre ambas lecturas expresa cambio de origen, no contradicción de dominio.
+
+El tercer plano corresponde al radio comóvil externo. Esta magnitud pertenece al conjunto cosmológico contemporáneo de contraste y no opera como fundamento del cálculo SV. Puede incorporarse para comparación, explicación de régimen o control de no sustitución, pero no reemplaza a `R_ε`.
+
+La regla de separación queda fijada así:
+
+`R_ε := R_U^SV ≠ R_aux,loc^SV ≠ R_comóvil externo`
+
+Esta desigualdad no debe leerse como una simple diferencia numérica entre tres radios homogéneos. Expresa separación de origen, función y régimen. `R_ε` pertenece al radio estructural recibido por continuidad SV; `R_aux,loc^SV` pertenece a una lectura situada de Lanzadera; el radio comóvil externo pertenece al marco cosmológico contemporáneo y se conserva como contraste.
+
+## 0.4. Alcance de la investigación y reserva de Trilogía Exocósmica, Parte III
+
+La Trilogía Exocósmica, Parte II calcula el sistema exocósmico de ε-Atlas bajo Patrón Ómicron y mediante el Transductor SV16-Pi de escala orbital-volumétrica. Sus resultados deberán determinar, con dominio declarado, la geometría auxiliar de ε-Atlas, la geometría versal de primer orden, las relaciones lineal, superficial y volumétrica entre ambos niveles, la órbita suprasistémica y los retornos metrológicos principales.
+
+El Transductor SV16-Pi se introduce como denominación técnica para el tramo calculativo que convierte radio en escala orbital, superficie, volumen y retorno geométrico. Su nombre procede de la secuencia nominal interna del SV y conserva la lógica que ya permitió denominar la Lanzadera Ómicron. La diferencia funcional es precisa: Ómicron nombra tránsito, frontera y devolución; Pi nombra escala, circunferencia, superficie, volumen y relación orbital.
+
+La Parte II no declara todavía una genealogía completa de dominios, ni una teoría cerrada de herencia-descendencia, ni un supranodo posterior al Universo Versal. Tampoco convierte la semejanza formal entre escalas en ley de inclusión. La relación entre ε-Atlas y Universo Versal puede calcularse cuando hay dominio, nodo, radio, frontera y retorno suficientes. Cualquier extensión ulterior exigirá los mismos requisitos. Si no se dispone de ellos, la salida queda en `U` localizada.
+
+La Parte III recibirá este resultado como base para tratar ciclo exocósmico, progenitura formal, clausura, herencia-descendencia y límites supranodales. Por tanto, la Parte II no agota la Trilogía Exocósmica: fija su sistema calculativo intermedio y deja preparado el tránsito hacia la última parte.
+
