@@ -272,7 +272,7 @@
 
 ## A.10. Conclusión
 
-# Corolario final del Anexo A. Corolario orbital-generacional: de la matriz transductiva a la herencia-descendencia exocósmica
+# Corolario al «Anexo A. Matriz orbital-transductiva de dominios acotados. Corolario orbital-generacional: de la matriz transductiva a la herencia-descendencia exocósmica »
 
 ## C.0. Régimen formal del corolario
 
