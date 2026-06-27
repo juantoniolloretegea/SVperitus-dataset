@@ -242,14 +242,6 @@
 
 ## XVI.4. Cierre de Parte II y preparación de la Trilogía Exocósmica, Parte III
 
-# Bibliografía
-
-## Fuentes internas del Sistema Vectorial SV
-
-## Fuentes externas de contraste cosmológico, orbital y metrológico
-
-## Fuentes de imágenes y medios
-
 # Anexo A. Matriz orbital-transductiva de dominios acotados
 
 ## A.1. Objeto
@@ -368,7 +360,6 @@
 
 ## C.46. Condición de entrada para la Trilogía Exocósmica, Parte III
 
-# Cláusulas legales
 
 ---
 
@@ -465,4 +456,14 @@ La transducción permite pasar de una magnitud radial a una estructura de escala
 El retorno traduce magnitudes calculadas a patrones metrológicos o externos de contraste. No añade fundamento al cálculo, pero permite examinar la escala obtenida desde referencias reconocibles. Cuando intervenga la Ciencia Contemporánea, su función será de contraste, calibración, comparación o ejemplificación, nunca de sustitución del dominio SV declarado.
 
 El método conserva una restricción final. Ninguna magnitud se admitirá por semejanza, tamaño, autoridad externa o utilidad narrativa. La admisión exige dominio, nodo u origen, radio, frontera, unidad, residual y retorno. Allí donde falte alguno de esos elementos, no se fuerza continuidad. La salida correcta será `U` localizada.
+
+# Bibliografía
+
+## Fuentes internas del Sistema Vectorial SV
+
+## Fuentes externas de contraste cosmológico, orbital y metrológico
+
+## Fuentes de imágenes y medios  
+
+# Cláusulas legales
 
