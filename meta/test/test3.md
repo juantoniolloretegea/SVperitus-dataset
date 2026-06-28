@@ -230,7 +230,7 @@
 
 ## XV.3. Co-descendencia orbital como cuestión reservada para Parte II (λ)
 
-## XV.4. Universo Capital como cuestión reservada para Parte II (λ)
+## XV.4. Nodo Central Capital y Universo Capital como cuestiones reservadas para Parte II (λ)
 
 ## XV.5. Continuidad H–He como control de tránsito por dominios
 
@@ -315,19 +315,19 @@ La Trilogía Exocósmica, Parte II (μ) calcula el sistema exocósmico de ε-Atl
 
 El Transductor SV16-Pi se aplica como denominación técnica para el tramo calculativo que convierte radio en escala orbital, superficie, volumen y retorno geométrico. Su nombre procede de la secuencia nominal interna del SV y conserva la lógica que ya permitió denominar la Lanzadera Ómicron. La diferencia funcional es precisa: **Ómicron** nombra tránsito, frontera y devolución; **Pi** nombra escala, circunferencia, superficie, volumen y relación orbital.
 
-En la Parte II (μ) no se declara todavía una herencia-descendencia completa de dominios, ni se formula el Universo Capital, ni se cierra el ciclo completo de la cadena exocósmica. Tampoco se convierte la semejanza formal entre escalas en ley de inclusión. La relación entre ε-Atlas y Universo Versal puede calcularse cuando hay dominio, nodo, radio, frontera y retorno suficientes; cualquier extensión ulterior exigirá los mismos requisitos. Si no se dispone de ellos, la salida queda en `U` localizada.
+En la Parte II (μ) no se declara todavía una herencia-descendencia completa de dominios, ni se determina el Nodo Central Capital, ni se formula el Universo Capital, ni se cierra el ciclo completo de la cadena exocósmica. Tampoco se convierte la semejanza formal entre escalas en ley de inclusión. La relación entre ε-Atlas y Universo Versal puede calcularse cuando hay dominio, nodo, radio, frontera y retorno suficientes; cualquier extensión ulterior exigirá los mismos requisitos. Si no se dispone de ellos, la salida queda en `U` localizada.
 
-La Parte II (λ) tomará estos resultados como suelo material para desarrollar herencia-descendencia, co-descendencia orbital, clausura residual, Universo Capital, límite de conteo de ciclos y aplicaciones raigales derivadas. Esa publicación posterior no corregirá los cálculos de μ ni los sustituirá: recibirá escala, órbita, matriz y retornos como condiciones previas de formulación.
+La Parte II (λ) tomará estos resultados como suelo material para desarrollar herencia-descendencia, co-descendencia orbital, condición de residual cero, Nodo Central Capital, Universo Capital, límite de conteo de ciclos y aplicaciones raigales derivadas. Esa publicación posterior no corregirá los cálculos de μ ni los sustituirá: recibirá escala, órbita, matriz y retornos como condiciones previas de formulación.
 
 ## 0.5. Arquitectura interna de la Parte II: desarrollo μ y desarrollo λ
 
-La Trilogía Exocósmica, Parte II queda organizada como una unidad formal compuesta por dos desarrollos conjugados: Parte II (μ) y Parte II (λ). La presente publicación corresponde al desarrollo μ. Su función propia es calculativa y transductiva: recibe el dominio ε-Atlas, el radio operativo `R_ε`, el Patrón Ómicron, el Transductor SV16-Pi, la órbita suprasistémica, los retornos metrológicos y la matriz orbital-transductiva de dominios acotados. En este tramo no se cierra todavía la herencia-descendencia exocósmica, no se declara el Universo Capital y no se formula el ciclo completo de clausura de la cadena.
+La Trilogía Exocósmica, Parte II queda organizada como una unidad formal compuesta por dos desarrollos conjugados: Parte II (μ) y Parte II (λ). La presente publicación corresponde al desarrollo μ. Su función propia es calculativa y transductiva: recibe el dominio ε-Atlas, el radio operativo `R_ε`, el Patrón Ómicron, el Transductor SV16-Pi, la órbita suprasistémica, los retornos metrológicos y la matriz orbital-transductiva de dominios acotados. En este tramo no se cierra todavía la herencia-descendencia exocósmica, no se determina el Nodo Central Capital, no se declara el Universo Capital y no se formula el ciclo completo de clausura de la cadena.
 
-La denominación μ y λ no se introduce por conveniencia nominal. Conserva la referencia polar del Sistema Vectorial SV: μ y λ son los polos cuya relación permite leer diferencia, intensidad, igualdad de umbral y tránsito. En esta arquitectura, μ nombra el desarrollo calculativo que determina magnitudes, escala, órbita y retorno; λ queda reservado para el desarrollo posterior de clausura, herencia-descendencia, co-descendencia y dominio capital. La elección de estos nombres no añade una magnitud nueva ni altera la Línea del Umbral SV; sólo ordena editorialmente dos tramos de una misma Parte II bajo la notación polar ya declarada.
+La denominación μ y λ no se introduce por conveniencia nominal. Conserva la referencia polar del Sistema Vectorial SV: μ y λ son los polos cuya relación permite leer diferencia, intensidad, igualdad de umbral y tránsito. En esta arquitectura, μ nombra el desarrollo calculativo que determina magnitudes, escala, órbita y retorno; λ queda reservado para el desarrollo posterior de clausura, herencia-descendencia, co-descendencia, Nodo Central Capital y dominio capital. La elección de estos nombres no añade una magnitud nueva ni altera la Línea del Umbral SV; sólo ordena editorialmente dos tramos de una misma Parte II bajo la notación polar ya declarada.
 
-La Parte II (λ) quedará reservada para el desarrollo formal de herencia-descendencia, co-descendencia orbital, clausura residual, Universo Capital, límite de conteo de ciclos y aplicaciones raigales derivadas. Esa segunda publicación no corregirá el cálculo de μ ni lo sustituirá: tomará sus resultados como suelo material de tránsito. La relación entre ambas partes es, por tanto, de complementariedad: μ determina escala, órbita, retorno y matriz; λ desarrolla la lectura generativa, orbital-descendente y capital que sólo puede formularse después de disponer de esos resultados.
+La Parte II (λ) quedará reservada para el desarrollo formal de herencia-descendencia, co-descendencia orbital, condición de residual cero, Nodo Central Capital, Universo Capital, límite de conteo de ciclos y aplicaciones raigales derivadas. Esa segunda publicación no corregirá el cálculo de μ ni lo sustituirá: tomará sus resultados como suelo material de tránsito. La relación entre ambas partes es, por tanto, de complementariedad: μ determina escala, órbita, retorno y matriz; λ desarrolla la lectura generativa, orbital-descendente y capital que sólo puede formularse después de disponer de esos resultados.
 
-Esta separación impide mezclar planos. La Parte II (μ) no convierte la semejanza geométrica en linaje, ni la órbita en herencia-descendencia, ni el retorno metrológico en cierre de especie o fibra. Cuando una cuestión exija dominio biológico, químico, raigal, generacional o capital, quedará remitida a Parte II (λ) o permanecerá en `U` hasta declarar frontera, residual, retorno y traza suficientes. La presente publicación conserva así su objeto: sistema exocósmico de ε-Atlas, cálculo versal, transducción orbital-volumétrica, retornos y matriz de admisión.
+Esta separación impide mezclar planos. La Parte II (μ) no convierte la semejanza geométrica en herencia-descendencia, ni la órbita en transmisión entre dominios, ni el retorno metrológico en cierre de especie o fibra. Cuando una cuestión exija dominio biológico, químico, raigal, generacional o capital, quedará remitida a Parte II (λ) o permanecerá en `U` hasta declarar frontera, residual, retorno y traza suficientes. La presente publicación conserva así su objeto: sistema exocósmico de ε-Atlas, cálculo versal, transducción orbital-volumétrica, retornos y matriz de admisión.
 
 # I. Objeto, alcance y método
 
@@ -365,7 +365,7 @@ Finalmente, se efectuarán retornos metrológicos. Las magnitudes calculadas se 
 
 ## I.4. Magnitudes, dominios y umbral formal que no se declaran en μ
 
-Este desarrollo μ no declara todavía una herencia-descendencia exocósmica completa. Tampoco desarrolla una teoría cerrada de transmisión entre dominios, ni identifica el Universo Versal con un eslabón material de linaje, ni abre el Universo Capital como si estuviera ya calculado dentro de esta publicación. Ese desarrollo queda reservado para la Trilogía Exocósmica, Parte II (λ), una vez concluido el trabajo calculativo de μ.
+Este desarrollo μ no declara todavía una herencia-descendencia exocósmica completa. Tampoco desarrolla una teoría cerrada de transmisión entre dominios, ni identifica el Universo Versal con un término material de herencia-descendencia, ni determina el Nodo Central Capital, ni abre el Universo Capital como si estuviera ya calculado dentro de esta publicación. Ese desarrollo queda reservado para la Trilogía Exocósmica, Parte II (λ), una vez concluido el trabajo calculativo de μ.
 
 La investigación tampoco convierte la semejanza formal entre escalas en ley de inclusión. Que dos dominios puedan compararse por radio, frontera, órbita o retorno no autoriza por sí solo una declaración de herencia-descendencia, sucesión o clausura de ciclo. Para que esa lectura pueda plantearse posteriormente, deberán concurrir condiciones completas de dominio.
 
@@ -455,7 +455,7 @@ La regla general que deberá custodiar el Anexo A se formula de modo restringido
 
 `D_i` sólo admite lectura orbital-transductiva si declara origen o nodo, radio, frontera, régimen orbital, retorno y residual.
 
-Esta regla no cierra linaje, no declara herencia-descendencia y no abre supranodos posteriores. Sólo fija las condiciones mínimas para que un dominio acotado pueda ser leído después bajo un régimen de ciclo. La Parte II (μ) deja preparado ese umbral, pero no lo clausura.
+Esta regla no cierra herencia-descendencia, no declara transmisión entre dominios y no abre dominios posteriores. Sólo fija las condiciones mínimas para que un dominio acotado pueda ser leído después bajo un régimen de ciclo. La Parte II (μ) deja preparado ese umbral, pero no lo clausura.
 
 ## II.6. Criterio de admisión, defecto y U como indeterminación honesta
 
@@ -468,6 +468,134 @@ La salida correcta ante defecto no resuelto es `U`. En el Sistema Vectorial SV, 
 En esta Parte II (μ), la `U` supranodal debe permanecer localizada. Se aplicará allí donde se pretenda extender el cálculo más allá del Universo Versal sin declarar dominio, nodo, frontera, residual, retorno y traza suficientes. Esa localización impide convertir `U` en cierre negativo general y evita, al mismo tiempo, una prolongación favorable sin fundamento.
 
 El criterio final puede formularse así: lo determinado se calcula; lo externo se contrasta; lo no intercambiable se separa; y lo no declarable queda en `U` localizada. Con esa disciplina, la Parte II (μ) puede avanzar hacia resultados geométricos, orbitales y metrológicos sin anticipar la herencia-descendencia exocósmica que corresponde a la Parte II (λ).
+
+# III. Magnitudes recibidas del dominio-universo físico realizado que habitamos, denominado ε-Atlas
+
+## III.1. Definición operativa de ε-Atlas
+
+En esta investigación, `ε-Atlas` designa el dominio-universo físico realizado que habitamos cuando se toma bajo lectura exocósmica portadora. La denominación no introduce un segundo universo físico ni desplaza el régimen cosmológico ya tratado por la Trilogía Cosmológica. Nombra, dentro de la Trilogía Exocósmica, el mismo dominio observable cuando se emplea como base formal para proyectar el tránsito hacia el Universo Versal.
+
+La definición operativa queda fijada así:
+
+`ε-Atlas := Ωobs | lectura exocósmica portadora`
+
+El símbolo `Ωobs` conserva el dominio observable ya trabajado en la Trilogía Cosmológica. La expresión `lectura exocósmica portadora` precisa el cambio de función: el dominio no se abandona, no se duplica y no se convierte en totalidad absoluta; se adopta como soporte de una lectura de mayor alcance, sometida a cálculo y a retorno.
+
+Por consiguiente, `ε-Atlas` no debe confundirse con el Universo Versal. `ε-Atlas` es el dominio físico realizado desde el que parte esta Parte II (μ). El Universo Versal será el dominio envolvente de primer orden que se determine desde él mediante la relación de escala declarada. Tampoco debe confundirse `ε-Atlas` con el Universo Capital ni con ningún dominio posterior reservado para la Parte II (λ).
+
+La función de `ε-Atlas` en esta Parte II (μ) es triple. Primero, ofrece el dominio de partida. Segundo, recibe la magnitud radial ya determinada como `R_ε`. Tercero, permite que el Transductor SV16-Pi convierta esa magnitud en circunferencia, superficie, volumen, proporción y recorrido orbital formal. Todo cálculo posterior deberá conservar esta adscripción.
+
+## III.2. Definición del radio `R_ε`
+
+El radio operativo de `ε-Atlas` se recibe por continuidad formal desde el radio estructural ya fijado en el régimen anterior. Su definición es:
+
+`R_ε := R_U^SV`
+
+En esta expresión, `R_ε` nombra el radio de `ε-Atlas` dentro de la Trilogía Exocósmica, mientras que `R_U^SV` nombra el radio estructural del dominio-universo observable en el marco SV previamente determinado. No hay aquí una equivalencia aproximada ni una adaptación a una escala externa. La expresión declara identidad funcional entre una magnitud ya establecida y su uso operativo en el desarrollo μ.
+
+La forma completa de la relación es:
+
+`R_ε := R_U^SV = D(O_U, ∂Ωobs) = D(O_U, ∂ε-Atlas)`
+
+`O_U=(0,0)` actúa como origen formal-material de la lectura radial. La frontera `∂ε-Atlas` conserva la frontera del dominio declarado. La distancia `D(O_U, ∂ε-Atlas)` no se toma desde una referencia local situada, sino desde el origen formal declarado.
+
+El valor recibido es:
+
+`R_ε = 13.800.000.000 ly_J`
+
+La unidad `ly_J` indica año luz juliano. Su empleo preserva el vínculo entre la magnitud radial y su retorno etario cuando la distancia se expresa mediante trayectoria luminosa en el régimen declarado.
+
+Esta definición impide dos errores. El primero consistiría en reemplazar `R_ε` por el radio comóvil externo. El segundo consistiría en identificar `R_ε` con la salida situada de la Lanzadera Ómicron. Ninguna de esas sustituciones procede. `R_ε` es la magnitud radial estructural que gobierna el cálculo μ.
+
+## III.3. Definición de la frontera `∂ε-Atlas`
+
+La frontera de `ε-Atlas` se recibe por continuidad formal:
+
+`∂ε-Atlas := ∂Ωobs`
+
+Esta igualdad no convierte la frontera en pared material absoluta ni en borde ontológico de todo lo existente. Declara que, para esta investigación, la frontera de lectura de `ε-Atlas` coincide con la frontera del dominio observable tratado en el régimen anterior, ahora bajo función exocósmica portadora.
+
+La frontera cumple una función de cierre de dominio. Permite que el radio `R_ε` no sea una longitud suelta, sino una distancia con origen, destino, dominio y régimen. Sin frontera declarada no hay radio formal suficiente; habría, a lo sumo, una magnitud descriptiva, una referencia externa o una analogía de escala.
+
+En la Parte II (μ), `∂ε-Atlas` cumple además una función de custodia frente al desplazamiento indebido de planos. La Lanzadera Ómicron puede leer esa frontera desde una base situada, como la Tierra, pero esa lectura no redefine la frontera. El radio comóvil externo puede ofrecer un contraste cosmológico, pero tampoco redefine `∂ε-Atlas`.
+
+La frontera así establecida permite articular tres lecturas separadas:
+
+`D(O_U, ∂ε-Atlas)` como radio estructural;
+
+`D(Tierra, ∂ε-Atlas)` como lectura situada de Lanzadera;
+
+`R_comóvil externo` como magnitud contemporánea de contraste.
+
+Estas tres lecturas no son intercambiables. La frontera puede ser común como referencia de dominio, pero el origen, la función y el régimen de cada magnitud son distintos.
+
+## III.4. Clausura axial-etaria de ε-Atlas
+
+La clausura axial-etaria de `ε-Atlas` expresa la compatibilidad entre la lectura radial y la lectura etaria del dominio. No convierte el tiempo en fundamento rector ni sustituye el cálculo geométrico por cronología. Su función es más precisa: conservar la correspondencia formal entre radio, trayectoria luminosa y edad declarada cuando la magnitud se expresa en `ly_J`.
+
+Bajo esta lectura, el valor:
+
+`R_ε = 13.800.000.000 ly_J`
+
+corresponde a la magnitud radial asociada al corte etario:
+
+`A_Ωobs = 13.800.000.000 a_J`
+
+donde `a_J` designa año juliano. La coincidencia formal entre el valor numérico en años luz julianos y el corte etario no debe interpretarse como identidad entre distancia y tiempo en todo régimen. Sólo expresa la equivalencia propia de una trayectoria luminosa cuando la unidad de distancia se construye sobre el recorrido de la luz durante un año juliano.
+
+La clausura axial-etaria permite conservar el tramo de lectura que enlaza el origen formal-material `O_U=(0,0)`, el radio `R_ε` y la frontera `∂ε-Atlas`. En ese sentido, el dominio queda suficientemente determinado para el desarrollo calculativo μ: tiene nombre operativo, origen formal, frontera, radio y unidad.
+
+Esta clausura tampoco habilita por sí sola una herencia-descendencia exocósmica. La relación entre dominios posteriores requiere condiciones adicionales que no se declaran en μ. Por tanto, la clausura axial-etaria de `ε-Atlas` sólo autoriza el cálculo del sistema exocósmico de primer orden: geometría de `ε-Atlas`, geometría del Universo Versal, proporciones, órbita suprasistémica y retornos metrológicos.
+
+## III.5. Constante Descartes de carga cosmológica compuesta
+
+La Constante Descartes de carga cosmológica compuesta se recibe en esta Parte II (μ) como relación de escala aplicable al tránsito:
+
+`ε-Atlas → Universo Versal`
+
+Su función consiste en permitir la determinación del radio versal `R_V` desde el radio operativo `R_ε`. No actúa como constante cosmológica contemporánea, no sustituye a `Λ`, no reemplaza al radio comóvil externo y no debe emplearse fuera de su adscripción propia.
+
+La relación funcional que rige su uso puede expresarse así:
+
+`R_V = 𝒞_D^ℓ · R_ε`
+
+donde `𝒞_D^ℓ` representa la Constante Descartes en su función lineal de escala. A partir de esa relación lineal se derivarán después, mediante el Transductor SV16-Pi, las relaciones superficial y volumétrica:
+
+`S_V / S_ε = (𝒞_D^ℓ)^2`
+
+`V_V / V_ε = (𝒞_D^ℓ)^3`
+
+Estas expresiones no adelantan todavía el desarrollo completo del cálculo, que corresponde a los apartados posteriores. Aquí sólo se fija la adscripción: la Constante Descartes pertenece al tránsito `ε-Atlas → Universo Versal` dentro de μ.
+
+La restricción es obligatoria. La Constante Descartes no debe aplicarse al tránsito `Universo Versal → Universo Capital`, porque ese tránsito pertenece a la Parte II (λ) y exigirá su propia formalización. En μ no se declara el Nodo Central Capital, no se calcula el Universo Capital y no se introduce la Constante ñ.
+
+De este modo, la Constante Descartes queda situada con precisión: recibe `R_ε`, habilita `R_V` y prepara las proporciones lineal, superficial y volumétrica del Universo Versal. Su alcance termina donde termina el desarrollo μ.
+
+## III.6. Descripción y definición del nodo versal `Ξ_Ω`
+
+El nodo versal `Ξ_Ω` actúa como referencia formal para la apertura del Universo Versal desde `ε-Atlas`. No se presenta como punto físico observable, ni como centro material situado en el espacio astronómico, ni como sustituto del origen `O_U=(0,0)`. Su función es ordenar el tránsito de escala que permite pasar del dominio físico realizado al dominio envolvente de primer orden.
+
+La relación entre `ε-Atlas`, su frontera y el nodo versal debe leerse bajo separación de funciones. `O_U=(0,0)` conserva el origen formal-material de la lectura radial de `ε-Atlas`. `∂ε-Atlas` conserva la frontera del dominio declarado. `Ξ_Ω` introduce la referencia versal necesaria para formular el Universo Versal como dominio envolvente de primer orden.
+
+En esta Parte II (μ), `Ξ_Ω` se limita a permitir la construcción del sistema versal asociado a `ε-Atlas`. No autoriza una cadena supranodal indefinida ni declara un dominio posterior. Su empleo debe mantenerse dentro de la determinación de `R_V`, `D_V`, circunferencia versal, superficie auxiliar versal, volumen auxiliar versal, órbita suprasistémica y retornos.
+
+El nodo versal tampoco debe confundirse con el Nodo Central Capital. Este último queda reservado para la Parte II (λ), donde se tratará el tránsito desde el Universo Versal hacia el Universo Capital. En μ, cualquier intento de calcular o nombrar ese nodo posterior queda fuera de alcance.
+
+Por tanto, `Ξ_Ω` queda definido en régimen operativo como nodo formal del Universo Versal respecto de `ε-Atlas`, suficiente para el cálculo de primer orden y no suficiente para declarar por sí mismo una estructura capital ulterior.
+
+## III.7. Magnitudes que no se incorporan como fundamento
+
+La Parte II (μ) excluye como fundamento toda magnitud que no pertenezca al dominio, al tránsito o al retorno que aquí se calculan. La exclusión no implica rechazo general de esas magnitudes, sino separación de función.
+
+No se incorpora como fundamento el radio comóvil externo. Puede emplearse como contraste contemporáneo, pero no gobierna `R_ε`, no determina `R_V` y no corrige el tránsito `ε-Atlas → Universo Versal`.
+
+No se incorpora como fundamento `R_aux,loc^SV`. Esta magnitud pertenece a la lectura situada de la Lanzadera Ómicron. Su función es leer la frontera desde una referencia local, no sustituir el radio estructural ni fundar la geometría versal.
+
+No se incorporan como fundamento el Nodo Central Capital, el Universo Capital ni la Constante ñ. Esos elementos quedan reservados para la Parte II (λ), porque pertenecen al tránsito posterior `Universo Versal → Universo Capital`.
+
+Tampoco se incorporan como fundamento modelos cosmológicos externos ampliados, escenarios de final cosmológico, multiversos, universos-burbuja, cosmologías cíclicas, Big Crunch, Big Bounce, inflación o universo estacionario. Esos marcos podrán comparecer en λ como contraste ampliado, con la clasificación que corresponda. En μ sólo se admiten referencias externas cuando sirven al régimen de cálculo, retorno, órbita, metrología o separación de planos propio de esta investigación.
+
+La regla final es conservadora: sólo se incorpora como fundamento aquello que pertenece al sistema formal de μ; lo externo se conserva como contraste; lo posterior queda reservado para λ; y lo no declarado permanece en `U` localizada.
 
 # Bibliografía
 
