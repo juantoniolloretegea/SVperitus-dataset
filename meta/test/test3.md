@@ -134,8 +134,6 @@
 
 ## VIII.1 bis. Función orbital del dominio envolvente respecto del contenido declarado
 
-## VIII.1 bis. Función orbital del dominio envolvente respecto del contenido declarado
-
 El cálculo desarrollado en esta Parte II (μ) no autoriza todavía una teoría general de la herencia-descendencia exocósmica, de la co-descendencia orbital ni del Universo Capital. Ese desarrollo queda reservado para la Parte II (λ). Sin embargo, el caso ya calculado de `ε-Atlas` dentro del Universo Versal permite fijar una formulación mínima que pertenece todavía al régimen propio de μ y que no invade el tramo posterior.
 
 Dicha formulación puede expresarse así: el Universo Versal, en cuanto dominio envolvente de primer orden ya determinado, hace legible la orbitalidad del dominio contenido formalmente declarado. En esta publicación, ese dominio contenido no es una pluralidad abierta de observables ni un inventario de contenidos posibles. Es `ε-Atlas`, y sólo `ε-Atlas`, como caso canónico explícitamente calculado bajo nodo versal, radio versal, recorrido orbital, duración compuesta, tasa factual de recorrido y retorno metrológico.
