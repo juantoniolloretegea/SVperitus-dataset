@@ -132,6 +132,18 @@
 
 ## VIII.1. Nodo versal y recorrido orbital
 
+## VIII.1 bis. Función orbital del dominio envolvente respecto del contenido declarado
+
+## VIII.1 bis. Función orbital del dominio envolvente respecto del contenido declarado
+
+El cálculo desarrollado en esta Parte II (μ) no autoriza todavía una teoría general de la herencia-descendencia exocósmica, de la co-descendencia orbital ni del Universo Capital. Ese desarrollo queda reservado para la Parte II (λ). Sin embargo, el caso ya calculado de `ε-Atlas` dentro del Universo Versal permite fijar una formulación mínima que pertenece todavía al régimen propio de μ y que no invade el tramo posterior.
+
+Dicha formulación puede expresarse así: el Universo Versal, en cuanto dominio envolvente de primer orden ya determinado, hace legible la orbitalidad del dominio contenido formalmente declarado. En esta publicación, ese dominio contenido no es una pluralidad abierta de observables ni un inventario de contenidos posibles. Es `ε-Atlas`, y sólo `ε-Atlas`, como caso canónico explícitamente calculado bajo nodo versal, radio versal, recorrido orbital, duración compuesta, tasa factual de recorrido y retorno metrológico.
+
+La precisión es necesaria para impedir dos errores simétricos. El primero consistiría en reducir el resultado a un caso aislado sin valor estructural. El segundo consistiría en inflarlo hasta convertirlo en ley general de todos los contenidos del Universo Versal. Ninguna de esas dos lecturas pasa aquí. Lo que sí queda fijado es un principio operativo más restringido: cuando un dominio envolvente de primer orden ha sido formalmente declarado y cuando un dominio contenido ha sido igualmente declarado con nodo, frontera, radio, recorrido y retorno suficientes, el régimen envolvente permite describir la orbitalidad de ese contenido sin por ello agotar la teoría general de la descendencia entre dominios.
+
+Por tanto, la Parte II (μ) deja establecido el caso canónico `ε-Atlas ↔ Universo Versal` como instancia suficiente de lectura orbital de un dominio contenido bajo un dominio envolvente ya calculado. La extrapolación ulterior de esta estructura, así como su aplicación al tramo capital, no pertenece a la presente publicación. Aquí queda fijado sólo el principio mínimo necesario para que el resultado orbital de `ε-Atlas` no se lea como accidente aislado, sino como forma calculativa tipada dentro del sistema exocósmico de primer orden.
+
 ## VIII.2. Longitud orbital interna de ε-Atlas en el Universo Versal
 
 ## VIII.3. Duración de la traslación compuesta
@@ -224,7 +236,7 @@
 
 # XV. Continuidad hacia Trilogía Exocósmica, Parte II (λ)
 
-## XV.1. De escala, órbita, retorno y residual a lectura posterior de ciclo exocósmico
+## XV.1. De escala, órbita, retorno, función envolvente y residual a lectura posterior de ciclo exocósmico
 
 ## XV.2. Herencia-descendencia como cuestión reservada para Parte II (λ)
 
