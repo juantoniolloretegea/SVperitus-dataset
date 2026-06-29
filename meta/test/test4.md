@@ -1,8 +1,8 @@
 # NASA redondea; el Sistema Vectorial SV formaliza — Trilogía Exocósmica, Parte II (λ)
 
-## Universo Capital en sus fases pre y proto, patrón del primitivo del hidrógeno, Nodo Central Capital, Sistema ñ, giro y pivotación axial del Capital ya separado, herencia-descendencia exocósmica, colateralidad, co-descendencia orbital, residual de cadena, Totalidad y clausura capital
+## Universo Capital en sus fases pre y proto, patrón del primitivo del hidrógeno, Nodo Central Capital, Sistema ñ, giro y pivotación axial del Capital ya separado, herencia-descendencia exocósmica, colateralidad, co-descendencia orbital, radio, longitud, superficie, volumen, residual de cadena, Totalidad y clausura capital
 
-**Desarrollo λ de la Parte II (μ + λ): génesis estructural del Universo Capital desde el primitivo del hidrógeno elevado por patrón, distinción entre pre-Capital, proto-Capital y Capital ya separado, determinación del Nodo Central Capital, función envolvente del Capital respecto de lo contenido, relación entre Sistema ñ y Descartes, conexión descendente del Capital con Universo Versal y ε-Atlas, y articulación de Vacío Absoluto, Espacio y Universo Capital en la definición de Totalidad, bajo residual, retorno, clausura de cadena y no cierre favorable de lo no determinado.**
+**Desarrollo λ de la Parte II (μ + λ): génesis estructural del Universo Capital desde el primitivo del hidrógeno elevado por patrón, distinción entre pre-Capital, proto-Capital y Capital ya separado, determinación del Nodo Central Capital, función envolvente del Capital respecto de lo contenido, relación entre Sistema ñ y Descartes, desarrollo axial-etario, cálculo del radio, la longitud, la superficie y el volumen del Universo Capital, conexión descendente del Capital con Universo Versal y ε-Atlas, y articulación de Vacío Absoluto, Espacio y Universo Capital en la definición de Totalidad, bajo residual, retorno, clausura de cadena y no cierre favorable de lo no determinado.**
 
 ---
 
@@ -154,7 +154,7 @@
 
 ## X.1. Marco axial-etario del Universo Capital
 
-## X.2. `A_semi^SV(Ω_C)` y `A_fin^SV(Ω_C)` como problema formal
+## X.2. Determinación de `A_semi^SV(Ω_C)` y `A_fin^SV(Ω_C)`
 
 ## X.3. Diferencial axial-etario capital
 
@@ -164,7 +164,7 @@
 
 ## X.6. Restricción frente a la traslación orbital capital
 
-# XI. Cálculo de variables y parámetros de λ
+# XI. Cálculo del radio, la longitud, la superficie, el volumen y demás variables de λ
 
 ## XI.1. Magnitudes heredadas de μ
 
@@ -172,11 +172,27 @@
 
 ## XI.3. Magnitudes calculables en λ
 
-## XI.4. Magnitudes condicionadas
+## XI.4. Fundamento de procedencia de los cálculos geométrico-métricos del Universo Capital
 
-## XI.5. Magnitudes que deben permanecer en `U`
+## XI.5. Declaración inicial de símbolos, constantes y magnitudes del bloque de cálculo
 
-## XI.6. Tabla general de variables y parámetros
+## XI.6. Símbolos, constantes y fórmulas del bloque de cálculo
+
+## XI.7. Explicación de entrada de cada símbolo en las fórmulas del bloque
+
+## XI.8. Cálculo del radio del Universo Capital
+
+## XI.9. Cálculo de la longitud del Universo Capital
+
+## XI.10. Cálculo de la superficie del Universo Capital
+
+## XI.11. Cálculo del volumen del Universo Capital
+
+## XI.12. Magnitudes condicionadas
+
+## XI.13. Magnitudes que deben permanecer en `U`
+
+## XI.14. Tabla general de variables y parámetros
 
 # XII. Herencia-descendencia exocósmica, colateralidad y co-descendencia orbital
 
@@ -691,7 +707,7 @@ El desarrollo axial-etario del Universo Capital sólo puede abrirse una vez fija
 
 La publicación deberá mantener aquí la misma disciplina que en los tramos anteriores: no se pasará del marco al cierre, ni de la orientación a la magnitud determinada, sin el soporte material correspondiente. El plano axial-etario ha de quedar fijado como plano propio del Capital y no como prolongación retórica de otros desarrollos.
 
-## X.2. `A_semi^SV(Ω_C)` y `A_fin^SV(Ω_C)` como problema formal
+## X.2. Determinación de `A_semi^SV(Ω_C)` y `A_fin^SV(Ω_C)`
 
 `A_semi^SV(Ω_C)` y `A_fin^SV(Ω_C)` comparecen en `λ` como problema formal. Esta expresión debe tomarse con toda su fuerza. No entran todavía como magnitudes clausuradas por simple nombramiento, sino como términos cuya determinación exige disciplina de definición, de dependencia y de cálculo.
 
