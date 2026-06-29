@@ -16,21 +16,21 @@
 
 ## 0.1. Trilogía Exocósmica, Parte II (λ) como desarrollo conjugado posterior a Parte II (μ)
 
-## 0.2. Qué se aplica a la Trilogía Exocósmica, Parte II (λ) de la Trilogía Exocósmica, Parte II (μ) y qué no
+## 0.2. Aplicación a la Parte II (λ) de los resultados recibidos de la Parte II (μ)
 
-## 0.3. Objeto de Trilogía Exocósmica, Parte II (λ): transido al Universo Capital desde la Parte II (μ)
+## 0.3. Objeto de la Parte II (λ): tránsito al Universo Capital desde la Parte II (μ)
 
-## 0.4. Razón de método: por qué la Parte II (λ) debe comenzar por la génesis del Universo Capital
+## 0.4. Primacía de la génesis del Universo Capital en el método de λ
 
-## 0.5. Regla de custodia: ambición formal sin cierre espurio
+## 0.5. Regla de custodia y cierre no espurio
 
 # I. Objeto, alcance, método y disciplina de planos
 
 ## I.1. Objeto específico de la investigación
 
-## I.2. Alcance: desde pre- Universo Capital hasta Universo Capital ya separado y su conexión con el Universo Versal y el Universo que habitamos los humanos ε-Atlas
+## I.2. Alcance: desde pre-Capital hasta Universo Capital ya separado y su conexión con el Universo Versal y ε-Atlas
 
-## I.3. Qué puede intentar λ y qué no puede declarar todavía
+## I.3. Alcance material y reservas de determinación
 
 ## I.4. Método: fundamentos SV y patrones de la naturaleza
 
@@ -76,33 +76,31 @@
 
 ## IV.5. Residual, frontera, identidad y retorno en la génesis del hidrógeno
 
-## IV.6. Qué elementos del patrón H/preH son elevables y cuáles no
+## IV.6. Alcance y límite de la elevación por patrón desde H/preH
 
 # V. Elevación por patrón hacia el Universo Capital
 
-## V.1. Necesidad de elevar por patrón y no por copia
+## V.1. Elevación por patrón y exclusión de copia
 
-## V.2. pre- Universo Capital: definición
+## V.2. pre-Capital
 
-## V.3. proto- Universo Capital: definición
+## V.3. proto-Capital
 
 ## V.4. Diferencia entre pre-Capital y proto-Capital
 
-## V.5. Condición de separación del  Universo Capital
-
-## V.6. Lo que nace con el Capital y lo que todavía no nace con él
+## V.5. Condición de separación del Universo Capital
 
 # VI. Nodo Central Capital y constitución del Universo Capital
 
-## VI.1. Necesidad formal de un Nodo Central Capital
+## VI.1. Estatuto formal del Nodo Central Capital
 
-## VI.2. Definición preliminar de `Ξ_C`
+## VI.2. Definición de `Ξ_C`
 
 ## VI.3. Diferencia entre `Ξ_C`, `Ξ_Ω` y centro físico observable
 
 ## VI.4. Del Nodo Central Capital al Universo Capital `Ω_C`
 
-## VI.5. Frontera del Universo capital, residual y dominio de aplicación
+## VI.5. Frontera del Universo Capital, residual y dominio de aplicación
 
 ## VI.6. El Universo Capital como dominio esférico raigal
 
@@ -110,7 +108,7 @@
 
 # VII. Giro y pivotación axial del Universo Capital ya separado
 
-## VII.1. Por qué este bloque sólo procede tras la separación del Capital
+## VII.1. Separación del Capital y régimen dinámico propio
 
 ## VII.2. Giro del Universo Capital
 
@@ -140,21 +138,21 @@
 
 ## IX.1. Adscripción de la constante Descartes al tránsito `ε-Atlas → Universo Versal`
 
-## IX.2. Razón por la que la constante Descartes no debe arrastrarse sin más al tramo capital
+## IX.2. Alcance de la constante Descartes y exclusión de arrastre al tramo capital
 
-## IX.3. Constante ñ
+## IX.3. Sistema ñ
 
 ## IX.4. `Δ_ñ`, `N_ñ`, `E_ñ`: diferencial, cardinal includente y exterior estructural
 
-## IX.5. Definición de la constante ñ: sistema, selector y regla de tránsito capital
+## IX.5. Estatuto del Sistema ñ en el tránsito capital
 
-## IX.6. Relación entre la constante ñ y el plano axial-etario
+## IX.6. Relación entre el Sistema ñ y el plano axial-etario
 
-## IX.7. Lo que la constante ñ no autoriza en el plano orbital
+## IX.7. Restricciones del Sistema ñ en el plano orbital
 
 # X. Desarrollo axial-etario del Universo Capital
 
-## X.1. Condiciones previas del bloque
+## X.1. Marco axial-etario del Universo Capital
 
 ## X.2. `A_semi^SV(Ω_C)` y `A_fin^SV(Ω_C)` como problema formal
 
@@ -162,7 +160,7 @@
 
 ## X.4. Proyección axial-etaria del Sistema ñ
 
-## X.5. Qué puede afirmarse aquí y qué no
+## X.5. Alcance material del desarrollo axial-etario capital
 
 ## X.6. Restricción frente a la traslación orbital capital
 
@@ -230,27 +228,27 @@
 
 # XV. Discusión formal y científica
 
-## XV.1. Qué aporta λ respecto de μ
+## XV.1. Aporte de λ respecto de μ
 
-## XV.2. Qué aporta la génesis del hidrógeno como patrón
+## XV.2. Aporte de la génesis del hidrógeno como patrón
 
-## XV.3. Qué aporta la función envolvente del Capital respecto de lo contenido
+## XV.3. Aporte de la función envolvente del Capital respecto de lo contenido
 
-## XV.4. Qué límites conserva la publicación
+## XV.4. Límites de la publicación
 
-## XV.5. Qué debe permanecer abierto
+## XV.5. Aperturas conservadas
 
 # XVI. Anexo. Régimen exterior de la frontera del Universo Capital
 
-## XVI.1. Planteamiento del problema exterior a la frontera capital
+## XVI.1. Exterior de la frontera capital y estatuto del problema
 
-## XVI.2. Por qué fuera del Capital no procede vacío absoluto
+## XVI.2. Exclusión del vacío absoluto fuera del Universo Capital
 
-## XVI.3. Por qué fuera del Capital no procede la Nada de la Teoría del TODO y de la NADA
+## XVI.3. Exclusión de la Nada fuera del Universo Capital
 
-## XVI.4. Espacio como condición exterior compatible sin contradicción
+## XVI.4. Espacio como exterior compatible sin contradicción
 
-## XVI.5. El espacio no se funda al recorrerlo: implicaciones para la frontera capital
+## XVI.5. Espacio completo y no fundación por recorrido: implicaciones para la frontera capital
 
 ## XVI.6. Diferencia entre espacio exterior compatible y dominio capital
 
