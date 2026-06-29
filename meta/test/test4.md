@@ -16,11 +16,11 @@
 
 ## 0.1. Trilogía Exocósmica, Parte II (λ) como desarrollo conjugado posterior a Parte II (μ)
 
-## 0.2. Qué recibe λ de μ y qué no reabre
+## 0.2. Qué se aplica a la Trilogía Exocósmica, Parte II (λ) de la Trilogía Exocósmica, Parte II (μ) y qué no
 
-## 0.3. Objeto propio de λ: tramo capital, no repetición calculativa de μ
+## 0.3. Objeto de Trilogía Exocósmica, Parte II (λ): transido al Universo Capital desde la Parte II (μ)
 
-## 0.4. Razón de método: por qué λ debe comenzar por la génesis del Capital
+## 0.4. Razón de método: por qué la Parte II (λ) debe comenzar por la génesis del Universo Capital
 
 ## 0.5. Regla de custodia: ambición formal sin cierre espurio
 
@@ -28,7 +28,7 @@
 
 ## I.1. Objeto específico de la investigación
 
-## I.2. Alcance: desde pre-Capital hasta Capital ya separado y su conexión con Versal y ε-Atlas
+## I.2. Alcance: desde pre- Universo Capital hasta Universo Capital ya separado y su conexión con el Universo Versal y el Universo que habitamos los humanos ε-Atlas
 
 ## I.3. Qué puede intentar λ y qué no puede declarar todavía
 
@@ -82,13 +82,13 @@
 
 ## V.1. Necesidad de elevar por patrón y no por copia
 
-## V.2. pre-Capital: definición provisional y criterio de admisión
+## V.2. pre- Universo Capital: definición
 
-## V.3. proto-Capital: definición provisional y criterio de admisión
+## V.3. proto- Universo Capital: definición
 
 ## V.4. Diferencia entre pre-Capital y proto-Capital
 
-## V.5. Condición de separación del Capital
+## V.5. Condición de separación del  Universo Capital
 
 ## V.6. Lo que nace con el Capital y lo que todavía no nace con él
 
@@ -102,13 +102,13 @@
 
 ## VI.4. Del Nodo Central Capital al Universo Capital `Ω_C`
 
-## VI.5. Frontera capital, residual y dominio de llegada
+## VI.5. Frontera del Universo capital, residual y dominio de aplicación
 
 ## VI.6. El Universo Capital como dominio esférico raigal
 
 ## VI.7. Restricciones de lectura y no equivalencia con la Totalidad
 
-# VII. Giro y pivotación axial del Capital ya separado
+# VII. Giro y pivotación axial del Universo Capital ya separado
 
 ## VII.1. Por qué este bloque sólo procede tras la separación del Capital
 
@@ -118,11 +118,11 @@
 
 ## VII.4. Diferencia entre giro, pivotación y traslación
 
-## VII.5. Régimen angular del Capital ya separado
+## VII.5. Régimen angular del Universo Capital ya separado
 
 ## VII.6. Restricción explícita: no traslación propia declarada del Universo Capital
 
-# VIII. Función envolvente del Capital respecto de lo contenido
+# VIII. Función envolvente del Universo Capital respecto de lo contenido
 
 ## VIII.1. Dominio envolvente y orbitalidad interna de lo contenido
 
@@ -132,27 +132,27 @@
 
 ## VIII.4. Universo Versal como contenido descendente del Capital
 
-## VIII.5. ε-Atlas como descendencia ulterior dentro de la cadena considerada
+## VIII.5. Universo ε-Atlas como descendencia ulterior dentro de la cadena considerada
 
 ## VIII.6. Restricciones de no extrapolación ilegítima
 
-# IX. Descartes y Sistema ñ
+# IX. La constante Descartes y el Sistema ñ
 
-## IX.1. Adscripción de Descartes al tránsito `ε-Atlas → Universo Versal`
+## IX.1. Adscripción de la constante Descartes al tránsito `ε-Atlas → Universo Versal`
 
-## IX.2. Razón por la que Descartes no debe arrastrarse sin más al tramo capital
+## IX.2. Razón por la que la constante Descartes no debe arrastrarse sin más al tramo capital
 
-## IX.3. Necesidad del Sistema ñ
+## IX.3. Constante ñ
 
 ## IX.4. `Δ_ñ`, `N_ñ`, `E_ñ`: diferencial, cardinal includente y exterior estructural
 
-## IX.5. Estatuto inicial de ñ: sistema, selector y regla de tránsito capital
+## IX.5. Definición de la constante ñ: sistema, selector y regla de tránsito capital
 
-## IX.6. Relación entre ñ y el plano axial-etario
+## IX.6. Relación entre la constante ñ y el plano axial-etario
 
-## IX.7. Lo que ñ no autoriza en el plano orbital
+## IX.7. Lo que la constante ñ no autoriza en el plano orbital
 
-# X. Desarrollo axial-etario del tramo capital
+# X. Desarrollo axial-etario del Universo Capital
 
 ## X.1. Condiciones previas del bloque
 
