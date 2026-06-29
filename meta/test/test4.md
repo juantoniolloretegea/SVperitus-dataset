@@ -156,6 +156,19 @@
 
 ## X.2. Determinación de `A_semi^SV(Ω_C)` y `A_fin^SV(Ω_C)`
 
+En este tramo se fijan dos magnitudes axial-etarias del Universo Capital: `A_semi^SV(Ω_C)` y `A_fin^SV(Ω_C)`.
+
+`A_semi^SV(Ω_C)` designa la magnitud axial-etaria semi del Universo Capital.
+
+`A_fin^SV(Ω_C)` designa la magnitud axial-etaria final del Universo Capital.
+
+El símbolo `A` introduce la familia axial-etaria. El subíndice `semi` distingue la magnitud semi. El subíndice `fin` distingue la magnitud final. El superíndice `SV` indica adscripción al Sistema Vectorial. La expresión `Ω_C` identifica el dominio de aplicación: el Universo Capital.
+
+La determinación de ambas magnitudes no procede por simple nominación ni por arrastre desde bloques previos. Procede por definición expresa, por dependencia formal entre términos y por cálculo suficiente dentro del plano axial-etario del Capital.
+
+Por ello, en este punto no se las toma como magnitudes heredadas ni como resultados ya clausurados, sino como magnitudes cuya determinación debe quedar construida en el propio desarrollo de `λ`, con indicación explícita de su procedencia, de sus restricciones y de su relación con las fórmulas en las que después entren.
+
+
 ## X.3. Diferencial axial-etario capital
 
 ## X.4. Proyección axial-etaria del Sistema ñ
