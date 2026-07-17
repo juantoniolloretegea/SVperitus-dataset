@@ -1,992 +1,266 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11"> 
-	<title>An Embarrassingly Simple Graph Heuristic Reveals Shortcut-Solvable Benchmarks for Sequential Recommendation &#8211; Página 3 &#8211; La Biblia de la IA &#8211; The Bible of AI™</title>
-<meta name='robots' content='max-image-preview:large' />
-<script>
-	( function() {
-		var query = document.location.search;
+# INFORME ADVERSARIAL PARA CLAUDE
 
-		if ( query && query.indexOf( 'preview=true' ) !== -1 ) {
-			window.name = 'wp-preview-32488';
-		}
+## Primera publicación de editorialia.com — GraphRec
 
-		if ( window.addEventListener ) {
-			window.addEventListener( 'pagehide', function() { window.name = ''; } );
-		}
-	}());
-	//# sourceURL=wp_post_preview_js	
-</script>
-<link rel='dns-prefetch' href='//static.addtoany.com' />
-<link rel="alternate" type="application/rss+xml" title="La Biblia de la IA - The Bible of AI™ &raquo; Feed" href="https://editorialia.com/feed/" />
-<link rel="alternate" type="application/rss+xml" title="La Biblia de la IA - The Bible of AI™ &raquo; Feed de los comentarios" href="https://editorialia.com/comments/feed/" />
-<link rel="alternate" type="application/rss+xml" title="La Biblia de la IA - The Bible of AI™ &raquo; Comentario An Embarrassingly Simple Graph Heuristic Reveals Shortcut-Solvable Benchmarks for Sequential Recommendation del feed" href="https://editorialia.com/?p=32488/feed/" />
-<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://editorialia.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Feditorialia.com%2F%3Fp%3D32488" />
-<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://editorialia.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Feditorialia.com%2F%3Fp%3D32488&#038;format=xml" />
+**Objeto:** auditoría de la ficha crítica en formato WordPress.
+**Estado:** APTO CON REPAROS QUIRÚRGICOS.
+**Fuera de este informe:** inserción del abstract literal e incorporación de la imagen con R0 y QR, que realizará el director.
 
+---
+
+## 1. Estructura general
+
+La estructura es apta.
+
+Funciona correctamente la separación entre:
+
+* dato del artículo;
+* material incorporado;
+* lectura;
+* conclusión crítica;
+* tipo de afirmación;
+* exposición.
+
+También es adecuada la declaración inicial de alcance:
+
+> This is not peer review. No proof has been checked, no experiment reproduced, no result validated.
+
+La ficha no pretende validar resultados ni reproducir experimentos. Audita correspondencia entre afirmaciones y soporte.
+
+---
+
+## 2. Unidad 1 — APTA
+
+La primera unidad es documentalmente sólida.
+
+El artículo declara una muestra de 94 trabajos y remite la lista completa al repositorio. El archivo `SURVEYED_PAPERS.md` contiene efectivamente 94 entradas, pero sólo títulos. No incluye:
+
+* año;
+* foro;
+* conjunto de datos;
+* identificador;
+* clasificación;
+* procedimiento de búsqueda;
+* criterios de inclusión.
+
+La conclusión es proporcionada:
+
+> What is in neither the article, nor Appendix A, nor the list itself is the classification from which the figure is computed.
+
+No se afirma que el porcentaje sea falso ni que la selección sea incorrecta. Se registra que la clasificación necesaria para reproducir documentalmente el 86,6 % no aparece en el material incorporado.
+
+### Reparación de alcance
+
+No conviene incorporar el repositorio completo como unidad probatoria. La ficha sólo utiliza materialmente `SURVEYED_PAPERS.md`.
+
+Sustituir:
+
+> **Incorporated material**
+> github.com/haoyuhan1/GraphRec · commit `38af2bb5` · consulted 17 July 2026
+
+por:
+
+> **Incorporated material for Unit 1 only**
+> `SURVEYED_PAPERS.md`, repository `haoyuhan1/GraphRec`, commit `38af2bb55984a56f5d1a5d7a41d8d6e7bfe41957`, consulted 17 July 2026.
+
+Y añadir:
+
+> The repository declares no licence of its own. This critique incorporates only the factual contents of `SURVEYED_PAPERS.md` for documentary comparison. It does not reproduce, execute or validate the repository code.
+
+---
+
+## 3. Unidad 2 — REFORMULAR
+
+El problema está correctamente visto, pero la conclusión actual equipara en exceso dos niveles distintos.
+
+Ahora dice:
+
+> The title carries the opposite of it: *Reveals*, where Section 4.2 says *could*.
+
+Eso no es exacto.
+
+El artículo observa que la heurística resulta competitiva en determinados bancos de prueba. Ese resultado experimental es el soporte de la expresión *shortcut-solvable*. El `could` de la sección 4.2 modera la explicación causal: las estructuras identificadas podrían explicar el rendimiento.
+
+La ausencia de intervención impide demostrar causalidad, pero no elimina el resultado observado.
+
+### Sustitución propuesta
+
+> **Reading.** Nothing in the paper weakens or removes a shortcut within a fixed benchmark. What varies is the dataset. The evidence is therefore cross-sectional: fourteen benchmarks with different properties, together with an association between those properties and the relative performance of the heuristic.
+>
+> **Critical conclusion.** The experiments establish that the heuristic is competitive on the evaluated benchmarks. What they do not establish by intervention is that the three proposed structures are the causes of that performance. The front matter compresses those two levels: observed shortcut-solvability and a potential explanation of it.
+
+Tabla:
+
+> **Claim type:** Observed result followed by a causal interpretation not tested by intervention.
+> **Exposure:** Low. The distinction is present in the article itself.
+
+---
+
+## 4. Unidad 3 — REFORMULAR
+
+La versión actual dice:
+
+> A property named as belonging to the benchmark is measured through a constant the authors chose.
+
+La afirmación es demasiado fuerte.
+
+La ramificación media es una propiedad calculada sobre el grafo de transición. No depende del presupuesto de recuperación. Lo que sí depende del presupuesto fijo es la capacidad de la heurística para explotar esa estructura.
+
+Debe separarse:
+
+* propiedad del conjunto;
+* respuesta de la sonda bajo unas constantes elegidas.
+
+### Sustitución propuesta
+
+> **Reading.** Average out-degree is a property of the constructed transition graph, independent of the retrieval budget. Whether that property makes TGH effective is nevertheless evaluated through fixed budgets chosen by the authors. The diagnosis therefore combines a dataset statistic with the response of one deliberately fixed probe.
+>
+> **Critical conclusion.** “Shortcut-solvable” is supported relative to the diagnostic family and fixed operating conditions tested here. The article discloses that boundary; the compact label does not carry it.
+
+Tabla:
+
+> **Claim type:** Reading of this critique, grounded in the article’s definitions and limitations.
+> **Exposure:** Medium. The facts are the article’s; the restriction of scope is an inference.
+
+---
+
+## 5. Unidad 4 — CORREGIR UNA AFIRMACIÓN MATERIAL
+
+La frase:
+
+> a pretrained language model that the heuristic does not train and does not describe
+
+no debe permanecer.
+
+El artículo sí identifica el modelo de lenguaje preentrenado y describe su función como generador de representaciones textuales compartidas entre los métodos que utilizan texto.
+
+La cuestión crítica válida no es que la dependencia esté oculta, sino que la simplicidad de la heurística no equivale a simplicidad del conjunto completo de dependencias.
+
+### Sustitución propuesta
+
+> **Reading.** The dependency is stated plainly and the reason for sharing it across methods is sound. The heuristic does not train the text encoder, but its ranking signal depends on representations produced by that pretrained component.
+>
+> **Critical conclusion.** The method is simple as a trainable recommendation architecture: it fits no parameters of its own. Its complete computational stack is not correspondingly simple, because its ranking signal inherits a pretrained text encoder.
+
+Tabla:
+
+> **Claim type:** Title against the complete dependency stack.
+> **Exposure:** Low. The dependency is explicitly declared.
+
+---
+
+## 6. Unidad 5 — APTA
+
+La quinta unidad mantiene una distinción correcta:
+
+* los autores reprodujeron las referencias;
+* siguieron configuraciones descritas por los trabajos originales;
+* la ficha no ha ejecutado esas reproducciones;
+* no se afirma que sean deficientes.
+
+La lectura:
+
+> The supported claim is that the heuristic beats these implementations under this protocol, not that it beats the numbers those methods published.
+
+es válida y suficientemente prudente.
+
+No necesita reparación material.
+
+---
+
+## 7. Cierre general — REFORMULAR
+
+El cierre actual afirma:
+
+> The distance this ficha registers is not between the argument and the evidence. There the article holds.
+
+Esto contradice parcialmente la Unidad 1 y reduce demasiado el alcance de las Unidades 2 y 3.
+
+No hay un fracaso general del argumento, pero sí existen diferencias entre:
+
+* el resultado compacto que viaja;
+* sus condiciones de interpretación;
+* el soporte documental disponible para la cifra nuclear.
+
+### Sustitución propuesta
+
+> The distance registered here is not a wholesale failure of the article’s argument. Its experimental result is stated, bounded and qualified in the body. The material distance lies between the compact claims that travel — the title, the abstract and the 86.6% anchor — and the fuller conditions or documentary support needed to read them at their exact strength.
+
+Puede conservarse el párrafo final de recomendación:
+
+> This article is recommended here because it declares its own frontier instead of immunising itself against it, and because it audits a consensus instead of adding a layer to it.
+
+---
+
+## 8. Metadato R0 visible en la página 3
+
+La ficha muestra:
+
+```html
+<meta name="r0identifier" content="b621309bd8d28cda43682baaeb45707f" />
+```
+
+Pero el sitio emite materialmente:
+
+```html
 <meta name="citation_r0" content="b621309bd8d28cda43682baaeb45707f" />
-<style id="wp-img-auto-sizes-contain-inline-css">
-img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
-/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
-</style>
-<link rel='stylesheet' id='mci-footnotes-jquery-tooltips-pagelayout-none-css' href='https://editorialia.com/wp-content/plugins/footnotes/css/footnotes-jqttbrpl0.min.css?ver=2.7.3' media='all' />
-<link rel='stylesheet' id='formidable-css' href='https://editorialia.com/wp-content/plugins/formidable/css/formidableforms.css?ver=7162056' media='all' />
-<link rel='stylesheet' id='wpcode-admin-bar-css-css' href='https://editorialia.com/wp-content/plugins/insert-headers-and-footers/build/admin-bar.css?ver=c95624a69c80301272a0' media='all' />
-<link rel='stylesheet' id='dashicons-css' href='https://editorialia.com/wp-includes/css/dashicons.min.css?ver=7.0.2' media='all' />
-<link rel='stylesheet' id='admin-bar-css' href='https://editorialia.com/wp-includes/css/admin-bar.min.css?ver=7.0.2' media='all' />
-<style id="admin-bar-inline-css">
+```
 
-		@media screen { html { margin-top: 32px !important; } }
-		@media screen and ( max-width: 782px ) { html { margin-top: 46px !important; } }
-	
-@media print { #wpadminbar { display:none; } }
-/*# sourceURL=admin-bar-inline-css */
-</style>
-<link rel='stylesheet' id='frm_fonts-css' href='https://editorialia.com/wp-content/plugins/formidable/css/frm_fonts.css?ver=6.33.1' media='all' />
-<link rel='stylesheet' id='amp-icons-css' href='https://editorialia.com/wp-content/plugins/amp/assets/css/amp-icons.css?ver=2.5.5' media='all' />
-<link rel='stylesheet' id='astra-theme-css-css' href='https://editorialia.com/wp-content/themes/astra/assets/css/minified/style.min.css?ver=4.13.6' media='all' />
-<style id="astra-theme-css-inline-css">
-.ast-no-sidebar .entry-content .alignfull {margin-left: calc( -50vw + 50%);margin-right: calc( -50vw + 50%);max-width: 100vw;width: 100vw;}.ast-no-sidebar .entry-content .alignwide {margin-left: calc(-41vw + 50%);margin-right: calc(-41vw + 50%);max-width: unset;width: unset;}.ast-no-sidebar .entry-content .alignfull .alignfull,.ast-no-sidebar .entry-content .alignfull .alignwide,.ast-no-sidebar .entry-content .alignwide .alignfull,.ast-no-sidebar .entry-content .alignwide .alignwide,.ast-no-sidebar .entry-content .wp-block-column .alignfull,.ast-no-sidebar .entry-content .wp-block-column .alignwide{width: 100%;margin-left: auto;margin-right: auto;}.wp-block-gallery,.blocks-gallery-grid {margin: 0;}.wp-block-separator {max-width: 100px;}.wp-block-separator.is-style-wide,.wp-block-separator.is-style-dots {max-width: none;}.entry-content .has-2-columns .wp-block-column:first-child {padding-right: 10px;}.entry-content .has-2-columns .wp-block-column:last-child {padding-left: 10px;}@media (max-width: 782px) {.entry-content .wp-block-columns .wp-block-column {flex-basis: 100%;}.entry-content .has-2-columns .wp-block-column:first-child {padding-right: 0;}.entry-content .has-2-columns .wp-block-column:last-child {padding-left: 0;}}body .entry-content .wp-block-latest-posts {margin-left: 0;}body .entry-content .wp-block-latest-posts li {list-style: none;}.ast-no-sidebar .ast-container .entry-content .wp-block-latest-posts {margin-left: 0;}.ast-header-break-point .entry-content .alignwide {margin-left: auto;margin-right: auto;}.entry-content .blocks-gallery-item img {margin-bottom: auto;}.wp-block-pullquote {border-top: 4px solid #555d66;border-bottom: 4px solid #555d66;color: #40464d;}:root{--ast-post-nav-space:0;--ast-container-default-xlg-padding:6.67em;--ast-container-default-lg-padding:5.67em;--ast-container-default-slg-padding:4.34em;--ast-container-default-md-padding:3.34em;--ast-container-default-sm-padding:6.67em;--ast-container-default-xs-padding:2.4em;--ast-container-default-xxs-padding:1.4em;--ast-code-block-background:#EEEEEE;--ast-comment-inputs-background:#FAFAFA;--ast-normal-container-width:1500px;--ast-narrow-container-width:750px;--ast-blog-title-font-weight:normal;--ast-blog-meta-weight:inherit;--ast-global-color-primary:var(--ast-global-color-5);--ast-global-color-secondary:var(--ast-global-color-4);--ast-global-color-alternate-background:var(--ast-global-color-7);--ast-global-color-subtle-background:var(--ast-global-color-6);--ast-bg-style-guide:var( --ast-global-color-secondary,var(--ast-global-color-5) );--ast-shadow-style-guide:0px 0px 4px 0 #00000057;--ast-global-dark-bg-style:#fff;--ast-global-dark-lfs:#fbfbfb;--ast-widget-bg-color:#fafafa;--ast-wc-container-head-bg-color:#fbfbfb;--ast-title-layout-bg:#eeeeee;--ast-search-border-color:#e7e7e7;--ast-lifter-hover-bg:#e6e6e6;--ast-gallery-block-color:#000;--srfm-color-input-label:var(--ast-global-color-2);}html{font-size:93.75%;}a,.page-title{color:var(--ast-global-color-0);}a:hover,a:focus{color:var(--ast-global-color-1);}body,button,input,select,textarea,.ast-button,.ast-custom-button{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-weight:inherit;font-size:15px;font-size:1rem;line-height:var(--ast-body-line-height,1.65em);}blockquote{color:var(--ast-global-color-3);}.ast-site-identity .site-title a{color:var(--ast-global-color-2);}.site-title{font-size:23px;font-size:1.5333333333333rem;display:block;}header .custom-logo-link img{max-width:160px;width:160px;}.astra-logo-svg{width:160px;}.site-header .site-description{font-size:15px;font-size:1rem;display:block;}.entry-title{font-size:26px;font-size:1.7333333333333rem;}.archive .ast-article-post .ast-article-inner,.blog .ast-article-post .ast-article-inner,.archive .ast-article-post .ast-article-inner:hover,.blog .ast-article-post .ast-article-inner:hover{overflow:hidden;}h1,.entry-content :where(h1){font-size:40px;font-size:2.6666666666667rem;line-height:1.4em;}h2,.entry-content :where(h2){font-size:32px;font-size:2.1333333333333rem;line-height:1.3em;}h3,.entry-content :where(h3){font-size:26px;font-size:1.7333333333333rem;line-height:1.3em;}h4,.entry-content :where(h4){font-size:24px;font-size:1.6rem;line-height:1.2em;}h5,.entry-content :where(h5){font-size:20px;font-size:1.3333333333333rem;line-height:1.2em;}h6,.entry-content :where(h6){font-size:16px;font-size:1.0666666666667rem;line-height:1.25em;}::selection{background-color:var(--ast-global-color-0);color:#ffffff;}body,h1,h2,h3,h4,h5,h6,.entry-title a,.entry-content :where(h1,h2,h3,h4,h5,h6){color:var(--ast-global-color-3);}.tagcloud a:hover,.tagcloud a:focus,.tagcloud a.current-item{color:#ffffff;border-color:var(--ast-global-color-0);background-color:var(--ast-global-color-0);}input:focus,input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="reset"]:focus,input[type="search"]:focus,textarea:focus{border-color:var(--ast-global-color-0);}input[type="radio"]:checked,input[type=reset],input[type="checkbox"]:checked,input[type="checkbox"]:hover:checked,input[type="checkbox"]:focus:checked,input[type=range]::-webkit-slider-thumb{border-color:var(--ast-global-color-0);background-color:var(--ast-global-color-0);box-shadow:none;}.site-footer a:hover + .post-count,.site-footer a:focus + .post-count{background:var(--ast-global-color-0);border-color:var(--ast-global-color-0);}.single .nav-links .nav-previous,.single .nav-links .nav-next{color:var(--ast-global-color-0);}.entry-meta,.entry-meta *{line-height:1.45;color:var(--ast-global-color-0);}.entry-meta a:not(.ast-button):hover,.entry-meta a:not(.ast-button):hover *,.entry-meta a:not(.ast-button):focus,.entry-meta a:not(.ast-button):focus *,.page-links > .page-link,.page-links .page-link:hover,.post-navigation a:hover{color:var(--ast-global-color-1);}#cat option,.secondary .calendar_wrap thead a,.secondary .calendar_wrap thead a:visited{color:var(--ast-global-color-0);}.secondary .calendar_wrap #today,.ast-progress-val span{background:var(--ast-global-color-0);}.secondary a:hover + .post-count,.secondary a:focus + .post-count{background:var(--ast-global-color-0);border-color:var(--ast-global-color-0);}.calendar_wrap #today > a{color:#ffffff;}.page-links .page-link,.single .post-navigation a{color:var(--ast-global-color-0);}.ast-search-menu-icon .search-form button.search-submit{padding:0 4px;}.ast-search-menu-icon form.search-form{padding-right:0;}.ast-header-search .ast-search-menu-icon.ast-dropdown-active .search-form,.ast-header-search .ast-search-menu-icon.ast-dropdown-active .search-field:focus{transition:all 0.2s;}.search-form input.search-field:focus{outline:none;}.ast-mobile-header-content .ast-builder-layout-element:not(.ast-builder-menu):not(.ast-header-divider-element),.ast-mobile-popup-content .ast-builder-layout-element:not(.ast-builder-menu):not(.ast-header-divider-element){padding:15px 20px;}.widget-title,.widget .wp-block-heading{font-size:21px;font-size:1.4rem;color:var(--ast-global-color-3);}#secondary,#secondary button,#secondary input,#secondary select,#secondary textarea{font-size:15px;font-size:1rem;}.ast-search-menu-icon.slide-search a:focus-visible:focus-visible,.astra-search-icon:focus-visible,#close:focus-visible,a:focus-visible,.ast-menu-toggle:focus-visible,.site .skip-link:focus-visible,.wp-block-loginout input:focus-visible,.wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper,.ast-header-navigation-arrow:focus-visible,.ast-orders-table__row .ast-orders-table__cell:focus-visible,a#ast-apply-coupon:focus-visible,#ast-apply-coupon:focus-visible,#close:focus-visible,.button.search-submit:focus-visible,#search_submit:focus,.normal-search:focus-visible,.ast-header-account-wrap:focus-visible,.astra-cart-drawer-close:focus,.ast-single-variation:focus,.ast-button:focus,.ast-builder-button-wrap:has(.ast-custom-button-link:focus),.ast-builder-button-wrap .ast-custom-button-link:focus{outline-style:dotted;outline-color:inherit;outline-width:thin;}input:focus,input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="reset"]:focus,input[type="search"]:focus,input[type="number"]:focus,textarea:focus,.wp-block-search__input:focus,[data-section="section-header-mobile-trigger"] .ast-button-wrap .ast-mobile-menu-trigger-minimal:focus,.ast-mobile-popup-drawer.active .menu-toggle-close:focus,#ast-scroll-top:focus,#coupon_code:focus,#ast-coupon-code:focus{border-style:dotted;border-color:inherit;border-width:thin;}input{outline:none;}.main-header-menu .menu-link,.ast-header-custom-item a{color:var(--ast-global-color-3);}.main-header-menu .menu-item:hover > .menu-link,.main-header-menu .menu-item:hover > .ast-menu-toggle,.main-header-menu .ast-masthead-custom-menu-items a:hover,.main-header-menu .menu-item.focus > .menu-link,.main-header-menu .menu-item.focus > .ast-menu-toggle,.main-header-menu .current-menu-item > .menu-link,.main-header-menu .current-menu-ancestor > .menu-link,.main-header-menu .current-menu-item > .ast-menu-toggle,.main-header-menu .current-menu-ancestor > .ast-menu-toggle{color:var(--ast-global-color-0);}.header-main-layout-3 .ast-main-header-bar-alignment{margin-right:auto;}.header-main-layout-2 .site-header-section-left .ast-site-identity{text-align:left;}.ast-logo-title-inline .site-logo-img{padding-right:1em;}body .ast-oembed-container *{position:absolute;top:0;width:100%;height:100%;left:0;}body .wp-block-embed-pocket-casts .ast-oembed-container *{position:unset;}.ast-header-break-point .ast-mobile-menu-buttons-minimal.menu-toggle{background:transparent;color:#dd9933;}.ast-header-break-point .ast-mobile-menu-buttons-outline.menu-toggle{background:transparent;border:1px solid #dd9933;color:#dd9933;}.ast-header-break-point .ast-mobile-menu-buttons-fill.menu-toggle{background:#dd9933;color:#000000;}.ast-single-post-featured-section + article {margin-top: 2em;}.site-content .ast-single-post-featured-section img {width: 100%;overflow: hidden;object-fit: cover;}.site > .ast-single-related-posts-container {margin-top: 0;}@media (min-width: 922px) {.ast-desktop .ast-container--narrow {max-width: var(--ast-narrow-container-width);margin: 0 auto;}}#secondary {margin: 4em 0 2.5em;word-break: break-word;line-height: 2;}#secondary li {margin-bottom: 0.25em;}#secondary li:last-child {margin-bottom: 0;}@media (max-width: 768px) {.js_active .ast-plain-container.ast-single-post #secondary {margin-top: 1.5em;}}.ast-separate-container.ast-two-container #secondary .widget {background-color: #fff;padding: 2em;margin-bottom: 2em;}@media (min-width: 993px) {.ast-left-sidebar #secondary {padding-right: 60px;}.ast-right-sidebar #secondary {padding-left: 60px;}}@media (max-width: 993px) {.ast-right-sidebar #secondary {padding-left: 30px;}.ast-left-sidebar #secondary {padding-right: 30px;}}.ast-small-footer > .ast-footer-overlay{background-color:#0f6dbf;;}.footer-adv .footer-adv-overlay{border-top-style:solid;border-top-color:var(--ast-global-color-0);}.footer-adv .widget-title,.footer-adv .widget-title a{color:var(--ast-global-color-0);}.footer-adv{color:var(--ast-global-color-3);}.footer-adv-overlay{background-color:var(--ast-global-color-4);;}@media( max-width: 420px ) {.single .nav-links .nav-previous,.single .nav-links .nav-next {width: 100%;text-align: center;}}.wp-block-buttons.aligncenter{justify-content:center;}@media (min-width:1200px){.ast-separate-container.ast-right-sidebar .entry-content .wp-block-image.alignfull,.ast-separate-container.ast-left-sidebar .entry-content .wp-block-image.alignfull,.ast-separate-container.ast-right-sidebar .entry-content .wp-block-cover.alignfull,.ast-separate-container.ast-left-sidebar .entry-content .wp-block-cover.alignfull{margin-left:-6.67em;margin-right:-6.67em;max-width:unset;width:unset;}.ast-separate-container.ast-right-sidebar .entry-content .wp-block-image.alignwide,.ast-separate-container.ast-left-sidebar .entry-content .wp-block-image.alignwide,.ast-separate-container.ast-right-sidebar .entry-content .wp-block-cover.alignwide,.ast-separate-container.ast-left-sidebar .entry-content .wp-block-cover.alignwide{margin-left:-20px;margin-right:-20px;max-width:unset;width:unset;}}@media (min-width:1200px){.wp-block-group .has-background{padding:20px;}}@media (min-width:1200px){.ast-separate-container.ast-right-sidebar .entry-content .wp-block-group.alignwide,.ast-separate-container.ast-left-sidebar .entry-content .wp-block-group.alignwide,.ast-separate-container.ast-right-sidebar .entry-content .wp-block-cover.alignwide,.ast-separate-container.ast-left-sidebar .entry-content .wp-block-cover.alignwide{margin-left:-20px;margin-right:-20px;padding-left:20px;padding-right:20px;}.ast-separate-container.ast-right-sidebar .entry-content .wp-block-group.alignfull,.ast-separate-container.ast-left-sidebar .entry-content .wp-block-group.alignfull,.ast-separate-container.ast-right-sidebar .entry-content .wp-block-cover.alignfull,.ast-separate-container.ast-left-sidebar .entry-content .wp-block-cover.alignfull{margin-left:-6.67em;margin-right:-6.67em;padding-left:6.67em;padding-right:6.67em;}}@media (min-width:1200px){.wp-block-cover-image.alignwide .wp-block-cover__inner-container,.wp-block-cover.alignwide .wp-block-cover__inner-container,.wp-block-cover-image.alignfull .wp-block-cover__inner-container,.wp-block-cover.alignfull .wp-block-cover__inner-container{width:100%;}}.wp-block-image.aligncenter{margin-left:auto;margin-right:auto;}.wp-block-table.aligncenter{margin-left:auto;margin-right:auto;}.wp-block-buttons .wp-block-button.is-style-outline .wp-block-button__link.wp-element-button,.ast-outline-button,.wp-block-uagb-buttons-child .uagb-buttons-repeater.ast-outline-button{border-top-width:2px;border-right-width:2px;border-bottom-width:2px;border-left-width:2px;font-family:inherit;font-weight:inherit;line-height:1em;}.wp-block-button .wp-block-button__link.wp-element-button.is-style-outline:not(.has-background),.wp-block-button.is-style-outline>.wp-block-button__link.wp-element-button:not(.has-background),.ast-outline-button{background-color:transparent;}.entry-content[data-ast-blocks-layout] > figure{margin-bottom:1em;}@media (max-width:921px){.ast-left-sidebar #content > .ast-container{display:flex;flex-direction:column-reverse;width:100%;}.ast-separate-container .ast-article-post,.ast-separate-container .ast-article-single{padding:1.5em 2.14em;}.ast-author-box img.avatar{margin:20px 0 0 0;}}@media (max-width:921px){#secondary.secondary{padding-top:0;}.ast-separate-container.ast-right-sidebar #secondary{padding-left:1em;padding-right:1em;}.ast-separate-container.ast-two-container #secondary{padding-left:0;padding-right:0;}.ast-page-builder-template .entry-header #secondary,.ast-page-builder-template #secondary{margin-top:1.5em;}}@media (max-width:921px){.ast-right-sidebar #primary{padding-right:0;}.ast-page-builder-template.ast-left-sidebar #secondary,.ast-page-builder-template.ast-right-sidebar #secondary{padding-right:20px;padding-left:20px;}.ast-right-sidebar #secondary,.ast-left-sidebar #primary{padding-left:0;}.ast-left-sidebar #secondary{padding-right:0;}}@media (min-width:922px){.ast-separate-container.ast-right-sidebar #primary,.ast-separate-container.ast-left-sidebar #primary{border:0;}.search-no-results.ast-separate-container #primary{margin-bottom:4em;}}@media (min-width:922px){.ast-right-sidebar #primary{border-right:1px solid var(--ast-border-color);}.ast-left-sidebar #primary{border-left:1px solid var(--ast-border-color);}.ast-right-sidebar #secondary{border-left:1px solid var(--ast-border-color);margin-left:-1px;}.ast-left-sidebar #secondary{border-right:1px solid var(--ast-border-color);margin-right:-1px;}.ast-separate-container.ast-two-container.ast-right-sidebar #secondary{padding-left:30px;padding-right:0;}.ast-separate-container.ast-two-container.ast-left-sidebar #secondary{padding-right:30px;padding-left:0;}.ast-separate-container.ast-right-sidebar #secondary,.ast-separate-container.ast-left-sidebar #secondary{border:0;margin-left:auto;margin-right:auto;}.ast-separate-container.ast-two-container #secondary .widget:last-child{margin-bottom:0;}}.wp-block-button .wp-block-button__link{color:#ffffff;}.wp-block-button .wp-block-button__link:hover,.wp-block-button .wp-block-button__link:focus{color:#ffffff;background-color:var(--ast-global-color-1);border-color:var(--ast-global-color-1);}.wp-block-button .wp-block-button__link{border-top-width:0;border-right-width:0;border-left-width:0;border-bottom-width:0;border-color:var(--ast-global-color-0);background-color:var(--ast-global-color-0);color:#ffffff;font-family:inherit;font-weight:inherit;line-height:1em;padding-top:10px;padding-right:40px;padding-bottom:10px;padding-left:40px;}.menu-toggle,button,.ast-button,.ast-custom-button,.button,input#submit,input[type="button"],input[type="submit"],input[type="reset"]{border-style:solid;border-top-width:0;border-right-width:0;border-left-width:0;border-bottom-width:0;color:#ffffff;border-color:var(--ast-global-color-0);background-color:var(--ast-global-color-0);padding-top:10px;padding-right:40px;padding-bottom:10px;padding-left:40px;font-family:inherit;font-weight:inherit;line-height:1em;}button:focus,.menu-toggle:hover,button:hover,.ast-button:hover,.ast-custom-button:hover .button:hover,.ast-custom-button:hover ,input[type=reset]:hover,input[type=reset]:focus,input#submit:hover,input#submit:focus,input[type="button"]:hover,input[type="button"]:focus,input[type="submit"]:hover,input[type="submit"]:focus{color:#ffffff;background-color:var(--ast-global-color-1);border-color:var(--ast-global-color-1);}@media (max-width:921px){.ast-mobile-header-stack .main-header-bar .ast-search-menu-icon{display:inline-block;}.ast-header-break-point.ast-header-custom-item-outside .ast-mobile-header-stack .main-header-bar .ast-search-icon{margin:0;}.ast-comment-avatar-wrap img{max-width:2.5em;}.ast-comment-meta{padding:0 1.8888em 1.3333em;}.ast-separate-container .ast-comment-list li.depth-1{padding:1.5em 2.14em;}.ast-separate-container .comment-respond{padding:2em 2.14em;}}@media (min-width:544px){.ast-container{max-width:100%;}}@media (max-width:544px){.ast-separate-container .ast-article-post,.ast-separate-container .ast-article-single,.ast-separate-container .comments-title,.ast-separate-container .ast-archive-description{padding:1.5em 1em;}.ast-separate-container #content .ast-container{padding-left:0.54em;padding-right:0.54em;}.ast-separate-container .ast-comment-list .bypostauthor{padding:.5em;}.ast-search-menu-icon.ast-dropdown-active .search-field{width:170px;}.ast-separate-container #secondary{padding-top:0;}.ast-separate-container.ast-two-container #secondary .widget{margin-bottom:1.5em;padding-left:1em;padding-right:1em;}.site-branding img,.site-header .site-logo-img .custom-logo-link img{max-width:100%;}}@media (min-width:922px){.ast-small-footer .ast-container{max-width:100%;padding-left:35px;padding-right:35px;}} #ast-mobile-header .ast-site-header-cart-li a{pointer-events:none;}.ast-no-sidebar.ast-separate-container .entry-content .alignfull {margin-left: -6.67em;margin-right: -6.67em;width: auto;}@media (max-width: 1200px) {.ast-no-sidebar.ast-separate-container .entry-content .alignfull {margin-left: -2.4em;margin-right: -2.4em;}}@media (max-width: 768px) {.ast-no-sidebar.ast-separate-container .entry-content .alignfull {margin-left: -2.14em;margin-right: -2.14em;}}@media (max-width: 544px) {.ast-no-sidebar.ast-separate-container .entry-content .alignfull {margin-left: -1em;margin-right: -1em;}}.ast-no-sidebar.ast-separate-container .entry-content .alignwide {margin-left: -20px;margin-right: -20px;}.ast-no-sidebar.ast-separate-container .entry-content .wp-block-column .alignfull,.ast-no-sidebar.ast-separate-container .entry-content .wp-block-column .alignwide {margin-left: auto;margin-right: auto;width: 100%;}@media (max-width:921px){.site-title{display:block;}.site-header .site-description{display:block;}h1,.entry-content :where(h1){font-size:30px;}h2,.entry-content :where(h2){font-size:25px;}h3,.entry-content :where(h3){font-size:20px;}}@media (max-width:544px){.site-title{display:block;}.site-header .site-description{display:block;}h1,.entry-content :where(h1){font-size:30px;}h2,.entry-content :where(h2){font-size:25px;}h3,.entry-content :where(h3){font-size:20px;}}@media (max-width:921px){html{font-size:85.5%;}}@media (max-width:544px){html{font-size:85.5%;}}@media (min-width:922px){.ast-container{max-width:1540px;}}@font-face {font-family: "Astra";src: url(https://editorialia.com/wp-content/themes/astra/assets/fonts/astra.woff) format("woff"),url(https://editorialia.com/wp-content/themes/astra/assets/fonts/astra.ttf) format("truetype"),url(https://editorialia.com/wp-content/themes/astra/assets/fonts/astra.svg#astra) format("svg");font-weight: normal;font-style: normal;font-display: swap;}@media (max-width:921px) {.main-header-bar .main-header-bar-navigation{display:none;}}@media (min-width:922px){.single-post .site-content > .ast-container{max-width:1800px;}}.ast-desktop .main-header-menu.submenu-with-border .sub-menu,.ast-desktop .main-header-menu.submenu-with-border .astra-full-megamenu-wrapper{border-color:#c9c9c9;}.ast-desktop .main-header-menu.submenu-with-border .sub-menu{border-style:solid;}.ast-desktop .main-header-menu.submenu-with-border .sub-menu .sub-menu{top:-0px;}.ast-desktop .main-header-menu.submenu-with-border .sub-menu .menu-link,.ast-desktop .main-header-menu.submenu-with-border .children .menu-link{border-bottom-width:1px;border-style:solid;border-color:#c5d1fb;}@media (min-width:922px){.main-header-menu .sub-menu .menu-item.ast-left-align-sub-menu:hover > .sub-menu,.main-header-menu .sub-menu .menu-item.ast-left-align-sub-menu.focus > .sub-menu{margin-left:-0px;}}.ast-small-footer{border-top-style:solid;border-top-width:1px;border-top-color:var(--ast-global-color-8);}.ast-small-footer-wrap{text-align:center;}.site .comments-area{padding-bottom:3em;}.ast-header-widget-area {line-height: 1.65;}.ast-header-widget-area .widget-title,.ast-header-widget-area .no-widget-text {margin-bottom: 0;}.ast-header-widget-area .widget {margin: .5em;display: inline-block;vertical-align: middle;}.ast-header-widget-area .widget p {margin-bottom: 0;}.ast-header-widget-area .widget ul {position: static;border: 0;width: auto;}.ast-header-widget-area .widget ul a {border: 0;}.ast-header-widget-area .widget.widget_search .search-field,.ast-header-widget-area .widget.widget_search .search-field:focus {padding: 10px 45px 10px 15px;}.ast-header-widget-area .widget:last-child {margin-bottom: 0.5em;margin-right: 0;}.submenu-with-border .ast-header-widget-area .widget ul {position: static;border: 0;width: auto;}.submenu-with-border .ast-header-widget-area .widget ul a {border: 0;}.ast-header-break-point .ast-header-widget-area .widget {margin: .5em 0;display: block;}.ast-header-break-point.ast-header-custom-item-inside .main-header-bar .main-header-bar-navigation .ast-search-icon {display: none;}.ast-header-break-point.ast-header-custom-item-inside .main-header-bar .ast-search-menu-icon .search-form {padding: 0;display: block;overflow: hidden;}.ast-header-break-point .ast-header-custom-item .widget:last-child {margin-bottom: 1em;}.ast-header-custom-item .widget {margin: 0.5em;display: inline-block;vertical-align: middle;}.ast-header-custom-item .widget p {margin-bottom: 0;}.ast-header-custom-item .widget li {width: auto;}.ast-header-custom-item-inside .button-custom-menu-item .menu-link {display: none;}.ast-header-custom-item-inside.ast-header-break-point .button-custom-menu-item .ast-custom-button-link {display: none;}.ast-header-custom-item-inside.ast-header-break-point .button-custom-menu-item .menu-link {display: block;}.ast-header-break-point.ast-header-custom-item-outside .main-header-bar .ast-search-icon {margin-right: 1em;}.ast-header-break-point.ast-header-custom-item-inside .main-header-bar .ast-search-menu-icon .search-field,.ast-header-break-point.ast-header-custom-item-inside .main-header-bar .ast-search-menu-icon.ast-inline-search .search-field {width: 100%;padding-right: 5.5em;}.ast-header-break-point.ast-header-custom-item-inside .main-header-bar .ast-search-menu-icon .search-submit {display: block;position: absolute;height: 100%;top: 0;right: 0;padding: 0 1em;border-radius: 0;}.ast-header-break-point .ast-header-custom-item .ast-masthead-custom-menu-items {padding-left: 20px;padding-right: 20px;margin-bottom: 1em;margin-top: 1em;}.ast-header-custom-item-inside.ast-header-break-point .button-custom-menu-item {padding-left: 0;padding-right: 0;margin-top: 0;margin-bottom: 0;}.astra-icon-down_arrow::after {content: "\e900";font-family: Astra;}.astra-icon-close::after {content: "\e5cd";font-family: Astra;}.astra-icon-drag_handle::after {content: "\e25d";font-family: Astra;}.astra-icon-format_align_justify::after {content: "\e235";font-family: Astra;}.astra-icon-menu::after {content: "\e5d2";font-family: Astra;}.astra-icon-reorder::after {content: "\e8fe";font-family: Astra;}.astra-icon-search::after {content: "\e8b6";font-family: Astra;}.astra-icon-zoom_in::after {content: "\e56b";font-family: Astra;}.astra-icon-check-circle::after {content: "\e901";font-family: Astra;}.astra-icon-shopping-cart::after {content: "\f07a";font-family: Astra;}.astra-icon-shopping-bag::after {content: "\f290";font-family: Astra;}.astra-icon-shopping-basket::after {content: "\f291";font-family: Astra;}.astra-icon-circle-o::after {content: "\e903";font-family: Astra;}.astra-icon-certificate::after {content: "\e902";font-family: Astra;}blockquote {padding: 1.2em;}:root .has-ast-global-color-0-color{color:var(--ast-global-color-0);}:root .has-ast-global-color-0-background-color{background-color:var(--ast-global-color-0);}:root .wp-block-button .has-ast-global-color-0-color{color:var(--ast-global-color-0);}:root .wp-block-button .has-ast-global-color-0-background-color{background-color:var(--ast-global-color-0);}:root .has-ast-global-color-1-color{color:var(--ast-global-color-1);}:root .has-ast-global-color-1-background-color{background-color:var(--ast-global-color-1);}:root .wp-block-button .has-ast-global-color-1-color{color:var(--ast-global-color-1);}:root .wp-block-button .has-ast-global-color-1-background-color{background-color:var(--ast-global-color-1);}:root .has-ast-global-color-2-color{color:var(--ast-global-color-2);}:root .has-ast-global-color-2-background-color{background-color:var(--ast-global-color-2);}:root .wp-block-button .has-ast-global-color-2-color{color:var(--ast-global-color-2);}:root .wp-block-button .has-ast-global-color-2-background-color{background-color:var(--ast-global-color-2);}:root .has-ast-global-color-3-color{color:var(--ast-global-color-3);}:root .has-ast-global-color-3-background-color{background-color:var(--ast-global-color-3);}:root .wp-block-button .has-ast-global-color-3-color{color:var(--ast-global-color-3);}:root .wp-block-button .has-ast-global-color-3-background-color{background-color:var(--ast-global-color-3);}:root .has-ast-global-color-4-color{color:var(--ast-global-color-4);}:root .has-ast-global-color-4-background-color{background-color:var(--ast-global-color-4);}:root .wp-block-button .has-ast-global-color-4-color{color:var(--ast-global-color-4);}:root .wp-block-button .has-ast-global-color-4-background-color{background-color:var(--ast-global-color-4);}:root .has-ast-global-color-5-color{color:var(--ast-global-color-5);}:root .has-ast-global-color-5-background-color{background-color:var(--ast-global-color-5);}:root .wp-block-button .has-ast-global-color-5-color{color:var(--ast-global-color-5);}:root .wp-block-button .has-ast-global-color-5-background-color{background-color:var(--ast-global-color-5);}:root .has-ast-global-color-6-color{color:var(--ast-global-color-6);}:root .has-ast-global-color-6-background-color{background-color:var(--ast-global-color-6);}:root .wp-block-button .has-ast-global-color-6-color{color:var(--ast-global-color-6);}:root .wp-block-button .has-ast-global-color-6-background-color{background-color:var(--ast-global-color-6);}:root .has-ast-global-color-7-color{color:var(--ast-global-color-7);}:root .has-ast-global-color-7-background-color{background-color:var(--ast-global-color-7);}:root .wp-block-button .has-ast-global-color-7-color{color:var(--ast-global-color-7);}:root .wp-block-button .has-ast-global-color-7-background-color{background-color:var(--ast-global-color-7);}:root .has-ast-global-color-8-color{color:var(--ast-global-color-8);}:root .has-ast-global-color-8-background-color{background-color:var(--ast-global-color-8);}:root .wp-block-button .has-ast-global-color-8-color{color:var(--ast-global-color-8);}:root .wp-block-button .has-ast-global-color-8-background-color{background-color:var(--ast-global-color-8);}:root{--ast-global-color-0:#0170B9;--ast-global-color-1:#3a3a3a;--ast-global-color-2:#3a3a3a;--ast-global-color-3:#4B4F58;--ast-global-color-4:#F5F5F5;--ast-global-color-5:#FFFFFF;--ast-global-color-6:#E5E5E5;--ast-global-color-7:#424242;--ast-global-color-8:#000000;}:root {--ast-border-color : #dddddd;}#masthead .ast-container,.ast-header-breadcrumb .ast-container{max-width:100%;padding-left:35px;padding-right:35px;}@media (max-width:921px){#masthead .ast-container,.ast-header-breadcrumb .ast-container{padding-left:20px;padding-right:20px;}}.ast-header-widget-area {line-height: 1.65;}.ast-header-widget-area .widget-title,.ast-header-widget-area .no-widget-text {margin-bottom: 0;}.ast-header-widget-area .widget {margin: .5em;display: inline-block;vertical-align: middle;}.ast-header-widget-area .widget p {margin-bottom: 0;}.ast-header-widget-area .widget ul {position: static;border: 0;width: auto;}.ast-header-widget-area .widget ul a {border: 0;}.ast-header-widget-area .widget.widget_search .search-field,.ast-header-widget-area .widget.widget_search .search-field:focus {padding: 10px 45px 10px 15px;}.ast-header-widget-area .widget:last-child {margin-bottom: 0.5em;margin-right: 0;}.submenu-with-border .ast-header-widget-area .widget ul {position: static;border: 0;width: auto;}.submenu-with-border .ast-header-widget-area .widget ul a {border: 0;}.ast-header-break-point .ast-header-widget-area .widget {margin: .5em 0;display: block;}.ast-header-break-point.ast-header-custom-item-inside .main-header-bar .main-header-bar-navigation .ast-search-icon {display: none;}.ast-header-break-point.ast-header-custom-item-inside .main-header-bar .ast-search-menu-icon .search-form {padding: 0;display: block;overflow: hidden;}.ast-header-break-point .ast-header-custom-item .widget:last-child {margin-bottom: 1em;}.ast-header-custom-item .widget {margin: 0.5em;display: inline-block;vertical-align: middle;}.ast-header-custom-item .widget p {margin-bottom: 0;}.ast-header-custom-item .widget li {width: auto;}.ast-header-custom-item-inside .button-custom-menu-item .menu-link {display: none;}.ast-header-custom-item-inside.ast-header-break-point .button-custom-menu-item .ast-custom-button-link {display: none;}.ast-header-custom-item-inside.ast-header-break-point .button-custom-menu-item .menu-link {display: block;}.ast-header-break-point.ast-header-custom-item-outside .main-header-bar .ast-search-icon {margin-right: 1em;}.ast-header-break-point.ast-header-custom-item-inside .main-header-bar .ast-search-menu-icon .search-field,.ast-header-break-point.ast-header-custom-item-inside .main-header-bar .ast-search-menu-icon.ast-inline-search .search-field {width: 100%;padding-right: 5.5em;}.ast-header-break-point.ast-header-custom-item-inside .main-header-bar .ast-search-menu-icon .search-submit {display: block;position: absolute;height: 100%;top: 0;right: 0;padding: 0 1em;border-radius: 0;}.ast-header-break-point .ast-header-custom-item .ast-masthead-custom-menu-items {padding-left: 20px;padding-right: 20px;margin-bottom: 1em;margin-top: 1em;}.ast-header-custom-item-inside.ast-header-break-point .button-custom-menu-item {padding-left: 0;padding-right: 0;margin-top: 0;margin-bottom: 0;}.astra-icon-down_arrow::after {content: "\e900";font-family: Astra;}.astra-icon-close::after {content: "\e5cd";font-family: Astra;}.astra-icon-drag_handle::after {content: "\e25d";font-family: Astra;}.astra-icon-format_align_justify::after {content: "\e235";font-family: Astra;}.astra-icon-menu::after {content: "\e5d2";font-family: Astra;}.astra-icon-reorder::after {content: "\e8fe";font-family: Astra;}.astra-icon-search::after {content: "\e8b6";font-family: Astra;}.astra-icon-zoom_in::after {content: "\e56b";font-family: Astra;}.astra-icon-check-circle::after {content: "\e901";font-family: Astra;}.astra-icon-shopping-cart::after {content: "\f07a";font-family: Astra;}.astra-icon-shopping-bag::after {content: "\f290";font-family: Astra;}.astra-icon-shopping-basket::after {content: "\f291";font-family: Astra;}.astra-icon-circle-o::after {content: "\e903";font-family: Astra;}.astra-icon-certificate::after {content: "\e902";font-family: Astra;}blockquote {padding: 1.2em;}:root .has-ast-global-color-0-color{color:var(--ast-global-color-0);}:root .has-ast-global-color-0-background-color{background-color:var(--ast-global-color-0);}:root .wp-block-button .has-ast-global-color-0-color{color:var(--ast-global-color-0);}:root .wp-block-button .has-ast-global-color-0-background-color{background-color:var(--ast-global-color-0);}:root .has-ast-global-color-1-color{color:var(--ast-global-color-1);}:root .has-ast-global-color-1-background-color{background-color:var(--ast-global-color-1);}:root .wp-block-button .has-ast-global-color-1-color{color:var(--ast-global-color-1);}:root .wp-block-button .has-ast-global-color-1-background-color{background-color:var(--ast-global-color-1);}:root .has-ast-global-color-2-color{color:var(--ast-global-color-2);}:root .has-ast-global-color-2-background-color{background-color:var(--ast-global-color-2);}:root .wp-block-button .has-ast-global-color-2-color{color:var(--ast-global-color-2);}:root .wp-block-button .has-ast-global-color-2-background-color{background-color:var(--ast-global-color-2);}:root .has-ast-global-color-3-color{color:var(--ast-global-color-3);}:root .has-ast-global-color-3-background-color{background-color:var(--ast-global-color-3);}:root .wp-block-button .has-ast-global-color-3-color{color:var(--ast-global-color-3);}:root .wp-block-button .has-ast-global-color-3-background-color{background-color:var(--ast-global-color-3);}:root .has-ast-global-color-4-color{color:var(--ast-global-color-4);}:root .has-ast-global-color-4-background-color{background-color:var(--ast-global-color-4);}:root .wp-block-button .has-ast-global-color-4-color{color:var(--ast-global-color-4);}:root .wp-block-button .has-ast-global-color-4-background-color{background-color:var(--ast-global-color-4);}:root .has-ast-global-color-5-color{color:var(--ast-global-color-5);}:root .has-ast-global-color-5-background-color{background-color:var(--ast-global-color-5);}:root .wp-block-button .has-ast-global-color-5-color{color:var(--ast-global-color-5);}:root .wp-block-button .has-ast-global-color-5-background-color{background-color:var(--ast-global-color-5);}:root .has-ast-global-color-6-color{color:var(--ast-global-color-6);}:root .has-ast-global-color-6-background-color{background-color:var(--ast-global-color-6);}:root .wp-block-button .has-ast-global-color-6-color{color:var(--ast-global-color-6);}:root .wp-block-button .has-ast-global-color-6-background-color{background-color:var(--ast-global-color-6);}:root .has-ast-global-color-7-color{color:var(--ast-global-color-7);}:root .has-ast-global-color-7-background-color{background-color:var(--ast-global-color-7);}:root .wp-block-button .has-ast-global-color-7-color{color:var(--ast-global-color-7);}:root .wp-block-button .has-ast-global-color-7-background-color{background-color:var(--ast-global-color-7);}:root .has-ast-global-color-8-color{color:var(--ast-global-color-8);}:root .has-ast-global-color-8-background-color{background-color:var(--ast-global-color-8);}:root .wp-block-button .has-ast-global-color-8-color{color:var(--ast-global-color-8);}:root .wp-block-button .has-ast-global-color-8-background-color{background-color:var(--ast-global-color-8);}:root{--ast-global-color-0:#0170B9;--ast-global-color-1:#3a3a3a;--ast-global-color-2:#3a3a3a;--ast-global-color-3:#4B4F58;--ast-global-color-4:#F5F5F5;--ast-global-color-5:#FFFFFF;--ast-global-color-6:#E5E5E5;--ast-global-color-7:#424242;--ast-global-color-8:#000000;}:root {--ast-border-color : #dddddd;}#masthead .ast-container,.ast-header-breadcrumb .ast-container{max-width:100%;padding-left:35px;padding-right:35px;}@media (max-width:921px){#masthead .ast-container,.ast-header-breadcrumb .ast-container{padding-left:20px;padding-right:20px;}}.ast-single-entry-banner {-js-display: flex;display: flex;flex-direction: column;justify-content: center;text-align: center;position: relative;background: var(--ast-title-layout-bg);}.ast-single-entry-banner[data-banner-layout="layout-1"] {max-width: 1500px;background: inherit;padding: 20px 0;}.ast-single-entry-banner[data-banner-width-type="custom"] {margin: 0 auto;width: 100%;}.ast-single-entry-banner + .site-content .entry-header {margin-bottom: 0;}.site .ast-author-avatar {--ast-author-avatar-size: ;}a.ast-underline-text {text-decoration: underline;}.ast-container > .ast-terms-link {position: relative;display: block;}a.ast-button.ast-badge-tax {padding: 4px 8px;border-radius: 3px;font-size: inherit;}header.entry-header{text-align:left;}header.entry-header > *:not(:last-child){margin-bottom:10px;}@media (max-width:921px){header.entry-header{text-align:left;}}@media (max-width:544px){header.entry-header{text-align:left;}}.ast-archive-entry-banner {-js-display: flex;display: flex;flex-direction: column;justify-content: center;text-align: center;position: relative;background: var(--ast-title-layout-bg);}.ast-archive-entry-banner[data-banner-width-type="custom"] {margin: 0 auto;width: 100%;}.ast-archive-entry-banner[data-banner-layout="layout-1"] {background: inherit;padding: 20px 0;text-align: left;}body.archive .ast-archive-description{max-width:1500px;width:100%;text-align:left;padding-top:3em;padding-right:3em;padding-bottom:3em;padding-left:3em;}body.archive .ast-archive-description .ast-archive-title,body.archive .ast-archive-description .ast-archive-title *{font-size:40px;font-size:2.6666666666667rem;}body.archive .ast-archive-description > *:not(:last-child){margin-bottom:10px;}@media (max-width:921px){body.archive .ast-archive-description{text-align:left;}}@media (max-width:544px){body.archive .ast-archive-description{text-align:left;}}.ast-breadcrumbs .trail-browse,.ast-breadcrumbs .trail-items,.ast-breadcrumbs .trail-items li{display:inline-block;margin:0;padding:0;border:none;background:inherit;text-indent:0;text-decoration:none;}.ast-breadcrumbs .trail-browse{font-size:inherit;font-style:inherit;font-weight:inherit;color:inherit;}.ast-breadcrumbs .trail-items{list-style:none;}.trail-items li::after{padding:0 0.3em;content:"\00bb";}.trail-items li:last-of-type::after{display:none;}h1,h2,h3,h4,h5,h6,.entry-content :where(h1,h2,h3,h4,h5,h6){color:#1e73be;}.ast-header-break-point .main-header-bar{border-bottom-width:0px;border-bottom-color:#1e73be;}@media (min-width:922px){.main-header-bar{border-bottom-width:0px;border-bottom-color:#1e73be;}}@media (min-width:922px){#primary{width:70%;}#secondary{width:30%;}}.main-header-menu .menu-item, #astra-footer-menu .menu-item, .main-header-bar .ast-masthead-custom-menu-items{-js-display:flex;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column;}.main-header-menu > .menu-item > .menu-link, #astra-footer-menu > .menu-item > .menu-link{height:100%;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;-js-display:flex;display:flex;}.ast-primary-menu-disabled .main-header-bar .ast-masthead-custom-menu-items{flex:unset;}.main-header-menu .sub-menu .menu-item.menu-item-has-children > .menu-link:after{position:absolute;right:1em;top:50%;transform:translate(0,-50%) rotate(270deg);}.ast-header-break-point .main-header-bar .main-header-bar-navigation .page_item_has_children > .ast-menu-toggle::before, .ast-header-break-point .main-header-bar .main-header-bar-navigation .menu-item-has-children > .ast-menu-toggle::before, .ast-mobile-popup-drawer .main-header-bar-navigation .menu-item-has-children>.ast-menu-toggle::before, .ast-header-break-point .ast-mobile-header-wrap .main-header-bar-navigation .menu-item-has-children > .ast-menu-toggle::before{font-weight:bold;content:"\e900";font-family:Astra;text-decoration:inherit;display:inline-block;}.ast-header-break-point .main-navigation ul.sub-menu .menu-item .menu-link:before{content:"\e900";font-family:Astra;font-size:.65em;text-decoration:inherit;display:inline-block;transform:translate(0, -2px) rotateZ(270deg);margin-right:5px;}.widget_search .search-form:after{font-family:Astra;font-size:1.2em;font-weight:normal;content:"\e8b6";position:absolute;top:50%;right:15px;transform:translate(0, -50%);}.astra-search-icon::before{content:"\e8b6";font-family:Astra;font-style:normal;font-weight:normal;text-decoration:inherit;text-align:center;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;z-index:3;}.main-header-bar .main-header-bar-navigation .page_item_has_children > a:after, .main-header-bar .main-header-bar-navigation .menu-item-has-children > a:after, .menu-item-has-children .ast-header-navigation-arrow:after{content:"\e900";display:inline-block;font-family:Astra;font-size:.6rem;font-weight:bold;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-left:10px;line-height:normal;}.menu-item-has-children .sub-menu .ast-header-navigation-arrow:after{margin-left:0;}.ast-mobile-popup-drawer .main-header-bar-navigation .ast-submenu-expanded>.ast-menu-toggle::before{transform:rotateX(180deg);}.ast-header-break-point .main-header-bar-navigation .menu-item-has-children > .menu-link:after{display:none;}@media (min-width:922px){.ast-builder-menu .main-navigation > ul > li:last-child a{margin-right:0;}}.ast-separate-container .ast-article-inner{background-color:transparent;background-image:none;}.ast-separate-container .ast-article-post{background-color:var(--ast-global-color-5);}@media (max-width:921px){.ast-separate-container .ast-article-post{background-color:var(--ast-global-color-5);}}@media (max-width:544px){.ast-separate-container .ast-article-post{background-color:var(--ast-global-color-5);}}.ast-separate-container .ast-article-single:not(.ast-related-post), .ast-separate-container .error-404, .ast-separate-container .no-results, .single.ast-separate-container  .ast-author-meta, .ast-separate-container .related-posts-title-wrapper, .ast-separate-container .comments-count-wrapper, .ast-box-layout.ast-plain-container .site-content, .ast-padded-layout.ast-plain-container .site-content, .ast-separate-container .ast-archive-description, .ast-separate-container .comments-area .comment-respond, .ast-separate-container .comments-area .ast-comment-list li, .ast-separate-container .comments-area .comments-title{background-color:var(--ast-global-color-5);}@media (max-width:921px){.ast-separate-container .ast-article-single:not(.ast-related-post), .ast-separate-container .error-404, .ast-separate-container .no-results, .single.ast-separate-container  .ast-author-meta, .ast-separate-container .related-posts-title-wrapper, .ast-separate-container .comments-count-wrapper, .ast-box-layout.ast-plain-container .site-content, .ast-padded-layout.ast-plain-container .site-content, .ast-separate-container .ast-archive-description{background-color:var(--ast-global-color-5);}}@media (max-width:544px){.ast-separate-container .ast-article-single:not(.ast-related-post), .ast-separate-container .error-404, .ast-separate-container .no-results, .single.ast-separate-container  .ast-author-meta, .ast-separate-container .related-posts-title-wrapper, .ast-separate-container .comments-count-wrapper, .ast-box-layout.ast-plain-container .site-content, .ast-padded-layout.ast-plain-container .site-content, .ast-separate-container .ast-archive-description{background-color:var(--ast-global-color-5);}}.ast-separate-container.ast-two-container #secondary .widget{background-color:var(--ast-global-color-5);}@media (max-width:921px){.ast-separate-container.ast-two-container #secondary .widget{background-color:var(--ast-global-color-5);}}@media (max-width:544px){.ast-separate-container.ast-two-container #secondary .widget{background-color:var(--ast-global-color-5);}}
-/*# sourceURL=astra-theme-css-inline-css */
-</style>
-<style id="wp-emoji-styles-inline-css">
+Debe mostrarse la etiqueta real:
 
-	img.wp-smiley, img.emoji {
-		display: inline !important;
-		border: none !important;
-		box-shadow: none !important;
-		height: 1em !important;
-		width: 1em !important;
-		margin: 0 0.07em !important;
-		vertical-align: -0.1em !important;
-		background: none !important;
-		padding: 0 !important;
-	}
-/*# sourceURL=wp-emoji-styles-inline-css */
-</style>
-<style id="wp-block-library-inline-css">
-:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+```html
+<meta name="citation_r0" content="b621309bd8d28cda43682baaeb45707f" />
+```
 
-/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
-</style>
-<style id="wp-block-paragraph-inline-css">
-.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
-/*# sourceURL=https://editorialia.com/wp-includes/blocks/paragraph/style.min.css */
-</style>
-<style id="wp-block-table-inline-css">
-.wp-block-table{overflow-x:auto}.wp-block-table table{border-collapse:collapse;width:100%}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{border:1px solid;padding:.5em}.wp-block-table .has-fixed-layout{table-layout:fixed;width:100%}.wp-block-table .has-fixed-layout td,.wp-block-table .has-fixed-layout th{word-break:break-word}.wp-block-table.aligncenter,.wp-block-table.alignleft,.wp-block-table.alignright{display:table;width:auto}.wp-block-table.aligncenter td,.wp-block-table.aligncenter th,.wp-block-table.alignleft td,.wp-block-table.alignleft th,.wp-block-table.alignright td,.wp-block-table.alignright th{word-break:break-word}.wp-block-table .has-subtle-light-gray-background-color{background-color:#f3f4f5}.wp-block-table .has-subtle-pale-green-background-color{background-color:#e9fbe5}.wp-block-table .has-subtle-pale-blue-background-color{background-color:#e7f5fe}.wp-block-table .has-subtle-pale-pink-background-color{background-color:#fcf0ef}.wp-block-table.is-style-stripes{background-color:initial;border-collapse:inherit;border-spacing:0}.wp-block-table.is-style-stripes tbody tr:nth-child(odd){background-color:#f0f0f0}.wp-block-table.is-style-stripes.has-subtle-light-gray-background-color tbody tr:nth-child(odd){background-color:#f3f4f5}.wp-block-table.is-style-stripes.has-subtle-pale-green-background-color tbody tr:nth-child(odd){background-color:#e9fbe5}.wp-block-table.is-style-stripes.has-subtle-pale-blue-background-color tbody tr:nth-child(odd){background-color:#e7f5fe}.wp-block-table.is-style-stripes.has-subtle-pale-pink-background-color tbody tr:nth-child(odd){background-color:#fcf0ef}.wp-block-table.is-style-stripes td,.wp-block-table.is-style-stripes th{border-color:#0000}.wp-block-table.is-style-stripes{border-bottom:1px solid #f0f0f0}.wp-block-table .has-border-color td,.wp-block-table .has-border-color th,.wp-block-table .has-border-color tr,.wp-block-table .has-border-color>*{border-color:inherit}.wp-block-table table[style*=border-top-color] tr:first-child,.wp-block-table table[style*=border-top-color] tr:first-child td,.wp-block-table table[style*=border-top-color] tr:first-child th,.wp-block-table table[style*=border-top-color]>*,.wp-block-table table[style*=border-top-color]>* td,.wp-block-table table[style*=border-top-color]>* th{border-top-color:inherit}.wp-block-table table[style*=border-top-color] tr:not(:first-child){border-top-color:initial}.wp-block-table table[style*=border-right-color] td:last-child,.wp-block-table table[style*=border-right-color] th,.wp-block-table table[style*=border-right-color] tr,.wp-block-table table[style*=border-right-color]>*{border-right-color:inherit}.wp-block-table table[style*=border-bottom-color] tr:last-child,.wp-block-table table[style*=border-bottom-color] tr:last-child td,.wp-block-table table[style*=border-bottom-color] tr:last-child th,.wp-block-table table[style*=border-bottom-color]>*,.wp-block-table table[style*=border-bottom-color]>* td,.wp-block-table table[style*=border-bottom-color]>* th{border-bottom-color:inherit}.wp-block-table table[style*=border-bottom-color] tr:not(:last-child){border-bottom-color:initial}.wp-block-table table[style*=border-left-color] td:first-child,.wp-block-table table[style*=border-left-color] th,.wp-block-table table[style*=border-left-color] tr,.wp-block-table table[style*=border-left-color]>*{border-left-color:inherit}.wp-block-table table[style*=border-style] td,.wp-block-table table[style*=border-style] th,.wp-block-table table[style*=border-style] tr,.wp-block-table table[style*=border-style]>*{border-style:inherit}.wp-block-table table[style*=border-width] td,.wp-block-table table[style*=border-width] th,.wp-block-table table[style*=border-width] tr,.wp-block-table table[style*=border-width]>*{border-style:inherit;border-width:inherit}
-/*# sourceURL=https://editorialia.com/wp-includes/blocks/table/style.min.css */
-</style>
+El R0, R1, R2 y R3 de la ficha son coherentes entre sí.
 
+---
 
-<link rel='stylesheet' id='coblocks-extensions-css' href='https://editorialia.com/wp-content/plugins/coblocks/dist/style-coblocks-extensions.css?ver=3.1.17' media='all' />
-<link rel='stylesheet' id='coblocks-animation-css' href='https://editorialia.com/wp-content/plugins/coblocks/dist/style-coblocks-animation.css?ver=2677611078ee87eb3b1c' media='all' />
-<style id="global-styles-inline-css">
-:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--ast-global-color-0: var(--ast-global-color-0);--wp--preset--color--ast-global-color-1: var(--ast-global-color-1);--wp--preset--color--ast-global-color-2: var(--ast-global-color-2);--wp--preset--color--ast-global-color-3: var(--ast-global-color-3);--wp--preset--color--ast-global-color-4: var(--ast-global-color-4);--wp--preset--color--ast-global-color-5: var(--ast-global-color-5);--wp--preset--color--ast-global-color-6: var(--ast-global-color-6);--wp--preset--color--ast-global-color-7: var(--ast-global-color-7);--wp--preset--color--ast-global-color-8: var(--ast-global-color-8);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:root { --wp--style--global--content-size: var(--wp--custom--ast-content-width-size);--wp--style--global--wide-size: var(--wp--custom--ast-wide-width-size); }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: none;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-ast-global-color-0-color{color: var(--wp--preset--color--ast-global-color-0) !important;}.has-ast-global-color-1-color{color: var(--wp--preset--color--ast-global-color-1) !important;}.has-ast-global-color-2-color{color: var(--wp--preset--color--ast-global-color-2) !important;}.has-ast-global-color-3-color{color: var(--wp--preset--color--ast-global-color-3) !important;}.has-ast-global-color-4-color{color: var(--wp--preset--color--ast-global-color-4) !important;}.has-ast-global-color-5-color{color: var(--wp--preset--color--ast-global-color-5) !important;}.has-ast-global-color-6-color{color: var(--wp--preset--color--ast-global-color-6) !important;}.has-ast-global-color-7-color{color: var(--wp--preset--color--ast-global-color-7) !important;}.has-ast-global-color-8-color{color: var(--wp--preset--color--ast-global-color-8) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-ast-global-color-0-background-color{background-color: var(--wp--preset--color--ast-global-color-0) !important;}.has-ast-global-color-1-background-color{background-color: var(--wp--preset--color--ast-global-color-1) !important;}.has-ast-global-color-2-background-color{background-color: var(--wp--preset--color--ast-global-color-2) !important;}.has-ast-global-color-3-background-color{background-color: var(--wp--preset--color--ast-global-color-3) !important;}.has-ast-global-color-4-background-color{background-color: var(--wp--preset--color--ast-global-color-4) !important;}.has-ast-global-color-5-background-color{background-color: var(--wp--preset--color--ast-global-color-5) !important;}.has-ast-global-color-6-background-color{background-color: var(--wp--preset--color--ast-global-color-6) !important;}.has-ast-global-color-7-background-color{background-color: var(--wp--preset--color--ast-global-color-7) !important;}.has-ast-global-color-8-background-color{background-color: var(--wp--preset--color--ast-global-color-8) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-ast-global-color-0-border-color{border-color: var(--wp--preset--color--ast-global-color-0) !important;}.has-ast-global-color-1-border-color{border-color: var(--wp--preset--color--ast-global-color-1) !important;}.has-ast-global-color-2-border-color{border-color: var(--wp--preset--color--ast-global-color-2) !important;}.has-ast-global-color-3-border-color{border-color: var(--wp--preset--color--ast-global-color-3) !important;}.has-ast-global-color-4-border-color{border-color: var(--wp--preset--color--ast-global-color-4) !important;}.has-ast-global-color-5-border-color{border-color: var(--wp--preset--color--ast-global-color-5) !important;}.has-ast-global-color-6-border-color{border-color: var(--wp--preset--color--ast-global-color-6) !important;}.has-ast-global-color-7-border-color{border-color: var(--wp--preset--color--ast-global-color-7) !important;}.has-ast-global-color-8-border-color{border-color: var(--wp--preset--color--ast-global-color-8) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
-/*# sourceURL=global-styles-inline-css */
-</style>
+## 9. Advertencias heredadas de la página 2
 
-<link rel='stylesheet' id='spacexchimp_p008-font-awesome-css-frontend-css' href='https://editorialia.com/wp-content/plugins/simple-scroll-to-top-button/inc/lib/font-awesome/css/font-awesome.css?ver=4.46' media='screen' />
-<link rel='stylesheet' id='spacexchimp_p008-frontend-css-css' href='https://editorialia.com/wp-content/plugins/simple-scroll-to-top-button/inc/css/frontend.css?ver=4.46' media='all' />
-<style id="spacexchimp_p008-frontend-css-inline-css">
+El bloque histórico contiene afirmaciones que no encajan limpiamente con esta publicación CC BY 4.0.
 
-                    #ssttbutton {
-                        font-size: 24px;
-                    }
-                    .ssttbutton-background {
-                        color: #ffffff;
-                    }
-                    .ssttbutton-symbol {
-                        color: #000000;
-                    }
-                  
-/*# sourceURL=spacexchimp_p008-frontend-css-inline-css */
-</style>
-<link rel='stylesheet' id='rt-flaticon-css' href='https://editorialia.com/wp-content/plugins/the-post-grid/assets/vendor/flaticon/flaticon_the_post_grid.css?ver=7.9.3' media='all' />
-<link rel='stylesheet' id='rt-tpg-css' href='https://editorialia.com/wp-content/plugins/the-post-grid/assets/css/thepostgrid.min.css?ver=7.9.3' media='all' />
-<link rel='stylesheet' id='widgetopts-styles-css' href='https://editorialia.com/wp-content/plugins/widget-options/assets/css/widget-options.css?ver=4.2.5' media='all' />
-<link rel='stylesheet' id='wp-optimize-global-css' href='https://editorialia.com/wp-content/plugins/wp-optimize/css/wp-optimize-global-4-6-0.min.css?ver=4.6.0' media='all' />
-<link rel='stylesheet' id='cmplz-general-css' href='https://editorialia.com/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1783690976' media='all' />
-<link rel='stylesheet' id='wp-components-css' href='https://editorialia.com/wp-includes/css/dist/components/style.min.css?ver=7.0.2' media='all' />
-<link rel='stylesheet' id='godaddy-styles-css' href='https://editorialia.com/wp-content/plugins/coblocks/includes/Dependencies/GoDaddy/Styles/build/latest.css?ver=2.0.2' media='all' />
-<link rel='stylesheet' id='uagb-block-css-css' href='https://editorialia.com/wp-content/uploads/uag-plugin/custom-style-blocks.css?ver=2.20.0' media='all' />
-<link rel='stylesheet' id='wp-mail-smtp-admin-bar-css' href='https://editorialia.com/wp-content/plugins/wp-mail-smtp/assets/css/admin-bar.min.css?ver=4.9.0' media='all' />
-<link rel='stylesheet' id='zip-ai-sidebar-css' href='https://editorialia.com/wp-content/plugins/ultimate-addons-for-gutenberg/lib/zip-ai/sidebar/build/sidebar-app.css?ver=2.0.10' media='all' />
-<link rel='stylesheet' id='zip-ai-sidebar-fonts-css' href='https://editorialia.com/wp-content/plugins/ultimate-addons-for-gutenberg/lib/zip-ai/assets/fonts/fonts.css?ver=2.0.10' media='all' />
-<link rel='stylesheet' id='wp-statistics-front-css' href='https://editorialia.com/wp-content/plugins/wp-statistics/assets/css/frontend.min.css?ver=14.16.8' media='all' />
-<link rel='stylesheet' id='addtoany-css' href='https://editorialia.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.16' media='all' />
-<script id="jquery-core-js" src="https://editorialia.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
-<script id="jquery-migrate-js" src="https://editorialia.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
-<script id="mci-footnotes-jquery-tools-js" src="https://editorialia.com/wp-content/plugins/footnotes/js/jquery.tools.min.js?ver=1.2.7.redacted.2"></script>
-<script id="addtoany-core-js-before">
-window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};a2a_localize = {
-	Share: "Compartir",
-	Save: "Guardar",
-	Subscribe: "Suscribir",
-	Email: "Correo electrónico",
-	Bookmark: "Marcador",
-	ShowAll: "Mostrar todo",
-	ShowLess: "Mostrar menos",
-	FindServices: "Encontrar servicio(s)",
-	FindAnyServiceToAddTo: "Encuentra al instante cualquier servicio para añadir a",
-	PoweredBy: "Funciona con",
-	ShareViaEmail: "Compartir por correo electrónico",
-	SubscribeViaEmail: "Suscribirse a través de correo electrónico",
-	BookmarkInYourBrowser: "Añadir a marcadores de tu navegador",
-	BookmarkInstructions: "Presiona «Ctrl+D» o «\u2318+D» para añadir esta página a marcadores",
-	AddToYourFavorites: "Añadir a tus favoritos",
-	SendFromWebOrProgram: "Enviar desde cualquier dirección o programa de correo electrónico ",
-	EmailProgram: "Programa de correo electrónico",
-	More: "Más&#8230;",
-	ThanksForSharing: "¡Gracias por compartir!",
-	ThanksForFollowing: "¡Gracias por seguirnos!"
-};
+En particular:
 
+> to ensure private use without commercial purposes
 
-//# sourceURL=addtoany-core-js-before
-</script>
-<script id="addtoany-core-js" defer src="https://static.addtoany.com/menu/page.js"></script>
-<script id="addtoany-jquery-js" defer src="https://editorialia.com/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1"></script>
-<link rel="https://api.w.org/" href="https://editorialia.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://editorialia.com/wp-json/wp/v2/posts/32488" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://editorialia.com/xmlrpc.php?rsd" />
-<link rel='shortlink' href='https://editorialia.com/?p=32488' />
-<style>
-.tabs{font-size:0;margin-left:auto;margin-right:auto}.tabs>input[type=radio]{display:none}.tabs>div{display:none;border:1px solid #e0e0e0;padding:10px 15px;font-size:16px;overflow:hidden;text-overflow:ellipsis}#tab-btn-1:checked~#content-1,#tab-btn-2:checked~#content-2,#tab-btn-3:checked~#content-3,#tab-btn-4:checked~#content-4,#tab-btn-5:checked~#content-5,#tab-btn-6:checked~#content-6{display:block}.tabs>label{display:inline-block;text-align:center;vertical-align:middle;user-select:none;background-color:#f5f5f5;border:1px solid #e0e0e0;padding:2px 8px;font-size:16px;line-height:1.5;transition:color .15s ease-in-out,background-color .15s ease-in-out;cursor:pointer;position:relative;top:1px}.tabs>label:not(:first-of-type){border-left:none}.tabs>input[type=radio]:checked+label{background-color:#fff;border-bottom:1px solid #fff}
-</style>
-        <style>
-            :root {
-                --tpg-primary-color: #0d6efd;
-                --tpg-secondary-color: #0654c4;
-                --tpg-primary-light: #c4d0ff
-            }
+no describe la licencia CC BY 4.0, que no excluye el uso comercial.
 
-                    </style>
-					<style>.cmplz-hidden {
-					display: none !important;
-				}</style><!-- Analytics by WP Statistics - https://wp-statistics.com -->
-<link rel="pingback" href="https://editorialia.com/xmlrpc.php">
-	<script data-ampdevmode>
-		( () => {
-			if ( 'amp-wizard-completion-preview' !== window.name ) {
-				return;
-			}
+También se afirma que no se proporcionan enlaces hipertextuales «en general», aunque la propia ficha incluye enlaces DOI y de contacto.
 
-			/** @type {HTMLStyleElement} */
-			const style = document.createElement( 'style' );
-			style.setAttribute( 'type', 'text/css' );
-			style.appendChild( document.createTextNode( 'html:not(#_) { margin-top: 0 !important; } #wpadminbar { display: none !important; }' ) );
-			document.head.appendChild( style );
+No es necesario rehacer ahora toda la página 2, pero estas advertencias no deben presentarse como interpretación de la licencia específica del artículo.
 
-			document.addEventListener( 'DOMContentLoaded', function() {
-				const adminBar = document.getElementById( 'wpadminbar' );
-				if ( adminBar ) {
-					document.body.classList.remove( 'admin-bar' );
-					adminBar.remove();
-				}
-			});
-		} )();
-	</script>
-	<style>.broken_link, a.broken_link {
-	text-decoration: line-through;
-}</style><link rel="amphtml" href="https://editorialia.com/?p=32488&#038;page=3&#038;preview=true&#038;amp"><meta name="description" content="Artificial Intelligence">
-<meta name="keywords" content="Medicine, Automotive, Cybersecurity, MachineLearning, DataScience">
-<meta name="author" content="La Biblia de la IA - The Bible of AI™ Journal">
-<meta name="copyright" content="2019-2026 La Biblia de la IA - The Bible of AI™ Journal">
-<meta name="robots" content="INDEX,FOLLOW">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8">
-<title>La Biblia de la IA - The Bible of AI™ Journal</title> 
-<meta http-equiv="cache-control" content="CACHE">
-<meta http-equiv="content-language" content="en"><style id="uagb-style-conditional-extension">@media (min-width: 1025px){body .uag-hide-desktop.uagb-google-map__wrap,body .uag-hide-desktop{display:none !important}}@media (min-width: 768px) and (max-width: 1024px){body .uag-hide-tab.uagb-google-map__wrap,body .uag-hide-tab{display:none !important}}@media (max-width: 767px){body .uag-hide-mob.uagb-google-map__wrap,body .uag-hide-mob{display:none !important}}</style><style id="uagb-style-frontend-32488">.uagb-block-a7c31f04.wp-block-uagb-image--layout-default figure img{box-shadow: 0px 0px 0 #00000070;}.uagb-block-a7c31f04.wp-block-uagb-image .wp-block-uagb-image__figure figcaption{font-style: normal;align-self: center;}.uagb-block-a7c31f04.wp-block-uagb-image--layout-overlay figure img{box-shadow: 0px 0px 0 #00000070;}.uagb-block-a7c31f04.wp-block-uagb-image--layout-overlay .wp-block-uagb-image--layout-overlay__color-wrapper{opacity: 0.2;}.uagb-block-a7c31f04.wp-block-uagb-image--layout-overlay .wp-block-uagb-image--layout-overlay__inner{left: 15px;right: 15px;top: 15px;bottom: 15px;}.uagb-block-a7c31f04.wp-block-uagb-image--layout-overlay .wp-block-uagb-image--layout-overlay__inner .uagb-image-heading{font-style: normal;color: #fff;opacity: 1;}.uagb-block-a7c31f04.wp-block-uagb-image--layout-overlay .wp-block-uagb-image--layout-overlay__inner .uagb-image-heading a{color: #fff;}.uagb-block-a7c31f04.wp-block-uagb-image--layout-overlay .wp-block-uagb-image--layout-overlay__inner .uagb-image-caption{opacity: 0;}.uagb-block-a7c31f04.wp-block-uagb-image--layout-overlay .wp-block-uagb-image__figure:hover .wp-block-uagb-image--layout-overlay__color-wrapper{opacity: 1;}.uagb-block-a7c31f04.wp-block-uagb-image .wp-block-uagb-image--layout-overlay__inner .uagb-image-separator{width: 30%;border-top-width: 2px;border-top-color: #fff;opacity: 0;}.uagb-block-a7c31f04.wp-block-uagb-image .wp-block-uagb-image__figure img{width: px;height: auto;}.uagb-block-a7c31f04.wp-block-uagb-image .wp-block-uagb-image__figure:hover .wp-block-uagb-image--layout-overlay__inner .uagb-image-caption{opacity: 1;}.uagb-block-a7c31f04.wp-block-uagb-image .wp-block-uagb-image__figure:hover .wp-block-uagb-image--layout-overlay__inner .uagb-image-separator{opacity: 1;}.uagb-block-a7c31f04.wp-block-uagb-image--layout-default figure:hover img{box-shadow: 0px 0px 0 #00000070;}.uagb-block-a7c31f04.wp-block-uagb-image--layout-overlay figure:hover img{box-shadow: 0px 0px 0 #00000070;}.wp-block-uagb-advanced-heading.uagb-block-c5e91b22.wp-block-uagb-advanced-heading .uagb-desc-text{margin-bottom: 15px;}.wp-block-uagb-advanced-heading.uagb-block-c5e91b22.wp-block-uagb-advanced-heading .uagb-highlight{font-style: normal;font-weight: Default;background: #007cba;color: #fff;-webkit-text-fill-color: #fff;}.wp-block-uagb-advanced-heading.uagb-block-c5e91b22.wp-block-uagb-advanced-heading .uagb-highlight::-moz-selection{color: #fff;background: #007cba;-webkit-text-fill-color: #fff;}.wp-block-uagb-advanced-heading.uagb-block-c5e91b22.wp-block-uagb-advanced-heading .uagb-highlight::selection{color: #fff;background: #007cba;-webkit-text-fill-color: #fff;}@media only screen and (max-width: 976px) {.uagb-block-a7c31f04.wp-block-uagb-image .wp-block-uagb-image__figure img{width: px;height: auto;}}@media only screen and (max-width: 767px) {.uagb-block-a7c31f04.wp-block-uagb-image .wp-block-uagb-image__figure img{width: px;height: auto;}}</style><link rel="icon" href="https://editorialia.com/wp-content/uploads/2020/11/cropped-Logo-Tarjeta-Biblia-32x32.png" sizes="32x32" />
-<link rel="icon" href="https://editorialia.com/wp-content/uploads/2020/11/cropped-Logo-Tarjeta-Biblia-192x192.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="https://editorialia.com/wp-content/uploads/2020/11/cropped-Logo-Tarjeta-Biblia-180x180.png" />
-<meta name="msapplication-TileImage" content="https://editorialia.com/wp-content/uploads/2020/11/cropped-Logo-Tarjeta-Biblia-270x270.png" />
+Reparación mínima:
 
-<style type="text/css" media="all">
-.footnotes_reference_container {margin-top: 24px !important; margin-bottom: 0px !important;}
-.footnote_container_prepare > p {border-bottom: 1px solid #aaaaaa !important;}
-.footnote_tooltip { font-size: 13px !important; color: #000000 !important; background-color: #ffffff !important; border-width: 1px !important; border-style: solid !important; border-color: #cccc99 !important; -webkit-box-shadow: 2px 2px 11px #666666; -moz-box-shadow: 2px 2px 11px #666666; box-shadow: 2px 2px 11px #666666; max-width: 450px !important;}
+> The paper is identified as CC BY 4.0. Any reuse must comply with that licence and with the attribution, licence notice and indication-of-changes requirements applicable to the material used.
 
+Las advertencias generales del sitio pueden permanecer como política editorial histórica, pero separadas de la licencia concreta del paper.
 
-</style>
-<link rel='stylesheet' id='yasrcss-css' href='https://editorialia.com/wp-content/plugins/yet-another-stars-rating/includes/css/yasr.css?ver=3.4.15' media='all' />
-<style id="yasrcss-inline-css">
+---
 
-            .yasr-star-rating {
-                background-image: url('https://editorialia.com/wp-content/plugins/yet-another-stars-rating/includes/img/star_0.svg');
-            }
-            .yasr-star-rating .yasr-star-value {
-                background: url('https://editorialia.com/wp-content/plugins/yet-another-stars-rating/includes/img/star_1.svg') ;
-            }
-/*# sourceURL=yasrcss-inline-css */
-</style>
+# Dictamen final
 
-</head>
+## APTO CON REPAROS QUIRÚRGICOS
 
-<body itemtype='https://schema.org/Blog' itemscope='itemscope' class="wp-singular post-template-default single single-post postid-32488 single-format-standard logged-in admin-bar no-customize-support wp-embed-responsive paged-3 single-paged-3 wp-theme-astra rttpg rttpg-7.9.3 radius-frontend rttpg-body-wrap rttpg-flaticon ast-desktop ast-separate-container ast-right-sidebar astra-4.13.6 ast-header-custom-item-inside ast-full-width-primary-header group-blog ast-blog-single-style-1 ast-single-post ast-inherit-site-logo-transparent ast-normal-title-enabled">
-			<script>
-			(function(){if(window.matchMedia('(max-width:921.99px)').matches){document.body.classList.add('ast-header-break-point');document.body.classList.remove('ast-desktop');}})();
-			</script>
-			
-<a
-	class="skip-link screen-reader-text"
-	href="#content">
-		Ir al contenido</a>
+Antes de publicar:
 
-<div
-class="hfeed site" id="page">
-			<header
-		class="site-header header-main-layout-3 ast-primary-menu-enabled ast-logo-title-inline ast-menu-toggle-icon ast-mobile-header-stack" id="masthead" itemtype="https://schema.org/WPHeader" itemscope="itemscope" itemid="#masthead"		>
-			
-<div class="main-header-bar-wrap">
-	<div class="main-header-bar">
-				<div class="ast-container">
+1. restringir el material incorporado a `SURVEYED_PAPERS.md`;
+2. reformular la Unidad 2;
+3. reformular la Unidad 3;
+4. corregir la Unidad 4;
+5. mantener la Unidad 5;
+6. sustituir el cierre general;
+7. cambiar `r0identifier` por `citation_r0`;
+8. separar la licencia CC BY 4.0 de las advertencias históricas generales.
 
-			<div class="ast-flex main-header-container">
-				
-		<div class="site-branding">
-			<div
-			class="ast-site-identity" itemtype="https://schema.org/Organization" itemscope="itemscope"			>
-				<div class="ast-site-title-wrap">
-						<span class="site-title" itemprop="name">
-				<a href="https://editorialia.com/" rel="home" itemprop="url" >
-					La Biblia de la IA - The Bible of AI™
-				</a>
-			</span>
-						<p class="site-description" itemprop="description">
-				Educational Research on Artificial Intelligence Journal — ISSN 2695-6411
-			</p>
-				</div>			</div>
-		</div>
+No se cuestionan:
 
-		<!-- .site-branding -->
-				<div class="ast-mobile-menu-buttons">
+* la arquitectura WordPress;
+* la estructura de tres niveles;
+* el R0;
+* la ficha registral;
+* el orden de páginas;
+* el abstract, que insertará el director;
+* la imagen y el QR, que preparará el director.
 
-			
-					<div class="ast-button-wrap">
-			<button type="button" class="menu-toggle main-header-menu-toggle  ast-mobile-menu-buttons-minimal "  aria-controls='primary-menu' aria-expanded='false'>
-				<span class="screen-reader-text">Menu</span>
-				<span class="ast-icon icon-menu-bars"><span class="menu-toggle-icon"></span></span>				
-					<span class="mobile-menu-wrap">
-						<span class="mobile-menu">Menu</span>
-					</span>
-
-							</button>
-		</div>
-			
-			
-		</div>
-			<div class="ast-main-header-bar-alignment"><div class="main-header-bar-navigation"><nav class="site-navigation ast-flex-grow-1 navigation-accessibility" id="primary-site-navigation" aria-label="Navegación del sitio" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope"><div class="main-navigation"><ul id="primary-menu" class="main-header-menu ast-menu-shadow ast-nav-menu ast-flex ast-justify-content-flex-end  submenu-with-border"><li id="menu-item-32310" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-32310"><a href="https://editorialia.com/" class="menu-link">Cover</a></li>
-<li id="menu-item-32311" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-32311"><a aria-expanded="false" href="#" class="menu-link">Proposal</a><button class="ast-menu-toggle" aria-expanded="false" aria-label="Alternar menú"><span class="ast-icon icon-arrow"></span></button>
-<ul class="sub-menu">
-	<li id="menu-item-32305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32305"><a href="https://editorialia.com/r0identifier_3ef19cf6735b8da6436cb7d2468d1afc/the-wall/" class="menu-link">All</a></li>
-	<li id="menu-item-32314" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32314"><a href="https://editorialia.com/r0identifier_3ef19cf6735b8da6436cb7d2468d1afc/r0identifier_a71612948fa4f780f829f25f569a5e09/" class="menu-link">Publications by profile</a></li>
-	<li id="menu-item-32315" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32315"><a href="https://editorialia.com/r0identifier_3ef19cf6735b8da6436cb7d2468d1afc/r0identifier_c58f96cac63db73377e52892db7ba24a/" class="menu-link">Journal&#8217;s Specialties</a></li>
-	<li id="menu-item-32316" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32316"><a href="https://editorialia.com/r0identifier_3ef19cf6735b8da6436cb7d2468d1afc/r0identifier_cc94c9efd368f415f2dea20754314b8c/" class="menu-link">By academic level</a></li>
-	<li id="menu-item-32317" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32317"><a href="https://editorialia.com/campus/r0identifier_8e889cb2d908a2903f68b0a94ebb3d03/" class="menu-link">Best content</a></li>
-</ul>
-</li>
-<li id="menu-item-32304" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-32304"><a aria-expanded="false" href="#" class="menu-link">About</a><button class="ast-menu-toggle" aria-expanded="false" aria-label="Alternar menú"><span class="ast-icon icon-arrow"></span></button>
-<ul class="sub-menu">
-	<li id="menu-item-32356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32356"><a href="https://editorialia.com/announcements/" class="menu-link">Announcements</a></li>
-	<li id="menu-item-32299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32299"><a href="https://editorialia.com/email/" class="menu-link">Contact</a></li>
-	<li id="menu-item-32318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32318"><a href="https://editorialia.com/home/" class="menu-link">The Editorial  Committee</a></li>
-	<li id="menu-item-32306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32306"><a href="https://editorialia.com/r0identifier_3ef19cf6735b8da6436cb7d2468d1afc/r0identifier_7ba1c277cb9896e4224b3c78a0d32ced/" class="menu-link">Jounal editorial line</a></li>
-	<li id="menu-item-32319" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32319"><a href="https://editorialia.com/recommendations/" class="menu-link">The recommendations</a></li>
-	<li id="menu-item-32320" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32320"><a href="https://editorialia.com/politica-de-privacidad/" class="menu-link">The privacy policy</a></li>
-	<li id="menu-item-32321" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32321"><a rel="privacy-policy" href="https://editorialia.com/thebibleofai-online-accessibility-statement/" class="menu-link">The accessibility statment</a></li>
-</ul>
-</li>
-<li id="menu-item-32342" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32342"><a href="https://editorialia.com/press-room/" class="menu-link">Press Room</a></li>
-<li id="menu-item-32312" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-32312"><a aria-expanded="false" href="#" class="menu-link">Our supplements</a><button class="ast-menu-toggle" aria-expanded="false" aria-label="Alternar menú"><span class="ast-icon icon-arrow"></span></button>
-<ul class="sub-menu">
-	<li id="menu-item-32323" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32323"><a target="_blank" href="https://www.openscience.online/" class="menu-link">OpenScience</a></li>
-	<li id="menu-item-32367" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-32367"><a aria-expanded="false" href="#" class="menu-link">IAeñ (Spanish)</a><button class="ast-menu-toggle" aria-expanded="false" aria-label="Alternar menú"><span class="ast-icon icon-arrow"></span></button>
-	<ul class="sub-menu">
-		<li id="menu-item-32322" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32322"><a target="_blank" href="https://www.itvia.online/" class="menu-link">IA eñ</a></li>
-		<li id="menu-item-32366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32366"><a href="https://editorialia.com/indice-publicaciones-sv-itvia-online/" class="menu-link">Índice de publicaciones del Sistema Vectorial SV</a></li>
-	</ul>
-</li>
-</ul>
-</li>
-<li id="menu-item-32298" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32298"><a href="https://editorialia.com/blog/" class="menu-link">Back cover</a></li>
-			<li class="ast-masthead-custom-menu-items widget-custom-menu-item">
-				<div class="ast-header-widget-area"><aside id="a2a_follow_widget-2" class="widget widget_a2a_follow_widget"><div class="a2a_kit a2a_kit_size_22 a2a_follow addtoany_list" data-a2a-url="https://editorialia.com/category/insidetherss/feed/" data-a2a-title="La Biblia de la IA - The Bible of AI™"><a class="a2a_button_feed" href="https://editorialia.com/category/insidetherss/feed/" title="RSS Feed" rel="noopener" target="_blank"></a></div></aside><aside id="custom_html-4" class="widget_text extendedwopts-hide extendedwopts-tablet extendedwopts-mobile widget widget_custom_html"><div class="textwidget custom-html-widget"><p><a title="BibSonomy" href="https://www.bibsonomy.org/user/thebibleofai" target="_blank"><img src="https://editorialia.com/wp-content/uploads/2021/09/BibSonomy.png" alt="BibSonomy" width="80" height="15" /></a></p></div></aside><aside id="custom_html-5" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><p><a title="Flipboard" href="https://flipboard.com/@thebibleofai" target="_blank"><img src="https://editorialia.com/wp-content/uploads/2021/09/Ico-Flipboard.png" alt="FlipBoard" width="22" height="22" /></a></p></div></aside><aside id="subtome-2" class="widget widget_subtome">
-		<p class="subtome"><span class="subtome-description">More</span>&nbsp;<input type="button" onclick="(function(){var z=document.createElement('script');z.src='https://www.subtome.com/load.js';document.body.appendChild(z);})()" value="+" /></p> </aside></div>			</li>
-			</ul></div></nav></div></div>			</div><!-- Main Header Container -->
-		</div><!-- ast-row -->
-			</div> <!-- Main Header Bar -->
-</div> <!-- Main Header Bar Wrap -->
-		</header><!-- #masthead -->
-			<div id="content" class="site-content">
-		<div class="ast-container">
-		
-
-	<div id="primary" class="content-area primary">
-
-		
-					<main id="main" class="site-main">
-				
-
-<article
-class="post-32488 post type-post status-draft format-standard hentry category-inside-the-wall ast-article-single" id="post-32488" itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
-
-	
-	
-<div class="ast-post-format- ast-no-thumb single-layout-1">
-
-	
-	
-		<header class="entry-header ">
-
-			
-			<h1 class="entry-title" itemprop="headline">An Embarrassingly Simple Graph Heuristic Reveals Shortcut-Solvable Benchmarks for Sequential Recommendation</h1><div class="entry-meta"><span class="posted-on"><span class="published" itemprop="datePublished"> 17 de julio de 2026 </span></span></div>
-			
-		</header><!-- .entry-header -->
-
-	
-	
-	<div class="entry-content clear"
-	itemprop="text"	>
-
-		
-		
-
-
-<p class="has-text-align-center has-white-color has-text-color has-background wp-block-paragraph" style="background-color:#0657a3"><strong>&nbsp;🔘 Table of associated records</strong></p>
-
-
-<div class="wp-block-syntaxhighlighter-code "><pre class="brush: xml; title: ; notranslate" title="">
-&lt;meta name=&quot;Description&quot; CONTENT=&quot;Artificial Intelligence Journal&quot; /&gt;
-&lt;meta name=&quot;r0identifier&quot; content=&quot;b621309bd8d28cda43682baaeb45707f&quot; /&gt;
-</pre></div>
-
-
-<figure class="wp-block-table"><table class="has-background" style="background-color:#fcf0ef"><thead><tr><th class="has-text-align-center" data-align="center">Rx</th><th class="has-text-align-right" data-align="right">Registration ID</th><th class="has-text-align-left" data-align="left"><strong>N&ordm;</strong></th></tr></thead><tbody>
-<tr><td class="has-text-align-center" data-align="center">R0</td><td class="has-text-align-right" data-align="right">Hash MD5 (of R3):</td><td class="has-text-align-left" data-align="left">b621309bd8d28cda43682baaeb45707f</td></tr>
-<tr><td class="has-text-align-center" data-align="center">R1</td><td class="has-text-align-right" data-align="right"><strong>Registration number</strong> (in the domain editorialia.com at WordPress):</td><td class="has-text-align-left" data-align="left">dmeditorialiawp.32488</td></tr>
-<tr><td class="has-text-align-center" data-align="center">R2</td><td class="has-text-align-right" data-align="right">Date-<strong>p</strong>-order (ddmmyyyy<strong>p</strong>x): </td><td class="has-text-align-left" data-align="left">17072026p1</td></tr>
-<tr><td class="has-text-align-center" data-align="center">R3</td><td class="has-text-align-right" data-align="right"><strong>Cid</strong> (combined id R1+R2):</td><td class="has-text-align-left" data-align="left">dmeditorialiawp.3248817072026p1</td></tr>
-<tr><td class="has-text-align-center" data-align="center">R4</td><td class="has-text-align-right" data-align="right"><strong>Resource official title</strong>:</td><td class="has-text-align-left" data-align="left"><em>An Embarrassingly Simple Graph Heuristic Reveals Shortcut-Solvable Benchmarks for Sequential Recommendation</em></td></tr>
-<tr><td class="has-text-align-center" data-align="center">R5</td><td class="has-text-align-right" data-align="right"><strong>Publisher</strong>:</td><td class="has-text-align-left" data-align="left">arXiv</td></tr>
-<tr><td class="has-text-align-center" data-align="center">R6</td><td class="has-text-align-right" data-align="right"><strong>Resource website (1)</strong> ( #OpenAccess | #Openscience ): </td><td class="has-text-align-left" data-align="left">https://arxiv.org/abs/2605.07125v1</td></tr>
-<tr><td class="has-text-align-center" data-align="center">R9</td><td class="has-text-align-right" data-align="right"><strong>DOI</strong>:</td><td class="has-text-align-left" data-align="left">10.48550/arXiv.2605.07125</td></tr>
-<tr><td class="has-text-align-center" data-align="center">R12</td><td class="has-text-align-right" data-align="right"><strong>Authors</strong> (separated by commas):</td><td class="has-text-align-left" data-align="left">Han, H., Ma, L., Wang, H.&nbsp;<em>et al</em></td></tr>
-<tr><td class="has-text-align-center" data-align="center">R14</td><td class="has-text-align-right" data-align="right"><strong>Keyword</strong> (selected 1 among the labels applied to this entry):</td><td class="has-text-align-left" data-align="left">=machinelearning</td></tr>
-<tr><td class="has-text-align-center" data-align="center">R15</td><td class="has-text-align-right" data-align="right"><strong>QR</strong> code (of the linked url at WP):</td><td class="has-text-align-left" data-align="left"><img decoding="async" width="151px;" height="151px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAegAAAHoAQAAAACqK0GhAAAEzUlEQVR4nO1d2Y4iQQyzV/3/v+x9iHOwb+wcKKrqGQHTYEEp5HJcPRS+cPz5CviiL/qifxgNqR5IgKA6KeWDPKV/EHvXfSr6ga1IABQIiCAgkBAgihRAQaDihYnYu+5T0Q+AMC8IgQDDfSnBVhYBxlM0LBCL130q+hmPlQ6eRqfCpUGI4evh39/z3hf9++hp77BkeHpEbQIgJIKibPVve++L/n30AzgdR6qGwqszwIN5r8jm0EDsXfep6FFtv/GT0L3rPhX9lK9GTUbf27WdxilmUhcHYu+6T0VTWXXbwA7eLtP8RJyoUi5fv3jdp6KfMHGaPR4ga7VyZvkEMNK6Fq/7VDRkRs3UWnBsyaYJzblBkGaxppu/96Hdjzlcm3FBFOgURIlRmjcDx/L7ves+FW3avHlz+ex09z4XPu7b69870Vl3O5ZDAJnNeEd7AqRAU+y6/PlCdNfnQbfM0G5jj7r9tWTfvO5T0VmPI9ts06ZhYh+2tIpIz+/F3nWfimZ5rcM3ytplZdu9mjOWg+9d96loz0PTdbP/FjutR8gfLFxH+r3rPhWdg8+ce2JE8jRxjct6Fup0vnfdp6KpEZ9p9/ZvlOf523Nx/4kbz/ehW8HQhHn+yeHhk17v2L533Wejlfx4US8iqWi2MRRukEhTbbf/XojmLL8zjFcKVwaAJF56iELc/nsh+ilDF6FS/Kn/oockbEPb7Rev+2h0mptJrhGQQLolk8gekgTi9mNb0UxxWnVleSu5/wYghvSl5mSXP9+I9qTLD1PFFqOxV2XbEK4Vcu+6T0U/COo0ZmKj0275Ev2CKWO7+Xs12imbrIGZx6NMg0du9yiN6f2f/+QX/d5h/XnKytO5qWrIzLkl3eqz8Xjvuk9FP47NJUas7UNiUiwu0pTUq8/e/nshuvaHYkTr6rxzNoqM6LMN//Anv+j/OVpnPoToxaL1rGTsPygl+uZ1n4p+gOTWeoe3t4Fr+Dfb3GOOsnfdp6KtNC9RIhRHF2apR1dvPchnb/+9Du38XXtKqlSPXrumoOns2bNd/fliNAEytxuMhA6ahInynBn560vx8U9+0W8eDzIjcxZkrtVaolpHqhlv/70SnZdl6q0GqLuxl8z5eub4y59vRNMUec9Chmpp7gIGUFxb7UjYu+5T0dOgtbE75eepcGp16tA1Xv35WnTUX6VwIZSOLZCteOkgoKjvPv7JL/p9dFRnbLFiX4UrdEv07kDIZ+IKfJc/X4iubQaZtyuGz5vuvpXM27X3SjT1UrKNjqxcWi1dm6rGOx/biK6Cu7x8eDGyVBuF+th/cuu1pejcxW+ylClwgi2co9IcicuSxc9/8ot+8+BswpI5rwYsdx7kQPxl4/C190J07QXLnfzJrRSN3sb+h1z/8ntf9O+j63q5JVNKL7cAuSQvTb4oevSbvxeiU78W2VtO5cmYWwNRXwO3ZpRb8L3rPhU9/r8BsxD3YU4lQ77wUqZfPnUluq+vWOMxy1maO42bVL0ktao7H1uOtsUd36n5DaBI92whaLr61JXo+f8NWona/s789zV9LTYiruvz5fe+6A+hfUnN3OZPelRSRo55GbtD49Wf70TP6zs4MzeXqmLb+mJsY3yyed2norsc//33vuiLvuifRf8FaxBCJkCd/3oAAAAASUVORK5CYII="></td></tr>
-<tr><td class="has-text-align-center" data-align="center">R16</td><td class="has-text-align-right" data-align="right"><strong>Time stamp URL</strong>:</td><td class="has-text-align-left" data-align="left"></td></tr>
-<tr><td class="has-text-align-center" data-align="center">R17</td><td class="has-text-align-right" data-align="right"><strong>Digital signature URL</strong>:</td><td class="has-text-align-left" data-align="left">Pending signature</td></tr>
-</tbody></table></figure>
-<div style='text-align:center' class='yasr-auto-insert-visitor'><!--Yasr Visitor Votes Shortcode--><div id='yasr_visitor_votes_dad6f797ac5c0' class='yasr-visitor-votes'><div class="yasr-custom-text-vv-before yasr-custom-text-vv-before-32488">Click to rate this post</div><div id='yasr-vv-second-row-container-dad6f797ac5c0'
-                                        class='yasr-vv-second-row-container'><div id='yasr-visitor-votes-rater-dad6f797ac5c0'
-                                      class='yasr-rater-stars-vv'
-                                      data-rater-postid='32488'
-                                      data-rating='0'
-                                      data-rater-starsize='16'
-                                      data-rater-readonly='false'
-                                      data-rater-nonce='09ddb31971'
-                                      data-issingular='true'
-                                    ></div><div class="yasr-vv-stats-text-container" id="yasr-vv-stats-text-container-dad6f797ac5c0"><svg xmlns="https://www.w3.org/2000/svg" width="20" height="20"
-                                   class="yasr-dashicons-visitor-stats"
-                                   data-postid="32488"
-                                   id="yasr-stats-dashicon-dad6f797ac5c0">
-                                   <path d="M18 18v-16h-4v16h4zM12 18v-11h-4v11h4zM6 18v-8h-4v8h4z"></path>
-                               </svg><span id="yasr-vv-text-container-dad6f797ac5c0" class="yasr-vv-text-container">[Total: <span id="yasr-vv-votes-number-container-dad6f797ac5c0">0</span>  Average: <span id="yasr-vv-average-container-dad6f797ac5c0">0</span>]</span></div><div id='yasr-vv-loader-dad6f797ac5c0' class='yasr-vv-container-loader'></div></div><div id='yasr-vv-bottom-container-dad6f797ac5c0' class='yasr-vv-bottom-container'><div class='yasr-small-block-bold'><span class='yasr-already-voted-text'></span></div></div></div><!--End Yasr Visitor Votes Shortcode--></div> <p class="subtome"><span class="subtome-description">Liked this post? Follow this blog to get more.</span>&nbsp;<input type="button" onclick="(function(){var z=document.createElement('script');z.src='https://www.subtome.com/load.js';document.body.appendChild(z);})()" value="Follow" /></p> 
-		
-		
-		<div class="page-links">Páginas: <a href="https://editorialia.com/?p=32488&#038;preview=true" class="post-page-numbers"><span class="page-link">1</span></a> <a href="https://editorialia.com/?p=32488&#038;page=2&#038;preview=true" class="post-page-numbers"><span class="page-link">2</span></a> <span class="post-page-numbers current" aria-current="page"><span class="page-link">3</span></span></div>	</div><!-- .entry-content .clear -->
-</div>
-
-	
-</article><!-- #post-## -->
-
-<nav class="navigation post-navigation" aria-label="Entradas">
-				<div class="nav-links"><div class="nav-previous"><a title="When silence is safer: a review and decision-theoretic framework for LLM abstention in healthcare" href="https://editorialia.com/2026/07/14/publications-r0identifier_21222df107462b80fde54a74d060bc7e-when-silence-is-safer-a-review-and-decision-theoretic-framework-for-llm-abstention-in-healthcare/" rel="prev"><span class="ast-left-arrow" aria-hidden="true">&larr;</span> Entrada anterior</a></div></div>
-		</nav>			</main><!-- #main -->
-			
-		
-	</div><!-- #primary -->
-
-
-	<div class="widget-area secondary" id="secondary" itemtype="https://schema.org/WPSideBar" itemscope="itemscope">
-	<div class="sidebar-main" >
-		
-		<aside id="text-3" class="extendedwopts-hide extendedwopts-mobile widget widget_text"><h2 class="widget-title">Cite this proposal and vote</h2>			<div class="textwidget"><div id="citationic" class="tabs"><input type="radio" name="tab-btn" id="tab-btn-1" checked><label for="tab-btn-1">APA</label><input type="radio" name="tab-btn" id="tab-btn-2"><label for="tab-btn-2">MLA</label><input type="radio" name="tab-btn" id="tab-btn-3"><label for="tab-btn-3">Harvard</label><input type="radio" name="tab-btn" id="tab-btn-4"><label for="tab-btn-4">Vancouver</label><input type="radio" name="tab-btn" id="tab-btn-5"><label for="tab-btn-5">Chicago</label><input type="radio" name="tab-btn" id="tab-btn-6"><label for="tab-btn-6">IEEE</label><div id="content-1">La Biblia de la IA - The Bible of AI™ (17 de julio de 2026) <b>An Embarrassingly Simple Graph Heuristic Reveals Shortcut-Solvable Benchmarks for Sequential Recommendation</b>. Retrieved from <a href="https://editorialia.com/?p=32488">https://editorialia.com/?p=32488</a>.</div><div id="content-2">"<b>An Embarrassingly Simple Graph Heuristic Reveals Shortcut-Solvable Benchmarks for Sequential Recommendation.</b>" La Biblia de la IA - The Bible of AI™ - 17 de julio de 2026, <a href="https://editorialia.com/?p=32488">https://editorialia.com/?p=32488</a></div><div id="content-3">La Biblia de la IA - The Bible of AI™ 17 de julio de 2026 <b>An Embarrassingly Simple Graph Heuristic Reveals Shortcut-Solvable Benchmarks for Sequential Recommendation.</b>, viewed 17 de julio de 2026,<<a href="https://editorialia.com/?p=32488">https://editorialia.com/?p=32488</a>></div><div id="content-4">La Biblia de la IA - The Bible of AI™ - <b>An Embarrassingly Simple Graph Heuristic Reveals Shortcut-Solvable Benchmarks for Sequential Recommendation.</b> [Internet]. [Accessed 17 de julio de 2026]. Available from: <a href="https://editorialia.com/?p=32488">https://editorialia.com/?p=32488</a></div><div id="content-5">"<b>An Embarrassingly Simple Graph Heuristic Reveals Shortcut-Solvable Benchmarks for Sequential Recommendation.</b>" La Biblia de la IA - The Bible of AI™ - Accessed 17 de julio de 2026. <a href="https://editorialia.com/?p=32488">https://editorialia.com/?p=32488</a></div><div id="content-6">"<b>An Embarrassingly Simple Graph Heuristic Reveals Shortcut-Solvable Benchmarks for Sequential Recommendation.</b>" La Biblia de la IA - The Bible of AI™ [Online]. Available: <a href="https://editorialia.com/?p=32488">https://editorialia.com/?p=32488</a>. [Accessed: 17 de julio de 2026]</div></div>
-</div>
-		</aside><aside id="a2a_share_save_widget-2" class="widget widget_a2a_share_save_widget"><h2 class="widget-title">Share this on:</h2><div class="a2a_kit a2a_kit_size_26 addtoany_list"><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Feditorialia.com%2F%3Fp%3D32488%26page%3D3%26preview%3Dtrue&amp;linkname=An%20Embarrassingly%20Simple%20Graph%20Heuristic%20Reveals%20Shortcut-Solvable%20Benchmarks%20for%20Sequential%20Recommendation" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_flipboard" href="https://www.addtoany.com/add_to/flipboard?linkurl=https%3A%2F%2Feditorialia.com%2F%3Fp%3D32488%26page%3D3%26preview%3Dtrue&amp;linkname=An%20Embarrassingly%20Simple%20Graph%20Heuristic%20Reveals%20Shortcut-Solvable%20Benchmarks%20for%20Sequential%20Recommendation" title="Flipboard" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_linkedin" href="https://www.addtoany.com/add_to/linkedin?linkurl=https%3A%2F%2Feditorialia.com%2F%3Fp%3D32488%26page%3D3%26preview%3Dtrue&amp;linkname=An%20Embarrassingly%20Simple%20Graph%20Heuristic%20Reveals%20Shortcut-Solvable%20Benchmarks%20for%20Sequential%20Recommendation" title="LinkedIn" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_wechat" href="https://www.addtoany.com/add_to/wechat?linkurl=https%3A%2F%2Feditorialia.com%2F%3Fp%3D32488%26page%3D3%26preview%3Dtrue&amp;linkname=An%20Embarrassingly%20Simple%20Graph%20Heuristic%20Reveals%20Shortcut-Solvable%20Benchmarks%20for%20Sequential%20Recommendation" title="WeChat" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_qzone" href="https://www.addtoany.com/add_to/qzone?linkurl=https%3A%2F%2Feditorialia.com%2F%3Fp%3D32488%26page%3D3%26preview%3Dtrue&amp;linkname=An%20Embarrassingly%20Simple%20Graph%20Heuristic%20Reveals%20Shortcut-Solvable%20Benchmarks%20for%20Sequential%20Recommendation" title="Qzone" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_wordpress" href="https://www.addtoany.com/add_to/wordpress?linkurl=https%3A%2F%2Feditorialia.com%2F%3Fp%3D32488%26page%3D3%26preview%3Dtrue&amp;linkname=An%20Embarrassingly%20Simple%20Graph%20Heuristic%20Reveals%20Shortcut-Solvable%20Benchmarks%20for%20Sequential%20Recommendation" title="WordPress" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_reddit" href="https://www.addtoany.com/add_to/reddit?linkurl=https%3A%2F%2Feditorialia.com%2F%3Fp%3D32488%26page%3D3%26preview%3Dtrue&amp;linkname=An%20Embarrassingly%20Simple%20Graph%20Heuristic%20Reveals%20Shortcut-Solvable%20Benchmarks%20for%20Sequential%20Recommendation" title="Reddit" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_mendeley" href="https://www.addtoany.com/add_to/mendeley?linkurl=https%3A%2F%2Feditorialia.com%2F%3Fp%3D32488%26page%3D3%26preview%3Dtrue&amp;linkname=An%20Embarrassingly%20Simple%20Graph%20Heuristic%20Reveals%20Shortcut-Solvable%20Benchmarks%20for%20Sequential%20Recommendation" title="Mendeley" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_bibsonomy" href="https://www.addtoany.com/add_to/bibsonomy?linkurl=https%3A%2F%2Feditorialia.com%2F%3Fp%3D32488%26page%3D3%26preview%3Dtrue&amp;linkname=An%20Embarrassingly%20Simple%20Graph%20Heuristic%20Reveals%20Shortcut-Solvable%20Benchmarks%20for%20Sequential%20Recommendation" title="BibSonomy" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_google_classroom" href="https://www.addtoany.com/add_to/google_classroom?linkurl=https%3A%2F%2Feditorialia.com%2F%3Fp%3D32488%26page%3D3%26preview%3Dtrue&amp;linkname=An%20Embarrassingly%20Simple%20Graph%20Heuristic%20Reveals%20Shortcut-Solvable%20Benchmarks%20for%20Sequential%20Recommendation" title="Google Classroom" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_copy_link" href="https://www.addtoany.com/add_to/copy_link?linkurl=https%3A%2F%2Feditorialia.com%2F%3Fp%3D32488%26page%3D3%26preview%3Dtrue&amp;linkname=An%20Embarrassingly%20Simple%20Graph%20Heuristic%20Reveals%20Shortcut-Solvable%20Benchmarks%20for%20Sequential%20Recommendation" title="Copy Link" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></aside><aside id="text-2" class="extendedwopts-hide extendedwopts-mobile widget widget_text">			<div class="textwidget"><div class="printfriendly pf-button  pf-aligncenter">
-                    <a href="#" rel="nofollow" onclick="window.print(); return false;" title="Printer Friendly, PDF & Email">
-                    <img decoding="async" class="pf-button-img" src="https://cdn.printfriendly.com/buttons/printfriendly-pdf-email-button-notext.png" alt="Print Friendly, PDF & Email" style="width: 110px;height: 30px;"  />
-                    </a>
-                </div>
-</div>
-		</aside><aside id="yasr_recent_ratings_widget-2" class="extendedwopts-hide extendedwopts-mobile widget widget_yasr_recent_ratings_widget"><h2 class="widget-title">Recent proposal ratings</h2><table class="yasr-widget-recent-ratings-table"><tr>
-											<td class="yasr-widget-recent-ratings-td">Voto <span class="yasr-widget-recent-ratings-text yasr-widget-recent-ratings-vote">5</span>
-                        <span class="yasr-widget-recent-ratings-from-user"> de <span class="yasr-widget-recent-ratings-text yasr-widget-recent-ratings-user">support</span>
-                        </span> en<span class="yasr-widget-recent-ratings-text yasr-widget-recent-ratings-title">
-                           <a href="https://editorialia.com/2026/07/14/publications-r0identifier_21222df107462b80fde54a74d060bc7e-when-silence-is-safer-a-review-and-decision-theoretic-framework-for-llm-abstention-in-healthcare/"> When silence is safer: a review and decision-theoretic framework for LLM abstention in healthcare</a>
-                       </span></td>
-										</tr><tr>
-											<td class="yasr-widget-recent-ratings-td">Voto <span class="yasr-widget-recent-ratings-text yasr-widget-recent-ratings-vote">5</span>
-                        <span class="yasr-widget-recent-ratings-from-user"> de <span class="yasr-widget-recent-ratings-text yasr-widget-recent-ratings-user">support</span>
-                        </span> en<span class="yasr-widget-recent-ratings-text yasr-widget-recent-ratings-title">
-                           <a href="https://editorialia.com/2026/07/11/publications-r0identifier_8247836c6cc75da9c312122c9a3d5dbc-medical-algorithm-must-not-confuse-cost-with-health/"> A medical algorithm must not confuse cost with health</a>
-                       </span></td>
-										</tr><tr>
-											<td class="yasr-widget-recent-ratings-td">Voto <span class="yasr-widget-recent-ratings-text yasr-widget-recent-ratings-vote">5</span>
-                        <span class="yasr-widget-recent-ratings-from-user"> de <span class="yasr-widget-recent-ratings-text yasr-widget-recent-ratings-user">support</span>
-                        </span> en<span class="yasr-widget-recent-ratings-text yasr-widget-recent-ratings-title">
-                           <a href="https://editorialia.com/2026/07/11/publications-r0identifier_826b57aa859e0256704a5f11a5df9a99-when-ai-sounds-certain-but-should-say-i-do-not-know/"> When AI sounds certain but should say “I do not know”</a>
-                       </span></td>
-										</tr><tr>
-											<td class="yasr-widget-recent-ratings-td">Voto <span class="yasr-widget-recent-ratings-text yasr-widget-recent-ratings-vote">5</span>
-                        <span class="yasr-widget-recent-ratings-from-user"> de <span class="yasr-widget-recent-ratings-text yasr-widget-recent-ratings-user">support</span>
-                        </span> en<span class="yasr-widget-recent-ratings-text yasr-widget-recent-ratings-title">
-                           <a href="https://editorialia.com/2026/07/12/publications-r0identifier_e8a2060e33594781594577f87d876bb1-advancing-regulatory-variant-effect-prediction-with-alphagenome/"> Advancing regulatory variant effect prediction with AlphaGenome</a>
-                       </span></td>
-										</tr><tr>
-											<td class="yasr-widget-recent-ratings-td">Voto <span class="yasr-widget-recent-ratings-text yasr-widget-recent-ratings-vote">5</span>
-                        <span class="yasr-widget-recent-ratings-from-user"> de <span class="yasr-widget-recent-ratings-text yasr-widget-recent-ratings-user">support</span>
-                        </span> en<span class="yasr-widget-recent-ratings-text yasr-widget-recent-ratings-title">
-                           <a href="https://editorialia.com/2026/07/11/publications-r0identifier_baac25388d647b4a09beb4d48b10fd50-external-validation-is-not-a-bureaucratic-detail/"> External validation is not a bureaucratic detail</a>
-                       </span></td>
-										</tr></table></aside>
-	</div><!-- .sidebar-main -->
-</div><!-- #secondary -->
-
-
-	</div> <!-- ast-container -->
-	</div><!-- #content -->
-
-		<footer
-		class="site-footer" id="colophon" itemtype="https://schema.org/WPFooter" itemscope="itemscope" itemid="#colophon"		>
-
-			
-			
-<div class="footer-adv footer-adv-layout-4">
-	<div class="footer-adv-overlay">
-		<div class="ast-container">
-			<div class="ast-row">
-				<div class="ast-col-lg-3 ast-col-md-3 ast-col-sm-12 ast-col-xs-12 footer-adv-widget footer-adv-widget-1" >
-					<div id="custom_html-7" class="widget_text widget widget_custom_html"><h2 class="widget-title">Acceder a IAeñ</h2><div class="textwidget custom-html-widget"><div style="text-align:center; padding:12px 0;">
-  <a href="https://www.itvia.online/"
-     target="_blank"
-     rel="noopener noreferrer"
-     style="
-       display:inline-block;
-       padding:12px 22px;
-       background:#0f4f8a;
-       color:#ffffff;
-       text-decoration:none;
-       border-radius:6px;
-       font-weight:700;
-     ">
-    Acceder a ITVIA
-  </a>
-</div></div></div>				</div>
-				<div class="ast-col-lg-3 ast-col-md-3 ast-col-sm-12 ast-col-xs-12 footer-adv-widget footer-adv-widget-2" >
-								<div class="widget ast-no-widget-row">
-				<h2 class='widget-title'>Área de widgets del pie de página 2</h2>
-										<p class='no-widget-text'>
-							<a href='https://editorialia.com/wp-admin/widgets.php'>
-								Haz clic aquí para asignar un widget a esta área.							</a>
-						</p>
-							</div>
-							</div>
-				<div class="ast-col-lg-3 ast-col-md-3 ast-col-sm-12 ast-col-xs-12 footer-adv-widget footer-adv-widget-3" >
-								<div class="widget ast-no-widget-row">
-				<h2 class='widget-title'>Área de widgets del pie de página 3</h2>
-										<p class='no-widget-text'>
-							<a href='https://editorialia.com/wp-admin/widgets.php'>
-								Haz clic aquí para asignar un widget a esta área.							</a>
-						</p>
-							</div>
-							</div>
-				<div class="ast-col-lg-3 ast-col-md-3 ast-col-sm-12 ast-col-xs-12 footer-adv-widget footer-adv-widget-4" >
-								<div class="widget ast-no-widget-row">
-				<h2 class='widget-title'>Área de widgets del pie de página 4</h2>
-										<p class='no-widget-text'>
-							<a href='https://editorialia.com/wp-admin/widgets.php'>
-								Haz clic aquí para asignar un widget a esta área.							</a>
-						</p>
-							</div>
-							</div>
-			</div><!-- .ast-row -->
-		</div><!-- .ast-container -->
-	</div><!-- .footer-adv-overlay-->
-</div><!-- .ast-theme-footer .footer-adv-layout-4 -->
-
-<div class="ast-small-footer footer-sml-layout-1">
-	<div class="ast-footer-overlay">
-		<div class="ast-container">
-			<div class="ast-small-footer-wrap" >
-				
-									<div class="ast-small-footer-section ast-small-footer-section-2" >
-						© 2019-2026 | La Biblia de la IA – The Bible of AI™ | The license except specific licensing: Creative Commons (CC BY-SA 4.0) | ISSN 2695-6411					</div>
-				
-			</div><!-- .ast-row .ast-small-footer-wrap -->
-		</div><!-- .ast-container -->
-	</div><!-- .ast-footer-overlay -->
-</div><!-- .ast-small-footer-->
-
-			
-		</footer><!-- #colophon -->
-			</div><!-- #page -->
-<div class="gtranslate_wrapper" id="gt-wrapper-26008123"></div><script>
-              (function(e){
-                  var el = document.createElement('script');
-                  el.setAttribute('data-account', '4IMJwAxEqG');
-                  el.setAttribute('src', 'https://cdn.userway.org/widget.js');
-                  document.body.appendChild(el);
-                })();
-              </script>
-<!-- Consent Management powered by Complianz | GDPR/CCPA Cookie Consent https://wordpress.org/plugins/complianz-gdpr -->
-<div id="cmplz-cookiebanner-container"><div id="cmplz-cookiebanner-1-optin" class="cmplz-cookiebanner cmplz-hidden banner-1 bottom-right-minimal optin cmplz-bottom-right cmplz-categories-type-view-preferences" aria-modal="true" data-nosnippet="true" role="dialog" aria-live="polite" aria-labelledby="cmplz-header-1-optin" aria-describedby="cmplz-message-1-optin">
-	<div class="cmplz-header">
-		<div class="cmplz-logo"></div>
-		<div class="cmplz-title" id="cmplz-header-1-optin">Manage Cookie Consent</div>
-		<div class="cmplz-close" tabindex="0" role="button" aria-label="Cerrar ventana">
-			<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
-		</div>
-	</div>
-
-	<div class="cmplz-divider cmplz-divider-header"></div>
-	<div class="cmplz-body">
-		<div class="cmplz-message" id="cmplz-message-1-optin">We use cookies to optimise our website and our service.</div>
-		<!-- categories start -->
-		<div class="cmplz-categories">
-			<div class="cmplz-category cmplz-functional">
-				<div class="cmplz-category-header">
-					<span class="cmplz-category-title" id="cmplz-title-functional-1-optin">Functional</span>
-					<span class='cmplz-always-active'>
-						<span class="cmplz-banner-checkbox">
-							<input type="checkbox"
-								   id="cmplz-functional-optin"
-								   data-category="cmplz_functional"
-								   class="cmplz-consent-checkbox cmplz-functional"
-								   size="40"
-								   value="1"/>
-							<label class="cmplz-label" for="cmplz-functional-optin"><span class="screen-reader-text">Functional</span></label>
-						</span>
-						Siempre activo					</span>
-					<button class="cmplz-category-toggle"
-							aria-expanded="false"
-							aria-controls="cmplz-desc-functional-1-optin"
-							aria-labelledby="cmplz-title-functional-1-optin">
-						<span class="cmplz-icon cmplz-open">
-							<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
-						</span>
-					</button>
-				</div>
-				<div class="cmplz-description" id="cmplz-desc-functional-1-optin" hidden>
-					<span class="cmplz-description-functional">The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network.</span>
-				</div>
-			</div>
-
-			<div class="cmplz-category cmplz-preferences">
-				<div class="cmplz-category-header">
-					<span class="cmplz-category-title" id="cmplz-title-preferences-1-optin">Preferences</span>
-					<span class="cmplz-banner-checkbox">
-						<input type="checkbox"
-							   id="cmplz-preferences-optin"
-							   data-category="cmplz_preferences"
-							   class="cmplz-consent-checkbox cmplz-preferences"
-							   size="40"
-							   value="1"/>
-						<label class="cmplz-label" for="cmplz-preferences-optin"><span class="screen-reader-text">Preferences</span></label>
-					</span>
-					<button class="cmplz-category-toggle"
-							aria-expanded="false"
-							aria-controls="cmplz-desc-preferences-1-optin"
-							aria-labelledby="cmplz-title-preferences-1-optin">
-						<span class="cmplz-icon cmplz-open">
-							<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
-						</span>
-					</button>
-				</div>
-				<div class="cmplz-description" id="cmplz-desc-preferences-1-optin" hidden>
-					<span class="cmplz-description-preferences">The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.</span>
-				</div>
-			</div>
-
-			<div class="cmplz-category cmplz-statistics">
-				<div class="cmplz-category-header">
-					<span class="cmplz-category-title" id="cmplz-title-statistics-1-optin">Statistics</span>
-					<span class="cmplz-banner-checkbox">
-						<input type="checkbox"
-							   id="cmplz-statistics-optin"
-							   data-category="cmplz_statistics"
-							   class="cmplz-consent-checkbox cmplz-statistics"
-							   size="40"
-							   value="1"/>
-						<label class="cmplz-label" for="cmplz-statistics-optin"><span class="screen-reader-text">Statistics</span></label>
-					</span>
-					<button class="cmplz-category-toggle"
-							aria-expanded="false"
-							aria-controls="cmplz-desc-statistics-1-optin"
-							aria-labelledby="cmplz-title-statistics-1-optin">
-						<span class="cmplz-icon cmplz-open">
-							<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
-						</span>
-					</button>
-				</div>
-				<div class="cmplz-description" id="cmplz-desc-statistics-1-optin" hidden>
-					<span class="cmplz-description-statistics">The technical storage or access that is used exclusively for statistical purposes.</span>
-					<span class="cmplz-description-statistics-anonymous">The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.</span>
-				</div>
-			</div>
-
-			<div class="cmplz-category cmplz-marketing">
-				<div class="cmplz-category-header">
-					<span class="cmplz-category-title" id="cmplz-title-marketing-1-optin">Marketing</span>
-					<span class="cmplz-banner-checkbox">
-						<input type="checkbox"
-							   id="cmplz-marketing-optin"
-							   data-category="cmplz_marketing"
-							   class="cmplz-consent-checkbox cmplz-marketing"
-							   size="40"
-							   value="1"/>
-						<label class="cmplz-label" for="cmplz-marketing-optin"><span class="screen-reader-text">Marketing</span></label>
-					</span>
-					<button class="cmplz-category-toggle"
-							aria-expanded="false"
-							aria-controls="cmplz-desc-marketing-1-optin"
-							aria-labelledby="cmplz-title-marketing-1-optin">
-						<span class="cmplz-icon cmplz-open">
-							<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
-						</span>
-					</button>
-				</div>
-				<div class="cmplz-description" id="cmplz-desc-marketing-1-optin" hidden>
-					<span class="cmplz-description-marketing">The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes.</span>
-				</div>
-			</div>
-		</div><!-- categories end -->
-			</div>
-
-	<div class="cmplz-links cmplz-information">
-		<ul>
-			<li><a class="cmplz-link cmplz-manage-options cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Administrar opciones</a></li>
-			<li><a class="cmplz-link cmplz-manage-third-parties cookie-statement" href="#" data-relative_url="#cmplz-cookies-overview">Gestionar los servicios</a></li>
-			<li><a class="cmplz-link cmplz-manage-vendors tcf cookie-statement" href="#" data-relative_url="#cmplz-tcf-wrapper">Gestionar {vendor_count} proveedores</a></li>
-			<li><a class="cmplz-link cmplz-external cmplz-read-more-purposes tcf" target="_blank" rel="noopener noreferrer nofollow" href="https://cookiedatabase.org/tcf/purposes/" aria-label="Lee más acerca de los fines de TCF en la base de datos de cookies">Leer más sobre estos propósitos</a></li>
-		</ul>
-			</div>
-
-	<div class="cmplz-divider cmplz-footer"></div>
-
-	<div class="cmplz-buttons">
-		<button class="cmplz-btn cmplz-accept">Accept</button>
-		<button class="cmplz-btn cmplz-deny">Deny</button>
-		<button class="cmplz-btn cmplz-view-preferences">Preferences</button>
-		<button class="cmplz-btn cmplz-save-preferences">Save preferences</button>
-		<a class="cmplz-btn cmplz-manage-options tcf cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Preferences</a>
-			</div>
-
-
-	<div class="cmplz-documents cmplz-links">
-		<ul>
-			<li><a class="cmplz-link cookie-statement" href="#" data-relative_url="">{title}</a></li>
-			<li><a class="cmplz-link privacy-statement" href="#" data-relative_url="">{title}</a></li>
-			<li><a class="cmplz-link impressum" href="#" data-relative_url="">{title}</a></li>
-		</ul>
-			</div>
-</div>
-</div>
-					<div id="cmplz-manage-consent" data-nosnippet="true"><button class="cmplz-btn cmplz-hidden cmplz-manage-consent manage-consent-1" aria-haspopup="dialog" aria-controls="cmplz-cookiebanner-1-optin">Manage consent</button>
-
-</div>				<div id="zip-ai-sidebar-admin-trigger"></div>
-						<div id="zip-ai-sidebar"></div>
-		     <script type="text/javascript" id="pf_script">
-                      var pfHeaderImgUrl = '';
-          var pfHeaderTagline = '';
-          var pfdisableClickToDel = '0';
-          var pfImagesSize = 'small';
-          var pfImageDisplayStyle = 'right';
-          var pfEncodeImages = '0';
-          var pfShowHiddenContent  = '0';
-          var pfDisableEmail = '0';
-          var pfDisablePDF = '0';
-          var pfDisablePrint = '0';
-
-            
-          var pfPlatform = 'WordPress';
-
-        (function($){
-            $(document).ready(function(){
-                if($('.pf-button-content').length === 0){
-                    $('style#pf-excerpt-styles').remove();
-                }
-            });
-        })(jQuery);
-        </script>
-            
-            		<script>
-			var wpcode_admin_bar_info = [{"label":"Ejecutar en todas partes (12)","location_id":"everywhere","snippets":[{"id":32470,"title":"R0 \u2014 c\u00e1lculo, congelaci\u00f3n y compuerta \u00b7 editorialia.com","edit_link":"https:\/\/editorialia.com\/wp-admin\/admin.php?page=wpcode-snippet-manager&snippet_id=32470"},{"id":32467,"title":"Chequeo R0 \u2014 inventario de solo lectura \u00b7 editorialia.com","edit_link":"https:\/\/editorialia.com\/wp-admin\/admin.php?page=wpcode-snippet-manager&snippet_id=32467"},{"id":32466,"title":"Slug autom\u00e1tico R0","edit_link":"https:\/\/editorialia.com\/wp-admin\/admin.php?page=wpcode-snippet-manager&snippet_id=32466"},{"id":32457,"title":"Citation meta R0","edit_link":"https:\/\/editorialia.com\/wp-admin\/admin.php?page=wpcode-snippet-manager&snippet_id=32457"},{"id":32449,"title":"Fragmento de c\u00f3digo sin t\u00edtulo","edit_link":"https:\/\/editorialia.com\/wp-admin\/admin.php?page=wpcode-snippet-manager&snippet_id=32449"},{"id":32424,"title":"Slug para PubPub","edit_link":"https:\/\/editorialia.com\/wp-admin\/admin.php?page=wpcode-snippet-manager&snippet_id=32424"},{"id":32421,"title":"Contraportada embebida","edit_link":"https:\/\/editorialia.com\/wp-admin\/admin.php?page=wpcode-snippet-manager&snippet_id=32421"},{"id":32420,"title":"RSS en pesta\u00f1a nueva","edit_link":"https:\/\/editorialia.com\/wp-admin\/admin.php?page=wpcode-snippet-manager&snippet_id=32420"},{"id":32419,"title":"Panel RSS para OpenScience","edit_link":"https:\/\/editorialia.com\/wp-admin\/admin.php?page=wpcode-snippet-manager&snippet_id=32419"},{"id":32229,"title":"Descripci\u00f3n enriquecida","edit_link":"https:\/\/editorialia.com\/wp-admin\/admin.php?page=wpcode-snippet-manager&snippet_id=32229"},{"id":32208,"title":"og:image categor\u00edas y posts","edit_link":"https:\/\/editorialia.com\/wp-admin\/admin.php?page=wpcode-snippet-manager&snippet_id=32208"},{"id":31959,"title":"BOAI Director Articles Shortcode","edit_link":"https:\/\/editorialia.com\/wp-admin\/admin.php?page=wpcode-snippet-manager&snippet_id=31959"}],"href":"https:\/\/editorialia.com\/wp-admin\/admin.php?page=wpcode&#038;location=everywhere&#038;filter_action=filter","count":12}];
-			var wpcode_admin_bar_info_count = 12;
-		</script>
-		<script id="syntaxhighlighter-core-js" src="https://editorialia.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.9b"></script>
-<script id="syntaxhighlighter-brush-xml-js" src="https://editorialia.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushXml.js?ver=3.0.9b"></script>
-<script type='text/javascript'>
-	(function(){
-		var corecss = document.createElement('link');
-		var themecss = document.createElement('link');
-		var corecssurl = "https://editorialia.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.9b";
-		if ( corecss.setAttribute ) {
-				corecss.setAttribute( "rel", "stylesheet" );
-				corecss.setAttribute( "type", "text/css" );
-				corecss.setAttribute( "href", corecssurl );
-		} else {
-				corecss.rel = "stylesheet";
-				corecss.href = corecssurl;
-		}
-		document.head.appendChild( corecss );
-		var themecssurl = "https://editorialia.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.9b";
-		if ( themecss.setAttribute ) {
-				themecss.setAttribute( "rel", "stylesheet" );
-				themecss.setAttribute( "type", "text/css" );
-				themecss.setAttribute( "href", themecssurl );
-		} else {
-				themecss.rel = "stylesheet";
-				themecss.href = themecssurl;
-		}
-		document.head.appendChild( themecss );
-	})();
-	SyntaxHighlighter.config.strings.expandSource = '+ expandir código';
-	SyntaxHighlighter.config.strings.help = '?';
-	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
-	SyntaxHighlighter.config.strings.noBrush = 'No se encuentra el pincel para:';
-	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'El pincel no está configurado para la opción html-script:';
-	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
-	SyntaxHighlighter.defaults['toolbar'] = false;
-	SyntaxHighlighter.all();
-
-	// Infinite scroll support
-	if ( typeof( jQuery ) !== 'undefined' ) {
-		jQuery( function( $ ) {
-			$( document.body ).on( 'post-load', function() {
-				SyntaxHighlighter.highlight();
-			} );
-		} );
-	}
-</script>
-			<script>
-			/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
-			</script>
-			<script id="jquery-ui-core-js" src="https://editorialia.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"></script>
-<script id="jquery-ui-tooltip-js" src="https://editorialia.com/wp-includes/js/jquery/ui/tooltip.min.js?ver=1.13.3"></script>
-<script id="wp-dom-ready-js" src="https://editorialia.com/wp-includes/js/dist/dom-ready.min.js?ver=a06281ae5cf5500e9317"></script>
-<script id="amp-paired-browsing-client-js-before">
-var ampPairedBrowsingClientData = {"isAmpDocument":false,"ampUrl":"https:\/\/editorialia.com\/?p=32488&page=3&preview=true&amp","nonAmpUrl":"https:\/\/editorialia.com\/?p=32488&page=3&preview=true"};
-//# sourceURL=amp-paired-browsing-client-js-before
-</script>
-<script id="amp-paired-browsing-client-js" src="https://editorialia.com/wp-content/plugins/amp/assets/js/amp-paired-browsing-client.js?ver=2509b39a49b4c9410d96"></script>
-<script id="wpcode-admin-bar-js-js" src="https://editorialia.com/wp-content/plugins/insert-headers-and-footers/build/admin-bar.js?ver=c95624a69c80301272a0"></script>
-<script id="hoverintent-js-js" src="https://editorialia.com/wp-includes/js/hoverintent-js.min.js?ver=2.2.1"></script>
-<script id="admin-bar-js" src="https://editorialia.com/wp-includes/js/admin-bar.min.js?ver=7.0.2"></script>
-<script id="astra-theme-js-js-extra">
-var astra = {"break_point":"921","isRtl":"","is_scroll_to_id":"","is_scroll_to_top":"","is_header_footer_builder_active":"","responsive_cart_click":"flyout","is_dark_palette":""};
-//# sourceURL=astra-theme-js-js-extra
-</script>
-<script id="astra-theme-js-js" src="https://editorialia.com/wp-content/themes/astra/assets/js/minified/style.min.js?ver=4.13.6"></script>
-<script id="coblocks-animation-js" src="https://editorialia.com/wp-content/plugins/coblocks/dist/js/coblocks-animation.js?ver=3.1.17"></script>
-<script id="spacexchimp_p008-frontend-js-js-extra">
-var spacexchimp_p008_scriptParams = {"scroll_duration":"300"};
-//# sourceURL=spacexchimp_p008-frontend-js-js-extra
-</script>
-<script id="spacexchimp_p008-frontend-js-js" src="https://editorialia.com/wp-content/plugins/simple-scroll-to-top-button/inc/js/frontend.js?ver=4.46"></script>
-<script id="react-js" src="https://editorialia.com/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1"></script>
-<script id="react-dom-js" src="https://editorialia.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1"></script>
-<script id="wp-hooks-js" src="https://editorialia.com/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d"></script>
-<script id="wp-i18n-js" src="https://editorialia.com/wp-includes/js/dist/i18n.min.js?ver=781d11515ad3d91786ec"></script>
-<script id="wp-i18n-js-after">
-wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
-//# sourceURL=wp-i18n-js-after
-</script>
-<script id="wp-url-js" src="https://editorialia.com/wp-includes/js/dist/url.min.js?ver=bb0f766c3d2efe497871"></script>
-<script id="wp-api-fetch-js-translations">
-( function( domain, translations ) {
-	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
-	localeData[""].domain = domain;
-	wp.i18n.setLocaleData( localeData, domain );
-} )( "default", {"translation-revision-date":"2026-07-10 17:08:15+0000","generator":"GlotPress\/4.0.3","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"es"},"Could not get a valid response from the server.":["No se pudo obtener una respuesta v\u00e1lida del servidor."],"Unable to connect. Please check your Internet connection.":["No se puede conectar. Revisa tu conexi\u00f3n a Internet."],"Media upload failed. If this is a photo or a large image, please scale it down and try again.":["La subida de medios ha fallado. Si esto es una foto o una imagen grande, por favor, reduce su tama\u00f1o e int\u00e9ntalo de nuevo."],"The response is not a valid JSON response.":["Las respuesta no es una respuesta JSON v\u00e1lida."]}},"comment":{"reference":"wp-includes\/js\/dist\/api-fetch.js"}} );
-//# sourceURL=wp-api-fetch-js-translations
-</script>
-<script id="wp-api-fetch-js" src="https://editorialia.com/wp-includes/js/dist/api-fetch.min.js?ver=d7efe4dc1468d36c39b8"></script>
-<script id="wp-api-fetch-js-after">
-wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://editorialia.com/wp-json/" ) );
-wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "b050050076" );
-wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
-wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
-wp.apiFetch.nonceEndpoint = "https://editorialia.com/wp-admin/admin-ajax.php?action=rest-nonce";
-//# sourceURL=wp-api-fetch-js-after
-</script>
-<script id="react-jsx-runtime-js" src="https://editorialia.com/wp-includes/js/dist/vendor/react-jsx-runtime.min.js?ver=18.3.1"></script>
-<script id="wp-a11y-js-translations">
-( function( domain, translations ) {
-	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
-	localeData[""].domain = domain;
-	wp.i18n.setLocaleData( localeData, domain );
-} )( "default", {"translation-revision-date":"2026-07-10 17:08:15+0000","generator":"GlotPress\/4.0.3","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"es"},"Notifications":["Avisos"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );
-//# sourceURL=wp-a11y-js-translations
-</script>
-<script id="wp-a11y-js" src="https://editorialia.com/wp-includes/js/dist/a11y.min.js?ver=af934e5259bc51b8718e"></script>
-<script id="wp-deprecated-js" src="https://editorialia.com/wp-includes/js/dist/deprecated.min.js?ver=990e85f234fee8f7d446"></script>
-<script id="wp-dom-js" src="https://editorialia.com/wp-includes/js/dist/dom.min.js?ver=66a6cf58e0c4cd128af0"></script>
-<script id="wp-escape-html-js" src="https://editorialia.com/wp-includes/js/dist/escape-html.min.js?ver=3f093e5cca67aa0f8b56"></script>
-<script id="wp-element-js" src="https://editorialia.com/wp-includes/js/dist/element.min.js?ver=15ba804677f72a8db97b"></script>
-<script id="wp-is-shallow-equal-js" src="https://editorialia.com/wp-includes/js/dist/is-shallow-equal.min.js?ver=5d84b9f3cb50d2ce7d04"></script>
-<script id="wp-keycodes-js-translations">
-( function( domain, translations ) {
-	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
-	localeData[""].domain = domain;
-	wp.i18n.setLocaleData( localeData, domain );
-} )( "default", {"translation-revision-date":"2026-07-10 17:08:15+0000","generator":"GlotPress\/4.0.3","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"es"},"Tilde":["Virgulilla"],"Backtick":["Acento grave"],"Period":["Punto"],"Comma":["Coma"]}},"comment":{"reference":"wp-includes\/js\/dist\/keycodes.js"}} );
-//# sourceURL=wp-keycodes-js-translations
-</script>
-<script id="wp-keycodes-js" src="https://editorialia.com/wp-includes/js/dist/keycodes.min.js?ver=aa1a141e3468afe7f852"></script>
-<script id="wp-priority-queue-js" src="https://editorialia.com/wp-includes/js/dist/priority-queue.min.js?ver=1f0e89e247bc0bd3f9b9"></script>
-<script id="wp-undo-manager-js" src="https://editorialia.com/wp-includes/js/dist/undo-manager.min.js?ver=27bb0ae036a2c9d4a1b5"></script>
-<script id="wp-compose-js" src="https://editorialia.com/wp-includes/js/dist/compose.min.js?ver=fbe37f6b46750554f947"></script>
-<script id="moment-js" src="https://editorialia.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.30.1"></script>
-<script id="moment-js-after">
-moment.updateLocale( 'es_ES', {"months":["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"],"monthsShort":["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"],"weekdays":["domingo","lunes","martes","mi\u00e9rcoles","jueves","viernes","s\u00e1bado"],"weekdaysShort":["Dom","Lun","Mar","Mi\u00e9","Jue","Vie","S\u00e1b"],"week":{"dow":1},"longDateFormat":{"LT":"H:i","LTS":null,"L":null,"LL":"j \\d\\e F \\d\\e Y","LLL":"j \\d\\e F \\d\\e Y H:i","LLLL":null}} );
-//# sourceURL=moment-js-after
-</script>
-<script id="wp-date-js" src="https://editorialia.com/wp-includes/js/dist/date.min.js?ver=c9f8e7dd3232716f34e9"></script>
-<script id="wp-date-js-after">
-wp.date.setSettings( {"l10n":{"locale":"es_ES","months":["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"],"monthsShort":["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"],"weekdays":["domingo","lunes","martes","mi\u00e9rcoles","jueves","viernes","s\u00e1bado"],"weekdaysShort":["Dom","Lun","Mar","Mi\u00e9","Jue","Vie","S\u00e1b"],"meridiem":{"am":"am","pm":"pm","AM":"AM","PM":"PM"},"relative":{"future":"%s desde ahora","past":"hace %s","s":"un segundo","ss":"%d segundos","m":"un minuto","mm":"%d minutos","h":"una hora","hh":"%d horas","d":"un d\u00eda","dd":"%d d\u00edas","M":"un mes","MM":"%d meses","y":"un a\u00f1o","yy":"%d a\u00f1os"},"startOfWeek":1},"formats":{"time":"H:i","date":"j \\d\\e F \\d\\e Y","datetime":"j \\d\\e F \\d\\e Y H:i","datetimeAbbreviated":"j M Y H:i"},"timezone":{"offset":1,"offsetFormatted":"1","string":"","abbr":""}} );
-//# sourceURL=wp-date-js-after
-</script>
-<script id="wp-html-entities-js" src="https://editorialia.com/wp-includes/js/dist/html-entities.min.js?ver=8c6fa5b869dfeadc4af2"></script>
-<script id="wp-primitives-js" src="https://editorialia.com/wp-includes/js/dist/primitives.min.js?ver=a5c905ec27bcd76ef287"></script>
-<script id="wp-private-apis-js" src="https://editorialia.com/wp-includes/js/dist/private-apis.min.js?ver=835912f0086b9e59aed4"></script>
-<script id="wp-redux-routine-js" src="https://editorialia.com/wp-includes/js/dist/redux-routine.min.js?ver=64f9f5001aabc046c605"></script>
-<script id="wp-data-js" src="https://editorialia.com/wp-includes/js/dist/data.min.js?ver=1756b6a2676c1b3369ab"></script>
-<script id="wp-data-js-after">
-( function() {
-	var userId = 1;
-	var storageKey = "WP_DATA_USER_" + userId;
-	wp.data
-		.use( wp.data.plugins.persistence, { storageKey: storageKey } );
-} )();
-//# sourceURL=wp-data-js-after
-</script>
-<script id="wp-rich-text-js-translations">
-( function( domain, translations ) {
-	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
-	localeData[""].domain = domain;
-	wp.i18n.setLocaleData( localeData, domain );
-} )( "default", {"translation-revision-date":"2026-07-10 17:08:15+0000","generator":"GlotPress\/4.0.3","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"es"},"%s applied.":["%s aplicado."],"%s removed.":["%s eliminado."]}},"comment":{"reference":"wp-includes\/js\/dist\/rich-text.js"}} );
-//# sourceURL=wp-rich-text-js-translations
-</script>
-<script id="wp-rich-text-js" src="https://editorialia.com/wp-includes/js/dist/rich-text.min.js?ver=16449e6108f48327f368"></script>
-<script id="wp-warning-js" src="https://editorialia.com/wp-includes/js/dist/warning.min.js?ver=36fdbdc984d93aee8a97"></script>
-<script id="wp-components-js-translations">
-( function( domain, translations ) {
-	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
-	localeData[""].domain = domain;
-	wp.i18n.setLocaleData( localeData, domain );
-} )( "default", {"translation-revision-date":"2026-07-10 17:08:15+0000","generator":"GlotPress\/4.0.3","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"es"},"December":["diciembre"],"November":["noviembre"],"October":["octubre"],"September":["septiembre"],"August":["agosto"],"July":["julio"],"June":["junio"],"May":["mayo"],"April":["abril"],"March":["marzo"],"February":["febrero"],"January":["enero"],"There is %d event":["Hay %d evento","Hay %d eventos"],"Optional":["Opcional"],"%s, selected":["%s, seleccionado"],"Go to the Previous Month":["Ir al mes anterior"],"Go to the Next Month":["Ir al mes siguiente"],"Today, %s":["Hoy, %s"],"Date range calendar":["Calendario de rango de fechas"],"Date calendar":["Calendario de fechas"],"input control\u0004Show %s":["Mostrar %s"],"Border color picker. The currently selected color has a value of \"%s\".":["Selector del color del borde. El color seleccionado actualmente tiene un valor de \u00ab%s\u00bb."],"Border color picker. The currently selected color is called \"%1$s\" and has a value of \"%2$s\".":["Selector del color del borde. El color seleccionado actualmente se llama \u00ab%1$s\u00bb y tiene un valor de \u00ab%2$s\u00bb."],"Border color and style picker. The currently selected color has a value of \"%s\".":["Selector de color y estilo de borde. El color seleccionado actualmente tiene un valor de \u00ab%s\u00bb."],"Border color and style picker. The currently selected color has a value of \"%1$s\". The currently selected style is \"%2$s\".":["Selector de color y estilo de borde. El color seleccionado actualmente tiene un valor de \u00ab%1$s\u00bb. El estilo seleccionado actualmente es \u00ab%2$s\u00bb."],"Border color and style picker. The currently selected color is called \"%1$s\" and has a value of \"%2$s\".":["Selector de color y estilo de borde. El color seleccionado actualmente se llama \u00ab%1$s\u00bb y tiene un valor de \u00ab%2$s\u00bb."],"Border color and style picker. The currently selected color is called \"%1$s\" and has a value of \"%2$s\". The currently selected style is \"%3$s\".":["Selector de color y estilo de borde. El color actualmente seleccionado se llama \u00ab%1$s\u00bb y tiene un valor de \u00ab%2$s\u00bb. El estilo seleccionado actualmente es \u00ab%3$s\u00bb."],"%d item selected":["%d elemento seleccionado","%d elementos seleccionados"],"Select AM or PM":["Selecciona AM o PM"],"Select an item":["Selecciona un elemento"],"No items found":["No se han encontrado elementos"],"Remove color: %s":["Eliminar color: %s"],"authors\u0004All":["Todos"],"categories\u0004All":["Todas"],"Edit: %s":["Editar: %s"],"Left and right sides":["Lados izquierdo y derecho"],"Top and bottom sides":["Laterales superior e inferior"],"Right side":["Lado derecho"],"Left side":["Lado izquierdo"],"Bottom side":["Parte inferior"],"Top side":["Parte superior"],"Large viewport largest dimension (lvmax)":["Dimensi\u00f3n m\u00e1xima del \u00e1rea visible grande (lvmax)"],"Small viewport largest dimension (svmax)":["Dimensi\u00f3n m\u00ednima del \u00e1rea visible peque\u00f1o (svmax)"],"Dynamic viewport largest dimension (dvmax)":["Dimensi\u00f3n m\u00e1xima del \u00e1rea visible din\u00e1mico (dvmax)"],"Dynamic viewport smallest dimension (dvmin)":["Dimensi\u00f3n m\u00ednima del \u00e1rea visible din\u00e1mico (dvmin)"],"Dynamic viewport width or height (dvb)":["Ancho o alto del \u00e1rea visible din\u00e1mico (dvb)"],"Dynamic viewport width or height (dvi)":["Ancho o alto del \u00e1rea visible din\u00e1mico (dvi)"],"Dynamic viewport height (dvh)":["Alto del \u00e1rea visible din\u00e1mico (dvh)"],"Dynamic viewport width (dvw)":["Ancho del \u00e1rea visible din\u00e1mico (dvw)"],"Large viewport smallest dimension (lvmin)":["Dimensi\u00f3n m\u00ednima del \u00e1rea visible grande (lvmin)"],"Large viewport width or height (lvb)":["Ancho o alto del \u00e1rea visible grande (lvb)"],"Large viewport width or height (lvi)":["Ancho o alto del \u00e1rea visible grande (lvi)"],"Large viewport height (lvh)":["Alto del \u00e1rea visible grande (lvh)"],"Large viewport width (lvw)":["Ancho del \u00e1rea visible grande (lvw)"],"Small viewport smallest dimension (svmin)":["Dimensi\u00f3n m\u00ednima del \u00e1rea visible peque\u00f1o (svmin)"],"Small viewport width or height (svb)":["Ancho o alto del \u00e1rea visible peque\u00f1o (svb)"],"Viewport smallest size in the block direction (svb)":["Tama\u00f1o m\u00ednimo del \u00e1rea visible en la direcci\u00f3n del bloque (svb)"],"Small viewport width or height (svi)":["Ancho o alto del \u00e1rea visible peque\u00f1o (svi)"],"Viewport smallest size in the inline direction (svi)":["Tama\u00f1o m\u00ednimo del \u00e1rea visible en la direcci\u00f3n incrustada (svi)"],"Small viewport height (svh)":["Alto del \u00e1rea visible peque\u00f1o (svh)"],"Small viewport width (svw)":["Ancho del \u00e1rea visible peque\u00f1o (svw)"],"No color selected":["No se ha seleccionado ning\u00fan color"],"Required":["Obligatorio"],"Notice":["Aviso"],"Error notice":["Aviso de error"],"Information notice":["Aviso informativo"],"Warning notice":["Aviso de advertencia"],"Focal point top position":["Posici\u00f3n superior del punto focal"],"Focal point left position":["Posici\u00f3n izquierda del punto focal"],"Scrollable section":["Secci\u00f3n con desplazamiento"],"Initial %d result loaded. Type to filter all available results. Use up and down arrow keys to navigate.":["Resultado inicial %d cargado. Escribe para filtrar todos los resultados disponibles. Utiliza las teclas de flecha arriba y abajo para navegar.","Resultados iniciaesl %d cargados. Escribe para filtrar todos los resultados disponibles. Utiliza las teclas de flecha arriba y abajo para navegar."],"Extra Extra Large":["Extra extra grande"],"Show details":["Mostrar detalles"],"Decrement":["Reducir"],"Increment":["Aumentar"],"All options reset":["Restablecer todas las opciones."],"All options are currently hidden":["Todas las opciones est\u00e1n ocultas"],"%s is now visible":["%s est\u00e1 ahora visible"],"%s hidden and reset to default":["%s oculto y restablecido a por defecto"],"%s reset to default":["%s restablecer a valores por defecto"],"XXL":["XXL"],"XL":["XL"],"L":["L"],"M":["M"],"S":["S"],"Unset":["No establecido"],"View next month":["Ver mes siguiente"],"View previous month":["Ver mes anterior"],"Border color and style picker":["Selector de color de bordes y estilos"],"Loading \u2026":["Cargando\u2026"],"All sides":["Todos los lados"],"Bottom border":["Borde inferior"],"Right border":["Borde derecho"],"Left border":["Borde izquierdo"],"Top border":["Borde superior"],"Border color picker.":["Selector de color del borde."],"Border color and style picker.":["Selector de color y estilo del borde."],"Custom color picker. The currently selected color is called \"%1$s\" and has a value of \"%2$s\".":["Selector de color personalizado. El color seleccionado actualmente se llama \u00ab%1$s\u00bb y tiene un valor de \u00ab%2$s\u00bb."],"Link sides":["Enlazar laterales"],"Unlink sides":["Quitar enlaces laterales"],"Reset all":["Restablecer todo"],"Button label to reveal tool panel options\u0004%s options":["Opciones de %s"],"Hide and reset %s":["Ocultar y restablecer %s"],"Reset %s":["Restablecer %s"],"Search %s":["Buscar %s"],"Set custom size":["Establecer un tama\u00f1o personalizado"],"Use size preset":["Usar un tama\u00f1o prestablecido"],"Currently selected font size: %s":["Tama\u00f1o de fuente seleccionado actualmente: %s"],"Highlights":["Luces"],"Currently selected: %s":["Seleccionado actualmente: %s"],"Reset colors":["Restablecer los colores"],"Reset gradient":["Restablecer el degradado"],"Remove all colors":["Eliminar todos los colores"],"Remove all gradients":["Eliminar todos los degradados"],"Color options":["Opciones del color"],"Gradient options":["Opciones del degradado"],"Add color":["A\u00f1adir un color"],"Add gradient":["A\u00f1adir un degradado"],"Gradient name":["Nombre del degradado"],"Color %d":["Color %d"],"Color format":["Formato del color"],"Hex color":["Color hexadecimal"],"%1$s (%2$d of %3$d)":["%1$s (%2$d de %3$d)"],"Invalid item":["Elemento no v\u00e1lido"],"Shadows":["Sombras"],"Duotone: %s":["Duotono: %s"],"Duotone code: %s":["C\u00f3digo de duotono: %s"],"Relative to root font size (rem)\u0004rems":["rems"],"Relative to parent font size (em)\u0004ems":["ems"],"Points (pt)":["Puntos (pt)"],"Picas (pc)":["Picas (pc)"],"Inches (in)":["Pulgadas (in)"],"Millimeters (mm)":["Mil\u00edmetros (mm)"],"Centimeters (cm)":["Cent\u00edmetros (cm)"],"x-height of the font (ex)":["x-height de la fuente (ex)"],"Width of the zero (0) character (ch)":["Ancho del car\u00e1cter (ch) cero (0)"],"Viewport largest dimension (vmax)":["Dimensi\u00f3n m\u00e1xima de la ventana (vmax)"],"Viewport smallest dimension (vmin)":["Dimensi\u00f3n m\u00ednima de la ventana (vmin)"],"Percent (%)":["Porcentaje (%)"],"Border width":["Ancho del borde"],"Dotted":["Punteado"],"Dashed":["Discontinuo"],"Viewport height (vh)":["Alto de la visualizaci\u00f3n (vh)"],"Viewport width (vw)":["Ancho de la visualizaci\u00f3n (vw)"],"Relative to root font size (rem)":["Relativo al tama\u00f1o ra\u00edz de la fuente (rem)"],"Relative to parent font size (em)":["Relativo al tama\u00f1o de la fuente superior (em)"],"Pixels (px)":["P\u00edxeles (px)"],"Percentage (%)":["Porcentaje (%)"],"Close search":["Cerrar la b\u00fasqueda"],"Search in %s":["Buscar en %s"],"Select unit":["Seleccionar la unidad"],"Radial":["Radial"],"Linear":["Lineal"],"Media preview":["Vista previa de medios"],"Coordinated Universal Time":["Hora universal coordinada"],"Color name":["Nombre del color"],"Reset search":["Restablecer la b\u00fasqueda"],"Box Control":["Control de cajas"],"Alignment Matrix Control":["Control de la matriz de alineaci\u00f3n"],"Bottom Center":["Abajo al centro"],"Center Right":["Centro a la derecha"],"Center Left":["Centro a la izquierda"],"Top Center":["Arriba al centro"],"Solid":["Continuo"],"Finish":["Finalizar"],"Page %1$d of %2$d":["P\u00e1gina %1$d de %2$d"],"Guide controls":["Controles de gu\u00eda"],"Gradient: %s":["Degradado: %s"],"Gradient code: %s":["C\u00f3digo de degradado: %s"],"Remove Control Point":["Eliminar el punto de control"],"Use your left or right arrow keys or drag and drop with the mouse to change the gradient position. Press the button to change the color or remove the control point.":["Usa las teclas de flecha izquierda o derecha o arrastra y suelta con el rat\u00f3n para cambiar la posici\u00f3n del degradado. Pulsa el bot\u00f3n para cambiar el color o eliminar el punto de control."],"Gradient control point at position %1$d%% with color code %2$s.":["Punto de control de degradado en la posici\u00f3n %1$d%% con c\u00f3digo de color %2$s."],"Extra Large":["Muy grande"],"Small":["Peque\u00f1o"],"Angle":["\u00c1ngulo"],"Separate with commas or the Enter key.":["Separar con comas o la tecla Intro."],"Separate with commas, spaces, or the Enter key.":["Separar con comas, espacios o la tecla Intro."],"Copied!":["\u00a1Copiado!"],"%d result found.":["%d resultado encontrado.","%d resultados encontrados."],"Number of items":["N\u00famero de elementos"],"Category":["Categor\u00eda"],"Z \u2192 A":["Z \u27f6 A"],"A \u2192 Z":["A \u27f6 Z"],"Oldest to newest":["De antiguas a nuevas"],"Newest to oldest":["De nuevas a antiguas"],"Order by":["Ordenar por"],"Dismiss this notice":["Descartar este aviso"],"Remove item":["Eliminar el elemento"],"Item removed.":["Elemento eliminado."],"Item added.":["Elemento a\u00f1adido."],"Add item":["A\u00f1adir un elemento"],"Reset":["Restablecer"],"(opens in a new tab)":["(abre en una nueva pesta\u00f1a)"],"Minutes":["Minutos"],"Color code: %s":["C\u00f3digo de color: %s"],"Custom color picker":["Selector de color personalizado"],"No results.":["No hay resultados."],"%d result found, use up and down arrow keys to navigate.":["%d resultado encontrado, utiliza las teclas arriba y abajo para navegar.","%d resultados encontrados, utiliza las teclas arriba y abajo para navegar."],"Time":["Hora"],"Day":["D\u00eda"],"Month":["Mes"],"Date":["Fecha"],"Hours":["Horas"],"Item selected.":["Elemento seleccionado."],"Today":["Hoy"],"Previous":["Anterior"],"Year":["A\u00f1o"],"Back":["Volver"],"Style":["Estilo"],"Large":["Grande"],"Selected":["Seleccionado"],"Drop files to upload":["Arrastra los archivos para subirlos"],"Clear":["Borrar"],"Mixed":["Mixto"],"Custom":["Personalizado"],"Next":["Siguiente"],"PM":["PM"],"AM":["AM"],"Bottom Right":["Abajo a la derecha"],"Bottom Left":["Abajo a la izquierda"],"Top Right":["Arriba a la derecha"],"Top Left":["Arriba a la izquierda"],"Type":["Tipo"],"Top":["Arriba"],"Copy":["Copiar"],"Font size":["Tama\u00f1o de la fuente"],"Calendar":["Calendario"],"No results found.":["No se han encontrado resultados."],"Default":["Por defecto"],"Close":["Cerrar"],"Search":["Buscar"],"OK":["Aceptar"],"Medium":["Medio"],"Center":["Centrar"],"Left":["Izquierda"],"Cancel":["Cancelar"],"Done":["Hecho"],"None":["Ninguna"],"Categories":["Categor\u00edas"],"Author":["Autor"]}},"comment":{"reference":"wp-includes\/js\/dist\/components.js"}} );
-//# sourceURL=wp-components-js-translations
-</script>
-<script id="wp-components-js" src="https://editorialia.com/wp-includes/js/dist/components.min.js?ver=5dedfe13f08880193a28"></script>
-<script id="wp-plugins-js" src="https://editorialia.com/wp-includes/js/dist/plugins.min.js?ver=72e3cf01c2b3535a9432"></script>
-<script id="zip-ai-sidebar-js-extra">
-var zip_ai_react = {"ajax_url":"https://editorialia.com/wp-admin/admin-ajax.php","ajax_nonce":"e1cdd17b80","admin_nonce":"62f77e5a7f","site_url":"https://editorialia.com","current_post_id":"32488","special_page":null,"is_admin":"","auth_middleware":"https://app.zipwp.com/auth/?type=token&redirect_url=https%3A%2F%2Feditorialia.com%2Fwp-admin%2F%3Fnonce%3D4c0c710bba%26scs-authorize%3Dtrue&plugin=spectra","is_authorized":"","is_ai_assistant_enabled":"1","is_customize_preview":"","collab_product_details":{"product_name":"Spectra","product_slug":"spectra","product_logo":"\u003C?xml version=\"1.0\" encoding=\"utf-8\"?\u003E\n\u003C!-- Generator: Adobe Illustrator 26.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --\u003E\n\u003Csvg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 82 82\" style=\"enable-background:new 0 0 82 82;\" xml:space=\"preserve\" color=\"#6104ff\"\u003E\n\u003Cg\u003E\n\t\u003Cpath class=\"st0\" d=\"M41,1C18.9,1,1,18.9,1,41s17.9,40,40,40c22.1,0,40-17.9,40-40S63.1,1,41,1z M56.1,47.1c0,0.1,0,0.2,0,0.3\n\t\tc0,0.1,0,0.2,0,0.3l0,0.2c-0.2,1.2-0.6,2.3-1.3,3.3c-0.1,0.2-0.2,0.4-0.4,0.5c0,0,0,0.1-0.5,0.6c-0.4,0.5-0.5,0.6-0.6,0.7\n\t\tc0,0-0.1,0.1-0.1,0.1c0,0-0.1,0.1-0.1,0.1l-0.1,0c-0.1,0.1-0.2,0.1-0.2,0.2c-0.1,0.1-0.2,0.1-0.3,0.2l-0.1,0\n\t\tc-0.1,0.1-0.2,0.1-0.3,0.2L33.6,66.1c-0.2,0.1-0.3,0.2-0.5,0.2c-0.1,0-0.1,0-0.2,0c-0.2-0.1-0.5-0.2-0.6-0.4c0,0-0.4-0.8-0.5-0.8\n\t\tc0-0.1-0.1-0.1-0.1-0.2l0-0.1c0,0,0-0.1,0-0.1l0-0.1c0,0,0-0.1-0.1-0.1l0-0.1c0,0,0-0.1-0.1-0.1l0,0c-0.7-1.9-0.8-4-0.2-5.9\n\t\tc0.6-2,1.9-3.7,3.6-4.8l8.6-5.7c0.3-0.2,0.4-0.6,0.4-0.8c-0.1-0.3-0.2-0.6-0.6-0.6L33,44.3c-0.1,0-0.2,0-0.3-0.1l-0.1,0\n\t\tc-0.1,0-0.2,0-0.3-0.1l0,0c-0.1,0-0.2-0.1-0.3-0.1L32,44c-0.1,0-0.1,0-0.2-0.1l-0.1,0c-0.1,0-0.2-0.1-0.3-0.1l-0.1,0\n\t\tc-0.1,0-0.1,0-0.2-0.1l-0.1,0c-0.1,0-0.2-0.1-0.3-0.1l0,0c-0.1,0-0.2-0.1-0.3-0.1c-0.1,0-0.2-0.1-0.3-0.1l0,0\n\t\tc-0.1-0.1-0.2-0.1-0.3-0.2c-0.8-0.5-1.5-1.1-2.1-1.9l-0.2-0.3l-0.3-0.4c-1.3-2-1.8-4.4-1.3-6.7c0.2-0.7,0.4-1.5,0.8-2.3\n\t\tc0.1-0.2,0.2-0.4,0.3-0.5c0.1-0.1,0.1-0.2,0.1-0.2c0.1-0.2,0.2-0.4,0.4-0.5c0-0.1,0.1-0.1,0.1-0.2l0,0c0.1-0.1,0.1-0.2,0.2-0.2\n\t\tc0.1-0.1,0.1-0.1,0.2-0.2l0.1-0.1c0,0,0.1-0.1,0.1-0.1l0,0c0.1-0.1,0.1-0.1,0.2-0.2l0,0c0.1-0.1,0.1-0.1,0.2-0.2l0.1-0.1\n\t\tc0.1-0.1,0.1-0.1,0.2-0.2l0,0c0.1-0.1,0.1-0.1,0.2-0.2l0.1-0.1c0,0,0.1-0.1,0.1-0.1l0.1-0.1c0.1-0.1,0.2-0.1,0.2-0.2L48.4,16\n\t\tc0.2-0.2,0.5-0.2,0.8-0.2c0.3,0.1,0.5,0.2,0.7,0.5c0,0,0.1,0.2,0.2,0.3l0,0.1c0,0.1,0.1,0.2,0.1,0.2l0,0c0,0.1,0.1,0.1,0.1,0.2\n\t\tl0,0.1c0,0,0,0.1,0,0.1c0,0,0,0.1,0.1,0.1l0,0c0,0.1,0.1,0.2,0.1,0.3c0,0,0,0.1,0.1,0.2c0,0,0,0.1,0,0.1l0,0.1\n\t\tc0.7,1.8,0.7,3.9,0.1,5.8c-0.6,1.9-1.9,3.5-3.5,4.7l-8.6,5.7c-0.3,0.2-0.4,0.6-0.4,0.8c0.1,0.3,0.2,0.6,0.6,0.6l10.1,2\n\t\tc4.2,0.8,7.1,4.5,7.1,8.7C56.1,46.5,56.1,47.1,56.1,47.1z\" fill=\"currentColor\"/\u003E\n\u003C/g\u003E\n\u003C/svg\u003E\n","product_primary_color":"#5733ff","ai_assistant_learn_more_url":"https://editorialia.com/wp-admin/admin.php?page=spectra&path=ai-features","ai_assistant_authorized_disable_url":"https://editorialia.com/wp-admin/admin.php?page=spectra&path=ai-features&manage-features=yes","ai_assistant_unauthorized_disable_url":"https://editorialia.com/wp-admin/admin.php?page=spectra&path=ai-features&manage-features=yes"},"zip_ai_assistant_options":"","is_widgets_page":null,"current_status":[],"current_plan_details":[],"current_view":"default","credit_details":{"used":0,"total":0,"threshold":{"medium":65,"high":85},"percentage":0,"status":"error"},"credit_topup_url":"https://app.zipwp.com/credits-pricing?source=spectra"};
-//# sourceURL=zip-ai-sidebar-js-extra
-</script>
-<script id="zip-ai-sidebar-js-translations">
-( function( domain, translations ) {
-	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
-	localeData[""].domain = domain;
-	wp.i18n.setLocaleData( localeData, domain );
-} )( "ultimate-addons-for-gutenberg", {"translation-revision-date":"2026-07-17 16:53:44+0000","generator":"GlotPress\/4.0.3","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"es"},"Get More Credits":["Consigue m\u00e1s cr\u00e9ditos"],"Ask me about what you need.":["Preg\u00fantame lo que necesites."],"Choose a prompt bellow or write on your own.":["Elige un indicador de abajo o escribe el tuyo propio."],"Ask AI":["Preg\u00fantale a la IA"],"Something went wrong while I was generating a response.":["Algo sali\u00f3 mal mientras estaba generando una respuesta."],"%1$d\/%2$d":["%1$d\/%2$d"],"It looks like I've encountered an error\u2026":["Parece ser que has encontrado un error\u2026"],"Replace Richtext":["Reemplazar texto enriquecido"],"Edit Message":["Editar mensaje"],"Change Tone":["Cambiar el tono"],"and chat from there":["y charlar a partir de aqu\u00ed"],"Write me a description about ":["Escr\u00edbeme una descripci\u00f3n sobre "],"about a product for":["sobre un producto para"],"Show me a code snippet of ":["Mu\u00e9strame un fragmento de c\u00f3digo de "],"of blur-on-hover CSS":["o CSS para desvanecer al pasar el cursor"],"Show me a code snippet":["Mu\u00e9strame un fragmento de c\u00f3digo"],"Give me an idea for ":["Dame una idea para "],"Give me an idea":["Dame una idea"],"Write a long description.":["Escribe una descripci\u00f3n larga."],"Write a long description":["Escribe una descripci\u00f3n larga"],"Write a short description.":["Escribe una descripci\u00f3n breve."],"for this product":["para este producto"],"Write a short description":["Escribe una descripci\u00f3n breve"],"Create with AI":["Crea con la IA"],"Something Else":["Algo m\u00e1s"],"Change Tone to %s":["Cambia el tono a %s"],"Hi there! I'm here to assist you.":["\u00a1Hola! Estoy aqu\u00ed para ayudarte."],"Dismiss":["Descartar"],"Get Ready!":["\u00a1Prep\u00e1rate!"],"Something went wrong, please try again.":["Algo ha salido mal. Por favor, int\u00e9ntalo de nuevo."],"Engage with Comments":["Participa en los comentarios"],"Craft Product Descriptions":["Descripciones de productos elaboradas"],"Customize Templates":["Plantillas personalizadas"],"Write Content for Pages":["Escribir contenido para las p\u00e1ginas"],"Translate Your Pages":["Traducir tus p\u00e1ginas"],"ZipWP offers AI features to help you build your website 10 times faster.":["ZipWP ofrece funciones de IA para ayudarte a crear tu sitio web 10 veces m\u00e1s r\u00e1pido."],"%s offers AI features powered by ZipWP to help you build your website 10 times faster.":["%s ofrece funciones de IA desarrolladas por ZipWP para ayudarte a crear tu sitio web 10 veces m\u00e1s r\u00e1pido."],"Build 10x Faster with ZipWP":["Construye 10 veces m\u00e1s r\u00e1pido con ZipWP"],"Build 10x Faster with %s AI":["Construye 10 veces m\u00e1s r\u00e1pido con %s AI"],"The possibilities are endless!":["\u00a1Las posibilidades son infinitas!"],"Get started from %1$shere%2$s.":["Empieza desde %1$saqu\u00ed%2$s."],"Getting Started\u2026":["Empezar a trabajar..."],"Reconnecting\u2026":["Reconectando\u2026"],"Paste from clipboard":["Pegar desde el portapapeles"],"Translate to %s.":["Traducir a %s."],"Translate":["Traducir"],"Make Shorter":["Acortar"],"Make Longer":["Alargar"],"Fix Grammar":["Corregir gram\u00e1tica"],"for an attractive heading about":["para un encabezado atractivo acerca de..."],"Draft with AI":["Borrador con IA"],"Rephrase":["Reformula"],"Change tone to %s.":["Cambia el tono a %s."],"Make it shorter.":["Acortar"],"Make it longer.":["Alargar"],"Fix any grammatical mistakes.":["Corrige los errores gramaticales."],"Emotional":["Emotivo"],"Polite":["Educado"],"Humorous":["Humor\u00edstico"],"Serious":["Serio"],"Playful":["Alegre"],"Informative":["Informativo"],"Professional":["Profesional"],"Casual":["Informal"],"Friendly":["Amistoso"],"Filipino":["Filipino"],"Chinese (Simplified)":["Chino (Simplificado)"],"Clear Chat":["Vaciar chat"],"AI Assistant can make mistakes.":["El Asistente de IA puede cometer errores."],"AI Assistant can make mistakes. Want to %1$sdisable it?%2$s":["El Asistente de IA puede cometer errores. \u00bfQuieres %1$sdesactivarlo?%2$s"],"How can I help you?":["\u00bfC\u00f3mo puedo ayudarte?"],"Generating\u2026":["Generando\u2026"],"Note: All subsequent messages will be deleted after you update.":["Nota: Todos los mensajes posteriores se borrar\u00e1n despu\u00e9s de actualizar."],"Update":["Actualizar"],"Copy & Close":["Copiar y cerrar"],"Generate Custom Code":["Generar c\u00f3digo personalizado"],"Get Started with 1000 Free Monthly Credits":["Empieza con 1.000 cr\u00e9ditos mensuales gratis"],"Reconnect and Continue Using AI Features":["Vuelve a conectarte y sigue utilizando las caracter\u00edsticas de la IA"],"AI Assistant":["Ayudante de IA"],"Close":["Cerrar"],"Regenerate":["Regenerar"],"Copy":["Copiar"],"Cancel":["Cancelar"],"Vietnamese":["Vietnamita"],"Urdu":["Urdu"],"Ukrainian":["Ucraniano"],"Turkish":["Turco"],"Thai":["Tailand\u00e9s"],"Swedish":["Sueco"],"Swahili":["Suajili"],"Spanish":["Espa\u00f1ol"],"Slovenian":["Esloveno"],"Slovak":["Eslovaco"],"Serbian":["Serbio"],"Russian":["Ruso"],"Romanian":["Rumano"],"Portuguese":["Portugu\u00e9s"],"Polish":["Polaco"],"Norwegian":["Noruego"],"Malay":["Malayo"],"Macedonian":["Macedonio"],"Lithuanian":["Lituano"],"Latvian":["Let\u00f3n"],"Korean":["Coreano"],"Kazakh":["Kazajo"],"Japanese":["Japon\u00e9s"],"Italian":["Italiano"],"Indonesian":["Indonesio"],"Hungarian":["H\u00fangaro"],"Hindi":["Indio"],"Hebrew":["Hebreo"],"Greek":["Griego"],"German":["Alem\u00e1n"],"Georgian":["Georgiano"],"French":["Franc\u00e9s"],"Finnish":["Fin\u00e9s"],"Estonian":["Estonio"],"English":["Ingl\u00e9s"],"Dutch":["Neerland\u00e9s"],"Danish":["Dan\u00e9s"],"Czech":["Checo"],"Croatian":["Croata"],"Bulgarian":["B\u00falgaro"],"Bengali":["Bengal\u00ed"],"Belarusian":["Bielorruso"],"Azerbaijani":["Azerbaiyano"],"Arabic":["\u00c1rabe"],"Learn more":["Aprender m\u00e1s"],"Click Here":["Haz clic aqu\u00ed"],"Formal":["Formal"],"Write me a description":["Escr\u00edbeme una descripci\u00f3n"]}},"comment":{"reference":"lib\/zip-ai\/sidebar\/build\/sidebar-app.js"}} );
-//# sourceURL=zip-ai-sidebar-js-translations
-</script>
-<script id="zip-ai-sidebar-js" src="https://editorialia.com/wp-content/plugins/ultimate-addons-for-gutenberg/lib/zip-ai/sidebar/build/sidebar-app.js?ver=aceddf37ee8a94bd3c13"></script>
-<script id="yasr-window-var-js-extra">
-var yasrWindowVar = {"siteUrl":"https://editorialia.com","adminUrl":"https://editorialia.com/wp-admin/","ajaxurl":"https://editorialia.com/wp-admin/admin-ajax.php","visitorStatsEnabled":"yes","ajaxEnabled":"no","loaderHtml":"\u003Cdiv id=\"yasr-loader\" style=\"display: inline-block\"\u003E\u00a0 \u003Cimg src=\"https://editorialia.com/wp-content/plugins/yet-another-stars-rating/includes/img/loader.gif\" \r\n                 title=\"yasr-loader\" alt=\"yasr-loader\" height=\"16\" width=\"16\"\u003E\u003C/div\u003E","loaderUrl":"https://editorialia.com/wp-content/plugins/yet-another-stars-rating/includes/img/loader.gif","isUserLoggedIn":"true","isRtl":"false","starSingleForm":"\"estrella\"","starsPluralForm":"\"estrellas\"","textAfterVr":"\"[Total: %total_count%  Average: %average%]\"","textRating":"\"Valoraci\\u00f3n\"","textLoadRanking":"\"Cargando por favor espere\"","textVvStats":"\"de 5 estrellas\"","textOrderBy":"\"Ordenar por\"","textMostRated":"\"Mayor puntuaci\\u00f3n\"","textHighestRated":"\"Mejor puntuaci\\u00f3n\"","textLeftColumnHeader":"\"Enrada\""};
-//# sourceURL=yasr-window-var-js-extra
-</script>
-<script id="wp-statistics-tracker-js-extra">
-var WP_Statistics_Tracker_Object = {"requestUrl":"https://editorialia.com","ajaxUrl":"https://editorialia.com/wp-admin/admin-ajax.php","hitParams":{"wp_statistics_hit":1,"source_type":"post","source_id":32488,"search_query":"","signature":"43c5fd47e9c5f7655b03a2dbaca77bec","action":"wp_statistics_hit_record"},"option":{"dntEnabled":"","bypassAdBlockers":"1","consentIntegration":{"name":null,"status":[]},"isPreview":true,"userOnline":false,"isWpConsentApiActive":false},"isLegacyEventLoaded":"","customEventAjaxUrl":"https://editorialia.com/wp-admin/admin-ajax.php?action=wp_statistics_custom_event&nonce=160b5cbd10","onlineParams":{"wp_statistics_hit":1,"source_type":"post","source_id":32488,"search_query":"","signature":"43c5fd47e9c5f7655b03a2dbaca77bec","action":"wp_statistics_online_check"},"jsCheckTime":"60000"};
-//# sourceURL=wp-statistics-tracker-js-extra
-</script>
-<script id="wp-statistics-tracker-js" src="https://editorialia.com/?8d2cae=67a604abbd.js&#038;ver=14.16.8"></script>
-<script id="wp-statistics-chart.js-js" src="https://editorialia.com/wp-content/plugins/wp-statistics/assets/js/chartjs/chart.umd.min.js?ver=4.4.4"></script>
-<script id="wp-statistics-mini-chart-js" src="https://editorialia.com/wp-content/plugins/wp-statistics/assets/js/mini-chart.js?ver=14.16.8"></script>
-<script id="cmplz-cookiebanner-js-extra">
-var complianz = {"prefix":"cmplz_","user_banner_id":"1","set_cookies":[],"block_ajax_content":"","banner_version":"21","version":"7.5.0","store_consent":"","do_not_track_enabled":"","consenttype":"optin","region":"eu","geoip":"","dismiss_timeout":"","disable_cookiebanner":"1","soft_cookiewall":"","dismiss_on_scroll":"","cookie_expiry":"365","url":"https://editorialia.com/wp-json/complianz/v1/","locale":"lang=es&locale=es_ES","set_cookies_on_root":"","cookie_domain":"","current_policy_id":"16","cookie_path":"/","categories":{"statistics":"estad\u00edsticas","marketing":"m\u00e1rketing"},"tcf_active":"","placeholdertext":"Haz clic para aceptar cookies de marketing y permitir este contenido","css_file":"https://editorialia.com/wp-content/uploads/complianz/css/banner-{banner_id}-{type}.css?v=21","page_links":{"eu":{"cookie-statement":{"title":"Pol\u00edtica de privacidad","url":"https://editorialia.com/politica-de-privacidad/"},"privacy-statement":{"title":"editorialia.com Accessibility Statement","url":"https://editorialia.com/thebibleofai-online-accessibility-statement/"}}},"tm_categories":"","forceEnableStats":"","preview":"","clean_cookies":"","aria_label":"Haz clic para aceptar cookies de marketing y permitir este contenido"};
-//# sourceURL=cmplz-cookiebanner-js-extra
-</script>
-<script defer id="cmplz-cookiebanner-js" src="https://editorialia.com/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=1783690981"></script>
-<script id="cmplz-cookiebanner-js-after">
-	let cmplzBlockedContent = document.querySelector('.cmplz-blocked-content-notice');
-	if ( cmplzBlockedContent) {
-	        cmplzBlockedContent.addEventListener('click', function(event) {
-            event.stopPropagation();
-        });
-	}
-    
-//# sourceURL=cmplz-cookiebanner-js-after
-</script>
-<script id="yasr-global-functions-js" src="https://editorialia.com/wp-content/plugins/yet-another-stars-rating/includes/js/yasr-globals.js?ver=3.4.15"></script>
-<script id="tippy-js" src="https://editorialia.com/wp-content/plugins/yet-another-stars-rating/includes/js/tippy.all.min.js?ver=3.6.0"></script>
-<script id="yasr-front-vv-js" src="https://editorialia.com/wp-content/plugins/yet-another-stars-rating/includes/js/shortcodes/visitorVotes.js?ver=3.4.15"></script>
-<script id="gt_widget_script_26008123-js-before">
-window.gtranslateSettings = /* document.write */ window.gtranslateSettings || {};window.gtranslateSettings['26008123'] = {"default_language":"en","languages":["ar","zh-CN","en","fr","hi","ja","ru","es","tr"],"url_structure":"none","native_language_names":1,"flag_style":"3d","flag_size":16,"wrapper_selector":"#gt-wrapper-26008123","alt_flags":[],"switcher_open_direction":"top","switcher_horizontal_position":"left","switcher_vertical_position":"top","switcher_text_color":"#666","switcher_arrow_color":"#666","switcher_border_color":"#ccc","switcher_background_color":"#fff","switcher_background_shadow_color":"#efefef","switcher_background_hover_color":"#fff","dropdown_text_color":"#000","dropdown_hover_color":"#fff","dropdown_background_color":"#eee","flags_location":"\/wp-content\/plugins\/gtranslate\/flags\/"};
-//# sourceURL=gt_widget_script_26008123-js-before
-</script><script src="https://editorialia.com/wp-content/plugins/gtranslate/js/dwf.js?ver=3.1.1" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/" data-gt-orig-domain="editorialia.com" data-gt-widget-id="26008123" defer></script><script id="printfriendly-sdk-js" src="https://cdn.printfriendly.com/printfriendly.js"></script>
-<script id="wp-emoji-settings" type="application/json">
-{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://editorialia.com/wp-includes/js/wp-emoji-release.min.js?ver=7.0.2"}}
-</script>
-<script type="module">
-/*! This file is auto-generated */
-const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
-//# sourceURL=https://editorialia.com/wp-includes/js/wp-emoji-loader.min.js
-</script>
-    <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        var sel = '#secondary .widget_rss a[href], .wp-block-rss a[href]';
-        document.querySelectorAll(sel).forEach(function (a) {
-            a.setAttribute('target', '_blank');
-            a.setAttribute('rel', 'noopener');
-        });
-    });
-    </script>
-            <a
-            id="ssttbutton"
-            href="#top"
-            class=""
-        >
-            <span class="fa-stack fa-lg">
-                <i class="ssttbutton-background fa fa-square-o fa-stack-2x"></i>
-                <i class="ssttbutton-symbol fa fa-angle-double-up fa-stack-1x"></i>
-            </span>
-        </a>
-    <script>
-		(function() {
-			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
-
-				request = true;
-	
-			b[c] = b[c].replace( rcs, ' ' );
-			// The customizer requires postMessage and CORS (if the site is cross domain).
-			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
-		}());
-	
-//# sourceURL=wp_customize_support_script
-</script>
-		<div id="wpadminbar" class="nojq nojs">
-						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Barra de herramientas">
-				<ul role='menu' id='wp-admin-bar-root-default' class="ab-top-menu"><li role='group' id='wp-admin-bar-wp-logo' class="menupop"><a class='ab-item' role="menuitem" aria-expanded="false" href='https://editorialia.com/wp-admin/about.php'><span class="ab-icon" aria-hidden="true"></span><span class="screen-reader-text">Acerca de WordPress</span></a><div class="ab-sub-wrapper"><ul role='menu' aria-label='Acerca de WordPress' id='wp-admin-bar-wp-logo-default' class="ab-submenu"><li role='group' id='wp-admin-bar-about'><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-admin/about.php'>Acerca de WordPress</a></li><li role='group' id='wp-admin-bar-contribute'><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-admin/contribute.php'>Únete</a></li></ul><ul role='menu' aria-label='Acerca de WordPress' id='wp-admin-bar-wp-logo-external' class="ab-sub-secondary ab-submenu"><li role='group' id='wp-admin-bar-wporg'><a class='ab-item' role="menuitem" href='https://es.wordpress.org/'>WordPress.org</a></li><li role='group' id='wp-admin-bar-documentation'><a class='ab-item' role="menuitem" href='https://wordpress.org/documentation/'>Documentación</a></li><li role='group' id='wp-admin-bar-learn'><a class='ab-item' role="menuitem" href='https://learn.wordpress.org/'>Aprende WordPress</a></li><li role='group' id='wp-admin-bar-support-forums'><a class='ab-item' role="menuitem" href='https://es.wordpress.org/support/'>Soporte</a></li><li role='group' id='wp-admin-bar-feedback'><a class='ab-item' role="menuitem" href='https://es.wordpress.org/support/forum/comunidad/peticiones-y-feedback/'>Sugerencias</a></li></ul></div></li><li role='group' id='wp-admin-bar-site-name' class="menupop"><a class='ab-item' role="menuitem" aria-expanded="false" href='https://editorialia.com/wp-admin/'>La Biblia de la IA - The Bible of AI™</a><div class="ab-sub-wrapper"><ul role='menu' aria-label='La Biblia de la IA - The Bible of AI™' id='wp-admin-bar-site-name-default' class="ab-submenu"><li role='group' id='wp-admin-bar-dashboard'><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-admin/'>Escritorio</a></li><li role='group' id='wp-admin-bar-plugins'><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-admin/plugins.php'>Plugins</a></li></ul><ul role='menu' aria-label='La Biblia de la IA - The Bible of AI™' id='wp-admin-bar-appearance' class="ab-submenu"><li role='group' id='wp-admin-bar-themes'><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-admin/themes.php'>Temas</a></li><li role='group' id='wp-admin-bar-widgets'><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-admin/widgets.php'>Widgets</a></li><li role='group' id='wp-admin-bar-menus'><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-admin/nav-menus.php'>Menús</a></li></ul></div></li><li role='group' id='wp-admin-bar-customize' class="hide-if-no-customize"><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-admin/customize.php?url=https%3A%2F%2Feditorialia.com%2F%3Fp%3D32488%26page%3D3%26preview%3Dtrue'>Personalizar</a></li><li role='group' id='wp-admin-bar-comments'><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-admin/edit-comments.php'><span class="ab-icon" aria-hidden="true"></span><span class="ab-label awaiting-mod pending-count count-0" aria-hidden="true">0</span><span class="screen-reader-text comments-in-moderation-text">0 comentarios en moderación</span></a></li><li role='group' id='wp-admin-bar-wp-statistic-menu' class="menupop"><a class='ab-item' role="menuitem" aria-expanded="false" href='https://editorialia.com/wp-admin/admin.php?page=wps_overview_page'><span class="ab-icon"></span>Vistas de página: 0 - Online: 0</a><div class="ab-sub-wrapper"><ul role='menu' id='wp-admin-bar-wp-statistic-menu-default' class="ab-submenu"><li role='group' id='wp-admin-bar-wp-statistic-menu-global-data' class="menupop wp-statistics-global-data"><div class="ab-item ab-empty-item" role="menuitem" aria-expanded="false"><span class="wp-admin-bar-arrow" aria-hidden="true"></span>Datos globales</div><div class="ab-sub-wrapper"><ul role='menu' id='wp-admin-bar-wp-statistic-menu-global-data-default' class="ab-submenu"><li role='group' id='wp-admin-bar-wp-statistics-menu-visitors-today'><div class="ab-item ab-empty-item" role="menuitem"><div class="wp-statistics-menu-visitors-today__title">Visitantes hoy</div><div class="wp-statistics-menu-visitors-today__count">9</div><div class="wp-statistics-menu-todayvisits">fue 5 el último día</div></div></li><li role='group' id='wp-admin-bar-wp-statistics-menu-views-today'><div class="ab-item ab-empty-item" role="menuitem"><div class="wp-statistics-menu-views-today__title">Visitas hoy</div><div class="wp-statistics-menu-views-today__count">29</div><div class="wp-statistics-menu-yesterdayvisits">fue 43 el último día</div></div></li><li role='group' id='wp-admin-bar-wp-statistics-menu-page'><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-admin/admin.php?page=wps_plugins_page&#038;type=locked-mini-chart' target='_blank'><img src="https://editorialia.com/wp-content/plugins/wp-statistics/assets/images/mini-chart-lock.png" alt="Desbloquea todo el poder de WP Statistics"/><div><span class="wps-admin-bar__chart__unlock-button">Desbloquea todo el poder de WP Statistics</span><button>Aprender más</button></div></a></li><li role='group' id='wp-admin-bar-wp-statistics-footer-page'><div class="ab-item ab-empty-item" role="menuitem"><img src="https://editorialia.com/wp-content/plugins/wp-statistics/assets/images/mini-chart-logo.svg" alt="Logotipo de Mini Chart"/>
-                        <a href="https://editorialia.com/wp-admin/admin.php?page=wps_content-analytics_page&#038;type=single&#038;post_id=32488" target="_blank">
-                        <span class="wps-admin-bar__chart__unlock-button">Explorar detalles</span>
-                        </a></div></li></ul></div></li><li role='group' id='wp-admin-bar-wp-statistic-menu-current-page-data' class="wp-statistics-current-page-data disabled"><div class="ab-item ab-empty-item" role="menuitem">Datos de la página actual</div></li></ul></div></li><li role='group' id='wp-admin-bar-new-content' class="menupop"><a class='ab-item' role="menuitem" aria-expanded="false" href='https://editorialia.com/wp-admin/post-new.php'><span class="ab-icon" aria-hidden="true"></span><span class="ab-label">Añadir</span></a><div class="ab-sub-wrapper"><ul role='menu' aria-label='Añadir' id='wp-admin-bar-new-content-default' class="ab-submenu"><li role='group' id='wp-admin-bar-new-post'><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-admin/post-new.php'>Entrada</a></li><li role='group' id='wp-admin-bar-new-media'><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-admin/media-new.php'>Medio</a></li><li role='group' id='wp-admin-bar-new-page'><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-admin/post-new.php?post_type=page'>Página</a></li><li role='group' id='wp-admin-bar-new-rttpg'><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-admin/post-new.php?post_type=rttpg'>The Post Grid</a></li><li role='group' id='wp-admin-bar-new-spectra-popup'><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-admin/post-new.php?post_type=spectra-popup'>Ventana emergente de Spectra</a></li><li role='group' id='wp-admin-bar-new-user'><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-admin/user-new.php'>Usuario</a></li></ul></div></li><li role='group' id='wp-admin-bar-zippy'><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-admin/#TB_inline?inlineId=zippyModal'><span class="unzippy ab-icon"></span><span class="unzippy ab-label">Zippy</span></a></li><li role='group' id='wp-admin-bar-edit'><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-admin/post.php?post=32488&#038;action=edit'>Editar la entrada</a></li><li role='group' id='wp-admin-bar-amp' class="menupop"><a class='ab-item' role="menuitem" aria-expanded="false" href='https://editorialia.com/?p=32488&#038;page=3&#038;preview=true&#038;amp' title='Ver versión AMP'><span id="amp-admin-bar-item-status-icon" class="ab-icon amp-icon amp-link"></span> AMP</a><div class="ab-sub-wrapper"><ul role='menu' id='wp-admin-bar-amp-default' class="ab-submenu"><li role='group' id='wp-admin-bar-amp-view'><a class='ab-item' role="menuitem" href='https://editorialia.com/?p=32488&#038;page=3&#038;preview=true&#038;amp'>Ver versión AMP</a></li><li role='group' id='wp-admin-bar-amp-support'><a class='ab-item' role="menuitem" href='https://wordpress.org/support/plugin/amp/'>Obtén soporte</a></li></ul></div></li><li role='group' id='wp-admin-bar-wpcode-admin-bar-info' class="menupop wpcode-admin-bar-info menupop"><a class='ab-item' role="menuitem" aria-expanded="false" href='https://editorialia.com/wp-admin/admin.php?page=wpcode'>WPCode</a><div class="ab-sub-wrapper"><ul role='menu' id='wp-admin-bar-wpcode-admin-bar-info-default' class="ab-submenu"><li role='group' id='wp-admin-bar-wpcode-description' class="wpcode-admin-bar-info-submenu wpcode-admin-bar-description"><div class="ab-item ab-empty-item" role="menuitem">Cargado en esta página</div></li><li role='group' id='wp-admin-bar-wpcode-global-scripts' class="menupop wpcode-admin-bar-info-submenu"><a class='ab-item' role="menuitem" aria-expanded="false" href='https://editorialia.com/wp-admin/admin.php?page=wpcode-headers-footers'><span class="wp-admin-bar-arrow" aria-hidden="true"></span>Scripts globales (0)</a><div class="ab-sub-wrapper"><ul role='menu' id='wp-admin-bar-wpcode-global-scripts-default' class="ab-submenu"><li role='group' id='wp-admin-bar-wpcode-global-header' class="wpcode-admin-bar-info-submenu"><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-admin/admin.php?page=wpcode-headers-footers#wpcode-global-header'>Cabecera global (0)</a></li><li role='group' id='wp-admin-bar-wpcode-global-body' class="wpcode-admin-bar-info-submenu"><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-admin/admin.php?page=wpcode-headers-footers#wpcode-global-body'>Cuerpo global (0)</a></li><li role='group' id='wp-admin-bar-wpcode-global-footer' class="wpcode-admin-bar-info-submenu"><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-admin/admin.php?page=wpcode-headers-footers#wpcode-global-footer'>Pie de página global (0)</a></li></ul></div></li><li role='group' id='wp-admin-bar-wpcode-loaded-on-this-page' class="menupop wpcode-admin-bar-info-submenu"><a class='ab-item' role="menuitem" aria-expanded="false" href='https://editorialia.com/wp-admin/admin.php?page=wpcode'><span class="wp-admin-bar-arrow" aria-hidden="true"></span>Fragmentos de código</a><div class="ab-sub-wrapper"><ul role='menu' id='wp-admin-bar-wpcode-loaded-on-this-page-default' class="ab-submenu"><li role='group' id='wp-admin-bar-wpcode-admin-bar-info-replace' class="wpcode-admin-bar-info-submenu"><div class="ab-item ab-empty-item" role="menuitem"></div></li></ul></div></li><li role='group' id='wp-admin-bar-wpcode-page-scripts' class="menupop wpcode-admin-bar-has-upsell-submenu"><div class="ab-item ab-empty-item" role="menuitem" aria-expanded="false"><span class="wp-admin-bar-arrow" aria-hidden="true"></span>Scripts de página <span class="wpcode-pro-indicator">PRO</span></div><div class="ab-sub-wrapper"><ul role='menu' id='wp-admin-bar-wpcode-page-scripts-default' class="ab-submenu"><li role='group' id='wp-admin-bar-wpcode-page-scripts-upgrade' class="wpcode-admin-bar-upsell-submenu"><div class="ab-item ab-empty-item" role="menuitem"></div><div class="wpcode-admin-bar-submenu-upsell"><span class="wpcode-heading">Los scripts de página son una característica Pro</span><p>Aunque siempre puede puedes usar fragmentos de código globales, en la versión PRO puedes fácilmente añadir scripts y fragmentos de código específicos por página directamente desde la pantalla de editar entradas.</p><a class="wpcode-button" href="https://wpcode.com/lite/?utm_source=liteplugin&#038;utm_medium=admin-bar&#038;utm_campaign=page-scripts" target="_blank" rel="noopener noreferrer">Actualiza a Pro y desbloquea los scripts de página</a></div></li></ul></div></li><li role='group' id='wp-admin-bar-wpcode-admin-bar-info-add-new' class="wpcode-admin-bar-info-submenu wpcode-admin-bar-info-separator-top"><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-admin/admin.php?page=wpcode-snippet-manager'>+ Añadir fragmento de código</a></li><li role='group' id='wp-admin-bar-wpcode-admin-bar-info-settings' class="wpcode-admin-bar-info-submenu"><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-admin/admin.php?page=wpcode-settings'>Ajustes</a></li><li role='group' id='wp-admin-bar-wpcode-admin-bar-info-help' class="wpcode-admin-bar-info-submenu"><a class='ab-item' role="menuitem" href='https://wpcode.com/docs/?utm_source=liteplugin&#038;utm_medium=admin-bar&#038;utm_campaign=help' target='_blank' rel='noopener noreferrer'>Documentación de ayuda</a></li><li role='group' id='wp-admin-bar-wpcode-upgrade' class="wpcode-admin-bar-info-submenu"><a class='ab-item' role="menuitem" href='https://wpcode.com/lite/?utm_source=liteplugin&#038;utm_medium=admin-bar&#038;utm_campaign=upgrade-to-pro' target='_blank' rel='noopener noreferrer'>Actualizar a Pro</a></li></ul></div></li></ul><ul role='menu' id='wp-admin-bar-top-secondary' class="ab-top-secondary ab-top-menu"><li role='group' id='wp-admin-bar-zip-ai-assistant'><a class='ab-item' role="menuitem" href=''><span class="ab-icon" aria-hidden="true" style="margin: 0">
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M9.8132 15.9038L9 18.75L8.1868 15.9038C7.75968 14.4089 6.59112 13.2403 5.09619 12.8132L2.25 12L5.09619 11.1868C6.59113 10.7597 7.75968 9.59112 8.1868 8.09619L9 5.25L9.8132 8.09619C10.2403 9.59113 11.4089 10.7597 12.9038 11.1868L15.75 12L12.9038 12.8132C11.4089 13.2403 10.2403 14.4089 9.8132 15.9038Z" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16.8942 20.5673L16.5 21.75L16.1058 20.5673C15.8818 19.8954 15.3546 19.3682 14.6827 19.1442L13.5 18.75L14.6827 18.3558C15.3546 18.1318 15.8818 17.6046 16.1058 16.9327L16.5 15.75L16.8942 16.9327C17.1182 17.6046 17.6454 18.1318 18.3173 18.3558L19.5 18.75L18.3173 19.1442C17.6454 19.3682 17.1182 19.8954 16.8942 20.5673Z" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"></path><path d="M18.2589 8.71454L18 9.75L17.7411 8.71454C17.4388 7.50533 16.4947 6.56117 15.2855 6.25887L14.25 6L15.2855 5.74113C16.4947 5.43883 17.4388 4.49467 17.7411 3.28546L18 2.25L18.2589 3.28546C18.5612 4.49467 19.5053 5.43883 20.7145 5.74113L21.75 6L20.7145 6.25887C19.5053 6.56117 18.5612 7.50532 18.2589 8.71454Z" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-</span></a></li><li role='group' id='wp-admin-bar-my-account' class="menupop with-avatar"><a class='ab-item' role="menuitem" aria-expanded="false" href='https://editorialia.com/wp-admin/profile.php'>Hola, <span class="display-name">The Bible of AI</span><img alt='' src='https://secure.gravatar.com/avatar/f2156ab9f8978154735ed180addc9a3b094bbdbab334709861b4ec9a2c147a44?s=26&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/f2156ab9f8978154735ed180addc9a3b094bbdbab334709861b4ec9a2c147a44?s=52&#038;d=mm&#038;r=g 2x' class='avatar avatar-26 photo' height='26' width='26' loading='lazy' decoding='async'/></a><div class="ab-sub-wrapper"><ul role='menu' aria-label='Hola, The Bible of AI' id='wp-admin-bar-user-actions' class="ab-submenu"><li role='group' id='wp-admin-bar-user-info'><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-admin/profile.php'><img alt='' src='https://secure.gravatar.com/avatar/f2156ab9f8978154735ed180addc9a3b094bbdbab334709861b4ec9a2c147a44?s=64&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/f2156ab9f8978154735ed180addc9a3b094bbdbab334709861b4ec9a2c147a44?s=128&#038;d=mm&#038;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' loading='lazy' decoding='async'/><span class='display-name'>The Bible of AI</span><span class='username'>support</span><span class='display-name edit-profile'>Editar perfil</span></a></li><li role='group' id='wp-admin-bar-logout'><a class='ab-item' role="menuitem" href='https://editorialia.com/wp-login.php?action=logout&#038;_wpnonce=f8b7b97fe6'>Salir</a></li></ul></div></li><li role='group' id='wp-admin-bar-search' class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1" role="menuitem"><form action="https://editorialia.com/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150" /><label for="adminbar-search" class="screen-reader-text">Buscar</label><input type="submit" class="adminbar-button" value="Buscar" /></form></div></li></ul>			</div>
-		</div>
-
-			</body>
-</html>
+Tras estas reparaciones procede la lectura final ya renderizada en WordPress.
