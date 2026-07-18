@@ -1,266 +1,215 @@
-# INFORME ADVERSARIAL PARA CLAUDE
 
-## Primera publicación de editorialia.com — GraphRec
-
-**Objeto:** auditoría de la ficha crítica en formato WordPress.
-**Estado:** APTO CON REPAROS QUIRÚRGICOS.
-**Fuera de este informe:** inserción del abstract literal e incorporación de la imagen con R0 y QR, que realizará el director.
-
----
-
-## 1. Estructura general
-
-La estructura es apta.
-
-Funciona correctamente la separación entre:
-
-* dato del artículo;
-* material incorporado;
-* lectura;
-* conclusión crítica;
-* tipo de afirmación;
-* exposición.
-
-También es adecuada la declaración inicial de alcance:
-
-> This is not peer review. No proof has been checked, no experiment reproduced, no result validated.
-
-La ficha no pretende validar resultados ni reproducir experimentos. Audita correspondencia entre afirmaciones y soporte.
-
----
-
-## 2. Unidad 1 — APTA
-
-La primera unidad es documentalmente sólida.
-
-El artículo declara una muestra de 94 trabajos y remite la lista completa al repositorio. El archivo `SURVEYED_PAPERS.md` contiene efectivamente 94 entradas, pero sólo títulos. No incluye:
-
-* año;
-* foro;
-* conjunto de datos;
-* identificador;
-* clasificación;
-* procedimiento de búsqueda;
-* criterios de inclusión.
-
-La conclusión es proporcionada:
-
-> What is in neither the article, nor Appendix A, nor the list itself is the classification from which the figure is computed.
-
-No se afirma que el porcentaje sea falso ni que la selección sea incorrecta. Se registra que la clasificación necesaria para reproducir documentalmente el 86,6 % no aparece en el material incorporado.
-
-### Reparación de alcance
-
-No conviene incorporar el repositorio completo como unidad probatoria. La ficha sólo utiliza materialmente `SURVEYED_PAPERS.md`.
-
-Sustituir:
-
-> **Incorporated material**
-> github.com/haoyuhan1/GraphRec · commit `38af2bb5` · consulted 17 July 2026
-
-por:
-
-> **Incorporated material for Unit 1 only**
-> `SURVEYED_PAPERS.md`, repository `haoyuhan1/GraphRec`, commit `38af2bb55984a56f5d1a5d7a41d8d6e7bfe41957`, consulted 17 July 2026.
-
-Y añadir:
-
-> The repository declares no licence of its own. This critique incorporates only the factual contents of `SURVEYED_PAPERS.md` for documentary comparison. It does not reproduce, execute or validate the repository code.
-
----
-
-## 3. Unidad 2 — REFORMULAR
-
-El problema está correctamente visto, pero la conclusión actual equipara en exceso dos niveles distintos.
-
-Ahora dice:
-
-> The title carries the opposite of it: *Reveals*, where Section 4.2 says *could*.
-
-Eso no es exacto.
-
-El artículo observa que la heurística resulta competitiva en determinados bancos de prueba. Ese resultado experimental es el soporte de la expresión *shortcut-solvable*. El `could` de la sección 4.2 modera la explicación causal: las estructuras identificadas podrían explicar el rendimiento.
-
-La ausencia de intervención impide demostrar causalidad, pero no elimina el resultado observado.
-
-### Sustitución propuesta
-
-> **Reading.** Nothing in the paper weakens or removes a shortcut within a fixed benchmark. What varies is the dataset. The evidence is therefore cross-sectional: fourteen benchmarks with different properties, together with an association between those properties and the relative performance of the heuristic.
->
-> **Critical conclusion.** The experiments establish that the heuristic is competitive on the evaluated benchmarks. What they do not establish by intervention is that the three proposed structures are the causes of that performance. The front matter compresses those two levels: observed shortcut-solvability and a potential explanation of it.
-
-Tabla:
-
-> **Claim type:** Observed result followed by a causal interpretation not tested by intervention.
-> **Exposure:** Low. The distinction is present in the article itself.
-
----
-
-## 4. Unidad 3 — REFORMULAR
-
-La versión actual dice:
-
-> A property named as belonging to the benchmark is measured through a constant the authors chose.
-
-La afirmación es demasiado fuerte.
-
-La ramificación media es una propiedad calculada sobre el grafo de transición. No depende del presupuesto de recuperación. Lo que sí depende del presupuesto fijo es la capacidad de la heurística para explotar esa estructura.
-
-Debe separarse:
-
-* propiedad del conjunto;
-* respuesta de la sonda bajo unas constantes elegidas.
-
-### Sustitución propuesta
-
-> **Reading.** Average out-degree is a property of the constructed transition graph, independent of the retrieval budget. Whether that property makes TGH effective is nevertheless evaluated through fixed budgets chosen by the authors. The diagnosis therefore combines a dataset statistic with the response of one deliberately fixed probe.
->
-> **Critical conclusion.** “Shortcut-solvable” is supported relative to the diagnostic family and fixed operating conditions tested here. The article discloses that boundary; the compact label does not carry it.
-
-Tabla:
-
-> **Claim type:** Reading of this critique, grounded in the article’s definitions and limitations.
-> **Exposure:** Medium. The facts are the article’s; the restriction of scope is an inference.
-
----
-
-## 5. Unidad 4 — CORREGIR UNA AFIRMACIÓN MATERIAL
-
-La frase:
-
-> a pretrained language model that the heuristic does not train and does not describe
-
-no debe permanecer.
-
-El artículo sí identifica el modelo de lenguaje preentrenado y describe su función como generador de representaciones textuales compartidas entre los métodos que utilizan texto.
-
-La cuestión crítica válida no es que la dependencia esté oculta, sino que la simplicidad de la heurística no equivale a simplicidad del conjunto completo de dependencias.
-
-### Sustitución propuesta
-
-> **Reading.** The dependency is stated plainly and the reason for sharing it across methods is sound. The heuristic does not train the text encoder, but its ranking signal depends on representations produced by that pretrained component.
->
-> **Critical conclusion.** The method is simple as a trainable recommendation architecture: it fits no parameters of its own. Its complete computational stack is not correspondingly simple, because its ranking signal inherits a pretrained text encoder.
-
-Tabla:
-
-> **Claim type:** Title against the complete dependency stack.
-> **Exposure:** Low. The dependency is explicitly declared.
-
----
-
-## 6. Unidad 5 — APTA
-
-La quinta unidad mantiene una distinción correcta:
-
-* los autores reprodujeron las referencias;
-* siguieron configuraciones descritas por los trabajos originales;
-* la ficha no ha ejecutado esas reproducciones;
-* no se afirma que sean deficientes.
-
-La lectura:
-
-> The supported claim is that the heuristic beats these implementations under this protocol, not that it beats the numbers those methods published.
-
-es válida y suficientemente prudente.
-
-No necesita reparación material.
-
----
-
-## 7. Cierre general — REFORMULAR
-
-El cierre actual afirma:
-
-> The distance this ficha registers is not between the argument and the evidence. There the article holds.
-
-Esto contradice parcialmente la Unidad 1 y reduce demasiado el alcance de las Unidades 2 y 3.
-
-No hay un fracaso general del argumento, pero sí existen diferencias entre:
-
-* el resultado compacto que viaja;
-* sus condiciones de interpretación;
-* el soporte documental disponible para la cifra nuclear.
-
-### Sustitución propuesta
-
-> The distance registered here is not a wholesale failure of the article’s argument. Its experimental result is stated, bounded and qualified in the body. The material distance lies between the compact claims that travel — the title, the abstract and the 86.6% anchor — and the fuller conditions or documentary support needed to read them at their exact strength.
-
-Puede conservarse el párrafo final de recomendación:
-
-> This article is recommended here because it declares its own frontier instead of immunising itself against it, and because it audits a consensus instead of adding a layer to it.
-
----
-
-## 8. Metadato R0 visible en la página 3
-
-La ficha muestra:
-
-```html
-<meta name="r0identifier" content="b621309bd8d28cda43682baaeb45707f" />
-```
-
-Pero el sitio emite materialmente:
-
-```html
-<meta name="citation_r0" content="b621309bd8d28cda43682baaeb45707f" />
-```
-
-Debe mostrarse la etiqueta real:
-
-```html
-<meta name="citation_r0" content="b621309bd8d28cda43682baaeb45707f" />
-```
-
-El R0, R1, R2 y R3 de la ficha son coherentes entre sí.
-
----
-
-## 9. Advertencias heredadas de la página 2
-
-El bloque histórico contiene afirmaciones que no encajan limpiamente con esta publicación CC BY 4.0.
-
-En particular:
-
-> to ensure private use without commercial purposes
-
-no describe la licencia CC BY 4.0, que no excluye el uso comercial.
-
-También se afirma que no se proporcionan enlaces hipertextuales «en general», aunque la propia ficha incluye enlaces DOI y de contacto.
-
-No es necesario rehacer ahora toda la página 2, pero estas advertencias no deben presentarse como interpretación de la licencia específica del artículo.
-
-Reparación mínima:
-
-> The paper is identified as CC BY 4.0. Any reuse must comply with that licence and with the attribution, licence notice and indication-of-changes requirements applicable to the material used.
-
-Las advertencias generales del sitio pueden permanecer como política editorial histórica, pero separadas de la licencia concreta del paper.
-
----
-
-# Dictamen final
-
-## APTO CON REPAROS QUIRÚRGICOS
-
-Antes de publicar:
-
-1. restringir el material incorporado a `SURVEYED_PAPERS.md`;
-2. reformular la Unidad 2;
-3. reformular la Unidad 3;
-4. corregir la Unidad 4;
-5. mantener la Unidad 5;
-6. sustituir el cierre general;
-7. cambiar `r0identifier` por `citation_r0`;
-8. separar la licencia CC BY 4.0 de las advertencias históricas generales.
-
-No se cuestionan:
-
-* la arquitectura WordPress;
-* la estructura de tres niveles;
-* el R0;
-* la ficha registral;
-* el orden de páginas;
-* el abstract, que insertará el director;
-* la imagen y el QR, que preparará el director.
-
-Tras estas reparaciones procede la lectura final ya renderizada en WordPress.
+<!DOCTYPE html><html lang="en" data-reactroot=""><head><meta charSet="utf-8"/><link rel="alternate" type="application/rss+xml" title="Backcover · The Bible of AI ™ OpenScience RSS Feed" href="https://www.openscience.online/rss.xml"/><title>Backcover · The Bible of AI ™ OpenScience</title><meta property="og:title" content="Backcover · The Bible of AI ™ OpenScience"/><meta name="twitter:title" content="Backcover · The Bible of AI ™ OpenScience"/><meta name="twitter:image:alt" content="Backcover · The Bible of AI ™ OpenScience"/><meta name="citation_title" content="Backcover · The Bible of AI ™ OpenScience"/><meta name="dc.title" content="Backcover · The Bible of AI ™ OpenScience"/><meta property="og:site_name" content="The Bible of AI ™ OpenScience"/><meta name="citation_journal_title" content="The Bible of AI ™ OpenScience"/><meta property="og:url" content="https://www.openscience.online/blog"/><meta property="og:type" content="website"/><meta property="og:image" content="https://assets.pubpub.org/c36973002-5bfe-424c-ac44-05adf592337f/u5c171e98-4ccc-413d-9507-50dcd76a5e3f/logo_AIeñ-71784121753615.png"/><meta property="og:image:url" content="https://assets.pubpub.org/c36973002-5bfe-424c-ac44-05adf592337f/u5c171e98-4ccc-413d-9507-50dcd76a5e3f/logo_AIeñ-71784121753615.png"/><meta property="og:image:width" content="500"/><meta name="twitter:image" content="https://assets.pubpub.org/c36973002-5bfe-424c-ac44-05adf592337f/u5c171e98-4ccc-413d-9507-50dcd76a5e3f/logo_AIeñ-71784121753615.png"/><link rel="icon" type="image/png" sizes="256x256" href="https://assets.pubpub.org/c36973002-5bfe-424c-ac44-05adf592337f/u5c171e98-4ccc-413d-9507-50dcd76a5e3f/logo_AIeñ-41784098751119.png"/><meta property="fb:app_id" content="924988584221879"/><meta name="twitter:card" content="summary"/><meta name="twitter:site" content="@pubpub"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="google-site-verification" content="jmmJFnkSOeIEuS54adOzGMwc0kwpsa8wQ-L4GyPpPDg"/><link rel="preconnect" href="https://assets.pubpub.org" crossorigin=""/><link rel="stylesheet" href="https://assets.pubpub.org/_fonts/8da286c6/fonts.css"/><link rel="stylesheet" type="text/css" href="/dist/main.f0fbe2120c0ac64e30a1.css"/><style type="text/css">/* =============================================================
+   openscience.online — CSS
+     1) Tarjetas Medium: imagen arriba, ancha, sin recorte
+     2) Portada: panel RSS en columna izquierda
+   La rejilla se activa SOLO con el iframe cuya URL contiene
+   "panel-rss". Cualquier otro iframe queda a ancho completo.
+   Si algo falla: borra todo esto. El Dashboard nunca se ve afectado.
+   ============================================================= */
+
+
+/* -------------------------------------------------------------
+   1) TARJETAS MEDIUM
+   ------------------------------------------------------------- */
+
+.pub-preview-component.medium-preview {
+  flex-direction: column;
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+.pub-preview-component.medium-preview .preview-image-wrapper {
+  width: 100%;
+  height: auto !important;
+  border-right: 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.pub-preview-component.medium-preview .preview-image-wrapper .preview-image-component {
+  height: 0;
+  padding-bottom: 52.33%;
+  background-size: cover;
+}
+
+.pub-preview-component.medium-preview .content-wrapper {
+  width: 100%;
+}
+
+.pub-preview-component.medium-preview .content {
+  max-height: none;
+}
+
+.pub-preview-component.medium-preview:not(.expanded) .content:after {
+  display: none;
+}
+
+.pub-preview-component.medium-preview .description {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+
+/* -------------------------------------------------------------
+   2) DOS COLUMNAS — SOLO EL PANEL DE RSS
+   ------------------------------------------------------------- */
+
+@media (min-width: 1000px) {
+
+  #main-content > .layout-component:has(.layout-html-component iframe[src*="panel-rss"]) {
+    display: grid;
+    grid-template-columns: 320px minmax(0, 1fr);
+    column-gap: 28px;
+    align-items: start;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  #main-content > .layout-component:has(.layout-html-component iframe[src*="panel-rss"]) > * {
+    grid-column: 2;
+  }
+
+  #main-content > .layout-component:has(.layout-html-component iframe[src*="panel-rss"])
+    > .layout-html-component:has(iframe[src*="panel-rss"]) {
+    grid-column: 1;
+    grid-row: 1 / span 50;
+    position: sticky;
+    top: 16px;
+  }
+
+  #main-content > .layout-component:has(.layout-html-component iframe[src*="panel-rss"])
+    > .layout-html-component:has(iframe[src*="panel-rss"]) iframe {
+    height: calc(100vh - 32px);
+    min-height: 0;
+  }
+
+  #main-content > .layout-component:has(.layout-html-component iframe[src*="panel-rss"])
+    .block-content > .container {
+    max-width: none;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}</style><link rel="search" type="application/opensearchdescription+xml" title="The Bible of AI ™ OpenScience" href="/opensearch.xml"/></head><body class="layout-body-wrapper active-page-blog user-logged-in user-member user-permission-admin"><script>0</script><div id="root"><div id="app" class=""><style type="text/css">:root { 
+			--community-accent-dark: #946b26;
+			--community-accent-dark-faded-30: rgb(148, 114, 57);
+			--community-accent-dark-faded: rgba(148, 107, 38, 0.050000000000000044);
+		}</style><style>
+			.accent-background { background-color: #946b26; }
+			.accent-color { color: #FFFFFF; }
+			.accent-background.header-component, .accent-background.nav-bar-component, .accent-background.footer-component, .accent-background.nav-item-background, .accent-background.image-wrapper{ background-color: #53290d; }
+			.accent-color.header-component, .accent-color.nav-bar-component, .accent-color.footer-component, .accent-color.nav-item { color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined) { background-color: rgba(148, 107, 38, 0.6); color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined):hover:not(.bp3-disabled) { background-color: rgba(148, 107, 38, 0.8); color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined):active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: #946b26; color: #FFFFFF; }
+
+			.bp3-button.bp3-intent-primary.bp3-outlined { border-color: #946b26; color: #946b26; }
+			.bp3-button.bp3-intent-primary.bp3-outlined:hover:not(.bp3-disabled) { background-color: rgba(148, 107, 38, 0.09999999999999998); color: #946b26; }
+			.bp3-button.bp3-intent-primary.bp3-outlined:active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: rgba(148, 107, 38, 0.19999999999999996); color: #946b26; }
+
+			.bp3-tree-node.bp3-tree-node-selected > .bp3-tree-node-content { background-color: #946b26; }
+
+			.bp3-tag.bp3-intent-primary { background: #946b26; color: #FFFFFF; }
+			.bp3-tag.bp3-minimal.bp3-intent-primary { background-color: rgba(148, 107, 38, 0.09999999999999998); color: inherit; }
+			.accent-color .bp3-button:not([class*="bp3-intent-primary"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-success"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-warning"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-danger"]),
+			.accent-color .bp3-button[class*="bp3-icon"]::before { color: inherit; }
+			.accent-color a, .accent-color a:hover { color: inherit; }
+			.bp3-tab[aria-selected="true"], .bp3-tab:not([aria-selected="true"]):hover { box-shadow: inset 0 -3px 0 rgba(148, 107, 38, 0.09999999999999998); }
+			.bp3-tab[aria-selected="true"] { box-shadow: inset 0 -3px 0 #946b26; }
+			.thread:hover:after { background-color: #946b26; }
+			.bp3-slider-progress.bp3-intent-primary, .bp3-dark .bp3-slider-progress.bp3-intent-primary { background: #946b26; }
+			.bp3-slider-handle .bp3-slider-label { background: #946b26; color: #FFFFFF; }
+			.highlight-dot-wrapper .highlight-dot { background-color: #946b26; }
+
+			.changelog-callout { background: rgba(148, 107, 38, 0.09999999999999998) !important; }
+			.changelog-callout .release-label { color: #946b26; border: 1px dashed #946b26; }
+
+			span.citation:hover { color: #946b26; }
+
+			.overflow-gradient { background: linear-gradient(90deg, rgba(83, 41, 13, 0) 0%,  rgba(83, 41, 13, 0) 85%,  #53290d 100%); }
+
+			
+			
+		</style><a href="#main-content" tabindex="0" class="skip-link-component tab-to-show-component">Skip to main content</a><header class="header-component  accent-background accent-color"><div class="main"><div class="container "><div class="row"><div class="col-12 main-content"><div class="logo-wrapper"><a href="/" aria-label="The Bible of AI ™ OpenScience"><img alt="" src="https://assets.pubpub.org/c36973002-5bfe-424c-ac44-05adf592337f/u5c171e98-4ccc-413d-9507-50dcd76a5e3f/logo_AIeñ-21784096155753.png?height=50&amp;fit=bounds"/></a></div><div class="global-controls-component"><form style="position:relative;display:flex;align-items:center"><button type="submit" aria-label="Create Pub" class="bp3-button bp3-minimal mobile-aware-component__mobile"><span class="bp3-icon" data-icon="pubdocnew" aria-label="" aria-hidden="true"><svg width="16px" height="16px" viewBox="0 0 11 11"><g><path d="M2.32,2.89H8.68v1.2H2.32Zm0,3.51H7.53V5.21H2.32ZM11,1.16A1.16,1.16,0,0,0,9.84,0H1.16A1.16,1.16,0,0,0,0,1.16V9.84A1.16,1.16,0,0,0,1.16,11H6.63V9.81H1.77a.58.58,0,0,1-.58-.58V1.77a.58.58,0,0,1,.58-.58H9.23a.58.58,0,0,1,.58.58v4.9H11V10a1.42,1.42,0,0,0,0-.2ZM9.83,11V7.59H8.64V11Zm1.11-2.3H7.53V9.89h3.41Z"></path></g></svg></span></button><button type="submit" aria-label="Create Pub" class="bp3-button bp3-large bp3-minimal mobile-aware-component__desktop"><span class="bp3-button-text">Create Pub</span></button><div style="position:absolute;top:100%;left:0;display:flex;gap:6px;padding-top:4px"><input type="text" class="honeypot-input" name="description" tabindex="-1" autoComplete="off" aria-hidden="true"/></div></form><a role="button" href="/search" aria-label="Search" class="bp3-button bp3-minimal mobile-aware-component__mobile" tabindex="0"><span icon="search" class="bp3-icon bp3-icon-search"><svg data-icon="search" width="16" height="16" viewBox="0 0 16 16"><path d="M15.55 13.43l-2.67-2.68a6.94 6.94 0 001.11-3.76c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.39 0 2.68-.42 3.76-1.11l2.68 2.67a1.498 1.498 0 102.12-2.12zm-8.56-1.44c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z" fill-rule="evenodd"></path></svg></span></a><a role="button" href="/search" aria-label="Search" class="bp3-button bp3-large bp3-minimal mobile-aware-component__desktop" tabindex="0"><span class="bp3-button-text">Search</span></a><button type="button" style="display:inline-flex;-webkit-appearance:unset" aria-expanded="false" aria-controls="id-2" aria-haspopup="menu" aria-label="Dashboard menu" class="bp3-button bp3-minimal mobile-aware-component__mobile"><span icon="settings" class="bp3-icon bp3-icon-settings"><svg data-icon="settings" width="16" height="16" viewBox="0 0 16 16"><path d="M3 1c0-.55-.45-1-1-1S1 .45 1 1v3h2V1zm0 4H1c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1h2c.55 0 1-.45 1-1V6c0-.55-.45-1-1-1zm12-4c0-.55-.45-1-1-1s-1 .45-1 1v2h2V1zM9 1c0-.55-.45-1-1-1S7 .45 7 1v6h2V1zM1 15c0 .55.45 1 1 1s1-.45 1-1v-5H1v5zM15 4h-2c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1h2c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zm-2 11c0 .55.45 1 1 1s1-.45 1-1V9h-2v6zM9 8H7c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1h2c.55 0 1-.45 1-1V9c0-.55-.45-1-1-1zm-2 7c0 .55.45 1 1 1s1-.45 1-1v-2H7v2z" fill-rule="evenodd"></path></svg></span></button><button type="button" style="display:inline-flex;-webkit-appearance:unset" aria-expanded="false" aria-controls="id-2" aria-haspopup="menu" aria-label="Dashboard menu" class="bp3-button bp3-large bp3-minimal mobile-aware-component__desktop"><span class="bp3-button-text">Dashboard</span><span icon="caret-down" class="bp3-icon bp3-icon-caret-down"><svg data-icon="caret-down" width="16" height="16" viewBox="0 0 16 16"><desc>caret-down</desc><path d="M12 6.5c0-.28-.22-.5-.5-.5h-7a.495.495 0 00-.37.83l3.5 4c.09.1.22.17.37.17s.28-.07.37-.17l3.5-4c.08-.09.13-.2.13-.33z" fill-rule="evenodd"></path></svg></span></button><button type="button" class="bp3-button bp3-minimal mobile-aware-component__mobile" style="display:inline-flex;-webkit-appearance:unset" aria-expanded="false" aria-controls="id-4" aria-haspopup="menu" aria-label="User menu"><span class="bp3-button-text"><div class="avatar-component" style="width:20px;min-width:20px;height:20px;border-width:0;font-size:8px;background-color:#946b26;z-index:initial;border-radius:50%;background-image:url(&quot;https://assets.pubpub.org/nn4kllk3/31593641890132.jpg?width=50&amp;height=50&amp;fit=cover&quot;)"></div></span></button><button type="button" class="bp3-button bp3-large bp3-minimal mobile-aware-component__desktop" style="display:inline-flex;-webkit-appearance:unset" aria-expanded="false" aria-controls="id-4" aria-haspopup="menu" aria-label="User menu"><span class="bp3-button-text"><div class="avatar-component" style="width:30px;min-width:30px;height:30px;border-width:0;font-size:12px;background-color:#946b26;z-index:initial;border-radius:50%;background-image:url(&quot;https://assets.pubpub.org/nn4kllk3/31593641890132.jpg?width=50&amp;height=50&amp;fit=cover&quot;)"></div></span></button></div></div></div></div></div></header><nav class="nav-bar-component accent-background accent-color"><div class="container "><div class="row"><div class="col-12 "><div class="scrollable-nav"><ul class="nav-list"><li><a href="/"><span class="title">Home</span></a></li><li class="dropdown" style="display:inline-flex;-webkit-appearance:unset" type="button" aria-expanded="false" aria-controls="id-6" aria-haspopup="menu" aria-label="AIeñ"><span class="title">AIeñ</span><span icon="caret-down" class="bp3-icon bp3-icon-caret-down bp3-icon-standard bp3-align-right"><svg data-icon="caret-down" width="16" height="16" viewBox="0 0 16 16"><desc>caret-down</desc><path d="M12 6.5c0-.28-.22-.5-.5-.5h-7a.495.495 0 00-.37.83l3.5 4c.09.1.22.17.37.17s.28-.07.37-.17l3.5-4c.08-.09.13-.2.13-.33z" fill-rule="evenodd"></path></svg></span></li><li class="dropdown" style="display:inline-flex;-webkit-appearance:unset" type="button" aria-expanded="false" aria-controls="id-8" aria-haspopup="menu" aria-label="La Biblia de la IA – The Bible of AI"><span class="title">La Biblia de la IA – The Bible of AI</span><span icon="caret-down" class="bp3-icon bp3-icon-caret-down bp3-icon-standard bp3-align-right"><svg data-icon="caret-down" width="16" height="16" viewBox="0 0 16 16"><desc>caret-down</desc><path d="M12 6.5c0-.28-.22-.5-.5-.5h-7a.495.495 0 00-.37.83l3.5 4c.09.1.22.17.37.17s.28-.07.37-.17l3.5-4c.08-.09.13-.2.13-.33z" fill-rule="evenodd"></path></svg></span></li><li><a href="/authors-publications"><span class="title">Authors&#x27; publications</span></a></li><li class="dropdown" style="display:inline-flex;-webkit-appearance:unset" type="button" aria-expanded="false" aria-controls="id-10" aria-haspopup="menu" aria-label="SV"><span class="title">SV</span><span icon="caret-down" class="bp3-icon bp3-icon-caret-down bp3-icon-standard bp3-align-right"><svg data-icon="caret-down" width="16" height="16" viewBox="0 0 16 16"><desc>caret-down</desc><path d="M12 6.5c0-.28-.22-.5-.5-.5h-7a.495.495 0 00-.37.83l3.5 4c.09.1.22.17.37.17s.28-.07.37-.17l3.5-4c.08-.09.13-.2.13-.33z" fill-rule="evenodd"></path></svg></span></li><li><a href="/blog"><span class="title">Backcover</span></a></li></ul><div class="overflow-gradient"></div></div><ul class="social-list"><li><a href="https://editorialia.com/" aria-label="Website"><span icon="globe" class="bp3-icon bp3-icon-globe"><svg data-icon="globe" width="16" height="16" viewBox="0 0 16 16"><path d="M4.45 7.83c-.26 0-.41.21-.41.46v1.75c0 .26.16.46.41.46h.29v1.77c0 .25.24.45.49.45s.49-.2.49-.45V11.2h-.01c.26 0 .44-.14.44-.4v-.3h.14c.26 0 .43-.2.43-.46v-.59s.01-.01 0-.01l-1.58-1.6h-.69zM8.51 3.9h.22c.06 0 .12-.01.12-.07 0-.06-.05-.07-.12-.07h-.22c-.06 0-.12.01-.12.07.01.06.06.07.12.07zm-2.33-.05c.07-.07.07-.19 0-.26l-.5-.5a.187.187 0 00-.26 0c-.07.07-.07.19 0 .26l.5.5c.07.07.19.07.26 0zm3.06.89c.07 0 .14-.06.14-.12v-.31c0-.07-.07-.12-.14-.12s-.14.06-.14.12v.31c0 .07.07.12.14.12zM8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-.55.1-1.07.23-1.57h.11v.47c0 .2.18.37.39.37.03 0 .08-.01.11-.02l.78.77c.08.08.2.08.28 0 .08-.08.08-.2 0-.28l-.75-.78c0-.02.04-.04.04-.06v-.12c0-.16.09-.22.25-.36h.46c.09 0 .17-.01.24-.05h.02c.02-.01.03-.02.05-.03.01-.01.01-.01.02-.01l.02-.02 1.59-1.58c.18-.18.18-.46 0-.64s-.47-.15-.65.03l-.3.34h-.57v-.48c0-.01.05.05.05-.09h.64c.12 0 .22-.09.22-.21s-.1-.21-.22-.21H4.1c.18-.15.34-.31.54-.44l.01-.01c.21-.14.45-.25.68-.37.15-.07.29-.15.44-.21.17-.07.35-.11.53-.17.18-.05.35-.12.53-.16a6.05 6.05 0 013.47.35c.05.02.1.05.16.08.25.11.48.24.71.39.25.16.49.34.71.55H10.6s0-.03-.01-.03c-.04 0-.09 0-.13.03l-.51.51a.17.17 0 000 .23c.06.06.17.06.23 0l.42-.44.01-.02h.25c0 .14-.07.09-.07.12v.07c0 .22-.15.37-.36.37h-.38c-.19 0-.38.21-.38.4v.17h-.1c-.12 0-.2.06-.2.18v.25h-.23c-.17 0-.3.11-.3.28 0 .17.13.26.3.26.07 0 .14.03.19-.11l.04.01.49-.46h.17l.39.37c.03.03.08.02.12-.01.03-.03.03-.12 0-.15l-.32-.35h.23l.09.12c.18.18.48.17.66-.01l.09-.1h.4c.02 0 .08.05.08.05v.24l-.05-.01h-.36c-.11 0-.21.1-.21.21 0 .11.09.21.21.21h.41v.15c-.14.21-.24.42-.45.42h-.94v-.01l-.44-.44a.47.47 0 00-.66 0l-.42.43v.01H8.6c-.26 0-.49.21-.49.46v.92c0 .26.23.45.49.45h.9c.34.14.57.35.72.69v1.68c0 .26.17.44.42.44h.72c.26 0 .4-.18.4-.44V9l.89-.86.03-.02.02-.01h.03c.07-.08.15-.19.15-.31v-.91c0-.18-.16-.32-.31-.46H13c.01.28.21.42.46.42h.42c.08.37.12.76.12 1.15 0 3.31-2.69 6-6 6zm4.54-4.27c-.1 0-.21.08-.21.18v.57c0 .1.11.18.21.18.1 0 .21-.08.21-.18v-.57c0-.1-.11-.18-.21-.18zM8.37 3.19c0-.25-.2-.42-.46-.42h-.54c-.25 0-.42.18-.42.43 0 .03-.1.04.05.08v.47c0 .15.06.27.21.27s.21-.12.21-.27v-.14h.5c.24 0 .45-.16.45-.42z" fill-rule="evenodd"></path></svg></span></a></li></ul></div></div></div></nav><div id="main-content" tabindex="-1"><div id="" class="layout-component"><div class="layout-html-component"><div class="block-content"><div class="container "><div class="row"><div class="col-12 "><div><iframe src="https://editorialia.com/blog/?panel=1" style="display:block;width:100%;height:4200px;border:1px solid #e2e2e2;border-radius:4px;background:#fff">
+</iframe></div></div></div></div></div></div><div class="layout-html-component"><div class="block-content"><div class="container "><div class="row"><div class="col-12 "><div><div style="max-width:900px;margin:0 auto;font-family:inherit">
+    <span style="flex:1;height:1px;background:linear-gradient(to right, transparent, #d7dee8)"></span>
+    <span style="flex:0 0 auto;width:5px;height:5px;border-radius:50%;background:#c3ccd8"></span>
+    <span style="flex:1;height:1px;background:linear-gradient(to left, transparent, #d7dee8)"></span>
+  </div>
+
+  <p style="font-family:Arial, Helvetica, sans-serif;font-size:0.76rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#6b7280;margin:0 0 10px">
+    Of interest · Science
+  </p>
+
+  <h2 style="font-size:1.7em;line-height:1.3;color:#1a1a1a;font-weight:700;margin:0 0 10px">
+    The Eye of Science: Its Problems, Residuals and Projections
+  </h2>
+
+  <p style="font-size:0.95em;line-height:1.5;color:#555;margin:0 0 22px">
+    A collection published by IA eñ™, the in-house supplement of the parent journal
+    <a href="https://editorialia.com/" target="_blank" rel="noopener noreferrer" style="color:#0f6fc6;text-decoration:none;border-bottom:1px solid rgba(15,111,198,0.35)">La Biblia de la IA — The Bible of AI™</a>.
+  </p>
+
+  <p style="font-size:1.1em;line-height:1.62;color:#222;margin:0 0 22px">
+    <em>Science: Residual Problems and Projections</em>
+    (<em>«CIENCIA: problemas, residuales y proyecciones»</em>) is published in Spanish. It addresses
+    some of the deepest open questions in contemporary science — its unresolved incompatibilities,
+    its residual contradictions and its critical points — through the formal framework of the
+    Vectorial System (SV). Readers who prefer another language can open it on the
+    <a href="https://www.itvia.online/ciencia-problemas-residuales-y-proyecciones" target="_blank" rel="noopener noreferrer">collection's own page</a>
+    and use their browser's built-in translation feature to read the full text in the language of
+    their choice.
+  </p>
+
+  
+    
+      Read more
+    
+    <div style="margin-top:16px">
+      <p style="font-size:1em;line-height:1.65;color:#444;margin-bottom:16px">
+        This collection brings together formulations of the Vectorial System (SV) in
+        which the scientific problem is treated as a formal condition of analysis: the
+        incompatibility is determined, the unabsorbed residual is preserved, and the
+        projection is fixed that allows a verdict of closure, refutation or honest
+        non-closure to be issued within the triad {0,1,U}. Its centre of gravity is the
+        Theory of EVERYTHING and NOTHING, expressed by 𝓔★TODO,SV(ΓU;τ)=0,
+        together with the boundary (μ,λ)=(0,0), the cell K₃ⁿ, the fibrous factual
+        distance and the strong ternary verifier.
+      </p>
+      <p style="font-size:1em;line-height:1.65;color:#444;margin-bottom:16px">
+        From that core, the field and projection formulations are ordered: 𝔉SV=0,
+        UunifSV and 𝓕𝓐=d𝓐+𝓐∧𝓐, with 𝓐=ω⊕A, articulate generating
+        events, protofields, connection, curvature and the Einstein–Bohr reading. In
+        the luminous and electromagnetic domain, light is formulated as a fibrous
+        object ΦLSV, with E=ν·hSV, and Maxwell is condensed into
+        𝔼SV=0: problem, boundary and projection are thus formulated as a structural
+        reduction.
+      </p>
+      <p style="font-size:1em;line-height:1.65;color:#444;margin-bottom:0">
+        The same discipline extends to thermodynamics and to factual entropy, where
+        𝖤thermoSV(Γ,n;θ)=𝔇ΓΩSV·𝖦SV=0 integrates work,
+        heat, force, temperature and enthalpy, while HSV formalises
+        non-decreasing dispersion without turning probability, statistics or external
+        time into a foundation. In the contrast domains, CSV(δ)=−cos δ
+        situates Bell–Tsirelson between CHSH≤2 and 2√2, and the genesis of hydrogen
+        fixes energetic persistence through 𝓟min=𝓕∂−𝒬−ℛΓ.
+      </p>
+    </div>
+  
+
+  <div style="position:relative;width:100%;overflow:hidden;padding-top:75%;border:1px solid #e0e0e0;border-radius:8px">
+    <iframe src="https://www.itvia.online/ciencia-problemas-residuales-y-proyecciones" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" allowfullscreen>
+    </iframe>
+  </div>
+
+  <p style="text-align:center;font-size:0.9em;margin-top:8px;color:#666">
+    If the collection does not display correctly, you can view it directly on
+    <a href="https://www.itvia.online/ciencia-problemas-residuales-y-proyecciones" target="_blank" rel="noopener noreferrer">itvia.online</a>.
+  </p>
+</div></div></div></div></div></div></div></div><div class="footer-component accent-background accent-color"><div class="container "><div class="row"><div class="col-12 "><div class="left"><a href="/"><img src="https://assets.pubpub.org/c36973002-5bfe-424c-ac44-05adf592337f/u5c171e98-4ccc-413d-9507-50dcd76a5e3f/logo_AIeñ-51784096179834.png" class="footer-image" alt="AIeñ"/></a></div><div class="right"><div class="footer-title"><a href="/">AIeñ</a></div><ul class="separated"><li><a class="link" href="">© 2020 - 2026 | BAIOS</a></li><li><a class="link" href="https://editorialia.com/email">Contact</a></li><li><a class="link" href="https://www.openscience.online/the-bible-of-ai-open-science">About  AIeñ</a></li><li><a class="link" href="https://www.cedro.org/english?lng=en">Member of Cedro</a></li><li><a class="link" href="https://web.archive.org/web/20260000000000*/https://www.openscience.online/">Historical records</a></li><li><a class="link" href="https://www.openscience.online/publisher">Publisher</a></li><li><a class="link" href="https://portal.issn.org/resource/ISSN/2695-6411">ISSN 2695-6411</a></li><li><a class="link" href="https://web.archive.org/web/20200715193000/https://www.openscience.online/">Founded on 15 July 2020</a></li><li><a class="link" href="https://www.bibsonomy.org/user/thebibleofai">BibSonomy</a></li><li><a class="link" href="https://flipboard.com/@thebibleofai/academic-ai-la-biblia-de-la-ia---the-bible-of-ai-journal-issn-2695-6411-33aj4uedy">Flipboard</a></li><li><a class="link" href="/rss.xml">RSS</a></li><li><a class="link" href="/legal">Legal</a></li></ul><ul class="social-list"><li><a href="https://editorialia.com/" aria-label="Website"><span icon="globe" class="bp3-icon bp3-icon-globe"><svg data-icon="globe" width="16" height="16" viewBox="0 0 16 16"><path d="M4.45 7.83c-.26 0-.41.21-.41.46v1.75c0 .26.16.46.41.46h.29v1.77c0 .25.24.45.49.45s.49-.2.49-.45V11.2h-.01c.26 0 .44-.14.44-.4v-.3h.14c.26 0 .43-.2.43-.46v-.59s.01-.01 0-.01l-1.58-1.6h-.69zM8.51 3.9h.22c.06 0 .12-.01.12-.07 0-.06-.05-.07-.12-.07h-.22c-.06 0-.12.01-.12.07.01.06.06.07.12.07zm-2.33-.05c.07-.07.07-.19 0-.26l-.5-.5a.187.187 0 00-.26 0c-.07.07-.07.19 0 .26l.5.5c.07.07.19.07.26 0zm3.06.89c.07 0 .14-.06.14-.12v-.31c0-.07-.07-.12-.14-.12s-.14.06-.14.12v.31c0 .07.07.12.14.12zM8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-.55.1-1.07.23-1.57h.11v.47c0 .2.18.37.39.37.03 0 .08-.01.11-.02l.78.77c.08.08.2.08.28 0 .08-.08.08-.2 0-.28l-.75-.78c0-.02.04-.04.04-.06v-.12c0-.16.09-.22.25-.36h.46c.09 0 .17-.01.24-.05h.02c.02-.01.03-.02.05-.03.01-.01.01-.01.02-.01l.02-.02 1.59-1.58c.18-.18.18-.46 0-.64s-.47-.15-.65.03l-.3.34h-.57v-.48c0-.01.05.05.05-.09h.64c.12 0 .22-.09.22-.21s-.1-.21-.22-.21H4.1c.18-.15.34-.31.54-.44l.01-.01c.21-.14.45-.25.68-.37.15-.07.29-.15.44-.21.17-.07.35-.11.53-.17.18-.05.35-.12.53-.16a6.05 6.05 0 013.47.35c.05.02.1.05.16.08.25.11.48.24.71.39.25.16.49.34.71.55H10.6s0-.03-.01-.03c-.04 0-.09 0-.13.03l-.51.51a.17.17 0 000 .23c.06.06.17.06.23 0l.42-.44.01-.02h.25c0 .14-.07.09-.07.12v.07c0 .22-.15.37-.36.37h-.38c-.19 0-.38.21-.38.4v.17h-.1c-.12 0-.2.06-.2.18v.25h-.23c-.17 0-.3.11-.3.28 0 .17.13.26.3.26.07 0 .14.03.19-.11l.04.01.49-.46h.17l.39.37c.03.03.08.02.12-.01.03-.03.03-.12 0-.15l-.32-.35h.23l.09.12c.18.18.48.17.66-.01l.09-.1h.4c.02 0 .08.05.08.05v.24l-.05-.01h-.36c-.11 0-.21.1-.21.21 0 .11.09.21.21.21h.41v.15c-.14.21-.24.42-.45.42h-.94v-.01l-.44-.44a.47.47 0 00-.66 0l-.42.43v.01H8.6c-.26 0-.49.21-.49.46v.92c0 .26.23.45.49.45h.9c.34.14.57.35.72.69v1.68c0 .26.17.44.42.44h.72c.26 0 .4-.18.4-.44V9l.89-.86.03-.02.02-.01h.03c.07-.08.15-.19.15-.31v-.91c0-.18-.16-.32-.31-.46H13c.01.28.21.42.46.42h.42c.08.37.12.76.12 1.15 0 3.31-2.69 6-6 6zm4.54-4.27c-.1 0-.21.08-.21.18v.57c0 .1.11.18.21.18.1 0 .21-.08.21-.18v-.57c0-.1-.11-.18-.21-.18zM8.37 3.19c0-.25-.2-.42-.46-.42h-.54c-.25 0-.42.18-.42.43 0 .03-.1.04.05.08v.47c0 .15.06.27.21.27s.21-.12.21-.27v-.14h.5c.24 0 .45-.16.45-.42z" fill-rule="evenodd"></path></svg></span></a></li></ul></div></div></div></div><div class="built-on"><a href="https://www.pubpub.org">Published with<img class="logo" src="/static/logoBlack.svg" alt="PubPub logo"/></a></div></div></div></div><script crossorigin="anonymous" src="https://polyfill-fastly.io/v3/polyfill.min.js?features=default,fetch,HTMLCanvasElement.prototype.toBlob,Node.prototype.contains,Array.prototype.find,Array.from,Number.isNaN,Object.assign,Object.entries,Object.values,Promise,requestIdleCallback,String.prototype.includes,URL,URLSearchParams"></script><script id="initial-data" type="text/plain" data-json="{&quot;communityData&quot;:{&quot;id&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;subdomain&quot;:&quot;thebibleofai&quot;,&quot;domain&quot;:&quot;www.openscience.online&quot;,&quot;title&quot;:&quot;The Bible of AI ™ OpenScience&quot;,&quot;citeAs&quot;:&quot;La Biblia de la IA – The Bible of AI™&quot;,&quot;publishAs&quot;:&quot;The Bible of AI ™&quot;,&quot;description&quot;:&quot;International scientific and technical publication on Artificial Intelligence | ISSN 2695-6411 | Founded in September, 2019&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/c36973002-5bfe-424c-ac44-05adf592337f/u5c171e98-4ccc-413d-9507-50dcd76a5e3f/logo_AIeñ-71784121753615.png&quot;,&quot;favicon&quot;:&quot;https://assets.pubpub.org/c36973002-5bfe-424c-ac44-05adf592337f/u5c171e98-4ccc-413d-9507-50dcd76a5e3f/logo_AIeñ-41784098751119.png&quot;,&quot;accentColorLight&quot;:&quot;#53290d&quot;,&quot;accentColorDark&quot;:&quot;#946b26&quot;,&quot;hideCreatePubButton&quot;:true,&quot;headerLogo&quot;:&quot;https://assets.pubpub.org/c36973002-5bfe-424c-ac44-05adf592337f/u5c171e98-4ccc-413d-9507-50dcd76a5e3f/logo_AIeñ-21784096155753.png&quot;,&quot;headerLinks&quot;:null,&quot;headerColorType&quot;:&quot;light&quot;,&quot;useHeaderTextAccent&quot;:false,&quot;hideHero&quot;:false,&quot;hideHeaderLogo&quot;:false,&quot;heroLogo&quot;:null,&quot;heroBackgroundImage&quot;:null,&quot;heroBackgroundColor&quot;:&quot;#50311c&quot;,&quot;heroTextColor&quot;:&quot;#FFFFFF&quot;,&quot;useHeaderGradient&quot;:false,&quot;heroImage&quot;:null,&quot;heroTitle&quot;:&quot;AIeñ&quot;,&quot;heroText&quot;:&quot;The Bible of AI ™ OpenScience&quot;,&quot;heroPrimaryButton&quot;:{&quot;url&quot;:&quot;https://www.openscience.online/announcements-from-the-bible-of-ai-open-science&quot;,&quot;title&quot;:&quot;Announcements&quot;},&quot;heroSecondaryButton&quot;:{&quot;url&quot;:&quot;https://www.openscience.online/press-room&quot;,&quot;title&quot;:&quot;Press Room&quot;},&quot;heroAlign&quot;:&quot;left&quot;,&quot;navigation&quot;:[{&quot;id&quot;:&quot;1e855260-6966-4b4c-8b15-76ad926bb1ee&quot;,&quot;type&quot;:&quot;page&quot;},{&quot;id&quot;:&quot;x8jx3vhq&quot;,&quot;title&quot;:&quot;AIeñ&quot;,&quot;children&quot;:[{&quot;id&quot;:&quot;1b643282-466a-49cb-a0c7-cedf009d7402&quot;,&quot;type&quot;:&quot;collection&quot;},{&quot;id&quot;:&quot;42c84397-ed2e-48ec-8639-dac631c7a151&quot;,&quot;type&quot;:&quot;collection&quot;},{&quot;id&quot;:&quot;a2d9cfcc-a6d5-4a16-a1b4-31344aff1672&quot;,&quot;type&quot;:&quot;page&quot;},{&quot;id&quot;:&quot;bc67ac9a-5564-4d55-919c-8aef4c8631f0&quot;,&quot;type&quot;:&quot;collection&quot;},{&quot;id&quot;:&quot;b1049882-fdf8-43ab-a730-8143bbbe246a&quot;,&quot;type&quot;:&quot;collection&quot;},{&quot;id&quot;:&quot;1da3ec15-79e8-41c7-8748-21c22994a5f6&quot;,&quot;type&quot;:&quot;page&quot;},{&quot;id&quot;:&quot;4f135dc8-09ee-4f73-b728-b32b8d8a4359&quot;,&quot;type&quot;:&quot;page&quot;},{&quot;id&quot;:&quot;4ii5hdb2&quot;,&quot;href&quot;:&quot;https://editorialia.com/email/&quot;,&quot;title&quot;:&quot;Contact&quot;}]},{&quot;id&quot;:&quot;w5xwace5&quot;,&quot;title&quot;:&quot;La Biblia de la IA – The Bible of AI&quot;,&quot;children&quot;:[{&quot;id&quot;:&quot;a53f5f28-6285-4260-af20-6d399f565c4c&quot;,&quot;type&quot;:&quot;collection&quot;}]},{&quot;id&quot;:&quot;c06b7e3a-7a3b-4faf-a36d-37bc43f04823&quot;,&quot;type&quot;:&quot;collection&quot;},{&quot;id&quot;:&quot;8tlrpshf&quot;,&quot;title&quot;:&quot;SV&quot;,&quot;children&quot;:[{&quot;id&quot;:&quot;35bc9295-3059-4acd-bb3c-f4cfad4dbedc&quot;,&quot;type&quot;:&quot;collection&quot;},{&quot;id&quot;:&quot;8cc3f644-d95e-4055-baa6-1f6d4626e7d2&quot;,&quot;type&quot;:&quot;collection&quot;}]},{&quot;id&quot;:&quot;f8a783e2-f0a2-473f-b727-0848353dad4d&quot;,&quot;type&quot;:&quot;page&quot;}],&quot;hideNav&quot;:false,&quot;navLinks&quot;:null,&quot;footerLinks&quot;:[{&quot;id&quot;:&quot;yaam1hj6&quot;,&quot;href&quot;:&quot;&quot;,&quot;title&quot;:&quot;© 2020 - 2026 | BAIOS&quot;},{&quot;id&quot;:&quot;tl5v83wx&quot;,&quot;href&quot;:&quot;https://editorialia.com/email&quot;,&quot;title&quot;:&quot;Contact&quot;},{&quot;id&quot;:&quot;2w97zxg4&quot;,&quot;href&quot;:&quot;https://www.openscience.online/the-bible-of-ai-open-science&quot;,&quot;title&quot;:&quot;About  AIeñ&quot;},{&quot;id&quot;:&quot;ancjmycb&quot;,&quot;href&quot;:&quot;https://www.cedro.org/english?lng=en&quot;,&quot;title&quot;:&quot;Member of Cedro&quot;},{&quot;id&quot;:&quot;mfgn4cax&quot;,&quot;href&quot;:&quot;https://web.archive.org/web/20260000000000*/https://www.openscience.online/&quot;,&quot;title&quot;:&quot;Historical records&quot;},{&quot;id&quot;:&quot;iju8sew5&quot;,&quot;href&quot;:&quot;https://www.openscience.online/publisher&quot;,&quot;title&quot;:&quot;Publisher&quot;},{&quot;id&quot;:&quot;t1u3lk55&quot;,&quot;href&quot;:&quot;https://portal.issn.org/resource/ISSN/2695-6411&quot;,&quot;title&quot;:&quot;ISSN 2695-6411&quot;},{&quot;id&quot;:&quot;scvfusf5&quot;,&quot;href&quot;:&quot;https://web.archive.org/web/20200715193000/https://www.openscience.online/&quot;,&quot;title&quot;:&quot;Founded on 15 July 2020&quot;},{&quot;id&quot;:&quot;6rflfx1j&quot;,&quot;href&quot;:&quot;https://www.bibsonomy.org/user/thebibleofai&quot;,&quot;title&quot;:&quot;BibSonomy&quot;},{&quot;id&quot;:&quot;1sru7s4j&quot;,&quot;href&quot;:&quot;https://flipboard.com/@thebibleofai/academic-ai-la-biblia-de-la-ia---the-bible-of-ai-journal-issn-2695-6411-33aj4uedy&quot;,&quot;title&quot;:&quot;Flipboard&quot;},{&quot;id&quot;:&quot;rss&quot;,&quot;href&quot;:&quot;/rss.xml&quot;,&quot;title&quot;:&quot;RSS&quot;},{&quot;id&quot;:&quot;legal&quot;,&quot;href&quot;:&quot;/legal&quot;,&quot;title&quot;:&quot;Legal&quot;}],&quot;footerLogoLink&quot;:null,&quot;footerTitle&quot;:&quot;AIeñ&quot;,&quot;footerImage&quot;:&quot;https://assets.pubpub.org/c36973002-5bfe-424c-ac44-05adf592337f/u5c171e98-4ccc-413d-9507-50dcd76a5e3f/logo_AIeñ-51784096179834.png&quot;,&quot;website&quot;:&quot;https://editorialia.com/&quot;,&quot;facebook&quot;:&quot;&quot;,&quot;twitter&quot;:&quot;&quot;,&quot;instagram&quot;:null,&quot;mastodon&quot;:null,&quot;linkedin&quot;:null,&quot;bluesky&quot;:null,&quot;github&quot;:null,&quot;email&quot;:&quot;&quot;,&quot;socialLinksLocation&quot;:null,&quot;issn&quot;:null,&quot;isFeatured&quot;:null,&quot;viewHash&quot;:null,&quot;editHash&quot;:null,&quot;premiumLicenseFlag&quot;:false,&quot;defaultPubCollections&quot;:[&quot;d85b1a69-4e74-4b72-ba18-daf50e4b2643&quot;],&quot;analyticsSettings&quot;:null,&quot;spamTagId&quot;:&quot;c8e0f39e-5ec7-4a36-9daa-3d70886dd14a&quot;,&quot;scopeSummaryId&quot;:&quot;50b928a5-158c-4a09-8288-f872fdb52b27&quot;,&quot;templateId&quot;:null,&quot;kfOrgId&quot;:&quot;df0b817b-2d87-435e-8e07-af099b7ea2db&quot;,&quot;createdAt&quot;:&quot;2020-06-30T22:39:40.082Z&quot;,&quot;updatedAt&quot;:&quot;2026-07-17T19:29:43.783Z&quot;,&quot;scopeSummary&quot;:{&quot;id&quot;:&quot;50b928a5-158c-4a09-8288-f872fdb52b27&quot;,&quot;collections&quot;:20,&quot;pubs&quot;:15,&quot;discussions&quot;:9,&quot;reviews&quot;:14,&quot;submissions&quot;:0,&quot;createdAt&quot;:&quot;2021-04-26T16:49:35.598Z&quot;,&quot;updatedAt&quot;:&quot;2026-07-15T18:23:34.832Z&quot;},&quot;spamTag&quot;:{&quot;id&quot;:&quot;c8e0f39e-5ec7-4a36-9daa-3d70886dd14a&quot;,&quot;status&quot;:&quot;confirmed-not-spam&quot;,&quot;statusUpdatedAt&quot;:&quot;2022-12-16T03:04:42.791Z&quot;,&quot;fields&quot;:{},&quot;spamScore&quot;:0,&quot;spamScoreComputedAt&quot;:&quot;2026-07-17T19:29:43.796Z&quot;,&quot;spamScoreVersion&quot;:1,&quot;approvalRequestedAt&quot;:null,&quot;approvalRequestMessage&quot;:null,&quot;approvalRequestedByUserId&quot;:null,&quot;createdAt&quot;:&quot;2022-12-07T19:10:40.095Z&quot;,&quot;updatedAt&quot;:&quot;2026-07-17T19:29:43.796Z&quot;},&quot;pages&quot;:[{&quot;id&quot;:&quot;1b9f68c5-3ad6-476f-817b-a98ef2dc395e&quot;,&quot;title&quot;:&quot;Get involved&quot;,&quot;slug&quot;:&quot;get-involved&quot;,&quot;description&quot;:&quot;Get involved on The Bible of AI ™ OpenScience | International scientific and technical publication on artificial intelligence&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/tuuzn0f9/51594679111188.png&quot;,&quot;isPublic&quot;:false,&quot;isNarrowWidth&quot;:null,&quot;viewHash&quot;:&quot;jp8isaag&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;createdAt&quot;:&quot;2020-07-13T22:23:14.525Z&quot;},{&quot;id&quot;:&quot;9d8ddf0b-5ef2-434f-adf5-ed08b8aa91c9&quot;,&quot;title&quot;:&quot;Plus Ultra&quot;,&quot;slug&quot;:&quot;plus&quot;,&quot;description&quot;:&quot;&quot;,&quot;avatar&quot;:null,&quot;isPublic&quot;:true,&quot;isNarrowWidth&quot;:null,&quot;viewHash&quot;:&quot;g0qhxlga&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;createdAt&quot;:&quot;2021-08-05T11:11:49.056Z&quot;},{&quot;id&quot;:&quot;073d9a5e-09cf-48ba-a7bd-9a378d526926&quot;,&quot;title&quot;:&quot;Medicine&quot;,&quot;slug&quot;:&quot;medicine&quot;,&quot;description&quot;:&quot;Artificial Intelligence in Society, Medicine, Security and Automotive&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/h524xbxl/21593736146960.jpg&quot;,&quot;isPublic&quot;:true,&quot;isNarrowWidth&quot;:null,&quot;viewHash&quot;:&quot;0oems3fj&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;createdAt&quot;:&quot;2020-07-02T12:46:06.990Z&quot;},{&quot;id&quot;:&quot;93efa6bf-cbc0-4eda-a8b6-81112b15966c&quot;,&quot;title&quot;:&quot;Research&quot;,&quot;slug&quot;:&quot;investigation&quot;,&quot;description&quot;:&quot;Research publications in The Bible of AI ™ OpenScience&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/6sthg6dx/31594676460940.png&quot;,&quot;isPublic&quot;:true,&quot;isNarrowWidth&quot;:null,&quot;viewHash&quot;:&quot;iswnczu7&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;createdAt&quot;:&quot;2020-07-13T21:38:01.961Z&quot;},{&quot;id&quot;:&quot;87c81b9b-4220-49f2-a4c0-d5af39f090ad&quot;,&quot;title&quot;:&quot;AI  in Medicine - Vol I&quot;,&quot;slug&quot;:&quot;r0identifier7ba1c277cb9896e4224b3c78a0d32ced&quot;,&quot;description&quot;:&quot;Artificial Intelligence in Medicine | Monograph -Volume I&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/tycxkue4/31594070615807.jpg&quot;,&quot;isPublic&quot;:true,&quot;isNarrowWidth&quot;:null,&quot;viewHash&quot;:&quot;ger6aknt&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;createdAt&quot;:&quot;2020-07-03T14:47:33.749Z&quot;},{&quot;id&quot;:&quot;ce81bf60-78fe-4093-bb93-14cab15dd2b5&quot;,&quot;title&quot;:&quot;Monographs&quot;,&quot;slug&quot;:&quot;monographic&quot;,&quot;description&quot;:&quot;Monographs publised in the Bible of AI&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/nn41965r/31593970825746.jpg&quot;,&quot;isPublic&quot;:false,&quot;isNarrowWidth&quot;:null,&quot;viewHash&quot;:&quot;h5nodju7&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;createdAt&quot;:&quot;2020-07-03T15:09:41.269Z&quot;},{&quot;id&quot;:&quot;605c23b6-05b9-4e5d-b256-6c8029311dfe&quot;,&quot;title&quot;:&quot;Security&quot;,&quot;slug&quot;:&quot;cybersecurity&quot;,&quot;description&quot;:&quot;Artificial Intelligence in Society, Medicine, Security and Automotive&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/dyd9jyuu/71593736105422.jpg&quot;,&quot;isPublic&quot;:true,&quot;isNarrowWidth&quot;:null,&quot;viewHash&quot;:&quot;8r9nh6jz&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;createdAt&quot;:&quot;2020-07-02T12:57:14.742Z&quot;},{&quot;id&quot;:&quot;f8a783e2-f0a2-473f-b727-0848353dad4d&quot;,&quot;title&quot;:&quot;Backcover&quot;,&quot;slug&quot;:&quot;blog&quot;,&quot;description&quot;:&quot;&quot;,&quot;avatar&quot;:null,&quot;isPublic&quot;:true,&quot;isNarrowWidth&quot;:null,&quot;viewHash&quot;:&quot;hhvcjqqo&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;createdAt&quot;:&quot;2026-07-14T23:03:27.224Z&quot;},{&quot;id&quot;:&quot;ca6d8cf6-6d4f-491d-a082-c24546ee412d&quot;,&quot;title&quot;:&quot;Expert&quot;,&quot;slug&quot;:&quot;expert&quot;,&quot;description&quot;:&quot;Expert publications at The Bible of AI ™ OpenScience&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/iklc9k1p/11594678334599.png&quot;,&quot;isPublic&quot;:true,&quot;isNarrowWidth&quot;:null,&quot;viewHash&quot;:&quot;f7eae87w&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;createdAt&quot;:&quot;2020-07-13T22:10:33.555Z&quot;},{&quot;id&quot;:&quot;d1c49df9-77cc-47a5-8bda-82cda363eedc&quot;,&quot;title&quot;:&quot;Automotive&quot;,&quot;slug&quot;:&quot;automotive&quot;,&quot;description&quot;:&quot;Artificial Intelligence in Society, Medicine, Security and Automotive&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/b9uhzjtz/61593735923087.jpg&quot;,&quot;isPublic&quot;:true,&quot;isNarrowWidth&quot;:null,&quot;viewHash&quot;:&quot;asdc9hh9&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;createdAt&quot;:&quot;2020-07-02T12:58:16.941Z&quot;},{&quot;id&quot;:&quot;a2a36492-8357-49b6-ac57-fff59e361207&quot;,&quot;title&quot;:&quot;Transversal&quot;,&quot;slug&quot;:&quot;transversal&quot;,&quot;description&quot;:&quot;Cross-cutting Issues published in the AI Bible&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/vyjhni4y/51593970635600.jpg&quot;,&quot;isPublic&quot;:true,&quot;isNarrowWidth&quot;:false,&quot;viewHash&quot;:&quot;0lxrj5b3&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;createdAt&quot;:&quot;2020-07-02T00:40:55.793Z&quot;},{&quot;id&quot;:&quot;a7475834-b613-4920-96fc-92c3038482a4&quot;,&quot;title&quot;:&quot;Education&quot;,&quot;slug&quot;:&quot;education&quot;,&quot;description&quot;:&quot;Education publications at The Bible of AI ™ OpenScience&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/lj9vme9l/21594677521982.png&quot;,&quot;isPublic&quot;:true,&quot;isNarrowWidth&quot;:null,&quot;viewHash&quot;:&quot;fj4hxg9l&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;createdAt&quot;:&quot;2020-07-13T21:57:25.547Z&quot;},{&quot;id&quot;:&quot;0d40a251-0c45-4626-b911-ff196b859d01&quot;,&quot;title&quot;:&quot;Publisher&quot;,&quot;slug&quot;:&quot;publisher&quot;,&quot;description&quot;:&quot;&quot;,&quot;avatar&quot;:null,&quot;isPublic&quot;:true,&quot;isNarrowWidth&quot;:null,&quot;viewHash&quot;:&quot;khgine78&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;createdAt&quot;:&quot;2026-07-15T09:19:11.696Z&quot;},{&quot;id&quot;:&quot;ec2eae04-2d37-48cf-9370-44a8069e224e&quot;,&quot;title&quot;:&quot;FAQs_old&quot;,&quot;slug&quot;:&quot;faqs-old&quot;,&quot;description&quot;:&quot;Faqs of the publication The Bible of AI&quot;,&quot;avatar&quot;:null,&quot;isPublic&quot;:true,&quot;isNarrowWidth&quot;:null,&quot;viewHash&quot;:&quot;q155lang&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;createdAt&quot;:&quot;2020-07-05T13:50:16.953Z&quot;},{&quot;id&quot;:&quot;a2d9cfcc-a6d5-4a16-a1b4-31344aff1672&quot;,&quot;title&quot;:&quot;Goals&quot;,&quot;slug&quot;:&quot;goals&quot;,&quot;description&quot;:&quot;&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/c36973002-5bfe-424c-ac44-05adf592337f/u5c171e98-4ccc-413d-9507-50dcd76a5e3f/logo_AIeñ-71784123388518.png&quot;,&quot;isPublic&quot;:true,&quot;isNarrowWidth&quot;:null,&quot;viewHash&quot;:&quot;9gg1zpoy&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;createdAt&quot;:&quot;2020-07-06T11:12:42.208Z&quot;},{&quot;id&quot;:&quot;4f135dc8-09ee-4f73-b728-b32b8d8a4359&quot;,&quot;title&quot;:&quot;Submit a Publication&quot;,&quot;slug&quot;:&quot;submit&quot;,&quot;description&quot;:&quot;Artificial Intelligence in Society, Medicine, Security and Automotive&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/sqb8ym4v/41593735283824.jpg&quot;,&quot;isPublic&quot;:true,&quot;isNarrowWidth&quot;:null,&quot;viewHash&quot;:&quot;y8tai6wg&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;createdAt&quot;:&quot;2020-07-01T23:05:59.458Z&quot;},{&quot;id&quot;:&quot;3717ef1c-380a-4108-9077-146e14777004&quot;,&quot;title&quot;:&quot;Sistema Vectorial (SV)&quot;,&quot;slug&quot;:&quot;sistema-vectorial-sv&quot;,&quot;description&quot;:&quot;&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/c36973002-5bfe-424c-ac44-05adf592337f/u5c171e98-4ccc-413d-9507-50dcd76a5e3f/logo_AIeñ-61784191682709.png&quot;,&quot;isPublic&quot;:true,&quot;isNarrowWidth&quot;:true,&quot;viewHash&quot;:&quot;llq9tijv&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;createdAt&quot;:&quot;2020-07-08T22:35:20.189Z&quot;},{&quot;id&quot;:&quot;1e855260-6966-4b4c-8b15-76ad926bb1ee&quot;,&quot;title&quot;:&quot;Home&quot;,&quot;slug&quot;:&quot;&quot;,&quot;description&quot;:&quot;Artificial Intelligence in Society, Medicine, Security and Automotive&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/c36973002-5bfe-424c-ac44-05adf592337f/u5c171e98-4ccc-413d-9507-50dcd76a5e3f/logo_AIeñ-01784104197699.png&quot;,&quot;isPublic&quot;:true,&quot;isNarrowWidth&quot;:false,&quot;viewHash&quot;:&quot;1l6vbvlw&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;createdAt&quot;:&quot;2020-06-30T22:39:40.102Z&quot;},{&quot;id&quot;:&quot;1da3ec15-79e8-41c7-8748-21c22994a5f6&quot;,&quot;title&quot;:&quot;Create Account&quot;,&quot;slug&quot;:&quot;create-account&quot;,&quot;description&quot;:&quot;Artificial Intelligence in Society, Medicine, Security and Automotive&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/jw3vv1oe/01593735220244.jpg&quot;,&quot;isPublic&quot;:true,&quot;isNarrowWidth&quot;:null,&quot;viewHash&quot;:&quot;jsym2s9u&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;createdAt&quot;:&quot;2020-07-02T13:06:43.969Z&quot;}],&quot;collections&quot;:[{&quot;id&quot;:&quot;80e85ebf-f478-4f4c-abce-e5fd830a6ce4&quot;,&quot;title&quot;:&quot;Expert&quot;,&quot;slug&quot;:&quot;expert-collection&quot;,&quot;avatar&quot;:null,&quot;isRestricted&quot;:true,&quot;isPublic&quot;:true,&quot;viewHash&quot;:&quot;kdf5zoaw&quot;,&quot;editHash&quot;:&quot;7htixgmt&quot;,&quot;metadata&quot;:{},&quot;kind&quot;:&quot;tag&quot;,&quot;doi&quot;:null,&quot;readNextPreviewSize&quot;:&quot;choose-best&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;pageId&quot;:&quot;ca6d8cf6-6d4f-491d-a082-c24546ee412d&quot;,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;scopeSummaryId&quot;:&quot;7f6a9828-8b53-4279-b577-57487d74426d&quot;,&quot;crossrefDepositRecordId&quot;:null,&quot;createdAt&quot;:&quot;2020-07-13T22:09:42.177Z&quot;,&quot;updatedAt&quot;:&quot;2021-04-26T16:49:01.630Z&quot;,&quot;members&quot;:[]},{&quot;id&quot;:&quot;a92b6803-4299-4834-abd3-c7fefed3a8a0&quot;,&quot;title&quot;:&quot;Education&quot;,&quot;slug&quot;:&quot;education-collection&quot;,&quot;avatar&quot;:null,&quot;isRestricted&quot;:true,&quot;isPublic&quot;:true,&quot;viewHash&quot;:&quot;n5twtpcl&quot;,&quot;editHash&quot;:&quot;0shgdrm5&quot;,&quot;metadata&quot;:{},&quot;kind&quot;:&quot;tag&quot;,&quot;doi&quot;:null,&quot;readNextPreviewSize&quot;:&quot;choose-best&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;pageId&quot;:&quot;a7475834-b613-4920-96fc-92c3038482a4&quot;,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;scopeSummaryId&quot;:&quot;b1049d0b-0b24-490b-82a9-528aa548baeb&quot;,&quot;crossrefDepositRecordId&quot;:null,&quot;createdAt&quot;:&quot;2020-07-13T21:47:44.452Z&quot;,&quot;updatedAt&quot;:&quot;2021-04-26T16:49:01.627Z&quot;,&quot;members&quot;:[]},{&quot;id&quot;:&quot;463529e0-e90b-4721-8bea-4c330060f8a9&quot;,&quot;title&quot;:&quot;Research&quot;,&quot;slug&quot;:&quot;investigation-collection&quot;,&quot;avatar&quot;:null,&quot;isRestricted&quot;:true,&quot;isPublic&quot;:true,&quot;viewHash&quot;:&quot;ilwcrh6u&quot;,&quot;editHash&quot;:&quot;egop49gl&quot;,&quot;metadata&quot;:{},&quot;kind&quot;:&quot;tag&quot;,&quot;doi&quot;:null,&quot;readNextPreviewSize&quot;:&quot;choose-best&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;pageId&quot;:&quot;93efa6bf-cbc0-4eda-a8b6-81112b15966c&quot;,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;scopeSummaryId&quot;:&quot;382d59c5-4cb9-4605-9a87-83db21b55eab&quot;,&quot;crossrefDepositRecordId&quot;:null,&quot;createdAt&quot;:&quot;2020-07-13T21:36:47.730Z&quot;,&quot;updatedAt&quot;:&quot;2021-04-26T16:49:01.628Z&quot;,&quot;members&quot;:[]},{&quot;id&quot;:&quot;7379d923-b74b-465f-bdcf-51411814058c&quot;,&quot;title&quot;:&quot;Calls&quot;,&quot;slug&quot;:&quot;calls&quot;,&quot;avatar&quot;:null,&quot;isRestricted&quot;:true,&quot;isPublic&quot;:true,&quot;viewHash&quot;:&quot;vnuth2fo&quot;,&quot;editHash&quot;:&quot;scl1zwwd&quot;,&quot;metadata&quot;:{},&quot;kind&quot;:&quot;tag&quot;,&quot;doi&quot;:null,&quot;readNextPreviewSize&quot;:&quot;choose-best&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;pageId&quot;:null,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;scopeSummaryId&quot;:&quot;a670deed-3c0a-4158-b52c-52496f0c93ee&quot;,&quot;crossrefDepositRecordId&quot;:null,&quot;createdAt&quot;:&quot;2020-07-10T08:20:32.839Z&quot;,&quot;updatedAt&quot;:&quot;2021-04-26T16:49:01.411Z&quot;,&quot;members&quot;:[]},{&quot;id&quot;:&quot;0e6af5f3-476a-426d-8499-d7693a1eab43&quot;,&quot;title&quot;:&quot;Private Space&quot;,&quot;slug&quot;:&quot;private-space&quot;,&quot;avatar&quot;:null,&quot;isRestricted&quot;:true,&quot;isPublic&quot;:false,&quot;viewHash&quot;:&quot;l81ffzcs&quot;,&quot;editHash&quot;:&quot;clgtwv7v&quot;,&quot;metadata&quot;:{},&quot;kind&quot;:&quot;tag&quot;,&quot;doi&quot;:null,&quot;readNextPreviewSize&quot;:&quot;choose-best&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;pageId&quot;:null,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;scopeSummaryId&quot;:&quot;fd615158-7aa2-4490-915d-59f918fc37c8&quot;,&quot;crossrefDepositRecordId&quot;:null,&quot;createdAt&quot;:&quot;2021-08-06T16:47:39.567Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-06T16:47:39.608Z&quot;,&quot;members&quot;:[]},{&quot;id&quot;:&quot;c06b7e3a-7a3b-4faf-a36d-37bc43f04823&quot;,&quot;title&quot;:&quot;Authors&#x27; publications&quot;,&quot;slug&quot;:&quot;authors-publications&quot;,&quot;avatar&quot;:null,&quot;isRestricted&quot;:true,&quot;isPublic&quot;:true,&quot;viewHash&quot;:&quot;2mil4vo5&quot;,&quot;editHash&quot;:&quot;v3jvvfd2&quot;,&quot;metadata&quot;:{&quot;doi&quot;:&quot;10.21428/36973002.c06b7e3a&quot;,&quot;url&quot;:&quot;https://thebibleofai.pubpub.org/collection/R0identifier_c19b423b2a0b004f7e84de9cba2795f6&quot;,&quot;issue&quot;:&quot;2020&quot;,&quot;volume&quot;:&quot;V1&quot;,&quot;electronicIssn&quot;:&quot;2695-6411&quot;,&quot;publicationDate&quot;:&quot;2020-07-06&quot;},&quot;kind&quot;:&quot;issue&quot;,&quot;doi&quot;:&quot;10.21428/36973002.c06b7e3a&quot;,&quot;readNextPreviewSize&quot;:&quot;choose-best&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;pageId&quot;:null,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;scopeSummaryId&quot;:&quot;f8b90a3c-b685-472a-9a91-3ea427799843&quot;,&quot;crossrefDepositRecordId&quot;:&quot;21ed5775-7847-450f-9094-5cd63198a372&quot;,&quot;createdAt&quot;:&quot;2020-07-01T22:52:08.317Z&quot;,&quot;updatedAt&quot;:&quot;2021-04-26T16:49:00.989Z&quot;,&quot;members&quot;:[]},{&quot;id&quot;:&quot;bdd5a648-fd1b-4c03-8fa3-424a06299c09&quot;,&quot;title&quot;:&quot;Artificial Intelligence in Medicine&quot;,&quot;slug&quot;:&quot;artificial-intelligence-in-medicine&quot;,&quot;avatar&quot;:null,&quot;isRestricted&quot;:true,&quot;isPublic&quot;:true,&quot;viewHash&quot;:&quot;hqhpe3mp&quot;,&quot;editHash&quot;:&quot;f4sptppl&quot;,&quot;metadata&quot;:{&quot;url&quot;:&quot;https://thebibleofai.pubpub.org/collection/r0identifier_7ba1c277cb9896e4224b3c78a0d32ced&quot;,&quot;issue&quot;:&quot;2020&quot;,&quot;volume&quot;:&quot;V1&quot;,&quot;electronicIssn&quot;:&quot;2695-6411&quot;,&quot;publicationDate&quot;:&quot;2020-07-03&quot;},&quot;kind&quot;:&quot;issue&quot;,&quot;doi&quot;:&quot;10.21428/36973002.bdd5a648&quot;,&quot;readNextPreviewSize&quot;:&quot;choose-best&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;pageId&quot;:&quot;87c81b9b-4220-49f2-a4c0-d5af39f090ad&quot;,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;scopeSummaryId&quot;:&quot;c8c319c7-ea15-4cb7-bc1d-f5f104f280a0&quot;,&quot;crossrefDepositRecordId&quot;:&quot;49ea8eaa-73f6-4ae3-adcd-975d0625c0d6&quot;,&quot;createdAt&quot;:&quot;2020-07-03T03:20:02.316Z&quot;,&quot;updatedAt&quot;:&quot;2021-04-26T16:49:01.016Z&quot;,&quot;members&quot;:[{&quot;id&quot;:&quot;a3e5a7e5-21c4-417c-8403-b182296ae736&quot;,&quot;permissions&quot;:&quot;manage&quot;,&quot;isOwner&quot;:null,&quot;subscribedToActivityDigest&quot;:false,&quot;userId&quot;:&quot;ca72f7a4-aaeb-4647-9b27-4110b54500be&quot;,&quot;pubId&quot;:null,&quot;collectionId&quot;:&quot;bdd5a648-fd1b-4c03-8fa3-424a06299c09&quot;,&quot;communityId&quot;:null,&quot;createdAt&quot;:&quot;2020-07-04T06:46:41.209Z&quot;,&quot;updatedAt&quot;:&quot;2020-07-04T06:49:16.266Z&quot;}]},{&quot;id&quot;:&quot;7faaa5f1-e060-4598-a687-923554a381aa&quot;,&quot;title&quot;:&quot;Medicine&quot;,&quot;slug&quot;:&quot;medicine-collection&quot;,&quot;avatar&quot;:null,&quot;isRestricted&quot;:true,&quot;isPublic&quot;:true,&quot;viewHash&quot;:&quot;6njhcztl&quot;,&quot;editHash&quot;:&quot;ktn1qfjc&quot;,&quot;metadata&quot;:{},&quot;kind&quot;:&quot;tag&quot;,&quot;doi&quot;:null,&quot;readNextPreviewSize&quot;:&quot;choose-best&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;pageId&quot;:null,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;scopeSummaryId&quot;:&quot;6117e620-0066-42c9-b90d-668440691bfb&quot;,&quot;crossrefDepositRecordId&quot;:null,&quot;createdAt&quot;:&quot;2020-07-02T12:41:00.653Z&quot;,&quot;updatedAt&quot;:&quot;2021-04-26T16:49:01.002Z&quot;,&quot;members&quot;:[]},{&quot;id&quot;:&quot;110811d9-3f29-409c-a0d4-63cd181abd6b&quot;,&quot;title&quot;:&quot;Automotive&quot;,&quot;slug&quot;:&quot;automotive-collection&quot;,&quot;avatar&quot;:null,&quot;isRestricted&quot;:true,&quot;isPublic&quot;:true,&quot;viewHash&quot;:&quot;aqpfd3p5&quot;,&quot;editHash&quot;:&quot;4lhas663&quot;,&quot;metadata&quot;:{},&quot;kind&quot;:&quot;tag&quot;,&quot;doi&quot;:null,&quot;readNextPreviewSize&quot;:&quot;choose-best&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;pageId&quot;:null,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;scopeSummaryId&quot;:&quot;a48d6f6d-f3a1-4533-b7b2-5adb17b4b9c5&quot;,&quot;crossrefDepositRecordId&quot;:null,&quot;createdAt&quot;:&quot;2020-07-02T12:42:45.899Z&quot;,&quot;updatedAt&quot;:&quot;2021-04-26T16:49:01.004Z&quot;,&quot;members&quot;:[]},{&quot;id&quot;:&quot;27aebb12-0b0c-4f64-a68b-57173542cf72&quot;,&quot;title&quot;:&quot;Cybersecurity&quot;,&quot;slug&quot;:&quot;cybersecurity-collection&quot;,&quot;avatar&quot;:null,&quot;isRestricted&quot;:true,&quot;isPublic&quot;:true,&quot;viewHash&quot;:&quot;uqakzexe&quot;,&quot;editHash&quot;:&quot;ibmr0nwa&quot;,&quot;metadata&quot;:{},&quot;kind&quot;:&quot;tag&quot;,&quot;doi&quot;:null,&quot;readNextPreviewSize&quot;:&quot;choose-best&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;pageId&quot;:null,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;scopeSummaryId&quot;:&quot;4988511a-3292-41c5-9786-67974b29ba15&quot;,&quot;crossrefDepositRecordId&quot;:null,&quot;createdAt&quot;:&quot;2020-07-02T12:41:53.746Z&quot;,&quot;updatedAt&quot;:&quot;2021-04-26T16:49:01.003Z&quot;,&quot;members&quot;:[]},{&quot;id&quot;:&quot;72f0c8d8-7a46-455e-b0dd-c2810cdfe635&quot;,&quot;title&quot;:&quot;Transversal&quot;,&quot;slug&quot;:&quot;transversal-collection&quot;,&quot;avatar&quot;:null,&quot;isRestricted&quot;:true,&quot;isPublic&quot;:true,&quot;viewHash&quot;:&quot;ewfdfyrk&quot;,&quot;editHash&quot;:&quot;mpds2t2q&quot;,&quot;metadata&quot;:{},&quot;kind&quot;:&quot;tag&quot;,&quot;doi&quot;:null,&quot;readNextPreviewSize&quot;:&quot;choose-best&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;pageId&quot;:&quot;a2a36492-8357-49b6-ac57-fff59e361207&quot;,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;scopeSummaryId&quot;:&quot;0a855c59-0a2c-4a20-a19e-d99551d3e25b&quot;,&quot;crossrefDepositRecordId&quot;:null,&quot;createdAt&quot;:&quot;2020-07-02T12:27:36.121Z&quot;,&quot;updatedAt&quot;:&quot;2021-04-26T16:49:00.999Z&quot;,&quot;members&quot;:[]},{&quot;id&quot;:&quot;0a1274c7-7fae-49c3-a50e-658d82f41096&quot;,&quot;title&quot;:&quot;Announcements&quot;,&quot;slug&quot;:&quot;announcements-collection&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/i6n3s0n2/31628182375367.jpeg&quot;,&quot;isRestricted&quot;:true,&quot;isPublic&quot;:true,&quot;viewHash&quot;:&quot;2fni9ehh&quot;,&quot;editHash&quot;:&quot;f225gwyn&quot;,&quot;metadata&quot;:{},&quot;kind&quot;:&quot;tag&quot;,&quot;doi&quot;:null,&quot;readNextPreviewSize&quot;:&quot;choose-best&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;pageId&quot;:null,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;scopeSummaryId&quot;:&quot;cd499ccf-b94e-4f9e-90d5-76d951f20c8a&quot;,&quot;crossrefDepositRecordId&quot;:null,&quot;createdAt&quot;:&quot;2020-07-16T12:44:37.391Z&quot;,&quot;updatedAt&quot;:&quot;2021-08-05T16:52:59.089Z&quot;,&quot;members&quot;:[]},{&quot;id&quot;:&quot;71a9460f-b974-4d0b-b0b0-360b1e189517&quot;,&quot;title&quot;:&quot;Cover&quot;,&quot;slug&quot;:&quot;cover&quot;,&quot;avatar&quot;:null,&quot;isRestricted&quot;:true,&quot;isPublic&quot;:false,&quot;viewHash&quot;:&quot;a2myj09g&quot;,&quot;editHash&quot;:&quot;de2obi5f&quot;,&quot;metadata&quot;:{},&quot;kind&quot;:&quot;tag&quot;,&quot;doi&quot;:null,&quot;readNextPreviewSize&quot;:&quot;choose-best&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;pageId&quot;:null,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;scopeSummaryId&quot;:&quot;04d6da65-bf24-448b-9451-f3dd6dfca3a0&quot;,&quot;crossrefDepositRecordId&quot;:null,&quot;createdAt&quot;:&quot;2022-08-12T09:09:30.760Z&quot;,&quot;updatedAt&quot;:&quot;2022-08-12T09:09:30.787Z&quot;,&quot;members&quot;:[]},{&quot;id&quot;:&quot;1b643282-466a-49cb-a0c7-cedf009d7402&quot;,&quot;title&quot;:&quot;The Bible of AI ™ Open Science&quot;,&quot;slug&quot;:&quot;the-bible-of-ai-open-science&quot;,&quot;avatar&quot;:null,&quot;isRestricted&quot;:true,&quot;isPublic&quot;:true,&quot;viewHash&quot;:&quot;r7avy5jd&quot;,&quot;editHash&quot;:&quot;2luy47g7&quot;,&quot;metadata&quot;:{&quot;doi&quot;:&quot;10.21428/36973002.1b643282&quot;,&quot;url&quot;:&quot;https://www.openscience.online/the-bible-of-ai-open-science&quot;,&quot;copyrightYear&quot;:&quot;2026&quot;},&quot;kind&quot;:&quot;book&quot;,&quot;doi&quot;:&quot;10.21428/36973002.1b643282&quot;,&quot;readNextPreviewSize&quot;:&quot;choose-best&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;pageId&quot;:null,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;scopeSummaryId&quot;:&quot;9a6d1077-af0a-4729-b92b-995bb54f6bfc&quot;,&quot;crossrefDepositRecordId&quot;:&quot;68e89d99-a8f2-426e-be94-422fc432183c&quot;,&quot;createdAt&quot;:&quot;2026-07-16T14:39:50.779Z&quot;,&quot;updatedAt&quot;:&quot;2026-07-16T17:17:30.169Z&quot;,&quot;members&quot;:[]},{&quot;id&quot;:&quot;42c84397-ed2e-48ec-8639-dac631c7a151&quot;,&quot;title&quot;:&quot;Announcements The Bible of AI™ Open Science&quot;,&quot;slug&quot;:&quot;announcements-the-bible-of-ai-open-science&quot;,&quot;avatar&quot;:null,&quot;isRestricted&quot;:true,&quot;isPublic&quot;:true,&quot;viewHash&quot;:&quot;lbkn5vrq&quot;,&quot;editHash&quot;:&quot;iw6txmtq&quot;,&quot;metadata&quot;:{},&quot;kind&quot;:&quot;book&quot;,&quot;doi&quot;:&quot;10.21428/36973002.42c84397&quot;,&quot;readNextPreviewSize&quot;:&quot;choose-best&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;pageId&quot;:null,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;scopeSummaryId&quot;:&quot;884e872c-8793-4e3b-ad2c-2f37587b1b37&quot;,&quot;crossrefDepositRecordId&quot;:&quot;d125232d-c662-4284-93a1-8a12a37bf0d9&quot;,&quot;createdAt&quot;:&quot;2026-07-16T14:52:24.727Z&quot;,&quot;updatedAt&quot;:&quot;2026-07-16T17:18:58.251Z&quot;,&quot;members&quot;:[]},{&quot;id&quot;:&quot;a53f5f28-6285-4260-af20-6d399f565c4c&quot;,&quot;title&quot;:&quot;Recommendations from La Biblia de la IA – The Bible of AI™&quot;,&quot;slug&quot;:&quot;recommendations-from-la-biblia-de-la-ia-the-bible-of-ai&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/c36973002-5bfe-424c-ac44-05adf592337f/u5c171e98-4ccc-413d-9507-50dcd76a5e3f/logo_la_biblia_de_la_IA_-_The_bible_of_ai-31784181411209.jpg&quot;,&quot;isRestricted&quot;:true,&quot;isPublic&quot;:true,&quot;viewHash&quot;:&quot;b1u680q1&quot;,&quot;editHash&quot;:&quot;042jwfgp&quot;,&quot;metadata&quot;:{&quot;url&quot;:&quot;https://www.openscience.online/recommendations-from-la-biblia-de-la-ia-the-bible-of-ai&quot;,&quot;issue&quot;:&quot;2026&quot;,&quot;electronicIssn&quot;:&quot;2695-6411&quot;},&quot;kind&quot;:&quot;issue&quot;,&quot;doi&quot;:&quot;10.21428/36973002.a53f5f28&quot;,&quot;readNextPreviewSize&quot;:&quot;none&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;pageId&quot;:null,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;scopeSummaryId&quot;:&quot;cca083d9-8dea-4821-b4b9-9ae7d28dc60e&quot;,&quot;crossrefDepositRecordId&quot;:&quot;cf2e97ac-bacb-426b-9417-6e0ac616f889&quot;,&quot;createdAt&quot;:&quot;2026-07-16T05:56:07.914Z&quot;,&quot;updatedAt&quot;:&quot;2026-07-16T12:08:55.235Z&quot;,&quot;members&quot;:[]},{&quot;id&quot;:&quot;35bc9295-3059-4acd-bb3c-f4cfad4dbedc&quot;,&quot;title&quot;:&quot;About Sistema Vectorial (SV)&quot;,&quot;slug&quot;:&quot;about-sv&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/c36973002-5bfe-424c-ac44-05adf592337f/u5c171e98-4ccc-413d-9507-50dcd76a5e3f/logo_SV-61784221772994.png&quot;,&quot;isRestricted&quot;:true,&quot;isPublic&quot;:true,&quot;viewHash&quot;:&quot;xax96d2k&quot;,&quot;editHash&quot;:&quot;c1k44wq1&quot;,&quot;metadata&quot;:{},&quot;kind&quot;:&quot;book&quot;,&quot;doi&quot;:&quot;10.21428/36973002.35bc9295&quot;,&quot;readNextPreviewSize&quot;:&quot;choose-best&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;pageId&quot;:null,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;scopeSummaryId&quot;:&quot;0797d6ed-9b6d-4bd6-8b0d-93b65315a4d1&quot;,&quot;crossrefDepositRecordId&quot;:&quot;7bb4add1-395b-4315-9da2-78e4e6e80fee&quot;,&quot;createdAt&quot;:&quot;2026-07-16T17:09:23.140Z&quot;,&quot;updatedAt&quot;:&quot;2026-07-16T17:13:17.530Z&quot;,&quot;members&quot;:[]},{&quot;id&quot;:&quot;9c9e206d-9988-473f-bcef-0f0558677921&quot;,&quot;title&quot;:&quot;The Bible of AI ™ Open Science&quot;,&quot;slug&quot;:&quot;the-bible-of-ai--open-science&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/c36973002-5bfe-424c-ac44-05adf592337f/u5c171e98-4ccc-413d-9507-50dcd76a5e3f/logo_AIeñ-61784183963267.png&quot;,&quot;isRestricted&quot;:true,&quot;isPublic&quot;:true,&quot;viewHash&quot;:&quot;3g340fwc&quot;,&quot;editHash&quot;:&quot;7yyrswjr&quot;,&quot;metadata&quot;:{&quot;doi&quot;:&quot;10.21428/36973002.9c9e206d&quot;,&quot;url&quot;:&quot;https://www.openscience.online/the-bible-of-ai--open-science&quot;,&quot;issue&quot;:&quot;&quot;,&quot;volume&quot;:&quot;&quot;,&quot;printIssn&quot;:&quot;&quot;,&quot;electronicIssn&quot;:&quot;&quot;},&quot;kind&quot;:&quot;issue&quot;,&quot;doi&quot;:&quot;10.21428/36973002.9c9e206d&quot;,&quot;readNextPreviewSize&quot;:&quot;choose-best&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;pageId&quot;:null,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;scopeSummaryId&quot;:&quot;43fd9e02-754c-4a4e-89f8-223c01fbd6d7&quot;,&quot;crossrefDepositRecordId&quot;:&quot;02c1ff0b-f829-493d-9652-7792791eaec5&quot;,&quot;createdAt&quot;:&quot;2026-07-16T06:39:08.045Z&quot;,&quot;updatedAt&quot;:&quot;2026-07-16T14:39:13.865Z&quot;,&quot;members&quot;:[]},{&quot;id&quot;:&quot;caf0b0bd-1d70-479f-b6f2-3201b84aa2fb&quot;,&quot;title&quot;:&quot;Announcements from The Bible of AI™ Open Science&quot;,&quot;slug&quot;:&quot;announcements-from-the-bible-of-ai-open-science&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/c36973002-5bfe-424c-ac44-05adf592337f/u5c171e98-4ccc-413d-9507-50dcd76a5e3f/logo_AIeñ-41784184784922.png&quot;,&quot;isRestricted&quot;:true,&quot;isPublic&quot;:true,&quot;viewHash&quot;:&quot;95bkk0i8&quot;,&quot;editHash&quot;:&quot;fv5aybm0&quot;,&quot;metadata&quot;:{&quot;doi&quot;:&quot;10.21428/36973002.caf0b0bd&quot;,&quot;url&quot;:&quot;https://www.openscience.online/announcements-from-the-bible-of-ai-open-science&quot;,&quot;issue&quot;:&quot;&quot;,&quot;volume&quot;:&quot;&quot;,&quot;electronicIssn&quot;:&quot;&quot;},&quot;kind&quot;:&quot;issue&quot;,&quot;doi&quot;:&quot;10.21428/36973002.caf0b0bd&quot;,&quot;readNextPreviewSize&quot;:&quot;none&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;pageId&quot;:null,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;scopeSummaryId&quot;:&quot;4dbe37b3-047e-41dc-b005-8ed120ee2de1&quot;,&quot;crossrefDepositRecordId&quot;:&quot;fa2bdc8c-2423-4846-a055-0f7927f43747&quot;,&quot;createdAt&quot;:&quot;2026-07-16T06:52:54.883Z&quot;,&quot;updatedAt&quot;:&quot;2026-07-16T13:55:59.769Z&quot;,&quot;members&quot;:[]},{&quot;id&quot;:&quot;8cc3f644-d95e-4055-baa6-1f6d4626e7d2&quot;,&quot;title&quot;:&quot;Publications of the Sistema Vectorial (SV)&quot;,&quot;slug&quot;:&quot;publications-of-the-sistema-vectorial-sv&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/c36973002-5bfe-424c-ac44-05adf592337f/u5c171e98-4ccc-413d-9507-50dcd76a5e3f/logo_SV-01784106500862.png&quot;,&quot;isRestricted&quot;:true,&quot;isPublic&quot;:true,&quot;viewHash&quot;:&quot;8dlztqul&quot;,&quot;editHash&quot;:&quot;xypob34p&quot;,&quot;metadata&quot;:{&quot;doi&quot;:&quot;10.21428/36973002.8cc3f644&quot;,&quot;url&quot;:&quot;https://www.openscience.online/publications-of-the-sistema-vectorial-sv&quot;,&quot;copyrightYear&quot;:&quot;2026&quot;},&quot;kind&quot;:&quot;book&quot;,&quot;doi&quot;:&quot;10.21428/36973002.8cc3f644&quot;,&quot;readNextPreviewSize&quot;:&quot;choose-best&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;pageId&quot;:null,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;scopeSummaryId&quot;:&quot;d6e081c5-011f-43d5-b6b9-6bd741d423e6&quot;,&quot;crossrefDepositRecordId&quot;:&quot;211bf515-b250-44cd-b344-74f09e897143&quot;,&quot;createdAt&quot;:&quot;2026-07-15T09:08:08.861Z&quot;,&quot;updatedAt&quot;:&quot;2026-07-16T17:25:56.393Z&quot;,&quot;members&quot;:[]},{&quot;id&quot;:&quot;f21a2ee4-3bdd-4fb7-b5ee-a4c23ce29ca2&quot;,&quot;title&quot;:&quot;Articles by the Director&quot;,&quot;slug&quot;:&quot;articles-by-the-director&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/c36973002-5bfe-424c-ac44-05adf592337f/u5c171e98-4ccc-413d-9507-50dcd76a5e3f/cover-articles-by-director-61783971981139.png&quot;,&quot;isRestricted&quot;:true,&quot;isPublic&quot;:true,&quot;viewHash&quot;:&quot;co2jv42g&quot;,&quot;editHash&quot;:&quot;unhrkp1y&quot;,&quot;metadata&quot;:{&quot;doi&quot;:&quot;10.21428/36973002.f21a2ee4&quot;,&quot;url&quot;:&quot;https://www.openscience.online/articles-by-the-director&quot;,&quot;copyrightYear&quot;:&quot;2026&quot;},&quot;kind&quot;:&quot;book&quot;,&quot;doi&quot;:&quot;10.21428/36973002.f21a2ee4&quot;,&quot;readNextPreviewSize&quot;:&quot;choose-best&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;pageId&quot;:null,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;scopeSummaryId&quot;:&quot;6be14744-9383-4100-a7a2-13e172f1747f&quot;,&quot;crossrefDepositRecordId&quot;:&quot;5ecd9247-19cc-4796-b764-0737d2765f4f&quot;,&quot;createdAt&quot;:&quot;2026-07-11T11:58:08.544Z&quot;,&quot;updatedAt&quot;:&quot;2026-07-16T17:20:30.959Z&quot;,&quot;members&quot;:[]},{&quot;id&quot;:&quot;b1049882-fdf8-43ab-a730-8143bbbe246a&quot;,&quot;title&quot;:&quot;FAQS&quot;,&quot;slug&quot;:&quot;faqs&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/c36973002-5bfe-424c-ac44-05adf592337f/u5c171e98-4ccc-413d-9507-50dcd76a5e3f/logo_AIeñ-31784315854221.png&quot;,&quot;isRestricted&quot;:true,&quot;isPublic&quot;:true,&quot;viewHash&quot;:&quot;75r8db41&quot;,&quot;editHash&quot;:&quot;f7x9eioc&quot;,&quot;metadata&quot;:{},&quot;kind&quot;:&quot;book&quot;,&quot;doi&quot;:&quot;10.21428/36973002.b1049882&quot;,&quot;readNextPreviewSize&quot;:&quot;choose-best&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;pageId&quot;:null,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;scopeSummaryId&quot;:&quot;a93d3408-8a41-4206-a9ee-15862b7391a8&quot;,&quot;crossrefDepositRecordId&quot;:&quot;d7bbdd83-9285-48e0-adaf-069b73a79479&quot;,&quot;createdAt&quot;:&quot;2026-07-17T19:17:00.750Z&quot;,&quot;updatedAt&quot;:&quot;2026-07-17T19:22:40.300Z&quot;,&quot;members&quot;:[]},{&quot;id&quot;:&quot;f1f6a90a-11b5-4d0a-aff0-52d7d164827e&quot;,&quot;title&quot;:&quot;La Biblia de la IA – The Bible of AI ™&quot;,&quot;slug&quot;:&quot;la-biblia-de-la-ia-the-bible-of-ai&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/c36973002-5bfe-424c-ac44-05adf592337f/u5c171e98-4ccc-413d-9507-50dcd76a5e3f/coleccion_editorialia-51783664443140.jpg&quot;,&quot;isRestricted&quot;:true,&quot;isPublic&quot;:true,&quot;viewHash&quot;:&quot;be03pm0x&quot;,&quot;editHash&quot;:&quot;dtlokare&quot;,&quot;metadata&quot;:{&quot;doi&quot;:&quot;10.21428/36973002.f1f6a90a&quot;,&quot;url&quot;:&quot;https://www.openscience.online/la-biblia-de-la-ia-the-bible-of-ai&quot;,&quot;isbn&quot;:&quot;ISBN: ISSN 2695-6411&quot;,&quot;copyrightYear&quot;:&quot;2026&quot;,&quot;publicationDate&quot;:&quot;2019-07-01&quot;},&quot;kind&quot;:&quot;book&quot;,&quot;doi&quot;:&quot;10.21428/36973002.f1f6a90a&quot;,&quot;readNextPreviewSize&quot;:&quot;choose-best&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;pageId&quot;:null,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;scopeSummaryId&quot;:&quot;7ed9bc6d-afb3-4033-b2bb-003ef5ea8d21&quot;,&quot;crossrefDepositRecordId&quot;:&quot;e43b542c-0a1d-4a3f-a633-1e0e60545d93&quot;,&quot;createdAt&quot;:&quot;2026-07-10T06:15:07.183Z&quot;,&quot;updatedAt&quot;:&quot;2026-07-14T22:46:43.876Z&quot;,&quot;members&quot;:[]},{&quot;id&quot;:&quot;bc67ac9a-5564-4d55-919c-8aef4c8631f0&quot;,&quot;title&quot;:&quot;Press Room&quot;,&quot;slug&quot;:&quot;press-room&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/oxqp8oxf/61628181392702.png&quot;,&quot;isRestricted&quot;:true,&quot;isPublic&quot;:true,&quot;viewHash&quot;:&quot;pl1e0tiv&quot;,&quot;editHash&quot;:&quot;8hzm0i8p&quot;,&quot;metadata&quot;:{&quot;doi&quot;:&quot;10.21428/36973002.bc67ac9a&quot;,&quot;url&quot;:&quot;https://www.openscience.online/press-room&quot;,&quot;issue&quot;:&quot;2026&quot;,&quot;volume&quot;:&quot;&quot;,&quot;electronicIssn&quot;:&quot;2695-641&quot;},&quot;kind&quot;:&quot;issue&quot;,&quot;doi&quot;:&quot;10.21428/36973002.bc67ac9a&quot;,&quot;readNextPreviewSize&quot;:&quot;choose-best&quot;,&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;pageId&quot;:null,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;scopeSummaryId&quot;:&quot;da770330-5cca-4177-87fd-b4a7062bfdec&quot;,&quot;crossrefDepositRecordId&quot;:&quot;1c497acd-55ba-4d7c-9f2a-7e0b4953aac7&quot;,&quot;createdAt&quot;:&quot;2021-08-05T11:00:30.669Z&quot;,&quot;updatedAt&quot;:&quot;2026-07-16T17:21:22.524Z&quot;,&quot;members&quot;:[]}],&quot;isArchiveCommunity&quot;:false},&quot;loginData&quot;:{&quot;id&quot;:&quot;5c171e98-4ccc-413d-9507-50dcd76a5e3f&quot;,&quot;initials&quot;:&quot;T™&quot;,&quot;slug&quot;:&quot;juan-antonio-lloret-egea&quot;,&quot;fullName&quot;:&quot;The Bible of AI ™&quot;,&quot;firstName&quot;:&quot;The Bible of AI&quot;,&quot;lastName&quot;:&quot;™&quot;,&quot;avatar&quot;:&quot;https://assets.pubpub.org/nn4kllk3/31593641890132.jpg&quot;,&quot;title&quot;:&quot;&quot;,&quot;gdprConsent&quot;:true,&quot;isSuperAdmin&quot;:false},&quot;locationData&quot;:{&quot;hostname&quot;:&quot;www.openscience.online&quot;,&quot;path&quot;:&quot;/blog&quot;,&quot;params&quot;:{&quot;collectionSlug&quot;:&quot;blog&quot;},&quot;query&quot;:{},&quot;queryString&quot;:&quot;?&quot;,&quot;isDashboard&quot;:false,&quot;isBasePubPub&quot;:false,&quot;isProd&quot;:true,&quot;isDuqDuq&quot;:false,&quot;isQubQub&quot;:false,&quot;appCommit&quot;:&quot;ebafc58515301170584270756bdca3589b4ed041&quot;},&quot;scopeData&quot;:{&quot;elements&quot;:{&quot;activeTargetType&quot;:&quot;collection&quot;,&quot;activeTargetName&quot;:&quot;Collection&quot;,&quot;activeTarget&quot;:null,&quot;activePub&quot;:null,&quot;activeCollection&quot;:null,&quot;activeIds&quot;:{&quot;pubId&quot;:null,&quot;collectionId&quot;:null,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;},&quot;inactiveCollections&quot;:[],&quot;activeCommunity&quot;:{&quot;id&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;}},&quot;memberData&quot;:[{&quot;id&quot;:&quot;7d1e8e0e-2a7e-413d-987f-827b899ac905&quot;,&quot;permissions&quot;:&quot;admin&quot;,&quot;isOwner&quot;:null,&quot;subscribedToActivityDigest&quot;:false,&quot;userId&quot;:&quot;5c171e98-4ccc-413d-9507-50dcd76a5e3f&quot;,&quot;pubId&quot;:null,&quot;collectionId&quot;:null,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;createdAt&quot;:&quot;2020-06-30T22:39:40.121Z&quot;,&quot;updatedAt&quot;:&quot;2020-06-30T22:39:40.121Z&quot;}],&quot;activePermissions&quot;:{&quot;activePermission&quot;:&quot;admin&quot;,&quot;canView&quot;:true,&quot;canEdit&quot;:true,&quot;canManage&quot;:true,&quot;canAdmin&quot;:true,&quot;canAdminCommunity&quot;:true,&quot;canManageCommunity&quot;:true,&quot;canViewCommunity&quot;:true,&quot;canEditCommunity&quot;:true,&quot;isSuperAdmin&quot;:false,&quot;canCreateReviews&quot;:true,&quot;canCreateDiscussions&quot;:true,&quot;discussionCreationAccess&quot;:&quot;public&quot;,&quot;canViewDraft&quot;:false,&quot;canEditDraft&quot;:false},&quot;activeCounts&quot;:{&quot;reviews&quot;:0,&quot;submissions&quot;:0,&quot;curatingHubCount&quot;:0},&quot;scope&quot;:{&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;}},&quot;featureFlags&quot;:{&quot;releaseDiscussionsDialog&quot;:false,&quot;activityDigestSubscribeToggle&quot;:true,&quot;notifications&quot;:true,&quot;submissions&quot;:true,&quot;surveySummer22&quot;:false,&quot;reviews&quot;:false,&quot;comments&quot;:false,&quot;htmlPubHeaderValues&quot;:false,&quot;minimal-header&quot;:false,&quot;minimal-footer&quot;:false,&quot;customScripts&quot;:false,&quot;collapsible-header&quot;:false,&quot;two-column-footer&quot;:false,&quot;suggestedEdits&quot;:false,&quot;collapsible-header-bpc&quot;:false,&quot;customAnalyticsProvider&quot;:false,&quot;newAnalytics&quot;:true,&quot;bodyContributors&quot;:false,&quot;noCookieBanner&quot;:false,&quot;dataExport&quot;:true},&quot;initialNotificationsData&quot;:{&quot;hasNotifications&quot;:false,&quot;hasUnreadNotifications&quot;:false},&quot;dismissedUserDismissables&quot;:{}}"></script><script id="view-data" type="text/plain" data-json="{&quot;pageData&quot;:{&quot;id&quot;:&quot;f8a783e2-f0a2-473f-b727-0848353dad4d&quot;,&quot;title&quot;:&quot;Backcover&quot;,&quot;slug&quot;:&quot;blog&quot;,&quot;description&quot;:&quot;&quot;,&quot;avatar&quot;:null,&quot;isPublic&quot;:true,&quot;isNarrowWidth&quot;:null,&quot;viewHash&quot;:&quot;hhvcjqqo&quot;,&quot;layout&quot;:[{&quot;id&quot;:&quot;2qy0u4r5&quot;,&quot;type&quot;:&quot;html&quot;,&quot;content&quot;:{&quot;html&quot;:&quot;&lt;iframe src=\&quot;https://editorialia.com/blog/?panel=1\&quot; style=\&quot;display:block;width:100%;height:4200px;border:1px solid #e2e2e2;border-radius:4px;background:#fff\&quot;&gt;\n&lt;/iframe&gt;&quot;}},{&quot;id&quot;:&quot;hko6ila6&quot;,&quot;type&quot;:&quot;html&quot;,&quot;content&quot;:{&quot;html&quot;:&quot;&lt;div style=\&quot;max-width:900px;margin:0 auto;font-family:inherit\&quot;&gt;\n    &lt;span style=\&quot;flex:1;height:1px;background:linear-gradient(to right, transparent, #d7dee8)\&quot;&gt;&lt;/span&gt;\n    &lt;span style=\&quot;flex:0 0 auto;width:5px;height:5px;border-radius:50%;background:#c3ccd8\&quot;&gt;&lt;/span&gt;\n    &lt;span style=\&quot;flex:1;height:1px;background:linear-gradient(to left, transparent, #d7dee8)\&quot;&gt;&lt;/span&gt;\n  &lt;/div&gt;\n\n  &lt;p style=\&quot;font-family:Arial, Helvetica, sans-serif;font-size:0.76rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#6b7280;margin:0 0 10px\&quot;&gt;\n    Of interest · Science\n  &lt;/p&gt;\n\n  &lt;h2 style=\&quot;font-size:1.7em;line-height:1.3;color:#1a1a1a;font-weight:700;margin:0 0 10px\&quot;&gt;\n    The Eye of Science: Its Problems, Residuals and Projections\n  &lt;/h2&gt;\n\n  &lt;p style=\&quot;font-size:0.95em;line-height:1.5;color:#555;margin:0 0 22px\&quot;&gt;\n    A collection published by IA eñ™, the in-house supplement of the parent journal\n    &lt;a href=\&quot;https://editorialia.com/\&quot; target=\&quot;_blank\&quot; rel=\&quot;noopener noreferrer\&quot; style=\&quot;color:#0f6fc6;text-decoration:none;border-bottom:1px solid rgba(15,111,198,0.35)\&quot;&gt;La Biblia de la IA — The Bible of AI™&lt;/a&gt;.\n  &lt;/p&gt;\n\n  &lt;p style=\&quot;font-size:1.1em;line-height:1.62;color:#222;margin:0 0 22px\&quot;&gt;\n    &lt;em&gt;Science: Residual Problems and Projections&lt;/em&gt;\n    (&lt;em&gt;«CIENCIA: problemas, residuales y proyecciones»&lt;/em&gt;) is published in Spanish. It addresses\n    some of the deepest open questions in contemporary science — its unresolved incompatibilities,\n    its residual contradictions and its critical points — through the formal framework of the\n    Vectorial System (SV). Readers who prefer another language can open it on the\n    &lt;a href=\&quot;https://www.itvia.online/ciencia-problemas-residuales-y-proyecciones\&quot; target=\&quot;_blank\&quot; rel=\&quot;noopener noreferrer\&quot;&gt;collection&#x27;s own page&lt;/a&gt;\n    and use their browser&#x27;s built-in translation feature to read the full text in the language of\n    their choice.\n  &lt;/p&gt;\n\n  \n    \n      Read more\n    \n    &lt;div style=\&quot;margin-top:16px\&quot;&gt;\n      &lt;p style=\&quot;font-size:1em;line-height:1.65;color:#444;margin-bottom:16px\&quot;&gt;\n        This collection brings together formulations of the Vectorial System (SV) in\n        which the scientific problem is treated as a formal condition of analysis: the\n        incompatibility is determined, the unabsorbed residual is preserved, and the\n        projection is fixed that allows a verdict of closure, refutation or honest\n        non-closure to be issued within the triad {0,1,U}. Its centre of gravity is the\n        Theory of EVERYTHING and NOTHING, expressed by 𝓔★TODO,SV(ΓU;τ)=0,\n        together with the boundary (μ,λ)=(0,0), the cell K₃ⁿ, the fibrous factual\n        distance and the strong ternary verifier.\n      &lt;/p&gt;\n      &lt;p style=\&quot;font-size:1em;line-height:1.65;color:#444;margin-bottom:16px\&quot;&gt;\n        From that core, the field and projection formulations are ordered: 𝔉SV=0,\n        UunifSV and 𝓕𝓐=d𝓐+𝓐∧𝓐, with 𝓐=ω⊕A, articulate generating\n        events, protofields, connection, curvature and the Einstein–Bohr reading. In\n        the luminous and electromagnetic domain, light is formulated as a fibrous\n        object ΦLSV, with E=ν·hSV, and Maxwell is condensed into\n        𝔼SV=0: problem, boundary and projection are thus formulated as a structural\n        reduction.\n      &lt;/p&gt;\n      &lt;p style=\&quot;font-size:1em;line-height:1.65;color:#444;margin-bottom:0\&quot;&gt;\n        The same discipline extends to thermodynamics and to factual entropy, where\n        𝖤thermoSV(Γ,n;θ)=𝔇ΓΩSV·𝖦SV=0 integrates work,\n        heat, force, temperature and enthalpy, while HSV formalises\n        non-decreasing dispersion without turning probability, statistics or external\n        time into a foundation. In the contrast domains, CSV(δ)=−cos δ\n        situates Bell–Tsirelson between CHSH≤2 and 2√2, and the genesis of hydrogen\n        fixes energetic persistence through 𝓟min=𝓕∂−𝒬−ℛΓ.\n      &lt;/p&gt;\n    &lt;/div&gt;\n  \n\n  &lt;div style=\&quot;position:relative;width:100%;overflow:hidden;padding-top:75%;border:1px solid #e0e0e0;border-radius:8px\&quot;&gt;\n    &lt;iframe src=\&quot;https://www.itvia.online/ciencia-problemas-residuales-y-proyecciones\&quot; style=\&quot;position:absolute;top:0;left:0;width:100%;height:100%;border:0\&quot; allowfullscreen&gt;\n    &lt;/iframe&gt;\n  &lt;/div&gt;\n\n  &lt;p style=\&quot;text-align:center;font-size:0.9em;margin-top:8px;color:#666\&quot;&gt;\n    If the collection does not display correctly, you can view it directly on\n    &lt;a href=\&quot;https://www.itvia.online/ciencia-problemas-residuales-y-proyecciones\&quot; target=\&quot;_blank\&quot; rel=\&quot;noopener noreferrer\&quot;&gt;itvia.online&lt;/a&gt;.\n  &lt;/p&gt;\n&quot;}}],&quot;layoutAllowsDuplicatePubs&quot;:false,&quot;communityId&quot;:&quot;36973002-5bfe-424c-ac44-05adf592337f&quot;,&quot;createdAt&quot;:&quot;2026-07-14T23:03:27.224Z&quot;,&quot;updatedAt&quot;:&quot;2026-07-18T19:55:15.188Z&quot;,&quot;layoutPubsByBlock&quot;:{&quot;pubIdsByBlockId&quot;:{},&quot;pubsById&quot;:{}}}}"></script><script id="chunk-name" type="text/plain" data-json="&quot;Page&quot;"></script><script src="/dist/vendor.0fb924461e66a64a7b4f.bundle.js"></script><script src="/dist/main.4be50c94b2dc80a22196.js"></script></body></html>
