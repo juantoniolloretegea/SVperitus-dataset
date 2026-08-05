@@ -1,347 +1,334 @@
-# Índice
+Almirante, **queda blanco sobre negro**. Después de contrastar el fichero canónico con la literatura adyacente y de atacar también la última salida posible, mi dictamen definitivo es:
 
-Resumen
+[
+\boxed{\textbf{DETENEMOS ESTA VÍA EDITORIAL EN SU ESTADO ACTUAL}}
+]
 
-Abstract
+No seleccionamos revista. No redactamos artículo. No congelamos título. No hacemos una reparación cosmética de (\mathbb F_{\mathrm{SV}}).
 
-Introducción
+La publicación conserva su lugar dentro del corpus SV, pero **hoy no sostiene todavía una aportación internacional diferenciada y demostrada**.
 
-## I. Estado del arte y posición científica del problema
+# 1. Lo que no constituye ya la novedad
 
-I.1. Definir lo viviente: definición operativa, sistema químico autosostenido y evolución darwiniana
+Queda descartado como contribución principal:
 
-I.2. Origen de la vida: química prebiótica, mundo de ARN, metabolismo, compartimentación y medios activos
+* reducir Maxwell a una sola ecuación;
+* reunir las cuatro leyes en un operador;
+* incorporar relaciones constitutivas;
+* tratar conjuntamente campos y condiciones de contorno;
+* conservar residuos separados.
 
-I.3. Célula, frontera y organización viva
+La formulación de Fernando, Licht y Holst, por ejemplo, trata las cuatro variables electromagnéticas, relaciones constitutivas generales, medios bianisótropos y condiciones de frontera dentro de una formulación variacional conjunta. No es la ecuación SV, pero ocupa ya buena parte del perímetro que Claude consideraba libre. ([arXiv][1])
 
-I.4. Biosignaturas, falsos positivos y detección de vida
+También existen desde hace tiempo operadores y estimadores residuales de Maxwell con componentes localizables. Su finalidad es estimar errores de discretización y no clausurar un régimen, pero impiden afirmar que la lectura separada de residuos sea, por sí misma, exclusiva del SV. ([ScienceDirect][2])
 
-I.5. Virus, viriones, entidades replicativas dependientes y casos límite
+Por tanto:
 
-I.6. LUCA, linaje, especie y evolución temprana
+[
+\boxed{
+\mathbb M_{\mathrm{SV}}\oplus\mathbb K_{\mathrm{SV}}
+\text{ no contiene por sí solo novedad suficiente.}
+}
+]
 
-I.7. Autopoiesis, organización y límites de la autosuficiencia
+# 2. La supuesta dependencia de las cuatro leyes no decide el asunto
 
-I.8. Materia no biológica organizada: química, enlace, minerales, fases y complejidad no viva
+La afirmación de Claude de que «las cuatro ecuaciones no son independientes» necesita una corrección importante.
 
-I.9. Balance crítico: qué aporta y qué no resuelve el estado del arte
+En una formulación evolutiva, las dos leyes de rotacional propagan las restricciones de divergencia cuando:
 
-## II. Problema rector: definición positiva de lo viviente y exclusión controlada
+* las restricciones de Gauss se satisfacen inicialmente;
+* las fuentes cumplen continuidad;
+* la discretización preserva las compatibilidades correspondientes.
 
-II.1. Materia orgánica, materia no biológica y falsa oposición inicial
+Eso explica la importancia numérica de las restricciones de divergencia, pero **no significa que las leyes de Gauss puedan eliminarse sin hipótesis ni datos iniciales**. La literatura computacional distingue precisamente entre ecuaciones de propagación y restricciones que deben preservarse. ([ScienceDirect][3])
 
-II.2. Organización material no viviente y régimen viviente sin sustancia privilegiada
+Además, existe literatura arbitrada que sostiene expresamente la independencia y completitud axiomática de las cuatro ecuaciones. No adopto esa publicación como autoridad definitiva, pero demuestra que «son dependientes» no es una conclusión universal e indiscutida. ([PIER Journals][4])
 
-II.3. Condiciones mínimas de una definición fuerte de lo viviente
+La posición correcta para el SV sería:
 
-II.4. Restricciones externas de prudencia: autosostenimiento químico, evolución y dominio biológico
+> (\mathbb M_{\mathrm{SV}}) conserva las cuatro condiciones del sistema completo, sin afirmar que sean cuatro grados dinámicos independientes.
 
-II.5. Tesis de trabajo: la fibra como hilo de continuidad y discriminación
+Por tanto, este punto **ni salva ni destruye** la publicación.
 
-## III. Fibra primigenia de observabilidad y comienzo de la cadena
+# 3. El único candidato realmente distintivo era (\mathbb F_{\mathrm{SV}})
 
-III.1. ε₋₀ como borde preformal, no objeto físico
+Tras restar lo conocido, quedaba una posibilidad:
 
-III.2. 𝓕₋₀^Obs=ε₋₀|Obs como restricción observacional
+[
+\boxed{
+\text{activación de frontera por pérdida de rango}
++
+\text{respuesta interna de reconfiguración}.
+}
+]
 
-III.3. De ∂Obs a DObs y ObsU(D)
+Ésa habría sido una diferencia concreta frente a formulaciones compactas, variacionales y residuales conocidas.
 
-III.4. La fibra no crea directamente vida: habilita observabilidad bajo dominio
+Pero la lectura canónica demuestra que esa pieza **no está establecida matemáticamente**.
 
-III.5. Teorema de orientación de la fibra hacia lo viviente y lo no viviente
+## 3.1. La frontera no se deduce: se define
 
-III.6. Teoría del TODO y de la NADA: cadena estructural, célula ternaria y verificador fuerte
+El anexo define primero un jacobiano genérico:
 
-## IV. Línea del Umbral SV: origen, equilibrio, intensidad y dominancia
+[
+(J_{\mathrm{SV}})^a{}_b
+=======================
 
-IV.1. μ=λ, P=μ−λ e I=μ+λ
+\partial_{\theta_b}^{\mathrm{SV}}q^a,
+]
 
-IV.2. (0,0) como origen formal único
+y denomina régimen singular al conjunto:
 
-IV.3. (a,a) con a>0: equilibrio realizado con intensidad positiva
+[
+\det J_{\mathrm{SV}}=0.
+]
 
-IV.4. Diferencia entre (5,5), (64,64) y otros puntos no nulos de la Línea
+Después define directamente como «frontera factual» ese mismo conjunto singular. El ejemplo sólo muestra una curva de pérdida de rango en un espacio de parámetros. No demuestra que esa curva sea una interfaz electromagnética material, espacial o física.
 
-IV.5. Dominancia del polo 1, dominancia del polo 0 y no dominancia
+Por consiguiente:
 
-IV.6. U como no clausura honesta, no como motor ni tránsito pendiente
+[
+\det J_{\mathrm{SV}}=0
+\Longleftrightarrow
+\partial\Omega\text{ activa}
+]
 
-IV.7. Aplicación preparatoria a clases, especies y evolución
+es, en el texto actual, **una definición terminológica**, no un resultado electromagnético independiente.
 
-## V. Trivialización rigurosa y transducción no confinante
+## 3.2. La identificación con la interfaz contiene un salto no demostrado
 
-V.1. Trivializar no es banalizar
+El teorema 14.8.6 afirma que la pérdida de rango coincide biyectivamente con un cambio de carta entre celdas. Su demostración sostiene que:
 
-V.2. Forma mínima: dominio, frontera, identidad, potencial, intensidad, traza, residual y retorno
+* fuera de la interfaz, (\det J_{\mathrm{SV}}\neq0);
+* en toda interfaz con cambio de base no trivial, (\det J_{\mathrm{SV}}=0).
 
-V.3. Vías laterales admisibles: agua, fuego, H–He, pares, moléculas y especie
+Pero no presenta ninguna ecuación que conecte el jacobiano de sensibilidad:
 
-V.4. Error de confinamiento y error de plano
+[
+J_{\mathrm{SV}}
+===============
 
-V.5. Regla general: nada entra por parecido; todo entra por función transportada
+\frac{\partial q}{\partial\theta}
+]
 
-V.6. Corolario semántico de transducción no confinante: matemática, lengua intermedia y retorno
+con la matriz de cambio de base:
 
-## VI. Universo observable, edades relativas y descenso hacia la vida
+[
+M^{(k,l)}.
+]
 
-VI.1. Totalidad absoluta, universo observable y contenidos retornados
+De hecho, el propio documento usa como ejemplo interfacial una rotación con:
 
-VI.2. Edad física como dominio, frontera, trayectoria, magnitud y retorno
+[
+\det M^{(k,l)}=1.
+]
 
-VI.3. Prehidrógeno, hidrógeno, estrellas, galaxias y señales como dominios internos
+Un cambio de carta ordinario debe ser invertible; una matriz singular no constituye un cambio de carta regular. Que el cambio sea no trivial no implica que otro jacobiano, definido sobre variables diferentes, pierda rango. El paso central del teorema no está demostrado.
 
-VI.4. Por qué el universo observable no es organismo biológico ordinario ni TODO/NADA
+Éste no es un problema de redacción. Es un vacío lógico.
 
-VI.5. Función de las edades relativas en la cadena hacia lo viviente y lo no viviente
+## 3.3. La componente (\mathbb F_{\mathrm{SV}}) tampoco es una ecuación válida tal como está
 
-## VII. Raigal, magnitud y medición de lo que antes se denominaba datos
+En §3.12 aparece:
 
-VII.1. Raigal como raíz formal de retorno, no como magnitud física
+[
+\mathbb F_{\mathrm{SV}}
+=======================
 
-VII.2. Unidad nativa, unidad externa, transductor y residual
+\begin{pmatrix}
+\mathbf1_{{\det J_{\mathrm{SV}}=0}}
+\cdot(\partial\Omega\text{ activa})
+[1mm]
+\mathcal R_{\mathrm{SV}}^f
+--------------------------
 
-VII.3. Datos transducidos: señales, cantidades, entidades, trazas y valores
+\mathbf1_{{\det J_{\mathrm{SV}}=0}}
+\Lambda B_{\mathrm{reg}}
+\end{pmatrix}.
+]
 
-VII.4. Conjuntos lógicos de dominio, clasificación de datos y dictamen ternario
+La primera fila mezcla un valor booleano con una proposición verbal y exige que su producto se anule.
 
-VII.5. Capacidades como codificación y decodificación de diferencias
+La segunda es idénticamente cero, porque anteriormente se ha definido:
 
-VII.6. Proyecciones del raigal: masa, energía, calor, campo, cantidad y señal
+[
+\mathcal R_{\mathrm{SV}}^f
+:=
+\mathbf1_{{\det J_{\mathrm{SV}}=0}}
+\Lambda B_{\mathrm{reg}}.
+]
 
-VII.7. Energía retenida como materia bajo dominio
+Por tanto, esa fila no verifica ninguna respuesta: resta la definición de sí misma.
 
-VII.8. Regla de no identificación entre raigal y sus proyecciones
+La versión distinta de §14.11 y la ejecución separada del verificador prueban que el corpus intenta expresar algo real, pero también confirman que **no existe todavía una definición única y cerrada de (\mathbb F_{\mathrm{SV}})**.
 
-## VIII. Tránsito por dominios: continuidad sin igualdad de estado
+# 4. Por qué no acepto mi reparación anterior
 
-VIII.1. Identidad tipada, frontera, canal, traza, residual y retorno
+Mi propuesta de introducir:
 
-VIII.2. Agua: líquido, sólido, vapor y punto triple
+[
+q_{\mathrm{rec}}
+----------------
 
-VIII.3. H–He: primera organización material ordinaria
+\chi_{\partial}\Lambda B_{\mathrm{reg}}(q)
+]
 
-VIII.4. Hidrógeno nuclear, plasmático, atómico, molecular y biológico
+habría producido un residual bien tipado.
 
-VIII.5. Error de plano por sustitución de dominio
+Pero ese (q_{\mathrm{rec}}) independiente **no existe definido como tal en la ecuación canónica**. Introducirlo, darle dominio, determinar cómo se obtiene y demostrar que representa una respuesta física sería trabajo científico nuevo.
 
-VIII.6. Teorema de identidad de tránsito aplicado a lo viviente y lo no viviente
+Del mismo modo, reunir las cuatro condiciones interfaciales en:
 
-VIII.7. Garantía de tránsito: paso demostrado, residual visible y retorno suficiente
+[
+\mathbb B_{\partial\Omega}^{\mathrm{SV}}
+]
 
-## IX. Materia ordinaria, pares estructurales y organización no viviente
+es formalmente posible, pero no resuelve la cuestión nuclear:
 
-IX.1. H–He, elementos pesados y continuidad material ordinaria
+> por qué una pérdida de rango de (q(\theta)) identifica necesariamente una interfaz electromagnética concreta.
 
-IX.2. Tabla periódica estructural y dominio de elementos
+Por eso retiro aquella propuesta como «reparación mínima». No sería microcirugía. Sería reconstruir el bloque que debía aportar la novedad.
 
-IX.3. CPS-SV: pares, admisibilidad y no admisión
+# 5. Resultado de la búsqueda de anterioridad
 
-IX.4. APTO-M, APTO-C, APTO-I y NO-APTO como regímenes de organización material
+En las búsquedas realizadas no apareció una anterioridad exacta que reúna simultáneamente:
 
-IX.5. Enlace, aleación, fase y molécula
+* ecuaciones de campo;
+* cierre constitutivo;
+* criterio de frontera activado por un jacobiano;
+* reconfiguración interna;
+* proyecciones residuales separadas.
 
-IX.6. Lo no viviente como organización material sin autogobierno vital
+Pero ese resultado es **inconcluso**, no una certificación de novedad.
 
-## X. Del dominio molecular al dominio prebiológico
+Sí aparecieron antecedentes próximos:
 
-X.1. Moléculas relevantes y límite de la química estable
+* tratamientos conjuntos de Maxwell, constitutivas y frontera; ([arXiv][1])
+* operadores abstractos de Maxwell con condiciones de frontera incorporadas en su dominio; ([ScienceDirect][5])
+* operadores residuales para diagnóstico de error; ([ScienceDirect][2])
+* teoría de interfaces, transmisión y singularidades electromagnéticas; ([Cambridge University Press][6])
+* discusión específica sobre independencia, completitud y unicidad del sistema de Maxwell. ([PIER Journals][4])
 
-X.2. Agua, carbono, oxígeno, hidrógeno, nitrógeno, fósforo y azufre
+La única pieza no localizada exactamente es la activación jacobiana con reconfiguración. Pero precisamente ésa es la pieza que el documento actual no demuestra.
 
-X.3. Macromoléculas, membranas, gradientes y zonas de intercambio
+[
+\boxed{
+\text{No encontrar anterioridad de una construcción aún no cerrada no acredita su novedad.}
+}
+]
 
-X.4. Medio prebiológico como posibilidad material demostrable, no como régimen viviente
+# 6. Qué queda de (\mathbb E_{\mathrm{SV}})
 
-X.5. Γbio-0 como restricción de paso hacia observable viviente
+Queda una afirmación verdadera:
 
-X.6. Por qué la molécula no basta
+[
+\mathbb E_{\mathrm{SV}}=0
+]
 
-## XI. Lo viviente biológico: frontera funcional, capacidades y respuesta orientada
+es una sola condición global, con proyecciones diferenciadas, que pretende abarcar el régimen factual completo.
 
-XI.1. Condiciones del observable viviente constituido
+Pero, retirado el contenido no demostrado de (\mathbb F_{\mathrm{SV}}), lo que permanece es:
 
-XI.2. Frontera que separa sin aislar
+[
+\begin{pmatrix}
+\text{cuatro residuos Maxwell}\
+\text{tres residuos constitutivos}
+\end{pmatrix}
+=0.
+]
 
-XI.3. Intercambio regulado y conservación activa
+Su doble implicación es correcta porque anular el vector equivale a anular sus componentes. Sin una propiedad adicional independiente, eso es una equivalencia definitoria, no un teorema de novedad internacional.
 
-XI.4. Capacidades de captura, codificación y decodificación de diferencias
+# 7. Resolución definitiva
 
-XI.5. Reparación, memoria, herencia y continuidad
+## Se conserva
 
-XI.6. Respuesta orientada y retorno biológico
+* la publicación existente como parte del corpus SV;
+* sus ecuaciones factuales;
+* su aparato de sucesos;
+* su valor documental, programático y de desarrollo interno;
+* los bancos positivos y negativos como infraestructura de comprobación.
 
-## XII. Circuitos de conexión, selección funcional de rutas y comparador de autogobierno local
+## Se detiene
 
-XII.1. Conectar, desconectar y reconectar
+* la conversión de esta publicación en artículo internacional;
+* la elección de revista;
+* la prearquitectura;
+* el título;
+* la redacción inglesa;
+* la comparación editorial con Clifford;
+* la adaptación a J-MMCT o a IJTP.
 
-XII.2. Serie, paralelo y selección funcional de rutas
+## Sólo podría reabrirse mediante una investigación nueva
 
-XII.3. Arquitecturas de selección de rutas: inhibición, combinación y retorno
+No mediante corrección editorial, sino demostrando desde cero:
 
-XII.4. Neuronas como ejemplo superior, no como fundamento de todo régimen viviente
+1. qué magnitud electromagnética concreta es (q);
+2. qué parámetros físicos concretos forman (\theta);
+3. por qué su pérdida de rango identifica una interfaz y no sólo una singularidad paramétrica;
+4. bajo qué hipótesis existe la doble implicación;
+5. qué variable independiente representa el estado reconfigurado;
+6. cómo actúa realmente (B_{\mathrm{reg}});
+7. qué predicción o consecuencia aporta la reconfiguración;
+8. qué contraejemplos quedan excluidos;
+9. cómo se diferencia de interfaces, bifurcaciones, cambios de fase y operadores de frontera ya conocidos.
 
-XII.5. Señal, canal, diccionario y retorno
+Eso sería **otra publicación del SV**, previa a cualquier artículo sobre la ecuación completa.
 
-XII.6. Comparador retroalimentado de autogobierno y gestión del desorden
+# 8. Lección operativa para las próximas publicaciones
 
-XII.7. Capacidades, conjuntos lógicos y retorno de datos codificados
+La novatada termina aquí. El orden obligatorio será:
 
-XII.8. Diferencia entre recepción pasiva, cálculo interno y respuesta viviente
+[
+\boxed{
+\begin{array}{c}
+\text{lectura canónica completa}\
+\downarrow\
+\text{afirmación nuclear en una frase}\
+\downarrow\
+\text{anterioridad por componentes}\
+\downarrow\
+\text{auditoría de cada teorema que sostiene la diferencia}\
+\downarrow\
+\text{decisión: artículo o detención}\
+\downarrow\
+\text{elección de revista}\
+\downarrow\
+\text{arquitectura y redacción}
+\end{array}}
+]
 
-## XIII. Célula, tejido, órgano y organismo biológico ordinario
+No volveremos a elegir revista a partir del título o de la apariencia general de una publicación.
 
-XIII.1. Célula como primera estación biológica fuerte de la fibra
+## Dictamen final
 
-XIII.2. Célula normal, alterada, lesionada, patológica y transformada
+[
+\boxed{
+\textbf{La ecuación única no está invalidada dentro del SV,}
+}
+]
 
-XIII.3. Tejido como coordinación de células y matriz
+pero:
 
-XIII.4. Órgano como integración funcional de tejidos
+[
+\boxed{
+\textbf{su diferencia publicable internacionalmente depende de }
+\mathbb F_{\mathrm{SV}},
+\textbf{ y }\mathbb F_{\mathrm{SV}}
+\textbf{ no está formalmente demostrada.}
+}
+]
 
-XIII.5. Organismo biológico ordinario como arquitectura jerarquizada de retornos
+Por tanto:
 
-XIII.6. Muerte física, traza y pérdida de retorno vital global
+[
+\boxed{\textbf{STOP. Se detiene este frente editorial.}}
+]
 
-## XIV. Mutación, enfermedad y cáncer como pruebas de la frontera viviente
-
-XIV.1. Mutación como diferencia con retorno
-
-XIV.2. Variabilidad heredable y linaje
-
-XIV.3. Enfermedad como residual no gobernado
-
-XIV.4. Reparación como continuidad con huella
-
-XIV.5. Cáncer como dominancia local contra integración orgánica
-
-XIV.6. U legítima en biología, clínica y diagnóstico, sin tránsito pendiente
-
-## XV. Especie, clase, linaje, desdoblamiento y retorno demostrado
-
-XV.1. Especie como dominio de continuidad bajo cambio
-
-XV.2. Clase, familia y linaje sin esencia inmóvil
-
-XV.3. Evolución como variación trazable, no como finalidad
-
-XV.4. Desdoblamiento y derivación bajo identidad tipada
-
-XV.5. Línea del Umbral aplicada a clases, especies e intensidades de régimen
-
-XV.6. Retorno paleontológico, genético, morfológico y funcional como retorno compuesto
-
-XV.7. Extinción, traza y residual conservado
-
-XV.8. Fibra humana singular como derivada evolutiva y transducida
-
-## XVI. Sexo, polaridad humana, dimorfismo, hambre, egoísmo y conducta: preparación formal
-
-XVI.1. Por qué estos dominios no deben entrar por lenguaje ordinario
-
-XVI.2. Sexo biológico por dominio: cromosómico, gonadal, hormonal, gamético, anatómico, conductual y social
-
-XVI.3. Polaridad humana, viabilidad cromosómica y diferencia no moral
-
-XVI.4. Hambre como predominancia de conservación bajo señales metabólicas
-
-XVI.5. Egoísmo como posible dominancia de retorno propio, no como juicio moral inicial
-
-XVI.6. Cooperación y competencia bajo frontera compartida
-
-XVI.7. Criterio de tratamiento posterior: dominio, señal, circuito, residual y retorno
-
-## XVII. Matriz ternaria de lo viviente, lo no viviente y casos límite bajo tránsito demostrado
-
-XVII.1. 0, 1 y U en dominios biológicos
-
-XVII.2. Química persistente sin régimen viviente
-
-XVII.3. Virus, virión y entidad replicativa dependiente
-
-XVII.4. Priones, esporas, semillas y latencia
-
-XVII.5. Cristales, fuego, IA, cadáver y órgano aislado
-
-XVII.6. Casos mixtos: microbiota, biofilm, simbiosis y tolerancia
-
-XVII.7. Humanoides, androides y sistemas artificiales con respuesta orientada simulada
-
-XVII.8. Autorreconocimiento del Ser individual
-
-XVII.9. Diferencia entre conciencia y consciencia del Ser de un individuo
-
-XVII.10. Agrupación y agregación como argumentos de protección colectiva y reproducción de los individuos
-
-XVII.11. Dominancia individual y colectiva
-
-XVII.12. Control de U: no clausura honesta sin función de tránsito
-
-## XVIII. Teorema de definición de lo viviente y garantía de tránsito
-
-XVIII.1. Hipótesis
-
-XVIII.2. Enunciado
-
-XVIII.3. Demostración por fibra, dominio, frontera, capacidades y retorno
-
-XVIII.4. Garantía de tránsito entre dominios
-
-XVIII.5. Corolario de organización no viviente
-
-XVIII.6. Corolario de régimen viviente biológico
-
-XVIII.7. Corolario de no reducción a sustancia ni a oposición verbal
-
-## XIX. Refutación, errores de plano y límites de alcance
-
-XIX.1. Qué refutaría la distinción propuesta
-
-XIX.2. Qué no la refuta
-
-XIX.3. Error de plano, salto molecular y analogía libre
-
-XIX.4. Control de U legítima sin tránsito pendiente
-
-XIX.5. Límite clínico, biológico y evolutivo
-
-XIX.6. Límite del organismo biológico ordinario y distinción respecto del organismo de dominio
-
-XIX.7. Reglas para desarrollos posteriores vinculados al plano biológico, humanoide y de dominio-universo
-
-## XX. Arraigo, hábitat natural y principal del viviente
-
-XX.1. Arraigo como permanencia trazable de sucesos bajo dominio
-
-XX.2. Casa, familia, comunidad, país y Tierra como dominios de retorno vital
-
-XX.3. Arraigo planetario, solar, galáctico y universal
-
-XX.4. Hábitat natural y principal como dominio de retorno vital dominante
-
-XX.5. Ajenidad legítima respecto de sucesos no locales
-
-XX.6. Apertura interdominio y conservación append-only
-
-XX.7. Tránsito tecnológico entre dominios-universo como teorema condicional firme
-
-XX.8. Nulidad del viaje al pasado como reescritura de sucesos inscritos
-
-XX.9. Lema del arraigo del viviente a su hábitat natural y principal
-
-Conclusión
-
-Bibliografía
-
-## Anexos
-
-Anexo A. Del borde preformal a la polaridad humana: Línea del Umbral SV, realización ternaria y viabilidad cromosómica
-
-Anexo B. Del viviente mínimo a la pluralidad de especies: desdoblamientos, derivaciones y retorno de linajes bajo registro paleontológico
-
-Anexo C. Del tercer nivel triprimitivo (bisabuelo formal) al Universo físico viviente: descenso triprimitivo, organismo de dominio y transducción no confinante
-
-Anexo D. Del átomo formal al átomo realizado: ciclo de constitución del átomo fundamental y retorno entre dominios
-
-Anexo E. El arraigo de Universo: cadena de anclaje, vectores de pertenencia y retorno hasta la Línea del Umbral SV
-
-Anexo F. Lema del arraigo del viviente a su hábitat natural y principal: frontera local, apertura interdominio y conservación append-only
+[1]: https://arxiv.org/abs/2212.11930 "Finite Element Methods for Linear Maxwell's Equations in Bianisotropic Media Permitting Polarization Fields and Magnetic Currents"
+[2]: https://www.sciencedirect.com/science/article/pii/S0045782504003470?utm_source=chatgpt.com "Energy norm a posteriori error estimation for mixed discontinuous Galerkin approximations of the Maxwell operator - ScienceDirect"
+[3]: https://www.sciencedirect.com/science/article/pii/S0096300315010115?utm_source=chatgpt.com "Handling the divergence constraints in Maxwell and Vlasov–Maxwell simulations - ScienceDirect"
+[4]: https://www.jpier.org/issues/volume.html?paper=06061302 "volume | PIER Journals"
+[5]: https://www.sciencedirect.com/science/article/pii/S0022039622002431?utm_source=chatgpt.com "M-dissipative boundary conditions and boundary tuples for Maxwell operators - ScienceDirect"
+[6]: https://www.cambridge.org/core/journals/esaim-mathematical-modelling-and-numerical-analysis/article/singularities-of-maxwell-interface-problems/F7E417DCA8C2D76A58747979C42842A2?utm_source=chatgpt.com "Singularities of Maxwell interface problems | ESAIM: Mathematical Modelling and Numerical Analysis | Cambridge Core"
