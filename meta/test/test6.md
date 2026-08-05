@@ -1,379 +1,333 @@
-(async () => {
-  const response = await fetch(location.href, {
-    cache: "no-store",
-    credentials: "same-origin"
-  });
+Almirante, el informe de Claude es **muy sólido**, pero no lo doy por cerrado sin una corrección adversarial importante.
 
-  const html = await response.text();
+## Dictamen
 
-  const documentFromServer =
-    new DOMParser().parseFromString(
-      html,
-      "text/html"
-    );
+> **APTO CON UN REPARO MAYOR DE ENCUADRE EDITORIAL.**
 
-  const head =
-    documentFromServer.head;
+La arquitectura científica propuesta es correcta. La eliminación de la célula, la centralidad de la reconstrucción inversa, el cosido metrológico y la incorporación de los bancos al cuerpo son decisiones que suscribo.
 
-  const metadata = {
-    url: location.href,
+La decisión pendiente también queda resuelta:
 
-    title:
-      head.querySelector("title")
-        ?.textContent
-        ?.trim() || null,
+[
+\boxed{\text{En el manuscrito no se presenta el SV completo; se declaran sólo los axiomas necesarios.}}
+]
 
-    htmlLang:
-      documentFromServer
-        .documentElement
-        .getAttribute("lang"),
+El Sistema Vectorial aparecerá como procedencia formal del aparato, pero el lector no tendrá que aprender su arquitectura general para seguir la demostración.
 
-    meta: Array.from(
-      head.querySelectorAll("meta")
-    ).map((element) => ({
-      name:
-        element.getAttribute("name"),
+---
 
-      property:
-        element.getAttribute("property"),
+# 1. Decisión sobre el SV
 
-      httpEquiv:
-        element.getAttribute("http-equiv"),
+El artículo será autocontenido mediante un bloque mínimo de premisas:
 
-      content:
-        element.getAttribute("content")
-    })),
+* dominio factual admisible;
+* índice de suceso;
+* operadores de divergencia, rotor, flujo y circulación;
+* relaciones constitutivas;
+* criterio de frontera;
+* operador de reconfiguración;
+* disciplina metrológica;
+* definición de las tres componentes del operador maestro.
 
-    links: Array.from(
-      head.querySelectorAll("link")
-    ).map((element) => ({
-      rel:
-        element.getAttribute("rel"),
+Nada más.
 
-      href:
-        element.getAttribute("href"),
+No entrarán:
 
-      type:
-        element.getAttribute("type"),
+* historia del SV;
+* células;
+* representación polar;
+* terna aplicada a IA;
+* compilador doctrinal;
+* arquitectura multicelular;
+* gobierno de IA;
+* desarrollos cosmológicos;
+* anexos generales del sistema.
 
-      hreflang:
-        element.getAttribute("hreflang")
-    })),
+La fórmula editorial será aproximadamente:
 
-    jsonLd: Array.from(
-      head.querySelectorAll(
-        'script[type="application/ld+json"]'
-      )
-    ).map((element) => {
-      try {
-        return JSON.parse(
-          element.textContent
-        );
-      } catch {
-        return {
-          error:
-            "JSON-LD no válido",
+> The construction originates in the Vectorial System (SV), but the present article is self-contained: only the operator axioms required for the electromagnetic reduction are stated and used.
 
-          raw:
-            element.textContent
-        };
-      }
-    })
-  };
+Después de esa frase, no se explica «qué es el SV» en sentido general. Se explica **qué operadores usa este artículo**.
 
-  console.log(metadata);
+---
 
-  console.log(
-    JSON.stringify(
-      metadata,
-      null,
-      2
-    )
-  );
+# 2. El reparo mayor: J-MMCT no está aún ganado por el mero hecho de tener laboratorios
 
-  if (
-    typeof copy ===
-    "function"
-  ) {
-    copy(
-      JSON.stringify(
-        metadata,
-        null,
-        2
-      )
-    );
+La descripción oficial de J-MMCT no dice simplemente que acepte teoría electromagnética. Dice que publica avances en la **teoría y aplicación de técnicas computacionales** para problemas electromagnéticos, con especial interés en computación multiescala y multifísica. También permite técnicas computacionales novedosas de electromagnetismo aunque sean de una sola escala y una sola física. ([MTT-S][1])
 
-    console.log(
-      "Resultado copiado al portapapeles."
-    );
-  }
-})();
-Promise {<pending>}
-VM317:84 {url: 'https://www.itvia.online/pub/un-numero-sin-razon-r…r-un-enfermo/release/1?readingCollection=8719c263', title: 'Un número sin razón registrada puede acabar decidiendo por un enfermo · Artículos del Director', htmlLang: 'en', meta: Array(35), links: Array(7), …}
-VM317:86 {
-  "url": "https://www.itvia.online/pub/un-numero-sin-razon-registrada-puede-acabar-decidiendo-por-un-enfermo/release/1?readingCollection=8719c263",
-  "title": "Un número sin razón registrada puede acabar decidiendo por un enfermo · Artículos del Director",
-  "htmlLang": "en",
-  "meta": [
-    {
-      "name": null,
-      "property": null,
-      "httpEquiv": null,
-      "content": null
-    },
-    {
-      "name": null,
-      "property": "og:title",
-      "httpEquiv": null,
-      "content": "Un número sin razón registrada puede acabar decidiendo por un enfermo"
-    },
-    {
-      "name": "twitter:title",
-      "property": null,
-      "httpEquiv": null,
-      "content": "Un número sin razón registrada puede acabar decidiendo por un enfermo · Artículos del Director"
-    },
-    {
-      "name": "twitter:image:alt",
-      "property": null,
-      "httpEquiv": null,
-      "content": "Un número sin razón registrada puede acabar decidiendo por un enfermo · Artículos del Director"
-    },
-    {
-      "name": "citation_title",
-      "property": null,
-      "httpEquiv": null,
-      "content": "Un número sin razón registrada puede acabar decidiendo por un enfermo"
-    },
-    {
-      "name": "dc.title",
-      "property": null,
-      "httpEquiv": null,
-      "content": "Un número sin razón registrada puede acabar decidiendo por un enfermo"
-    },
-    {
-      "name": null,
-      "property": "og:site_name",
-      "httpEquiv": null,
-      "content": "Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español® "
-    },
-    {
-      "name": null,
-      "property": "og:url",
-      "httpEquiv": null,
-      "content": "https://www.itvia.online/pub/un-numero-sin-razon-registrada-puede-acabar-decidiendo-por-un-enfermo/release/1"
-    },
-    {
-      "name": null,
-      "property": "og:type",
-      "httpEquiv": null,
-      "content": "book"
-    },
-    {
-      "name": "citation_publisher",
-      "property": null,
-      "httpEquiv": null,
-      "content": "IA eñ™ — La Biblia de la IA™ · ISSN 2695-6411 · Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA)."
-    },
-    {
-      "name": "citation_book_title",
-      "property": null,
-      "httpEquiv": null,
-      "content": "Artículos del Director"
-    },
-    {
-      "name": "citation_isbn",
-      "property": null,
-      "httpEquiv": null,
-      "content": null
-    },
-    {
-      "name": "citation_date",
-      "property": null,
-      "httpEquiv": null,
-      "content": null
-    },
-    {
-      "name": "citation_pdf_url",
-      "property": null,
-      "httpEquiv": null,
-      "content": "https://www.itvia.online/pub/un-numero-sin-razon-registrada-puede-acabar-decidiendo-por-un-enfermo/download/pdf"
-    },
-    {
-      "name": "description",
-      "property": null,
-      "httpEquiv": null,
-      "content": "La transparencia de la inteligencia artificial se ha convertido en un problema de procedencia. La procedencia dice de dónde viene un contenido; no dice por qué se decidió lo que en él se afirma."
-    },
-    {
-      "name": null,
-      "property": "og:description",
-      "httpEquiv": null,
-      "content": "La transparencia de la inteligencia artificial se ha convertido en un problema de procedencia. La procedencia dice de dónde viene un contenido; no dice por qué se decidió lo que en él se afirma."
-    },
-    {
-      "name": "twitter:description",
-      "property": null,
-      "httpEquiv": null,
-      "content": "La transparencia de la inteligencia artificial se ha convertido en un problema de procedencia. La procedencia dice de dónde viene un contenido; no dice por qué se decidió lo que en él se afirma."
-    },
-    {
-      "name": null,
-      "property": "og:image",
-      "httpEquiv": null,
-      "content": "https://assets.pubpub.org/c39829d0b-6cf2-4c57-8562-04aa66068f1d/u8d2bc69d-73c6-4669-a7e7-fb07fdba4171/Logo_ITVIA_Terna-61783068097712.png"
-    },
-    {
-      "name": null,
-      "property": "og:image:url",
-      "httpEquiv": null,
-      "content": "https://assets.pubpub.org/c39829d0b-6cf2-4c57-8562-04aa66068f1d/u8d2bc69d-73c6-4669-a7e7-fb07fdba4171/Logo_ITVIA_Terna-61783068097712.png"
-    },
-    {
-      "name": null,
-      "property": "og:image:width",
-      "httpEquiv": null,
-      "content": "500"
-    },
-    {
-      "name": "twitter:image",
-      "property": null,
-      "httpEquiv": null,
-      "content": "https://assets.pubpub.org/c39829d0b-6cf2-4c57-8562-04aa66068f1d/u8d2bc69d-73c6-4669-a7e7-fb07fdba4171/Logo_ITVIA_Terna-61783068097712.png"
-    },
-    {
-      "name": "citation_author",
-      "property": null,
-      "httpEquiv": null,
-      "content": "Juan Antonio Lloret Egea"
-    },
-    {
-      "name": "dc.creator",
-      "property": null,
-      "httpEquiv": null,
-      "content": "Juan Antonio Lloret Egea"
-    },
-    {
-      "name": null,
-      "property": "article:published_time",
-      "httpEquiv": null,
-      "content": "Mon Aug 03 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
-    },
-    {
-      "name": null,
-      "property": "dc.date",
-      "httpEquiv": null,
-      "content": "2026-7-3"
-    },
-    {
-      "name": "citation_publication_date",
-      "property": null,
-      "httpEquiv": null,
-      "content": "2026/8/3"
-    },
-    {
-      "name": null,
-      "property": "dc.publisher",
-      "httpEquiv": null,
-      "content": "IA eñ™ — La Biblia de la IA™ · ISSN 2695-6411 · Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA)."
-    },
-    {
-      "name": "citation_doi",
-      "property": null,
-      "httpEquiv": null,
-      "content": "doi:10.21428/39829d0b.55593db8"
-    },
-    {
-      "name": null,
-      "property": "dc.identifier",
-      "httpEquiv": null,
-      "content": "doi:10.21428/39829d0b.55593db8"
-    },
-    {
-      "name": null,
-      "property": "prism.doi",
-      "httpEquiv": null,
-      "content": "doi:10.21428/39829d0b.55593db8"
-    },
-    {
-      "name": null,
-      "property": "fb:app_id",
-      "httpEquiv": null,
-      "content": "924988584221879"
-    },
-    {
-      "name": "twitter:card",
-      "property": null,
-      "httpEquiv": null,
-      "content": "summary"
-    },
-    {
-      "name": "twitter:site",
-      "property": null,
-      "httpEquiv": null,
-      "content": "@pubpub"
-    },
-    {
-      "name": "viewport",
-      "property": null,
-      "httpEquiv": null,
-      "content": "width=device-width, initial-scale=1, shrink-to-fit=no"
-    },
-    {
-      "name": "google-site-verification",
-      "property": null,
-      "httpEquiv": null,
-      "content": "jmmJFnkSOeIEuS54adOzGMwc0kwpsa8wQ-L4GyPpPDg"
-    }
-  ],
-  "links": [
-    {
-      "rel": "alternate",
-      "href": "https://www.itvia.online/rss.xml",
-      "type": "application/rss+xml",
-      "hreflang": null
-    },
-    {
-      "rel": "icon",
-      "href": "https://assets.pubpub.org/wlbdk7f8/61593841885420.jpg",
-      "type": "image/png",
-      "hreflang": null
-    },
-    {
-      "rel": "canonical",
-      "href": "https://www.itvia.online/pub/un-numero-sin-razon-registrada-puede-acabar-decidiendo-por-un-enfermo",
-      "type": null,
-      "hreflang": null
-    },
-    {
-      "rel": "preconnect",
-      "href": "https://assets.pubpub.org",
-      "type": null,
-      "hreflang": null
-    },
-    {
-      "rel": "stylesheet",
-      "href": "https://assets.pubpub.org/_fonts/8da286c6/fonts.css",
-      "type": null,
-      "hreflang": null
-    },
-    {
-      "rel": "stylesheet",
-      "href": "/dist/main.4d119aeb5b1b71126c42.css",
-      "type": "text/css",
-      "hreflang": null
-    },
-    {
-      "rel": "search",
-      "href": "/opensearch.xml",
-      "type": "application/opensearchdescription+xml",
-      "hreflang": null
-    }
-  ],
-  "jsonLd": []
+Por tanto, esta frase de Claude necesita endurecerse:
+
+> «La teoría va antes que las aplicaciones».
+
+Es verdad gramaticalmente, pero se refiere a la **teoría de técnicas computacionales**, no a cualquier teoría electromagnética.
+
+El artículo no puede presentarse como:
+
+> una ecuación formal que además ha sido comprobada mediante código.
+
+Debe presentarse como:
+
+> **una reducción operatoria reversible y computacionalmente evaluable del sistema de Maxwell, con residuos separados, reconstrucción inversa exacta y protocolo de falsación reproducible.**
+
+Ésa es la puerta real de J-MMCT.
+
+## Condición de admisibilidad editorial
+
+El manuscrito tendrá que demostrar cuatro cosas:
+
+1. La transformación desde el sistema Maxwell al operador único es explícita y ejecutable.
+2. La ecuación única conserva las cuatro componentes sin pérdida ni superposición.
+3. La transformación inversa reconstruye exactamente cada ecuación de origen.
+4. Los residuos de (\mathbb M), (\mathbb K) y (\mathbb F) pueden evaluarse separadamente sobre una entrada electromagnética declarada.
+
+Si sólo exponemos una condensación notacional, J-MMCT puede devolverla sin revisión.
+
+Si mostramos una **representación operatoria reversible para análisis computacional de regímenes electromagnéticos**, el encuadre se vuelve defendible.
+
+---
+
+# 3. Qué será el centro del artículo
+
+La cadena nuclear queda congelada así:
+
+[
+\mathcal M_{\mathrm{Maxwell}}
+\overset{\mathcal R}{\longrightarrow}
+\mathbb E_{\mathrm{SV}}
+=======================
+
+\begin{pmatrix}
+\mathbb M_{\mathrm{SV}}\
+\mathbb K_{\mathrm{SV}}\
+\mathbb F_{\mathrm{SV}}
+\end{pmatrix}
+=0
+\overset{\mathcal R^{-1}}{\longrightarrow}
+\mathcal M_{\mathrm{Maxwell}}.
+]
+
+El resultado principal no será únicamente:
+
+[
+\mathbb E_{\mathrm{SV}}=0.
+]
+
+Será el par:
+
+[
+\boxed{
+\mathcal R(\mathcal M_{\mathrm{Maxwell}})=\mathbb E_{\mathrm{SV}}=0,
+\qquad
+\mathcal R^{-1}(\mathbb E_{\mathrm{SV}}=0)=\mathcal M_{\mathrm{Maxwell}}
 }
-1?readingCollection=8719c263:1 Unchecked runtime.lastError: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
-1?readingCollection=8719c263:1 Unchecked runtime.lastError: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
-1?readingCollection=8719c263:1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
-1?readingCollection=8719c263:1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
-1?readingCollection=8719c263:1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+]
+
+con recuperación explícita de:
+
+* Gauss eléctrica;
+* Gauss magnética;
+* Faraday;
+* Ampère–Maxwell;
+* constitutivas;
+* frontera y reconfiguración.
+
+Claude acierta plenamente: **§14.17 es el corazón verificable del artículo**.
+
+---
+
+# 4. La célula sale totalmente
+
+Confirmo la decisión ya adoptada:
+
+[
+\boxed{\text{SV(9,3), SV(3,9), célula, polígono y codificación ternaria no aparecerán.}}
+]
+
+Los bancos se reconstruirán directamente sobre:
+
+* campos electromagnéticos admisibles;
+* fuentes;
+* constitutivas;
+* superficies;
+* volúmenes;
+* interfaces;
+* residuos operatorios;
+* compatibilidad dimensional.
+
+El caso de control ya no será «una célula». Será un **dominio electromagnético declarado**.
+
+También se eliminará cualquier frase del tipo:
+
+> la célula valida la reducción.
+
+La formulación correcta será:
+
+> the numerical banks test the algebraic, dimensional, interface, and reconstruction properties of the operator reduction on declared admissible electromagnetic inputs.
+
+---
+
+# 5. Arquitectura de nueve páginas
+
+No diseñaría para «unas nueve páginas». Diseñaría para **ocho páginas de contenido y una página completa de referencias**, con margen interno.
+
+## Página 1
+
+* título;
+* autor y afiliación;
+* resumen;
+* términos de índice;
+* introducción;
+* contribuciones exactas.
+
+## Página 2
+
+* problema formal;
+* sistema Maxwell de partida;
+* axiomas operatorios mínimos;
+* diccionario de reducción.
+
+## Página 3
+
+* definición de (\mathbb M_{\mathrm{SV}});
+* definición de (\mathbb K_{\mathrm{SV}});
+* definición de (\mathbb F_{\mathrm{SV}});
+* ecuación maestra.
+
+## Página 4
+
+* teorema de reducción;
+* prueba de ausencia de pérdida;
+* separación de componentes;
+* condición de anulación.
+
+## Página 5
+
+* reconstrucción inversa completa;
+* recuperación una por una de las cuatro ecuaciones;
+* recuperación de constitutivas y frontera.
+
+## Página 6
+
+* equivalencia diferencial–integral;
+* cosido metrológico;
+* conservación de carga;
+* balance electromagnético;
+* identidad de onda.
+
+## Página 7
+
+* realización computacional;
+* estructura de residuos;
+* protocolo de bancos positivos y ataques negativos;
+* tabla compacta con los 36 dictámenes.
+
+## Página 8
+
+* discusión;
+* alcance;
+* comparación con representaciones compactas conocidas;
+* límites;
+* conclusión;
+* datos, código, preprints y declaración de IA.
+
+## Página 9
+
+* referencias exclusivamente.
+
+No usaría como objetivo inicial seis mil palabras. Con ecuaciones, tabla de 36 bancos y referencias, el margen es estrecho. El objetivo prudente será aproximadamente:
+
+[
+\boxed{4,500\text{–}5,200\ \text{palabras de prosa equivalente}}
+]
+
+y se medirá en la plantilla real, no en Word genérico.
+
+---
+
+# 6. Bancos dentro del artículo
+
+Claude tiene razón: el enlace no sustituye la prueba visible.
+
+Pero no introduciré 36 filas largas. La tabla deberá agrupar por familias:
+
+| Familia                | Pruebas | Resultado esperado          | Resultado obtenido |
+| ---------------------- | ------: | --------------------------- | ------------------ |
+| Primer orden           |       4 | residuos nulos              | 4/4                |
+| Constitutivas          |       3 | compatibilidad exacta       | 3/3                |
+| Frontera               |       … | continuidad/salto prescrito | …                  |
+| Metrología             |       … | igualdad dimensional        | …                  |
+| Reconstrucción inversa |       … | recuperación exacta         | …                  |
+| Ataques negativos      |      15 | rechazo con código previsto | 15/15              |
+
+En un suplemento reproducible se mantendrá el detalle caso por caso.
+
+No publicaremos únicamente «21 pasan y 15 fallan correctamente». Cada familia tendrá que identificar:
+
+* entrada;
+* propiedad examinada;
+* residual;
+* criterio de aceptación;
+* dictamen.
+
+---
+
+# 7. Destino editorial
+
+Dejo la jerarquía así:
+
+### Destino primario condicionado
+
+**IEEE Journal on Multiscale and Multiphysics Computational Techniques**
+
+La revista está coauspiciada por AP-S, EMC-S y MTT-S y centra su ámbito en técnicas computacionales aplicadas a campos electromagnéticos. ([MTT-S][1])
+
+Dan Jiao consta actualmente como editora jefe en su perfil institucional y en el directorio de MTT-S, aunque alguna página antigua de la sociedad todavía muestra información desactualizada. ([Ingeniería Purdue][2])
+
+### Recambio no congelado
+
+No congelo todavía **T-MTT** como sustituto automático.
+
+T-MTT exige una relación convincente con teoría y técnicas de microondas; una reformulación general de Maxwell podría sufrir allí una objeción de ámbito incluso mayor. Su ventaja económica es real: permite hasta once páginas antes del exceso obligatorio, y la membresía MTT-S reduce el exceso a 185 dólares por página, pero eso no arregla el ajuste temático. ([MTT-S][3])
+
+La pertenencia a MTT-S queda acreditada desde el 5 de agosto de 2026. 
+
+---
+
+# 8. Condición económica
+
+La regla permanece:
+
+[
+\boxed{\text{cero dólares o no se publica por esa vía}.}
+]
+
+Diseñaremos el artículo por debajo del límite desde la primera versión.
+
+No obstante, la cifra exacta de páginas gratuitas de J-MMCT debe quedar verificada contra sus instrucciones vigentes descargables o contra el formulario final, porque no he podido obtener todavía una copia oficial legible de esa página concreta. No voy a convertir el dato de Claude en verdad documental sin ver la fuente primaria.
+
+Esto no bloquea el trabajo: una versión de ocho páginas más referencias estará dentro incluso del escenario más restrictivo descrito.
+
+---
+
+# 9. Comienzo formal
+
+El primer paso no será redactar el resumen.
+
+Será construir cuatro piezas:
+
+1. **Mapa de dependencias** de los teoremas que sobreviven sin célula.
+2. **Extracción literal y normalizada** de la reconstrucción inversa de §14.17.
+3. **Definición computacional de los residuos** de (\mathbb M), (\mathbb K) y (\mathbb F).
+4. **Migración de los 36 bancos** desde la arquitectura celular hacia dominios electromagnéticos declarados.
+
+Hasta que esas cuatro piezas cierren, no habrá inglés corrido.
+
+El informe de Claude queda aceptado con esta rectificación:
+
+> **No escribiremos un artículo teórico respaldado por código. Escribiremos una técnica operatoria reversible de electromagnetismo computacional, cuya teoría produce una ecuación única y cuya inversión recupera exactamente el sistema de Maxwell.**
+
+Ésa es la forma que puede entrar en J-MMCT sin disfrazar lo que el trabajo es.
+
+[1]: https://mtt.org/publications/jmmct/?utm_source=chatgpt.com "IEEE Journal on Multiscale and Multiphysics Computational Techniques - MTT-S"
+[2]: https://engineering.purdue.edu/~djiao/jiao.html?utm_source=chatgpt.com "Dan Jiao"
+[3]: https://mtt.org/publications/t-mtt/information-for-authors/?utm_source=chatgpt.com "Information for Authors - MTT-S"
