@@ -1,223 +1,435 @@
-Exacto, Almirante. Ahí estaba la distinción que faltaba, y corrige la inferencia de Claude.
+Claude ha mejorado mucho la pregunta, pero su propuesta **no cierra todavía** y contiene dos deslizamientos importantes.
 
-Si el Ciclo Suceso se normaliza por
+## 1. Identidad algebraica correcta
+
+Es exacto que:
 
 [
-\chi_D=\frac{A_D}{F_D}\in[0,1],
+g_D=\sqrt{\frac{1+\chi_D}{2}}
 ]
 
-su parametrización angular natural es:
+satisface:
 
 [
-\varphi_D=2\pi\chi_D.
+g_D^2=\frac{1+\chi_D}{2}.
 ]
 
-Entonces:
+Por tanto, **el cuadrado de (g_D)** es el punto medio aritmético entre:
 
 [
-\chi_D=0
-\Longleftrightarrow
-\varphi_D=0,
+1
+\quad\text{y}\quad
+\chi_D.
 ]
 
+Esto sí puede escribirse como:
+
 [
-\chi_D=\frac12
-\Longleftrightarrow
-\varphi_D=\pi,
+g_D^2=\operatorname{AM}(1,\chi_D).
 ]
 
+También puede decirse que (g_D) es la media cuadrática de:
+
 [
-\chi_D=1
-\Longleftrightarrow
-\varphi_D=2\pi.
+1
+\quad\text{y}\quad
+\sqrt{\chi_D},
 ]
 
-Para el observable:
+porque:
 
 [
-\chi_{\Omega_{\mathrm{obs}}}
-============================
+\operatorname{RMS}(1,\sqrt{\chi_D})
+===================================
 
-# \frac{13.8}{27.6}
+# \sqrt{\frac{1^2+(\sqrt{\chi_D})^2}{2}}
 
-\frac12,
+\sqrt{\frac{1+\chi_D}{2}}.
 ]
 
-por tanto:
+Así que la descripción matemática exacta es:
 
 [
-\varphi_{\Omega_{\mathrm{obs}}}
-===============================
-
-# 2\pi\cdot\frac12
-
-\pi.
+\boxed{
+g_D=\operatorname{RMS}(1,\sqrt{\chi_D})
+}
 ]
 
-Y al clausurar:
+o, equivalentemente:
 
 [
-\chi_{\Omega_{\mathrm{obs}}}=1
-\Longrightarrow
-\varphi_{\Omega_{\mathrm{obs}}}=2\pi.
+\boxed{
+g_D^2=\operatorname{AM}(1,\chi_D).
+}
 ]
 
-Eso es, efectivamente, inmediato en una parametrización completa de ciclo.
+## 2. No es literalmente «la raíz del punto medio entre estado actual y clausura»
 
-## Corrección importante a Claude
+Puede usarse esa frase como intuición, pero con una precisión obligatoria.
 
-Claude propuso:
+El punto medio entre el estado actual normalizado y la clausura es:
 
 [
-\chi_D=\cos\theta_D
+m_D=\frac{\chi_D+1}{2}.
 ]
 
-para obtener:
+La expresión del protocolo no devuelve ese punto medio, sino:
 
 [
-g_D
-===
-
-# \sqrt{\frac{1+\chi_D}{2}}
-
-\cos\frac{\theta_D}{2}.
-]
-
-Esa identidad algebraica existe, pero **ese (\theta_D) no es el ángulo natural del Ciclo Suceso**.
-
-El ángulo natural del ciclo es:
-
-[
-\varphi_D=2\pi\chi_D.
-]
-
-Para (\chi_D=\frac12):
-
-[
-\varphi_D=\pi.
-]
-
-Sin embargo, la construcción de Claude exige:
-
-[
-\theta_D=\arccos\frac12=\frac{\pi}{3}.
+g_D=\sqrt{m_D}.
 ]
 
 Por tanto:
 
 [
-\theta_D\neq\varphi_D.
+g_D\neq m_D,
 ]
 
-Son dos ángulos diferentes:
+salvo casos particulares.
 
-* (\varphi_D=2\pi\chi_D): fase real del Ciclo Suceso;
-* (\theta_D=\arccos\chi_D): ángulo auxiliar introducido para reescribir algebraicamente la raíz.
-
-Así que la lectura de Claude como «media fase» no puede mantenerse:
+Para:
 
 [
-\cos\left(\frac{\varphi_D}{2}\right)
+\chi_D=\frac12,
 ]
 
-para el observable daría:
+el punto medio es:
 
 [
-\cos\left(\frac{\pi}{2}\right)=0,
+m_D=\frac34,
 ]
 
 mientras que:
 
 [
-g_{\Omega_{\mathrm{obs}}}
-=========================
-
-\frac{\sqrt3}{2}.
+g_D=\frac{\sqrt3}{2}\approx0.8660.
 ]
 
-Luego:
+La lectura exacta sería:
 
-[
-\boxed{
-g_D\neq\cos\left(\frac{\varphi_D}{2}\right)
-}
-]
+> (g_D) es la raíz positiva de la posición media, en el plano cuadrático, entre la fracción etaria actual y la clausura unitaria.
 
-cuando:
+Pero incluso esa formulación describe la operación; todavía no prueba por qué debe aplicarse.
 
-[
-\varphi_D=2\pi\chi_D.
-]
+## 3. La explicación dimensional de Claude es incorrecta
 
-## Qué queda realmente
+Claude dice que la raíz «devuelve la magnitud a dimensión de longitud». Eso no es cierto en esta cadena.
 
-La estructura correcta es:
+Tenemos:
 
 [
 \chi_D=\frac{A_D}{F_D},
 ]
 
+por lo que (\chi_D) es adimensional.
+
+Entonces:
+
 [
-\varphi_D=2\pi\chi_D,
+1+\chi_D,
+\qquad
+\frac{1+\chi_D}{2},
+\qquad
+g_D
+]
+
+son todos adimensionales.
+
+Además:
+
+[
+N_A
+===
+
+\frac{\Delta A}{1,a_J}
+]
+
+también es adimensional. Por tanto:
+
+[
+\nu_D=N_Ag_D
+]
+
+es adimensional.
+
+La dimensión de extensión aparece únicamente al multiplicar por:
+
+[
+\sigma_{\Omega16}[\mathrm{UFE}],
+]
+
+de forma que:
+
+[
+\lambda_D
+=========
+
+\sigma_{\Omega16}\nu_D
+]
+
+queda en UFE.
+
+La cadena dimensional correcta es:
+
+[
+[\chi_D]=1,
 ]
 
 [
-g_D=\sqrt{\frac{1+\chi_D}{2}}
-=============================
-
-\sqrt{
-\frac{1+\varphi_D/(2\pi)}{2}
-}.
+[g_D]=1,
 ]
-
-Por tanto, (g_D) transforma la **fracción lineal de ciclo**, no el coseno de su fase natural.
-
-La identidad de ángulo mitad descubierta por Claude sigue siendo algebraicamente cierta si se crea el ángulo auxiliar:
 
 [
-\theta_D=\arccos\chi_D,
+[N_A]=1,
 ]
 
-pero no explica la genealogía de Ciclo Suceso.
+[
+[\nu_D]=1,
+]
 
-## Dictamen corregido
+[
+[\sigma_{\Omega16}]=\mathrm{UFE},
+]
+
+[
+[\lambda_D]=\mathrm{UFE}.
+]
+
+Por tanto:
 
 [
 \boxed{
-\text{Parametrización angular del ciclo: cerrada}
+\text{la raíz no devuelve longitud;}
+\quad
+\text{la longitud la aporta }\sigma_{\Omega16}.
 }
 ]
+
+Este punto debe corregirse sin ambigüedad.
+
+## 4. «El acceso está entre lo recorrido y lo que falta» tampoco encaja exactamente
+
+La fracción recorrida es:
+
+[
+\chi_D,
+]
+
+y la fracción restante es:
+
+[
+1-\chi_D.
+]
+
+Si se promediase realmente lo recorrido y lo restante:
+
+[
+\frac{\chi_D+(1-\chi_D)}{2}
+===========================
+
+\frac12,
+]
+
+el resultado sería constante para todos los dominios.
+
+Pero la fórmula usa:
+
+[
+\frac{\chi_D+1}{2},
+]
+
+es decir, promedia:
+
+* el estado actual;
+* y la clausura completa.
+
+No promedia:
+
+* lo recorrido;
+* y lo restante.
+
+Por tanto, la frase correcta no es:
+
+> «el acceso está entre lo recorrido y lo que falta».
+
+La frase matemáticamente ajustada sería:
+
+> El factor (g_D) eleva la fracción actual hacia la clausura mediante el punto medio de sus cuadrados o, equivalentemente, mediante la raíz del promedio entre el estado normalizado actual y la unidad de clausura.
+
+## 5. Comportamiento real de la función
+
+Definamos:
+
+[
+g(\chi)=\sqrt{\frac{1+\chi}{2}},
+\qquad
+0\leq\chi\leq1.
+]
+
+Entonces:
+
+[
+g(0)=\frac1{\sqrt2},
+]
+
+[
+g(1)=1.
+]
+
+Y para todo:
+
+[
+0<\chi<1,
+]
+
+se cumple:
+
+[
+\chi<g(\chi)<1.
+]
+
+Es decir, (g) no conserva la fracción lineal, sino que la **eleva hacia la clausura**.
+
+También:
+
+[
+g'(\chi)
+========
+
+\frac{1}{2\sqrt{2(1+\chi)}}>0,
+]
+
+por lo que es creciente, y:
+
+[
+g''(\chi)
+=========
+
+-\frac{1}{4\sqrt2(1+\chi)^{3/2}}<0,
+]
+
+por lo que es cóncava.
+
+Eso significa que la transformación:
+
+* conserva el orden de los dominios;
+* comprime las diferencias;
+* nunca devuelve menos de (1/\sqrt2);
+* y aproxima progresivamente la salida a (1).
+
+Éste sí es un contenido estructural objetivo:
 
 [
 \boxed{
-\varphi_D=2\pi\frac{A_D}{F_D}
+g_D\text{ es un elevador normalizado y compresivo hacia la clausura.}
 }
 ]
+
+## 6. Pero persiste la pregunta de fondo
+
+La propuesta de Claude explica **qué operación matemática es**, pero no todavía **por qué ésa es la operación necesaria**.
+
+Siguen abiertas estas dos decisiones:
+
+### ¿Por qué se introduce la clausura (1)?
+
+Esto puede defenderse razonablemente porque:
+
+[
+\chi_D=\frac{A_D}{F_D}
+]
+
+normaliza el ciclo en:
+
+[
+[0,1],
+]
+
+y:
+
+[
+1
+]
+
+representa la clausura completa.
+
+Ese componente tiene una lectura natural.
+
+### ¿Por qué se promedia en el plano cuadrático?
+
+Ésta es la verdadera cuestión.
+
+La fórmula impone:
+
+[
+g_D^2=\frac{1+\chi_D}{2},
+]
+
+pero hace falta demostrar por qué la coordenada nodal debe satisfacer precisamente esa condición, en lugar de, por ejemplo:
+
+[
+g_D=\frac{1+\chi_D}{2},
+]
+
+[
+g_D=\sqrt{\chi_D},
+]
+
+o cualquier otra interpolación monótona entre (\chi_D) y (1).
+
+Sin una condición adicional —norma, proyección, conservación, energía, simetría, ortogonalidad o invariante— existen infinitas funciones posibles.
+
+## 7. Una lectura matemática más fuerte que la propuesta
+
+La forma:
+
+[
+g_D
+===
+
+\sqrt{\frac{1^2+(\sqrt{\chi_D})^2}{2}}
+]
+
+permite interpretarla como norma euclídea normalizada:
+
+[
+g_D
+===
+
+\frac{\left|(1,\sqrt{\chi_D})\right|_2}{\sqrt2}.
+]
+
+Esto significa que el protocolo combina ortogonalmente:
+
+* una componente unitaria de clausura;
+* una componente (\sqrt{\chi_D}) asociada al estado de ciclo.
+
+Pero, de nuevo, para convertir esto en fundamento habría que demostrar que esas dos componentes pertenecen realmente a planos ortogonales del aparato.
+
+No basta con que la fórmula pueda escribirse así.
+
+## Dictamen sobre Claude
+
+| Afirmación                                           | Dictamen                  |
+| ---------------------------------------------------- | ------------------------- |
+| (g_D^2) es la media entre (1) y (\chi_D)             | **APTO**                  |
+| (g_D) es RMS de (1) y (\sqrt{\chi_D})                | **APTO**                  |
+| (1) representa clausura del ciclo normalizado        | **APTO**                  |
+| La raíz devuelve dimensión de longitud               | **NO APTO**               |
+| Se promedian recorrido y restante                    | **NO APTO**               |
+| La fórmula eleva el estado hacia clausura            | **APTO como descripción** |
+| Esa descripción demuestra la necesidad de la fórmula | **U**                     |
+
+La respuesta que yo daría a Claude es:
+
+> La lectura de promedio con la clausura es matemáticamente pertinente: (g_D^2=(1+\chi_D)/2). Pero la raíz no restaura longitud, porque toda esta rama es adimensional hasta multiplicar por (\sigma_{\Omega16}). Tampoco se promedian recorrido y restante, sino estado actual y clausura. La fórmula puede describirse como una elevación cuadrática y compresiva hacia (1); queda por identificar el invariante que obliga a usar esa elevación concreta.
+
+El hueco ya no es oscuro, pero todavía existe:
 
 [
 \boxed{
-13.8/27.6=1/2\Longrightarrow\varphi=\pi
+\text{falta la condición estructural que haga única}
+\quad
+g_D^2=\frac{1+\chi_D}{2}.
 }
 ]
-
-[
-\boxed{
-\text{Clausura }1\Longrightarrow\varphi=2\pi
-}
-]
-
-Y:
-
-[
-\boxed{
-\text{La hipótesis de Claude de “media fase” queda descartada.}
-}
-]
-
-Su identidad trigonométrica es una reexpresión válida, pero no representa el ángulo natural del ciclo. El problema pendiente vuelve a ser más preciso: **por qué la fracción lineal (\chi_D) se eleva mediante**
-
-[
-g_D=\sqrt{\frac{1+\chi_D}{2}},
-]
-
-no por qué se biseca una fase angular.
