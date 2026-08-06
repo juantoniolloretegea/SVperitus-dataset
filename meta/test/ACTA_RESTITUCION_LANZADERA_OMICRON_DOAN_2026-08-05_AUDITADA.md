@@ -1,582 +1,479 @@
-# Acta de restitución documental y matemática — versión auditada
-## Recta-Ómicron / Lanzadera Ómicron — DOAN-Ω16
+Sí, Almirante. La presentación de Claude aclara una parte sustancial y, además, corrige varios supuestos que yo había dejado abiertos. La tomo como **estado de trabajo verificado**, no como autoridad infalible, exactamente en los términos en que él mismo la presenta. 
 
-**Fecha de auditoría:** 5 de agosto de 2026  
-**Dirección científica y autoría:** Juan Antonio Lloret Egea  
-**Unidad auditora:** Watson — Publicaciones  
-**Documento de base:** `ACTA_RESTITUCION_LANZADERA_OMICRON_DOAN_2026-08-05.md`  
-**Fuente primaria recuperada:** conversación compartida «Leer documento»  
-**Identificador:** `6a2f01ce-fc10-83ed-8747-9537817dbdda`  
-**Fecha de la conversación:** 14 de junio de 2026  
+## Lo que queda ya aclarado
 
----
+### 1. La Recta-Ómicron sí recompone (R_U)
 
-# 1. Dictamen ejecutivo
+Claude confirma que:
 
-La restitución **supera la auditoría aritmética y documental** en su objeto principal:
+[
+130,557,437,070,596,709,960,033,921.011878727
++
+643,451,018,330,039,966,078.988121273
+]
 
-\[
-\boxed{
-\Delta A
-\longrightarrow
-N_A
-\longrightarrow
-g_D
-\longrightarrow
-\nu_{\mathrm{acc}}
-\longrightarrow
-\sigma_{\Omega16}
-\longrightarrow
-\lambda_{\mathrm{acc}}
-\longrightarrow
-\lambda_{\partial}
-}
-\]
+produce exactamente:
 
-reproduce los valores publicados cuando se respetan los dos niveles de precisión
-congelada usados en la cadena histórica:
-
-1. \(N_s(\mathrm{Sol})\) se fija con doce cifras decimales;
-2. \(\sigma_{\Omega16}\) se fija con treinta y tres cifras decimales.
-
-La Parte II no inventó \(\lambda_{\mathrm{acc}}\): **heredó una cadena generadora
-real cuya demostración quedó fuera del documento final**.
-
-El resultado de auditoría no equivale todavía a validación física ni a novedad
-computacional. Quedan pendientes la justificación de los acoplamientos, la
-transferencia de escala y la comparación con la literatura.
-
----
-
-# 2. Entradas y regla media Luna–Sol
-
-Se declaran:
-
-\[
-R:=D_{TS}=149\,597\,870\,700\ \mathrm{m},
-\]
-
-\[
-r:=D_{TL}=384\,400\,000\ \mathrm{m}.
-\]
-
-Bajo el modelo auxiliar de órbita lunar circular, distancia Tierra–Sol fija y
-fase angular uniforme:
-
-\[
-d_{LS}(\theta)
-=
-\sqrt{R^2+r^2-2Rr\cos\theta}.
-\]
-
-La media angular es:
-
-\[
-\overline d_{LS}
-=
-\frac{1}{2\pi}
-\int_0^{2\pi}
-\sqrt{R^2+r^2-2Rr\cos\theta}\,d\theta,
-\]
-
-o, usando la integral elíptica completa de segunda especie con parámetro \(m\),
-
-\[
-\overline d_{LS}
-=
-\frac{2(R+r)}{\pi}
-E\!\left(\frac{4Rr}{(R+r)^2}\right).
-\]
-
-La evaluación de alta precisión produce:
-
-\[
-\overline d_{LS}
-=
-149\,598\,117\,634.365250679780375539616884243654\ldots\ \mathrm{m}.
-\]
-
-Por tanto, el residual no redondeado sería:
-
-\[
-N_s^{(\infty)}(\mathrm{Sol})
-=
-246\,934.365250679780375539616884243654\ldots\ \mathrm{UFE}.
-\]
-
-La cadena histórica no usa ese valor completo. Congela:
-
-\[
-\boxed{
-N_s^{[12]}(\mathrm{Sol})
-=
-246\,934.365250679780\ \mathrm{UFE}.
-}
-\]
-
-Esta congelación debe declararse expresamente. No debe escribirse que el valor
-de doce decimales sea idéntico al residual de precisión ilimitada sin indicar
-truncamiento o redondeo.
-
-## Estatuto epistemológico
-
-- \(D_{TS}\): anclaje externo de contraste y patrón metrológico.
-- \(D_{TL}\): anclaje externo de contraste adoptado como distancia lunar media.
-- \(\overline d_{LS}\): construcción geométrica auxiliar interna.
-- \(N_s(\mathrm{Sol})\): residual interno construido.
-- Las cifras externas no fundan la verdad del SV; fijan las entradas declaradas
-  de esta instancia de retorno.
-
----
-
-# 3. Escala Ómicron
-
-Se define:
-
-\[
-N_s(\mathrm{Tierra})
-=
-D_{TS}-D_{TL}
-=
-149\,213\,470\,700\ \mathrm{UFE}.
-\]
-
-Con el valor congelado de \(N_s(\mathrm{Sol})\):
-
-\[
-\kappa_P
-=
-\frac{N_s(\mathrm{Tierra})}{N_s^{[12]}(\mathrm{Sol})}
-\]
-
-\[
-=
-604\,263.6898615683206487433327670029405000\ldots
-\]
-
-y:
-
-\[
-\kappa_R
-=
-\frac{R_{\odot}}{R_{\mathrm{Tierra}}+R_{\mathrm{Luna}}}
-\]
-
-\[
-=
-85.79991120319668491934290365546840313748\ldots
-\]
-
-La construcción define:
-
-\[
-\kappa_{\Omega}
-=
-\sqrt{\frac{\kappa_P}{\kappa_R}}
-\]
-
-\[
-=
-83.92084149203158065371808654007628131756\ldots
-\]
-
-y:
-
-\[
-\sigma_{\Omega16}^{(\infty\mid N_s^{[12]})}
-=
-D_{TL}\kappa_{\Omega}
-\]
-
-\[
-=
-32\,259\,171\,469.5369396032892324660053225384731672667697\ldots
-\ \mathrm{UFE}.
-\]
-
-La cadena histórica congela:
-
-\[
-\boxed{
-\sigma_{\Omega16}^{[33]}
-=
-32\,259\,171\,469.536939603289232466005322538473167
-\ \mathrm{UFE}.
-}
-\]
-
-Este valor coincide exactamente con el cociente reconstruido:
-
-\[
-\frac{\lambda_{\mathrm{acc}}}{\nu_{\mathrm{acc}}}
-=
-\sigma_{\Omega16}^{[33]}.
-\]
-
----
-
-# 4. Acceso nodal
-
-Para el observable retornado:
-
-\[
-A_{\Omega_{\mathrm{obs}}}=13\,800\,000\,000\ a_J,
-\]
-
-\[
-A_{\Omega SS}=4\,568\,000\,000\ a_J,
-\]
-
-\[
-N_A
-=
-\frac{A_{\Omega_{\mathrm{obs}}}-A_{\Omega SS}}{1\,a_J}
-=
-9\,232\,000\,000.
-\]
-
-Con:
-
-\[
-\chi_{\Omega_{\mathrm{obs}}}=\frac12,
-\]
-
-\[
-g_{\Omega_{\mathrm{obs}}}
-=
-\sqrt{\frac{1+\chi_{\Omega_{\mathrm{obs}}}}{2}}
-=
-\frac{\sqrt3}{2}.
-\]
-
-Entonces:
-
-\[
-\nu_{\mathrm{acc}}
-=
-9\,232\,000\,000\frac{\sqrt3}{2}
-\]
-
-\[
-=
-7\,995\,146\,527.7379375869226923123911068458079890515887\ldots
-\]
-
-y, usando la escala congelada:
-
-\[
-\lambda_{\mathrm{acc}}
-=
-\sigma_{\Omega16}^{[33]}\nu_{\mathrm{acc}}
-\]
-
-\[
-=
-257\,916\,802\,762\,371\,004\,117.8021159948054130965383279286041549868367802475908620127745896778575090806844476\ldots
-\ \mathrm{UFE}.
-\]
-
-La cifra publicada queda reproducida.
-
----
-
-# 5. Frontera
-
-Para:
-
-\[
-A_{\mathrm{fin}}(\Omega_{\mathrm{obs}})
-=
-27\,600\,000\,000\ a_J,
-\]
-
-se obtiene:
-
-\[
-N_{A,\partial}
-=
-23\,032\,000\,000.
-\]
-
-Manteniendo el mismo factor estructural:
-
-\[
-\nu_{\partial}
-=
-23\,032\,000\,000\frac{\sqrt3}{2}.
-\]
+[
+130,558,080,521,615,040,000,000,000.
+]
 
 Por tanto:
 
-\[
+[
+\boxed{
+R_U=
+R_{\mathrm{interior}}
++
+R_{\mathrm{frontera}}
+}
+]
+
+con residual formal nulo.
+
+La operación no es un producto ni una extrapolación directa desde (\lambda_{\mathrm{acc}}). Es una **recomposición aditiva después del cambio de base del vector asociado a la Recta**. 
+
+Esto resuelve la duda principal de mi pregunta 5: el cambio de base no es una decoración posterior para presentar el resultado. Es una operación necesaria para que los tramos queden expresados bajo la referencia común que permite recomponer (R_U).
+
+### 2. No hay que fusionar (13.8) Gly con (46.5) Gly
+
+Claude confirma que la Parte II ya separa expresamente:
+
+* (R_U): radio interno estructural;
+* (R_{\mathrm{aux}}): proyección auxiliar;
+* radio comóvil externo de aproximadamente (46.5) mil millones de años luz.
+
+Son **regímenes diferentes**. La divergencia de escala no constituye por sí sola una contradicción; obliga a declarar qué magnitud produce cada operación. 
+
+Por tanto, queda corregida mi pregunta inicial sobre cuál de los dos radios debía reconstruir la Recta:
+
+[
+\boxed{
+\text{La recomposición verificada corresponde a }R_U,
+\text{ no al radio comóvil externo de }46.5\ \mathrm{Gly}.
+}
+]
+
+El radio comóvil queda como magnitud externa de contraste y no como salida de la misma cadena.
+
+### 3. La clausura no convierte (R_{\mathrm{aux}}) en radio cosmológico
+
+Claude señala que la coincidencia relevante es:
+
+[
+2R_U=27,600,000,000\ \mathrm{ly}
+]
+
+y:
+
+[
+A_{\mathrm{fin}}=27,600,000,000\ a_J.
+]
+
+Es decir, la identidad se produce entre el **diámetro de la esfera ideal** de la Parte I y la edad terminal adoptada.
+
+En cambio:
+
+[
+R_{\mathrm{aux}}\approx68,012.83\ \mathrm{ly}
+]
+
+no debe denominarse radio cosmológico primario. La Parte III lo prohíbe expresamente. 
+
+Esto fija una cautela terminológica decisiva:
+
+[
+\boxed{
+\operatorname{clausura}*{SV}
+\not\Rightarrow
+R_U=R*{\mathrm{aux}}.
+}
+]
+
+La afirmación sostenible es que, dentro del aparato, la clausura **no anula la extensión**; no que (R_{\mathrm{aux}}) sea el radio final del universo.
+
+### 4. Versal y Capital no están todavía demostrados como aplicaciones de la Lanzadera
+
+Claude no ha verificado que la Recta determine los universos Versal y Capital. En la publicación de masa, la Recta aparece sólo bibliográficamente y el mecanismo operativo es la herencia–descendencia. 
+
+Por tanto, retiro cualquier presunción de intervención directa:
+
+[
+\boxed{
+\text{Recta-Ómicron}\rightarrow\text{Versal/Capital}
+\quad\text{permanece en }U.
+}
+]
+
+Tendremos que reconstruir cada caso desde sus publicaciones canónicas y comprobar si la Recta:
+
+* calcula una magnitud;
+* aporta una coordenada;
+* sólo proporciona una referencia;
+* o no interviene materialmente.
+
+### 5. La limitación de dominio ya está en la definición
+
+La frase «sabe ir de Madrid a Barcelona, pero no entrar en Barcelona» no es una advertencia informal añadida posteriormente. Está incorporada en la propia definición operacional:
+
+* la Recta opera **entre dominios declarados**;
+* utiliza su edad o referencia etaria;
+* produce una directriz o distancia nodal;
+* pero no genera el mapa interno del dominio de destino.
+
+Además, sustituir:
+
+[
+A_{SS}
+]
+
+por:
+
+[
+A_\odot
+]
+
+desplaza la salida y viola el dominio. 
+
+Esto proporciona ya un ataque negativo canónico:
+
+[
+A_{SS}\rightarrow A_\odot
+\quad\Longrightarrow\quad
+q_D=1,
+]
+
+siempre que la publicación establezca inequívocamente que ambos objetos no son intercambiables en esa instancia.
+
+### 6. La relación con NASA queda matizada
+
+Claude confirma que, en el contraste solar SV–NASA, la Recta aporta:
+
+* disciplina formal;
+* acceso;
+* tramo;
+* frontera;
+* residual;
+* y control:
+
+[
+R_{WD}=0.
+]
+
+Pero no aporta allí una distancia nueva. 
+
+Por tanto, no debemos afirmar que la Recta «calcula la distancia solar que NASA redondea». Su función es formalizar y clausurar el tránsito entre datos, dominios y residual.
+
+---
+
+# Preguntas que quedan realmente abiertas
+
+La lista anterior de diez preguntas puede reducirse. Varias ya han sido contestadas. Éstas son ahora las preguntas estrictamente necesarias.
+
+## 1. Cadena exacta del cambio de base
+
+Claude demuestra la suma y la califica como cambio de base del vector asociado, pero todavía necesito la formulación operacional completa.
+
+¿Cuál es el vector antes y después de la transformación?
+
+Necesito algo de esta forma:
+
+[
+\mathbf v^{(T)}
+===============
+
+\begin{pmatrix}
+\mu_T\
+\lambda_T
+\end{pmatrix}
+]
+
+[
+\mathbf v^{(O_U)}
+=================
+
+P_{T\rightarrow O_U}\mathbf v^{(T)}
+]
+
+o, si no existe matriz:
+
+[
+\vec{O_UF}
+==========
+
+\vec{O_UT}
++
+\vec{TF}.
+]
+
+La cuestión es si «cambio de base» se usa técnicamente como:
+
+* traslación de origen;
+* cambio de carta radial;
+* transformación de componentes del vector SV;
+* o composición de esas operaciones.
+
+**Pregunta para usted o Claude:** ¿cuál es la fórmula canónica exacta y en qué documento aparece?
+
+## 2. Identidad de los dos sumandos de (R_U)
+
+Tenemos los valores, pero necesitamos sus nombres y procedencia formal:
+
+[
+R_{\mathrm{interior}}
+=====================
+
+130,557,437,070,596,709,960,033,921.011878727
+]
+
+y:
+
+[
+R_{\mathrm{frontera}}
+=====================
+
+643,451,018,330,039,966,078.988121273.
+]
+
+El segundo coincide con (\lambda_{\partial}). Falta precisar el primero.
+
+**Pregunta:** ¿qué símbolo canónico recibe el primer tramo y qué operación lo produce?
+
+¿Es:
+
+[
+D(O_U,T),
+]
+
+un vector trasladado,
+
+[
+R_U-\lambda_{\partial},
+]
+
+o una magnitud obtenida de forma independiente y después comprobada por resta?
+
+Esto es importante porque no podemos presentar como segunda vía independiente una cantidad definida simplemente como:
+
+[
+R_U-\lambda_{\partial}.
+]
+
+Si se obtiene así, la igualdad es identidad algebraica; si tiene genealogía independiente, entonces hay contraste real.
+
+## 3. Independencia real de la recomposición
+
+Éste es el punto científico más importante que queda.
+
+Para que la Recta «recalcule» o «reconstruya» (R_U) con valor probatorio, ambos sumandos deben proceder de una cadena que no introduzca previamente el propio (R_U) de forma circular.
+
+**Pregunta:** ¿el tramo interior se calcula sin utilizar previamente (R_U), o se obtiene restando de (R_U) el brazo fronterizo?
+
+Las dos situaciones son matemáticamente válidas, pero epistemológicamente distintas:
+
+### Caso A — reconstrucción independiente
+
+[
+R_{\mathrm{interior}}
+=====================
+
+f(\text{datos independientes}),
+]
+
+[
+R_U^{(\Omega)}
+==============
+
+R_{\mathrm{interior}}+\lambda_{\partial}.
+]
+
+Aquí sí existe una segunda vía.
+
+### Caso B — descomposición exacta
+
+[
+R_{\mathrm{interior}}
+=====================
+
+R_U^{(\Lambda)}-\lambda_{\partial}.
+]
+
+Aquí existe una descomposición y un cambio de base, pero no un recálculo independiente de (R_U).
+
+Necesito que Claude nos indique cuál de las dos genealogías está documentada.
+
+## 4. Relación entre (\lambda_{\mathrm{acc}}), (\lambda_{\partial}) y el cambio de base
+
+Ya sabemos:
+
+[
 \lambda_{\partial}
-=
-\sigma_{\Omega16}^{[33]}\nu_{\partial}
-\]
+==================
 
-\[
-=
-643\,451\,018\,330\,039\,966\,078.9881212730024127425769896936320296422037177927331817459081834337536989976521011\ldots
-\ \mathrm{UFE}.
-\]
+\frac{2879}{1154}\lambda_{\mathrm{acc}}.
+]
 
-La relación es exacta:
+Pero falta establecer qué magnitud entra realmente en la recomposición:
 
-\[
-\kappa_{\partial\leftarrow\mathrm{acc}}^{SV}
-=
-\frac{23\,032\,000\,000}{9\,232\,000\,000}
-=
-\frac{2879}{1154},
-\]
+* (\lambda_{\mathrm{acc}});
+* (\lambda_{\partial});
+* o una transformación ulterior de (\lambda_{\partial}).
 
-\[
-\lambda_{\partial}
-=
-\kappa_{\partial\leftarrow\mathrm{acc}}^{SV}
-\lambda_{\mathrm{acc}}.
-\]
+Los números muestran que el sumando fronterizo es (\lambda_{\partial}), no (\lambda_{\mathrm{acc}}).
 
----
+**Pregunta:** ¿el cambio de base se aplica a (\lambda_{\partial}), al vector del que (\lambda_{\partial}) es módulo o componente, o al vector completo antes de obtener esa longitud?
 
-# 6. Efecto de las congelaciones de precisión
+## 5. Unidad UFE y equivalencia con la magnitud del radio
 
-Debe distinguirse entre tres ramas.
+La igualdad numérica se presenta en UFE, mientras el radio suele comunicarse en años luz.
 
-## Rama publicada
+Necesitamos la definición canónica:
 
-Usa:
+[
+1\ \mathrm{UFE} = ?
+]
 
-\[
-N_s^{[12]}(\mathrm{Sol})
-\quad\text{y}\quad
-\sigma_{\Omega16}^{[33]}.
-\]
+y comprobar si la suma se efectúa:
 
-Reproduce exactamente las cifras publicadas de \(\lambda_{\mathrm{acc}}\),
-\(\lambda_{\partial}\) y \(t_{\Omega_{\mathrm{obs}}}\).
+* íntegramente en metros/UFE;
+* en años luz julianos;
+* o en una unidad radial interna después convertida.
 
-## Rama con \(N_s^{[12]}\) y \(\sigma\) no truncada
+**Pregunta:** ¿qué documento fija la equivalencia de UFE y la política de conversión usada en esta recomposición?
 
-La diferencia respecto de la rama publicada sólo aparece después de las cifras
-soportadas por \(\sigma_{\Omega16}^{[33]}\). Es un efecto de presentación.
+## 6. Circunferencia auxiliar y volumen medio
 
-## Rama integral completa
+La presentación de Claude aclara la separación de planos, pero no explica todavía la cadena precisa que usted ha destacado:
 
-Usa:
+> el radio del universo habitado se hace sobre una circunferencia auxiliar con volumen medio, método que NASA también usa.
 
-\[
-N_s^{(\infty)}(\mathrm{Sol})
-=
-246\,934.365250679780375539\ldots
-\]
+Necesitamos la secuencia geométrica exacta. Mi hipótesis sigue siendo:
 
-y produce:
+[
+\text{volumen medio/equivalente}
+\rightarrow
+\text{esfera ideal equivalente}
+\rightarrow
+R
+\rightarrow
+C=2\pi R.
+]
 
-\[
-\sigma_{\Omega16}^{(\infty)}
-=
-32\,259\,171\,469.5369395787592386711467601283420767\ldots
-\]
+Pero usted ha situado primero la circunferencia auxiliar.
 
-La diferencia respecto de la escala histórica es:
+**Pregunta:** ¿el procedimiento canónico es realmente:
 
-\[
-\Delta\sigma
-\approx
-2.4529993794858562\times10^{-8}\ \mathrm{UFE}.
-\]
+[
+C_{\mathrm{aux}}
+\rightarrow
+R_{\mathrm{aux}}
+\rightarrow
+V_{\mathrm{medio}},
+]
 
-Aplicada al acceso:
+o:
 
-\[
-\Delta\lambda_{\mathrm{acc}}
-\approx
-196.1208947143966\ \mathrm{UFE}.
-\]
+[
+V_{\mathrm{medio}}
+\rightarrow
+R_{\mathrm{eq}}
+\rightarrow
+C_{\mathrm{aux}}?
+]
 
-Aplicada a la frontera:
+Y, sobre todo, ¿de qué magnitud parte la construcción?
 
-\[
-\Delta\lambda_{\partial}
-\approx
-489.2825440925024\ \mathrm{UFE}.
-\]
+## 7. Fuente primaria NASA
 
-El error relativo es del orden de:
+Sigue faltando el documento exacto que permita afirmar que NASA usa el mismo método, no sólo una representación esférica divulgativa semejante.
 
-\[
-7.6\times10^{-19}.
-\]
+**Pregunta:** ¿Claude tiene localizada la fuente NASA concreta, con título o URL, y la operación exacta que se atribuye a NASA?
 
-Es despreciable para la escala global, pero no puede ignorarse en una afirmación
-de exactitud decimal ilimitada. La publicación debe escoger y declarar una sola
-política:
+Hasta tenerla, conservaré:
 
-- **reproducción histórica:** mantener las congelaciones;
-- **recomputación canónica:** usar la rama integral completa y actualizar las
-  cifras;
-- **doble salida:** conservar ambas, distinguiendo valor histórico y valor
-  recalculado.
+[
+\text{“NASA emplea el mismo método”}=U.
+]
 
-Para un artículo se recomienda la tercera opción.
+## 8. Procedencia de (\chi_D=\frac12)
 
----
+La presentación no cierra el factor estructural:
 
-# 7. Auditoría dimensional
-
-La cadena es dimensionalmente compatible:
-
-\[
-\kappa_P,\ \kappa_R,\ \kappa_{\Omega},\ N_A,\ g_D,\ \nu
-\]
-
-son adimensionales, mientras:
-
-\[
-\sigma_{\Omega16},\ \lambda_{\mathrm{acc}},\ \lambda_{\partial}
-\]
-
-se expresan en UFE.
-
-La integral Luna–Sol devuelve longitud. Su diferencia con \(D_{TS}\) devuelve
-longitud. No hay error dimensional en las operaciones auditadas.
-
----
-
-# 8. Puntos todavía no cerrados
-
-## 8.1. Puente notacional
-
-La restitución contiene:
-
-\[
-d_{\Omega}(\mathrm{Tierra},X)
-=
-D_{TL}(N_c(X)-2)\kappa_{\Omega}
-\]
-
-y, en otro nivel:
-
-\[
-\nu_{\mathrm{acc}}
-=
-N_Ag_D.
-\]
-
-Falta consignar en el acta la igualdad, transformación o regla que relaciona:
-
-\[
-N_c(X)-2
-\quad\text{con}\quad
-N_A(D\mid\Omega_{SS})g_D.
-\]
-
-No debe suponerse por semejanza. Debe recuperarse de la conversación o declararse
-como definición de paso.
-
-## 8.2. Factor \(\chi_D\)
-
-Debe documentarse:
-
-- su definición;
-- su dominio;
-- su rango;
-- por qué vale \(1/2\) para \(\Omega_{\mathrm{obs}}\);
-- si el mismo valor gobierna la frontera;
-- qué ocurre para otros dominios.
-
-La aritmética de \(g_D\) es correcta, pero su estatuto estructural todavía no está
-explicado en esta acta.
-
-## 8.3. Necesidad de la raíz
-
-Los planos:
-
-\[
-b-\frac{a}{\sqrt{\kappa_R}}=0,
+[
+g_D=\sqrt{\frac{1+\chi_D}{2}},
 \qquad
-c-\sqrt{\kappa_P}b=0
-\]
+\chi_{\Omega_{\mathrm{obs}}}=\frac12.
+]
 
-producen algebraicamente:
+**Pregunta:** ¿en qué publicación o conversación se define (\chi_D), y por qué corresponde (\frac12) a (\Omega_{\mathrm{obs}})?
 
-\[
-c=a\sqrt{\frac{\kappa_P}{\kappa_R}}.
-\]
+Sin esto, la reproducción de (\nu_{\mathrm{acc}}) es aritméticamente correcta, pero el factor sigue sin justificación estructural completa.
 
-Esto demuestra la consecuencia de los planos elegidos, no que esos planos sean
-la única ni la necesaria construcción. La necesidad de la raíz sigue pendiente.
+## 9. Puente entre (N_c(X)-2) y (N_Ag_D)
 
-## 8.4. Transferencia de escala
+Continúa sin resolverse el puente:
 
-Debe demostrarse por qué una escala construida con anclajes Tierra–Luna–Sol puede
-operar sobre una rama etaria cosmológica sin convertirse en mera calibración
-convencional trasladada.
+[
+N_c(X)-2
+\quad\leftrightarrow\quad
+N_Ag_D.
+]
 
-## 8.5. Precisión formal y precisión física
+**Pregunta:** ¿son dos notaciones para una misma coordenada, dos fases distintas o dos operadores diferentes?
 
-Las largas expansiones decimales son exactitud aritmética respecto de entradas
-congeladas. No expresan automáticamente exactitud física equivalente.
+No debe deducirse equivalencia por coincidencia de función aparente.
 
-En una redacción internacional deberán separarse:
+## 10. Generalidad fuera del caso cosmológico
 
-\[
-\text{reproducibilidad formal}
-\neq
-\text{incertidumbre metrológica}.
-\]
+La presentación confirma la directriz nodal de dominio, pero no demuestra todavía una clase general de aplicaciones.
 
-Los radios y la distancia lunar media usados como contraste externo tienen una
-precisión física finita. La salida no puede presentarse como medición física de
-cien cifras.
+**Pregunta:** ¿qué casos concretos, aparte de (\Omega_{\mathrm{obs}}), han sido ya calculados íntegramente con la misma cadena:
 
----
+[
+A_D
+\rightarrow
+N_A
+\rightarrow
+g_D
+\rightarrow
+\nu_D
+\rightarrow
+\sigma
+\rightarrow
+\lambda_D
+]
 
-# 9. Matriz de dictamen
+sin alterar las reglas internas?
 
-| Objeto auditado | Dictamen |
-|---|---|
-| Procedencia de \(\lambda_{\mathrm{acc}}\) | **APTO** |
-| Procedencia de \(N_s(\mathrm{Sol})\) | **APTO** |
-| Reproducción de \(\kappa_P,\kappa_R,\kappa_\Omega\) | **APTO** |
-| Reproducción de \(\sigma_{\Omega16}\) | **APTO** |
-| Reproducción de \(\nu_{\mathrm{acc}}\) | **APTO** |
-| Reproducción de \(\lambda_{\mathrm{acc}}\) | **APTO** |
-| Reproducción de \(\lambda_{\partial}\) | **APTO** |
-| Consistencia dimensional | **APTO** |
-| Política de precisión | **APTO CON CORRECCIÓN DOCUMENTAL** |
-| Puente \(N_c-2\leftrightarrow N_Ag_D\) | **U** |
-| Estatuto de \(\chi_D\) | **U** |
-| Necesidad de \(\sqrt{\kappa_P/\kappa_R}\) | **U** |
-| Transferencia local–cosmológica | **U** |
-| Validación física | **U** |
-| Novedad computacional | **U** |
+Necesitamos al menos dos o tres instancias no triviales para distinguir un operador general de una construcción específica del universo observable.
 
 ---
 
-# 10. Dictamen de cierre de jornada
+# Preguntas retiradas o reformuladas
 
-\[
+Ya no necesito preguntar:
+
+* si (R_U) o (46.5) Gly son la misma magnitud: **no lo son**;
+* si (R_{\mathrm{aux}}) es el radio cosmológico terminal: **no lo es**;
+* si Versal y Capital están ya demostrados como casos de Lanzadera: **no están demostrados**;
+* si el cambio de base es prescindible: **no lo es**;
+* si la limitación interdominio es una ocurrencia posterior: **está en la definición**;
+* ni si el contraste solar aporta necesariamente una distancia: **aporta clausura formal, no una distancia nueva**. 
+
+## Mi dictamen tras leer a Claude
+
+La presentación mejora sustancialmente el estado del relevo. Pero revela que el punto decisivo no es ya la aritmética, sino la **genealogía no circular de la recomposición de (R_U)**.
+
+La pregunta científica central queda reducida a ésta:
+
+[
 \boxed{
-\textbf{RESTITUCIÓN DOCUMENTAL Y ARITMÉTICA: APTA}
+\text{¿El tramo interior se obtiene independientemente, o se define restándolo de }R_U?
 }
-\]
+]
 
-\[
-\boxed{
-\textbf{JUSTIFICACIÓN CIENTÍFICA Y NOVEDAD: ABIERTAS}
-}
-\]
+Si es independiente, tenemos una verdadera reconstrucción por segunda vía.
 
-La Lanzadera queda preparada para el siguiente orden de trabajo:
+Si depende previamente de (R_U), tenemos una descomposición formal exacta y un cambio de base correcto, pero no un recálculo independiente del radio.
 
-1. cerrar el puente notacional y el estatuto de \(\chi_D\);
-2. fijar la política de precisión;
-3. construir el prototipo ejecutable;
-4. atacar necesidad, transferencia y generalidad;
-5. contrastar anterioridad;
-6. seleccionar revista;
-7. redactar el artículo.
-
-No se modifica todavía la publicación canónica ni se congela un título editorial.
+Ésa debe ser la primera respuesta de Claude o de usted, porque determina la fuerza legítima de todo el artículo futuro.
