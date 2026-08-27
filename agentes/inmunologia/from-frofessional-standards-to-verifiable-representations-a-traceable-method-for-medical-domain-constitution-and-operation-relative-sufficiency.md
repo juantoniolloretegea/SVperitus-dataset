@@ -173,25 +173,9 @@ El estudio presenta varias limitaciones. La inmunología es el único caso médi
 
 Una representación computacional de un dominio médico no es adecuada por el mero hecho de que pueda codificarse una regla o de que un programa produzca una salida. Debe declararse el ámbito profesional; la evidencia clínica y el gobierno experto cualificado deben sustentar las reglas operativas; las observaciones deben satisfacer criterios explícitos de admisión antes de la asignación ternaria; el programa debe concordar con la especificación escrita que sirve de referencia para la evaluación; y cada representación debe conservar las distinciones necesarias para todas las operaciones que declare poder sostener. En el caso de estudio de inmunología, P02 demuestra tanto una discrepancia reproducible entre especificación e implementación como una pérdida condicional de información sobre la condición de regla que determina un estado escalar, mientras que la transferencia experimental a P25 muestra que una reducción deliberada de información puede ser plenamente admisible. El método propuesto es un procedimiento trazable de constitución y verificación del dominio, no un agente autónomo validado clínicamente.
 
-## Contribución del autor
-
-Juan Antonio Lloret Egea: conceptualización; metodología; análisis formal; programación; validación; investigación; redacción del borrador original; revisión y edición del manuscrito.
-
-## Financiación
-
-Este estudio no recibió financiación externa.
-
-## Conflictos de intereses
-
-El autor declara que no existen conflictos de intereses.
-
 ## Disponibilidad de datos y código
 
 Los resultados no se basan en datos de pacientes ni de cohortes. Las especificaciones e implementaciones de trabajo de inmunología están disponibles públicamente en el repositorio [**SVperitus-dataset**](https://github.com/juantoniolloretegea/SVperitus-dataset) de GitHub. Para reproducir exactamente la comparación de P02 se utilizó el *commit* `1b2838a1c594a1f84b543e7e9c333f9f8e8c55dd`; la prueba de conformidad pertinente es `especificaciones/conformidad/test_immuno2.py` [24]. La especificación publicada del lenguaje SV y su interfaz de consulta pública se identifican en la referencia 25.
-
-## Declaración sobre el uso de inteligencia artificial generativa
-
-OpenAI ChatGPT (GPT-5.6 Sol) se utilizó como herramienta de apoyo a la investigación para la localización bibliográfica, la comprobación crítica de coherencia, la estructuración del manuscrito, el apoyo a la formalización matemática, la preparación tipográfica y la revisión lingüística del texto inglés. Grok 4.5 (xAI) se empleó para la revisión crítica de versiones sucesivas del manuscrito, la identificación de mejoras estructurales y matemáticas y la formulación de propuestas de presentación. DeepSeek-V4-Pro (DeepSeek AI) contribuyó a la revisión crítica y a la comprobación de coherencia formal. Todos los resultados producidos por sistemas de inteligencia artificial se trataron como aportaciones no autoritativas. El autor estableció, revisó y aprobó todas las definiciones, afirmaciones matemáticas, interpretaciones y conclusiones, y asume íntegramente la responsabilidad sobre el manuscrito.
 
 ## Referencias
 
@@ -246,3 +230,84 @@ OpenAI ChatGPT (GPT-5.6 Sol) se utilizó como herramienta de apoyo a la investig
 25. Lloret Egea JA. SV-lenguaje-de-computacion [programa informático y especificación del lenguaje]. GitHub. Repositorio: juantoniolloretegea/SV-lenguaje-de-computacion. Interfaz pública accesible mediante navegador: https://lenguaje-sv.itvia.online/. Consultado el 26 de agosto de 2026. https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion
 
 26. Lloret Egea JA. Resolution Frontiers in Stratified Ternary Cells: Infection Prophylaxis, Vaccination, and AI System Integrity. Prepublicación. Publicado el 20 de agosto de 2026. doi:10.21428/39829d0b.739ed2b6.
+
+
+## Cláusulas legales generales de adscripción editorial, reserva de derechos y desarrollos derivados
+
+Identificación editorial, bibliográfica y lingüística
+
+Esta obra, publicación, anexo, trabajo derivado, archivo técnico, material complementario, desarrollo científico, contenido gráfico, tabla, cálculo, formulación, edición digital o cualquier otro contenido vinculado queda adscrito, salvo indicación expresa en contrario, a la publicación matriz:
+
+De los Principios y Matemática y Filosofía del ConocimientoDOI: https://doi.org/10.21428/39829d0b.b6a73a9bInstituto Tecnológico Virtual de la Inteligencia Artificial para el Español®© 2020–2026 Juan Antonio Lloret EgeaLa Biblia de la IA — The Bible of AI® | ISSN 2695-6411
+
+IA eñ™ opera como entorno editorial y suplemento interno de la publicación matriz La Biblia de la IA — The Bible of AI® | ISSN 2695-6411, bajo el sello del Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español® (ITVIA). Su autonomía organizativa no altera la identificación bibliográfica de la publicación matriz ni la titularidad intelectual de los contenidos incorporados, vinculados, derivados o publicados bajo su órbita editorial.
+
+El objetivo principal de esta línea editorial es potenciar el español como lengua de producción, formalización, publicación y transmisión científico-técnica. Asimismo, se permite la publicación conjunta con lenguas vernáculas de la Unión Europea como lenguas secundarias o complementarias. Cuando se publique contenido en otra lengua, la versión española deberá estar presente conjuntamente, salvo imposibilidad técnica justificada o decisión editorial expresa.
+
+Advertencia y reserva de derechos
+
+Esta obra, incluida la totalidad de sus textos, formulaciones, estructura expositiva, tablas, cálculos, criterios de admisión, nomenclatura, dominios, tramos, residuales, retornos metrológicos, porcentajes, diferencias formales, archivos auxiliares, imágenes, portadas, materiales gráficos, bancos de contraste, documentación técnica, anexos, desarrollos complementarios y cualquier otro material que forme parte de ella o se publique vinculado a ella, queda protegida por los derechos de propiedad intelectual de su autor y, en su caso, por la gestión de derechos que corresponda a través de CEDRO u otra entidad competente.
+
+Cualquier forma de explotación de la obra o de partes sustanciales de ella —incluidas su reproducción, distribución, comunicación pública, puesta a disposición, transformación, traducción, adaptación, incorporación a bases de datos, minería de textos y datos, entrenamiento o evaluación de sistemas automatizados, integración en productos, servicios, informes, software, modelos, catálogos, materiales docentes, materiales industriales, publicaciones técnicas, desarrollos empresariales, sistemas de inteligencia artificial o herramientas de análisis científico— sólo podrá realizarse conforme a la licencia indicada, con autorización expresa y por escrito de los titulares de derechos, o al amparo de una excepción legal aplicable.
+
+La licencia indicada, CC BY-NC-ND 4.0, no autoriza usos comerciales, explotación empresarial, transformación distribuida, publicación de obras derivadas ni reutilización sustancial de la obra fuera de sus términos. La cita, la crítica científica, la revisión académica, el comentario, la referencia bibliográfica y el contraste independiente quedan permitidos dentro de los límites legales aplicables y con respeto a la autoría, integridad de la obra, licencia y condiciones de uso.
+
+La aplicación, implementación, explotación técnica o incorporación de los resultados, fórmulas, tablas, nomenclatura, metodología, criterios de admisión, dominios, tramos, residuales, retornos, transductores, estructuras formales, sistemas de cálculo, matrices de análisis, reglas de recomposición, modelos de contraste, arquitecturas conceptuales o desarrollos científicos incluidos en esta obra queda reservada a la autorización expresa del autor cuando implique reproducción, transformación, comunicación pública, distribución, integración sustancial de la obra protegida, explotación comercial, desarrollo empresarial o uso no cubierto por la licencia.
+
+Esta reserva alcanza, cuando proceda, a los campos de la física, matemática, cosmología, astronomía, química, biología, medicina, ingeniería, inteligencia artificial, ciencia de datos, metrología, docencia técnica, edición científica, modelización computacional, sistemas de evaluación científica, herramientas de análisis formal y cualquier otro ámbito de aplicación científica, técnica, editorial o industrial que reutilice sustancialmente la formulación protegida.
+
+La presente reserva se formula sin perjuicio de los límites, excepciones y usos permitidos imperativamente por la ley. En la medida permitida por la legislación aplicable, cualquier controversia relativa a la explotación no autorizada, transformación, reutilización sustancial, comunicación pública, distribución, integración técnica, uso comercial, uso automatizado no autorizado, atribución indebida, alteración sustancial o vulneración de derechos sobre esta obra se someterá a la jurisdicción de los órganos competentes conforme al ordenamiento jurídico aplicable.
+
+Notice and reservation of rights
+
+This work, including the entirety of its texts, formulations, expository structure, tables, calculations, admission criteria, nomenclature, domains, intervals, residuals, metrological returns, percentages, formal differences, auxiliary files, images, covers, graphic materials, contrast datasets, technical documentation, annexes, supplementary developments and any other material forming part of it or published in connection with it, is protected by the intellectual property rights of its author and, where applicable, by the corresponding rights management through CEDRO or any other competent entity.
+
+Any form of exploitation of the work or of substantial parts thereof —including reproduction, distribution, public communication, making available, transformation, translation, adaptation, incorporation into databases, text and data mining, training or evaluation of automated systems, integration into products, services, reports, software, models, catalogues, teaching materials, industrial materials, technical publications, business developments, artificial intelligence systems or scientific analysis tools— may only be carried out in accordance with the indicated licence, with the express written authorisation of the rights holders, or under an applicable statutory exception.
+
+The indicated licence, CC BY-NC-ND 4.0, does not authorise commercial uses, business exploitation, distributed transformation, publication of derivative works or substantial reuse of the work outside its terms. Quotation, scientific criticism, academic review, commentary, bibliographic reference and independent contrast remain permitted within the applicable legal limits and with due respect for authorship, integrity of the work, licence and terms of use.
+
+The application, implementation, technical exploitation or incorporation of the results, formulas, tables, nomenclature, methodology, admission criteria, domains, intervals, residuals, returns, transducers, formal structures, calculation systems, analytical matrices, recomposition rules, contrast models, conceptual architectures or scientific developments included in this work is reserved to the express authorisation of the author where it entails reproduction, transformation, public communication, distribution, substantial integration of the protected work, commercial exploitation, business development or any use not covered by the licence.
+
+This reservation applies, where relevant, to the fields of physics, mathematics, cosmology, astronomy, chemistry, biology, medicine, engineering, artificial intelligence, data science, metrology, technical teaching, scientific publishing, computational modelling, scientific assessment systems, formal analysis tools and any other scientific, technical, editorial or industrial field that substantially reuses the protected formulation.
+
+This reservation is made without prejudice to limitations, exceptions and uses that are mandatorily permitted by law. To the extent permitted by applicable law, any dispute concerning unauthorised exploitation, transformation, substantial reuse, public communication, distribution, technical integration, commercial use, unauthorised automated use, improper attribution, substantial alteration or infringement of rights over this work shall be subject to the jurisdiction of the competent courts and authorities under the applicable legal order.
+
+Disposición sobre propiedad intelectual, desarrollos derivados, colaboración técnica y reserva de explotación
+
+La formulación científica, técnica, matemática, conceptual, editorial o metodológica de esta obra puede dar lugar a desarrollos posteriores en ciencias formales, ciencias naturales, ciencias biomédicas, ingeniería, metrología, modelización matemática, análisis de dominios, sistemas de representación, transductores, criterios de admisión de datos externos, herramientas computacionales, aplicaciones docentes avanzadas, sistemas de evaluación científica, entornos editoriales, inteligencia artificial o integraciones técnicas en plataformas digitales.
+
+La publicación, difusión o puesta a disposición de la obra no constituye cesión, licencia, autorización de explotación técnica ni renuncia a derechos de propiedad intelectual, industrial o de explotación sobre métodos, procedimientos, criterios técnicos, matrices de análisis, secuencias de cálculo, modelos de transducción, sistemas de decisión, estructuras de retorno, aplicaciones científicas, sistemas editoriales o desarrollos derivados que puedan resultar registrables, protegibles, explotables mediante licencia, transferencia, acuerdo de colaboración, investigación conjunta o secreto empresarial.
+
+Cualquier universidad, laboratorio, centro tecnológico, entidad pública o privada, empresa, grupo de investigación, editor técnico, desarrollador de software, proveedor de sistemas de inteligencia artificial, institución educativa, plataforma editorial o entidad que pretenda ejecutar, validar, ampliar, adaptar, automatizar, integrar, explotar técnicamente o reutilizar sustancialmente la metodología, las fórmulas, las tablas, los criterios de admisión, las reglas de residual, los transductores, los dominios, los sistemas de cálculo, la arquitectura formal o la estructura general de esta obra deberá formalizar previamente un acuerdo escrito con el autor o con la entidad designada por éste cuando el uso proyectado exceda la cita, la crítica, la revisión académica, la lectura privada o el contraste independiente permitido por la ley y por la licencia.
+
+El acuerdo podrá reconocer, según corresponda, participación técnica, preferencia de colaboración, coautoría científica, licencia, derechos de explotación, opción de desarrollo, cotitularidad de resultados derivados o condiciones específicas de transferencia científica y tecnológica, siempre que la contribución material de la parte colaboradora quede documentada y aceptada por escrito. La aceptación de archivos, lectura de la obra, comentario técnico, revisión interna, comunicación informal, cita, análisis automatizado no autorizado, uso interno no autorizado o recepción de materiales no generará por sí sola derechos de explotación, prioridad técnica, licencia implícita ni expectativa jurídica sobre los métodos, formulaciones, estructuras, criterios o desarrollos derivados.
+
+Esta disposición no limita la crítica científica, la revisión académica, la comprobación independiente, la cita legítima ni los usos permitidos por la ley. Su finalidad es preservar la trazabilidad de autoría, la integridad formal de la obra, la eventual protección jurídica de desarrollos posteriores y la ordenación de futuras colaboraciones técnicas.
+
+Provision on intellectual property, derived developments, technical collaboration and reservation of exploitation rights
+
+The scientific, technical, mathematical, conceptual, editorial or methodological formulation of this work may give rise to subsequent developments in formal sciences, natural sciences, biomedical sciences, engineering, metrology, mathematical modelling, domain analysis, representation systems, transducers, criteria for admitting external data, computational tools, advanced teaching applications, scientific assessment systems, editorial environments, artificial intelligence or technical integrations in digital platforms.
+
+Publication, dissemination or making available of the work does not constitute assignment, licence, authorisation for technical exploitation or waiver of intellectual, industrial or exploitation rights over methods, procedures, technical criteria, analytical matrices, calculation sequences, transduction models, decision systems, return structures, scientific applications, editorial systems or derived developments that may be registrable, protectable, exploitable through licensing, transfer, collaboration agreements, joint research or trade secrets.
+
+Any university, laboratory, technology centre, public or private entity, company, research group, technical publisher, software developer, artificial intelligence system provider, educational institution, editorial platform or entity intending to execute, validate, expand, adapt, automate, integrate, technically exploit or substantially reuse the methodology, formulas, tables, admission criteria, residual rules, transducers, domains, calculation systems, formal architecture or general structure of this work must first formalise a written agreement with the author or with the entity designated by him where the intended use exceeds quotation, criticism, academic review, private reading or independent contrast permitted by law and by the licence.
+
+The agreement may recognise, as appropriate, technical participation, collaboration preference, scientific co-authorship, licence, exploitation rights, development option, co-ownership of derived results or specific scientific and technology-transfer conditions, provided that the material contribution of the collaborating party is documented and accepted in writing. Acceptance of files, reading of the work, technical comment, internal review, informal communication, citation, unauthorised automated analysis, unauthorised internal use or receipt of materials shall not by itself generate exploitation rights, technical priority, implied licence or legal expectation over the methods, formulations, structures, criteria or derived developments.
+
+This provision does not limit scientific criticism, academic review, independent verification, legitimate quotation or uses permitted by law. Its purpose is to preserve authorship traceability, the formal integrity of the work, possible legal protection of subsequent developments and the organisation of future technical collaborations.
+
+Cláusula de adscripción lingüística y publicación multilingüe
+
+El idioma principal de esta línea editorial es el español. La finalidad lingüística del Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español® y de IA eñ™ es promover el español como lengua de producción científica, técnica, filosófica, matemática, editorial y computacional.
+
+La publicación conjunta en otras lenguas vernáculas de la Unión Europea podrá admitirse como modalidad secundaria, complementaria o comparativa, siempre que se conserve la versión española de forma conjunta, visible y suficientemente completa. La versión en otra lengua no sustituye por sí sola a la versión española ni desplaza la identificación editorial de la publicación matriz, salvo acuerdo o indicación editorial expresa.
+
+Cuando existan versiones bilingües o multilingües, la versión española conservará la función de referencia editorial principal, salvo que una obra concreta declare otra regla por razones técnicas, jurídicas, académicas o de depósito. Las traducciones, adaptaciones lingüísticas, versiones abreviadas, resúmenes técnicos y materiales auxiliares deberán respetar la autoría, la integridad conceptual de la obra, la licencia aplicable y la adscripción bibliográfica a la publicación matriz.
+
+Linguistic affiliation and multilingual publication clause
+
+The primary language of this editorial line is Spanish. The linguistic purpose of the Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español® and IA eñ™ is to promote Spanish as a language of scientific, technical, philosophical, mathematical, editorial and computational production.
+
+Joint publication in other vernacular languages of the European Union may be admitted as a secondary, complementary or comparative modality, provided that the Spanish version is preserved jointly, visibly and sufficiently. A version in another language does not by itself replace the Spanish version or displace the editorial identification of the parent publication, unless an express agreement or editorial indication provides otherwise.
+
+Where bilingual or multilingual versions exist, the Spanish version shall retain the function of primary editorial reference, unless a specific work declares another rule for technical, legal, academic or deposit-related reasons. Translations, linguistic adaptations, abridged versions, technical summaries and auxiliary materials must respect authorship, the conceptual integrity of the work, the applicable licence and the bibliographic affiliation to the parent publication.
