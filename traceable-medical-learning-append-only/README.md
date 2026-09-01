@@ -1,58 +1,39 @@
-# Aprendizaje médico trazable en registro de solo añadido
+# Aprendizaje médico trazable en registro de solo adición
 
-Esta carpeta no es el formalismo que gobierna. Es la puerta de un porvenir de la medicina real: un aprendizaje que solo es admisible si cada paso queda escrito desde el primer frame y puede reconstruirse de extremo a extremo.
+**Fecha:** 01 de septiembre de 2026  
+**Autor:** Juan Antonio Lloret Egea  
+**ORCID:** 0000-0002-6634-3351  
+**Institución:** ITVIA — IA eñ™  
+**ISSN:** 2695-6411  
+**Licencia:** CC BY-NC-ND 4.0  
+**©** Juan Antonio Lloret Egea, 2026. Este conjunto se distribuye con atribución explícita de autoría y bajo la licencia indicada, sin autorización para apropiación de la propiedad intelectual del Sistema Vectorial SV.
 
-El gravamen es la salud humana. No es un método en busca de dominio, ni un almacén de inteligencia artificial aplicada a «cualquier cosa».
+---
 
-## Qué es
+Este directorio reúne escritos, publicaciones y remisiones destinados al aprendizaje de la medicina sobre personas, con traza reconstruible desde el primer asiento y con registro de solo adición.
 
-Un índice de gobierno para piezas ya sólidas —documentos, publicaciones, especificaciones y llamadas a ellas— que permiten aplicar conocimiento médico sin inferencia opaca.
+No es el formalismo que gobierna. No es un dominio clínico en vías de determinación. No es un archivo de datos individuales.
 
-Aquí se aprende. El aprendizaje no consiste en ajustar pesos, minar asociaciones ni generar, a posteriori, un relato de lo que ya ocurrió. Consiste en incorporar conocimiento clínico en unidades discretas de juicio, de modo que un lector humano pueda seguir, frame a frame, qué se evaluó, qué quedó cerrado, qué quedó sin cerrar y por qué vía se resolvió lo que se resolvió.
+## Definiciones
 
-La profundidad, si la hay, es composición de esas unidades. No es una pila de neuronas artificiales.
+**Medicina.** Ámbito de este directorio. Ciencia y práctica relativas a la conservación y restablecimiento de la salud humana.
 
-## Las cuatro notas del nombre
+**Aprendizaje.** Adquisición de conocimiento clínico que queda incorporada al registro. No equivale al ajuste opaco de un modelo ni a la minería de datos como fuente de la sentencia.
 
-**Médico.** El objeto es la medicina asistencial y de laboratorio sobre personas. La ambigüedad de otros campos no autoriza a disolver este gravamen.
+**Trazable.** Que puede trazarse. La traza es la sucesión del juicio —qué se evaluó, qué se cerró, qué permaneció indeterminado y por qué vía se resolvió—, no la mera procedencia del documento.
 
-**Aprendizaje.** El sistema no es un archivo inerte. Acumula saber clínico. Ese saber solo entra si deja huella reconstruible. No entra el aprendizaje que obtiene una respuesta y después inventa la justificación.
+**Solo adición.** Lo posterior se consigna a continuación. Lo ya sentado no se altera. La corrección es un asiento nuevo.
 
-**Trazable.** La traza es la cadena del *juicio*, no la cadena de *origen del fichero*. Saber quién produjo un documento, en qué fecha y bajo qué licencia no dice si un caso podía cerrarse. Trazar es poder señalar, desde el primer frame, los estados evaluados y el residual que no se fingió cerrado.
+Las cuatro nociones no son intercambiables.
 
-**Solo añadido (append-only).** Lo nuevo se escribe a continuación. El pasado no se reescribe para legitimar el presente. Una corrección es un asiento posterior, no una alteración silenciosa de lo ya sentado.
+## Exclusiones
 
-Estas cuatro notas no son sinónimas. La traza es el criterio del juicio. El solo añadido es la ley de escritura. El aprendizaje es el objeto. Lo médico es el ámbito.
+Quedan fuera de este directorio la inferencia que no declara sus asientos, la explicación formulada después de la sentencia, la estadística o la minería tomadas como fundamento del juicio, los datos personales, las credenciales y la duplicación innecesaria de textos ya publicados en otra ruta.
 
-## Qué no es esta carpeta
+Una asociación empírica no constituye consecuencia clínica. Un registro de procedencia no constituye traza de un juicio. La existencia de este directorio no concluye un dominio ni autoriza a diagnosticar o a tratar.
 
-- No es el núcleo matemático del sistema que gobierna.
-- No es un dominio clínico en construcción, ni su cuaderno de determinación.
-- No es un repositorio de microdatos, cohortes ni extracciones de historia clínica.
-- No es un motor estadístico, ni un clasificador, ni una caja que explica después.
-- No sustituye la doctrina, las especificaciones ni los agentes ya situados en este repositorio: los *invoca* cuando una pieza lo requiere.
-- No adelanta el cierre de un dominio que aún no ha sido definido y concluido por decisión humana.
+## Admisión
 
-## Régimen de lo que puede depositarse
+Solo se deposita lo que el titular declare sólido y necesario para el gobierno de la medicina bajo las definiciones anteriores. Se prefiere la remisión exacta al texto canónico cuando este ya existe.
 
-Entra lo que el autor declare sólido y necesario para gobernar medicina real bajo las cuatro notas.
-
-Preferencia: la pieza misma, o la llamada exacta a la pieza ya publicada en otra ruta de este repositorio o en sede externa. No se duplica un corpus para simular centralidad.
-
-No entra el material de determinación abierta, el dato individual, el secreto, la clave, ni la inferencia que complete lo que el texto no dice.
-
-Una asociación empírica no se convierte aquí en consecuencia clínica. Un registro de procedencia no se convierte aquí en traza de un juicio. Un dominio no concluido no se gobierna por el hecho de existir esta puerta.
-
-## Cómo leer lo que hay
-
-1. Identificar si el objeto es un juicio, una norma, una publicación o una llamada.
-2. Pedir la cadena desde el primer frame: qué se afirmó, qué quedó abierto, qué no se afirma.
-3. Separar lo escrito en su fecha de cualquier reconstrucción posterior.
-4. No armonizar rótulos clínicos por semejanza léxica.
-5. No tratar esta carpeta como autorización para asistir, diagnosticar o tratar.
-
-## Estatuto
-
-El contenido que aquí se deposite no se adopta por inercia de ruta. La adopción, cuando exista, será decisión humana expresa.
-
-Autor del corpus: Juan Antonio Lloret Egea (ITVIA).
+Nada de lo aquí depositado se adopta por el solo hecho de figurar en esta ruta. La adopción, si procede, es decisión humana expresa.
