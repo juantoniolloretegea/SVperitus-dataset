@@ -519,6 +519,94 @@ La rectificación queda metodológicamente cerrada si se acepta que:
 4. Royal Australasian College of Physicians. **Advanced Training Curriculum Standards: Immunology and Allergy**. https://elearning.racp.edu.au/pluginfile.php/112488/mod_resource/content/7/immunology-and-allergy-curriculum-standards.pdf
 5. Royal College of Physicians and Surgeons of Canada. **Pathway to Competence in Clinical Immunology and Allergy**, versión 1.0, aplicable desde el 1 de julio de 2021. https://www.royalcollege.ca/content/dam/documents/ibd/clinical-immunology-and-allergy/pathway-to-competence-clinical-immunology-and-allergy-e.pdf
 
+
+## 13. Suceso de adopción metodológica de 01-09-2026: competencias interfásicas críticas
+
+**Decisión del Director:** se autoriza incorporar conocimiento procedente de ramas inmunológicas especializadas o de disciplinas clínicas limítrofes únicamente cuando la ignorancia de ese conocimiento pueda producir una consecuencia clínica material. Esta autorización amplía el método de constitución; no adopta todavía ninguna competencia concreta, no atribuye una nueva habilitación profesional y no autoriza la unión general de currículos o especialidades.
+
+### 13.1. Objeto admitido
+
+Se denomina **competencia interfásica crítica** a una unidad finita de conocimiento o habilidad situada en la frontera entre el núcleo inmunológico y otra rama inmunológica o disciplina clínica, cuya ausencia pueda ocasionar un fallo diagnóstico, terapéutico, preventivo, analítico o de seguimiento clínicamente relevante.
+
+Su inclusión no tiene por finalidad aumentar la erudición general, construir una enciclopedia ni declarar un inmunólogo universal. Su única justificación admisible es evitar consecuencias documentadas derivadas de no disponer de ese conocimiento antes de la operación correspondiente.
+
+La competencia interfásica no elimina la frontera profesional. Se distinguirán siempre:
+
+- el conocimiento necesario para reconocer una situación;
+- la habilidad necesaria para discriminarla o evaluarla;
+- la actuación permitida dentro de la función profesional;
+- y la condición que obliga a abstenerse, escalar o solicitar interconsulta.
+
+Conocer una relación clínica no confiere por sí mismo autorización para diagnosticar o tratar fuera del ámbito profesional constituido.
+
+### 13.2. Puerta conjuntiva de admisión
+
+Una competencia interfásica crítica solo podrá pasar a candidata si cumple simultáneamente todas las condiciones siguientes:
+
+1. **Enlace clínico definido:** existe una relación inmunopatológica, diagnóstica, terapéutica, preventiva, analítica o de seguridad expresamente documentada.
+2. **Consecuencia material:** la ignorancia, omisión o aplicación incorrecta puede causar retraso o pérdida diagnóstica, actuación contraindicada o ineficaz, complicación prevenible, vigilancia insuficiente o derivación inadecuada.
+3. **Proximidad suficiente:** la consecuencia es razonablemente directa y condicionada; no deriva de una cadena remota, meramente posible o construida por asociación narrativa.
+4. **Activador reconocible:** existe una presentación, hallazgo, exposición, tratamiento, patrón analítico o situación asistencial que hace pertinente el conocimiento.
+5. **Unidad finita y evaluable:** el contenido puede atomizarse, definirse y someterse a una prueba de competencia. No se admiten rótulos como “conocer cardiología”, “conocer endocrinología” o “manejo multidisciplinar”.
+6. **Respuesta permitida:** queda especificado qué debe hacer el profesional o el sistema: comprobar, discriminar, interpretar, advertir, abstenerse, escalar o derivar. No se admiten mandatos vagos de “tenerlo en cuenta”.
+7. **Doble respaldo de frontera:** la competencia y su consecuencia están sostenidas por fuentes autorizadas pertinentes para la inmunología y para la disciplina o rama limítrofe, con versión, jurisdicción y localizador.
+8. **Consecuencia constituida ex ante:** la consecuencia existe en el catálogo antes de que la competencia intervenga en una operación o ruta crítica; no se redacta después para justificar una salida.
+
+El incumplimiento de una sola condición impide la adopción. El objeto podrá quedar identificado o residual, pero no se incorporará por utilidad aparente, prudencia inespecífica o preferencia curricular.
+
+### 13.3. Exclusiones obligatorias
+
+Quedan expresamente excluidos:
+
+- la suma indiscriminada de todos los conocimientos de las especialidades relacionadas;
+- la importación completa de una rama porque comparta fundamentos con la inmunología;
+- la duplicación de un conocimiento ya cubierto por el núcleo troncal;
+- la elevación de una asociación estadística a relación causal;
+- la inclusión basada únicamente en que “cuanto más se sepa, mejor”;
+- la atribución de competencia asistencial por disponer de conocimiento teórico;
+- las cadenas recursivas que, desde una interfaz, pretendan incorporar sucesivamente otras especialidades;
+- y cualquier conocimiento cuya ausencia no tenga una consecuencia clínica material demostrable para una operación del dominio.
+
+La consideración de una competencia como avanzada, excepcional o extraordinaria no modifica esta puerta. Si resulta necesaria para evitar una consecuencia material, se tipará por su función y consecuencia, no por prestigio, rareza o dificultad.
+
+### 13.4. Posición en el flujo
+
+Las competencias interfásicas críticas se evaluarán después de la atomización del núcleo y de las ramas especializadas, y antes de constituir rutas críticas, parámetros o representaciones formales.
+
+La secuencia obligatoria será:
+
+1. identificar la operación inmunológica;
+2. detectar la frontera clínica real;
+3. atomizar el conocimiento interfásico;
+4. demostrar y graduar la consecuencia de su ausencia;
+5. fijar la actuación permitida y la frontera profesional;
+6. someter el objeto a revisión adversarial;
+7. y solo entonces proponer su incorporación a una ruta crítica.
+
+No se construirá primero una ruta para buscar después conocimientos que la llenen.
+
+### 13.5. Adversarial específica
+
+**Ataque de expansión enciclopédica:** toda disciplina médica mantiene alguna relación con la inmunología.  
+**Cierre:** solo pasan unidades finitas que satisfacen la puerta conjuntiva y una consecuencia material relativa a una operación inmunológica.
+
+**Ataque de autoridad:** la IA o el inmunólogo reconocen una relación y actúan fuera de su competencia.  
+**Cierre:** reconocimiento, evaluación, actuación y escalado se mantienen separados; la frontera profesional es obligatoria.
+
+**Ataque de causalidad espuria:** una correlación se convierte en causa y genera una ruta falsa.  
+**Cierre:** la relación se tipa conforme a la fuerza real de la fuente; asociación, factor de riesgo, mecanismo causal y contraindicación no son equivalentes.
+
+**Ataque de duplicación y sobrecarga:** se repite el núcleo con otra nomenclatura o se crean alertas para todo.  
+**Cierre:** la adjudicación semántica precede a la admisión; un objeto cubierto no se duplica y una ausencia irrelevante para la operación no activa consecuencia.
+
+**Ataque de expansión recursiva:** una interfaz conduce a otra hasta abarcar toda la medicina.  
+**Cierre:** la competencia debe mantener conexión explícita con una operación inmunológica; cualquier salto adicional exige una nueva consecuencia independiente y una decisión expresa.
+
+**Ataque de obsolescencia o conflicto jurisdiccional:** una competencia válida en una versión o jurisdicción se universaliza.  
+**Cierre:** fuente, versión, jurisdicción, vigencia y conflicto son campos constitutivos; la discrepancia bloqueante produce residual o parada.
+
+**Resultado adversarial:** **APTO CONDICIONADO.** La capa se admite únicamente como mecanismo de cierre de consecuencias por ignorancia. No se admite como ampliación general del saber, unión de especialidades, sustitución de interconsulta ni atribución de autoridad multidisciplinar.
+
 ---
 
 **Fin del documento.**  
