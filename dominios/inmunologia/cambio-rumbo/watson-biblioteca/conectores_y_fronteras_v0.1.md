@@ -14,6 +14,7 @@
 | SciSpace | Aplicación instalada y habilitada; llamada material no verificada | Cribado de métodos, resultados y conclusiones | No es fuente clínica ni autoridad |
 | ClinicalTrials.gov API v2 | Endpoint público identificado; prueba material Watson pendiente | Registro y metadatos de ensayos | Registro no equivale a resultado; no contiene necesariamente microdatos |
 | Europe PMC | Endpoint público identificado; prueba material Watson pendiente | Acceso abierto y metadatos | No confundir disponibilidad con calidad o aplicabilidad |
+| Semantic Scholar Graph API | Clave emitida 01-09-2026; consulta autenticada Grok HTTP 200 sobre PMID:25269391 | paperId, DOI, PMID, título, año | No es fuente clínica; cupo 1 pet/s; atribución si se publican resultados; no sustituye PubMed |
 | SNOMED CT releases | Punto oficial identificado; paquete/edición/licencia no adoptados | Versiones terminológicas | No usar una edición sin fijar jurisdicción, licencia y versión |
 | HL7 FHIR | Especificación R5 5.0.0 comprobada | Transporte, perfiles, Provenance, AuditEvent | No resuelve por sí solo semántica clínica ni lógica de composición |
 
@@ -23,6 +24,7 @@
 2. `ICD-11 MMS 2024-01` no debe quedar como versión corriente. La API de la OMS devolvió `2026-01` como última versión el 01-09-2026. La adopción futura deberá fijar expresamente una versión, no consumir `latest`.
 3. `OpenAlex`, `openFDA` y `OMS ICD API` sí pasaron autenticación y consulta mínima de lectura.
 4. Un conector operativo no autoriza una afirmación médica ni el tratamiento de datos.
+5. Semantic Scholar: la fila nueva registra emisión de clave y una consulta Graph API autenticada (01-09-2026). Watson no ha repetido esa llamada en esta sesión. El estado no equivale a fuente clínica adoptada.
 
 ## Orden de uso
 
