@@ -1,0 +1,137 @@
+# Cambio de rumbo — dominio de inmunología
+
+Este directorio constituye la base documental de trabajo posterior a la rectificación metodológica acordada el 31-08-2026.
+
+## Documento rector
+
+- [`acta-rectificacion-metodologica-dominio-inmunologia-2026-08-31-v0.1.md`](acta-rectificacion-metodologica-dominio-inmunologia-2026-08-31-v0.1.md)
+
+El acta gobierna la continuación del trabajo. Ningún material clasificado debajo la modifica, completa por inferencia ni constituye por sí mismo el dominio clínico.
+
+## Estatutos documentales
+
+| Estatuto | Alcance |
+|---|---|
+| `RECTOR` | Decisiones metodológicas vigentes desde el cambio de rumbo. |
+| `INVIOLABLE` | Fundamentos y origen doctrinal de U. No se alteran desde este frente. |
+| `CONTEXTO` | Álgebra de composición. Sólo se aparta de ella por ampliación autorizada o error demostrado. |
+| `CANDIDATO_EN_CUARENTENA` | Material que puede informar el trabajo, pero no está adoptado, no agota el dominio y no autoriza asistencia. |
+| `HISTORICO_NO_VIGENTE` | Rastro previo, refutado, sustituido o no constitutivo. Se conserva para auditoría y para no repetir errores. |
+
+## Orden de autoridad
+
+1. Acta rectora.
+2. Doctrina inviolable.
+3. Contexto algebraico.
+4. Base documental candidata en cuarentena.
+5. Archivo histórico no vigente.
+
+La posición de un archivo en este árbol declara su estatuto. No declara validez clínica de su contenido.
+
+## Estructura
+
+### `01-doctrina-inviolable/` — 2 archivos
+
+- `Fundamentos algebraico-semánticos del Sistema Vectorial SV.md`
+- `Origen doctrinal, definición y alcance de la U en el Sistema Vectorial SV.md`
+
+### `02-contexto-algebraico/` — 1 archivo
+
+- `Álgebra de composición intercelular del Sistema Vectorial SV · Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español®.pdf`
+
+### `03-base-documental-candidata/01-inventario-clinico-en-cuarentena/` — 12 archivos
+
+Inventario y controles asociados. Todo permanece propuesto: 64 parámetros, 27 entidades, 50 relaciones y 40 cruces de cobertura. Ninguna fila está adoptada.
+
+- `Acta_correccion_rumbo_INMUNO_2026-08-31.xlsx`
+- `Candidatos_familias_hitos_INMUNO_2026-08-31.xlsx`
+- `Entidades_inmunologicas_tipificadas_v0.2_2026-08-31.csv`
+- `Entidades_inmunologicas_tipificadas_v0.2_2026-08-31.xlsx`
+- `Matriz_cobertura_repositorios_v0.2_2026-08-31.csv`
+- `Matriz_cobertura_repositorios_v0.2_2026-08-31.xlsx`
+- `Paquete_Watson_universo_candidato_v0.2_2026-08-31.md`
+- `Relacion_parametro_entidad_v0.2_2026-08-31.csv`
+- `Relacion_parametro_entidad_v0.2_2026-08-31.xlsx`
+- `Universo_candidato_parametros_INMUNO_v0.2_2026-08-31.csv`
+- `Universo_candidato_parametros_INMUNO_v0.2_2026-08-31.xlsx`
+- `adversarial-recepcion-paquete-inmunologia-v0.2-2026-08-31.md`
+
+### `03-base-documental-candidata/02-fuentes-y-datos-en-evaluacion/` — 15 archivos
+
+Antecedentes de repositorios, estudios y acceso. No prueban cobertura empírica del dominio: no había fuente A1 adoptada, conjunto descargado, cuenta autorizada ni D0-E/D0-L cerrado en el corte.
+
+- `Consorcios_clinicos_analogos_PIDTC_2026-08-31.xlsx`
+- `Consulta_PIDTC_bases_2026-08-31.xlsx`
+- `Cruce_sparse_ACV01_v0.2_2026-08-31.xlsx`
+- `Expediente_D0_estudios_candidatos_v0.1_2026-08-31.md`
+- `Flanco_IEI_busqueda_abierta_2026-08-31.xlsx`
+- `INFORME-REPOSITORIOS-INMUNOLOGIA.md`
+- `Informe_repositorios_inmunologia_A1_adversarial_2026-08-31.md`
+- `Lectura_publica_SDY3274_ARTIST_2026-08-31.xlsx`
+- `Lectura_publica_SDY3324_ACV01_2026-08-31.md`
+- `Revision_Watson_D0_cobertura_2026-08-31.md`
+- `Revision_Watson_SDY3324_N_cascada_2026-08-31.md`
+- `Revision_Watson_candidatos_SDY_2026-08-31.md`
+- `compilacion-d0-repositorios-inmunologia-2026-08-31-v1.md`
+- `expediente-d0-auditoria-material-estudios-candidatos-primera-ronda-2026-08-31-v0.1.md`
+- `registro-d0-cobertura-dominio-inmunologia-2026-08-31-v0.1.md`
+
+### `03-base-documental-candidata/03-estado-del-arte-en-evaluacion/` — 4 archivos
+
+Material de posicionamiento y su control adversarial. No forma el índice definitivo del preprint ni sustituye la bibliografía clínica especializada.
+
+- `Qwen_markdown_20260831_zaey2r5g9.md`
+- `Respuesta_adversarial_Qwen_T2T3T4_2026-08-31.md`
+- `Revision_Qwen_SoTA_SV_INMUNO_v0.1_2026-08-31.md`
+- `T4_procedencia_no_es_trazabilidad_2026-08-31.md`
+
+### `04-archivo-historico-no-vigente/01-flujos-y-arquitecturas/` — 7 archivos
+
+Flujos previos y sus adversariales. Se conservan como evidencia del error metodológico; no gobiernan la continuación.
+
+- `AUDITORIA-FLUJO-GOBERNADO-INMUNOLOGIA-v2.md`
+- `Adversarial_estado_flujo_INMUNO_2026-08-31.md`
+- `Adversarial_flujo_Watson_v2_2026-08-31.md`
+- `Flujo_gobernado_dominio_inmunologico_2026-08-31.html`
+- `adversarial-watson-y-avance-paralelo-inmunologia-2026-08-31-v0.1.md`
+- `flujo-gobernado-dominio-inmunologia-v3.html`
+- `flujo-gobernado-inmunologia-determinista-v2.html`
+
+### `04-archivo-historico-no-vigente/02-bisturi-y-gobierno/` — 3 archivos
+
+Propuestas útiles como rastro de requisitos, pero no adoptadas como algoritmo ejecutable ni como constitución del dominio.
+
+- `Adversarial_bisturi_Watson_v0.4_2026-08-31.md`
+- `bisturi-determinista-dominio-inmunologia-2026-08-31-v0.4.md`
+- `consecuencias-ex-ante-ignorancia-error-gobierno-inmunologia-2026-08-31-v0.3.md`
+
+### `04-archivo-historico-no-vigente/03-publicaciones-y-demostradores/` — 2 archivos
+
+Antecedentes externos sobre IMMUNO-1, la matriz 1×25 y las fronteras de resolución. No definen el dominio clínico completo ni constituyen validación con pacientes.
+
+- `JAMIA_Resolution_Frontiers_Main_Article_2026-08-20.docx`
+- `JBHI_Traceable_Human_AI_Clinical_Decision_Support_FINAL_2026-08-22.pdf`
+
+### `04-archivo-historico-no-vigente/04-paquetes-recibidos/` — 2 archivos
+
+Paquetes originales preservados. Sus catálogos curriculares de 196 y 167 filas fueron retirados o quedaron como antecedentes de método; no se fusionan con el inventario v0.2.
+
+- `Documento Claude.zip`
+- `parametros_claude.zip`
+
+## Límites vigentes en este corte
+
+- IMMUNO-1, IMMUNO-2 y la matriz 1×9 son semillas o demostradores; no agotan ni dimensionan el dominio clínico.
+- El inventario 64/27/50/40 está congelado como candidato y en cuarentena, no como frente rector.
+- Las consecuencias clínicas deben quedar documentadas antes de la composición y no pueden redactarse como racionalización retrospectiva.
+- No se aprende ni se infiere durante el episodio clínico.
+- Los repositorios comprueban observabilidad y contraste; no crean el deber profesional de conocer.
+- El tiempo y la estadística pueden entrar como datos o herramientas externas, no como primitivas del formalismo.
+- No se modifica el Lenguaje SV ni se decide R2/IR desde este directorio.
+- La decisión clínica final pertenece al experto autorizado.
+
+## Procedencia y preservación
+
+La clasificación parte del árbol `dominios/inmunologia/analisis-determinacion/` en el commit `84d460829742c4f278d4930d9d8c40683ebaef1b` de la rama `dominio-inmunologia`.
+
+Los 48 archivos materiales aprovechables se han replicado por identidad de objeto Git y clasificado aquí. El directorio de origen no se reescribe ni se elimina: conserva el rastro previo. Los marcadores `inicio.md` no se incorporan a esta base documental.
