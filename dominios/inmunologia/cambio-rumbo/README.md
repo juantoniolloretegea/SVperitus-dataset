@@ -85,13 +85,17 @@ Material de posicionamiento y su control adversarial. No forma el índice defini
 - `Revision_Qwen_SoTA_SV_INMUNO_v0.1_2026-08-31.md`
 - `T4_procedencia_no_es_trazabilidad_2026-08-31.md`
 
-### `03-base-documental-candidata/04-planes-profesionales-en-evaluacion/` — 3 archivos
+### `03-base-documental-candidata/04-planes-profesionales-en-evaluacion/` — 7 archivos
 
-Base profesional comparada y atomización controlada. La v0.1 se conserva intacta. La v0.2 amplía la cobertura candidata a 14 capacidades, 123 unidades descriptoras, 174 contextos curriculares, 11 procedimientos con 55 estados de progresión, 40 estados de progresión CiP y 14 mecanismos de acreditación. No constituye consecuencias clínicas, no adopta unidades, no atribuye competencia a ninguna jurisdicción y no modifica el Lenguaje SV.
+Base profesional comparada y atomización controlada. Las versiones v0.1–v0.5 se conservan intactas como cortes sucesivos. La v0.6 es la candidata más reciente: repara localizadores canadienses y trazabilidad multifuente sin alterar objetos clínicos. El conjunto mantiene 0 consecuencias clínicas constituidas, 0 parámetros SV derivados y ninguna autorización asistencial.
 
 - `Matriz_comparativa_planes_profesionales_INMUNO_v0.1_2026-09-01.xlsx`
 - `Catalogo_profesional_atomico_INMUNO_v0.1_2026-09-01.xlsx`
 - `Catalogo_profesional_atomico_INMUNO_v0.2_2026-09-01.xlsx`
+- `Catalogo_profesional_atomico_INMUNO_v0.3_2026-09-01.xlsx`
+- `Catalogo_profesional_atomico_INMUNO_v0.4_2026-09-01.xlsx`
+- `Catalogo_profesional_atomico_INMUNO_v0.5_2026-09-01.xlsx`
+- `Catalogo_profesional_atomico_INMUNO_v0.6_2026-09-01.xlsx`
 
 ### `04-archivo-historico-no-vigente/01-flujos-y-arquitecturas/` — 7 archivos
 
@@ -126,6 +130,14 @@ Paquetes originales preservados. Sus catálogos curriculares de 196 y 167 filas 
 
 - `Documento Claude.zip`
 - `parametros_claude.zip`
+
+### `05-grok-aportes/` — 33 archivos
+
+Rastro de aportes, auditorías y cribado documental producido por Grok. No es rector, no sustituye el acta y no adopta parámetros ni conjuntos de datos. Incluye su biblioteca de fuentes y la primera ronda de conjuntos candidatos, todos con estatuto no adoptado. `NOTA-PARIDAD.md` declara expresamente qué piezas permanecen incompletas o sólo en artefactos externos.
+
+### `watson-biblioteca/` — 4 archivos
+
+Biblioteca de trabajo guiada por necesidad: catálogo temático de fuentes, conectores comprobados y residuales. Una referencia registrada no constituye conocimiento clínico ni autorización de uso; versión, acceso, licencia y localizador deben cerrarse para cada finalidad.
 
 ## Límites vigentes en este corte
 

@@ -3,7 +3,7 @@
 **Versión:** 0.1  
 **Fecha de corte:** 31-08-2026  
 **Director:** Juan Antonio Lloret Egea, Ingeniero Director  
-**Estatuto:** candidata interna sometida a decisión expresa del Director  
+**Estatuto:** `RECTOR`, adoptada por decisión expresa del Director el 01-09-2026
 
 ## Declaración de alcance
 
