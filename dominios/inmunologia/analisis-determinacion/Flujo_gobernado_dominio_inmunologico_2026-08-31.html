@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Flujo gobernado — dominio inmunológico determinista · 2026-08-31</title>
+<style>
+:root{
+  --bg:#0e1412; --panel:#16201c; --panel2:#1c2a24; --ink:#e8f0ea; --muted:#9bb0a4;
+  --line:#2c433a; --acc:#c9a227; --acc2:#7dba8a; --danger:#c45c4a; --warn:#d4a017;
+  --gate:#6ea8ff; --ok:#3d9b6e; --hold:#b07a3a; --seed:#5b8def;
+  --radius:10px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font:15px/1.45 "Segoe UI",system-ui,sans-serif}
+header{padding:18px 22px 10px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#13201a,#0e1412)}
+header h1{margin:0 0 4px;font-size:1.25rem;font-weight:650;letter-spacing:.01em}
+header p{margin:0;color:var(--muted);font-size:.92rem}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.tag{border:1px solid var(--line);background:var(--panel);padding:3px 8px;border-radius:999px;font-size:.78rem;color:var(--muted)}
+.tag.gold{border-color:#6a5414;color:var(--acc)}
+.tag.red{border-color:#6a332c;color:#e08a7c}
+nav.tabs{display:flex;flex-wrap:wrap;gap:6px;padding:12px 18px;border-bottom:1px solid var(--line);position:sticky;top:0;background:#0e1412ee;z-index:20;backdrop-filter:blur(8px)}
+nav.tabs button{background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:7px 11px;cursor:pointer;font-size:.85rem}
+nav.tabs button:hover{border-color:var(--acc2)}
+nav.tabs button.active{background:#24362e;border-color:var(--acc);color:var(--acc)}
+main{padding:18px 20px 60px;max-width:1280px;margin:0 auto}
+section.tab{display:none}
+section.tab.active{display:block}
+h2{font-size:1.12rem;margin:0 0 10px;color:var(--acc)}
+h3{font-size:1rem;margin:18px 0 8px;color:var(--acc2)}
+p,li{color:var(--ink)}
+.muted{color:var(--muted)}
+.grid{display:grid;gap:12px}
+.grid.two{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px}
+.card h3{margin-top:0}
+.card.gate{border-color:#35527a}
+.card.danger{border-color:#6a332c}
+.card.hold{border-color:#6a5414}
+.card.seed{border-color:#2c4a7a}
+.warnbox{background:#2a1c12;border:1px solid #6a4414;padding:10px 12px;border-radius:8px;margin:10px 0}
+.okbox{background:#13241c;border:1px solid #2d5a40;padding:10px 12px;border-radius:8px;margin:10px 0}
+.flow{display:flex;flex-direction:column;gap:10px}
+.lane{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:12px}
+.lane h3{margin:0 0 8px;display:flex;align-items:center;gap:8px}
+.nodes{display:flex;flex-wrap:wrap;gap:8px}
+.node{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 10px;min-width:160px;max-width:280px;cursor:pointer;position:relative}
+.node:hover{border-color:var(--acc2)}
+.node.selected{outline:2px solid var(--acc)}
+.node .id{font-size:.72rem;color:var(--acc);font-weight:700;letter-spacing:.04em}
+.node .t{font-size:.86rem;margin-top:2px}
+.node.gate{border-color:#3a5e8a}
+.node.hold{border-color:#8a6a20}
+.node.danger{border-color:#8a4036}
+.node.seed{border-color:#3a5a8a}
+.node.data{border-color:#2d6a4a}
+.arrow{text-align:center;color:var(--muted);font-size:.8rem;letter-spacing:.12em}
+details.detail{margin-top:14px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+details.detail summary{cursor:pointer;color:var(--acc);font-weight:600}
+table{width:100%;border-collapse:collapse;font-size:.86rem;margin:8px 0 16px}
+th,td{border:1px solid var(--line);padding:6px 8px;vertical-align:top;text-align:left}
+th{background:#1b2b24;color:var(--acc2);font-weight:600}
+code,kbd{font-family:ui-monospace,Consolas,monospace;font-size:.86em;background:#0b100e;padding:1px 5px;border-radius:4px}
+.verdict{display:inline-block;padding:1px 8px;border-radius:999px;font-size:.75rem;font-weight:700;letter-spacing:.03em}
+.v-resiste{background:#1b3a2b;color:#8fe0b0}
+.v-colapsa{background:#3a1b18;color:#f0a090}
+.v-abierto{background:#3a2e12;color:#f0d080}
+footer{padding:16px 20px;border-top:1px solid var(--line);color:var(--muted);font-size:.8rem}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 14px}
+.toolbar button{background:#24362e;color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:6px 10px;cursor:pointer}
+.legend{display:flex;flex-wrap:wrap;gap:10px;font-size:.78rem;color:var(--muted);margin-bottom:10px}
+.sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;border:1px solid #0003}
+#inspector{min-height:120px}
+.inter{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px;margin:12px 0}
+.cellx{background:var(--panel);border:1px dashed var(--line);padding:10px;border-radius:8px;font-size:.85rem}
+.cellx b{display:block;color:var(--acc);margin-bottom:4px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Flujo gobernado del dominio inmunológico determinista</h1>
+  <p>Instrumento de gobierno local · no es constitución del dominio · no es artículo · no abre R2-1 · no infiere las ambigüedades dejadas abiertas por el autor.</p>
+  <div class="meta">
+    <span class="tag gold">Corte 31-08-2026</span>
+    <span class="tag">Autor humano soberano</span>
+    <span class="tag red">Sin inferencia · sin actuación sin permiso</span>
+    <span class="tag">Semillas ≠ dominio clínico completo</span>
+    <span class="tag">Matrices 1×n · 3<sup>n</sup> estados</span>
+  </div>
+</header>
+<nav class="tabs" id="tabs">
+  <button class="active" data-tab="flujo">1. Diagrama de flujo</button>
+  <button data-tab="inter">2. Intersecciones y compuertas</button>
+  <button data-tab="adv1">3. Adversarial sanitaria/clínica</button>
+  <button data-tab="adv2">4. Adversarial de procesos</button>
+  <button data-tab="adv3">5. Lógica enlazada</button>
+  <button data-tab="nomen">6. Nomenclatura y U</button>
+  <button data-tab="datos">7. Datos y repositorios</button>
+  <button data-tab="corte">8. Corte compilado</button>
+</nav>
+<main>
+
+<section class="tab active" id="flujo">
+  <h2>Diagrama de flujo interactivo</h2>
+  <p class="muted">Pulse un nodo para inspeccionarlo. Las flechas son de gobierno, no de causalidad clínica. Las cajas ámbar son paradas no inferibles. Las rojas son prohibiciones. Nada de este diagrama autoriza extraer parámetros, abrir CSV ni tocar R2-1.</p>
+  <div class="legend">
+    <span><i class="sw" style="background:#3a5e8a"></i>Compuerta humana</span>
+    <span><i class="sw" style="background:#8a6a20"></i>Parada no inferible</span>
+    <span><i class="sw" style="background:#8a4036"></i>Prohibición / flanco</span>
+    <span><i class="sw" style="background:#2d6a4a"></i>Carril de datos</span>
+    <span><i class="sw" style="background:#3a5a8a"></i>Semilla / cascarón</span>
+  </div>
+  <div class="toolbar">
+    <button type="button" onclick="filterLane('all')">Todo</button>
+    <button type="button" onclick="filterLane('perim')">Perímetros</button>
+    <button type="button" onclick="filterLane('data')">Datos</button>
+    <button type="button" onclick="filterLane('seed')">Semillas</button>
+    <button type="button" onclick="filterLane('dom')">Dominio</button>
+    <button type="button" onclick="filterLane('lang')">Centinela / lenguaje</button>
+    <button type="button" onclick="filterLane('hold')">Paradas abiertas</button>
+  </div>
+
+  <div class="flow" id="flow">
+    <div class="lane" data-lane="perim">
+      <h3>P · Perímetros (no se violan)</h3>
+      <div class="nodes">
+        <div class="node danger" data-id="P1" onclick="inspect('P1')"><div class="id">P1</div><div class="t">Fundamentos + origen doctrinal de U — inviolables</div></div>
+        <div class="node" data-id="P2" onclick="inspect('P2')"><div class="id">P2</div><div class="t">Álgebra de composición: solo ampliar concepto o detectar error</div></div>
+        <div class="node" data-id="P3" onclick="inspect('P3')"><div class="id">P3</div><div class="t">Lenguaje SV (gramática/IR/semántica vigentes) — ojos abiertos antes de R2</div></div>
+        <div class="node gate" data-id="G0" onclick="inspect('G0')"><div class="id">G0</div><div class="t">Autorización humana explícita de cada paso</div></div>
+      </div>
+    </div>
+    <div class="arrow">↓ no hay avance sin G0 · no se infiere el siguiente nodo</div>
+
+    <div class="lane" data-lane="nomen">
+      <h3>N · Contrato de nomenclatura de extracción (precondición lógica)</h3>
+      <div class="nodes">
+        <div class="node danger" data-id="N1" onclick="inspect('N1')"><div class="id">N1</div><div class="t">No se habla de «células» en extracción (salvo paréntesis)</div></div>
+        <div class="node danger" data-id="N2" onclick="inspect('N2')"><div class="id">N2</div><div class="t">(k,s) = 1×k, no s×s ni k×s · estados = 3<sup>k</sup></div></div>
+        <div class="node" data-id="N3" onclick="inspect('N3')"><div class="id">N3</div><div class="t">Elementos a<sub>1j</sub> · el nombre SV pierde relevancia externa</div></div>
+        <div class="node danger" data-id="N4" onclick="inspect('N4')"><div class="id">N4</div><div class="t">Confundir 1×9 con 3×3 mata la base</div></div>
+      </div>
+    </div>
+    <div class="arrow">↓ tres objetos distintos no se fusionan</div>
+
+    <div class="lane" data-lane="split">
+      <h3>Ω · Separación de objetos (intersección crítica)</h3>
+      <div class="nodes">
+        <div class="node" data-id="O1" onclick="inspect('O1')"><div class="id">O1</div><div class="t">Dominio profesional declarado</div></div>
+        <div class="node" data-id="O2" onclick="inspect('O2')"><div class="id">O2</div><div class="t">Dominio clínico operativo</div></div>
+        <div class="node" data-id="O3" onclick="inspect('O3')"><div class="id">O3</div><div class="t">Centinela del Lenguaje ES×IMMUNO</div></div>
+        <div class="node danger" data-id="O4" onclick="inspect('O4')"><div class="id">O4</div><div class="t">Prohibido fusionar O1+O2+O3 en un solo Q</div></div>
+      </div>
+    </div>
+    <div class="arrow">↓ el carril de datos no espera a la teoría</div>
+
+    <div class="lane" data-lane="data">
+      <h3>A · Carril de datos reales (paralelo y previo a derivar arrays)</h3>
+      <div class="nodes">
+        <div class="node data" data-id="A1" onclick="inspect('A1')"><div class="id">A1</div><div class="t">Inventario de repositorios disponibles</div></div>
+        <div class="node data" data-id="A2" onclick="inspect('A2')"><div class="id">A2</div><div class="t">Población · episodio · finalidad · fecha de corte</div></div>
+        <div class="node data" data-id="A3" onclick="inspect('A3')"><div class="id">A3</div><div class="t">Frontera: estadística/tiempo de terceros ≠ primitivas</div></div>
+        <div class="node data" data-id="A4" onclick="inspect('A4')"><div class="id">A4</div><div class="t">Prueba empírica: ¿aumentan criterios clínicos medibles?</div></div>
+        <div class="node hold" data-id="A5" onclick="inspect('A5')"><div class="id">A5</div><div class="t">Sin datos adecuados → demostrador formal, no validación clínica</div></div>
+      </div>
+    </div>
+    <div class="arrow">↓ semillas se anatomizan; no deciden el dominio</div>
+
+    <div class="lane" data-lane="seed">
+      <h3>B · Semillas / cascarones (IMMUNO-1 e IMMUNO-2)</h3>
+      <div class="nodes">
+        <div class="node seed" data-id="B1" onclick="inspect('B1')"><div class="id">B1</div><div class="t">Anatomía 1×25 de Fase I — profilaxis antiinfecciosa IS farmacológica</div></div>
+        <div class="node seed" data-id="B2" onclick="inspect('B2')"><div class="id">B2</div><div class="t">Anatomía 1×25 de Fase II — riesgo infeccioso IS no trasplante</div></div>
+        <div class="node seed" data-id="B3" onclick="inspect('B3')"><div class="id">B3</div><div class="t">Puente dirigido Fase I → Fase II (P25) + compositor-artefacto</div></div>
+        <div class="node seed" data-id="B4" onclick="inspect('B4')"><div class="id">B4</div><div class="t">Array de integridad 1×9 (antes meta-célula) — no clínico</div></div>
+        <div class="node danger" data-id="B5" onclick="inspect('B5')"><div class="id">B5</div><div class="t">n=625 no es tercer array · compositor no es fase</div></div>
+        <div class="node hold" data-id="G1" onclick="inspect('G1')"><div class="id">G1</div><div class="t">¿La derivación posterior puede reabrir las semillas fijadas?</div></div>
+      </div>
+    </div>
+    <div class="arrow">↓ siete planos por elemento a<sub>1j</sub> · no pasar de currículo a daño</div>
+
+    <div class="lane" data-lane="seed">
+      <h3>B* · Siete planos de cada elemento (Fase I de anatomía)</h3>
+      <div class="nodes">
+        <div class="node" data-id="Q1" onclick="inspect('Q1')"><div class="id">Π1</div><div class="t">Profesional: ¿qué debe conocerse?</div></div>
+        <div class="node" data-id="Q2" onclick="inspect('Q2')"><div class="id">Π2</div><div class="t">Clínico: población, contexto, episodio</div></div>
+        <div class="node" data-id="Q3" onclick="inspect('Q3')"><div class="id">Π3</div><div class="t">Resolutivo: qué operación contesta el array</div></div>
+        <div class="node" data-id="Q4" onclick="inspect('Q4')"><div class="id">Π4</div><div class="t">Consecuencial: daño potencial de omitir</div></div>
+        <div class="node" data-id="Q5" onclick="inspect('Q5')"><div class="id">Π5</div><div class="t">Representacional: qué información hay que conservar</div></div>
+        <div class="node" data-id="Q6" onclick="inspect('Q6')"><div class="id">Π6</div><div class="t">Compositivo: qué otro array y en qué orden</div></div>
+        <div class="node" data-id="Q7" onclick="inspect('Q7')"><div class="id">Π7</div><div class="t">Residual: qué queda fuera o sin resolver</div></div>
+      </div>
+    </div>
+    <div class="arrow">↓ inventario respecto de un corpus fechado — no de «toda la inmunología»</div>
+
+    <div class="lane" data-lane="dom">
+      <h3>C · Constitución modular del dominio (después del inventario, no antes)</h3>
+      <div class="nodes">
+        <div class="node" data-id="C1" onclick="inspect('C1')"><div class="id">C1</div><div class="t">Inventario de parámetros candidatos y relaciones</div></div>
+        <div class="node hold" data-id="C2" onclick="inspect('C2')"><div class="id">C2</div><div class="t">Derivación: nº de arrays, tamaño, estratificación, puentes, residual, grafo</div></div>
+        <div class="node" data-id="C3" onclick="inspect('C3')"><div class="id">C3</div><div class="t">Composición dirigida y tipada — no conmutativa ni asociativa por defecto</div></div>
+        <div class="node" data-id="C4" onclick="inspect('C4')"><div class="id">C4</div><div class="t">Puede existir resto profesional no «celular»</div></div>
+        <div class="node danger" data-id="C5" onclick="inspect('C5')"><div class="id">C5</div><div class="t">No abrir IEI / alergia / autoinmunidad / laboratorio / trasplante como constructoras simultáneas</div></div>
+      </div>
+    </div>
+    <div class="arrow">↓ contraste · no validación clínica por declaración</div>
+
+    <div class="lane" data-lane="dom">
+      <h3>D · Contraste con casos reales</h3>
+      <div class="nodes">
+        <div class="node data" data-id="D1" onclick="inspect('D1')"><div class="id">D1</div><div class="t">Casos documentados y legítimamente anonimizados</div></div>
+        <div class="node" data-id="D2" onclick="inspect('D2')"><div class="id">D2</div><div class="t">Cobertura, falsos cierres, fallos de composición, residual efectivo</div></div>
+        <div class="node hold" data-id="G2" onclick="inspect('G2')"><div class="id">G2</div><div class="t">¿El contraste (Fase III) condiciona el paso a R2?</div></div>
+        <div class="node" data-id="D3" onclick="inspect('D3')"><div class="id">D3</div><div class="t">Hold-out: trasplante retenido como falsador de saturación</div></div>
+      </div>
+    </div>
+    <div class="arrow">↓ carril del lenguaje — objeto distinto · no medicina</div>
+
+    <div class="lane" data-lane="lang">
+      <h3>E · Centinela del Lenguaje (antes de decidir exigencias a R2-1)</h3>
+      <div class="nodes">
+        <div class="node" data-id="E1" onclick="inspect('E1')"><div class="id">E1</div><div class="t">Cerrar identificadores SVP (Unicode, tildes, ñ, confusables)</div></div>
+        <div class="node" data-id="E2" onclick="inspect('E2')"><div class="id">E2</div><div class="t">Paridad material necesaria</div></div>
+        <div class="node" data-id="E3" onclick="inspect('E3')"><div class="id">E3</div><div class="t">Congelar corpus, corte y operaciones independientes del formalismo</div></div>
+        <div class="node" data-id="E4" onclick="inspect('E4')"><div class="id">E4</div><div class="t">Constituir el centinela pequeño ES</div></div>
+        <div class="node" data-id="E5" onclick="inspect('E5')"><div class="id">E5</div><div class="t">Operaciones retenidas para falsar saturación</div></div>
+        <div class="node" data-id="E6" onclick="inspect('E6')"><div class="id">E6</div><div class="t">Adversarial del centinela</div></div>
+        <div class="node" data-id="E7" onclick="inspect('E7')"><div class="id">E7</div><div class="t">Publicar íntegramente en español</div></div>
+        <div class="node gate" data-id="E8" onclick="inspect('E8')"><div class="id">E8</div><div class="t">Solo entonces decidir qué exigencias llegan a R2-1</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" id="inspector">
+    <h3>Inspector de nodo</h3>
+    <p class="muted">Seleccione un nodo del flujo.</p>
+  </div>
+</section>
+
+<section class="tab" id="inter">
+  <h2>Intersecciones y compuertas</h2>
+  <div class="warnbox">Tres intersecciones mal gobernadas tumban el frente: (1) semilla leída como dominio; (2) estadística/tiempo metidos como primitivas del estado ternario; (3) centinela del lenguaje fusionado con constitución clínica.</div>
+
+  <h3>Matriz de intersección (qué cruza qué)</h3>
+  <div class="inter">
+    <div class="cellx"><b>O1 ∩ A</b>El currículo profesional no produce por sí solo el daño clínico. A aporta evidencia distinta.</div>
+    <div class="cellx"><b>O2 ∩ B</b>Las semillas tensionan un episodio concreto (IS farmacológica). No cubren O2 completo.</div>
+    <div class="cellx"><b>O3 ∩ E</b>El centinela prueba el Lenguaje. No acredita competencia MIR ni validez asistencial.</div>
+    <div class="cellx"><b>A ∩ C</b>Sin inventario de datos no se deriva el número de arrays. C2 queda en G1.</div>
+    <div class="cellx"><b>Π4 ∩ A3</b>Consecuencia declarada ≠ probabilidad ≠ riesgo cuantificado. La estadística entra como herramienta externa.</div>
+    <div class="cellx"><b>P1 ∩ U</b>U atómica y no tipada. Irreducible / fronteriza / resoluble son propiedades de posición respecto de un horizonte, no clases de U.</div>
+    <div class="cellx"><b>B3 ∩ C3</b>El puente P25 es dirigido. No autoriza conmutatividad ni asociación de tres arrays.</div>
+    <div class="cellx"><b>E1 ∩ medicina</b>letter / Unicode no justifica abrir alergia ni IEI. Carril del lenguaje, no del dominio.</div>
+  </div>
+
+  <h3>Compuertas que no se cierran por inferencia</h3>
+  <table>
+    <tr><th>Id</th><th>Pregunta</th><th>Por qué no se cierra aquí</th><th>Qué haría ilícito</th></tr>
+    <tr><td><code>G1</code></td><td>¿La derivación C2 puede reabrir los arrays semilla ya fijados?</td><td>El autor no lo ha definido. Watson lo dejó abierto. Las semillas no deciden el dominio, pero eso no equivale a «se reabren».</td><td>Redibujar IMMUNO-1/2 «porque el CSV lo pide».</td></tr>
+    <tr><td><code>G2</code></td><td>¿El contraste con casos (D) condiciona el paso a R2?</td><td>R2 es fase del Lenguaje. El contraste es del dominio clínico. Ligarlos sin autorización mezcla O2 y O3.</td><td>Declarar «no hay R2-1 hasta cohorte» o lo contrario.</td></tr>
+    <tr><td><code>G0</code></td><td>¿Se autoriza el siguiente paso?</td><td>Régimen declarado: no inferir, no actuar sin permiso.</td><td>Empezar extracción, CSV o búsqueda «por adelantado».</td></tr>
+    <tr><td><code>A5</code></td><td>Si no hay repositorio adecuado, ¿qué estatuto tiene el resultado?</td><td>Ya está declarado: demostrador formal ≠ validación clínica. Falta elegir fuentes concretas.</td><td>Adoptar MIMIC/SIDIAP/ESID sin autorización.</td></tr>
+  </table>
+
+  <h3>Fidelidad especificación–implementación (P02) como intersección técnica</h3>
+  <p>Con <code>dm=False</code>, eGFR=90 y HbA1c/NYHA/cardiopatía isquémica ausentes, una implementación devolvió 0 pese a la regla escrita sobre información incompleta. Eso es un defecto de fidelidad, no una autorización automática de U. Orden obligatorio: admisibilidad → transducción → juicio de 0/1/U. Dato no capturado ≠ observación no admitida ≠ U constituida. Pérdida de información ≠ cambio del estado ternario.</p>
+</section>
+
+<section class="tab" id="adv1">
+  <h2>Adversarial 1 — sanitaria / clínica / médica</h2>
+  <p class="muted">Ataque al flanco clínico del flujo propuesto. No pisa ingeniería de procesos. Veredicto ternario por pieza.</p>
+
+  <h3>A1.1 Las semillas no son la especialidad</h3>
+  <p><span class="verdict v-resiste">RESISTE</span> la tesis del autor: IMMUNO-1 e IMMUNO-2 son cascarones. <span class="verdict v-colapsa">COLAPSA</span> cualquier redacción que las presente como «el dominio de inmunología».</p>
+  <ul>
+    <li>Fase I: profilaxis antiinfecciosa en inmunosupresión farmacológica, históricamente adultos con neoplasias hematológicas. Array 1×25, T(25)=19.</li>
+    <li>Fase II: riesgo infeccioso en inmunosupresión farmacológica no trasplante. Otra 1×25, semántica propia, puente P25.</li>
+    <li>Quedan fuera, entre otras: inmunodeficiencias primarias, alergia, autoinmunidad sistémica y órgano-específica, inmunología de trasplante, inmunología de laboratorio (ANA, ANCA, proteínas, citometría), inmunooncología, inmunología de la reproducción, vacunación poblacional sana, VIH como entidad propia.</li>
+  </ul>
+  <p>Un revisor clínico duro preguntará: <em>¿qué paciente de una consulta real de inmunología queda cubierto?</em> Si la respuesta es «el oncohematológico inmunosuprimido en profilaxis», el objeto es ese episodio, no la especialidad.</p>
+
+  <h3>A1.2 No existe un MIR internacional soberano</h3>
+  <p><span class="verdict v-abierto">NO DEMOSTRADO</span> un corpus único. Reserva documental ya anotada: etapa temprana EAACI/EACCI/GMC/ABAI vs preprint canónico RACP / Royal College of Physicians and Surgeons of Canada / GMC / ACGME. No hay justificación explícita de la sustitución. El primer conjunto es histórico, no canónico. Inventar la transición sería inferencia ilícita.</p>
+  <p>Currículo, acreditación, guía, norma administrativa y ley no tienen el mismo estatuto epistémico. Un programa formativo acredita pertenencia profesional; no demuestra el daño de omitir un ítem.</p>
+
+  <h3>A1.3 Consecuencia ≠ probabilidad ≠ riesgo</h3>
+  <p><span class="verdict v-resiste">RESISTE</span> la distinción ya fijada. El formalismo puede determinar de forma reproducible que una omisión abre una vía de daño <em>bajo condiciones declaradas</em>. No puede afirmar determinísticamente que el paciente sufrirá ese daño salvo relación necesaria demostrada. El determinismo es de la evaluación de reglas, no del desenlace biológico.</p>
+  <p>Flanco duro: Π4 (consecuencial) exige fuente distinta de Π1 (curricular). Guías, vigilancia, series, normas sanitarias o consenso experto <em>clasificado</em>. Sin eso, «qué puede ocurrir al paciente si se ignora» es narración.</p>
+
+  <h3>A1.4 Criticidad no es propiedad absoluta del parámetro</h3>
+  <p>La criticidad depende del paciente, del episodio, de la operación y de la composición. Declarar a priori que a<sub>1j</sub> es «siempre crítico» es un error clínico. Ejemplo rector ya existente: dos observaciones completas pueden producir el mismo escalar P02=1 por fundamentos clínicos distintos. El escalar es insuficiente <em>solo</em> si la operación declarada exige recuperar el fundamento causal; sigue siendo suficiente para otras operaciones. «Suficiente» no es «necesario».</p>
+
+  <h3>A1.5 Teoría inicial sin datos reales</h3>
+  <p><span class="verdict v-colapsa">COLAPSA</span> como pretensión clínica si el flujo dibuja anatomía completa (B1–Π7) antes de A1–A4. El autor ha invertido ese orden: la parte de datos es vital y la búsqueda de repositorios aún más. Un manuscrito que «aumenta criterios médicos reconocibles y medibles por estándares internacionales» es una afirmación empírica. Sin baseline, métrica, población y fuente, un revisor la rechaza como eslogan.</p>
+  <p>No se adoptan aquí repositorios. Solo se señala la clase de pregunta que A1 debe responder cuando el autor lo autorice: acceso, población cubierta, variables inmunológicas reales, régimen ético, fecha de corte, sesgo de indicación, y si el episodio de las semillas (IS farmacológica no trasplante / profilaxis) está o no representado.</p>
+
+  <h3>A1.6 Superficies JS/WASM no son evidencia clínica</h3>
+  <p>IMMUNO-1 Rust/WASM (<code>evaluate_immuno1()</code>), compositor (<code>compose()</code>, Γ(v) en JS), demo React/Babel con T(25)=19, y la ruta histórica <code>dominios/inmunologia/</code> son realizaciones o señales. No validan el dominio. Los conjuntos sintéticos y la CNN de IMMUNO-1 están expresamente excluidos como validación del trabajo nuevo de constitución.</p>
+
+  <h3>A1.7 Publicaciones: no reabrir objetos ya enviados</h3>
+  <table>
+    <tr><th>Pieza</th><th>Flanco clínico</th></tr>
+    <tr><td>Documento 7 — IMMUNO-1 (5-3-2026)</td><td>Motor normativo histórico. Sin validación clínica ni uso asistencial. No se reenvía como constitución del dominio.</td></tr>
+    <tr><td>Resolution Frontiers… DOI 10.21428/39829d0b.739ed2b6</td><td>JAMIA amiajnl-2026-020557: rechazo editorial por encaje, 21-8-2026, sin revisión por pares.</td></tr>
+    <tr><td>Traceable Human–AI Clinical Decision Support… JBHI-05806-2026</td><td>Under Review. Artículo autónomo. No se reescribe ni se transfiere.</td></tr>
+    <tr><td>De los estándares profesionales… DOI 10.21428/39829d0b.76cf10ec</td><td>Preprint. No tomar como prueba de envío efectivo a MIM.</td></tr>
+    <tr><td>IMMUNO-2</td><td>Materializada y especificada; pendiente de publicación propia. No es el dominio completo.</td></tr>
+  </table>
+
+  <h3>A1.8 Preguntas que un revisor clínico duro hará — y que el manuscrito futuro debe poder contestar autocontenido</h3>
+  <ol>
+    <li>¿Cuál es la población index, el episodio y la finalidad? Una frase, no un mapa de la especialidad.</li>
+    <li>¿Qué operación clínica se responde (profilaxis, riesgo, indicación vacunal, alerta) y cuál no?</li>
+    <li>¿Qué ocurre con dato ausente? ¿Se admite, se retiene, se marca incompleto, o se fuerza 0/1?</li>
+    <li>¿Cómo se distingue omisión peligrosa de variable irrelevante para esa operación?</li>
+    <li>¿Qué estándar internacional mide el «aumento de criterios» y con qué comparador?</li>
+    <li>¿El sistema recomienda tratar? Si sí, ¿dónde está la autoridad humana y el registro de la decisión?</li>
+    <li>¿Qué paciente tipo queda fuera y cómo se declara el residual?</li>
+  </ol>
+</section>
+
+<section class="tab" id="adv2">
+  <h2>Adversarial 2 — ingeniería de procesos (sin pisar la clínica)</h2>
+  <p class="muted">Ataque al gobierno del trabajo: orden, artefactos, fidelidad, parada, publicación. No rediscute indicaciones clínicas.</p>
+
+  <h3>A2.1 El flujo no puede ser un waterfall médico disfrazado</h3>
+  <p><span class="verdict v-colapsa">COLAPSA</span> un diagrama que encadene «anatomía semilla → CSV universal → N arrays → cohorte → R2-1» como si fuera un único proyecto. Hay tres carriles (O1, O2, O3) con interfaces. El proceso correcto es concurrente con compuertas, no serial único.</p>
+  <p>Consecuencia de proceso: cada entregable declara su objeto, su Q, su criterio de parada y su residual. Si no cabe en una página, no es fase: es programa (ataque de saturación ya formulado el 27-08 contra el dictamen ES×IMMUNO).</p>
+
+  <h3>A2.2 Artefactos mal tipados en el organigrama</h3>
+  <ul>
+    <li>IMMUNO-1 e IMMUNO-2 son <em>fases del mismo agente</em>, no dos agentes ni módulos empresariales.</li>
+    <li>El compositor es artefacto adscrito a Fase II, no fase autónoma. Ponerle caja de etapa equivalente a B1/B2 es un error de WBS.</li>
+    <li>n = 625 es capacidad o límite grueso del agente, no tercer array ni meta-array.</li>
+    <li>El array 1×9 de integridad es independiente y no se concatena a 34 o 59 posiciones clínicas.</li>
+    <li>Python, JS y cascarones WASM antiguos son antecedentes. No son evidencia del Lenguaje vigente (Gramática 0.2 · IR 0.3 · proyección 0.1.0; R0 y R1 cerrados; R2 abierto sobre persistencia).</li>
+  </ul>
+
+  <h3>A2.3 Fidelidad especificación–implementación es una etapa, no un apéndice</h3>
+  <p>El incidente P02 (dm=False, eGFR=90, marcadores cardiometabólicos ausentes → 0 contra la regla de incompleto) obliga a una compuerta de paridad <em>antes</em> de cualquier juicio semántico de U. Proceso: testigo reproducible → diff especificación/código → corrección o excepción versionada → re-ejecución. Sin esa etapa, el flujo «constituye» sobre un motor que no implementa lo escrito.</p>
+  <p>La demo JS de conteo T(25)=19 no es prueba de paridad con el motor Rust. Usarla como tal es un fallo de verificación.</p>
+
+  <h3>A2.4 Datos como workstream, no como «Fase III si hay tiempo»</h3>
+  <p>El autor ha elevado A1–A4 a condición. El proceso debe tener:</p>
+  <ol>
+    <li>registro append-only de fuentes candidatas (sin adoptarlas);</li>
+    <li>campos mínimos: dueño, población, variables, ética, corte, licencia, sesgo;</li>
+    <li>decisión humana de inclusión/exclusión;</li>
+    <li>frontera explícita de lo que entra como observación versus lo que entra como estadístico de tercero.</li>
+  </ol>
+  <p>Sin (3), un asistente que «busque repositorios y empiece a bajar variables» viola G0.</p>
+
+  <h3>A2.5 Composición como proceso dirigido</h3>
+  <p>La composición no es un join de tablas. El proceso debe registrar, por cada puente: origen, destino, tipo de información transmitida, pérdida admitida, operación que justifica el orden, y testigo de que otro orden ocultaría una consecuencia. Prohibido suponer conmutatividad, asociatividad o que recorrer el catálogo es necesario. Una composición breve puede detectar un peligro que una agregación oculta: eso es requisito de diseño de proceso, no de doctrina clínica.</p>
+
+  <h3>A2.6 Registro y autoridad</h3>
+  <p>Cadena de autoridad ya fijada: experto humano soberano → especificación y Lenguaje constituidos → componentes computacionales e IA subordinados. El registro append-only diferencia: observaciones, transducciones, recomendaciones, decisiones humanas, autorizaciones, versiones del conocimiento. La GUI no crea semántica. La IA puede localizar y proponer; no incorpora hasta protocolo + autorización.</p>
+
+  <h3>A2.7 Publicación no gobierna el WBS</h3>
+  <p>Prioridad de sede mientras el objeto no está estabilizado es el error reiterado. Orden de proceso: congelar S, Q y criterio de saturación → adversarial → sede que no deforme el resultado. Coste editorial = 0. Autocontención obligatoria: el revisor no puede ser remitido al corpus SV como pilar.</p>
+  <p>Laterales ya aplazados y que el proceso no debe reabrir: neumología, humanoide, NLP, banco de idiomas, IMMUNO-3, nuevas arrays por curiosidad, openRxiv Labs.</p>
+
+  <h3>A2.8 Identificadores y letter no viajan en el mismo paquete que el dominio</h3>
+  <p>Cerrar Unicode × ASCII × tildes × ñ × confusables es deuda de contrato léxico del Lenguaje. Demostrable con un identificador y dos frontales. Meterlo como tarea del dominio clínico contamina el WBS (ataque D del dictamen 27-08). En este flujo vive en E1, no en B ni en C.</p>
+</section>
+
+<section class="tab" id="adv3">
+  <h2>Adversarial 3 — lógica enlazada entre las dos primeras</h2>
+  <p class="muted">No repite clínica ni WBS. Examina implicaciones, no-secuíturs y contaminaciones de frontera.</p>
+
+  <h3>A3.1 No-secuítur semilla → dominio</h3>
+  <p>De «IMMUNO-1 e IMMUNO-2 están materializadas» no se sigue «el número de arrays del dominio está determinado». De «las semillas no agotan el dominio» no se sigue «C2 puede reabrir B1/B2». Esas son dos implicaciones distintas. G1 permanece abierta precisamente porque la segunda no está autorizada.</p>
+
+  <h3>A3.2 Cardinalidad y nomenclatura como precondición de toda derivación</h3>
+  <p>Si un revisor lee (25,5) como matriz 25×5, el espacio de estados pasa de 3<sup>25</sup> a 3<sup>125</sup> (o a una lectura 5×5). Si lee (9,3) como 3×3, pasa de 3<sup>9</sup>=19683 a 3<sup>9</sup> mal anclado o a 3<sup>3</sup>=27. Ese error no es terminológico: altera el objeto matemático. Por tanto N1–N4 no son «estilo de redacción»; son invariante lógico de C2. Sin N, C2 es indecidible.</p>
+  <p>Nomenclatura externa: array / matriz fila 1×k con elementos a<sub>1j</sub>, j=1..k. En documentos de extracción el nombre «SV» pierde relevancia. En el gobierno interno de este HTML se conserva para no romper trazabilidad con el corpus.</p>
+
+  <h3>A3.3 Frontera estadística–tiempo–estado ternario</h3>
+  <p>La medicina opera con incidencias, supervivencia, eficacia vacunal, tasas. El formalismo admite estadística y tiempo de <em>terceros</em> y los prohíbe como primitivas propias. Tiempo es herramienta, no primitiva. La estadística oculta singulares.</p>
+  <p>Enlace lógico: Π4 puede citar un estadístico externo («la omisión de profilaxis X se asocia a infección Y en la serie Z») sin introducir ese estadístico como valor de a<sub>1j</sub>. El estado del elemento sigue siendo 0 / 1 / U bajo reglas declaradas. Si el estadístico se cuela como valor, se contaminan invariantes. Si se prohíbe toda mención estadística, el manuscrito se vuelve clínicamente ilegible. La única solución no inferida —ya declarada— es frontera tipada: medida externa referenciada ≠ estado constituido.</p>
+  <p>Atención de solapamiento: el objeto «insuficiencia del balance escalar terminal» y la conversión de clase de medida están en sumisiones activas (non-closure; VII / JMP). Este flujo no los reclama. Solo exige no contaminar el estado del array con un agregado.</p>
+
+  <h3>A3.4 Autocontención × perímetros bibliográficos</h3>
+  <p>Conjunción impuesta por el autor:</p>
+  <ul>
+    <li>el documento de extracción solo se apoya bibliográficamente, en lo doctrinal, en Fundamentos y Origen de U;</li>
+    <li>el resto es dominio clínico real;</li>
+    <li>no se usa bibliografía que desconcierte a una revisión dura;</li>
+    <li>todo debe estar autocontenido.</li>
+  </ul>
+  <p>Implicación: no se puede citar el corpus SV como pilar de un lema clínico. No se puede importar un paper de afinidad, una CNN histórica o un preprint de fronteras como prueba de daño. Las definiciones operativas que viajen deben cerrarse en el propio manuscrito. Si P ⇔ Q y P se definió como Q, se declara definición operativa, no teorema.</p>
+
+  <h3>A3.5 Admisibilidad precede transducción precede U</h3>
+  <p>Cadena lógica ya rota una vez en P02. Reconstrucción:</p>
+  <ol>
+    <li>¿La observación es admisible para esa operación?</li>
+    <li>Si no es admisible, no hay transducción a estado.</li>
+    <li>Si es admisible e incompleta respecto de la regla escrita, el resultado no se fabrica como 0 por omisión de rama.</li>
+    <li>U no se declara por defecto de captura, ni por insuficiencia representacional, ni por pérdida de información.</li>
+  </ol>
+  <p>Enlace con A1.4: dos fundamentos distintos → mismo 1 no autoriza U; autoriza, como mucho, a decir que esa operación no recupera el fundamento. Operaciones F0–F3 (estado etiquetado, capas, conteos globales, clase terminal) y Qvac / Qloc / QU / Qclass con fronteras 0,1,2,3 no se colapsan.</p>
+
+  <h3>A3.6 Saturación sin conjunto S</h3>
+  <p>«Cerrar por saturación» no es predicado si no se declara el conjunto finito S y la prueba ΔS=∅ tras el hold-out (trasplante). Enlace: E5 (operaciones retenidas) es el mecanismo de proceso que impide a A1 convertir la especialidad entera en S. Sin S, E8 (exigencias a R2-1) es indefinido. Sin hold-out, S es tautológico.</p>
+
+  <h3>A3.7 Autoridad y conocimiento tácito</h3>
+  <p>La soberanía del experto no convierte su conocimiento tácito en regla computable. Exteriorizar → justificar → aprobar → versionar. El conocimiento autorizado reside en artefactos explícitos, no en pesos de un modelo. Enlace clínico-procesal: un «consenso del autor» sin clasificar estatuto (opinión / guía / norma / dato) no puede alimentar Π4.</p>
+
+  <h3>A3.8 Qué no se sigue de este HTML</h3>
+  <ul>
+    <li>No se sigue que haya que empezar la anatomía parámetro a parámetro mañana.</li>
+    <li>No se sigue la lista de repositorios a usar.</li>
+    <li>No se sigue el número futuro de arrays.</li>
+    <li>No se sigue que R2-1 espere a una cohorte.</li>
+    <li>No se sigue una sede editorial.</li>
+  </ul>
+  <p>El HTML es instrumento de gobierno. Cerrar cualquiera de esas flechas sin G0 sería el desvío que debo avisar.</p>
+</section>
+
+<section class="tab" id="nomen">
+  <h2>Nomenclatura, U y representaciones</h2>
+  <div class="okbox">Invariante: un array declarado (k, s) es una fila 1×k. Cada elemento a<sub>1j</sub> toma valor en un alfabeto de s símbolos. El número de configuraciones es s<sup>k</sup>, no s<sup>k·s</sup> ni una matriz k×s. Para las semillas: (25,5) → 1×25 y 3<sup>25</sup> estados si el alfabeto efectivo de estado es ternario; (9,3) → 1×9 y 3<sup>9</sup> estados. No es una matriz 3×3.</div>
+  <table>
+    <tr><th>Lectura</th><th>Objeto</th><th>Estados</th><th>Estatuto</th></tr>
+    <tr><td>(25,5) como 1×25</td><td>fila a<sub>11</sub>…a<sub>1,25</sub></td><td>3<sup>25</sup> si estado ternario</td><td>Correcta</td></tr>
+    <tr><td>(25,5) como 25×5</td><td>125 entradas</td><td>3<sup>125</sup></td><td>Error grave</td></tr>
+    <tr><td>(9,3) como 1×9</td><td>fila a<sub>11</sub>…a<sub>19</sub></td><td>3<sup>9</sup> = 19683</td><td>Correcta</td></tr>
+    <tr><td>(9,3) como 3×3</td><td>9 entradas leídas como cuadrada</td><td>confunde capa con dimensión</td><td>Error grave</td></tr>
+  </table>
+  <h3>U</h3>
+  <ul>
+    <li>U sigue siendo atómica y no tipada.</li>
+    <li>Irreducible, fronteriza o resoluble son propiedades de una <em>posición</em> respecto de un horizonte resolutivo, no clases de U.</li>
+    <li>dato no capturado ≠ observación no admitida ≠ U constituida;</li>
+    <li>admisibilidad precede a transducción;</li>
+    <li>insuficiencia representacional ≠ U;</li>
+    <li>pérdida de información ≠ cambio del estado ternario.</li>
+  </ul>
+  <h3>Representaciones ya separadas (no colapsar)</h3>
+  <table>
+    <tr><th>Plano</th><th>Qué es</th></tr>
+    <tr><td>F0</td><td>Estado etiquetado</td></tr>
+    <tr><td>F1</td><td>Capas y conteos por capa</td></tr>
+    <tr><td>F2</td><td>Conteos globales</td></tr>
+    <tr><td>F3</td><td>Clase terminal</td></tr>
+  </table>
+  <p>Operaciones demostradas: Qvac, Qloc, QU, Qclass, con fronteras respectivas 0, 1, 2 y 3. No se redefinen aquí.</p>
+</section>
+
+<section class="tab" id="datos">
+  <h2>Datos y repositorios — carril, no adopción</h2>
+  <div class="warnbox">Esta pestaña no adopta fuentes. Listar un nombre no es incluirlo. La inclusión exige G0. El objetivo declarado es comprobar, con datos en la mano, que el formalismo aumenta criterios médicos y clínicos reconocibles y medibles por estándares internacionales — sin convertir estadística ni tiempo en primitivas del estado.</div>
+  <h3>Campos mínimos de una ficha de repositorio (cuando se autorice llenarla)</h3>
+  <table>
+    <tr><th>Campo</th><th>Para qué</th></tr>
+    <tr><td>Dueño y licencia</td><td>Reproducibilidad y legalidad</td></tr>
+    <tr><td>Población y geografía</td><td>No extrapolar un hospital a la especialidad</td></tr>
+    <tr><td>Episodio cubierto</td><td>¿Hay IS farmacológica, profilaxis, vacunación, laboratorio, alergia…?</td></tr>
+    <tr><td>Variables crudas vs agregados</td><td>Frontera A3: observación ≠ estadístico</td></tr>
+    <tr><td>Fecha de corte</td><td>El CSV es completo respecto de un corte, no del universo</td></tr>
+    <tr><td>Régimen ético / anonimización</td><td>Fase D no empieza sin esto</td></tr>
+    <tr><td>Sesgo de indicación y pérdida</td><td>La estadística de terceros llega con su sesgo a cuestas</td></tr>
+    <tr><td>Qué criterio internacional podría medir un Δ</td><td>Sin métrica, A4 es eslogan</td></tr>
+  </table>
+  <h3>Clases de fuente a explorar (nombres como clase, no como alta)</h3>
+  <p class="muted">Se enumeran clases para no dejar A1 vacío de método. No se afirma disponibilidad, adecuación ni permiso.</p>
+  <ul>
+    <li>Registros de inmunodeficiencia (clase ESID / nacionales).</li>
+    <li>Bases de atención primaria o hospitalaria con prescripción de inmunosupresores y episodios infecciosos.</li>
+    <li>Sistemas de vacunación y farmacovigilancia.</li>
+    <li>Carteras de laboratorio de inmunología (autoinmunidad, inmunoquímica, celular, inmunogenética) — residual respecto de las semillas.</li>
+    <li>Conjuntos críticos abiertos de UCI / EHR solo si el episodio de las semillas está presente; si no, son laterales.</li>
+  </ul>
+  <p>Criterio de rechazo rápido: fuente que solo entrega agregados estadísticos sin vía de volver al singular. Esa fuente puede informar Π4 como referencia externa; no puede constituir a<sub>1j</sub>.</p>
+</section>
+
+<section class="tab" id="corte">
+  <h2>Corte compilado — blanco sobre negro</h2>
+  <h3>Qué queda fijado</h3>
+  <ul>
+    <li>Objetivo inmediato: ámbito centinela pequeño, heterogéneo, clínicamente legítimo, congelado y adversarial, capaz de tensionar el Lenguaje antes de abrir R2-1. No es modelar toda la inmunología.</li>
+    <li>Objetivo estructural posterior: dominio profesional declarado, trazable y fechado; el número de arrays se deriva, no se presume. Puede existir resto profesional no «celular».</li>
+    <li>IMMUNO-1 e IMMUNO-2 son semillas del mismo agente. No agotan ni deciden el dominio clínico completo.</li>
+    <li>Tres perímetros: Fundamentos+Origen U (inviolables); Álgebra (ampliar o error); Lenguaje (puede cerrarse más y mejor desde el dominio, sin inferir problemas).</li>
+    <li>Tres objetos: dominio profesional ≠ dominio clínico operativo ≠ centinela del Lenguaje.</li>
+    <li>Autoridad: humano soberano → especificación constituida → cómputo e IA subordinados.</li>
+    <li>Estadística y tiempo de terceros: herramientas con frontera. No primitivas.</li>
+    <li>Extracción externa: matrices/arrays 1×k, a<sub>1j</sub>, estados s<sup>k</sup>. Autocontenido. Bibliografía doctrinal limitada a los dos documentos de perímetro.</li>
+    <li>No inferir. No actuar sin permiso. Avisar desvío o descuido previo adversarial.</li>
+  </ul>
+  <h3>Qué no está autorizado ahora</h3>
+  <ul>
+    <li>Abrir anatomía parámetro a parámetro.</li>
+    <li>Construir el CSV.</li>
+    <li>Derivar el número de arrays.</li>
+    <li>Adoptar un repositorio.</li>
+    <li>Reabrir IMMUNO-3, alergia, IEI, laboratorio o trasplante como constructoras.</li>
+    <li>Elegir sede editorial.</li>
+    <li>Cerrar G1 o G2.</li>
+  </ul>
+  <h3>Desvíos que debo avisar si aparecen</h3>
+  <ol>
+    <li>Hablar de célula 3×3 o 25×5.</li>
+    <li>Tratar las semillas como dominio completo.</li>
+    <li>Fusionar letter/Unicode con constitución clínica.</li>
+    <li>Declarar U por dato faltante.</li>
+    <li>Usar la demo JS como paridad del motor.</li>
+    <li>Usar CNN / sintéticos históricos como validación del trabajo nuevo.</li>
+    <li>Poner estadística como valor de estado.</li>
+    <li>Elegir revista antes de cerrar el objeto.</li>
+    <li>Reclamar objetos ya enviados (Orientation, non-closure, VII/JMP, JBHI, MIM v0.2.1).</li>
+    <li>Cerrar una ambigüedad G1/G2 por comodidad del diagrama.</li>
+  </ol>
+  <p class="muted">Fin del corte. El siguiente paso lo autoriza el autor, no este archivo.</p>
+</section>
+</main>
+<footer>
+  Instrumento de gobierno local · 31-08-2026 · no sustituye Fundamentos, Origen de U, Álgebra de composición ni el Lenguaje publicado en lenguaje-sv.itvia.online · Grok subordinado al autor humano.
+</footer>
+<script>
+const NODES = {
+P1:{title:"P1 — Fundamentos y origen doctrinal de U",body:"Perímetro inviolable. El documento de extracción solo se apoya bibliográficamente, en lo doctrinal, en esos dos textos. El resto del manuscrito futuro ha de ser dominio clínico real, autocontenido. No se abre lectura aquí: no están en este HTML."},
+P2:{title:"P2 — Álgebra de composición",body:"Contexto impreso. Solo se toca para ampliar un concepto con autorización o si se detecta un error. La composición se trata como relación dirigida y tipada. No se presume conmutatividad ni asociatividad."},
+P3:{title:"P3 — Lenguaje SV vigente",body:"Gramática 0.2, IR 0.3, proyección 0.1.0. R0 y R1 cerrados; R2 abierto (persistencia y continuidad material). El dominio puede y debe cerrar semántica e IR con más precisión antes de R2, con los ojos abiertos. Detectar un problema ≠ inferirlo ni parchearlo."},
+G0:{title:"G0 — Autorización humana",body:"No se infiere el siguiente paso. No se extrae, no se descarga un registro, no se reescribe un array. Cada avance exige permiso expreso. Si el autor se desvía o descuidara un perímetro, el aviso va precedido de adversarial."},
+N1:{title:"N1 — Léxico de extracción",body:"En el manuscrito externo no se habla de células, salvo aclaración entre paréntesis. El nombre SV pierde relevancia. Se describe con teoría de matrices: elementos a11, a12, …, a1k."},
+N2:{title:"N2 — Dimensión real",body:"(k,s) es una sola fila de k columnas. El segundo índice no convierte el objeto en matriz k×s ni s×s. El espacio de configuraciones es s^k. (9,3) → 3^9. (25,5) → 3^25 si el estado efectivo es ternario."},
+N3:{title:"N3 — Indexación",body:"a1j = elemento de la única fila, columna j. Las capas o estratos no se reifican como filas extra de una matriz rectangular sin declaración nueva."},
+N4:{title:"N4 — Error letal",body:"Leer (9,3) como 3×3 o (25,5) como 25×5 destruye la cardinalidad y con ella la base del formalismo. Cualquier texto de extracción que lo permita colapsa ante un revisor que sepa álgebra lineal."},
+O1:{title:"O1 — Dominio profesional",body:"Qué debe conocer o saber hacer el inmunólogo según un corpus declarado, fechado y no soberano-universal. No hay un MIR internacional único."},
+O2:{title:"O2 — Dominio clínico operativo",body:"En qué población, contexto y episodio resulta aplicable una operación. Las semillas cubren un recorte de O2, no O2 entero."},
+O3:{title:"O3 — Centinela del Lenguaje",body:"Ámbito pequeño ES×IMMUNO para tensionar el Lenguaje antes de R2-1. No acredita la especialidad ni un sistema asistencial."},
+O4:{title:"O4 — Prohibición de fusión",body:"Un solo Q no puede ser a la vez constitución de la especialidad, episodio clínico y experimento de superficie lingüística. El dictamen 27-08 ya tumbó esa fusión."},
+A1:{title:"A1 — Repositorios",body:"Workstream paralelo. Inventariar no es adoptar. Sin G0 no se elige fuente."},
+A2:{title:"A2 — Marco de aplicabilidad",body:"Población, episodio, finalidad, fecha de corte. El CSV será completo respecto de ese marco, no respecto de «toda la inmunología»."},
+A3:{title:"A3 — Frontera estadística/tiempo",body:"Se admiten como herramientas de terceros. Se prohíben como primitivas del estado del array. El tiempo no es primitiva. La estadística oculta singulares: no puede constituir a1j."},
+A4:{title:"A4 — Prueba de aumento de criterios",body:"Afirmación empírica. Exige métrica, baseline, estándar internacional y datos. Sin eso, no hay pretensión clínica."},
+A5:{title:"A5 — Estatuto si faltan datos",body:"Puede existir construcción formal verificable. No puede presentarse como validación clínica ni sistema asistencial probado."},
+B1:{title:"B1 — Semilla Fase I",body:"Profilaxis antiinfecciosa en IS farmacológica. Históricamente adultos con neoplasias hematológicas. 1×25, T(25)=19. Publicada 5-3-2026 como IMMUNO-1. Cascarón, no dominio."},
+B2:{title:"B2 — Semilla Fase II",body:"Riesgo infeccioso en IS farmacológica no trasplante. Otra 1×25 con semántica propia. Materializada, pendiente de publicación propia."},
+B3:{title:"B3 — Puente y compositor",body:"Composición IMMUNO-1 → IMMUNO-2 vía P25. El compositor calcula compose() y Γ(v) en JS; es artefacto de Fase II, no fase."},
+B4:{title:"B4 — Array de integridad 1×9",body:"Independiente. Destinado a integridad, no a clínica. No se concatena a 34 o 59 posiciones."},
+B5:{title:"B5 — Anti-objetos",body:"n=625 no es tercer array. El compositor no es fase. Las superficies históricas no reciben código nuevo."},
+G1:{title:"G1 — Parada no inferible",body:"El autor dijo que las semillas no deciden el dominio. No dijo si C2 puede reabrir esas filas. Se espera definición expresa."},
+Q1:{title:"Π1 — Plano profesional",body:"Fuente curricular o de competencia. No demuestra daño."},
+Q2:{title:"Π2 — Plano clínico",body:"Población, contexto, episodio, condiciones de aplicabilidad, observaciones admitidas."},
+Q3:{title:"Π3 — Plano resolutivo",body:"Qué operación puede ejecutar o contestar el array. Qvac, Qloc, QU, Qclass no se mezclan."},
+Q4:{title:"Π4 — Plano consecuencial",body:"Daño potencial de omitir. Exige evidencia distinta del currículo. Consecuencia ≠ probabilidad ≠ riesgo cuantificado."},
+Q5:{title:"Π5 — Plano representacional",body:"Qué información debe conservarse para detectar y explicar el peligro. F0–F3 no se colapsan."},
+Q6:{title:"Π6 — Plano compositivo",body:"Qué otro array y en qué orden. El orden se justifica por la operación y las consecuencias preservadas, no por numeración."},
+Q7:{title:"Π7 — Plano residual",body:"Qué queda legítimamente fuera. El residual profesional puede no ser un array."},
+C1:{title:"C1 — Inventario de candidatos",body:"Primero relaciones y candidatos respecto de un corpus. Después, y solo después, derivar tamaños."},
+C2:{title:"C2 — Derivación de arrays",body:"Número, tamaño, estratificación, puentes, residual, grafo. Bloqueado por G1 en lo que toque a las semillas fijadas."},
+C3:{title:"C3 — Composición tipada",body:"Dirigida. No conmutativa por defecto. No asociativa por defecto. No todo puente transmite información suficiente."},
+C4:{title:"C4 — Resto no celular",body:"La cobertura del corpus declarado no equivale a cobertura de la especialidad."},
+C5:{title:"C5 — Verticales no constructoras",body:"IEI, alergia, autoinmunidad, laboratorio y trasplante no entran como cinco constructoras simultáneas del centinela. Trasplante es hold-out."},
+D1:{title:"D1 — Casos reales",body:"Documentados y legítimamente anonimizados. Sin esto no hay validación clínica."},
+D2:{title:"D2 — Qué se comprueba",body:"Cobertura, utilidad, consecuencias no previstas, residual efectivo, falsos cierres, fallos de composición, estabilidad entre instituciones."},
+G2:{title:"G2 — Parada no inferible",body:"¿El contraste condiciona R2? R2 es del Lenguaje. Ligarlo a una cohorte sin autorización mezcla O2 y O3."},
+D3:{title:"D3 — Hold-out",body:"Trasplante retenido para falsar saturación, no para construir una sexta vertical a la vez."},
+E1:{title:"E1 — Identificadores SVP",body:"Unicode, tildes, ñ, equivalencias, mayúsculas, confusables. Carril del Lenguaje, no de la clínica."},
+E2:{title:"E2 — Paridad material",body:"Especificación versus Rust/WASM versus demo. La demo JS no acredita paridad."},
+E3:{title:"E3 — Congelación",body:"Corpus, corte y operaciones independientes del formalismo. Sin S finito no hay saturación."},
+E4:{title:"E4 — Centinela pequeño ES",body:"Heterogéneo, clínicamente legítimo, congelado, adversarial. Una Q, no cinco especialidades."},
+E5:{title:"E5 — Retenidas",body:"Operaciones guardadas para falsar la supuesta saturación."},
+E6:{title:"E6 — Adversarial",body:"Ataque al flanco más duro antes de publicar."},
+E7:{title:"E7 — Publicación en español",body:"Íntegra, autocontenida, después del adversarial. No elige la sede el resultado."},
+E8:{title:"E8 — Exigencias a R2-1",body:"Solo al final de E. Aceptación editorial ≠ compuerta de R2-1."}
+};
+
+function inspect(id){
+  document.querySelectorAll('.node').forEach(n=>n.classList.toggle('selected', n.dataset.id===id));
+  const n = NODES[id];
+  const box = document.getElementById('inspector');
+  if(!n){box.innerHTML='<h3>Inspector</h3><p>Nodo sin ficha.</p>';return;}
+  box.innerHTML = '<h3>'+n.title+'</h3><p>'+n.body+'</p><p class="muted">id interno '+id+' · este texto no autoriza el paso</p>';
+  box.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+function filterLane(which){
+  document.querySelectorAll('.lane').forEach(l=>{
+    if(which==='all'){l.style.display='';return;}
+    const map = {perim:'perim',data:'data',seed:'seed',dom:'dom',lang:'lang',hold:'hold'};
+    if(which==='hold'){
+      const has = l.querySelector('.hold');
+      l.style.display = has ? '' : 'none';
+      return;
+    }
+    l.style.display = (l.dataset.lane===which || (which==='seed' && l.dataset.lane==='seed')) ? '' : (l.dataset.lane===which?'':'none');
+    if(['perim','data','seed','dom','lang'].includes(which)){
+      l.style.display = (l.dataset.lane===which) ? '' : 'none';
+    }
+  });
+}
+document.querySelectorAll('#tabs button').forEach(b=>{
+  b.addEventListener('click',()=>{
+    document.querySelectorAll('#tabs button').forEach(x=>x.classList.remove('active'));
+    document.querySelectorAll('section.tab').forEach(s=>s.classList.remove('active'));
+    b.classList.add('active');
+    document.getElementById(b.dataset.tab).classList.add('active');
+    window.scrollTo({top:0,behavior:'smooth'});
+  });
+});
+</script>
+</body>
+</html>
