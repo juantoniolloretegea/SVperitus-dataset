@@ -1,0 +1,21 @@
+Registro_ID,Dataset_ID,Familia_clinica,Variable_o_objeto,Desenlace,Estado_cobertura,Base_de_afirmacion,Prohibicion
+REG-001,DS-CTGOV-NCT05000216,F-AUTOIMM-AIIRD,diagnostico_AIIRD_declarado_en_registro,no_depositado,DISENO_SOLO,CT.gov conditionsModule 2026-09-01,no usar como episodio
+REG-001,DS-CTGOV-NCT05000216,F-VACUNA-IS,refuerzo_COVID_y_withhold_IS,Ab_protectora_sem4_declarada,DISENO_SOLO,CT.gov outcomes/interventions 2026-09-01,no cerrar P-VAC viva
+REG-001,DS-CTGOV-NCT05000216,F-PJP,profilaxis_PJP,incidencia_PJP,AUSENTE,no figura como outcome,no imputar
+REG-001,DS-CTGOV-NCT05000216,F-IEI,gen_o_fenotipo_IEI,cualquiera,AUSENTE,poblacion AIIRD; CVID es criterio de exclusion,no fusionar
+REG-002,DS-IMMPORT-SDY3324,F-AUTOIMM-AIIRD,variables_deposito,desenlace_deposito,NO_COMPROBADO,DR60 Assays None,no tratar
+REG-002,DS-IMMPORT-SDY3324,F-VACUNA-IS,anti-RBD_depositado,seroconversion,NO_COMPROBADO,paper no es deposito,no armonizar N
+REG-003,DS-CTGOV-NCT01516177,F-TRASPLANTE-RENAL,firma_tolerancia_ITN_declarada,presencia_firma,DISENO_SOLO,CT.gov primaryOutcome 2026-09-01,no causalidad
+REG-003,DS-CTGOV-NCT01516177,F-IEI,IEI,cualquiera,AUSENTE,poblacion Tx renal,no fusionar
+REG-003,DS-CTGOV-NCT01516177,F-PJP,PJP,incidencia_PJP,AUSENTE,no outcome,no imputar
+REG-004,DS-IMMPORT-SDY3274,F-TRASPLANTE-RENAL,variables_deposito,desenlace_deposito,NO_COMPROBADO,DR60 Assays None,no tratar
+REG-005,DS-IMMPORT-SDY1414,F-TRASPLANTE-CARDIACO,Luminex_HLA_citado,no_leido,NO_COMPROBADO,expediente cita,no recontar 290/2558
+REG-006,DS-IMMPORT-SDY621,F-NO_ASIGNABLE,no_leido,no_leido,NO_COMPROBADO,expediente cita,no usar N=3611
+REG-007,DS-IMMPORT-SDY218,F-ALERGIA-OIT,OIT_y_provocacion_citadas,no_leido,NO_COMPROBADO,expediente cita,no fusionar con POE alergologia
+REG-008,DS-IMMPORT-SDY1845,F-NO_ASIGNABLE,no_leido,no_leido,NO_COMPROBADO,accesion,no inferir familia
+REG-009,DS-IMMPORT-SDY1039,F-NO_ASIGNABLE,no_leido,no_leido,NO_COMPROBADO,accesion,no inferir familia
+REG-010,DS-PIDTC-6901-6902,F-IEI,registro_PIDTC,supervivencia_HCT_en_papers,NO_ADMISIBLE,sin dump abierto,no usar N paper como extracto
+REG-011,DS-OPENFDA-FAERS,F-FARMACOVIGILANCIA,notificacion_FAERS,reaccion_notificada,NO_ADMISIBLE,API meta 2026-09-01 last_updated 2026-07-30,no incidencia ni causalidad
+REG-012,DS-TRIALSHARE-ITN,F-NO_ASIGNABLE,DUA_no_leido,no_leido,NO_COMPROBADO,A1 R06,no mezclar con SDY
+REG-GAP,D0-GAP-IEI,F-IEI,cohorte_abierta_comprobada,trayectoria_clinica_IEI,AUSENTE,IUIS 508/559 no es cohorte,no volcar genes a filas
+REG-GAP,D0-GAP-PJP,F-PJP,umbral_indicacion,evento_PJP_en_cohorte_autorizada,AUSENTE,Cochrane/EULAR no son microdato,no cerrar RSD-02
