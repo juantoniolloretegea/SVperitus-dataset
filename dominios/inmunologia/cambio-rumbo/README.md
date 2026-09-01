@@ -85,12 +85,13 @@ Material de posicionamiento y su control adversarial. No forma el índice defini
 - `Revision_Qwen_SoTA_SV_INMUNO_v0.1_2026-08-31.md`
 - `T4_procedencia_no_es_trazabilidad_2026-08-31.md`
 
-### `03-base-documental-candidata/04-planes-profesionales-en-evaluacion/` — 2 archivos
+### `03-base-documental-candidata/04-planes-profesionales-en-evaluacion/` — 3 archivos
 
-Base profesional comparada y primera atomización controlada. El catálogo contiene 14 capacidades y 80 unidades profesionales atómicas candidatas; no constituye consecuencias clínicas, no adopta unidades y no atribuye competencia a ninguna jurisdicción.
+Base profesional comparada y atomización controlada. La v0.1 se conserva intacta. La v0.2 amplía la cobertura candidata a 14 capacidades, 123 unidades descriptoras, 174 contextos curriculares, 11 procedimientos con 55 estados de progresión, 40 estados de progresión CiP y 14 mecanismos de acreditación. No constituye consecuencias clínicas, no adopta unidades, no atribuye competencia a ninguna jurisdicción y no modifica el Lenguaje SV.
 
 - `Matriz_comparativa_planes_profesionales_INMUNO_v0.1_2026-09-01.xlsx`
 - `Catalogo_profesional_atomico_INMUNO_v0.1_2026-09-01.xlsx`
+- `Catalogo_profesional_atomico_INMUNO_v0.2_2026-09-01.xlsx`
 
 ### `04-archivo-historico-no-vigente/01-flujos-y-arquitecturas/` — 7 archivos
 
