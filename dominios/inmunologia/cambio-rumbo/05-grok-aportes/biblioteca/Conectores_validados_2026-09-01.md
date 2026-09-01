@@ -11,6 +11,10 @@ Claves no se copian aquí ni al repo.
 | ICD-11 WHO | Vivo (OAuth 3600 s) | Código MMS 2024-01 | Operación clínica |
 | Europe PMC | Público, sin clave | OA / preprint | — |
 | ClinicalTrials.gov v2 | Público, sin clave | NCT declarado | Microdato ImmPort |
-| Semantic Scholar | Formulario enviado; clave no llegada | — | — |
+| Semantic Scholar Graph API | Vivo (clave emitida 01-09-2026; consulta autenticada HTTP 200) | paperId, DOI, PMID, título, año; expansión bibliográfica | Fuente clínica; umbral; causalidad; sustituir PubMed |
+
+Cupo S2 comprobado: 1 petición por segundo, acumulado entre extremos. Cabecera `x-api-key`. Atribución exigida por su licencia si hay publicación de resultados.
+
+Prueba 01-09-2026: `GET /graph/v1/paper/PMID:25269391` → HTTP 200; DOI 10.1002/14651858.CD005590.pub3 (Stern 2014, ya fichado). No se volcó el JSON al repo.
 
 ImmPort, TrialShare, dbGaP, PIDTC, ESID-R: ver acceso 5.
