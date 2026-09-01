@@ -50,7 +50,7 @@
 - Autorización: no conferida para microdato ni para adopcion
 - Licencia: ImmPort si existe
 - Redistribución: no verificada
-- Elegibilidad para tratamiento mediante IA: NO
+- Elegibilidad para tratamiento mediante IA: NO_AUTORIZADA_EN_ESTA_RONDA. Cuenta no creada; ficha primaria no leída; términos específicos de IA no comprobados.
 - Anonimización: no auditada
 - Riesgo de reidentificacion: no cuantificado
 - Datos personales presentes: no auditados en deposito; esta ronda no incorpora microdato
@@ -67,7 +67,7 @@
 ## Dictamen candidato
 
 - Estado: IDENTIFICADO
-- Motivo: evaluacion documental de ronda 1; CANDIDATO_NO_ADOPTADO; D0-E=0
+- Motivo: Ronda 1 de identificación y cribado documental cerrada; CANDIDATO_NO_ADOPTADO; D0-E=0
 - Condiciones pendientes: diccionario primario, D0-L completo por finalidad, autorizacion humana expresa antes de cualquier zip
 - Fuente primaria de verificación: Expediente D0 v0.1
 - Revisor: Grok 2026-09-01

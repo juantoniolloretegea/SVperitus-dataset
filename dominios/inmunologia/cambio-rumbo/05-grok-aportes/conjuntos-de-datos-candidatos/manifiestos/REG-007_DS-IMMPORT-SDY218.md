@@ -2,19 +2,19 @@
 
 ## Identidad
 
-- Registro_ID: REG-008
-- Dataset_ID: DS-IMMPORT-SDY1845
-- Nombre: ImmPort SDY1845 (accesion citada; ficha primaria no leida)
+- Registro_ID: REG-007
+- Dataset_ID: DS-IMMPORT-SDY218
+- Nombre: ImmPort SDY218 (accesion de expediente; ficha primaria no leida)
 - Versión o fecha: citado 2026-08-31
 - Repositorio y responsable: ImmPort / no verificado
-- URL, DOI o accession: SDY1845
+- URL, DOI o accession: SDY218
 - Jurisdicción: no verificada
 - Fecha de verificación: 2026-09-01
 
 ## Finalidad y diseño originales
 
-- Finalidad original: U_CAUSA_DECLARADA
-- Tipo de estudio o fuente: repositorio
+- Finalidad original: U_CAUSA_DECLARADA: OIT y provocaciones alimentarias longitudinales citadas no leidas
+- Tipo de estudio o fuente: ensayo_o_cohorte_repositorio
 - Unidad observacional: NO LEIDA
 - Poblacion: NO LEIDA
 - Criterios de inclusión: NO LEIDOS
@@ -26,9 +26,9 @@
 ## Contenido comprobado
 
 - Variables inmunológicas: NO COMPROBADAS
-- Intervenciones o exposiciones: NO LEIDAS
-- Desenlaces: NO LEIDOS
-- Temporalidad: desconocida
+- Intervenciones o exposiciones: OIT citada; no comprobada
+- Desenlaces: provocacion citada; no comprobada
+- Temporalidad: longitudinal citada
 - Nivel de agregación: desconocido
 - Diccionario o esquema: NO LEIDO
 - Datos faltantes: ficha completa
@@ -36,12 +36,12 @@
 
 ## Cobertura y límites
 
-- Familias clínicas candidatas cubiertas: no asignable
+- Familias clínicas candidatas cubiertas: F-ALERGIA-OIT candidata no verificada
 - Familias no cubiertas: ficha
 - Variables necesarias ausentes: ficha
 - Aplicabilidad: nula para constituir dominio; no sustituye perimetro clinico humano
-- Limitaciones: accesion sola
-- Residual: declarado en registro de huecos
+- Limitaciones: cita distinto de lectura
+- Residual: frontera alergologia SCO/3081 no fusionada
 - Riesgo de ocultación de sucesos singulares por agregación: si si N o totales se leen como cobertura de dominio
 
 ## Gobierno D0-L
@@ -69,5 +69,5 @@
 - Estado: IDENTIFICADO
 - Motivo: Ronda 1 de identificación y cribado documental cerrada; CANDIDATO_NO_ADOPTADO; D0-E=0
 - Condiciones pendientes: diccionario primario, D0-L completo por finalidad, autorizacion humana expresa antes de cualquier zip
-- Fuente primaria de verificación: Expediente D0 v0.1
+- Fuente primaria de verificación: Expediente D0 v0.1; BOE SCO/3081 en biblioteca capa 2
 - Revisor: Grok 2026-09-01
