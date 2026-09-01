@@ -10,30 +10,22 @@
 
 ---
 
-Este directorio reúne escritos, publicaciones y remisiones destinados al aprendizaje de la medicina sobre personas, con traza reconstruible desde el primer asiento y con registro de solo adición.
+Este directorio recoge el material —escritos, publicaciones y remisiones— con el cual ha de gobernarse un aprendizaje de la medicina que no disimule su propio itinerario. El ámbito es la salud de las personas. La condición de admisión es doble: que cada juicio pueda reconstruirse desde el primer asiento y que el registro admita solo adiciones.
 
-No es el formalismo que gobierna. No es un dominio clínico en vías de determinación. No es un archivo de datos individuales.
+No se confunde con el formalismo que, en otras rutas de este repositorio, sostiene la gramática del sistema. Tampoco es el lugar donde un dominio clínico se determina todavía, ni el archivo de datos relativos a individuos.
 
-## Definiciones
+La medicina se entiende aquí en el sentido propio de la lengua: ciencia y arte de precaver y curar las enfermedades del cuerpo humano. Ese gravamen —si se permite el término jurídico en su acepción de carga— no se diluye porque existan otros campos susceptibles de tratamiento formal.
 
-**Medicina.** Ámbito de este directorio. Ciencia y práctica relativas a la conservación y restablecimiento de la salud humana.
+El aprendizaje es adquisición de conocimiento que permanece. En este directorio esa adquisición es clínica y queda incorporada al registro. No se identifica con el adiestramiento de un modelo opaco ni con la extracción estadística o minera de asociaciones presentadas luego como sentencia.
 
-**Aprendizaje.** Adquisición de conocimiento clínico que queda incorporada al registro. No equivale al ajuste opaco de un modelo ni a la minería de datos como fuente de la sentencia.
+Trazable, en el diccionario, es aquello que puede trazarse. La traza que aquí importa no es la procedencia del documento —quién lo produjo, cuándo, bajo qué licencia—, sino la sucesión del juicio: qué se evaluó, qué recibió cierre, qué permaneció indeterminado y por qué vía se resolvió lo resuelto. Un asiento de origen no sustituye esa sucesión.
 
-**Trazable.** Que puede trazarse. La traza es la sucesión del juicio —qué se evaluó, qué se cerró, qué permaneció indeterminado y por qué vía se resolvió—, no la mera procedencia del documento.
+La sola adición es el régimen de la escritura. Lo que sobreviene se consigna a continuación. Lo ya sentado no se enmienda en silencio. Si hay corrección, hay un asiento posterior que la declara.
 
-**Solo adición.** Lo posterior se consigna a continuación. Lo ya sentado no se altera. La corrección es un asiento nuevo.
+Estas cuatro nociones —medicina, aprendizaje, traza y sola adición— se sostienen juntas y no se intercambian. Quitar el aprendizaje deja un notariado. Quitar la traza deja un procedimiento clínico más. Quitar la sola adición permite reescribir el pasado para justificar el presente.
 
-Las cuatro nociones no son intercambiables.
+Quedan fuera la inferencia cuyos asientos no se declaran; la explicación construida después de haber sentenciado; la estadística o la minería erigidas en fundamento del juicio; los datos personales; las credenciales; y la copia de un texto que ya tiene sede canónica en otra ruta, cuando basta la remisión.
 
-## Exclusiones
+Una asociación empírica no es, por figurar aquí, consecuencia clínica. Un registro de procedencia no es traza de un juicio. Este directorio no concluye dominio alguno y no habilita a diagnosticar ni a tratar.
 
-Quedan fuera de este directorio la inferencia que no declara sus asientos, la explicación formulada después de la sentencia, la estadística o la minería tomadas como fundamento del juicio, los datos personales, las credenciales y la duplicación innecesaria de textos ya publicados en otra ruta.
-
-Una asociación empírica no constituye consecuencia clínica. Un registro de procedencia no constituye traza de un juicio. La existencia de este directorio no concluye un dominio ni autoriza a diagnosticar o a tratar.
-
-## Admisión
-
-Solo se deposita lo que el titular declare sólido y necesario para el gobierno de la medicina bajo las definiciones anteriores. Se prefiere la remisión exacta al texto canónico cuando este ya existe.
-
-Nada de lo aquí depositado se adopta por el solo hecho de figurar en esta ruta. La adopción, si procede, es decisión humana expresa.
+Se admite lo que resulte sólido y necesario para gobernar la medicina bajo las condiciones dichas. Cuando el texto canónico exista ya, la remisión exacta prevalece sobre la duplicación. La sola presencia en esta ruta no equivale a adopción. Esa, si llega, será expresa y humana.
