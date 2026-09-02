@@ -18,6 +18,7 @@ Este directorio ejecuta `G2-SEM`, puerta de formulación de preguntas candidatas
 
 - `Lote_semantico_G2-S1_OP-IMM-001_v0.1_2026-09-02.md`
 - `Adversarial_interna_G2-S1_OP-IMM-001_v0.1_2026-09-02.md`
+- `Orden_auditoria_externa_G2-S1_OP-IMM-001_v0.1_2026-09-02.md`
 
 ## Glosario
 
