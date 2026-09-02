@@ -17,6 +17,7 @@ La operación no avanza a `G2-SEM` hasta superar adversarial externa.
 
 - `OP-IMM-001_constitucion_perfil_riesgo_infeccioso_preinmunosupresion_G1_v0.1_2026-09-02.md`
 - `Adversarial_interna_G1_OP-IMM-001_v0.1_2026-09-02.md`
+- `Orden_auditoria_externa_G1_OP-IMM-001_v0.1_2026-09-02.md`
 
 ## Glosario
 
