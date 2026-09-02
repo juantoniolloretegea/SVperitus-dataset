@@ -17,8 +17,9 @@ Este directorio constituye la base documental de trabajo posterior a la rectific
 
 - [`adenda-contrato-epistemico-inferencia-trazable-y-consecuencias-ia-inmunologia-2026-09-02-v0.2.md`](adenda-contrato-epistemico-inferencia-trazable-y-consecuencias-ia-inmunologia-2026-09-02-v0.2.md)
 - [`adversarial-interna-adenda-contrato-epistemico-ia-inmunologia-2026-09-02-v0.2.md`](adversarial-interna-adenda-contrato-epistemico-ia-inmunologia-2026-09-02-v0.2.md)
+- [`Orden_auditoria_externa_adenda_contrato_epistemico_ia_inmunologia_v0.2_2026-09-02.md`](Orden_auditoria_externa_adenda_contrato_epistemico_ia_inmunologia_v0.2_2026-09-02.md)
 
-La versión 0.2 exige corpus completo respecto de la operación, doble registro de razonamiento y reproducción exacta con `ERROR_DE_REPRODUCCION = 0`. El mismo experimento canónico debe producir, byte por byte, la misma cadena privada, traza, secuencia de transiciones y frames. Cualquier divergencia bloquea el consejo. Conectores vivos, generación libre y componentes no deterministas quedan fuera de la ruta clínica normativa.
+La versión 0.2 exige corpus completo respecto de la operación, doble registro de razonamiento y reproducción exacta con `ERROR_DE_REPRODUCCION = 0`. El mismo experimento canónico debe producir, byte por byte, la misma cadena privada, traza, secuencia de transiciones y frames. La certificación exige una reejecución independiente; devolver una copia o caché produce `PRUEBA_DE_REPRODUCCION_INVALIDA`. Una avería bloquea y no crea otra respuesta clínica. Descomponer o cambiar granularidad es una operación distinta, canónica y limitada a átomos, reglas y consecuencias ya constituidos. Cualquier divergencia bloquea el consejo. Conectores vivos, generación libre y componentes no deterministas quedan fuera de la ruta clínica normativa.
 
 #### Antecedentes candidatos superados
 
