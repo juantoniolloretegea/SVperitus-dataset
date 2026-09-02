@@ -115,6 +115,12 @@ La compuerta `NA0` fija el contrato semántico átomo–parámetro–matriz, la 
 
 Contiene una única operación candidata: constituir el perfil de riesgo infeccioso inmunológicamente relevante de un adulto antes del inicio propuesto de inmunosupresión farmacológica sistémica fuera del trasplante. La operación termina en expediente predecisional sellado, `U`, salida de alcance o abstención/escalado; no decide el tratamiento, no hereda los 50 `Pxx` y no abre todavía parámetros ni matrices.
 
+La auditoría externa emitió `PASA` con una precisión menor: en G1 la suficiencia se aprecia a juicio del médico autorizado y no mediante una regla automática todavía inexistente. `OP-IMM-001` v0.2 incorpora la reparación, cierra `G1-OP` y habilita exclusivamente `G2-SEM`.
+
+### `03-base-documental-candidata/07-preguntas-semanticas-en-evaluacion/` — puerta G2-SEM
+
+Contiene el primer lote semántico `G2-S1`: veintiuna preguntas candidatas dirigidas a las colisiones y fronteras prioritarias de los pilotos. No son parámetros, no forman una matriz y no cierran el universo completo de `OP-IMM-001`. `G3-OBS` permanece bloqueada.
+
 ### `04-archivo-historico-no-vigente/01-flujos-y-arquitecturas/` — 7 archivos
 
 Flujos previos y sus adversariales. Se conservan como evidencia del error metodológico; no gobiernan la continuación.
