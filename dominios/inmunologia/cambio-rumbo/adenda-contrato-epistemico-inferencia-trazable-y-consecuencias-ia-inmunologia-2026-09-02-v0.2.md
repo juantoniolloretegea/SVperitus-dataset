@@ -309,6 +309,7 @@ CONSEJO_ADMISIBLE =
     operacion_identificada
   ∧ corpus_vigente_y_suficiente
   ∧ entradas_trazables
+  ∧ traza_de_fuente_pasa
   ∧ cadena_privada_de_deliberacion_capturada
   ∧ reproducibilidad_exacta_certificada
   ∧ ruta_constituida
@@ -429,11 +430,15 @@ No:
 - modifica el Lenguaje SV;
 - ni autoriza asistencia clínica.
 
-## 10. Criterio de cierre
+## 10. Cierre
 
-Esta adenda permanece como `RECTOR_CANDIDATO_DE_EJECUCION_EPISTEMICA` hasta superar adversarial interna y auditoría externa.
+La auditoría externa material registrada en `8cd14670ad9a63d90cc62c6f213be201af0875cd` emitió `PASA_CON_REPAROS` y aisló un único reparo menor: la conjunción `CONSEJO_ADMISIBLE` no nombraba expresamente la condición `traza_de_fuente_pasa`, aunque §7 e `INV-EPI-34` ya imponían el bloqueo.
 
-El cierre exigirá demostrar, al menos:
+La incorporación literal de `traza_de_fuente_pasa` cierra ese reparo: su ablación hace falsa la conjunción y obliga a `NO_EMITIR_CONSEJO`. No queda una elección semántica pendiente ni se altera ningún contenido clínico.
+
+El estatuto de esta adenda pasa a `RECTOR_DE_EJECUCION_EPISTEMICA`.
+
+El cierre ha comprobado:
 
 1. que no presume conocimiento universal;
 2. que no confunde memoria del modelo con corpus autorizado;
