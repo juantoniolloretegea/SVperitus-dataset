@@ -87,9 +87,9 @@ Material de posicionamiento y su control adversarial. No forma el índice defini
 - `Revision_Qwen_SoTA_SV_INMUNO_v0.1_2026-08-31.md`
 - `T4_procedencia_no_es_trazabilidad_2026-08-31.md`
 
-### `03-base-documental-candidata/04-planes-profesionales-en-evaluacion/` — 9 archivos
+### `03-base-documental-candidata/04-planes-profesionales-en-evaluacion/` — 12 archivos
 
-Base profesional comparada y atomización controlada. Las versiones v0.1–v0.6 se conservan intactas como cortes sucesivos. La v0.7 es la candidata más reciente: incorpora los reparos confirmados de la auditoría externa de v0.6, fija la edición documental LTA y corrige un localizador canadiense sin alterar objetos clínicos. El conjunto mantiene 0 consecuencias clínicas constituidas, 0 parámetros SV derivados y ninguna autorización asistencial.
+Base profesional comparada y atomización controlada. Las versiones v0.1–v0.7 se conservan intactas como cortes sucesivos. La v0.8 registra la adopción profesional de los cinco objetos del lote A y cierra el perímetro profesional suficiente para comenzar, tras auditoría externa favorable, la normalización atómica. No adopta clínicamente el catálogo: mantiene 0 consecuencias clínicas constituidas, 0 matrices nuevas, 0 parámetros SV derivados y ninguna autorización asistencial. El expediente v0.2 contiene el suceso registral y la orden de auditoría limita el control externo a esta compuerta.
 
 - `Matriz_comparativa_planes_profesionales_INMUNO_v0.1_2026-09-01.xlsx`
 - `Catalogo_profesional_atomico_INMUNO_v0.1_2026-09-01.xlsx`
@@ -99,7 +99,10 @@ Base profesional comparada y atomización controlada. Las versiones v0.1–v0.6 
 - `Catalogo_profesional_atomico_INMUNO_v0.5_2026-09-01.xlsx`
 - `Catalogo_profesional_atomico_INMUNO_v0.6_2026-09-01.xlsx`
 - `Catalogo_profesional_atomico_INMUNO_v0.7_2026-09-01.xlsx`
+- `Catalogo_profesional_atomico_INMUNO_v0.8_2026-09-02.xlsx`
 - `Expediente_adjudicacion_comparada_INMUNO_v0.1_2026-09-01.md`
+- `Expediente_adjudicacion_comparada_INMUNO_v0.2_2026-09-02.md`
+- `Orden_auditoria_externa_cierre_profesional_INMUNO_v0.8_2026-09-02.md`
 
 ### `04-archivo-historico-no-vigente/01-flujos-y-arquitecturas/` — 7 archivos
 
