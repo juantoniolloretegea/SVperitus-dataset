@@ -165,6 +165,12 @@ Contiene el primer lote observacional acotado, `G3-S1`, aplicado a `SEM-EXP-002`
 - `Orden_auditoria_externa_G3-S1_corticoides_OP-IMM-001_v0.1_2026-09-02.md`
 - `Recepcion_y_cierre_auditoria_externa_G3-S1_corticoides_OP-IMM-001_v0.1_2026-09-02.md`
 
+El segundo lote, `G3-S2`, abre la cuantificación del compartimento linfocitario para `SEM-HUE-001`. Separa total, subpoblación, definición, recuento absoluto por volumen, proporción, método, tiempo, calidad y referencia; excluye función inmunitaria, diagnóstico, umbral y decisión. No utiliza la vacunación como finalidad y no abre `G4-S2` ni `G5-ATM`.
+
+- `Lote_observacional_G3-S2_compartimento_linfocitario_OP-IMM-001_v0.1_2026-09-02.md`
+- `Adversarial_interna_G3-S2_compartimento_linfocitario_OP-IMM-001_v0.1_2026-09-02.md`
+- `Orden_auditoria_externa_unica_G3-S2_compartimento_linfocitario_OP-IMM-001_v0.1_2026-09-02.md`
+
 ### `03-base-documental-candidata/09-consecuencias-en-evaluacion/` — puerta G4-CON
 
 Contiene `G4-S1`, primer lote finito de consecuencias ligadas a errores sobre la exposición a glucocorticoides ya representable en `G3-S1`. Separa dos consecuencias epistemológicas de tres consecuencias clínicas potenciales: seguridad de vacunas vivas, efectividad vacunal y omisión de una valoración pertinente de neumonía por *Pneumocystis*. Cada cadena conserva observable o `U`, error, fuente, finalidad, transición, incertidumbre, versión y autoridad. No adopta umbrales, equivalencias o intervenciones y no abre `G5-ATM`.
@@ -172,6 +178,7 @@ Contiene `G4-S1`, primer lote finito de consecuencias ligadas a errores sobre la
 - `Lote_consecuencias_G4-S1_corticoides_OP-IMM-001_v0.1_2026-09-02.md`
 - `Adversarial_interna_G4-S1_corticoides_OP-IMM-001_v0.1_2026-09-02.md`
 - `Orden_auditoria_externa_unica_G4-S1_corticoides_OP-IMM-001_v0.1_2026-09-02.md`
+- `Recepcion_y_cierre_auditoria_externa_G4-S1_corticoides_OP-IMM-001_v0.1_2026-09-02.md`
 
 ### `04-archivo-historico-no-vigente/01-flujos-y-arquitecturas/` — 7 archivos
 
