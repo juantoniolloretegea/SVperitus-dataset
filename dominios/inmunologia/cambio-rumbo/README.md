@@ -13,6 +13,13 @@ Este directorio constituye la base documental de trabajo posterior a la rectific
 - [`Recepcion_normalizada_revision_externa_corrobativa_acta_estratificacion_v0.1_2026-09-02.md`](Recepcion_normalizada_revision_externa_corrobativa_acta_estratificacion_v0.1_2026-09-02.md)
 - [`politica-transversal-proteccion-datos-salud-y-casos-no-atribuibles-2026-09-02-v0.1.md`](politica-transversal-proteccion-datos-salud-y-casos-no-atribuibles-2026-09-02-v0.1.md)
 
+### Adenda rectora en evaluación externa
+
+- [`adenda-contrato-epistemico-inferencia-trazable-y-consecuencias-ia-inmunologia-2026-09-02-v0.1.md`](adenda-contrato-epistemico-inferencia-trazable-y-consecuencias-ia-inmunologia-2026-09-02-v0.1.md)
+- [`adversarial-interna-adenda-contrato-epistemico-ia-inmunologia-2026-09-02-v0.1.md`](adversarial-interna-adenda-contrato-epistemico-ia-inmunologia-2026-09-02-v0.1.md)
+
+La adenda candidata exige corpus completo respecto de la operación, prohíbe inferencia clínica opaca y obliga a conservar dos objetos vinculados: cadena privada de deliberación protegida y traza justificativa estructurada normativa. Bloquea todo consejo si cualquiera falta, discrepa o carece de consecuencias críticas suficientemente constituidas. No presume conocimiento universal. Permanecerá candidata hasta auditoría externa favorable.
+
 El acta de 31 de agosto constituye la raíz de la rectificación metodológica. El acta de secuencia de 2 de septiembre fija la continuidad, la custodia contra laterales, el régimen de acrónimos y la relación de lectura —sin escritura— con el Lenguaje SV. El acta de estratificación del mismo corte separa núcleo transversal, composición clínica, configuración institucional, episodio protegido y ejecución computacional, y distribuye las autoridades clínica, semántica, institucional y técnica; su auditoría externa emitió `PASA` sin reparos y una segunda revisión externa convergió con estatuto no ciego. Ambas quedaron registradas mediante recepciones normalizadas. Ningún material clasificado debajo modifica estas actas por inferencia ni constituye por sí mismo el dominio clínico.
 
 ## Estatutos documentales
@@ -23,6 +30,7 @@ El acta de 31 de agosto constituye la raíz de la rectificación metodológica. 
 | `RECTOR_DE_CONTINUIDAD` | Secuencia, disciplina y refinamientos posteriores que preservan la raíz metodológica. |
 | `RECTOR_DE_ARQUITECTURA_CLINICA_Y_EJECUCION` | Separación de capas, distribución de autoridad y subordinación de la ejecución computacional. |
 | `RECTOR_DE_PROTECCION` | Condición prospectiva de privacidad, anonimización y publicación segura. |
+| `RECTOR_CANDIDATO_DE_EJECUCION_EPISTEMICA` | Contrato de conocimiento, inferencia, consecuencias y consejo pendiente de auditoría externa. |
 | `INVIOLABLE` | Fundamentos y origen doctrinal de U. No se alteran desde este frente. |
 | `CONTEXTO` | Álgebra de composición. Sólo se aparta de ella por ampliación autorizada o error demostrado. |
 | `CANDIDATO_EN_CUARENTENA` | Material que puede informar el trabajo, pero no está adoptado, no agota el dominio y no autoriza asistencia. |
