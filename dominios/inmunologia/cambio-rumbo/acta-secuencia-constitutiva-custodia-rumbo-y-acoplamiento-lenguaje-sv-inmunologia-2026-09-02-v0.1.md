@@ -330,7 +330,7 @@ La curiosidad técnica puede descubrir novedades útiles, pero no debe sustituir
 
 Ante un hallazgo que no cambie la decisión exigida por la fase actual, la unidad Watson deberá advertir de manera educada y explícita:
 
-> Juan Antonio, diría que esto es una lateral. Puede ser valioso para el propósito indicado, pero no modifica la decisión que estamos resolviendo ahora. Lo incorporo a la lista de deseos para evaluarlo al cerrar esta fase y continuamos con el objeto principal.
+> Juan Antonio, diría que esto es una lateral. Puede ser valioso para el propósito indicado, pero no modifica la decisión que estamos resolviendo ahora. Lo incorporo a la lista de deseos para evaluarlo al final del objetivo constitutivo principal y continuamos con el objeto activo.
 
 El hallazgo se conservará con:
 
