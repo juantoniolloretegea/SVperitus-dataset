@@ -13,6 +13,14 @@ Este directorio constituye la base documental de trabajo posterior a la rectific
 - [`Recepcion_normalizada_revision_externa_corrobativa_acta_estratificacion_v0.1_2026-09-02.md`](Recepcion_normalizada_revision_externa_corrobativa_acta_estratificacion_v0.1_2026-09-02.md)
 - [`politica-transversal-proteccion-datos-salud-y-casos-no-atribuibles-2026-09-02-v0.1.md`](politica-transversal-proteccion-datos-salud-y-casos-no-atribuibles-2026-09-02-v0.1.md)
 
+### Reconciliación de secuencia en evaluación
+
+- [`adenda-reconciliacion-secuencia-constitutiva-y-puertas-inmunologia-2026-09-02-v0.1.md`](adenda-reconciliacion-secuencia-constitutiva-y-puertas-inmunologia-2026-09-02-v0.1.md)
+- [`adversarial-interna-ingenieria-procesos-adenda-reconciliacion-secuencia-inmunologia-2026-09-02-v0.1.md`](adversarial-interna-ingenieria-procesos-adenda-reconciliacion-secuencia-inmunologia-2026-09-02-v0.1.md)
+- [`Orden_auditoria_externa_unica_adenda_reconciliacion_secuencia_INMUNO_v0.1_2026-09-02.md`](Orden_auditoria_externa_unica_adenda_reconciliacion_secuencia_INMUNO_v0.1_2026-09-02.md)
+
+La adenda identifica y reconcilia, sin reescritura, la colisión entre la secuencia abreviada de continuidad y la secuencia material exigida por la prueba de atomicidad. Distingue consecuencia candidata previa de consecuencia operacional posterior, fija identificadores inequívocos `G0-PRO`–`G10-SV` y somete el proceso a una adversarial fuerte de ingeniería. Permanece candidata hasta auditoría externa favorable; mientras tanto `G4-S2` está congelado y no se abre otro lote.
+
 ### Adenda rectora de ejecución epistémica
 
 - [`adenda-contrato-epistemico-inferencia-trazable-y-consecuencias-ia-inmunologia-2026-09-02-v0.2.md`](adenda-contrato-epistemico-inferencia-trazable-y-consecuencias-ia-inmunologia-2026-09-02-v0.2.md)
