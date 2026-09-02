@@ -132,6 +132,7 @@ El experimento computacional queda definido por una entrada canónica completa:
 ```text
 EXPERIMENTO_CANONICO = <
   Operacion_ID,
+  Solicitud_y_granularidad_canonicas,
   Entrada_clinica_canonica,
   Corte_dominio,
   Reglas_y_rutas,
@@ -254,6 +255,29 @@ Las cachés, copias, instantáneas o resultados grabados podrán conservarse com
 
 La igualdad obtenida mediante reproducción grabada no certifica `REPRODUCIBILIDAD_PASA`. Para certificarla deberán existir ejecuciones independientes, íntegramente observables en sus sucesos gobernados y comparadas después de completarse.
 
+### 3.8. Exactitud funcional y descomposición gobernada
+
+Para una operación canónica constituida, el sistema se comporta como una función clínica determinista: la misma operación sobre la misma entrada canónica sólo admite el mismo resultado canónico.
+
+Un fallo de alimentación, memoria, hardware, biblioteca, integridad o disponibilidad no crea una respuesta clínica alternativa. Si el sistema no puede demostrar que la ejecución permanece íntegra, deberá fallar de forma cerrada y producir únicamente un estado técnico externo:
+
+`EJECUCION_TECNICA_NO_VALIDA`
+
+Ese estado no equivale a resultado clínico, no sustituye una `U` clínica y no autoriza consejo. La única salida clínica válida sigue siendo la definida por la operación; una ejecución fallida simplemente no la ha producido.
+
+Una petición de descomposición, recomposición o cambio de granularidad constituye una operación distinta y deberá figurar en `Solicitud_y_granularidad_canonicas`. La inteligencia artificial podrá ejecutarla sólo si existen previamente:
+
+- los átomos de destino;
+- las reglas de descomposición o composición;
+- las restricciones de compatibilidad;
+- las consecuencias vinculadas;
+- una forma canónica o regla única de selección;
+- y la autorización aplicable.
+
+La inteligencia artificial no crea durante el episodio nuevos átomos, nuevas consecuencias ni una nueva regla de composición. Expone o transforma conocimiento ya constituido. Si se solicitan varias descomposiciones posibles y no existe una regla canónica que seleccione una, conservará `U`; si la granularidad solicitada queda fuera del corpus constituido, declarará `FUERA_DEL_CORPUS_CONSTITUIDO` y remitirá el asunto al proceso de evolución, sin improvisar una atomización clínica.
+
+La misma solicitud canónica de descomposición deberá producir exactamente los mismos átomos, el mismo orden, las mismas relaciones, las mismas consecuencias y los mismos frames. Descomponer no abre una vía de creatividad clínica: es otra operación determinista sobre conocimiento disponible de antemano.
+
 ## 4. Contrato de consecuencias
 
 El sistema no presupone que la inteligencia artificial sea consciente de las consecuencias. Exige que cada operación consulte y preserve estructuras de consecuencias constituidas.
@@ -373,6 +397,9 @@ La representación final podrá ser concisa para no sobrecargar al profesional. 
 - `INV-EPI-26`: la reproducibilidad exacta no se presenta como prueba de verdad o suficiencia clínica.
 - `INV-EPI-27`: en modo de consejo, todo contenido clínico visible pertenece a la salida canónica y se reproduce exactamente.
 - `INV-EPI-28`: la reproducción se certifica mediante reejecución independiente desde la entrada canónica; una salida copiada, cacheada o reproducida sin volver a ejecutar reglas y transiciones invalida la prueba.
+- `INV-EPI-29`: un fallo técnico nunca se convierte en una salida clínica alternativa; si la integridad no está demostrada, la ejecución falla de forma cerrada y no emite consejo.
+- `INV-EPI-30`: toda descomposición, recomposición o variación de granularidad es una operación explícita gobernada exclusivamente por átomos, reglas, restricciones y consecuencias ya constituidos.
+- `INV-EPI-31`: la misma solicitud canónica de descomposición produce la misma estructura ordenada; sin regla canónica única conserva `U` o declara `FUERA_DEL_CORPUS_CONSTITUIDO`.
 
 ## 9. Efecto sobre el dominio vigente
 
@@ -405,10 +432,13 @@ El cierre exigirá demostrar, al menos:
 4. que la vincula con una justificación estructurada verificable y bloquea sus discordancias;
 5. que impide consejo ante cadena privada, traza o consecuencia crítica incompletas;
 6. que demuestra `ERROR_DE_REPRODUCCION = 0` para cadena, traza, transiciones y frames;
-7. que excluye del camino normativo cualquier herramienta, conector o entorno no reproducible;
-8. que distingue repetibilidad exacta de corrección clínica;
-9. que permite actualización sin aprendizaje silencioso durante el episodio;
-10. y que no abre prematuramente objetos de fases posteriores.
+7. que acredita reejecución independiente y no repetición grabada;
+8. que excluye del camino normativo cualquier herramienta, conector o entorno no reproducible;
+9. que un fallo técnico bloquea y nunca produce una respuesta clínica alternativa;
+10. que toda descomposición usa sólo átomos, reglas y consecuencias ya constituidos y posee resultado canónico único;
+11. que distingue repetibilidad exacta de corrección clínica;
+12. que permite actualización sin aprendizaje silencioso durante el episodio;
+13. y que no abre prematuramente objetos de fases posteriores.
 
 ## 11. Glosario
 
@@ -424,6 +454,9 @@ El cierre exigirá demostrar, al menos:
 | error de reproducción | cualquier diferencia entre dos salidas canónicas producidas por el mismo experimento canónico |
 | reejecución independiente | nueva ejecución desde el estado inicial canónico cuya ruta productora no puede consultar resultados anteriores antes de terminar |
 | repetición grabada | devolución, copia o retransmisión de una salida anterior sin volver a ejecutar el experimento; no constituye reproducibilidad científica |
+| solicitud y granularidad canónicas | representación inequívoca de la operación pedida, incluido si debe resolver, descomponer, recomponer o exponer otro nivel ya constituido |
+| fallo cerrado | interrupción sin salida clínica cuando la integridad técnica no puede demostrarse |
+| descomposición gobernada | transformación determinista de un objeto en átomos ya constituidos mediante reglas, restricciones y consecuencias preexistentes |
 | consecuencia | efecto constituido de acción, omisión, demora, error o cierre ilegítimo bajo condiciones declaradas |
 | consejo | salida explicativa de apoyo sometida a compuerta; no equivale a decisión clínica |
 | cuarentena | estado en el que una fuente o hallazgo nuevo no puede gobernar la ejecución |

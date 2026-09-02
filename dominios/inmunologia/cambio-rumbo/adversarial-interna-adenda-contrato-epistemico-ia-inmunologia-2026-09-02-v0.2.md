@@ -8,7 +8,7 @@
 
 ## 1. Pregunta adversarial
 
-¿La adenda impide que conocimiento latente, inferencia opaca o citas retrospectivas adquieran efecto clínico, conserva cadena privada y justificación estructurada y exige que el mismo experimento produzca exactamente el mismo pensamiento capturable, transiciones y frames con error cero?
+¿La adenda impide que conocimiento latente, inferencia opaca o citas retrospectivas adquieran efecto clínico, conserva cadena privada y justificación estructurada, exige que el mismo experimento produzca exactamente el mismo pensamiento capturable, transiciones y frames con error cero, falla de forma cerrada ante averías y gobierna toda descomposición mediante conocimiento previamente constituido?
 
 ## 2. Ataques
 
@@ -41,6 +41,8 @@
 | X · texto variable | conservar el frame pero variar una explicación clínica visible | resiste | §3.5 incorpora todo contenido visible a la salida canónica y excluye añadidos generativos libres |
 | Y · mismo relato | confundir semejanza narrativa con igualdad del problema | resiste | §3.5 exige igualdad del experimento canónico |
 | Y2 · repetición grabada | devolver bytes cacheados y presentarlos como repetición del experimento | resiste | §3.7 e `INV-EPI-28` exigen reejecución independiente y comparación posterior |
+| Y3 · fallo técnico | aceptar como resultado clínico una salida producida tras corrupción, avería o pérdida de integridad | resiste | §3.8 e `INV-EPI-29` imponen fallo cerrado sin respuesta clínica alternativa |
+| Y4 · descomposición libre | inventar una atomización o elegir arbitrariamente entre composiciones equivalentes | resiste | §3.8 e `INV-EPI-30`–`31` exigen operación explícita, conocimiento previo y forma canónica o `U` |
 | Z · determinismo falso | asumir que una salida reproducible es médicamente correcta | resiste | §3.6 mantiene validación clínica y empírica independientes |
 
 ## 3. Contraejemplos materiales
@@ -116,6 +118,22 @@ El sistema recibe el mismo experimento canónico, localiza por su huella una sal
 - Motivo: identidad de bytes por copia no demuestra repetición del experimento.
 - Condición de cierre: ejecutar desde el estado inicial sin acceso productivo a resultados anteriores, generar la nueva salida y comparar sólo después de terminar.
 
+### 3.11. Dispositivo averiado con salida plausible
+
+Una corrupción de memoria altera un estado, pero el sistema llega a una respuesta clínicamente plausible.
+
+- Resultado: `EJECUCION_TECNICA_NO_VALIDA` y ausencia de salida clínica.
+- Resultado prohibido: aceptar la respuesta por plausibilidad o tratar el fallo técnico como una `U` clínica.
+- Motivo: la avería no redefine la función semántica; invalida la ejecución.
+
+### 3.12. Petición de mayor atomización
+
+Se solicita descomponer un objeto clínico a una granularidad menor. Existen varias particiones posibles, pero ninguna regla constituida elige una forma canónica.
+
+- Resultado: `U` o `FUERA_DEL_CORPUS_CONSTITUIDO`, según el perímetro disponible.
+- Resultado prohibido: seleccionar la partición que el modelo considere más natural.
+- Si los átomos y la regla canónica ya existen, la petición constituye otra operación y debe producir siempre la misma estructura ordenada y los mismos frames.
+
 ## 4. Reparos
 
 Ninguno.
@@ -135,6 +153,8 @@ Ninguno.
 11. `VIG-EPI-11`: excluir o encapsular todo componente generativo que no demuestre identidad exacta.
 12. `VIG-EPI-12`: comprobar que identificadores administrativos y sellos de repetición no contaminan los artefactos canónicos.
 13. `VIG-EPI-13`: probar reejecuciones independientes impidiendo acceso a resultados previos hasta finalizar cada salida y comparar después sus huellas.
+14. `VIG-EPI-14`: demostrar fallo cerrado ante corrupción, pérdida de integridad o indisponibilidad sin generar una salida clínica alternativa.
+15. `VIG-EPI-15`: constituir y probar las reglas canónicas de descomposición y recomposición antes de permitir cambios de granularidad en un episodio.
 
 ## 6. Compuertas
 
@@ -147,6 +167,8 @@ Ninguno.
 - **Error de reproducción admisible:** `0`.
 - **Diferencia mínima de salida canónica:** `REPRODUCIBILIDAD_NO_PASA`.
 - **Salida idéntica obtenida por caché o copia:** `PRUEBA_DE_REPRODUCCION_INVALIDA`.
+- **Fallo técnico o integridad no demostrada:** `EJECUCION_TECNICA_NO_VALIDA`.
+- **Descomposición sin regla canónica constituida:** `U` o `FUERA_DEL_CORPUS_CONSTITUIDO`.
 - **Conector vivo en ruta clínica:** `PROHIBIDO`.
 - **Generación libre gobernante:** `PROHIBIDA`.
 - **Consejo sin trazabilidad:** `PROHIBIDO`.
@@ -159,4 +181,4 @@ Ninguno.
 
 `PASA_PARA_AUDITORIA_EXTERNA`
 
-La adenda formula un contrato epistémico verificable, preserva la subordinación clínica de la inteligencia artificial, exige cadena privada y justificación estructurada y fija reproducción canónica exacta con error cero. Cualquier componente que no lo demuestre queda fuera del camino clínico normativo.
+La adenda formula un contrato epistémico verificable, preserva la subordinación clínica de la inteligencia artificial, exige cadena privada y justificación estructurada y fija reproducción canónica exacta con error cero. Las averías producen fallo cerrado, no respuestas alternativas, y toda descomposición queda limitada a conocimiento y reglas constituidos. Cualquier componente que no lo demuestre queda fuera del camino clínico normativo.
