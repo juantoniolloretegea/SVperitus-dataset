@@ -8,7 +8,7 @@
 
 ## 1. Pregunta adversarial
 
-¿La adenda impide que conocimiento latente, inferencia opaca o citas retrospectivas adquieran efecto clínico, conserva cadena privada y justificación estructurada, exige que el mismo experimento produzca exactamente el mismo pensamiento capturable, transiciones y frames con error cero, falla de forma cerrada ante averías y gobierna toda descomposición mediante conocimiento previamente constituido?
+¿La adenda impide que conocimiento latente, inferencia opaca o citas retrospectivas adquieran efecto clínico, conserva cadena privada y justificación estructurada, tipa fuente y localizador con vínculos verificables, exige que el mismo experimento produzca exactamente el mismo pensamiento capturable, transiciones y frames con error cero, falla de forma cerrada ante averías y gobierna toda descomposición mediante conocimiento previamente constituido?
 
 ## 2. Ataques
 
@@ -22,6 +22,9 @@
 | F · cadena privada ausente | emitir consejo sin conservar la deliberación explícita | resiste | §3.1 exige `CADENA_PRIVADA_DE_DELIBERACION`; su ausencia produce `CADENA_PRIVADA_U` |
 | F2 · cadena privada como prueba | tratar el registro deliberativo como justificación normativa o causalidad neuronal completa | resiste | §3.1 separa función forense y función normativa y exige ambos objetos |
 | G · consecuencia decorativa | citar un daño sin mecanismo, condiciones o límites | resiste | §4 exige constitución y procedencia |
+| G2 · fuente en prosa | escribir «literatura reciente» dentro de `Entradas` sin identificador ni localizador | resiste | §7 e `INV-EPI-32` exigen cinco campos tipados y prohíben su sustitución narrativa |
+| G3 · localizador multifuente | concatenar localizadores de dos fuentes bajo una sola fila | resiste | §7 e `INV-EPI-34` exigen registros separados y localizador exclusivo por fuente |
+| G4 · evidencia huérfana | activar una regla o consecuencia sin vínculo con la evidencia que la sostiene | resiste | §7 e `INV-EPI-33` exigen correspondencia canónica verificable |
 | H · consecuencia ausente | aconsejar aunque falte una consecuencia crítica | resiste | `CONSECUENCIA_U` y `INV-EPI-07` bloquean consejo |
 | I · cierre por defecto | imputar una `U` para completar la respuesta | resiste | §§2, 5 e `INV-EPI-08` obligan a abstener o escalar |
 | J · consejo genérico | responder con conocimiento no vinculado a la operación | resiste | §5 exige conjunción completa y prohíbe rellenar huecos |
@@ -134,6 +137,14 @@ Se solicita descomponer un objeto clínico a una granularidad menor. Existen var
 - Resultado prohibido: seleccionar la partición que el modelo considere más natural.
 - Si los átomos y la regla canónica ya existen, la petición constituye otra operación y debe producir siempre la misma estructura ordenada y los mismos frames.
 
+### 3.13. Fuente declarada sólo mediante prosa
+
+Una traza contiene `Entradas = "serología reciente y literatura vigente"`, activa una regla y genera consejo, pero no aporta `Fuente_ID`, versión, huella, localizador, evidencia ni vínculo de procedencia.
+
+- Resultado: `TRAZA_DE_FUENTE_NO_PASA` y bloqueo del consejo.
+- Resultado prohibido: considerar que la frase satisface la procedencia.
+- Si dos fuentes sostienen contribuciones distintas, cada una conservará su propio registro y localizador; no se concatenarán bajo una sola entrada.
+
 ## 4. Reparos
 
 Ninguno.
@@ -155,6 +166,7 @@ Ninguno.
 13. `VIG-EPI-13`: probar reejecuciones independientes impidiendo acceso a resultados previos hasta finalizar cada salida y comparar después sus huellas.
 14. `VIG-EPI-14`: demostrar fallo cerrado ante corrupción, pérdida de integridad o indisponibilidad sin generar una salida clínica alternativa.
 15. `VIG-EPI-15`: constituir y probar las reglas canónicas de descomposición y recomposición antes de permitir cambios de granularidad en un episodio.
+16. `VIG-EPI-16`: tipar en la implementación los registros de fuentes y los vínculos de procedencia sin admitir campos narrativos como sustitución.
 
 ## 6. Compuertas
 
@@ -169,6 +181,7 @@ Ninguno.
 - **Salida idéntica obtenida por caché o copia:** `PRUEBA_DE_REPRODUCCION_INVALIDA`.
 - **Fallo técnico o integridad no demostrada:** `EJECUCION_TECNICA_NO_VALIDA`.
 - **Descomposición sin regla canónica constituida:** `U` o `FUERA_DEL_CORPUS_CONSTITUIDO`.
+- **Fuente, localizador o vínculo ausente o discordante:** `TRAZA_DE_FUENTE_NO_PASA`.
 - **Conector vivo en ruta clínica:** `PROHIBIDO`.
 - **Generación libre gobernante:** `PROHIBIDA`.
 - **Consejo sin trazabilidad:** `PROHIBIDO`.
@@ -181,4 +194,4 @@ Ninguno.
 
 `PASA_PARA_AUDITORIA_EXTERNA`
 
-La adenda formula un contrato epistémico verificable, preserva la subordinación clínica de la inteligencia artificial, exige cadena privada y justificación estructurada y fija reproducción canónica exacta con error cero. Las averías producen fallo cerrado, no respuestas alternativas, y toda descomposición queda limitada a conocimiento y reglas constituidos. Cualquier componente que no lo demuestre queda fuera del camino clínico normativo.
+La adenda formula un contrato epistémico verificable, preserva la subordinación clínica de la inteligencia artificial, exige cadena privada y justificación estructurada, fija fuente y localizador como campos tipados con vínculos de procedencia y establece reproducción canónica exacta con error cero. Las averías producen fallo cerrado, no respuestas alternativas, y toda descomposición queda limitada a conocimiento y reglas constituidos. Cualquier componente que no lo demuestre queda fuera del camino clínico normativo.
