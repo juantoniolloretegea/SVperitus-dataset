@@ -140,10 +140,11 @@ La recepción externa favorable de v0.8 se conserva en `Recepcion_auditoria_exte
 - `Registro_precursor_parametros_INMUNO_v0.1_2026-09-02.xlsx`
 - `Adversarial_interna_modelo_matematico_parametros_INMUNO_v0.3_2026-09-02.md`
 - `Orden_auditoria_externa_unica_NA0-MATH_Q0_INMUNO_v0.1_2026-09-02.md`
+- `Cierre_auditoria_externa_NA0-MATH_Q0_INMUNO_v0.1_2026-09-02.md`
 
 La compuerta `NA0` fija el contrato semántico átomo–parámetro–matriz, la batería adversarial transversal y el cribado estructural de los 50 `Pxx` históricos de `IMMUNO-1` y `IMMUNO-2`. Los pilotos se examinan como semillas: ningún `Pxx`, umbral o dimensión queda ratificado por herencia. La auditoría externa v0.1 emitió `PASA_CON_REPAROS`; las versiones v0.2 incorporan sus tres correcciones literales y retractan un falso positivo interno sobre `P11`. `NA0` queda cerrada exclusivamente para abrir una operación clínica testigo en `G1-OP`.
 
-El contrato matemático v0.3 fija la precisión posterior: la identidad del parámetro atómico es estable y la operación gobierna su activación, no su definición. El registro precursor computa 32 preguntas candidatas en siete familias, las contrasta contra 50 posiciones piloto y ocho colisiones, y mantiene en cero los parámetros y matrices autorizados. Ambos objetos permanecen candidatos hasta revisión externa; no abren `G3-OBS` ni `G5-ATM`.
+El contrato matemático v0.3 fija la precisión posterior: la identidad del parámetro atómico es estable y la operación gobierna su activación, no su definición. El registro precursor computa 32 preguntas candidatas en siete familias, las contrasta contra 50 posiciones piloto y ocho colisiones, y mantiene en cero los parámetros y matrices autorizados. La auditoría externa declaró cerrables `NA0-MATH`, la integridad de `Q0` y `G2-S2`; el único reparo menor quedó cerrado al distinguir el estado previo `CANDIDATO_NO_ADJUDICADO` de los siete resultados de adjudicación. `G3-OBS` queda apta para una apertura acotada, pero no se abre por este cierre; `G5-ATM` permanece cerrada.
 
 ### `03-base-documental-candidata/06-operacion-testigo-en-evaluacion/` — puerta G1-OP
 
@@ -153,7 +154,7 @@ La auditoría externa emitió `PASA` con una precisión menor: en G1 la suficien
 
 ### `03-base-documental-candidata/07-preguntas-semanticas-en-evaluacion/` — puerta G2-SEM
 
-Contiene `G2-S1`, con 23 preguntas cerradas tras auditoría externa favorable y una vigilancia diferida de atomicidad sobre `SEM-EXP-004`, y `G2-S2`, con 9 preguntas candidatas sobre neutrófilos, contexto biológico y modificadores generales. No son parámetros, no forman una matriz y no cierran el universo completo de `OP-IMM-001`. `G3-OBS` permanece bloqueada.
+Contiene `G2-S1`, con 23 preguntas cerradas tras auditoría externa favorable y una vigilancia diferida de atomicidad sobre `SEM-EXP-004`, y `G2-S2`, con 9 preguntas cerradas semánticamente sobre neutrófilos, contexto biológico y modificadores generales. Las 32 forman el universo precursor `Q0`; no son parámetros, no forman una matriz y no cierran el universo completo de `OP-IMM-001`. `G3-OBS` queda apta para una apertura acotada mediante un nuevo lote, no abierta por estos documentos.
 
 ### `04-archivo-historico-no-vigente/01-flujos-y-arquitecturas/` — 7 archivos
 

@@ -10,8 +10,8 @@
 
 | Objeto | Bytes | SHA-256 |
 |---|---:|---|
-| Contrato matemático v0.3 | 15 303 | `5426e97f4ded65198f2e347beed2203e28b1a6da269f45b6e1e4e9e164d14640` |
-| Registro precursor v0.1 | 20 886 | `2fd702da9c4cb8766594a740a0212a965e4a83e423b828053a589d9612098120` |
+| Contrato matemático v0.3 | 15 627 | `5fce31d5d9f5c8d979171c1d91bd47a2a97fdb90fbef990fa8d3d1fda41c1f37` |
+| Registro precursor v0.1 | 20 864 | `bd7b168db7348293766ff06742d1eeb22c311672459f1f13ab3f9aff4c872f81` |
 
 ## 2. Regla de suficiencia
 
@@ -118,17 +118,30 @@ Se conservan: distinción observable/transductor/parámetro, estado ternario, co
 ## 9. Incertidumbres legítimas
 
 - `U-01`: ninguna de las 32 preguntas ha pasado todavía por observables, transductor, consecuencia plena y adjudicación de atomicidad.
-- `U-02`: `G2-S2` conserva pendiente su cierre externo.
-- `U-03`: los tamaños y propietarios de las matrices no existen hasta disponer de parámetros autorizados.
-- `U-04`: las rutas críticas y frames normalizados no existen hasta constituir matrices y transiciones.
+- `U-02`: los tamaños y propietarios de las matrices no existen hasta disponer de parámetros autorizados.
+- `U-03`: las rutas críticas y frames normalizados no existen hasta constituir matrices y transiciones.
 
 Estas `U` no son fallos del contrato; son los límites que impiden adelantarse a fases no ejecutadas.
 
 ## 10. Dictamen interno
 
-`PASA_INTERNA`
+`PASA_INTERNA_Y_REPARO_EXTERNO_CERRADO`
 
-El modelo es finito, no duplica identidades, distingue evidencia de parámetro, impide composición por conveniencia, conserva `U` y vetos, y ofrece una regla de cierre verificable. Puede remitirse como un único lote a auditoría externa junto con el registro precursor. No autoriza abrir `G3-OBS` ni `G5-ATM` antes de esa revisión.
+El modelo es finito, no duplica identidades, distingue evidencia de parámetro, impide composición por conveniencia, conserva `U` y vetos, y ofrece una regla de cierre verificable. La auditoría externa declaró cerrables `NA0-MATH`, la integridad de `Q0` y `G2-S2`, con un único reparo menor: distinguir el estado previo de los siete resultados de adjudicación. La reparación queda aplicada mediante definición expresa y encabezado inequívoco. El siguiente lote acotado de `G3-OBS` queda apto para apertura, pero este objeto no lo constituye ni abre `G5-ATM`.
+
+### Cierre del reparo externo R1
+
+Ataque: interpretar `CANDIDATO_NO_ADJUDICADO` como octavo estatuto final o sustituirlo prematuramente por `U_REQUIERE_ADJUDICACION`.
+
+Corrección aplicada:
+
+1. el contrato lo define como estado de ciclo anterior a la prueba;
+2. el XLSX denomina la columna `Estado previo a adjudicación`;
+3. las 32 filas conservan `CANDIDATO_NO_ADJUDICADO`;
+4. ninguna fila recibe `U_REQUIERE_ADJUDICACION` sin haber sido adjudicada;
+5. las nueve filas G2-S2 pasan exclusivamente a `CERRADO_SEMANTICAMENTE` en su columna propia.
+
+La ablación confirma la necesidad: sin la palabra `previo`, el rótulo puede confundirse con el resultado; sustituyéndolo por `U_REQUIERE_ADJUDICACION`, se fingiría una prueba aún no ejecutada. La reparación evita ambos fallos.
 
 ## 11. Declaración
 

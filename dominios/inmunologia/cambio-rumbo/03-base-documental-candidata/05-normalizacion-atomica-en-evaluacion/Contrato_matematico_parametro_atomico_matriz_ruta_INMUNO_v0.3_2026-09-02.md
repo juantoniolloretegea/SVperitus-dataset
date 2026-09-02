@@ -3,7 +3,7 @@
 - **Fecha:** 02-09-2026
 - **Rama:** `dominio-inmunologia`
 - **Compuerta:** `NA0-MATH`
-- **Estatuto:** `RECTOR_CANDIDATO_DE_NORMALIZACION_MATEMATICA`
+- **Estatuto:** `RECTOR_DE_NORMALIZACION_MATEMATICA`
 - **Base profesional:** catálogo INMUNO v0.8, SHA-256 `d9535ac933ce4eb2e35a5017c7f74f0f4b8b9e8806802b933e050ce603cfa68a`
 - **Antecedente:** contrato semántico INMUNO v0.2
 - **Ámbito:** identidad, atomicidad, propiedad matricial, composición, ruta, frame y regla de cierre
@@ -147,6 +147,8 @@ Varias consecuencias derivadas de la misma proposición no obligan a dividir el 
 
 ## 7. Estatutos exhaustivos del candidato
 
+Antes de ejecutar la adjudicación, un objeto conserva el estado de ciclo `CANDIDATO_NO_ADJUDICADO`. Este rótulo no es un resultado de la prueba, no equivale a `U_REQUIERE_ADJUDICACION` y no permite la entrada en `A_v`. Al terminar la prueba se sustituye por exactamente uno de los siete estatutos siguientes.
+
 Todo candidato examinado debe recibir exactamente uno de estos estatutos:
 
 | Estatuto | Resultado |
@@ -265,7 +267,7 @@ Una novedad posterior no prolonga indefinidamente el corte. Abre una nueva versi
 | Magnitud | Valor | Interpretación |
 |---|---:|---|
 | Preguntas candidatas G2-S1 | 23 | cerradas semánticamente; no atómicas |
-| Preguntas candidatas G2-S2 | 9 | formuladas; pendientes de cierre externo |
+| Preguntas candidatas G2-S2 | 9 | cerradas semánticamente tras auditoría externa; no atómicas |
 | Total `Q_0` | 32 | universo precursor actual |
 | Posiciones piloto leídas | 50 | antecedentes estructurales, no autoridad |
 | Familias de colisión piloto | 8 | ataques obligados, no parámetros |
