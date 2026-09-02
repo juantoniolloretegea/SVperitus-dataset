@@ -5,6 +5,8 @@ Este directorio contiene la primera ejecución de `G1-OP`, puerta de definición
 ## Estado
 
 - Una sola operación candidata: `OP-IMM-001`.
+- Auditoría externa v0.1: `PASA` con un reparo menor de precisión.
+- Reparación v0.2: `R-01` incorporado; `G1-OP` cerrada para abrir exclusivamente `G2-SEM`.
 - Cero parámetros adjudicados.
 - Cero consecuencias clínicas plenas.
 - Cero matrices, composiciones o rutas constituidas.
@@ -18,6 +20,9 @@ La operación no avanza a `G2-SEM` hasta superar adversarial externa.
 - `OP-IMM-001_constitucion_perfil_riesgo_infeccioso_preinmunosupresion_G1_v0.1_2026-09-02.md`
 - `Adversarial_interna_G1_OP-IMM-001_v0.1_2026-09-02.md`
 - `Orden_auditoria_externa_G1_OP-IMM-001_v0.1_2026-09-02.md`
+- `Recepcion_auditoria_externa_G1_OP-IMM-001_v0.1_Claude_2026-09-02.md`
+- `OP-IMM-001_constitucion_perfil_riesgo_infeccioso_preinmunosupresion_G1_v0.2_2026-09-02.md`
+- `Adversarial_interna_reparacion_y_cierre_G1_OP-IMM-001_v0.2_2026-09-02.md`
 
 ## Glosario
 
