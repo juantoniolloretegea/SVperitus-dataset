@@ -13,13 +13,13 @@ Este directorio constituye la base documental de trabajo posterior a la rectific
 - [`Recepcion_normalizada_revision_externa_corrobativa_acta_estratificacion_v0.1_2026-09-02.md`](Recepcion_normalizada_revision_externa_corrobativa_acta_estratificacion_v0.1_2026-09-02.md)
 - [`politica-transversal-proteccion-datos-salud-y-casos-no-atribuibles-2026-09-02-v0.1.md`](politica-transversal-proteccion-datos-salud-y-casos-no-atribuibles-2026-09-02-v0.1.md)
 
-### Adenda rectora en evaluación externa
+### Adenda rectora de ejecución epistémica
 
 - [`adenda-contrato-epistemico-inferencia-trazable-y-consecuencias-ia-inmunologia-2026-09-02-v0.2.md`](adenda-contrato-epistemico-inferencia-trazable-y-consecuencias-ia-inmunologia-2026-09-02-v0.2.md)
 - [`adversarial-interna-adenda-contrato-epistemico-ia-inmunologia-2026-09-02-v0.2.md`](adversarial-interna-adenda-contrato-epistemico-ia-inmunologia-2026-09-02-v0.2.md)
 - [`Orden_auditoria_externa_adenda_contrato_epistemico_ia_inmunologia_v0.2_2026-09-02.md`](Orden_auditoria_externa_adenda_contrato_epistemico_ia_inmunologia_v0.2_2026-09-02.md)
 
-La versión 0.2 exige corpus completo respecto de la operación, doble registro de razonamiento y reproducción exacta con `ERROR_DE_REPRODUCCION = 0`. El mismo experimento canónico debe producir, byte por byte, la misma cadena privada, traza, secuencia de transiciones y frames. La certificación exige una reejecución independiente; devolver una copia o caché produce `PRUEBA_DE_REPRODUCCION_INVALIDA`. Una avería bloquea y no crea otra respuesta clínica. Descomponer o cambiar granularidad es una operación distinta, canónica y limitada a átomos, reglas y consecuencias ya constituidos. Fuente, versión, huella, localizador y evidencia son campos tipados, enlazados con cada objeto, regla, transición y consecuencia gobernante. Cualquier divergencia bloquea el consejo. Conectores vivos, generación libre y componentes no deterministas quedan fuera de la ruta clínica normativa.
+La versión 0.2 exige corpus completo respecto de la operación, doble registro de razonamiento y reproducción exacta con `ERROR_DE_REPRODUCCION = 0`. El mismo experimento canónico debe producir, byte por byte, la misma cadena privada, traza, secuencia de transiciones y frames. La certificación exige una reejecución independiente; devolver una copia o caché produce `PRUEBA_DE_REPRODUCCION_INVALIDA`. Una avería bloquea y no crea otra respuesta clínica. Descomponer o cambiar granularidad es una operación distinta, canónica y limitada a átomos, reglas y consecuencias ya constituidos. Fuente, versión, huella, localizador y evidencia son campos tipados, enlazados con cada objeto, regla, transición y consecuencia gobernante. `traza_de_fuente_pasa` forma parte expresa de `CONSEJO_ADMISIBLE`. La auditoría externa y la reparación por ablación cierran la compuerta. Conectores vivos, generación libre y componentes no deterministas quedan fuera de la ruta clínica normativa.
 
 #### Antecedentes candidatos superados
 
@@ -40,6 +40,7 @@ El acta de 31 de agosto constituye la raíz de la rectificación metodológica. 
 | `RECTOR_DE_ARQUITECTURA_CLINICA_Y_EJECUCION` | Separación de capas, distribución de autoridad y subordinación de la ejecución computacional. |
 | `RECTOR_DE_PROTECCION` | Condición prospectiva de privacidad, anonimización y publicación segura. |
 | `RECTOR_CANDIDATO_DE_EJECUCION_EPISTEMICA` | Contrato de conocimiento, inferencia, consecuencias y consejo pendiente de auditoría externa. |
+| `RECTOR_DE_EJECUCION_EPISTEMICA` | Contrato cerrado de conocimiento gobernante, trazabilidad, consecuencias, determinismo y compuerta de consejo. |
 | `SUPERADAS_NO_GOBIERNAN` | Versiones candidatas sustituidas antes de auditoría; se conservan como rastro y no tienen efecto rector. |
 | `INVIOLABLE` | Fundamentos y origen doctrinal de U. No se alteran desde este frente. |
 | `CONTEXTO` | Álgebra de composición. Sólo se aparta de ella por ampliación autorizada o error demostrado. |
