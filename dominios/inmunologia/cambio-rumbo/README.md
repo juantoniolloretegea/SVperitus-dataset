@@ -6,9 +6,11 @@ Este directorio constituye la base documental de trabajo posterior a la rectific
 
 - [`acta-rectificacion-metodologica-dominio-inmunologia-2026-08-31-v0.1.md`](acta-rectificacion-metodologica-dominio-inmunologia-2026-08-31-v0.1.md)
 - [`acta-secuencia-constitutiva-custodia-rumbo-y-acoplamiento-lenguaje-sv-inmunologia-2026-09-02-v0.1.md`](acta-secuencia-constitutiva-custodia-rumbo-y-acoplamiento-lenguaje-sv-inmunologia-2026-09-02-v0.1.md)
+- [`acta-estratificacion-clinica-autoridad-y-ejecucion-computacional-inmunologia-2026-09-02-v0.1.md`](acta-estratificacion-clinica-autoridad-y-ejecucion-computacional-inmunologia-2026-09-02-v0.1.md)
+- [`adversarial-interna-acta-estratificacion-clinica-autoridad-y-ejecucion-2026-09-02-v0.1.md`](adversarial-interna-acta-estratificacion-clinica-autoridad-y-ejecucion-2026-09-02-v0.1.md)
 - [`politica-transversal-proteccion-datos-salud-y-casos-no-atribuibles-2026-09-02-v0.1.md`](politica-transversal-proteccion-datos-salud-y-casos-no-atribuibles-2026-09-02-v0.1.md)
 
-El acta de 31 de agosto constituye la raíz de la rectificación metodológica. El acta de 2 de septiembre fija la secuencia de continuidad, la custodia contra laterales, el régimen de acrónimos y la relación de lectura —sin escritura— con el Lenguaje SV; prevalece únicamente en los extremos que refina de forma expresa. Ningún material clasificado debajo modifica estas actas por inferencia ni constituye por sí mismo el dominio clínico.
+El acta de 31 de agosto constituye la raíz de la rectificación metodológica. El acta de secuencia de 2 de septiembre fija la continuidad, la custodia contra laterales, el régimen de acrónimos y la relación de lectura —sin escritura— con el Lenguaje SV. El acta de estratificación del mismo corte separa núcleo transversal, composición clínica, configuración institucional, episodio protegido y ejecución computacional, y distribuye las autoridades clínica, semántica, institucional y técnica. Ningún material clasificado debajo modifica estas actas por inferencia ni constituye por sí mismo el dominio clínico.
 
 ## Estatutos documentales
 
@@ -16,6 +18,7 @@ El acta de 31 de agosto constituye la raíz de la rectificación metodológica. 
 |---|---|
 | `RECTOR` | Decisiones metodológicas vigentes desde el cambio de rumbo. |
 | `RECTOR_DE_CONTINUIDAD` | Secuencia, disciplina y refinamientos posteriores que preservan la raíz metodológica. |
+| `RECTOR_DE_ARQUITECTURA_CLINICA_Y_EJECUCION` | Separación de capas, distribución de autoridad y subordinación de la ejecución computacional. |
 | `RECTOR_DE_PROTECCION` | Condición prospectiva de privacidad, anonimización y publicación segura. |
 | `INVIOLABLE` | Fundamentos y origen doctrinal de U. No se alteran desde este frente. |
 | `CONTEXTO` | Álgebra de composición. Sólo se aparta de ella por ampliación autorizada o error demostrado. |
@@ -24,7 +27,7 @@ El acta de 31 de agosto constituye la raíz de la rectificación metodológica. 
 
 ## Orden de autoridad
 
-1. Acta rectora de rectificación y acta rectora de continuidad; la segunda prevalece sólo en sus refinamientos expresos.
+1. Actas rectoras de rectificación, continuidad y estratificación; cada una prevalece en el perímetro que declara expresamente.
 2. Doctrina inviolable.
 3. Contexto algebraico.
 4. Base documental candidata en cuarentena.
