@@ -97,19 +97,59 @@ Esas decisiones corresponden a controles externos al modelo y no anulables por i
 
 Ante una duda, conflicto o ausencia de autorización, el sistema conserva `PRIVACIDAD_U`, bloquea la salida y no solicita al modelo que resuelva la incertidumbre mediante razonamiento probabilístico.
 
-## 7. Fuentes restringidas y datos de investigación
+## 7. Solicitud de ejemplos durante la práctica clínica
+
+La petición «necesito ejemplos» activa una operación gobernada y no una búsqueda libre. Antes de responder, controles externos al modelo verificarán:
+
+1. identidad y función de quien solicita;
+2. relación asistencial o finalidad autorizada;
+3. episodio y ámbito de acceso;
+4. clase de ejemplo necesaria;
+5. fuente permitida y destino de la respuesta.
+
+La condición de profesional sanitario no concede acceso general a historias ajenas ni autoriza nuevas finalidades, exportaciones o transferencias. El acceso se limita por necesidad, relación asistencial, función, institución y finalidad previamente habilitada.
+
+### 7.1. Jerarquía de fuentes permitidas
+
+| Prioridad | Tipo de ejemplo | Condición |
+|---:|---|---|
+| 1 | sintético | construido sin derivación narrativa de una persona real y rotulado `SINTETICO` |
+| 2 | publicado | procedente de literatura pública autorizada, con cita y localizador, rotulado `PUBLICADO` |
+| 3 | agregado | estadística o patrón no reidentificable y autorizado, rotulado `AGREGADO` |
+| 4 | institucional | biblioteca expresamente aprobada, anonimizada o sometida al régimen jurídico y control de acceso aplicables, rotulada `INSTITUCIONAL_AUTORIZADO` |
+
+La IA no consultará historias clínicas de otras personas, recuperará vecinos clínicos, reutilizará conversaciones, buscará coincidencias en registros asistenciales ni compondrá un caso a partir de datos reales salvo que exista una función institucional específica, autorizada, auditada y limitada a esa finalidad.
+
+### 7.2. Uso del episodio actual
+
+Los datos de la persona atendida pueden emplearse dentro de su propio episodio únicamente para la finalidad asistencial autorizada. No se convierten por ello en ejemplo reutilizable, material docente, caso público, memoria del sistema o entrada para otra consulta.
+
+Cuando el ejemplo se destine a explicar una opción a la propia persona atendida, la salida se mantiene dentro del entorno asistencial y distingue con claridad:
+
+- datos del episodio actual;
+- ejemplo sintético ilustrativo;
+- evidencia publicada;
+- incertidumbre no resuelta.
+
+### 7.3. Conducta de la IA
+
+Si la finalidad o la fuente no están determinadas, la IA solicita aclaración o utiliza exclusivamente un ejemplo sintético mínimo. No inventa que un caso es real, no presenta un ejemplo como evidencia y no oculta su procedencia.
+
+Cada respuesta con ejemplos conserva, como mínimo: tipo, fuente o generador autorizado, versión, finalidad, episodio cuando proceda, control de acceso y registro de salida. Ninguna petición conversacional puede levantar por sí sola estos límites.
+
+## 8. Fuentes restringidas y datos de investigación
 
 Los datos sujetos a acuerdo de uso, comité de acceso, secreto profesional, consentimiento o régimen de investigación permanecerán en el entorno autorizado. El repositorio público sólo podrá conservar metadatos no sensibles, referencias y resultados agregados permitidos por la fuente y por la normativa aplicable.
 
 La apertura científica no prevalece sobre la confidencialidad ni convierte datos sanitarios en material libremente redistribuible.
 
-## 8. Incidente o hallazgo posterior
+## 9. Incidente o hallazgo posterior
 
 Ante una posible exposición se detendrá la nueva difusión, se identificará el perímetro exacto y se decidirá la medida proporcional. La retirada del estado visible no se confundirá con borrado histórico: commits, cachés, forks, copias y artefactos externos se evaluarán por separado. Cualquier reescritura de historial requerirá una operación específica, controlada y verificada.
 
 El registro público de la reparación será mínimo e impersonal; no repetirá el contenido que pretende proteger.
 
-## 9. Base normativa
+## 10. Base normativa
 
 Esta política adopta un criterio preventivo compatible con:
 
@@ -119,6 +159,6 @@ Esta política adopta un criterio preventivo compatible con:
 
 La política no constituye por sí sola una evaluación jurídica de un tratamiento concreto. Cuando exista dato real, acceso restringido, transferencia o duda de identificabilidad, la salida correcta es `PRIVACIDAD_U` y la operación pública se detiene.
 
-## 10. Declaración
+## 11. Declaración
 
 La protección de datos es una condición de entrada y publicación, no un añadido editorial posterior. Ninguna utilidad científica o técnica compensa la exposición de datos de salud identificables o razonablemente reidentificables.
