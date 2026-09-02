@@ -6,6 +6,7 @@ Este directorio constituye la base documental de trabajo posterior a la rectific
 
 - [`acta-rectificacion-metodologica-dominio-inmunologia-2026-08-31-v0.1.md`](acta-rectificacion-metodologica-dominio-inmunologia-2026-08-31-v0.1.md)
 - [`acta-secuencia-constitutiva-custodia-rumbo-y-acoplamiento-lenguaje-sv-inmunologia-2026-09-02-v0.1.md`](acta-secuencia-constitutiva-custodia-rumbo-y-acoplamiento-lenguaje-sv-inmunologia-2026-09-02-v0.1.md)
+- [`politica-transversal-proteccion-datos-salud-y-casos-no-atribuibles-2026-09-02-v0.1.md`](politica-transversal-proteccion-datos-salud-y-casos-no-atribuibles-2026-09-02-v0.1.md)
 
 El acta de 31 de agosto constituye la raíz de la rectificación metodológica. El acta de 2 de septiembre fija la secuencia de continuidad, la custodia contra laterales, el régimen de acrónimos y la relación de lectura —sin escritura— con el Lenguaje SV; prevalece únicamente en los extremos que refina de forma expresa. Ningún material clasificado debajo modifica estas actas por inferencia ni constituye por sí mismo el dominio clínico.
 
@@ -15,6 +16,7 @@ El acta de 31 de agosto constituye la raíz de la rectificación metodológica. 
 |---|---|
 | `RECTOR` | Decisiones metodológicas vigentes desde el cambio de rumbo. |
 | `RECTOR_DE_CONTINUIDAD` | Secuencia, disciplina y refinamientos posteriores que preservan la raíz metodológica. |
+| `RECTOR_DE_PROTECCION` | Condición prospectiva de privacidad, anonimización y publicación segura. |
 | `INVIOLABLE` | Fundamentos y origen doctrinal de U. No se alteran desde este frente. |
 | `CONTEXTO` | Álgebra de composición. Sólo se aparta de ella por ampliación autorizada o error demostrado. |
 | `CANDIDATO_EN_CUARENTENA` | Material que puede informar el trabajo, pero no está adoptado, no agota el dominio y no autoriza asistencia. |
@@ -119,7 +121,7 @@ La auditoría externa emitió `PASA` con una precisión menor: en G1 la suficien
 
 ### `03-base-documental-candidata/07-preguntas-semanticas-en-evaluacion/` — puerta G2-SEM
 
-Contiene el primer lote semántico `G2-S1`: veintiuna preguntas candidatas dirigidas a las colisiones y fronteras prioritarias de los pilotos. No son parámetros, no forman una matriz y no cierran el universo completo de `OP-IMM-001`. `G3-OBS` permanece bloqueada.
+Contiene `G2-S1`, con 23 preguntas cerradas tras auditoría externa favorable y una vigilancia diferida de atomicidad sobre `SEM-EXP-004`, y `G2-S2`, con 9 preguntas candidatas sobre neutrófilos, contexto biológico y modificadores generales. No son parámetros, no forman una matriz y no cierran el universo completo de `OP-IMM-001`. `G3-OBS` permanece bloqueada.
 
 ### `04-archivo-historico-no-vigente/01-flujos-y-arquitecturas/` — 7 archivos
 

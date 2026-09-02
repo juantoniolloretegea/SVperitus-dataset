@@ -5,7 +5,9 @@ Este directorio ejecuta `G2-SEM`, puerta de formulación de preguntas candidatas
 ## Estado
 
 - `G1-OP` cerrada en `OP-IMM-001` v0.2.
-- Primer lote semántico: `G2-S1`, 23 preguntas sobre colisiones y fronteras prioritarias heredadas sólo como señales de los pilotos.
+- Primer lote semántico `G2-S1`: 23 preguntas cerradas tras auditoría externa favorable.
+- `G2-SEM` total permanece abierto y `G3-OBS` permanece bloqueada.
+- Segundo lote semántico `G2-S2`: 9 preguntas candidatas sobre neutrófilos, contexto biológico y modificadores generales, pendientes de auditoría externa.
 - Cero preguntas adjudicadas como parámetros.
 - Cero observables, unidades, umbrales o ventanas constituidos.
 - Cero consecuencias clínicas plenas.
@@ -19,6 +21,9 @@ Este directorio ejecuta `G2-SEM`, puerta de formulación de preguntas candidatas
 - `Lote_semantico_G2-S1_OP-IMM-001_v0.1_2026-09-02.md`
 - `Adversarial_interna_G2-S1_OP-IMM-001_v0.1_2026-09-02.md`
 - `Orden_auditoria_externa_G2-S1_OP-IMM-001_v0.1_2026-09-02.md`
+- `Recepcion_y_cierre_auditoria_externa_G2-S1_OP-IMM-001_v0.1_2026-09-02.md`
+- `Lote_semantico_G2-S2_OP-IMM-001_v0.1_2026-09-02.md`
+- `Adversarial_interna_G2-S2_OP-IMM-001_v0.1_2026-09-02.md`
 
 ## Glosario
 
