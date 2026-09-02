@@ -4,7 +4,7 @@
 - **Fecha de corte:** 02-09-2026
 - **Objeto:** `adenda-contrato-epistemico-inferencia-trazable-y-consecuencias-ia-inmunologia-2026-09-02-v0.2.md`
 - **Método:** falsación epistemológica, clínica, semántica, técnica, operativa y de privacidad
-- **Dictamen:** `PASA_PARA_AUDITORIA_EXTERNA`
+- **Dictamen:** `PASA`
 
 ## 1. Pregunta adversarial
 
@@ -28,6 +28,7 @@
 | H · consecuencia ausente | aconsejar aunque falte una consecuencia crítica | resiste | `CONSECUENCIA_U` y `INV-EPI-07` bloquean consejo |
 | I · cierre por defecto | imputar una `U` para completar la respuesta | resiste | §§2, 5 e `INV-EPI-08` obligan a abstener o escalar |
 | J · consejo genérico | responder con conocimiento no vinculado a la operación | resiste | §5 exige conjunción completa y prohíbe rellenar huecos |
+| J2 · compuerta sin fuente | evaluar consejo sin comprobar la traza tipada de fuente | resiste | §5 incluye `traza_de_fuente_pasa`; su ablación obliga a `NO_EMITIR_CONSEJO` |
 | K · actualización silenciosa | convertir una guía recién encontrada en regla durante el episodio | resiste | §6 impone cuarentena, filtros, aceptación y nuevo suceso |
 | L · fuga en búsqueda | enviar datos del episodio a un servicio externo | resiste | §6 preserva minimización, finalidad y régimen autorizado |
 | M · automatismo | confundir expediente de apoyo con decisión asistencial | resiste | §§5, 7 y `INV-EPI-13` mantienen autoridad pendiente |
@@ -145,9 +146,19 @@ Una traza contiene `Entradas = "serología reciente y literatura vigente"`, acti
 - Resultado prohibido: considerar que la frase satisface la procedencia.
 - Si dos fuentes sostienen contribuciones distintas, cada una conservará su propio registro y localizador; no se concatenarán bajo una sola entrada.
 
+### 3.14. Compuerta evaluada sin traza de fuente
+
+Una implementación evalúa todas las condiciones de `CONSEJO_ADMISIBLE` excepto la integridad de `Fuentes_aplicadas` y `Vinculos_de_procedencia`.
+
+- Ablación: retirar `traza_de_fuente_pasa` impide satisfacer la fórmula vigente.
+- Resultado obligatorio: `NO_EMITIR_CONSEJO`.
+- Resultado prohibido: considerar suficiente que la regla de bloqueo exista únicamente fuera de la conjunción ejecutable.
+
 ## 4. Reparos
 
 Ninguno.
+
+El reparo externo K queda cerrado mediante la incorporación literal de `traza_de_fuente_pasa` a `CONSEJO_ADMISIBLE` y su prueba de ablación en §3.14.
 
 ## 5. Vigilancias
 
@@ -192,6 +203,6 @@ Ninguno.
 
 ## 7. Dictamen
 
-`PASA_PARA_AUDITORIA_EXTERNA`
+`PASA`
 
 La adenda formula un contrato epistémico verificable, preserva la subordinación clínica de la inteligencia artificial, exige cadena privada y justificación estructurada, fija fuente y localizador como campos tipados con vínculos de procedencia y establece reproducción canónica exacta con error cero. Las averías producen fallo cerrado, no respuestas alternativas, y toda descomposición queda limitada a conocimiento y reglas constituidos. Cualquier componente que no lo demuestre queda fuera del camino clínico normativo.
