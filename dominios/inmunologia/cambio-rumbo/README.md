@@ -109,7 +109,7 @@ La recepción externa favorable de v0.8 se conserva en `Recepcion_auditoria_exte
 
 ### `03-base-documental-candidata/05-normalizacion-atomica-en-evaluacion/` — compuerta NA0
 
-La compuerta `NA0` fija el contrato semántico átomo–parámetro–matriz, la batería adversarial transversal y el cribado estructural de los 50 `Pxx` históricos de `IMMUNO-1` y `IMMUNO-2`. Los pilotos se examinan como semillas: ningún `Pxx`, umbral o dimensión queda ratificado por herencia.
+La compuerta `NA0` fija el contrato semántico átomo–parámetro–matriz, la batería adversarial transversal y el cribado estructural de los 50 `Pxx` históricos de `IMMUNO-1` y `IMMUNO-2`. Los pilotos se examinan como semillas: ningún `Pxx`, umbral o dimensión queda ratificado por herencia. La auditoría externa v0.1 emitió `PASA_CON_REPAROS`; las versiones v0.2 incorporan sus tres correcciones literales y retractan un falso positivo interno sobre `P11`. `NA0` queda cerrada exclusivamente para abrir una operación clínica testigo en `G1-OP`.
 
 ### `04-archivo-historico-no-vigente/01-flujos-y-arquitecturas/` — 7 archivos
 

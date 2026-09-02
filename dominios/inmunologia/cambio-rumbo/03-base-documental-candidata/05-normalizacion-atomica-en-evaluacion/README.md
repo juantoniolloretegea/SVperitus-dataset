@@ -1,6 +1,6 @@
 # Normalización atómica en evaluación
 
-Este directorio contiene la compuerta `NA0`: vocabulario constitutivo, pruebas adversariales y cribado estructural de los pilotos antes de crear el universo normalizado de parámetros clínicos.
+Este directorio contiene la compuerta `NA0`: vocabulario constitutivo, pruebas adversariales y cribado estructural de los pilotos antes de crear el universo normalizado de parámetros clínicos. La versión activa es v0.2; v0.1 permanece preservada como objeto auditado y antecedente de regresión.
 
 Nada situado aquí queda adoptado por su mera presencia. Los estados permitidos en esta compuerta son `CANDIDATO`, `U_REQUIERE_ADJUDICACION`, `RECHAZADO` y `APTO_PARA_SIGUIENTE_COMPUERTA`.
 
@@ -11,6 +11,12 @@ Nada situado aquí queda adoptado por su mera presencia. Los estados permitidos 
 - `Cribado_estructural_pilotos_IMMUNO-1_IMMUNO-2_v0.1_2026-09-02.md`: examina los 50 `Pxx` históricos sin ratificarlos como átomos.
 - `Adversarial_interna_compuerta_NA0_INMUNO_v0.1_2026-09-02.md`: registra las pruebas internas y las incertidumbres que sólo puede cerrar una unidad externa.
 - `Orden_auditoria_externa_compuerta_NA0_INMUNO_v0.1_2026-09-02.md`: encarga la falsación independiente del commit material congelado.
+- `Recepcion_auditoria_externa_compuerta_NA0_INMUNO_v0.1_Claude_2026-09-02.md`: registra el `PASA_CON_REPAROS`, sus tres correcciones y la incertidumbre que reveló el falso positivo de P11.
+- `Contrato_semantico_atomo_parametro_matriz_composicion_INMUNO_v0.2_2026-09-02.md`: versión rectora reparada de `NA0`.
+- `Protocolo_adversarial_transversal_INMUNO_v0.2_2026-09-02.md`: versión rectora con parada obligatoria cuando la consecuencia permanece en `U`.
+- `Cribado_estructural_pilotos_IMMUNO-1_IMMUNO-2_v0.2_2026-09-02.md`: versión activa que retracta la falsa duplicación de P11.
+- `Adversarial_interna_reparacion_y_cierre_NA0_INMUNO_v0.2_2026-09-02.md`: demuestra la aplicación literal de los reparos y cierra condicionalmente `NA0`.
+- `fuentes-recibidas/`: copias de control y manifiestos que permiten reproducir afirmaciones sin depender de un adjunto conversacional.
 
 ## Antecedentes inmediatos
 
