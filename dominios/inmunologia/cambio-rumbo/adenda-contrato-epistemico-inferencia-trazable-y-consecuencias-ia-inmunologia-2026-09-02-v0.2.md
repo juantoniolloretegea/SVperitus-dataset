@@ -236,6 +236,24 @@ Por ello, el determinismo no sustituye:
 
 La exigencia conjunta es: contenido clínicamente constituido y ejecución exactamente reproducible.
 
+### 3.7. Reejecución independiente, no repetición grabada
+
+La reproducción científica exige volver a ejecutar las reglas, transiciones y verificaciones desde el `EXPERIMENTO_CANONICO`. Devolver, copiar o retransmitir una salida previamente almacenada no constituye repetición del experimento, aunque el resultado sea idéntico byte por byte.
+
+Una prueba válida de reproducción deberá:
+
+- iniciar una ejecución nueva desde el estado inicial canónico declarado;
+- impedir que la ruta productora consulte la salida, la cadena, la traza o los frames de ejecuciones anteriores;
+- ejecutar de nuevo todas las reglas, transiciones, verificaciones de consecuencias y compuertas aplicables;
+- producir primero la nueva salida canónica;
+- y sólo después comparar sus huellas y bytes con los de la ejecución de referencia.
+
+Las cachés, copias, instantáneas o resultados grabados podrán conservarse como referencia de comparación, pero permanecerán inaccesibles para la ruta que produce la repetición hasta que ésta haya terminado. Una prueba que no demuestre esa independencia recibe:
+
+`PRUEBA_DE_REPRODUCCION_INVALIDA`
+
+La igualdad obtenida mediante reproducción grabada no certifica `REPRODUCIBILIDAD_PASA`. Para certificarla deberán existir ejecuciones independientes, íntegramente observables en sus sucesos gobernados y comparadas después de completarse.
+
 ## 4. Contrato de consecuencias
 
 El sistema no presupone que la inteligencia artificial sea consciente de las consecuencias. Exige que cada operación consulte y preserve estructuras de consecuencias constituidas.
@@ -354,6 +372,7 @@ La representación final podrá ser concisa para no sobrecargar al profesional. 
 - `INV-EPI-25`: la generación lingüística variable no gobierna ni altera la salida clínica.
 - `INV-EPI-26`: la reproducibilidad exacta no se presenta como prueba de verdad o suficiencia clínica.
 - `INV-EPI-27`: en modo de consejo, todo contenido clínico visible pertenece a la salida canónica y se reproduce exactamente.
+- `INV-EPI-28`: la reproducción se certifica mediante reejecución independiente desde la entrada canónica; una salida copiada, cacheada o reproducida sin volver a ejecutar reglas y transiciones invalida la prueba.
 
 ## 9. Efecto sobre el dominio vigente
 
@@ -403,6 +422,8 @@ El cierre exigirá demostrar, al menos:
 | experimento canónico | conjunto completo y canonicalizado de entrada clínica, corpus, reglas, configuración, permisos, motor, entorno y artefactos externos |
 | salida canónica | cadena, traza, transiciones, estados, consecuencias, consejo y frames serializados de forma determinista |
 | error de reproducción | cualquier diferencia entre dos salidas canónicas producidas por el mismo experimento canónico |
+| reejecución independiente | nueva ejecución desde el estado inicial canónico cuya ruta productora no puede consultar resultados anteriores antes de terminar |
+| repetición grabada | devolución, copia o retransmisión de una salida anterior sin volver a ejecutar el experimento; no constituye reproducibilidad científica |
 | consecuencia | efecto constituido de acción, omisión, demora, error o cierre ilegítimo bajo condiciones declaradas |
 | consejo | salida explicativa de apoyo sometida a compuerta; no equivale a decisión clínica |
 | cuarentena | estado en el que una fuente o hallazgo nuevo no puede gobernar la ejecución |

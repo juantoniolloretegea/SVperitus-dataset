@@ -40,6 +40,7 @@
 | W · plataforma | tolerar diferencias numéricas por hardware o biblioteca | resiste | §3.3 exige garantía bit a bit |
 | X · texto variable | conservar el frame pero variar una explicación clínica visible | resiste | §3.5 incorpora todo contenido visible a la salida canónica y excluye añadidos generativos libres |
 | Y · mismo relato | confundir semejanza narrativa con igualdad del problema | resiste | §3.5 exige igualdad del experimento canónico |
+| Y2 · repetición grabada | devolver bytes cacheados y presentarlos como repetición del experimento | resiste | §3.7 e `INV-EPI-28` exigen reejecución independiente y comparación posterior |
 | Z · determinismo falso | asumir que una salida reproducible es médicamente correcta | resiste | §3.6 mantiene validación clínica y empírica independientes |
 
 ## 3. Contraejemplos materiales
@@ -107,6 +108,14 @@ Una regla produce siempre el mismo frame, pero contradice evidencia clínica vá
 - Resultado: falla clínicamente aunque pase reproducibilidad.
 - El error cero de repetición no compensa el error de contenido.
 
+### 3.10. Salida idéntica obtenida desde caché
+
+El sistema recibe el mismo experimento canónico, localiza por su huella una salida anterior y la devuelve sin volver a ejecutar reglas, transiciones, consecuencias ni compuertas.
+
+- Resultado: `PRUEBA_DE_REPRODUCCION_INVALIDA`.
+- Motivo: identidad de bytes por copia no demuestra repetición del experimento.
+- Condición de cierre: ejecutar desde el estado inicial sin acceso productivo a resultados anteriores, generar la nueva salida y comparar sólo después de terminar.
+
 ## 4. Reparos
 
 Ninguno.
@@ -125,6 +134,7 @@ Ninguno.
 10. `VIG-EPI-10`: separar formalmente el resultado canónico del sobre variable de auditoría.
 11. `VIG-EPI-11`: excluir o encapsular todo componente generativo que no demuestre identidad exacta.
 12. `VIG-EPI-12`: comprobar que identificadores administrativos y sellos de repetición no contaminan los artefactos canónicos.
+13. `VIG-EPI-13`: probar reejecuciones independientes impidiendo acceso a resultados previos hasta finalizar cada salida y comparar después sus huellas.
 
 ## 6. Compuertas
 
@@ -136,6 +146,7 @@ Ninguno.
 - **Discordancia entre registros:** `BLOQUEA_CONSEJO`.
 - **Error de reproducción admisible:** `0`.
 - **Diferencia mínima de salida canónica:** `REPRODUCIBILIDAD_NO_PASA`.
+- **Salida idéntica obtenida por caché o copia:** `PRUEBA_DE_REPRODUCCION_INVALIDA`.
 - **Conector vivo en ruta clínica:** `PROHIBIDO`.
 - **Generación libre gobernante:** `PROHIBIDA`.
 - **Consejo sin trazabilidad:** `PROHIBIDO`.
