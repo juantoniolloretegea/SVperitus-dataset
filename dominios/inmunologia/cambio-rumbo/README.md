@@ -156,6 +156,14 @@ La auditoría externa emitió `PASA` con una precisión menor: en G1 la suficien
 
 Contiene `G2-S1`, con 23 preguntas cerradas tras auditoría externa favorable y una vigilancia diferida de atomicidad sobre `SEM-EXP-004`, y `G2-S2`, con 9 preguntas cerradas semánticamente sobre neutrófilos, contexto biológico y modificadores generales. Las 32 forman el universo precursor `Q0`; no son parámetros, no forman una matriz y no cierran el universo completo de `OP-IMM-001`. `G3-OBS` queda apta para una apertura acotada mediante un nuevo lote, no abierta por estos documentos.
 
+### `03-base-documental-candidata/08-observables-en-evaluacion/` — puerta G3-OBS
+
+Contiene el primer lote observacional acotado, `G3-S1`, aplicado a `SEM-EXP-002`, `SEM-EXP-003` y `SEM-EXP-005`. Constituye como candidatos una entidad de exposición a glucocorticoides, diez observables, cuatro normalizadores previos y once causas tipadas de `U`. Separa agente, formulación, vía, planificación, administración, dosis, pauta y tiempo; excluye equivalencias, umbrales y clasificaciones de riesgo dependientes de finalidad. Mantiene en cero parámetros atómicos y matrices, y no abre `G4-CON` ni `G5-ATM`.
+
+- `Lote_observacional_G3-S1_corticoides_OP-IMM-001_v0.1_2026-09-02.md`
+- `Adversarial_interna_G3-S1_corticoides_OP-IMM-001_v0.1_2026-09-02.md`
+- `Orden_auditoria_externa_G3-S1_corticoides_OP-IMM-001_v0.1_2026-09-02.md`
+
 ### `04-archivo-historico-no-vigente/01-flujos-y-arquitecturas/` — 7 archivos
 
 Flujos previos y sus adversariales. Se conservan como evidencia del error metodológico; no gobiernan la continuación.
