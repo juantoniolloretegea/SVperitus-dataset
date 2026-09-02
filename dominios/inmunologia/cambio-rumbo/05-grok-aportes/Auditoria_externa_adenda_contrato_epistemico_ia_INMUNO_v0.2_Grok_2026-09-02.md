@@ -96,7 +96,7 @@ Retirar cualquiera —incluida cadena capturada o `reproducibilidad_exacta_certi
 Absorbed: §6. Cuarentena, filtros, aceptación, suceso versionado. Pendiente ≠ ruta. No aprende en el episodio.
 
 **M.** Volcar cadena + traza al frame inicial.  
-Absorbed: §7 e `INV-EPI-12`. Frame conciso; inspección bajo demanda. Concisión no oculta `U` crítica (`INV-EPI-08`).
+Absorbed: §7 e `INV-EPI-12`. Frame conciso; inspección bajo demanda. La concisión no oculta `U` crítica (`INV-EPI-08`).
 
 **N.** Usar la cadena para abrir historias ajenas o una finalidad nueva.  
 Absorbed: no altera la tabla de autoridad del acta de estratificación; política transversal intacta; la IA no decide finalidad (`INV-EPI-10`, §6).
