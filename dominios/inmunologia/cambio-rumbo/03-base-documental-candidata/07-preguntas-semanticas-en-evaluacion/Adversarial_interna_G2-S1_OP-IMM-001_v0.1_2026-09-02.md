@@ -33,6 +33,7 @@
 - `SEM-CTX-001` no decide la urgencia terapéutica. El calendario previsto es entrada de otra operación.
 - `SEM-CTX-002` no diagnostica ni utiliza un código nosológico para decidir qué especialidad trata al paciente.
 - La condición de enfermedad rara se mantiene como posible metadato organizativo y no como estado del riesgo infeccioso.
+- Una neoplasia correctamente tipada no vence la exclusión de quimioterapia citotóxica hematológica como régimen principal. Una propuesta terapéutica posterior distinta exige nueva adjudicación de alcance y no reescritura del episodio previo.
 - El caso particular del Director no fija bazo, médula ósea, citometría ni participación del paciente como patrón.
 
 ### 2.2. Exposición propuesta
@@ -85,6 +86,8 @@ Las tres preguntas de historia pueden compartir los mismos sucesos como fuente f
 | colonización conocida sin infección | `SEM-HIS-004` no se convierte en diagnóstico |
 | hospitalización previa sin colonización demostrada | `SEM-HIS-005` no cierra `SEM-HIS-004` |
 | paciente solicita vacunación | no altera ninguna verdad clínica de `G2-S1`; la intervención pertenece a otra compuerta |
+| código nosológico correcto, enfermedad rara y régimen principal excluido por G1 | `FUERA_DE_ALCANCE`; ni el código ni la rareza permiten reentrada |
+| nueva propuesta farmacológica después de cerrar un episodio excluido | nueva adjudicación de alcance y versión; no mutación retrospectiva |
 
 ## 4. Incertidumbres legítimas
 

@@ -56,6 +56,8 @@ Las funciones siguientes ayudan a impedir mezclas; no son estatutos finales de a
 
 `SEM-CTX-002` tampoco convierte la condición de enfermedad rara en estado clínico del perfil. Esa condición puede activar metadatos o circuitos organizativos —por ejemplo, derivación, centro experto, registro o investigación—, pero no modifica por sí sola el riesgo biológico, la indicación ni la competencia profesional. Del mismo modo, llamar «inmunoterapia» a un tratamiento no atribuye automáticamente su indicación o administración a un servicio de Inmunología.
 
+La tipificación tampoco vence el ámbito negativo de G1. Si la propuesta principal es quimioterapia citotóxica de una neoplasia hematológica, el episodio queda fuera de `OP-IMM-001`. Una propuesta terapéutica posterior materialmente distinta no reabre ni reescribe el episodio anterior: exige nueva adjudicación de alcance y, cuando proceda, un nuevo episodio versionado.
+
 ### 4.2. Exposición inmunosupresora propuesta
 
 | ID | Pregunta canónica candidata | Función provisional | Dependencia con `OP-IMM-001` | U propia posible | Exclusión expresa |
