@@ -2,17 +2,19 @@
 
 Este directorio constituye la base documental de trabajo posterior a la rectificación metodológica acordada el 31-08-2026.
 
-## Documento rector
+## Documentos rectores
 
 - [`acta-rectificacion-metodologica-dominio-inmunologia-2026-08-31-v0.1.md`](acta-rectificacion-metodologica-dominio-inmunologia-2026-08-31-v0.1.md)
+- [`acta-secuencia-constitutiva-custodia-rumbo-y-acoplamiento-lenguaje-sv-inmunologia-2026-09-02-v0.1.md`](acta-secuencia-constitutiva-custodia-rumbo-y-acoplamiento-lenguaje-sv-inmunologia-2026-09-02-v0.1.md)
 
-El acta gobierna la continuación del trabajo. Ningún material clasificado debajo la modifica, completa por inferencia ni constituye por sí mismo el dominio clínico.
+El acta de 31 de agosto constituye la raíz de la rectificación metodológica. El acta de 2 de septiembre fija la secuencia de continuidad, la custodia contra laterales, el régimen de acrónimos y la relación de lectura —sin escritura— con el Lenguaje SV; prevalece únicamente en los extremos que refina de forma expresa. Ningún material clasificado debajo modifica estas actas por inferencia ni constituye por sí mismo el dominio clínico.
 
 ## Estatutos documentales
 
 | Estatuto | Alcance |
 |---|---|
 | `RECTOR` | Decisiones metodológicas vigentes desde el cambio de rumbo. |
+| `RECTOR_DE_CONTINUIDAD` | Secuencia, disciplina y refinamientos posteriores que preservan la raíz metodológica. |
 | `INVIOLABLE` | Fundamentos y origen doctrinal de U. No se alteran desde este frente. |
 | `CONTEXTO` | Álgebra de composición. Sólo se aparta de ella por ampliación autorizada o error demostrado. |
 | `CANDIDATO_EN_CUARENTENA` | Material que puede informar el trabajo, pero no está adoptado, no agota el dominio y no autoriza asistencia. |
@@ -20,7 +22,7 @@ El acta gobierna la continuación del trabajo. Ningún material clasificado deba
 
 ## Orden de autoridad
 
-1. Acta rectora.
+1. Acta rectora de rectificación y acta rectora de continuidad; la segunda prevalece sólo en sus refinamientos expresos.
 2. Doctrina inviolable.
 3. Contexto algebraico.
 4. Base documental candidata en cuarentena.
