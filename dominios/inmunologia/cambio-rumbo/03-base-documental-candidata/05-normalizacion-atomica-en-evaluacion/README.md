@@ -10,6 +10,7 @@ Nada situado aquí queda adoptado por su mera presencia. Los estados permitidos 
 - `Protocolo_adversarial_transversal_INMUNO_v0.1_2026-09-02.md`: fija ataques, salidas y paradas obligatorias en todas las transformaciones.
 - `Cribado_estructural_pilotos_IMMUNO-1_IMMUNO-2_v0.1_2026-09-02.md`: examina los 50 `Pxx` históricos sin ratificarlos como átomos.
 - `Adversarial_interna_compuerta_NA0_INMUNO_v0.1_2026-09-02.md`: registra las pruebas internas y las incertidumbres que sólo puede cerrar una unidad externa.
+- `Orden_auditoria_externa_compuerta_NA0_INMUNO_v0.1_2026-09-02.md`: encarga la falsación independiente del commit material congelado.
 
 ## Antecedentes inmediatos
 
