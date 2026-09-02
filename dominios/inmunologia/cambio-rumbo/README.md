@@ -85,9 +85,9 @@ Material de posicionamiento y su control adversarial. No forma el índice defini
 - `Revision_Qwen_SoTA_SV_INMUNO_v0.1_2026-08-31.md`
 - `T4_procedencia_no_es_trazabilidad_2026-08-31.md`
 
-### `03-base-documental-candidata/04-planes-profesionales-en-evaluacion/` — 7 archivos
+### `03-base-documental-candidata/04-planes-profesionales-en-evaluacion/` — 8 archivos
 
-Base profesional comparada y atomización controlada. Las versiones v0.1–v0.5 se conservan intactas como cortes sucesivos. La v0.6 es la candidata más reciente: repara localizadores canadienses y trazabilidad multifuente sin alterar objetos clínicos. El conjunto mantiene 0 consecuencias clínicas constituidas, 0 parámetros SV derivados y ninguna autorización asistencial.
+Base profesional comparada y atomización controlada. Las versiones v0.1–v0.6 se conservan intactas como cortes sucesivos. La v0.7 es la candidata más reciente: incorpora los reparos confirmados de la auditoría externa de v0.6, fija la edición documental LTA y corrige un localizador canadiense sin alterar objetos clínicos. El conjunto mantiene 0 consecuencias clínicas constituidas, 0 parámetros SV derivados y ninguna autorización asistencial.
 
 - `Matriz_comparativa_planes_profesionales_INMUNO_v0.1_2026-09-01.xlsx`
 - `Catalogo_profesional_atomico_INMUNO_v0.1_2026-09-01.xlsx`
@@ -96,6 +96,7 @@ Base profesional comparada y atomización controlada. Las versiones v0.1–v0.5 
 - `Catalogo_profesional_atomico_INMUNO_v0.4_2026-09-01.xlsx`
 - `Catalogo_profesional_atomico_INMUNO_v0.5_2026-09-01.xlsx`
 - `Catalogo_profesional_atomico_INMUNO_v0.6_2026-09-01.xlsx`
+- `Catalogo_profesional_atomico_INMUNO_v0.7_2026-09-01.xlsx`
 
 ### `04-archivo-historico-no-vigente/01-flujos-y-arquitecturas/` — 7 archivos
 
