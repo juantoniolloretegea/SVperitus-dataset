@@ -15,11 +15,18 @@ Este directorio constituye la base documental de trabajo posterior a la rectific
 
 ### Adenda rectora en evaluación externa
 
+- [`adenda-contrato-epistemico-inferencia-trazable-y-consecuencias-ia-inmunologia-2026-09-02-v0.2.md`](adenda-contrato-epistemico-inferencia-trazable-y-consecuencias-ia-inmunologia-2026-09-02-v0.2.md)
+- [`adversarial-interna-adenda-contrato-epistemico-ia-inmunologia-2026-09-02-v0.2.md`](adversarial-interna-adenda-contrato-epistemico-ia-inmunologia-2026-09-02-v0.2.md)
+
+La versión 0.2 exige corpus completo respecto de la operación, doble registro de razonamiento y reproducción exacta con `ERROR_DE_REPRODUCCION = 0`. El mismo experimento canónico debe producir, byte por byte, la misma cadena privada, traza, secuencia de transiciones y frames. Cualquier divergencia bloquea el consejo. Conectores vivos, generación libre y componentes no deterministas quedan fuera de la ruta clínica normativa.
+
+#### Antecedentes candidatos superados
+
 - [`adenda-contrato-epistemico-inferencia-trazable-y-consecuencias-ia-inmunologia-2026-09-02-v0.1.md`](adenda-contrato-epistemico-inferencia-trazable-y-consecuencias-ia-inmunologia-2026-09-02-v0.1.md)
 - [`adversarial-interna-adenda-contrato-epistemico-ia-inmunologia-2026-09-02-v0.1.md`](adversarial-interna-adenda-contrato-epistemico-ia-inmunologia-2026-09-02-v0.1.md)
 - [`Orden_auditoria_externa_adenda_contrato_epistemico_ia_inmunologia_v0.1_2026-09-02.md`](Orden_auditoria_externa_adenda_contrato_epistemico_ia_inmunologia_v0.1_2026-09-02.md)
 
-La adenda candidata exige corpus completo respecto de la operación, prohíbe inferencia clínica opaca y obliga a conservar dos objetos vinculados: cadena privada de deliberación protegida y traza justificativa estructurada normativa. Bloquea todo consejo si cualquiera falta, discrepa o carece de consecuencias críticas suficientemente constituidas. No presume conocimiento universal. Permanecerá candidata hasta auditoría externa favorable.
+La versión 0.1 y su orden externa quedan `SUPERADAS_NO_GOBIERNAN` antes de auditoría porque no exigían reproducción exacta de cadena, traza y frames. Se conservan únicamente como rastro del cambio. La versión 0.2 permanecerá candidata hasta auditoría externa favorable.
 
 El acta de 31 de agosto constituye la raíz de la rectificación metodológica. El acta de secuencia de 2 de septiembre fija la continuidad, la custodia contra laterales, el régimen de acrónimos y la relación de lectura —sin escritura— con el Lenguaje SV. El acta de estratificación del mismo corte separa núcleo transversal, composición clínica, configuración institucional, episodio protegido y ejecución computacional, y distribuye las autoridades clínica, semántica, institucional y técnica; su auditoría externa emitió `PASA` sin reparos y una segunda revisión externa convergió con estatuto no ciego. Ambas quedaron registradas mediante recepciones normalizadas. Ningún material clasificado debajo modifica estas actas por inferencia ni constituye por sí mismo el dominio clínico.
 
@@ -32,6 +39,7 @@ El acta de 31 de agosto constituye la raíz de la rectificación metodológica. 
 | `RECTOR_DE_ARQUITECTURA_CLINICA_Y_EJECUCION` | Separación de capas, distribución de autoridad y subordinación de la ejecución computacional. |
 | `RECTOR_DE_PROTECCION` | Condición prospectiva de privacidad, anonimización y publicación segura. |
 | `RECTOR_CANDIDATO_DE_EJECUCION_EPISTEMICA` | Contrato de conocimiento, inferencia, consecuencias y consejo pendiente de auditoría externa. |
+| `SUPERADAS_NO_GOBIERNAN` | Versiones candidatas sustituidas antes de auditoría; se conservan como rastro y no tienen efecto rector. |
 | `INVIOLABLE` | Fundamentos y origen doctrinal de U. No se alteran desde este frente. |
 | `CONTEXTO` | Álgebra de composición. Sólo se aparta de ella por ampliación autorizada o error demostrado. |
 | `CANDIDATO_EN_CUARENTENA` | Material que puede informar el trabajo, pero no está adoptado, no agota el dominio y no autoriza asistencia. |
