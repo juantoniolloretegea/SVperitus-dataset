@@ -52,12 +52,17 @@ Las funciones siguientes ayudan a impedir mezclas; no son estatutos finales de a
 | `SEM-CTX-001` | ¿Está documentado el momento clínicamente previsto para el inicio propuesto de la inmunosupresión? | `CONTEXTO_EXTERNO` | delimita el horizonte al que debe referirse el perfil | fecha o prioridad no fijada o contradictoria | no decide la urgencia ni reproduce la carga de la enfermedad que la origina |
 | `SEM-CTX-002` | ¿Están identificadas la entidad nosológica de base que motiva la propuesta terapéutica y la terminología versionada con la que se registra? | `CONTEXTO_EXTERNO` | evita interpretar la exposición fuera de la enfermedad y del corte terminológico declarados | diagnóstico provisional, discordante, no tipado o sin versión | no diagnostica, no adjudica indicación y ningún código asigna por sí solo una especialidad responsable |
 | `SEM-CTX-003` | ¿Están documentados el servicio o profesional que dirige el episodio y la participación de Inmunología efectivamente solicitada o acordada para este momento clínico? | `CONTEXTO_EXTERNO` | impide confundir una necesidad inmunológica con una transferencia automática de responsabilidad asistencial | liderazgo, interconsulta, alcance o momento no documentados o discordantes | no asigna especialidad por diagnóstico, rareza, nombre del tratamiento, organización local ni petición unilateral del paciente |
+| `SEM-CTX-004` | ¿Están identificados el protocolo institucional aplicable y las condiciones locales que determinan la ejecución viable de la actuación propuesta? | `CONTEXTO_EXTERNO` | permite distinguir la necesidad clínica general de la ruta realmente ejecutable en el centro | protocolo, versión, aplicabilidad, medios o capacidad no documentados o discordantes | no convierte una limitación local en ausencia de necesidad, ni un protocolo interno en verdad clínica universal |
 
 `SEM-CTX-001` recibe una salida de la decisión terapéutica de origen. El tamaño esplénico, la infiltración medular u otros determinantes de necesidad o urgencia pertenecen a esa operación externa; no se importan como riesgo infeccioso por el solo hecho de haber condicionado el calendario.
 
 `SEM-CTX-002` tampoco convierte la condición de enfermedad rara en estado clínico del perfil. Esa condición puede activar metadatos o circuitos organizativos —por ejemplo, derivación, centro experto, registro o investigación—, pero no modifica por sí sola el riesgo biológico, la indicación ni la competencia profesional. Del mismo modo, llamar «inmunoterapia» a un tratamiento no atribuye automáticamente su indicación o administración a un servicio de Inmunología.
 
 `SEM-CTX-003` registra una adjudicación asistencial externa, no la fabrica. La participación de Inmunología puede ser directora, compartida, consultiva, diferida o no estar indicada, y puede variar entre instituciones o momentos del mismo proceso. El sistema sólo puede representarla cuando procede de una decisión profesional autorizada y documentada; no puede inferirla del código CIE-11, de la rareza, de la etiqueta farmacológica ni de la iniciativa del paciente.
+
+`SEM-CTX-004` separa recomendación clínicamente fundada y ejecución institucional. Un protocolo interno, los medios disponibles y la experiencia del centro pueden alterar la ruta, el calendario, la necesidad de consulta o derivación y la forma de ejecución; no alteran por sí solos el estado biológico ni autorizan a rebajar la necesidad clínica. Si existe incompatibilidad, el sistema debe hacerla visible como restricción externa pendiente de decisión profesional, no compensarla ni ocultarla.
+
+En lenguaje de taller, `SEM-CTX-001` a `SEM-CTX-004` forman la **customización** del episodio. Para documentación científica se denomina **contextualización clínica e institucional gobernada**: adaptación trazable al episodio real sin personalizar la verdad clínica ni alterar el núcleo general.
 
 La tipificación tampoco vence el ámbito negativo de G1. Si la propuesta principal es quimioterapia citotóxica de una neoplasia hematológica, el episodio queda fuera de `OP-IMM-001`. Una propuesta terapéutica posterior materialmente distinta no reabre ni reescribe el episodio anterior: exige nueva adjudicación de alcance y, cuando proceda, un nuevo episodio versionado.
 
@@ -107,7 +112,7 @@ La alternativa anatómica o funcional de `SEM-HUE-004` se conserva como hipótes
 
 ## 5. Dependencia y consecuencia ex ante provisional
 
-Para las veintidós preguntas, la dependencia común es limitada:
+Para las veintitrés preguntas, la dependencia común es limitada:
 
 > Si la pregunta pertinente se omite, se mezcla con otra o se cierra sin evidencia, el perfil predecisional puede representar de forma incompleta o engañosa el estado, la exposición o la ruta del paciente.
 
@@ -134,7 +139,7 @@ La exclusión significa `PENDIENTE_DE_OTRO_LOTE_O_OPERACION`, no irrelevancia cl
 
 El lote se cierra cuando:
 
-1. las veintidós preguntas tienen una formulación diferenciable;
+1. las veintitrés preguntas tienen una formulación diferenciable;
 2. ninguna hereda un estado, umbral o matriz de los pilotos;
 3. las colisiones prioritarias quedan explícitas;
 4. toda ambigüedad que dependa de observables o fuentes se remite a G3 sin fingir resolución;
@@ -153,6 +158,7 @@ Este lote formula preguntas candidatas para evaluación estructural. No es proto
 | `G2-SEM` | Puerta de formulación semántica de preguntas candidatas. |
 | `G3-OBS` | Puerta posterior de observables y reglas candidatas. |
 | CIE-11 | Clasificación Internacional de Enfermedades, 11.ª revisión. |
+| Customización | Alias de taller para la contextualización clínica e institucional gobernada; no es una construcción del Lenguaje SV. |
 | IgG | Inmunoglobulina G. |
 | IA | Inteligencia artificial. |
 | SV | Sistema Vectorial SV. |

@@ -5,7 +5,7 @@ Este directorio ejecuta `G2-SEM`, puerta de formulación de preguntas candidatas
 ## Estado
 
 - `G1-OP` cerrada en `OP-IMM-001` v0.2.
-- Primer lote semántico: `G2-S1`, 22 preguntas sobre colisiones y fronteras prioritarias heredadas sólo como señales de los pilotos.
+- Primer lote semántico: `G2-S1`, 23 preguntas sobre colisiones y fronteras prioritarias heredadas sólo como señales de los pilotos.
 - Cero preguntas adjudicadas como parámetros.
 - Cero observables, unidades, umbrales o ventanas constituidos.
 - Cero consecuencias clínicas plenas.
