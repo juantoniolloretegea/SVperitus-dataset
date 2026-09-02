@@ -136,7 +136,13 @@ La recepción externa favorable de v0.8 se conserva en `Recepcion_auditoria_exte
 
 ### `03-base-documental-candidata/05-normalizacion-atomica-en-evaluacion/` — compuerta NA0
 
+- `Contrato_matematico_parametro_atomico_matriz_ruta_INMUNO_v0.3_2026-09-02.md`
+- `Registro_precursor_parametros_INMUNO_v0.1_2026-09-02.xlsx`
+- `Adversarial_interna_modelo_matematico_parametros_INMUNO_v0.3_2026-09-02.md`
+
 La compuerta `NA0` fija el contrato semántico átomo–parámetro–matriz, la batería adversarial transversal y el cribado estructural de los 50 `Pxx` históricos de `IMMUNO-1` y `IMMUNO-2`. Los pilotos se examinan como semillas: ningún `Pxx`, umbral o dimensión queda ratificado por herencia. La auditoría externa v0.1 emitió `PASA_CON_REPAROS`; las versiones v0.2 incorporan sus tres correcciones literales y retractan un falso positivo interno sobre `P11`. `NA0` queda cerrada exclusivamente para abrir una operación clínica testigo en `G1-OP`.
+
+El contrato matemático v0.3 fija la precisión posterior: la identidad del parámetro atómico es estable y la operación gobierna su activación, no su definición. El registro precursor computa 32 preguntas candidatas en siete familias, las contrasta contra 50 posiciones piloto y ocho colisiones, y mantiene en cero los parámetros y matrices autorizados. Ambos objetos permanecen candidatos hasta revisión externa; no abren `G3-OBS` ni `G5-ATM`.
 
 ### `03-base-documental-candidata/06-operacion-testigo-en-evaluacion/` — puerta G1-OP
 
