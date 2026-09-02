@@ -351,10 +351,12 @@ Toda salida candidata a consejo deberá poder proyectarse en un expediente con, 
 |---|---|
 | `Operacion_ID` | operación clínica a la que responde |
 | `Corte_dominio` | versión y huella del corpus utilizado |
-| `Entradas` | datos utilizados, procedencia, estado y autorización |
+| `Entradas` | datos del episodio utilizados, procedencia clínica, estado y autorización; no sustituye la identificación de fuentes de conocimiento |
+| `Fuentes_aplicadas` | colección ordenada de registros tipados `<Fuente_ID, Version_fuente, Huella_fuente, Localizador, Evidencia_ID>` |
 | `Objetos_activados` | átomos, matrices y relaciones realmente utilizados |
 | `Ruta_ID` | ruta constituida, si existe |
 | `Reglas_aplicadas` | identificadores y versiones de las transiciones |
+| `Vinculos_de_procedencia` | correspondencias tipadas entre cada fuente y los objetos, reglas, transiciones y consecuencias que sostiene |
 | `Cadena_privada_ID` | vínculo con el registro confidencial de deliberación y ejecución |
 | `Experimento_canonico_ID` | huella de la entrada completa, motor, entorno y artefactos congelados |
 | `Certificado_reproduccion` | evidencia de identidad exacta de cadena, traza, transiciones y frames |
@@ -364,6 +366,10 @@ Toda salida candidata a consejo deberá poder proyectarse en un expediente con, 
 | `Privacidad_y_acceso` | finalidad, rol, permisos y destino |
 | `Salida` | resultado, abstención o escalado |
 | `Autoridad_pendiente` | decisión profesional que no pertenece al sistema |
+
+`Fuente_ID`, `Version_fuente`, `Huella_fuente`, `Localizador` y `Evidencia_ID` son campos atómicos obligatorios dentro de cada registro de `Fuentes_aplicadas`; no podrán sustituirse por una referencia narrativa dentro de `Entradas`, `Reglas_aplicadas`, `Consecuencias` o `Salida`. Cada localizador deberá pertenecer exclusivamente a su `Fuente_ID`. Cuando intervengan varias fuentes, existirán registros separados y ordenados.
+
+`Vinculos_de_procedencia` deberá identificar, mediante tuplas canónicas, qué `Evidencia_ID` sostiene cada `Objeto_ID`, `Regla_ID`, `Transicion_ID` y `Consecuencia_ID`. Todo elemento efectivamente gobernante tendrá al menos un vínculo verificable. La ausencia, concatenación multifuente o discordancia de un vínculo produce `TRAZA_DE_FUENTE_NO_PASA` y bloquea el consejo.
 
 La representación final podrá ser concisa para no sobrecargar al profesional. La concisión de la interfaz no autoriza a perder la traza subyacente.
 
@@ -400,6 +406,9 @@ La representación final podrá ser concisa para no sobrecargar al profesional. 
 - `INV-EPI-29`: un fallo técnico nunca se convierte en una salida clínica alternativa; si la integridad no está demostrada, la ejecución falla de forma cerrada y no emite consejo.
 - `INV-EPI-30`: toda descomposición, recomposición o variación de granularidad es una operación explícita gobernada exclusivamente por átomos, reglas, restricciones y consecuencias ya constituidos.
 - `INV-EPI-31`: la misma solicitud canónica de descomposición produce la misma estructura ordenada; sin regla canónica única conserva `U` o declara `FUERA_DEL_CORPUS_CONSTITUIDO`.
+- `INV-EPI-32`: toda fuente gobernante se registra mediante `Fuente_ID`, versión, huella, localizador y evidencia en campos tipados, nunca como mera prosa.
+- `INV-EPI-33`: cada objeto, regla, transición y consecuencia gobernante conserva un vínculo canónico verificable con la evidencia que lo sostiene.
+- `INV-EPI-34`: la ausencia, concatenación multifuente o discordancia de fuente, localizador o vínculo produce `TRAZA_DE_FUENTE_NO_PASA` y bloquea el consejo.
 
 ## 9. Efecto sobre el dominio vigente
 
@@ -436,9 +445,10 @@ El cierre exigirá demostrar, al menos:
 8. que excluye del camino normativo cualquier herramienta, conector o entorno no reproducible;
 9. que un fallo técnico bloquea y nunca produce una respuesta clínica alternativa;
 10. que toda descomposición usa sólo átomos, reglas y consecuencias ya constituidos y posee resultado canónico único;
-11. que distingue repetibilidad exacta de corrección clínica;
-12. que permite actualización sin aprendizaje silencioso durante el episodio;
-13. y que no abre prematuramente objetos de fases posteriores.
+11. que fuente y localizador son campos tipados y cada elemento gobernante conserva su vínculo de evidencia;
+12. que distingue repetibilidad exacta de corrección clínica;
+13. que permite actualización sin aprendizaje silencioso durante el episodio;
+14. y que no abre prematuramente objetos de fases posteriores.
 
 ## 11. Glosario
 
@@ -457,6 +467,8 @@ El cierre exigirá demostrar, al menos:
 | solicitud y granularidad canónicas | representación inequívoca de la operación pedida, incluido si debe resolver, descomponer, recomponer o exponer otro nivel ya constituido |
 | fallo cerrado | interrupción sin salida clínica cuando la integridad técnica no puede demostrarse |
 | descomposición gobernada | transformación determinista de un objeto en átomos ya constituidos mediante reglas, restricciones y consecuencias preexistentes |
+| fuente aplicada | registro tipado e inmutable que identifica fuente, versión, huella, localizador y evidencia realmente utilizados |
+| vínculo de procedencia | correspondencia canónica entre una evidencia identificada y el objeto, regla, transición o consecuencia que sostiene |
 | consecuencia | efecto constituido de acción, omisión, demora, error o cierre ilegítimo bajo condiciones declaradas |
 | consejo | salida explicativa de apoyo sometida a compuerta; no equivale a decisión clínica |
 | cuarentena | estado en el que una fuente o hallazgo nuevo no puede gobernar la ejecución |
