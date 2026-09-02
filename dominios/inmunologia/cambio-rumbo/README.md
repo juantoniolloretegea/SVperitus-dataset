@@ -158,11 +158,20 @@ Contiene `G2-S1`, con 23 preguntas cerradas tras auditoría externa favorable y 
 
 ### `03-base-documental-candidata/08-observables-en-evaluacion/` — puerta G3-OBS
 
-Contiene el primer lote observacional acotado, `G3-S1`, aplicado a `SEM-EXP-002`, `SEM-EXP-003` y `SEM-EXP-005`. Constituye como candidatos una entidad de exposición a glucocorticoides, diez observables, cuatro normalizadores previos y once causas tipadas de `U`. Separa agente, formulación, vía, planificación, administración, dosis, pauta y tiempo; excluye equivalencias, umbrales y clasificaciones de riesgo dependientes de finalidad. Mantiene en cero parámetros atómicos y matrices, y no abre `G4-CON` ni `G5-ATM`.
+Contiene el primer lote observacional acotado, `G3-S1`, aplicado a `SEM-EXP-002`, `SEM-EXP-003` y `SEM-EXP-005`. La auditoría externa emitió `PASA`: quedan cerrados una entidad de exposición a glucocorticoides, diez observables necesarios, cuatro normalizadores previos y once causas tipadas de `U`. Separa agente, formulación, vía, planificación, administración, dosis, pauta y tiempo; excluye equivalencias, umbrales y clasificaciones de riesgo dependientes de finalidad. Mantiene en cero parámetros atómicos y matrices.
 
 - `Lote_observacional_G3-S1_corticoides_OP-IMM-001_v0.1_2026-09-02.md`
 - `Adversarial_interna_G3-S1_corticoides_OP-IMM-001_v0.1_2026-09-02.md`
 - `Orden_auditoria_externa_G3-S1_corticoides_OP-IMM-001_v0.1_2026-09-02.md`
+- `Recepcion_y_cierre_auditoria_externa_G3-S1_corticoides_OP-IMM-001_v0.1_2026-09-02.md`
+
+### `03-base-documental-candidata/09-consecuencias-en-evaluacion/` — puerta G4-CON
+
+Contiene `G4-S1`, primer lote finito de consecuencias ligadas a errores sobre la exposición a glucocorticoides ya representable en `G3-S1`. Separa dos consecuencias epistemológicas de tres consecuencias clínicas potenciales: seguridad de vacunas vivas, efectividad vacunal y omisión de una valoración pertinente de neumonía por *Pneumocystis*. Cada cadena conserva observable o `U`, error, fuente, finalidad, transición, incertidumbre, versión y autoridad. No adopta umbrales, equivalencias o intervenciones y no abre `G5-ATM`.
+
+- `Lote_consecuencias_G4-S1_corticoides_OP-IMM-001_v0.1_2026-09-02.md`
+- `Adversarial_interna_G4-S1_corticoides_OP-IMM-001_v0.1_2026-09-02.md`
+- `Orden_auditoria_externa_unica_G4-S1_corticoides_OP-IMM-001_v0.1_2026-09-02.md`
 
 ### `04-archivo-historico-no-vigente/01-flujos-y-arquitecturas/` — 7 archivos
 
