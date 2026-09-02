@@ -87,7 +87,7 @@ Material de posicionamiento y su control adversarial. No forma el índice defini
 - `Revision_Qwen_SoTA_SV_INMUNO_v0.1_2026-08-31.md`
 - `T4_procedencia_no_es_trazabilidad_2026-08-31.md`
 
-### `03-base-documental-candidata/04-planes-profesionales-en-evaluacion/` — 12 archivos
+### `03-base-documental-candidata/04-planes-profesionales-en-evaluacion/` — 13 archivos
 
 Base profesional comparada y atomización controlada. Las versiones v0.1–v0.7 se conservan intactas como cortes sucesivos. La v0.8 registra la adopción profesional de los cinco objetos del lote A y cierra el perímetro profesional suficiente para comenzar, tras auditoría externa favorable, la normalización atómica. No adopta clínicamente el catálogo: mantiene 0 consecuencias clínicas constituidas, 0 matrices nuevas, 0 parámetros SV derivados y ninguna autorización asistencial. El expediente v0.2 contiene el suceso registral y la orden de auditoría limita el control externo a esta compuerta.
 
@@ -103,6 +103,13 @@ Base profesional comparada y atomización controlada. Las versiones v0.1–v0.7 
 - `Expediente_adjudicacion_comparada_INMUNO_v0.1_2026-09-01.md`
 - `Expediente_adjudicacion_comparada_INMUNO_v0.2_2026-09-02.md`
 - `Orden_auditoria_externa_cierre_profesional_INMUNO_v0.8_2026-09-02.md`
+- `Recepcion_auditoria_externa_cierre_profesional_INMUNO_v0.8_Claude_2026-09-02.md`
+
+La recepción externa favorable de v0.8 se conserva en `Recepcion_auditoria_externa_cierre_profesional_INMUNO_v0.8_Claude_2026-09-02.md`. Su efecto es abrir la normalización atómica; no adoptar clínicamente el catálogo.
+
+### `03-base-documental-candidata/05-normalizacion-atomica-en-evaluacion/` — compuerta NA0
+
+La compuerta `NA0` fija el contrato semántico átomo–parámetro–matriz, la batería adversarial transversal y el cribado estructural de los 50 `Pxx` históricos de `IMMUNO-1` y `IMMUNO-2`. Los pilotos se examinan como semillas: ningún `Pxx`, umbral o dimensión queda ratificado por herencia.
 
 ### `04-archivo-historico-no-vigente/01-flujos-y-arquitecturas/` — 7 archivos
 
