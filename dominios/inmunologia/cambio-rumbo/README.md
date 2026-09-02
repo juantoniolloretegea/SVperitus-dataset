@@ -170,6 +170,9 @@ El segundo lote, `G3-S2`, abre la cuantificación del compartimento linfocitario
 - `Lote_observacional_G3-S2_compartimento_linfocitario_OP-IMM-001_v0.1_2026-09-02.md`
 - `Adversarial_interna_G3-S2_compartimento_linfocitario_OP-IMM-001_v0.1_2026-09-02.md`
 - `Orden_auditoria_externa_unica_G3-S2_compartimento_linfocitario_OP-IMM-001_v0.1_2026-09-02.md`
+- `Recepcion_y_cierre_auditoria_externa_G3-S2_compartimento_linfocitario_OP-IMM-001_v0.1_2026-09-02.md`
+
+La auditoría externa cerró `G3-S2` con `PASA`. La duda sobre la reafirmación de CLSI quedó cerrada en la ficha pública; continúan abiertas, legítimamente, función linfocitaria y regla de alteración pertinente. El cierre habilita sólo un lote `G4-S2` acotado.
 
 ### `03-base-documental-candidata/09-consecuencias-en-evaluacion/` — puerta G4-CON
 
@@ -179,6 +182,12 @@ Contiene `G4-S1`, primer lote finito de consecuencias ligadas a errores sobre la
 - `Adversarial_interna_G4-S1_corticoides_OP-IMM-001_v0.1_2026-09-02.md`
 - `Orden_auditoria_externa_unica_G4-S1_corticoides_OP-IMM-001_v0.1_2026-09-02.md`
 - `Recepcion_y_cierre_auditoria_externa_G4-S1_corticoides_OP-IMM-001_v0.1_2026-09-02.md`
+
+`G4-S2` examina cinco consecuencias de representar mal la cuantificación linfocitaria: cuatro epistemológicas y una asociación clínica potencial no causal. Separa identidad, magnitud, tiempo y función; conserva la asociación poblacional con infección sin convertirla en causalidad, pronóstico individual, umbral o intervención. Es un lote no vacunal y no abre `G5-ATM`.
+
+- `Lote_consecuencias_G4-S2_compartimento_linfocitario_OP-IMM-001_v0.1_2026-09-02.md`
+- `Adversarial_interna_G4-S2_compartimento_linfocitario_OP-IMM-001_v0.1_2026-09-02.md`
+- `Orden_auditoria_externa_unica_G4-S2_compartimento_linfocitario_OP-IMM-001_v0.1_2026-09-02.md`
 
 ### `04-archivo-historico-no-vigente/01-flujos-y-arquitecturas/` — 7 archivos
 
