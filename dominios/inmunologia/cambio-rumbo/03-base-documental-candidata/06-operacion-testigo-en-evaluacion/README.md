@@ -1,0 +1,29 @@
+# Operación clínica testigo en evaluación
+
+Este directorio contiene la primera ejecución de `G1-OP`, puerta de definición de una operación clínica finita. Su base rectora es la compuerta `NA0` v0.2.
+
+## Estado
+
+- Una sola operación candidata: `OP-IMM-001`.
+- Cero parámetros adjudicados.
+- Cero consecuencias clínicas plenas.
+- Cero matrices, composiciones o rutas constituidas.
+- Cero búsquedas de cohortes.
+- Cero modificaciones del Lenguaje SV.
+
+La operación no avanza a `G2-SEM` hasta superar adversarial externa.
+
+## Objetos
+
+- `OP-IMM-001_constitucion_perfil_riesgo_infeccioso_preinmunosupresion_G1_v0.1_2026-09-02.md`
+- `Adversarial_interna_G1_OP-IMM-001_v0.1_2026-09-02.md`
+
+## Glosario
+
+| Forma | Significado |
+|---|---|
+| G1-OP | Puerta 1 de definición de la operación clínica. |
+| G2-SEM | Puerta 2 de formulación semántica de preguntas candidatas. |
+| NA0 | Compuerta cero de normalización atómica. |
+| SV | Sistema Vectorial SV. |
+| U | Estado indeterminado legítimo. |

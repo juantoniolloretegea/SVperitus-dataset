@@ -111,6 +111,10 @@ La recepción externa favorable de v0.8 se conserva en `Recepcion_auditoria_exte
 
 La compuerta `NA0` fija el contrato semántico átomo–parámetro–matriz, la batería adversarial transversal y el cribado estructural de los 50 `Pxx` históricos de `IMMUNO-1` y `IMMUNO-2`. Los pilotos se examinan como semillas: ningún `Pxx`, umbral o dimensión queda ratificado por herencia. La auditoría externa v0.1 emitió `PASA_CON_REPAROS`; las versiones v0.2 incorporan sus tres correcciones literales y retractan un falso positivo interno sobre `P11`. `NA0` queda cerrada exclusivamente para abrir una operación clínica testigo en `G1-OP`.
 
+### `03-base-documental-candidata/06-operacion-testigo-en-evaluacion/` — puerta G1-OP
+
+Contiene una única operación candidata: constituir el perfil de riesgo infeccioso inmunológicamente relevante de un adulto antes del inicio propuesto de inmunosupresión farmacológica sistémica fuera del trasplante. La operación termina en expediente predecisional sellado, `U`, salida de alcance o abstención/escalado; no decide el tratamiento, no hereda los 50 `Pxx` y no abre todavía parámetros ni matrices.
+
 ### `04-archivo-historico-no-vigente/01-flujos-y-arquitecturas/` — 7 archivos
 
 Flujos previos y sus adversariales. Se conservan como evidencia del error metodológico; no gobiernan la continuación.
