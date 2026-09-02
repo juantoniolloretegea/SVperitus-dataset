@@ -1,10 +1,10 @@
-# Orden de auditoría externa limitada · adenda sobre contrato epistémico y reproducción exacta de la inteligencia artificial v0.2
+# Orden única vigente de auditoría externa · contrato epistémico y reproducción exacta de la inteligencia artificial v0.2
 
 ## 1. Encargo
 
 Audite adversarialmente la adenda candidata sobre conocimiento de dominio, doble registro de razonamiento, reproducción exacta, consecuencias y consejo clínico. No proponga una arquitectura completa alternativa. Intente falsar su suficiencia conceptual, coherencia clínica, viabilidad técnica, determinismo, trazabilidad, privacidad y límites de fase.
 
-La adversarial interna no es evidencia suficiente. Debe construir contraejemplos propios y comprobarlos contra el texto material.
+Ésta es la única orden vigente para esta auditoría. No utilice órdenes anteriores ni reduzca la batería por haber examinado otro corte. La adversarial interna y el informe externo anterior no son evidencia suficiente. Debe construir contraejemplos propios y comprobarlos contra el texto material.
 
 - **Auditor externo solicitado para esta ronda:** Grok
 
@@ -12,9 +12,9 @@ La adversarial interna no es evidencia suficiente. Debe construir contraejemplos
 
 - **Repositorio:** `juantoniolloretegea/SVperitus-dataset`
 - **Rama:** `dominio-inmunologia`
-- **Línea base:** `14b39928e0ea20699fc3c833d649a609a0deb3f1`
-- **Candidato material final:** `87173cde882da4ee0a3eeb382370ac6aa0f58663`
-- **Serie material:** `8e3a553bbd479fab63d6d33fd43bd6de16f90c97` (`Exigir reproducción clínica exacta con error cero`), `7404bf794e8dd6086457044544b1a5e90a573df7` (`Impedir falsa reproducción mediante caché`) y `87173cde882da4ee0a3eeb382370ac6aa0f58663` (`Gobernar fallos y descomposición canónica`)
+- **Línea base inmediata:** `df6b2108466e92dcd304d15db7d9946efb6601c8`
+- **Candidato material final:** `2ce99c870b2c4a135e4d21a8f42cbc118a753277`
+- **Serie material reparadora:** `3d434af5276a2b201adf4f20fd936584236ddba6` (`Tipar fuentes y vínculos de procedencia`) y `2ce99c870b2c4a135e4d21a8f42cbc118a753277` (`Atacar fuentes narrativas y evidencias huérfanas`)
 
 El commit que incorpore esta orden queda fuera del objeto auditado.
 
@@ -22,14 +22,17 @@ El commit que incorpore esta orden queda fuera del objeto auditado.
 
 | Objeto | Bytes | SHA-256 |
 |---|---:|---|
-| `adenda-contrato-epistemico-inferencia-trazable-y-consecuencias-ia-inmunologia-2026-09-02-v0.2.md` | 29 344 | `2d3f87359ba16634fc000dc7aa50a3994f70d7821de4382be0adaa153c7e6ffd` |
-| `adversarial-interna-adenda-contrato-epistemico-ia-inmunologia-2026-09-02-v0.2.md` | 13 293 | `6d638f2ee5038af69bd012688ebcd36a4e360687225c8d54d9e4a6ac53bd2147` |
-| `README.md` de `cambio-rumbo` | 16 145 | `17856751b626a12650b81675b5fb60a5a64d474fcd11641f37a0e76eb1d435ce` |
+| `adenda-contrato-epistemico-inferencia-trazable-y-consecuencias-ia-inmunologia-2026-09-02-v0.2.md` | 31 380 | `b39d819c1b312772c9845edf67b726f889cdb9b84d491886555427fdf18a3ce8` |
+| `adversarial-interna-adenda-contrato-epistemico-ia-inmunologia-2026-09-02-v0.2.md` | 14 798 | `bafde6fe52e182e7b0accafe92757088537e809814f5c7ea846366c60f6aa4a1` |
+| `README.md` de `cambio-rumbo` | 16 639 | `7b1c94c109f943bc3cc93335330712ec55055e9425cf1519adcf10cd948ece7a` |
 
 ## 4. Límites de la auditoría
 
-- No escribir en GitHub.
-- No modificar la adenda ni otros objetos.
+- Durante el análisis, no modificar ningún objeto.
+- Al terminar, se autoriza exclusivamente sustituir el informe existente en `dominios/inmunologia/cambio-rumbo/05-grok-aportes/Auditoria_externa_adenda_contrato_epistemico_ia_INMUNO_v0.2_Grok_2026-09-02.md` por la auditoría final completa.
+- No escribir en ninguna otra ruta.
+- La auditoría final tendrá redacción institucional e impersonal y atribuirá objetos y decisiones únicamente mediante identificadores, versiones, huellas y autoridades funcionales codificadas.
+- No modificar la adenda, la adversarial interna, el README ni otros objetos.
 - No crear rama o solicitud de incorporación.
 - No tocar `main`.
 - No reabrir el acta de estratificación ya cerrada.
@@ -45,9 +48,9 @@ Verifique:
 
 1. identidad exacta de los tres objetos;
 2. bytes y SHA-256;
-3. diff completo contra la línea base;
-4. que sólo se añaden la adenda y su adversarial interna y se actualiza el README;
-5. que no cambian actas cerradas, política de protección, catálogos, lotes G2, pilotos, hojas de cálculo, ITI o Lenguaje SV.
+3. diff completo contra la línea base inmediata;
+4. que sólo cambian la adenda y su adversarial interna para cerrar la trazabilidad de fuentes;
+5. que no cambian README, actas cerradas, política de protección, catálogos, lotes G2, pilotos, hojas de cálculo, ITI o Lenguaje SV.
 
 ## 6. Ataque B · completitud relativa frente a omnisciencia
 
@@ -143,7 +146,17 @@ Verifique que la traza identificará obligatoriamente:
 - versión;
 - autoridad.
 
-Ataque además procedencia, ruta, precondiciones, alternativas excluidas, configuración institucional, finalidad y sello temporal. Declare cualquier elemento necesario que falte o cualquier campo que pueda cumplirse con texto libre no verificable.
+Compruebe además, campo por campo:
+
+1. `Fuentes_aplicadas` contiene registros tipados y ordenados `<Fuente_ID, Version_fuente, Huella_fuente, Localizador, Evidencia_ID>`;
+2. ninguno de esos cinco campos puede sustituirse por texto libre dentro de `Entradas`, reglas, consecuencias o salida;
+3. cada localizador pertenece exclusivamente a su `Fuente_ID`;
+4. una contribución multifuente produce registros separados, nunca localizadores concatenados;
+5. `Vinculos_de_procedencia` enlaza cada `Evidencia_ID` con los `Objeto_ID`, `Regla_ID`, `Transicion_ID` y `Consecuencia_ID` que sostiene;
+6. todo elemento gobernante tiene al menos un vínculo verificable;
+7. ausencia, concatenación o discordancia produce `TRAZA_DE_FUENTE_NO_PASA` y bloquea el consejo.
+
+Ataque además procedencia del dato clínico, ruta, precondiciones, alternativas excluidas, configuración institucional, finalidad y sello temporal. Declare cualquier elemento necesario que falte o cualquier campo que pueda cumplirse con texto libre no verificable.
 
 ## 13. Ataque I · racionalización retrospectiva
 
@@ -207,7 +220,7 @@ Compruebe que la cadena privada no modifica la distribución de autoridad, no le
 
 ## 19. Ataque O · finitud y verificabilidad
 
-Determine si los treinta y un invariantes `INV-EPI-01`–`INV-EPI-31` son:
+Determine si los treinta y cuatro invariantes `INV-EPI-01`–`INV-EPI-34` son:
 
 - individualmente verificables;
 - no redundantes de manera destructiva;
@@ -380,10 +393,11 @@ Entregue una sola auditoría con:
 11. prueba de que cualquier diferencia mínima invalida la reproducción;
 12. análisis separado de fallo técnico cerrado y ausencia de salida clínica alternativa;
 13. análisis de descomposición, recomposición y cambio de granularidad como operaciones gobernadas;
-14. reparos numerados con severidad, texto atacado, contraejemplo, consecuencia y corrección mínima;
-15. incertidumbres residuales con operación exacta para cerrarlas;
-16. efecto sobre `G2-SEM`, `G3-OBS` y Lenguaje SV;
-17. declaración expresa de que no constituye adopción clínica ni autorización asistencial.
+14. análisis campo a campo de fuentes, localizadores, evidencias y vínculos de procedencia;
+15. reparos numerados con severidad, texto atacado, contraejemplo, consecuencia y corrección mínima;
+16. incertidumbres residuales con operación exacta para cerrarlas;
+17. efecto sobre `G2-SEM`, `G3-OBS` y Lenguaje SV;
+18. declaración expresa de que no constituye adopción clínica ni autorización asistencial.
 
 El dictamen se limitará a:
 
@@ -399,6 +413,7 @@ No emita `PASA` porque la intención sea prudente. Debe intentar demostrar que:
 - la cadena privada es ficticia, incapturable o peligrosa;
 - la justificación puede fabricarse después;
 - la completitud relativa encubre ignorancia;
+- una fuente o localizador puede sustituirse por prosa o quedar sin vínculo con el elemento que gobierna;
 - una consecuencia ausente no bloquea;
 - el mismo experimento admite dos cadenas, trazas o frames distintos;
 - una diferencia de plataforma se tolera;
