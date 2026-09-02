@@ -17,6 +17,7 @@ Este directorio constituye la base documental de trabajo posterior a la rectific
 
 - [`adenda-contrato-epistemico-inferencia-trazable-y-consecuencias-ia-inmunologia-2026-09-02-v0.1.md`](adenda-contrato-epistemico-inferencia-trazable-y-consecuencias-ia-inmunologia-2026-09-02-v0.1.md)
 - [`adversarial-interna-adenda-contrato-epistemico-ia-inmunologia-2026-09-02-v0.1.md`](adversarial-interna-adenda-contrato-epistemico-ia-inmunologia-2026-09-02-v0.1.md)
+- [`Orden_auditoria_externa_adenda_contrato_epistemico_ia_inmunologia_v0.1_2026-09-02.md`](Orden_auditoria_externa_adenda_contrato_epistemico_ia_inmunologia_v0.1_2026-09-02.md)
 
 La adenda candidata exige corpus completo respecto de la operación, prohíbe inferencia clínica opaca y obliga a conservar dos objetos vinculados: cadena privada de deliberación protegida y traza justificativa estructurada normativa. Bloquea todo consejo si cualquiera falta, discrepa o carece de consecuencias críticas suficientemente constituidas. No presume conocimiento universal. Permanecerá candidata hasta auditoría externa favorable.
 
