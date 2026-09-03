@@ -8,6 +8,7 @@ Universo de información predecisional pertinente antes de iniciar tratamiento i
 
 - **Descripción clínica:** [Expediente predecisional de información clínica pertinente, versión 1.1](../../universos-clinicos/01-evaluacion-predecisional-riesgo-infeccioso-antes-inmunosupresion-adultos/Expediente_predecisional_de_informacion_clinica_pertinente_antes_de_iniciar_tratamiento_inmunosupresor_en_adultos_v1.1_2026-09-03.md).
 - **Responsabilidad técnica:** [Marco técnico de responsabilidad, trazabilidad, reproducibilidad y criticidad, versión 0.1](Marco_tecnico_de_responsabilidad_trazabilidad_reproducibilidad_y_criticidad_OP-IMM-001_v0.1_2026-09-03.md).
+- **Consulta de encaje al Lenguaje SV:** [Adversarial, encaje técnico y solicitud de valoración de OP-IMM-001](Solicitud_de_valoracion_y_encaje_tecnico_de_OP-IMM-001_con_el_Lenguaje_SV_2026-09-03.md).
 
 La descripción clínica no se reproduce aquí. El perfil técnico no altera sus fuentes, parámetros ni limitaciones.
 
