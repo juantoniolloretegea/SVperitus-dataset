@@ -1,3 +1,7 @@
+> **Nota**: El Sistema Vectorial SV está trabajando en la actualización de dominios como necesidad y evolución natural del [Lenguaje de computación del SV](https://lenguaje-sv.itvia.online/). Cuando estas evoluciones estén más allá de la fase experimental, en la que se encuentran ahora en ramas auxiliares de I+D+i, se declararán aquí. De manera que sigue vigente el contenido de este README, pero matizado por esta nota de fecha **04/09/2026**.
+
+---
+
 # Dominios — rastro histórico temporal del ecosistema aplicado
 
 **Fecha y Versión: V.1 del conjunto**  
