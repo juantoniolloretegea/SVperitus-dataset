@@ -1,3 +1,7 @@
+> Los dominios, incluido inmunología, están siendo actualizados y adaptados a las evoluciones del Lenguaje de Programación. Conforme finalicen esta fase de análisis y tipado, irán incorporándose en esta misma nota. 07/09/2026.
+
+---
+
 # Dominios — nota histórica de reorganización
 
 **Fecha y Versión: V.1 del conjunto**  
