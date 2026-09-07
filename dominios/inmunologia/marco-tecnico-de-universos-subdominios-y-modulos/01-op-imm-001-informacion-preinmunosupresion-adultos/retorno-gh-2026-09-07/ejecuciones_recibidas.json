@@ -1,0 +1,23 @@
+{
+  "scope": "Nuevas ejecuciones locales de los observadores originales F-IF, no ejecución clínica ni nueva prueba de compilador.",
+  "environment": {
+    "node": "v24.19.0",
+    "platform": "linux",
+    "arch": "x64"
+  },
+  "commands": [
+    "node tests/f_if/run.mjs",
+    "node --test tests/f_if/sensitivity.mjs"
+  ],
+  "runs": [
+    {
+      "exit_code": 0,
+      "stdout": "{\"result\":\"PASS\",\"families\":6,\"states\":48,\"operations\":18,\"rows\":54,\"sufficient\":36,\"losses\":18,\"exact_recoveries\":288,\"lateral_recoveries\":144,\"technical_controls\":24,\"evidence_sha256\":\"decaaabe1a1b166a0ef7c0764a63a9697278db97c19ba2489759fcc5173f1f8a\"}\n"
+    },
+    {
+      "exit_code": 0,
+      "stdout": "✔ la enumeración completa tiene la matriz comprometida (37.478845ms)\n✔ rechaza dominio vacío, parcial y estado ajeno al producto constituido (4.633629ms)\n✔ el observado no puede convertirse automáticamente en el esperado (2.12544ms)\n✔ rechaza frontera ampliada y operación hecha constante para esconder pérdida (2.432647ms)\n✔ un hash o ID de fuente oculto altera H y anula el testigo declarado (0.48436ms)\n✔ la recuperación sólo con H reducido carece de las dependencias perdidas (1.092445ms)\n✔ S requiere versión, contenido y vínculo a la identidad P declarada (0.667683ms)\n✔ bytes inválidos, homónimos, precisión y normalización no pasan silenciosamente (0.420745ms)\n✔ captura fallida, no admisión, configuración y transporte quedan separados (0.424041ms)\n✔ mismo fichero o imagen no identifica derivación ni interpretación (0.61245ms)\n✔ orden no equivale a constancia de administración ni ubicación a episodio (0.331072ms)\n✔ historia conserva orden causal, anterioridad y procedencia aunque la vista coincida (0.431151ms)\nℹ tests 12\nℹ suites 0\nℹ pass 12\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 152.196549\n"
+    }
+  ],
+  "timing": "Duraciones de consola no forman parte de salida científica canónica ni acreditan rendimiento."
+}

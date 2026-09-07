@@ -2,7 +2,9 @@
 
 **Actualización de navegación: 07/09/2026. Rama de trabajo: `dominio-inmunologia`.**
 
-**Frente autorizado: fila 6/G-H, contraste acotado de OP-IMM-001 / Q0 v0. Siguiente receptor: unidad del Lenguaje SV, fila 7.**
+**G/H devuelto: Inmunología en pausa controlada. Receptor actual: unidad del Lenguaje SV, fila 7.**
+
+El [paquete único de retorno](marco-tecnico-de-universos-subdominios-y-modulos/01-op-imm-001-informacion-preinmunosupresion-adultos/retorno-gh-2026-09-07/RETORNO_GH_OP-IMM-001_Q0_v0_AL_LENGUAJE_SV_2026-09-07.md) completa I1–I8 en alcance documental: 15 requisitos, 44 formulaciones, 81 enlaces, contrato candidato, F-IF, testigos y adversarial. Dictamen: **suficiencia no acreditada para ejecutar Q0**, con fidelidad y pérdidas documentales acotadas. El [relevo §9](ACTA_PAUSA_RETORNO_ACOTADO_Y_RELEVO_AL_LENGUAJE_SV_2026-09-04.md#devolucion-gh-20260907) fija la pausa; las instrucciones de apertura de §8 que se relacionan debajo son el antecedente de este retorno.
 
 1. Lea el [acta de pausa y retorno, recepción vigente §8](ACTA_PAUSA_RETORNO_ACOTADO_Y_RELEVO_AL_LENGUAJE_SV_2026-09-04.md#recepcion-gh-20260907). Contiene los cortes exactos, el paquete del Lenguaje, I1–I8 y las condiciones de devolución ordinaria o anticipada fundada.
 2. Continúe por [`cambio-rumbo/README.md`](cambio-rumbo/README.md): documentos rectores, constituciones y expediente G0–G10.
@@ -11,7 +13,7 @@
 
 El dominio conserva su corte clínico sustantivo `3bea6b714be3bd1330e6ca6bbbc228b0eb9c065d`; la base documental anterior a esta actualización es `6c05192d0bf9fcb3d2c85ebd9d0ee62a58940a1b`. El commit de esta actualización y el corte del Lenguaje se registran separadamente. La unidad verificará el corte exacto que recibe antes de editar.
 
-Al entregar el paquete y su dictamen, Inmunología devuelve el control a programación y queda en pausa. Una pérdida de representación se devuelve con evidencia y responsable; no obliga a modificar el Lenguaje desde este dominio ni a cerrar todos los universos.
+Entregado el paquete y su dictamen, Inmunología ha devuelto el control a programación y queda en pausa. Una pérdida de representación se devuelve con evidencia y responsable; no obliga a modificar el Lenguaje desde este dominio ni a cerrar todos los universos.
 
 Esta es la entrada al **dominio**, no la constitución de un agente. La señalización de abril que remitía a `agentes/inmunologia/` permanece abajo como antecedente de otra etapa; no rige esta continuidad. No se mueven ni fusionan aquellos artefactos.
 

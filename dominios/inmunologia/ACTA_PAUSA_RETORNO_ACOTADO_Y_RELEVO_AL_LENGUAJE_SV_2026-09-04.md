@@ -1,5 +1,8 @@
 # Acta de pausa, retorno acotado y relevo de Inmunología al Lenguaje SV
 
+> **Estado vigente tras la devolución G/H · 07/09/2026:** I1–I8 completados en alcance documental. [Paquete único de retorno](marco-tecnico-de-universos-subdominios-y-modulos/01-op-imm-001-informacion-preinmunosupresion-adultos/retorno-gh-2026-09-07/RETORNO_GH_OP-IMM-001_Q0_v0_AL_LENGUAJE_SV_2026-09-07.md) y [relevo §9](#devolucion-gh-20260907). Dictamen: suficiencia no acreditada para ejecutar Q0, con fidelidad y pérdidas documentales acotadas. **Inmunología en pausa controlada; siguiente receptor: Lenguaje, fila 7.** La nota de apertura 0.2 que sigue se conserva como antecedente.
+
+
 > **Continuidad vigente · 07/09/2026 · actualización 0.2:** retorno acotado G/H autorizado. Lea primero [§8: paquete recibido, trabajo y devolución del control](#recepcion-gh-20260907). Los estados de espera y reparación de §§1, 6 y 7 describen el corte del 04/09; I1–I8 siguen vigentes con las precisiones de §8. El siguiente receptor es Lenguaje, fila 7.
 
 
@@ -263,3 +266,20 @@ Ciberseguridad Inteligente, fila 8/I-J, sólo recibirá después la candidata id
 ### 8.6. Alcance de esta actualización
 
 Esta actualización corrige la continuidad y la localización del frente; conserva los apartados de 04/09 como antecedentes y no modifica el corpus clínico. La revisión documental comprueba cortes, enlaces, sucesión de estados, I1–I8 y las dos salidas de §8.5. No se atribuye una nueva prueba clínica, ejecución SV ni auditoría externa. Su identidad final queda en el commit de la rama que contiene el acta y las entradas de navegación actualizadas.
+
+
+<a id="devolucion-gh-20260907"></a>
+
+## 9. Devolución ordinaria fundada de G/H y pausa controlada · 07/09/2026
+
+En ejecución de la autorización de §8 y de su regla de devolución §8.5, queda incorporado el [paquete único de retorno OP-IMM-001 / Q0 v0](marco-tecnico-de-universos-subdominios-y-modulos/01-op-imm-001-informacion-preinmunosupresion-adultos/retorno-gh-2026-09-07/RETORNO_GH_OP-IMM-001_Q0_v0_AL_LENGUAJE_SV_2026-09-07.md), con un expediente principal y seis anexos necesarios de contrato, fuentes y prueba. Este apartado registra el relevo; no abre otra acta ni modifica el corpus clínico recibido.
+
+- Entrada de Inmunología: `d4d6c81cb9aab5194abc8e61212c0d63877a0b9c`.
+- Corte del Lenguaje contrastado: `bc3b22c9e9319e8f191390c8cfe9fa1577904d87`.
+- Salida: commit de incorporación del paquete y este apartado, con padre único `d4d6c81…`, localizable por el historial de alta del expediente principal; sin autorreferencia circular.
+- I1–I8: completos en el alcance documental autorizado. Se verifican 44 fuentes, 15 requisitos, 44 formulaciones y 81 enlaces. Se conserva el contrato candidato completo del perímetro, 27 parámetros y cuatro salidas exclusivas.
+- Prueba ejecutada: campaña F-IF reproducida (54 filas), sus 12 pruebas de sensibilidad y ocho pares documentales propios; dos ejecuciones independientes del verificador con bytes idénticos. Las doce comprobaciones integradas pendientes se identifican como solamente especificadas.
+- Dictamen: **devolución fundada por suficiencia no acreditada para ejecutar Q0**, con fidelidad y pérdidas demostradas únicamente en los espacios documentales declarados. La adversarial incorpora hallazgos materiales y atribuye su resolución; no acredita ejecución clínica.
+- `REQ-IMM-SV-011 = U_NO_DECIDIDO`; ninguna célula constituida por cardinalidad. K1-T y DFL-005/006 conservan sus carencias; Python no interviene. G9 continúa `NO_OBSERVABLE`, con cero conjuntos admisibles.
+
+**Control devuelto a la unidad del Lenguaje SV, fila 7. Estado de Inmunología: `PAUSA_CONTROLADA_TRAS_DEVOLUCION_GH`.** La unidad receptora resolverá o delimitará sus hallazgos y fijará la candidata siguiente. Una precisión exclusivamente inmunológica requiere un nuevo retorno acotado identificado. No se espera aquí a resolver una carencia de Lenguaje; no se abre Ciberseguridad, otro universo ni otra fase, no se escribe en Lenguaje y no se fusiona esta rama con main.

@@ -2,9 +2,11 @@
 
 ## Continuidad vigente · 07/09/2026
 
-**Rama: `dominio-inmunologia`. Frente autorizado: fila 6/G-H, OP-IMM-001 / Q0 v0.**
+**Rama: `dominio-inmunologia`. Retorno G/H completado; Inmunología en pausa controlada. Receptor actual: Lenguaje, fila 7.**
 
-La [recepción §8 del acta de pausa y retorno](../ACTA_PAUSA_RETORNO_ACOTADO_Y_RELEVO_AL_LENGUAJE_SV_2026-09-04.md#recepcion-gh-20260907) fija el corte del Lenguaje `bc3b22c9e9319e8f191390c8cfe9fa1577904d87`, F, F-IF, el trabajo I1–I8 y la devolución obligatoria a programación, fila 7. Es la puerta de entrada para continuar.
+El [paquete único de devolución](../marco-tecnico-de-universos-subdominios-y-modulos/01-op-imm-001-informacion-preinmunosupresion-adultos/retorno-gh-2026-09-07/RETORNO_GH_OP-IMM-001_Q0_v0_AL_LENGUAJE_SV_2026-09-07.md) contiene contrato, correspondencia 15/44/81, aplicación de F-IF, pruebas, adversarial y deuda atribuida. El [acta, §9](../ACTA_PAUSA_RETORNO_ACOTADO_Y_RELEVO_AL_LENGUAJE_SV_2026-09-04.md#devolucion-gh-20260907), registra el relevo. Suficiencia clínica de ejecución Q0 no acreditada; no se reanuda el dominio por este índice.
+
+La [recepción §8 del acta de pausa y retorno](../ACTA_PAUSA_RETORNO_ACOTADO_Y_RELEVO_AL_LENGUAJE_SV_2026-09-04.md#recepcion-gh-20260907) fija el corte del Lenguaje `bc3b22c9e9319e8f191390c8cfe9fa1577904d87`, F, F-IF, el trabajo I1–I8 y la devolución obligatoria a programación, fila 7. Es el antecedente autorizado del retorno ya entregado.
 
 El expediente sustantivo recibido por Lenguaje permanece en `3bea6b714be3bd1330e6ca6bbbc228b0eb9c065d`: 27 parámetros, agrupaciones externas `(6,1,3,2,6,9)`, cuatro salidas y G9-EMP `NO_OBSERVABLE`. Los hitos de apertura, congelación y recuentos de etapas anteriores que siguen en este índice conservan sus fechas; no son órdenes para reiniciar G0–G10 ni estados actuales del retorno. Las actas rectoras conservan su autoridad en su perímetro.
 
@@ -17,7 +19,7 @@ Además del índice histórico, el corte terminal se localiza en:
 | G8–G10: implementación declarada, contraste y requisitos | [G8](03-base-documental-candidata/13-iti-y-laboratorio/), [G9](03-base-documental-candidata/14-contraste-empirico/), [G10](03-base-documental-candidata/15-requisitos-lenguaje-sv/). |
 | Solicitud y marco técnico | [Expediente OP-IMM-001 fuera de cambio-rumbo](../marco-tecnico-de-universos-subdominios-y-modulos/01-op-imm-001-informacion-preinmunosupresion-adultos/). |
 
-G/H debe resolver aplicación y significado clínico de las necesidades recibidas y devolver fidelidad, pérdida o suficiencia no acreditada. La [regla de salida del acta](../ACTA_PAUSA_RETORNO_ACOTADO_Y_RELEVO_AL_LENGUAJE_SV_2026-09-04.md#retorno-a-lenguaje) admite dictamen completo o devolución anticipada fundada sin simular un cierre favorable. Tras la entrega se pausa Inmunología; no se inicia Ciberseguridad ni se modifica el Lenguaje desde esta rama.
+G/H ha contrastado aplicación y significado de las necesidades recibidas y ha devuelto fidelidad, pérdidas documentales y suficiencia Q0 no acreditada. La [regla de salida del acta](../ACTA_PAUSA_RETORNO_ACOTADO_Y_RELEVO_AL_LENGUAJE_SV_2026-09-04.md#retorno-a-lenguaje) admite dictamen completo o devolución anticipada fundada sin simular un cierre favorable. Tras la entrega se pausa Inmunología; no se inicia Ciberseguridad ni se modifica el Lenguaje desde esta rama.
 
 
 Este directorio constituye la base documental de trabajo posterior a la rectificación metodológica acordada el 31-08-2026.

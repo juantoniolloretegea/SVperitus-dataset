@@ -2,7 +2,7 @@
 
 **Actualización de navegación: 07/09/2026. Ámbito: rama `dominio-inmunologia`.**
 
-El frente activo de dominio se encuentra en [`dominios/inmunologia/`](inmunologia/README.md). Su [acta de continuidad, §8](inmunologia/ACTA_PAUSA_RETORNO_ACOTADO_Y_RELEVO_AL_LENGUAJE_SV_2026-09-04.md#recepcion-gh-20260907) recibe el corte del Lenguaje, autoriza G/H y fija cuándo devolver el control a la unidad de programación, fila 7.
+El retorno G/H de [`Inmunología`](inmunologia/README.md) está completado en alcance documental. El [acta, §9](inmunologia/ACTA_PAUSA_RETORNO_ACOTADO_Y_RELEVO_AL_LENGUAJE_SV_2026-09-04.md#devolucion-gh-20260907), entrega el paquete y devuelve el control a **Lenguaje, fila 7**. **Inmunología permanece en pausa controlada**; no se inicia otro dominio ni otra fase.
 
 La ruta `agentes/inmunologia/` conserva sus antecedentes propios. Dominio y agente son objetos distintos: este retorno no constituye agente ni convierte las decisiones de la reorganización de marzo en instrucciones vigentes sobre el dominio de septiembre.
 
