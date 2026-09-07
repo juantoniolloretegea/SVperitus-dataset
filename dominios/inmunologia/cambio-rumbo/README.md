@@ -4,22 +4,22 @@
 
 **Rama: `dominio-inmunologia`. Retorno G/H completado; Inmunología en pausa controlada. Receptor actual: Lenguaje, fila 7.**
 
-El [paquete único de devolución](../marco-tecnico-de-universos-subdominios-y-modulos/01-op-imm-001-informacion-preinmunosupresion-adultos/retorno-gh-2026-09-07/RETORNO_GH_OP-IMM-001_Q0_v0_AL_LENGUAJE_SV_2026-09-07.md) contiene contrato, correspondencia 15/44/81, aplicación de F-IF, pruebas, adversarial y deuda atribuida. El [acta, §9](../ACTA_PAUSA_RETORNO_ACOTADO_Y_RELEVO_AL_LENGUAJE_SV_2026-09-04.md#devolucion-gh-20260907), registra el relevo. Suficiencia clínica de ejecución Q0 no acreditada; no se reanuda el dominio por este índice.
+El [expediente de devolución](../marco-tecnico-de-universos-subdominios-y-modulos/01-op-imm-001-informacion-preinmunosupresion-adultos/retorno-gh-2026-09-07/RETORNO_GH_OP-IMM-001_Q0_v0_AL_LENGUAJE_SV_2026-09-07.md) contiene contrato, correspondencia 15/44/81, aplicación de F-IF, pruebas, evaluación adversarial y obligaciones pendientes con responsables identificados. El [apartado 9 del acta](../ACTA_PAUSA_RETORNO_ACOTADO_Y_RELEVO_AL_LENGUAJE_SV_2026-09-04.md#devolucion-gh-20260907) registra el relevo. No se ha acreditado la suficiencia para la ejecución clínica de Q0. Este índice no autoriza la reanudación del trabajo en el dominio.
 
-La [recepción §8 del acta de pausa y retorno](../ACTA_PAUSA_RETORNO_ACOTADO_Y_RELEVO_AL_LENGUAJE_SV_2026-09-04.md#recepcion-gh-20260907) fija el corte del Lenguaje `bc3b22c9e9319e8f191390c8cfe9fa1577904d87`, F, F-IF, el trabajo I1–I8 y la devolución obligatoria a programación, fila 7. Es el antecedente autorizado del retorno ya entregado.
+La [recepción §8 del acta de pausa y retorno](../ACTA_PAUSA_RETORNO_ACOTADO_Y_RELEVO_AL_LENGUAJE_SV_2026-09-04.md#recepcion-gh-20260907) identifica la versión del Lenguaje `bc3b22c9e9319e8f191390c8cfe9fa1577904d87`, F, F-IF, el trabajo I1–I8 y la devolución obligatoria a programación, fila 7. Es el antecedente autorizado del retorno ya entregado.
 
-El expediente sustantivo recibido por Lenguaje permanece en `3bea6b714be3bd1330e6ca6bbbc228b0eb9c065d`: 27 parámetros, agrupaciones externas `(6,1,3,2,6,9)`, cuatro salidas y G9-EMP `NO_OBSERVABLE`. Los hitos de apertura, congelación y recuentos de etapas anteriores que siguen en este índice conservan sus fechas; no son órdenes para reiniciar G0–G10 ni estados actuales del retorno. Las actas rectoras conservan su autoridad en su perímetro.
+El expediente sustantivo recibido por Lenguaje permanece en `3bea6b714be3bd1330e6ca6bbbc228b0eb9c065d`: 27 parámetros, agrupaciones externas `(6,1,3,2,6,9)`, cuatro salidas y G9-EMP `NO_OBSERVABLE`. Los hitos de apertura, congelación y recuentos de etapas anteriores que siguen en este índice conservan sus fechas; no son órdenes para reiniciar G0–G10 ni estados actuales del retorno. Las actas rectoras conservan su autoridad dentro del ámbito que les corresponde.
 
-Además del índice histórico, el corte terminal se localiza en:
+La documentación de terminación se encuentra en las siguientes ubicaciones:
 
-| Tramo del expediente | Localización |
+| Sección del expediente | Localización |
 |---|---|
-| Alcance y terminación | [Manifiesto terminal OP-IMM-001 / Q0 v0](manifiesto-terminal-alcance-cobertura-y-terminacion-OP-IMM-001-Q0-v0-2026-09-03.md). Sus 32 raíces no son 32 universos por cerrar. |
+| Alcance y terminación | [Manifiesto terminal OP-IMM-001 / Q0 v0](manifiesto-terminal-alcance-cobertura-y-terminacion-OP-IMM-001-Q0-v0-2026-09-03.md). Sus 32 identificadores raíz no equivalen a 32 universos pendientes de cierre. |
 | G5–G7: parámetros, agrupaciones y rutas | [G5](03-base-documental-candidata/10-atomicidad-en-evaluacion/), [G6](03-base-documental-candidata/11-matrices-en-evaluacion/), [G7](03-base-documental-candidata/12-rutas-en-evaluacion/). |
 | G8–G10: implementación declarada, contraste y requisitos | [G8](03-base-documental-candidata/13-iti-y-laboratorio/), [G9](03-base-documental-candidata/14-contraste-empirico/), [G10](03-base-documental-candidata/15-requisitos-lenguaje-sv/). |
 | Solicitud y marco técnico | [Expediente OP-IMM-001 fuera de cambio-rumbo](../marco-tecnico-de-universos-subdominios-y-modulos/01-op-imm-001-informacion-preinmunosupresion-adultos/). |
 
-G/H ha contrastado aplicación y significado de las necesidades recibidas y ha devuelto fidelidad, pérdidas documentales y suficiencia Q0 no acreditada. La [regla de salida del acta](../ACTA_PAUSA_RETORNO_ACOTADO_Y_RELEVO_AL_LENGUAJE_SV_2026-09-04.md#retorno-a-lenguaje) admite dictamen completo o devolución anticipada fundada sin simular un cierre favorable. Tras la entrega se pausa Inmunología; no se inicia Ciberseguridad ni se modifica el Lenguaje desde esta rama.
+La evaluación G/H ha contrastado la aplicación y el significado de los requisitos recibidos. Su dictamen documenta la fidelidad y las pérdidas observadas y declara que la suficiencia de Q0 no está acreditada. La [regla de salida del acta](../ACTA_PAUSA_RETORNO_ACOTADO_Y_RELEVO_AL_LENGUAJE_SV_2026-09-04.md#retorno-a-lenguaje) permite emitir un dictamen completo o una devolución anticipada justificada, sin atribuir a esta última un resultado favorable no demostrado. Tras la entrega, Inmunología permanece en pausa; no se inicia Ciberseguridad ni se modifica el Lenguaje desde esta rama.
 
 
 Este directorio constituye la base documental de trabajo posterior a la rectificación metodológica acordada el 31-08-2026.
@@ -72,7 +72,7 @@ El acta de 31 de agosto constituye la raíz de la rectificación metodológica. 
 | `RECTOR_CANDIDATO_DE_EJECUCION_EPISTEMICA` | Contrato de conocimiento, inferencia, consecuencias y consejo pendiente de auditoría externa. |
 | `RECTOR_DE_EJECUCION_EPISTEMICA` | Contrato cerrado de conocimiento gobernante, trazabilidad, consecuencias, determinismo y compuerta de consejo. |
 | `SUPERADAS_NO_GOBIERNAN` | Versiones candidatas sustituidas antes de auditoría; se conservan como rastro y no tienen efecto rector. |
-| `INVIOLABLE` | Fundamentos y origen doctrinal de U. No se alteran desde este frente. |
+| `INVIOLABLE` | Fundamentos y origen doctrinal de U. No se modifican desde esta área de trabajo. |
 | `CONTEXTO` | Álgebra de composición. Sólo se aparta de ella por ampliación autorizada o error demostrado. |
 | `CANDIDATO_EN_CUARENTENA` | Material que puede informar el trabajo, pero no está adoptado, no agota el dominio y no autoriza asistencia. |
 | `HISTORICO_NO_VIGENTE` | Rastro previo, refutado, sustituido o no constitutivo. Se conserva para auditoría y para no repetir errores. |
