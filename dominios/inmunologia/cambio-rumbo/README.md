@@ -1,5 +1,25 @@
 # Cambio de rumbo — dominio de inmunología
 
+## Continuidad vigente · 07/09/2026
+
+**Rama: `dominio-inmunologia`. Frente autorizado: fila 6/G-H, OP-IMM-001 / Q0 v0.**
+
+La [recepción §8 del acta de pausa y retorno](../ACTA_PAUSA_RETORNO_ACOTADO_Y_RELEVO_AL_LENGUAJE_SV_2026-09-04.md#recepcion-gh-20260907) fija el corte del Lenguaje `bc3b22c9e9319e8f191390c8cfe9fa1577904d87`, F, F-IF, el trabajo I1–I8 y la devolución obligatoria a programación, fila 7. Es la puerta de entrada para continuar.
+
+El expediente sustantivo recibido por Lenguaje permanece en `3bea6b714be3bd1330e6ca6bbbc228b0eb9c065d`: 27 parámetros, agrupaciones externas `(6,1,3,2,6,9)`, cuatro salidas y G9-EMP `NO_OBSERVABLE`. Los hitos de apertura, congelación y recuentos de etapas anteriores que siguen en este índice conservan sus fechas; no son órdenes para reiniciar G0–G10 ni estados actuales del retorno. Las actas rectoras conservan su autoridad en su perímetro.
+
+Además del índice histórico, el corte terminal se localiza en:
+
+| Tramo del expediente | Localización |
+|---|---|
+| Alcance y terminación | [Manifiesto terminal OP-IMM-001 / Q0 v0](manifiesto-terminal-alcance-cobertura-y-terminacion-OP-IMM-001-Q0-v0-2026-09-03.md). Sus 32 raíces no son 32 universos por cerrar. |
+| G5–G7: parámetros, agrupaciones y rutas | [G5](03-base-documental-candidata/10-atomicidad-en-evaluacion/), [G6](03-base-documental-candidata/11-matrices-en-evaluacion/), [G7](03-base-documental-candidata/12-rutas-en-evaluacion/). |
+| G8–G10: implementación declarada, contraste y requisitos | [G8](03-base-documental-candidata/13-iti-y-laboratorio/), [G9](03-base-documental-candidata/14-contraste-empirico/), [G10](03-base-documental-candidata/15-requisitos-lenguaje-sv/). |
+| Solicitud y marco técnico | [Expediente OP-IMM-001 fuera de cambio-rumbo](../marco-tecnico-de-universos-subdominios-y-modulos/01-op-imm-001-informacion-preinmunosupresion-adultos/). |
+
+G/H debe resolver aplicación y significado clínico de las necesidades recibidas y devolver fidelidad, pérdida o suficiencia no acreditada. La [regla de salida del acta](../ACTA_PAUSA_RETORNO_ACOTADO_Y_RELEVO_AL_LENGUAJE_SV_2026-09-04.md#retorno-a-lenguaje) admite dictamen completo o devolución anticipada fundada sin simular un cierre favorable. Tras la entrega se pausa Inmunología; no se inicia Ciberseguridad ni se modifica el Lenguaje desde esta rama.
+
+
 Este directorio constituye la base documental de trabajo posterior a la rectificación metodológica acordada el 31-08-2026.
 
 ## Documentos rectores

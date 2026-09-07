@@ -1,5 +1,8 @@
 # Acta de pausa, retorno acotado y relevo de Inmunología al Lenguaje SV
 
+> **Continuidad vigente · 07/09/2026 · actualización 0.2:** retorno acotado G/H autorizado. Lea primero [§8: paquete recibido, trabajo y devolución del control](#recepcion-gh-20260907). Los estados de espera y reparación de §§1, 6 y 7 describen el corte del 04/09; I1–I8 siguen vigentes con las precisiones de §8. El siguiente receptor es Lenguaje, fila 7.
+
+
 - **Versión:** 0.1
 - **Fecha:** 04-09-2026
 - **Identificador:** `ACTA-IMM-RETORNO-LSV-2026-09-04`
@@ -184,3 +187,79 @@ MODIFICACION_DEL_LENGUAJE_AQUI    = PROHIBIDA
 ```
 
 Esta acta queda como puerta de continuidad. Sólo un suceso posterior, explícito, motivado y autorizado puede alterar su secuencia.
+
+<a id="recepcion-gh-20260907"></a>
+
+## 8. Recepción autorizada del Lenguaje y retorno G/H · 07/09/2026
+
+**Actualización 0.2 del acta existente. Autoridad:** Juan Antonio Lloret Egea, Director, autoriza actualizar el relevo y fijar la devolución a la unidad de programación. **Efecto:** queda autorizado el retorno acotado de Inmunología, fila 6/G-H, para OP-IMM-001 / Q0 v0. La autorización abre el contraste; no anticipa su dictamen ni constituye software clínico.
+
+### 8.1. Cortes recibidos y sucesión del estado
+
+| Objeto | Identidad y estado |
+|---|---|
+| Expediente inmunológico sustantivo recibido por Lenguaje | `3bea6b714be3bd1330e6ca6bbbc228b0eb9c065d`, OP-IMM-001 / Q0 v0 cerrado para transferencia. |
+| Base de esta actualización en SVperitus-dataset | Rama `dominio-inmunologia`, commit `6c05192d0bf9fcb3d2c85ebd9d0ee62a58940a1b`, árbol `b4219d14a5fcda26743cdbda4f30a3f010a871e9`. Sólo añadió el acta de pausa al corte anterior. |
+| Candidata del Lenguaje que recibe G/H | `SV-lenguaje-de-computacion/main@bc3b22c9e9319e8f191390c8cfe9fa1577904d87`, árbol `51d0215604b84519361aea6749a3d17811a1307e`, PR #76 integrada; RETP-090 y transición §30. |
+| Frente autorizado | Inmunología, fila 6/G-H. Lenguaje queda a la espera del paquete de retorno de esta fase. |
+| Siguiente receptor | Unidad del Lenguaje de computación SV, fila 7; incorpora o delimita únicamente cambios justificados por G/H. |
+
+El commit que incorpora esta actualización identifica su salida documental mediante el historial de Git; no se utiliza una autorreferencia de hash dentro del propio archivo. I1 registrará el commit exacto efectivamente recibido de esta rama y lo distinguirá del corte clínico sustantivo y del corte del Lenguaje.
+
+Los estados de espera y reparación de PR #60 de §§1, 6 y 7 se conservan como antecedentes del 04/09. La PR #60 ya está integrada; su reconciliación 15 ↔ 44 está disponible. K1 ha entregado sus cierres y delimitaciones expresas; K1-T mantiene su ruta productiva no habilitada. F está formulado y F-IF integrado en su alcance sintético. **No se repite la reparación de PR #60 ni se vuelve a K1 por leer aquellos estados históricos.** Rigen para la continuación esta recepción y la tabla del Lenguaje con su §30. I1–I8 y los criterios de §4 se mantienen, con las precisiones de salida de §8.5.
+
+### 8.2. Paquete de lectura obligatorio
+
+Todos los enlaces al Lenguaje de esta recepción fijan el mismo commit de §8.1. Deben leerse los documentos y apartados aplicables completos, no sólo los títulos ni el texto histórico de una PR.
+
+| Orden | Fuente | Uso en el retorno |
+|---|---|---|
+| 1 | Esta acta, §§2–5 y §8; [entrada a cambio-rumbo](cambio-rumbo/README.md), sus actas rectoras y el [manifiesto terminal](cambio-rumbo/manifiesto-terminal-alcance-cobertura-y-terminacion-OP-IMM-001-Q0-v0-2026-09-03.md) | Autoridad, finitud, privacidad, perímetro y terminación; los 32 identificadores raíz de Q0 no son 32 universos que haya que cerrar. |
+| 2 | [Pilares](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/bc3b22c9e9319e8f191390c8cfe9fa1577904d87/docs/calidad/PILARES_Y_RESTRICCIONES_DE_DISENO_DEL_LENGUAJE_DE_COMPUTACION_SV_2026_09_05.md), [perfiles](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/bc3b22c9e9319e8f191390c8cfe9fa1577904d87/docs/calidad/ACTA_TECNICA_DE_PERFILES_CONTRATOS_Y_ENSAMBLAJE_DEL_LENGUAJE_SV_2026_09_06.md) y [transición, en particular §§12–15 y 23–30](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/bc3b22c9e9319e8f191390c8cfe9fa1577904d87/docs/dominios/inmunologia/ACTA_DE_CONFORMIDAD_DE_TRANSICION_SECUENCIAL_DESDE_OP-IMM-001_AL_LENGUAJE_SV_2026_09_03.md#f-if-relevo-20260907) | Subordinación a la DSL —lenguaje específico de dominio—, competencias, contratos y secuencia vigente. N0 y sus decisiones K1 se consultan en la [radiografía completa del corte](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/bc3b22c9e9319e8f191390c8cfe9fa1577904d87/docs/arquitectura/N0_RADIOGRAFIA_DE_OBJETOS_INVARIANTES_Y_ORACULOS_DEL_NUCLEO_SV_2026_09_04.md). |
+| 3 | [G10-SV, 15 requisitos](cambio-rumbo/03-base-documental-candidata/15-requisitos-lenguaje-sv/G10-SV_requisitos_demostrados_OP-IMM-001_v0.1_2026-09-03.md), [solicitud, 44 formulaciones](marco-tecnico-de-universos-subdominios-y-modulos/01-op-imm-001-informacion-preinmunosupresion-adultos/Solicitud_de_valoracion_y_encaje_tecnico_de_OP-IMM-001_con_el_Lenguaje_SV_2026-09-03.md) y [marco técnico de OP](marco-tecnico-de-universos-subdominios-y-modulos/01-op-imm-001-informacion-preinmunosupresion-adultos/Marco_tecnico_de_responsabilidad_trazabilidad_reproducibilidad_y_criticidad_OP-IMM-001_v0.1_2026-09-03.md) | Constituciones de origen. Sus fuentes y localizadores se conservan en esta rama; cambio-rumbo no agota el expediente técnico. |
+| 4 | [Valoración reconciliada, especialmente §§3 y 5](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/bc3b22c9e9319e8f191390c8cfe9fa1577904d87/docs/dominios/inmunologia/VALORACION_TECNICA_Y_ENCAJE_DE_OP-IMM-001_CON_EL_LENGUAJE_SV_2026_09_03.md), [adversarial](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/bc3b22c9e9319e8f191390c8cfe9fa1577904d87/docs/dominios/inmunologia/ADVERSARIAL_DE_CONTINUIDAD_Y_CONFORMIDAD_DE_LA_VALORACION_OP-IMM-001_2026_09_03.md) y [sincronización](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/bc3b22c9e9319e8f191390c8cfe9fa1577904d87/docs/dominios/inmunologia/INFORME_DE_SINCRONIZACION_OPERATIVA_ENTRE_LENGUAJE_SV_E_INMUNOLOGIA_OP-IMM-001_2026_09_03.md) | Conservar la correspondencia 15 ↔ 44 y sus enlaces múltiples. Las afirmaciones históricas de realización se leen bajo F §6.1. |
+| 5 | [F-SV/0.1-candidata, §§1–9](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/bc3b22c9e9319e8f191390c8cfe9fa1577904d87/docs/arquitectura/CONTRATO_CANDIDATO_F_DOMINIO_REPRESENTACION_Y_SUFIENCIA_POR_OPERACION_2026_09_07.md) y su fundamento [FFL-E](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/bc3b22c9e9319e8f191390c8cfe9fa1577904d87/docs/arquitectura/CONTRATO_MINIMO_DE_SUFIENCIA_REPRESENTACIONAL_POR_OPERACION_PARA_EL_LENGUAJE_SV_2026_08_21.md) | Contrato documental de representación y suficiencia por operación, identidad, ligaduras, soporte, pérdidas y sedes de resolución. No es un tipo nuevo de representación intermedia (IR). |
+| 6 | [F-IF/1, §§1–7](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/bc3b22c9e9319e8f191390c8cfe9fa1577904d87/docs/arquitectura/F_IF_SEIS_TESTIGOS_SINTETICOS_Y_RELEVO_G_H_2026_09_07.md), [constitución de casos](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/bc3b22c9e9319e8f191390c8cfe9fa1577904d87/tests/f_if/cases.json), [evidencia](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/bc3b22c9e9319e8f191390c8cfe9fa1577904d87/tests/f_if/evidence.json) y observador/pruebas enlazados en el informe | Seis familias sintéticas, consultas, pérdidas y límites. Decidir su aplicación a OP-IMM-001; no transferirlas automáticamente al dominio. |
+
+### 8.3. Trabajo sustantivo y preguntas que recibe Inmunología
+
+La unidad ejecutará I1–I8, utilizando un único expediente principal de retorno y anexos sólo cuando sean necesarios para prueba. Reutilizará los documentos y los identificadores existentes; no emitirá una tercera familia de requisitos ni otra acta para confirmar esta recepción.
+
+1. Validar cada correspondencia 15 ↔ 44 desde el significado del dominio, conservando equivalencia, refinamiento, cobertura parcial, ampliación, duplicación o hueco con fuente y localizador. Cubrir ambos extremos y los enlaces múltiples.
+2. Constituir el candidato documental de perfil completo respecto de OP-IMM-001 / Q0 v0 y su versión: objeto, límites, cuatro salidas, reglas, procedencia, configuración, autoridad, vetos, causas de U, no aplicabilidad, no admisión y fallo técnico. Aplicar I3 sin presentarlo como tipo normativo ni operación SV ya ejecutable.
+3. Para cada familia F-IF, justificar aplicación, aplicación parcial o no aplicación al perímetro; para las consultas aplicables identificar la información imprescindible, distinciones perdidas, captura, admisibilidad, identidad de instancia y ligaduras requeridas. Vincularlas a requisitos y objetos constituidos; no deducirlas de semejanza nominal ni asignarlas automáticamente a los 27 parámetros.
+4. Especificar o ejecutar, donde exista realización válida, los oráculos positivos y negativos de I4. Distinguir prueba ejecutada, especificación pendiente y evidencia no disponible. Para una pérdida, conservar un par de entradas y la distinción necesaria para la operación, o declarar por qué todavía no se puede constituir ese testigo.
+5. Dictaminar fidelidad, pérdida o suficiencia no acreditada por operación y representación. Identificar qué resuelve el dominio y qué debe recibir Lenguaje, perfil, interfaz o infraestructura. La aceptación documental no acredita ejecución clínica.
+
+### 8.4. Precisiones vinculantes
+
+- **Agrupaciones y célula:** la frase histórica de §1 «encaja directamente en SV(9,3)» queda precisada por F §6: las cardinalidades `(6,1,3,2,6,9)` son agrupaciones externas. `M-MODIFIER-001`, de nueve miembros, es candidata a posible célula, pendiente de constitución. La cardinalidad no basta para constituirla. `REQ-IMM-SV-011 = U_NO_DECIDIDO` se conserva salvo evidencia nueva; no se rellena, duplica ni fuerza la geometría.
+- **Realización pendiente:** DFL-005 mantiene mínimo por operación, identidad `(C,j)` y ligaduras pendientes; K1-T no habilita observación → Tri; DFL-006 mantiene pendiente el productor de criticidad. Registrar las necesidades no crea esas realizaciones ni autoriza sortear sus bloqueos.
+- **F-IF:** seis familias sintéticas, 18 consultas y 54 filas de contraste externo no son estados clínicos constituidos. Ninguna de esas 18 consultas se ofrece por ese resultado como operación ejecutable de SV. Las distinciones de laboratorio, citometría, médula, terapia, episodio e historia no amplían por sí mismas Q0; DICOM continúa no aplicable al corte OP recibido.
+- **Custodia:** el compilador Python está retirado (RETP-082, F §6.1). No actúa como compilador ni autoridad de contraste del SV actual. Rust realiza la DSL y está subordinado a ella; compilar Rust no acredita conformidad semántica. Los observadores externos no constituyen SV. Toda modificación ejecutable pertinente se remite a Lenguaje con conformidad y paridad nativa/WASM —WebAssembly— exigibles sobre ese mismo corte; no se atribuye una prueba nueva a una modificación documental.
+- **Perímetro y evidencia:** se conservan los 27 parámetros, cuatro salidas exclusivas y exclusiones del expediente informativo predecisional; G9-EMP permanece `NO_OBSERVABLE`, con cero conjuntos admisibles, mientras no haya evidencia nueva. Este retorno no exige obtener cohortes, habilitar asistencia, constituir agente ni cerrar toda la Inmunología.
+- **Infraestructura:** DFL-009, incluido servicio nativo remoto y Cloudflare/Workers u otros, se recibe en fila 9 después del primer universo de Ciberseguridad Inteligente. No se convierte en condición nueva de G/H.
+
+<a id="retorno-a-lenguaje"></a>
+
+### 8.5. Cuándo y cómo devolver el control
+
+**Retorno ordinario obligatorio:** al completar I1–I8 y la cobertura documental de §4 respecto del perímetro de esta fase, la unidad entregará un único paquete identificado a la unidad de programación y detendrá su avance sustantivo. El paquete contendrá, directamente o por localizadores inequívocos:
+
+1. commit de entrada y de salida de Inmunología, corte exacto del Lenguaje, archivos y huellas de los testigos utilizados;
+2. matriz 15 ↔ 44 revisada y aplicación de F-IF, con cobertura explícita, pendientes y motivo de cada no aplicación;
+3. contrato de perfil candidato y dictamen por operación/representación, con las cuatro salidas y separación de U, no aplicación, no admisión y fallo;
+4. testigos positivos, negativos y de pérdida, indicando cuáles se ejecutaron y cuáles sólo quedaron especificados;
+5. resultado de la adversarial, precisiones incorporadas, estado de REQ-IMM-SV-011 y deuda residual con responsable y condición de resolución.
+
+El dictamen puede ser **aceptación en alcance declarado o devolución fundada por pérdida/insuficiencia**. Completar el contraste no exige que todas las representaciones sean suficientes. Cerrar la adversarial de G/H significa incorporar o identificar sus hallazgos y atribuir su resolución; no ocultar una refutación ni esperar indefinidamente a que Inmunología implemente una carencia del Lenguaje. La deuda imprescindible bloquea la operación afectada, no la devolución del dictamen a quien debe resolverla.
+
+**Devolución anticipada fundada:** si I1 no puede establecer la identidad o acceso a una fuente decisiva, o una contradicción/carencia externa hace imposible completar honestamente el contraste, la unidad devolverá el control con el corte, el punto exacto, la evidencia disponible, el responsable y la lista de verificaciones no realizadas. Podrá completar antes las comprobaciones independientes que sigan siendo válidas. No presentará esa devolución como cierre favorable de I1–I8, no convertirá el impedimento documental en U clínica ni abrirá otro universo para evitarlo.
+
+**Después de cualquiera de las dos devoluciones:** Inmunología queda en pausa controlada, a la espera de respuesta expresa. La unidad de programación recibe la fila 7, resuelve o delimita los hallazgos bajo Pilares y Calidad y fija la candidata siguiente. Si necesita una precisión exclusivamente inmunológica, solicitará un retorno acotado identificado; no se reanuda el dominio por calendario ni por una actualización incidental de main.
+
+Ciberseguridad Inteligente, fila 8/I-J, sólo recibirá después la candidata identificada por Lenguaje mediante su relevo. Inmunología no inicia ese frente, no escribe en el repositorio del Lenguaje y no abre álgebra, K2 ni R2/R3/R4. Se mantiene un único frente sustantivo activo. No se fusiona esta rama con main por este acto.
+
+### 8.6. Alcance de esta actualización
+
+Esta actualización corrige la continuidad y la localización del frente; conserva los apartados de 04/09 como antecedentes y no modifica el corpus clínico. La revisión documental comprueba cortes, enlaces, sucesión de estados, I1–I8 y las dos salidas de §8.5. No se atribuye una nueva prueba clínica, ejecución SV ni auditoría externa. Su identidad final queda en el commit de la rama que contiene el acta y las entradas de navegación actualizadas.

@@ -1,3 +1,16 @@
+# Dominios — acceso al frente de Inmunología
+
+**Actualización de navegación: 07/09/2026. Ámbito: rama `dominio-inmunologia`.**
+
+El frente activo de dominio se encuentra en [`dominios/inmunologia/`](inmunologia/README.md). Su [acta de continuidad, §8](inmunologia/ACTA_PAUSA_RETORNO_ACOTADO_Y_RELEVO_AL_LENGUAJE_SV_2026-09-04.md#recepcion-gh-20260907) recibe el corte del Lenguaje, autoriza G/H y fija cuándo devolver el control a la unidad de programación, fila 7.
+
+La ruta `agentes/inmunologia/` conserva sus antecedentes propios. Dominio y agente son objetos distintos: este retorno no constituye agente ni convierte las decisiones de la reorganización de marzo en instrucciones vigentes sobre el dominio de septiembre.
+
+Si llega desde otra rama, entre expresamente en [`dominio-inmunologia`](https://github.com/juantoniolloretegea/SVperitus-dataset/tree/dominio-inmunologia/dominios/inmunologia). La existencia de este frente en su rama no autoriza fusionarlo con main ni abrir otros dominios.
+
+<details>
+<summary>Antecedente íntegro de abril de 2026 — señalización histórica, superada para este frente de dominio</summary>
+
 # Dominios — rastro histórico temporal del ecosistema aplicado
 
 **Fecha y Versión: V.1 del conjunto**  
@@ -46,3 +59,5 @@ La sede canónica vigente del frente inmunológico es ya:
 - [subpuerta del agente](../agentes/inmunologia/index.html)
 
 La antigua ruta `dominios/inmunologia/` debe leerse desde ahora como **señal de tránsito temporal**, no como sede viva del agente.
+
+</details>
