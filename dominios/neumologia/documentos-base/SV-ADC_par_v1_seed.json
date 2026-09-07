@@ -1,0 +1,541 @@
+{
+  "schema_version": "SV-ADC-par-v1",
+  "architecture": {
+    "name": "SV-ADC(par)",
+    "cell_L": "SV-ADC_L(25,5)",
+    "cell_V": "SV-ADC_V(16,4)",
+    "composition": "gate_hierarchical",
+    "encoding": {
+      "0": "no_apoya",
+      "1": "apoya",
+      "U": "indeterminado"
+    }
+  },
+  "render": {
+    "cell_L_order": [
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "L07",
+      "L08",
+      "L09",
+      "L10",
+      "L11",
+      "L12",
+      "L13",
+      "L14",
+      "L15",
+      "L16",
+      "L17",
+      "L18",
+      "L19",
+      "L20",
+      "L21",
+      "L22",
+      "L23",
+      "L24",
+      "L25"
+    ],
+    "cell_V_order": [
+      "V01",
+      "V02",
+      "V03",
+      "V04",
+      "V05",
+      "V06",
+      "V07",
+      "V08",
+      "V09",
+      "V10",
+      "V11",
+      "V12",
+      "V13",
+      "V14",
+      "V15",
+      "V16"
+    ],
+    "constraints": {
+      "background": "uniforme",
+      "rotation": false,
+      "angular_reordering": false,
+      "fixed_colors": true,
+      "fixed_line_width": true,
+      "fixed_resolution": true
+    }
+  },
+  "catalog": {
+    "L": [
+      {
+        "id": "L01",
+        "layer": "L1",
+        "short_name": "age_risk",
+        "parameter": "Edad de riesgo",
+        "value_0": "<55",
+        "value_1": "≥55",
+        "value_U": "No consta",
+        "type": "derivado"
+      },
+      {
+        "id": "L02",
+        "layer": "L1",
+        "short_name": "smoking",
+        "parameter": "Tabaquismo relevante",
+        "value_0": "Nunca fumador o <20 paquetes-año y no fumador actual",
+        "value_1": "Fumador actual o antecedente ≥20 paquetes-año",
+        "value_U": "No consta",
+        "type": "derivado"
+      },
+      {
+        "id": "L03",
+        "layer": "L1",
+        "short_name": "prior_cancer",
+        "parameter": "Antecedente personal de cáncer",
+        "value_0": "Ausente",
+        "value_1": "Presente",
+        "value_U": "No consta",
+        "type": "binario"
+      },
+      {
+        "id": "L04",
+        "layer": "L1",
+        "short_name": "lung_risk_bg",
+        "parameter": "Pulmón de alto riesgo (EPOC/enfisema/fibrosis)",
+        "value_0": "Ausente",
+        "value_1": "Presente",
+        "value_U": "No consta",
+        "type": "binario"
+      },
+      {
+        "id": "L05",
+        "layer": "L1",
+        "short_name": "carcinogen_exp",
+        "parameter": "Exposición carcinógena relevante",
+        "value_0": "Ausente",
+        "value_1": "Presente",
+        "value_U": "No evaluado",
+        "type": "binario"
+      },
+      {
+        "id": "L06",
+        "layer": "L2",
+        "short_name": "hemoptysis",
+        "parameter": "Hemoptisis",
+        "value_0": "Ausente",
+        "value_1": "Presente",
+        "value_U": "No consta",
+        "type": "binario"
+      },
+      {
+        "id": "L07",
+        "layer": "L2",
+        "short_name": "constitutional",
+        "parameter": "Síndrome constitucional",
+        "value_0": "Ausente",
+        "value_1": "Presente",
+        "value_U": "No consta",
+        "type": "binario"
+      },
+      {
+        "id": "L08",
+        "layer": "L2",
+        "short_name": "resp_symptoms",
+        "parameter": "Síntoma respiratorio persistente atribuible",
+        "value_0": "Ausente",
+        "value_1": "Presente",
+        "value_U": "No consta",
+        "type": "binario"
+      },
+      {
+        "id": "L09",
+        "layer": "L2",
+        "short_name": "family_lung_ca",
+        "parameter": "Antecedente familiar de cáncer pulmonar",
+        "value_0": "Ausente",
+        "value_1": "Presente en familiar de primer grado",
+        "value_U": "No consta",
+        "type": "binario"
+      },
+      {
+        "id": "L10",
+        "layer": "L2",
+        "short_name": "persistent_lesion",
+        "parameter": "Persistencia sin resolución infecciosa convincente",
+        "value_0": "Resolución o clara mejoría",
+        "value_1": "Persistencia",
+        "value_U": "Seguimiento insuficiente",
+        "type": "derivado"
+      },
+      {
+        "id": "L11",
+        "layer": "L3",
+        "short_name": "size_relevant",
+        "parameter": "Tamaño lesional relevante",
+        "value_0": "Nódulo sólido o componente sólido <8 mm y no masa",
+        "value_1": "Nódulo sólido o componente sólido ≥8 mm, o lesión >30 mm",
+        "value_U": "No consta",
+        "type": "derivado"
+      },
+      {
+        "id": "L12",
+        "layer": "L3",
+        "short_name": "spic_lob",
+        "parameter": "Espiculación o lobulación",
+        "value_0": "Ausentes",
+        "value_1": "Presentes",
+        "value_U": "No descritas",
+        "type": "binario"
+      },
+      {
+        "id": "L13",
+        "layer": "L3",
+        "short_name": "upper_lobe",
+        "parameter": "Localización en lóbulo superior",
+        "value_0": "No",
+        "value_1": "Sí",
+        "value_U": "No consta",
+        "type": "binario"
+      },
+      {
+        "id": "L14",
+        "layer": "L3",
+        "short_name": "subsolid_susp",
+        "parameter": "Fenotipo subsólido sugestivo",
+        "value_0": "No",
+        "value_1": "Part-solid o subsólido persistente sospechoso",
+        "value_U": "No clasificable",
+        "type": "derivado"
+      },
+      {
+        "id": "L15",
+        "layer": "L3",
+        "short_name": "pleural_vascular_signs",
+        "parameter": "Retracción pleural / convergencia vascular / bronquio hacia lesión",
+        "value_0": "Ausentes",
+        "value_1": "Presente cualquiera de esos rasgos",
+        "value_U": "No descritos",
+        "type": "binario"
+      },
+      {
+        "id": "L16",
+        "layer": "L4",
+        "short_name": "growth",
+        "parameter": "Crecimiento documentado",
+        "value_0": "No",
+        "value_1": "Sí",
+        "value_U": "Sin comparativa",
+        "type": "derivado"
+      },
+      {
+        "id": "L17",
+        "layer": "L4",
+        "short_name": "temporal_malign",
+        "parameter": "Dinámica temporal compatible con malignidad",
+        "value_0": "No",
+        "value_1": "Sí",
+        "value_U": "No calculable",
+        "type": "derivado"
+      },
+      {
+        "id": "L18",
+        "layer": "L4",
+        "short_name": "no_benign_pattern",
+        "parameter": "Ausencia de patrón benigno fuerte",
+        "value_0": "Sí hay patrón benigno fuerte",
+        "value_1": "No hay patrón benigno fuerte",
+        "value_U": "No descrito",
+        "type": "derivado"
+      },
+      {
+        "id": "L19",
+        "layer": "L4",
+        "short_name": "non_smooth_margin",
+        "parameter": "Margen no liso",
+        "value_0": "Liso / perifisural típico",
+        "value_1": "Irregular / microlobulado / no perifisural",
+        "value_U": "No descrito",
+        "type": "derivado"
+      },
+      {
+        "id": "L20",
+        "layer": "L4",
+        "short_name": "density_solid_shift",
+        "parameter": "Comportamiento densitométrico no tranquilizador",
+        "value_0": "No",
+        "value_1": "Sí",
+        "value_U": "No comparable",
+        "type": "derivado"
+      },
+      {
+        "id": "L21",
+        "layer": "L5",
+        "short_name": "pet_susp",
+        "parameter": "PET/CT sugestivo",
+        "value_0": "No sugestivo",
+        "value_1": "Sugestivo",
+        "value_U": "No realizado / no interpretable",
+        "type": "derivado"
+      },
+      {
+        "id": "L22",
+        "layer": "L5",
+        "short_name": "nodes_susp",
+        "parameter": "Adenopatías hiliares o mediastínicas sospechosas",
+        "value_0": "Ausentes",
+        "value_1": "Presentes",
+        "value_U": "No consta",
+        "type": "binario"
+      },
+      {
+        "id": "L23",
+        "layer": "L5",
+        "short_name": "pleural_extra_susp",
+        "parameter": "Hallazgos pleurales o extrapulmonares sospechosos",
+        "value_0": "Ausentes",
+        "value_1": "Presentes",
+        "value_U": "No consta",
+        "type": "binario"
+      },
+      {
+        "id": "L24",
+        "layer": "L5",
+        "short_name": "better_target",
+        "parameter": "Existencia de diana diagnóstica mejor que la lesión primaria",
+        "value_0": "No",
+        "value_1": "Sí",
+        "value_U": "No evaluado",
+        "type": "derivado"
+      },
+      {
+        "id": "L25",
+        "layer": "L5",
+        "short_name": "biopsy_access",
+        "parameter": "Accesibilidad técnica razonable a muestreo",
+        "value_0": "No",
+        "value_1": "Sí",
+        "value_U": "No valorado",
+        "type": "derivado"
+      }
+    ],
+    "V": [
+      {
+        "id": "V01",
+        "layer": "V1",
+        "short_name": "sample_obtained",
+        "parameter": "Muestra lesional adecuada obtenida",
+        "value_0": "No",
+        "value_1": "Sí",
+        "value_U": "Pendiente / no aclarado",
+        "type": "binario"
+      },
+      {
+        "id": "V02",
+        "layer": "V1",
+        "short_name": "tumor_cellularity",
+        "parameter": "Celularidad tumoral suficiente para interpretación",
+        "value_0": "Insuficiente",
+        "value_1": "Suficiente",
+        "value_U": "No especificado",
+        "type": "derivado"
+      },
+      {
+        "id": "V03",
+        "layer": "V1",
+        "short_name": "ihc_feasible",
+        "parameter": "Material apto para inmunohistoquímica básica",
+        "value_0": "No",
+        "value_1": "Sí",
+        "value_U": "No realizado / no consta",
+        "type": "binario"
+      },
+      {
+        "id": "V04",
+        "layer": "V1",
+        "short_name": "molecular_feasible",
+        "parameter": "Material apto para estudio molecular",
+        "value_0": "No",
+        "value_1": "Sí",
+        "value_U": "No valorado",
+        "type": "binario"
+      },
+      {
+        "id": "V05",
+        "layer": "V2",
+        "short_name": "nsclc_established",
+        "parameter": "Neoplasia epitelial maligna / NSCLC establecida",
+        "value_0": "No",
+        "value_1": "Sí",
+        "value_U": "Indeterminada",
+        "type": "derivado"
+      },
+      {
+        "id": "V06",
+        "layer": "V2",
+        "short_name": "glandular_diff",
+        "parameter": "Diferenciación glandular presente",
+        "value_0": "Ausente",
+        "value_1": "Presente",
+        "value_U": "No valorable",
+        "type": "binario"
+      },
+      {
+        "id": "V07",
+        "layer": "V2",
+        "short_name": "mucin",
+        "parameter": "Mucina demostrable",
+        "value_0": "Ausente",
+        "value_1": "Presente",
+        "value_U": "No estudiada / no valorable",
+        "type": "binario"
+      },
+      {
+        "id": "V08",
+        "layer": "V2",
+        "short_name": "morph_adc",
+        "parameter": "Impresión morfológica final favorece adenocarcinoma",
+        "value_0": "No",
+        "value_1": "Sí",
+        "value_U": "No concluyente",
+        "type": "derivado"
+      },
+      {
+        "id": "V09",
+        "layer": "V3",
+        "short_name": "ttf1",
+        "parameter": "TTF-1 positivo",
+        "value_0": "Negativo",
+        "value_1": "Positivo",
+        "value_U": "No realizado",
+        "type": "binario"
+      },
+      {
+        "id": "V10",
+        "layer": "V3",
+        "short_name": "napsin",
+        "parameter": "Napsin A positivo",
+        "value_0": "Negativo",
+        "value_1": "Positivo",
+        "value_U": "No realizado",
+        "type": "binario"
+      },
+      {
+        "id": "V11",
+        "layer": "V3",
+        "short_name": "p40_not_dom",
+        "parameter": "p40 no dominante",
+        "value_0": "p40 difuso/fuerte compatible con escamoso dominante",
+        "value_1": "p40 ausente/débil/no dominante",
+        "value_U": "No realizado",
+        "type": "derivado"
+      },
+      {
+        "id": "V12",
+        "layer": "V3",
+        "short_name": "neuroend_not_dom",
+        "parameter": "Perfil neuroendocrino no dominante",
+        "value_0": "Perfil neuroendocrino dominante",
+        "value_1": "Ausente o no dominante",
+        "value_U": "No realizado",
+        "type": "derivado"
+      },
+      {
+        "id": "V13",
+        "layer": "V4",
+        "short_name": "extra_primary_excl",
+        "parameter": "Origen extrapulmonar más plausible razonablemente excluido",
+        "value_0": "No",
+        "value_1": "Sí",
+        "value_U": "Estudio incompleto",
+        "type": "derivado"
+      },
+      {
+        "id": "V14",
+        "layer": "V4",
+        "short_name": "clin_radio_path_conc",
+        "parameter": "Concordancia clínico-radiológico-patológica",
+        "value_0": "Discordancia relevante",
+        "value_1": "Concordancia suficiente",
+        "value_U": "No valorable",
+        "type": "derivado"
+      },
+      {
+        "id": "V15",
+        "layer": "V4",
+        "short_name": "molecular_pathway_ok",
+        "parameter": "Estudio molecular realizado o activado adecuadamente según circuito",
+        "value_0": "No",
+        "value_1": "Sí",
+        "value_U": "Pendiente / no aplicable todavía",
+        "type": "derivado"
+      },
+      {
+        "id": "V16",
+        "layer": "V4",
+        "short_name": "molecular_useful",
+        "parameter": "Resultado molecular compatible o útil para el eje adenocarcinoma-NSCLC",
+        "value_0": "No / contradictorio / fallo técnico",
+        "value_1": "Sí / informativo",
+        "value_U": "Pendiente / no disponible",
+        "type": "derivado"
+      }
+    ]
+  },
+  "template_case": {
+    "case_id": "TEMPLATE_0001",
+    "version": "SV-ADC-par-v1",
+    "L": {
+      "L01": "U",
+      "L02": "U",
+      "L03": "U",
+      "L04": "U",
+      "L05": "U",
+      "L06": "U",
+      "L07": "U",
+      "L08": "U",
+      "L09": "U",
+      "L10": "U",
+      "L11": "U",
+      "L12": "U",
+      "L13": "U",
+      "L14": "U",
+      "L15": "U",
+      "L16": "U",
+      "L17": "U",
+      "L18": "U",
+      "L19": "U",
+      "L20": "U",
+      "L21": "U",
+      "L22": "U",
+      "L23": "U",
+      "L24": "U",
+      "L25": "U"
+    },
+    "V": {
+      "V01": "U",
+      "V02": "U",
+      "V03": "U",
+      "V04": "U",
+      "V05": "U",
+      "V06": "U",
+      "V07": "U",
+      "V08": "U",
+      "V09": "U",
+      "V10": "U",
+      "V11": "U",
+      "V12": "U",
+      "V13": "U",
+      "V14": "U",
+      "V15": "U",
+      "V16": "U"
+    },
+    "label_L": "U",
+    "label_V": "U",
+    "label_global": "U",
+    "rule_trace": "seed_template_all_U",
+    "expert_review": "none",
+    "expert_delta": "",
+    "notes": "Plantilla semilla única con todos los ejes en U."
+  }
+}

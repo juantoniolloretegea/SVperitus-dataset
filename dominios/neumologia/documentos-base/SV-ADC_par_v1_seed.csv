@@ -1,0 +1,2 @@
+case_id,version,L01,L02,L03,L04,L05,L06,L07,L08,L09,L10,L11,L12,L13,L14,L15,L16,L17,L18,L19,L20,L21,L22,L23,L24,L25,V01,V02,V03,V04,V05,V06,V07,V08,V09,V10,V11,V12,V13,V14,V15,V16,label_L,label_V,label_global,rule_trace,expert_review,expert_delta,notes
+TEMPLATE_0001,SV-ADC-par-v1,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,seed_template_all_U,none,,Plantilla semilla única con todos los ejes en U.
