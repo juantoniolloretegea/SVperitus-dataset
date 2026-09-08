@@ -74,3 +74,15 @@ Las ocho mutaciones ejecutadas se detectaron y restauraron; la lectura del Excel
 
 **Estado actual:** catálogo curricular propuesto con reservas; perímetro no cerrado; primer universo sin elegir. El mandato de trabajo sigue autorizado. No se modifica el Lenguaje SV, no se integran ramas en main y no se declara cierre de fila 8. El anexo derivado del catálogo cerrado aún no se genera. La [biblioteca](../../dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/INDICE_BIBLIOTECA.md) distingue los manifiestos históricos de v0.1 y el de esta revisión.
 
+
+## Continuación de acotación v0.3 · correcciones humanas sobre conocimiento y consecuencias
+
+Base exacta: `dominio-ciberseguridad-inteligente@86b338e7a35d8a88ba9c354f7bcb314a9b79f357`.
+
+Se incorporan las órdenes del Director recibidas en esta sesión: no utilizar los tamaños 6/1/3/2/6/9 como arquitectura; preservar células SV legítimas; IA consejera vinculada al experto y sin aprendizaje de conocimientos durante el consejo; conocimiento previo trazable; explicación mediante fundamento reconstruible y frame; consecuencias de omitir conocimientos como motor para delimitar universos y rutas críticas.
+
+Resultado: Excel v0.3 con 36 hojas; base educativa v0.2 preservada; 29 productos candidatos, 127 trazas educativas, 14 relaciones propuestas, ocho cadenas de omisión especificadas y 12 obligaciones del consejo y frame. La revisión interna identifica que cierre relacional del Frame no equivale a suficiencia del conocimiento usado para aconsejar. Quince mutaciones estructurales ejecutadas y restauradas; 3.720 fórmulas exportadas con valores y sin errores de Excel. No se ejecutaron los testigos profesionales ni se constituyeron parámetros, células o Frames CYB.
+
+El mapa es una hipótesis de acotación, no un cierre G0. La primera operación y el total de parámetros permanecen sin adjudicar. La comparación se guiará por consecuencias, evidencia y finitud antes de recorrer G1–G5. No se reutilizan identificadores RETP/DFL ni se modifican sedes de Inmunología o Lenguaje.
+
+Fuentes, reservas, verificaciones e identidad del corte: `dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/INDICE_BIBLIOTECA.md`. La proyección derivada del Excel cerrado no se ha generado.

@@ -55,3 +55,9 @@ La instrucción aprobada y las órdenes del Director habilitan el trabajo prepar
 
 La actualización conserva el antecedente. El Excel, perímetro, mapa y manifiesto v0.1 siguen identificados como objetos históricos; no sustituyen esta revisión. No se declara integración en main ni cierre de la fila 8.
 
+
+## Actualización de trabajo · 08-09-2026 · acotación y consecuencias v0.3
+
+La revisión vigente es el [Excel v0.3](catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.3.xlsx), con [explicación y límites](catalogo-profesional/ACOTACION_Y_CONSECUENCIAS_v0.3.md). Se conserva v0.2 como antecedente educativo.
+
+La Dirección corrige el uso arquitectónico de tamaños inmunológicos y fija a la IA como consejera vinculada al experto, sobre conocimiento previamente admitido. Las consecuencias de omitir un enlace necesario orientan la constitución del dominio y sus futuras rutas críticas. Se proponen 29 productos profesionales, 127 trazas educativas y ocho testigos de omisión todavía no ejecutados. No se constituye ninguna célula ni Frame, no se estima el total paramétrico y el primer universo sigue sin seleccionar. El catálogo permanece propuesto con reservas; la actualización no declara aprobación humana de su contenido.

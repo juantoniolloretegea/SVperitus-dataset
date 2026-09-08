@@ -1,0 +1,204 @@
+{
+  "version": "0.3",
+  "naturaleza": "Inventario de fuentes adicional; no proyección del Excel ni anexo normativo de cierre.",
+  "fuentes": [
+    {
+      "id": "S001",
+      "url": "https://raw.githubusercontent.com/juantoniolloretegea/SVcustos-dataset/5e0ed66c62fe753b6e94af500ec00f2674fb92e7/MANIFIESTO_DE_ARQUITECTURA_DERECHOS_OBLIGACIONES_GARANTIAS_Y_FUNDAMENTOS_DEL_SISTEMA_VECTORIAL_SV_V1.md",
+      "final_url": "https://raw.githubusercontent.com/juantoniolloretegea/SVcustos-dataset/5e0ed66c62fe753b6e94af500ec00f2674fb92e7/MANIFIESTO_DE_ARQUITECTURA_DERECHOS_OBLIGACIONES_GARANTIAS_Y_FUNDAMENTOS_DEL_SISTEMA_VECTORIAL_SV_V1.md",
+      "bytes": 8768,
+      "sha256": "d7308508f352878576017fa515519ec15da1a53a6615523e61c09d7fd57c37d2",
+      "captured_utc": "2026-09-08T21:09:49.291902+00:00",
+      "status": "CAPTURADO",
+      "chars": 8563,
+      "scope": "Texto íntegro del manifiesto; arquitectura, invariantes y subordinación."
+    },
+    {
+      "id": "S002",
+      "url": "https://raw.githubusercontent.com/juantoniolloretegea/SVcustos-dataset/5e0ed66c62fe753b6e94af500ec00f2674fb92e7/README.md",
+      "final_url": "https://raw.githubusercontent.com/juantoniolloretegea/SVcustos-dataset/5e0ed66c62fe753b6e94af500ec00f2674fb92e7/README.md",
+      "bytes": 48551,
+      "sha256": "9131720681129e1161ad2581d0b9470fa1a132a5be6f801445347b268b9c0adf",
+      "captured_utc": "2026-09-08T21:09:49.352703+00:00",
+      "status": "CAPTURADO",
+      "chars": 47323,
+      "scope": "Apertura, mapa de sedes y niveles. Anexo clínico no utilizado."
+    },
+    {
+      "id": "S003",
+      "url": "https://www.itvia.online/de-svcustos-el-marco-framework-de-intrusion-hasta-svperitus",
+      "status": "ERROR",
+      "error": "HTTP Error 403: Forbidden",
+      "scope": "Sin acceso; no lectura del libro."
+    },
+    {
+      "id": "S004",
+      "url": "https://www.itvia.online/algebra-de-composicion-intercelularl-sv",
+      "status": "ERROR",
+      "error": "HTTP Error 403: Forbidden",
+      "scope": "Sin acceso; no lectura del libro."
+    },
+    {
+      "id": "S005",
+      "url": "https://www.itvia.online/pub/algebra-de-composicion-intercelular-del-marco-sv--ii-gramatica-general-de-composicion",
+      "status": "ERROR",
+      "error": "HTTP Error 403: Forbidden",
+      "scope": "Sin acceso al capítulo enlazado; no contenido admitido."
+    },
+    {
+      "id": "S006",
+      "url": "https://www.itvia.online/pub/algebra-de-composicion-intercelular--v-invariantes-agentes-especializados-y-operador-de-consulta-del-sistema",
+      "status": "ERROR",
+      "error": "HTTP Error 403: Forbidden",
+      "scope": "Sin acceso a la ruta consultada del Documento V; no contenido admitido."
+    },
+    {
+      "id": "S007",
+      "url": "https://github.com/juantoniolloretegea/SVperitus-dataset/blob/2dce3c597c1e71439f304045283980fea69a7e9c/dominios/inmunologia/cambio-rumbo/01-doctrina-inviolable/Fundamentos algebraico-semánticos del Sistema Vectorial SV.md",
+      "status": "CAPTURADO",
+      "bytes": 38689,
+      "sha256": "904f7536def8194d01121ef9e90bc913466fc8869f9fec52fb43e6cb7aefbb31",
+      "git_blob": "f5d634e353a19273ebe3eab319fac889eed4f84a",
+      "scope": "Texto íntegro disponible; relectura focal §§3 y 7; doble lectura previa inventariada.",
+      "cut": "2dce3c597c1e71439f304045283980fea69a7e9c"
+    },
+    {
+      "id": "S008",
+      "url": "https://github.com/juantoniolloretegea/SVperitus-dataset/blob/2dce3c597c1e71439f304045283980fea69a7e9c/dominios/inmunologia/cambio-rumbo/01-doctrina-inviolable/Origen doctrinal, definición y alcance de la U en el Sistema Vectorial SV.md",
+      "status": "CAPTURADO",
+      "bytes": 28321,
+      "sha256": "4a692f1f61376eacf4343c7ac1e724403bdf4594607f17dba1a39050af22798a",
+      "git_blob": "d55d431b8c200adf38410737f86c86a2b1d927c4",
+      "scope": "Texto íntegro: doble lectura previa; identidad exacta comprobada con corte citado.",
+      "cut": "2dce3c597c1e71439f304045283980fea69a7e9c"
+    },
+    {
+      "id": "S009",
+      "url": "https://github.com/juantoniolloretegea/SVperitus-dataset/blob/2dce3c597c1e71439f304045283980fea69a7e9c/dominios/inmunologia/cambio-rumbo/02-contexto-algebraico/Álgebra de composición intercelular del Sistema Vectorial SV · Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español®.pdf",
+      "status": "CAPTURADO",
+      "bytes": 214172,
+      "sha256": "ebd3e8196838e99c98417bd00ea3131dfb8e7c0b53504e55833a0c58f837e4ad",
+      "git_blob": "57f95536100fc48b8ca225c0fdbb63ba0b83e910",
+      "scope": "Índice de seis páginas leído; no sustituye lectura de los capítulos enlazados.",
+      "cut": "2dce3c597c1e71439f304045283980fea69a7e9c"
+    },
+    {
+      "id": "S010",
+      "url": "https://github.com/juantoniolloretegea/SVperitus-dataset/blob/fe8adf76aa030ba5ff4997be5772b5de5e4452f3/dominios/inmunologia/cambio-rumbo/03-base-documental-candidata/16-mapa-operaciones/Mapa_finito_universos_operacionales_catalogo_INMUNO_v0.8_v0.1_2026-09-03.md",
+      "status": "CAPTURADO",
+      "bytes": 16281,
+      "sha256": "8cad8abce94c691b5ea7a66fc5503b70a82cf8b426d700510e48a2412a88d77b",
+      "git_blob": "e53dad599ec1a66eb4d21a5405b186d9362661c0",
+      "scope": "Texto íntegro; identidad operacional, 32 candidatos, cobertura y límites.",
+      "cut": "fe8adf76aa030ba5ff4997be5772b5de5e4452f3"
+    },
+    {
+      "id": "S011",
+      "url": "https://github.com/juantoniolloretegea/SVperitus-dataset/blob/fe8adf76aa030ba5ff4997be5772b5de5e4452f3/dominios/inmunologia/cambio-rumbo/03-base-documental-candidata/10-atomicidad-en-evaluacion/Expediente_cierre_exhaustivo_G3-G5_raices_omitidas_y_SEM-MOD-007_OP-IMM-001_v0.1_2026-09-03.md",
+      "status": "CAPTURADO",
+      "bytes": 21646,
+      "sha256": "d18da1711834f37852343a6874aa04761a5e87a406336560082c795ab474cd20",
+      "git_blob": "7fb204a874059b7895b1eeac0ef3e7d438fe4821",
+      "scope": "Doble lectura previa; relectura §§9–14 para 27 parámetros, 32 raíces y configuración.",
+      "cut": "fe8adf76aa030ba5ff4997be5772b5de5e4452f3"
+    },
+    {
+      "id": "S012",
+      "url": "https://github.com/juantoniolloretegea/SVperitus-dataset/blob/fe8adf76aa030ba5ff4997be5772b5de5e4452f3/dominios/inmunologia/cambio-rumbo/03-base-documental-candidata/11-matrices-en-evaluacion/G6-MAT_propiedad_matricial_A0_OP-IMM-001_v0.1_2026-09-03.md",
+      "status": "CAPTURADO",
+      "bytes": 4854,
+      "sha256": "5abb320a662dfec3f7c4164e9660bea31d46a9cf2eda33b68867b792872e331b",
+      "git_blob": "ee894d6ee15c015caac229cf6ab69f3bbf7460ea",
+      "scope": "Relectura íntegra; propiedad, cuatro referencias y cuatro parámetros con configuración pendiente.",
+      "cut": "fe8adf76aa030ba5ff4997be5772b5de5e4452f3"
+    },
+    {
+      "id": "S013",
+      "url": "https://github.com/juantoniolloretegea/SVperitus-dataset/blob/fe8adf76aa030ba5ff4997be5772b5de5e4452f3/dominios/inmunologia/cambio-rumbo/03-base-documental-candidata/10-atomicidad-en-evaluacion/Adjudicacion_atomica_G5-ATM_SEM-EXP-005_OP-IMM-001_v0.1_2026-09-03.md",
+      "status": "CAPTURADO",
+      "bytes": 18256,
+      "sha256": "9a90e2a630c30dffe10032c27d4e81aeec5812ae4e6f04ee6ac4a938e029fb66",
+      "git_blob": "7454e0690f61c9d51eca9bad53e61a0144f1e4f2",
+      "scope": "Doble lectura previa; ejemplo de método G5, sin importar parámetro clínico.",
+      "cut": "fe8adf76aa030ba5ff4997be5772b5de5e4452f3"
+    },
+    {
+      "id": "S014",
+      "url": "https://raw.githubusercontent.com/juantoniolloretegea/SV-lenguaje-de-computacion/ab61d9bb7a2002d3a4a389e292c2a9b0a850d264/docs/calidad/PILARES_Y_RESTRICCIONES_DE_DISENO_DEL_LENGUAJE_DE_COMPUTACION_SV_2026_09_05.md",
+      "final_url": "https://raw.githubusercontent.com/juantoniolloretegea/SV-lenguaje-de-computacion/ab61d9bb7a2002d3a4a389e292c2a9b0a850d264/docs/calidad/PILARES_Y_RESTRICCIONES_DE_DISENO_DEL_LENGUAJE_DE_COMPUTACION_SV_2026_09_05.md",
+      "bytes": 22330,
+      "sha256": "73875d22f35cc299d2a4103e35e369481e99289e9ee679b841f54b5e4f872650",
+      "captured_utc": "2026-09-08T21:19:41.866488+00:00",
+      "status": "CAPTURADO",
+      "chars": 21898,
+      "scope": "Texto íntegro leído: geometría, autoridad, prohibiciones, contratos y límites de realización.",
+      "cut": "ab61d9bb7a2002d3a4a389e292c2a9b0a850d264",
+      "git_blob": "bba81c4ab115899fc4ae812bc7214aab6f39a9bd"
+    },
+    {
+      "id": "S015",
+      "url": "https://raw.githubusercontent.com/juantoniolloretegea/SV-lenguaje-de-computacion/ab61d9bb7a2002d3a4a389e292c2a9b0a850d264/docs/calidad/ACTA_TECNICA_DE_PERFILES_CONTRATOS_Y_ENSAMBLAJE_DEL_LENGUAJE_SV_2026_09_06.md",
+      "final_url": "https://raw.githubusercontent.com/juantoniolloretegea/SV-lenguaje-de-computacion/ab61d9bb7a2002d3a4a389e292c2a9b0a850d264/docs/calidad/ACTA_TECNICA_DE_PERFILES_CONTRATOS_Y_ENSAMBLAJE_DEL_LENGUAJE_SV_2026_09_06.md",
+      "bytes": 29014,
+      "sha256": "38673267da27fae204f81689aaaf4cb0fd123e7f2e4a3384850c44762c0c06d8",
+      "captured_utc": "2026-09-08T21:19:41.877328+00:00",
+      "status": "CAPTURADO",
+      "chars": 28562,
+      "scope": "Texto íntegro leído: perfiles, suficiencia, ensamblaje y reparto de autoridad.",
+      "cut": "ab61d9bb7a2002d3a4a389e292c2a9b0a850d264",
+      "git_blob": "1df9b818f3f531f628fe0e89dd2c497b5da52d4d"
+    },
+    {
+      "id": "S016",
+      "url": "https://raw.githubusercontent.com/juantoniolloretegea/SV-lenguaje-de-computacion/ab61d9bb7a2002d3a4a389e292c2a9b0a850d264/IR_CANONICA_BIENFORMACION_SV_v0_3.md",
+      "final_url": "https://raw.githubusercontent.com/juantoniolloretegea/SV-lenguaje-de-computacion/ab61d9bb7a2002d3a4a389e292c2a9b0a850d264/IR_CANONICA_BIENFORMACION_SV_v0_3.md",
+      "bytes": 30558,
+      "sha256": "d86f1642fdf0846668c77353b5c504b9c1b40cd110647ea464bd7ba3f23a22ea",
+      "captured_utc": "2026-09-08T21:19:41.984677+00:00",
+      "status": "CAPTURADO",
+      "chars": 30100,
+      "scope": "Relectura focal §4 completo: cierre relacional de Frame y no exhaustividad; resto no utilizado como evidencia nueva.",
+      "cut": "ab61d9bb7a2002d3a4a389e292c2a9b0a850d264",
+      "git_blob": "c1b4b0e1c06c1b22dff1f988fec1a1f079fcc5d2"
+    },
+    {
+      "id": "S017",
+      "url": "https://raw.githubusercontent.com/juantoniolloretegea/SV-matematica-semantica/b8fd32978292d25adf9b87cf71e409005dce642c/documentos/composicion/V_invariantes_agentes_operador_consulta.md",
+      "final_url": "https://raw.githubusercontent.com/juantoniolloretegea/SV-matematica-semantica/b8fd32978292d25adf9b87cf71e409005dce642c/documentos/composicion/V_invariantes_agentes_operador_consulta.md",
+      "bytes": 18061,
+      "sha256": "fbf53f17d8cbeb17dedb12dd098121ba1591e0603c2aa196d7bb454784123c2b",
+      "captured_utc": "2026-09-08T21:19:51.566215+00:00",
+      "status": "CAPTURADO",
+      "chars": 17476,
+      "scope": "Documento V íntegro leído: dominio, agente y consulta r/J/M. Madurez histórica de ejemplos no acredita aptitud actual.",
+      "cut": "b8fd32978292d25adf9b87cf71e409005dce642c",
+      "git_blob": "d609810b4072a4b61e29ef10f4d26751862b0c86"
+    },
+    {
+      "id": "S018",
+      "url": "https://raw.githubusercontent.com/juantoniolloretegea/SV-matematica-semantica/b8fd32978292d25adf9b87cf71e409005dce642c/documentos/composicion/III_horizonte_sucesos_reevaluacion_discreta.md",
+      "final_url": "https://raw.githubusercontent.com/juantoniolloretegea/SV-matematica-semantica/b8fd32978292d25adf9b87cf71e409005dce642c/documentos/composicion/III_horizonte_sucesos_reevaluacion_discreta.md",
+      "bytes": 11928,
+      "sha256": "9aeb3ce7bdea0cd7769760ed22eb7dd7b814cc39a273c5fb4a0470791964eaea",
+      "captured_utc": "2026-09-08T21:19:51.564020+00:00",
+      "status": "CAPTURADO",
+      "chars": 11529,
+      "scope": "Documento III íntegro leído: horizonte, frame, trayectoria y reevaluación.",
+      "cut": "b8fd32978292d25adf9b87cf71e409005dce642c",
+      "git_blob": "92caea3f63ace2f494c4871f69680fd38ab3ee77"
+    },
+    {
+      "id": "S019",
+      "url": "https://raw.githubusercontent.com/juantoniolloretegea/SV-matematica-semantica/b8fd32978292d25adf9b87cf71e409005dce642c/especificaciones/proposiciones/ESPECIFICACION_METODOLOGICA_SOBRE_SUCESOS_REEVALUACION_Y_FRAMES_EN_EL_SISTEMA_VECTORIAL_SV.md",
+      "final_url": "https://raw.githubusercontent.com/juantoniolloretegea/SV-matematica-semantica/b8fd32978292d25adf9b87cf71e409005dce642c/especificaciones/proposiciones/ESPECIFICACION_METODOLOGICA_SOBRE_SUCESOS_REEVALUACION_Y_FRAMES_EN_EL_SISTEMA_VECTORIAL_SV.md",
+      "bytes": 5789,
+      "sha256": "e39bc5f235267b354a9f5b8d1538a8c96f43dbc3e333315e0028978b8bec3227",
+      "captured_utc": "2026-09-08T21:19:51.576136+00:00",
+      "status": "CAPTURADO",
+      "chars": 5664,
+      "scope": "Texto íntegro leído: suceso→reevaluación→frame; tiempo como dato externo.",
+      "cut": "b8fd32978292d25adf9b87cf71e409005dce642c",
+      "git_blob": "1fbaa8c83bc9b35d5008f1f4f7ee823dc741808c"
+    }
+  ]
+}

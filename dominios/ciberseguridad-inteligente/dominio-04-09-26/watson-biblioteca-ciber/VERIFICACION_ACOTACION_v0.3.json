@@ -1,0 +1,518 @@
+{
+  "version": "0.3",
+  "alcance": "Control estructural; quince mutaciones ejecutadas. Ocho testigos de omisión sólo especificados, sin ejecución operacional ni Frame CYB.",
+  "baseline": 0,
+  "pruebas": [
+    {
+      "id": "MUT-01",
+      "celda": "01_Fuentes!A6",
+      "control": "11_Controles!C14",
+      "observado": 123,
+      "controles_discordantes_tras_restaurar": 0
+    },
+    {
+      "id": "MUT-02",
+      "celda": "05_Complementos!B5",
+      "control": "11_Controles!C14",
+      "observado": 1,
+      "controles_discordantes_tras_restaurar": 0
+    },
+    {
+      "id": "MUT-03",
+      "celda": "08_Trazas!J5",
+      "control": "11_Controles!C14",
+      "observado": 1,
+      "controles_discordantes_tras_restaurar": 0
+    },
+    {
+      "id": "MUT-04",
+      "celda": "05_Complementos!L54",
+      "control": "11_Controles!C14",
+      "observado": 1,
+      "controles_discordantes_tras_restaurar": 0
+    },
+    {
+      "id": "MUT-05",
+      "celda": "04_TKS!D5",
+      "control": "11_Controles!C14",
+      "observado": 1,
+      "controles_discordantes_tras_restaurar": 0
+    },
+    {
+      "id": "MUT-E01",
+      "celda": "15_Base_universitaria!M5",
+      "control": "23_Control_curricular!C11",
+      "observado": 1,
+      "controles_discordantes_tras_restaurar": 0
+    },
+    {
+      "id": "MUT-E02",
+      "celda": "15_Base_universitaria!F5",
+      "control": "23_Control_curricular!C6",
+      "observado": 241,
+      "controles_discordantes_tras_restaurar": 0
+    },
+    {
+      "id": "MUT-E03",
+      "celda": "15_Base_universitaria!M5",
+      "control": "23_Control_curricular!C12",
+      "observado": 1,
+      "controles_discordantes_tras_restaurar": 0
+    },
+    {
+      "id": "MA-01",
+      "celda": "26_Mapa_universos!A6",
+      "control": "31_Control_acotacion!C7",
+      "observado": 2,
+      "controles_discordantes_tras_restaurar": 0
+    },
+    {
+      "id": "MA-02",
+      "celda": "26_Mapa_universos!H5",
+      "control": "31_Control_acotacion!C7",
+      "observado": 1,
+      "controles_discordantes_tras_restaurar": 0
+    },
+    {
+      "id": "MA-03",
+      "celda": "27_Cobertura_aprendizaje!D5",
+      "control": "31_Control_acotacion!C8",
+      "observado": 1,
+      "controles_discordantes_tras_restaurar": 0
+    },
+    {
+      "id": "MA-04",
+      "celda": "27_Cobertura_aprendizaje!B5",
+      "control": "31_Control_acotacion!C9",
+      "observado": 1,
+      "controles_discordantes_tras_restaurar": 0
+    },
+    {
+      "id": "MA-05",
+      "celda": "28_Relaciones_candidatas!B5",
+      "control": "31_Control_acotacion!C13",
+      "observado": 1,
+      "controles_discordantes_tras_restaurar": 0
+    },
+    {
+      "id": "MA-06",
+      "celda": "27_Cobertura_aprendizaje!B105",
+      "control": "31_Control_acotacion!C10",
+      "observado": 1,
+      "controles_discordantes_tras_restaurar": 0
+    },
+    {
+      "id": "MA-07",
+      "celda": "34_Consecuencias_enlace!D5",
+      "control": "31_Control_acotacion!C17",
+      "observado": 1,
+      "controles_discordantes_tras_restaurar": 0
+    }
+  ],
+  "final": 0,
+  "recuentos": {
+    "00_Estatuto": 42,
+    "01_Fuentes": 36,
+    "02_Custodia": 49,
+    "03_NICE": 53,
+    "04_TKS": 68,
+    "05_Complementos": 123,
+    "06_Cobertura": 21,
+    "07_Operaciones": 22,
+    "08_Trazas": 244,
+    "09_Decisiones": 14,
+    "10_Adversarial": 14,
+    "11_Controles": 18,
+    "12_Glosario": 34,
+    "13_Relaciones_NICE": 182,
+    "14_Comparacion": 7,
+    "15_Base_universitaria": 40,
+    "16_Progresion": 8,
+    "17_Comp_educativos": 12,
+    "18_Necesidades_IA": 8,
+    "19_Consecuencias": 12,
+    "20_Familias": 15,
+    "21_Fuentes_educativas": 184,
+    "22_Revision_curricular": 18,
+    "23_Control_curricular": 17,
+    "24_Gobierno": 10,
+    "25_Delimitacion": 19,
+    "26_Mapa_universos": 29,
+    "27_Cobertura_aprendizaje": 127,
+    "28_Relaciones_candidatas": 14,
+    "29_Camino_constitutivo": 10,
+    "30_Revision_acotacion": 25,
+    "31_Control_acotacion": 21,
+    "32_Fuentes_metodo": 19,
+    "33_Correspondencia_mapa": 30,
+    "34_Consecuencias_enlace": 8,
+    "35_Consejo_y_frame": 12
+  },
+  "controles_acotacion": [
+    [
+      "CA-01",
+      "Operaciones candidatas",
+      29,
+      29,
+      "Cardinalidad de identidades; no universos constituidos."
+    ],
+    [
+      "CA-02",
+      "Fronteras condicionadas",
+      1,
+      1,
+      "CYO-20; separada del núcleo de trabajo."
+    ],
+    [
+      "CA-03",
+      "Duplicados o identidad incompleta",
+      0,
+      0,
+      "Campos de la tupla presentes; no prueba equivalencia semántica."
+    ],
+    [
+      "CA-04",
+      "Destinos / fuentes de trazas inválidos",
+      0,
+      0,
+      "Admite TRANSVERSAL y RESERVA expresamente."
+    ],
+    [
+      "CA-05",
+      "Asignaturas sin destino",
+      0,
+      0,
+      "Cobertura por unidad de inventario, no todo el temario."
+    ],
+    [
+      "CA-06",
+      "Complementos sin destino o reserva",
+      0,
+      0,
+      "Doce decisiones; no doce adiciones de conocimiento."
+    ],
+    [
+      "CA-07",
+      "Necesidades humanas sin destino",
+      0,
+      0,
+      "Ocho necesidades; situación y reservas conservadas."
+    ],
+    [
+      "CA-08",
+      "Operaciones sin traza educativa",
+      0,
+      0,
+      "Tener ancla no acredita fuente operacional suficiente."
+    ],
+    [
+      "CA-09",
+      "Extremos inválidos de relaciones",
+      0,
+      0,
+      "No comprueba todavía compatibilidad de codominios."
+    ],
+    [
+      "CA-10",
+      "Destinos inválidos del mapa histórico",
+      0,
+      0,
+      "CYO-23 se cuenta una vez aunque reciba dos antecedentes."
+    ],
+    [
+      "CA-11",
+      "Fuentes de método: identidad / huella",
+      0,
+      0,
+      "Control formal; los bytes se verifican externamente."
+    ],
+    [
+      "CA-12",
+      "Discordancias del control curricular v0.2",
+      0,
+      0,
+      "Controles anteriores conservados y reejecutados."
+    ],
+    [
+      "CA-13",
+      "Cadenas de omisión incompletas o con referencia inválida",
+      0,
+      0,
+      "Ocho testigos especificados; no campaña operacional ejecutada."
+    ],
+    [
+      "MA-01",
+      "Identidad operacional duplicada",
+      "DETECTADO Y RESTAURADO",
+      "DETECTADO Y RESTAURADO",
+      "Mutación sobre copia de trabajo; original restaurado."
+    ],
+    [
+      "MA-02",
+      "Campo de identidad vacío",
+      "DETECTADO Y RESTAURADO",
+      "DETECTADO Y RESTAURADO",
+      "Mutación sobre copia de trabajo; original restaurado."
+    ],
+    [
+      "MA-03",
+      "Destino de traza inexistente",
+      "DETECTADO Y RESTAURADO",
+      "DETECTADO Y RESTAURADO",
+      "Mutación sobre copia de trabajo; original restaurado."
+    ],
+    [
+      "MA-04",
+      "Asignatura privada de su destino",
+      "DETECTADO Y RESTAURADO",
+      "DETECTADO Y RESTAURADO",
+      "Mutación sobre copia de trabajo; original restaurado."
+    ],
+    [
+      "MA-05",
+      "Relación con extremo inexistente",
+      "DETECTADO Y RESTAURADO",
+      "DETECTADO Y RESTAURADO",
+      "Mutación sobre copia de trabajo; original restaurado."
+    ],
+    [
+      "MA-06",
+      "Unidad complementaria privada de su destino",
+      "DETECTADO Y RESTAURADO",
+      "DETECTADO Y RESTAURADO",
+      "Mutación sobre copia de trabajo; original restaurado."
+    ],
+    [
+      "MA-07",
+      "Conocimiento necesario ausente en cadena de consejo",
+      "DETECTADO Y RESTAURADO",
+      "DETECTADO Y RESTAURADO",
+      "Sólo sensibilidad del control estructural de la cadena."
+    ],
+    [
+      "DICTAMEN",
+      "PREACOTACIÓN PARA CONTRASTE",
+      "CON RESERVAS EXPLÍCITAS",
+      "NO CIERRE G0",
+      "No selecciona ni constituye el primer universo."
+    ]
+  ],
+  "controles": [
+    [
+      "ED-01",
+      "Asignaturas del plan",
+      40,
+      40,
+      "E011 · total de registros académicos."
+    ],
+    [
+      "ED-02",
+      "ECTS del plan",
+      240,
+      240,
+      "ECTS originales en texto; suma derivada."
+    ],
+    [
+      "ED-03",
+      "ECTS de primer curso",
+      60,
+      60,
+      "Control frente al plan."
+    ],
+    [
+      "ED-04",
+      "ECTS de segundo curso",
+      60,
+      60,
+      "Control frente al plan."
+    ],
+    [
+      "ED-05",
+      "ECTS de tercer curso",
+      60,
+      60,
+      "Control frente al plan."
+    ],
+    [
+      "ED-06",
+      "ECTS de cuarto curso",
+      60,
+      60,
+      "Control frente al plan."
+    ],
+    [
+      "ED-07",
+      "Identidad y referencias de asignatura",
+      0,
+      0,
+      "Duplicados o fuente ausente."
+    ],
+    [
+      "ED-08",
+      "Fuente no admisible en base",
+      0,
+      0,
+      "No usar cuarentena ni fallo de adquisición."
+    ],
+    [
+      "ED-09",
+      "Extremos de progresión ausentes",
+      0,
+      0,
+      "Control de relaciones de las ocho aristas."
+    ],
+    [
+      "ED-10",
+      "Custodia: duplicado o hash defectuoso",
+      0,
+      0,
+      "No confundir ausencia de captura declarada con hash inválido."
+    ],
+    [
+      "ED-11",
+      "Familias sin asignación",
+      0,
+      0,
+      "Cobertura del inventario editorial."
+    ],
+    [
+      "ED-12",
+      "Evidencia heredada: incidencias estructurales",
+      0,
+      0,
+      "Controles de las hojas 01–13 conservadas."
+    ],
+    [
+      "ED-13",
+      "Necesidades humanas incorporadas",
+      8,
+      8,
+      "Una fila por cada bloque aportado."
+    ],
+    [
+      "MUT-E01",
+      "Cambiar una fuente por otra inexistente",
+      "DETECTADO Y RESTAURADO",
+      "DETECTAR",
+      "Prueba ejecutada en esta revisión; defecto detectado y controles restaurados. Registro JSON vinculado en el índice."
+    ],
+    [
+      "MUT-E02",
+      "Cambiar la carga de una asignatura",
+      "DETECTADO Y RESTAURADO",
+      "DETECTAR",
+      "Prueba ejecutada en esta revisión; defecto detectado y controles restaurados. Registro JSON vinculado en el índice."
+    ],
+    [
+      "MUT-E03",
+      "Usar una captura en cuarentena",
+      "DETECTADO Y RESTAURADO",
+      "DETECTAR",
+      "Prueba ejecutada en esta revisión; defecto detectado y controles restaurados. Registro JSON vinculado en el índice."
+    ],
+    [
+      "DICTAMEN",
+      "Catálogo curricular propuesto",
+      "REVISABLE CON RESERVAS",
+      "ADOPCIÓN HUMANA",
+      "No cerrado; faltan complementos especializados indicados en 18. El primer universo sigue sin elegir."
+    ]
+  ],
+  "errores_formula": [],
+  "archivo_exportado": {
+    "hojas": 36,
+    "formulas_con_valores": 3720,
+    "errores_excel": [],
+    "hojas_v02_conservadas_en_valores_tipos_y_formulas": [
+      "01_Fuentes",
+      "02_Custodia",
+      "03_NICE",
+      "04_TKS",
+      "05_Complementos",
+      "06_Cobertura",
+      "08_Trazas",
+      "09_Decisiones",
+      "10_Adversarial",
+      "11_Controles",
+      "12_Glosario",
+      "13_Relaciones_NICE",
+      "14_Comparacion",
+      "15_Base_universitaria",
+      "16_Progresion",
+      "17_Comp_educativos",
+      "18_Necesidades_IA",
+      "19_Consecuencias",
+      "20_Familias",
+      "21_Fuentes_educativas",
+      "22_Revision_curricular",
+      "23_Control_curricular",
+      "24_Gobierno"
+    ],
+    "fuentes_adicionales_verificadas": 15,
+    "identificadores_y_huellas": "TEXTO",
+    "xlsx_bytes": 301901,
+    "xlsx_sha256": "fe738b05b0cfbc1d87a218baeaf36fcd0c2b4c7035dfb22424c3f96c2c6142f7",
+    "sin_resalvar_tras_verificacion": true
+  },
+  "limite_presentacion": {
+    "paneles_inmovilizados_no_serializados": [
+      "00_Estatuto",
+      "01_Fuentes",
+      "02_Custodia",
+      "03_NICE",
+      "04_TKS",
+      "05_Complementos",
+      "06_Cobertura",
+      "07_Operaciones",
+      "08_Trazas",
+      "09_Decisiones",
+      "10_Adversarial",
+      "11_Controles",
+      "12_Glosario",
+      "13_Relaciones_NICE",
+      "14_Comparacion",
+      "15_Base_universitaria",
+      "16_Progresion",
+      "17_Comp_educativos",
+      "18_Necesidades_IA",
+      "19_Consecuencias",
+      "20_Familias",
+      "21_Fuentes_educativas",
+      "22_Revision_curricular",
+      "23_Control_curricular",
+      "24_Gobierno",
+      "25_Delimitacion",
+      "26_Mapa_universos",
+      "27_Cobertura_aprendizaje",
+      "28_Relaciones_candidatas",
+      "29_Camino_constitutivo",
+      "30_Revision_acotacion",
+      "31_Control_acotacion",
+      "32_Fuentes_metodo",
+      "33_Correspondencia_mapa",
+      "34_Consecuencias_enlace",
+      "35_Consejo_y_frame"
+    ],
+    "efecto": "Limitación del exportador ya presente en v0.2. Tablas y filtros conservados; no afecta contenido."
+  },
+  "alcance_probatorio": "Quince mutaciones de controles de hoja ejecutadas y restauradas. Ocho testigos de omisión especificados, no ejecutados. Ningún Frame, parámetro o universo CYB constituido.",
+  "revision_visual": {
+    "hojas_nuevas_o_modificadas": [
+      "00_Estatuto",
+      "07_Operaciones",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35"
+    ],
+    "muestras_inspeccionadas": 19,
+    "alcance": "Inspección de rangos de muestra en trece hojas y seis rangos adicionales; no prueba semántica exhaustiva."
+  }
+}

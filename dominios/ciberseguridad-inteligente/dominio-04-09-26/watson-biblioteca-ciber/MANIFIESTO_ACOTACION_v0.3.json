@@ -1,0 +1,49 @@
+{
+  "version": "0.3",
+  "base_git": "86b338e7a35d8a88ba9c354f7bcb314a9b79f357",
+  "naturaleza": "Identidad exacta de entrega documental candidata; no proyección del Excel ni aprobación humana.",
+  "principal": "dominios/ciberseguridad-inteligente/dominio-04-09-26/catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.3.xlsx",
+  "archivos": [
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/README.md",
+      "bytes": 5631,
+      "sha256": "5d87e108bc6a1081b6d9589fce1b5b016db237940749eafa74bcc15153c1b356"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.3.xlsx",
+      "bytes": 301901,
+      "sha256": "fe738b05b0cfbc1d87a218baeaf36fcd0c2b4c7035dfb22424c3f96c2c6142f7"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/catalogo-profesional/ACOTACION_Y_CONSECUENCIAS_v0.3.md",
+      "bytes": 9363,
+      "sha256": "b889c251767de8cdde5f6c12a0eb2b2b46fe72cfee3402b2ada5b503e251462d"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/INDICE_BIBLIOTECA.md",
+      "bytes": 7096,
+      "sha256": "37e5a82c575eff598b8fc536ce99ca7670238b5dc716c2d1b1d9ae497adfe522"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/INVENTARIO_FUENTES_ACOTACION_v0.3.json",
+      "bytes": 12908,
+      "sha256": "e45ff4f9a8d0f4000439e6729f169cb9eea43a3f795e9bc3a608b125fe9645bb"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/VERIFICACION_ACOTACION_v0.3.json",
+      "bytes": 13075,
+      "sha256": "96c87cd0b2583f6085045bf35b9e2b1e5c0da007beff00736d8af908ce4ac33e"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/verificar_corte_acotacion_v0_3.py",
+      "bytes": 2222,
+      "sha256": "4d607b70d8a755000af1776eda8c3d140592e2c1eb0f0aa29c393b52c35bbce1"
+    },
+    {
+      "ruta": "docs/calidad/EXPEDIENTE_CIBERSEGURIDAD_INTELIGENTE_2026_09_08.md",
+      "bytes": 14030,
+      "sha256": "ee2ed0006133958b966bef94c5308629a4d00542c38534ccd90307547a051295"
+    }
+  ],
+  "exclusion": "Este manifiesto excluye su propia huella."
+}

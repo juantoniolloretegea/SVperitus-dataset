@@ -1,6 +1,23 @@
 # Biblioteca de trabajo de Ciberseguridad Inteligente
 
-## Revisión activa · curricular v0.2 · 08-09-2026
+## Revisión activa · acotación y consecuencias v0.3 · 08-09-2026
+
+Libro principal: [CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.3.xlsx](../catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.3.xlsx). Lectura y límites: [Acotación y consecuencias v0.3](../catalogo-profesional/ACOTACION_Y_CONSECUENCIAS_v0.3.md).
+
+Se incorporan las correcciones humanas sobre células SV, IA consejera vinculada al experto y consecuencias de omitir enlaces de conocimiento. La hoja 34 prepara ocho testigos de omisión y la 35 fija el fundamento explicable del consejo mediante r/J/M y Frame. El mapa de 29 productos es hipótesis de trabajo; no constituye el primer universo. El conocimiento utilizado por el consejero debe estar admitido previamente.
+
+| Pieza | Función |
+|---|---|
+| [INVENTARIO_FUENTES_ACOTACION_v0.3.json](INVENTARIO_FUENTES_ACOTACION_v0.3.json) | 19 registros adicionales, con 15 archivos disponibles y cuatro accesos rechazados; cortes y alcance de lectura. |
+| [VERIFICACION_ACOTACION_v0.3.json](VERIFICACION_ACOTACION_v0.3.json) | Quince mutaciones estructurales ejecutadas; ocho testigos profesionales sólo especificados; verificación del archivo y muestras visuales. |
+| [MANIFIESTO_ACOTACION_v0.3.json](MANIFIESTO_ACOTACION_v0.3.json) | Identidad exacta del corte documental; no aprobación constitutiva ni proyección del Excel. |
+| [verificar_corte_acotacion_v0_3.py](verificar_corte_acotacion_v0_3.py) | Verificador de sólo lectura, sin resalvar ni recalcular el libro. |
+
+Excel: 301901 bytes; SHA-256 `fe738b05b0cfbc1d87a218baeaf36fcd0c2b4c7035dfb22424c3f96c2c6142f7`. Fondo adicional privado: FUENTES_ACOTACION_CIBER_2026_09_08.zip, 12865473 bytes, SHA-256 `58ea28e7e0fc9def8205dd2aa6cc6ac9d3ea994ca5b7cd61d482bb38df30e6fc`. No se reproducen íntegramente sus fuentes externas en GitHub. Este fondo complementa el archivo curricular v0.2 y no es el anexo posterior al cierre del Excel.
+
+Las referencias reproducibles de los manifiestos antiguos son sus cortes: v0.2 en `86b338e7a35d8a88ba9c354f7bcb314a9b79f357`; v0.1 en `6bb83608929d1f3e9aa47cc12f2a5bbddfdcb436`. No se aplican a este índice modificado.
+
+## Antecedente curricular v0.2 · corte 86b338e
 
 Libro principal: [CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.2.xlsx](../catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.2.xlsx). Fundamentos y reservas: [Perímetro curricular v0.2](../catalogo-profesional/PERIMETRO_CURRICULAR_v0.2.md).
 
