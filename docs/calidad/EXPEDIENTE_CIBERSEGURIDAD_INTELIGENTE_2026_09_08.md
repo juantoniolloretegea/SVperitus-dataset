@@ -86,3 +86,16 @@ Resultado: Excel v0.3 con 36 hojas; base educativa v0.2 preservada; 29 productos
 El mapa es una hipótesis de acotación, no un cierre G0. La primera operación y el total de parámetros permanecen sin adjudicar. La comparación se guiará por consecuencias, evidencia y finitud antes de recorrer G1–G5. No se reutilizan identificadores RETP/DFL ni se modifican sedes de Inmunología o Lenguaje.
 
 Fuentes, reservas, verificaciones e identidad del corte: `dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/INDICE_BIBLIOTECA.md`. La proyección derivada del Excel cerrado no se ha generado.
+
+
+## Primer dictamen G5 · revisión v0.4 · 08-09-2026
+
+Base de continuidad: `10bbbdd0f6acb7c39abcff1d03481723dbfbeeea`. El Director revisa el catálogo y ordena buscar el primer parámetro. Se comparan CYO-07/14/23/26 y se selecciona para contraste documental OP-CYB-001, recorte de cierre de corrección de CYO-26. El expediente único reúne selección, G0/G1, Q0 finito, observación, consecuencias y adversarial; no se generan actas de recepción derivadas.
+
+Resultado: `PAR-CYB-REINICIO-SISTEMA-REQUERIDO-001` v0.1 recibe dictamen interno `PARAMETRO_ATOMICO` en un perfil documental WUA individual. Se propone para adopción soberana; no se simula una aprobación nominal de la Dirección. Distingue el requisito histórico, el reinicio posterior, el efecto y el permiso. Se conserva una U propia sin convertir fallos de captura en Tri.
+
+Excel principal v0.4: 45 hojas, 3.850 fórmulas; 34 hojas de v0.3 preservadas en valores, tipos y fórmulas. Veintiocho testigos sintéticos, una ablación semántica y dos comprobaciones de sensibilidad; 15 mutaciones anteriores reejecutadas y restauradas. Seis capturas nuevas verificadas. Un recuento con comodín incompatible con el motor de hoja se corrigió por estados de captura explícitos antes de entregar. Las fórmulas que devuelven ausencia de Tri tienen resultado vacío comprobado; el exportador omite su valor XML. No se declara captura WUA, ejecución del Lenguaje, segunda implementación semántica ni daño operacional observado.
+
+Q0 de trabajo: nueve raíces y 31 distinciones, de las que 30 permanecen pendientes. No se traslada esa cardinalidad a células. No se modifica Inmunología ni Lenguaje; se conserva RETP-105. Las siguientes dependencias son resultado individual, cumplimiento posterior y verificación de efecto, con identidad/aplicabilidad previas cuando sean necesarias. No procede G6 con un único éxito local.
+
+Objeto material: `dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/PRIMER_PARAMETRO_OP_CYB_001_v0.1.md`. El índice de la biblioteca apunta al corte activo y conserva los antecedentes.

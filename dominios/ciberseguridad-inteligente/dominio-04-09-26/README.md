@@ -61,3 +61,10 @@ La actualización conserva el antecedente. El Excel, perímetro, mapa y manifies
 La revisión vigente es el [Excel v0.3](catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.3.xlsx), con [explicación y límites](catalogo-profesional/ACOTACION_Y_CONSECUENCIAS_v0.3.md). Se conserva v0.2 como antecedente educativo.
 
 La Dirección corrige el uso arquitectónico de tamaños inmunológicos y fija a la IA como consejera vinculada al experto, sobre conocimiento previamente admitido. Las consecuencias de omitir un enlace necesario orientan la constitución del dominio y sus futuras rutas críticas. Se proponen 29 productos profesionales, 127 trazas educativas y ocho testigos de omisión todavía no ejecutados. No se constituye ninguna célula ni Frame, no se estima el total paramétrico y el primer universo sigue sin seleccionar. El catálogo permanece propuesto con reservas; la actualización no declara aprobación humana de su contenido.
+
+
+## Primer dictamen atómico · v0.4
+
+Tras la revisión humana del catálogo, se selecciona un recorte documental de CYO-26: evaluación de evidencia para cerrar una corrección por actualización en un activo IT. [OP-CYB-001 / Q0 v0.1](universos/OP-CYB-001/PRIMER_PARAMETRO_OP_CYB_001_v0.1.md) entrega el primer parámetro con dictamen favorable: requisito de reinicio al terminar una instalación individual, separado de cumplimiento posterior, eficacia y permiso.
+
+[Excel v0.4](catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.4.xlsx), hojas 36–44. Nueve preguntas raíz y 31 distinciones iniciales; una dictaminada, 30 pendientes. Veintiocho testigos documentales sintéticos y adversarial interna. No declara cierre del universo, célula, ruta, Frame ni capacidad productiva. La adopción soberana se distingue del dictamen de Watson.

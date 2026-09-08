@@ -1,0 +1,54 @@
+{
+  "version": "0.1",
+  "base_commit": "10bbbdd0f6acb7c39abcff1d03481723dbfbeeea",
+  "naturaleza": "Manifiesto de identidad de archivos; no proyección del catálogo Excel ni firma criptográfica del Director.",
+  "libro_principal": "dominios/ciberseguridad-inteligente/dominio-04-09-26/catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.4.xlsx",
+  "archivos": [
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.4.xlsx",
+      "bytes": "342307",
+      "sha256": "b82d07a1e503392a6c94e7b1d42991c31192939dfe0cd6ad1d6587d6f000740c"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/PRIMER_PARAMETRO_OP_CYB_001_v0.1.md",
+      "bytes": "19407",
+      "sha256": "e500d0dd167c89c93bf3e567b9ba8bc5537ebf3393571551595e68edd99843fa"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/VERIFICACION_PRIMER_PARAMETRO_v0.1.json",
+      "bytes": "19081",
+      "sha256": "cf24b40bd736d7de74a346a6ae84f0f171f830435501f562fcaa0916f3c9344f"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/INVENTARIO_FUENTES_PRIMER_PARAMETRO_v0.1.json",
+      "bytes": "10215",
+      "sha256": "281e02ba95ee299c99e40aa74fe056d250d1250ef413c2b3332c5677ea2e0622"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/verificar_primer_parametro_v0_1.py",
+      "bytes": "2245",
+      "sha256": "bc95ff95759524ae08c6f3189244d10a143c92b72e10808100dd0436a981edeb"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/INDICE_BIBLIOTECA.md",
+      "bytes": "8835",
+      "sha256": "a77667f6799133253433fa0174706b93e56e6ae3264f16806a5f5d7c924ed934"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/README.md",
+      "bytes": "6484",
+      "sha256": "f81d41e2b39f674ced714e19e39c9fedcb76ba4cffbd1c263444ffbf21b1fc98"
+    },
+    {
+      "ruta": "docs/calidad/EXPEDIENTE_CIBERSEGURIDAD_INTELIGENTE_2026_09_08.md",
+      "bytes": "16136",
+      "sha256": "f737e82eee5f7ee3d7d365651c4c5f1e3c9303fe3dc3fcd349e94724c0850f05"
+    }
+  ],
+  "excluye": "El propio manifiesto para evitar autorreferencia; las capturas de terceros se conservan en archivo privado separado.",
+  "fuentes_privadas": {
+    "nombre": "FUENTES_PRIMER_PARAMETRO_CIBER_2026_09_08.zip",
+    "bytes": "624343",
+    "sha256": "b5eefeaa83617ed23f174c0f88af35e9d04fbac9f26639f0c6a13e67d29ab884"
+  }
+}

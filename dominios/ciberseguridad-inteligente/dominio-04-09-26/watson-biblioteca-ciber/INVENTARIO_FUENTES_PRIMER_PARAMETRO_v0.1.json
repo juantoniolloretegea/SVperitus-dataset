@@ -1,0 +1,191 @@
+{
+  "naturaleza": "Inventario de fuentes específicas y capturas; no proyección normativa del catálogo.",
+  "nuevas_capturas": [
+    {
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-40r4.pdf",
+      "bytes": 562944,
+      "sha256": "351f4a828d6c0bc8bf98f25ba3f87ec5add0ed8cf8bb4a6e6cb4e7e4a9731833",
+      "paginas": 28,
+      "captura": "2026-09-08T22:07:40.439268+00:00",
+      "estado": "PDF_ORIGINAL_CAPTURADO",
+      "id": "T001",
+      "archivo": "T001_SP80040r4.pdf"
+    },
+    {
+      "id": "T002",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/api/wuapi/nf-wuapi-iupdateinstallationresult-get_rebootrequired",
+      "bytes": 50835,
+      "sha256": "60d570d8f3004189142e2071cad26b8f442365276580c2b925733bffe3b012db",
+      "final_url": "https://learn.microsoft.com/en-us/windows/win32/api/wuapi/nf-wuapi-iupdateinstallationresult-get_rebootrequired",
+      "captura": "2026-09-08T22:08:35.637984+00:00",
+      "estado": "HTML_ORIGINAL_CAPTURADO",
+      "archivo": "T002.html"
+    },
+    {
+      "id": "T003",
+      "url": "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-uamg/eee24bbd-0be7-4a81-bed5-bff1fbb1832b",
+      "bytes": 36052,
+      "sha256": "706aa7f8fe5da9cc90ebbff73708976dbf1f80a3381eed4d91a14b0cb1743722",
+      "final_url": "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-uamg/eee24bbd-0be7-4a81-bed5-bff1fbb1832b",
+      "captura": "2026-09-08T22:08:35.641328+00:00",
+      "estado": "HTML_ORIGINAL_CAPTURADO",
+      "archivo": "T003.html"
+    },
+    {
+      "id": "T004",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/api/wuapi/ne-wuapi-operationresultcode",
+      "bytes": 50381,
+      "sha256": "d016f124e76dd51c6921338682697ecc9f81d3cb34925277261b71a1b9f67f8c",
+      "final_url": "https://learn.microsoft.com/en-us/windows/win32/api/wuapi/ne-wuapi-operationresultcode",
+      "captura": "2026-09-08T22:08:35.646691+00:00",
+      "estado": "HTML_ORIGINAL_CAPTURADO",
+      "archivo": "T004.html"
+    },
+    {
+      "id": "T005",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/wua_sdk/iupdateinstallationresult-properties",
+      "bytes": 47714,
+      "sha256": "9225a152705099736623664d8d79507c79175632f17b7590c6678df8dabea0ec",
+      "final_url": "https://learn.microsoft.com/en-us/windows/win32/wua_sdk/iupdateinstallationresult-properties",
+      "captura": "2026-09-08T22:08:35.760630+00:00",
+      "estado": "HTML_ORIGINAL_CAPTURADO",
+      "archivo": "T005.html"
+    },
+    {
+      "id": "T006",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/api/wuapi/nf-wuapi-iinstallationresult-getupdateResult",
+      "bytes": 50707,
+      "sha256": "55decce78c4396ff2a1b28ab75624d40891eecf7cf7dc73733452c8abb6eafcb",
+      "final_url": "https://learn.microsoft.com/en-us/windows/win32/api/wuapi/nf-wuapi-iinstallationresult-getupdateResult",
+      "captura": "2026-09-08T22:08:35.674168+00:00",
+      "estado": "HTML_ORIGINAL_CAPTURADO",
+      "archivo": "T006.html"
+    }
+  ],
+  "fichas_de_fuentes": [
+    {
+      "id": "T001",
+      "titulo": "NIST SP 800-40 Rev. 4 · abril 2022",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-40r4.pdf",
+      "localizador": "§§2.1–2.3, pp.3–7; §3.2, pp.10–11 (impresas)",
+      "uso": "Método profesional: instalación, completitud, efecto y contexto de mantenimiento.",
+      "estado": "PDF_ORIGINAL_CAPTURADO",
+      "bytes": "562944",
+      "sha256": "351f4a828d6c0bc8bf98f25ba3f87ec5add0ed8cf8bb4a6e6cb4e7e4a9731833",
+      "limite": "CAPTURA CONGELADA; incorporación productiva sólo por decisión humana"
+    },
+    {
+      "id": "T002",
+      "titulo": "Microsoft · RebootRequired individual · 22-02-2024",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/api/wuapi/nf-wuapi-iupdateinstallationresult-get_rebootrequired",
+      "localizador": "IUpdateInstallationResult::get_RebootRequired",
+      "uso": "Semántica del observable de este perfil.",
+      "estado": "HTML_ORIGINAL_CAPTURADO",
+      "bytes": "50835",
+      "sha256": "60d570d8f3004189142e2071cad26b8f442365276580c2b925733bffe3b012db",
+      "limite": "CAPTURA CONGELADA; incorporación productiva sólo por decisión humana"
+    },
+    {
+      "id": "T003",
+      "titulo": "Microsoft · InstallationRebootBehavior · 24-06-2021",
+      "url": "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-uamg/eee24bbd-0be7-4a81-bed5-bff1fbb1832b",
+      "localizador": "MS-UAMG §2.2.2",
+      "uso": "Contraste: predicción del paquete no sustituye resultado individual.",
+      "estado": "HTML_ORIGINAL_CAPTURADO",
+      "bytes": "36052",
+      "sha256": "706aa7f8fe5da9cc90ebbff73708976dbf1f80a3381eed4d91a14b0cb1743722",
+      "limite": "CAPTURA CONGELADA; incorporación productiva sólo por decisión humana"
+    },
+    {
+      "id": "T004",
+      "titulo": "Microsoft · OperationResultCode · 22-02-2024",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/api/wuapi/ne-wuapi-operationresultcode",
+      "localizador": "Constantes orcSucceeded, orcSucceededWithErrors, etc.",
+      "uso": "Condición y exclusiones del perfil de observación.",
+      "estado": "HTML_ORIGINAL_CAPTURADO",
+      "bytes": "50381",
+      "sha256": "d016f124e76dd51c6921338682697ecc9f81d3cb34925277261b71a1b9f67f8c",
+      "limite": "CAPTURA CONGELADA; incorporación productiva sólo por decisión humana"
+    },
+    {
+      "id": "T005",
+      "titulo": "Microsoft · IUpdateInstallationResult Properties · 07-01-2021",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/wua_sdk/iupdateinstallationresult-properties",
+      "localizador": "HResult, RebootRequired, ResultCode",
+      "uso": "Propiedades distintas, no intercambiables.",
+      "estado": "HTML_ORIGINAL_CAPTURADO",
+      "bytes": "47714",
+      "sha256": "9225a152705099736623664d8d79507c79175632f17b7590c6678df8dabea0ec",
+      "limite": "CAPTURA CONGELADA; incorporación productiva sólo por decisión humana"
+    },
+    {
+      "id": "T006",
+      "titulo": "Microsoft · GetUpdateResult · 22-02-2024",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/api/wuapi/nf-wuapi-iinstallationresult-getupdateResult",
+      "localizador": "IInstallationResult::GetUpdateResult; parámetros y retorno",
+      "uso": "Resultado individual y correspondencia con índice de actualización.",
+      "estado": "HTML_ORIGINAL_CAPTURADO",
+      "bytes": "50707",
+      "sha256": "55decce78c4396ff2a1b28ab75624d40891eecf7cf7dc73733452c8abb6eafcb",
+      "limite": "CAPTURA CONGELADA; incorporación productiva sólo por decisión humana"
+    },
+    {
+      "id": "R025",
+      "titulo": "URJC · Sistemas Operativos 2026–27",
+      "url": "https://gestion3.urjc.es/guiasdocentes/pdfGuia.jsp?txtAsignatura=2285025&txtTitulacion=2285&txtCursoAcademico=2026-27",
+      "localizador": "IV, temas 2/4/5/6",
+      "uso": "Base educativa; no prueba automática de efecto de un parche.",
+      "estado": "CAPTURA ANTERIOR VERIFICADA",
+      "bytes": "282277",
+      "sha256": "b3af36599e0e0358090f8457da07c8994e6c92e02e01368c49c63ca44a24c540",
+      "limite": "Corte anterior conservado; no nueva adquisición"
+    },
+    {
+      "id": "R035",
+      "titulo": "URJC · Gestión del Ciberriesgo 2026–27",
+      "url": "https://gestion3.urjc.es/guiasdocentes/pdfGuia.jsp?txtAsignatura=2285036&txtTitulacion=2285&txtCursoAcademico=2026-27",
+      "localizador": "IV, unidades 6/9/11",
+      "uso": "Impacto, mitigación y sesgos; no puntuación automática.",
+      "estado": "CAPTURA ANTERIOR VERIFICADA",
+      "bytes": "278163",
+      "sha256": "099a3eb2a03c5040f76ddc3676ae6ed1987e0432626f014812a720fd204c0eea",
+      "limite": "Corte anterior conservado; no nueva adquisición"
+    },
+    {
+      "id": "R033",
+      "titulo": "URJC · Inteligencia de Seguridad 2026–27",
+      "url": "https://gestion3.urjc.es/guiasdocentes/pdfGuia.jsp?txtAsignatura=2285033&txtTitulacion=2285&txtCursoAcademico=2026-27",
+      "localizador": "IV, continuidad BCP/DRP",
+      "uso": "Contexto de continuidad del servicio.",
+      "estado": "CAPTURA ANTERIOR VERIFICADA",
+      "bytes": "255674",
+      "sha256": "951ba49ae08e05ed51c8a017382fdd0c44d4d044848571e759a6962ed2f7f314",
+      "limite": "Corte anterior conservado; no nueva adquisición"
+    },
+    {
+      "id": "AM-01",
+      "titulo": "Contrato IMM NA0-MATH v0.3",
+      "url": "https://github.com/juantoniolloretegea/SVperitus-dataset/blob/fe8adf76aa030ba5ff4997be5772b5de5e4452f3/dominios/inmunologia/cambio-rumbo/03-base-documental-candidata/05-normalizacion-atomica-en-evaluacion/Contrato_matematico_parametro_atomico_matriz_ruta_INMUNO_v0.3_2026-09-02.md",
+      "localizador": "§§1,3–7",
+      "uso": "Diez pruebas de atomicidad; no se importan §§8–10 como nueva doctrina CYB.",
+      "estado": "CAPTURA ANTERIOR VERIFICADA",
+      "bytes": "15627",
+      "sha256": "5fce31d5d9f5c8d979171c1d91bd47a2a97fdb90fbef990fa8d3d1fda41c1f37",
+      "limite": "Corte anterior conservado; no nueva adquisición"
+    },
+    {
+      "id": "S013",
+      "titulo": "Primera adjudicación IMM SEM-EXP-005",
+      "url": "https://github.com/juantoniolloretegea/SVperitus-dataset/blob/fe8adf76aa030ba5ff4997be5772b5de5e4452f3/dominios/inmunologia/cambio-rumbo/03-base-documental-candidata/10-atomicidad-en-evaluacion/Adjudicacion_atomica_G5-ATM_SEM-EXP-005_OP-IMM-001_v0.1_2026-09-03.md",
+      "localizador": "§§3–9",
+      "uso": "Precedente de separación y contraste; no contenido clínico transferido.",
+      "estado": "CAPTURA ANTERIOR VERIFICADA",
+      "bytes": "18256",
+      "sha256": "9a90e2a630c30dffe10032c27d4e81aeec5812ae4e6f04ee6ac4a938e029fb66",
+      "limite": "Corte anterior conservado; no nueva adquisición"
+    }
+  ],
+  "lectura_T001": "§§1–2.3.4 y §3.2, con contexto de §§3–3.4; no se adopta toda recomendación del documento.",
+  "lectura_T002_T006": "Contenido principal íntegro de las cinco páginas; menús no son fuente técnica.",
+  "nota_acceso": "Primer intento T001 sin User-Agent: HTTP403; segundo GET público con User-Agent identificable: PDF capturado. Sin autenticación ni elusión de controles de acceso."
+}

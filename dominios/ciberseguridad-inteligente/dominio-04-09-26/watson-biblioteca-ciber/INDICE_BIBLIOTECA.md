@@ -1,6 +1,21 @@
 # Biblioteca de trabajo de Ciberseguridad Inteligente
 
-## Revisión activa · acotación y consecuencias v0.3 · 08-09-2026
+## Revisión activa · primer parámetro v0.4 · 08-09-2026
+
+Libro principal: [CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.4.xlsx](../catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.4.xlsx). Lectura: hojas 36–44; ficha del primer parámetro en 39.
+
+[Expediente único OP-CYB-001 / Q0 v0.1](../universos/OP-CYB-001/PRIMER_PARAMETRO_OP_CYB_001_v0.1.md): selección fundada, G0/G1, manifiesto finito, observables, consecuencias, contrato y adversarial integrada. Un parámetro con dictamen documental favorable de la unidad, propuesto para adopción soberana. Treinta distinciones pendientes; universo no cerrado; cero células, rutas y Frames.
+
+| Archivo | Función |
+|---|---|
+| [VERIFICACION_PRIMER_PARAMETRO_v0.1.json](VERIFICACION_PRIMER_PARAMETRO_v0.1.json) | 28 testigos documentales sintéticos, una ablación, dos comprobaciones de sensibilidad, controles de archivo y límites. |
+| [INVENTARIO_FUENTES_PRIMER_PARAMETRO_v0.1.json](INVENTARIO_FUENTES_PRIMER_PARAMETRO_v0.1.json) | Seis capturas nuevas y cinco antecedentes con función y huellas. |
+| [MANIFIESTO_PRIMER_PARAMETRO_v0.1.json](MANIFIESTO_PRIMER_PARAMETRO_v0.1.json) | Bytes del corte; no proyección normativa del catálogo ni aprobación humana. |
+| [verificar_primer_parametro_v0_1.py](verificar_primer_parametro_v0_1.py) | Sólo lectura de bytes, libro y concordancias; no ejecuta SV ni recalcula el Excel. |
+
+Capturas nuevas disponibles en el archivo privado `FUENTES_PRIMER_PARAMETRO_CIBER_2026_09_08.zip`; las páginas completas de terceros no se publican en este repositorio. El libro conserva como antecedentes las hojas de v0.3, con 29 actualizado para continuidad. No se produce todavía la proyección complementaria acordada para el cierre del catálogo.
+
+## Antecedente de acotación y consecuencias v0.3 · 08-09-2026
 
 Libro principal: [CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.3.xlsx](../catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.3.xlsx). Lectura y límites: [Acotación y consecuencias v0.3](../catalogo-profesional/ACOTACION_Y_CONSECUENCIAS_v0.3.md).
 
