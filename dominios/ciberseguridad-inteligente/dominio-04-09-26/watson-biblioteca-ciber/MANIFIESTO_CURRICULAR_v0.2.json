@@ -1,0 +1,53 @@
+{
+  "corte": "CYB-CURRICULAR-0.2-2026-09-08",
+  "rama": "dominio-ciberseguridad-inteligente",
+  "base_commit": "b0baa1d0ffea28a7b4ab78bd7917de0338dc8ab2",
+  "antecedente_v0_1": "6bb83608929d1f3e9aa47cc12f2a5bbddfdcb436",
+  "principal": "dominios/ciberseguridad-inteligente/dominio-04-09-26/catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.2.xlsx",
+  "estado": "PROPUESTA_CON_RESERVAS_PERIMETRO_NO_CERRADO",
+  "anexo_derivado_del_excel": "NO_GENERADO",
+  "alcance": "Identidad de los bytes entregados; no firma digital, aprobación humana, suficiencia semántica ni estabilidad entre guardados.",
+  "exclusion": "Este manifiesto no incluye su propia huella.",
+  "archivos": [
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/README.md",
+      "bytes": 4680,
+      "sha256": "b665353eb525146efc38fc36ecc3fc401baaddd88d08cfa72793f888be82fc2c"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.2.xlsx",
+      "bytes": 231792,
+      "sha256": "6629dfad787e8ede3962769414b26d70ff13203b2cf8d86bb041dbe79897bd20"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/catalogo-profesional/PERIMETRO_CURRICULAR_v0.2.md",
+      "bytes": 12457,
+      "sha256": "74dc6824d8a8d957c8a46765789e30c794b23d6ff4525e524a704b2e330a06d6"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/INDICE_BIBLIOTECA.md",
+      "bytes": 4968,
+      "sha256": "b4d51f7d7dbb133c3fcfad3e3c148ecd004e613ba2e4a7b977819bdb5568ce4b"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/INVENTARIO_FUENTES_CURRICULARES_v0.2.json",
+      "bytes": 116006,
+      "sha256": "dc16f12314844d54aa40b6539db42d2af43af1b2cdc672bae5489ab2e1c7d67b"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/VERIFICACION_CURRICULAR_v0.2.json",
+      "bytes": 7122,
+      "sha256": "772fee396d15190fa7c6a871fc69afbc7e314e0ca99204d15b27e904b611ff46"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/verificar_corte_curricular_v0_2.py",
+      "bytes": 2220,
+      "sha256": "12ec11d586bfba4fbd88bfb6e39bf57e0a546d884f43ce33bb648bfd2a81504a"
+    },
+    {
+      "ruta": "docs/calidad/EXPEDIENTE_CIBERSEGURIDAD_INTELIGENTE_2026_09_08.md",
+      "bytes": 12306,
+      "sha256": "321fde7aa20b9f459fa0e816e95ece8d4e814c2e01645546255c6ab55fe461ec"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # Expediente de Ciberseguridad Inteligente · 08-09-2026
 
+> Actualización vigente: revisión curricular v0.2 al final de este expediente. El primer tramo y sus cifras se conservan como antecedente v0.1.
+
 **Estado:** primer resultado documental preparado para revisión de perímetro y decisión constitutiva de operación. **Responsable del trabajo:** Watson, unidad CYB. **Asientos:** SVP-ACT-2026-003; SVP-H-007; SVP-DV-004.
 
 ## Apertura y corte
@@ -56,3 +58,19 @@ SVP-DV-004 mantiene una deuda aplicada y acotada: adopción del perímetro perti
 El anexo determinista se elaborará sólo tras cierre efectivo del catálogo. Se conservarán bytes y huella del Excel cerrado y se leerá sin resalvarlo; anexo y libro tendrán identidad separada con referencia inequívoca del primero al segundo. Un error real del catálogo genera revisión con historia conservada; un error del extractor no cambia el original. No se ha generado esa proyección en este corte.
 
 El futuro contraste puede demostrar pérdida, acreditar suficiencia en alcance o resultar no concluyente. La prueba de sensibilidad del observador precederá a cualquier pretensión de suficiencia. No se fuerza encontrar defectos ni abrir sucesivos universos. El cierre C1/fila 8 y el retorno final siguen pendientes del recorrido profesional y técnico, no de repetir permisos de lectura.
+
+
+## Actualización material · revisión curricular v0.2 · 08-09-2026
+
+La clarificación del Director exige un rector procedente de un plan educativo universitario. La propuesta NICE de v0.1 no satisfacía esa condición y queda rectificada: España/URJC, Grado en Ingeniería de la Ciberseguridad 2026–27, es el rector educativo propuesto; NICE permanece como contraste profesional. La prioridad de OPC-07 queda retirada. Las propuestas y comprobaciones anteriores se conservan como historia del corte v0.1 y no son una selección vigente de universo.
+
+El [libro principal v0.2](../../dominios/ciberseguridad-inteligente/dominio-04-09-26/catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.2.xlsx) contiene 25 hojas: base de 40 asignaturas y 240 ECTS, síntesis de conocimiento y saber hacer, 15 familias editoriales, progresión documentada, doce decisiones de complemento internacional, ocho necesidades aportadas por el Director, doce testigos educativos no ensayados, revisión interna y gobierno. Los [fundamentos y reservas](../../dominios/ciberseguridad-inteligente/dominio-04-09-26/catalogo-profesional/PERIMETRO_CURRICULAR_v0.2.md) delimitan exactamente el alcance.
+
+Los dos documentos de Inmunología destacados por el Director están fijados en el inventario de fuentes y aplicados en la hoja 24. La recepción de estratificación se identifica en 2dce3c597c1e71439f304045283980fea69a7e9c. El acta de continuidad se lee junto con la reconciliación y el manifiesto terminal, conforme a §6 de la instrucción aprobada. La ingeniería puede bloquear una realización sin resolver el fondo profesional; la IA no adopta conocimiento ni amplía el dominio de ejecución.
+
+La adversarial es interna de Watson. Se apartó el lote de PDF URJC discordante y se recuperaron secuencialmente sus 40 guías. Se conservan las reservas de ediciones, fichas incoherentes, metadatos y especializaciones sin guía detallada. No se declara cero reparos semánticos ni lectura íntegra de toda fuente adquirida.
+
+Las ocho mutaciones ejecutadas se detectaron y restauraron; la lectura del Excel exportado verifica 3.275 fórmulas con resultado, códigos y créditos originales en texto y conservación de los objetos profesionales heredados. Se inspeccionaron visualmente las 25 hojas. La ausencia de paneles inmovilizados en la exportación queda declarada como limitación de presentación. Los controles no prueban aprendizaje de personas ni ejecución operacional.
+
+**Estado actual:** catálogo curricular propuesto con reservas; perímetro no cerrado; primer universo sin elegir. El mandato de trabajo sigue autorizado. No se modifica el Lenguaje SV, no se integran ramas en main y no se declara cierre de fila 8. El anexo derivado del catálogo cerrado aún no se genera. La [biblioteca](../../dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/INDICE_BIBLIOTECA.md) distingue los manifiestos históricos de v0.1 y el de esta revisión.
+

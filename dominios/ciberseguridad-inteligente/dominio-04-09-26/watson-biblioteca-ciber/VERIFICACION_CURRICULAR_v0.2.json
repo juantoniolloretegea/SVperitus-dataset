@@ -1,0 +1,288 @@
+{
+  "version": "0.2",
+  "alcance": "Control estructural, ocho mutaciones ejecutadas; no evaluación del aprendizaje ni ejecución operacional.",
+  "baseline": 0,
+  "pruebas": [
+    {
+      "id": "MUT-01",
+      "celda": "01_Fuentes!A6",
+      "control": "11_Controles!C14",
+      "observado": 123,
+      "controles_discordantes_tras_restaurar": 0
+    },
+    {
+      "id": "MUT-02",
+      "celda": "05_Complementos!B5",
+      "control": "11_Controles!C14",
+      "observado": 1,
+      "controles_discordantes_tras_restaurar": 0
+    },
+    {
+      "id": "MUT-03",
+      "celda": "08_Trazas!J5",
+      "control": "11_Controles!C14",
+      "observado": 1,
+      "controles_discordantes_tras_restaurar": 0
+    },
+    {
+      "id": "MUT-04",
+      "celda": "05_Complementos!L54",
+      "control": "11_Controles!C14",
+      "observado": 1,
+      "controles_discordantes_tras_restaurar": 0
+    },
+    {
+      "id": "MUT-05",
+      "celda": "04_TKS!D5",
+      "control": "11_Controles!C14",
+      "observado": 1,
+      "controles_discordantes_tras_restaurar": 0
+    },
+    {
+      "id": "MUT-E01",
+      "celda": "15_Base_universitaria!M5",
+      "control": "23_Control_curricular!C11",
+      "observado": 1,
+      "controles_discordantes_tras_restaurar": 0
+    },
+    {
+      "id": "MUT-E02",
+      "celda": "15_Base_universitaria!F5",
+      "control": "23_Control_curricular!C6",
+      "observado": 241,
+      "controles_discordantes_tras_restaurar": 0
+    },
+    {
+      "id": "MUT-E03",
+      "celda": "15_Base_universitaria!M5",
+      "control": "23_Control_curricular!C12",
+      "observado": 1,
+      "controles_discordantes_tras_restaurar": 0
+    }
+  ],
+  "final": 0,
+  "recuentos": {
+    "00_Estatuto": 36,
+    "01_Fuentes": 36,
+    "02_Custodia": 49,
+    "03_NICE": 53,
+    "04_TKS": 68,
+    "05_Complementos": 123,
+    "06_Cobertura": 21,
+    "07_Operaciones": 22,
+    "08_Trazas": 244,
+    "09_Decisiones": 14,
+    "10_Adversarial": 14,
+    "11_Controles": 18,
+    "12_Glosario": 34,
+    "13_Relaciones_NICE": 182,
+    "14_Comparacion": 7,
+    "15_Base_universitaria": 40,
+    "16_Progresion": 8,
+    "17_Comp_educativos": 12,
+    "18_Necesidades_IA": 8,
+    "19_Consecuencias": 12,
+    "20_Familias": 15,
+    "21_Fuentes_educativas": 184,
+    "22_Revision_curricular": 18,
+    "23_Control_curricular": 17,
+    "24_Gobierno": 10
+  },
+  "controles": [
+    [
+      "ED-01",
+      "Asignaturas del plan",
+      40,
+      40,
+      "E011 · total de registros académicos."
+    ],
+    [
+      "ED-02",
+      "ECTS del plan",
+      240,
+      240,
+      "ECTS originales en texto; suma derivada."
+    ],
+    [
+      "ED-03",
+      "ECTS de primer curso",
+      60,
+      60,
+      "Control frente al plan."
+    ],
+    [
+      "ED-04",
+      "ECTS de segundo curso",
+      60,
+      60,
+      "Control frente al plan."
+    ],
+    [
+      "ED-05",
+      "ECTS de tercer curso",
+      60,
+      60,
+      "Control frente al plan."
+    ],
+    [
+      "ED-06",
+      "ECTS de cuarto curso",
+      60,
+      60,
+      "Control frente al plan."
+    ],
+    [
+      "ED-07",
+      "Identidad y referencias de asignatura",
+      0,
+      0,
+      "Duplicados o fuente ausente."
+    ],
+    [
+      "ED-08",
+      "Fuente no admisible en base",
+      0,
+      0,
+      "No usar cuarentena ni fallo de adquisición."
+    ],
+    [
+      "ED-09",
+      "Extremos de progresión ausentes",
+      0,
+      0,
+      "Control de relaciones de las ocho aristas."
+    ],
+    [
+      "ED-10",
+      "Custodia: duplicado o hash defectuoso",
+      0,
+      0,
+      "No confundir ausencia de captura declarada con hash inválido."
+    ],
+    [
+      "ED-11",
+      "Familias sin asignación",
+      0,
+      0,
+      "Cobertura del inventario editorial."
+    ],
+    [
+      "ED-12",
+      "Evidencia heredada: incidencias estructurales",
+      0,
+      0,
+      "Controles de las hojas 01–13 conservadas."
+    ],
+    [
+      "ED-13",
+      "Necesidades humanas incorporadas",
+      8,
+      8,
+      "Una fila por cada bloque aportado."
+    ],
+    [
+      "MUT-E01",
+      "Cambiar una fuente por otra inexistente",
+      "DETECTADO Y RESTAURADO",
+      "DETECTAR",
+      "Prueba ejecutada en esta revisión; defecto detectado y controles restaurados. Registro JSON vinculado en el índice."
+    ],
+    [
+      "MUT-E02",
+      "Cambiar la carga de una asignatura",
+      "DETECTADO Y RESTAURADO",
+      "DETECTAR",
+      "Prueba ejecutada en esta revisión; defecto detectado y controles restaurados. Registro JSON vinculado en el índice."
+    ],
+    [
+      "MUT-E03",
+      "Usar una captura en cuarentena",
+      "DETECTADO Y RESTAURADO",
+      "DETECTAR",
+      "Prueba ejecutada en esta revisión; defecto detectado y controles restaurados. Registro JSON vinculado en el índice."
+    ],
+    [
+      "DICTAMEN",
+      "Catálogo curricular propuesto",
+      "REVISABLE CON RESERVAS",
+      "ADOPCIÓN HUMANA",
+      "No cerrado; faltan complementos especializados indicados en 18. El primer universo sigue sin elegir."
+    ]
+  ],
+  "errores_formula": [],
+  "verificacion_archivo_exportado": {
+    "hojas": 25,
+    "formulas_con_valor_calculado": 3275,
+    "errores_excel": [],
+    "identificadores_y_ects_originales": "TEXTO_VERIFICADO",
+    "objetos_profesionales_y_trazas_heredados": "CONSERVADOS",
+    "capturas_verificadas": 166,
+    "limite": "Lectura del XML exportado; sin resalvar ni recalcular el libro."
+  },
+  "revision_visual": {
+    "hojas": [
+      "00_Estatuto",
+      "01_Fuentes",
+      "02_Custodia",
+      "03_NICE",
+      "04_TKS",
+      "05_Complementos",
+      "06_Cobertura",
+      "07_Operaciones",
+      "08_Trazas",
+      "09_Decisiones",
+      "10_Adversarial",
+      "11_Controles",
+      "12_Glosario",
+      "13_Relaciones_NICE",
+      "14_Comparacion",
+      "15_Base_universitaria",
+      "16_Progresion",
+      "17_Comp_educativos",
+      "18_Necesidades_IA",
+      "19_Consecuencias",
+      "20_Familias",
+      "21_Fuentes_educativas",
+      "22_Revision_curricular",
+      "23_Control_curricular",
+      "24_Gobierno"
+    ],
+    "rangos_adicionales": [
+      "15 I4:O7",
+      "17 F4:L7",
+      "19 D4:J7",
+      "24 C4:F8"
+    ],
+    "alcance": "Inspección visual de muestras por hoja, no prueba semántica exhaustiva."
+  },
+  "limitaciones_presentacion": {
+    "paneles_inmovilizados_no_conservados_en_exportacion": [
+      "00_Estatuto",
+      "01_Fuentes",
+      "02_Custodia",
+      "03_NICE",
+      "04_TKS",
+      "05_Complementos",
+      "06_Cobertura",
+      "07_Operaciones",
+      "08_Trazas",
+      "09_Decisiones",
+      "10_Adversarial",
+      "11_Controles",
+      "12_Glosario",
+      "13_Relaciones_NICE",
+      "14_Comparacion",
+      "15_Base_universitaria",
+      "16_Progresion",
+      "17_Comp_educativos",
+      "18_Necesidades_IA",
+      "19_Consecuencias",
+      "20_Familias",
+      "21_Fuentes_educativas",
+      "22_Revision_curricular",
+      "23_Control_curricular",
+      "24_Gobierno"
+    ],
+    "efecto": "El exportador no ha conservado la inmovilización solicitada por su API. Las tablas y sus filtros sí están en el archivo. No afecta a datos ni fórmulas."
+  }
+}

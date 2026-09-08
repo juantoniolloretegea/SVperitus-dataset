@@ -1,5 +1,7 @@
 # Dominio de ciberseguridad inteligente — corte abierto el 04-09-2026
 
+> Estado actual: catálogo curricular propuesto v0.2. Véase la actualización de 08-09-2026 al final de este documento. El estado de semilla que sigue corresponde al antecedente de apertura.
+
 - **Identificador del corte:** `DOM-CIB-2026-09-04`
 - **Rama de trabajo:** `dominio-ciberseguridad-inteligente`
 - **Ruta de trabajo:** `dominios/ciberseguridad-inteligente/dominio-04-09-26/`
@@ -37,3 +39,19 @@ PRIMER_RETORNO_DESDE_LENGUAJE       = DESPUES_DE_PR_60_N0_E_INVARIANTES_INTRINSE
 ```
 
 Hasta ese retorno no procede poblar `conjunto-de-datos/`, seleccionar un universo director, diseñar agentes, llamar modelos externos ni emitir requisitos al Lenguaje.
+
+
+## Actualización de trabajo · 08-09-2026 · revisión curricular v0.2
+
+La instrucción aprobada y las órdenes del Director habilitan el trabajo preparatorio de Ciberseguridad. El bloque de orden de apertura que antecede se conserva como historia del 04-09-2026 y deja de describir el estado actual.
+
+- **Trabajo activo:** delimitación del catálogo curricular y profesional.
+- **Libro principal propuesto:** [CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.2.xlsx](catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.2.xlsx).
+- **Fundamentos, cambios y reservas:** [Perímetro curricular v0.2](catalogo-profesional/PERIMETRO_CURRICULAR_v0.2.md).
+- **Inventario y custodia:** [Biblioteca de trabajo](watson-biblioteca-ciber/INDICE_BIBLIOTECA.md).
+- **Perímetro:** propuesta con reservas; cierre humano no registrado.
+- **Primer universo:** sin elegir. Se retira la prioridad de OPC-07 del corte v0.1.
+- **Dominios y Lenguaje:** no se constituye una ejecución ni se modifican sus núcleos.
+
+La actualización conserva el antecedente. El Excel, perímetro, mapa y manifiesto v0.1 siguen identificados como objetos históricos; no sustituyen esta revisión. No se declara integración en main ni cierre de la fila 8.
+
