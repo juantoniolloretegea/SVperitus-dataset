@@ -1,0 +1,52 @@
+{
+  "baseline": 0,
+  "tests": [
+    {
+      "id": "MUT-01",
+      "cell": "01_Fuentes!A6",
+      "incidencias": 123,
+      "restaurado": 0
+    },
+    {
+      "id": "MUT-02",
+      "cell": "05_Complementos!B5",
+      "incidencias": 1,
+      "restaurado": 0
+    },
+    {
+      "id": "MUT-03",
+      "cell": "08_Trazas!J5",
+      "incidencias": 1,
+      "restaurado": 0
+    },
+    {
+      "id": "MUT-04",
+      "cell": "05_Complementos!L54",
+      "incidencias": 1,
+      "restaurado": 0
+    },
+    {
+      "id": "MUT-05",
+      "cell": "04_TKS!D5",
+      "incidencias": 1,
+      "restaurado": 0
+    }
+  ],
+  "final": 0,
+  "counts": {
+    "00_Estatuto": 26,
+    "01_Fuentes": 36,
+    "02_Custodia": 49,
+    "03_Rector": 53,
+    "04_TKS": 68,
+    "05_Complementos": 123,
+    "06_Cobertura": 21,
+    "07_Operaciones": 22,
+    "08_Trazas": 244,
+    "09_Decisiones": 14,
+    "10_Adversarial": 14,
+    "11_Controles": 18,
+    "12_Glosario": 18,
+    "13_Relaciones_NICE": 182
+  }
+}

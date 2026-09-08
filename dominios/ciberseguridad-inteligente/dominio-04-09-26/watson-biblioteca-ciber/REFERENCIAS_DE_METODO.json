@@ -1,0 +1,116 @@
+{
+  "fecha": "2026-09-08",
+  "funcion": "Anclajes documentales; no equivalencia entre dominios ni nueva verificacion de toda su implementacion",
+  "referencias": [
+    {
+      "familia": "Metodo reconciliado de Inmunologia",
+      "repositorio": "juantoniolloretegea/SVperitus-dataset",
+      "commit": "fe8adf76aa030ba5ff4997be5772b5de5e4452f3",
+      "ruta": "dominios/inmunologia/cambio-rumbo/acta-rectificacion-metodologica-dominio-inmunologia-2026-08-31-v0.1.md",
+      "blob": "66d0b8c9a13216b53fb22addab65e6d9dead06ed",
+      "url": "https://github.com/juantoniolloretegea/SVperitus-dataset/blob/fe8adf76aa030ba5ff4997be5772b5de5e4452f3/dominios/inmunologia/cambio-rumbo/acta-rectificacion-metodologica-dominio-inmunologia-2026-08-31-v0.1.md"
+    },
+    {
+      "familia": "Metodo reconciliado de Inmunologia",
+      "repositorio": "juantoniolloretegea/SVperitus-dataset",
+      "commit": "fe8adf76aa030ba5ff4997be5772b5de5e4452f3",
+      "ruta": "dominios/inmunologia/cambio-rumbo/acta-secuencia-constitutiva-custodia-rumbo-y-acoplamiento-lenguaje-sv-inmunologia-2026-09-02-v0.1.md",
+      "blob": "ad3d0a0e57069e58c735fa91cc5300aad0593916",
+      "url": "https://github.com/juantoniolloretegea/SVperitus-dataset/blob/fe8adf76aa030ba5ff4997be5772b5de5e4452f3/dominios/inmunologia/cambio-rumbo/acta-secuencia-constitutiva-custodia-rumbo-y-acoplamiento-lenguaje-sv-inmunologia-2026-09-02-v0.1.md"
+    },
+    {
+      "familia": "Metodo reconciliado de Inmunologia",
+      "repositorio": "juantoniolloretegea/SVperitus-dataset",
+      "commit": "fe8adf76aa030ba5ff4997be5772b5de5e4452f3",
+      "ruta": "dominios/inmunologia/cambio-rumbo/adenda-reconciliacion-secuencia-constitutiva-y-puertas-inmunologia-2026-09-02-v0.1.md",
+      "blob": "8e460b263c5bec566a8baa0029da57c78cb57064",
+      "url": "https://github.com/juantoniolloretegea/SVperitus-dataset/blob/fe8adf76aa030ba5ff4997be5772b5de5e4452f3/dominios/inmunologia/cambio-rumbo/adenda-reconciliacion-secuencia-constitutiva-y-puertas-inmunologia-2026-09-02-v0.1.md"
+    },
+    {
+      "familia": "Metodo reconciliado de Inmunologia",
+      "repositorio": "juantoniolloretegea/SVperitus-dataset",
+      "commit": "fe8adf76aa030ba5ff4997be5772b5de5e4452f3",
+      "ruta": "dominios/inmunologia/cambio-rumbo/manifiesto-terminal-alcance-cobertura-y-terminacion-OP-IMM-001-Q0-v0-2026-09-03.md",
+      "blob": "6fe68bd7cfb4c5a4f8516a778e7a4af2fe5981c2",
+      "url": "https://github.com/juantoniolloretegea/SVperitus-dataset/blob/fe8adf76aa030ba5ff4997be5772b5de5e4452f3/dominios/inmunologia/cambio-rumbo/manifiesto-terminal-alcance-cobertura-y-terminacion-OP-IMM-001-Q0-v0-2026-09-03.md"
+    },
+    {
+      "familia": "Metodo reconciliado de Inmunologia",
+      "repositorio": "juantoniolloretegea/SVperitus-dataset",
+      "commit": "fe8adf76aa030ba5ff4997be5772b5de5e4452f3",
+      "ruta": "dominios/inmunologia/cambio-rumbo/03-base-documental-candidata/05-normalizacion-atomica-en-evaluacion/Contrato_matematico_parametro_atomico_matriz_ruta_INMUNO_v0.3_2026-09-02.md",
+      "blob": "2e0d78405a4cf0e65cf6b6eea49cac538ec643e5",
+      "url": "https://github.com/juantoniolloretegea/SVperitus-dataset/blob/fe8adf76aa030ba5ff4997be5772b5de5e4452f3/dominios/inmunologia/cambio-rumbo/03-base-documental-candidata/05-normalizacion-atomica-en-evaluacion/Contrato_matematico_parametro_atomico_matriz_ruta_INMUNO_v0.3_2026-09-02.md"
+    },
+    {
+      "familia": "Metodo reconciliado de Inmunologia",
+      "repositorio": "juantoniolloretegea/SVperitus-dataset",
+      "commit": "fe8adf76aa030ba5ff4997be5772b5de5e4452f3",
+      "ruta": "dominios/inmunologia/cambio-rumbo/03-base-documental-candidata/16-mapa-operaciones/Mapa_finito_universos_operacionales_catalogo_INMUNO_v0.8_v0.1_2026-09-03.md",
+      "blob": "e53dad599ec1a66eb4d21a5405b186d9362661c0",
+      "url": "https://github.com/juantoniolloretegea/SVperitus-dataset/blob/fe8adf76aa030ba5ff4997be5772b5de5e4452f3/dominios/inmunologia/cambio-rumbo/03-base-documental-candidata/16-mapa-operaciones/Mapa_finito_universos_operacionales_catalogo_INMUNO_v0.8_v0.1_2026-09-03.md"
+    },
+    {
+      "familia": "Metodo reconciliado de Inmunologia",
+      "repositorio": "juantoniolloretegea/SVperitus-dataset",
+      "commit": "fe8adf76aa030ba5ff4997be5772b5de5e4452f3",
+      "ruta": "dominios/inmunologia/marco-tecnico-de-universos-subdominios-y-modulos/01-op-imm-001-informacion-preinmunosupresion-adultos/retorno-gh-2026-09-07/RETORNO_GH_OP-IMM-001_Q0_v0_AL_LENGUAJE_SV_2026-09-07.md",
+      "blob": "b49c6e498f7ff027d767252090f61e13dec4d251",
+      "url": "https://github.com/juantoniolloretegea/SVperitus-dataset/blob/fe8adf76aa030ba5ff4997be5772b5de5e4452f3/dominios/inmunologia/marco-tecnico-de-universos-subdominios-y-modulos/01-op-imm-001-informacion-preinmunosupresion-adultos/retorno-gh-2026-09-07/RETORNO_GH_OP-IMM-001_Q0_v0_AL_LENGUAJE_SV_2026-09-07.md"
+    },
+    {
+      "familia": "Lenguaje / relevo",
+      "commit": "66967a80a40f4e2781ef983bd725690db54c25c5",
+      "titulo": "ACTA_DE_CONFORMIDAD_DE_TRANSICION_SECUENCIAL_DESDE_OP-IMM-001_AL_LENGUAJE_SV_2026_09_03.md",
+      "blob": "44f8fda87856ab16007195cab324d40a758e506a",
+      "url": "https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/66967a80a40f4e2781ef983bd725690db54c25c5/docs/dominios/inmunologia/ACTA_DE_CONFORMIDAD_DE_TRANSICION_SECUENCIAL_DESDE_OP-IMM-001_AL_LENGUAJE_SV_2026_09_03.md"
+    },
+    {
+      "familia": "Lenguaje / relevo",
+      "commit": "66967a80a40f4e2781ef983bd725690db54c25c5",
+      "titulo": "CANDIDATA_DE_FILA_7_Y_REPRODUCCION_SIN_INTERPRETES_2026_09_08.md",
+      "blob": "9edf9f0a1ad63949b5eb148a09398fa790342d79",
+      "url": "https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/66967a80a40f4e2781ef983bd725690db54c25c5/docs/arquitectura/CANDIDATA_DE_FILA_7_Y_REPRODUCCION_SIN_INTERPRETES_2026_09_08.md"
+    },
+    {
+      "familia": "Lenguaje / relevo",
+      "commit": "66967a80a40f4e2781ef983bd725690db54c25c5",
+      "titulo": "RESOLUCION_DE_PERDIDAS_GH_Y_TRANSPORTE_LIG_2026_09_08.md",
+      "blob": "d7c571255fa87f3b3cd684700baded4cb10667a2",
+      "url": "https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/66967a80a40f4e2781ef983bd725690db54c25c5/docs/arquitectura/RESOLUCION_DE_PERDIDAS_GH_Y_TRANSPORTE_LIG_2026_09_08.md"
+    },
+    {
+      "familia": "Lenguaje / relevo",
+      "commit": "66967a80a40f4e2781ef983bd725690db54c25c5",
+      "titulo": "ADVERSARIAL_DE_FILA_7_Y_FRONTERAS_DE_VERIFICACION_2026_09_08.md",
+      "blob": "fa1693fc5d6a834adb52571d9c8b70706a326cdd",
+      "url": "https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/66967a80a40f4e2781ef983bd725690db54c25c5/docs/calidad/ADVERSARIAL_DE_FILA_7_Y_FRONTERAS_DE_VERIFICACION_2026_09_08.md"
+    },
+    {
+      "familia": "Lenguaje / relevo",
+      "commit": "66967a80a40f4e2781ef983bd725690db54c25c5",
+      "titulo": "REGISTRO_EVOLUCION_TECNICA_PROYECTO.csv",
+      "blob": "1d7f819de714bd5ddc1a46a217708643a5eadd81",
+      "url": "https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/66967a80a40f4e2781ef983bd725690db54c25c5/docs/calidad/REGISTRO_EVOLUCION_TECNICA_PROYECTO.csv"
+    },
+    {
+      "familia": "Lenguaje / relevo",
+      "commit": "66967a80a40f4e2781ef983bd725690db54c25c5",
+      "titulo": "REGISTRO_DEUDA_VIVA_DEL_FRENTE_FINAL_DEL_LENGUAJE_SV.md",
+      "blob": "f8a95bdc5762f1506eca377c109e1e83a9097218",
+      "url": "https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/66967a80a40f4e2781ef983bd725690db54c25c5/docs/calidad/REGISTRO_DEUDA_VIVA_DEL_FRENTE_FINAL_DEL_LENGUAJE_SV.md"
+    },
+    {
+      "familia": "Semilla y custodia basal",
+      "titulo": "ACTA_INICIO_ALCANCE_Y_EVOLUCION_CIBERSEGURIDAD_INTELIGENTE_2026-09-04.md",
+      "blob": "99b1cccb6a93d244970b0f07f341a362266c41db",
+      "url": "https://github.com/juantoniolloretegea/SVperitus-dataset/blob/fc0eb24b7e23aaaf286fa5afdb4976a9f39f6167/dominios/ciberseguridad-inteligente/dominio-04-09-26/ACTA_INICIO_ALCANCE_Y_EVOLUCION_CIBERSEGURIDAD_INTELIGENTE_2026-09-04.md"
+    },
+    {
+      "familia": "Semilla y custodia basal",
+      "titulo": "README.md",
+      "blob": "cf2030ae7911bc29f5e96652775e4f818aeab96b",
+      "url": "https://github.com/juantoniolloretegea/SVperitus-dataset/blob/fc0eb24b7e23aaaf286fa5afdb4976a9f39f6167/especificaciones/custodia_basal_del_diseno/README.md"
+    }
+  ]
+}

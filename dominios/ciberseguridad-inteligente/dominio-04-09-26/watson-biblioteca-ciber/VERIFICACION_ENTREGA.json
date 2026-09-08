@@ -1,0 +1,23 @@
+{
+  "naturaleza": "Verificación de lectura; no proyección ni recálculo del catálogo",
+  "resultado": "PASA",
+  "xlsx_bytes": "153954",
+  "xlsx_sha256": "bab1740f1e42909a96b115a7e350d6acfc596257c8b3e615f291595f300b45e9",
+  "hojas": 14,
+  "tablas_con_filtro": 14,
+  "formulas_con_cache": 2682,
+  "roles_y_areas": 53,
+  "TKS": 68,
+  "complementos": 123,
+  "trazas": 244,
+  "relaciones_NICE": 182,
+  "inventario_relevo_verificado": 228,
+  "mutaciones_detectadas_y_restauradas": 5,
+  "incidencias": [],
+  "limites": [
+    "No prueba verdad o suficiencia de las síntesis",
+    "No establece aplicabilidad jurídica",
+    "No constituye ni ejecuta un universo",
+    "No recalcula las fórmulas: comprueba sus valores exportados y registro de sensibilidad previo"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "corte": "CYB-CATALOGO-0.1-2026-09-08",
+  "estado": "Candidato para revisión de perímetro y decisión constitutiva; no catálogo soberanamente cerrado",
+  "rama": "dominio-ciberseguridad-inteligente",
+  "commit_padre": "fc0eb24b7e23aaaf286fa5afdb4976a9f39f6167",
+  "principal": "dominios/ciberseguridad-inteligente/dominio-04-09-26/catalogo-profesional/CATALOGO_PROFESIONAL.xlsx",
+  "alcance": "Identidad de bytes de esta entrega documental, incluido el libro principal. No proyección determinista posterior ni firma digital.",
+  "autoexclusion": "Este manifiesto no contiene su propia huella; el commit Git que lo incorpora fija su identidad.",
+  "archivos": [
+    {
+      "ruta": "docs/calidad/DEUDA_VIVA_MINIMA_SVPERITUS.csv",
+      "bytes": "2094",
+      "sha256": "997bb99047cac6b31033b3c61de68e39c6a4271f616e4d26dac9abd3762efdf4",
+      "blob_git": "d86e8905e45acf298bee9d784992de00f47e4c5c"
+    },
+    {
+      "ruta": "docs/calidad/EXPEDIENTE_CIBERSEGURIDAD_INTELIGENTE_2026_09_08.md",
+      "bytes": "9186",
+      "sha256": "df425d07c946c1f496b5df1e2c1944a63ca3c4d3db6c6eb70a97917ec405d898",
+      "blob_git": "b30bd86db33d16ad26ba3a80cb18c46664837115"
+    },
+    {
+      "ruta": "docs/calidad/REGISTRO_MINIMO_DE_ACTUACIONES_POR_BLOQUE_Y_SEDE_SVPERITUS.csv",
+      "bytes": "2113",
+      "sha256": "e897b4fbec37d391e92b8d94346d022b2a56dd88d156afeb0c64f5202e4e7d1a",
+      "blob_git": "7a54703e6578df98c3ada49ee2e53840afea0f2b"
+    },
+    {
+      "ruta": "docs/calidad/REGISTRO_MINIMO_DE_HITOS_Y_CIERRES_SVPERITUS.csv",
+      "bytes": "3314",
+      "sha256": "ef24cc592f99f17bdd4b09a97c619245e6f55f1f8bede29aa372fa53d28c5786",
+      "blob_git": "0481ee00c626b7cd7e9ea210167c8bf1411d3511"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/catalogo-profesional/CATALOGO_PROFESIONAL.xlsx",
+      "bytes": "153954",
+      "sha256": "bab1740f1e42909a96b115a7e350d6acfc596257c8b3e615f291595f300b45e9",
+      "blob_git": "bcfdf86fdceb93b69caaf9674eac88b70aef8fec"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/catalogo-profesional/MAPA_OPERACIONES.md",
+      "bytes": "8326",
+      "sha256": "465a0a6dc59253061515394fecd17a2e1b93761a52ded810bf598abeb03180c4",
+      "blob_git": "c9e07df329043bd118d33fd65af06585b7c0c774"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/catalogo-profesional/PERIMETRO_Y_CRITERIOS.md",
+      "bytes": "10091",
+      "sha256": "47eea080c475cdaae9bcb527a881fc665660f5e3a3206bd5b9d3d575111c90b2",
+      "blob_git": "b9abec268521433c6e47d14bbab1cd1abbc2b2b0"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/Aprobada_INSTRUCCION_RELEVO_CIBERSEGURIDAD_INTELIGENTE_2026_09_08.md",
+      "bytes": "57734",
+      "sha256": "0d35f7511a1754a7bc16c50609714445a294e6505aa1ae91678a05222192e57a",
+      "blob_git": "90a70e1d52d612dce6b33266ec03548cc07887fc"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/EXTRACTOS_DE_FUENTES.json",
+      "bytes": "134568",
+      "sha256": "ff8183fe8f9a3b2a4938576bbea1c406062d78cb3cc09b791728580cb87ee32b",
+      "blob_git": "862e0eb95b317503fd008d5c72a42c649d06d733"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/INDICE_BIBLIOTECA.md",
+      "bytes": "1900",
+      "sha256": "233406553ce7fa73dc1e10e96d31a4f0bc1f7ed04779a1a87d4e4bad18150818",
+      "blob_git": "3faa2a55ab58f30f42bc9b6d880be84250187428"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/NICE_2.2.0.json.gz",
+      "bytes": "70138",
+      "sha256": "a1fefdde5d21f0edfd8bc1ae31f76b7976ba1a87ff3591f5ec8824da94d6fdd8",
+      "blob_git": "d329017aef422d29e0a486f54c70695872b31afd"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/PRUEBAS_FORMULAS.json",
+      "bytes": "973",
+      "sha256": "9091884bac3f304eef58aab3808612474dae05b0869d674e079272e49a816543",
+      "blob_git": "e1d9125e1a2cbc4c2d7b372c152aa4ef131847f8"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/RECEPCION_FILA7.json",
+      "bytes": "2051",
+      "sha256": "dcd670c3558806720d5714a77822329b35a68e070b2f15be0a5a1ac3e7070c17",
+      "blob_git": "64a7e627c6e2d57e929fca3ae1321b2228482e7c"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/REFERENCIAS_DE_METODO.json",
+      "bytes": "8387",
+      "sha256": "7af0974a6fa29215d86b1371133c48f35aaa24a2cea6b9ee4a8385c36f46d34c",
+      "blob_git": "83cc0b1ab155c0f041d2c465e910f073aad607f9"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/RELEVO_FILA7_10056736840.zip",
+      "bytes": "628075",
+      "sha256": "b4d310a8fd1fe55ecd114741eddc43c2639766fdf64264ce4cb09c3f7a615842",
+      "blob_git": "8911a7a9449732de9e6ff0a680c2050b0fad8738"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/VERIFICACION_ENTREGA.json",
+      "bytes": "767",
+      "sha256": "ab23f752eaabddd9524bc9af58bf117b4eccfe8efaf596fef6017ef15020b386",
+      "blob_git": "d9dd7f7c41b6c981ddc5ae566cb7ab4fa8ea9629"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/verificar_corte.py",
+      "bytes": "7627",
+      "sha256": "4d7d96686ab7a753b5398b8b1535d05b5b85a680154b5dd01fe6403c7b1499b1",
+      "blob_git": "9e5165a221b252f76bd271474023af5798466475"
+    }
+  ]
+}
