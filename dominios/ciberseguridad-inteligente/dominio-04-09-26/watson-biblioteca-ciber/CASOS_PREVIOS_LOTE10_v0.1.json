@@ -1,0 +1,2415 @@
+[
+  {
+    "id": "L10-02-01",
+    "parametro": "PAR-CYB-INSTALACION-EXITO-COMUNICADO-001",
+    "perfil": "WUA-RESULTADO-INDIVIDUAL-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "RESULTADO_WUA_INDIVIDUAL",
+    "observacion": "UNICA",
+    "valor1": "orcSucceeded",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "INSTALAR_INDIVIDUAL",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "1",
+      "diagnostico": "EXITO_COMUNICADO"
+    },
+    "razon": "Testigo positivo de la proposición; no licencia ninguna conclusión más amplia."
+  },
+  {
+    "id": "L10-02-02",
+    "parametro": "PAR-CYB-INSTALACION-EXITO-COMUNICADO-001",
+    "perfil": "WUA-RESULTADO-INDIVIDUAL-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "RESULTADO_WUA_INDIVIDUAL",
+    "observacion": "UNICA",
+    "valor1": "orcFailed",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "INSTALAR_INDIVIDUAL",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "0",
+      "diagnostico": "NO_EXITO_PLENO"
+    },
+    "razon": "Negativo explícito; en eventos exige cobertura del intervalo."
+  },
+  {
+    "id": "L10-02-03",
+    "parametro": "PAR-CYB-INSTALACION-EXITO-COMUNICADO-001",
+    "perfil": "WUA-RESULTADO-INDIVIDUAL-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "RESULTADO_WUA_INDIVIDUAL",
+    "observacion": "AUSENTE",
+    "valor1": "",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "INSTALAR_INDIVIDUAL",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "DATO_AUSENTE"
+    },
+    "razon": "Documento declara que falta la observación, sin convertir ausencia en 0."
+  },
+  {
+    "id": "L10-02-04",
+    "parametro": "PAR-CYB-INSTALACION-EXITO-COMUNICADO-001",
+    "perfil": "WUA-RESULTADO-INDIVIDUAL-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "RESULTADO_WUA_INDIVIDUAL",
+    "observacion": "CONFLICTO",
+    "valor1": "",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "INSTALAR_INDIVIDUAL",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "CONFLICTO_OBSERVACIONAL"
+    },
+    "razon": "Conflicto entre observaciones admitidas del mismo sujeto y corte."
+  },
+  {
+    "id": "L10-02-05",
+    "parametro": "PAR-CYB-INSTALACION-EXITO-COMUNICADO-001",
+    "perfil": "WUA-RESULTADO-INDIVIDUAL-0.1",
+    "identidad": "COINCIDE",
+    "captura": "FALLO",
+    "soporte": "RESULTADO_WUA_INDIVIDUAL",
+    "observacion": "UNICA",
+    "valor1": "orcSucceeded",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "INSTALAR_INDIVIDUAL",
+    "esperado": {
+      "clase": "FALLO_CAPTURA",
+      "tri": "",
+      "diagnostico": "SIN_EJECUCION_DOMINIO"
+    },
+    "razon": "El observador falla; no existe ejecución de dominio ni Tri alternativo."
+  },
+  {
+    "id": "L10-02-06",
+    "parametro": "PAR-CYB-INSTALACION-EXITO-COMUNICADO-001",
+    "perfil": "WUA-RESULTADO-INDIVIDUAL-0.1",
+    "identidad": "OTRO",
+    "captura": "LEGIBLE",
+    "soporte": "RESULTADO_WUA_INDIVIDUAL",
+    "observacion": "UNICA",
+    "valor1": "orcSucceeded",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "INSTALAR_INDIVIDUAL",
+    "esperado": {
+      "clase": "NO_ADMISION",
+      "tri": "",
+      "diagnostico": "IDENTIDAD"
+    },
+    "razon": "El testigo pertenece a otro sujeto; no se recicla su dato."
+  },
+  {
+    "id": "L10-02-07",
+    "parametro": "PAR-CYB-INSTALACION-EXITO-COMUNICADO-001",
+    "perfil": "WUA-RESULTADO-INDIVIDUAL-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "FUENTE_GENERAL",
+    "observacion": "UNICA",
+    "valor1": "orcSucceeded",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "INSTALAR_INDIVIDUAL",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "OBSERVACION_INSUFICIENTE"
+    },
+    "razon": "Una fuente del dominio no sustituye la observación específica del episodio."
+  },
+  {
+    "id": "L10-02-08",
+    "parametro": "PAR-CYB-INSTALACION-EXITO-COMUNICADO-001",
+    "perfil": "OTRO_PERFIL",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "RESULTADO_WUA_INDIVIDUAL",
+    "observacion": "UNICA",
+    "valor1": "orcSucceeded",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "INSTALAR_INDIVIDUAL",
+    "esperado": {
+      "clase": "FUERA_PERFIL",
+      "tri": "",
+      "diagnostico": "PERFIL_NO_CONSTITUIDO"
+    },
+    "razon": "Perfil de otro producto no se normaliza por analogía."
+  },
+  {
+    "id": "L10-02-09",
+    "parametro": "PAR-CYB-INSTALACION-EXITO-COMUNICADO-001",
+    "perfil": "WUA-RESULTADO-INDIVIDUAL-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "RESULTADO_WUA_INDIVIDUAL",
+    "observacion": "UNICA",
+    "valor1": "true false desconocido",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "INSTALAR_INDIVIDUAL",
+    "esperado": {
+      "clase": "NO_ADMISION",
+      "tri": "",
+      "diagnostico": "LEXEMA_O_FORMA"
+    },
+    "razon": "La observación usa un lexema ajeno al contrato."
+  },
+  {
+    "id": "L10-02-10",
+    "parametro": "PAR-CYB-INSTALACION-EXITO-COMUNICADO-001",
+    "perfil": "WUA-RESULTADO-INDIVIDUAL-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "RESULTADO_WUA_INDIVIDUAL",
+    "observacion": "UNICA",
+    "valor1": "orcSucceeded",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "PENDIENTE",
+    "esperado": {
+      "clase": "CONFIGURACION_PENDIENTE",
+      "tri": "",
+      "diagnostico": "CONTEXTO_NO_CONSTITUIDO"
+    },
+    "razon": "Falta el contexto profesional que fija qué se está evaluando."
+  },
+  {
+    "id": "L10-02-11",
+    "parametro": "PAR-CYB-INSTALACION-EXITO-COMUNICADO-001",
+    "perfil": "WUA-RESULTADO-INDIVIDUAL-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "RESULTADO_WUA_INDIVIDUAL",
+    "observacion": "UNICA",
+    "valor1": "orcSucceededWithErrors",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "INSTALAR_INDIVIDUAL",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "0",
+      "diagnostico": "NO_EXITO_PLENO"
+    },
+    "razon": "Resultado terminal distinto de éxito pleno; conserva el enum original."
+  },
+  {
+    "id": "L10-02-12",
+    "parametro": "PAR-CYB-INSTALACION-EXITO-COMUNICADO-001",
+    "perfil": "WUA-RESULTADO-INDIVIDUAL-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "RESULTADO_WUA_INDIVIDUAL",
+    "observacion": "UNICA",
+    "valor1": "orcAborted",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "INSTALAR_INDIVIDUAL",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "0",
+      "diagnostico": "NO_EXITO_PLENO"
+    },
+    "razon": "Resultado terminal distinto de éxito pleno; conserva el enum original."
+  },
+  {
+    "id": "L10-02-13",
+    "parametro": "PAR-CYB-INSTALACION-EXITO-COMUNICADO-001",
+    "perfil": "WUA-RESULTADO-INDIVIDUAL-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "RESULTADO_WUA_INDIVIDUAL",
+    "observacion": "UNICA",
+    "valor1": "orcNotStarted",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "INSTALAR_INDIVIDUAL",
+    "esperado": {
+      "clase": "FUERA_PERFIL",
+      "tri": "",
+      "diagnostico": "RESULTADO_NO_TERMINAL"
+    },
+    "razon": "Intento aún no terminal fuera del perfil; no falsear el resultado."
+  },
+  {
+    "id": "L10-02-14",
+    "parametro": "PAR-CYB-INSTALACION-EXITO-COMUNICADO-001",
+    "perfil": "WUA-RESULTADO-INDIVIDUAL-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "RESULTADO_WUA_INDIVIDUAL",
+    "observacion": "UNICA",
+    "valor1": "orcInProgress",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "INSTALAR_INDIVIDUAL",
+    "esperado": {
+      "clase": "FUERA_PERFIL",
+      "tri": "",
+      "diagnostico": "RESULTADO_NO_TERMINAL"
+    },
+    "razon": "Intento aún no terminal fuera del perfil; no falsear el resultado."
+  },
+  {
+    "id": "L10-03-01",
+    "parametro": "PAR-CYB-REINICIO-SISTEMA-REALIZADO-001",
+    "perfil": "EVENTO-REINICIO-COMPLETO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "ARRANQUE_COMPLETO",
+    "observacion": "UNICA",
+    "valor1": "REINICIO_COMPLETO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "1",
+      "diagnostico": "REINICIO_REALIZADO"
+    },
+    "razon": "Testigo positivo de la proposición; no licencia ninguna conclusión más amplia."
+  },
+  {
+    "id": "L10-03-02",
+    "parametro": "PAR-CYB-REINICIO-SISTEMA-REALIZADO-001",
+    "perfil": "EVENTO-REINICIO-COMPLETO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "ARRANQUE_COMPLETO",
+    "observacion": "UNICA",
+    "valor1": "NINGUNO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "0",
+      "diagnostico": "SIN_REINICIO_COMPLETO"
+    },
+    "razon": "Negativo explícito; en eventos exige cobertura del intervalo."
+  },
+  {
+    "id": "L10-03-03",
+    "parametro": "PAR-CYB-REINICIO-SISTEMA-REALIZADO-001",
+    "perfil": "EVENTO-REINICIO-COMPLETO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "ARRANQUE_COMPLETO",
+    "observacion": "AUSENTE",
+    "valor1": "",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "DATO_AUSENTE"
+    },
+    "razon": "Documento declara que falta la observación, sin convertir ausencia en 0."
+  },
+  {
+    "id": "L10-03-04",
+    "parametro": "PAR-CYB-REINICIO-SISTEMA-REALIZADO-001",
+    "perfil": "EVENTO-REINICIO-COMPLETO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "ARRANQUE_COMPLETO",
+    "observacion": "CONFLICTO",
+    "valor1": "",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "CONFLICTO_OBSERVACIONAL"
+    },
+    "razon": "Conflicto entre observaciones admitidas del mismo sujeto y corte."
+  },
+  {
+    "id": "L10-03-05",
+    "parametro": "PAR-CYB-REINICIO-SISTEMA-REALIZADO-001",
+    "perfil": "EVENTO-REINICIO-COMPLETO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "FALLO",
+    "soporte": "ARRANQUE_COMPLETO",
+    "observacion": "UNICA",
+    "valor1": "REINICIO_COMPLETO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "FALLO_CAPTURA",
+      "tri": "",
+      "diagnostico": "SIN_EJECUCION_DOMINIO"
+    },
+    "razon": "El observador falla; no existe ejecución de dominio ni Tri alternativo."
+  },
+  {
+    "id": "L10-03-06",
+    "parametro": "PAR-CYB-REINICIO-SISTEMA-REALIZADO-001",
+    "perfil": "EVENTO-REINICIO-COMPLETO-0.1",
+    "identidad": "OTRO",
+    "captura": "LEGIBLE",
+    "soporte": "ARRANQUE_COMPLETO",
+    "observacion": "UNICA",
+    "valor1": "REINICIO_COMPLETO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "NO_ADMISION",
+      "tri": "",
+      "diagnostico": "IDENTIDAD"
+    },
+    "razon": "El testigo pertenece a otro sujeto; no se recicla su dato."
+  },
+  {
+    "id": "L10-03-07",
+    "parametro": "PAR-CYB-REINICIO-SISTEMA-REALIZADO-001",
+    "perfil": "EVENTO-REINICIO-COMPLETO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "FUENTE_GENERAL",
+    "observacion": "UNICA",
+    "valor1": "REINICIO_COMPLETO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "OBSERVACION_INSUFICIENTE"
+    },
+    "razon": "Una fuente del dominio no sustituye la observación específica del episodio."
+  },
+  {
+    "id": "L10-03-08",
+    "parametro": "PAR-CYB-REINICIO-SISTEMA-REALIZADO-001",
+    "perfil": "OTRO_PERFIL",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "ARRANQUE_COMPLETO",
+    "observacion": "UNICA",
+    "valor1": "REINICIO_COMPLETO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "FUERA_PERFIL",
+      "tri": "",
+      "diagnostico": "PERFIL_NO_CONSTITUIDO"
+    },
+    "razon": "Perfil de otro producto no se normaliza por analogía."
+  },
+  {
+    "id": "L10-03-09",
+    "parametro": "PAR-CYB-REINICIO-SISTEMA-REALIZADO-001",
+    "perfil": "EVENTO-REINICIO-COMPLETO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "ARRANQUE_COMPLETO",
+    "observacion": "UNICA",
+    "valor1": "true false desconocido",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "NO_ADMISION",
+      "tri": "",
+      "diagnostico": "LEXEMA_O_FORMA"
+    },
+    "razon": "La observación usa un lexema ajeno al contrato."
+  },
+  {
+    "id": "L10-03-10",
+    "parametro": "PAR-CYB-REINICIO-SISTEMA-REALIZADO-001",
+    "perfil": "EVENTO-REINICIO-COMPLETO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "ARRANQUE_COMPLETO",
+    "observacion": "UNICA",
+    "valor1": "NINGUNO",
+    "valor2": "",
+    "cobertura": "PARCIAL",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "COBERTURA_INSUFICIENTE"
+    },
+    "razon": "Ningún evento encontrado en cobertura parcial: U, no 0."
+  },
+  {
+    "id": "L10-03-11",
+    "parametro": "PAR-CYB-REINICIO-SISTEMA-REALIZADO-001",
+    "perfil": "EVENTO-REINICIO-COMPLETO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "ARRANQUE_COMPLETO",
+    "observacion": "UNICA",
+    "valor1": "REINICIO_COMPLETO",
+    "valor2": "",
+    "cobertura": "PARCIAL",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "1",
+      "diagnostico": "REINICIO_REALIZADO"
+    },
+    "razon": "Un testigo positivo acredita existencia aunque la historia restante sea parcial."
+  },
+  {
+    "id": "L10-03-12",
+    "parametro": "PAR-CYB-REINICIO-SISTEMA-REALIZADO-001",
+    "perfil": "EVENTO-REINICIO-COMPLETO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "ARRANQUE_COMPLETO",
+    "observacion": "UNICA",
+    "valor1": "REINICIO_COMPLETO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_INCIERTO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "ORDEN_NO_ACREDITADO"
+    },
+    "razon": "El orden no está acreditado; la mera fecha no prueba posterioridad."
+  },
+  {
+    "id": "L10-03-13",
+    "parametro": "PAR-CYB-REINICIO-SISTEMA-REALIZADO-001",
+    "perfil": "EVENTO-REINICIO-COMPLETO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "ARRANQUE_COMPLETO",
+    "observacion": "UNICA",
+    "valor1": "SOLO_HIBRIDO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "0",
+      "diagnostico": "SIN_REINICIO_COMPLETO"
+    },
+    "razon": "Sólo Fast Startup en una historia completa no constituye reinicio íntegro."
+  },
+  {
+    "id": "L10-03-14",
+    "parametro": "PAR-CYB-REINICIO-SISTEMA-REALIZADO-001",
+    "perfil": "EVENTO-REINICIO-COMPLETO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "SOLICITUD_REINICIO",
+    "observacion": "UNICA",
+    "valor1": "REINICIO_COMPLETO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "OBSERVACION_INSUFICIENTE"
+    },
+    "razon": "Solicitud de reinicio no prueba arranque completado."
+  },
+  {
+    "id": "L10-04-01",
+    "parametro": "PAR-CYB-REINICIO-SOFTWARE-REQUERIDO-001",
+    "perfil": "REQUISITO-SOFTWARE-INDIVIDUAL-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "INSTRUCCION_ESPECIFICA",
+    "observacion": "UNICA",
+    "valor1": "true",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "UN_SOFTWARE",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "1",
+      "diagnostico": "REQUISITO_SOFTWARE_SI"
+    },
+    "razon": "Testigo positivo de la proposición; no licencia ninguna conclusión más amplia."
+  },
+  {
+    "id": "L10-04-02",
+    "parametro": "PAR-CYB-REINICIO-SOFTWARE-REQUERIDO-001",
+    "perfil": "REQUISITO-SOFTWARE-INDIVIDUAL-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "INSTRUCCION_ESPECIFICA",
+    "observacion": "UNICA",
+    "valor1": "false",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "UN_SOFTWARE",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "0",
+      "diagnostico": "REQUISITO_SOFTWARE_NO"
+    },
+    "razon": "Negativo explícito; en eventos exige cobertura del intervalo."
+  },
+  {
+    "id": "L10-04-03",
+    "parametro": "PAR-CYB-REINICIO-SOFTWARE-REQUERIDO-001",
+    "perfil": "REQUISITO-SOFTWARE-INDIVIDUAL-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "INSTRUCCION_ESPECIFICA",
+    "observacion": "AUSENTE",
+    "valor1": "",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "UN_SOFTWARE",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "DATO_AUSENTE"
+    },
+    "razon": "Documento declara que falta la observación, sin convertir ausencia en 0."
+  },
+  {
+    "id": "L10-04-04",
+    "parametro": "PAR-CYB-REINICIO-SOFTWARE-REQUERIDO-001",
+    "perfil": "REQUISITO-SOFTWARE-INDIVIDUAL-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "INSTRUCCION_ESPECIFICA",
+    "observacion": "CONFLICTO",
+    "valor1": "",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "UN_SOFTWARE",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "CONFLICTO_OBSERVACIONAL"
+    },
+    "razon": "Conflicto entre observaciones admitidas del mismo sujeto y corte."
+  },
+  {
+    "id": "L10-04-05",
+    "parametro": "PAR-CYB-REINICIO-SOFTWARE-REQUERIDO-001",
+    "perfil": "REQUISITO-SOFTWARE-INDIVIDUAL-0.1",
+    "identidad": "COINCIDE",
+    "captura": "FALLO",
+    "soporte": "INSTRUCCION_ESPECIFICA",
+    "observacion": "UNICA",
+    "valor1": "true",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "UN_SOFTWARE",
+    "esperado": {
+      "clase": "FALLO_CAPTURA",
+      "tri": "",
+      "diagnostico": "SIN_EJECUCION_DOMINIO"
+    },
+    "razon": "El observador falla; no existe ejecución de dominio ni Tri alternativo."
+  },
+  {
+    "id": "L10-04-06",
+    "parametro": "PAR-CYB-REINICIO-SOFTWARE-REQUERIDO-001",
+    "perfil": "REQUISITO-SOFTWARE-INDIVIDUAL-0.1",
+    "identidad": "OTRO",
+    "captura": "LEGIBLE",
+    "soporte": "INSTRUCCION_ESPECIFICA",
+    "observacion": "UNICA",
+    "valor1": "true",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "UN_SOFTWARE",
+    "esperado": {
+      "clase": "NO_ADMISION",
+      "tri": "",
+      "diagnostico": "IDENTIDAD"
+    },
+    "razon": "El testigo pertenece a otro sujeto; no se recicla su dato."
+  },
+  {
+    "id": "L10-04-07",
+    "parametro": "PAR-CYB-REINICIO-SOFTWARE-REQUERIDO-001",
+    "perfil": "REQUISITO-SOFTWARE-INDIVIDUAL-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "FUENTE_GENERAL",
+    "observacion": "UNICA",
+    "valor1": "true",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "UN_SOFTWARE",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "OBSERVACION_INSUFICIENTE"
+    },
+    "razon": "Una fuente del dominio no sustituye la observación específica del episodio."
+  },
+  {
+    "id": "L10-04-08",
+    "parametro": "PAR-CYB-REINICIO-SOFTWARE-REQUERIDO-001",
+    "perfil": "OTRO_PERFIL",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "INSTRUCCION_ESPECIFICA",
+    "observacion": "UNICA",
+    "valor1": "true",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "UN_SOFTWARE",
+    "esperado": {
+      "clase": "FUERA_PERFIL",
+      "tri": "",
+      "diagnostico": "PERFIL_NO_CONSTITUIDO"
+    },
+    "razon": "Perfil de otro producto no se normaliza por analogía."
+  },
+  {
+    "id": "L10-04-09",
+    "parametro": "PAR-CYB-REINICIO-SOFTWARE-REQUERIDO-001",
+    "perfil": "REQUISITO-SOFTWARE-INDIVIDUAL-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "INSTRUCCION_ESPECIFICA",
+    "observacion": "UNICA",
+    "valor1": "true false desconocido",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "UN_SOFTWARE",
+    "esperado": {
+      "clase": "NO_ADMISION",
+      "tri": "",
+      "diagnostico": "LEXEMA_O_FORMA"
+    },
+    "razon": "La observación usa un lexema ajeno al contrato."
+  },
+  {
+    "id": "L10-04-10",
+    "parametro": "PAR-CYB-REINICIO-SOFTWARE-REQUERIDO-001",
+    "perfil": "REQUISITO-SOFTWARE-INDIVIDUAL-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "INSTRUCCION_ESPECIFICA",
+    "observacion": "UNICA",
+    "valor1": "true",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "PENDIENTE",
+    "esperado": {
+      "clase": "CONFIGURACION_PENDIENTE",
+      "tri": "",
+      "diagnostico": "CONTEXTO_NO_CONSTITUIDO"
+    },
+    "razon": "Falta el contexto profesional que fija qué se está evaluando."
+  },
+  {
+    "id": "L10-04-11",
+    "parametro": "PAR-CYB-REINICIO-SOFTWARE-REQUERIDO-001",
+    "perfil": "REQUISITO-SOFTWARE-INDIVIDUAL-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "INSTRUCCION_ESPECIFICA",
+    "observacion": "UNICA",
+    "valor1": "1",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "UN_SOFTWARE",
+    "esperado": {
+      "clase": "NO_ADMISION",
+      "tri": "",
+      "diagnostico": "LEXEMA_O_FORMA"
+    },
+    "razon": "Booleano numérico no se acepta como lexema documental."
+  },
+  {
+    "id": "L10-04-12",
+    "parametro": "PAR-CYB-REINICIO-SOFTWARE-REQUERIDO-001",
+    "perfil": "REQUISITO-SOFTWARE-INDIVIDUAL-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "INSTRUCCION_ESPECIFICA",
+    "observacion": "UNICA",
+    "valor1": "true",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "VARIOS_SOFTWARES",
+    "esperado": {
+      "clase": "CONFIGURACION_PENDIENTE",
+      "tri": "",
+      "diagnostico": "CONTEXTO_NO_CONSTITUIDO"
+    },
+    "razon": "Agregado de aplicaciones fuera del sujeto unitario."
+  },
+  {
+    "id": "L10-05-01",
+    "parametro": "PAR-CYB-GENERACION-PROCESO-TERMINADA-001",
+    "perfil": "TERMINACION-GENERACION-PROCESO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "CICLO_GENERACION",
+    "observacion": "UNICA",
+    "valor1": "TERMINADA",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "1",
+      "diagnostico": "GENERACION_TERMINADA"
+    },
+    "razon": "Testigo positivo de la proposición; no licencia ninguna conclusión más amplia."
+  },
+  {
+    "id": "L10-05-02",
+    "parametro": "PAR-CYB-GENERACION-PROCESO-TERMINADA-001",
+    "perfil": "TERMINACION-GENERACION-PROCESO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "CICLO_GENERACION",
+    "observacion": "UNICA",
+    "valor1": "NINGUNO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "0",
+      "diagnostico": "SIN_TERMINACION"
+    },
+    "razon": "Negativo explícito; en eventos exige cobertura del intervalo."
+  },
+  {
+    "id": "L10-05-03",
+    "parametro": "PAR-CYB-GENERACION-PROCESO-TERMINADA-001",
+    "perfil": "TERMINACION-GENERACION-PROCESO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "CICLO_GENERACION",
+    "observacion": "AUSENTE",
+    "valor1": "",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "DATO_AUSENTE"
+    },
+    "razon": "Documento declara que falta la observación, sin convertir ausencia en 0."
+  },
+  {
+    "id": "L10-05-04",
+    "parametro": "PAR-CYB-GENERACION-PROCESO-TERMINADA-001",
+    "perfil": "TERMINACION-GENERACION-PROCESO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "CICLO_GENERACION",
+    "observacion": "CONFLICTO",
+    "valor1": "",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "CONFLICTO_OBSERVACIONAL"
+    },
+    "razon": "Conflicto entre observaciones admitidas del mismo sujeto y corte."
+  },
+  {
+    "id": "L10-05-05",
+    "parametro": "PAR-CYB-GENERACION-PROCESO-TERMINADA-001",
+    "perfil": "TERMINACION-GENERACION-PROCESO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "FALLO",
+    "soporte": "CICLO_GENERACION",
+    "observacion": "UNICA",
+    "valor1": "TERMINADA",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "FALLO_CAPTURA",
+      "tri": "",
+      "diagnostico": "SIN_EJECUCION_DOMINIO"
+    },
+    "razon": "El observador falla; no existe ejecución de dominio ni Tri alternativo."
+  },
+  {
+    "id": "L10-05-06",
+    "parametro": "PAR-CYB-GENERACION-PROCESO-TERMINADA-001",
+    "perfil": "TERMINACION-GENERACION-PROCESO-0.1",
+    "identidad": "OTRO",
+    "captura": "LEGIBLE",
+    "soporte": "CICLO_GENERACION",
+    "observacion": "UNICA",
+    "valor1": "TERMINADA",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "NO_ADMISION",
+      "tri": "",
+      "diagnostico": "IDENTIDAD"
+    },
+    "razon": "El testigo pertenece a otro sujeto; no se recicla su dato."
+  },
+  {
+    "id": "L10-05-07",
+    "parametro": "PAR-CYB-GENERACION-PROCESO-TERMINADA-001",
+    "perfil": "TERMINACION-GENERACION-PROCESO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "FUENTE_GENERAL",
+    "observacion": "UNICA",
+    "valor1": "TERMINADA",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "OBSERVACION_INSUFICIENTE"
+    },
+    "razon": "Una fuente del dominio no sustituye la observación específica del episodio."
+  },
+  {
+    "id": "L10-05-08",
+    "parametro": "PAR-CYB-GENERACION-PROCESO-TERMINADA-001",
+    "perfil": "OTRO_PERFIL",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "CICLO_GENERACION",
+    "observacion": "UNICA",
+    "valor1": "TERMINADA",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "FUERA_PERFIL",
+      "tri": "",
+      "diagnostico": "PERFIL_NO_CONSTITUIDO"
+    },
+    "razon": "Perfil de otro producto no se normaliza por analogía."
+  },
+  {
+    "id": "L10-05-09",
+    "parametro": "PAR-CYB-GENERACION-PROCESO-TERMINADA-001",
+    "perfil": "TERMINACION-GENERACION-PROCESO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "CICLO_GENERACION",
+    "observacion": "UNICA",
+    "valor1": "true false desconocido",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "NO_ADMISION",
+      "tri": "",
+      "diagnostico": "LEXEMA_O_FORMA"
+    },
+    "razon": "La observación usa un lexema ajeno al contrato."
+  },
+  {
+    "id": "L10-05-10",
+    "parametro": "PAR-CYB-GENERACION-PROCESO-TERMINADA-001",
+    "perfil": "TERMINACION-GENERACION-PROCESO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "CICLO_GENERACION",
+    "observacion": "UNICA",
+    "valor1": "NINGUNO",
+    "valor2": "",
+    "cobertura": "PARCIAL",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "COBERTURA_INSUFICIENTE"
+    },
+    "razon": "Ningún evento encontrado en cobertura parcial: U, no 0."
+  },
+  {
+    "id": "L10-05-11",
+    "parametro": "PAR-CYB-GENERACION-PROCESO-TERMINADA-001",
+    "perfil": "TERMINACION-GENERACION-PROCESO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "CICLO_GENERACION",
+    "observacion": "UNICA",
+    "valor1": "TERMINADA",
+    "valor2": "",
+    "cobertura": "PARCIAL",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "1",
+      "diagnostico": "GENERACION_TERMINADA"
+    },
+    "razon": "Un testigo positivo acredita existencia aunque la historia restante sea parcial."
+  },
+  {
+    "id": "L10-05-12",
+    "parametro": "PAR-CYB-GENERACION-PROCESO-TERMINADA-001",
+    "perfil": "TERMINACION-GENERACION-PROCESO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "CICLO_GENERACION",
+    "observacion": "UNICA",
+    "valor1": "TERMINADA",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_INCIERTO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "ORDEN_NO_ACREDITADO"
+    },
+    "razon": "El orden no está acreditado; la mera fecha no prueba posterioridad."
+  },
+  {
+    "id": "L10-05-13",
+    "parametro": "PAR-CYB-GENERACION-PROCESO-TERMINADA-001",
+    "perfil": "TERMINACION-GENERACION-PROCESO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "PID_SOLO",
+    "observacion": "UNICA",
+    "valor1": "TERMINADA",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "OBSERVACION_INSUFICIENTE"
+    },
+    "razon": "Un PID sin identidad de generación no prueba terminación."
+  },
+  {
+    "id": "L10-05-14",
+    "parametro": "PAR-CYB-GENERACION-PROCESO-TERMINADA-001",
+    "perfil": "TERMINACION-GENERACION-PROCESO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "NUEVA_INSTANCIA",
+    "observacion": "UNICA",
+    "valor1": "TERMINADA",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "OBSERVACION_INSUFICIENTE"
+    },
+    "razon": "La nueva instancia no demuestra terminación de la generación previa."
+  },
+  {
+    "id": "L10-06-01",
+    "parametro": "PAR-CYB-IMAGEN-OBJETIVO-ACTIVA-001",
+    "perfil": "IDENTIDAD-IMAGEN-CARGADA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "IMAGEN_CARGADA",
+    "observacion": "UNICA",
+    "valor1": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "valor2": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "cobertura": "COMPLETA",
+    "contexto": "METODO_ADMITIDO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "1",
+      "diagnostico": "IMAGEN_OBJETIVO"
+    },
+    "razon": "Testigo positivo de la proposición; no licencia ninguna conclusión más amplia."
+  },
+  {
+    "id": "L10-06-02",
+    "parametro": "PAR-CYB-IMAGEN-OBJETIVO-ACTIVA-001",
+    "perfil": "IDENTIDAD-IMAGEN-CARGADA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "IMAGEN_CARGADA",
+    "observacion": "UNICA",
+    "valor1": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "valor2": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "cobertura": "COMPLETA",
+    "contexto": "METODO_ADMITIDO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "0",
+      "diagnostico": "OTRA_IMAGEN"
+    },
+    "razon": "Negativo explícito; en eventos exige cobertura del intervalo."
+  },
+  {
+    "id": "L10-06-03",
+    "parametro": "PAR-CYB-IMAGEN-OBJETIVO-ACTIVA-001",
+    "perfil": "IDENTIDAD-IMAGEN-CARGADA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "IMAGEN_CARGADA",
+    "observacion": "AUSENTE",
+    "valor1": "",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "METODO_ADMITIDO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "DATO_AUSENTE"
+    },
+    "razon": "Documento declara que falta la observación, sin convertir ausencia en 0."
+  },
+  {
+    "id": "L10-06-04",
+    "parametro": "PAR-CYB-IMAGEN-OBJETIVO-ACTIVA-001",
+    "perfil": "IDENTIDAD-IMAGEN-CARGADA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "IMAGEN_CARGADA",
+    "observacion": "CONFLICTO",
+    "valor1": "",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "METODO_ADMITIDO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "CONFLICTO_OBSERVACIONAL"
+    },
+    "razon": "Conflicto entre observaciones admitidas del mismo sujeto y corte."
+  },
+  {
+    "id": "L10-06-05",
+    "parametro": "PAR-CYB-IMAGEN-OBJETIVO-ACTIVA-001",
+    "perfil": "IDENTIDAD-IMAGEN-CARGADA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "FALLO",
+    "soporte": "IMAGEN_CARGADA",
+    "observacion": "UNICA",
+    "valor1": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "valor2": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "cobertura": "COMPLETA",
+    "contexto": "METODO_ADMITIDO",
+    "esperado": {
+      "clase": "FALLO_CAPTURA",
+      "tri": "",
+      "diagnostico": "SIN_EJECUCION_DOMINIO"
+    },
+    "razon": "El observador falla; no existe ejecución de dominio ni Tri alternativo."
+  },
+  {
+    "id": "L10-06-06",
+    "parametro": "PAR-CYB-IMAGEN-OBJETIVO-ACTIVA-001",
+    "perfil": "IDENTIDAD-IMAGEN-CARGADA-0.1",
+    "identidad": "OTRO",
+    "captura": "LEGIBLE",
+    "soporte": "IMAGEN_CARGADA",
+    "observacion": "UNICA",
+    "valor1": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "valor2": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "cobertura": "COMPLETA",
+    "contexto": "METODO_ADMITIDO",
+    "esperado": {
+      "clase": "NO_ADMISION",
+      "tri": "",
+      "diagnostico": "IDENTIDAD"
+    },
+    "razon": "El testigo pertenece a otro sujeto; no se recicla su dato."
+  },
+  {
+    "id": "L10-06-07",
+    "parametro": "PAR-CYB-IMAGEN-OBJETIVO-ACTIVA-001",
+    "perfil": "IDENTIDAD-IMAGEN-CARGADA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "FUENTE_GENERAL",
+    "observacion": "UNICA",
+    "valor1": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "valor2": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "cobertura": "COMPLETA",
+    "contexto": "METODO_ADMITIDO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "OBSERVACION_INSUFICIENTE"
+    },
+    "razon": "Una fuente del dominio no sustituye la observación específica del episodio."
+  },
+  {
+    "id": "L10-06-08",
+    "parametro": "PAR-CYB-IMAGEN-OBJETIVO-ACTIVA-001",
+    "perfil": "OTRO_PERFIL",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "IMAGEN_CARGADA",
+    "observacion": "UNICA",
+    "valor1": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "valor2": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "cobertura": "COMPLETA",
+    "contexto": "METODO_ADMITIDO",
+    "esperado": {
+      "clase": "FUERA_PERFIL",
+      "tri": "",
+      "diagnostico": "PERFIL_NO_CONSTITUIDO"
+    },
+    "razon": "Perfil de otro producto no se normaliza por analogía."
+  },
+  {
+    "id": "L10-06-09",
+    "parametro": "PAR-CYB-IMAGEN-OBJETIVO-ACTIVA-001",
+    "perfil": "IDENTIDAD-IMAGEN-CARGADA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "IMAGEN_CARGADA",
+    "observacion": "UNICA",
+    "valor1": "true false desconocido",
+    "valor2": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "cobertura": "COMPLETA",
+    "contexto": "METODO_ADMITIDO",
+    "esperado": {
+      "clase": "NO_ADMISION",
+      "tri": "",
+      "diagnostico": "LEXEMA_O_FORMA"
+    },
+    "razon": "La observación usa un lexema ajeno al contrato."
+  },
+  {
+    "id": "L10-06-10",
+    "parametro": "PAR-CYB-IMAGEN-OBJETIVO-ACTIVA-001",
+    "perfil": "IDENTIDAD-IMAGEN-CARGADA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "IMAGEN_CARGADA",
+    "observacion": "UNICA",
+    "valor1": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "valor2": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "cobertura": "COMPLETA",
+    "contexto": "PENDIENTE",
+    "esperado": {
+      "clase": "CONFIGURACION_PENDIENTE",
+      "tri": "",
+      "diagnostico": "CONTEXTO_NO_CONSTITUIDO"
+    },
+    "razon": "Falta el contexto profesional que fija qué se está evaluando."
+  },
+  {
+    "id": "L10-06-11",
+    "parametro": "PAR-CYB-IMAGEN-OBJETIVO-ACTIVA-001",
+    "perfil": "IDENTIDAD-IMAGEN-CARGADA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "FICHERO_DISCO",
+    "observacion": "UNICA",
+    "valor1": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "valor2": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "cobertura": "COMPLETA",
+    "contexto": "METODO_ADMITIDO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "OBSERVACION_INSUFICIENTE"
+    },
+    "razon": "Ruta, fichero o MODULEINFO no identifican inequívocamente la imagen cargada."
+  },
+  {
+    "id": "L10-06-12",
+    "parametro": "PAR-CYB-IMAGEN-OBJETIVO-ACTIVA-001",
+    "perfil": "IDENTIDAD-IMAGEN-CARGADA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "NOMBRE_DLL",
+    "observacion": "UNICA",
+    "valor1": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "valor2": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "cobertura": "COMPLETA",
+    "contexto": "METODO_ADMITIDO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "OBSERVACION_INSUFICIENTE"
+    },
+    "razon": "Ruta, fichero o MODULEINFO no identifican inequívocamente la imagen cargada."
+  },
+  {
+    "id": "L10-06-13",
+    "parametro": "PAR-CYB-IMAGEN-OBJETIVO-ACTIVA-001",
+    "perfil": "IDENTIDAD-IMAGEN-CARGADA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "MODULEINFO",
+    "observacion": "UNICA",
+    "valor1": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "valor2": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "cobertura": "COMPLETA",
+    "contexto": "METODO_ADMITIDO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "OBSERVACION_INSUFICIENTE"
+    },
+    "razon": "Ruta, fichero o MODULEINFO no identifican inequívocamente la imagen cargada."
+  },
+  {
+    "id": "L10-06-14",
+    "parametro": "PAR-CYB-IMAGEN-OBJETIVO-ACTIVA-001",
+    "perfil": "IDENTIDAD-IMAGEN-CARGADA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "IMAGEN_CARGADA",
+    "observacion": "UNICA",
+    "valor1": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "valor2": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "cobertura": "COMPLETA",
+    "contexto": "METODO_ADMITIDO",
+    "esperado": {
+      "clase": "NO_ADMISION",
+      "tri": "",
+      "diagnostico": "LEXEMA_O_FORMA"
+    },
+    "razon": "Huella con longitud incorrecta no se compara como identidad admitida."
+  },
+  {
+    "id": "L10-06-15",
+    "parametro": "PAR-CYB-IMAGEN-OBJETIVO-ACTIVA-001",
+    "perfil": "IDENTIDAD-IMAGEN-CARGADA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "IMAGEN_CARGADA",
+    "observacion": "UNICA",
+    "valor1": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "valor2": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "cobertura": "COMPLETA",
+    "contexto": "METODO_ADMITIDO",
+    "esperado": {
+      "clase": "NO_ADMISION",
+      "tri": "",
+      "diagnostico": "LEXEMA_O_FORMA"
+    },
+    "razon": "La codificación exige hexadecimal canónico minúsculo, no conversión implícita."
+  },
+  {
+    "id": "L10-06-16",
+    "parametro": "PAR-CYB-IMAGEN-OBJETIVO-ACTIVA-001",
+    "perfil": "IDENTIDAD-IMAGEN-CARGADA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "IMAGEN_CARGADA",
+    "observacion": "UNICA",
+    "valor1": "0000000000000000000000000000000000000000000000000000000000000001",
+    "valor2": "0000000000000000000000000000000000000000000000000000000000000001",
+    "cobertura": "COMPLETA",
+    "contexto": "METODO_ADMITIDO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "1",
+      "diagnostico": "IMAGEN_OBJETIVO"
+    },
+    "razon": "Ceros iniciales se conservan como texto de identidad."
+  },
+  {
+    "id": "L10-07-01",
+    "parametro": "PAR-CYB-COMPROBACION-POSITIVA-001",
+    "perfil": "COMPROBACION-CRITERIO-UNITARIO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "INFORME_PRUEBA",
+    "observacion": "UNICA",
+    "valor1": "CRITERIO_CUMPLIDO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORACULO_UNITARIO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "1",
+      "diagnostico": "CRITERIO_POSITIVO"
+    },
+    "razon": "Testigo positivo de la proposición; no licencia ninguna conclusión más amplia."
+  },
+  {
+    "id": "L10-07-02",
+    "parametro": "PAR-CYB-COMPROBACION-POSITIVA-001",
+    "perfil": "COMPROBACION-CRITERIO-UNITARIO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "INFORME_PRUEBA",
+    "observacion": "UNICA",
+    "valor1": "CRITERIO_NO_CUMPLIDO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORACULO_UNITARIO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "0",
+      "diagnostico": "CRITERIO_NEGATIVO"
+    },
+    "razon": "Negativo explícito; en eventos exige cobertura del intervalo."
+  },
+  {
+    "id": "L10-07-03",
+    "parametro": "PAR-CYB-COMPROBACION-POSITIVA-001",
+    "perfil": "COMPROBACION-CRITERIO-UNITARIO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "INFORME_PRUEBA",
+    "observacion": "AUSENTE",
+    "valor1": "",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORACULO_UNITARIO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "DATO_AUSENTE"
+    },
+    "razon": "Documento declara que falta la observación, sin convertir ausencia en 0."
+  },
+  {
+    "id": "L10-07-04",
+    "parametro": "PAR-CYB-COMPROBACION-POSITIVA-001",
+    "perfil": "COMPROBACION-CRITERIO-UNITARIO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "INFORME_PRUEBA",
+    "observacion": "CONFLICTO",
+    "valor1": "",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORACULO_UNITARIO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "CONFLICTO_OBSERVACIONAL"
+    },
+    "razon": "Conflicto entre observaciones admitidas del mismo sujeto y corte."
+  },
+  {
+    "id": "L10-07-05",
+    "parametro": "PAR-CYB-COMPROBACION-POSITIVA-001",
+    "perfil": "COMPROBACION-CRITERIO-UNITARIO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "FALLO",
+    "soporte": "INFORME_PRUEBA",
+    "observacion": "UNICA",
+    "valor1": "CRITERIO_CUMPLIDO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORACULO_UNITARIO",
+    "esperado": {
+      "clase": "FALLO_CAPTURA",
+      "tri": "",
+      "diagnostico": "SIN_EJECUCION_DOMINIO"
+    },
+    "razon": "El observador falla; no existe ejecución de dominio ni Tri alternativo."
+  },
+  {
+    "id": "L10-07-06",
+    "parametro": "PAR-CYB-COMPROBACION-POSITIVA-001",
+    "perfil": "COMPROBACION-CRITERIO-UNITARIO-0.1",
+    "identidad": "OTRO",
+    "captura": "LEGIBLE",
+    "soporte": "INFORME_PRUEBA",
+    "observacion": "UNICA",
+    "valor1": "CRITERIO_CUMPLIDO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORACULO_UNITARIO",
+    "esperado": {
+      "clase": "NO_ADMISION",
+      "tri": "",
+      "diagnostico": "IDENTIDAD"
+    },
+    "razon": "El testigo pertenece a otro sujeto; no se recicla su dato."
+  },
+  {
+    "id": "L10-07-07",
+    "parametro": "PAR-CYB-COMPROBACION-POSITIVA-001",
+    "perfil": "COMPROBACION-CRITERIO-UNITARIO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "FUENTE_GENERAL",
+    "observacion": "UNICA",
+    "valor1": "CRITERIO_CUMPLIDO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORACULO_UNITARIO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "OBSERVACION_INSUFICIENTE"
+    },
+    "razon": "Una fuente del dominio no sustituye la observación específica del episodio."
+  },
+  {
+    "id": "L10-07-08",
+    "parametro": "PAR-CYB-COMPROBACION-POSITIVA-001",
+    "perfil": "OTRO_PERFIL",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "INFORME_PRUEBA",
+    "observacion": "UNICA",
+    "valor1": "CRITERIO_CUMPLIDO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORACULO_UNITARIO",
+    "esperado": {
+      "clase": "FUERA_PERFIL",
+      "tri": "",
+      "diagnostico": "PERFIL_NO_CONSTITUIDO"
+    },
+    "razon": "Perfil de otro producto no se normaliza por analogía."
+  },
+  {
+    "id": "L10-07-09",
+    "parametro": "PAR-CYB-COMPROBACION-POSITIVA-001",
+    "perfil": "COMPROBACION-CRITERIO-UNITARIO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "INFORME_PRUEBA",
+    "observacion": "UNICA",
+    "valor1": "true false desconocido",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORACULO_UNITARIO",
+    "esperado": {
+      "clase": "NO_ADMISION",
+      "tri": "",
+      "diagnostico": "LEXEMA_O_FORMA"
+    },
+    "razon": "La observación usa un lexema ajeno al contrato."
+  },
+  {
+    "id": "L10-07-10",
+    "parametro": "PAR-CYB-COMPROBACION-POSITIVA-001",
+    "perfil": "COMPROBACION-CRITERIO-UNITARIO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "INFORME_PRUEBA",
+    "observacion": "UNICA",
+    "valor1": "CRITERIO_CUMPLIDO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "PENDIENTE",
+    "esperado": {
+      "clase": "CONFIGURACION_PENDIENTE",
+      "tri": "",
+      "diagnostico": "CONTEXTO_NO_CONSTITUIDO"
+    },
+    "razon": "Falta el contexto profesional que fija qué se está evaluando."
+  },
+  {
+    "id": "L10-07-11",
+    "parametro": "PAR-CYB-COMPROBACION-POSITIVA-001",
+    "perfil": "COMPROBACION-CRITERIO-UNITARIO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "SELLO_APTO",
+    "observacion": "UNICA",
+    "valor1": "CRITERIO_CUMPLIDO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORACULO_UNITARIO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "OBSERVACION_INSUFICIENTE"
+    },
+    "razon": "Sello global apto sin informe de la prueba no es un resultado suficiente."
+  },
+  {
+    "id": "L10-07-12",
+    "parametro": "PAR-CYB-COMPROBACION-POSITIVA-001",
+    "perfil": "COMPROBACION-CRITERIO-UNITARIO-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "INFORME_PRUEBA",
+    "observacion": "UNICA",
+    "valor1": "CRITERIO_CUMPLIDO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORACULO_COMPUESTO",
+    "esperado": {
+      "clase": "CONFIGURACION_PENDIENTE",
+      "tri": "",
+      "diagnostico": "CONTEXTO_NO_CONSTITUIDO"
+    },
+    "razon": "Criterio que agrega resultados independientes necesita descomposición."
+  },
+  {
+    "id": "L10-08-01",
+    "parametro": "PAR-CYB-RETIRADA-EXITOSA-COMUNICADA-001",
+    "perfil": "HISTORIA-RETIRADA-ACTUALIZACION-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_WUA",
+    "observacion": "UNICA",
+    "valor1": "uoUninstallation",
+    "valor2": "orcSucceeded",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "1",
+      "diagnostico": "RETIRADA_EXITOSA"
+    },
+    "razon": "Testigo positivo de la proposición; no licencia ninguna conclusión más amplia."
+  },
+  {
+    "id": "L10-08-02",
+    "parametro": "PAR-CYB-RETIRADA-EXITOSA-COMUNICADA-001",
+    "perfil": "HISTORIA-RETIRADA-ACTUALIZACION-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_WUA",
+    "observacion": "UNICA",
+    "valor1": "NINGUNO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "0",
+      "diagnostico": "SIN_RETIRADA_EXITOSA"
+    },
+    "razon": "Negativo explícito; en eventos exige cobertura del intervalo."
+  },
+  {
+    "id": "L10-08-03",
+    "parametro": "PAR-CYB-RETIRADA-EXITOSA-COMUNICADA-001",
+    "perfil": "HISTORIA-RETIRADA-ACTUALIZACION-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_WUA",
+    "observacion": "AUSENTE",
+    "valor1": "",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "DATO_AUSENTE"
+    },
+    "razon": "Documento declara que falta la observación, sin convertir ausencia en 0."
+  },
+  {
+    "id": "L10-08-04",
+    "parametro": "PAR-CYB-RETIRADA-EXITOSA-COMUNICADA-001",
+    "perfil": "HISTORIA-RETIRADA-ACTUALIZACION-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_WUA",
+    "observacion": "CONFLICTO",
+    "valor1": "",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "CONFLICTO_OBSERVACIONAL"
+    },
+    "razon": "Conflicto entre observaciones admitidas del mismo sujeto y corte."
+  },
+  {
+    "id": "L10-08-05",
+    "parametro": "PAR-CYB-RETIRADA-EXITOSA-COMUNICADA-001",
+    "perfil": "HISTORIA-RETIRADA-ACTUALIZACION-0.1",
+    "identidad": "COINCIDE",
+    "captura": "FALLO",
+    "soporte": "HISTORIA_WUA",
+    "observacion": "UNICA",
+    "valor1": "uoUninstallation",
+    "valor2": "orcSucceeded",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "FALLO_CAPTURA",
+      "tri": "",
+      "diagnostico": "SIN_EJECUCION_DOMINIO"
+    },
+    "razon": "El observador falla; no existe ejecución de dominio ni Tri alternativo."
+  },
+  {
+    "id": "L10-08-06",
+    "parametro": "PAR-CYB-RETIRADA-EXITOSA-COMUNICADA-001",
+    "perfil": "HISTORIA-RETIRADA-ACTUALIZACION-0.1",
+    "identidad": "OTRO",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_WUA",
+    "observacion": "UNICA",
+    "valor1": "uoUninstallation",
+    "valor2": "orcSucceeded",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "NO_ADMISION",
+      "tri": "",
+      "diagnostico": "IDENTIDAD"
+    },
+    "razon": "El testigo pertenece a otro sujeto; no se recicla su dato."
+  },
+  {
+    "id": "L10-08-07",
+    "parametro": "PAR-CYB-RETIRADA-EXITOSA-COMUNICADA-001",
+    "perfil": "HISTORIA-RETIRADA-ACTUALIZACION-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "FUENTE_GENERAL",
+    "observacion": "UNICA",
+    "valor1": "uoUninstallation",
+    "valor2": "orcSucceeded",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "OBSERVACION_INSUFICIENTE"
+    },
+    "razon": "Una fuente del dominio no sustituye la observación específica del episodio."
+  },
+  {
+    "id": "L10-08-08",
+    "parametro": "PAR-CYB-RETIRADA-EXITOSA-COMUNICADA-001",
+    "perfil": "OTRO_PERFIL",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_WUA",
+    "observacion": "UNICA",
+    "valor1": "uoUninstallation",
+    "valor2": "orcSucceeded",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "FUERA_PERFIL",
+      "tri": "",
+      "diagnostico": "PERFIL_NO_CONSTITUIDO"
+    },
+    "razon": "Perfil de otro producto no se normaliza por analogía."
+  },
+  {
+    "id": "L10-08-09",
+    "parametro": "PAR-CYB-RETIRADA-EXITOSA-COMUNICADA-001",
+    "perfil": "HISTORIA-RETIRADA-ACTUALIZACION-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_WUA",
+    "observacion": "UNICA",
+    "valor1": "true false desconocido",
+    "valor2": "orcSucceeded",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "NO_ADMISION",
+      "tri": "",
+      "diagnostico": "LEXEMA_O_FORMA"
+    },
+    "razon": "La observación usa un lexema ajeno al contrato."
+  },
+  {
+    "id": "L10-08-10",
+    "parametro": "PAR-CYB-RETIRADA-EXITOSA-COMUNICADA-001",
+    "perfil": "HISTORIA-RETIRADA-ACTUALIZACION-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_WUA",
+    "observacion": "UNICA",
+    "valor1": "NINGUNO",
+    "valor2": "",
+    "cobertura": "PARCIAL",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "COBERTURA_INSUFICIENTE"
+    },
+    "razon": "Ningún evento encontrado en cobertura parcial: U, no 0."
+  },
+  {
+    "id": "L10-08-11",
+    "parametro": "PAR-CYB-RETIRADA-EXITOSA-COMUNICADA-001",
+    "perfil": "HISTORIA-RETIRADA-ACTUALIZACION-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_WUA",
+    "observacion": "UNICA",
+    "valor1": "uoUninstallation",
+    "valor2": "orcSucceeded",
+    "cobertura": "PARCIAL",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "1",
+      "diagnostico": "RETIRADA_EXITOSA"
+    },
+    "razon": "Un testigo positivo acredita existencia aunque la historia restante sea parcial."
+  },
+  {
+    "id": "L10-08-12",
+    "parametro": "PAR-CYB-RETIRADA-EXITOSA-COMUNICADA-001",
+    "perfil": "HISTORIA-RETIRADA-ACTUALIZACION-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_WUA",
+    "observacion": "UNICA",
+    "valor1": "uoUninstallation",
+    "valor2": "orcSucceeded",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_INCIERTO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "ORDEN_NO_ACREDITADO"
+    },
+    "razon": "El orden no está acreditado; la mera fecha no prueba posterioridad."
+  },
+  {
+    "id": "L10-08-13",
+    "parametro": "PAR-CYB-RETIRADA-EXITOSA-COMUNICADA-001",
+    "perfil": "HISTORIA-RETIRADA-ACTUALIZACION-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_WUA",
+    "observacion": "UNICA",
+    "valor1": "uoUninstallation",
+    "valor2": "orcFailed",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "0",
+      "diagnostico": "SIN_RETIRADA_EXITOSA"
+    },
+    "razon": "Desinstalación fallida no equivale a retirada exitosa, con cobertura completa."
+  },
+  {
+    "id": "L10-08-14",
+    "parametro": "PAR-CYB-RETIRADA-EXITOSA-COMUNICADA-001",
+    "perfil": "HISTORIA-RETIRADA-ACTUALIZACION-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_WUA",
+    "observacion": "UNICA",
+    "valor1": "uoUninstallation",
+    "valor2": "orcSucceededWithErrors",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "RESULTADO_RETIRADA_INCIERTO"
+    },
+    "razon": "Éxito con errores no acredita retirada íntegra ni ausencia de ésta."
+  },
+  {
+    "id": "L10-08-15",
+    "parametro": "PAR-CYB-RETIRADA-EXITOSA-COMUNICADA-001",
+    "perfil": "HISTORIA-RETIRADA-ACTUALIZACION-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_WUA",
+    "observacion": "UNICA",
+    "valor1": "uoInstallation",
+    "valor2": "orcSucceeded",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "0",
+      "diagnostico": "SIN_RETIRADA_EXITOSA"
+    },
+    "razon": "Un resultado de instalación no es una retirada."
+  },
+  {
+    "id": "L10-09-01",
+    "parametro": "PAR-CYB-CAMBIO-COMPONENTE-POSTERIOR-001",
+    "perfil": "HISTORIA-CAMBIO-COMPONENTE-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_BINARIA",
+    "observacion": "UNICA",
+    "valor1": "CAMBIO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "1",
+      "diagnostico": "CAMBIO_POSTERIOR"
+    },
+    "razon": "Testigo positivo de la proposición; no licencia ninguna conclusión más amplia."
+  },
+  {
+    "id": "L10-09-02",
+    "parametro": "PAR-CYB-CAMBIO-COMPONENTE-POSTERIOR-001",
+    "perfil": "HISTORIA-CAMBIO-COMPONENTE-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_BINARIA",
+    "observacion": "UNICA",
+    "valor1": "NINGUNO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "0",
+      "diagnostico": "SIN_CAMBIO_ACREDITADO"
+    },
+    "razon": "Negativo explícito; en eventos exige cobertura del intervalo."
+  },
+  {
+    "id": "L10-09-03",
+    "parametro": "PAR-CYB-CAMBIO-COMPONENTE-POSTERIOR-001",
+    "perfil": "HISTORIA-CAMBIO-COMPONENTE-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_BINARIA",
+    "observacion": "AUSENTE",
+    "valor1": "",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "DATO_AUSENTE"
+    },
+    "razon": "Documento declara que falta la observación, sin convertir ausencia en 0."
+  },
+  {
+    "id": "L10-09-04",
+    "parametro": "PAR-CYB-CAMBIO-COMPONENTE-POSTERIOR-001",
+    "perfil": "HISTORIA-CAMBIO-COMPONENTE-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_BINARIA",
+    "observacion": "CONFLICTO",
+    "valor1": "",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "CONFLICTO_OBSERVACIONAL"
+    },
+    "razon": "Conflicto entre observaciones admitidas del mismo sujeto y corte."
+  },
+  {
+    "id": "L10-09-05",
+    "parametro": "PAR-CYB-CAMBIO-COMPONENTE-POSTERIOR-001",
+    "perfil": "HISTORIA-CAMBIO-COMPONENTE-0.1",
+    "identidad": "COINCIDE",
+    "captura": "FALLO",
+    "soporte": "HISTORIA_BINARIA",
+    "observacion": "UNICA",
+    "valor1": "CAMBIO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "FALLO_CAPTURA",
+      "tri": "",
+      "diagnostico": "SIN_EJECUCION_DOMINIO"
+    },
+    "razon": "El observador falla; no existe ejecución de dominio ni Tri alternativo."
+  },
+  {
+    "id": "L10-09-06",
+    "parametro": "PAR-CYB-CAMBIO-COMPONENTE-POSTERIOR-001",
+    "perfil": "HISTORIA-CAMBIO-COMPONENTE-0.1",
+    "identidad": "OTRO",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_BINARIA",
+    "observacion": "UNICA",
+    "valor1": "CAMBIO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "NO_ADMISION",
+      "tri": "",
+      "diagnostico": "IDENTIDAD"
+    },
+    "razon": "El testigo pertenece a otro sujeto; no se recicla su dato."
+  },
+  {
+    "id": "L10-09-07",
+    "parametro": "PAR-CYB-CAMBIO-COMPONENTE-POSTERIOR-001",
+    "perfil": "HISTORIA-CAMBIO-COMPONENTE-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "FUENTE_GENERAL",
+    "observacion": "UNICA",
+    "valor1": "CAMBIO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "OBSERVACION_INSUFICIENTE"
+    },
+    "razon": "Una fuente del dominio no sustituye la observación específica del episodio."
+  },
+  {
+    "id": "L10-09-08",
+    "parametro": "PAR-CYB-CAMBIO-COMPONENTE-POSTERIOR-001",
+    "perfil": "OTRO_PERFIL",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_BINARIA",
+    "observacion": "UNICA",
+    "valor1": "CAMBIO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "FUERA_PERFIL",
+      "tri": "",
+      "diagnostico": "PERFIL_NO_CONSTITUIDO"
+    },
+    "razon": "Perfil de otro producto no se normaliza por analogía."
+  },
+  {
+    "id": "L10-09-09",
+    "parametro": "PAR-CYB-CAMBIO-COMPONENTE-POSTERIOR-001",
+    "perfil": "HISTORIA-CAMBIO-COMPONENTE-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_BINARIA",
+    "observacion": "UNICA",
+    "valor1": "true false desconocido",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "NO_ADMISION",
+      "tri": "",
+      "diagnostico": "LEXEMA_O_FORMA"
+    },
+    "razon": "La observación usa un lexema ajeno al contrato."
+  },
+  {
+    "id": "L10-09-10",
+    "parametro": "PAR-CYB-CAMBIO-COMPONENTE-POSTERIOR-001",
+    "perfil": "HISTORIA-CAMBIO-COMPONENTE-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_BINARIA",
+    "observacion": "UNICA",
+    "valor1": "NINGUNO",
+    "valor2": "",
+    "cobertura": "PARCIAL",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "COBERTURA_INSUFICIENTE"
+    },
+    "razon": "Ningún evento encontrado en cobertura parcial: U, no 0."
+  },
+  {
+    "id": "L10-09-11",
+    "parametro": "PAR-CYB-CAMBIO-COMPONENTE-POSTERIOR-001",
+    "perfil": "HISTORIA-CAMBIO-COMPONENTE-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_BINARIA",
+    "observacion": "UNICA",
+    "valor1": "CAMBIO",
+    "valor2": "",
+    "cobertura": "PARCIAL",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "1",
+      "diagnostico": "CAMBIO_POSTERIOR"
+    },
+    "razon": "Un testigo positivo acredita existencia aunque la historia restante sea parcial."
+  },
+  {
+    "id": "L10-09-12",
+    "parametro": "PAR-CYB-CAMBIO-COMPONENTE-POSTERIOR-001",
+    "perfil": "HISTORIA-CAMBIO-COMPONENTE-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_BINARIA",
+    "observacion": "UNICA",
+    "valor1": "CAMBIO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_INCIERTO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "ORDEN_NO_ACREDITADO"
+    },
+    "razon": "El orden no está acreditado; la mera fecha no prueba posterioridad."
+  },
+  {
+    "id": "L10-09-13",
+    "parametro": "PAR-CYB-CAMBIO-COMPONENTE-POSTERIOR-001",
+    "perfil": "HISTORIA-CAMBIO-COMPONENTE-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_BINARIA",
+    "observacion": "UNICA",
+    "valor1": "CAMBIO_Y_RETORNO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "1",
+      "diagnostico": "CAMBIO_POSTERIOR"
+    },
+    "razon": "Cambio seguido de retorno conserva el evento aunque coincidan extremos."
+  },
+  {
+    "id": "L10-09-14",
+    "parametro": "PAR-CYB-CAMBIO-COMPONENTE-POSTERIOR-001",
+    "perfil": "HISTORIA-CAMBIO-COMPONENTE-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "SOLO_EXTREMOS",
+    "observacion": "UNICA",
+    "valor1": "CAMBIO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "OBSERVACION_INSUFICIENTE"
+    },
+    "razon": "Igualdad de estados extremos sin historia no prueba ausencia de cambios."
+  },
+  {
+    "id": "L10-09-15",
+    "parametro": "PAR-CYB-CAMBIO-COMPONENTE-POSTERIOR-001",
+    "perfil": "HISTORIA-CAMBIO-COMPONENTE-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "HISTORIA_BINARIA",
+    "observacion": "UNICA",
+    "valor1": "SOLO_RENOMBRE",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "0",
+      "diagnostico": "SIN_CAMBIO_ACREDITADO"
+    },
+    "razon": "Renombrado de catálogo sin cambio binario no pertenece al predicado."
+  },
+  {
+    "id": "L10-10-01",
+    "parametro": "PAR-CYB-RESTAURACION-PREVIA-COMUNICADA-001",
+    "perfil": "HISTORIA-RESTAURACION-PREVIA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "TRABAJO_RESTAURACION",
+    "observacion": "UNICA",
+    "valor1": "RESTAURACION_PREVIA",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "1",
+      "diagnostico": "RESTAURACION_PREVIA"
+    },
+    "razon": "Testigo positivo de la proposición; no licencia ninguna conclusión más amplia."
+  },
+  {
+    "id": "L10-10-02",
+    "parametro": "PAR-CYB-RESTAURACION-PREVIA-COMUNICADA-001",
+    "perfil": "HISTORIA-RESTAURACION-PREVIA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "TRABAJO_RESTAURACION",
+    "observacion": "UNICA",
+    "valor1": "NINGUNO",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "0",
+      "diagnostico": "SIN_RESTAURACION_PREVIA"
+    },
+    "razon": "Negativo explícito; en eventos exige cobertura del intervalo."
+  },
+  {
+    "id": "L10-10-03",
+    "parametro": "PAR-CYB-RESTAURACION-PREVIA-COMUNICADA-001",
+    "perfil": "HISTORIA-RESTAURACION-PREVIA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "TRABAJO_RESTAURACION",
+    "observacion": "AUSENTE",
+    "valor1": "",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "DATO_AUSENTE"
+    },
+    "razon": "Documento declara que falta la observación, sin convertir ausencia en 0."
+  },
+  {
+    "id": "L10-10-04",
+    "parametro": "PAR-CYB-RESTAURACION-PREVIA-COMUNICADA-001",
+    "perfil": "HISTORIA-RESTAURACION-PREVIA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "TRABAJO_RESTAURACION",
+    "observacion": "CONFLICTO",
+    "valor1": "",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "CONFLICTO_OBSERVACIONAL"
+    },
+    "razon": "Conflicto entre observaciones admitidas del mismo sujeto y corte."
+  },
+  {
+    "id": "L10-10-05",
+    "parametro": "PAR-CYB-RESTAURACION-PREVIA-COMUNICADA-001",
+    "perfil": "HISTORIA-RESTAURACION-PREVIA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "FALLO",
+    "soporte": "TRABAJO_RESTAURACION",
+    "observacion": "UNICA",
+    "valor1": "RESTAURACION_PREVIA",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "FALLO_CAPTURA",
+      "tri": "",
+      "diagnostico": "SIN_EJECUCION_DOMINIO"
+    },
+    "razon": "El observador falla; no existe ejecución de dominio ni Tri alternativo."
+  },
+  {
+    "id": "L10-10-06",
+    "parametro": "PAR-CYB-RESTAURACION-PREVIA-COMUNICADA-001",
+    "perfil": "HISTORIA-RESTAURACION-PREVIA-0.1",
+    "identidad": "OTRO",
+    "captura": "LEGIBLE",
+    "soporte": "TRABAJO_RESTAURACION",
+    "observacion": "UNICA",
+    "valor1": "RESTAURACION_PREVIA",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "NO_ADMISION",
+      "tri": "",
+      "diagnostico": "IDENTIDAD"
+    },
+    "razon": "El testigo pertenece a otro sujeto; no se recicla su dato."
+  },
+  {
+    "id": "L10-10-07",
+    "parametro": "PAR-CYB-RESTAURACION-PREVIA-COMUNICADA-001",
+    "perfil": "HISTORIA-RESTAURACION-PREVIA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "FUENTE_GENERAL",
+    "observacion": "UNICA",
+    "valor1": "RESTAURACION_PREVIA",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "OBSERVACION_INSUFICIENTE"
+    },
+    "razon": "Una fuente del dominio no sustituye la observación específica del episodio."
+  },
+  {
+    "id": "L10-10-08",
+    "parametro": "PAR-CYB-RESTAURACION-PREVIA-COMUNICADA-001",
+    "perfil": "OTRO_PERFIL",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "TRABAJO_RESTAURACION",
+    "observacion": "UNICA",
+    "valor1": "RESTAURACION_PREVIA",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "FUERA_PERFIL",
+      "tri": "",
+      "diagnostico": "PERFIL_NO_CONSTITUIDO"
+    },
+    "razon": "Perfil de otro producto no se normaliza por analogía."
+  },
+  {
+    "id": "L10-10-09",
+    "parametro": "PAR-CYB-RESTAURACION-PREVIA-COMUNICADA-001",
+    "perfil": "HISTORIA-RESTAURACION-PREVIA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "TRABAJO_RESTAURACION",
+    "observacion": "UNICA",
+    "valor1": "true false desconocido",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "NO_ADMISION",
+      "tri": "",
+      "diagnostico": "LEXEMA_O_FORMA"
+    },
+    "razon": "La observación usa un lexema ajeno al contrato."
+  },
+  {
+    "id": "L10-10-10",
+    "parametro": "PAR-CYB-RESTAURACION-PREVIA-COMUNICADA-001",
+    "perfil": "HISTORIA-RESTAURACION-PREVIA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "TRABAJO_RESTAURACION",
+    "observacion": "UNICA",
+    "valor1": "NINGUNO",
+    "valor2": "",
+    "cobertura": "PARCIAL",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "COBERTURA_INSUFICIENTE"
+    },
+    "razon": "Ningún evento encontrado en cobertura parcial: U, no 0."
+  },
+  {
+    "id": "L10-10-11",
+    "parametro": "PAR-CYB-RESTAURACION-PREVIA-COMUNICADA-001",
+    "perfil": "HISTORIA-RESTAURACION-PREVIA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "TRABAJO_RESTAURACION",
+    "observacion": "UNICA",
+    "valor1": "RESTAURACION_PREVIA",
+    "valor2": "",
+    "cobertura": "PARCIAL",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "1",
+      "diagnostico": "RESTAURACION_PREVIA"
+    },
+    "razon": "Un testigo positivo acredita existencia aunque la historia restante sea parcial."
+  },
+  {
+    "id": "L10-10-12",
+    "parametro": "PAR-CYB-RESTAURACION-PREVIA-COMUNICADA-001",
+    "perfil": "HISTORIA-RESTAURACION-PREVIA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "TRABAJO_RESTAURACION",
+    "observacion": "UNICA",
+    "valor1": "RESTAURACION_PREVIA",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_INCIERTO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "ORDEN_NO_ACREDITADO"
+    },
+    "razon": "El orden no está acreditado; la mera fecha no prueba posterioridad."
+  },
+  {
+    "id": "L10-10-13",
+    "parametro": "PAR-CYB-RESTAURACION-PREVIA-COMUNICADA-001",
+    "perfil": "HISTORIA-RESTAURACION-PREVIA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "TRABAJO_RESTAURACION",
+    "observacion": "UNICA",
+    "valor1": "RESTAURACION_POSTERIOR",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "0",
+      "diagnostico": "SIN_RESTAURACION_PREVIA"
+    },
+    "razon": "Punto posterior a instalación, en historia completa: no es restauración previa."
+  },
+  {
+    "id": "L10-10-14",
+    "parametro": "PAR-CYB-RESTAURACION-PREVIA-COMUNICADA-001",
+    "perfil": "HISTORIA-RESTAURACION-PREVIA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "NOMBRE_BACKUP",
+    "observacion": "UNICA",
+    "valor1": "RESTAURACION_PREVIA",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "U",
+      "diagnostico": "OBSERVACION_INSUFICIENTE"
+    },
+    "razon": "Nombre de backup sin manifiesto no acredita el origen anterior."
+  },
+  {
+    "id": "L10-10-15",
+    "parametro": "PAR-CYB-RESTAURACION-PREVIA-COMUNICADA-001",
+    "perfil": "HISTORIA-RESTAURACION-PREVIA-0.1",
+    "identidad": "COINCIDE",
+    "captura": "LEGIBLE",
+    "soporte": "TRABAJO_RESTAURACION",
+    "observacion": "UNICA",
+    "valor1": "RESTAURACION_FALLIDA",
+    "valor2": "",
+    "cobertura": "COMPLETA",
+    "contexto": "ORDEN_ACREDITADO",
+    "esperado": {
+      "clase": "VALIDA",
+      "tri": "0",
+      "diagnostico": "SIN_RESTAURACION_PREVIA"
+    },
+    "razon": "Trabajo fallido no es restauración satisfactoria comunicada."
+  }
+]

@@ -1,6 +1,27 @@
 # Biblioteca de trabajo de Ciberseguridad Inteligente
 
-## Revisión activa · primer parámetro v0.4 · 08-09-2026
+## Revisión activa · diez parámetros v0.5 · 08-09-2026
+
+[Excel principal v0.5](../catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.5.xlsx), hojas 45–55. [Acta de apertura y adopción de P01](../universos/OP-CYB-001/ACTA_APERTURA_Y_ADOPCION_PRIMER_PARAMETRO_v0.1.md) y [manifiesto de alcance Q0](../universos/OP-CYB-001/MANIFIESTO_ALCANCE_COBERTURA_TERMINACION_OP_CYB_001_Q0_v0.1.md) publicados en `2454cb1080c2f824bd3b8115cb31729db8f2d7e8`.
+
+[Lote P02–P10](../universos/OP-CYB-001/LOTE_ATOMICO_02_A_10_OP_CYB_001_v0.1.md): nueve dictámenes atómicos documentales; diez identidades en total. P01 adoptado por Dirección, nueve nuevos pendientes de adopción nominal. 127 testigos nuevos, nueve ablaciones y sensibilidad; 28 testigos iniciales reejecutados. Cero células, rutas y Frames; sin aptitud operacional declarada.
+
+| Evidencia | Función |
+|---|---|
+| [Casos previos](CASOS_PREVIOS_LOTE10_v0.1.json) | Entradas y esperados del ensayo sintético; no registros de sistemas reales. |
+| [Oráculos de ablación](ORACULOS_ABLACION_PREVIOS_v0.1.json) | Obligaciones profesionales diferenciadas y resto semántico declarado. |
+| [Verificación del lote](VERIFICACION_LOTE10_v0.1.json) | Resultados, ablaciones, sensibilidad, controles de archivo y límites. |
+| [Verificación estructural](VERIFICACION_ESTRUCTURAL_v0.5.json) | Controles curriculares anteriores reejecutados. |
+| [Inventario de fuentes](INVENTARIO_FUENTES_LOTE10_v0.1.json) | Siete capturas originales adicionales; fuente, fecha visible/ms.date, bytes, hash y alcance. |
+| [Manifiesto técnico de archivos](MANIFIESTO_ARCHIVOS_LOTE10_v0.1.json) | Identidad exacta de los archivos de esta entrega; distinto del manifiesto sustantivo. |
+| [Verificador portátil](verificar_paquete_lote10.py) | Sólo lectura del corte publicado: bytes, libro y resultados; no recalcula ni ejecuta SV. |
+
+Libro congelado de esta entrega: 469253 bytes; SHA-256 `9e17aeb67291f54cf67c0bf37e5afd60594547fdacf1d317ef8ab07b51f34dd6`. El catálogo sigue abierto; no se ha producido la proyección textual complementaria acordada para su cierre. Los originales externos se conservan en `FUENTES_LOTE10_CIBER_2026_09_08.zip` para revisión privada; no se reproducen íntegramente en GitHub.
+
+La hoja 52 mantiene las 31 distinciones y cinco coberturas parciales explícitas. Diez fichas no significan diez distinciones exhaustivamente cubiertas. Las referencias de los manifiestos históricos se verifican en sus cortes, incluido v0.4 en `b8e5943cce29e10851c5829a84c117044a1eb906`; no sobre este índice actualizado.
+
+
+## Antecedente del primer parámetro v0.4 · corte b8e5943 · 08-09-2026
 
 Libro principal: [CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.4.xlsx](../catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.4.xlsx). Lectura: hojas 36–44; ficha del primer parámetro en 39.
 

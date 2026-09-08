@@ -68,3 +68,10 @@ La Dirección corrige el uso arquitectónico de tamaños inmunológicos y fija a
 Tras la revisión humana del catálogo, se selecciona un recorte documental de CYO-26: evaluación de evidencia para cerrar una corrección por actualización en un activo IT. [OP-CYB-001 / Q0 v0.1](universos/OP-CYB-001/PRIMER_PARAMETRO_OP_CYB_001_v0.1.md) entrega el primer parámetro con dictamen favorable: requisito de reinicio al terminar una instalación individual, separado de cumplimiento posterior, eficacia y permiso.
 
 [Excel v0.4](catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.4.xlsx), hojas 36–44. Nueve preguntas raíz y 31 distinciones iniciales; una dictaminada, 30 pendientes. Veintiocho testigos documentales sintéticos y adversarial interna. No declara cierre del universo, célula, ruta, Frame ni capacidad productiva. La adopción soberana se distingue del dictamen de Watson.
+
+
+## Apertura y lote de diez parámetros · v0.5
+
+La Dirección confirma la apertura de OP-CYB-001 y adopta P01 en el [acta](universos/OP-CYB-001/ACTA_APERTURA_Y_ADOPCION_PRIMER_PARAMETRO_v0.1.md). El [manifiesto](universos/OP-CYB-001/MANIFIESTO_ALCANCE_COBERTURA_TERMINACION_OP_CYB_001_Q0_v0.1.md) conserva Q0 finito.
+
+El [Excel v0.5](catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.5.xlsx) incorpora el [lote de nueve adicionales](universos/OP-CYB-001/LOTE_ATOMICO_02_A_10_OP_CYB_001_v0.1.md): diez identidades con dictamen documental, una adoptada y nueve entregadas para adopción nominal. Las consecuencias de omitir conocimiento guían la separación entre requisito, terminación, estado activo, comprobación e historia posterior. 127 testigos nuevos, nueve ablaciones, veinte ataques internos y cobertura parcial explícita; cero células, rutas y Frames. No se declara cerrado ni operacionalmente apto el universo.

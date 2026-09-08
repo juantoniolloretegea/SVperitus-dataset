@@ -99,3 +99,8 @@ Excel principal v0.4: 45 hojas, 3.850 fórmulas; 34 hojas de v0.3 preservadas en
 Q0 de trabajo: nueve raíces y 31 distinciones, de las que 30 permanecen pendientes. No se traslada esa cardinalidad a células. No se modifica Inmunología ni Lenguaje; se conserva RETP-105. Las siguientes dependencias son resultado individual, cumplimiento posterior y verificación de efecto, con identidad/aplicabilidad previas cuando sean necesarias. No procede G6 con un único éxito local.
 
 Objeto material: `dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/PRIMER_PARAMETRO_OP_CYB_001_v0.1.md`. El índice de la biblioteca apunta al corte activo y conserva los antecedentes.
+
+
+## Actualización · apertura OP-CYB-001 y lote P02–P10
+
+Acta y manifiesto publicados en 2454cb1080c2f824bd3b8115cb31729db8f2d7e8. P01 adoptado por Dirección; nueve nuevos dictámenes en perfiles documentales completan diez identidades. Excel v0.5: 56 hojas; controles, fuentes, consecuencias, 127 testigos nuevos y nueve ablaciones en las hojas 45–55. La cobertura permanece parcial y la adopción nominal de los nueve resultados nuevos no se anticipa. No se modifica el Lenguaje, no se usa el compilador Python retirado y no se acredita ejecución operacional. Véase el expediente sustantivo en dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/LOTE_ATOMICO_02_A_10_OP_CYB_001_v0.1.md.

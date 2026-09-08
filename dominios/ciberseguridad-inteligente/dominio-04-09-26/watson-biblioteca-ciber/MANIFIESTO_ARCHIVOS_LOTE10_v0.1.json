@@ -1,0 +1,84 @@
+{
+  "base_commit": "2454cb1080c2f824bd3b8115cb31729db8f2d7e8",
+  "naturaleza": "Manifiesto de bytes; no proyección del catálogo Excel, firma electrónica ni declaración de aptitud. Excluye su propia huella.",
+  "archivos": [
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.5.xlsx",
+      "bytes": 469253,
+      "sha256": "9e17aeb67291f54cf67c0bf37e5afd60594547fdacf1d317ef8ab07b51f34dd6",
+      "git_blob_sha1": "eae58c4e98b76af496c4d9638b21ddbf4b88edfe"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/LOTE_ATOMICO_02_A_10_OP_CYB_001_v0.1.md",
+      "bytes": 40537,
+      "sha256": "93d38ec69528911631249acbe0ecb8861be7cc8719315819e4f5f3b73aab5ae6",
+      "git_blob_sha1": "48ffc2038bdce42ffd9c77c92096d3bbf32fb3d1"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/ACTA_APERTURA_Y_ADOPCION_PRIMER_PARAMETRO_v0.1.md",
+      "bytes": 4102,
+      "sha256": "9108bcffb3b692b411701fe3cbba384a0c7c0a039e959a32246d92caf5993caa",
+      "git_blob_sha1": "bb4ecac34d659e65c5cef9f38f02dc7fc2bc9004"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/MANIFIESTO_ALCANCE_COBERTURA_TERMINACION_OP_CYB_001_Q0_v0.1.md",
+      "bytes": 8665,
+      "sha256": "c7607bcd39fd5750237c3e832a3772ccb4edd1e15392230ca6488d85c5f3ff3c",
+      "git_blob_sha1": "3425c17f6e1fad175fe996054da3de089165baf1"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/CASOS_PREVIOS_LOTE10_v0.1.json",
+      "bytes": 73410,
+      "sha256": "2bc5cc65b43bcd656de58d5757b2a5642947d01fcf35547e45f32d989aefb85b",
+      "git_blob_sha1": "765f840916ceba705e683a3ecbaccbde0de38381"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/ORACULOS_ABLACION_PREVIOS_v0.1.json",
+      "bytes": 3490,
+      "sha256": "82c977a907d231b011a9627a9444951c8777dfdd78cbc003cc178c61d45a3a68",
+      "git_blob_sha1": "5b92975820183146c06fcd3f9f95fc4a9e2bb7ab"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/INVENTARIO_FUENTES_LOTE10_v0.1.json",
+      "bytes": 5426,
+      "sha256": "91975fdd14e6ce70a14146aa7c6a33b6421b560ac3929b6f179fa6f7799bc2d9",
+      "git_blob_sha1": "b20c3f9ea42e1aa6c404b6561f7f65581d999509"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/VERIFICACION_LOTE10_v0.1.json",
+      "bytes": 97579,
+      "sha256": "7943765da83d9510cdb17104ffd78aeea8d88d98c1cb90071284ed45bc5bba1d",
+      "git_blob_sha1": "e5fc2982b7953e6fe4f24ca3e5cfc44ccbd7e69c"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/VERIFICACION_ESTRUCTURAL_v0.5.json",
+      "bytes": 10981,
+      "sha256": "e3d1ef1bff347d36fc3fc6d45011722d7acc496814c0e729c1422c85bb2627d4",
+      "git_blob_sha1": "0f014ad4182390757f625f8867c61a8aba14fd35"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/verificar_paquete_lote10.py",
+      "bytes": 2484,
+      "sha256": "52d3d5c29768fab61c7a2c0eac74d74c75af957ef39aa481f79e2d1d2d821f46",
+      "git_blob_sha1": "2dffa74d0078a3b63f60c59b2a20ac3788e76acc"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/INDICE_BIBLIOTECA.md",
+      "bytes": 11424,
+      "sha256": "31758f552545e44c3dda75fdd6c504aab0c0dc6f3668aea748102be8d09b1e99",
+      "git_blob_sha1": "edf30e454246ad74dafe11a8ff779266edf78f24"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/README.md",
+      "bytes": 7420,
+      "sha256": "a73fa9fc79150d9a139b32790876fb102d29f393f77964e87a815d910c90e64b",
+      "git_blob_sha1": "feca02e2eced0b9e7aed9317515c30abeb841f3e"
+    },
+    {
+      "ruta": "docs/calidad/EXPEDIENTE_CIBERSEGURIDAD_INTELIGENTE_2026_09_08.md",
+      "bytes": 16856,
+      "sha256": "865b41bef92fe60dae2ee1c9e5c1b5316d2ce57f458a99bdce3d77b09f63cf79",
+      "git_blob_sha1": "47293781a15a5cba546971893c9b09950c2134c3"
+    }
+  ]
+}
