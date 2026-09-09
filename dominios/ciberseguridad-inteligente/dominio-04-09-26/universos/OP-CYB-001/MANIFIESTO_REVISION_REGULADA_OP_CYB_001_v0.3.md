@@ -1,3 +1,5 @@
+> **Precisión posterior:** [revisión de partida y continuidad v0.4](ACTA_Y_MANIFIESTO_CONTINUIDAD_OP_CYB_001_v0.4.md). Los 32 parámetros se conservan; C17 explicita antecedentes y atribuciones. El catálogo principal actual es v0.10; este manifiesto conserva la identidad de v0.3.
+
 # Manifiesto de la revisión regulada de OP-CYB-001
 
 **Versión 0.3 · 9 de septiembre de 2026.** Mandato: revisión adversarial del primer universo frente a identidad, autoridad, protección de datos y cobertura, con estimación explícita para la decisión del Director.

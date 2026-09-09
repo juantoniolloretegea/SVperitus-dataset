@@ -1,3 +1,5 @@
+> **Revisión vigente de continuidad v0.4.** Se conservan 32 parámetros y se explicitan estado inicial, antecedentes, deberes, inventario y perímetros mediante C17. [Acta y documentos](universos/OP-CYB-001/ACTA_Y_MANIFIESTO_CONTINUIDAD_OP_CYB_001_v0.4.md). Catálogo principal: [Excel v0.10](catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.10.xlsx).
+
 > **Revisión vigente: v0.3, identidad, autoridad y datos.** El inventario de 24 definiciones se amplía a 32 y se rectifica su cobertura anterior. Véanse el [manifiesto v0.3](universos/OP-CYB-001/MANIFIESTO_REVISION_REGULADA_OP_CYB_001_v0.3.md), el [dictamen](universos/OP-CYB-001/REVISION_ADVERSARIAL_IDENTIDAD_AUTORIDAD_Y_DATOS_OP_CYB_001_v0.3.md) y la [estimación con contraste del Lenguaje](universos/OP-CYB-001/ESTIMACION_Y_CONTRASTE_CON_LENGUAJE_v0.3.md). Los apartados siguientes conservan su corte histórico.
 
 # Dominio de ciberseguridad inteligente — corte abierto el 04-09-2026

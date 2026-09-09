@@ -1,3 +1,5 @@
+> **Sucesión vigente: partida y continuidad v0.4.** Los 32 parámetros se mantienen; se incorpora C17 y se prepara RS01–RS12 para decisión humana. Véase la actuación de continuidad al final.
+
 > **Sucesión vigente: revisión regulada v0.3 al final de este expediente.** Rectifica la cobertura de autoridad y datos del cierre de 24 definiciones; nuevo inventario documental de 32.
 
 # Expediente de Ciberseguridad Inteligente · 08-09-2026
@@ -147,3 +149,8 @@ El Excel v0.9 es principal; v0.8 permanece congelado. El anexo se obtiene por le
 Los escenarios 29/38/59 se explicitan como particiones propuestas de 59 productos candidatos; no son límites medidos. Los presupuestos revisados dan 288/552/1062 definiciones orientativas según reutilización supuesta, sin doble sumar las ocho incorporadas. La propuesta es contrastar el primer universo ampliado con RS01–RS08; el Director decide uno o dos según necesidad semántica. No hay apertura de otro universo ni relevo operativo automático.
 
 Objeto verificable: [manifiesto de revisión regulada](../../dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/MANIFIESTO_REVISION_REGULADA_OP_CYB_001_v0.3.md). Dictamen: incremento documental cerrado con insuficiencias operacionales atribuidas; no certificación normativa ni producción.
+
+
+## Actuación de continuidad documental 20260909
+
+SVP-ACT-2026-007 y SVP-H-011. Base d616c0350379af5dddb8971d018c4f1086de03a8. Se revisan historia de partida, registros, asignaciones y custodia; se conservan 32 definiciones y se incorpora C17. Dieciocho elementos de contexto, nueve relaciones y cuatro requisitos complementarios RS09–RS12. Justificación individual y seis obras técnicas adicionales. 32 testigos sintéticos, once observadores erróneos detectados y dos ejecuciones con bytes idénticos. No se demuestra ejecución operacional SV ni autoridad institucional real. Decisión de uno o dos universos reservada al Director. Documentos: dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/ACTA_Y_MANIFIESTO_CONTINUIDAD_OP_CYB_001_v0.4.md.

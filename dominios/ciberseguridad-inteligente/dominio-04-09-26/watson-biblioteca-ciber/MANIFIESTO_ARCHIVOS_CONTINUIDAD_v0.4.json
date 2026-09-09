@@ -1,0 +1,81 @@
+{
+  "fecha": "2026-09-09",
+  "base": "d616c0350379af5dddb8971d018c4f1086de03a8",
+  "rama": "dominio-ciberseguridad-inteligente",
+  "naturaleza": "Identidad documental; no autenticación de autor, firma personal ni aprobación humana.",
+  "archivos": [
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/ADVERSARIAL_Y_SOLICITUD_DE_VALORACION_OP_CYB_001_v0.4.md",
+      "bytes": 16072,
+      "sha256": "78a25d3a473051ce0faf8f0a70d8dc849dcd3e40763915916d1563bc9cb329fd",
+      "git_blob": "42bef254ea49aad2bc40d8e46feae4aea0434753"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/ACTA_Y_MANIFIESTO_CONTINUIDAD_OP_CYB_001_v0.4.md",
+      "bytes": 5375,
+      "sha256": "02dcd0360698c2cc906f47155de12e8fe3dd493e9dcab632f0fbb61a7aba369e",
+      "git_blob": "82bccb97b30007ec6c8e3472cb32da94b77f5487"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/EXPEDIENTE_PREDECISIONAL_ESTADO_DE_PARTIDA_Y_CONTINUIDAD_OP_CYB_001_v0.4.md",
+      "bytes": 20618,
+      "sha256": "3848aee191d5c09fe7e1d7829ec7d0eead7481b8b2b3ffd0e7f1c5842855b122",
+      "git_blob": "602d1c5ad33a27da1eb76ce2e72400de0902f42f"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/JUSTIFICACION_CIENTIFICA_DE_LA_SELECCION_PARAMETRICA_OP_CYB_001_v0.4.md",
+      "bytes": 65666,
+      "sha256": "f72ae0f5c1626810d374caf2b9613d6274e9754d856e360fc398d1a0b381e94a",
+      "git_blob": "46e03720195965642a440d5aeec4d3d13c43d616"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/MANIFIESTO_REVISION_REGULADA_OP_CYB_001_v0.3.md",
+      "bytes": 4916,
+      "sha256": "46b4bbd51f8b099f303f392fe68d93761aae76234fc234901c2dc7a2aca315dc",
+      "git_blob": "ce07bcbf8ac3c7918e1281e010f7a852234128a5"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/README.md",
+      "bytes": 10125,
+      "sha256": "66f986733ed6ee0c7d675132533028941600ad51f5949f9a3a6633dab18546e9",
+      "git_blob": "298d2d0f51595a5a37d704eeed3d8df2f1dcfb30"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/INDICE_BIBLIOTECA.md",
+      "bytes": 4645,
+      "sha256": "e31e95a2d524c7dc0d6e5cf6d5b3641b9fcdaa6a0906789b26131e651c2fb407",
+      "git_blob": "54c5713de836c41e171c6504f2b493c580004b18"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.10.xlsx",
+      "bytes": 672096,
+      "sha256": "76166a77373e7df2c23bfe5a6fe17bf3cc305305cce629e43da720d656d0bd45",
+      "git_blob": "f9e6504cbb0458135826e89225110fcec9af338c"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/ANEXO_CONTINUIDAD_OP_CYB_001_v0.4.zip",
+      "bytes": 539142,
+      "sha256": "67b14579d4dcbfae597414528ba2e3d61161ddc7a34d0e1219c0f046ceb39402",
+      "git_blob": "7f51be992d7cbf05c8bbd2c6eeaeddbe7f2f6812"
+    },
+    {
+      "path": "docs/calidad/EXPEDIENTE_CIBERSEGURIDAD_INTELIGENTE_2026_09_08.md",
+      "bytes": 24548,
+      "sha256": "3c6ac901390c8009effc64add41e6697dceb803616602d9970701ed68308dcec",
+      "git_blob": "fc971109eecd3b2ed491ae79d9a419904715ce96"
+    },
+    {
+      "path": "docs/calidad/REGISTRO_MINIMO_DE_ACTUACIONES_POR_BLOQUE_Y_SEDE_SVPERITUS.csv",
+      "bytes": 4099,
+      "sha256": "8e77b6e023b4cd4df3811db5ec76bb6b3bc123bd73451e70726e923a2e256698",
+      "git_blob": "8d5236929e64b6469d30aae9f5d722aba7fb31de"
+    },
+    {
+      "path": "docs/calidad/REGISTRO_MINIMO_DE_HITOS_Y_CIERRES_SVPERITUS.csv",
+      "bytes": 5280,
+      "sha256": "17510918a9fc7f111cf1429589c81cd8ccf8770372d3d484b7b9d494164dc474",
+      "git_blob": "6317d86d86b52fb8beb3cb35a844afbe7c40a596"
+    }
+  ],
+  "estatuto": "32 definiciones conservadas; C17 y continuidad explícitos; capacidad operacional SV no acreditada; decisión siguiente del Director."
+}
