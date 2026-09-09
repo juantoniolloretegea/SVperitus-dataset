@@ -104,3 +104,18 @@ Objeto material: `dominios/ciberseguridad-inteligente/dominio-04-09-26/universos
 ## Actualización · apertura OP-CYB-001 y lote P02–P10
 
 Acta y manifiesto publicados en 2454cb1080c2f824bd3b8115cb31729db8f2d7e8. P01 adoptado por Dirección; nueve nuevos dictámenes en perfiles documentales completan diez identidades. Excel v0.5: 56 hojas; controles, fuentes, consecuencias, 127 testigos nuevos y nueve ablaciones en las hojas 45–55. La cobertura permanece parcial y la adopción nominal de los nueve resultados nuevos no se anticipa. No se modifica el Lenguaje, no se usa el compilador Python retirado y no se acredita ejecución operacional. Véase el expediente sustantivo en dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/LOTE_ATOMICO_02_A_10_OP_CYB_001_v0.1.md.
+
+
+## Inventario terminal 20260909
+
+Asientos nuevos: **SVP-ACT-2026-004**, **SVP-H-008** y **SVP-DV-005**. Base `ffbf579094f7608ebf568ed1aa51c318cfc4ab3f`. El mandato del Director amplía la continuidad más allá de la cuota de diez hasta tratar el inventario del primer universo. Se conservan acta y manifiesto anteriores.
+
+Resultado de este corte: quince definiciones documentales en sus perfiles, catorce controles y dieciséis relaciones profesionales. Las 31 distinciones Q0 reciben tratamiento y estatuto; esto no acredita satisfacción operacional. P01 conserva adopción; los diez antecedentes reciben conformidad general de continuidad; las cinco novedades no se presentan como adoptadas por anticipado.
+
+Se ejecutaron 65 testigos nuevos, 51 controles, cinco ablaciones y sensibilidad del observador documental. Tres casos de transporte/diagnóstico nativo se repitieron dos veces con bytes idénticos. Un oráculo inicial de totalidad no alcanzaba su condición por falta de asociación al codominio; se conserva y se rectifica, sin atribuir un defecto al Lenguaje. La duplicación de mapping sí alcanza E115. No se recompila Rust ni se acredita observación→Tri productiva.
+
+**Dictamen:** terminación del inventario documental con insuficiencias atribuidas; G6, rutas/Frame, sensores reales y ejecución Q0 no acreditados. No se declara agotamiento operacional del universo ni cierre favorable de C1/fila 8. D-CYB-01/02/03/05 bloquean las capacidades que dependen de captura, instanciación, arquitectura, Lenguaje y ensayo material; D-CYB-04 conserva la decisión humana sobre las novedades. No se abre otro universo ni se modifica el Lenguaje.
+
+Excel principal v0.6: 66 hojas y 66 tablas. Las 55 hojas anteriores distintas de portada conservan valores, tipos y fórmulas. La proyección final del catálogo no se emite porque el dominio curricular no está cerrado. La huella del archivo congelado identifica sus bytes sin prometer estabilidad entre guardados.
+
+Expediente sustantivo: [dictamen de OP-CYB-001](../../dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/DICTAMEN_TERMINACION_DOCUMENTAL_OP_CYB_001_v0.1.md). Contratos, fuentes, requisitos al Lenguaje, resultados y manifiesto en la biblioteca de Ciberseguridad. La deuda SVP-DV-005 desarrolla el alcance actual y conserva SVP-DV-004 como antecedente abierto más amplio.

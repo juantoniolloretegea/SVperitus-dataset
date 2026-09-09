@@ -1,3 +1,17 @@
+# Biblioteca de Ciberseguridad inteligente
+
+## Corte v0.6 · inventario documental OP-CYB-001 · 09-09-2026
+
+- [Excel principal v0.6](../catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.6.xlsx), hojas 56–65 del corte actual.
+- [Dictamen completo](../universos/OP-CYB-001/DICTAMEN_TERMINACION_DOCUMENTAL_OP_CYB_001_v0.1.md): quince definiciones en perfil; 31 distinciones tratadas; insuficiencias operacionales atribuidas.
+- [Contratos y resultados](CIERRE_OP_CYB_001_v0.1.json), auxiliar de contraste. No sustituye al Excel.
+- [Entradas, esperados, realizadores y salidas](ENSAYOS_CIERRE_OP_CYB_001_v0.1.zip).
+- [Manifiesto exacto](MANIFIESTO_ARCHIVOS_CIERRE_v0.1.json) y [verificador](verificar_cierre_op_cyb_001.py).
+
+No hay cierre favorable de G6/C1/fila 8, agente ni capacidad operacional acreditada. Las cinco nuevas definiciones necesitan adopción humana antes de uso gobernante. La proyección final del catálogo cerrado no se ha generado. Los cortes anteriores conservan sus estados históricos.
+
+---
+
 # Biblioteca de trabajo de Ciberseguridad Inteligente
 
 ## Revisión activa · diez parámetros v0.5 · 08-09-2026

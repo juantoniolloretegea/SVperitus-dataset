@@ -1,0 +1,100 @@
+{
+  "base_commit": "ffbf579094f7608ebf568ed1aa51c318cfc4ab3f",
+  "alcance": "Archivos nuevos y antecedentes de gobierno leídos. Hashes comprueban identidad de bytes; no certifican la verdad de la prosa. Manifiesto excluido de sí mismo.",
+  "archivos": [
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.6.xlsx",
+      "bytes": 522608,
+      "sha256": "ca513574c939651cba77eead0124b07b123e3968f14b64e73b774833e2c26bc7"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/DICTAMEN_TERMINACION_DOCUMENTAL_OP_CYB_001_v0.1.md",
+      "bytes": 53859,
+      "sha256": "b7e80c0b9f63c9583a8dc3d90b6bfd76a59349d665e946fae0e826181ac824d7"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/CIERRE_OP_CYB_001_v0.1.json",
+      "bytes": 77348,
+      "sha256": "3465efae451e0dc59d9a6180596506b63f4ef260795c8c982079cd4e894a4ce6"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/ENSAYOS_CIERRE_OP_CYB_001_v0.1.zip",
+      "bytes": 35580,
+      "sha256": "c3d2d709505ead1e98009402d78a1c7da1e9764e15821f7ba8cc4e22bc7ce26f"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/verificar_cierre_op_cyb_001.py",
+      "bytes": 2746,
+      "sha256": "b9b0ad0bf2a5f07991249a291f9877fc85c763c7893e59cc4a1e70014cb25dd8"
+    },
+    {
+      "path": "docs/calidad/EXPEDIENTE_CIBERSEGURIDAD_INTELIGENTE_2026_09_08.md",
+      "bytes": 19229,
+      "sha256": "cd95d054d4b4769f6ca5ba9bbd058128e37b672eb246db81ecac704b61efbd15"
+    },
+    {
+      "path": "docs/calidad/REGISTRO_MINIMO_DE_ACTUACIONES_POR_BLOQUE_Y_SEDE_SVPERITUS.csv",
+      "bytes": 2676,
+      "sha256": "633057847abd1a42a6dbd854c4e76d115cd2c495a63029bfad35cfa821a41fc7"
+    },
+    {
+      "path": "docs/calidad/REGISTRO_MINIMO_DE_HITOS_Y_CIERRES_SVPERITUS.csv",
+      "bytes": 3811,
+      "sha256": "916c82dd28943c1a4b97b45a5bdc03d109183cb58f72ac350b63fbb5d5802ffe"
+    },
+    {
+      "path": "docs/calidad/DEUDA_VIVA_MINIMA_SVPERITUS.csv",
+      "bytes": 2592,
+      "sha256": "f422cf684202f5cc5d725d37db9dbc82a16a3f0f21f8543dfb3103f8f88d7c28"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/INDICE_BIBLIOTECA.md",
+      "bytes": 12448,
+      "sha256": "a534ccf37cd4ca7dd22809dd59279bf9314facc6b4c9132f52cb624b0b05ff40"
+    }
+  ],
+  "antecedentes": [
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/Aprobada_INSTRUCCION_RELEVO_CIBERSEGURIDAD_INTELIGENTE_2026_09_08.md",
+      "bytes": 57734,
+      "sha256": "0d35f7511a1754a7bc16c50609714445a294e6505aa1ae91678a05222192e57a",
+      "corte": "ffbf579094f7608ebf568ed1aa51c318cfc4ab3f"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/ACTA_APERTURA_Y_ADOPCION_PRIMER_PARAMETRO_v0.1.md",
+      "bytes": 4102,
+      "sha256": "9108bcffb3b692b411701fe3cbba384a0c7c0a039e959a32246d92caf5993caa",
+      "corte": "ffbf579094f7608ebf568ed1aa51c318cfc4ab3f"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/MANIFIESTO_ALCANCE_COBERTURA_TERMINACION_OP_CYB_001_Q0_v0.1.md",
+      "bytes": 8665,
+      "sha256": "c7607bcd39fd5750237c3e832a3772ccb4edd1e15392230ca6488d85c5f3ff3c",
+      "corte": "ffbf579094f7608ebf568ed1aa51c318cfc4ab3f"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/PRIMER_PARAMETRO_OP_CYB_001_v0.1.md",
+      "bytes": 19407,
+      "sha256": "e500d0dd167c89c93bf3e567b9ba8bc5537ebf3393571551595e68edd99843fa",
+      "corte": "ffbf579094f7608ebf568ed1aa51c318cfc4ab3f"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/LOTE_ATOMICO_02_A_10_OP_CYB_001_v0.1.md",
+      "bytes": 40537,
+      "sha256": "93d38ec69528911631249acbe0ecb8861be7cc8719315819e4f5f3b73aab5ae6",
+      "corte": "ffbf579094f7608ebf568ed1aa51c318cfc4ab3f"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.5.xlsx",
+      "bytes": 469253,
+      "sha256": "9e17aeb67291f54cf67c0bf37e5afd60594547fdacf1d317ef8ab07b51f34dd6",
+      "corte": "ffbf579094f7608ebf568ed1aa51c318cfc4ab3f"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/RECEPCION_FILA7.json",
+      "bytes": 2051,
+      "sha256": "dcd670c3558806720d5714a77822329b35a68e070b2f15be0a5a1ac3e7070c17",
+      "corte": "ffbf579094f7608ebf568ed1aa51c318cfc4ab3f"
+    }
+  ]
+}
