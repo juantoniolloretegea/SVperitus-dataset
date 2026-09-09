@@ -1,0 +1,93 @@
+{
+  "fecha": "2026-09-09",
+  "base": "ee10ebe7fa058dfd1158f9753952712b854f87cc",
+  "rama": "dominio-ciberseguridad-inteligente",
+  "naturaleza": "Identidad documental; no autenticación de autor, firma personal ni aprobación humana.",
+  "archivos": [
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/REVISION_ADVERSARIAL_IDENTIDAD_AUTORIDAD_Y_DATOS_OP_CYB_001_v0.3.md",
+      "bytes": 18503,
+      "sha256": "84e868b6ae46c06d97b3c519ee0b06cb129c5acbeb0df180ef613d7077d24cc3",
+      "git_blob": "912b4e214dba9c99ca4c2d0a5f568074ed6deb4e"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/MANIFIESTO_REVISION_REGULADA_OP_CYB_001_v0.3.md",
+      "bytes": 4631,
+      "sha256": "fc81de720a3df4a1ec5748eadd31d2f7e6cbdd0535846ba6531a679b3aca28d7",
+      "git_blob": "0d1be924390045403fcbf754e4791891eb843fd7"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/ESTIMACION_Y_CONTRASTE_CON_LENGUAJE_v0.3.md",
+      "bytes": 19873,
+      "sha256": "e8fff257cc5c836c8ffa46617eb19df0c2f440dc4869004b9637cd33b929c1c0",
+      "git_blob": "6a6ffb1cb689502634a80cee70a94dbd56850dc8"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/AMPLIACION_ATOMICA_Y_COBERTURA_OP_CYB_001_v0.3.md",
+      "bytes": 29124,
+      "sha256": "2966cc8614ef0de52559164afe192f90b86e60e3a7b753ff26fd6bd5b5acb663",
+      "git_blob": "80ff6cd7febb0610b2f42e5a5846a84af3b46cba"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/BIBLIOGRAFIA_DE_PRESION_OP_CYB_001_v0.3.md",
+      "bytes": 10375,
+      "sha256": "1851db5b1831853380518fa253f06203553c1bf616e5415450680c9da68a1957",
+      "git_blob": "fbd722fdaf4c4c20d60b315703bd80adcfae240d"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/ACTA_CONCLUSION_PRIMER_UNIVERSO_OP_CYB_001_v0.2.md",
+      "bytes": 4223,
+      "sha256": "583527c319ca3f005ee901400b871dad5fe2dbe6b8bdfcc58ff8799784b5766f",
+      "git_blob": "ee6dad2c2ef2418a5fcaf96d9e9258399d63a377"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/MANIFIESTO_ALCANCE_COBERTURA_TERMINACION_OP_CYB_001_Q0_v0.2.md",
+      "bytes": 4400,
+      "sha256": "2d3b39e1bd6172566377288dca69c0881d305f26bcb94364c5ec1beeeefebeba",
+      "git_blob": "488a777ce802b0b87a1772fee11b0f28a2d2ad3b"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/README.md",
+      "bytes": 9761,
+      "sha256": "a9ff8afeeadad3e09c80ce3f5a7dff21ab9c0097d0c20bc9590eb616ec90e8dd",
+      "git_blob": "7cda3a5c4a1bf8b3c6f6c9bb1149e7b69c29e754"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/INDICE_BIBLIOTECA.md",
+      "bytes": 4352,
+      "sha256": "2ff247ab3b84727b96e3c62ee229f262b505ef4ea90e09de6611234bcc5fa03f",
+      "git_blob": "4448f24d536635a9732ba82361df6ed58da9c13b"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.9.xlsx",
+      "bytes": 633202,
+      "sha256": "c5c78572f1e804a62df95757e1b811b2488869b70ed30f2fc2cbad056c1502d0",
+      "git_blob": "d83ca895dfc40f34622fdf50b82d9d0b641e56b7"
+    },
+    {
+      "path": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/ANEXO_PRESION_REGULADA_OP_CYB_001_v0.3.zip",
+      "bytes": 545426,
+      "sha256": "7be66eb290dddb3ab2b9b1369b62a9cf0904cd93f8bf924e40fc15ea6b340c96",
+      "git_blob": "a6372f05329885f5873cd7d217db3a411a8a3991"
+    },
+    {
+      "path": "docs/calidad/EXPEDIENTE_CIBERSEGURIDAD_INTELIGENTE_2026_09_08.md",
+      "bytes": 23572,
+      "sha256": "767691a73e51419976c6762c1f40613dacafeb4bec2ea7162a62fb052700079e",
+      "git_blob": "b39da99abce377dc591275a5eceea10fdcb4a191"
+    },
+    {
+      "path": "docs/calidad/REGISTRO_MINIMO_DE_ACTUACIONES_POR_BLOQUE_Y_SEDE_SVPERITUS.csv",
+      "bytes": 3650,
+      "sha256": "c2f3e4f6f1f5d7b4110321ee632bd18d7e03644c2d1457afdb866482d160cff0",
+      "git_blob": "a2b0252eb8cb458eaec81a7ae85f23f60658b3e8"
+    },
+    {
+      "path": "docs/calidad/REGISTRO_MINIMO_DE_HITOS_Y_CIERRES_SVPERITUS.csv",
+      "bytes": 4788,
+      "sha256": "c3722bf11f7fc5c777ca03bdfc2b34186b09eb1fd1edd84bc4eda5405781d9d4",
+      "git_blob": "3a73603f3351378a4b9f772d826784b006c932b1"
+    }
+  ],
+  "estatuto": "32 definiciones documentales; capacidad operacional SV no acreditada; decisión siguiente del Director."
+}

@@ -1,3 +1,5 @@
+> **Antecedente conservado.** La [revisión v0.3](MANIFIESTO_REVISION_REGULADA_OP_CYB_001_v0.3.md) rectifica la suficiencia de esta cobertura de autoridad y datos y amplía el inventario a 32 definiciones. El contenido siguiente describe el corte v0.2.
+
 # Acta de conclusión del primer universo y reserva de la decisión siguiente
 
 **OP-CYB-001. Versión 0.2. 9 de septiembre de 2026.**

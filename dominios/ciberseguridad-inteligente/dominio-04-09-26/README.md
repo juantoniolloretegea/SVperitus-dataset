@@ -1,6 +1,8 @@
+> **Revisión vigente: v0.3, identidad, autoridad y datos.** El inventario de 24 definiciones se amplía a 32 y se rectifica su cobertura anterior. Véanse el [manifiesto v0.3](universos/OP-CYB-001/MANIFIESTO_REVISION_REGULADA_OP_CYB_001_v0.3.md), el [dictamen](universos/OP-CYB-001/REVISION_ADVERSARIAL_IDENTIDAD_AUTORIDAD_Y_DATOS_OP_CYB_001_v0.3.md) y la [estimación con contraste del Lenguaje](universos/OP-CYB-001/ESTIMACION_Y_CONTRASTE_CON_LENGUAJE_v0.3.md). Los apartados siguientes conservan su corte histórico.
+
 # Dominio de ciberseguridad inteligente — corte abierto el 04-09-2026
 
-> Estado actual: primer universo concluido con 24 parámetros. Véase la actualización de 09-09-2026 al final y el [expediente vigente](watson-biblioteca-ciber/INDICE_BIBLIOTECA.md). Los tramos anteriores conservan la historia del trabajo.
+> Antecedente v0.2: primer universo concluido con 24 parámetros. Véase la actualización de 09-09-2026 al final y el [expediente vigente](watson-biblioteca-ciber/INDICE_BIBLIOTECA.md). Los tramos anteriores conservan la historia del trabajo.
 
 - **Identificador del corte:** `DOM-CIB-2026-09-04`
 - **Rama de trabajo:** `dominio-ciberseguridad-inteligente`

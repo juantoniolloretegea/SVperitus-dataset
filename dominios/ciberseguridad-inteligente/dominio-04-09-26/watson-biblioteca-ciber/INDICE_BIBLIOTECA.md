@@ -1,3 +1,5 @@
+> **Revisión actual: presión regulada v0.3.** [Catálogo Excel v0.9](../catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.9.xlsx); [manifiesto](../universos/OP-CYB-001/MANIFIESTO_REVISION_REGULADA_OP_CYB_001_v0.3.md); [anexo verificable](ANEXO_PRESION_REGULADA_OP_CYB_001_v0.3.zip). Se conservan las copias anteriores.
+
 # Biblioteca de ciberseguridad inteligente
 
 ## Expediente vigente: primer universo concluido

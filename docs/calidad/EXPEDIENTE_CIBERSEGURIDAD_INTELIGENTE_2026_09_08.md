@@ -1,3 +1,5 @@
+> **Sucesión vigente: revisión regulada v0.3 al final de este expediente.** Rectifica la cobertura de autoridad y datos del cierre de 24 definiciones; nuevo inventario documental de 32.
+
 # Expediente de Ciberseguridad Inteligente · 08-09-2026
 
 > Actualización vigente: constitución y agotamiento de OP-CYB-001, revisión de 09-09-2026, al final de este expediente. Los tramos anteriores son históricos.
@@ -130,3 +132,18 @@ El agotamiento corresponde al inventario paramétrico del perímetro OP-CYB-001.
 La orden humana posterior reserva al Director la elección entre el contraste con el Lenguaje y un segundo universo. Se corrige cualquier lectura de SVP-DV-004 o SVP-DV-005 que exigiera un relevo automático o mantuviera la búsqueda paramétrica inconclusa por una dependencia de programación. Sus limitaciones operacionales tienen un objeto diferente y no se borran de la historia.
 
 Asientos de esta revisión: SVP-ACT-2026-005 y SVP-H-009. La revisión editorial de este expediente no cierra la obligación general DFL-011 de revisar todos los repositorios SV.
+
+
+## Revisión regulada de identidad, autoridad y datos · 09-09-2026
+
+SVP-ACT-2026-006 y SVP-H-010 registran la revisión ordenada por el Director. Base `ee10ebe7fa058dfd1158f9753952712b854f87cc`. Tres PDF leídos íntegramente y fuentes primarias contrastadas con localizadores y ediciones; doce registros de presión, sin sumarlos como fuentes únicas a la bibliografía anterior. La portada real de CCN-STIC 813 se identifica como *Ciberseguridad de espacios de datos*, abril de 2024.
+
+El cierre anterior era insuficiente para distinguir legitimidad de actuación, identidad, prueba temporal y protección de los registros. Se conservan P01–P24 y se adjudican P25–P32. C02 distingue admisión de evidencia de autorización del acto observado: una prueba admisible puede acreditar una actuación no autorizada. Se actualizan los controles pertinentes y se añaden C15/C16. Los dieciséis candidatos no atómicos conservan resolución motivada.
+
+La campaña ejecuta 46 casos sintéticos y detecta once modificaciones erróneas del observador. Diez pares documentales conservan resultados técnicos iguales y hechos de gobierno diferentes. Son ensayos auxiliares externos, no compilador SV, autenticación, criptografía, infraestructura real ni ejecución de la IR. `ir.rs` y `bindings.rs` se cotejan con la entrega `66967a80` y el paquete `ab61d9bb`; no se modifica ni ejecuta el Lenguaje. DFL-011 conserva su mandato general y no se cierra desde esta revisión.
+
+El Excel v0.9 es principal; v0.8 permanece congelado. El anexo se obtiene por lectura sin resalvar el libro. Se revisan español, bibliografía, fórmulas, tipos exactos, conservación histórica y estructura de tablas GFM. No se presenta el análisis GFM como captura visual de GitHub. La limitación de paneles de las hojas nuevas se registra en el manifiesto.
+
+Los escenarios 29/38/59 se explicitan como particiones propuestas de 59 productos candidatos; no son límites medidos. Los presupuestos revisados dan 288/552/1062 definiciones orientativas según reutilización supuesta, sin doble sumar las ocho incorporadas. La propuesta es contrastar el primer universo ampliado con RS01–RS08; el Director decide uno o dos según necesidad semántica. No hay apertura de otro universo ni relevo operativo automático.
+
+Objeto verificable: [manifiesto de revisión regulada](../../dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/MANIFIESTO_REVISION_REGULADA_OP_CYB_001_v0.3.md). Dictamen: incremento documental cerrado con insuficiencias operacionales atribuidas; no certificación normativa ni producción.
