@@ -169,3 +169,23 @@ El relevo conserva REQ-CYB-001–009 y RS01–RS12, sin contarlos como capacidad
 SVP-DV-004/005 quedan precisadas: la aprobación del inventario y la entrega documental están resueltas; permanecen las obligaciones constitutivas, de observación, representación, soporte y ensayo necesarias para las capacidades todavía no acreditadas. La continuidad actual no requiere elegir de nuevo entre uno y dos universos. La unidad emisora queda en pausa controlada tras la entrega.
 
 Piezas canónicas: [consolidación](ACTA_CONSOLIDACION_PRIMER_UNIVERSO_CIBERSEGURIDAD_INTELIGENTE_2026_09_09.md) y [relevo](../../dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/ACTA_CONTINUIDAD_Y_RELEVO_OP_CYB_001_AL_LENGUAJE_SV_2026_09_09.md). Verificación de esta actuación: identidad de la base y del libro cerrado, recuentos, hipótesis aritméticas, correspondencias, referencias y estructura Markdown; no nueva campaña operacional.
+
+
+## Adenda sobre integridad y trazabilidad del consejo · 09-09-2026
+
+**SVP-ACT-2026-010.** Por encargo expreso del Director se incorpora una adenda a las dos piezas existentes: [continuidad y relevo, §12](../../dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/ACTA_CONTINUIDAD_Y_RELEVO_OP_CYB_001_AL_LENGUAJE_SV_2026_09_09.md#12-adenda-integridad-y-trazabilidad-del-consejo-asistido-por-ia), y [justificación científica, §6](../../dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/JUSTIFICACION_CIENTIFICA_DE_LA_SELECCION_PARAMETRICA_OP_CYB_001_v0.4.md#6-adenda-fundamento-científico-de-la-integridad-del-consejo). Se preservan íntegros sus textos anteriores en el corte `169af16d05ffc954454bb5528ec106e5752b7016`. La autorización corresponde a esta incorporación concreta y no se extiende a futuras actas.
+
+Se precisa la integridad del consejo dentro de OP-CYB-001: procedencia, selección y cobertura de evidencia, autoridad, fidelidad de la presentación, continuidad, vistas y revisión humana. CP-100, AN-03, CE-OM-05 y CFM-02–07 ya registraban necesidades pertinentes; la revisión no las presenta como ausentes ni como realizadas. La explicación generada por un modelo no acredita acceso completo a su razonamiento interno. Se mantienen las condiciones humanas y la prohibición de inferencia opaca en la cadena soberana.
+
+El antecedente `ee10ebe7` contiene 24 parámetros; la constitución vigente conserva 32. El Excel v0.10, sus anexos y las estimaciones permanecen sin modificación. La adenda no atribuye la condición de parámetro a una garantía agregada de fiabilidad de la IA.
+
+En el corte receptor `73c738348a9493a459744c62b8ade382ff595af5` ya constan RETP-106–110. Queda precisado el estado histórico de recepción pendiente de SVP-H-013: existe recepción del relevo original, con resultados documentales y límites propios. La recepción de la presente adenda corresponde al Lenguaje y no se declara realizada desde esta sede. Los perfiles de idioma, dominio y soporte y sus ensamblajes mantienen funciones diferentes.
+
+**Alcance de verificación:** cotejo de fuentes, identidades y localizadores; revisión de coherencia; conservación de los antecedentes; análisis de tablas y enlaces Markdown. Los doce casos adversariales A–L están especificados, no ejecutados. No se acredita una capa de modelos ni se declara pérdida o suficiencia nueva de la IR. Se concreta el alcance pendiente de SVP-DV-005; no se duplica la deuda del Lenguaje ni se abre otro universo.
+
+Las siguientes identidades corresponden a los archivos completos después de incorporar sus adendas. Este asiento no incorpora su propia huella; el commit y los objetos Git identifican el conjunto publicado. Las huellas identifican bytes, no constituyen firma personal del Director.
+
+| Pieza | Bytes | SHA-256 |
+| --- | --- | --- |
+| Acta de continuidad y relevo con §12 | 52620 | `7ffabc2d347e4f5519acf8127994ada23dbe2bd0c9c98107f68bb509a970f210` |
+| Justificación científica con §6 | 85986 | `ca3e013f5b4d436fa839c758539f1e8f1dc67ed680b5ed6c364b192713651b72` |

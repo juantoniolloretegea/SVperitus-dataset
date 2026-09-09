@@ -586,3 +586,105 @@ Se conservan los identificadores de la biblioteca para permitir el cotejo con Ex
 - [IMM-2: expediente de Inmunología](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/fe8adf76aa030ba5ff4997be5772b5de5e4452f3/dominios/inmunologia/universos-clinicos/01-evaluacion-predecisional-riesgo-infeccioso-antes-inmunosupresion-adultos/Expediente_predecisional_de_informacion_clinica_pertinente_antes_de_iniciar_tratamiento_inmunosupresor_en_adultos_v1.1_2026-09-03.md). Corte `fe8adf76aa030ba5ff4997be5772b5de5e4452f3`. Documento completo; segunda revisión dirigida a finalidad, responsabilidad, procedencia, límites y forma de valoración. Identidad y huella en el anexo.
 
 La primera solicitud de Inmunología examinaba un corte anterior del Lenguaje. Se toma su forma de exigir evidencia y separar responsabilidades; no se traslada su inventario de capacidades ni sus autorizaciones históricas a Ciberseguridad.
+
+
+## 6. Adenda: fundamento científico de la integridad del consejo
+
+**Fecha:** 9 de septiembre de 2026. **Alcance:** justificación complementaria de la [adenda de continuidad, §12](ACTA_CONTINUIDAD_Y_RELEVO_OP_CYB_001_AL_LENGUAJE_SV_2026_09_09.md#12-adenda-integridad-y-trazabilidad-del-consejo-asistido-por-ia), expresamente encargada por el Director. Los cinco apartados anteriores se conservan íntegros: objeto Git `46e03720195965642a440d5aeec4d3d13c43d616`, 65666 bytes, SHA-256 `f72ae0f5c1626810d374caf2b9613d6274e9754d856e360fc398d1a0b381e94a`, en `169af16d05ffc954454bb5528ec106e5752b7016`.
+
+### 6.1. Pregunta, fuentes y estatuto de la revisión
+
+Se examina si la intervención de un modelo en la selección, elaboración o presentación del consejo puede perder conocimiento o relaciones necesarios para valorar una actualización. La pregunta incluye la evidencia negativa, las restricciones y las consecuencias de omisión. No se limita a comprobar que el texto sea fluido, tenga referencias o reproduzca algunos campos del expediente.
+
+El informe externo aportado por el Director motivó la revisión: 8679 bytes, SHA-256 `a734851680671db87250a292ae02e3733fed1825772fcd369dff2db7cc8ff9aa`. Sus afirmaciones se han contrastado con los documentos y el catálogo, sin convertir su relato en autoridad. La revisión precedente comprobó por lectura las 85 hojas del Excel v0.10 y las identidades Git de 33 documentos del dominio; esta adenda conserva los localizadores decisivos y fija su alcance. La lectura del libro no alteró sus bytes ni generó una nueva versión.
+
+El corte del dominio es `169af16d05ffc954454bb5528ec106e5752b7016`, con 32 definiciones. El commit `ee10ebe7fa058dfd1158f9753952712b854f87cc`, también señalado por el Director, constituye el antecedente de 24 parámetros; las revisiones regulada y de continuidad lo suceden. El Lenguaje se contrasta en `73c738348a9493a459744c62b8ade382ff595af5`. El análisis es documental, con comparación de contratos y contraejemplos especificados. No constituye una revisión sistemática exhaustiva, una campaña sobre modelos desplegados ni una acreditación de su comportamiento.
+
+### 6.2. Previsión comprobada en el catálogo principal
+
+Las ubicaciones corresponden al [Excel v0.10 congelado](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/169af16d05ffc954454bb5528ec106e5752b7016/dominios/ciberseguridad-inteligente/dominio-04-09-26/catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.10.xlsx). Se respeta el estatuto de cada fila: una candidata inventariada no equivale a un control constituido o ejecutado.
+
+| Registro | Localización exacta | Contenido pertinente y alcance |
+| --- | --- | --- |
+| CP-100 | `05_Complementos`, fila 104; E104/F104, J104 y L104 | Inyección de instrucciones; correspondencia histórica OPC-15; estado candidata no adoptada. Fuente F029/A013, edición OWASP 2026. Prueba que la necesidad fue inventariada, no que exista mitigación acreditada. |
+| AN-03 | `18_Necesidades_IA`, fila 7; G7–K7 | Separa modelo, datos, aplicación y capacidades; identifica confusión entre instrucciones y datos externos y acciones a partir de salidas sin validar. Complemento educativo y técnico. |
+| CE-OM-05 | `34_Consecuencias_enlace`, fila 9; F9–O9 | Relaciona documentos externos, jerarquía de instrucciones, permisos, consejo defectuoso y posible acción no autorizada. K9/L9 identifica F026, §3.4. O9 declara «ESPECIFICADO; NO EJECUTADO». |
+| AN-08 | `18_Necesidades_IA`, fila 12 | Exige evidencia, afectados, alternativas, incertidumbres, consecuencias y control humano de cambios. Advierte que una explicación convincente puede ocultar un error. |
+| CFM-02–07 | `35_Consejo_y_frame`, filas 6–11 | Conocimiento previamente admitido, enlaces pertinentes, consecuencias de omisión, respuesta y justificación con metadatos, Frame legítimo y cobertura. No declara su realización conjunta. |
+| CFM-09 | `35_Consejo_y_frame`, fila 13 | Conservación del fundamento histórico; la reevaluación posterior no reescribe el consejo anterior. |
+| GM-04 | `24_Gobierno`, fila 8 | Corpus, reglas, finalidades y permisos constituidos; las propuestas de investigación no modifican autónomamente una ejecución admitida. |
+
+La afirmación de que la manipulación de entradas no estaba prevista queda refutada por esos registros. La afirmación de que su resistencia operacional está demostrada también carecería de fundamento. El vínculo educativo y el escenario CE-OM-05 muestran que el inventario incluye una relación entre conocimiento, omisión y consecuencia; su presencia no exime de materializarla y probarla.
+
+### 6.3. Tres proposiciones y su evidencia
+
+**Una narración generada no acredita por sí sola fidelidad causal.** Turpin y colaboradores observaron explicaciones que omitían influencias introducidas en sus experimentos con GPT-3.5 y Claude 1.0. Chen y colaboradores estudiaron modelos de razonamiento y seis clases de indicaciones: la verbalización de su uso no permitió excluir todos los comportamientos examinados. Son resultados de modelos y tareas concretos; no prueban que toda explicación sea falsa ni validan un despliegue SV. Sustentan el rechazo de una garantía universal basada únicamente en solicitar al modelo que explique su respuesta. [R-IA03](https://arxiv.org/abs/2305.04388v2), [R-IA04](https://arxiv.org/abs/2505.05410v1).
+
+**La manipulación puede alcanzar el consejo por entradas directas o por material recuperado.** La taxonomía de NIST distingue ambas formas y examina riesgos para aplicaciones y agentes. Su pertinencia aquí depende de la posición que ocupe el componente y de sus facultades. No se adopta una defensa universal ni se afirma que sólo los documentos externos puedan modificar una salida. [R-IA01, §§3.3–3.5](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2025.pdf).
+
+**La apariencia de precisión no acredita ni verdad ni revisión suficiente.** NIST identifica la generación de contenido falso y la sobreconfianza humana como riesgos, y propone comprobar fuentes y observar la interacción. No describe un abandono inevitable del juicio experto. En OP-CYB-001 esto exige que el sistema facilite una revisión fundada y acredite las comprobaciones que le corresponden; la sola atribución de responsabilidad al humano no corrige un defecto de cobertura o de presentación. [R-IA02, §§2.2 y 2.7; MS-2.5-003 y MS-4.2-004](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf).
+
+El marco del SV añade una condición propia: la inferencia estadística u opaca no interviene en la cadena soberana, y la IA auxiliar opera dentro de permiso y custodia. Esta condición procede de los [Pilares, §2](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/73c738348a9493a459744c62b8ade382ff595af5/docs/calidad/PILARES_Y_RESTRICCIONES_DE_DISENO_DEL_LENGUAJE_DE_COMPUTACION_SV_2026_09_05.md), no de los estudios citados. Registrar interacciones, reconstruir un fundamento verificable y conocer íntegramente el proceso interno de un modelo son objetos diferentes. El expediente no acredita el tercero ni permite sustituirlo por el segundo para declarar cumplida una exigencia humana más estricta.
+
+### 6.4. Consecuencias dentro de OP-CYB-001 y razón de la selección
+
+Los mecanismos siguientes son consecuencias potenciales formuladas para el contraste. No se atribuyen a incidentes observados ni se les asignan frecuencias, probabilidades o daños medidos.
+
+| Conocimiento o relación necesarios | Omisión o alteración relevante | Consecuencia profesional potencial | Tratamiento existente |
+| --- | --- | --- | --- |
+| Diferencia entre resultado del instalador, imagen utilizada y cobertura de consumidores | Seleccionar sólo registros favorables o excluir una instancia todavía anterior | Aconsejar el cierre de una corrección que no está suficientemente acreditada | P02/P06/P07/P13; C01/C03/C05/C06. |
+| Competencia, alcance, vigencia y revocación del permiso | Resumir una ejecución satisfactoria suprimiendo una restricción o revocación | Confundir resultado técnico con legitimidad y orientar una intervención sin facultad suficiente | P25–P32; C11/C13; RS01–RS03/RS05/RS08. |
+| Procedencia y función de un documento | Convertir una instrucción incluida en un registro en una orden del procedimiento | Alterar el consejo o proponer una actuación ajena a la autorización | CE-OM-05; C02/C11/C14; RS06/RS07. |
+| Condiciones exactas de la conclusión | Suprimir negación, límite temporal, sujeto o incertidumbre | Presentar al experto una recomendación distinta de la sostenida por la evidencia | C13; CFM-03/05/07; REQ-CYB-009; RS08. |
+| Identidad del caso y fundamento histórico | Incorporar memoria ajena o explicar el pasado con referencias posteriores | Sostener un consejo en un contexto que no pertenecía al episodio o simular una conformidad histórica | C07/C14/C17; CFM-09; RS09–RS12. |
+| Finalidad, vista y destinatario de la información | Incluir datos no necesarios o elegir una salida dependiente de información reservada | Revelar datos mediante una explicación o un registro aparentemente legítimos | C02/C05/C11/C13/C15/C16; RS04/RS07. |
+
+R33 excluye la evaluación general de un modelo como objeto sustantivo de este universo; no excluye estos efectos sobre el procedimiento de consejo. El perímetro profesional sería incoherente si exigiera conservar legitimidad y evidencia, pero admitiera perderlas al presentarlas al experto.
+
+No se incorpora el parámetro agregado «IA fiable». Esa expresión reúne procedencia, verdad, cobertura, autoridad, confidencialidad, fidelidad de presentación y comportamiento del componente bajo condiciones diferentes. Tampoco se reutiliza P07 como aprobación global de una capa IA: su proposición conserva el resultado de una comprobación individual, y C06 debe justificar el criterio y su sensibilidad. P25–P32 siguen describiendo relaciones concretas; no se convierten en una medida universal de confianza en un agente.
+
+La evidencia actual muestra obligaciones de conservación y comprobación de relaciones ya exigidas. No aporta una proposición atómica nueva con sujeto, perfil, observables, regla e indeterminación propios que justifique alterar las 32 definiciones. Esta conclusión está acotada a la revisión: si un contraste posterior demuestra una distinción profesional independiente, deberá adjudicarse mediante el método constitutivo y la autoridad correspondiente. El número actual no se protege mediante agrupación forzada ni se incrementa por la mera existencia de un riesgo.
+
+### 6.5. Contraejemplos que deben resistir las afirmaciones de suficiencia
+
+Los siguientes contrastes son construcciones analíticas. Se especifican para hacer refutables las afirmaciones de garantía; no se presentan como ensayos ejecutados en el Lenguaje ni contra un proveedor.
+
+**Referencia exacta con evidencia omitida.** Dos expedientes conservan idénticos resultados técnicos y citas seleccionadas. En uno existe una revocación pertinente que el resumen excluye. Un comprobador que sólo compruebe la existencia de las citas producirá la misma conclusión en ambos; no habrá examinado la cobertura exigida. El contraste pertinente accede al conjunto original exigible bajo una regla fijada y puede detectar la omisión. Una segunda IA que reciba únicamente el mismo resumen no proporciona esa independencia.
+
+**Bytes íntegros con significado incorrecto.** El texto que añade «no» a una conclusión puede conservarse, firmarse y recuperarse sin alteración. Esas propiedades no acreditan correspondencia con el resultado del que se declara explicación. La prueba debe distinguir la fidelidad del transporte y la del significado. El diagnóstico estructurado y las plantillas del Lenguaje aportan antecedentes para esta separación, sin constituir por ello toda la explicación profesional.
+
+**Vocabulario cerrado con revelación.** Si un emisor puede escoger entre dos etiquetas válidas según un dato secreto y un receptor conoce esa correspondencia, la elección comunica un bit por respuesta en esas condiciones. Cuatro etiquetas permiten distinguir cuatro posibilidades, equivalentes a dos bits en ese ejemplo. Es un contraejemplo lógico a la garantía de imposibilidad de revelación, no una estimación de capacidad real ni una demostración de que un modelo concreto la utilice. Si la salida está determinada y comprobada exclusivamente por la vista autorizada, habrá que acreditar precisamente esa independencia y delimitar los demás canales.
+
+**Respuesta negativa con captura correcta.** Una negativa recibida íntegramente constituye contenido del modelo; una respuesta fuera del esquema puede ser rechazada aunque el transporte haya funcionado; una invocación fallida tiene otro estatuto. La presencia de cualquiera de ellas no determina por sí sola Tri.U. La distinción deriva de C02/C06/C14 y RS06; evita confundir incertidumbre profesional, rechazo de contenido y fallo técnico.
+
+**Corte nominal con dependencia diferente.** Mantener el nombre comercial del modelo no demuestra igualdad de configuración, contexto, recuperador, corpus o estado entre consultas. Guardar la respuesta anterior permite estudiar aquel artefacto; no acredita una nueva generación idéntica ni la ausencia de conocimiento externo al corpus admitido. La versión y los límites de acceso deben ser parte del contrato efectivo, sin completar información inaccesible por suposición.
+
+Estos contrastes sustentan los doce casos A–L de la adenda de continuidad. Su resultado pendiente no se anticipa. Una eventual campaña debe fijar previamente esperados, instancias, condiciones y controles de sensibilidad; medir por separado cobertura y corrección; conservar fallos y no conclusiones; y atribuir las limitaciones a la capa que corresponda. No puede concluir fidelidad interna universal a partir de una muestra finita favorable.
+
+### 6.6. Encaje en semántica, perfiles y realizaciones
+
+El estado del Lenguaje ha avanzado desde el corte `66967a80` utilizado por el informe externo. En `73c73834` existen recepción, consumo documental y pruebas de frontera de autoridad, además del contrato diagnóstico ES/EN. Se mantienen los alcances y límites de [RETP-106](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/73c738348a9493a459744c62b8ade382ff595af5/docs/calidad/RECEPCION_Y_CONTRASTE_OP_CYB_001_2026_09_09.md), [RETP-107/108](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/73c738348a9493a459744c62b8ade382ff595af5/docs/calidad/CONTRATO_DE_CONSUMO_DOCUMENTAL_CYB_2026_09_09.md) y [RETP-109/110](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/73c738348a9493a459744c62b8ade382ff595af5/docs/calidad/CONTRATO_DIAGNOSTICO_ESTRUCTURADO_Y_LOCALIZACION_ES_EN_2026_09_09.md). No se declara inexistente ese progreso ni se convierte en una validación de modelos que no se realizó.
+
+Las distinciones de origen, transformación, cobertura, autoridad, fundamento y presentación deben poder conservarse y recuperarse en la operación que se examine. Si un par pertinente pierde una diferencia necesaria en la representación o en su recuperación, procede localizar la pérdida y justificar la modificación mínima. Si la información se conserva, una falta de comprobador, de capturador, de control material o de recepción institucional se atribuye a su realización, sin adjudicar automáticamente el defecto a la IR 0.3. Ese criterio sigue el [acta de perfiles, §7](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/73c738348a9493a459744c62b8ade382ff595af5/docs/calidad/ACTA_TECNICA_DE_PERFILES_CONTRATOS_Y_ENSAMBLAJE_DEL_LENGUAJE_SV_2026_09_06.md).
+
+La superficie española o inglesa de una unidad fuente no determina el significado profesional, y su ensamblaje no constituye generación libre en lenguaje natural. El perfil de dominio conserva conocimiento y relaciones; el contrato del agente, facultades y operaciones; el soporte tecnológico, las garantías materiales necesarias. La adenda no selecciona proveedor ni autoriza un modelo en la ejecución. La falta de acreditación afecta a la capacidad que dependa de ella, sin dispensarla ni imponer la detención de trabajos independientes.
+
+### 6.7. Incidencia en el mapa y en su estimación
+
+CYO-15 conserva el producto candidato de admisibilidad de uso de un modelo; CYO-23, los productos de evaluación de robustez, privacidad y validez; CYO-29, la política de usos de IA. Sus localizadores son `26_Mapa_universos`, filas 19, 27 y 33, y `76_Productos_y_particion`, filas 37, 49–51 y 63. Son destinos ya previstos para objetos profesionales distintos. La integridad del consejo de OP-CYB-001 se estudia en éste aunque utilice conocimientos y obligaciones transversales.
+
+No se abre un segundo universo ni se reagrupan los productos por esta revisión. Los escenarios conservan 29, 38 y 59 universos propuestos, y 288, 552 y 1062 definiciones orientativas, con las hipótesis de reutilización ya declaradas. No son cantidades constituidas ni intervalos estadísticos. Añadir exigencias de comprobación a un procedimiento no demuestra por sí mismo un cambio de esos presupuestos.
+
+### 6.8. Bibliografía complementaria y límites de uso
+
+Los identificadores R-IA01–04 pertenecen exclusivamente a esta adenda. No renumeran las fuentes anteriores ni añaden filas al catálogo Excel. Se han cotejado los localizadores indicados y los registros bibliográficos; no se atribuye lectura íntegra de todas las obras. Las referencias técnicas y empíricas sustentan mecanismos y límites; las obligaciones de constitución y admisión siguen procediendo de la Dirección y de los documentos rectores del SV.
+
+- **R-IA01.** Vassilev, A.; Oprea, A.; Fordyce, A.; Anderson, H.; Davies, X.; Hamin, M. (2025). *[Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations. NIST AI 100-2e2025](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2025.pdf)*. DOI: 10.6028/NIST.AI.100-2e2025. Localizadores: §§3.3–3.5, en especial §3.4, p. 50 y siguientes. Corresponde a F026 ya inventariada; no es una obra nueva del catálogo. Fundamenta la distinción de entradas adversarias y sus efectos posibles; no certifica una mitigación para OP-CYB-001.
+
+- **R-IA02.** National Institute of Standards and Technology (2024, julio). *[Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile. NIST AI 600-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf)*. DOI: 10.6028/NIST.AI.600-1. Localizadores: §2.2, p. 6; §2.7, p. 9; acciones MS-2.5-003 y MS-4.2-004. Aporta categorías de riesgo y orientaciones de comprobación; no prueba causalidad inevitable de sobreconfianza ni validez de este universo.
+
+- **R-IA03.** Turpin, M.; Michael, J.; Perez, E.; Bowman, S. R. (2023). *[Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting](https://arxiv.org/abs/2305.04388v2)*. NeurIPS 2023; versión arXiv 2, 9 de diciembre de 2023. DOI del registro: 10.48550/arXiv.2305.04388. Localizador utilizado: resumen y descripción de modelos y tareas del registro. Evidencia empírica sobre explicaciones que omiten influencias introducidas; sus resultados no se extrapolan como tasas de error del SV.
+
+- **R-IA04.** Chen, Y.; Benton, J.; Radhakrishnan, A.; Uesato, J.; Denison, C.; Schulman, J.; Somani, A.; Hase, P.; Wagner, M.; Roger, F.; Mikulik, V.; Bowman, S. R.; Leike, J.; Kaplan, J.; Perez, E. (2025). *[Reasoning Models Don't Always Say What They Think](https://arxiv.org/abs/2505.05410v1)*. Prepublicación, 8 de mayo de 2025. DOI: 10.48550/arXiv.2505.05410. Localizador utilizado: resumen del estudio de seis clases de indicaciones y límites de la supervisión mediante verbalización. No se le atribuye revisión por pares ni una evaluación de la configuración SV.
+
+La evidencia reunida justifica exigir un fundamento comprobable y preservar explícitamente la falta de acreditación de una capa opaca. No acredita esa capa por documentar el riesgo. La condición de explicación impuesta por el Director permanece íntegra; el cumplimiento no se presume ni se declara por la sola producción de lenguaje natural.
