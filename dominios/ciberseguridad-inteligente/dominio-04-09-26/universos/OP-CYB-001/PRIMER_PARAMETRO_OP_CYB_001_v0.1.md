@@ -1,5 +1,7 @@
 # Primer dictamen atómico de Ciberseguridad · OP-CYB-001 / Q0 v0.1
 
+> **Antecedente histórico.** La revisión vigente es el [informe v0.2](INFORME_CONSTITUCION_Y_AGOTAMIENTO_OP_CYB_001_v0.2.md), con su [acta de conclusión](ACTA_CONCLUSION_PRIMER_UNIVERSO_OP_CYB_001_v0.2.md) y [manifiesto v0.2](MANIFIESTO_ALCANCE_COBERTURA_TERMINACION_OP_CYB_001_Q0_v0.2.md). Las cifras, decisiones pendientes y secuencias de este antecedente describen su fecha original. [Texto original conservado en Git](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/05f0367ae4a8117203aa6ac6b6ad928bfa388055/dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/PRIMER_PARAMETRO_OP_CYB_001_v0.1.md).
+
 **Fecha:** 08-09-2026. **Sede:** SVperitus-dataset, rama `dominio-ciberseguridad-inteligente`. **Base:** `10bbbdd0f6acb7c39abcff1d03481723dbfbeeea`. **Libro principal:** [CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.4.xlsx](../../catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.4.xlsx), hojas 36–44.
 
 **Dictamen de Watson:** `PARAMETRO_ATOMICO`, en el perfil documental declarado. **Identidad:** `PAR-CYB-REINICIO-SISTEMA-REQUERIDO-001`, versión 0.1. Es una propuesta concreta para adopción soberana; el dictamen no se presenta como aprobación nominal del Director, aptitud de un agente o cierre del universo.

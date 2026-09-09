@@ -1,6 +1,6 @@
 # Expediente de Ciberseguridad Inteligente · 08-09-2026
 
-> Actualización vigente: revisión curricular v0.2 al final de este expediente. El primer tramo y sus cifras se conservan como antecedente v0.1.
+> Actualización vigente: constitución y agotamiento de OP-CYB-001, revisión de 09-09-2026, al final de este expediente. Los tramos anteriores son históricos.
 
 **Estado:** primer resultado documental preparado para revisión de perímetro y decisión constitutiva de operación. **Responsable del trabajo:** Watson, unidad CYB. **Asientos:** SVP-ACT-2026-003; SVP-H-007; SVP-DV-004.
 
@@ -119,3 +119,14 @@ Se ejecutaron 65 testigos nuevos, 51 controles, cinco ablaciones y sensibilidad 
 Excel principal v0.6: 66 hojas y 66 tablas. Las 55 hojas anteriores distintas de portada conservan valores, tipos y fórmulas. La proyección final del catálogo no se emite porque el dominio curricular no está cerrado. La huella del archivo congelado identifica sus bytes sin prometer estabilidad entre guardados.
 
 Expediente sustantivo: [dictamen de OP-CYB-001](../../dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/DICTAMEN_TERMINACION_DOCUMENTAL_OP_CYB_001_v0.1.md). Contratos, fuentes, requisitos al Lenguaje, resultados y manifiesto en la biblioteca de Ciberseguridad. La deuda SVP-DV-005 desarrolla el alcance actual y conserva SVP-DV-004 como antecedente abierto más amplio.
+
+
+## Constitución y agotamiento de OP-CYB-001
+
+La revisión de 09-09-2026 corrige la insuficiencia del dictamen v0.1, su redacción y la interrupción de las tablas Markdown. Se aplica el acta obligatoria del español de 07-09-2026. El resultado actual es el catálogo v0.8: 24 parámetros, veinte ámbitos examinados, ocho clases de acción y 36 candidatos adicionales resueltos. Se acompañan bibliografía razonada, consecuencias, acta, manifiesto y escenarios de dimensión del dominio.
+
+El agotamiento corresponde al inventario paramétrico del perímetro OP-CYB-001. La carencia de una realización computacional no se ha empleado para interrumpir su constitución. Las limitaciones de validación operacional permanecen identificadas sin invalidar por ese motivo la terminación del inventario. Los 64 ensayos nuevos son documentales y sintéticos; siete modificaciones deliberadas del observador fueron refutadas. No se declara revisión externa por pares.
+
+La orden humana posterior reserva al Director la elección entre el contraste con el Lenguaje y un segundo universo. Se corrige cualquier lectura de SVP-DV-004 o SVP-DV-005 que exigiera un relevo automático o mantuviera la búsqueda paramétrica inconclusa por una dependencia de programación. Sus limitaciones operacionales tienen un objeto diferente y no se borran de la historia.
+
+Asientos de esta revisión: SVP-ACT-2026-005 y SVP-H-009. La revisión editorial de este expediente no cierra la obligación general DFL-011 de revisar todos los repositorios SV.

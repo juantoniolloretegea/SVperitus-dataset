@@ -1,5 +1,7 @@
 # Lote atómico P02–P10 · OP-CYB-001 / Q0 v0.1
 
+> **Antecedente histórico.** La revisión vigente es el [informe v0.2](INFORME_CONSTITUCION_Y_AGOTAMIENTO_OP_CYB_001_v0.2.md), con su [acta de conclusión](ACTA_CONCLUSION_PRIMER_UNIVERSO_OP_CYB_001_v0.2.md) y [manifiesto v0.2](MANIFIESTO_ALCANCE_COBERTURA_TERMINACION_OP_CYB_001_Q0_v0.2.md). Las cifras, decisiones pendientes y secuencias de este antecedente describen su fecha original. [Texto original conservado en Git](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/05f0367ae4a8117203aa6ac6b6ad928bfa388055/dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/LOTE_ATOMICO_02_A_10_OP_CYB_001_v0.1.md).
+
 **Fecha:** 08-09-2026. **Base:** apertura/adopción `2454cb1080c2f824bd3b8115cb31729db8f2d7e8`, cuyo padre es el expediente inicial `b8e5943cce29e10851c5829a84c117044a1eb906`. **Libro principal:** `CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.5.xlsx`, hojas 45–55.
 
 **Resultado de la unidad:** nueve adjudicaciones `PARAMETRO_ATOMICO_EN_PERFIL_DOCUMENTAL`, que junto al primer parámetro forman un registro de **diez**. P01 fue adoptado por Dirección en el [acta](ACTA_APERTURA_Y_ADOPCION_PRIMER_PARAMETRO_v0.1.md). Los nueve nuevos se entregan con dictamen favorable y límites explícitos; no se inventa su aprobación nominal humana anticipada. El universo está abierto en constitución y no se declara apto para cierre operacional.

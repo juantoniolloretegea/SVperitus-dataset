@@ -1,6 +1,6 @@
 # Dominio de ciberseguridad inteligente — corte abierto el 04-09-2026
 
-> Estado actual: catálogo curricular propuesto v0.2. Véase la actualización de 08-09-2026 al final de este documento. El estado de semilla que sigue corresponde al antecedente de apertura.
+> Estado actual: primer universo concluido con 24 parámetros. Véase la actualización de 09-09-2026 al final y el [expediente vigente](watson-biblioteca-ciber/INDICE_BIBLIOTECA.md). Los tramos anteriores conservan la historia del trabajo.
 
 - **Identificador del corte:** `DOM-CIB-2026-09-04`
 - **Rama de trabajo:** `dominio-ciberseguridad-inteligente`
@@ -28,7 +28,7 @@ El documento rector de inicio es:
 6. **El dominio tampoco legisla el núcleo.** Toda necesidad que no sea representable se entregará como requisito y testigo de pérdida; no se convertirá por conveniencia en una primitiva universal.
 7. **Los modelos de IA no son autoridad normativa.** Se tratarán como artefactos o componentes versionados, identificados y reproducibles. Quedan prohibidas las dependencias flotantes como `latest` y las invocaciones en vivo dentro de una cadena normativa reproducible.
 
-## Orden vigente
+## Orden de apertura · antecedente histórico
 
 ```text
 FRENTE_ACTIVO                       = LENGUAJE_DE_COMPUTACION
@@ -75,3 +75,14 @@ Tras la revisión humana del catálogo, se selecciona un recorte documental de C
 La Dirección confirma la apertura de OP-CYB-001 y adopta P01 en el [acta](universos/OP-CYB-001/ACTA_APERTURA_Y_ADOPCION_PRIMER_PARAMETRO_v0.1.md). El [manifiesto](universos/OP-CYB-001/MANIFIESTO_ALCANCE_COBERTURA_TERMINACION_OP_CYB_001_Q0_v0.1.md) conserva Q0 finito.
 
 El [Excel v0.5](catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.5.xlsx) incorpora el [lote de nueve adicionales](universos/OP-CYB-001/LOTE_ATOMICO_02_A_10_OP_CYB_001_v0.1.md): diez identidades con dictamen documental, una adoptada y nueve entregadas para adopción nominal. Las consecuencias de omitir conocimiento guían la separación entre requisito, terminación, estado activo, comprobación e historia posterior. 127 testigos nuevos, nueve ablaciones, veinte ataques internos y cobertura parcial explícita; cero células, rutas y Frames. No se declara cerrado ni operacionalmente apto el universo.
+
+
+## Constitución completa del primer universo · 09-09-2026
+
+OP-CYB-001 queda concluido en su inventario con 24 parámetros. El [informe de constitución y agotamiento](universos/OP-CYB-001/INFORME_CONSTITUCION_Y_AGOTAMIENTO_OP_CYB_001_v0.2.md), el [manifiesto de alcance](universos/OP-CYB-001/MANIFIESTO_ALCANCE_COBERTURA_TERMINACION_OP_CYB_001_Q0_v0.2.md) y el [acta de conclusión](universos/OP-CYB-001/ACTA_CONCLUSION_PRIMER_UNIVERSO_OP_CYB_001_v0.2.md) sustituyen la terminación provisional anterior. La revisión corrige la redacción, refuerza el fundamento bibliográfico y repara las tablas Markdown.
+
+El [Excel principal v0.8](catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.8.xlsx) contiene el registro actual en las hojas 66–72 y conserva los antecedentes. Cada parámetro incluye conocimiento previo, relación pertinente y consecuencias potenciales de su omisión. La revisión examina veinte ámbitos, ocho clases de acción y 36 candidatos adicionales, todos con resolución. El [anexo](watson-biblioteca-ciber/ANEXO_VERIFICACION_OP_CYB_001_v0.2.zip) conserva las comprobaciones y la proyección complementaria obtenida sin modificar el libro cerrado.
+
+La [estimación del dominio](universos/OP-CYB-001/ESTIMACION_DEL_DOMINIO_CIBERSEGURIDAD_v0.2.md) calcula un escenario central de 38 universos y aproximadamente 550 parámetros, con escenarios alternativos y supuestos explícitos. Son estimaciones de planificación. Los 64 ensayos nuevos son sintéticos y no acreditan ejecución sobre activos reales.
+
+El Director decide ahora si procede contrastar este primer universo con el Lenguaje o completar un segundo universo. Ningún antecedente activa por sí solo el relevo ni impide esa decisión humana.

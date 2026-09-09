@@ -1,0 +1,124 @@
+{
+  "version": "0.2",
+  "fecha": "2026-09-09",
+  "repositorio": "juantoniolloretegea/SVperitus-dataset",
+  "rama": "dominio-ciberseguridad-inteligente",
+  "base": "05f0367ae4a8117203aa6ac6b6ad928bfa388055",
+  "alcance": "Archivos incorporados o corregidos en esta revisión. El manifiesto excluye su propia huella; Git identifica su blob y el commit. El Excel principal se conserva cerrado y su proyección es complementaria.",
+  "archivos": [
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/ACTA_APERTURA_Y_ADOPCION_PRIMER_PARAMETRO_v0.1.md",
+      "bytes": 4757,
+      "sha256": "c01c5734a298c308cbea00631fd34969249c85721a1ada1e1f928384db041911",
+      "blob_git": "5a2f9bf5e32c138ca48ea28f6b0e85e8afa3a8da"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/ACTA_CONCLUSION_PRIMER_UNIVERSO_OP_CYB_001_v0.2.md",
+      "bytes": 3969,
+      "sha256": "5772498cd04e5697722d4c910b71cf17edeacdfa54119173abe968da174a8b76",
+      "blob_git": "131537fe9c89aff7e049d1cbe03e9a9fcedf9b57"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/BIBLIOGRAFIA_RAZONADA_OP_CYB_001_v0.2.md",
+      "bytes": 37930,
+      "sha256": "9d182dbe6ef0a6e1502670c8d193e80526c1cf71a04593cc8e882f3b4f409d34",
+      "blob_git": "0a0ef265d4f45ec09c17bc0f28a5181f8f57f19a"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/CATALOGO_ATOMICO_OP_CYB_001_v0.2.md",
+      "bytes": 44696,
+      "sha256": "3f80d511a20d67baf813b3f98384b3cd50108055cd4da2804801ab4d365d3ac2",
+      "blob_git": "a79d84b5fc6674614b7b05e992be01d70d608ea6"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/COBERTURA_Y_REVISION_ADVERSARIAL_OP_CYB_001_v0.2.md",
+      "bytes": 27266,
+      "sha256": "1ddf563d2b27e296abf94aa120a007976faf81d83a1dfa81731188818cda4b48",
+      "blob_git": "f720592aeda280a3a89f4e13a1fa605201d08a46"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/DICTAMEN_TERMINACION_DOCUMENTAL_OP_CYB_001_v0.1.md",
+      "bytes": 54512,
+      "sha256": "12a0a1eb58ceed821f51605413e3f8061dea9d49f3d6f1aea8f560e4933ab75b",
+      "blob_git": "dda0eb8712baf6fd3d0833bf87ad59cd84151c65"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/ESTIMACION_DEL_DOMINIO_CIBERSEGURIDAD_v0.2.md",
+      "bytes": 18791,
+      "sha256": "99b0ec38c655d95d2d398de9f51ae1fd0f10dac15f7a2990aef7479ef6bddf59",
+      "blob_git": "b38908ffa15d483269a536fcf2eb6252d70a3cf0"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/INFORME_CONSTITUCION_Y_AGOTAMIENTO_OP_CYB_001_v0.2.md",
+      "bytes": 21823,
+      "sha256": "4ebc8040441f5b763ada8648e825e043481c0c85b0ec56554f7cea0e5ec669e8",
+      "blob_git": "4bf5a2d754fa978b5e1cbf9301a23c2666b9b0c9"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/LOTE_ATOMICO_02_A_10_OP_CYB_001_v0.1.md",
+      "bytes": 41182,
+      "sha256": "f7057f7c27202d6380fe99d2679d024c77a5b19783d0a911fd23ea65e2bf6c26",
+      "blob_git": "7b19fe465ac7a88d94c33abd7b36b23e9a49edf9"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/MANIFIESTO_ALCANCE_COBERTURA_TERMINACION_OP_CYB_001_Q0_v0.1.md",
+      "bytes": 9333,
+      "sha256": "9fd5db11addba8b98918e9ee64b677326f72d0fe99234a5dc9bad9c2ab91332f",
+      "blob_git": "b01bc29ad553f92efe48f9ba0aabcce2666b0b78"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/MANIFIESTO_ALCANCE_COBERTURA_TERMINACION_OP_CYB_001_Q0_v0.2.md",
+      "bytes": 4146,
+      "sha256": "718be40e22dc506d1fdc629a8b35f842cf1c36b9280abd573cddce2462963ce1",
+      "blob_git": "c73d68e5eacd8568ed54c6235b2d5561bbbd6da1"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/PRIMER_PARAMETRO_OP_CYB_001_v0.1.md",
+      "bytes": 20048,
+      "sha256": "c0700b79322a1687c5078cd5f6114328354e790be2539dde76b651125c6521ae",
+      "blob_git": "7d6429f924cf7cf8992bd1a7fa1db1562a4cf25a"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/INDICE_BIBLIOTECA.md",
+      "bytes": 4021,
+      "sha256": "474c322121d450c894e02493a9bb8d3da7a684d1bed4a24b2b4b3a4c3f11bdcb",
+      "blob_git": "17e52ee47067797af04a3af6f507f61352080949"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/watson-biblioteca-ciber/ANEXO_VERIFICACION_OP_CYB_001_v0.2.zip",
+      "bytes": 484933,
+      "sha256": "f5b9e889e4a4d7d9bd536d6cff1d95b445e728142a2ebda5e8ad42bdfbdd49ca",
+      "blob_git": "c8769b61cc412467d33264278a5763de97c2d81d"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.8.xlsx",
+      "bytes": 580984,
+      "sha256": "f630b2419cd96bb6b382fdbef71fdf7925f00de3611504a5d64401fd5e4633ac",
+      "blob_git": "98266280c1ae1e13162326362fa27029cb5182fd"
+    },
+    {
+      "ruta": "docs/calidad/EXPEDIENTE_CIBERSEGURIDAD_INTELIGENTE_2026_09_08.md",
+      "bytes": 20777,
+      "sha256": "69d9e3883d6c41ebd062627b9509f85af1d884ddd95f7742998941766c62f15b",
+      "blob_git": "18e06369210229dcdd6f7ab14ec72ee5619ac628"
+    },
+    {
+      "ruta": "docs/calidad/REGISTRO_MINIMO_DE_ACTUACIONES_POR_BLOQUE_Y_SEDE_SVPERITUS.csv",
+      "bytes": 3185,
+      "sha256": "8d85015bf2c00e00a35218aab8ccbdd11b02c0711f080558b484107e23c52e56",
+      "blob_git": "b51b0611ce987545009c283248998b56bc61a869"
+    },
+    {
+      "ruta": "docs/calidad/REGISTRO_MINIMO_DE_HITOS_Y_CIERRES_SVPERITUS.csv",
+      "bytes": 4302,
+      "sha256": "374cd8ea4a57b8bb720e87ef15db45d31a66bd4cdc1df58a7218079d7d24a696",
+      "blob_git": "ef365941cda111d41476d76585ed3d9e4938d27f"
+    },
+    {
+      "ruta": "dominios/ciberseguridad-inteligente/dominio-04-09-26/README.md",
+      "bytes": 9236,
+      "sha256": "e4ca410accb09a5e94f85b43ad5d5bc9f250e57e372fefdef11eab5f3028af9b",
+      "blob_git": "2a14e47c03db764e21f67653d0071909a710c38c"
+    }
+  ]
+}

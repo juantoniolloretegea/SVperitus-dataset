@@ -1,5 +1,7 @@
 # OP-CYB-001 / Q0 v0.1 · Terminación del inventario documental y dictamen de insuficiencia operacional
 
+> **Antecedente histórico.** La revisión vigente es el [informe v0.2](INFORME_CONSTITUCION_Y_AGOTAMIENTO_OP_CYB_001_v0.2.md), con su [acta de conclusión](ACTA_CONCLUSION_PRIMER_UNIVERSO_OP_CYB_001_v0.2.md) y [manifiesto v0.2](MANIFIESTO_ALCANCE_COBERTURA_TERMINACION_OP_CYB_001_Q0_v0.2.md). Las cifras, decisiones pendientes y secuencias de este antecedente describen su fecha original. [Texto original conservado en Git](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/05f0367ae4a8117203aa6ac6b6ad928bfa388055/dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/DICTAMEN_TERMINACION_DOCUMENTAL_OP_CYB_001_v0.1.md).
+
 **Fecha del acto:** 09-09-2026. **Unidad:** Watson, Ciberseguridad inteligente. **Director:** Juan Antonio Lloret Egea. **Base:** `dominio-ciberseguridad-inteligente@ffbf579094f7608ebf568ed1aa51c318cfc4ab3f`, árbol `eba0c4b44e3bcc5149b2fc4d8e6b9366c4d436e3`.
 
 **Dictamen:** las nueve raíces y 31 distinciones de Q0 reciben tratamiento y estatuto documental. El inventario alcanza quince definiciones paramétricas en sus perfiles, catorce contratos de control y dieciséis relaciones profesionales. **No queda acreditada la suficiencia operacional, la constitución G6 ni el cierre favorable de C1/fila 8.** Las limitaciones tienen responsable y bloquean las afirmaciones que dependen de ellas. Este documento no declara agotado operacionalmente el universo.
@@ -389,7 +391,6 @@ La medida de preguntas **sin tratamiento documental** pasa a cero; esto no se us
 
 | Distinción | Destinos | Estatuto | Resolución |
 |---|---|---|---|
-
 | QCY-01-D1 | C01 | CONTEXTUAL | Activo y ámbito inequívocos |
 | QCY-01-D2 | C01,C05 | CONTEXTUAL | Componente, configuración y consumidores enumerados |
 | QCY-01-D3 | C01,C14 | CONTEXTUAL | Vulnerabilidad y referencia congelada |
@@ -467,7 +468,6 @@ El paquete queda preparado en la sede CYB para evaluación por la unidad del Len
 
 | Requisito | Necesidad | Obligación | Testigo o fuente | Dictamen y límite | Deuda |
 |---|---|---|---|---|---|
-
 | REQ-CYB-001 | Identidad y evidencia admitida (C01/C02/C03) | Conservar activo, componente, episodio, regla, bytes y custodia; no autenticar productor por una huella. | E01–06 y contratos de origen | Representación nominal disponible; admisión material no acreditada. | D-CYB-01/03 |
 | REQ-CYB-002 | Estados independientes por sujeto y uso (P06/P07/P12/P13; C05) | Dos consumidores o criterios pueden variar independientemente. Una referencia compartida no puede copiarles un estado por comodidad. | E08/E48/E49; pares P06/P13 y P05/P11 | Ligaduras recibidas relevantes, pero no se ha instanciado arquitectura CYB. | D-CYB-02/03 |
 | REQ-CYB-003 | Observación y transducción gobernadas (Todos los perfiles; C02/C14) | Separar Tri válida de no admisión, no aplicabilidad, falta de configuración y fallo técnico. | 65 testigos nuevos y 155 antecedentes documentales | CaptureSpec nominal se conserva; no ejecuta capturador ni Q0. | D-CYB-01/03 |
@@ -545,7 +545,6 @@ La revisión es interna de esta unidad, no auditoría externa independiente. No 
 
 | Ataque | Resultado | Tratamiento |
 |---|---|---|
-
 | Quince definiciones tratadas como quince estados | REPARO INCORPORADO | Los usos y sujetos simultáneos deben tener identidad y estado propios. D-CYB-02 impide declarar arquitectura a partir del recuento. |
 | Elegir nueve de quince por proximidad editorial | RECHAZADO | No se ha acreditado propiedad semántica ni cobertura de los seis restantes. No se constituye célula. |
 | Rellenar hasta dieciséis con un control | RECHAZADO | C01–C14 no son átomos por conveniencia geométrica. |

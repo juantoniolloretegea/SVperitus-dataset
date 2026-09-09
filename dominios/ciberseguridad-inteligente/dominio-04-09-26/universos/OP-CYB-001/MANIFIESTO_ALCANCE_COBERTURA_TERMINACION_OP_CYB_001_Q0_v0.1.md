@@ -1,5 +1,7 @@
 # Manifiesto de alcance, cobertura y terminación · OP-CYB-001 / Q0 v0.1
 
+> **Antecedente histórico.** La revisión vigente es el [informe v0.2](INFORME_CONSTITUCION_Y_AGOTAMIENTO_OP_CYB_001_v0.2.md), con su [acta de conclusión](ACTA_CONCLUSION_PRIMER_UNIVERSO_OP_CYB_001_v0.2.md) y [manifiesto v0.2](MANIFIESTO_ALCANCE_COBERTURA_TERMINACION_OP_CYB_001_Q0_v0.2.md). Las cifras, decisiones pendientes y secuencias de este antecedente describen su fecha original. [Texto original conservado en Git](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/05f0367ae4a8117203aa6ac6b6ad928bfa388055/dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/MANIFIESTO_ALCANCE_COBERTURA_TERMINACION_OP_CYB_001_Q0_v0.1.md).
+
 **Fecha:** 08-09-2026. **Base documental:** `b8e5943cce29e10851c5829a84c117044a1eb906`. **Autoridad:** mandato del Director registrado en el [acta de apertura](ACTA_APERTURA_Y_ADOPCION_PRIMER_PARAMETRO_v0.1.md).
 
 ## 1. Finalidad y frontera
