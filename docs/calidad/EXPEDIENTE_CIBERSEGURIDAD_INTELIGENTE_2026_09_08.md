@@ -1,3 +1,5 @@
+> **Sucesión vigente · consolidación y relevo aprobados el 09-09-2026.** [Acta de Calidad](ACTA_CONSOLIDACION_PRIMER_UNIVERSO_CIBERSEGURIDAD_INTELIGENTE_2026_09_09.md) y [acta de continuidad al Lenguaje](../../dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/ACTA_CONTINUIDAD_Y_RELEVO_OP_CYB_001_AL_LENGUAJE_SV_2026_09_09.md). Las decisiones pendientes de aprobación o de elección entre uno y dos universos que aparecen en los tramos históricos quedan resueltas por esta sucesión.
+
 > **Sucesión vigente: partida y continuidad v0.4.** Los 32 parámetros se mantienen; se incorpora C17 y se prepara RS01–RS12 para decisión humana. Véase la actuación de continuidad al final.
 
 > **Sucesión vigente: revisión regulada v0.3 al final de este expediente.** Rectifica la cobertura de autoridad y datos del cierre de 24 definiciones; nuevo inventario documental de 32.
@@ -154,3 +156,16 @@ Objeto verificable: [manifiesto de revisión regulada](../../dominios/cibersegur
 ## Actuación de continuidad documental 20260909
 
 SVP-ACT-2026-007 y SVP-H-011. Base d616c0350379af5dddb8971d018c4f1086de03a8. Se revisan historia de partida, registros, asignaciones y custodia; se conservan 32 definiciones y se incorpora C17. Dieciocho elementos de contexto, nueve relaciones y cuatro requisitos complementarios RS09–RS12. Justificación individual y seis obras técnicas adicionales. 32 testigos sintéticos, once observadores erróneos detectados y dos ejecuciones con bytes idénticos. No se demuestra ejecución operacional SV ni autoridad institucional real. Decisión de uno o dos universos reservada al Director. Documentos: dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/ACTA_Y_MANIFIESTO_CONTINUIDAD_OP_CYB_001_v0.4.md.
+
+
+## Consolidación aprobada y entrega al Lenguaje · 09-09-2026
+
+SVP-ACT-2026-008/009 y SVP-H-012/013. Base aprobada: `b3aa3f01c825bf6440e3f04aadc87cc7c7ee6d89`. El Director aprueba el trabajo y autoriza individualmente el acta de consolidación en Calidad y el acta de continuidad, incluida su publicación por trazabilidad. Las futuras actas requerirán autorización expresa propia, una a una.
+
+Se consolidan 32 definiciones, 17 controles, 18 elementos contextuales y nueve clases documentales de relación. El Excel v0.10 y sus anexos cerrados conservan sus bytes. Los escenarios de 29/38/59 universos y 288/552/1062 definiciones mantienen sus hipótesis; no son cantidades constituidas ni una estimación estadística.
+
+El relevo conserva REQ-CYB-001–009 y RS01–RS12, sin contarlos como capacidades disjuntas; distingue perfiles fuente, de dominio y de soporte tecnológico, con sus ensamblajes, conforme al acta del Lenguaje de 06-09-2026. El receptor valorará la semántica vigente, la Gramática 0.2 y la IR 0.3. No se modifica el repositorio del Lenguaje ni se declara allí una recepción o ejecución no realizadas.
+
+SVP-DV-004/005 quedan precisadas: la aprobación del inventario y la entrega documental están resueltas; permanecen las obligaciones constitutivas, de observación, representación, soporte y ensayo necesarias para las capacidades todavía no acreditadas. La continuidad actual no requiere elegir de nuevo entre uno y dos universos. La unidad emisora queda en pausa controlada tras la entrega.
+
+Piezas canónicas: [consolidación](ACTA_CONSOLIDACION_PRIMER_UNIVERSO_CIBERSEGURIDAD_INTELIGENTE_2026_09_09.md) y [relevo](../../dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/ACTA_CONTINUIDAD_Y_RELEVO_OP_CYB_001_AL_LENGUAJE_SV_2026_09_09.md). Verificación de esta actuación: identidad de la base y del libro cerrado, recuentos, hipótesis aritméticas, correspondencias, referencias y estructura Markdown; no nueva campaña operacional.

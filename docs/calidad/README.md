@@ -40,3 +40,13 @@ Su finalidad es dejar trazabilidad local, suficiente y sobria del estado de agen
 ## Nota final
 
 Este bloque es deliberadamente mínimo. Su función no es inflar burocracia, sino dejar constancia suficiente dentro de `SVperitus` para facilitar continuidad, lectura pública y control local aplicado.
+
+
+
+## Consolidación y relevo de Ciberseguridad · 9 de septiembre de 2026
+
+- [Acta de consolidación del primer universo](ACTA_CONSOLIDACION_PRIMER_UNIVERSO_CIBERSEGURIDAD_INTELIGENTE_2026_09_09.md): aprobación del inventario de 32 parámetros, fundamento y estimaciones.
+- [Acta de continuidad al Lenguaje](../../dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/ACTA_CONTINUIDAD_Y_RELEVO_OP_CYB_001_AL_LENGUAJE_SV_2026_09_09.md): encargo receptor, requisitos y perfiles.
+- [Expediente de actuaciones de Ciberseguridad](EXPEDIENTE_CIBERSEGURIDAD_INTELIGENTE_2026_09_08.md): sucesión de cortes, resultados y deuda.
+
+La publicación de estas dos actas está autorizada expresamente por el Director. Los asientos SVP-ACT-2026-008/009 y SVP-H-012/013 registran su efecto; no atribuyen al Lenguaje una recepción aún no asentada en su sede.

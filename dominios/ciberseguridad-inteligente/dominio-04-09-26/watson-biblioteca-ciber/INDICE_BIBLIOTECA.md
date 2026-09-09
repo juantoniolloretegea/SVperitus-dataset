@@ -1,3 +1,5 @@
+> **Consolidación aprobada y relevo documental · 09-09-2026.** [Acta de Calidad](../../../../docs/calidad/ACTA_CONSOLIDACION_PRIMER_UNIVERSO_CIBERSEGURIDAD_INTELIGENTE_2026_09_09.md); [continuidad al Lenguaje](../universos/OP-CYB-001/ACTA_CONTINUIDAD_Y_RELEVO_OP_CYB_001_AL_LENGUAJE_SV_2026_09_09.md); [Excel principal v0.10 cerrado](../catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.10.xlsx). Las referencias anteriores a aprobación o elección pendientes son históricas y quedan resueltas por estas actas.
+
 > **Entrega de continuidad v0.4.** [Acta y lectura principal](../universos/OP-CYB-001/ACTA_Y_MANIFIESTO_CONTINUIDAD_OP_CYB_001_v0.4.md); [anexo complementario](ANEXO_CONTINUIDAD_OP_CYB_001_v0.4.zip). Conserva las 32 definiciones y añade justificación bibliográfica y contexto obligatorio.
 
 > **Revisión actual: presión regulada v0.3.** [Catálogo Excel v0.9](../catalogo-profesional/CATALOGO_CURRICULAR_CIBERSEGURIDAD_v0.9.xlsx); [manifiesto](../universos/OP-CYB-001/MANIFIESTO_REVISION_REGULADA_OP_CYB_001_v0.3.md); [anexo verificable](ANEXO_PRESION_REGULADA_OP_CYB_001_v0.3.zip). Se conservan las copias anteriores.
