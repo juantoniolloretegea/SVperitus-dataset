@@ -50,3 +50,8 @@ La sede canónica vigente del frente inmunológico es ya:
 - [subpuerta del agente](../agentes/inmunologia/index.html)
 
 La antigua ruta `dominios/inmunologia/` debe leerse desde ahora como **señal de tránsito temporal**, no como sede viva del agente.
+
+
+## Recepción documental excepcional · 14/09/2026
+
+Se incorpora, por autorización expresa, una [copia del acta sobre rutas de conocimiento, consejo auditable e incorporación de conocimiento](ACTA_EVALUACION_Y_RECEPCION_DOCUMENTAL_RUTAS_CONOCIMIENTO_SV_2026_09_14.md). Su [sede de referencia es Calidad del Lenguaje](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/calidad/tuberias-ia/frame-significado-humano-trazabilidad-y-fidelidad/ACTA_EVALUACION_Y_RECEPCION_DOCUMENTAL_RUTAS_CONOCIMIENTO_SV_2026_09_14.md). La copia conserva el alcance documental aprobado, la precisión sobre IA de lenguaje probabilístico en función auxiliar y la obligación de entregar trazabilidad completa y justificar el consejo al experto. No constituye un agente, una nueva operación clínica ni una autorización productiva. Este depósito se limita a la ocasión autorizada.
