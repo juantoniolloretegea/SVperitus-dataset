@@ -1,6 +1,6 @@
 # Depósito de evidencias de leyenda R06 · 15 de septiembre de 2026
 
-**Estado:** pendiente de auditoría. La creación de este directorio no acredita la recepción ni la conformidad de las entregas.
+**Estado:** depositado; pendiente de auditoría. La existencia de este directorio no acredita la recepción ni la conformidad de las entregas.
 
 ## Objeto
 
@@ -8,13 +8,15 @@ Conservar las aportaciones técnicas relativas al cotejo de identidad y a la ver
 
 La sede de la documentación aceptada del Lenguaje es [continuacion-15-09-2026](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/main/docs/calidad/tuberias-ia/continuacion-15-09-2026). La recepción documental vigente se recoge en el [Acta 001](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/e9e4a359bd3d54e2e397c4747f11b7c69d6fbb2f/docs/calidad/tuberias-ia/continuacion-15-09-2026/ACTA_001_CONTINUIDAD_Y_RUMBO_2026_09_15.md).
 
-## Primera entrega prevista
+## Archivos depositados
 
-- Archivo fuente Rust completo del cotejo de identidad, sin omisiones ni pseudocódigo.
-- Comandos e identificación de Rust 1.98.0, con registros íntegros de compilación y ejecución, salidas de error y códigos de retorno.
-- Tabla de resultados y referencias exactas de las entradas utilizadas, con distinción entre identidades documentales y comprobaciones nuevas.
+| Archivo | Contenido |
+|---|---|
+| `cotejo_identidad_sha256.rs` | Fuente Rust completa del cotejo auxiliar de identidad (248 líneas). No es un banco SV. |
+| `COTEJO_IDENTIDAD_SALIDA.txt` | Identidad de rustc/cargo 1.98.0, comando de compilación, códigos de retorno y salida íntegra de la ejecución declarada. |
+| `CONTRATO_CANDIDATO_LEYENDA_CONTENIDO_1.md` | Contrato candidato `LEYENDA-CONTENIDO/1` (texto subsanado): propiedad, algoritmo, perfil, casos, cualificación y dependencias. |
 
-Los archivos deben corresponder a la ejecución declarada. Una repetición posterior se identificará como ejecución nueva. El contrato del reconocedor permanece candidato; su implementación y las campañas posteriores requieren autorización específica.
+Los archivos del cotejo corresponden a la ejecución declarada el 15 de septiembre de 2026. Una repetición posterior se identificará como ejecución nueva. El contrato del reconocedor permanece candidato; su implementación y las campañas posteriores requieren autorización específica.
 
 ## Conservación y alcance
 

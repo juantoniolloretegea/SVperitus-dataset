@@ -1,0 +1,72 @@
+Cotejo de identidad SHA-256 · ejecución declarada
+Fecha de ejecución: 2026-09-15
+Compilador: /opt/sv-rust-1.98.0/bin/rustc
+Cargo (solo identificación): /opt/sv-rust-1.98.0/bin/cargo
+Fuente compilada: /tmp/cotejo_identidad_sha256.rs
+Binario: /tmp/cotejo_identidad_sha256
+Esta repetición de texto registra la ejecución original. No es una ejecución nueva.
+
+------------------------------------------------------------------------
+Identidad de la cadena
+------------------------------------------------------------------------
+
+$ /opt/sv-rust-1.98.0/bin/rustc -Vv
+rustc 1.98.0 (88d9e12ae 2026-08-18)
+binary: rustc
+commit-hash: 88d9e12ae178fab0fb5cc050a94da85685d449ea
+commit-date: 2026-08-18
+host: x86_64-unknown-linux-gnu
+release: 1.98.0
+LLVM version: 22.1.8
+
+$ /opt/sv-rust-1.98.0/bin/cargo -V
+cargo 1.98.0 (797e8a9bc 2026-08-05)
+
+No se utilizó /usr/bin/rustc 1.75.0.
+
+------------------------------------------------------------------------
+Compilación
+------------------------------------------------------------------------
+
+$ /opt/sv-rust-1.98.0/bin/rustc --edition=2021 -O /tmp/cotejo_identidad_sha256.rs -o /tmp/cotejo_identidad_sha256
+RC_COMPILE=0
+
+------------------------------------------------------------------------
+Salida estándar de la ejecución
+------------------------------------------------------------------------
+
+$ /tmp/cotejo_identidad_sha256
+VECTOR	V_VACIO	huella=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	esperada=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	igual=true
+VECTOR	V_ABC	huella=ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad	esperada=ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad	igual=true
+VECTOR	V_56	huella=248d6a61d20638b8e5c026930c3e6039a33ce45964ff2167f6ecedd419db06c1	esperada=248d6a61d20638b8e5c026930c3e6039a33ce45964ff2167f6ecedd419db06c1	igual=true
+CASO	TAR_EVIDENCIA	ruta=/tmp/EVIDENCIA_RASTER_CAPTOR_86441ad4.tar.gz	huella=2af2487c24c08cd1f73addc74a6c2bceaffbabfa69b0123289915b02a2ce29b3	esperada=2af2487c24c08cd1f73addc74a6c2bceaffbabfa69b0123289915b02a2ce29b3	igual=true	comunicada_transporte_previo
+CASO	R01_PNG_PAQUETE	ruta=/tmp/wit_R01.png	huella=3e9fae6d4844a07d0f1281d4974c5da1c5ce01c6dbc774be27b18f1735f7509d	esperada=3e9fae6d4844a07d0f1281d4974c5da1c5ce01c6dbc774be27b18f1735f7509d	igual=true	documental_IDENTIDADES_y_RESULTADOS
+CASO	MUESTRA_PNG	ruta=/tmp/MUESTRA_RASTER_PRODUCIDA.png	huella=3e9fae6d4844a07d0f1281d4974c5da1c5ce01c6dbc774be27b18f1735f7509d	esperada=3e9fae6d4844a07d0f1281d4974c5da1c5ce01c6dbc774be27b18f1735f7509d	igual=true	documental_igual_R01
+CASO	ENTRADA_SVG_PAQUETE	ruta=/tmp/wit_entrada.svg	huella=e5a9f9bc6df9b4f59a2a0cb908046239fda11ebbc247577b8e8c32b268a8c578	esperada=e5a9f9bc6df9b4f59a2a0cb908046239fda11ebbc247577b8e8c32b268a8c578	igual=true	documental_IDENTIDADES_SVG
+CASO	MUESTRA_SVG	ruta=/tmp/MUESTRA_SVG_PRODUCIDA.svg	huella=e5a9f9bc6df9b4f59a2a0cb908046239fda11ebbc247577b8e8c32b268a8c578	esperada=e5a9f9bc6df9b4f59a2a0cb908046239fda11ebbc247577b8e8c32b268a8c578	igual=true	documental_igual_entrada
+CASO	R06_PNG	ruta=/tmp/wit_R06.png	huella=829286631401c3208554a9f1f81bc091fa5355201490bd92ba72f9b0bb254827	esperada=829286631401c3208554a9f1f81bc091fa5355201490bd92ba72f9b0bb254827	igual=true	comunicada_transporte_previo_no_en_IDENTIDADES
+CASO	R06_SVG	ruta=/tmp/wit_R06.svg	huella=6dec0798aece0d08be42701fd0856f3c92cc2ba5dc5b2250490f46ce8c5f87a3	esperada=6dec0798aece0d08be42701fd0856f3c92cc2ba5dc5b2250490f46ce8c5f87a3	igual=true	comunicada_transporte_previo_no_en_IDENTIDADES
+CASO	IDENTIDADES_TXT	ruta=/tmp/wit_IDENTIDADES.txt	huella=417bab155f87aaf3c8f9188cefd93498c93c5983e3cde9d7df76ebd964dfa178	esperada=417bab155f87aaf3c8f9188cefd93498c93c5983e3cde9d7df76ebd964dfa178	igual=true	comunicada_transporte_previo
+IGUALDAD	R01_paquete==MUESTRA_png	true
+IGUALDAD	entrada_paquete==MUESTRA_svg	true
+DISTINTOS	R01_png!=R06_png	true
+DISTINTOS	entrada_svg!=R06_svg	true
+RESUMEN	vectores_nist=ok	discrepancias_testigo=0
+RC_RUN=0
+
+Error estándar: vacío.
+
+------------------------------------------------------------------------
+Cortes de las entradas
+------------------------------------------------------------------------
+
+Lenguaje: juantoniolloretegea/SV-lenguaje-de-computacion
+Commit de lectura: e9e4a359bd3d54e2e397c4747f11b7c69d6fbb2f
+
+Laboratorio: juantoniolloretegea/SV-matematica-semantica-cuaternaria
+Commit de lectura: 86441ad4d375e31737dfcead0b1fd9cd52161883
+Paquete: laboratorio/tareas-watson/tuberias-ia/paridad-imagen-celula-matematica/estudio-nucleo-agentes/bis04-extension-perfiles-recursos-v0_1/EVIDENCIA_RASTER_CAPTOR.tar.gz
+Miembros extraídos (planos): evidencia/resultado/R01.png, R06.png, entrada.svg, R06.svg, IDENTIDADES.txt
+Muestras exteriores: MUESTRA_RASTER_PRODUCIDA.png, MUESTRA_SVG_PRODUCIDA.svg
+
+Las huellas de R06.png y R06.svg no figuran en IDENTIDADES.txt; se conservan como cotejo respecto de la comunicación previa de transporte, confirmada por esta ejecución Rust.
