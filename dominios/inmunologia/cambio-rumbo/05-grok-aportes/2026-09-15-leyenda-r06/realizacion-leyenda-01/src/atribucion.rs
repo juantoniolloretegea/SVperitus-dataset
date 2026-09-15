@@ -21,24 +21,20 @@ pub fn union_geometrica(aceptadas: &[Mascara]) -> std::collections::BTreeSet<(u3
 }
 
 /// Cada píxel de la unión se atribuye a la plantilla de mayor S.
-/// Si dos plantillas lo contienen y |Sa−Sb|≤epsilon, Empate.
+/// Si *cualquier* par de plantillas que lo contienen cumple |Sa−Sb|≤epsilon,
+/// Empate, con independencia del orden de las máscaras y de un tercero con S mayor.
 pub fn atribuir(aceptadas: &[Mascara], p: &Parametros) -> Atribucion {
-    let mut dueno: BTreeMap<(u32, u32), (usize, f64)> = BTreeMap::new();
-    for (i, m) in aceptadas.iter().enumerate() {
+    let mut cubiertas: BTreeMap<(u32, u32), Vec<f64>> = BTreeMap::new();
+    for m in aceptadas {
         for &pix in &m.pixeles {
-            match dueno.get(&pix) {
-                None => {
-                    dueno.insert(pix, (i, m.puntuacion));
-                }
-                Some(&(j, sj)) => {
-                    let si = m.puntuacion;
-                    if (si - sj).abs() <= p.epsilon {
-                        return Atribucion::Empate;
-                    }
-                    if si > sj {
-                        dueno.insert(pix, (i, si));
-                    }
-                    let _ = j;
+            cubiertas.entry(pix).or_default().push(m.puntuacion);
+        }
+    }
+    for puntuaciones in cubiertas.values() {
+        for i in 0..puntuaciones.len() {
+            for j in (i + 1)..puntuaciones.len() {
+                if (puntuaciones[i] - puntuaciones[j]).abs() <= p.epsilon {
+                    return Atribucion::Empate;
                 }
             }
         }
@@ -130,5 +126,54 @@ mod pruebas {
         let b = mascara(0.80, &[(20, 320)]);
         assert_eq!(atribuir(&[a, b], &p), Atribucion::Exclusiva);
         let _ = BTreeSet::<(u32, u32)>::new();
+    }
+
+    /// Contraejemplo R1: A y C comparten píxel con |ΔS|≤epsilon; B lo cubre
+    /// con S estrictamente mayor. El empate A–C no puede ocultarse.
+    fn trio_contraejemplo() -> (Mascara, Mascara, Mascara) {
+        let p = [(11u32, 320u32)];
+        (
+            mascara(0.80, &p),
+            mascara(0.95, &p),
+            mascara(0.82, &p),
+        )
+    }
+
+    #[test]
+    fn empate_en_las_seis_permutaciones() {
+        let p = p_eps(0.05);
+        let (a, b, c) = trio_contraejemplo();
+        let ordenes: [&[Mascara]; 6] = [
+            &[a.clone(), b.clone(), c.clone()],
+            &[a.clone(), c.clone(), b.clone()],
+            &[b.clone(), a.clone(), c.clone()],
+            &[b.clone(), c.clone(), a.clone()],
+            &[c.clone(), a.clone(), b.clone()],
+            &[c.clone(), b.clone(), a.clone()],
+        ];
+        for (i, trio) in ordenes.iter().enumerate() {
+            assert_eq!(
+                atribuir(trio, &p),
+                Atribucion::Empate,
+                "permutacion {i} no declaró empate"
+            );
+        }
+    }
+
+    #[test]
+    fn control_sin_empate_atribuye_al_mayor_s() {
+        let p = p_eps(0.05);
+        let a = mascara(0.70, &[(11, 320), (10, 320)]);
+        let b = mascara(0.95, &[(11, 320)]);
+        let c = mascara(0.80, &[(11, 320), (12, 320)]);
+        let aceptadas = [a, b, c];
+        assert_eq!(atribuir(&aceptadas, &p), Atribucion::Exclusiva);
+        let mapa = mapa_exclusivo(&aceptadas, &p).unwrap();
+        assert_eq!(mapa.get(&(11, 320)), Some(&1));
+        let u = union_geometrica(&aceptadas);
+        assert_eq!(u.len(), 3);
+        assert!(u.contains(&(10, 320)));
+        assert!(u.contains(&(11, 320)));
+        assert!(u.contains(&(12, 320)));
     }
 }
