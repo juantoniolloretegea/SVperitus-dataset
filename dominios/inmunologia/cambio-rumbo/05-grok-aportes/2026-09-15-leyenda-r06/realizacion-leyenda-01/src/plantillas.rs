@@ -4,6 +4,7 @@
 
 use crate::parametros::Parametros;
 use crate::regiones::{ALTO, ANCHO, en_banda};
+use crate::sha256;
 use std::collections::BTreeSet;
 
 pub const HUELLA_TTF_CONTRATADA: &str =
@@ -31,6 +32,7 @@ pub struct Mascara {
     pub texto: String,
     pub origen_x: i32,
     pub origen_y: i32,
+    pub puntuacion: f64,
     pub pixeles: BTreeSet<(u32, u32)>,
 }
 
@@ -60,7 +62,8 @@ pub struct Sintetizador {
 }
 
 impl Sintetizador {
-    pub fn cargar(ttf: &[u8], huella_hex: &str) -> Result<Self, String> {
+    pub fn cargar(ttf: &[u8]) -> Result<Self, String> {
+        let huella_hex = sha256::hex(ttf);
         if !huella_hex.eq_ignore_ascii_case(HUELLA_TTF_CONTRATADA) {
             return Err(format!(
                 "TTF distinto del contratado: {huella_hex} ≠ {HUELLA_TTF_CONTRATADA}"
@@ -98,10 +101,20 @@ impl Sintetizador {
             }
             cursor += metrics.advance_width;
         }
+        if pixeles.len() as u32 > p.max_pixeles_mascara {
+            return Mascara {
+                texto: texto.to_string(),
+                origen_x: x0,
+                origen_y: y_base,
+                puntuacion: 0.0,
+                pixeles: BTreeSet::new(),
+            };
+        }
         Mascara {
             texto: texto.to_string(),
             origen_x: x0,
             origen_y: y_base,
+            puntuacion: 0.0,
             pixeles,
         }
     }
