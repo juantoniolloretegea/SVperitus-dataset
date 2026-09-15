@@ -22,6 +22,7 @@
 - Pruebas de la corrección R1: `evidencias/PRUEBAS_R1_ORDEN.txt`.
 - Compilación de la corrección R1: `evidencias/COMPILACION_R1_ORDEN.txt`.
 - Compilación de la descarga del corte publicado: `evidencias/COMPILACION_DESCARGA_PUBLICADA.txt`.
+- Compilación de la descarga tras la corrección R1: `evidencias/COMPILACION_DESCARGA_R1_ORDEN.txt`.
 
 Los PNG R01/R06 y el TTF contratado no se publican aquí.
 
