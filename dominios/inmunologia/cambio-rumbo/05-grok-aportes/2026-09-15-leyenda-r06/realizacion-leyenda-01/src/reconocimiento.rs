@@ -8,6 +8,7 @@ use crate::plantillas::{
 };
 use crate::png_lectura::{tinta_en_banda, Lienzo};
 use crate::regiones::FILAS_ALINEACION;
+use crate::atribucion::{atribuir, Atribucion};
 use crate::residuo::{adicion_inadmisible, calcular};
 use std::collections::BTreeSet;
 
@@ -65,6 +66,17 @@ pub fn reconocer(
             }
             x = x.saturating_add(p.paso_x);
         }
+    }
+
+    if empate_entre_filas(&etiquetas_ok, p)
+        || empate_entre_filas(&radios_ok, p)
+        || empate_entre_filas(&seps_ok, p)
+    {
+        return Informe {
+            diagnostico: Diagnostico::LeyendaIlegible,
+            detalle: "empate entre filas C.7".into(),
+            pares: vec![],
+        };
     }
 
     etiquetas_ok.sort_by(|a, b| b.0.partial_cmp(&a.0).unwrap_or(std::cmp::Ordering::Equal));
@@ -137,11 +149,10 @@ pub fn reconocer(
     aceptadas.extend(rord.iter().cloned());
     aceptadas.extend(sord.iter().cloned());
 
-    // Empate de atribución: píxel en dos máscaras con |Sa-Sb|≤epsilon.
-    if empate_atribucion(&aceptadas, p) {
+    if atribuir(&aceptadas, p) == Atribucion::Empate {
         return Informe {
             diagnostico: Diagnostico::LeyendaIlegible,
-            detalle: "empate de atribucion".into(),
+            detalle: "empate de atribucion B.4".into(),
             pares: vec![],
         };
     }
@@ -226,21 +237,56 @@ fn no_solapadas(
     elegidas
 }
 
-fn empate_atribucion(aceptadas: &[crate::plantillas::Mascara], p: &Parametros) -> bool {
-    for i in 0..aceptadas.len() {
-        for j in (i + 1)..aceptadas.len() {
-            if aceptadas[i]
-                .pixeles
-                .intersection(&aceptadas[j].pixeles)
-                .next()
-                .is_some()
-            {
-                let da = (aceptadas[i].puntuacion - aceptadas[j].puntuacion).abs();
-                if da <= p.epsilon {
+/// /4 §C.7: misma plantilla y misma abscisa en dos filas con |ΔS|≤epsilon.
+pub fn empate_entre_filas(cands: &[(f64, crate::plantillas::Mascara)], p: &Parametros) -> bool {
+    for i in 0..cands.len() {
+        for j in (i + 1)..cands.len() {
+            let (si, a) = &cands[i];
+            let (sj, b) = &cands[j];
+            if a.texto == b.texto && a.origen_x == b.origen_x && a.origen_y != b.origen_y {
+                if (si - sj).abs() <= p.epsilon {
                     return true;
                 }
             }
         }
     }
     false
+}
+
+#[cfg(test)]
+mod pruebas {
+    use super::*;
+    use crate::plantillas::Mascara;
+
+    fn p() -> Parametros {
+        Parametros::analizar(
+            "n_min=1\ntheta=0.5\nepsilon=0.05\nrho=0.1\nr_max=10\na_min=4\ns_px=12.8\ntau_t=1\nd_min=1\ng_min=1\nw_sep_min=1\nw_sep_max=6\npaso_x=1\nmax_rasterizaciones=10\nmax_pixeles_mascara=100\n",
+        )
+        .unwrap()
+    }
+
+    fn m(texto: &str, x: i32, y: i32, s: f64) -> (f64, Mascara) {
+        (
+            s,
+            Mascara {
+                texto: texto.into(),
+                origen_x: x,
+                origen_y: y,
+                puntuacion: s,
+                pixeles: BTreeSet::new(),
+            },
+        )
+    }
+
+    #[test]
+    fn filas_distintas_mismo_x_empatan() {
+        let c = vec![m("0:", 20, 334, 0.80), m("0:", 20, 337, 0.76)];
+        assert!(empate_entre_filas(&c, &p()));
+    }
+
+    #[test]
+    fn filas_con_s_lejos_no_empatan() {
+        let c = vec![m("0:", 20, 334, 0.90), m("0:", 20, 337, 0.70)];
+        assert!(!empate_entre_filas(&c, &p()));
+    }
 }
