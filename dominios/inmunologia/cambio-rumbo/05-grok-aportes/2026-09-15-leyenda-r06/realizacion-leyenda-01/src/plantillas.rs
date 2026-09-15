@@ -78,6 +78,17 @@ impl Sintetizador {
         let mut pixeles = BTreeSet::new();
         let mut cursor = 0.0f32;
         for ch in texto.chars() {
+            let metrics = self.font.metrics(ch, p.s_px);
+            let caja = (metrics.width as u32).saturating_mul(metrics.height as u32);
+            if pixeles.len() as u32 + caja > p.max_pixeles_mascara {
+                return Mascara {
+                    texto: texto.to_string(),
+                    origen_x: x0,
+                    origen_y: y_base,
+                    puntuacion: 0.0,
+                    pixeles: BTreeSet::new(),
+                };
+            }
             let (metrics, bitmap) = self.font.rasterize(ch, p.s_px);
             let ox = x0 + cursor as i32 + metrics.xmin;
             let oy = y_base - metrics.height as i32 - metrics.ymin;
