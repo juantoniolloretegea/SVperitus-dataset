@@ -4,22 +4,22 @@ Sustituye, para la tanda autorizable, la retícula abierta del protocolo deposit
 
 ## Tanda finita
 
-Archivo: `insumos/RETICULA_TANDA_01.tsv`. Exactamente 27 celdas. Orden: `s_px` ascendente, luego `theta` ascendente, luego `n_min` ascendente. Los demás parámetros permanecen fijos en la fila.
+Archivo: `insumos/RETICULA_TANDA_01.tsv`. Exactamente 27 celdas. Los valores no se amplían.
 
-No se autoriza ampliar la tanda ni recorrer el producto cartesiano de 39 366 celdas.
+## Cualificación §F
 
-## Aceptación, desempate y parada
+Q1 (R01 → `CORRESPONDENCIA_CONFORME`) y Q2 (R06 → `DISCORDANCIA_CONTENIDO`) son, ambas, la cualificación del método. Una celda *supera* la cualificación solo si produce ambos esperados. No se ajustan umbrales tras ver un resultado.
 
-- Éxito de una celda: Q1 → `CORRESPONDENCIA_CONFORME` y Q2 → `DISCORDANCIA_CONTENIDO`.
-- Éxito de la tanda: la primera celda, en el orden del TSV, que cumpla ambos esperados.
-- Desempate residual si varias celdas posteriores también cumplen: no se consideran; rige la primera.
-- Fracaso: ninguna de las 27 celdas cumple el par de esperados.
-- Parada: al primer éxito o al agotar las 27. No se pasa a E1–E16. No se ajustan umbrales tras ver Q2.
+## Selección entre celdas que superaron (§C)
 
-## Decisiones de implementación (no amplían el perfil)
+1. s más próximo a 12,8 px.
+2. theta mayor.
+3. rho menor.
+4. r_max menor.
+5. Empate residual en esas cuatro claves: la cualificación fracasa.
 
-1. Separador: U+007C, carácter presente en `MUESTRA_SVG_PRODUCIDA.svg` @ `e9e4a359…`.
-2. Anclaje vertical: `y_base` es la fila de alineación (334–337) interpretada como línea base de fontdue. Convención de implementación.
-3. TTF: únicamente el archivo de 759 720 B y huella `ae7b7855…`. La huella se calcula sobre los bytes leídos.
-4. Paso espacial B.6.2: `paso_x` de la celda, filas 334–337.
-5. Atribución: píxel en dos máscaras aceptadas → mayor `S`; si `|Sa−Sb|≤epsilon` → `LEYENDA_ILEGIBLE`.
+`n_min` no es clave de §C. Tres celdas (12,8; 0,80; n_min ∈ {20,40,80}) empatarían si las tres superaran Q1 y Q2.
+
+No se recorre el TSV en el orden de origen para elegir ganadora. El orden de origen solo identifica la fila.
+
+Parada: no se pasa a E1–E16. No se amplía la tanda.

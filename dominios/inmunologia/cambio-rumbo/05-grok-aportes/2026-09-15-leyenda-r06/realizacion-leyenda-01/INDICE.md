@@ -13,6 +13,9 @@
 - Árbol de dependencias: `evidencias/ARBOL_DEPENDENCIAS.txt`.
 - Decisiones: `DECISIONES_PENDIENTES.md`.
 - Revisión estática previa a la cualificación: [REVISION_PREVIA_CUALIFICACION_01.md](REVISION_PREVIA_CUALIFICACION_01.md).
+- Subsanación R1–R4: [SUBSANACION_R1_R4.md](SUBSANACION_R1_R4.md).
+- Pruebas R1–R4: `evidencias/PRUEBAS_R1_R4.txt`.
+- Compilación R1–R4: `evidencias/COMPILACION_R1_R4.txt`.
 
 Los PNG R01/R06 y el TTF contratado no se publican aquí.
 
