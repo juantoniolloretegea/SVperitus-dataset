@@ -1,6 +1,7 @@
 //! Residuo, antialiasing admitido y causas B.6.
 //! Residue, admitted antialiasing and B.6 rejection causes.
 
+use crate::atribucion::union_geometrica;
 use crate::parametros::Parametros;
 use crate::plantillas::Mascara;
 use std::collections::BTreeSet;
@@ -17,10 +18,9 @@ pub fn calcular(
     tinta_banda: &BTreeSet<(u32, u32)>,
     aceptadas: &[Mascara],
 ) -> Residuo {
-    let mut m_expl = BTreeSet::new();
+    let m_expl = union_geometrica(aceptadas);
     let mut h_expl = BTreeSet::new();
     for m in aceptadas {
-        m_expl.extend(&m.pixeles);
         h_expl.extend(m.anillo());
     }
     let tinta_expl: BTreeSet<(u32, u32)> = m_expl.intersection(tinta_banda).cloned().collect();
