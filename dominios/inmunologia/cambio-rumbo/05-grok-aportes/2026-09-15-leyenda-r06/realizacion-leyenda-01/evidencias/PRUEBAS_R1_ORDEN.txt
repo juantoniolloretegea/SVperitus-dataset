@@ -1,0 +1,32 @@
+rustc 1.98.0 (88d9e12ae 2026-08-18)
+cargo 1.98.0 (797e8a9bc 2026-08-05)
+CMD=cargo test --locked
+CARGO_TARGET_DIR=/tmp/leyenda-r1-orden-target
+
+   Compiling leyenda_contenido v0.4.0
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 8.20s
+     Running unittests src/lib.rs
+
+running 18 tests
+test atribucion::pruebas::empate_en_las_seis_permutaciones ... ok
+test atribucion::pruebas::control_sin_empate_atribuye_al_mayor_s ... ok
+test atribucion::pruebas::empate_por_epsilon ... ok
+test atribucion::pruebas::mayor_s_se_lleva_el_pixel_compartido ... ok
+test atribucion::pruebas::union_conserva_ambos_pixeles ... ok
+test atribucion::pruebas::sin_solape_es_exclusiva ... ok
+test parametros::pruebas::comprobar_rechaza_struct_manual ... ok
+test parametros::pruebas::rechaza_duplicado ... ok
+test parametros::pruebas::rechaza_nan ... ok
+test reconocimiento::pruebas::filas_con_s_lejos_no_empatan ... ok
+test reconocimiento::pruebas::filas_distintas_mismo_x_empatan ... ok
+test tanda::pruebas::a_igual_s_theta_rho_prefiere_r_max_menor ... ok
+test tanda::pruebas::a_igual_s_prefiere_theta_mayor ... ok
+test tanda::pruebas::a_igual_s_y_theta_prefiere_rho_menor ... ok
+test tanda::pruebas::empate_residual_en_claves_c ... ok
+test tanda::pruebas::doce_y_trece_seis_empatan_distancia_si_theta_igual ... ok
+test tanda::pruebas::n_min_no_desempata_claves_c ... ok
+test tanda::pruebas::prefiere_s_proximo_a_128 ... ok
+
+test result: ok. 18 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+EXIT=0
