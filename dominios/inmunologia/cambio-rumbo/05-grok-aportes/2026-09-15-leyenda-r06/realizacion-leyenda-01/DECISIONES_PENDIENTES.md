@@ -1,14 +1,13 @@
-# Decisiones pendientes · realizacion-leyenda-01
+# Decisiones · realizacion-leyenda-01 (tras §10.2)
 
-Identificadas para poder implementar sin cerrarlas en silencio.
-
-| Pasaje | Hecho | Decisión necesaria |
+| Asunto | Resolución | Amplía el perfil |
 |---|---|---|
-| Contrato §B.1 vocabulario «separador» | El SVG histórico (`MUESTRA_SVG_PRODUCIDA.svg` @ `e9e4a359…`) escribe `0: radio 1 \| 1: radio 2 \| U: radio 3`. | Confirmar que la plantilla de separador es U+007C. El prototipo adopta esa lectura como **candidata**. |
-| Contrato §C.7 filas 334–337 | No fija la convención de y de fontdue (baseline frente a caja). | Definir el anclaje vertical exacto del rasterizador de glifos. |
-| Contrato §B.4 empate | Requiere comparar S de dos plantillas que comparten un píxel. | Conservar S junto a cada máscara aceptada. El prototipo trata todo solapamiento de aceptadas como `LEYENDA_ILEGIBLE`. |
-| TTF contratado 759 720 B, huella `ae7b7855…` | La distribución pública 2.37 midió 757 076 B y otra huella. | Localizar el archivo exacto de custodia. No se adjunta un TTF distinto. |
-| Independencia de códec | `png` ≠ `tiny-skia` | Ensayo de fallo común (misma corrupción PNG) pendiente. No se declara independencia. |
-| Búsqueda exhaustiva B.6.2 | Recorre x×filas×vocabulario residual | Acotar el paso espacial si el tiempo de hijo se cualifica. |
+| Separador | U+007C, presente en el SVG histórico e9e4a359. | No |
+| Anclaje vertical | y_base = fila 334-337 como línea base de fontdue. | No |
+| Atribución B.4 | Mayor S; empate |Sa-Sb|<=epsilon → LEYENDA_ILEGIBLE. | No |
+| TTF | Huella calculada sobre los bytes leídos; solo ae7b7855. | No |
+| Paso B.6.2 | paso_x de la celda, filas de alineación. | No |
+| Tanda | 27 celdas fijadas en RETICULA_TANDA_01.tsv. | No |
+| Independencia de códec | Sigue sin acreditarse. | — |
 
-Las partes independientes ya entregadas: lectura y cuota, IHDR, opacidad, fondo W, regiones, fórmulas de S/residuo, precedencia, CLI sin valores implícitos.
+Pendiente material: localizar el TTF de 759720 B; ejecutar Q1/Q2 cuando se autorice.
