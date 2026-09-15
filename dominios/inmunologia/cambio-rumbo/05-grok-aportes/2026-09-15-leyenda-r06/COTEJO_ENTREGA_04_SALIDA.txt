@@ -1,0 +1,24 @@
+=== rustc -Vv ===
+rustc 1.98.0 (88d9e12ae 2026-08-18)
+binary: rustc
+commit-hash: 88d9e12ae178fab0fb5cc050a94da85685d449ea
+commit-date: 2026-08-18
+host: x86_64-unknown-linux-gnu
+release: 1.98.0
+LLVM version: 22.1.8
+RC_VV=0
+
+=== cargo -V ===
+cargo 1.98.0 (797e8a9bc 2026-08-05)
+RC_CARGO=0
+
+CMD=/opt/sv-rust-1.98.0/bin/rustc --edition=2021 -O /home/workdir/artifacts/COTEJO_ENTREGA_04.rs -o /tmp/cotejo_entrega_04
+RC_COMPILE=0
+
+CMD=/tmp/cotejo_entrega_04 CONTRATO SUBSANACION RS
+VECTOR	vacio	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	igual=true
+VECTOR	abc	ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad	igual=true
+ARCHIVO	/home/workdir/artifacts/CONTRATO_CANDIDATO_LEYENDA_CONTENIDO_4.md	bytes=13844	huella=92a70b04c9c755a1782b4c41d8d575a54146cf473a474e91e5271a3d9ea11911
+ARCHIVO	/home/workdir/artifacts/SUBSANACION_ENTREGA_04.md	bytes=3444	huella=ca2c5b9b732c315eef02cf3e6e25041be7f1310bf6e6176a138ce4426f10540a
+ARCHIVO	/home/workdir/artifacts/COTEJO_ENTREGA_04.rs	bytes=4274	huella=7bc2345df02b992bd16b24a522f001d70be166959f3986a1b5392dc6916e72df
+RC_RUN=0
