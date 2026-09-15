@@ -1,0 +1,25 @@
+corte=fdc211fec991b062bc5cd8668536e0c6f7f6a76f
+rama=dominio-inmunologia
+sede=dominios/inmunologia/cambio-rumbo/05-grok-aportes/2026-09-15-leyenda-r06/realizacion-leyenda-01
+origen=https://github.com/juantoniolloretegea/SVperitus-dataset/archive/fdc211fec991b062bc5cd8668536e0c6f7f6a76f.zip
+zip_bytes=5771508
+zip_sha256=d7e38427557226e1c8f7078de322fbca8c318a345083b8e00017eef1befd5884
+
+Identidad de fuentes respecto del arbol local ensayado (SHA-256):
+  src/parametros.rs        6266a25b5a987c16ece1c4969ac55338878b44d182afa1b0117bd99b9fae4c19 IGUAL
+  src/reconocimiento.rs    56a38a86cdc25d9471c36b843720b3f2862df7973733a078594d198ca655cf89 IGUAL
+  src/tanda.rs             f10f42e8b6bf019370bcbaa68f4e27da94e08d018ec6426842ac7057065c436f IGUAL
+  src/atribucion.rs        aaedaec041a4860a01ffc6755b28f1b07531258dcaabd3446f5d08c3b718a4c3 IGUAL
+  src/residuo.rs           4ee745c05cf330445d4ca57a522a6f937bb52c8c20fed6b7af78f269faff29f0 IGUAL
+  src/lib.rs               e9c1f4a587080ba02f7058d3ea7ca9c77367ed9b0a6eb18496fcf5256ae037e4 IGUAL
+  src/plantillas.rs        499c2f7412db67cd7ac242d3311d0bcb873b26618ca4105136ba9b293165d4af IGUAL
+
+Compilacion del arbol identico (Rust 1.98.0, cargo --locked):
+  evidencias/PRUEBAS_R1_R4.txt      16 pruebas, EXIT=0
+  evidencias/COMPILACION_R1_R4.txt  cargo build --locked --release, EXIT=0
+
+El Cargo.lock publicado es version 4. rustc 1.75.0 del entorno general lo rechaza
+con «lack file version 4 requires -Znext-lockfile-bump». La compilacion
+reproducible del corte exige Rust 1.98.0, ya usado sobre el arbol identico.
+
+Q1/Q2 y E1-E16 no se ejecutaron.
