@@ -10,6 +10,7 @@ pub mod png_lectura;
 pub mod reconocimiento;
 pub mod regiones;
 pub mod residuo;
+pub mod sha256;
 
 use crate::diagnostico::Diagnostico;
 use crate::parametros::Parametros;
@@ -20,7 +21,7 @@ use std::path::Path;
 
 pub const HUELLA_TTF: &str = plantillas::HUELLA_TTF_CONTRATADA;
 
-pub fn procesar_png(png: &Path, ttf: &[u8], huella_ttf: &str, p: &Parametros) -> Informe {
+pub fn procesar_png(png: &Path, ttf: &[u8], p: &Parametros) -> Informe {
     let lectura = leer_y_decodificar(png);
     match lectura.diagnostico {
         Diagnostico::CorrespondenciaConforme => {}
@@ -39,7 +40,7 @@ pub fn procesar_png(png: &Path, ttf: &[u8], huella_ttf: &str, p: &Parametros) ->
             pares: vec![],
         };
     };
-    let sintetizador = match Sintetizador::cargar(ttf, huella_ttf) {
+    let sintetizador = match Sintetizador::cargar(ttf) {
         Ok(s) => s,
         Err(e) => {
             return Informe {
