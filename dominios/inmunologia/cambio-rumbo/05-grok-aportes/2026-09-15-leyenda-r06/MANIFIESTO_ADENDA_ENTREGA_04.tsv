@@ -1,0 +1,13 @@
+archivo	bytes	sha256	procedencia
+ADENDA_CIERRE_DOCUMENTAL_ENTREGA_04.md	4455	040bca53111a5268710668c4b357f7898722a01a99c9b25a0ee1788bb4bc9d58	nuevo; SVperitus-dataset rama dominio-inmunologia; directorio 2026-09-15-leyenda-r06
+CONTRATO_CANDIDATO_LEYENDA_CONTENIDO_4.md	12404	a5026829c381c2e0b47c89e78310887677fd79b8089fffcd78df10bc11e9b03d	histórico; SVperitus-dataset@ea4982398a42eba362f7bc7e9e00f5268f3058c9; no modificado
+SUBSANACION_ENTREGA_04.md	3422	a5543add6e674dcc5e1f129e38d4141769a48b64c38ac98ce8c13fdd0e45bcb1	histórico; mismo commit; no modificado
+COTEJO_ENTREGA_04.rs	4274	7bc2345df02b992bd16b24a522f001d70be166959f3986a1b5392dc6916e72df	histórico; mismo commit; fuente de la entrega 04; no reconstruido
+COTEJO_ENTREGA_04_SALIDA.txt	1096	67e379d09c31bcb99409592c9ad8e7434268e40d6687d51aa524551e853abc40	histórico; mismo commit
+MANIFIESTO_ENTREGA_04.tsv	1537	dab91aaf18e8885ce86f0a8ffe12b78c389f52bb12ca0d089bfddb130ba230be	histórico; mismo commit; no incluye esta adenda
+COTEJO_RECEPCION_LEYENDA_03.rs	7960	0375a16d8e904b738e0f297ad1fa951b1e00c477d73db6a469296892fb237cd1	histórico; SV-lenguaje-de-computacion@146cb30e3cece036947081453d7e0982ca03a1cb; docs/calidad/tuberias-ia/continuacion-15-09-2026/; no duplicado
+COTEJO_RECEPCION_LEYENDA_03_SALIDA.txt	586	7152a1427240a200a57cc52e5798317134b010e00113faddb23ce3baddb4c887	histórico; mismo corte y directorio; no duplicado
+COTEJO_RECEPCION_LEYENDA_04.rs	8744	1e23c6d8e2585f889cd6d58544a071cc936593bda55141ef98bf35ee49700735	histórico; Acta 002 §7.4; mismo directorio del Lenguaje; no duplicado
+COTEJO_RECEPCION_LEYENDA_04_SALIDA.txt	1784	4588d724f9a81f194d93e7a6f616b4e1374efc5ce6818a4c2413c9148b3a2bf3	histórico; Acta 002 §7.4; no duplicado
+R01.png	—	3e9fae6d4844a07d0f1281d4974c5da1c5ce01c6dbc774be27b18f1735f7509d	reservado; SV-matematica-semantica-cuaternaria@86441ad4d375e31737dfcead0b1fd9cd52161883; paquete laboratorio/tareas-watson/tuberias-ia/paridad-imagen-celula-matematica/estudio-nucleo-agentes/bis04-extension-perfiles-recursos-v0_1/EVIDENCIA_RASTER_CAPTOR.tar.gz; miembro R01.png; no adjunto
+R06.png	—	829286631401c3208554a9f1f81bc091fa5355201490bd92ba72f9b0bb254827	reservado; mismo paquete; miembro R06.png; no adjunto
