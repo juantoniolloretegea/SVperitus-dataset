@@ -19,7 +19,7 @@ Compilacion del arbol identico (Rust 1.98.0, cargo --locked):
   evidencias/COMPILACION_R1_R4.txt  cargo build --locked --release, EXIT=0
 
 El Cargo.lock publicado es version 4. rustc 1.75.0 del entorno general lo rechaza
-con «lack file version 4 requires -Znext-lockfile-bump». La compilacion
+con lock file version 4 requires -Znext-lockfile-bump. La compilacion
 reproducible del corte exige Rust 1.98.0, ya usado sobre el arbol identico.
 
 Q1/Q2 y E1-E16 no se ejecutaron.
