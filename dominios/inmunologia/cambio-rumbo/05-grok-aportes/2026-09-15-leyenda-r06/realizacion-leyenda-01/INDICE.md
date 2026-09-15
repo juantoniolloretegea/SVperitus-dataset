@@ -18,3 +18,7 @@ Los PNG R01/R06 y el TTF contratado no se publican aquí.
 ## Recepción del respaldo
 
 Véase [depósito receptor y punto de continuidad](DEPOSITO_RECEPCION_ZIP.md). La compilación limpia sigue pendiente; las piezas históricas y el ZIP están depositados y enlazados en esa nota.
+
+## Compilación completada
+
+[Recepción de fdeflate y compilación del corte publicado](RECEPCION_FDEFLATE_Y_COMPILACION.md): Rust 1.98.0, retorno cero. Sustituye el estado pendiente de compilación de las notas anteriores; la cualificación sigue pendiente.

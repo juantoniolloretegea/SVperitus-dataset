@@ -1,0 +1,45 @@
+rustc 1.98.0 (88d9e12ae 2026-08-18)
+cargo 1.98.0 (797e8a9bc 2026-08-05)
+CORTE=0e36549f4f6914b4fdb7dd36a1f5b4ba5b91c797
+CMD=cargo build --locked --release
+CARGO_HTTP_TIMEOUT=15; CARGO_NET_RETRY=0; fdeflate 0.3.7 cotejado e incorporado a cache
+ Downloading crates ...
+  Downloaded adler2 v2.0.1
+  Downloaded bitflags v1.3.2
+  Downloaded core_maths v0.1.1
+  Downloaded equivalent v1.0.2
+  Downloaded cfg-if v1.0.4
+  Downloaded flate2 v1.1.10
+  Downloaded foldhash v0.1.5
+  Downloaded allocator-api2 v0.2.21
+  Downloaded crc32fast v1.5.2
+  Downloaded miniz_oxide v0.8.9
+  Downloaded simd-adler32 v0.3.10
+  Downloaded fontdue v0.9.4
+  Downloaded hashbrown v0.15.5
+  Downloaded miniz_oxide v0.9.1
+  Downloaded libm v0.2.16
+  Downloaded png v0.17.16
+  Downloaded ttf-parser v0.25.1
+  Downloaded zlib-rs v0.6.7
+   Compiling simd-adler32 v0.3.10
+   Compiling libm v0.2.16
+   Compiling crc32fast v1.5.2
+   Compiling adler2 v2.0.1
+   Compiling cfg-if v1.0.4
+   Compiling allocator-api2 v0.2.21
+   Compiling equivalent v1.0.2
+   Compiling foldhash v0.1.5
+   Compiling bitflags v1.3.2
+   Compiling miniz_oxide v0.9.1
+   Compiling fdeflate v0.3.7
+   Compiling miniz_oxide v0.8.9
+   Compiling hashbrown v0.15.5
+   Compiling flate2 v1.1.10
+   Compiling core_maths v0.1.1
+   Compiling ttf-parser v0.25.1
+   Compiling png v0.17.16
+   Compiling fontdue v0.9.4
+   Compiling leyenda_contenido v0.4.0 (/tmp/sv_leyenda_0e36549f)
+    Finished `release` profile [optimized] target(s) in 16.55s
+RC_BUILD=0
