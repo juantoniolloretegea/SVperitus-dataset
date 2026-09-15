@@ -12,6 +12,7 @@
 - Compilación sobre descarga limpia: `evidencias/COMPILACION_LIMPIA.txt`.
 - Árbol de dependencias: `evidencias/ARBOL_DEPENDENCIAS.txt`.
 - Decisiones: `DECISIONES_PENDIENTES.md`.
+- Revisión estática previa a la cualificación: [REVISION_PREVIA_CUALIFICACION_01.md](REVISION_PREVIA_CUALIFICACION_01.md).
 
 Los PNG R01/R06 y el TTF contratado no se publican aquí.
 
