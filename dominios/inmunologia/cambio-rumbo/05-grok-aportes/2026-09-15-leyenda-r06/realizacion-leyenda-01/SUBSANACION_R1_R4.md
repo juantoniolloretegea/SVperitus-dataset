@@ -44,3 +44,5 @@ R1–R4 quedan subsanados en el texto del prototipo y cubiertos por dieciséis p
 ## Estado
 
 Prototipo compilable. Reconocedor no cualificado. Campaña Q/E no abierta.
+
+La comparación de empate de R1 se corrigió después de este acto: el criterio vigente es el de [CORRECCION_R1_EMPATE_INDEPENDIENTE_DEL_ORDEN.md](CORRECCION_R1_EMPATE_INDEPENDIENTE_DEL_ORDEN.md). El contrato, los parámetros y la retícula no cambian.
