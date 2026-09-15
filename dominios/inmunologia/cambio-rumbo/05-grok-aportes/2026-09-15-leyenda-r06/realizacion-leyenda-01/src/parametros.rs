@@ -23,7 +23,7 @@ const CLAVES: &[&str] = &[
     "max_pixeles_mascara",
 ];
 
-#[derive(Clone, Debug)]
+#[derive(Clone, Debug, PartialEq)]
 pub struct Parametros {
     pub n_min: u32,
     pub theta: f64,
@@ -139,7 +139,62 @@ impl Parametros {
         if p.max_rasterizaciones == 0 {
             return Err("max_rasterizaciones debe ser >= 1".into());
         }
+        p.comprobar()?;
         Ok(p)
+    }
+
+    /// Entrada pública: rechaza un valor construido sin `analizar`.
+    pub fn comprobar(&self) -> Result<(), String> {
+        if !self.theta.is_finite() || !(0.0..=1.0).contains(&self.theta) {
+            return Err("theta no admisible".into());
+        }
+        if !self.epsilon.is_finite() || !(0.0..=1.0).contains(&self.epsilon) {
+            return Err("epsilon no admisible".into());
+        }
+        if !self.rho.is_finite() || !(0.0..=1.0).contains(&self.rho) {
+            return Err("rho no admisible".into());
+        }
+        if !self.s_px.is_finite() || self.s_px <= 0.0 {
+            return Err("s_px no admisible".into());
+        }
+        if self.w_sep_min > self.w_sep_max {
+            return Err("w_sep_min > w_sep_max".into());
+        }
+        if self.paso_x == 0 || self.max_rasterizaciones == 0 {
+            return Err("cotas de busqueda no admisibles".into());
+        }
+        Ok(())
+    }
+}
+
+#[cfg(test)]
+mod pruebas {
+    use super::*;
+
+    #[test]
+    fn rechaza_nan() {
+        let e = Parametros::analizar(
+            "n_min=1\ntheta=NaN\nepsilon=0.1\nrho=0.1\nr_max=1\na_min=1\ns_px=12.8\ntau_t=1\nd_min=1\ng_min=1\nw_sep_min=1\nw_sep_max=2\npaso_x=1\nmax_rasterizaciones=1\nmax_pixeles_mascara=1\n",
+        );
+        assert!(e.is_err());
+    }
+
+    #[test]
+    fn rechaza_duplicado() {
+        let e = Parametros::analizar(
+            "n_min=1\nn_min=2\ntheta=0.5\nepsilon=0.1\nrho=0.1\nr_max=1\na_min=1\ns_px=12.8\ntau_t=1\nd_min=1\ng_min=1\nw_sep_min=1\nw_sep_max=2\npaso_x=1\nmax_rasterizaciones=1\nmax_pixeles_mascara=1\n",
+        );
+        assert!(e.is_err());
+    }
+
+    #[test]
+    fn comprobar_rechaza_struct_manual() {
+        let mut p = Parametros::analizar(
+            "n_min=1\ntheta=0.5\nepsilon=0.1\nrho=0.1\nr_max=1\na_min=1\ns_px=12.8\ntau_t=1\nd_min=1\ng_min=1\nw_sep_min=1\nw_sep_max=2\npaso_x=1\nmax_rasterizaciones=1\nmax_pixeles_mascara=1\n",
+        )
+        .unwrap();
+        p.s_px = f32::INFINITY;
+        assert!(p.comprobar().is_err());
     }
 }
 
