@@ -14,3 +14,7 @@
 - Decisiones: `DECISIONES_PENDIENTES.md`.
 
 Los PNG R01/R06 y el TTF contratado no se publican aquí.
+
+## Recepción del respaldo
+
+Véase [depósito receptor y punto de continuidad](DEPOSITO_RECEPCION_ZIP.md). La compilación limpia sigue pendiente; las piezas históricas y el ZIP están depositados y enlazados en esa nota.
