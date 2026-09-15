@@ -1,0 +1,15 @@
+[package]
+name = "leyenda_contenido"
+version = "0.4.0"
+edition = "2021"
+rust-version = "1.98"
+publish = false
+description = "Prototipo experimental del comprobador LEYENDA-CONTENIDO/4. No forma parte del núcleo SV."
+license = "LicenseRef-SV-experimental"
+
+[dependencies]
+# Decodificador PNG distinto de tiny-skia 0.12.0 (usado por el captor histórico).
+# Un nombre distinto no acredita independencia de códec.
+png = "0.17.16"
+# Rasterizador de glifos distinto de resvg 0.48.1. Comparte el TTF contratado.
+fontdue = "0.9.3"

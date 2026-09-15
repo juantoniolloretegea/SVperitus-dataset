@@ -1,0 +1,15 @@
+# Candidatos de cualificación. NO están validados.
+# Qualification candidates. NOT validated.
+# No usar como valores implícitos del perfil.
+n_min=40
+theta=0.75
+epsilon=0.02
+rho=0.08
+r_max=24
+a_min=8
+s_px=12.8
+tau_t=96
+d_min=8
+g_min=2
+w_sep_min=1
+w_sep_max=6

@@ -1,0 +1,23 @@
+leyenda_contenido v0.4.0 (/tmp/leyenda-build)
+├── fontdue v0.9.4
+│   ├── hashbrown v0.15.5
+│   │   ├── allocator-api2 v0.2.21
+│   │   ├── equivalent v1.0.2
+│   │   └── foldhash v0.1.5
+│   └── ttf-parser v0.25.1
+│       └── core_maths v0.1.1
+│           └── libm v0.2.16
+└── png v0.17.16
+    ├── bitflags v1.3.2
+    ├── crc32fast v1.5.2
+    │   └── cfg-if v1.0.4
+    ├── fdeflate v0.3.7
+    │   └── simd-adler32 v0.3.10
+    ├── flate2 v1.1.10
+    │   ├── crc32fast v1.5.2 (*)
+    │   └── miniz_oxide v0.9.1
+    │       ├── adler2 v2.0.1
+    │       └── simd-adler32 v0.3.10
+    └── miniz_oxide v0.8.9
+        ├── adler2 v2.0.1
+        └── simd-adler32 v0.3.10
