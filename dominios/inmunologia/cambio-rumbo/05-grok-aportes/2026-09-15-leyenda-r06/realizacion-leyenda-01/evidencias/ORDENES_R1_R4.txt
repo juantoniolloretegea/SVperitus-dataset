@@ -1,0 +1,15 @@
+rustc 1.98.0 (88d9e12ae 2026-08-18)
+cargo 1.98.0 (797e8a9bc 2026-08-05)
+crate=leyenda_contenido 0.4.0
+sede=realizacion-leyenda-01
+lockfile=Cargo.lock (sin modificacion)
+
+# Bateria dirigida R1-R4 (no ejecuta Q1/Q2 ni E1-E16)
+cargo test --locked
+
+# Compilacion del corte
+cargo build --locked --release
+
+No se invoco la interfaz reconocer sobre R01 ni R06.
+No se amplio insumos/RETICULA_TANDA_01.tsv.
+No se modifico LEYENDA-CONTENIDO/4 ni su adenda.

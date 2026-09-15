@@ -22,6 +22,7 @@ fn dist_s(p: &Parametros) -> f64 {
     (p.s_px as f64 - S_REF).abs()
 }
 
+/// Orden de /4 §C: s más próximo a 12,8; theta mayor; rho menor; r_max menor.
 fn cmp_f64(a: f64, b: f64) -> std::cmp::Ordering {
     if (a - b).abs() <= 1e-4 {
         std::cmp::Ordering::Equal
@@ -129,6 +130,40 @@ mod pruebas {
     fn doce_y_trece_seis_empatan_distancia_si_theta_igual() {
         let a = celda(12.0, 0.80, 0.08, 24);
         let b = celda(13.6, 0.80, 0.08, 24);
+        assert_eq!(elegir(&[a, b]), Err(Seleccion::EmpateResidual));
+    }
+
+    #[test]
+    fn a_igual_s_y_theta_prefiere_rho_menor() {
+        let a = celda(12.8, 0.80, 0.10, 24);
+        let b = celda(12.8, 0.80, 0.08, 24);
+        let g = elegir(&[a, b]).unwrap();
+        assert!((g.p.rho - 0.08).abs() < 1e-12);
+    }
+
+    #[test]
+    fn a_igual_s_theta_rho_prefiere_r_max_menor() {
+        let a = celda(12.8, 0.80, 0.08, 32);
+        let b = celda(12.8, 0.80, 0.08, 24);
+        let g = elegir(&[a, b]).unwrap();
+        assert_eq!(g.p.r_max, 24);
+    }
+
+    #[test]
+    fn n_min_no_desempata_claves_c() {
+        let texto = |n: u32| {
+            format!(
+                "n_min={n}\ntheta=0.80\nepsilon=0.02\nrho=0.08\nr_max=24\na_min=8\ns_px=12.8\ntau_t=96\nd_min=8\ng_min=2\nw_sep_min=1\nw_sep_max=6\npaso_x=1\nmax_rasterizaciones=20\nmax_pixeles_mascara=80\n"
+            )
+        };
+        let a = Celda {
+            orden_origen: 16,
+            p: Parametros::analizar(&texto(20)).unwrap(),
+        };
+        let b = Celda {
+            orden_origen: 17,
+            p: Parametros::analizar(&texto(40)).unwrap(),
+        };
         assert_eq!(elegir(&[a, b]), Err(Seleccion::EmpateResidual));
     }
 }

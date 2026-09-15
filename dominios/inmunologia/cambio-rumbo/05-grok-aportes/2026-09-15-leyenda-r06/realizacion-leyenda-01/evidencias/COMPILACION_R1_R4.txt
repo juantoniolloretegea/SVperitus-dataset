@@ -1,7 +1,9 @@
 rustc 1.98.0 (88d9e12ae 2026-08-18)
-cargo 1.98.0 (d6c32cbd1 2026-08-20)
+cargo 1.98.0 (797e8a9bc 2026-08-05)
 CMD=cargo build --locked --release
 CARGO_TARGET_DIR=/tmp/leyenda-r1r4-target
 
-   Compiling leyenda_contenido v0.4.0 (/home/workdir/artifacts/realizacion-leyenda-01)
-    Finished `release` profile [optimized] target(s) in 3.15s
+   Compiling leyenda_contenido v0.4.0
+    Finished `release` profile [optimized] target(s) in 2.99s
+
+EXIT=0
