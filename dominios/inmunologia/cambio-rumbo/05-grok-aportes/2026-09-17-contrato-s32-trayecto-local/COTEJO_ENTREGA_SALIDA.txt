@@ -1,0 +1,22 @@
+COTEJO TLC-S32-01 v0.1
+Objeto: integridad documental del paquete candidato.
+No es prueba de privacidad, Q1/Q2 ni E1–E16.
+rustc 1.98.0 (88d9e12ae 2026-08-18)
+binary: rustc
+commit-hash: 88d9e12ae178fab0fb5cc050a94da85685d449ea
+commit-date: 2026-08-18
+host: x86_64-unknown-linux-gnu
+release: 1.98.0
+LLVM version: 22.1.8
+
+BLOB d0d25ba1f953a751d3b346d29015f5f7e7e4b500 CONTRATO_CANDIDATO_TLC_S32_01_v0.1.md
+BLOB ea406be5a17769f70d6ab25d56185c69f5572ca6 CASOS_PREVISTOS_TLC_S32_01_v0.1.md
+BLOB b4ef98cc81777c04d9b8f80c490964b8b3d02022 NOTA_ENTREGA.md
+BLOB 341e5d00bc9999e0617b9a7c82d01592b7e17ab3 COTEJO_ENTREGA.rs
+BLOB a001689a7c97bff6f64dd92d7d234952a3935c95 ENTORNO_MINIMO.rs
+BLOB a43978c4900ac60bf54a01504b3ef08910632f7c ENTORNO_MINIMO_SALIDA.txt
+CONTROL contrato: marcadores presentes; sin RETP nuevo.
+CONTROL casos: TLC-01..TLC-14; 14 no ejecutados.
+CONTROL nota: cortes y entorno presentes.
+DISPOSICION: paquete documental cotejado.
+PRIVACIDAD: no ejecutada.
