@@ -1,0 +1,16 @@
+comando: rustup run 1.98.0 rustc --edition=2021 ENTORNO_MINIMO.rs -o /tmp/sv-entorno-minimo && /tmp/sv-entorno-minimo
+rustc:
+rustc 1.98.0 (88d9e12ae 2026-08-18)
+binary: rustc
+commit-hash: 88d9e12ae178fab0fb5cc050a94da85685d449ea
+commit-date: 2026-08-18
+host: x86_64-unknown-linux-gnu
+release: 1.98.0
+LLVM version: 22.1.8
+cargo:
+cargo 1.98.0 (797e8a9bc 2026-08-05)
+sha256 rustc 1.98.0:
+3690cc576ede140504698405d5d8fa3826aaadbe71699c6c4ed0a565d6f493e2  /root/.rustup/toolchains/1.98.0-x86_64-unknown-linux-gnu/bin/rustc
+terminacion_compilacion: 0
+salida: ok-minimo
+terminacion_ejecucion: 0
