@@ -1,0 +1,19 @@
+COTEJO TLC-S32-02 v0.1
+Objeto: integridad documental del paquete candidato.
+No es prueba de privacidad, Q1/Q2 ni E1–E16.
+rustc 1.98.0 (88d9e12ae 2026-08-18)
+binary: rustc
+commit-hash: 88d9e12ae178fab0fb5cc050a94da85685d449ea
+commit-date: 2026-08-18
+host: x86_64-unknown-linux-gnu
+release: 1.98.0
+LLVM version: 22.1.8
+
+BLOB 4441573c8e5d2f7a7dc09fbff5b8e1f67bc92b3b CONTRATO_CANDIDATO_TLC_S32_02_v0.1.md
+BLOB 9ccb12a8b73dd700e1a633c550b7ff1090cae42b CASOS_PREVISTOS_TLC_S32_02_v0.1.md
+BLOB 12b21923c53ff6b120a53414a11a483d11594986 NOTA_ENTREGA.md
+BLOB f70f3b9f733839abfb24274a1c4bb5bc6dc5ddd5 COTEJO_ENTREGA.rs
+BLOB c3c0fcb3abd1125c7178384d65e354a3cfca0953 ENTORNO_MINIMO.rs
+BLOB d83d9703a0fe3339477f7d2f21d0c52e49a9c564 ENTORNO_MINIMO_SALIDA.txt
+RESULTADO: cotejo documental conforme.
+PRIVACIDAD: no ejecutada.
