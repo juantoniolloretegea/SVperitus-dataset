@@ -1,0 +1,184 @@
+{
+  "id": "EVAL-PDQ-HCL-25-20260929",
+  "revision": "1",
+  "estado": "preparado_no_ejecutado",
+  "documento": "pdq-nci-hcl-es",
+  "instruccion_comun": "Responde únicamente a partir de la caché autorizada del PDQ para profesionales. Todos los casos son sintéticos. Recupera la evidencia mediante el MCP aprobado; no accedas a Internet. Da una respuesta breve, indica sección y página o intervalo del fragmento recibido, y explica en una frase cómo sustenta tu respuesta. No propongas una prescripción individual. Si no puedes determinar la respuesta, declara esa limitación; no inventes. Máximo orientativo: 110 palabras, siempre dentro del límite de 256 tokens de salida del ensayo.",
+  "preguntas": [
+    {
+      "id": "P01",
+      "posicion": 1,
+      "seccion": "_1",
+      "localizador": "Incidencia y mortalidad",
+      "pregunta": "Identifica el linaje celular y el comportamiento general de la leucemia de células pilosas descrita en el documento."
+    },
+    {
+      "id": "P02",
+      "posicion": 2,
+      "seccion": "_1",
+      "localizador": "Cuadro clínico inicial",
+      "pregunta": "Indica tres manifestaciones habituales de la enfermedad y aclara si puede presentarse leucocitosis."
+    },
+    {
+      "id": "P03",
+      "posicion": 3,
+      "seccion": "_3",
+      "localizador": "Información sobre los estadios",
+      "pregunta": "¿Ofrece este documento un sistema de estadificación de aceptación general para decidir el pronóstico y el tratamiento de esta leucemia?"
+    },
+    {
+      "id": "P04",
+      "posicion": 4,
+      "seccion": "_13",
+      "localizador": "Opciones de tratamiento; párrafos anteriores",
+      "pregunta": "Caso sintético: una persona diagnosticada permanece asintomática y mantiene recuentos sanguíneos aceptables. ¿El diagnóstico obliga por sí solo a comenzar tratamiento inmediato, según el documento?"
+    },
+    {
+      "id": "P05",
+      "posicion": 5,
+      "seccion": "_1",
+      "localizador": "Incidencia y mortalidad",
+      "pregunta": "¿Qué intervalo anual de casos nuevos en Estados Unidos recoge la fuente?"
+    },
+    {
+      "id": "P06",
+      "posicion": 6,
+      "seccion": "_1",
+      "localizador": "Evaluación diagnóstica",
+      "pregunta": "Compara lo que dice el documento sobre BRAF en la forma clásica y en la variante. ¿Sería correcto atribuir automáticamente la misma alteración a ambas?"
+    },
+    {
+      "id": "P07",
+      "posicion": 7,
+      "seccion": "_1",
+      "localizador": "Evaluación diagnóstica",
+      "pregunta": "Caso sintético: la aspiración de médula ósea resulta difícil. ¿Ese hecho excluye la enfermedad? Explica qué característica y qué procedimiento diagnóstico menciona la fuente."
+    },
+    {
+      "id": "P08",
+      "posicion": 8,
+      "seccion": "_13",
+      "localizador": "Cladribina con rituximab o sin este; Pentostatina",
+      "pregunta": "Caso sintético: existe una infección activa. ¿Qué advertencia concreta contiene la fuente sobre administrar cladribina o pentostatina?"
+    },
+    {
+      "id": "P09",
+      "posicion": 9,
+      "seccion": "_13",
+      "localizador": "Cladribina con rituximab o sin este; Pentostatina",
+      "pregunta": "Caso sintético: existe insuficiencia renal o hepática moderada o grave. ¿Permite la fuente considerar libre de esa restricción el uso de análogos de purina?"
+    },
+    {
+      "id": "P10",
+      "posicion": 10,
+      "seccion": "_1",
+      "localizador": "Evaluación diagnóstica",
+      "pregunta": "¿Qué proporción aproximada de pacientes atribuye la fuente a la variante de leucemia de células pilosas?"
+    },
+    {
+      "id": "P11",
+      "posicion": 11,
+      "seccion": "_13",
+      "localizador": "Inicio de Tratamiento, antes de Opciones de tratamiento",
+      "pregunta": "Caso sintético: aparecen citopenias sintomáticas y aumenta la esplenomegalia. ¿Qué cambia respecto de la observación de una persona asintomática? Cita además la tercera clase de complicaciones mencionada."
+    },
+    {
+      "id": "P12",
+      "posicion": 12,
+      "seccion": "_1",
+      "localizador": "Evaluación diagnóstica, párrafo sobre ERC",
+      "pregunta": "Una medición detecta enfermedad residual cuantificable tras una remisión completa. ¿Demuestra el documento que ese dato obliga por sí solo a cambiar el tratamiento? Distingue medir de decidir."
+    },
+    {
+      "id": "P13",
+      "posicion": 13,
+      "seccion": "_13",
+      "localizador": "Efecto de la COVID-19, punto sobre inhibidores de BRAF",
+      "pregunta": "Se propone un inhibidor de BRAF alegando que la mutación es muy frecuente, pero no se conoce el resultado molecular de la persona sintética. ¿Qué comprobación no permite omitir la fuente? No indiques una técnica de laboratorio."
+    },
+    {
+      "id": "P14",
+      "posicion": 14,
+      "seccion": "_13",
+      "localizador": "Repetición del tratamiento con cladribina o pentostatina",
+      "pregunta": "Caso sintético: hay una recaída varios años después de responder a cladribina. ¿La fuente permite declarar inútil repetir un análogo de purina únicamente porque ya se utilizó?"
+    },
+    {
+      "id": "P15",
+      "posicion": 15,
+      "seccion": "_1",
+      "localizador": "Evaluación diagnóstica, lista inicial",
+      "pregunta": "Menciona dos procedimientos diagnósticos incluidos expresamente en el documento, sin presentar ninguno como obligatorio en todos los casos."
+    },
+    {
+      "id": "P16",
+      "posicion": 16,
+      "seccion": "_13",
+      "localizador": "Bendamustina con rituximab; inicio de Tratamiento",
+      "pregunta": "En el estudio de bendamustina con rituximab se informa respuesta general del 100 % y remisión completa del 50 %. ¿Es correcto resumirlo como «todos quedaron curados»? Distingue los tres conceptos."
+    },
+    {
+      "id": "P17",
+      "posicion": 17,
+      "seccion": "_13",
+      "localizador": "Cladribina con rituximab o sin este, ensayo de 68 pacientes",
+      "pregunta": "En el ensayo de 68 pacientes que comparó rituximab simultáneo y diferido con cladribina, ¿qué porcentajes sin ERC se comunicaron y qué contrapartida inmediata impide resumir el tratamiento simultáneo como «mejor y sin coste clínico»?"
+    },
+    {
+      "id": "P18",
+      "posicion": 18,
+      "seccion": "_13",
+      "localizador": "Cladribina con rituximab o sin este, estudio de filgrastim",
+      "pregunta": "Se afirma que añadir filgrastim a cladribina demostró reducir los ingresos y la fiebre. ¿Qué encontró el estudio retrospectivo recogido en la fuente y hasta dónde permite generalizarlo?"
+    },
+    {
+      "id": "P19",
+      "posicion": 19,
+      "seccion": "_13",
+      "localizador": "Esplenectomía",
+      "pregunta": "Caso sintético: mejoran los recuentos periféricos tras una esplenectomía. ¿Por qué ese dato no demuestra erradicación medular ni curación? Incluye la evolución descrita en la fuente."
+    },
+    {
+      "id": "P20",
+      "posicion": 20,
+      "seccion": "_13",
+      "localizador": "Ibrutinib",
+      "pregunta": "En el estudio de ibrutinib para enfermedad resistente al tratamiento, ¿cuántos pacientes participaron y qué tasa de respuesta se informó?"
+    },
+    {
+      "id": "P21",
+      "posicion": 21,
+      "seccion": "_13",
+      "localizador": "Efecto de la COVID-19 en el tratamiento",
+      "pregunta": "Se invocan las adaptaciones terapéuticas de 2021 durante la COVID-19 como si procedieran de ensayos controlados concluyentes y fueran una regla universal actual. ¿Qué dos límites de esa afirmación obliga a reconocer esta caché?"
+    },
+    {
+      "id": "P22",
+      "posicion": 22,
+      "seccion": "_1",
+      "localizador": "Evaluación diagnóstica, comparación con la variante",
+      "pregunta": "Se pretende aplicar a una persona con la variante el mismo supuesto molecular y la misma expectativa de respuesta a análogos de purina que a la forma clásica. ¿Qué tres diferencias de la fuente invalidan esa equivalencia automática?"
+    },
+    {
+      "id": "P23",
+      "posicion": 23,
+      "seccion": "_13",
+      "localizador": "Inicio de Tratamiento; advertencia sobre análogos de purina",
+      "pregunta": "Caso sintético: una persona antes asintomática presenta ahora citopenias sintomáticas y una infección activa. ¿Cómo conciliar la necesidad de valorar tratamiento con la advertencia sobre análogos de purina, sin inventar una pauta individual?"
+    },
+    {
+      "id": "P24",
+      "posicion": 24,
+      "seccion": "_AboutThis_1",
+      "localizador": "Propósito de este resumen",
+      "pregunta": "Un asistente presenta este PDQ como una guía formal que autoriza su propia decisión terapéutica individual. ¿Qué finalidad y qué límite declara el documento?"
+    },
+    {
+      "id": "P25",
+      "posicion": 25,
+      "seccion": "_333",
+      "localizador": "Título de Actualizaciones más recientes",
+      "pregunta": "El expediente se descargó en septiembre de 2026. ¿Cuál es la fecha de actualización declarada por la fuente congelada y por qué no debe sustituirse por la fecha de descarga?"
+    }
+  ]
+}

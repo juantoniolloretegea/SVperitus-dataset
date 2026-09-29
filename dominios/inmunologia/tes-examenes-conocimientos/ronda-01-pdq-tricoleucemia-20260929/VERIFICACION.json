@@ -1,0 +1,35 @@
+{
+  "instrumento": "EVAL-PDQ-HCL-25-20260929/r1",
+  "fecha_comprobacion_utc": "2026-09-29T08:13:24Z",
+  "naturaleza": "pruebas_sinteticas_locales_del_calculo_auxiliar",
+  "lenguaje": "Rust",
+  "edicion": "2021",
+  "anfitrion": "Windows x86_64",
+  "dependencias": "biblioteca estandar; sin dependencias externas",
+  "compilacion": "rustc --edition=2021 --test evaluar.rs",
+  "resultado": {
+    "correctas": 9,
+    "fallidas": 0,
+    "omitidas": 0
+  },
+  "comprobaciones": [
+    "veto_por_error_critico_con_kappa_favorable",
+    "critico_U_sin_conversion_a_error",
+    "cinco_errores_no_criticos",
+    "frontera_del_umbral_19_y_18",
+    "rechazo_de_fallo_tecnico_como_U",
+    "dimension_y_orden",
+    "exigencia_de_referencia_de_evidencia",
+    "radios_vertices_y_referencia_de_ejecucion",
+    "escapado_JSON"
+  ],
+  "limites": [
+    "No se ha inferido con el modelo",
+    "No se ha ejecutado ni instalado en Linux o en el servidor",
+    "No se ha validado clinicamente la clave",
+    "No se ha generado un poligono de resultados del candidato",
+    "El programa exige referencias de evidencia pero no verifica su contenido ni autenticidad"
+  ],
+  "suceso": "S39",
+  "tique": "TT-0016"
+}
