@@ -76,7 +76,7 @@ Se mantienen los límites vigentes: CPU/Rust, excepciones criptográficas expres
 
 Esta convención no es una suma de puntos positivos y negativos ni una resta de errores: se conserva cada valor y se cuentan sus apariciones.
 
-## Umbral, clasificación y admisión
+## Umbral, clasificación y dictamen final
 
 La referencia doctrinal consultada fija **T(n)=⌊7n/9⌋**; no 7n/7. Para n=25, T=19.
 
@@ -85,17 +85,17 @@ Clasificación algebraica auxiliar κ:
 - APTO si N0 ≥ 19.
 - INDETERMINADO en los demás casos.
 
-Condición adicional de admisión **de este ensayo**, separada de κ:
-- Cualquier 1 crítico → NO_ADMITIDO.
-- Ningún 1 crítico, pero algún U crítico → INDETERMINADO.
-- Las 20 críticas en 0 y κ=APTO → ADMITIDO.
+Dictamen final **de este ensayo**, que incorpora la criticidad y se conserva separado de κ:
+- Cualquier 1 crítico → **No apto**.
+- Ningún 1 crítico, pero algún U crítico → **U (indeterminación honesta)**.
+- Las 20 críticas en 0 y κ=APTO → **Apto**.
 
 La exigencia de veinte críticas correctas ya implica N0≥20 y supera por sí sola el umbral de 19. Por tanto, con la distribución solicitada el umbral no añade una restricción independiente. Las cinco no críticas pueden contener 1 o U sin impedir la admisión, pero sus errores e indeterminaciones permanecen visibles. No denominarlas «sin importancia».
 
 Ejemplos aritméticos, no resultados del modelo:
-- 20 críticas correctas y 5 no críticas erróneas: κ=APTO; ADMITIDO.
-- 24 correctas y 1 crítica errónea: κ=APTO; NO_ADMITIDO.
-- 24 correctas y 1 crítica U: κ=APTO; admisión INDETERMINADA.
+- 20 críticas correctas y 5 no críticas erróneas: κ=APTO; dictamen **Apto**.
+- 24 correctas y 1 crítica errónea: κ=APTO; dictamen **No apto**.
+- 24 correctas y 1 crítica U: κ=APTO; dictamen **U**.
 
 La regla de criticidad no reescribe la ley general del SV. El programa auxiliar tampoco constituye una recepción del núcleo: su función es aplicar de manera revisable este contrato experimental a correcciones ya realizadas.
 
@@ -127,3 +127,11 @@ La referencia de ejecución debe identificar el registro que fija modelo, config
 - [Léame primero de frame y trazabilidad](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/f8577f869e9e0bed85da9b6ce7b8e7b3b2cefa52/docs/calidad/tuberias-ia/frame-significado-humano-trazabilidad-y-fidelidad/LEAME_PRIMERO.md), significado humano, constitución y vínculo con la evidencia.
 
 No se han modificado esas fuentes, los README históricos ni el mapa histórico. El README propio de esta ronda se crea por autorización expresa. El paquete se conserva en la sede autorizada del dominio; publicar la clave para su custodia no autoriza incorporarla al corpus consultable por el candidato. La documentación técnica y los resultados volverán también a la sede del modelo y a la entrega del ensayo cuando se produzcan.
+
+## Aclaración de presentación y continuidad de evaluación · 29/09/2026
+
+El campo estructurado dictamen_final utiliza APTO, NO_APTO o U, presentados al lector como Apto, No apto o U (indeterminación honesta). La clasificación algebraica auxiliar κ permanece visible como evidencia intermedia; no sustituye al dictamen del instrumento con sus condiciones críticas.
+
+El polígono se deriva del vector completo y no únicamente del dictamen final. La futura visualización egui deberá conservar identidad, revisión, orden, fundamento y vínculo con la evidencia. No se implementa egui en esta actuación.
+
+La composición de varios frames y la aptitud de conjunto necesitan un contrato del dominio todavía no definido por esta ronda. El Universo 1 es antecedente, no autorización para inventar una composición general. Un frame Apto puede pertenecer a un conjunto No apto. Ante U se prepararán nuevas preguntas dirigidas a la causa de indeterminación, con nueva identidad de ronda y sin sobrescribir resultados; las nuevas ejecuciones siguen sus autorizaciones y límites propios.

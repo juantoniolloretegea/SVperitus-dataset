@@ -1,6 +1,6 @@
 {
   "instrumento": "EVAL-PDQ-HCL-25-20260929/r1",
-  "fecha_comprobacion_utc": "2026-09-29T08:13:24Z",
+  "fecha_comprobacion_utc": "2026-09-29T08:34:52Z",
   "naturaleza": "pruebas_sinteticas_locales_del_calculo_auxiliar",
   "lenguaje": "Rust",
   "edicion": "2021",
@@ -31,5 +31,6 @@
     "El programa exige referencias de evidencia pero no verifica su contenido ni autenticidad"
   ],
   "suceso": "S39",
-  "tique": "TT-0016"
+  "tique": "TT-0016",
+  "precision_documental": "Dictamen final APTO, NO_APTO o U; presentación Apto, No apto o U (indeterminación honesta). Criterios, preguntas y radios conservados."
 }
