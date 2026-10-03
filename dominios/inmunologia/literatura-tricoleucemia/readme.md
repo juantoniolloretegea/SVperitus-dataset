@@ -37,6 +37,10 @@ La proximidad temática no convierte las fuentes en observaciones independientes
 
 La conformidad documental se limita a identificación, conservación, extracción y presentación. No demuestra vigencia terapéutica, exactitud clínica de todas las afirmaciones ni capacidad de un sistema para aplicarlas a un caso. La lectura ordinaria de estas dos copias puede realizarse mediante HTML y texto estructurado; su preparación no incorpora un lector PDF al recorrido del SV ni modifica sus componentes.
 
+## Capacidad de lectura PDF mediante MCP
+
+Se ha preparado y comprobado en Rust una [capacidad de lectura PDF integrada en el servicio documental MCP](LECTURA-PDF-MCP.md), conservada en su sede general con código y evidencias. Permite consultar el texto del original mediante las herramientas documentales existentes. Esta capacidad está comprobada localmente y no se ha instalado en el servidor ni utilizado en inferencia.
+
 ## Autoría, atribución y condiciones de uso
 
 El texto y los elementos de terceros conservan sus autores y condiciones originales. Para la fuente NCI se mantienen la atribución, el enlace al original y sus [condiciones de reutilización](https://www.cancer.gov/espanol/politicas/derechos-de-autor-y-uso). El PDF y su conversión conservan la atribución a LLS. La licencia de esta organización documental no se extiende a contenidos ajenos ni sustituye sus condiciones.
