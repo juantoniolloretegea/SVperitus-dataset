@@ -1,0 +1,87 @@
+{
+  "esquema": "custodia-documental/1",
+  "fecha_utc": "2026-10-03T18:06:30.864800+00:00",
+  "archivos": [
+    {
+      "ruta": "cotejo.json",
+      "bytes": 4450,
+      "sha256": "cc29fe8f63f386e33d807826ad5bca0aa5912d5518f11876958f21803e962177"
+    },
+    {
+      "ruta": "documento.json",
+      "bytes": 238275,
+      "sha256": "81613ff96e7b3ac39faea041295bbbfcb5013d40f1b98ffc48fee0702f114f01"
+    },
+    {
+      "ruta": "estilo.css",
+      "bytes": 3995,
+      "sha256": "59560e75138fc15557535d64e68a557c09f6213878a7d336814551bb6ccca0e5"
+    },
+    {
+      "ruta": "ficha.json",
+      "bytes": 2041,
+      "sha256": "3850850fea68afe9d262f9ea5394efe8323c5b45114c8d6f08f48e4bc7397be3"
+    },
+    {
+      "ruta": "index.html",
+      "bytes": 112075,
+      "sha256": "9e6a93517b0162c99563849df933ee3b136c0c13e9f2f2f9d283b0f2ff50167c"
+    },
+    {
+      "ruta": "original/hairy-cell-leukemia.pdf",
+      "bytes": 157315,
+      "sha256": "21322ed388c999bd0713ba5ec5c7ab34402d4bb4cd6100903aa5ea6d8bf35d9c"
+    },
+    {
+      "ruta": "paginas/pagina-01.png",
+      "bytes": 317442,
+      "sha256": "e53b99506d97291accf7da198d83b3ddff59a2cb0a86bc40f6a1653dda31cd40"
+    },
+    {
+      "ruta": "paginas/pagina-02.png",
+      "bytes": 266970,
+      "sha256": "a3c73eaa6f811bfa0e9be61a79152a035698034d342fed41b7f52ad12c11b467"
+    },
+    {
+      "ruta": "paginas/pagina-03.png",
+      "bytes": 277781,
+      "sha256": "c5c4462a3d68b79264eec10a03aa91bd839162b46a1a7d265c8df1c8af487010"
+    },
+    {
+      "ruta": "paginas/pagina-04.png",
+      "bytes": 274770,
+      "sha256": "7f94f5af7aad0b0ba48649d4d888fc43c0a93171828d243975b8bd90c3c7fd3a"
+    },
+    {
+      "ruta": "paginas/pagina-05.png",
+      "bytes": 277418,
+      "sha256": "e9f47c7759a743611e2fb962dd62614d1adeed4f7e111643515f24c7d1ce3dd4"
+    },
+    {
+      "ruta": "paginas/pagina-06.png",
+      "bytes": 302108,
+      "sha256": "c5a1b773efb25c659a711788d9c271c86e2d93df573247ccf297617d43b49aae"
+    },
+    {
+      "ruta": "paginas/pagina-07.png",
+      "bytes": 301244,
+      "sha256": "3644c08d5eb2fc094491600c5549734c1df4061a370f1d66007bcb3dae765573"
+    },
+    {
+      "ruta": "paginas/pagina-08.png",
+      "bytes": 278182,
+      "sha256": "b466afa2cd51e85c862f743d99ad03ac289607f64e4199da33af0979eb80aa91"
+    },
+    {
+      "ruta": "paginas/pagina-09.png",
+      "bytes": 321572,
+      "sha256": "12adbee748a639a6a0f323250542ddb28bbd7155e854efabc28a387d2ea840ca"
+    },
+    {
+      "ruta": "paginas/pagina-10.png",
+      "bytes": 299766,
+      "sha256": "15458736cf08a139134b6d6d47f897b7b74cc088928208537dcb0fed7a7ccb8a"
+    }
+  ],
+  "autoria_licencia_edicion": "© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)."
+}

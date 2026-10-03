@@ -1,0 +1,347 @@
+{
+  "conforme": true,
+  "alcance": "Igualdad del texto íntegro del artículo tras normalizar exclusivamente espacios; preservación de cinco secciones, títulos, listas, bibliografía y notas; comprobación de destinos de enlaces internos.",
+  "caracteres_texto_normalizado": 30149,
+  "sha256_texto_normalizado": "ec26847d41415c6b20b396aa1172c0e07534d13b09759fee48aaedb476ba766d",
+  "enlaces_internos_comprobados": 84,
+  "ajustes_de_enlaces": [
+    {
+      "original": "/espanol/tipos/leucemia/paciente/tratamiento-celulas-pilosas-pdq",
+      "local": "https://www.cancer.gov/espanol/tipos/leucemia/paciente/tratamiento-celulas-pilosas-pdq"
+    },
+    {
+      "original": "#cit/section_1.1",
+      "local": "#section_1.1"
+    },
+    {
+      "original": "#cit/section_1.2",
+      "local": "#section_1.2"
+    },
+    {
+      "original": "#cit/section_1.3",
+      "local": "#section_1.3"
+    },
+    {
+      "original": "#cit/section_1.4",
+      "local": "#section_1.4"
+    },
+    {
+      "original": "#cit/section_1.5",
+      "local": "#section_1.5"
+    },
+    {
+      "original": "#cit/section_1.5",
+      "local": "#section_1.5"
+    },
+    {
+      "original": "#cit/section_1.6",
+      "local": "#section_1.6"
+    },
+    {
+      "original": "#cit/section_3.1",
+      "local": "#section_3.1"
+    },
+    {
+      "original": "/espanol/tipos/leucemia/pro/tratamiento-celulas-pilosas-pdq#_256",
+      "local": "#_256"
+    },
+    {
+      "original": "/espanol/tipos/leucemia/pro/tratamiento-celulas-pilosas-pdq#_258",
+      "local": "#_258"
+    },
+    {
+      "original": "/espanol/tipos/leucemia/pro/tratamiento-celulas-pilosas-pdq#_279",
+      "local": "#_279"
+    },
+    {
+      "original": "/espanol/tipos/leucemia/pro/tratamiento-celulas-pilosas-pdq#_289",
+      "local": "#_289"
+    },
+    {
+      "original": "/espanol/tipos/leucemia/pro/tratamiento-celulas-pilosas-pdq#_324",
+      "local": "#_324"
+    },
+    {
+      "original": "/espanol/tipos/leucemia/pro/tratamiento-celulas-pilosas-pdq#_294",
+      "local": "#_294"
+    },
+    {
+      "original": "/espanol/tipos/leucemia/pro/tratamiento-celulas-pilosas-pdq#_350",
+      "local": "#_350"
+    },
+    {
+      "original": "/espanol/tipos/leucemia/pro/tratamiento-celulas-pilosas-pdq#_296",
+      "local": "#_296"
+    },
+    {
+      "original": "#cit/section_3.2",
+      "local": "#section_3.2"
+    },
+    {
+      "original": "#cit/section_3.4",
+      "local": "#section_3.4"
+    },
+    {
+      "original": "#cit/section_3.5",
+      "local": "#section_3.5"
+    },
+    {
+      "original": "#cit/section_3.6",
+      "local": "#section_3.6"
+    },
+    {
+      "original": "/Common/PopUps/popDefinition.aspx?id=810039&version=HealthProfessional&language=Spanish",
+      "local": "https://www.cancer.gov/Common/PopUps/popDefinition.aspx?id=810039&version=HealthProfessional&language=Spanish"
+    },
+    {
+      "original": "#cit/section_3.4",
+      "local": "#section_3.4"
+    },
+    {
+      "original": "#cit/section_3.7",
+      "local": "#section_3.7"
+    },
+    {
+      "original": "#cit/section_3.10",
+      "local": "#section_3.10"
+    },
+    {
+      "original": "#cit/section_3.11",
+      "local": "#section_3.11"
+    },
+    {
+      "original": "#cit/section_3.12",
+      "local": "#section_3.12"
+    },
+    {
+      "original": "#cit/section_3.13",
+      "local": "#section_3.13"
+    },
+    {
+      "original": "#cit/section_3.11",
+      "local": "#section_3.11"
+    },
+    {
+      "original": "#cit/section_3.14",
+      "local": "#section_3.14"
+    },
+    {
+      "original": "#cit/section_3.15",
+      "local": "#section_3.15"
+    },
+    {
+      "original": "/Common/PopUps/popDefinition.aspx?id=810039&version=HealthProfessional&language=Spanish",
+      "local": "https://www.cancer.gov/Common/PopUps/popDefinition.aspx?id=810039&version=HealthProfessional&language=Spanish"
+    },
+    {
+      "original": "#cit/section_3.16",
+      "local": "#section_3.16"
+    },
+    {
+      "original": "/Common/PopUps/popDefinition.aspx?id=810039&version=HealthProfessional&language=Spanish",
+      "local": "https://www.cancer.gov/Common/PopUps/popDefinition.aspx?id=810039&version=HealthProfessional&language=Spanish"
+    },
+    {
+      "original": "#cit/section_3.10",
+      "local": "#section_3.10"
+    },
+    {
+      "original": "#cit/section_3.15",
+      "local": "#section_3.15"
+    },
+    {
+      "original": "#cit/section_3.7",
+      "local": "#section_3.7"
+    },
+    {
+      "original": "#cit/section_3.8",
+      "local": "#section_3.8"
+    },
+    {
+      "original": "#cit/section_3.10",
+      "local": "#section_3.10"
+    },
+    {
+      "original": "#cit/section_3.17",
+      "local": "#section_3.17"
+    },
+    {
+      "original": "/Common/PopUps/popDefinition.aspx?id=810039&version=HealthProfessional&language=Spanish",
+      "local": "https://www.cancer.gov/Common/PopUps/popDefinition.aspx?id=810039&version=HealthProfessional&language=Spanish"
+    },
+    {
+      "original": "#cit/section_3.7",
+      "local": "#section_3.7"
+    },
+    {
+      "original": "#cit/section_3.8",
+      "local": "#section_3.8"
+    },
+    {
+      "original": "#cit/section_3.17",
+      "local": "#section_3.17"
+    },
+    {
+      "original": "/Common/PopUps/popDefinition.aspx?id=810039&version=HealthProfessional&language=Spanish",
+      "local": "https://www.cancer.gov/Common/PopUps/popDefinition.aspx?id=810039&version=HealthProfessional&language=Spanish"
+    },
+    {
+      "original": "#cit/section_3.17",
+      "local": "#section_3.17"
+    },
+    {
+      "original": "/Common/PopUps/popDefinition.aspx?id=810037&version=HealthProfessional&language=Spanish",
+      "local": "https://www.cancer.gov/Common/PopUps/popDefinition.aspx?id=810037&version=HealthProfessional&language=Spanish"
+    },
+    {
+      "original": "#cit/section_3.10",
+      "local": "#section_3.10"
+    },
+    {
+      "original": "/Common/PopUps/popDefinition.aspx?id=810039&version=HealthProfessional&language=Spanish",
+      "local": "https://www.cancer.gov/Common/PopUps/popDefinition.aspx?id=810039&version=HealthProfessional&language=Spanish"
+    },
+    {
+      "original": "#cit/section_3.18",
+      "local": "#section_3.18"
+    },
+    {
+      "original": "#cit/section_3.18",
+      "local": "#section_3.18"
+    },
+    {
+      "original": "/Common/PopUps/popDefinition.aspx?id=810035&version=HealthProfessional&language=Spanish",
+      "local": "https://www.cancer.gov/Common/PopUps/popDefinition.aspx?id=810035&version=HealthProfessional&language=Spanish"
+    },
+    {
+      "original": "#cit/section_3.4",
+      "local": "#section_3.4"
+    },
+    {
+      "original": "/Common/PopUps/popDefinition.aspx?id=810039&version=HealthProfessional&language=Spanish",
+      "local": "https://www.cancer.gov/Common/PopUps/popDefinition.aspx?id=810039&version=HealthProfessional&language=Spanish"
+    },
+    {
+      "original": "#cit/section_3.19",
+      "local": "#section_3.19"
+    },
+    {
+      "original": "/Common/PopUps/popDefinition.aspx?id=810037&version=HealthProfessional&language=Spanish",
+      "local": "https://www.cancer.gov/Common/PopUps/popDefinition.aspx?id=810037&version=HealthProfessional&language=Spanish"
+    },
+    {
+      "original": "#cit/section_3.20",
+      "local": "#section_3.20"
+    },
+    {
+      "original": "/Common/PopUps/popDefinition.aspx?id=810037&version=HealthProfessional&language=Spanish",
+      "local": "https://www.cancer.gov/Common/PopUps/popDefinition.aspx?id=810037&version=HealthProfessional&language=Spanish"
+    },
+    {
+      "original": "#cit/section_3.5",
+      "local": "#section_3.5"
+    },
+    {
+      "original": "#cit/section_3.21",
+      "local": "#section_3.21"
+    },
+    {
+      "original": "#cit/section_3.23",
+      "local": "#section_3.23"
+    },
+    {
+      "original": "/Common/PopUps/popDefinition.aspx?id=810039&version=HealthProfessional&language=Spanish",
+      "local": "https://www.cancer.gov/Common/PopUps/popDefinition.aspx?id=810039&version=HealthProfessional&language=Spanish"
+    },
+    {
+      "original": "#cit/section_3.24",
+      "local": "#section_3.24"
+    },
+    {
+      "original": "#cit/section_3.2",
+      "local": "#section_3.2"
+    },
+    {
+      "original": "#cit/section_3.19",
+      "local": "#section_3.19"
+    },
+    {
+      "original": "#cit/section_3.25",
+      "local": "#section_3.25"
+    },
+    {
+      "original": "#cit/section_3.2",
+      "local": "#section_3.2"
+    },
+    {
+      "original": "#cit/section_3.3",
+      "local": "#section_3.3"
+    },
+    {
+      "original": "#cit/section_3.26",
+      "local": "#section_3.26"
+    },
+    {
+      "original": "#cit/section_3.27",
+      "local": "#section_3.27"
+    },
+    {
+      "original": "#cit/section_3.28",
+      "local": "#section_3.28"
+    },
+    {
+      "original": "#cit/section_3.26",
+      "local": "#section_3.26"
+    },
+    {
+      "original": "#cit/section_3.29",
+      "local": "#section_3.29"
+    },
+    {
+      "original": "/Common/PopUps/popDefinition.aspx?id=810039&version=HealthProfessional&language=Spanish",
+      "local": "https://www.cancer.gov/Common/PopUps/popDefinition.aspx?id=810039&version=HealthProfessional&language=Spanish"
+    },
+    {
+      "original": "#cit/section_3.19",
+      "local": "#section_3.19"
+    },
+    {
+      "original": "/Common/PopUps/popDefinition.aspx?id=810039&version=HealthProfessional&language=Spanish",
+      "local": "https://www.cancer.gov/Common/PopUps/popDefinition.aspx?id=810039&version=HealthProfessional&language=Spanish"
+    },
+    {
+      "original": "#cit/section_3.30",
+      "local": "#section_3.30"
+    },
+    {
+      "original": "#cit/section_3.30",
+      "local": "#section_3.30"
+    },
+    {
+      "original": "/Common/PopUps/popDefinition.aspx?id=810039&version=HealthProfessional&language=Spanish",
+      "local": "https://www.cancer.gov/Common/PopUps/popDefinition.aspx?id=810039&version=HealthProfessional&language=Spanish"
+    },
+    {
+      "original": "#cit/section_3.31",
+      "local": "#section_3.31"
+    },
+    {
+      "original": "/espanol/tipos/leucemia/pro/tratamiento-celulas-pilosas-pdq#_AboutThis_1",
+      "local": "#_AboutThis_1"
+    },
+    {
+      "original": "/espanol/publicaciones/pdq/niveles-de-evidencia/tratamiento",
+      "local": "https://www.cancer.gov/espanol/publicaciones/pdq/niveles-de-evidencia/tratamiento"
+    },
+    {
+      "original": "/espanol/politicas/derechos-de-autor-y-uso",
+      "local": "https://www.cancer.gov/espanol/politicas/derechos-de-autor-y-uso"
+    },
+    {
+      "original": "/espanol/sindicacion",
+      "local": "https://www.cancer.gov/espanol/sindicacion"
+    }
+  ],
+  "recursos_remotos_necesarios_para_leer_index": 0,
+  "autoria_licencia_edicion": "© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)."
+}

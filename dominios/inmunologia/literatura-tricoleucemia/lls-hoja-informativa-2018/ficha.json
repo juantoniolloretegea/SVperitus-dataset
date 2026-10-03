@@ -1,0 +1,25 @@
+{
+  "esquema": "procedencia-documental/1",
+  "titulo": "Leucemia de células peludas",
+  "entidad": "Sociedad de Lucha contra la Leucemia y el Linfoma (LLS)",
+  "origen_efectivo": "Archivo PDF aportado para su conversión",
+  "nombre_original": "hairy-cell-leukemia.pdf",
+  "url_editor_identificada": "https://www.lls.org/sites/default/files/file_assets/FS16S_SP_HCL_Facts_2018.pdf",
+  "cotejo_binario_con_descarga_del_editor": "No realizado: el servidor del editor rechazó la descarga automatizada. Se utiliza y conserva exclusivamente el archivo aportado.",
+  "fecha_edicion_declarada": "2018-08",
+  "evidencia_fecha": "FS16S 8/18, página impresa 10",
+  "fecha_preparacion_utc": "2026-10-03T18:06:30.864800+00:00",
+  "idioma": "es",
+  "destinatarios": "Pacientes, cuidadores y profesionales médicos",
+  "original": "original/hairy-cell-leukemia.pdf",
+  "original_bytes": 157315,
+  "original_sha256": "21322ed388c999bd0713ba5ec5c7ab34402d4bb4cd6100903aa5ea6d8bf35d9c",
+  "paginas": 10,
+  "metodo": "Extracción de caracteres y posiciones de la capa de texto; orden de columnas; conversión tipográfica declarada de viñetas; agrupación de líneas sin corrección clínica ni lingüística. Sin OCR. Reproducciones de página obtenidas del mismo PDF.",
+  "normalizacion_vinetas": {
+    "Wingdings2 y": "•",
+    "Wingdings2 {": "○"
+  },
+  "limitaciones": "Las comprobaciones de caracteres no demuestran por sí solas fidelidad semántica o actualidad clínica. Los elementos vectoriales sin texto, incluidos logotipos, se conservan en el PDF y las reproducciones visuales. Los saltos de columna y página se mantienen localizables.",
+  "autoria_licencia_edicion": "© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)."
+}

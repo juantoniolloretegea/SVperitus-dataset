@@ -1,0 +1,37 @@
+{
+  "esquema": "custodia-documental/1",
+  "fecha_utc": "2026-10-03T18:06:30.864800+00:00",
+  "archivos": [
+    {
+      "ruta": "cotejo.json",
+      "bytes": 11344,
+      "sha256": "3f0f3119e4e5bd736ac5b5c970db7df990e5218400fcdd591043a466aad68324"
+    },
+    {
+      "ruta": "documento.json",
+      "bytes": 62719,
+      "sha256": "adb42901326c613d26a6100478861ec97e4091e9309004ee2e58384843102446"
+    },
+    {
+      "ruta": "estilo.css",
+      "bytes": 3995,
+      "sha256": "59560e75138fc15557535d64e68a557c09f6213878a7d336814551bb6ccca0e5"
+    },
+    {
+      "ruta": "ficha.json",
+      "bytes": 1501,
+      "sha256": "63e6077690afcaeb968ee0f30a8564ebfeea25fe2c955a32b391f3b04404d6c5"
+    },
+    {
+      "ruta": "index.html",
+      "bytes": 63738,
+      "sha256": "ae8df8bb4815ffebeb22e206caedafaa07dd50f690571ee69e3432ea67e47068"
+    },
+    {
+      "ruta": "original/pagina.html",
+      "bytes": 88147,
+      "sha256": "1f259031777d222c2b8e5ae1b14ee3a5b548dab0c5dfbe36e4b84a9b511b7df1"
+    }
+  ],
+  "autoria_licencia_edicion": "© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)."
+}

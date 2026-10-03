@@ -1,0 +1,34 @@
+:root{color-scheme:light;--ink:#18312e;--accent:#146d63;--rule:#cadbd7;--muted:#526963}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:1.3rem}
+body{margin:0;color:var(--ink);background:#f4f7f6;font:17px/1.65 Georgia,"Times New Roman",serif}
+a{color:#086458;text-decoration-thickness:1px;text-underline-offset:3px;overflow-wrap:anywhere}
+a:hover{color:#00382e}a:focus-visible,summary:focus-visible{outline:3px solid #cb7d32;outline-offset:4px}
+.cabecera,.marco,.pie-edicion{max-width:1250px;margin:auto;padding:2rem 2.5rem}
+.cabecera{padding-top:2.7rem;padding-bottom:1.6rem;border-bottom:1px solid var(--rule)}
+.ruta,.etiqueta,.metadatos,.acciones,.indice,.pagina-cabecera,.detalle,.pie-edicion{font-family:system-ui,sans-serif}
+.ruta{font-size:.82rem;display:flex;flex-wrap:wrap;gap:.4rem 1.1rem;margin-bottom:1.6rem}
+.etiqueta{font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.13em;color:var(--accent)}
+h1{font-size:clamp(1.85rem,3.1vw,2.7rem);line-height:1.2;font-weight:500;max-width:29ch;margin:.6rem 0 1rem}
+.metadatos{display:flex;flex-wrap:wrap;gap:.5rem 1.6rem;font-size:.87rem;color:var(--muted)}
+.nota{max-width:86ch;font-size:.94rem;margin:1rem 0}.acciones{display:flex;flex-wrap:wrap;gap:1.3rem;font-size:.88rem}
+.marco{display:grid;grid-template-columns:240px minmax(0,1fr);gap:3rem;padding-top:2rem}
+.indice{align-self:start;position:sticky;top:1rem;font-size:.84rem;max-height:93vh;overflow:auto}
+.indice h2{font:600 1rem/1.3 system-ui,sans-serif;margin-top:0}.indice ul{list-style:none;padding:0}.indice li{margin:.6rem 0}.indice a{color:var(--muted)}
+main{min-width:0;background:white;border:1px solid #e0e8e5;border-radius:4px;padding:2rem 2.6rem}
+article h1{font-size:1.5rem;max-width:unset;margin-top:0}
+h2{font-size:1.5rem;line-height:1.35;margin:2.2rem 0 1rem}h3{font-size:1.17rem;line-height:1.4;margin:1.7rem 0 .8rem}h4{font-size:1.08rem}h6{font-size:1rem;margin:1.3rem 0 .6rem}
+p{margin:.6rem 0 1rem}li{margin:.45rem 0}ol,ul{padding-left:1.55rem}section{scroll-margin-top:1rem}
+.sup{vertical-align:super;font-size:.8em}.sub{vertical-align:sub;font-size:.8em}
+.on-this-page,.in-this-section{background:#f5f8f7;border-left:3px solid var(--rule);padding:.8rem 1rem;font-size:.88rem;font-family:system-ui,sans-serif}
+.on-this-page__header{font-weight:700}.pdq-hp-patient-toggle{font: .85rem system-ui,sans-serif;margin:1rem 0}
+.article-footer{border-top:1px solid var(--rule);font-size:.85rem;margin-top:2rem;padding-top:1rem}
+.cgdp-hhs-syndication svg{display:none}.pagina{border-bottom:1px solid var(--rule);padding-bottom:1.5rem;margin-bottom:2rem}.pagina:last-child{border:0}
+.pagina-cabecera{font-size:.86rem;background:#eaf2ef;padding:.7rem 1rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.fuente-cabecera,.fuente-pie{color:var(--muted);font-size:.86rem}.fuente-pie{border-top:1px dotted var(--rule);padding-top:.6rem}
+.fuente-titulo{color:var(--accent)}.fuente-bloque{white-space:normal;overflow-wrap:anywhere}.vineta{padding-left:1.3rem;text-indent:-1rem}
+details{font: .88rem/1.5 system-ui,sans-serif;background:#f4f7f6;padding:.85rem 1rem;margin:1.3rem 0}summary{cursor:pointer;color:var(--accent);font-weight:600}
+.facsimil{width:100%;height:auto;display:block;margin-top:1rem;border:1px solid var(--rule)}
+.pie-edicion{font-size:.76rem;color:var(--muted);border-top:1px solid var(--rule);margin-top:1rem}.pie-edicion p{max-width:120ch}
+@media(max-width:850px){.marco{display:block}.indice{position:static;max-height:none;margin-bottom:1.5rem}.indice ul{columns:2;column-gap:2rem}.cabecera,.marco,.pie-edicion{padding:1.3rem}main{padding:1.3rem}body{font-size:16px}}
+@media(max-width:520px){.indice ul{columns:1}}
+@media print{body{background:white;font-size:11pt}.marco{display:block;padding:0}.indice,.ruta,.acciones,details{display:none}.cabecera,.pie-edicion,main{padding:0;border:0}.pagina{break-before:page}a{color:inherit}h2,h3{break-after:avoid}}

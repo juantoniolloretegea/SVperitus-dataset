@@ -1,0 +1,119 @@
+{
+  "conforme": true,
+  "alcance": "Cobertura de los caracteres de la capa de texto de cada página, normalización declarada de espacios y viñetas, identidad entre bloques de HTML y texto estructurado, diez reproducciones visuales del original. No constituye revisión médica.",
+  "original_pdf_sha256": "21322ed388c999bd0713ba5ec5c7ab34402d4bb4cd6100903aa5ea6d8bf35d9c",
+  "paginas": [
+    {
+      "pagina_indice": 0,
+      "pagina_impresa": 1,
+      "caracteres_pdf": 4186,
+      "caracteres_no_blancos_cotejados": 3533,
+      "caracteres_omitidos": 0,
+      "caracteres_duplicados": 0,
+      "caracteres_sin_mapa": 0,
+      "bloques": 15,
+      "sha256_texto": "981bb4c8695f219a59eea564d5c98b42e44ade5c1f1a99860bac3ac30ae28243"
+    },
+    {
+      "pagina_indice": 1,
+      "pagina_impresa": 2,
+      "caracteres_pdf": 4304,
+      "caracteres_no_blancos_cotejados": 3644,
+      "caracteres_omitidos": 0,
+      "caracteres_duplicados": 0,
+      "caracteres_sin_mapa": 0,
+      "bloques": 22,
+      "sha256_texto": "4c49202373a532ec3304da86a47ee790c9b39a407501ef28bbb8d91fe8ac9113"
+    },
+    {
+      "pagina_indice": 2,
+      "pagina_impresa": 3,
+      "caracteres_pdf": 4476,
+      "caracteres_no_blancos_cotejados": 3781,
+      "caracteres_omitidos": 0,
+      "caracteres_duplicados": 0,
+      "caracteres_sin_mapa": 0,
+      "bloques": 17,
+      "sha256_texto": "faa2baa5597859f7bada71b2b4e5ea670f4b88aecaa64427d30f3870f976553c"
+    },
+    {
+      "pagina_indice": 3,
+      "pagina_impresa": 4,
+      "caracteres_pdf": 4376,
+      "caracteres_no_blancos_cotejados": 3711,
+      "caracteres_omitidos": 0,
+      "caracteres_duplicados": 0,
+      "caracteres_sin_mapa": 0,
+      "bloques": 18,
+      "sha256_texto": "3f540558d6b1423326fa027f4826db097bbbc7ee3ddd64002a36b7259be46aa8"
+    },
+    {
+      "pagina_indice": 4,
+      "pagina_impresa": 5,
+      "caracteres_pdf": 4816,
+      "caracteres_no_blancos_cotejados": 4089,
+      "caracteres_omitidos": 0,
+      "caracteres_duplicados": 0,
+      "caracteres_sin_mapa": 0,
+      "bloques": 19,
+      "sha256_texto": "4223f377325305cee1263fec8d869f255c4a87d69c5cac4aa3cd20020f79b54e"
+    },
+    {
+      "pagina_indice": 5,
+      "pagina_impresa": 6,
+      "caracteres_pdf": 4414,
+      "caracteres_no_blancos_cotejados": 3755,
+      "caracteres_omitidos": 0,
+      "caracteres_duplicados": 0,
+      "caracteres_sin_mapa": 0,
+      "bloques": 23,
+      "sha256_texto": "295cf036066aba7e2bd25ead943b0db82050e3ae6bf6a8b75ff8d44e5188ac5d"
+    },
+    {
+      "pagina_indice": 6,
+      "pagina_impresa": 7,
+      "caracteres_pdf": 4654,
+      "caracteres_no_blancos_cotejados": 3952,
+      "caracteres_omitidos": 0,
+      "caracteres_duplicados": 0,
+      "caracteres_sin_mapa": 0,
+      "bloques": 10,
+      "sha256_texto": "02bd255f9a26693ee3b89db7d8acb73d9b9ee8ede449699b854032ea7dff99a8"
+    },
+    {
+      "pagina_indice": 7,
+      "pagina_impresa": 8,
+      "caracteres_pdf": 4167,
+      "caracteres_no_blancos_cotejados": 3554,
+      "caracteres_omitidos": 0,
+      "caracteres_duplicados": 0,
+      "caracteres_sin_mapa": 0,
+      "bloques": 23,
+      "sha256_texto": "85f56c0eab757b2bdc232e3ba74b7062b6926af3b7951b70ffb6e4248bcc6327"
+    },
+    {
+      "pagina_indice": 8,
+      "pagina_impresa": 9,
+      "caracteres_pdf": 4793,
+      "caracteres_no_blancos_cotejados": 4091,
+      "caracteres_omitidos": 0,
+      "caracteres_duplicados": 0,
+      "caracteres_sin_mapa": 0,
+      "bloques": 19,
+      "sha256_texto": "70542bda1e08d605175383559cd88d1d3b7e492dbc5f2f0e849925ebb77f56a1"
+    },
+    {
+      "pagina_indice": 9,
+      "pagina_impresa": 10,
+      "caracteres_pdf": 4262,
+      "caracteres_no_blancos_cotejados": 3666,
+      "caracteres_omitidos": 0,
+      "caracteres_duplicados": 0,
+      "caracteres_sin_mapa": 0,
+      "bloques": 25,
+      "sha256_texto": "385ab810c7e56eb5debc2d93d00e481c8a8ecedc5fb33f69fbbdd67709c996e9"
+    }
+  ],
+  "recursos_remotos_necesarios_para_leer_index": 0,
+  "autoria_licencia_edicion": "© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)."
+}
