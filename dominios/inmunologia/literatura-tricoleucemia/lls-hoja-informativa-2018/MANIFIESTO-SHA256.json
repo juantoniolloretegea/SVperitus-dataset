@@ -19,8 +19,8 @@
     },
     {
       "ruta": "ficha.json",
-      "bytes": 2041,
-      "sha256": "3850850fea68afe9d262f9ea5394efe8323c5b45114c8d6f08f48e4bc7397be3"
+      "bytes": 2405,
+      "sha256": "5c6372d104b84f3584599c20ac4d2090637377256e65ecdeed68a73e7bb9ba09"
     },
     {
       "ruta": "index.html",
@@ -83,5 +83,6 @@
       "sha256": "15458736cf08a139134b6d6d47f897b7b74cc088928208537dcb0fed7a7ccb8a"
     }
   ],
-  "autoria_licencia_edicion": "© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)."
+  "autoria_licencia_edicion": "© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).",
+  "fecha_rectificacion_utc": "2026-10-03T18:30:10.758042+00:00"
 }
