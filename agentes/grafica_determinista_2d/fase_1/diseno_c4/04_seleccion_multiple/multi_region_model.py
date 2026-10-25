@@ -287,3 +287,8 @@ if __name__ == "__main__":
     model.update_status("RGN-003", RegionStatus.DONE, pk_post={"P12":"0","P17":"0","P18":"0"}, gate_decision="CLOSE")
     print(f"  Estado global: {model.global_status}")
     print(f"  pk_post consolidado: {model.consolidated_pk_state()}")
+
+
+# SPDX-License-Identifier: CC-BY-NC-ND-4.0
+# © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+# https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.es
