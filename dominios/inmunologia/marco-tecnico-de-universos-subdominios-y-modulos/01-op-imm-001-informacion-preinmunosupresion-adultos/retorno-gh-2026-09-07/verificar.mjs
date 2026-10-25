@@ -102,3 +102,8 @@ assert.deepEqual(observer.observe(observer.encode({...domain[0].packet,foreign:t
 assert(!Object.hasOwn(observer.observe(Buffer.from('{'),domain),'tri'));
 const report={schema:'EVIDENCIA-GH/1',execution:'OBSERVADOR_DOCUMENTAL_EXTERNO',clinical_execution:false,environment:{node:process.version,platform:process.platform,arch:process.arch},inputs:['fuentes.json','contraste.json','testigos.json','verificar.mjs'].map(n=>({file:n,bytes:bytes(n).length,sha256:hash(bytes(n))})),cuts:{imm:f.input_imm.commit,lsv:f.input_lsv.commit},identity:{verified_sources:f.sources.length,git_blobs_and_sha256:'COINCIDEN',g10:15,lsv:44,links:81,lsv_without_exclusive_parent:11,parameters:27,groups:[6,1,3,2,6,9]},f_if:{...received.totals,evidence_sha256:hash(Buffer.from(observer.pretty(received))),unchanged_expected:'COINCIDE_BYTE_A_BYTE'},documentary:{pairs:8,states:16,positive_recoveries:16,loss_witnesses:8,loss_rejections:16,positive_controls_after_reduction:16,invalid_capture_and_non_admission_controls:2,negative_mutations:attacks.length,results:outcomes,attacks},specified:w.specified.map(s=>({id:s.id,status:s.status})),verdict:'FIDELIDAD_Y_PERDIDAS_DOCUMENTALES_ACOTADAS; SUFICIENCIA_Q0_NO_ACREDITADA',req_011:'U_NO_DECIDIDO'};
 process.stdout.write(JSON.stringify(report,null,2)+'\n');
+
+
+// SPDX-License-Identifier: CC-BY-NC-ND-4.0
+// © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+// https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.es

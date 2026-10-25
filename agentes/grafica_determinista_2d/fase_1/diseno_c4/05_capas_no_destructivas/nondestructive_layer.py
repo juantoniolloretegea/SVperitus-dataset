@@ -315,3 +315,8 @@ if __name__ == "__main__":
 
     print("=== EXECUTOR SPEC (lo que recibe la herramienta externa) ===")
     print(json.dumps(spec.to_executor_spec(), indent=2, ensure_ascii=False))
+
+
+# SPDX-License-Identifier: CC-BY-NC-ND-4.0
+# © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+# https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.es

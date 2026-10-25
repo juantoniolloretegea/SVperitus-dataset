@@ -82,3 +82,7 @@ fn main()->io::Result<()> {
     #[test] fn radios_y_vertices(){assert_eq!(punto(0,'0'),(1.,0.));assert_eq!(punto(0,'1'),(2.,0.));assert_eq!(punto(0,'U'),(3.,0.));let(f,s)=resultados(&leer(&entrada(&['0';25])).unwrap(),"SINTETICO-NO-INFERENCIA");assert_eq!(f.matches("\"id\":").count(),25);assert!(f.contains("SINTETICO-NO-INFERENCIA"));assert_eq!(s.matches("<polygon ").count(),1);assert_eq!(s.matches("* Posición crítica").count(),1);}
     #[test] fn escapar_datos(){assert_eq!(json("a\"\\\n"),"\"a\\\"\\\\\\n\"");}
 }
+
+// SPDX-License-Identifier: CC-BY-NC-ND-4.0
+// © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+// https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.es

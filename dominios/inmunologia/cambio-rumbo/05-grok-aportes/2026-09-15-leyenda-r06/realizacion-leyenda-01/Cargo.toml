@@ -13,3 +13,8 @@ license = "LicenseRef-SV-experimental"
 png = "0.17.16"
 # Rasterizador de glifos distinto de resvg 0.48.1. Comparte el TTF contratado.
 fontdue = "0.9.3"
+
+
+# SPDX-License-Identifier: CC-BY-NC-ND-4.0
+# © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+# https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.es

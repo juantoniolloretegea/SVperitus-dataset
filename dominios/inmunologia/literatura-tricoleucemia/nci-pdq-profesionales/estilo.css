@@ -32,3 +32,8 @@ details{font: .88rem/1.5 system-ui,sans-serif;background:#f4f7f6;padding:.85rem 
 @media(max-width:850px){.marco{display:block}.indice{position:static;max-height:none;margin-bottom:1.5rem}.indice ul{columns:2;column-gap:2rem}.cabecera,.marco,.pie-edicion{padding:1.3rem}main{padding:1.3rem}body{font-size:16px}}
 @media(max-width:520px){.indice ul{columns:1}}
 @media print{body{background:white;font-size:11pt}.marco{display:block;padding:0}.indice,.ruta,.acciones,details{display:none}.cabecera,.pie-edicion,main{padding:0;border:0}.pagina{break-before:page}a{color:inherit}h2,h3{break-after:avoid}}
+
+
+/* SPDX-License-Identifier: CC-BY-NC-ND-4.0
+© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.es */
