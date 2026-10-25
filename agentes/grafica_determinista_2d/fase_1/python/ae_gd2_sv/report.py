@@ -258,3 +258,8 @@ def write_bundle(out_dir: Path, mode: str = 'correct') -> dict:
     (out_dir / 'validator_log.jsonl').write_text(json.dumps({'state':'VALIDATED','dictamen_k3': report['dictamen_global'], 'timestamp_utc':'2026-04-14T00:00:04Z'}, ensure_ascii=False) + '\n', encoding='utf-8')
     (out_dir / 'execution_log.jsonl').write_text(events_jsonl(events), encoding='utf-8')
     return report
+
+
+# SPDX-License-Identifier: CC-BY-NC-ND-4.0
+# © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+# https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.es
