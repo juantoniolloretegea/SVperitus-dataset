@@ -1,57 +1,28 @@
-> **Nota**: El Sistema Vectorial SV está trabajando en la actualización de dominios como necesidad y evolución natural del [Lenguaje de computación del SV](https://lenguaje-sv.itvia.online/). Cuando estas evoluciones estén más allá de la fase experimental, en la que se encuentran ahora en ramas auxiliares de I+D+i, se declararán aquí. De manera que sigue vigente el contenido de este README, pero matizado por esta nota de fecha **04/09/2026**.
+# Dominios: conocimiento y Universos
+
+**Revisión documental: 29 de octubre de 2026.**
+
+Esta carpeta conserva los expedientes de conocimiento, Universos y antecedentes de los dominios del Sistema Vectorial SV. La carpeta [agentes](../agentes/README.md) identifica a los Agentes Especializados y sus fases. La constitución del conocimiento y la definición del agente cumplen funciones complementarias y mantienen sus propias fuentes, versiones y condiciones de recepción.
+
+## Organización y referencias
+
+| Dominio | Documentación y alcance |
+| --- | --- |
+| [Inmunología](inmunologia/) | Marco de Universos, subdominios y módulos; mapa profesional de operaciones candidatas; expedientes de conocimiento y delimitación de OP-IMM-001. El [capítulo de Inmunología](https://documentos-sv.itvia.online/dominios/universos/inmunologia.html) explica sus versiones, exclusiones y condiciones de uso. |
+| [Ciberseguridad Inteligente](ciberseguridad-inteligente/) | Expedientes del dominio y del Universo OP-CYB-001, referido a la evidencia y legitimidad de corregir una vulnerabilidad mediante actualización. El [capítulo de Ciberseguridad](https://documentos-sv.itvia.online/dominios/universos/ciberseguridad.html) distingue ese objeto del alcance previsto del agente y de su realización material. |
+
+El [libro de Dominios y Universos](https://documentos-sv.itvia.online/dominios/universos/conceptos.html) mantiene las definiciones comunes. La [relación entre alcance y acceso](../agentes/ALCANCE-Y-ACCESO.md) distingue el dominio completo de referencia, sus delimitaciones expresas, las operaciones constituidas y los permisos. Cada consulta utiliza el conocimiento y las dependencias pertinentes a su objeto, dentro de las facultades concedidas.
+
+## Constitución, recepción y continuidad
+
+Una definición documental, un inventario de conocimiento, una ejecución comprobada y una autorización de uso son estados distintos. La existencia de una carpeta o de un espacio de trabajo no acredita que todo el dominio esté constituido ni que sus operaciones puedan ejecutarse sobre casos reales.
+
+Las actualizaciones conservan la identidad de los Universos, sus fuentes y contratos. Una reorganización de rutas debe comprobar todas sus referencias y mantener la recuperación de las versiones anteriores; no permite retirar expedientes o evidencias necesarios. El historial de Git conserva las ediciones previas de esta portada.
+
+## Referencia documental común
+
+La [copia del acta sobre rutas de conocimiento, consejo auditable e incorporación de conocimiento](ACTA_EVALUACION_Y_RECEPCION_DOCUMENTAL_RUTAS_CONOCIMIENTO_SV_2026_09_14.md), recibida el 14 de septiembre de 2026, mantiene su [sede de referencia en Calidad del Lenguaje](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/calidad/tuberias-ia/frame-significado-humano-trazabilidad-y-fidelidad/ACTA_EVALUACION_Y_RECEPCION_DOCUMENTAL_RUTAS_CONOCIMIENTO_SV_2026_09_14.md). Conserva la función auxiliar de la inteligencia artificial (IA) de lenguaje probabilístico y la obligación de entregar trazabilidad y justificar el consejo al experto. Su recepción documental no constituye un agente, una operación clínica nueva ni una autorización productiva.
 
 ---
 
-# Dominios — rastro histórico temporal del ecosistema aplicado
-
-**Fecha y Versión: V.1 del conjunto**  
-**Fecha:** 4 de abril de 2026  
-**Versión del conjunto:** V.1 del conjunto  
-**Autor del corpus:** Juan Antonio Lloret Egea  
-**ORCID:** 0000-0002-6634-3351  
-**Institución:** ITVIA — IA eñ™  
-**ISSN:** 2695-6411  
-**Licencia:** CC BY-NC-ND 4.0  
-**Titularidad y autoría:** © Juan Antonio Lloret Egea, 2026. Este conjunto se distribuye con atribución explícita de autoría y bajo la licencia indicada, sin autorización para apropiación de la paternidad intelectual del Sistema Vectorial SV.  
-
----
-
-
-Esta carpeta ya no constituye la lectura canónica principal de `SVperitus`.
-
-Su función actual es únicamente **absorber accesos residuales** y **vigilar enlaces rotos** durante un último tramo controlado posterior a la reordenación canónica ya fijada:
-
-`agentes especializados → fases → artefactos → aplicaciones`
-
-## Estatuto
-
-- no crea doctrina nueva;
-- no sustituye a `agentes/` como sede canónica de primer nivel;
-- no debe usarse ya como sede de construcción viva de nuevos frentes;
-- y su permanencia sólo se justifica como capa de transición temporal y verificable.
-
-## Régimen temporal de retirada
-
-A fecha **26/03/2026**, la antigua ruta inmunológica de `dominios/inmunologia/` queda fuera de uso como sede canónica.
-
-Se mantiene visible **únicamente hasta el 26/04/2026** para:
-
-- absorber accesos residuales;
-- reducir desorientación humana;
-- y vigilar enlaces rotos o referencias externas no actualizadas.
-
-Transcurrido ese plazo, la retirada del cascarón histórico deberá consumarse.
-
-## Estado actual
-
-La sede canónica vigente del frente inmunológico es ya:
-
-- [`agentes/inmunologia/`](../agentes/inmunologia/)
-- [subpuerta del agente](../agentes/inmunologia/index.html)
-
-La antigua ruta `dominios/inmunologia/` debe leerse desde ahora como **señal de tránsito temporal**, no como sede viva del agente.
-
-
-## Recepción documental excepcional · 14/09/2026
-
-Se incorpora, por autorización expresa, una [copia del acta sobre rutas de conocimiento, consejo auditable e incorporación de conocimiento](ACTA_EVALUACION_Y_RECEPCION_DOCUMENTAL_RUTAS_CONOCIMIENTO_SV_2026_09_14.md). Su [sede de referencia es Calidad del Lenguaje](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/calidad/tuberias-ia/frame-significado-humano-trazabilidad-y-fidelidad/ACTA_EVALUACION_Y_RECEPCION_DOCUMENTAL_RUTAS_CONOCIMIENTO_SV_2026_09_14.md). La copia conserva el alcance documental aprobado, la precisión sobre IA de lenguaje probabilístico en función auxiliar y la obligación de entregar trazabilidad completa y justificar el consejo al experto. No constituye un agente, una nueva operación clínica ni una autorización productiva. Este depósito se limita a la ocasión autorizada.
+© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
