@@ -1,6 +1,6 @@
 # Alcance de los agentes, dominios y autorizaciones de acceso
 
-29 de octubre de 2026 · Versión documental 1.0.
+29 de octubre de 2026 · Versión documental 1.1.
 
 ## Ámbito de conocimiento y recorrido de una consulta
 
@@ -17,6 +17,16 @@ El [Estatuto del universo de sucesos](https://www.itvia.online/pub/estatuto-del-
 Cada declaración operativa debe identificar agente, fase, versión de la Instrucción Técnica de Implementación (ITI), alcance asignado, operaciones y relaciones constituidas, fuentes y versiones, límites y condiciones de recepción. Los Fundamentos y la Carta Magna mantienen sus funciones propias; ninguna página de acceso sustituye su concurrencia.
 
 La denominación de un dominio, la presencia de una plantilla o la existencia de una carpeta no acreditan que todas sus operaciones estén constituidas, comprobadas o autorizadas. Un ejemplo celular tampoco fija la dimensión de todas las operaciones futuras del dominio.
+
+## Arquitectura transversal y derechos del experto
+
+Los pilares del SV conservan su autoridad. La exposición conceptual y arquitectónica de las publicaciones y la construcción material del Gestor pertenecen a planos relacionados, pero distintos. La primera no acredita por sí sola una función ejecutada; la segunda debe justificar sus decisiones técnicas y demostrar que no contradice los fundamentos. Una realización pendiente no se presenta como contradicción ni como cumplimiento, y una decisión de implementación compatible no redefine el álgebra.
+
+Los [Fundamentos, exigencias y arquitectura general](https://www.itvia.online/pub/fundamentos-exigencias-y-arquitectura-general-de-los-agentes-especializados-en-el-sistema-vectorial-sv-formulacion-transversal-desde-el-caso-director-del-agente-especializado-en-inmunologia/release/1), en sus apartados VI, IX, X y XIII, exigen distinguir el plano interno determinista, la interacción externa subordinada y el acoplamiento custodial. La lectura de una fuente externa no le concede autoridad para modificar reglas, parámetros ni registros estables del núcleo.
+
+El experto debe poder consultar la estructura que sustenta la salida, sus fuentes, las posiciones indeterminadas y la razón de su permanencia en U. Una corrección competente se conserva como nuevo suceso, sin reescribir el anterior. La asistencia de inteligencia artificial no sustituye el juicio profesional ni autoriza cierres por plausibilidad.
+
+La incorporación extrínseca conserva un prefiltro SV(9,3), una custodia SV(16,4), el regulador constituido por dominio y la autorización humana final. Las dos células tienen funciones distintas y no forman una célula única de veinticinco posiciones. El [capítulo de metodología](https://documentos-sv.itvia.online/dominios/universos/metodologia.html#incorporacion-extrinseca) explica la relación con la biblioteca y remite al régimen de contrastes de la fuente. La presentación de esta arquitectura no acredita que sus controles estén realizados o recibidos.
 
 ## Tres ámbitos que no deben confundirse
 
@@ -38,6 +48,8 @@ La presentación debe hacer visibles el dominio seleccionado, el acceso disponib
 
 La sincronización requiere reutilizar la identidad y los registros vigentes del Gestor, sin otra cuenta ni una autorización paralela. La decisión efectiva se comprueba en el servidor para cada operación y revisión; no depende de que una opción aparezca en pantalla. La adaptación de la presentación no modifica por sí sola los registros existentes.
 
+El espacio de trabajo debe permitir reconocer agente, fase e instrucción vigente, dominio y operación, biblioteca efectivamente utilizada, condiciones de investigación y límites recibidos. La ayuda debe conducir a los cuatro documentos competentes. Los hallazgos externos deben mostrar su estado de revisión y custodia separado del conocimiento admitido; los controles pendientes se identifican como tales y no se presentan como acciones disponibles. La estructura y las evidencias deben poder consultarse sin imponer su apertura permanente sobre el trabajo del experto.
+
 ## Biblioteca, procedimientos y ensayos
 
 El [capítulo de Biblioteca y Procedimientos del libro de Ensayo y observabilidad](https://github.com/juantoniolloretegea/SV-motor/blob/ea46c1172babab09833646e54acac85f71039e7e/laboratorio/ensayo-ia-y-observabilidad/biblioteca-y-procedimientos.md) desarrolla la biblioteca admitida, la dinámica forense y los procedimientos de consulta. El procedimiento Pasivo (P1) excluye navegación y herramientas de Internet; el transporte mediante interfaz de programación de aplicaciones (API) requiere autorización propia. El procedimiento Activo (P2) exige autorización específica de investigación. Sus hallazgos no se incorporan automáticamente al conocimiento admitido.
@@ -53,3 +65,4 @@ Este documento delimita las relaciones y sus requisitos. No constituye un acta d
 ---
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+

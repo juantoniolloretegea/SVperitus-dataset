@@ -1,6 +1,6 @@
 # Agente especializado en Inmunología
 
-**Revisión editorial:** 29 de octubre de 2026. Antecedentes de fases conservados; alcance y autorización diferenciados.
+**Revisión editorial:** 29 de octubre de 2026. IMMUNO-1 e IMMUNO-2 son borradores históricos pendientes de actualización; no describen capacidades vigentes ni autorizan uso clínico.
 
 **Fecha y Versión: V.1 del conjunto**  
 **Fecha:** 4 de abril de 2026  
@@ -21,15 +21,11 @@ No crea un agente nuevo distinto del que ya venía materializándose históricam
 
 **agente → fases → artefactos → aplicaciones**
 
-## Estatuto
+## Fundamento y estado documental
 
-El Agente especializado en Inmunología no nació con el mapa completo ya cerrado. Por ello:
+El agente se rige conjuntamente por el Estatuto, la Instrucción Técnica de Implementación (ITI), los Fundamentos y la Carta Magna, con las funciones propias de cada documento. La [arquitectura transversal y los derechos del experto](../ALCANCE-Y-ACCESO.md#arquitectura-transversal-y-derechos-del-experto) delimitan la separación de planos, la custodia de material externo y la autoridad humana final.
 
-- la **Fase I** corresponde al antecedente históricamente publicado como `IMMUNO-1`;
-- la **Fase II** surge de necesidades detectadas durante la maduración posterior del agente;
-- y el **compositor** nace específicamente del desarrollo de la Fase II.
-
-Nada de ello debe leerse como “módulos” empresariales ni como agentes separados.
+Las capacidades actuales deben identificarse mediante las definiciones del dominio y las revisiones efectivamente recibidas. No se deducen de las antiguas fases, de una demostración interactiva ni del nombre del agente.
 
 ## Condición basal de custodia
 
@@ -44,9 +40,9 @@ Para ayudar a la comprensión humana del ámbito inmunológico, esta sede incorp
 
 - `index.html`
 
-Su función es ofrecer, con lenguaje editorial sobrio y con remisión ordenada a documentos y componentes vigentes, una entrada específica al agente, a sus fases, a sus capacidades actuales y a sus piezas de uso.
+Su función es orientar hacia el dominio, el alcance documentado y el espacio de trabajo, separándolos de las demostraciones y borradores históricos.
 
-## Estructura canónica abierta
+## Estructura histórica conservada
 
 - `fase_1/`
 - `fase_2/`
@@ -57,7 +53,7 @@ Su función es ofrecer, con lenguaje editorial sobrio y con remisión ordenada a
 
 El alcance de referencia es el dominio completo de Inmunología, salvo delimitación expresa en la definición del agente. Esta referencia no implica que cada consulta recorra toda la especialidad ni acredita que todas sus operaciones estén constituidas. Se aplica la [delimitación común de alcance, fases y acceso](../ALCANCE-Y-ACCESO.md).
 
-Los antecedentes IMMUNO-1 e IMMUNO-2 conservan las definiciones y las células de sus respectivas fases. No deben identificarse automáticamente con el Universo OP-IMM-001 ni extender sus parámetros o resultados a toda la especialidad.
+IMMUNO-1 e IMMUNO-2 conservan estructuras y propuestas de una etapa anterior. Son borradores históricos incompletos, pendientes de actualización; no constituyen la descripción vigente de las capacidades del agente. Su documentación, compositor y demostraciones se conservan para consulta de antecedentes. No se identifican con el Universo OP-IMM-001 ni se trasladan sus parámetros o resultados a toda la especialidad.
 
 El [capítulo de Inmunología del libro de Dominios y Universos](https://documentos-sv.itvia.online/dominios/universos/inmunologia.html) describe OP-IMM-001 y enlaza su expediente: información predecisional pertinente antes de iniciar tratamiento inmunosupresor en adultos. Conserva sus exclusiones y la prohibición de uso con datos reales mientras falten las validaciones y configuraciones exigidas.
 
@@ -72,3 +68,4 @@ Las condiciones de biblioteca, investigación y admisión documental se desarrol
 ---
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+
