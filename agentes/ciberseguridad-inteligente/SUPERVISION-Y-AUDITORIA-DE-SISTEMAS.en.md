@@ -1,6 +1,6 @@
 # System monitoring and auditing: case records, tools and subordinate assistance
 
-2 November 2026 · Documentary revision 1.0.
+2 November 2026 · Documentary revision 1.1.
 
 This chapter defines monitoring and auditing requirements for the Intelligent Cybersecurity Specialised Agent. Actual enablement is recorded for each installation through its accepted coverage, configuration and limitations. This specification does not itself establish continuous monitoring, active prevention or acceptance of all described capabilities.
 
@@ -12,11 +12,15 @@ The agent distinguishes its own operating scope from an external scope subject t
 
 Cross-domain security monitoring may protect Immunology and other resources under SV governance. It does not create reciprocal access to case records, documents, credentials or conversations. A model receives only specifically authorised content. Administrative functions, security observation and intervention retain separate permissions.
 
+Each installation has a stable identity and identifies its owner: SV itself or an institution using SV. Each scope and case record retain that identity and the responsible authority, together with the person and role that authorised the operation. Installing SV at an institution does not make its resources SV-owned or assign their monitoring to the system's administration. Authorisation defines operations, resources, validity and delegation; a domain name or role label does not replace its verification.
+
 ## Case records and traceability
 
 Each operation is linked to a stable case record identifying its internal or external scope and its purpose: monitoring, preventive auditing or incident response. The record identifies authoriser, executor, reason, owner, technical boundaries, validity, stop conditions, tool versions, admitted sources, processed data and evidence destination. Scope extensions are recorded before use; reachability does not establish authority.
 
 Authorisation, execution, observation and outcome remain distinct. Evidence identifies the resource, source, event and acquisition times, integrity and relationship to the original. A process identifier is distinguished from a particular process creation instance. Losses, duplicates, attribution conflicts and unobserved periods remain visible.
+
+SV records preserve events by appending them: a new event neither replaces nor merges with an earlier event because it has the same parameters in a cell or frame. A correction constitutes a new event linked to its antecedent. The current-state view may be reconstructed from the history; updating that view does not authorise rewriting events. This logical property is distinct from the storage medium's physical preservation guarantees, which require verification in each deployment.
 
 An external assessment establishes which monitoring exists and since when. A tool's current presence does not establish its operation during an earlier incident. Third-party records retain their provenance. Missing records do not establish absence of activity or a satisfactory result.
 
@@ -26,6 +30,7 @@ Acquisition integrates operating-system, process, communication and hardware-rea
 
 Each stream retains a minimum evidence contract:
 
+- Observed source status and its date, separately from accredited coverage, its acceptance and limitations.
 - Resource, scope, source, collector version and effective configuration.
 - Boot identity and, for processes, identifier and creation time.
 - Event, acquisition and reception times, time zone and synchronisation quality; sequence and monotonic time within a run, where available.
@@ -61,6 +66,14 @@ The tool inventory records purpose, version, licence, verified origin, privilege
 
 Third-party tools may observe or intervene through bounded contracts. SV governance, authorisation, admissibility, constituted interpretation and independent stopping remain in its Rust implementation. Tool and model outputs are untrusted inputs: they cannot alter controls or execute as instructions. Rust implementation alone does not guarantee security.
 
+Every artificial intelligence model, including one assigned the Defender Profile (PD), must remain outside the nucleus's authority and protected resources. Collectors and applications are integrated through bounded interfaces: input identity and origin, format, size, permitted resources, validity, observation loss and stop conditions. Untrusted output cannot select an executable, grant itself permissions or replace trusted configuration.
+
+A foreign function interface (FFI) is appropriate only when native integration requires it; a tool's name does not establish that need. Where required, review covers the memory contract, data ownership and lifetime, privileges, errors, interruption and prevention of access to unrelated resources. Neither a process boundary nor a foreign function interface establishes material confinement by itself.
+
+Time, statistics, opaque inference and data mining are not incorporated as primitives or decision-making authority of the nucleus. Authorised third-party integration through a foreign function interface (FFI) preserves that boundary: results require identification, provenance and admission and do not replace constituted rules or the relevant ternary pronouncement. Monitoring clocks, deadlines and time measurements serve an instrumental purpose, as defined by SV sources; they do not alter its algebra or the identity of its events.
+
+The [Record 008 on signed admission and in-process composition](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ed93885589015d567905d1c880d8097869310085/docs/calidad/tuberias-ia/continuacion-15-09-2026/ACTA_008_ADMISION_FIRMADA_Y_COMPOSICION_INTRAPROCESO_2026_10_19.md) retains its stated scope: it accepts a bounded optional composition while leaving effective institutional recognition, R2 continuity and R3 material confinement pending. Monitoring does not establish acceptance of those capabilities, alter grammar or intermediate representation (IR), or turn a signature, hash or observation result into professional authority.
+
 Virtual machines help delimit environments and recover them; they establish neither isolation against every technique nor physical hardware coverage. Network tests establish permitted and prohibited crossings, exposed services and cleanup of owned resources. Boot-time protection retains [its separate specification and acceptance](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/main/agentes/ciberseguridad-inteligente/PROTECCION-DESDE-EL-ARRANQUE.md).
 
 ## Routes, evidence and representation
@@ -86,3 +99,4 @@ As technical references, the [United States National Institute of Standards and 
 The operating guide is available in the authorised Manager workspace. This chapter retains common requirements; scope, procedures, routes and custody remain defined by their linked sources.
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+

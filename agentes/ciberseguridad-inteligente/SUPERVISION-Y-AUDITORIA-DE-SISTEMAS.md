@@ -1,6 +1,6 @@
 # Supervisión y auditoría de sistemas: expedientes, herramientas y asistencia subordinada
 
-2 de noviembre de 2026 · Revisión documental 1.0.
+2 de noviembre de 2026 · Revisión documental 1.1.
 
 Este capítulo define los requisitos de supervisión y auditoría del Agente Especializado en Ciberseguridad Inteligente. La habilitación efectiva se declara para cada instalación mediante su cobertura recibida, configuración y límites. Esta especificación no acredita por sí misma supervisión permanente, prevención activa ni recepción de todas las capacidades descritas.
 
@@ -12,11 +12,15 @@ Se distinguen el ámbito propio de operación y el ámbito externo objeto de int
 
 La supervisión transversal puede proteger recursos de Inmunología y otros dominios instalados bajo el SV. No concede acceso recíproco a expedientes, documentos, credenciales ni conversaciones. El modelo sólo recibe el contenido específicamente autorizado para su actuación. Una función administrativa, una lectura de seguridad y una intervención conservan permisos distintos.
 
+La instalación se identifica de forma estable y declara su titular: el propio SV o una institución que lo utiliza. Cada ámbito y expediente conservan esa identidad y la del responsable competente, junto con la persona y la función que autorizaron la actuación. Instalar el SV en una institución no convierte sus recursos en recursos del SV ni atribuye su supervisión a la administración del sistema. La autorización delimita acciones, recursos, vigencia y delegación; un nombre de dominio o una etiqueta de perfil no sustituyen su comprobación.
+
 ## Expediente y trazabilidad
 
 Toda actuación se vincula a un expediente estable, con ámbito interno o externo y finalidad de supervisión, auditoría preventiva o respuesta a incidentes. Su registro identifica quién autorizó, quién ejecutó, motivo, titular y límites técnicos, vigencia, condiciones de interrupción, herramientas y versiones, fuentes admitidas, datos tratados y destino de las evidencias. La extensión de alcance se registra antes de su uso; no se deduce de que una dirección sea alcanzable.
 
 Se conservan por separado autorización, ejecución, observación y resultado. Cada evidencia identifica recurso, fuente, instante del suceso y de adquisición, integridad y relación con el original. Para los procesos se distingue su identificador de su instancia concreta de creación. Las pérdidas, duplicados, conflictos de atribución y periodos sin observación permanecen visibles.
+
+El registro del SV conserva los sucesos por anexado: un nuevo suceso no sustituye ni fusiona otro anterior por presentar los mismos parámetros en una célula o marco. Una rectificación constituye un nuevo suceso vinculado al antecedente. La vista del estado vigente puede reconstruirse a partir del historial; actualizar esa vista no autoriza a reescribir los sucesos. Esta propiedad lógica se distingue de las garantías físicas de conservación del soporte, que deben comprobarse en cada implantación.
 
 En un sistema externo se comprueba qué observación existe y desde cuándo. La instalación actual de un programa no prueba su presencia durante un incidente anterior. Los registros aportados por terceros mantienen esa procedencia. La falta de registros no demuestra ausencia de actividad ni se transforma en un resultado satisfactorio.
 
@@ -26,6 +30,7 @@ La adquisición integra las fuentes del sistema operativo, los procesos, las com
 
 Cada flujo conserva un contrato mínimo de evidencia:
 
+- Estado observado de la fuente y su fecha, separados de la cobertura acreditada, su recepción y sus limitaciones.
 - Recurso, ámbito, fuente, versión del recolector y configuración efectiva.
 - Identidad del arranque y, para procesos, identificador y momento de creación.
 - Tiempo del suceso, adquisición y recepción, zona horaria y calidad de sincronización; secuencia y tiempo monotónico dentro de una ejecución, cuando estén disponibles.
@@ -61,6 +66,14 @@ El inventario de instrumentos declara función, versión, licencia, procedencia 
 
 Las herramientas de terceros pueden observar o intervenir mediante contratos acotados. El gobierno del SV, las autorizaciones, la admisibilidad, la interpretación constituida y la parada independiente permanecen en su realización en Rust. La salida de una herramienta o de un modelo es una entrada no confiable: no modifica controles ni se ejecuta como una instrucción. Estar escrito en Rust no constituye por sí solo una garantía de seguridad.
 
+Toda inteligencia artificial, incluida la que desempeñe el Perfil defensor (PD), debe permanecer fuera de la autoridad del núcleo y de sus recursos protegidos. Los recolectores y aplicaciones se integran mediante fronteras delimitadas: identidad y origen de la entrada, formato, tamaño, recursos permitidos, vigencia, pérdida de observación y condiciones de interrupción. Una salida no confiable no puede escoger el programa ejecutable, concederse permisos ni sustituir la configuración de confianza.
+
+Una interfaz de funciones externas (FFI) sólo procede cuando la integración nativa la necesita; no se añade por el nombre de una herramienta. En ese caso se revisan el contrato de memoria, la titularidad y duración de los datos, los privilegios, los errores, la interrupción y la imposibilidad de alcanzar recursos ajenos. Una frontera de proceso o una interfaz de funciones externas no acreditan por sí mismas el confinamiento material.
+
+El tiempo, la estadística, la inferencia opaca y la minería de datos no se incorporan como primitivas ni como autoridad decisoria del núcleo. La integración autorizada de terceros mediante una interfaz de funciones externas (FFI) conserva esa frontera: sus resultados requieren identificación, procedencia y admisión y no sustituyen las reglas constituidas ni el pronunciamiento ternario correspondiente. Los relojes, plazos y mediciones temporales de la supervisión cumplen una función instrumental, conforme a las fuentes del SV; no alteran su álgebra ni la identidad de sus sucesos.
+
+El [Acta 008 de admisión firmada y composición intraproceso](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ed93885589015d567905d1c880d8097869310085/docs/calidad/tuberias-ia/continuacion-15-09-2026/ACTA_008_ADMISION_FIRMADA_Y_COMPOSICION_INTRAPROCESO_2026_10_19.md) conserva su alcance: recibe una composición opcional delimitada y mantiene pendientes el reconocimiento institucional efectivo, la continuidad R2 y el confinamiento material R3. Esta supervisión no declara recibidas esas capacidades, no altera gramática ni representación intermedia (IR), y no convierte una firma, una huella o un resultado de observación en autoridad profesional.
+
 Una máquina virtual delimita un entorno y facilita su recuperación; no acredita aislamiento frente a todas las técnicas ni observación del hardware físico. Las pruebas de red deben acreditar los cruces permitidos y prohibidos, los servicios expuestos y la retirada de los recursos propios. La protección desde el arranque mantiene [su especificación y recepción separadas](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/main/agentes/ciberseguridad-inteligente/PROTECCION-DESDE-EL-ARRANQUE.md).
 
 ## Rutas, evidencia y representación
@@ -86,3 +99,4 @@ Como referencias técnicas, el [Instituto Nacional de Estándares y Tecnología 
 La guía de uso se consulta en el espacio autorizado del Gestor. Este capítulo conserva los requisitos comunes; las definiciones de alcance, procedimientos, rutas y custodia permanecen en sus fuentes enlazadas.
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+
