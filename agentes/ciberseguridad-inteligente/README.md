@@ -20,6 +20,10 @@ La especificación [Protección desde el arranque y preservación del núcleo](P
 
 Su recepción material y la suficiencia de su custodia basal permanecen pendientes en la edición referenciada. No se declara protección instalada, control completo del hardware ni capacidad para intervenir en infraestructuras ajenas. Toda inteligencia artificial (IA), incluida la que ejerza el Perfil defensor (PD), permanece subordinada a las fronteras del núcleo.
 
+## Supervisión y auditoría de sistemas
+
+El capítulo [Supervisión y auditoría de sistemas](SUPERVISION-Y-AUDITORIA-DE-SISTEMAS.md) define ámbitos autorizados, expedientes, contrato de evidencia, continuidad de observación, herramientas y asistencia subordinada. Se ofrece también su [versión inglesa](SUPERVISION-Y-AUDITORIA-DE-SISTEMAS.en.md). Es una especificación de requisitos: la presencia de un panel o de un recolector no acredita supervisión permanente, prevención activa ni cobertura completa. Cada instalación debe declarar lo efectivamente recibido y sus límites.
+
 ## Acceso y evaluación
 
 El [espacio de Ciberseguridad](https://sv.itvia.online/inicio/agentes/ciberseguridad) ofrece una superficie de trabajo. Las [autorizaciones del dominio](https://sv.itvia.online/inicio/acceso-agentes/ciberseguridad) delimitan facultades y uso; la entrada a una página no concede permisos de ejecución.
@@ -33,3 +37,4 @@ Se aplican el [patrón común del agente](../../especificaciones/patron_agente_e
 ---
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+
